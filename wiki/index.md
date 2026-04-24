@@ -14,7 +14,18 @@ This page catalogs every wiki page by category. Each entry is one line: `- [[pat
 
 ## Ingredients
 
-_None yet._
+Top cadmium-accumulating commodities stubbed for the next ingest wave. Each page carries a `contamination_profile` block with `status: pending` until commodity-level ingests populate the values.
+
+- [[ingredients/rice]] — grain; top population-level Cd contributor; bran > endosperm (stub).
+- [[ingredients/wheat]] — grain; top population-level Cd contributor; bran/germ > endosperm (stub).
+- [[ingredients/cocoa]] — tree-crop; JECFA 91st 2022 finding saturates child PTMI at 96 percent (stub).
+- [[ingredients/chocolate]] — processed confectionery; inherits Cd from cocoa-solid fraction (stub).
+- [[ingredients/spinach]] — leafy vegetable; efficient Cd leaf accumulator (stub).
+- [[ingredients/potatoes]] — starchy root; population-level contributor through volume (stub).
+- [[ingredients/sunflower-seeds]] — oilseed; efficient Cd accumulator, phytoremediation-candidate species (stub).
+- [[ingredients/organ-meats]] — kidney and liver; biological Cd-accumulation sites in food animals (stub).
+- [[ingredients/bivalve-molluscs]] — shellfish; highest mean Cd concentration in EFSA dataset (stub).
+- [[ingredients/wild-mushrooms]] — fungi; efficient Cd accumulator, wild > cultivated (stub).
 
 ## Product categories
 
