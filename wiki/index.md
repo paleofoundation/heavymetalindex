@@ -21,7 +21,10 @@ _None yet._
 
 ## Regulations
 
-- [[regulations/fda-closer-to-zero]] — FDA Closer to Zero action plan, metals in food for babies and young children (US) (stub, 0 sources).
+- [[regulations/fda-closer-to-zero]] — FDA Closer to Zero program overview, metals in food for babies and young children (US) (stub, 0 sources).
+- [[regulations/fda-ctz-Pb-babyfood-10ppb]] — FDA CTZ lead action level, fruits / non-root vegetables / mixtures / yogurts / custards / meats in baby food (US) (stub, 0 sources).
+- [[regulations/fda-ctz-Pb-rootveg-20ppb]] — FDA CTZ lead action level, single-ingredient root vegetables in baby food (US) (stub, 0 sources).
+- [[regulations/fda-ctz-Pb-cereal-20ppb]] — FDA CTZ lead action level, dry infant cereals (US) (stub, 0 sources).
 - [[regulations/oehha-cadmium-prop65]] — California Prop 65 cadmium listing and MADL (US-CA) (stub, 0 sources).
 - [[regulations/epa-iris-cadmium-rfd]] — EPA IRIS oral reference dose for cadmium (US) (stub, 0 sources).
 - [[regulations/efsa-cadmium-twi]] — EFSA CONTAM Panel tolerable weekly intake for cadmium (EU) (stub, 0 sources).
