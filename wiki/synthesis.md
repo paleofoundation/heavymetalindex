@@ -28,6 +28,18 @@ The ATSDR 2012 Toxicological Profile, ingested on 2026-04-24, makes this a three
 
 ATSDR explicitly notes in the 2012 profile that its chronic oral MRL is below typical US dietary cadmium intake (approximately 0.3 µg/kg/day per Choudhury et al. 2001), and that the UCDL10 point of departure is only twofold above the CDC 2011 US adult geometric mean urinary cadmium concentration (0.247 µg/g creatinine). This is itself a load-bearing fact for the wiki and for any certification defensibility story: the most conservative major reference value for dietary cadmium is derived by a US public health agency that acknowledges its own reference value is below typical US exposure, not above it.
 
+Codex CCCF17 (April 2024) did not produce a new health-based value but documents two developments that matter for the synthesis. First, the Committee forwarded a new Codex ML for cadmium in quinoa at 0.15 mg/kg for CAC47 adoption, selected under ALARA with one delegation citing that "in their region, the tolerable weekly intake (TWI) was exceeded for many consumers" (paragraph 117). This is a Codex-internal acknowledgment of the EFSA TWI as the operative regional reference value that exposure is already exceeding, not the JECFA PTMI. It is a small but meaningful signal that Codex CCCF deliberations are not uniformly anchored to the PTMI even though the PTMI is formally the health-based guidance value Codex MLs are derived against. Second, CCCF17 initiated new work on a broader Code of Practice for the Prevention and Reduction of Cadmium Contamination in Foods, extending CXC 81-2022 (the existing Cocoa Beans CoP) to potential annexes for rice, cereals and cereal products, vegetables, fish, and seafood. The commodity list aligns with the major population-level contributors identified across the EFSA, JECFA, and ATSDR ingests, confirming cross-body convergence on what drives dietary cadmium exposure.
+
+### Codex standards provenance gaps
+
+Raised during ingest of [[sources/codex-cccf17-2024]] on 2026-04-24.
+
+CCCF17 is a session report, not a standards text. The operative matrix-level Codex cadmium MLs live in Codex Standard CXS 193-1995 (General Standard for Contaminants and Toxins in Food and Feed), which is not in the current corpus. Until CXS 193-1995 is ingested, the wiki cannot state specific Codex ML values for rice, cereals, leafy vegetables, edible offal, bivalve molluscs, or other matrices. CXC 81-2022 (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans) is also pending ingest and is the precedent for the newly-initiated broader cadmium CoP work. The regulation page [[regulations/codex-cadmium-mls]] flags both as pending.
+
+To resolve:
+- Ingest CXS 193-1995 and its current amendments for the full matrix-level Codex Cd ML table.
+- Ingest CXC 81-2022 for the Cocoa Beans Code of Practice, which aligns with the JECFA 91st meeting cocoa finding already captured in [[sources/jecfa-91st-cadmium-2022]].
+
 To resolve before the cadmium synthesis is written:
 - Ingest the EFSA 2011 reaffirming statement (pending raw PDF availability).
 - Ingest the JECFA 73rd meeting primary derivation documents (2010 monograph and WHO TRS 960, pending).
