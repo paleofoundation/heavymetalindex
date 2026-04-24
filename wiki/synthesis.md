@@ -30,6 +30,19 @@ ATSDR explicitly notes in the 2012 profile that its chronic oral MRL is below ty
 
 Codex CCCF17 (April 2024) did not produce a new health-based value but documents two developments that matter for the synthesis. First, the Committee forwarded a new Codex ML for cadmium in quinoa at 0.15 mg/kg for CAC47 adoption, selected under ALARA with one delegation citing that "in their region, the tolerable weekly intake (TWI) was exceeded for many consumers" (paragraph 117). This is a Codex-internal acknowledgment of the EFSA TWI as the operative regional reference value that exposure is already exceeding, not the JECFA PTMI. It is a small but meaningful signal that Codex CCCF deliberations are not uniformly anchored to the PTMI even though the PTMI is formally the health-based guidance value Codex MLs are derived against. Second, CCCF17 initiated new work on a broader Code of Practice for the Prevention and Reduction of Cadmium Contamination in Foods, extending CXC 81-2022 (the existing Cocoa Beans CoP) to potential annexes for rice, cereals and cereal products, vegetables, fish, and seafood. The commodity list aligns with the major population-level contributors identified across the EFSA, JECFA, and ATSDR ingests, confirming cross-body convergence on what drives dietary cadmium exposure.
 
+### Cadmium cardiovascular endpoint: framing shift between the 2015 Handbook and the 2021 Essentials
+
+Raised during ingest of [[sources/ufelle2021-metals-chapter]] on 2026-04-24.
+
+The Handbook on the Toxicology of Metals chapter 32 (Nordberg, Nogawa, Nordberg 2015) characterizes cadmium's cardiovascular endpoints as contested, with positive and null associations both reported across animal and human studies, and cautions that residual confounding by tobacco smoke cannot be excluded in the positive literature. Casarett & Doull's Essentials of Toxicology chapter 23 (Ufelle and Barchowsky 2021), published six years later, describes a "strong association" between cadmium and peripheral vascular disease and raises the possibility that cadmium partially mediates the negative cardiovascular effect of smoking. The two textbook positions are not in direct contradiction (new epidemiology can accumulate over six years in a direction that would justify stronger language), but they are materially different framings of the same endpoint class.
+
+The wiki records both positions on [[metals/cadmium]] without resolution. This is the correct posture under the CLAUDE.md drift-protection rule: strengthening or softening either position to reconcile them would corrupt the record, whereas presenting the gap honestly preserves the wiki's epistemic authority. The synthesis pass should resolve this by searching the 2015-to-present cardiovascular cadmium literature and determining whether the 2021 stronger framing reflects a real consensus shift or an authorial choice that has not been broadly adopted.
+
+To resolve before the cadmium synthesis is written:
+- Search the 2015-to-present primary literature on cadmium cardiovascular effects, particularly the Tellez-Plaza, Fagerberg, and Navas-Acien cohorts that appear in both source chapters with somewhat different framing.
+- Identify whether any intervening major review, regulatory reassessment, or meta-analysis has explicitly updated the consensus framing.
+- If the literature base has not resolved the question, the wiki should continue to present both positions and explicitly state that the endpoint remains under active investigation.
+
 ### Codex standards provenance gaps
 
 Raised during ingest of [[sources/codex-cccf17-2024]] on 2026-04-24.

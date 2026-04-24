@@ -9,7 +9,7 @@ This page catalogs every wiki page by category. Each entry is one line: `- [[pat
 
 ## Metals
 
-- [[metals/cadmium]] — cadmium in food and supply chain (in progress, 7 sources).
+- [[metals/cadmium]] — cadmium in food and supply chain (in progress, 8 sources).
 - [[metals/lead]] — lead in food and supply chain (stub, 1 source).
 
 ## Ingredients
@@ -73,5 +73,6 @@ _None yet._
 - [[sources/atsdr-cadmium-toxprofile-2012]] — ATSDR, September 2012. Toxicological Profile for Cadmium (evidence tier A).
 - [[sources/codex-cccf17-2024]] — Codex CCCF, April 2024. Report of the 17th Session, REP24/CF17 (evidence tier A).
 - [[sources/nordberg2015-cadmium-chapter]] — Nordberg GF, Nogawa K, Nordberg M, 2015. Cadmium, Ch 32 in Handbook on the Toxicology of Metals, 4th ed., Vol II (evidence tier A, copyright-licensed-private).
+- [[sources/ufelle2021-metals-chapter]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed. (evidence tier A, copyright-licensed-private).
 - [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food (evidence tier A).
 - [[sources/fda-ctz-Pb-babyfood-2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A).
