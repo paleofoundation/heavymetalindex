@@ -7,12 +7,12 @@ audience: [regulator, educator, consumer]
 microbiome_relevance: high
 wikibiome_crosswalk: [cadmium-gut-axis, cadmium-dysbiosis]
 updated: 2026-04-24
-sources: 8
+sources: 9
 ---
 
 # Cadmium
 
-_This page is in active ingestion. The content below reflects the canonical Handbook on the Toxicology of Metals chapter 32 (Nordberg, Nogawa, Nordberg 2015, [[sources/nordberg2015-cadmium-chapter]]), Casarett & Doull's Essentials of Toxicology chapter 23 (Ufelle and Barchowsky 2021, [[sources/ufelle2021-metals-chapter]]), the EFSA 2009 scientific opinion ([[sources/efsa-cadmium-contam-2009]]), the paired California OEHHA Prop 65 documents ([[sources/oehha-cadmium-prop65-evidence-1996]], [[sources/oehha-cadmium-prop65-madl-2001]]), the JECFA 91st meeting dietary exposure assessment ([[sources/jecfa-91st-cadmium-2022]]), the ATSDR 2012 Toxicological Profile ([[sources/atsdr-cadmium-toxprofile-2012]]), and the Codex CCCF17 session report ([[sources/codex-cccf17-2024]]); remaining ingest in the current batch is Patty's Ch 7. Operative 1985 EPA IRIS record, Codex Standard CXS 193-1995, and CXC 81-2022 (Cocoa Beans CoP) are flagged as pending for later ingest waves. Full synthesis across sources will follow the regulatory batch._
+_This page reflects the full initial cadmium batch: the canonical Handbook on the Toxicology of Metals chapter 32 (Nordberg, Nogawa, Nordberg 2015, [[sources/nordberg2015-cadmium-chapter]]), Casarett & Doull's Essentials of Toxicology chapter 23 (Ufelle and Barchowsky 2021, [[sources/ufelle2021-metals-chapter]]), the industrial toxicology reference in Patty's Toxicology chapter 7 (Jakubowski 2012, [[sources/jakubowski2012-zinc-cadmium-chapter]]), the EFSA 2009 scientific opinion ([[sources/efsa-cadmium-contam-2009]]), the paired California OEHHA Prop 65 documents ([[sources/oehha-cadmium-prop65-evidence-1996]], [[sources/oehha-cadmium-prop65-madl-2001]]), the JECFA 91st meeting dietary exposure assessment ([[sources/jecfa-91st-cadmium-2022]]), the ATSDR 2012 Toxicological Profile ([[sources/atsdr-cadmium-toxprofile-2012]]), and the Codex CCCF17 session report ([[sources/codex-cccf17-2024]]). Operative 1985 EPA IRIS record, Codex Standard CXS 193-1995, CXC 81-2022 (Cocoa Beans CoP), JECFA 73rd meeting derivation documents, and the EFSA 2011 reaffirming statement are flagged as pending for later ingest waves. First synthesis pass across all ingested sources is the next planned step._
 
 ## Overview
 
@@ -62,6 +62,8 @@ The 91st meeting of JECFA, convened in November 2020 at the request of the Codex
 
 Cadmium accumulates in plants through root uptake from soil. The use of phosphate fertilizers, which contain cadmium as a trace contaminant of the phosphate rock, has progressively elevated agricultural soil cadmium levels across much of Europe. Local contamination from mining, smelting, and sewage-sludge application can produce substantially higher soil concentrations in hotspot areas, with corresponding elevation in locally produced food.
 
+Industrial cadmium production and use is itself a major upstream driver of environmental cadmium loading. Global cadmium production declined from approximately 22,000 metric tons per year at the early-2000s peak to approximately 16,000 metric tons per year by the 2012 period (Jakubowski 2012). The dominant uses are electrode material in nickel-cadmium batteries (77 percent), pigments (11 percent), protective plating on steel (8 percent), and alloys (4 percent). Ambient air cadmium concentrations reflect this industrial footprint: remote areas at 0.1 to 1 ng/m³, rural areas at 0.1 to 5, urban areas at 1 to 20, with higher concentrations in proximity to cadmium-emitting industrial sources.
+
 _Per-ingredient contamination profiles will populate as ingredient pages are stood up in the next ingest wave. The 140,000-sample EFSA dataset provides high-confidence occurrence data for cereals, leafy vegetables, root vegetables, potatoes, nuts, oilseeds, pulses, meat and offal, fish, molluscs, chocolate, and mushrooms._
 
 ## Regulatory limits
@@ -85,9 +87,11 @@ Reference values and maximum levels established to date, with more to populate a
 
 ## Testing
 
-Analytical methods in use across the occurrence dataset cited by EFSA include inductively coupled plasma mass spectrometry (ICP-MS), graphite furnace atomic absorption spectrometry (GFAAS), and flame atomic absorption spectrometry, with limits of detection and quantification varying across laboratories and matrices. Biomonitoring for exposure assessment typically measures cadmium in whole blood (reflecting recent exposure) or urine (reflecting body burden and cumulative exposure); the EFSA TWI derivation uses urinary cadmium normalized to urinary creatinine as its exposure metric.
+Analytical methods in use across the occurrence and biomonitoring literature span flame atomic absorption spectrometry (FAAS, detection limits 0.8 to 12.5 µg/L), inductively coupled plasma optical emission spectrometry (ICP-OES, detection limits 0.1 to 1 µg/L), graphite furnace atomic absorption spectrometry (GFAAS, detection limits 0.002 to 0.02 µg/L), and inductively coupled plasma mass spectrometry (ICP-MS, detection limits 0.00001 to 0.001 µg/L). The four-order-of-magnitude range in detection limits across methods is material for what wiki claims about cadmium occurrence can actually be supported by individual data points: FAAS data at 20 µg/L and ICP-MS data at 0.1 µg/L both encode "non-detect" by different thresholds, and pooled datasets must be handled carefully to avoid false precision. FDA's Toxic Elements Program uses an ICP-MS method; the ATSDR 2012 profile uses an ICP-MS protocol for biomonitoring; the NIOSH Method 7048 for occupational air cadmium uses flame AAS at 228.8 nm with deuterium background correction, producing a working range of 0.1 to 2 mg/m³ at 25 L air-sample volume.
 
-_Detailed testing method content pending ingest of dedicated testing-method documents and the textbook chapters._
+Biomonitoring for exposure assessment typically measures cadmium in whole blood (reflecting recent exposure with a few-month memory) or urine (reflecting body burden and cumulative exposure over years, normalized to urinary creatinine). The EFSA TWI derivation, the ATSDR chronic oral MRL derivation, and the JECFA PTMI all use urinary cadmium normalized to creatinine as the exposure metric. Reference intervals and clinical action levels for urinary β2-microglobulin as a tubular-dysfunction biomarker use an upper limit of 300 µg/g creatinine (Jakubowski 2012). See [[sources/jakubowski2012-zinc-cadmium-chapter]] for the occupational sampling-procedure detail (NIOSH Method 7048, urine sample handling requirements, matrix-modifier protocols for GFAAS urinary cadmium).
+
+_A dedicated `wiki/testing/` section with detailed method-specific pages will be stood up in a later wave._
 
 ## Microbiome effects
 
@@ -133,5 +137,6 @@ Second, the carcinogenicity dose-response for dietary cadmium at general-populat
 - [[sources/codex-cccf17-2024]] — Codex CCCF, April 2024. Report of the 17th Session (REP24/CF17).
 - [[sources/nordberg2015-cadmium-chapter]] — Nordberg GF, Nogawa K, Nordberg M, 2015. Cadmium. In Handbook on the Toxicology of Metals, 4th ed., Vol II, Ch 32 (Academic Press / Elsevier).
 - [[sources/ufelle2021-metals-chapter]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed. (McGraw Hill).
+- [[sources/jakubowski2012-zinc-cadmium-chapter]] — Jakubowski M, 2012. Zinc and Cadmium Compounds, Ch 7 in Patty's Toxicology, 6th ed. (John Wiley & Sons). Cadmium portion only; zinc portion deferred to future Zn ingest.
 
-_Pending: Patty's Ch 7 (Jakubowski 2012). EPA IRIS deferred (raw is a 1999 draft; operative 1985 record pending). JECFA 73rd meeting primary derivation documents for the PTMI pending. Codex Standard CXS 193-1995 (matrix-level Cd MLs) and CXC 81-2022 (Cocoa Beans CoP) also pending for later ingest waves._
+_Pending for later ingest waves: EPA IRIS (raw is a 1999 draft; operative 1985 record pending), JECFA 73rd meeting primary derivation documents for the PTMI, EFSA 2011 reaffirming statement, Codex Standard CXS 193-1995 (matrix-level Cd MLs), CXC 81-2022 (Cocoa Beans CoP)._
