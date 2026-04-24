@@ -7,12 +7,12 @@ audience: [regulator, educator, consumer]
 microbiome_relevance: high
 wikibiome_crosswalk: [cadmium-gut-axis, cadmium-dysbiosis]
 updated: 2026-04-24
-sources: 1
+sources: 3
 ---
 
 # Cadmium
 
-_This page is in active ingestion. The first substantive content below reflects the EFSA 2009 scientific opinion ([[sources/efsa-cadmium-contam-2009]]); additional sections will populate as the Handbook on the Toxicology of Metals chapter, EPA IRIS review, JECFA monograph, ATSDR profile, OEHHA Prop 65 documents, and Codex CCCF17 report are ingested. Full synthesis across sources will follow the regulatory batch._
+_This page is in active ingestion. The content below reflects the EFSA 2009 scientific opinion ([[sources/efsa-cadmium-contam-2009]]) and the paired California OEHHA Prop 65 documents ([[sources/oehha-cadmium-prop65-evidence-1996]], [[sources/oehha-cadmium-prop65-madl-2001]]); additional sections will populate as the Handbook on the Toxicology of Metals chapter, EPA IRIS review, JECFA monograph, ATSDR profile, and Codex CCCF17 report are ingested. Full synthesis across sources will follow the regulatory batch._
 
 ## Overview
 
@@ -26,7 +26,9 @@ The primary target organ of cadmium toxicity is the kidney, specifically the pro
 
 Cadmium does not interact directly with DNA. Its genotoxicity operates through induction of oxidative stress and inhibition of DNA repair mechanisms. Cadmium causes lung cancer in rats after inhalation exposure. In humans, IARC's Group 1 classification rests on occupational inhalation studies; dietary cadmium's carcinogenic potential at general-population exposure levels remains an area where the dose-response evidence is suggestive but not yet quantitative.
 
-_Additional toxicological detail (mechanism of bone demineralization, immunotoxicity, neurodevelopmental effects, reproductive effects) pending ingest of the Handbook on the Toxicology of Metals chapter 32 (Nordberg, Nogawa, Nordberg, 2015), the EPA IRIS toxicological review, and the ATSDR toxicological profile._
+Developmental and male reproductive toxicity are separate endpoints for which cadmium has been judged a sufficient hazard to warrant listing under California's Proposition 65. The 1996 OEHHA hazard identification document compiled the human and animal evidence: reduced birthweight and pre-term labor correlated with maternal blood or infant hair cadmium in human epidemiology (with the acknowledgment that confounding by lead and tobacco smoking makes isolated cadmium effects difficult to establish), decreased pup birthweight and altered postnatal development in rodents exposed in utero via oral or inhalation routes, and effects on sperm counts, testes weight, and testicular histopathology in male experimental animals. The California DART Identification Committee's determination on the basis of this evidence produced the Prop 65 reproductive-toxicity listing effective May 1997; the 2001 MADL of 4.1 µg/day oral implements that listing. The developmental endpoint (Ali et al. 1986 LOEL of 0.706 mg/kg/day in rats) was controlling because it was more sensitive than the male reproductive endpoint (Laskey et al. 1980 NOEL 1 ppm).
+
+_Additional toxicological detail (mechanism of bone demineralization, immunotoxicity, neurodevelopmental effects, mechanism-level reproductive effects) pending ingest of the Handbook on the Toxicology of Metals chapter 32 (Nordberg, Nogawa, Nordberg, 2015), the EPA IRIS toxicological review, and the ATSDR toxicological profile._
 
 ## Typical exposure routes
 
@@ -55,7 +57,7 @@ Reference values and maximum levels established to date, with more to populate a
 | JECFA (international) | PTMI | Pending ingest | [[regulations/jecfa-cadmium-ptmi]] |
 | US EPA | IRIS oral RfD | Pending ingest | [[regulations/epa-iris-cadmium-rfd]] |
 | US ATSDR | MRLs | Pending ingest | [[regulations/atsdr-cadmium-mrls]] |
-| US California | Prop 65 MADL | Pending ingest | [[regulations/oehha-cadmium-prop65]] |
+| US California | Prop 65 MADL (oral, reproductive toxicity) | 4.1 µg/day | [[regulations/oehha-cadmium-prop65]] |
 | Codex Alimentarius | Maximum levels | Pending ingest | [[regulations/codex-cadmium-mls]] |
 | US FDA | CTZ action levels | Pending ingest | [[regulations/fda-closer-to-zero]] (Pb rules ingested; Cd document pending) |
 
@@ -94,5 +96,7 @@ Second, the carcinogenicity dose-response for dietary cadmium at general-populat
 ## Sources
 
 - [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food.
+- [[sources/oehha-cadmium-prop65-evidence-1996]] — OEHHA, October 1996. Evidence on the Developmental and Reproductive Toxicity of Cadmium.
+- [[sources/oehha-cadmium-prop65-madl-2001]] — OEHHA, May 2001. Prop 65 Maximum Allowable Daily Level for Cadmium (Oral Route).
 
-_Additional sources pending in the current batch: EPA IRIS toxicological review, JECFA monograph, ATSDR toxicological profile, OEHHA Prop 65 evidence + MADL, Codex CCCF17 report, Handbook on the Toxicology of Metals Ch 32 (Nordberg et al. 2015), Casarett Essentials Ch 23 (Ufelle & Barchowsky 2021), Patty's Ch 7 (Jakubowski 2012)._
+_Additional sources pending in the current batch: EPA IRIS toxicological review, JECFA monograph, ATSDR toxicological profile, Codex CCCF17 report, Handbook on the Toxicology of Metals Ch 32 (Nordberg et al. 2015), Casarett Essentials Ch 23 (Ufelle & Barchowsky 2021), Patty's Ch 7 (Jakubowski 2012)._

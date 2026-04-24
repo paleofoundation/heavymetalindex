@@ -9,7 +9,7 @@ This page catalogs every wiki page by category. Each entry is one line: `- [[pat
 
 ## Metals
 
-- [[metals/cadmium]] — cadmium in food and supply chain (in progress, 1 source).
+- [[metals/cadmium]] — cadmium in food and supply chain (in progress, 3 sources).
 - [[metals/lead]] — lead in food and supply chain (stub, 1 source).
 
 ## Ingredients
@@ -26,7 +26,7 @@ _None yet._
 - [[regulations/fda-ctz-Pb-babyfood-10ppb]] — FDA CTZ lead action level, 10 ppb in fruits / non-root vegetables / mixtures / yogurts / custards / single-ingredient meats in processed baby food (US) (1 source).
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]] — FDA CTZ lead action level, 20 ppb in single-ingredient root vegetables in processed baby food (US) (1 source).
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] — FDA CTZ lead action level, 20 ppb in dry infant cereals (US) (1 source).
-- [[regulations/oehha-cadmium-prop65]] — California Prop 65 cadmium listing and MADL (US-CA) (stub, 0 sources).
+- [[regulations/oehha-cadmium-prop65]] — California Prop 65 cadmium reproductive-toxicity listing (1997) and oral MADL 4.1 µg/day (2001) (US-CA) (2 sources).
 - [[regulations/epa-iris-cadmium-rfd]] — EPA IRIS oral reference dose for cadmium (US) (stub, 0 sources).
 - [[regulations/efsa-cadmium-twi]] — EFSA CONTAM Panel tolerable weekly intake for cadmium, 2.5 µg/kg b.w./week (EU) (1 source).
 - [[regulations/jecfa-cadmium-ptmi]] — JECFA provisional tolerable monthly intake for cadmium (international) (stub, 0 sources).
@@ -67,5 +67,7 @@ _None yet._
 
 ## Sources (chronological)
 
+- [[sources/oehha-cadmium-prop65-evidence-1996]] — OEHHA, October 1996. Evidence on the Developmental and Reproductive Toxicity of Cadmium (evidence tier A).
+- [[sources/oehha-cadmium-prop65-madl-2001]] — OEHHA, May 2001. Prop 65 Maximum Allowable Daily Level for Cadmium (Oral Route) (evidence tier A).
 - [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food (evidence tier A).
 - [[sources/fda-ctz-Pb-babyfood-2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A).
