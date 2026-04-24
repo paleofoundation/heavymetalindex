@@ -1,0 +1,10 @@
+.DS_Store
+*.swp
+*.swo
+
+# raw/ contains the immutable source-document PDFs.
+# Kept out of git for now: Patty's Toxicology (102MB) exceeds GitHub's 100MB
+# hard limit, and raw/ totals ~754MB which is too large for a normal repo.
+# Revisit when provenance strategy is decided (Git LFS vs external storage
+# vs manifest-only with URLs to agency sources).
+raw/
