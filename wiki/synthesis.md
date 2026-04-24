@@ -36,7 +36,17 @@ The International Agency for Research on Cancer classifies cadmium as a Group 1 
 The synthesis will need to state clearly what IARC says, what EFSA concluded in 2009, and what the more recent primary literature shows, without overclaiming on cancer risk (because the dose-response is not yet quantitative) and without underclaiming (because the Group 1 classification is durable and the general-population associations are replicating). Consumer-facing sections require particular care given the dose-and-population specificity rule in CLAUDE.md.
 
 To resolve before the cadmium synthesis is written:
-- Ingest the EPA IRIS toxicological review, which carries a US-side carcinogenicity evaluation and any derived unit risk estimate.
+- Ingest the operative 1985 EPA IRIS chemical record 0141 for cadmium, which carries the US-side oral RfD and its critical endpoint. The 1999 reassessment draft in `raw/reports/` is a draft that never became Agency position and is deferred for a later historical ingest.
 - Ingest the ATSDR toxicological profile, which synthesizes the carcinogenicity literature through approximately 2012.
-- Ingest the OEHHA Prop 65 1996 evidence document and the MADL, which reflect California's carcinogenicity listing and its operational implementation.
+- Note that the OEHHA Prop 65 documents ingested on 2026-04-24 address reproductive toxicity, not carcinogenicity; the separate Prop 65 carcinogenicity listing for cadmium and its No Significant Risk Level are pending ingest.
 - Scan recent general-population studies flagged during textbook-chapter ingest for any that have since produced credible quantitative dose-response estimates.
+
+### EPA IRIS Cd assessment provenance gap
+
+Raised during attempted ingest of `EPA_IRIS_Cadmium_ToxicologicalReview.pdf` on 2026-04-24.
+
+The raw file in `raw/reports/` with this name is a March 4, 1999 external review draft marked "DO NOT QUOTE" and does not represent Agency position. The operative EPA IRIS cadmium assessment is the 1985 record (IRIS chemical record 0141), which is understood from secondary citations to establish oral RfD values of roughly 5 × 10⁻⁴ mg/kg/day (water) and 1 × 10⁻³ mg/kg/day (food), anchored to a kidney-cortex concentration of 200 µg/g. The wiki cannot state those values as verified until the primary 1985 IRIS record is in the corpus with SHA-256 provenance on its own source page; recording them from secondary citations would violate CLAUDE.md's numeric-verification rule.
+
+To resolve:
+- Obtain the primary 1985 IRIS chemical record 0141 document (likely accessible via EPA's IRIS portal at epa.gov/iris) and ingest it as a source page with full provenance.
+- Separately ingest the 1999 reassessment draft as historical context, with explicit "DRAFT, NOT ADOPTED" flagging throughout its source page.
