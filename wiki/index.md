@@ -9,7 +9,7 @@ This page catalogs every wiki page by category. Each entry is one line: `- [[pat
 
 ## Metals
 
-- [[metals/cadmium]] — cadmium in food and supply chain (stub, 0 sources).
+- [[metals/cadmium]] — cadmium in food and supply chain (in progress, 1 source).
 - [[metals/lead]] — lead in food and supply chain (stub, 1 source).
 
 ## Ingredients
@@ -28,7 +28,7 @@ _None yet._
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] — FDA CTZ lead action level, 20 ppb in dry infant cereals (US) (1 source).
 - [[regulations/oehha-cadmium-prop65]] — California Prop 65 cadmium listing and MADL (US-CA) (stub, 0 sources).
 - [[regulations/epa-iris-cadmium-rfd]] — EPA IRIS oral reference dose for cadmium (US) (stub, 0 sources).
-- [[regulations/efsa-cadmium-twi]] — EFSA CONTAM Panel tolerable weekly intake for cadmium (EU) (stub, 0 sources).
+- [[regulations/efsa-cadmium-twi]] — EFSA CONTAM Panel tolerable weekly intake for cadmium, 2.5 µg/kg b.w./week (EU) (1 source).
 - [[regulations/jecfa-cadmium-ptmi]] — JECFA provisional tolerable monthly intake for cadmium (international) (stub, 0 sources).
 - [[regulations/atsdr-cadmium-mrls]] — ATSDR minimal risk levels for cadmium (US) (stub, 0 sources).
 - [[regulations/codex-cadmium-mls]] — Codex Alimentarius maximum levels for cadmium in food (international) (stub, 0 sources).
@@ -67,4 +67,5 @@ _None yet._
 
 ## Sources (chronological)
 
+- [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food (evidence tier A).
 - [[sources/fda-ctz-Pb-babyfood-2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A).
