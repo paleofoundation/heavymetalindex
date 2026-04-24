@@ -20,7 +20,9 @@ Each source falls into one of four license classes, recorded on its source page 
 
 `us-government-work`. Documents authored by US federal agencies as part of their official duties (FDA guidance, EPA IRIS assessments, ATSDR toxicological profiles). Not subject to copyright under 17 U.S.C. § 105. Freely redistributable. Full text may be hosted alongside the source page if useful for verification.
 
-`public-redistribute`. Documents published under a license that permits redistribution (Creative Commons CC-BY, CC-BY-SA, open-access journal articles with explicit redistribution permission, Codex Alimentarius documents released for international use). Freely redistributable subject to license attribution.
+`public-redistribute`. Documents published under a license that permits unrestricted redistribution including commercial use (Creative Commons CC-BY, CC-BY-SA, open-access journal articles with explicit redistribution permission, Codex Alimentarius documents released for international use). Freely redistributable subject to license attribution.
+
+When a document carries a specific Creative Commons or similar license whose restrictions matter (notably the NonCommercial clause for CC-BY-NC-SA variants, given that the wiki is operated as infrastructure for a commercial certification program), the `license` field on the source page records the exact license identifier (for example `CC-BY-NC-SA-3.0-IGO`) rather than the coarser category label. Factual data from NonCommercial-licensed documents remains extractable because facts are not copyrightable, but verbatim reproduction of substantial textual passages, figures, or tables must respect the license restrictions. When in doubt, paraphrase and cite; do not lift.
 
 `public-reference-only`. Documents that are publicly available but not licensed for redistribution (EFSA scientific opinions, JECFA monographs, most traditional journal articles). Can be cited and quoted under fair use; full-text copies are held privately and not served from the public repository.
 

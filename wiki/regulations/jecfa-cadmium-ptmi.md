@@ -6,35 +6,75 @@ agency: JECFA
 program: FAO/WHO Joint Expert Committee on Food Additives
 metal: Cd
 matrix: dietary
-status: pending-ingest
-effective_date: null
+limit_value: 25
+limit_unit: µg/kg-bw/month
+status: in-force
+effective_date: 2010-06-01
 sunset_date: null
-source_refs: []
+source_refs: [jecfa-91st-cadmium-2022]
 updated: 2026-04-24
+audience: [regulator, educator]
 ---
 
-# JECFA — Provisional Tolerable Monthly Intake for Cadmium
+# JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month
 
-_This page is a stub. Substantive content lands after the ingest of the JECFA Cadmium monograph._
+The Joint FAO/WHO Expert Committee on Food Additives established a provisional tolerable monthly intake for cadmium of 25 µg per kilogram body weight per month at its 73rd meeting in 2010, with the associated report published in 2011 as WHO Technical Report Series No. 960. The PTMI is the international health-based reference value for dietary cadmium exposure, chosen on a monthly rather than weekly averaging window specifically to reflect cadmium's long biological half-life (10 to 30 years in kidney and liver). It is the reference value against which Codex Alimentarius maximum levels for cadmium are aligned, and against which dietary exposure assessments are routinely expressed as percent-of-PTMI.
 
-The Joint FAO/WHO Expert Committee on Food Additives established a provisional tolerable monthly intake for cadmium, chosen as a monthly rather than weekly averaging window to reflect cadmium's very long biological half-life. The PTMI is the international reference value that Codex Alimentarius maximum levels are aligned to.
+The 73rd meeting monograph and WHO TRS 960 are the primary documents establishing this reference value; neither is in the Heavy Metal Index raw corpus yet and both are flagged as pending ingest for full methodology capture. The PTMI value on this page is cited from the 91st meeting monograph (WHO Food Additives Series No. 82, 2022) which carries the value forward and explicitly attributes it to the 73rd meeting. See [[sources/jecfa-91st-cadmium-2022]].
 
 ## PTMI value
 
-_Pending ingest. The value will be recorded here exactly as it appears in the JECFA monograph, with units preserved._
+| Parameter | Value |
+| --- | --- |
+| PTMI | 25 µg Cd/kg body weight per month |
+| Establishing meeting | JECFA 73rd, 2010 (report published 2011 as WHO Technical Report Series No. 960) |
+| Re-examined and carried forward | JECFA 91st meeting, November 2020 (published 2022 as WHO Food Additives Series No. 82) |
+| Primary document citing the value to this wiki | 91st meeting monograph (73rd meeting report pending ingest) |
 
-## Critical endpoint and basis
+Approximate weekly-equivalent conversion, for cross-reference to weekly-denominated values such as the EFSA TWI:
 
-_Pending._
+| Conversion | Value |
+| --- | --- |
+| PTMI expressed as weekly equivalent (25 ÷ (30 ÷ 7)) | approximately 5.83 µg Cd/kg b.w./week |
+
+The weekly-equivalent figure is a derived convenience, not a JECFA-stated value. JECFA's formal guidance is monthly; the weekly number is provided for comparability only.
+
+## Critical endpoint
+
+Renal tubular dysfunction (understood from secondary citations; primary derivation not yet in the corpus). The 73rd meeting adopted a biomarker-anchored approach similar in spirit to EFSA's contemporary methodology, but with different critical-study selection and methodological treatment that produced a numerically higher reference value than the EFSA CONTAM TWI. Full details of the critical-study selection, uncertainty factors, and dose-response modeling will be captured on this page when the 73rd meeting documents are ingested.
 
 ## Why monthly rather than weekly
 
-_Pending. The rationale is part of the scientific rationale that separates cadmium risk assessment from that of metals with shorter half-lives; it will be captured here._
+The monograph explicitly attributes the monthly averaging window to cadmium's long biological half-life. Shorter averaging windows (weekly, daily) implicitly assume that exposure-response dynamics operate on the shorter timescale; for cadmium, with kidney-cortex residency measured in years to decades, a monthly window aligns the regulatory averaging period more closely with the underlying biology. This choice is itself a load-bearing methodological difference with EFSA, which rounds a derived 2.52 µg/kg b.w./week to a 2.5 TWI; a weekly expression of the JECFA PTMI (roughly 5.83 µg/kg b.w./week) is approximately 2.3 times the EFSA TWI. See [[synthesis]] for the full treatment of the EFSA-JECFA divergence.
 
-## How this compares to EFSA TWI and EPA IRIS RfD
+## Dietary exposure relative to the PTMI (from the 91st meeting assessment)
 
-_Pending._
+The 91st meeting monograph summarized dietary exposure across reviewed countries as a percentage of the PTMI. National adult mean dietary cadmium exposure from all foods ranged between 9 and 48 percent of the PTMI, corresponding to 2.2 to 12 µg/kg b.w./month. European children up to 12 years averaged 47 percent of the PTMI (11.9 µg/kg b.w./month). High-percentile child exposures in Australia and the USA (age 0.5 to 12) reached 82 to 88 percent of the PTMI, or 20.4 to 22.0 µg/kg b.w./month. When the 91st meeting's updated cocoa-product contributions were added to total dietary intake, children in the 0.5 to 12 age range could reach 96 percent of the PTMI (23.9 µg/kg b.w./month), essentially saturating the reference value from dietary sources alone.
+
+Adult high-percentile dietary exposures across Europe, Lebanon, and the USA ranged from 6.9 to 12.1 µg/kg b.w./month (28 to 48 percent of PTMI). Major commodity contributors to total mean dietary cadmium exposure across the GEMS/Food regional diets were consistent across prior and current JECFA assessments: rice, wheat, root vegetables, tuber vegetables, leafy vegetables, other vegetables, and molluscs, together accounting for 40 to 85 percent of total mean exposure depending on regional diet.
+
+## Cocoa and chocolate: the 91st meeting's new finding
+
+Prior JECFA assessments (including the 77th meeting 2013 cocoa-specific assessment) had not identified cocoa products as major contributors to dietary cadmium. The 91st meeting, responding to a request from the 13th session of the Codex Committee on Contaminants in Foods, incorporated expanded 2019 occurrence data for cadmium in cocoa and cocoa-derived products. The new data showed higher mean cadmium concentrations in cocoa products than the 77th meeting had recognized, driven in part by a wider geographical range of submitted data. Mean dietary exposure from cocoa products across the 17 GEMS/Food cluster diets (assuming 60 kg body weight) ranges from 0.005 to 0.39 µg/kg b.w./month (0.2 to 1.6 percent of PTMI). The highest high-percentile exposure (P97.5) from cocoa products alone was 12 µg/kg b.w./month, observed in European children aged 7 to 11 consuming cocoa powder specifically. Combined with whole-diet exposure estimates, the 91st meeting's cocoa-inclusive assessment produces total dietary exposures reaching 96 percent of the PTMI in children aged 0.5 to 12, a new finding with direct implications for cocoa supply-chain regulation and for the Codex CCCF process.
+
+## Relationship to Codex Alimentarius maximum levels
+
+The JECFA PTMI provides the health-based guidance value against which Codex maximum levels are evaluated for health protectiveness; feasibility considerations from the Codex Committee on Contaminants in Foods and from national competent authorities determine the specific maximum levels adopted for individual commodity matrices. The 91st meeting's cocoa exposure finding was prepared specifically to inform the 13th session of CCCF on cadmium in chocolate and cocoa products. See [[regulations/codex-cadmium-mls]] (pending ingest) for the matrix-specific Codex maximum levels.
+
+## Comparison to other reference values
+
+| Body / Jurisdiction | Value | Basis |
+| --- | --- | --- |
+| JECFA (international, 73rd meeting 2010) | 25 µg/kg b.w./month (≈ 5.83 /week equivalent) | Biomarker-anchored, monthly window for long half-life |
+| EFSA CONTAM (EU, 2009) | 2.5 µg/kg b.w./week | BMDL5-based, urinary B2M biomarker, kinetic back-translation |
+| US EPA IRIS (1985, operative) | Pending ingest of primary 1985 record | Kidney-cortex concentration of 200 µg/g (from secondary citations) |
+| US California OEHHA Prop 65 | 4.1 µg/day (oral MADL, developmental toxicity) | Ali 1986 rat developmental study, 1000x statutory safety factor |
+| US ATSDR MRLs | Pending ingest | Route- and duration-specific |
+
+The factor-of-approximately-2.3 gap between the JECFA PTMI (weekly-equivalent 5.83 µg/kg b.w./week) and the EFSA TWI (2.5 µg/kg b.w./week) is substantial and derives from the two bodies' different methodological choices on overlapping primary literature. See [[synthesis]] for the explicit treatment of this divergence.
 
 ## Sources
 
-_None ingested yet._
+- [[sources/jecfa-91st-cadmium-2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment (WHO Food Additives Series No. 82).
+
+_Pending: JECFA 73rd meeting monograph and WHO Technical Report Series No. 960 (2011), which together constitute the primary derivation documents for the PTMI._

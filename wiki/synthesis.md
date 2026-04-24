@@ -16,15 +16,17 @@ Issues raised by completed ingests that must be resolved or explicitly acknowled
 
 ### EFSA TWI versus JECFA PTMI for cadmium
 
-Raised during ingest of [[sources/efsa-cadmium-contam-2009]] on 2026-04-24.
+Raised during ingest of [[sources/efsa-cadmium-contam-2009]] on 2026-04-24; updated during ingest of [[sources/jecfa-91st-cadmium-2022]] on 2026-04-24.
 
-The EFSA Panel on Contaminants in the Food Chain established a tolerable weekly intake for cadmium of 2.5 µg/kg body weight per week in January 2009, anchored on renal tubular dysfunction biomarkered by urinary beta-2-microglobulin, with a reference point of 1.0 µg cadmium per gram creatinine in urine at age 50. The Joint FAO/WHO Expert Committee on Food Additives subsequently adopted a provisional tolerable monthly intake of 25 µg/kg b.w./month in 2010, which expressed on a weekly basis is approximately 5.8 µg/kg b.w./week, a factor of approximately 2.3 higher than the EFSA TWI. EFSA issued a reaffirming statement in 2011 explaining the derivation differences between the two bodies; that 2011 statement is not yet in the corpus and is flagged for future ingest.
+The EFSA Panel on Contaminants in the Food Chain established a tolerable weekly intake for cadmium of 2.5 µg/kg body weight per week in January 2009, anchored on renal tubular dysfunction biomarkered by urinary beta-2-microglobulin, with a reference point of 1.0 µg cadmium per gram creatinine in urine at age 50. The Joint FAO/WHO Expert Committee on Food Additives adopted a provisional tolerable monthly intake of 25 µg/kg b.w./month at its 73rd meeting in 2010 (report published 2011 as WHO Technical Report Series No. 960). Expressed on a weekly basis, the JECFA PTMI is approximately 5.83 µg/kg b.w./week, a factor of approximately 2.3 higher than the EFSA TWI. EFSA issued a reaffirming statement in 2011 explaining the derivation differences between the two bodies; that 2011 statement is not yet in the corpus and is flagged for future ingest. JECFA's 91st meeting (November 2020, published 2022) carried the 25 PTMI forward without revision while updating dietary exposure assessments; the 91st meeting monograph is ingested.
 
 The two bodies drew from overlapping primary literature. The divergence reflects different methodological choices including the selection of pivotal studies, the treatment of the urinary-cadmium-to-dietary-cadmium translation, and the choice of averaging window (EFSA uses a weekly window rounded from a 2.52 µg/kg b.w./week derivation; JECFA uses a monthly window specifically to reflect cadmium's long biological half-life). The synthesis cannot average or pick one; it must present both with derivation transparency and let readers see where the methodological choices led to the gap. HMT&C certification-threshold decisions that calibrate to one reference value or the other need to name the rationale per the CLAUDE.md firewall rule.
 
+A key 91st meeting finding that sharpens the EFSA-JECFA reconciliation: updated 2019 occurrence data for cadmium in cocoa products pushed total dietary cadmium exposure in children aged 0.5 to 12 to as high as 96 percent of the JECFA PTMI, indicating that even the less stringent of the two reference values is approached or saturated in subpopulations. A fortiori, these subpopulations exceed the EFSA TWI substantially. The regulatory gap between the two values therefore matters most precisely where population risk is highest, which argues for HMT&C infant and child product tiers to calibrate to the EFSA TWI rather than the JECFA PTMI.
+
 To resolve before the cadmium synthesis is written:
-- Ingest the EFSA 2011 statement (pending raw PDF availability).
-- Ingest the JECFA 2010 monograph (pending — next several steps of current batch).
+- Ingest the EFSA 2011 reaffirming statement (pending raw PDF availability).
+- Ingest the JECFA 73rd meeting primary derivation documents (2010 monograph and WHO TRS 960, pending).
 - Compare the critical study selections side by side and identify the specific methodological choices that drive the numeric gap.
 
 ### Dietary cadmium carcinogenicity dose-response

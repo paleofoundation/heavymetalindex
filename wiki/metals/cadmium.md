@@ -7,12 +7,12 @@ audience: [regulator, educator, consumer]
 microbiome_relevance: high
 wikibiome_crosswalk: [cadmium-gut-axis, cadmium-dysbiosis]
 updated: 2026-04-24
-sources: 3
+sources: 4
 ---
 
 # Cadmium
 
-_This page is in active ingestion. The content below reflects the EFSA 2009 scientific opinion ([[sources/efsa-cadmium-contam-2009]]) and the paired California OEHHA Prop 65 documents ([[sources/oehha-cadmium-prop65-evidence-1996]], [[sources/oehha-cadmium-prop65-madl-2001]]); additional sections will populate as the Handbook on the Toxicology of Metals chapter, EPA IRIS review, JECFA monograph, ATSDR profile, and Codex CCCF17 report are ingested. Full synthesis across sources will follow the regulatory batch._
+_This page is in active ingestion. The content below reflects the EFSA 2009 scientific opinion ([[sources/efsa-cadmium-contam-2009]]), the paired California OEHHA Prop 65 documents ([[sources/oehha-cadmium-prop65-evidence-1996]], [[sources/oehha-cadmium-prop65-madl-2001]]), and the JECFA 91st meeting dietary exposure assessment ([[sources/jecfa-91st-cadmium-2022]]); additional sections will populate as the Handbook on the Toxicology of Metals chapter, ATSDR profile, Codex CCCF17 report, and operative 1985 EPA IRIS record are ingested. Full synthesis across sources will follow the regulatory batch._
 
 ## Overview
 
@@ -42,6 +42,8 @@ Major dietary contributors to population cadmium exposure, identified by EFSA's 
 
 The foods with the highest cadmium concentrations, rather than the highest contribution to exposure, are seaweed, fish and seafood (particularly bivalve molluscs other than oysters), chocolate and cocoa, foods for special dietary uses, fungi, oilseeds, and edible offal (especially kidney and liver). These food categories produce substantial per-serving exposure even at moderate consumption levels; regular consumers of bivalve molluscs showed a mean cadmium exposure of 4.6 µg/kg b.w./week and regular consumers of wild mushrooms 4.3 µg/kg b.w./week, both well above the EFSA mean.
 
+The 91st meeting of JECFA, convened in November 2020 at the request of the Codex Committee on Contaminants in Foods, substantially updated the evidence base for cocoa and cocoa-derived products. Occurrence data submitted to the Committee in 2019 showed higher mean cadmium concentrations in cocoa products than had been recognized in the JECFA 77th meeting 2013 cocoa-specific assessment. The updated analysis estimated that cocoa-product contributions push total dietary cadmium exposure in children aged 0.5 to 12 years to as high as 96 percent of the JECFA provisional tolerable monthly intake, essentially saturating the international reference value from dietary sources alone. Cocoa powder specifically drove a high-percentile (P97.5) exposure of 12 µg/kg b.w./month in European children aged 7 to 11. This is a load-bearing finding for the wiki and is flagged as a priority for ingredient-page standup when the ingredient wave begins.
+
 Cadmium accumulates in plants through root uptake from soil. The use of phosphate fertilizers, which contain cadmium as a trace contaminant of the phosphate rock, has progressively elevated agricultural soil cadmium levels across much of Europe. Local contamination from mining, smelting, and sewage-sludge application can produce substantially higher soil concentrations in hotspot areas, with corresponding elevation in locally produced food.
 
 _Per-ingredient contamination profiles will populate as ingredient pages are stood up in the next ingest wave. The 140,000-sample EFSA dataset provides high-confidence occurrence data for cereals, leafy vegetables, root vegetables, potatoes, nuts, oilseeds, pulses, meat and offal, fish, molluscs, chocolate, and mushrooms._
@@ -54,7 +56,7 @@ Reference values and maximum levels established to date, with more to populate a
 | --- | --- | --- | --- |
 | EFSA (EU) | TWI | 2.5 µg/kg b.w./week | [[regulations/efsa-cadmium-twi]] |
 | EU | Maximum levels in food commodities | Regulation-specific (by matrix) | [[regulations/eu-2023-915-cadmium]] (pending ingest) |
-| JECFA (international) | PTMI | Pending ingest | [[regulations/jecfa-cadmium-ptmi]] |
+| JECFA (international) | PTMI | 25 µg/kg b.w./month (≈ 5.83/week equivalent) | [[regulations/jecfa-cadmium-ptmi]] |
 | US EPA | IRIS oral RfD | Pending ingest | [[regulations/epa-iris-cadmium-rfd]] |
 | US ATSDR | MRLs | Pending ingest | [[regulations/atsdr-cadmium-mrls]] |
 | US California | Prop 65 MADL (oral, reproductive toxicity) | 4.1 µg/day | [[regulations/oehha-cadmium-prop65]] |
@@ -98,5 +100,6 @@ Second, the carcinogenicity dose-response for dietary cadmium at general-populat
 - [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food.
 - [[sources/oehha-cadmium-prop65-evidence-1996]] — OEHHA, October 1996. Evidence on the Developmental and Reproductive Toxicity of Cadmium.
 - [[sources/oehha-cadmium-prop65-madl-2001]] — OEHHA, May 2001. Prop 65 Maximum Allowable Daily Level for Cadmium (Oral Route).
+- [[sources/jecfa-91st-cadmium-2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment (WHO Food Additives Series No. 82).
 
-_Additional sources pending in the current batch: EPA IRIS toxicological review, JECFA monograph, ATSDR toxicological profile, Codex CCCF17 report, Handbook on the Toxicology of Metals Ch 32 (Nordberg et al. 2015), Casarett Essentials Ch 23 (Ufelle & Barchowsky 2021), Patty's Ch 7 (Jakubowski 2012)._
+_Additional sources pending in the current batch: ATSDR toxicological profile, Codex CCCF17 report, Handbook on the Toxicology of Metals Ch 32 (Nordberg et al. 2015), Casarett Essentials Ch 23 (Ufelle & Barchowsky 2021), Patty's Ch 7 (Jakubowski 2012). EPA IRIS deferred (raw is a 1999 draft; operative 1985 record pending). JECFA 73rd meeting primary derivation documents for the PTMI also pending ingest._
