@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, cultivar, zinc-status, phosphate-fertilization, geography]
 lower_risk_variants: [refined-white-flour]
 higher_risk_variants: [wheat-bran, wheat-germ, whole-wheat-flour, wheat-protein-concentrate]
@@ -49,6 +77,16 @@ Derivative wheat products vary substantially in cadmium content by the fraction 
 ## Mitigation options
 
 _Pending. Cultivar selection (non-accumulator lines), zinc amendment of soils (zinc-cadmium antagonism reduces plant cadmium uptake), soil pH management, and milling practices that remove bran and germ are the primary mitigation levers._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: wheat bran can carry Pb from soil and historic atmospheric deposition; refined white flour carries less because the bran is milled away. The FDA Closer to Zero 20 ppb Pb action level for dry infant cereals applies to wheat-based infant cereal (see [[regulations/fda-ctz-Pb-cereal-20ppb]]).
+- **iAs**: minor; the flooded-paddy redox chemistry that drives iAs in rice does not apply to wheat. See [[metals/arsenic]].
+- **tHg**: not a notable concern.
+- **Ni**: wheat bran contains measurable nickel; whole-wheat products carry more than refined flour.
+- **Al**: not a top dietary Al contributor on a per-serving basis.
 
 ## Regulatory limits that apply
 

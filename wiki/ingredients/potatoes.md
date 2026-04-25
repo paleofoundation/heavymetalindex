@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, tuber-formation-in-soil, geography, peel-versus-flesh]
 lower_risk_variants: [peeled-potato, potato-starch]
 higher_risk_variants: [unpeeled-potato, potato-skin, potato-peel-heavy-products]
@@ -49,6 +77,16 @@ Potato-derived products (potato starch, potato flakes, dehydrated potato) inheri
 ## Mitigation options
 
 _Pending. Cultivar selection, soil management, and peeling are the primary mitigation levers. Note that peeling is in tension with the nutrient-retention rationale that keeps potato skin on in many modern preparations._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: potato skins can carry Pb from atmospheric deposition and surface soil. The FDA Closer to Zero 20 ppb Pb action level for single-ingredient root vegetables in processed baby food covers carrots and sweet potatoes specifically (see [[regulations/fda-ctz-Pb-rootveg-20ppb]]); white potatoes are not in the targeted category but the framing is adjacent.
+- **iAs**: irrigation-water-driven iAs uptake occurs in some growing regions; not a top staple-iAs contributor (rice dominates). See [[metals/arsenic]].
+- **tHg**: not a notable concern.
+- **Ni**: not a top dietary Ni contributor.
+- **Al**: not a top dietary Al contributor.
 
 ## Regulatory limits that apply
 

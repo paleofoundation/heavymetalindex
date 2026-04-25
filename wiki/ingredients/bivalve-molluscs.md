@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [filter-feeding, marine-water-cadmium, bioaccumulation, species, harvest-region]
 lower_risk_variants: []
 higher_risk_variants: [wild-harvested-near-estuaries, older-specimens]
@@ -49,6 +77,16 @@ Prepared shellfish dishes, shellfish-based sauces, clam chowders, and frozen she
 ## Mitigation options
 
 _Pending. Harvest-region selection, species selection within the broader bivalve category, and regulatory testing programs are the primary mitigation levers. The OEHHA Proposition 65 Cd MADL of 4.1 µg/day is relevant for retail bivalve products sold in California; regular consumers can approach or exceed this daily threshold from several servings per week._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: bivalves can carry Pb from estuarine sediments and seawater contamination; harbor-area harvest yields elevated Pb. See [[metals/lead]].
+- **iAs**: bivalves carry total arsenic at high levels (orders of magnitude above terrestrial foods), but most of the total arsenic is organic species (arsenobetaine, arsenosugars) that are far less toxic than inorganic arsenic. The iAs fraction is typically a small percent of total As in bivalves but can be measurable; species and harvest region affect speciation. See [[metals/arsenic]] for the speciation framework that distinguishes iAs from organic species.
+- **tHg**: bivalves accumulate mercury (largely methylmercury) from filter-feeding, though at lower levels than predator fish higher in the food web. See [[metals/mercury]].
+- **Ni**: bivalves carry measurable nickel from seawater; not a leading dietary contributor.
+- **Al**: not a top concern.
 
 ## Regulatory limits that apply
 

@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, species-efficient-accumulator, phytoremediation-candidate-status]
 lower_risk_variants: [sunflower-oil]
 higher_risk_variants: [sunflower-meal, sunflower-protein, whole-seed, seed-butter]
@@ -49,6 +77,16 @@ Sunflower oil is a relatively low-cadmium derivative because cadmium partitions 
 ## Mitigation options
 
 _Pending. Cultivar selection, soil management, and choice of growing region are the primary mitigation levers on the production side. For downstream processors, sourcing from documented lower-cadmium growing regions and choosing oil over meal in formulation are the primary options._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: sunflower's phytoaccumulator profile extends to Pb; sunflower has been studied as a phytoremediation crop for several heavy metals, and seeds from contaminated soils carry elevated Pb alongside Cd. See [[metals/lead]].
+- **iAs**: not a notable concern.
+- **tHg**: not a notable concern.
+- **Ni**: sunflower seeds carry modest nickel; sunflower meal and protein concentrate carry more.
+- **Al**: not a top dietary Al contributor.
 
 ## Regulatory limits that apply
 

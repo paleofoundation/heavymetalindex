@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-substrate-cadmium, species-efficient-accumulator, wild-harvest-vs-cultivated, mycelium-surface-area]
 lower_risk_variants: [cultivated-button-mushrooms, cultivated-portobello]
 higher_risk_variants: [wild-porcini, wild-chanterelle, boletus-species, dried-wild-mushroom, mushroom-extract-supplements]
@@ -49,6 +77,16 @@ Dried wild mushroom, mushroom powder, and mushroom extract supplements (the latt
 ## Mitigation options
 
 _Pending. Cultivated mushrooms grown on characterized substrates carry substantially less cadmium than wild-harvested mushrooms; substitution is the primary mitigation lever for consumer-facing products. For supplement manufacturers, sourcing from documented lower-cadmium production is the meaningful option; commercial cultivation on controlled substrate is the standard approach._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: wild mushrooms accumulate Pb from soil and atmospheric deposition; older studies from the leaded-gasoline era documented elevated Pb in roadside-foraged mushrooms, and current concerns persist for foraging near historic industrial activity. See [[metals/lead]].
+- **iAs**: some species accumulate arsenic; speciation is mostly organic. Not a top dietary iAs contributor.
+- **tHg**: documented Hg-accumulator genera include Agaricus and Macrolepiota. Wild-foraged mushrooms from Hg-mineralized soils or near Hg-emitting industrial sources can carry elevated total mercury, with the methylmercury fraction varying by species. See [[metals/mercury]].
+- **Ni**: wild mushrooms carry modest nickel; not a leading dietary contributor.
+- **Al**: wild mushrooms are among the higher-Al fungi but typical consumption levels are below health-based reference values. See [[metals/aluminum]].
 
 ## Regulatory limits that apply
 

@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, geography, volcanic-soils, variety, processing, fermentation]
 lower_risk_variants: []
 higher_risk_variants: [cocoa-powder, high-cocoa-solid-dark-chocolate]
@@ -49,6 +77,16 @@ Derivative products of cocoa redistribute cadmium between cocoa solids and cocoa
 ## Mitigation options
 
 _Pending. Literature on cultivar selection, soil amendment, agroforestry practices, and post-harvest processing (including a 2019-onward emphasis in the Codex CXC 81-2022 Code of Practice) will be synthesized when ingredient-level ingests complete._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: documented concern alongside Cd. Lead enters cocoa primarily after harvest, through contact with soils, dust, and surfaces during sun-drying and post-harvest handling rather than through root uptake. Independent testing programs (Consumer Reports, HBBF) report consumer-relevant Pb levels in dark chocolate and cocoa-powder products. See [[metals/lead]].
+- **iAs**: not a notable concern.
+- **tHg**: not a notable concern.
+- **Ni**: cocoa is among the higher-Ni plant foods. Cocoa-derived products contribute meaningfully to dietary Ni intake, particularly relevant for nickel-allergic consumers. See [[metals/nickel]].
+- **Al**: cocoa is among the higher-Al plant foods because Theobroma cacao roots take up aluminum from acidic tropical soils. See [[metals/aluminum]].
 
 ## Regulatory limits that apply
 

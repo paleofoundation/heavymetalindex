@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [bioaccumulation-in-target-organ, animal-age, species, feed-cadmium]
 lower_risk_variants: []
 higher_risk_variants: [older-animal-organ-meat, horsemeat-offal]
@@ -49,6 +77,16 @@ Pates, liverwurst, and organ-meat-based prepared foods carry cadmium at the conc
 ## Mitigation options
 
 _Pending. Organ meats from younger animals, animals raised on documented lower-cadmium feed, and animals from non-hotspot regions carry lower cadmium than alternatives. Given the accumulation pattern, there is no processing intervention that removes cadmium from organ meat after slaughter._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: lead accumulates in bone, kidney, and liver of food animals over the lifetime, alongside cadmium. Older animals carry higher Pb loads in offal, and game animals harvested with lead ammunition can carry markedly elevated Pb in surrounding tissues. See [[metals/lead]].
+- **iAs**: not a notable concern in conventional livestock organs.
+- **tHg**: total mercury and methylmercury accumulate in animal liver from dietary sources. In conventional terrestrial livestock, background tHg in liver is low; in fish-eating animals (marine mammals, fish-eating birds, predator fish), liver tHg is materially elevated and a recognized exposure source for traditional-diet consumers. See [[metals/mercury]].
+- **Ni**: not a top concern in organ meats.
+- **Al**: not a top concern in organ meats.
 
 ## Regulatory limits that apply
 

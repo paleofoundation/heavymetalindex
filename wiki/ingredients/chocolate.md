@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [cocoa-solid-fraction, cocoa-origin, formulation]
 lower_risk_variants: [milk-chocolate, white-chocolate]
 higher_risk_variants: [high-cocoa-dark-chocolate, baking-chocolate, cocoa-powder-heavy-confections]
@@ -49,6 +77,16 @@ A chocolate-containing ingredient list translates to cadmium exposure primarily 
 ## Mitigation options
 
 _Pending. Upstream cocoa-sourcing decisions are the meaningful mitigation lever for chocolate manufacturers; see [[ingredients/cocoa]]._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: documented concern alongside Cd. Dark chocolate products with high cocoa-solid fractions test elevated for both metals in independent programs (Consumer Reports, HBBF). The Pb pathway is post-harvest contact during cocoa sun-drying rather than soil uptake. See [[ingredients/cocoa]] and [[metals/lead]].
+- **iAs**: not a notable concern.
+- **tHg**: not a notable concern.
+- **Ni**: chocolate inherits cocoa's elevated nickel content, scaled by the cocoa-solid fraction. Relevant for nickel-allergic consumers. See [[metals/nickel]].
+- **Al**: chocolate inherits cocoa's aluminum content, scaled by the cocoa-solid fraction. See [[metals/aluminum]].
 
 ## Regulatory limits that apply
 

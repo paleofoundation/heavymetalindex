@@ -18,6 +18,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  iAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  tHg:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, leaf-accumulation, geography, growing-season]
 lower_risk_variants: []
 higher_risk_variants: [mature-leaf-spinach]
@@ -49,6 +77,16 @@ Spinach-based baby food purees and infant-targeted leafy-vegetable products inhe
 ## Mitigation options
 
 _Pending. Cultivar selection, soil management, and rotational practices are the primary mitigation levers on the production side; blanching and discarding cooking water have limited effect on cadmium in leaf tissue._
+
+## Other metals of concern
+
+The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+
+- **Pb**: spinach can carry Pb from soil and atmospheric deposition onto leaves; current US/EU growing regions show modest values, but baby food made from spinach is captured by the FDA Closer to Zero processed-baby-food Pb action levels (10 ppb for fruit/vegetable purees, 20 ppb for grain-based mixed dinners that include spinach). See [[metals/lead]] and [[regulations/fda-ctz-Pb-babyfood-10ppb]].
+- **iAs**: not a notable concern.
+- **tHg**: not a notable concern.
+- **Ni**: spinach contains modest nickel; not a top dietary contributor.
+- **Al**: spinach can carry aluminum from acid soils; among the higher-Al leafy vegetables but typical levels are below health-based reference values. See [[metals/aluminum]].
 
 ## Regulatory limits that apply
 
