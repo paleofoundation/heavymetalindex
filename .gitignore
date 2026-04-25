@@ -8,3 +8,13 @@
 # model and auditor access process.
 raw/*
 !raw/README.md
+
+# Quartz / Node build artifacts
+node_modules/
+public/
+.quartz-cache/
+prof/
+tsconfig.tsbuildinfo
+.replit
+replit.nix
+.obsidian/

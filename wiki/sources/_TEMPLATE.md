@@ -1,4 +1,5 @@
 ---
+draft: true
 type: source
 cite_key: firstauthor2024-short-slug         # author-year-slug, lowercase, hyphenated, globally unique
 title: "Document title exactly as it appears on the source"
