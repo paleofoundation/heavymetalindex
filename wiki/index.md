@@ -56,6 +56,15 @@ _None yet._
 
 _None yet._
 
+## Primary literature catalogs
+
+Citable indexes of primary research articles held privately under raw/studies/. Per-study source pages and substantive synthesis are deferred to a future deep-ingestion wave; these catalogs make the corpus visible and citable from metals and ingredients pages.
+
+- [[studies/cadmium-primary-literature]] — 30 cadmium-focused primary research articles.
+- [[studies/arsenic-primary-literature]] — 44 arsenic-focused primary research articles.
+- [[studies/mercury-primary-literature]] — 12 mercury and methylmercury primary research articles.
+- [[studies/multimetal-primary-literature]] — 243 multi-metal and thematic primary research articles (rice, fish, infant exposure, biomarkers, microbiome, milk, mitigation, and other topics).
+
 ## Testing methods
 
 _None yet._
