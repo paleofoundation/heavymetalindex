@@ -7,12 +7,12 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
 updated: 2026-04-25
-sources: 3
+sources: 4
 ---
 
 # Nickel
 
-_This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020]]), the NTP 15th Report on Carcinogens nickel chapter ([[sources/ntp-15th-roc-nickel-2021]]), and the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007]])._
+_This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024]]), the NTP 15th Report on Carcinogens nickel chapter ([[sources/ntp-15th-roc-nickel-2021]]), and the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -44,5 +44,6 @@ Dietary nickel sources are broadly distributed across the food supply: cocoa pro
 ## Sources
 
 - [[sources/efsa-nickel-contam-2020]] — EFSA CONTAM Panel, 2020. Update of the Risk Assessment of Nickel in Food and Drinking Water.
+- [[sources/atsdr-nickel-toxprofile-2024]] — ATSDR, October 2024. Toxicological Profile for Nickel.
 - [[sources/ntp-15th-roc-nickel-2021]] — US National Toxicology Program, 2021. 15th Report on Carcinogens: Nickel Compounds and Metallic Nickel.
 - [[sources/epa-eco-ssl-nickel-2007]] — EPA, 2007. Ecological Soil Screening Levels for Nickel.

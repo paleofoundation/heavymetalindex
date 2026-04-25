@@ -7,7 +7,7 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: [arsenic-gut-axis, arsenic-microbial-methylation]
 updated: 2026-04-25
-sources: 7
+sources: 9
 ---
 
 # Arsenic
@@ -96,3 +96,4 @@ Dietary intake is the dominant route in non-groundwater-affected populations. Ri
 - [[sources/epa-arsenic-drinking-water-mcl]] — EPA Office of Water. Final Rule for Arsenic in Drinking Water.
 - [[sources/fda-iAs-rice-cereal-2020]] — FDA, August 2020. Inorganic Arsenic in Rice Cereals for Infants Action Level.
 - [[sources/fda-epa-fish-consumption-advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
+- [[sources/thomas-2021-arsenic-methylation]] — Thomas DJ, 2021. Arsenic methylation: lessons from three decades of research (Toxicology).
