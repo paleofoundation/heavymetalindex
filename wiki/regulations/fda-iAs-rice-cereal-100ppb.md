@@ -34,7 +34,7 @@ Under the Closer to Zero program, the US Food and Drug Administration has establ
 
 ## Parent program
 
-- [[fda-closer-to-zero]]
+- [[regulations/fda-closer-to-zero]]
 
 ## Sources
 

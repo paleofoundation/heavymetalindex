@@ -56,7 +56,7 @@ updated: 2026-04-24
 
 # Chocolate
 
-_Stub page. Contamination profile populates on the next ingest wave. Chocolate is a processed derivative of [[cocoa]] and inherits cadmium from its cocoa-solid fraction; cadmium content scales approximately with cocoa-solid percentage and with cocoa origin._
+_Stub page. Contamination profile populates on the next ingest wave. Chocolate is a processed derivative of [[ingredients/cocoa]] and inherits cadmium from its cocoa-solid fraction; cadmium content scales approximately with cocoa-solid percentage and with cocoa origin._
 
 ## Why this commodity accumulates cadmium
 

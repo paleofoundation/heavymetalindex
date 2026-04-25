@@ -65,11 +65,11 @@ The second reason is nutritional availability. Carrots and sweet potatoes are so
 
 ## Reference value context
 
-See [[fda-ctz-Pb-babyfood-10ppb]] for the IRL derivation. The 2.2 µg/day IRL for children is the same reference value against which all three action levels under this guidance were evaluated.
+See [[regulations/fda-ctz-Pb-babyfood-10ppb]] for the IRL derivation. The 2.2 µg/day IRL for children is the same reference value against which all three action levels under this guidance were evaluated.
 
 ## History
 
-See [[fda-ctz-Pb-babyfood-10ppb]] for shared program history. The draft guidance issued under docket FDA-2022-D-0278 preceded this final January 2025 version; sample size in the achievability dataset increased by 594 samples between draft and final.
+See [[regulations/fda-ctz-Pb-babyfood-10ppb]] for shared program history. The draft guidance issued under docket FDA-2022-D-0278 preceded this final January 2025 version; sample size in the achievability dataset increased by 594 samples between draft and final.
 
 ## Comparison to EU, Codex, and state rules
 
@@ -77,7 +77,7 @@ Pending ingest. The regulatory treatment of root vegetables specifically, as dis
 
 ## Parent program
 
-- [[fda-closer-to-zero]]
+- [[regulations/fda-closer-to-zero]]
 
 ## Sources
 

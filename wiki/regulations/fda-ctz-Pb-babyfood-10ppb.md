@@ -78,7 +78,7 @@ Pending ingest of the corresponding EU Regulation 2023/915 provisions, Codex Ali
 
 ## Parent program
 
-- [[fda-closer-to-zero]]
+- [[regulations/fda-closer-to-zero]]
 
 ## Sources
 

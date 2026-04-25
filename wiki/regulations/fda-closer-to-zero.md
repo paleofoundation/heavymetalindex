@@ -26,9 +26,9 @@ The program addresses processed foods (packaged foods in jars, pouches, tubs, or
 
 Finalized action levels ingested to date:
 
-- [[fda-ctz-Pb-babyfood-10ppb]] — 10 ppb lead, for fruits, non-root vegetables, mixtures, yogurts, custards and puddings, and single-ingredient meats. Finalized January 2025.
-- [[fda-ctz-Pb-rootveg-20ppb]] — 20 ppb lead, for single-ingredient root vegetables (carrots and sweet potatoes). Finalized January 2025.
-- [[fda-ctz-Pb-cereal-20ppb]] — 20 ppb lead, for dry infant cereals. Finalized January 2025.
+- [[regulations/fda-ctz-Pb-babyfood-10ppb]] — 10 ppb lead, for fruits, non-root vegetables, mixtures, yogurts, custards and puddings, and single-ingredient meats. Finalized January 2025.
+- [[regulations/fda-ctz-Pb-rootveg-20ppb]] — 20 ppb lead, for single-ingredient root vegetables (carrots and sweet potatoes). Finalized January 2025.
+- [[regulations/fda-ctz-Pb-cereal-20ppb]] — 20 ppb lead, for dry infant cereals. Finalized January 2025.
 
 _Cadmium action levels under CTZ are expected in a separate FDA guidance document not yet ingested. Inorganic arsenic action levels under CTZ (including the finalized 100 ppb in infant rice cereal) and mercury levels are also in separate guidance documents pending ingest._
 
