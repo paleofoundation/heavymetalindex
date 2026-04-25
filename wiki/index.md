@@ -13,6 +13,8 @@ This page catalogs every wiki page by category. Each entry is one line: `- [[pat
 - [[metals/lead]] — lead in food and supply chain (populated, 8 sources).
 - [[metals/arsenic]] — arsenic in food and supply chain (populated, 8 sources).
 - [[metals/mercury]] — mercury and methylmercury in food and supply chain (populated, 8 sources).
+- [[metals/nickel]] — nickel in food and drinking water (populated, 3 sources).
+- [[metals/aluminum]] — aluminum from dietary intake (populated, 1 source).
 
 ## Ingredients
 
