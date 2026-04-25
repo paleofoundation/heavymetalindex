@@ -82,11 +82,11 @@ _Pending. Cultivar selection, soil management, and peeling are the primary mitig
 
 The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
 
-- **Pb**: potato skins can carry Pb from atmospheric deposition and surface soil. The FDA Closer to Zero 20 ppb Pb action level for single-ingredient root vegetables in processed baby food covers carrots and sweet potatoes specifically (see [[regulations/fda-ctz-Pb-rootveg-20ppb]]); white potatoes are not in the targeted category but the framing is adjacent.
-- **iAs**: irrigation-water-driven iAs uptake occurs in some growing regions; not a top staple-iAs contributor (rice dominates). See [[metals/arsenic]].
-- **tHg**: not a notable concern.
-- **Ni**: not a top dietary Ni contributor.
-- **Al**: not a top dietary Al contributor.
+- **Pb**: potato skins can carry Pb from atmospheric deposition and surface soil. <!-- UNCITED --> The FDA Closer to Zero 20 ppb Pb action level for single-ingredient root vegetables in processed baby food covers carrots and sweet potatoes specifically ([[sources/fda-ctz-Pb-babyfood-2025]]; see [[regulations/fda-ctz-Pb-rootveg-20ppb]]); white potatoes are not in the targeted category but the framing is adjacent.
+- **iAs**: irrigation-water-driven iAs uptake occurs in some growing regions; <!-- UNCITED --> not a top staple-iAs contributor (rice dominates, [[sources/fda-iAs-rice-cereal-2020]]). See [[metals/arsenic]].
+- **tHg**: not a notable concern. <!-- UNCITED -->
+- **Ni**: not a top dietary Ni contributor. <!-- UNCITED -->
+- **Al**: not a top dietary Al contributor. <!-- UNCITED -->
 
 ## Regulatory limits that apply
 

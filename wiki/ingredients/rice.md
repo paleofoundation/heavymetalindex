@@ -82,11 +82,11 @@ _Pending. Literature on cultivar selection, water management, liming, zinc amend
 
 The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
 
-- **Pb**: not a top population-level Pb contributor, though elevated values occur where rice is irrigated from Pb-contaminated water or grown in historically leaded watersheds.
-- **iAs**: a major concern for rice — rice is the highest-iAs staple food because flooded-paddy redox chemistry mobilizes soil arsenic into pore water where roots take it up. Brown rice and rice bran carry higher iAs than polished white rice. The FDA Closer to Zero inorganic-arsenic action level for infant rice cereal is 100 ppb. See [[metals/arsenic]] and [[sources/su-2023-arsenic-brown-rice]], [[sources/navaretnam-2025-rice-as-speciation]].
-- **tHg**: not a notable concern.
-- **Ni**: rice can contain measurable Ni but is not a top dietary contributor; see [[metals/nickel]].
-- **Al**: rice is not a top dietary Al contributor.
+- **Pb**: not a top population-level Pb contributor, though elevated values occur where rice is irrigated from Pb-contaminated water or grown in historically leaded watersheds. <!-- UNCITED -->
+- **iAs**: a major concern for rice — rice is the highest-iAs staple food because flooded-paddy redox chemistry mobilizes soil arsenic into pore water where roots take it up ([[sources/fda-iAs-rice-cereal-2020]]). Brown rice and rice bran carry higher iAs than polished white rice ([[sources/su-2023-arsenic-brown-rice]]). The FDA Closer to Zero inorganic-arsenic action level for infant rice cereal is 100 ppb ([[sources/fda-iAs-rice-cereal-2020]]). See [[metals/arsenic]] and [[sources/navaretnam-2025-rice-as-speciation]].
+- **tHg**: not a notable concern. <!-- UNCITED -->
+- **Ni**: rice can contain measurable Ni but is not a top dietary contributor; <!-- UNCITED --> see [[metals/nickel]].
+- **Al**: rice is not a top dietary Al contributor. <!-- UNCITED -->
 
 ## Regulatory limits that apply
 

@@ -18,9 +18,11 @@ audience: [regulator, educator]
 
 # EFSA — Lead in Food (2010), No-Threshold Position
 
-EFSA's Panel on Contaminants in the Food Chain established in its March 2010 Scientific Opinion on Lead in Food that the previous JECFA provisional tolerable weekly intake of 25 µg/kg b.w./week is no longer appropriate, on the basis that the dose-response evidence for the most sensitive lead endpoints does not support a threshold. EFSA does not therefore set a numeric TWI for lead, but instead reports Benchmark Dose Lower Confidence Limits for three critical endpoints: developmental neurotoxicity in young children, systolic blood pressure effects in adults, and chronic kidney disease prevalence in adults.
+EFSA's Panel on Contaminants in the Food Chain established in its March 2010 Scientific Opinion on Lead in Food that the previous JECFA provisional tolerable weekly intake of 25 µg/kg b.w./week is no longer appropriate, on the basis that the dose-response evidence for the most sensitive lead endpoints does not support a threshold ([[sources/efsa-lead-contam-2010]]). EFSA does not therefore set a numeric TWI for lead, but instead reports Benchmark Dose Lower Confidence Limits for three critical endpoints: developmental neurotoxicity in young children, systolic blood pressure effects in adults, and chronic kidney disease prevalence in adults ([[sources/efsa-lead-contam-2010]]).
 
 ## Critical endpoint BMDLs
+
+BMDL values from [[sources/efsa-lead-contam-2010]]:
 
 | Endpoint | Blood lead BMDL | Equivalent dietary intake (µg/kg b.w./day) |
 | --- | --- | --- |
@@ -28,9 +30,11 @@ EFSA's Panel on Contaminants in the Food Chain established in its March 2010 Sci
 | Systolic blood pressure (adults) | BMDL01 36 µg/L | 1.50 |
 | Chronic kidney disease prevalence (adults) | BMDL10 15 µg/L | 0.63 |
 
-The developmental neurotoxicity endpoint is the most sensitive. EFSA assesses the margins of exposure and concludes that for substantial fractions of European children and infants, the margin between current dietary lead exposure and the BMDL01 for neurotoxicity is small enough that adverse effects cannot be excluded at the population level.
+The developmental neurotoxicity endpoint is the most sensitive. EFSA assesses the margins of exposure and concludes that for substantial fractions of European children and infants, the margin between current dietary lead exposure and the BMDL01 for neurotoxicity is small enough that adverse effects cannot be excluded at the population level ([[sources/efsa-lead-contam-2010]]).
 
 ## Dietary exposure ranges (EFSA 2010)
+
+Exposure ranges from [[sources/efsa-lead-contam-2010]]:
 
 | Population | Average exposure (µg/kg b.w./day) | High consumer (µg/kg b.w./day) |
 | --- | --- | --- |
@@ -38,7 +42,7 @@ The developmental neurotoxicity endpoint is the most sensitive. EFSA assesses th
 | Children | 0.80 to 3.10 | up to 5.51 |
 | Infants | 0.21 to 0.94 | — |
 
-Cereal products are the dominant dietary contributor; dust and soil are important non-dietary sources for children.
+Cereal products are the dominant dietary contributor; dust and soil are important non-dietary sources for children ([[sources/efsa-lead-contam-2010]]).
 
 ## Sources
 

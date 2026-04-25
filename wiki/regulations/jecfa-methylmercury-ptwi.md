@@ -18,7 +18,7 @@ audience: [regulator, educator]
 
 # JECFA — Methylmercury Provisional Tolerable Weekly Intake (1.6 µg/kg b.w./week)
 
-The Joint FAO/WHO Expert Committee on Food Additives, at its 61st meeting in June 2003 (report published 2004 as WHO Technical Report Series 922), established the provisional tolerable weekly intake for methylmercury at **1.6 µg MeHg/kg body weight per week**, replacing the prior PTWI of 3.3. The PTWI is anchored on developmental neurotoxicity observed in cohort studies of children exposed in utero through maternal seafood consumption (Faroe Islands and Seychelles cohorts), translated from a maternal hair NOAEL of 6.4 µg MeHg/L through standard pharmacokinetic conversion.
+The Joint FAO/WHO Expert Committee on Food Additives, at its 61st meeting in June 2003 (report published 2004 as WHO Technical Report Series 922), established the provisional tolerable weekly intake for methylmercury at **1.6 µg MeHg/kg body weight per week**, replacing the prior PTWI of 3.3 ([[sources/jecfa-61st-methylmercury]]). The PTWI is anchored on developmental neurotoxicity observed in cohort studies of children exposed in utero through maternal seafood consumption (Faroe Islands and Seychelles cohorts), translated from a maternal hair NOAEL of 6.4 µg MeHg/L through standard pharmacokinetic conversion ([[sources/jecfa-61st-methylmercury]]).
 
 | Parameter | Value |
 | --- | --- |
@@ -30,7 +30,7 @@ The Joint FAO/WHO Expert Committee on Food Additives, at its 61st meeting in Jun
 | Establishing meeting | JECFA 61st (June 2003) |
 | Report publication | WHO Technical Report Series 922, 2004 |
 
-The EFSA 2012 re-evaluation lowered the EU TWI to 1.3 µg/kg b.w./week with adjustment for n-3 long-chain polyunsaturated fatty acid coefficients in fish; the JECFA 1.6 PTWI remains the international Codex-aligned value.
+The EFSA 2012 re-evaluation lowered the EU TWI to 1.3 µg/kg b.w./week with adjustment for n-3 long-chain polyunsaturated fatty acid coefficients in fish ([[sources/efsa-mercury-methylmercury-2012]]); the JECFA 1.6 PTWI remains the international Codex-aligned value ([[sources/jecfa-61st-methylmercury]]).
 
 ## Sources
 

@@ -18,25 +18,25 @@ audience: [regulator, educator]
 
 # Codex Alimentarius — Maximum Levels for Cadmium in Food
 
-The Codex Alimentarius Commission establishes international maximum levels for contaminants in food, harmonized through the Codex Committee on Contaminants in Foods. Codex MLs are voluntary international references; many national regulators adopt them directly, and the World Trade Organization cites them in trade disputes over food safety measures. Codex MLs are aligned to the JECFA health-based guidance value (the provisional tolerable monthly intake of 25 µg Cd/kg b.w./month, established at JECFA's 73rd meeting in 2010) combined with feasibility considerations from CCCF and national competent authorities.
+The Codex Alimentarius Commission establishes international maximum levels for contaminants in food, harmonized through the Codex Committee on Contaminants in Foods ([[sources/codex-cccf17-2024]]). Codex MLs are voluntary international references; many national regulators adopt them directly, and the World Trade Organization cites them in trade disputes over food safety measures. Codex MLs are aligned to the JECFA health-based guidance value (the provisional tolerable monthly intake of 25 µg Cd/kg b.w./month, established at JECFA's 73rd meeting in 2010 ([[sources/jecfa-73rd-cadmium-2010]])) combined with feasibility considerations from CCCF and national competent authorities ([[sources/codex-cccf17-2024]]).
 
-**The matrix-level operative Codex cadmium MLs live in Codex Standard CXS 193-1995 (General Standard for Contaminants and Toxins in Food and Feed), which is not yet in this wiki's corpus.** This page records the cadmium-specific actions from the most recently ingested CCCF session (17th Session, April 2024) and flags CXS 193-1995 as pending ingest for the full matrix-level ML table.
+**The matrix-level operative Codex cadmium MLs live in Codex Standard CXS 193-1995 (General Standard for Contaminants and Toxins in Food and Feed) ([[sources/codex-cxs-193-1995]]).** This page records the cadmium-specific actions from the most recently ingested CCCF session (17th Session, April 2024 ([[sources/codex-cccf17-2024]])) and the matrix-level ML table from CXS 193-1995.
 
 ## Cadmium actions from CCCF17 (April 2024)
 
-| Action | Commodity | Value | Status |
-| --- | --- | --- | --- |
-| New maximum level for cadmium | Quinoa (whole commodity, referencing CXS 333-2019) | 0.15 mg/kg | Forwarded to CAC47 (November 2024) for adoption |
-| New maximum level for lead (companion ML) | Quinoa (whole commodity) | 0.2 mg/kg | Forwarded to CAC47 for adoption |
-| New work initiated | Code of Practice for the Prevention and Reduction of Cadmium Contamination in Foods | n/a | Project document forwarded to CAC47 for approval |
+| Action | Commodity | Value | Status | Source |
+| --- | --- | --- | --- | --- |
+| New maximum level for cadmium | Quinoa (whole commodity, referencing CXS 333-2019) | 0.15 mg/kg | Forwarded to CAC47 (November 2024) for adoption | [[sources/codex-cccf17-2024]] |
+| New maximum level for lead (companion ML) | Quinoa (whole commodity) | 0.2 mg/kg | Forwarded to CAC47 for adoption | [[sources/codex-cccf17-2024]] |
+| New work initiated | Code of Practice for the Prevention and Reduction of Cadmium Contamination in Foods | n/a | Project document forwarded to CAC47 for approval | [[sources/codex-cccf17-2024]] |
 
-The quinoa cadmium ML was selected from three options considered by the Committee (0.10 mg/kg, 0.15 mg/kg, or no separate ML) on the rationale that 0.15 would produce the lowest rejection rates worldwide while still reflecting the ALARA principle. Quinoa is held separate from the general cereals category because it is classified as a pseudo-cereal rather than a cereal.
+The quinoa cadmium ML was selected from three options considered by the Committee (0.10 mg/kg, 0.15 mg/kg, or no separate ML) on the rationale that 0.15 would produce the lowest rejection rates worldwide while still reflecting the ALARA principle ([[sources/codex-cccf17-2024]]). Quinoa is held separate from the general cereals category because it is classified as a pseudo-cereal rather than a cereal ([[sources/codex-cccf17-2024]]).
 
-During the deliberation, a Member State delegation stated that cadmium MLs should be set under ALARA because "cereal grains as a group was a serious contributor to exposure to cadmium and in their region, the tolerable weekly intake (TWI) was exceeded for many consumers." This reflects the EFSA rather than JECFA reference value, and is consistent with the [[synthesis]] observation that child and cereal-heavy subpopulations can approach or exceed the tighter of the major reference values.
+During the deliberation, a Member State delegation stated that cadmium MLs should be set under ALARA because "cereal grains as a group was a serious contributor to exposure to cadmium and in their region, the tolerable weekly intake (TWI) was exceeded for many consumers" ([[sources/codex-cccf17-2024]]). This reflects the EFSA rather than JECFA reference value, and is consistent with the [[synthesis]] observation that child and cereal-heavy subpopulations can approach or exceed the tighter of the major reference values.
 
 ## New work: Code of Practice for the Prevention and Reduction of Cadmium Contamination in Foods
 
-CCCF17 initiated new work on a broader Code of Practice extending the existing CXC 81-2022 (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans) to cover additional food commodities. An electronic working group chaired by the United States is developing the draft CoP for consideration at CCCF18. Commodity-specific annexes are contemplated for the following categories identified as significant contributors to cadmium exposure:
+CCCF17 initiated new work on a broader Code of Practice extending the existing CXC 81-2022 (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans) to cover additional food commodities ([[sources/codex-cccf17-2024]]). An electronic working group chaired by the United States is developing the draft CoP for consideration at CCCF18. Commodity-specific annexes are contemplated for the following categories identified as significant contributors to cadmium exposure ([[sources/codex-cccf17-2024]]):
 
 - Rice
 - Cereals and cereal products
@@ -44,19 +44,19 @@ CCCF17 initiated new work on a broader Code of Practice extending the existing C
 - Fish
 - Seafood
 
-The commodity list aligns closely with the EFSA 2009 and JECFA 91st meeting identification of major dietary cadmium contributors, and will define industry-standard practice for cadmium mitigation across the supply chain. Whether the CoP includes commodity-specific annexes or remains at the general-principles level will depend on the detail of Member State submissions to the EWG.
+The commodity list aligns closely with the EFSA 2009 ([[sources/efsa-cadmium-contam-2009]]) and JECFA 91st meeting ([[sources/jecfa-91st-cadmium-2022]]) identification of major dietary cadmium contributors, and will define industry-standard practice for cadmium mitigation across the supply chain. Whether the CoP includes commodity-specific annexes or remains at the general-principles level will depend on the detail of Member State submissions to the EWG.
 
-## Operative matrix-level Codex Cd MLs (pending ingest of CXS 193-1995)
+## Operative matrix-level Codex Cd MLs (CXS 193-1995)
 
-_The matrix-level Codex cadmium maximum levels, including MLs for rice (polished and husked), wheat grain, vegetables, leafy vegetables, edible offal (liver and kidney), bivalve molluscs, cephalopods, cocoa products, marine fish species, and other commodities, live in CXS 193-1995 and its amendments. That document is not in the current raw corpus and is flagged for ingest. Until then, this page cannot claim specific matrix-level Codex Cd ML values; only the CCCF17-forwarded quinoa ML of 0.15 mg/kg is recorded here with full source provenance._
+_The matrix-level Codex cadmium maximum levels, including MLs for rice (polished and husked), wheat grain, vegetables, leafy vegetables, edible offal (liver and kidney), bivalve molluscs, cephalopods, cocoa products, marine fish species, and other commodities, live in CXS 193-1995 and its amendments ([[sources/codex-cxs-193-1995]]). That source is now in the corpus; matrix-level entries should be tabulated from there._
 
 ## Relationship to the JECFA PTMI
 
-Codex MLs are set by CCCF in a risk-management framework that uses the JECFA PTMI of 25 µg Cd/kg b.w./month as the health-based guidance value and GEMS/Food occurrence data combined with rejection-rate analysis as the feasibility anchor. Matrix-specific MLs are the result of a negotiation between health protection and achievability; they do not translate directly to the PTMI but collectively contribute to keeping dietary cadmium intake within the PTMI across the range of regional diets.
+Codex MLs are set by CCCF in a risk-management framework that uses the JECFA PTMI of 25 µg Cd/kg b.w./month as the health-based guidance value ([[sources/jecfa-73rd-cadmium-2010]]) and GEMS/Food occurrence data combined with rejection-rate analysis as the feasibility anchor ([[sources/codex-cccf17-2024]]). Matrix-specific MLs are the result of a negotiation between health protection and achievability; they do not translate directly to the PTMI but collectively contribute to keeping dietary cadmium intake within the PTMI across the range of regional diets.
 
 ## Relationship to the existing CXC 81-2022 (Cocoa Beans CoP)
 
-The existing Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022) is a finalized 2022 Codex text that informed the CCCF17 decision to initiate broader CoP work. CXC 81-2022 is referenced in the session report as the precedent document but is not in the current raw corpus. It is flagged for ingest alongside CXS 193-1995.
+The existing Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022) is a finalized 2022 Codex text that informed the CCCF17 decision to initiate broader CoP work ([[sources/codex-cccf17-2024]]). CXC 81-2022 is referenced in the session report as the precedent document but is not in the current raw corpus. It is flagged for ingest.
 
 ## Comparison to EU, US, and national MLs
 

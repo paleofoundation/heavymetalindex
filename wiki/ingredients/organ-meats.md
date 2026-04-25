@@ -82,11 +82,11 @@ _Pending. Organ meats from younger animals, animals raised on documented lower-c
 
 The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
 
-- **Pb**: lead accumulates in bone, kidney, and liver of food animals over the lifetime, alongside cadmium. Older animals carry higher Pb loads in offal, and game animals harvested with lead ammunition can carry markedly elevated Pb in surrounding tissues. See [[metals/lead]].
-- **iAs**: not a notable concern in conventional livestock organs.
-- **tHg**: total mercury and methylmercury accumulate in animal liver from dietary sources. In conventional terrestrial livestock, background tHg in liver is low; in fish-eating animals (marine mammals, fish-eating birds, predator fish), liver tHg is materially elevated and a recognized exposure source for traditional-diet consumers. See [[metals/mercury]].
-- **Ni**: not a top concern in organ meats.
-- **Al**: not a top concern in organ meats.
+- **Pb**: lead accumulates in bone, kidney, and liver of food animals over the lifetime, alongside cadmium. <!-- UNCITED --> Older animals carry higher Pb loads in offal, and game animals harvested with lead ammunition can carry markedly elevated Pb in surrounding tissues. <!-- UNCITED --> See [[metals/lead]].
+- **iAs**: not a notable concern in conventional livestock organs. <!-- UNCITED -->
+- **tHg**: total mercury and methylmercury accumulate in animal liver from dietary sources. <!-- UNCITED --> In conventional terrestrial livestock, background tHg in liver is low; in fish-eating animals (marine mammals, fish-eating birds, predator fish), liver tHg is materially elevated and a recognized exposure source for traditional-diet consumers. <!-- UNCITED --> See [[metals/mercury]].
+- **Ni**: not a top concern in organ meats. <!-- UNCITED -->
+- **Al**: not a top concern in organ meats. <!-- UNCITED -->
 
 ## Regulatory limits that apply
 
