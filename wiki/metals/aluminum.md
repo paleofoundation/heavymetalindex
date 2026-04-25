@@ -12,14 +12,14 @@ sources: 2
 
 # Aluminum
 
-_This page draws on the EFSA AFC Panel 2008 Scientific Opinion on the Safety of Aluminium from Dietary Intake ([[sources/efsa-aluminium-afc-2008]]) and the JECFA Combined Compendium of Food Additive Specifications ([[sources/jecfa-food-additive-specs-compendium]]). Additional sources are flagged for future ingest waves: ATSDR Aluminum Toxicological Profile, EPA assessments, and the JECFA reaffirmation of the 1 mg/kg b.w./week PTWI._
+_This page draws on the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] Scientific Opinion on the Safety of Aluminium from Dietary Intake ([[sources/efsa-aluminium-afc-2008]]) and the JECFA Combined Compendium of Food Additive Specifications ([[sources/jecfa-food-additive-specs-compendium]]). Additional sources are flagged for future ingest waves: ATSDR Aluminum Toxicological Profile, EPA assessments, and the JECFA reaffirmation of the 1 mg/kg b.w./week PTWI._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
 
-Aluminum is the third most abundant element in Earth's crust and a non-essential metal that enters the human food system through aluminum-containing food additives, aluminum-amended drinking water (used as a flocculant in water treatment), aluminum cookware and food packaging in contact with acidic foods, antacid medications, and natural occurrence in some plant-based foods. Aluminum is poorly absorbed from the gastrointestinal tract (typically less than 1 percent), but cumulative exposure across the food supply produces dietary intakes that the EFSA AFC Panel 2008 concluded routinely exceed the established tolerable weekly intake of 1 mg Al/kg body weight per week in significant portions of the European population.
+Aluminum is the third most abundant element in Earth's crust and a non-essential metal that enters the human food system through aluminum-containing food additives, aluminum-amended drinking water (used as a flocculant in water treatment), aluminum cookware and food packaging in contact with acidic foods, antacid medications, and natural occurrence in some plant-based foods. Aluminum is poorly absorbed from the gastrointestinal tract (typically less than 1 percent), but cumulative exposure across the food supply produces dietary intakes that the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] concluded routinely exceed the established tolerable weekly intake of 1 mg Al/kg body weight per week in significant portions of the European population.
 
-The toxicological concerns associated with aluminum focus on neurotoxicity (most clearly documented in dialysis-related encephalopathy from aluminum-contaminated dialysate fluid in the 1970s and 1980s, and in chronic occupational exposure), reproductive and developmental effects, and bone effects (aluminum-induced osteomalacia in dialysis patients was a significant clinical entity before water treatment for dialysis was redesigned). The EFSA TWI of 1 mg/kg b.w./week replaced an earlier JECFA provisional tolerable weekly intake of 7 mg/kg b.w./week with a sevenfold reduction; JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week.
+The toxicological concerns associated with aluminum focus on neurotoxicity (most clearly documented in dialysis-related encephalopathy from aluminum-contaminated dialysate fluid in the 1970s and 1980s, and in chronic occupational exposure), reproductive and developmental effects, and bone effects (aluminum-induced osteomalacia in dialysis patients was a significant clinical entity before water treatment for dialysis was redesigned). The [[regulations/efsa-aluminium-twi|EFSA TWI]] of 1 mg/kg b.w./week replaced an earlier JECFA provisional tolerable weekly intake of 7 mg/kg b.w./week with a sevenfold reduction; JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week.
 
 Aluminum's health profile is qualitatively different from the other metals on this wiki. The clearest documented adverse health effects (dialysis encephalopathy, dialysis osteomalacia) occur in patient populations with impaired aluminum excretion (renal failure) and intravenous-route exposure that bypasses GI absorption barriers; for the general population with normal renal function and oral exposure, the dose-response evidence for aluminum-related disease is weaker than for cadmium, lead, mercury, or arsenic, and the regulatory TWI rests largely on extrapolation from animal neurotoxicity studies rather than on robust human cohort data at typical dietary exposure levels.
 
@@ -28,7 +28,7 @@ Aluminum's health profile is qualitatively different from the other metals on th
 
 Three facts that matter most for a consumer trying to interpret aluminum exposure.
 
-First, aluminum exposure for most consumers is dominated by aluminum-containing food additives (sodium aluminium phosphate as a leavening agent in baked goods, sodium aluminium silicate as an anti-caking agent in salt and powdered foods, aluminium-containing colorants), antacid medications, and aluminum-cookware contact with acidic foods (tomato sauce, pickles, citrus). Naturally occurring aluminum in plants is generally a smaller contributor. EFSA 2008 concluded that the population-level TWI of 1 mg/kg b.w./week is exceeded in significant fractions of the European population, particularly among consumers of foods containing aluminium-based additives.
+First, aluminum exposure for most consumers is dominated by aluminum-containing food additives (sodium aluminium phosphate as a leavening agent in baked goods, sodium aluminium silicate as an anti-caking agent in salt and powdered foods, aluminium-containing colorants), antacid medications, and aluminum-cookware contact with acidic foods (tomato sauce, pickles, citrus). Naturally occurring aluminum in plants is generally a smaller contributor. [[sources/efsa-aluminium-afc-2008|EFSA 2008]] concluded that the population-level TWI of 1 mg/kg b.w./week is exceeded in significant fractions of the European population, particularly among consumers of foods containing aluminium-based additives.
 
 Second, the clearest documented adverse health effects of aluminum (dialysis encephalopathy, dialysis osteomalacia) occur in patient populations with impaired renal excretion of aluminum and via routes (intravenous dialysate) that bypass the protective GI absorption barrier of typical dietary exposure. For the general consumer with normal renal function and oral exposure only, the regulatory TWI is the primary benchmark; documented neurological or musculoskeletal disease from typical dietary aluminum is uncommon and difficult to attribute to aluminum specifically rather than to confounding factors.
 
@@ -37,7 +37,7 @@ Third, aluminum cookware does contribute to dietary aluminum, particularly when 
 ## Toxicology
 <!-- audience: regulator, educator -->
 
-The EFSA AFC Panel 2008 TWI of 1 mg Al/kg b.w./week is anchored on neurotoxic, reproductive, and developmental effects in animal studies. The Panel did not derive a single critical study and reference point; the TWI integrates evidence across multiple animal endpoints with safety factors for interspecies extrapolation and human variability. The replacement of the prior JECFA PTWI of 7 mg/kg b.w./week with the EFSA value of 1 mg/kg b.w./week reflects accumulated evidence at lower exposures and a more conservative evaluation.
+The [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] TWI of 1 mg Al/kg b.w./week is anchored on neurotoxic, reproductive, and developmental effects in animal studies. The Panel did not derive a single critical study and reference point; the TWI integrates evidence across multiple animal endpoints with safety factors for interspecies extrapolation and human variability. The replacement of the prior JECFA PTWI of 7 mg/kg b.w./week with the EFSA value of 1 mg/kg b.w./week reflects accumulated evidence at lower exposures and a more conservative evaluation.
 
 The clearest documented human aluminum disease entities are dialysis encephalopathy and dialysis osteomalacia, both observed in chronic hemodialysis patients exposed to aluminum-contaminated dialysate fluid in the 1970s and 1980s before water treatment for dialysis was redesigned. Dialysis encephalopathy presented with progressive dementia, dysarthria, myoclonus, and seizures; dialysis osteomalacia produced bone pain, fractures, and characteristic radiographic and histological findings. Both entities are essentially eliminated in modern dialysis practice because dialysate water is now routinely treated to remove aluminum.
 
@@ -48,7 +48,7 @@ Aluminum is not classified by IARC or NTP as a human carcinogen. Some specific o
 ## Typical exposure routes
 <!-- audience: regulator, educator -->
 
-Dietary intake is the dominant route. EFSA 2008 estimated typical adult European dietary aluminum exposure at 0.2 to 1.5 mg/kg b.w./week (potentially higher in some sub-populations), with substantial variation across Member States driven by aluminum-additive use patterns. Antacid medications can contribute substantially to aluminum intake in users (typical aluminum-containing antacid daily aluminum delivery 100 to 1000 mg, dwarfing typical dietary intake of 5 to 15 mg/day). Drinking water aluminum (from aluminum-based water-treatment flocculants in some municipal systems) is typically below 0.2 mg/L and a smaller contributor than dietary additives.
+Dietary intake is the dominant route. [[sources/efsa-aluminium-afc-2008|EFSA 2008]] estimated typical adult European dietary aluminum exposure at 0.2 to 1.5 mg/kg b.w./week (potentially higher in some sub-populations), with substantial variation across Member States driven by aluminum-additive use patterns. Antacid medications can contribute substantially to aluminum intake in users (typical aluminum-containing antacid daily aluminum delivery 100 to 1000 mg, dwarfing typical dietary intake of 5 to 15 mg/day). Drinking water aluminum (from aluminum-based water-treatment flocculants in some municipal systems) is typically below 0.2 mg/L and a smaller contributor than dietary additives.
 
 GI absorption of aluminum is typically less than 1 percent, with substantial variation by chemical form (citrate-complexed aluminum is absorbed at higher rates than aluminum hydroxide; co-ingestion with citric acid increases absorption). Inhalation absorption is route-relevant for occupational exposure and some pharmaceutical inhalants. Dermal absorption is negligible.
 
@@ -68,12 +68,12 @@ Excretion is primarily renal. Renal failure is the major risk factor for aluminu
 | Baked goods with aluminium-based leavening | Cakes, biscuits, pancakes using aluminum baking powder |
 | Infant formula | Variable by product; some soy-based formulas higher than milk-based |
 
-EFSA 2008 estimated dietary exposure at 0.3 to 0.9 mg/kg b.w./week for milk-based infant formulas and 1.1 mg/kg b.w./week for soya-based formulas; breast-fed infants were estimated at less than 0.07 mg/kg b.w./week.
+[[sources/efsa-aluminium-afc-2008|EFSA 2008]] estimated dietary exposure at 0.3 to 0.9 mg/kg b.w./week for milk-based infant formulas and 1.1 mg/kg b.w./week for soya-based formulas; breast-fed infants were estimated at less than 0.07 mg/kg b.w./week.
 
 ### What this means for food choice
 <!-- audience: consumer -->
 
-For consumers with normal renal function: the EFSA TWI exceedance documented at the population level does not translate to a clear individual action threshold for most consumers. The leverage points in approximate order of impact:
+For consumers with normal renal function: the [[regulations/efsa-aluminium-twi|EFSA TWI]] exceedance documented at the population level does not translate to a clear individual action threshold for most consumers. The leverage points in approximate order of impact:
 
 For frequent antacid users: aluminum-containing antacids deliver 100 to 1000 mg of aluminum per daily dose, dwarfing dietary intake. Switching to non-aluminum antacids (calcium carbonate, magnesium hydroxide, proton pump inhibitors) eliminates this exposure. Patients with chronic acid-related symptoms should discuss antacid choice with their physician, particularly if renal function is impaired.
 
@@ -81,7 +81,7 @@ For consumers concerned about additive intake: reading ingredient labels for sod
 
 For aluminum cookware users: anodized aluminum cookware substantially reduces aluminum leaching into food. Stainless steel, cast iron, glass, and ceramic cookware eliminate aluminum leaching. The cookware contribution is generally modest relative to additive and antacid contributions, but for consumers cooking acidic foods (tomato sauce, citrus, vinegar) regularly in non-anodized aluminum, switching cookware is a reasonable precaution.
 
-For pregnant women and parents of infants: soy-based infant formulas were documented by EFSA 2008 to deliver higher aluminum than milk-based formulas, which deliver higher aluminum than breastfeeding. For non-breastfeeding situations, milk-based formula is the lower-aluminum choice unless other clinical factors (allergy, intolerance) require soy.
+For pregnant women and parents of infants: soy-based infant formulas were documented by [[sources/efsa-aluminium-afc-2008|EFSA 2008]] to deliver higher aluminum than milk-based formulas, which deliver higher aluminum than breastfeeding. For non-breastfeeding situations, milk-based formula is the lower-aluminum choice unless other clinical factors (allergy, intolerance) require soy.
 
 ## Regulatory limits
 <!-- audience: regulator, educator -->
@@ -96,7 +96,7 @@ For pregnant women and parents of infants: soy-based infant formulas were docume
 ### What the reference values mean in practice
 <!-- audience: consumer -->
 
-The EFSA TWI of 1 mg Al/kg b.w./week corresponds to 70 mg Al/week or 10 mg Al/day for a 70-kilogram adult. EFSA's estimate of typical European adult dietary intake is 0.2 to 1.5 mg/kg b.w./week (14 to 105 mg/week for the same adult), placing the population mean at the upper end of the TWI range and the high consumers above. This is the regulatory finding that "the TWI is likely to be exceeded in a significant part of the European population."
+The [[regulations/efsa-aluminium-twi|EFSA TWI]] of 1 mg Al/kg b.w./week corresponds to 70 mg Al/week or 10 mg Al/day for a 70-kilogram adult. EFSA's estimate of typical European adult dietary intake is 0.2 to 1.5 mg/kg b.w./week (14 to 105 mg/week for the same adult), placing the population mean at the upper end of the TWI range and the high consumers above. This is the regulatory finding that "the TWI is likely to be exceeded in a significant part of the European population."
 
 For an individual consumer: a daily diet without aluminum-additive-heavy processed foods, without antacid use, and using non-aluminum cookware would typically deliver well under the TWI. Adding aluminum-containing antacids to the dietary baseline can rapidly push intake to 10 to 100 times the TWI; this is why antacid users are the most consequential subpopulation for aluminum exposure regulatory concern.
 
@@ -127,8 +127,8 @@ The lessons from dialysis encephalopathy are: (a) aluminum is a potential neurot
 | Hemodialysis patients (legacy concern) | Dialysate-water aluminum was the cause of dialysis encephalopathy and osteomalacia; modern dialysis water treatment essentially eliminates this exposure |
 | Patients with chronic renal impairment | Reduced aluminum excretion produces body-burden accumulation; aluminum-containing antacids and phosphate binders are particular concerns |
 | Frequent users of aluminum-containing antacids | Daily aluminum delivery 100 to 1000 mg dwarfs dietary intake |
-| Consumers of aluminum-additive-heavy diets | Population-level TWI exceedance documented in EFSA 2008 |
-| Infants on soy-based formula | Higher aluminum than milk-based formula or breastfeeding (EFSA 2008) |
+| Consumers of aluminum-additive-heavy diets | Population-level TWI exceedance documented in [[sources/efsa-aluminium-afc-2008|EFSA 2008]] |
+| Infants on soy-based formula | Higher aluminum than milk-based formula or breastfeeding ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]) |
 | Aluminum-industry workers | Inhalation exposure to aluminum dust in smelter and finishing operations |
 
 ### If you are in one of these groups
@@ -151,7 +151,7 @@ The aluminum reference value is a single TWI of 1 mg/kg b.w./week (EFSA, JECFA-a
 
 Critical app handling: aluminum-containing antacid use is the dominant single exposure source for users and dwarfs dietary intake. The app should explicitly query antacid use as a separate input and add antacid-derived aluminum to dietary aluminum for total exposure estimation. Without this query, dietary-only estimates substantially understate total aluminum intake for antacid users.
 
-Pediatric multipliers: EFSA 2008 documented soy-based formula aluminum at approximately 1.1 mg/kg b.w./week vs milk-based at 0.3 to 0.9 vs breast milk at less than 0.07. App pediatric mode should query feeding modality and apply formula-specific exposure defaults.
+Pediatric multipliers: [[sources/efsa-aluminium-afc-2008|EFSA 2008]] documented soy-based formula aluminum at approximately 1.1 mg/kg b.w./week vs milk-based at 0.3 to 0.9 vs breast milk at less than 0.07. App pediatric mode should query feeding modality and apply formula-specific exposure defaults.
 
 Structured outputs:
 
@@ -167,7 +167,7 @@ Structured outputs:
 
 Two load-bearing open questions for aluminum:
 
-First, the population-level TWI exceedance documented by EFSA 2008 is a regulatory finding that has not produced a clear policy intervention. Reducing dietary aluminum below the TWI through ordinary food choice is difficult given aluminum's broad use as a food additive; whether the TWI is too conservative, or whether population aluminum exposure warrants additive-restriction policy, is an active regulatory debate.
+First, the population-level TWI exceedance documented by [[sources/efsa-aluminium-afc-2008|EFSA 2008]] is a regulatory finding that has not produced a clear policy intervention. Reducing dietary aluminum below the TWI through ordinary food choice is difficult given aluminum's broad use as a food additive; whether the TWI is too conservative, or whether population aluminum exposure warrants additive-restriction policy, is an active regulatory debate.
 
 Second, the relationship between dietary aluminum exposure and Alzheimer's disease has been investigated extensively over decades without a definitive consensus emerging. Current dominant view is that aluminum is not a primary causal factor in Alzheimer's, but the literature remains contested in some quarters. The wiki tracks this as a live methodological question without taking a position pending stronger meta-analytic synthesis.
 

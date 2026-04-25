@@ -16,8 +16,9 @@ export const sharedPageComponents: SharedLayout = {
 }
 
 // components for pages that display a single page (e.g. a single note)
-// Graph view is intentionally omitted: this is a scholarly reference, not a digital garden.
-// Backlinks and Table of Contents are retained because they support verification and orientation.
+// Graph view, Backlinks, and Table of Contents are all enabled because dense
+// inline wikilinking across metals, regulations, sources, and ingredients
+// makes the connection graph load-bearing for navigation and verification.
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -44,6 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
+    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
