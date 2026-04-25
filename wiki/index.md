@@ -11,6 +11,7 @@ This page catalogs every wiki page by category. Each entry is one line: `- [[pat
 
 - [[metals/cadmium]] — cadmium in food and supply chain (in progress, 9 sources; batch 1 ingested, synthesis pass pending).
 - [[metals/lead]] — lead in food and supply chain (populated, 8 sources).
+- [[metals/arsenic]] — arsenic in food and supply chain (populated, 8 sources).
 
 ## Ingredients
 
