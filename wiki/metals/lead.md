@@ -100,7 +100,7 @@ For pregnancy and pre-pregnancy planning, the bone-lead reservoir matters: lead 
 | US FDA | Closer to Zero IRL | 2.2 µg/day (children); 8.8 µg/day (women of childbearing age) | [[regulations/fda-closer-to-zero]] |
 | US FDA | CTZ baby food action levels | 10 ppb (mixed), 20 ppb (root vegetables), 20 ppb (dry infant cereals) | [[regulations/fda-ctz-Pb-babyfood-10ppb]], [[regulations/fda-ctz-Pb-rootveg-20ppb]], [[regulations/fda-ctz-Pb-cereal-20ppb]] |
 | US California | Prop 65 (cancer + reproductive) | Listed; NSRL and MADL pending separate ingest | [[regulations/oehha-lead-prop65]] |
-| Codex Alimentarius | Matrix-level MLs | Pending ingest of CXS 193-1995 | _Pending_ |
+| Codex Alimentarius | Matrix-level MLs ([[sources/codex-cxs-193-1995\|CXS 193-1995]]) | Cereal grains 0.2 mg/kg; cereal-based infant foods 0.02; infant formula 0.01 (as consumed); fruits 0.1; leafy vegetables 0.3; fish 0.3; cattle offal 0.2; pig offal 0.15; milk 0.02; full table in source page | [[sources/codex-cxs-193-1995]] |
 | EU | Maximum levels in food | Regulation (EU) 2023/915 (pending ingest) | _Pending_ |
 
 ### What the reference values mean in practice

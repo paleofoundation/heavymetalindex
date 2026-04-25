@@ -7,12 +7,12 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
 updated: 2026-04-25
-sources: 2
+sources: 3
 ---
 
 # Aluminum
 
-_This page draws on the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] Scientific Opinion on the Safety of Aluminium from Dietary Intake ([[sources/efsa-aluminium-afc-2008]]) and the JECFA Combined Compendium of Food Additive Specifications ([[sources/jecfa-food-additive-specs-compendium]]). Additional sources are flagged for future ingest waves: ATSDR Aluminum Toxicological Profile, EPA assessments, and the JECFA reaffirmation of the 1 mg/kg b.w./week PTWI._
+_This page draws on the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] Scientific Opinion on the Safety of Aluminium from Dietary Intake ([[sources/efsa-aluminium-afc-2008]]), the ATSDR 2008 Toxicological Profile for Aluminum ([[sources/atsdr-aluminum-toxprofile-2008]]), and the JECFA Combined Compendium of Food Additive Specifications ([[sources/jecfa-food-additive-specs-compendium]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -91,6 +91,8 @@ For pregnant women and parents of infants: soy-based infant formulas were docume
 | EFSA (EU) | Dietary TWI | 1 mg Al/kg b.w./week | [[regulations/efsa-aluminium-twi]] |
 | JECFA (international) | PTWI | 1 mg Al/kg b.w./week (aligned with EFSA after 2008) | _Pending separate ingest_ |
 | Prior JECFA PTWI (replaced) | 7 mg Al/kg b.w./week | Replaced 2008 |  |
+| US ATSDR | Chronic oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
+| US ATSDR | Intermediate oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
 | EU | Maximum levels for aluminium in food contact materials | Regulation (EU) 10/2011 amendments | _Pending separate ingest_ |
 
 ### What the reference values mean in practice

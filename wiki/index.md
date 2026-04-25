@@ -114,3 +114,14 @@ _None yet._
 - [[sources/huang-2020-pb-alad-threshold]] — Huang et al. 2020. Lead-ALAD activity threshold (evidence tier A).
 - [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food (evidence tier A).
 - [[sources/fda-ctz-Pb-babyfood-2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A).
+- [[sources/epa-iris-cadmium-1989]] — EPA IRIS Cadmium Chemical Assessment Summary, last revised 1989-10-01 (evidence tier A; values verified from EPA IRIS database).
+- [[sources/codex-cxs-193-1995]] — Codex Alimentarius CXS 193-1995 General Standard for Contaminants and Toxins in Food and Feed, with full Cd and Pb ML tables (evidence tier A).
+- [[sources/atsdr-aluminum-toxprofile-2008]] — ATSDR, September 2008. Toxicological Profile for Aluminum (evidence tier A).
+- [[sources/efsa-cadmium-2011-statement]] — EFSA CONTAM 2011 Statement on TWI for Cadmium (secondary-citation provenance pending primary PDF acquisition).
+- [[sources/jecfa-73rd-cadmium-2010]] — JECFA 73rd meeting Cadmium addendum (WHO Food Additives Series 64, 2011); primary document with full PTMI derivation.
+- [[sources/davis-2021-salivary-metals-oral-microbiome]] — Davis et al. 2021. Salivary metals, oral microbiome, and dental decay (Scientific Reports).
+- [[sources/su-2023-arsenic-brown-rice]] — Su, Chiang, O'Connor 2023. Arsenic in brown rice: do the benefits outweigh the risks? (Frontiers in Nutrition).
+- [[sources/inoue-2024-rice-nramp5-cadmium]] — Inoue et al. 2024. Engineering rice Nramp5 for selective Mn vs Cd uptake (Frontiers in Plant Science).
+- [[sources/navaretnam-2025-rice-as-speciation]] — Navaretnam et al. 2025. Arsenic speciation HPLC-ICP-MS in white and brown rice (Environmental Geochemistry and Health).
+- [[sources/fda-tds-elements-2018-2020]] — FDA, July 2022. Total Diet Study Report FY 2018-2020 Elements Data.
+- [[sources/belgian-lead-factsheet-2024]] — Steunpunt Milieu en Gezondheid, September 2024. Lead factsheet (Flemish/Belgian).
