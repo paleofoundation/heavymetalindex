@@ -10,7 +10,7 @@ This page catalogs every wiki page by category. Each entry is one line: `- [[pat
 ## Metals
 
 - [[metals/cadmium]] — cadmium in food and supply chain (in progress, 9 sources; batch 1 ingested, synthesis pass pending).
-- [[metals/lead]] — lead in food and supply chain (stub, 1 source).
+- [[metals/lead]] — lead in food and supply chain (populated, 8 sources).
 
 ## Ingredients
 
@@ -37,6 +37,10 @@ _None yet._
 - [[regulations/fda-ctz-Pb-babyfood-10ppb]] — FDA CTZ lead action level, 10 ppb in fruits / non-root vegetables / mixtures / yogurts / custards / single-ingredient meats in processed baby food (US) (1 source).
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]] — FDA CTZ lead action level, 20 ppb in single-ingredient root vegetables in processed baby food (US) (1 source).
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] — FDA CTZ lead action level, 20 ppb in dry infant cereals (US) (1 source).
+- [[regulations/efsa-lead-contam-2010]] — EFSA Lead in Food: no-threshold position; BMDL01 dietary 0.50 µg/kg/day for developmental neurotoxicity (EU) (1 source).
+- [[regulations/jecfa-lead-ptwi-withdrawn]] — JECFA Lead PTWI of 25 µg/kg b.w./week withdrawn 2010 (international) (1 source).
+- [[regulations/epa-iris-lead-rfd]] — EPA IRIS Lead: oral RfD not derived; B2 carcinogen (US) (1 source).
+- [[regulations/oehha-lead-prop65]] — California Prop 65 lead listing: cancer + reproductive toxicity (US-CA) (1 source).
 - [[regulations/oehha-cadmium-prop65]] — California Prop 65 cadmium reproductive-toxicity listing (1997) and oral MADL 4.1 µg/day (2001) (US-CA) (2 sources).
 - [[regulations/epa-iris-cadmium-rfd]] — EPA IRIS oral reference dose for cadmium (US) (stub, 0 sources).
 - [[regulations/efsa-cadmium-twi]] — EFSA CONTAM Panel tolerable weekly intake for cadmium, 2.5 µg/kg b.w./week (EU) (1 source).
@@ -86,5 +90,14 @@ _None yet._
 - [[sources/nordberg2015-cadmium-chapter]] — Nordberg GF, Nogawa K, Nordberg M, 2015. Cadmium, Ch 32 in Handbook on the Toxicology of Metals, 4th ed., Vol II (evidence tier A, copyright-licensed-private).
 - [[sources/ufelle2021-metals-chapter]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed. (evidence tier A, copyright-licensed-private).
 - [[sources/jakubowski2012-zinc-cadmium-chapter]] — Jakubowski M, 2012. Zinc and Cadmium Compounds, Ch 7 in Patty's Toxicology, 6th ed. (evidence tier A, copyright-licensed-private; cadmium portion ingested, zinc deferred).
+- [[sources/atsdr-lead-toxprofile-2020]] — ATSDR, August 2020. Toxicological Profile for Lead (evidence tier A).
+- [[sources/cdc-blood-lead-reference-value]] — CDC. Blood Lead Reference Value (3.5 µg/dL, 2021 update) (evidence tier A).
+- [[sources/epa-iris-lead-2004]] — EPA IRIS Chemical Assessment Summary, Lead and Compounds (Inorganic) (evidence tier A).
+- [[sources/efsa-lead-contam-2010]] — EFSA CONTAM Panel, 2010. Scientific Opinion on Lead in Food (evidence tier A).
+- [[sources/jecfa-72nd-lead-2010]] — JECFA 72nd meeting, 2010 (WHO TRS 959). Evaluation of Certain Contaminants in Food (evidence tier A, CC-BY-NC-SA-3.0-IGO).
+- [[sources/oehha-lead-prop65-listing]] — OEHHA. Lead and Lead Compounds, Proposition 65 listing (evidence tier A).
+- [[sources/tamagno-freeman-2025-pb-glutamate]] — Tamagno and Freeman 2025. Glutamate-mediated neural alterations in lead exposure (evidence tier A).
+- [[sources/ordemann-austin-2016-pb-zinc-finger]] — Ordemann and Austin 2016. Lead substitution in zinc-finger proteins (evidence tier A).
+- [[sources/huang-2020-pb-alad-threshold]] — Huang et al. 2020. Lead-ALAD activity threshold (evidence tier A).
 - [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food (evidence tier A).
 - [[sources/fda-ctz-Pb-babyfood-2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A).
