@@ -18,7 +18,7 @@ audience: [regulator, educator]
 
 # FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal
 
-Under the Closer to Zero program, the US Food and Drug Administration has established an action level of **100 parts per billion inorganic arsenic** in rice cereals for infants, finalized in the August 2020 Federal Register notice (Docket FDA-2016-D-1099) ([[sources/fda-iAs-rice-cereal-2020]]). This is the first matrix-specific action level under the Closer to Zero program, predating the January 2025 lead action levels ([[sources/fda-iAs-rice-cereal-2020]]). Rice and rice-based infant cereal is the dominant single dietary source of inorganic arsenic for US infants ([[sources/fda-iAs-rice-cereal-2020]]).
+Under the Closer to Zero program, the US Food and Drug Administration has established an action level of **100 parts per billion inorganic arsenic** in rice cereals for infants, finalized in the August 2020 Federal Register notice (Docket FDA-2016-D-1099) ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]). This is the first matrix-specific action level under the Closer to Zero program, predating the January 2025 lead action levels ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]). Rice and rice-based infant cereal is the dominant single dietary source of inorganic arsenic for US infants ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]).
 
 ## Rule
 
@@ -38,4 +38,4 @@ Under the Closer to Zero program, the US Food and Drug Administration has establ
 
 ## Sources
 
-- [[sources/fda-iAs-rice-cereal-2020]] — FDA, August 2020. Inorganic Arsenic in Rice Cereals for Infants Action Level.
+- [[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]] — FDA, August 2020. Inorganic Arsenic in Rice Cereals for Infants Action Level.

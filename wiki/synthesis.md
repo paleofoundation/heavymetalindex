@@ -16,7 +16,7 @@ Issues raised by completed ingests that must be resolved or explicitly acknowled
 
 ### EFSA TWI versus JECFA PTMI for cadmium
 
-Raised during ingest of [[sources/efsa-cadmium-contam-2009]] on 2026-04-24; updated during ingest of [[sources/jecfa-91st-cadmium-2022]] on 2026-04-24.
+Raised during ingest of [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] on 2026-04-24; updated during ingest of [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] on 2026-04-24.
 
 The EFSA Panel on Contaminants in the Food Chain established a tolerable weekly intake for cadmium of 2.5 µg/kg body weight per week in January 2009, anchored on renal tubular dysfunction biomarkered by urinary beta-2-microglobulin, with a reference point of 1.0 µg cadmium per gram creatinine in urine at age 50 ([[sources/efsa-cadmium-contam-2009|EFSA 2009]]). The Joint FAO/WHO Expert Committee on Food Additives adopted a provisional tolerable monthly intake of 25 µg/kg b.w./month at its 73rd meeting in 2010 (report published 2011 as WHO Technical Report Series No. 960) ([[sources/jecfa-73rd-cadmium-2010|JECFA 73rd]]). Expressed on a weekly basis, the JECFA PTMI is approximately 5.83 µg/kg b.w./week, a factor of approximately 2.3 higher than the EFSA TWI. EFSA issued a reaffirming statement in 2011 explaining the derivation differences between the two bodies; that 2011 statement is not yet in the corpus and is flagged for future ingest. JECFA's 91st meeting (November 2020, published 2022) carried the 25 PTMI forward without revision while updating dietary exposure assessments; the 91st meeting monograph is ingested ([[sources/jecfa-91st-cadmium-2022|JECFA 91st]]).
 
@@ -32,7 +32,7 @@ Codex CCCF17 (April 2024) did not produce a new health-based value but documents
 
 ### Cadmium cardiovascular endpoint: framing shift between the 2015 Handbook and the 2021 Essentials
 
-Raised during ingest of [[sources/ufelle2021-metals-chapter]] on 2026-04-24.
+Raised during ingest of [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] on 2026-04-24.
 
 The Handbook on the Toxicology of Metals chapter 32 (Nordberg, Nogawa, Nordberg 2015) characterizes cadmium's cardiovascular endpoints as contested, with positive and null associations both reported across animal and human studies, and cautions that residual confounding by tobacco smoke cannot be excluded in the positive literature ([[sources/nordberg2015-cadmium-chapter|Nordberg 2015]]). Casarett & Doull's Essentials of Toxicology chapter 23 (Ufelle and Barchowsky 2021), published six years later, describes a "strong association" between cadmium and peripheral vascular disease and raises the possibility that cadmium partially mediates the negative cardiovascular effect of smoking ([[sources/ufelle2021-metals-chapter|Ufelle and Barchowsky 2021]]). The two textbook positions are not in direct contradiction (new epidemiology can accumulate over six years in a direction that would justify stronger language), but they are materially different framings of the same endpoint class.
 
@@ -45,13 +45,13 @@ To resolve before the cadmium synthesis is written:
 
 ### Codex standards provenance gaps
 
-Raised during ingest of [[sources/codex-cccf17-2024]] on 2026-04-24.
+Raised during ingest of [[sources/codex-cccf17-2024|Codex CCCF17 2024]] on 2026-04-24.
 
 CCCF17 is a session report, not a standards text. The operative matrix-level Codex cadmium MLs live in Codex Standard CXS 193-1995 (General Standard for Contaminants and Toxins in Food and Feed), which is not in the current corpus. Until CXS 193-1995 is ingested, the wiki cannot state specific Codex ML values for rice, cereals, leafy vegetables, edible offal, bivalve molluscs, or other matrices. CXC 81-2022 (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans) is also pending ingest and is the precedent for the newly-initiated broader cadmium CoP work. The regulation page [[regulations/codex-cadmium-mls]] flags both as pending.
 
 To resolve:
 - Ingest CXS 193-1995 and its current amendments for the full matrix-level Codex Cd ML table.
-- Ingest CXC 81-2022 for the Cocoa Beans Code of Practice, which aligns with the JECFA 91st meeting cocoa finding already captured in [[sources/jecfa-91st-cadmium-2022]].
+- Ingest CXC 81-2022 for the Cocoa Beans Code of Practice, which aligns with the JECFA 91st meeting cocoa finding already captured in [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]].
 
 To resolve before the cadmium synthesis is written:
 - Ingest the EFSA 2011 reaffirming statement (pending raw PDF availability).
@@ -60,7 +60,7 @@ To resolve before the cadmium synthesis is written:
 
 ### Dietary cadmium carcinogenicity dose-response
 
-Raised during ingest of [[sources/efsa-cadmium-contam-2009]] on 2026-04-24.
+Raised during ingest of [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] on 2026-04-24.
 
 The International Agency for Research on Cancer classifies cadmium as a Group 1 human carcinogen on the basis of occupational inhalation studies ([[sources/efsa-cadmium-contam-2009|EFSA 2009]], [[sources/nordberg2015-cadmium-chapter|Nordberg 2015]]). General-population epidemiology has produced statistical associations between cadmium exposure and cancers of the lung, endometrium, bladder, and breast ([[sources/efsa-cadmium-contam-2009|EFSA 2009]], [[sources/nordberg2015-cadmium-chapter|Nordberg 2015]]). EFSA judged these data insufficient for quantitative dose-response modeling and anchored the TWI on the renal endpoint instead ([[sources/efsa-cadmium-contam-2009|EFSA 2009]]). The open question is whether sufficient data have since accumulated to support a quantitative carcinogenic risk assessment for dietary cadmium at general-population exposure levels, or whether the renal endpoint remains the defensible anchor.
 

@@ -56,7 +56,7 @@ updated: 2026-04-24
 
 # Wheat
 
-_Stub page. Contamination profile populates on the next ingest wave. Wheat is identified across [[sources/efsa-cadmium-contam-2009]] and [[sources/jecfa-91st-cadmium-2022]] as one of the top population-level dietary cadmium contributors, with the bran and germ fractions carrying higher cadmium than refined endosperm._
+_Stub page. Contamination profile populates on the next ingest wave. Wheat is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors, with the bran and germ fractions carrying higher cadmium than refined endosperm._
 
 ## Why this commodity accumulates cadmium
 
@@ -82,7 +82,7 @@ _Pending. Cultivar selection (non-accumulator lines), zinc amendment of soils (z
 
 _Some metals not listed in this section because no ingested source yet covers their commodity-level concern; those will populate when the corresponding source pages are ingested._
 
-- **Pb**: the FDA Closer to Zero 20 ppb Pb action level for dry infant cereals applies to wheat-based infant cereal ([[sources/fda-ctz-Pb-babyfood-2025]]; see [[regulations/fda-ctz-Pb-cereal-20ppb]]).
+- **Pb**: the FDA Closer to Zero 20 ppb Pb action level for dry infant cereals applies to wheat-based infant cereal ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]; see [[regulations/fda-ctz-Pb-cereal-20ppb]]).
 
 ## Regulatory limits that apply
 
@@ -92,5 +92,5 @@ _Some metals not listed in this section because no ingested source yet covers th
 
 ## Sources
 
-- [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food.
-- [[sources/jecfa-91st-cadmium-2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment.
+- [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food.
+- [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment.

@@ -21,6 +21,6 @@ Planned topics:
 
 External references this section will draw on:
 
-- [[sources/jakubowski2012-zinc-cadmium-chapter]] — detection-limit tables for cadmium analysis methods.
-- [[sources/fda-tds-elements-2018-2020]] — FDA Total Diet Study analytical methods documentation.
-- [[sources/codex-cxs-193-1995]] — Codex methods of analysis and sampling references for matrix-level MLs.
+- [[sources/jakubowski2012-zinc-cadmium-chapter|Jakubowski 2012]] — detection-limit tables for cadmium analysis methods.
+- [[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]] — FDA Total Diet Study analytical methods documentation.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex methods of analysis and sampling references for matrix-level MLs.

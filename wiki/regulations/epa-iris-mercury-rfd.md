@@ -18,7 +18,7 @@ audience: [regulator, educator]
 
 # EPA IRIS — Mercuric Chloride Oral Reference Dose
 
-The EPA Integrated Risk Information System chemical assessment summary for mercuric chloride (HgCl2, CASRN 7487-94-7) provides the operative US federal oral reference dose for inorganic mercury ([[sources/epa-iris-mercuric-chloride]]). The RfD was last revised May 1, 1995 and remains in force ([[sources/epa-iris-mercuric-chloride]]).
+The EPA Integrated Risk Information System chemical assessment summary for mercuric chloride (HgCl2, CASRN 7487-94-7) provides the operative US federal oral reference dose for inorganic mercury ([[sources/epa-iris-mercuric-chloride|EPA IRIS Hg]]). The RfD was last revised May 1, 1995 and remains in force ([[sources/epa-iris-mercuric-chloride|EPA IRIS Hg]]).
 
 | Parameter | Value |
 | --- | --- |
@@ -30,4 +30,4 @@ The EPA Integrated Risk Information System chemical assessment summary for mercu
 
 ## Sources
 
-- [[sources/epa-iris-mercuric-chloride]] — EPA IRIS Chemical Assessment Summary, Mercuric Chloride.
+- [[sources/epa-iris-mercuric-chloride|EPA IRIS Hg]] — EPA IRIS Chemical Assessment Summary, Mercuric Chloride.

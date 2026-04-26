@@ -12,7 +12,7 @@ sources: 9
 
 # Arsenic
 
-_This page draws on the [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] Toxicological Profile for Arsenic ([[sources/atsdr-arsenic-toxprofile-2007]]), the EPA IRIS January 2025 inorganic arsenic toxicological review ([[sources/epa-iris-inorganic-arsenic-2025]]), the EFSA CONTAM 2009 Scientific Opinion on Arsenic in Food ([[sources/efsa-arsenic-contam-2009]]), the [[sources/jecfa-82nd-arsenic|JECFA 82nd meeting]] arsenic monograph ([[sources/jecfa-82nd-arsenic]]), the OEHHA Proposition 65 inorganic arsenic listing ([[sources/oehha-arsenic-prop65-listing]]), the EPA drinking water arsenic MCL rule ([[sources/epa-arsenic-drinking-water-mcl]]), the FDA inorganic arsenic infant [[ingredients/rice|rice]] cereal action level ([[sources/fda-iAs-rice-cereal-2020]]), the joint FDA/EPA fish consumption advice ([[sources/fda-epa-fish-consumption-advice]]), and the [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review of arsenic methylation ([[sources/thomas-2021-arsenic-methylation]])._
+_This page draws on the [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] Toxicological Profile for Arsenic ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]), the EPA IRIS January 2025 inorganic arsenic toxicological review ([[sources/epa-iris-inorganic-arsenic-2025|EPA IRIS iAs 2025]]), the EFSA CONTAM 2009 Scientific Opinion on Arsenic in Food ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]), the [[sources/jecfa-82nd-arsenic|JECFA 82nd meeting]] arsenic monograph ([[sources/jecfa-82nd-arsenic|JECFA 82nd]]), the OEHHA Proposition 65 inorganic arsenic listing ([[sources/oehha-arsenic-prop65-listing|OEHHA Prop 65 As]]), the EPA drinking water arsenic MCL rule ([[sources/epa-arsenic-drinking-water-mcl|EPA As MCL]]), the FDA inorganic arsenic infant [[ingredients/rice|rice]] cereal action level ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]), the joint FDA/EPA fish consumption advice ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]), and the [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review of arsenic methylation ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -83,10 +83,10 @@ For older children and adults: white [[ingredients/rice|rice]] carries less inor
 | EPA (US) | Drinking water MCL (total As) | 10 ppb | [[regulations/epa-arsenic-mcl]] |
 | EPA (US) | IRIS oral RfD and cancer slope (iAs) | January 2025 finalized; values pending detailed extraction | [[regulations/epa-iris-inorganic-arsenic-rfd]] |
 | FDA (US) | CTZ infant [[ingredients/rice|rice]] cereal action level (iAs) | 100 ppb | [[regulations/fda-iAs-rice-cereal-100ppb]] |
-| ATSDR (US) | Chronic oral MRL (iAs) | 0.3 µg As/kg/day | [[sources/atsdr-arsenic-toxprofile-2007]] |
+| ATSDR (US) | Chronic oral MRL (iAs) | 0.3 µg As/kg/day | [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] |
 | OEHHA (US-CA) | Prop 65 cancer listing (iAs) | NSRL pending separate ingest | [[regulations/oehha-arsenic-prop65]] |
 | EFSA (EU) | BMDL01 anchors (no PTWI) | Cancer BMDL01 0.3 to 8 µg iAs/kg b.w./day depending on endpoint | [[regulations/efsa-arsenic-contam-2009]] |
-| JECFA (international) | PTWI | Withdrawn (15 µg iAs/kg b.w./week deemed inappropriate at JECFA 72nd, 2010) | [[sources/jecfa-82nd-arsenic]] |
+| JECFA (international) | PTWI | Withdrawn (15 µg iAs/kg b.w./week deemed inappropriate at JECFA 72nd, 2010) | [[sources/jecfa-82nd-arsenic|JECFA 82nd]] |
 
 ### What the reference values mean in practice
 <!-- audience: consumer -->
@@ -169,14 +169,14 @@ Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-
 
 ## Sources
 
-- [[sources/atsdr-arsenic-toxprofile-2007]] — ATSDR, August 2007. Toxicological Profile for Arsenic.
-- [[sources/epa-iris-inorganic-arsenic-2025]] — EPA, January 2025. IRIS Toxicological Review of Inorganic Arsenic.
-- [[sources/efsa-arsenic-contam-2009]] — EFSA CONTAM Panel, 2009. Scientific Opinion on Arsenic in Food.
-- [[sources/jecfa-82nd-arsenic]] — [[sources/jecfa-82nd-arsenic|JECFA 82nd meeting]]. Arsenic monograph (WHO FAS 73).
-- [[sources/oehha-arsenic-prop65-listing]] — OEHHA. Inorganic Arsenic Compounds, Proposition 65 cancer listing.
-- [[sources/epa-arsenic-drinking-water-mcl]] — EPA Office of Water. Final Rule for Arsenic in Drinking Water.
-- [[sources/fda-iAs-rice-cereal-2020]] — FDA, August 2020. Inorganic Arsenic in Rice Cereals for Infants Action Level.
-- [[sources/fda-epa-fish-consumption-advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
-- [[sources/thomas-2021-arsenic-methylation]] — Thomas DJ, 2021. Arsenic methylation: lessons from three decades of research (Toxicology).
+- [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] — ATSDR, August 2007. Toxicological Profile for Arsenic.
+- [[sources/epa-iris-inorganic-arsenic-2025|EPA IRIS iAs 2025]] — EPA, January 2025. IRIS Toxicological Review of Inorganic Arsenic.
+- [[sources/efsa-arsenic-contam-2009|EFSA As 2009]] — EFSA CONTAM Panel, 2009. Scientific Opinion on Arsenic in Food.
+- [[sources/jecfa-82nd-arsenic|JECFA 82nd]] — [[sources/jecfa-82nd-arsenic|JECFA 82nd meeting]]. Arsenic monograph (WHO FAS 73).
+- [[sources/oehha-arsenic-prop65-listing|OEHHA Prop 65 As]] — OEHHA. Inorganic Arsenic Compounds, Proposition 65 cancer listing.
+- [[sources/epa-arsenic-drinking-water-mcl|EPA As MCL]] — EPA Office of Water. Final Rule for Arsenic in Drinking Water.
+- [[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]] — FDA, August 2020. Inorganic Arsenic in Rice Cereals for Infants Action Level.
+- [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
+- [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] — Thomas DJ, 2021. Arsenic methylation: lessons from three decades of research (Toxicology).
 
 See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/.

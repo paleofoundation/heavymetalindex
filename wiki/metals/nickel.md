@@ -12,7 +12,7 @@ sources: 4
 
 # Nickel
 
-_This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024]]), the [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] nickel chapter ([[sources/ntp-15th-roc-nickel-2021]]), and the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007]])._
+_This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]]), the [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] nickel chapter ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]]), and the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -76,9 +76,9 @@ For consumers with diagnosed nickel-sensitivity contact dermatitis: the acute LO
 | EFSA (EU) | Chronic dietary TDI | 13 µg Ni/kg b.w./day | [[regulations/efsa-nickel-tdi]] |
 | EFSA (EU) | Acute oral LOAEL (sensitized) | 4.3 µg Ni/kg b.w.; MOE ≥ 30 for low concern | [[regulations/efsa-nickel-tdi]] |
 | EU | Nickel Directive 94/27/EC (skin-contact items) | Less than 0.5 µg Ni/cm²/week release rate | _Pending separate ingest_ |
-| US NTP | 15th Report on Carcinogens | Ni compounds: known human carcinogen; metallic Ni: reasonably anticipated | [[sources/ntp-15th-roc-nickel-2021]] |
-| US EPA | Ecological Soil Screening Levels | Threshold values for ecological-risk screening at hazardous waste sites | [[sources/epa-eco-ssl-nickel-2007]] |
-| US ATSDR | MRLs (multiple by route and duration) | See profile | [[sources/atsdr-nickel-toxprofile-2024]] |
+| US NTP | 15th Report on Carcinogens | Ni compounds: known human carcinogen; metallic Ni: reasonably anticipated | [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] |
+| US EPA | Ecological Soil Screening Levels | Threshold values for ecological-risk screening at hazardous waste sites | [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] |
+| US ATSDR | MRLs (multiple by route and duration) | See profile | [[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]] |
 
 ### What the reference values mean in practice
 <!-- audience: consumer -->
@@ -144,7 +144,7 @@ Second, the relationship between dermal sensitization (the gateway exposure for 
 
 ## Sources
 
-- [[sources/efsa-nickel-contam-2020]] — EFSA CONTAM Panel, 2020. Update of the Risk Assessment of Nickel in Food and Drinking Water.
-- [[sources/atsdr-nickel-toxprofile-2024]] — ATSDR, October 2024. Toxicological Profile for Nickel.
-- [[sources/ntp-15th-roc-nickel-2021]] — US National Toxicology Program, 2021. 15th Report on Carcinogens: Nickel Compounds and Metallic Nickel.
-- [[sources/epa-eco-ssl-nickel-2007]] — EPA, 2007. Ecological Soil Screening Levels for Nickel.
+- [[sources/efsa-nickel-contam-2020|EFSA Ni 2020]] — EFSA CONTAM Panel, 2020. Update of the Risk Assessment of Nickel in Food and Drinking Water.
+- [[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]] — ATSDR, October 2024. Toxicological Profile for Nickel.
+- [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] — US National Toxicology Program, 2021. 15th Report on Carcinogens: Nickel Compounds and Metallic Nickel.
+- [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] — EPA, 2007. Ecological Soil Screening Levels for Nickel.

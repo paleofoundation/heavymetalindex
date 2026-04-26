@@ -18,10 +18,10 @@ audience: [regulator, educator]
 
 # EFSA — Arsenic in Food (2009), No-PTWI Position
 
-The EFSA CONTAM Panel concluded in October 2009 that the prior JECFA provisional tolerable weekly intake of 15 µg inorganic arsenic per kilogram body weight per week is no longer appropriate, on the basis that inorganic arsenic causes cancer (lung, bladder, skin) at exposures below the PTWI ([[sources/efsa-arsenic-contam-2009]]). EFSA reports BMDL01 values for cancer endpoints rather than setting a TWI: BMDL01 for inorganic arsenic-related lung, skin, and bladder cancers ranges 0.3 to 8 µg iAs/kg b.w./day depending on endpoint and study selection ([[sources/efsa-arsenic-contam-2009]]).
+The EFSA CONTAM Panel concluded in October 2009 that the prior JECFA provisional tolerable weekly intake of 15 µg inorganic arsenic per kilogram body weight per week is no longer appropriate, on the basis that inorganic arsenic causes cancer (lung, bladder, skin) at exposures below the PTWI ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]). EFSA reports BMDL01 values for cancer endpoints rather than setting a TWI: BMDL01 for inorganic arsenic-related lung, skin, and bladder cancers ranges 0.3 to 8 µg iAs/kg b.w./day depending on endpoint and study selection ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]).
 
-European inorganic arsenic exposure ranges 0.13 to 0.56 µg/kg b.w./day for average adult consumers across 19 Member States, 0.37 to 1.22 for 95th-percentile consumers; children under three years are exposed at 2 to 3 times adult per-kg rates due to greater per-kg food intake ([[sources/efsa-arsenic-contam-2009]]). Rice and rice-based infant cereal is the dominant single dietary source of inorganic arsenic for US infants ([[sources/fda-iAs-rice-cereal-2020]]).
+European inorganic arsenic exposure ranges 0.13 to 0.56 µg/kg b.w./day for average adult consumers across 19 Member States, 0.37 to 1.22 for 95th-percentile consumers; children under three years are exposed at 2 to 3 times adult per-kg rates due to greater per-kg food intake ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]). Rice and rice-based infant cereal is the dominant single dietary source of inorganic arsenic for US infants ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]).
 
 ## Sources
 
-- [[sources/efsa-arsenic-contam-2009]] — EFSA CONTAM Panel, 2009. Scientific Opinion on Arsenic in Food.
+- [[sources/efsa-arsenic-contam-2009|EFSA As 2009]] — EFSA CONTAM Panel, 2009. Scientific Opinion on Arsenic in Food.

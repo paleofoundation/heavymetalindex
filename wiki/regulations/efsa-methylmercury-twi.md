@@ -18,7 +18,7 @@ audience: [regulator, educator]
 
 # EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)
 
-The EFSA CONTAM Panel established a tolerable weekly intake for methylmercury of **1.3 µg Hg/kg body weight per week** in its December 2012 Scientific Opinion on Mercury and Methylmercury in Food, lowering the prior JECFA-aligned value of 1.6 µg/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012]]). The revision incorporates Faroe Islands and Seychelles cohort data with adjustment for the protective effect of n-3 long-chain polyunsaturated fatty acids in fish, and is anchored on developmental neurotoxicity in offspring exposed in utero through maternal seafood consumption ([[sources/efsa-mercury-methylmercury-2012]]).
+The EFSA CONTAM Panel established a tolerable weekly intake for methylmercury of **1.3 µg Hg/kg body weight per week** in its December 2012 Scientific Opinion on Mercury and Methylmercury in Food, lowering the prior JECFA-aligned value of 1.6 µg/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]). The revision incorporates Faroe Islands and Seychelles cohort data with adjustment for the protective effect of n-3 long-chain polyunsaturated fatty acids in fish, and is anchored on developmental neurotoxicity in offspring exposed in utero through maternal seafood consumption ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]).
 
 | Parameter | Value |
 | --- | --- |
@@ -29,8 +29,8 @@ The EFSA CONTAM Panel established a tolerable weekly intake for methylmercury of
 | Adopting body | EFSA CONTAM Panel |
 | Adopted | December 2012 |
 
-Mean dietary methylmercury exposure across European age groups generally does not exceed the TWI except for toddlers and other children in some Member State surveys. The 95th percentile dietary methylmercury exposure is close to or above the TWI for all age groups. High fish consumers can substantially exceed the TWI ([[sources/efsa-mercury-methylmercury-2012]]).
+Mean dietary methylmercury exposure across European age groups generally does not exceed the TWI except for toddlers and other children in some Member State surveys. The 95th percentile dietary methylmercury exposure is close to or above the TWI for all age groups. High fish consumers can substantially exceed the TWI ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]).
 
 ## Sources
 
-- [[sources/efsa-mercury-methylmercury-2012]] — EFSA CONTAM Panel, 2012. Scientific Opinion on Mercury and Methylmercury in Food.
+- [[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]] — EFSA CONTAM Panel, 2012. Scientific Opinion on Mercury and Methylmercury in Food.

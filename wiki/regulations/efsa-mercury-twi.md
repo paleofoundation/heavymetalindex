@@ -18,7 +18,7 @@ audience: [regulator, educator]
 
 # EFSA — Inorganic Mercury Tolerable Weekly Intake (4 µg/kg b.w./week)
 
-The EFSA CONTAM Panel maintained the tolerable weekly intake for inorganic mercury at **4 µg Hg/kg body weight per week** in its December 2012 Scientific Opinion on Mercury and Methylmercury in Food, aligned with the prior JECFA value ([[sources/efsa-mercury-methylmercury-2012]]). The TWI is anchored on renal effects observed in chronic inorganic mercury exposure studies ([[sources/efsa-mercury-methylmercury-2012]]).
+The EFSA CONTAM Panel maintained the tolerable weekly intake for inorganic mercury at **4 µg Hg/kg body weight per week** in its December 2012 Scientific Opinion on Mercury and Methylmercury in Food, aligned with the prior JECFA value ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]). The TWI is anchored on renal effects observed in chronic inorganic mercury exposure studies ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]).
 
 | Parameter | Value |
 | --- | --- |
@@ -29,4 +29,4 @@ The EFSA CONTAM Panel maintained the tolerable weekly intake for inorganic mercu
 
 ## Sources
 
-- [[sources/efsa-mercury-methylmercury-2012]] — EFSA CONTAM Panel, 2012. Scientific Opinion on Mercury and Methylmercury in Food.
+- [[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]] — EFSA CONTAM Panel, 2012. Scientific Opinion on Mercury and Methylmercury in Food.

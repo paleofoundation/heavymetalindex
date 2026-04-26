@@ -12,7 +12,7 @@ sources: 10
 
 # Lead
 
-_This page draws on the [[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]] Toxicological Profile for Lead ([[sources/atsdr-lead-toxprofile-2020]]), the EFSA CONTAM 2010 Scientific Opinion on Lead in Food ([[sources/efsa-lead-contam-2010]]), the [[sources/jecfa-72nd-lead-2010|JECFA 72nd meeting]] 2010 re-evaluation that withdrew the PTWI ([[sources/jecfa-72nd-lead-2010]]), the EPA IRIS chemical assessment for inorganic lead ([[sources/epa-iris-lead-2004]]), the CDC Blood Lead Reference Value documentation ([[sources/cdc-blood-lead-reference-value]]), the OEHHA Proposition 65 lead listing ([[sources/oehha-lead-prop65-listing]]), the [[regulations/fda-closer-to-zero|FDA Closer to Zero]] Pb baby food guidance ([[sources/fda-ctz-Pb-babyfood-2025]]), and three biochemistry-mechanism reviews ([[sources/tamagno-freeman-2025-pb-glutamate]], [[sources/ordemann-austin-2016-pb-zinc-finger]], [[sources/huang-2020-pb-alad-threshold]])._
+_This page draws on the [[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]] Toxicological Profile for Lead ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]), the EFSA CONTAM 2010 Scientific Opinion on Lead in Food ([[sources/efsa-lead-contam-2010|EFSA Pb 2010]]), the [[sources/jecfa-72nd-lead-2010|JECFA 72nd meeting]] 2010 re-evaluation that withdrew the PTWI ([[sources/jecfa-72nd-lead-2010|JECFA 72nd 2010]]), the EPA IRIS chemical assessment for inorganic lead ([[sources/epa-iris-lead-2004|EPA IRIS Pb 2004]]), the CDC Blood Lead Reference Value documentation ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]), the OEHHA Proposition 65 lead listing ([[sources/oehha-lead-prop65-listing|OEHHA Prop 65 Pb]]), the [[regulations/fda-closer-to-zero|FDA Closer to Zero]] Pb baby food guidance ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]), and three biochemistry-mechanism reviews ([[sources/tamagno-freeman-2025-pb-glutamate|Tamagno-Freeman 2025]], [[sources/ordemann-austin-2016-pb-zinc-finger|Ordemann & Austin 2016]], [[sources/huang-2020-pb-alad-threshold|Huang et al. 2020]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -90,12 +90,12 @@ For pregnancy and pre-pregnancy planning, the bone-lead reservoir matters: lead 
 | JECFA (international) | PTWI | Withdrawn 2010; no replacement reference value | [[regulations/jecfa-lead-ptwi-withdrawn]] |
 | EFSA (EU) | Critical-endpoint BMDLs (no TWI) | Developmental neurotoxicity dietary BMDL01 0.50 µg/kg b.w./day; CV BMDL01 1.50; CKD BMDL10 0.63 | [[regulations/efsa-lead-contam-2010]] |
 | US EPA | IRIS oral RfD | Not derived; qualitative only since 2004 | [[regulations/epa-iris-lead-rfd]] |
-| US ATSDR | MRLs | Not derived (no demonstrated threshold) | [[sources/atsdr-lead-toxprofile-2020]] |
-| US CDC | Blood lead reference value | 3.5 µg/dL (97.5th percentile, NHANES 2015-2018) | [[sources/cdc-blood-lead-reference-value]] |
+| US ATSDR | MRLs | Not derived (no demonstrated threshold) | [[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]] |
+| US CDC | Blood lead reference value | 3.5 µg/dL (97.5th percentile, NHANES 2015-2018) | [[sources/cdc-blood-lead-reference-value|CDC BLRV]] |
 | US FDA | Closer to Zero IRL | 2.2 µg/day (children); 8.8 µg/day (women of childbearing age) | [[regulations/fda-closer-to-zero]] |
 | US FDA | CTZ baby food action levels | 10 ppb (mixed), 20 ppb (root vegetables), 20 ppb (dry infant cereals) | [[regulations/fda-ctz-Pb-babyfood-10ppb]], [[regulations/fda-ctz-Pb-rootveg-20ppb]], [[regulations/fda-ctz-Pb-cereal-20ppb]] |
 | US California | Prop 65 (cancer + reproductive) | Listed; NSRL and MADL pending separate ingest | [[regulations/oehha-lead-prop65]] |
-| Codex Alimentarius | Matrix-level MLs ([[sources/codex-cxs-193-1995\|CXS 193-1995]]) | Cereal grains 0.2 mg/kg; cereal-based infant foods 0.02; infant formula 0.01 (as consumed); fruits 0.1; leafy vegetables 0.3; fish 0.3; cattle offal 0.2; pig offal 0.15; milk 0.02; full table in source page | [[sources/codex-cxs-193-1995]] |
+| Codex Alimentarius | Matrix-level MLs ([[sources/codex-cxs-193-1995\|CXS 193-1995]]) | Cereal grains 0.2 mg/kg; cereal-based infant foods 0.02; infant formula 0.01 (as consumed); fruits 0.1; leafy vegetables 0.3; fish 0.3; cattle offal 0.2; pig offal 0.15; milk 0.02; full table in source page | [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] |
 | EU | Maximum levels in food | Regulation (EU) 2023/915 (pending ingest) | _Pending_ |
 
 ### What the reference values mean in practice
@@ -181,15 +181,15 @@ Third, the bone-lead-mobilization contribution to fetal and infant exposure is m
 
 ## Sources
 
-- [[sources/atsdr-lead-toxprofile-2020]] — ATSDR, August 2020. Toxicological Profile for Lead.
-- [[sources/cdc-blood-lead-reference-value]] — CDC. Blood Lead Reference Value (3.5 µg/dL, updated 2021).
-- [[sources/epa-iris-lead-2004]] — EPA IRIS Chemical Assessment Summary, Lead and Compounds (Inorganic).
-- [[sources/efsa-lead-contam-2010]] — EFSA Panel on Contaminants in the Food Chain, 2010. Scientific Opinion on Lead in Food.
-- [[sources/jecfa-72nd-lead-2010]] — [[sources/jecfa-72nd-lead-2010|JECFA 72nd meeting]], 2010 (WHO TRS 959, 2011). Evaluation of Certain Contaminants in Food.
-- [[sources/oehha-lead-prop65-listing]] — OEHHA. Lead and Lead Compounds, Proposition 65 chemical listing.
-- [[sources/fda-ctz-Pb-babyfood-2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children.
-- [[sources/tamagno-freeman-2025-pb-glutamate]] — [[sources/tamagno-freeman-2025-pb-glutamate|Tamagno and Freeman 2025]]. Glutamate-Mediated Neural Alterations in Lead Exposure.
-- [[sources/ordemann-austin-2016-pb-zinc-finger]] — [[sources/ordemann-austin-2016-pb-zinc-finger|Ordemann and Austin 2016]]. Lead substitution in zinc-finger proteins.
-- [[sources/huang-2020-pb-alad-threshold]] — [[sources/huang-2020-pb-alad-threshold|Huang et al. 2020]]. Lead-ALAD activity threshold (Generalized Additive Model).
+- [[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]] — ATSDR, August 2020. Toxicological Profile for Lead.
+- [[sources/cdc-blood-lead-reference-value|CDC BLRV]] — CDC. Blood Lead Reference Value (3.5 µg/dL, updated 2021).
+- [[sources/epa-iris-lead-2004|EPA IRIS Pb 2004]] — EPA IRIS Chemical Assessment Summary, Lead and Compounds (Inorganic).
+- [[sources/efsa-lead-contam-2010|EFSA Pb 2010]] — EFSA Panel on Contaminants in the Food Chain, 2010. Scientific Opinion on Lead in Food.
+- [[sources/jecfa-72nd-lead-2010|JECFA 72nd 2010]] — [[sources/jecfa-72nd-lead-2010|JECFA 72nd meeting]], 2010 (WHO TRS 959, 2011). Evaluation of Certain Contaminants in Food.
+- [[sources/oehha-lead-prop65-listing|OEHHA Prop 65 Pb]] — OEHHA. Lead and Lead Compounds, Proposition 65 chemical listing.
+- [[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children.
+- [[sources/tamagno-freeman-2025-pb-glutamate|Tamagno-Freeman 2025]] — [[sources/tamagno-freeman-2025-pb-glutamate|Tamagno and Freeman 2025]]. Glutamate-Mediated Neural Alterations in Lead Exposure.
+- [[sources/ordemann-austin-2016-pb-zinc-finger|Ordemann & Austin 2016]] — [[sources/ordemann-austin-2016-pb-zinc-finger|Ordemann and Austin 2016]]. Lead substitution in zinc-finger proteins.
+- [[sources/huang-2020-pb-alad-threshold|Huang et al. 2020]] — [[sources/huang-2020-pb-alad-threshold|Huang et al. 2020]]. Lead-ALAD activity threshold (Generalized Additive Model).
 
 See also [[studies/multimetal-primary-literature]] for the citable index of multi-metal primary research articles, including lead-relevant dietary-exposure and biomarker studies in raw/studies/.

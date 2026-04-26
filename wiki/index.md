@@ -95,33 +95,33 @@ _None yet._
 
 ## Sources (chronological)
 
-- [[sources/oehha-cadmium-prop65-evidence-1996]] — OEHHA, October 1996. Evidence on the Developmental and Reproductive Toxicity of Cadmium (evidence tier A).
-- [[sources/oehha-cadmium-prop65-madl-2001]] — OEHHA, May 2001. Prop 65 Maximum Allowable Daily Level for Cadmium (Oral Route) (evidence tier A).
-- [[sources/jecfa-91st-cadmium-2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment, WHO Food Additives Series No. 82 (evidence tier A).
-- [[sources/atsdr-cadmium-toxprofile-2012]] — ATSDR, September 2012. Toxicological Profile for Cadmium (evidence tier A).
-- [[sources/codex-cccf17-2024]] — Codex CCCF, April 2024. Report of the 17th Session, REP24/CF17 (evidence tier A).
-- [[sources/nordberg2015-cadmium-chapter]] — Nordberg GF, Nogawa K, Nordberg M, 2015. Cadmium, Ch 32 in Handbook on the Toxicology of Metals, 4th ed., Vol II (evidence tier A, copyright-licensed-private).
-- [[sources/ufelle2021-metals-chapter]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed. (evidence tier A, copyright-licensed-private).
-- [[sources/jakubowski2012-zinc-cadmium-chapter]] — Jakubowski M, 2012. Zinc and Cadmium Compounds, Ch 7 in Patty's Toxicology, 6th ed. (evidence tier A, copyright-licensed-private; cadmium portion ingested, zinc deferred).
-- [[sources/atsdr-lead-toxprofile-2020]] — ATSDR, August 2020. Toxicological Profile for Lead (evidence tier A).
-- [[sources/cdc-blood-lead-reference-value]] — CDC. Blood Lead Reference Value (3.5 µg/dL, 2021 update) (evidence tier A).
-- [[sources/epa-iris-lead-2004]] — EPA IRIS Chemical Assessment Summary, Lead and Compounds (Inorganic) (evidence tier A).
-- [[sources/efsa-lead-contam-2010]] — EFSA CONTAM Panel, 2010. Scientific Opinion on Lead in Food (evidence tier A).
-- [[sources/jecfa-72nd-lead-2010]] — JECFA 72nd meeting, 2010 (WHO TRS 959). Evaluation of Certain Contaminants in Food (evidence tier A, CC-BY-NC-SA-3.0-IGO).
-- [[sources/oehha-lead-prop65-listing]] — OEHHA. Lead and Lead Compounds, Proposition 65 listing (evidence tier A).
-- [[sources/tamagno-freeman-2025-pb-glutamate]] — Tamagno and Freeman 2025. Glutamate-mediated neural alterations in lead exposure (evidence tier A).
-- [[sources/ordemann-austin-2016-pb-zinc-finger]] — Ordemann and Austin 2016. Lead substitution in zinc-finger proteins (evidence tier A).
-- [[sources/huang-2020-pb-alad-threshold]] — Huang et al. 2020. Lead-ALAD activity threshold (evidence tier A).
-- [[sources/efsa-cadmium-contam-2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food (evidence tier A).
-- [[sources/fda-ctz-Pb-babyfood-2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A).
-- [[sources/epa-iris-cadmium-1989]] — EPA IRIS Cadmium Chemical Assessment Summary, last revised 1989-10-01 (evidence tier A; values verified from EPA IRIS database).
-- [[sources/codex-cxs-193-1995]] — Codex Alimentarius CXS 193-1995 General Standard for Contaminants and Toxins in Food and Feed, with full Cd and Pb ML tables (evidence tier A).
-- [[sources/atsdr-aluminum-toxprofile-2008]] — ATSDR, September 2008. Toxicological Profile for Aluminum (evidence tier A).
-- [[sources/efsa-cadmium-2011-statement]] — EFSA CONTAM 2011 Statement on TWI for Cadmium (secondary-citation provenance pending primary PDF acquisition).
-- [[sources/jecfa-73rd-cadmium-2010]] — JECFA 73rd meeting Cadmium addendum (WHO Food Additives Series 64, 2011); primary document with full PTMI derivation.
-- [[sources/davis-2021-salivary-metals-oral-microbiome]] — Davis et al. 2021. Salivary metals, oral microbiome, and dental decay (Scientific Reports).
-- [[sources/su-2023-arsenic-brown-rice]] — Su, Chiang, O'Connor 2023. Arsenic in brown rice: do the benefits outweigh the risks? (Frontiers in Nutrition).
-- [[sources/inoue-2024-rice-nramp5-cadmium]] — Inoue et al. 2024. Engineering rice Nramp5 for selective Mn vs Cd uptake (Frontiers in Plant Science).
-- [[sources/navaretnam-2025-rice-as-speciation]] — Navaretnam et al. 2025. Arsenic speciation HPLC-ICP-MS in white and brown rice (Environmental Geochemistry and Health).
-- [[sources/fda-tds-elements-2018-2020]] — FDA, July 2022. Total Diet Study Report FY 2018-2020 Elements Data.
-- [[sources/belgian-lead-factsheet-2024]] — Steunpunt Milieu en Gezondheid, September 2024. Lead factsheet (Flemish/Belgian).
+- [[sources/oehha-cadmium-prop65-evidence-1996|OEHHA 1996]] — OEHHA, October 1996. Evidence on the Developmental and Reproductive Toxicity of Cadmium (evidence tier A).
+- [[sources/oehha-cadmium-prop65-madl-2001|OEHHA 2001]] — OEHHA, May 2001. Prop 65 Maximum Allowable Daily Level for Cadmium (Oral Route) (evidence tier A).
+- [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment, WHO Food Additives Series No. 82 (evidence tier A).
+- [[sources/atsdr-cadmium-toxprofile-2012|ATSDR 2012]] — ATSDR, September 2012. Toxicological Profile for Cadmium (evidence tier A).
+- [[sources/codex-cccf17-2024|Codex CCCF17 2024]] — Codex CCCF, April 2024. Report of the 17th Session, REP24/CF17 (evidence tier A).
+- [[sources/nordberg2015-cadmium-chapter|Nordberg 2015]] — Nordberg GF, Nogawa K, Nordberg M, 2015. Cadmium, Ch 32 in Handbook on the Toxicology of Metals, 4th ed., Vol II (evidence tier A, copyright-licensed-private).
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed. (evidence tier A, copyright-licensed-private).
+- [[sources/jakubowski2012-zinc-cadmium-chapter|Jakubowski 2012]] — Jakubowski M, 2012. Zinc and Cadmium Compounds, Ch 7 in Patty's Toxicology, 6th ed. (evidence tier A, copyright-licensed-private; cadmium portion ingested, zinc deferred).
+- [[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]] — ATSDR, August 2020. Toxicological Profile for Lead (evidence tier A).
+- [[sources/cdc-blood-lead-reference-value|CDC BLRV]] — CDC. Blood Lead Reference Value (3.5 µg/dL, 2021 update) (evidence tier A).
+- [[sources/epa-iris-lead-2004|EPA IRIS Pb 2004]] — EPA IRIS Chemical Assessment Summary, Lead and Compounds (Inorganic) (evidence tier A).
+- [[sources/efsa-lead-contam-2010|EFSA Pb 2010]] — EFSA CONTAM Panel, 2010. Scientific Opinion on Lead in Food (evidence tier A).
+- [[sources/jecfa-72nd-lead-2010|JECFA 72nd 2010]] — JECFA 72nd meeting, 2010 (WHO TRS 959). Evaluation of Certain Contaminants in Food (evidence tier A, CC-BY-NC-SA-3.0-IGO).
+- [[sources/oehha-lead-prop65-listing|OEHHA Prop 65 Pb]] — OEHHA. Lead and Lead Compounds, Proposition 65 listing (evidence tier A).
+- [[sources/tamagno-freeman-2025-pb-glutamate|Tamagno-Freeman 2025]] — Tamagno and Freeman 2025. Glutamate-mediated neural alterations in lead exposure (evidence tier A).
+- [[sources/ordemann-austin-2016-pb-zinc-finger|Ordemann & Austin 2016]] — Ordemann and Austin 2016. Lead substitution in zinc-finger proteins (evidence tier A).
+- [[sources/huang-2020-pb-alad-threshold|Huang et al. 2020]] — Huang et al. 2020. Lead-ALAD activity threshold (evidence tier A).
+- [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food (evidence tier A).
+- [[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]] — FDA, January 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A).
+- [[sources/epa-iris-cadmium-1989|EPA IRIS Cd 1989]] — EPA IRIS Cadmium Chemical Assessment Summary, last revised 1989-10-01 (evidence tier A; values verified from EPA IRIS database).
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex Alimentarius CXS 193-1995 General Standard for Contaminants and Toxins in Food and Feed, with full Cd and Pb ML tables (evidence tier A).
+- [[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]] — ATSDR, September 2008. Toxicological Profile for Aluminum (evidence tier A).
+- [[sources/efsa-cadmium-2011-statement|EFSA Cd 2011]] — EFSA CONTAM 2011 Statement on TWI for Cadmium (secondary-citation provenance pending primary PDF acquisition).
+- [[sources/jecfa-73rd-cadmium-2010|JECFA 73rd 2010]] — JECFA 73rd meeting Cadmium addendum (WHO Food Additives Series 64, 2011); primary document with full PTMI derivation.
+- [[sources/davis-2021-salivary-metals-oral-microbiome|Davis 2021]] — Davis et al. 2021. Salivary metals, oral microbiome, and dental decay (Scientific Reports).
+- [[sources/su-2023-arsenic-brown-rice|Su et al. 2023]] — Su, Chiang, O'Connor 2023. Arsenic in brown rice: do the benefits outweigh the risks? (Frontiers in Nutrition).
+- [[sources/inoue-2024-rice-nramp5-cadmium|Inoue et al. 2024]] — Inoue et al. 2024. Engineering rice Nramp5 for selective Mn vs Cd uptake (Frontiers in Plant Science).
+- [[sources/navaretnam-2025-rice-as-speciation|Navaretnam et al. 2025]] — Navaretnam et al. 2025. Arsenic speciation HPLC-ICP-MS in white and brown rice (Environmental Geochemistry and Health).
+- [[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]] — FDA, July 2022. Total Diet Study Report FY 2018-2020 Elements Data.
+- [[sources/belgian-lead-factsheet-2024|Belgian Pb 2024]] — Steunpunt Milieu en Gezondheid, September 2024. Lead factsheet (Flemish/Belgian).

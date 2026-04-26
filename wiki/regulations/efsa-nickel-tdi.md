@@ -18,7 +18,7 @@ audience: [regulator, educator]
 
 # EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)
 
-The EFSA CONTAM Panel established a tolerable daily intake for nickel of **13 µg Ni/kg body weight per day** in its September 2020 update of the risk assessment of nickel in food and drinking water, anchored on a BMDL10 of 1.3 mg Ni/kg b.w./day for increased post-implantation loss in rats ([[sources/efsa-nickel-contam-2020]]). For acute oral nickel exposure, the Panel identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect, with a margin-of-exposure approach using a LOAEL of 4.3 µg Ni/kg b.w. and an MOE threshold of 30 for low health concern ([[sources/efsa-nickel-contam-2020]]).
+The EFSA CONTAM Panel established a tolerable daily intake for nickel of **13 µg Ni/kg body weight per day** in its September 2020 update of the risk assessment of nickel in food and drinking water, anchored on a BMDL10 of 1.3 mg Ni/kg b.w./day for increased post-implantation loss in rats ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]). For acute oral nickel exposure, the Panel identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect, with a margin-of-exposure approach using a LOAEL of 4.3 µg Ni/kg b.w. and an MOE threshold of 30 for low health concern ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]).
 
 | Parameter | Value |
 | --- | --- |
@@ -31,4 +31,4 @@ The EFSA CONTAM Panel established a tolerable daily intake for nickel of **13 µ
 
 ## Sources
 
-- [[sources/efsa-nickel-contam-2020]] — EFSA CONTAM Panel, 2020. Update of the Risk Assessment of Nickel in Food and Drinking Water.
+- [[sources/efsa-nickel-contam-2020|EFSA Ni 2020]] — EFSA CONTAM Panel, 2020. Update of the Risk Assessment of Nickel in Food and Drinking Water.

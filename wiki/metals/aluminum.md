@@ -12,7 +12,7 @@ sources: 3
 
 # Aluminum
 
-_This page draws on the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] Scientific Opinion on the Safety of Aluminium from Dietary Intake ([[sources/efsa-aluminium-afc-2008]]), the ATSDR 2008 Toxicological Profile for Aluminum ([[sources/atsdr-aluminum-toxprofile-2008]]), and the JECFA Combined Compendium of Food Additive Specifications ([[sources/jecfa-food-additive-specs-compendium]])._
+_This page draws on the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] Scientific Opinion on the Safety of Aluminium from Dietary Intake ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]), the ATSDR 2008 Toxicological Profile for Aluminum ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]), and the JECFA Combined Compendium of Food Additive Specifications ([[sources/jecfa-food-additive-specs-compendium|JECFA FA Compendium]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -170,5 +170,5 @@ Second, the relationship between dietary aluminum exposure and Alzheimer's disea
 
 ## Sources
 
-- [[sources/efsa-aluminium-afc-2008]] — EFSA AFC Panel, 2008. Safety of Aluminium from Dietary Intake.
-- [[sources/jecfa-food-additive-specs-compendium]] — JECFA Combined Compendium of Food Additive Specifications (1956-2005), FAO JECFA Monographs Vol 1.
+- [[sources/efsa-aluminium-afc-2008|EFSA 2008]] — EFSA AFC Panel, 2008. Safety of Aluminium from Dietary Intake.
+- [[sources/jecfa-food-additive-specs-compendium|JECFA FA Compendium]] — JECFA Combined Compendium of Food Additive Specifications (1956-2005), FAO JECFA Monographs Vol 1.

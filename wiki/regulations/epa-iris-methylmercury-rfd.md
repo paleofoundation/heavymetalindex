@@ -18,7 +18,7 @@ audience: [regulator, educator]
 
 # EPA IRIS — Methylmercury Oral Reference Dose
 
-The EPA Integrated Risk Information System chemical assessment for methylmercury (CASRN 22967-92-6) provides the operative US federal oral reference dose for methylmercury exposure, anchored on developmental neurotoxicity observed in the Faroe Islands and Seychelles cohort studies ([[sources/epa-iris-methylmercury]]). The RfD was last revised July 27, 2001 and remains in force; methylmercury is currently in step 1 of EPA's IRIS reassessment process ([[sources/epa-iris-methylmercury]]).
+The EPA Integrated Risk Information System chemical assessment for methylmercury (CASRN 22967-92-6) provides the operative US federal oral reference dose for methylmercury exposure, anchored on developmental neurotoxicity observed in the Faroe Islands and Seychelles cohort studies ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]). The RfD was last revised July 27, 2001 and remains in force; methylmercury is currently in step 1 of EPA's IRIS reassessment process ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]).
 
 | Parameter | Value |
 | --- | --- |
@@ -29,8 +29,8 @@ The EPA Integrated Risk Information System chemical assessment for methylmercury
 | Last revised | 2001-07-27 |
 | Reassessment status | In step 1 (draft scoping) at IRIS |
 
-The EPA RfD of 0.1 µg/kg/day ([[sources/epa-iris-methylmercury]]) is approximately equivalent to the JECFA PTWI of 1.6 µg/kg/week (daily-equivalent ~0.23 µg/kg/day) ([[sources/jecfa-61st-methylmercury]]) and the EFSA TWI of 1.3 µg/kg/week (daily-equivalent ~0.19 µg/kg/day) ([[sources/efsa-mercury-methylmercury-2012]]) — all three are anchored on the same developmental neurotoxicity endpoint and the same cohort literature, and arrive at similar daily-equivalent values despite different averaging windows.
+The EPA RfD of 0.1 µg/kg/day ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]) is approximately equivalent to the JECFA PTWI of 1.6 µg/kg/week (daily-equivalent ~0.23 µg/kg/day) ([[sources/jecfa-61st-methylmercury|JECFA 61st]]) and the EFSA TWI of 1.3 µg/kg/week (daily-equivalent ~0.19 µg/kg/day) ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]) — all three are anchored on the same developmental neurotoxicity endpoint and the same cohort literature, and arrive at similar daily-equivalent values despite different averaging windows.
 
 ## Sources
 
-- [[sources/epa-iris-methylmercury]] — EPA IRIS Chemical Assessment Summary, Methylmercury.
+- [[sources/epa-iris-methylmercury|EPA IRIS MeHg]] — EPA IRIS Chemical Assessment Summary, Methylmercury.

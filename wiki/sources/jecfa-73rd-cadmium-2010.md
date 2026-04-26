@@ -27,7 +27,7 @@ updated: 2026-04-25
 
 This is the primary published cadmium addendum from the Joint FAO/WHO Expert Committee on Food Additives 73rd meeting (Geneva, June 2010), prepared as part of WHO Food Additives Series No. 64 (Safety Evaluation of Certain Food Additives and Contaminants), published in 2011. The addendum is the document of record for **JECFA's establishment of the cadmium provisional tolerable monthly intake (PTMI) of 25 µg per kilogram body weight per month**, which replaced the prior provisional tolerable weekly intake of 7 µg/kg b.w./week that had been in force since the 33rd meeting (1988). The PTMI is the operative international cadmium dietary reference value that Codex Alimentarius matrix-specific maximum levels are aligned to, and is the international counterpart to the European Union's [[regulations/efsa-cadmium-twi|EFSA TWI]] of 2.5 µg/kg b.w./week.
 
-This source page replaces an earlier secondary-citation-only version that recorded the PTMI value from references in [[sources/jecfa-91st-cadmium-2022]] and [[sources/codex-cxs-193-1995]]. The primary document is now in the corpus with full SHA-256 provenance.
+This source page replaces an earlier secondary-citation-only version that recorded the PTMI value from references in [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] and [[sources/codex-cxs-193-1995|Codex CXS 193-1995]]. The primary document is now in the corpus with full SHA-256 provenance.
 
 ## Key numbers
 

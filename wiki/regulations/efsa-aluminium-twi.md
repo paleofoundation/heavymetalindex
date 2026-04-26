@@ -18,9 +18,9 @@ audience: [regulator, educator]
 
 # EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)
 
-The EFSA AFC Panel established a tolerable weekly intake for aluminium of **1 mg Al/kg body weight per week** in its May 2008 Scientific Opinion on the Safety of Aluminium from Dietary Intake, replacing the prior JECFA provisional tolerable weekly intake of 7 mg/kg b.w./week (a sevenfold reduction) ([[sources/efsa-aluminium-afc-2008]]). The TWI is anchored on neurotoxic, reproductive, and developmental effects in animal studies ([[sources/efsa-aluminium-afc-2008]]). The Panel concluded the TWI is likely to be exceeded in a significant part of the European population, particularly among consumers of foods containing aluminium-based food additives, infants on certain formulae, and adults consuming antacids ([[sources/efsa-aluminium-afc-2008]]).
+The EFSA AFC Panel established a tolerable weekly intake for aluminium of **1 mg Al/kg body weight per week** in its May 2008 Scientific Opinion on the Safety of Aluminium from Dietary Intake, replacing the prior JECFA provisional tolerable weekly intake of 7 mg/kg b.w./week (a sevenfold reduction) ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]). The TWI is anchored on neurotoxic, reproductive, and developmental effects in animal studies ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]). The Panel concluded the TWI is likely to be exceeded in a significant part of the European population, particularly among consumers of foods containing aluminium-based food additives, infants on certain formulae, and adults consuming antacids ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]).
 
-JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week ([[sources/efsa-aluminium-afc-2008]]).
+JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]).
 
 | Parameter | Value |
 | --- | --- |
@@ -31,4 +31,4 @@ JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week ([[sources/efsa-alumini
 
 ## Sources
 
-- [[sources/efsa-aluminium-afc-2008]] — EFSA AFC Panel, 2008. Safety of Aluminium from Dietary Intake.
+- [[sources/efsa-aluminium-afc-2008|EFSA 2008]] — EFSA AFC Panel, 2008. Safety of Aluminium from Dietary Intake.

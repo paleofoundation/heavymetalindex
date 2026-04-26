@@ -12,7 +12,7 @@ sources: 8
 
 # Mercury
 
-_This page draws on the [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] Toxicological Profile for Mercury ([[sources/atsdr-mercury-toxprofile-2024]]), the EPA IRIS chemical assessments for mercuric chloride and methylmercury ([[sources/epa-iris-mercuric-chloride]], [[sources/epa-iris-methylmercury]]), the [[sources/jecfa-61st-methylmercury|JECFA 61st meeting]] methylmercury monograph ([[sources/jecfa-61st-methylmercury]]), the EFSA CONTAM 2012 Scientific Opinion on Mercury and Methylmercury in Food ([[sources/efsa-mercury-methylmercury-2012]]), the [[sources/minamata-convention-2013|Minamata Convention]] on Mercury ([[sources/minamata-convention-2013]]), the Farina-Rocha-Aschner 2011 mechanistic review ([[sources/farina-rocha-aschner-2011-mehg-mechanism]]), and the joint [[sources/fda-epa-fish-consumption-advice|FDA/EPA fish consumption advice]] ([[sources/fda-epa-fish-consumption-advice]])._
+_This page draws on the [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] Toxicological Profile for Mercury ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]), the EPA IRIS chemical assessments for mercuric chloride and methylmercury ([[sources/epa-iris-mercuric-chloride|EPA IRIS Hg]], [[sources/epa-iris-methylmercury|EPA IRIS MeHg]]), the [[sources/jecfa-61st-methylmercury|JECFA 61st meeting]] methylmercury monograph ([[sources/jecfa-61st-methylmercury|JECFA 61st]]), the EFSA CONTAM 2012 Scientific Opinion on Mercury and Methylmercury in Food ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]), the [[sources/minamata-convention-2013|Minamata Convention]] on Mercury ([[sources/minamata-convention-2013|Minamata Convention 2013]]), the Farina-Rocha-Aschner 2011 mechanistic review ([[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]]), and the joint [[sources/fda-epa-fish-consumption-advice|FDA/EPA fish consumption advice]] ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -84,9 +84,9 @@ For consumers concerned about dental amalgam mercury vapor: this exposure is sma
 | EFSA (EU) | Methylmercury TWI | 1.3 µg Hg/kg b.w./week (daily ≈ 0.19 µg/kg/day) | [[regulations/efsa-methylmercury-twi]] |
 | EFSA (EU) | Inorganic mercury TWI | 4 µg Hg/kg b.w./week | [[regulations/efsa-mercury-twi]] |
 | JECFA (international) | Methylmercury PTWI | 1.6 µg/kg b.w./week (daily ≈ 0.23 µg/kg/day) | [[regulations/jecfa-methylmercury-ptwi]] |
-| FDA / EPA (US) | Fish consumption advice | Three-tier seafood categorization for pregnant women and children | [[sources/fda-epa-fish-consumption-advice]] |
-| ATSDR (US) | Mercury MRLs | Multiple by species and route | [[sources/atsdr-mercury-toxprofile-2024]] |
-| International | [[sources/minamata-convention-2013|Minamata Convention]] | Treaty regulating anthropogenic Hg emissions worldwide | [[sources/minamata-convention-2013]] |
+| FDA / EPA (US) | Fish consumption advice | Three-tier seafood categorization for pregnant women and children | [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] |
+| ATSDR (US) | Mercury MRLs | Multiple by species and route | [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] |
+| International | [[sources/minamata-convention-2013|Minamata Convention]] | Treaty regulating anthropogenic Hg emissions worldwide | [[sources/minamata-convention-2013|Minamata Convention 2013]] |
 
 ### What the reference values mean in practice
 <!-- audience: consumer -->
@@ -167,13 +167,13 @@ Second, the EPA IRIS methylmercury reassessment (currently in step 1 at IRIS) ma
 
 ## Sources
 
-- [[sources/atsdr-mercury-toxprofile-2024]] — ATSDR, October 2024. Toxicological Profile for Mercury.
-- [[sources/epa-iris-mercuric-chloride]] — EPA IRIS Chemical Assessment Summary, Mercuric Chloride (1995).
-- [[sources/epa-iris-methylmercury]] — EPA IRIS Chemical Assessment Summary, Methylmercury (2001).
-- [[sources/jecfa-61st-methylmercury]] — [[sources/jecfa-61st-methylmercury|JECFA 61st meeting]], 2003 (WHO TRS 922). Evaluation of Certain Food Additives and Contaminants.
-- [[sources/efsa-mercury-methylmercury-2012]] — EFSA CONTAM Panel, 2012. Scientific Opinion on Mercury and Methylmercury in Food.
-- [[sources/minamata-convention-2013]] — [[sources/minamata-convention-2013|Minamata Convention]] on Mercury (2013, with 2024 revisions).
-- [[sources/farina-rocha-aschner-2011-mehg-mechanism]] — Farina, Rocha, Aschner 2011. Mechanisms of methylmercury-induced neurotoxicity.
-- [[sources/fda-epa-fish-consumption-advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
+- [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] — ATSDR, October 2024. Toxicological Profile for Mercury.
+- [[sources/epa-iris-mercuric-chloride|EPA IRIS Hg]] — EPA IRIS Chemical Assessment Summary, Mercuric Chloride (1995).
+- [[sources/epa-iris-methylmercury|EPA IRIS MeHg]] — EPA IRIS Chemical Assessment Summary, Methylmercury (2001).
+- [[sources/jecfa-61st-methylmercury|JECFA 61st]] — [[sources/jecfa-61st-methylmercury|JECFA 61st meeting]], 2003 (WHO TRS 922). Evaluation of Certain Food Additives and Contaminants.
+- [[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]] — EFSA CONTAM Panel, 2012. Scientific Opinion on Mercury and Methylmercury in Food.
+- [[sources/minamata-convention-2013|Minamata Convention 2013]] — [[sources/minamata-convention-2013|Minamata Convention]] on Mercury (2013, with 2024 revisions).
+- [[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]] — Farina, Rocha, Aschner 2011. Mechanisms of methylmercury-induced neurotoxicity.
+- [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
 
 See also [[studies/mercury-primary-literature]] for the citable index of mercury-focused primary research articles in raw/studies/.

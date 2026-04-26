@@ -56,7 +56,7 @@ updated: 2026-04-24
 
 # Cocoa
 
-_Stub page. Contamination profile populates on the next ingest wave. Cocoa is identified by [[sources/jecfa-91st-cadmium-2022]] as the specific commodity responsible for a 2019-data-driven upward revision of dietary cadmium exposure estimates for children aged 0.5 to 12, with cocoa-inclusive total dietary exposure reaching 96 percent of the JECFA provisional tolerable monthly intake in that age group. Codex CCCF17 initiated new Code of Practice work on cadmium contamination reduction in 2024 with cocoa as the precedent category (CXC 81-2022, pending ingest)._
+_Stub page. Contamination profile populates on the next ingest wave. Cocoa is identified by [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as the specific commodity responsible for a 2019-data-driven upward revision of dietary cadmium exposure estimates for children aged 0.5 to 12, with cocoa-inclusive total dietary exposure reaching 96 percent of the JECFA provisional tolerable monthly intake in that age group. Codex CCCF17 initiated new Code of Practice work on cadmium contamination reduction in 2024 with cocoa as the precedent category (CXC 81-2022, pending ingest)._
 
 ## Why this commodity accumulates cadmium
 
@@ -90,5 +90,5 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 
 ## Sources
 
-- [[sources/jecfa-91st-cadmium-2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment.
-- [[sources/codex-cccf17-2024]] — Codex CCCF, April 2024. Report of the 17th Session (REP24/CF17).
+- [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment.
+- [[sources/codex-cccf17-2024|Codex CCCF17 2024]] — Codex CCCF, April 2024. Report of the 17th Session (REP24/CF17).

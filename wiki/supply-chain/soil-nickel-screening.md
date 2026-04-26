@@ -17,4 +17,4 @@ The page should populate with:
 - Use cases for screening: pre-planting site evaluation, contract-farming risk tiers, and post-harvest commodity testing prioritization.
 - Distinction between ecological screening (above) and human-health-protective soil values (different framework, different reference doses).
 
-See [[metals/nickel]] for the cross-source Ni synthesis and [[sources/epa-eco-ssl-nickel-2007]] for the source EPA derivation document.
+See [[metals/nickel]] for the cross-source Ni synthesis and [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] for the source EPA derivation document.
