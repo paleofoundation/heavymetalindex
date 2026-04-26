@@ -1,13 +1,102 @@
-# Heavy Metal Index — Master Index
+---
+title: Heavy Metal Index
+description: A curated reference on heavy metals in food, supply chain, remediation, and regulatory findings. Operated by the Paleo Foundation.
+audience: [regulator, educator, consumer, researcher]
+updated: 2026-04-26
+---
 
-This page catalogs every wiki page by category. Each entry is one line: `- [[path/page]] — one-line summary (N sources).`
+Heavy Metal Index is a curated reference for the peer-reviewed and regulatory literature on lead, cadmium, arsenic (inorganic and total), mercury (methyl and total), nickel, aluminum, chromium, and tin in food, supply chains, and consumer products. Each entry traces back to its source documents; methodology and editorial standards are public. The index is operated by the [Paleo Foundation](https://paleofoundation.com) in Cyprus and is editorially independent from the Foundation's [Heavy Metal Tested & Certified](https://heavymetaltested.com) program.
 
-## Overview and synthesis
+<div class="hmi-section-label">Browse by category</div>
+
+<div class="hmi-cat-grid">
+  <a href="metals/" class="hmi-cat-card">
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Metals</span><span class="hmi-cat-count">6 entries</span></div>
+    <div class="hmi-cat-desc">Per-metal monographs covering toxicology, exposure routes, and regulatory limits.</div>
+    <div class="hmi-cat-examples">Pb · Cd · As · Hg · Ni · Al</div>
+  </a>
+  <a href="ingredients/" class="hmi-cat-card">
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Ingredients</span><span class="hmi-cat-count">11 stubs</span></div>
+    <div class="hmi-cat-desc">Commodity-level contamination profiles with concentration ranges by source and variety.</div>
+    <div class="hmi-cat-examples">rice · wheat · cocoa · spinach · sunflower seeds · bivalves</div>
+  </a>
+  <a href="regulations/" class="hmi-cat-card">
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Regulations</span><span class="hmi-cat-count">29 entries</span></div>
+    <div class="hmi-cat-desc">Jurisdiction-specific rules with exact agency values, effective dates, and enforcement posture.</div>
+    <div class="hmi-cat-examples">FDA · EFSA · JECFA · Codex · Prop 65 · ATSDR · EPA IRIS</div>
+  </a>
+  <a href="products/" class="hmi-cat-card">
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Products</span><span class="hmi-cat-count">in progress</span></div>
+    <div class="hmi-cat-desc">Product-category risk profiles linking to applicable regulations and ingredient drivers.</div>
+    <div class="hmi-cat-examples">infant cereal · protein powder · chocolate · tea · seafood</div>
+  </a>
+  <a href="testing/" class="hmi-cat-card">
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Testing</span><span class="hmi-cat-count">in progress</span></div>
+    <div class="hmi-cat-desc">Analytical methods with typical limits of detection and matrix-specific considerations.</div>
+    <div class="hmi-cat-examples">ICP-MS · AAS · XRF · arsenic speciation</div>
+  </a>
+  <a href="health/" class="hmi-cat-card">
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Health</span><span class="hmi-cat-count">in progress</span></div>
+    <div class="hmi-cat-desc">Toxicology, dose-response, exposure routes, and vulnerable populations.</div>
+    <div class="hmi-cat-examples">infant neurodevelopment · pregnancy · cumulative exposure</div>
+  </a>
+  <a href="microbiome/" class="hmi-cat-card">
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Microbiome</span><span class="hmi-cat-count">in progress</span></div>
+    <div class="hmi-cat-desc">Metal-microbiome mechanisms with crosswalks to WikiBiome.</div>
+    <div class="hmi-cat-examples">barrier disruption · taxa shifts · SCFA reduction</div>
+  </a>
+  <a href="supply-chain/" class="hmi-cat-card">
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Supply chain</span><span class="hmi-cat-count">in progress</span></div>
+    <div class="hmi-cat-desc">Soil, water, fertilizer, and packaging as contamination vectors.</div>
+    <div class="hmi-cat-examples">paddy soil · phosphate fertilizers · glassware</div>
+  </a>
+</div>
+
+## How to read this index
+
+<div class="hmi-meth-grid">
+  <a href="methodology/" class="hmi-meth-card">
+    <div class="hmi-meth-title">Methodology</div>
+    <p class="hmi-meth-desc">How sources are selected, graded, and synthesized. Evidence tiering, citation rules, and the audit posture for regulatory values.</p>
+    <div class="hmi-meth-link">Read the methodology →</div>
+  </a>
+  <a href="editorial-standards/" class="hmi-meth-card">
+    <div class="hmi-meth-title">Editorial standards</div>
+    <p class="hmi-meth-desc">Curators, conflict-of-interest posture, and the firewall between this index and the Foundation's certification program.</p>
+    <div class="hmi-meth-link">Read editorial standards →</div>
+  </a>
+</div>
+
+## What this site is, and is not
+
+This site is a reference. It extracts facts, concentration values, regulatory thresholds, and citations from the published scientific and regulatory literature. It does not advocate, market, or endorse specific products. It does not make consumer safety pronouncements beyond what the cited sources support. It is not a rankings list, not a blog, and not a regulatory arbiter.
+
+Sophisticated readers, including regulatory affairs staff, scientists, journalists, and legal professionals, are the primary audience. Pages are written to survive scrutiny by readers who will check the sources. Consumer-facing explanations, where they appear, are anchored to specific populations, doses, and consumption frequencies rather than undefined qualifiers.
+
+Every page links to the primary sources it draws on, and every source page summarizes methods, key numbers, and the wiki pages that cite it.
+
+## Current status
+
+The Heavy Metal Index is under active development. As of April 2026, the corpus extraction is in progress and ingest into the wiki is partial. The metals layer carries six metal pages with cited synthesis (cadmium ingest deepest, others scaled to match). Regulations and sources layers are populated; ingredients are stubbed for the next ingest wave; products, testing, health, microbiome, and supply chain are at folder-stub status.
+
+An append-only record of ingest, query, lint, and schema events is maintained at [log](log/).
+
+If you find an error, please report it via [contact](contact/); corrections and their publication history are tracked per the [editorial standards](editorial-standards/).
+
+## Adjacent products
+
+The peer-reviewed venue for synthesis work built on this corpus is the [Journal of Food Metallomics](https://heavymetaltested.com/journal-of-food-metallomics), a publication of the Paleo Foundation. The Heavy Metal Tested & Certified (HMT&C) certification program is a separate property at [heavymetaltested.com](https://heavymetaltested.com); per the [editorial-standards](editorial-standards/) firewall, this index does not mention HMT&C-certified brands and does not function as certifier self-publication. Clinical metallomics outside the scope of food, supply chain, and consumer products is covered by [WikiBiome](https://wikibiome.com).
+
+## Master catalog
+
+This catalog enumerates every wiki page by category. Each entry is one line: `[[path/page]] — one-line summary (N sources).`
+
+### Overview and synthesis
 
 - [[overview]] — top-level orientation for first-time readers (stub).
 - [[synthesis]] — current best understanding across the corpus (stub).
 
-## Metals
+### Metals
 
 - [[metals/cadmium]] — cadmium in food and supply chain (in progress, 9 sources; batch 1 ingested, synthesis pass pending).
 - [[metals/lead]] — lead in food and supply chain (populated, 8 sources).
@@ -16,7 +105,7 @@ This page catalogs every wiki page by category. Each entry is one line: `- [[pat
 - [[metals/nickel]] — nickel in food and drinking water (populated, 3 sources).
 - [[metals/aluminum]] — aluminum from dietary intake (populated, 1 source).
 
-## Ingredients
+### Ingredients
 
 Top cadmium-accumulating commodities stubbed for the next ingest wave. Each page carries a `contamination_profile` block with `status: pending` until commodity-level ingests populate the values.
 
@@ -31,11 +120,11 @@ Top cadmium-accumulating commodities stubbed for the next ingest wave. Each page
 - [[ingredients/bivalve-molluscs]] — shellfish; highest mean Cd concentration in EFSA dataset (stub).
 - [[ingredients/wild-mushrooms]] — fungi; efficient Cd accumulator, wild > cultivated (stub).
 
-## Product categories
+### Product categories
 
 _None yet._
 
-## Regulations
+### Regulations
 
 - [[regulations/fda-closer-to-zero]] — FDA Closer to Zero program overview, metals in food for babies and young children (US) (1 source).
 - [[regulations/fda-ctz-Pb-babyfood-10ppb]] — FDA CTZ lead action level, 10 ppb in fruits / non-root vegetables / mixtures / yogurts / custards / single-ingredient meats in processed baby food (US) (1 source).
@@ -52,11 +141,11 @@ _None yet._
 - [[regulations/atsdr-cadmium-mrls]] — ATSDR minimal risk levels for cadmium: chronic oral 0.1 µg/kg/day, intermediate oral 0.5, chronic inhalation 0.01 µg/m³, acute inhalation 0.03 µg/m³ (US) (1 source).
 - [[regulations/codex-cadmium-mls]] — Codex Alimentarius cadmium maximum levels: new ML for quinoa 0.15 mg/kg (CCCF17 2024); matrix-level MLs pending ingest of CXS 193-1995 (international) (1 source).
 
-## Supply chain
+### Supply chain
 
 _None yet._
 
-## Primary literature catalogs
+### Primary literature catalogs
 
 Citable indexes of primary research articles held privately under raw/studies/. Per-study source pages and substantive synthesis are deferred to a future deep-ingestion wave; these catalogs make the corpus visible and citable from metals and ingredients pages.
 
@@ -65,35 +154,35 @@ Citable indexes of primary research articles held privately under raw/studies/. 
 - [[studies/mercury-primary-literature]] — 12 mercury and methylmercury primary research articles.
 - [[studies/multimetal-primary-literature]] — 243 multi-metal and thematic primary research articles (rice, fish, infant exposure, biomarkers, microbiome, milk, mitigation, and other topics).
 
-## Testing methods
+### Testing methods
 
 _None yet._
 
-## Health and toxicology
+### Health and toxicology
 
 _None yet._
 
-## Microbiome
+### Microbiome
 
 _None yet._
 
-## Certification
+### Certification
 
 _None yet._
 
-## Courses
+### Courses
 
 _None yet._
 
-## App model
+### App model
 
 _None yet._
 
-## Queries
+### Queries
 
 _None yet._
 
-## Sources (chronological)
+### Sources (chronological)
 
 - [[sources/oehha-cadmium-prop65-evidence-1996|OEHHA 1996]] — OEHHA, October 1996. Evidence on the Developmental and Reproductive Toxicity of Cadmium (evidence tier A).
 - [[sources/oehha-cadmium-prop65-madl-2001|OEHHA 2001]] — OEHHA, May 2001. Prop 65 Maximum Allowable Daily Level for Cadmium (Oral Route) (evidence tier A).
