@@ -80,13 +80,9 @@ _Pending. Cultivar selection, soil management, and rotational practices are the 
 
 ## Other metals of concern
 
-The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+_Some metals not listed in this section because no ingested source yet covers their commodity-level concern; those will populate when the corresponding source pages are ingested._
 
-- **Pb**: spinach can carry Pb from soil and atmospheric deposition onto leaves; <!-- UNCITED --> current US/EU growing regions show modest values, <!-- UNCITED --> but baby food made from spinach is captured by the FDA Closer to Zero processed-baby-food Pb action levels (10 ppb for fruit/vegetable purees [[sources/fda-ctz-Pb-babyfood-2025]], 20 ppb for grain-based mixed dinners that include spinach <!-- UNCITED -->). See [[metals/lead]] and [[regulations/fda-ctz-Pb-babyfood-10ppb]].
-- **iAs**: not a notable concern. <!-- UNCITED -->
-- **tHg**: not a notable concern. <!-- UNCITED -->
-- **Ni**: spinach contains modest nickel; not a top dietary contributor. <!-- UNCITED -->
-- **Al**: spinach can carry aluminum from acid soils; among the higher-Al leafy vegetables but typical levels are below health-based reference values. <!-- UNCITED --> See [[metals/aluminum]].
+- **Pb**: baby food made from spinach is captured by the FDA Closer to Zero processed-baby-food Pb action level of 10 ppb for fruit and vegetable purees ([[sources/fda-ctz-Pb-babyfood-2025]]). See [[metals/lead]] and [[regulations/fda-ctz-Pb-babyfood-10ppb]].
 
 ## Regulatory limits that apply
 

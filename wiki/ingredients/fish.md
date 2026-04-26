@@ -56,13 +56,11 @@ updated: 2026-04-26
 
 # Fish
 
-_Stub page. Contamination profile populates on dedicated mercury and arsenic ingest waves. Fish is the dominant dietary source of methylmercury exposure for most populations ([[sources/fda-epa-fish-consumption-advice]]) and a notable source of total arsenic (most as organic species, with a small inorganic fraction depending on species and region) <!-- UNCITED -->._
+_Stub page. Contamination profile populates on dedicated mercury and arsenic ingest waves. Fish is the dominant dietary source of methylmercury exposure for most populations ([[sources/fda-epa-fish-consumption-advice]])._
 
 ## Why this commodity accumulates heavy metals
 
 Fish accumulate methylmercury through aquatic-food-web biomagnification: inorganic mercury in water is methylated by sulfate-reducing bacteria in sediment, taken up by plankton, and biomagnified through each trophic step. Predator species at the top of marine food webs (swordfish, shark, king mackerel, tilefish, bigeye tuna, marlin) carry methylmercury concentrations 1 to 2 orders of magnitude above small-pelagic species (sardines, anchovies, herring) and farmed or short-lived freshwater species (salmon, tilapia, trout). See [[metals/mercury]] for the methylmercury toxicology, the [[sources/jecfa-61st-methylmercury]] PTWI of 1.6 µg/kg b.w./week, and the Faroe Islands and Seychelles cohort literature on developmental neurotoxicity (synthesized in [[metals/mercury]]).
-
-Fish carry total arsenic at levels orders of magnitude above terrestrial foods because marine arsenic is concentrated through the food web, but most is organic arsenic (arsenobetaine and related species) that is far less toxic than inorganic arsenic. <!-- UNCITED --> The inorganic fraction varies by species and region. <!-- UNCITED --> See [[metals/arsenic]].
 
 Cadmium and lead in fish are commodity-secondary concerns; bivalve molluscs (covered separately at [[ingredients/bivalve-molluscs]]) are the dominant marine-food Cd source ([[sources/efsa-cadmium-contam-2009]]).
 

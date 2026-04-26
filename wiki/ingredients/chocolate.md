@@ -80,13 +80,7 @@ _Pending. Upstream cocoa-sourcing decisions are the meaningful mitigation lever 
 
 ## Other metals of concern
 
-The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
-
-- **Pb**: documented concern alongside Cd. Dark chocolate products with high cocoa-solid fractions test elevated for both metals in independent programs (Consumer Reports, HBBF). <!-- UNCITED --> The Pb pathway is post-harvest contact during cocoa sun-drying rather than soil uptake. <!-- UNCITED --> See [[ingredients/cocoa]] and [[metals/lead]].
-- **iAs**: not a notable concern. <!-- UNCITED -->
-- **tHg**: not a notable concern. <!-- UNCITED -->
-- **Ni**: chocolate inherits cocoa's elevated nickel content, scaled by the cocoa-solid fraction. <!-- UNCITED --> Relevant for nickel-allergic consumers. <!-- UNCITED --> See [[metals/nickel]].
-- **Al**: chocolate inherits cocoa's aluminum content, scaled by the cocoa-solid fraction. <!-- UNCITED --> See [[metals/aluminum]].
+_Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
 
 ## Regulatory limits that apply
 

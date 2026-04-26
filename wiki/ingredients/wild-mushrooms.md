@@ -80,13 +80,7 @@ _Pending. Cultivated mushrooms grown on characterized substrates carry substanti
 
 ## Other metals of concern
 
-The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
-
-- **Pb**: wild mushrooms accumulate Pb from soil and atmospheric deposition; older studies from the leaded-gasoline era documented elevated Pb in roadside-foraged mushrooms, and current concerns persist for foraging near historic industrial activity. <!-- UNCITED --> See [[metals/lead]].
-- **iAs**: some species accumulate arsenic; speciation is mostly organic. <!-- UNCITED --> Not a top dietary iAs contributor. <!-- UNCITED -->
-- **tHg**: documented Hg-accumulator genera include Agaricus and Macrolepiota. <!-- UNCITED --> Wild-foraged mushrooms from Hg-mineralized soils or near Hg-emitting industrial sources can carry elevated total mercury, with the methylmercury fraction varying by species. <!-- UNCITED --> See [[metals/mercury]].
-- **Ni**: wild mushrooms carry modest nickel; not a leading dietary contributor. <!-- UNCITED -->
-- **Al**: wild mushrooms are among the higher-Al fungi but typical consumption levels are below health-based reference values. <!-- UNCITED --> See [[metals/aluminum]].
+_Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
 
 ## Regulatory limits that apply
 

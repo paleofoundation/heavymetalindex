@@ -80,13 +80,9 @@ _Pending. Cultivar selection (non-accumulator lines), zinc amendment of soils (z
 
 ## Other metals of concern
 
-The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+_Some metals not listed in this section because no ingested source yet covers their commodity-level concern; those will populate when the corresponding source pages are ingested._
 
-- **Pb**: wheat bran can carry Pb from soil and historic atmospheric deposition; refined white flour carries less because the bran is milled away. <!-- UNCITED --> The FDA Closer to Zero 20 ppb Pb action level for dry infant cereals applies to wheat-based infant cereal ([[sources/fda-ctz-Pb-babyfood-2025]]; see [[regulations/fda-ctz-Pb-cereal-20ppb]]).
-- **iAs**: minor; the flooded-paddy redox chemistry that drives iAs in rice ([[sources/fda-iAs-rice-cereal-2020]]) does not apply to wheat. <!-- UNCITED --> See [[metals/arsenic]].
-- **tHg**: not a notable concern. <!-- UNCITED -->
-- **Ni**: wheat bran contains measurable nickel; whole-wheat products carry more than refined flour. <!-- UNCITED -->
-- **Al**: not a top dietary Al contributor on a per-serving basis. <!-- UNCITED -->
+- **Pb**: the FDA Closer to Zero 20 ppb Pb action level for dry infant cereals applies to wheat-based infant cereal ([[sources/fda-ctz-Pb-babyfood-2025]]; see [[regulations/fda-ctz-Pb-cereal-20ppb]]).
 
 ## Regulatory limits that apply
 

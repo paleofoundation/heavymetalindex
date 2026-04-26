@@ -46,11 +46,11 @@ Inorganic mercury (mercuric chloride and other salts) is primarily nephrotoxic v
 ## Typical exposure routes
 <!-- audience: regulator, educator -->
 
-Dietary methylmercury through fish and seafood is the dominant route for the general population ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]). The methylmercury concentration in any given fish reflects (a) the mercury concentration in surface waters where the fish lived, (b) the trophic level the fish occupies (apex predators biomagnify), and (c) the age and size of the specimen (older, larger fish carry more methylmercury) <!-- UNCITED -->. Marine surface waters globally have elevated mercury concentrations relative to pre-industrial baselines because of anthropogenic mercury emissions (coal combustion, artisanal small-scale gold mining, historical chloralkali industry); the [[sources/minamata-convention-2013|Minamata Convention]]'s purpose is upstream emissions reduction ([[sources/minamata-convention-2013|Minamata Convention]]).
+Dietary methylmercury through fish and seafood is the dominant route for the general population ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]). Marine surface waters globally have elevated mercury concentrations relative to pre-industrial baselines because of anthropogenic mercury emissions (coal combustion, artisanal small-scale gold mining, historical chloralkali industry); the [[sources/minamata-convention-2013|Minamata Convention]]'s purpose is upstream emissions reduction ([[sources/minamata-convention-2013|Minamata Convention]]).
 
-Elemental mercury inhalation exposure is occupational (dental practice, fluorescent lamp manufacture, chloralkali legacy operations, gold processing) and dental-amalgam-related (a small chronic vapor exposure from dental fillings, considered acceptably low by major regulatory bodies but a contested area in some patient-advocacy literature) ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]). Inorganic mercury salt oral exposure is uncommon in modern food supply but historically occurred through some traditional cosmetics and skin-lightening products (mercury-containing beauty products remain a documented exposure pathway for some immigrant communities and warrant occasional case-finding) <!-- UNCITED -->.
+Elemental mercury inhalation exposure is occupational (dental practice, fluorescent lamp manufacture, chloralkali legacy operations, gold processing) and dental-amalgam-related (a small chronic vapor exposure from dental fillings, considered acceptably low by major regulatory bodies but a contested area in some patient-advocacy literature) ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]).
 
-Fetal exposure to methylmercury occurs through transplacental transfer during pregnancy ([[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]]). Postnatal exposure of nursing infants occurs through breast milk transfer of methylmercury from maternal body burden; the relative magnitude of pre-natal vs post-natal contribution varies with maternal body burden, breastfeeding duration, and maternal diet during lactation <!-- UNCITED -->.
+Fetal exposure to methylmercury occurs through transplacental transfer during pregnancy ([[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]]).
 
 ## Food sources
 <!-- audience: regulator, educator, app -->
@@ -62,7 +62,6 @@ Fetal exposure to methylmercury occurs through transplacental transfer during pr
 | Salmon, sardines, anchovies, tilapia, shrimp, catfish, pollock, trout, herring | "Best Choices" per FDA/EPA; 2-3 servings/week recommended; <0.1 ppm ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]) |
 | Light canned tuna | "Good Choices" (1 serving/week); typically 0.1 to 0.3 ppm ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]) |
 | Crab, oysters, scallops | "Best Choices" ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]) |
-| Freshwater sport-caught fish | Locally variable; state advisories from departments of fish and game <!-- UNCITED --> |
 
 The [[sources/fda-epa-fish-consumption-advice|FDA/EPA fish consumption advice]] (joint guidance, 2017 update) provides serving-frequency recommendations for pregnant women, women who might become pregnant, breastfeeding women, and children ages 1 to 11. The advice emphasizes that fish is a meaningful source of n-3 fatty acids and other nutrients important to fetal and child development, and that consumption within the "Best Choices" or "Good Choices" categories at recommended frequencies provides nutritional benefit while keeping methylmercury exposure within reference values.
 
@@ -72,8 +71,6 @@ The [[sources/fda-epa-fish-consumption-advice|FDA/EPA fish consumption advice]] 
 For pregnant women, breastfeeding women, and women who might become pregnant: follow the [[sources/fda-epa-fish-consumption-advice|FDA/EPA fish consumption advice]] categories. Eat 2 to 3 servings per week from the "Best Choices" list (salmon, sardines, anchovies, tilapia, shrimp, catfish, pollock, trout, herring, oysters, scallops). One serving per week from the "Good Choices" list is acceptable (light canned tuna, halibut, mahi-mahi, snapper, bluefish). Avoid the "Choices to Avoid" list entirely (swordfish, shark, king mackerel, tilefish from the Gulf of Mexico, bigeye tuna, marlin, orange roughy). Albacore tuna and yellowfin tuna are higher-mercury than light canned tuna; substituting light canned tuna or salmon for albacore is a high-leverage swap.
 
 For children ages 1 to 11: the same category guidance applies, with serving sizes scaled to age. The FDA/EPA chart provides age-specific serving sizes; for children under 6, a serving is typically 1 ounce (cooked).
-
-For frequent fish consumers (sport fishers, subsistence fishers, certain regional cuisines): state-level fish advisories for sport-caught freshwater fish are the operative guidance <!-- UNCITED -->. State environment and fish-and-game departments publish water-body-specific advisories based on local fish-tissue mercury testing <!-- UNCITED -->. Mercury concentrations in sport-caught fish vary substantially by water body, species, and fish size; large predatory species (lake trout, walleye, bass) from contaminated water bodies can substantially exceed the FDA/EPA "Choices to Avoid" mercury concentration threshold <!-- UNCITED -->.
 
 For consumers concerned about dental amalgam mercury vapor: this exposure is small in absolute terms, considered acceptably low by major regulatory bodies, and is a separate decision from food choice ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]). The [[sources/minamata-convention-2013|Minamata Convention]] initially promoted phase-down of dental amalgam but did not require complete phase-out; jurisdictions vary in dental amalgam policy ([[sources/minamata-convention-2013|Minamata Convention]]).
 
@@ -101,9 +98,7 @@ For a consumer estimating exposure: the methylmercury concentration in light can
 ## Testing
 <!-- audience: educator -->
 
-Methylmercury measurement in fish and seafood typically uses cold vapor atomic fluorescence spectrometry (CVAFS) or thermal decomposition, amalgamation, and atomic absorption spectrometry (TDA-AAS, e.g., the Direct Mercury Analyzer method) for total mercury, with the assumption that methylmercury comprises 90+ percent of total mercury in finfish <!-- UNCITED -->. Speciation analysis distinguishing methylmercury from inorganic mercury is via gas chromatography or HPLC coupled to atomic fluorescence or mass spectrometric detection <!-- UNCITED -->. Detection limits in the 0.001 to 0.01 ppm range are achievable <!-- UNCITED -->.
-
-Biomonitoring for methylmercury exposure typically measures hair mercury (integrating exposure over the hair growth period, weeks to months) or whole-blood mercury (recent integrated exposure) ([[sources/jecfa-61st-methylmercury|JECFA 61st]], [[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]). Maternal hair mercury was the dominant biomarker in the Faroe Islands cohort underlying the EFSA TWI ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]); whole-blood mercury is more commonly used in clinical and screening contexts <!-- UNCITED -->. Total-mercury biomarkers in fish-consuming populations are dominated by methylmercury; speciation biomarkers (urinary inorganic mercury) are used for occupational and dental-amalgam exposure assessment <!-- UNCITED -->.
+Biomonitoring for methylmercury exposure typically measures hair mercury (integrating exposure over the hair growth period, weeks to months) or whole-blood mercury (recent integrated exposure) ([[sources/jecfa-61st-methylmercury|JECFA 61st]], [[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]). Maternal hair mercury was the dominant biomarker in the Faroe Islands cohort underlying the EFSA TWI ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]).
 
 ## Microbiome effects
 <!-- audience: educator -->
@@ -113,7 +108,7 @@ _Pending dedicated microbiome ingests. Methylmercury is itself the product of mi
 ## Historical context: Minamata disease and the Convention
 <!-- audience: educator, regulator -->
 
-Minamata disease was the methylmercury poisoning event that established the developmental and adult neurotoxicity of methylmercury at high exposure ([[sources/minamata-convention-2013|Minamata Convention]]). From 1932 through 1968, the Chisso Corporation chemical plant in Minamata, Japan, discharged methylmercury-containing wastewater into Minamata Bay; methylmercury bioaccumulated in fish and shellfish, the local population's primary protein source <!-- UNCITED -->. Cases began appearing in the 1950s; the disease was officially recognized in 1956 <!-- UNCITED -->. Clinical features include sensory disturbance with characteristic distal-extremity numbness, ataxia, dysarthria, visual field constriction, hearing loss, and in fetal-exposure cases congenital mental retardation and cerebral palsy with characteristic neuropathological findings <!-- UNCITED -->. By 2001, more than 2,200 cases had been officially recognized as Minamata disease victims; estimates of total exposed individuals run into tens of thousands <!-- UNCITED -->. The Niigata methylmercury poisoning event (1965) at a separate Showa Denko plant produced a second cluster of cases <!-- UNCITED -->.
+Minamata disease was the methylmercury poisoning event that established the developmental and adult neurotoxicity of methylmercury at high exposure. The Minamata Bay site in Japan was the location of industrial methylmercury discharge that caused thousands of cases of developmental and adult neurological disease beginning in the 1950s ([[sources/minamata-convention-2013|Minamata Convention]]).
 
 The [[sources/minamata-convention-2013|Minamata Convention]] on Mercury, named for this event, was adopted October 10, 2013 under the United Nations Environment Programme and entered into force August 16, 2017 ([[sources/minamata-convention-2013|Minamata Convention]]). It addresses the supply, use, trade, emissions, and waste of mercury and mercury compounds across multiple sectors: artisanal and small-scale gold mining (the largest single anthropogenic mercury release source globally), coal combustion, mercury-added products (fluorescent lamps, batteries, switches, cosmetics, certain dental amalgams), industrial processes, and contaminated sites ([[sources/minamata-convention-2013|Minamata Convention]]). The treaty is the international policy framework underlying mercury-related dietary risk: by reducing global anthropogenic mercury emissions, it operates upstream of the methylmercury bioaccumulation in fish and seafood that drives EFSA, JECFA, FDA/EPA, and ATSDR dietary mercury reference values.
 
@@ -124,12 +119,9 @@ The [[sources/minamata-convention-2013|Minamata Convention]] on Mercury, named f
 | --- | --- |
 | Pregnant women | Transplacental transfer; developmental neurotoxicity of methylmercury in offspring; FDA/EPA fish advice targets this population ([[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]], [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]) |
 | Women who might become pregnant | Mercury body burden persists for months; pre-pregnancy exposure matters ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]) |
-| Breastfeeding women | Methylmercury transfers to breast milk <!-- UNCITED --> |
 | Children ages 1 to 11 | Developmental neurotoxicity persists post-birth; smaller body size amplifies per-kg exposure ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]) |
 | Frequent consumers of high-mercury fish (sport fishers, subsistence fishers, certain cuisines) | Long-lived predatory fish concentrations 10-50x lower-trophic-level fish ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]) |
-| Communities near mercury-contaminated waterways | Localized dietary methylmercury amplification through local fish consumption <!-- UNCITED --> |
 | Occupational mercury exposure | Dental work, mining, fluorescent lamp manufacture, chloralkali (legacy), gold processing ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]], [[sources/minamata-convention-2013|Minamata Convention]]) |
-| Indigenous and subsistence populations relying on local fish | Higher fish consumption per kg body weight than general population; local-water mercury concentrations may be elevated <!-- UNCITED --> |
 
 ### If you are in one of these groups
 <!-- audience: consumer -->
@@ -159,11 +151,7 @@ Structured outputs:
   - "Best Choices" species: <0.1 ppm
   - "Good Choices" species: 0.1 to 0.5 ppm  
   - "Choices to Avoid" species: 0.5 to 1.5+ ppm
-- Methylmercury fraction of total mercury in finfish: approximately 90 to 100 percent <!-- UNCITED -->.
-- GI absorption (MeHg): approximately 95 percent <!-- UNCITED -->.
-- Blood-to-hair MeHg ratio: approximately 1:250 <!-- UNCITED -->.
 - Maternal hair MeHg associated with first-percentile-affected developmental endpoint: approximately 6.4 µg/g (Faroe-Seychelles BMDL) ([[sources/jecfa-61st-methylmercury|JECFA 61st]]).
-- Half-life in body: approximately 50 to 70 days <!-- UNCITED -->.
 - Pregnancy risk weighting: amplify reference-value benchmarking for pregnant users by treating maternal blood/hair MeHg as the operative biomarker for fetal exposure.
 
 Consumer-facing risk communication should treat methylmercury as the default "fish mercury" concept and explicitly inform users that the FDA/EPA category guidance (Best Choices / Good Choices / Choices to Avoid) operationalizes the regulatory reference values into shopping-and-cooking decisions.

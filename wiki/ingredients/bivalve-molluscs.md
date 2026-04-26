@@ -80,13 +80,7 @@ _Pending. Harvest-region selection, species selection within the broader bivalve
 
 ## Other metals of concern
 
-The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
-
-- **Pb**: bivalves can carry Pb from estuarine sediments and seawater contamination; harbor-area harvest yields elevated Pb. <!-- UNCITED --> See [[metals/lead]].
-- **iAs**: bivalves carry total arsenic at high levels (orders of magnitude above terrestrial foods), but most of the total arsenic is organic species (arsenobetaine, arsenosugars) that are far less toxic than inorganic arsenic. <!-- UNCITED --> The iAs fraction is typically a small percent of total As in bivalves but can be measurable; species and harvest region affect speciation. <!-- UNCITED --> See [[metals/arsenic]] for the speciation framework that distinguishes iAs from organic species.
-- **tHg**: bivalves accumulate mercury (largely methylmercury) from filter-feeding, though at lower levels than predator fish higher in the food web. <!-- UNCITED --> See [[metals/mercury]].
-- **Ni**: bivalves carry measurable nickel from seawater; not a leading dietary contributor. <!-- UNCITED -->
-- **Al**: not a top concern. <!-- UNCITED -->
+_Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
 
 ## Regulatory limits that apply
 

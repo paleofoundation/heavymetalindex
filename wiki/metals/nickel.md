@@ -17,16 +17,16 @@ _This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([
 ## Overview
 <!-- audience: regulator, educator, consumer -->
 
-Nickel is an essential trace element for some species but not for humans, and a documented occupational carcinogen at inhalation exposures <!-- UNCITED -->. The toxicology splits sharply by route: inhalation exposure to nickel compounds (particularly soluble salts and certain insoluble forms in occupational settings) produces lung and nasal cancer, and the US National Toxicology Program classifies nickel compounds as a class as known human carcinogens ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]); dietary exposure to nickel produces non-cancer endpoints, primarily reproductive and developmental effects at chronic exposure and systemic contact dermatitis at acute exposure in nickel-sensitized individuals ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The EFSA CONTAM Panel 2020 update established a chronic TDI of 13 µg Ni/kg b.w./day and an acute reference using a LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up reactions in nickel-sensitized humans, applying a margin-of-exposure approach for the acute case ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
+The toxicology of nickel splits sharply by route: inhalation exposure to nickel compounds (particularly soluble salts and certain insoluble forms in occupational settings) produces lung and nasal cancer, and the US National Toxicology Program classifies nickel compounds as a class as known human carcinogens ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]); dietary exposure to nickel produces non-cancer endpoints, primarily reproductive and developmental effects at chronic exposure and systemic contact dermatitis at acute exposure in nickel-sensitized individuals ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The EFSA CONTAM Panel 2020 update established a chronic TDI of 13 µg Ni/kg b.w./day and an acute reference using a LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up reactions in nickel-sensitized humans, applying a margin-of-exposure approach for the acute case ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
-Dietary nickel sources are broadly distributed across the food supply: cocoa products, nuts, legumes (especially beans), oats, whole grains, and certain leafy vegetables carry the highest concentrations ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Drinking water is a meaningful additional source ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Stainless steel and other nickel-alloy cookware can contribute small amounts of nickel to food during cooking, particularly for acidic foods <!-- UNCITED -->. Nickel-containing jewelry and accessories produce dermal sensitization in approximately 10 to 15 percent of women and 1 to 3 percent of men in European populations, who are then susceptible to systemic contact dermatitis flare-ups from very low oral nickel doses <!-- UNCITED -->.
+Dietary nickel sources are broadly distributed across the food supply: cocoa products, nuts, legumes (especially beans), oats, whole grains, and certain leafy vegetables carry the highest concentrations ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Drinking water is a meaningful additional source ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 ## At a glance
 <!-- audience: consumer -->
 
 Three facts that matter most for a consumer trying to interpret nickel exposure.
 
-First, nickel is unusual among heavy metals because dermal sensitization (from jewelry, watch buckles, eyeglass frames, belt buckles, and other nickel-containing skin contact) is the gateway exposure for many consumers, and the consequences are most often experienced through dietary exposure later <!-- UNCITED -->. Once a person is nickel-sensitized, very low oral nickel doses (4.3 µg/kg body weight, the EFSA acute LOAEL) can produce eczematous flare-up reactions called systemic contact dermatitis ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). This is approximately the amount of nickel in 200 grams of cocoa-product-heavy diet, well within typical daily intake for cocoa or chocolate consumers <!-- UNCITED -->. Approximately 10 to 15 percent of women and 1 to 3 percent of men in European populations are nickel-sensitized <!-- UNCITED -->.
+First, once a person is nickel-sensitized, very low oral nickel doses (4.3 µg/kg body weight, the EFSA acute LOAEL) can produce eczematous flare-up reactions called systemic contact dermatitis ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 Second, dietary nickel exposure routinely exceeds the [[regulations/efsa-nickel-tdi|EFSA chronic TDI]] of 13 µg/kg/day in significant fractions of the European population, particularly among consumers of cocoa products, oat products, legume-heavy diets (including chickpea, soy, lentil), and certain leafy vegetables ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Drinking water can be a meaningful additional contributor in some regions ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The EFSA finding that exposure routinely exceeds the TDI is a regulatory-level acknowledgment that current dietary nickel exposure is at or above what the agency considers safe for chronic intake ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
@@ -37,16 +37,16 @@ Third, the carcinogenic risk from nickel is dominantly an occupational inhalatio
 
 The [[sources/efsa-nickel-contam-2020|EFSA 2020]] chronic TDI of 13 µg Ni/kg b.w./day is anchored on a BMDL10 of 1.3 mg Ni/kg b.w./day for increased post-implantation loss in rats. Reproductive and developmental endpoints (post-implantation loss, decreased fetal weight, reduced viability) are the most sensitive chronic endpoints and dominate the dietary risk assessment. The chronic TDI was lowered substantially from prior values in the 2020 EFSA update.
 
-For acute oral nickel exposure, [[sources/efsa-nickel-contam-2020|EFSA 2020]] identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect. A BMDL could not be derived from the available human-volunteer studies; the LOAEL of 4.3 µg Ni/kg b.w. was selected as the reference point, with a margin-of-exposure approach using MOE ≥ 30 as the threshold for low health concern. The mechanistic basis is that nickel-sensitized individuals carry circulating Ni-specific T cells that recognize internal nickel exposure and produce inflammatory dermatitis at distant skin sites — a contact-dermatitis pattern that operates through ingested rather than dermal nickel <!-- UNCITED -->.
+For acute oral nickel exposure, [[sources/efsa-nickel-contam-2020|EFSA 2020]] identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect. A BMDL could not be derived from the available human-volunteer studies; the LOAEL of 4.3 µg Ni/kg b.w. was selected as the reference point, with a margin-of-exposure approach using MOE ≥ 30 as the threshold for low health concern ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
-Carcinogenic effects of nickel compounds are documented in occupational inhalation cohorts (nickel refinery workers, stainless steel and nickel-alloy production, electroplating) ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]). Lung and nasal cancer are the primary tumor sites ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]). Mechanisms include nickel-DNA adduct formation, oxidative stress, and epigenetic effects (DNA methylation alterations) <!-- UNCITED -->. The [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] (2021) classifies nickel compounds as a class as known human carcinogens (since the 10th RoC, 2002); metallic nickel as reasonably anticipated to be a human carcinogen (since the 1st RoC, 1980); and explicitly reviewed nickel alloys without recommending listing. Dietary nickel intake at typical levels has not been associated with cancer outcomes in epidemiological studies; the cancer risk from nickel is operationally an inhalation/occupational concern ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]).
+Carcinogenic effects of nickel compounds are documented in occupational inhalation cohorts (nickel refinery workers, stainless steel and nickel-alloy production, electroplating) ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]). Lung and nasal cancer are the primary tumor sites ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]). The [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] (2021) classifies nickel compounds as a class as known human carcinogens (since the 10th RoC, 2002); metallic nickel as reasonably anticipated to be a human carcinogen (since the 1st RoC, 1980); and explicitly reviewed nickel alloys without recommending listing. Dietary nickel intake at typical levels has not been associated with cancer outcomes in epidemiological studies; the cancer risk from nickel is operationally an inhalation/occupational concern ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]).
 
 ## Typical exposure routes
 <!-- audience: regulator, educator -->
 
-Dietary intake is the dominant route for the general non-occupationally-exposed population ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Gastrointestinal absorption of nickel is in the range of 1 to 40 percent depending on form and food matrix; soluble nickel salts in fasted-state ingestion produce higher absorption fractions than nickel from food matrices <!-- UNCITED -->. Drinking water nickel from corroded plumbing, well water in nickel-rich geology, or industrial discharge contributes <!-- UNCITED -->. Inhalation of airborne nickel is occupational (smelting, refining, electroplating, stainless steel manufacture, fluid-flux welding) and produces the cancer endpoints rather than the dietary endpoints ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]).
+Dietary intake is the dominant route for the general non-occupationally-exposed population ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Inhalation of airborne nickel is occupational (smelting, refining, electroplating, stainless steel manufacture, fluid-flux welding) and produces the cancer endpoints rather than the dietary endpoints ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]).
 
-Dermal nickel contact from jewelry, eyeglass frames, watch buckles, belt buckles, coins, mobile phones, and certain stainless steel utensils produces sensitization in approximately 10 to 15 percent of European women and 1 to 3 percent of men <!-- UNCITED -->. The European Union Nickel Directive (94/27/EC) restricts the rate of nickel release from items intended for prolonged skin contact to less than 0.5 µg Ni/cm²/week <!-- UNCITED -->. Once sensitized, individuals are susceptible to systemic contact dermatitis from oral nickel doses well below the [[regulations/efsa-nickel-tdi|EFSA chronic TDI]] ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
+Once sensitized, individuals are susceptible to systemic contact dermatitis from oral nickel doses well below the [[regulations/efsa-nickel-tdi|EFSA chronic TDI]] ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 ## Food sources
 <!-- audience: regulator, educator, app -->
@@ -57,10 +57,7 @@ Dermal nickel contact from jewelry, eyeglass frames, watch buckles, belt buckles
 | Oats and oat products | Elevated relative to other cereals ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
 | Legumes (beans, chickpeas, lentils, soy) | Plant-family-level efficient Ni accumulators ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
 | Nuts (especially cashews, hazelnuts) | Elevated ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Leafy vegetables grown on Ni-rich soil | Geography-dependent <!-- UNCITED --> |
 | Drinking water (in some regions) | Variable; corrosion of nickel-containing plumbing, well water in Ni-rich geology ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Stainless steel cookware (acidic foods) | Small contribution; nickel leaches from low-quality stainless during prolonged acidic cooking <!-- UNCITED --> |
-| Canned foods (legacy concern) | Diminishing as canning materials evolve <!-- UNCITED --> |
 
 [[sources/efsa-nickel-contam-2020|EFSA 2020]] found that mean dietary nickel exposure across European Member States routinely exceeds the chronic TDI of 13 µg/kg b.w./day, particularly among toddlers and other children, and among adults consuming legume-heavy or cocoa-heavy diets.
 
@@ -69,9 +66,7 @@ Dermal nickel contact from jewelry, eyeglass frames, watch buckles, belt buckles
 
 For consumers without diagnosed nickel sensitivity: dietary nickel exposure routinely exceeds the EFSA TDI, which is a regulatory finding rather than a personal-action signal. The reproductive and developmental endpoints driving the TDI matter most for women planning pregnancy and for child consumers; for adult men outside the reproductive window, the chronic TDI exceedance is less consequential at the individual level than the population level.
 
-For consumers with diagnosed nickel-sensitivity contact dermatitis: a low-nickel diet has documented therapeutic value in some cases <!-- UNCITED -->. The acute LOAEL of 4.3 µg Ni/kg b.w. corresponds to approximately 300 µg total daily nickel for a 70 kg adult ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) — an amount that one cocoa-heavy meal can exceed <!-- UNCITED -->. A clinical low-nickel diet typically excludes or limits cocoa, nuts, legumes (especially soy and chickpea), oats, whole grains, certain leafy vegetables (spinach, lettuce), shellfish, canned foods, and tap water from nickel-plumbed sources <!-- UNCITED -->. The diet is typically tried for 4 to 6 weeks under clinical supervision to assess whether dermatitis improves <!-- UNCITED -->. A nickel-aware patient consumer is the operative population for this dietary intervention; consumers without diagnosed sensitivity should not pre-emptively adopt a restrictive low-nickel diet <!-- UNCITED -->.
-
-For consumers wearing nickel-containing jewelry: sensitization is the gateway exposure for many subsequent dietary problems <!-- UNCITED -->. Choosing nickel-free jewelry (gold, sterling silver, titanium, platinum, surgical stainless steel marked nickel-free, polymer-coated alternatives) prevents sensitization in non-sensitized individuals and reduces dermal exposure in sensitized individuals <!-- UNCITED -->. The EU Nickel Directive provides a regulatory floor for nickel release from skin-contact items in EU markets; equivalent US regulations are weaker <!-- UNCITED -->.
+For consumers with diagnosed nickel-sensitivity contact dermatitis: the acute LOAEL of 4.3 µg Ni/kg b.w. corresponds to approximately 300 µg total daily nickel for a 70 kg adult ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 ## Regulatory limits
 <!-- audience: regulator, educator -->
@@ -90,16 +85,14 @@ For consumers wearing nickel-containing jewelry: sensitization is the gateway ex
 
 The two EFSA reference points operate together as the dietary nickel benchmark: the chronic TDI of 13 µg/kg/day for general-population reproductive/developmental risk, and the acute LOAEL of 4.3 µg/kg b.w. for nickel-sensitized contact dermatitis flare-up. For a 70-kilogram adult, the chronic TDI corresponds to 910 µg Ni/day; the acute LOAEL corresponds to 300 µg per single dose; the MOE of 30 for "low concern" sets the practical acute target at approximately 10 µg Ni in a single sitting for a sensitized individual.
 
-Typical European dietary nickel intakes routinely exceed the chronic TDI ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). A cocoa-heavy or legume-heavy diet can deliver 200 to 500 µg Ni/day across all sources; that's at or below the chronic 910 µg/day TDI for a 70 kg adult but at or above the 300 µg single-meal acute LOAEL for a sensitized individual <!-- UNCITED -->. A non-sensitized adult consuming this diet does not have an immediate health concern; a sensitized adult consuming the same diet may experience dermatitis flare-ups <!-- UNCITED -->.
+Typical European dietary nickel intakes routinely exceed the chronic TDI ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 For the population question: the EFSA finding that mean dietary nickel exposure exceeds the TDI is a regulatory signal that population-level nickel intake reduction is warranted, not that any individual at typical exposure faces a defined acute health threat ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The TDI is a health-protective threshold for chronic intake assuming lifetime exposure; brief exceedance is not an acute danger ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 ## Testing
 <!-- audience: educator -->
 
-Nickel measurement in food, water, and biological samples typically uses ICP-MS (detection limits 0.001 to 0.01 µg/L) or ICP-OES (detection limits 0.1 to 1 µg/L) for total nickel <!-- UNCITED -->. Speciation analysis (distinguishing soluble from insoluble nickel forms, or specific compounds) is less commonly performed for routine measurement <!-- UNCITED -->.
-
-Biomonitoring for nickel exposure typically measures urinary nickel (recent integrated exposure, hours to days) or plasma/serum nickel <!-- UNCITED -->. Hair and toenail nickel concentrations integrate exposure over weeks to months and are used in epidemiological studies <!-- UNCITED -->. Patch testing for nickel-allergic contact dermatitis is the clinical diagnosis for nickel sensitization (5 percent nickel sulfate in petrolatum, applied for 48 hours to upper back) <!-- UNCITED -->.
+_A dedicated `wiki/testing/` section with detailed method-specific pages will be stood up in a later wave._
 
 ## Microbiome effects
 <!-- audience: educator -->
@@ -111,21 +104,16 @@ _Pending dedicated microbiome ingests. Nickel is a cofactor for several microbia
 
 | Population | Basis |
 | --- | --- |
-| Nickel-sensitized individuals (10-15 percent of women, 1-3 percent of men) | Acute systemic contact dermatitis flare-up at very low oral nickel doses (4.3 µg/kg b.w. LOAEL) ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) <!-- UNCITED for sensitization prevalence --> |
+| Nickel-sensitized individuals | Acute systemic contact dermatitis flare-up at very low oral nickel doses (4.3 µg/kg b.w. LOAEL) ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
 | Frequent consumers of cocoa, oats, legumes, nuts | Chronic dietary exposure routinely exceeds the 13 µg/kg/day TDI ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
 | Pregnant women | Reproductive/developmental endpoint anchors the TDI; pregnancy is the most sensitive life stage ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
 | Children and toddlers | Higher per-kg dietary intake; routine TDI exceedance documented in [[sources/efsa-nickel-contam-2020|EFSA 2020]] |
 | Workers in nickel-related occupations | Inhalation exposure to nickel compounds (refining, electroplating, stainless steel manufacture) ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]) |
-| Consumers wearing nickel-containing jewelry or accessories | Dermal contact sensitization, then dietary flare-up potential <!-- UNCITED --> |
 
 ### If you are in one of these groups
 <!-- audience: consumer -->
 
-For diagnosed-nickel-sensitive individuals: a clinically supervised low-nickel diet can produce documented improvement in approximately one-third to one-half of cases of recalcitrant systemic nickel contact dermatitis <!-- UNCITED -->. The diet is typically tried for 4 to 6 weeks; foods to limit or exclude include cocoa, chocolate, nuts (cashews, hazelnuts), oats and whole-grain oats, legumes (especially soy, chickpea, lentil), certain leafy vegetables (spinach, lettuce), shellfish (shellfish carry nickel from sediment), canned foods (some), and tap water from nickel-plumbed sources (use bottled water during the trial) <!-- UNCITED -->. Allergists and dermatologists with nickel-allergy experience supervise these diets clinically <!-- UNCITED -->.
-
-For pregnant women: the EFSA reproductive/developmental endpoint anchoring the chronic TDI applies most directly to this population ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Cocoa-heavy or legume-heavy diets during pregnancy may exceed the TDI by 2 to 3 times <!-- UNCITED -->. The TDI itself incorporates uncertainty factors for inter-individual variability; brief exceedance is not an acute danger, but sustained exceedance during pregnancy is the regulatory concern that drove the TDI's lowering ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Following the FDA/USDA Dietary Guidelines for Americans, with normal variety across protein and grain sources, generally keeps exposure within acceptable margins <!-- UNCITED -->.
-
-For consumers with nickel-jewelry sensitization: removing the sensitizing items, switching to nickel-free alternatives, and following a nickel-aware diet if dermatitis persists are the operative interventions <!-- UNCITED -->. Dimethylglyoxime (DMG) test kits are available for consumer self-testing of jewelry nickel content (a positive DMG test means the item releases nickel and should be avoided by sensitized individuals) <!-- UNCITED -->.
+For pregnant women: the EFSA reproductive/developmental endpoint anchoring the chronic TDI applies most directly to this population ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The TDI itself incorporates uncertainty factors for inter-individual variability; brief exceedance is not an acute danger, but sustained exceedance during pregnancy is the regulatory concern that drove the TDI's lowering ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 ## App-layer integration
 <!-- audience: app -->
@@ -138,9 +126,6 @@ Pediatric multipliers for nickel are through body-weight scaling. [[sources/efsa
 
 Structured outputs:
 
-- GI absorption (general): 1 to 40 percent; use 10 percent for default <!-- UNCITED -->.
-- GI absorption (fasted state, soluble salt): up to 40 percent <!-- UNCITED -->.
-- Sensitization prevalence (European): approximately 10 to 15 percent of women, 1 to 3 percent of men <!-- UNCITED -->.
 - Acute LOAEL (sensitized, oral): 4.3 µg Ni/kg b.w. ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 - Acute MOE threshold for low concern: ≥ 30 ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 - Chronic TDI: 13 µg Ni/kg b.w./day ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).

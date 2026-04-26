@@ -80,13 +80,7 @@ _Pending. Literature on cultivar selection, soil amendment, agroforestry practic
 
 ## Other metals of concern
 
-The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
-
-- **Pb**: documented concern alongside Cd. Lead enters cocoa primarily after harvest, through contact with soils, dust, and surfaces during sun-drying and post-harvest handling rather than through root uptake. <!-- UNCITED --> Independent testing programs (Consumer Reports, HBBF) report consumer-relevant Pb levels in dark chocolate and cocoa-powder products. <!-- UNCITED --> See [[metals/lead]].
-- **iAs**: not a notable concern. <!-- UNCITED -->
-- **tHg**: not a notable concern. <!-- UNCITED -->
-- **Ni**: cocoa is among the higher-Ni plant foods. Cocoa-derived products contribute meaningfully to dietary Ni intake, particularly relevant for nickel-allergic consumers. <!-- UNCITED --> See [[metals/nickel]].
-- **Al**: cocoa is among the higher-Al plant foods because Theobroma cacao roots take up aluminum from acidic tropical soils. <!-- UNCITED --> See [[metals/aluminum]].
+_Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
 
 ## Regulatory limits that apply
 

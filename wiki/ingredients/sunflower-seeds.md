@@ -80,13 +80,7 @@ _Pending. Cultivar selection, soil management, and choice of growing region are 
 
 ## Other metals of concern
 
-The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
-
-- **Pb**: sunflower's phytoaccumulator profile extends to Pb; sunflower has been studied as a phytoremediation crop for several heavy metals, and seeds from contaminated soils carry elevated Pb alongside Cd. <!-- UNCITED --> See [[metals/lead]].
-- **iAs**: not a notable concern. <!-- UNCITED -->
-- **tHg**: not a notable concern. <!-- UNCITED -->
-- **Ni**: sunflower seeds carry modest nickel; sunflower meal and protein concentrate carry more. <!-- UNCITED -->
-- **Al**: not a top dietary Al contributor. <!-- UNCITED -->
+_Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
 
 ## Regulatory limits that apply
 

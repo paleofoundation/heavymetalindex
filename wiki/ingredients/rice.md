@@ -80,13 +80,9 @@ _Pending. Literature on cultivar selection, water management, liming, zinc amend
 
 ## Other metals of concern
 
-The body of this page focuses on cadmium because the cadmium pilot batch was the first deep ingest wave; the contamination_profile block tracks all six metals the wiki covers and will fill in as subsequent ingest waves complete. Brief commodity-level orientation:
+_Some metals not listed in this section because no ingested source yet covers their commodity-level concern; those will populate when the corresponding source pages are ingested._
 
-- **Pb**: not a top population-level Pb contributor, though elevated values occur where rice is irrigated from Pb-contaminated water or grown in historically leaded watersheds. <!-- UNCITED -->
 - **iAs**: a major concern for rice — rice is the highest-iAs staple food because flooded-paddy redox chemistry mobilizes soil arsenic into pore water where roots take it up ([[sources/fda-iAs-rice-cereal-2020]]). Brown rice and rice bran carry higher iAs than polished white rice ([[sources/su-2023-arsenic-brown-rice]]). The FDA Closer to Zero inorganic-arsenic action level for infant rice cereal is 100 ppb ([[sources/fda-iAs-rice-cereal-2020]]). See [[metals/arsenic]] and [[sources/navaretnam-2025-rice-as-speciation]].
-- **tHg**: not a notable concern. <!-- UNCITED -->
-- **Ni**: rice can contain measurable Ni but is not a top dietary contributor; <!-- UNCITED --> see [[metals/nickel]].
-- **Al**: rice is not a top dietary Al contributor. <!-- UNCITED -->
 
 ## Regulatory limits that apply
 

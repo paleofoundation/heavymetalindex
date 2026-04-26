@@ -41,16 +41,13 @@ The [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] TWI of 1 mg Al/kg b.
 
 The clearest documented human aluminum disease entities are dialysis encephalopathy and dialysis osteomalacia, both observed in chronic hemodialysis patients exposed to aluminum-contaminated dialysate fluid in the 1970s and 1980s before water treatment for dialysis was redesigned ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]). Dialysis encephalopathy presented with progressive dementia, dysarthria, myoclonus, and seizures; dialysis osteomalacia produced bone pain, fractures, and characteristic radiographic and histological findings. Both entities are essentially eliminated in modern dialysis practice because dialysate water is now routinely treated to remove aluminum.
 
-Occupational aluminum exposure in workers handling aluminum dust (smelter workers, aluminum-finishing workers) has been associated with neurological effects (subtle cognitive impairment, tremor) at chronic high exposures <!-- UNCITED -->. The relationship between dietary aluminum and Alzheimer's disease has been investigated extensively over decades; current consensus is that the evidence does not support aluminum as a primary causal factor in Alzheimer's, though the epidemiological literature remains contested in some quarters <!-- UNCITED -->.
-
-Aluminum is not classified by IARC or NTP as a human carcinogen <!-- UNCITED -->. Some specific occupational settings (aluminum-pot-room workers exposed to PAH-rich aluminum smelting emissions) have been associated with increased lung cancer, but the carcinogenic agent is the PAH co-exposure rather than aluminum itself <!-- UNCITED -->.
 
 ## Typical exposure routes
 <!-- audience: regulator, educator -->
 
 Dietary intake is the dominant route. [[sources/efsa-aluminium-afc-2008|EFSA 2008]] estimated typical adult European dietary aluminum exposure at 0.2 to 1.5 mg/kg b.w./week (potentially higher in some sub-populations), with substantial variation across Member States driven by aluminum-additive use patterns. Antacid medications can contribute substantially to aluminum intake in users (typical aluminum-containing antacid daily aluminum delivery 100 to 1000 mg, dwarfing typical dietary intake of 5 to 15 mg/day) ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]). Drinking water aluminum (from aluminum-based water-treatment flocculants in some municipal systems) is typically below 0.2 mg/L and a smaller contributor than dietary additives ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]).
 
-GI absorption of aluminum is typically less than 1 percent ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]: 0.07-0.39 percent for drinking water, ~0.1 percent for diet), with substantial variation by chemical form (citrate-complexed aluminum is absorbed at higher rates than aluminum hydroxide; co-ingestion with citric acid increases absorption) <!-- UNCITED -->. Inhalation absorption is route-relevant for occupational exposure and some pharmaceutical inhalants <!-- UNCITED -->. Dermal absorption is negligible <!-- UNCITED -->.
+GI absorption of aluminum is typically less than 1 percent ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]: 0.07-0.39 percent for drinking water, ~0.1 percent for diet).
 
 Excretion is primarily renal. Renal failure is the major risk factor for aluminum body-burden accumulation; this is why dialysis-related encephalopathy and osteomalacia were the canonical aluminum disease entities before dialysate-water treatment was implemented ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]).
 
@@ -105,9 +102,7 @@ For an individual consumer: a daily diet without aluminum-additive-heavy process
 ## Testing
 <!-- audience: educator -->
 
-Aluminum measurement in food, water, and biological samples typically uses ICP-MS (detection limits 0.001 to 0.01 µg/L) or ICP-OES (detection limits 0.1 to 1 µg/L). Aluminum is challenging to measure accurately because of widespread contamination from sample-handling materials (aluminum cans, foil, glass with aluminum content); analytical clean-room procedures are required for low-level measurements <!-- UNCITED -->.
-
-Biomonitoring for aluminum exposure typically measures serum or plasma aluminum (operative for dialysis-patient monitoring) or urinary aluminum (recent integrated exposure). Clinical reference values: serum aluminum less than 6 µg/L for normal individuals, less than 20 µg/L for dialysis patients, with action thresholds at 60 to 100 µg/L for dialysis-patient interventions <!-- UNCITED -->.
+Biomonitoring for aluminum exposure typically measures serum or plasma aluminum (operative for dialysis-patient monitoring) or urinary aluminum (recent integrated exposure).
 
 ## Microbiome effects
 <!-- audience: educator -->
