@@ -169,7 +169,12 @@ article {
   color: var(--darkgray);
 }
 
-article h1 {
+/* Quartz renders the main page heading as h1.article-title in
+   .page-header, OUTSIDE the <article> wrapper. We have to match
+   both selectors so per-page h1s and the page-title h1 share
+   the same scale. */
+article h1,
+h1.article-title {
   font-size: var(--text-3xl);
   font-weight: 600;
   line-height: 1.15;
@@ -592,7 +597,13 @@ footer p {
   margin: 0 0 1.5rem;
 }
 
-.hmi-cat-card {
+/* The cards are always rendered as anchors. Targeting the
+   anchor explicitly (`a.hmi-cat-card`) outranks Quartz's base
+   `a.internal` rule (which sets `padding: 0 0.1rem`) and our
+   own `article a` rule. Without this, padding and border-radius
+   silently revert to the inherited internal-link styles. */
+article a.hmi-cat-card,
+a.hmi-cat-card {
   display: block;
   padding: 16px 18px;
   background: var(--light);
@@ -601,19 +612,16 @@ footer p {
   box-shadow: var(--shadow-sm);
   text-decoration: none;
   color: inherit;
+  border-bottom: 1px solid var(--lightgray);
   transition: border-color var(--duration-base) var(--ease-out),
               box-shadow var(--duration-base) var(--ease-out),
               transform var(--duration-base) var(--ease-out);
 }
 
-article a.hmi-cat-card,
-article a.hmi-cat-card:hover {
-  border-bottom: 1px solid var(--lightgray);
-  background: var(--light);
-}
-
-.hmi-cat-card:hover {
+article a.hmi-cat-card:hover,
+a.hmi-cat-card:hover {
   border-color: var(--secondary);
+  background: var(--light);
   box-shadow: var(--shadow-md);
   transform: translateY(-2px);
 }
@@ -660,7 +668,9 @@ article a.hmi-cat-card:hover {
   margin: 0 0 1.5rem;
 }
 
-.hmi-meth-card {
+/* Same anchor-specificity fix as .hmi-cat-card above. */
+article a.hmi-meth-card,
+a.hmi-meth-card {
   display: block;
   padding: 20px 22px;
   background: var(--highlight);
@@ -669,19 +679,16 @@ article a.hmi-cat-card:hover {
   box-shadow: var(--shadow-sm);
   text-decoration: none;
   color: inherit;
+  border-bottom: 1px solid var(--lightgray);
   transition: border-color var(--duration-base) var(--ease-out),
               box-shadow var(--duration-base) var(--ease-out),
               transform var(--duration-base) var(--ease-out);
 }
 
-article a.hmi-meth-card,
-article a.hmi-meth-card:hover {
-  border-bottom: 1px solid var(--lightgray);
-  background: var(--highlight);
-}
-
-.hmi-meth-card:hover {
+article a.hmi-meth-card:hover,
+a.hmi-meth-card:hover {
   border-color: var(--secondary);
+  background: var(--highlight);
   box-shadow: var(--shadow-md);
   transform: translateY(-2px);
 }
