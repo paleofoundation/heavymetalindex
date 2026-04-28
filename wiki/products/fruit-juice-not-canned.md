@@ -17,17 +17,17 @@ cc_relationship:
   partners: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 0
+sources: 1
 ---
 
 # Fruit Juice (Not Canned)
 
-This page is a structural scaffold for HMTc Category 1 row 14. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 14. One broad infant/toddler-food review has been promoted; not-canned juice-specific data are still pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 0 A-tier / 0 B-tier sources.
+- Source coverage: 1 A-tier / 0 B-tier sources.
 - Next ingest target: fruit juice monitoring reports that distinguish the not-canned scope where possible.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -39,7 +39,9 @@ This row is independent in the locked row architecture and has no clean-counterp
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need fruit juice datasets or regulatory monitoring reports before assigning metals of concern or describing relative risk. -->
+A 2022 narrative review states that the few U.S. infant-food-specific heavy-metal guidance exceptions at the time included maximum lead and arsenic levels in certain fruit juices. [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+
+Not-canned fruit juice risk characterization remains pending because the promoted source does not provide not-canned juice concentration distributions for apple or grape juice. <!-- UNCITED: Need fruit juice datasets or regulatory monitoring reports before assigning metals of concern or describing relative risk. -->
 
 ## What Drives Variance Across Brands
 
@@ -57,11 +59,10 @@ The app model placeholder for this row should treat [[ingredients/fruit-juice]],
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need fruit juice-specific FDA, EU, Codex, or other agency sources before adding regulatory crosswalk claims for this row. -->
+Fruit-juice regulatory crosswalk should be populated from primary FDA juice action-level documents rather than from this narrative review alone. <!-- UNCITED: Need primary FDA, EU, Codex, or other agency sources before adding exact fruit-juice regulatory values. -->
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 ## Sources
 
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
-
+- [[sources/bair2022-heavy-metals-infant-toddler-foods]]

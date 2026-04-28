@@ -41,17 +41,17 @@ cc_relationship:
     rationale: "Non-fish baby foods constitute the clean reference distribution for MeHg in Category 1; fish-containing baby foods diverge from this distribution because of bioaccumulation, which is the contamination platform being characterized."
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 0
+sources: 1
 ---
 
 # Fish-Containing Baby Foods
 
-This page is a structural scaffold for HMTc Category 1 row 11. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 11. One broad baby-food scoping review has been promoted; methylmercury-specific baby-food sources are still pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 0 A-tier / 0 B-tier sources.
+- Source coverage: 1 A-tier / 0 B-tier sources.
 - Next ingest target: fish-containing baby-food or fish ingredient datasets for [[metals/mercury-methyl|MeHg]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -63,11 +63,15 @@ This row uses an aggregate non-fish Category 1 reference relationship in the row
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need fish-containing baby-food datasets, or clearly labeled fish ingredient datasets, before describing MeHg risk. -->
+A 2025 global scoping review found that fish/fish-mix baby foods had the highest median arsenic concentration among baby-food groups in the review at 0.165 mg/kg and the highest median mercury concentration at 0.016 mg/kg; Hg was detected in 100% of fish/fish-mix items in that review's baby-food grouping. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
+MeHg-specific risk characterization remains pending because the promoted source reports Hg at the grouped review level rather than a full methylmercury speciation profile for fish-containing baby foods. <!-- UNCITED: Need fish-containing baby-food datasets, or clearly labeled fish ingredient datasets, that distinguish [[metals/mercury-methyl|MeHg]] from total mercury. -->
 
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
+
+The promoted scoping review supports fish/fish-mix products as a priority group for Hg and As, but it does not resolve fish species, formulation share, or mercury speciation. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 
 Potential variance drivers for fish-containing baby foods should be documented only after sources distinguish fish species, serving form, formulation share, sourcing, processing, and analytical method. <!-- UNCITED: Need fish baby-food or fish ingredient sources that report MeHg or tHg concentrations and methods such as [[testing/icp-ms]] or mercury speciation. -->
 
@@ -87,5 +91,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
-
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]

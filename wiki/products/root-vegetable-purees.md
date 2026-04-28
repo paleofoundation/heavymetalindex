@@ -22,17 +22,17 @@ cc_relationship:
       notes: "Cross-row CC: clean counterpart lives in row 8, not as a sibling within a vegetable-purees base split."
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 0
+sources: 3
 ---
 
 # Root-Vegetable Purees
 
-This page is a structural scaffold for HMTc Category 1 row 9. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 9. Three broad Category 1 sources have been promoted; puree-specific concentration distributions are still pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 0 A-tier / 0 B-tier sources.
+- Source coverage: 3 A-tier / 0 B-tier sources.
 - Next ingest target: root-vegetable puree datasets for [[metals/cadmium|Cd]] and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -44,11 +44,15 @@ This row is the contamination-platform counterpart to [[products/non-root-vegeta
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need root-vegetable puree datasets or ingredient-level root-vegetable sources before describing Cd or Pb risk. -->
+A 2022 narrative review summarized Parker et al. 2022 as finding arsenic in 100% of root-vegetable baby-food samples, lead in 88%, and cadmium in 67%; the same review reported that Parker et al. found non-cancer lead risk in grain, fruit, and root-vegetable products under that study's exposure assumptions. [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+
+A 2025 scoping review reported that Pb was detected in 97% of roots-and-tubers baby-food items and that roots/tubers had a median Pb concentration of 0.007 mg/kg among detected items. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
+
+The current promoted sources support root/tuber concern at a broad baby-food category level, but they do not yet separate carrot, sweet potato, beet, puree processing, or brand formulation. [[sources/bair2022-heavy-metals-infant-toddler-foods]] [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 
 Potential variance drivers for root-vegetable purees should be documented only after sources distinguish root vegetable type, growing region, soil contribution, processing, and analytical method. <!-- UNCITED: Need puree or ingredient-level root vegetable sources that report metal concentrations and methods such as [[testing/icp-ms]]. -->
 
@@ -62,11 +66,12 @@ The app model placeholder for this row should treat [[ingredients/root-vegetable
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need root-vegetable puree-specific FDA, EU, Codex, or other agency sources before adding regulatory crosswalk claims for this row. -->
+FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, included 20 ppb for root vegetables and dry infant cereals, and FDA estimated a reduction in 90th-percentile dietary lead intake for fruits, root vegetables, and dry infant cereal combined if those action levels were implemented. [[sources/price2023-baby-food-lead-biokinetic-models]]
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 ## Sources
 
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
-
+- [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+- [[sources/price2023-baby-food-lead-biokinetic-models]]

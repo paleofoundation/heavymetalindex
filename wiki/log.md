@@ -7,6 +7,12 @@ updated: 2026-04-24
 
 This page is an append-only log of substantive changes to the Heavy Metal Index. Each entry names the operation, the handle or citekey involved, and a short note on what changed. Git commit history is the authoritative record; this log is a human-readable index over it.
 
+## [2026-04-28] ingest | category-1-source-promotion-batch-1 — First promoted infant-food sources
+
+Pages touched: [[sources/collado-lopez2025-heavy-metals-baby-food-formula]], [[sources/bair2022-heavy-metals-infant-toddler-foods]], [[sources/price2023-baby-food-lead-biokinetic-models]], [[sources/index]], [[products/infant-formula-powder-non-soy]], [[products/infant-formula-powder-soy-based]], [[products/infant-formula-rtf-liquid-non-soy]], [[products/infant-formula-rtf-liquid-soy-based]], [[products/baby-cereals-dry-non-rice]], [[products/baby-cereals-dry-rice-based]], [[products/fruit-purees]], [[products/non-root-vegetable-purees]], [[products/root-vegetable-purees]], [[products/fish-containing-baby-foods]], [[products/mixed-meals-rice-containing]], [[products/fruit-juice-not-canned]], [[products/teething-and-snacks-rice-based]]
+
+Notes: Promoted three A-tier source notes from the converted `raw/markdown` corpus and used them to populate only source-supported claims on Category 1 product stubs. Kept powder-vs-ready-to-feed, puree-specific, snack-specific, and row-specific concentration gaps marked with `<!-- UNCITED -->` where the promoted sources do not resolve the exact row. No HMTc threshold claims, certified-brand claims, or brand rankings were added.
+
 ## [2026-04-28] ingest | category-1-products-scaffold — HMTc Category 1 product scaffolds
 
 Pages touched: [[lint/2026-04-27-category-1-coverage-matrix]], [[products/index]], [[products/infant-formula-powder-non-soy]], [[products/infant-formula-powder-soy-based]], [[products/infant-formula-rtf-liquid-non-soy]], [[products/infant-formula-rtf-liquid-soy-based]], [[products/baby-cereals-dry-non-rice]], [[products/baby-cereals-dry-rice-based]], [[products/fruit-purees]], [[products/non-root-vegetable-purees]], [[products/root-vegetable-purees]], [[products/meat-and-poultry-purees]], [[products/fish-containing-baby-foods]], [[products/mixed-meals-non-rice]], [[products/mixed-meals-rice-containing]], [[products/fruit-juice-not-canned]], [[products/teething-and-snacks-non-rice]], [[products/teething-and-snacks-rice-based]]

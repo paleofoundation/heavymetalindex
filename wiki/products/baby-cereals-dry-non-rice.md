@@ -20,17 +20,17 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 0
+sources: 3
 ---
 
 # Baby Cereals / Grain Products, Dry (Non-Rice)
 
-This page is a structural scaffold for HMTc Category 1 row 5. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 5. Broad cereal and infant-food sources have been promoted; non-rice cereal-specific distributions are still pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 0 A-tier / 0 B-tier sources.
+- Source coverage: 3 A-tier / 0 B-tier sources.
 - Next ingest target: infant cereal datasets for non-rice dry grain products, especially [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -42,11 +42,15 @@ This row is the clean-benchmark counterpart to [[products/baby-cereals-dry-rice-
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need infant cereal or dry grain-product datasets that distinguish non-rice products and report measured concentrations for iAs, Cd, and Pb. -->
+A 2025 scoping review reported that cereals had the highest median Cd concentration among baby-food groups in the review at 0.013 mg/kg, and 17% of detected cereal items exceeded the Cd maximum level used by the authors. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
+Non-rice-specific risk remains unresolved because the promoted review's cereal grouping is broader than this row and may include products not cleanly separable by grain type. <!-- UNCITED: Need infant cereal or dry grain-product datasets that distinguish non-rice products and report measured concentrations for iAs, Cd, and Pb. -->
 
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
+
+The promoted sources support cereal-level monitoring but do not yet distinguish oat, wheat, corn, quinoa, multigrain, fortification premix, or non-rice-only products. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 
 Potential variance drivers for non-rice dry baby cereals should be documented only after sources distinguish grain type, fortification, sourcing geography, processing, and analytical method. <!-- UNCITED: Need comparative infant cereal sources that separate non-rice grain products from rice-based products and report methods such as [[testing/icp-ms]]. -->
 
@@ -60,11 +64,12 @@ The app model placeholder for this row should treat [[ingredients/baby-cereals-d
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need infant cereal-specific FDA, EU, Codex, or other agency sources before adding regulatory crosswalk claims for this row. -->
+FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, included 20 ppb for dry infant cereals. [[sources/price2023-baby-food-lead-biokinetic-models]]
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 ## Sources
 
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
-
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+- [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+- [[sources/price2023-baby-food-lead-biokinetic-models]]

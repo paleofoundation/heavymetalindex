@@ -16,17 +16,17 @@ cc_relationship:
   partners: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 0
+sources: 2
 ---
 
 # Fruit Purees
 
-This page is a structural scaffold for HMTc Category 1 row 7. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 7. Broad baby-food sources have been promoted; fruit-puree-specific distributions are still pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 0 A-tier / 0 B-tier sources.
+- Source coverage: 2 A-tier / 0 B-tier sources.
 - Next ingest target: fruit puree concentration datasets across the Category 1 metal panel.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -38,11 +38,15 @@ This row is independent in the locked row architecture and has no clean-counterp
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need fruit puree datasets or regulatory monitoring reports before assigning metals of concern or describing relative risk. -->
+A 2022 narrative review summarized Parker et al. 2022 as finding arsenic in 67% of fruit baby-food samples, lead in 33%, and cadmium in 33%; the same summary reported non-cancer lead risk in grain, fruit, and root-vegetable products under Parker et al.'s exposure assumptions. [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+
+Fruit-puree-specific relative risk remains unresolved because the promoted sources either summarize fruit samples broadly or combine fruits with vegetables. <!-- UNCITED: Need fruit puree datasets or regulatory monitoring reports before assigning row-specific metals of concern. -->
 
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
+
+The current sources support broad fruit baby-food coverage, but they do not distinguish apple, pear, peach, banana, orchard geography, puree processing, packaging, or finished-product versus ingredient testing. [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 
 Potential variance drivers for fruit purees should be documented only after sources distinguish fruit type, growing region, processing, packaging, and analytical method. <!-- UNCITED: Need product-category or ingredient-level sources that report fruit puree metal concentrations and methods such as [[testing/icp-ms]]. -->
 
@@ -56,11 +60,11 @@ The app model placeholder for this row should treat [[ingredients/fruit-purees]]
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need fruit puree-specific FDA, EU, Codex, or other agency sources before adding regulatory crosswalk claims for this row. -->
+FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, included 10 ppb for fruits and vegetables. [[sources/price2023-baby-food-lead-biokinetic-models]]
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 ## Sources
 
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
-
+- [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+- [[sources/price2023-baby-food-lead-biokinetic-models]]

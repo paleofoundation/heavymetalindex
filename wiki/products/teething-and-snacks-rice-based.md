@@ -21,17 +21,17 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 0
+sources: 2
 ---
 
 # Teething & Snacks (Rice-Based)
 
-This page is a structural scaffold for HMTc Category 1 row 16. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 16. Broad rice/rice-mix baby-food sources have been promoted; teething/snack-specific datasets are still pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 0 A-tier / 0 B-tier sources.
+- Source coverage: 2 A-tier / 0 B-tier sources.
 - Next ingest target: teething-food and snack datasets for rice-based products, especially [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -43,11 +43,15 @@ This row is the contamination-platform counterpart to [[products/teething-and-sn
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need teething-food and snack datasets that distinguish rice-based products and report measured concentrations for iAs, Cd, and Pb. -->
+A 2025 scoping review reported that rice/rice-mix baby foods had median Pb of 0.008 mg/kg and median As of 0.048 mg/kg among detected items, with 31% of detected rice/rice-mix items exceeding the Pb maximum level used by the authors and 30% exceeding the As maximum level. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
+A 2022 narrative review identifies rice-based weaning products as an arsenic concern and cites evidence of increased infant urinary inorganic arsenic metabolites after weaning with rice products. [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
+
+The current promoted sources support rice/rice-mix concern, but they do not resolve teething-food format, puff processing, rice ingredient form, or serving pattern. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 
 Potential variance drivers for rice-based teething foods and snacks should be documented only after sources distinguish rice ingredient form, snack format, processing, sourcing geography, and analytical method. <!-- UNCITED: Need snack or teething-food sources that separate rice-based from non-rice products and report methods such as [[testing/icp-ms]] and arsenic speciation. -->
 
@@ -67,5 +71,5 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
-
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+- [[sources/bair2022-heavy-metals-infant-toddler-foods]]

@@ -21,17 +21,17 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 0
+sources: 3
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)
 
-This page is a structural scaffold for HMTc Category 1 row 6. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 6. Three broad Category 1 sources have been promoted; dry rice-cereal-specific distributions and arsenic speciation detail remain pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 0 A-tier / 0 B-tier sources.
+- Source coverage: 3 A-tier / 0 B-tier sources.
 - Next ingest target: infant cereal datasets for rice-based dry grain products, especially [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -43,11 +43,15 @@ This row is the contamination-platform counterpart to [[products/baby-cereals-dr
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need infant cereal or dry grain-product datasets that distinguish rice-based products and report measured concentrations for iAs, Cd, and Pb. -->
+A 2025 scoping review reported that rice/rice-mix baby foods had median Pb of 0.008 mg/kg and median As of 0.048 mg/kg among detected items; 31% of detected rice/rice-mix items exceeded the Pb maximum level used by the authors and 30% exceeded the As maximum level. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
+A 2022 narrative review describes rice as a key infant-food concern and cites evidence that infant urinary inorganic arsenic metabolites increased 4.5-fold after weaning with rice products. [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
+
+The current promoted sources support rice/rice-mix concern, but they do not yet distinguish rice flour, rice cereal, rice puffs, rice origin, or arsenic speciation for this exact dry-cereal row. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 
 Potential variance drivers for rice-based dry baby cereals should be documented only after sources distinguish rice ingredient form, sourcing geography, processing, fortification, and analytical method. <!-- UNCITED: Need comparative infant cereal sources that separate rice-based products from non-rice products and report methods such as [[testing/icp-ms]] and arsenic speciation. -->
 
@@ -61,11 +65,12 @@ The app model placeholder for this row should treat [[ingredients/baby-cereals-d
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need infant cereal-specific FDA, EU, Codex, or other agency sources before adding regulatory crosswalk claims for this row. -->
+FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, included 20 ppb for dry infant cereals. [[sources/price2023-baby-food-lead-biokinetic-models]]
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 ## Sources
 
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
-
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+- [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+- [[sources/price2023-baby-food-lead-biokinetic-models]]

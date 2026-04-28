@@ -20,17 +20,17 @@ cc_relationship:
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 0
+sources: 1
 ---
 
 # Infant Formula, RTF Liquid (Non-Soy)
 
-This page is a structural scaffold for HMTc Category 1 row 3. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 3. One broad infant-formula source has been promoted; ready-to-feed-specific and Al/Ni-specific evidence is still pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 0 A-tier / 0 B-tier sources.
+- Source coverage: 1 A-tier / 0 B-tier sources.
 - Next ingest target: formula-specific [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]] data for non-soy ready-to-feed liquid infant formula.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -42,11 +42,15 @@ This row is the clean-benchmark counterpart to [[products/infant-formula-rtf-liq
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need formula-specific A-tier or B-tier sources for non-soy ready-to-feed liquid infant formula, including measured concentrations for [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]]. -->
+A 2025 global scoping review of baby foods and infant formulas reported heavy-metal detections in 63% of evaluated infant-formula determinations; in its primary-protein-source subgrouping, Pb was detected in 73% of cow-based formula items and Cd in 44% of cow-based formula items. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
+Ready-to-feed-specific risk characterization for [[metals/aluminum|Al]] and [[metals/nickel|Ni]] remains pending. <!-- UNCITED: Need non-soy ready-to-feed liquid infant formula sources that measure Al and Ni and distinguish ready-to-feed liquid from powder. -->
 
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
+
+The promoted formula scoping review separates cow-based, soy-based, specialty, and nonspecified formulas, but it does not resolve powder-versus-ready-to-feed differences for this row. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 
 Potential variance drivers for non-soy ready-to-feed formula should be documented only after sources distinguish formulation, water inputs, processing equipment, packaging, and analytical method. <!-- UNCITED: Need comparative infant-formula sources that separate ready-to-feed liquid formula from powdered formula and report methods such as [[testing/icp-ms]]. -->
 
@@ -66,4 +70,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
