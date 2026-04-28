@@ -48,8 +48,8 @@ contamination_profile:
     last_reviewed: null
 drivers: [soil-uptake, flooded-paddy, geography, cultivar, processing]
 lower_risk_variants: []
-higher_risk_variants: [brown-rice, rice-bran, rice-protein-concentrate]
-used_in_products: [infant-rice-cereal, rice-milk, gluten-free-baking, protein-powder, crackers, puffed-rice-snacks]
+higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
+used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---
