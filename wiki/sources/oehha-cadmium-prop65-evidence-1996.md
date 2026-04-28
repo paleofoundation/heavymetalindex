@@ -14,7 +14,7 @@ access_date: 2026-04-24
 access_url: https://oehha.ca.gov/proposition-65/crnr/cadmium-causing-reproductive-toxicity
 license: us-government-work
 metals: [Cd]
-ingredients: [potatoes, root-vegetables, leafy-vegetables, fruits]
+ingredients: ["[[ingredients/potatoes]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/fruits]]"]
 products: []
 jurisdictions: [US-CA]
 superseded_by: null

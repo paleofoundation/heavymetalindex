@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/day
 status: in-force
 effective_date: 1995-05-01
 sunset_date: null
-source_refs: [epa-iris-mercuric-chloride]
+source_refs: ["[[sources/epa-iris-mercuric-chloride]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

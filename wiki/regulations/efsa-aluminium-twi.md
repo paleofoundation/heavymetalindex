@@ -11,7 +11,7 @@ limit_unit: mg/kg-bw/week
 status: in-force
 effective_date: 2008-05-22
 sunset_date: null
-source_refs: [efsa-aluminium-afc-2008]
+source_refs: ["[[sources/efsa-aluminium-afc-2008]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

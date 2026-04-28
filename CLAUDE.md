@@ -195,7 +195,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_3750310/FM_3750310.md
 metals: [Cd]
-ingredients: [rice, vegetables, seafood, tobacco]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/seafood]]", "[[ingredients/tobacco]]"]
 products: []
 matrices: [dietary-intake, urine, blood]
 jurisdictions: [CN]
@@ -241,7 +241,7 @@ name: Lead
 species: [Pb2+, tetraethyl-lead]
 audience: [regulator, educator, consumer]
 microbiome_relevance: high
-wikibiome_crosswalk: [gut-lead-axis, lead-dysbiosis]
+wikibiome_crosswalk: ["[[microbiome/gut-lead-axis]]", "[[microbiome/lead-dysbiosis]]"]
 updated: 2026-04-22
 sources: 0                                # bump on every ingest that touches this page
 ---
@@ -293,9 +293,9 @@ contamination_profile:
     last_reviewed: null
     last_full_resynthesis: null
 drivers: [soil-uptake, flooded-paddy, geography, cultivar, processing]
-lower_risk_variants: [basmati-india, california-rice]
-higher_risk_variants: [brown-rice, rice-bran, rice-protein-concentrate]
-used_in_products: [infant-cereal, rice-milk, gluten-free-baking, protein-powder, crackers]
+lower_risk_variants: ["[[ingredients/basmati-india]]", "[[ingredients/california-rice]]"]
+higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
+used_in_products: ["[[products/infant-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-22
 ---
@@ -360,7 +360,7 @@ limit_unit: ppb
 status: finalized                         # proposed | draft-guidance | finalized | enforced
 effective_date: 2023-08-01
 sunset_date: null
-source_refs: [fda2023-ctz-guidance]
+source_refs: ["[[sources/fda2023-ctz-guidance]]"]
 updated: 2026-04-22
 ---
 ```
@@ -623,7 +623,11 @@ Dates: ISO-8601 (YYYY-MM-DD) everywhere.
 
 Cite keys: `<firstauthor><year>-<slug>`, lowercase, hyphenated. One cite key per source, globally unique. Disambiguate collisions with `-a`, `-b`, etc.
 
-Links: Use Obsidian wikilinks `[[path/page]]`. Prefer linking to canonical pages over duplicating content.
+Links: Use Obsidian wikilinks `[[folder/slug]]` to cross-link wiki pages, and prefer linking to canonical pages over duplicating content. In page bodies, write the wikilink bare: `[[ingredients/rice]]`.
+
+Frontmatter wikilinks: Page-reference arrays in frontmatter use the quoted-wikilink form `["[[folder/slug]]", "[[folder/slug]]"]`. The quoting is required because YAML reserves `[` as a flow-sequence delimiter; without quotes, the `[[` is parsed as a nested empty list. Wrapping page-reference arrays as wikilinks is what makes Obsidian's graph view surface relationships sourced from frontmatter (graph edges fan out to roughly 600 nodes across the corpus once this convention is applied). The page-reference fields are: `source_refs` → `[[sources/...]]`, `ingredients` → `[[ingredients/...]]`, `products` → `[[products/...]]`, `used_in_products` → `[[products/...]]`, `higher_risk_variants` → `[[ingredients/...]]`, `lower_risk_variants` → `[[ingredients/...]]`, `wikibiome_crosswalk` → `[[microbiome/...]]`. All other frontmatter array fields stay bare; they are tag/classifier vocabularies (for example `metals`, `jurisdictions`, `audience`, `species`, `drivers`, `aliases`, `mechanism`, `disease_links`, `matrices`, `applicable_regulations`, `typical_ingredients`, `near_duplicates`), not page references, and wrapping them would create spurious or duplicate graph edges.
+
+Unresolved-target wikilinks (frontmatter or body wikilinks pointing to pages that do not yet exist in the wiki) are intentional backlog markers, not lint errors. They render as dotted nodes in Obsidian's graph and indicate where the wiki is expected to grow next; lint should not flag them as broken cross-references on the basis of frontmatter alone.
 
 Numbers: Always include sample size and method when citing a concentration. "Rice has high arsenic" is not a wiki-quality claim; "FDA TDS 2014 found mean iAs of 92 ppb (n=76) in white rice by ICP-MS with HPLC speciation" is. Verify every numeric claim against the source before writing it. Do not round, approximate, or harmonize values across sources; preserve the actual numbers.
 

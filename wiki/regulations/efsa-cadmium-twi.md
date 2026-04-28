@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/week
 status: in-force
 effective_date: 2009-01-30
 sunset_date: null
-source_refs: [efsa-cadmium-contam-2009]
+source_refs: ["[[sources/efsa-cadmium-contam-2009]]"]
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

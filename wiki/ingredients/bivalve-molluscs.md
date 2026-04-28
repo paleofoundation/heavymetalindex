@@ -48,8 +48,8 @@ contamination_profile:
     last_reviewed: null
 drivers: [filter-feeding, marine-water-cadmium, bioaccumulation, species, harvest-region]
 lower_risk_variants: []
-higher_risk_variants: [wild-harvested-near-estuaries, older-specimens]
-used_in_products: [clam-chowder, frozen-shellfish-mixes, prepared-seafood, shellfish-sauces, seafood-supplements]
+higher_risk_variants: ["[[ingredients/wild-harvested-near-estuaries]]", "[[ingredients/older-specimens]]"]
+used_in_products: ["[[products/clam-chowder]]", "[[products/frozen-shellfish-mixes]]", "[[products/prepared-seafood]]", "[[products/shellfish-sauces]]", "[[products/seafood-supplements]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

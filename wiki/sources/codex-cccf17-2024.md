@@ -14,7 +14,7 @@ access_date: 2026-04-24
 access_url: https://www.fao.org/fao-who-codexalimentarius/meetings/detail/en/?meeting=CCCF&session=17
 license: public-reference-only
 metals: [Pb, Cd, Hg, MeHg, iAs, tAs]
-ingredients: [quinoa, spices, peanuts, cocoa-beans, chilli, paprika, nutmeg, cereals, rice, vegetables, fish, seafood]
+ingredients: ["[[ingredients/quinoa]]", "[[ingredients/spices]]", "[[ingredients/peanuts]]", "[[ingredients/cocoa-beans]]", "[[ingredients/chilli]]", "[[ingredients/paprika]]", "[[ingredients/nutmeg]]", "[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

@@ -48,8 +48,8 @@ contamination_profile:
     last_reviewed: null
 drivers: [bioaccumulation-in-target-organ, animal-age, species, feed-cadmium]
 lower_risk_variants: []
-higher_risk_variants: [older-animal-organ-meat, horsemeat-offal]
-used_in_products: [pate, sausages, organ-meat-pies, liver-based-baby-food, nutritional-supplements, pet-food]
+higher_risk_variants: ["[[ingredients/older-animal-organ-meat]]", "[[ingredients/horsemeat-offal]]"]
+used_in_products: ["[[products/pate]]", "[[products/sausages]]", "[[products/organ-meat-pies]]", "[[products/liver-based-baby-food]]", "[[products/nutritional-supplements]]", "[[products/pet-food]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

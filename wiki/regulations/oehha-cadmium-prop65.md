@@ -11,7 +11,7 @@ limit_unit: µg/day-oral
 status: in-force
 effective_date: 1997-05-01
 sunset_date: null
-source_refs: [oehha-cadmium-prop65-evidence-1996, oehha-cadmium-prop65-madl-2001]
+source_refs: ["[[sources/oehha-cadmium-prop65-evidence-1996]]", "[[sources/oehha-cadmium-prop65-madl-2001]]"]
 updated: 2026-04-24
 audience: [regulator, educator, consumer]
 ---

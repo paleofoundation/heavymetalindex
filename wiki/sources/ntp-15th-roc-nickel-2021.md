@@ -15,7 +15,7 @@ access_url: https://www.ncbi.nlm.nih.gov/books/NBK590823/
 license: us-government-work
 metals: [Ni]
 ingredients: []
-products: [stainless-steel, nickel-alloys, batteries, pigments, ceramics, catalysts]
+products: ["[[products/stainless-steel]]", "[[products/nickel-alloys]]", "[[products/batteries]]", "[[products/pigments]]", "[[products/ceramics]]", "[[products/catalysts]]"]
 jurisdictions: [US]
 superseded_by: null
 updated: 2026-04-25

@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/week
 status: in-force
 effective_date: 2012-12-01
 sunset_date: null
-source_refs: [efsa-mercury-methylmercury-2012]
+source_refs: ["[[sources/efsa-mercury-methylmercury-2012]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/week
 status: withdrawn
 effective_date: 2010-06-01
 sunset_date: null
-source_refs: [jecfa-72nd-lead-2010]
+source_refs: ["[[sources/jecfa-72nd-lead-2010]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

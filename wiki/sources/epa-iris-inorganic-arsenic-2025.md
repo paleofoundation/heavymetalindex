@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.epa.gov/iris
 license: us-government-work
 metals: [iAs]
-ingredients: [drinking-water, rice]
+ingredients: ["[[ingredients/drinking-water]]", "[[ingredients/rice]]"]
 products: []
 jurisdictions: [US]
 superseded_by: null

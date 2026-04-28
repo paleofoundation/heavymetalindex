@@ -11,7 +11,7 @@ limit_unit: mg/kg
 status: partial-ingest
 effective_date: null
 sunset_date: null
-source_refs: [codex-cccf17-2024]
+source_refs: ["[[sources/codex-cccf17-2024]]"]
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

@@ -11,7 +11,7 @@ limit_unit: BMDL01
 status: in-force-no-threshold
 effective_date: 2009-10-01
 sunset_date: null
-source_refs: [efsa-arsenic-contam-2009]
+source_refs: ["[[sources/efsa-arsenic-contam-2009]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

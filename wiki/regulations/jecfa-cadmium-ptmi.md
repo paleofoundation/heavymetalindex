@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/month
 status: in-force
 effective_date: 2010-06-01
 sunset_date: null
-source_refs: [jecfa-91st-cadmium-2022]
+source_refs: ["[[sources/jecfa-91st-cadmium-2022]]"]
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

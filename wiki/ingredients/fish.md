@@ -47,9 +47,9 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
 drivers: [trophic-level, methylmercury-biomagnification, species, harvest-region, fish-age-and-size]
-lower_risk_variants: [salmon, sardines, anchovies, herring, tilapia, trout, light-canned-tuna]
-higher_risk_variants: [swordfish, shark, king-mackerel, tilefish, bigeye-tuna, marlin, orange-roughy]
-used_in_products: [fresh-fish, frozen-fish, canned-tuna, canned-salmon, canned-sardines, fish-oil-supplements, prepared-seafood, surimi, fish-sauce]
+lower_risk_variants: ["[[ingredients/salmon]]", "[[ingredients/sardines]]", "[[ingredients/anchovies]]", "[[ingredients/herring]]", "[[ingredients/tilapia]]", "[[ingredients/trout]]", "[[ingredients/light-canned-tuna]]"]
+higher_risk_variants: ["[[ingredients/swordfish]]", "[[ingredients/shark]]", "[[ingredients/king-mackerel]]", "[[ingredients/tilefish]]", "[[ingredients/bigeye-tuna]]", "[[ingredients/marlin]]", "[[ingredients/orange-roughy]]"]
+used_in_products: ["[[products/fresh-fish]]", "[[products/frozen-fish]]", "[[products/canned-tuna]]", "[[products/canned-salmon]]", "[[products/canned-sardines]]", "[[products/fish-oil-supplements]]", "[[products/prepared-seafood]]", "[[products/surimi]]", "[[products/fish-sauce]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-26
 ---

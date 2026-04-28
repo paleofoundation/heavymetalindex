@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/day
 status: in-force
 effective_date: 2020-09-24
 sunset_date: null
-source_refs: [efsa-nickel-contam-2020]
+source_refs: ["[[sources/efsa-nickel-contam-2020]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

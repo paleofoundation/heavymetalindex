@@ -14,8 +14,8 @@ access_date: 2026-04-24
 access_url: https://apps.who.int/iris/handle/10665/351083
 license: CC-BY-NC-SA-3.0-IGO
 metals: [Cd]
-ingredients: [rice, wheat, root-vegetables, tuber-vegetables, leafy-vegetables, molluscs, seafood, meat, offal, cocoa, chocolate, cocoa-powder]
-products: [chocolate, cocoa-beverages, cocoa-powder]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/root-vegetables]]", "[[ingredients/tuber-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/molluscs]]", "[[ingredients/seafood]]", "[[ingredients/meat]]", "[[ingredients/offal]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/cocoa-powder]]"]
+products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[products/cocoa-powder]]"]
 jurisdictions: [international]
 superseded_by: null
 updated: 2026-04-24

@@ -47,9 +47,9 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
 drivers: [soil-uptake, tuber-formation-in-soil, geography, peel-versus-flesh]
-lower_risk_variants: [peeled-potato, potato-starch]
-higher_risk_variants: [unpeeled-potato, potato-skin, potato-peel-heavy-products]
-used_in_products: [baby-food-vegetables, french-fries, potato-chips, mashed-potato-products, potato-starch-containing-baked-goods]
+lower_risk_variants: ["[[ingredients/peeled-potato]]", "[[ingredients/potato-starch]]"]
+higher_risk_variants: ["[[ingredients/unpeeled-potato]]", "[[ingredients/potato-skin]]", "[[ingredients/potato-peel-heavy-products]]"]
+used_in_products: ["[[products/baby-food-vegetables]]", "[[products/french-fries]]", "[[products/potato-chips]]", "[[products/mashed-potato-products]]", "[[products/potato-starch-containing-baked-goods]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

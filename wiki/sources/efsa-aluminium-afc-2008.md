@@ -14,8 +14,8 @@ access_date: 2026-04-25
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/754
 license: public-reference-only
 metals: [Al]
-ingredients: [drinking-water, processed-foods, infant-formula]
-products: [food-additives, antacids, processed-cheese]
+ingredients: ["[[ingredients/drinking-water]]", "[[ingredients/processed-foods]]", "[[ingredients/infant-formula]]"]
+products: ["[[products/food-additives]]", "[[products/antacids]]", "[[products/processed-cheese]]"]
 jurisdictions: [EU]
 superseded_by: null
 updated: 2026-04-25

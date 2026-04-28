@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/day-food
 status: in-force
 effective_date: 1989-10-01
 sunset_date: null
-source_refs: [epa-iris-cadmium-1989]
+source_refs: ["[[sources/epa-iris-cadmium-1989]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

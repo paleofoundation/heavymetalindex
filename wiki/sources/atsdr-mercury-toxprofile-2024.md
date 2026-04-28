@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf
 license: us-government-work
 metals: [Hg, MeHg, tHg]
-ingredients: [fish, seafood, dental-amalgam]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/dental-amalgam]]"]
 products: []
 jurisdictions: [US]
 superseded_by: null

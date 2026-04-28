@@ -11,7 +11,7 @@ limit_unit: ppb
 status: in-force
 effective_date: 2006-01-23
 sunset_date: null
-source_refs: [epa-arsenic-drinking-water-mcl]
+source_refs: ["[[sources/epa-arsenic-drinking-water-mcl]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

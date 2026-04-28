@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.fda.gov/food/total-diet-study/analytical-results-total-diet-study
 license: us-government-work
 metals: [Cd, Pb, Hg, MeHg, iAs, tAs, Ni, Al, Cu, Fe, Zn, Mn, Mo, Cr]
-ingredients: [rice, fruits, vegetables, dairy, meat, fish, infant-foods, baby-food]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/fruits]]", "[[ingredients/vegetables]]", "[[ingredients/dairy]]", "[[ingredients/meat]]", "[[ingredients/fish]]", "[[ingredients/infant-foods]]", "[[ingredients/baby-food]]"]
 products: []
 jurisdictions: [US]
 superseded_by: null

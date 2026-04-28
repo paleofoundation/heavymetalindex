@@ -14,8 +14,8 @@ access_date: 2026-04-24
 access_url: https://accesspharmacy.mhmedical.com/book.aspx?bookid=2964
 license: copyright-licensed-private
 metals: [As, Cd, Cr, Pb, Hg, Ni, Co, Cu, Fe, Mg]
-ingredients: [shellfish, seafood, vegetables, rice]
-products: [nickel-cadmium-batteries, paint-pigments, plastics]
+ingredients: ["[[ingredients/shellfish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/rice]]"]
+products: ["[[products/nickel-cadmium-batteries]]", "[[products/paint-pigments]]", "[[products/plastics]]"]
 jurisdictions: [US, international]
 superseded_by: null
 updated: 2026-04-24

@@ -47,9 +47,9 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
 drivers: [soil-substrate-cadmium, species-efficient-accumulator, wild-harvest-vs-cultivated, mycelium-surface-area]
-lower_risk_variants: [cultivated-button-mushrooms, cultivated-portobello]
-higher_risk_variants: [wild-porcini, wild-chanterelle, boletus-species, dried-wild-mushroom, mushroom-extract-supplements]
-used_in_products: [dried-mushroom, mushroom-powder, mushroom-supplements, mushroom-sauces, pates, foraged-mushroom-products]
+lower_risk_variants: ["[[ingredients/cultivated-button-mushrooms]]", "[[ingredients/cultivated-portobello]]"]
+higher_risk_variants: ["[[ingredients/wild-porcini]]", "[[ingredients/wild-chanterelle]]", "[[ingredients/boletus-species]]", "[[ingredients/dried-wild-mushroom]]", "[[ingredients/mushroom-extract-supplements]]"]
+used_in_products: ["[[products/dried-mushroom]]", "[[products/mushroom-powder]]", "[[products/mushroom-supplements]]", "[[products/mushroom-sauces]]", "[[products/pates]]", "[[products/foraged-mushroom-products]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

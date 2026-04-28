@@ -11,7 +11,7 @@ limit_unit: multiple
 status: in-force
 effective_date: null
 sunset_date: null
-source_refs: [oehha-lead-prop65-listing]
+source_refs: ["[[sources/oehha-lead-prop65-listing]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
