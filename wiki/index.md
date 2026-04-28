@@ -77,7 +77,7 @@ Every page links to the primary sources it draws on, and every source page summa
 
 ## Current status
 
-The Heavy Metal Index is under active development. As of April 2026, the corpus extraction is in progress and ingest into the wiki is partial. The metals layer carries six metal pages with cited synthesis (cadmium ingest deepest, others scaled to match). Regulations and sources layers are populated; ingredients are stubbed for the next ingest wave; products, testing, health, microbiome, and supply chain are at folder-stub status.
+The Heavy Metal Index is under active development. As of April 2026, the corpus extraction is in progress and ingest into the wiki is partial. The metals layer carries six metal pages with cited synthesis (cadmium ingest deepest, others scaled to match). Regulations and sources layers are populated; ingredients are stubbed for the next ingest wave; Category 1 infant and child food product pages are scaffolded; testing, health, microbiome, and supply chain are at folder-stub status.
 
 An append-only record of ingest, query, lint, and schema events is maintained at [log](log/).
 
@@ -122,7 +122,25 @@ Top cadmium-accumulating commodities stubbed for the next ingest wave. Each page
 
 ### Product categories
 
-_None yet._
+Infant and child foods (HMTc Category 1, ages 0-5) are scaffolded from the locked expanded subcategory list. Several pages now carry first-pass source-backed claims; row-specific gaps remain marked with inline `<!-- UNCITED -->` comments.
+
+- [[products/index]] — product-category index for Infant and Child Foods Category 1.
+- [[products/infant-formula-powder-non-soy]] — infant formula, powder, non-soy (row 1; 1 source).
+- [[products/infant-formula-powder-soy-based]] — infant formula, powder, soy-based (row 2; 1 source).
+- [[products/infant-formula-rtf-liquid-non-soy]] — infant formula, ready-to-feed liquid, non-soy (row 3; 1 source).
+- [[products/infant-formula-rtf-liquid-soy-based]] — infant formula, ready-to-feed liquid, soy-based (row 4; 1 source).
+- [[products/baby-cereals-dry-non-rice]] — baby cereals and dry grain products, non-rice (row 5; 3 sources).
+- [[products/baby-cereals-dry-rice-based]] — baby cereals and dry grain products, rice-based (row 6; 3 sources).
+- [[products/fruit-purees]] — fruit purees (row 7; 2 sources).
+- [[products/non-root-vegetable-purees]] — non-root vegetable purees (row 8; 2 sources).
+- [[products/root-vegetable-purees]] — root-vegetable purees (row 9; 3 sources).
+- [[products/meat-and-poultry-purees]] — meat and poultry purees (row 10; scaffold, 0 sources).
+- [[products/fish-containing-baby-foods]] — fish-containing baby foods (row 11; 1 source).
+- [[products/mixed-meals-non-rice]] — mixed meals, non-rice (row 12; scaffold, 0 sources).
+- [[products/mixed-meals-rice-containing]] — mixed meals, rice-containing (row 13; 2 sources).
+- [[products/fruit-juice-not-canned]] — fruit juice, not canned (row 14; 1 source).
+- [[products/teething-and-snacks-non-rice]] — teething foods and snacks, non-rice (row 15; scaffold, 0 sources).
+- [[products/teething-and-snacks-rice-based]] — teething foods and snacks, rice-based (row 16; 2 sources).
 
 ### Regulations
 
@@ -214,3 +232,6 @@ _None yet._
 - [[sources/navaretnam-2025-rice-as-speciation|Navaretnam et al. 2025]] — Navaretnam et al. 2025. Arsenic speciation HPLC-ICP-MS in white and brown rice (Environmental Geochemistry and Health).
 - [[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]] — FDA, July 2022. Total Diet Study Report FY 2018-2020 Elements Data.
 - [[sources/belgian-lead-factsheet-2024|Belgian Pb 2024]] — Steunpunt Milieu en Gezondheid, September 2024. Lead factsheet (Flemish/Belgian).
+- [[sources/bair2022-heavy-metals-infant-toddler-foods|Bair 2022]] — narrative review of toxic heavy metals in infant and toddler foods and U.S. policy (evidence tier A).
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula|Collado-Lopez et al. 2025]] — global scoping review of heavy metals in processed baby foods and infant formulas (evidence tier A).
+- [[sources/price2023-baby-food-lead-biokinetic-models|Price et al. 2023]] — lead-specific biokinetic modeling paper using baby-food action levels as a case study (evidence tier A).
