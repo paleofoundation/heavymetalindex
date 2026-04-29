@@ -11,9 +11,10 @@ evidence_tier: A
 raw_path: "raw/Digest/1-s2.0-S0889157518301868-am.pdf"
 raw_sha256: "73f7f1c97d2462a96056d8081f52fee0f21d03dfab073b3f33141290cbad1200"
 metals: [Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V]
-products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, fruit-purees, non-root-vegetable-purees, root-vegetable-purees, meat-and-poultry-purees, fish-containing-baby-foods, mixed-meals-non-rice, baby-cereals-dry-non-rice]
+products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, fruit-purees, fruit-juice-not-canned, non-root-vegetable-purees, root-vegetable-purees, meat-and-poultry-purees, fish-containing-baby-foods, mixed-meals-non-rice, mixed-meals-rice-containing]
 matrices: [infant-food, toddler-food, formula, total-diet-study]
 jurisdictions: [FR]
+sample_n: 291
 sample_population: "French infant and toddler foods"
 updated: 2026-04-29
 ---
@@ -22,7 +23,7 @@ updated: 2026-04-29
 
 ## TL;DR
 
-This French Total Diet Study paper reports occurrence data for trace elements in foods consumed by infants and toddlers. It is useful for Category 1 because it separates infant-food categories such as formula, cereal-based foods, fruit purees, vegetable meals, and meat/fish ready-to-eat meals.
+This French Total Diet Study paper reports occurrence data for trace elements in 291 foods representative of French non-breastfed infant and toddler diets. It is useful for Category 1 because it separates infant-food categories such as formula, cereal-based foods, fruit purees, vegetable meals, soups/purees, fruit juices, and meat/fish ready-to-eat meals.
 
 ## Key numbers
 
@@ -31,13 +32,31 @@ This French Total Diet Study paper reports occurrence data for trace elements in
 - Fruit purees had the highest reported Sn mean, 424 ug/kg.
 - Meat-/fish-based and vegetable-based ready-to-eat meals were described as among the more contaminated infant-food categories for most trace elements measured.
 
+## Category 1 concentration rows
+
+All values below are upper-bound mean concentrations in micrograms per kilogram fresh weight for foods as consumed, which is numerically equivalent to ppb for these food matrices. These are category-level TDS rows, not individual-product percentile distributions; they can support source-scope mean and max/p100 context but do not by themselves provide a p90.
+
+| French TDS category | N | Row fit | Al mean / max | tAs mean / max | Cd mean / max | Cr mean / max | Ni mean / max | Sn mean / max |
+| --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Infant formulae | 28 | Formula, as consumed; powder/RTF and soy status not separated | 196 / 585 | 1.61 / 4 | 0.39 / 1 | 20.8 / 38 | 25.9 / 50 | 42 / 42 |
+| Follow-on formulae | 34 | Formula, as consumed; powder/RTF and soy status not separated | 276 / 1140 | 1.68 / 3 | 0.43 / 2 | 22.1 / 78 | 26.5 / 50 | 42 / 42 |
+| Growing-up milks | 9 | Toddler milk category; not infant formula threshold evidence by itself | 189 / 724 | 2.11 / 4 | 0.71 / 4 | 27.7 / 61 | 25 / 25 | 42 / 42 |
+| Cereal-based foods | 17 | Baby cereal and infant biscuit/cereal foods; rice status not separated | 630 / 3810 | 3.13 / 8 | 2.79 / 17 | 23 / 125 | 43 / 234 | 49.2 / 83 |
+| Fruit purees | 30 | Direct fruit-puree infant-food category | 556 / 1420 | 2 / 8 | 0.66 / 2 | 42.7 / 84 | 54.7 / 121 | 424 / 3330 |
+| Fruit juices | 4 | Infant fruit juice category; canned status not separated | 191 / 314 | 2 / 2 | 0.30 / 0.30 | 21 / 29 | 25 / 25 | 62.5 / 83 |
+| Soups/purees | 11 | Vegetable/soup puree category; root/non-root not separated | 653 / 2140 | 4.82 / 9 | 7.36 / 15 | 39 / 57 | 57.7 / 106 | 42 / 42 |
+| Vegetable-based ready-to-eat meals | 27 | Vegetable mixed meals; rice and root status not separated | 575 / 2480 | 3.33 / 17 | 9.26 / 18 | 50.4 / 92 | 71.5 / 137 | 59.5 / 143 |
+| Meat/fish-based ready-to-eat meals | 45 | Meat/fish mixed meals; meat, poultry, fish, and rice status not separated | 597 / 2590 | 27.5 / 411 | 9.31 / 30 | 68.9 / 155 | 75.7 / 143 | 49.3 / 83 |
+
+The study measured total arsenic, not inorganic arsenic. Chromium is total chromium, not hexavalent chromium. Lead, total mercury, and methylmercury are handled in separate French infant TDS publications, not in this trace-element paper.
+
 ## Methods (brief)
 
-The study used the French infant/toddler Total Diet Study design and compiled occurrence data for multiple trace elements. Foods were grouped by infant/toddler consumption categories, and measurements were reported as concentration data suitable for exposure assessment.
+The study used the French infant/toddler Total Diet Study design and compiled occurrence data for multiple trace elements. Foods were sampled in central France, prepared as consumed, pooled monthly where applicable, and analyzed by microwave digestion and ICP-MS. Results are reported in micrograms per kilogram fresh weight for foods as consumed.
 
 ## Limitations
 
-The PDF text extraction gives category-level summary values but not a machine-ready table for every Category 1 row. This source should be parsed into structured concentration rows before being used for p-value aggregation.
+The table values are category-level means, standard deviations, and min-max ranges. They are not individual-product records and do not report p10, p50, p90, or p95. Some French TDS categories are broader than HMTc rows, so row-fit caveats are required wherever rice status, soy status, root status, meat/fish split, powder/RTF split, or canned status is not resolved.
 
 ## Implications
 
@@ -54,15 +73,17 @@ Microbiome: No direct microbiome endpoint.
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-rtf-liquid-non-soy]]
 - [[products/baby-cereals-dry-non-rice]]
+- [[products/baby-cereals-dry-rice-based]]
 - [[products/fruit-purees]]
+- [[products/fruit-juice-not-canned]]
 - [[products/non-root-vegetable-purees]]
 - [[products/root-vegetable-purees]]
 - [[products/meat-and-poultry-purees]]
 - [[products/fish-containing-baby-foods]]
 - [[products/mixed-meals-non-rice]]
+- [[products/mixed-meals-rice-containing]]
 - [[metals/aluminum]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/tin]]
-

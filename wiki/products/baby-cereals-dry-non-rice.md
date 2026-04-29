@@ -82,6 +82,16 @@ Non-rice cereal evidence remains mixed because many infant cereal sources combin
 | [[metals/lead|Lead]] | UK cereal-based infant foods/dishes | 0 to 1 ug/kg | 0 to 1 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound non-detect treatment. |
 | [[metals/nickel|Nickel]] | UK cereal-based infant foods/dishes | 124 to 127 ug/kg | 124 to 127 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Cereal-based infant foods/dishes; rice status not isolated. |
 
+## French TDS Category Rows
+
+<!-- audience: regulator, educator, app -->
+
+Chekri 2019 reports a French cereal-based infant-food category with N=17, including baby cereals and infant biscuit/cereal products. The source does not split rice-based from non-rice cereal products, so these rows are context until the individual food list is mapped. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]]
+
+| French TDS row | N | Basis | Al mean / max | tAs mean / max | Cd mean / max | Cr-total mean / max | Ni mean / max | Sn mean / max |
+| --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Cereal-based infant foods | 17 | as consumed | 630 / 3810 ppb | 3.13 / 8 ppb | 2.79 / 17 ppb | 23 / 125 ppb | 43 / 234 ppb | 49.2 / 83 ppb |
+
 ## Row Relationship
 
 This row is the clean-benchmark counterpart to [[products/baby-cereals-dry-rice-based]] for the row architecture relationship covering [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].

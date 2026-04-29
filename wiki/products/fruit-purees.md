@@ -78,6 +78,16 @@ Fruit-puree evidence comes from fruit baby-food distributions, fruit-based infan
 | [[metals/lead|Lead]] | UK fruit-based infant foods/dishes | 1 to 3 ug/kg | 1 to 3 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Fruit-based group, not puree-only. |
 | [[metals/nickel|Nickel]] | UK fruit-based infant foods/dishes | 92 to 117 ug/kg | 92 to 117 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Fruit-based group, not puree-only. |
 
+## French TDS Category Rows
+
+<!-- audience: regulator, educator, app -->
+
+Chekri 2019 reports a direct French fruit-puree infant-food category with N=30. The paper gives category mean and min-max values, not p90. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]]
+
+| French TDS row | N | Basis | Al mean / max | tAs mean / max | Cd mean / max | Cr-total mean / max | Ni mean / max | Sn mean / max |
+| --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Fruit purees | 30 | as consumed | 556 / 1420 ppb | 2 / 8 ppb | 0.66 / 2 ppb | 42.7 / 84 ppb | 54.7 / 121 ppb | 424 / 3330 ppb |
+
 ## Row Relationship
 
 This row is independent in the locked row architecture and has no clean-counterpart partner.

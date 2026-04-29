@@ -61,6 +61,16 @@ Meat and poultry puree evidence is currently grouped with meat/fish infant foods
 | [[metals/nickel|Nickel]] | UK meat and fish based infant foods/dishes | 43 to 72 ug/kg | 43 to 72 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish; not poultry-specific. |
 | [[metals/cadmium|Cadmium]] and [[metals/lead|Lead]] | Italian homogenized baby foods including meat | below LOD in all samples | below method LOD | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Study includes meat homogenized foods, but source page does not yet extract meat-only concentration table. |
 
+## French TDS Category Rows
+
+<!-- audience: regulator, educator, app -->
+
+Chekri 2019 reports a French meat/fish-based ready-to-eat infant-meal category with N=45. The table does not split meat, poultry, fish, or rice-containing meals, so these rows are broad context for meat and poultry purees. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]]
+
+| French TDS row | N | Basis | Al mean / max | tAs mean / max | Cd mean / max | Cr-total mean / max | Ni mean / max | Sn mean / max |
+| --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Meat/fish-based ready-to-eat meals | 45 | as consumed | 597 / 2590 ppb | 27.5 / 411 ppb | 9.31 / 30 ppb | 68.9 / 155 ppb | 75.7 / 143 ppb | 49.3 / 83 ppb |
+
 ## Row Relationship
 
 This row is independent in the locked row architecture and has no clean-counterpart partner.
