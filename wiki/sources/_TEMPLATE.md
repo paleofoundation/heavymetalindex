@@ -9,6 +9,10 @@ publication: "Journal name or issuing body"
 doi: 10.xxxx/xxxxx                            # null if none
 source_type: peer-reviewed                    # peer-reviewed | gov-report | industry | ngo | news | lab-data | textbook-chapter
 evidence_tier: A                              # A (peer-reviewed/gov) | B (industry/NGO) | C (news/blog)
+evidence_fitness: EF-4                        # EF-1 | EF-2 | EF-3 | EF-4 | EF-5 | EF-X
+public_evidence_label: Context only           # Strong occurrence evidence | Reconstructable dataset | Modeled or limited evidence | Context only | Data gap | Rejected/unusable
+review_state: machine_extracted               # machine_extracted | approved_for_internal | approved_for_public | rejected | superseded
+claim_classes: []                             # literature_finding | regulatory_limit | toxicology_reference_value | exposure_model | public_wiki_claim
 raw_path: raw/reports/firstauthor2024-short-slug.pdf   # local-only path; raw/ is gitignored
 sha256: 0000000000000000000000000000000000000000000000000000000000000000  # 64-char hex digest of the raw PDF; see raw/README.md
 access_date: 2026-04-24                       # ISO-8601; date the file in raw/ was obtained
@@ -31,6 +35,10 @@ Two to four sentences: what the document is, what it measured or established, wh
 ## Key numbers
 
 Pull exact figures with page references. Sample sizes, means, percentiles, limits of detection, action levels, reference values. Do not round. Preserve the units the source uses. If conversion is needed for comparison, show both.
+
+## Evidence Fitness
+
+State what this source can support. Use the public label in prose. If the source only supports context, discovery, a modeled estimate, a pooled basket, or a data gap, say that plainly. Do not upgrade means, ranges, maxima, or source-level summaries into observed percentiles.
 
 ## Methods (brief)
 

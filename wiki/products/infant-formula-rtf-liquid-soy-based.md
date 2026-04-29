@@ -2,6 +2,14 @@
 type: product-category
 category: infant-formula-rtf-liquid-soy-based
 hmtc_row: 4
+hmtc_category: 1
+category_label: Infant and Child Foods
+age_range: "0-5"
+evidence_fitness: EF-3
+public_evidence_label: Modeled or limited evidence
+review_state: published
+evidence_register: data/evidence/category1_register.csv
+hmtc_threshold_status: excluded_from_index_evidence
 label: "Infant formula, RTF liquid (soy-based)"
 base_taxonomy: infant-formula-rtf-liquid
 variant_type: contamination_platform
@@ -27,6 +35,14 @@ sources: 1
 # Infant Formula, RTF Liquid (Soy-Based)
 
 This page is a structural scaffold for HMTc Category 1 row 4. One broad infant-formula source has been promoted; ready-to-feed-specific and Al/Ni-specific evidence is still pending.
+
+## Evidence Governance
+
+Public evidence label: **Modeled or limited evidence**.
+
+This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
+
+This page does not publish or justify HMT&C certification limits. HMT&C may use approved Index evidence downstream under its own standards methodology, but HMT&C thresholds are not evidence for public Index claims.
 
 ## Scaffold Status
 

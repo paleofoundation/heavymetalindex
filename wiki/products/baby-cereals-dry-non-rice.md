@@ -2,6 +2,14 @@
 type: product-category
 category: baby-cereals-dry-non-rice
 hmtc_row: 5
+hmtc_category: 1
+category_label: Infant and Child Foods
+age_range: "0-5"
+evidence_fitness: EF-3
+public_evidence_label: Modeled or limited evidence
+review_state: published
+evidence_register: data/evidence/category1_register.csv
+hmtc_threshold_status: excluded_from_index_evidence
 label: "Baby cereals / grain products, dry (non-rice)"
 base_taxonomy: baby-cereals-dry
 variant_type: clean_benchmark
@@ -26,6 +34,14 @@ sources: 7
 # Baby Cereals / Grain Products, Dry (Non-Rice)
 
 This page is a structural scaffold for HMTc Category 1 row 5. Broad cereal and infant-food sources have been promoted; non-rice cereal-specific p10/p90/p100 distributions are still pending.
+
+## Evidence Governance
+
+Public evidence label: **Modeled or limited evidence**.
+
+This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
+
+This page does not publish or justify HMT&C certification limits. HMT&C may use approved Index evidence downstream under its own standards methodology, but HMT&C thresholds are not evidence for public Index claims.
 
 ## Scaffold Status
 

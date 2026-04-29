@@ -77,7 +77,7 @@ Every page links to the primary sources it draws on, and every source page summa
 
 ## Current status
 
-The Heavy Metal Index is under active development. As of April 2026, the corpus extraction is in progress and ingest into the wiki is partial. The metals layer carries six metal pages with cited synthesis (cadmium ingest deepest, others scaled to match). Regulations and sources layers are populated; ingredients are stubbed for the next ingest wave; products, testing, health, microbiome, and supply chain are at folder-stub status.
+The Heavy Metal Index is under active development. As of April 2026, the corpus extraction is in progress and ingest into the wiki is partial. The metals layer carries cited synthesis pages; regulations and sources layers are populated; ingredients are stubbed for the next ingest wave; products now include Category 1 infant and child food evidence pages with source-backed tables and visible gaps; testing, health, microbiome, and supply chain are at folder-stub status.
 
 An append-only record of ingest, query, lint, and schema events is maintained at [log](log/).
 
@@ -122,7 +122,24 @@ Top cadmium-accumulating commodities stubbed for the next ingest wave. Each page
 
 ### Product categories
 
-_None yet._
+Category 1 infant and child food pilot pages. These pages report evidence status, source coverage, partial distributions, and data gaps. They do not publish HMT&C certification limits.
+
+- [[products/infant-formula-powder-non-soy]] — Category 1 row 1; evidence page.
+- [[products/infant-formula-powder-soy-based]] — Category 1 row 2; evidence page.
+- [[products/infant-formula-rtf-liquid-non-soy]] — Category 1 row 3; evidence page.
+- [[products/infant-formula-rtf-liquid-soy-based]] — Category 1 row 4; evidence page.
+- [[products/baby-cereals-dry-non-rice]] — Category 1 row 5; evidence page.
+- [[products/baby-cereals-dry-rice-based]] — Category 1 row 6; evidence page.
+- [[products/fruit-purees]] — Category 1 row 7; evidence page.
+- [[products/non-root-vegetable-purees]] — Category 1 row 8; evidence page.
+- [[products/root-vegetable-purees]] — Category 1 row 9; evidence page.
+- [[products/meat-and-poultry-purees]] — Category 1 row 10; evidence page.
+- [[products/fish-containing-baby-foods]] — Category 1 row 11; evidence page.
+- [[products/mixed-meals-non-rice]] — Category 1 row 12; evidence page.
+- [[products/mixed-meals-rice-containing]] — Category 1 row 13; evidence page.
+- [[products/fruit-juice-not-canned]] — Category 1 row 14; evidence page.
+- [[products/teething-and-snacks-non-rice]] — Category 1 row 15; evidence page.
+- [[products/teething-and-snacks-rice-based]] — Category 1 row 16; evidence page.
 
 ### Regulations
 

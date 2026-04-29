@@ -22,11 +22,54 @@ The corpus draws primarily from peer-reviewed journal literature (Tier A), suppl
 
 A detailed inclusion-and-exclusion protocol with the full search strategy, database coverage, and handling of preprints, retractions, and duplicates is forthcoming and will be published before general availability.
 
+## Evidence Fitness
+
+The Index uses an Evidence Fitness layer between source extraction and public synthesis. Evidence Fitness answers a narrow question: for this exact metal species, matrix, product type, statistic, unit, and source, what can this record support?
+
+Internal records use six verdicts.
+
+| Internal verdict | Public label | Meaning |
+| --- | --- | --- |
+| EF-1 | Strong occurrence evidence | The source directly reports the relevant occurrence percentile or equivalent concentration statistic for the matching metal species and matrix. |
+| EF-2 | Reconstructable dataset | The source provides sample-level or distribution-level data that can be deterministically reconstructed. |
+| EF-3 | Modeled or limited evidence | The source provides means, ranges, maxima, medians, source-level summaries, pooled baskets, exposure estimates, or other limited statistics. |
+| EF-4 | Context only | The source is relevant but cannot support a concentration finding for the exact cell. |
+| EF-5 | Data gap | No usable occurrence evidence is available for the cell currently under review. |
+| EF-X | Rejected/unusable | The record is wrong-matrix, wrong-metal, unverifiable, superseded, fabricated, or otherwise unusable. |
+
+The public Index displays the public labels rather than the internal EF codes unless the code itself matters for audit context. A data gap is a real finding. It means the Index has not approved evidence for that metal/product/matrix combination; it does not mean the product type is clean.
+
 ## Extraction
 
 Extraction separates deterministic operations from interpretive operations by design. Deterministic work (portable document format parsing, structured table extraction, field population from clearly labelled data, cross-reference validation) is handled programmatically in Python. Interpretive work (synthesis of findings, classification of ambiguous studies, relationship identification) is handled by a human reviewer working with a language model as drafting assistant, under the constraints described below. The architectural separation is enforced in code and reflected in the commit history.
 
 Every extracted data point includes a provenance link to the source document with sufficient specificity that a hostile reader can verify it in the original (page number, table number, or quoted passage as appropriate). Where provenance cannot be established to this standard, the data point is not published.
+
+The structured evidence build is tracked under `data/evidence/`. The private `raw/markdown/` corpus remains excluded from git; tracked evidence records contain source handles, candidate values, review states, public labels, and provenance fields only.
+
+## Review states and publication
+
+Machine extraction is not publication. The Index distinguishes three important states.
+
+`machine_extracted` records may create internal queues and draft evidence registers.
+
+`approved_for_internal` records may feed the HMT&C standards program, where separate standards methodology determines certification limits.
+
+`approved_for_public` records are required before a newly generated value or claim appears on a public Index page as an affirmative evidence statement.
+
+Existing public pages may contain manually reviewed, source-cited synthesis while value-level JSONL backfill is still in progress. New automation must not use that transitional state to bypass review: machine-extracted concentration values stay out of public prose until promoted.
+
+## HMT&C firewall
+
+The Heavy Metal Index and HMT&C use the same evidence base but do not share publication rules. The Index reports literature, occurrence, regulatory, toxicology, and exposure evidence. HMT&C uses approved evidence downstream to decide certification standards.
+
+HMT&C thresholds are not evidence for public Index claims. They must not be used to prove that a metal concentration is safe, typical, acceptable, or literature-supported. When HMT&C uses the Index, the direction is one-way: HMT&C cites the Index for the evidence baseline, then applies its own standards methodology.
+
+## Category 1 pilot
+
+The first evidence-first pilot is HMTc Category 1, Infant and Child Foods, ages 0-5. The pilot tracks 16 product rows across the following analytes: Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Al, Sn, Cr-total, and Cr-VI.
+
+The pilot register starts as a row-metal coverage map and is updated as source-backed records are reviewed. Missing cells stay visible as data gaps. Partial source evidence, such as ranges, maxima, means, pooled baskets, or non-U.S. datasets, may support context or limited evidence labels without becoming a final certification distribution.
 
 ## Quality assurance
 

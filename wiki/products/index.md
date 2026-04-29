@@ -11,6 +11,8 @@ Product-category pages describe the heavy-metal risk profile of consumer-facing 
 
 These pages preserve the locked row architecture. Substantive claims are cited to promoted `wiki/sources/` pages; remaining gaps stay marked as `<!-- UNCITED -->` until additional sources are promoted from `raw/`.
 
+The Category 1 pilot is also the first Evidence Fitness rollout. Pages report what the evidence says about the product row, source coverage, partial distributions, and data gaps. They do not publish or justify HMT&C certification limits; HMT&C may consume approved Index evidence downstream under its separate standards methodology.
+
 1. [[products/infant-formula-powder-non-soy|Infant formula, powder (non-soy)]]
 2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]]
 3. [[products/infant-formula-rtf-liquid-non-soy|Infant formula, RTF liquid (non-soy)]]

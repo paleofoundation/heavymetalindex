@@ -16,6 +16,9 @@
     "build": "./quartz/bootstrap-cli.mjs build -d wiki -o public",
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",
     "check": "tsc --noEmit",
+    "evidence:category1": "tsx tools/evidence/build-category1-register.ts",
+    "evidence:queue": "tsx tools/evidence/build-review-queue.ts",
+    "evidence:scan": "tsx tools/evidence/scan-markdown.ts --raw raw/markdown --out data/evidence/drafts",
     "format": "npx prettier . --write",
     "test": "tsx --test"
   },
