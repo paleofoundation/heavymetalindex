@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-04-29] schema | evidence-first-build — Evidence Fitness registers and Category 1 pilot
+Pages touched: [[methodology]], [[editorial-standards]], [[sources/_TEMPLATE]], [[products/index]]
+Notes: Added the tracked evidence-register architecture for the Heavy Metal Index, including Evidence Fitness verdicts, public evidence labels, two-stage review states, and the Category 1 infant/child food pilot register. This change keeps the Index as the public evidence layer and HMT&C as a downstream standards consumer; HMT&C thresholds remain barred from supporting public Index claims.
+
 ## [2026-04-24] schema | kickoff — initial skeleton
 Pages touched: [[index]], [[log]], [[overview]], [[synthesis]], [[metals/cadmium]], [[regulations/fda-closer-to-zero]], [[regulations/oehha-cadmium-prop65]], [[regulations/epa-iris-cadmium-rfd]], [[regulations/efsa-cadmium-twi]], [[regulations/jecfa-cadmium-ptmi]], [[regulations/atsdr-cadmium-mrls]], [[regulations/codex-cadmium-mls]]
 Notes: Created initial stub skeleton ahead of the first ingest batch (8 cadmium-focused regulatory/advisory reports plus three textbook chapters covering cadmium toxicology). Ingest order starts with FDA Closer to Zero to establish the programmatic frame, then the Handbook on the Toxicology of Metals chapter 32 (Nordberg, Nogawa, Nordberg, 2015) to ground the canonical tox science, then EFSA, EPA IRIS, JECFA, ATSDR, paired OEHHA Prop 65 evidence and MADL documents, and Codex CCCF17. Patty's and Casarett & Doull's Essentials chapters enter after the regulatory tox documents.

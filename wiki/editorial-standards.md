@@ -29,6 +29,12 @@ Second, architectural separation. The wiki lives at heavymetalindex.com. The cer
 
 Third, no brand-level data. Brand-specific lab results, certificates of analysis, and internal test data do not appear in this index. Where third-party testing has produced brand-by-brand contamination data (Consumer Reports, Healthy Babies Bright Futures, and similar), this index summarizes the category-level and ingredient-level signal and links to the source for brand-specific values. Brand-by-brand tables are not reproduced.
 
+Fourth, evidence-state separation. HMT&C thresholds, internal standards candidates, and app-model assumptions are separate claim classes. They may not support public Heavy Metal Index claims. A public claim must trace to literature, regulatory, toxicology, exposure, or occurrence evidence approved for public use.
+
+Fifth, two-stage review. Machine-extracted records can enter internal evidence registers and draft queues, but public pages require `approved_for_public` values or claims. Internal standards work may use `approved_for_internal` records, but that approval does not authorize public wiki publication.
+
+Sixth, data gaps stay visible. When the Index has no approved evidence for a metal/product/matrix cell, the correct public state is "Data gap." The wiki must not imply that missing evidence means a product type is probably clean or low risk.
+
 ## Curators
 
 [Stub. To be expanded with named curators, qualifications, editorial roles, and the sign-off process for substantive entries.]

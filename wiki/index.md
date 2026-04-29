@@ -77,7 +77,7 @@ Every page links to the primary sources it draws on, and every source page summa
 
 ## Current status
 
-The Heavy Metal Index is under active development. As of April 2026, the corpus extraction is in progress and ingest into the wiki is partial. The metals layer carries six metal pages with cited synthesis (cadmium ingest deepest, others scaled to match). Regulations and sources layers are populated; ingredients are stubbed for the next ingest wave; products, testing, health, microbiome, and supply chain are at folder-stub status.
+The Heavy Metal Index is under active development. As of April 2026, the corpus extraction is in progress and ingest into the wiki is partial. The metals layer carries cited synthesis pages; regulations and sources layers are populated; ingredients are stubbed for the next ingest wave; products now include Category 1 infant and child food evidence-status pages; testing, health, microbiome, and supply chain are at folder-stub status.
 
 An append-only record of ingest, query, lint, and schema events is maintained at [log](log/).
 
@@ -122,7 +122,24 @@ Top cadmium-accumulating commodities stubbed for the next ingest wave. Each page
 
 ### Product categories
 
-_None yet._
+Category 1 infant and child food pilot pages. These pages report evidence status and data gaps, not HMT&C certification limits.
+
+- [[products/infant-formula-powder-non-soy]] — Category 1 row hmtc_c1_r01; evidence status page.
+- [[products/infant-formula-powder-soy-based]] — Category 1 row hmtc_c1_r02; evidence status page.
+- [[products/infant-formula-rtf-liquid-non-soy]] — Category 1 row hmtc_c1_r03; evidence status page.
+- [[products/infant-formula-rtf-liquid-soy-based]] — Category 1 row hmtc_c1_r04; evidence status page.
+- [[products/baby-cereals-dry-non-rice]] — Category 1 row hmtc_c1_r05; evidence status page.
+- [[products/baby-cereals-dry-rice-based]] — Category 1 row hmtc_c1_r06; evidence status page.
+- [[products/fruit-purees]] — Category 1 row hmtc_c1_r07; evidence status page.
+- [[products/non-root-vegetable-purees]] — Category 1 row hmtc_c1_r08; evidence status page.
+- [[products/root-vegetable-purees]] — Category 1 row hmtc_c1_r09; evidence status page.
+- [[products/meat-and-poultry-purees]] — Category 1 row hmtc_c1_r10; evidence status page.
+- [[products/mixed-meals-non-rice]] — Category 1 row hmtc_c1_r11; evidence status page.
+- [[products/mixed-meals-rice-containing]] — Category 1 row hmtc_c1_r12; evidence status page.
+- [[products/teething-and-snacks-non-rice]] — Category 1 row hmtc_c1_r13; evidence status page.
+- [[products/teething-and-snacks-rice-based]] — Category 1 row hmtc_c1_r14; evidence status page.
+- [[products/fruit-juice-not-canned]] — Category 1 row hmtc_c1_r15; evidence status page.
+- [[products/fish-containing-baby-foods]] — Category 1 row hmtc_c1_r16; evidence status page.
 
 ### Regulations
 
