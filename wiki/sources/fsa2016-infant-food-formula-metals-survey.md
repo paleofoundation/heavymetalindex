@@ -8,6 +8,8 @@ publication: "UK Food Standards Agency report FS102048"
 source_type: government_report
 evidence_tier: A
 raw_path: "raw/studies/FS102048 Infants metal survey FSIS pdf version.pdf"
+raw_digest_paths: ["raw/Digest/Multi-element Infant foods_FS102048 final report.pdf", "raw/Digest/Multi-element Infant foods_FS102048 final report (1).pdf"]
+raw_digest_sha256: "f6f0df342c46608839536a12ba549171a6954a23128d98ca9ee62cb53b18cbdc"
 metals: [Al, Sb, tAs, iAs, Cd, Cr, Cu, I, Fe, Pb, Mn, tHg, Ni, Se, Sn, Zn]
 products: [infant-formula-powder, infant-formula-rtf-liquid, baby-cereals, fruit-purees, vegetable-purees, baby-drinks, snacks, meat-and-fish-baby-foods, mixed-meals]
 jurisdictions: [UK]
@@ -19,6 +21,8 @@ updated: 2026-04-28
 ## TL;DR
 
 This UK Food Standards Agency survey measured metals and related elements in ready-to-feed infant formula, dry infant formula, commercial infant foods, and selected non-infant-specific foods used in infant diets. It is useful for Category 1 because it provides category-level average concentration tables for formula formats and infant-food groupings.
+
+The Digest batch contains two byte-identical copies of this report; both have been recorded in frontmatter as duplicate raw paths rather than added as separate source pages.
 
 ## Key numbers
 
@@ -64,4 +68,3 @@ The survey reports grouped averages rather than brand-level results. Some commer
 - [[products/fruit-juice-not-canned]]
 - [[products/teething-and-snacks-non-rice]]
 - [[products/teething-and-snacks-rice-based]]
-
