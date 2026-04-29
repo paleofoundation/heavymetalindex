@@ -20,7 +20,7 @@ updated: 2026-04-29
 
 # Milk And Dairy
 
-_Stub page. Chekri et al. 2019 reports infant formulae, follow-on formulae, growing-up milks, milk-based beverages, milk-based desserts, and common dairy categories. The source supports dairy/formula context but does not isolate cow-milk ingredients from finished formula formulations. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+_Stub page. Chekri et al. 2019 reports infant formulae, follow-on formulae, growing-up milks, milk-based beverages, milk-based desserts, and common dairy categories. Burrell and Exley 2010 reports aluminum in cow-milk-based infant formula products, but does not isolate raw cow milk from finished formula constituents and processing. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] [[sources/burrell2010-aluminium-in-infant-formulas]]_
 
 ## Ranges by source, region, and variety
 
@@ -29,3 +29,4 @@ _Pending dairy-specific occurrence extraction. Formula-specific values remain fi
 ## Sources
 
 - [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] — French infant/toddler TDS formula and dairy category rows.
+- [[sources/burrell2010-aluminium-in-infant-formulas]] — UK infant formula aluminum survey covering cow-milk-based ready-made and powdered formula products.

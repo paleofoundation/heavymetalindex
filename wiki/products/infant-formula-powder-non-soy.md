@@ -100,6 +100,7 @@ The Digest formula papers add useful source-scope rows, but they mostly report m
 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/aluminum|Al]] | 17 | as sold or source-reported |  |  | 2170 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/cadmium|Cd]] | 17 | as sold or source-reported |  |  | 34.4 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 17 | as sold or source-reported |  |  | 119 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
+| [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 7 | prepared estimate from powder | 446.8 |  | 592.4 | Source reports product means/ranges and prepared estimates; non-soy powder products are grouped, no p90. |
 | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | [[metals/nickel|Ni]] | not extracted | as sold or source-reported | 27.7 |  | 32 | Infant-formula group mean/range; source does not report p90 or soy status. |
 | [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]] | [[metals/nickel|Ni]] | 13 brands | as sold or source-reported |  |  | 50903 | Range-only source-scope maximum; high value needs PDF image QA before standards math. |
 

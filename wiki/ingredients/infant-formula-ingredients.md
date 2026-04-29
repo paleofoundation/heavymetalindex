@@ -1,0 +1,31 @@
+---
+type: ingredient
+commodity: infant-formula-ingredients
+aliases: [formula ingredients, formula powder ingredients, infant formula constituents, mineral premix, vitamin premix]
+category: formulated-food-system
+contamination_profile:
+  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+drivers: [ingredient-inputs, mineral-premix, processing-equipment, storage, packaging, powder-homogeneity]
+lower_risk_variants: []
+higher_risk_variants: ["[[ingredients/soy]]"]
+used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
+audience: [regulator, educator, consumer, app]
+updated: 2026-04-29
+---
+
+# Infant Formula Ingredients
+
+_Stub page. Burrell and Exley 2010 argues that aluminum in infant formula is likely contamination from formula constituents, processing equipment, storage, and packaging rather than an intentionally added ingredient. This page is a graph anchor for formula-input and processing-driver evidence, not a claim that a single ingredient explains all formula aluminum. [[sources/burrell2010-aluminium-in-infant-formulas]]_
+
+## Ranges by source, region, and variety
+
+_Pending input-level occurrence extraction. Current evidence supports product-format differences between powders and ready-made formulas, but does not isolate individual formula constituents._
+
+## Sources
+
+- [[sources/burrell2010-aluminium-in-infant-formulas]] — formula aluminum format comparison and discussion of possible contamination routes.
