@@ -10,6 +10,8 @@ evidence_tier: A
 raw_path: "raw/studies/FS102048 Infants metal survey FSIS pdf version.pdf"
 raw_digest_paths: ["raw/Digest/Multi-element Infant foods_FS102048 final report.pdf", "raw/Digest/Multi-element Infant foods_FS102048 final report (1).pdf"]
 raw_digest_sha256: "f6f0df342c46608839536a12ba549171a6954a23128d98ca9ee62cb53b18cbdc"
+sample_n_total: 297
+sample_n_notes: "47 infant formula samples, 200 commercial infant food samples, and 50 composite non-infant-specific food samples purchased in the UK during 2013-2014; concentration tables report category-level averages, but per-category n is not shown for each concentration row."
 metals: [Al, Sb, tAs, iAs, Cd, Cr, Cu, I, Fe, Pb, Mn, tHg, Ni, Se, Sn, Zn]
 products: [infant-formula-powder, infant-formula-rtf-liquid, baby-cereals, fruit-purees, vegetable-purees, baby-drinks, snacks, meat-and-fish-baby-foods, mixed-meals]
 jurisdictions: [UK]
@@ -20,7 +22,7 @@ updated: 2026-04-28
 
 ## TL;DR
 
-This UK Food Standards Agency survey measured metals and related elements in ready-to-feed infant formula, dry infant formula, commercial infant foods, and selected non-infant-specific foods used in infant diets. It is useful for Category 1 because it provides category-level average concentration tables for formula formats and infant-food groupings.
+This UK Food Standards Agency survey measured metals and related elements in 47 infant formula samples, 200 commercial infant food samples, and 50 composite non-infant-specific food samples used in infant diets. It is useful for Category 1 because it provides category-level average concentration tables for formula formats and infant-food groupings.
 
 The Digest batch contains two byte-identical copies of this report; both have been recorded in frontmatter as duplicate raw paths rather than added as separate source pages.
 
@@ -38,6 +40,10 @@ The Digest batch contains two byte-identical copies of this report; both have be
 ## Methods (brief)
 
 The survey sampled branded products in 2013 and 2014. Dry powdered infant formula and dried cereal products were analyzed as sold rather than reconstituted. Values are presented as lower-bound to upper-bound averages where non-detect handling changes the result. Inorganic arsenic was measured directly only for samples with total arsenic above 10 ug/kg; for other samples, the survey used a 70 percent factor to estimate iAs, following EFSA-style exposure-assessment practice.
+
+## Sample count notes
+
+The report gives group-level sample counts: 47 infant formula samples, 200 commercial infant food samples, and 50 composite non-infant-specific food samples. The concentration tables used for the product pages report category-level averages, but they do not show a separate per-category n for rows such as dry first/hungrier milk, dry soy-based formula, snacks, or fruit-based infant foods. Product-page rows should therefore describe these as group-level survey averages with per-category n not reported, not as rows with no sample count.
 
 ## Limitations
 
