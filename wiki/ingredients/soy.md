@@ -20,7 +20,7 @@ updated: 2026-04-29
 
 # Soy
 
-_Stub page. Burrell and Exley 2010 reports a soy-based infant formula powder with aluminum of 4.3 ug/g powder, equivalent to 629 ug/L when prepared according to manufacturer instructions. The authors suggest the elevated value may reflect prior aluminum accumulation in soybean plants and aluminum tolerance of some soybean cultivars grown on acid soils, but this source does not provide a soybean-only occurrence distribution. [[sources/burrell2010-aluminium-in-infant-formulas]]_
+_Stub page. Burrell and Exley 2010 reports a soy-based infant formula powder with aluminum of 4.3 ug/g powder, equivalent to 629 ug/L when prepared according to manufacturer instructions. Chuchu et al. 2013 reports two soy-based infant formula powders with prepared estimates of 656 and 756 ug/L. Burrell and Exley suggest the elevated soy-formula value may reflect prior aluminum accumulation in soybean plants and aluminum tolerance of some soybean cultivars grown on acid soils, but neither source provides a soybean-only occurrence distribution. [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]]_
 
 ## Ranges by source, region, and variety
 
@@ -29,3 +29,4 @@ _Pending soy-specific occurrence extraction. Current Category 1 evidence is file
 ## Sources
 
 - [[sources/burrell2010-aluminium-in-infant-formulas]] — soy-based infant formula powder aluminum value and discussion of soybean accumulation as a possible driver.
+- [[sources/chuchu2013-aluminium-in-infant-formulas]] — two soy-based infant formula powder aluminum values and aluminum-based packaging discussion.

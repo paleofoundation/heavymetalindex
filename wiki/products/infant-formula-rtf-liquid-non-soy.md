@@ -87,6 +87,7 @@ The Canadian formula paper adds ready-to-use source-scope summary rows for Al, C
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 67 | as consumed | 0.23 | 0.11 | 1.26 | Source reports summary statistics but not p90. |
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 67 | as consumed | 0.9 | 0.84 | 2.46 | Source reports summary statistics but not p90. |
 | [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 8 | ready-made liquid formula | 344.8 |  | 700.4 | Product-format evidence; includes first, follow-on, growing-up, and preterm ready-made products, no soy-ready-made row. |
+| [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 10 | ready-to-drink liquid formula | 249.5 |  | 422 | Product-format evidence; includes first, follow-on, toddler/growing-up ready-to-drink products, no soy-ready-made row. |
 
 ## French TDS Category Rows
 
