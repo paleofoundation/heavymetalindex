@@ -24,7 +24,7 @@ updated: 2026-04-29
 
 ## TL;DR
 
-This peer-reviewed study measured essential and toxic metals in dried infant formula, powdered milk, fresh milk, and processed milk collected from markets in Peshawar, Pakistan. It is useful for Category 1 because Table 2 reports nickel in the infant-formula group, but it is not soy-resolved and does not provide a modern U.S. product distribution.
+This peer-reviewed study measured essential and toxic metals in dried infant formula, powdered milk, fresh milk, and processed milk collected from markets in Peshawar, Pakistan. It is useful for Category 1 because Table 2 reports nickel in the infant-formula group, but it is not soy-resolved and does not provide an individual-product p90 distribution.
 
 ## Key Numbers
 
@@ -41,7 +41,7 @@ The study used nitric/perchloric acid wet digestion and atomic absorption spectr
 
 ## Limitations
 
-The infant-formula subset is not separated by soy versus non-soy formulation, and the source reports mean/range values rather than p10, p50, p90, or individual-product rows. The market is Peshawar, Pakistan, so values should not be treated as current U.S. occurrence distributions.
+The infant-formula subset is not separated by soy versus non-soy formulation, and the source reports mean/range values rather than p10, p50, p90, or individual-product rows. The market is Peshawar, Pakistan; jurisdiction should be retained as metadata for aggregate evidence review rather than treated as a hard exclusion.
 
 ## Implications
 
@@ -56,4 +56,3 @@ Microbiome: No direct microbiome endpoint.
 ## Wiki Pages Updated On Ingest
 
 - [[products/infant-formula-powder-non-soy]]
-

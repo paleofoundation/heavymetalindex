@@ -70,7 +70,7 @@ The current source set still does not support a modern soy-powder p10/p90/p100 c
 
 <!-- audience: regulator, educator, app -->
 
-The FDA 2026 special survey provides a current U.S. product-label subset for soy-based powdered formula, expressed as prepared for feeding. These rows are useful for p50/p90/p100 work, but they still require review for clean-platform inclusion and non-detect policy before any certification candidate is selected. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+The FDA 2026 special survey provides a product-label subset for soy-based powdered formula, expressed as prepared for feeding. These rows are useful for p50/p90/p100 work, but they still require review for clean-platform inclusion, non-detect policy, basis matching, jurisdiction composition, and 95% confidence before any certification candidate is selected. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
 | Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
 | --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |

@@ -44,7 +44,7 @@ The Markdown extraction of Table 4 is partially degraded, so the source page ret
 
 ## Implications
 
-Certification: Useful warning-range evidence for nickel in infant formula milk brands. It is not enough by itself to select a U.S. p90.
+Certification: Useful warning-range evidence for nickel in infant formula milk brands. It is not enough by itself to select an aggregate p90 with 95% confidence.
 
 Courses: Useful example of why outlier/high-maximum sources need image verification before entering standards math.
 

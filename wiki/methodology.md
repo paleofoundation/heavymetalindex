@@ -69,7 +69,9 @@ HMT&C thresholds are not evidence for public Index claims. They must not be used
 
 The first evidence-first pilot is HMTc Category 1, Infant and Child Foods, ages 0-5. The pilot tracks 16 product rows across the following analytes: Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Al, Sn, Cr-total, and Cr-VI.
 
-The pilot register starts as a row-metal coverage map and is updated as source-backed records are reviewed. Missing cells stay visible as data gaps. Partial source evidence, such as ranges, maxima, means, pooled baskets, or non-U.S. datasets, may support context or limited evidence labels without becoming a final certification distribution.
+The pilot register starts as a row-metal coverage map and is updated as source-backed records are reviewed. Missing cells stay visible as data gaps. Partial source evidence, such as ranges, maxima, means, or pooled baskets, may support context or limited evidence labels without becoming a final certification distribution.
+
+A p90 candidate does not need to be U.S.-based. The defensibility requirement is that the selected or aggregated evidence pool is product-fit, analytically comparable, documented by source, and strong enough to support the standards workflow's confidence target, currently 95% confidence. Jurisdiction is retained as metadata and may affect weighting, applicability notes, or later regional variants, but it is not by itself a reason to exclude otherwise valid occurrence evidence from the aggregate pool.
 
 ## Quality assurance
 

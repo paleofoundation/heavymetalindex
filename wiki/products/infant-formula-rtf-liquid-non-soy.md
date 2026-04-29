@@ -70,7 +70,7 @@ Direct ready-to-feed liquid evidence is available from the UK survey. Values are
 
 <!-- audience: regulator, educator, app -->
 
-The FDA 2026 special survey provides a current U.S. product-label subset for ready-to-feed cow milk-based formula, expressed as prepared for feeding. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+The FDA 2026 special survey provides a product-label subset for ready-to-feed cow milk-based formula, expressed as prepared for feeding. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; any certification candidate still needs basis matching, jurisdiction metadata, and 95% confidence review. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
 | Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
 | --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |

@@ -38,7 +38,7 @@ Samples were digested using microwave-induced acid digestion and analyzed by ele
 
 ## Limitations
 
-The source reports imported formulae available in Pakistan during 2005-2006. The values are relevant to the formula evidence pool but should not be treated as a current U.S. market estimate.
+The source reports imported formulae available in Pakistan during 2005-2006. The values are relevant to the formula evidence pool, with jurisdiction and period retained as metadata for aggregate evidence review.
 
 ## Implications
 
@@ -57,4 +57,3 @@ Microbiome: No direct microbiome endpoint.
 - [[metals/aluminum]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
