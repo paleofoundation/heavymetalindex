@@ -28,7 +28,7 @@ cc_relationship:
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 15
+sources: 17
 ---
 
 # Infant Formula, Powder (Non-Soy)
@@ -74,6 +74,8 @@ This table lists what each source actually reports. It does not calculate the HM
 | [[metals/cadmium|Cd]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 3.3 to 4.5 ppb | 4.5 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
 | [[metals/lead|Pb]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 8.2 to 43.9 ppb | 43.9 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
 | [[metals/arsenic-total|tAs]] | Infant formulas without organic brown rice syrup | 15 | range | 2 to 12 ppb | 12 ppb | Broad infant-formula evidence; powder/non-soy/soy not split. | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|6]] |
+| [[metals/nickel|Ni]] | Peshawar infant formula group | not extracted from 46 total milk/formula samples | mean and range | mean 27.7 ppb; range 22 to 32 ppb | 32 ppb | Formula powder context; not soy-resolved and not a current U.S. distribution. | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|13]] |
+| [[metals/nickel|Ni]] | Pakistan infant formula milk brands | 13 brands | range | below 1 to 50,903 ppb | 50,903 ppb | High source-scope maximum requiring PDF image QA before standards math; not soy-resolved and not a current U.S. distribution. | [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|14]] |
 
 ## Extracted Formula Concentration Rows
 
@@ -98,6 +100,8 @@ The Digest formula papers add useful source-scope rows, but they mostly report m
 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/aluminum|Al]] | 17 | as sold or source-reported |  |  | 2170 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/cadmium|Cd]] | 17 | as sold or source-reported |  |  | 34.4 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 17 | as sold or source-reported |  |  | 119 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
+| [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | [[metals/nickel|Ni]] | not extracted | as sold or source-reported | 27.7 |  | 32 | Infant-formula group mean/range; source does not report p90 or soy status. |
+| [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]] | [[metals/nickel|Ni]] | 13 brands | as sold or source-reported |  |  | 50903 | Range-only source-scope maximum; high value needs PDF image QA before standards math. |
 
 ## CC Candidate Summary
 
@@ -205,6 +209,8 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 10. [[sources/meli2024-chemical-characterization-baby-food-italy|Meli 2024]]: European baby-food and powdered-milk analytical context.
 11. [[sources/spungen2024-fda-tds-infant-lead-cadmium|Spungen 2024]]: FDA Total Diet Study infant lead and cadmium context.
 12. [[sources/efsa-cadmium-contam-2009|EFSA 2009]]: cadmium toxicology and regulatory context.
+13. [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|Lutfullah 2014]]: Peshawar infant-formula and milk nickel mean/range context.
+14. [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|Akhtar 2017]]: Pakistan infant formula milk brand nickel range context.
 
 ## Sources
 
@@ -223,3 +229,5 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 - [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]]
 - [[sources/kazi2009-toxic-elements-in-infant-formulae]]
+- [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]]
+- [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]]

@@ -16,7 +16,7 @@ variant_type: independent_scope_qualified
 provenance: base_taxonomy
 scope_exclusions: [canned-fruit-juice]
 ingredient_targets: [fruit-juice, apple-juice, grape-juice]
-primary_metals_of_concern: []
+primary_metals_of_concern: [Ni, Cd, Pb]
 vulnerable_population: children-0-60mo
 applicable_regulations: []
 cc_relationship:
@@ -24,8 +24,8 @@ cc_relationship:
   scope: none
   partners: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-28
-sources: 1
+updated: 2026-04-29
+sources: 3
 ---
 
 # Fruit Juice (Not Canned)
@@ -51,7 +51,7 @@ This page does not publish or justify HMT&C certification limits. HMT&C may use 
 
 <!-- audience: regulator, educator, consumer, app -->
 
-No promoted source currently gives a not-canned fruit-juice-only concentration distribution. The closest Category 1 row evidence is the UK baby-drinks group, which should be treated as a placeholder until juice-specific monitoring is ingested.
+No promoted source currently gives a not-canned fruit-juice-only concentration distribution. The closest Category 1 row evidence includes the UK baby-drinks group and a packaged fruit-juice study that includes multiple packaging formats, so canned products must be filtered out before threshold work.
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
@@ -60,6 +60,10 @@ No promoted source currently gives a not-canned fruit-juice-only concentration d
 | [[metals/cadmium|Cadmium]] | UK baby drinks | 0 ug/kg | 0 ppb lower-bound category value | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound treatment; not juice-specific. |
 | [[metals/lead|Lead]] | UK baby drinks | 3 ug/kg | 3 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Baby-drinks group, not specifically not-canned fruit juice. |
 | [[metals/nickel|Nickel]] | UK baby drinks | 0 to 9 ug/kg | 0 to 9 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Baby-drinks group, not specifically not-canned fruit juice. |
+| [[metals/nickel|Nickel]] | Ethiopia packaged fruit juices consumed by children | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5 to 80 ppb; median 78 ppb | [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]] | Includes canned, glass, carton, and tetra-pack products; canned products must be excluded for this row. |
+| [[metals/nickel|Nickel]] | Ethiopia mango, pineapple, strawberry, and cocktail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5 ppb | 34 to 70 ppb fruit-type medians | [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]] | Fruit-type medians are not packaging-filtered p90 values. |
+| [[metals/cadmium|Cadmium]] | Ethiopia packaged fruit juices consumed by children | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to 100 ppb; median 80 ppb | [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]] | Includes canned, glass, carton, and tetra-pack products; row-fit filtering pending. |
+| [[metals/lead|Lead]] | Ethiopia packaged fruit juices consumed by children | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10 to 40 ppb; median 35 ppb | [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]] | Includes canned, glass, carton, and tetra-pack products; row-fit filtering pending. |
 
 ## Row Relationship
 
@@ -79,6 +83,8 @@ Not-canned fruit juice risk characterization remains pending because the promote
 
 Potential variance drivers for fruit juice should be documented only after sources distinguish fruit type, concentrate use, water inputs, packaging, canned versus not-canned scope, and analytical method. <!-- UNCITED: Need juice-specific sources that report metal concentrations, scope qualifiers, and methods such as [[testing/icp-ms]]. -->
 
+Weldegebriel 2025 supports packaging and fruit type as candidate variance drivers because it reports higher nickel in pineapple, strawberry, and cocktail juice than mango juice, while also flagging packaging type as a contamination variable; this source still requires canned/not-canned filtering before it can support the locked row distribution. [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]
+
 ## How The App Would Estimate Risk From An Ingredient List
 
 <!-- audience: app, consumer -->
@@ -97,3 +103,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+- [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]
