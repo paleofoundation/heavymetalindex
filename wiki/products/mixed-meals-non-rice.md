@@ -19,20 +19,35 @@ cc_relationship:
       role_of_partner: contamination_platform
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-28
-sources: 0
+updated: 2026-04-29
+sources: 2
 ---
 
 # Mixed Meals, Non-Rice
 
-This page is a structural scaffold for HMTc Category 1 row 12. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
+This page is a structural scaffold for HMTc Category 1 row 12. Broad savoury infant-food evidence is available, but non-rice mixed-meal p10/p90/p100 distributions are still pending.
 
 ## Scaffold Status
 
-- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
-- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
+- Page state: evidence-backed scaffold with broad mixed-meal evidence; row-specific synthesis remains incomplete.
+- Source coverage: measured-values table populated from promoted sources; row-fit caveats remain in the table.
 - Next ingest target: mixed-meal datasets for non-rice products, especially [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Distribution Summary For Threshold Work
+
+<!-- audience: regulator, educator, app -->
+
+The current source set does not yet support a non-rice mixed-meal p10/p90/p100 concentration spread. UK category-average data and broad Gardener 2019 all-sample percentiles can support screening context, but rice status and mixed-meal formulation must be resolved before threshold-setting use. [[sources/fsa2016-infant-food-formula-metals-survey]] [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+
+| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
+| --- | --- | --- | ---: | --- | --- | --- | --- |
+| UK savoury category average | [[metals/aluminum|Aluminum]] | Other savoury based infant foods/dishes, no meat | not extracted | category average/range | 1995 to 1999 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK savoury category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Other savoury based infant foods/dishes, no meat | not extracted | category average/range | 7 to 9 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK savoury category average | [[metals/cadmium|Cadmium]] | Other savoury based infant foods/dishes, no meat | not extracted | category average | 10 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK savoury category average | [[metals/lead|Lead]] | Other savoury based infant foods/dishes, no meat | not extracted | category average/range | 3 to 5 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad context only | All categories combined; mixed-meal and rice-status-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
+| All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad context only | All categories combined; mixed-meal and rice-status-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 
 ## Measured Values And Concentration Evidence
 
@@ -57,7 +72,7 @@ This row is the clean-benchmark counterpart to [[products/mixed-meals-rice-conta
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Risk characterization for this row is pending source ingest. <!-- UNCITED: Need mixed-meal datasets that distinguish non-rice products and report measured concentrations for iAs, Cd, and Pb. -->
+Risk characterization for this row is pending source ingest that can separate non-rice mixed meals from rice-containing mixed meals. <!-- UNCITED: Need mixed-meal datasets that distinguish non-rice products and report measured concentrations for iAs, Cd, and Pb. -->
 
 ## What Drives Variance Across Brands
 
@@ -82,5 +97,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
-No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
-
+- [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
