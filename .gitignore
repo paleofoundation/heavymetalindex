@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+
+# Node / Quartz build output
+node_modules/
+public/
+.quartz-cache/
+tsconfig.tsbuildinfo
+prof/
+
+# Obsidian workspace (personal, not shared)
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/workspaces.json
+
+# Raw source documents — structure tracked via .gitkeep, contents excluded.
+# The corpus is large (23k–27k PDFs) and will be managed outside git.
+raw/studies/*
+raw/reports/*
+raw/industry/*
+raw/news/*
+raw/lab-data/*
+raw/assets/*
+!raw/studies/.gitkeep
+!raw/studies/INGESTED.md
+!raw/reports/.gitkeep
+!raw/reports/INGESTED.md
+!raw/industry/.gitkeep
+!raw/industry/INGESTED.md
+!raw/news/.gitkeep
+!raw/news/INGESTED.md
+!raw/lab-data/.gitkeep
+!raw/lab-data/INGESTED.md
+!raw/assets/.gitkeep
+!raw/assets/INGESTED.md
+
+# Any brand-identifying lab data that accidentally lands in the tree
+# (per CLAUDE.md brand firewall — never committed to this repo)
+**/COA_*
+**/coa_*
+**/*brand-results*
+
+# Replit scratch
+.replit
+replit.nix
+
+# Editor cruft
+*.swp
+*.swo
