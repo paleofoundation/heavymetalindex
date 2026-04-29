@@ -20,7 +20,7 @@ updated: 2026-04-29
 
 # Infant Formula Ingredients
 
-_Stub page. Burrell and Exley 2010 argues that aluminum in infant formula is likely contamination from formula constituents, processing equipment, storage, and packaging rather than an intentionally added ingredient. Chuchu et al. 2013 repeats the ingredient and processing concern and highlights aluminum-based packaging as a plausible contamination route. This page is a graph anchor for formula-input and processing-driver evidence, not a claim that a single ingredient explains all formula aluminum. [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]]_
+_Stub page. Burrell and Exley 2010 argues that aluminum in infant formula is likely contamination from formula constituents, processing equipment, storage, and packaging rather than an intentionally added ingredient. Chuchu et al. 2013 repeats the ingredient and processing concern and highlights aluminum-based packaging as a plausible contamination route. Astolfi et al. 2021 adds an Italian powder-only multi-element survey in which nickel, cadmium, lead, tin, zinc, and manganese support powdered-formula evidence, while aluminum, arsenic, and chromium are retained only as detection-limit context because more than 30% of results were below LOD. This page is a graph anchor for formula-input and processing-driver evidence, not a claim that a single ingredient explains all formula metal findings. [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]] [[sources/astolfi2021-italy-powdered-infant-formula-elements]]_
 
 ## Ranges by source, region, and variety
 
@@ -30,3 +30,4 @@ _Pending input-level occurrence extraction. Current evidence supports product-fo
 
 - [[sources/burrell2010-aluminium-in-infant-formulas]] — formula aluminum format comparison and discussion of possible contamination routes.
 - [[sources/chuchu2013-aluminium-in-infant-formulas]] — 30-product formula aluminum survey and discussion of packaging, ingredients, and processing.
+- [[sources/astolfi2021-italy-powdered-infant-formula-elements]] — Italian powdered infant formula multi-element survey and risk assessment.

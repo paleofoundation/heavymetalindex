@@ -102,6 +102,10 @@ The Digest formula papers add useful source-scope rows, but they mostly report m
 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 17 | as sold or source-reported |  |  | 119 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
 | [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 7 | prepared estimate from powder | 446.8 |  | 592.4 | Source reports product means/ranges and prepared estimates; non-soy powder products are grouped, no p90. |
 | [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 18 | prepared estimate from powder | 194.8 |  | 411 | Source reports product means and prepared estimates; non-soy powder products are grouped, no p90. |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/nickel|Ni]] | 11 formulas; 22 packs | powder as sold | 61.8 |  | 98 | Broad powdered-formula context; soy status not separated, no p90. |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/cadmium|Cd]] | 11 formulas; 22 packs | powder as sold | 2 |  | 6.2 | Broad powdered-formula context; soy status not separated, no p90. |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/lead|Pb]] | 11 formulas; 22 packs | powder as sold | 2 |  | 2.8 | Broad powdered-formula context; soy status not separated, no p90. |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/tin|Sn]] | 11 formulas; 22 packs | powder as sold | 20 |  | 96.9 | Calculated from Table 4 formula-level means; broad powdered-formula context, no p90. |
 | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | [[metals/nickel|Ni]] | not extracted | as sold or source-reported | 27.7 |  | 32 | Infant-formula group mean/range; source does not report p90 or soy status. |
 | [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]] | [[metals/nickel|Ni]] | 13 brands | as sold or source-reported |  |  | 50903 | Range-only source-scope maximum; high value needs PDF image QA before standards math. |
 

@@ -29,3 +29,9 @@ The Category 1 pilot is also the first Evidence Fitness rollout. Pages report wh
 14. [[products/fruit-juice-not-canned|Fruit juice (not canned)]]
 15. [[products/teething-and-snacks-non-rice|Teething & snacks (non-rice)]]
 16. [[products/teething-and-snacks-rice-based|Teething & snacks (rice-based)]]
+
+## Base and Bridge Product Nodes
+
+These pages are graph anchors for sources that report a broader product category than the locked HMTc row split. They should not replace the 16 Category 1 row pages or carry final p90/p100 candidate values unless the evidence is later resolved into a specific row.
+
+- [[products/infant-formula-powder|Infant formula powder]]
