@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-04-29] lint | fda2026-infant-formula-toxic-elements-special-survey — source-table headings surfaced
+Pages touched: [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+Notes: Added an explicit FDA source-table section so the exact table heading "Analytical Results for Arsenic in Infant Formula (FY2023-2025)" is visible on the rendered page. Added a compact arsenic characterization table showing total arsenic (`tAs`), prepared-for-feeding ppb basis, direct Category 1 rows, context-only rows, and Evidence Fitness treatment.
+
 ## [2026-04-29] schema | evidence-first-registers — Evidence Fitness registers and Category 1 governance layer
 Pages touched: [[methodology]], [[editorial-standards]], [[sources/_TEMPLATE]], [[products/index]], [[products/infant-formula-powder-non-soy]], [[products/baby-cereals-dry-rice-based]]
 Notes: Added the tracked evidence-register architecture for the Heavy Metal Index, including Evidence Fitness verdicts, public evidence labels, two-stage review states, deterministic evidence scripts, and the Category 1 infant/child food pilot register. This change keeps the Index as the public evidence layer and HMT&C as a downstream standards consumer; existing source-backed product pages are preserved while gaining the HMT&C firewall and review-state governance layer.

@@ -39,6 +39,31 @@ The structured ingest now keeps all 1,248 sample/analyte rows. Four FDA labels m
 - `data/evidence/values.jsonl` — machine-extracted value records under prefix `category1-formula-digest-`.
 - `data/evidence/sources.jsonl` — source metadata record for this FDA PDF.
 
+## FDA Source Tables Ingested
+
+The FDA PDF is organized as four analyte-specific infant formula tables. The arsenic table is ingested under the wiki metal key `tAs` because FDA reports total arsenic, not inorganic arsenic.
+
+| FDA table heading | Wiki metal key | Rows | Category 1 treatment |
+| --- | --- | ---: | --- |
+| Analytical Results for Arsenic in Infant Formula (FY2023-2025) | `tAs` | 312 | Direct for locked powder and ready-to-feed formula rows; concentrated liquids and amino-acid formulas retained as context. |
+| Analytical Results for Lead in Infant Formula (FY2023-2025) | `Pb` | 312 | Direct for locked powder and ready-to-feed formula rows; concentrated liquids and amino-acid formulas retained as context. |
+| Analytical Results for Cadmium in Infant Formula (FY2023-2025) | `Cd` | 312 | Direct for locked powder and ready-to-feed formula rows; concentrated liquids and amino-acid formulas retained as context. |
+| Analytical Results for Mercury in Infant Formula (FY2023-2025) | `tHg` | 312 | Direct for locked powder and ready-to-feed formula rows; concentrated liquids and amino-acid formulas retained as context. |
+
+## Arsenic Characterization
+
+The arsenic table is characterized as an A-tier FDA special-survey dataset for total arsenic in infant formula, expressed in ppb as prepared for feeding. It is not characterized as inorganic arsenic, not treated as a market-share-weighted distribution, and not used as a final threshold by itself.
+
+| FDA product label | Category 1 fit | N | Detected | p50 | p90 | p95 | p100/max | Evidence Fitness |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Infant Formula, Powder, Cow Milk-based | [[products/infant-formula-powder-non-soy]] | 230 | 212 | 0.4 | 1.3 | 2.0 | 4.7 | EF-2 |
+| Infant Formula, Powder, Soy-based | [[products/infant-formula-powder-soy-based]] | 38 | 38 | 1.1 | 1.5 | 1.9 | 2.2 | EF-2 |
+| Infant Formula, Ready-to-Feed Liquid, Cow Milk-based | [[products/infant-formula-rtf-liquid-non-soy]] | 20 | 20 | 0.7 | 1.2 | 1.3 | 3.0 | EF-2 |
+| Infant Formula, Ready-to-Feed Liquid, Soy-based | [[products/infant-formula-rtf-liquid-soy-based]] | 3 | 3 | 1.2 | 1.3 | 1.3 | 1.3 | EF-3 |
+| Infant Formula, Concentrated Liquid, Cow Milk-based | [[products/infant-formula-concentrated-liquid-non-soy]] bridge context | 8 | 8 | 0.3 | 0.4 | NA | 0.4 | EF-4 |
+| Infant Formula, Concentrated Liquid, Soy-based | [[products/infant-formula-concentrated-liquid-soy-based]] bridge context | 3 | 3 | 0.6 | 0.7 | NA | 0.7 | EF-4 |
+| Infant Formula, Powder, Amino Acid-based | outside locked Category 1 rows | 10 | 10 | 1.1 | 1.8 | NA | 2.5 | EF-4 |
+
 ## Source Table Counts
 
 Each FDA analyte table contains 312 infant-formula rows. The sample labels are stable across arsenic, lead, cadmium, and mercury.
