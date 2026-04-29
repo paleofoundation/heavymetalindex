@@ -31,10 +31,25 @@ This page is a structural scaffold for HMTc Category 1 row 9. Four broad Categor
 
 ## Scaffold Status
 
-- Page state: structural scaffold, not synthesis.
-- Source coverage: 4 A-tier / 0 B-tier sources.
+- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
+- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
 - Next ingest target: root-vegetable puree datasets for [[metals/cadmium|Cd]] and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Measured Values And Concentration Evidence
+
+<!-- audience: regulator, educator, consumer, app -->
+
+Root-vegetable evidence includes FDA TDS named baby food sweet potato lead data and broader UK vegetable/potato categories.
+
+| Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead|Lead]] | FDA TDS baby food sweet potatoes | 21 ug/kg hybrid mean | 21 ppb | [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Specific baby-food sweet-potato signal; not all root purees. |
+| [[metals/lead|Lead]] | FDA proposed lead action level for root vegetables | 20 ppb | 20 ppb | [[sources/price2023-baby-food-lead-biokinetic-models]] | Regulatory proposal/action-level context, not occurrence distribution. |
+| [[metals/cadmium|Cadmium]] | UK potatoes used in infant diet modeling | 21 ug/kg | 21 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Ingredient group, not finished puree. |
+| [[metals/lead|Lead]] | UK potatoes used in infant diet modeling | 0 to 1 ug/kg | 0 to 1 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Ingredient group, not finished puree. |
+| [[metals/cadmium|Cadmium]] | UK other vegetables used in infant diet modeling | 17 ug/kg | 17 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Mixed vegetable category; may include root vegetables. |
+| [[metals/lead|Lead]] | UK other vegetables used in infant diet modeling | 7 to 8 ug/kg | 7 to 8 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Mixed vegetable category; may include root vegetables. |
 
 ## Row Relationship
 
@@ -74,6 +89,8 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
+- [[sources/spungen2024-fda-tds-infant-lead-cadmium]]
+- [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/price2023-baby-food-lead-biokinetic-models]]

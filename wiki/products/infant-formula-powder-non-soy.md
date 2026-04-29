@@ -30,7 +30,7 @@ This page is a product-category evidence page for HMTc Category 1 row 1. The cur
 ## Scaffold Status
 
 - Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
-- Source coverage: 5 A-tier / 0 B-tier sources.
+- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
 - Next ingest target: non-soy powdered infant formula datasets that distinguish protein source while measuring [[metals/aluminum|Al]], [[metals/nickel|Ni]], [[metals/cadmium|Cd]], and the full testing panel.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -38,20 +38,22 @@ This page is a product-category evidence page for HMTc Category 1 row 1. The cur
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The current evidence base supports broad infant-formula and formula-powder values, but not a finished non-soy powder distribution. Values below are therefore tagged by product-match strength rather than presented as a final row-specific ppb spread.
+The current evidence base supports broad cow-milk infant-formula, formula-powder, and powdered-milk values, but not a finished non-soy powder distribution. Values below are tagged by product-match strength rather than presented as a final row-specific ppb spread.
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/aluminum|Aluminum]] | Brazilian cow-milk phase 1/2 formulas | 0.432 to 1.241 mg/kg | 432 to 1241 ppb | [[sources/almeida2022-brazil-infant-formula-toxic-metals]] | Cow-milk formula powder; market-specific to Brazil. |
+| [[metals/arsenic-total|Total arsenic]] | Brazilian cow-milk phase 1/2 formulas | 0.012 to 0.034 mg/kg | 12 to 34 ppb | [[sources/almeida2022-brazil-infant-formula-toxic-metals]] | Total arsenic, not iAs; cow-milk formula powder. |
 | [[metals/arsenic-total|Total arsenic]] | 15 infant formulas without organic brown rice syrup | 2 to 12 ng/g | 2 to 12 ppb | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]] | Broad infant-formula evidence; does not split powder/non-soy/soy. |
-| [[metals/arsenic-inorganic|Inorganic arsenic]] | Reconstituted organic brown-rice-syrup toddler formula, dairy-based | 8 to 9 ug/L | 8 to 9 ppb in liquid formula | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]] | Toddler formula and ingredient-specific evidence, not infant formula row 1. |
-| [[metals/arsenic-inorganic|Inorganic arsenic]] | Reconstituted organic brown-rice-syrup toddler formula, soy-based | 1.5 to 2.5 times the 10 ug/L drinking-water standard | approximately 15 to 25 ppb in liquid formula | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]] | Soy-based toddler formula; useful for contrast, not row 1 non-soy powder. |
-| [[metals/arsenic-total|Total arsenic]] | Formula powder cited in infant arsenic biomarker study | up to 12.6 ug/kg | up to 12.6 ppb | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Secondary citation within biomarker study; does not split soy/non-soy. |
-| [[metals/cadmium|Cadmium]] | Infant formula in EFSA-cited Czech infant intake study | median 0.6 ug/kg | 0.6 ppb | [[sources/efsa-cadmium-contam-2009]] | Broad infant-formula value; not split by powder/non-soy. |
-| [[metals/lead|Lead]] | Infant formula stage 1 and stage 2 scoping-review grouping | median 0.015 mg/kg | 15 ppb | [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] | Stage grouping; not split by powder/non-soy. |
-| [[metals/cadmium|Cadmium]] | Powdered milk in Italian baby-food analytical study | below LOD in all samples | below 5 ppb LOD | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Powdered milk category; does not split soy/non-soy formula. |
-| [[metals/lead|Lead]] | Powdered milk in Italian baby-food analytical study | below LOD in all samples | below 100 ppb LOD | [[sources/meli2024-chemical-characterization-baby-food-italy]] | LOD is too high for many modern infant-food lead benchmarks. |
-| [[metals/mercury-total|Total mercury]] | Italian baby-food analytical study | detectable in all samples | concentration table extraction pending | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Study reports total mercury, not methylmercury; product-row concentration still needs table-level extraction. |
-| [[metals/nickel|Nickel]] | Powdered milk sample in Italian baby-food analytical study | estimated daily intake 9.43 ug/kg body weight/day | not a concentration ppb value | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Intake estimate, not product concentration; still relevant to row-risk screening. |
+| [[metals/arsenic-total|Total arsenic]] | China cow milk-based formulas, n=93 | mean 3.32 ug/kg; range 0.89 to 7.87 ug/kg | mean 3.32 ppb; range 0.89 to 7.87 ppb | [[sources/chung2021-china-infant-formula-toxic-elements]] | Cow-milk formula; arsenic species not resolved. |
+| [[metals/cadmium|Cadmium]] | China cow milk-based formulas, n=93 | mean 0.98 ug/kg; range 0.13 to 3.58 ug/kg | mean 0.98 ppb; range 0.13 to 3.58 ppb | [[sources/chung2021-china-infant-formula-toxic-elements]] | Cow-milk formula; does not split HMTc powder/RTF. |
+| [[metals/lead|Lead]] | China cow milk-based formulas, n=93 | mean 2.03 ug/kg; range 0.36 to 5.75 ug/kg | mean 2.03 ppb; range 0.36 to 5.75 ppb | [[sources/chung2021-china-infant-formula-toxic-elements]] | Cow-milk formula; does not split HMTc powder/RTF. |
+| [[metals/chromium|Chromium]] | China cow milk-based formulas, n=93 | mean 27.38 ug/kg; range 2.51 to 83.80 ug/kg | mean 27.38 ppb; range 2.51 to 83.80 ppb | [[sources/chung2021-china-infant-formula-toxic-elements]] | Total chromium, not Cr-VI. |
+| [[metals/arsenic-inorganic|Inorganic arsenic]] | UK dry first/hungrier milk, as sold | 0.7 to 1.8 ug/kg | 0.7 to 1.8 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | UK category average; not brand-level. |
+| [[metals/cadmium|Cadmium]] | UK dry first/hungrier milk, as sold | 3 to 4 ug/kg | 3 to 4 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | UK category average; not brand-level. |
+| [[metals/lead|Lead]] | UK dry first/hungrier milk, as sold | 1 to 4 ug/kg | 1 to 4 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | UK category average; not brand-level. |
+| [[metals/tin|Tin]] | Brazilian cow-milk phase 1/2 formulas | 0.007 to 0.095 mg/kg | 7 to 95 ppb | [[sources/almeida2022-brazil-infant-formula-toxic-metals]] | Cow-milk formula powder; market-specific to Brazil. |
+| [[metals/mercury-total|Total mercury]] | Brazilian cow-milk phase 1/2 formulas | not detected or below LOQ | below method LOQ | [[sources/almeida2022-brazil-infant-formula-toxic-metals]] | Total mercury; MeHg not measured. |
 
 ## Row Relationship
 
@@ -97,6 +99,10 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
+- [[sources/spungen2024-fda-tds-infant-lead-cadmium]]
+- [[sources/fsa2016-infant-food-formula-metals-survey]]
+- [[sources/almeida2022-brazil-infant-formula-toxic-metals]]
+- [[sources/chung2021-china-infant-formula-toxic-elements]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/efsa-cadmium-contam-2009]]
 - [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]

@@ -50,10 +50,26 @@ This page is a structural scaffold for HMTc Category 1 row 11. Three fish, mercu
 
 ## Scaffold Status
 
-- Page state: structural scaffold, not synthesis.
-- Source coverage: 3 A-tier / 0 B-tier sources.
+- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
+- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
 - Next ingest target: fish-containing baby-food or fish ingredient datasets that report both [[metals/mercury-total|tHg]] and [[metals/mercury-methyl|MeHg]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Measured Values And Concentration Evidence
+
+<!-- audience: regulator, educator, consumer, app -->
+
+Fish-containing baby foods have arsenic and mercury signals, but many sources group fish with mixed fish/meat foods or total diet stages.
+
+| Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-total|Arsenic]] | Fish/fish-mix baby foods in global scoping review | median 0.165 mg/kg | 165 ppb | [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] | Broad fish/fish-mix category. |
+| [[metals/mercury-total|Mercury]] | Fish/fish-mix baby foods in global scoping review | median 0.016 mg/kg | 16 ppb | [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] | Mercury species not guaranteed across included studies. |
+| [[metals/mercury-total|Total mercury]] | Baby food stage 3 duplicate-diet stage | median 0.445 ng/g wet weight | 0.445 ppb wet weight | [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]] | Total diet stage, not isolated commercial fish baby food. |
+| [[metals/methylmercury|Methylmercury]] | Baby food stage 3 duplicate-diet stage | median intake 22.5 ng/kg bw/day | not a concentration ppb value | [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]] | Intake estimate; fish is a likely driver. |
+| [[metals/arsenic-total|Total arsenic]] | UK meat and fish based infant foods/dishes | 15 ug/kg | 15 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish. |
+| [[metals/cadmium|Cadmium]] | UK meat and fish based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish. |
+| [[metals/lead|Lead]] | UK meat and fish based infant foods/dishes | 4 to 5 ug/kg | 4 to 5 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish. |
 
 ## Row Relationship
 
@@ -97,6 +113,7 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
+- [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/meli2024-chemical-characterization-baby-food-italy]]
 - [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]]
