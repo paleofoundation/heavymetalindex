@@ -21,29 +21,46 @@ cc_relationship:
       metals: [Cd, Pb]
       notes: "Cross-row CC: clean counterpart lives in row 8, not as a sibling within a vegetable-purees base split."
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-28
-sources: 4
+updated: 2026-04-29
+sources: 7
 ---
 
 # Root-Vegetable Purees
 
-This page is a structural scaffold for HMTc Category 1 row 9. Four broad Category 1 sources have been promoted; puree-specific concentration distributions are still pending.
+This page is a structural scaffold for HMTc Category 1 row 9. Quantitative evidence now includes a small root-vegetable baby-food distribution, FDA TDS named baby food sweet potato lead data, and broader UK vegetable/potato category values; puree-specific p10/p90/p100 distributions remain incomplete.
 
 ## Scaffold Status
 
-- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
-- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
-- Next ingest target: root-vegetable puree datasets for [[metals/cadmium|Cd]] and [[metals/lead|Pb]].
+- Page state: evidence-backed scaffold with first distribution entries; row-specific synthesis remains incomplete.
+- Source coverage: measured-values and distribution tables populated from promoted sources; row-fit caveats remain in the tables.
+- Next ingest target: root-vegetable puree datasets for [[metals/cadmium|Cd]] and [[metals/lead|Pb]] that report individual-product percentile distributions.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Distribution Summary For Threshold Work
+
+<!-- audience: regulator, educator, app -->
+
+Parker 2022 provides a small root-vegetable baby-food distribution with N=9. It supports min/mean/median/max summaries for total arsenic, cadmium, mercury, and lead, but it does not provide p10 or p90 and does not resolve individual root vegetables such as sweet potato versus carrot. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+
+| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
+| --- | --- | --- | ---: | --- | --- | --- | --- |
+| Root-vegetable baby-food distribution | [[metals/arsenic-total|Total arsenic]] | Root-vegetable baby foods | 9 | min, mean, median, max, detection rate | min 5 ppb; mean 10.8 ppb; median 12 ppb; max 22 ppb; detected 9/9 | Supports median/max only | Total arsenic, not iAs; no p10/p90. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| Root-vegetable baby-food distribution | [[metals/cadmium|Cadmium]] | Root-vegetable baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 3.8 ppb; median 5 ppb; max 5 ppb; detected 6/9 | Supports median/max only | Small N; no p10/p90; values include study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| Root-vegetable baby-food distribution | [[metals/lead|Lead]] | Root-vegetable baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 15.8 ppb; median 5 ppb; max 48 ppb; detected 8/9 | Supports median/max only | Small N; no p10/p90; values include study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| Root-vegetable baby-food distribution | [[metals/mercury-total|Total mercury]] | Root-vegetable baby foods | 9 | detection rate, substituted value | no detections; table value 1.5 ppb after ND substitution | Does not support p10/p90/p100 | ND substitution reflects the study's exposure model, not a measured concentration. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| Named baby-food concentration | [[metals/lead|Lead]] | FDA TDS baby food sweet potatoes | not extracted | hybrid mean | 21 ppb | Does not support p10/p90/p100 | Named food signal, not a full root-puree distribution. [[sources/spungen2024-fda-tds-infant-lead-cadmium]] |
 
 ## Measured Values And Concentration Evidence
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Root-vegetable evidence includes FDA TDS named baby food sweet potato lead data and broader UK vegetable/potato categories.
+Root-vegetable evidence includes Parker 2022 root-vegetable distributions, FDA TDS named baby food sweet potato lead data, and broader UK vegetable/potato categories.
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/lead|Lead]] | Parker 2022 root-vegetable baby foods | mean 15.8 ppb; median 5 ppb; max 48 ppb | mean 15.8 ppb; median 5 ppb; max 48 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Root group, N=9; no p10/p90. |
+| [[metals/cadmium|Cadmium]] | Parker 2022 root-vegetable baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median 5 ppb; max 5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Root group, N=9; includes substitution conventions. |
+| [[metals/arsenic-total|Total arsenic]] | Parker 2022 root-vegetable baby foods | mean 10.8 ppb; median 12 ppb; max 22 ppb | mean 10.8 ppb; median 12 ppb; max 22 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Total arsenic, not iAs. |
 | [[metals/lead|Lead]] | FDA TDS baby food sweet potatoes | 21 ug/kg hybrid mean | 21 ppb | [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Specific baby-food sweet-potato signal; not all root purees. |
 | [[metals/lead|Lead]] | FDA proposed lead action level for root vegetables | 20 ppb | 20 ppb | [[sources/price2023-baby-food-lead-biokinetic-models]] | Regulatory proposal/action-level context, not occurrence distribution. |
 | [[metals/cadmium|Cadmium]] | UK potatoes used in infant diet modeling | 21 ug/kg | 21 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Ingredient group, not finished puree. |
@@ -64,6 +81,10 @@ A 2022 narrative review summarized Parker et al. 2022 as finding arsenic in 100%
 A 2025 scoping review reported that Pb was detected in 97% of roots-and-tubers baby-food items and that roots/tubers had a median Pb concentration of 0.007 mg/kg among detected items. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 
 A 2018 infant biomarker study found that, among weaning infants, vegetable intake was associated with the sum of urinary arsenic species (Spearman rho = 0.86, p = 0.01), but the study grouped vegetables as a dietary category rather than isolating root-vegetable purees. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
+
+Parker 2022 found the highest lead maximum in its root-vegetable group, with N=9, 88% detection, mean 15.8 ppb, median 5 ppb, and max 48 ppb. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+
+Gardener 2019 reported elevated lead values in foods containing sweet potatoes, making sweet-potato-containing purees a priority follow-up target. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
 
 ## What Drives Variance Across Brands
 
@@ -95,3 +116,5 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/price2023-baby-food-lead-biokinetic-models]]
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
+- [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+- [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
