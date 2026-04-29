@@ -20,7 +20,7 @@ updated: 2026-04-29
 
 # Soy
 
-_Stub page. Burrell and Exley 2010 reports a soy-based infant formula powder with aluminum of 4.3 ug/g powder, equivalent to 629 ug/L when prepared according to manufacturer instructions. Chuchu et al. 2013 reports two soy-based infant formula powders with prepared estimates of 656 and 756 ug/L. Burrell and Exley suggest the elevated soy-formula value may reflect prior aluminum accumulation in soybean plants and aluminum tolerance of some soybean cultivars grown on acid soils, but neither source provides a soybean-only occurrence distribution. [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]]_
+_Stub page. Kazi et al. 2009 reports higher average Al, Cd, and Pb in soy-based infant formula than milk-based formula in its Pakistan-market sample set, with soy-based formula means of Al 2270 ppb, Cd 11.7 ppb, and Pb 109.4 ppb on a dried-powder basis. Burrell and Exley 2010 reports a soy-based infant formula powder with aluminum of 4.3 ug/g powder, equivalent to 629 ug/L when prepared according to manufacturer instructions. Chuchu et al. 2013 reports two soy-based infant formula powders with prepared estimates of 656 and 756 ug/L. Burrell and Exley suggest the elevated soy-formula value may reflect prior aluminum accumulation in soybean plants and aluminum tolerance of some soybean cultivars grown on acid soils, but none of these sources provides a soybean-only occurrence distribution. [[sources/kazi2009-toxic-elements-in-infant-formulae]] [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]]_
 
 ## Ranges by source, region, and variety
 
@@ -30,3 +30,4 @@ _Pending soy-specific occurrence extraction. Current Category 1 evidence is file
 
 - [[sources/burrell2010-aluminium-in-infant-formulas]] — soy-based infant formula powder aluminum value and discussion of soybean accumulation as a possible driver.
 - [[sources/chuchu2013-aluminium-in-infant-formulas]] — two soy-based infant formula powder aluminum values and aluminum-based packaging discussion.
+- [[sources/kazi2009-toxic-elements-in-infant-formulae]] — Pakistan-market soy-based infant formula Al, Cd, and Pb comparison against milk-based formula.
