@@ -20,20 +20,35 @@ cc_relationship:
       role_of_partner: clean_benchmark
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-28
-sources: 2
+updated: 2026-04-29
+sources: 5
 ---
 
 # Teething & Snacks (Rice-Based)
 
-This page is a structural scaffold for HMTc Category 1 row 16. Broad rice/rice-mix baby-food sources have been promoted; teething/snack-specific datasets are still pending.
+This page is a structural scaffold for HMTc Category 1 row 16. Broad rice/rice-mix baby-food, snack, and teething-biscuit sources have been promoted; rice-snack-specific p10/p90/p100 datasets are still pending.
 
 ## Scaffold Status
 
-- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
-- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
+- Page state: evidence-backed scaffold with first distribution context; row-specific synthesis remains incomplete.
+- Source coverage: measured-values table populated from promoted sources; row-fit caveats remain in the table.
 - Next ingest target: teething-food and snack datasets for rice-based products, especially [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Distribution Summary For Threshold Work
+
+<!-- audience: regulator, educator, app -->
+
+The current source set does not yet support a rice-based snack p10/p90/p100 distribution. Gardener 2019 includes a snacks category and provides broad all-sample lead/cadmium percentiles, while the UK survey reports average sweet-and-savoury snack concentrations with notably higher arsenic, cadmium, lead, and nickel than many other infant-food categories. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] [[sources/fsa2016-infant-food-formula-metals-survey]]
+
+| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
+| --- | --- | --- | ---: | --- | --- | --- | --- |
+| UK snack category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Sweet and savoury snacks | not extracted | category average/range | 58 to 62 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK snack category average | [[metals/cadmium|Cadmium]] | Sweet and savoury snacks | not extracted | category average | 24 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK snack category average | [[metals/lead|Lead]] | Sweet and savoury snacks | not extracted | category average | 10 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK snack category average | [[metals/nickel|Nickel]] | Sweet and savoury snacks | not extracted | category average | 292 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad context only | All categories combined; snack-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
+| All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad context only | All categories combined; snack-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 
 ## Measured Values And Concentration Evidence
 
@@ -63,6 +78,8 @@ A 2025 scoping review reported that rice/rice-mix baby foods had median Pb of 0.
 
 A 2022 narrative review identifies rice-based weaning products as an arsenic concern and cites evidence of increased infant urinary inorganic arsenic metabolites after weaning with rice products. [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 
+Gardener 2019 reported that cadmium values were higher in foods containing rice, quinoa, wheat, and oats and that lead values were elevated in foods containing rice, quinoa, and sweet potatoes. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
@@ -91,3 +108,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+- [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
