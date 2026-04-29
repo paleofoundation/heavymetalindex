@@ -15,29 +15,46 @@ cc_relationship:
   scope: none
   partners: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-28
-sources: 4
+updated: 2026-04-29
+sources: 6
 ---
 
 # Fruit Purees
 
-This page is a structural scaffold for HMTc Category 1 row 7. Broad fruit baby-food and infant solid-food sources have been promoted; fruit-puree-specific distributions are still pending.
+This page is a structural scaffold for HMTc Category 1 row 7. Quantitative evidence now includes a small fruit baby-food distribution and broader fruit-based infant-food category values; fruit-by-fruit puree p10/p90/p100 distributions remain incomplete.
 
 ## Scaffold Status
 
-- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
-- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
-- Next ingest target: fruit puree concentration datasets across the Category 1 metal panel.
+- Page state: evidence-backed scaffold with first distribution entries; row-specific synthesis remains incomplete.
+- Source coverage: measured-values and distribution tables populated from promoted sources; row-fit caveats remain in the tables.
+- Next ingest target: fruit puree concentration datasets across the Category 1 metal panel that report individual-product percentile distributions.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Distribution Summary For Threshold Work
+
+<!-- audience: regulator, educator, app -->
+
+Parker 2022 provides a small fruit baby-food distribution with N=9. It supports min/mean/median/max summaries for total arsenic, cadmium, mercury, and lead, but it does not provide p10 or p90 and does not separate apple, pear, peach, banana, or other fruit types. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+
+| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
+| --- | --- | --- | ---: | --- | --- | --- | --- |
+| Fruit baby-food distribution | [[metals/arsenic-total|Total arsenic]] | Fruit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 3.8 ppb; median 5 ppb; max 5 ppb; detected 6/9 | Supports median/max only | Total arsenic, not iAs; no p10/p90; includes study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| Fruit baby-food distribution | [[metals/cadmium|Cadmium]] | Fruit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 4.4 ppb; median 1.5 ppb; max 16 ppb; detected 3/9 | Supports median/max only | Small N; no p10/p90; includes study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| Fruit baby-food distribution | [[metals/lead|Lead]] | Fruit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 2.7 ppb; median 1.5 ppb; max 5 ppb; detected 3/9 | Supports median/max only | Small N; no p10/p90; includes study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| Fruit baby-food distribution | [[metals/mercury-total|Total mercury]] | Fruit baby foods | 9 | detection rate, substituted value | no detections; table value 1.5 ppb after ND substitution | Does not support p10/p90/p100 | ND substitution reflects the study's exposure model, not a measured concentration. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
+| UK category average | [[metals/nickel|Nickel]] | UK fruit-based infant foods/dishes | not extracted | category average/range | 92 to 117 ppb | Does not support p10/p90/p100 | Fruit-based group, not puree-only or fruit-specific. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 
 ## Measured Values And Concentration Evidence
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Fruit-puree evidence comes from fruit-based infant food groupings and infant arsenic biomarker literature. Sources do not yet provide fruit-by-fruit puree distributions.
+Fruit-puree evidence comes from fruit baby-food distributions, fruit-based infant food groupings, and infant arsenic biomarker literature. Sources do not yet provide fruit-by-fruit puree distributions.
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/lead|Lead]] | Parker 2022 fruit baby foods | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Fruit group, N=9; no p10/p90. |
+| [[metals/cadmium|Cadmium]] | Parker 2022 fruit baby foods | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Fruit group, N=9; includes substitution conventions. |
+| [[metals/arsenic-total|Total arsenic]] | Parker 2022 fruit baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median 5 ppb; max 5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Total arsenic, not iAs. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | Popular fruit and vegetable purees cited in infant arsenic study | up to 20 ug/kg | up to 20 ppb | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Secondary citation combines fruit and vegetable purees. |
 | [[metals/arsenic-total|Total arsenic]] | UK fruit-based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Fruit-based group, not puree-only. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK fruit-based infant foods/dishes | 1 to 4 ug/kg | 1 to 4 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Fruit-based group, not puree-only. |
@@ -90,3 +107,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/price2023-baby-food-lead-biokinetic-models]]
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 - [[sources/meli2024-chemical-characterization-baby-food-italy]]
+- [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
