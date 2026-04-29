@@ -28,7 +28,7 @@ cc_relationship:
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 12
+sources: 15
 ---
 
 # Infant Formula, Powder (Non-Soy)
@@ -74,11 +74,35 @@ This table lists what each source actually reports. It does not calculate the HM
 | [[metals/lead|Pb]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 8.2 to 43.9 ppb | 43.9 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
 | [[metals/arsenic-total|tAs]] | Infant formulas without organic brown rice syrup | 15 | range | 2 to 12 ppb | 12 ppb | Broad infant-formula evidence; powder/non-soy/soy not split. | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|6]] |
 
+## Extracted Formula Concentration Rows
+
+<!-- audience: regulator, educator, app -->
+
+The FDA 2026 special survey is the first source in this row that gives a reconstructable current U.S. product-label subset with p50, p90, and p100 values. These values are expressed as prepared for feeding, so they should not be silently pooled with dry-powder-as-sold ppb values. The extraction below uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; the full extracted register is in `data/evidence/category1_formula_concentration_summary.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+
+| Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
+| --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| [[metals/arsenic-total|tAs]] | 230 | 212 | 18 | prepared for feeding; <LOD=0 lower-bound | 0.2 | 0.4 | 1.3 | 2 | 4.7 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/lead|Pb]] | 230 | 169 | 61 | prepared for feeding; <LOD=0 lower-bound | 0 | 0.2 | 0.4 | 0.5 | 0.6 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/cadmium|Cd]] | 230 | 145 | 85 | prepared for feeding; <LOD=0 lower-bound | 0 | 0.2 | 0.4 | 0.5 | 1.3 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/mercury-total|tHg]] | 230 | 3 | 227 | prepared for feeding; <LOD=0 lower-bound | 0 | 0 | 0 | 0 | 0.3 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+
+The Digest formula papers add useful source-scope rows, but they mostly report means, medians, ranges, or maxima rather than p90. These rows support the evidence pool and p100/max context; they do not by themselves select a final aggregate p90.
+
+| Source | Metal | N | Basis | Mean | Median / p50 | Max / p100 | Use note |
+| --- | --- | ---: | --- | ---: | ---: | ---: | --- |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 57 | as consumed | 177 | 44 | 1004 | Source reports summary statistics but not p90. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 57 | as consumed | 0.17 | 0.06 | 1.21 | Source reports summary statistics but not p90. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 57 | as consumed | 0.65 | 0.34 | 3.46 | Source reports summary statistics but not p90. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/aluminum|Al]] | 17 | as sold or source-reported |  |  | 2170 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/cadmium|Cd]] | 17 | as sold or source-reported |  |  | 34.4 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 17 | as sold or source-reported |  |  | 119 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
+
 ## CC Candidate Summary
 
 <!-- audience: regulator, educator, app -->
 
-This is the standards-facing summary for Step 0F logic. The p90 belongs here only after a clean-platform distribution has been selected or aggregated. This page does not yet contain a validated CC Source Data Package for row 1.
+This is the standards-facing summary for Step 0F logic. The p90 belongs here only after a clean-platform distribution has been selected or aggregated. The FDA 2026 special survey now provides a current U.S. lower-bound prepared-for-feeding p90 subset for tAs, Pb, Cd, and tHg, but those values still need review for clean-platform inclusion, basis matching, and non-detect handling before they become a validated CC Source Data Package.
 
 | HMT&C analyte | Path A p90 status | Current CC candidate status | What is still needed |
 | --- | --- | --- | --- |
@@ -195,3 +219,6 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/meli2024-chemical-characterization-baby-food-italy]]
 - [[sources/spungen2024-fda-tds-infant-lead-cadmium]]
 - [[sources/efsa-cadmium-contam-2009]]
+- [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+- [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]]
+- [[sources/kazi2009-toxic-elements-in-infant-formulae]]

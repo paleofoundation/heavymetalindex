@@ -29,7 +29,7 @@ cc_relationship:
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 8
+sources: 13
 ---
 
 # Infant Formula, Powder (Soy-Based)
@@ -65,6 +65,29 @@ The current source set still does not support a modern soy-powder p10/p90/p100 c
 | UK category average | [[metals/nickel|Nickel]] | UK dry soy-based formula, as sold | not extracted | category average | 200 ppb | Does not support p10/p90/p100 | Direct soy dry-formula category average; UK market. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | EU pooled market-basket concentration | [[metals/cadmium|Cadmium]] | EU starting and follow-on soy formula baskets | 42 total formula products pooled into baskets | basket values | 15.8 to 18.3 ppb | Does not support p10/p90/p100 | Pooled baskets, not individual products; unit normalization still needs source-table QA. [[sources/pandelova2012-eu-baby-food-formula-elements]] |
 | EU pooled market-basket concentration | [[metals/lead|Lead]] | EU starting and follow-on soy formula baskets | 42 total formula products pooled into baskets | basket values | 20.1 to 30.5 ppb | Does not support p10/p90/p100 | Pooled baskets, not individual products; unit normalization still needs source-table QA. [[sources/pandelova2012-eu-baby-food-formula-elements]] |
+
+## Extracted Formula Concentration Rows
+
+<!-- audience: regulator, educator, app -->
+
+The FDA 2026 special survey provides a current U.S. product-label subset for soy-based powdered formula, expressed as prepared for feeding. These rows are useful for p50/p90/p100 work, but they still require review for clean-platform inclusion and non-detect policy before any certification candidate is selected. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+
+| Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
+| --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| [[metals/arsenic-total|tAs]] | 38 | 38 | 0 | prepared for feeding; <LOD=0 lower-bound | 0.7 | 1.1 | 1.5 | 1.9 | 2.2 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/lead|Pb]] | 38 | 38 | 0 | prepared for feeding; <LOD=0 lower-bound | 0.2 | 0.3 | 0.5 | 0.5 | 1.1 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/cadmium|Cd]] | 38 | 38 | 0 | prepared for feeding; <LOD=0 lower-bound | 0.5 | 0.8 | 1.2 | 1.3 | 1.4 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/mercury-total|tHg]] | 38 | 4 | 34 | prepared for feeding; <LOD=0 lower-bound | 0 | 0 | 0.08 | 0.2 | 0.3 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+
+Digest formula papers add soy-specific aluminum and cadmium context, mostly as source-reported means, medians, ranges, or maxima rather than p90.
+
+| Source | Metal | N | Basis | Mean | Median / p50 | Max / p100 | Use note |
+| --- | --- | ---: | --- | ---: | ---: | ---: | --- |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 15 | as consumed | 733 | 713 | 1461 | Source reports summary statistics but not p90. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 15 | as consumed | 1.56 | 1.39 | 3.47 | Source reports summary statistics but not p90. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 15 | as consumed |  | 1.27 | 1.9 | Pb mean in the OCR table is ambiguous; median/range retained only. |
+| [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 1 | source-reported prepared estimate |  |  | 629 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
+| [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 2 | source-reported prepared estimate |  |  | 756 | Range supports source-scope p100/max only; it does not establish p50 or p90. |
 
 ## Measured Values And Concentration Evidence
 
@@ -137,3 +160,8 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 - [[sources/meli2024-chemical-characterization-baby-food-italy]]
+- [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+- [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]]
+- [[sources/kazi2009-toxic-elements-in-infant-formulae]]
+- [[sources/burrell2010-aluminium-in-infant-formulas]]
+- [[sources/chuchu2013-aluminium-in-infant-formulas]]
