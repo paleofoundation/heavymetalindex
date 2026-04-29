@@ -342,11 +342,13 @@ updated: 2026-04-22
 ---
 ```
 
-Sections: Certification-relevant distribution, How to read these percentiles, Evidence used for this row, Exposure estimates, Why this category is high-risk, What drives variance across brands, How the app would estimate risk from an ingredient list, Historical recalls and enforcement (frame as regulatory events, not brand rankings — see Part 12), Source legend, Sources.
+Sections: Source evidence inventory, CC candidate summary, How standards math uses this page, Exposure estimates, Why this category is high-risk, What drives variance across brands, How the app would estimate risk from an ingredient list, Historical recalls and enforcement (frame as regulatory events, not brand rankings — see Part 12), Source legend, Sources.
 
-The `Certification-relevant distribution` section separates measured product concentrations from intake or exposure estimates. It should show, by metal and evidence scope, the available n, p10, p50, p90, p95, and p100/max values when the source provides enough data. If the source only reports a range, category mean, pooled basket, or exposure estimate, label it as such instead of forcing it into a percentile table.
+The `Source evidence inventory` section separates measured product concentrations from intake or exposure estimates. It should show what each source actually reports: metal, evidence scope, n, statistic type, reported values, units, max/p100 if directly reported or derivable from a range, row-fit, and whether the source is eligible for HMT&C CC selection. Do not add p10, p50, p90, or p95 columns to source rows unless the source itself reports those statistics.
 
-The `How to read these percentiles` section belongs immediately after the distribution table. For lower-is-better concentration data, p100/max means the lowest cutoff at which 100 percent of the observed pool would pass; when all observed samples are included, this is the observed maximum. p90 means the cutoff at which roughly 90 percent of the observed pool would pass, and p50 means the median. p10 can be used as a cleaner-tail or best-in-class reference, not as a category-wide feasibility claim.
+The `CC candidate summary` section is the only public product-page section that should display p90 for threshold math. It has one row per subcategory x HMT&C analyte cell and mirrors the Step 0F CC Source Data Package: Path A uses the 90th percentile of the selected clean-platform distribution; Path B uses 5x LOQ when Path A data is insufficient. If the CC candidate has not been computed or validated yet, say so rather than displaying a provisional-looking number.
+
+The `How standards math uses this page` section explains that p90 is an aggregate or selected-dataset value, not a per-source decoration. For lower-is-better concentration data, p100/max in a source evidence row means the highest observed concentration in that source's scoped pool. p90 means the cutoff at which roughly 90 percent of the selected clean-platform distribution would pass, and it belongs in the CC candidate package after inclusion/exclusion and scoping decisions are made.
 
 Do not combine geography, period, and product-fit scopes without labeling the consequence. A U.S. threshold proposal should prefer current U.S. data for the exact row. Global, historical, pooled, or adjacent-category data can be shown as context, but the page must state that those data have lower weight for U.S. certification math.
 
@@ -625,7 +627,9 @@ Flag contradictions explicitly. If a B-tier source conflicts with an A-tier sour
 
 Units: Always ppb (µg/kg) for food matrices unless a source uses different units, in which case convert and note the original. Always specify wet weight vs dry weight.
 
-Metal names: Use Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sb, U. Spell out on first use per page. The iAs vs tAs distinction is non-negotiable; never conflate them.
+Metal names: Use Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U. Spell out on first use per page. The iAs vs tAs distinction is non-negotiable; never conflate them. The tHg vs MeHg distinction is also non-negotiable, and total Cr must never be treated as Cr-VI unless the source speciates hexavalent chromium.
+
+HMT&C analyte vocabulary: The current certification testing program tracks ten analytes: Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, and Sn. The wiki may discuss other metals in the corpus, but product-category threshold-development pages must keep this official analyte list distinct from broader literature metals. If an older HMT&C protocol refers to an "8 metals grid," reconcile it to the current analyte list before hardening schemas or publishing standards values.
 
 Dates: ISO-8601 (YYYY-MM-DD) everywhere.
 
@@ -721,7 +725,7 @@ When Karen asks Claude to propose a threshold for HMT&C:
 
 Start from the wiki's current synthesis for the relevant metal and ingredient or product.
 
-Show the work: cite the studies, show the distributions, show where the proposed limit sits on that distribution (for example, "90 percent of the observed U.S. row-fit pool would pass"). For lower-is-better concentrations, p100/max is the cutoff that passes the whole observed pool, p90 is the cutoff that passes roughly 90 percent, p50 is the median, and p10 is the cleaner-tail reference.
+Show the work: cite the studies, show the source evidence inventory, then show the selected aggregate or selected-dataset CC candidate. p90 is derived from the selected clean-platform distribution in the Step 0F CC Source Data Package; it is not shown as a separate value for every paper unless that paper itself is the selected Path A dataset. For lower-is-better source evidence, p100/max is the highest observed concentration in that source's scoped pool.
 
 Do not use intake or exposure estimates as if they were product concentration percentiles. Intake tables can inform exposure context, but HMT&C product thresholds need concentration distributions in ppb by matrix, metal, geography, and product fit.
 
