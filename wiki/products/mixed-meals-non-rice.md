@@ -28,12 +28,12 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 2
+sources: 4
 ---
 
 # Mixed Meals, Non-Rice
 
-This page is a structural scaffold for HMTc Category 1 row 12. Broad savoury infant-food evidence is available, but non-rice mixed-meal p10/p90/p100 distributions are still pending.
+This page is a structural scaffold for HMTc Category 1 row 12. FDA compliance samples now provide a direct non-rice mixed-meal lower-bound distribution, while broader savoury infant-food evidence remains useful context.
 
 ## Evidence Governance
 
@@ -58,6 +58,7 @@ The current source set does not yet support a non-rice mixed-meal p10/p90/p100 c
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
+| FDA compliance sample-level distribution | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Mixtures rows with no rice named | tAs 77; Cd 77; Pb 78; tHg 36 | lower-bound p50, p90, p95, max | tAs p50 3 ppb, p90 5.6 ppb, max 13.6 ppb; Cd p50 2.2 ppb, p90 5.2 ppb, max 44.4 ppb; Pb p50 1.6 ppb, p90 6.8 ppb, max 13 ppb; tHg p90 0, max 0.4 ppb | Supports source-scope lower-bound distribution after review | Machine-extracted; `<LOD` treated as 0; "no rice named" is not ingredient-list confirmation. [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
 | UK savoury category average | [[metals/aluminum|Aluminum]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average/range | 1995 to 1999 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | UK savoury category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average/range | 7 to 9 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | UK savoury category average | [[metals/cadmium|Cadmium]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average | 10 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group. [[sources/fsa2016-infant-food-formula-metals-survey]] |
@@ -74,6 +75,8 @@ Non-rice mixed meal evidence is currently broad. The closest values come from UK
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-total|Total arsenic]] | FDA FY2009-FY2024 mixture baby-food samples with no rice named | p50 3 ppb; p90 5.6 ppb; p95 6.2 ppb; max 13.6 ppb | p50 3 ppb; p90 5.6 ppb; p95 6.2 ppb; max 13.6 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Lower-bound machine extraction; source reports As, not iAs. |
+| [[metals/cadmium|Cadmium]] and [[metals/lead|Lead]] | FDA FY2009-FY2024 mixture baby-food samples with no rice named | Cd p90 5.2 ppb, max 44.4 ppb; Pb p90 6.8 ppb, max 13 ppb | Cd p90 5.2 ppb, max 44.4 ppb; Pb p90 6.8 ppb, max 13 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Lower-bound machine extraction; product name does not prove absence of rice ingredients. |
 | [[metals/aluminum|Aluminum]] | UK other savoury based infant foods/dishes, no meat | 1995 to 1999 ug/kg | 1995 to 1999 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad savoury mixed-food group. |
 | [[metals/arsenic-total|Total arsenic]] | UK other savoury based infant foods/dishes, no meat | 15 ug/kg | 15 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad savoury mixed-food group; rice status not isolated. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK other savoury based infant foods/dishes, no meat | 7 to 9 ug/kg | 7 to 9 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad savoury mixed-food group; rice status not isolated. |
@@ -129,3 +132,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+- [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]

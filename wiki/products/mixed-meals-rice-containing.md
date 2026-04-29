@@ -29,12 +29,12 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 4
+sources: 5
 ---
 
 # Mixed Meals, Rice-Containing
 
-This page is a structural scaffold for HMTc Category 1 row 13. Broad rice/rice-mix, savoury infant-food, and U.S. baby-food survey sources have been promoted; rice-containing mixed-meal p10/p90/p100 datasets are still pending.
+This page is a structural scaffold for HMTc Category 1 row 13. FDA compliance samples provide a small rice-named mixture subset, while broader rice/rice-mix, savoury infant-food, and U.S. baby-food survey sources remain useful context.
 
 ## Evidence Governance
 
@@ -59,6 +59,7 @@ The current source set does not yet support a rice-containing mixed-meal p10/p90
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
+| FDA compliance sample-level distribution | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Mixtures rows with rice named | tAs 9; Cd 9; Pb 9; tHg 3 | lower-bound p50, p90, p95, max | tAs p50 11 ppb, p90/max 28.3 ppb; Cd p50 1.3 ppb, p90/max 7 ppb; Pb p50 1 ppb, p90/max 11.6 ppb; tHg p90/max 0.3 ppb | Small source-scope context only until reviewed with more samples | Machine-extracted; `<LOD` treated as 0; small rice-named subset (`EF-3`). [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
 | UK savoury category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average/range | 7 to 9 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | UK savoury category average | [[metals/cadmium|Cadmium]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average | 10 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | UK savoury category average | [[metals/lead|Lead]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average/range | 3 to 5 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
@@ -73,6 +74,8 @@ Rice-containing mixed meals are represented by rice/rice-mix baby-food evidence 
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-total|Total arsenic]] | FDA FY2009-FY2024 rice-named mixture baby-food samples | p50 11 ppb; p90/max 28.3 ppb | p50 11 ppb; p90/max 28.3 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Small lower-bound machine-extracted subset; source reports As, not iAs. |
+| [[metals/cadmium|Cadmium]] and [[metals/lead|Lead]] | FDA FY2009-FY2024 rice-named mixture baby-food samples | Cd p90/max 7 ppb; Pb p90/max 11.6 ppb | Cd p90/max 7 ppb; Pb p90/max 11.6 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Small subset; source-scope context, not threshold-ready distribution. |
 | [[metals/lead|Lead]] | Rice/rice-mix baby foods in global scoping review | median 0.008 mg/kg | 8 ppb | [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] | Broad rice/rice-mix baby-food category. |
 | [[metals/arsenic-total|Arsenic]] | Rice/rice-mix baby foods in global scoping review | median 0.048 mg/kg | 48 ppb | [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] | Review reports As; speciation may vary by included study. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | Rice products commonly eaten during weaning | up to 323 ug/kg | up to 323 ppb | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Secondary citation for baby rice/rice cereals/rice crackers. |
@@ -133,3 +136,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 - [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+- [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]

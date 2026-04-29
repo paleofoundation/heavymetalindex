@@ -69,7 +69,7 @@ No promoted source currently gives a ready-to-feed soy-formula concentration tab
 
 <!-- audience: regulator, educator, app -->
 
-The FDA 2026 special survey has a very small ready-to-feed soy-based subset (`n=3`). The p50/p90/p100 values below are mechanically reproducible, but this subset is too small to use directly as a stable threshold distribution. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+The FDA 2026 special survey has a very small ready-to-feed soy-based subset (`n=3`). The p50/p90/p100 values below are mechanically reproducible, but this subset is too small to use directly as a stable threshold distribution. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; the sample-level rows are retained in `data/evidence/category1_formula_special_survey_samples.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
 | Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
 | --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |

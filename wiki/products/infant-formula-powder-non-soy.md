@@ -81,7 +81,7 @@ This table lists what each source actually reports. It does not calculate the HM
 
 <!-- audience: regulator, educator, app -->
 
-The FDA 2026 special survey is the first source in this row that gives a reconstructable product-label subset with p50, p90, and p100 values. These values are expressed as prepared for feeding, so they should not be silently pooled with dry-powder-as-sold ppb values. The extraction below uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; the full extracted register is in `data/evidence/category1_formula_concentration_summary.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+The FDA 2026 special survey is the first source in this row that gives a reconstructable product-label subset with p50, p90, and p100 values. These values are expressed as prepared for feeding, so they should not be silently pooled with dry-powder-as-sold ppb values. The extraction below uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; the full sample-level extraction is in `data/evidence/category1_formula_special_survey_samples.csv`, with summary rows in `data/evidence/category1_formula_concentration_summary.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
 | Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
 | --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |

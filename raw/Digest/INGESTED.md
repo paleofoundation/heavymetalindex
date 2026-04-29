@@ -16,6 +16,11 @@ This folder records the Digest PDF batch supplied locally at `/Users/karenpender
 - `nuaf138.pdf` -> [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - `toxic_element_infant_formula_prepared_for_posting_20260324.pdf` -> [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
+## Structured Extraction Completed
+
+- `TEP-AsPbCdHg-TEP-FY2009-FY2024-12162024.pdf` -> `data/evidence/category1_fda_baby_food_compliance_samples.csv`, `data/evidence/category1_fda_baby_food_compliance_summary.csv`, and value records with prefix `category1-fda-baby-food-compliance-`.
+- `toxic_element_infant_formula_prepared_for_posting_20260324.pdf` -> `data/evidence/category1_formula_special_survey_samples.csv`, `data/evidence/category1_formula_concentration_summary.csv`, source metadata in `data/evidence/sources.jsonl`, and value records with prefix `category1-formula-digest-`.
+
 ## Duplicate Raw Files
 
 The following two Digest PDFs are byte-identical and have one canonical source page, [[sources/fsa2016-infant-food-formula-metals-survey]]:

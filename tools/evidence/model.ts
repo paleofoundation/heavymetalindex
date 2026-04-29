@@ -90,12 +90,12 @@ export const category1Rows: Category1Row[] = [
   { rowId: "hmtc_c1_r08", slug: "non-root-vegetable-purees", label: "Non-Root Vegetable Purees" },
   { rowId: "hmtc_c1_r09", slug: "root-vegetable-purees", label: "Root Vegetable Purees" },
   { rowId: "hmtc_c1_r10", slug: "meat-and-poultry-purees", label: "Meat and Poultry Purees" },
-  { rowId: "hmtc_c1_r11", slug: "mixed-meals-non-rice", label: "Mixed Meals, Non-Rice" },
-  { rowId: "hmtc_c1_r12", slug: "mixed-meals-rice-containing", label: "Mixed Meals, Rice-Containing" },
-  { rowId: "hmtc_c1_r13", slug: "teething-and-snacks-non-rice", label: "Teething and Snacks, Non-Rice" },
-  { rowId: "hmtc_c1_r14", slug: "teething-and-snacks-rice-based", label: "Teething and Snacks, Rice-Based" },
-  { rowId: "hmtc_c1_r15", slug: "fruit-juice-not-canned", label: "Fruit Juice, Not Canned" },
-  { rowId: "hmtc_c1_r16", slug: "fish-containing-baby-foods", label: "Fish-Containing Baby Foods" },
+  { rowId: "hmtc_c1_r11", slug: "fish-containing-baby-foods", label: "Fish-Containing Baby Foods" },
+  { rowId: "hmtc_c1_r12", slug: "mixed-meals-non-rice", label: "Mixed Meals, Non-Rice" },
+  { rowId: "hmtc_c1_r13", slug: "mixed-meals-rice-containing", label: "Mixed Meals, Rice-Containing" },
+  { rowId: "hmtc_c1_r14", slug: "fruit-juice-not-canned", label: "Fruit Juice, Not Canned" },
+  { rowId: "hmtc_c1_r15", slug: "teething-and-snacks-non-rice", label: "Teething and Snacks, Non-Rice" },
+  { rowId: "hmtc_c1_r16", slug: "teething-and-snacks-rice-based", label: "Teething and Snacks, Rice-Based" },
 ]
 
 export interface Category1RegisterRow {

@@ -29,12 +29,12 @@ cc_relationship:
       notes: "Non-root vegetable purees serve as the clean cross-row CC source for root-vegetable purees on Cd and Pb. Within row 8 itself, no within-row contamination split exists."
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 5
+sources: 7
 ---
 
 # Non-Root Vegetable Purees
 
-This page is a structural scaffold for HMTc Category 1 row 8. Quantitative evidence now includes a small leguminous-vegetable baby-food distribution and broader UK green/other vegetable category values; non-root puree p10/p90/p100 distributions remain incomplete.
+This page is a structural scaffold for HMTc Category 1 row 8. Quantitative evidence now includes FDA compliance non-root vegetable samples, a small leguminous-vegetable baby-food distribution, and broader UK green/other vegetable category values.
 
 ## Evidence Governance
 
@@ -59,6 +59,7 @@ Parker 2022 provides a small leguminous-vegetable baby-food distribution with N=
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
+| FDA compliance sample-level distribution | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Vegetables rows without carrot, sweet potato, beet, or parsnip terms | tAs 20; Cd 22; Pb 29; tHg 13 | lower-bound p50, p90, p95, max | tAs p90 1 ppb, max 11 ppb; Cd p50 0.7 ppb, p90 12.8 ppb, max 23.1 ppb; Pb p90 2 ppb, max 7.6 ppb; tHg p90 0, max 0.4 ppb | Supports source-scope lower-bound distribution after review | Machine-extracted; `<LOD` treated as 0; root/non-root split is name-based. [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
 | Leguminous vegetable baby-food distribution | [[metals/arsenic-total|Total arsenic]] | Leguminous vegetable baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 4.2 ppb; median 5 ppb; max 5 ppb; detected 7/9 | Supports median/max only | Total arsenic, not iAs; no p10/p90; includes study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 | Leguminous vegetable baby-food distribution | [[metals/cadmium|Cadmium]] | Leguminous vegetable baby foods | 9 | detection rate, substituted value | no detections; table value 1.5 ppb after ND substitution | Does not support p10/p90/p100 | ND substitution reflects the study's exposure model, not a measured concentration. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 | Leguminous vegetable baby-food distribution | [[metals/lead|Lead]] | Leguminous vegetable baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 2.3 ppb; median 1.5 ppb; max 5 ppb; detected 2/9 | Supports median/max only | Small N; no p10/p90; includes study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
@@ -73,6 +74,8 @@ Non-root vegetable puree values remain approximate because sources group vegetab
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/cadmium|Cadmium]] | FDA FY2009-FY2024 non-root vegetable baby-food samples | p50 0.7 ppb; p90 12.8 ppb; p95 21.1 ppb; max 23.1 ppb | p50 0.7 ppb; p90 12.8 ppb; p95 21.1 ppb; max 23.1 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Lower-bound machine extraction; name-based non-root subset. |
+| [[metals/lead|Lead]] and [[metals/arsenic-total|Total arsenic]] | FDA FY2009-FY2024 non-root vegetable baby-food samples | Pb p90 2 ppb, max 7.6 ppb; tAs p90 1 ppb, max 11 ppb | Pb p90 2 ppb, max 7.6 ppb; tAs p90 1 ppb, max 11 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Lower-bound machine extraction; source reports As, not iAs. |
 | [[metals/lead|Lead]] | Parker 2022 leguminous vegetable baby foods | mean 2.3 ppb; median 1.5 ppb; max 5 ppb | mean 2.3 ppb; median 1.5 ppb; max 5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Leguminous vegetable group, N=9; no p10/p90. |
 | [[metals/cadmium|Cadmium]] | Parker 2022 leguminous vegetable baby foods | no detections; substitution value 1.5 ppb | no detections; substitution value 1.5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | ND substitution, not measured detected Cd. |
 | [[metals/arsenic-total|Total arsenic]] | Parker 2022 leguminous vegetable baby foods | mean 4.2 ppb; median 5 ppb; max 5 ppb | mean 4.2 ppb; median 5 ppb; max 5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Total arsenic, not iAs. |
@@ -138,3 +141,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 - [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+- [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]

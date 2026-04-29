@@ -5,6 +5,7 @@ import { join } from "node:path"
 import { tmpdir } from "node:os"
 import {
   buildCategory1RegisterRows,
+  category1Rows,
   category1RegisterToCsv,
   claimAllowedForPublic,
   evaluateEvidenceFitness,
@@ -123,6 +124,27 @@ describe("evidence model", () => {
   test("builds a deterministic Category 1 register", () => {
     const rows = buildCategory1RegisterRows()
     assert.strictEqual(rows.length, 16 * 11)
+    assert.deepStrictEqual(
+      category1Rows.map((row) => [row.rowId, row.slug]),
+      [
+        ["hmtc_c1_r01", "infant-formula-powder-non-soy"],
+        ["hmtc_c1_r02", "infant-formula-powder-soy-based"],
+        ["hmtc_c1_r03", "infant-formula-rtf-liquid-non-soy"],
+        ["hmtc_c1_r04", "infant-formula-rtf-liquid-soy-based"],
+        ["hmtc_c1_r05", "baby-cereals-dry-non-rice"],
+        ["hmtc_c1_r06", "baby-cereals-dry-rice-based"],
+        ["hmtc_c1_r07", "fruit-purees"],
+        ["hmtc_c1_r08", "non-root-vegetable-purees"],
+        ["hmtc_c1_r09", "root-vegetable-purees"],
+        ["hmtc_c1_r10", "meat-and-poultry-purees"],
+        ["hmtc_c1_r11", "fish-containing-baby-foods"],
+        ["hmtc_c1_r12", "mixed-meals-non-rice"],
+        ["hmtc_c1_r13", "mixed-meals-rice-containing"],
+        ["hmtc_c1_r14", "fruit-juice-not-canned"],
+        ["hmtc_c1_r15", "teething-and-snacks-non-rice"],
+        ["hmtc_c1_r16", "teething-and-snacks-rice-based"],
+      ],
+    )
     assert.deepStrictEqual(rows[0], {
       category_id: "hmtc-category-1",
       category_label: "Infant and Child Foods",

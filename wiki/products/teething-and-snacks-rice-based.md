@@ -29,12 +29,12 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 5
+sources: 6
 ---
 
 # Teething & Snacks (Rice-Based)
 
-This page is a structural scaffold for HMTc Category 1 row 16. Broad rice/rice-mix baby-food, snack, and teething-biscuit sources have been promoted; rice-snack-specific p10/p90/p100 datasets are still pending.
+This page is a structural scaffold for HMTc Category 1 row 16. FDA compliance samples provide a very small rice-named snack subset and a broad grain-based snack context signal; broader rice/rice-mix baby-food, snack, and teething-biscuit sources remain important context.
 
 ## Evidence Governance
 
@@ -59,6 +59,8 @@ The current source set does not yet support a rice-based snack p10/p90/p100 dist
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
+| FDA explicit rice-named snack subset | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]] | FDA Grain-Based Snacks rows with rice named | tAs 2; Cd 2; Pb 2 | lower-bound p50, p90, max | tAs p50 96.3 ppb, p90/max 171 ppb; Cd p90/max 3.5 ppb; Pb p90/max 6.5 ppb | Small source-scope context only | Machine-extracted; rice-named subset is too small for row distribution use (`EF-3`). [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
+| FDA broad grain-based snack context | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Grain-Based Snacks rows where rice status is not isolated | tAs 91; Cd 91; Pb 91; tHg 28 | lower-bound p50, p90, p95, max | tAs p50 61 ppb, p90 224 ppb, p95 383 ppb, max 561 ppb; Cd p90 27 ppb, max 41 ppb; Pb p90 15 ppb, max 23.7 ppb; tHg p90 2.5 ppb, max 3.3 ppb | Context only | Rice status is not isolated; do not assign this distribution directly to rice-based or non-rice snacks. [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
 | UK snack category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average/range | 58 to 62 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | UK snack category average | [[metals/cadmium|Cadmium]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average | 24 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | UK snack category average | [[metals/lead|Lead]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average | 10 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
@@ -74,6 +76,8 @@ Rice-based snack evidence combines broad snack data with rice-product arsenic ev
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-total|Total arsenic]] | FDA FY2009-FY2024 rice-named grain-based snack subset | p50 96.3 ppb; p90/max 171 ppb | p50 96.3 ppb; p90/max 171 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Only two rice-named snack rows; source reports As, not iAs. |
+| [[metals/arsenic-total|Total arsenic]] | FDA broad grain-based snack context, rice status not isolated | p50 61 ppb; p90 224 ppb; p95 383 ppb; max 561 ppb | p50 61 ppb; p90 224 ppb; p95 383 ppb; max 561 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Context only; cannot distinguish rice-based from non-rice snacks. |
 | [[metals/lead|Lead]] | FDA TDS baby food teething biscuits | 18 ug/kg hybrid mean | 18 ppb | [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Teething biscuit signal; rice status not specified. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | Rice products commonly eaten during weaning | up to 323 ug/kg | up to 323 ppb | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Secondary citation for baby rice/rice cereals/rice crackers. |
 | [[metals/arsenic-total|Total arsenic]] | UK sweet and savoury snacks | 98 ug/kg | 98 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad snack category; likely relevant to rice snacks but not isolated. |
@@ -125,3 +129,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 - [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+- [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]

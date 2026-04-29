@@ -16,6 +16,17 @@ and Category 1 pilot coverage registers.
   for value-level backfill and review. Existing source-cited product pages may
   contain public synthesis before every table cell has a matching JSONL value
   record; new machine extraction still requires promotion before publication.
+- `category1_fda_baby_food_compliance_summary.csv`: FDA FY2009-FY2024
+  baby/young-child food compliance samples summarized into Category 1
+  lower-bound p10/p50/p90/p95/p100 rows.
+- `category1_fda_baby_food_compliance_samples.csv`: parsed FDA sample-level
+  baby/young-child food compliance rows with product-row mapping notes.
+- `category1_formula_concentration_summary.csv`: formula concentration
+  summary rows from the FDA FY2023-FY2025 special survey and promoted Digest
+  formula papers.
+- `category1_formula_special_survey_samples.csv`: parsed FDA sample-level
+  infant-formula special-survey rows with locked-row, bridge, and out-of-scope
+  mapping notes.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.
@@ -23,6 +34,10 @@ and Category 1 pilot coverage registers.
 ## Scripts
 
 - `npm run evidence:category1`: rebuilds the Category 1 pilot register.
+- `npm run evidence:digest-baby-food`: parses the FDA baby/young-child food
+  compliance PDF text extraction into Category 1 summary/sample evidence files.
+- `npm run evidence:digest-formula`: parses the FDA infant-formula special
+  survey PDF text extraction into formula summary/sample evidence files.
 - `npm run evidence:scan`: scans local `raw/markdown/` into draft JSONL
   registers.
 - `npm run evidence:queue`: converts draft JSONL registers into a reviewer queue

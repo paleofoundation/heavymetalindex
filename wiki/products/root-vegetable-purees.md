@@ -30,12 +30,12 @@ cc_relationship:
       notes: "Cross-row CC: clean counterpart lives in row 8, not as a sibling within a vegetable-purees base split."
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 7
+sources: 9
 ---
 
 # Root-Vegetable Purees
 
-This page is a structural scaffold for HMTc Category 1 row 9. Quantitative evidence now includes a small root-vegetable baby-food distribution, FDA TDS named baby food sweet potato lead data, and broader UK vegetable/potato category values; puree-specific p10/p90/p100 distributions remain incomplete.
+This page is a structural scaffold for HMTc Category 1 row 9. Quantitative evidence now includes FDA compliance root-vegetable samples, a small root-vegetable baby-food distribution, FDA TDS named baby food sweet potato lead data, and broader UK vegetable/potato category values.
 
 ## Evidence Governance
 
@@ -60,6 +60,7 @@ Parker 2022 provides a small root-vegetable baby-food distribution with N=9. It 
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
+| FDA compliance sample-level distribution | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Vegetables rows with carrot, sweet potato, beet, or parsnip terms | tAs 54; Cd 54; Pb 59; tHg 25 | lower-bound p50, p90, p95, max | tAs p90 6.4 ppb, max 10.3 ppb; Cd p50 8.7 ppb, p90 31.5 ppb, max 42 ppb; Pb p50 5.1 ppb, p90 15.9 ppb, max 27.3 ppb; tHg p90 0.3 ppb, max 1.1 ppb | Supports source-scope lower-bound distribution after review | Machine-extracted; `<LOD` treated as 0; root split is name-based. [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
 | Root-vegetable baby-food distribution | [[metals/arsenic-total|Total arsenic]] | Root-vegetable baby foods | 9 | min, mean, median, max, detection rate | min 5 ppb; mean 10.8 ppb; median 12 ppb; max 22 ppb; detected 9/9 | Supports median/max only | Total arsenic, not iAs; no p10/p90. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 | Root-vegetable baby-food distribution | [[metals/cadmium|Cadmium]] | Root-vegetable baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 3.8 ppb; median 5 ppb; max 5 ppb; detected 6/9 | Supports median/max only | Small N; no p10/p90; values include study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 | Root-vegetable baby-food distribution | [[metals/lead|Lead]] | Root-vegetable baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 15.8 ppb; median 5 ppb; max 48 ppb; detected 8/9 | Supports median/max only | Small N; no p10/p90; values include study substitution conventions. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
@@ -74,6 +75,8 @@ Root-vegetable evidence includes Parker 2022 root-vegetable distributions, FDA T
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/cadmium|Cadmium]] | FDA FY2009-FY2024 root vegetable baby-food samples | p50 8.7 ppb; p90 31.5 ppb; p95 39.6 ppb; max 42 ppb | p50 8.7 ppb; p90 31.5 ppb; p95 39.6 ppb; max 42 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Lower-bound machine extraction; name-based root subset. |
+| [[metals/lead|Lead]] and [[metals/arsenic-total|Total arsenic]] | FDA FY2009-FY2024 root vegetable baby-food samples | Pb p50 5.1 ppb, p90 15.9 ppb, max 27.3 ppb; tAs p90 6.4 ppb, max 10.3 ppb | Pb p50 5.1 ppb, p90 15.9 ppb, max 27.3 ppb; tAs p90 6.4 ppb, max 10.3 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Lower-bound machine extraction; source reports As, not iAs. |
 | [[metals/lead|Lead]] | Parker 2022 root-vegetable baby foods | mean 15.8 ppb; median 5 ppb; max 48 ppb | mean 15.8 ppb; median 5 ppb; max 48 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Root group, N=9; no p10/p90. |
 | [[metals/cadmium|Cadmium]] | Parker 2022 root-vegetable baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median 5 ppb; max 5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Root group, N=9; includes substitution conventions. |
 | [[metals/arsenic-total|Total arsenic]] | Parker 2022 root-vegetable baby foods | mean 10.8 ppb; median 12 ppb; max 22 ppb | mean 10.8 ppb; median 12 ppb; max 22 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Total arsenic, not iAs. |
@@ -145,3 +148,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 - [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
 - [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+- [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]

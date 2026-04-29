@@ -17,6 +17,8 @@
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",
     "check": "tsc --noEmit",
     "evidence:category1": "tsx tools/evidence/build-category1-register.ts",
+    "evidence:digest-baby-food": "tsx tools/evidence/extract-digest-baby-food-compliance.ts",
+    "evidence:digest-formula": "tsx tools/evidence/extract-digest-formula.ts",
     "evidence:queue": "tsx tools/evidence/build-review-queue.ts",
     "evidence:scan": "tsx tools/evidence/scan-markdown.ts --raw raw/markdown --out data/evidence/drafts",
     "format": "npx prettier . --write",
