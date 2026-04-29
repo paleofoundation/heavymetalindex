@@ -21,17 +21,17 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 4
+sources: 3
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)
 
-This page is a structural scaffold for HMTc Category 1 row 6. Four Category 1 sources have been promoted; dry rice-cereal-specific distributions and arsenic speciation detail remain pending.
+This page is a structural scaffold for HMTc Category 1 row 6. Three broad Category 1 sources have been promoted; dry rice-cereal-specific distributions and arsenic speciation detail remain pending.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 4 A-tier / 0 B-tier sources.
+- Source coverage: 3 A-tier / 0 B-tier sources.
 - Next ingest target: infant cereal datasets for rice-based dry grain products, especially [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -46,8 +46,6 @@ This row is the contamination-platform counterpart to [[products/baby-cereals-dr
 A 2025 scoping review reported that rice/rice-mix baby foods had median Pb of 0.008 mg/kg and median As of 0.048 mg/kg among detected items; 31% of detected rice/rice-mix items exceeded the Pb maximum level used by the authors and 30% exceeded the As maximum level. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 
 A 2022 narrative review describes rice as a key infant-food concern and cites evidence that infant urinary inorganic arsenic metabolites increased 4.5-fold after weaning with rice products. [[sources/bair2022-heavy-metals-infant-toddler-foods]]
-
-A 2018 infant biomarker study found that, among weaning infants, rice cereal intake was associated with the sum of urinary arsenic species (Spearman rho = 0.90, p = 0.03). [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 
 ## What Drives Variance Across Brands
 
@@ -76,4 +74,3 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 - [[sources/price2023-baby-food-lead-biokinetic-models]]
-- [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]

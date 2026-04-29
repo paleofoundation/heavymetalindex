@@ -16,17 +16,17 @@ cc_relationship:
   partners: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-28
-sources: 1
+sources: 0
 ---
 
 # Meat And Poultry Purees
 
-This page is a structural scaffold for HMTc Category 1 row 10. One broad baby-food analytical source has been promoted from `raw/` to `wiki/sources/`; meat-and-poultry puree-specific distributions are still pending.
+This page is a structural scaffold for HMTc Category 1 row 10. No Category 1 source has been promoted from `raw/` to `wiki/sources/` for this row yet.
 
 ## Scaffold Status
 
 - Page state: structural scaffold, not synthesis.
-- Source coverage: 1 A-tier / 0 B-tier sources.
+- Source coverage: 0 A-tier / 0 B-tier sources.
 - Next ingest target: meat and poultry baby-food monitoring data across the Category 1 metal panel.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -38,9 +38,7 @@ This row is independent in the locked row architecture and has no clean-counterp
 
 <!-- audience: regulator, educator, consumer, app -->
 
-A 2024 analytical study of European baby foods included homogenized meat foods and reported that cadmium and lead were below the study LOD in all samples, but the study did not isolate HMTc-style meat-and-poultry puree distributions. [[sources/meli2024-chemical-characterization-baby-food-italy]]
-
-Risk characterization for this row remains limited. <!-- UNCITED: Need meat and poultry puree datasets or regulatory monitoring reports before assigning metals of concern or describing relative risk. -->
+Risk characterization for this row is pending source ingest. <!-- UNCITED: Need meat and poultry puree datasets or regulatory monitoring reports before assigning metals of concern or describing relative risk. -->
 
 ## What Drives Variance Across Brands
 
@@ -64,4 +62,5 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
-- [[sources/meli2024-chemical-characterization-baby-food-italy]]
+No source pages are currently cited for this row. No concentration, risk, variance, regulatory, or enforcement claim should be promoted from `<!-- UNCITED -->` status until a promoted `wiki/sources/` page exists.
+

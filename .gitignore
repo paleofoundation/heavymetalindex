@@ -8,7 +8,6 @@
 # model and auditor access process.
 raw/*
 !raw/README.md
-!raw/studies/
 !raw/*/INGESTED.md
 
 # Quartz / Node build artifacts

@@ -9,7 +9,7 @@ Product-category pages describe the heavy-metal risk profile of consumer-facing 
 
 ## Infant and Child Foods (HMTc Category 1, Ages 0-5)
 
-These pages preserve the locked row architecture. Substantive claims are cited to promoted `wiki/sources/` pages; remaining gaps stay marked as `<!-- UNCITED -->` until additional sources are promoted from `raw/`.
+These pages are structural scaffolds. They preserve the locked row architecture and mark substantive claims as `<!-- UNCITED -->` until source pages are promoted from `raw/`.
 
 1. [[products/infant-formula-powder-non-soy|Infant formula, powder (non-soy)]]
 2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]]
