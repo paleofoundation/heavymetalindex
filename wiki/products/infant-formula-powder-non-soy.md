@@ -69,6 +69,7 @@ This table lists what each source actually reports. It does not calculate the HM
 | [[metals/arsenic-inorganic|iAs]] | UK dry first/hungrier milk, as sold | not extracted | category average/range | 0.7 to 1.8 ppb | 1.8 ppb | UK category value; supports context but not an individual-product p90. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
 | [[metals/cadmium|Cd]] | UK dry first/hungrier milk, as sold | not extracted | category average/range | 3 to 4 ppb | 4 ppb | UK category value; supports context but not an individual-product p90. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
 | [[metals/lead|Pb]] | UK dry first/hungrier milk, as sold | not extracted | category average/range | 1 to 4 ppb | 4 ppb | UK category value; supports context but not an individual-product p90. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
+| [[metals/nickel|Ni]] | UK dry first/hungrier milk, as sold | not extracted | category average/range | 18 to 54 ppb | 54 ppb | UK category value; supports nickel context but not an individual-product p90. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
 | [[metals/cadmium|Cd]] | Canada milk-base infant formula powder, historical | 17 | median and range | median 0.6 ppb; range not detected to 4.3 ppb | 4.3 ppb | Direct milk-base powder evidence, but historical Canadian data. | [[sources/dabeka1987-canada-infant-formula-lead-cadmium|4]] |
 | [[metals/cadmium|Cd]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 3.3 to 4.5 ppb | 4.5 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
 | [[metals/lead|Pb]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 8.2 to 43.9 ppb | 43.9 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
@@ -112,7 +113,7 @@ This is the standards-facing summary for Step 0F logic. The p90 belongs here onl
 | [[metals/mercury-methyl|MeHg]] | No row-fit product concentration distribution identified. | Pending Step 0F. Likely Path B unless new occurrence data is found. | MeHg-specific formula method LOQ or qualifying occurrence data. |
 | [[metals/mercury-total|tHg]] | No validated aggregate p90; one source reports non-detect/below LOQ for tHg. | Pending Step 0F. | tHg occurrence distribution or validated LOQ. |
 | [[metals/arsenic-inorganic|iAs]] | No validated aggregate p90; UK category values exist. | Pending Step 0F. | iAs-specific formula occurrence distribution or validated LOQ. |
-| [[metals/nickel|Ni]] | No row-fit product concentration distribution identified for this page. | Pending Step 0F. | Ni formula occurrence distribution or validated LOQ. |
+| [[metals/nickel|Ni]] | No validated aggregate p90; UK category values and additional formula context exist. | Pending Step 0F. | Ni formula occurrence distribution with individual-product values, or validated LOQ. |
 | [[metals/aluminum|Al]] | No validated aggregate p90; Brazil range exists. | Pending Step 0F. | Al formula occurrence distribution or validated LOQ. |
 | [[metals/chromium-hexavalent|Cr-VI]] | No Cr-VI row-fit evidence identified; total Cr values are not Cr-VI. | Pending Step 0F. Likely Path B unless Cr-VI data is found. | Cr-VI-specific occurrence data or validated LOQ. |
 | [[metals/tin|Sn]] | No validated aggregate p90; Brazil range exists. | Pending Step 0F. | Sn formula occurrence distribution or validated LOQ. |
@@ -194,7 +195,7 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 1. [[sources/chung2021-china-infant-formula-toxic-elements|Chung 2021]]: China cow milk-based infant formula concentrations for Pb, Cd, tAs, and total Cr.
 2. [[sources/almeida2022-brazil-infant-formula-toxic-metals|Almeida 2022]]: Brazil cow-milk infant formula powder ranges for Al, tAs, Sn, and tHg.
-3. [[sources/fsa2016-infant-food-formula-metals-survey|FSA 2016]]: UK dry first/hungrier milk category values for iAs, Cd, and Pb.
+3. [[sources/fsa2016-infant-food-formula-metals-survey|FSA 2016]]: UK dry first/hungrier milk category values for iAs, Cd, Pb, and Ni.
 4. [[sources/dabeka1987-canada-infant-formula-lead-cadmium|Dabeka 1987]]: historical Canadian milk-base infant formula powder data for cadmium and lead.
 5. [[sources/pandelova2012-eu-baby-food-formula-elements|Pandelova 2012]]: EU pooled market-basket formula values, including milk-formula and soy-formula baskets.
 6. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Jackson 2012]]: infant formula total arsenic values in products without organic brown rice syrup.
