@@ -1,0 +1,31 @@
+---
+type: ingredient
+commodity: milk-and-dairy
+aliases: [milk, dairy, cow milk, dairy dessert, yogurt, cheese, milk-based beverage]
+category: dairy
+contamination_profile:
+  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+drivers: [animal-feed, water-source, fortification, processing, packaging]
+lower_risk_variants: []
+higher_risk_variants: []
+used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-rtf-liquid-non-soy]]"]
+audience: [regulator, educator, consumer, app]
+updated: 2026-04-29
+---
+
+# Milk And Dairy
+
+_Stub page. Chekri et al. 2019 reports infant formulae, follow-on formulae, growing-up milks, milk-based beverages, milk-based desserts, and common dairy categories. The source supports dairy/formula context but does not isolate cow-milk ingredients from finished formula formulations. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+
+## Ranges by source, region, and variety
+
+_Pending dairy-specific occurrence extraction. Formula-specific values remain filed under the relevant product pages._
+
+## Sources
+
+- [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] — French infant/toddler TDS formula and dairy category rows.

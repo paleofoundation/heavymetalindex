@@ -12,6 +12,7 @@ raw_path: "raw/Digest/1-s2.0-S0889157518301868-am.pdf"
 raw_sha256: "73f7f1c97d2462a96056d8081f52fee0f21d03dfab073b3f33141290cbad1200"
 metals: [Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V]
 products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, fruit-purees, fruit-juice-not-canned, non-root-vegetable-purees, root-vegetable-purees, meat-and-poultry-purees, fish-containing-baby-foods, mixed-meals-non-rice, mixed-meals-rice-containing]
+ingredients: [infant-cereal-ingredients, rice, wheat, cocoa, chocolate, fruit, fruit-juice, vegetables, spinach, carrots, potatoes, meat-and-poultry, fish, milk-and-dairy]
 matrices: [infant-food, toddler-food, formula, total-diet-study]
 jurisdictions: [FR]
 sample_n: 291
@@ -68,6 +69,17 @@ App: Supports ingredient and product-category caution for cereal-based foods, ve
 
 Microbiome: No direct microbiome endpoint.
 
+## Ingredient nodes updated on ingest
+
+- [[ingredients/infant-cereal-ingredients]] — cereal-based infant-food row; rice status not separated.
+- [[ingredients/rice]] — named in high-arsenic meat/fish meal examples and broader rice/cereal discussion.
+- [[ingredients/wheat]] — included in the common-food rice and wheat products row.
+- [[ingredients/cocoa]] and [[ingredients/chocolate]] — named as contributors to higher Al, Cd, Co, Cr, and Ni in biscuits, desserts, and pastries.
+- [[ingredients/fruit]] and [[ingredients/fruit-juice]] — fruit-puree and fruit-juice infant-food rows.
+- [[ingredients/vegetables]], [[ingredients/spinach]], [[ingredients/carrots]], and [[ingredients/potatoes]] — vegetable, soup/puree, and root/non-root ingredient drivers named in the study.
+- [[ingredients/meat-and-poultry]] and [[ingredients/fish]] — meat/fish-based ready-to-eat meals; fish is not separated from meat in the main table.
+- [[ingredients/milk-and-dairy]] — formula, growing-up milk, milk-based beverage, and dairy dessert rows.
+
 ## Wiki pages updated on ingest
 
 - [[products/infant-formula-powder-non-soy]]
@@ -82,6 +94,20 @@ Microbiome: No direct microbiome endpoint.
 - [[products/fish-containing-baby-foods]]
 - [[products/mixed-meals-non-rice]]
 - [[products/mixed-meals-rice-containing]]
+- [[ingredients/carrots]]
+- [[ingredients/fruit]]
+- [[ingredients/fruit-juice]]
+- [[ingredients/infant-cereal-ingredients]]
+- [[ingredients/meat-and-poultry]]
+- [[ingredients/milk-and-dairy]]
+- [[ingredients/vegetables]]
+- [[ingredients/cocoa]]
+- [[ingredients/chocolate]]
+- [[ingredients/fish]]
+- [[ingredients/potatoes]]
+- [[ingredients/rice]]
+- [[ingredients/spinach]]
+- [[ingredients/wheat]]
 - [[metals/aluminum]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
