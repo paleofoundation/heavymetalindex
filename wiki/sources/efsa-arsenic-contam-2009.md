@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/1351
 license: public-reference-only
 metals: [iAs, tAs]
-ingredients: [rice, drinking-water, seafood, fish, seaweed, cereal]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/drinking-water]]", "[[ingredients/seafood]]", "[[ingredients/fish]]", "[[ingredients/seaweed]]", "[[ingredients/cereal]]"]
 products: []
 jurisdictions: [EU]
 superseded_by: null

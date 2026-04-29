@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B193-1995%252FCXS_193e.pdf
 license: public-redistribute
 metals: [Cd, Pb, Hg, MeHg, iAs, Sn]
-ingredients: [cereals, rice, wheat, quinoa, fruits, vegetables, leafy-vegetables, root-vegetables, brassica-vegetables, bulb-vegetables, fruiting-vegetables, legume-vegetables, pulses, stalk-stem-vegetables, fish, marine-bivalve-molluscs, cephalopods, cocoa, chocolate, cocoa-powder, edible-offal, kidney, liver, meat, milk, infant-formula, infant-rice-cereal, salt, drinking-water]
+ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/quinoa]]", "[[ingredients/fruits]]", "[[ingredients/vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/brassica-vegetables]]", "[[ingredients/bulb-vegetables]]", "[[ingredients/fruiting-vegetables]]", "[[ingredients/legume-vegetables]]", "[[ingredients/pulses]]", "[[ingredients/stalk-stem-vegetables]]", "[[ingredients/fish]]", "[[ingredients/marine-bivalve-molluscs]]", "[[ingredients/cephalopods]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/cocoa-powder]]", "[[ingredients/edible-offal]]", "[[ingredients/kidney]]", "[[ingredients/liver]]", "[[ingredients/meat]]", "[[ingredients/milk]]", "[[ingredients/infant-formula]]", "[[ingredients/infant-rice-cereal]]", "[[ingredients/salt]]", "[[ingredients/drinking-water]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

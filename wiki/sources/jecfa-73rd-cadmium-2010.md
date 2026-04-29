@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://apps.who.int/iris/handle/10665/44520
 license: CC-BY-NC-SA-3.0-IGO
 metals: [Cd, Pb]
-ingredients: [rice, cereals, vegetables, offal, fish, shellfish]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/offal]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

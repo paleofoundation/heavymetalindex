@@ -48,8 +48,8 @@ contamination_profile:
     last_reviewed: null
 drivers: [soil-uptake, leaf-accumulation, geography, growing-season]
 lower_risk_variants: []
-higher_risk_variants: [mature-leaf-spinach]
-used_in_products: [baby-food-vegetables, salad-mixes, smoothies, frozen-vegetable-mixes, baby-leafy-purees]
+higher_risk_variants: ["[[ingredients/mature-leaf-spinach]]"]
+used_in_products: ["[[products/baby-food-vegetables]]", "[[products/salad-mixes]]", "[[products/smoothies]]", "[[products/frozen-vegetable-mixes]]", "[[products/baby-leafy-purees]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

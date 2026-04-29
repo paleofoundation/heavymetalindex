@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/week
 status: in-force
 effective_date: 2003-06-01
 sunset_date: null
-source_refs: [jecfa-61st-methylmercury]
+source_refs: ["[[sources/jecfa-61st-methylmercury]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

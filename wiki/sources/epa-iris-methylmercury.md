@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://iris.epa.gov/ChemicalLanding/&substance_nmbr=73
 license: us-government-work
 metals: [MeHg]
-ingredients: [fish, seafood]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: []
 jurisdictions: [US]
 superseded_by: null

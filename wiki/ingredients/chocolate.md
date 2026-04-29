@@ -47,9 +47,9 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
 drivers: [cocoa-solid-fraction, cocoa-origin, formulation]
-lower_risk_variants: [milk-chocolate, white-chocolate]
-higher_risk_variants: [high-cocoa-dark-chocolate, baking-chocolate, cocoa-powder-heavy-confections]
-used_in_products: [chocolate-bars, chocolate-confections, baked-goods, ice-cream, chocolate-beverages, nutritional-supplements, chocolate-coated-snacks]
+lower_risk_variants: ["[[ingredients/milk-chocolate]]", "[[ingredients/white-chocolate]]"]
+higher_risk_variants: ["[[ingredients/high-cocoa-dark-chocolate]]", "[[ingredients/baking-chocolate]]", "[[ingredients/cocoa-powder-heavy-confections]]"]
+used_in_products: ["[[products/chocolate-bars]]", "[[products/chocolate-confections]]", "[[products/baked-goods]]", "[[products/ice-cream]]", "[[products/chocolate-beverages]]", "[[products/nutritional-supplements]]", "[[products/chocolate-coated-snacks]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

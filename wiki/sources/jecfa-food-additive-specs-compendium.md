@@ -15,7 +15,7 @@ access_url: https://www.fao.org/3/a0691e/a0691e.pdf
 license: CC-BY-NC-SA-3.0-IGO
 metals: []
 ingredients: []
-products: [food-additives]
+products: ["[[products/food-additives]]"]
 jurisdictions: [international]
 superseded_by: null
 updated: 2026-04-25

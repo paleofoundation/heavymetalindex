@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://apps.who.int/iris/handle/10665/42849
 license: CC-BY-NC-SA-3.0-IGO
 metals: [MeHg]
-ingredients: [fish, seafood]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

@@ -14,8 +14,8 @@ access_date: 2026-04-24
 access_url: https://www.fda.gov/FoodGuidances
 license: us-government-work
 metals: [Pb]
-ingredients: [rice-flour, rice-cereal, carrots, sweet-potatoes, fruits, vegetables, yogurt, single-ingredient-meats]
-products: [infant-rice-cereal, dry-infant-cereal, single-ingredient-root-vegetable-babyfood, processed-babyfood-mixtures, babyfood-fruits, babyfood-vegetables, babyfood-yogurts-custards, babyfood-single-ingredient-meats]
+ingredients: ["[[ingredients/rice-flour]]", "[[ingredients/rice-cereal]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potatoes]]", "[[ingredients/fruits]]", "[[ingredients/vegetables]]", "[[ingredients/yogurt]]", "[[ingredients/single-ingredient-meats]]"]
+products: ["[[products/infant-rice-cereal]]", "[[products/dry-infant-cereal]]", "[[products/single-ingredient-root-vegetable-babyfood]]", "[[products/processed-babyfood-mixtures]]", "[[products/babyfood-fruits]]", "[[products/babyfood-vegetables]]", "[[products/babyfood-yogurts-custards]]", "[[products/babyfood-single-ingredient-meats]]"]
 jurisdictions: [US]
 superseded_by: null
 updated: 2026-04-24

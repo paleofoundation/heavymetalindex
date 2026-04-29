@@ -14,8 +14,8 @@ access_date: 2026-04-24
 access_url: https://onlinelibrary.wiley.com/doi/book/10.1002/0471435139
 license: copyright-licensed-private
 metals: [Cd, Zn]
-ingredients: [tobacco]
-products: [nickel-cadmium-batteries, paint-pigments, plastics, alloys]
+ingredients: ["[[ingredients/tobacco]]"]
+products: ["[[products/nickel-cadmium-batteries]]", "[[products/paint-pigments]]", "[[products/plastics]]", "[[products/alloys]]"]
 jurisdictions: [international, US, EU]
 superseded_by: null
 updated: 2026-04-24

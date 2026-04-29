@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.epa.gov/dwreginfo/chemical-contaminant-rules
 license: us-government-work
 metals: [iAs, tAs]
-ingredients: [drinking-water]
+ingredients: ["[[ingredients/drinking-water]]"]
 products: []
 jurisdictions: [US]
 superseded_by: null

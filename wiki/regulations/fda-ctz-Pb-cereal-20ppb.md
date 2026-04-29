@@ -11,7 +11,7 @@ limit_unit: ppb
 status: finalized
 effective_date: null
 sunset_date: null
-source_refs: [fda-ctz-Pb-babyfood-2025]
+source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

@@ -26,10 +26,24 @@ This page is a structural scaffold for HMTc Category 1 row 14. One broad infant/
 
 ## Scaffold Status
 
-- Page state: structural scaffold, not synthesis.
-- Source coverage: 1 A-tier / 0 B-tier sources.
+- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
+- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
 - Next ingest target: fruit juice monitoring reports that distinguish the not-canned scope where possible.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Measured Values And Concentration Evidence
+
+<!-- audience: regulator, educator, consumer, app -->
+
+No promoted source currently gives a not-canned fruit-juice-only concentration distribution. The closest Category 1 row evidence is the UK baby-drinks group, which should be treated as a placeholder until juice-specific monitoring is ingested.
+
+| Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-total|Total arsenic]] | UK baby drinks | 2 ug/kg | 2 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Baby-drinks group, not specifically not-canned fruit juice. |
+| [[metals/arsenic-inorganic|Inorganic arsenic]] | UK baby drinks | 1 ug/kg | 1 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Baby-drinks group, not specifically not-canned fruit juice. |
+| [[metals/cadmium|Cadmium]] | UK baby drinks | 0 ug/kg | 0 ppb lower-bound category value | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound treatment; not juice-specific. |
+| [[metals/lead|Lead]] | UK baby drinks | 3 ug/kg | 3 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Baby-drinks group, not specifically not-canned fruit juice. |
+| [[metals/nickel|Nickel]] | UK baby drinks | 0 to 9 ug/kg | 0 to 9 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Baby-drinks group, not specifically not-canned fruit juice. |
 
 ## Row Relationship
 
@@ -65,4 +79,5 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
+- [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]

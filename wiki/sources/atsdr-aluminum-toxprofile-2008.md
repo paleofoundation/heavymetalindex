@@ -14,8 +14,8 @@ access_date: 2026-04-25
 access_url: https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf
 license: us-government-work
 metals: [Al]
-ingredients: [drinking-water, infant-formula, breast-milk]
-products: [antacids]
+ingredients: ["[[ingredients/drinking-water]]", "[[ingredients/infant-formula]]", "[[ingredients/breast-milk]]"]
+products: ["[[products/antacids]]"]
 jurisdictions: [US]
 superseded_by: null
 updated: 2026-04-25

@@ -5,7 +5,7 @@ name: Mercury
 species: [Hg0, iHg, Hg2+, MeHg, methylmercury, dimethylmercury]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: medium
-wikibiome_crosswalk: [mercury-gut-axis]
+wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
 updated: 2026-04-25
 sources: 8
 ---

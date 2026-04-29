@@ -11,7 +11,7 @@ limit_unit: not-derived
 status: qualitative-only
 effective_date: 2004-07-08
 sunset_date: null
-source_refs: [epa-iris-lead-2004]
+source_refs: ["[[sources/epa-iris-lead-2004]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

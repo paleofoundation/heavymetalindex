@@ -48,8 +48,8 @@ contamination_profile:
     last_reviewed: null
 drivers: [soil-uptake, geography, volcanic-soils, variety, processing, fermentation]
 lower_risk_variants: []
-higher_risk_variants: [cocoa-powder, high-cocoa-solid-dark-chocolate]
-used_in_products: [chocolate, cocoa-beverages, cocoa-baked-goods, confectionery, baby-food-flavor, nutritional-supplements]
+higher_risk_variants: ["[[ingredients/cocoa-powder]]", "[[ingredients/high-cocoa-solid-dark-chocolate]]"]
+used_in_products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[products/cocoa-baked-goods]]", "[[products/confectionery]]", "[[products/baby-food-flavor]]", "[[products/nutritional-supplements]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

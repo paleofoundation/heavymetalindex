@@ -11,7 +11,7 @@ limit_unit: mg/kg-bw/day
 status: in-force
 effective_date: 2008-09-01
 sunset_date: null
-source_refs: [atsdr-aluminum-toxprofile-2008]
+source_refs: ["[[sources/atsdr-aluminum-toxprofile-2008]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

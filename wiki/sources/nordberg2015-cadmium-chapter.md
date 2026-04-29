@@ -14,8 +14,8 @@ access_date: 2026-04-24
 access_url: https://www.sciencedirect.com/science/article/pii/B9780444594532000329
 license: copyright-licensed-private
 metals: [Cd]
-ingredients: [rice, wheat, cereals, root-vegetables, leafy-vegetables, potatoes, nuts, oilseeds, pulses, shellfish, bivalve-molluscs, oysters, fish, kidney, liver, offal, tobacco, cocoa]
-products: [tobacco, rice-based-foods]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/nuts]]", "[[ingredients/oilseeds]]", "[[ingredients/pulses]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/oysters]]", "[[ingredients/fish]]", "[[ingredients/kidney]]", "[[ingredients/liver]]", "[[ingredients/offal]]", "[[ingredients/tobacco]]", "[[ingredients/cocoa]]"]
+products: ["[[products/tobacco]]", "[[products/rice-based-foods]]"]
 jurisdictions: [international, EU, US, JP]
 superseded_by: null
 updated: 2026-04-24

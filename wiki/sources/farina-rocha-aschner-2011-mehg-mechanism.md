@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://doi.org/10.1016/j.lfs.2011.05.019
 license: public-reference-only
 metals: [MeHg]
-ingredients: [fish, seafood]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

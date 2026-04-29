@@ -5,7 +5,7 @@ name: Lead
 species: [Pb2+, tetraethyl-lead]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
-wikibiome_crosswalk: [lead-gut-axis, lead-dysbiosis]
+wikibiome_crosswalk: ["[[microbiome/lead-gut-axis]]", "[[microbiome/lead-dysbiosis]]"]
 updated: 2026-04-25
 sources: 10
 ---

@@ -14,8 +14,8 @@ access_date: 2026-04-25
 access_url: https://www.minamataconvention.org/en/documents/minamata-convention-mercury-text-and-annexes
 license: public-redistribute
 metals: [Hg, MeHg]
-ingredients: [fish, seafood]
-products: [dental-amalgam, fluorescent-lamps, batteries, pesticides]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
+products: ["[[products/dental-amalgam]]", "[[products/fluorescent-lamps]]", "[[products/batteries]]", "[[products/pesticides]]"]
 jurisdictions: [international]
 superseded_by: null
 updated: 2026-04-25

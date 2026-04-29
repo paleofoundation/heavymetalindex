@@ -30,10 +30,26 @@ This page is a structural scaffold for HMTc Category 1 row 16. Broad rice/rice-m
 
 ## Scaffold Status
 
-- Page state: structural scaffold, not synthesis.
-- Source coverage: 2 A-tier / 0 B-tier sources.
+- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
+- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
 - Next ingest target: teething-food and snack datasets for rice-based products, especially [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Measured Values And Concentration Evidence
+
+<!-- audience: regulator, educator, consumer, app -->
+
+Rice-based snack evidence combines broad snack data with rice-product arsenic evidence. Current sources do not always isolate teething/snack products from rice cereals and crackers.
+
+| Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead|Lead]] | FDA TDS baby food teething biscuits | 18 ug/kg hybrid mean | 18 ppb | [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Teething biscuit signal; rice status not specified. |
+| [[metals/arsenic-inorganic|Inorganic arsenic]] | Rice products commonly eaten during weaning | up to 323 ug/kg | up to 323 ppb | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Secondary citation for baby rice/rice cereals/rice crackers. |
+| [[metals/arsenic-total|Total arsenic]] | UK sweet and savoury snacks | 98 ug/kg | 98 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad snack category; likely relevant to rice snacks but not isolated. |
+| [[metals/arsenic-inorganic|Inorganic arsenic]] | UK sweet and savoury snacks | 58 to 62 ug/kg | 58 to 62 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad snack category; rice status not isolated. |
+| [[metals/cadmium|Cadmium]] | UK sweet and savoury snacks | 24 ug/kg | 24 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad snack category; rice status not isolated. |
+| [[metals/lead|Lead]] | UK sweet and savoury snacks | 10 ug/kg | 10 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad snack category; rice status not isolated. |
+| [[metals/nickel|Nickel]] | UK sweet and savoury snacks | 292 ug/kg | 292 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad snack category; rice status not isolated. |
 
 ## Row Relationship
 
@@ -71,5 +87,7 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
+- [[sources/spungen2024-fda-tds-infant-lead-cadmium]]
+- [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]

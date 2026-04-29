@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://doi.org/10.3389/fpls.2024.1482099
 license: public-redistribute
 metals: [Cd]
-ingredients: [rice]
+ingredients: ["[[ingredients/rice]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

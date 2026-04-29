@@ -47,9 +47,9 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
 drivers: [soil-uptake, species-efficient-accumulator, phytoremediation-candidate-status]
-lower_risk_variants: [sunflower-oil]
-higher_risk_variants: [sunflower-meal, sunflower-protein, whole-seed, seed-butter]
-used_in_products: [snack-mixes, granola-bars, seed-butters, baked-goods, sunflower-oil, protein-powder, vegan-alternative-products]
+lower_risk_variants: ["[[ingredients/sunflower-oil]]"]
+higher_risk_variants: ["[[ingredients/sunflower-meal]]", "[[ingredients/sunflower-protein]]", "[[ingredients/whole-seed]]", "[[ingredients/seed-butter]]"]
+used_in_products: ["[[products/snack-mixes]]", "[[products/granola-bars]]", "[[products/seed-butters]]", "[[products/baked-goods]]", "[[products/sunflower-oil]]", "[[products/protein-powder]]", "[[products/vegan-alternative-products]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

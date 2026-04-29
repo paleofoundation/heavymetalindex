@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/1570
 license: public-reference-only
 metals: [Pb]
-ingredients: [cereals, vegetables, meat, offal, fish, dust]
+ingredients: ["[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/meat]]", "[[ingredients/offal]]", "[[ingredients/fish]]", "[[ingredients/dust]]"]
 products: []
 jurisdictions: [EU]
 superseded_by: null

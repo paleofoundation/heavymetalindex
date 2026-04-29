@@ -14,8 +14,8 @@ access_date: 2026-04-24
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/980
 license: public-reference-only
 metals: [Cd]
-ingredients: [cereals, rice, wheat, vegetables-leafy, vegetables-root, potatoes, starchy-roots, nuts, oilseeds, pulses, chocolate, cocoa, shellfish, bivalve-molluscs, oysters, mussels, fish, horse-meat, offal-liver, offal-kidney, seaweed, mushrooms, celeriac, spinach]
-products: [chocolate, infant-formula, breast-milk]
+ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/vegetables-leafy]]", "[[ingredients/vegetables-root]]", "[[ingredients/potatoes]]", "[[ingredients/starchy-roots]]", "[[ingredients/nuts]]", "[[ingredients/oilseeds]]", "[[ingredients/pulses]]", "[[ingredients/chocolate]]", "[[ingredients/cocoa]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/oysters]]", "[[ingredients/mussels]]", "[[ingredients/fish]]", "[[ingredients/horse-meat]]", "[[ingredients/offal-liver]]", "[[ingredients/offal-kidney]]", "[[ingredients/seaweed]]", "[[ingredients/mushrooms]]", "[[ingredients/celeriac]]", "[[ingredients/spinach]]"]
+products: ["[[products/chocolate]]", "[[products/infant-formula]]", "[[products/breast-milk]]"]
 jurisdictions: [EU]
 superseded_by: null
 updated: 2026-04-24

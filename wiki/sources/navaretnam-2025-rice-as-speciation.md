@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://doi.org/10.1007/s10653-025-02723-2
 license: public-redistribute
 metals: [iAs, tAs, MMA, DMA]
-ingredients: [rice, brown-rice, white-rice]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/brown-rice]]", "[[ingredients/white-rice]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

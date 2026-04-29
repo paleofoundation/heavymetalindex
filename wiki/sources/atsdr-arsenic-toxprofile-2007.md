@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.atsdr.cdc.gov/toxprofiles/tp2.pdf
 license: us-government-work
 metals: [iAs, tAs]
-ingredients: [rice, drinking-water, seafood, fish]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/drinking-water]]", "[[ingredients/seafood]]", "[[ingredients/fish]]"]
 products: []
 jurisdictions: [US]
 superseded_by: null

@@ -11,7 +11,7 @@ limit_unit: µg/kg-bw/day
 status: in-force
 effective_date: 2001-07-27
 sunset_date: null
-source_refs: [epa-iris-methylmercury]
+source_refs: ["[[sources/epa-iris-methylmercury]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

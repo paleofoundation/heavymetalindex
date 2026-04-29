@@ -5,7 +5,7 @@ name: Arsenic
 species: [As(III), As(V), iAs, MMA, DMA, AsB, arsenobetaine]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
-wikibiome_crosswalk: [arsenic-gut-axis, arsenic-microbial-methylation]
+wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 updated: 2026-04-25
 sources: 9
 ---

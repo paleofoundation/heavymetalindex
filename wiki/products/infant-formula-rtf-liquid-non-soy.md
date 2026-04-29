@@ -29,10 +29,26 @@ This page is a structural scaffold for HMTc Category 1 row 3. One broad infant-f
 
 ## Scaffold Status
 
-- Page state: structural scaffold, not synthesis.
-- Source coverage: 1 A-tier / 0 B-tier sources.
+- Page state: evidence-backed scaffold; row-specific synthesis remains incomplete.
+- Source coverage: measured-values table populated from promoted A-tier sources; row-fit caveats remain in the table.
 - Next ingest target: formula-specific [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]] data for non-soy ready-to-feed liquid infant formula.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
+
+## Measured Values And Concentration Evidence
+
+<!-- audience: regulator, educator, consumer, app -->
+
+Direct ready-to-feed liquid evidence is available from the UK survey. Values are liquid concentrations in ug/L, displayed as ppb-equivalent for water-like liquids.
+
+| Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/aluminum|Aluminum]] | UK ready-to-feed first/hungrier milk | 18 to 34 ug/L | 18 to 34 ppb in liquid formula | [[sources/fsa2016-infant-food-formula-metals-survey]] | Non-soy not explicitly stated; first/hungrier milk is treated as standard formula category. |
+| [[metals/arsenic-total|Total arsenic]] | UK ready-to-feed first/hungrier milk | 0 to 0.3 ug/L | 0 to 0.3 ppb in liquid formula | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound non-detect treatment. |
+| [[metals/arsenic-inorganic|Inorganic arsenic]] | UK ready-to-feed first/hungrier milk | 0 to 0.2 ug/L | 0 to 0.2 ppb in liquid formula | [[sources/fsa2016-infant-food-formula-metals-survey]] | iAs estimated/reported per survey method. |
+| [[metals/cadmium|Cadmium]] | UK ready-to-feed first/hungrier milk | 0 to 0.2 ug/L | 0 to 0.2 ppb in liquid formula | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound non-detect treatment. |
+| [[metals/lead|Lead]] | UK ready-to-feed first/hungrier milk | 0 to 0.4 ug/L | 0 to 0.4 ppb in liquid formula | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound non-detect treatment. |
+| [[metals/mercury-total|Total mercury]] | UK ready-to-feed first/hungrier milk | 0 to 0.2 ug/L | 0 to 0.2 ppb in liquid formula | [[sources/fsa2016-infant-food-formula-metals-survey]] | Total mercury, not MeHg. |
+| [[metals/nickel|Nickel]] | UK ready-to-feed first/hungrier milk | 0 to 9 ug/L | 0 to 9 ppb in liquid formula | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound non-detect treatment. |
 
 ## Row Relationship
 
@@ -70,4 +86,6 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 ## Sources
 
+- [[sources/spungen2024-fda-tds-infant-lead-cadmium]]
+- [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]

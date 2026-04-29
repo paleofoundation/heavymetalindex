@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/6268
 license: public-reference-only
 metals: [Ni]
-ingredients: [drinking-water, cocoa, nuts, legumes, cereals]
+ingredients: ["[[ingredients/drinking-water]]", "[[ingredients/cocoa]]", "[[ingredients/nuts]]", "[[ingredients/legumes]]", "[[ingredients/cereals]]"]
 products: []
 jurisdictions: [EU]
 superseded_by: null

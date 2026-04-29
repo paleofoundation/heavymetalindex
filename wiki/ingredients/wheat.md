@@ -47,9 +47,9 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
 drivers: [soil-uptake, cultivar, zinc-status, phosphate-fertilization, geography]
-lower_risk_variants: [refined-white-flour]
-higher_risk_variants: [wheat-bran, wheat-germ, whole-wheat-flour, wheat-protein-concentrate]
-used_in_products: [bread, pasta, cereals, baked-goods, baby-cereal, wheat-based-snacks, crackers, couscous, bulgur]
+lower_risk_variants: ["[[ingredients/refined-white-flour]]"]
+higher_risk_variants: ["[[ingredients/wheat-bran]]", "[[ingredients/wheat-germ]]", "[[ingredients/whole-wheat-flour]]", "[[ingredients/wheat-protein-concentrate]]"]
+used_in_products: ["[[products/bread]]", "[[products/pasta]]", "[[products/cereals]]", "[[products/baked-goods]]", "[[products/baby-cereal]]", "[[products/wheat-based-snacks]]", "[[products/crackers]]", "[[products/couscous]]", "[[products/bulgur]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-24
 ---

@@ -11,7 +11,7 @@ limit_unit: NSRL-pending
 status: in-force
 effective_date: null
 sunset_date: null
-source_refs: [oehha-arsenic-prop65-listing]
+source_refs: ["[[sources/oehha-arsenic-prop65-listing]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

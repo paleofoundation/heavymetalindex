@@ -11,7 +11,7 @@ limit_unit: ppb
 status: finalized
 effective_date: 2020-08-06
 sunset_date: null
-source_refs: [fda-iAs-rice-cereal-2020]
+source_refs: ["[[sources/fda-iAs-rice-cereal-2020]]"]
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

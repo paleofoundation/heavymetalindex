@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://apps.who.int/iris/handle/10665/259533
 license: CC-BY-NC-SA-3.0-IGO
 metals: [iAs, tAs]
-ingredients: [rice, drinking-water, seafood, seaweed]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/drinking-water]]", "[[ingredients/seafood]]", "[[ingredients/seaweed]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

@@ -9,14 +9,14 @@ Product-category pages describe the heavy-metal risk profile of consumer-facing 
 
 ## Infant and Child Foods (HMTc Category 1, Ages 0-5)
 
-These pages are structural scaffolds. They preserve the locked row architecture and mark substantive claims as `<!-- UNCITED -->` until source pages are promoted from `raw/`.
+These pages preserve the locked row architecture. Substantive claims are cited to promoted `wiki/sources/` pages; remaining gaps stay marked as `<!-- UNCITED -->` until additional sources are promoted from `raw/`.
 
 1. [[products/infant-formula-powder-non-soy|Infant formula, powder (non-soy)]]
 2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]]
 3. [[products/infant-formula-rtf-liquid-non-soy|Infant formula, RTF liquid (non-soy)]]
 4. [[products/infant-formula-rtf-liquid-soy-based|Infant formula, RTF liquid (soy-based)]]
-5. [[products/baby-cereals-dry-non-rice|Baby cereals / grain products, dry (non-rice)]]
-6. [[products/baby-cereals-dry-rice-based|Baby cereals / grain products, dry (rice-based)]]
+5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]]
+6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]]
 7. [[products/fruit-purees|Fruit purees]]
 8. [[products/non-root-vegetable-purees|Non-root vegetable purees]]
 9. [[products/root-vegetable-purees|Root-vegetable purees]]

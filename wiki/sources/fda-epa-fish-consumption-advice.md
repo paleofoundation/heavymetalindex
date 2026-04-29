@@ -14,8 +14,8 @@ access_date: 2026-04-25
 access_url: https://www.fda.gov/food/consumers/advice-about-eating-fish
 license: us-government-work
 metals: [MeHg, tHg, iAs]
-ingredients: [fish, seafood, shellfish, salmon, tuna, swordfish, shark, tilefish, king-mackerel]
-products: [canned-tuna]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/salmon]]", "[[ingredients/tuna]]", "[[ingredients/swordfish]]", "[[ingredients/shark]]", "[[ingredients/tilefish]]", "[[ingredients/king-mackerel]]"]
+products: ["[[products/canned-tuna]]"]
 jurisdictions: [US]
 superseded_by: null
 updated: 2026-04-25
