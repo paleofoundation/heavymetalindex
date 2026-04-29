@@ -20,7 +20,7 @@ updated: 2026-04-29
 
 # Milk And Dairy
 
-_Stub page. Chekri et al. 2019 reports infant formulae, follow-on formulae, growing-up milks, milk-based beverages, milk-based desserts, and common dairy categories. Burrell and Exley 2010 and Chuchu et al. 2013 report aluminum in cow-milk-based infant formula products, but do not isolate raw cow milk from finished formula constituents and processing. Astolfi et al. 2021 reports powdered infant formula as sold in Italy, but does not provide a raw-milk or dairy-ingredient concentration row. Kazi et al. 2009 reports milk-based infant formula as a comparator to soy-based formula, not a raw dairy occurrence distribution. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]] [[sources/astolfi2021-italy-powdered-infant-formula-elements]] [[sources/kazi2009-toxic-elements-in-infant-formulae]]_
+_Stub page. Chekri et al. 2019 reports infant formulae, follow-on formulae, growing-up milks, milk-based beverages, milk-based desserts, and common dairy categories. Burrell and Exley 2010 and Chuchu et al. 2013 report aluminum in cow-milk-based infant formula products, but do not isolate raw cow milk from finished formula constituents and processing. Dabeka et al. 2011 reports milk-based formula by powder, concentrated liquid, and ready-to-use formats, but those are product-level rows rather than raw dairy occurrence distributions. Astolfi et al. 2021 reports powdered infant formula as sold in Italy, but does not provide a raw-milk or dairy-ingredient concentration row. Kazi et al. 2009 reports milk-based infant formula as a comparator to soy-based formula, not a raw dairy occurrence distribution. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/astolfi2021-italy-powdered-infant-formula-elements]] [[sources/kazi2009-toxic-elements-in-infant-formulae]]_
 
 ## Ranges by source, region, and variety
 
@@ -31,5 +31,6 @@ _Pending dairy-specific occurrence extraction. Formula-specific values remain fi
 - [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] — French infant/toddler TDS formula and dairy category rows.
 - [[sources/burrell2010-aluminium-in-infant-formulas]] — UK infant formula aluminum survey covering cow-milk-based ready-made and powdered formula products.
 - [[sources/chuchu2013-aluminium-in-infant-formulas]] — UK 30-product infant formula aluminum survey.
+- [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] — Canadian milk-based formula format rows; product-level context only for this ingredient page.
 - [[sources/astolfi2021-italy-powdered-infant-formula-elements]] — Italian powdered infant formula multi-element survey; product-level context only for this ingredient page.
 - [[sources/kazi2009-toxic-elements-in-infant-formulae]] — milk-based infant formula Al, Cd, and Pb comparator values; product-level context only for this ingredient page.

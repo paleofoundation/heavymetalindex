@@ -35,3 +35,7 @@ The Category 1 pilot is also the first Evidence Fitness rollout. Pages report wh
 These pages are graph anchors for sources that report a broader product category than the locked HMTc row split. They should not replace the 16 Category 1 row pages or carry final p90/p100 candidate values unless the evidence is later resolved into a specific row.
 
 - [[products/infant-formula-powder|Infant formula powder]]
+- [[products/infant-formula-concentrated-liquid-non-soy|Infant formula, concentrated liquid (non-soy)]]
+- [[products/infant-formula-concentrated-liquid-soy-based|Infant formula, concentrated liquid (soy-based)]]
+- [[products/oral-electrolyte-solutions|Oral electrolyte solutions]]
+- [[products/glucose-solutions|Glucose solutions]]
