@@ -102,6 +102,8 @@ A 2018 infant biomarker study found that, among weaning infants, fruit intake wa
 
 A 2024 analytical study of European baby foods included fruit homogenized foods and reported that an apple homogenized food had the highest estimated daily intake for aluminum in the study at 13.1 ug/kg body weight per day. [[sources/meli2024-chemical-characterization-baby-food-italy]]
 
+A 2025 global scoping review classified fruits and vegetables together for one baby-food grouping, so it supports broad monitoring context for fruit purees but does not provide a fruit-puree-only median or exceedance rate. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
 Fruit-puree-specific relative risk remains unresolved because the promoted sources either summarize fruit samples broadly or combine fruits with vegetables. <!-- UNCITED: Need fruit puree datasets or regulatory monitoring reports before assigning row-specific metals of concern. -->
 
 ## What Drives Variance Across Brands
@@ -134,3 +136,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 - [[sources/meli2024-chemical-characterization-baby-food-italy]]
 - [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]

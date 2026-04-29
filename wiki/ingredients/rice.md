@@ -83,6 +83,7 @@ _Pending. Literature on cultivar selection, water management, liming, zinc amend
 _Some metals not listed in this section because no ingested source yet covers their commodity-level concern; those will populate when the corresponding source pages are ingested._
 
 - **iAs**: a major concern for rice — rice is the highest-iAs staple food because flooded-paddy redox chemistry mobilizes soil arsenic into pore water where roots take it up ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]). Brown rice and rice bran carry higher iAs than polished white rice ([[sources/su-2023-arsenic-brown-rice|Su et al. 2023]]). The FDA Closer to Zero inorganic-arsenic action level for infant rice cereal is 100 ppb ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]). See [[metals/arsenic]] and [[sources/navaretnam-2025-rice-as-speciation|Navaretnam et al. 2025]].
+- **Baby-food context**: Collado-Lopez et al. 2025 reports rice/rice-mix baby foods with median Pb 0.008 mg/kg and median As 0.048 mg/kg among detected items; this is a review-level signal and not a substitute for primary row-level rice-cereal or snack distributions ([[sources/collado-lopez2025-heavy-metals-baby-food-formula]]).
 
 ## Regulatory limits that apply
 
@@ -92,4 +93,5 @@ _Some metals not listed in this section because no ingested source yet covers th
 
 ## Sources
 
-_None directly ingested yet. See [[metals/cadmium]] for the cross-source synthesis that identifies rice as a population-level contributor._
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] — review-level rice/rice-mix baby-food signal for Pb and As.
+- See [[metals/cadmium]] for the cross-source synthesis that identifies rice as a population-level contributor.

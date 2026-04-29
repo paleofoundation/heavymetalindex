@@ -106,6 +106,8 @@ A 2022 narrative review summarized Parker et al. 2022 as finding arsenic in 78% 
 
 A 2018 infant biomarker study found that, among weaning infants, vegetable intake was associated with the sum of urinary arsenic species (Spearman rho = 0.86, p = 0.01), but the study grouped vegetables as a dietary category rather than isolating non-root vegetable purees. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 
+A 2025 global scoping review classified fruits and vegetables together for one baby-food grouping, so it supports broad monitoring context for vegetable purees but does not separate non-root vegetables from root vegetables. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
 Non-root vegetable puree risk remains only partially supported because the promoted sources do not yet distinguish leafy greens, squash, legumes, finished purees, or row-specific non-root vegetables. <!-- UNCITED: Need non-root vegetable puree datasets or ingredient-level sources before describing Cd or Pb risk for this exact row. -->
 
 ## What Drives Variance Across Brands
@@ -135,3 +137,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/price2023-baby-food-lead-biokinetic-models]]
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 - [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]

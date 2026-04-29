@@ -68,6 +68,8 @@ Cadmium and lead in fish are commodity-secondary concerns; bivalve molluscs (cov
 
 Fish-as-a-commodity is broad enough that future ingest waves will likely produce species-specific pages (tuna, salmon, swordfish) rather than a single fish page treating all species uniformly. The current page is a placeholder that satisfies the wikilink graph and orients consumers toward the dominant concern (methylmercury).
 
+Collado-Lopez et al. 2025 reports fish/fish-mix baby foods as a priority review-level group for arsenic and mercury, with median As 0.165 mg/kg and median Hg 0.016 mg/kg among detected items. This signal should guide retrieval of the underlying primary studies before any fish-containing baby-food p90 is calculated. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
 ## Regulatory limits that apply
 
 - [[regulations/jecfa-methylmercury-ptwi]] — JECFA provisional tolerable weekly intake of 1.6 µg methylmercury/kg b.w./week.
@@ -78,5 +80,6 @@ Fish-as-a-commodity is broad enough that future ingest waves will likely produce
 ## Sources
 
 - [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA and EPA joint fish consumption advice.
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] — review-level fish/fish-mix baby-food signal for As and Hg.
 - [[metals/mercury]] — cross-source mercury synthesis page.
 - [[metals/arsenic]] — cross-source arsenic synthesis page (relevant for the marine-iAs-fraction question).

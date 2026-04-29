@@ -81,6 +81,8 @@ This row is independent in the locked row architecture and has no clean-counterp
 
 A 2024 analytical study of European baby foods included homogenized meat foods and reported that cadmium and lead were below the study LOD in all samples, but the study did not isolate HMTc-style meat-and-poultry puree distributions. [[sources/meli2024-chemical-characterization-baby-food-italy]]
 
+A 2025 global scoping review reported Pb detection in 83% and Cd detection in 84% of meat and meat-mix baby-food determinations, but the review grouping does not isolate poultry purees or finished puree format. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
 Risk characterization for this row remains limited. <!-- UNCITED: Need meat and poultry puree datasets or regulatory monitoring reports before assigning metals of concern or describing relative risk. -->
 
 ## What Drives Variance Across Brands
@@ -107,3 +109,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/meli2024-chemical-characterization-baby-food-italy]]
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]

@@ -62,6 +62,7 @@ The current source set does not yet support a non-rice mixed-meal p10/p90/p100 c
 | UK savoury category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average/range | 7 to 9 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | UK savoury category average | [[metals/cadmium|Cadmium]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average | 10 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 | UK savoury category average | [[metals/lead|Lead]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average/range | 3 to 5 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| Scoping-review mixed-food median | [[metals/cadmium|Cadmium]] | Mixed foods excluding meat, fish, and rice | review-level baby-food grouping | median and exceedance share | median 8 ppb; 19% of detected items exceeded the Cd ML used by the authors | Broad context only | Secondary review category; not a product-specific distribution. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] |
 | All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad context only | All categories combined; mixed-meal and rice-status-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 | All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad context only | All categories combined; mixed-meal and rice-status-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 
@@ -101,6 +102,8 @@ This row is the clean-benchmark counterpart to [[products/mixed-meals-rice-conta
 
 Risk characterization for this row is pending source ingest that can separate non-rice mixed meals from rice-containing mixed meals. <!-- UNCITED: Need mixed-meal datasets that distinguish non-rice products and report measured concentrations for iAs, Cd, and Pb. -->
 
+A 2025 global scoping review reported that mixed foods excluding meat, fish, and rice had a median Cd concentration of 0.008 mg/kg among detected items, with 19% of detected items exceeding the Cd maximum level used by the authors. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
@@ -125,3 +128,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]

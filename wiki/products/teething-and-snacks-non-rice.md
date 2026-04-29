@@ -93,6 +93,8 @@ Risk characterization for this row is pending source ingest that can separate ri
 
 Gardener 2019 reported that cadmium values were higher in foods containing rice, quinoa, wheat, and oats, which means oat- and wheat-based snacks should not be treated as automatically clean without product-specific evidence. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
 
+A 2025 global scoping review identifies cereals as a Cd-priority baby-food group, with median Cd of 0.013 mg/kg among detected items, but the cereal category does not separate non-rice teething snacks from rice-based products. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+
 ## What Drives Variance Across Brands
 
 <!-- audience: regulator, educator, app -->
@@ -118,3 +120,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/spungen2024-fda-tds-infant-lead-cadmium]]
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
