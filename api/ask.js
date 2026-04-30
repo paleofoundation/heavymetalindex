@@ -214,10 +214,10 @@ export default async function handler(req, res) {
 
     if (!process.env.OPENAI_API_KEY) {
       res.status(200).json({
-        answer:
-          "Ask the Index found relevant site pages, but the model endpoint is not configured yet. Review the linked pages below for now.",
+        answer: buildRetrievalOnlyAnswer(retrieval.context),
         confidence: "insufficient",
-        limits: "Missing OPENAI_API_KEY in the deployment environment.",
+        limits:
+          "Model answer generation is not configured on this deployment; retrieved site evidence is shown instead.",
         citations: retrieval.context.slice(0, 5).map(toClientCitation),
         mode: "retrieval_only",
       })
@@ -411,6 +411,11 @@ function retrieve(question, corpus, pageSlug) {
     context,
     stats: corpus.stats,
   }
+}
+
+function buildRetrievalOnlyAnswer(context) {
+  const citedPages = context.slice(0, 5).map((item) => `${item.title} [${item.citationId}]`)
+  return `I found relevant Heavy Metal Index pages. This deployment is currently showing retrieved site evidence rather than generated answers, so start with these cited pages: ${citedPages.join("; ")}.`
 }
 
 function findRequiredEntities(question) {
