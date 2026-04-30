@@ -3,7 +3,7 @@ type: section-index
 status: stub
 section: testing
 audience: [regulator, educator, app]
-updated: 2026-04-26
+updated: 2026-04-29
 ---
 
 # Testing
@@ -12,6 +12,7 @@ _Stub. This section is a planned home for analytical-method, detection-limit, an
 
 Planned topics:
 
+- [[testing/en-1811-nickel-release]] — nickel release from skin-contact articles and piercing post assemblies, reported as µg/cm2/week rather than food ppb.
 - ICP-MS methods for heavy metals in food matrices, including detection limits and matrix interferences.
 - HPLC-ICP-MS arsenic speciation methods (separating iAs from organic As species).
 - AOAC and EPA validated methods commonly cited in regulatory documents.

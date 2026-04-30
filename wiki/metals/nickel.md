@@ -7,13 +7,13 @@ species: [Ni2+, nickel-metal, nickel-compounds, nickel-alloy]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
-updated: 2026-04-25
-sources: 4
+updated: 2026-04-29
+sources: 5
 ---
 
 # Nickel
 
-_This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]]), the [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] nickel chapter ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]]), and the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]])._
+_This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]]), the [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] nickel chapter ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]]), the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]]), and the LGC final report on nickel release from piercing post assemblies ([[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -41,6 +41,8 @@ The [[sources/efsa-nickel-contam-2020|EFSA 2020]] chronic TDI of 13 µg Ni/kg b.
 For acute oral nickel exposure, [[sources/efsa-nickel-contam-2020|EFSA 2020]] identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect. A BMDL could not be derived from the available human-volunteer studies; the LOAEL of 4.3 µg Ni/kg b.w. was selected as the reference point, with a margin-of-exposure approach using MOE ≥ 30 as the threshold for low health concern ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 Carcinogenic effects of nickel compounds are documented in occupational inhalation cohorts (nickel refinery workers, stainless steel and nickel-alloy production, electroplating) ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]). Lung and nasal cancer are the primary tumor sites ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]). The [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] (2021) classifies nickel compounds as a class as known human carcinogens (since the 10th RoC, 2002); metallic nickel as reasonably anticipated to be a human carcinogen (since the 1st RoC, 1980); and explicitly reviewed nickel alloys without recommending listing. Dietary nickel intake at typical levels has not been associated with cancer outcomes in epidemiological studies; the cancer risk from nickel is operationally an inhalation/occupational concern ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]).
+
+The dermal-contact pathway is separate from dietary nickel. [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] evaluates nickel sensitisation and allergic contact dermatitis from piercing post assemblies, including release from stainless steel into artificial sweat, urine, and blood plasma. The report is important for nickel sensitisation context, but it is not a food occurrence source and does not supply ppb values for infant formula, baby foods, or other Category 1 food rows.
 
 ## Typical exposure routes
 <!-- audience: regulator, educator -->
@@ -76,7 +78,7 @@ For consumers with diagnosed nickel-sensitivity contact dermatitis: the acute LO
 | --- | --- | --- | --- |
 | EFSA (EU) | Chronic dietary TDI | 13 µg Ni/kg b.w./day | [[regulations/efsa-nickel-tdi]] |
 | EFSA (EU) | Acute oral LOAEL (sensitized) | 4.3 µg Ni/kg b.w.; MOE ≥ 30 for low concern | [[regulations/efsa-nickel-tdi]] |
-| EU | Nickel Directive 94/27/EC (skin-contact items) | Less than 0.5 µg Ni/cm²/week release rate | _Pending separate ingest_ |
+| EU | Nickel Directive 94/27/EC (skin-contact items, as described in LGC 2003) | 0.5 µg Ni/cm2/week release-rate limit for direct/prolonged skin contact; 0.05% m/m content limit for post assemblies; LGC recommendation: 0.2 µg/cm2/week migration limit for all post assemblies | [[regulations/eu-nickel-directive-94-27-ec]] |
 | US NTP | 15th Report on Carcinogens | Ni compounds: known human carcinogen; metallic Ni: reasonably anticipated | [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] |
 | US EPA | Ecological Soil Screening Levels | Threshold values for ecological-risk screening at hazardous waste sites | [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] |
 | US ATSDR | MRLs (multiple by route and duration) | See profile | [[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]] |
@@ -93,7 +95,7 @@ For the population question: the EFSA finding that mean dietary nickel exposure 
 ## Testing
 <!-- audience: educator -->
 
-_A dedicated `wiki/testing/` section with detailed method-specific pages will be stood up in a later wave._
+Nickel food occurrence values require food-matrix analytical methods and ppb basis matching. By contrast, dermal contact-product nickel release is commonly expressed as µg/cm2/week. The [[testing/en-1811-nickel-release|EN 1811 nickel-release method]] discussed in [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] is therefore relevant to piercing posts and skin-contact articles, not to food concentration cells.
 
 ## Microbiome effects
 <!-- audience: educator -->
@@ -143,9 +145,12 @@ First, the population-level TDI exceedance reported by [[sources/efsa-nickel-con
 
 Second, the relationship between dermal sensitization (the gateway exposure for many sensitized individuals) and dietary flare-up tolerance is mechanistically established but quantitatively variable across sensitized populations. Whether an HMT&C or analogous certification program targeting "low nickel" finished products would meaningfully serve sensitized consumers depends on individual-level threshold variation that the literature has not fully characterized.
 
+Third, [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] shows why dermal/contact-material evidence must be route-gated inside the wiki: a robust release-rate page for piercing post assemblies can coexist with Category 1 food data gaps without letting a skin-contact migration limit masquerade as a food occurrence value.
+
 ## Sources
 
 - [[sources/efsa-nickel-contam-2020|EFSA Ni 2020]] — EFSA CONTAM Panel, 2020. Update of the Risk Assessment of Nickel in Food and Drinking Water.
 - [[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]] — ATSDR, October 2024. Toxicological Profile for Nickel.
 - [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] — US National Toxicology Program, 2021. 15th Report on Carcinogens: Nickel Compounds and Metallic Nickel.
 - [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] — EPA, 2007. Ecological Soil Screening Levels for Nickel.
+- [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] — LGC Limited, 2003. Risk of sensitisation of humans to nickel by piercing post assemblies.

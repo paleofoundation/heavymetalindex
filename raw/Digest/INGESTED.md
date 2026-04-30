@@ -14,11 +14,13 @@ This folder records the Digest PDF batch supplied locally at `/Users/karenpender
 - `ijerph-18-05073.pdf` -> [[sources/astolfi2021-italy-powdered-infant-formula-elements]]
 - `kazi2009.pdf` -> [[sources/kazi2009-toxic-elements-in-infant-formulae]]
 - `nuaf138.pdf` -> [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+- `nickel_en.pdf` -> [[sources/lgc2003-nickel-piercing-post-assemblies]]
 - `toxic_element_infant_formula_prepared_for_posting_20260324.pdf` -> [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
 ## Structured Extraction Completed
 
 - `TEP-AsPbCdHg-TEP-FY2009-FY2024-12162024.pdf` -> `data/evidence/category1_fda_baby_food_compliance_samples.csv`, `data/evidence/category1_fda_baby_food_compliance_summary.csv`, and value records with prefix `category1-fda-baby-food-compliance-`.
+- `nickel_en.pdf` -> source metadata in `data/evidence/sources.jsonl` and dermal/contact-material context values in `data/evidence/values.jsonl`. Category 1 food-product nickel occurrence cells remain data gaps because this source measures skin-contact article release, not food concentrations.
 - `toxic_element_infant_formula_prepared_for_posting_20260324.pdf` -> `data/evidence/category1_formula_special_survey_samples.csv`, `data/evidence/category1_formula_concentration_summary.csv`, source metadata in `data/evidence/sources.jsonl`, and value records with prefix `category1-formula-digest-`.
 
 ## Duplicate Raw Files

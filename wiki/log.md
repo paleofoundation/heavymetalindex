@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-04-29] ingest | lgc2003-nickel-piercing-post-assemblies — critical nickel dermal-contact report
+Pages touched: [[sources/lgc2003-nickel-piercing-post-assemblies]], [[metals/nickel]], [[products/piercing-post-assemblies]], [[regulations/eu-nickel-directive-94-27-ec]], [[testing/en-1811-nickel-release]], [[raw/Digest/INGESTED]]
+Notes: Critical ingest of `nickel_en.pdf`, preserving the exact paper title and exact source table headings on the rendered source page. Connected the report to nickel, the actual product category, the Nickel Directive, and EN 1811, while explicitly marking it as context-only for Category 1 food occurrence because it measures dermal/contact-material nickel release rather than food concentrations.
+
 ## [2026-04-29] lint | fda2026-infant-formula-toxic-elements-special-survey — source-table headings surfaced
 Pages touched: [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 Notes: Added an explicit FDA source-table section so the exact table heading "Analytical Results for Arsenic in Infant Formula (FY2023-2025)" is visible on the rendered page. Added a compact arsenic characterization table showing total arsenic (`tAs`), prepared-for-feeding ppb basis, direct Category 1 rows, context-only rows, and Evidence Fitness treatment.
