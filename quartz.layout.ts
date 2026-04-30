@@ -45,6 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.AskIndex(),
     Component.Explorer({
       title: "Index",
       folderDefaultState: "collapsed",
@@ -94,6 +95,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    Component.AskIndex(),
     Component.Explorer({
       title: "Index",
       folderDefaultState: "collapsed",

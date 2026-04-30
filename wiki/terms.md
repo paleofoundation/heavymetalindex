@@ -18,6 +18,12 @@ Heavy Metal Index is a public reference on heavy metals in food, ingredients, su
 
 The site is not medical advice, legal advice, regulatory advice, product-safety advice, or a substitute for professional judgment. Readers are responsible for their own decisions, risk assessments, product formulations, regulatory compliance, and legal positions.
 
+## Ask the Index
+
+Ask the Index is a site-grounded reference assistant. It is designed to answer questions using retrieved Heavy Metal Index pages and to link back to cited pages. It is not a general-purpose chatbot and should not be treated as an authority independent of the cited source pages.
+
+Assistant answers may be incomplete, may omit relevant pages, and may reflect limitations in the current corpus. Users should verify important claims against the linked pages and underlying primary sources. Do not submit confidential, private, regulated, or sensitive information through the assistant.
+
 ## Intellectual Property
 
 The Paleo Foundation owns or controls the Heavy Metal Index compilation, page text, editorial selection, organization, metadata, source annotations, and database structure, except where third-party materials are identified. Third-party source documents, names, marks, and excerpts remain the property of their respective owners.
@@ -58,6 +64,8 @@ Reports of factual errors, outdated regulatory values, broken provenance links, 
 ## No Warranty
 
 The site is provided as a reference on an as-is and as-available basis. The Paleo Foundation does not warrant that the site is complete, error-free, current for every jurisdiction, fit for a particular purpose, or suitable for reliance without independent verification.
+
+Ask the Index is also provided as-is. The Paleo Foundation does not warrant that assistant responses are complete, current, or suitable for reliance without reviewing the cited pages and underlying sources.
 
 ## Limitation of Liability
 

@@ -5,6 +5,11 @@
   "installCommand": "npm install",
   "framework": null,
   "cleanUrls": true,
+  "functions": {
+    "api/ask.js": {
+      "maxDuration": 30
+    }
+  },
   "headers": [
     {
       "source": "/sitemap.xml",

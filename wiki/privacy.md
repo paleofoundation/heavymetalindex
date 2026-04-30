@@ -14,7 +14,7 @@ Heavy Metal Index is operated by the Paleo Foundation, Cyprus. Contact routes fo
 
 ## Summary
 
-Heavy Metal Index is a static public reference site. It does not offer user accounts, comments, checkout, subscriptions, or direct newsletter signup. Analytics are not enabled in the site configuration. The site may still process limited technical data through hosting, security, browser-storage, and correspondence workflows.
+Heavy Metal Index is a public reference site. It does not offer user accounts, comments, checkout, subscriptions, or direct newsletter signup. Analytics are not enabled in the site configuration. The site may still process limited technical data through hosting, security, browser-storage, assistant, and correspondence workflows.
 
 ## Data Processed
 
@@ -30,6 +30,10 @@ Some interface preferences may be stored in your browser, such as dark-mode pref
 
 If you contact the Paleo Foundation about corrections, licensing, media, regulatory, privacy, or legal matters, the Foundation may process the contact details and message content you provide, including your name, email address, organization, role, attachments, and correspondence metadata.
 
+### Assistant Data
+
+If you use Ask the Index, the site processes the question you submit, the current page context, retrieved Heavy Metal Index excerpts, generated answers, cited source links, and technical request metadata. The assistant is designed for public-reference questions. Do not submit confidential, private, regulated, or sensitive information through the assistant.
+
 ### Licensing and Legal Data
 
 For commercial licensing, legal process, or regulatory inquiries, the Foundation may process business contact information, matter details, negotiation records, contract records, and related communications.
@@ -40,6 +44,7 @@ The site processes personal data for the following purposes:
 
 - to publish, deliver, secure, and maintain the site;
 - to diagnose technical problems and prevent abuse;
+- to retrieve relevant Heavy Metal Index pages and generate citation-backed assistant answers;
 - to respond to correction reports, editorial inquiries, licensing requests, privacy requests, and legal or regulatory matters;
 - to maintain editorial, legal, and commercial records;
 - to protect the Foundation's rights, database rights, site integrity, and lawful interests.
@@ -53,6 +58,8 @@ Heavy Metal Index does not currently use advertising cookies, behavioral adverti
 ## Sharing
 
 Personal data may be shared with infrastructure providers, hosting providers, security providers, email or correspondence providers, professional advisers, contractors, or public authorities where necessary for the purposes described above or where required by law.
+
+Assistant questions and retrieved site excerpts may be processed by an AI model provider for the purpose of generating a response. The assistant is configured to use Heavy Metal Index content as its evidence boundary, but users should avoid entering sensitive or confidential information.
 
 The public GitHub repository contains site code and public content. Do not submit private, confidential, or personal data through public repository channels unless you intend it to be public.
 
