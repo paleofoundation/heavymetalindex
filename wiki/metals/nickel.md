@@ -6,7 +6,7 @@ species: [Ni2+, nickel-metal, nickel-compounds, nickel-alloy]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
-updated: 2026-04-25
+updated: 2026-04-29
 sources: 4
 ---
 
@@ -17,9 +17,9 @@ _This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([
 ## Overview
 <!-- audience: regulator, educator, consumer -->
 
-The toxicology of nickel splits sharply by route: inhalation exposure to nickel compounds (particularly soluble salts and certain insoluble forms in occupational settings) produces lung and nasal cancer, and the US National Toxicology Program classifies nickel compounds as a class as known human carcinogens ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]); dietary exposure to nickel produces non-cancer endpoints, primarily reproductive and developmental effects at chronic exposure and systemic contact dermatitis at acute exposure in nickel-sensitized individuals ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The EFSA CONTAM Panel 2020 update established a chronic TDI of 13 µg Ni/kg b.w./day and an acute reference using a LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up reactions in nickel-sensitized humans, applying a margin-of-exposure approach for the acute case ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
+The toxicology of nickel splits sharply by route: inhalation exposure to nickel compounds (particularly soluble salts and certain insoluble forms in occupational settings) produces lung and nasal cancer, and the US National Toxicology Program classifies nickel compounds as a class as known human carcinogens ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]); dietary exposure to nickel produces non-cancer endpoints, primarily reproductive and developmental effects at chronic exposure and systemic contact dermatitis at acute exposure in nickel-sensitized individuals ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The EFSA CONTAM Panel 2020 update established a chronic TDI of 13 µg Ni/kg b.w./day and an acute reference using a LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up reactions in nickel-sensitized humans, applying a margin-of-exposure approach for the acute case ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The 2020 EFSA assessment was anchored on a European occurrence dataset of more than 47,000 measurements ([[sources/efsa-nickel-contam-2020|EFSA 2020]]), giving the chronic and acute reference values an exposure base substantially larger than typical food-contaminant assessments.
 
-Dietary nickel sources are broadly distributed across the food supply: cocoa products, nuts, legumes (especially beans), oats, whole grains, and certain leafy vegetables carry the highest concentrations ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). Drinking water is a meaningful additional source ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
+Dietary nickel sources are broadly distributed across the food supply: [[ingredients/cocoa]] products, [[ingredients/nuts]], [[ingredients/legumes]] (especially [[ingredients/beans]]), [[ingredients/oats]], whole grains, and certain leafy vegetables carry the highest concentrations ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). [[ingredients/drinking-water]] is a meaningful additional source ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 ## At a glance
 <!-- audience: consumer -->
@@ -53,11 +53,12 @@ Once sensitized, individuals are susceptible to systemic contact dermatitis from
 
 | Matrix | Nickel concern |
 | --- | --- |
-| Cocoa and chocolate products | Among the highest-Ni food categories; dark chocolate higher than milk ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Oats and oat products | Elevated relative to other cereals ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Legumes (beans, chickpeas, lentils, soy) | Plant-family-level efficient Ni accumulators ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Nuts (especially cashews, hazelnuts) | Elevated ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Drinking water (in some regions) | Variable; corrosion of nickel-containing plumbing, well water in Ni-rich geology ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| [[ingredients/cocoa]] and [[ingredients/chocolate]] products | Among the highest-Ni food categories; dark chocolate higher than milk ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| [[ingredients/oats]] and oat products | Elevated relative to other cereals ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| [[ingredients/legumes]] ([[ingredients/beans]], [[ingredients/chickpeas]], [[ingredients/lentils]], [[ingredients/soy]]) | Plant-family-level efficient Ni accumulators ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| [[ingredients/nuts]] (especially [[ingredients/cashews]], [[ingredients/hazelnuts]]) | Elevated ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| Leafy vegetables ([[ingredients/spinach]], [[ingredients/lettuce]]) | Elevated relative to most fruits and non-leafy vegetables ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| [[ingredients/drinking-water]] (in some regions) | Variable; corrosion of nickel-containing plumbing, well water in Ni-rich geology ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
 
 [[sources/efsa-nickel-contam-2020|EFSA 2020]] found that mean dietary nickel exposure across European Member States routinely exceeds the chronic TDI of 13 µg/kg b.w./day, particularly among toddlers and other children, and among adults consuming legume-heavy or cocoa-heavy diets.
 
@@ -92,12 +93,23 @@ For the population question: the EFSA finding that mean dietary nickel exposure 
 ## Testing
 <!-- audience: educator -->
 
-_A dedicated `wiki/testing/` section with detailed method-specific pages will be stood up in a later wave._
+Analytical determination of nickel in food and biological matrices is dominated by ICP-MS (inductively coupled plasma mass spectrometry) and ICP-OES (optical emission spectrometry), with graphite-furnace AAS as a lower-throughput alternative for individual matrices. Speciation between Ni(II) (the form relevant to dietary absorption and to systemic contact dermatitis) and metallic nickel or nickel alloys (the forms relevant to occupational inhalation carcinogenicity) is performed by hyphenated techniques (HPLC-ICP-MS) when the regulatory question requires it. For most dietary occurrence surveys feeding the [[sources/efsa-nickel-contam-2020|EFSA 2020]] dataset, total nickel by ICP-MS is the operative measurement.
+
+Method-specific pages with LOD/LOQ ranges, sample preparation pitfalls, and per-matrix quirks for nickel will be stood up in the dedicated `wiki/testing/` section as that subwiki develops.
+
+## Supply chain
+<!-- audience: regulator, educator -->
+
+Soil nickel content is the upstream driver of dietary nickel exposure for plant-derived foods. The [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL]] document provides ecological soil screening levels intended for hazardous-waste-site evaluations under CERCLA, but the values are also a useful reference for evaluating agricultural soils given EFSA's finding that dietary nickel exposure routinely exceeds the chronic TDI ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The [[supply-chain/soil-nickel-screening|soil-nickel screening reference]] page tracks the current screening framework and its application to food-supply soils.
+
+Nickel-rich serpentine soils, sites near former or current nickel refineries, and locations with historical biosolid or nickel-containing fertilizer applications are documented elevated-Ni-soil categories worth flagging in supply-chain due diligence for plant foods sourced from those geographies ([[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL]]).
 
 ## Microbiome effects
 <!-- audience: educator -->
 
-_Pending dedicated microbiome ingests. Nickel is a cofactor for several microbial enzymes (urease, hydrogenases, carbon monoxide dehydrogenase) including in human gut microbiota; the operational significance for human nickel exposure remains an active research area. The wikibiome-crosswalk anchors are not yet established._
+Nickel is an essential cofactor for several microbial enzymes, including urease (relevant to *Helicobacter pylori* virulence in the human stomach), [Ni-Fe] hydrogenases, carbon monoxide dehydrogenase, and acetyl-CoA synthase. Members of the human gut microbiota express nickel-dependent ureases; the gut-microbial nickel demand creates a competitive uptake pathway alongside host-tissue absorption.
+
+The operational consequences for human nickel exposure — whether gut-microbial nickel uptake meaningfully reduces host-systemic exposure, whether nickel exposure reshapes gut-microbial community composition, and whether such reshaping has downstream metabolic or immune effects — remain an active research area. Dedicated microbiome ingests, including any human-cohort studies relating dietary nickel to gut-community structure or to *H. pylori* dynamics, will be filed under `wiki/microbiome/` as the corpus is built out, and the wikibiome-crosswalk anchors will be established at that point.
 
 ## Vulnerable populations
 <!-- audience: regulator, educator, consumer -->
@@ -129,18 +141,20 @@ Structured outputs:
 - Acute LOAEL (sensitized, oral): 4.3 µg Ni/kg b.w. ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 - Acute MOE threshold for low concern: ≥ 30 ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 - Chronic TDI: 13 µg Ni/kg b.w./day ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
-- High-Ni food categories for app dietary calculation: cocoa, chocolate, nuts (cashews, hazelnuts), oats, legumes (soy, chickpea, lentil, bean), leafy vegetables (spinach, lettuce), shellfish ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
+- High-Ni food categories for app dietary calculation: [[ingredients/cocoa]], [[ingredients/chocolate]], [[ingredients/nuts]] ([[ingredients/cashews]], [[ingredients/hazelnuts]]), [[ingredients/oats]], [[ingredients/legumes]] ([[ingredients/soy]], [[ingredients/chickpeas]], [[ingredients/lentils]], [[ingredients/beans]]), leafy vegetables ([[ingredients/spinach]], [[ingredients/lettuce]]), [[ingredients/shellfish]] ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 For nickel-sensitized users, the app should provide a "low-nickel diet" mode flagging high-nickel foods and offering substitutions. For non-sensitized users, the chronic TDI benchmark is the primary signal.
 
 ## Open questions
 <!-- audience: regulator, educator -->
 
-Two load-bearing open questions for nickel:
+Three load-bearing open questions for nickel.
 
 First, the population-level TDI exceedance reported by [[sources/efsa-nickel-contam-2020|EFSA 2020]] is a regulatory finding without a clear individual-level intervention pathway. Reducing dietary nickel below the TDI through ordinary food choice is difficult given nickel's broad distribution across plant foods and beverages. Whether this constitutes a population-health concern warranting policy intervention beyond the existing EU Nickel Directive on skin-contact items is an open question the wiki tracks as the regulatory landscape develops.
 
 Second, the relationship between dermal sensitization (the gateway exposure for many sensitized individuals) and dietary flare-up tolerance is mechanistically established but quantitatively variable across sensitized populations. Whether an HMT&C or analogous certification program targeting "low nickel" finished products would meaningfully serve sensitized consumers depends on individual-level threshold variation that the literature has not fully characterized.
+
+Third, this page draws on four secondary syntheses (one EFSA opinion, one ATSDR profile, one NTP listing, one EPA screening document) and zero primary peer-reviewed studies. Compared with the wiki's coverage of Pb, Cd, and arsenic species, the nickel evidence base is correspondingly underbuilt; ingest of the primary nickel-occurrence and nickel-toxicology literature from the bulk corpus is the highest-priority follow-on work for this page. Areas where primary-literature ingest is most likely to change page-level claims: per-matrix occurrence ranges for the high-Ni food categories (cocoa, oats, legumes, nuts), individual-level threshold variation in sensitized populations, and the gut-microbiome interaction questions noted under Microbiome effects.
 
 ## Sources
 
