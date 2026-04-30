@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HMI Standards Workbench</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Local-only internal tool</p>
+        <h1>HMI Standards Workbench</h1>
+      </div>
+      <div class="topbar-note">Not part of the public Heavy Metal Index build</div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="sidebar">
+        <label class="search-label">
+          Search rows or metals
+          <input id="search" type="search" placeholder="formula, cadmium, Pb..." />
+        </label>
+        <div class="filters" aria-label="Status filters">
+          <button class="filter active" data-status="all">All</button>
+          <button class="filter" data-status="finalized">Final</button>
+          <button class="filter" data-status="review">Review</button>
+          <button class="filter" data-status="path-b">Path B</button>
+          <button class="filter" data-status="missing">Missing</button>
+        </div>
+        <div id="row-list" class="row-list"></div>
+      </aside>
+
+      <section class="workspace">
+        <section class="summary-grid" id="summary"></section>
+
+        <section class="validation-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Validation audit</p>
+              <h2>Traceability & Guardrails</h2>
+            </div>
+            <p>Automated checks that must be cleared or explicitly adjudicated before any value is treated as standards-ready.</p>
+          </div>
+          <div id="validation-report" class="validation-report"></div>
+        </section>
+
+        <section class="finalized-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Decision register</p>
+              <h2>Finalized Standards</h2>
+            </div>
+            <p>Approved values belong here, separate from provisional extraction and gap-tracking math.</p>
+          </div>
+          <div id="finalized-register" class="finalized-register"></div>
+        </section>
+
+        <section class="matrix-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Standards matrix</p>
+              <h2>Row-Metal Status</h2>
+            </div>
+            <p>Row-specific standard statistic, paired comparator context, current blocker, and next action.</p>
+          </div>
+          <div class="matrix-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Row</th>
+                  <th>Metal</th>
+                  <th>Status</th>
+                  <th>Row standard</th>
+                  <th>Comparator</th>
+                  <th>Regulatory ceiling</th>
+                  <th>Next action</th>
+                </tr>
+              </thead>
+              <tbody id="matrix"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <aside class="detail-panel" id="detail"></aside>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

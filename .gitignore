@@ -13,6 +13,8 @@ raw/*
 # Quartz / Node build artifacts
 node_modules/
 public/
+!tools/standards-workbench/public/
+!tools/standards-workbench/public/**
 .quartz-cache/
 prof/
 tsconfig.tsbuildinfo
