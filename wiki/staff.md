@@ -28,7 +28,10 @@ noindex: true
 
   <p>The current standards workbench runs locally and reads the same evidence and regulation files used by the public site. Hosted staff access is gated before this page loads; internal evidence-review, standards, or certification tooling should remain behind that same gate.</p>
 
-  <a class="hmi-staff-primary" href="/contact">Request access</a>
+  <div class="hmi-staff-actions">
+    <a class="hmi-staff-primary" href="/">Open public index</a>
+    <a class="hmi-staff-secondary" href="/staff/logout">Sign out</a>
+  </div>
 </div>
 
 ## Access Model

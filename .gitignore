@@ -19,3 +19,5 @@ tsconfig.tsbuildinfo
 .replit
 replit.nix
 .obsidian/
+.vercel
+.env*.local
