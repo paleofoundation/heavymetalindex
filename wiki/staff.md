@@ -6,15 +6,15 @@ updated: 2026-04-30
 noindex: true
 ---
 
-<div class="hmi-staff-access">
+<div class="hmi-staff-dashboard">
   <div class="hmi-staff-kicker">Restricted access</div>
-  <h1>Staff Access</h1>
-  <p>Internal Heavy Metal Index review tools are restricted to authorized Paleo Foundation staff and are not part of the public evidence index.</p>
+  <h1>Staff Dashboard</h1>
+  <p>Internal Heavy Metal Index review tools are restricted to authorized Paleo Foundation staff and are not part of the public evidence index. This dashboard is the private map for standards work, review queues, and certification-support tooling.</p>
 
   <div class="hmi-staff-status">
     <div>
-      <strong>Public login</strong>
-      <span>Protected at deployment</span>
+      <strong>Access gate</strong>
+      <span>Active on Vercel</span>
     </div>
     <div>
       <strong>Standards Workbench</strong>
@@ -26,22 +26,55 @@ noindex: true
     </div>
   </div>
 
-  <p>The current standards workbench runs locally and reads the same evidence and regulation files used by the public site. Hosted staff access is gated before this page loads; internal evidence-review, standards, or certification tooling should remain behind that same gate.</p>
+  <div class="hmi-staff-callout">
+    <strong>Important:</strong> the hosted staff area is now protected, but the standards workbench itself still runs locally. Use the workbench link below after starting `npm run workbench` on your machine.
+  </div>
 
   <div class="hmi-staff-actions">
-    <a class="hmi-staff-primary" href="/">Open public index</a>
+    <a class="hmi-staff-primary" href="/workbench">Open workbench notes</a>
+    <a class="hmi-staff-secondary" href="http://127.0.0.1:8090/">Open local workbench</a>
+    <a class="hmi-staff-secondary" href="/certification/lab-result-comparator">Lab comparator</a>
     <a class="hmi-staff-secondary" href="/staff/logout">Sign out</a>
   </div>
 </div>
 
-## Access Model
+<div class="hmi-staff-grid">
+  <a class="hmi-staff-card" href="/workbench">
+    <span>Internal Tool</span>
+    <strong>Standards Workbench</strong>
+    <p>Local dashboard for clean/dirty category logic, evidence gaps, regulatory guardrails, and copy/paste research prompts.</p>
+  </a>
+  <a class="hmi-staff-card" href="/products/infant-formula-powder-non-soy">
+    <span>Pilot Product Row</span>
+    <strong>Infant Formula, Powder (Non-Soy)</strong>
+    <p>Primary pilot page for prepared-formula percentile context, study reconciliation, and certification-method questions.</p>
+  </a>
+  <a class="hmi-staff-card" href="/certification/lab-result-comparator">
+    <span>Brand Pre-Screen</span>
+    <strong>Lab Result Comparator</strong>
+    <p>Browser-only comparison page for brands checking their own results against currently structured HMI context.</p>
+  </a>
+  <a class="hmi-staff-card" href="/sources/fda2026-infant-formula-toxic-elements-special-survey">
+    <span>Source Extraction</span>
+    <strong>FDA 2026 Formula Survey</strong>
+    <p>Source page showing derived sample files, summary rows, and current notes for formula evidence extraction.</p>
+  </a>
+</div>
 
-- Public pages show reviewed Heavy Metal Index evidence, citations, and regulatory context.
-- Internal tools may use draft extraction records, standards candidates, confidence calculations, and review queues.
-- Internal standards data should not be published unless it has been explicitly approved for public release.
+## What Exists Now
 
-## Deployment Requirements
+- Public HMI pages: product categories, metals, regulations, sources, methodology, privacy, terms, contact, and citation assistant.
+- Staff login: deployed, protected, noindexed, and cookie-based.
+- Local workbench: available at `http://127.0.0.1:8090/` when `npm run workbench` is running.
+- Structured evidence layer: Category 1 register, value JSONL records, formula and baby-food summary extracts, and percentile context JSON.
+- Certification-support page: lab-result comparator for brand pre-screening against structured HMI context.
 
-Set `HMI_STAFF_USER` and `HMI_STAFF_PASSWORD` as deployment environment variables before exposing this route. If either value is missing, the staff route fails closed.
+## What Is Still Local
 
-Before a hosted workbench is linked from this page, add session protection and role-based authorization for staff-only data.
+- The workbench has not been converted into a hosted database-backed app.
+- Final standards decisions are not public and should not be published until explicitly approved.
+- The local workbench and the public site communicate through repo files, not through a live database yet.
+
+## Next Build Step
+
+The next real internal upgrade is to make the workbench persist finalized candidate values, evidence-source references, unresolved gaps, and reviewer decisions in a structured store. Once that exists, the staff dashboard can show live category status instead of linking to the local-only workbench.

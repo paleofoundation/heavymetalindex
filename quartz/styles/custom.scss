@@ -1423,11 +1423,12 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
   background: color-mix(in srgb, var(--secondary) 88%, var(--dark));
 }
 
-body[data-slug="staff"] .page-header {
+body[data-slug="staff"] .page-header,
+body[data-slug="workbench"] .page-header {
   display: none;
 }
 
-.hmi-staff-access {
+.hmi-staff-dashboard {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
@@ -1444,7 +1445,7 @@ body[data-slug="staff"] .page-header {
   text-transform: uppercase;
 }
 
-.hmi-staff-access h1 {
+.hmi-staff-dashboard h1 {
   color: var(--dark);
   font-size: var(--text-3xl);
   letter-spacing: 0;
@@ -1452,7 +1453,7 @@ body[data-slug="staff"] .page-header {
   margin-bottom: 0.9rem;
 }
 
-.hmi-staff-access p {
+.hmi-staff-dashboard p {
   color: var(--darkgray);
   max-width: 42rem;
 }
@@ -1532,6 +1533,68 @@ a.hmi-staff-secondary:hover {
   background: var(--color-primary-50);
   border-color: var(--secondary);
   color: var(--secondary);
+}
+
+.hmi-staff-callout {
+  background: var(--color-primary-50);
+  border-left: 4px solid var(--secondary);
+  color: var(--darkgray);
+  line-height: 1.55;
+  margin: 1.15rem 0 1rem;
+  max-width: 48rem;
+  padding: 0.8rem 1rem;
+}
+
+.hmi-staff-callout strong {
+  color: var(--dark);
+}
+
+.hmi-staff-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.5rem 0 2rem;
+}
+
+article a.hmi-staff-card,
+a.hmi-staff-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  color: var(--dark);
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+article a.hmi-staff-card:hover,
+a.hmi-staff-card:hover {
+  background: var(--color-primary-50);
+  border-color: color-mix(in srgb, var(--secondary) 50%, var(--color-border));
+}
+
+.hmi-staff-card span {
+  color: var(--secondary);
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
+.hmi-staff-card strong {
+  color: var(--dark);
+  display: block;
+  font-size: 1.02rem;
+  margin-bottom: 0.4rem;
+}
+
+.hmi-staff-card p {
+  color: var(--darkgray);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin: 0;
 }
 
 /* On narrow viewports, collapse the two-column grids */
