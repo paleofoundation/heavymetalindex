@@ -14,7 +14,7 @@ noindex: true
   <div class="hmi-staff-status">
     <div>
       <strong>Public login</strong>
-      <span>Not enabled yet</span>
+      <span>Protected at deployment</span>
     </div>
     <div>
       <strong>Standards Workbench</strong>
@@ -26,7 +26,7 @@ noindex: true
     </div>
   </div>
 
-  <p>The current standards workbench runs locally and reads the same evidence and regulation files used by the public site. When hosted access is added, this page should route through authentication before exposing any internal evidence-review, standards, or certification tooling.</p>
+  <p>The current standards workbench runs locally and reads the same evidence and regulation files used by the public site. Hosted staff access is gated before this page loads; internal evidence-review, standards, or certification tooling should remain behind that same gate.</p>
 
   <a class="hmi-staff-primary" href="/contact">Request access</a>
 </div>
@@ -39,4 +39,6 @@ noindex: true
 
 ## Deployment Requirements
 
-Before a hosted workbench is linked from this page, the route should include authentication, session protection, `noindex` handling, and role-based authorization for staff-only data.
+Set `HMI_STAFF_USER` and `HMI_STAFF_PASSWORD` as deployment environment variables before exposing this route. If either value is missing, the staff route fails closed.
+
+Before a hosted workbench is linked from this page, add session protection and role-based authorization for staff-only data.
