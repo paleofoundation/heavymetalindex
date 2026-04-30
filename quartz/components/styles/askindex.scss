@@ -6,8 +6,8 @@
 
 .ask-index-button {
   align-items: center;
-  background: var(--dark);
-  border: 1px solid var(--dark);
+  background: var(--secondary);
+  border: 1px solid var(--secondary);
   border-radius: var(--radius-md);
   color: var(--light);
   cursor: pointer;
@@ -23,8 +23,8 @@
 }
 
 .ask-index-button:hover {
-  background: var(--secondary);
-  border-color: var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+  border-color: color-mix(in srgb, var(--secondary) 88%, var(--dark));
 }
 
 .ask-index-button svg {
@@ -119,6 +119,7 @@
 }
 
 .ask-index-message p {
+  color: inherit;
   margin: 0 0 0.65rem;
 }
 
@@ -127,8 +128,10 @@
 }
 
 .ask-index-message.user {
-  background: var(--dark);
-  color: var(--light);
+  background: color-mix(in srgb, var(--secondary) 9%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--secondary) 22%, var(--lightgray));
+  border-left: 3px solid var(--secondary);
+  color: var(--darkgray);
   margin-left: auto;
 }
 
@@ -264,8 +267,8 @@
 }
 
 .ask-index-actions button {
-  background: var(--dark);
-  border: 1px solid var(--dark);
+  background: var(--secondary);
+  border: 1px solid var(--secondary);
   border-radius: var(--radius-md);
   color: var(--light);
   cursor: pointer;
@@ -276,8 +279,8 @@
 }
 
 .ask-index-actions button:hover {
-  background: var(--secondary);
-  border-color: var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+  border-color: color-mix(in srgb, var(--secondary) 88%, var(--dark));
 }
 
 @media all and ($mobile) {

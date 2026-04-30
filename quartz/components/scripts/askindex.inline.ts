@@ -168,15 +168,11 @@ function setupAskIndex(root: Element) {
         data.limits && data.confidence !== "high"
           ? `<div class="ask-index-limits">${escapeHTML(data.limits)}</div>`
           : ""
-      const mode =
-        data.mode === "retrieval_only"
-          ? '<div class="ask-index-limits">Model answer generation is not configured yet; showing retrieved pages.</div>'
-          : ""
 
       appendMessage(
         messagesEl,
         "assistant",
-        `${renderAnswer(data.answer || "", citations)}${limits}${mode}${renderCitations(citations)}`,
+        `${renderAnswer(data.answer || "", citations)}${limits}${renderCitations(citations)}`,
       )
     } catch {
       status.remove()
