@@ -6,15 +6,18 @@ name: Manganese
 species: [Mn2+, Mn3+, total-manganese]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-updated: 2026-04-29
+updated: 2026-04-30
 status: stub
-n_sources: 1
+n_sources: 2
 ---
 
 # Manganese
 
 _Stub page. Manganese is an essential element with neurodevelopmental concern at excessive intake. Astolfi et al. 2021 includes manganese in a powdered infant formula risk assessment and compares formula concentrations against EU and French minimum and maximum compositional levels; the reported formula means were above the minimum and below the maximum. [[sources/astolfi2021-italy-powdered-infant-formula-elements]]_
 
+[[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] mentions manganese in chapter-level metal transport, excretion, and essential-metal context, but does not provide a dedicated manganese subsection in this Essentials chapter. It is attached here as cross-metal toxicology context only.
+
 ## Sources
 
 - [[sources/astolfi2021-italy-powdered-infant-formula-elements]]
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]

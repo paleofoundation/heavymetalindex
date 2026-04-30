@@ -5,6 +5,64 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+
+function frontmatterString(value: unknown): string | undefined {
+  if (value === undefined || value === null) return undefined
+  const normalized = String(value).trim()
+  return normalized.length > 0 ? normalized : undefined
+}
+
+function frontmatterStringArray(value: unknown): string[] {
+  if (Array.isArray(value)) {
+    return value.flatMap((item) => {
+      const normalized = frontmatterString(item)
+      return normalized ? [normalized] : []
+    })
+  }
+
+  const normalized = frontmatterString(value)
+  return normalized ? [normalized] : []
+}
+
+function CitationMetadata({
+  frontmatter,
+  slug,
+  title,
+  socialUrl,
+}: {
+  frontmatter: Record<string, unknown> | undefined
+  slug: FullSlug | undefined
+  title: string
+  socialUrl: string
+}) {
+  const isSourcePage = frontmatter?.type === "source" || slug?.startsWith("sources/")
+  if (!frontmatter || !isSourcePage) return null
+
+  const citationTitle = frontmatterString(frontmatter.title) ?? title
+  const authors = frontmatterStringArray(frontmatter.authors)
+  const publicationDate =
+    frontmatterString(frontmatter.year) ??
+    frontmatterString(frontmatter.published) ??
+    frontmatterString(frontmatter.created)
+  const publication = frontmatterString(frontmatter.publication)
+  const doi = frontmatterString(frontmatter.doi)
+  const canonicalSourceUrl = frontmatterString(frontmatter.access_url)
+
+  return (
+    <>
+      <meta name="citation_title" content={citationTitle} />
+      {authors.map((author, index) => (
+        <meta key={`citation-author-${index}`} name="citation_author" content={author} />
+      ))}
+      {publicationDate && <meta name="citation_publication_date" content={publicationDate} />}
+      {publication && <meta name="citation_journal_title" content={publication} />}
+      {doi && <meta name="citation_doi" content={doi} />}
+      <meta name="citation_abstract_html_url" content={socialUrl} />
+      {canonicalSourceUrl && <meta name="citation_fulltext_html_url" content={canonicalSourceUrl} />}
+    </>
+  )
+}
+
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
@@ -84,6 +142,12 @@ export default (() => {
 
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
+        <CitationMetadata
+          frontmatter={fileData.frontmatter}
+          slug={fileData.slug}
+          title={title}
+          socialUrl={socialUrl}
+        />
         <meta name="generator" content="Quartz" />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}

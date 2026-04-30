@@ -7,13 +7,15 @@ species: [Al3+, aluminium]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
-updated: 2026-04-25
-sources: 3
+updated: 2026-04-30
+sources: 4
 ---
 
 # Aluminum
 
 _This page draws on the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] Scientific Opinion on the Safety of Aluminium from Dietary Intake ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]), the ATSDR 2008 Toxicological Profile for Aluminum ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]), and the JECFA Combined Compendium of Food Additive Specifications ([[sources/jecfa-food-additive-specs-compendium|JECFA FA Compendium]])._
+
+_Chapter-level cross-metal toxicology context for aluminum exposure, poor oral absorption, transferrin binding, renal excretion, dialysis dementia, bone effects, neurotoxicity, and chelation treatment is connected from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -23,6 +25,8 @@ Aluminum is the third most abundant element in Earth's crust and a non-essential
 The toxicological concerns associated with aluminum focus on neurotoxicity (most clearly documented in dialysis-related encephalopathy from aluminum-contaminated dialysate fluid in the 1970s and 1980s, and in chronic occupational exposure), reproductive and developmental effects, and bone effects (aluminum-induced osteomalacia in dialysis patients was a significant clinical entity before water treatment for dialysis was redesigned). The [[regulations/efsa-aluminium-twi|EFSA TWI]] of 1 mg/kg b.w./week replaced an earlier JECFA provisional tolerable weekly intake of 7 mg/kg b.w./week with a sevenfold reduction; JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week.
 
 Aluminum's health profile is qualitatively different from the other metals on this wiki. The clearest documented adverse health effects (dialysis encephalopathy, dialysis osteomalacia) occur in patient populations with impaired aluminum excretion (renal failure) and intravenous-route exposure that bypasses GI absorption barriers; for the general population with normal renal function and oral exposure, the dose-response evidence for aluminum-related disease is weaker than for cadmium, lead, mercury, or arsenic, and the regulatory TWI rests largely on extrapolation from animal neurotoxicity studies rather than on robust human cohort data at typical dietary exposure levels.
+
+[[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] is attached here as textbook-level toxicology context only. It does not supply aluminum occurrence values for foods or product categories.
 
 ## At a glance
 <!-- audience: consumer -->
@@ -172,4 +176,6 @@ Second, the relationship between dietary aluminum exposure and Alzheimer's disea
 ## Sources
 
 - [[sources/efsa-aluminium-afc-2008|EFSA 2008]] — EFSA AFC Panel, 2008. Safety of Aluminium from Dietary Intake.
+- [[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]] — ATSDR, September 2008. Toxicological Profile for Aluminum.
 - [[sources/jecfa-food-additive-specs-compendium|JECFA FA Compendium]] — JECFA Combined Compendium of Food Additive Specifications (1956-2005), FAO JECFA Monographs Vol 1.
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.

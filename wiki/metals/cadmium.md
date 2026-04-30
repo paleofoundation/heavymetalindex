@@ -7,7 +7,7 @@ species: [Cd2+, cadmium-metallothionein]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/cadmium-gut-axis]]", "[[microbiome/cadmium-dysbiosis]]"]
-updated: 2026-04-24
+updated: 2026-04-30
 sources: 9
 ---
 

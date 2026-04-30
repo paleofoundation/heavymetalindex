@@ -1,70 +1,147 @@
 ---
 title: Heavy Metal Index
-description: A curated reference on heavy metals in food, supply chain, remediation, and regulatory findings. Operated by the Paleo Foundation.
+description: A curated reference on heavy metals in food, ingredients, consumer-product categories, regulations, and source evidence. Operated by the Paleo Foundation.
 audience: [regulator, educator, consumer, researcher]
 updated: 2026-04-30
 ---
 
-<p class="hmi-deck">A public reference for heavy-metal evidence in foods, ingredients, consumer-product categories, and regulatory standards.</p>
+<nav class="hmi-home-nav" aria-label="Home">
+  <a class="hmi-home-brand" href="/">Heavy Metal Index</a>
+  <div class="hmi-home-navlinks">
+    <a href="products/">Products</a>
+    <a href="ingredients/">Ingredients</a>
+    <a href="metals/">Metals</a>
+    <a href="regulations/">Regulations</a>
+    <a href="sources/">Sources</a>
+  </div>
+</nav>
 
-Heavy Metal Index extracts facts, concentration values, regulatory thresholds, and citations from peer-reviewed and regulatory literature on lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, and tin. It is designed to let a reader move quickly from a product or metal to the evidence behind it.
+<section class="hmi-home-hero">
+  <div class="hmi-home-hero-copy">
+    <div class="hmi-home-kicker">Public evidence index</div>
+    <h1>Trace heavy-metal evidence from food to source.</h1>
+    <p>Search foods, ingredients, metals, regulations, and source literature to trace heavy-metal claims back to cited evidence. The Index is a reference map, not a brand ranking or certification-claims page.</p>
+    <div class="search hmi-home-search" role="search">
+      <button class="search-button hmi-home-search-button" type="button">
+        <span class="hmi-home-search-label">Search metals, foods, regulations, or sources</span>
+        <span class="hmi-home-search-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+        </span>
+      </button>
+      <div class="search-container">
+        <div class="search-space">
+          <input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search metals, foods, regulations, or sources" placeholder="Search metals, foods, regulations, or sources" />
+          <div class="search-layout"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hmi-home-hero-actions">
+      <a class="hmi-home-action-primary" href="products/">Browse Products</a>
+      <button type="button" data-ask-index-trigger>Ask the Index</button>
+    </div>
+  </div>
 
-<div class="hmi-section-label">Start here</div>
+  <div class="hmi-home-visual" aria-label="Heavy Metal Index preview">
+    <div class="hmi-preview-card hmi-preview-card-main">
+      <div class="hmi-preview-topline"><span>Product Category</span><strong>Infant Formula</strong></div>
+      <div class="hmi-preview-bars">
+        <span style="--bar-width: 86%"></span>
+        <span style="--bar-width: 68%"></span>
+        <span style="--bar-width: 42%"></span>
+      </div>
+      <div class="hmi-preview-row"><span>Lead</span><strong>source-backed</strong></div>
+      <div class="hmi-preview-row"><span>Cadmium</span><strong>regulated</strong></div>
+      <div class="hmi-preview-row"><span>Arsenic</span><strong>matrix-specific</strong></div>
+    </div>
+    <div class="hmi-preview-card hmi-preview-card-metal">
+      <span>Metal Profile</span>
+      <strong>Cadmium</strong>
+      <small>food occurrence · intake values · source archive</small>
+    </div>
+    <div class="hmi-preview-card hmi-preview-card-source">
+      <span>Source Evidence</span>
+      <strong>EFSA / FDA / JECFA</strong>
+      <small>citations mapped to pages</small>
+    </div>
+  </div>
+</section>
 
-<div class="hmi-cat-grid">
-  <a href="products/" class="hmi-cat-card">
-    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Product categories</span><span class="hmi-cat-count">21 pages</span></div>
-    <div class="hmi-cat-desc">Risk profiles for consumer-facing categories, starting with infant and child foods.</div>
-    <div class="hmi-cat-examples">formula · cereals · purees · juice · snacks</div>
-  </a>
-  <a href="metals/" class="hmi-cat-card">
-    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Metals</span><span class="hmi-cat-count">15 pages</span></div>
-    <div class="hmi-cat-desc">Per-metal summaries covering toxicology, exposure routes, and regulatory framing.</div>
-    <div class="hmi-cat-examples">Pb · Cd · As · Hg · Ni · Al</div>
-  </a>
-  <a href="ingredients/" class="hmi-cat-card">
-    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Ingredients</span><span class="hmi-cat-count">21 pages</span></div>
-    <div class="hmi-cat-desc">Commodity-level contamination profiles and ingredient drivers.</div>
-    <div class="hmi-cat-examples">rice · cocoa · vegetables · formula inputs</div>
-  </a>
-  <a href="regulations/" class="hmi-cat-card">
-    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Regulations</span><span class="hmi-cat-count">30 pages</span></div>
-    <div class="hmi-cat-desc">Agency values, action levels, tolerable-intake references, and enforcement posture.</div>
-    <div class="hmi-cat-examples">FDA · EFSA · JECFA · Codex · Prop 65</div>
-  </a>
-  <a href="sources/" class="hmi-cat-card">
-    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Sources</span><span class="hmi-cat-count">79 pages</span></div>
-    <div class="hmi-cat-desc">The source archive behind the index, with methods, extracted values, and page cross-links.</div>
-    <div class="hmi-cat-examples">agency reports · surveys · toxicology profiles</div>
-  </a>
-  <a href="methodology/" class="hmi-cat-card">
-    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Methodology</span><span class="hmi-cat-count">standards</span></div>
-    <div class="hmi-cat-desc">How evidence is selected, tiered, cited, corrected, and separated from certification activity.</div>
-    <div class="hmi-cat-examples">source rules · evidence fitness · editorial firewall</div>
-  </a>
-</div>
+<section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
+  <div class="hmi-home-feature-card">
+    <span>21 pages</span>
+    <h2><a href="products/">Products</a></h2>
+    <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
+    <div class="hmi-home-card-meta">Consumer-facing categories</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>21 pages</span>
+    <h2><a href="ingredients/">Ingredients</a></h2>
+    <p>Ingredient-level profiles for rice, cocoa, fish, vegetables, grains, and formula inputs.</p>
+    <div class="hmi-home-card-meta">Commodity drivers</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>15 pages</span>
+    <h2><a href="metals/">Metals</a></h2>
+    <p>Per-metal summaries for lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, tin, and more.</p>
+    <div class="hmi-home-card-meta">Metal profiles</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>30 pages</span>
+    <h2><a href="regulations/">Regulations</a></h2>
+    <p>Agency values, action levels, tolerable intakes, and jurisdiction-specific regulatory references.</p>
+    <div class="hmi-home-card-meta">Thresholds and agencies</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>79 pages</span>
+    <h2><a href="sources/">Sources</a></h2>
+    <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
+    <div class="hmi-home-card-meta">Traceable evidence</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>Standards</span>
+    <h2><a href="methodology/">Methodology</a></h2>
+    <p>How evidence is selected, tiered, cited, corrected, and separated from certification activity.</p>
+    <div class="hmi-home-card-meta">Editorial standards</div>
+  </div>
+</section>
 
-## What this site is
-
-Heavy Metal Index is a reference layer. It does not rank brands, endorse products, or publish certification limits. Its job is to make the underlying evidence easier to inspect: what was measured, which matrix it applies to, which population is affected, and which source supports the claim.
-
-The index is operated by the [Paleo Foundation](https://paleofoundation.com) in Cyprus and is editorially independent from the Foundation's [Heavy Metal Tested & Certified](https://heavymetaltested.com) program.
-
-## How to use it
-
-<div class="hmi-public-links">
-  <a class="hmi-public-link" href="products/"><strong>Looking up a product?</strong><span>Start with product categories</span></a>
-  <a class="hmi-public-link" href="metals/"><strong>Looking up a metal?</strong><span>Start with metals</span></a>
-  <a class="hmi-public-link" href="regulations/"><strong>Checking a threshold?</strong><span>Start with regulations</span></a>
-  <a class="hmi-public-link" href="sources/"><strong>Checking a citation?</strong><span>Start with sources</span></a>
-</div>
-
-## Current status
-
-The index is under active development. Metals, regulations, sources, and the Category 1 infant-and-child-food product pages are the most developed layers. Ingredients, supply chain, testing, health, and microbiome pages are still being expanded.
-
-<div class="hmi-archive-note">Operational materials such as the change log, lint reports, app model, course outlines, and evidence-maintenance notes remain part of the archive, but they are no longer treated as the main entry point for readers.</div>
-
-## Governance
-
-Every substantive page should link back to the primary sources it draws on. Corrections and publication history are handled through the [editorial standards](editorial-standards/), and source-selection rules are documented in the [methodology](methodology/).
+<section class="hmi-home-explore">
+  <h2>Explore the Index</h2>
+  <div class="hmi-home-explore-grid">
+    <div>
+      <h3>Metals</h3>
+      <a href="metals/lead/">Lead</a>
+      <a href="metals/cadmium/">Cadmium</a>
+      <a href="metals/mercury/">Mercury</a>
+      <a href="metals/nickel/">Nickel</a>
+      <a href="metals/">See all metals</a>
+    </div>
+    <div>
+      <h3>Foods & Ingredients</h3>
+      <a href="products/infant-formula-powder-non-soy/">Infant formula powder</a>
+      <a href="products/baby-cereals-dry-rice-based/">Rice-based baby cereal</a>
+      <a href="ingredients/cocoa/">Cocoa</a>
+      <a href="ingredients/fish/">Fish</a>
+      <a href="ingredients/">See all ingredients</a>
+    </div>
+    <div>
+      <h3>Regulations</h3>
+      <a href="regulations/fda-closer-to-zero/">FDA Closer to Zero</a>
+      <a href="regulations/efsa-cadmium-twi/">EFSA cadmium TWI</a>
+      <a href="regulations/eu-nickel-directive-94-27-ec/">EU nickel directive</a>
+      <a href="regulations/oehha-lead-prop65/">California Prop 65 lead MADL</a>
+      <a href="regulations/">See all regulations</a>
+    </div>
+  </div>
+</section>
+<section class="hmi-home-reference-band">
+  <div>
+    <span>Reference assistant</span>
+    <h2>Ask the Index with citations.</h2>
+    <p>Questions are routed to public Heavy Metal Index pages, with answers designed to point back to cited source material. The live assistant appears in the site navigation on reference pages.</p>
+  </div>
+  <a href="privacy/">Review assistant data use</a>
+</section>

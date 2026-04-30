@@ -7,13 +7,15 @@ species: [Ni2+, nickel-metal, nickel-compounds, nickel-alloy]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
-updated: 2026-04-29
-sources: 5
+updated: 2026-04-30
+sources: 6
 ---
 
 # Nickel
 
 _This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]]), the [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] nickel chapter ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]]), the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]]), and the LGC final report on nickel release from piercing post assemblies ([[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]])._
+
+_Chapter-level cross-metal toxicology context for nickel toxicokinetics, contact dermatitis, nickel carbonyl poisoning, carcinogenicity, epigenetic effects, and treatment is connected from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -43,6 +45,8 @@ For acute oral nickel exposure, [[sources/efsa-nickel-contam-2020|EFSA 2020]] id
 Carcinogenic effects of nickel compounds are documented in occupational inhalation cohorts (nickel refinery workers, stainless steel and nickel-alloy production, electroplating) ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]). Lung and nasal cancer are the primary tumor sites ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]). The [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] (2021) classifies nickel compounds as a class as known human carcinogens (since the 10th RoC, 2002); metallic nickel as reasonably anticipated to be a human carcinogen (since the 1st RoC, 1980); and explicitly reviewed nickel alloys without recommending listing. Dietary nickel intake at typical levels has not been associated with cancer outcomes in epidemiological studies; the cancer risk from nickel is operationally an inhalation/occupational concern ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC]]).
 
 The dermal-contact pathway is separate from dietary nickel. [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] evaluates nickel sensitisation and allergic contact dermatitis from piercing post assemblies, including release from stainless steel into artificial sweat, urine, and blood plasma. The report is important for nickel sensitisation context, but it is not a food occurrence source and does not supply ppb values for infant formula, baby foods, or other Category 1 food rows.
+
+[[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] supports the same route-gating principle at textbook level: nickel is characterized as a dietary/background exposure for the general population, an occupational inhalation concern for lung and nasal cancers, and a dermal immune concern for sensitized individuals. It does not supply food occurrence concentrations.
 
 ## Typical exposure routes
 <!-- audience: regulator, educator -->
@@ -154,3 +158,4 @@ Third, [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] shows why de
 - [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] — US National Toxicology Program, 2021. 15th Report on Carcinogens: Nickel Compounds and Metallic Nickel.
 - [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] — EPA, 2007. Ecological Soil Screening Levels for Nickel.
 - [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] — LGC Limited, 2003. Risk of sensitisation of humans to nickel by piercing post assemblies.
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.

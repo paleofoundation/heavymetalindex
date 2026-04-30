@@ -88,6 +88,7 @@ const fetchContentCache: Map<FullSlug, Element[]> = new Map()
 const contextWindowWords = 30
 const numSearchResults = 8
 const numTagResults = 5
+const initializedSearchElements = new WeakSet<Element>()
 
 const tokenizeTerm = (term: string) => {
   const tokens = term.split(/\s+/).filter((t) => t.trim() !== "")
@@ -188,6 +189,9 @@ function highlightHTML(searchTerm: string, el: HTMLElement) {
 }
 
 async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: ContentIndex) {
+  if (initializedSearchElements.has(searchElement)) return
+  initializedSearchElements.add(searchElement)
+
   const container = searchElement.querySelector(".search-container") as HTMLElement
   if (!container) return
 
@@ -438,8 +442,21 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   async function onType(e: HTMLElementEventMap["input"]) {
     if (!searchLayout || !index) return
     currentSearchTerm = (e.target as HTMLInputElement).value
-    searchLayout.classList.toggle("display-results", currentSearchTerm !== "")
     searchType = currentSearchTerm.startsWith("#") ? "tags" : "basic"
+    const minimumSearchLength = searchType === "tags" ? 2 : 2
+    const currentTermForThreshold =
+      searchType === "tags" ? currentSearchTerm.substring(1).trim() : currentSearchTerm.trim()
+    const hasSearchableTerm = currentTermForThreshold.length >= minimumSearchLength
+
+    searchLayout.classList.toggle("display-results", hasSearchableTerm)
+    if (!hasSearchableTerm) {
+      removeAllChildren(results)
+      if (preview) {
+        removeAllChildren(preview)
+      }
+      currentHover = null
+      return
+    }
 
     let searchResults: DefaultDocumentSearchResults<Item>
     if (searchType === "tags") {
@@ -495,10 +512,19 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => document.removeEventListener("keydown", shortcutHandler))
-  searchButton.addEventListener("click", () => showSearch("basic"))
-  window.addCleanup(() => searchButton.removeEventListener("click", () => showSearch("basic")))
+  const showBasicSearch = () => showSearch("basic")
+  const outsideClickHandler = (e: MouseEvent) => {
+    if (!container.classList.contains("active")) return
+    const target = e.target as Node | null
+    if (target && !searchElement.contains(target)) hideSearch()
+  }
+
+  searchButton.addEventListener("click", showBasicSearch)
+  window.addCleanup(() => searchButton.removeEventListener("click", showBasicSearch))
   searchBar.addEventListener("input", onType)
   window.addCleanup(() => searchBar.removeEventListener("input", onType))
+  document.addEventListener("pointerdown", outsideClickHandler)
+  window.addCleanup(() => document.removeEventListener("pointerdown", outsideClickHandler))
 
   registerEscapeHandler(container, hideSearch)
   await fillDocument(data)
@@ -530,11 +556,19 @@ async function fillDocument(data: ContentIndex) {
   indexPopulated = true
 }
 
-document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
-  const currentSlug = e.detail.url
+async function setupSearchForPage(currentSlug: FullSlug) {
   const data = await fetchData
   const searchElement = document.getElementsByClassName("search")
   for (const element of searchElement) {
     await setupSearch(element, currentSlug, data)
   }
+}
+
+document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
+  await setupSearchForPage(e.detail.url)
+})
+
+queueMicrotask(async () => {
+  const currentSlug = (document.body.dataset.slug || "index") as FullSlug
+  await setupSearchForPage(currentSlug)
 })

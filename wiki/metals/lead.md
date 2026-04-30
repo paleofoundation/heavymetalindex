@@ -7,8 +7,8 @@ species: [Pb2+, tetraethyl-lead]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/lead-gut-axis]]", "[[microbiome/lead-dysbiosis]]"]
-updated: 2026-04-25
-sources: 10
+updated: 2026-04-30
+sources: 11
 ---
 
 # Lead
@@ -28,7 +28,7 @@ sources: 10
   </div>
 </div>
 
-This synthesis draws on ATSDR, EFSA, JECFA, EPA IRIS, CDC, OEHHA, FDA Closer to Zero, and mechanism reviews. The complete citation list remains at the bottom of the page so first-time readers can get the main interpretation before the source trail.
+This synthesis draws on ATSDR, EFSA, JECFA, EPA IRIS, CDC, OEHHA, FDA Closer to Zero, mechanism reviews, and chapter-level textbook context from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. The complete citation list remains at the bottom of the page so first-time readers can get the main interpretation before the source trail.
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -207,5 +207,6 @@ Third, the bone-lead-mobilization contribution to fetal and infant exposure is m
 - [[sources/tamagno-freeman-2025-pb-glutamate|Tamagno-Freeman 2025]] — [[sources/tamagno-freeman-2025-pb-glutamate|Tamagno and Freeman 2025]]. Glutamate-Mediated Neural Alterations in Lead Exposure.
 - [[sources/ordemann-austin-2016-pb-zinc-finger|Ordemann & Austin 2016]] — [[sources/ordemann-austin-2016-pb-zinc-finger|Ordemann and Austin 2016]]. Lead substitution in zinc-finger proteins.
 - [[sources/huang-2020-pb-alad-threshold|Huang et al. 2020]] — [[sources/huang-2020-pb-alad-threshold|Huang et al. 2020]]. Lead-ALAD activity threshold (Generalized Additive Model).
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
 
 See also [[studies/multimetal-primary-literature]] for the citable index of multi-metal primary research articles, including lead-relevant dietary-exposure and biomarker studies in raw/studies/.

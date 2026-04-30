@@ -7,13 +7,15 @@ species: [As(III), As(V), iAs, MMA, DMA, AsB, arsenobetaine]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
-updated: 2026-04-25
-sources: 9
+updated: 2026-04-30
+sources: 10
 ---
 
 # Arsenic
 
 _This page draws on the [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] Toxicological Profile for Arsenic ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]), the EPA IRIS January 2025 inorganic arsenic toxicological review ([[sources/epa-iris-inorganic-arsenic-2025|EPA IRIS iAs 2025]]), the EFSA CONTAM 2009 Scientific Opinion on Arsenic in Food ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]), the [[sources/jecfa-82nd-arsenic|JECFA 82nd meeting]] arsenic monograph ([[sources/jecfa-82nd-arsenic|JECFA 82nd]]), the OEHHA Proposition 65 inorganic arsenic listing ([[sources/oehha-arsenic-prop65-listing|OEHHA Prop 65 As]]), the EPA drinking water arsenic MCL rule ([[sources/epa-arsenic-drinking-water-mcl|EPA As MCL]]), the FDA inorganic arsenic infant [[ingredients/rice|rice]] cereal action level ([[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]]), the joint FDA/EPA fish consumption advice ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]), and the [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review of arsenic methylation ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]])._
+
+_Chapter-level cross-metal toxicology context for arsenic toxicokinetics, methylation/excretion, acute and chronic toxicity, carcinogenicity, and treatment is connected from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -179,5 +181,6 @@ Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-
 - [[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]] — FDA, August 2020. Inorganic Arsenic in Rice Cereals for Infants Action Level.
 - [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
 - [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] — Thomas DJ, 2021. Arsenic methylation: lessons from three decades of research (Toxicology).
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
 
 See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/.

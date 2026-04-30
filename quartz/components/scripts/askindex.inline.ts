@@ -183,10 +183,30 @@ function setupAskIndex(root: Element) {
   })
 }
 
-document.addEventListener("nav", () => {
+function setupAllAskIndex() {
   document.querySelectorAll(".ask-index").forEach((root) => {
     if ((root as HTMLElement).dataset.askIndexReady === "true") return
     ;(root as HTMLElement).dataset.askIndexReady = "true"
     setupAskIndex(root)
   })
-})
+}
+
+function setupAskIndexTriggers() {
+  document.querySelectorAll("[data-ask-index-trigger]").forEach((trigger) => {
+    if ((trigger as HTMLElement).dataset.askIndexTriggerReady === "true") return
+    ;(trigger as HTMLElement).dataset.askIndexTriggerReady = "true"
+    trigger.addEventListener("click", () => {
+      const button = document.querySelector(".ask-index-button") as HTMLButtonElement | null
+      button?.click()
+    })
+  })
+}
+
+function setupAskIndexUI() {
+  setupAllAskIndex()
+  setupAskIndexTriggers()
+}
+
+document.addEventListener("nav", setupAskIndexUI)
+
+queueMicrotask(setupAskIndexUI)

@@ -9,10 +9,11 @@ async function mouseEnterHandler(
   this: HTMLAnchorElement,
   { clientX, clientY }: { clientX: number; clientY: number },
 ) {
-  const link = (activeAnchor = this)
-  if (link.dataset.noPopover === "true") {
+  const link = this
+  if (document.body.dataset.slug === "index" || link.dataset.noPopover === "true") {
     return
   }
+  activeAnchor = this
 
   async function setPosition(popoverElement: HTMLElement) {
     const { x, y } = await computePosition(link, popoverElement, {

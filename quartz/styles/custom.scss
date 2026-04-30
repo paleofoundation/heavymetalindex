@@ -823,8 +823,673 @@ a.hmi-public-link:hover {
   font-size: 12px;
 }
 
+/* -----------------------------------------------------------
+   Homepage mockup — Microbiome Medicine-inspired structure
+
+   The index page becomes a full-width landing surface with a
+   top navigation bar, search-forward hero, category cards,
+   and an explore section. It borrows the information hierarchy
+   from the Microbiome Medicine homepage while keeping HMI's
+   burgundy, white, and gray palette.
+   ----------------------------------------------------------- */
+
+body[data-slug="index"] #quartz-root > #quartz-body {
+  column-gap: 0;
+  grid-template-areas:
+    "grid-center"
+    "grid-footer";
+  grid-template-columns: minmax(0, 1fr);
+  padding: 0;
+}
+
+body[data-slug="index"] #quartz-root > #quartz-body > .right.sidebar,
+body[data-slug="index"] #quartz-root > #quartz-body > .page-header,
+body[data-slug="index"] #quartz-root > #quartz-body > .center > .page-header {
+  display: none;
+}
+
+body[data-slug="index"] #quartz-root > #quartz-body > .left.sidebar {
+  display: contents;
+}
+
+body[data-slug="index"] #quartz-root > #quartz-body > .left.sidebar > :not(.ask-index) {
+  display: none;
+}
+
+body[data-slug="index"] #quartz-root > #quartz-body > .left.sidebar > .ask-index {
+  display: contents;
+}
+
+body[data-slug="index"] #quartz-root > #quartz-body > .left.sidebar .ask-index-button {
+  display: none;
+}
+
+body[data-slug="index"] #quartz-root > #quartz-body > .center {
+  box-sizing: border-box;
+  grid-area: grid-center;
+  margin: 0 auto;
+  max-width: 1180px;
+  min-width: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+body[data-slug="index"] article {
+  color: var(--darkgray);
+  max-width: none;
+  padding: 0;
+}
+
+body[data-slug="index"] #quartz-root > #quartz-body > footer {
+  box-sizing: border-box;
+  grid-area: grid-footer;
+  margin: 2rem auto 0;
+  max-width: 1180px;
+  min-width: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+}
+
+.hmi-home-nav {
+  align-items: center;
+  border-bottom: 1px solid var(--lightgray);
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 0 0 2.25rem;
+  padding: 1.2rem 0;
+}
+
+article a.hmi-home-brand,
+a.hmi-home-brand {
+  background: transparent;
+  border: none;
+  color: var(--secondary);
+  font-family: var(--headerFont);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+article a.hmi-home-brand:hover,
+a.hmi-home-brand:hover {
+  background: transparent;
+  border: none;
+  color: color-mix(in srgb, var(--secondary) 82%, var(--dark));
+}
+
+.hmi-home-navlinks {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.95rem;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.hmi-home-navlinks a {
+  background: transparent;
+  border: none;
+  border-bottom: none;
+  color: var(--darkgray);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.hmi-home-navlinks a:hover {
+  background: transparent;
+  color: var(--secondary);
+}
+
+.hmi-home-hero {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  margin: 0 0 3rem;
+  min-height: 430px;
+}
+
+.hmi-home-hero-copy,
+.hmi-home-visual {
+  min-width: 0;
+}
+
+.hmi-home-kicker {
+  color: var(--secondary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.9rem;
+  text-transform: uppercase;
+}
+
+.hmi-home-hero h1 {
+  color: var(--dark);
+  font-size: clamp(2.35rem, 6vw, 4.4rem);
+  font-weight: 700;
+  line-height: 0.98;
+  margin: 0 0 1.15rem;
+  max-width: 720px;
+}
+
+.hmi-home-hero p {
+  color: var(--darkgray);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin: 0 0 1.5rem;
+  max-width: 620px;
+}
+
+.hmi-home-search.search {
+  max-width: 560px;
+  min-width: 0;
+  position: relative;
+  z-index: 20;
+}
+
+.hmi-home-search.search > .hmi-home-search-button {
+  align-items: center;
+  background: var(--light);
+  border: 2px solid var(--secondary);
+  border-radius: var(--radius-md);
+  box-shadow: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  height: auto;
+  justify-content: space-between;
+  min-height: 3.2rem;
+  overflow: hidden;
+  padding: 0;
+  white-space: normal;
+  width: 100%;
+}
+
+.hmi-home-search.search > .hmi-home-search-button:focus-visible {
+  border-color: var(--secondary);
+  outline: 3px solid color-mix(in srgb, var(--secondary) 24%, transparent);
+  outline-offset: 3px;
+}
+
+.hmi-home-search.search > .hmi-home-search-button:hover {
+  border-color: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+}
+
+.hmi-home-search-label {
+  color: var(--gray);
+  flex: 1;
+  font-size: 0.95rem;
+  min-width: 0;
+  overflow: hidden;
+  padding: 0 1rem;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hmi-home-search-icon {
+  align-items: center;
+  background: var(--secondary);
+  color: var(--light);
+  align-self: stretch;
+  display: grid;
+  justify-items: center;
+  margin: 0;
+  min-width: 3.9rem;
+  place-items: center;
+}
+
+.hmi-home-search-icon svg {
+  height: 1.15rem;
+  width: 1.15rem;
+}
+
+.hmi-home-search.search > .hmi-home-search-button:hover .hmi-home-search-icon {
+  background: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+}
+
+.hmi-home-search.search > .search-container {
+  backdrop-filter: none;
+  contain: none;
+  height: auto;
+  left: 0;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.hmi-home-search.search > .search-container.active {
+  display: block;
+}
+
+.hmi-home-search.search > .search-container > .search-space {
+  margin: 0;
+  width: 100%;
+}
+
+.hmi-home-search.search > .search-container > .search-space > * {
+  background: var(--light);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.hmi-home-search.search > .search-container > .search-space > .search-bar {
+  border: 2px solid var(--secondary);
+  box-sizing: border-box;
+  color: var(--dark);
+  font-size: 0.98rem;
+  min-height: 3.2rem;
+  padding: 0 1rem;
+}
+
+.hmi-home-search.search > .search-container > .search-space > .search-bar:focus {
+  outline: 3px solid color-mix(in srgb, var(--secondary) 24%, transparent);
+  outline-offset: 3px;
+}
+
+.hmi-home-search.search > .search-container > .search-space > .search-layout {
+  border-color: color-mix(in srgb, var(--secondary) 24%, var(--lightgray));
+  box-shadow: var(--shadow-lg);
+  margin-top: 0.65rem;
+  max-height: min(58vh, 460px);
+  overflow: auto;
+}
+
+.hmi-home-search.search > .search-container > .search-space > .search-layout.display-results {
+  display: block;
+}
+
+.hmi-home-search.search .search-layout > .results-container {
+  height: auto;
+  max-height: min(58vh, 460px);
+}
+
+.hmi-home-search.search .result-card {
+  color: var(--dark);
+}
+
+.hmi-home-search.search .result-card:hover,
+.hmi-home-search.search .result-card:focus,
+.hmi-home-search.search .result-card.focus {
+  background: color-mix(in srgb, var(--secondary) 9%, var(--light)) !important;
+}
+
+.hmi-home-search.search .result-card > h3.card-title {
+  color: var(--dark);
+  font-family: var(--bodyFont);
+  font-size: 0.98rem;
+  line-height: 1.25;
+}
+
+.hmi-home-search.search .result-card > p.card-description {
+  color: var(--darkgray);
+  display: block;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  margin-top: 0.35rem;
+}
+
+.hmi-home-search.search .highlight {
+  background: color-mix(in srgb, var(--secondary) 18%, var(--light)) !important;
+  border-radius: 0.2rem;
+  color: inherit;
+}
+
+.hmi-home-hero-copy:has(.hmi-home-search.search > .search-container.active) .hmi-home-hero-actions {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hmi-home-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0 0;
+}
+
+article .hmi-home-hero-actions a,
+article .hmi-home-hero-actions button,
+.hmi-home-hero-actions a,
+.hmi-home-hero-actions button {
+  background: var(--highlight);
+  border: 1px solid color-mix(in srgb, var(--secondary) 22%, var(--lightgray));
+  border-radius: var(--radius-md);
+  color: var(--secondary);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.86rem;
+  font-weight: 700;
+  padding: 0.55rem 0.75rem;
+  text-decoration: none;
+}
+
+article .hmi-home-hero-actions a.hmi-home-action-primary,
+.hmi-home-hero-actions a.hmi-home-action-primary {
+  background: var(--secondary);
+  color: var(--light);
+}
+
+.hmi-home-hero-actions a:hover,
+.hmi-home-hero-actions button:hover {
+  background: color-mix(in srgb, var(--secondary) 10%, var(--light));
+}
+
+article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
+.hmi-home-hero-actions a.hmi-home-action-primary:hover {
+  background: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+  color: var(--light);
+}
+
+.hmi-home-visual {
+  min-height: 360px;
+  position: relative;
+}
+
+.hmi-preview-card {
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  color: var(--darkgray);
+  position: absolute;
+}
+
+.hmi-preview-card span {
+  color: var(--gray);
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hmi-preview-card strong {
+  color: var(--dark);
+  display: block;
+  font-size: 1.05rem;
+  margin-top: 0.25rem;
+}
+
+.hmi-preview-card small {
+  color: var(--darkgray);
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  margin-top: 0.55rem;
+}
+
+.hmi-preview-card-main {
+  left: 7%;
+  padding: 1rem;
+  top: 9%;
+  width: min(86%, 420px);
+  z-index: 2;
+}
+
+.hmi-preview-topline {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.hmi-preview-bars {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0 0 1rem;
+}
+
+.hmi-preview-bars span {
+  background: color-mix(in srgb, var(--secondary) 18%, var(--lightgray));
+  border-radius: 999px;
+  display: block;
+  height: 0.45rem;
+  width: var(--bar-width);
+}
+
+.hmi-preview-row {
+  align-items: center;
+  border-top: 1px solid var(--lightgray);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.65rem 0 0;
+}
+
+.hmi-preview-row + .hmi-preview-row {
+  margin-top: 0.65rem;
+}
+
+.hmi-preview-row strong {
+  color: var(--secondary);
+  font-size: 0.78rem;
+  margin: 0;
+}
+
+.hmi-preview-card-metal {
+  left: 0;
+  padding: 0.95rem;
+  top: 2%;
+  width: 220px;
+  z-index: 1;
+}
+
+.hmi-preview-card-source {
+  bottom: 11%;
+  padding: 0.95rem;
+  right: 0;
+  width: 250px;
+  z-index: 3;
+}
+
+.hmi-home-feature-grid {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0 0 3.25rem;
+}
+
+.hmi-home-feature-card {
+  background: var(--light);
+  border: 1px solid color-mix(in srgb, var(--secondary) 32%, var(--lightgray));
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  color: inherit;
+  display: block;
+  min-height: 13rem;
+  padding: 1.25rem;
+  transition: border-color var(--duration-base) var(--ease-out),
+              box-shadow var(--duration-base) var(--ease-out),
+              transform var(--duration-base) var(--ease-out);
+}
+
+.hmi-home-feature-card:hover {
+  background: var(--light);
+  border-color: var(--secondary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.hmi-home-feature-card span {
+  color: var(--secondary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hmi-home-feature-card h2 {
+  font-size: 1.32rem;
+  line-height: 1.2;
+  margin: 0.65rem 0 0.55rem;
+}
+
+.hmi-home-feature-card h2 a {
+  background: transparent;
+  border: none;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.hmi-home-feature-card h2 a:hover {
+  background: transparent;
+  color: var(--secondary);
+}
+
+.hmi-home-feature-card p {
+  color: var(--darkgray);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.hmi-home-card-meta {
+  border-top: 1px solid var(--lightgray);
+  color: var(--gray);
+  font-size: 0.78rem;
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+}
+
+.hmi-home-explore {
+  margin: 0 0 3.25rem;
+}
+
+.hmi-home-explore > h2 {
+  color: var(--dark);
+  font-size: 2rem;
+  line-height: 1.1;
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+.hmi-home-explore-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.hmi-home-explore-grid h3 {
+  color: var(--dark);
+  font-size: 1rem;
+  margin: 0 0 0.8rem;
+}
+
+.hmi-home-explore-grid a {
+  border: none;
+  color: var(--secondary);
+  display: block;
+  font-size: 0.95rem;
+  margin: 0 0 0.58rem;
+  text-decoration: none;
+}
+
+.hmi-home-explore-grid a::before {
+  content: ">";
+  font-family: var(--codeFont);
+  font-size: 0.82rem;
+  margin-right: 0.45rem;
+}
+
+.hmi-home-explore-grid a:hover {
+  background: transparent;
+  color: color-mix(in srgb, var(--secondary) 78%, var(--dark));
+}
+
+.hmi-home-reference-band {
+  align-items: center;
+  background: var(--highlight);
+  border: 1px solid var(--lightgray);
+  border-left: 4px solid var(--secondary);
+  border-radius: var(--radius-md);
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin: 0 auto 3rem;
+  padding: 1.4rem 1.55rem;
+}
+
+.hmi-home-reference-band span {
+  color: var(--secondary);
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.hmi-home-reference-band h2 {
+  color: var(--dark);
+  font-size: 1.35rem;
+  margin: 0 0 0.35rem;
+}
+
+.hmi-home-reference-band p {
+  color: var(--darkgray);
+  margin: 0;
+  max-width: 680px;
+}
+
+.hmi-home-reference-band a {
+  background: var(--secondary);
+  border: 1px solid var(--secondary);
+  border-radius: var(--radius-md);
+  color: var(--light);
+  flex: 0 0 auto;
+  font-weight: 700;
+  padding: 0.65rem 0.9rem;
+  text-decoration: none;
+}
+
+.hmi-home-reference-band a:hover {
+  background: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+}
+
 
 /* On narrow viewports, collapse the two-column grids */
+
+@media (max-width: 1050px) {
+  body[data-slug="index"] .center {
+    padding: 0 1rem;
+  }
+
+  .hmi-home-nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .hmi-home-hero,
+  .hmi-home-feature-grid,
+  .hmi-home-explore-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hmi-home-hero {
+    gap: 1.5rem;
+    min-height: 0;
+  }
+
+  .hmi-home-visual {
+    display: none;
+  }
+
+  .hmi-home-reference-band {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hmi-home-feature-card {
+    min-height: 0;
+  }
+}
 
 @media (max-width: 600px) {
   .hmi-cat-grid,
@@ -859,4 +1524,31 @@ a.hmi-public-link:hover {
   .hmi-quick-read {
     padding: 16px;
   }
+
+  .hmi-home-hero h1 {
+    font-size: 2.1rem;
+    line-height: 1.05;
+  }
+
+  .hmi-home-search.search {
+    max-width: none;
+    width: 100%;
+  }
+
+  .hmi-preview-card-main {
+    left: 0;
+    width: 88%;
+  }
+
+  .hmi-preview-card-metal {
+    left: 0.5rem;
+    top: 0;
+  }
+
+  .hmi-preview-card-source {
+    bottom: 0;
+    right: 0;
+    width: 72%;
+  }
+
 }

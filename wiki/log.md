@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-04-30] ingest | ufelle2021-metals-chapter — chapter-level metals toxicology re-ingest
+Pages touched: [[sources/ufelle2021-metals-chapter]], [[metals/arsenic]], [[metals/arsenic-inorganic]], [[metals/arsenic-total]], [[metals/cadmium]], [[metals/chromium]], [[metals/cobalt]], [[metals/copper]], [[metals/iron]], [[metals/lead]], [[metals/magnesium]], [[metals/mercury]], [[metals/mercury-methyl]], [[metals/mercury-total]], [[metals/molybdenum]], [[metals/nickel]], [[metals/zinc]], [[metals/aluminum]], [[metals/antimony]], [[metals/barium]], [[metals/beryllium]], [[metals/cesium]], [[metals/gold]], [[metals/lithium]], [[metals/manganese]], [[metals/palladium]], [[metals/platinum]], [[metals/silver]], [[metals/tellurium]], [[metals/thallium]], [[metals/tin]], [[metals/titanium]], [[metals/uranium]], [[metals/vanadium]]
+Notes: Re-ingested Casarett & Doull's Essentials of Toxicology Chapter 23 as a whole-chapter metal toxicology source rather than a cadmium-only corroborating source. The rendered source page now visibly preserves the exact chapter title, exact figure/table titles, chapter section structure, and a metal-node map across existing and newly stubbed wiki metal/species pages, while marking the source as textbook synthesis with no food occurrence values.
+
 ## [2026-04-29] ingest | lgc2003-nickel-piercing-post-assemblies — critical nickel dermal-contact report
 Pages touched: [[sources/lgc2003-nickel-piercing-post-assemblies]], [[metals/nickel]], [[products/piercing-post-assemblies]], [[regulations/eu-nickel-directive-94-27-ec]], [[testing/en-1811-nickel-release]], [[raw/Digest/INGESTED]]
 Notes: Critical ingest of `nickel_en.pdf`, preserving the exact paper title and exact source table headings on the rendered source page. Connected the report to nickel, the actual product category, the Nickel Directive, and EN 1811, while explicitly marking it as context-only for Category 1 food occurrence because it measures dermal/contact-material nickel release rather than food concentrations.

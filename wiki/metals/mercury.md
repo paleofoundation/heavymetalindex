@@ -7,13 +7,15 @@ species: [Hg0, iHg, Hg2+, MeHg, methylmercury, dimethylmercury]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: medium
 wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
-updated: 2026-04-25
-sources: 8
+updated: 2026-04-30
+sources: 9
 ---
 
 # Mercury
 
 _This page draws on the [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] Toxicological Profile for Mercury ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]), the EPA IRIS chemical assessments for mercuric chloride and methylmercury ([[sources/epa-iris-mercuric-chloride|EPA IRIS Hg]], [[sources/epa-iris-methylmercury|EPA IRIS MeHg]]), the [[sources/jecfa-61st-methylmercury|JECFA 61st meeting]] methylmercury monograph ([[sources/jecfa-61st-methylmercury|JECFA 61st]]), the EFSA CONTAM 2012 Scientific Opinion on Mercury and Methylmercury in Food ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]), the [[sources/minamata-convention-2013|Minamata Convention]] on Mercury ([[sources/minamata-convention-2013|Minamata Convention 2013]]), the Farina-Rocha-Aschner 2011 mechanistic review ([[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]]), and the joint [[sources/fda-epa-fish-consumption-advice|FDA/EPA fish consumption advice]] ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]])._
+
+_Chapter-level cross-metal toxicology context for elemental mercury vapor, inorganic mercury, methylmercury, global cycling, neurotoxicity, renal toxicity, and treatment is connected from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -176,5 +178,6 @@ Second, the EPA IRIS methylmercury reassessment (currently in step 1 at IRIS) ma
 - [[sources/minamata-convention-2013|Minamata Convention 2013]] — [[sources/minamata-convention-2013|Minamata Convention]] on Mercury (2013, with 2024 revisions).
 - [[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]] — Farina, Rocha, Aschner 2011. Mechanisms of methylmercury-induced neurotoxicity.
 - [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
+- [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
 
 See also [[studies/mercury-primary-literature]] for the citable index of mercury-focused primary research articles in raw/studies/.
