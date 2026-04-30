@@ -16,6 +16,10 @@ and Category 1 pilot coverage registers.
   for value-level backfill and review. Existing source-cited product pages may
   contain public synthesis before every table cell has a matching JSONL value
   record; new machine extraction still requires promotion before publication.
+- `category1_standards_decisions.csv`: internal standards-decision register
+  for row x metal values that have been promoted, approved, or finalized for
+  HMTc use. This file is intentionally separate from public evidence and from
+  provisional percentile calculations.
 - `category1_fda_baby_food_compliance_summary.csv`: FDA FY2009-FY2024
   baby/young-child food compliance samples summarized into Category 1
   lower-bound p10/p50/p90/p95/p100 rows.

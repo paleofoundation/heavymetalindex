@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2003-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-61st-methylmercury]]"]
+title: "JECFA — Methylmercury Provisional Tolerable Weekly Intake (1.6 µg/kg b.w./week)"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

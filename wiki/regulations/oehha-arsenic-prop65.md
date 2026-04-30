@@ -12,6 +12,7 @@ status: in-force
 effective_date: null
 sunset_date: null
 source_refs: ["[[sources/oehha-arsenic-prop65-listing]]"]
+title: "California Proposition 65 — Inorganic Arsenic Compounds Listing"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

@@ -19,7 +19,7 @@ provenance: base_taxonomy
 ingredient_targets: [root-vegetable-purees, carrot, sweet-potato, beet]
 primary_metals_of_concern: [Cd, Pb]
 vulnerable_population: infants-0-24mo
-applicable_regulations: []
+applicable_regulations: [fda-ctz-Pb-rootveg-20ppb]
 cc_relationship:
   role: contamination_platform
   scope: cross_row

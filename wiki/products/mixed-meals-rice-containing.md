@@ -19,7 +19,7 @@ provenance: split_from_base
 ingredient_targets: [mixed-meals, rice, rice-flour, vegetables, meat]
 primary_metals_of_concern: [iAs, Cd, Pb]
 vulnerable_population: infants-6-60mo
-applicable_regulations: []
+applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
 cc_relationship:
   role: contamination_platform
   scope: within_row

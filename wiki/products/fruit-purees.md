@@ -18,7 +18,7 @@ provenance: base_taxonomy
 ingredient_targets: [fruit-purees, apple, pear, peach, banana]
 primary_metals_of_concern: []
 vulnerable_population: infants-0-24mo
-applicable_regulations: []
+applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
 cc_relationship:
   role: independent
   scope: none

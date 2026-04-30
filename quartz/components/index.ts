@@ -17,6 +17,8 @@ import Backlinks from "./Backlinks"
 import AskIndex from "./AskIndex"
 import Search from "./Search"
 import Footer from "./Footer"
+import ProductEvidenceSummary from "./ProductEvidenceSummary"
+import BrandPreScreenTool from "./BrandPreScreenTool"
 import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
@@ -44,6 +46,8 @@ export {
   AskIndex,
   Search,
   Footer,
+  ProductEvidenceSummary,
+  BrandPreScreenTool,
   DesktopOnly,
   MobileOnly,
   RecentNotes,

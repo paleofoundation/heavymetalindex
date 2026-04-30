@@ -12,6 +12,7 @@ status: partial-ingest
 effective_date: null
 sunset_date: null
 source_refs: ["[[sources/codex-cccf17-2024]]"]
+title: "Codex Alimentarius — Maximum Levels for Cadmium in Food"
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

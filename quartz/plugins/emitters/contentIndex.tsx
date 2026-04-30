@@ -19,6 +19,7 @@ export type ContentDetails = {
   richContent?: string
   date?: Date
   description?: string
+  noindex?: boolean
 }
 
 interface Options {
@@ -46,6 +47,7 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string
     ${content.date && `<lastmod>${content.date.toISOString()}</lastmod>`}
   </url>`
   const urls = Array.from(idx)
+    .filter(([_, content]) => !content.noindex)
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .join("")
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
@@ -63,6 +65,7 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?:
   </item>`
 
   const items = Array.from(idx)
+    .filter(([_, content]) => !content.noindex)
     .sort(([_, f1], [__, f2]) => {
       if (f1.date && f2.date) {
         return f2.date.getTime() - f1.date.getTime()
@@ -102,6 +105,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       for (const [tree, file] of content) {
         const slug = file.data.slug!
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
+        const noindex = isNoindex(file.data.frontmatter?.noindex)
         if (opts?.includeEmptyFiles || (file.data.text && file.data.text !== "")) {
           linkIndex.set(slug, {
             slug,
@@ -115,6 +119,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               : undefined,
             date: date,
             description: file.data.description ?? "",
+            noindex,
           })
         }
       }
@@ -139,14 +144,17 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
 
       const fp = joinSegments("static", "contentIndex") as FullSlug
       const simplifiedIndex = Object.fromEntries(
-        Array.from(linkIndex).map(([slug, content]) => {
-          // remove description and from content index as nothing downstream
-          // actually uses it. we only keep it in the index as we need it
-          // for the RSS feed
-          delete content.description
-          delete content.date
-          return [slug, content]
-        }),
+        Array.from(linkIndex)
+          .filter(([_, content]) => !content.noindex)
+          .map(([slug, content]) => {
+            // remove description and from content index as nothing downstream
+            // actually uses it. we only keep it in the index as we need it
+            // for the RSS feed
+            delete content.description
+            delete content.date
+            delete content.noindex
+            return [slug, content]
+          }),
       )
 
       yield write({
@@ -171,4 +179,10 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       }
     },
   }
+}
+
+function isNoindex(value: unknown): boolean {
+  if (typeof value === "boolean") return value
+  if (typeof value === "string") return ["true", "yes", "1"].includes(value.trim().toLowerCase())
+  return false
 }

@@ -288,9 +288,9 @@ export function renderPage(
               </div>
             </div>
             {RightComponent}
-            <Footer {...componentData} />
           </Body>
         </div>
+        <Footer {...componentData} />
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")

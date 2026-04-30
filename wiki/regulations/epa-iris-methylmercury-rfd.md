@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2001-07-27
 sunset_date: null
 source_refs: ["[[sources/epa-iris-methylmercury]]"]
+title: "EPA IRIS — Methylmercury Oral Reference Dose"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

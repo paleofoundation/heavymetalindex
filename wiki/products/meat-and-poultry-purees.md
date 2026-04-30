@@ -18,7 +18,7 @@ provenance: added_step_0c_no_existing_home
 ingredient_targets: [meat-and-poultry-purees, poultry, beef, turkey]
 primary_metals_of_concern: []
 vulnerable_population: infants-0-24mo
-applicable_regulations: []
+applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
 cc_relationship:
   role: independent
   scope: none

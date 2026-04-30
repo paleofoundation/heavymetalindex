@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2020-09-24
 sunset_date: null
 source_refs: ["[[sources/efsa-nickel-contam-2020]]"]
+title: "EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

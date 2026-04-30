@@ -18,7 +18,7 @@ provenance: base_taxonomy
 ingredient_targets: [vegetable-purees, non-root-vegetables, leafy-greens, squash]
 primary_metals_of_concern: [Cd, Pb]
 vulnerable_population: infants-0-24mo
-applicable_regulations: []
+applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
 cc_relationship:
   role: clean_benchmark
   scope: cross_row

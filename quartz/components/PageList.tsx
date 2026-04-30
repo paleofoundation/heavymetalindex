@@ -57,6 +57,12 @@ type Props = {
   sort?: SortFn
 } & QuartzComponentProps
 
+function frontmatterText(value: unknown): string | undefined {
+  if (value === undefined || value === null) return undefined
+  const text = String(value).trim()
+  return text.length > 0 ? text : undefined
+}
+
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
   const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
   let list = allFiles.sort(sorter)
@@ -67,21 +73,38 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
   return (
     <ul class="section-ul">
       {list.map((page) => {
+        const frontmatter = page.frontmatter as Record<string, unknown> | undefined
         const title = page.frontmatter?.title
+        const summary =
+          frontmatterText(frontmatter?.description) ?? frontmatterText(page.description)
         const tags = page.frontmatter?.tags ?? []
+        const metaItems = [
+          frontmatterText(frontmatter?.agency) ?? frontmatterText(frontmatter?.authority),
+          frontmatterText(frontmatter?.jurisdiction),
+          frontmatterText(frontmatter?.metal),
+          frontmatterText(frontmatter?.status),
+        ].filter((item): item is string => Boolean(item))
 
         return (
           <li class="section-li">
             <div class="section">
-              <p class="meta">
-                {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
-              </p>
               <div class="desc">
                 <h3>
                   <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                     {title}
                   </a>
                 </h3>
+                {summary && <p class="summary">{summary}</p>}
+                <div class="meta">
+                  {metaItems.map((item) => (
+                    <span>{item}</span>
+                  ))}
+                  {page.dates && (
+                    <span>
+                      Updated <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                    </span>
+                  )}
+                </div>
               </div>
               <ul class="tags">
                 {tags.map((tag) => (

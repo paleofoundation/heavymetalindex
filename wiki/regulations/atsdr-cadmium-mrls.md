@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2012-09-01
 sunset_date: null
 source_refs: ["[[sources/atsdr-cadmium-toxprofile-2012]]"]
+title: "ATSDR — Minimal Risk Levels for Cadmium"
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

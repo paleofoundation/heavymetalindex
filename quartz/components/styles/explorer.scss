@@ -128,12 +128,15 @@ button.desktop-explorer {
 
     & li > a {
       color: var(--dark);
+      font-weight: $normalWeight;
+      line-height: 1.45;
       opacity: 0.75;
       pointer-events: all;
 
       &.active {
         opacity: 1;
         color: var(--tertiary);
+        font-weight: $normalWeight;
       }
     }
   }

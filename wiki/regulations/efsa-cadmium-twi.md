@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2009-01-30
 sunset_date: null
 source_refs: ["[[sources/efsa-cadmium-contam-2009]]"]
+title: "EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week"
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

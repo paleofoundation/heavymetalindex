@@ -12,6 +12,7 @@ status: finalized
 effective_date: 2020-08-06
 sunset_date: null
 source_refs: ["[[sources/fda-iAs-rice-cereal-2020]]"]
+title: "FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

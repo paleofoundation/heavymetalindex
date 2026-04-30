@@ -12,6 +12,7 @@ status: in-force
 effective_date: 1989-10-01
 sunset_date: null
 source_refs: ["[[sources/epa-iris-cadmium-1989]]"]
+title: "EPA IRIS — Cadmium Oral Reference Doses"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

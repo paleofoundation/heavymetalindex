@@ -13,16 +13,19 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
+    "prebuild": "tsx tools/evidence/build-percentile-context.ts",
     "build": "./quartz/bootstrap-cli.mjs build -d wiki -o public",
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",
     "check": "tsc --noEmit",
     "evidence:category1": "tsx tools/evidence/build-category1-register.ts",
     "evidence:digest-baby-food": "tsx tools/evidence/extract-digest-baby-food-compliance.ts",
     "evidence:digest-formula": "tsx tools/evidence/extract-digest-formula.ts",
+    "evidence:percentiles": "tsx tools/evidence/build-percentile-context.ts",
     "evidence:queue": "tsx tools/evidence/build-review-queue.ts",
     "evidence:scan": "tsx tools/evidence/scan-markdown.ts --raw raw/markdown --out data/evidence/drafts",
     "format": "npx prettier . --write",
-    "test": "tsx --test"
+    "test": "tsx --test",
+    "workbench": "node tools/standards-workbench/server.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",

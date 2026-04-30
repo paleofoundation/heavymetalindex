@@ -12,6 +12,7 @@ status: withdrawn
 effective_date: 2010-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-72nd-lead-2010]]"]
+title: "JECFA — Lead Provisional Tolerable Weekly Intake (Withdrawn 2010)"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

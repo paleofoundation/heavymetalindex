@@ -12,6 +12,7 @@ status: finalized
 effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
+title: "FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats)"
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

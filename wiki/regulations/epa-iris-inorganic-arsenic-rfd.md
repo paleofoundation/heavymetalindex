@@ -12,6 +12,7 @@ status: finalized-2025
 effective_date: 2025-01-01
 sunset_date: null
 source_refs: ["[[sources/epa-iris-inorganic-arsenic-2025]]"]
+title: "EPA IRIS — Inorganic Arsenic Toxicological Review (January 2025)"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

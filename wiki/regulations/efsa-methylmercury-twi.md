@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2012-12-01
 sunset_date: null
 source_refs: ["[[sources/efsa-mercury-methylmercury-2012]]"]
+title: "EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

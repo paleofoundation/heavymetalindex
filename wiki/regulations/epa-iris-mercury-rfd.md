@@ -12,6 +12,7 @@ status: in-force
 effective_date: 1995-05-01
 sunset_date: null
 source_refs: ["[[sources/epa-iris-mercuric-chloride]]"]
+title: "EPA IRIS — Mercuric Chloride Oral Reference Dose"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

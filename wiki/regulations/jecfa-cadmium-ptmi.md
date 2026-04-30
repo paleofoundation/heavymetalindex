@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2010-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-91st-cadmium-2022]]"]
+title: "JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month"
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

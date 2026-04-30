@@ -17,6 +17,25 @@ const defaultOptions: Options = {
   layout: "modern",
 }
 
+const productTocLabels = new Map([
+  ["Evidence Governance", "Evidence quality"],
+  ["Scaffold Status", "Build status"],
+  ["Distribution Summary For Threshold Work", "Distribution summary"],
+  ["Measured Values And Concentration Evidence", "Measured values"],
+  ["Source Evidence Inventory", "Source evidence"],
+  ["Extracted Formula Concentration Rows", "Extracted concentration rows"],
+  ["CC Candidate Summary", "CC candidates"],
+  ["How Standards Math Uses This Page", "Standards math"],
+  ["Evidence Used For This Row", "Evidence used"],
+  ["Exposure Estimates From Formula Consumption", "Exposure context"],
+  ["French TDS Category Rows", "Context rows"],
+  ["Why This Category Is High-Risk", "Risk context"],
+  ["What Drives Variance Across Brands", "Variance drivers"],
+  ["How The App Would Estimate Risk From An Ingredient List", "Ingredient-list use"],
+  ["Historical Recalls/Enforcement", "Regulatory events"],
+  ["Sources", "Sources"],
+])
+
 let numTocs = 0
 export default ((opts?: Partial<Options>) => {
   const layout = opts?.layout ?? defaultOptions.layout
@@ -29,6 +48,19 @@ export default ((opts?: Partial<Options>) => {
     if (!fileData.toc) {
       return null
     }
+
+    const isProductCategory =
+      fileData.frontmatter?.type === "product-category" && fileData.slug?.startsWith("products/")
+    const tocEntries = isProductCategory
+      ? fileData.toc
+          .filter((entry) => entry.depth <= 2 && productTocLabels.has(entry.text))
+          .map((entry) => ({
+            ...entry,
+            text: productTocLabels.get(entry.text) ?? entry.text,
+          }))
+      : fileData.toc
+
+    if (tocEntries.length === 0) return null
 
     const id = `toc-${numTocs++}`
     return (
@@ -59,7 +91,7 @@ export default ((opts?: Partial<Options>) => {
           id={id}
           class={fileData.collapseToc ? "collapsed toc-content" : "toc-content"}
         >
-          {fileData.toc.map((tocEntry) => (
+          {tocEntries.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>
                 {tocEntry.text}
@@ -78,13 +110,26 @@ export default ((opts?: Partial<Options>) => {
     if (!fileData.toc) {
       return null
     }
+    const isProductCategory =
+      fileData.frontmatter?.type === "product-category" && fileData.slug?.startsWith("products/")
+    const tocEntries = isProductCategory
+      ? fileData.toc
+          .filter((entry) => entry.depth <= 2 && productTocLabels.has(entry.text))
+          .map((entry) => ({
+            ...entry,
+            text: productTocLabels.get(entry.text) ?? entry.text,
+          }))
+      : fileData.toc
+
+    if (tocEntries.length === 0) return null
+
     return (
       <details class="toc" open={!fileData.collapseToc}>
         <summary>
           <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
         </summary>
         <ul>
-          {fileData.toc.map((tocEntry) => (
+          {tocEntries.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>
                 {tocEntry.text}

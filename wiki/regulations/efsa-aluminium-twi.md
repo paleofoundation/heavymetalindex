@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2008-05-22
 sunset_date: null
 source_refs: ["[[sources/efsa-aluminium-afc-2008]]"]
+title: "EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

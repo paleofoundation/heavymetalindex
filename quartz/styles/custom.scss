@@ -278,19 +278,6 @@ article table a[data-slug^="sources/"]:hover {
   background: transparent;
 }
 
-.page-title::after {
-  content: "Operated by the Paleo Foundation · Cyprus";
-  display: block;
-  margin-top: 6px;
-  font-size: 10.5px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  text-transform: none;
-  color: var(--gray);
-  line-height: 1.4;
-}
-
-
 /* -----------------------------------------------------------
    Article meta and breadcrumbs
    ----------------------------------------------------------- */
@@ -406,48 +393,6 @@ article tbody td > code:only-child {
 
 
 /* -----------------------------------------------------------
-   Footer
-   ----------------------------------------------------------- */
-
-footer {
-  font-size: 12px;
-  color: var(--gray);
-  border-top: 1px solid var(--lightgray);
-  margin-top: 2.5rem;
-  padding: 1.5rem 0 1.5rem;
-}
-
-footer ul {
-  display: flex;
-  gap: 1.25rem;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li::before {
-  content: none;
-}
-
-footer ul li a {
-  color: var(--gray);
-  border-bottom: none;
-}
-
-footer ul li a:hover {
-  color: var(--secondary);
-  background: transparent;
-}
-
-footer p {
-  margin: 0.75rem 0 0;
-  font-size: 11px;
-  color: var(--gray);
-}
-
-
-/* -----------------------------------------------------------
    Search — pill style matching Answerthis register
    ----------------------------------------------------------- */
 
@@ -505,6 +450,17 @@ footer p {
 .toc ul li a:hover {
   color: var(--secondary);
   background: transparent;
+}
+
+/* -----------------------------------------------------------
+   Explorer focus states
+   ----------------------------------------------------------- */
+
+.explorer button:focus-visible,
+.explorer a:focus-visible {
+  outline: 2px solid var(--color-primary-200);
+  outline-offset: 3px;
+  border-radius: var(--radius-xs);
 }
 
 
@@ -835,10 +791,9 @@ a.hmi-public-link:hover {
 
 body[data-slug="index"] #quartz-root > #quartz-body {
   column-gap: 0;
-  grid-template-areas:
-    "grid-center"
-    "grid-footer";
+  grid-template-areas: "grid-center";
   grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto;
   padding: 0;
 }
 
@@ -880,15 +835,19 @@ body[data-slug="index"] article {
   padding: 0;
 }
 
-body[data-slug="index"] #quartz-root > #quartz-body > footer {
+body[data-slug="index"] > footer.site-footer {
   box-sizing: border-box;
-  grid-area: grid-footer;
   margin: 2rem auto 0;
-  max-width: 1180px;
+  max-width: none;
   min-width: 0;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0;
+  padding-right: 0;
   width: 100%;
+}
+
+body > footer.site-footer {
+  box-sizing: border-box;
+  max-width: none;
 }
 
 .hmi-home-nav {
@@ -1452,6 +1411,91 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
   background: color-mix(in srgb, var(--secondary) 88%, var(--dark));
 }
 
+body[data-slug="staff"] .page-header {
+  display: none;
+}
+
+.hmi-staff-access {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  margin: 1rem 0 2rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.hmi-staff-kicker {
+  color: var(--secondary);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.hmi-staff-access h1 {
+  color: var(--dark);
+  font-size: var(--text-3xl);
+  letter-spacing: 0;
+  line-height: 1.1;
+  margin-bottom: 0.9rem;
+}
+
+.hmi-staff-access p {
+  color: var(--darkgray);
+  max-width: 42rem;
+}
+
+.hmi-staff-status {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.25rem 0;
+}
+
+.hmi-staff-status div {
+  background: var(--color-primary-50);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0.85rem;
+}
+
+.hmi-staff-status strong,
+.hmi-staff-status span {
+  display: block;
+}
+
+.hmi-staff-status strong {
+  color: var(--dark);
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.hmi-staff-status span {
+  color: var(--darkgray);
+  font-size: 0.82rem;
+}
+
+article a.hmi-staff-primary,
+a.hmi-staff-primary {
+  background: var(--secondary);
+  border: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--secondary);
+  border-radius: var(--radius-md);
+  color: var(--light);
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 0.4rem;
+  padding: 0.65rem 0.9rem;
+  text-decoration: none;
+}
+
+article a.hmi-staff-primary:hover,
+a.hmi-staff-primary:hover {
+  background: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+  border-color: color-mix(in srgb, var(--secondary) 88%, var(--dark));
+  color: var(--light);
+}
+
 
 /* On narrow viewports, collapse the two-column grids */
 
@@ -1484,6 +1528,10 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
   .hmi-home-reference-band {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .hmi-staff-status {
+    grid-template-columns: 1fr;
   }
 
   .hmi-home-feature-card {

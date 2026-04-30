@@ -12,6 +12,7 @@ status: finalized
 effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
+title: "FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)"
 updated: 2026-04-24
 audience: [regulator, educator]
 ---

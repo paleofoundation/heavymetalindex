@@ -6,22 +6,13 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component.Footer({
-    links: {
-      "Paleo Foundation": "https://paleofoundation.com",
-      "Heavy Metal Tested & Certified": "https://heavymetaltested.com",
-      WikiBiome: "https://wikibiome.com",
-      Terms: "/terms",
-      Privacy: "/privacy",
-      GitHub: "https://github.com/paleofoundation/heavymetalindex",
-    },
-  }),
+  footer: Component.Footer(),
 }
 
 // components for pages that display a single page (e.g. a single note)
-// Graph view, Backlinks, and Table of Contents are all enabled because dense
-// inline wikilinking across metals, regulations, sources, and ingredients
-// makes the connection graph load-bearing for navigation and verification.
+// The public site keeps the right rail focused on document navigation.
+// Dense graph and backlink widgets are useful during corpus development,
+// but they compete with the primary reading path on public reference pages.
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -30,6 +21,8 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    Component.ProductEvidenceSummary(),
+    Component.BrandPreScreenTool(),
     Component.TagList(),
   ],
   left: [
@@ -53,11 +46,15 @@ export const defaultContentPageLayout: PageLayout = {
       filterFn: (node) => {
         const hiddenPrimary = new Set([
           "app",
+          "about",
           "certification",
+          "contact",
           "courses",
+          "editorial-standards",
           "health",
           "lint",
           "log",
+          "methodology",
           "microbiome",
           "overview",
           "privacy",
@@ -65,6 +62,7 @@ export const defaultContentPageLayout: PageLayout = {
           "studies",
           "supply-chain",
           "synthesis",
+          "staff",
           "tags",
           "terms",
           "testing",
@@ -73,11 +71,7 @@ export const defaultContentPageLayout: PageLayout = {
       },
     }),
   ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 }
 
 // components for pages that display lists of pages (e.g. tags or folders)
@@ -103,11 +97,15 @@ export const defaultListPageLayout: PageLayout = {
       filterFn: (node) => {
         const hiddenPrimary = new Set([
           "app",
+          "about",
           "certification",
+          "contact",
           "courses",
+          "editorial-standards",
           "health",
           "lint",
           "log",
+          "methodology",
           "microbiome",
           "overview",
           "privacy",
@@ -115,6 +113,7 @@ export const defaultListPageLayout: PageLayout = {
           "studies",
           "supply-chain",
           "synthesis",
+          "staff",
           "tags",
           "terms",
           "testing",

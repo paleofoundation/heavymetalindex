@@ -12,6 +12,7 @@ status: in-force-no-threshold
 effective_date: 2010-03-18
 sunset_date: null
 source_refs: ["[[sources/efsa-lead-contam-2010]]"]
+title: "EFSA — Lead in Food (2010), No-Threshold Position"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

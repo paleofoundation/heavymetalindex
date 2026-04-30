@@ -24,6 +24,12 @@ function frontmatterStringArray(value: unknown): string[] {
   return normalized ? [normalized] : []
 }
 
+function frontmatterBoolean(value: unknown): boolean {
+  if (typeof value === "boolean") return value
+  if (typeof value === "string") return ["true", "yes", "1"].includes(value.trim().toLowerCase())
+  return false
+}
+
 function CitationMetadata({
   frontmatter,
   slug,
@@ -142,6 +148,9 @@ export default (() => {
 
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
+        {frontmatterBoolean(fileData.frontmatter?.noindex) && (
+          <meta name="robots" content="noindex, nofollow" />
+        )}
         <CitationMetadata
           frontmatter={fileData.frontmatter}
           slug={fileData.slug}

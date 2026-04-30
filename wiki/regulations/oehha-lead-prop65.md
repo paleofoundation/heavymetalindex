@@ -12,6 +12,7 @@ status: in-force
 effective_date: null
 sunset_date: null
 source_refs: ["[[sources/oehha-lead-prop65-listing]]"]
+title: "California Proposition 65 — Lead and Lead Compounds Listing"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2006-01-23
 sunset_date: null
 source_refs: ["[[sources/epa-arsenic-drinking-water-mcl]]"]
+title: "EPA — Maximum Contaminant Level for Arsenic in Drinking Water"
 updated: 2026-04-25
 audience: [regulator, educator]
 ---

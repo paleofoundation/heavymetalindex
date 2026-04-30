@@ -166,9 +166,12 @@ const digestPaperRows: FormulaRow[] = [
   paperRow("dabeka2011-canada-infant-formula-lead-cadmium-aluminum", "hmtc_c1_r04", "infant-formula-rtf-liquid-soy-based", "Infant formula ready-to-use, soy-based", "Al", 14, 730, 769, 1121),
   paperRow("dabeka2011-canada-infant-formula-lead-cadmium-aluminum", "hmtc_c1_r04", "infant-formula-rtf-liquid-soy-based", "Infant formula ready-to-use, soy-based", "Cd", 14, 1.18, 1.06, 2.95),
   paperRow("dabeka2011-canada-infant-formula-lead-cadmium-aluminum", "hmtc_c1_r04", "infant-formula-rtf-liquid-soy-based", "Infant formula ready-to-use, soy-based", "Pb", 14, 1.45, 1.36, 2.1),
-  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r01", "infant-formula-powder-non-soy", "Imported infant milk-based and soy-based formula powders; not row-split", "Al", 17, 1070, 2170),
-  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r01", "infant-formula-powder-non-soy", "Imported infant milk-based and soy-based formula powders; not row-split", "Cd", 17, 10.5, 34.4),
-  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r01", "infant-formula-powder-non-soy", "Imported infant milk-based and soy-based formula powders; not row-split", "Pb", 17, 28.7, 119),
+  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r01", "infant-formula-powder-non-soy", "Milk-based infant formula powder, pasted Table 3", "Al", 13, 640, 1520, 1018.5, "Pasted Table 3 milk-based rows; source text has subgroup-count conflict and needs PDF-image QA before final standards math."),
+  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r01", "infant-formula-powder-non-soy", "Milk-based infant formula powder, pasted Table 3", "Cd", 13, 4.2, 12.3, 7.86, "Pasted Table 3 milk-based rows; source text has subgroup-count conflict and needs PDF-image QA before final standards math."),
+  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r01", "infant-formula-powder-non-soy", "Milk-based infant formula powder, pasted Table 3", "Pb", 13, 28.7, 97, 64.2, "Pasted Table 3 milk-based rows; source text has subgroup-count conflict and needs PDF-image QA before final standards math."),
+  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r02", "infant-formula-powder-soy-based", "Soy-based infant formula powder, pasted Table 3", "Al", 4, 1740, 2720, 2270, "Pasted Table 3 soy-based rows; source text has subgroup-count conflict and needs PDF-image QA before final standards math."),
+  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r02", "infant-formula-powder-soy-based", "Soy-based infant formula powder, pasted Table 3", "Cd", 4, 8.3, 14.5, 11.7, "Pasted Table 3 soy-based rows; source text has subgroup-count conflict and needs PDF-image QA before final standards math."),
+  rangeRow("kazi2009-toxic-elements-in-infant-formulae", "hmtc_c1_r02", "infant-formula-powder-soy-based", "Soy-based infant formula powder, pasted Table 3", "Pb", 4, 98.6, 119, 109.4, "Pasted Table 3 soy-based rows; source text has subgroup-count conflict and needs PDF-image QA before final standards math."),
   rangeRow("burrell2010-aluminium-in-infant-formulas", "hmtc_c1_r02", "infant-formula-powder-soy-based", "Soy-based formula powder, prepared estimate", "Al", 1, 629, 629),
   rangeRow("chuchu2013-aluminium-in-infant-formulas", "hmtc_c1_r02", "infant-formula-powder-soy-based", "Soy-based formula products, prepared estimate", "Al", 2, 656, 756),
 ]
@@ -388,6 +391,8 @@ function rangeRow(
   n: number,
   min: number,
   max: number,
+  mean: number | null = null,
+  note = "Range supports source-scope p100/max only; it does not establish p50 or p90.",
 ): FormulaRow {
   return {
     source_id: sourceIdForRow,
@@ -410,7 +415,7 @@ function rangeRow(
     p90_ppb: null,
     p95_ppb: null,
     p100_ppb: null,
-    mean_ppb: null,
+    mean_ppb: mean,
     median_ppb: null,
     max_ppb: max,
     unit: "ppb",
@@ -419,7 +424,7 @@ function rangeRow(
     review_state: "machine_extracted",
     row_fit: "literature_summary_row",
     category1_related_rows: rowSlug,
-    notes: "Range supports source-scope p100/max only; it does not establish p50 or p90.",
+    notes: note,
   }
 }
 

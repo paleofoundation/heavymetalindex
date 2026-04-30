@@ -18,7 +18,7 @@ provenance: split_from_base
 ingredient_targets: [baby-cereals-dry, non-rice-grains, vitamin-mineral-premix]
 primary_metals_of_concern: [iAs, Cd, Pb]
 vulnerable_population: infants-0-24mo
-applicable_regulations: []
+applicable_regulations: [fda-ctz-Pb-cereal-20ppb]
 cc_relationship:
   role: clean_benchmark
   scope: within_row
