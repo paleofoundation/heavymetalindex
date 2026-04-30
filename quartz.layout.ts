@@ -10,6 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "Paleo Foundation": "https://paleofoundation.com",
       "Heavy Metal Tested & Certified": "https://heavymetaltested.com",
+      WikiBiome: "https://wikibiome.com",
       GitHub: "https://github.com/paleofoundation/heavymetalindex",
     },
   }),
