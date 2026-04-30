@@ -178,7 +178,7 @@ h1.article-title {
   font-size: var(--text-3xl);
   font-weight: 600;
   line-height: 1.15;
-  letter-spacing: -0.022em;
+  letter-spacing: 0;
   color: var(--dark);
   margin: 0 0 0.75rem;
 }
@@ -187,7 +187,7 @@ article h2 {
   font-size: var(--text-xl);
   font-weight: 600;
   line-height: 1.25;
-  letter-spacing: -0.012em;
+  letter-spacing: 0;
   color: var(--dark);
   margin: 2rem 0 0.75rem;
 }
@@ -196,9 +196,15 @@ article h3 {
   font-size: var(--text-lg);
   font-weight: 600;
   line-height: 1.3;
-  letter-spacing: -0.006em;
+  letter-spacing: 0;
   color: var(--dark);
   margin: 1.5rem 0 0.5rem;
+}
+
+body[data-slug^="products/"] article > h1:first-child,
+body[data-slug^="ingredients/"] article > h1:first-child,
+body[data-slug^="metals/"] article > h1:first-child {
+  display: none;
 }
 
 article p {
@@ -341,6 +347,7 @@ article tbody td {
   padding: 8px 12px;
   border-bottom: 1px solid var(--lightgray);
   color: var(--darkgray);
+  vertical-align: top;
 }
 
 article tbody td > code:only-child {
@@ -592,6 +599,13 @@ footer p {
   border-bottom: 1px solid var(--lightgray);
 }
 
+.hmi-deck {
+  font-size: var(--text-lg);
+  line-height: 1.55;
+  color: var(--darkgray);
+  margin: 0 0 1.25rem;
+}
+
 .hmi-cat-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -610,7 +624,7 @@ a.hmi-cat-card {
   padding: 16px 18px;
   background: var(--light);
   border: 1px solid var(--lightgray);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   text-decoration: none;
   color: inherit;
@@ -677,7 +691,7 @@ a.hmi-meth-card {
   padding: 20px 22px;
   background: var(--highlight);
   border: 1px solid var(--lightgray);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   text-decoration: none;
   color: inherit;
@@ -715,12 +729,134 @@ a.hmi-meth-card:hover {
   font-weight: 500;
 }
 
+.hmi-quick-read {
+  background: var(--highlight);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  margin: 0 0 1.5rem;
+  padding: 18px 20px;
+}
+
+.hmi-quick-read-label {
+  color: var(--gray);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.hmi-quick-read p {
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0 0 0.75rem;
+}
+
+.hmi-quick-read ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.hmi-quick-read li {
+  margin: 0 0 0.45rem;
+}
+
+.hmi-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0.875rem 0 0;
+}
+
+.hmi-pill {
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  color: var(--darkgray);
+  font-family: var(--codeFont);
+  font-size: 11px;
+  line-height: 1;
+  padding: 6px 8px;
+}
+
+.hmi-archive-note {
+  border-left: 3px solid var(--secondary);
+  color: var(--darkgray);
+  font-size: 13px;
+  line-height: 1.55;
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1rem;
+}
+
+.hmi-public-links {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1rem 0 1.5rem;
+}
+
+article a.hmi-public-link,
+a.hmi-public-link {
+  align-items: baseline;
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  color: inherit;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+article a.hmi-public-link:hover,
+a.hmi-public-link:hover {
+  background: var(--highlight);
+  border-color: var(--secondary);
+}
+
+.hmi-public-link strong {
+  color: var(--dark);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hmi-public-link span {
+  color: var(--gray);
+  font-size: 12px;
+}
+
 
 /* On narrow viewports, collapse the two-column grids */
 
 @media (max-width: 600px) {
   .hmi-cat-grid,
-  .hmi-meth-grid {
+  .hmi-meth-grid,
+  .hmi-public-links {
     grid-template-columns: 1fr;
+  }
+
+  article table {
+    display: block;
+    margin-left: -0.25rem;
+    max-width: 100%;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  article table th,
+  article table td {
+    min-width: 8rem;
+  }
+
+  article table th:first-child,
+  article table td:first-child {
+    background: var(--light);
+    left: 0;
+    min-width: 3.75rem;
+    position: sticky;
+    z-index: 1;
+  }
+
+  .hmi-quick-read {
+    padding: 16px;
   }
 }

@@ -1,4 +1,5 @@
 ---
+title: Infant Formula, RTF Liquid (Non-Soy)
 type: product-category
 category: infant-formula-rtf-liquid-non-soy
 hmtc_row: 3

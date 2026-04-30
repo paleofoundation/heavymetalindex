@@ -1,4 +1,5 @@
 ---
+title: Infant Cereal Ingredients
 type: ingredient
 commodity: infant-cereal-ingredients
 aliases: [baby cereal, cereal flour, infant biscuit, cereal-based foods, cereal-based infant foods]

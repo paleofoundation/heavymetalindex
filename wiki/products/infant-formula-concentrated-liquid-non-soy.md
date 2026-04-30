@@ -1,4 +1,5 @@
 ---
+title: Infant Formula, Concentrated Liquid (Non-Soy)
 type: product-category
 category: infant-formula-concentrated-liquid-non-soy
 category_label: Infant and Child Foods

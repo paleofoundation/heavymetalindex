@@ -1,4 +1,5 @@
 ---
+title: Wild Mushrooms
 type: ingredient
 commodity: wild-mushrooms
 aliases: [fungi, wild-harvested mushrooms, porcini, chanterelle, morel, boletus, foraged mushrooms, mushroom powder]

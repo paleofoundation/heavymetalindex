@@ -1,4 +1,5 @@
 ---
+title: Fruit
 type: ingredient
 commodity: fruit
 aliases: [apple, pear, peach, banana, berries, fruit puree, compote]

@@ -1,4 +1,5 @@
 ---
+title: Root-Vegetable Purees
 type: product-category
 category: root-vegetable-purees
 hmtc_row: 9

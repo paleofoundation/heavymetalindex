@@ -1,4 +1,5 @@
 ---
+title: Fruit Juice (Not Canned)
 type: product-category
 category: fruit-juice-not-canned
 hmtc_row: 14

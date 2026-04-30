@@ -1,4 +1,5 @@
 ---
+title: Teething & Snacks (Rice-Based)
 type: product-category
 category: teething-and-snacks-rice-based
 hmtc_row: 16

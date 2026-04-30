@@ -1,4 +1,5 @@
 ---
+title: Non-Root Vegetable Purees
 type: product-category
 category: non-root-vegetable-purees
 hmtc_row: 8

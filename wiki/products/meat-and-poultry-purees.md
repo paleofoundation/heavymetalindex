@@ -1,4 +1,5 @@
 ---
+title: Meat and Poultry Purees
 type: product-category
 category: meat-and-poultry-purees
 hmtc_row: 10

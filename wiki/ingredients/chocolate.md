@@ -1,4 +1,5 @@
 ---
+title: Chocolate
 type: ingredient
 commodity: chocolate
 aliases: [dark chocolate, milk chocolate, chocolate liquor, chocolate bar, chocolate confection, couverture]

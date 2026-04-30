@@ -1,4 +1,5 @@
 ---
+title: Vegetables
 type: ingredient
 commodity: vegetables
 aliases: [vegetable puree, vegetable-based meal, green vegetables, mixed vegetables]

@@ -1,4 +1,5 @@
 ---
+title: Infant Formula, RTF Liquid (Soy-Based)
 type: product-category
 category: infant-formula-rtf-liquid-soy-based
 hmtc_row: 4

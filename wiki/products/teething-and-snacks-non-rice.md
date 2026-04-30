@@ -1,4 +1,5 @@
 ---
+title: Teething & Snacks (Non-Rice)
 type: product-category
 category: teething-and-snacks-non-rice
 hmtc_row: 15

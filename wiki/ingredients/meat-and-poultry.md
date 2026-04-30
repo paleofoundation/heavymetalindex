@@ -1,4 +1,5 @@
 ---
+title: Meat and Poultry
 type: ingredient
 commodity: meat-and-poultry
 aliases: [meat, poultry, chicken, turkey, beef, pork, game]

@@ -1,4 +1,5 @@
 ---
+title: Nickel
 type: metal
 symbol: Ni
 name: Nickel

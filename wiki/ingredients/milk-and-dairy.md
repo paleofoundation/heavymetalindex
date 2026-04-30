@@ -1,4 +1,5 @@
 ---
+title: Milk and Dairy
 type: ingredient
 commodity: milk-and-dairy
 aliases: [milk, dairy, cow milk, dairy dessert, yogurt, cheese, milk-based beverage]

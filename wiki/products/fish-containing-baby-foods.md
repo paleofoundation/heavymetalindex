@@ -1,4 +1,5 @@
 ---
+title: Fish-Containing Baby Foods
 type: product-category
 category: fish-containing-baby-foods
 hmtc_row: 11

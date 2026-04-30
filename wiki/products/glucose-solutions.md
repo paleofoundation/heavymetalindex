@@ -1,4 +1,5 @@
 ---
+title: Glucose Solutions
 type: product-category
 category: glucose-solutions
 category_label: Infant Support Products

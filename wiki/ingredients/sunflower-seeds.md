@@ -1,4 +1,5 @@
 ---
+title: Sunflower Seeds
 type: ingredient
 commodity: sunflower-seeds
 aliases: [sunflower kernels, sunflower meats, sunflower butter, sunflower oil-press residue, sunflower seed protein]

@@ -1,4 +1,5 @@
 ---
+title: Cocoa
 type: ingredient
 commodity: cocoa
 aliases: [cocoa beans, cacao, cocoa mass, cocoa liquor, cocoa solids, cocoa powder, cocoa butter, cacao nibs]

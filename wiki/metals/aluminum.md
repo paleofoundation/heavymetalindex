@@ -1,4 +1,5 @@
 ---
+title: Aluminum
 type: metal
 symbol: Al
 name: Aluminum

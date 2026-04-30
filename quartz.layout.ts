@@ -42,7 +42,31 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Index",
+      folderDefaultState: "collapsed",
+      useSavedState: false,
+      filterFn: (node) => {
+        const hiddenPrimary = new Set([
+          "app",
+          "certification",
+          "courses",
+          "health",
+          "lint",
+          "log",
+          "microbiome",
+          "overview",
+          "queries",
+          "studies",
+          "supply-chain",
+          "synthesis",
+          "tags",
+          "terms",
+          "testing",
+        ])
+        return !hiddenPrimary.has(node.slugSegment)
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -66,7 +90,31 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Index",
+      folderDefaultState: "collapsed",
+      useSavedState: false,
+      filterFn: (node) => {
+        const hiddenPrimary = new Set([
+          "app",
+          "certification",
+          "courses",
+          "health",
+          "lint",
+          "log",
+          "microbiome",
+          "overview",
+          "queries",
+          "studies",
+          "supply-chain",
+          "synthesis",
+          "tags",
+          "terms",
+          "testing",
+        ])
+        return !hiddenPrimary.has(node.slugSegment)
+      },
+    }),
   ],
   right: [],
 }

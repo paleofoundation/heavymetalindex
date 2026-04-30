@@ -1,4 +1,5 @@
 ---
+title: Mercury, Total
 type: metal
 symbol: tHg
 name: Mercury, total

@@ -1,4 +1,5 @@
 ---
+title: Potatoes
 type: ingredient
 commodity: potatoes
 aliases: [white potato, russet potato, yukon gold, red potato, potato flakes, potato starch, dehydrated potato, french fries, potato chips]

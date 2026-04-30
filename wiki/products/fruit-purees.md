@@ -1,4 +1,5 @@
 ---
+title: Fruit Purees
 type: product-category
 category: fruit-purees
 hmtc_row: 7

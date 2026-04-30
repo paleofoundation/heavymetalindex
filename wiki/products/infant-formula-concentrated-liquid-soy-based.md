@@ -1,4 +1,5 @@
 ---
+title: Infant Formula, Concentrated Liquid (Soy-Based)
 type: product-category
 category: infant-formula-concentrated-liquid-soy-based
 category_label: Infant and Child Foods

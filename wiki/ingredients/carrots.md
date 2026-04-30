@@ -1,4 +1,5 @@
 ---
+title: Carrots
 type: ingredient
 commodity: carrots
 aliases: [carrot, carrot puree, carrot-based baby food]

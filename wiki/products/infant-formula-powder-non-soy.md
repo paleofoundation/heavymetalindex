@@ -1,4 +1,5 @@
 ---
+title: Infant Formula, Powder (Non-Soy)
 type: product-category
 category: infant-formula-powder-non-soy
 hmtc_row: 1
@@ -32,6 +33,26 @@ sources: 17
 ---
 
 # Infant Formula, Powder (Non-Soy)
+
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Powdered non-soy infant formula has usable but incomplete heavy-metal occurrence evidence. Current rows summarize published concentration data; they do not establish certification limits.</p>
+  <ul>
+    <li><strong>Evidence status:</strong> modeled or limited evidence, with one reconstructable FDA prepared-for-feeding dataset for total arsenic, lead, cadmium, and total mercury.</li>
+    <li><strong>Main concern:</strong> infants are the exposed population, so row-fit, basis matching, and non-detect handling matter before any threshold math.</li>
+    <li><strong>Best use:</strong> read the summaries first, then use the source tables below only when you need the underlying evidence.</li>
+  </ul>
+  <div class="hmi-pill-row">
+    <span class="hmi-pill">Pb</span>
+    <span class="hmi-pill">Cd</span>
+    <span class="hmi-pill">tAs</span>
+    <span class="hmi-pill">tHg</span>
+    <span class="hmi-pill">Al</span>
+    <span class="hmi-pill">Ni</span>
+    <span class="hmi-pill">Sn</span>
+    <span class="hmi-pill">Cr</span>
+  </div>
+</div>
 
 This page is the Category 1 row 1 evidence page for powdered non-soy infant formula. It is now organized around certification-relevant concentration data first, with exposure estimates and broad formula studies separated so they do not get mistaken for ppb product distributions.
 

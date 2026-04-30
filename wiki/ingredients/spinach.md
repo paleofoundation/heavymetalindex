@@ -1,4 +1,5 @@
 ---
+title: Spinach
 type: ingredient
 commodity: spinach
 aliases: [baby spinach, mature spinach, frozen spinach, spinach puree]

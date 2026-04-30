@@ -1,4 +1,5 @@
 ---
+title: Mercury
 type: metal
 symbol: Hg
 name: Mercury

@@ -1,4 +1,5 @@
 ---
+title: Manganese
 type: metal
 symbol: Mn
 name: Manganese

@@ -1,4 +1,5 @@
 ---
+title: Infant Formula, Powder (Soy-Based)
 type: product-category
 category: infant-formula-powder-soy-based
 hmtc_row: 2

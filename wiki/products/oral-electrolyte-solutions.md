@@ -1,4 +1,5 @@
 ---
+title: Oral Electrolyte Solutions
 type: product-category
 category: oral-electrolyte-solutions
 category_label: Infant Support Products

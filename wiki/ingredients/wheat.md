@@ -1,4 +1,5 @@
 ---
+title: Wheat
 type: ingredient
 commodity: wheat
 aliases: [wheat grain, wheat flour, whole wheat flour, wheat bran, wheat germ, semolina, durum wheat, hard red wheat, soft white wheat, wheat protein, vital wheat gluten]

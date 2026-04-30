@@ -1,4 +1,5 @@
 ---
+title: Infant Formula Powder
 type: product-category
 category: infant-formula-powder
 category_label: Infant and Child Foods

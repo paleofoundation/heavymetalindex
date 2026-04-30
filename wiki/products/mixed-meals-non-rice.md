@@ -1,4 +1,5 @@
 ---
+title: Mixed Meals, Non-Rice
 type: product-category
 category: mixed-meals-non-rice
 hmtc_row: 12

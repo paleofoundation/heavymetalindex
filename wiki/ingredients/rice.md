@@ -1,4 +1,5 @@
 ---
+title: Rice
 type: ingredient
 commodity: rice
 aliases: [rice flour, rice syrup, brown rice syrup, rice protein, rice starch, white rice, brown rice, polished rice, husked rice]

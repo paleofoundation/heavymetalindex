@@ -1,4 +1,5 @@
 ---
+title: Baby Cereals / Grain Products, Dry (Non-Rice)
 type: product-category
 category: baby-cereals-dry-non-rice
 hmtc_row: 5

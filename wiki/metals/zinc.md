@@ -1,4 +1,5 @@
 ---
+title: Zinc
 type: metal
 symbol: Zn
 name: Zinc

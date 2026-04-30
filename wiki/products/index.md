@@ -5,13 +5,23 @@ audience: [regulator, educator, consumer, researcher]
 updated: 2026-04-28
 ---
 
-Product-category pages describe the heavy-metal risk profile of consumer-facing food categories, including infant foods, chocolate, tea, seafood, and protein powders. Each page identifies the primary metals of concern, the ingredients that drive risk, and the applicable regulatory instruments, with links to the corresponding [metal](/metals), [ingredient](/ingredients), and [regulation](/regulations) pages.
+Product-category pages describe heavy-metal evidence for consumer-facing food categories. Start here when the reader's question begins with a product type rather than a metal.
+
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>The most developed product layer is infant and child foods. Pages summarize source-backed occurrence evidence, data gaps, and applicable regulation links; they do not rank brands or publish certification limits.</p>
+  <div class="hmi-pill-row">
+    <span class="hmi-pill">Infant formula</span>
+    <span class="hmi-pill">Baby cereal</span>
+    <span class="hmi-pill">Purees</span>
+    <span class="hmi-pill">Juice</span>
+    <span class="hmi-pill">Snacks</span>
+  </div>
+</div>
 
 ## Infant and Child Foods (HMTc Category 1, Ages 0-5)
 
-These pages preserve the locked row architecture. Substantive claims are cited to promoted `wiki/sources/` pages; remaining gaps stay marked as `<!-- UNCITED -->` until additional sources are promoted from `raw/`.
-
-The Category 1 pilot is also the first Evidence Fitness rollout. Pages report what the evidence says about the product row, source coverage, partial distributions, and data gaps. They do not publish or justify HMT&C certification limits; HMT&C may consume approved Index evidence downstream under its separate standards methodology.
+These pages report what the evidence says about the product row, source coverage, partial distributions, and data gaps. Technical row architecture and Evidence Fitness notes remain on the detail pages for auditability.
 
 1. [[products/infant-formula-powder-non-soy|Infant formula, powder (non-soy)]]
 2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]]

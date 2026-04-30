@@ -1,4 +1,5 @@
 ---
+title: Tin
 type: metal
 symbol: Sn
 name: Tin

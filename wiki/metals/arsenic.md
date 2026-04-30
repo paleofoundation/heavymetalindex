@@ -1,4 +1,5 @@
 ---
+title: Arsenic
 type: metal
 symbol: As
 name: Arsenic

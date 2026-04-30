@@ -1,4 +1,5 @@
 ---
+title: Soy
 type: ingredient
 commodity: soy
 aliases: [soya, soybean, soy protein, soy protein isolate, soy-based formula, soya-based formula]

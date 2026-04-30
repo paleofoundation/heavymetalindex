@@ -1,4 +1,5 @@
 ---
+title: Methylmercury
 type: metal
 symbol: MeHg
 name: Methylmercury

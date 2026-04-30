@@ -1,4 +1,5 @@
 ---
+title: Fish
 type: ingredient
 commodity: fish
 aliases: [seafood, finfish, tuna, salmon, swordfish, mackerel, cod, tilapia, trout, sardines, herring, anchovies, fish-oil]

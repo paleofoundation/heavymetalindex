@@ -1,4 +1,5 @@
 ---
+title: Arsenic, Inorganic
 type: metal
 symbol: iAs
 name: Arsenic, inorganic

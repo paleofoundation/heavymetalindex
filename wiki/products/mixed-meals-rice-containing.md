@@ -1,4 +1,5 @@
 ---
+title: Mixed Meals, Rice-Containing
 type: product-category
 category: mixed-meals-rice-containing
 hmtc_row: 13

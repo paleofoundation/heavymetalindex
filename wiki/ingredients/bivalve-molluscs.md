@@ -1,4 +1,5 @@
 ---
+title: Bivalve Molluscs (Excluding Oysters)
 type: ingredient
 commodity: bivalve-molluscs
 aliases: [clams, mussels, scallops, cockles, razor-clams, oysters-separate-page, quahog, geoduck]

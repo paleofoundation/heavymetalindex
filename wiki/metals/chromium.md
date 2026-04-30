@@ -1,4 +1,5 @@
 ---
+title: Chromium
 type: metal
 symbol: Cr
 name: Chromium

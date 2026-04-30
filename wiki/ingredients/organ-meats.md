@@ -1,4 +1,5 @@
 ---
+title: Organ Meats (Kidney and Liver)
 type: ingredient
 commodity: organ-meats
 aliases: [kidney, liver, offal, variety meats, pate, liverwurst, kidney pie, liver pate, calves-liver, beef-liver, pork-kidney, sweetbreads]

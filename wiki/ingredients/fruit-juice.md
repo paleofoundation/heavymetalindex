@@ -1,4 +1,5 @@
 ---
+title: Fruit Juice
 type: ingredient
 commodity: fruit-juice
 aliases: [apple juice, grape juice, pear juice, fruit juice concentrate, baby juice]

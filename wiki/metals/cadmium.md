@@ -1,4 +1,5 @@
 ---
+title: Cadmium
 type: metal
 symbol: Cd
 name: Cadmium

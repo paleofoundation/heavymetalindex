@@ -1,4 +1,5 @@
 ---
+title: Arsenic, Total
 type: metal
 symbol: tAs
 name: Arsenic, total

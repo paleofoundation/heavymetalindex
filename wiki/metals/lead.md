@@ -1,4 +1,5 @@
 ---
+title: Lead
 type: metal
 symbol: Pb
 name: Lead
@@ -12,7 +13,22 @@ sources: 10
 
 # Lead
 
-_This page draws on the [[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]] Toxicological Profile for Lead ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]), the EFSA CONTAM 2010 Scientific Opinion on Lead in Food ([[sources/efsa-lead-contam-2010|EFSA Pb 2010]]), the [[sources/jecfa-72nd-lead-2010|JECFA 72nd meeting]] 2010 re-evaluation that withdrew the PTWI ([[sources/jecfa-72nd-lead-2010|JECFA 72nd 2010]]), the EPA IRIS chemical assessment for inorganic lead ([[sources/epa-iris-lead-2004|EPA IRIS Pb 2004]]), the CDC Blood Lead Reference Value documentation ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]), the OEHHA Proposition 65 lead listing ([[sources/oehha-lead-prop65-listing|OEHHA Prop 65 Pb]]), the [[regulations/fda-closer-to-zero|FDA Closer to Zero]] Pb baby food guidance ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]), and three biochemistry-mechanism reviews ([[sources/tamagno-freeman-2025-pb-glutamate|Tamagno-Freeman 2025]], [[sources/ordemann-austin-2016-pb-zinc-finger|Ordemann & Austin 2016]], [[sources/huang-2020-pb-alad-threshold|Huang et al. 2020]])._
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lead is treated differently from most dietary contaminants because major agencies have not identified a safe blood lead level for children.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> minimize exposure as far as practicable; do not look for a single safe daily dose.</li>
+    <li><strong>Highest-risk groups:</strong> infants, young children, pregnant people, and people with older housing or lead-contaminated water and dust exposure.</li>
+    <li><strong>Food-system focus:</strong> cereals, root vegetables, baby foods, and other soil- or processing-linked pathways.</li>
+  </ul>
+  <div class="hmi-pill-row">
+    <span class="hmi-pill">No safe child blood level</span>
+    <span class="hmi-pill">Developmental neurotoxicity</span>
+    <span class="hmi-pill">FDA Closer to Zero</span>
+  </div>
+</div>
+
+This synthesis draws on ATSDR, EFSA, JECFA, EPA IRIS, CDC, OEHHA, FDA Closer to Zero, and mechanism reviews. The complete citation list remains at the bottom of the page so first-time readers can get the main interpretation before the source trail.
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->

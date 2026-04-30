@@ -1,4 +1,5 @@
 ---
+title: Infant Formula Ingredients
 type: ingredient
 commodity: infant-formula-ingredients
 aliases: [formula ingredients, formula powder ingredients, infant formula constituents, mineral premix, vitamin premix]

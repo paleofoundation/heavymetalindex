@@ -1,4 +1,5 @@
 ---
+title: Baby Cereals / Grain Products, Dry (Rice-Based)
 type: product-category
 category: baby-cereals-dry-rice-based
 hmtc_row: 6
