@@ -83,7 +83,7 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Commodity drivers</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>15 pages</span>
+    <span>15 core profiles</span>
     <h2><a href="metals/">Metals</a></h2>
     <p>Per-metal summaries for lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, tin, and more.</p>
     <div class="hmi-home-card-meta">Metal profiles</div>
