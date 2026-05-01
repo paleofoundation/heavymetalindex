@@ -35,7 +35,7 @@ sources: 13
 
 # Infant Formula, Powder (Soy-Based)
 
-This page is a structural scaffold for HMTc Category 1 row 2. Soy-specific powder evidence now includes UK dry soy-formula category values, historical Canadian milk-free/soy-base powder cadmium distributions, and EU pooled soy-formula basket values; current-market soy-powder p10/p90/p100 distributions remain incomplete.
+This page is a structural scaffold for HMTc Category 1 row 2. Soy-specific powder evidence now includes UK dry soy-formula category values, historical Canadian milk-free/soy-base powder cadmium distributions, and EU pooled soy-formula basket values; current-market soy-powder product-level distributions remain incomplete.
 
 ## Evidence Governance
 
@@ -43,7 +43,7 @@ Public evidence label: **Modeled or limited evidence**.
 
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
-This page does not publish or justify HMT&C certification limits. HMT&C may use approved Index evidence downstream under its own standards methodology, but HMT&C thresholds are not evidence for public Index claims.
+This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 ## Scaffold Status
 
@@ -52,13 +52,13 @@ This page does not publish or justify HMT&C certification limits. HMT&C may use 
 - Next ingest target: current soy-based powdered infant formula datasets that distinguish protein source while measuring [[metals/aluminum|Al]], [[metals/nickel|Ni]], [[metals/cadmium|Cd]], and the full testing panel.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
-## Distribution Summary For Threshold Work
+## Distribution Context
 
 <!-- audience: regulator, educator, app -->
 
-The current source set still does not support a modern soy-powder p10/p90/p100 concentration distribution. Dabeka 1987 provides N, mean, median, and range for milk-free or soy-base formula powders, but it is historical Canadian evidence and should be treated as formulation/packaging variance evidence rather than a current-market benchmark. [[sources/dabeka1987-canada-infant-formula-lead-cadmium]]
+The current source set still does not support a modern soy-powder product-level concentration distribution. Dabeka 1987 provides N, mean, median, and range for milk-free or soy-base formula powders, but it is historical Canadian evidence and should be treated as formulation/packaging variance evidence rather than a current-market benchmark. [[sources/dabeka1987-canada-infant-formula-lead-cadmium]]
 
-| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
+| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
 | Historical formula powder distribution | [[metals/cadmium|Cadmium]] | Milk-free or soy-base infant formula powders | 15 | mean, median, range | mean 13.3 ppb; median 12.0 ppb; range 1.1-35 ppb | Supports median/max only | Historical Canadian formula data; no p10/p90; milk-free and soy-base grouped. [[sources/dabeka1987-canada-infant-formula-lead-cadmium]] |
 | UK category average | [[metals/aluminum|Aluminum]] | UK dry soy-based formula, as sold | 47 formula total; category n not reported | category average | 2550 ppb | Does not support p10/p90/p100 | Direct soy dry-formula category average; UK market. [[sources/fsa2016-infant-food-formula-metals-survey]] |
@@ -71,7 +71,7 @@ The current source set still does not support a modern soy-powder p10/p90/p100 c
 
 <!-- audience: regulator, educator, app -->
 
-The FDA 2026 special survey provides a product-label subset for soy-based powdered formula, expressed as prepared for feeding. These rows are useful for p50/p90/p100 work, but they still require review for clean-platform inclusion, non-detect policy, basis matching, jurisdiction composition, and 95% confidence before any certification candidate is selected. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; the sample-level rows are retained in `data/evidence/category1_formula_special_survey_samples.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+The FDA 2026 special survey provides a product-label subset for soy-based powdered formula, expressed as prepared for feeding. These rows are useful for structured evidence review, but they still require review for row fit, non-detect policy, basis matching, jurisdiction composition, and confidence before standards use. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; the sample-level rows are retained in `data/evidence/category1_formula_special_survey_samples.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
 | Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
 | --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |

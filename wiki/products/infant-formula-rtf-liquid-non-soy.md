@@ -42,7 +42,7 @@ Public evidence label: **Modeled or limited evidence**.
 
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
-This page does not publish or justify HMT&C certification limits. HMT&C may use approved Index evidence downstream under its own standards methodology, but HMT&C thresholds are not evidence for public Index claims.
+This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 ## Scaffold Status
 
@@ -71,7 +71,7 @@ Direct ready-to-feed liquid evidence is available from the UK survey. Values are
 
 <!-- audience: regulator, educator, app -->
 
-The FDA 2026 special survey provides a product-label subset for ready-to-feed cow milk-based formula, expressed as prepared for feeding. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; any certification candidate still needs basis matching, jurisdiction metadata, and 95% confidence review. The sample-level rows are retained in `data/evidence/category1_formula_special_survey_samples.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+The FDA 2026 special survey provides a product-label subset for ready-to-feed cow milk-based formula, expressed as prepared for feeding. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; standards review still needs basis matching, jurisdiction metadata, and confidence review. The sample-level rows are retained in `data/evidence/category1_formula_special_survey_samples.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
 | Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
 | --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |

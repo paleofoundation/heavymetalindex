@@ -43,7 +43,7 @@ Public evidence label: **Modeled or limited evidence**.
 
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
-This page does not publish or justify HMT&C certification limits. HMT&C may use approved Index evidence downstream under its own standards methodology, but HMT&C thresholds are not evidence for public Index claims.
+This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 ## Scaffold Status
 
@@ -52,13 +52,13 @@ This page does not publish or justify HMT&C certification limits. HMT&C may use 
 - Next ingest target: mixed-meal datasets for rice-containing products, especially [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
-## Distribution Summary For Threshold Work
+## Distribution Context
 
 <!-- audience: regulator, educator, app -->
 
 The current source set does not yet support a rice-containing mixed-meal p10/p90/p100 concentration spread. Gardener 2019 includes jars/meals, pouches, and kids-meals categories and provides broad all-sample lead/cadmium percentiles, but rice-containing mixed meals still need product-level extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
 
-| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
+| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
 | FDA compliance sample-level distribution | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Mixtures rows with rice named | tAs 9; Cd 9; Pb 9; tHg 3 | lower-bound p50, p90, p95, max | tAs p50 11 ppb, p90/max 28.3 ppb; Cd p50 1.3 ppb, p90/max 7 ppb; Pb p50 1 ppb, p90/max 11.6 ppb; tHg p90/max 0.3 ppb | Small source-scope context only until reviewed with more samples | Machine-extracted; `<LOD` treated as 0; small rice-named subset (`EF-3`). [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
 | UK savoury category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Other savoury based infant foods/dishes, no meat | 200 infant-food total; category n not reported | category average/range | 7 to 9 ppb | Does not support p10/p90/p100 | Broad savoury mixed-food group; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |

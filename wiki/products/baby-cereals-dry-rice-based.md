@@ -43,7 +43,7 @@ Public evidence label: **Modeled or limited evidence**.
 
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
-This page does not publish or justify HMT&C certification limits. HMT&C may use approved Index evidence downstream under its own standards methodology, but HMT&C thresholds are not evidence for public Index claims.
+This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 ## Scaffold Status
 
@@ -52,7 +52,7 @@ This page does not publish or justify HMT&C certification limits. HMT&C may use 
 - Next ingest target: infant cereal datasets for rice-based dry grain products that report individual-product distributions for [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
-## Distribution Summary For Threshold Work
+## Distribution Context
 
 <!-- audience: regulator, educator, app -->
 
@@ -60,7 +60,7 @@ Parker 2022 provides a small grain baby-food concentration distribution with N=9
 
 Gardener 2019 provides a much larger lead/cadmium baby-food survey and reports cereal category counts, but the primary published distribution table is for all 564 baby-food/formula samples rather than rice-cereal-only values. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
 
-| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Use for p10/p90/p100? | Caveat |
+| Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
 | FDA compliance sample-level distribution | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Dry Infant Cereals with rice named | tAs 253; Cd 252; Pb 256; tHg 64 | lower-bound p50, p90, p95, max | tAs p50 115 ppb, p90 135 ppb, max 348 ppb; Cd p90 22 ppb, max 40.5 ppb; Pb p90 19.2 ppb, max 32 ppb; tHg p90 2.1 ppb, max 4 ppb | Supports source-scope lower-bound distribution after review | Machine-extracted; `<LOD` and `NDb` treated as 0; arsenic is source-reported As, not iAs. [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
 | Grain baby-food distribution | [[metals/arsenic-total|Total arsenic]] | Grain baby foods, mostly rice-containing | 9 | min, mean, median, max, detection rate | min 10 ppb; mean 90.4 ppb; median 126 ppb; max 132 ppb; detected 9/9 | Supports median/max only | Total arsenic, not iAs; small grain group, not a rice-cereal-only distribution. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |

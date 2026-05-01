@@ -64,25 +64,18 @@ export default (() => {
 
     const metals = list(frontmatter.primary_metals_of_concern)
     const ingredients = list(frontmatter.ingredient_targets)
-    const row = text(frontmatter.hmtc_row)
-    const category = text(frontmatter.hmtc_category)
-    const productCategorySlug = text(frontmatter.category)
     const sources = text(frontmatter.sources)
     const updated = formatDate(frontmatter.updated)
     const evidenceStatus = text(frontmatter.public_evidence_label) ?? labelize(frontmatter.evidence_fitness)
-    const role = labelize(frontmatter.variant_type)
     const population = formatPopulation(frontmatter.vulnerable_population)
     const categoryLabel = text(frontmatter.category_label)
-    const thresholdStatus =
-      frontmatter.hmtc_threshold_status === "excluded_from_index_evidence"
-        ? "No public certification limit"
-        : labelize(frontmatter.hmtc_threshold_status)
     const shortcuts = [
       "Source Evidence Inventory",
       "Measured Values And Concentration Evidence",
+      "Distribution Context",
       "Extracted Formula Concentration Rows",
-      "Distribution Summary For Threshold Work",
-      "CC Candidate Summary",
+      "Structured Concentration Rows",
+      "Evidence Used For This Row",
       "Sources",
     ]
       .map((label) => {
@@ -94,22 +87,22 @@ export default (() => {
     return (
       <section class="hmi-product-brief" aria-label="Product evidence summary">
         <div class="hmi-product-brief-kicker">
+          <span>Product evidence page</span>
           {categoryLabel ? <span>{categoryLabel}</span> : null}
-          {row ? <span>HMT&C row {row}</span> : null}
-          {category ? <span>Category {category}</span> : null}
         </div>
 
         <div class="hmi-product-brief-grid">
           <div class="hmi-product-brief-main">
             <h2>Evidence Summary</h2>
             <p>
-              This page summarizes public evidence for the product category while preserving the
-              technical source trail used for HMT&C standards work.
+              This page summarizes what cited Heavy Metal Index sources report for this product
+              category: metals covered, measured values, regulatory context, and evidence gaps.
             </p>
             <p class="hmi-product-standards-note">
-              Range values, p90/p100 candidates, matrix basis, row-fit notes, and confidence-gating
-              caveats remain in the technical tables below. The page does not publish a final
-              certification threshold.
+              Technical extraction details may appear below for traceability, but public pages do
+              not publish HMT&C standards, candidate limits, or certification thresholds. Internal
+              percentile, confidence, and regulatory-ceiling decisions belong in the staff
+              standards workbench.
             </p>
           </div>
 
@@ -130,18 +123,6 @@ export default (() => {
               <div>
                 <dt>Population</dt>
                 <dd>{population}</dd>
-              </div>
-            ) : null}
-            {role ? (
-              <div>
-                <dt>Row role</dt>
-                <dd>{role}</dd>
-              </div>
-            ) : null}
-            {thresholdStatus ? (
-              <div>
-                <dt>Threshold status</dt>
-                <dd>{thresholdStatus}</dd>
               </div>
             ) : null}
             {updated ? (
@@ -176,11 +157,6 @@ export default (() => {
             {shortcuts.map((shortcut) => (
               <a href={`#${shortcut.slug}`}>{shortcut.label}</a>
             ))}
-            {productCategorySlug ? (
-              <a href={`/certification/lab-result-comparator?category=${productCategorySlug}`}>
-                Compare lab result
-              </a>
-            ) : null}
           </nav>
         ) : null}
       </section>
@@ -197,12 +173,13 @@ function productShortcutLabel(label: string): string {
       return "Source evidence"
     case "Measured Values And Concentration Evidence":
       return "Measured values"
+    case "Distribution Context":
+      return "Distribution context"
     case "Extracted Formula Concentration Rows":
-      return "Extracted rows"
-    case "Distribution Summary For Threshold Work":
-      return "Distribution summary"
-    case "CC Candidate Summary":
-      return "CC candidates"
+    case "Structured Concentration Rows":
+      return "Structured values"
+    case "Evidence Used For This Row":
+      return "Evidence notes"
     default:
       return label
   }

@@ -36,10 +36,10 @@ sources: 17
 
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
-  <p>Powdered non-soy infant formula has usable but incomplete heavy-metal occurrence evidence. Current rows summarize published concentration data; they do not establish certification limits.</p>
+  <p>Powdered non-soy infant formula has usable but incomplete heavy-metal occurrence evidence. Structured rows summarize published concentration data; they do not establish certification limits.</p>
   <ul>
     <li><strong>Evidence status:</strong> modeled or limited evidence, with one reconstructable FDA prepared-for-feeding dataset for total arsenic, lead, cadmium, and total mercury.</li>
-    <li><strong>Main concern:</strong> infants are the exposed population, so row-fit, basis matching, and non-detect handling matter before any threshold math.</li>
+    <li><strong>Main concern:</strong> infants are the exposed population, so row-fit, basis matching, and non-detect handling matter before any standards interpretation.</li>
     <li><strong>Best use:</strong> read the summaries first, then use the source tables below only when you need the underlying evidence.</li>
   </ul>
   <div class="hmi-pill-row">
@@ -54,55 +54,55 @@ sources: 17
   </div>
 </div>
 
-This page is the Category 1 row 1 evidence page for powdered non-soy infant formula. It is now organized around certification-relevant concentration data first, with exposure estimates and broad formula studies separated so they do not get mistaken for ppb product distributions.
+This page is the public evidence page for powdered non-soy infant formula. It is organized around source-backed product concentration evidence, with exposure estimates and broad formula studies separated so they do not get mistaken for direct ppb product measurements.
 
 ## Evidence Governance
 
 Public evidence label: **Modeled or limited evidence**.
 
-This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
+This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level extraction and standards review are tracked separately in staff tooling.
 
-This page does not publish or justify HMT&C certification limits. HMT&C may use approved Index evidence downstream under its own standards methodology, but HMT&C thresholds are not evidence for public Index claims.
+This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 ## Scaffold Status
 
 - Page state: corrected pilot product-category evidence format.
 - Strongest current row-fit evidence: cow-milk formula concentration ranges from China, Brazil, the UK, Canada, and pooled EU formula baskets.
-- Main gap: the current corpus still does not provide a validated Step 0F CC Source Data Package with a selected Path A p90 or Path B LOQ value for every analyte.
+- Main gap: the current corpus still does not provide enough comparable product-level occurrence data for every analyte.
 - Next ingest target: datasets that distinguish powder from ready-to-feed liquid, non-soy from soy-based formula, and individual-product concentrations from pooled baskets or exposure estimates.
 
 ## Source Evidence Inventory
 
 <!-- audience: regulator, educator, app -->
 
-This table lists what each source actually reports. It does not calculate the HMT&C p90. Max/p100 here means the highest value reported within that source's stated scope, not the aggregate clean-platform p100 for the certification row.
+This table lists what each source actually reports. Highest values are source-scope observations, not public certification limits or cross-source standards.
 
-| Metal | Evidence scope | N | Statistic type | Reported values | Max / p100 in source scope | Row-fit and CC-use note | Citation |
+| Metal | Evidence scope | N | Statistic type | Reported values | Highest value in source scope | Evidence note | Citation |
 | --- | --- | ---: | --- | --- | ---: | --- | --- |
-| [[metals/lead|Pb]] | China cow milk-based formulas | 93 | mean and range | mean 2.03 ppb; range 0.36 to 5.75 ppb | 5.75 ppb | Direct cow-milk formula evidence; eligible as supporting occurrence evidence, but not a validated aggregate p90 by itself. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
-| [[metals/cadmium|Cd]] | China cow milk-based formulas | 93 | mean and range | mean 0.98 ppb; range 0.13 to 3.58 ppb | 3.58 ppb | Direct cow-milk formula evidence; eligible as supporting occurrence evidence, but not a validated aggregate p90 by itself. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
+| [[metals/lead|Pb]] | China cow milk-based formulas | 93 | mean and range | mean 2.03 ppb; range 0.36 to 5.75 ppb | 5.75 ppb | Direct cow-milk formula evidence; useful as supporting occurrence evidence, but not a complete product distribution by itself. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
+| [[metals/cadmium|Cd]] | China cow milk-based formulas | 93 | mean and range | mean 0.98 ppb; range 0.13 to 3.58 ppb | 3.58 ppb | Direct cow-milk formula evidence; useful as supporting occurrence evidence, but not a complete product distribution by itself. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
 | [[metals/arsenic-total|tAs]] | China cow milk-based formulas | 93 | mean and range | mean 3.32 ppb; range 0.89 to 7.87 ppb | 7.87 ppb | Direct cow-milk formula evidence; total arsenic only, not iAs. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
-| [[metals/chromium|Cr]] | China cow milk-based formulas | 93 | mean and range | mean 27.38 ppb; range 2.51 to 83.80 ppb | 83.80 ppb | Total chromium only; excluded from Cr-VI CC math unless a source speciates Cr-VI. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
-| [[metals/aluminum|Al]] | Brazil cow-milk phase 1/2 formulas | not extracted | range | 432 to 1241 ppb | 1241 ppb | Direct cow-milk powder evidence; supports aggregate occurrence review but does not establish p90 by itself. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
+| [[metals/chromium|Cr]] | China cow milk-based formulas | 93 | mean and range | mean 27.38 ppb; range 2.51 to 83.80 ppb | 83.80 ppb | Total chromium only; it should not be interpreted as Cr-VI unless a source speciates Cr-VI. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
+| [[metals/aluminum|Al]] | Brazil cow-milk phase 1/2 formulas | not extracted | range | 432 to 1241 ppb | 1241 ppb | Direct cow-milk powder evidence; supports occurrence review but does not establish a full distribution by itself. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
 | [[metals/arsenic-total|tAs]] | Brazil cow-milk phase 1/2 formulas | not extracted | range | 12 to 34 ppb | 34 ppb | Direct cow-milk powder evidence; total arsenic only. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
-| [[metals/tin|Sn]] | Brazil cow-milk phase 1/2 formulas | not extracted | range | 7 to 95 ppb | 95 ppb | Direct cow-milk powder evidence; supports aggregate occurrence review but does not establish p90 by itself. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
+| [[metals/tin|Sn]] | Brazil cow-milk phase 1/2 formulas | not extracted | range | 7 to 95 ppb | 95 ppb | Direct cow-milk powder evidence; supports occurrence review but does not establish a full distribution by itself. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
 | [[metals/mercury-total|tHg]] | Brazil cow-milk phase 1/2 formulas | not extracted | non-detect / below LOQ | not detected or below LOQ | below LOQ | Total mercury only; MeHg not measured. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
-| [[metals/arsenic-inorganic|iAs]] | UK dry first/hungrier milk, as sold | 47 formula total; category n not reported | category average/range | 0.7 to 1.8 ppb | 1.8 ppb | UK category value; supports context but not an individual-product p90. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
-| [[metals/cadmium|Cd]] | UK dry first/hungrier milk, as sold | 47 formula total; category n not reported | category average/range | 3 to 4 ppb | 4 ppb | UK category value; supports context but not an individual-product p90. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
-| [[metals/lead|Pb]] | UK dry first/hungrier milk, as sold | 47 formula total; category n not reported | category average/range | 1 to 4 ppb | 4 ppb | UK category value; supports context but not an individual-product p90. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
-| [[metals/nickel|Ni]] | UK dry first/hungrier milk, as sold | 47 formula total; category n not reported | category average/range | 18 to 54 ppb | 54 ppb | UK category value; supports nickel context but not an individual-product p90. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
+| [[metals/arsenic-inorganic|iAs]] | UK dry first/hungrier milk, as sold | 47 formula total; category n not reported | category average/range | 0.7 to 1.8 ppb | 1.8 ppb | UK category value; supports context but not an individual-product distribution. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
+| [[metals/cadmium|Cd]] | UK dry first/hungrier milk, as sold | 47 formula total; category n not reported | category average/range | 3 to 4 ppb | 4 ppb | UK category value; supports context but not an individual-product distribution. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
+| [[metals/lead|Pb]] | UK dry first/hungrier milk, as sold | 47 formula total; category n not reported | category average/range | 1 to 4 ppb | 4 ppb | UK category value; supports context but not an individual-product distribution. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
+| [[metals/nickel|Ni]] | UK dry first/hungrier milk, as sold | 47 formula total; category n not reported | category average/range | 18 to 54 ppb | 54 ppb | UK category value; supports nickel context but not an individual-product distribution. | [[sources/fsa2016-infant-food-formula-metals-survey|3]] |
 | [[metals/cadmium|Cd]] | Canada milk-base infant formula powder, historical | 17 | median and range | median 0.6 ppb; range not detected to 4.3 ppb | 4.3 ppb | Direct milk-base powder evidence, but historical Canadian data. | [[sources/dabeka1987-canada-infant-formula-lead-cadmium|4]] |
 | [[metals/cadmium|Cd]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 3.3 to 4.5 ppb | 4.5 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
 | [[metals/lead|Pb]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 8.2 to 43.9 ppb | 43.9 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
 | [[metals/arsenic-total|tAs]] | Infant formulas without organic brown rice syrup | 15 | range | 2 to 12 ppb | 12 ppb | Broad infant-formula evidence; powder/non-soy/soy not split. | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|6]] |
-| [[metals/nickel|Ni]] | Peshawar infant formula group | not extracted from 46 total milk/formula samples | mean and range | mean 27.7 ppb; range 22 to 32 ppb | 32 ppb | Formula powder context; not soy-resolved and not a p90 distribution by itself. | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|13]] |
-| [[metals/nickel|Ni]] | Pakistan infant formula milk brands | 13 brands | range | below 1 to 50,903 ppb | 50,903 ppb | High source-scope maximum requiring PDF image QA before standards math; not soy-resolved and not a p90 distribution by itself. | [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|14]] |
+| [[metals/nickel|Ni]] | Peshawar infant formula group | not extracted from 46 total milk/formula samples | mean and range | mean 27.7 ppb; range 22 to 32 ppb | 32 ppb | Formula powder context; not soy-resolved and not a full distribution by itself. | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|13]] |
+| [[metals/nickel|Ni]] | Pakistan infant formula milk brands | 13 brands | range | below 1 to 50,903 ppb | 50,903 ppb | High source-scope maximum requiring PDF image QA before standards use; not soy-resolved and not a full distribution by itself. | [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|14]] |
 
-## Extracted Formula Concentration Rows
+## Structured Concentration Rows
 
 <!-- audience: regulator, educator, app -->
 
-The FDA 2026 special survey is the first source in this row that gives a reconstructable product-label subset with p50, p90, and p100 values. These values are expressed as prepared for feeding, so they should not be silently pooled with dry-powder-as-sold ppb values. The extraction below uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; the full sample-level extraction is in `data/evidence/category1_formula_special_survey_samples.csv`, with summary rows in `data/evidence/category1_formula_concentration_summary.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+The FDA 2026 special survey is the first source in this row that gives a reconstructable product-label subset for several metals. These values are expressed as prepared for feeding, so they should not be silently pooled with dry-powder-as-sold ppb values. The extraction below is included as a traceability appendix, not as a public standard. The full sample-level extraction is in `data/evidence/category1_formula_special_survey_samples.csv`, with summary rows in `data/evidence/category1_formula_concentration_summary.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
 | Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
 | --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
@@ -111,59 +111,38 @@ The FDA 2026 special survey is the first source in this row that gives a reconst
 | [[metals/cadmium|Cd]] | 230 | 145 | 85 | prepared for feeding; <LOD=0 lower-bound | 0 | 0.2 | 0.4 | 0.5 | 1.3 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
 | [[metals/mercury-total|tHg]] | 230 | 3 | 227 | prepared for feeding; <LOD=0 lower-bound | 0 | 0 | 0 | 0 | 0.3 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
 
-The Digest formula papers add useful source-scope rows, but they mostly report means, medians, ranges, or maxima rather than p90. These rows support the evidence pool and p100/max context; they do not by themselves select a final aggregate p90.
+The Digest formula papers add useful source-scope rows, but they mostly report means, medians, ranges, or maxima rather than full product-level distributions. These rows support the evidence pool and show high-end source context; they do not by themselves set public limits.
 
-| Source | Metal | N | Basis | Mean | Median / p50 | Max / p100 | Use note |
+| Source | Metal | N | Basis | Mean | Median / p50 | Highest value | Use note |
 | --- | --- | ---: | --- | ---: | ---: | ---: | --- |
-| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 57 | as consumed | 177 | 44 | 1004 | Source reports summary statistics but not p90. |
-| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 57 | as consumed | 0.17 | 0.06 | 1.21 | Source reports summary statistics but not p90. |
-| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 57 | as consumed | 0.65 | 0.34 | 3.46 | Source reports summary statistics but not p90. |
-| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/aluminum|Al]] | 13 milk-based rows in pasted Table 3 | dried powder | 1018.5 |  | 1520 | Direct milk-based formula context; source text has subgroup-count conflict, no p90. |
-| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/cadmium|Cd]] | 13 milk-based rows in pasted Table 3 | dried powder | 7.86 |  | 12.3 | Direct milk-based formula context; source text has subgroup-count conflict, no p90. |
-| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 13 milk-based rows in pasted Table 3 | dried powder | 64.2 |  | 97 | Direct milk-based formula context; source text has subgroup-count conflict, no p90. |
-| [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 7 | prepared estimate from powder | 446.8 |  | 592.4 | Source reports product means/ranges and prepared estimates; non-soy powder products are grouped, no p90. |
-| [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 18 | prepared estimate from powder | 194.8 |  | 411 | Source reports product means and prepared estimates; non-soy powder products are grouped, no p90. |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/nickel|Ni]] | 11 formulas; 22 packs | powder as sold | 61.8 |  | 98 | Broad powdered-formula context; soy status not separated, no p90. |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/cadmium|Cd]] | 11 formulas; 22 packs | powder as sold | 2 |  | 6.2 | Broad powdered-formula context; soy status not separated, no p90. |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/lead|Pb]] | 11 formulas; 22 packs | powder as sold | 2 |  | 2.8 | Broad powdered-formula context; soy status not separated, no p90. |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/tin|Sn]] | 11 formulas; 22 packs | powder as sold | 20 |  | 96.9 | Calculated from Table 4 formula-level means; broad powdered-formula context, no p90. |
-| [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | [[metals/nickel|Ni]] | not extracted | as sold or source-reported | 27.7 |  | 32 | Infant-formula group mean/range; source does not report p90 or soy status. |
-| [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]] | [[metals/nickel|Ni]] | 13 brands | as sold or source-reported |  |  | 50903 | Range-only source-scope maximum; high value needs PDF image QA before standards math. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 57 | as consumed | 177 | 44 | 1004 | Source reports summary statistics, not a full distribution. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 57 | as consumed | 0.17 | 0.06 | 1.21 | Source reports summary statistics, not a full distribution. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 57 | as consumed | 0.65 | 0.34 | 3.46 | Source reports summary statistics, not a full distribution. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/aluminum|Al]] | 13 milk-based rows in pasted Table 3 | dried powder | 1018.5 |  | 1520 | Direct milk-based formula context; source text has subgroup-count conflict. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/cadmium|Cd]] | 13 milk-based rows in pasted Table 3 | dried powder | 7.86 |  | 12.3 | Direct milk-based formula context; source text has subgroup-count conflict. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 13 milk-based rows in pasted Table 3 | dried powder | 64.2 |  | 97 | Direct milk-based formula context; source text has subgroup-count conflict. |
+| [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 7 | prepared estimate from powder | 446.8 |  | 592.4 | Source reports product means/ranges and prepared estimates; non-soy powder products are grouped. |
+| [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 18 | prepared estimate from powder | 194.8 |  | 411 | Source reports product means and prepared estimates; non-soy powder products are grouped. |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/nickel|Ni]] | 11 formulas; 22 packs | powder as sold | 61.8 |  | 98 | Broad powdered-formula context; soy status not separated. |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/cadmium|Cd]] | 11 formulas; 22 packs | powder as sold | 2 |  | 6.2 | Broad powdered-formula context; soy status not separated. |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/lead|Pb]] | 11 formulas; 22 packs | powder as sold | 2 |  | 2.8 | Broad powdered-formula context; soy status not separated. |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/tin|Sn]] | 11 formulas; 22 packs | powder as sold | 20 |  | 96.9 | Calculated from Table 4 formula-level means; broad powdered-formula context. |
+| [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | [[metals/nickel|Ni]] | not extracted | as sold or source-reported | 27.7 |  | 32 | Infant-formula group mean/range; source does not report soy status. |
+| [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]] | [[metals/nickel|Ni]] | 13 brands | as sold or source-reported |  |  | 50903 | Range-only source-scope maximum; high value needs PDF image QA before standards use. |
 
-## CC Candidate Summary
+## Internal Standards Boundary
 
 <!-- audience: regulator, educator, app -->
 
-This is the standards-facing summary for Step 0F logic. The p90 belongs here only after a clean-platform distribution has been selected or aggregated. The FDA 2026 special survey now provides a lower-bound prepared-for-feeding p90 subset for tAs, Pb, Cd, and tHg, but those values still need review for clean-platform inclusion, basis matching, non-detect handling, and 95% confidence before they become a validated CC Source Data Package.
+This public page stops at evidence inventory and traceability. Percentile calculations, clean/dirty comparator selection, LOQ fallback decisions, confidence review, regulatory-ceiling adjudication, and final standards decisions are tracked in the staff standards workbench rather than published as public page content.
 
-| HMT&C analyte | Path A p90 status | Current CC candidate status | What is still needed |
-| --- | --- | --- | --- |
-| [[metals/lead|Pb]] | Not selected. Current sources include ranges, category values, historical data, and pooled baskets, but no validated clean-platform aggregate p90. | Pending Step 0F. Path B may apply if no qualifying p90 dataset is found. | Qualifying clean-platform occurrence distribution for non-soy powdered formula with documented jurisdiction composition and 95% confidence, or validated LOQ for Path B. |
-| [[metals/arsenic-total|tAs]] | Not selected. Several total arsenic ranges exist, but no validated aggregate p90. | Pending Step 0F. | Same row-fit occurrence distribution or validated LOQ. |
-| [[metals/cadmium|Cd]] | Not selected. Multiple supporting sources exist, but pooled, historical, basis-mismatched, and mixed-jurisdiction scopes must be adjudicated before Path A. | Pending Step 0F. | Inclusion/exclusion decision and aggregate clean-platform distribution, or validated LOQ. |
-| [[metals/mercury-methyl|MeHg]] | No row-fit product concentration distribution identified. | Pending Step 0F. Likely Path B unless new occurrence data is found. | MeHg-specific formula method LOQ or qualifying occurrence data. |
-| [[metals/mercury-total|tHg]] | No validated aggregate p90; one source reports non-detect/below LOQ for tHg. | Pending Step 0F. | tHg occurrence distribution or validated LOQ. |
-| [[metals/arsenic-inorganic|iAs]] | No validated aggregate p90; UK category values exist. | Pending Step 0F. | iAs-specific formula occurrence distribution or validated LOQ. |
-| [[metals/nickel|Ni]] | No validated aggregate p90; UK category values and additional formula context exist. | Pending Step 0F. | Ni formula occurrence distribution with individual-product values, or validated LOQ. |
-| [[metals/aluminum|Al]] | No validated aggregate p90; Brazil range exists. | Pending Step 0F. | Al formula occurrence distribution or validated LOQ. |
-| [[metals/chromium-hexavalent|Cr-VI]] | No Cr-VI row-fit evidence identified; total Cr values are not Cr-VI. | Pending Step 0F. Likely Path B unless Cr-VI data is found. | Cr-VI-specific occurrence data or validated LOQ. |
-| [[metals/tin|Sn]] | No validated aggregate p90; Brazil range exists. | Pending Step 0F. | Sn formula occurrence distribution or validated LOQ. |
-
-## How Standards Math Uses This Page
-
-<!-- audience: regulator, educator, consumer, app -->
-
-For lower-is-better metals, p100/max in a source evidence row is the highest observed value inside that source's scoped pool. It is useful because it shows the upper edge of the reported evidence, but it is not by itself the HMT&C clean-counterpart value.
-
-p90 is the cutoff at which roughly 90 percent of the selected clean-platform pool would pass. Under HMT&C methodology, that value is selected during Step 0F as the Path A CC candidate when adequate occurrence data exists. If adequate occurrence data does not exist, the cell uses Path B, defined as 5 times the analytical LOQ for that analyte and matrix.
-
-The current page should therefore be read as an evidence inventory, not as a completed limit table. It identifies sources that may feed the CC Source Data Package, but the aggregate p90, Path B LOQ fallback, tightening formula, regulatory floor check, and final published HMT&C limit are separate standards-build outputs.
+The values above should therefore be read as source-reported or structured evidence context. They are not HMT&C candidate standards, final limits, or brand pass/fail criteria.
 
 ## Evidence Used For This Row
 
 <!-- audience: regulator, educator, app -->
 
-The direct row-fit evidence is strongest when a study measures cow-milk or milk-base powdered formula as a product concentration. Chung 2021, Almeida 2022, FSA 2016, Dabeka 1987, and Pandelova 2012 are therefore more useful for this row than broad baby-food papers, but each still has a limitation that prevents it from becoming a final HMT&C threshold distribution.
+The direct row-fit evidence is strongest when a study measures cow-milk or milk-base powdered formula as a product concentration. Chung 2021, Almeida 2022, FSA 2016, Dabeka 1987, and Pandelova 2012 are therefore more useful for this row than broad baby-food papers, but each still has limitations that require staff review before standards use.
 
 The largest interpretive issue is scope. China-market, Brazil-market, UK-market, Canada-historical, EU-pooled-basket, and U.S. prepared-for-feeding values should not be silently merged without basis matching, row-fit review, and jurisdiction metadata. They can show what has been observed in formula, and they may contribute to an aggregate evidence pool when the standards workflow can document comparability and 95% confidence.
 
@@ -171,9 +150,9 @@ The largest interpretive issue is scope. China-market, Brazil-market, UK-market,
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Gardener 2019 is useful because it reports percentile-style infant exposure estimates from formula consumption. It is not a product concentration table and should not be used as ppb threshold evidence.
+Gardener 2019 is useful because it reports percentile-style infant exposure estimates from formula consumption. It is not a product concentration table and should not be used as ppb product-limit evidence.
 
-| Metal | Product or exposure scope | N | p50 | p75 | p90 | p95 | p100 / max | Unit | Threshold use | Citation |
+| Metal | Product or exposure scope | N | p50 | p75 | p90 | p95 | p100 / max | Unit | Interpretation use | Citation |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
 | [[metals/lead|Pb]] | Formula exposure estimate for 4-month-old infant consuming 31 oz/day | 91 | 0.00 | 0.43 | 0.78 | 1.06 | 2.68 | ug/day | Exposure context only, not ppb product concentration. | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food|7]] |
 | [[metals/cadmium|Cd]] | Formula exposure estimate for 4-month-old infant consuming 31 oz/day | 91 | 0.00 | 3.86 | 6.11 | 8.04 | 23.33 | ug/day | Exposure context only, not ppb product concentration. | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food|7]] |
@@ -182,7 +161,7 @@ Gardener 2019 is useful because it reports percentile-style infant exposure esti
 
 <!-- audience: regulator, educator, app -->
 
-Chekri 2019 reports French infant formula, follow-on formula, and growing-up milk values as consumed after preparation; it does not separate powder from ready-to-feed, soy from non-soy, or cow-milk from other formulas, so these rows support broad formula occurrence context rather than a row-specific p90. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]]
+Chekri 2019 reports French infant formula, follow-on formula, and growing-up milk values as consumed after preparation; it does not separate powder from ready-to-feed, soy from non-soy, or cow-milk from other formulas, so these rows support broad formula occurrence context rather than a row-specific product distribution. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]]
 
 | French TDS row | N | Basis | Al mean / max | tAs mean / max | Cd mean / max | Cr-total mean / max | Ni mean / max | Sn mean / max |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: |

@@ -17,7 +17,6 @@ const footerSections = [
     links: [
       ["Methodology", "/methodology"],
       ["Editorial Standards", "/editorial-standards"],
-      ["Lab Result Comparator", "/certification/lab-result-comparator"],
       ["Testing", "/testing"],
       ["Update History", "/log"],
       ["Contact", "/contact"],
