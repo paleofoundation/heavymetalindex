@@ -14,7 +14,7 @@ contamination_profile:
 drivers: [soil-uptake, acid-soils, cultivar, protein-isolation, fortification, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[products/infant-formula-powder-soy-based]]"]
-used_in_products: ["[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
+used_in_products: ["[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/plant-milks-soy-based]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
 ---
@@ -27,9 +27,14 @@ _Stub page. Kazi et al. 2009 reports higher average Al, Cd, and Pb in soy-based 
 
 _Pending soy-specific occurrence extraction. Current Category 1 evidence is filed under [[products/infant-formula-powder-soy-based]] and should not be generalized to all soy ingredients without additional sources._
 
+## Related finished-product evidence
+
+[[sources/milani2023-trace-elements-soy-based-beverages]] reports finished soy-based beverage values. These values belong on [[products/plant-milks-soy-based]], not in this ingredient profile, unless a later ingest separates soy ingredient values from beverage matrix values.
+
 ## Sources
 
 - [[sources/burrell2010-aluminium-in-infant-formulas]] — soy-based infant formula powder aluminum value and discussion of soybean accumulation as a possible driver.
 - [[sources/chuchu2013-aluminium-in-infant-formulas]] — two soy-based infant formula powder aluminum values and aluminum-based packaging discussion.
 - [[sources/kazi2009-toxic-elements-in-infant-formulae]] — Pakistan-market soy-based infant formula Al, Cd, and Pb comparison against milk-based formula.
 - [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] — Canada-market soy-based formula Al, Cd, and Pb rows by formula format.
+- [[sources/milani2023-trace-elements-soy-based-beverages]] — finished soy-based beverage occurrence evidence routed to the soy plant-milk product page.

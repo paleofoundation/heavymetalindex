@@ -49,3 +49,13 @@ These pages are graph anchors for sources that report a broader product category
 - [[products/infant-formula-concentrated-liquid-soy-based|Infant formula, concentrated liquid (soy-based)]]
 - [[products/oral-electrolyte-solutions|Oral electrolyte solutions]]
 - [[products/glucose-solutions|Glucose solutions]]
+
+## Category 5 pilot: Beverages
+
+These pages carry the first Category 5 beverage comparison layer. Plant-milk rows separate finished-product evidence from ingredient-only values and place regulatory context next to actual field findings where the matrix, species, and unit basis match.
+
+- [[products/category-5-beverages]]
+- [[products/plant-milks-non-soy-non-rice]]
+- [[products/plant-milks-soy-based]]
+- [[products/plant-milks-rice-based]]
+- [[products/regulatory-crosswalk-field-findings]]

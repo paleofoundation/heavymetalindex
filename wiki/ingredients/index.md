@@ -29,3 +29,11 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/vegetables]]
 - [[ingredients/wheat]]
 - [[ingredients/wild-mushrooms]]
+
+## Category 5 beverage ingredients
+
+- [[ingredients/plant-milk]]
+- [[ingredients/soy]]
+- [[ingredients/almond]]
+- [[ingredients/oat]]
+- [[ingredients/coconut]]

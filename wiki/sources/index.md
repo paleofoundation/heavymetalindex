@@ -20,3 +20,9 @@ Each source cited in the Heavy Metal Index has its own page. Source pages record
 </div>
 
 The folder list below is the public source catalog. For faster lookup, use search with an agency name, metal, product category, or author/year.
+
+## Category 5 Beverages
+
+- [[sources/milani2023-trace-elements-soy-based-beverages]]
+- [[sources/damato2026-inorganic-arsenic-rice-based-beverages]]
+- [[sources/marques2021-trace-elements-milks-plant-based-drinks]]
