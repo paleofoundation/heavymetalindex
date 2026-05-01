@@ -13,7 +13,7 @@ raw_path: "raw/markdown/FM_4054615/FM_4054615.md"
 access_url: https://doi.org/10.1155/2014/715845
 raw_sha256: "8d653db3445cce661e72fdec7e4a775317e0592ef9bc9e0b0a3cc7bd97cb99c7"
 metals: [Pb, Cd, Cr, Ni, Ca, Mg, Cu, Zn, Fe, Mn]
-products: [infant-formula-powder-non-soy, powdered-milk, liquid-milk]
+products: [infant-formula-powder, powdered-milk, liquid-milk]
 matrices: [infant-formula, dried-milk, fresh-milk, processed-milk]
 jurisdictions: [PK]
 sample_n: 46
@@ -25,7 +25,7 @@ updated: 2026-04-29
 
 ## TL;DR
 
-This peer-reviewed study measured essential and toxic metals in dried infant formula, powdered milk, fresh milk, and processed milk collected from markets in Peshawar, Pakistan. It is useful for Category 1 because Table 2 reports nickel in the infant-formula group, but it is not soy-resolved and does not provide an individual-product p90 distribution.
+This peer-reviewed study measured essential and toxic metals in dried infant formula, powdered milk, fresh milk, and processed milk collected from markets in Peshawar, Pakistan. It is useful as broad formula-powder context because Table 2 reports nickel in the infant-formula group, but it is not cow-milk/non-soy resolved and does not provide an individual-product p90 distribution.
 
 ## Key Numbers
 
@@ -46,7 +46,7 @@ The infant-formula subset is not separated by soy versus non-soy formulation, an
 
 ## Implications
 
-Certification: Useful supporting occurrence evidence for nickel in powdered infant formula, especially for source-scope maximum context. It does not establish an HMT&C p90.
+Certification: Useful supporting context for nickel in powdered infant formula, especially for source-scope maximum context. It is not row-specific evidence for cow-milk/non-soy formula and does not establish an HMT&C p90.
 
 Courses: Useful example of why ppm-to-ppb normalization and market-scope caveats matter.
 
@@ -56,4 +56,4 @@ Microbiome: No direct microbiome endpoint.
 
 ## Wiki Pages Updated On Ingest
 
-- [[products/infant-formula-powder-non-soy]]
+- [[products/infant-formula-powder]]

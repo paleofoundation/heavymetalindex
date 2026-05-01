@@ -13,7 +13,7 @@ raw_path: "raw/markdown/FM_5355587/FM_5355587.md"
 access_url: https://doi.org/10.5851/kosfa.2017.37.1.79
 raw_sha256: "9799e278fa0263b8c26513174f5111e2245b4248ef4d63916da601a2d9210363"
 metals: [Ni, Pb, Cd, Fe, Zn]
-products: [infant-formula-powder-non-soy]
+products: [infant-formula-powder]
 matrices: [infant-formula-milk-powder]
 jurisdictions: [PK]
 sample_n: 13
@@ -25,7 +25,7 @@ updated: 2026-04-29
 
 ## TL;DR
 
-This peer-reviewed infant formula milk study measured nickel, lead, cadmium, iron, zinc, and aflatoxin M1 in 13 formula brands purchased in Pakistani markets. It is directly relevant to powdered infant-formula nickel evidence, but it does not distinguish soy versus non-soy formulas and reports brand-level summary ranges rather than a reconstructable percentile distribution.
+This peer-reviewed infant formula milk study measured nickel, lead, cadmium, iron, zinc, and aflatoxin M1 in 13 formula brands purchased in Pakistani markets. It is relevant to broad powdered infant-formula nickel context, but it does not distinguish cow-milk, non-soy, or soy-based formulas and reports brand-level summary ranges rather than a reconstructable percentile distribution.
 
 ## Key Numbers
 
@@ -45,7 +45,7 @@ The Markdown extraction of Table 4 is partially degraded, so the source page ret
 
 ## Implications
 
-Certification: Useful warning-range evidence for nickel in infant formula milk brands. It is not enough by itself to select an aggregate p90 with 95% confidence.
+Certification: Useful warning-range context for nickel in infant formula milk brands. It is not row-specific evidence for cow-milk/non-soy formula and is not enough by itself to select an aggregate p90 with 95% confidence.
 
 Courses: Useful example of why outlier/high-maximum sources need image verification before entering standards math.
 
@@ -55,4 +55,4 @@ Microbiome: No direct microbiome endpoint.
 
 ## Wiki Pages Updated On Ingest
 
-- [[products/infant-formula-powder-non-soy]]
+- [[products/infant-formula-powder]]

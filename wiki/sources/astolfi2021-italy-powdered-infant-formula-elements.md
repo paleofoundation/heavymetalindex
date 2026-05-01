@@ -14,8 +14,8 @@ raw_path: "raw/Digest/ijerph-18-05073.pdf"
 access_url: https://doi.org/10.3390/ijerph18105073
 raw_sha256: "309454f441e895873bcba78389a16bf4dce4ac6919cf48d18bcd2028c78f0871"
 metals: [Al, tAs, Cd, Cr, Mn, Ni, Pb, Sn, Zn]
-products: [infant-formula-powder, infant-formula-powder-non-soy]
-ingredients: [infant-formula-ingredients, milk-and-dairy]
+products: [infant-formula-powder]
+ingredients: [infant-formula-ingredients]
 matrices: [powdered-formula]
 jurisdictions: [IT, EU]
 sample_n: 22
@@ -43,13 +43,13 @@ Values are for powdered formula as sold unless otherwise noted. Since the paper 
 
 | Evidence item | Category 1 fit | N | Basis | Reported value | Approximate ppb equivalent | Row-fit note |
 | --- | --- | ---: | --- | --- | ---: | --- |
-| Nickel mean implied by intake table | [[products/infant-formula-powder]]; context for [[products/infant-formula-powder-non-soy]] | 11 formulas; 22 packs | powder as sold | approximately 0.0618 ug/g | 61.8 ppb | Mean reconstructed from Table 7 intake math; no p90. |
-| Nickel highest formula mean | [[products/infant-formula-powder]]; context for [[products/infant-formula-powder-non-soy]] | 11 formulas; 22 packs | powder as sold | 0.098 ug/g | 98 ppb | Highest formula-level mean reported for formula 2; no p90. |
-| Cadmium mean implied by intake table | [[products/infant-formula-powder]]; context for [[products/infant-formula-powder-non-soy]] | 11 formulas; 22 packs | powder as sold | approximately 0.0020 ug/g | 2 ppb | Mean reconstructed from Table 7 intake math; no p90. |
-| Cadmium highest formula mean | [[products/infant-formula-powder]]; context for [[products/infant-formula-powder-non-soy]] | 11 formulas; 22 packs | powder as sold | 0.0062 ug/g | 6.2 ppb | Highest formula-level mean reported for formula 8; no p90. |
-| Lead mean implied by intake table | [[products/infant-formula-powder]]; context for [[products/infant-formula-powder-non-soy]] | 11 formulas; 22 packs | powder as sold | approximately 0.0020 ug/g | 2 ppb | Mean reconstructed from Table 7 intake math; no p90. |
-| Lead highest formula mean | [[products/infant-formula-powder]]; context for [[products/infant-formula-powder-non-soy]] | 11 formulas; 22 packs | powder as sold | 0.0028 ug/g | 2.8 ppb | Highest formula-level mean reported for formula 8; no p90. |
-| Tin formula means | [[products/infant-formula-powder]]; context for [[products/infant-formula-powder-non-soy]] | 11 formulas; 22 packs | powder as sold | formula mean range about 0.0003 to 0.0969 ug/g | about 0.3 to 96.9 ppb | Calculated from Table 4 formula-level means; no p90. |
+| Nickel mean implied by intake table | [[products/infant-formula-powder]] | 11 formulas; 22 packs | powder as sold | approximately 0.0618 ug/g | 61.8 ppb | Mean reconstructed from Table 7 intake math; no p90. |
+| Nickel highest formula mean | [[products/infant-formula-powder]] | 11 formulas; 22 packs | powder as sold | 0.098 ug/g | 98 ppb | Highest formula-level mean reported for formula 2; no p90. |
+| Cadmium mean implied by intake table | [[products/infant-formula-powder]] | 11 formulas; 22 packs | powder as sold | approximately 0.0020 ug/g | 2 ppb | Mean reconstructed from Table 7 intake math; no p90. |
+| Cadmium highest formula mean | [[products/infant-formula-powder]] | 11 formulas; 22 packs | powder as sold | 0.0062 ug/g | 6.2 ppb | Highest formula-level mean reported for formula 8; no p90. |
+| Lead mean implied by intake table | [[products/infant-formula-powder]] | 11 formulas; 22 packs | powder as sold | approximately 0.0020 ug/g | 2 ppb | Mean reconstructed from Table 7 intake math; no p90. |
+| Lead highest formula mean | [[products/infant-formula-powder]] | 11 formulas; 22 packs | powder as sold | 0.0028 ug/g | 2.8 ppb | Highest formula-level mean reported for formula 8; no p90. |
+| Tin formula means | [[products/infant-formula-powder]] | 11 formulas; 22 packs | powder as sold | formula mean range about 0.0003 to 0.0969 ug/g | about 0.3 to 96.9 ppb | Calculated from Table 4 formula-level means; no p90. |
 | Aluminum, total arsenic, total chromium | [[products/infant-formula-powder]] detection context | 11 formulas; 22 packs | powder as sold | excluded from subsequent analysis because >30 percent of values were below LOD | not summarized | Detection-limit context only; not an occurrence distribution. |
 
 ## Intake and risk rows
@@ -76,10 +76,8 @@ Microbiome: No direct microbiome endpoint.
 
 ## Wiki pages updated on ingest
 
-- [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-powder]]
 - [[ingredients/infant-formula-ingredients]]
-- [[ingredients/milk-and-dairy]]
 - [[metals/aluminum]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]

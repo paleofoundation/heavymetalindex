@@ -20,7 +20,19 @@ _Stub page. This base product node exists for sources that report powdered infan
 ## Current Source Links
 
 - [[sources/astolfi2021-italy-powdered-infant-formula-elements]] — Italian powdered infant formula survey; 11 formulas, 22 packs, 40 elements by ICP-MS.
+- [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] — Peshawar infant-formula nickel mean/range context; formula subgroup is not cow-milk/non-soy resolved.
+- [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]] — Pakistan infant formula milk brand nickel range context; formula brands are not cow-milk/non-soy resolved.
 
 ## Row Mapping
 
 Use this page when a source supports powdered infant formula generally but does not provide enough information to map cleanly to non-soy or soy-based subrows. Do not compute p90 values on this base page; move row-fit values to the appropriate HMTc row only when soy status, matrix basis, and statistic type are clear.
+
+## Broad Formula Context
+
+These sources can inform retrieval priorities and source-scope context, but they should not appear as direct evidence on [[products/infant-formula-powder-non-soy]] or [[products/infant-formula-powder-soy-based]] until the original data can classify the formula type.
+
+| Source | What it contributes | Why it stays on the base page |
+| --- | --- | --- |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | Powdered infant formula metals from Italy, including Ni, Cd, Pb, and Sn summaries. | Powder format is clear, but soy/non-soy status is not separated in the extracted text. |
+| [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | Peshawar infant-formula nickel mean and range. | Infant-formula subgroup is not cow-milk/non-soy resolved. |
+| [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]] | Pakistan infant formula milk brand nickel range and high source-scope maximum. | Formula brands are not cow-milk/non-soy resolved, and the high nickel maximum still needs PDF image QA. |

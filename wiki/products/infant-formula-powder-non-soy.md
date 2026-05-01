@@ -29,7 +29,7 @@ cc_relationship:
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
 updated: 2026-04-29
-sources: 17
+sources: 15
 ---
 
 # Infant Formula, Powder (Non-Soy)
@@ -95,8 +95,6 @@ This table lists what each source actually reports. Highest values are source-sc
 | [[metals/cadmium|Cd]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 3.3 to 4.5 ppb | 4.5 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
 | [[metals/lead|Pb]] | EU milk-formula pooled baskets | 42 formula products pooled into baskets | pooled basket values | milk formula baskets 8.2 to 43.9 ppb | 43.9 ppb | Pooled baskets are contextual; they cannot produce individual-product percentiles. | [[sources/pandelova2012-eu-baby-food-formula-elements|5]] |
 | [[metals/arsenic-total|tAs]] | Infant formulas without organic brown rice syrup | 15 | range | 2 to 12 ppb | 12 ppb | Broad infant-formula evidence; powder/non-soy/soy not split. | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|6]] |
-| [[metals/nickel|Ni]] | Peshawar infant formula group | not extracted from 46 total milk/formula samples | mean and range | mean 27.7 ppb; range 22 to 32 ppb | 32 ppb | Formula powder context; not soy-resolved and not a full distribution by itself. | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|13]] |
-| [[metals/nickel|Ni]] | Pakistan infant formula milk brands | 13 brands | range | below 1 to 50,903 ppb | 50,903 ppb | High source-scope maximum requiring PDF image QA before standards use; not soy-resolved and not a full distribution by itself. | [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|14]] |
 
 ## Structured Concentration Rows
 
@@ -123,12 +121,6 @@ The Digest formula papers add useful source-scope rows, but they mostly report m
 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 13 milk-based rows in pasted Table 3 | dried powder | 64.2 |  | 97 | Direct milk-based formula context; source text has subgroup-count conflict. |
 | [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 7 | prepared estimate from powder | 446.8 |  | 592.4 | Source reports product means/ranges and prepared estimates; non-soy powder products are grouped. |
 | [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 18 | prepared estimate from powder | 194.8 |  | 411 | Source reports product means and prepared estimates; non-soy powder products are grouped. |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/nickel|Ni]] | 11 formulas; 22 packs | powder as sold | 61.8 |  | 98 | Broad powdered-formula context; soy status not separated. |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/cadmium|Cd]] | 11 formulas; 22 packs | powder as sold | 2 |  | 6.2 | Broad powdered-formula context; soy status not separated. |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/lead|Pb]] | 11 formulas; 22 packs | powder as sold | 2 |  | 2.8 | Broad powdered-formula context; soy status not separated. |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | [[metals/tin|Sn]] | 11 formulas; 22 packs | powder as sold | 20 |  | 96.9 | Calculated from Table 4 formula-level means; broad powdered-formula context. |
-| [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | [[metals/nickel|Ni]] | not extracted | as sold or source-reported | 27.7 |  | 32 | Infant-formula group mean/range; source does not report soy status. |
-| [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]] | [[metals/nickel|Ni]] | 13 brands | as sold or source-reported |  |  | 50903 | Range-only source-scope maximum; high value needs PDF image QA before standards use. |
 
 ## Internal Standards Boundary
 
@@ -227,8 +219,6 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 10. [[sources/meli2024-chemical-characterization-baby-food-italy|Meli 2024]]: European baby-food and powdered-milk analytical context.
 11. [[sources/spungen2024-fda-tds-infant-lead-cadmium|Spungen 2024]]: FDA Total Diet Study infant lead and cadmium context.
 12. [[sources/efsa-cadmium-contam-2009|EFSA 2009]]: cadmium toxicology and regulatory context.
-13. [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|Lutfullah 2014]]: Peshawar infant-formula and milk nickel mean/range context.
-14. [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|Akhtar 2017]]: Pakistan infant formula milk brand nickel range context.
 
 ## Sources
 
@@ -247,5 +237,3 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 - [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]]
 - [[sources/kazi2009-toxic-elements-in-infant-formulae]]
-- [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]]
-- [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin]]
