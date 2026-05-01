@@ -92,6 +92,10 @@ _Some metals not listed in this section because no ingested source yet covers th
 - EU Regulation (EU) 2023/915 Cd ML for rice (pending ingest).
 - [[regulations/fda-closer-to-zero]] — FDA CTZ inorganic arsenic action level of 100 ppb in infant rice cereal is adjacent but not a cadmium rule.
 
+## Related finished-product evidence
+
+[[sources/damato2026-inorganic-arsenic-rice-based-beverages]] reports inorganic arsenic in finished rice-based beverages. Those values belong on [[products/plant-milks-rice-based]], not in this ingredient profile, unless a later ingest separates rice ingredient values from beverage matrix values.
+
 ## Sources
 
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] — review-level rice/rice-mix baby-food signal for Pb and As.
