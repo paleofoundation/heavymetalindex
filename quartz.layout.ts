@@ -23,6 +23,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.ProductEvidenceSummary(),
     Component.BrandPreScreenTool(),
+    Component.SourceCitationPanel(),
     Component.TagList(),
   ],
   left: [

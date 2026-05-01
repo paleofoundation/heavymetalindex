@@ -5,13 +5,13 @@ title: "Use of Generalized Additive Model to Detect the Threshold of δ-Aminolev
 authors: [Huang CC, Yang CC, Liu TY, Dai CY, Wang CL, Chuang HY]
 year: 2020
 publication: "International Journal of Environmental Research and Public Health"
-doi: null
+doi: 10.3390/ijerph17165712
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: raw/reports/Biochem_Lead_Yeh_2020.pdf
 sha256: ad126fd95c8f8cbf200af6e0657383293f636172fd749865767ea5ea5ea3d995
 access_date: 2026-04-25
-access_url: null
+access_url: https://doi.org/10.3390/ijerph17165712
 license: public-redistribute
 metals: [Pb]
 ingredients: []

@@ -10,6 +10,7 @@ doi: "10.1155/2014/715845"
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/markdown/FM_4054615/FM_4054615.md"
+access_url: https://doi.org/10.1155/2014/715845
 raw_sha256: "8d653db3445cce661e72fdec7e4a775317e0592ef9bc9e0b0a3cc7bd97cb99c7"
 metals: [Pb, Cd, Cr, Ni, Ca, Mg, Cu, Zn, Fe, Mn]
 products: [infant-formula-powder-non-soy, powdered-milk, liquid-milk]

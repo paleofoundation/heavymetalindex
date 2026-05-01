@@ -5,9 +5,11 @@ title: "Human health risk assessment of arsenic, cadmium, lead, and mercury inge
 authors: [Parker GH, Gillie CE, Miller JV, Badger DE, Kreider ML]
 year: 2022
 publication: "Toxicology Reports"
+doi: 10.1016/j.toxrep.2022.02.001
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/markdown/FM_8850323/FM_8850323.md"
+access_url: https://doi.org/10.1016/j.toxrep.2022.02.001
 metals: [tAs, Cd, tHg, Pb]
 products: [fruit-purees, root-vegetable-purees, non-root-vegetable-purees, baby-cereals, mixed-meals]
 jurisdictions: [US]

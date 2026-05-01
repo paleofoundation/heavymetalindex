@@ -9,6 +9,7 @@ doi: 10.1371/journal.pone.0297158
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: raw/markdown/FM_10883532/FM_10883532.md
+access_url: https://doi.org/10.1371/journal.pone.0297158
 pdf_path: raw/studies/FM_10883532_Chemical_characterization_of_baby_food_consumed_in_Italy.pdf
 metals: [Al, tAs, Cd, tHg, Ni, Pb, Sn]
 ingredients: [powdered-milk, rice-cereal, fruit, fish, meat]

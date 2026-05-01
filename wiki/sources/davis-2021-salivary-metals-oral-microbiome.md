@@ -5,13 +5,13 @@ title: "Low levels of salivary metals, oral microbiome composition and dental de
 authors: [Davis E, Bakulski KM, Goodrich JM, Peterson KE, Marazita ML, Foxman B]
 year: 2021
 publication: "Scientific Reports"
-doi: null
+doi: 10.1038/s41598-020-71495-9
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: raw/studies/FM_7474081_Low_levels_of_salivary_metals_oral_microbiome_composition_an.pdf
 sha256: 33a7b7de28f73584989a99747e6101f67453360c60694b6b4cffab60572803bd
 access_date: 2026-04-25
-access_url: null
+access_url: https://doi.org/10.1038/s41598-020-71495-9
 license: public-redistribute
 metals: [Cd, Pb, Hg, Sb, As]
 ingredients: []

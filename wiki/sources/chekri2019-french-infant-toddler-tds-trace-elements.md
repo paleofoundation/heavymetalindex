@@ -6,9 +6,11 @@ title: "Trace element contents in foods from the first French Total Diet Study o
 authors: ["Rachida Chekri", "Emilie Le Calvez", "Julie Zinck", "Jean-Charles Leblanc", "Veronique Sirot", "Marion Hulin", "Laurent Noel", "Thierry Guerin"]
 year: 2019
 publication: "Journal of Food Composition and Analysis"
+doi: 10.1016/j.jfca.2019.02.002
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/Digest/1-s2.0-S0889157518301868-am.pdf"
+access_url: https://doi.org/10.1016/j.jfca.2019.02.002
 raw_sha256: "73f7f1c97d2462a96056d8081f52fee0f21d03dfab073b3f33141290cbad1200"
 metals: [Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V]
 products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, fruit-purees, fruit-juice-not-canned, non-root-vegetable-purees, root-vegetable-purees, meat-and-poultry-purees, fish-containing-baby-foods, mixed-meals-non-rice, mixed-meals-rice-containing]

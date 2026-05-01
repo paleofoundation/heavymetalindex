@@ -4,10 +4,12 @@ cite_key: chung2021-china-infant-formula-toxic-elements
 title: "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market"
 authors: [Chung S, et al.]
 year: 2021
-publication: "peer-reviewed article"
+publication: "Foods 9(12):1839"
+doi: 10.3390/foods9121839
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/studies/Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market.pdf"
+access_url: https://doi.org/10.3390/foods9121839
 metals: [Cr, tAs, Cd, Pb]
 products: [infant-formula]
 jurisdictions: [CN]

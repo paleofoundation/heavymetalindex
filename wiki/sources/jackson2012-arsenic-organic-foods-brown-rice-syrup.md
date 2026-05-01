@@ -9,6 +9,7 @@ doi: 10.1289/ehp.1104619
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: raw/markdown/FM_3346791/FM_3346791.md
+access_url: https://doi.org/10.1289/ehp.1104619
 metals: [tAs, iAs]
 ingredients: [organic-brown-rice-syrup, rice-syrup, formula-powder]
 products: [infant-formula, toddler-formula, rice-containing-products]

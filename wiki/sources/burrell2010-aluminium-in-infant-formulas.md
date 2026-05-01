@@ -11,6 +11,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: "raw/Digest/1471-2431-10-63.pdf"
+access_url: https://doi.org/10.1186/1471-2431-10-63
 raw_sha256: "3f79353a3f8c325ab6ae57a1b12ccaa3504176286228428bffbba261e3630279"
 metals: [Al]
 products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy]

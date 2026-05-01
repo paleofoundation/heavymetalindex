@@ -4,14 +4,14 @@ cite_key: tamagno-freeman-2025-pb-glutamate
 title: "Glutamate-Mediated Neural Alterations in Lead Exposure: Mechanisms, Pathways, and Phenotypes"
 authors: [Tamagno WA, Freeman JL]
 year: 2025
-publication: "Biomolecules (or comparable peer-reviewed venue, exact identification pending verification of journal title from full-text)"
-doi: null
+publication: "Toxics 13(7):519"
+doi: 10.3390/toxics13070519
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: raw/reports/Biochem_Lead_Amin_2025.pdf
 sha256: 8bd1b99525900e107c39a8b8109740d2b47ac1d4b6854b8cae407e69dbed1a03
 access_date: 2026-04-25
-access_url: null
+access_url: https://doi.org/10.3390/toxics13070519
 license: public-reference-only
 metals: [Pb]
 ingredients: []

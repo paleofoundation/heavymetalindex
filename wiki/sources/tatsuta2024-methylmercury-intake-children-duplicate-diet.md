@@ -9,6 +9,7 @@ doi: 10.1265/ehpm.24-00048
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: raw/markdown/FM_11111292/FM_11111292.md
+access_url: https://doi.org/10.1265/ehpm.24-00048
 pdf_path: raw/studies/FM_11111292_Dietary_intake_of_methylmercury_by_0-5_years_children_using.pdf
 metals: [tHg, MeHg]
 ingredients: [fish, formula-milk, baby-foods, toddler-meals]

@@ -13,10 +13,11 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "prebuild": "tsx tools/evidence/build-percentile-context.ts",
+    "prebuild": "tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs",
     "build": "./quartz/bootstrap-cli.mjs build -d wiki -o public",
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",
     "check": "tsc --noEmit",
+    "sources:doi-audit": "node tools/audit-source-dois.mjs",
     "evidence:category1": "tsx tools/evidence/build-category1-register.ts",
     "evidence:digest-baby-food": "tsx tools/evidence/extract-digest-baby-food-compliance.ts",
     "evidence:digest-formula": "tsx tools/evidence/extract-digest-formula.ts",

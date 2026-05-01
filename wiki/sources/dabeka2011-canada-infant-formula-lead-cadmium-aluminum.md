@@ -10,6 +10,7 @@ doi: "10.1080/19393210.2011.571795"
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/Digest/Lead  cadmium and aluminum in Canadian infant formulae  oral electrolytes and glucose solutions.pdf"
+access_url: https://doi.org/10.1080/19393210.2011.571795
 raw_sha256: "74567378af31b91944db749b291a2c3cbff0ac32721c95f2ee0cc3ecf20005b1"
 metals: [Pb, Cd, Al]
 products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based, infant-formula-concentrated-liquid-non-soy, infant-formula-concentrated-liquid-soy-based, oral-electrolyte-solutions, glucose-solutions]

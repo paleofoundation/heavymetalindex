@@ -4,6 +4,8 @@ source_id: dabeka1987-canada-infant-formula-lead-cadmium
 title: "Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada"
 authors: [Dabeka, McKenzie]
 year: 1987
+publication: "Journal of Association of Official Analytical Chemists 70(4):754-757"
+doi: 10.1093/jaoac/70.4.754
 source_type: study
 evidence_tier: B
 jurisdiction: Canada
@@ -11,6 +13,7 @@ metals: [Pb, Cd]
 products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, app]
 raw_path: raw/studies/dabeka1987.pdf
+access_url: https://doi.org/10.1093/jaoac/70.4.754
 updated: 2026-04-29
 ---
 

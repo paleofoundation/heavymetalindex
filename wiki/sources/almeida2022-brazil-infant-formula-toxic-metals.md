@@ -4,10 +4,12 @@ cite_key: almeida2022-brazil-infant-formula-toxic-metals
 title: "Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk"
 authors: [Almeida CC, Baiao DS, Rodrigues PA, Saint-Pierre TD, Hauser-Davis RA, Leandro KC]
 year: 2022
-publication: "peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health 19(18):11178"
+doi: 10.3390/ijerph191811178
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/studies/Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk.pdf"
+access_url: https://doi.org/10.3390/ijerph191811178
 metals: [Al, tAs, Cd, Sn, tHg, Pb, U]
 products: [infant-formula-powder]
 jurisdictions: [BR]

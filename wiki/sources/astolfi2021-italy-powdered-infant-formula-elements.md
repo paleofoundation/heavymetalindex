@@ -11,6 +11,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: "raw/Digest/ijerph-18-05073.pdf"
+access_url: https://doi.org/10.3390/ijerph18105073
 raw_sha256: "309454f441e895873bcba78389a16bf4dce4ac6919cf48d18bcd2028c78f0871"
 metals: [Al, tAs, Cd, Cr, Mn, Ni, Pb, Sn, Zn]
 products: [infant-formula-powder, infant-formula-powder-non-soy]

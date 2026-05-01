@@ -10,6 +10,7 @@ doi: "10.5851/kosfa.2017.37.1.79"
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/markdown/FM_5355587/FM_5355587.md"
+access_url: https://doi.org/10.5851/kosfa.2017.37.1.79
 raw_sha256: "9799e278fa0263b8c26513174f5111e2245b4248ef4d63916da601a2d9210363"
 metals: [Ni, Pb, Cd, Fe, Zn]
 products: [infant-formula-powder-non-soy]

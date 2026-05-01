@@ -5,9 +5,11 @@ title: "Infants' and young children's dietary exposures to lead and cadmium: FDA
 authors: [Spungen JH, et al.]
 year: 2024
 publication: "Food Additives & Contaminants: Part A"
+doi: 10.1080/19440049.2024.2396910
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/studies/Infants  and young children s dietary exposures to lead and cadmium  FDA total diet study 2018 2020.pdf"
+access_url: https://doi.org/10.1080/19440049.2024.2396910
 metals: [Pb, Cd]
 products: [processed-baby-food, infant-formula, root-vegetable-purees, teething-biscuits, grains-baking]
 jurisdictions: [US]

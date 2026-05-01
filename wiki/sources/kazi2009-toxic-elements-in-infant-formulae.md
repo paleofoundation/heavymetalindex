@@ -10,6 +10,7 @@ doi: "10.1016/j.fct.2009.03.025"
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/Digest/kazi2009.pdf"
+access_url: https://doi.org/10.1016/j.fct.2009.03.025
 raw_sha256: "4050aed075e19074191762e7219c9507c450e3caac8f7d390120ed9f2bee252f"
 metals: [Al, Cd, Pb]
 products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based]

@@ -5,9 +5,11 @@ title: "Lead and cadmium contamination in a large sample of United States infant
 authors: [Gardener H, Bowen J, Callan SP]
 year: 2019
 publication: "Science of the Total Environment"
+doi: 10.1016/j.scitotenv.2018.09.026
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/studies/gardener2019.pdf"
+access_url: https://doi.org/10.1016/j.scitotenv.2018.09.026
 metals: [Pb, Cd]
 products: [infant-formula, baby-cereals, toddler-formula, fruit-juice, jars-first-meals, pouches, snacks, kids-meals]
 jurisdictions: [US]

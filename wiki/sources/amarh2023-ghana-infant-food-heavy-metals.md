@@ -10,6 +10,7 @@ doi: "10.1016/j.heliyon.2023.e16225"
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/markdown/FM_10196951/FM_10196951.md"
+access_url: https://doi.org/10.1016/j.heliyon.2023.e16225
 raw_sha256: "13b4df3103222e2c0a1dc1dd51485129a9cc7f9619eb46abfd2b7d539e1dee57"
 metals: [tAs, Cd, Cr, tHg, Mn, Ni, Pb, Sb]
 products: [infant-foods, infant-formula]
