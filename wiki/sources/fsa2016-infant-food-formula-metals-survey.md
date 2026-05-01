@@ -8,6 +8,7 @@ publication: "UK Food Standards Agency report FS102048"
 source_type: government_report
 evidence_tier: A
 raw_path: "raw/studies/FS102048 Infants metal survey FSIS pdf version.pdf"
+access_url: "https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey"
 raw_digest_paths: ["raw/Digest/Multi-element Infant foods_FS102048 final report.pdf", "raw/Digest/Multi-element Infant foods_FS102048 final report (1).pdf"]
 raw_digest_sha256: "f6f0df342c46608839536a12ba549171a6954a23128d98ca9ee62cb53b18cbdc"
 sample_n_total: 297

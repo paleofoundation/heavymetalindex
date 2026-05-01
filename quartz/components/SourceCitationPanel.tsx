@@ -23,10 +23,6 @@ function doiUrl(doi: string): string {
   return doi.startsWith("http://") || doi.startsWith("https://") ? doi : `https://doi.org/${doi}`
 }
 
-function compactLabel(value: string | undefined, fallback = "Not recorded"): string {
-  return value ?? fallback
-}
-
 export default (() => {
   const SourceCitationPanel: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
     const frontmatter = fileData.frontmatter as Record<string, unknown> | undefined
@@ -42,34 +38,43 @@ export default (() => {
     const license = frontmatterString(frontmatter.license)
     const authors = frontmatterList(frontmatter.authors)
     const doiHref = doi ? doiUrl(doi) : undefined
-    const primaryHref = doiHref ?? accessUrl
-    const primaryLabel = doiHref ? "Open DOI" : accessUrl ? "Open source" : undefined
 
     return (
       <section class="hmi-source-citation-panel" aria-label="Source citation and access">
         <div>
           <p class="hmi-source-citation-kicker">Source access</p>
           <dl class="hmi-source-citation-facts">
-            <div>
-              <dt>DOI</dt>
-              <dd>
-                {doiHref ? (
+            {doiHref ? (
+              <div>
+                <dt>DOI</dt>
+                <dd>
                   <a href={doiHref} target="_blank" rel="noopener noreferrer">
                     {doi}
                   </a>
-                ) : (
-                  <span class="hmi-source-citation-muted">Not recorded</span>
-                )}
-              </dd>
-            </div>
-            <div>
-              <dt>Publication</dt>
-              <dd>{compactLabel(publication)}</dd>
-            </div>
-            <div>
-              <dt>Year</dt>
-              <dd>{compactLabel(year)}</dd>
-            </div>
+                </dd>
+              </div>
+            ) : accessUrl ? (
+              <div>
+                <dt>Source URL</dt>
+                <dd>
+                  <a href={accessUrl} target="_blank" rel="noopener noreferrer">
+                    {accessUrl}
+                  </a>
+                </dd>
+              </div>
+            ) : null}
+            {publication ? (
+              <div>
+                <dt>Publication</dt>
+                <dd>{publication}</dd>
+              </div>
+            ) : null}
+            {year ? (
+              <div>
+                <dt>Year</dt>
+                <dd>{year}</dd>
+              </div>
+            ) : null}
             {authors.length > 0 ? (
               <div>
                 <dt>Authors</dt>
@@ -96,17 +101,6 @@ export default (() => {
             ) : null}
           </dl>
         </div>
-
-        {primaryHref ? (
-          <a
-            class="hmi-source-citation-action"
-            href={primaryHref}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {primaryLabel}
-          </a>
-        ) : null}
       </section>
     )
   }

@@ -11,7 +11,7 @@ evidence_tier: B
 raw_path: raw/reports/Factsheet_lood_2024FINAL.pdf
 sha256: 77c82bff978471696547dd08d6498940bee3872ec8b6765231853f2fed85bb62
 access_date: 2026-04-25
-access_url: null
+access_url: https://www.omgeving-en-gezondheid.be/sites/default/files/2024-10/Factsheet_lood_2024FINAL.pdf
 license: public-reference-only
 metals: [Pb]
 ingredients: []

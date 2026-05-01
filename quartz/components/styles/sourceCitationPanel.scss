@@ -1,8 +1,4 @@
 .hmi-source-citation-panel {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 1rem;
-  align-items: start;
   margin: 1rem 0 1.5rem;
   padding: 1rem;
   border: 1px solid color-mix(in srgb, var(--secondary) 26%, var(--lightgray));
@@ -46,40 +42,8 @@
   }
 }
 
-.hmi-source-citation-muted {
-  color: var(--gray);
-}
-
-.hmi-source-citation-action {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 2.4rem;
-  padding: 0.45rem 0.85rem;
-  border: 1px solid var(--secondary);
-  border-radius: 6px;
-  background: var(--secondary);
-  color: var(--light);
-  font-weight: 700;
-  text-decoration: none;
-  white-space: nowrap;
-
-  &:hover {
-    color: var(--light);
-    filter: brightness(0.95);
-  }
-}
-
 @media all and (max-width: 700px) {
-  .hmi-source-citation-panel {
-    grid-template-columns: 1fr;
-  }
-
   .hmi-source-citation-facts {
     grid-template-columns: 1fr;
-  }
-
-  .hmi-source-citation-action {
-    width: 100%;
   }
 }

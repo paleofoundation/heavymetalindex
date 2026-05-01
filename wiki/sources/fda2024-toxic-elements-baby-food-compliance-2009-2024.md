@@ -10,6 +10,7 @@ source_type: government_dataset
 evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/TEP-AsPbCdHg-TEP-FY2009-FY2024-12162024.pdf"
+access_url: "https://www.fda.gov/media/164564/download?attachment="
 raw_sha256: "2a295ce054da90d9be2a93a81830840f599c91bfb076b5f04a0a85dba5c055fb"
 metals: [tAs, Pb, Cd, tHg]
 products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, fruit-purees, non-root-vegetable-purees, root-vegetable-purees, mixed-meals-non-rice, mixed-meals-rice-containing, teething-and-snacks-rice-based]
