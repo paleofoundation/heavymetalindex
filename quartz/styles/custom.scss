@@ -938,6 +938,10 @@ a.hmi-home-brand:hover {
   max-width: 720px;
 }
 
+.hmi-home-hero h1 > a[role="anchor"] {
+  display: none;
+}
+
 .hmi-home-hero p {
   color: var(--darkgray);
   font-size: 1.05rem;
