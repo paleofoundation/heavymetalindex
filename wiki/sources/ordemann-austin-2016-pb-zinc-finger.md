@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Ordemann and Austin 2016 — Lead Substitution in Zinc-Finger Proteins
 
-## TL;DR
+## Summary
 
 This 2016 mechanistic review by Jacqueline Michelle Ordemann and Rachel Narehood Austin in Metallomics explores how Pb²⁺ substitution for Zn²⁺ in zinc-finger proteins contributes to lead neurotoxicity at the molecular level. Zinc-finger transcription factors are essential for normal brain development, and lead's chemical similarity to zinc allows it to bind these protein motifs and disrupt their structure and function. The review provides molecular-level mechanism for the developmental neurotoxicity endpoint that anchors EFSA 2010 and the modern regulatory framing that no safe blood lead level has been demonstrated for children.
 

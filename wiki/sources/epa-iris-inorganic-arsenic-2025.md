@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EPA IRIS Inorganic Arsenic Toxicological Review (January 2025)
 
-## TL;DR
+## Summary
 
 The January 2025 EPA IRIS Toxicological Review of Inorganic Arsenic (EPA/635/R-25/005Fa, CASRN 7440-38-2) is the finalized US Environmental Protection Agency reassessment of inorganic arsenic toxicity. It is one of the most consequential recent EPA actions on heavy metals, replacing prior IRIS values that had been operative for decades. The review derives quantitative reference values for non-cancer endpoints and updated cancer slope factors covering lung, bladder, and skin cancer endpoints, and represents the US federal scientific anchor for inorganic arsenic dose-response that downstream EPA, FDA, and state regulatory actions reference.
 

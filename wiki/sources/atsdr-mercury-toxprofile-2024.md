@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # ATSDR 2024 — Toxicological Profile for Mercury
 
-## TL;DR
+## Summary
 
 The October 2024 ATSDR Toxicological Profile for Mercury is the current US comprehensive synthesis covering elemental mercury (Hg⁰), inorganic mercury salts, and methylmercury (the dominant species in seafood). Each species has distinct toxicity profiles: elemental mercury vapor is primarily a neurotoxicant via inhalation (occupational exposure, dental amalgam); inorganic mercury salts are primarily nephrotoxic via oral exposure; methylmercury is the dominant developmental neurotoxicant relevant to dietary risk through fish and seafood consumption. ATSDR derives MRLs separately for each species and route in this profile.
 

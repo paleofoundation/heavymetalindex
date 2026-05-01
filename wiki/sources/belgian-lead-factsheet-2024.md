@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Belgian Lead Factsheet (September 2024)
 
-## TL;DR
+## Summary
 
 This is a September 2024 lead factsheet from Steunpunt Milieu en Gezondheid (the Flemish Centre of Expertise on Environment and Health), a Belgian regional public-health body. The document is in Dutch and provides a consumer/practitioner-facing overview of lead biomarkers, exposure routes, and Belgian/European regulatory context. The factsheet identifies the standard biomarker matrices for lead (blood, plasma for invasive measurement; urine, hair, breast milk, cord blood, placenta for non-invasive measurement) and the integration windows: blood lead reflects 3-4 month exposure history; cord blood and maternal urine reflect short-term (days to weeks) maternal exposure. The factsheet is evidence tier B (regional health-agency publication, not a peer-reviewed scientific synthesis or international regulatory body output) but represents the operational consumer-facing translation of EFSA, ATSDR, and CDC lead guidance into a Belgian/Flemish regulatory and clinical context.
 

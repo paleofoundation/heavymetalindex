@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Minamata Convention on Mercury (2013, with 2024 revisions)
 
-## TL;DR
+## Summary
 
 The Minamata Convention on Mercury is the international treaty under the United Nations Environment Programme regulating anthropogenic mercury releases worldwide. The Convention was adopted October 10, 2013, entered into force August 16, 2017, and has been ratified by more than 140 countries. It addresses the supply, use, trade, emissions, and waste of mercury and mercury compounds across multiple sectors: artisanal and small-scale gold mining (the largest single anthropogenic mercury release source globally), coal combustion, mercury-added products (including phasing out fluorescent lamps, batteries, switches, cosmetics, and certain dental amalgams), industrial processes, and contaminated sites. The convention is named for Minamata, Japan, the site of the most consequential historical methylmercury poisoning event (industrial methylmercury discharge into Minamata Bay caused thousands of cases of developmental and adult neurological disease beginning in the 1950s).
 

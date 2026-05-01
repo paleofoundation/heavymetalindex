@@ -26,7 +26,7 @@ updated: 2026-04-29
 
 # Chuchu et al. 2013 — Aluminium In Infant Formulas
 
-## TL;DR
+## Summary
 
 This follow-up study measured aluminum in 30 infant formula products, including 10 ready-to-drink milks and 20 powdered formulas. It is useful for Category 1 because it extends the earlier Burrell and Exley infant-formula aluminum survey and separates ready-to-drink, non-soy powder, and soy powder evidence.
 

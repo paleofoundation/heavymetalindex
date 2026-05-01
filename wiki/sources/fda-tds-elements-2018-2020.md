@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # FDA TDS — Fiscal Years 2018-2020 Elements Data Report
 
-## TL;DR
+## Summary
 
 The July 2022 FDA Total Diet Study Report on Fiscal Years 2018-2020 Elements Data is the most recent comprehensive publication from FDA's Total Diet Study program covering both essential nutrients and toxic elements (Cd, Pb, Hg, iAs, Ni, Al, and others) across the foods most representative of the US diet. The TDS samples foods from US retail markets, prepares them as consumed, and analyzes for 30+ elements; the program is FDA's longest-running food-monitoring activity (operating continuously since 1961) and is the primary US data source for population-level dietary toxic-element exposure estimates. The 2018-2020 data extend the FDA TDS dataset that underpinned [[sources/fda-ctz-Pb-babyfood-2025|the FDA Closer to Zero lead action levels]] and the [[sources/fda-iAs-rice-cereal-2020|FDA inorganic arsenic infant rice cereal action level]].
 

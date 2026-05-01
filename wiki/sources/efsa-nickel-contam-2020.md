@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EFSA CONTAM 2020 — Nickel in Food and Drinking Water
 
-## TL;DR
+## Summary
 
 The EFSA CONTAM Panel update of the risk assessment of nickel in food and drinking water (adopted September 2020, EFSA Journal 2020;18(11):6268) establishes a tolerable daily intake (TDI) for chronic oral nickel exposure of **13 µg Ni/kg body weight per day**, anchored on increased post-implantation loss in rats with a BMDL10 of 1.3 mg Ni/kg/day as the reference point. For acute oral exposure, the Panel identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect, with a LOAEL of 4.3 µg Ni/kg bw. The Panel applied a margin-of-exposure approach for acute exposure with MOE ≥ 30 considered low concern. The assessment used more than 47,000 European nickel occurrence data points.
 

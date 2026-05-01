@@ -23,7 +23,7 @@ updated: 2026-04-29
 
 # Amarh et al. 2023 — Ghana Infant Food Heavy Metals
 
-## TL;DR
+## Summary
 
 This peer-reviewed study measured eight metals in 22 infant food and formula samples sold in Wa, Ghana. It is relevant to Category 1 as broad infant-food/formula evidence, but the public product pages need row-specific mapping before these data are used for any individual subcategory p90.
 

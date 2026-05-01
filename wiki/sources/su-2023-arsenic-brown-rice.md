@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Su, Chiang, O'Connor 2023 — Arsenic in Brown Rice: Benefits vs Risks
 
-## TL;DR
+## Summary
 
 This 2023 mini-review by Su, Chiang, and O'Connor (UT Southwestern Medical Center / University of Arkansas for Medical Sciences) addresses the trade-off between brown rice's nutritional benefits and its higher inorganic arsenic content relative to white rice. Brown rice is widely advocated as a healthier alternative because it retains the bran and germ layers (and their fiber, magnesium, B vitamins, manganese, selenium, and antioxidants), but the bran also concentrates inorganic arsenic and certain pesticide residues, producing measurably higher contaminant load per serving than white rice. The review synthesizes literature on the nutrient-versus-contaminant trade-off and frames consumer guidance for risk-benefit balance.
 

@@ -20,7 +20,7 @@ updated: 2026-04-28
 
 # Meli 2024 — Chemical Characterization Of Baby Food Consumed In Italy
 
-## TL;DR
+## Summary
 
 This peer-reviewed analytical study measured 30 elements in 25 European baby foods consumed in Italy, including powdered milk, cream of rice, fruit, fish, meat, and cheese homogenized foods. It is useful for Category 1 because it includes several HMTc analytes and product forms, but it reports total arsenic rather than inorganic arsenic and total mercury rather than methylmercury.
 

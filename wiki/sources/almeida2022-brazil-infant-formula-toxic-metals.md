@@ -18,7 +18,7 @@ updated: 2026-04-29
 
 # Almeida 2022 — Toxic Metals And Metalloids In Brazilian Infant Formulas
 
-## TL;DR
+## Summary
 
 This peer-reviewed study measured aluminum, arsenic, cadmium, tin, mercury, lead, and uranium in phase 1 and phase 2 cow milk-based infant formulas marketed in Brazil. It is relevant to the formula-powder rows because it reports product-level concentrations in mg/kg, but it excludes soy/rice/wheat formulas and does not separate HMTc non-soy subtypes beyond cow-milk formula.
 

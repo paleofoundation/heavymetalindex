@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EPA IRIS — Lead and Compounds (Inorganic), CASRN 7439-92-1
 
-## TL;DR
+## Summary
 
 The EPA IRIS chemical assessment for inorganic lead (CASRN 7439-92-1) is the US Environmental Protection Agency's reference assessment for lead toxicity. EPA does not derive a quantitative oral reference dose (RfD) for lead; the RfD section of the IRIS file contains a qualitative discussion only, last revised 2004-07-08, on the basis that available data do not support a traditional threshold-based RfD derivation for the most sensitive (developmental neurotoxicity) endpoint. The carcinogenicity assessment was last revised 1988-09-26 and classifies inorganic lead as B2 (probable human carcinogen) based on animal evidence with inadequate human evidence; the cancer slope factor and unit risk are not derived. The structural similarity to the EPA IRIS cadmium situation (operative document is dated; quantitative reference values are pending or absent) is intentional methodological policy at EPA.
 

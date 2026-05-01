@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EPA — Arsenic in Drinking Water MCL (10 ppb)
 
-## TL;DR
+## Summary
 
 The US Environmental Protection Agency Maximum Contaminant Level for arsenic in drinking water is 10 parts per billion (10 µg/L), established in 2001 under the Safe Drinking Water Act, replacing the prior 50 ppb standard that had been in place since 1942. The 10 ppb MCL applies to both community water systems and non-transient non-community water systems. The MCL is the regulatory implementation of EPA's risk assessment for arsenic in drinking water and is the operational US federal floor for drinking water arsenic compliance.
 

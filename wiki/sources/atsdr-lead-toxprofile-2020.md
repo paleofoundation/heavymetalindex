@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # ATSDR 2020 — Toxicological Profile for Lead
 
-## TL;DR
+## Summary
 
 The August 2020 ATSDR Toxicological Profile for Lead is the current US comprehensive toxicology synthesis for lead. ATSDR does not derive Minimal Risk Levels for lead in this profile because there is no demonstrated threshold for the most sensitive endpoint (developmental neurotoxicity in children); the conclusion that no safe level of lead exposure has been identified for children is a settled position across the major regulatory bodies. The profile is the public-health reference document underlying CDC blood lead reference value updates, EPA risk assessments, and US state-level lead exposure investigations.
 

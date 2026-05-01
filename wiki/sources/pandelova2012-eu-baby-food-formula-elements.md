@@ -18,7 +18,7 @@ updated: 2026-04-29
 
 # Pandelova 2012 — EU Baby Food And Formula Element Baskets
 
-## TL;DR
+## Summary
 
 This peer-reviewed CASCADE project study measured ten elements in designed European infant-formula and solid-food/beverage market baskets. It is relevant to Category 1 because it distinguishes milk-based, soy-based, and hypoallergenic infant formula baskets and reports higher element levels in soy-based infant formulae, but its pooled-basket design means it does not provide brand-level or sample-level percentiles.
 

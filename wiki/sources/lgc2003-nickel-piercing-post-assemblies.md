@@ -120,7 +120,7 @@ These headings are intentionally visible on the source page because this is a cr
 | Skin-contact products under the Nickel Directive | Regulatory comparator for direct and prolonged skin contact. | Regulation page context. |
 | Category 1 infant/child foods | Not measured. | No food product-page occurrence values are created from this source. |
 
-## TL;DR
+## Summary
 
 This report evaluates whether stainless steel piercing post assemblies should be regulated by nickel release rather than by nickel content. It reviews nickel dermatitis, stainless-steel grades, the European Nickel Directive, and experimental nickel release from stainless steel plates, wires, and finished piercing articles using EN 1811-style conditions.
 

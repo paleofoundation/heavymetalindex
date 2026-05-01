@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # FDA 2020 — Inorganic Arsenic in Rice Cereals for Infants Action Level (100 ppb)
 
-## TL;DR
+## Summary
 
 The August 2020 FDA Federal Register notice (Docket FDA-2016-D-1099) finalizes the action level for inorganic arsenic in rice cereals for infants at **100 ppb (100 µg iAs/kg, dry weight basis)**. This is the first matrix-specific action level under the FDA Closer to Zero program (predating the 2025 lead action levels) and is the operational US federal threshold for inorganic arsenic in this baby-food category. Rice and rice-based infant cereal is the dominant single dietary source of inorganic arsenic for US infants because rice efficiently accumulates iAs from flooded-paddy soils and because rice cereal is often the first solid food introduced to infants.
 

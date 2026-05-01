@@ -25,7 +25,7 @@ updated: 2026-04-29
 
 # Burrell And Exley 2010 — Aluminium In Infant Formulas
 
-## TL;DR
+## Summary
 
 This study measured aluminum in 15 infant formula products, including ready-made liquids, cow-milk-based powders, and one soy-based powder. It is useful for Category 1 because it directly compares powdered, ready-to-drink, and soy-based infant formula formats.
 

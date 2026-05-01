@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # EFSA CONTAM 2009 — Cadmium in Food
 
-## TL;DR
+## Summary
 
 This is the European Food Safety Authority Panel on Contaminants in the Food Chain Scientific Opinion on cadmium in food, adopted 30 January 2009 in response to Question No EFSA-Q-2007-138 from the European Commission. It establishes the EU tolerable weekly intake for cadmium at 2.5 µg per kilogram body weight per week, superseding the long-standing Joint FAO/WHO Expert Committee on Food Additives provisional tolerable weekly intake of 7 µg/kg b.w./week. The derivation anchors on renal tubular dysfunction measured via urinary beta-2-microglobulin through a group-based BMDL5 of 4 µg cadmium per gram creatinine, a chemical-specific adjustment factor of 3.9, and a one-compartment kinetic model fit to non-smoking Swedish women that translates a critical urinary cadmium of 1.0 µg/g creatinine into a daily dietary intake of 0.36 µg/kg b.w., rounded to a weekly intake of 2.5 µg/kg b.w. The Panel concluded that mean European adult exposure is close to or slightly exceeding the TWI, with subgroups including vegetarians, children, smokers, and residents of highly contaminated areas exceeding the TWI by approximately twofold, and recommended that population-level exposure be reduced.
 

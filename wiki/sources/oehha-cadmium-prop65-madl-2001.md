@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # OEHHA 2001 — Prop 65 MADL for Cadmium (Oral Route)
 
-## TL;DR
+## Summary
 
 This is the May 2001 California Office of Environmental Health Hazard Assessment document deriving the Proposition 65 Maximum Allowable Daily Level for cadmium by the oral route, at 4.1 µg per day, based on reproductive toxicity. The MADL implements the 1997 Prop 65 listing of cadmium as a reproductive toxicant, which followed the DART Identification Committee's December 1996 determination on the basis of the companion 1996 hazard identification document. The derivation uses the Ali et al. 1986 rat developmental toxicity study as the most sensitive pivotal study, with a LOEL of 0.706 mg/kg/day that is converted to a NOEL of 0.07 mg/kg/day by dividing by a factor of 10 per California regulation, multiplied by an assumed 58 kg pregnant-woman body weight to yield a NOEL of 4.1 mg/day, and divided by the standard Prop 65 safety factor of 1,000 to produce the MADL of 4.1 µg/day. The MADL applies to the oral route only; the document states that an inhalation MADL is under development, with the current status of that inhalation MADL not addressed in the document and pending verification against current OEHHA publications.
 

@@ -25,7 +25,7 @@ updated: 2026-04-29
 
 # FDA 2024 - Toxic Elements Compliance Results For Baby And Young Child Foods
 
-## TL;DR
+## Summary
 
 This FDA compliance-program table is an A-tier government dataset for arsenic, lead, cadmium, and mercury in foods intended for babies and young children from FY2009 through FY2024. It has been ingested as sample-level Category 1 evidence where the FDA baby-food category and product name can be mapped to locked HMTc product rows.
 

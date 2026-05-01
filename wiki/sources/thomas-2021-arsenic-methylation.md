@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Thomas 2021 — Arsenic Methylation: Lessons from Three Decades of Research
 
-## TL;DR
+## Summary
 
 This 2021 review by David J. Thomas (US EPA, Experimental Toxicokinetics and Toxicodynamics Branch) synthesizes 30 years of research on the biological methylation of inorganic arsenic to mono- and dimethylated arsenic species (MMA and DMA) in mammals. The review covers the AS3MT methyltransferase enzyme that catalyzes arsenic biomethylation, the toxicokinetic and toxicodynamic implications of methylation (long debated as detoxification versus toxification of arsenic), inter-individual variation in methylation efficiency, and the relationship between methylation patterns and disease risk (particularly cancer and cardiovascular outcomes). The methylation chemistry is foundational for understanding why arsenic exposure-disease relationships vary across populations and why biomarker-based exposure assessment for inorganic arsenic must distinguish methylated species from inorganic precursors.
 

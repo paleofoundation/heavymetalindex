@@ -27,7 +27,7 @@ updated: 2026-04-29
 
 # FDA 2026 — Infant Formula Toxic Elements Special Survey
 
-## TL;DR
+## Summary
 
 This FDA special-survey table reports total arsenic, lead, cadmium, and total mercury results for 312 infant-formula samples tested in FY2023-FY2025. It is a priority Category 1 formula source because FDA reports powders, concentrated liquids, and ready-to-feed liquids on a prepared-for-feeding basis.
 

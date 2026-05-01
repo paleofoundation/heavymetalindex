@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EFSA CONTAM 2011 — Statement on TWI for Cadmium
 
-## TL;DR
+## Summary
 
 This source page is a **secondary-citation provenance record** for the EFSA 2011 statement on tolerable weekly intake for cadmium. The primary document was not directly accessible during this ingest pass (Wiley journal access returned 403; EFSA Journal landing page redirects do not return downloadable text). The information recorded here is sourced from references to the 2011 statement within other ingested documents, principally [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] (which the 2011 statement reaffirms) and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] (which references the EFSA-JECFA divergence the 2011 statement addresses). Direct ingestion of the primary document is flagged as pending future work; the source page should be re-verified and SHA-recorded when the primary PDF is acquired.
 

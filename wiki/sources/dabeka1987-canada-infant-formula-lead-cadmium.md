@@ -19,7 +19,7 @@ updated: 2026-04-29
 
 # Dabeka 1987 - Canada Infant Formula Lead And Cadmium
 
-## TLDR
+## Summary
 
 Dabeka and McKenzie measured lead, cadmium, and fluoride in Canadian market milk and approximately 115 infant formulas. The most useful Heavy Metal Index values are formula-category `n`, mean, median, and range values for lead and cadmium in ready-to-use formula, concentrated liquid formula, and formula powder. [[sources/dabeka1987-canada-infant-formula-lead-cadmium]]
 

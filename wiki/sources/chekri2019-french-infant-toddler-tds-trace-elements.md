@@ -24,7 +24,7 @@ updated: 2026-04-29
 
 # Chekri et al. 2019 — French Infant And Toddler TDS Trace Elements
 
-## TL;DR
+## Summary
 
 This French Total Diet Study paper reports occurrence data for trace elements in 291 foods representative of French non-breastfed infant and toddler diets. It is useful for Category 1 because it separates infant-food categories such as formula, cereal-based foods, fruit purees, vegetable meals, soups/purees, fruit juices, and meat/fish ready-to-eat meals.
 

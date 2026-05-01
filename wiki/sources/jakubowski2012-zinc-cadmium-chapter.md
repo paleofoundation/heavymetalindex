@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # Jakubowski 2012 — Zinc and Cadmium Compounds (Patty's Toxicology, 6th ed., Ch 7)
 
-## TL;DR
+## Summary
 
 This is Chapter Seven "Zinc and Cadmium Compounds" from Patty's Toxicology, Sixth Edition (John Wiley & Sons, 2012), authored by Marek Jakubowski of the Nofer Institute of Occupational Medicine in Lodz, Poland. The chapter is the Patty's industrial-toxicology reference for both metals, structured with zinc in sections 1 through 7 (zinc metal, zinc oxide, zinc acetate, zinc sulfate, zinc chloride, zinc stearate, zinc ammonium sulfate) and cadmium beginning at section 8 with cadmium metal, extending through additional sections for specific cadmium compounds (chloride, oxide, sulfide, selenium sulfide, carbonate). Only the cadmium portion is in scope for the current ingest. The zinc portion is flagged for a later zinc ingest wave and will be added to this source page without creating a second cite key.
 

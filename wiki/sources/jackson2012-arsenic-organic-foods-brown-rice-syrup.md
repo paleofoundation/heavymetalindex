@@ -19,7 +19,7 @@ updated: 2026-04-28
 
 # Jackson 2012 — Arsenic, Organic Foods, And Brown Rice Syrup
 
-## TL;DR
+## Summary
 
 This peer-reviewed analytical study measured total arsenic and arsenic species in commercial brown-rice syrups and products containing organic brown rice syrup, including formulas. It is relevant to Category 1 because it reports arsenic findings for infant formulas without organic brown rice syrup and toddler formulas with organic brown rice syrup, but it does not isolate HMTc row 1 non-soy powdered infant formula.
 

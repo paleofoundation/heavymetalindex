@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # OEHHA Prop 65 — Lead and Lead Compounds Listing
 
-## TL;DR
+## Summary
 
 This is the California Office of Environmental Health Hazard Assessment Proposition 65 listing record for lead and lead compounds. Lead is listed under Proposition 65 in two separate categories: as a chemical known to the state to cause cancer, and as a chemical known to the state to cause reproductive toxicity (developmental and male reproductive endpoints). Both listings carry their own quantitative implementation thresholds (No Significant Risk Level for the cancer listing, Maximum Allowable Daily Level for the reproductive listings), which are not reproduced here in detail because the quantitative implementation documents are pending separate ingest. Like all Prop 65 listings, the operational consequence is the warning-label requirement for consumer products that exceed the implementation thresholds.
 

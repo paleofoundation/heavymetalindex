@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # OEHHA 1996 — Evidence on Developmental and Reproductive Toxicity of Cadmium
 
-## TL;DR
+## Summary
 
 This is the October 1996 hazard identification draft prepared by the California Office of Environmental Health Hazard Assessment Reproductive and Cancer Hazard Assessment Section for the California Developmental and Reproductive Toxicant Identification Committee. The document reviews the human epidemiological literature and the animal toxicology literature on cadmium's developmental, female reproductive, and male reproductive effects, and served as the scientific basis for the DART ID Committee's December 4, 1996 determination that cadmium was clearly shown to cause developmental and male reproductive toxicity. That determination produced the Proposition 65 reproductive-toxicity listing of cadmium effective May 1, 1997. The document is explicitly a hazard identification: it does not perform dose-response evaluation, exposure assessment, or derive allowable exposure levels. Those came later in the companion 2001 Maximum Allowable Daily Level document.
 

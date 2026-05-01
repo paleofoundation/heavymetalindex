@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Davis et al. 2021 — Salivary Metals, Oral Microbiome, and Dental Decay
 
-## TL;DR
+## Summary
 
 This 2021 study by Davis and colleagues at the University of Michigan published in Scientific Reports measured 21 metals in saliva from 61 children and adults and assessed their associations with oral microbiome composition (16S rRNA sequencing) and dental decay. The study detected 16 metals in 54 percent of participants and 8 metals in all participants. Marked differences in salivary bacterial taxa were associated with levels of antimony, arsenic, and mercury after multiple-testing adjustment. Antimony levels were also associated with the presence of decayed teeth. The conclusion is that salivary metal levels, even at low concentrations, may impact oral microbiome composition and oral health. This is one of the operational primary references for metal-microbiome interactions in human populations and informs the wikibiome-crosswalk content for arsenic, mercury, and cadmium.
 

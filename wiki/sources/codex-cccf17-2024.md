@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # Codex CCCF17 2024 — Session Report (REP24/CF17)
 
-## TL;DR
+## Summary
 
 This is the report of the 17th Session of the Codex Committee on Contaminants in Foods, held in Panama City 15 to 19 April 2024 under the Joint FAO/WHO Food Standards Programme, forwarded to the 47th Session of the Codex Alimentarius Commission in November 2024 for adoption. The session's cadmium-specific outputs were two: the adoption for forwarding of a Codex maximum level for cadmium in quinoa of 0.15 mg/kg (whole commodity), and the initiation of new work on a Code of Practice for the Prevention and Reduction of Cadmium Contamination in Foods, to be developed by an electronic working group chaired by the United States with potential commodity-specific annexes for rice, cereals and cereal products, vegetables, fish, and seafood. The session does not restate or revise the matrix-level Codex cadmium maximum levels that live in Codex Standard CXS 193-1995, which remains the operative Codex standard for Cd MLs across food commodities and is not in the current corpus.
 

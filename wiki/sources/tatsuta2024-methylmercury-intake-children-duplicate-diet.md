@@ -20,7 +20,7 @@ updated: 2026-04-28
 
 # Tatsuta 2024 — Dietary Intake Of Methylmercury By 0-5 Years Children
 
-## TL;DR
+## Summary
 
 This duplicate-diet study measured total mercury and methylmercury in diets consumed by Japanese children aged 0-5 years. It is the strongest newly ingested Category 1 source for methylmercury because it measures MeHg directly and connects higher intake during later baby-food stages with fish-consumption patterns.
 

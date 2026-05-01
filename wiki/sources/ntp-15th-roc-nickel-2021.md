@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # NTP 15th Report on Carcinogens — Nickel Compounds and Metallic Nickel (2021)
 
-## TL;DR
+## Summary
 
 The 15th Report on Carcinogens (December 2021) from the US National Toxicology Program classifies **nickel compounds (as a class) as known to be human carcinogens** and **metallic nickel as reasonably anticipated to be a human carcinogen**. Nickel compounds were elevated to the "known" category in the 10th Report on Carcinogens (2002); the 15th Report maintains this classification. The carcinogenic effects are dominated by occupational inhalation exposure (nickel refinery workers, stainless steel and nickel-alloy production, electroplating), with primary cancers in the lung and nasal cavity. Dietary nickel exposure is not the route relevant to this carcinogenicity classification; the EFSA 2020 CONTAM opinion addresses dietary nickel through non-cancer endpoints (post-implantation loss, systemic contact dermatitis).
 

@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # FDA 2025 — Lead Action Levels for Processed Food for Babies and Young Children
 
-## TL;DR
+## Summary
 
 This is FDA's final January 2025 guidance under the Closer to Zero program, setting three action levels for lead in processed foods intended for babies and young children less than two years of age: 10 ppb for fruits, non-root vegetables, mixtures, yogurts and custards, and single-ingredient meats; 20 ppb for single-ingredient root vegetables; and 20 ppb for dry infant cereals. The action levels are non-binding guidance issued under 21 CFR 109.6(d), defining the thresholds at which FDA may regard a food as adulterated within the meaning of section 402(a)(1) of the Federal Food, Drug, and Cosmetic Act. The scientific basis is the CDC blood lead reference value of 3.5 µg/dL translated through FDA's 2022-updated Interim Reference Levels of 2.2 µg/day for children and 8.8 µg/day for women of childbearing age, with each action level chosen to place industry achievability in the 90th to 95th percentile range of occurrence data collected from 2009 through 2024.
 

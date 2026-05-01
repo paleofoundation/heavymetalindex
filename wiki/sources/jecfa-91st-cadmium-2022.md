@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # JECFA 91st Meeting (2022) — Cadmium Dietary Exposure Assessment
 
-## TL;DR
+## Summary
 
 This is the WHO Food Additives Series No. 82 monograph on cadmium, prepared by the 91st meeting of the Joint FAO/WHO Expert Committee on Food Additives (held online November 2020, published 2022). Its scope is a dietary exposure assessment, not a re-derivation of the health-based guidance value: the provisional tolerable monthly intake of 25 µg per kilogram body weight per month, established at JECFA's 73rd meeting in 2010 and published in WHO Technical Report Series No. 960 (2011), remains in force and is carried forward unchanged by this 91st meeting document. The 91st meeting was requested by the 13th session of the Codex Committee on Contaminants in Foods to reassess dietary exposure incorporating new 2019 occurrence data on cadmium in cocoa and cocoa-derived products, which showed higher concentrations than the 77th meeting (2013) cocoa-specific assessment had recognized. The monograph finds that national adult mean dietary cadmium exposure across reviewed countries ranges between 9 and 48 percent of the PTMI, that European children under age 12 reach roughly 47 percent, and that high-percentile child exposures in Australia and the USA reach 82 to 88 percent of the PTMI; when cocoa-product contributions are added, total dietary exposure for children aged 0.5 to 12 years can reach 96 percent of the PTMI, essentially saturating the monthly tolerable intake.
 

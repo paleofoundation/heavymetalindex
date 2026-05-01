@@ -28,7 +28,7 @@ updated: 2026-04-24                           # ISO-8601; date this source page 
 
 # {{ Author et al. Year }} — {{ Short title }}
 
-## TL;DR
+## Summary
 
 Two to four sentences: what the document is, what it measured or established, what the key finding or threshold is, why it matters for the wiki.
 

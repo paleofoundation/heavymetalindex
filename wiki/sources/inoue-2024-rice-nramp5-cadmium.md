@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Inoue et al. 2024 — Engineering Rice Nramp5 to Modify Cd Uptake Selectivity
 
-## TL;DR
+## Summary
 
 This 2024 original-research paper by Inoue, Teramoto, Kazama, and Nakamura (Kyushu University) investigates the OsNramp5 metal transporter in rice, which mediates uptake of both manganese (essential nutrient) and cadmium (toxic contaminant) at the rice root. The study uses yeast assay systems to test engineered Nramp5 variants that preferentially transport manganese over cadmium, providing a path toward rice cultivars that maintain manganese nutrition while reducing cadmium uptake from soil. This is the molecular-genetic basis for low-cadmium rice cultivar development; it complements the regulatory framework anchored in [[sources/jecfa-91st-cadmium-2022|JECFA 2022]] PTMI and Codex matrix MLs by addressing upstream agricultural mitigation rather than downstream regulatory thresholds.
 

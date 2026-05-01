@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # FDA / EPA — Advice About Eating Fish (2017, joint guidance)
 
-## TL;DR
+## Summary
 
 The joint US FDA and US EPA guidance on fish consumption is the operational consumer-facing recommendation for pregnant and breastfeeding women, women who might become pregnant, and children ages 1 to 11. The guidance is structured around methylmercury exposure (the dominant toxic metal in seafood), classifying fish into three categories: "Best Choices" (lower mercury, recommended 2 to 3 servings per week), "Good Choices" (recommended 1 serving per week), and "Choices to Avoid" (high mercury, do not eat). Inorganic arsenic is also addressed for some seafood categories. The chart and FAQ format make this the operational US consumer-facing guidance most often cited in pediatric and prenatal nutrition counseling.
 

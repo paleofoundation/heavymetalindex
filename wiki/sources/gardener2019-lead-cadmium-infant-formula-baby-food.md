@@ -18,7 +18,7 @@ updated: 2026-04-29
 
 # Gardener 2019 — Lead And Cadmium In US Infant Formulas And Baby Foods
 
-## TL;DR
+## Summary
 
 This peer-reviewed study measured lead and cadmium in 564 US infant formula and baby-food products purchased from conventional stores, natural/organic stores, online retailers, and direct-to-consumer sources. It is a high-priority distribution source because it reports full-sample percentiles, category sample counts, and infant-formula exposure percentiles.
 

@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # JECFA 82nd Meeting — Arsenic (WHO FAS 73)
 
-## TL;DR
+## Summary
 
 The Joint FAO/WHO Expert Committee on Food Additives 82nd meeting prepared this monograph on arsenic published as WHO Food Additives Series 73. JECFA's quantitative reference value framing for inorganic arsenic at this meeting confirmed the benchmark dose lower confidence limit framework rather than reinstating a PTWI. JECFA's prior PTWI of 15 µg iAs/kg b.w./week was withdrawn at the 72nd meeting (2010) on the basis that inorganic arsenic causes cancer at exposures below the PTWI; subsequent JECFA work uses BMDL01 anchors for risk characterization rather than threshold-based PTWIs.
 

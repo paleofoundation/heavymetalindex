@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EPA IRIS — Cadmium Chemical Assessment Summary (1989)
 
-## TL;DR
+## Summary
 
 This is the operative US Environmental Protection Agency Integrated Risk Information System chemical assessment summary for cadmium (CASRN 7440-43-9). The oral reference dose was last revised October 1, 1989 and remains in force. EPA IRIS provides two route-specific RfD values reflecting the different absorption efficiency of cadmium in water versus food matrices: **5 × 10⁻⁴ mg/kg/day for drinking water exposure** and **1 × 10⁻³ mg/kg/day for food exposure**. Both values are anchored on significant proteinuria (renal tubular dysfunction) as the critical effect, with NOAELs of 5 × 10⁻³ mg/kg/day (water) and 1 × 10⁻² mg/kg/day (food), and a composite uncertainty factor of 10 applied to each pathway. EPA assigned high confidence to both assessments. The two-route approach reflects EPA's recognition that cadmium absorption from water is approximately twofold higher than from food, requiring different RfD values to deliver equivalent body burden protection.
 

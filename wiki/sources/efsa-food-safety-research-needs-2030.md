@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EFSA 2019 — Food Safety Regulatory Research Needs 2030
 
-## TL;DR
+## Summary
 
 This 2019 EFSA editorial collected views from outgoing members of EFSA's Scientific Panels on what food safety research areas should be prioritised for the 2020-2030 horizon. The editorial informs research agendas including the Horizon Europe Research Programme. For Heavy Metal Index purposes, the editorial is contextual: it identifies regulatory-research priorities that include continuing reassessment of contaminant reference values, improving exposure-assessment methodology, and addressing emerging contaminants. It is cited as background rather than as a primary scientific source, hence evidence tier B.
 

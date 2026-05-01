@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # JECFA — Combined Compendium of Food Additive Specifications (1956-2005)
 
-## TL;DR
+## Summary
 
 The Combined Compendium of Food Additive Specifications consolidates all specifications monographs adopted by the Joint FAO/WHO Expert Committee on Food Additives from its 1st meeting (1956) through its 65th meeting (2005), published as FAO JECFA Monographs Volume 1. The document is a reference compendium for food additive identity and purity specifications including some metal-containing additives (notably aluminium-based food additives such as sodium aluminium silicate, sodium aluminium phosphate, and aluminium-containing colorants and stabilizers). For the wiki, this compendium is relevant primarily as the provenance reference for any HMT&C audit of metal-containing food additives in finished products.
 

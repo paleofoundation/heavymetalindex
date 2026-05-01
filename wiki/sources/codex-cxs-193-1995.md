@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Codex CXS 193-1995 — General Standard for Contaminants and Toxins in Food and Feed
 
-## TL;DR
+## Summary
 
 Codex Standard CXS 193-1995 is the international Codex Alimentarius General Standard for Contaminants and Toxins in Food and Feed, the operative international standard from which national food-safety regulators in many jurisdictions derive their domestic maximum levels. The standard sets matrix-specific maximum levels for cadmium, lead, mercury, methylmercury, inorganic arsenic, tin, marine biotoxins, mycotoxins, and other contaminants. Cadmium MLs span 22 matrix categories from 0.003 mg/kg in natural mineral waters to 2.0 mg/kg in 100 percent cocoa powder. Lead MLs are the second-most-extensive in the standard, spanning 30+ matrix categories. The standard is amended periodically through the Codex Committee on Contaminants in Foods process; the 17th Session (April 2024) added the new quinoa cadmium ML at 0.15 mg/kg, which is reflected in the current standard.
 

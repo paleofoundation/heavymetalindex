@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # Nordberg, Nogawa, Nordberg 2015 — Cadmium (Handbook of Toxicology of Metals, 4th ed., Ch 32)
 
-## TL;DR
+## Summary
 
 This is the canonical peer-reviewed textbook chapter on cadmium toxicology, published as Chapter 32 of the Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals (Gunnar F. Nordberg, Bruce A. Fowler, and Monica Nordberg, editors; Academic Press / Elsevier, 2015). The chapter spans print pages 667 to 716 and is written by Gunnar F. Nordberg, Koji Nogawa, and Monica Nordberg, three authors with deep personal involvement in the toxicokinetic modeling and epidemiological investigation of cadmium dating to the 1970s. It synthesizes the field across physical and chemical properties, production and use, environmental occurrence and human exposure, toxicokinetics, biomarkers, acute and chronic toxicity by organ system, carcinogenicity, risk assessment, and preventive measures. Its role in this wiki is to anchor the canonical toxicological frame against which the regulatory documents (EFSA 2009, JECFA 91st meeting 2022, ATSDR 2012, OEHHA Prop 65) are derivations and applications, rather than independent scientific bases.
 

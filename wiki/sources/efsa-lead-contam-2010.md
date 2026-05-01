@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EFSA CONTAM 2010 — Lead in Food
 
-## TL;DR
+## Summary
 
 The EFSA Panel on Contaminants in the Food Chain Scientific Opinion on Lead in Food, adopted 18 March 2010 (re-published 2013), concluded that **the previous JECFA PTWI of 25 µg/kg b.w./week is no longer appropriate** because there is no evidence for a threshold for critical lead-induced effects. The Panel identified developmental neurotoxicity in young children and cardiovascular effects plus nephrotoxicity in adults as the critical endpoints, deriving Benchmark Dose Lower Confidence Limits from blood lead concentrations: developmental neurotoxicity BMDL01 of 12 µg/L blood (corresponding dietary intake 0.50 µg/kg b.w./day), systolic blood pressure BMDL01 of 36 µg/L (1.50 µg/kg b.w./day), and chronic kidney disease BMDL10 of 15 µg/L (0.63 µg/kg b.w./day). Adult dietary lead exposure ranges 0.36 to 1.24 µg/kg b.w./day average and up to 2.43 in high consumers; child exposure ranges 0.80 to 3.10 average up to 5.51 in high consumers; infant exposure 0.21 to 0.94. Cereals are the dominant dietary contributor; dust and soil are important non-dietary sources for children.
 

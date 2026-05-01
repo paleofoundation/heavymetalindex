@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EFSA CONTAM 2009 — Arsenic in Food
 
-## TL;DR
+## Summary
 
 The EFSA Panel on Contaminants in the Food Chain Scientific Opinion on Arsenic in Food (adopted October 2009, EFSA Journal 2009;7(10):1351) assessed risks from inorganic arsenic in food and water based on more than 100,000 European occurrence data points. The Panel concluded that the previous JECFA provisional tolerable weekly intake of 15 µg/kg b.w./week is no longer appropriate because inorganic arsenic causes cancer (lung, bladder, skin) at exposure levels lower than the PTWI implies. Inorganic arsenic exposure across 19 European countries ranges from 0.13 to 0.56 µg/kg b.w./day for average consumers and 0.37 to 1.22 for 95th-percentile consumers; children under three are exposed at 2 to 3 times adult per-kg rates.
 

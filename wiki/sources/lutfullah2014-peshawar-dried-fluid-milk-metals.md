@@ -23,7 +23,7 @@ updated: 2026-04-29
 
 # Lutfullah et al. 2014 — Dried And Fluid Milk Metals
 
-## TL;DR
+## Summary
 
 This peer-reviewed study measured essential and toxic metals in dried infant formula, powdered milk, fresh milk, and processed milk collected from markets in Peshawar, Pakistan. It is useful as broad formula-powder context because Table 2 reports nickel in the infant-formula group, but it is not cow-milk/non-soy resolved and does not provide an individual-product p90 distribution.
 

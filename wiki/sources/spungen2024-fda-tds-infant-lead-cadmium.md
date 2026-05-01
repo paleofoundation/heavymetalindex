@@ -18,7 +18,7 @@ updated: 2026-04-28
 
 # Spungen 2024 — FDA TDS Infant Lead And Cadmium Exposure
 
-## TL;DR
+## Summary
 
 This peer-reviewed FDA Total Diet Study exposure analysis estimates lead and cadmium dietary exposures for infants 0-11 months and children 1-6 years using 2018-2020 TDS concentration data and NHANES/WWEIA consumption data. It is relevant to Category 1 because it identifies processed baby food and infant formula as the largest contributor to infant lead and cadmium exposure among infants not consuming human milk.
 

@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EPA IRIS — Mercuric Chloride (HgCl2), CASRN 7487-94-7
 
-## TL;DR
+## Summary
 
 The EPA IRIS chemical assessment summary for mercuric chloride covers the inorganic mercury salt and provides a quantitative oral reference dose anchored on autoimmune kidney effects in animals. The IRIS RfD was last updated 1995-05-01 and remains the operative EPA value for inorganic mercury. The methylmercury IRIS assessment is a separate document covering the more dietary-relevant species.
 

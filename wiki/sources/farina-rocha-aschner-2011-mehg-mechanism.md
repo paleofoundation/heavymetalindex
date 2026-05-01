@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Farina, Rocha, and Aschner 2011 — Mechanisms of Methylmercury Neurotoxicity
 
-## TL;DR
+## Summary
 
 This 2011 mechanistic review by Marcelo Farina (Universidade Federal de Santa Catarina, Brazil), João B. T. Rocha (Universidade Federal de Santa Maria, Brazil), and Michael Aschner (Vanderbilt; subsequently Albert Einstein College of Medicine) consolidates the molecular mechanisms by which methylmercury produces developmental and adult neurotoxicity. Methylmercury crosses the blood-brain barrier, binds cysteine residues on glutathione and other thiols, accumulates in the developing brain, and induces oxidative stress, glutamate excitotoxicity, and disruption of cellular calcium homeostasis. The review provides the molecular-level explanation underlying the developmental neurotoxicity endpoint that anchors EFSA 2012, JECFA 61st meeting, EPA IRIS, and the FDA/EPA fish consumption advice.
 

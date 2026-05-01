@@ -23,7 +23,7 @@ updated: 2026-04-29
 
 # Weldegebriel et al. 2025 — Packaged Fruit Juice Metals For Children
 
-## TL;DR
+## Summary
 
 This peer-reviewed study measured cadmium, lead, chromium, and nickel in 80 packaged fruit juice samples commonly consumed by children in Gondar city, Ethiopia. It is relevant to Category 1 fruit juice, but it includes multiple packaging formats, including canned strawberry juice, so not-canned values must be filtered before standards math.
 

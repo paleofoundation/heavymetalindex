@@ -20,7 +20,7 @@ updated: 2026-04-28
 
 # Signes-Pastor 2018 — Infants' Dietary Arsenic Exposure During Transition To Solid Food
 
-## TL;DR
+## Summary
 
 This longitudinal infant biomarker study is useful for Category 1 because it links the transition from liquid feeding to solid foods with higher urinary arsenic species in infants. It is strongest for arsenic exposure during weaning and for rice cereal, fruit, and vegetable intake associations; it is not a finished-product concentration dataset for every HMTc row.
 

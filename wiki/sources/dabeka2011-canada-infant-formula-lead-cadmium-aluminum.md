@@ -25,7 +25,7 @@ updated: 2026-04-29
 
 # Dabeka et al. 2011 — Canadian Formula Lead, Cadmium, And Aluminum
 
-## TL;DR
+## Summary
 
 This Canadian survey measured Pb, Cd, and Al in infant formulae, oral electrolytes, and 5% glucose solutions as consumed. It is especially useful for Category 1 because it reports formula results by format, soy/non-soy type, specialty formulation, and packaging/container context.
 

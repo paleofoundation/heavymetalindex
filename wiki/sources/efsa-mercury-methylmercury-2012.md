@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EFSA CONTAM 2012 — Mercury and Methylmercury in Food
 
-## TL;DR
+## Summary
 
 The EFSA CONTAM Panel Scientific Opinion on Mercury and Methylmercury in Food (December 2012, EFSA Journal 2012;10(12):2985) re-evaluated the prior JECFA tolerable weekly intakes for inorganic mercury (4 µg/kg b.w./week) and methylmercury (1.6 µg/kg b.w./week) in light of new epidemiological evidence. The Panel **maintained the inorganic mercury TWI at 4 µg/kg b.w./week**, expressed as Hg, but **lowered the methylmercury TWI to 1.3 µg/kg b.w./week**, expressed as Hg. The methylmercury revision was driven by Faroe Islands and Seychelles cohort data, with adjustment for the protective n-3 long-chain polyunsaturated fatty acid coefficients in fish. Mean dietary methylmercury exposure across European age groups does not exceed the TWI except for toddlers and other children in some surveys; 95th-percentile dietary exposure is close to or above the TWI for all age groups. High fish consumers can substantially exceed the TWI.
 

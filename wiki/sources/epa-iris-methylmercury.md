@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EPA IRIS — Methylmercury (MeHg), CASRN 22967-92-6
 
-## TL;DR
+## Summary
 
 The EPA IRIS chemical assessment for methylmercury (CASRN 22967-92-6) provides the US federal oral reference dose for methylmercury exposure, anchored on developmental neurotoxicity observed in cohort studies (the Faroe Islands and Seychelles cohorts). The IRIS RfD for methylmercury is **0.1 µg/kg body weight per day**. Methylmercury is the dominant species in seafood and is the species addressed in the FDA/EPA fish consumption advice. The IRIS file is currently in step 1 of EPA's reassessment process; the operative RfD remains the value derived in the 2001 assessment.
 

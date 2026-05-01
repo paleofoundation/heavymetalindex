@@ -23,7 +23,7 @@ updated: 2026-04-24
 
 # ATSDR 2012 — Toxicological Profile for Cadmium
 
-## TL;DR
+## Summary
 
 This is the September 2012 finalized Toxicological Profile for Cadmium prepared by the US Agency for Toxic Substances and Disease Registry under CERCLA Section 104(i) authority. It supersedes the 2008 draft-for-public-comment version and represents ATSDR's comprehensive synthesis of the cadmium toxicology literature through approximately 2012. The profile establishes four minimal risk levels for cadmium: an acute-duration inhalation MRL of 0.03 µg Cd/m³, a chronic-duration inhalation MRL of 0.01 µg Cd/m³, an intermediate-duration oral MRL of 0.5 µg Cd/kg/day, and a chronic-duration oral MRL of 0.1 µg/kg/day. The chronic oral MRL is derived from an urinary cadmium benchmark dose lower confidence limit (UCDL10) of 0.5 µg/g creatinine for a 10 percent increase in the prevalence of abnormal low-molecular-weight proteinuria, translated via a toxicokinetic model to a dietary intake of 0.33 µg/kg/day in females at age 55 (peak renal cortex concentration), divided by an uncertainty factor of 3 for human variability. ATSDR's chronic oral MRL is the tightest of the internationally-circulating cadmium reference values, below both the EFSA TWI and the JECFA PTMI when all are expressed on a daily basis, and below typical US dietary cadmium intake as estimated by the agency itself.
 

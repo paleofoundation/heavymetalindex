@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # EPA Ecological Soil Screening Levels for Nickel (March 2007)
 
-## TL;DR
+## Summary
 
 The March 2007 EPA Ecological Soil Screening Level (Eco-SSL) document for nickel provides soil concentration thresholds below which exposure is presumed to pose acceptably low ecological risk to plants, soil invertebrates, birds, and mammals. Eco-SSLs are screening tools for hazardous-waste-site evaluations under CERCLA, not human-health regulatory limits. The values are relevant to the wiki primarily as a supply-chain reference for evaluating agricultural soils for nickel contamination, given EFSA's 2020 finding that dietary nickel exposure routinely exceeds the TDI in subpopulations.
 

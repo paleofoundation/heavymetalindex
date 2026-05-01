@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # JECFA 61st Meeting — Methylmercury (WHO TRS 922)
 
-## TL;DR
+## Summary
 
 The Joint FAO/WHO Expert Committee on Food Additives 61st meeting (Rome, June 2003, report published 2004 as WHO TRS 922) re-evaluated methylmercury and established the international provisional tolerable weekly intake of **1.6 µg MeHg/kg body weight per week**, replacing the prior PTWI of 3.3 µg/kg/wk. The 1.6 µg/kg/wk PTMI is anchored on developmental neurotoxicity observed in cohort studies of children exposed in utero through maternal seafood consumption (Faroe Islands and Seychelles cohorts), with a 6.4 µg MeHg/L maternal hair concentration as the no-observed-adverse-effect level translated to dietary intake.
 

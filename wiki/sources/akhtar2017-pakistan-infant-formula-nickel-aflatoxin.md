@@ -23,7 +23,7 @@ updated: 2026-04-29
 
 # Akhtar et al. 2017 — Pakistan Infant Formula Milk Nickel
 
-## TL;DR
+## Summary
 
 This peer-reviewed infant formula milk study measured nickel, lead, cadmium, iron, zinc, and aflatoxin M1 in 13 formula brands purchased in Pakistani markets. It is relevant to broad powdered infant-formula nickel context, but it does not distinguish cow-milk, non-soy, or soy-based formulas and reports brand-level summary ranges rather than a reconstructable percentile distribution.
 

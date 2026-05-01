@@ -27,7 +27,7 @@ updated: 2026-04-29
 
 # Collado-Lopez et al. 2025 — Heavy Metals In Baby Foods And Formula
 
-## TL;DR
+## Summary
 
 This scoping review synthesizes global evidence for Pb, Cd, arsenic, and mercury concentrations in processed baby foods and infant formulas. It is useful for Category 1 as an evidence map and prioritization source, but primary-study values should be preferred for final p-value aggregation where available.
 

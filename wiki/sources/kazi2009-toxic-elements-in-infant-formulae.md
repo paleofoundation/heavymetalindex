@@ -24,7 +24,7 @@ updated: 2026-04-29
 
 # Kazi et al. 2009 — Toxic Elements In Infant Formulae
 
-## TL;DR
+## Summary
 
 This study measured Al, Cd, and Pb in imported milk-based and soy-based infant formulae purchased in Pakistan during 2005-2006. It is useful for Category 1 because it directly compares milk-based and soy-based formula powders and reports product-level Table 3 values.
 

@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Tamagno and Freeman 2025 — Glutamate-Mediated Neural Alterations in Lead Exposure
 
-## TL;DR
+## Summary
 
 This is a 2025 peer-reviewed mechanistic review by Wagner A. Tamagno and Jennifer L. Freeman (Purdue University, School of Health Sciences) on the molecular pathways through which lead disrupts glutamatergic signaling in the central nervous system, with emphasis on mechanisms relevant to childhood developmental neurotoxicity. The review covers Pb interference with ionotropic glutamate receptors (NMDA and AMPA), metabotropic receptors, glutamate transporters (EAATs, VGLUTs, SNATs), and metabolic pathways (glutamate-glutamine cycle, TCA cycle, glutathione synthesis). The mechanistic core is Pb²⁺ mimicry of divalent cations Ca²⁺ and Zn²⁺, which disrupts calcium homeostasis, exacerbates excitotoxicity, and induces oxidative stress, ultimately impairing neuronal communication and synaptic function. The review is the type of mechanistic source that complements the dose-response regulatory frame from EFSA 2010 and provides the molecular-level explanation for the developmental neurotoxicity endpoint that drives every modern lead reference value.
 

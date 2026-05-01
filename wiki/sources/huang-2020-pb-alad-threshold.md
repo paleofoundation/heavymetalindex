@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Huang et al. 2020 — Lead-ALAD Activity Threshold
 
-## TL;DR
+## Summary
 
 This 2020 cross-sectional analysis by Huang and colleagues at Kaohsiung Medical University (Taiwan) used Generalized Additive Models to detect the dose-response threshold at which lead exposure reduces δ-aminolevulinic acid dehydratase (ALAD) activity, a sensitive biomarker of lead's interference with heme biosynthesis. The study compared 121 lead workers to 117 non-exposed workers, providing biomarker dose-response relevant to occupational and high-exposure populations. ALAD activity reduction is one of the earliest measurable biological responses to lead exposure and is mechanistically distinct from the developmental neurotoxicity that drives the EFSA 2010 reference values.
 

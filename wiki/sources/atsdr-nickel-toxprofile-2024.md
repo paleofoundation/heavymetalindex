@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # ATSDR 2024 — Toxicological Profile for Nickel
 
-## TL;DR
+## Summary
 
 The October 2024 ATSDR Toxicological Profile for Nickel is the current US comprehensive toxicology synthesis for nickel. It covers oral and inhalation routes across acute, intermediate, and chronic durations, addresses the carcinogenic risks of nickel compounds (NTP 15th RoC: known human carcinogens) primarily relevant to occupational inhalation, and the non-cancer endpoints (reproductive and developmental effects, systemic contact dermatitis in nickel-sensitized individuals) relevant to dietary exposure.
 

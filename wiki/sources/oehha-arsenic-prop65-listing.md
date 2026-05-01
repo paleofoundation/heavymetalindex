@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # OEHHA Prop 65 — Inorganic Arsenic Listing
 
-## TL;DR
+## Summary
 
 Inorganic arsenic compounds are listed under California Proposition 65 as chemicals known to the state to cause cancer. The associated quantitative implementation thresholds (No Significant Risk Level for cancer, and reproductive-toxicity Maximum Allowable Daily Levels if listed for reproductive endpoints) are set in separate OEHHA documents pending separate ingest. As with all Prop 65 cancer listings, the operational consequence is the warning-label requirement for consumer products that exceed the NSRL.
 

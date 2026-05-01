@@ -26,7 +26,7 @@ updated: 2026-04-29
 
 # Astolfi et al. 2021 — Italian Powdered Infant Formula Elements
 
-## TL;DR
+## Summary
 
 This study measured 40 elements in 11 powdered infant formulas authorized and sold in Italy, using two packs of each product for 22 packs total, and assessed intake for selected metals. It is useful for Category 1 because it provides a focused powdered-formula dataset under an EU regulatory context.
 

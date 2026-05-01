@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # ATSDR 2007 — Toxicological Profile for Arsenic
 
-## TL;DR
+## Summary
 
 The August 2007 ATSDR Toxicological Profile for Arsenic is a comprehensive synthesis of inorganic and organic arsenic toxicology under CERCLA Section 104(i). The profile derives Minimal Risk Levels for inhalation and oral routes of exposure to inorganic arsenic, the species responsible for human carcinogenicity. The 2007 vintage is older than the 2012 cadmium and 2020 lead ATSDR profiles in this corpus, and pre-dates the EPA IRIS 2025 reassessment of inorganic arsenic; it remains the operative ATSDR reference for arsenic toxicology in US public-health practice.
 

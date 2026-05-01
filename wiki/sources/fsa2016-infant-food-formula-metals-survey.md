@@ -21,7 +21,7 @@ updated: 2026-04-28
 
 # FSA 2016 — Infant Food And Formula Metals Survey
 
-## TL;DR
+## Summary
 
 This UK Food Standards Agency survey measured metals and related elements in 47 infant formula samples, 200 commercial infant food samples, and 50 composite non-infant-specific food samples used in infant diets. It is useful for Category 1 because it provides category-level average concentration tables for formula formats and infant-food groupings.
 

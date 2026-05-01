@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # JECFA 72nd Meeting (2010) — Lead Re-evaluation (WHO TRS 959)
 
-## TL;DR
+## Summary
 
 The 72nd JECFA meeting (Rome, February 2010) re-evaluated lead and **withdrew the long-standing provisional tolerable weekly intake of 25 µg/kg body weight per week**, on the basis that the dose-response data for the most sensitive endpoints (developmental neurotoxicity in young children, cardiovascular effects and chronic kidney disease in adults) do not support a threshold-based PTWI. JECFA concluded that no PTWI could be considered health-protective at general-population dietary lead exposures. This withdrawal is the source of the regulatory framing that "lead has no safe dietary level" cited by FDA Closer to Zero, EFSA, ATSDR, and EPA. The same 72nd report also covers acrylamide, arsenic, mercury, perchlorate, furans, and trichothecenes; the lead chapter is the operationally consequential portion for the wiki.
 

@@ -23,7 +23,7 @@ updated: 2026-04-25
 
 # Navaretnam et al. 2025 — Arsenic Speciation in White and Brown Rice
 
-## TL;DR
+## Summary
 
 This 2025 original-research paper by Navaretnam and colleagues (multiple Malaysian institutions including Universiti Putra Malaysia) presents an improved HPLC-ICP-MS analytical method for quantifying arsenite (As(III)), arsenate (As(V)), dimethylarsinic acid (DMA), and monomethylarsonic acid (MMA) in white and brown rice samples, with a method retention time under 4 minutes. The paper combines the methodological advance with a health risk assessment based on measured rice arsenic concentrations. It is one of the recent primary references for inorganic arsenic concentration in rice samples and supports the [[ingredients/rice|rice ingredient page]] contamination_profile population.
 

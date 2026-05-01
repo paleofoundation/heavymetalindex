@@ -18,7 +18,7 @@ updated: 2026-04-29
 
 # Parker 2022 — Arsenic, Cadmium, Lead, And Mercury In Baby Foods
 
-## TL;DR
+## Summary
 
 This peer-reviewed study measured total arsenic, cadmium, mercury, and lead in 36 US baby and toddler food samples across four ingredient categories: fruit, grain, leguminous vegetable, and root vegetable. It is valuable for Category 1 because it reports `n`, detection frequency, minimum, mean, median, maximum, and standard deviation by matrix.
 
