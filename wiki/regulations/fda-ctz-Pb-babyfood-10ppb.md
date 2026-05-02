@@ -13,7 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats)"
-updated: 2026-04-24
+updated: 2026-05-02
 audience: [regulator, educator]
 ---
 
@@ -82,6 +82,7 @@ Pending ingest of the corresponding EU Regulation 2023/915 provisions, Codex Ali
 ## Parent program
 
 - [[regulations/fda-closer-to-zero]]
+- [[regulations/fda2025-lead-processed-baby-foods]]
 
 ## Sources
 

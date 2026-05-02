@@ -6,19 +6,25 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2025
 publication: "U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program"
 doi: null
-source_type: gov-report
+source_type: gov-guidance
 evidence_tier: A
-raw_path: raw/reports/FDA_CloserToZero_ActionPlan.pdf
+raw_path: raw/reports/FDA-Guidance-Jan2025-LeadProcessedFoodBabyChildren-12312024.pdf
 sha256: 8d52935f682a50daf68f6fb7f051c8ddec2cb7b22093ab910fcf1b5f8a32b110
-access_date: 2026-04-24
-access_url: https://www.fda.gov/FoodGuidances
+related_raw_paths:
+  - raw/reports/FDA_CloserToZero_Lead_ActionLevels_2025.pdf
+related_sha256:
+  FDA_CloserToZero_Lead_ActionLevels_2025.pdf: d349ed5cc116261df02ba4c0b6f90e77cb6b9a5ac83aec71120234c588ebd40c
+access_date: 2026-05-02
+access_url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children
+download_url: https://www.fda.gov/media/164684/download
+docket: FDA-2022-D-0278
 license: us-government-work
 metals: [Pb]
 ingredients: ["[[ingredients/rice-flour]]", "[[ingredients/rice-cereal]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potatoes]]", "[[ingredients/fruits]]", "[[ingredients/vegetables]]", "[[ingredients/yogurt]]", "[[ingredients/single-ingredient-meats]]"]
 products: ["[[products/infant-rice-cereal]]", "[[products/dry-infant-cereal]]", "[[products/single-ingredient-root-vegetable-babyfood]]", "[[products/processed-babyfood-mixtures]]", "[[products/babyfood-fruits]]", "[[products/babyfood-vegetables]]", "[[products/babyfood-yogurts-custards]]", "[[products/babyfood-single-ingredient-meats]]"]
 jurisdictions: [US]
 superseded_by: null
-updated: 2026-04-24
+updated: 2026-05-02
 ---
 
 # FDA 2025 — Lead Action Levels for Processed Food for Babies and Young Children
@@ -26,6 +32,17 @@ updated: 2026-04-24
 ## Summary
 
 This is FDA's final January 2025 guidance under the Closer to Zero program, setting three action levels for lead in processed foods intended for babies and young children less than two years of age: 10 ppb for fruits, non-root vegetables, mixtures, yogurts and custards, and single-ingredient meats; 20 ppb for single-ingredient root vegetables; and 20 ppb for dry infant cereals. The action levels are non-binding guidance issued under 21 CFR 109.6(d), defining the thresholds at which FDA may regard a food as adulterated within the meaning of section 402(a)(1) of the Federal Food, Drug, and Cosmetic Act. The scientific basis is the CDC blood lead reference value of 3.5 µg/dL translated through FDA's 2022-updated Interim Reference Levels of 2.2 µg/day for children and 8.8 µg/day for women of childbearing age, with each action level chosen to place industry achievability in the 90th to 95th percentile range of occurrence data collected from 2009 through 2024.
+
+## Ingest decision
+
+Two local PDFs were reviewed for this ingest. They are not treated as two independent evidence sources because they represent the same FDA January 2025 guidance record:
+
+| Local artifact | Role in index | Pages | SHA-256 |
+| --- | --- | ---: | --- |
+| `raw/reports/FDA-Guidance-Jan2025-LeadProcessedFoodBabyChildren-12312024.pdf` | Copy of record: full final guidance document used for action levels, tables, definitions, and legal status | 19 | `8d52935f682a50daf68f6fb7f051c8ddec2cb7b22093ab910fcf1b5f8a32b110` |
+| `raw/reports/FDA_CloserToZero_Lead_ActionLevels_2025.pdf` | FDA guidance webpage snapshot/landing-page artifact used to verify docket, final status, download relationship, and related links | 3 | `d349ed5cc116261df02ba4c0b6f90e77cb6b9a5ac83aec71120234c588ebd40c` |
+
+The canonical public link is the FDA guidance page in `access_url`; the full document download is preserved in `download_url`. The source page therefore remains one citable source node, avoiding duplicate citation weight while preserving both local provenance artifacts.
 
 ## Key numbers
 
@@ -96,19 +113,20 @@ Enforcement framing the guidance states explicitly: the action levels are not le
 
 ## Implications
 
-- Certification: the action levels define the US federal floor for lead in processed baby food against which HMT&C thresholds for these matrices should be calibrated. Any HMT&C limit tighter than 10 ppb for the combined category, 20 ppb for root vegetables, or 20 ppb for dry infant cereal is a policy choice; the rationale (precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment) should be named per CLAUDE.md's wiki-to-HMT&C firewall rule.
+- Certification: the action levels define US federal enforcement-relevant context for lead in processed baby food, not HMTc standards and not legally enforceable maximum levels. Any HMTc limit tighter than 10 ppb for the combined category, 20 ppb for root vegetables, or 20 ppb for dry infant cereal is a standards-development choice; the rationale (precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment) should be named per the wiki-to-HMTc firewall rule.
 - Courses: the IRL derivation from CDC's BLRV plus a 10x safety factor, and the achievability framing at the 90th to 95th percentile of occurrence data, are both teachable patterns that recur across FDA Closer to Zero guidances. The distinction between a non-binding action level under 21 CFR 109.6(d) and an enforceable maximum level under other authorities is also a teachable concept.
 - App: the action levels themselves are metadata for the products covered, not per-ingredient contamination values. The 90th percentile consumption data (354 g/day combined, 106 g/day root vegetables, 39 g/day dry cereal for children 0 to 23 months) does inform recipe-inference and per-serving exposure estimates in the app layer. Mean occurrence values (2.2, 8.2, and 7.8 ppb respectively) and their post-action-level equivalents (1.7, 5.8, 6.0 ppb) can seed contamination profiles for the product categories with `confidence: high` given the 1,452-sample basis, once the ingredient-to-product mapping is established.
 - Microbiome: not applicable. This document does not address microbiome effects of lead exposure.
 
 ## Provenance notes
 
-Document classified `us-government-work` under 17 U.S.C. § 105 and freely redistributable. The `access_url` field points to the general FDA Food Guidances landing page rather than the specific guidance URL because the document itself does not embed a direct URL to its own guidance page; docket FDA-2022-D-0278 is the canonical identifier, searchable at regulations.gov. SHA-256 verification should reproduce `8d52935f682a50daf68f6fb7f051c8ddec2cb7b22093ab910fcf1b5f8a32b110` on the copy of record in `raw/reports/`. This final guidance supersedes an earlier draft issued under the same docket; if a future revision is issued, this source page will be retained and `superseded_by` will point to the new cite key.
+Document classified `us-government-work` under 17 U.S.C. § 105 and freely redistributable. The `access_url` field points to the FDA guidance landing page, and `download_url` points to the 19-page full guidance PDF. Docket FDA-2022-D-0278 is the canonical docket identifier, searchable at regulations.gov. SHA-256 verification should reproduce `8d52935f682a50daf68f6fb7f051c8ddec2cb7b22093ab910fcf1b5f8a32b110` on the full copy of record and `d349ed5cc116261df02ba4c0b6f90e77cb6b9a5ac83aec71120234c588ebd40c` on the FDA webpage snapshot artifact. This final guidance supersedes an earlier draft issued under the same docket; if a future revision is issued, this source page will be retained and `superseded_by` will point to the new cite key.
 
 ## Wiki pages updated on ingest
 
 - [[metals/lead]]
 - [[regulations/fda-closer-to-zero]]
+- [[regulations/fda2025-lead-processed-baby-foods]]
 - [[regulations/fda-ctz-Pb-babyfood-10ppb]]
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]]
 - [[regulations/fda-ctz-Pb-cereal-20ppb]]
