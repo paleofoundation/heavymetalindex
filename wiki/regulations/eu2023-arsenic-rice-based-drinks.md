@@ -9,6 +9,7 @@ value_ug_kg: 30
 basis: wet weight
 product_scope: non-alcoholic rice-based drinks
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+source_page: sources/eu-2023-915-contaminants-maximum-levels
 updated: 2026-05-01
 ---
 
@@ -32,3 +33,5 @@ This is an external regulatory value for [[products/plant-milks-rice-based]]. It
 ## Legal Source Handling
 
 Commission Regulation (EU) 2023/465 introduced the 0.030 mg/kg value for non-alcoholic rice-based drinks by amending Regulation (EC) No. 1881/2006. Regulation (EU) 2023/465 was later implicitly repealed when Regulation (EU) 2023/915 replaced and consolidated the EU contaminants framework. For current-facing comparison tables, cite Regulation (EU) 2023/915; retain 2023/465 as the historical amendment trail.
+
+This row is now also represented in the broader EU 2023/915 source ingest at [[sources/eu-2023-915-contaminants-maximum-levels]] and the canonical hub [[regulations/eu2023-contaminants-maximum-levels]].

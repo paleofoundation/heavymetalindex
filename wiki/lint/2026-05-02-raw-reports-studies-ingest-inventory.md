@@ -12,16 +12,16 @@ This audit controls the next ingest wave for `raw/reports` followed by `raw/stud
 
 | Bucket | PDF files |
 | --- | ---: |
-| Reports | 50 |
+| Reports | 51 |
 | Studies | 331 |
-| Total | 381 |
+| Total | 382 |
 
 ## Source-Page Status
 
 | Status | Count |
 | --- | ---: |
 | deferred_historical | 1 |
-| matched_by_raw_path | 55 |
+| matched_by_raw_path | 56 |
 | matched_by_sha256 | 2 |
 | no_source_page | 318 |
 | rejected_unusable | 2 |
@@ -32,7 +32,7 @@ This audit controls the next ingest wave for `raw/reports` followed by `raw/stud
 
 | Priority | Count |
 | --- | ---: |
-| P0-report-regulatory-toxicology | 29 |
+| P0-report-regulatory-toxicology | 30 |
 | P1-report-context | 17 |
 | P1-study-product-relevant | 36 |
 | P2-study-background | 295 |

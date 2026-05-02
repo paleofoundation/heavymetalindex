@@ -7,6 +7,11 @@ updated: 2026-05-02
 
 Regulation pages describe specific thresholds, action levels, and guidance from specific jurisdictions. Principal jurisdictions covered include the United States (Food and Drug Administration, Environmental Protection Agency, California Proposition 65, and state attorneys general), the European Union (European Food Safety Authority and the Commission Regulations on contaminants), the World Health Organization and Codex Alimentarius, and others where material appears in the literature. Every page preserves the exact value from the agency source; unit conversions are shown rather than concealed.
 
+## EU Contaminants Maximum Levels
+
+- [[regulations/eu2023-contaminants-maximum-levels]] - canonical HMI hub for Commission Regulation (EU) 2023/915, the EU maximum-level framework for contaminants in food.
+- [[regulations/eu-2023-915-cadmium]] - cadmium matrix maximum levels for infant foods, cereals, rice, vegetables, oilseeds, cocoa/chocolate, fishery products, offal, and supplements.
+
 ## Category 5 Beverage Regulations
 
 - [[regulations/eu2023-arsenic-rice-based-drinks]]

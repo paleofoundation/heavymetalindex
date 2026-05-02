@@ -89,7 +89,8 @@ _Some metals not listed in this section because no ingested source yet covers th
 ## Regulatory limits that apply
 
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for rice (pending ingest of CXS 193-1995).
-- EU Regulation (EU) 2023/915 Cd ML for rice (pending ingest).
+- [[regulations/eu-2023-915-cadmium]] — EU Cd maximum level for rice, quinoa, wheat bran, and wheat gluten is 0.15 mg/kg (150 ug/kg).
+- [[regulations/eu2023-contaminants-maximum-levels]] — EU inorganic arsenic maximum levels: 0.10 mg/kg (100 ug/kg) for rice destined for production of food for infants and young children; 0.15 mg/kg (150 ug/kg) for non-parboiled milled rice; 0.25 mg/kg (250 ug/kg) for parboiled rice, husked rice, and rice flour; 0.30 mg/kg (300 ug/kg) for rice waffles, wafers, crackers, cakes, flakes, and popped breakfast rice; 0.030 mg/kg (30 ug/kg) for non-alcoholic rice-based drinks.
 - [[regulations/fda-closer-to-zero]] — FDA CTZ inorganic arsenic action level of 100 ppb in infant rice cereal is adjacent but not a cadmium rule.
 
 ## Related finished-product evidence
@@ -99,4 +100,5 @@ _Some metals not listed in this section because no ingested source yet covers th
 ## Sources
 
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] — review-level rice/rice-mix baby-food signal for Pb and As.
+- [[sources/eu-2023-915-contaminants-maximum-levels]] — EU 2023/915 rice, rice-product, and rice-drink maximum levels for Cd and iAs.
 - See [[metals/cadmium]] for the cross-source synthesis that identifies rice as a population-level contributor.

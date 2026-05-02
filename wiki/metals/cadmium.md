@@ -7,8 +7,8 @@ species: [Cd2+, cadmium-metallothionein]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/cadmium-gut-axis]]", "[[microbiome/cadmium-dysbiosis]]"]
-updated: 2026-04-30
-sources: 9
+updated: 2026-05-02
+sources: 10
 ---
 
 # Cadmium
@@ -112,7 +112,7 @@ Reference values and maximum levels established to date, with more to populate a
 | US ATSDR | Chronic inhalation MRL | 0.01 µg Cd/m³ | [[regulations/atsdr-cadmium-mrls]] |
 | US ATSDR | Acute inhalation MRL | 0.03 µg Cd/m³ | [[regulations/atsdr-cadmium-mrls]] |
 | EFSA (EU) | TWI | 2.5 µg/kg b.w./week | [[regulations/efsa-cadmium-twi]] |
-| EU | Maximum levels in food commodities | Regulation-specific (by matrix) | [[regulations/eu-2023-915-cadmium]] (pending ingest) |
+| EU | Binding maximum levels in food commodities | Regulation-specific by matrix: infant formula 5-20 ug/kg depending format/protein source; baby food and processed cereal-based infant/young-child food 40 ug/kg; rice/quinoa/wheat bran/wheat gluten 150 ug/kg; cereals general 100 ug/kg; spinach/herbs 200 ug/kg; sunflower/linseed 500 ug/kg; cocoa powder 600 ug/kg; chocolate 100-800 ug/kg by cocoa solids; bivalves 1000 ug/kg; liver 500 ug/kg; kidney 1000 ug/kg | [[regulations/eu-2023-915-cadmium]] |
 | JECFA (international) | PTMI | 25 µg/kg b.w./month (≈ 5.83/week equivalent) | [[regulations/jecfa-cadmium-ptmi]] |
 | US EPA | IRIS oral RfD (food) | 1 × 10⁻³ mg/kg/day (1.0 µg/kg/day) | [[regulations/epa-iris-cadmium-rfd]] |
 | US EPA | IRIS oral RfD (water) | 5 × 10⁻⁴ mg/kg/day (0.5 µg/kg/day) | [[regulations/epa-iris-cadmium-rfd]] |

@@ -88,7 +88,7 @@ _Some metals not listed in this section because no ingested source yet covers th
 ## Regulatory limits that apply
 
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for cereal grains (pending ingest of CXS 193-1995). The CCCF17 2024 discussion on quinoa (held separate from cereals at 0.15 mg/kg) recorded that one Member delegation cited cereals as a "serious contributor to exposure to cadmium" in their region, consistent with the wiki's cross-source synthesis.
-- EU Regulation (EU) 2023/915 Cd MLs for cereals (pending ingest).
+- [[regulations/eu-2023-915-cadmium]] — EU Cd maximum levels for cereals: 0.10 mg/kg (100 ug/kg) for cereals except listed rows; 0.050 mg/kg (50 ug/kg) for barley and rye; 0.15 mg/kg (150 ug/kg) for rice, quinoa, wheat bran, and wheat gluten; 0.18 mg/kg (180 ug/kg) for durum wheat; 0.20 mg/kg (200 ug/kg) for wheat germ.
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] — FDA CTZ 20 ppb lead action level for dry infant cereals is the adjacent Pb rule; any future Cd analogue under the CTZ program would apply similarly to wheat-based infant cereal.
 
 ## Sources

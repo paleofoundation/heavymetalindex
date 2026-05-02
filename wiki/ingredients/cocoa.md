@@ -87,7 +87,7 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 
 - [[regulations/jecfa-cadmium-ptmi]] — Not a cocoa-specific limit but the health-based reference value Codex cocoa MLs are aligned against; children 0.5 to 12 can reach 96 percent of the PTMI with cocoa included in total dietary intake.
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level MLs for cocoa and chocolate products (pending ingest of CXS 193-1995 and CXC 81-2022); CCCF17 2024 initiated a broader Code of Practice for cadmium across foods with cocoa as the precedent category.
-- EU Regulation (EU) 2023/915 Cd MLs for cocoa and cocoa-containing products (pending ingest).
+- [[regulations/eu-2023-915-cadmium]] — EU Cd maximum level for cocoa powder placed on the market for the final consumer or as an ingredient in sweetened cocoa powder/powdered chocolate is 0.60 mg/kg (600 ug/kg). Chocolate products are regulated separately by cocoa-solid percentage on [[ingredients/chocolate]].
 
 ## Sources
 

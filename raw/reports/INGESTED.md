@@ -10,9 +10,9 @@ The report folder has now been reconciled through `npm run evidence:raw-inventor
 
 | State | Count |
 | --- | ---: |
-| Report PDFs held locally | 50 |
+| Report PDFs held locally | 51 |
 | Matched by source-page raw path or related raw path | 44 |
-| Matched by source-page SHA-256 | 0 |
+| Matched by source-page SHA-256 | 1 |
 | Deliberately not promoted as independent source pages | 6 |
 | Report PDFs requiring new source pages | 0 |
 
@@ -35,6 +35,7 @@ These files are retained in raw storage but should not be promoted as independen
 
 - `FDA-Guidance-Jan2025-LeadProcessedFoodBabyChildren-12312024.pdf` -> [[sources/fda-ctz-Pb-babyfood-2025]]
 - `FDA_CloserToZero_Lead_ActionLevels_2025.pdf` -> [[sources/fda-ctz-Pb-babyfood-2025]] as the FDA guidance landing-page snapshot for the same January 2025 guidance record.
+- `Commission Regulation (EU) 2023-915 on maximum levels for certain contaminants in food.pdf` -> [[sources/eu-2023-915-contaminants-maximum-levels]]
 
 ## FDA Lead Processed Baby Food Guidance Artifacts
 

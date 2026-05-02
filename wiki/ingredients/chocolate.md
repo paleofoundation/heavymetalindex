@@ -87,7 +87,7 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 
 - [[regulations/jecfa-cadmium-ptmi]] — JECFA 91st meeting 2022: cocoa powder alone drives a 97.5th-percentile cadmium exposure of 12 µg/kg b.w./month in European children aged 7 to 11, indicating that chocolate products heavy in cocoa powder warrant particular attention for child consumers.
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level MLs for chocolate products (pending ingest of CXS 193-1995).
-- EU Regulation (EU) 2023/915 Cd MLs for chocolate products by cocoa-solid percentage (pending ingest).
+- [[regulations/eu-2023-915-cadmium]] — EU Cd maximum levels for chocolate products are 0.10 mg/kg (100 ug/kg) for milk chocolate with <30 percent total dry cocoa solids; 0.30 mg/kg (300 ug/kg) for chocolate with <50 percent total dry cocoa solids and milk chocolate with >=30 percent total dry cocoa solids; and 0.80 mg/kg (800 ug/kg) for chocolate with >=50 percent total dry cocoa solids.
 
 ## Sources
 

@@ -136,6 +136,8 @@ function suggestedSourceType(path: string): string {
       lower.includes("codex") ||
       lower.includes("minamata") ||
       lower.includes("who") ||
+      lower.includes("commission regulation") ||
+      lower.includes("2023-915") ||
       lower.includes("978924")
     ) {
       return "gov-report"
@@ -156,6 +158,8 @@ function ingestPriority(path: string): string {
       lower.includes("efsa") ||
       lower.includes("jecfa") ||
       lower.includes("codex") ||
+      lower.includes("commission regulation") ||
+      lower.includes("2023-915") ||
       lower.includes("oehha")
     ) {
       return "P0-report-regulatory-toxicology"

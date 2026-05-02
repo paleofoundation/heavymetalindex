@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-02T21:42:11.557Z",
+  "generated_at": "2026-05-02T22:30:04.321Z",
   "buckets": [
     "raw/reports",
     "raw/studies"
   ],
-  "total_pdf_files": 381,
+  "total_pdf_files": 382,
   "by_bucket": {
-    "reports": 50,
+    "reports": 51,
     "studies": 331
   },
   "by_source_page_status": {
-    "matched_by_raw_path": 55,
+    "matched_by_raw_path": 56,
     "rejected_unusable": 2,
     "superseded_artifact": 1,
     "deferred_historical": 1,
@@ -21,7 +21,7 @@
   "by_ingest_priority": {
     "P1-report-context": 17,
     "P9-out-of-scope": 1,
-    "P0-report-regulatory-toxicology": 29,
+    "P0-report-regulatory-toxicology": 30,
     "P8-superseded": 1,
     "P9-filename-content-misfire": 1,
     "P4-historical-draft": 1,

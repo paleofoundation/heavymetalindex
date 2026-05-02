@@ -46,7 +46,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 | Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
 | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic]] (iAs) | No federal product-specific limit loaded in this crosswalk. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 300 ug/kg iAs. Scope: rice waffles, rice wafers, rice crackers, rice cakes, rice flakes, and popped breakfast rice. Basis: product as placed on market. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Use as regulatory context only until product scope is confirmed. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
 
 <!-- END: hmi-product-crosswalk -->
 

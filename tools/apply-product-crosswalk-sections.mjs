@@ -5,7 +5,7 @@ const repoRoot = process.cwd()
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
 const limitsPath = path.join(repoRoot, "data/evidence/regulatory_limits.csv")
 const productDir = path.join(repoRoot, "wiki/products")
-const today = "2026-05-01"
+const today = "2026-05-02"
 
 const beginMarker = "<!-- BEGIN: hmi-product-crosswalk -->"
 const endMarker = "<!-- END: hmi-product-crosswalk -->"
@@ -418,6 +418,10 @@ function readerRead(row) {
   }
 
   if (status.includes("blocked") || status.includes("pending")) {
+    const specificStatus = stripPercentileSummary(row.comparison_status || "")
+    if (/(basis|species|scope|product-as-placed|prepared-for-feeding|extracted|inorganic arsenic|total arsenic)/i.test(specificStatus)) {
+      return specificStatus
+    }
     return "Limit is visible, but exceedance comparison is blocked until product-row values are extracted and basis/species match."
   }
 

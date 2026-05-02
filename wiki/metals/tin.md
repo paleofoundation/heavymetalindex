@@ -6,9 +6,9 @@ name: Tin
 species: [Sn2+, Sn4+, organotins]
 audience: [regulator, educator, researcher]
 microbiome_relevance: low
-updated: 2026-04-30
-status: stub
-n_sources: 1
+updated: 2026-05-02
+status: scaffold
+n_sources: 2
 ---
 
 # Tin
@@ -19,7 +19,15 @@ Tin (Sn, atomic number 50) in the food system arises principally from tinplate-l
 
 ## Status
 
-This page is a stub. Substantive content awaits corpus ingest. See [methodology](/methodology) for the current state of the project.
+This page is a scaffold. EU 2023/915 inorganic-tin maximum levels for canned foods have been routed, but the full tin toxicology and canned-product occurrence synthesis remains on the ingest queue.
+
+## Regulatory Limits
+
+| Jurisdiction / Body | Type | Value | Page |
+| --- | --- | --- | --- |
+| EU | Binding maximum levels for inorganic tin | Canned food 200 mg/kg; canned beverages 100 mg/kg; canned infant formula/follow-on/young-child formula 50 mg/kg; canned baby food and canned processed cereal-based food 50 mg/kg; canned infant/young-child medical foods 50 mg/kg | [[regulations/eu2023-contaminants-maximum-levels]] |
+
+The values above are intentionally shown in mg/kg as well as their product-page normalized equivalents where needed: 50 mg/kg equals 50000 ug/kg.
 
 ## Planned sections
 
@@ -28,3 +36,4 @@ Toxicology of inorganic tin and organotin compounds, typical exposure routes, fo
 ## Sources
 
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
+- [[sources/eu-2023-915-contaminants-maximum-levels]] — EU 2023/915 inorganic-tin maximum levels for canned food and canned infant/young-child foods.
