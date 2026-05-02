@@ -32,14 +32,19 @@ This page is HMTc Category 5 row 7. It now has a usable regulatory-versus-field-
 | Ingredient routing    | [[ingredients/plant-milk]], [[ingredients/rice]]                        |
 | HMTc use              | Strong evidence for iAs prioritization; not an HMTc threshold           |
 
+<!-- BEGIN: hmi-product-crosswalk -->
 ## Regulatory Crosswalk Vs Field Findings
 
-| Metal |                                                 External value | Field findings                                                                                    | Comparison status                                                         | HMTc use                                                       |
-| ----- | -------------------------------------------------------------: | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| iAs   | EU maximum level: 30 ug/kg for non-alcoholic rice-based drinks | D'Amato 2026: N=25, mean 15 ug/kg, median 15 ug/kg, range 7-24 ug/kg; no sample exceeded 30 ug/kg | Direct comparison available because matrix, species, and unit basis match | Data-grounded regulatory context and HMTc prioritization input |
-| tAs   |                    No product-specific regulatory value loaded | D'Amato 2026: mean 23 ug/kg, median 22 ug/kg, range 9-58 ug/kg                                    | Context only; tAs is not interchangeable with iAs                         | Speciation support only                                        |
-| Cd    |                       No matched product-specific value loaded | No Cd occurrence source promoted for this row yet                                                 | Blocked                                                                   | Gap                                                            |
-| Pb    |                       No matched product-specific value loaded | No Pb occurrence source promoted for this row yet                                                 | Blocked                                                                   | Gap                                                            |
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-arsenic-rice-based-drinks]] (European Commission maximum level): 30 ug/kg iAs (wet weight; non-alcoholic rice-based drinks). | D'Amato 2026: N=25 Italian rice-based beverages; iAs mean=15 ug/kg, median=15 ug/kg, range=7-24 ug/kg; no sample exceeded 30 ug/kg. | Direct comparison available: product matrix, analyte species, and unit basis match. | External regulatory context and HMTc prioritization input; not an HMTc value. | [[regulations/eu2023-arsenic-rice-based-drinks]]; [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] |
+| [[metals/arsenic-total]] (tAs) | No tAs value loaded for rice-based drinks. | D'Amato 2026: tAs mean=23 ug/kg, median=22 ug/kg, range=9-58 ug/kg. | Context only; tAs is not interchangeable with iAs. | Speciation context only. | [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] |
+
+<!-- END: hmi-product-crosswalk -->
 
 ## Occurrence Evidence
 

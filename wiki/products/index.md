@@ -50,12 +50,25 @@ These pages are graph anchors for sources that report a broader product category
 - [[products/oral-electrolyte-solutions|Oral electrolyte solutions]]
 - [[products/glucose-solutions|Glucose solutions]]
 
-## Category 5 pilot: Beverages
+## Category 5: Beverages
 
-These pages carry the first Category 5 beverage comparison layer. Plant-milk rows separate finished-product evidence from ingredient-only values and place regulatory context next to actual field findings where the matrix, species, and unit basis match.
+These pages carry the first Category 5 beverage comparison layer. The locked row nodes separate finished-product evidence from ingredient-only values and place regulatory context next to actual field findings where the matrix, species, and unit basis match.
 
 - [[products/category-5-beverages]]
+- [[products/fruit-juices-non-apple]]
+- [[products/fruit-juices-apple-containing]]
+- [[products/vegetable-juices-non-root]]
+- [[products/vegetable-juices-root-vegetable-containing]]
 - [[products/plant-milks-non-soy-non-rice]]
 - [[products/plant-milks-soy-based]]
 - [[products/plant-milks-rice-based]]
+- [[products/flavored-waters]]
+- [[products/sports-energy-drinks]]
+- [[products/herbal-botanical-infusions]]
+- [[products/true-tea-camellia-sinensis]]
+- [[products/matcha]]
+- [[products/coffee]]
+- [[products/soft-drinks-carbonated-beverages]]
+- [[products/fermented-beverages-non-tea-based]]
+- [[products/kombucha-tea-based]]
 - [[products/regulatory-crosswalk-field-findings]]

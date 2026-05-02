@@ -36,6 +36,19 @@ sources: 8
 
 This page is a structural scaffold for HMTc Category 1 row 5. FDA compliance samples now provide a direct non-rice dry-cereal lower-bound distribution, while broader cereal and infant-food sources remain useful context.
 
+<!-- BEGIN: hmi-product-crosswalk -->
+## Regulatory Crosswalk Vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]] (US-FDA final guidance action level): 20 ug/kg Pb (dry infant cereal; dry infant cereals for children under 2). | Promoted source coverage exists; structured row extraction pending. | Regulatory value loaded; field-finding comparison blocked until structured occurrence rows are extracted. | Use as external regulatory cap/context, not HMTc value. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+
+<!-- END: hmi-product-crosswalk -->
+
 ## Evidence Governance
 
 Public evidence label: **Modeled or limited evidence**.

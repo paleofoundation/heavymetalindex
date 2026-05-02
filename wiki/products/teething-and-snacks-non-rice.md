@@ -36,6 +36,19 @@ sources: 5
 
 This page is a structural scaffold for HMTc Category 1 row 15. FDA compliance samples add broad grain-based snack context, but non-rice snack-specific p10/p90/p100 distributions are still pending because rice status is not isolated.
 
+<!-- BEGIN: hmi-product-crosswalk -->
+## Regulatory Crosswalk Vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | No product-specific value loaded in this crosswalk. | FSA/Fera occurrence evidence is promoted; structured row extraction pending. | No exact product-specific regulatory value loaded for non-rice teething/snack row. | Occurrence evidence only until regulatory scope is resolved. | [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+
+<!-- END: hmi-product-crosswalk -->
+
 ## Evidence Governance
 
 Public evidence label: **Modeled or limited evidence**.
@@ -115,7 +128,7 @@ The app model placeholder for this row should treat [[ingredients/teething-and-s
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need teething-food or snack-specific FDA, EU, Codex, or other agency sources before adding regulatory crosswalk claims for this row. -->
+See the page-level crosswalk above and [[products/regulatory-crosswalk-field-findings]] for current regulatory context; row-specific enforcement events remain pending.
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 

@@ -37,6 +37,19 @@ sources: 6
 
 This page is a structural scaffold for HMTc Category 1 row 16. FDA compliance samples provide a very small rice-named snack subset and a broad grain-based snack context signal; broader rice/rice-mix baby-food, snack, and teething-biscuit sources remain important context.
 
+<!-- BEGIN: hmi-product-crosswalk -->
+## Regulatory Crosswalk Vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-inorganic]] (iAs) | No product-specific value loaded in this crosswalk. | FSA/Fera occurrence evidence is promoted; structured row extraction pending. | FDA infant rice cereal iAs action level does not automatically apply to rice cakes or snacks. | Occurrence evidence only; avoid silent rice-cereal substitution. | [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+
+<!-- END: hmi-product-crosswalk -->
+
 ## Evidence Governance
 
 Public evidence label: **Modeled or limited evidence**.
@@ -119,7 +132,7 @@ The app model placeholder for this row should treat [[ingredients/teething-and-s
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need teething-food or snack-specific FDA, EU, Codex, or other agency sources before adding regulatory crosswalk claims for this row. -->
+See the page-level crosswalk above and [[products/regulatory-crosswalk-field-findings]] for current regulatory context; row-specific enforcement events remain pending.
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 

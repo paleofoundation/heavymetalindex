@@ -56,6 +56,19 @@ sources: 15
 
 This page is the public evidence page for powdered non-soy infant formula. It is organized around source-backed product concentration evidence, with exposure estimates and broad formula studies separated so they do not get mistaken for direct ppb product measurements.
 
+<!-- BEGIN: hmi-product-crosswalk -->
+## Regulatory Crosswalk Vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/mercury-total]] (tHg) | No product-specific value loaded in this crosswalk. | tAs: N=240, detected 0.1-4.7 ug/kg, P90=1.4 ug/kg; Pb: N=240, detected 0.1-0.6 ug/kg, P90=0.4 ug/kg; Cd: N=240, detected 0.1-1.3 ug/kg, P90=0.4 ug/kg; tHg: N=240, detected 0.07-0.3 ug/kg, P90=0 ug/kg | No matched FDA formula action level loaded; do not compare formula occurrence values to processed-baby-food action levels. | Occurrence evidence for HMTc review; not a regulatory exceedance table. | [[sources/fda2026-infant-formula-product-testing-results]] |
+
+<!-- END: hmi-product-crosswalk -->
+
 ## Evidence Governance
 
 Public evidence label: **Modeled or limited evidence**.
@@ -201,7 +214,7 @@ The app model placeholder for this row should treat [[ingredients/infant-formula
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need formula-specific FDA, EU, Codex, or other agency sources before adding regulatory crosswalk claims for this row. -->
+See the page-level crosswalk above and [[products/regulatory-crosswalk-field-findings]] for current regulatory context; row-specific enforcement events remain pending.
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
