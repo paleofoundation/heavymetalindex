@@ -9,7 +9,7 @@ matrices: [food-for-babies-and-young-children]
 effective_date: 2021-04-01
 sunset_date: null
 title: "FDA Closer to Zero — Program Overview"
-updated: 2026-04-24
+updated: 2026-05-02
 audience: [regulator, educator]
 ---
 
@@ -27,6 +27,7 @@ The program addresses processed foods (packaged foods in jars, pouches, tubs, or
 
 Finalized action levels ingested to date:
 
+- [[regulations/fda2025-lead-processed-baby-foods]] — canonical hub for FDA's January 2025 final guidance action levels for lead in processed foods intended for babies and young children. Use this hub for product-page regulatory crosswalks and legal/HMTc interpretation of the nonbinding guidance status.
 - [[regulations/fda-ctz-Pb-babyfood-10ppb]] — 10 ppb lead, for fruits, non-root vegetables, mixtures, yogurts, custards and puddings, and single-ingredient meats. Finalized January 2025.
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]] — 20 ppb lead, for single-ingredient root vegetables (carrots and sweet potatoes). Finalized January 2025.
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] — 20 ppb lead, for dry infant cereals. Finalized January 2025.

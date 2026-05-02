@@ -7,7 +7,7 @@ species: [Pb2+, tetraethyl-lead]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/lead-gut-axis]]", "[[microbiome/lead-dysbiosis]]"]
-updated: 2026-04-30
+updated: 2026-05-02
 sources: 11
 ---
 
@@ -92,7 +92,7 @@ The framing for lead is different from the framing for most other dietary contam
 
 The leverage points for individual consumers, in approximate order of impact:
 
-For children specifically, the [[regulations/fda-closer-to-zero|FDA Closer to Zero]] matrix-specific action levels (10 ppb in fruits, non-root vegetables, mixtures, yogurts, custards, and single-ingredient meats; 20 ppb in single-ingredient root vegetables; 20 ppb in dry infant cereals) define the upper bound of what FDA may regard as adulterated ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ 2025]]). Choosing baby-food brands and products with documented testing programs that operate below these thresholds reduces exposure relative to the population mean.
+For children specifically, the [[regulations/fda-closer-to-zero|FDA Closer to Zero]] matrix-specific action levels (10 ppb in fruits, non-root vegetables, mixtures, yogurts, custards, and single-ingredient meats; 20 ppb in single-ingredient root vegetables; 20 ppb in dry infant cereals) define an enforcement-relevant federal guidance context for what FDA may regard as adulterated ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ 2025]]; [[regulations/fda2025-lead-processed-baby-foods]]). They are nonbinding recommendations, not statutory maximum levels or HMTc standards. Choosing baby-food brands and products with documented testing programs that operate below these thresholds reduces exposure relative to the population mean.
 
 For non-dietary lead, the dominant exposure pathways for most US consumers are deteriorating leaded paint and contaminated indoor dust in pre-1978 housing, drinking water from lead service lines or lead-soldered plumbing, and (where applicable) imported spices, traditional cosmetics, and lead-glazed ceramics ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]).
 
@@ -109,7 +109,7 @@ For pregnancy and pre-pregnancy planning, the bone-lead reservoir matters: lead 
 | US ATSDR | MRLs | Not derived (no demonstrated threshold) | [[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]] |
 | US CDC | Blood lead reference value | 3.5 µg/dL (97.5th percentile, NHANES 2015-2018) | [[sources/cdc-blood-lead-reference-value|CDC BLRV]] |
 | US FDA | Closer to Zero IRL | 2.2 µg/day (children); 8.8 µg/day (women of childbearing age) | [[regulations/fda-closer-to-zero]] |
-| US FDA | CTZ baby food action levels | 10 ppb (mixed), 20 ppb (root vegetables), 20 ppb (dry infant cereals) | [[regulations/fda-ctz-Pb-babyfood-10ppb]], [[regulations/fda-ctz-Pb-rootveg-20ppb]], [[regulations/fda-ctz-Pb-cereal-20ppb]] |
+| US FDA | CTZ baby food action levels | 10 ppb (mixed), 20 ppb (root vegetables), 20 ppb (dry infant cereals); nonbinding final guidance, enforcement-relevant context | [[regulations/fda2025-lead-processed-baby-foods]], [[regulations/fda-ctz-Pb-babyfood-10ppb]], [[regulations/fda-ctz-Pb-rootveg-20ppb]], [[regulations/fda-ctz-Pb-cereal-20ppb]] |
 | US California | Prop 65 (cancer + reproductive) | Listed; NSRL and MADL pending separate ingest | [[regulations/oehha-lead-prop65]] |
 | Codex Alimentarius | Matrix-level MLs ([[sources/codex-cxs-193-1995\|CXS 193-1995]]) | Cereal grains 0.2 mg/kg; cereal-based infant foods 0.02; infant formula 0.01 (as consumed); fruits 0.1; leafy vegetables 0.3; fish 0.3; cattle offal 0.2; pig offal 0.15; milk 0.02; full table in source page | [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] |
 | EU | Maximum levels in food | Regulation (EU) 2023/915 (pending ingest) | _Pending_ |

@@ -13,7 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals"
-updated: 2026-04-24
+updated: 2026-05-02
 audience: [regulator, educator]
 ---
 
@@ -79,6 +79,7 @@ Pending ingest. Dry infant cereals are specifically called out in EU Regulation 
 ## Parent program
 
 - [[regulations/fda-closer-to-zero]]
+- [[regulations/fda2025-lead-processed-baby-foods]]
 
 ## Sources
 

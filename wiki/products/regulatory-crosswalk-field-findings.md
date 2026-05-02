@@ -2,7 +2,7 @@
 type: product-crosswalk
 title: "Regulatory Crosswalk vs Field Findings"
 audience: [standards-development, regulator, retailer, brand, legal]
-updated: 2026-05-01
+updated: 2026-05-02
 sources: 12
 ---
 
@@ -15,6 +15,7 @@ Regulatory values are not HMTc standards values. They are external legal or guid
 ## How To Read This Table
 
 - "Final guidance" and "regulation" rows may be used as external regulatory context or caps.
+- FDA final guidance action levels that contain nonbinding recommendations should be displayed as enforcement-relevant federal context, not as statutory legal limits and not as HMTc standards.
 - "Draft guidance" rows must not be presented as final legal limits.
 - "No matched value loaded" means the current evidence layer has not identified a product-specific regulatory value for that row.
 - Field findings are shown only where a structured extraction exists. Otherwise the comparison is intentionally blocked rather than guessed.
