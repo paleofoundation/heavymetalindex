@@ -4,6 +4,33 @@ Updated: 2026-05-02
 
 This folder records locally held report PDFs supplied under `raw/reports/`. The PDFs themselves remain local raw evidence and are not committed because `raw/` is intentionally gitignored. Source pages in `wiki/sources/` carry the citable metadata and SHA-256 verification hashes.
 
+## Current Audit State
+
+The report folder has now been reconciled through `npm run evidence:raw-inventory`.
+
+| State | Count |
+| --- | ---: |
+| Report PDFs held locally | 50 |
+| Matched by source-page raw path or related raw path | 44 |
+| Matched by source-page SHA-256 | 0 |
+| Deliberately not promoted as independent source pages | 6 |
+| Report PDFs requiring new source pages | 0 |
+
+The machine-readable queue is tracked at `data/evidence/raw_ingest_inventory.csv`; deliberate overrides are tracked at `data/evidence/raw_ingest_overrides.json`.
+
+## Deliberate Non-Public-Source Decisions
+
+These files are retained in raw storage but should not be promoted as independent source pages in the ordinary reports ingest:
+
+| File | Decision |
+| --- | --- |
+| `2512.24601v2.pdf` | Rejected as out of scope: Recursive Language Models paper, not an HMI food/toxicology/regulatory source. |
+| `ATSDR-2023-0004-0004_content.pdf` | Superseded draft nickel toxicological profile; final ATSDR nickel profile is represented by `wiki/sources/atsdr-nickel-toxprofile-2024.md`. |
+| `Biochem_Mercury_Ralston_2008.pdf` | Filename/content misfire; file contains Mitsuhashi et al. 2008 on pyrogallol/polyphenol apoptosis, not the intended Ralston mercury source. |
+| `EPA_IRIS_Cadmium_ToxicologicalReview.pdf` | Deferred historical artifact; marked external review draft/do-not-quote and not the operative EPA IRIS cadmium value. |
+| `EPA_IRIS_InorganicArsenic_Summary.pdf` | Companion summary artifact for `wiki/sources/epa-iris-inorganic-arsenic-2025.md`; do not create duplicate source weight. |
+| `EPA_IRIS_InorganicMercury_ToxReview.pdf` | Misleading filename; companion/mislabeled methylmercury IRIS artifact already represented by `wiki/sources/epa-iris-methylmercury.md`. |
+
 ## Source Pages Updated
 
 - `FDA-Guidance-Jan2025-LeadProcessedFoodBabyChildren-12312024.pdf` -> [[sources/fda-ctz-Pb-babyfood-2025]]
