@@ -47,6 +47,8 @@ Every extracted data point includes a provenance link to the source document wit
 
 The structured evidence build is tracked under `data/evidence/`. The private `raw/markdown/` corpus remains excluded from git; tracked evidence records contain source handles, candidate values, review states, public labels, and provenance fields only.
 
+The staged PDF backlog workflow is documented in [[methodology/raw-reports-studies-ingest-workflow]]. It requires `raw/reports` to be inventoried and reconciled before the broader `raw/studies` backlog is promoted.
+
 ## Review states and publication
 
 Machine extraction is not publication. The Index distinguishes three important states.

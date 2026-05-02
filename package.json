@@ -23,6 +23,7 @@
     "evidence:digest-formula": "tsx tools/evidence/extract-digest-formula.ts",
     "evidence:percentiles": "tsx tools/evidence/build-percentile-context.ts",
     "evidence:queue": "tsx tools/evidence/build-review-queue.ts",
+    "evidence:raw-inventory": "tsx tools/evidence/build-raw-ingest-inventory.ts",
     "evidence:scan": "tsx tools/evidence/scan-markdown.ts --raw raw/markdown --out data/evidence/drafts",
     "crosswalk:apply": "node tools/apply-product-crosswalk-sections.mjs",
     "format": "npx prettier . --write",
