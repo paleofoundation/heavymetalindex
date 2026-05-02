@@ -25,7 +25,7 @@ _Stub page. This base product node exists for sources that report powdered infan
 
 ## Row Mapping
 
-Use this page when a source supports powdered infant formula generally but does not provide enough information to map cleanly to non-soy or soy-based subrows. Do not compute p90 values on this base page; move row-fit values to the appropriate HMTc row only when soy status, matrix basis, and statistic type are clear.
+Use this page when a source supports powdered infant formula generally but does not provide enough information to map cleanly to non-soy or soy-based subrows. Do not compute public high-end distribution values on this base page; move row-fit values to the appropriate HMTc row only when soy status, matrix basis, and statistic type are clear.
 
 ## Broad Formula Context
 

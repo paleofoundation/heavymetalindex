@@ -16,15 +16,15 @@ sources: 2
 # Infant Formula, Concentrated Liquid (Soy-Based)
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/mercury-total]] (tHg) | No product-specific value loaded in this crosswalk. | tAs: N=3, detected 0.6-0.7 ug/kg, P90=0.68 ug/kg; Pb: N=3, detected 0.3-0.4 ug/kg, P90=0.38 ug/kg; Cd: N=3, detected 1.3-1.5 ug/kg, P90=1.46 ug/kg; tHg: N=3, detected 0.05-0.05 ug/kg, P90=0.04 ug/kg | No matched FDA formula action level loaded; do not compare formula occurrence values to processed-baby-food action levels. | Occurrence evidence for HMTc review; not a regulatory exceedance table. | [[sources/fda2026-infant-formula-product-testing-results]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/mercury-total]] (tHg) | No federal product-specific limit loaded in this crosswalk. | tAs: N=3, detected 0.6-0.7 ug/kg; Pb: N=3, detected 0.3-0.4 ug/kg; Cd: N=3, detected 1.3-1.5 ug/kg; tHg: N=3, detected 0.05-0.05 ug/kg. FDA formula occurrence evidence is present, but no matched formula action level is loaded here. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/fda2026-infant-formula-product-testing-results]] |
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -37,14 +37,14 @@ _Stub page. This bridge node exists for sources that report concentrated liquid 
 
 ## FDA 2026 Prepared-For-Feeding Context
 
-The FDA 2026 special survey includes 3 concentrated liquid soy-based formula samples per analyte. These are retained as bridge context only; they are not assigned to powdered or ready-to-feed locked Category 1 rows. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary.
+The FDA 2026 special survey includes 3 concentrated liquid soy-based formula samples per analyte. These are retained as bridge context only; they are not assigned to powdered or ready-to-feed locked Category 1 rows.
 
-| Metal | N | Detected | p50 | p90 | p100/max | Use note |
-| --- | ---: | ---: | ---: | ---: | ---: | --- |
-| [[metals/arsenic-total|tAs]] | 3 | 3 | 0.6 | 0.7 | 0.7 | Total arsenic; prepared for feeding. |
-| [[metals/lead|Pb]] | 3 | 3 | 0.3 | 0.4 | 0.4 | Prepared for feeding. |
-| [[metals/cadmium|Cd]] | 3 | 3 | 1.3 | 1.5 | 1.5 | Prepared for feeding. |
-| [[metals/mercury-total|tHg]] | 3 | 1 | 0 | 0.05 | 0.05 | Total mercury; not MeHg. |
+| Metal | N | Detected | Basis | Highest value in this extraction | Use note |
+| --- | ---: | ---: | --- | ---: | --- |
+| [[metals/arsenic-total|tAs]] | 3 | 3 | prepared for feeding | 0.7 ug/kg | Total arsenic. |
+| [[metals/lead|Pb]] | 3 | 3 | prepared for feeding | 0.4 ug/kg | Bridge-context evidence only. |
+| [[metals/cadmium|Cd]] | 3 | 3 | prepared for feeding | 1.5 ug/kg | Bridge-context evidence only. |
+| [[metals/mercury-total|tHg]] | 3 | 1 | prepared for feeding | 0.05 ug/kg | Total mercury; not MeHg. |
 
 ## Row Mapping
 

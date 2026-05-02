@@ -35,15 +35,15 @@ This page is HMTc Category 5 row 8 from the locked beverage architecture. It exi
 
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | [[regulations/fda-21cfr165110-bottled-water-lead]] (US-FDA regulatory quality standard): 5 ug/kg Pb (bottled water; bottled drinking water). | Category 5 source coverage pending. | Applies only where product is bottled water within the quality-standard scope. | Regulatory context. | [[regulations/fda-21cfr165110-bottled-water-lead]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | [[regulations/fda-21cfr165110-bottled-water-lead]]: Federal FDA regulatory quality standard: 5 ug/kg Pb. Scope: bottled drinking water. Basis: bottled water. | No comparable field-finding row has been promoted yet for this beverage category. | Use as regulatory context only until product scope is confirmed. | [[regulations/fda-21cfr165110-bottled-water-lead]] |
 
 <!-- END: hmi-product-crosswalk -->
 

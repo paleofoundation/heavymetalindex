@@ -38,15 +38,15 @@ sources: 5
 This page is a structural scaffold for HMTc Category 1 row 4. One broad infant-formula source has been promoted; ready-to-feed-specific and Al/Ni-specific evidence is still pending.
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/mercury-total]] (tHg) | No product-specific value loaded in this crosswalk. | tAs: N=3, detected 0.9-1.3 ug/kg, P90=1.28 ug/kg; Pb: N=3, detected 0.2-0.4 ug/kg, P90=0.36 ug/kg; Cd: N=3, detected 0.8-1.1 ug/kg, P90=1.06 ug/kg; tHg: N=3, detected 0.08-0.08 ug/kg, P90=0.064 ug/kg | No matched FDA formula action level loaded; do not compare formula occurrence values to processed-baby-food action levels. | Occurrence evidence for HMTc review; not a regulatory exceedance table. | [[sources/fda2026-infant-formula-product-testing-results]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/mercury-total]] (tHg) | No federal product-specific limit loaded in this crosswalk. | tAs: N=3, detected 0.9-1.3 ug/kg; Pb: N=3, detected 0.2-0.4 ug/kg; Cd: N=3, detected 0.8-1.1 ug/kg; tHg: N=3, detected 0.08-0.08 ug/kg. FDA formula occurrence evidence is present, but no matched formula action level is loaded here. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/fda2026-infant-formula-product-testing-results]] |
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -83,22 +83,22 @@ No promoted source currently gives a ready-to-feed soy-formula concentration tab
 
 <!-- audience: regulator, educator, app -->
 
-The FDA 2026 special survey has a very small ready-to-feed soy-based subset (`n=3`). The p50/p90/p100 values below are mechanically reproducible, but this subset is too small to use directly as a stable threshold distribution. The extraction uses nearest-rank percentiles and treats `<LOD` as 0 for a lower-bound summary; the sample-level rows are retained in `data/evidence/category1_formula_special_survey_samples.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+The FDA 2026 special survey has a very small ready-to-feed soy-based subset (`n=3`). The values below are retained for traceability, but this subset is too small to use directly as a stable threshold distribution. The sample-level rows are retained in `data/evidence/category1_formula_special_survey_samples.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
-| Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
-| --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| [[metals/arsenic-total|tAs]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 0.9 | 1.2 | 1.3 | 1.3 | 1.3 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
-| [[metals/lead|Pb]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 0.2 | 0.2 | 0.4 | 0.4 | 0.4 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
-| [[metals/cadmium|Cd]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 0.8 | 0.9 | 1.1 | 1.1 | 1.1 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
-| [[metals/mercury-total|tHg]] | 3 | 1 | 2 | prepared for feeding; <LOD=0 lower-bound | 0 | 0 | 0.08 | 0.08 | 0.08 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| Metal | N | Detected | <LOD | Basis | Highest value in this extraction | Citation |
+| --- | ---: | ---: | ---: | --- | ---: | --- |
+| [[metals/arsenic-total|tAs]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 1.3 ug/kg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/lead|Pb]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 0.4 ug/kg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/cadmium|Cd]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 1.1 ug/kg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/mercury-total|tHg]] | 3 | 1 | 2 | prepared for feeding; <LOD=0 lower-bound | 0.08 ug/kg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
 
-The Canadian formula paper adds ready-to-use soy-based source-scope summary rows for Al, Cd, and Pb; it reports means, medians, and maxima, but not p90.
+The Canadian formula paper adds ready-to-use soy-based source-scope summary rows for Al, Cd, and Pb; it reports means, medians, and maxima.
 
-| Source | Metal | N | Basis | Mean | Median / p50 | Max / p100 | Use note |
+| Source | Metal | N | Basis | Mean | Median | Maximum | Use note |
 | --- | --- | ---: | --- | ---: | ---: | ---: | --- |
-| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 14 | as consumed | 730 | 769 | 1121 | Source reports summary statistics but not p90. |
-| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 14 | as consumed | 1.18 | 1.06 | 2.95 | Source reports summary statistics but not p90. |
-| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 14 | as consumed | 1.45 | 1.36 | 2.1 | Source reports summary statistics but not p90. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 14 | as consumed | 730 | 769 | 1121 | Source reports summary statistics only. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 14 | as consumed | 1.18 | 1.06 | 2.95 | Source reports summary statistics only. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 14 | as consumed | 1.45 | 1.36 | 2.1 | Source reports summary statistics only. |
 
 ## Row Relationship
 

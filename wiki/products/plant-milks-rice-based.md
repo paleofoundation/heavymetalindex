@@ -33,16 +33,16 @@ This page is HMTc Category 5 row 7. It now has a usable regulatory-versus-field-
 | HMTc use              | Strong evidence for iAs prioritization; not an HMTc threshold           |
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-arsenic-rice-based-drinks]] (European Commission maximum level): 30 ug/kg iAs (wet weight; non-alcoholic rice-based drinks). | D'Amato 2026: N=25 Italian rice-based beverages; iAs mean=15 ug/kg, median=15 ug/kg, range=7-24 ug/kg; no sample exceeded 30 ug/kg. | Direct comparison available: product matrix, analyte species, and unit basis match. | External regulatory context and HMTc prioritization input; not an HMTc value. | [[regulations/eu2023-arsenic-rice-based-drinks]]; [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] |
-| [[metals/arsenic-total]] (tAs) | No tAs value loaded for rice-based drinks. | D'Amato 2026: tAs mean=23 ug/kg, median=22 ug/kg, range=9-58 ug/kg. | Context only; tAs is not interchangeable with iAs. | Speciation context only. | [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-arsenic-rice-based-drinks]]: EU European Commission maximum level: 30 ug/kg iAs. Scope: non-alcoholic rice-based drinks. Basis: wet weight. | D'Amato 2026 reports 25 Italian rice-based beverages with iAs from 7 to 24 ug/kg; no sample exceeded 30 ug/kg. | Direct comparison available because matrix, analyte species, and unit basis match; still not an HMTc certification limit. | [[regulations/eu2023-arsenic-rice-based-drinks]]; [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] |
+| [[metals/arsenic-total]] (tAs) | No federal product-specific limit loaded in this crosswalk. | D'Amato 2026 reports total arsenic from 9 to 58 ug/kg in rice-based beverages; total arsenic is context only and is not interchangeable with inorganic arsenic. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] |
 
 <!-- END: hmi-product-crosswalk -->
 

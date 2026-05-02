@@ -35,16 +35,16 @@ This page is HMTc Category 5 row 2 from the locked beverage architecture. It exi
 
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic]] (iAs) | [[regulations/fda2023-inorganic-arsenic-apple-juice]] (US-FDA final guidance action level): 10 ug/kg iAs (juice; apple juice). | Category 5 source coverage pending. | Final apple-juice action level; apple-containing blends need matrix review. | Regulatory context and split trigger. | [[regulations/fda2023-inorganic-arsenic-apple-juice]] |
-| [[metals/lead]] (Pb) | [[regulations/fda2022-draft-lead-juice]] (US-FDA draft guidance; not for implementation): 10 ug/kg Pb (single-strength ready-to-drink juice; single-strength apple juice). | Category 5 source coverage pending. | Draft apple-juice value only; not for implementation. | Draft context only. | [[regulations/fda2022-draft-lead-juice]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/arsenic-inorganic]] (iAs) | [[regulations/fda2023-inorganic-arsenic-apple-juice]]: Federal FDA final action level: 10 ug/kg iAs. Scope: apple juice. Basis: juice. | No comparable field-finding row has been promoted yet for this beverage category. | Final apple-juice action level; apple-containing blends need matrix review. | [[regulations/fda2023-inorganic-arsenic-apple-juice]] |
+| [[metals/lead]] (Pb) | [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 10 ug/kg Pb. Scope: single-strength apple juice. Basis: single-strength ready-to-drink juice. | No comparable field-finding row has been promoted yet for this beverage category. | Draft context only. Do not present this value as a final federal limit or an HMTc threshold. | [[regulations/fda2022-draft-lead-juice]] |
 
 <!-- END: hmi-product-crosswalk -->
 

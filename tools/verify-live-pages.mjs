@@ -37,7 +37,7 @@ const checks = [
   },
   ...productSlugs.map((slug) => ({
     url: `${baseUrl}/products/${slug}`,
-    mustContain: "Regulatory Crosswalk Vs Field Findings",
+    mustContain: "Federal / Regulatory Limits vs Field Findings",
   })),
   ...productSlugs.map((slug) => ({
     url: `${baseUrl}/static/contentIndex.json`,
