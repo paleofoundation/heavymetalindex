@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T14:41:36.075Z",
+  "generated_at": "2026-05-02T21:42:11.557Z",
   "buckets": [
     "raw/reports",
     "raw/studies"
@@ -10,13 +10,13 @@
     "studies": 331
   },
   "by_source_page_status": {
-    "matched_by_raw_path": 54,
+    "matched_by_raw_path": 55,
     "rejected_unusable": 2,
     "superseded_artifact": 1,
     "deferred_historical": 1,
     "related_artifact": 2,
     "matched_by_sha256": 2,
-    "no_source_page": 319
+    "no_source_page": 318
   },
   "by_ingest_priority": {
     "P1-report-context": 17,
@@ -29,5 +29,6 @@
     "P1-study-product-relevant": 36
   },
   "reports_requiring_source_page": [],
-  "unmatched_studies_count": 319
+  "unmatched_studies_count": 318,
+  "unresolved_product_relevant_studies_count": 28
 }

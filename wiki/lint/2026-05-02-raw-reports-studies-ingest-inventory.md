@@ -21,9 +21,9 @@ This audit controls the next ingest wave for `raw/reports` followed by `raw/stud
 | Status | Count |
 | --- | ---: |
 | deferred_historical | 1 |
-| matched_by_raw_path | 54 |
+| matched_by_raw_path | 55 |
 | matched_by_sha256 | 2 |
-| no_source_page | 319 |
+| no_source_page | 318 |
 | rejected_unusable | 2 |
 | related_artifact | 2 |
 | superseded_artifact | 1 |
@@ -58,17 +58,14 @@ All report PDFs currently have a source-page match.
 
 These study PDFs should be reviewed before lower-priority mechanistic/background papers because they are more likely to alter product, ingredient, or HMTc standards-development pages.
 
-- `raw/studies/Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market.pdf`
-- `raw/studies/FM_10375490_Arsenic_in_brown_rice_do_the_benefits_outweigh_the_risks.pdf`
+### Source-Page Gaps
+
 - `raw/studies/FM_10447601_Characterisation_of_a_low_methane_emission_rice_cultivar_sui.pdf`
-- `raw/studies/FM_10883532_Chemical_characterization_of_baby_food_consumed_in_Italy.pdf`
 - `raw/studies/FM_10954997_Lead_Cadmium_and_Arsenic_in_Raw_Milk_Produced_in_the_Vicinit.pdf`
 - `raw/studies/FM_11074271_Assessment_of_macro_trace_and_toxic_element_intake_from_rice.pdf`
 - `raw/studies/FM_11111292_Dietary_intake_of_methylmercury_by_0-5_years_children_using.pdf`
-- `raw/studies/FM_11614607_Engineering_rice_Nramp5_modifies_cadmium_and_manganese_uptak.pdf`
 - `raw/studies/FM_11876284_Assessing_trace_elements_in_soils_and_rice_insights_from_the.pdf`
 - `raw/studies/FM_12286494_Analysis_of_heavy_metal_content_in_protein_powders_available.pdf`
-- `raw/studies/FM_12378713_Arsenic_speciation_using_HPLC-ICP-MS_in_white_and_brown_rice.pdf`
 - `raw/studies/FM_12507951_Hematological_Parameters_and_Mercury_Exposure_in_Children_Li.pdf`
 - `raw/studies/FM_12583816_Risk_assessment_of_heavy_metals_in_north_of_Iran_Sari_rice_a.pdf`
 - `raw/studies/FM_3765370_Health_risk_assessment_of_heavy_metals_in_rice_to_the_popula.pdf`
@@ -90,10 +87,18 @@ These study PDFs should be reviewed before lower-priority mechanistic/background
 - `raw/studies/FM_9271943_A_Narrative_Review_of_Toxic_Heavy_Metal_Content_of_Infant_an.pdf`
 - `raw/studies/FM_9439980_Essential_and_Non-essential_Trace_Elements_in_Milks_and_Plan.pdf`
 - `raw/studies/FM_9941557_Wheat_Selenium-binding_protein_TaSBP-A_enhances_cadmium_tole.pdf`
-- `raw/studies/FS102048 Infants metal survey FSIS pdf version.pdf`
-- `raw/studies/Infants  and young children s dietary exposures to lead and cadmium  FDA total diet study 2018 2020.pdf`
 - `raw/studies/lead-in-infant-formula-1992.pdf`
-- `raw/studies/Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk.pdf`
+
+### Matched, Still Needing Completeness Audit
+
+- `raw/studies/Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market.pdf` — matched_by_raw_path; wiki/sources/chung2021-china-infant-formula-toxic-elements.md
+- `raw/studies/FM_10375490_Arsenic_in_brown_rice_do_the_benefits_outweigh_the_risks.pdf` — matched_by_raw_path; wiki/sources/su-2023-arsenic-brown-rice.md
+- `raw/studies/FM_10883532_Chemical_characterization_of_baby_food_consumed_in_Italy.pdf` — matched_by_raw_path; wiki/sources/meli2024-chemical-characterization-baby-food-italy.md
+- `raw/studies/FM_11614607_Engineering_rice_Nramp5_modifies_cadmium_and_manganese_uptak.pdf` — matched_by_raw_path; wiki/sources/inoue-2024-rice-nramp5-cadmium.md
+- `raw/studies/FM_12378713_Arsenic_speciation_using_HPLC-ICP-MS_in_white_and_brown_rice.pdf` — matched_by_raw_path; wiki/sources/navaretnam-2025-rice-as-speciation.md
+- `raw/studies/FS102048 Infants metal survey FSIS pdf version.pdf` — matched_by_raw_path; wiki/sources/fsa2016-infant-food-formula-metals-survey.md
+- `raw/studies/Infants  and young children s dietary exposures to lead and cadmium  FDA total diet study 2018 2020.pdf` — matched_by_raw_path; wiki/sources/spungen2024-fda-tds-infant-lead-cadmium.md
+- `raw/studies/Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk.pdf` — matched_by_raw_path; wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md
 
 ## Operating Rule
 

@@ -29,8 +29,8 @@ cc_relationship:
       role_of_partner: clean_benchmark
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-29
-sources: 9
+updated: 2026-05-02
+sources: 10
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)
@@ -105,6 +105,7 @@ Rice-based cereal has the strongest arsenic signal in Category 1. Values include
 | Dimethylarsenate and other arsenic species | Rice products commonly eaten during weaning | DMA up to 297 ug/kg | up to 297 ppb | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Organic arsenic species; not iAs. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK cereal-based infant foods/dishes | 5 to 6 ug/kg | 5 to 6 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Cereal-based group, not rice-only. |
 | [[metals/cadmium|Cadmium]] | UK cereal-based infant foods/dishes | 3 ug/kg | 3 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Cereal-based group, not rice-only. |
+| [[metals/mercury-total|Total mercury]] | Italian cereal-cream/grain products | max 0.040 mg/kg wet weight; mean 0.030 mg/kg wet weight; highest modeled EDI 0.573 ug/kg body weight per day | max 40 ppb; mean 30 ppb | [[sources/meli2024-chemical-characterization-baby-food-italy]] | N=3 small-sample context; total mercury, not methylmercury. The authors noted the maximum sample approximately equaled their derived mercury PTDI, but this is not a regulatory exceedance table. |
 
 ## French TDS Category Rows
 
@@ -133,6 +134,8 @@ A 2018 infant biomarker study found that, among weaning infants, rice cereal int
 Parker 2022 found the highest total arsenic values in its grain baby-food group, with N=9, 100% detection, mean 90.4 ppb, median 126 ppb, and max 132 ppb. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
 
 Gardener 2019 reported that cadmium values were higher in foods containing rice, quinoa, wheat, and oats and that lead values were elevated in foods containing rice, quinoa, and sweet potatoes. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+
+Meli 2024 reported a cereal-cream/grain-product mercury exposure signal in a small Italian/European-market baby-food set, but the study did not speciate methylmercury and should be used only as a row-level monitoring flag. [[sources/meli2024-chemical-characterization-baby-food-italy]]
 
 ## What Drives Variance Across Brands
 
@@ -167,3 +170,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
 - [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
 - [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]
+- [[sources/meli2024-chemical-characterization-baby-food-italy]]

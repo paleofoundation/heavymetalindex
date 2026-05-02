@@ -296,6 +296,12 @@ const summary = {
   unmatched_studies_count: rows.filter(
     (row) => row.bucket === "studies" && row.source_page_status === "no_source_page",
   ).length,
+  unresolved_product_relevant_studies_count: rows.filter(
+    (row) =>
+      row.bucket === "studies" &&
+      row.ingest_priority === "P1-study-product-relevant" &&
+      row.source_page_status === "no_source_page",
+  ).length,
 }
 
 writeFileSync(OUT_JSON, `${JSON.stringify(summary, null, 2)}\n`)
@@ -309,6 +315,12 @@ const reportNonPublic = reportRows.filter((row) =>
   ),
 )
 const studyProductRelevant = studyRows.filter((row) => row.ingest_priority === "P1-study-product-relevant")
+const studyProductRelevantUnresolved = studyProductRelevant.filter(
+  (row) => row.source_page_status === "no_source_page",
+)
+const studyProductRelevantMatched = studyProductRelevant.filter(
+  (row) => row.source_page_status !== "no_source_page",
+)
 
 writeFileSync(
   OUT_MD,
@@ -360,9 +372,18 @@ ${reportNonPublic.length === 0 ? "No report PDFs are currently marked as non-pub
 
 These study PDFs should be reviewed before lower-priority mechanistic/background papers because they are more likely to alter product, ingredient, or HMTc standards-development pages.
 
-${studyProductRelevant
+### Source-Page Gaps
+
+${studyProductRelevantUnresolved.length === 0 ? "No product-relevant study PDFs currently lack a source-page match." : studyProductRelevantUnresolved
   .slice(0, 60)
   .map((row) => `- \`${row.raw_path}\``)
+  .join("\n")}
+
+### Matched, Still Needing Completeness Audit
+
+${studyProductRelevantMatched.length === 0 ? "No matched product-relevant study PDFs are waiting for a completeness audit." : studyProductRelevantMatched
+  .slice(0, 60)
+  .map((row) => `- \`${row.raw_path}\` — ${row.source_page_status}; ${row.matched_source_pages}`)
   .join("\n")}
 
 ## Operating Rule

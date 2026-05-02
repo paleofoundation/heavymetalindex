@@ -29,8 +29,8 @@ cc_relationship:
       role_of_partner: clean_benchmark
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-29
-sources: 13
+updated: 2026-05-02
+sources: 12
 ---
 
 # Infant Formula, Powder (Soy-Based)
@@ -139,8 +139,6 @@ A 2025 global scoping review of baby foods and infant formulas reported heavy-me
 
 A 2018 infant biomarker study cited prior work reporting total arsenic in formula powder up to 12.6 ug/kg, but the study does not separate soy-based from non-soy powdered formula. [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
 
-A 2024 analytical study of European baby foods included powdered milk and reported that cadmium and lead were below the study LOD in all samples, while mercury was detectable in all samples and one powdered-milk sample had the highest estimated nickel intake in the study at 9.43 ug/kg body weight per day. [[sources/meli2024-chemical-characterization-baby-food-italy]]
-
 Dabeka 1987 and Pandelova 2012 both support a soy-formula cadmium signal relative to milk-based formula comparators, but both need careful handling because one is historical and the other is pooled market-basket evidence. [[sources/dabeka1987-canada-infant-formula-lead-cadmium]] [[sources/pandelova2012-eu-baby-food-formula-elements]]
 
 Soy-powder-specific risk characterization remains pending. <!-- UNCITED: Need current soy-based powdered infant formula sources that measure Al, Ni, Cd, Pb, tAs/iAs, tHg/MeHg, Cr-VI, and Sn while distinguishing soy-based powder from non-soy powder and ready-to-feed liquid formula. -->
@@ -150,8 +148,6 @@ Soy-powder-specific risk characterization remains pending. <!-- UNCITED: Need cu
 <!-- audience: regulator, educator, app -->
 
 The promoted formula scoping review separates soy-based formulas from cow-based and nonspecified formulas, but it does not resolve powder-versus-ready-to-feed differences for this row. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
-
-The promoted powdered-milk analytical study resolves powder format but does not resolve soy versus non-soy formula. [[sources/meli2024-chemical-characterization-baby-food-italy]]
 
 Potential variance drivers for soy-based powdered formula should be documented only after sources distinguish soy inputs, mineral premix, processing equipment, packaging, and analytical method. <!-- UNCITED: Need comparative infant-formula sources that separate soy-based powder from non-soy powder and report methods such as [[testing/icp-ms]]. -->
 
@@ -178,7 +174,6 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/pandelova2012-eu-baby-food-formula-elements]]
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]
-- [[sources/meli2024-chemical-characterization-baby-food-italy]]
 - [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 - [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]]
 - [[sources/kazi2009-toxic-elements-in-infant-formulae]]
