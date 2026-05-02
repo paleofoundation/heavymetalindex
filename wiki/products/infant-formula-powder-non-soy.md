@@ -57,15 +57,15 @@ sources: 15
 This page is the public evidence page for powdered non-soy infant formula. It is organized around source-backed product concentration evidence, with exposure estimates and broad formula studies separated so they do not get mistaken for direct ppb product measurements.
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/mercury-total]] (tHg) | No product-specific value loaded in this crosswalk. | tAs: N=240, detected 0.1-4.7 ug/kg, P90=1.4 ug/kg; Pb: N=240, detected 0.1-0.6 ug/kg, P90=0.4 ug/kg; Cd: N=240, detected 0.1-1.3 ug/kg, P90=0.4 ug/kg; tHg: N=240, detected 0.07-0.3 ug/kg, P90=0 ug/kg | No matched FDA formula action level loaded; do not compare formula occurrence values to processed-baby-food action levels. | Occurrence evidence for HMTc review; not a regulatory exceedance table. | [[sources/fda2026-infant-formula-product-testing-results]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/mercury-total]] (tHg) | No federal product-specific limit loaded in this crosswalk. | tAs: N=240, detected 0.1-4.7 ug/kg; Pb: N=240, detected 0.1-0.6 ug/kg; Cd: N=240, detected 0.1-1.3 ug/kg; tHg: N=240, detected 0.07-0.3 ug/kg. FDA formula occurrence evidence is present, but no matched formula action level is loaded here. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/fda2026-infant-formula-product-testing-results]] |
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -115,16 +115,16 @@ This table lists what each source actually reports. Highest values are source-sc
 
 The FDA 2026 special survey is the first source in this row that gives a reconstructable product-label subset for several metals. These values are expressed as prepared for feeding, so they should not be silently pooled with dry-powder-as-sold ppb values. The extraction below is included as a traceability appendix, not as a public standard. The full sample-level extraction is in `data/evidence/category1_formula_special_survey_samples.csv`, with summary rows in `data/evidence/category1_formula_concentration_summary.csv`. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 
-| Metal | N | Detected | <LOD | Basis | p10 | p50 | p90 | p95 | p100 | Citation |
-| --- | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| [[metals/arsenic-total|tAs]] | 230 | 212 | 18 | prepared for feeding; <LOD=0 lower-bound | 0.2 | 0.4 | 1.3 | 2 | 4.7 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
-| [[metals/lead|Pb]] | 230 | 169 | 61 | prepared for feeding; <LOD=0 lower-bound | 0 | 0.2 | 0.4 | 0.5 | 0.6 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
-| [[metals/cadmium|Cd]] | 230 | 145 | 85 | prepared for feeding; <LOD=0 lower-bound | 0 | 0.2 | 0.4 | 0.5 | 1.3 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
-| [[metals/mercury-total|tHg]] | 230 | 3 | 227 | prepared for feeding; <LOD=0 lower-bound | 0 | 0 | 0 | 0 | 0.3 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| Metal | N | Detected | <LOD | Basis | Highest value in this extraction | Citation |
+| --- | ---: | ---: | ---: | --- | ---: | --- |
+| [[metals/arsenic-total|tAs]] | 230 | 212 | 18 | prepared for feeding; <LOD=0 lower-bound | 4.7 ug/kg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/lead|Pb]] | 230 | 169 | 61 | prepared for feeding; <LOD=0 lower-bound | 0.6 ug/kg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/cadmium|Cd]] | 230 | 145 | 85 | prepared for feeding; <LOD=0 lower-bound | 1.3 ug/kg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| [[metals/mercury-total|tHg]] | 230 | 3 | 227 | prepared for feeding; <LOD=0 lower-bound | 0.3 ug/kg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
 
 The Digest formula papers add useful source-scope rows, but they mostly report means, medians, ranges, or maxima rather than full product-level distributions. These rows support the evidence pool and show high-end source context; they do not by themselves set public limits.
 
-| Source | Metal | N | Basis | Mean | Median / p50 | Highest value | Use note |
+| Source | Metal | N | Basis | Mean | Median | Highest value | Use note |
 | --- | --- | ---: | --- | ---: | ---: | ---: | --- |
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 57 | as consumed | 177 | 44 | 1004 | Source reports summary statistics, not a full distribution. |
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 57 | as consumed | 0.17 | 0.06 | 1.21 | Source reports summary statistics, not a full distribution. |
@@ -155,12 +155,12 @@ The largest interpretive issue is scope. China-market, Brazil-market, UK-market,
 
 <!-- audience: regulator, educator, consumer, app -->
 
-Gardener 2019 is useful because it reports percentile-style infant exposure estimates from formula consumption. It is not a product concentration table and should not be used as ppb product-limit evidence.
+Gardener 2019 is useful because it reports infant exposure estimates from formula consumption. It is not a product concentration table and should not be used as ppb product-limit evidence.
 
-| Metal | Product or exposure scope | N | p50 | p75 | p90 | p95 | p100 / max | Unit | Interpretation use | Citation |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- | --- |
-| [[metals/lead|Pb]] | Formula exposure estimate for 4-month-old infant consuming 31 oz/day | 91 | 0.00 | 0.43 | 0.78 | 1.06 | 2.68 | ug/day | Exposure context only, not ppb product concentration. | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food|7]] |
-| [[metals/cadmium|Cd]] | Formula exposure estimate for 4-month-old infant consuming 31 oz/day | 91 | 0.00 | 3.86 | 6.11 | 8.04 | 23.33 | ug/day | Exposure context only, not ppb product concentration. | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food|7]] |
+| Metal | Product or exposure scope | N | Highest exposure estimate | Unit | Interpretation use | Citation |
+| --- | --- | ---: | ---: | --- | --- | --- |
+| [[metals/lead|Pb]] | Formula exposure estimate for 4-month-old infant consuming 31 oz/day | 91 | 2.68 | ug/day | Exposure context only, not ppb product concentration. | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food|7]] |
+| [[metals/cadmium|Cd]] | Formula exposure estimate for 4-month-old infant consuming 31 oz/day | 91 | 23.33 | ug/day | Exposure context only, not ppb product concentration. | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food|7]] |
 
 ## French TDS Category Rows
 

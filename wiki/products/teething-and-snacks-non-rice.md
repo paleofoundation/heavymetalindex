@@ -37,15 +37,15 @@ sources: 5
 This page is a structural scaffold for HMTc Category 1 row 15. FDA compliance samples add broad grain-based snack context, but non-rice snack-specific p10/p90/p100 distributions are still pending because rice status is not isolated.
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | No product-specific value loaded in this crosswalk. | FSA/Fera occurrence evidence is promoted; structured row extraction pending. | No exact product-specific regulatory value loaded for non-rice teething/snack row. | Occurrence evidence only until regulatory scope is resolved. | [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | No federal product-specific limit loaded in this crosswalk. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/fera2014-fsa-metals-infant-foods-formula]] |
 
 <!-- END: hmi-product-crosswalk -->
 

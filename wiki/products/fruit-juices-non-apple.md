@@ -35,16 +35,16 @@ This page is HMTc Category 5 row 1 from the locked beverage architecture. It exi
 
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | [[regulations/fda2022-draft-lead-juice]] (US-FDA draft guidance; not for implementation): 20 ug/kg Pb (single-strength ready-to-drink juice; other single-strength juices and juice blends). | Category 5 source coverage pending. | Draft only; field-finding comparison blocked until beverage occurrence sources are promoted. | Draft context only. | [[regulations/fda2022-draft-lead-juice]] |
-| [[metals/lead]] (Pb) | [[regulations/fda2004-juice-haccp-lead]] (US-FDA guidance hazard-control level): 50 ug/kg Pb (ready-to-drink juice; ready-to-drink fruit juices including fruit nectars). | Category 5 source coverage pending. | Current older juice guidance context; field-finding comparison blocked. | Regulatory context. | [[regulations/fda2004-juice-haccp-lead]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 20 ug/kg Pb. Scope: other single-strength juices and juice blends. Basis: single-strength ready-to-drink juice. | No comparable field-finding row has been promoted yet for this beverage category. | Draft context only. Do not present this value as a final federal limit or an HMTc threshold. | [[regulations/fda2022-draft-lead-juice]] |
+| [[metals/lead]] (Pb) | [[regulations/fda2004-juice-haccp-lead]]: Federal FDA guidance hazard-control level: 50 ug/kg Pb. Scope: ready-to-drink fruit juices including fruit nectars. Basis: ready-to-drink juice. | No comparable field-finding row has been promoted yet for this beverage category. | Limit is visible, but exceedance comparison is blocked until product-row values are extracted and basis/species match. | [[regulations/fda2004-juice-haccp-lead]] |
 
 <!-- END: hmi-product-crosswalk -->
 

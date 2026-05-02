@@ -33,16 +33,16 @@ This page is HMTc Category 5 row 6. It is no longer a pure scaffold: the row has
 | HMTc use              | Occurrence prioritization only; no certified-brand, compliance, or threshold claim |
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/aluminum]] (Al) | No product-specific Al value loaded for soy-based beverages. | Milani 2023: Al means 758, 609, and 176 ug/L by soy source; max range endpoint 1822 ug/L. | Occurrence evidence only; PTWI estimate is not a product limit. | Prioritization input; not a compliance row. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
-| [[metals/arsenic-total]] (tAs); [[metals/cadmium]] (Cd); [[metals/lead]] (Pb); [[metals/tin]] (Sn) | Source-cited thresholds mentioned, but direct legal source, units, basis, and species review are still pending. | tAs <38.2 ug/L; Cd <3.8 ug/L; Pb mostly <10.9 ug/L with soybean group mean 2.2 ug/L; Sn <18 ug/L except isolate mean 4.3 ug/L. | Blocked for compliance until direct legal text, unit basis, density conversion, and As species are reviewed. | Context only. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
+| [[metals/aluminum]] (Al) | No federal product-specific limit loaded in this crosswalk. | Milani 2023: Al means 758, 609, and 176 ug/L by soy source; max range endpoint 1822 ug/L. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
+| [[metals/arsenic-total]] (tAs); [[metals/cadmium]] (Cd); [[metals/lead]] (Pb); [[metals/tin]] (Sn) | No federal/product-specific limit loaded yet. Source-cited non-U.S. thresholds require direct legal-source, unit, basis, and species review. | tAs <38.2 ug/L; Cd <3.8 ug/L; Pb mostly <10.9 ug/L with soybean group mean 2.2 ug/L; Sn <18 ug/L except isolate mean 4.3 ug/L. | No compliance read yet. Load the direct legal text before using this row in regulatory or litigation analysis. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
 
 <!-- END: hmi-product-crosswalk -->
 

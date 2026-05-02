@@ -9,6 +9,10 @@ const today = "2026-05-01"
 
 const beginMarker = "<!-- BEGIN: hmi-product-crosswalk -->"
 const endMarker = "<!-- END: hmi-product-crosswalk -->"
+const crosswalkHeadings = [
+  "## Federal / Regulatory Limits vs Field Findings",
+  "## Regulatory Crosswalk Vs Field Findings",
+]
 
 const metalLinks = new Map([
   ["Pb", "[[metals/lead]] (Pb)"],
@@ -242,11 +246,10 @@ function upsertCrosswalkSection(pagePath, rows) {
   let source = fs.readFileSync(pagePath, "utf8")
   const section = buildCrosswalkSection(rows)
   const marked = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}\\n?`, "m")
-  const legacyHeading = "## Regulatory Crosswalk Vs Field Findings"
 
   if (marked.test(source)) {
     source = source.replace(marked, `${section}\n`)
-  } else if (source.includes(legacyHeading)) {
+  } else if (crosswalkHeadings.some((heading) => source.includes(heading))) {
     source = replaceLegacyCrosswalkSection(source, section)
   } else if (source.includes("\n## Evidence Governance\n")) {
     source = source.replace("\n## Evidence Governance\n", `\n${section}\n## Evidence Governance\n`)
@@ -286,10 +289,9 @@ function buildCrosswalkSection(rows) {
           .map((row) =>
             [
               metalCell(row.metal_species),
-              externalContext(row),
-              row.field_finding_summary,
-              row.comparison_status,
-              row.hmtc_use,
+              limitCell(row),
+              readerFinding(row),
+              readerRead(row),
               sourcesCell(row.sources),
             ]
               .map(tableCell)
@@ -297,17 +299,17 @@ function buildCrosswalkSection(rows) {
           )
           .map((row) => `| ${row} |`)
           .join("\n")
-      : "| No loaded row | No product-specific regulatory value loaded yet | Structured field finding extraction pending | Blocked until product-specific occurrence and regulatory rows are promoted | Evidence-gap tracking only | [[products/regulatory-crosswalk-field-findings]] |"
+      : "| No loaded row | No federal or product-specific regulatory limit loaded yet | Comparable field finding extraction pending | Evidence-gap tracking only; do not infer a pass/fail status | [[products/regulatory-crosswalk-field-findings]] |"
 
   return `${beginMarker}
-## Regulatory Crosswalk Vs Field Findings
+## Federal / Regulatory Limits vs Field Findings
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
 
-| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
-| --- | --- | --- | --- | --- | --- |
+| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
+| --- | --- | --- | --- | --- |
 ${tableRows}
 
 ${endMarker}
@@ -315,9 +317,13 @@ ${endMarker}
 }
 
 function replaceLegacyCrosswalkSection(source, section) {
-  const heading = "## Regulatory Crosswalk Vs Field Findings"
-  const headingIndex = source.indexOf(heading)
-  if (headingIndex < 0) return source
+  const headingMatch = crosswalkHeadings
+    .map((heading) => ({ heading, index: source.indexOf(heading) }))
+    .filter((entry) => entry.index >= 0)
+    .sort((a, b) => a.index - b.index)[0]
+  if (!headingMatch) return source
+
+  const { heading, index: headingIndex } = headingMatch
 
   const lineStart = headingIndex > 0 && source[headingIndex - 1] === "\n" ? headingIndex - 1 : headingIndex
   const nextHeading = source.indexOf("\n## ", headingIndex + heading.length)
@@ -341,17 +347,96 @@ function removeOrphanTableAfterMarker(source) {
   return `${source.slice(0, tableStart).trimEnd()}\n${after.slice(nextHeading)}`
 }
 
-function externalContext(row) {
+function limitCell(row) {
   const limit = limitsById.get(row.regulatory_limit_id)
   if (!limit) {
     if (row.regulatory_status === "source-cited thresholds pending direct legal-source load") {
-      return "Source-cited thresholds mentioned, but direct legal source, units, basis, and species review are still pending."
+      return "No federal/product-specific limit loaded yet. Source-cited non-U.S. thresholds require direct legal-source, unit, basis, and species review."
     }
-    return row.regulatory_scope || "No matched product-specific regulatory value loaded."
+    return "No federal product-specific limit loaded in this crosswalk."
   }
 
   const page = limit.regulation_page ? `[[${limit.regulation_page}]]` : "Regulatory source"
-  return `${page} (${limit.authority} ${limit.status}): ${limit.value_ug_kg} ug/kg ${limit.metal_species} (${limit.basis}; ${limit.product_scope}).`
+  return `${page}: ${limitPrefix(limit)} ${limit.value_ug_kg} ug/kg ${limit.metal_species}. Scope: ${limit.product_scope}. Basis: ${limit.basis}.`
+}
+
+function limitPrefix(limit) {
+  const status = limit.status.toLowerCase()
+  const authority = limit.authority === "US-FDA" ? "Federal FDA" : `${limit.jurisdiction} ${limit.authority}`
+
+  if (status.includes("draft")) return `${authority} draft level, not final:`
+  if (status.includes("final guidance action level")) return `${authority} final action level:`
+  if (status.includes("regulatory quality standard")) return `${authority} regulatory quality standard:`
+  if (status.includes("guidance hazard-control level")) return `${authority} guidance hazard-control level:`
+  if (status.includes("maximum level")) return `${authority} maximum level:`
+  return `${authority} ${limit.status}:`
+}
+
+function readerFinding(row) {
+  const summary = stripPercentileSummary(row.field_finding_summary)
+
+  if (/category 5 source coverage pending/i.test(row.field_finding_summary)) {
+    return "No comparable field-finding row has been promoted yet for this beverage category."
+  }
+
+  if (/structured row extraction pending/i.test(row.field_finding_summary)) {
+    return "Promoted field evidence exists, but comparable product-row values have not been extracted yet."
+  }
+
+  if (row.product_slug.startsWith("infant-formula") && row.regulatory_limit_id === "none_loaded") {
+    return `${summary}. FDA formula occurrence evidence is present, but no matched formula action level is loaded here.`
+  }
+
+  if (/D'Amato 2026/i.test(row.field_finding_summary) && row.metal_species === "iAs") {
+    return "D'Amato 2026 reports 25 Italian rice-based beverages with iAs from 7 to 24 ug/kg; no sample exceeded 30 ug/kg."
+  }
+
+  if (/D'Amato 2026/i.test(row.field_finding_summary) && row.metal_species === "tAs") {
+    return "D'Amato 2026 reports total arsenic from 9 to 58 ug/kg in rice-based beverages; total arsenic is context only and is not interchangeable with inorganic arsenic."
+  }
+
+  if (!summary) return "Comparable field-finding extraction pending."
+  return summary
+}
+
+function readerRead(row) {
+  const status = `${row.regulatory_status} ${row.comparison_status}`.toLowerCase()
+
+  if (row.regulatory_limit_id === "none_loaded") {
+    if (status.includes("source-cited thresholds pending")) {
+      return "No compliance read yet. Load the direct legal text before using this row in regulatory or litigation analysis."
+    }
+    return "Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row."
+  }
+
+  if (status.includes("draft")) {
+    return "Draft context only. Do not present this value as a final federal limit or an HMTc threshold."
+  }
+
+  if (status.includes("direct comparison available")) {
+    return "Direct comparison available because matrix, analyte species, and unit basis match; still not an HMTc certification limit."
+  }
+
+  if (status.includes("blocked") || status.includes("pending")) {
+    return "Limit is visible, but exceedance comparison is blocked until product-row values are extracted and basis/species match."
+  }
+
+  if (status.includes("applies only") || status.includes("applicability")) {
+    return "Use as regulatory context only until product scope is confirmed."
+  }
+
+  return stripPercentileSummary(row.comparison_status || row.hmtc_use)
+}
+
+function stripPercentileSummary(value) {
+  return String(value || "")
+    .replace(/,\s*P(?:10|25|50|75|90|95|99|100)\s*=\s*[^;]+/gi, "")
+    .replace(/;\s*P(?:10|25|50|75|90|95|99|100)\s*=\s*[^;]+/gi, "")
+    .replace(/\bP(?:10|25|50|75|90|95|99|100)\s*=\s*[^;]+;?\s*/gi, "")
+    .replace(/\s*;\s*;/g, ";")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s+([.;,])/g, "$1")
+    .trim()
 }
 
 function metalCell(value) {
