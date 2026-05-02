@@ -64,7 +64,7 @@ The sample size is small and European/Italian market-specific. The paper does no
 
 ## Provenance notes
 
-The raw PDF is held locally under `raw/studies/` and the machine-generated markdown used for extraction is held under `raw/markdown/`. The PLOS ONE article is open access under a Creative Commons Attribution License. The SHA-256 digest above verifies the local raw PDF.
+The raw PDF is held locally under `raw/studies/` and the machine-generated markdown used for extraction is held under `raw/markdown/`. The PLOS ONE article is open access under a Creative Commons Attribution License (`CC-BY-4.0`). SHA-256 for the local raw PDF: `1ffb3e4aa1afc3d7dccb06c16412d07609ad8b3b759ee8352263d6711a16fea6`.
 
 ## Wiki pages updated on ingest
 
