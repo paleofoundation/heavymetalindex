@@ -6,13 +6,13 @@ species: [Ni2+, nickel-metal, nickel-compounds, nickel-alloy]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
-updated: 2026-04-29
-sources: 4
+updated: 2026-05-01
+sources: 5
 ---
 
 # Nickel
 
-_This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]]), the [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] nickel chapter ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]]), and the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]])._
+_This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]]), the [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] nickel chapter ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]]), the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]]), and Akhtar et al. 2017's powdered infant formula occurrence study ([[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|Akhtar et al. 2017]])._
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->
@@ -62,6 +62,8 @@ Once sensitized, individuals are susceptible to systemic contact dermatitis from
 
 [[sources/efsa-nickel-contam-2020|EFSA 2020]] found that mean dietary nickel exposure across European Member States routinely exceeds the chronic TDI of 13 µg/kg b.w./day, particularly among toddlers and other children, and among adults consuming legume-heavy or cocoa-heavy diets.
 
+A limited primary occurrence source, [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|Akhtar et al. 2017]], reported Ni from <0.001 to 50.90 mg/kg in 13 powdered infant formula brands sold in Pakistani markets. This is not a global infant-formula baseline: the brands were anonymized, soy status was not reported, and the source reports brand means/ranges rather than sample-level distribution data. HMI uses it as context for powdered infant formula, not as an exact soy/non-soy row value.
+
 ### What this means for food choice
 <!-- audience: consumer -->
 
@@ -76,10 +78,10 @@ For consumers with diagnosed nickel-sensitivity contact dermatitis: the acute LO
 | --- | --- | --- | --- |
 | EFSA (EU) | Chronic dietary TDI | 13 µg Ni/kg b.w./day | [[regulations/efsa-nickel-tdi]] |
 | EFSA (EU) | Acute oral LOAEL (sensitized) | 4.3 µg Ni/kg b.w.; MOE ≥ 30 for low concern | [[regulations/efsa-nickel-tdi]] |
-| EU | Nickel Directive 94/27/EC (skin-contact items) | Less than 0.5 µg Ni/cm²/week release rate | _Pending separate ingest_ |
+| EU | Nickel restriction on skin-contact articles (Dir. 94/27/EC; now REACH Annex XVII Entry 27) | Less than 0.5 µg Ni/cm²/week release rate | [[regulations/eu-nickel-directive-94-27-ec]] |
 | US NTP | 15th Report on Carcinogens | Ni compounds: known human carcinogen; metallic Ni: reasonably anticipated | [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] |
-| US EPA | Ecological Soil Screening Levels | Threshold values for ecological-risk screening at hazardous waste sites | [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] |
-| US ATSDR | MRLs (multiple by route and duration) | See profile | [[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]] |
+| US EPA | Ecological Soil Screening Levels | Threshold values for ecological-risk screening at hazardous waste sites | [[regulations/epa-eco-ssl-nickel]] |
+| US ATSDR | MRLs (multiple by route and duration) | See dedicated page | [[regulations/atsdr-nickel-mrls]] |
 
 ### What the reference values mean in practice
 <!-- audience: consumer -->
@@ -154,7 +156,7 @@ First, the population-level TDI exceedance reported by [[sources/efsa-nickel-con
 
 Second, the relationship between dermal sensitization (the gateway exposure for many sensitized individuals) and dietary flare-up tolerance is mechanistically established but quantitatively variable across sensitized populations. Whether an HMT&C or analogous certification program targeting "low nickel" finished products would meaningfully serve sensitized consumers depends on individual-level threshold variation that the literature has not fully characterized.
 
-Third, this page draws on four secondary syntheses (one EFSA opinion, one ATSDR profile, one NTP listing, one EPA screening document) and zero primary peer-reviewed studies. Compared with the wiki's coverage of Pb, Cd, and arsenic species, the nickel evidence base is correspondingly underbuilt; ingest of the primary nickel-occurrence and nickel-toxicology literature from the bulk corpus is the highest-priority follow-on work for this page. Areas where primary-literature ingest is most likely to change page-level claims: per-matrix occurrence ranges for the high-Ni food categories (cocoa, oats, legumes, nuts), individual-level threshold variation in sensitized populations, and the gut-microbiome interaction questions noted under Microbiome effects.
+Third, this page draws on four secondary syntheses (one EFSA opinion, one ATSDR profile, one NTP listing, one EPA screening document) and one primary peer-reviewed occurrence study in powdered infant formula. Compared with the wiki's coverage of Pb, Cd, and arsenic species, the nickel evidence base is still underbuilt; additional ingest of the primary nickel-occurrence and nickel-toxicology literature from the bulk corpus is the highest-priority follow-on work for this page. Areas where more primary-literature ingest is most likely to change page-level claims: per-matrix occurrence ranges for the high-Ni food categories (cocoa, oats, legumes, nuts), individual-level threshold variation in sensitized populations, infant-formula occurrence distributions, and the gut-microbiome interaction questions noted under Microbiome effects.
 
 ## Sources
 
@@ -162,3 +164,4 @@ Third, this page draws on four secondary syntheses (one EFSA opinion, one ATSDR 
 - [[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]] — ATSDR, October 2024. Toxicological Profile for Nickel.
 - [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] — US National Toxicology Program, 2021. 15th Report on Carcinogens: Nickel Compounds and Metallic Nickel.
 - [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] — EPA, 2007. Ecological Soil Screening Levels for Nickel.
+- [[sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin|Akhtar et al. 2017]] - Pakistani powdered infant formula survey reporting Ni occurrence alongside Pb/Cd non-detects and AFM1 co-contamination.
