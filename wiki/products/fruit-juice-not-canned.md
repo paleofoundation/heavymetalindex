@@ -33,6 +33,21 @@ sources: 3
 
 This page is a structural scaffold for HMTc Category 1 row 14. One broad infant/toddler-food review has been promoted; not-canned juice-specific data are still pending.
 
+<!-- BEGIN: hmi-product-crosswalk -->
+## Regulatory Crosswalk Vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-inorganic]] (iAs) | [[regulations/fda2023-inorganic-arsenic-apple-juice]] (US-FDA final guidance action level): 10 ug/kg iAs (juice; apple juice). | FSA/Fera Table 6 includes apple juice and juice composites; structured row extraction pending. | Applies only to apple juice; row needs apple/non-apple split for exact comparison. | Use as external context and split trigger. | [[regulations/fda2023-inorganic-arsenic-apple-juice]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+| [[metals/lead]] (Pb) | [[regulations/fda2022-draft-lead-juice]] (US-FDA draft guidance; not for implementation): 10 ug/kg Pb (single-strength ready-to-drink juice; single-strength apple juice). | FSA/Fera Table 6 includes apple juice and juice composites; structured row extraction pending. | Draft only and apple-specific; do not present as final regulatory cap. | Use as draft context only. | [[regulations/fda2022-draft-lead-juice]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+| [[metals/lead]] (Pb) | [[regulations/fda2004-juice-haccp-lead]] (US-FDA guidance hazard-control level): 50 ug/kg Pb (ready-to-drink juice; ready-to-drink fruit juices including fruit nectars). | FSA/Fera Table 6 includes juice composites; structured row extraction pending. | Current older juice guidance context; may be superseded if FDA finalizes lower juice lead action levels. | Use as legal/regulatory context, not HMTc value. | [[regulations/fda2004-juice-haccp-lead]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+
+<!-- END: hmi-product-crosswalk -->
+
 ## Evidence Governance
 
 Public evidence label: **Modeled or limited evidence**.
@@ -106,7 +121,7 @@ The app model placeholder for this row should treat [[ingredients/fruit-juice]],
 
 <!-- audience: regulator, educator -->
 
-Fruit-juice regulatory crosswalk should be populated from primary FDA juice action-level documents rather than from this narrative review alone. <!-- UNCITED: Need primary FDA, EU, Codex, or other agency sources before adding exact fruit-juice regulatory values. -->
+Primary FDA juice action-level documents are now captured in the page-level crosswalk above; exact use still requires apple/non-apple and canned/not-canned scope review.
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 

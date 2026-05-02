@@ -15,6 +15,19 @@ sources: 2
 
 # Infant Formula, Concentrated Liquid (Non-Soy)
 
+<!-- BEGIN: hmi-product-crosswalk -->
+## Regulatory Crosswalk Vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/mercury-total]] (tHg) | No product-specific value loaded in this crosswalk. | tAs: N=8, detected 0.2-0.4 ug/kg, P90=0.4 ug/kg; Pb: N=8, detected 0.05-0.4 ug/kg, P90=0.4 ug/kg; Cd: N=8, detected 0.08-0.5 ug/kg, P90=0.43 ug/kg; tHg: N=8, not detected, P90=0 ug/kg | No matched FDA formula action level loaded; do not compare formula occurrence values to processed-baby-food action levels. | Occurrence evidence for HMTc review; not a regulatory exceedance table. | [[sources/fda2026-infant-formula-product-testing-results]] |
+
+<!-- END: hmi-product-crosswalk -->
+
 _Stub page. This bridge node exists for sources that report concentrated liquid milk-based formula, which is not one of the locked HMTc Category 1 rows but is part of the formula evidence graph._
 
 ## Current Source Links

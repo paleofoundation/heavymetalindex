@@ -32,16 +32,19 @@ This page is HMTc Category 5 row 6. It is no longer a pure scaffold: the row has
 | Ingredient routing    | [[ingredients/plant-milk]], [[ingredients/soy]]                                    |
 | HMTc use              | Occurrence prioritization only; no certified-brand, compliance, or threshold claim |
 
+<!-- BEGIN: hmi-product-crosswalk -->
 ## Regulatory Crosswalk Vs Field Findings
 
-| Metal | External value                                                                                     | Field findings                                                                                                                            | Comparison status                                                               | HMTc use                                       |
-| ----- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------- |
-| Al    | No product-specific regulatory value loaded                                                        | Milani 2023: mean 176-758 ug/L by soy source; max range endpoint 1822 ug/L in isolate-protein beverages                                   | Occurrence evidence only; PTWI risk estimate is not a product limit             | Prioritize Al as a soy-beverage platform metal |
-| tAs   | Source-cited Brazilian/MERCOSUR threshold context exists, but direct regulation node is not loaded | <38.2 ug/L across soy-source groups                                                                                                       | Blocked for compliance: total As, unit/basis, and direct legal text need review | Context only                                   |
-| Cd    | Source-cited threshold context exists, but direct regulation node is not loaded                    | <3.8 ug/L across soy-source groups                                                                                                        | Blocked for compliance until direct regulation and unit basis are loaded        | Context only                                   |
-| Ni    | No matched product-specific value loaded                                                           | <25.7 ug/L in isolate-protein beverages; 4.9 (<25.7-29.4) ug/L in hydrosoluble-extract beverages; 29 (<25.7-46) ug/L in soybean beverages | Occurrence evidence only                                                        | Prioritize as platform metal                   |
-| Pb    | Source-cited threshold context exists, but direct regulation node is not loaded                    | <10.9 ug/L in isolate-protein and hydrosoluble-extract beverages; 2.2 (<10.9-13) ug/L in soybean beverages                                | Blocked for compliance until direct regulation and unit basis are loaded        | Context only                                   |
-| Sn    | Source-cited threshold context exists, but direct regulation node is not loaded                    | 4.3 (<18-26) ug/L in isolate-protein beverages; <18 ug/L in other groups                                                                  | Blocked for compliance until direct regulation and unit basis are loaded        | Context only                                   |
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/aluminum]] (Al) | No product-specific Al value loaded for soy-based beverages. | Milani 2023: Al means 758, 609, and 176 ug/L by soy source; max range endpoint 1822 ug/L. | Occurrence evidence only; PTWI estimate is not a product limit. | Prioritization input; not a compliance row. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
+| [[metals/arsenic-total]] (tAs); [[metals/cadmium]] (Cd); [[metals/lead]] (Pb); [[metals/tin]] (Sn) | Source-cited thresholds mentioned, but direct legal source, units, basis, and species review are still pending. | tAs <38.2 ug/L; Cd <3.8 ug/L; Pb mostly <10.9 ug/L with soybean group mean 2.2 ug/L; Sn <18 ug/L except isolate mean 4.3 ug/L. | Blocked for compliance until direct legal text, unit basis, density conversion, and As species are reviewed. | Context only. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
+
+<!-- END: hmi-product-crosswalk -->
 
 ## Occurrence Evidence
 

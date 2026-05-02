@@ -30,14 +30,18 @@ This page is HMTc Category 5 row 5. It remains a clean-benchmark candidate, but 
 | Ingredient routing    | [[ingredients/plant-milk]], [[ingredients/almond]], [[ingredients/oat]], [[ingredients/coconut]] |
 | HMTc use              | Hold as clean-benchmark hypothesis, not clean-benchmark evidence                                 |
 
+<!-- BEGIN: hmi-product-crosswalk -->
 ## Regulatory Crosswalk Vs Field Findings
 
-| Metal           | External value                           | Field findings                                                                                       | Comparison status              | HMTc use                |
-| --------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------- |
-| Pb              | No matched product-specific value loaded | Marques 2021 reports Pb detected in one non-organic oat drink; numeric table extraction needs review | Blocked until table/PDF review | Gap-prioritization only |
-| tHg             | No matched product-specific value loaded | Marques 2021 reports Hg not detected in milks and plant-based drinks                                 | Context only                   | Negative-screen context |
-| U               | No matched product-specific value loaded | Marques 2021 reports U not detected in milks and plant-based drinks                                  | Context only                   | Negative-screen context |
-| Al, Ni, Cd, iAs | No matched product-specific value loaded | No robust row-specific promoted occurrence source yet                                                | Blocked                        | Priority gap            |
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/mercury-total]] (tHg); [[metals/uranium]] (U) | No product-specific value loaded for this row. | Marques 2021 reports Pb detected in one non-organic oat drink and Hg/U non-detected in milks and plant-based drinks; numeric table extraction requires review. | Blocked until source table/PDF extraction is verified. | Gap-prioritization only. | [[sources/marques2021-trace-elements-milks-plant-based-drinks]] |
+
+<!-- END: hmi-product-crosswalk -->
 
 ## Occurrence Evidence
 

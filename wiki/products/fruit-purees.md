@@ -32,6 +32,19 @@ sources: 8
 
 This page is a structural scaffold for HMTc Category 1 row 7. Quantitative evidence now includes FDA compliance fruit samples, a small fruit baby-food distribution, and broader fruit-based infant-food category values; fruit-by-fruit puree p10/p90/p100 distributions remain incomplete.
 
+<!-- BEGIN: hmi-product-crosswalk -->
+## Regulatory Crosswalk Vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]] (US-FDA final guidance action level): 10 ug/kg Pb (as sold or ready-to-eat as applicable; fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2). | FSA/Fera and other promoted sources support occurrence narrative; structured row extraction pending. | Regulatory value loaded; field-finding comparison blocked until puree rows are extracted. | Use as external regulatory cap/context, not HMTc value. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+
+<!-- END: hmi-product-crosswalk -->
+
 ## Evidence Governance
 
 Public evidence label: **Modeled or limited evidence**.

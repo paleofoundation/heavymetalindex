@@ -57,6 +57,19 @@ sources: 3
 
 This page is a structural scaffold for HMTc Category 1 row 11. Three fish, mercury, or baby-food sources have been promoted; finished-product fish baby-food datasets are still pending.
 
+<!-- BEGIN: hmi-product-crosswalk -->
+## Regulatory Crosswalk Vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+This decision surface mirrors [[products/regulatory-crosswalk-field-findings]]. It puts external regulatory context next to field findings so standards developers, regulators, retailers, brands, and legal teams can see what is comparable, what is blocked, and what must not be treated as an HMTc limit.
+
+| Metal | External regulatory context | Field findings | Comparison status | HMTc use | Sources |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]] (US-FDA final guidance action level): 10 ug/kg Pb (as sold or ready-to-eat as applicable; fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2). | FSA/Fera occurrence evidence is promoted; structured row extraction pending. | Regulatory applicability needs review because FDA row language does not isolate fish-containing baby foods. | Use as external context only until product-scope review. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+
+<!-- END: hmi-product-crosswalk -->
+
 ## Evidence Governance
 
 Public evidence label: **Modeled or limited evidence**.
@@ -134,7 +147,7 @@ The app model placeholder for this row should treat [[ingredients/fish-containin
 
 <!-- audience: regulator, educator -->
 
-Regulatory crosswalk pending. <!-- UNCITED: Need fish-containing baby-food or fish advisory sources from FDA, EU, Codex, or other agencies before adding regulatory crosswalk claims for this row. -->
+See the page-level crosswalk above and [[products/regulatory-crosswalk-field-findings]] for current regulatory context; row-specific enforcement events remain pending.
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
