@@ -219,12 +219,12 @@ article a:hover {
   background: var(--highlight);
 }
 
-/* Wikilinks to source pages render as small superscript
-   citation indicators. Quartz emits data-slug on internal
-   links, which lets us style source citations distinctly
-   from regular cross-references. */
+/* Source-page wikilinks in prose and data tables render as compact
+   citation indicators when their visible label is a short alias such
+   as [1]. Source lists and legends stay readable. */
 
-article a[data-slug^="sources/"] {
+article p a[data-slug^="sources/"],
+article table a[data-slug^="sources/"] {
   font-size: 0.72em;
   font-weight: 500;
   vertical-align: super;
@@ -232,9 +232,11 @@ article a[data-slug^="sources/"] {
   padding: 0 1px;
   border-bottom: 1px dotted var(--color-primary-300);
   color: var(--secondary);
+  white-space: nowrap;
 }
 
-article a[data-slug^="sources/"]:hover {
+article p a[data-slug^="sources/"]:hover,
+article table a[data-slug^="sources/"]:hover {
   border-bottom-style: solid;
   background: var(--highlight);
 }

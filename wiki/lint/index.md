@@ -6,3 +6,9 @@ updated: 2026-04-24
 ---
 
 Periodic audits identify contradictions across pages, stale claims citing only older literature, orphaned pages with no inbound links, missing cross-references, evidence-tier imbalances where synthesis pages rest on Tier B or Tier C sources despite Tier A availability, regulatory drift on rules older than six months, and proposed next sources to seek out. Reports are dated and linked from the [log](/log).
+
+## 2026-05-01
+
+- [[lint/2026-05-01-category-5-plant-milk-corpus-pilot-audit]]
+- [[lint/2026-05-01-category-5-step-0-beverages-ingest-audit]]
+- [[lint/2026-05-01-critical-comparison-layer-audit]]

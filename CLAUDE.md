@@ -342,7 +342,23 @@ updated: 2026-04-22
 ---
 ```
 
-Sections: Why this category is high-risk, What drives variance across brands, How the app would estimate risk from an ingredient list, Historical recalls and enforcement (frame as regulatory events, not brand rankings — see Part 12), Sources.
+Sections: Quick Read, Evidence Status, Source Fitness Summary, Regulatory Crosswalk, Metals and Species in Scope, Source Evidence Inventory, Basis and QA Comparator Notes, Use Constraints, What Drives Variance Across Brands, Retailer Translation, Research Priorities and Data Gaps, Historical Recalls and Enforcement (frame as regulatory events, not brand rankings — see Part 12), Source Legend, HMT&C Boundary, Sources.
+
+The `Certification-relevant distribution` section separates measured product concentrations from intake or exposure estimates. It should show, by metal and evidence scope, the available n, p10, p50, p90, p95, and p100/max values when the source provides enough data. If the source only reports a range, category mean, pooled basket, or exposure estimate, label it as such instead of forcing it into a percentile table.
+
+The `Quick Read` section must state the page boundary in plain language: the page is a public evidence inventory, not a brand benchmark, vendor scorecard, or HMT&C certification-limit page. If the page is not directly usable for operational benchmarking, say so there.
+
+The `Regulatory Crosswalk` section must explicitly name FDA Closer to Zero and EU Regulation 2023/915 where relevant, even when the correct entry is "not covered" or "crosswalk pending." Crosswalk rows must preserve analyte/species, covered category, basis, status, row fit, and comparator consequence.
+
+The `Basis and QA Comparator Notes` section must tell QA readers whether values are dry-as-sold, whole product as sold, ready-to-feed, prepared-for-feeding, wet weight, pooled basket, or another basis. Do not leave QA readers to infer whether a COA can be compared directly.
+
+The `Use Constraints` section must prohibit brand ranking, vendor decisions, hidden HMT&C limit inference, cross-basis pooling, total/speciated analyte collapse, and construction of product percentiles from pooled or summary-only evidence.
+
+The `How to read these percentiles` section belongs immediately after the distribution table. For lower-is-better concentration data, p100/max means the lowest cutoff at which 100 percent of the observed pool would pass; when all observed samples are included, this is the observed maximum. p90 means the cutoff at which roughly 90 percent of the observed pool would pass, and p50 means the median. p10 can be used as a cleaner-tail or best-in-class reference, not as a category-wide feasibility claim.
+
+Do not combine geography, period, and product-fit scopes without labeling the consequence. A U.S. threshold proposal should prefer current U.S. data for the exact row. Global, historical, pooled, or adjacent-category data can be shown as context, but the page must state that those data have lower weight for U.S. certification math.
+
+Inline and table citations on product-category pages should use numbered source aliases, for example `[[sources/<cite-key>|[1]]]`, so the rendered page stays readable. Add a `Source legend` near the end of the page mapping each number to the full source page and describing what that source contributes. Full source names should not be used as inline citation labels in dense tables.
 
 ### Regulation page (`wiki/regulations/<rule-id>.md`)
 
@@ -713,7 +729,9 @@ When Karen asks Claude to propose a threshold for HMT&C:
 
 Start from the wiki's current synthesis for the relevant metal and ingredient or product.
 
-Show the work: cite the studies, show the distributions, show where the proposed limit sits on that distribution (for example, "80th percentile of current market").
+Show the work: cite the studies, show the distributions, show where the proposed limit sits on that distribution (for example, "90 percent of the observed U.S. row-fit pool would pass"). For lower-is-better concentrations, p100/max is the cutoff that passes the whole observed pool, p90 is the cutoff that passes roughly 90 percent, p50 is the median, and p10 is the cleaner-tail reference.
+
+Do not use intake or exposure estimates as if they were product concentration percentiles. Intake tables can inform exposure context, but HMT&C product thresholds need concentration distributions in ppb by matrix, metal, geography, and product fit.
 
 Compare against FDA, EU, Codex, California Prop 65, and the Baby Food Safety Act (if applicable).
 

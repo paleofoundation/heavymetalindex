@@ -20,7 +20,10 @@
     "evidence:queue": "tsx tools/evidence/build-review-queue.ts",
     "evidence:scan": "tsx tools/evidence/scan-markdown.ts --raw raw/markdown --out data/evidence/drafts",
     "format": "npx prettier . --write",
-    "test": "tsx --test"
+    "test": "tsx --test",
+    "release:wiki": "npm test && npm run check && npm run build",
+    "publish:wiki": "npm run release:wiki && npx vercel@latest --prod --yes",
+    "verify:live": "node tools/verify-live-pages.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
