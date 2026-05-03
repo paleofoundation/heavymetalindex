@@ -39,10 +39,11 @@ This page is Category 5 row 6. It is no longer a pure scaffold: the row has earl
 
 <!-- audience: regulator, retailer, brand, legal, app -->
 
-This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, grouped source statistics, regulatory reference values, source pages, and evidence gaps so cited calculations can be run from approved rows.
 
 <p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
 
+<div class="table-container">
 <table class="hmi-standards-evidence-table">
 <thead>
 <tr>
@@ -50,7 +51,7 @@ This is the product evidence matrix for standards development. It does not treat
 <th>N</th>
 <th>Loaded source values</th>
 <th>Regulatory reference values</th>
-<th>Resources</th>
+<th>Source pages</th>
 </tr>
 </thead>
 <tbody>
@@ -59,31 +60,34 @@ This is the product evidence matrix for standards development. It does not treat
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td>No extracted source resource is attached yet.</td>
+<td>No loaded source page yet.</td>
 </tr>
 <tr>
 <td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td>No extracted source resource is attached yet.</td>
+<td>No loaded source page yet.</td>
 </tr>
 <tr>
 <td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/milani2023-trace-elements-soy-based-beverages" class="internal" data-slug="sources/milani2023-trace-elements-soy-based-beverages">Milani 2023</a></li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/milani2023-trace-elements-soy-based-beverages" class="internal hmi-source-chip" data-slug="sources/milani2023-trace-elements-soy-based-beverages">Milani 2023</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a>; <a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a>; <a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a>; <a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/milani2023-trace-elements-soy-based-beverages" class="internal" data-slug="sources/milani2023-trace-elements-soy-based-beverages">Milani 2023</a></li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/milani2023-trace-elements-soy-based-beverages" class="internal hmi-source-chip" data-slug="sources/milani2023-trace-elements-soy-based-beverages">Milani 2023</a></div></td>
 </tr>
 </tbody>
 </table>
+</div>
+
+<p class="hmi-source-route-summary"><strong>Reading note:</strong> Loaded source values are grouped by source here. Use the downloadable measured-values ledger below when you need every extracted product-row entry.</p>
 
 ## Standards Decision Matrix
 

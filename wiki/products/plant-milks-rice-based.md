@@ -39,10 +39,11 @@ This page is Category 5 row 7. It now has a usable regulatory-versus-field-findi
 
 <!-- audience: regulator, retailer, brand, legal, app -->
 
-This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, grouped source statistics, regulatory reference values, source pages, and evidence gaps so cited calculations can be run from approved rows.
 
 <p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
 
+<div class="table-container">
 <table class="hmi-standards-evidence-table">
 <thead>
 <tr>
@@ -50,7 +51,7 @@ This is the product evidence matrix for standards development. It does not treat
 <th>N</th>
 <th>Loaded source values</th>
 <th>Regulatory reference values</th>
-<th>Resources</th>
+<th>Source pages</th>
 </tr>
 </thead>
 <tbody>
@@ -59,31 +60,34 @@ This is the product evidence matrix for standards development. It does not treat
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td>No extracted source resource is attached yet.</td>
+<td>No loaded source page yet.</td>
 </tr>
 <tr>
 <td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td>No extracted source resource is attached yet.</td>
+<td>No loaded source page yet.</td>
 </tr>
 <tr>
 <td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 30 ug/kg iAs; wet weight; <a href="../regulations/eu2023-arsenic-rice-based-drinks" class="internal" data-slug="regulations/eu2023-arsenic-rice-based-drinks">EU 2023-915</a></li></ul></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/damato2026-inorganic-arsenic-rice-based-beverages" class="internal" data-slug="sources/damato2026-inorganic-arsenic-rice-based-beverages">Damato 2026</a></li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/damato2026-inorganic-arsenic-rice-based-beverages" class="internal hmi-source-chip" data-slug="sources/damato2026-inorganic-arsenic-rice-based-beverages">Damato 2026</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/damato2026-inorganic-arsenic-rice-based-beverages" class="internal" data-slug="sources/damato2026-inorganic-arsenic-rice-based-beverages">Damato 2026</a></li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/damato2026-inorganic-arsenic-rice-based-beverages" class="internal hmi-source-chip" data-slug="sources/damato2026-inorganic-arsenic-rice-based-beverages">Damato 2026</a></div></td>
 </tr>
 </tbody>
 </table>
+</div>
+
+<p class="hmi-source-route-summary"><strong>Reading note:</strong> Loaded source values are grouped by source here. Use the downloadable measured-values ledger below when you need every extracted product-row entry.</p>
 
 ## Standards Decision Matrix
 

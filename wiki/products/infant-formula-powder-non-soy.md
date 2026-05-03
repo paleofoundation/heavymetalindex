@@ -63,10 +63,11 @@ This page is the public evidence page for powdered non-soy infant formula. It is
 
 <!-- audience: regulator, retailer, brand, legal, app -->
 
-This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, grouped source statistics, regulatory reference values, source pages, and evidence gaps so cited calculations can be run from approved rows.
 
 <p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
 
+<div class="table-container">
 <table class="hmi-standards-evidence-table">
 <thead>
 <tr>
@@ -74,7 +75,7 @@ This is the product evidence matrix for standards development. It does not treat
 <th>N</th>
 <th>Loaded source values</th>
 <th>Regulatory reference values</th>
-<th>Resources</th>
+<th>Source pages</th>
 </tr>
 </thead>
 <tbody>
@@ -82,90 +83,93 @@ This is the product evidence matrix for standards development. It does not treat
 <td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
 <td><strong>393</strong>
 <span class="hmi-crosswalk-status-note">6 sources; prepared-for-feeding and as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>: N=230; prepared-for-feeding; highest 0.6 ppb</li><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a>: N=57; prepared-for-feeding; mean 0.65; median 0.34; highest 3.46 ppb</li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a>: N=13; as-sold; mean 64.2; range 28.7-97; highest 97 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 16 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 23 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 11 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 36 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a>: N=93; as-sold; mean 2.03; highest 5.75 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-5 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 1-4 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 6.5 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-4 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 3 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>FDA 2026: N=230; prepared-for-feeding; highest 0.6 ppb</li><li>Dabeka 2011: N=57; prepared-for-feeding; mean 0.65; median 0.34; highest 3.46 ppb</li><li>Kazi 2009: N=13; as-sold; mean 64.2; range 28.7-97; highest 97 ppb</li><li>Almeida 2022: 10 extracted rows; N pending; as-sold; row means 11-36; 6 rows reported &lt;3 ppb</li><li>Chung 2021: N=93; as-sold; mean 2.03; highest 5.75 ppb</li><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 0-6.5 ppb</li></ul></td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 20 ug/kg Pb; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></li><li><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a></li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal hmi-source-chip" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal hmi-source-chip" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
 <td><strong>393</strong>
 <span class="hmi-crosswalk-status-note">6 sources; prepared-for-feeding and as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>: N=230; prepared-for-feeding; highest 1.3 ppb</li><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a>: N=57; prepared-for-feeding; mean 0.17; median 0.06; highest 1.21 ppb</li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a>: N=13; as-sold; mean 7.86; range 4.2-12.3; highest 12.3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 5 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 4 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 5 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 4 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 4 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <2 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 5 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 8 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 4 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 4 ppb</li><li><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a>: N=93; as-sold; mean 0.98; highest 3.58 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-2 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 3-4 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-2 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 3-4 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 8 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>FDA 2026: N=230; prepared-for-feeding; highest 1.3 ppb</li><li>Dabeka 2011: N=57; prepared-for-feeding; mean 0.17; median 0.06; highest 1.21 ppb</li><li>Kazi 2009: N=13; as-sold; mean 7.86; range 4.2-12.3; highest 12.3 ppb</li><li>Almeida 2022: 10 extracted rows; N pending; as-sold; row means 4-8; 1 row reported &lt;2 ppb</li><li>Chung 2021: N=93; as-sold; mean 0.98; highest 3.58 ppb</li><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 0-8 ppb</li></ul></td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 10 ug/kg Cd; as sold; <a href="../regulations/eu-2023-915-cadmium" class="internal" data-slug="regulations/eu-2023-915-cadmium">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></li><li><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a></li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal hmi-source-chip" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal hmi-source-chip" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
 <td><strong>0</strong>
 <span class="hmi-crosswalk-status-note">1 source; as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0.9-1.9 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0.7-1.8 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0.9-2 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 6-6.3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 1.4-2.3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 7 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 0.7-7 ppb</li></ul></td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 20 ug/kg iAs; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
 <td><strong>323</strong>
 <span class="hmi-crosswalk-status-note">4 sources; prepared-for-feeding and as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>: N=230; prepared-for-feeding; highest 4.7 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 20 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 24 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 31 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 34 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 16 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 21 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <11 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 12 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <11 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 15 ppb</li><li><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a>: N=93; as-sold; mean 3.32; highest 7.87 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 1-3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 1-3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 1-3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 9 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 2-3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 14 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>FDA 2026: N=230; prepared-for-feeding; highest 4.7 ppb</li><li>Almeida 2022: 10 extracted rows; N pending; as-sold; row means 12-34; 2 rows reported &lt;11 ppb</li><li>Chung 2021: N=93; as-sold; mean 3.32; highest 7.87 ppb</li><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 1-14 ppb</li></ul></td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></li><li><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a></li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal hmi-source-chip" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal hmi-source-chip" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
 <td><strong>230</strong>
 <span class="hmi-crosswalk-status-note">3 sources; prepared-for-feeding and as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>: N=230; prepared-for-feeding; highest 0.3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <11 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <11 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <11 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <3 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-1 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-1 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-1 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-1 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-1 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-1 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>FDA 2026: N=230; prepared-for-feeding; highest 0.3 ppb</li><li>Almeida 2022: 10 extracted rows; N pending; as-sold; 10 rows reported &lt;3-11 ppb</li><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 0-1 ppb</li></ul></td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal hmi-source-chip" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/mercury-methyl" class="internal" data-slug="metals/mercury-methyl">MeHg</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td>No loaded source page yet.</td>
 </tr>
 <tr>
 <td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
 <td><strong>0</strong>
 <span class="hmi-crosswalk-status-note">1 source; as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-40 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 18-54 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-40 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-45 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-40 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-40 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 0-54 ppb</li></ul></td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
 <td><strong>70</strong>
 <span class="hmi-crosswalk-status-note">4 sources; prepared-for-feeding and as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a>: N=57; prepared-for-feeding; mean 177; median 44; highest 1004 ppb</li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a>: N=13; as-sold; mean 1018.5; range 640-1520; highest 1520 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 746 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 1241 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 432 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; reported <430 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 724 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 673 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 459 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 942 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 504 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 494 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 767 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 388-488 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 400-450 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 950 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 650 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 1000 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>Dabeka 2011: N=57; prepared-for-feeding; mean 177; median 44; highest 1004 ppb</li><li>Kazi 2009: N=13; as-sold; mean 1018.5; range 640-1520; highest 1520 ppb</li><li>Almeida 2022: 10 extracted rows; N pending; as-sold; row means 432-1241; 1 row reported &lt;430 ppb</li><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 388-1000 ppb</li></ul></td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal hmi-source-chip" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
 <td><strong>0</strong>
 <span class="hmi-crosswalk-status-note">2 sources; as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 40 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 35 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 68 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 33 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 7 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 10 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 81 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 95 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 54 ppb</li><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a>: N=pending; as-sold; mean 75 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-24 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-23 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-22 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-35 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-22 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 40 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>Almeida 2022: 10 extracted rows; N pending; as-sold; row means 7-95 ppb</li><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 0-40 ppb</li></ul></td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal hmi-source-chip" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/chromium-vi" class="internal" data-slug="metals/chromium-vi">Cr-VI</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td>No loaded source page yet.</td>
 </tr>
 <tr>
 <td>Cr-total</td>
 <td><strong>93</strong>
 <span class="hmi-crosswalk-status-note">2 sources; as-sold</span></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a>: N=93; as-sold; mean 27.38; highest 83.8 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 37-73 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 15-35 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-25 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 40-45 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; LB/UB mean 0-40 ppb</li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a>: N=pending; as-sold; mean 30 ppb</li></ul></td>
+<td><ul class="hmi-compact-list hmi-source-summary-list"><li>Chung 2021: N=93; as-sold; mean 27.38; highest 83.8 ppb</li><li>Fsa 2016: 6 extracted rows; N pending; as-sold; reported means/LB-UB 0-73 ppb</li></ul></td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a></li><li><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></li><li>18 routed sources still need follow-up. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal hmi-source-chip" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal hmi-source-chip" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></div></td>
 </tr>
 </tbody>
 </table>
+</div>
+
+<p class="hmi-source-route-summary"><strong>Reading note:</strong> Loaded source values are grouped by source here. Use the downloadable measured-values ledger below when you need every extracted product-row entry. <strong>Follow-up queue:</strong> 18 routed sources still need follow-up before the evidence pool is complete. 11 need direct product-row extraction; 1 needs direct source promotion onto the product page; 5 need row-fit review before extraction; 1 needs context extraction or context-only documentation.</p>
 
 ## Standards Decision Matrix
 
@@ -220,1050 +224,49 @@ This matrix translates the product evidence into the decisions the page needs to
 </details>
 
 
-## Measured Values At A Glance
+<span id="measured-values-at-a-glance"></span>
+
+## Measured Values Ledger
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This table is the fast route from a metal name to the loaded product-row values. It is an extraction ledger for N, mean, median, high/low context, basis, and source resources. It is not where final standards values are selected.
+This is the downloadable row-level extraction ledger behind the standards matrix. Use it for audit, filtering, ingest QA, and Ask the Index retrieval rather than reading every extracted row inline on the page.
 
-<table class="hmi-measured-values-table">
-<thead>
-<tr>
-<th>Metal</th>
-<th>Study</th>
-<th>Product/basis</th>
-<th>N</th>
-<th>Loaded values</th>
-<th>Use in standards work</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 16 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 23 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 11 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 36 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a></td>
-<td>Total cow milk-based infant formulas, stages 1-4<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>93</td>
-<td>mean 2.03; highest 5.75 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></td>
-<td>Infant formula powder, milk-based, as consumed<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
-<td>57</td>
-<td>mean 0.65; median 0.34; highest 3.46 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></td>
-<td>Infant Formula, Powder, Cow Milk-based<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
-<td>230</td>
-<td>highest 0.6 ppb</td>
-<td>Distribution-capable input after row fit, basis, censoring, and clean-row review; not a standalone standard.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-5 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 1-4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 6.5 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
-<td><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></td>
-<td>Milk-based infant formula powder, pasted Table 3<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>13</td>
-<td>mean 64.2; range 28.7-97; highest 97 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 5 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 5 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <2 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 5 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 8 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a></td>
-<td>Total cow milk-based infant formulas, stages 1-4<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>93</td>
-<td>mean 0.98; highest 3.58 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></td>
-<td>Infant formula powder, milk-based, as consumed<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
-<td>57</td>
-<td>mean 0.17; median 0.06; highest 1.21 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></td>
-<td>Infant Formula, Powder, Cow Milk-based<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
-<td>230</td>
-<td>highest 1.3 ppb</td>
-<td>Distribution-capable input after row fit, basis, censoring, and clean-row review; not a standalone standard.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-2 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 3-4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-2 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 3-4 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 8 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
-<td><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></td>
-<td>Milk-based infant formula powder, pasted Table 3<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>13</td>
-<td>mean 7.86; range 4.2-12.3; highest 12.3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0.9-1.9 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0.7-1.8 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0.9-2 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 6-6.3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 1.4-2.3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 7 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 20 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 24 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 31 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 34 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 16 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 21 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <11 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 12 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <11 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 15 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a></td>
-<td>Total cow milk-based infant formulas, stages 1-4<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>93</td>
-<td>mean 3.32; highest 7.87 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></td>
-<td>Infant Formula, Powder, Cow Milk-based<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
-<td>230</td>
-<td>highest 4.7 ppb</td>
-<td>Distribution-capable input after row fit, basis, censoring, and clean-row review; not a standalone standard.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 1-3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 1-3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 1-3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 9 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 2-3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 14 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <11 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <11 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <11 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <3 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></td>
-<td>Infant Formula, Powder, Cow Milk-based<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
-<td>230</td>
-<td>highest 0.3 ppb</td>
-<td>Distribution-capable input after row fit, basis, censoring, and clean-row review; not a standalone standard.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-1 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-1 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-1 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-1 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-1 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-1 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-40 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 18-54 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-40 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-45 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-40 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-40 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 746 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 1241 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 432 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>reported <430 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 724 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 673 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 459 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 942 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 504 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 494 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></td>
-<td>Infant formula powder, milk-based, as consumed<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
-<td>57</td>
-<td>mean 177; median 44; highest 1004 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 767 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 388-488 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 400-450 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 950 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 650 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 1000 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
-<td><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></td>
-<td>Milk-based infant formula powder, pasted Table 3<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>13</td>
-<td>mean 1018.5; range 640-1520; highest 1520 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 40 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DA2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 35 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 68 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>DM2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 33 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 7 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>ME2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 10 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 81 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NC2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 95 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN1 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 54 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals">Almeida 2022</a></td>
-<td>NN2 cow-milk formula mean<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 75 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-24 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-23 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-22 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-35 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-22 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td><a href="../metals/tin" class="internal" data-slug="metals/tin">Sn</a></td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 40 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td>Cr-total</td>
-<td><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements">Chung 2021</a></td>
-<td>Total cow milk-based infant formulas, stages 1-4<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>93</td>
-<td>mean 27.38; highest 83.8 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td>Cr-total</td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Comfort (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 37-73 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td>Cr-total</td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>First milk &amp; hungrier milk (from birth)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 15-35 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td>Cr-total</td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Follow on milk (from 6 months)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-25 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td>Cr-total</td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Goat based (from birth and growing up)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 40-45 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td>Cr-total</td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Growing up milk (12 months +)<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>LB/UB mean 0-40 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-<tr>
-<td>Cr-total</td>
-<td><a href="../sources/fsa2016-infant-food-formula-metals-survey" class="internal" data-slug="sources/fsa2016-infant-food-formula-metals-survey">Fsa 2016</a></td>
-<td>Organic milk<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
-<td>N pending</td>
-<td>mean 30 ppb</td>
-<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
-</tr>
-</tbody>
-</table>
+<div class="hmi-structured-values-ledger">
+<dl class="hmi-structured-values-ledger__grid">
+<div>
+<dt>Rows loaded</dt>
+<dd>128</dd>
+<p>One row per loaded extracted value.</p>
+</div>
+<div>
+<dt>Metals covered</dt>
+<dd>Pb, Cd, iAs, tAs, tHg, Ni, Al, Sn, and Cr-total</dd>
+<p>Only metals with structured rows appear in the CSV.</p>
+</div>
+<div>
+<dt>Source pages</dt>
+<dd>6</dd>
+<p>Grouped in the standards matrix, row-level in the CSV.</p>
+</div>
+<div>
+<dt>Basis types</dt>
+<dd>prepared-for-feeding and as-sold</dd>
+<p>Keep prepared-for-feeding and as-sold rows distinct.</p>
+</div>
+<div>
+<dt>Direct distribution detail</dt>
+<dd>4</dd>
+<p>Potential calculation inputs after fit, basis, and censoring review.</p>
+</div>
+<div>
+<dt>Context-only rows</dt>
+<dd>124</dd>
+<p>Summary, range, or non-direct rows preserved for traceability.</p>
+</div>
+</dl>
+<p class="hmi-structured-values-ledger__download"><a href="/static/hmi-structured-values/infant-formula-powder-non-soy.csv" download="infant-formula-powder-non-soy-structured-values.csv">Download structured values CSV</a><span>Includes metal, study, product label, basis, N, loaded values, censoring, row fit, and use note for each loaded row.</span></p>
+</div>
 
 <p class="hmi-source-route-summary"><strong>Source routing check:</strong> 6 sources already have structured value rows for this product, 12 sources are cited on the page without structured value rows, and 6 declared formula sources are not yet visible here.</p>
 <details class="hmi-crosswalk-details hmi-source-routing-audit" open>

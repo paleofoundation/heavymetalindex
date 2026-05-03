@@ -450,6 +450,10 @@ article table.hmi-measured-values-table td {
   word-break: normal;
 }
 
+article .table-container > table.hmi-standards-evidence-table {
+  min-width: 56rem;
+}
+
 article table.hmi-standards-evidence-table th:nth-child(1),
 article table.hmi-standards-evidence-table td:nth-child(1) {
   overflow-wrap: normal;
@@ -460,12 +464,12 @@ article table.hmi-standards-evidence-table td:nth-child(1) {
 
 article table.hmi-standards-evidence-table th:nth-child(2),
 article table.hmi-standards-evidence-table td:nth-child(2) {
-  width: 12%;
+  width: 11%;
 }
 
 article table.hmi-standards-evidence-table th:nth-child(3),
 article table.hmi-standards-evidence-table td:nth-child(3) {
-  width: 32%;
+  width: 39%;
 }
 
 article table.hmi-standards-evidence-table th:nth-child(4),
@@ -475,7 +479,7 @@ article table.hmi-standards-evidence-table td:nth-child(4) {
 
 article table.hmi-standards-evidence-table th:nth-child(5),
 article table.hmi-standards-evidence-table td:nth-child(5) {
-  width: 24%;
+  width: 18%;
 }
 
 article table.hmi-p90-workbench-table th:nth-child(1),
@@ -556,6 +560,90 @@ article .hmi-compact-list {
   list-style: none;
   margin: 0;
   padding-left: 0;
+}
+
+article .hmi-source-summary-list {
+  gap: 0.45rem;
+}
+
+article .hmi-source-summary-list li {
+  line-height: 1.45;
+}
+
+article .hmi-structured-values-ledger {
+  border-top: 1px solid var(--lightgray);
+  margin: 0.75rem 0 1.5rem;
+  padding-top: 0.9rem;
+}
+
+article .hmi-structured-values-ledger__grid {
+  display: grid;
+  gap: 0.9rem 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  margin: 0;
+}
+
+article .hmi-structured-values-ledger__grid div {
+  min-width: 0;
+}
+
+article .hmi-structured-values-ledger__grid dt {
+  color: var(--gray);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.2rem;
+  text-transform: uppercase;
+}
+
+article .hmi-structured-values-ledger__grid dd {
+  color: var(--dark);
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0;
+}
+
+article .hmi-structured-values-ledger__grid p {
+  color: var(--darkgray);
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin: 0.25rem 0 0;
+}
+
+article .hmi-structured-values-ledger__download {
+  align-items: baseline;
+  border-top: 1px solid var(--lightgray);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.7rem;
+  line-height: 1.45;
+  margin: 0.95rem 0 0;
+  padding-top: 0.8rem;
+}
+
+article .hmi-structured-values-ledger__download a {
+  align-items: center;
+  background: color-mix(in srgb, var(--secondary) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--secondary) 28%, transparent);
+  border-radius: var(--radius-xs);
+  color: var(--secondary);
+  display: inline-flex;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.1;
+  padding: 0.35rem 0.55rem;
+  text-decoration: none;
+}
+
+article .hmi-structured-values-ledger__download a:hover {
+  background: color-mix(in srgb, var(--secondary) 14%, transparent);
+  border-color: color-mix(in srgb, var(--secondary) 42%, transparent);
+}
+
+article .hmi-structured-values-ledger__download span {
+  color: var(--darkgray);
+  font-size: 0.82rem;
 }
 
 article .hmi-standards-readiness-note {
@@ -725,6 +813,32 @@ article .hmi-source-id {
 }
 
 article a.hmi-compact-citation:hover {
+  background: color-mix(in srgb, var(--secondary) 13%, transparent);
+  border-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+}
+
+article .hmi-source-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+article a.hmi-source-chip {
+  align-items: center;
+  background: color-mix(in srgb, var(--secondary) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--secondary) 28%, transparent);
+  border-radius: var(--radius-xs);
+  color: var(--secondary);
+  display: inline-flex;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.1;
+  min-height: 1.6rem;
+  padding: 0.16rem 0.4rem;
+  text-decoration: none;
+}
+
+article a.hmi-source-chip:hover {
   background: color-mix(in srgb, var(--secondary) 13%, transparent);
   border-color: color-mix(in srgb, var(--secondary) 45%, transparent);
 }

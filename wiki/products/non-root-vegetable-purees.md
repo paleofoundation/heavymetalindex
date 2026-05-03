@@ -44,10 +44,11 @@ This page is a structural scaffold for Category 1 row 8. Quantitative evidence n
 
 <!-- audience: regulator, retailer, brand, legal, app -->
 
-This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, grouped source statistics, regulatory reference values, source pages, and evidence gaps so cited calculations can be run from approved rows.
 
 <p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
 
+<div class="table-container">
 <table class="hmi-standards-evidence-table">
 <thead>
 <tr>
@@ -55,7 +56,7 @@ This is the product evidence matrix for standards development. It does not treat
 <th>N</th>
 <th>Loaded source values</th>
 <th>Regulatory reference values</th>
-<th>Resources</th>
+<th>Source pages</th>
 </tr>
 </thead>
 <tbody>
@@ -64,17 +65,20 @@ This is the product evidence matrix for standards development. It does not treat
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td><ul class="hmi-compact-list"><li><strong>FDA:</strong> 10 ug/kg Pb; as sold or ready-to-eat as applicable; <a href="../regulations/fda2025-lead-processed-baby-foods" class="internal" data-slug="regulations/fda2025-lead-processed-baby-foods">FDA 2025 guidance</a></li><li><strong>EU:</strong> 20 ug/kg Pb; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li></ul></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fera2014-fsa-metals-infant-foods-formula" class="internal" data-slug="sources/fera2014-fsa-metals-infant-foods-formula">Fera 2014</a></li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/fera2014-fsa-metals-infant-foods-formula" class="internal hmi-source-chip" data-slug="sources/fera2014-fsa-metals-infant-foods-formula">Fera 2014</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
 <td><span class="hmi-missing-n">N pending</span></td>
 <td>No structured values loaded for this metal/species.</td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 40 ug/kg Cd; as sold; <a href="../regulations/eu-2023-915-cadmium" class="internal" data-slug="regulations/eu-2023-915-cadmium">EU 2023-915</a></li></ul></td>
-<td><ul class="hmi-compact-list"><li><a href="../sources/fera2014-fsa-metals-infant-foods-formula" class="internal" data-slug="sources/fera2014-fsa-metals-infant-foods-formula">Fera 2014</a></li></ul></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/fera2014-fsa-metals-infant-foods-formula" class="internal hmi-source-chip" data-slug="sources/fera2014-fsa-metals-infant-foods-formula">Fera 2014</a></div></td>
 </tr>
 </tbody>
 </table>
+</div>
+
+<p class="hmi-source-route-summary"><strong>Reading note:</strong> Loaded source values are grouped by source here. Use the downloadable measured-values ledger below when you need every extracted product-row entry.</p>
 
 ## Standards Decision Matrix
 

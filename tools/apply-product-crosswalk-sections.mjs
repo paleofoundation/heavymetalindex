@@ -9,6 +9,7 @@ const sourceRoutingAuditPath = path.join(repoRoot, "data/evidence/product_source
 const localReingestQueuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
 const localCandidateValuesPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_values.csv")
 const productDir = path.join(repoRoot, "wiki/products")
+const structuredValuesStaticDir = path.join(repoRoot, "wiki/static/hmi-structured-values")
 const today = "2026-05-03"
 
 const beginMarker = "<!-- BEGIN: hmi-product-crosswalk -->"
@@ -199,6 +200,8 @@ const candidateCountsByProductSource = countBy(localCandidateValueRows, (row) =>
 
 const touched = new Set()
 
+fs.mkdirSync(structuredValuesStaticDir, { recursive: true })
+
 for (const [slug, rows] of rowsByProduct) {
   const pagePath = path.join(productDir, `${slug}.md`)
   if (!fs.existsSync(pagePath)) {
@@ -288,8 +291,9 @@ function writeCategory5Page(pagePath, row, rows) {
 
 function upsertCrosswalkSection(pagePath, rows, productSlugOverride = "") {
   let source = fs.readFileSync(pagePath, "utf8")
+  const productSlug = productSlugOverride || path.basename(pagePath, ".md")
   const fallbackMetals = frontmatterArray(source, "primary_metals_of_concern")
-  const section = buildCrosswalkSection(rows, productSlugOverride || path.basename(pagePath, ".md"), fallbackMetals)
+  const section = buildCrosswalkSection(rows, productSlug, fallbackMetals)
   const marked = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}\\n?`, "m")
 
   if (marked.test(source)) {
@@ -325,6 +329,7 @@ function upsertCrosswalkSection(pagePath, rows, productSlugOverride = "") {
   source = sanitizeProductPagePublicLanguage(source)
 
   fs.writeFileSync(pagePath, source, "utf8")
+  writeStructuredValuesCsv(productSlug)
   touched.add(pagePath)
 }
 
@@ -370,6 +375,7 @@ function sanitizeProductPageBody(body) {
 function buildCrosswalkSection(rows, productSlugOverride = "", fallbackMetals = []) {
   const productSlug = rows[0]?.product_slug || productSlugOverride
   const tableRows = buildStandardsEvidenceRows(productSlug, rows, fallbackMetals)
+  const tableSupportNote = standardsMatrixSupportNote(productSlug)
 
   const details = rows.length > 0 ? buildCrosswalkDetails(rows) : ""
   const decisionMatrix = buildStandardsDecisionMatrix(productSlug, rows, fallbackMetals)
@@ -383,10 +389,11 @@ function buildCrosswalkSection(rows, productSlugOverride = "", fallbackMetals = 
 
 <!-- audience: regulator, retailer, brand, legal, app -->
 
-This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, grouped source statistics, regulatory reference values, source pages, and evidence gaps so cited calculations can be run from approved rows.
 
 <p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
 
+<div class="table-container">
 <table class="hmi-standards-evidence-table">
 <thead>
 <tr>
@@ -394,13 +401,16 @@ This is the product evidence matrix for standards development. It does not treat
 <th>N</th>
 <th>Loaded source values</th>
 <th>Regulatory reference values</th>
-<th>Resources</th>
+<th>Source pages</th>
 </tr>
 </thead>
 <tbody>
 ${tableRows}
 </tbody>
 </table>
+</div>
+
+${tableSupportNote}
 
 ${decisionMatrix}
 ${details}
@@ -471,6 +481,18 @@ function buildStandardsEvidenceRows(productSlug, rows, fallbackMetals = []) {
 </tr>`
     })
     .join("\n")
+}
+
+function standardsMatrixSupportNote(productSlug) {
+  const pendingText = pendingSourceNarrative(productSlug, "sentence").trim()
+  const readingNote =
+    "Loaded source values are grouped by source here. Use the downloadable measured-values ledger below when you need every extracted product-row entry."
+
+  if (!pendingText) {
+    return `<p class="hmi-source-route-summary"><strong>Reading note:</strong> ${escapeHtml(readingNote)}</p>`
+  }
+
+  return `<p class="hmi-source-route-summary"><strong>Reading note:</strong> ${escapeHtml(readingNote)} <strong>Follow-up queue:</strong> ${escapeHtml(pendingText)}</p>`
 }
 
 function buildFallbackP90WorkbenchRows(metals) {
@@ -664,14 +686,155 @@ function loadedSourceValuesCell(rows, metal, productSlug) {
     return "No structured values loaded for this metal/species."
   }
 
-  const entries = rows.map((row) => `<li>${sourceValueLine(row)}</li>`)
-  return `<ul class="hmi-compact-list">${entries.join("")}</ul>`
+  const groupedRows = [...groupBy(rows, (row) => row.source_id || `${row.product_label || ""}::${row.basis || ""}::${row.metal_species || ""}`).values()]
+  const entries = groupedRows.map((sourceRows) => `<li>${sourceGroupSummaryLine(sourceRows)}</li>`)
+  return `<ul class="hmi-compact-list hmi-source-summary-list">${entries.join("")}</ul>`
 }
 
 function sourceValueLine(row) {
   const stats = sourceStats(row)
   const statsText = stats.length > 0 ? stats.join("; ") : "value statistics not extracted"
-  return `${sourceLinkById(row.source_id)}: N=${escapeHtml(row.n || "pending")}; ${escapeHtml(basisLabel(row.basis))}; ${statsText} ${escapeHtml(row.unit || "ppb")}`.trim()
+  return `${escapeHtml(sourceDisplayLabel(row.source_id))}: N=${escapeHtml(row.n || "pending")}; ${escapeHtml(basisLabel(row.basis))}; ${escapeHtml(statsText)} ${escapeHtml(row.unit || "ppb")}`.trim()
+}
+
+function sourceGroupSummaryLine(rows) {
+  if (rows.length === 1) return sourceValueLine(rows[0])
+
+  const firstRow = rows[0]
+  const rowCountText = `${rows.length} extracted row${plural(rows.length)}`
+  const nText = sourceGroupNText(rows)
+  const basisText = formatList(uniqueValues(rows.map((row) => basisLabel(row.basis))))
+  const statsText = sourceGroupStats(rows)
+  const unitText = sourceGroupUnit(rows)
+  const statsDisplay =
+    statsText === "value statistics not extracted" || unitText === ""
+      ? statsText
+      : `${statsText} ${unitText}`.trim()
+
+  return `${escapeHtml(sourceDisplayLabel(firstRow.source_id))}: ${escapeHtml(rowCountText)}; ${escapeHtml(nText)}; ${escapeHtml(basisText)}; ${escapeHtml(statsDisplay)}`
+}
+
+function sourceGroupNText(rows) {
+  const numbers = uniqueValues(rows.map((row) => row.n))
+    .map((value) => Number(value))
+    .filter((value) => Number.isFinite(value))
+
+  if (numbers.length === 0) return "N pending"
+
+  const uniqueNumbers = [...new Set(numbers)].sort((a, b) => a - b)
+  if (uniqueNumbers.length === 1) return `N=${formatNumber(uniqueNumbers[0])}`
+  return `N=${formatNumber(uniqueNumbers[0])}-${formatNumber(uniqueNumbers.at(-1))}`
+}
+
+function sourceGroupStats(rows) {
+  const parts = []
+  const meanText = sourceGroupMeanText(rows)
+  const medianText = summarizeGroupedStat(rows, {
+    field: "median_ppb",
+    singleLabel: "median",
+    multiLabel: "row medians",
+  })
+  const rangeText = sourceGroupRangeText(rows)
+  const highText = sourceGroupHighText(rows)
+  const censoringText = sourceGroupCensoringText(rows)
+
+  if (meanText) parts.push(meanText)
+  if (medianText) parts.push(medianText)
+  if (rangeText) parts.push(rangeText)
+  if (highText) parts.push(highText)
+  if (censoringText) parts.push(censoringText)
+
+  return parts.join("; ") || "value statistics not extracted"
+}
+
+function sourceGroupMeanText(rows) {
+  const meanRows = rows.filter((row) => row.mean_ppb !== "" || row.mean_lb_ppb !== "" || row.mean_ub_ppb !== "")
+  if (meanRows.length === 0) return ""
+
+  const directMeans = meanRows.map((row) => numericOrNull(row.mean_ppb)).filter((value) => value !== null)
+  const lowerBounds = meanRows
+    .map((row) => numericOrNull(row.mean_ppb) ?? numericOrNull(row.mean_lb_ppb))
+    .filter((value) => value !== null)
+  const upperBounds = meanRows
+    .map((row) => numericOrNull(row.mean_ppb) ?? numericOrNull(row.mean_ub_ppb) ?? numericOrNull(row.mean_lb_ppb))
+    .filter((value) => value !== null)
+  const hasIntervals = meanRows.some((row) => row.mean_lb_ppb !== "" || row.mean_ub_ppb !== "")
+
+  if (!hasIntervals && directMeans.length === 1) {
+    return `mean ${formatNumber(directMeans[0])}`
+  }
+  if (lowerBounds.length === 0 || upperBounds.length === 0) return ""
+
+  const label = hasIntervals ? "reported means/LB-UB" : "row means"
+  return `${label} ${formatBounds(lowerBounds, upperBounds)}`
+}
+
+function summarizeGroupedStat(rows, labels) {
+  const values = rows.map((row) => numericOrNull(row[labels.field])).filter((value) => value !== null)
+  if (values.length === 0) return ""
+  if (values.length === 1) return `${labels.singleLabel} ${formatNumber(values[0])}`
+  return `${labels.multiLabel} ${formatBounds(values, values)}`
+}
+
+function sourceGroupRangeText(rows) {
+  const bounds = rows
+    .map((row) => {
+      const match = String(row.statistic_scope || "").match(/range\s+([0-9.]+)\s*-\s*([0-9.]+)/i)
+      if (!match) return null
+      return { low: Number(match[1]), high: Number(match[2]) }
+    })
+    .filter((value) => value && Number.isFinite(value.low) && Number.isFinite(value.high))
+
+  if (bounds.length === 0) return ""
+  if (bounds.length === 1) return `range ${formatNumber(bounds[0].low)}-${formatNumber(bounds[0].high)}`
+  return `row ranges ${formatNumber(Math.min(...bounds.map((value) => value.low)))}-${formatNumber(
+    Math.max(...bounds.map((value) => value.high)),
+  )}`
+}
+
+function sourceGroupHighText(rows) {
+  const values = rows
+    .map((row) => numericOrNull(row.max_ppb) ?? numericOrNull(row.p100_ppb))
+    .filter((value) => value !== null)
+  if (values.length === 0) return ""
+  if (values.length === 1) return `highest ${formatNumber(values[0])}`
+  return `highest up to ${formatNumber(Math.max(...values))}`
+}
+
+function sourceGroupCensoringText(rows) {
+  const values = rows
+    .filter(
+      (row) =>
+        (row.censoring_status === "less_than" ||
+          row.censoring_status === "less_than_loq" ||
+          row.censoring_status === "less_than_lod") &&
+        row.censoring_limit_ppb !== "",
+    )
+    .map((row) => numericOrNull(row.censoring_limit_ppb))
+    .filter((value) => value !== null)
+
+  if (values.length === 0) return ""
+  if (values.length === 1) return `1 row reported <${formatNumber(values[0])}`
+  return `${values.length} rows reported <${formatBounds(values, values)}`
+}
+
+function sourceGroupUnit(rows) {
+  const units = uniqueValues(rows.map((row) => row.unit || "ppb"))
+  return units.length === 1 ? units[0] : formatList(units)
+}
+
+function numericOrNull(value) {
+  if (value === null || value === undefined) return null
+  const normalized = String(value).trim()
+  if (!normalized) return null
+  const number = Number(normalized)
+  return Number.isFinite(number) ? number : null
+}
+
+function formatBounds(lowerValues, upperValues) {
+  const low = Math.min(...lowerValues)
+  const high = Math.max(...upperValues)
+  return low === high ? formatNumber(low) : `${formatNumber(low)}-${formatNumber(high)}`
 }
 
 function sourceStats(row) {
@@ -692,11 +855,17 @@ function sourceStats(row) {
   return stats
 }
 
-function rangeFromRow(row) {
+function rangeBoundsFromRow(row) {
   const scope = String(row.statistic_scope || "")
   const match = scope.match(/range\s+([0-9.]+)\s*-\s*([0-9.]+)/i)
-  if (!match) return ""
-  return `${formatNumber(match[1])}-${formatNumber(match[2])}`
+  if (!match) return null
+  return { low: match[1], high: match[2] }
+}
+
+function rangeFromRow(row) {
+  const bounds = rangeBoundsFromRow(row)
+  if (!bounds) return ""
+  return `${formatNumber(bounds.low)}-${formatNumber(bounds.high)}`
 }
 
 function lbUbMeanText(row) {
@@ -721,11 +890,9 @@ function standardsResourcesCell(productSlug, measuredRows, regulatoryRows) {
     }
   }
 
-  const links = [...sourceIds].map((sourceId) => `<li>${sourceLinkById(sourceId)}</li>`)
-  const pendingLine = pendingSourceNarrative(productSlug, "list")
-
-  if (links.length === 0 && !pendingLine) return "No extracted source resource is attached yet."
-  return `<ul class="hmi-compact-list">${links.join("")}${pendingLine}</ul>`
+  const links = [...sourceIds].map((sourceId) => sourceChipById(sourceId)).join("")
+  if (!links) return "No loaded source page yet."
+  return `<div class="hmi-source-chip-row">${links}</div>`
 }
 
 function pendingSourceCount(productSlug) {
@@ -1071,33 +1238,60 @@ function buildMeasuredValuesAtGlance(productSlug) {
   const rows = measuredRowsForProduct(productSlug)
   if (rows.length === 0) return ""
 
-  const tableRows = rows
-    .sort((a, b) => valueRowSortKey(a).localeCompare(valueRowSortKey(b)))
-    .map(measuredValueTableRow)
-    .join("\n")
+  const csvHref = structuredValuesCsvHref(productSlug)
+  const metals = uniqueValues(rows.map((row) => row.metal_species))
+    .sort((a, b) => metalOrder(a) - metalOrder(b) || a.localeCompare(b))
+  const sourceCount = uniqueSourceCount(rows)
+  const bases = uniqueValues(rows.map((row) => basisLabel(row.basis)))
+  const distributionDetailRows = rows.filter((row) => row.p90_ppb !== "" && row.row_fit === "direct_category1_row").length
+  const contextRows = rows.length - distributionDetailRows
 
   return `
-## Measured Values At A Glance
+<span id="measured-values-at-a-glance"></span>
+
+## Measured Values Ledger
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This table is the fast route from a metal name to the loaded product-row values. It is an extraction ledger for N, mean, median, high/low context, basis, and source resources. It is not where final standards values are selected.
+This is the downloadable row-level extraction ledger behind the standards matrix. Use it for audit, filtering, ingest QA, and Ask the Index retrieval rather than reading every extracted row inline on the page.
 
-<table class="hmi-measured-values-table">
-<thead>
-<tr>
-<th>Metal</th>
-<th>Study</th>
-<th>Product/basis</th>
-<th>N</th>
-<th>Loaded values</th>
-<th>Use in standards work</th>
-</tr>
-</thead>
-<tbody>
-${tableRows}
-</tbody>
-</table>
+<div class="hmi-structured-values-ledger">
+<dl class="hmi-structured-values-ledger__grid">
+<div>
+<dt>Rows loaded</dt>
+<dd>${formatNumber(rows.length)}</dd>
+<p>One row per loaded extracted value.</p>
+</div>
+<div>
+<dt>Metals covered</dt>
+<dd>${escapeHtml(formatList(metals))}</dd>
+<p>Only metals with structured rows appear in the CSV.</p>
+</div>
+<div>
+<dt>Source pages</dt>
+<dd>${formatNumber(sourceCount)}</dd>
+<p>Grouped in the standards matrix, row-level in the CSV.</p>
+</div>
+<div>
+<dt>Basis types</dt>
+<dd>${escapeHtml(formatList(bases))}</dd>
+<p>Keep prepared-for-feeding and as-sold rows distinct.</p>
+</div>
+<div>
+<dt>Direct distribution detail</dt>
+<dd>${formatNumber(distributionDetailRows)}</dd>
+<p>Potential calculation inputs after fit, basis, and censoring review.</p>
+</div>
+<div>
+<dt>Context-only rows</dt>
+<dd>${formatNumber(contextRows)}</dd>
+<p>Summary, range, or non-direct rows preserved for traceability.</p>
+</div>
+</dl>
+<p class="hmi-structured-values-ledger__download"><a href="${escapeAttribute(csvHref)}" download="${escapeAttribute(
+    `${productSlug}-structured-values.csv`,
+  )}">Download structured values CSV</a><span>Includes metal, study, product label, basis, N, loaded values, censoring, row fit, and use note for each loaded row.</span></p>
+</div>
 `
 }
 
@@ -1147,6 +1341,77 @@ function measuredValueUse(row) {
   return "Summary/range input for evidence context; not enough for aggregate distribution math alone."
 }
 
+function structuredValuesCsvHref(productSlug) {
+  return `/static/hmi-structured-values/${encodeURIComponent(productSlug)}.csv`
+}
+
+function writeStructuredValuesCsv(productSlug) {
+  const rows = measuredRowsForProduct(productSlug)
+  if (rows.length === 0) return
+
+  const header = [
+    "product_slug",
+    "metal_species",
+    "source_id",
+    "source_label",
+    "source_slug",
+    "source_page",
+    "source_product_label",
+    "basis",
+    "n",
+    "loaded_values_summary",
+    "mean_ppb",
+    "mean_lb_ppb",
+    "mean_ub_ppb",
+    "median_ppb",
+    "range_low_ppb",
+    "range_high_ppb",
+    "highest_ppb",
+    "censoring_status",
+    "censoring_limit_ppb",
+    "unit",
+    "row_fit",
+    "direct_distribution_detail",
+    "standards_use_note",
+  ]
+
+  const csvRows = rows
+    .slice()
+    .sort((a, b) => valueRowSortKey(a).localeCompare(valueRowSortKey(b)))
+    .map((row) => {
+      const range = rangeBoundsFromRow(row)
+      const highest = row.p100_ppb || row.max_ppb || ""
+      return [
+        productSlug,
+        row.metal_species || "",
+        row.source_id || "",
+        sourceDisplayLabel(row.source_id),
+        row.source_id ? `sources/${row.source_id}` : "",
+        row.source_page || "",
+        row.source_product_label || row.product_label || "",
+        basisLabel(row.basis),
+        row.n || "",
+        measuredValueSummary(row),
+        row.mean_ppb || "",
+        row.mean_lb_ppb || "",
+        row.mean_ub_ppb || "",
+        row.median_ppb || "",
+        range?.low ?? "",
+        range?.high ?? "",
+        highest,
+        row.censoring_status || "",
+        row.censoring_limit_ppb || "",
+        row.unit || "ppb",
+        row.row_fit || "",
+        row.p90_ppb !== "" && row.row_fit === "direct_category1_row" ? "yes" : "no",
+        measuredValueUse(row),
+      ]
+    })
+
+  const csv = [header, ...csvRows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
+  fs.writeFileSync(path.join(structuredValuesStaticDir, `${productSlug}.csv`), `${csv}\n`, "utf8")
+}
+
 function valueRowSortKey(row) {
   return `${String(metalOrder(row.metal_species)).padStart(2, "0")}::${row.source_id || ""}`
 }
@@ -1160,6 +1425,15 @@ function metalOrder(metal) {
 function sourceLinkById(sourceId, label = shortSourceLabel(sourceId)) {
   const slug = `sources/${sourceId}`
   return `<a href="../${escapeAttribute(slug)}" class="internal" data-slug="${escapeAttribute(slug)}">${escapeHtml(label)}</a>`
+}
+
+function sourceDisplayLabel(sourceId) {
+  return sourceId ? shortSourceLabel(sourceId) : "Source"
+}
+
+function sourceChipById(sourceId, label = shortSourceLabel(sourceId)) {
+  const slug = `sources/${sourceId}`
+  return `<a href="../${escapeAttribute(slug)}" class="internal hmi-source-chip" data-slug="${escapeAttribute(slug)}">${escapeHtml(label)}</a>`
 }
 
 function p90StatusCell(row) {
@@ -1897,4 +2171,10 @@ function countBy(rows, key) {
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+function csvEscape(value) {
+  const text = String(value ?? "")
+  if (!/[",\n]/.test(text)) return text
+  return `"${text.replace(/"/g, '""')}"`
 }
