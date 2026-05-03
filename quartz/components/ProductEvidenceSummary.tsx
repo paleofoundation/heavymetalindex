@@ -116,8 +116,8 @@ export default (() => {
             ) : null}
             {sources ? (
               <div>
-                <dt>Source coverage</dt>
-                <dd>{sources} cited sources</dd>
+                <dt>Source library</dt>
+                <dd>{sources} curated sources</dd>
               </div>
             ) : null}
             {population ? (
