@@ -30,12 +30,15 @@ const productTocLabels = new Map([
   ["How Standards Math Uses This Page", "Internal review"],
   ["Evidence Used For This Row", "Evidence used"],
   ["Exposure Estimates From Formula Consumption", "Exposure context"],
+  ["Source Legend", "Citation notes"],
+  ["Narrative Citation Notes", "Citation notes"],
   ["French TDS Category Rows", "Context rows"],
   ["Why This Category Is High-Risk", "Risk context"],
   ["What Drives Variance Across Brands", "Variance drivers"],
   ["How The App Would Estimate Risk From An Ingredient List", "Ingredient-list use"],
   ["Historical Recalls/Enforcement", "Regulatory events"],
-  ["Sources", "Sources"],
+  ["Sources", "Source library"],
+  ["Source Library", "Source library"],
 ])
 
 let numTocs = 0

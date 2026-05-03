@@ -224,26 +224,11 @@ article a:hover {
   background: var(--highlight);
 }
 
-/* Source-page wikilinks in prose and data tables render as compact
-   citation indicators when their visible label is a short numeric alias.
-   Source lists and legends stay readable. */
+/* Source-page wikilinks are normalized by the citation transformer:
+   compact in prose/tables, full-title rows in the page source library. */
 
-article p a[data-slug^="sources/"],
-article table a[data-slug^="sources/"] {
-  font-size: 0.72em;
-  font-weight: 500;
-  vertical-align: super;
-  line-height: 1;
-  padding: 0 1px;
-  border-bottom: 1px dotted var(--color-primary-300);
-  color: var(--secondary);
+article a.hmi-compact-citation {
   white-space: nowrap;
-}
-
-article p a[data-slug^="sources/"]:hover,
-article table a[data-slug^="sources/"]:hover {
-  border-bottom-style: solid;
-  background: var(--highlight);
 }
 
 /* -----------------------------------------------------------
@@ -343,8 +328,8 @@ article tbody td > code:only-child {
 }
 
 /* Evidence tables keep source traceability without letting long source slugs
-   determine the layout width. The transformer compacts source/citation cells
-   to numbered links and writes the full titles into the legend below. */
+   determine the layout width. Source IDs are page-level, so the same source
+   keeps the same S-number in prose, tables, and the source library. */
 
 body[data-slug^="products/"] #quartz-root > #quartz-body > .center,
 body[data-slug^="ingredients/"] #quartz-root > #quartz-body > .center,
@@ -391,8 +376,8 @@ article table.hmi-evidence-table .hmi-evidence-table__source-cell {
   width: 4rem;
 }
 
-article table a.hmi-compact-citation,
-article .hmi-table-source-legend a.hmi-compact-citation {
+article a.hmi-compact-citation,
+article .hmi-source-id {
   align-items: center;
   background: color-mix(in srgb, var(--secondary) 8%, transparent);
   border: 1px solid color-mix(in srgb, var(--secondary) 28%, transparent);
@@ -404,17 +389,60 @@ article .hmi-table-source-legend a.hmi-compact-citation {
   font-weight: 600;
   justify-content: center;
   line-height: 1.1;
-  min-width: 1.55rem;
+  min-width: 2rem;
   padding: 0.12rem 0.28rem;
   text-decoration: none;
   vertical-align: baseline;
   white-space: nowrap;
 }
 
-article table a.hmi-compact-citation:hover,
-article .hmi-table-source-legend a.hmi-compact-citation:hover {
+article a.hmi-compact-citation:hover {
   background: color-mix(in srgb, var(--secondary) 13%, transparent);
   border-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+}
+
+article .hmi-source-id {
+  flex: 0 0 auto;
+}
+
+article .hmi-source-library,
+article .hmi-source-notes {
+  list-style: none;
+  margin: 0.75rem 0 1.5rem;
+  padding-left: 0;
+}
+
+article .hmi-source-library__item,
+article .hmi-source-notes > li {
+  margin: 0.45rem 0;
+}
+
+article a.hmi-source-library-link {
+  align-items: flex-start;
+  border-bottom: none;
+  color: var(--darkgray);
+  display: inline-flex;
+  gap: 0.35rem;
+  line-height: 1.35;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+article a.hmi-source-library-link:hover {
+  background: var(--highlight);
+  color: var(--dark);
+}
+
+article .hmi-source-library-warning {
+  color: var(--secondary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin: 1rem 0 0.4rem;
+}
+
+article .hmi-source-title {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 article .hmi-table-source-legend {

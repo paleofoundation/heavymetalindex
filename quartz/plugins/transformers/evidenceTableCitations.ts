@@ -9,9 +9,23 @@ import { QuartzTransformerPlugin } from "../types"
 
 type SourceEntry = {
   href: string
+  listedInLibrary: boolean
   number: number
   slug: string
   title: string
+}
+
+type SourceRegistry = {
+  entries: SourceEntry[]
+  entriesBySlug: Map<string, SourceEntry>
+  addLink: (link: Element, listedInLibrary?: boolean) => SourceEntry | undefined
+}
+
+type SourceSection = {
+  end: number
+  level: number
+  start: number
+  type: "library" | "narrative"
 }
 
 const narrowSourceColumnHeaders = new Set(["citation", "citations", "source", "sources"])
@@ -26,6 +40,12 @@ const evidenceLinkColumnHeaders = new Set([
   "use note",
 ])
 const sourceSlugPrefix = "sources/"
+const sourceLibraryHeadings = new Set(["source library", "sources"])
+const narrativeSourceHeadings = new Set([
+  "narrative citation key",
+  "narrative citation notes",
+  "source legend",
+])
 
 function isElement(node: unknown): node is Element {
   return typeof node === "object" && node !== null && (node as Element).type === "element"
@@ -156,6 +176,19 @@ function normalizeHeader(value: string): string {
   return value.trim().replace(/\s+/g, " ").toLowerCase()
 }
 
+function normalizeHeading(value: string): string {
+  return normalizeHeader(value)
+}
+
+function headingLevel(node: Element): number | undefined {
+  const match = node.tagName.match(/^h([1-6])$/)
+  return match ? Number(match[1]) : undefined
+}
+
+function setElementText(node: Element, value: string) {
+  node.children = [makeText(value)]
+}
+
 function sourceSlug(link: Element): string | undefined {
   const raw = link.properties?.["data-slug"]
   if (typeof raw !== "string") {
@@ -181,6 +214,25 @@ function collectSourceLinks(node: ElementContent, links: Element[] = []): Elemen
   }
 
   return links
+}
+
+function transformSourceLinks(
+  node: Element,
+  transform: (link: Element, slug: string) => void,
+) {
+  for (const child of node.children) {
+    if (!isElement(child)) {
+      continue
+    }
+
+    const slug = child.tagName === "a" ? sourceSlug(child) : undefined
+    if (slug) {
+      transform(child, slug)
+      continue
+    }
+
+    transformSourceLinks(child, transform)
+  }
 }
 
 function hasChildren(parent: unknown): parent is { children: ElementContent[] } {
@@ -221,17 +273,176 @@ function sourceTitleResolver(ctx: BuildCtx) {
   }
 }
 
+function linkHref(link: Element, slug: string): string {
+  return typeof link.properties?.href === "string" ? link.properties.href : `${slug}.html`
+}
+
+function sourceLabel(entry: SourceEntry): string {
+  return `S${entry.number}`
+}
+
+function makeSourceRegistry(getSourceTitle: (slug: string, fallback: string) => string): SourceRegistry {
+  const entries: SourceEntry[] = []
+  const entriesBySlug = new Map<string, SourceEntry>()
+
+  return {
+    entries,
+    entriesBySlug,
+    addLink(link, listedInLibrary = false) {
+      const slug = sourceSlug(link)
+      if (!slug) {
+        return undefined
+      }
+
+      const existing = entriesBySlug.get(slug)
+      if (existing) {
+        existing.listedInLibrary ||= listedInLibrary
+        return existing
+      }
+
+      const fallback = toString(link).trim()
+      const entry: SourceEntry = {
+        href: linkHref(link, slug),
+        listedInLibrary,
+        number: entries.length + 1,
+        slug,
+        title: getSourceTitle(slug, fallback),
+      }
+      entries.push(entry)
+      entriesBySlug.set(slug, entry)
+      return entry
+    },
+  }
+}
+
+function findSourceSections(root: Root): SourceSection[] {
+  const sections: SourceSection[] = []
+
+  root.children.forEach((child, index) => {
+    if (!isElement(child)) {
+      return
+    }
+
+    const level = headingLevel(child)
+    if (!level) {
+      return
+    }
+
+    const heading = normalizeHeading(toString(child))
+    const type = sourceLibraryHeadings.has(heading)
+      ? "library"
+      : narrativeSourceHeadings.has(heading)
+        ? "narrative"
+        : undefined
+    if (!type) {
+      return
+    }
+
+    let end = root.children.length
+    for (let nextIndex = index + 1; nextIndex < root.children.length; nextIndex++) {
+      const sibling = root.children[nextIndex]
+      if (!isElement(sibling)) {
+        continue
+      }
+
+      const siblingLevel = headingLevel(sibling)
+      if (siblingLevel && siblingLevel <= level) {
+        end = nextIndex
+        break
+      }
+    }
+
+    sections.push({ end, level, start: index, type })
+  })
+
+  return sections
+}
+
+function collectLinksFromRootRange(root: Root, start: number, end: number): Element[] {
+  const links: Element[] = []
+
+  for (const child of root.children.slice(start, end)) {
+    if (isElement(child)) {
+      collectSourceLinks(child, links)
+    }
+  }
+
+  return links
+}
+
+function collectAllSourceLinks(root: Root): Element[] {
+  const links: Element[] = []
+
+  for (const child of root.children) {
+    if (isElement(child)) {
+      collectSourceLinks(child, links)
+    }
+  }
+
+  return links
+}
+
+function buildSourceRegistry(
+  root: Root,
+  sections: SourceSection[],
+  getSourceTitle: (slug: string, fallback: string) => string,
+): SourceRegistry {
+  const registry = makeSourceRegistry(getSourceTitle)
+
+  for (const section of sections.filter((section) => section.type === "library")) {
+    for (const link of collectLinksFromRootRange(root, section.start + 1, section.end)) {
+      registry.addLink(link, true)
+    }
+  }
+
+  for (const link of collectAllSourceLinks(root)) {
+    registry.addLink(link)
+  }
+
+  return registry
+}
+
+function sourceBadge(entry: SourceEntry): Element {
+  return makeElement(
+    "span",
+    {
+      className: ["hmi-source-id"],
+      "aria-hidden": "true",
+      "data-source-id": sourceLabel(entry),
+    },
+    [makeText(sourceLabel(entry))],
+  )
+}
+
+function sourceTitle(entry: SourceEntry): Element {
+  return makeElement("span", { className: ["hmi-source-title"] }, [makeText(entry.title)])
+}
+
+function formatSourceLibraryLink(link: Element, entry: SourceEntry) {
+  addClass(link, "hmi-source-library-link")
+  link.properties = {
+    ...link.properties,
+    "aria-label": `${sourceLabel(entry)}: ${entry.title}`,
+    "data-no-popover": "true",
+    "data-source-id": sourceLabel(entry),
+    "data-source-title": entry.title,
+    title: entry.title,
+  }
+  link.children = [sourceBadge(entry), sourceTitle(entry)]
+}
+
 function compactSourceLink(link: Element, entry: SourceEntry) {
   addClass(link, "hmi-compact-citation")
   link.properties = {
     ...link.properties,
-    "aria-label": `Source ${entry.number}: ${entry.title}`,
-    "data-citation-number": String(entry.number),
+    "aria-label": `${sourceLabel(entry)}: ${entry.title}`,
+    "data-citation-number": sourceLabel(entry),
     "data-no-popover": "true",
+    "data-source-id": sourceLabel(entry),
     "data-source-title": entry.title,
     title: entry.title,
   }
-  link.children = [makeText(`[${entry.number}]`)]
+  link.children = [makeText(sourceLabel(entry))]
 }
 
 function legendLink(entry: SourceEntry): Element {
@@ -240,19 +451,22 @@ function legendLink(entry: SourceEntry): Element {
     {
       href: entry.href,
       className: ["internal", "hmi-compact-citation"],
-      "aria-label": `Source ${entry.number}: ${entry.title}`,
-      "data-citation-number": String(entry.number),
+      "aria-label": `${sourceLabel(entry)}: ${entry.title}`,
+      "data-citation-number": sourceLabel(entry),
       "data-no-popover": "true",
+      "data-source-id": sourceLabel(entry),
       "data-slug": entry.slug,
       title: entry.title,
     },
-    [makeText(`[${entry.number}]`)],
+    [makeText(sourceLabel(entry))],
   )
 }
 
 function makeLegend(entries: SourceEntry[]): Element {
   const children: ElementContent[] = [
-    makeElement("span", { className: ["hmi-table-source-legend__label"] }, [makeText("Sources:")]),
+    makeElement("span", { className: ["hmi-table-source-legend__label"] }, [
+      makeText("Table sources:"),
+    ]),
   ]
 
   entries.forEach((entry, index) => {
@@ -272,7 +486,133 @@ function makeLegend(entries: SourceEntry[]): Element {
   )
 }
 
-function processTable(table: Element, getSourceTitle: (slug: string, fallback: string) => string) {
+function sourceEntryLink(entry: SourceEntry): Element {
+  return makeElement(
+    "a",
+    {
+      href: entry.href,
+      className: ["internal", "hmi-source-library-link"],
+      "aria-label": `${sourceLabel(entry)}: ${entry.title}`,
+      "data-no-popover": "true",
+      "data-slug": entry.slug,
+      "data-source-id": sourceLabel(entry),
+      "data-source-title": entry.title,
+      title: entry.title,
+    },
+    [sourceBadge(entry), sourceTitle(entry)],
+  )
+}
+
+function sourceLibraryList(entries: SourceEntry[], autoGenerated: boolean): Element {
+  return makeElement(
+    "ul",
+    {
+      className: autoGenerated
+        ? ["hmi-source-library", "hmi-source-library--auto"]
+        : ["hmi-source-library"],
+    },
+    entries.map((entry) =>
+      makeElement("li", { className: ["hmi-source-library__item"] }, [sourceEntryLink(entry)]),
+    ),
+  )
+}
+
+function transformSourceSections(root: Root, sections: SourceSection[], registry: SourceRegistry) {
+  const sourceEntries = registry.entries
+  const librarySections = sections.filter((section) => section.type === "library")
+
+  for (const section of sections) {
+    const heading = root.children[section.start]
+    if (isElement(heading)) {
+      if (section.type === "library") {
+        addClass(heading, "hmi-source-library-heading")
+        setElementText(heading, "Source Library")
+      } else {
+        addClass(heading, "hmi-source-notes-heading")
+        setElementText(heading, "Narrative Citation Notes")
+      }
+    }
+
+    for (let index = section.start + 1; index < section.end; index++) {
+      const child = root.children[index]
+      if (!isElement(child)) {
+        continue
+      }
+
+      if (section.type === "library") {
+        if (child.tagName === "ul" || child.tagName === "ol") {
+          child.tagName = "ul"
+          addClass(child, "hmi-source-library")
+        }
+        transformSourceLinks(child, (link, slug) => {
+          const entry = registry.entriesBySlug.get(slug)
+          if (entry) {
+            formatSourceLibraryLink(link, entry)
+          }
+        })
+      } else {
+        if (child.tagName === "ol") {
+          child.tagName = "ul"
+        }
+        if (child.tagName === "ul") {
+          addClass(child, "hmi-source-notes")
+        }
+        transformSourceLinks(child, (link, slug) => {
+          const entry = registry.entriesBySlug.get(slug)
+          if (entry) {
+            compactSourceLink(link, entry)
+          }
+        })
+      }
+    }
+  }
+
+  const missingFromLibrary = sourceEntries.filter((entry) => !entry.listedInLibrary)
+  if (librarySections.length > 0 && missingFromLibrary.length > 0) {
+    const firstLibrary = librarySections[0]
+    root.children.splice(
+      firstLibrary.end,
+      0,
+      makeElement("p", { className: ["hmi-source-library-warning"] }, [
+        makeText("Cited on this page but missing from the curated source library:"),
+      ]),
+      sourceLibraryList(missingFromLibrary, true),
+    )
+  } else if (librarySections.length === 0 && sourceEntries.length > 0) {
+    root.children.push(
+      makeElement(
+        "h2",
+        { className: ["hmi-source-library-heading"], id: "source-library" },
+        [makeText("Source Library")],
+      ),
+      sourceLibraryList(sourceEntries, true),
+    )
+  }
+}
+
+function compactInlineSourceLinks(root: Root, sections: SourceSection[], registry: SourceRegistry) {
+  const sectionChildIndexes = new Set<number>()
+  for (const section of sections) {
+    for (let index = section.start; index < section.end; index++) {
+      sectionChildIndexes.add(index)
+    }
+  }
+
+  root.children.forEach((child, index) => {
+    if (!isElement(child) || sectionChildIndexes.has(index) || child.tagName === "table") {
+      return
+    }
+
+    transformSourceLinks(child, (link, slug) => {
+      const entry = registry.entriesBySlug.get(slug)
+      if (entry && !getClasses(link).includes("hmi-source-library-link")) {
+        compactSourceLink(link, entry)
+      }
+    })
+  })
+}
+
+function processTable(table: Element, registry: SourceRegistry) {
   moveColumnsToEnd(table, headerColumnIndexes(table, narrowSourceColumnHeaders))
 
   const header = headerRow(table)
@@ -313,21 +653,11 @@ function processTable(table: Element, getSourceTitle: (slug: string, fallback: s
           continue
         }
 
-        let entry = entriesBySlug.get(slug)
-        if (!entry) {
-          const fallback = toString(link).trim()
-          const href =
-            typeof link.properties?.href === "string" ? link.properties.href : `${slug}.html`
-          entry = {
-            href,
-            number: entriesBySlug.size + 1,
-            slug,
-            title: getSourceTitle(slug, fallback),
-          }
+        const entry = registry.entriesBySlug.get(slug) ?? registry.addLink(link)
+        if (entry) {
           entriesBySlug.set(slug, entry)
+          compactSourceLink(link, entry)
         }
-
-        compactSourceLink(link, entry)
       }
     }
   }
@@ -356,12 +686,18 @@ export const EvidenceTableCitations: QuartzTransformerPlugin = () => ({
     return [
       () => {
         return (tree: Root) => {
+          const sections = findSourceSections(tree)
+          const registry = buildSourceRegistry(tree, sections, getSourceTitle)
+
+          transformSourceSections(tree, sections, registry)
+          compactInlineSourceLinks(tree, sections, registry)
+
           visit(tree, "element", (node, index, parent) => {
             if (node.tagName !== "table" || index === undefined || !hasChildren(parent)) {
               return
             }
 
-            const legend = processTable(node, getSourceTitle)
+            const legend = processTable(node, registry)
             if (!legend) {
               return
             }

@@ -76,6 +76,7 @@ export default (() => {
       "Extracted Formula Concentration Rows",
       "Structured Concentration Rows",
       "Evidence Used For This Row",
+      "Source Legend",
       "Sources",
     ]
       .map((label) => {
@@ -180,6 +181,10 @@ function productShortcutLabel(label: string): string {
       return "Structured values"
     case "Evidence Used For This Row":
       return "Evidence notes"
+    case "Source Legend":
+      return "Citation notes"
+    case "Sources":
+      return "Source library"
     default:
       return label
   }
