@@ -1,0 +1,4 @@
+product_slug,metal_species,extracted_n_total,extracted_n_display,source_count,basis_types,loaded_source_values_summary,regulatory_reference_values,source_pages,source_page_slugs,follow_up_queue_summary
+teething-and-snacks-rice-based,Pb,0,N pending,0,none,No structured values loaded for this metal/species.,No FDA or EU regulatory reference value is loaded for this product/metal.,,,
+teething-and-snacks-rice-based,Cd,0,N pending,0,none,No structured values loaded for this metal/species.,No FDA or EU regulatory reference value is loaded for this product/metal.,,,
+teething-and-snacks-rice-based,iAs,0,N pending,0,none,No structured values loaded for this metal/species.,EU: 300 ug/kg iAs; as sold; regulations/eu2023-contaminants-maximum-levels,Fera 2014,sources/fera2014-fsa-metals-infant-foods-formula,

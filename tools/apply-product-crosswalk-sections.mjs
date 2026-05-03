@@ -10,6 +10,8 @@ const localReingestQueuePath = path.join(repoRoot, "data/evidence/local_reingest
 const localCandidateValuesPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_values.csv")
 const productDir = path.join(repoRoot, "wiki/products")
 const structuredValuesStaticDir = path.join(repoRoot, "wiki/static/hmi-structured-values")
+const standardsMatrixStaticDir = path.join(repoRoot, "wiki/static/hmi-standards-matrix")
+const routingAuditStaticDir = path.join(repoRoot, "wiki/static/hmi-routing-audit")
 const today = "2026-05-03"
 
 const beginMarker = "<!-- BEGIN: hmi-product-crosswalk -->"
@@ -201,6 +203,8 @@ const candidateCountsByProductSource = countBy(localCandidateValueRows, (row) =>
 const touched = new Set()
 
 fs.mkdirSync(structuredValuesStaticDir, { recursive: true })
+fs.mkdirSync(standardsMatrixStaticDir, { recursive: true })
+fs.mkdirSync(routingAuditStaticDir, { recursive: true })
 
 for (const [slug, rows] of rowsByProduct) {
   const pagePath = path.join(productDir, `${slug}.md`)
@@ -330,6 +334,8 @@ function upsertCrosswalkSection(pagePath, rows, productSlugOverride = "") {
 
   fs.writeFileSync(pagePath, source, "utf8")
   writeStructuredValuesCsv(productSlug)
+  writeStandardsMatrixCsv(productSlug, rows, fallbackMetals)
+  writeRoutingAuditCsv(productSlug)
   touched.add(pagePath)
 }
 
@@ -675,7 +681,29 @@ function extractedNCell(rows) {
 <span class="hmi-crosswalk-status-note">${sourceCount} source${plural(sourceCount)}; ${escapeHtml(formatList(bases))}</span>`
 }
 
+function extractedNText(rows) {
+  if (rows.length === 0) return "N pending"
+
+  const totalN = rows.reduce((sum, row) => sum + numericValue(row.n), 0)
+  const sourceCount = uniqueSourceCount(rows)
+  const bases = uniqueValues(rows.map((row) => basisLabel(row.basis)))
+  return `${formatNumber(totalN)}; ${sourceCount} source${plural(sourceCount)}; ${formatList(bases)}`
+}
+
 function loadedSourceValuesCell(rows, metal, productSlug) {
+  const summaries = loadedSourceValueSummaries(rows, metal, productSlug)
+  if (typeof summaries === "string") return summaries
+  const entries = summaries.map((summary) => `<li>${escapeHtml(summary)}</li>`)
+  return `<ul class="hmi-compact-list hmi-source-summary-list">${entries.join("")}</ul>`
+}
+
+function loadedSourceValuesSummaryText(rows, metal, productSlug) {
+  const summaries = loadedSourceValueSummaries(rows, metal, productSlug)
+  if (typeof summaries === "string") return summaries
+  return summaries.join(" | ")
+}
+
+function loadedSourceValueSummaries(rows, metal, productSlug) {
   if (rows.length === 0) {
     if (metal === "iAs") {
       const totalArsenicRows = measuredRowsForProduct(productSlug).filter((row) => row.metal_species === "tAs")
@@ -687,18 +715,25 @@ function loadedSourceValuesCell(rows, metal, productSlug) {
   }
 
   const groupedRows = [...groupBy(rows, (row) => row.source_id || `${row.product_label || ""}::${row.basis || ""}::${row.metal_species || ""}`).values()]
-  const entries = groupedRows.map((sourceRows) => `<li>${sourceGroupSummaryLine(sourceRows)}</li>`)
-  return `<ul class="hmi-compact-list hmi-source-summary-list">${entries.join("")}</ul>`
+  return groupedRows.map((sourceRows) => sourceGroupSummaryText(sourceRows))
 }
 
 function sourceValueLine(row) {
+  return escapeHtml(sourceValueText(row))
+}
+
+function sourceValueText(row) {
   const stats = sourceStats(row)
   const statsText = stats.length > 0 ? stats.join("; ") : "value statistics not extracted"
-  return `${escapeHtml(sourceDisplayLabel(row.source_id))}: N=${escapeHtml(row.n || "pending")}; ${escapeHtml(basisLabel(row.basis))}; ${escapeHtml(statsText)} ${escapeHtml(row.unit || "ppb")}`.trim()
+  return `${sourceDisplayLabel(row.source_id)}: N=${row.n || "pending"}; ${basisLabel(row.basis)}; ${statsText} ${row.unit || "ppb"}`.trim()
 }
 
 function sourceGroupSummaryLine(rows) {
-  if (rows.length === 1) return sourceValueLine(rows[0])
+  return escapeHtml(sourceGroupSummaryText(rows))
+}
+
+function sourceGroupSummaryText(rows) {
+  if (rows.length === 1) return sourceValueText(rows[0])
 
   const firstRow = rows[0]
   const rowCountText = `${rows.length} extracted row${plural(rows.length)}`
@@ -711,7 +746,7 @@ function sourceGroupSummaryLine(rows) {
       ? statsText
       : `${statsText} ${unitText}`.trim()
 
-  return `${escapeHtml(sourceDisplayLabel(firstRow.source_id))}: ${escapeHtml(rowCountText)}; ${escapeHtml(nText)}; ${escapeHtml(basisText)}; ${escapeHtml(statsDisplay)}`
+  return `${sourceDisplayLabel(firstRow.source_id)}: ${rowCountText}; ${nText}; ${basisText}; ${statsDisplay}`
 }
 
 function sourceGroupNText(rows) {
@@ -877,6 +912,14 @@ function lbUbMeanText(row) {
 }
 
 function standardsResourcesCell(productSlug, measuredRows, regulatoryRows) {
+  const links = standardsResourceEntries(measuredRows, regulatoryRows)
+    .map((entry) => sourceChipById(entry.sourceId, entry.label))
+    .join("")
+  if (!links) return "No loaded source page yet."
+  return `<div class="hmi-source-chip-row">${links}</div>`
+}
+
+function standardsResourceEntries(measuredRows, regulatoryRows) {
   const sourceIds = new Set()
   for (const row of measuredRows) {
     if (row.source_id) sourceIds.add(row.source_id)
@@ -890,9 +933,13 @@ function standardsResourcesCell(productSlug, measuredRows, regulatoryRows) {
     }
   }
 
-  const links = [...sourceIds].map((sourceId) => sourceChipById(sourceId)).join("")
-  if (!links) return "No loaded source page yet."
-  return `<div class="hmi-source-chip-row">${links}</div>`
+  return [...sourceIds]
+    .sort((a, b) => sourceDisplayLabel(a).localeCompare(sourceDisplayLabel(b)))
+    .map((sourceId) => ({
+      sourceId,
+      label: sourceDisplayLabel(sourceId),
+      slug: `sources/${sourceId}`,
+    }))
 }
 
 function pendingSourceCount(productSlug) {
@@ -1167,23 +1214,41 @@ function regulatoryReferenceValuesCell(rows, productSlug) {
   const loadedLimits = rows
     .map((row) => limitsById.get(row.regulatory_limit_id))
     .filter(Boolean)
-  const entries = loadedLimits.map((limit) => `<li>${regulatoryReferenceLine(limit)}</li>`)
-  const loadedJurisdictions = new Set(loadedLimits.map((limit) => jurisdictionGroup(limit)))
-
-  if (productSlug?.startsWith("infant-formula")) {
-    if (!loadedJurisdictions.has("US")) {
-      entries.push("<li>FDA: no formula-specific regulatory value loaded for this metal/species.</li>")
-    }
-    if (!loadedJurisdictions.has("EU")) {
-      entries.push("<li>EU: no formula-specific regulatory value loaded for this metal/species.</li>")
-    }
-  }
-
+  const entries = regulatoryReferenceLines(loadedLimits, productSlug)
   if (entries.length === 0) {
     return "No FDA or EU regulatory reference value is loaded for this product/metal."
   }
 
   return `<ul class="hmi-compact-list">${entries.join("")}</ul>`
+}
+
+function regulatoryReferenceValuesText(rows, productSlug) {
+  const loadedLimits = rows
+    .map((row) => limitsById.get(row.regulatory_limit_id))
+    .filter(Boolean)
+  const entries = regulatoryReferenceLines(loadedLimits, productSlug, { textOnly: true })
+  if (entries.length === 0) {
+    return "No FDA or EU regulatory reference value is loaded for this product/metal."
+  }
+  return entries.join(" | ")
+}
+
+function regulatoryReferenceLines(loadedLimits, productSlug, { textOnly = false } = {}) {
+  const entries = loadedLimits.map((limit) =>
+    textOnly ? regulatoryReferenceLineText(limit) : `<li>${regulatoryReferenceLine(limit)}</li>`,
+  )
+  const loadedJurisdictions = new Set(loadedLimits.map((limit) => jurisdictionGroup(limit)))
+
+  if (productSlug?.startsWith("infant-formula")) {
+    if (!loadedJurisdictions.has("US")) {
+      entries.push(textOnly ? "FDA: no formula-specific regulatory value loaded for this metal/species." : "<li>FDA: no formula-specific regulatory value loaded for this metal/species.</li>")
+    }
+    if (!loadedJurisdictions.has("EU")) {
+      entries.push(textOnly ? "EU: no formula-specific regulatory value loaded for this metal/species." : "<li>EU: no formula-specific regulatory value loaded for this metal/species.</li>")
+    }
+  }
+
+  return entries
 }
 
 function regulatoryReferenceLine(limit) {
@@ -1192,6 +1257,14 @@ function regulatoryReferenceLine(limit) {
   const basis = compactBasis(limit.basis)
   const link = limit.regulation_page ? regulationLink(limit) : escapeHtml(regulationLabel(limit))
   return `<strong>${escapeHtml(label)}:</strong> ${value}; ${escapeHtml(basis)}; ${link}`
+}
+
+function regulatoryReferenceLineText(limit) {
+  const label = jurisdictionLabel(limit)
+  const value = `${formatNumber(limit.value_ug_kg)} ug/kg ${limit.metal_species || ""}`.trim()
+  const basis = compactBasis(limit.basis)
+  const link = limit.regulation_page || regulationLabel(limit)
+  return `${label}: ${value}; ${basis}; ${link}`
 }
 
 function jurisdictionGroup(limit) {
@@ -1238,7 +1311,10 @@ function buildMeasuredValuesAtGlance(productSlug) {
   const rows = measuredRowsForProduct(productSlug)
   if (rows.length === 0) return ""
 
-  const csvHref = structuredValuesCsvHref(productSlug)
+  const matrixCsvHref = standardsMatrixCsvHref(productSlug)
+  const structuredCsvHref = structuredValuesCsvHref(productSlug)
+  const routingCsvHref = routingAuditCsvHref(productSlug)
+  const hasRoutingAudit = (sourceRoutingRowsByProduct.get(productSlug) ?? []).length > 0
   const metals = uniqueValues(rows.map((row) => row.metal_species))
     .sort((a, b) => metalOrder(a) - metalOrder(b) || a.localeCompare(b))
   const sourceCount = uniqueSourceCount(rows)
@@ -1253,7 +1329,7 @@ function buildMeasuredValuesAtGlance(productSlug) {
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This is the downloadable row-level extraction ledger behind the standards matrix. Use it for audit, filtering, ingest QA, and Ask the Index retrieval rather than reading every extracted row inline on the page.
+This download area now mirrors the page in layers instead of forcing one CSV to do everything. Use the standards matrix CSV for per-metal summary, the structured values CSV for row-level extraction detail, and the routing audit CSV for missing or unresolved source placement.
 
 <div class="hmi-structured-values-ledger">
 <dl class="hmi-structured-values-ledger__grid">
@@ -1288,9 +1364,14 @@ This is the downloadable row-level extraction ledger behind the standards matrix
 <p>Summary, range, or non-direct rows preserved for traceability.</p>
 </div>
 </dl>
-<p class="hmi-structured-values-ledger__download"><a href="${escapeAttribute(csvHref)}" download="${escapeAttribute(
+<div class="hmi-structured-values-ledger__download">
+<a href="${escapeAttribute(matrixCsvHref)}" download="${escapeAttribute(`${productSlug}-standards-matrix.csv`)}">Download standards matrix CSV</a>
+<a href="${escapeAttribute(structuredCsvHref)}" download="${escapeAttribute(
     `${productSlug}-structured-values.csv`,
-  )}">Download structured values CSV</a><span>Includes metal, study, product label, basis, N, loaded values, censoring, row fit, and use note for each loaded row.</span></p>
+  )}">Download structured values CSV</a>
+${hasRoutingAudit ? `<a href="${escapeAttribute(routingCsvHref)}" download="${escapeAttribute(`${productSlug}-routing-audit.csv`)}">Download routing audit CSV</a>` : ""}
+<span>The three exports are complementary: matrix summary, row-level extraction ledger, and routing/gap follow-up.</span>
+</div>
 </div>
 `
 }
@@ -1345,9 +1426,21 @@ function structuredValuesCsvHref(productSlug) {
   return `/static/hmi-structured-values/${encodeURIComponent(productSlug)}.csv`
 }
 
+function standardsMatrixCsvHref(productSlug) {
+  return `/static/hmi-standards-matrix/${encodeURIComponent(productSlug)}.csv`
+}
+
+function routingAuditCsvHref(productSlug) {
+  return `/static/hmi-routing-audit/${encodeURIComponent(productSlug)}.csv`
+}
+
 function writeStructuredValuesCsv(productSlug) {
   const rows = measuredRowsForProduct(productSlug)
-  if (rows.length === 0) return
+  const filePath = path.join(structuredValuesStaticDir, `${productSlug}.csv`)
+  if (rows.length === 0) {
+    removeFileIfExists(filePath)
+    return
+  }
 
   const header = [
     "product_slug",
@@ -1409,7 +1502,137 @@ function writeStructuredValuesCsv(productSlug) {
     })
 
   const csv = [header, ...csvRows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
-  fs.writeFileSync(path.join(structuredValuesStaticDir, `${productSlug}.csv`), `${csv}\n`, "utf8")
+  fs.writeFileSync(filePath, `${csv}\n`, "utf8")
+}
+
+function writeStandardsMatrixCsv(productSlug, rows, fallbackMetals = []) {
+  const filePath = path.join(standardsMatrixStaticDir, `${productSlug}.csv`)
+  const exportRows = standardsMatrixExportRows(productSlug, rows, fallbackMetals)
+  if (exportRows.length === 0) {
+    removeFileIfExists(filePath)
+    return
+  }
+
+  const header = [
+    "product_slug",
+    "metal_species",
+    "extracted_n_total",
+    "extracted_n_display",
+    "source_count",
+    "basis_types",
+    "loaded_source_values_summary",
+    "regulatory_reference_values",
+    "source_pages",
+    "source_page_slugs",
+    "follow_up_queue_summary",
+  ]
+
+  const csvRows = exportRows.map((row) => [
+    row.product_slug,
+    row.metal_species,
+    row.extracted_n_total,
+    row.extracted_n_display,
+    row.source_count,
+    row.basis_types,
+    row.loaded_source_values_summary,
+    row.regulatory_reference_values,
+    row.source_pages,
+    row.source_page_slugs,
+    row.follow_up_queue_summary,
+  ])
+
+  const csv = [header, ...csvRows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
+  fs.writeFileSync(filePath, `${csv}\n`, "utf8")
+}
+
+function writeRoutingAuditCsv(productSlug) {
+  const filePath = path.join(routingAuditStaticDir, `${productSlug}.csv`)
+  const auditRows = sourceRoutingRowsByProduct.get(productSlug) ?? []
+  if (auditRows.length === 0) {
+    removeFileIfExists(filePath)
+    return
+  }
+
+  const queueBySource = new Map()
+  for (const row of queueRowsByProduct.get(productSlug) ?? []) {
+    if (row.source_id && !queueBySource.has(row.source_id)) queueBySource.set(row.source_id, row)
+  }
+
+  const header = [
+    "product_slug",
+    "source_id",
+    "source_label",
+    "source_title",
+    "source_slug",
+    "route_status",
+    "route_kind",
+    "route_kind_label",
+    "value_record_count",
+    "product_page_cites_source",
+    "metals_loaded",
+    "evidence_use",
+    "action_needed",
+    "route_note",
+    "queue_priority",
+    "local_source_status",
+  ]
+
+  const csvRows = auditRows
+    .slice()
+    .sort((a, b) => routePriority(a) - routePriority(b) || a.source_id.localeCompare(b.source_id))
+    .map((row) => {
+      const queueRow = queueBySource.get(row.source_id) ?? {}
+      return [
+        productSlug,
+        row.source_id || "",
+        sourceDisplayLabel(row.source_id),
+        row.source_title || "",
+        row.source_id ? `sources/${row.source_id}` : "",
+        row.route_status || "",
+        row.route_kind || "",
+        routeKindLabel(row.route_kind),
+        row.value_record_count || "",
+        row.product_page_cites_source || "",
+        row.metal_species || "",
+        row.evidence_use || "",
+        row.action_needed || queueRow.action_needed || "",
+        row.route_note || "",
+        queueRow.priority || "",
+        queueRow.local_pdf_status || "",
+      ]
+    })
+
+  const csv = [header, ...csvRows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
+  fs.writeFileSync(filePath, `${csv}\n`, "utf8")
+}
+
+function standardsMatrixExportRows(productSlug, rows, fallbackMetals = []) {
+  const measuredRows = measuredRowsForProduct(productSlug)
+  const crosswalkMetals = rows.map((row) => row.metal_species)
+  const measuredMetals = measuredRows.map((row) => row.metal_species)
+  const metals = uniqueValues([...crosswalkMetals, ...measuredMetals, ...fallbackMetals])
+    .sort((a, b) => metalOrder(a) - metalOrder(b) || a.localeCompare(b))
+
+  return metals.map((metal) => {
+    const metalRows = measuredRows.filter((row) => row.metal_species === metal)
+    const regulatoryRows = rows.filter((row) => row.metal_species === metal)
+    const resources = standardsResourceEntries(metalRows, regulatoryRows)
+    const followUp = pendingSourceNarrative(productSlug, "sentence").trim()
+
+    return {
+      product_slug: productSlug,
+      metal_species: metal,
+      extracted_n_total: metalRows.reduce((sum, row) => sum + numericValue(row.n), 0),
+      extracted_n_display: extractedNText(metalRows),
+      source_count: uniqueSourceCount(metalRows),
+      basis_types: formatList(uniqueValues(metalRows.map((row) => basisLabel(row.basis)))),
+      loaded_source_values_summary: loadedSourceValuesSummaryText(metalRows, metal, productSlug),
+      regulatory_reference_values: regulatoryReferenceValuesText(regulatoryRows, productSlug),
+      source_pages: resources.map((entry) => entry.label).join("; "),
+      source_page_slugs: resources.map((entry) => entry.slug).join("; "),
+      follow_up_queue_summary: followUp,
+    }
+  })
 }
 
 function valueRowSortKey(row) {
@@ -2177,4 +2400,8 @@ function csvEscape(value) {
   const text = String(value ?? "")
   if (!/[",\n]/.test(text)) return text
   return `"${text.replace(/"/g, '""')}"`
+}
+
+function removeFileIfExists(filePath) {
+  if (fs.existsSync(filePath)) fs.unlinkSync(filePath)
 }

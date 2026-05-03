@@ -1,0 +1,3 @@
+product_slug,metal_species,extracted_n_total,extracted_n_display,source_count,basis_types,loaded_source_values_summary,regulatory_reference_values,source_pages,source_page_slugs,follow_up_queue_summary
+fruit-juices-non-apple,Pb,0,N pending,0,none,No structured values loaded for this metal/species.,FDA: 20 ug/kg Pb; ready-to-drink; regulations/fda2022-draft-lead-juice | FDA: 50 ug/kg Pb; ready-to-drink juice; regulations/fda2004-juice-haccp-lead | EU: 30 ug/kg Pb; wet/reconstituted; regulations/eu2023-contaminants-maximum-levels,Fda 2022,sources/fda2022-tds-elements-fy2018-fy2020,
+fruit-juices-non-apple,iAs,0,N pending,0,none,No structured values loaded for this metal/species.,EU: 20 ug/kg iAs; wet/reconstituted; regulations/eu2023-contaminants-maximum-levels,,,

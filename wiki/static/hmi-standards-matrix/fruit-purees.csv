@@ -1,0 +1,4 @@
+product_slug,metal_species,extracted_n_total,extracted_n_display,source_count,basis_types,loaded_source_values_summary,regulatory_reference_values,source_pages,source_page_slugs,follow_up_queue_summary
+fruit-purees,Pb,0,N pending,0,none,No structured values loaded for this metal/species.,FDA: 10 ug/kg Pb; as sold or ready-to-eat as applicable; regulations/fda2025-lead-processed-baby-foods | EU: 20 ug/kg Pb; as sold; regulations/eu2023-contaminants-maximum-levels,Fera 2014,sources/fera2014-fsa-metals-infant-foods-formula,
+fruit-purees,Cd,0,N pending,0,none,No structured values loaded for this metal/species.,EU: 40 ug/kg Cd; as sold; regulations/eu-2023-915-cadmium,Fera 2014,sources/fera2014-fsa-metals-infant-foods-formula,
+fruit-purees,iAs,0,N pending,0,none,No structured values loaded for this metal/species.,EU: 20 ug/kg iAs; as sold; regulations/eu2023-contaminants-maximum-levels,Fera 2014,sources/fera2014-fsa-metals-infant-foods-formula,

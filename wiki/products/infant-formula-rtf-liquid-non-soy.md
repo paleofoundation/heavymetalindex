@@ -65,7 +65,7 @@ This is the product evidence matrix for standards development. It does not treat
 <span class="hmi-crosswalk-status-note">2 sources; prepared-for-feeding</span></td>
 <td><ul class="hmi-compact-list hmi-source-summary-list"><li>FDA 2026: N=20; prepared-for-feeding; highest 0.5 ppb</li><li>Dabeka 2011: N=67; prepared-for-feeding; mean 0.9; median 0.84; highest 2.46 ppb</li></ul></td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 10 ug/kg Pb; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
-<td><div class="hmi-source-chip-row"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></div></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
@@ -73,7 +73,7 @@ This is the product evidence matrix for standards development. It does not treat
 <span class="hmi-crosswalk-status-note">2 sources; prepared-for-feeding</span></td>
 <td><ul class="hmi-compact-list hmi-source-summary-list"><li>FDA 2026: N=20; prepared-for-feeding; highest 0.7 ppb</li><li>Dabeka 2011: N=67; prepared-for-feeding; mean 0.23; median 0.11; highest 1.26 ppb</li></ul></td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 5 ug/kg Cd; as sold; <a href="../regulations/eu-2023-915-cadmium" class="internal" data-slug="regulations/eu-2023-915-cadmium">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
-<td><div class="hmi-source-chip-row"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></div></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
@@ -178,7 +178,7 @@ This matrix translates the product evidence into the decisions the page needs to
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This is the downloadable row-level extraction ledger behind the standards matrix. Use it for audit, filtering, ingest QA, and Ask the Index retrieval rather than reading every extracted row inline on the page.
+This download area now mirrors the page in layers instead of forcing one CSV to do everything. Use the standards matrix CSV for per-metal summary, the structured values CSV for row-level extraction detail, and the routing audit CSV for missing or unresolved source placement.
 
 <div class="hmi-structured-values-ledger">
 <dl class="hmi-structured-values-ledger__grid">
@@ -213,7 +213,12 @@ This is the downloadable row-level extraction ledger behind the standards matrix
 <p>Summary, range, or non-direct rows preserved for traceability.</p>
 </div>
 </dl>
-<p class="hmi-structured-values-ledger__download"><a href="/static/hmi-structured-values/infant-formula-rtf-liquid-non-soy.csv" download="infant-formula-rtf-liquid-non-soy-structured-values.csv">Download structured values CSV</a><span>Includes metal, study, product label, basis, N, loaded values, censoring, row fit, and use note for each loaded row.</span></p>
+<div class="hmi-structured-values-ledger__download">
+<a href="/static/hmi-standards-matrix/infant-formula-rtf-liquid-non-soy.csv" download="infant-formula-rtf-liquid-non-soy-standards-matrix.csv">Download standards matrix CSV</a>
+<a href="/static/hmi-structured-values/infant-formula-rtf-liquid-non-soy.csv" download="infant-formula-rtf-liquid-non-soy-structured-values.csv">Download structured values CSV</a>
+<a href="/static/hmi-routing-audit/infant-formula-rtf-liquid-non-soy.csv" download="infant-formula-rtf-liquid-non-soy-routing-audit.csv">Download routing audit CSV</a>
+<span>The three exports are complementary: matrix summary, row-level extraction ledger, and routing/gap follow-up.</span>
+</div>
 </div>
 
 <p class="hmi-source-route-summary"><strong>Source routing check:</strong> 2 sources already have structured value rows for this product, 6 sources are cited on the page without structured value rows, and 8 declared formula sources are not yet visible here.</p>

@@ -147,7 +147,7 @@ This matrix translates the product evidence into the decisions the page needs to
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This is the downloadable row-level extraction ledger behind the standards matrix. Use it for audit, filtering, ingest QA, and Ask the Index retrieval rather than reading every extracted row inline on the page.
+This download area now mirrors the page in layers instead of forcing one CSV to do everything. Use the standards matrix CSV for per-metal summary, the structured values CSV for row-level extraction detail, and the routing audit CSV for missing or unresolved source placement.
 
 <div class="hmi-structured-values-ledger">
 <dl class="hmi-structured-values-ledger__grid">
@@ -182,7 +182,12 @@ This is the downloadable row-level extraction ledger behind the standards matrix
 <p>Summary, range, or non-direct rows preserved for traceability.</p>
 </div>
 </dl>
-<p class="hmi-structured-values-ledger__download"><a href="/static/hmi-structured-values/infant-formula-concentrated-liquid-non-soy.csv" download="infant-formula-concentrated-liquid-non-soy-structured-values.csv">Download structured values CSV</a><span>Includes metal, study, product label, basis, N, loaded values, censoring, row fit, and use note for each loaded row.</span></p>
+<div class="hmi-structured-values-ledger__download">
+<a href="/static/hmi-standards-matrix/infant-formula-concentrated-liquid-non-soy.csv" download="infant-formula-concentrated-liquid-non-soy-standards-matrix.csv">Download standards matrix CSV</a>
+<a href="/static/hmi-structured-values/infant-formula-concentrated-liquid-non-soy.csv" download="infant-formula-concentrated-liquid-non-soy-structured-values.csv">Download structured values CSV</a>
+<a href="/static/hmi-routing-audit/infant-formula-concentrated-liquid-non-soy.csv" download="infant-formula-concentrated-liquid-non-soy-routing-audit.csv">Download routing audit CSV</a>
+<span>The three exports are complementary: matrix summary, row-level extraction ledger, and routing/gap follow-up.</span>
+</div>
 </div>
 
 <p class="hmi-source-route-summary"><strong>Source routing check:</strong> 1 source already have structured value rows for this product, 1 source are cited on the page without structured value rows, and 0 declared formula sources are not yet visible here.</p>

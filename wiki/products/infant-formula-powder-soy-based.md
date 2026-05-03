@@ -66,7 +66,7 @@ This is the product evidence matrix for standards development. It does not treat
 <span class="hmi-crosswalk-status-note">3 sources; prepared-for-feeding and as-sold</span></td>
 <td><ul class="hmi-compact-list hmi-source-summary-list"><li>FDA 2026: N=38; prepared-for-feeding; highest 1.1 ppb</li><li>Dabeka 2011: N=15; prepared-for-feeding; median 1.27; highest 1.9 ppb</li><li>Kazi 2009: N=4; as-sold; mean 109.4; range 98.6-119; highest 119 ppb</li></ul></td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 20 ug/kg Pb; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
-<td><div class="hmi-source-chip-row"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></div></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
@@ -74,7 +74,7 @@ This is the product evidence matrix for standards development. It does not treat
 <span class="hmi-crosswalk-status-note">3 sources; prepared-for-feeding and as-sold</span></td>
 <td><ul class="hmi-compact-list hmi-source-summary-list"><li>FDA 2026: N=38; prepared-for-feeding; highest 1.4 ppb</li><li>Dabeka 2011: N=15; prepared-for-feeding; mean 1.56; median 1.39; highest 3.47 ppb</li><li>Kazi 2009: N=4; as-sold; mean 11.7; range 8.3-14.5; highest 14.5 ppb</li></ul></td>
 <td><ul class="hmi-compact-list"><li><strong>EU:</strong> 20 ug/kg Cd; as sold; <a href="../regulations/eu-2023-915-cadmium" class="internal" data-slug="regulations/eu-2023-915-cadmium">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
-<td><div class="hmi-source-chip-row"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></div></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal hmi-source-chip" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></div></td>
 </tr>
 <tr>
 <td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
@@ -112,7 +112,7 @@ This is the product evidence matrix for standards development. It does not treat
 <span class="hmi-crosswalk-status-note">4 sources; prepared-for-feeding and as-sold</span></td>
 <td><ul class="hmi-compact-list hmi-source-summary-list"><li>Dabeka 2011: N=15; prepared-for-feeding; mean 733; median 713; highest 1461 ppb</li><li>Kazi 2009: N=4; as-sold; mean 2270; range 1740-2720; highest 2720 ppb</li><li>Burrell 2010: N=1; as-sold; range 629-629; highest 629 ppb</li><li>Chuchu 2013: N=2; as-sold; range 656-756; highest 756 ppb</li></ul></td>
 <td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
-<td><div class="hmi-source-chip-row"><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a><a href="../sources/burrell2010-aluminium-in-infant-formulas" class="internal hmi-source-chip" data-slug="sources/burrell2010-aluminium-in-infant-formulas">Burrell 2010</a><a href="../sources/chuchu2013-aluminium-in-infant-formulas" class="internal hmi-source-chip" data-slug="sources/chuchu2013-aluminium-in-infant-formulas">Chuchu 2013</a></div></td>
+<td><div class="hmi-source-chip-row"><a href="../sources/burrell2010-aluminium-in-infant-formulas" class="internal hmi-source-chip" data-slug="sources/burrell2010-aluminium-in-infant-formulas">Burrell 2010</a><a href="../sources/chuchu2013-aluminium-in-infant-formulas" class="internal hmi-source-chip" data-slug="sources/chuchu2013-aluminium-in-infant-formulas">Chuchu 2013</a><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal hmi-source-chip" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal hmi-source-chip" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></div></td>
 </tr>
 </tbody>
 </table>
@@ -179,7 +179,7 @@ This matrix translates the product evidence into the decisions the page needs to
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This is the downloadable row-level extraction ledger behind the standards matrix. Use it for audit, filtering, ingest QA, and Ask the Index retrieval rather than reading every extracted row inline on the page.
+This download area now mirrors the page in layers instead of forcing one CSV to do everything. Use the standards matrix CSV for per-metal summary, the structured values CSV for row-level extraction detail, and the routing audit CSV for missing or unresolved source placement.
 
 <div class="hmi-structured-values-ledger">
 <dl class="hmi-structured-values-ledger__grid">
@@ -214,7 +214,12 @@ This is the downloadable row-level extraction ledger behind the standards matrix
 <p>Summary, range, or non-direct rows preserved for traceability.</p>
 </div>
 </dl>
-<p class="hmi-structured-values-ledger__download"><a href="/static/hmi-structured-values/infant-formula-powder-soy-based.csv" download="infant-formula-powder-soy-based-structured-values.csv">Download structured values CSV</a><span>Includes metal, study, product label, basis, N, loaded values, censoring, row fit, and use note for each loaded row.</span></p>
+<div class="hmi-structured-values-ledger__download">
+<a href="/static/hmi-standards-matrix/infant-formula-powder-soy-based.csv" download="infant-formula-powder-soy-based-standards-matrix.csv">Download standards matrix CSV</a>
+<a href="/static/hmi-structured-values/infant-formula-powder-soy-based.csv" download="infant-formula-powder-soy-based-structured-values.csv">Download structured values CSV</a>
+<a href="/static/hmi-routing-audit/infant-formula-powder-soy-based.csv" download="infant-formula-powder-soy-based-routing-audit.csv">Download routing audit CSV</a>
+<span>The three exports are complementary: matrix summary, row-level extraction ledger, and routing/gap follow-up.</span>
+</div>
 </div>
 
 <p class="hmi-source-route-summary"><strong>Source routing check:</strong> 5 sources already have structured value rows for this product, 7 sources are cited on the page without structured value rows, and 10 declared formula sources are not yet visible here.</p>
