@@ -13,7 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats)"
-updated: 2026-05-02
+updated: 2026-05-03
 audience: [regulator, educator]
 ---
 
@@ -77,7 +77,7 @@ The Closer to Zero program was initiated in April 2021. FDA's IRLs for dietary l
 
 ## Comparison to EU, Codex, and state rules
 
-Pending ingest of the corresponding EU Regulation 2023/915 provisions, Codex Alimentarius maximum levels for lead in applicable matrices (referenced through the CCCF process), and California Proposition 65 determinations. The gap between a federal non-binding action level under 21 CFR 109.6(d) and an enforceable maximum level under other authorities is a durable structural difference to capture in the synthesis.
+For the Category 1 lead comparison layer, see [[products/lead-benchmark-context]]. EU Regulation 2023/915 generally maps covered baby food and processed cereal-based food for infants and young children to 20 ppb lead as placed on the market, while California Proposition 65 operates as a daily-exposure screen rather than a food-category ppb limit. The gap between a federal non-binding action level under 21 CFR 109.6(d), an EU enforceable maximum level, and a Prop 65 exposure threshold is a durable structural difference to preserve in the synthesis.
 
 ## Parent program
 

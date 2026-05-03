@@ -24,7 +24,7 @@ cc_relationship:
   scope: none
   partners: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-29
+updated: 2026-05-03
 sources: 8
 ---
 
@@ -55,6 +55,26 @@ Public evidence label: **Modeled or limited evidence**.
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
+
+## Lead Benchmark Context
+
+<!-- audience: regulator, educator, consumer, app -->
+<!-- lead-benchmark-context:start -->
+
+HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposure screens, and occurrence values can be compared on one concentration scale. The values below do not all mean the same thing: FDA and EU entries are regulatory context, Prop 65 is a serving-based exposure screen, and source tables on this page remain occurrence evidence.
+
+| Reference point | Lead ppb view | Basis | How to use it |
+| --- | --- | --- | --- |
+| Current FDA | 10 ppb (FDA final guidance action level) | ready-to-eat processed baby food | Fruits for babies and young children under 2 |
+| EU 2023/915 | 20 ppb | baby food as placed on market | EU maximum level. |
+| Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior ready-to-serve infant food RACC of 110 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context, EU 20 ppb as a looser legal ceiling, and occurrence medians/P90s to set any HMTc target. |
+
+A puree can be below FDA and EU values while exceeding a Prop 65 serving-based screen.
+
+Full crosswalk: [[products/lead-benchmark-context]].
+
+<!-- lead-benchmark-context:end -->
 
 ## Scaffold Status
 

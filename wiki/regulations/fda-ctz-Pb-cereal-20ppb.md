@@ -13,7 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals"
-updated: 2026-05-02
+updated: 2026-05-03
 audience: [regulator, educator]
 ---
 
@@ -74,7 +74,7 @@ See [[regulations/fda-ctz-Pb-babyfood-10ppb]] for shared program history. This a
 
 ## Comparison to EU, Codex, and state rules
 
-Pending ingest. Dry infant cereals are specifically called out in EU Regulation 2023/915 and in Codex standards on cereal-based foods for infants and young children; the detailed comparison will be populated when those documents are ingested.
+For the Category 1 lead comparison layer, see [[products/lead-benchmark-context]]. EU Regulation 2023/915 maps processed cereal-based food for infants and young children to 20 ppb lead as placed on the market, matching FDA's 20 ppb lead action level for dry infant cereal in concentration value but not in legal form. California Proposition 65 remains exposure-based; using FDA's 15 g dry-infant-cereal reference amount, the 0.5 ug/day lead MADL converts to 33.3 ppb for one 15 g/day serving.
 
 ## Parent program
 

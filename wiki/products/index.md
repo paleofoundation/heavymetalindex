@@ -2,7 +2,7 @@
 title: Product categories
 description: Heavy-metal risk profiles for consumer food-product categories.
 audience: [regulator, educator, consumer, researcher]
-updated: 2026-04-28
+updated: 2026-05-03
 ---
 
 Product-category pages describe heavy-metal evidence for consumer-facing food categories. Start here when the reader's question begins with a product type rather than a metal.
@@ -22,6 +22,8 @@ Product-category pages describe heavy-metal evidence for consumer-facing food ca
 ## Infant and Child Foods (HMTc Category 1, Ages 0-5)
 
 These pages report what the evidence says about the product row, source coverage, partial distributions, and data gaps. Technical row architecture and Evidence Fitness notes remain on the detail pages for auditability.
+
+Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in [[products/lead-benchmark-context|Category 1 lead benchmark context]]. The ppb view keeps FDA, EU, Prop 65, and occurrence values comparable while preserving each value's legal or evidentiary role.
 
 1. [[products/infant-formula-powder-non-soy|Infant formula, powder (non-soy)]]
 2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]]

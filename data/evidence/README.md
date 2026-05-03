@@ -31,6 +31,9 @@ and Category 1 pilot coverage registers.
 - `category1_formula_special_survey_samples.csv`: parsed FDA sample-level
   infant-formula special-survey rows with locked-row, bridge, and out-of-scope
   mapping notes.
+- `category1_lead_benchmark_context.csv`: ppb-normalized Category 1 lead
+  benchmark context, including FDA status/value, EU maximum-level ppb values,
+  Prop 65 serving-based ppb equivalents, and HMTc/public interpretation notes.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.

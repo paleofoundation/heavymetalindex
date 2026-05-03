@@ -13,7 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)"
-updated: 2026-05-02
+updated: 2026-05-03
 audience: [regulator, educator]
 ---
 
@@ -76,7 +76,7 @@ See [[regulations/fda-ctz-Pb-babyfood-10ppb]] for shared program history. The dr
 
 ## Comparison to EU, Codex, and state rules
 
-Pending ingest. The regulatory treatment of root vegetables specifically, as distinct from vegetables broadly, varies across jurisdictions; the comparison matrix will be filled in when the EU and Codex documents are ingested.
+For the Category 1 lead comparison layer, see [[products/lead-benchmark-context]]. EU Regulation 2023/915 maps covered baby food to 20 ppb lead as placed on the market, so the EU value aligns numerically with FDA's single-ingredient root-vegetable lead action level. California Proposition 65 remains exposure-based; using FDA's 110 g ready-to-serve infant-food reference amount, the 0.5 ug/day lead MADL converts to about 4.5 ppb for 110 g/day.
 
 ## Parent program
 

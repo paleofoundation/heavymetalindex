@@ -28,7 +28,7 @@ cc_relationship:
       role_of_partner: contamination_platform
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-29
+updated: 2026-05-03
 sources: 5
 ---
 
@@ -56,6 +56,26 @@ Public evidence label: **Modeled or limited evidence**.
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
+
+## Lead Benchmark Context
+
+<!-- audience: regulator, educator, consumer, app -->
+<!-- lead-benchmark-context:start -->
+
+HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposure screens, and occurrence values can be compared on one concentration scale. The values below do not all mean the same thing: FDA and EU entries are regulatory context, Prop 65 is a serving-based exposure screen, and source tables on this page remain occurrence evidence.
+
+| Reference point | Lead ppb view | Basis | How to use it |
+| --- | --- | --- | --- |
+| Current FDA | Not established | No snack-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes snack foods such as puffs, rusks, and teething biscuits |
+| EU 2023/915 | 20 ppb | processed cereal-based food as placed on market | EU maximum level if classified as processed cereal-based infant/young-child food. |
+| Prop 65 MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething/snack dry grain product RACC of 7 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| HMTc standards use | ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use occurrence evidence only until product-scope review confirms applicable regulation; do not borrow dry infant cereal action levels for snacks. |
+
+Small serving size makes the one-serving Prop 65 ppb equivalent high, but frequent consumption or larger servings lower the equivalent.
+
+Full crosswalk: [[products/lead-benchmark-context]].
+
+<!-- lead-benchmark-context:end -->
 
 ## Scaffold Status
 
