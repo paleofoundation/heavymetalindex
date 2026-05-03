@@ -104,7 +104,7 @@ ingredients:
   - whole-milk
   - whole-wheat-bread
   - winter-squash
-products: [fruit-juice-not-canned, fruit-juices-apple-containing, fruit-juices-non-apple]
+products: [fruit-juices-apple-containing, fruit-juices-non-apple]
 jurisdictions: [US-FDA]
 updated: 2026-05-03
 ---
@@ -149,7 +149,7 @@ FDA's FY2018-FY2020 Total Diet Study elements dataset reports 29,148 analytical-
 
 ## Row routing
 
-The dataset is routed primarily to [[ingredients/index]] because the TDS foods are prepared foods and composites rather than HMTc product rows. Apple juice and grapefruit juice also update the Category 5 and Category 1 juice routing surfaces because those rows already distinguish apple-containing and non-apple juice. The source should not be used for brand rankings, current brand claims, or HMTc thresholds.
+The dataset is routed primarily to [[ingredients/index]] because the TDS foods are prepared foods and composites rather than HMTc product rows. Apple juice and grapefruit juice also update the Category 5 split juice routing surfaces because those rows distinguish apple-containing and non-apple juice. The generic not-canned juice row remains split-required for regulatory comparison. The source should not be used for brand rankings, current brand claims, or HMTc thresholds.
 
 ## Methods (brief)
 
@@ -169,7 +169,6 @@ The public CSV does not include brand names, lot identifiers, lab replicate meta
 ## Wiki pages updated on ingest
 
 - [[ingredients/index]]
-- [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-apple-containing]]
 - [[products/fruit-juices-non-apple]]
 - [[products/regulatory-crosswalk-field-findings]]

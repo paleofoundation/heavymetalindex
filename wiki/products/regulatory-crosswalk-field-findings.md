@@ -2,7 +2,7 @@
 type: product-crosswalk
 title: "Regulatory Crosswalk vs Field Findings"
 audience: [standards-development, regulator, retailer, brand, legal]
-updated: 2026-05-02
+updated: 2026-05-03
 sources: 13
 ---
 
@@ -33,18 +33,23 @@ High-signal rows after the EU 2023/915 ingest:
 | [[products/infant-formula-rtf-liquid-non-soy]] and [[products/infant-formula-rtf-liquid-soy-based]] | EU Pb 10 ug/kg; EU Cd 5 or 10 ug/kg by protein source; EU iAs 10 ug/kg | Pb and Cd have direct liquid-basis context from FDA 2026 subsets; iAs remains blocked where the occurrence source reports total arsenic. |
 | [[products/baby-cereals-dry-non-rice]] and [[products/baby-cereals-dry-rice-based]] | FDA Pb 20 ug/kg; FDA iAs 100 ug/kg for rice cereal; EU Pb 20 ug/kg; EU Cd 40 ug/kg | Limits are visible, but field-finding comparison remains blocked until structured product-row extraction is complete. |
 | Purees and mixed meals | FDA Pb values plus EU Pb 20 ug/kg and EU Cd 40 ug/kg; selected baby-food iAs context | Field-finding comparison remains blocked until puree and meal rows are extracted with matrix, basis, and species preserved. |
-| Fruit juices | FDA apple-juice iAs 10 ug/kg, FDA lead guidance/draft rows, EU fruit-juice iAs 20 ug/kg, EU fruit-juice Pb 30 or 50 ug/kg by juice type | Juice rows need apple/non-apple, berry/small-fruit, canned/not-canned, and species splits before exact comparison. |
+| Fruit juices | FDA apple-juice iAs and draft Pb only on [[products/fruit-juices-apple-containing]]; FDA other-juice and Juice HACCP context on split rows; EU fruit-juice iAs/Pb context remains scope-blocked where needed | The generic not-canned row is split-required and carries explicit blocked rows instead of inheriting apple-specific values. |
 | [[products/teething-and-snacks-rice-based]] | EU iAs 300 ug/kg for named rice cakes/crackers/wafers/flakes/popped rice products | Useful legal context, but product split is required; do not substitute FDA infant-rice-cereal values for snacks. |
 | [[products/plant-milks-rice-based]] | EU iAs 30 ug/kg for non-alcoholic rice-based drinks | Direct comparison is available for D'Amato 2026 because product matrix, species, and unit basis match. |
 
 ## Data Files
 
+- `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`
+- `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`
+- `data/evidence/fda_tds_fy2018_2020_ingredient_routes.csv`
 - `data/evidence/regulatory_limits.csv`
 - `data/evidence/product_regulatory_crosswalk.csv`
 - `data/evidence/category1_formula_special_survey_samples.csv`
 - `data/evidence/category1_formula_concentration_summary.csv`
 
 ## Source And Regulation Nodes
+
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 - [[sources/fda2026-infant-formula-product-testing-results]]
 - [[sources/fera2014-fsa-metals-infant-foods-formula]]

@@ -14,7 +14,7 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ## [2026-05-03] ingest | fda2022-tds-elements-fy2018-fy2020 - FDA Total Diet Study FY2018-FY2020 elements dataset
 
-Pages touched: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[sources/index]], [[ingredients/index]], [[products/fruit-juice-not-canned]], [[products/fruit-juices-apple-containing]], [[products/fruit-juices-non-apple]], [[products/regulatory-crosswalk-field-findings]], [[lint/2026-05-03-fda-tds-elements-ingest-audit]]
+Pages touched: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[sources/index]], [[ingredients/index]], [[products/fruit-juices-apple-containing]], [[products/fruit-juices-non-apple]], [[products/regulatory-crosswalk-field-findings]], [[lint/2026-05-03-fda-tds-elements-ingest-audit]]
 
 Notes: Preserved the FDA TDS FY2018-FY2020 element-results CSV and analytical-results key PDF outside Git in `raw/reports/`; generated normalized row-level evidence, per-food/per-analyte summaries, and a TDS food-to-ingredient routing table. Created missing ingredient pages and updated existing ingredient pages so every TDS food has a stable wiki destination for future ingests. Reported zero concentrations remain FDA-reported zeroes with reporting limits retained separately; no brand claims, HMTc threshold claims, or regulatory exceedance claims were added.
 

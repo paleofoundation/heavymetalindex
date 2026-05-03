@@ -56,4 +56,6 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 
 ## Sources
 
+
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
 - Source promotion pending.
