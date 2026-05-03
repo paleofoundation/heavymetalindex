@@ -1,0 +1,724 @@
+@use "./base.scss";
+
+/* ============================================================
+   Heavy Metal Index — custom styles
+
+   Implements the visual brief:
+     - Modern visual register, conservative information architecture.
+     - Answerthis-derived palette (defined in quartz.config.ts).
+     - Inter throughout, restrained sizing, generous whitespace.
+     - Burgundy accent (var(--secondary)) used sparingly on links,
+       active states, and the citation tier pill.
+
+   Two design-token systems coexist in this file:
+     - Quartz vars (--light, --dark, --secondary, --gray, ...) come
+       from quartz.config.ts and switch automatically with
+       [saved-theme="dark"]. They drive structural colors.
+     - Refine Design tokens (--color-primary, --radius-md,
+       --shadow-sm, --text-lg, ...) are declared below. They give
+       components a consistent shade scale, type scale, radii,
+       and shadows without re-tuning every selector.
+     - Where the two overlap (e.g. --color-primary == --secondary
+       == #8B2A4A), keep both: Quartz vars stay the canonical
+       theming surface; Refine tokens are component-level tools.
+   ============================================================ */
+
+
+/* -----------------------------------------------------------
+   Design tokens — Refine Design (refinedesign.ai)
+
+   Imported wholesale so the wiki has a documented shade scale,
+   type scale, radii, and shadow system to draw from. Values
+   that conflict with the active dark theme are overridden in
+   the [saved-theme="dark"] block below.
+   ----------------------------------------------------------- */
+
+:root {
+  /* Brand colors */
+  --color-primary: #8B2A4A;
+  --color-secondary: #78716C;
+  --color-accent: #AAB8BE;
+  --color-background: #FDFDFC;
+  --color-text: #1A1D24;
+  --color-text-secondary: rgba(26, 29, 36, 0.7);
+  --color-text-muted: rgba(26, 29, 36, 0.5);
+  --color-border: rgba(139, 42, 74, 0.15);
+
+  /* Primary scale (burgundy) */
+  --color-primary-50: #F7F2F4;
+  --color-primary-100: #F2E3E8;
+  --color-primary-200: #ECC0CF;
+  --color-primary-300: #DE91AB;
+  --color-primary-400: #CD5B80;
+  --color-primary-500: #B43660;
+  --color-primary-600: #8D2B4B;
+  --color-primary-700: #6E213A;
+  --color-primary-800: #4E182A;
+  --color-primary-900: #36111D;
+  --color-primary-950: #1D0C12;
+
+  /* Secondary scale (warm gray) */
+  --color-secondary-50: #F5F5F5;
+  --color-secondary-100: #EBEAEA;
+  --color-secondary-200: #D8D6D4;
+  --color-secondary-300: #BBB7B4;
+  --color-secondary-400: #9A938E;
+  --color-secondary-500: #7B746F;
+  --color-secondary-600: #615B57;
+  --color-secondary-700: #4B4744;
+  --color-secondary-800: #363330;
+  --color-secondary-900: #262322;
+  --color-secondary-950: #151414;
+
+  /* Accent scale (cool blue-gray) */
+  --color-accent-50: #F4F5F5;
+  --color-accent-100: #E9EBEC;
+  --color-accent-200: #D1D8DC;
+  --color-accent-300: #AEBBC1;
+  --color-accent-400: #869AA2;
+  --color-accent-500: #667C85;
+  --color-accent-600: #506168;
+  --color-accent-700: #3E4B51;
+  --color-accent-800: #2C363A;
+  --color-accent-900: #1F2628;
+  --color-accent-950: #121516;
+
+  /* Neutral scale (cool stone) */
+  --color-neutral-50: #F5F5F4;
+  --color-neutral-100: #EBECE9;
+  --color-neutral-200: #D7D9D4;
+  --color-neutral-300: #B6BCB4;
+  --color-neutral-400: #8E9A90;
+  --color-neutral-500: #6F7C75;
+  --color-neutral-600: #57615E;
+  --color-neutral-700: #444B4B;
+  --color-neutral-800: #303536;
+  --color-neutral-900: #222425;
+  --color-neutral-950: #131415;
+
+  /* Typography */
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --type-scale-ratio: 1.25;
+
+  /* Type scale (1.25 ratio, base 16px) */
+  --text-xs: 0.640rem;
+  --text-sm: 0.800rem;
+  --text-base: 1rem;
+  --text-lg: 1.250rem;
+  --text-xl: 1.563rem;
+  --text-2xl: 1.953rem;
+  --text-3xl: 2.441rem;
+  --text-4xl: 3.052rem;
+  --text-5xl: 3.815rem;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* Shadows — burgundy-tinted, low contrast */
+  --shadow-sm: 0 2px 8px rgba(139, 42, 74, 0.06);
+  --shadow-md: 0 4px 16px rgba(139, 42, 74, 0.08);
+  --shadow-lg: 0 8px 32px rgba(139, 42, 74, 0.10);
+
+  /* Motion — Refine doesn't export these, so we declare a small
+     hand-built vocabulary. Used on cards, links, search pill,
+     and any other element that responds to hover/focus. */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+}
+
+/* Dark-mode overrides. Quartz toggles [saved-theme="dark"] on
+   the document root; we mirror that for the Refine tokens so
+   shadows don't disappear into the dark background and so
+   text-on-dark contrast holds. */
+
+:root[saved-theme="dark"] {
+  --color-primary: #C76B8E;
+  --color-background: #141414;
+  --color-text: #E8E6E1;
+  --color-text-secondary: rgba(232, 230, 225, 0.72);
+  --color-text-muted: rgba(232, 230, 225, 0.50);
+  --color-border: rgba(199, 107, 142, 0.22);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.30);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.40);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.50);
+}
+
+
+/* -----------------------------------------------------------
+   Base typography
+
+   Adopts the Refine 1.25-ratio type scale. The previous sizes
+   were Answerthis-derived (deliberately compressed); the Refine
+   scale is more editorial. Headings step h1 → h2 → h3 across
+   --text-3xl → --text-xl → --text-lg, with line-heights and
+   letter-spacing tuned by hand because Refine doesn't export
+   those tokens.
+   ----------------------------------------------------------- */
+
+article {
+  font-size: var(--text-base);
+  line-height: 1.65;
+  color: var(--darkgray);
+}
+
+/* Quartz renders the main page heading as h1.article-title in
+   .page-header, OUTSIDE the <article> wrapper. We have to match
+   both selectors so per-page h1s and the page-title h1 share
+   the same scale. */
+article h1,
+h1.article-title {
+  font-size: var(--text-3xl);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.022em;
+  color: var(--dark);
+  margin: 0 0 0.75rem;
+}
+
+article h2 {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.012em;
+  color: var(--dark);
+  margin: 2rem 0 0.75rem;
+}
+
+article h3 {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.006em;
+  color: var(--dark);
+  margin: 1.5rem 0 0.5rem;
+}
+
+article p {
+  margin: 0 0 0.875rem;
+  color: var(--darkgray);
+}
+
+article a {
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-primary-200);
+  transition: border-color var(--duration-fast) var(--ease-out),
+              background var(--duration-fast) var(--ease-out);
+}
+
+article a:hover {
+  border-bottom-color: var(--secondary);
+  background: var(--highlight);
+}
+
+/* Wikilinks to source pages render as small superscript
+   citation indicators. Quartz emits data-slug on internal
+   links, which lets us style source citations distinctly
+   from regular cross-references. */
+
+article a[data-slug^="sources/"] {
+  font-size: 0.72em;
+  font-weight: 500;
+  vertical-align: super;
+  line-height: 1;
+  padding: 0 1px;
+  border-bottom: 1px dotted var(--color-primary-300);
+  color: var(--secondary);
+}
+
+article a[data-slug^="sources/"]:hover {
+  border-bottom-style: solid;
+  background: var(--highlight);
+}
+
+
+/* -----------------------------------------------------------
+   Page title — brand wordmark with operator subtitle
+
+   Quartz renders <h2 class="page-title"><a>...</a></h2> in
+   the left rail. We add the operator subtitle via ::after so
+   the editorial-accountability cue appears in the global
+   chrome on every page.
+   ----------------------------------------------------------- */
+
+.page-title {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.2;
+  font-family: var(--headerFont);
+}
+
+.page-title > a {
+  color: var(--dark);
+  text-decoration: none;
+  border: none;
+}
+
+.page-title > a:hover {
+  color: var(--secondary);
+  background: transparent;
+}
+
+.page-title::after {
+  content: "Operated by the Paleo Foundation · Cyprus";
+  display: block;
+  margin-top: 6px;
+  font-size: 10.5px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--gray);
+  line-height: 1.4;
+}
+
+
+/* -----------------------------------------------------------
+   Article meta and breadcrumbs
+   ----------------------------------------------------------- */
+
+.content-meta {
+  font-size: 12px;
+  color: var(--gray);
+  margin: 0 0 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--lightgray);
+  font-style: normal;
+}
+
+.breadcrumb-container {
+  font-size: 12px;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+.breadcrumb-container a {
+  color: var(--gray);
+  border-bottom: none;
+}
+
+.breadcrumb-container a:hover {
+  color: var(--secondary);
+  background: transparent;
+}
+
+
+/* -----------------------------------------------------------
+   Tables — hairline rows, monospace values, restrained header
+   ----------------------------------------------------------- */
+
+article table {
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 0.5rem 0 1.5rem;
+  width: 100%;
+}
+
+article thead th {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--gray);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+article tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--lightgray);
+  color: var(--darkgray);
+}
+
+article tbody td > code:only-child {
+  font-family: var(--codeFont);
+  font-size: 12px;
+  background: transparent;
+  padding: 0;
+  color: var(--dark);
+}
+
+
+/* -----------------------------------------------------------
+   Citation popover — Vector 2022 source-preview pattern
+
+   Quartz already loads a preview of the linked page on hover.
+   We restyle the popover container as a tight source card.
+   ----------------------------------------------------------- */
+
+.popover > .popover-inner {
+  width: 22rem;
+  max-height: 18rem;
+  padding: 14px 16px;
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  background-color: var(--light);
+  box-shadow: var(--shadow-sm);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.popover > .popover-inner h1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--dark);
+  margin: 0 0 4px;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+.popover > .popover-inner h2,
+.popover > .popover-inner h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.popover > .popover-inner p {
+  font-size: 12px;
+  color: var(--darkgray);
+  margin: 0 0 0.5rem;
+  line-height: 1.5;
+}
+
+
+/* -----------------------------------------------------------
+   Footer
+   ----------------------------------------------------------- */
+
+footer {
+  font-size: 12px;
+  color: var(--gray);
+  border-top: 1px solid var(--lightgray);
+  margin-top: 2.5rem;
+  padding: 1.5rem 0 1.5rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li::before {
+  content: none;
+}
+
+footer ul li a {
+  color: var(--gray);
+  border-bottom: none;
+}
+
+footer ul li a:hover {
+  color: var(--secondary);
+  background: transparent;
+}
+
+footer p {
+  margin: 0.75rem 0 0;
+  font-size: 11px;
+  color: var(--gray);
+}
+
+
+/* -----------------------------------------------------------
+   Search — pill style matching Answerthis register
+   ----------------------------------------------------------- */
+
+.search > .search-button {
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  padding: 8px 16px;
+  background: var(--light);
+  color: var(--gray);
+  font-size: 13px;
+  font-family: var(--bodyFont);
+  box-shadow: var(--shadow-sm);
+  transition: border-color var(--duration-base) var(--ease-out),
+              box-shadow var(--duration-base) var(--ease-out);
+}
+
+.search > .search-button:hover {
+  border-color: var(--secondary);
+  box-shadow: var(--shadow-md);
+}
+
+
+/* -----------------------------------------------------------
+   TOC — quiet, in the right rail
+   ----------------------------------------------------------- */
+
+.toc {
+  font-size: 12px;
+}
+
+.toc > h3 {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.5rem;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.toc ul li {
+  padding: 2px 0;
+}
+
+.toc ul li a {
+  color: var(--gray);
+  border: none;
+}
+
+.toc ul li a:hover {
+  color: var(--secondary);
+  background: transparent;
+}
+
+
+/* -----------------------------------------------------------
+   Backlinks
+   ----------------------------------------------------------- */
+
+.backlinks {
+  font-size: 12px;
+}
+
+.backlinks > h3 {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.backlinks ul li a {
+  color: var(--gray);
+  border: none;
+}
+
+.backlinks ul li a:hover {
+  color: var(--secondary);
+  background: transparent;
+}
+
+
+/* -----------------------------------------------------------
+   Tag list — small pills
+   ----------------------------------------------------------- */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.tags > li {
+  margin: 0;
+}
+
+.tags > li > a {
+  display: inline-block;
+  background: var(--lightgray);
+  color: var(--darkgray);
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  border: none;
+}
+
+.tags > li > a:hover {
+  background: var(--highlight);
+  color: var(--secondary);
+}
+
+
+/* -----------------------------------------------------------
+   Selection accent
+   ----------------------------------------------------------- */
+
+::selection {
+  background: var(--highlight);
+  color: var(--secondary);
+}
+
+
+/* -----------------------------------------------------------
+   Homepage components
+
+   The home page (wiki/index.md) is composed of markdown prose
+   plus several HTML blocks: a category grid, a methodology +
+   editorial-standards callout, and section labels. The styles
+   below match the Answerthis-derived mockup register.
+   ----------------------------------------------------------- */
+
+.hmi-section-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2rem 0 0.875rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+.hmi-cat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 0 1.5rem;
+}
+
+/* The cards are always rendered as anchors. Targeting the
+   anchor explicitly (`a.hmi-cat-card`) outranks Quartz's base
+   `a.internal` rule (which sets `padding: 0 0.1rem`) and our
+   own `article a` rule. Without this, padding and border-radius
+   silently revert to the inherited internal-link styles. */
+article a.hmi-cat-card,
+a.hmi-cat-card {
+  display: block;
+  padding: 16px 18px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--lightgray);
+  transition: border-color var(--duration-base) var(--ease-out),
+              box-shadow var(--duration-base) var(--ease-out),
+              transform var(--duration-base) var(--ease-out);
+}
+
+article a.hmi-cat-card:hover,
+a.hmi-cat-card:hover {
+  border-color: var(--secondary);
+  background: var(--light);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.hmi-cat-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 0 5px;
+}
+
+.hmi-cat-name-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.hmi-cat-count {
+  font-family: var(--codeFont);
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.hmi-cat-desc {
+  font-size: 12.5px;
+  color: var(--darkgray);
+  line-height: 1.5;
+  margin: 0 0 6px;
+}
+
+.hmi-cat-examples {
+  font-size: 11px;
+  color: var(--gray);
+  font-family: var(--codeFont);
+}
+
+
+/* Methodology + editorial standards callout */
+
+.hmi-meth-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0 0 1.5rem;
+}
+
+/* Same anchor-specificity fix as .hmi-cat-card above. */
+article a.hmi-meth-card,
+a.hmi-meth-card {
+  display: block;
+  padding: 20px 22px;
+  background: var(--highlight);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--lightgray);
+  transition: border-color var(--duration-base) var(--ease-out),
+              box-shadow var(--duration-base) var(--ease-out),
+              transform var(--duration-base) var(--ease-out);
+}
+
+article a.hmi-meth-card:hover,
+a.hmi-meth-card:hover {
+  border-color: var(--secondary);
+  background: var(--highlight);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.hmi-meth-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--dark);
+  margin: 0 0 8px;
+}
+
+.hmi-meth-desc {
+  font-size: 12px;
+  color: var(--darkgray);
+  line-height: 1.55;
+  margin: 0 0 10px;
+}
+
+.hmi-meth-link {
+  font-size: 11px;
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+
+/* On narrow viewports, collapse the two-column grids */
+
+@media (max-width: 600px) {
+  .hmi-cat-grid,
+  .hmi-meth-grid {
+    grid-template-columns: 1fr;
+  }
+}

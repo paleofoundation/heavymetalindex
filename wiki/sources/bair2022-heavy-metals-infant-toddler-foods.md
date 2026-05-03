@@ -13,7 +13,7 @@ metals: [iAs, Pb, Cd, Hg]
 ingredients: [rice, sweet-potato, cereals, fruit, root-vegetables]
 products: [infant-formula, purees, infant-cereals, toddler-foods]
 jurisdictions: [US]
-updated: 2026-04-28
+updated: 2026-05-01
 ---
 
 # Bair 2022 — Heavy metals in infant and toddler foods
@@ -53,4 +53,5 @@ This is a narrative review focused on U.S. policy relevance. It summarizes prima
 - [[products/root-vegetable-purees]]
 - [[products/non-root-vegetable-purees]]
 - [[products/fruit-juice-not-canned]]
-
+- [[products/mixed-meals-rice-containing]]
+- [[products/teething-and-snacks-rice-based]]

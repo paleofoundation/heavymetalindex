@@ -2,7 +2,7 @@
 title: Heavy Metal Index
 description: A curated reference on heavy metals in food, supply chain, remediation, and regulatory findings. Operated by the Paleo Foundation.
 audience: [regulator, educator, consumer, researcher]
-updated: 2026-04-25
+updated: 2026-05-03
 ---
 
 Heavy Metal Index is a curated reference for the peer-reviewed and regulatory literature on lead, cadmium, arsenic (inorganic and total), mercury (methyl and total), nickel, aluminum, chromium, and tin in food, supply chains, and consumer products. Each entry traces back to its source documents; methodology and editorial standards are public. The index is operated by the [Paleo Foundation](https://paleofoundation.com) in Cyprus and is editorially independent from the Foundation's [Heavy Metal Tested & Certified](https://heavymetaltested.com) program.
@@ -16,12 +16,12 @@ Heavy Metal Index is a curated reference for the peer-reviewed and regulatory li
     <div class="hmi-cat-examples">Pb · Cd · iAs · tHg · Ni · Al · Cr · Sb</div>
   </a>
   <a href="ingredients/" class="hmi-cat-card">
-    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Ingredients</span><span class="hmi-cat-count">in progress</span></div>
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Ingredients</span><span class="hmi-cat-count">171 nodes</span></div>
     <div class="hmi-cat-desc">Commodity-level contamination profiles with concentration ranges by source and variety.</div>
     <div class="hmi-cat-examples">rice · cocoa · spinach · carrots · whey · sweet potato</div>
   </a>
   <a href="products/" class="hmi-cat-card">
-    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Products</span><span class="hmi-cat-count">16 scaffolds</span></div>
+    <div class="hmi-cat-name"><span class="hmi-cat-name-label">Products</span><span class="hmi-cat-count">Category 1 + 5 scaffolds</span></div>
     <div class="hmi-cat-desc">Product-category risk profiles linking to applicable regulations and ingredient drivers.</div>
     <div class="hmi-cat-examples">infant formula · baby cereals · purees · mixed meals · snacks</div>
   </a>
