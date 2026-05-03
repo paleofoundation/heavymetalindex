@@ -2,7 +2,7 @@
 title: Methodology
 description: Selection, extraction, quality-assurance audit, error categorization, and correction procedures used in the Heavy Metal Index.
 audience: [regulator, educator, researcher]
-updated: 2026-04-24
+updated: 2026-05-03
 status: stub
 ---
 
@@ -48,6 +48,12 @@ Every extracted data point includes a provenance link to the source document wit
 The structured evidence build is tracked under `data/evidence/`. The private `raw/markdown/` corpus remains excluded from git; tracked evidence records contain source handles, candidate values, review states, public labels, and provenance fields only.
 
 The staged PDF backlog workflow is documented in [[methodology/raw-reports-studies-ingest-workflow]]. It requires `raw/reports` to be inventoried and reconciled before the broader `raw/studies` backlog is promoted.
+
+## Compiled wiki build
+
+The Heavy Metal Index is built as a persistent compiled wiki rather than a query-time retrieval layer. Sources move through four layers: immutable raw corpus, structured evidence register, routed wiki pages, and schema-plus-automation rules. A file is not considered ingested because it is locally present or searchable; it is ingested only when its evidence has been extracted, routed, and attached to the correct persistent wiki surfaces.
+
+The current ingest contract for this build is documented in [[methodology/persistent-wiki-ingest-rule]]. That rule governs source-page creation, stub creation, evidence-register promotion, product-page output regeneration, and the boundary between deterministic extraction and interpretive synthesis.
 
 ## Review states and publication
 

@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-03] schema | persistent-wiki-ingest-rule — compiled-wiki ingest contract for the live build
+Pages touched: [[methodology]], [[methodology/persistent-wiki-ingest-rule]], [[methodology/raw-reports-studies-ingest-workflow]], `CLAUDE.md`
+Notes: Converted the abstract "LLM wiki" pattern into an explicit Heavy Metal Index ingest rule tied to the current `heavymetalindex.com` build. The new contract makes the evidence register a first-class layer between raw files and public wiki pages, requires stub creation before routed evidence can attach, and defines product-page completion in terms of the standards matrix, measured-values ledger exports, and routing-audit visibility rather than treating local files or source-page stubs as completed ingest.
+
 ## [2026-05-03] ingest | fda2022-tds-elements-fy2018-fy2020 - FDA Total Diet Study FY2018-FY2020 elements dataset
 
 Pages touched: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[sources/index]], [[ingredients/index]], [[products/fruit-juices-apple-containing]], [[products/fruit-juices-non-apple]], [[products/regulatory-crosswalk-field-findings]], [[lint/2026-05-03-fda-tds-elements-ingest-audit]]

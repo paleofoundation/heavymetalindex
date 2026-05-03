@@ -1,7 +1,7 @@
 ---
 title: Raw reports and studies ingest workflow
 type: methodology
-updated: 2026-05-02
+updated: 2026-05-03
 audience: [regulator, researcher, standards]
 ---
 
@@ -26,15 +26,21 @@ A completed ingest requires:
 - Evidence Fitness classification for what the source can and cannot support;
 - routeable values or claims captured in the evidence layer when the source contains concentration, regulatory, toxicology, or exposure data;
 - wiki routing to the correct page family: regulatory limits to regulation pages, toxicology reference values to metal/regulation pages, product occurrence to product pages, and ingredient-only findings to ingredient pages;
+- stub creation when the correct destination page does not yet exist, especially for ingredient pages and product pages that need a stable future attachment point;
 - explicit basis/species/unit handling for numeric values, including wet/dry/as-sold/reconstituted basis and total vs inorganic/methyl species;
+- regeneration of any affected public product outputs, including the standards matrix, structured-values ledger, and routing-audit export when those layers apply;
 - internal links from affected pages so the source is discoverable through the wiki structure;
 - verification with the repository checks before publication.
+
+This workflow is part of the broader [[methodology/persistent-wiki-ingest-rule]]. Reports and studies do not count as ingested merely because they were scanned or because the text is searchable later; they must be compiled into the evidence layer and routed into the persistent wiki.
 
 ## Routing Rules
 
 Ingredient-only findings belong on ingredient pages. If an ingredient page does not exist, create it before publishing the finding.
 
 Product category findings belong on product pages only when the study matrix maps to that product category and the data are suitable for public synthesis.
+
+If a source is routed to a product page but cannot yet support direct structured rows, keep it visible through the routing audit or equivalent gap output rather than dropping it from the build.
 
 Regulatory limits, action levels, tolerable intakes, MCLs, MADLs, and related comparison points belong in `wiki/regulations/` and may then be cross-linked from product and metal pages.
 
