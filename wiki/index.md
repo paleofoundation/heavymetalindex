@@ -13,6 +13,7 @@ updated: 2026-04-30
     <a href="metals/">Metals</a>
     <a href="regulations/">Regulations</a>
     <a href="sources/">Sources</a>
+    <a href="briefings/">Briefings</a>
   </div>
 </nav>
 
@@ -105,6 +106,12 @@ updated: 2026-04-30
     <h2><a href="methodology/">Methodology</a></h2>
     <p>How evidence is selected, tiered, cited, corrected, and separated from certification activity.</p>
     <div class="hmi-home-card-meta">Editorial standards</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>Synthesis</span>
+    <h2><a href="briefings/">Briefings</a></h2>
+    <p>Source-backed interpretive briefings on category context, public-risk communication, and evidence limits.</p>
+    <div class="hmi-home-card-meta">Context before conclusions</div>
   </div>
 </section>
 
