@@ -1,4 +1,5 @@
 ---
+title: "Grapefruit juice"
 type: ingredient
 commodity: grapefruit-juice
 label: "Grapefruit juice"

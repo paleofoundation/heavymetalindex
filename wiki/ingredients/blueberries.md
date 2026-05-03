@@ -1,4 +1,5 @@
 ---
+title: "Blueberries"
 type: ingredient
 commodity: blueberries
 label: "Blueberries"

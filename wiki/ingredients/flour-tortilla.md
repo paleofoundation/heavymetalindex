@@ -1,4 +1,5 @@
 ---
+title: "Flour tortilla"
 type: ingredient
 commodity: flour-tortilla
 label: "Flour tortilla"

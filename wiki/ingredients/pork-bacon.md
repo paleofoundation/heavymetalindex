@@ -1,4 +1,5 @@
 ---
+title: "Pork bacon"
 type: ingredient
 commodity: pork-bacon
 label: "Pork bacon"

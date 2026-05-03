@@ -1,4 +1,5 @@
 ---
+title: "Almond"
 type: ingredient
 commodity: almond
 label: "Almond"

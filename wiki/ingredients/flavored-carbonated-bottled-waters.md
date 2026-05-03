@@ -1,4 +1,5 @@
 ---
+title: "Flavored carbonated bottled waters"
 type: ingredient
 commodity: flavored-carbonated-bottled-waters
 label: "Flavored carbonated bottled waters"

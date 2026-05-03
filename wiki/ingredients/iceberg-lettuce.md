@@ -1,4 +1,5 @@
 ---
+title: "Iceberg lettuce"
 type: ingredient
 commodity: iceberg-lettuce
 label: "Iceberg lettuce"

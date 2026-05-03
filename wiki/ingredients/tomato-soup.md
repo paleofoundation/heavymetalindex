@@ -1,4 +1,5 @@
 ---
+title: "Tomato soup"
 type: ingredient
 commodity: tomato-soup
 label: "Tomato soup"

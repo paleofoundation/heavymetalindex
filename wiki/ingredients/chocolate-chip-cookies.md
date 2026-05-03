@@ -1,4 +1,5 @@
 ---
+title: "Chocolate chip cookies"
 type: ingredient
 commodity: chocolate-chip-cookies
 label: "Chocolate chip cookies"

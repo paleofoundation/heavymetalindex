@@ -1,4 +1,5 @@
 ---
+title: "Yogurt"
 type: ingredient
 commodity: yogurt
 label: "Yogurt"

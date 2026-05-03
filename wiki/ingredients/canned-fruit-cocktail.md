@@ -1,4 +1,5 @@
 ---
+title: "Canned fruit cocktail"
 type: ingredient
 commodity: canned-fruit-cocktail
 label: "Canned fruit cocktail"

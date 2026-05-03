@@ -1,4 +1,5 @@
 ---
+title: "Plant milk base"
 type: ingredient
 commodity: plant-milk
 label: "Plant milk base"

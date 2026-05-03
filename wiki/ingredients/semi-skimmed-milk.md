@@ -1,4 +1,5 @@
 ---
+title: "Semi-skimmed milk"
 type: ingredient
 commodity: semi-skimmed-milk
 label: "Semi-skimmed milk"

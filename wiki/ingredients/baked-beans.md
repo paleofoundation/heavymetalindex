@@ -1,4 +1,5 @@
 ---
+title: "Baked beans"
 type: ingredient
 commodity: baked-beans
 label: "Baked beans"

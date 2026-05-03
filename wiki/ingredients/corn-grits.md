@@ -1,4 +1,5 @@
 ---
+title: "Corn/hominy grits"
 type: ingredient
 commodity: corn-grits
 label: "Corn/hominy grits"

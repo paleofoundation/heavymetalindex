@@ -1,4 +1,5 @@
 ---
+title: "Rice Flour"
 type: ingredient
 commodity: rice-flour
 label: "Rice Flour"

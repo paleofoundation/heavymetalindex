@@ -1,4 +1,5 @@
 ---
+title: "Cucumber"
 type: ingredient
 commodity: cucumber
 label: "Cucumber"

@@ -1,4 +1,5 @@
 ---
+title: "Melon"
 type: ingredient
 commodity: melon
 label: "Melon"

@@ -1,4 +1,5 @@
 ---
+title: "Sweet potato"
 type: ingredient
 commodity: sweet-potato
 label: "Sweet potato"

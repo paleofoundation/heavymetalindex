@@ -1,4 +1,5 @@
 ---
+title: "Infant Formula Concentrated Liquid"
 type: ingredient
 commodity: infant-formula-concentrated-liquid
 label: "Infant Formula Concentrated Liquid"

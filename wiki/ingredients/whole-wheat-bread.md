@@ -1,4 +1,5 @@
 ---
+title: "Whole wheat bread"
 type: ingredient
 commodity: whole-wheat-bread
 label: "Whole wheat bread"

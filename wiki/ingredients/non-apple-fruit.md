@@ -1,4 +1,5 @@
 ---
+title: "Non-apple fruit"
 type: ingredient
 commodity: non-apple-fruit
 label: "Non-apple fruit"

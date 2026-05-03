@@ -1,4 +1,5 @@
 ---
+title: "Fermented beverage bases"
 type: ingredient
 commodity: fermented-beverage-bases
 label: "Fermented beverage bases"

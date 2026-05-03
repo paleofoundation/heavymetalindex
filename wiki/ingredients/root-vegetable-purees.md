@@ -1,4 +1,5 @@
 ---
+title: "Root Vegetable Purees"
 type: ingredient
 commodity: root-vegetable-purees
 label: "Root Vegetable Purees"

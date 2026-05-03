@@ -1,4 +1,5 @@
 ---
+title: "White bread"
 type: ingredient
 commodity: white-bread
 label: "White bread"

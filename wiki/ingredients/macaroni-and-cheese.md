@@ -1,4 +1,5 @@
 ---
+title: "Macaroni and cheese"
 type: ingredient
 commodity: macaroni-and-cheese
 label: "Macaroni and cheese"

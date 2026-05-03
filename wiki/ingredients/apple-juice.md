@@ -1,4 +1,5 @@
 ---
+title: "Apple juice"
 type: ingredient
 commodity: apple-juice
 label: "Apple juice"

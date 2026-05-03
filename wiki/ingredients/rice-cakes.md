@@ -1,4 +1,5 @@
 ---
+title: "Rice cakes"
 type: ingredient
 commodity: rice-cakes
 label: "Rice cakes"

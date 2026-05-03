@@ -1,4 +1,5 @@
 ---
+title: "Dill pickles"
 type: ingredient
 commodity: dill-pickles
 label: "Dill pickles"

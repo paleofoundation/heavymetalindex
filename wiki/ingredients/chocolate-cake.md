@@ -1,4 +1,5 @@
 ---
+title: "Chocolate cake with chocolate icing"
 type: ingredient
 commodity: chocolate-cake
 label: "Chocolate cake with chocolate icing"

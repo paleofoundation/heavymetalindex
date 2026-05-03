@@ -1,4 +1,5 @@
 ---
+title: "Beef"
 type: ingredient
 commodity: beef
 label: "Beef"

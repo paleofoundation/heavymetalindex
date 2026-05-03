@@ -1,4 +1,5 @@
 ---
+title: "Oat ring cereal"
 type: ingredient
 commodity: oat-ring-cereal
 label: "Oat ring cereal"

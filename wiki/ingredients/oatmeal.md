@@ -1,4 +1,5 @@
 ---
+title: "Oatmeal"
 type: ingredient
 commodity: oatmeal
 label: "Oatmeal"

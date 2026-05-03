@@ -1,4 +1,5 @@
 ---
+title: "Non Soy Protein Source"
 type: ingredient
 commodity: non-soy-protein-source
 label: "Non Soy Protein Source"

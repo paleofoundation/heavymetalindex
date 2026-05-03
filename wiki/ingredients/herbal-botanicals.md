@@ -1,4 +1,5 @@
 ---
+title: "Herbal botanicals"
 type: ingredient
 commodity: herbal-botanicals
 label: "Herbal botanicals"

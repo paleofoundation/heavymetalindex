@@ -1,4 +1,5 @@
 ---
+title: "Margarine"
 type: ingredient
 commodity: margarine
 label: "Margarine"

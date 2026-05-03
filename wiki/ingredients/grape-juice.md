@@ -1,4 +1,5 @@
 ---
+title: "Grape Juice"
 type: ingredient
 commodity: grape-juice
 label: "Grape Juice"

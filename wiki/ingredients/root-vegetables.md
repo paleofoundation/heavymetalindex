@@ -1,4 +1,5 @@
 ---
+title: "Root vegetables"
 type: ingredient
 commodity: root-vegetables
 label: "Root vegetables"

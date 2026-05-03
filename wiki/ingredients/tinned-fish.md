@@ -1,4 +1,5 @@
 ---
+title: "Tinned fish"
 type: ingredient
 commodity: tinned-fish
 label: "Tinned fish"

@@ -1,4 +1,5 @@
 ---
+title: "Pears"
 type: ingredient
 commodity: pears
 label: "Pears"

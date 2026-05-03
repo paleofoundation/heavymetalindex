@@ -1,4 +1,5 @@
 ---
+title: "Wheat cereal biscuits"
 type: ingredient
 commodity: wheat-cereal-biscuits
 label: "Wheat cereal biscuits"

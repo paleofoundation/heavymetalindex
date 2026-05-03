@@ -1,4 +1,5 @@
 ---
+title: "Applesauce"
 type: ingredient
 commodity: applesauce
 label: "Applesauce"

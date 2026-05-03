@@ -1,4 +1,5 @@
 ---
+title: "Green beans"
 type: ingredient
 commodity: green-beans
 label: "Green beans"

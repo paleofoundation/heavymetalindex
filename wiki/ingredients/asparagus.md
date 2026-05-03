@@ -1,4 +1,5 @@
 ---
+title: "Asparagus"
 type: ingredient
 commodity: asparagus
 label: "Asparagus"

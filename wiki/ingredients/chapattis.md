@@ -1,4 +1,5 @@
 ---
+title: "Chapattis"
 type: ingredient
 commodity: chapattis
 label: "Chapattis"

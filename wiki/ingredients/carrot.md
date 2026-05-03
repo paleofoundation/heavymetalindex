@@ -1,4 +1,5 @@
 ---
+title: "Carrot"
 type: ingredient
 commodity: carrot
 label: "Carrot"

@@ -1,4 +1,5 @@
 ---
+title: "Soft drink bases"
 type: ingredient
 commodity: soft-drink-bases
 label: "Soft drink bases"

@@ -1,4 +1,5 @@
 ---
+title: "Lentils"
 type: ingredient
 commodity: lentils
 label: "Lentils"

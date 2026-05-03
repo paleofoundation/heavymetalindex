@@ -1,4 +1,5 @@
 ---
+title: "Ground beef"
 type: ingredient
 commodity: ground-beef
 label: "Ground beef"

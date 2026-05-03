@@ -1,4 +1,5 @@
 ---
+title: "Frozen peas"
 type: ingredient
 commodity: frozen-peas
 label: "Frozen peas"

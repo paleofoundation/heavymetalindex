@@ -1,4 +1,5 @@
 ---
+title: "Soy-based infant formula"
 type: ingredient
 commodity: soy-based-infant-formula
 label: "Soy-based infant formula"

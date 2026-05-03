@@ -1,4 +1,5 @@
 ---
+title: "Bologna luncheon meat"
 type: ingredient
 commodity: bologna-luncheon-meat
 label: "Bologna luncheon meat"

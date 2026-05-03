@@ -1,4 +1,5 @@
 ---
+title: "Peanuts"
 type: ingredient
 commodity: peanuts
 label: "Peanuts"

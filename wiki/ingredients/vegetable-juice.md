@@ -1,4 +1,5 @@
 ---
+title: "Vegetable juice"
 type: ingredient
 commodity: vegetable-juice
 label: "Vegetable juice"

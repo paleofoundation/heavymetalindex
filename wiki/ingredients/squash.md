@@ -1,4 +1,5 @@
 ---
+title: "Squash"
 type: ingredient
 commodity: squash
 label: "Squash"

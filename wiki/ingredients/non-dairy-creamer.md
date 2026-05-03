@@ -1,4 +1,5 @@
 ---
+title: "Non-dairy creamer"
 type: ingredient
 commodity: non-dairy-creamer
 label: "Non-dairy creamer"

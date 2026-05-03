@@ -1,4 +1,5 @@
 ---
+title: "Canned corn"
 type: ingredient
 commodity: canned-corn
 label: "Canned corn"

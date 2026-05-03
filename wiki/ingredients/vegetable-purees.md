@@ -1,4 +1,5 @@
 ---
+title: "Vegetable Purees"
 type: ingredient
 commodity: vegetable-purees
 label: "Vegetable Purees"

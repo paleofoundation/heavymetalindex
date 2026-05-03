@@ -1,4 +1,5 @@
 ---
+title: "Collard greens"
 type: ingredient
 commodity: collard-greens
 label: "Collard greens"

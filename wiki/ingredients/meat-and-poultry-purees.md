@@ -1,4 +1,5 @@
 ---
+title: "Meat And Poultry Purees"
 type: ingredient
 commodity: meat-and-poultry-purees
 label: "Meat And Poultry Purees"

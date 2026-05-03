@@ -1,4 +1,5 @@
 ---
+title: "Baby Cereals Dry"
 type: ingredient
 commodity: baby-cereals-dry
 label: "Baby Cereals Dry"

@@ -1,4 +1,5 @@
 ---
+title: "Fruit juice ready drinks"
 type: ingredient
 commodity: fruit-juice-ready-drinks
 label: "Fruit juice ready drinks"

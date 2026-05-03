@@ -1,4 +1,5 @@
 ---
+title: "Chicken"
 type: ingredient
 commodity: chicken
 label: "Chicken"

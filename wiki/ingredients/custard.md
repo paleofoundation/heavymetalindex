@@ -1,4 +1,5 @@
 ---
+title: "Custard"
 type: ingredient
 commodity: custard
 label: "Custard"

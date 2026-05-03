@@ -1,4 +1,5 @@
 ---
+title: "Pork sausages"
 type: ingredient
 commodity: pork-sausages
 label: "Pork sausages"

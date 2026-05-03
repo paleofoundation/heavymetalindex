@@ -1,4 +1,5 @@
 ---
+title: "Flavoring"
 type: ingredient
 commodity: flavoring
 label: "Flavoring"

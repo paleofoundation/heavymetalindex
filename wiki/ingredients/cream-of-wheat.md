@@ -1,4 +1,5 @@
 ---
+title: "Cream of wheat"
 type: ingredient
 commodity: cream-of-wheat
 label: "Cream of wheat"

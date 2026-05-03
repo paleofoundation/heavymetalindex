@@ -1,4 +1,5 @@
 ---
+title: "Ketchup"
 type: ingredient
 commodity: ketchup
 label: "Ketchup"

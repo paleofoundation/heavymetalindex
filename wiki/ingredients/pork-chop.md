@@ -1,4 +1,5 @@
 ---
+title: "Pork chop"
 type: ingredient
 commodity: pork-chop
 label: "Pork chop"

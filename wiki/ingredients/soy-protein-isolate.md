@@ -1,4 +1,5 @@
 ---
+title: "Soy Protein Isolate"
 type: ingredient
 commodity: soy-protein-isolate
 label: "Soy Protein Isolate"

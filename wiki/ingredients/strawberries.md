@@ -1,4 +1,5 @@
 ---
+title: "Strawberries"
 type: ingredient
 commodity: strawberries
 label: "Strawberries"

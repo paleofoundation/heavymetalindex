@@ -1,4 +1,5 @@
 ---
+title: "Tomato"
 type: ingredient
 commodity: tomato
 label: "Tomato"

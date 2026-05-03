@@ -1,4 +1,5 @@
 ---
+title: "Fish fingers"
 type: ingredient
 commodity: fish-fingers
 label: "Fish fingers"

@@ -1,4 +1,5 @@
 ---
+title: "Celery"
 type: ingredient
 commodity: celery
 label: "Celery"

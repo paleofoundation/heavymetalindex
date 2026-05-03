@@ -1,4 +1,5 @@
 ---
+title: "Coffee"
 type: ingredient
 commodity: coffee
 label: "Coffee"

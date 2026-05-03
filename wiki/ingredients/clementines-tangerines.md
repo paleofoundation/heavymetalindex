@@ -1,4 +1,5 @@
 ---
+title: "Clementines and tangerines"
 type: ingredient
 commodity: clementines-tangerines
 label: "Clementines and tangerines"

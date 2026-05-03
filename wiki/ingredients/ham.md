@@ -1,4 +1,5 @@
 ---
+title: "Ham"
 type: ingredient
 commodity: ham
 label: "Ham"

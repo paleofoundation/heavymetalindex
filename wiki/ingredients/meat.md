@@ -1,4 +1,5 @@
 ---
+title: "Meat and poultry"
 type: ingredient
 commodity: meat
 label: "Meat and poultry"

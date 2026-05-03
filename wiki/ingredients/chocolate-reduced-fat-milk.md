@@ -1,4 +1,5 @@
 ---
+title: "Chocolate reduced-fat milk"
 type: ingredient
 commodity: chocolate-reduced-fat-milk
 label: "Chocolate reduced-fat milk"

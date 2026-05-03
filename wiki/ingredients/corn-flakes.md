@@ -1,4 +1,5 @@
 ---
+title: "Corn flakes cereal"
 type: ingredient
 commodity: corn-flakes
 label: "Corn flakes cereal"

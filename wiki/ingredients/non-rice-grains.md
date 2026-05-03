@@ -1,4 +1,5 @@
 ---
+title: "Non Rice Grains"
 type: ingredient
 commodity: non-rice-grains
 label: "Non Rice Grains"

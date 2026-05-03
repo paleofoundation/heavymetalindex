@@ -1,4 +1,5 @@
 ---
+title: "Mixed Meals"
 type: ingredient
 commodity: mixed-meals
 label: "Mixed Meals"

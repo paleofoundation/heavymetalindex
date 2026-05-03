@@ -1,4 +1,5 @@
 ---
+title: "Half and half"
 type: ingredient
 commodity: half-and-half
 label: "Half and half"

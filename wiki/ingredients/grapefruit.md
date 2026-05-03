@@ -1,4 +1,5 @@
 ---
+title: "Grapefruit"
 type: ingredient
 commodity: grapefruit
 label: "Grapefruit"

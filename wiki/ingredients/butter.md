@@ -1,4 +1,5 @@
 ---
+title: "Butter"
 type: ingredient
 commodity: butter
 label: "Butter"

@@ -1,4 +1,5 @@
 ---
+title: "Infant Formula Rtf Liquid"
 type: ingredient
 commodity: infant-formula-rtf-liquid
 label: "Infant Formula Rtf Liquid"

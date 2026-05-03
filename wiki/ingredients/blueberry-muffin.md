@@ -1,4 +1,5 @@
 ---
+title: "Blueberry muffin"
 type: ingredient
 commodity: blueberry-muffin
 label: "Blueberry muffin"

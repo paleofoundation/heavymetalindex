@@ -1,4 +1,5 @@
 ---
+title: "Rice Cereal"
 type: ingredient
 commodity: rice-cereal
 label: "Rice Cereal"

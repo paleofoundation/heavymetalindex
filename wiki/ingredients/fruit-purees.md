@@ -1,4 +1,5 @@
 ---
+title: "Fruit Purees"
 type: ingredient
 commodity: fruit-purees
 label: "Fruit Purees"

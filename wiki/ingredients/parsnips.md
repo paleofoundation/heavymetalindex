@@ -1,4 +1,5 @@
 ---
+title: "Parsnips"
 type: ingredient
 commodity: parsnips
 label: "Parsnips"

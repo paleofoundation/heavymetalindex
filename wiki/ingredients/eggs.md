@@ -1,4 +1,5 @@
 ---
+title: "Eggs"
 type: ingredient
 commodity: eggs
 label: "Eggs"

@@ -1,4 +1,5 @@
 ---
+title: "Crisped rice cereal"
 type: ingredient
 commodity: crisped-rice-cereal
 label: "Crisped rice cereal"

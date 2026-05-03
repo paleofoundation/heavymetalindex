@@ -1,4 +1,5 @@
 ---
+title: "Peach"
 type: ingredient
 commodity: peach
 label: "Peach"

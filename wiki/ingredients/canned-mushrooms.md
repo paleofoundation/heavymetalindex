@@ -1,4 +1,5 @@
 ---
+title: "Canned mushrooms"
 type: ingredient
 commodity: canned-mushrooms
 label: "Canned mushrooms"

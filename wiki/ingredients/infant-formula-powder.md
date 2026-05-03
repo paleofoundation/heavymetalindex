@@ -1,4 +1,5 @@
 ---
+title: "Infant Formula Powder"
 type: ingredient
 commodity: infant-formula-powder
 label: "Infant Formula Powder"

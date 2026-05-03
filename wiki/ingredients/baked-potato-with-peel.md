@@ -1,4 +1,5 @@
 ---
+title: "Baked potato with peel"
 type: ingredient
 commodity: baked-potato-with-peel
 label: "Baked potato with peel"

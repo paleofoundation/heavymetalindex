@@ -1,4 +1,5 @@
 ---
+title: "Cantaloupe"
 type: ingredient
 commodity: cantaloupe
 label: "Cantaloupe"

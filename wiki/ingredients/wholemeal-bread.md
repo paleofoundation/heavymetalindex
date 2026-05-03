@@ -1,4 +1,5 @@
 ---
+title: "Wholemeal bread"
 type: ingredient
 commodity: wholemeal-bread
 label: "Wholemeal bread"

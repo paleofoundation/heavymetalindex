@@ -1,4 +1,5 @@
 ---
+title: "Noodles"
 type: ingredient
 commodity: noodles
 label: "Noodles"

@@ -1,4 +1,5 @@
 ---
+title: "Green bell pepper"
 type: ingredient
 commodity: green-bell-pepper
 label: "Green bell pepper"

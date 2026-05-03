@@ -1,4 +1,5 @@
 ---
+title: "Canned green beans"
 type: ingredient
 commodity: canned-green-beans
 label: "Canned green beans"

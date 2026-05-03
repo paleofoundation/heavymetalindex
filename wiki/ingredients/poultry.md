@@ -1,4 +1,5 @@
 ---
+title: "Poultry"
 type: ingredient
 commodity: poultry
 label: "Poultry"

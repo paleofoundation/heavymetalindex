@@ -1,4 +1,5 @@
 ---
+title: "Watermelon"
 type: ingredient
 commodity: watermelon
 label: "Watermelon"

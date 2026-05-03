@@ -1,4 +1,5 @@
 ---
+title: "Water"
 type: ingredient
 commodity: water
 label: "Water"

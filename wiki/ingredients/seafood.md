@@ -1,4 +1,5 @@
 ---
+title: "Seafood"
 type: ingredient
 commodity: seafood
 label: "Seafood"

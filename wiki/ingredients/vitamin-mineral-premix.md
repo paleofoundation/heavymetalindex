@@ -1,4 +1,5 @@
 ---
+title: "Vitamin Mineral Premix"
 type: ingredient
 commodity: vitamin-mineral-premix
 label: "Vitamin Mineral Premix"

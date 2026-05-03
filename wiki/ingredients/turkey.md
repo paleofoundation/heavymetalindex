@@ -1,4 +1,5 @@
 ---
+title: "Turkey"
 type: ingredient
 commodity: turkey
 label: "Turkey"

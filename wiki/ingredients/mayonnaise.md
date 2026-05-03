@@ -1,4 +1,5 @@
 ---
+title: "Mayonnaise"
 type: ingredient
 commodity: mayonnaise
 label: "Mayonnaise"

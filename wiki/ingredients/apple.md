@@ -1,4 +1,5 @@
 ---
+title: "Apple"
 type: ingredient
 commodity: apple
 label: "Apple"

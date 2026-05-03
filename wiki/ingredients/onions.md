@@ -1,4 +1,5 @@
 ---
+title: "Onions"
 type: ingredient
 commodity: onions
 label: "Onions"

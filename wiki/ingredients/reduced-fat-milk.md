@@ -1,4 +1,5 @@
 ---
+title: "Reduced-fat milk"
 type: ingredient
 commodity: reduced-fat-milk
 label: "Reduced-fat milk"

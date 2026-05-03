@@ -1,4 +1,5 @@
 ---
+title: "Chili con carne with beans"
 type: ingredient
 commodity: chili-con-carne-with-beans
 label: "Chili con carne with beans"

@@ -1,4 +1,5 @@
 ---
+title: "Frankfurter"
 type: ingredient
 commodity: frankfurter
 label: "Frankfurter"

@@ -1,4 +1,5 @@
 ---
+title: "Fromage frais"
 type: ingredient
 commodity: fromage-frais
 label: "Fromage frais"

@@ -1,4 +1,5 @@
 ---
+title: "Whole milk"
 type: ingredient
 commodity: whole-milk
 label: "Whole milk"

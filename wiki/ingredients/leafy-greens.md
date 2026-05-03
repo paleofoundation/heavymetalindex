@@ -1,4 +1,5 @@
 ---
+title: "Leafy Greens"
 type: ingredient
 commodity: leafy-greens
 label: "Leafy Greens"

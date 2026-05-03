@@ -1,4 +1,5 @@
 ---
+title: "Corn"
 type: ingredient
 commodity: corn
 label: "Corn"

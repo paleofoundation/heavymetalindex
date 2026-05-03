@@ -1,4 +1,5 @@
 ---
+title: "Skim milk"
 type: ingredient
 commodity: skim-milk
 label: "Skim milk"

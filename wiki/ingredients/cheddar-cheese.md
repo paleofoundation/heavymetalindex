@@ -1,4 +1,5 @@
 ---
+title: "Cheddar cheese"
 type: ingredient
 commodity: cheddar-cheese
 label: "Cheddar cheese"

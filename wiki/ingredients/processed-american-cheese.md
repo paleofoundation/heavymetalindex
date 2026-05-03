@@ -1,4 +1,5 @@
 ---
+title: "Processed American cheese"
 type: ingredient
 commodity: processed-american-cheese
 label: "Processed American cheese"

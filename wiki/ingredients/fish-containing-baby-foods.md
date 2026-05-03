@@ -1,4 +1,5 @@
 ---
+title: "Fish Containing Baby Foods"
 type: ingredient
 commodity: fish-containing-baby-foods
 label: "Fish Containing Baby Foods"

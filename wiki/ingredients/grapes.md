@@ -1,4 +1,5 @@
 ---
+title: "Grapes"
 type: ingredient
 commodity: grapes
 label: "Grapes"

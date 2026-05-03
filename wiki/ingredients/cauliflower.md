@@ -1,4 +1,5 @@
 ---
+title: "Cauliflower"
 type: ingredient
 commodity: cauliflower
 label: "Cauliflower"

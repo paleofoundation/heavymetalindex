@@ -1,4 +1,5 @@
 ---
+title: "Lamb chop"
 type: ingredient
 commodity: lamb-chop
 label: "Lamb chop"

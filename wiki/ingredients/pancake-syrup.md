@@ -1,4 +1,5 @@
 ---
+title: "Pancake syrup"
 type: ingredient
 commodity: pancake-syrup
 label: "Pancake syrup"

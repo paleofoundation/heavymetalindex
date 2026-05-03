@@ -1,4 +1,5 @@
 ---
+title: "Peanut butter"
 type: ingredient
 commodity: peanut-butter
 label: "Peanut butter"

@@ -1,4 +1,5 @@
 ---
+title: "Teething And Snacks"
 type: ingredient
 commodity: teething-and-snacks
 label: "Teething And Snacks"

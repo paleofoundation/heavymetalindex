@@ -1,4 +1,5 @@
 ---
+title: "Beet"
 type: ingredient
 commodity: beet
 label: "Beet"

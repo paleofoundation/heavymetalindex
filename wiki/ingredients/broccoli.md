@@ -1,4 +1,5 @@
 ---
+title: "Broccoli"
 type: ingredient
 commodity: broccoli
 label: "Broccoli"

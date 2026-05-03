@@ -1,4 +1,5 @@
 ---
+title: "Oranges"
 type: ingredient
 commodity: oranges
 label: "Oranges"

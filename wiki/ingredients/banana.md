@@ -1,4 +1,5 @@
 ---
+title: "Banana"
 type: ingredient
 commodity: banana
 label: "Banana"

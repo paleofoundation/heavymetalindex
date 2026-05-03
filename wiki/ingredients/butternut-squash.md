@@ -1,4 +1,5 @@
 ---
+title: "Butternut squash"
 type: ingredient
 commodity: butternut-squash
 label: "Butternut squash"

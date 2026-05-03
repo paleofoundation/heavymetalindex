@@ -1,4 +1,5 @@
 ---
+title: "White fish"
 type: ingredient
 commodity: white-fish
 label: "White fish"

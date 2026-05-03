@@ -1,4 +1,5 @@
 ---
+title: "Non-soy infant formula"
 type: ingredient
 commodity: non-soy-infant-formula
 label: "Non-soy infant formula"

@@ -1,4 +1,5 @@
 ---
+title: "Non-root vegetable purees"
 type: ingredient
 commodity: non-root-vegetable-purees
 label: "Non-root vegetable purees"

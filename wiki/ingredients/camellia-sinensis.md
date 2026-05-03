@@ -1,4 +1,5 @@
 ---
+title: "Camellia sinensis"
 type: ingredient
 commodity: camellia-sinensis
 label: "Camellia sinensis"

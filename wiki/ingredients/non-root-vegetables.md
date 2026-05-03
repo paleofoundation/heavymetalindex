@@ -1,4 +1,5 @@
 ---
+title: "Non-root vegetables"
 type: ingredient
 commodity: non-root-vegetables
 label: "Non-root vegetables"

@@ -1,4 +1,5 @@
 ---
+title: "Lima beans"
 type: ingredient
 commodity: lima-beans
 label: "Lima beans"

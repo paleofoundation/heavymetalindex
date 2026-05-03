@@ -1,4 +1,5 @@
 ---
+title: "Sports drink bases"
 type: ingredient
 commodity: sports-drink-bases
 label: "Sports drink bases"

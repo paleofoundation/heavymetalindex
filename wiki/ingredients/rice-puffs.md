@@ -1,4 +1,5 @@
 ---
+title: "Rice Puffs"
 type: ingredient
 commodity: rice-puffs
 label: "Rice Puffs"

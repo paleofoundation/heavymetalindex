@@ -1,4 +1,5 @@
 ---
+title: "Canned tomatoes"
 type: ingredient
 commodity: canned-tomatoes
 label: "Canned tomatoes"

@@ -1,4 +1,5 @@
 ---
+title: "Avocado"
 type: ingredient
 commodity: avocado
 label: "Avocado"

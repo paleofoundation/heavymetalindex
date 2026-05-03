@@ -1,4 +1,5 @@
 ---
+title: "Chicken potpie"
 type: ingredient
 commodity: chicken-potpie
 label: "Chicken potpie"

@@ -1,4 +1,5 @@
 ---
+title: "White sugar"
 type: ingredient
 commodity: white-sugar
 label: "White sugar"

@@ -1,4 +1,5 @@
 ---
+title: "Cornbread"
 type: ingredient
 commodity: cornbread
 label: "Cornbread"

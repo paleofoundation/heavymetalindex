@@ -1,4 +1,5 @@
 ---
+title: "Pasta"
 type: ingredient
 commodity: pasta
 label: "Pasta"

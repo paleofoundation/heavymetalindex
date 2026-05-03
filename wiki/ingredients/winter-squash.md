@@ -1,4 +1,5 @@
 ---
+title: "Winter squash"
 type: ingredient
 commodity: winter-squash
 label: "Winter squash"

@@ -1,4 +1,5 @@
 ---
+title: "Potato chips"
 type: ingredient
 commodity: potato-chips
 label: "Potato chips"

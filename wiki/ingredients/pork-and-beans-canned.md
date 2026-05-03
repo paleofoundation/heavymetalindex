@@ -1,4 +1,5 @@
 ---
+title: "Canned pork and beans"
 type: ingredient
 commodity: pork-and-beans-canned
 label: "Canned pork and beans"

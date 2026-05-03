@@ -1,4 +1,5 @@
 ---
+title: "Chicken noodle soup"
 type: ingredient
 commodity: chicken-noodle-soup
 label: "Chicken noodle soup"

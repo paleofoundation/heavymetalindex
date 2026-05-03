@@ -1,4 +1,5 @@
 ---
+title: "Canned spaghetti in tomato sauce"
 type: ingredient
 commodity: canned-spaghetti
 label: "Canned spaghetti in tomato sauce"

@@ -1,4 +1,5 @@
 ---
+title: "Honey"
 type: ingredient
 commodity: honey
 label: "Honey"

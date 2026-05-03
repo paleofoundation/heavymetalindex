@@ -1,4 +1,5 @@
 ---
+title: "Matcha powder"
 type: ingredient
 commodity: matcha-powder
 label: "Matcha powder"

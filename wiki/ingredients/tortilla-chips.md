@@ -1,4 +1,5 @@
 ---
+title: "Tortilla chips"
 type: ingredient
 commodity: tortilla-chips
 label: "Tortilla chips"

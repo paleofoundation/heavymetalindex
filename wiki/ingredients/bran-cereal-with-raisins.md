@@ -1,4 +1,5 @@
 ---
+title: "Bran cereal with raisins"
 type: ingredient
 commodity: bran-cereal-with-raisins
 label: "Bran cereal with raisins"

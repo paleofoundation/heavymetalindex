@@ -1,4 +1,5 @@
 ---
+title: "Yam"
 type: ingredient
 commodity: yam
 label: "Yam"
