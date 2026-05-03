@@ -52,7 +52,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-24
+updated: 2026-05-03
 ---
 
 # Rice
@@ -96,6 +96,10 @@ _Some metals not listed in this section because no ingested source yet covers th
 ## Related finished-product evidence
 
 [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] reports inorganic arsenic in finished rice-based beverages. Those values belong on [[products/plant-milks-rice-based]], not in this ingredient profile, unless a later ingest separates rice ingredient values from beverage matrix values.
+
+## FDA TDS FY2018-FY2020 Evidence
+
+FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 50, "Rice, white, enriched, cooked." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Sources
 

@@ -12,6 +12,12 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-03] ingest | fda2022-tds-elements-fy2018-fy2020 - FDA Total Diet Study FY2018-FY2020 elements dataset
+
+Pages touched: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[sources/index]], [[ingredients/index]], [[products/fruit-juice-not-canned]], [[products/fruit-juices-apple-containing]], [[products/fruit-juices-non-apple]], [[products/regulatory-crosswalk-field-findings]], [[lint/2026-05-03-fda-tds-elements-ingest-audit]]
+
+Notes: Preserved the FDA TDS FY2018-FY2020 element-results CSV and analytical-results key PDF outside Git in `raw/reports/`; generated normalized row-level evidence, per-food/per-analyte summaries, and a TDS food-to-ingredient routing table. Created missing ingredient pages and updated existing ingredient pages so every TDS food has a stable wiki destination for future ingests. Reported zero concentrations remain FDA-reported zeroes with reporting limits retained separately; no brand claims, HMTc threshold claims, or regulatory exceedance claims were added.
+
 ## [2026-05-02] ingest | fda-ctz-lead-final-guidance-provenance — FDA lead action-level source family and HMTc handling
 Pages touched: [[sources/fda-ctz-Pb-babyfood-2025]], [[regulations/fda2025-lead-processed-baby-foods]], [[regulations/fda-closer-to-zero]], [[regulations/fda-ctz-Pb-babyfood-10ppb]], [[regulations/fda-ctz-Pb-rootveg-20ppb]], [[regulations/fda-ctz-Pb-cereal-20ppb]], [[metals/lead]], [[certification]], [[products/regulatory-crosswalk-field-findings]], `raw/reports/INGESTED.md`
 Notes: Re-ingested the two FDA January 2025 lead guidance artifacts as one source family: the 19-page full guidance PDF is the copy of record, and the 3-page FDA guidance webpage PDF is the official landing-page/current-status artifact. Created the missing canonical regulation hub `[[regulations/fda2025-lead-processed-baby-foods]]` used by product crosswalk tables, and added explicit handling for "Contains Nonbinding Recommendations": preserve it as legal/regulatory status, do not call the action levels statutory legal limits or HMTc standards, but do treat them as FDA final guidance and enforcement-relevant federal context. The HMTc standards-development implication is now explicit: FDA's nonbinding, lead-only, category-limited, iterative guidance makes a transparent multi-metal certification program more important, not less, provided the wiki remains separate from public certification pass/fail decisions.

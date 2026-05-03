@@ -1,0 +1,91 @@
+source_id,tds_food_number,tds_food_description,ingredient_slug,ingredient_label,category,aliases,product_routes,ingredient_page
+fda2022-tds-elements-fy2018-fy2020,1,"Milk, whole, fluid",whole-milk,Whole milk,dairy,"milk, whole",,wiki/ingredients/whole-milk.md
+fda2022-tds-elements-fy2018-fy2020,2,"Milk, reduced fat, fluid",reduced-fat-milk,Reduced-fat milk,dairy,"milk, reduced fat",,wiki/ingredients/reduced-fat-milk.md
+fda2022-tds-elements-fy2018-fy2020,3,"Milk, chocolate, reduced fat, fluid",chocolate-reduced-fat-milk,Chocolate reduced-fat milk,dairy,chocolate milk,,wiki/ingredients/chocolate-reduced-fat-milk.md
+fda2022-tds-elements-fy2018-fy2020,4,"Milk, skim, fluid",skim-milk,Skim milk,dairy,skim milk; fat-free milk,,wiki/ingredients/skim-milk.md
+fda2022-tds-elements-fy2018-fy2020,10,"Cheese, American, processed",processed-american-cheese,Processed American cheese,dairy,american cheese; processed cheese,,wiki/ingredients/processed-american-cheese.md
+fda2022-tds-elements-fy2018-fy2020,12,"Cheese, cheddar (sharp/mild)",cheddar-cheese,Cheddar cheese,dairy,cheddar,,wiki/ingredients/cheddar-cheese.md
+fda2022-tds-elements-fy2018-fy2020,13,"Beef, ground, pan-cooked",ground-beef,Ground beef,meat,ground beef,,wiki/ingredients/ground-beef.md
+fda2022-tds-elements-fy2018-fy2020,17,"Ham, cured (not canned), baked",ham,Ham,meat,cured ham,,wiki/ingredients/ham.md
+fda2022-tds-elements-fy2018-fy2020,18,"Pork chop, pan-cooked with oil",pork-chop,Pork chop,meat,pork chop,,wiki/ingredients/pork-chop.md
+fda2022-tds-elements-fy2018-fy2020,19,"Pork sausage (link/patty), pan-cooked",pork-sausages,Pork sausages,meat,pork sausage,,wiki/ingredients/pork-sausages.md
+fda2022-tds-elements-fy2018-fy2020,20,"Pork bacon, oven-cooked",pork-bacon,Pork bacon,meat,bacon,,wiki/ingredients/pork-bacon.md
+fda2022-tds-elements-fy2018-fy2020,22,"Lamb chop, pan-cooked with oil",lamb-chop,Lamb chop,meat,lamb,,wiki/ingredients/lamb-chop.md
+fda2022-tds-elements-fy2018-fy2020,26,"Turkey breast, oven-roasted",turkey,Turkey,poultry,turkey breast,,wiki/ingredients/turkey.md
+fda2022-tds-elements-fy2018-fy2020,28,"Frankfurter (all beef/beef and pork), boiled",frankfurter,Frankfurter,meat,hot dog; frankfurter,,wiki/ingredients/frankfurter.md
+fda2022-tds-elements-fy2018-fy2020,29,"Luncheon meat, bologna",bologna-luncheon-meat,Bologna luncheon meat,meat,bologna; luncheon meat,,wiki/ingredients/bologna-luncheon-meat.md
+fda2022-tds-elements-fy2018-fy2020,34,"Fish sticks or patty, frozen, oven-cooked",fish-fingers,Fish sticks or patties,seafood,fish sticks; fish patties,,wiki/ingredients/fish-fingers.md
+fda2022-tds-elements-fy2018-fy2020,37,"Eggs, hard-boiled",eggs,Eggs,animal-food,egg,,wiki/ingredients/eggs.md
+fda2022-tds-elements-fy2018-fy2020,39,"Pork and beans, canned",pork-and-beans-canned,Canned pork and beans,legume-composite,pork and beans,,wiki/ingredients/pork-and-beans-canned.md
+fda2022-tds-elements-fy2018-fy2020,42,"Lima beans, immature, frozen, boiled",lima-beans,Lima beans,legume,lima beans,,wiki/ingredients/lima-beans.md
+fda2022-tds-elements-fy2018-fy2020,46,"Peas, green, frozen, boiled",frozen-peas,Frozen peas,vegetable,green peas,,wiki/ingredients/frozen-peas.md
+fda2022-tds-elements-fy2018-fy2020,47,"Peanut butter, creamy",peanut-butter,Peanut butter,nut-seed,peanut butter,,wiki/ingredients/peanut-butter.md
+fda2022-tds-elements-fy2018-fy2020,48,"Peanuts, dry roasted, salted",peanuts,Peanuts,nut-seed,peanut,,wiki/ingredients/peanuts.md
+fda2022-tds-elements-fy2018-fy2020,50,"Rice, white, enriched, cooked",rice,Rice,grain,white rice; enriched rice,,wiki/ingredients/rice.md
+fda2022-tds-elements-fy2018-fy2020,51,"Oatmeal, plain, quick, cooked",oatmeal,Oatmeal,grain,oatmeal; cooked oats,,wiki/ingredients/oatmeal.md
+fda2022-tds-elements-fy2018-fy2020,52,"Cream of wheat (farina), enriched, cooked",cream-of-wheat,Cream of wheat,grain,farina; cream of wheat,,wiki/ingredients/cream-of-wheat.md
+fda2022-tds-elements-fy2018-fy2020,53,"Corn/hominy grits, enriched, cooked",corn-grits,Corn/hominy grits,grain,hominy grits; corn grits,,wiki/ingredients/corn-grits.md
+fda2022-tds-elements-fy2018-fy2020,54,"Corn, frozen, boiled",corn,Corn,vegetable-grain,corn,,wiki/ingredients/corn.md
+fda2022-tds-elements-fy2018-fy2020,55,"Corn, canned, drained solids",canned-corn,Canned corn,vegetable-grain,canned corn,,wiki/ingredients/canned-corn.md
+fda2022-tds-elements-fy2018-fy2020,58,"Bread, white, enriched, pre-sliced",white-bread,White bread,grain-product,white bread,,wiki/ingredients/white-bread.md
+fda2022-tds-elements-fy2018-fy2020,60,"Cornbread, homemade",cornbread,Cornbread,grain-product,cornbread,,wiki/ingredients/cornbread.md
+fda2022-tds-elements-fy2018-fy2020,62,"Bread, whole wheat, pre-sliced",whole-wheat-bread,Whole wheat bread,grain-product,whole wheat bread,,wiki/ingredients/whole-wheat-bread.md
+fda2022-tds-elements-fy2018-fy2020,63,"Tortilla, flour",flour-tortilla,Flour tortilla,grain-product,flour tortilla,,wiki/ingredients/flour-tortilla.md
+fda2022-tds-elements-fy2018-fy2020,65,"Muffin, blueberry",blueberry-muffin,Blueberry muffin,grain-product,blueberry muffin,,wiki/ingredients/blueberry-muffin.md
+fda2022-tds-elements-fy2018-fy2020,66,"Crackers, saltine",saltine-crackers,Saltine crackers,grain-product,saltine crackers,,wiki/ingredients/saltine-crackers.md
+fda2022-tds-elements-fy2018-fy2020,67,"Chips, tortilla",tortilla-chips,Tortilla chips,grain-product,tortilla chips,,wiki/ingredients/tortilla-chips.md
+fda2022-tds-elements-fy2018-fy2020,69,"Noodles, egg, enriched, boiled",egg-noodles,Egg noodles,grain-product,egg noodles,,wiki/ingredients/egg-noodles.md
+fda2022-tds-elements-fy2018-fy2020,71,"Cereal, corn flakes",corn-flakes,Corn flakes cereal,breakfast-cereal,corn flakes,,wiki/ingredients/corn-flakes.md
+fda2022-tds-elements-fy2018-fy2020,74,"Cereal, bran with raisins",bran-cereal-with-raisins,Bran cereal with raisins,breakfast-cereal,raisin bran,,wiki/ingredients/bran-cereal-with-raisins.md
+fda2022-tds-elements-fy2018-fy2020,75,"Cereal, crisped rice",crisped-rice-cereal,Crisped rice cereal,breakfast-cereal,crisped rice cereal; rice cereal,,wiki/ingredients/crisped-rice-cereal.md
+fda2022-tds-elements-fy2018-fy2020,77,"Cereal, oat ring",oat-ring-cereal,Oat ring cereal,breakfast-cereal,oat ring cereal,,wiki/ingredients/oat-ring-cereal.md
+fda2022-tds-elements-fy2018-fy2020,78,"Apple, red, with peel, raw",apple,Apple,fruit,red apple,,wiki/ingredients/apple.md
+fda2022-tds-elements-fy2018-fy2020,79,"Orange, raw",oranges,Oranges,fruit,orange,,wiki/ingredients/oranges.md
+fda2022-tds-elements-fy2018-fy2020,80,"Banana, raw",banana,Banana,fruit,banana,,wiki/ingredients/banana.md
+fda2022-tds-elements-fy2018-fy2020,81,"Watermelon, raw/frozen",watermelon,Watermelon,fruit,watermelon,,wiki/ingredients/watermelon.md
+fda2022-tds-elements-fy2018-fy2020,83,"Peach, raw/frozen",peach,Peach,fruit,peach,,wiki/ingredients/peach.md
+fda2022-tds-elements-fy2018-fy2020,84,"Applesauce, bottled",applesauce,Applesauce,fruit-product,applesauce,,wiki/ingredients/applesauce.md
+fda2022-tds-elements-fy2018-fy2020,85,"Pear, with peel, raw",pear,Pear,fruit,pear,,wiki/ingredients/pear.md
+fda2022-tds-elements-fy2018-fy2020,86,"Strawberry, raw/frozen",strawberries,Strawberries,fruit,strawberry,,wiki/ingredients/strawberries.md
+fda2022-tds-elements-fy2018-fy2020,87,"Fruit cocktail, canned in light syrup, solids and liquids",canned-fruit-cocktail,Canned fruit cocktail,fruit-product,fruit cocktail,,wiki/ingredients/canned-fruit-cocktail.md
+fda2022-tds-elements-fy2018-fy2020,88,"Grapes, seedless, red/green, raw",grapes,Grapes,fruit,grapes,,wiki/ingredients/grapes.md
+fda2022-tds-elements-fy2018-fy2020,89,"Cantaloupe, raw/frozen",cantaloupe,Cantaloupe,fruit,cantaloupe,,wiki/ingredients/cantaloupe.md
+fda2022-tds-elements-fy2018-fy2020,92,"Grapefruit, raw",grapefruit,Grapefruit,fruit,grapefruit,,wiki/ingredients/grapefruit.md
+fda2022-tds-elements-fy2018-fy2020,95,Raisins,raisins,Raisins,dried-fruit,raisin,,wiki/ingredients/raisins.md
+fda2022-tds-elements-fy2018-fy2020,97,"Avocado, raw",avocado,Avocado,fruit,avocado,,wiki/ingredients/avocado.md
+fda2022-tds-elements-fy2018-fy2020,99,"Juice, apple, bottled",apple-juice,Apple juice,juice-composite,bottled apple juice,fruit-juice-not-canned; fruit-juices-apple-containing,wiki/ingredients/apple-juice.md
+fda2022-tds-elements-fy2018-fy2020,100,"Juice, grapefruit, bottled/cartoned",grapefruit-juice,Grapefruit juice,juice-composite,grapefruit juice,fruit-juices-non-apple,wiki/ingredients/grapefruit-juice.md
+fda2022-tds-elements-fy2018-fy2020,108,"Collards, fresh/frozen, boiled",collard-greens,Collard greens,leafy-green,collards,,wiki/ingredients/collard-greens.md
+fda2022-tds-elements-fy2018-fy2020,109,"Lettuce, iceberg, raw",iceberg-lettuce,Iceberg lettuce,leafy-green,iceberg lettuce,,wiki/ingredients/iceberg-lettuce.md
+fda2022-tds-elements-fy2018-fy2020,113,"Broccoli, fresh/frozen, boiled",broccoli,Broccoli,vegetable,broccoli,,wiki/ingredients/broccoli.md
+fda2022-tds-elements-fy2018-fy2020,114,"Celery, raw",celery,Celery,vegetable,celery,,wiki/ingredients/celery.md
+fda2022-tds-elements-fy2018-fy2020,115,"Asparagus, fresh/frozen, boiled",asparagus,Asparagus,vegetable,asparagus,,wiki/ingredients/asparagus.md
+fda2022-tds-elements-fy2018-fy2020,116,"Cauliflower, fresh/frozen, boiled",cauliflower,Cauliflower,vegetable,cauliflower,,wiki/ingredients/cauliflower.md
+fda2022-tds-elements-fy2018-fy2020,117,"Tomato, raw",tomato,Tomato,vegetable-fruit,tomato,,wiki/ingredients/tomato.md
+fda2022-tds-elements-fy2018-fy2020,121,"Green beans, fresh/frozen, boiled",green-beans,Green beans,vegetable,green beans,,wiki/ingredients/green-beans.md
+fda2022-tds-elements-fy2018-fy2020,122,"Green beans, canned, drained solids",canned-green-beans,Canned green beans,vegetable,canned green beans,,wiki/ingredients/canned-green-beans.md
+fda2022-tds-elements-fy2018-fy2020,123,"Cucumber, peeled, raw",cucumber,Cucumber,vegetable-fruit,cucumber,,wiki/ingredients/cucumber.md
+fda2022-tds-elements-fy2018-fy2020,125,"Pepper, bell, green, raw",green-bell-pepper,Green bell pepper,vegetable-fruit,green bell pepper,,wiki/ingredients/green-bell-pepper.md
+fda2022-tds-elements-fy2018-fy2020,126,"Squash, winter, fresh/frozen, boiled",winter-squash,Winter squash,vegetable,winter squash,,wiki/ingredients/winter-squash.md
+fda2022-tds-elements-fy2018-fy2020,128,"Onion, mature, raw",onions,Onions,vegetable,onion,,wiki/ingredients/onions.md
+fda2022-tds-elements-fy2018-fy2020,130,"Mushrooms, canned, drained solids",canned-mushrooms,Canned mushrooms,fungi,mushrooms,,wiki/ingredients/canned-mushrooms.md
+fda2022-tds-elements-fy2018-fy2020,136,"Potato, peeled, boiled",potatoes,Potatoes,root-vegetable,boiled potato,,wiki/ingredients/potatoes.md
+fda2022-tds-elements-fy2018-fy2020,137,"Potato, with peel, baked",baked-potato-with-peel,Baked potato with peel,root-vegetable,baked potato,,wiki/ingredients/baked-potato-with-peel.md
+fda2022-tds-elements-fy2018-fy2020,138,"Chips, potato",potato-chips,Potato chips,snack,potato chips,,wiki/ingredients/potato-chips.md
+fda2022-tds-elements-fy2018-fy2020,145,"Chili con carne with beans, canned",chili-con-carne-with-beans,Chili con carne with beans,mixed-food,chili con carne,,wiki/ingredients/chili-con-carne-with-beans.md
+fda2022-tds-elements-fy2018-fy2020,146,"Macaroni and cheese, prepared from boxed mix",macaroni-and-cheese,Macaroni and cheese,mixed-food,macaroni and cheese,,wiki/ingredients/macaroni-and-cheese.md
+fda2022-tds-elements-fy2018-fy2020,152,"Chicken potpie, frozen, heated",chicken-potpie,Chicken potpie,mixed-food,chicken potpie,,wiki/ingredients/chicken-potpie.md
+fda2022-tds-elements-fy2018-fy2020,155,"Soup, chicken noodle, canned, condensed, prepared with water",chicken-noodle-soup,Chicken noodle soup,soup,chicken noodle soup,,wiki/ingredients/chicken-noodle-soup.md
+fda2022-tds-elements-fy2018-fy2020,156,"Soup, tomato, canned, condensed, prepared with water",tomato-soup,Tomato soup,soup,tomato soup,,wiki/ingredients/tomato-soup.md
+fda2022-tds-elements-fy2018-fy2020,161,"Pickles, dill, cucumber",dill-pickles,Dill pickles,pickled-vegetable,dill pickles,,wiki/ingredients/dill-pickles.md
+fda2022-tds-elements-fy2018-fy2020,162,"Margarine, salted",margarine,Margarine,fat-oil,margarine,,wiki/ingredients/margarine.md
+fda2022-tds-elements-fy2018-fy2020,164,"Butter, salted",butter,Butter,dairy-fat,butter,,wiki/ingredients/butter.md
+fda2022-tds-elements-fy2018-fy2020,166,Mayonnaise,mayonnaise,Mayonnaise,condiment,mayonnaise,,wiki/ingredients/mayonnaise.md
+fda2022-tds-elements-fy2018-fy2020,167,"Cream, half and half",half-and-half,Half and half,dairy,half and half,,wiki/ingredients/half-and-half.md
+fda2022-tds-elements-fy2018-fy2020,168,"Cream substitute, non-dairy, liquid",non-dairy-creamer,Non-dairy creamer,fat-oil,non-dairy creamer,,wiki/ingredients/non-dairy-creamer.md
+fda2022-tds-elements-fy2018-fy2020,169,"Sugar, white, granulated",white-sugar,White sugar,sweetener,white sugar,,wiki/ingredients/white-sugar.md
+fda2022-tds-elements-fy2018-fy2020,170,"Syrup, pancake",pancake-syrup,Pancake syrup,sweetener,pancake syrup,,wiki/ingredients/pancake-syrup.md
+fda2022-tds-elements-fy2018-fy2020,172,Honey,honey,Honey,sweetener,honey,,wiki/ingredients/honey.md
+fda2022-tds-elements-fy2018-fy2020,173,"Ketchup, tomato",ketchup,Ketchup,condiment,ketchup,,wiki/ingredients/ketchup.md
+fda2022-tds-elements-fy2018-fy2020,178,"Cake, chocolate with chocolate icing",chocolate-cake,Chocolate cake with chocolate icing,dessert,chocolate cake,,wiki/ingredients/chocolate-cake.md
+fda2022-tds-elements-fy2018-fy2020,183,"Cookies, chocolate chip",chocolate-chip-cookies,Chocolate chip cookies,dessert,chocolate chip cookies,,wiki/ingredients/chocolate-chip-cookies.md

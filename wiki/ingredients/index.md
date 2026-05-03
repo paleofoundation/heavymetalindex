@@ -2,38 +2,194 @@
 title: Ingredients
 description: Commodity-level risk profiles for food ingredients relevant to heavy metal exposure.
 audience: [regulator, educator, researcher, commercial]
-updated: 2026-04-24
+updated: 2026-05-03
 ---
 
-Commodity-level pages describe why specific ingredients accumulate specific metals, typical concentration ranges by source and variety, processing effects, and mitigation options. Each page carries a structured contamination profile in frontmatter that the future consumer app will consume directly. See [methodology](/methodology) for the current state of population.
+Commodity-level pages describe why specific ingredients accumulate specific metals, typical concentration ranges by source and variety, processing effects, and mitigation options. Each page carries a structured contamination profile in frontmatter that the future consumer app will consume directly. Ingredient-level values belong on these pages; finished-product values belong on [[products/index|product-category pages]].
 
-## Ingredient Pages
+## Ingredient Nodes
 
-- [[ingredients/bivalve-molluscs]]
-- [[ingredients/carrots]]
-- [[ingredients/chocolate]]
-- [[ingredients/cocoa]]
-- [[ingredients/fish]]
-- [[ingredients/fruit]]
-- [[ingredients/fruit-juice]]
-- [[ingredients/infant-cereal-ingredients]]
-- [[ingredients/infant-formula-ingredients]]
-- [[ingredients/meat-and-poultry]]
-- [[ingredients/milk-and-dairy]]
-- [[ingredients/organ-meats]]
-- [[ingredients/potatoes]]
-- [[ingredients/rice]]
-- [[ingredients/soy]]
-- [[ingredients/spinach]]
-- [[ingredients/sunflower-seeds]]
-- [[ingredients/vegetables]]
-- [[ingredients/wheat]]
-- [[ingredients/wild-mushrooms]]
-
-## Category 5 beverage ingredients
-
-- [[ingredients/plant-milk]]
-- [[ingredients/soy]]
-- [[ingredients/almond]]
-- [[ingredients/oat]]
-- [[ingredients/coconut]]
+- [[ingredients/almond|Almond]] (0 sources)
+- [[ingredients/apple|Apple]] (2 sources)
+- [[ingredients/apple-juice|Apple juice]] (2 sources)
+- [[ingredients/applesauce|Applesauce]] (1 sources)
+- [[ingredients/asparagus|Asparagus]] (1 sources)
+- [[ingredients/avocado|Avocado]] (2 sources)
+- [[ingredients/baby-cereals-dry|Baby Cereals Dry]] (0 sources)
+- [[ingredients/baked-beans|Baked beans]] (1 sources)
+- [[ingredients/baked-potato-with-peel|Baked potato with peel]] (1 sources)
+- [[ingredients/banana|Banana]] (2 sources)
+- [[ingredients/beef|Beef]] (0 sources)
+- [[ingredients/beet|Beet]] (0 sources)
+- [[ingredients/bivalve-molluscs|Bivalve Molluscs (Excluding Oysters)]]
+- [[ingredients/blueberries|Blueberries]] (1 sources)
+- [[ingredients/blueberry-muffin|Blueberry muffin]] (1 sources)
+- [[ingredients/bologna-luncheon-meat|Bologna luncheon meat]] (1 sources)
+- [[ingredients/bran-cereal-with-raisins|Bran cereal with raisins]] (1 sources)
+- [[ingredients/broccoli|Broccoli]] (2 sources)
+- [[ingredients/butter|Butter]] (1 sources)
+- [[ingredients/butternut-squash|Butternut squash]] (1 sources)
+- [[ingredients/camellia-sinensis|Camellia sinensis]] (0 sources)
+- [[ingredients/canned-corn|Canned corn]] (1 sources)
+- [[ingredients/canned-fruit-cocktail|Canned fruit cocktail]] (1 sources)
+- [[ingredients/canned-green-beans|Canned green beans]] (1 sources)
+- [[ingredients/canned-mushrooms|Canned mushrooms]] (1 sources)
+- [[ingredients/pork-and-beans-canned|Canned pork and beans]] (1 sources)
+- [[ingredients/canned-spaghetti|Canned spaghetti in tomato sauce]] (1 sources)
+- [[ingredients/canned-tomatoes|Canned tomatoes]] (1 sources)
+- [[ingredients/cantaloupe|Cantaloupe]] (1 sources)
+- [[ingredients/carrot|Carrot]] (1 sources)
+- [[ingredients/carrots|Carrots]]
+- [[ingredients/cauliflower|Cauliflower]] (1 sources)
+- [[ingredients/celery|Celery]] (1 sources)
+- [[ingredients/chapattis|Chapattis]] (1 sources)
+- [[ingredients/cheddar-cheese|Cheddar cheese]] (2 sources)
+- [[ingredients/chicken|Chicken]] (1 sources)
+- [[ingredients/chicken-noodle-soup|Chicken noodle soup]] (1 sources)
+- [[ingredients/chicken-potpie|Chicken potpie]] (1 sources)
+- [[ingredients/chili-con-carne-with-beans|Chili con carne with beans]] (1 sources)
+- [[ingredients/chocolate|Chocolate]]
+- [[ingredients/chocolate-cake|Chocolate cake with chocolate icing]] (1 sources)
+- [[ingredients/chocolate-chip-cookies|Chocolate chip cookies]] (1 sources)
+- [[ingredients/chocolate-reduced-fat-milk|Chocolate reduced-fat milk]] (1 sources)
+- [[ingredients/clementines-tangerines|Clementines and tangerines]] (1 sources)
+- [[ingredients/cocoa|Cocoa]]
+- [[ingredients/coconut|Coconut]] (0 sources)
+- [[ingredients/coffee|Coffee]] (0 sources)
+- [[ingredients/collard-greens|Collard greens]] (1 sources)
+- [[ingredients/corn|Corn]] (1 sources)
+- [[ingredients/corn-flakes|Corn flakes cereal]] (1 sources)
+- [[ingredients/corn-grits|Corn/hominy grits]] (1 sources)
+- [[ingredients/cornbread|Cornbread]] (1 sources)
+- [[ingredients/cream-of-wheat|Cream of wheat]] (1 sources)
+- [[ingredients/crisped-rice-cereal|Crisped rice cereal]] (1 sources)
+- [[ingredients/cucumber|Cucumber]] (2 sources)
+- [[ingredients/custard|Custard]] (1 sources)
+- [[ingredients/dill-pickles|Dill pickles]] (1 sources)
+- [[ingredients/egg-noodles|Egg noodles]] (1 sources)
+- [[ingredients/eggs|Eggs]] (2 sources)
+- [[ingredients/fermented-beverage-bases|Fermented beverage bases]] (0 sources)
+- [[ingredients/fish|Fish]]
+- [[ingredients/fish-containing-baby-foods|Fish Containing Baby Foods]] (0 sources)
+- [[ingredients/fish-fingers|Fish fingers]] (2 sources)
+- [[ingredients/flavored-carbonated-bottled-waters|Flavored carbonated bottled waters]] (1 sources)
+- [[ingredients/flavoring|Flavoring]] (0 sources)
+- [[ingredients/flour-tortilla|Flour tortilla]] (1 sources)
+- [[ingredients/frankfurter|Frankfurter]] (1 sources)
+- [[ingredients/fromage-frais|Fromage frais]] (1 sources)
+- [[ingredients/frozen-peas|Frozen peas]] (2 sources)
+- [[ingredients/fruit|Fruit]]
+- [[ingredients/fruit-juice|Fruit Juice]]
+- [[ingredients/fruit-juice-ready-drinks|Fruit juice ready drinks]] (1 sources)
+- [[ingredients/fruit-purees|Fruit Purees]] (0 sources)
+- [[ingredients/grape-juice|Grape Juice]] (0 sources)
+- [[ingredients/grapefruit|Grapefruit]] (1 sources)
+- [[ingredients/grapefruit-juice|Grapefruit juice]] (1 sources)
+- [[ingredients/grapes|Grapes]] (2 sources)
+- [[ingredients/green-beans|Green beans]] (1 sources)
+- [[ingredients/green-bell-pepper|Green bell pepper]] (1 sources)
+- [[ingredients/ground-beef|Ground beef]] (1 sources)
+- [[ingredients/half-and-half|Half and half]] (1 sources)
+- [[ingredients/ham|Ham]] (1 sources)
+- [[ingredients/herbal-botanicals|Herbal botanicals]] (0 sources)
+- [[ingredients/honey|Honey]] (1 sources)
+- [[ingredients/iceberg-lettuce|Iceberg lettuce]] (1 sources)
+- [[ingredients/infant-cereal-ingredients|Infant Cereal Ingredients]]
+- [[ingredients/infant-formula-concentrated-liquid|Infant Formula Concentrated Liquid]] (0 sources)
+- [[ingredients/infant-formula-ingredients|Infant Formula Ingredients]]
+- [[ingredients/infant-formula-powder|Infant Formula Powder]] (0 sources)
+- [[ingredients/infant-formula-rtf-liquid|Infant Formula Rtf Liquid]] (0 sources)
+- [[ingredients/ketchup|Ketchup]] (1 sources)
+- [[ingredients/lamb-chop|Lamb chop]] (1 sources)
+- [[ingredients/leafy-greens|Leafy Greens]] (0 sources)
+- [[ingredients/lentils|Lentils]] (1 sources)
+- [[ingredients/lima-beans|Lima beans]] (1 sources)
+- [[ingredients/macaroni-and-cheese|Macaroni and cheese]] (1 sources)
+- [[ingredients/margarine|Margarine]] (1 sources)
+- [[ingredients/matcha-powder|Matcha powder]] (0 sources)
+- [[ingredients/mayonnaise|Mayonnaise]] (1 sources)
+- [[ingredients/meat|Meat and poultry]] (1 sources)
+- [[ingredients/meat-and-poultry|Meat and Poultry]]
+- [[ingredients/meat-and-poultry-purees|Meat And Poultry Purees]] (0 sources)
+- [[ingredients/melon|Melon]] (1 sources)
+- [[ingredients/milk-and-dairy|Milk and Dairy]]
+- [[ingredients/mixed-meals|Mixed Meals]] (0 sources)
+- [[ingredients/non-rice-grains|Non Rice Grains]] (0 sources)
+- [[ingredients/non-soy-protein-source|Non Soy Protein Source]] (0 sources)
+- [[ingredients/non-apple-fruit|Non-apple fruit]] (1 sources)
+- [[ingredients/non-dairy-creamer|Non-dairy creamer]] (1 sources)
+- [[ingredients/non-root-vegetable-purees|Non-root vegetable purees]] (0 sources)
+- [[ingredients/non-root-vegetables|Non-root vegetables]] (1 sources)
+- [[ingredients/non-soy-infant-formula|Non-soy infant formula]] (0 sources)
+- [[ingredients/noodles|Noodles]] (1 sources)
+- [[ingredients/oat|Oat]] (0 sources)
+- [[ingredients/oat-ring-cereal|Oat ring cereal]] (1 sources)
+- [[ingredients/oatmeal|Oatmeal]] (1 sources)
+- [[ingredients/onions|Onions]] (2 sources)
+- [[ingredients/orange-juice|Orange juice]] (1 sources)
+- [[ingredients/oranges|Oranges]] (2 sources)
+- [[ingredients/organ-meats|Organ Meats (Kidney and Liver)]]
+- [[ingredients/pancake-syrup|Pancake syrup]] (1 sources)
+- [[ingredients/parsnips|Parsnips]] (1 sources)
+- [[ingredients/pasta|Pasta]] (1 sources)
+- [[ingredients/peach|Peach]] (1 sources)
+- [[ingredients/peaches|Peaches]] (1 sources)
+- [[ingredients/peanut-butter|Peanut butter]] (1 sources)
+- [[ingredients/peanuts|Peanuts]] (1 sources)
+- [[ingredients/pear|Pear]] (1 sources)
+- [[ingredients/pears|Pears]] (1 sources)
+- [[ingredients/plant-milk|Plant milk base]] (3 sources)
+- [[ingredients/pork-bacon|Pork bacon]] (1 sources)
+- [[ingredients/pork-chop|Pork chop]] (1 sources)
+- [[ingredients/pork-sausages|Pork sausages]] (2 sources)
+- [[ingredients/potato-chips|Potato chips]] (1 sources)
+- [[ingredients/potatoes|Potatoes]]
+- [[ingredients/poultry|Poultry]] (0 sources)
+- [[ingredients/processed-american-cheese|Processed American cheese]] (1 sources)
+- [[ingredients/raisins|Raisins]] (1 sources)
+- [[ingredients/reduced-fat-milk|Reduced-fat milk]] (1 sources)
+- [[ingredients/rice|Rice]]
+- [[ingredients/rice-cakes|Rice cakes]] (1 sources)
+- [[ingredients/rice-cereal|Rice Cereal]] (0 sources)
+- [[ingredients/rice-flour|Rice Flour]] (0 sources)
+- [[ingredients/rice-puffs|Rice Puffs]] (0 sources)
+- [[ingredients/root-vegetable-purees|Root Vegetable Purees]] (0 sources)
+- [[ingredients/root-vegetables|Root vegetables]] (1 sources)
+- [[ingredients/saltine-crackers|Saltine crackers]] (1 sources)
+- [[ingredients/seafood|Seafood]] (0 sources)
+- [[ingredients/semi-skimmed-milk|Semi-skimmed milk]] (1 sources)
+- [[ingredients/skim-milk|Skim milk]] (1 sources)
+- [[ingredients/soft-drink-bases|Soft drink bases]] (0 sources)
+- [[ingredients/soy|Soy]]
+- [[ingredients/soy-protein-isolate|Soy Protein Isolate]] (0 sources)
+- [[ingredients/soy-based-infant-formula|Soy-based infant formula]] (0 sources)
+- [[ingredients/spinach|Spinach]]
+- [[ingredients/sports-drink-bases|Sports drink bases]] (0 sources)
+- [[ingredients/squash|Squash]] (0 sources)
+- [[ingredients/strawberries|Strawberries]] (2 sources)
+- [[ingredients/sunflower-seeds|Sunflower Seeds]]
+- [[ingredients/sweet-potato|Sweet potato]] (1 sources)
+- [[ingredients/teething-and-snacks|Teething And Snacks]] (0 sources)
+- [[ingredients/tinned-fish|Tinned fish]] (1 sources)
+- [[ingredients/tomato|Tomato]] (1 sources)
+- [[ingredients/tomato-soup|Tomato soup]] (1 sources)
+- [[ingredients/tortilla-chips|Tortilla chips]] (1 sources)
+- [[ingredients/turkey|Turkey]] (1 sources)
+- [[ingredients/vegetable-juice|Vegetable juice]] (0 sources)
+- [[ingredients/vegetable-purees|Vegetable Purees]] (0 sources)
+- [[ingredients/vegetables|Vegetables]]
+- [[ingredients/vitamin-mineral-premix|Vitamin Mineral Premix]] (0 sources)
+- [[ingredients/water|Water]] (1 sources)
+- [[ingredients/watermelon|Watermelon]] (1 sources)
+- [[ingredients/wheat|Wheat]]
+- [[ingredients/wheat-cereal-biscuits|Wheat cereal biscuits]] (1 sources)
+- [[ingredients/white-bread|White bread]] (2 sources)
+- [[ingredients/white-fish|White fish]] (1 sources)
+- [[ingredients/white-sugar|White sugar]] (1 sources)
+- [[ingredients/whole-milk|Whole milk]] (2 sources)
+- [[ingredients/whole-wheat-bread|Whole wheat bread]] (1 sources)
+- [[ingredients/wholemeal-bread|Wholemeal bread]] (1 sources)
+- [[ingredients/wild-mushrooms|Wild Mushrooms]]
+- [[ingredients/winter-squash|Winter squash]] (1 sources)
+- [[ingredients/yam|Yam]] (1 sources)
+- [[ingredients/yogurt|Yogurt]] (1 sources)
