@@ -1,0 +1,571 @@
+SOURCE ID: chekri2019-french-infant-toddler-tds-trace-elements
+SOURCE TITLE: Trace element contents in foods from the first French Total Diet Study on infants and toddlers
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: ../../../../Desktop/heavy-metal-index/raw/Digest/Added Manually /1-s2.0-S0889157518301868-am.pdf
+METALS DECLARED: [Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 1-3 ---
+    1 | Version of Record: https://www.sciencedirect.com/science/article/pii/S0889157518301868
+    2 | Manuscript_a853b2b16a0f4a192ae08dd09c447d32
+    3 | 
+
+--- lines 1-4 ---
+    1 | Version of Record: https://www.sciencedirect.com/science/article/pii/S0889157518301868
+    2 | Manuscript_a853b2b16a0f4a192ae08dd09c447d32
+    3 | 
+    4 | 
+
+--- lines 3-7 ---
+    3 | 
+    4 | 
+    5 | Trace element contents in foods from the first French Total Diet Study
+    6 | 
+    7 |                                      on infants and toddlers
+
+--- lines 9-13 ---
+    9 | 
+   10 | 
+   11 | Rachida Chekria*, Emilie Le Calvezb, Julie Zincka, Jean-Charles Leblanca, Véronique Sirotc,
+   12 | 
+   13 | Marion Hulinc, Laurent Noëld, Thierry Guérina
+
+--- lines 15-19 ---
+   15 | 
+   16 | 
+   17 | a: Université Paris-Est, ANSES, Laboratory for Food Safety, F-94701 Maisons-Alfort, France.
+   18 | 
+   19 | b: Cofrac, F-75012 Paris, France.
+
+--- lines 17-21 ---
+   17 | a: Université Paris-Est, ANSES, Laboratory for Food Safety, F-94701 Maisons-Alfort, France.
+   18 | 
+   19 | b: Cofrac, F-75012 Paris, France.
+   20 | 
+   21 | c: ANSES, Risk Assessment Department, F-94701 Maisons-Alfort, France.
+
+--- lines 19-23 ---
+   19 | b: Cofrac, F-75012 Paris, France.
+   20 | 
+   21 | c: ANSES, Risk Assessment Department, F-94701 Maisons-Alfort, France.
+   22 | 
+   23 | d: The French Directorate General for Food, Ministry of Agriculture, Agro-16 Food and Forestry, F-
+
+--- lines 21-25 ---
+   21 | c: ANSES, Risk Assessment Department, F-94701 Maisons-Alfort, France.
+   22 | 
+   23 | d: The French Directorate General for Food, Ministry of Agriculture, Agro-16 Food and Forestry, F-
+   24 | 
+   25 | 75732 Paris, France.
+
+--- lines 28-32 ---
+   28 | 
+   29 | 
+   30 | *Corresponding author. Tel.: + 33 1 49 77 26 21;
+   31 | 
+   32 | 
+
+--- lines 37-41 ---
+   37 | 
+   38 |                                                                                                   1
+   39 | © 2019 published by Elsevier. This manuscript is made available under the Elsevier user license
+   40 | https://www.elsevier.com/open-access/userlicense/1.0/
+   41 | ABSTRACT
+
+--- lines 38-42 ---
+   38 |                                                                                                   1
+   39 | © 2019 published by Elsevier. This manuscript is made available under the Elsevier user license
+   40 | https://www.elsevier.com/open-access/userlicense/1.0/
+   41 | ABSTRACT
+   42 | 
+
+--- lines 42-46 ---
+   42 | 
+   43 | 
+   44 | Occurrence data for aluminium, antimony, arsenic, barium, cadmium, chrome, cobalt, gallium,
+   45 | 
+   46 | germanium, nickel, strontium, silver, tellurium, tin and vanadium were compiled during the first
+
+--- lines 44-48 ---
+   44 | Occurrence data for aluminium, antimony, arsenic, barium, cadmium, chrome, cobalt, gallium,
+   45 | 
+   46 | germanium, nickel, strontium, silver, tellurium, tin and vanadium were compiled during the first
+   47 | 
+   48 | French Total Diet Study on infants and toddlers. For infant foods, meat-/fish-based and vegetable-
+
+--- lines 46-50 ---
+   46 | germanium, nickel, strontium, silver, tellurium, tin and vanadium were compiled during the first
+   47 | 
+   48 | French Total Diet Study on infants and toddlers. For infant foods, meat-/fish-based and vegetable-
+   49 | 
+   50 | based ready-to-eat meals were among the most contaminated food categories for most trace
+
+--- lines 48-52 ---
+   48 | French Total Diet Study on infants and toddlers. For infant foods, meat-/fish-based and vegetable-
+   49 | 
+   50 | based ready-to-eat meals were among the most contaminated food categories for most trace
+   51 | 
+   52 | elements, except for gallium, antimony and vanadium, for which the concentrations were relatively
+
+--- lines 50-54 ---
+   50 | based ready-to-eat meals were among the most contaminated food categories for most trace
+   51 | 
+   52 | elements, except for gallium, antimony and vanadium, for which the concentrations were relatively
+   53 | 
+   54 | similar in all food categories. Soups/purees and cereal-based foods had the highest levels of
+
+--- lines 52-56 ---
+   52 | elements, except for gallium, antimony and vanadium, for which the concentrations were relatively
+   53 | 
+   54 | similar in all food categories. Soups/purees and cereal-based foods had the highest levels of
+   55 | 
+   56 | aluminium (653 and 630 µg kg-1, respectively), whereas fruit purees had the highest level of tin
+
+--- lines 54-58 ---
+   54 | similar in all food categories. Soups/purees and cereal-based foods had the highest levels of
+   55 | 
+   56 | aluminium (653 and 630 µg kg-1, respectively), whereas fruit purees had the highest level of tin
+   57 | 
+   58 | (424 µg kg-1). Infant and follow-on formulae and growing-up milks had relatively low mean
+
+--- lines 56-60 ---
+   56 | aluminium (653 and 630 µg kg-1, respectively), whereas fruit purees had the highest level of tin
+   57 | 
+   58 | (424 µg kg-1). Infant and follow-on formulae and growing-up milks had relatively low mean
+   59 | 
+   60 | contents of trace elements compared with the other infant food categories: e.g. aluminium (220 µg
+
+--- lines 58-62 ---
+   58 | (424 µg kg-1). Infant and follow-on formulae and growing-up milks had relatively low mean
+   59 | 
+   60 | contents of trace elements compared with the other infant food categories: e.g. aluminium (220 µg
+   61 | 
+   62 | kg-1), arsenic (1.80 µg kg-1), cadmium (0.51 µg kg-1). Chocolate-based foods contributed
+
+--- lines 60-64 ---
+   60 | contents of trace elements compared with the other infant food categories: e.g. aluminium (220 µg
+   61 | 
+   62 | kg-1), arsenic (1.80 µg kg-1), cadmium (0.51 µg kg-1). Chocolate-based foods contributed
+   63 | 
+   64 | substantially to the higher levels of aluminium, cadmium, cobalt, chromium and nickel in sweet and
+
+--- lines 62-66 ---
+   62 | kg-1), arsenic (1.80 µg kg-1), cadmium (0.51 µg kg-1). Chocolate-based foods contributed
+   63 | 
+   64 | substantially to the higher levels of aluminium, cadmium, cobalt, chromium and nickel in sweet and
+   65 | 
+   66 | savoury biscuits and bars, dairy-based desserts and croissant-like pastries. Only the contribution of
+
+--- lines 64-68 ---
+   64 | substantially to the higher levels of aluminium, cadmium, cobalt, chromium and nickel in sweet and
+   65 | 
+   66 | savoury biscuits and bars, dairy-based desserts and croissant-like pastries. Only the contribution of
+   67 | 
+   68 | chromium and barium levels were statistically different between infant and common foods, with
+
+--- lines 66-70 ---
+   66 | savoury biscuits and bars, dairy-based desserts and croissant-like pastries. Only the contribution of
+   67 | 
+   68 | chromium and barium levels were statistically different between infant and common foods, with
+   69 | 
+   70 | median concentrations being slightly higher in infant foods. The results were largely comparable to
+
+--- lines 68-72 ---
+   68 | chromium and barium levels were statistically different between infant and common foods, with
+   69 | 
+   70 | median concentrations being slightly higher in infant foods. The results were largely comparable to
+   71 | 
+   72 | those from other surveys on baby food.
+
+--- lines 70-74 ---
+   70 | median concentrations being slightly higher in infant foods. The results were largely comparable to
+   71 | 
+   72 | those from other surveys on baby food.
+   73 | 
+   74 | 
+
+--- lines 75-79 ---
+   75 | 
+   76 | 
+   77 | Keywords: Trace elements; ICP-MS; occurrence data; total diet study; infants and toddlers; food
+   78 | 
+   79 | analysis; food composition
+
+--- lines 77-81 ---
+   77 | Keywords: Trace elements; ICP-MS; occurrence data; total diet study; infants and toddlers; food
+   78 | 
+   79 | analysis; food composition
+   80 | 
+   81 | 
+
+--- lines 85-89 ---
+   85 | 1. Introduction
+   86 | 
+   87 | Adequate feeding during early childhood is essential for ensuring healthy growth and development.
+   88 | 
+   89 | A varied diet can satisfy physiological needs and nutritional requirements, but can also potentially
+
+--- lines 87-91 ---
+   87 | Adequate feeding during early childhood is essential for ensuring healthy growth and development.
+   88 | 
+   89 | A varied diet can satisfy physiological needs and nutritional requirements, but can also potentially
+   90 | 
+   91 | pose health risks due to the higher vulnerability of infants and toddlers. During the first months of
+
+--- lines 89-93 ---
+   89 | A varied diet can satisfy physiological needs and nutritional requirements, but can also potentially
+   90 | 
+   91 | pose health risks due to the higher vulnerability of infants and toddlers. During the first months of
+   92 | 
+   93 | life, breast milk is recommended as the most suitable food. However, according to the World Health
+
+--- lines 91-95 ---
+   91 | pose health risks due to the higher vulnerability of infants and toddlers. During the first months of
+   92 | 
+   93 | life, breast milk is recommended as the most suitable food. However, according to the World Health
+   94 | 
+   95 | Organization (WHO), it is estimated that, worldwide, only 34.8% of infants are exclusively
+
+--- lines 93-97 ---
+   93 | life, breast milk is recommended as the most suitable food. However, according to the World Health
+   94 | 
+   95 | Organization (WHO), it is estimated that, worldwide, only 34.8% of infants are exclusively
+   96 | 
+   97 | breastfed for the first 6 months of their life, the majority consuming infant formula in their early
+
+--- lines 95-99 ---
+   95 | Organization (WHO), it is estimated that, worldwide, only 34.8% of infants are exclusively
+   96 | 
+   97 | breastfed for the first 6 months of their life, the majority consuming infant formula in their early
+   98 | 
+   99 | months (WHO, 2009). In France, 23% of infants are still breastfed at 6 months old and less than 2%
+
+--- lines 99-103 ---
+   99 | months (WHO, 2009). In France, 23% of infants are still breastfed at 6 months old and less than 2%
+  100 | 
+  101 | are exclusively or predominantly breastfeed (INVS, 2016) at the same age. Moreover, various foods
+  102 | 
+  103 | are gradually introduced at a few months of age. The composition of foods, their raw ingredients,
+
+--- lines 101-105 ---
+  101 | are exclusively or predominantly breastfeed (INVS, 2016) at the same age. Moreover, various foods
+  102 | 
+  103 | are gradually introduced at a few months of age. The composition of foods, their raw ingredients,
+  104 | 
+  105 | the manufacturing process, the cooking methods, etc. are all sources that can lead to the
+
+--- lines 103-107 ---
+  103 | are gradually introduced at a few months of age. The composition of foods, their raw ingredients,
+  104 | 
+  105 | the manufacturing process, the cooking methods, etc. are all sources that can lead to the
+  106 | 
+  107 | accumulation of certain chemicals, including trace metals, in baby foods, thus altering their quality.
+
+--- lines 105-109 ---
+  105 | the manufacturing process, the cooking methods, etc. are all sources that can lead to the
+  106 | 
+  107 | accumulation of certain chemicals, including trace metals, in baby foods, thus altering their quality.
+  108 | 
+  109 | Some trace elements play significant roles in numerous biological functions. Cobalt is one of the
+
+--- lines 107-111 ---
+  107 | accumulation of certain chemicals, including trace metals, in baby foods, thus altering their quality.
+  108 | 
+  109 | Some trace elements play significant roles in numerous biological functions. Cobalt is one of the
+  110 | 
+  111 | components of the B12 vitamin, related to brain activity and the nervous system (Pedron et al.,
+
+--- lines 109-113 ---
+  109 | Some trace elements play significant roles in numerous biological functions. Cobalt is one of the
+  110 | 
+  111 | components of the B12 vitamin, related to brain activity and the nervous system (Pedron et al.,
+  112 | 
+  113 | 2016). Vanadium is associated with glucose metabolism and with improving insulin receptivity
+
+--- lines 111-115 ---
+  111 | components of the B12 vitamin, related to brain activity and the nervous system (Pedron et al.,
+  112 | 
+  113 | 2016). Vanadium is associated with glucose metabolism and with improving insulin receptivity
+  114 | 
+  115 | (Lopez-Garcia et al., 2009). On the other hand, some trace elements (e.g., aluminium, arsenic, etc.)
+
+--- lines 113-117 ---
+  113 | 2016). Vanadium is associated with glucose metabolism and with improving insulin receptivity
+  114 | 
+  115 | (Lopez-Garcia et al., 2009). On the other hand, some trace elements (e.g., aluminium, arsenic, etc.)
+  116 | 
+  117 | are food contaminants with cumulative properties, and are considered ‘potentially’ toxic. Moreover,
+
+--- lines 115-119 ---
+  115 | (Lopez-Garcia et al., 2009). On the other hand, some trace elements (e.g., aluminium, arsenic, etc.)
+  116 | 
+  117 | are food contaminants with cumulative properties, and are considered ‘potentially’ toxic. Moreover,
+  118 | 
+  119 | renal immaturity and greater intestinal absorption in children under 12 months of age make infants
+
+--- lines 117-121 ---
+  117 | are food contaminants with cumulative properties, and are considered ‘potentially’ toxic. Moreover,
+  118 | 
+  119 | renal immaturity and greater intestinal absorption in children under 12 months of age make infants
+  120 | 
+  121 | and toddlers more vulnerable to trace elements (Ikem et al., 2002; Kazi et al., 2010). Widely used in
+
+--- lines 119-123 ---
+  119 | renal immaturity and greater intestinal absorption in children under 12 months of age make infants
+  120 | 
+  121 | and toddlers more vulnerable to trace elements (Ikem et al., 2002; Kazi et al., 2010). Widely used in
+  122 | 
+  123 | many countries, the Total Diet Study (TDS) is one of the methods recommended by the WHO
+
+--- lines 121-125 ---
+  121 | and toddlers more vulnerable to trace elements (Ikem et al., 2002; Kazi et al., 2010). Widely used in
+  122 | 
+  123 | many countries, the Total Diet Study (TDS) is one of the methods recommended by the WHO
+  124 | 
+  125 | (WHO, 2006a) for risk assessment. It provides realistic exposure data, because foods are analysed
+
+--- lines 123-127 ---
+  123 | many countries, the Total Diet Study (TDS) is one of the methods recommended by the WHO
+  124 | 
+  125 | (WHO, 2006a) for risk assessment. It provides realistic exposure data, because foods are analysed
+  126 | 
+  127 | ‘as consumed by the consumer’, thus facilitating international comparisons of consumer exposure
+
+--- lines 125-129 ---
+  125 | (WHO, 2006a) for risk assessment. It provides realistic exposure data, because foods are analysed
+  126 | 
+  127 | ‘as consumed by the consumer’, thus facilitating international comparisons of consumer exposure
+  128 | 
+  129 | owing to a standardised methodology. However, TDSs are usually carried out on the general
+
+--- lines 127-131 ---
+  127 | ‘as consumed by the consumer’, thus facilitating international comparisons of consumer exposure
+  128 | 
+  129 | owing to a standardised methodology. However, TDSs are usually carried out on the general
+  130 | 
+  131 | population including adults and children, and much less frequently on infants and toddlers.
+
+--- lines 131-135 ---
+  131 | population including adults and children, and much less frequently on infants and toddlers.
+  132 | 
+  133 | Consequently, there are few data on this specific population. The UK conducted a TDS involving
+  134 | 
+  135 |                                                                                                     3
+
+--- lines 134-138 ---
+  134 | 
+  135 |                                                                                                     3
+  136 | young children (1.5 - 4.5 years) and adults (Rose et al., 2010), but the occurrence data were not
+  137 | 
+  138 | specifically attributed to infant or adult foods.
+
+--- lines 136-140 ---
+  136 | young children (1.5 - 4.5 years) and adults (Rose et al., 2010), but the occurrence data were not
+  137 | 
+  138 | specifically attributed to infant or adult foods.
+  139 | 
+  140 | Moreover, the range of foods is constantly growing and changing for the general populations and
+
+--- lines 138-142 ---
+  138 | specifically attributed to infant or adult foods.
+  139 | 
+  140 | Moreover, the range of foods is constantly growing and changing for the general populations and
+  141 | 
+  142 | for infants, and infant diets are particularly composed of a more restricted range of foods, which can
+
+--- lines 140-144 ---
+  140 | Moreover, the range of foods is constantly growing and changing for the general populations and
+  141 | 
+  142 | for infants, and infant diets are particularly composed of a more restricted range of foods, which can
+  143 | 
+  144 | lead to specific dietary exposure. Therefore, collecting contamination data and periodical food
+
+--- lines 142-146 ---
+  142 | for infants, and infant diets are particularly composed of a more restricted range of foods, which can
+  143 | 
+  144 | lead to specific dietary exposure. Therefore, collecting contamination data and periodical food
+  145 | 
+  146 | monitoring for nutritional and toxicological purposes is important for this young population. Thus,
+
+--- lines 144-148 ---
+  144 | lead to specific dietary exposure. Therefore, collecting contamination data and periodical food
+  145 | 
+  146 | monitoring for nutritional and toxicological purposes is important for this young population. Thus,
+  147 | 
+  148 | in 2011, the French Agency for Food, Environmental and Occupational Health & Safety (ANSES)
+
+--- lines 146-150 ---
+  146 | monitoring for nutritional and toxicological purposes is important for this young population. Thus,
+  147 | 
+  148 | in 2011, the French Agency for Food, Environmental and Occupational Health & Safety (ANSES)
+  149 | 
+  150 | undertook the first TDS on infants (from 0 to 12 months old) and toddlers (from 12 months up to 3
+
+--- lines 150-154 ---
+  150 | undertook the first TDS on infants (from 0 to 12 months old) and toddlers (from 12 months up to 3
+  151 | 
+  152 | years old) to estimate their dietary exposure to food chemicals, including essential and non-essential
+  153 | 
+  154 | elements (Hulin et al., 2014).
+
+--- lines 152-156 ---
+  152 | years old) to estimate their dietary exposure to food chemicals, including essential and non-essential
+  153 | 
+  154 | elements (Hulin et al., 2014).
+  155 | 
+  156 | The aim of this study was to determine the contamination levels of several trace elements
+
+--- lines 154-158 ---
+  154 | elements (Hulin et al., 2014).
+  155 | 
+  156 | The aim of this study was to determine the contamination levels of several trace elements
+  157 | 
+  158 | (aluminium, antimony, arsenic, barium, cadmium, chromium, cobalt, gallium, germanium, nickel,
+
+--- lines 156-160 ---
+  156 | The aim of this study was to determine the contamination levels of several trace elements
+  157 | 
+  158 | (aluminium, antimony, arsenic, barium, cadmium, chromium, cobalt, gallium, germanium, nickel,
+  159 | 
+  160 | strontium, silver, tellurium, tin and vanadium) in 291 infant foods and common foods representative
+
+--- lines 158-162 ---
+  158 | (aluminium, antimony, arsenic, barium, cadmium, chromium, cobalt, gallium, germanium, nickel,
+  159 | 
+  160 | strontium, silver, tellurium, tin and vanadium) in 291 infant foods and common foods representative
+  161 | 
+  162 | of the diet of non-breastfed children during their first three years. The inorganic elements were
+
+--- lines 160-164 ---
+  160 | strontium, silver, tellurium, tin and vanadium) in 291 infant foods and common foods representative
+  161 | 
+  162 | of the diet of non-breastfed children during their first three years. The inorganic elements were
+  163 | 
+  164 | monitored using a fully validated in-house ISO 17025-accredited method based on microwave
+
+--- lines 162-166 ---
+  162 | of the diet of non-breastfed children during their first three years. The inorganic elements were
+  163 | 
+  164 | monitored using a fully validated in-house ISO 17025-accredited method based on microwave
+  165 | 
+  166 | digestion and inductively coupled plasma-mass spectrometry (ICP-MS) determination. The
+
+--- lines 164-168 ---
+  164 | monitored using a fully validated in-house ISO 17025-accredited method based on microwave
+  165 | 
+  166 | digestion and inductively coupled plasma-mass spectrometry (ICP-MS) determination. The
+  167 | 
+  168 | analytical methods used have already been described in detail (Chevallier et al., 2015; Guérin et al.,
+
+--- lines 166-170 ---
+  166 | digestion and inductively coupled plasma-mass spectrometry (ICP-MS) determination. The
+  167 | 
+  168 | analytical methods used have already been described in detail (Chevallier et al., 2015; Guérin et al.,
+  169 | 
+  170 | 2017, 2018). The separate contribution of common and infant foods to the total average elemental
+
+--- lines 168-172 ---
+  168 | analytical methods used have already been described in detail (Chevallier et al., 2015; Guérin et al.,
+  169 | 
+  170 | 2017, 2018). The separate contribution of common and infant foods to the total average elemental
+  171 | 
+  172 | concentrations is given. We also compared our occurrence data with those from other international
+
+--- lines 170-174 ---
+  170 | 2017, 2018). The separate contribution of common and infant foods to the total average elemental
+  171 | 
+  172 | concentrations is given. We also compared our occurrence data with those from other international
+  173 | 
+  174 | studies.
+
+--- lines 176-180 ---
+  176 | 
+  177 | 
+  178 | 2. Materials and methods
+  179 | 
+  180 | 2.1 Sample collection and preparation
+
+--- lines 178-182 ---
+  178 | 2. Materials and methods
+  179 | 
+  180 | 2.1 Sample collection and preparation
+  181 | 
+  182 | The establishment of the sampling plan and the preparation of food samples have been described
+
+--- lines 180-184 ---
+  180 | 2.1 Sample collection and preparation
+  181 | 
+  182 | The establishment of the sampling plan and the preparation of food samples have been described
+  183 | 
+  184 | elsewhere (Hulin et al., 2014). Briefly, the food list was set according to the survey on food
+
+--- lines 182-186 ---
+  182 | The establishment of the sampling plan and the preparation of food samples have been described
+  183 | 
+  184 | elsewhere (Hulin et al., 2014). Briefly, the food list was set according to the survey on food
+  185 | 
+  186 | consumption in children under three years of age conducted by the Syndicat Français des Aliments
+
+--- lines 184-188 ---
+  184 | elsewhere (Hulin et al., 2014). Briefly, the food list was set according to the survey on food
+  185 | 
+  186 | consumption in children under three years of age conducted by the Syndicat Français des Aliments
+  187 | 
+  188 |                                                                                                     4
+
+--- lines 187-191 ---
+  187 | 
+  188 |                                                                                                     4
+  189 | de l’Enfance et de la Nutrition Clinique, © Etude SOFRES 2005/Université de Bourgogne – Pr M.
+  190 | 
+  191 | Fantino pour le Syndicat Français des Aliments de l’Enfance and described in (Fantino and
+
+--- lines 189-193 ---
+  189 | de l’Enfance et de la Nutrition Clinique, © Etude SOFRES 2005/Université de Bourgogne – Pr M.
+  190 | 
+  191 | Fantino pour le Syndicat Français des Aliments de l’Enfance and described in (Fantino and
+  192 | 
+  193 | Gourmet, 2008). The list was based on two main criteria: the most consumed food in terms of
+
+--- lines 191-195 ---
+  191 | Fantino pour le Syndicat Français des Aliments de l’Enfance and described in (Fantino and
+  192 | 
+  193 | Gourmet, 2008). The list was based on two main criteria: the most consumed food in terms of
+  194 | 
+  195 | quantity and/or percentage of consumers and the foods that are known or supposed to be the main
+
+--- lines 193-197 ---
+  193 | Gourmet, 2008). The list was based on two main criteria: the most consumed food in terms of
+  194 | 
+  195 | quantity and/or percentage of consumers and the foods that are known or supposed to be the main
+  196 | 
+  197 | contributors to the exposure to one or more substances of interest. For trace elements, 291 food
+
+--- lines 195-199 ---
+  195 | quantity and/or percentage of consumers and the foods that are known or supposed to be the main
+  196 | 
+  197 | contributors to the exposure to one or more substances of interest. For trace elements, 291 food
+  198 | 
+  199 | samples were defined, including 219 infant foods and 71 common foods or bottled water and one
+
+--- lines 197-201 ---
+  197 | contributors to the exposure to one or more substances of interest. For trace elements, 291 food
+  198 | 
+  199 | samples were defined, including 219 infant foods and 71 common foods or bottled water and one
+  200 | 
+  201 | sample of reference water. The whole list, covering 89.5 to 99.5% of the diet depending on the age
+
+--- lines 199-203 ---
+  199 | samples were defined, including 219 infant foods and 71 common foods or bottled water and one
+  200 | 
+  201 | sample of reference water. The whole list, covering 89.5 to 99.5% of the diet depending on the age
+  202 | 
+  203 | class, is available in (Hulin et al., 2014). Foods were sampled in the region of Clermont-Ferrand

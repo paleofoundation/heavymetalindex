@@ -79,7 +79,7 @@ contamination_profile:
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
-used_in_products: [fruit-juice-not-canned]
+used_in_products: [fruit-juices-apple-containing]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
 sources: 2
@@ -91,7 +91,7 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 ## Routing
 
-This node is linked from [[products/fruit-juice-not-canned]].
+This node is linked from [[products/fruit-juices-apple-containing]].
 
 ## Contamination Profile State
 

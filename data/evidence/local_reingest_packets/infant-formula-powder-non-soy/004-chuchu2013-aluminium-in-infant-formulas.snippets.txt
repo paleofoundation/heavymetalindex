@@ -1,0 +1,571 @@
+SOURCE ID: chuchu2013-aluminium-in-infant-formulas
+SOURCE TITLE: The aluminium content of infant formulas remains too high
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: ../../../../Desktop/heavy-metal-index/raw/Digest/Added Manually /1471-2431-13-162.pdf
+METALS DECLARED: [Al]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 1-3 ---
+    1 | Chuchu et al. BMC Pediatrics 2013, 13:162
+    2 | http://www.biomedcentral.com/1471-2431/13/162
+    3 | 
+
+--- lines 1-4 ---
+    1 | Chuchu et al. BMC Pediatrics 2013, 13:162
+    2 | http://www.biomedcentral.com/1471-2431/13/162
+    3 | 
+    4 | 
+
+--- lines 7-11 ---
+    7 |  RESEARCH ARTICLE                                                                                                                                   Open Access
+    8 | 
+    9 | The aluminium content of infant formulas
+   10 | remains too high
+   11 | Nancy Chuchu1, Bhavini Patel1, Blaise Sebastian1 and Christopher Exley2*
+
+--- lines 13-17 ---
+   13 | 
+   14 |   Abstract
+   15 |   Background: Recent research published in this journal highlighted the issue of the high content of aluminium in
+   16 |   infant formulas. The expectation was that the findings would serve as a catalyst for manufacturers to address a
+   17 |   significant problem of these, often necessary, components of infant nutrition. It is critically important that parents
+
+--- lines 14-18 ---
+   14 |   Abstract
+   15 |   Background: Recent research published in this journal highlighted the issue of the high content of aluminium in
+   16 |   infant formulas. The expectation was that the findings would serve as a catalyst for manufacturers to address a
+   17 |   significant problem of these, often necessary, components of infant nutrition. It is critically important that parents
+   18 |   and other users have confidence in the safety of infant formulas and that they have reliable information to use in
+
+--- lines 15-19 ---
+   15 |   Background: Recent research published in this journal highlighted the issue of the high content of aluminium in
+   16 |   infant formulas. The expectation was that the findings would serve as a catalyst for manufacturers to address a
+   17 |   significant problem of these, often necessary, components of infant nutrition. It is critically important that parents
+   18 |   and other users have confidence in the safety of infant formulas and that they have reliable information to use in
+   19 |   choosing a product with a lower content of aluminium. Herein, we have significantly extended the scope of the
+
+--- lines 16-20 ---
+   16 |   infant formulas. The expectation was that the findings would serve as a catalyst for manufacturers to address a
+   17 |   significant problem of these, often necessary, components of infant nutrition. It is critically important that parents
+   18 |   and other users have confidence in the safety of infant formulas and that they have reliable information to use in
+   19 |   choosing a product with a lower content of aluminium. Herein, we have significantly extended the scope of the
+   20 |   previous research and the aluminium content of 30 of the most widely available and often used infant formulas has
+
+--- lines 17-21 ---
+   17 |   significant problem of these, often necessary, components of infant nutrition. It is critically important that parents
+   18 |   and other users have confidence in the safety of infant formulas and that they have reliable information to use in
+   19 |   choosing a product with a lower content of aluminium. Herein, we have significantly extended the scope of the
+   20 |   previous research and the aluminium content of 30 of the most widely available and often used infant formulas has
+   21 |   been measured.
+
+--- lines 18-22 ---
+   18 |   and other users have confidence in the safety of infant formulas and that they have reliable information to use in
+   19 |   choosing a product with a lower content of aluminium. Herein, we have significantly extended the scope of the
+   20 |   previous research and the aluminium content of 30 of the most widely available and often used infant formulas has
+   21 |   been measured.
+   22 |   Methods: Both ready-to-drink milks and milk powders were subjected to microwave digestion in the presence of
+
+--- lines 20-24 ---
+   20 |   previous research and the aluminium content of 30 of the most widely available and often used infant formulas has
+   21 |   been measured.
+   22 |   Methods: Both ready-to-drink milks and milk powders were subjected to microwave digestion in the presence of
+   23 |   15.8 M HNO3 and 30% w/v H2O2 and the aluminium content of the digests was measured by TH GFAAS.
+   24 |   Results: Both ready-to-drink milks and milk powders were contaminated with aluminium. The concentration of
+
+--- lines 21-25 ---
+   21 |   been measured.
+   22 |   Methods: Both ready-to-drink milks and milk powders were subjected to microwave digestion in the presence of
+   23 |   15.8 M HNO3 and 30% w/v H2O2 and the aluminium content of the digests was measured by TH GFAAS.
+   24 |   Results: Both ready-to-drink milks and milk powders were contaminated with aluminium. The concentration of
+   25 |   aluminium across all milk products ranged from ca 100 to 430 μg/L. The concentration of aluminium in two
+
+--- lines 22-26 ---
+   22 |   Methods: Both ready-to-drink milks and milk powders were subjected to microwave digestion in the presence of
+   23 |   15.8 M HNO3 and 30% w/v H2O2 and the aluminium content of the digests was measured by TH GFAAS.
+   24 |   Results: Both ready-to-drink milks and milk powders were contaminated with aluminium. The concentration of
+   25 |   aluminium across all milk products ranged from ca 100 to 430 μg/L. The concentration of aluminium in two
+   26 |   soya-based milk products was 656 and 756 μg/L. The intake of aluminium from non-soya-based infant formulas
+
+--- lines 23-27 ---
+   23 |   15.8 M HNO3 and 30% w/v H2O2 and the aluminium content of the digests was measured by TH GFAAS.
+   24 |   Results: Both ready-to-drink milks and milk powders were contaminated with aluminium. The concentration of
+   25 |   aluminium across all milk products ranged from ca 100 to 430 μg/L. The concentration of aluminium in two
+   26 |   soya-based milk products was 656 and 756 μg/L. The intake of aluminium from non-soya-based infant formulas
+   27 |   varied from ca 100 to 300 μg per day. For soya-based milks it could be as high as 700 μg per day.
+
+--- lines 24-28 ---
+   24 |   Results: Both ready-to-drink milks and milk powders were contaminated with aluminium. The concentration of
+   25 |   aluminium across all milk products ranged from ca 100 to 430 μg/L. The concentration of aluminium in two
+   26 |   soya-based milk products was 656 and 756 μg/L. The intake of aluminium from non-soya-based infant formulas
+   27 |   varied from ca 100 to 300 μg per day. For soya-based milks it could be as high as 700 μg per day.
+   28 |   Conclusions: All 30 infant formulas were contaminated with aluminium. There was no clear evidence that
+
+--- lines 25-29 ---
+   25 |   aluminium across all milk products ranged from ca 100 to 430 μg/L. The concentration of aluminium in two
+   26 |   soya-based milk products was 656 and 756 μg/L. The intake of aluminium from non-soya-based infant formulas
+   27 |   varied from ca 100 to 300 μg per day. For soya-based milks it could be as high as 700 μg per day.
+   28 |   Conclusions: All 30 infant formulas were contaminated with aluminium. There was no clear evidence that
+   29 |   subsequent to the problem of aluminium being highlighted in a previous publication in this journal that
+
+--- lines 26-30 ---
+   26 |   soya-based milk products was 656 and 756 μg/L. The intake of aluminium from non-soya-based infant formulas
+   27 |   varied from ca 100 to 300 μg per day. For soya-based milks it could be as high as 700 μg per day.
+   28 |   Conclusions: All 30 infant formulas were contaminated with aluminium. There was no clear evidence that
+   29 |   subsequent to the problem of aluminium being highlighted in a previous publication in this journal that
+   30 |   contamination had been addressed and reduced. It is the opinion of the authors that regulatory and other non-
+
+--- lines 27-31 ---
+   27 |   varied from ca 100 to 300 μg per day. For soya-based milks it could be as high as 700 μg per day.
+   28 |   Conclusions: All 30 infant formulas were contaminated with aluminium. There was no clear evidence that
+   29 |   subsequent to the problem of aluminium being highlighted in a previous publication in this journal that
+   30 |   contamination had been addressed and reduced. It is the opinion of the authors that regulatory and other non-
+   31 |   voluntary methods are now required to reduce the aluminium content of infant formulas and thereby protect
+
+--- lines 29-33 ---
+   29 |   subsequent to the problem of aluminium being highlighted in a previous publication in this journal that
+   30 |   contamination had been addressed and reduced. It is the opinion of the authors that regulatory and other non-
+   31 |   voluntary methods are now required to reduce the aluminium content of infant formulas and thereby protect
+   32 |   infants from chronic exposure to dietary aluminium.
+   33 | 
+
+--- lines 30-34 ---
+   30 |   contamination had been addressed and reduced. It is the opinion of the authors that regulatory and other non-
+   31 |   voluntary methods are now required to reduce the aluminium content of infant formulas and thereby protect
+   32 |   infants from chronic exposure to dietary aluminium.
+   33 | 
+   34 | 
+
+--- lines 33-37 ---
+   33 | 
+   34 | 
+   35 | Background                                                                               as evidenced by the paper being accessed via the journal
+   36 | In 2010 we published the aluminium content of 15 well                                    website more than 20,000 times to-date [1] as well as
+   37 | known infant formula products [1]. We chose to identify                                  myriad direct enquiries through email and other forms
+
+--- lines 34-38 ---
+   34 | 
+   35 | Background                                                                               as evidenced by the paper being accessed via the journal
+   36 | In 2010 we published the aluminium content of 15 well                                    website more than 20,000 times to-date [1] as well as
+   37 | known infant formula products [1]. We chose to identify                                  myriad direct enquiries through email and other forms
+   38 | the specific brands in order that consumers (more practic-                               of communication. We should, perhaps, have not been
+
+--- lines 35-39 ---
+   35 | Background                                                                               as evidenced by the paper being accessed via the journal
+   36 | In 2010 we published the aluminium content of 15 well                                    website more than 20,000 times to-date [1] as well as
+   37 | known infant formula products [1]. We chose to identify                                  myriad direct enquiries through email and other forms
+   38 | the specific brands in order that consumers (more practic-                               of communication. We should, perhaps, have not been
+   39 | ally purchasers) of infant formulas might adopt a precau-                                surprised by the interest as according to a recent report
+
+--- lines 37-41 ---
+   37 | known infant formula products [1]. We chose to identify                                  myriad direct enquiries through email and other forms
+   38 | the specific brands in order that consumers (more practic-                               of communication. We should, perhaps, have not been
+   39 | ally purchasers) of infant formulas might adopt a precau-                                surprised by the interest as according to a recent report
+   40 | tionary approach and choose those formulas with lower                                    by The Caroline Walker Trust [4], 25% of parents in the
+   41 | contents of aluminium. However, the range of values                                      UK use formulas as the only source of ‘breast’ milk for
+
+--- lines 38-42 ---
+   38 | the specific brands in order that consumers (more practic-                               of communication. We should, perhaps, have not been
+   39 | ally purchasers) of infant formulas might adopt a precau-                                surprised by the interest as according to a recent report
+   40 | tionary approach and choose those formulas with lower                                    by The Caroline Walker Trust [4], 25% of parents in the
+   41 | contents of aluminium. However, the range of values                                      UK use formulas as the only source of ‘breast’ milk for
+   42 | obtained was skewed towards high content and we were                                     infants from birth while 35% of parents use infant formu-
+
+--- lines 39-43 ---
+   39 | ally purchasers) of infant formulas might adopt a precau-                                surprised by the interest as according to a recent report
+   40 | tionary approach and choose those formulas with lower                                    by The Caroline Walker Trust [4], 25% of parents in the
+   41 | contents of aluminium. However, the range of values                                      UK use formulas as the only source of ‘breast’ milk for
+   42 | obtained was skewed towards high content and we were                                     infants from birth while 35% of parents use infant formu-
+   43 | left to conclude that the aluminium content of infant                                    las from birth and more than 50% of infants of 4–10 weeks
+
+--- lines 41-45 ---
+   41 | contents of aluminium. However, the range of values                                      UK use formulas as the only source of ‘breast’ milk for
+   42 | obtained was skewed towards high content and we were                                     infants from birth while 35% of parents use infant formu-
+   43 | left to conclude that the aluminium content of infant                                    las from birth and more than 50% of infants of 4–10 weeks
+   44 | formulas were too high, for example as compared to                                       of age are fed solely on formulas. Given the high rate of
+   45 | aluminium exposure through breast milk [2]. A recent                                     use of infant formulas in the UK it was clear to us that a
+
+--- lines 42-46 ---
+   42 | obtained was skewed towards high content and we were                                     infants from birth while 35% of parents use infant formu-
+   43 | left to conclude that the aluminium content of infant                                    las from birth and more than 50% of infants of 4–10 weeks
+   44 | formulas were too high, for example as compared to                                       of age are fed solely on formulas. Given the high rate of
+   45 | aluminium exposure through breast milk [2]. A recent                                     use of infant formulas in the UK it was clear to us that a
+   46 | report on Canadian infant formulas [3] has confirmed                                     more comprehensive survey of the aluminium content of
+
+--- lines 43-47 ---
+   43 | left to conclude that the aluminium content of infant                                    las from birth and more than 50% of infants of 4–10 weeks
+   44 | formulas were too high, for example as compared to                                       of age are fed solely on formulas. Given the high rate of
+   45 | aluminium exposure through breast milk [2]. A recent                                     use of infant formulas in the UK it was clear to us that a
+   46 | report on Canadian infant formulas [3] has confirmed                                     more comprehensive survey of the aluminium content of
+   47 | that this is likely to be a global as opposed to UK only                                 infant formulas was warranted. Herein we have reported
+
+--- lines 44-48 ---
+   44 | formulas were too high, for example as compared to                                       of age are fed solely on formulas. Given the high rate of
+   45 | aluminium exposure through breast milk [2]. A recent                                     use of infant formulas in the UK it was clear to us that a
+   46 | report on Canadian infant formulas [3] has confirmed                                     more comprehensive survey of the aluminium content of
+   47 | that this is likely to be a global as opposed to UK only                                 infant formulas was warranted. Herein we have reported
+   48 | problem. The interest in these data was overwhelming                                     the aluminium content of 30 infant formulas which are
+
+--- lines 45-49 ---
+   45 | aluminium exposure through breast milk [2]. A recent                                     use of infant formulas in the UK it was clear to us that a
+   46 | report on Canadian infant formulas [3] has confirmed                                     more comprehensive survey of the aluminium content of
+   47 | that this is likely to be a global as opposed to UK only                                 infant formulas was warranted. Herein we have reported
+   48 | problem. The interest in these data was overwhelming                                     the aluminium content of 30 infant formulas which are
+   49 |                                                                                          widely available in the UK.
+
+--- lines 46-50 ---
+   46 | report on Canadian infant formulas [3] has confirmed                                     more comprehensive survey of the aluminium content of
+   47 | that this is likely to be a global as opposed to UK only                                 infant formulas was warranted. Herein we have reported
+   48 | problem. The interest in these data was overwhelming                                     the aluminium content of 30 infant formulas which are
+   49 |                                                                                          widely available in the UK.
+   50 | * Correspondence: c.exley@keele.ac.uk
+
+--- lines 50-54 ---
+   50 | * Correspondence: c.exley@keele.ac.uk
+   51 | 2
+   52 |  The Birchall Centre, Lennard-Jones Laboratories, Keele University,
+   53 | Staffordshire, UK
+   54 | Full list of author information is available at the end of the article
+
+--- lines 54-58 ---
+   54 | Full list of author information is available at the end of the article
+   55 | 
+   56 |                                            © 2013 Chuchu et al.; licensee BioMed Central Ltd. This is an open access article distributed under the terms of the Creative
+   57 |                                            Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and
+   58 |                                            reproduction in any medium, provided the original work is properly cited.
+
+--- lines 56-60 ---
+   56 |                                            © 2013 Chuchu et al.; licensee BioMed Central Ltd. This is an open access article distributed under the terms of the Creative
+   57 |                                            Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and
+   58 |                                            reproduction in any medium, provided the original work is properly cited.
+   59 | Chuchu et al. BMC Pediatrics 2013, 13:162                                                                        Page 2 of 5
+   60 | http://www.biomedcentral.com/1471-2431/13/162
+
+--- lines 57-61 ---
+   57 |                                            Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and
+   58 |                                            reproduction in any medium, provided the original work is properly cited.
+   59 | Chuchu et al. BMC Pediatrics 2013, 13:162                                                                        Page 2 of 5
+   60 | http://www.biomedcentral.com/1471-2431/13/162
+   61 | 
+
+--- lines 58-62 ---
+   58 |                                            reproduction in any medium, provided the original work is properly cited.
+   59 | Chuchu et al. BMC Pediatrics 2013, 13:162                                                                        Page 2 of 5
+   60 | http://www.biomedcentral.com/1471-2431/13/162
+   61 | 
+   62 | 
+
+--- lines 63-67 ---
+   63 | 
+   64 | 
+   65 | Methods                                                          for all samples is consistently high and probably reflects
+   66 | All products were bought off the shelf, stored according         the inhomogeneous distribution of aluminium through-
+   67 | to manufacturers’ instructions and only opened at the            out bulk volumes of product. Manufacturers’ recom-
+
+--- lines 64-68 ---
+   64 | 
+   65 | Methods                                                          for all samples is consistently high and probably reflects
+   66 | All products were bought off the shelf, stored according         the inhomogeneous distribution of aluminium through-
+   67 | to manufacturers’ instructions and only opened at the            out bulk volumes of product. Manufacturers’ recom-
+   68 | time of sampling. The aluminium content of 10 ready-             mendations for feeding were used along with the mean
+
+--- lines 66-70 ---
+   66 | All products were bought off the shelf, stored according         the inhomogeneous distribution of aluminium through-
+   67 | to manufacturers’ instructions and only opened at the            out bulk volumes of product. Manufacturers’ recom-
+   68 | time of sampling. The aluminium content of 10 ready-             mendations for feeding were used along with the mean
+   69 | to-drink infant formulas and 20 powdered infant formulas         concentrations of aluminium to estimate daily exposures
+   70 | were measured by transversely heated graphite furnace            to aluminium from each product and these ranged from
+
+--- lines 67-71 ---
+   67 | to manufacturers’ instructions and only opened at the            out bulk volumes of product. Manufacturers’ recom-
+   68 | time of sampling. The aluminium content of 10 ready-             mendations for feeding were used along with the mean
+   69 | to-drink infant formulas and 20 powdered infant formulas         concentrations of aluminium to estimate daily exposures
+   70 | were measured by transversely heated graphite furnace            to aluminium from each product and these ranged from
+   71 | atomic absorption spectrometry (TH GFAAS) following              86 (Hipp Organic First) to 127 (Cow & Gate First) μg
+
+--- lines 68-72 ---
+   68 | time of sampling. The aluminium content of 10 ready-             mendations for feeding were used along with the mean
+   69 | to-drink infant formulas and 20 powdered infant formulas         concentrations of aluminium to estimate daily exposures
+   70 | were measured by transversely heated graphite furnace            to aluminium from each product and these ranged from
+   71 | atomic absorption spectrometry (TH GFAAS) following              86 (Hipp Organic First) to 127 (Cow & Gate First) μg
+   72 | acid/peroxide microwave digestion. All products were             Al/24 h at birth and 134 (Hipp Organic First) to 350
+
+--- lines 69-73 ---
+   69 | to-drink infant formulas and 20 powdered infant formulas         concentrations of aluminium to estimate daily exposures
+   70 | were measured by transversely heated graphite furnace            to aluminium from each product and these ranged from
+   71 | atomic absorption spectrometry (TH GFAAS) following              86 (Hipp Organic First) to 127 (Cow & Gate First) μg
+   72 | acid/peroxide microwave digestion. All products were             Al/24 h at birth and 134 (Hipp Organic First) to 350
+   73 | sampled directly from their containers following shaking         (Aptamil Follow-On) μg Al/24 h at 6 months of age
+
+--- lines 70-74 ---
+   70 | were measured by transversely heated graphite furnace            to aluminium from each product and these ranged from
+   71 | atomic absorption spectrometry (TH GFAAS) following              86 (Hipp Organic First) to 127 (Cow & Gate First) μg
+   72 | acid/peroxide microwave digestion. All products were             Al/24 h at birth and 134 (Hipp Organic First) to 350
+   73 | sampled directly from their containers following shaking         (Aptamil Follow-On) μg Al/24 h at 6 months of age
+   74 | to aid mixing of the products. For ready-to-drink products       (Table 1).
+
+--- lines 71-75 ---
+   71 | atomic absorption spectrometry (TH GFAAS) following              86 (Hipp Organic First) to 127 (Cow & Gate First) μg
+   72 | acid/peroxide microwave digestion. All products were             Al/24 h at birth and 134 (Hipp Organic First) to 350
+   73 | sampled directly from their containers following shaking         (Aptamil Follow-On) μg Al/24 h at 6 months of age
+   74 | to aid mixing of the products. For ready-to-drink products       (Table 1).
+   75 | 1 mL 15.8 M HNO3 and 1 mL of 30% w/v H2O2 were
+
+--- lines 74-78 ---
+   74 | to aid mixing of the products. For ready-to-drink products       (Table 1).
+   75 | 1 mL 15.8 M HNO3 and 1 mL of 30% w/v H2O2 were
+   76 | added to 1 mL of milk and microwave assisted digestion           Powdered milk infant formulas
+   77 | carried out according to a previously validated method           The concentration of aluminium in formulas made from
+   78 | [5]. Digests were clear and made up to a total volume of         powdered milks ranged from 0.69 μg/g (Hipp Organic
+
+--- lines 75-79 ---
+   75 | 1 mL 15.8 M HNO3 and 1 mL of 30% w/v H2O2 were
+   76 | added to 1 mL of milk and microwave assisted digestion           Powdered milk infant formulas
+   77 | carried out according to a previously validated method           The concentration of aluminium in formulas made from
+   78 | [5]. Digests were clear and made up to a total volume of         powdered milks ranged from 0.69 μg/g (Hipp Organic
+   79 | 5 mL with ultrapure water (conductivity <0.067 μS/cm).           Growing Up) to 5.27 μg/g (Cow & Gate Soya Infant
+
+--- lines 76-80 ---
+   76 | added to 1 mL of milk and microwave assisted digestion           Powdered milk infant formulas
+   77 | carried out according to a previously validated method           The concentration of aluminium in formulas made from
+   78 | [5]. Digests were clear and made up to a total volume of         powdered milks ranged from 0.69 μg/g (Hipp Organic
+   79 | 5 mL with ultrapure water (conductivity <0.067 μS/cm).           Growing Up) to 5.27 μg/g (Cow & Gate Soya Infant
+   80 | For powdered milks an exact mass of powder, ca 0.5 g,            Formula) (Table 2). The concentration data are arranged
+
+--- lines 77-81 ---
+   77 | carried out according to a previously validated method           The concentration of aluminium in formulas made from
+   78 | [5]. Digests were clear and made up to a total volume of         powdered milks ranged from 0.69 μg/g (Hipp Organic
+   79 | 5 mL with ultrapure water (conductivity <0.067 μS/cm).           Growing Up) to 5.27 μg/g (Cow & Gate Soya Infant
+   80 | For powdered milks an exact mass of powder, ca 0.5 g,            Formula) (Table 2). The concentration data are arranged
+   81 | was digested in the presence of 1 mL of 15.8 M HNO3              in ascending order and mean and SD are given for n = 5
+
+--- lines 78-82 ---
+   78 | [5]. Digests were clear and made up to a total volume of         powdered milks ranged from 0.69 μg/g (Hipp Organic
+   79 | 5 mL with ultrapure water (conductivity <0.067 μS/cm).           Growing Up) to 5.27 μg/g (Cow & Gate Soya Infant
+   80 | For powdered milks an exact mass of powder, ca 0.5 g,            Formula) (Table 2). The concentration data are arranged
+   81 | was digested in the presence of 1 mL of 15.8 M HNO3              in ascending order and mean and SD are given for n = 5
+   82 | and 1 mL of 30% w/v H2O2 and the clear digest again              replicates. The %RSD for all samples is consistently high
+
+--- lines 79-83 ---
+   79 | 5 mL with ultrapure water (conductivity <0.067 μS/cm).           Growing Up) to 5.27 μg/g (Cow & Gate Soya Infant
+   80 | For powdered milks an exact mass of powder, ca 0.5 g,            Formula) (Table 2). The concentration data are arranged
+   81 | was digested in the presence of 1 mL of 15.8 M HNO3              in ascending order and mean and SD are given for n = 5
+   82 | and 1 mL of 30% w/v H2O2 and the clear digest again              replicates. The %RSD for all samples is consistently high
+   83 | made up to a total volume of 5 mL with ultrapure water.          and probably reflects the inhomogeneous distribution
+
+--- lines 80-84 ---
+   80 | For powdered milks an exact mass of powder, ca 0.5 g,            Formula) (Table 2). The concentration data are arranged
+   81 | was digested in the presence of 1 mL of 15.8 M HNO3              in ascending order and mean and SD are given for n = 5
+   82 | and 1 mL of 30% w/v H2O2 and the clear digest again              replicates. The %RSD for all samples is consistently high
+   83 | made up to a total volume of 5 mL with ultrapure water.          and probably reflects the inhomogeneous distribution
+   84 | Total aluminium in 5 replicates of each product was              of aluminium throughout bulk volumes of the powders.
+
+--- lines 81-85 ---
+   81 | was digested in the presence of 1 mL of 15.8 M HNO3              in ascending order and mean and SD are given for n = 5
+   82 | and 1 mL of 30% w/v H2O2 and the clear digest again              replicates. The %RSD for all samples is consistently high
+   83 | made up to a total volume of 5 mL with ultrapure water.          and probably reflects the inhomogeneous distribution
+   84 | Total aluminium in 5 replicates of each product was              of aluminium throughout bulk volumes of the powders.
+   85 | measured by TH GFAAS using a previously validated                Manufacturers’ recommendations for preparing milks were
+
+--- lines 82-86 ---
+   82 | and 1 mL of 30% w/v H2O2 and the clear digest again              replicates. The %RSD for all samples is consistently high
+   83 | made up to a total volume of 5 mL with ultrapure water.          and probably reflects the inhomogeneous distribution
+   84 | Total aluminium in 5 replicates of each product was              of aluminium throughout bulk volumes of the powders.
+   85 | measured by TH GFAAS using a previously validated                Manufacturers’ recommendations for preparing milks were
+   86 | and published method [5]. Quality assurance data for             used to estimate the concentration of aluminium in the
+
+--- lines 83-87 ---
+   83 | made up to a total volume of 5 mL with ultrapure water.          and probably reflects the inhomogeneous distribution
+   84 | Total aluminium in 5 replicates of each product was              of aluminium throughout bulk volumes of the powders.
+   85 | measured by TH GFAAS using a previously validated                Manufacturers’ recommendations for preparing milks were
+   86 | and published method [5]. Quality assurance data for             used to estimate the concentration of aluminium in the
+   87 | this method include an estimate for contamination, based         ready-to-drink product and these ranged from 118 (Aptamil
+
+--- lines 84-88 ---
+   84 | Total aluminium in 5 replicates of each product was              of aluminium throughout bulk volumes of the powders.
+   85 | measured by TH GFAAS using a previously validated                Manufacturers’ recommendations for preparing milks were
+   86 | and published method [5]. Quality assurance data for             used to estimate the concentration of aluminium in the
+   87 | this method include an estimate for contamination, based         ready-to-drink product and these ranged from 118 (Aptamil
+   88 | upon 120 method blanks, of 54 ng per digest and this             Hungrier) to 756 (Cow & Gate Soya Infant Formula) μg/L
+
+--- lines 85-89 ---
+   85 | measured by TH GFAAS using a previously validated                Manufacturers’ recommendations for preparing milks were
+   86 | and published method [5]. Quality assurance data for             used to estimate the concentration of aluminium in the
+   87 | this method include an estimate for contamination, based         ready-to-drink product and these ranged from 118 (Aptamil
+   88 | upon 120 method blanks, of 54 ng per digest and this             Hungrier) to 756 (Cow & Gate Soya Infant Formula) μg/L
+   89 | value was subtracted from each digest result to give final       at birth and 106 (Hipp Organic Growing Up) to 755
+
+--- lines 86-90 ---
+   86 | and published method [5]. Quality assurance data for             used to estimate the concentration of aluminium in the
+   87 | this method include an estimate for contamination, based         ready-to-drink product and these ranged from 118 (Aptamil
+   88 | upon 120 method blanks, of 54 ng per digest and this             Hungrier) to 756 (Cow & Gate Soya Infant Formula) μg/L
+   89 | value was subtracted from each digest result to give final       at birth and 106 (Hipp Organic Growing Up) to 755
+   90 | aluminium contents expressed either as μg/L (ready-to-           (Cow & Gate Soya Infant Formula) μg/L at 6 months of
+
+--- lines 87-91 ---
+   87 | this method include an estimate for contamination, based         ready-to-drink product and these ranged from 118 (Aptamil
+   88 | upon 120 method blanks, of 54 ng per digest and this             Hungrier) to 756 (Cow & Gate Soya Infant Formula) μg/L
+   89 | value was subtracted from each digest result to give final       at birth and 106 (Hipp Organic Growing Up) to 755
+   90 | aluminium contents expressed either as μg/L (ready-to-           (Cow & Gate Soya Infant Formula) μg/L at 6 months of
+   91 | drink) or μg/g (powders).                                        age. Manufacturers’ recommendations for feeding were
+
+--- lines 88-92 ---
+   88 | upon 120 method blanks, of 54 ng per digest and this             Hungrier) to 756 (Cow & Gate Soya Infant Formula) μg/L
+   89 | value was subtracted from each digest result to give final       at birth and 106 (Hipp Organic Growing Up) to 755
+   90 | aluminium contents expressed either as μg/L (ready-to-           (Cow & Gate Soya Infant Formula) μg/L at 6 months of
+   91 | drink) or μg/g (powders).                                        age. Manufacturers’ recommendations for feeding were
+   92 |                                                                  used along with the mean concentrations of aluminium
+
+--- lines 89-93 ---
+   89 | value was subtracted from each digest result to give final       at birth and 106 (Hipp Organic Growing Up) to 755
+   90 | aluminium contents expressed either as μg/L (ready-to-           (Cow & Gate Soya Infant Formula) μg/L at 6 months of
+   91 | drink) or μg/g (powders).                                        age. Manufacturers’ recommendations for feeding were
+   92 |                                                                  used along with the mean concentrations of aluminium
+   93 | Results                                                          to estimate daily exposures to aluminium from each
+
+--- lines 90-94 ---
+   90 | aluminium contents expressed either as μg/L (ready-to-           (Cow & Gate Soya Infant Formula) μg/L at 6 months of
+   91 | drink) or μg/g (powders).                                        age. Manufacturers’ recommendations for feeding were
+   92 |                                                                  used along with the mean concentrations of aluminium
+   93 | Results                                                          to estimate daily exposures to aluminium from each
+   94 | Ready-to-drink infant formulas                                   product and these ranged from 64 (Aptamil Hungrier)
+
+--- lines 91-95 ---
+   91 | drink) or μg/g (powders).                                        age. Manufacturers’ recommendations for feeding were
+   92 |                                                                  used along with the mean concentrations of aluminium
+   93 | Results                                                          to estimate daily exposures to aluminium from each
+   94 | Ready-to-drink infant formulas                                   product and these ranged from 64 (Aptamil Hungrier)
+   95 | The concentration of aluminium in ready-made infant              to 408 (Cow & Gate Soya Infant Formula) μg Al/24 h at
+
+--- lines 92-96 ---
+   92 |                                                                  used along with the mean concentrations of aluminium
+   93 | Results                                                          to estimate daily exposures to aluminium from each
+   94 | Ready-to-drink infant formulas                                   product and these ranged from 64 (Aptamil Hungrier)
+   95 | The concentration of aluminium in ready-made infant              to 408 (Cow & Gate Soya Infant Formula) μg Al/24 h at
+   96 | formula milks ranged from 155 μg/L (Sma Toddler) to              birth and 80 (Hipp Organic Follow-On) to 725 (Cow &
+
+--- lines 93-97 ---
+   93 | Results                                                          to estimate daily exposures to aluminium from each
+   94 | Ready-to-drink infant formulas                                   product and these ranged from 64 (Aptamil Hungrier)
+   95 | The concentration of aluminium in ready-made infant              to 408 (Cow & Gate Soya Infant Formula) μg Al/24 h at
+   96 | formula milks ranged from 155 μg/L (Sma Toddler) to              birth and 80 (Hipp Organic Follow-On) to 725 (Cow &
+   97 | 422 μg/L (Aptamil Toddler Growing Up) (Table 1). The             Gate Soya Infant Formula) μg Al/24 h at 6 months of
+
+--- lines 94-98 ---
+   94 | Ready-to-drink infant formulas                                   product and these ranged from 64 (Aptamil Hungrier)
+   95 | The concentration of aluminium in ready-made infant              to 408 (Cow & Gate Soya Infant Formula) μg Al/24 h at
+   96 | formula milks ranged from 155 μg/L (Sma Toddler) to              birth and 80 (Hipp Organic Follow-On) to 725 (Cow &
+   97 | 422 μg/L (Aptamil Toddler Growing Up) (Table 1). The             Gate Soya Infant Formula) μg Al/24 h at 6 months of
+   98 | concentration data are arranged in ascending order and           age (Table 2).
+
+--- lines 95-99 ---
+   95 | The concentration of aluminium in ready-made infant              to 408 (Cow & Gate Soya Infant Formula) μg Al/24 h at
+   96 | formula milks ranged from 155 μg/L (Sma Toddler) to              birth and 80 (Hipp Organic Follow-On) to 725 (Cow &
+   97 | 422 μg/L (Aptamil Toddler Growing Up) (Table 1). The             Gate Soya Infant Formula) μg Al/24 h at 6 months of
+   98 | concentration data are arranged in ascending order and           age (Table 2).
+   99 | mean and SD are given for n = 5 replicates. The %RSD
+
+--- lines 96-100 ---
+   96 | formula milks ranged from 155 μg/L (Sma Toddler) to              birth and 80 (Hipp Organic Follow-On) to 725 (Cow &
+   97 | 422 μg/L (Aptamil Toddler Growing Up) (Table 1). The             Gate Soya Infant Formula) μg Al/24 h at 6 months of
+   98 | concentration data are arranged in ascending order and           age (Table 2).
+   99 | mean and SD are given for n = 5 replicates. The %RSD
+  100 |                                                                  Discussion
+
+--- lines 97-101 ---
+   97 | 422 μg/L (Aptamil Toddler Growing Up) (Table 1). The             Gate Soya Infant Formula) μg Al/24 h at 6 months of
+   98 | concentration data are arranged in ascending order and           age (Table 2).
+   99 | mean and SD are given for n = 5 replicates. The %RSD
+  100 |                                                                  Discussion
+  101 |                                                                  We have measured the aluminium content of the 30
+
+--- lines 99-103 ---
+   99 | mean and SD are given for n = 5 replicates. The %RSD
+  100 |                                                                  Discussion
+  101 |                                                                  We have measured the aluminium content of the 30
+  102 | Table 1 The aluminium content of ready-made infant
+  103 | formula milks                                                    most popular brands of infant formula available in the
+
+--- lines 100-104 ---
+  100 |                                                                  Discussion
+  101 |                                                                  We have measured the aluminium content of the 30
+  102 | Table 1 The aluminium content of ready-made infant
+  103 | formula milks                                                    most popular brands of infant formula available in the
+  104 |                                                                  UK. We have included ready-to-drink products, which
+
+--- lines 101-105 ---
+  101 |                                                                  We have measured the aluminium content of the 30
+  102 | Table 1 The aluminium content of ready-made infant
+  103 | formula milks                                                    most popular brands of infant formula available in the
+  104 |                                                                  UK. We have included ready-to-drink products, which
+  105 | Commercial name of                     [Al] μg/L   Al μg/24 h
+
+--- lines 103-107 ---
+  103 | formula milks                                                    most popular brands of infant formula available in the
+  104 |                                                                  UK. We have included ready-to-drink products, which
+  105 | Commercial name of                     [Al] μg/L   Al μg/24 h
+  106 | milk product (n = 5)                   mean (SD)                 are available in both cardboard laminate cartons and
+  107 |                                                    Birth 6 Mo.   plastic bottles, and milk powders, which are sold in tins
+
+--- lines 104-108 ---
+  104 |                                                                  UK. We have included ready-to-drink products, which
+  105 | Commercial name of                     [Al] μg/L   Al μg/24 h
+  106 | milk product (n = 5)                   mean (SD)                 are available in both cardboard laminate cartons and
+  107 |                                                    Birth 6 Mo.   plastic bottles, and milk powders, which are sold in tins
+  108 | Sma Toddler Milk                       155 (24)    NA    781
+
+--- lines 105-109 ---
+  105 | Commercial name of                     [Al] μg/L   Al μg/24 h
+  106 | milk product (n = 5)                   mean (SD)                 are available in both cardboard laminate cartons and
+  107 |                                                    Birth 6 Mo.   plastic bottles, and milk powders, which are sold in tins
+  108 | Sma Toddler Milk                       155 (24)    NA    781
+  109 |                                                                  (Sma), containers (Cow & Gate) and boxes (Hipp Organic).
+
+--- lines 107-111 ---
+  107 |                                                    Birth 6 Mo.   plastic bottles, and milk powders, which are sold in tins
+  108 | Sma Toddler Milk                       155 (24)    NA    781
+  109 |                                                                  (Sma), containers (Cow & Gate) and boxes (Hipp Organic).
+  110 |                                                                  Generally the aluminium content of ready-to-drink prod-
+  111 | Hipp Organic First Infant Milk         160 (67)    86    134
+
+--- lines 108-112 ---
+  108 | Sma Toddler Milk                       155 (24)    NA    781
+  109 |                                                                  (Sma), containers (Cow & Gate) and boxes (Hipp Organic).
+  110 |                                                                  Generally the aluminium content of ready-to-drink prod-
+  111 | Hipp Organic First Infant Milk         160 (67)    86    134
+  112 |                                                                  ucts (Mean (SD) 250 (101) μg/L) were similar to the
+
+--- lines 110-114 ---
+  110 |                                                                  Generally the aluminium content of ready-to-drink prod-
+  111 | Hipp Organic First Infant Milk         160 (67)    86    134
+  112 |                                                                  ucts (Mean (SD) 250 (101) μg/L) were similar to the
+  113 | Aptamil Hungry Milk                    163 (38)    88    171     powdered milk products (Mean (SD) 246 (180) μg/L)
+  114 | Sma First Infant Milk                  173 (34)    104   173     though these ‘average’ values have no practical meaning
+
+--- lines 111-115 ---
+  111 | Hipp Organic First Infant Milk         160 (67)    86    134
+  112 |                                                                  ucts (Mean (SD) 250 (101) μg/L) were similar to the
+  113 | Aptamil Hungry Milk                    163 (38)    88    171     powdered milk products (Mean (SD) 246 (180) μg/L)
+  114 | Sma First Infant Milk                  173 (34)    104   173     though these ‘average’ values have no practical meaning
+  115 | Aptamil First Milk                     186 (37)    100   195     as is clear from scrutiny of the data for the individual
+
+--- lines 112-116 ---
+  112 |                                                                  ucts (Mean (SD) 250 (101) μg/L) were similar to the
+  113 | Aptamil Hungry Milk                    163 (38)    88    171     powdered milk products (Mean (SD) 246 (180) μg/L)
+  114 | Sma First Infant Milk                  173 (34)    104   173     though these ‘average’ values have no practical meaning
+  115 | Aptamil First Milk                     186 (37)    100   195     as is clear from scrutiny of the data for the individual
+  116 | Cow & Gate First Infant Milk           235 (49)    127   226     products (Tables 1 & 2). The aluminium content of
+
+--- lines 113-117 ---
+  113 | Aptamil Hungry Milk                    163 (38)    88    171     powdered milk products (Mean (SD) 246 (180) μg/L)
+  114 | Sma First Infant Milk                  173 (34)    104   173     though these ‘average’ values have no practical meaning
+  115 | Aptamil First Milk                     186 (37)    100   195     as is clear from scrutiny of the data for the individual
+  116 | Cow & Gate First Infant Milk           235 (49)    127   226     products (Tables 1 & 2). The aluminium content of
+  117 | Sma Follow-On Milk                     271 (48)    NA    163

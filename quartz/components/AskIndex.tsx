@@ -34,7 +34,7 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
               <div id="ask-index-title" class="ask-index-title">
                 Ask the Index
               </div>
-              <div class="ask-index-subtitle">Site-only answers with citations.</div>
+              <div class="ask-index-subtitle">Site-only answers with citations and stated limits.</div>
             </div>
             <button type="button" class="ask-index-close" aria-label="Close Ask the Index">
               x
@@ -42,9 +42,9 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
           </div>
           <div class="ask-index-messages" aria-live="polite"></div>
           <div class="ask-index-suggestions" aria-label="Suggested questions">
-            <button type="button">Which foods are the most contaminated?</button>
-            <button type="button">What metals are covered the most?</button>
-            <button type="button">What countries currently regulate nickel?</button>
+            <button type="button">Show the loaded values and citations for this product.</button>
+            <button type="button">What evidence is missing before a standard can be calculated?</button>
+            <button type="button">Show regulatory values beside the measured evidence.</button>
           </div>
           <form class="ask-index-form">
             <textarea
@@ -52,7 +52,7 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
               class="ask-index-input"
               rows={3}
               maxlength={800}
-              placeholder="Ask about metals, ingredients, products, regulations, or sources..."
+              placeholder="Ask about measured values, sources, regulations, evidence gaps, or calculation inputs..."
               aria-label="Ask a question of the Heavy Metal Index"
             ></textarea>
             <div class="ask-index-actions">

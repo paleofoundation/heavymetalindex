@@ -55,20 +55,107 @@ sources: 3
 
 # Fish-Containing Baby Foods
 
-This page is a structural scaffold for HMTc Category 1 row 11. Three fish, mercury, or baby-food sources have been promoted; finished-product fish baby-food datasets are still pending.
+This page is a structural scaffold for Category 1 row 11. Three fish, mercury, or baby-food sources have been promoted; finished-product fish baby-food datasets are still pending.
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Federal / Regulatory Limits vs Field Findings
+<span id="regulatory-match-status"></span>
 
-<!-- audience: regulator, educator, consumer, app -->
+## Standards Evidence Matrix
 
-This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
+<!-- audience: regulator, retailer, brand, legal, app -->
 
-| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]]: Federal FDA final action level: 10 ug/kg Pb. Scope: fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2. Basis: as sold or ready-to-eat as applicable. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Use as regulatory context only until product scope is confirmed. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
-| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods. Basis: product as placed on market. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | EU baby-food maximum level loaded; field-finding comparison blocked until fish-containing baby-food rows are extracted. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
-| [[metals/cadmium]] (Cd) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and processed cereal-based food for infants and young children. Basis: product as placed on market. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | EU baby-food maximum level loaded; field-finding comparison blocked until fish-containing baby-food rows are extracted. | [[regulations/eu-2023-915-cadmium]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+
+<p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
+
+<table class="hmi-standards-evidence-table">
+<thead>
+<tr>
+<th>Metal</th>
+<th>N</th>
+<th>Loaded source values</th>
+<th>Regulatory reference values</th>
+<th>Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td><ul class="hmi-compact-list"><li><strong>FDA:</strong> 10 ug/kg Pb; as sold or ready-to-eat as applicable; <a href="../regulations/fda2025-lead-processed-baby-foods" class="internal" data-slug="regulations/fda2025-lead-processed-baby-foods">FDA 2025 guidance</a></li><li><strong>EU:</strong> 20 ug/kg Pb; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li></ul></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fera2014-fsa-metals-infant-foods-formula" class="internal" data-slug="sources/fera2014-fsa-metals-infant-foods-formula">Fera 2014</a></li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td><ul class="hmi-compact-list"><li><strong>EU:</strong> 40 ug/kg Cd; as sold; <a href="../regulations/eu-2023-915-cadmium" class="internal" data-slug="regulations/eu-2023-915-cadmium">EU 2023-915</a></li></ul></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fera2014-fsa-metals-infant-foods-formula" class="internal" data-slug="sources/fera2014-fsa-metals-infant-foods-formula">Fera 2014</a></li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/mercury-methyl" class="internal" data-slug="metals/mercury-methyl">MeHg</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
+<td>No extracted source resource is attached yet.</td>
+</tr>
+</tbody>
+</table>
+
+## Standards Decision Matrix
+
+<!-- audience: regulator, retailer, brand, legal, app -->
+
+This matrix translates the product evidence into the decisions the page needs to support. It keeps HMTc standards calculations, regulatory references, operational QC, and legal defensibility separate so a visible limit is not mistaken for a finished HMTc standard.
+
+<table class="hmi-decision-matrix-table">
+<thead>
+<tr>
+<th>Decision lane</th>
+<th>Question this page should answer</th>
+<th>Current read</th>
+<th>Next action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>HMTc standards development</strong></td>
+<td>Build a defensible clean-subcategory standard only after source inclusion, product fit, metal species, basis, censoring, and confidence are resolved.</td>
+<td>No distribution-capable row is loaded for this product page yet. Standards matrix tracks 3 metal/species rows (Pb, Cd, and MeHg).</td>
+<td>Promote structured product-row values first; an HMTc standard cannot be selected from source coverage, a single study, or regulatory limits alone.</td>
+</tr>
+<tr>
+<td><strong>Retail/spec programs</strong></td>
+<td>See regulatory reference values beside the extracted evidence record, without treating either one as the other.</td>
+<td>3 regulatory reference values loaded (FDA and EU).</td>
+<td>Use the loaded FDA/EU values as jurisdiction-specific guardrails; keep basis, status, and analyte labels visible in any procurement spec.</td>
+</tr>
+<tr>
+<td><strong>Brand QC operations</strong></td>
+<td>Turn the evidence pool into a test plan: which metals, which product form, which lab basis, and what data fields must be captured.</td>
+<td>No structured measured-value rows are loaded yet; QC can only use the crosswalk narrative as a gap map.</td>
+<td>Match lab testing to the product row and metal species; capture sample count, LOD/LOQ, censoring, unit basis, and prepared-vs-as-sold handling.</td>
+</tr>
+<tr>
+<td><strong>Legal/claims defense</strong></td>
+<td>Separate evidence, standards work, and legal reference values so claims do not overstate comparability.</td>
+<td>No blocked comparison row is flagged in the loaded crosswalk.</td>
+<td>For any external claim, cite the source row and legal reference separately; when basis or species differ, state that no direct exceedance read is supported.</td>
+</tr>
+</tbody>
+</table>
+
+<details class="hmi-crosswalk-details">
+<summary>Scope details and evidence-use notes</summary>
+<ul>
+<li><strong>Pb:</strong> Limit scope: fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2. Basis: as sold or ready-to-eat as applicable. Comparison note: Regulatory applicability needs review because FDA row language does not isolate fish-containing baby foods. Use: Use as external context only until product-scope review.</li>
+<li><strong>Pb:</strong> Limit scope: baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods. Basis: product as placed on market. Comparison note: EU baby-food maximum level loaded; field-finding comparison blocked until fish-containing baby-food rows are extracted. Use: Use as external EU legal context; separate fish-ingredient mercury context belongs on the fish ingredient page.</li>
+<li><strong>Cd:</strong> Limit scope: baby food and processed cereal-based food for infants and young children. Basis: product as placed on market. Comparison note: EU baby-food maximum level loaded; field-finding comparison blocked until fish-containing baby-food rows are extracted. Use: Use as external EU legal context; separate fish-ingredient Cd context belongs on the fish ingredient page.</li>
+</ul>
+</details>
+
+
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -78,7 +165,7 @@ Public evidence label: **Modeled or limited evidence**.
 
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
-This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
+This page does not publish or justify certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 ## Scaffold Status
 

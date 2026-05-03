@@ -35,18 +35,105 @@ sources: 6
 
 # Teething & Snacks (Rice-Based)
 
-This page is a structural scaffold for HMTc Category 1 row 16. FDA compliance samples provide a very small rice-named snack subset and a broad grain-based snack context signal; broader rice/rice-mix baby-food, snack, and teething-biscuit sources remain important context.
+This page is a structural scaffold for Category 1 row 16. FDA compliance samples provide a very small rice-named snack subset and a broad grain-based snack context signal; broader rice/rice-mix baby-food, snack, and teething-biscuit sources remain important context.
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Federal / Regulatory Limits vs Field Findings
+<span id="regulatory-match-status"></span>
 
-<!-- audience: regulator, educator, consumer, app -->
+## Standards Evidence Matrix
 
-This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
+<!-- audience: regulator, retailer, brand, legal, app -->
 
-| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
-| --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 300 ug/kg iAs. Scope: rice waffles, rice wafers, rice crackers, rice cakes, rice flakes, and popped breakfast rice. Basis: product as placed on market. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Use as regulatory context only until product scope is confirmed. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+
+<p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
+
+<table class="hmi-standards-evidence-table">
+<thead>
+<tr>
+<th>Metal</th>
+<th>N</th>
+<th>Loaded source values</th>
+<th>Regulatory reference values</th>
+<th>Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
+<td>No extracted source resource is attached yet.</td>
+</tr>
+<tr>
+<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
+<td>No extracted source resource is attached yet.</td>
+</tr>
+<tr>
+<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td><ul class="hmi-compact-list"><li><strong>EU:</strong> 300 ug/kg iAs; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li></ul></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fera2014-fsa-metals-infant-foods-formula" class="internal" data-slug="sources/fera2014-fsa-metals-infant-foods-formula">Fera 2014</a></li></ul></td>
+</tr>
+</tbody>
+</table>
+
+## Standards Decision Matrix
+
+<!-- audience: regulator, retailer, brand, legal, app -->
+
+This matrix translates the product evidence into the decisions the page needs to support. It keeps HMTc standards calculations, regulatory references, operational QC, and legal defensibility separate so a visible limit is not mistaken for a finished HMTc standard.
+
+<table class="hmi-decision-matrix-table">
+<thead>
+<tr>
+<th>Decision lane</th>
+<th>Question this page should answer</th>
+<th>Current read</th>
+<th>Next action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>HMTc standards development</strong></td>
+<td>Build a defensible clean-subcategory standard only after source inclusion, product fit, metal species, basis, censoring, and confidence are resolved.</td>
+<td>No distribution-capable row is loaded for this product page yet. Standards matrix tracks 3 metal/species rows (iAs, Cd, and Pb).</td>
+<td>Promote structured product-row values first; an HMTc standard cannot be selected from source coverage, a single study, or regulatory limits alone.</td>
+</tr>
+<tr>
+<td><strong>Retail/spec programs</strong></td>
+<td>See regulatory reference values beside the extracted evidence record, without treating either one as the other.</td>
+<td>1 regulatory reference value loaded (EU).</td>
+<td>Use the loaded FDA/EU values as jurisdiction-specific guardrails; keep basis, status, and analyte labels visible in any procurement spec.</td>
+</tr>
+<tr>
+<td><strong>Brand QC operations</strong></td>
+<td>Turn the evidence pool into a test plan: which metals, which product form, which lab basis, and what data fields must be captured.</td>
+<td>No structured measured-value rows are loaded yet; QC can only use the crosswalk narrative as a gap map.</td>
+<td>Match lab testing to the product row and metal species; capture sample count, LOD/LOQ, censoring, unit basis, and prepared-vs-as-sold handling.</td>
+</tr>
+<tr>
+<td><strong>Legal/claims defense</strong></td>
+<td>Separate evidence, standards work, and legal reference values so claims do not overstate comparability.</td>
+<td>No blocked comparison row is flagged in the loaded crosswalk.</td>
+<td>For any external claim, cite the source row and legal reference separately; when basis or species differ, state that no direct exceedance read is supported.</td>
+</tr>
+</tbody>
+</table>
+
+<details class="hmi-crosswalk-details">
+<summary>Scope details and evidence-use notes</summary>
+<ul>
+<li><strong>iAs:</strong> Limit scope: rice waffles, rice wafers, rice crackers, rice cakes, rice flakes, and popped breakfast rice. Basis: product as placed on market. Comparison note: EU rice-product maximum level applies only to the named rice product forms; product split and iAs extraction are required before comparison. Use: Use as external EU legal context; avoid silent infant-rice-cereal substitution.</li>
+</ul>
+</details>
+
+
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -56,7 +143,7 @@ Public evidence label: **Modeled or limited evidence**.
 
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
-This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
+This page does not publish or justify certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 ## Scaffold Status
 
@@ -69,18 +156,18 @@ This page does not publish or justify HMT&C certification limits. Public Index p
 
 <!-- audience: regulator, educator, app -->
 
-The current source set does not yet support a rice-based snack p10/p90/p100 distribution. Gardener 2019 includes a snacks category and provides broad all-sample lead/cadmium percentiles, while the UK survey reports average sweet-and-savoury snack concentrations with notably higher arsenic, cadmium, lead, and nickel than many other infant-food categories. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] [[sources/fsa2016-infant-food-formula-metals-survey]]
+The current source set does not yet support a rice-based snack source percentile/max distribution. Gardener 2019 includes a snacks category and provides broad all-sample lead/cadmium percentiles, while the UK survey reports average sweet-and-savoury snack concentrations with notably higher arsenic, cadmium, lead, and nickel than many other infant-food categories. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
-| FDA explicit rice-named snack subset | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]] | FDA Grain-Based Snacks rows with rice named | tAs 2; Cd 2; Pb 2 | lower-bound p50, p90, max | tAs p50 96.3 ppb, p90/max 171 ppb; Cd p90/max 3.5 ppb; Pb p90/max 6.5 ppb | Small source-scope context only | Machine-extracted; rice-named subset is too small for row distribution use (`EF-3`). [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
-| FDA broad grain-based snack context | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Grain-Based Snacks rows where rice status is not isolated | tAs 91; Cd 91; Pb 91; tHg 28 | lower-bound p50, p90, p95, max | tAs p50 61 ppb, p90 224 ppb, p95 383 ppb, max 561 ppb; Cd p90 27 ppb, max 41 ppb; Pb p90 15 ppb, max 23.7 ppb; tHg p90 2.5 ppb, max 3.3 ppb | Context only | Rice status is not isolated; do not assign this distribution directly to rice-based or non-rice snacks. [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
-| UK snack category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average/range | 58 to 62 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
-| UK snack category average | [[metals/cadmium|Cadmium]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average | 24 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
-| UK snack category average | [[metals/lead|Lead]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average | 10 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
-| UK snack category average | [[metals/nickel|Nickel]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average | 292 ppb | Does not support p10/p90/p100 | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
-| All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad context only | All categories combined; snack-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
-| All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad context only | All categories combined; snack-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
+| FDA explicit rice-named snack subset | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]] | FDA Grain-Based Snacks rows with rice named | tAs 2; Cd 2; Pb 2 | lower-bound p50, upper-percentile, max | tAs p50 96.3 ppb, upper-percentile/max 171 ppb; Cd upper-percentile/max 3.5 ppb; Pb upper-percentile/max 6.5 ppb | Small source-scope context only | Machine-extracted; rice-named subset is too small for row distribution use (`EF-3`). [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
+| FDA broad grain-based snack context | [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], [[metals/lead|Lead]], [[metals/mercury-total|Total mercury]] | FDA Grain-Based Snacks rows where rice status is not isolated | tAs 91; Cd 91; Pb 91; tHg 28 | lower-bound p50, upper-percentile, p95, max | tAs p50 61 ppb, upper-percentile 224 ppb, p95 383 ppb, max 561 ppb; Cd upper-percentile 27 ppb, max 41 ppb; Pb upper-percentile 15 ppb, max 23.7 ppb; tHg upper-percentile 2.5 ppb, max 3.3 ppb | Context only | Rice status is not isolated; do not assign this distribution directly to rice-based or non-rice snacks. [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] |
+| UK snack category average | [[metals/arsenic-inorganic|Inorganic arsenic]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average/range | 58 to 62 ppb | Does not support source percentile/max | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK snack category average | [[metals/cadmium|Cadmium]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average | 24 ppb | Does not support source percentile/max | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK snack category average | [[metals/lead|Lead]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average | 10 ppb | Does not support source percentile/max | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| UK snack category average | [[metals/nickel|Nickel]] | Sweet and savoury snacks | 200 infant-food total; category n not reported | category average | 292 ppb | Does not support source percentile/max | Broad snack category; rice status not isolated. [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, upper-percentile, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; upper-percentile 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad context only | All categories combined; snack-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
+| All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, upper-percentile, p95, p99, max | p50 0 ppb; p75 5.60 ppb; upper-percentile 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad context only | All categories combined; snack-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 
 ## Measured Values And Concentration Evidence
 
@@ -90,8 +177,8 @@ Rice-based snack evidence combines broad snack data with rice-product arsenic ev
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
-| [[metals/arsenic-total|Total arsenic]] | FDA FY2009-FY2024 rice-named grain-based snack subset | p50 96.3 ppb; p90/max 171 ppb | p50 96.3 ppb; p90/max 171 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Only two rice-named snack rows; source reports As, not iAs. |
-| [[metals/arsenic-total|Total arsenic]] | FDA broad grain-based snack context, rice status not isolated | p50 61 ppb; p90 224 ppb; p95 383 ppb; max 561 ppb | p50 61 ppb; p90 224 ppb; p95 383 ppb; max 561 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Context only; cannot distinguish rice-based from non-rice snacks. |
+| [[metals/arsenic-total|Total arsenic]] | FDA FY2009-FY2024 rice-named grain-based snack subset | p50 96.3 ppb; upper-percentile/max 171 ppb | p50 96.3 ppb; upper-percentile/max 171 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Only two rice-named snack rows; source reports As, not iAs. |
+| [[metals/arsenic-total|Total arsenic]] | FDA broad grain-based snack context, rice status not isolated | p50 61 ppb; upper-percentile 224 ppb; p95 383 ppb; max 561 ppb | p50 61 ppb; upper-percentile 224 ppb; p95 383 ppb; max 561 ppb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Context only; cannot distinguish rice-based from non-rice snacks. |
 | [[metals/lead|Lead]] | FDA TDS baby food teething biscuits | 18 ug/kg hybrid mean | 18 ppb | [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Teething biscuit signal; rice status not specified. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | Rice products commonly eaten during weaning | up to 323 ug/kg | up to 323 ppb | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Secondary citation for baby rice/rice cereals/rice crackers. |
 | [[metals/arsenic-total|Total arsenic]] | UK sweet and savoury snacks | 98 ug/kg | 98 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Broad snack category; likely relevant to rice snacks but not isolated. |

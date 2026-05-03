@@ -1,0 +1,571 @@
+SOURCE ID: fsa2016-infant-food-formula-metals-survey
+SOURCE TITLE: Survey of metals in commercial infant foods, infant formula and non-infant specific foods
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: raw/studies/FS102048 Infants metal survey FSIS pdf version.pdf
+METALS DECLARED: [Al, Sb, tAs, iAs, Cd, Cr, Cu, I, Fe, Pb, Mn, tHg, Ni, Se, Sn, Zn]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 1-3 ---
+    1 | Survey of metals and other elements in commercial infant foods,
+    2 | infant formula and non-infant specific foods
+    3 | The following technical reports will be published with the food safety information sheet. They
+
+--- lines 1-4 ---
+    1 | Survey of metals and other elements in commercial infant foods,
+    2 | infant formula and non-infant specific foods
+    3 | The following technical reports will be published with the food safety information sheet. They
+    4 | provide further information on the analytical method used, tabulate the analytical results and
+
+--- lines 1-5 ---
+    1 | Survey of metals and other elements in commercial infant foods,
+    2 | infant formula and non-infant specific foods
+    3 | The following technical reports will be published with the food safety information sheet. They
+    4 | provide further information on the analytical method used, tabulate the analytical results and
+    5 | describe the sampling plan used for this survey.
+
+--- lines 2-6 ---
+    2 | infant formula and non-infant specific foods
+    3 | The following technical reports will be published with the food safety information sheet. They
+    4 | provide further information on the analytical method used, tabulate the analytical results and
+    5 | describe the sampling plan used for this survey.
+    6 | 
+
+--- lines 3-7 ---
+    3 | The following technical reports will be published with the food safety information sheet. They
+    4 | provide further information on the analytical method used, tabulate the analytical results and
+    5 | describe the sampling plan used for this survey.
+    6 | 
+    7 | Analytical report
+
+--- lines 5-9 ---
+    5 | describe the sampling plan used for this survey.
+    6 | 
+    7 | Analytical report
+    8 | 
+    9 | Survey of metals in commercial infant foods, infant formula and non-infant specific foods. Report
+
+--- lines 7-11 ---
+    7 | Analytical report
+    8 | 
+    9 | Survey of metals in commercial infant foods, infant formula and non-infant specific foods. Report
+   10 | for the UK Food Standards Agency (FS102048), Fera.
+   11 | 
+
+--- lines 8-12 ---
+    8 | 
+    9 | Survey of metals in commercial infant foods, infant formula and non-infant specific foods. Report
+   10 | for the UK Food Standards Agency (FS102048), Fera.
+   11 | 
+   12 | Sampling method report
+
+--- lines 10-14 ---
+   10 | for the UK Food Standards Agency (FS102048), Fera.
+   11 | 
+   12 | Sampling method report
+   13 | 
+   14 | Survey of metals in commercial infant foods, infant formula and non-infant specific foods, Hallmark
+
+--- lines 12-16 ---
+   12 | Sampling method report
+   13 | 
+   14 | Survey of metals in commercial infant foods, infant formula and non-infant specific foods, Hallmark
+   15 | Meat Hygiene.
+   16 | 
+
+--- lines 13-17 ---
+   13 | 
+   14 | Survey of metals in commercial infant foods, infant formula and non-infant specific foods, Hallmark
+   15 | Meat Hygiene.
+   16 | 
+   17 | Executive Summary
+
+--- lines 15-19 ---
+   15 | Meat Hygiene.
+   16 | 
+   17 | Executive Summary
+   18 | 
+   19 |    1. The Food Standards Agency (FSA) commissioned in 2013 a survey of fifteen metals, and other
+
+--- lines 17-21 ---
+   17 | Executive Summary
+   18 | 
+   19 |    1. The Food Standards Agency (FSA) commissioned in 2013 a survey of fifteen metals, and other
+   20 |       elements in a selection of ready-to-feed infant formula, dry infant formula, commercial infant
+   21 |       foods and foods consumed by both infants and adults such as bread and bananas.
+
+--- lines 18-22 ---
+   18 | 
+   19 |    1. The Food Standards Agency (FSA) commissioned in 2013 a survey of fifteen metals, and other
+   20 |       elements in a selection of ready-to-feed infant formula, dry infant formula, commercial infant
+   21 |       foods and foods consumed by both infants and adults such as bread and bananas.
+   22 |    2. The survey was designed to assess the risk to infant and young children’s health from dietary
+
+--- lines 19-23 ---
+   19 |    1. The Food Standards Agency (FSA) commissioned in 2013 a survey of fifteen metals, and other
+   20 |       elements in a selection of ready-to-feed infant formula, dry infant formula, commercial infant
+   21 |       foods and foods consumed by both infants and adults such as bread and bananas.
+   22 |    2. The survey was designed to assess the risk to infant and young children’s health from dietary
+   23 |       exposure to these elements. The FSA completed similar surveys in 2003 and 2006.
+
+--- lines 20-24 ---
+   20 |       elements in a selection of ready-to-feed infant formula, dry infant formula, commercial infant
+   21 |       foods and foods consumed by both infants and adults such as bread and bananas.
+   22 |    2. The survey was designed to assess the risk to infant and young children’s health from dietary
+   23 |       exposure to these elements. The FSA completed similar surveys in 2003 and 2006.
+   24 |    3. The toxicological risk assessments showed that eleven of the elements did not pose a health
+
+--- lines 21-25 ---
+   21 |       foods and foods consumed by both infants and adults such as bread and bananas.
+   22 |    2. The survey was designed to assess the risk to infant and young children’s health from dietary
+   23 |       exposure to these elements. The FSA completed similar surveys in 2003 and 2006.
+   24 |    3. The toxicological risk assessments showed that eleven of the elements did not pose a health
+   25 |       concern.
+
+--- lines 22-26 ---
+   22 |    2. The survey was designed to assess the risk to infant and young children’s health from dietary
+   23 |       exposure to these elements. The FSA completed similar surveys in 2003 and 2006.
+   24 |    3. The toxicological risk assessments showed that eleven of the elements did not pose a health
+   25 |       concern.
+   26 |    4. For a small proportion of the infants and young children population consuming the highest
+
+--- lines 24-28 ---
+   24 |    3. The toxicological risk assessments showed that eleven of the elements did not pose a health
+   25 |       concern.
+   26 |    4. For a small proportion of the infants and young children population consuming the highest
+   27 |       levels of the foods tested, there was a small risk to health from dietary exposure to inorganic
+   28 |       arsenic.
+
+--- lines 25-29 ---
+   25 |       concern.
+   26 |    4. For a small proportion of the infants and young children population consuming the highest
+   27 |       levels of the foods tested, there was a small risk to health from dietary exposure to inorganic
+   28 |       arsenic.
+   29 |    5. The dietary exposure levels for lead were not a cause for concern. However, total lead
+
+--- lines 26-30 ---
+   26 |    4. For a small proportion of the infants and young children population consuming the highest
+   27 |       levels of the foods tested, there was a small risk to health from dietary exposure to inorganic
+   28 |       arsenic.
+   29 |    5. The dietary exposure levels for lead were not a cause for concern. However, total lead
+   30 |       exposure, when considering the contribution from soil and dust in the environment may
+
+--- lines 27-31 ---
+   27 |       levels of the foods tested, there was a small risk to health from dietary exposure to inorganic
+   28 |       arsenic.
+   29 |    5. The dietary exposure levels for lead were not a cause for concern. However, total lead
+   30 |       exposure, when considering the contribution from soil and dust in the environment may
+   31 |       represent a small risk to health. People are exposed to lead through food, drinking water, air,
+
+--- lines 28-32 ---
+   28 |       arsenic.
+   29 |    5. The dietary exposure levels for lead were not a cause for concern. However, total lead
+   30 |       exposure, when considering the contribution from soil and dust in the environment may
+   31 |       represent a small risk to health. People are exposed to lead through food, drinking water, air,
+   32 |       soil and dust. Food and water are the major sources of exposure to lead, although for infants
+
+--- lines 29-33 ---
+   29 |    5. The dietary exposure levels for lead were not a cause for concern. However, total lead
+   30 |       exposure, when considering the contribution from soil and dust in the environment may
+   31 |       represent a small risk to health. People are exposed to lead through food, drinking water, air,
+   32 |       soil and dust. Food and water are the major sources of exposure to lead, although for infants
+   33 |       and young children, ingestion of soil and dust can also be an important contribution. Exposure
+
+--- lines 30-34 ---
+   30 |       exposure, when considering the contribution from soil and dust in the environment may
+   31 |       represent a small risk to health. People are exposed to lead through food, drinking water, air,
+   32 |       soil and dust. Food and water are the major sources of exposure to lead, although for infants
+   33 |       and young children, ingestion of soil and dust can also be an important contribution. Exposure
+   34 |       to lead in the UK has decreased substantially over recent decades.
+
+--- lines 31-35 ---
+   31 |       represent a small risk to health. People are exposed to lead through food, drinking water, air,
+   32 |       soil and dust. Food and water are the major sources of exposure to lead, although for infants
+   33 |       and young children, ingestion of soil and dust can also be an important contribution. Exposure
+   34 |       to lead in the UK has decreased substantially over recent decades.
+   35 |    6. The small exceedance for cadmium was not a cause for concern. The health based guidance
+
+--- lines 32-36 ---
+   32 |       soil and dust. Food and water are the major sources of exposure to lead, although for infants
+   33 |       and young children, ingestion of soil and dust can also be an important contribution. Exposure
+   34 |       to lead in the UK has decreased substantially over recent decades.
+   35 |    6. The small exceedance for cadmium was not a cause for concern. The health based guidance
+   36 |       value (HBGV) was set in the context of 50 years of bio-accumulative exposure to cadmium and
+
+--- lines 33-37 ---
+   33 |       and young children, ingestion of soil and dust can also be an important contribution. Exposure
+   34 |       to lead in the UK has decreased substantially over recent decades.
+   35 |    6. The small exceedance for cadmium was not a cause for concern. The health based guidance
+   36 |       value (HBGV) was set in the context of 50 years of bio-accumulative exposure to cadmium and
+   37 |       infants because of their lower bodyweight tend to have higher dietary exposures compared
+
+--- lines 34-38 ---
+   34 |       to lead in the UK has decreased substantially over recent decades.
+   35 |    6. The small exceedance for cadmium was not a cause for concern. The health based guidance
+   36 |       value (HBGV) was set in the context of 50 years of bio-accumulative exposure to cadmium and
+   37 |       infants because of their lower bodyweight tend to have higher dietary exposures compared
+   38 |       to older age groups.
+
+--- lines 35-39 ---
+   35 |    6. The small exceedance for cadmium was not a cause for concern. The health based guidance
+   36 |       value (HBGV) was set in the context of 50 years of bio-accumulative exposure to cadmium and
+   37 |       infants because of their lower bodyweight tend to have higher dietary exposures compared
+   38 |       to older age groups.
+   39 |    7. An assessment of manganese is to follow and will be published on the Committee on Toxicity
+
+--- lines 37-41 ---
+   37 |       infants because of their lower bodyweight tend to have higher dietary exposures compared
+   38 |       to older age groups.
+   39 |    7. An assessment of manganese is to follow and will be published on the Committee on Toxicity
+   40 |       of Chemicals in Food, Consumer Products and the Environment (COT) website
+   41 |    8. The dietary exposure data from this survey have been used by the FSA to calculate robust and
+
+--- lines 38-42 ---
+   38 |       to older age groups.
+   39 |    7. An assessment of manganese is to follow and will be published on the Committee on Toxicity
+   40 |       of Chemicals in Food, Consumer Products and the Environment (COT) website
+   41 |    8. The dietary exposure data from this survey have been used by the FSA to calculate robust and
+   42 |       up to date risk assessments for the general population, in addition to infants and young
+
+--- lines 39-43 ---
+   39 |    7. An assessment of manganese is to follow and will be published on the Committee on Toxicity
+   40 |       of Chemicals in Food, Consumer Products and the Environment (COT) website
+   41 |    8. The dietary exposure data from this survey have been used by the FSA to calculate robust and
+   42 |       up to date risk assessments for the general population, in addition to infants and young
+   43 |       children.
+
+--- lines 40-44 ---
+   40 |       of Chemicals in Food, Consumer Products and the Environment (COT) website
+   41 |    8. The dietary exposure data from this survey have been used by the FSA to calculate robust and
+   42 |       up to date risk assessments for the general population, in addition to infants and young
+   43 |       children.
+   44 |    9. The COT considered the toxicity of chemicals in the diet of infants and young children, to
+
+--- lines 41-45 ---
+   41 |    8. The dietary exposure data from this survey have been used by the FSA to calculate robust and
+   42 |       up to date risk assessments for the general population, in addition to infants and young
+   43 |       children.
+   44 |    9. The COT considered the toxicity of chemicals in the diet of infants and young children, to
+   45 |       support the review conducted by the Scientific Advisory Committee on Nutrition (SACN) of
+
+--- lines 42-46 ---
+   42 |       up to date risk assessments for the general population, in addition to infants and young
+   43 |       children.
+   44 |    9. The COT considered the toxicity of chemicals in the diet of infants and young children, to
+   45 |       support the review conducted by the Scientific Advisory Committee on Nutrition (SACN) of
+   46 |         Government recommendations on complementary and young child feeding. The results from
+
+--- lines 43-47 ---
+   43 |       children.
+   44 |    9. The COT considered the toxicity of chemicals in the diet of infants and young children, to
+   45 |       support the review conducted by the Scientific Advisory Committee on Nutrition (SACN) of
+   46 |         Government recommendations on complementary and young child feeding. The results from
+   47 |         this survey have been used extensively by COT to inform its deliberations.
+
+--- lines 44-48 ---
+   44 |    9. The COT considered the toxicity of chemicals in the diet of infants and young children, to
+   45 |       support the review conducted by the Scientific Advisory Committee on Nutrition (SACN) of
+   46 |         Government recommendations on complementary and young child feeding. The results from
+   47 |         this survey have been used extensively by COT to inform its deliberations.
+   48 |     10. All the samples tested were compliant with food safety legislation. There were no maximum
+
+--- lines 45-49 ---
+   45 |       support the review conducted by the Scientific Advisory Committee on Nutrition (SACN) of
+   46 |         Government recommendations on complementary and young child feeding. The results from
+   47 |         this survey have been used extensively by COT to inform its deliberations.
+   48 |     10. All the samples tested were compliant with food safety legislation. There were no maximum
+   49 |         limits for inorganic arsenic in force when the samples were collected in 2013 and 2014. The
+
+--- lines 46-50 ---
+   46 |         Government recommendations on complementary and young child feeding. The results from
+   47 |         this survey have been used extensively by COT to inform its deliberations.
+   48 |     10. All the samples tested were compliant with food safety legislation. There were no maximum
+   49 |         limits for inorganic arsenic in force when the samples were collected in 2013 and 2014. The
+   50 |         maximum limit of 0.10 mg/kg for inorganic arsenic in rice used to produce food for infants and
+
+--- lines 47-51 ---
+   47 |         this survey have been used extensively by COT to inform its deliberations.
+   48 |     10. All the samples tested were compliant with food safety legislation. There were no maximum
+   49 |         limits for inorganic arsenic in force when the samples were collected in 2013 and 2014. The
+   50 |         maximum limit of 0.10 mg/kg for inorganic arsenic in rice used to produce food for infants and
+   51 |         young children, was added to Commission Regulation (EC) No 1881/2006 of 19 December
+
+--- lines 48-52 ---
+   48 |     10. All the samples tested were compliant with food safety legislation. There were no maximum
+   49 |         limits for inorganic arsenic in force when the samples were collected in 2013 and 2014. The
+   50 |         maximum limit of 0.10 mg/kg for inorganic arsenic in rice used to produce food for infants and
+   51 |         young children, was added to Commission Regulation (EC) No 1881/2006 of 19 December
+   52 |         2006 setting maximum levels for certain contaminants in foodstuffs, which applied to foods
+
+--- lines 49-53 ---
+   49 |         limits for inorganic arsenic in force when the samples were collected in 2013 and 2014. The
+   50 |         maximum limit of 0.10 mg/kg for inorganic arsenic in rice used to produce food for infants and
+   51 |         young children, was added to Commission Regulation (EC) No 1881/2006 of 19 December
+   52 |         2006 setting maximum levels for certain contaminants in foodstuffs, which applied to foods
+   53 |         from the 1st January 2016.
+
+--- lines 50-54 ---
+   50 |         maximum limit of 0.10 mg/kg for inorganic arsenic in rice used to produce food for infants and
+   51 |         young children, was added to Commission Regulation (EC) No 1881/2006 of 19 December
+   52 |         2006 setting maximum levels for certain contaminants in foodstuffs, which applied to foods
+   53 |         from the 1st January 2016.
+   54 |     11. The survey was carried out in 2013 and 2014 and product specifications and market share
+
+--- lines 52-56 ---
+   52 |         2006 setting maximum levels for certain contaminants in foodstuffs, which applied to foods
+   53 |         from the 1st January 2016.
+   54 |     11. The survey was carried out in 2013 and 2014 and product specifications and market share
+   55 |         have inevitably changed since.
+   56 | 
+
+--- lines 53-57 ---
+   53 |         from the 1st January 2016.
+   54 |     11. The survey was carried out in 2013 and 2014 and product specifications and market share
+   55 |         have inevitably changed since.
+   56 | 
+   57 | Introduction
+
+--- lines 55-59 ---
+   55 |         have inevitably changed since.
+   56 | 
+   57 | Introduction
+   58 | 
+   59 |     1. The FSA looked at the levels of 15 metals and other elements in a variety of foods eaten by
+
+--- lines 57-61 ---
+   57 | Introduction
+   58 | 
+   59 |     1. The FSA looked at the levels of 15 metals and other elements in a variety of foods eaten by
+   60 |        infants and young children to investigate the risk to health from exposure in the diet.
+   61 |     2. The survey commissioned in 2013 considered fifteen metals and other elements in a selection
+
+--- lines 58-62 ---
+   58 | 
+   59 |     1. The FSA looked at the levels of 15 metals and other elements in a variety of foods eaten by
+   60 |        infants and young children to investigate the risk to health from exposure in the diet.
+   61 |     2. The survey commissioned in 2013 considered fifteen metals and other elements in a selection
+   62 |        of ready to feed infant formula, dry infant formula, commercial infant foods and ‘other’ foods.
+
+--- lines 59-63 ---
+   59 |     1. The FSA looked at the levels of 15 metals and other elements in a variety of foods eaten by
+   60 |        infants and young children to investigate the risk to health from exposure in the diet.
+   61 |     2. The survey commissioned in 2013 considered fifteen metals and other elements in a selection
+   62 |        of ready to feed infant formula, dry infant formula, commercial infant foods and ‘other’ foods.
+   63 |        The latter are foods consumed by adults but which also appear in the diets of infants and
+
+--- lines 60-64 ---
+   60 |        infants and young children to investigate the risk to health from exposure in the diet.
+   61 |     2. The survey commissioned in 2013 considered fifteen metals and other elements in a selection
+   62 |        of ready to feed infant formula, dry infant formula, commercial infant foods and ‘other’ foods.
+   63 |        The latter are foods consumed by adults but which also appear in the diets of infants and
+   64 |        young children.
+
+--- lines 61-65 ---
+   61 |     2. The survey commissioned in 2013 considered fifteen metals and other elements in a selection
+   62 |        of ready to feed infant formula, dry infant formula, commercial infant foods and ‘other’ foods.
+   63 |        The latter are foods consumed by adults but which also appear in the diets of infants and
+   64 |        young children.
+   65 |     3. Previous FSA surveys of infant formula and weaning foods were completed in 2003 1 and
+
+--- lines 62-66 ---
+   62 |        of ready to feed infant formula, dry infant formula, commercial infant foods and ‘other’ foods.
+   63 |        The latter are foods consumed by adults but which also appear in the diets of infants and
+   64 |        young children.
+   65 |     3. Previous FSA surveys of infant formula and weaning foods were completed in 2003 1 and
+   66 |        20062.
+
+--- lines 63-67 ---
+   63 |        The latter are foods consumed by adults but which also appear in the diets of infants and
+   64 |        young children.
+   65 |     3. Previous FSA surveys of infant formula and weaning foods were completed in 2003 1 and
+   66 |        20062.
+   67 |     4. The survey looked at the following elements: aluminium, antimony, arsenic (total and
+
+--- lines 65-69 ---
+   65 |     3. Previous FSA surveys of infant formula and weaning foods were completed in 2003 1 and
+   66 |        20062.
+   67 |     4. The survey looked at the following elements: aluminium, antimony, arsenic (total and
+   68 |        inorganic species) cadmium, chromium, copper, iodine, iron, lead, manganese, mercury,
+   69 |        nickel, selenium, tin and zinc. The sampling plan included 47 samples of infant formula, 200
+
+--- lines 66-70 ---
+   66 |        20062.
+   67 |     4. The survey looked at the following elements: aluminium, antimony, arsenic (total and
+   68 |        inorganic species) cadmium, chromium, copper, iodine, iron, lead, manganese, mercury,
+   69 |        nickel, selenium, tin and zinc. The sampling plan included 47 samples of infant formula, 200
+   70 |        samples of commercial infant foods and 50 composite samples of ‘other’ foods.
+
+--- lines 67-71 ---
+   67 |     4. The survey looked at the following elements: aluminium, antimony, arsenic (total and
+   68 |        inorganic species) cadmium, chromium, copper, iodine, iron, lead, manganese, mercury,
+   69 |        nickel, selenium, tin and zinc. The sampling plan included 47 samples of infant formula, 200
+   70 |        samples of commercial infant foods and 50 composite samples of ‘other’ foods.
+   71 | 
+
+--- lines 68-72 ---
+   68 |        inorganic species) cadmium, chromium, copper, iodine, iron, lead, manganese, mercury,
+   69 |        nickel, selenium, tin and zinc. The sampling plan included 47 samples of infant formula, 200
+   70 |        samples of commercial infant foods and 50 composite samples of ‘other’ foods.
+   71 | 
+   72 | Background
+
+--- lines 72-76 ---
+   72 | Background
+   73 | 
+   74 |     5. Dietary exposure assessments for the general population cannot be accurately extended to
+   75 |        include infants, as they consume a diet that is different in many ways to that of adults or older
+   76 |        children. In the early stages of weaning, the infant diet is made up almost entirely of breast
+
+--- lines 73-77 ---
+   73 | 
+   74 |     5. Dietary exposure assessments for the general population cannot be accurately extended to
+   75 |        include infants, as they consume a diet that is different in many ways to that of adults or older
+   76 |        children. In the early stages of weaning, the infant diet is made up almost entirely of breast
+   77 |        milk and/or commercial infant formula, and when weaning foods are given, a large proportion
+
+--- lines 74-78 ---
+   74 |     5. Dietary exposure assessments for the general population cannot be accurately extended to
+   75 |        include infants, as they consume a diet that is different in many ways to that of adults or older
+   76 |        children. In the early stages of weaning, the infant diet is made up almost entirely of breast
+   77 |        milk and/or commercial infant formula, and when weaning foods are given, a large proportion
+   78 |        may be commercially available infant foods or foods marketed at infants and young children.
+
+--- lines 75-79 ---
+   75 |        include infants, as they consume a diet that is different in many ways to that of adults or older
+   76 |        children. In the early stages of weaning, the infant diet is made up almost entirely of breast
+   77 |        milk and/or commercial infant formula, and when weaning foods are given, a large proportion
+   78 |        may be commercially available infant foods or foods marketed at infants and young children.
+   79 |     6. The range of commercial infant foods is constantly growing and changing so it is important
+
+--- lines 76-80 ---
+   76 |        children. In the early stages of weaning, the infant diet is made up almost entirely of breast
+   77 |        milk and/or commercial infant formula, and when weaning foods are given, a large proportion
+   78 |        may be commercially available infant foods or foods marketed at infants and young children.
+   79 |     6. The range of commercial infant foods is constantly growing and changing so it is important
+   80 |        that the FSA obtains up to date information on exposure levels.
+
+--- lines 77-81 ---
+   77 |        milk and/or commercial infant formula, and when weaning foods are given, a large proportion
+   78 |        may be commercially available infant foods or foods marketed at infants and young children.
+   79 |     6. The range of commercial infant foods is constantly growing and changing so it is important
+   80 |        that the FSA obtains up to date information on exposure levels.
+   81 |     7. The COT was asked by the SACN to review the risk to health from chemicals in the diet of
+
+--- lines 78-82 ---
+   78 |        may be commercially available infant foods or foods marketed at infants and young children.
+   79 |     6. The range of commercial infant foods is constantly growing and changing so it is important
+   80 |        that the FSA obtains up to date information on exposure levels.
+   81 |     7. The COT was asked by the SACN to review the risk to health from chemicals in the diet of
+   82 |        infants (aged 0-12 months) and young children (aged 1-5 years). The results from this survey
+
+--- lines 79-83 ---
+   79 |     6. The range of commercial infant foods is constantly growing and changing so it is important
+   80 |        that the FSA obtains up to date information on exposure levels.
+   81 |     7. The COT was asked by the SACN to review the risk to health from chemicals in the diet of
+   82 |        infants (aged 0-12 months) and young children (aged 1-5 years). The results from this survey
+   83 |        have been used to produce dietary exposure estimates to inform the COT deliberations.
+
+--- lines 80-84 ---
+   80 |        that the FSA obtains up to date information on exposure levels.
+   81 |     7. The COT was asked by the SACN to review the risk to health from chemicals in the diet of
+   82 |        infants (aged 0-12 months) and young children (aged 1-5 years). The results from this survey
+   83 |        have been used to produce dietary exposure estimates to inform the COT deliberations.
+   84 | 
+
+--- lines 81-85 ---
+   81 |     7. The COT was asked by the SACN to review the risk to health from chemicals in the diet of
+   82 |        infants (aged 0-12 months) and young children (aged 1-5 years). The results from this survey
+   83 |        have been used to produce dietary exposure estimates to inform the COT deliberations.
+   84 | 
+   85 | 
+
+--- lines 86-90 ---
+   86 | 
+   87 | 1
+   88 |   Multi element survey of infant foods, September 2003,
+   89 | http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsis2003/fsis422
+   90 | 003
+
+--- lines 87-91 ---
+   87 | 1
+   88 |   Multi element survey of infant foods, September 2003,
+   89 | http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsis2003/fsis422
+   90 | 003
+   91 | 2
+
+--- lines 90-94 ---
+   90 | 003
+   91 | 2
+   92 |   Survey of metals in weaning foods and formulae for infants, September 2006,
+   93 | http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsisbranch2006/f
+   94 | sis1706
+
+--- lines 91-95 ---
+   91 | 2
+   92 |   Survey of metals in weaning foods and formulae for infants, September 2006,
+   93 | http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsisbranch2006/f
+   94 | sis1706
+   95 | Methodology
+
+--- lines 92-96 ---
+   92 |   Survey of metals in weaning foods and formulae for infants, September 2006,
+   93 | http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsisbranch2006/f
+   94 | sis1706
+   95 | Methodology
+   96 | 
+
+--- lines 95-99 ---
+   95 | Methodology
+   96 | 
+   97 | Sampling plan
+   98 | 
+   99 |       8. Hallmark Meat Hygiene3 purchased 47 samples of powdered and ready-to-feed infant formula
+
+--- lines 97-101 ---
+   97 | Sampling plan
+   98 | 
+   99 |       8. Hallmark Meat Hygiene3 purchased 47 samples of powdered and ready-to-feed infant formula
+  100 |          (including follow-on formula and growing up milks), 200 samples of commercial infant foods,
+  101 |          and 50 samples of ‘other’ foods, from retail outlets distributed throughout the UK during 2013
+
+--- lines 98-102 ---
+   98 | 
+   99 |       8. Hallmark Meat Hygiene3 purchased 47 samples of powdered and ready-to-feed infant formula
+  100 |          (including follow-on formula and growing up milks), 200 samples of commercial infant foods,
+  101 |          and 50 samples of ‘other’ foods, from retail outlets distributed throughout the UK during 2013
+  102 |          and 2014. All samples were prepared and tested as sold. Dry powdered infant formula and
+
+--- lines 99-103 ---
+   99 |       8. Hallmark Meat Hygiene3 purchased 47 samples of powdered and ready-to-feed infant formula
+  100 |          (including follow-on formula and growing up milks), 200 samples of commercial infant foods,
+  101 |          and 50 samples of ‘other’ foods, from retail outlets distributed throughout the UK during 2013
+  102 |          and 2014. All samples were prepared and tested as sold. Dry powdered infant formula and
+  103 |          dried cereal products such as baby rice were not reconstituted prior to testing. Sample
+
+--- lines 100-104 ---
+  100 |          (including follow-on formula and growing up milks), 200 samples of commercial infant foods,
+  101 |          and 50 samples of ‘other’ foods, from retail outlets distributed throughout the UK during 2013
+  102 |          and 2014. All samples were prepared and tested as sold. Dry powdered infant formula and
+  103 |          dried cereal products such as baby rice were not reconstituted prior to testing. Sample
+  104 |          selection for the other foods category was based on likely contribution to the infant diet, as
+
+--- lines 101-105 ---
+  101 |          and 50 samples of ‘other’ foods, from retail outlets distributed throughout the UK during 2013
+  102 |          and 2014. All samples were prepared and tested as sold. Dry powdered infant formula and
+  103 |          dried cereal products such as baby rice were not reconstituted prior to testing. Sample
+  104 |          selection for the other foods category was based on likely contribution to the infant diet, as
+  105 |          recorded in the diet and nutrition survey of infants and young children, 2011, (DNSIYC)4
+
+--- lines 102-106 ---
+  102 |          and 2014. All samples were prepared and tested as sold. Dry powdered infant formula and
+  103 |          dried cereal products such as baby rice were not reconstituted prior to testing. Sample
+  104 |          selection for the other foods category was based on likely contribution to the infant diet, as
+  105 |          recorded in the diet and nutrition survey of infants and young children, 2011, (DNSIYC)4
+  106 | 

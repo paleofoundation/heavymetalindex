@@ -42,7 +42,7 @@ const pageChecks = [
   },
   ...productSlugs.map((slug) => ({
     url: `${baseUrl}/products/${slug}`,
-    mustContain: "Federal / Regulatory Limits vs Field Findings",
+    mustContain: "Standards Evidence Matrix",
   })),
 ];
 

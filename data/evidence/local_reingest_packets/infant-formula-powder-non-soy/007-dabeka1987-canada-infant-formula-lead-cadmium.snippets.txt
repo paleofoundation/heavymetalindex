@@ -1,0 +1,574 @@
+SOURCE ID: dabeka1987-canada-infant-formula-lead-cadmium
+SOURCE TITLE: Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: raw/studies/dabeka1987.pdf
+METALS DECLARED: [Pb, Cd]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 2-6 ---
+    2 | 
+    3 | 
+    4 | Lead, Cadmium, and Fluoride Levels in Market Milk and Infant Formulas in Canada
+    5 | 
+    6 | ROBERT W. DABEKA and ARTHUR D. McKENZIE
+
+--- lines 8-12 ---
+    8 | Ottawa, Ontario K1A 0L2, Canada
+    9 | 
+   10 | Lead, cadmium, and fluoride were determined in 68 samples of mar-           eluded ready-to-use, concentrated liquid, powder, evapo-
+   11 | ket milk and about 115 infant formulas. Mean and median levels              rated milk, water containing either electrolytes or glucose,
+   12 | (ranges) in ng/g found for cow milk were as follows: lead, 1.12, 1.19       and glass-bottled formulas prepared commercially for use in
+
+--- lines 9-13 ---
+    9 | 
+   10 | Lead, cadmium, and fluoride were determined in 68 samples of mar-           eluded ready-to-use, concentrated liquid, powder, evapo-
+   11 | ket milk and about 115 infant formulas. Mean and median levels              rated milk, water containing either electrolytes or glucose,
+   12 | (ranges) in ng/g found for cow milk were as follows: lead, 1.12, 1.19       and glass-bottled formulas prepared commercially for use in
+   13 | (0.01-2.48); cadmium, 0.10, 0.039 (0.005-0.74); and fluoride, 41, 40        hospitals. Additional powdered formulas were purchased in
+
+--- lines 10-14 ---
+   10 | Lead, cadmium, and fluoride were determined in 68 samples of mar-           eluded ready-to-use, concentrated liquid, powder, evapo-
+   11 | ket milk and about 115 infant formulas. Mean and median levels              rated milk, water containing either electrolytes or glucose,
+   12 | (ranges) in ng/g found for cow milk were as follows: lead, 1.12, 1.19       and glass-bottled formulas prepared commercially for use in
+   13 | (0.01-2.48); cadmium, 0.10, 0.039 (0.005-0.74); and fluoride, 41, 40        hospitals. Additional powdered formulas were purchased in
+   14 | (7-86). In canned, ready-to-use formulas, lead, cadmium, and fluoride       late 1985.
+
+--- lines 11-15 ---
+   11 | ket milk and about 115 infant formulas. Mean and median levels              rated milk, water containing either electrolytes or glucose,
+   12 | (ranges) in ng/g found for cow milk were as follows: lead, 1.12, 1.19       and glass-bottled formulas prepared commercially for use in
+   13 | (0.01-2.48); cadmium, 0.10, 0.039 (0.005-0.74); and fluoride, 41, 40        hospitals. Additional powdered formulas were purchased in
+   14 | (7-86). In canned, ready-to-use formulas, lead, cadmium, and fluoride       late 1985.
+   15 | levels averaged 37.3,1.50, and 840 ng/g, respectively. In concentrated
+
+--- lines 12-16 ---
+   12 | (ranges) in ng/g found for cow milk were as follows: lead, 1.12, 1.19       and glass-bottled formulas prepared commercially for use in
+   13 | (0.01-2.48); cadmium, 0.10, 0.039 (0.005-0.74); and fluoride, 41, 40        hospitals. Additional powdered formulas were purchased in
+   14 | (7-86). In canned, ready-to-use formulas, lead, cadmium, and fluoride       late 1985.
+   15 | levels averaged 37.3,1.50, and 840 ng/g, respectively. In concentrated
+   16 | liquid formulas, the respective levels were 21, 3.54, and 600 ng/g. In         Numerical differences in the number of samples analyzed
+
+--- lines 14-18 ---
+   14 | (7-86). In canned, ready-to-use formulas, lead, cadmium, and fluoride       late 1985.
+   15 | levels averaged 37.3,1.50, and 840 ng/g, respectively. In concentrated
+   16 | liquid formulas, the respective levels were 21, 3.54, and 600 ng/g. In         Numerical differences in the number of samples analyzed
+   17 | powder formula concentrates, respective levels were 73.7, 6.78, and         for the different elements were due primarily to sampling
+   18 | 1130 ng/g. On the basis of this study and literature data, lead levels      differences for the methods used. In one analytical series,
+
+--- lines 15-19 ---
+   15 | levels averaged 37.3,1.50, and 840 ng/g, respectively. In concentrated
+   16 | liquid formulas, the respective levels were 21, 3.54, and 600 ng/g. In         Numerical differences in the number of samples analyzed
+   17 | powder formula concentrates, respective levels were 73.7, 6.78, and         for the different elements were due primarily to sampling
+   18 | 1130 ng/g. On the basis of this study and literature data, lead levels      differences for the methods used. In one analytical series,
+   19 | 
+
+--- lines 16-20 ---
+   16 | liquid formulas, the respective levels were 21, 3.54, and 600 ng/g. In         Numerical differences in the number of samples analyzed
+   17 | powder formula concentrates, respective levels were 73.7, 6.78, and         for the different elements were due primarily to sampling
+   18 | 1130 ng/g. On the basis of this study and literature data, lead levels      differences for the methods used. In one analytical series,
+   19 | 
+   20 | 
+
+--- lines 22-26 ---
+   22 | 
+   23 |                                                                                                                                               Downloaded from https://academic.oup.com/jaoac/article/70/4/754/5699411 by guest on 26 October 2020
+   24 | in market milk exceeding 5 ng/g appeared to signify contamination           however, contamination of the perchloric acid with cadmium
+   25 | of the milk either directly or via the cow. For formulas considered         resulted in detection limits of 2 ng/g for 6 glass-bottled for-
+   26 | on an as-consumed basis, lead levels exceeding about 10-15 ng/g             mulas, and the results from this series, all less than 2 ng/g,
+
+--- lines 23-27 ---
+   23 |                                                                                                                                               Downloaded from https://academic.oup.com/jaoac/article/70/4/754/5699411 by guest on 26 October 2020
+   24 | in market milk exceeding 5 ng/g appeared to signify contamination           however, contamination of the perchloric acid with cadmium
+   25 | of the milk either directly or via the cow. For formulas considered         resulted in detection limits of 2 ng/g for 6 glass-bottled for-
+   26 | on an as-consumed basis, lead levels exceeding about 10-15 ng/g             mulas, and the results from this series, all less than 2 ng/g,
+   27 | were attributed to contamination from either the can used to store          were omitted from this study. Omissions also resulted from
+
+--- lines 24-28 ---
+   24 | in market milk exceeding 5 ng/g appeared to signify contamination           however, contamination of the perchloric acid with cadmium
+   25 | of the milk either directly or via the cow. For formulas considered         resulted in detection limits of 2 ng/g for 6 glass-bottled for-
+   26 | on an as-consumed basis, lead levels exceeding about 10-15 ng/g             mulas, and the results from this series, all less than 2 ng/g,
+   27 | were attributed to contamination from either the can used to store          were omitted from this study. Omissions also resulted from
+   28 | the formula or the formula ingredients. Infant formulas in lead-free        periodic sample loss during analysis.
+
+--- lines 26-30 ---
+   26 | on an as-consumed basis, lead levels exceeding about 10-15 ng/g             mulas, and the results from this series, all less than 2 ng/g,
+   27 | were attributed to contamination from either the can used to store          were omitted from this study. Omissions also resulted from
+   28 | the formula or the formula ingredients. Infant formulas in lead-free        periodic sample loss during analysis.
+   29 | cans contained about 1.7 ng/g of lead on a ready-to-use basis. Milk-
+   30 | based formulas contained about 0.26 ng/g of cadmium on a ready-
+
+--- lines 27-31 ---
+   27 | were attributed to contamination from either the can used to store          were omitted from this study. Omissions also resulted from
+   28 | the formula or the formula ingredients. Infant formulas in lead-free        periodic sample loss during analysis.
+   29 | cans contained about 1.7 ng/g of lead on a ready-to-use basis. Milk-
+   30 | based formulas contained about 0.26 ng/g of cadmium on a ready-
+   31 |                                                                             Analytical   Methodology
+
+--- lines 28-32 ---
+   28 | the formula or the formula ingredients. Infant formulas in lead-free        periodic sample loss during analysis.
+   29 | cans contained about 1.7 ng/g of lead on a ready-to-use basis. Milk-
+   30 | based formulas contained about 0.26 ng/g of cadmium on a ready-
+   31 |                                                                             Analytical   Methodology
+   32 | to-use basis. Soy-based or milk-free formulas contained about 8-15
+
+--- lines 30-34 ---
+   30 | based formulas contained about 0.26 ng/g of cadmium on a ready-
+   31 |                                                                             Analytical   Methodology
+   32 | to-use basis. Soy-based or milk-free formulas contained about 8-15
+   33 | times more cadmium than did milk-based formulas. Canadian and                  Methods and instrumentation used for lead and cadmium
+   34 | U.S. ready-to-use formulas contained 900 and 230 ng/g fluoride,             in formulas (6) and cow milk (7, 8) and fluoride (8, 9) de-
+
+--- lines 31-35 ---
+   31 |                                                                             Analytical   Methodology
+   32 | to-use basis. Soy-based or milk-free formulas contained about 8-15
+   33 | times more cadmium than did milk-based formulas. Canadian and                  Methods and instrumentation used for lead and cadmium
+   34 | U.S. ready-to-use formulas contained 900 and 230 ng/g fluoride,             in formulas (6) and cow milk (7, 8) and fluoride (8, 9) de-
+   35 | respectively, and this difference was attributed to the level of fluoride   terminations were described previously, and experimental
+
+--- lines 32-36 ---
+   32 | to-use basis. Soy-based or milk-free formulas contained about 8-15
+   33 | times more cadmium than did milk-based formulas. Canadian and                  Methods and instrumentation used for lead and cadmium
+   34 | U.S. ready-to-use formulas contained 900 and 230 ng/g fluoride,             in formulas (6) and cow milk (7, 8) and fluoride (8, 9) de-
+   35 | respectively, and this difference was attributed to the level of fluoride   terminations were described previously, and experimental
+   36 | in the processing water used by the manufacturers.                          detection limits, based on whole milk, were approximately
+
+--- lines 35-39 ---
+   35 | respectively, and this difference was attributed to the level of fluoride   terminations were described previously, and experimental
+   36 | in the processing water used by the manufacturers.                          detection limits, based on whole milk, were approximately
+   37 |                                                                             0.05, 0.01, and 4 ng/g, respectively. Five lead and cadmium
+   38 | Milk and infant formulas constitute a major source of food                  blanks and 2 fluoride blanks were included with each ana-
+   39 | for infants and children, and even relatively low levels of                 lytical series. Results were calculated and reported as de-
+
+--- lines 36-40 ---
+   36 | in the processing water used by the manufacturers.                          detection limits, based on whole milk, were approximately
+   37 |                                                                             0.05, 0.01, and 4 ng/g, respectively. Five lead and cadmium
+   38 | Milk and infant formulas constitute a major source of food                  blanks and 2 fluoride blanks were included with each ana-
+   39 | for infants and children, and even relatively low levels of                 lytical series. Results were calculated and reported as de-
+   40 | toxic elements in them can be expected to contribute signif-                scribed in reference 8.
+
+--- lines 39-43 ---
+   39 | for infants and children, and even relatively low levels of                 lytical series. Results were calculated and reported as de-
+   40 | toxic elements in them can be expected to contribute signif-                scribed in reference 8.
+   41 | icantly to dietary intakes. Furthermore, absorption of some                    Liquid formulas and evaporated milk were analyzed with-
+   42 | elements, such as lead, is known to be greater for children                 in 3 months of sample collection to minimize effects of mi-
+   43 | than for adults (1), contributing to the additional significance            gration of contaminants from the can. For determinations of
+
+--- lines 40-44 ---
+   40 | toxic elements in them can be expected to contribute signif-                scribed in reference 8.
+   41 | icantly to dietary intakes. Furthermore, absorption of some                    Liquid formulas and evaporated milk were analyzed with-
+   42 | elements, such as lead, is known to be greater for children                 in 3 months of sample collection to minimize effects of mi-
+   43 | than for adults (1), contributing to the additional significance            gration of contaminants from the can. For determinations of
+   44 | of low levels of elements.                                                  lead and cadmium in canned formulas, the lid of the can was
+
+--- lines 41-45 ---
+   41 | icantly to dietary intakes. Furthermore, absorption of some                    Liquid formulas and evaporated milk were analyzed with-
+   42 | elements, such as lead, is known to be greater for children                 in 3 months of sample collection to minimize effects of mi-
+   43 | than for adults (1), contributing to the additional significance            gration of contaminants from the can. For determinations of
+   44 | of low levels of elements.                                                  lead and cadmium in canned formulas, the lid of the can was
+   45 |    Unfortunately, even recent literature estimates for lead and             wiped with moist cellulose prior to puncturing 2 apertures
+
+--- lines 42-46 ---
+   42 | elements, such as lead, is known to be greater for children                 in 3 months of sample collection to minimize effects of mi-
+   43 | than for adults (1), contributing to the additional significance            gration of contaminants from the can. For determinations of
+   44 | of low levels of elements.                                                  lead and cadmium in canned formulas, the lid of the can was
+   45 |    Unfortunately, even recent literature estimates for lead and             wiped with moist cellulose prior to puncturing 2 apertures
+   46 | cadmium in milk give values ranging 2-3 orders of magni-                    with a steel V-shape opener. After cans were opened, the first
+
+--- lines 43-47 ---
+   43 | than for adults (1), contributing to the additional significance            gration of contaminants from the can. For determinations of
+   44 | of low levels of elements.                                                  lead and cadmium in canned formulas, the lid of the can was
+   45 |    Unfortunately, even recent literature estimates for lead and             wiped with moist cellulose prior to puncturing 2 apertures
+   46 | cadmium in milk give values ranging 2-3 orders of magni-                    with a steel V-shape opener. After cans were opened, the first
+   47 | tude (2-4), and an interlaboratory study on one milk sample                 portion of the liquid was poured into the sink, and imme-
+
+--- lines 44-48 ---
+   44 | of low levels of elements.                                                  lead and cadmium in canned formulas, the lid of the can was
+   45 |    Unfortunately, even recent literature estimates for lead and             wiped with moist cellulose prior to puncturing 2 apertures
+   46 | cadmium in milk give values ranging 2-3 orders of magni-                    with a steel V-shape opener. After cans were opened, the first
+   47 | tude (2-4), and an interlaboratory study on one milk sample                 portion of the liquid was poured into the sink, and imme-
+   48 | yielded results ranging 3-4 orders of magnitude (5). There-                 diately afterward a second portion was poured into a flask
+
+--- lines 47-51 ---
+   47 | tude (2-4), and an interlaboratory study on one milk sample                 portion of the liquid was poured into the sink, and imme-
+   48 | yielded results ranging 3-4 orders of magnitude (5). There-                 diately afterward a second portion was poured into a flask
+   49 | fore, the need existed to obtain accurate information on con-               for weighing. One lead and cadmium determination and 2
+   50 | centrations of these elements in milk.                                      fluoride determinations were made on each sample of milk
+   51 |    This paper presents results of a survey of lead, cadmium,                or formula.
+
+--- lines 49-53 ---
+   49 | fore, the need existed to obtain accurate information on con-               for weighing. One lead and cadmium determination and 2
+   50 | centrations of these elements in milk.                                      fluoride determinations were made on each sample of milk
+   51 |    This paper presents results of a survey of lead, cadmium,                or formula.
+   52 | and fluoride in 68 market milk samples and about 115 infant                    The market milk samples were opened in a conventional
+   53 | formulas and oral electrolytes. The purpose of the survey was               manner (steel scissors for the plastic bags and manually for
+
+--- lines 51-55 ---
+   51 |    This paper presents results of a survey of lead, cadmium,                or formula.
+   52 | and fluoride in 68 market milk samples and about 115 infant                    The market milk samples were opened in a conventional
+   53 | formulas and oral electrolytes. The purpose of the survey was               manner (steel scissors for the plastic bags and manually for
+   54 | to define accurate levels of the elements for dietary intake                the cartons), and the first portion of milk from the container
+   55 | studies by using sensitive methodology and to compare levels                was discarded. For determination of lead and cadmium in
+
+--- lines 53-57 ---
+   53 | formulas and oral electrolytes. The purpose of the survey was               manner (steel scissors for the plastic bags and manually for
+   54 | to define accurate levels of the elements for dietary intake                the cartons), and the first portion of milk from the container
+   55 | studies by using sensitive methodology and to compare levels                was discarded. For determination of lead and cadmium in
+   56 | of elements in infant formulas and milk to establish the pres-              the samples, a 20 g sample weight was used, and the accuracy
+   57 | ence or absence of contamination during processing or pack-                 was monitored using the lead value for a laboratory reference
+
+--- lines 54-58 ---
+   54 | to define accurate levels of the elements for dietary intake                the cartons), and the first portion of milk from the container
+   55 | studies by using sensitive methodology and to compare levels                was discarded. For determination of lead and cadmium in
+   56 | of elements in infant formulas and milk to establish the pres-              the samples, a 20 g sample weight was used, and the accuracy
+   57 | ence or absence of contamination during processing or pack-                 was monitored using the lead value for a laboratory reference
+   58 | aging.                                                                      milk powder. Each analytical series contained 1 g and 2 g
+
+--- lines 55-59 ---
+   55 | studies by using sensitive methodology and to compare levels                was discarded. For determination of lead and cadmium in
+   56 | of elements in infant formulas and milk to establish the pres-              the samples, a 20 g sample weight was used, and the accuracy
+   57 | ence or absence of contamination during processing or pack-                 was monitored using the lead value for a laboratory reference
+   58 | aging.                                                                      milk powder. Each analytical series contained 1 g and 2 g
+   59 |                                                                             sample weights of this powder. The lead values obtained
+
+--- lines 56-60 ---
+   56 | of elements in infant formulas and milk to establish the pres-              the samples, a 20 g sample weight was used, and the accuracy
+   57 | ence or absence of contamination during processing or pack-                 was monitored using the lead value for a laboratory reference
+   58 | aging.                                                                      milk powder. Each analytical series contained 1 g and 2 g
+   59 |                                                                             sample weights of this powder. The lead values obtained
+   60 |                            Experimental                                     ranged from 44 to 51 ng/g and averaged 46 ± 2.6 ng/g. This
+
+--- lines 57-61 ---
+   57 | ence or absence of contamination during processing or pack-                 was monitored using the lead value for a laboratory reference
+   58 | aging.                                                                      milk powder. Each analytical series contained 1 g and 2 g
+   59 |                                                                             sample weights of this powder. The lead values obtained
+   60 |                            Experimental                                     ranged from 44 to 51 ng/g and averaged 46 ± 2.6 ng/g. This
+   61 | Collection of Samples                                                       level corresponded to about 2.3 ng/g in the liquid milk sam-
+
+--- lines 58-62 ---
+   58 | aging.                                                                      milk powder. Each analytical series contained 1 g and 2 g
+   59 |                                                                             sample weights of this powder. The lead values obtained
+   60 |                            Experimental                                     ranged from 44 to 51 ng/g and averaged 46 ± 2.6 ng/g. This
+   61 | Collection of Samples                                                       level corresponded to about 2.3 ng/g in the liquid milk sam-
+   62 |                                                                             ples. The cadmium level in the milk powder was too low
+
+--- lines 60-64 ---
+   60 |                            Experimental                                     ranged from 44 to 51 ng/g and averaged 46 ± 2.6 ng/g. This
+   61 | Collection of Samples                                                       level corresponded to about 2.3 ng/g in the liquid milk sam-
+   62 |                                                                             ples. The cadmium level in the milk powder was too low
+   63 |    The cow milk samples, divided equally among whole, 2%,
+   64 |                                                                             and not sufficiently homogeneous (1.1 ± 0 . 9 ng/g, equivalent
+
+--- lines 61-65 ---
+   61 | Collection of Samples                                                       level corresponded to about 2.3 ng/g in the liquid milk sam-
+   62 |                                                                             ples. The cadmium level in the milk powder was too low
+   63 |    The cow milk samples, divided equally among whole, 2%,
+   64 |                                                                             and not sufficiently homogeneous (1.1 ± 0 . 9 ng/g, equivalent
+   65 | and skim milk, were purchased in 1982 at the retail level;
+
+--- lines 70-74 ---
+   70 |                                                                             spiked samples were run with each analytical series, and
+   71 | milk. The size of each sample was 1 L, and all samples were
+   72 |                                                                             mean recoveries of 83.9% (range 75-101%) for lead and 83.3%
+   73 | contained in either polyethylene bags or wax-lined cardboard
+   74 |                                                                             (range 71-100%) for cadmium were obtained. All results were
+
+--- lines 72-76 ---
+   72 |                                                                             mean recoveries of 83.9% (range 75-101%) for lead and 83.3%
+   73 | contained in either polyethylene bags or wax-lined cardboard
+   74 |                                                                             (range 71-100%) for cadmium were obtained. All results were
+   75 | cartons. Samples were frozen at the city of collection, shipped
+   76 |                                                                             corrected for the recovery obtained on the specific day of
+
+--- lines 76-80 ---
+   76 |                                                                             corrected for the recovery obtained on the specific day of
+   77 | for analysis, and stored frozen until 24 h prior to analysis.
+   78 |                                                                             analysis. The spiking levels were equivalent to 5 ng/g of lead
+   79 |    Infant formula sample collection was arranged by the Nu-
+   80 |                                                                             and 0.5 ng/g of cadmium. Precision between replicates av-
+
+--- lines 77-81 ---
+   77 | for analysis, and stored frozen until 24 h prior to analysis.
+   78 |                                                                             analysis. The spiking levels were equivalent to 5 ng/g of lead
+   79 |    Infant formula sample collection was arranged by the Nu-
+   80 |                                                                             and 0.5 ng/g of cadmium. Precision between replicates av-
+   81 | trition Evaluation Division, Health Protection Branch, from
+
+--- lines 78-82 ---
+   78 |                                                                             analysis. The spiking levels were equivalent to 5 ng/g of lead
+   79 |    Infant formula sample collection was arranged by the Nu-
+   80 |                                                                             and 0.5 ng/g of cadmium. Precision between replicates av-
+   81 | trition Evaluation Division, Health Protection Branch, from
+   82 |                                                                             eraged 5.2 and 25% RSD at respective mean levels of 5 and
+
+--- lines 80-84 ---
+   80 |                                                                             and 0.5 ng/g of cadmium. Precision between replicates av-
+   81 | trition Evaluation Division, Health Protection Branch, from
+   82 |                                                                             eraged 5.2 and 25% RSD at respective mean levels of 5 and
+   83 | stores and hospitals, so that most types of formula available
+   84 |                                                                             1 ng/g for lead, and 7.2 and 69% at mean levels of 0.5 and
+
+--- lines 81-85 ---
+   81 | trition Evaluation Division, Health Protection Branch, from
+   82 |                                                                             eraged 5.2 and 25% RSD at respective mean levels of 5 and
+   83 | stores and hospitals, so that most types of formula available
+   84 |                                                                             1 ng/g for lead, and 7.2 and 69% at mean levels of 0.5 and
+   85 | in Canada in 1980 were represented. Formula samples in-
+
+--- lines 82-86 ---
+   82 |                                                                             eraged 5.2 and 25% RSD at respective mean levels of 5 and
+   83 | stores and hospitals, so that most types of formula available
+   84 |                                                                             1 ng/g for lead, and 7.2 and 69% at mean levels of 0.5 and
+   85 | in Canada in 1980 were represented. Formula samples in-
+   86 |                                                                             0.037 ng/g for cadmium. For fluoride, a 4-6 g sample weight
+
+--- lines 83-87 ---
+   83 | stores and hospitals, so that most types of formula available
+   84 |                                                                             1 ng/g for lead, and 7.2 and 69% at mean levels of 0.5 and
+   85 | in Canada in 1980 were represented. Formula samples in-
+   86 |                                                                             0.037 ng/g for cadmium. For fluoride, a 4-6 g sample weight
+   87 |                                                                             was used, and recoveries at a 1 /ug/g spiking level averaged
+
+--- lines 84-88 ---
+   84 |                                                                             1 ng/g for lead, and 7.2 and 69% at mean levels of 0.5 and
+   85 | in Canada in 1980 were represented. Formula samples in-
+   86 |                                                                             0.037 ng/g for cadmium. For fluoride, a 4-6 g sample weight
+   87 |                                                                             was used, and recoveries at a 1 /ug/g spiking level averaged
+   88 |   Received April 16, 1986. Accepted September 9, 1986.
+
+--- lines 87-91 ---
+   87 |                                                                             was used, and recoveries at a 1 /ug/g spiking level averaged
+   88 |   Received April 16, 1986. Accepted September 9, 1986.
+   89 |                                                                             121 % (range 103-151%). The reason for the higher than nor-
+   90 |                              DABEKA & McKENZIE: J. ASSOC. OFF. ANAL. CHEM. (VOL. 70, NO. 4, 1987)                                               755
+   91 | 
+
+--- lines 90-94 ---
+   90 |                              DABEKA & McKENZIE: J. ASSOC. OFF. ANAL. CHEM. (VOL. 70, NO. 4, 1987)                                               755
+   91 | 
+   92 |                               Table 1 . Lead, cadmium, and fluoride levels in cow milk by province
+   93 | 
+   94 |                                         Lead, ng/g                          Cadmium, pg/g                              Fluoride, ng/g
+
+--- lines 92-96 ---
+   92 |                               Table 1 . Lead, cadmium, and fluoride levels in cow milk by province
+   93 | 
+   94 |                                         Lead, ng/g                          Cadmium, pg/g                              Fluoride, ng/g
+   95 |                    No. of
+   96 |    Province       samples    Mean       Median        Range        Mean        Median         Range           Mean      Median          Range
+
+--- lines 94-98 ---
+   94 |                                         Lead, ng/g                          Cadmium, pg/g                              Fluoride, ng/g
+   95 |                    No. of
+   96 |    Province       samples    Mean       Median        Range        Mean        Median         Range           Mean      Median          Range
+   97 | 
+   98 | Saskatchewan         6        0.36       0.29        0.01-0.68       81          11           5-361            35           27          23-53
+
+--- lines 115-119 ---
+  115 |                                                                                                                                                       Downloaded from https://academic.oup.com/jaoac/article/70/4/754/5699411 by guest on 26 October 2020
+  116 | not corrected for recovery.                                        samples (7). Thus, the main reason for literature values great-
+  117 |    For lead and cadmium in infant formulas, sample weights         er than 5-10 ng/g would appear to be systematic analytical
+  118 | varied from 3 g for powders to 20-40 g for ready-to-use            errors or contamination during analysis or storage (2), neither
+  119 | liquids. Recovery of 10 ng/g lead spikes and 1 ng/g cadmium        of which can be easily detected using recovery studies.
+
+--- lines 116-120 ---
+  116 | not corrected for recovery.                                        samples (7). Thus, the main reason for literature values great-
+  117 |    For lead and cadmium in infant formulas, sample weights         er than 5-10 ng/g would appear to be systematic analytical
+  118 | varied from 3 g for powders to 20-40 g for ready-to-use            errors or contamination during analysis or storage (2), neither
+  119 | liquids. Recovery of 10 ng/g lead spikes and 1 ng/g cadmium        of which can be easily detected using recovery studies.
+  120 | spikes averaged 82% (range 75-90%) and 86% (range 82-                 On the basis of results from the authors listed above and
+
+--- lines 117-121 ---
+  117 |    For lead and cadmium in infant formulas, sample weights         er than 5-10 ng/g would appear to be systematic analytical
+  118 | varied from 3 g for powders to 20-40 g for ready-to-use            errors or contamination during analysis or storage (2), neither
+  119 | liquids. Recovery of 10 ng/g lead spikes and 1 ng/g cadmium        of which can be easily detected using recovery studies.
+  120 | spikes averaged 82% (range 75-90%) and 86% (range 82-                 On the basis of results from the authors listed above and
+  121 | 90%), respectively. Results were corrected for recovery ob-        from this study, several conclusions can be drawn.
+
+--- lines 118-122 ---
+  118 | varied from 3 g for powders to 20-40 g for ready-to-use            errors or contamination during analysis or storage (2), neither
+  119 | liquids. Recovery of 10 ng/g lead spikes and 1 ng/g cadmium        of which can be easily detected using recovery studies.
+  120 | spikes averaged 82% (range 75-90%) and 86% (range 82-                 On the basis of results from the authors listed above and
+  121 | 90%), respectively. Results were corrected for recovery ob-        from this study, several conclusions can be drawn.
+  122 | tained in each analytical series. Precision for replicated sam-       First, the differences between the means in Canada and
+
+--- lines 120-124 ---
+  120 | spikes averaged 82% (range 75-90%) and 86% (range 82-                 On the basis of results from the authors listed above and
+  121 | 90%), respectively. Results were corrected for recovery ob-        from this study, several conclusions can be drawn.
+  122 | tained in each analytical series. Precision for replicated sam-       First, the differences between the means in Canada and
+  123 | ples averaged 5 and 22% at 10 and 1 ng/g lead levels, re-          Germany (1.12 vs 1.77 ng/g) are significant (P < 0.001).
+  124 | spectively, and 7 and 12% at 1 and 0.1 ng/g cadmium levels.        These differences do not appear to be due to methodology
+
+--- lines 121-125 ---
+  121 | 90%), respectively. Results were corrected for recovery ob-        from this study, several conclusions can be drawn.
+  122 | tained in each analytical series. Precision for replicated sam-       First, the differences between the means in Canada and
+  123 | ples averaged 5 and 22% at 10 and 1 ng/g lead levels, re-          Germany (1.12 vs 1.77 ng/g) are significant (P < 0.001).
+  124 | spectively, and 7 and 12% at 1 and 0.1 ng/g cadmium levels.        These differences do not appear to be due to methodology
+  125 | Recovery of 0.5 and 1 ng/g fluoride spikes from formulas           differences, which, if based on the interlaboratory compari-
+
+--- lines 122-126 ---
+  122 | tained in each analytical series. Precision for replicated sam-       First, the differences between the means in Canada and
+  123 | ples averaged 5 and 22% at 10 and 1 ng/g lead levels, re-          Germany (1.12 vs 1.77 ng/g) are significant (P < 0.001).
+  124 | spectively, and 7 and 12% at 1 and 0.1 ng/g cadmium levels.        These differences do not appear to be due to methodology
+  125 | Recovery of 0.5 and 1 ng/g fluoride spikes from formulas           differences, which, if based on the interlaboratory compari-
+  126 | averaged 99.6% (range 80-112%).                                    son of our method with the direct GFAAS method used by
+
+--- lines 123-127 ---
+  123 | ples averaged 5 and 22% at 10 and 1 ng/g lead levels, re-          Germany (1.12 vs 1.77 ng/g) are significant (P < 0.001).
+  124 | spectively, and 7 and 12% at 1 and 0.1 ng/g cadmium levels.        These differences do not appear to be due to methodology
+  125 | Recovery of 0.5 and 1 ng/g fluoride spikes from formulas           differences, which, if based on the interlaboratory compari-
+  126 | averaged 99.6% (range 80-112%).                                    son of our method with the direct GFAAS method used by
+  127 |                                                                    Narres et al. (2), should have resulted in Canadian values
+
+--- lines 124-128 ---
+  124 | spectively, and 7 and 12% at 1 and 0.1 ng/g cadmium levels.        These differences do not appear to be due to methodology
+  125 | Recovery of 0.5 and 1 ng/g fluoride spikes from formulas           differences, which, if based on the interlaboratory compari-
+  126 | averaged 99.6% (range 80-112%).                                    son of our method with the direct GFAAS method used by
+  127 |                                                                    Narres et al. (2), should have resulted in Canadian values
+  128 |                     Results and Discussion                          17% higher than FRG values (7). Thus, the differences appear
+
+--- lines 127-131 ---
+  127 |                                                                    Narres et al. (2), should have resulted in Canadian values
+  128 |                     Results and Discussion                          17% higher than FRG values (7). Thus, the differences appear
+  129 | Lead in Cow Milk                                                   to be due either to different feeds given cattle or to different
+  130 |    Lead levels in cow milk averaged 1.12 ng/g (Tables 1 and        lead levels in similar feeds caused by natural or industrial
+  131 | 2). Levels did not significantly differ for whole, 2% butter fat   contamination. These factors may also explain the >99.9%
+
+--- lines 128-132 ---
+  128 |                     Results and Discussion                          17% higher than FRG values (7). Thus, the differences appear
+  129 | Lead in Cow Milk                                                   to be due either to different feeds given cattle or to different
+  130 |    Lead levels in cow milk averaged 1.12 ng/g (Tables 1 and        lead levels in similar feeds caused by natural or industrial
+  131 | 2). Levels did not significantly differ for whole, 2% butter fat   contamination. These factors may also explain the >99.9%
+  132 | (B.F.), and skim milks. Mean lead levels in cow milk varied        statistical significance, compared with Ontario, of our values
+
+--- lines 130-134 ---
+  130 |    Lead levels in cow milk averaged 1.12 ng/g (Tables 1 and        lead levels in similar feeds caused by natural or industrial
+  131 | 2). Levels did not significantly differ for whole, 2% butter fat   contamination. These factors may also explain the >99.9%
+  132 | (B.F.), and skim milks. Mean lead levels in cow milk varied        statistical significance, compared with Ontario, of our values
+  133 | with province from 0.36 ng/g for Saskatchewan to 1.60 ng/g         of 0.36 and 0.78 ng/g, the lowest reported to date, found for
+  134 | for Newfoundland (Table 1). The mean values of 0.36 and            milk in 2 prairie provinces (Table 1).
+
+--- lines 132-136 ---
+  132 | (B.F.), and skim milks. Mean lead levels in cow milk varied        statistical significance, compared with Ontario, of our values
+  133 | with province from 0.36 ng/g for Saskatchewan to 1.60 ng/g         of 0.36 and 0.78 ng/g, the lowest reported to date, found for
+  134 | for Newfoundland (Table 1). The mean values of 0.36 and            milk in 2 prairie provinces (Table 1).
+  135 | 0.78 ng/g for 2 prairie cities, Winnipeg and Regina, were             Second, the upper level of lead expected in milk samples
+  136 | significantly less than for the other cities. Compared with        pooled from different cows and farms should never be greater
+
+--- lines 133-137 ---
+  133 | with province from 0.36 ng/g for Saskatchewan to 1.60 ng/g         of 0.36 and 0.78 ng/g, the lowest reported to date, found for
+  134 | for Newfoundland (Table 1). The mean values of 0.36 and            milk in 2 prairie provinces (Table 1).
+  135 | 0.78 ng/g for 2 prairie cities, Winnipeg and Regina, were             Second, the upper level of lead expected in milk samples
+  136 | significantly less than for the other cities. Compared with        pooled from different cows and farms should never be greater
+  137 | Ontario samples (mean of 1.37 ng/g), the difference was sig-       than 5 ng/g, unless there is a major source of lead contam-
+
+--- lines 134-138 ---
+  134 | for Newfoundland (Table 1). The mean values of 0.36 and            milk in 2 prairie provinces (Table 1).
+  135 | 0.78 ng/g for 2 prairie cities, Winnipeg and Regina, were             Second, the upper level of lead expected in milk samples
+  136 | significantly less than for the other cities. Compared with        pooled from different cows and farms should never be greater
+  137 | Ontario samples (mean of 1.37 ng/g), the difference was sig-       than 5 ng/g, unless there is a major source of lead contam-
+  138 | nificant at >99.9% level of confidence. This may be due to         ination of the milk. The source of this lead can be expected
+
+--- lines 135-139 ---
+  135 | 0.78 ng/g for 2 prairie cities, Winnipeg and Regina, were             Second, the upper level of lead expected in milk samples
+  136 | significantly less than for the other cities. Compared with        pooled from different cows and farms should never be greater
+  137 | Ontario samples (mean of 1.37 ng/g), the difference was sig-       than 5 ng/g, unless there is a major source of lead contam-
+  138 | nificant at >99.9% level of confidence. This may be due to         ination of the milk. The source of this lead can be expected
+  139 | either regional dietary differences for the cattle or industrial   to be general in nature and may be either a dietary constituent
+
+--- lines 136-140 ---
+  136 | significantly less than for the other cities. Compared with        pooled from different cows and farms should never be greater
+  137 | Ontario samples (mean of 1.37 ng/g), the difference was sig-       than 5 ng/g, unless there is a major source of lead contam-
+  138 | nificant at >99.9% level of confidence. This may be due to         ination of the milk. The source of this lead can be expected
+  139 | either regional dietary differences for the cattle or industrial   to be general in nature and may be either a dietary constituent
+  140 | contamination differences. Individual samples, each from a         of the cow or contamination during processing and packaging
+
+--- lines 138-142 ---
+  138 | nificant at >99.9% level of confidence. This may be due to         ination of the milk. The source of this lead can be expected
+  139 | either regional dietary differences for the cattle or industrial   to be general in nature and may be either a dietary constituent
+  140 | contamination differences. Individual samples, each from a         of the cow or contamination during processing and packaging
+  141 | different lot of commercially pooled milk, had lead concen-        of the milk. For example, of the 159 samples analyzed in 4
+  142 | trations ranging from 0.01 to 2.48 ng/g.                           of the reported studies (2, 12-14), only one value was above
+
+--- lines 139-143 ---
+  139 | either regional dietary differences for the cattle or industrial   to be general in nature and may be either a dietary constituent
+  140 | contamination differences. Individual samples, each from a         of the cow or contamination during processing and packaging
+  141 | different lot of commercially pooled milk, had lead concen-        of the milk. For example, of the 159 samples analyzed in 4
+  142 | trations ranging from 0.01 to 2.48 ng/g.                           of the reported studies (2, 12-14), only one value was above
+  143 |                                                                    5 ng/g, and this was 11.2 ng/g found in an area polluted with
+
+--- lines 143-147 ---
+  143 |                                                                    5 ng/g, and this was 11.2 ng/g found in an area polluted with
+  144 |    The results described above are a factor of 10 lower than
+  145 |                                                                    heavy metals due to lead smelters (2). The highest lead value
+  146 | generally accepted levels of 10-30 ng/g on the basis of nu-
+  147 |                                                                    found in this study was 2.48 ng/g. It should be emphasized
+
+--- lines 146-150 ---
+  146 | generally accepted levels of 10-30 ng/g on the basis of nu-
+  147 |                                                                    found in this study was 2.48 ng/g. It should be emphasized
+  148 | merous surveys (10), with some recent studies reporting any-
+  149 |                                                                    that the discussion thus far refers only to market milk pooled
+  150 | where from 11 ng/g (3) to 200-970 ng/g (4). As a result, a
+
+--- lines 149-153 ---
+  149 |                                                                    that the discussion thus far refers only to market milk pooled
+  150 | where from 11 ng/g (3) to 200-970 ng/g (4). As a result, a
+  151 |                                                                    from different cows. Lead concentrations obtained for milk
+  152 | discussion of the accuracy of our results appears warranted,
+  153 |                                                                    from individual cows is not subject to concentration aver-
+
+--- lines 151-155 ---
+  151 |                                                                    from different cows. Lead concentrations obtained for milk
+  152 | discussion of the accuracy of our results appears warranted,
+  153 |                                                                    from individual cows is not subject to concentration aver-
+  154 | particularly since we are not the first to report low levels of
+  155 | lead.
+
+--- lines 153-157 ---
+  153 |                                                                    from individual cows is not subject to concentration aver-
+  154 | particularly since we are not the first to report low levels of
+  155 | lead.
+  156 |    As early as 1971, Brandt and Bentz (11) showed how an-           Table 2.     Lead levels (ng/g) in infant formulas and cow milk
+  157 | alytical methodology affected the results obtained for lead in               Product                   No.   Mean    Median          Range
+
+--- lines 154-158 ---
+  154 | particularly since we are not the first to report low levels of
+  155 | lead.
+  156 |    As early as 1971, Brandt and Bentz (11) showed how an-           Table 2.     Lead levels (ng/g) in infant formulas and cow milk
+  157 | alytical methodology affected the results obtained for lead in               Product                   No.   Mean    Median          Range
+  158 | milk and suggested that lead levels in cow milk were generally
+
+--- lines 155-159 ---
+  155 | lead.
+  156 |    As early as 1971, Brandt and Bentz (11) showed how an-           Table 2.     Lead levels (ng/g) in infant formulas and cow milk
+  157 | alytical methodology affected the results obtained for lead in               Product                   No.   Mean    Median          Range
+  158 | milk and suggested that lead levels in cow milk were generally
+  159 |                                                                    Cow milk (retail)                   68     1.12    1.19         0.01-2.5
+
+--- lines 156-160 ---
+  156 |    As early as 1971, Brandt and Bentz (11) showed how an-           Table 2.     Lead levels (ng/g) in infant formulas and cow milk
+  157 | alytical methodology affected the results obtained for lead in               Product                   No.   Mean    Median          Range
+  158 | milk and suggested that lead levels in cow milk were generally
+  159 |                                                                    Cow milk (retail)                   68     1.12    1.19         0.01-2.5
+  160 | less than 5 ng/g. Milk surveys conducted in 1974 by Lamm           Evaporated milk (canned)             8    72.4    71.9            27-106
+
+--- lines 157-161 ---
+  157 | alytical methodology affected the results obtained for lead in               Product                   No.   Mean    Median          Range
+  158 | milk and suggested that lead levels in cow milk were generally
+  159 |                                                                    Cow milk (retail)                   68     1.12    1.19         0.01-2.5
+  160 | less than 5 ng/g. Milk surveys conducted in 1974 by Lamm           Evaporated milk (canned)             8    72.4    71.9            27-106
+  161 | and Rosen (12) in the United States and in 1977 by Barlow          Ready-to-use formula, glass*        20     2.54    2.20          0.1-4.5
+
+--- lines 159-163 ---
+  159 |                                                                    Cow milk (retail)                   68     1.12    1.19         0.01-2.5
+  160 | less than 5 ng/g. Milk surveys conducted in 1974 by Lamm           Evaporated milk (canned)             8    72.4    71.9            27-106
+  161 | and Rosen (12) in the United States and in 1977 by Barlow          Ready-to-use formula, glass*        20     2.54    2.20          0.1-4.5
+  162 | (13) in Birmingham (UK) both yielded lead levels for all           Ready-to-use formula,
+  163 | samples which were below their detection limit of 5 ng/g. In        canned                             15    37.3    26.0           1.1-122

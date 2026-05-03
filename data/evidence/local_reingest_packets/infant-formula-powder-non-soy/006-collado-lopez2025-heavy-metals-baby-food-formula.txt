@@ -1,0 +1,1044 @@
+Scoping Review
+
+Concentrations of Heavy Metals in Processed Baby Foods and
+Infant Formulas Worldwide: A Scoping Review
+Sonia Collado-L�opez 1; Mar�ıa Fernanda Rodr�ıguez Hern�andez2; Rosa Mar�ıa Mariscal-Moreno�,2;
+Martha Mar�ıa T�ellez-Rojo1; Larissa Betanzos-Robledo 3; Mois�es Reyes Luna4; Alejandra Cantoral-
+Preciado 2
+1
+ Center for Nutrition and Health Research, National Institute of Public Health, Cuernavaca, 62100, Mexico; 2Health Department,
+Universidad Iberoamericana, Mexico City, 01219, Mexico; 3Doctoral Program in Epidemiology, National Autonomous University of
+Mexico, Mexico City, Mexico; 4Economics Department and GEOLab-IBERO, Universidad Iberoamericana, Mexico City, 01219, Mexico
+
+
+
+
+                                                                                                                                               Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+�Corresponding Author: Rosa Mar�ıa Mariscal-Moreno, Health Department, Universidad Iberoamericana, Mexico City, 01219, Mexico (rosa.
+mariscal@ibero.mx).
+
+                    The aim of this study was to synthesize the global evidence of heavy metal (HM)
+                    concentrations in baby foods and infant formulas. The toxic HMs lead (Pb), cad­
+                    mium (Cd), arsenic (As), and mercury (Hg) have been detected in baby foods and
+                    infant formulas, raising health concerns. Advanced searches were performed. Baby
+                    foods were classified into 7 groups according to their primary ingredient. Infant for­
+                    mulas were classified as: Stage 1 (<6 months), stage 2 (6–12 months), stage 3
+                    (>12–36 months), and specialty. Median concentrations and interquartile ranges
+                    were calculated for each classification. The percentage of items by category exceed­
+                    ing the International Maximum Levels (MLs) was obtained. Seventy-five studies
+                    were included in the scoping review, which in total examined 580 baby foods and
+                    251 infant formulas. Pb, Cd, and As were detected in over 60% of baby foods. The
+                    highest Pb median was found in rice mixes and fish mixes (0.008 mg/kg each),
+                    with >20% of their items exceeding the Pb ML. The highest Cd median was found
+                    in cereals (0.013 mg/kg) and mixes of various foods (0.008 mg/kg), with >17% of
+                    their items exceeding the Cd ML. For As, the highest median was found in mixed
+                    fish (0.165 mg/kg) and rice mixes (0.048 mg/kg), with 89% and 30% of items
+                    exceeding the As ML, respectively. For infant formulas, Pb, Cd, and As were
+                    detected in >60% of items. The highest Pb median concentrations were found in
+                    stages 1 and 2 (0.015 mg/kg each), with >60% of their items exceeding the Pb
+                    MLs. For As, without-stage (0.052 mg/kg) had the highest median, with >71% of
+                    items exceeding the As ML. Fifteen studies reported the health risks related to
+                    intake of various foods: significant risks were identified for infants ≥6 months for
+                    rice products, and ≤12 months stage 1 and 2 formulas. This review highlights
+                    widespread HM presence in baby foods and infant formulas. Exceedances of the
+                    ML were particularly notable in rice products for infants >6 months and infant for­
+                    mulas for babies ≤12 months of age.
+                    Key words: heavy metals, baby food, infant formulas, lead, cadmium, arsenic, mercury.
+
+
+
+
+© The Author(s) 2025. Published by Oxford University Press on behalf of the International Life Sciences Institute.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs licence
+(https://creativecommons.org/licenses/by-nc-nd/4.0/), which permits non-commercial reproduction and distribution of the work, in any
+medium, provided the original work is not altered or transformed in any way, and that the work is properly cited. For commercial re-use,
+please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our
+RightsLink service via the Permissions link on the article page on our site—for further information please contact journals.permis-
+sions@oup.com.
+
+                                                                                                      https://doi.org/10.1093/nutrit/nuaf138
+448                                                                                                    Nutrition ReviewsV Vol. 84(2):448–461
+                                                                                                                        R
+                        INTRODUCTION                         International Maximum Levels (MLs) for specific con­
+                                                             taminants like Pb, Cd, and As in some baby foods and
+Heavy metals (HMs), like lead (Pb), cadmium (Cd),            infant formulas.19–22
+mercury (Hg), and the metalloid arsenic (As) (all                 Given the international concern about the presence
+referred to as HMs in this study), are toxic elements        of HMs in food, their toxic effects on children’s health,
+widely distributed in the environment.1 Due to their         and the substantial growth in global sales of baby foods
+high toxicity, these elements are prioritized as critical    and infant formulas, we identified a critical need to
+public human and environmental health concerns.2 As          compile the evidence for the presence of HMs in this
+systemic toxicants, they can cause damage to multiple        type of food product. Therefore, this scoping review
+organ systems, even at low exposure levels.3 The risk        (ScR) aimed to synthesize the scope of the global evi­
+associated with HM exposure is of particular concern in      dence for the presence of HMs, specifically Pb, Cd, As,
+infants and young children because of their rapid            and Hg, in various types of baby foods and infant for­
+growth and development,4 immature organ systems,5,6
+
+
+
+
+                                                                                                                          Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+                                                             mulas. As part of this goal, first, we documented the
+and (compared with adults) their higher food consump­        global evidence distribution; second, we identified the
+tion per kilogram of body weight.4 During infancy, HM        HM most frequently studied, and the specific types of
+exposure is linked to mental retardation, neurocognitive     baby foods and infant formulas containing HMs; and
+and behavioral disorders, respiratory issues, and cardio­    third, we quantified the reported concentrations of
+vascular diseases.5                                          these HMs in each product and compared these concen­
+     Exposure to HMs in infancy can occur as early as        trations with the ML established by international regu­
+during the prenatal stage, through the diet and environ­     latory guidelines. Additionally, we identified the studies
+ment to which the mother is exposed. HMs can accu­           that also conducted health risk assessments.
+mulate in the body and cross the placental barrier,
+posing risks to fetal development.7,8 After birth, dietary                          METHODS
+intake becomes one of an infant’s primary sources of
+exposure.7,8                                                 The design of this ScR followed the Joanna Briggs
+     The high presence of HMs in processed baby foods        Institute (JBI) methodology guidelines for conducting
+(referred to as baby foods in this study) and infant for­    ScRs23 and the PRISMA Extension for ScR (PRISMA-
+mula has raised concerns about dietary exposure in           ScR) 2020 Checklist.24 These guidelines were applied
+babies and toddlers.9,10 In this regard, in 2019, a non­     across all sections and aspects of the process, including
+profit organization identified toxic HMs in 95% of 168       defining objectives, formulating review questions, meth­
+foods tested from a wide range of brands consumed by         ods, data extraction, evidence analysis, and results pre­
+babies and toddlers.11 There was particularly concern        sentation. In October 2024, the ScR Protocol was
+about rice-based foods, commonly used in baby food           registered in the Open Science Framework (OSF) (osf.
+production, which often contain elevated As concentra­       io/xt2gv).
+tions and are often among the first solid foods to be
+introduced into an infant’s diet.12,13 Growing concerns      Eligibility and Inclusion Criteria
+have led to governmental initiatives, such as the U.S.
+Food and Drug Administration’s (FDA) Closer to Zero          This ScR was based on the PRISMA key elements,
+action plan, which aimed at reducing the dietary expo­       Population, Concept, and Context (PCC), and it consid­
+sure of infants to HMs.10                                    ered as participants the studies that reported informa­
+     Although breast milk remains the recommended            tion about HM concentrations in baby foods and infant
+nutritional standard for newborns and infants,14 global      formulas intended for infants under 36 months old. The
+demand for infant and toddler foods, including formula       concepts investigated were the concentrations of HMs
+and other processed foods, has risen, with market reve­      (specifically Pb, Cd, As, and Hg) and the types of baby
+nue expected to exceed $120 billion by 2030.15 While         foods and infant formulas identified as containing these
+the nutritional composition of infant formula is regu­       HMs; the context encompassed global research from
+lated under the International Code of Marketing of           any country with information on this topic.
+Breast Milk Substitutes16 and other global agencies,17,18         Eligible studies included peer-reviewed research
+there is no strict global monitoring for HM content in       articles (eg, toxicological studies, analytical, cross-
+baby foods and infant formulas. However, international       sectional or longitudinal studies, or laboratory-based
+agencies such as the Food and Agriculture                    analyses), national reports, and reports by nonprofit
+Organization/World Health Organization (FAO/WHO)             organizations that evaluate the presence of Pb, Cd, As,
+and the European Commission through the European             and/or Hg in baby foods and infant formulas, published
+Food Safety Authority (EC/EFSA) have established             between 2014 and 2024, in the English or Spanish
+
+Nutrition ReviewsV Vol. 84(2):448–461
+                 R
+                                                                                                                   449
+language. Studies were required to explicitly state the      Data Charting, Synthesis of the Results, and
+analytical methods used to detect HM concentrations,         Statistical Analysis
+provide specific measurements of the detected HM con­
+centrations, report the sample size of the baby foods        The global evidence (peer-reviewed articles and reports)
+and infant formulas analyzed, and distinguish HM             was visualized geographically as a first step. Second, due
+information for baby foods from that for infant formula;     to the heterogeneity in the results reported across the
+only data concerning food items of interest for this         included evidence, all the food items from baby foods
+research were included. Any studies that did not meet        and infant formulas identified were classified to organize
+these inclusion criteria were excluded. In addition,         the presentation of the results. Baby foods were classified
+experiments that modified or controlled for the pres­        into 7 categories based on their primary ingredient: cere­
+ence of HMs, studies that tested new approaches to HM        als; fish and fish mixes; fruits and vegetables (including
+determination, and studies that provided HM concen­          their combinations); meat and meat mixes; mixed foods
+
+
+
+
+                                                                                                                                Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+tration as a general value for many different types of       (excluding those containing meat, fish, and/or rice); rice
+                                                             and rice mixes; and roots and tubers. Infant formulas
+foods were excluded.
+                                                             were categorized by their intended age stage and specialty
+                                                             as: stage 1 (for infants under 6 months), stage 2 (for
+Information Sources, Search Strategy, Screening, and
+                                                             infants 6–12 months), stage 1 and 2 (for infants 0–
+Data Selection and Extraction
+                                                             12 months), stage 3 (for infants >12–36 months), spe­
+The relevant literature was identified following these       cialty formulas (for specific medical or dietary needs,
+steps: first, MeSH terms and key terms related to the        such as soy, hypoallergenic, hydrolyzed, digestive disor­
+topic were identified. Second, advanced searches             ders, anti-reflux, and elemental formulas or preterm),
+between October 15 and 18, 2024, were conducted inde­        and without stage (for infants <36 months, with no addi­
+                                                             tional details reported). Infant formulas were further
+pendently in duplicate to identify peer-reviewed articles
+                                                             subclassified based on their primary protein source: cow-
+in 4 electronic databases: PubMed, ScienceDirect, Web
+                                                             based, soy-based, specialty formulas (excluding soy), and
+of Science, and Scopus. In addition, worldwide searches
+                                                             nonspecified formulas (where the studies did not report
+of Total Diet Studies (TDSs) reports and reports from
+                                                             the protein source). Third, all average HM concentrations
+nonprofit organizations were conducted using Website
+                                                             were converted into mg/kg to compare reported concen­
+searches. The full search strategy included the following
+                                                             trations consistently across the study results. These con­
+main concepts: “Heavy Metals,” “Toxic Elements,”
+                                                             centrations were then matched against the MLs of HMs
+“Lead,” “Cadmium,” “Arsenic,” “Mercury,” “Baby
+                                                             in food set by the International Agencies. For Pb, the
+Food,” and “Infant Formula”; these Terms were com­
+                                                             FAO/WHO ML was used,19 and due to the absence of a
+bined within each cluster using “OR,” and clusters were
+                                                             reference for the other HMs (Cd and As), the ML estab­
+combined using “AND.” Searches on the websites were          lished by the EC was employed.20,21 Regarding Hg, there
+conducted using these same terms; however, they were         is no ML for baby food or infant formulas, so we used
+complemented with targeted searches, including the           the Hg ML for similar foods for this comparison.22 We
+names of countries, to identify TDSs by country.             obtained the median and interquartile range (Q1, Q3)
+Information on the search strategies for all databases,      concentrations of each HM by food category from the
+the search algorithms, the filters, and the limits used is   detected concentrations. Finally, we synthesized the main
+presented in Table S1. Third, 2 researchers independ­        findings related to health risk assessment. All statistical
+ently screened the titles and abstracts and selected         analyses and visualizations were conducted using
+articles and reports based on the inclusion and exclu­       Microsoft Excel (version 16.0, Microsoft Corporation,
+sion criteria. The research team solved discrepancies by     Redmond, WA, USA) and R Software (version 2024.09.0
+consensus. Figure 1 shows the PRISMA flowchart dia­          Build 375, R Foundation for Statistical Computing,
+gram of the results of the searches and screening.           Vienna, Austria).
+     Finally, for each peer-reviewed article and report
+that met the inclusion criteria, the relevant information                            RESULTS
+for the review, such as the article’s generalities (title,
+authors, year, journal, aim), analytical method, infant      Results of Searches
+food, and HM studied, HM concentrations detected or
+not detected, HM concentration reported (mean,               The database searches identified 800 articles. After
+median, or geometric mean), health risk assessment,          removing duplicates, 710 articles underwent title and
+primary results, and conclusions were extracted. No          abstract screening, and 85 underwent full-text screening
+automation tools were used during this process.              and data extraction. From these, 18 studies were
+
+450                                                                                     Nutrition ReviewsV Vol. 84(2):448–461
+                                                                                                         R
+                                 Identification of studies via databases and registers                                     Identification of studies via other methods
+
+                  Records identified from:
+
+
+
+
+ Identification
+                     PubMed (n = 354)                              Records removed before the
+                                                                                                         Records identified from:
+                     Science Direct (n = 277)                      screening:
+                                                                                                            Organizations (n = 31)
+                     Web of Science (n = 37)                          Duplicate records removed
+                                                                                                            Citation searching (n = 2)
+                     Scopus (n = 132)                                 (n = 90)
+
+                  Total Databases (n = 800)
+
+
+
+
+                  Records screened                                 Records excluded
+                  (n = 710)                                        (n = 625)
+
+
+
+
+                  Records assessed for eligibility                 Records excluded (n = 18):                                                           Records excluded (n = 25):
+                                                                                                         Records assessed for eligibility
+
+
+
+
+                                                                                                                                                                                          Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+                  (n = 85)
+
+
+
+ Screening
+                                                                                                         (n = 33)                                          No HMs evaluation in infant
+                                                                     HMs data does not distinguish                                                         formula and baby foods
+                                                                   between foods and infant                                                                (n = 23)
+                                                                   formulas (n = 4)                                                                        No specific measurement of
+                                                                     No specific measurement of                                                            HMs concentration is
+                                                                   HMs concentration is provided                                                           provided (n = 1)
+                                                                   (n = 5)                                                                                 Duplicated record (n = 1)
+                                                                     Uses HMs data from other
+                                                                   published studies to assess
+                                                                   health risks (n = 2)
+                                                                     Results are duplicated in
+                                                                   another study already included
+                                                                   (n = 2)
+                                                                     Results include foods for all
+                                                                   pediatric age groups (n = 1)
+                                                                     Other HMs evaluated (n = 1)
+                  Peer-review articles included                    Provide HMs concentration as a
+                  (n = 67)
+                                                                   general value for many different
+                  Reports and citation searching
+
+
+   Included
+                                                                   types of foods (n = 3)
+                  included (n = 8)
+
+                  Total of articles and reports
+                  included in the review (n = 75)
+
+
+
+Figure 1. PRISMA Flowchart of the Literature Selection Process
+
+excluded according to the established inclusion and                                                   Caribbean (n ¼ 15 studies), Africa (n ¼ 9 studies), and
+exclusion criteria. In total, 67 peer-reviewed articles                                               Oceania (n ¼ 3 studies). At the country level, Poland
+were included. The web searches identified 33 records:                                                had the highest number of studies (n ¼ 9), followed by
+1 report from a nonprofit organization, 31 national                                                   the United States (n ¼ 7) and Spain (n ¼ 7). Also, the
+reports from TDSs with information about HMs, and 2                                                   largest proportion of studies were published in 2019
+additional peer-reviewed articles through citation                                                    (n ¼ 14), followed by 2024 (n ¼ 13). In contrast, 2016
+searching of these documents. Of these records, 25 did                                                had the least number of studies (n ¼ 1). Figure S1A and
+not meet the inclusion criteria. Therefore, only 6 TDS                                                S1B illustrate the global distribution of the included
+reports, 1 nonprofit organization document, and 1                                                     studies in this review by country and publication year
+article report found through citation searching were                                                  (2014 to 2024), respectively.
+also included. This review included 75 studies (67 peer-
+reviewed articles, 1 non-profit organization report, 6                                                Presence of Heavy Metals in Baby Foods and Infant
+TDSs from various countries, and 1 additional article                                                 Formula Items Reported in the Included Studies
+found by citation searching). Of these, 23 reported
+information on baby foods, 24 on infant formulas, and                                                 Of the 75 studies included, each provided information
+28 on both (Figure 1).                                                                                on at least 1 food item; we collected information from a
+                                                                                                      total of 580 baby foods and 251 infant formula items.
+Global Evidence on the Presence of Heavy Metals in                                                    Figure 2 (A–C) shows a summary of the number of
+Baby Foods and Infant Formulas                                                                        baby foods and infant formulas evaluated for the pres­
+                                                                                                      ence of HMs by type of metal and according to the food
+Evidence from the included studies (peer-reviewed                                                     group, stage and specialty, and primary protein source
+articles and national reports), revealed Europe as the                                                classification. In total, from the 580 baby foods col­
+leading continent with the most published studies                                                     lected, we identified 1766 HM determinations; of these,
+(n ¼ 28 studies), followed by Asia (n ¼ 20 studies),                                                  484 determinations were reported for Pb, 483 for Cd,
+America, including North America (with the United                                                     478 for As, and 321 for Hg. In total, from the infant for­
+States), Central America, South America, and the                                                      mulas, we identified 653 determinations of HMs, 215
+
+Nutrition ReviewsV Vol. 84(2):448–461
+                             R
+                                                                                                                                                                                    451
+A                                                                                                                                                                                                                                                                                              B
+                                                           100%100                                                                                                                                                                                                                                                                    100
+                                                                                                                                                                                                                                                                                                                                     100
+
+
+                                                                 90% 90                                                                                  20%                                                                                                                                                                           90
+                                                                                                                                                                                                                                                                                                                                     90%
+                                                                                                                                                                                                                                                                               23%
+                                                                                                                                                                                                                   26%
+                                                                                                 29%
+                                                                                                                                                                                                                                                                                                                                                                                                                               31%                           32%
+                                                                 80% 80                                                                                                               38%                                                                                                                                                                                       38%
+                                                                                                                                                                                                                                                                                                                                       80
+                                                                                                                                                                                                                                                                                                                                     80%                                                                                                                                                                    39%
+                                                                                                                                                                                             48%                                                                                                                                                           45%                                                                                                                                                      43%
+                                                                                                                                                                                                                                                                                                                                                                  46%                                                                 48%       48%                                  46%
+
+
+
+
+                                                                                                                                                                                                                                                                                               Percentage of Infant formulas Items
+                                                                                                                                             53%                                                            54%
+
+
+
+
+Percentage of Baby Food Items
+                                                                                                                                                                                                                                                                                                                                             56%                                              53%
+                                                                 70% 70                                                                                                                                                                                                                                                                                                                                                                               57%
+                                                                          64%                                                                      61%                                                                                                                                                                                 70
+                                                                                                                                                                                                                                                                                                                                     70%            59%
+                                                                                                                                    66%
+                                                                                 73% 74%                                                                                                             74%                  71% 70%
+                                                                                                                75%                                                            75%                                                                                                                                                                                                     72%                                                                                                           73%
+                                                                 60% 60                                                                                                                                                                         79%                                                                                                                                                                    75%                                         77%   76%                75%
+                                                                                                                                                                 83% 84%                                                                                             84%                                                               60
+                                                                                                                                                                                                                                                                                                                                     60%                                                                        81%                                                            79%
+                                                                                                                                                                                                                                                                                                                                                                         85%
+                                                                                                                                                                                                                                                                                                                                                                                                         89%
+                                                                                                                                                                                                                                         96%           97% 97%
+                                                                 50% 50                                100%           100% 100%                                                                                                                                                                                                        50
+                                                                                                                                                                                                                                                                                                                                     50%
+
+
+                                                                 40% 40                                                                                  80%                                                                                                                                                                           40
+                                                                                                                                                                                                                                                                                                                                     40%
+                                                                                                                                                                                                                                                                               77%
+                                                                                                                                                                                                                   74%
+                                                                                                 71%
+                                                                                                                                                                                                                                                                                                                                                                                                                               69%                           68%
+                                                                 30% 30                                                                                                               63%                                                                                                                                                                                       63%
+                                                                                                                                                                                                                                                                                                                                       30
+                                                                                                                                                                                                                                                                                                                                     30%                                                                                                                                                                    61%
+                                                                                                                                                                                                                                                                                                                                                           55%                                                                                                                                                      57%
+                                                                                                                                                                                             52%                                                                                                                                                                  54%                                                                 52%       52%                                  54%
+                                                                                                                                             47%                                                            46%                                                                                                                                                                               47%
+                                                                 20% 20                                                                                                                                                                                                                                                                      44%                                                                                                      43%
+                                                                                                                                                   39%                                                                                                                                                                               20%20          41%
+                                                                          36%                                                       34%
+                                                                                 27% 26%                                                                                                             26%                  29% 30%                                                                                                                                                      28%
+                                                                                                                25%                                                            25%                                                                                                                                                                                                                                     25%                                               24%                25%      27%
+                                                                 10% 10                                                                                                                                                                         21%                                                                                                                                                                                                                23%         21%
+                                                                                                                                                                 17% 16%                                                                                             16%                                                             10%10                                                                      19%
+                                                                                                                                                                                                                                                                                                                                                                         15%
+                                                                                                                                                                                                                                                                                                                                                                                                         11%
+                                                                                                                                                                                                                                         4%             3%      3%
+                                                                  0% 0                                                                                                                                                                                                                                                                0%0
+                                                                          Cereals
+                                                                          n=                     Fish
+                                                                              91 n = 90 n = 86 n = 42and
+                                                                                                      n=3fish n =
+                                                                                                              mixes        Fruits
+                                                                                                                  4 n=9 n=9 n     and n = 105
+                                                                                                                              = 102   vegetables           Meat
+                                                                                                                                              n = 101 n = 91 n =and meat
+                                                                                                                                                                 98 n    mixes
+                                                                                                                                                                      = 85  n = 75 n = 32Mixes of n =
+                                                                                                                                                                                           n = 86 different foods
+                                                                                                                                                                                                       87 n =  82 n = 74 n =Rice
+                                                                                                                                                                                                                             72 nand
+                                                                                                                                                                                                                                   = 71  mixes
+                                                                                                                                                                                                                                     ricen = 94 n = 42 n = 32Roots     tubers
+                                                                                                                                                                                                                                                                   andn =
+                                                                                                                                                                                                                                                               n = 31     31 n = 31                                                          n = 36 n = 32 n = 22 n = 26 n = 59 n = 48 n = 18 n = 17 n = 38 n = 37 n = 32 n = 16 n = 23 n = 23 n = 23 n = 22 n = 31 n = 29 n = 29    n = 13 n = 28   n = 26 n = 18 n = 7
+                                                                           Pb Cd As Hg                  Pb Cd          As      Hg Pb Cd As HgStatusPb NotCd    As Hg
+                                                                                                                                                         dectected Detected%Pb Cd As                                 Hg Pb         Cd As Hg              Pb Cd        As Hg                                                                                                                                           Status    Not dectected    Detected%
+                                                                                                                                                                                                                                                                                                                                             Pb     Cd      As     Hg     Pb     Cd     As     Hg        Pb      Cd      As      Hg       Pb     Cd    As     Hg    Pb    Cd    As     Hg      Pb      Cd      As     Hg
+                                                                                                               FISH AND                     FRUITS AND                   MEAT AND                     MIXES OF                 RICE AND RICE                    ROOT AND
+                                                                                  CEREALS                                                                                                            DIFFERENT                                                   TUBERS                                                                                                           STAGE 2                                                                                SPECIALTY                    WITHOUT
+                                                                                                              FISH MIXES                    VEGETABLES                  MEAT MIXES                                                 MIXES                                                                                                             STAGE 1                                                   STAGE 1 AND 2                     STAGE 3
+                                                                                                                                                                                                       FOODS                                                                                                                                                                                                                                                             FORMULAS                      STAGE
+
+
+                                                                                                                                              Classification of Baby Food Items                                                                                                                                                                                                                           Classification of Infant formulas Items
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+C                                                                  100
+                                                                   100%
+                                                                                                                                                9%
+                                                                                                                                  16%                        15%
+                                                                     90
+                                                                    90%
+                                                                             27%                                                                                                                    25%                                     28%          29%
+                                                                                                                                                                                                                                                                      35%
+
+
+
+
+                           Percentage of Infant formulas Items
+                                                                     80
+                                                                    80%
+                                                                                                        47%
+                                                                                                                      53%
+                                                                    70%                    56%                                                                                                                                                                                                                                                                                                      Pb                               Cd
+                                                                     70
+                                                                                                                                                                                                                                                                                      66%                                                                                                                 DETECTED                         DETECTED
+                                                                   60%
+                                                                    60                                                                                                    80%
+                                                                                                                                                                                                                                                                                                                                                                                                          NOT DETECTED                     NO DETECTED
+                                                                                                                                                                                                                                                                                                                                                                                                  As                                 Hg
+                                                                   50%
+                                                                    50                                                                                                                100%                       100%         100%                                                                                                                                                                        DETECTED                         DETECTED
+                                                                                                                                               91%
+                                                                   40%                                                            84%                        85%                                                                                                                                                                                                                                          NO DETECTED                      NO DETECTED
+                                                                    40
+                                                                             73%                                                                                                                    75%                                     72%          71%
+                                                                   30%                                                                                                                                                                                                65%
+                                                                    30
+                                                                                                        53%
+                                                                    20%                                               47%
+                                                                                           44%
+                                                                    20
+                                                                                                                                                                                                                                                                                      34%
+                                                                   10%
+                                                                    10                                                                                                    20%
+                                                                    0%
+                                                                     0
+                                                                            n = 100       n = 89       n = 62         n = 60      nS=OY25      n = 22       n = 20       n=5          n=3
+                                                                                                                                                                                    SPEC IALIZED
+                                                                                                                                                                                                    n=4           n=3          n=1         n = 87      n = 80         n = 57          n = 35
+                                                                                                                                                                                     FORMULAS
+                                                                              Pb            Cd           As           Hg           Pb           Cd           AsStatus     Hg
+                                                                                                                                                                          Detected%
+                                                                                                                                                                                    Pb           Cd
+                                                                                                                                                                                     Not dectected
+                                                                                                                                                                                                                As            Hg          Pb            Cd           As           Hg
+                                                                                                                                                                                                       SPECIALTY                                          NOT SPECIFIC
+                                                                                            COW-BASED                                              SOY-BASED
+                                                                                                                                                                                                       FORMULAS
+
+
+
+
+                                                                                                                                                   Classification of Infant formulas Items
+
+
+
+Figure 2. Presence of the Heavy Metals Lead, Cadmium, Arsenic, and Mercury in Baby Foods and Infant Formulas Across the Included
+Studies (n ¼ 75), Based on Determinations in Baby Foods (n ¼ 1776) and INFANT formulas (n ¼ 653), Classified by Food Group, Stage and
+Specialty, and Primary Protein Source. (A) Food groups classification (n¼580); (B) stage and specialty needs (n¼251); (C) primary protein
+source (n¼251)
+
+for Pb, 195 for Cd, 142 for As, and 101 for Hg (detailed                                                                                                                                                                                                                                                                    specialty formulas. As was detected in 79% of specialty
+information can be found in Table S2).                                                                                                                                                                                                                                                                                      formulas (Figure 2B).
+     Concerning baby foods, HMs were detected in 65%                                                                                                                                                                                                                                                                             Concerning the primary protein source of infant
+(n ¼ 1142/1766) of all the evaluated items, with Pb                                                                                                                                                                                                                                                                         formula subclassification (in which we separated soy-
+present in 69% (n ¼ 332/484), Cd in 72% (n ¼ 349/483),                                                                                                                                                                                                                                                                      based formulas from the specialty formulas in the pre­
+As in 73% (n ¼ 351/478), and Hg in 34% (n ¼ 110/321)                                                                                                                                                                                                                                                                        vious classification, and also included 2 infant formulas,
+of baby food items evaluated (Table S2). Pb was most                                                                                                                                                                                                                                                                        goat-based, in the cow-based classification), we detected
+frequently detected in fish and fish mixes (100%), roots                                                                                                                                                                                                                                                                    Pb in 100% of specialty formulas, in 84% of soy-based
+and tubers (97%), and meat and meat mixes (83%). Cd
+                                                                                                                                                                                                                                                                                                                            formulas, and in 73% of cow-based formulas. Cd was
+was detected in 97% of roots and tubers, and 84% of
+                                                                                                                                                                                                                                                                                                                            found in 91% of soy-based formulas and 75% of spe­
+meat and meat mixes food groups. As was mainly
+                                                                                                                                                                                                                                                                                                                            cialty formulas. As was detected in 100% of specialty
+detected in 100% of fish and fish mixes, and 96% of rice
+and rice mixes. Hg was detected in 100% of fish and fish                                                                                                                                                                                                                                                                    formulas and 85% of soy-based formulas. Hg was
+mixes and 79% of rice and rice mixes (Figure 2A).                                                                                                                                                                                                                                                                           detected in 100% of specialty formulas and 47% of cow-
+     Concerning infant formulas, HMs were detected in                                                                                                                                                                                                                                                                       based infant formulas (Figure 2C) (detailed information
+63% (n ¼ 411/653) of all the infant formula items eval­                                                                                                                                                                                                                                                                     about the numbers of total determinations and detec­
+uated. Pb was detected in 74% (n ¼ 160/215), Cd in 61%                                                                                                                                                                                                                                                                      tions of each heavy metal per food group and infant for­
+(n ¼ 119/195), As in 63% (n ¼ 90/142), and Hg in 42%                                                                                                                                                                                                                                                                        mula classification can be found in Table S2).
+(n ¼ 42/101) of all infant formula items collected
+worldwide.                                                                                                                                                                                                                                                                                                                  Concentrations of Heavy Metals Detected in Baby
+     Regarding the stage and specialty formulas classifi­                                                                                                                                                                                                                                                                   Foods and Infant Formulas and Comparison with
+cation, we identified a great percentage of Pb detections                                                                                                                                                                                                                                                                   International Maximum Levels
+in infant formulas for stage 1 and 2 (89%), stage 2
+(85%), and stage 1 (56%). Cd was detected in 81% of                                                                                                                                                                                                                                                                         Figures 3, 4, and 5 show the distributions of the con­
+infant formulas for stage 1 and 2, and in 76% of                                                                                                                                                                                                                                                                            centrations (mg/kg) of HMs detected across baby food
+
+452                                                                                                                                                                                                                                                                                                                                                                                                                            Nutrition ReviewsV Vol. 84(2):448–461      R
+                                                                                                                                              Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+Figure 3. Distribution of Detected Concentrations of Heavy Metals in Baby Foods by Food Group Classification. (A) Lead (Pb) concentrations;
+(B) cadmium (Cd) concentrations; (C) arsenic (As); (D) mercury (Hg). ML, International Maximum Level; n, number of food items
+
+and infant formula classifications. The central line                    64) of detected items in mixes of different foods, and
+within each box represents the median concentration,                    17% (n ¼ 11/66) of detected items in cereals exceeded
+and the upper and lower edges correspond to the inter­                  the Cd ML (Figure 3B) (Table S2). Regarding As, the
+quartile range (Q1, Q3); the red asterisks correspond to                highest median concentration was found in fish and
+the concentrations exceeding HM MLs. The HM MLs                         fish mixes (0.165 mg/kg [0.053 mg/kg, 0.210 mg/kg]),
+per food group and infant formula classification                        followed by rice and rice mixes (0.048 mg/kg,
+employed as references can be found in Table S2. Of                     [0.019 mg/kg, 0.107 mg/kg]). Fish and fish mixes (89%
+the baby food items, fish and fish mixes had the highest                of detected items), cereals (42% of detected items), and
+Pb median (0.008 mg/kg [0.007 mg/kg, 0.029 mg/kg]),                     rice and rice mixes (30% of detected items) were the
+followed by rice and rice mixes (0.008 mg/kg [0.003 mg/                 baby food groups that most exceeded the As ML
+kg, 0.027 mg/kg]), roots and tubers (0.007 mg/kg                        (Figure 3C) (Table S2). Regarding Hg, fish and fish
+[0.002 mg/kg, 0.015 mg/kg]), and cereals (0.007 mg/kg                   mixes had the highest median concentration (0.016 mg/
+[0.003 mg/kg, 0.015 mg/kg)]. In comparison with the Pb                  kg [0.009 mg/kg, 0.021 mg/kg]) (Figure 3D).
+ML, 33% (n ¼ 1/3) of fish and fish mix food items with                       Regarding infant formulas, classified stage and spe­
+Pb detection, 31% (n ¼ 16/51) of rice and rice mix food                 cialty formula, the highest median concentration of Pb
+items with Pb detection, and 21% (n ¼ 12/58) of cereal                  was identified in stage 2 formulas (0.015 mg/kg
+food items with Pb detection exceeded the Pb ML                         [0.008 mg/kg, 0.048 mg/kg]), and in stage 1 formulas
+(Figure 3A) (Table S2).                                                 (0.015 mg/kg [0.003 mg/kg, 0.025 mg/kg]). Notably, 72%
+     Regarding Cd, the highest median concentrations                    (n ¼ 36/50) of stage 2 items with Pb detection, and 60%
+were found in cereals (0.013 mg/kg [0.004 mg/kg,                        (n ¼ 12/20) of stage 1 formula items with Pb detection
+0.030 mg/kg]), mixes of different foods (0.008 mg/kg                    exceeded the Pb ML. Regarding Cd, the highest median
+[0.002 mg/kg, 0.036 mg/kg]), and rice and rice mixes                    concentrations were identified in stage 2 formulas
+(0.007 mg/kg [0.003 mg/kg, 0.013 mg/kg]); 19% (n ¼ 12/                  (0.006 mg/kg [0.002 mg/kg, 0.010 mg/kg]), stage 1
+
+Nutrition ReviewsV Vol. 84(2):448–461
+                 R
+                                                                                                                                       453
+formulas (0.005 mg/kg [0.003 mg/kg, 0.011 mg/kg]), and     from the intake of these products in infants. Table S5
+stage 3 formulas (0.005 mg/kg [0.003 mg/kg, 0.010 mg/      summarizes the data for the 15 studies reporting health
+kg)]. We note that 42% (n ¼ 8/19) of stage 1 formula       risks associated with the intake of baby foods or infant
+items with Cd detection, 28% (n ¼ 5/18) of stage 2 for­    formulas in infants under 36 months.
+mula items with Cd detection, and 36% (n ¼ 4/11) of              Regarding baby foods, in total, 4 articles reported
+stage 3 formula items with Cd detection exceeded the       health risks. For infants of 6 months of age and above, 4
+Cd ML. Regarding As, infant formulas without stage         articles25–28 reported health risks linked to As exposure; 3
+were identified with the highest median concentrations     of them related to the intake of rice and rice-mix prod­
+(0.052 mg/kg [0.014 mg/kg, 0.190 mg/kg]), with 71%         ucts,26–28 and 1 from the intake of roots and tubers, and
+(n ¼ 5/7) of their items exceeding the As ML, and 62%      cereals products.25 Also, 3 studies identified risks related
+(n ¼ 8/13) of stage 3 formula items exceeded the As ML.    to Cd for rice and rice-mix products.26–28 For Pb, 2 stud­
+Hg was the less-studied HM; higher Hg median concen­       ies reported health risks linked to its exposure, 1 from the
+
+
+
+
+                                                                                                                               Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+trations were found in infant formulas without stage       intake of roots and tubers, and cereal products,25 and 1
+(0.005 mg/kg [0.003, 0.007 mg/kg]) (Figure 4A–D)           from rice and rice-mix products.26 Concerning infant
+(Table S2).                                                formulas, 10 articles reported health risks (1 also pro­
+     Figure 5A–D presents the detected HM concentra­       vided information for baby foods). Six articles reported
+tions in infant formula according to their primary pro­    health risks related to As exposure in infants, 2 studies
+tein source classification. The highest Pb median          only evaluated infants under 6 months (stage 1 formu­
+concentration was found in nonspecified formulas           las),27,29 3 studies considered infants from 0 to 12 months
+(0.011 mg/kg [0.002 mg/kg, 0.024 mg/kg]), with 57%         of age (stage 1 and 2 formulas),30–32 and 1 study consid­
+(n ¼ 36/63) of items exceeding the Pb ML. Cow-based        ered infants of 12–36 months (stage 3 formulas).33 Health
+milk formula had the second-highest median Pb con­         risks for Cd were identified in 4 studies: 2 for children
+centration (0.005 mg/kg [0.002 mg/k, 0.013 mg/kg]),        under 6 months,34 and 3 in children from 0 to
+with 34% (n ¼ 25/73) of items exceeding the Pb ML.         12 months.31,32,35 For Pb, 4 studies identified health risks,
+The highest Cd median concentration was found in           2 related to infants aged ≤6 months,34,36 and 2 related to
+nonspecified formulas (0.005 mg/kg [0.002 mg/kg,           infants aged ≥6 months.31,35 Health risks for Hg in spe­
+0.010 mg/kg]), with 39% (n ¼ 22/57) of its items exceed­   cialty needs infant formulas were reported in 1 article for
+ing the Cd ML of 0.01 mg/kg. The second-highest Cd         infants below 6 months.37
+median concentration was found in soy-based milk                 Additionally, 2 articles evaluated both baby foods
+(0.001 mg/kg [0.001 mg/kg, 0.002 mg/kg]) and cow-          and infant formulas, reporting health risks for Pb, Cd,
+based milk (0.001 mg/kg [0.000 mg/kg, 0.002 mg/kg]).       As, and Hg in infants aged 0–12 months (stage 1 and
+     The highest median As concentrations (0.020 mg/       2),38 and for Pb and Hg in nonspecified formulas, and
+kg [0.003 mg/kg, 0.034 mg/kg]) were identified in the      baby foods containing mixes of different foods.39
+nonspecified group. Cow-based milk had the second-
+highest As median (0.004 mg/kg [0.002 mg/kg,                                      DISCUSSION
+0.006 mg/kg]), followed by soy-based milk (0.003 mg/kg
+[0.002 mg/kg, 0.006 mg/kg]). Fifty-four percent (n ¼ 20/   In this ScR, we synthesized the scope of the global evi­
+37) of non-specific formulas exceeded the As ML            dence of HM concentrations in 580 baby food and 251
+(Figure 5A–D).                                             infant formula items from 75 studies conducted over
+     Table S3 and Table S4 report the detailed informa­    the past decade. Over 60% of the evaluated baby foods
+tion about the presence of HMs obtained from the stud­     and infant formula items contained detectable Pb, Cd,
+ies included in this review. Table S2 provides detailed    and As concentrations, while Hg was detected in over
+information about the median and interquartile range       30%. Among the baby foods, Pb was most frequently
+of the HM concentrations by baby food and infant for­      detected in fish and fish mixes and roots and tubers,
+mula classification, HM MLs per food group, and infant     with the highest median concentrations observed in fish
+formula classification employed as a reference.            mixes, and rice and rice mixes (0.008 mg/kg in both),
+                                                           and these food groups exceeded the Pb ML by 33% and
+Health Risks Identified in the Included Evidence           31%, respectively. Pb was next-most frequently observed
+                                                           in cereals, and roots and tubers (0.007 mg/kg in each)
+We identified 41 studies that conducted infant health      with 21% and 16% of its items exceeding the Pb ML,
+risk assessments from HMs associated with consuming        respectively. Cereals had the highest median Cd concen­
+baby foods and infant formulas; the hazard quotient        tration (0.013 mg/kg), and 19% of mixes of different
+and hazard index were the most common assessment           foods and 17% of cereals exceeded the Cd ML. Fish and
+methods employed. Of the 41 studies, 15 identified risks   fish mixes consistently had the highest median
+
+454                                                                                    Nutrition ReviewsV Vol. 84(2):448–461
+                                                                                                        R
+                                                                                                                                             Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+Figure 4. Distribution of Detected Concentrations of Heavy Metals in Infant Formulas by Stage and Specialty Needs Classification. (A) Lead
+(Pb); (B) cadmium (Cd); (C) arsenic (As); (D) mercury (Hg). ML, International Maximum Level; n, number of food items
+
+concentrations for As (0.165 mg/kg) and Hg (0.016 mg/                   Pb, Cd, and As. Also 34% of cow-based items in which
+kg), while rice and rice mixes had the second-highest                   Pb was detected exceeded the Pb ML. Health risk
+median concentration of As (0.048 mg/kg), followed by                   related to intake of these products were identified for
+cereals (0.015 mg/kg). These groups detected concentra­                 baby foods in infants 6 months and older for As (n ¼ 4
+tions that exceeded the As ML in 89% of items, 30% of                   studies), Cd (n ¼ 3 studies), and Pb (n ¼ 2 studies),
+items, and 42% of items, respectively. Pb was detected                  mainly related to rice and rice-mix products, while for
+in more than 50% of the evaluated infant formulas.                      infant formulas health risks were reported for infants
+Stage 2 and 1 showed the highest median concentra­                      under 12 months based on stage 1 and 2 infant formula
+tions for Pb (0.015 mg/kg) and Cd (0.006 mg/kg and                      consumption, for As (n ¼ 5 studies), Pb (n ¼ 4 studies),
+0.005 mg/kg, respectively). The highest percentages of                  and Cd (n ¼ 4 studies).
+exceedances of the Pb ML were identified for stage 1                         Worldwide, the evidence from the included studies
+and 2 formulas (89%), while for Cd, the greatest exceed­                was mainly collected from the European continent
+ances were found in stage 1 (42%), and stage 3 formulas                 (n ¼ 28), followed by Asia (n ¼ 20). According to
+(36%). For As, infant formulas without stage had the                    another review developed by our research group, which
+highest median concentration (0.052 mg/kg), with 72%                    evaluated the presence of HMs in unprocessed and min­
+of detected items exceeding the As ML. These formulas                   imally processed foods, Europe was the second conti­
+also had the highest Hg median concentration                            nent in terms of available information, just after Asia.40
+(0.005 mg/kg).                                                          In our review, Poland (n ¼ 9) had the highest number
+     Concerning primary protein source classification,                  of included studies. This could be due to the reported
+Pb, Cd, As, and Hg had the highest median concentra­                    contamination of soils in this region with Pb and Cd,
+tions in nonspecific formulas (0.011 mg/kg, 0.005 mg/                   the reported presence of Hg in fish products, the identi­
+kg, 0.020 mg/kg, and 0.002 mg/kg, respectively), and                    fied areas with high industrialization,41–43 and to their
+more than 39% of these formulas exceeded the MLs for                    dietary pattern rich in rice-based foods,44 a food highly
+
+Nutrition ReviewsV Vol. 84(2):448–461
+                 R
+                                                                                                                                      455
+                                                                                                                                                 Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+Figure 5. Distribution of Detected Concentrations of Heavy Metals in Infant Formulas by Their Primary Protein Source Classification. (A) Lead
+(Pb); (B) cadmium (Cd); (C) arsenic (As); (D) mercury (Hg). ML, International Maximum Level; n, number of food items
+
+contaminated with HMs.45,46 In America, the United                        standards during manufacturing, to ensure the safety
+States has been a pioneer in studying HM presence in                      and security of baby foods and infant formulas.
+infant foods,9 providing a significant number of studies                        We identified HMs in 65% (n ¼ 1142/1766) of all
+(n ¼ 7) for this ScR, for example, the FDA TDS47 and                      evaluated baby foods and in 63% (n ¼ 411/653) of
+the “Healthy Babies Bright Futures” report.11 Most of                     all infant formulas. The EC has declared that foods with
+the included evidence was published during the years                      HM concentrations higher than the MLs may not be
+2024 (n ¼ 13 studies) and 2019 (n ¼ 14 studies). The                      sold, to protect public health , particularly that of popu­
+growing number of studies published in recent years                       lations of high-risk groups, such as infants.55 This indi­
+may be in response to the various reports and national                    cates that the items identified in this ScR as exceeding
+TDS reports showing the presence of HMs in this type                      the MLs for the various HMs should not be sold.
+of products.47–52 However, we detected a significant                            Concerning the threshold for critical HM-induced
+knowledge gap, as only 7 out of 30 TDS reports have                       effects, the Panel on Contaminants in the Food Chain
+assessed HM concentrations in these foods, represent­                     (CONTAM) reported that no evidence exists for a safe
+ing 15.4% of the countries worldwide.                                     threshold of Pb-induced effects.56 For Cd, the EFSA
+     Previous reviews have reported that HM contami­                      established the Tolerable Weekly Intake (TWI) of
+nation results from human activity and natural events,                    2.5 µg/kg body weight, a level unlikely to cause adverse
+introducing HMs into the food chain and contaminat­                       health effects in consumers.57 For As, the CONTAM
+ing crops and animals that feed on this organic mat­                      Panel identified the lower confidence limit of the bench­
+ter.53 Beyond the contamination of the raw materials                      mark dose (BMDL01) within the range 0.3 and 8 µg/kg
+used to produce baby foods, tap water is another source                   body weight per day to avoid cancers of the lung, skin,
+of contamination, as is the equipment and processes                       and bladder.58 For Hg, the CONTAM Panel established
+used to fill containers,8,29 and the packaging materials,                 a TWI of 4 µg/kg body weight for inorganic mercury
+such as cans,54 plastics, metals, and glass.29 This high­                 and 1.3 µg/kg body weight for methylmercury.59 Baby
+lights the importance of producers meeting high-quality                   foods and infant formulas identified with detectable
+                                                                          concentrations of HMs in this ScR contribute
+
+456                                                                                                      Nutrition ReviewsV Vol. 84(2):448–461
+                                                                                                                          R
+significantly to the intake of these contaminants,                 We identified As and Hg in fish and mixes of fish
+increasing the possibilities of exceeding the established     products in all tested items (n ¼ 9/9), with median con­
+reference doses and posing potential health risks for         centrations of 0.053 mg/kg for As and 0.016 mg/kg for
+infants.                                                      Hg. Eighty-nine percent (n ¼ 8/9) of fish and fish-mix
+     The data we reviewed showed detection of Pb, Cd,         items exceeded the As ML. Fish and fish products are
+As, and Hg in 69%, 72%, 73%, and 34% of the baby              considered a source of arsenobetaine, which represents
+food items evaluated. Even though fish and fish mixes         the less toxic form of As.70 In contrast, Hg in its organic
+was one of the food groups with the least items eval­         form, methylmercury, is the most toxic form of Hg, and
+uated, Pb was detected in 100% (n ¼ 3/3) of this food         exposure to it has been associated with adverse neuro­
+group. Pb was detected in 97% (n ¼ 31/32) of items in         cognitive effects in infants.71 Evidence shows that the
+the roots and tubers food group, consistent with the          health risk from fish consumption is of serious concern
+findings of other studies. A review that evaluated the        due to Hg emissions, and the stability of Hg and its per­
+
+
+
+
+                                                                                                                            Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+incidence of HMs such as Pb, Hg, and Cd in seafood            sistent characteristics.72 The presence of HMs in fish is
+from the African, Indian and the Red Sea coasts identi­       related to the marine environment contamination with
+fied HM concentrations higher than the permitted MLs,         As and Hg due to the deposition of these HMs from the
+which indicates a possible threat to public health, and       atmosphere and aquaculture processes, and their bioac­
+the need for monitoring programs and control of HMs           cumulation in fish tissue.32,73 There are other contami­
+in seafood products.60 Also, a study conducted in China       nation pathways for As and Hg to enter cereals such as
+that evaluated Pb in seafood, including fish from vari­       rice, related to cultivation methods, and the irrigation
+ous coastal areas of Fujian, reported the presence of dif­    water and the soil where they are produced containing
+ferent chemical species of Pb in seafood samples. The         HMs.73
+characteristics of Pb speciation in the seafood depended           Concerning infant formulas, Pb was identified in
+on the type of the seafood itself, with fish samples show­    74% of the evaluated items, Cd in 61%, As in 63%, and
+ing the highest Pb concentrations.61 The presence of          Hg in 42%. Regarding stage and specialty classification,
+HMs in roots and tubers (i.e. food growing under­             89% of stage 1 and 2 infant formulas (n ¼ 34/38) were
+ground) has been related to contamination of the soil in      found to contain Pb, and 81% (n ¼ 30/37) of stage 1 and
+which they grow.62 Previous studies have indicated that       2 infant formulas were found to contain Cd.
+crops grown on contaminated farmland with elevated            Consistently, a study from the United States previously
+HM concentrations can act as bio-indicators of contam­        reported Pb and Cd in infant formulas; that study eval­
+ination levels.63 In Nigeria, moderate Pb contamination       uated 91 infant formulas and identified Pb in 37% and
+of roots and tubes has been reported.64                       Cd in 57% of the samples.74
+     In our study, the highest median concentrations of            It is important to mention that, in the specialty for­
+Pb were identified in the rice and rice-mix and the fish      mulas, Cd was detected in 76% (n ¼ 22/29) and As in
+and fish-mix food groups (0.008 mg/kg), and in cereals,       79% (n ¼ 23/29). Since the infant formulas included in
+and roots, and tubers (0.007 mg/kg). Thirty-one percent       this classification included hypoallergenic substances,
+(n ¼ 16/51) of items in the rice and rice-mix food group      antireflux agents for digestive problems, and soy, this
+exceeded the Pb ML. Previous studies have reported ele­       elevated percentage of items with HM detection could
+vated HM concentrations in fish and rice, raising con­        be explained by the use of other ingredients for the base
+cern that long-term consumption may pose significant          preparations, such as rice. However, many studies did
+risks to human health.65,66 Cd was detected in 97%            not provide specific information on the type of infant
+(n ¼ 30/31) of roots and tubers and 74% (n ¼ 64/87) of        formula for example, whether it was soy-based, cow’s
+mixes of different foods, but a higher median concen­         milk-based, or intended for a particular developmental
+tration was found in cereals (0.013 mg/kg), with 17%          stage, nor on the primary source of protein. This lack of
+(n ¼ 11/66) of cereal items exceeding the Cd ML. It has       detail limits the ability to compare results across studies
+been consistently reported that the sources of Pb and         and to accurately assess differences in heavy metal expo­
+Cd contamination include atmospheric passage into             sure related to formula composition. Rice is considered
+cereals such as rice, wheat, green leafy vegetables, seeds,   to be one of the main ingredients contaminated with
+beans, and tuber crops, which absorb it through their         As.45,75,76 Some specialty formulas are made based on
+roots, stems, leaves, and grains.67–69 Also, cereals and      other cereals (eg, maize, quinoa, wheat, and oats can be
+cereal products, vegetables, nuts and pulses, starchy         used as substitutes), but Pb and Cd have also been
+roots and potatoes, and meat and meat products are            reported in these products.37 Another potential source
+recognized foods that contribute the most Cd exposure         of contamination is through animals that have been
+for humans.57                                                 contaminated with Pb, As, and Hg from the atmosphere
+
+Nutrition ReviewsV Vol. 84(2):448–461
+                 R
+                                                                                                                     457
+that has accumulated in their feed and water, as is the      of risk indices for HMs does not equate to the absence
+case with dairy cows.77,78                                   of adverse effects.62 The presence of HMs in food is a
+     Our findings about the nature of infant formula         global public health issue.28
+highlight the presence of Pb in 84% (n ¼ 21/25) of                Regarding the type of analytical method, induc­
+soy-based items evaluated, and in 73% (n ¼ 73/100) of        tively coupled plasma mass spectrometry (ICP-MS) and
+cow-based items evaluated. Additionally, Cd was              atomic absorption spectrometry (AAS) were the most
+detected in 91% (n ¼ 20/22) of soy-based infant formu­       common methods used for HM determination in the
+las and in 44% (n ¼ 39/89) of cow-based formulas. The        included studies. This could be related to ICPM-MS
+high percentage of Cd detected in soy-based infant for­      having a significant advantage over other techniques
+mulas could be related to worldwide evidence that            (including AAS) by measuring nearly all elements in the
+reports that Cd content in soybeans may be due to a          periodic table.80 ICPM-MS is also sensitive to detection
+change in the pH of the growing soil, with a negative        at the picogram level and has reproducibility.81–83 On
+
+
+
+
+                                                                                                                                Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+correlation between pH and Cd content: the higher the        the other hand, the least-used methods were Direct
+acidity of the soil, the higher the presence of Cd in the    Mercury Analysis (DMA) and the Differential Pulse
+plant.70                                                     Anodic Stripping Voltammetry Method (DPASV);
+     The danger of HM presence in infant food, once          DMA is a specialized method for the specific analysis of
+incorporated into the body, lies in their similarity to      Hg and was therefore less used, while DPASV has the
+essential metals such as zinc, magnesium, selenium, cal­     disadvantages of lacking specificity and reproducibility,
+cium, and iron, giving them the capacity to alter enzy­      and can involve the formation of intermetallic compo­
+matic      functions,      affect    oxidation–reduction     nents, biofilms and fouling.84 Previous studies have
+mechanisms, increase oxidative stress, and thus damage       reported the need for laboratories to move to ICP-MS
+protein and DNA structure.8 HMs should not be                for contaminant detection, to maintain a validated
+present in foods, particularly those intended for infants,   methodology, to work to lower detection limits, and to
+because the body does not metabolize HMs, and they           participate in quality control programs.4 High-
+therefore accumulate in the body.71 In infants, even         efficiency detection of HMs is essential for ensuring
+small amounts of HMs can affect developing organ sys­        food safety,85 especially in younger children.
+tems, and cause cognitive disability, behavioral prob­            Regarding conflicts of interest, it is important to
+lems, multi-organ damage (such as damage to the              mention that, except for 1 study that received funding
+bladder and lung), trigger cancer development, and           from the Nestl�e Research Center,86 the studies included
+cause reproductive problems.73 This is of special con­       in this review did not report any potential conflicts of
+cern in younger infants, given the additional toxicity for   interest.
+infants with incomplete body development, their                   A strength of this study is that it is one of the first
+increased intestinal absorption capacity, and their high     reviews to concentrate on HM concentrations in baby
+intake relative to body weight.9                             foods and infant formula in the last decade worldwide.
+     We identified the highest proportion of detected        We followed a systematic approach to obtain the cur­
+HM concentrations in stages 1 and 2 formulas, which          rent evidence, following the international criteria in
+correspond to phases of rapid growth and development         every phase of the process.23 We used the international
+of organs and systems of infants; this highlights the        references for MLs.19–22 Our review has highlighted the
+need to monitor these products intended for infants.         limited number of national reports on the contamina­
+Also, we identified a lack of MLs for baby foods and         tion of baby food and infant formula that exist, the need
+infant formula products concerning Cd, As, and Hg by         to regulate manufacturing methods, the need to identify
+the FAO/WHO CODEX19; moreover, the EC/EFSA has               contamination risk points in the food chain, and the
+no Hg ML established for baby foods and infant               presence of environmental contamination affecting raw
+formulas.55                                                  materials, such as crops and food animals.
+     Concerning health risk assessment, 15 out of 41              Our study has some limitations; we identified high
+studies reported health risks related to the intake of       heterogeneity in the reporting of the results by the stud­
+HMs; significant health risks were identified for infants    ies, which made our classification of baby foods diffi­
+of ≥6 months for rice products and for infants of            cult; we had many food items that had to be excluded
+≤12 months consuming stage 1 and 2 formulas. The             because of lack of information about the ingredients,
+presence of HMs in an infant’s body could cause severe       and some had to be included in food mixes because of
+damage to their cognitive development.8,79 Studies have      the lack of specificity in their descriptions. Regarding
+documented concern about health risks caused by the          infant formulas, many heavy metal detections were
+consumption of baby foods and infant formulas with           found in formulas with limited information about the
+detectable concentrations of HMs, and that the absence       primary protein source, stage, or specialty needs
+
+458                                                                                     Nutrition ReviewsV Vol. 84(2):448–461
+                                                                                                         R
+classification. This could have reduced the specificity of    Cd. Regarding infant formulas, the exceedances of MLs
+our classification. However, we acknowledge that these        were concerning in stages 1 and 2 for Pb and Cd, and in
+limitations restrict the precision with which we can          stage 3 for Cd and As; infant formulas without stages
+describe food types in terms of the presence of heavy         were of concern for As. Additionally, nonspecific for­
+metals and the number of items exceeding the maxi­            mulas were of concern for all HMs; cow-based infant
+mum limits (ML). Also, our review could not identify          formula was also particularly concerning for Pb.
+the sources of HM contamination in these foods.               Because of the health risks identified, rice and rice-mix
+Additionally, we identified high heterogeneity in report­     baby foods for infants up to 6 months were of particular
+ing the health risk assessment results, making it difficult   concern in relation to As and Cd, and formulas for
+to compare the results among the different articles.          infants under 12 months were of particular concern in
+Finally, publication bias was a potential limitation,         relationi to As, Pb, and Cd. The lack of data from many
+because studies with no identification of HM presence         regions highlights an urgent need for more comprehen­
+
+
+
+
+                                                                                                                          Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+in baby foods or infant formulas, or of health risks,         sive global evidence. These findings emphasize the
+might be less likely to be published or could be underre­     importance of stricter regulations, of enhancing moni­
+presented in the available literature. This may have          toring systems, and of ensuring manufacturers adhere
+restricted our ability to fully map the presence of HMs       to stricter safety standards to protect infant health and
+in baby foods and infant formulas. Our results should         well-being.
+be taken cautiously, as they do not reflect the current
+situation in each country. However, the results pre­          Acknowledgments
+sented could provide helpful information for establish­
+ing constant monitoring of HM presence in infant food,
+for the control of the food chain and the reduction of        Author Contributions. Conceptualization was the work
+contamination by HMs, as well as for the promotion of         of S.C.-L., M.F.R.H, A.C., and L.B.-R. Design was
+legislative initiatives or the implementation of policies     undertaken by S.C.-L., M.F.R.H, L.B.-R., A.C, and M.M.
+to reduce or eradicate the presence of HMs in foods           T.-R. The methodology was created by S.C.-L., M.F.R.
+intended for infants and children. For future studies,        H. A.C., M.M.T.-R., R.M.M.-M., and L.B.-R. Data col­
+more research is also needed about points of contami­         lection was undertaken by S.C.-L. and M.F.R.H. Data
+nation risk, to encourage the industry worldwide to           analysis and interpretation was undertaken by S.C.-L.,
+have high-quality standards in the manufacture of             M.F.R.H., and A.M.R.L. Writing—original draft prepa­
+infant products, as well as to understand the long-term       ration was by S.C.-L. and M.F.R.H. Supervision was
+health effects in infants of chronic daily low-level HMs      undertaken by M.M.T.-R, A.C., and R.M.M.-M. All
+derived from exposure to these products.                      authors read and approved the version of the manu­
+      Additionally, we encourage future studies to report     script being submitted. All authors share responsibility
+heavy metal concentrations and estimate dietary intake        for ensuring the manuscript complies with the journal’s
+based on the actual consumption patterns of the target        style requirements and terms of consideration.
+infant population. Unifying health risk assessment                 S. C.-L. and M.F.R.H. contributed equally to this
+methods is necessary worldwide. Finally, it is also essen­    review.
+tial to promote studies that assess consumption risk in
+exposed infant populations and estimate the potential         Supplementary Material
+long-term effects of consuming these products.
+                                                              Supplementary Material is available at Nutrition Reviews
+                          CONCLUSION                          online.
+
+This review highlights widespread HM presence in baby         Funding. The authors acknowledge the financial sup­
+foods and infant formulas. Because of their higher con­       port provided by Universidad Iberoamericana through
+centrations, baby foods containing fish, rice, and cereals    the Extraordinary Call to Promote the Development or
+were particularly concerning for Pb and As. Baby foods        Consolidation of Research Projects, under the project
+containing mixes of different foods, and cereals were of      entitled “Evaluation and Validation of X-ray
+particular concern for Cd, and baby foods containing          Fluorescence Methodology for the Quantification of
+fish and fish mixes were of particular concern for Hg.        Lead in Infant Formula and Foods for Children under
+Exceedances of MLs for As and Pb were notable in fish,        24 Months.” L.B.-R. (#854860) is supported by Consejo
+rice, and cereal products, while cereal and mixes of dif­     Nacional de Humanidades Ciencias y Tecnolog�ıas
+ferent foods were notable for exceedances of MLs for          (CONAHCYT) as a doctoral student.
+
+
+
+Nutrition ReviewsV Vol. 84(2):448–461
+                 R
+                                                                                                                   459
+Conflicts of Interest                                                                         22.   European Union (EU). Commission regulation (EU) 2018/73 of 16 January 2018
+                                                                                                    Amending Annexes II and III to Regulation (EC) No 396/2005 of the European
+                                                                                                    Parliament and of the Council as Regards Maximum Residue Levels for Mercury
+None declared.                                                                                      Compounds in or on Certain Products; 2018. Accessed November 5, 2024. http://
+                                                                                                    data.europa.eu/eli/reg/2018/73/
+                                                                                              23.   Peters M, Godfrey C, McInerney P, Munn Z, Trico A, Khalil H. Chapter 11: scoping
+                                  REFERENCES                                                        reviews. In: Aromataris E, Munn Z, eds. JBI Manual for Evidence Synthesis. JBI;
+                                                                                                    2020. https://doi.org/10.46658/JBIMES-20-12
+01.   Tchounwou PB, Yedjou CG, Patlolla AK, Sutton DJ. Heavy metals toxicity and the          24.   Tricco AC, Lillie E, Zarin W, et al. PRISMA extension for scoping reviews (PRISMA-
+      environment. Mol Clin Environ Toxicol. 2014;101:1-30. https://doi.org/10.1007/                ScR): checklist and explanation. Ann Intern Med. 2018;169:467-473. https://doi.
+      978-3-7643-8340-4                                                                             org/10.7326/M18-0850
+02.   Agency for Toxic Substances and Disease Registry (ATSDR). ATSDR’s substance             25.   Parker GH, Gillie CE, Miller JV, Badger DE, Kreider ML. Human health risk assess­
+      priority list. Agency for Toxic Substances and Disease Registry. November 29,                 ment of arsenic, cadmium, lead, and mercury ingestion from baby foods. Toxicol
+      2022. Accessed May 16, 2023. https://www.atsdr.cdc.gov/spl/index.html#2019spl                 Rep. 2022;9:238-249. https://doi.org/10.1016/j.toxrep.2022.02.001
+03.   Okechukwu Ohiagu F, Chikezie PC, Ahaneku CC, Chikezie CM. Human exposure                26.   Pedron T, Segura FR, da Silva FF, de Souza AL, Maltez HF, Batista BL. Essential and
+      to heavy metals: toxicity mechanisms and health implications. Mater Sci Eng Int J.            non-essential elements in Brazilian infant food and other rice-based products fre­
+      2022;6:78-87. https://doi.org/10.15406/mseij.2022.06.00183                                    quently consumed by children and celiac population. J Food Compos Anal.
+                                                                                                    2016;49:78-86. https://doi.org/10.1016/j.jfca.2016.04.005
+
+
+
+
+                                                                                                                                                                                            Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+04.   Kordas K, Cantoral A, Desai G, et al. Dietary exposure to toxic elements and the
+      health of young children: methodological considerations and data needs. J Nutr.         27.   TatahMentan M, Nyachoti S, Godebo TR. Elemental composition of toxic and
+      2022;152:2572-2581. https://doi.org/10.1093/jn/nxac185                                        essential elements in rice-based baby foods from the United States and other
+05.   Al Osman M, Yang F, Massey IY. Exposure routes and health effects of heavy met­               countries: a probabilistic risk analysis. Food Chem Toxicol. 2024;188:114677.
+      als on children. BioMetals. 2019;32:563-573. https://doi.org/10.1007/s10534-019-              https://doi.org/10.1016/j.fct.2024.114677
+      00193-5                                                                                 28.   An J, Liu Z, Xie G, Zhu Y. Determination and evaluation of 26 toxic, potentially
+06.   Landrigan PJ, Fuller R, Acosta NJR, et al. The Lancet Commission on pollution and             toxic and essential elements in infant cereals in Chinese market. J Food Compos
+      health. Lancet. 2018;391:462-512. https://doi.org/10.1016/S0140-6736(17)32345-0               Anal. 2023;123:105498. https://doi.org/10.1016/j.jfca.2023.105498
+07.   Yan Y, Yang S, Zhou Y, et al. Estimating the national burden of mild intellectual       29.   Igweze ZN, Ekhator OC, Nwaogazie I, Orisakwe OE. Public health and paediatric
+      disability in children exposed to dietary lead in China. Environ Int.                         risk assessment of aluminium, arsenic and mercury in infant formulas marketed
+      2020;137:105553. https://doi.org/10.1016/j.envint.2020.105553                                 in Nigeria. Sultan Qaboos Univ Med J [SQUMJ]. 2020;20:e63-e70. https://doi.org/
+08.   de Paiva EL, Morgano MA, Arisseto-Bragotto AP. Occurrence and determination                   10.18295/squmj.2020.20.01.009
+      of inorganic contaminants in baby food and infant formula. Curr Opin Food Sci.          30.   de Almeida CC, Bai~ao D dos S, Rodrigues P de A, et al. Toxic metals and metal­
+      2019;30:60-66. https://doi.org/10.1016/j.cofs.2019.05.006                                     loids in infant formulas marketed in Brazil, and child health risks according to the
+09.   Bair EC. A narrative review of toxic heavy metal content of infant and toddler                target hazard quotients and target cancer risk. Int J Environ Res Public Health.
+      foods and evaluation of United States policy. Front Nutr. 2022;9:919913. https://             2022;19:11178. https://doi.org/10.3390/ijerph191811178
+      doi.org/10.3389/fnut.2022.919913                                                        31.   Liao K, Lee W, Lin S, et al. Probabilistic risk assessment for determining nonessen­
+10.   U.S. Food and Drug Administration (FDA). Closer to zero: reducing childhood                   tial metals in commercial infant formula products in Taiwan. J Food Sci.
+      exposure to contaminants from foods. U.S. Food and Drug Administration. March                 2024;89:1804-1813. https://doi.org/10.1111/1750-3841.16929
+      12, 2024. Accessed May 17, 2023. https://www.fda.gov/food/environmental-con­            32.   Başaran B. An assessment of heavy metal level in infant formula on the market in
+      taminants-food/closer-zero-reducing-childhood-exposure-contaminants-foods                     Turkey and the hazard index. J Food Compos Anal. 2022;105:104258. https://doi.
+11.   Houlihan J, Brody C. What’s in my baby’s food?; 2019. Accessed May 22,                        org/10.1016/j.jfca.2021.104258
+      2023. https://healthybabyfoods.org/sites/healthybabyfoods.org/files/2020-               33.   Melo GE, Saint’Pierre TD, de Moraes OMG, da Cruz AG, Dias JF, Ribas SA. Health
+      04/BabyFoodReport_ENGLISH_R6.pdf                                                              risk assessment of potentially toxic elements in minerals—fortified milk and
+12.   Alharbi NS, Akamsiei RM, Almaiman LA, et al. Occurrence and dietary exposure                  young child formula in Brazil. J Food Compos Anal. 2024;135:106674. https://doi.
+      assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia. Food                 org/10.1016/j.jfca.2024.106674
+      Sci Nutr. 2023;11:5270-5282. https://doi.org/10.1002/fsn3.3485                          34.   Igweze ZN, Ekhator OC, Orisakwe OE. Lead and cadmium in infant milk and cereal
+13.   Carignan CC, Punshon T, Karagas MR, Cottingham KL. Potential exposure to                      based formulae marketed in Nigeria: a probabilistic non-carcinogenic human
+      arsenic from infant rice cereal. Ann Glob Health. 2016;82:221-224. https://doi.org/           health risk assessment. Rocz Panstw Zakl Hig. 2020;71:303-311. https://doi.org/10.
+      10.1016/j.aogh.2016.01.020                                                                    32394/rpzh.2020.0129
+14.   World Health Organization (WHO). Infant and young child feeding. In: Proceedings        35.   Ahmed A, Amin W, Amin M, Ghetany R. Assessment of lead, cadmium, and sele­
+      of the Seventy-First World Health Assembly; 2018. Accessed November 4, 2024.                  nium levels in some dried milk sold in markets. Assiut Vet Med J. 2020;66:92-102.
+      https://apps.who.int/gb/ebwha/pdf_files/WHA71/A71_R9-en.pdf                                   https://doi.org/10.21608/avmj.2020.167246
+15.   Dunford E, Popkin B. Ultra-processed food for infants and toddlers; dynamics of         36.   Mart�ınez M� A, Castro I, Rovira J, et al. Early-life intake of major trace elements,
+      supply and demand. Bull World Health Organ. 2023;101:358-360. https://doi.org/                bisphenol A, tetrabromobisphenol A and fatty acids: comparing human milk and
+      10.2471/BLT.22.289448                                                                         commercial infant formulas. Environ Res. 2019;169:246-255. https://doi.org/10.
+16.   World Health Organization (WHO). International code of marketing of breast-milk               1016/j.envres.2018.11.017
+      substitutes; 1981. https://www.who.int/publications/i/item/9241541601                   37.   Kadac-Czapska K, Rutkowska M, Knez E, Konieczka P, Grembecka M. Non-carcino­
+17.   Konings EJM, Roux A, Reungoat A, et al. Challenge to evaluate regulatory compli­              genic human risk assessment of the consumption of infant formulas contami­
+      ance for nutrients in infant formulas with current state-of-the-art analytical refer­         nated with total and organic mercury. J Food Compos Anal. 2024;125:105799.
+      ence methods. Food Control. 2021;119:107423. https://doi.org/10.1016/j.                       https://doi.org/10.1016/j.jfca.2023.105799
+      foodcont.2020.107423                                                                    38.   Mania M, Wojciechowska-Mazurek M, Starska K, et al. Toxic elements in commer­
+18.   Silva KC, de Castro IRR, de Carvalho CMP, de Camargo KR. Baby food industry                   cial infant food, estimated dietary intake, and risk assessment in Poland. Pol J
+      interference with infant feeding international regulation—a case study on the                 Environ Stud. 2015;24:2525-2536. https://doi.org/10.15244/pjoes/59306
+      standard for follow-up formula. Front Public Health. 2022;10:984385. https://doi.       39.   Ibrahim A, Saad M, Hafiz N. Toxic elements in dried milk and evaluation of their
+      org/10.3389/fpubh.2022.984385                                                                 dietary intake in infant formula. Int J Vet Sci. 2020;9:563-567. https://doi.org/10.
+19.   World Health Organization (WHO). Codex alimentarius. International food stand­                37422/IJVS/20.070
+      ards. General standard for contaminants and toxins in food and feed CXS 193-            40.   Collado-L� opez S, Betanzos-Robledo L, T�ellez-Rojo MM, et al. Heavy metals in
+      1995; 2023. Accessed November 5, 2024. https://www.fao.org/fao-who-codexali­                  unprocessed or minimally processed foods consumed by humans worldwide: a
+      mentarius/sh-proxy/en/? lnk=1&url=https%253A%252F%252Fworkspace.fao.org                       scoping review. Int J Environ Res Public Health. 2022;19:8651. https://doi.org/10.
+      %252Fsites%252Fcodex%252FStandards%252FCXS%2B193-1995%252FCXS_                                3390/ijerph19148651
+      193e.pdf                                                                                41.   Dziubanek G, Piekut A, Rusin M, Baranowska R, Hajok I. Contamination of food
+20.   European Union (EU). Commission regulation (EU) 2021/1323 of 10 August 2021                   crops grown on soils with elevated heavy metals content. Ecotoxicol Environ Saf.
+      Amending Regulation (EC) No 1881/2006 as Regards Maximum Levels for                           2015;118:183-189. https://doi.org/10.1016/j.ecoenv.2015.04.032
+      Cadmium in Certain Foodstuffs; 2021. Accessed November 5, 2024. https://eur-            42.   Chałabis-Mazurek A, Rechulicz J, Pyz-Łukasik R. A food-safety risk assessment of
+      lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R1323                                 mercury, lead and cadmium in fish recreationally caught from three lakes in
+21.   European Union (EU). Commission regulation (EU) 2023/465 of 3 March 2023                      Poland. Animals. 2021;11:3507. https://doi.org/10.3390/ani11123507
+      Amending Regulation (EU) 2023/465 of 3 March 2023 Amending Regulation (EC)              43.   Rahman SH, Khanam D, Adyel TM, Islam MS, Ahsan MA, Akbor MA. Assessment
+      No 1881/2006 as Regards Maximum Levels for Arsenic in Certain Foodstuffs;                     of heavy metal contamination of agricultural soil around Dhaka export process­
+      2023. Accessed November 5, 2024. https://eur-lex.europa.eu/legal-content/EN/                  ing zone (DEPZ), Bangladesh: implication of seasonal variation and indices. Appl
+      TXT/HTML/?uri=CELEX:32023R0465                                                                Sci. 2012;2:584-601. https://doi.org/10.3390/app2030584
+
+
+
+460                                                                                                                                     Nutrition ReviewsV Vol. 84(2):448–461
+                                                                                                                                                              R
+44.   Shahbandeh M. Rice consumption worldwide in 2023/2024, by country (in 1,000           65.   Kong X, Liu T, Yu Z, et al. Heavy metal bioaccumulation in rice from a high geo­
+      metric tons). January 24, 2024. Accessed December 11, 2024. https://www.sta­                logical background area in Guizhou Province, China. Int J Environ Res Public
+      tista.com/statistics/255971/top-countries-based-on-rice-consumption-20122013/               Health. 2018;15:2281. https://doi.org/10.3390/ijerph15102281
+      #:�:text=As%20the%20most%20populous%20country, consumed%20in%20the                    66.   Hu Y, Wang C, Song Z, et al. Heavy metal in rice and vegetable and human expo­
+      %20same%20period.                                                                           sure near a large Pb/Zn smelter in Central China. Int J Environ Res Public Health.
+45.   U.S. Food and Drug Administration. Supporting document for action level for                 2021;18:12631. https://doi.org/10.3390/ijerph182312631
+      inorganic arsenic in rice cereals for infants; 2022. Accessed December 11, 2024.      67.   Cantoral A, Betanzos-Robledo L, Collado-L�     opez S, et al. Lead levels in the most
+      https://www.fda.gov/food/chemical-metals-natural-toxins-pesticides-guidance-                consumed Mexican foods: first monitoring effort. Toxics. 2024;12:318. https://doi.
+      documents-regulations/supporting-document-action-level-inorganic-arsenic-                   org/10.3390/toxics12050318
+      rice-cereals-infants                                                                  68.   Jallad KN. Dietary intake and exposure assessment of trace elements in infants’
+46.   Maher W, Duncan E, Martin H, et al. Arsenic concentrations and speciation in                diets: a case study in Kuwait. Biol Trace Elem Res. 2024;202:4823-4841. https://doi.
+      Australian and imported rice and commercial rice products. Environ Chem.                    org/10.1007/s12011-023-04045-9
+                                                                                            69.   Pecev-Marinkovi�c E, Ra�si�c Mi�si�c I, Mrmo�sanin J, Petrovi�c S, Pavlovi�c A, To�si�c S.
+      2018;15:387. https://doi.org/10.1071/EN18073
+                                                                                                  Quantitative determination of selected elements in infant baby formulae and
+47.   U.S. Food and Drug Administration. Total diet study report. Published online
+                                                                                                  baby food cereals commercially available in Serbia using the ICP OES method. J
+      2022. Accessed January 23, 2023. https://www.fda.gov/media/159745/download
+                                                                                                  Trace Elem Med Biol. 2024;84:127457. https://doi.org/10.1016/j.jtemb.2024.127457
+48.   Government of Canada. Canadian total diet study. June 16, 2020. Accessed
+                                                                                            70.   Zhang S, Song J, Wu L, Chen Z. Worldwide cadmium accumulation in soybean
+      February 2, 2022. https://www.canada.ca/en/health-canada/services/food-nutri­
+                                                                                                  grains and feasibility of food production on contaminated calcareous soils.
+
+
+
+
+                                                                                                                                                                                               Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+      tion/food-nutrition-surveillance/canadian-total-diet-study.html
+                                                                                                  Environ Pollut. 2021;269:116153. https://doi.org/10.1016/j.envpol.2020.116153
+49.   Sirot V, Traore T, Gu�erin T, et al. French infant total diet study: exposure to
+                                                                                            71.   Mitra S, Chakraborty AJ, Tareq AM, et al. Impact of heavy metals on the environ­
+      selected trace elements and associated health risks. Food Chem Toxicol.
+                                                                                                  ment and human health: novel therapeutic insights to counter the toxicity. J King
+      2018;120:625-633. https://doi.org/10.1016/j.fct.2018.07.062                                 Saud Univ Sci. 2022;34:101865. https://doi.org/10.1016/j.jksus.2022.101865
+50.   Hackethal C, Kopp JF, Sarvan I, Schwerdtle T, Lindtner O. Total arsenic and water-    72.   Al-Sulaiti MM, Soubra L, Al-Ghouti MA. The causes and effects of mercury and
+      soluble arsenic species in foods of the first German total diet study (BfR MEAL             methylmercury contamination in the marine environment: a review. Curr
+      Study). Food Chem. 2021;346:128913. https://doi.org/10.1016/j.foodchem.2020.                Pollution Rep. 2022;8:249-272. https://doi.org/10.1007/s40726-022-00226-7
+      128913                                                                                73.   Amarh FA, Agorku ES, Voegborlo RB, Ashong GW, Atongo GA. Health risk assess­
+51.   New Zealand Ministry for Primary Industries. 2024 New Zealand total diet study              ment of some selected heavy metals in infant food sold in WA, Ghana. Heliyon.
+      (NZTDS) (infants and toddlers) results; 2024. Accessed December 17, 2024.                   2023;9:e16225. https://doi.org/10.1016/j.heliyon.2023.e16225
+      https://www.mpi.govt.nz/food-business/food-monitoring-surveillance/new-zea­           74.   Gardener H, Bowen J, Callan SP. Lead and cadmium contamination in a large
+      land-total-diet-study/2024-new-zealand-total-diet-study-nztds-infants-and-tod­              sample of United States infant formulas and baby foods. Sci Total Environ.
+      dlers-results/                                                                              2019;651:822-827. https://doi.org/10.1016/j.scitotenv.2018.09.026
+52.   Food Standards Australia New Zealand (FSANZ). Australian total diet study; 2019.      75.   Food and Agriculture Organization of the United Nations. Commission
+      Accessed December 17, 2024. https://www.foodstandards.gov.au/science-data/                  Regulation (EU) 2015/1006 Amending Regulation (EC) No. 1881/2006 as Regards
+      monitor/australian-total-diet-study                                                         Maximum Levels of Inorganic Arsenic in Foodstuffs.; 2006. Accessed December 9,
+53.   Mar�ın S, Pardo O, S�anchez A, et al. Assessment of metal levels in foodstuffs from         2024. https://www.fao.org/faolex/results/details/en/c/LEX-FAOC146756/
+      the Region of Valencia (Spain). Toxicol Rep. 2018;5:654-670. https://doi.org/10.      76.   Gamage HKAH, Tetu SG, Chong RWW, Ashton J, Packer NH, Paulsen IT. Cereal
+      1016/j.toxrep.2018.05.005                                                                   products derived from wheat, sorghum, rice and oats alter the infant gut micro­
+54.   Sager M, McCulloch CR, Schoder D. Heavy metal content and element analysis of               biota in vitro. Sci Rep. 2017;7:14312. https://doi.org/10.1038/s41598-017-14707-z
+      infant formula and milk powder samples purchased on the Tanzanian market:             77.   Castro Gonzalez NP, Moreno-Rojas R, Calder�       on S�anchez F, Moreno Ortega A,
+      international branded versus black market products. Food Chem.                              Juarez Meneses M. Assessment risk to children’s health due to consumption of
+      2018;255:365-371. https://doi.org/10.1016/j.foodchem.2018.02.058                            cow’s milk in polluted areas in Puebla and Tlaxcala, Mexico. Food Addit Contam
+55.   Commission Regulation (EU). Maximum levels for certain contaminants in food.                Part B. 2017;10:200-207. https://doi.org/10.1080/19393210.2017.1316320
+      Regulation (EU) 2023/915 on maximum levels for certain contaminants in food;          78.   Abdulkhaliq A, Swaileh KM, Hussein RM, Matani M. Levels of metals (Cd, Pb, Cu
+      2023. Accessed December 16, 2024. https://eur-lex.europa.eu/EN/legal-content/               and Fe) in cow’s milk, dairy products and hen’s eggs from the West Bank,
+      summary/maximum-levels-for-certain-contaminants-in-food.html                                Palestine. Int Food Res J. 2012;19:1089-1094.
+56.   European Food Safety Authority. Scientific opinion on lead in food. EFSA J.           79.   Karri V, Schuhmacher M, Kumar V. Heavy metals (Pb, Cd, As and MeHg) as risk
+      2010;8:1570–1721. https://doi.org/10.2903/j.efsa.2010.1570                                  factors for cognitive dysfunction: a general review of metal mixture mechanism
+57.   EFSA. EFSA sets lower tolerable intake level for cadmium in food. European Food             in brain. Environ Toxicol Pharmacol. 2016;48:203-213. https://doi.org/10.1016/j.
+                                                                                                  etap.2016.09.016
+      SAfety Authority. March 20, 2009. Accessed July 22, 2024. https://www.efsa.
+                                                                                            80.   Wilschefski S, Baxter M. Inductively coupled plasma mass spectrometry: introduc­
+      europa.eu/en/news/efsa-sets-lower-tolerable-intake-level-cadmium-food
+                                                                                                  tion to analytical aspects. Clin Biochem Rev. 2019;40:115-133. https://doi.org/10.
+58.   European Food Safety Authority. Scientific opinion on arsenic in food. EFSA J.
+                                                                                                  33176/AACB-19-00024
+      2009;7:1351. https://doi.org/10.2903/j.efsa.2009.1351
+                                                                                            81.   Hasan S, Faroque M. Determination of selected heavy metals in food and water
+59.   European Food Safety Authority. Scientific opinion on the risk for public health
+                                                                                                  consumed by households. Int J Sci Basic Appl Res. 2020;53:117-128.
+      related to the presence of mercury and methylmercury in food. EFSA J.
+                                                                                            82.   Nguyen V, Linh TTT, Vo T, Nguyen QH, Van T. Analytical techniques for determi­
+      2012;10:2985. https://doi.org/10.2903/j.efsa.2012.2985
+                                                                                                  nation of heavy metal migration from different types of locally made plastic food
+60.   Tamele IJ, V�azquez Loureiro P. Lead, mercury and cadmium in fish and shellfish
+                                                                                                  packaging materials using ICP-MS. Food Sci Nutr. 2023;11:4030-4037. https://doi.
+      from the Indian Ocean and Red Sea (African countries): public health challenges.            org/10.1002/fsn3.3391
+      JMSE. 2020;8:344. https://doi.org/10.3390/jmse8050344                                 83.   Sharma A, Gupta S, Shrivas K, Kant T. Progress in analytical methods for monitor­
+61.   He Y, Chen Z, Mo F, et al. Species characteristics of lead in sea foods collected           ing of heavy metals and metalloid in milk and global health risk assessment. J
+      from coastal water of Fujian, Southeastern of China. Sci Rep. 2016;6:33294.                 Food Compos Anal. 2024;135:106568. https://doi.org/10.1016/j.jfca.2024.106568
+      https://doi.org/10.1038/srep33294                                                     84.   March G, Nguyen T, Piro B. Modified electrodes used for electrochemical detec­
+62.   Garuba O, Anglin J, Good S, Olufemi S, Oyawoye O, Ayodotun S. Evaluation of                 tion of metal ions in environmental analysis. Biosensors (Basel). 2015;5:241-275.
+      heavy metals in commercial baby foods. Arch Food Nutr Sci. 2024;8:012-020.                  https://doi.org/10.3390/bios5020241
+      https://doi.org/10.29328/journal.afns.1001056                                         85.   Meng R, Zhu Q, Long T, et al. The innovative and accurate detection of heavy
+63.   Naser HM, Sultana S, Mahmud NU, Gomes R, Noor S. Heavy metal levels in vege­                metals in foods: a critical review on electrochemical sensors. Food Control.
+      tables with growth stage and plant species variations. Bangladesh J Agric Res.              2023;150:109743. https://doi.org/10.1016/j.foodcont.2023.109743
+      2012;36:563-574. https://doi.org/10.3329/bjar.v36i4.11743                             86.   Dubascoux S, Nicolas M, Rime CF, Payot JR, Poitevin E. Simultaneous determina­
+64.   Peters DE, Eebu C, Nkpaa KW. Potential human health risk assessment of heavy                tion of 10 ultratrace elements in infant formula, adult nutritionals, and milk prod­
+      metals via consumption of root tubers from Ogoniland, Rivers State, Nigeria. Biol           ucts by ICP/MS after pressure digestion: single-laboratory validation. J AOAC Int.
+      Trace Elem Res. 2018;186:568-578. https://doi.org/10.1007/s12011-018-1330-1                 2015;98:953-961. https://doi.org/10.5740/jaoacint.14-276
+
+
+
+
+Nutrition ReviewsV Vol. 84(2):448–461
+                      R
+                                                                                                                                                                                      461
+© The Author(s) 2025. Published by Oxford University Press on behalf of the International Life Sciences Institute.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs licence (https://creativecommons.org/
+licenses/by-nc-nd/4.0/), which permits non-commercial reproduction and distribution of the work, in any medium, provided the original work is not altered or
+transformed in any way, and that the work is properly cited. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All
+other permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site—for further information please contact
+journals.permissions@oup.com.
+Nutrition Reviews, 2026, 84, 448–461
+https://doi.org/10.1093/nutrit/nuaf138
+Scoping Review
+
+
+
+
+                                                                                                                                                                            Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+

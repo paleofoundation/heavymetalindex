@@ -1,0 +1,1063 @@
+Survey of metals and other elements in commercial infant foods,
+infant formula and non-infant specific foods
+The following technical reports will be published with the food safety information sheet. They
+provide further information on the analytical method used, tabulate the analytical results and
+describe the sampling plan used for this survey.
+
+Analytical report
+
+Survey of metals in commercial infant foods, infant formula and non-infant specific foods. Report
+for the UK Food Standards Agency (FS102048), Fera.
+
+Sampling method report
+
+Survey of metals in commercial infant foods, infant formula and non-infant specific foods, Hallmark
+Meat Hygiene.
+
+Executive Summary
+
+   1. The Food Standards Agency (FSA) commissioned in 2013 a survey of fifteen metals, and other
+      elements in a selection of ready-to-feed infant formula, dry infant formula, commercial infant
+      foods and foods consumed by both infants and adults such as bread and bananas.
+   2. The survey was designed to assess the risk to infant and young children’s health from dietary
+      exposure to these elements. The FSA completed similar surveys in 2003 and 2006.
+   3. The toxicological risk assessments showed that eleven of the elements did not pose a health
+      concern.
+   4. For a small proportion of the infants and young children population consuming the highest
+      levels of the foods tested, there was a small risk to health from dietary exposure to inorganic
+      arsenic.
+   5. The dietary exposure levels for lead were not a cause for concern. However, total lead
+      exposure, when considering the contribution from soil and dust in the environment may
+      represent a small risk to health. People are exposed to lead through food, drinking water, air,
+      soil and dust. Food and water are the major sources of exposure to lead, although for infants
+      and young children, ingestion of soil and dust can also be an important contribution. Exposure
+      to lead in the UK has decreased substantially over recent decades.
+   6. The small exceedance for cadmium was not a cause for concern. The health based guidance
+      value (HBGV) was set in the context of 50 years of bio-accumulative exposure to cadmium and
+      infants because of their lower bodyweight tend to have higher dietary exposures compared
+      to older age groups.
+   7. An assessment of manganese is to follow and will be published on the Committee on Toxicity
+      of Chemicals in Food, Consumer Products and the Environment (COT) website
+   8. The dietary exposure data from this survey have been used by the FSA to calculate robust and
+      up to date risk assessments for the general population, in addition to infants and young
+      children.
+   9. The COT considered the toxicity of chemicals in the diet of infants and young children, to
+      support the review conducted by the Scientific Advisory Committee on Nutrition (SACN) of
+        Government recommendations on complementary and young child feeding. The results from
+        this survey have been used extensively by COT to inform its deliberations.
+    10. All the samples tested were compliant with food safety legislation. There were no maximum
+        limits for inorganic arsenic in force when the samples were collected in 2013 and 2014. The
+        maximum limit of 0.10 mg/kg for inorganic arsenic in rice used to produce food for infants and
+        young children, was added to Commission Regulation (EC) No 1881/2006 of 19 December
+        2006 setting maximum levels for certain contaminants in foodstuffs, which applied to foods
+        from the 1st January 2016.
+    11. The survey was carried out in 2013 and 2014 and product specifications and market share
+        have inevitably changed since.
+
+Introduction
+
+    1. The FSA looked at the levels of 15 metals and other elements in a variety of foods eaten by
+       infants and young children to investigate the risk to health from exposure in the diet.
+    2. The survey commissioned in 2013 considered fifteen metals and other elements in a selection
+       of ready to feed infant formula, dry infant formula, commercial infant foods and ‘other’ foods.
+       The latter are foods consumed by adults but which also appear in the diets of infants and
+       young children.
+    3. Previous FSA surveys of infant formula and weaning foods were completed in 2003 1 and
+       20062.
+    4. The survey looked at the following elements: aluminium, antimony, arsenic (total and
+       inorganic species) cadmium, chromium, copper, iodine, iron, lead, manganese, mercury,
+       nickel, selenium, tin and zinc. The sampling plan included 47 samples of infant formula, 200
+       samples of commercial infant foods and 50 composite samples of ‘other’ foods.
+
+Background
+
+    5. Dietary exposure assessments for the general population cannot be accurately extended to
+       include infants, as they consume a diet that is different in many ways to that of adults or older
+       children. In the early stages of weaning, the infant diet is made up almost entirely of breast
+       milk and/or commercial infant formula, and when weaning foods are given, a large proportion
+       may be commercially available infant foods or foods marketed at infants and young children.
+    6. The range of commercial infant foods is constantly growing and changing so it is important
+       that the FSA obtains up to date information on exposure levels.
+    7. The COT was asked by the SACN to review the risk to health from chemicals in the diet of
+       infants (aged 0-12 months) and young children (aged 1-5 years). The results from this survey
+       have been used to produce dietary exposure estimates to inform the COT deliberations.
+
+
+
+1
+  Multi element survey of infant foods, September 2003,
+http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsis2003/fsis422
+003
+2
+  Survey of metals in weaning foods and formulae for infants, September 2006,
+http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsisbranch2006/f
+sis1706
+Methodology
+
+Sampling plan
+
+      8. Hallmark Meat Hygiene3 purchased 47 samples of powdered and ready-to-feed infant formula
+         (including follow-on formula and growing up milks), 200 samples of commercial infant foods,
+         and 50 samples of ‘other’ foods, from retail outlets distributed throughout the UK during 2013
+         and 2014. All samples were prepared and tested as sold. Dry powdered infant formula and
+         dried cereal products such as baby rice were not reconstituted prior to testing. Sample
+         selection for the other foods category was based on likely contribution to the infant diet, as
+         recorded in the diet and nutrition survey of infants and young children, 2011, (DNSIYC)4
+
+Analysis
+
+      9. Further details of the analytical method and quality procedures used in the survey can be
+         found in the contractor’s technical report5. For this survey multi element analysis was carried
+         out using inductively coupled plasma mass spectrometry (ICP-MS).
+
+Analytical results
+
+      10. Concentrations were measured in brand name products for infant formula and commercial
+          infant foods. However, the dietary exposures were calculated on a food category and food
+          group basis. Brand name products were grouped by infant formula and commercial infant
+          food categories.
+      11. The mean concentration data for each food category are presented in Annex 1, Tables 1 to 4.
+          These averaged values together with the consumption data were used to calculate the dietary
+          exposures. Exposure assessments are provided on both a food group and food category basis
+          but not for brand name products
+
+Food groups and food categories included in this survey:
+
+Food group: Infant formula: ready-to-feed formula
+
+Food categories
+
+    First milk (from birth)
+    Follow on milk (six months plus)
+    Growing up milk (twelve months plus)
+
+
+
+
+3
+  Survey of metals in commercial infant foods, infant formula and non-infant specific foods, Hallmark Meat
+Hygiene
+4
+  Diet and nutrition survey of infants and young children https://www.gov.uk/government/publications/diet-
+and-nutrition-survey-of-infants-and-young-children-2011
+5
+  Survey of metals in commercial infant foods, infant formula and non-infant specific foods. Report for the UK
+Food Standards Agency (FS102048), Fera
+Food group: Infant formula: dry infant formula
+
+Food categories
+
+ First milk (from birth)
+ Follow on milk (six months plus)
+ Growing up milk (twelve months plus)
+ Goats milk
+ Comfort milk
+ Organic milk
+ Soya based formula
+
+
+Food group: Commercial infant foods
+
+Food categories
+
+ Cereal based foods and dishes
+ Dairy based foods and dishes
+ Fruit based foods and dishes
+ Meat and fish based foods and dishes
+ Other savoury based foods and dishes (no meat)
+ Snacks (sweet and savoury)
+ Beverages
+
+
+Food group: ‘Other’ foods
+
+Food categories
+
+ Beverages
+ Bread
+ Canned vegetables
+ Cereals
+ Dairy products
+ Eggs
+ Fish
+ Fresh fruit
+ Fruit products
+ Green vegetables
+ Meat products
+ Milk
+ Other vegetables
+ Potatoes
+ Poultry
+
+
+Exposure Assessment
+
+   12. Exposure assessments are provided on both a food group and food category basis but not for
+       brand name products.
+    13. Infant energy requirements and food consumption are on average higher relative to their
+        body weight than for adults and older children. This means that infants can have a relatively
+        greater dietary exposure to chemicals in food than other age groups, when expressed on a
+        body weight basis.
+    14. Individually sampled products making up each food category were tested and the
+        concentrations averaged to give a mean overall concentration for each food category. For
+        example, the mean concentration for the ‘ready-to-feed formula, first milk from birth’
+        category was calculated using the concentrations for brand name products of this type. Food
+        consumption data used to calculate dietary exposures, were from the diet and nutrition
+        survey of infants and young children, 2011 (DNSIYC).
+    15. Table 5 presents the food group dietary exposure data for the infant formula, commercial
+        infant foods and ‘other’ foods and the total exposure from the overall infant diet. The
+        exposure data includes both average and high-level consumers of these foods at the
+        population level.
+    16. Tables 6 to 11 show the contribution to dietary exposure for each food category. The
+        exposure data includes both average and high-level consumers of these foods at the
+        population level.
+
+Risk Assessment
+
+    17. A more in-depth risk assessment can be found in the COT statement on the results of the 2014
+        survey of metals and other elements in infant food which is published on the COT website6
+
+Metals and other elements essential to human health
+
+Copper
+
+    18. The total mean and high-level exposures were 37 µg/kg bw/day and 69 µg/kg bw/day,
+        respectively. The highest contributing food group to total mean exposure was the ‘other’
+        foods group, with a total mean exposure of 16 µg/kg bw/day. Overall, the current estimates
+        of mean and high-level dietary exposure to copper were below all of the available health
+        based guidance values7
+    19. The current estimated dietary exposures did not indicate excessive copper intakes and were
+        not of toxicological concern.
+
+Iodine
+
+    20. The total mean and high-level exposures were 11 µg/kg bw/day and 23 µg/kg bw/day,
+        respectively. The highest contributing food group to total mean exposure was the ‘other’
+        foods group with a total mean exposure of 5.3 µg/kg bw/day. Overall, the current estimates
+        of mean and high level dietary exposure to iodine were below or only marginally greater
+
+
+6
+  https://cot.food.gov.uk/, Statement on the results of the 2014 survey of metals and other elements in infant
+foods
+https://cot.food.gov.uk/cotstatements/cotstatementsyrs/cot-statements-2018/statement-on-the-results-of-
+the-2014-survey-of-metals-and-other-elements-in-in
+7
+  JECFA derived a provisional maximum TDI (PMTDI) of 50-500 µg/kg bw (FAO/WHO, 1982a); The Expert Group
+on Vitamins and Minerals has set a safe upper level of 160 µg/kg bw/day (EVM, 2003); The Scientific
+Committee on Food set an upper level of 1 mg/day for 1-3 year olds (equivalent to 83 µg/kg bw/day (SCF,
+2003a).
+       (~15%) than the Scientific Committee on Food (SCF) Upper Level of 200 µg/day for 1-3 year
+       olds (SCF, 2002), which given the conservative nature of the exposure scenario are not of
+       concern.
+   21. The current estimated dietary exposures did not indicate excessive iodine intakes and were
+       not of toxicological concern.
+
+Iron
+
+   22. The total mean and high-level exposures were 550 µg/kg bw/day and 1300 µg/kg bw/day,
+       respectively. The highest contributing food group to total mean exposure was the ‘infant
+       formula’ group, with a total mean exposure of 240 µg/kg bw/day. Overall, the current
+       estimates of mean and high level dietary exposure to iron were below the Expert Group on
+       Vitamins and Minerals (EVM’s) 17 mg/day (equivalent to 1.7 mg/kg bw/day for a 10 kg infant)
+       guidance value for supplemental iron (EVM, 2003), and the United States Institute of Medicine
+       (US IOM’s) 40 mg/day tolerable upper intake level (TUL) (equivalent to approximately 4 mg/kg
+       bw/day assuming a 10 kg infant) (IOM, 2001; DH 2013).
+   23. The current estimated dietary exposures did not indicate excessive iron intake and were not
+       of toxicological concern.
+
+Manganese
+
+   24. The total mean and high-level exposures were 85 µg/kg bw/day and 190 µg/kg bw/day,
+       respectively. The highest contributing food group to total mean exposure was the ‘other’
+       foods group, with a total mean exposure of 63 µg/kg bw/day.
+   25. The COT considered that the way in which the currently available HBGVs for manganese had
+       been derived was not sufficiently robust for the risk characterisation of dietary exposure to
+       this metal. Hence, the Committee concluded that, although exposure values were far below
+       the HBGVs, whilst reassuring this was not an appropriate basis on which to conclude on the
+       safety of such exposures. The COT is due to revisit the issue of manganese HBGVs and
+       exposures in this age group in a statement at a later date.
+
+Selenium
+
+   26. The total mean and high-level exposures were 1.1-1.6 µg/kg bw/day and 2.6-3.0µg/kg bw/day,
+       respectively. The highest contributing food group to total mean exposure was the ‘other’
+       foods group with a total mean exposure of 0.8 µg/kg bw/day. Overall, the current estimates
+       of mean and high level dietary exposure to selenium were below the EVM and SCF’s upper
+       levels of 7.5 µg/kg bw/day and 60 µg/day for 1-3 year olds, respectively (SCF, 2000; EVM,
+       2003).
+   27. The current estimated dietary exposures did not indicate excessive selenium intakes and were
+       not of toxicological concern.
+
+Zinc
+
+   28. The total mean and high-level exposures were 440 µg/kg bw/day and 860 µg/kg bw/day,
+       respectively. The highest contributing food group to total mean exposure was the ‘infant
+       formula’ group with total mean exposures ranging from 180 µg/kg bw/day. Overall, the
+       current estimates of mean dietary exposure to zinc were below all of the available HBGVs. The
+       current estimates of high level dietary exposure were greater than the SCF guidance values
+       (UL of 7 mg/day for 1-3 year olds) (~50%) but below the Joint FAO/WHO Expert Committee on
+       Food Additives (JECFA) (provisional maximum tolerable daily intake (PMTDI) of 0.3 – 1.0 mg/kg
+        bw) and EVM (safe UL (SUL) of 25mg/day) values (SCF, 2003b; FAO/WHO, 1982b and EVM,
+        2003).
+    29. The current estimated dietary exposures did not indicate excessive zinc intakes and were not
+        of toxicological concern.
+
+
+Metals and other elements non-essential to human health
+
+Aluminium
+
+    30. The total mean and high-level exposures were 33-34 µg/kg bw/day and 74-76 µg/kg bw/day,
+        respectively. The highest contributing food group to total mean exposure was the ‘other’
+        foods group, with total mean exposures ranging from 19-20 µg/kg bw/day. Overall, the
+        current estimates of mean and high level dietary exposure to aluminium were well below the
+        JECFA provisional tolerable weekly intake of 2 µg/kg bw (equivalent to 286 μg/kg bw/day)
+        (FAO/WHO, 2012).
+    31. The current estimated dietary exposures did not indicate excessive aluminium intakes and
+        were not of toxicological concern.
+
+Antimony
+
+    32. The total mean and high-level exposures were 0.0040-0.11 µg/kg bw/day and 0.029-0.21
+        µg/kg bw/day, respectively. The highest contributing food group to total mean exposure was
+        the ‘other’ foods group with total mean exposures ranging from 0-0.050 µg/kg bw/day.
+        Overall, the current estimates of mean and high level dietary exposures to antimony were well
+        below the World Health Organisation (WHO) (tolerable daily intake) TDI of 6 µg/kg bw (WHO,
+        2003).
+    33. The current estimated dietary exposures did not indicate excessive antimony intakes and were
+        not of toxicological concern.
+
+Arsenic (total and inorganic)
+
+    34. For total arsenic, the total mean and high-level exposures were 0.91-0.94 µg/kg bw/day and
+        4.3-4.4 µg/kg bw/day, respectively. The highest contributing food group to total mean
+        exposure was the ‘other’ foods group, with total mean exposures ranging from 0.78-0.79
+        µg/kg bw/day. However, inorganic arsenic is the form that is carcinogenic and of most
+        concern.
+    35. The total mean exposures to inorganic arsenic were 0.14-0.18 µg/kg bw/day. This range of
+        exposures generates a Margin of Exposure (MOE) of 20 (rounded to 1 significant figure (SF)).
+        Since this is greater than 10, these exposures would be considered low concern. The total
+        high-level exposures were 0.41-0.47 µg/kg bw/day and generate MOEs of 6-7 (rounded to 1
+        SF). As these MOEs are marginally less than 10 there could be a small risk to high level
+        consumers (FAO/WHO, 2011; COT, 2016a). The highest contributing food group to total mean
+        exposure was the ‘other’ foods group, with total mean exposures ranging from 0.090-0.10
+        µg/kg bw/day.
+    36. The inorganic form of arsenic is carcinogenic and is of most concern to health. The current
+        average dietary exposures to inorganic arsenic are considered to be of low concern but the
+        dietary exposures for high-level consumers of these foods could present a small risk.
+        Therefore, efforts to reduce the levels of inorganic arsenic in food should continue.
+Cadmium
+
+   37. The total mean and high-level exposures were 0.25-0.27 µg/kg bw/day and 0.57-0.59 µg/kg
+       bw/day, respectively. The highest contributing food group to total mean exposure was the
+       ‘other’ foods group, with total mean exposures ranging from 0.19-0.20 µg/kg bw/day. Overall,
+       the total mean exposure estimates were approximately 70% of the European Food Safety
+       Authority (EFSA) (tolerable weekly intake) TWI of 2.5 µg/kg bw/week (EFSA, 2009; EFSA,
+       2011a; EFSA, 2011b) and would thus not be of toxicological concern. The total high-level
+       estimates were approximately 60% above the EFSA TWI. Such exposures are unlikely to lead
+       to adverse effects on the kidney, although it is important to consider whether the potential
+       vulnerability of the infant kidney would be increased due to its immaturity. It should be noted
+       that food is unlikely to be the only source of exposure to cadmium in this age group; other
+       potentially important sources of exposure include water, soil and dust.
+   38. Although the EFSA TWI of cadmium was exceeded by infants in some cases, these
+       exceedances were small in magnitude (60% maximum) and it would not be expected to
+       remain at this level over the decades of bio-accumulative exposure necessary to reach the
+       reference value used by EFSA in setting the HBGV. This is therefore not a major cause for
+       concern. However, considering the cumulative nature of cadmium toxicity, it would be
+       prudent to minimise the exposure of infants to as low a level as is reasonably practicable.
+
+Chromium
+
+   39. Chromium is a metallic element which can exist in a number of oxidation states, the most
+       common of which are trivalent chromium (Cr (III)) and hexavalent chromium (Cr(VI)). Cr (III)
+       is ubiquitous in nature and occurs in air, water, soil and biological systems. Chromium (VI) is
+       mostly man made with a very small proportion present naturally in the environment.
+   40. No speciation was performed as part of the current survey, therefore the dietary exposure
+       presented is for total chromium which is assumed to be Cr (III).
+   41. For chromium, the total mean and high-level exposures were 0.59-1.0 µg/kg bw/day and 1.7-
+       2.5 µg/kg bw/day, respectively. The highest contributing food group to total mean exposure
+       was the ‘commercial infant foods’ group, with total mean exposures ranging from 0.30-0.39
+       µg/kg bw/day. Overall, the current estimates of mean and high level dietary exposure to
+       chromium were well below the EFSA (TDI) for Cr (III) of 0.3 mg/kg bw (EFSA 2014).
+   42. The current estimated dietary exposures did not indicate excessive chromium intakes and
+       were not of toxicological concern.
+
+Lead
+
+   43. The total mean and high-level exposures were 0.071-0.12 µg/kg bw/day and 0.17-0.26 µg/kg
+       bw/day, respectively. The highest contributing food group to total mean exposure was the
+       ‘other’ foods group, with total mean exposures ranging from 0.040-0.070 µg/kg bw/day.
+   44. EFSA calculated that the benchmark dose modelling BMDL01 corresponded to a dietary intake
+       of 0.5 µg/kg bw/day (EFSA, 2010). Overall, the current estimates of dietary exposure to lead
+       generated ranges of MOEs of 4-7 and 2-3 (rounded to 1 SF) for mean and high-level exposures,
+       respectively. MOE values greater than 1 can be taken to imply that at most, any risk from the
+       diet is likely to be small in relation to that from background sources. It should be noted that
+       food is not the only source of exposure to lead in this age group; other potentially important
+       sources of exposure include water and soil. Any risks posed by the current estimated dietary
+       exposures to lead were small.
+Mercury
+
+      45. No speciation was performed as part of the current survey, therefore the dietary exposure
+          presented is for total mercury which is assumed to be methylmercury.
+      46. The total mean and high-level exposures were 0.022-0.046 µg/kg bw/day and 0.13-0.16 µg/kg
+          bw/day, respectively. The highest contributing food group to total mean exposure was the
+          ‘other’ foods group, with total mean exposures ranging from 0.020-0.030 µg/kg bw/day.
+          Overall, the current estimates of mean and high level dietary exposure to mercury were well
+          below the EFSA TWI of 1.3 µg/kg bw for methylmercury (EFSA, 2012). The mean and high-
+          level exposure estimates for the fish-based groups of the ‘commercial infant foods’ (‘meat and
+          fish based foods and dishes’) and ‘other’ foods (‘fish’) categories were also below the TWI for
+          methylmercury (equivalent to 0.19 μg/kg bw/day).
+      47. The current estimated dietary exposures did not indicate excessive mercury intakes and were
+          not of toxicological concern.
+
+Nickel
+
+      48. The total mean and high-level exposures were 1.6-2.6 µg/kg bw/day and 3.9-5.6 µg/kg
+          bw/day, respectively. The highest contributing food group to total mean exposure was the
+          ‘other’ foods group, with total mean exposures ranging from 0.92-1.5 µg/kg bw/day. All
+          exposures were below the toddler-specific TDI of 20 µg/kg bw/day (Haber et al. 2017).
+      49. The current estimated chronic dietary exposure estimates did not indicate excessive nickel
+          intakes and were not of toxicological concern.
+
+Tin
+
+      50. The total mean and high-level exposures were 38 µg/kg bw/day and 250 µg/kg bw/day,
+          respectively. The highest contributing food group to total mean exposure was the ‘other’
+          foods group, with total mean exposures ranging from 38 µg/kg bw/day. Overall, the total
+          mean exposure estimates to tin were well below EVM guidance level of 220 µg/kg bw/day
+          (EVM, 2003). Although the total high-level estimate was approximately 10% above the EVM
+          guidance level, this is only a minor exceedance, which given the conservative nature of the
+          exposure estimate would not be of concern.
+      51. The current estimated dietary exposures did not indicate excessive tin intakes and were not
+          of toxicological concern.
+
+Discussion
+
+      52. A limitation of the previous survey in 2006 was the assumption that commercial infant foods
+          and infant formula make up the entirety of the infant diet. The 2014 survey, provided a more
+          complete and accurate picture of foods consumed as part of the infant diet, by including foods
+          eaten by adults but which are also used to prepare baby foods at home such as bread and
+          bananas.
+      53. The COT concluded that the 2006 survey findings did not give cause for concern for the health
+          of the infant. This assessment concurred with the previous 2003 survey findings. The 2006
+          survey compared dietary exposures against reference doses set by JECFA. Since 2006, there
+          has been a refinement of the toxicological assessment of dietary exposures to lead and
+          arsenic, as understanding of the effects of these contaminants on human health have
+          developed. Therefore, it should not be assumed that concentrations of lead or arsenic have
+          increased in food since 2006.
+    54. Dietary exposure to lead was compared to the reference point set by EFSA of 0.5
+        µg//kg/bw/day. This blood lead level represents a deficit in neurodevelopment, quantified as
+        a decrease in IQ of 1 point at the population level. The Margin of Exposure (MOE) is a measure
+        of how close to the reference point the estimated exposure is. A MOE of greater than 1 would
+        not be a cause for concern for example. The lead dietary exposures in this survey had MOE
+        greater than 1.
+    55. However, when considering total lead exposure which includes an important contribution
+        from soil and dust, there may be a small risk to health. People are exposed to lead through
+        food, drinking water, air, soil and dust. Food and water are the major sources of exposure to
+        lead, although in infants and young children, ingestion of soil and dust can also be important.
+    56. The toxicity of arsenic is dependent on the form. It is generally accepted that inorganic arsenic
+        is more toxic than the arsenic compounds that are commonly found in seafood and marine
+        organisms.
+    57. Dietary exposure to inorganic arsenic was compared to the reference point set by JECFA of 3
+        µg/kg/bw/day. The COT concluded that a MOE of 10 or more would not be a concern for
+        health. The exposure estimates showed a MOE of 6 to 7 for a small proportion of infants and
+        young children, consuming the highest levels of foods included in the survey. For this group
+        there is a small risk to health.
+    58. Dietary exposure to cadmium was compared to the HBGV set by EFSA of 2.5 µg/kg/bw.
+        (tolerable weekly intake). A small proportion of the population, those consuming the highest
+        levels of the foods tested, exceeded the HBGV by 60%. However, the TWI of 2.5 µg/kg/bw is
+        set in the context of 50 years of bio-accumulation of cadmium in the body and Infants can
+        have a relatively higher dietary exposure compared to other age groups when expressed on a
+        body weight basis. Therefore, a small exceedance of the HBGV over a comparatively short
+        period is not a major cause for concern.
+    59. There were no maximum limits for inorganic arsenic in EU Commission regulations when
+        samples were collected in 2013 and 2014. The maximum limit of 0.10 mg/kg for inorganic
+        arsenic in rice used to produce food for infants and young children, was introduced in
+        Commission Regulation (EU) 2015/10068 amending Commission Regulation EU 1881/2006 9
+        from the 1st January 2016. However, when comparing the inorganic arsenic concentrations
+        for this survey all results were compliant with the legislative maximum limits.
+
+Soy based formula
+    60. Aluminium and cadmium are present in varying amounts in most foods. Soybean plants may
+        contain high levels of aluminium. For this survey aluminium and cadmium were reported in
+        powdered soy formula at a concentration of 2550 µg/kg and 11µg/kg respectively (Annex 1,
+        Table 2). If the consumption data for regular animal milk powdered infant formula for the 4
+        to 6 months age group were substituted instead of the diet and nutrition survey of infants and
+        young children (DNSIYC) consumption data for powdered soy formula, then exposure
+        estimates for aluminium and cadmium before taking into account water used in
+        reconstitution, will be at least an order of magnitude above exposure levels for animal milk
+        infant formula10. Infants fed exclusively on soy based formula could therefore have higher
+        dietary exposures to aluminium and cadmium. UK government advice is that infants should
+
+
+8
+  Commission Regulation (EU) 2015/1006 amending Regulation (EC) No 1881/2006 as regards maximum levels
+of inorganic arsenic in foodstuffs, subsection 3.5
+9
+  Commission Regulation (EC) No 1881/2006 setting maximum levels for certain contaminants in foodstuffs
+10
+   COT Addendum to the 2013 COT statement on potential risks from aluminium in the infant diet
+https://cot.food.gov.uk/committee/committee-on-toxicity/cotstatements/cotstatementsyrs/cot-statements-
+2016/addendum-to-the-2013-cot-statement-on-aluminium
+       not be fed soy formula unless it has been prescribed or recommended by a medical
+       practitioner.
+
+Conclusion
+
+   61. Estimates of dietary exposures were calculated for 15 elements for UK infants and young
+       children aged 4 to 18 months, using food consumption data taken from the diet and nutrition
+       survey of infants and young children (DNSIYC).
+   62. The dietary exposure to inorganic arsenic indicated a small risk to health for those consuming
+       the highest levels of foods included in the survey. Cadmium exposure showed a small
+       exceedance of current HBGVs.
+   63. For a small proportion of the infants and young children population consuming the highest
+       levels of the foods tested, there is a small risk to health from dietary exposure to inorganic
+       arsenic.
+   64. The reported small exceedance for cadmium in this age group is not a cause for concern. The
+       HBGV is set in the context of 50 years of exposure to cadmium and infants because of their
+       lower bodyweight tend to have higher dietary exposures compared to older age groups.
+   65. Lead dietary exposure estimates did not suggest a health concern. However, total lead
+       exposure including the contribution from soil and dust in the environment may represent a
+       small risk to health for this age group. There is strong evidence that lead can impair
+       intelligence (as measured by IQ).
+   66. The toxicological risk assessment findings showed that the remaining eleven elements did not
+       pose a concern for health. An assessment of manganese is to follow and will be published on
+       the Committee on Toxicity (COT) website.
+   67. All the samples tested were compliant with food safety legislation. There were no maximum
+       limits for inorganic arsenic when the samples were collected in 2013 and 2014. The maximum
+       limit of 0.10 mg/kg for inorganic arsenic in rice used to produce food for infants and young
+       children, was introduced in Commission Regulation (EU) 2015/1006 of 25 June 2015 amending
+       Commission Regulation (EC) No 1881/2006 of 19 December 2006 setting maximum levels for
+       certain contaminants in foodstuffs at subsection 3.5, from the 1st January 2016.
+Summary of units used in the survey
+
+Microgram (μg): one thousandth of a milligram (mg)
+
+Milligram (mg): one thousandth of a gram
+
+Kilogram (kg): one thousand grams
+
+Micrograms per kilogram (μg/kg)
+
+Kilograms bodyweight (kg/bw)
+
+Micrograms per kilogram body weight per day (μg/kg bw/day)
+
+Glossary
+
+Limit of detection (LoD)
+
+The lowest concentration at which the analyte can be reliably detected using a particular
+measurement procedure.
+
+Limit of quantification (LoQ)
+
+The lowest concentration of an analyte that can be determined with acceptable precision and accuracy
+under the stated conditions of the test.
+
+Lower bound exposure (LB)
+
+The measure of exposure based on a concentration where the analytical result is below the limit of
+detection and is assumed to have a value of zero.
+
+Upper bound exposure (UB)
+
+The measure of exposure based on a concentration where the analytical result is below the limit of
+detection and is assumed to have a value equal to the limit of detection or where the analytical result
+is above the limit of detection but below the limit of quantification is assumed to have a value equal
+to the limit of quantification.
+
+Average exposure at the population level
+
+As determined by the National Diet and Nutrition Survey Rolling Programme (NDNS) the average
+amount of a given food consumed at the population level. This level of consumption is used to
+calculate the average dietary exposure.
+
+High level 97.5th percentile exposure at the population level
+
+As determined by the National Diet and Nutrition Survey Rolling Programme (NDNS) an above average
+consumption of a given food at the population level which includes increasing ranked levels of
+consumption up to and including the 97.5 percentile. The very highest level of consumption at the
+population level would equate to the 100th percentile.
+References
+
+Multi element survey of infant foods (42/03). Available at:
+http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsis200
+3/fsis422003
+
+Survey of metals in weaning foods and formulae for infants 17/06 September 2006. Available at:
+http://tna.europarchive.org/20120530191353/http://www.food.gov.uk/science/surveillance/fsisbra
+nch2006/fsis1706
+
+Diet and nutrition survey of infants and young children, 2011. Available at:
+https://www.gov.uk/government/publications/diet-and-nutrition-survey-of-infants-and-young-
+children-2011
+
+Survey of metals in commercial infant foods, infant formula and non-infant specific foods, Hallmark
+Meat Hygiene.
+
+Survey of metals in commercial infant foods, infant formula and non-infant specific foods. Report
+for the UK Food Standards Agency (FS102048), Fera
+
+Addendum to the 2013 COT statement on potential risks from aluminium in the infant diet.
+https://cot.food.gov.uk/committee/committee-on-toxicity/cotstatements/cotstatementsyrs/cot-
+statements-2016/addendum-to-the-2013-cot-statement-on-aluminium
+
+Commission Regulation (EC) No 1881/2006 setting maximum levels for certain contaminants in
+foodstuffs.
+                                                                                                                                                                                   Annex 1
+Table 1. Average concentration data used to assess dietary exposure to metals and other elements in ready-to-feed infant
+formula
+
+                                                                                                    Concentrations (µg/l)*
+    Ready-To-Feed Formula
+                                    Al       Sb        As       iAs^       Cd        Cr       Cu         I        Fe          Pb      Mn       Hg        Ni        Se        Sn        Zn
+
+   First milk & hungrier milk
+                                  18-34      0-1      0-0.3     0-0.2    0-0.2      0-3       376      143       5136        0-0.4     63     0-0.2      0-9       18        0-3      5974
+          (from birth)
+
+
+
+  Follow on milk (6 months +)     15-31     0-0.8     0-0.4     0-0.3    0-0.2      0-3       329      115       8785        0-0.5     71     0-0.2      0-7       17        0-3      5608
+
+
+
+  Growing up milk (12 months
+                                  15-29     0-0.8    0.3-0.7   0.2-0.5   0-0.3      0-3       346      140      10223        0-0.5     65     0-0.2      0-9       14        0-3      7615
+              +)
+
+
+* Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD as
+equal to the LOD. If there is only one figure shown then all data were above the LOD.
+^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not
+tested for iAs. The corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in
+accordance with the approach taken by EFSA in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+Table 2. Average concentration data used to assess dietary exposure to metals and other elements in dry infant formula
+(samples of dry formula were analysed ‘as sold’ and not reconstituted prior to analysis)
+
+                                                                                                         Concentrations (µg/kg)*
+   Dry Powder Formula
+                                 Al          Sb        As        iAs^        Cd         Cr         Cu           I        Fe         Pb        Mn         Hg         Ni        Se        Sn          Zn
+
+First milk & hungrier milk
+                              388-488        0-5       1-3      0.7-1.8      3-4       15-35      3007        948       42363       1-4       593        0-1      18-54       107      0-23        40388
+       (from birth)
+
+   Comfort (from birth)          767         0-5       1-3      0.9-1.9      0-2       37-73      2967        753       46600       0-5       603        0-1       0-40       173      0-24        42800
+
+  Follow on milk (from 6
+                              400-450        0-5       1-3       0.9-2        3        0-25       2855        913       72475       0-3       615        0-1       0-40       93       0-22        44500
+         months)
+
+
+   Growing up milk (12
+                                 650         5-9       2-3      1.4-2.3      3-4       0-40       3195       1150       83950       0-4       580        0-1       0-40       105      0-22        60300
+       months +)
+
+  Soy based (from birth)        2550         0-6        7         4.6         11       35-55      2905        855       65250       0-5      2785        0-1       200        147      0-23        46000
+
+Goat based (from birth and
+                                 950         0-5        9        6-6.3       0-2       40-45      4220        960       71900       6.5       800        0-1       0-45       137      0-35        47000
+       growing up)
+
+
+
+
+      Organic milk†             1000         <5        14         ~7          8         ~30       3740       1030       47500       ~3       2470        <1        <40        79        ~40        49400
+
+
+
+  * Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD
+  as equal to the LOD. If there is only one figure shown then all data were above the LOD.
+  ^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not
+  tested for iAs. The corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in
+  accordance with the approach taken by EFSA in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+  † Contained milk and cereals
+Table 3. Average concentration data used to assess dietary exposure to metals and other elements in commercial infant
+foods
+
+                                                                                                            Concentrations (µg/kg)*
+     Commercial Infant Foods
+                                      Al         Sb        As        iAs^        Cd         Cr        Cu          I         Fe        Pb         Mn         Hg         Ni        Se         Sn     Zn
+
+      Cereal based foods and         183-                                                                                                                            124-
+                                                0-2        10         5-6        3        14-19       422      74-76      10813       0-1       2778        0                    26       14-18   6460
+              dishes                 229                                                                                                                             127
+
+                                     861-                                                                                 8934-
+   Dairy based foods and dishes                 0-3        11         3-7        2        24-34       347      85-87                  1-2       871        0-1       23-44       15       80-86   8644
+                                     878                                                                                  8984
+
+                                                                                                                                                                                                  4993-
+   Fruit based foods and dishes      1125       0-3         9         1-4       2-3       43-54       862      22-27      7543        1-3       2436       0-1      92-117       6-7      43-50
+                                                                                                                                                                                                  5002
+
+           Baby drinks               453        0-1         2          1         0         0-7        24         0-5       757         3        218        0-0        0-9         0         0     103
+
+
+    Other savoury based foods       1995-
+                                                0-3        15         7-9        10       47-57       774      61-63      14821       3-5       1603       0-1       66-97       17       61-68   8640
+      and dishes (no meat)          1999
+
+
+
+   Snacks (sweet and savoury)        5185       0-0        98        58-62       24         75       2202         4       28750       10       18125        0         292        45         0     12180
+
+
+
+    Meat and fish based foods       1425-
+                                                0-3        15         2-4        9        35-49       595      14-22      7454        4-5       944        0-1       43-72       17       47-52   5190
+        and dishes (All†)           1427
+
+
+
+* Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD
+as equal to the LOD. If there is only one figure shown then all data were above the LOD.
+^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not
+tested for iAs. The corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in
+accordance with the approach taken by EFSA in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+† Meat and fish based foods and dishes included beef, chicken, fish, ham, lamb, pork and turkey
+Table 4. Average concentration data used to assess dietary exposure to metals and other elements in ‘other foods’
+
+                                                                                                              Concentrations (µg/kg)*
+          Food Group
+                                   Al         Sb         As         iAs^        Cd         Cr         Cu           I          Fe         Pb         Mn           Hg         Ni         Se      Sn
+          Beverages              0-40        0-1          1          1          0          0-3        0-4        0-4         0-50         0         9-11         0          0-7         0      0-3
+            Bread                4300        0-5          6          4          26        47-73      1797       23-30       21133        2-5       11677        0-1        0-80        46     0-16    1
+      Canned vegetables          1780        0-3         1-2         1          7         23-40      1107        0-5        11100        5-7        1917        0-1      143-177       12     35767   2
+                                 1966-                                                               1353-                  35454-                 10611-                                             8
+            Cereal                           0-3        59-60      37-38      26-29       42-83                 14-23                    5-6                    0-1       78-127      14-30   12-19
+                                 2760                                                                1683                   37788                  11639                                              1
+        Dairy products          100-150      0-3         0-1        0-1        0-1        0-11        155        269       590-628        2       188-196       0-1        0-23        43     8-16    1
+             Eggs                0-50        0-3          5         1-3        0-1        0-10        560        469        22700        0-1        360         0-1        0-20        245     0-8    1
+             Fish               697-717      0-4        1730       0-10       11-12       17-33       537        515        7133         0-2        777          56        0-27        353    17-23    5
+          Fresh fruit           328-363      0-1          1          1         0-1         0-5        578        0-3        1667          1         2739         0        22-32         1      0-4     1
+        Fruit products            327        0-1          1         0-1         0          0-5        149        3-4         647          1         280          0          0-9         0      0-3    14
+       Green vegetables          1990        0-1          2          1          5         0-11       1084       11-12       11565         2         2585         0         210          9      0-4     6
+        Meat products            1920        0-3          3          2          4          50         690        0-11       8500         0-3        1650        0-1        0-50        61      0-8    1
+             Milk                0-17        0-1          0          0          0          0-3         36        271         0-90         0          16          0          0-7        14      0-3     3
+       Other vegetables         847-865      0-1          2          2          17         4-8       1288        0-3        5632         7-8        2244         0       163-171       18     10-14    3
+           Potatoes               90         0-1          0          0          21         0-5        769        0-3        3160         0-1        1400         0         0-30         3      0-4     2
+            Poultry              0-50        0-3          4          3         0-1        0-10        270         28        2900         0-1         90         0-1        0-20        83      0-8     5
+
+* Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD
+as equal to the LOD. If there is only one figure shown then all data were above the LOD.
+^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples
+not tested for iAs. The corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments,
+in accordance with the approach taken by EFSA in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic
+Table 5. Summary of estimated dietary exposure to metals and other elements for the infant formula, commercial infant
+foods and ‘other’ foods’ groups.
+
+                                                                                           Dietary exposures in UK infants aged 4 to 18 months (μg/kg bw/day)
+    Food Group        Consumer
+                                       Al         Sb         As         iAs        Cd         Cr         Cu          I          Fe         Pb         Mn          Hg        Ni           Se        Sn
+
+                                                                                            0.0029-                                                               0-      0.010-        0.020-
+                        Mean        0.64-1.1    0-0.030    0-0.013    0-0.010    0-0.010                 11         4.0        240       0-0.015      2.2                                        0-0.090
+                                                                                              0.10                                                              0.0061     0.25          0.53
+  Infant Formula
+                                                           0.012-     0.010-                                                                                                            0.060-
+                      High level     2.0-3.6    0-0.10                           0-0.022    0-0.32       37          14        760       0-0.046      6.9       0-0.020   0-0.90                 0-0.31
+                                                           0.040      0.030                                                                                                               1.8
+
+                                                0.010-                 0.04-                 0.30-                 0.28-                 0.030-                 0.0012-    0.60-                  0.36-
+                        Mean           12                   0.13                  0.06                   5.7                    81                    19                                0.14
+                                                0.020                  0.062                 0.39                  0.33                  0.040                   0.010     0.80                   0.41
+    Commercial
+    Infant Foods
+                                                0.040-                 0.19-                                                              0.13-                 0.010-                  0.67-
+                      High level      54-55                 0.58                  0.27      1.4-1.8      26       1.6-1.7      370                    78                  2.6-3.6                1.9-2.1
+                                                 0.10                  0.26                                                               0.17                  0.030                   0.70
+
+                                                            0.78-     0.090-      0.19-      0.26-                                       0.040-                 0.020-
+                        Mean          19-20     0-0.050                                                  16         5.3      160-170                  63                  0.92-1.5       0.8       38
+                                                            0.79       0.10       0.20       0.48                                        0.070                  0.030
+    Other Foods
+                                                                       0.35-                                                              0.12-                  0.13-
+                      High level      50-51     0-0.12       4.2                  0.52     0.81-1.2      39          19      450-460                  170                 2.8-3.8        2.1      250
+                                                                       0.37                                                               0.16                   0.15
+
+                                                0.0040-     0.91-      0.14-      0.25-                                                  0.071-                 0.022-
+                        Mean          33-34                                                0.59-1.0      37          11        550                    85                  1.6-2.6    1.1-1.6       38
+                                                  0.11      0.94       0.18       0.27                                                    0.12                  0.046
+       Total
+                                                0.029-                 0.41-      0.57-                                                   0.17-                  0.13-
+                      High level      74-76                4.3-4.4                          1.7-2.5      69          23        1300                   190                 3.9-5.6    2.6-3.0      250
+                                                 0.21                  0.47       0.59                                                    0.26                   0.16
+
+
+* Values are rounded to 2SF. Values are presented as estimates based on lower-bound (LB) to upper-bound (UB) concentration data. The LB was calculated by treating concentration data
+< LOD as 0, while the UB was determined by treating values <LOD as equal to the LOD. If there is only one figure shown then all concentration data were above the LOD.
+                  Table 6. Breakdown of mean exposures to metals and other elements in infant formula (ready to feed and dry powder)
+
+                                                                                                          Mean exposure estimates (μg/kg bw/day)*
+     Food category
+                                   Al          Sb          As         iAs^         Cd           Cr         Cu          I          Fe         Pb              Mn          Hg           Ni          Se          Sn      Zn
+                                                                                             0.0010-
+      Comfort milk               0.018         0           0            0           0                     0.069        0.018        1.1          0         0.014          0       0-0.0010      0.0040     0-0.0010   1.0
+                                                                                             0.0020
+First milk from birth (dry      0.011-
+                                               0           0            0           0       0-0.0010      0.081        0.026        1.2          0         0.016          0       0-0.0010      0.0030     0-0.0010   1.1
+         powder)                0.013
+  Follow on milk (6             0.014-
+                                               0           0            0           0       0-0.0010        0.1        0.033        2.6          0         0.022          0       0-0.0010      0.0030     0-0.0010   1.6
+months+) (dry powder)           0.016
+ Growing up milk (12
+                                 0.006         0           0            0           0           0          0.03        0.011        0.78         0         0.005          0           0         0.0010         0      0.56
+months+) (dry powder)
+       Goat milk                 0.007         0           0            0           0           0          0.03        0.007        0.51         0         0.006          0           0         0.0010         0      0.34
+      Organic milk               0.002         0           0            0           0           0         0.008        0.002        0.11         0         0.005          0           0            0           0      0.11
+                                                                                             0.0010-
+        Soy milk                 0.098         0           0            0           0                      0.11        0.033        2.5          0          0.11          0         0.008       0.0060     0-0.0010   1.8
+                                                                                             0.0020
+  First milk from birth          0.20-
+                                            0-0.011     0-0.0030    0-0.0020    0-0.0020     0-0.033        4.1         1.6         56        0-0.0040      0.68      0-0.0020     0-0.098      0-0.20      0-0.033   65
+     (ready to feed)             0.37
+
+   Follow on milk (6             0.24-
+                                            0-0.013     0-0.0060    0-0.0050    0-0.0030     0-0.049        5.3         1.9         140       0-0.0080      1.15      0-0.0030      0-0.11      0-0.27      0-0.049   91
+months+) (ready to feed)         0.50
+
+
+ Growing up milk (12            0.044-                  0.0010-
+                                           0-0.0020                   0.001     0-0.0010    0-0.0090         1         0.41         30        0-0.0010      0.19      0-0.0010     0-0.026     0-0.041      0-0.009   22
+months+) (ready to feed)        0.084                   0.0020
+
+                                                        0.0010-                              0.0029-                                                                                0.010-      0.020-
+          Total                0.64-1.1     0-0.030                  0-0.010     0-0.010                    11           4          240       0-0.015        2.2      0-0.0061                              0-0.090   180
+                                                         0.013                                 0.10                                                                                  0.25        0.53
+
+                  * Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD
+                  as equal to the LOD. If there is only one figure shown then all data were above the LOD.
+                  ^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not
+                  tested for iAs. The corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in
+                  accordance with the approach taken by EFSA in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+                  Table 7. Breakdown of 97.5th percentile exposures to metals and other elements in infant formula (ready to feed and dry
+                  powder)
+
+                                                                                                       97.5th percentile exposure estimates (μg/kg bw/day)*
+     Food category
+                                   Al          Sb          As         iAs^         Cd           Cr             Cu           I          Fe          Pb       Mn           Hg           Ni          Se          Sn     Zn
+      Comfort milk                 0            0          0            0           0           0               0           0           0           0        0           0            0           0            0      0
+First milk from birth (dry
+                                   0           0           0            0           0           0             0          0           0           0            0           0           0           0            0     0
+         powder)
+  Follow on milk (6
+                                   0           0           0            0           0           0             0          0           0           0            0           0           0           0            0     0
+months+) (dry powder)
+ Growing up milk (12
+                                   0           0           0            0           0           0             0          0           0           0            0           0           0           0            0     0
+months+) (dry powder)
+       Goat milk                   0           0           0            0           0           0             0          0           0           0            0           0           0           0            0     0
+      Organic milk                 0           0           0            0           0           0             0          0           0           0            0           0           0           0            0     0
+       Soy milk                    0           0           0            0           0           0             0          0           0           0            0           0           0           0            0     0
+  First milk from birth
+                                1.7-3.2     0-0.093     0-0.028      0-0.019     0-0.019      0-0.28         35          13         480       0-0.037        5.9       0-0.019      0-0.84       0-1.7      0-0.28   550
+     (ready to feed)
+
+   Follow on milk (6
+                                1.2-2.6     0-0.066     0-0.033      0-0.025     0-0.017      0-0.25         27         9.5         730       0-0.041        5.9       0-0.017      0-0.58       0-1.4      0-0.25   460
+months+) (ready to feed)
+
+
+ Growing up milk (12             0.60-                   0.012-      0.0080-
+                                            0-0.032                              0-0.012      0-0.12         14         5.6         410       0-0.020        2.6      0-0.0080      0-0.36       0-0.6      0-0.12   300
+months+) (ready to feed)         1.17                    0.028        0.020
+
+                                                         0.012-      0.010-                                                                                                                     0.060-
+          Total                 2.0-3.6      0-0.10                              0-0.022      0-0.32         37          14         760       0-0.046        6.9       0-0.020      0-0.90                  0-0.31   600
+                                                         0.040       0.030                                                                                                                        1.8
+
+                  * Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD
+                  as equal to the LOD. If there is only one figure shown then all data were above the LOD.
+                  ^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not
+                  tested for iAs. The corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in
+                  accordance with the approach taken by EFSA in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+      Table 8. Breakdown of mean exposures to metals and other elements in commercial infant foods
+
+                                                                                           mean exposure estimates (μg/kg bw/day)*
+  Food category
+                        Al          Sb          As        iAs^         Cd         Cr         Cu         I          Fe         Pb            Mn          Hg         Ni          Se         Sn           Zn
+                       0.17-        0-                                          0.013-               0.068-                   0-                                  0.11-                 0.012-
+Cereal based foods                           0.0090       0.005      0.0030                 0.39                  9.9                       2.5         0                    0.024                     5.9
+                       0.20       0.0020                                        0.017                 0.070                 0.0010                                0.11                  0.016
+    and dishes
+
+                       0.56-        0-                   0.002-                 0.015-                 0.055-                                           0-       0.015-                 0.052-
+Dairy based foods                             0.007                  0.0010                  0.22                    5.8      0.0010       0.56                              0.010                     5.6
+                       0.57       0.0020                 0.005                  0.022                  0.056                                          0.0010     0.028                  0.056
+   and dishes
+
+                                    0-                   0.002-     0.0040-     0.081-                 0.042-                 0.0020-                   0-        0.17-      0.011-     0.081-
+Fruit based foods       2.1                   0.017                                           1.6                    14                     4.6                                                        9.5
+                                  0.0060                 0.008      0.0060       0.10                  0.051                  0.0060                  0.0020      0.22       0.013      0.095
+   and dishes
+
+  Meat and fish                     0-                   0.006-                  0.11-                 0.043-                  0.012-                   0-        0.13-                  0.14-
+                        4.4                   0.046                  0.027                    1.8                    23                     2.9                              0.052                     16
+ based foods and                  0.0090                 0.012                   0.15                  0.067                   0.015                  0.0030      0.22                   0.16
+   dishes (All†)
+                                    0-                                            0-                     0-
+                       0.56                  0.0020       0.001        0                    0.029                   0.93      0.0040       0.27         0        0-0.011       0           0           0.13
+   Baby drinks                    0.0010                                        0.0090                 0.0060
+
+  Other savoury                     0-                   0.009-                 0.057-                 0.074-                 0.0040-                            0.080-                 0.074-
+                        2.4                   0.018                  0.012                   0.94                    18                     2.0      0-.0010                 0.021                     10
+ based foods and                  0.0040                 0.011                  0.069                  0.077                  0.0060                              0.12                  0.083
+ dishes (no meat)
+                                                         0.019-
+Snacks (sweet and       1.7          0        0.032                  0.0080      0.024       0.71      0.0010        9.3      0.0030        5.8         0         0.094      0.014         0           3.9
+                                                          0.02
+    savoury)
+
+                                  0.010-                 0.043-                  0.30-                  0.28-                  0.030-                0.0012-      0.60-                  0.36-
+                        12                     0.13                   0.06                    5.7                    81                     19                                0.14                     51
+      Total                       0.020                  0.062                   0.39                   0.33                   0.040                  0.010       0.80                   0.41
+
+
+      * Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD
+      as equal to the LOD. If there is only one figure shown then all data were above the LOD.
+      ^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not
+      tested for iAs. The corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in
+      accordance with the approach taken by EFSA in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+      Table 9. Breakdown of 97.5th percentile exposures to metals and other elements in commercial infant foods
+
+                                                                                     97.5th percentile exposure estimates (μg/kg bw/day)*
+  Food category
+                         Al         Sb          As        iAs^         Cd         Cr          Cu           I         Fe         Pb        Mn            Hg         Ni          Se         Sn           Zn
+Cereal based foods                                       0.035-                 0.099-                  0.52-                    0-                               0.84-                 0.092-
+                      1.3-1.6    0-0.014      0.071                  0.021                   3.0                     76                   20            0                     0.18                     46
+    and dishes                                           0.042                   0.13                    0.54                 0.0070                              0.86                   0.12
+Dairy based foods                                        0.021-                  0.17-                  0.60-                0.0070-                   0-         0.16-                  0.56-
+                      6.1-6.2    0-0.021      0.077                  0.014                   2.4                     63                   6.1                                 0.11                     61
+    and dishes                                           0.049                   0.24                    0.61                  0.014                 0.0070       0.31                   0.61
+ Fruit based foods                                       0.012-      0.025-      0.53-                  0.27-                 0.012-                                         0.074-      0.53-
+                        14       0-0.037       0.11                                           11                     94                   30         0-0.012     1.1-1.5                               62
+    and dishes                                            0.05       0.037       0.67                    0.34                  0.037                                         0.087       0.62
+   Meat and fish
+                                                         0.039-                  0.69-                  0.28-                  0.079-
+ based foods and        28       0-0.059       0.30                   0.18                    12                    150                     19       0-0.020    0.85-1.4      0.34      0.93-1.0       100
+                                                         0.079                   0.96                   0.43                   0.098
+    dishes (All†)
+    Baby drinks         6.8      0-0.015      0.030       0.015        0        0-0.11       0.36      0-0.075       11        0.045        3.3         0        0-0.14        0           0           1.5
+  Other savoury
+                                                         0.065-                  0.44-                  0.57-                  0.028-                             0.61-                  0.57-
+ based foods and        19       0-0.028       0.14                  0.093                    7.2                   140                     15       0-0.010                  0.16                     80
+                                                         0.083                   0.53                   0.58                   0.046                              0.90                   0.63
+ dishes (no meat)
+Snacks (sweet and                                        0.112-
+                        10           0         0.19                  0.046       0.15         4.3      0.0080        56        0.019        35          0         0.56       0.087         0           34
+      savoury)                                            0.12
+                                  0.040-                 0.187-                                                                0.13-                  0.010-                  0.67-
+      Total            54-55                   0.58                   0.27      1.4-1.8       26       1.6-1.7      370                     78                   2.6-3.6                1.9-2.1        250
+                                   0.10                  0.265                                                                 0.17                   0.030                   0.70
+
+      * Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD
+      as equal to the LOD. If there is only one figure shown then all data were above the LOD.
+      ^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not
+      tested for iAs. The corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in
+      accordance with the approach taken by EFSA in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+      † Meat and fish based foods and dishes included beef, chicken, fish, ham, lamb, pork a
+       Table 10. Breakdown of mean exposures to metals and other elements in ‘other foods’
+
+                                                                                                     mean exposure estimates (μg/kg bw/day)*
+ Food category
+                        Al          Sb           As           iAs^          Cd            Cr           Cu            I          Fe           Pb           Mn           Hg           Ni           Se            Sn             Zn
+                                                                                                                                                        0.0080-
+   Beverages         0-0.036     0-0.0010      0.0010        0.0010          0         0-0.0030     0-0.0040     0-0.0040     0-0.045         0                         0        0-0.0060         0         0-0.0030        0-0.024
+                                                                                                                                                        0.0090
+                                                                                        0.062-                    0.031-                  0.0030-
+     Bread             5.8       0-0.0070      0.0080        0.0050        0.034                      2.4                       28                        16        0-0.0010     0-0.1070       0.062       0-0.021           17
+                                                                                        0.098                     0.040                   0.0070
+    Canned                                     0.0010-                                  0.024-                                            0.0050-
+                       1.9       0-0.0030                    0.0010        0.008                      1.2        0-0.0050       12                        2.0       0-0.0010     0.15-0.19      0.013          37             2.8
+   vegetables                                  0.0020                                   0.042                                             0.0070
+                                                                                                                  0.036-                  0.0080-                                                             0.023-
+     Cereal            5.3       0-0.0060       0.115        0.074         0.055      0.15-0.16       3.2                       73                        22        0-0.0020     0.17-0.24      0.057                         19
+                                                                                                                  0.043                    0.010                                                              0.037
+                                                                                                                                          0.0060-                                                             0.026-
+ Dairy products     0.32-0.48    0-0.0090     0-0.0030      0-0.0020     0-0.0020      0-0.036        0.50         0.86       1.9-2.0                  0.61-0.63    0-0.0020      0-0.072       0.14                          38
+                                                                                                                                          0.0080                                                              0.051
+      Eggs           0-0.019     0-0.0010      0.0020       0-0.0010         0         0-0.0040       0.21         0.18         8.6          0            0.14          0        0-0.0080       0.092       0-0.0030          4.8
+                                                                                        0.0060-                                                                                                              0.0060-
+      Fish          0.26-0.26    0-0.0010       0.635       0-0.0040      0.0040                      0.20         0.19         2.6       0-0.0010        0.29        0.020       0-0.010       0.13                          2.1
+                                                                                         0.012                                                                                                               0.0080
+                                               0.0050-      0.0030-       0.0020-                                                         0.0030-                                 0.089-       0.0040-
+   Fresh fruit       1.3-1.5     0-0.0050                                              0-0.020        2.4        0-0.013        6.8                       11        0-0.0010                                0-0.016           4.1
+                                               0.0060       0.0040        0.0030                                                          0.0050                                   0.13        0.0060
+                                                                                                                  0.0030-                                                                                                    0.16-
+ Fruit products       0.37       0-0.0010      0.0010       0-0.0010         0         0-0.0060       0.17                     0.73        0.0010         0.32          0         0-0.011         0         0-0.0030
+                                                                                                                  0.0050                                                                                                     0.17
+                                                                                                                  0.0070-                  0.0010-
+Green vegetables       1.3       0-0.0010      0.0010        0.0010       0.0040       0-0.0070       0.72                      7.7                       1.7           0          0.14        0.0060       0-0.0030          4.2
+                                                                                                                  0.0080                   0.0020
+ Meat products        0.57       0-0.0010      0.0010        0.0010       0.0010        0.015         0.21       0-0.0030       2.5       0-0.0010        0.49          0         0-0.015       0.018       0-0.0020          3.2
+      Milk           0-0.25       0-0.012     0-0.0030      0-0.0020     0-0.0030      0-0.044        0.52         3.9         0-1.3      0-0.0060        0.23      0-0.0030      0-0.10        0.21         0-0.044          44
+                                               0.0050-                                 0.0080-                                             0.016-                                              0.039-         0.023-
+Other vegetables       1.9       0-0.0030                    0.0040        0.037                      2.9        0-0.0060       13                        5.0       0-0.0010     0.37-0.38                                    8.9
+                                               0.0060                                   0.019                                              0.018                                                0.040         0.031
+    Potato            0.20       0-0.0030     0-0.0010      0-0.0010       0.047       0-0.011        1.7        0-0.0060       7.1       0-0.0010        3.1       0-0.0010      0-0.067      0.0070       0-0.0090          5.5
+    Poultry          0-0.016     0-0.0010      0.0010        0.0010          0         0-0.0030      0.087        0.0090       0.94           0          0.029           0       0-0.0060       0.027       0-0.0030          1.9
+                                                             0.090-                                                                        0.040-                     0.020-
+     Total            19-20       0-0.050     0.78-0.79                  0.19-0.20    0.26-0.48        16          5.3        160-170                     63                     0.92-1.5        0.8           38            160
+                                                              0.10                                                                         0.070                      0.030
+
+       * Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD as equal to the LOD. If
+       there is only one figure shown then all data were above the LOD.
+       ^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not tested for iAs. The
+       corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in accordance with the approach taken by EFSA
+       in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+        Table 11. Breakdown of 97.5th percentile exposures to metals and other elements in ‘other foods’
+
+                                                                                                   97.5th percentile exposure estimates (μg/kg bw/day)*
+Food category
+                      Al           Sb           As           iAs^            Cd           Cr             Cu            I           Fe           Pb         Mn            Hg          Ni           Se           Sn             Zn
+                                                                                                                                                          0.097-
+  Beverages         0-0.43      0-0.0090      0.014          0.010        0-0.0020      0-0.032        0-0.043      0-0.043      0-0.54      0-0.0030                 0-0.0020     0-0.075     0-0.0050      0-0.032         0-0.29
+                                                                                                                                                           0.11
+                                                                                                                                              0.013-
+    Bread             24        0-0.028       0.032          0.022          0.14       0.26-0.42         10        0.13-0.17       120                      66        0-0.0060     0-0.45        0.26        0-0.090          72
+                                                                                                                                              0.030
+  Canned                                     0.0070-        0.0050-                                                                           0.035-
+                      12        0-0.017                                    0.051       0.16-0.28         7.6        0-0.035        77                       13        0-0.0030    0.99-1.2      0.085          250            18
+ vegetables                                   0.014          0.010                                                                            0.046
+                                                                                                                                              0.035-
+    Cereal            24        0-0.029        0.52          0.33           0.25       0.67-0.71         15        0.16-0.20       330                     100        0-0.0080    0.78-1.1       0.26       0.10-0.17         87
+                                                                                                                                              0.043
+                                                                                                                                              0.021-                                                         0.098-
+Dairy products      1.2-1.8     0-0.035      0-0.012       0-0.0080       0-0.0070      0-0.14           1.9          3.3        7.2-7.7                  2.3-2.4     0-0.0070     0-0.28        0.53                         150
+                                                                                                                                              0.029                                                           0.20
+                                                            0.0020-
+     Eggs           0-0.14      0-0.0070      0.013                       0-0.0010      0-0.028          1.6          1.3          63        0-0.0030      1.0        0-0.0030     0-0.055       0.68        0-0.022          35
+                                                            0.0090
+                                                                                        0.039-                                                                                                               0.041-
+     Fish           1.6-1.7     0-0.0090        4.1         0-0.023        0.027                         1.3          1.2          17        0-0.0050      1.8          0.13       0-0.063       0.83                         13
+                                                                                        0.078                                                                                                                0.053
+                                              0.017-                      0.0070-                                                              0.010-                               0.33-       0.013-
+  Fresh fruit       5.0-5.5     0-0.020                   0.012-0.014                   0-0.075          8.7        0-0.050        25                       41        0-0.0050                               0-0.060          15
+                                              0.021                        0.012                                                               0.018                                0.48        0.021
+                                             0.0070-        0.0050-                                                  0.030-                    0.010-
+Fruit products       3.4        0-0.0090                                  0-0.0020      0-0.060          1.7                       7.3                     3.2        0-0.0020     0-0.11      0-0.0030      0-0.034     1.62-1.73
+                                              0.011         0.0070                                                   0.045                     0.013
+   Green                                                                                                             0.038-                   0.0060-
+                     7.2        0-0.0050      0.0070        0.0050         0.019        0-0.038          3.9                       42                      9.3        0-0.0010      0.76        0.032        0-0.014          23
+ vegetables                                                                                                          0.042                    0.0090
+Meat products        5.1        0-0.0080      0.0090        0.0060         0.011         0.13            1.8        0-0.029        23        0-0.0080      4.4        0-0.0010     0-0.13        0.16        0-0.021          29
+    Milk            0-1.1       0-0.051       0-0.013      0-0.0090       0-0.013       0-0.19           2.3          17          0-5.8       0-0.026      1.0        0-0.0130     0-0.45        0.91        0-0.19           200
+   Other                                       0.024-                                   0.039-                                                 0.078-
+                    9.0-9.2     0-0.014                   0.017-0.018       0.18                         14         0-0.030        60                       24        0-0.0040     1.7-1.8       0.19       0.11-0.15         42
+ vegetables                                    0.026                                     0.088                                                 0.084
+   Potato            0.86       0-0.012      0-0.0040      0-0.0030         0.20        0-0.048          7.4        0-0.024        30        0-0.0060       13        0-0.0030     0-0.29       0.030        0-0.038          23
+   Poultry          0-0.11      0-0.0060      0.0090        0.0060        0-0.0010      0-0.022         0.61         0.063         6.5       0-0.0020      0.2        0-0.0010     0-0.045       0.19        0-0.018          13
+                                                                                                                                                                        0.13-
+    Total           50-51        0-0.12         4.2        0.35-0.37        0.52       0.81-1.2          39           19        450-460      0.12-0.16     170                     2.8-3.8        2.1          250            370
+                                                                                                                                                                        0.15
+
+        * Values are presented as lower-bound (LB) to upper-bound (UB). The LB was calculated by treating concentration data < LOD as 0, while the UB was determined by treating values <LOD as equal to the LOD. If
+        there is only one figure shown then all data were above the LOD.
+        ^ As samples were only tested for inorganic arsenic (iAs) where total arsenic (tAs) results were >10µg/kg, a factor of 70 % was applied to reported tAs to estimate iAs, for those samples not tested for iAs. The
+        corresponding iAs estimates were then combined with the reported iAs results to calculate the lower bound and upper bound means for the exposure assessments, in accordance with the approach taken by EFSA
+        in their 2009 opinion and 2014 report. Range reported as <LOD for those samples not tested for inorganic arsenic.
+

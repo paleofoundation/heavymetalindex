@@ -1,0 +1,574 @@
+SOURCE ID: collado-lopez2025-heavy-metals-baby-food-formula
+SOURCE TITLE: Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: ../../../../Desktop/heavy-metal-index/raw/studies/nuaf138.pdf
+METALS DECLARED: [Pb, Cd, tAs, tHg]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 2-6 ---
+    2 | 
+    3 | Concentrations of Heavy Metals in Processed Baby Foods and
+    4 | Infant Formulas Worldwide: A Scoping Review
+    5 | Sonia Collado-L�opez 1; Mar�ıa Fernanda Rodr�ıguez Hern�andez2; Rosa Mar�ıa Mariscal-Moreno�,2;
+    6 | Martha Mar�ıa T�ellez-Rojo1; Larissa Betanzos-Robledo 3; Mois�es Reyes Luna4; Alejandra Cantoral-
+
+--- lines 19-23 ---
+   19 | 
+   20 |                     The aim of this study was to synthesize the global evidence of heavy metal (HM)
+   21 |                     concentrations in baby foods and infant formulas. The toxic HMs lead (Pb), cad­
+   22 |                     mium (Cd), arsenic (As), and mercury (Hg) have been detected in baby foods and
+   23 |                     infant formulas, raising health concerns. Advanced searches were performed. Baby
+
+--- lines 20-24 ---
+   20 |                     The aim of this study was to synthesize the global evidence of heavy metal (HM)
+   21 |                     concentrations in baby foods and infant formulas. The toxic HMs lead (Pb), cad­
+   22 |                     mium (Cd), arsenic (As), and mercury (Hg) have been detected in baby foods and
+   23 |                     infant formulas, raising health concerns. Advanced searches were performed. Baby
+   24 |                     foods were classified into 7 groups according to their primary ingredient. Infant for­
+
+--- lines 21-25 ---
+   21 |                     concentrations in baby foods and infant formulas. The toxic HMs lead (Pb), cad­
+   22 |                     mium (Cd), arsenic (As), and mercury (Hg) have been detected in baby foods and
+   23 |                     infant formulas, raising health concerns. Advanced searches were performed. Baby
+   24 |                     foods were classified into 7 groups according to their primary ingredient. Infant for­
+   25 |                     mulas were classified as: Stage 1 (<6 months), stage 2 (6–12 months), stage 3
+
+--- lines 24-28 ---
+   24 |                     foods were classified into 7 groups according to their primary ingredient. Infant for­
+   25 |                     mulas were classified as: Stage 1 (<6 months), stage 2 (6–12 months), stage 3
+   26 |                     (>12–36 months), and specialty. Median concentrations and interquartile ranges
+   27 |                     were calculated for each classification. The percentage of items by category exceed­
+   28 |                     ing the International Maximum Levels (MLs) was obtained. Seventy-five studies
+
+--- lines 26-30 ---
+   26 |                     (>12–36 months), and specialty. Median concentrations and interquartile ranges
+   27 |                     were calculated for each classification. The percentage of items by category exceed­
+   28 |                     ing the International Maximum Levels (MLs) was obtained. Seventy-five studies
+   29 |                     were included in the scoping review, which in total examined 580 baby foods and
+   30 |                     251 infant formulas. Pb, Cd, and As were detected in over 60% of baby foods. The
+
+--- lines 28-32 ---
+   28 |                     ing the International Maximum Levels (MLs) was obtained. Seventy-five studies
+   29 |                     were included in the scoping review, which in total examined 580 baby foods and
+   30 |                     251 infant formulas. Pb, Cd, and As were detected in over 60% of baby foods. The
+   31 |                     highest Pb median was found in rice mixes and fish mixes (0.008 mg/kg each),
+   32 |                     with >20% of their items exceeding the Pb ML. The highest Cd median was found
+
+--- lines 29-33 ---
+   29 |                     were included in the scoping review, which in total examined 580 baby foods and
+   30 |                     251 infant formulas. Pb, Cd, and As were detected in over 60% of baby foods. The
+   31 |                     highest Pb median was found in rice mixes and fish mixes (0.008 mg/kg each),
+   32 |                     with >20% of their items exceeding the Pb ML. The highest Cd median was found
+   33 |                     in cereals (0.013 mg/kg) and mixes of various foods (0.008 mg/kg), with >17% of
+
+--- lines 30-34 ---
+   30 |                     251 infant formulas. Pb, Cd, and As were detected in over 60% of baby foods. The
+   31 |                     highest Pb median was found in rice mixes and fish mixes (0.008 mg/kg each),
+   32 |                     with >20% of their items exceeding the Pb ML. The highest Cd median was found
+   33 |                     in cereals (0.013 mg/kg) and mixes of various foods (0.008 mg/kg), with >17% of
+   34 |                     their items exceeding the Cd ML. For As, the highest median was found in mixed
+
+--- lines 32-36 ---
+   32 |                     with >20% of their items exceeding the Pb ML. The highest Cd median was found
+   33 |                     in cereals (0.013 mg/kg) and mixes of various foods (0.008 mg/kg), with >17% of
+   34 |                     their items exceeding the Cd ML. For As, the highest median was found in mixed
+   35 |                     fish (0.165 mg/kg) and rice mixes (0.048 mg/kg), with 89% and 30% of items
+   36 |                     exceeding the As ML, respectively. For infant formulas, Pb, Cd, and As were
+
+--- lines 34-38 ---
+   34 |                     their items exceeding the Cd ML. For As, the highest median was found in mixed
+   35 |                     fish (0.165 mg/kg) and rice mixes (0.048 mg/kg), with 89% and 30% of items
+   36 |                     exceeding the As ML, respectively. For infant formulas, Pb, Cd, and As were
+   37 |                     detected in >60% of items. The highest Pb median concentrations were found in
+   38 |                     stages 1 and 2 (0.015 mg/kg each), with >60% of their items exceeding the Pb
+
+--- lines 35-39 ---
+   35 |                     fish (0.165 mg/kg) and rice mixes (0.048 mg/kg), with 89% and 30% of items
+   36 |                     exceeding the As ML, respectively. For infant formulas, Pb, Cd, and As were
+   37 |                     detected in >60% of items. The highest Pb median concentrations were found in
+   38 |                     stages 1 and 2 (0.015 mg/kg each), with >60% of their items exceeding the Pb
+   39 |                     MLs. For As, without-stage (0.052 mg/kg) had the highest median, with >71% of
+
+--- lines 36-40 ---
+   36 |                     exceeding the As ML, respectively. For infant formulas, Pb, Cd, and As were
+   37 |                     detected in >60% of items. The highest Pb median concentrations were found in
+   38 |                     stages 1 and 2 (0.015 mg/kg each), with >60% of their items exceeding the Pb
+   39 |                     MLs. For As, without-stage (0.052 mg/kg) had the highest median, with >71% of
+   40 |                     items exceeding the As ML. Fifteen studies reported the health risks related to
+
+--- lines 37-41 ---
+   37 |                     detected in >60% of items. The highest Pb median concentrations were found in
+   38 |                     stages 1 and 2 (0.015 mg/kg each), with >60% of their items exceeding the Pb
+   39 |                     MLs. For As, without-stage (0.052 mg/kg) had the highest median, with >71% of
+   40 |                     items exceeding the As ML. Fifteen studies reported the health risks related to
+   41 |                     intake of various foods: significant risks were identified for infants ≥6 months for
+
+--- lines 40-44 ---
+   40 |                     items exceeding the As ML. Fifteen studies reported the health risks related to
+   41 |                     intake of various foods: significant risks were identified for infants ≥6 months for
+   42 |                     rice products, and ≤12 months stage 1 and 2 formulas. This review highlights
+   43 |                     widespread HM presence in baby foods and infant formulas. Exceedances of the
+   44 |                     ML were particularly notable in rice products for infants >6 months and infant for­
+
+--- lines 41-45 ---
+   41 |                     intake of various foods: significant risks were identified for infants ≥6 months for
+   42 |                     rice products, and ≤12 months stage 1 and 2 formulas. This review highlights
+   43 |                     widespread HM presence in baby foods and infant formulas. Exceedances of the
+   44 |                     ML were particularly notable in rice products for infants >6 months and infant for­
+   45 |                     mulas for babies ≤12 months of age.
+
+--- lines 44-48 ---
+   44 |                     ML were particularly notable in rice products for infants >6 months and infant for­
+   45 |                     mulas for babies ≤12 months of age.
+   46 |                     Key words: heavy metals, baby food, infant formulas, lead, cadmium, arsenic, mercury.
+   47 | 
+   48 | 
+
+--- lines 60-64 ---
+   60 | 448                                                                                                    Nutrition ReviewsV Vol. 84(2):448–461
+   61 |                                                                                                                         R
+   62 |                         INTRODUCTION                         International Maximum Levels (MLs) for specific con­
+   63 |                                                              taminants like Pb, Cd, and As in some baby foods and
+   64 | Heavy metals (HMs), like lead (Pb), cadmium (Cd),            infant formulas.19–22
+
+--- lines 61-65 ---
+   61 |                                                                                                                         R
+   62 |                         INTRODUCTION                         International Maximum Levels (MLs) for specific con­
+   63 |                                                              taminants like Pb, Cd, and As in some baby foods and
+   64 | Heavy metals (HMs), like lead (Pb), cadmium (Cd),            infant formulas.19–22
+   65 | mercury (Hg), and the metalloid arsenic (As) (all                 Given the international concern about the presence
+
+--- lines 62-66 ---
+   62 |                         INTRODUCTION                         International Maximum Levels (MLs) for specific con­
+   63 |                                                              taminants like Pb, Cd, and As in some baby foods and
+   64 | Heavy metals (HMs), like lead (Pb), cadmium (Cd),            infant formulas.19–22
+   65 | mercury (Hg), and the metalloid arsenic (As) (all                 Given the international concern about the presence
+   66 | referred to as HMs in this study), are toxic elements        of HMs in food, their toxic effects on children’s health,
+
+--- lines 63-67 ---
+   63 |                                                              taminants like Pb, Cd, and As in some baby foods and
+   64 | Heavy metals (HMs), like lead (Pb), cadmium (Cd),            infant formulas.19–22
+   65 | mercury (Hg), and the metalloid arsenic (As) (all                 Given the international concern about the presence
+   66 | referred to as HMs in this study), are toxic elements        of HMs in food, their toxic effects on children’s health,
+   67 | widely distributed in the environment.1 Due to their         and the substantial growth in global sales of baby foods
+
+--- lines 66-70 ---
+   66 | referred to as HMs in this study), are toxic elements        of HMs in food, their toxic effects on children’s health,
+   67 | widely distributed in the environment.1 Due to their         and the substantial growth in global sales of baby foods
+   68 | high toxicity, these elements are prioritized as critical    and infant formulas, we identified a critical need to
+   69 | public human and environmental health concerns.2 As          compile the evidence for the presence of HMs in this
+   70 | systemic toxicants, they can cause damage to multiple        type of food product. Therefore, this scoping review
+
+--- lines 70-74 ---
+   70 | systemic toxicants, they can cause damage to multiple        type of food product. Therefore, this scoping review
+   71 | organ systems, even at low exposure levels.3 The risk        (ScR) aimed to synthesize the scope of the global evi­
+   72 | associated with HM exposure is of particular concern in      dence for the presence of HMs, specifically Pb, Cd, As,
+   73 | infants and young children because of their rapid            and Hg, in various types of baby foods and infant for­
+   74 | growth and development,4 immature organ systems,5,6
+
+--- lines 81-85 ---
+   81 | and (compared with adults) their higher food consump­        global evidence distribution; second, we identified the
+   82 | tion per kilogram of body weight.4 During infancy, HM        HM most frequently studied, and the specific types of
+   83 | exposure is linked to mental retardation, neurocognitive     baby foods and infant formulas containing HMs; and
+   84 | and behavioral disorders, respiratory issues, and cardio­    third, we quantified the reported concentrations of
+   85 | vascular diseases.5                                          these HMs in each product and compared these concen­
+
+--- lines 91-95 ---
+   91 | intake becomes one of an infant’s primary sources of
+   92 | exposure.7,8                                                 The design of this ScR followed the Joanna Briggs
+   93 |      The high presence of HMs in processed baby foods        Institute (JBI) methodology guidelines for conducting
+   94 | (referred to as baby foods in this study) and infant for­    ScRs23 and the PRISMA Extension for ScR (PRISMA-
+   95 | mula has raised concerns about dietary exposure in           ScR) 2020 Checklist.24 These guidelines were applied
+
+--- lines 95-99 ---
+   95 | mula has raised concerns about dietary exposure in           ScR) 2020 Checklist.24 These guidelines were applied
+   96 | babies and toddlers.9,10 In this regard, in 2019, a non­     across all sections and aspects of the process, including
+   97 | profit organization identified toxic HMs in 95% of 168       defining objectives, formulating review questions, meth­
+   98 | foods tested from a wide range of brands consumed by         ods, data extraction, evidence analysis, and results pre­
+   99 | babies and toddlers.11 There was particularly concern        sentation. In October 2024, the ScR Protocol was
+
+--- lines 96-100 ---
+   96 | babies and toddlers.9,10 In this regard, in 2019, a non­     across all sections and aspects of the process, including
+   97 | profit organization identified toxic HMs in 95% of 168       defining objectives, formulating review questions, meth­
+   98 | foods tested from a wide range of brands consumed by         ods, data extraction, evidence analysis, and results pre­
+   99 | babies and toddlers.11 There was particularly concern        sentation. In October 2024, the ScR Protocol was
+  100 | about rice-based foods, commonly used in baby food           registered in the Open Science Framework (OSF) (osf.
+
+--- lines 107-111 ---
+  107 | sure of infants to HMs.10                                    ered as participants the studies that reported informa­
+  108 |      Although breast milk remains the recommended            tion about HM concentrations in baby foods and infant
+  109 | nutritional standard for newborns and infants,14 global      formulas intended for infants under 36 months old. The
+  110 | demand for infant and toddler foods, including formula       concepts investigated were the concentrations of HMs
+  111 | and other processed foods, has risen, with market reve­      (specifically Pb, Cd, As, and Hg) and the types of baby
+
+--- lines 108-112 ---
+  108 |      Although breast milk remains the recommended            tion about HM concentrations in baby foods and infant
+  109 | nutritional standard for newborns and infants,14 global      formulas intended for infants under 36 months old. The
+  110 | demand for infant and toddler foods, including formula       concepts investigated were the concentrations of HMs
+  111 | and other processed foods, has risen, with market reve­      (specifically Pb, Cd, As, and Hg) and the types of baby
+  112 | nue expected to exceed $120 billion by 2030.15 While         foods and infant formulas identified as containing these
+
+--- lines 109-113 ---
+  109 | nutritional standard for newborns and infants,14 global      formulas intended for infants under 36 months old. The
+  110 | demand for infant and toddler foods, including formula       concepts investigated were the concentrations of HMs
+  111 | and other processed foods, has risen, with market reve­      (specifically Pb, Cd, As, and Hg) and the types of baby
+  112 | nue expected to exceed $120 billion by 2030.15 While         foods and infant formulas identified as containing these
+  113 | the nutritional composition of infant formula is regu­       HMs; the context encompassed global research from
+
+--- lines 110-114 ---
+  110 | demand for infant and toddler foods, including formula       concepts investigated were the concentrations of HMs
+  111 | and other processed foods, has risen, with market reve­      (specifically Pb, Cd, As, and Hg) and the types of baby
+  112 | nue expected to exceed $120 billion by 2030.15 While         foods and infant formulas identified as containing these
+  113 | the nutritional composition of infant formula is regu­       HMs; the context encompassed global research from
+  114 | lated under the International Code of Marketing of           any country with information on this topic.
+
+--- lines 111-115 ---
+  111 | and other processed foods, has risen, with market reve­      (specifically Pb, Cd, As, and Hg) and the types of baby
+  112 | nue expected to exceed $120 billion by 2030.15 While         foods and infant formulas identified as containing these
+  113 | the nutritional composition of infant formula is regu­       HMs; the context encompassed global research from
+  114 | lated under the International Code of Marketing of           any country with information on this topic.
+  115 | Breast Milk Substitutes16 and other global agencies,17,18         Eligible studies included peer-reviewed research
+
+--- lines 112-116 ---
+  112 | nue expected to exceed $120 billion by 2030.15 While         foods and infant formulas identified as containing these
+  113 | the nutritional composition of infant formula is regu­       HMs; the context encompassed global research from
+  114 | lated under the International Code of Marketing of           any country with information on this topic.
+  115 | Breast Milk Substitutes16 and other global agencies,17,18         Eligible studies included peer-reviewed research
+  116 | there is no strict global monitoring for HM content in       articles (eg, toxicological studies, analytical, cross-
+
+--- lines 115-119 ---
+  115 | Breast Milk Substitutes16 and other global agencies,17,18         Eligible studies included peer-reviewed research
+  116 | there is no strict global monitoring for HM content in       articles (eg, toxicological studies, analytical, cross-
+  117 | baby foods and infant formulas. However, international       sectional or longitudinal studies, or laboratory-based
+  118 | agencies such as the Food and Agriculture                    analyses), national reports, and reports by nonprofit
+  119 | Organization/World Health Organization (FAO/WHO)             organizations that evaluate the presence of Pb, Cd, As,
+
+--- lines 117-121 ---
+  117 | baby foods and infant formulas. However, international       sectional or longitudinal studies, or laboratory-based
+  118 | agencies such as the Food and Agriculture                    analyses), national reports, and reports by nonprofit
+  119 | Organization/World Health Organization (FAO/WHO)             organizations that evaluate the presence of Pb, Cd, As,
+  120 | and the European Commission through the European             and/or Hg in baby foods and infant formulas, published
+  121 | Food Safety Authority (EC/EFSA) have established             between 2014 and 2024, in the English or Spanish
+
+--- lines 118-122 ---
+  118 | agencies such as the Food and Agriculture                    analyses), national reports, and reports by nonprofit
+  119 | Organization/World Health Organization (FAO/WHO)             organizations that evaluate the presence of Pb, Cd, As,
+  120 | and the European Commission through the European             and/or Hg in baby foods and infant formulas, published
+  121 | Food Safety Authority (EC/EFSA) have established             between 2014 and 2024, in the English or Spanish
+  122 | 
+
+--- lines 124-128 ---
+  124 |                  R
+  125 |                                                                                                                    449
+  126 | language. Studies were required to explicitly state the      Data Charting, Synthesis of the Results, and
+  127 | analytical methods used to detect HM concentrations,         Statistical Analysis
+  128 | provide specific measurements of the detected HM con­
+
+--- lines 128-132 ---
+  128 | provide specific measurements of the detected HM con­
+  129 | centrations, report the sample size of the baby foods        The global evidence (peer-reviewed articles and reports)
+  130 | and infant formulas analyzed, and distinguish HM             was visualized geographically as a first step. Second, due
+  131 | information for baby foods from that for infant formula;     to the heterogeneity in the results reported across the
+  132 | only data concerning food items of interest for this         included evidence, all the food items from baby foods
+
+--- lines 129-133 ---
+  129 | centrations, report the sample size of the baby foods        The global evidence (peer-reviewed articles and reports)
+  130 | and infant formulas analyzed, and distinguish HM             was visualized geographically as a first step. Second, due
+  131 | information for baby foods from that for infant formula;     to the heterogeneity in the results reported across the
+  132 | only data concerning food items of interest for this         included evidence, all the food items from baby foods
+  133 | research were included. Any studies that did not meet        and infant formulas identified were classified to organize
+
+--- lines 131-135 ---
+  131 | information for baby foods from that for infant formula;     to the heterogeneity in the results reported across the
+  132 | only data concerning food items of interest for this         included evidence, all the food items from baby foods
+  133 | research were included. Any studies that did not meet        and infant formulas identified were classified to organize
+  134 | these inclusion criteria were excluded. In addition,         the presentation of the results. Baby foods were classified
+  135 | experiments that modified or controlled for the pres­        into 7 categories based on their primary ingredient: cere­
+
+--- lines 142-146 ---
+  142 |                                                                                                                                 Downloaded from https://academic.oup.com/nutritionreviews/article/84/2/448/8256392 by guest on 24 April 2026
+  143 | tration as a general value for many different types of       (excluding those containing meat, fish, and/or rice); rice
+  144 |                                                              and rice mixes; and roots and tubers. Infant formulas
+  145 | foods were excluded.
+  146 |                                                              were categorized by their intended age stage and specialty
+
+--- lines 150-154 ---
+  150 | Data Selection and Extraction
+  151 |                                                              12 months), stage 3 (for infants >12–36 months), spe­
+  152 | The relevant literature was identified following these       cialty formulas (for specific medical or dietary needs,
+  153 | steps: first, MeSH terms and key terms related to the        such as soy, hypoallergenic, hydrolyzed, digestive disor­
+  154 | topic were identified. Second, advanced searches             ders, anti-reflux, and elemental formulas or preterm),
+
+--- lines 151-155 ---
+  151 |                                                              12 months), stage 3 (for infants >12–36 months), spe­
+  152 | The relevant literature was identified following these       cialty formulas (for specific medical or dietary needs,
+  153 | steps: first, MeSH terms and key terms related to the        such as soy, hypoallergenic, hydrolyzed, digestive disor­
+  154 | topic were identified. Second, advanced searches             ders, anti-reflux, and elemental formulas or preterm),
+  155 | between October 15 and 18, 2024, were conducted inde­        and without stage (for infants <36 months, with no addi­
+
+--- lines 152-156 ---
+  152 | The relevant literature was identified following these       cialty formulas (for specific medical or dietary needs,
+  153 | steps: first, MeSH terms and key terms related to the        such as soy, hypoallergenic, hydrolyzed, digestive disor­
+  154 | topic were identified. Second, advanced searches             ders, anti-reflux, and elemental formulas or preterm),
+  155 | between October 15 and 18, 2024, were conducted inde­        and without stage (for infants <36 months, with no addi­
+  156 |                                                              tional details reported). Infant formulas were further
+
+--- lines 154-158 ---
+  154 | topic were identified. Second, advanced searches             ders, anti-reflux, and elemental formulas or preterm),
+  155 | between October 15 and 18, 2024, were conducted inde­        and without stage (for infants <36 months, with no addi­
+  156 |                                                              tional details reported). Infant formulas were further
+  157 | pendently in duplicate to identify peer-reviewed articles
+  158 |                                                              subclassified based on their primary protein source: cow-
+
+--- lines 156-160 ---
+  156 |                                                              tional details reported). Infant formulas were further
+  157 | pendently in duplicate to identify peer-reviewed articles
+  158 |                                                              subclassified based on their primary protein source: cow-
+  159 | in 4 electronic databases: PubMed, ScienceDirect, Web
+  160 |                                                              based, soy-based, specialty formulas (excluding soy), and
+
+--- lines 158-162 ---
+  158 |                                                              subclassified based on their primary protein source: cow-
+  159 | in 4 electronic databases: PubMed, ScienceDirect, Web
+  160 |                                                              based, soy-based, specialty formulas (excluding soy), and
+  161 | of Science, and Scopus. In addition, worldwide searches
+  162 |                                                              nonspecified formulas (where the studies did not report
+
+--- lines 160-164 ---
+  160 |                                                              based, soy-based, specialty formulas (excluding soy), and
+  161 | of Science, and Scopus. In addition, worldwide searches
+  162 |                                                              nonspecified formulas (where the studies did not report
+  163 | of Total Diet Studies (TDSs) reports and reports from
+  164 |                                                              the protein source). Third, all average HM concentrations
+
+--- lines 169-173 ---
+  169 | main concepts: “Heavy Metals,” “Toxic Elements,”
+  170 |                                                              centrations were then matched against the MLs of HMs
+  171 | “Lead,” “Cadmium,” “Arsenic,” “Mercury,” “Baby
+  172 |                                                              in food set by the International Agencies. For Pb, the
+  173 | Food,” and “Infant Formula”; these Terms were com­
+
+--- lines 170-174 ---
+  170 |                                                              centrations were then matched against the MLs of HMs
+  171 | “Lead,” “Cadmium,” “Arsenic,” “Mercury,” “Baby
+  172 |                                                              in food set by the International Agencies. For Pb, the
+  173 | Food,” and “Infant Formula”; these Terms were com­
+  174 |                                                              FAO/WHO ML was used,19 and due to the absence of a
+
+--- lines 171-175 ---
+  171 | “Lead,” “Cadmium,” “Arsenic,” “Mercury,” “Baby
+  172 |                                                              in food set by the International Agencies. For Pb, the
+  173 | Food,” and “Infant Formula”; these Terms were com­
+  174 |                                                              FAO/WHO ML was used,19 and due to the absence of a
+  175 | bined within each cluster using “OR,” and clusters were
+
+--- lines 174-178 ---
+  174 |                                                              FAO/WHO ML was used,19 and due to the absence of a
+  175 | bined within each cluster using “OR,” and clusters were
+  176 |                                                              reference for the other HMs (Cd and As), the ML estab­
+  177 | combined using “AND.” Searches on the websites were          lished by the EC was employed.20,21 Regarding Hg, there
+  178 | conducted using these same terms; however, they were         is no ML for baby food or infant formulas, so we used
+
+--- lines 176-180 ---
+  176 |                                                              reference for the other HMs (Cd and As), the ML estab­
+  177 | combined using “AND.” Searches on the websites were          lished by the EC was employed.20,21 Regarding Hg, there
+  178 | conducted using these same terms; however, they were         is no ML for baby food or infant formulas, so we used
+  179 | complemented with targeted searches, including the           the Hg ML for similar foods for this comparison.22 We
+  180 | names of countries, to identify TDSs by country.             obtained the median and interquartile range (Q1, Q3)
+
+--- lines 178-182 ---
+  178 | conducted using these same terms; however, they were         is no ML for baby food or infant formulas, so we used
+  179 | complemented with targeted searches, including the           the Hg ML for similar foods for this comparison.22 We
+  180 | names of countries, to identify TDSs by country.             obtained the median and interquartile range (Q1, Q3)
+  181 | Information on the search strategies for all databases,      concentrations of each HM by food category from the
+  182 | the search algorithms, the filters, and the limits used is   detected concentrations. Finally, we synthesized the main
+
+--- lines 185-189 ---
+  185 | articles and reports based on the inclusion and exclu­       Microsoft Excel (version 16.0, Microsoft Corporation,
+  186 | sion criteria. The research team solved discrepancies by     Redmond, WA, USA) and R Software (version 2024.09.0
+  187 | consensus. Figure 1 shows the PRISMA flowchart dia­          Build 375, R Foundation for Statistical Computing,
+  188 | gram of the results of the searches and screening.           Vienna, Austria).
+  189 |      Finally, for each peer-reviewed article and report
+
+--- lines 192-196 ---
+  192 | authors, year, journal, aim), analytical method, infant      Results of Searches
+  193 | food, and HM studied, HM concentrations detected or
+  194 | not detected, HM concentration reported (mean,               The database searches identified 800 articles. After
+  195 | median, or geometric mean), health risk assessment,          removing duplicates, 710 articles underwent title and
+  196 | primary results, and conclusions were extracted. No          abstract screening, and 85 underwent full-text screening
+
+--- lines 193-197 ---
+  193 | food, and HM studied, HM concentrations detected or
+  194 | not detected, HM concentration reported (mean,               The database searches identified 800 articles. After
+  195 | median, or geometric mean), health risk assessment,          removing duplicates, 710 articles underwent title and
+  196 | primary results, and conclusions were extracted. No          abstract screening, and 85 underwent full-text screening
+  197 | automation tools were used during this process.              and data extraction. From these, 18 studies were
+
+--- lines 239-243 ---
+  239 |  Screening
+  240 |                                                                                                          (n = 33)                                          No HMs evaluation in infant
+  241 |                                                                      HMs data does not distinguish                                                         formula and baby foods
+  242 |                                                                    between foods and infant                                                                (n = 23)
+  243 |                                                                    formulas (n = 4)                                                                        No specific measurement of
+
+--- lines 241-245 ---
+  241 |                                                                      HMs data does not distinguish                                                         formula and baby foods
+  242 |                                                                    between foods and infant                                                                (n = 23)
+  243 |                                                                    formulas (n = 4)                                                                        No specific measurement of
+  244 |                                                                      No specific measurement of                                                            HMs concentration is
+  245 |                                                                    HMs concentration is provided                                                           provided (n = 1)
+
+--- lines 283-287 ---
+  283 | also included. This review included 75 studies (67 peer-
+  284 | reviewed articles, 1 non-profit organization report, 6                                                Presence of Heavy Metals in Baby Foods and Infant
+  285 | TDSs from various countries, and 1 additional article                                                 Formula Items Reported in the Included Studies
+  286 | found by citation searching). Of these, 23 reported
+  287 | information on baby foods, 24 on infant formulas, and                                                 Of the 75 studies included, each provided information
+
+--- lines 285-289 ---
+  285 | TDSs from various countries, and 1 additional article                                                 Formula Items Reported in the Included Studies
+  286 | found by citation searching). Of these, 23 reported
+  287 | information on baby foods, 24 on infant formulas, and                                                 Of the 75 studies included, each provided information
+  288 | 28 on both (Figure 1).                                                                                on at least 1 food item; we collected information from a
+  289 |                                                                                                       total of 580 baby foods and 251 infant formula items.
+
+--- lines 287-291 ---
+  287 | information on baby foods, 24 on infant formulas, and                                                 Of the 75 studies included, each provided information
+  288 | 28 on both (Figure 1).                                                                                on at least 1 food item; we collected information from a
+  289 |                                                                                                       total of 580 baby foods and 251 infant formula items.
+  290 | Global Evidence on the Presence of Heavy Metals in                                                    Figure 2 (A–C) shows a summary of the number of
+  291 | Baby Foods and Infant Formulas                                                                        baby foods and infant formulas evaluated for the pres­
+
+--- lines 289-293 ---
+  289 |                                                                                                       total of 580 baby foods and 251 infant formula items.
+  290 | Global Evidence on the Presence of Heavy Metals in                                                    Figure 2 (A–C) shows a summary of the number of
+  291 | Baby Foods and Infant Formulas                                                                        baby foods and infant formulas evaluated for the pres­
+  292 |                                                                                                       ence of HMs by type of metal and according to the food
+  293 | Evidence from the included studies (peer-reviewed                                                     group, stage and specialty, and primary protein source
+
+--- lines 293-297 ---
+  293 | Evidence from the included studies (peer-reviewed                                                     group, stage and specialty, and primary protein source
+  294 | articles and national reports), revealed Europe as the                                                classification. In total, from the 580 baby foods col­
+  295 | leading continent with the most published studies                                                     lected, we identified 1766 HM determinations; of these,
+  296 | (n ¼ 28 studies), followed by Asia (n ¼ 20 studies),                                                  484 determinations were reported for Pb, 483 for Cd,
+  297 | America, including North America (with the United                                                     478 for As, and 321 for Hg. In total, from the infant for­
+
+--- lines 294-298 ---
+  294 | articles and national reports), revealed Europe as the                                                classification. In total, from the 580 baby foods col­
+  295 | leading continent with the most published studies                                                     lected, we identified 1766 HM determinations; of these,
+  296 | (n ¼ 28 studies), followed by Asia (n ¼ 20 studies),                                                  484 determinations were reported for Pb, 483 for Cd,
+  297 | America, including North America (with the United                                                     478 for As, and 321 for Hg. In total, from the infant for­
+  298 | States), Central America, South America, and the                                                      mulas, we identified 653 determinations of HMs, 215
+
+--- lines 321-325 ---
+  321 | 
+  322 | 
+  323 |                                                                                                                                                                                                                                                                                                Percentage of Infant formulas Items
+  324 |                                                                                                                                              53%                                                            54%
+  325 | 
+
+--- lines 385-389 ---
+  385 |                                                                                                                                                                                                                                                                    andn =
+  386 |                                                                                                                                                                                                                                                                n = 31     31 n = 31                                                          n = 36 n = 32 n = 22 n = 26 n = 59 n = 48 n = 18 n = 17 n = 38 n = 37 n = 32 n = 16 n = 23 n = 23 n = 23 n = 22 n = 31 n = 29 n = 29    n = 13 n = 28   n = 26 n = 18 n = 7
+  387 |                                                                            Pb Cd As Hg                  Pb Cd          As      Hg Pb Cd As HgStatusPb NotCd    As Hg
+  388 |                                                                                                                                                          dectected Detected%Pb Cd As                                 Hg Pb         Cd As Hg              Pb Cd        As Hg                                                                                                                                           Status    Not dectected    Detected%
+  389 |                                                                                                                                                                                                                                                                                                                                              Pb     Cd      As     Hg     Pb     Cd     As     Hg        Pb      Cd      As      Hg       Pb     Cd    As     Hg    Pb    Cd    As     Hg      Pb      Cd      As     Hg
+
+--- lines 386-390 ---
+  386 |                                                                                                                                                                                                                                                                n = 31     31 n = 31                                                          n = 36 n = 32 n = 22 n = 26 n = 59 n = 48 n = 18 n = 17 n = 38 n = 37 n = 32 n = 16 n = 23 n = 23 n = 23 n = 22 n = 31 n = 29 n = 29    n = 13 n = 28   n = 26 n = 18 n = 7
+  387 |                                                                            Pb Cd As Hg                  Pb Cd          As      Hg Pb Cd As HgStatusPb NotCd    As Hg
+  388 |                                                                                                                                                          dectected Detected%Pb Cd As                                 Hg Pb         Cd As Hg              Pb Cd        As Hg                                                                                                                                           Status    Not dectected    Detected%
+  389 |                                                                                                                                                                                                                                                                                                                                              Pb     Cd      As     Hg     Pb     Cd     As     Hg        Pb      Cd      As      Hg       Pb     Cd    As     Hg    Pb    Cd    As     Hg      Pb      Cd      As     Hg
+  390 |                                                                                                                FISH AND                     FRUITS AND                   MEAT AND                     MIXES OF                 RICE AND RICE                    ROOT AND
+
+--- lines 387-391 ---
+  387 |                                                                            Pb Cd As Hg                  Pb Cd          As      Hg Pb Cd As HgStatusPb NotCd    As Hg
+  388 |                                                                                                                                                          dectected Detected%Pb Cd As                                 Hg Pb         Cd As Hg              Pb Cd        As Hg                                                                                                                                           Status    Not dectected    Detected%
+  389 |                                                                                                                                                                                                                                                                                                                                              Pb     Cd      As     Hg     Pb     Cd     As     Hg        Pb      Cd      As      Hg       Pb     Cd    As     Hg    Pb    Cd    As     Hg      Pb      Cd      As     Hg
+  390 |                                                                                                                FISH AND                     FRUITS AND                   MEAT AND                     MIXES OF                 RICE AND RICE                    ROOT AND
+  391 |                                                                                   CEREALS                                                                                                            DIFFERENT                                                   TUBERS                                                                                                           STAGE 2                                                                                SPECIALTY                    WITHOUT
+
+--- lines 391-395 ---
+  391 |                                                                                   CEREALS                                                                                                            DIFFERENT                                                   TUBERS                                                                                                           STAGE 2                                                                                SPECIALTY                    WITHOUT
+  392 |                                                                                                               FISH MIXES                    VEGETABLES                  MEAT MIXES                                                 MIXES                                                                                                             STAGE 1                                                   STAGE 1 AND 2                     STAGE 3
+  393 |                                                                                                                                                                                                        FOODS                                                                                                                                                                                                                                                             FORMULAS                      STAGE
+  394 | 
+  395 | 
+
+--- lines 394-398 ---
+  394 | 
+  395 | 
+  396 |                                                                                                                                               Classification of Baby Food Items                                                                                                                                                                                                                           Classification of Infant formulas Items
+  397 | 
+  398 | 
+
+--- lines 412-416 ---
+  412 | 
+  413 | 
+  414 |                            Percentage of Infant formulas Items
+  415 |                                                                      80
+  416 |                                                                     80%
+
+--- lines 417-421 ---
+  417 |                                                                                                         47%
+  418 |                                                                                                                       53%
+  419 |                                                                     70%                    56%                                                                                                                                                                                                                                                                                                      Pb                               Cd
+  420 |                                                                      70
+  421 |                                                                                                                                                                                                                                                                                       66%                                                                                                                 DETECTED                         DETECTED
+
+--- lines 444-448 ---
+  444 |                                                                                                                                                                                     SPEC IALIZED
+  445 |                                                                                                                                                                                                     n=4           n=3          n=1         n = 87      n = 80         n = 57          n = 35
+  446 |                                                                                                                                                                                      FORMULAS
+  447 |                                                                               Pb            Cd           As           Hg           Pb           Cd           AsStatus     Hg
+  448 |                                                                                                                                                                           Detected%
+
+--- lines 445-449 ---
+  445 |                                                                                                                                                                                                     n=4           n=3          n=1         n = 87      n = 80         n = 57          n = 35
+  446 |                                                                                                                                                                                      FORMULAS
+  447 |                                                                               Pb            Cd           As           Hg           Pb           Cd           AsStatus     Hg
+  448 |                                                                                                                                                                           Detected%
+  449 |                                                                                                                                                                                     Pb           Cd
+
+--- lines 447-451 ---
+  447 |                                                                               Pb            Cd           As           Hg           Pb           Cd           AsStatus     Hg
+  448 |                                                                                                                                                                           Detected%
+  449 |                                                                                                                                                                                     Pb           Cd
+  450 |                                                                                                                                                                                      Not dectected
+  451 |                                                                                                                                                                                                                 As            Hg          Pb            Cd           As           Hg
+
+--- lines 449-453 ---
+  449 |                                                                                                                                                                                     Pb           Cd
+  450 |                                                                                                                                                                                      Not dectected
+  451 |                                                                                                                                                                                                                 As            Hg          Pb            Cd           As           Hg
+  452 |                                                                                                                                                                                                        SPECIALTY                                          NOT SPECIFIC
+  453 |                                                                                             COW-BASED                                              SOY-BASED
+
+--- lines 451-455 ---
+  451 |                                                                                                                                                                                                                 As            Hg          Pb            Cd           As           Hg
+  452 |                                                                                                                                                                                                        SPECIALTY                                          NOT SPECIFIC
+  453 |                                                                                             COW-BASED                                              SOY-BASED
+  454 |                                                                                                                                                                                                        FORMULAS
+  455 | 
+
+--- lines 452-456 ---
+  452 |                                                                                                                                                                                                        SPECIALTY                                          NOT SPECIFIC
+  453 |                                                                                             COW-BASED                                              SOY-BASED
+  454 |                                                                                                                                                                                                        FORMULAS
+  455 | 
+  456 | 
+
+--- lines 457-461 ---
+  457 | 
+  458 | 
+  459 |                                                                                                                                                    Classification of Infant formulas Items
+  460 | 
+  461 | 

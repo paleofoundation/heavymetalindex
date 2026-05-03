@@ -1,0 +1,298 @@
+Chuchu et al. BMC Pediatrics 2013, 13:162
+http://www.biomedcentral.com/1471-2431/13/162
+
+
+
+
+ RESEARCH ARTICLE                                                                                                                                   Open Access
+
+The aluminium content of infant formulas
+remains too high
+Nancy Chuchu1, Bhavini Patel1, Blaise Sebastian1 and Christopher Exley2*
+
+
+  Abstract
+  Background: Recent research published in this journal highlighted the issue of the high content of aluminium in
+  infant formulas. The expectation was that the findings would serve as a catalyst for manufacturers to address a
+  significant problem of these, often necessary, components of infant nutrition. It is critically important that parents
+  and other users have confidence in the safety of infant formulas and that they have reliable information to use in
+  choosing a product with a lower content of aluminium. Herein, we have significantly extended the scope of the
+  previous research and the aluminium content of 30 of the most widely available and often used infant formulas has
+  been measured.
+  Methods: Both ready-to-drink milks and milk powders were subjected to microwave digestion in the presence of
+  15.8 M HNO3 and 30% w/v H2O2 and the aluminium content of the digests was measured by TH GFAAS.
+  Results: Both ready-to-drink milks and milk powders were contaminated with aluminium. The concentration of
+  aluminium across all milk products ranged from ca 100 to 430 μg/L. The concentration of aluminium in two
+  soya-based milk products was 656 and 756 μg/L. The intake of aluminium from non-soya-based infant formulas
+  varied from ca 100 to 300 μg per day. For soya-based milks it could be as high as 700 μg per day.
+  Conclusions: All 30 infant formulas were contaminated with aluminium. There was no clear evidence that
+  subsequent to the problem of aluminium being highlighted in a previous publication in this journal that
+  contamination had been addressed and reduced. It is the opinion of the authors that regulatory and other non-
+  voluntary methods are now required to reduce the aluminium content of infant formulas and thereby protect
+  infants from chronic exposure to dietary aluminium.
+
+
+Background                                                                               as evidenced by the paper being accessed via the journal
+In 2010 we published the aluminium content of 15 well                                    website more than 20,000 times to-date [1] as well as
+known infant formula products [1]. We chose to identify                                  myriad direct enquiries through email and other forms
+the specific brands in order that consumers (more practic-                               of communication. We should, perhaps, have not been
+ally purchasers) of infant formulas might adopt a precau-                                surprised by the interest as according to a recent report
+tionary approach and choose those formulas with lower                                    by The Caroline Walker Trust [4], 25% of parents in the
+contents of aluminium. However, the range of values                                      UK use formulas as the only source of ‘breast’ milk for
+obtained was skewed towards high content and we were                                     infants from birth while 35% of parents use infant formu-
+left to conclude that the aluminium content of infant                                    las from birth and more than 50% of infants of 4–10 weeks
+formulas were too high, for example as compared to                                       of age are fed solely on formulas. Given the high rate of
+aluminium exposure through breast milk [2]. A recent                                     use of infant formulas in the UK it was clear to us that a
+report on Canadian infant formulas [3] has confirmed                                     more comprehensive survey of the aluminium content of
+that this is likely to be a global as opposed to UK only                                 infant formulas was warranted. Herein we have reported
+problem. The interest in these data was overwhelming                                     the aluminium content of 30 infant formulas which are
+                                                                                         widely available in the UK.
+* Correspondence: c.exley@keele.ac.uk
+2
+ The Birchall Centre, Lennard-Jones Laboratories, Keele University,
+Staffordshire, UK
+Full list of author information is available at the end of the article
+
+                                           © 2013 Chuchu et al.; licensee BioMed Central Ltd. This is an open access article distributed under the terms of the Creative
+                                           Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and
+                                           reproduction in any medium, provided the original work is properly cited.
+Chuchu et al. BMC Pediatrics 2013, 13:162                                                                        Page 2 of 5
+http://www.biomedcentral.com/1471-2431/13/162
+
+
+
+
+Methods                                                          for all samples is consistently high and probably reflects
+All products were bought off the shelf, stored according         the inhomogeneous distribution of aluminium through-
+to manufacturers’ instructions and only opened at the            out bulk volumes of product. Manufacturers’ recom-
+time of sampling. The aluminium content of 10 ready-             mendations for feeding were used along with the mean
+to-drink infant formulas and 20 powdered infant formulas         concentrations of aluminium to estimate daily exposures
+were measured by transversely heated graphite furnace            to aluminium from each product and these ranged from
+atomic absorption spectrometry (TH GFAAS) following              86 (Hipp Organic First) to 127 (Cow & Gate First) μg
+acid/peroxide microwave digestion. All products were             Al/24 h at birth and 134 (Hipp Organic First) to 350
+sampled directly from their containers following shaking         (Aptamil Follow-On) μg Al/24 h at 6 months of age
+to aid mixing of the products. For ready-to-drink products       (Table 1).
+1 mL 15.8 M HNO3 and 1 mL of 30% w/v H2O2 were
+added to 1 mL of milk and microwave assisted digestion           Powdered milk infant formulas
+carried out according to a previously validated method           The concentration of aluminium in formulas made from
+[5]. Digests were clear and made up to a total volume of         powdered milks ranged from 0.69 μg/g (Hipp Organic
+5 mL with ultrapure water (conductivity <0.067 μS/cm).           Growing Up) to 5.27 μg/g (Cow & Gate Soya Infant
+For powdered milks an exact mass of powder, ca 0.5 g,            Formula) (Table 2). The concentration data are arranged
+was digested in the presence of 1 mL of 15.8 M HNO3              in ascending order and mean and SD are given for n = 5
+and 1 mL of 30% w/v H2O2 and the clear digest again              replicates. The %RSD for all samples is consistently high
+made up to a total volume of 5 mL with ultrapure water.          and probably reflects the inhomogeneous distribution
+Total aluminium in 5 replicates of each product was              of aluminium throughout bulk volumes of the powders.
+measured by TH GFAAS using a previously validated                Manufacturers’ recommendations for preparing milks were
+and published method [5]. Quality assurance data for             used to estimate the concentration of aluminium in the
+this method include an estimate for contamination, based         ready-to-drink product and these ranged from 118 (Aptamil
+upon 120 method blanks, of 54 ng per digest and this             Hungrier) to 756 (Cow & Gate Soya Infant Formula) μg/L
+value was subtracted from each digest result to give final       at birth and 106 (Hipp Organic Growing Up) to 755
+aluminium contents expressed either as μg/L (ready-to-           (Cow & Gate Soya Infant Formula) μg/L at 6 months of
+drink) or μg/g (powders).                                        age. Manufacturers’ recommendations for feeding were
+                                                                 used along with the mean concentrations of aluminium
+Results                                                          to estimate daily exposures to aluminium from each
+Ready-to-drink infant formulas                                   product and these ranged from 64 (Aptamil Hungrier)
+The concentration of aluminium in ready-made infant              to 408 (Cow & Gate Soya Infant Formula) μg Al/24 h at
+formula milks ranged from 155 μg/L (Sma Toddler) to              birth and 80 (Hipp Organic Follow-On) to 725 (Cow &
+422 μg/L (Aptamil Toddler Growing Up) (Table 1). The             Gate Soya Infant Formula) μg Al/24 h at 6 months of
+concentration data are arranged in ascending order and           age (Table 2).
+mean and SD are given for n = 5 replicates. The %RSD
+                                                                 Discussion
+                                                                 We have measured the aluminium content of the 30
+Table 1 The aluminium content of ready-made infant
+formula milks                                                    most popular brands of infant formula available in the
+                                                                 UK. We have included ready-to-drink products, which
+Commercial name of                     [Al] μg/L   Al μg/24 h
+milk product (n = 5)                   mean (SD)                 are available in both cardboard laminate cartons and
+                                                   Birth 6 Mo.   plastic bottles, and milk powders, which are sold in tins
+Sma Toddler Milk                       155 (24)    NA    781
+                                                                 (Sma), containers (Cow & Gate) and boxes (Hipp Organic).
+                                                                 Generally the aluminium content of ready-to-drink prod-
+Hipp Organic First Infant Milk         160 (67)    86    134
+                                                                 ucts (Mean (SD) 250 (101) μg/L) were similar to the
+Aptamil Hungry Milk                    163 (38)    88    171     powdered milk products (Mean (SD) 246 (180) μg/L)
+Sma First Infant Milk                  173 (34)    104   173     though these ‘average’ values have no practical meaning
+Aptamil First Milk                     186 (37)    100   195     as is clear from scrutiny of the data for the individual
+Cow & Gate First Infant Milk           235 (49)    127   226     products (Tables 1 & 2). The aluminium content of
+Sma Follow-On Milk                     271 (48)    NA    163
+                                                                 ready-to-drink milks was highest in the two products
+                                                                 which were contained in plastic bottles (Cow & Gate
+Aptamil Follow-On Milk                 350 (100)   NA    350
+                                                                 Growing Up, Aptamil Toddler) as compared to long-life
+Cow & Gate Growing Up Milk             380 (139)   NA    1141    cartons. Both of the plastic bottles have a seal between
+Aptamil Toddler Growing Up Milk        422 (77)    NA    1271    the cap and the product which is made of aluminium
+Data are for 12 months old. NA – not applicable.
+1
+                                                                 foil and this may be a significant source of aluminium
+Chuchu et al. BMC Pediatrics 2013, 13:162                                                                            Page 3 of 5
+http://www.biomedcentral.com/1471-2431/13/162
+
+
+
+
+Table 2 The aluminium content of powdered infant formula milks
+Commercial name of milk product (n = 5)            [Al] μg/g mean (SD)        [Al] in milk μg/L             Al μg/24 h
+                                                                              Birth               6 Mo.     Birth         6 Mo.
+Hipp Organic Growing Up Milk                       0.69 (0.42)                NA                  1061      NA            531
+Aptamil Hungrier                                   0.75 (0.25)                118                 118       64            123
+Aptamil First Milk                                 0.79 (0.46)                119                 119       64            124
+Hipp Organic Follow-On                             0.85 (0.05)                NA                  133       NA            80
+Sma First Infant                                   0.86 (0.10)                120                 120       65            116
+Sma Staydown                                       0.86 (0.23)                123                 123       67            118
+Aptamil (Colic & Constipation)                     1.01 (0.16)                155                 155       84            149
+Cow & Gate for Hungrier Babies                     1.05 (0.09)                165                 165       89            158
+Cow & Gate (Colic & Constipation)                  1.06 (0.48)                163                 163       88            156
+Sma Extra Hungry                                   1.13 (0.13)                158                 158       86            152
+Cow & Gate Follow-On                               1.26 (0.15)                NA                  206       NA            124
+Sma Follow-On                                      1.28 (0.12)                NA                  179       NA            108
+Aptamil Follow-On                                  1.40 (0.33)                NA                  229       NA            137
+Cow & Gate First Instant Milk                      1.44 (0.20)                216                 216       117           207
+Hipp Organic Goodnight                             1.49 (0.54)                NA                  229       NA            41
+Sma Lactose Free Formula                           1.98 (0.20)                284                 284       153           273
+Sma Toddler                                        2.74 (0.84)                NA                  393       NA            212
+Hipp Organic First Infant                          2.80 (0.91)                411                 411       222           345
+Sma Wysoy Soya Infant Formula                      3.92 (0.53)                656                 654       354           627
+Cow & Gate Soya Infant Formula                     5.27 (0.96)                756                 755       408           725
+Data are for 12 months old. NA – not applicable.
+1
+
+
+
+
+contamination in these milks. All of the long-life cartons           been any scientific studies to determine if the packaging
+are composed of classic trilaminate packaging which in               used for infant formula preparations is a source of
+each case includes an aluminium foil central layer. While            aluminium contamination indirect confirmation of such
+this form of packaging is a source of aluminium contam-              was recently obtained by a reporter working for NBC
+ination in the stored product it alone is unlikely to explain        in New York, USA where a formula manufacturer ad-
+the wide difference in aluminium content of milks in simi-           mitted that aluminium found in a customer’s powdered
+lar packaging, for example, Sma Toddler milk and Aptamil             formula came from the aluminium-based packaging [9].
+Follow-On milk (Table 1).                                            However, packaging is only one potential source of alu-
+  The highest content of aluminium in powdered milks                 minium contamination in these milk powders as Hipp
+was found in both of the soya-based products (Table 2).              Organic supplies both the least (Hipp Organic Growing
+It has been known for decades that soya is a significant             Up) and the most contaminated (Hipp Organic First
+source of aluminium contamination in infant formulas                 Infant) of the non-soya-based milk powders and these
+[6,7]. Powdered milk products are stored within 3 differ-            products appear to use the same packaging materials.
+ent containers and all of these include substantial amounts          It should be of some concern that all of the infant formu-
+of aluminium in their packaging materials. Both Sma                  las investigated herein are stored in containers which
+and Cow & Gate use containers which are lined with an                use a significant amount of aluminium-based packaging
+aluminium-based composite and have a tear-away alu-                  materials. The origins of the non-packaging-based con-
+minium foil seal between the powder and the plastic lid.             tamination must include myriad ingredients used in these
+There are clearly opportunities for contamination of the             formulations and their processing to produce the final
+stored milk powder by aluminium. Hipp Organic uses                   packaged product as those manufacturers that responded
+simple cardboard containers though the milk powders                  to our questions were adamant that aluminium in any
+are actually contained in aluminium foil-based pouches               form was not knowingly added to their formulas.
+inside these boxes. Again, this type of packaging may                   The concentration of aluminium in each of the 30
+represent opportunities for contamination of the stored              infant formulas is at least twice that which is recom-
+milk powder by aluminium [8]. While there have not                   mended in the European Union for drinking water (50 μg/L)
+Chuchu et al. BMC Pediatrics 2013, 13:162                                                                                                Page 4 of 5
+http://www.biomedcentral.com/1471-2431/13/162
+
+
+
+
+and in 14 of the milks it exceeds the maximum admis-              contamination of infant formulas by aluminium highlighted
+sible level for drinking water of 200 μg/L [10]. While            in this research can only be a snapshot of all formulas
+these recommended values for aluminium in drinking                available at any one time. However, the consistency be-
+water were, historically at least, not set with human health      tween the data in this study and our previous work [1]
+as a criterion, they are used today in general practice to        does suggest that the data are an accurate estimate of
+ascertain whether or not potable waters are fit for human         aluminium in infant formulas.
+consumption [10]. We consider that the aluminium con-
+tent of all infant formulas investigated herein is too high       Conclusions
+and especially so considering that these products consti-         We demonstrated previously that there was still too much
+tute either all or a substantial proportion of an infant’s diet   aluminium in infant formulas. We elucidated the reasons
+in the first months of their lives. Based upon the criteria       why infant exposure to aluminium is an unnecessary po-
+for drinking water they are not fit for human consumption         tential health risk to children and may actually contribute
+and they contravene article 5 of the Food Safety Act which        towards ill health as adults. Herein we have re-visited this
+states that ‘infant formulas should not contain anything          issue and we have found that many if not all infant formu-
+which might endanger the health of infants and young              las which are available in the UK are significantly contami-
+children’ [11]. Organisations such as the Food Standards          nated with aluminium. All of these products are contained
+Agency (FSA) in the UK and the EFSA in Europe have                within aluminium-based packaging and this, alone, sug-
+argued that the daily intake of aluminium from infant             gests that manufacturers’ have not yet addressed the prob-
+formulas is unlikely to exceed the tolerable weekly in-           lem of contamination of infant formulas by aluminium.
+take (TWI) of 1 mg/kg body weight set by the joint                  Given the lack of voluntary quality improvement by in-
+FAO/WHO Expert Committee on Food Additives [12].                  fant formula manufacturers, other public health initiatives,
+However, these organisations, charged with the respon-            such as legislation/regulatory mandates and consumer ad-
+sibility of protecting the public from additives in their         vocacy and public awareness campaigns may be necessary
+food, need to recognise and emphasise that this value             to reduce the aluminium content of infant formulas to the
+was determined for adults and, critically, it was not             lowest practical limit and thereby help to protect against
+based upon any studies on humans, whether infants,                chronic exposure of infants by aluminium.
+adolescents or adults. The validity and usefulness of this
+                                                                  Competing interests
+TWI has repeatedly been questioned by those scientists            The authors have no competing interests.
+working on human exposure to aluminium [13]. This
+issue can only be resolved through future research on             Authors’ contributions
+                                                                  CE designed the study, analysed the results and wrote the manuscript. NC,
+infant exposure to aluminium through formula feeds                BP and BS collated the products, carried out the digestions and measured
+and other routes. However, precautionary practical solu-          the Al content. All authors have read and approved the manuscript.
+tions to this public health issue should now be sought.
+The data published herein on the aluminium content of             Acknowledgements
+                                                                  EPSRC are acknowledged for funds to purchase the TH GFAAS.
+infant formulas can be used by parents and other inter-
+ested parties as their best indicators of infant exposure         Author details
+                                                                  1
+to aluminium through formula feeds. Parents and others             Life Sciences, Huxley Building, Keele University, Staffordshire, UK. 2The Birchall
+                                                                  Centre, Lennard-Jones Laboratories, Keele University, Staffordshire, UK.
+might now at the very least choose an appropriate for-
+mula with the lowest content of aluminium. Overall, the           Received: 26 November 2012 Accepted: 25 September 2013
+figures are slightly lower than the data we published in          Published: 8 October 2013
+
+2010 [1] and one would like to think that this is because         References
+manufacturers’ have taken precautions against the con-            1. Burrell S-A, Exley C: There is still too much aluminium in infant formulas.
+tamination of their products by aluminium. However,                   BMC Pediatr 2010, 10:63.
+                                                                  2. Baxter MJ, Burrell JA, Crews H, Massey RC: Aluminium levels in milk and
+evidence of the widespread use of aluminium-based                     infant formulas. Food Additiv Contam 1991, 8:653–660.
+packaging does not support this. In addition, for these           3. Dabeka R, Fouquet A, Belisle S, Turcotte S: Lead, cadmium and aluminium
+data we were able to apply a method blank approxi-                    in Canadian infant formulae, oral electrolytes and glucose solutions.
+                                                                      Food Additiv Contam Part A 2011, 28:744–753.
+mation of aluminium contamination of the methods                  4. Crawley H, Westland S: Infant milks in the UK. The Caroline Walker Trust; 2011.
+which was based upon 120 method blanks [5]. This value,           5. House E, Esiri M, Forster G, Ince PG, Exley C: Aluminium, iron and copper
+which is based upon a much more rigorous statistical                  in human brain tissues donated to the medical research council’s
+                                                                      cognitive function and ageing study. Metallomics 2012, 4:56–65.
+approach to levels of contamination in method blanks,             6. Coni E, Bellomonte G, Caroli S: Aluminum content of infant formulas.
+was subtracted from the milk digests and was a greater                J Trace Elem Electrolyt Health Dis 1993, 7:83–86.
+value than that used for the previous data and so is              7. Kazi TG, Jalbani N, Baig JA, Afridi HI, Kandhro GA, Arain MB, Jamali MK,
+                                                                      Shah AQ: Determination of toxic elements in infant formulae by using
+probably a major factor behind the generally slightly                 electrothermal atomic absorption spectrometer. Food Chem Toxicol
+lower aluminium contents reported herein. Clearly, the                2009, 47:1425–1429.
+Chuchu et al. BMC Pediatrics 2013, 13:162                                                                                                          Page 5 of 5
+http://www.biomedcentral.com/1471-2431/13/162
+
+
+
+
+8.      Shafer U, Siefert M: Oral intake of aluminium from foodstuffs, food additives,
+        food packaging, cookware and pharmaceutical preparations with respect
+        to dietary regulations. Trace Elem Electrolytes 2006, 23:150–161.
+9.      Metal shavings found in baby formula: http://www.nbcnewyork.com/
+        investigations/Metal-Shavings-Enfamil-Baby-Formula-Can-Lab-Tests-Confirm-
+        211131121.html.
+10.     The Water Supply (Water Quality) Regulations: 2000. http://dwi.defra.gov.uk/
+        stakeholders/legislation/wqregs2007cons.pdf.
+11.     The infant formula and follow-on formula (England) regulations: 2007.
+        http://www.food.gov.uk/multimedia/pdfs/formulaengland2007.pdf.
+12.     EFSA: On the evaluation of a new study related to the bioavailability of
+        aluminium in food. EFSA J 2011, 11:2157.
+13.     Exley C: Human exposure to aluminium. Environ Sci: Processes Impacts
+        2013. doi:10.1039/c3em00374d.
+
+     doi:10.1186/1471-2431-13-162
+     Cite this article as: Chuchu et al.: The aluminium content of infant
+     formulas remains too high. BMC Pediatrics 2013 13:162.
+
+
+
+
+                                                                                         Submit your next manuscript to BioMed Central
+                                                                                         and take full advantage of:
+
+                                                                                         • Convenient online submission
+                                                                                         • Thorough peer review
+                                                                                         • No space constraints or color ﬁgure charges
+                                                                                         • Immediate publication on acceptance
+                                                                                         • Inclusion in PubMed, CAS, Scopus and Google Scholar
+                                                                                         • Research which is freely available for redistribution
+
+
+                                                                                         Submit your manuscript at
+                                                                                         www.biomedcentral.com/submit
+

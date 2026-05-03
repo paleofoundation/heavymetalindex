@@ -1,0 +1,574 @@
+SOURCE ID: chung2021-china-infant-formula-toxic-elements
+SOURCE TITLE: Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: raw/studies/Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market.pdf
+METALS DECLARED: [Cr, tAs, Cd, Pb]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 2-6 ---
+    2 | Article
+    3 | Content and Dietary Exposure Assessment of Toxic
+    4 | Elements in Infant Formulas from the Chinese Market
+    5 | Chuanyou Su 1,2 , Nan Zheng 1 , Yanan Gao 1 , Shengnan Huang 1 , Xue Yang 1 , Ziwei Wang 1 ,
+    6 | Hongjian Yang 2 and Jiaqi Wang 1, *
+
+--- lines 16-20 ---
+   16 | 
+   17 | 
+   18 |  Abstract: In this study, the content of chromium (Cr), arsenic (As), cadmium (Cd) and lead (Pb) in
+   19 |  domestic and imported infant formulas from Beijing, China were analyzed using inductively coupled
+   20 |  plasma mass spectrometry. The content of Cr, As, Cd and Pb was 2.51–83.80, 0.89–7.87, 0.13–3.58 and
+
+--- lines 17-21 ---
+   17 | 
+   18 |  Abstract: In this study, the content of chromium (Cr), arsenic (As), cadmium (Cd) and lead (Pb) in
+   19 |  domestic and imported infant formulas from Beijing, China were analyzed using inductively coupled
+   20 |  plasma mass spectrometry. The content of Cr, As, Cd and Pb was 2.51–83.80, 0.89–7.87, 0.13–3.58 and
+   21 |  0.36–5.57 µg/kg, respectively. Even though there were no significant differences in toxic elements
+
+--- lines 18-22 ---
+   18 |  Abstract: In this study, the content of chromium (Cr), arsenic (As), cadmium (Cd) and lead (Pb) in
+   19 |  domestic and imported infant formulas from Beijing, China were analyzed using inductively coupled
+   20 |  plasma mass spectrometry. The content of Cr, As, Cd and Pb was 2.51–83.80, 0.89–7.87, 0.13–3.58 and
+   21 |  0.36–5.57 µg/kg, respectively. Even though there were no significant differences in toxic elements
+   22 |  content between domestic and imported infant formulas, Cd content was slightly lower in domestic
+
+--- lines 20-24 ---
+   20 |  plasma mass spectrometry. The content of Cr, As, Cd and Pb was 2.51–83.80, 0.89–7.87, 0.13–3.58 and
+   21 |  0.36–5.57 µg/kg, respectively. Even though there were no significant differences in toxic elements
+   22 |  content between domestic and imported infant formulas, Cd content was slightly lower in domestic
+   23 |  samples. The estimated daily intake (EDI), target hazard quotient (THQ) and hazard index (HI) were
+   24 |  calculated for infants between 0.5 and 5 y of age. The EDIs were lower than the oral reference doses.
+
+--- lines 23-27 ---
+   23 |  samples. The estimated daily intake (EDI), target hazard quotient (THQ) and hazard index (HI) were
+   24 |  calculated for infants between 0.5 and 5 y of age. The EDIs were lower than the oral reference doses.
+   25 |  THQ of As, Cr, Cd and Pb was 0.027–0.103, 0.024–0.093, 0.0025–0.0090 and 0.0015–0.0046, respectively.
+   26 |  HI values were 0.055–0.192 for boys and 0.056–0.209 for girls and were inversely associated with age
+   27 |  with a threshold < 1. The non-carcinogenic risk value were in the safe range, indicating that exposure
+
+--- lines 25-29 ---
+   25 |  THQ of As, Cr, Cd and Pb was 0.027–0.103, 0.024–0.093, 0.0025–0.0090 and 0.0015–0.0046, respectively.
+   26 |  HI values were 0.055–0.192 for boys and 0.056–0.209 for girls and were inversely associated with age
+   27 |  with a threshold < 1. The non-carcinogenic risk value were in the safe range, indicating that exposure
+   28 |  of As, Pb, Cr and Cd from infant formulas do not represent a health risk in China.
+   29 | 
+
+--- lines 26-30 ---
+   26 |  HI values were 0.055–0.192 for boys and 0.056–0.209 for girls and were inversely associated with age
+   27 |  with a threshold < 1. The non-carcinogenic risk value were in the safe range, indicating that exposure
+   28 |  of As, Pb, Cr and Cd from infant formulas do not represent a health risk in China.
+   29 | 
+   30 |  Keywords: infant formula; toxic elements; risk assessment; target hazard quotient
+
+--- lines 28-32 ---
+   28 |  of As, Pb, Cr and Cd from infant formulas do not represent a health risk in China.
+   29 | 
+   30 |  Keywords: infant formula; toxic elements; risk assessment; target hazard quotient
+   31 | 
+   32 | 
+
+--- lines 37-41 ---
+   37 | approximately 67.0% of infants are not completely breastfed for the recommended six months [1].
+   38 | In China, only 20.8% are completely breastfed for six months, 11.5% are breastfed for one year and
+   39 | 6.9% are breastfed for two years [2]. Infant formulas play a special role in infant nutrition because they
+   40 | can be used as a breastmilk substitute [3]. Suitable infant formulas are preferred sources of nutrition
+   41 | for most infant when breastmilk is absent or insufficient [4]. There are a variety of infant formulas in
+
+--- lines 38-42 ---
+   38 | In China, only 20.8% are completely breastfed for six months, 11.5% are breastfed for one year and
+   39 | 6.9% are breastfed for two years [2]. Infant formulas play a special role in infant nutrition because they
+   40 | can be used as a breastmilk substitute [3]. Suitable infant formulas are preferred sources of nutrition
+   41 | for most infant when breastmilk is absent or insufficient [4]. There are a variety of infant formulas in
+   42 | the Chinese market. In 2017, the import of infant formulas was substantial (296,014 t, $3.98 billion) [5].
+
+--- lines 39-43 ---
+   39 | 6.9% are breastfed for two years [2]. Infant formulas play a special role in infant nutrition because they
+   40 | can be used as a breastmilk substitute [3]. Suitable infant formulas are preferred sources of nutrition
+   41 | for most infant when breastmilk is absent or insufficient [4]. There are a variety of infant formulas in
+   42 | the Chinese market. In 2017, the import of infant formulas was substantial (296,014 t, $3.98 billion) [5].
+   43 |      According to the International Agency for Research on Cancer, arsenic (As), cadmium (Cd)
+
+--- lines 40-44 ---
+   40 | can be used as a breastmilk substitute [3]. Suitable infant formulas are preferred sources of nutrition
+   41 | for most infant when breastmilk is absent or insufficient [4]. There are a variety of infant formulas in
+   42 | the Chinese market. In 2017, the import of infant formulas was substantial (296,014 t, $3.98 billion) [5].
+   43 |      According to the International Agency for Research on Cancer, arsenic (As), cadmium (Cd)
+   44 | and hexavalent chromium (Cr VI) are group 1 carcinogens (2012), inorganic lead (Pb) is a group 2A
+
+--- lines 41-45 ---
+   41 | for most infant when breastmilk is absent or insufficient [4]. There are a variety of infant formulas in
+   42 | the Chinese market. In 2017, the import of infant formulas was substantial (296,014 t, $3.98 billion) [5].
+   43 |      According to the International Agency for Research on Cancer, arsenic (As), cadmium (Cd)
+   44 | and hexavalent chromium (Cr VI) are group 1 carcinogens (2012), inorganic lead (Pb) is a group 2A
+   45 | carcinogen (2006) [6]. Epidemiological and experimental evidence indicates that combination effects
+
+--- lines 42-46 ---
+   42 | the Chinese market. In 2017, the import of infant formulas was substantial (296,014 t, $3.98 billion) [5].
+   43 |      According to the International Agency for Research on Cancer, arsenic (As), cadmium (Cd)
+   44 | and hexavalent chromium (Cr VI) are group 1 carcinogens (2012), inorganic lead (Pb) is a group 2A
+   45 | carcinogen (2006) [6]. Epidemiological and experimental evidence indicates that combination effects
+   46 | generated by multi-heavy metals might be quite different from that induced by the same individual
+
+--- lines 45-49 ---
+   45 | carcinogen (2006) [6]. Epidemiological and experimental evidence indicates that combination effects
+   46 | generated by multi-heavy metals might be quite different from that induced by the same individual
+   47 | metal, because heavy metals at individual low acting concentrations can elicit higher toxicity on
+   48 | interactions [7–9]. Pandya et al. [7] showed that under similar dosages, when Pb and Cd are present
+   49 | together, the toxic effect is antagonized by co-exposure due to possible competition among Pb and
+
+--- lines 46-50 ---
+   46 | generated by multi-heavy metals might be quite different from that induced by the same individual
+   47 | metal, because heavy metals at individual low acting concentrations can elicit higher toxicity on
+   48 | interactions [7–9]. Pandya et al. [7] showed that under similar dosages, when Pb and Cd are present
+   49 | together, the toxic effect is antagonized by co-exposure due to possible competition among Pb and
+   50 | Cd for hepatic accumulation. Su et al. [10] found that combination of different heavy metals showed
+
+--- lines 47-51 ---
+   47 | metal, because heavy metals at individual low acting concentrations can elicit higher toxicity on
+   48 | interactions [7–9]. Pandya et al. [7] showed that under similar dosages, when Pb and Cd are present
+   49 | together, the toxic effect is antagonized by co-exposure due to possible competition among Pb and
+   50 | Cd for hepatic accumulation. Su et al. [10] found that combination of different heavy metals showed
+   51 | certain adverse effects on the hematologic, hepatic, renal and neurobehavioral function and could also
+
+--- lines 48-52 ---
+   48 | interactions [7–9]. Pandya et al. [7] showed that under similar dosages, when Pb and Cd are present
+   49 | together, the toxic effect is antagonized by co-exposure due to possible competition among Pb and
+   50 | Cd for hepatic accumulation. Su et al. [10] found that combination of different heavy metals showed
+   51 | certain adverse effects on the hematologic, hepatic, renal and neurobehavioral function and could also
+   52 | 
+
+--- lines 61-65 ---
+   61 | exposure to multi-heavy metal simultaneously. The gut immune barrier is the first line of defense
+   62 | against any potentially harmful agents that have been ingested in food [11]. Contrary to the restricted
+   63 | macromolecular passage in adulthood, enhanced transfer takes place across the intestines during early
+   64 | life, due to the high endocytic capacity of the immature intestinal epithelial cells during the neonatal
+   65 | periods [12]. Young individuals are particularly sensitive to chemical contaminants due to their high
+
+--- lines 62-66 ---
+   62 | against any potentially harmful agents that have been ingested in food [11]. Contrary to the restricted
+   63 | macromolecular passage in adulthood, enhanced transfer takes place across the intestines during early
+   64 | life, due to the high endocytic capacity of the immature intestinal epithelial cells during the neonatal
+   65 | periods [12]. Young individuals are particularly sensitive to chemical contaminants due to their high
+   66 | exposure-body weight ratio [13], immunodeficiency and intestinal hypoplasia. Compared to adults,
+
+--- lines 64-68 ---
+   64 | life, due to the high endocytic capacity of the immature intestinal epithelial cells during the neonatal
+   65 | periods [12]. Young individuals are particularly sensitive to chemical contaminants due to their high
+   66 | exposure-body weight ratio [13], immunodeficiency and intestinal hypoplasia. Compared to adults,
+   67 | children have a greater risk to heavy metal exposure through milk consumption [14,15]. Long-term
+   68 | exposure to these toxic elements may cause significant health problems.
+
+--- lines 67-71 ---
+   67 | children have a greater risk to heavy metal exposure through milk consumption [14,15]. Long-term
+   68 | exposure to these toxic elements may cause significant health problems.
+   69 |       To protect public health, maximum levels (MLs) for toxic elements have been set by international
+   70 | organizations and China. The ML of Pb in foods for infant and young children has been set at 150 µg/kg
+   71 | by China [16], 10 µg/kg by Codex Alimentarius Commission (CAC) [17] and 50 µg/kg by the European
+
+--- lines 68-72 ---
+   68 | exposure to these toxic elements may cause significant health problems.
+   69 |       To protect public health, maximum levels (MLs) for toxic elements have been set by international
+   70 | organizations and China. The ML of Pb in foods for infant and young children has been set at 150 µg/kg
+   71 | by China [16], 10 µg/kg by Codex Alimentarius Commission (CAC) [17] and 50 µg/kg by the European
+   72 | Union, which set the ML of Cd at 10 µg/kg [18].
+
+--- lines 70-74 ---
+   70 | organizations and China. The ML of Pb in foods for infant and young children has been set at 150 µg/kg
+   71 | by China [16], 10 µg/kg by Codex Alimentarius Commission (CAC) [17] and 50 µg/kg by the European
+   72 | Union, which set the ML of Cd at 10 µg/kg [18].
+   73 |       Based on the toxicity, frequency of occurrence and potential for human exposure, the Agency for
+   74 | Toxic Substances and Disease Registry developed a substance priority list. According to this list, As,
+
+--- lines 73-77 ---
+   73 |       Based on the toxicity, frequency of occurrence and potential for human exposure, the Agency for
+   74 | Toxic Substances and Disease Registry developed a substance priority list. According to this list, As,
+   75 | Pb, Cd and Cr are the 1st, 2nd, 7th and 17th priority food contaminants, respectively [19]. In China,
+   76 | toxic elements in food have to be measured to ensure food safety [20]. Therefore, it is of utmost
+   77 | importance to measure the content of toxic elements in infant formulas [21,22]. A previous study
+
+--- lines 75-79 ---
+   75 | Pb, Cd and Cr are the 1st, 2nd, 7th and 17th priority food contaminants, respectively [19]. In China,
+   76 | toxic elements in food have to be measured to ensure food safety [20]. Therefore, it is of utmost
+   77 | importance to measure the content of toxic elements in infant formulas [21,22]. A previous study
+   78 | reported that certain milk powders and infant formulas are contaminated with toxic elements [21,23].
+   79 | Recently, toxic elements in infant formulas have been reported in Tanzania [21], Egypt [24], Nigeria,
+
+--- lines 76-80 ---
+   76 | toxic elements in food have to be measured to ensure food safety [20]. Therefore, it is of utmost
+   77 | importance to measure the content of toxic elements in infant formulas [21,22]. A previous study
+   78 | reported that certain milk powders and infant formulas are contaminated with toxic elements [21,23].
+   79 | Recently, toxic elements in infant formulas have been reported in Tanzania [21], Egypt [24], Nigeria,
+   80 | UK, USA [25] and Portugal [13]. Dietary exposure to toxic elements in adults and young individuals
+
+--- lines 77-81 ---
+   77 | importance to measure the content of toxic elements in infant formulas [21,22]. A previous study
+   78 | reported that certain milk powders and infant formulas are contaminated with toxic elements [21,23].
+   79 | Recently, toxic elements in infant formulas have been reported in Tanzania [21], Egypt [24], Nigeria,
+   80 | UK, USA [25] and Portugal [13]. Dietary exposure to toxic elements in adults and young individuals
+   81 | has been assessed in many countries [26–30]. In our previous study, toxic elements in raw milk in
+
+--- lines 80-84 ---
+   80 | UK, USA [25] and Portugal [13]. Dietary exposure to toxic elements in adults and young individuals
+   81 | has been assessed in many countries [26–30]. In our previous study, toxic elements in raw milk in
+   82 | China have been assessed [31]. However, the domestic and imported infant formulas have not been
+   83 | systematically investigated. Therefore, consider the scarcity, the aim of this study was to (i) determine
+   84 | the toxic elements (heavy metals and arsenic) contamination in infant formulas (stages 1 through 4)
+
+--- lines 82-86 ---
+   82 | China have been assessed [31]. However, the domestic and imported infant formulas have not been
+   83 | systematically investigated. Therefore, consider the scarcity, the aim of this study was to (i) determine
+   84 | the toxic elements (heavy metals and arsenic) contamination in infant formulas (stages 1 through 4)
+   85 | in Beijing, (ii) check whether these samples meet legal requirements, (iii) compare toxic elements in
+   86 | domestic and imported samples, (iv) evaluate the exposure to toxic elements from infant formulas and
+
+--- lines 84-88 ---
+   84 | the toxic elements (heavy metals and arsenic) contamination in infant formulas (stages 1 through 4)
+   85 | in Beijing, (ii) check whether these samples meet legal requirements, (iii) compare toxic elements in
+   86 | domestic and imported samples, (iv) evaluate the exposure to toxic elements from infant formulas and
+   87 | to assess the potential health risks to infants in China.
+   88 | 
+
+--- lines 90-94 ---
+   90 | 
+   91 | 2.1. Sampling
+   92 |      A total of 93 cow milk-based infant formulas from Beijing were collected in 2019–2020 (Table 1).
+   93 | Among those formulas, 27 were domestic and 66 were imported. For domestic brands, Feihe,
+   94 | Junlebao and Yili were selected. For imported brands, Illuma, Arla, Abbott, Nestle, HiPP, Biostime,
+
+--- lines 91-95 ---
+   91 | 2.1. Sampling
+   92 |      A total of 93 cow milk-based infant formulas from Beijing were collected in 2019–2020 (Table 1).
+   93 | Among those formulas, 27 were domestic and 66 were imported. For domestic brands, Feihe,
+   94 | Junlebao and Yili were selected. For imported brands, Illuma, Arla, Abbott, Nestle, HiPP, Biostime,
+   95 | Nutricia, Friesland, Meadjhnson, Wyeth, Anmum, Karihome and a2 were selected. These samples
+
+--- lines 94-98 ---
+   94 | Junlebao and Yili were selected. For imported brands, Illuma, Arla, Abbott, Nestle, HiPP, Biostime,
+   95 | Nutricia, Friesland, Meadjhnson, Wyeth, Anmum, Karihome and a2 were selected. These samples
+   96 | cover large swathes of the infant formula market in Beijing. Furthermore, there were stage 1 (28),
+   97 | stage 2 (27), stage 3 (24) and stage 4 (14) infant formulas. Samples were sampled in supermarkets.
+   98 | The samples were maintained at −20 ◦ C prior to analysis.
+
+--- lines 95-99 ---
+   95 | Nutricia, Friesland, Meadjhnson, Wyeth, Anmum, Karihome and a2 were selected. These samples
+   96 | cover large swathes of the infant formula market in Beijing. Furthermore, there were stage 1 (28),
+   97 | stage 2 (27), stage 3 (24) and stage 4 (14) infant formulas. Samples were sampled in supermarkets.
+   98 | The samples were maintained at −20 ◦ C prior to analysis.
+   99 | 
+
+--- lines 117-121 ---
+  117 | 
+  118 | 2.2. Sample Analysis
+  119 |      To 0.5 g infant formula sample in a polyfluoroalkoxy digestion vessel, we added 1 mL deionized
+  120 | water (Milli-Q, Millipore, Bedford, MA, USA), 5 mL of HNO3 (65%, Suprapur, Merck, Darmstadt,
+  121 | Germany) and 2 mL of H2 O2 (30%, Suprapur, Merck, Darmstadt, Germany). Following an overnight
+
+--- lines 120-124 ---
+  120 | water (Milli-Q, Millipore, Bedford, MA, USA), 5 mL of HNO3 (65%, Suprapur, Merck, Darmstadt,
+  121 | Germany) and 2 mL of H2 O2 (30%, Suprapur, Merck, Darmstadt, Germany). Following an overnight
+  122 | pre-digestion at room temperature, the mixture was digested in a microwave-assisted reaction system
+  123 | (CEM MARs 6, Charlotte, NC, USA) according to the program shown in Table 2. Once cooled to
+  124 | room temperature, the digest was diluted with deionized water to 25 mL and analyzed by inductively
+
+--- lines 126-130 ---
+  126 | Santa Clara, CA, USA) after filtration through a 0.22-µm membrane.
+  127 | 
+  128 |                                Table 2. Microwave-assisted digestion procedure.
+  129 | 
+  130 |         Temperature (◦ C)     Gradient Temperature Time (min)                  Holding Time (min)
+
+--- lines 135-139 ---
+  135 | 
+  136 |      We developed standard five-point calibrations for each of the toxic elements. The correlation
+  137 | coefficients were >0.999 and the limits of detection for Pb, As, Cr and Cd in infant formula was 0.2, 0.5,
+  138 | 2.0 and 0.1 µg/kg, respectively. To assess the accuracy of the method, milk powder certificate reference
+  139 | material (CRM, Code: GBW 10117, National Institute of Metrology, Beijing, China) were analyzed.
+
+--- lines 136-140 ---
+  136 |      We developed standard five-point calibrations for each of the toxic elements. The correlation
+  137 | coefficients were >0.999 and the limits of detection for Pb, As, Cr and Cd in infant formula was 0.2, 0.5,
+  138 | 2.0 and 0.1 µg/kg, respectively. To assess the accuracy of the method, milk powder certificate reference
+  139 | material (CRM, Code: GBW 10117, National Institute of Metrology, Beijing, China) were analyzed.
+  140 | The recovery of the elements from milk powder CRM is shown in Table 3. The recovery of these four
+
+--- lines 137-141 ---
+  137 | coefficients were >0.999 and the limits of detection for Pb, As, Cr and Cd in infant formula was 0.2, 0.5,
+  138 | 2.0 and 0.1 µg/kg, respectively. To assess the accuracy of the method, milk powder certificate reference
+  139 | material (CRM, Code: GBW 10117, National Institute of Metrology, Beijing, China) were analyzed.
+  140 | The recovery of the elements from milk powder CRM is shown in Table 3. The recovery of these four
+  141 | toxic elements was 92.3%–104.3%.
+
+--- lines 138-142 ---
+  138 | 2.0 and 0.1 µg/kg, respectively. To assess the accuracy of the method, milk powder certificate reference
+  139 | material (CRM, Code: GBW 10117, National Institute of Metrology, Beijing, China) were analyzed.
+  140 | The recovery of the elements from milk powder CRM is shown in Table 3. The recovery of these four
+  141 | toxic elements was 92.3%–104.3%.
+  142 | 
+
+--- lines 141-145 ---
+  141 | toxic elements was 92.3%–104.3%.
+  142 | 
+  143 |                       Table 3. Quality control of certified reference material, milk powder.
+  144 | 
+  145 |                                                          Certified Reference Material
+
+--- lines 145-149 ---
+  145 |                                                          Certified Reference Material
+  146 |        Toxic Elements         Certified Values (µg/kg)      Observed Values (µg/kg)            Recovery (%)
+  147 |               Cr                        1900                         1753.70                      92.3
+  148 |               As                         200                         192.40                       96.2
+  149 |               Cd                         111                         115.77                       104.3
+
+--- lines 147-151 ---
+  147 |               Cr                        1900                         1753.70                      92.3
+  148 |               As                         200                         192.40                       96.2
+  149 |               Cd                         111                         115.77                       104.3
+  150 |               Pb                         416                          397.28                      95.5
+  151 | 
+
+--- lines 148-152 ---
+  148 |               As                         200                         192.40                       96.2
+  149 |               Cd                         111                         115.77                       104.3
+  150 |               Pb                         416                          397.28                      95.5
+  151 | 
+  152 | 
+
+--- lines 152-156 ---
+  152 | 
+  153 | 2.3. Risk Assessment
+  154 |      The risk of toxic elements for infants (0.5 to 5 y of age) was assessed by calculating the estimated
+  155 | daily intake (EDI), target hazard quotient (THQ) and hazard index (HI). All experimental procedures
+  156 | for this study were approved by the ethics committee of Chinese Academy of Agricultural Sciences.
+
+--- lines 157-161 ---
+  157 | 
+  158 | 2.3.1. Exposure Assessment
+  159 |      The exposure of infants to toxic elements from infant formula consumption was assessed using
+  160 | the average content of toxic elements in the test and the recommended average consumption of infant
+  161 | formula in China [4] according to Equation (1) [27].We compared the EDI obtained in this study with
+
+--- lines 159-163 ---
+  159 |      The exposure of infants to toxic elements from infant formula consumption was assessed using
+  160 | the average content of toxic elements in the test and the recommended average consumption of infant
+  161 | formula in China [4] according to Equation (1) [27].We compared the EDI obtained in this study with
+  162 | the reference dose (RfD). RfD is useful as a reference point from which to gauge the potential effects
+  163 | of the chemical at other doses. Usually, doses less than the RfD are not likely to be associated with
+
+--- lines 166-170 ---
+  166 |                                                EDI = C × DI/BW                                                (1)
+  167 | 
+  168 | where C is the toxic elements content in infant formula (µg/kg), DI is the daily infant formula intake
+  169 | (kg) and BW is body weight (kg).
+  170 | Foods 2020, 9, 1839                                                                                                        4 of 10
+
+--- lines 180-184 ---
+  180 | 
+  181 | where RfD is the oral reference dose (mg/kg/d), based on 3 × 10−4 , 4 × 10−3 , 3 × 10−3 and 1× 10−3 for
+  182 | As, Pb, Cr and Cd, respectively [30,32–35].
+  183 | 
+  184 | 2.3.3. Health Risks of Multiple Toxic Elements
+
+--- lines 191-195 ---
+  191 | 2.4. Statistical Analysis
+  192 |     Data analysis was performed using SPSS (IBM, Endicott, NY, USA) version 20. Data were
+  193 | expressed as mean ± standard error (SE). Differences in heavy metal content among samples were
+  194 | analyzed with an independent t-test. p < 0.05 was considered statistically significant.
+  195 | 
+
+--- lines 196-200 ---
+  196 | 3. Results and Discussion
+  197 | 
+  198 | 3.1. Concentrations of Toxic Elements in Infant Formula
+  199 |      A total of 93 infant formula samples were sampled in China and comprehensively measured
+  200 | 4 toxic elements. Samples, which belonged to nine countries, were for different infant growth stages.
+
+--- lines 197-201 ---
+  197 | 
+  198 | 3.1. Concentrations of Toxic Elements in Infant Formula
+  199 |      A total of 93 infant formula samples were sampled in China and comprehensively measured
+  200 | 4 toxic elements. Samples, which belonged to nine countries, were for different infant growth stages.
+  201 | The content of toxic elements in infant formulas were 27.38 µg/kg Cr (2.51–83.80 µg/kg), 3.32 µg/kg As
+
+--- lines 199-203 ---
+  199 |      A total of 93 infant formula samples were sampled in China and comprehensively measured
+  200 | 4 toxic elements. Samples, which belonged to nine countries, were for different infant growth stages.
+  201 | The content of toxic elements in infant formulas were 27.38 µg/kg Cr (2.51–83.80 µg/kg), 3.32 µg/kg As
+  202 | (0.89–7.87 µg/kg), 0.98 µg/kg Cd (0.13–3.58 µg/kg) and 2.03 µg/kg Pb (0.36–5.57 µg/kg; Tables 4 and 5).
+  203 | 
+
+--- lines 200-204 ---
+  200 | 4 toxic elements. Samples, which belonged to nine countries, were for different infant growth stages.
+  201 | The content of toxic elements in infant formulas were 27.38 µg/kg Cr (2.51–83.80 µg/kg), 3.32 µg/kg As
+  202 | (0.89–7.87 µg/kg), 0.98 µg/kg Cd (0.13–3.58 µg/kg) and 2.03 µg/kg Pb (0.36–5.57 µg/kg; Tables 4 and 5).
+  203 | 
+  204 |                       Table 4. Heavy toxic elements (µg/kg) in infant formulas of different stages.
+
+--- lines 202-206 ---
+  202 | (0.89–7.87 µg/kg), 0.98 µg/kg Cd (0.13–3.58 µg/kg) and 2.03 µg/kg Pb (0.36–5.57 µg/kg; Tables 4 and 5).
+  203 | 
+  204 |                       Table 4. Heavy toxic elements (µg/kg) in infant formulas of different stages.
+  205 | 
+  206 |                                  Cr                          As                       Cd                      Pb
+
+--- lines 204-208 ---
+  204 |                       Table 4. Heavy toxic elements (µg/kg) in infant formulas of different stages.
+  205 | 
+  206 |                                  Cr                          As                       Cd                      Pb
+  207 |       Stage     N
+  208 |                          Mean         Range         Mean          Range       Mean         Range       Mean        Range
+
+--- lines 206-210 ---
+  206 |                                  Cr                          As                       Cd                      Pb
+  207 |       Stage     N
+  208 |                          Mean         Range         Mean          Range       Mean         Range       Mean        Range
+  209 |        1        28       27.09        2.51–67.70     3.00         0.89–7.87   0.88         0.16–3.53   1.61        0.42–4.82
+  210 |        2        27       26.71        8.12–58.33     3.57         1.09–6.34   1.01         0.18–2.62   2.19        0.81–5.45
+
+--- lines 214-218 ---
+  214 | 
+  215 | 
+  216 |                  Table 5. Toxic elements content (µg/kg) in domestic and imported infant formulas.
+  217 | 
+  218 |       Toxic               Domestic (n = 27)                       Imported (n = 66)              Maximum Level [16–18]
+
+--- lines 216-220 ---
+  216 |                  Table 5. Toxic elements content (µg/kg) in domestic and imported infant formulas.
+  217 | 
+  218 |       Toxic               Domestic (n = 27)                       Imported (n = 66)              Maximum Level [16–18]
+  219 |     Elements          Mean ± SD            Range            Mean ± SD          Range           China      EU          CAC
+  220 |         Cr            28.77 ± 14.69      4.48–58.33         26.71 ± 16.43     2.51–83.80         —a       —a           —a
+
+--- lines 217-221 ---
+  217 | 
+  218 |       Toxic               Domestic (n = 27)                       Imported (n = 66)              Maximum Level [16–18]
+  219 |     Elements          Mean ± SD            Range            Mean ± SD          Range           China      EU          CAC
+  220 |         Cr            28.77 ± 14.69      4.48–58.33         26.71 ± 16.43     2.51–83.80         —a       —a           —a
+  221 |         As             3.48 ± 1.41        0.89–5.19          3.24 ± 1.57       0.98–7.87         —a       —a           —a
+
+--- lines 218-222 ---
+  218 |       Toxic               Domestic (n = 27)                       Imported (n = 66)              Maximum Level [16–18]
+  219 |     Elements          Mean ± SD            Range            Mean ± SD          Range           China      EU          CAC
+  220 |         Cr            28.77 ± 14.69      4.48–58.33         26.71 ± 16.43     2.51–83.80         —a       —a           —a
+  221 |         As             3.48 ± 1.41        0.89–5.19          3.24 ± 1.57       0.98–7.87         —a       —a           —a
+  222 |         Cd             0.77 ± 0.75       0.13–3.17           1.08 ± 0.77      0.16–3.58          —a       10           —a
+
+--- lines 220-224 ---
+  220 |         Cr            28.77 ± 14.69      4.48–58.33         26.71 ± 16.43     2.51–83.80         —a       —a           —a
+  221 |         As             3.48 ± 1.41        0.89–5.19          3.24 ± 1.57       0.98–7.87         —a       —a           —a
+  222 |         Cd             0.77 ± 0.75       0.13–3.17           1.08 ± 0.77      0.16–3.58          —a       10           —a
+  223 |         Pb             2.13 ± 0.96        0.63–4.08          1.99 ± 1.33       0.36–5.75         150      50           10
+  224 |                                                    a Not mentioned in reference.
+
+--- lines 221-225 ---
+  221 |         As             3.48 ± 1.41        0.89–5.19          3.24 ± 1.57       0.98–7.87         —a       —a           —a
+  222 |         Cd             0.77 ± 0.75       0.13–3.17           1.08 ± 0.77      0.16–3.58          —a       10           —a
+  223 |         Pb             2.13 ± 0.96        0.63–4.08          1.99 ± 1.33       0.36–5.75         150      50           10
+  224 |                                                    a Not mentioned in reference.
+  225 | Foods 2020, 9, 1839                                                                                                   5 of 10
+
+--- lines 227-231 ---
+  227 | 
+  228 | 
+  229 |      The contents of Pb in this study were below the MLs established by China (150 µg/kg) [16],
+  230 | European Union (50 µg/kg) [18] and CAC (10 µg/kg) [17]. Furthermore, the Cd content was below
+  231 | the ML set by the European Union (10 µg/kg in infant formula) [18]. These results reveal the safety of
+
+--- lines 228-232 ---
+  228 | 
+  229 |      The contents of Pb in this study were below the MLs established by China (150 µg/kg) [16],
+  230 | European Union (50 µg/kg) [18] and CAC (10 µg/kg) [17]. Furthermore, the Cd content was below
+  231 | the ML set by the European Union (10 µg/kg in infant formula) [18]. These results reveal the safety of
+  232 | infant formulas in China as a result of safety measures introduced by the Chinese government [37].
+
+--- lines 229-233 ---
+  229 |      The contents of Pb in this study were below the MLs established by China (150 µg/kg) [16],
+  230 | European Union (50 µg/kg) [18] and CAC (10 µg/kg) [17]. Furthermore, the Cd content was below
+  231 | the ML set by the European Union (10 µg/kg in infant formula) [18]. These results reveal the safety of
+  232 | infant formulas in China as a result of safety measures introduced by the Chinese government [37].
+  233 | The average price was higher for imported infant formulas than for domestic infant formulas (74.56 vs.
+
+--- lines 230-234 ---
+  230 | European Union (50 µg/kg) [18] and CAC (10 µg/kg) [17]. Furthermore, the Cd content was below
+  231 | the ML set by the European Union (10 µg/kg in infant formula) [18]. These results reveal the safety of
+  232 | infant formulas in China as a result of safety measures introduced by the Chinese government [37].
+  233 | The average price was higher for imported infant formulas than for domestic infant formulas (74.56 vs.
+  234 | 52.50 yuan in Beijing market for 400 g infant formula) [5]. Not all families may be able to afford the
+
+--- lines 231-235 ---
+  231 | the ML set by the European Union (10 µg/kg in infant formula) [18]. These results reveal the safety of
+  232 | infant formulas in China as a result of safety measures introduced by the Chinese government [37].
+  233 | The average price was higher for imported infant formulas than for domestic infant formulas (74.56 vs.
+  234 | 52.50 yuan in Beijing market for 400 g infant formula) [5]. Not all families may be able to afford the
+  235 | high price of imported infant formulas, especially migrant workers with low income. Domestic infant
+
+--- lines 232-236 ---
+  232 | infant formulas in China as a result of safety measures introduced by the Chinese government [37].
+  233 | The average price was higher for imported infant formulas than for domestic infant formulas (74.56 vs.
+  234 | 52.50 yuan in Beijing market for 400 g infant formula) [5]. Not all families may be able to afford the
+  235 | high price of imported infant formulas, especially migrant workers with low income. Domestic infant
+  236 | formula would be an optimal choice.
+
+--- lines 233-237 ---
+  233 | The average price was higher for imported infant formulas than for domestic infant formulas (74.56 vs.
+  234 | 52.50 yuan in Beijing market for 400 g infant formula) [5]. Not all families may be able to afford the
+  235 | high price of imported infant formulas, especially migrant workers with low income. Domestic infant
+  236 | formula would be an optimal choice.
+  237 |      The contents of Cr, As, Pb and Cd were 28.77 ± 14.69, 3.48 ± 1.41, 2.13 ± 0.96 and 0.77 ± 0.75 µg/kg,
+
+--- lines 234-238 ---
+  234 | 52.50 yuan in Beijing market for 400 g infant formula) [5]. Not all families may be able to afford the
+  235 | high price of imported infant formulas, especially migrant workers with low income. Domestic infant
+  236 | formula would be an optimal choice.
+  237 |      The contents of Cr, As, Pb and Cd were 28.77 ± 14.69, 3.48 ± 1.41, 2.13 ± 0.96 and 0.77 ± 0.75 µg/kg,
+  238 | respectively, in the domestic samples and 26.71 ± 16.43, 3.24 ± 1.57, 1.99 ± 1.33 and 1.08 ± 0.77 µg/kg,
+
+--- lines 235-239 ---
+  235 | high price of imported infant formulas, especially migrant workers with low income. Domestic infant
+  236 | formula would be an optimal choice.
+  237 |      The contents of Cr, As, Pb and Cd were 28.77 ± 14.69, 3.48 ± 1.41, 2.13 ± 0.96 and 0.77 ± 0.75 µg/kg,
+  238 | respectively, in the domestic samples and 26.71 ± 16.43, 3.24 ± 1.57, 1.99 ± 1.33 and 1.08 ± 0.77 µg/kg,
+  239 | respectively, in the imported samples. Even though there were no significant differences in the contents
+
+--- lines 238-242 ---
+  238 | respectively, in the domestic samples and 26.71 ± 16.43, 3.24 ± 1.57, 1.99 ± 1.33 and 1.08 ± 0.77 µg/kg,
+  239 | respectively, in the imported samples. Even though there were no significant differences in the contents
+  240 | of toxic elements between the domestic and imported infant formula sample (p > 0.05), Cd contents
+  241 | were slightly lower in domestic samples.
+  242 |      The content of toxic elements in infant formulas reported in other studies are summarized in
+
+--- lines 240-244 ---
+  240 | of toxic elements between the domestic and imported infant formula sample (p > 0.05), Cd contents
+  241 | were slightly lower in domestic samples.
+  242 |      The content of toxic elements in infant formulas reported in other studies are summarized in
+  243 | Table 6. The Cr content in our study was in accordance with the Cr levels reported in Tanzania
+  244 | (<7–53 µg/kg) [21], Saudi Arabia (37 ± 55 µg/kg) [38], Poland (<100 µg/kg) [39] but higher than the
+
+--- lines 241-245 ---
+  241 | were slightly lower in domestic samples.
+  242 |      The content of toxic elements in infant formulas reported in other studies are summarized in
+  243 | Table 6. The Cr content in our study was in accordance with the Cr levels reported in Tanzania
+  244 | (<7–53 µg/kg) [21], Saudi Arabia (37 ± 55 µg/kg) [38], Poland (<100 µg/kg) [39] but higher than the
+  245 | levels reported in Nigeria, UK and USA [25] and lower than in Egypt [24]. As for Pb, the contents
+
+--- lines 243-247 ---
+  243 | Table 6. The Cr content in our study was in accordance with the Cr levels reported in Tanzania
+  244 | (<7–53 µg/kg) [21], Saudi Arabia (37 ± 55 µg/kg) [38], Poland (<100 µg/kg) [39] but higher than the
+  245 | levels reported in Nigeria, UK and USA [25] and lower than in Egypt [24]. As for Pb, the contents
+  246 | were within the range (0.14–1,850 µg/kg) reported by other investigators [3,21,24,25,35,37,38]. The Cd
+  247 | contents were similar to those reported in Tanzania (<1–7 µg/kg) [21], Saudi Arabia (7 ± 5 µg/kg) [38],
+
+--- lines 244-248 ---
+  244 | (<7–53 µg/kg) [21], Saudi Arabia (37 ± 55 µg/kg) [38], Poland (<100 µg/kg) [39] but higher than the
+  245 | levels reported in Nigeria, UK and USA [25] and lower than in Egypt [24]. As for Pb, the contents
+  246 | were within the range (0.14–1,850 µg/kg) reported by other investigators [3,21,24,25,35,37,38]. The Cd
+  247 | contents were similar to those reported in Tanzania (<1–7 µg/kg) [21], Saudi Arabia (7 ± 5 µg/kg) [38],
+  248 | Poland (<10 µg/kg) [39] and Canada (0.03–1.26 µg/kg) [40].

@@ -1,0 +1,574 @@
+SOURCE ID: meli2024-chemical-characterization-baby-food-italy
+SOURCE TITLE: Chemical characterization of baby food consumed in Italy
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: raw/studies/FM_10883532_Chemical_characterization_of_baby_food_consumed_in_Italy.pdf
+METALS DECLARED: [Al, tAs, Cd, tHg, Ni, Pb, Sn]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 3-7 ---
+    3 |                                                        RESEARCH ARTICLE
+    4 | 
+    5 |                                                        Chemical characterization of baby food
+    6 |                                                        consumed in Italy
+    7 |                                                        Maria Assunta Meli ID1☯*, Donatella Desideri1☯, Davide Sisti1☯, Ivan Fagiolino2☯,
+
+--- lines 4-8 ---
+    4 | 
+    5 |                                                        Chemical characterization of baby food
+    6 |                                                        consumed in Italy
+    7 |                                                        Maria Assunta Meli ID1☯*, Donatella Desideri1☯, Davide Sisti1☯, Ivan Fagiolino2☯,
+    8 |                                                        Carla Roselli1☯
+
+--- lines 7-11 ---
+    7 |                                                        Maria Assunta Meli ID1☯*, Donatella Desideri1☯, Davide Sisti1☯, Ivan Fagiolino2☯,
+    8 |                                                        Carla Roselli1☯
+    9 |                                                        1 Department of Biomolecular Sciences, Università di Urbino Carlo Bo, Urbino (PU) Italy, 2 GRUPPO C.S.A.
+   10 |                                                        S.p.A., Rimini (RN) Italy
+   11 | 
+
+--- lines 8-12 ---
+    8 |                                                        Carla Roselli1☯
+    9 |                                                        1 Department of Biomolecular Sciences, Università di Urbino Carlo Bo, Urbino (PU) Italy, 2 GRUPPO C.S.A.
+   10 |                                                        S.p.A., Rimini (RN) Italy
+   11 | 
+   12 |                                                        ☯ These authors contributed equally to this work.
+
+--- lines 10-14 ---
+   10 |                                                        S.p.A., Rimini (RN) Italy
+   11 | 
+   12 |                                                        ☯ These authors contributed equally to this work.
+   13 |                                                        * maria.meli@uniurb.it
+   14 | 
+
+--- lines 11-15 ---
+   11 | 
+   12 |                                                        ☯ These authors contributed equally to this work.
+   13 |                                                        * maria.meli@uniurb.it
+   14 | 
+   15 | 
+
+--- lines 17-21 ---
+   17 | a1111111111                                            Abstract
+   18 | a1111111111
+   19 | a1111111111                                            In this study, a total of 30 elements (essential and non-essential or toxic) were determined in
+   20 | a1111111111
+   21 |                                                        25 foods consumed in Italy by children aged 0–6 months and produced in Europe. Inductively
+
+--- lines 19-23 ---
+   19 | a1111111111                                            In this study, a total of 30 elements (essential and non-essential or toxic) were determined in
+   20 | a1111111111
+   21 |                                                        25 foods consumed in Italy by children aged 0–6 months and produced in Europe. Inductively
+   22 | a1111111111
+   23 |                                                        Coupled Plasma-Atomic Emission Spectrometry and Inductively Coupled Plasma-Mass
+
+--- lines 22-26 ---
+   22 | a1111111111
+   23 |                                                        Coupled Plasma-Atomic Emission Spectrometry and Inductively Coupled Plasma-Mass
+   24 |                                                        Spectrometry were used as measurement techniques for the elements of interest. The esti-
+   25 |                                                        mated intakes for one-year-old infants were compared with risk estimators and nutritional
+   26 |                                                        requirements. Data indicate that commercially available baby food in Italy provides an excel-
+
+--- lines 23-27 ---
+   23 |                                                        Coupled Plasma-Atomic Emission Spectrometry and Inductively Coupled Plasma-Mass
+   24 |                                                        Spectrometry were used as measurement techniques for the elements of interest. The esti-
+   25 |                                                        mated intakes for one-year-old infants were compared with risk estimators and nutritional
+   26 |                                                        requirements. Data indicate that commercially available baby food in Italy provides an excel-
+   27 |     OPEN ACCESS
+
+--- lines 24-28 ---
+   24 |                                                        Spectrometry were used as measurement techniques for the elements of interest. The esti-
+   25 |                                                        mated intakes for one-year-old infants were compared with risk estimators and nutritional
+   26 |                                                        requirements. Data indicate that commercially available baby food in Italy provides an excel-
+   27 |     OPEN ACCESS
+   28 |                                                        lent contribution for Mn, Cu, Fe, Zn, Ca, K, and P, covering up to approximately 70% of the
+
+--- lines 28-32 ---
+   28 |                                                        lent contribution for Mn, Cu, Fe, Zn, Ca, K, and P, covering up to approximately 70% of the
+   29 | Citation: Meli MA, Desideri D, Sisti D, Fagiolino I,   adequate intake (AI) for an infant aged 6–12 months. The intake of detectable toxic elements
+   30 | Roselli C (2024) Chemical characterization of baby
+   31 | food consumed in Italy. PLoS ONE 19(2):
+   32 |                                                        was always below the safety limit: even the most concentrated toxic elements never
+
+--- lines 29-33 ---
+   29 | Citation: Meli MA, Desideri D, Sisti D, Fagiolino I,   adequate intake (AI) for an infant aged 6–12 months. The intake of detectable toxic elements
+   30 | Roselli C (2024) Chemical characterization of baby
+   31 | food consumed in Italy. PLoS ONE 19(2):
+   32 |                                                        was always below the safety limit: even the most concentrated toxic elements never
+   33 | e0297158. https://doi.org/10.1371/journal.             exceeded about 86% of the Provisional Tolerable Weekly Intake (PTWI). This result indicates
+
+--- lines 30-34 ---
+   30 | Roselli C (2024) Chemical characterization of baby
+   31 | food consumed in Italy. PLoS ONE 19(2):
+   32 |                                                        was always below the safety limit: even the most concentrated toxic elements never
+   33 | e0297158. https://doi.org/10.1371/journal.             exceeded about 86% of the Provisional Tolerable Weekly Intake (PTWI). This result indicates
+   34 | pone.0297158                                           that the analyzed baby food is of good quality and does not pose risks to children’s health.
+
+--- lines 31-35 ---
+   31 | food consumed in Italy. PLoS ONE 19(2):
+   32 |                                                        was always below the safety limit: even the most concentrated toxic elements never
+   33 | e0297158. https://doi.org/10.1371/journal.             exceeded about 86% of the Provisional Tolerable Weekly Intake (PTWI). This result indicates
+   34 | pone.0297158                                           that the analyzed baby food is of good quality and does not pose risks to children’s health.
+   35 | Editor: Antonio Peña-Fernández, University of
+
+--- lines 32-36 ---
+   32 |                                                        was always below the safety limit: even the most concentrated toxic elements never
+   33 | e0297158. https://doi.org/10.1371/journal.             exceeded about 86% of the Provisional Tolerable Weekly Intake (PTWI). This result indicates
+   34 | pone.0297158                                           that the analyzed baby food is of good quality and does not pose risks to children’s health.
+   35 | Editor: Antonio Peña-Fernández, University of
+   36 | Alcala Faculty of Medicine and Health Sciences:
+
+--- lines 33-37 ---
+   33 | e0297158. https://doi.org/10.1371/journal.             exceeded about 86% of the Provisional Tolerable Weekly Intake (PTWI). This result indicates
+   34 | pone.0297158                                           that the analyzed baby food is of good quality and does not pose risks to children’s health.
+   35 | Editor: Antonio Peña-Fernández, University of
+   36 | Alcala Faculty of Medicine and Health Sciences:
+   37 | Universidad de Alcala Facultad de Medicina y
+
+--- lines 34-38 ---
+   34 | pone.0297158                                           that the analyzed baby food is of good quality and does not pose risks to children’s health.
+   35 | Editor: Antonio Peña-Fernández, University of
+   36 | Alcala Faculty of Medicine and Health Sciences:
+   37 | Universidad de Alcala Facultad de Medicina y
+   38 | Ciencias de la Salud, SPAIN
+
+--- lines 35-39 ---
+   35 | Editor: Antonio Peña-Fernández, University of
+   36 | Alcala Faculty of Medicine and Health Sciences:
+   37 | Universidad de Alcala Facultad de Medicina y
+   38 | Ciencias de la Salud, SPAIN
+   39 |                                                        Introduction
+
+--- lines 36-40 ---
+   36 | Alcala Faculty of Medicine and Health Sciences:
+   37 | Universidad de Alcala Facultad de Medicina y
+   38 | Ciencias de la Salud, SPAIN
+   39 |                                                        Introduction
+   40 | Received: July 18, 2023
+
+--- lines 39-43 ---
+   39 |                                                        Introduction
+   40 | Received: July 18, 2023
+   41 |                                                        The period from birth to 12 months of age represents a critical phase for cognitive and emo-
+   42 | Accepted: December 29, 2023                            tional development as well as rapid physical growth in children. Ensuring proper nutrition
+   43 | Published: February 22, 2024                           during this period is essential to support adequate psycho-physical development [1].
+
+--- lines 40-44 ---
+   40 | Received: July 18, 2023
+   41 |                                                        The period from birth to 12 months of age represents a critical phase for cognitive and emo-
+   42 | Accepted: December 29, 2023                            tional development as well as rapid physical growth in children. Ensuring proper nutrition
+   43 | Published: February 22, 2024                           during this period is essential to support adequate psycho-physical development [1].
+   44 |                                                            While breast milk remains the optimal food for newborns due to its richness in immune
+
+--- lines 41-45 ---
+   41 |                                                        The period from birth to 12 months of age represents a critical phase for cognitive and emo-
+   42 | Accepted: December 29, 2023                            tional development as well as rapid physical growth in children. Ensuring proper nutrition
+   43 | Published: February 22, 2024                           during this period is essential to support adequate psycho-physical development [1].
+   44 |                                                            While breast milk remains the optimal food for newborns due to its richness in immune
+   45 | Copyright: © 2024 Meli et al. This is an open
+
+--- lines 42-46 ---
+   42 | Accepted: December 29, 2023                            tional development as well as rapid physical growth in children. Ensuring proper nutrition
+   43 | Published: February 22, 2024                           during this period is essential to support adequate psycho-physical development [1].
+   44 |                                                            While breast milk remains the optimal food for newborns due to its richness in immune
+   45 | Copyright: © 2024 Meli et al. This is an open
+   46 | access article distributed under the terms of the      defense proteins, powdered milk fully meets the nutritional needs [2]. However, according to a
+
+--- lines 43-47 ---
+   43 | Published: February 22, 2024                           during this period is essential to support adequate psycho-physical development [1].
+   44 |                                                            While breast milk remains the optimal food for newborns due to its richness in immune
+   45 | Copyright: © 2024 Meli et al. This is an open
+   46 | access article distributed under the terms of the      defense proteins, powdered milk fully meets the nutritional needs [2]. However, according to a
+   47 | Creative Commons Attribution License, which            survey conducted by the Italian National Institute of Health between December 2018 and
+
+--- lines 44-48 ---
+   44 |                                                            While breast milk remains the optimal food for newborns due to its richness in immune
+   45 | Copyright: © 2024 Meli et al. This is an open
+   46 | access article distributed under the terms of the      defense proteins, powdered milk fully meets the nutritional needs [2]. However, according to a
+   47 | Creative Commons Attribution License, which            survey conducted by the Italian National Institute of Health between December 2018 and
+   48 | permits unrestricted use, distribution, and            April 2019, involving 29,492 mothers across 11 Italian Regions, findings revealed that less than
+
+--- lines 45-49 ---
+   45 | Copyright: © 2024 Meli et al. This is an open
+   46 | access article distributed under the terms of the      defense proteins, powdered milk fully meets the nutritional needs [2]. However, according to a
+   47 | Creative Commons Attribution License, which            survey conducted by the Italian National Institute of Health between December 2018 and
+   48 | permits unrestricted use, distribution, and            April 2019, involving 29,492 mothers across 11 Italian Regions, findings revealed that less than
+   49 | reproduction in any medium, provided the original      one quarter (23.6%) of children at 4–5 months were exclusively breastfed, and 11.7% of chil-
+
+--- lines 46-50 ---
+   46 | access article distributed under the terms of the      defense proteins, powdered milk fully meets the nutritional needs [2]. However, according to a
+   47 | Creative Commons Attribution License, which            survey conducted by the Italian National Institute of Health between December 2018 and
+   48 | permits unrestricted use, distribution, and            April 2019, involving 29,492 mothers across 11 Italian Regions, findings revealed that less than
+   49 | reproduction in any medium, provided the original      one quarter (23.6%) of children at 4–5 months were exclusively breastfed, and 11.7% of chil-
+   50 | author and source are credited.
+
+--- lines 47-51 ---
+   47 | Creative Commons Attribution License, which            survey conducted by the Italian National Institute of Health between December 2018 and
+   48 | permits unrestricted use, distribution, and            April 2019, involving 29,492 mothers across 11 Italian Regions, findings revealed that less than
+   49 | reproduction in any medium, provided the original      one quarter (23.6%) of children at 4–5 months were exclusively breastfed, and 11.7% of chil-
+   50 | author and source are credited.
+   51 |                                                        dren in the monitored age group had not been breastfed at all. Considering the widespread use
+
+--- lines 49-53 ---
+   49 | reproduction in any medium, provided the original      one quarter (23.6%) of children at 4–5 months were exclusively breastfed, and 11.7% of chil-
+   50 | author and source are credited.
+   51 |                                                        dren in the monitored age group had not been breastfed at all. Considering the widespread use
+   52 | Data Availability Statement: All relevant data are     of infant foods in Italy and other industrialized countries, verifying the actual quality of these
+   53 | within the manuscript and its Supporting               products is highly important [3].
+
+--- lines 50-54 ---
+   50 | author and source are credited.
+   51 |                                                        dren in the monitored age group had not been breastfed at all. Considering the widespread use
+   52 | Data Availability Statement: All relevant data are     of infant foods in Italy and other industrialized countries, verifying the actual quality of these
+   53 | within the manuscript and its Supporting               products is highly important [3].
+   54 | Information files.
+
+--- lines 51-55 ---
+   51 |                                                        dren in the monitored age group had not been breastfed at all. Considering the widespread use
+   52 | Data Availability Statement: All relevant data are     of infant foods in Italy and other industrialized countries, verifying the actual quality of these
+   53 | within the manuscript and its Supporting               products is highly important [3].
+   54 | Information files.
+   55 |                                                            Physiological changes occurring in infants during the first six months enable them to tran-
+
+--- lines 53-57 ---
+   53 | within the manuscript and its Supporting               products is highly important [3].
+   54 | Information files.
+   55 |                                                            Physiological changes occurring in infants during the first six months enable them to tran-
+   56 | Funding: The authors received no specific funding      sition from a solely liquid diet to solid foods, mainly comprising homogenized meat, vegeta-
+   57 | for this work.                                         bles, cheese, fruits, and cereal flours. Initial complementary foods include rice cereal and
+
+--- lines 54-58 ---
+   54 | Information files.
+   55 |                                                            Physiological changes occurring in infants during the first six months enable them to tran-
+   56 | Funding: The authors received no specific funding      sition from a solely liquid diet to solid foods, mainly comprising homogenized meat, vegeta-
+   57 | for this work.                                         bles, cheese, fruits, and cereal flours. Initial complementary foods include rice cereal and
+   58 | Competing interests: The authors have declared         cereal cream, followed by the introduction of fruits and vegetables between 6 and 8 months.
+
+--- lines 55-59 ---
+   55 |                                                            Physiological changes occurring in infants during the first six months enable them to tran-
+   56 | Funding: The authors received no specific funding      sition from a solely liquid diet to solid foods, mainly comprising homogenized meat, vegeta-
+   57 | for this work.                                         bles, cheese, fruits, and cereal flours. Initial complementary foods include rice cereal and
+   58 | Competing interests: The authors have declared         cereal cream, followed by the introduction of fruits and vegetables between 6 and 8 months.
+   59 | that no competing interests exist.                     By 8 to 12 months, soft meat can also be introduced, highlighting the significance of assessing
+
+--- lines 56-60 ---
+   56 | Funding: The authors received no specific funding      sition from a solely liquid diet to solid foods, mainly comprising homogenized meat, vegeta-
+   57 | for this work.                                         bles, cheese, fruits, and cereal flours. Initial complementary foods include rice cereal and
+   58 | Competing interests: The authors have declared         cereal cream, followed by the introduction of fruits and vegetables between 6 and 8 months.
+   59 | that no competing interests exist.                     By 8 to 12 months, soft meat can also be introduced, highlighting the significance of assessing
+   60 | 
+
+--- lines 57-61 ---
+   57 | for this work.                                         bles, cheese, fruits, and cereal flours. Initial complementary foods include rice cereal and
+   58 | Competing interests: The authors have declared         cereal cream, followed by the introduction of fruits and vegetables between 6 and 8 months.
+   59 | that no competing interests exist.                     By 8 to 12 months, soft meat can also be introduced, highlighting the significance of assessing
+   60 | 
+   61 | 
+
+--- lines 61-65 ---
+   61 | 
+   62 | 
+   63 | PLOS ONE | https://doi.org/10.1371/journal.pone.0297158 February 22, 2024                                                                                 1 / 14
+   64 | PLOS ONE                                                                                  Chemical characterization of baby food consumed in Italy
+   65 | 
+
+--- lines 62-66 ---
+   62 | 
+   63 | PLOS ONE | https://doi.org/10.1371/journal.pone.0297158 February 22, 2024                                                                                 1 / 14
+   64 | PLOS ONE                                                                                  Chemical characterization of baby food consumed in Italy
+   65 | 
+   66 | 
+
+--- lines 66-70 ---
+   66 | 
+   67 | 
+   68 |                                            adequate nutrient intake and identifying potential contaminants during this developmental
+   69 |                                            stage.
+   70 |                                                The presence of elements considered toxic (As, Cd, Hg, Pb, Sb) in the ecosystem, exacer-
+
+--- lines 68-72 ---
+   68 |                                            adequate nutrient intake and identifying potential contaminants during this developmental
+   69 |                                            stage.
+   70 |                                                The presence of elements considered toxic (As, Cd, Hg, Pb, Sb) in the ecosystem, exacer-
+   71 |                                            bated by anthropogenic activities in recent decades [4, 5], raises concerns about environmental
+   72 |                                            and food contamination. As food serves as the primary route of internal contamination, ensur-
+
+--- lines 69-73 ---
+   69 |                                            stage.
+   70 |                                                The presence of elements considered toxic (As, Cd, Hg, Pb, Sb) in the ecosystem, exacer-
+   71 |                                            bated by anthropogenic activities in recent decades [4, 5], raises concerns about environmental
+   72 |                                            and food contamination. As food serves as the primary route of internal contamination, ensur-
+   73 |                                            ing the quality control of food contaminants becomes crucial, particularly for sensitive groups
+
+--- lines 70-74 ---
+   70 |                                                The presence of elements considered toxic (As, Cd, Hg, Pb, Sb) in the ecosystem, exacer-
+   71 |                                            bated by anthropogenic activities in recent decades [4, 5], raises concerns about environmental
+   72 |                                            and food contamination. As food serves as the primary route of internal contamination, ensur-
+   73 |                                            ing the quality control of food contaminants becomes crucial, particularly for sensitive groups
+   74 |                                            like children [6, 7]. Rapid development of children’s nervous, reproductive, digestive, and
+
+--- lines 71-75 ---
+   71 |                                            bated by anthropogenic activities in recent decades [4, 5], raises concerns about environmental
+   72 |                                            and food contamination. As food serves as the primary route of internal contamination, ensur-
+   73 |                                            ing the quality control of food contaminants becomes crucial, particularly for sensitive groups
+   74 |                                            like children [6, 7]. Rapid development of children’s nervous, reproductive, digestive, and
+   75 |                                            respiratory systems makes them more susceptible to potential risks from toxic elements, neces-
+
+--- lines 73-77 ---
+   73 |                                            ing the quality control of food contaminants becomes crucial, particularly for sensitive groups
+   74 |                                            like children [6, 7]. Rapid development of children’s nervous, reproductive, digestive, and
+   75 |                                            respiratory systems makes them more susceptible to potential risks from toxic elements, neces-
+   76 |                                            sitating careful monitoring [8–12].
+   77 |                                                Essential elements’ adequate intake is crucial for optimal bodily functions, as their defi-
+
+--- lines 74-78 ---
+   74 |                                            like children [6, 7]. Rapid development of children’s nervous, reproductive, digestive, and
+   75 |                                            respiratory systems makes them more susceptible to potential risks from toxic elements, neces-
+   76 |                                            sitating careful monitoring [8–12].
+   77 |                                                Essential elements’ adequate intake is crucial for optimal bodily functions, as their defi-
+   78 |                                            ciency can impact vital functions, while excessive intake over prolonged periods can lead to
+
+--- lines 75-79 ---
+   75 |                                            respiratory systems makes them more susceptible to potential risks from toxic elements, neces-
+   76 |                                            sitating careful monitoring [8–12].
+   77 |                                                Essential elements’ adequate intake is crucial for optimal bodily functions, as their defi-
+   78 |                                            ciency can impact vital functions, while excessive intake over prolonged periods can lead to
+   79 |                                            adverse effects [13]. Essential metals like Fe, Co, Cu, Mn, and Zn, although necessary, may
+
+--- lines 76-80 ---
+   76 |                                            sitating careful monitoring [8–12].
+   77 |                                                Essential elements’ adequate intake is crucial for optimal bodily functions, as their defi-
+   78 |                                            ciency can impact vital functions, while excessive intake over prolonged periods can lead to
+   79 |                                            adverse effects [13]. Essential metals like Fe, Co, Cu, Mn, and Zn, although necessary, may
+   80 |                                            exhibit toxic properties at higher concentrations [14], affecting enzyme metabolism and influ-
+
+--- lines 77-81 ---
+   77 |                                                Essential elements’ adequate intake is crucial for optimal bodily functions, as their defi-
+   78 |                                            ciency can impact vital functions, while excessive intake over prolonged periods can lead to
+   79 |                                            adverse effects [13]. Essential metals like Fe, Co, Cu, Mn, and Zn, although necessary, may
+   80 |                                            exhibit toxic properties at higher concentrations [14], affecting enzyme metabolism and influ-
+   81 |                                            encing susceptibility to various viral infections [4]. While essential, chromium (Cr) can exist
+
+--- lines 78-82 ---
+   78 |                                            ciency can impact vital functions, while excessive intake over prolonged periods can lead to
+   79 |                                            adverse effects [13]. Essential metals like Fe, Co, Cu, Mn, and Zn, although necessary, may
+   80 |                                            exhibit toxic properties at higher concentrations [14], affecting enzyme metabolism and influ-
+   81 |                                            encing susceptibility to various viral infections [4]. While essential, chromium (Cr) can exist
+   82 |                                            in carcinogenic hexavalent forms [15], potentially affecting overall health.
+
+--- lines 79-83 ---
+   79 |                                            adverse effects [13]. Essential metals like Fe, Co, Cu, Mn, and Zn, although necessary, may
+   80 |                                            exhibit toxic properties at higher concentrations [14], affecting enzyme metabolism and influ-
+   81 |                                            encing susceptibility to various viral infections [4]. While essential, chromium (Cr) can exist
+   82 |                                            in carcinogenic hexavalent forms [15], potentially affecting overall health.
+   83 |                                                The presence of contaminants in baby food poses health risks, especially considering the
+
+--- lines 80-84 ---
+   80 |                                            exhibit toxic properties at higher concentrations [14], affecting enzyme metabolism and influ-
+   81 |                                            encing susceptibility to various viral infections [4]. While essential, chromium (Cr) can exist
+   82 |                                            in carcinogenic hexavalent forms [15], potentially affecting overall health.
+   83 |                                                The presence of contaminants in baby food poses health risks, especially considering the
+   84 |                                            rapid organ development during the first year of life, categorized into functional systems [2].
+
+--- lines 81-85 ---
+   81 |                                            encing susceptibility to various viral infections [4]. While essential, chromium (Cr) can exist
+   82 |                                            in carcinogenic hexavalent forms [15], potentially affecting overall health.
+   83 |                                                The presence of contaminants in baby food poses health risks, especially considering the
+   84 |                                            rapid organ development during the first year of life, categorized into functional systems [2].
+   85 |                                            Infants, being the most vulnerable group, are highly sensitive to exposure due to increased
+
+--- lines 82-86 ---
+   82 |                                            in carcinogenic hexavalent forms [15], potentially affecting overall health.
+   83 |                                                The presence of contaminants in baby food poses health risks, especially considering the
+   84 |                                            rapid organ development during the first year of life, categorized into functional systems [2].
+   85 |                                            Infants, being the most vulnerable group, are highly sensitive to exposure due to increased
+   86 |                                            intestinal absorption and lower thresholds for adverse effects. Hence, determining the concen-
+
+--- lines 84-88 ---
+   84 |                                            rapid organ development during the first year of life, categorized into functional systems [2].
+   85 |                                            Infants, being the most vulnerable group, are highly sensitive to exposure due to increased
+   86 |                                            intestinal absorption and lower thresholds for adverse effects. Hence, determining the concen-
+   87 |                                            tration of significant toxic elements in the common diet becomes crucial to assess infants’
+   88 |                                            exposure and levels of essential macro and micronutrients necessary for optimum growth.
+
+--- lines 85-89 ---
+   85 |                                            Infants, being the most vulnerable group, are highly sensitive to exposure due to increased
+   86 |                                            intestinal absorption and lower thresholds for adverse effects. Hence, determining the concen-
+   87 |                                            tration of significant toxic elements in the common diet becomes crucial to assess infants’
+   88 |                                            exposure and levels of essential macro and micronutrients necessary for optimum growth.
+   89 |                                                This study conducted measurements to determine the levels of 30 elements, categorized
+
+--- lines 86-90 ---
+   86 |                                            intestinal absorption and lower thresholds for adverse effects. Hence, determining the concen-
+   87 |                                            tration of significant toxic elements in the common diet becomes crucial to assess infants’
+   88 |                                            exposure and levels of essential macro and micronutrients necessary for optimum growth.
+   89 |                                                This study conducted measurements to determine the levels of 30 elements, categorized
+   90 |                                            into essential, major (K, Ca, Mg, P, S), minor or trace (Mn, Fe, Cu, Zn, Co, Cr, and Si), and
+
+--- lines 88-92 ---
+   88 |                                            exposure and levels of essential macro and micronutrients necessary for optimum growth.
+   89 |                                                This study conducted measurements to determine the levels of 30 elements, categorized
+   90 |                                            into essential, major (K, Ca, Mg, P, S), minor or trace (Mn, Fe, Cu, Zn, Co, Cr, and Si), and
+   91 |                                            non-essential or toxic (Al, Ba, Rb, Sr, As, Cd, Sn, Ce, La, Tl, Te, Ti, Th, U, Hg, Sb, Ni, and Pb)
+   92 |                                            in various baby foods available in large-scale retail trade in Italy. The study aimed to: a) assess
+
+--- lines 89-93 ---
+   89 |                                                This study conducted measurements to determine the levels of 30 elements, categorized
+   90 |                                            into essential, major (K, Ca, Mg, P, S), minor or trace (Mn, Fe, Cu, Zn, Co, Cr, and Si), and
+   91 |                                            non-essential or toxic (Al, Ba, Rb, Sr, As, Cd, Sn, Ce, La, Tl, Te, Ti, Th, U, Hg, Sb, Ni, and Pb)
+   92 |                                            in various baby foods available in large-scale retail trade in Italy. The study aimed to: a) assess
+   93 |                                            the suitability of the 25 analyzed baby foods for infant consumption by estimating the intake of
+
+--- lines 90-94 ---
+   90 |                                            into essential, major (K, Ca, Mg, P, S), minor or trace (Mn, Fe, Cu, Zn, Co, Cr, and Si), and
+   91 |                                            non-essential or toxic (Al, Ba, Rb, Sr, As, Cd, Sn, Ce, La, Tl, Te, Ti, Th, U, Hg, Sb, Ni, and Pb)
+   92 |                                            in various baby foods available in large-scale retail trade in Italy. The study aimed to: a) assess
+   93 |                                            the suitability of the 25 analyzed baby foods for infant consumption by estimating the intake of
+   94 |                                            toxic elements and comparing it with safety limits set by the Joint FAO/WHO Expert Commit-
+
+--- lines 91-95 ---
+   91 |                                            non-essential or toxic (Al, Ba, Rb, Sr, As, Cd, Sn, Ce, La, Tl, Te, Ti, Th, U, Hg, Sb, Ni, and Pb)
+   92 |                                            in various baby foods available in large-scale retail trade in Italy. The study aimed to: a) assess
+   93 |                                            the suitability of the 25 analyzed baby foods for infant consumption by estimating the intake of
+   94 |                                            toxic elements and comparing it with safety limits set by the Joint FAO/WHO Expert Commit-
+   95 |                                            tee on Food Additives (JECFA) [16–20]; b) evaluate the benefits of baby food consumption by
+
+--- lines 93-97 ---
+   93 |                                            the suitability of the 25 analyzed baby foods for infant consumption by estimating the intake of
+   94 |                                            toxic elements and comparing it with safety limits set by the Joint FAO/WHO Expert Commit-
+   95 |                                            tee on Food Additives (JECFA) [16–20]; b) evaluate the benefits of baby food consumption by
+   96 |                                            assessing the intake of essential elements and comparing it with nutritional requirements
+   97 |                                            established by EFSA’s Population Reference Intake (PRI) and Adequate Intake (AI) [21]; c)
+
+--- lines 94-98 ---
+   94 |                                            toxic elements and comparing it with safety limits set by the Joint FAO/WHO Expert Commit-
+   95 |                                            tee on Food Additives (JECFA) [16–20]; b) evaluate the benefits of baby food consumption by
+   96 |                                            assessing the intake of essential elements and comparing it with nutritional requirements
+   97 |                                            established by EFSA’s Population Reference Intake (PRI) and Adequate Intake (AI) [21]; c)
+   98 |                                            build upon previous research by the authors on overall dietary patterns [4, 5, 22] and specifi-
+
+--- lines 96-100 ---
+   96 |                                            assessing the intake of essential elements and comparing it with nutritional requirements
+   97 |                                            established by EFSA’s Population Reference Intake (PRI) and Adequate Intake (AI) [21]; c)
+   98 |                                            build upon previous research by the authors on overall dietary patterns [4, 5, 22] and specifi-
+   99 |                                            cally infant diet [23].
+  100 | 
+
+--- lines 97-101 ---
+   97 |                                            established by EFSA’s Population Reference Intake (PRI) and Adequate Intake (AI) [21]; c)
+   98 |                                            build upon previous research by the authors on overall dietary patterns [4, 5, 22] and specifi-
+   99 |                                            cally infant diet [23].
+  100 | 
+  101 |                                            Materials and methods
+
+--- lines 99-103 ---
+   99 |                                            cally infant diet [23].
+  100 | 
+  101 |                                            Materials and methods
+  102 |                                            Sampling and sample preparation
+  103 |                                            These samples were purchased from major supermarket chains. Some of them indicated the
+
+--- lines 102-106 ---
+  102 |                                            Sampling and sample preparation
+  103 |                                            These samples were purchased from major supermarket chains. Some of them indicated the
+  104 |                                            manufacturing country (Italy, Germany, Spain, Holland, Switzerland), while others were
+  105 |                                            labeled only as ’produced in the E.U.’ (Table 1). The food items were categorized into three
+  106 |                                            groups: cream of rice [13], homogenized (3 fruits, 3 fish, 4 meat, 2 baby cheese), and powdered
+
+--- lines 104-108 ---
+  104 |                                            manufacturing country (Italy, Germany, Spain, Holland, Switzerland), while others were
+  105 |                                            labeled only as ’produced in the E.U.’ (Table 1). The food items were categorized into three
+  106 |                                            groups: cream of rice [13], homogenized (3 fruits, 3 fish, 4 meat, 2 baby cheese), and powdered
+  107 |                                            milk [14], which serves as the primary food for infants in the first 6 months, substituting
+  108 |                                            human breast milk. Regarding the homogenized samples, approximately 100 g was frozen at
+
+--- lines 105-109 ---
+  105 |                                            labeled only as ’produced in the E.U.’ (Table 1). The food items were categorized into three
+  106 |                                            groups: cream of rice [13], homogenized (3 fruits, 3 fish, 4 meat, 2 baby cheese), and powdered
+  107 |                                            milk [14], which serves as the primary food for infants in the first 6 months, substituting
+  108 |                                            human breast milk. Regarding the homogenized samples, approximately 100 g was frozen at
+  109 |                                            -20˚C for 12 hours and then freeze-dried for 24 hours using the EDWARDS dryer module.
+
+--- lines 106-110 ---
+  106 |                                            groups: cream of rice [13], homogenized (3 fruits, 3 fish, 4 meat, 2 baby cheese), and powdered
+  107 |                                            milk [14], which serves as the primary food for infants in the first 6 months, substituting
+  108 |                                            human breast milk. Regarding the homogenized samples, approximately 100 g was frozen at
+  109 |                                            -20˚C for 12 hours and then freeze-dried for 24 hours using the EDWARDS dryer module.
+  110 |                                            The dehydrated samples were weighed, and the average ratio percent between dry and wet
+
+--- lines 111-115 ---
+  111 |                                            weight (dw/ww) was 18.3 ± 3.30%.
+  112 | 
+  113 |                                            Elemental analysis
+  114 |                                               Sample dissolution. The sample dissolution was conducted in accordance with EPA
+  115 |                                            3050B 1996 method [24]. A dry weight sample of 1–1.5 g was digested in a mixture of 3 ml
+
+--- lines 117-121 ---
+  117 | 
+  118 | 
+  119 | PLOS ONE | https://doi.org/10.1371/journal.pone.0297158 February 22, 2024                                                                   2 / 14
+  120 | PLOS ONE                                                                                            Chemical characterization of baby food consumed in Italy
+  121 | 
+
+--- lines 118-122 ---
+  118 | 
+  119 | PLOS ONE | https://doi.org/10.1371/journal.pone.0297158 February 22, 2024                                                                   2 / 14
+  120 | PLOS ONE                                                                                            Chemical characterization of baby food consumed in Italy
+  121 | 
+  122 | 
+
+--- lines 122-126 ---
+  122 | 
+  123 | 
+  124 | Table 1. Baby food analysed, manufacturing country and, for powdered milk, metals concentration (mg kg-1) reported in the labels by manufactures, mean and
+  125 | standard deviation (SD).
+  126 |          Food                Identification         Manufacturing Country      K          Ca        Mg          P         Fe       Cu        Zn        Mn
+
+--- lines 126-130 ---
+  126 |          Food                Identification         Manufacturing Country      K          Ca        Mg          P         Fe       Cu        Zn        Mn
+  127 |                                Number
+  128 |      Powder milk                    1                       Italy            4440        4810       330       3330        60       2.9       31       0.85
+  129 |                                     2                     Germany            6960        4210       490       3260        32       2.8       38       0.96
+  130 |                                     4                     Germany            5000        4800       460       3200        49       2.5       43       0.59
+
+--- lines 130-134 ---
+  130 |                                     4                     Germany            5000        4800       460       3200        49       2.5       43       0.59
+  131 |                                     5                    Switzerland         4800        4500       400       3000        59       2.9       59       0.30
+  132 |                                     6                  European Union        4779        3382       375       1912        39       2.9       37       0.55
+  133 |                                     7                  European Union        4779        3382       375       1912        39       2.9       37       0.55
+  134 |                                     8                     Germany            5300        5050       450       2850        46       3.0       51       0.51
+
+--- lines 131-135 ---
+  131 |                                     5                    Switzerland         4800        4500       400       3000        59       2.9       59       0.30
+  132 |                                     6                  European Union        4779        3382       375       1912        39       2.9       37       0.55
+  133 |                                     7                  European Union        4779        3382       375       1912        39       2.9       37       0.55
+  134 |                                     8                     Germany            5300        5050       450       2850        46       3.0       51       0.51
+  135 |                                     9                     Germany            5850        4300       400       2400        46       2.9       52       0.51
+
+--- lines 135-139 ---
+  135 |                                     9                     Germany            5850        4300       400       2400        46       2.9       52       0.51
+  136 |                                    10                      Holland           5250        3300       440       1830        52       4.0       54       1.36
+  137 |                                   Mean                                       5480        3480       340       2460        60       3.0       30       0.33
+  138 |                                    SD                                        5264        4122       406       2615        48       3.0       43       0.65
+  139 |   Homogenized food
+
+--- lines 137-141 ---
+  137 |                                   Mean                                       5480        3480       340       2460        60       3.0       30       0.33
+  138 |                                    SD                                        5264        4122       406       2615        48       3.0       43       0.65
+  139 |   Homogenized food
+  140 |          rabbit                    11                  European Union
+  141 |          lamb                      12                  European Union
+
+--- lines 138-142 ---
+  138 |                                    SD                                        5264        4122       406       2615        48       3.0       43       0.65
+  139 |   Homogenized food
+  140 |          rabbit                    11                  European Union
+  141 |          lamb                      12                  European Union
+  142 |         turkey                     13                       Spain

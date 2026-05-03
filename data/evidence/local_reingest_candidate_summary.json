@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-05-03T22:08:39.291Z",
+  "product_filter": "infant-formula-powder-non-soy",
+  "source_count": 15,
+  "deterministic_candidate_value_count": 118,
+  "source_task_count": 12,
+  "by_source": {
+    "almeida2022-brazil-infant-formula-toxic-metals": 60,
+    "chung2021-china-infant-formula-toxic-elements": 4,
+    "fsa2016-infant-food-formula-metals-survey": 54
+  },
+  "by_metal": {
+    "Al": 16,
+    "tAs": 17,
+    "Cd": 17,
+    "Sn": 16,
+    "tHg": 16,
+    "Pb": 17,
+    "Cr-total": 7,
+    "iAs": 6,
+    "Ni": 6
+  },
+  "by_extraction_method": {
+    "deterministic_parser_almeida2022_table3_formula_means": 60,
+    "deterministic_parser_chung2021_table4_total": 4,
+    "deterministic_parser_fsa2016_table2_dry_formula": 54
+  }
+}

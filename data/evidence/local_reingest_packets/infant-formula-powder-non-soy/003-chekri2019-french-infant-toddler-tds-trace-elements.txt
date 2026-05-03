@@ -1,0 +1,1797 @@
+Version of Record: https://www.sciencedirect.com/science/article/pii/S0889157518301868
+Manuscript_a853b2b16a0f4a192ae08dd09c447d32
+
+
+Trace element contents in foods from the first French Total Diet Study
+
+                                     on infants and toddlers
+
+
+
+Rachida Chekria*, Emilie Le Calvezb, Julie Zincka, Jean-Charles Leblanca, Véronique Sirotc,
+
+Marion Hulinc, Laurent Noëld, Thierry Guérina
+
+
+
+a: Université Paris-Est, ANSES, Laboratory for Food Safety, F-94701 Maisons-Alfort, France.
+
+b: Cofrac, F-75012 Paris, France.
+
+c: ANSES, Risk Assessment Department, F-94701 Maisons-Alfort, France.
+
+d: The French Directorate General for Food, Ministry of Agriculture, Agro-16 Food and Forestry, F-
+
+75732 Paris, France.
+
+
+
+
+*Corresponding author. Tel.: + 33 1 49 77 26 21;
+
+
+E-mail address: rachida.chekri@anses.fr (R. CHEKRI).
+
+
+
+
+                                                                                                  1
+© 2019 published by Elsevier. This manuscript is made available under the Elsevier user license
+https://www.elsevier.com/open-access/userlicense/1.0/
+ABSTRACT
+
+
+Occurrence data for aluminium, antimony, arsenic, barium, cadmium, chrome, cobalt, gallium,
+
+germanium, nickel, strontium, silver, tellurium, tin and vanadium were compiled during the first
+
+French Total Diet Study on infants and toddlers. For infant foods, meat-/fish-based and vegetable-
+
+based ready-to-eat meals were among the most contaminated food categories for most trace
+
+elements, except for gallium, antimony and vanadium, for which the concentrations were relatively
+
+similar in all food categories. Soups/purees and cereal-based foods had the highest levels of
+
+aluminium (653 and 630 µg kg-1, respectively), whereas fruit purees had the highest level of tin
+
+(424 µg kg-1). Infant and follow-on formulae and growing-up milks had relatively low mean
+
+contents of trace elements compared with the other infant food categories: e.g. aluminium (220 µg
+
+kg-1), arsenic (1.80 µg kg-1), cadmium (0.51 µg kg-1). Chocolate-based foods contributed
+
+substantially to the higher levels of aluminium, cadmium, cobalt, chromium and nickel in sweet and
+
+savoury biscuits and bars, dairy-based desserts and croissant-like pastries. Only the contribution of
+
+chromium and barium levels were statistically different between infant and common foods, with
+
+median concentrations being slightly higher in infant foods. The results were largely comparable to
+
+those from other surveys on baby food.
+
+
+
+
+Keywords: Trace elements; ICP-MS; occurrence data; total diet study; infants and toddlers; food
+
+analysis; food composition
+
+
+
+
+                                                                                                   2
+1. Introduction
+
+Adequate feeding during early childhood is essential for ensuring healthy growth and development.
+
+A varied diet can satisfy physiological needs and nutritional requirements, but can also potentially
+
+pose health risks due to the higher vulnerability of infants and toddlers. During the first months of
+
+life, breast milk is recommended as the most suitable food. However, according to the World Health
+
+Organization (WHO), it is estimated that, worldwide, only 34.8% of infants are exclusively
+
+breastfed for the first 6 months of their life, the majority consuming infant formula in their early
+
+months (WHO, 2009). In France, 23% of infants are still breastfed at 6 months old and less than 2%
+
+are exclusively or predominantly breastfeed (INVS, 2016) at the same age. Moreover, various foods
+
+are gradually introduced at a few months of age. The composition of foods, their raw ingredients,
+
+the manufacturing process, the cooking methods, etc. are all sources that can lead to the
+
+accumulation of certain chemicals, including trace metals, in baby foods, thus altering their quality.
+
+Some trace elements play significant roles in numerous biological functions. Cobalt is one of the
+
+components of the B12 vitamin, related to brain activity and the nervous system (Pedron et al.,
+
+2016). Vanadium is associated with glucose metabolism and with improving insulin receptivity
+
+(Lopez-Garcia et al., 2009). On the other hand, some trace elements (e.g., aluminium, arsenic, etc.)
+
+are food contaminants with cumulative properties, and are considered ‘potentially’ toxic. Moreover,
+
+renal immaturity and greater intestinal absorption in children under 12 months of age make infants
+
+and toddlers more vulnerable to trace elements (Ikem et al., 2002; Kazi et al., 2010). Widely used in
+
+many countries, the Total Diet Study (TDS) is one of the methods recommended by the WHO
+
+(WHO, 2006a) for risk assessment. It provides realistic exposure data, because foods are analysed
+
+‘as consumed by the consumer’, thus facilitating international comparisons of consumer exposure
+
+owing to a standardised methodology. However, TDSs are usually carried out on the general
+
+population including adults and children, and much less frequently on infants and toddlers.
+
+Consequently, there are few data on this specific population. The UK conducted a TDS involving
+
+                                                                                                    3
+young children (1.5 - 4.5 years) and adults (Rose et al., 2010), but the occurrence data were not
+
+specifically attributed to infant or adult foods.
+
+Moreover, the range of foods is constantly growing and changing for the general populations and
+
+for infants, and infant diets are particularly composed of a more restricted range of foods, which can
+
+lead to specific dietary exposure. Therefore, collecting contamination data and periodical food
+
+monitoring for nutritional and toxicological purposes is important for this young population. Thus,
+
+in 2011, the French Agency for Food, Environmental and Occupational Health & Safety (ANSES)
+
+undertook the first TDS on infants (from 0 to 12 months old) and toddlers (from 12 months up to 3
+
+years old) to estimate their dietary exposure to food chemicals, including essential and non-essential
+
+elements (Hulin et al., 2014).
+
+The aim of this study was to determine the contamination levels of several trace elements
+
+(aluminium, antimony, arsenic, barium, cadmium, chromium, cobalt, gallium, germanium, nickel,
+
+strontium, silver, tellurium, tin and vanadium) in 291 infant foods and common foods representative
+
+of the diet of non-breastfed children during their first three years. The inorganic elements were
+
+monitored using a fully validated in-house ISO 17025-accredited method based on microwave
+
+digestion and inductively coupled plasma-mass spectrometry (ICP-MS) determination. The
+
+analytical methods used have already been described in detail (Chevallier et al., 2015; Guérin et al.,
+
+2017, 2018). The separate contribution of common and infant foods to the total average elemental
+
+concentrations is given. We also compared our occurrence data with those from other international
+
+studies.
+
+
+
+2. Materials and methods
+
+2.1 Sample collection and preparation
+
+The establishment of the sampling plan and the preparation of food samples have been described
+
+elsewhere (Hulin et al., 2014). Briefly, the food list was set according to the survey on food
+
+consumption in children under three years of age conducted by the Syndicat Français des Aliments
+
+                                                                                                    4
+de l’Enfance et de la Nutrition Clinique, © Etude SOFRES 2005/Université de Bourgogne – Pr M.
+
+Fantino pour le Syndicat Français des Aliments de l’Enfance and described in (Fantino and
+
+Gourmet, 2008). The list was based on two main criteria: the most consumed food in terms of
+
+quantity and/or percentage of consumers and the foods that are known or supposed to be the main
+
+contributors to the exposure to one or more substances of interest. For trace elements, 291 food
+
+samples were defined, including 219 infant foods and 71 common foods or bottled water and one
+
+sample of reference water. The whole list, covering 89.5 to 99.5% of the diet depending on the age
+
+class, is available in (Hulin et al., 2014). Foods were sampled in the region of Clermont-Ferrand
+
+(central France) and prepared as consumed by the same operator (i.e. peeled, cooked using tap
+
+water, etc. to be ‘ready to consume’) based on the result of a national study on parents’ food
+
+preparation/cooking practices carried out by ANSES (Hulin et al., 2014). Therefore, the foods ‘as
+
+sold’ that were not ready to consume were cooked (i.e. pasta, fish) and all the sampled foods were
+
+analysed ‘as consumed’. To take into account any potential seasonal variability, 12 subsamples of
+
+equal weight (80 to 400 g) of the same food were bought every month for one year, frozen and then
+
+pooled together by cryogrinding at the end of the sampling period, and put in containers for
+
+analysis. The sample of ‘reference water’ (a specific brand of mineral water, the most used by
+
+parents, conditioned in a glass bottle) was used in food preparation for foods that must be diluted
+
+(mainly infant and follow-on formulae). Products were diluted according to manufacturers’
+
+indications. Therefore, results are expressed for ready-to-eat products and include the trace element
+
+contents in the powdered formula and the reference water used for the reconstitution of the product
+
+as consumed. To evaluate trace element contents in the reference water, a specific sample composed
+
+of every batch of the bottle used was analysed. These individual composite samples (n=291),
+
+representative of French infant food habits, were categorised into a total of 36 food categories (11
+
+food categories containing only infant foods and 25 food categories of common foods) for analysis
+
+and listed in supplementary material Table SM-1.
+
+
+
+                                                                                                   5
+2.2 Reagents and gases
+
+All solutions were prepared with analytical reagent-grade chemicals and ultra-pure water (18 MΩ-
+
+cm) generated by purifying distilled water with a Milli-QTM PLUS system associated with an Elix
+
+5 water purification system (Millipore S.A., St Quentin en Yvelines, France).
+
+For nitric acid, Suprapur HNO3 (67% v/v) was purchased from VWR (Fontenay sous Bois, France).
+
+The standard solutions of analytes for the calibration procedure were prepared by diluting standard
+
+stock solutions of 1000 mg L-1 of each element purchased from Analytika (Prague, Czech
+
+Republic). Working standards were prepared daily in 6% (v/v) HNO3 and were used without further
+
+purification. For internal standard solutions, 1000 mg L-1 standard stock solutions of scandium,
+
+yttrium and rhenium were purchased from Analytika. Regarding certified reference materials
+
+(CRM), TORT-2 (Lobster hepatopancreas) and DOLT-4 (Dogfish liver) from the National Research
+
+Council Canada and SRM 1548a (Typical diet) from the National Institute of Standards and
+
+Technology were purchased from Courtage Analyses Services (Mont Saint Aignan, France) and
+
+from LGC Standards (Molsheim, France). Ultrapure grade carrier (99.9995% pure argon and
+
+helium) was supplied by Linde (Montereau, France).
+
+
+
+2.3 Sample digestion and ICP-MS analysis of samples
+
+The analyses were carried out using an ICP-MS with a 7700x (Agilent Technologies, Courtaboeuf,
+
+France), equipped with a third-generation octopole reaction system (ORS3) using helium as the
+
+collision gas. Further details of the instrument settings are given in Table 1. This method has been
+
+described elsewhere (Chevallier et al., 2015). Briefly, 0.2 to 2 g of sample was weighed precisely in
+
+a quartz digestion vessel and then wet-oxidised with a mixture of 3 mL of ultra-pure water and 3
+
+mL of ultra-pure HNO3 (67% v/v) in a closed microwave digestion system Multiwave 3000 (Anton-
+
+Paar, Courtaboeuf, France). After cooling to room temperature, the digested samples were
+
+transferred into 50 mL polyethylene tubes to which a solution of a mixture of internal standards
+
+(yttrium, scandium and rhenium) at 2 µg L-1 and ultrapure water were added to the final volume
+
+                                                                                                   6
+before analysis using ICP-MS. One randomly selected vessel was filled with reagents only and
+
+taken through the entire procedure as a blank.
+
+
+
+2.4 Quality control
+
+Several internal quality controls (IQCs) and associated criteria were used to ensure the reliability of
+
+the results. Each run included a standard calibration, three blanks, three CRMs, two different spiked
+
+sample solutions, 33 food samples including 2 samples analysed in duplicate and a mid-range
+
+standard analysed for every eight samples and at the end of the sequence. The set criteria were as
+
+follows: calibration (r² > 0.995), blanks (values < limit of quantification (LOQ)), internal standards
+
+(values within 70 and 130% of the target value), mid-range standards (values within 80 and 120%
+
+of the target value), spiked standard solutions (spike recovery within 70 and 130% of the theoretical
+
+spiked standard value), CRMs (Z-score < ± 2) and duplicates (acceptable if the relative standard
+
+deviation (RSD) ≤ 20% when mean value ≥ 5 x LOQ or RSD ≤ 40% when mean value ≥ LOQ and
+
+< 5 x LOQ). When acceptance criteria were not met, the results were discarded and the samples
+
+were re-analysed (Millour et al, 2010).
+
+To check trueness, three CRMs (TORT-2, DOLT-4 and SRM 1548a) were chosen to cover the
+
+maximum of elements of interest (12 out of 15) and were analysed every run throughout the study
+
+(10 runs in total), except for gallium, germanium and tellurium (no CRMs were available, but
+
+trueness of these elements was monitored using spiked test samples). The results of CRMs were
+
+corrected for moisture content. Each individual result, as well as the measured means, was
+
+compared to the confidence interval (CI) around the reference or indicative value calculated as:
+
+
+
+          CV * M 
+CI = M ± k * R   
+          100* n 
+
+with k=3, n=1 sample, M, the reference or indicative value of the CRM and CVR, the coefficient of
+
+variation of reproducibility estimated previously (Chevallier et al., 2015). All the results were
+
+within the CI (Table 2), except one value for silver in DOLT-4, the results related to this run were
+                                                                                                   7
+discarded and the samples were re-analysed. For gallium, germanium and tellurium, three different
+
+spiked standard solutions, covering the concentration range of the method (1 - 5 - 10 µg L-1) were
+
+included in random samples in the runs. The samples were spiked before digestion and underwent
+
+the complete analytical procedure. The analysis was carried out on the samples before and after
+
+spiking. All the results fell in the range of 70-130% of the target value (Table 3).
+
+
+
+2.5 Statistical analysis and data management
+
+The descriptive statistics including the arithmetical means, standard deviation (SD), minimum
+
+(min), maximum (max) of samples of food categories were calculated using Microsoft Excel 2010
+
+software. The management of left-censored (LC) data (results reported below the limit of detection
+
+(LOD) and/or LOQ) were managed by adapting the WHO recommendations (WHO, 2013), i.e. by
+
+using a lower-bound hypothesis (LB) and an upper-bound hypothesis (UB). Values lower than LOD
+
+were replaced by 0 under LB or by the LOD under UB, and values lower than the LOQ, but higher
+
+than the LOD were replaced by the LOD under LB or the LOQ under UB. Because mean LB and
+
+UB concentrations were generally quite similar or equal due to the low LOD/LOQ values in this
+
+study, we present and discuss the results according to the UB approach. The LB results are available
+
+in the supplementary material (Table SM-2). For each element, a mean value was calculated for
+
+infant foods and for common foods. Their sum represents 100% of the total element content in
+
+infant feeding. Then the percentage contribution (%) of each food type (i.e. infant foods and
+
+common foods) to the total element content was calculated. Moreover, we carried out statistical
+
+comparisons of the median element contamination values in infant and common foods and some of
+
+food categories. Given that the infant and common foods were composed of distinct food
+
+categories, that the sample populations were of different sizes and the non-normal distribution of
+
+the data, data analysis was performed using a non-parametric test on the median contamination
+
+values. Mann-Whitney and Kruskal-Wallis tests were applied for comparison of two or more
+
+
+
+                                                                                                  8
+groups, using StatGraphics Software Centurion XVI.I. purchased from Francestat (Neuilly-sur-
+
+Seine, France).
+
+
+
+All analytical results are reported in micrograms per kilogram on a fresh weight basis (f.w.) (foods
+
+as consumed).
+
+
+
+3. Results and Discussion
+
+Table 4 shows the limits of quantification and detection ((LOQ = 2 x LOD), based on 21 reagent
+
+blanks analysed in accordance with the NF EN 13804 standard (AFNOR, 2013)), as well as the
+
+percentage of detection and quantification of the investigated elements in the analysed samples. The
+
+mean concentrations and SD of the trace elements in the 36 food categories are given in Table 5.
+
+Depending on the element and the food category, SD can vary considerably, due to the composition
+
+of different food samples belonging to the same category. The results are discussed for each
+
+element separately and compared with those from other countries, when available. Considering that
+
+only two samples were quantified for tellurium (rice (2 µg kg-1) and baby cereal with vegetables
+
+(0.14 µg kg-1)), four samples for germanium (instant hot chocolate drink, baby cereal with biscuit
+
+and cocoa, baby cereal with vegetables and rice (0.041 - 0.072 - 0.072 - 1.00 µg kg-1, respectively))
+
+and no samples for silver on the 291 analysed food samples, these elements are not discussed
+
+below. No results for these elements have been reported in previous studies, except for silver which
+
+was not detected in a USA survey (Ikem et al., 2002) and similar low germanium levels (0.4 to 2 µg
+
+kg-1) were reported in a UK TDS (Rose et al., 2010).
+
+
+
+3.1 Aluminium
+
+Of the 291 food samples analysed, 85.9% had quantifiable aluminium levels and the mean levels
+
+ranged from 42 to 10,000 µg kg-1 for common foods and from 189 to 653 µg kg-1 for infant foods.
+
+The highest mean levels in common foods were observed in decreasing order in sweet and savoury
+
+                                                                                                   9
+biscuits and bars (10,000 µg kg-1; n=1 in dry chocolate biscuits), dairy-based desserts (5950 µg kg-1;
+
+n=2, with the highest level of 9350 µg kg-1 found in refrigerated chocolate mousse), croissant-like
+
+pastries (4300 µg kg-1; n=2, with the highest level of 6710 µg kg-1 found in chocolate croissants),
+
+and cheese (4220 µg kg-1; n=1). Among infant foods, the highest aluminium contents were found in
+
+soups/purees (653 µg kg-1; n=11) and cereal-based foods (630 µg kg-1; n=17). This latter category
+
+showed the highest aluminium levels due to two samples (of different brands) of biscuits for infants
+
+(3800 and 2580 µg kg-1) and two samples of baby cereal with biscuit and cocoa (1090 and 695 µg
+
+kg-1). Three food categories – fruit purees, meat-/fish-based ready-to-eat meals, and vegetable-based
+
+ready-to-eat meals – had comparable aluminium contents (556, 597 and 575 µg kg-1, respectively)
+
+(p>0.05). Particularly high contents were found in some green vegetable-based foods in the two
+
+ready-to-eat meal categories (e.g. 2590 µg kg-1 in a spinach and salmon meal and 2480 µg kg-1 in a
+
+spinach and pasta dinner). The other remaining food categories had aluminium levels ranging from
+
+189 µg kg-1 (growing-up milks) to 328 µg kg-1 (milk-based beverages). Mean aluminium levels in
+
+infant and follow-on formulae in this study (196 and 276 µg kg-1) were respectively similar and
+
+higher compared with those from a USA study in the same food categories (168 and 35 µg kg-1)
+
+(Ikem et al., 2002) which reported higher levels in soy-based powder formulae (460 µg kg-1) as in
+
+our study in a sample of a soy-based follow-on powder formula (713 µg kg-1). A Norwegian study
+
+(Melo et al., 2008) reported similar aluminium contents in fruit purees category (559 µg kg-1) and
+
+mean aluminium contents ranged from 350 to 1690 µg kg-1 in samples of ready-to-eat dinners
+
+(containing vegetables, meats, etc.). The results are comparable to or lower than those reported in
+
+the 2008 European Food Safety Authority scientific (EFSA) opinion (EFSA, 2008), which indicated
+
+that high aluminium mean levels (5000 to 10,000 µg kg-1) were often found in breads, cakes and
+
+pastries (with biscuits having the highest levels), some vegetables such as spinach, and
+
+manufactured foods, especially for those intended for infants. EFSA (2008) also reported that, in
+
+some brands of infant formula (both milk-based and soy-based), the aluminium content was around
+
+four times higher than the mean concentrations estimated above, which may lead to higher
+
+                                                                                                   10
+aluminium exposure in infants. Aluminium contamination can be attributed to the use of additives
+
+(EFSA, 2008) such as baking powder, firming agents and anti-caking agents in many food products
+
+(Yeh et al., 2016) and calcium salts and soy protein in some fortified infant formulae (Ikem et al.,
+
+2002). Moreover, the contamination through aluminium utensils, containers and manufacturing
+
+processes cannot be excluded (EFSA, 2008). In our study, cocoa-/chocolate-based foods contained
+
+high aluminium levels compared with other common and infant foods, which is probably related to
+
+the aluminium content in chocolate, as also reported previously (Stahl et al., 2011; Yeh et al., 2016).
+
+
+
+3.2 Antimony
+
+Of the 291 food samples analysed, antimony values were quantified in only 11.3% of them, (6.4%
+
+for infant foods and 26.3% for common foods). Antimony levels were quantified in individual
+
+samples at relatively low concentrations, from LOQ (1 µg kg-1) to 3 x LOQ (3 µg kg-1) for the
+
+infant foods, and ranged on average from 0.50 to 0.75 µg kg-1 in these foods. The highest mean
+
+levels were found in fruit juices, cereal-based foods and fruit purees (0.75, 0.72 and 0.65 µg kg-1,
+
+respectively), the other remaining food categories had mean contents ranging from 0.50 to 0.58 µg
+
+kg-1. For the common foods, mean antimony content was measured from 0.37 µg kg-1 to 6 x LOQ,
+
+with the highest mean levels found in sugar and sugar derivatives and cheese (6.00 and 5.00 µg kg-
+1
+, respectively). Only a few studies have reported data on antimony. Our results in infant/follow-on
+
+formulae and cereal-based foods categories, were respectively higher than and lower than values
+
+from Sweden (Ljung et al., 2011) (0.03 to 2.8 µg kg-1 in and infant formulae and infant cereal-based
+
+foods samples) and slightly lower than those from the USA (Ikem et al., 2002), where antimony
+
+levels ranged from ND to 14 µg kg-1 in milk-based first liquid formulae and soy-based powder
+
+formulae categories. Our results corroborate the report that antimony is present in foods, including
+
+vegetables, grown on antimony-contaminated soils, mostly in the low µg kg-1 wet weight range or
+
+less (WHO, 2003). This contamination can lead to a low dietary exposure. However, considering
+
+
+
+                                                                                                    11
+that antimony is a toxic element and in light of the lack of data, particularly on infant foods, it is
+
+important to collect occurrence data to obtain an associated risk assessment.
+
+
+
+3.3 Arsenic
+
+Arsenic was quantified in 44.3% of the 291 food samples analysed. Apart from a relatively high
+
+arsenic content measured in fish (2750 µg kg-1), the mean highest concentrations were found, as
+
+expected, in rice-/cereal-based and fish-based foods. The highest arsenic levels were found, in
+
+decreasing order, in rice and wheat products (common food) (30.0 µg kg-1), followed by meat-/fish-
+
+based ready-to-eat meals (infant food) (27.5 µg kg-1) and in the following common foods: bread and
+
+dried bread products (12.5 µg kg-1), mixed dishes (11.0 µg kg-1) and eggs and egg products (11.0 µg
+
+kg-1). In the meat-/fish-based ready-to-eat meal food category, the highest mean levels were found
+
+in salmon with sorrel and rice, hake and rice, vegetable and hake vegetable and tropical sole and
+
+carrots and cod (78, 95, 123, 216 and 411 µg kg-1, respectively). For the remaining food categories,
+
+mean concentrations were quite low and ranged from 0.49 µg kg-1 (hot beverages) to 8.50 µg kg-1
+
+(poultry and game) for the common foods and from 1.17 µg kg-1 (milk-based desserts) to 4.82 µg
+
+kg-1 (soups/purees) for the infant foods. The arsenic concentrations in the infant foods in this study
+
+(range 1.17 to 27.5 µg kg-1) were slightly higher (around 2-fold) than data from Brazil (Pedron et
+
+al., 2016) (ranging from 0.1 to 11.6 µg kg-1 in rice-based and non-rice-based baby food categories)
+
+and from the USA (Jackson et al., 2012) (ranging from 0.3 to 12.6 µg kg-1 in infant formulae and
+
+fruit/vegetable purees categories), but much lower than those reported from Spain (ranging from 49
+
+to 479 µg kg-1 in infant rice and pureed infant food samples and from 40 to 2610 µg kg-1 in fish-
+
+based baby food samples) (Burlo et al., 2012; Vinas et al., 1999). The highest contributors to
+
+arsenic contamination were rice-based and fish-based ready-to-eat-meal foods. However, risk
+
+assessment generally involves inorganic arsenic, which is the most toxic arsenic species and is
+
+classified as carcinogenic for humans (IARC, 2012). Consequently, infant foods showing the
+
+highest inorganic arsenic content should be taken into consideration for risk assessments.
+
+                                                                                                   12
+Rice/cereal-based products are known to contribute to inorganic arsenic content more than fish in
+
+which a non-toxic species – arsenobetaine – is dominant (Sirot et al., 2009). In fact, several studies
+
+have reported that non-rice-based infant foods contain less inorganic arsenic compared with rice-
+
+based foods (Carbonell-Barrachina et al., 2012; Meharg et al. 2008). An EFSA opinion also
+
+reported that rice-containing foods, cereal-based food for infants and young children (with rice) and
+
+ready-to-eat meals for children and cereal-based meals (with rice) have the highest mean inorganic
+
+arsenic contents (middle bound: MB=133.1 and 107.5 µg kg-1, respectively) and that the
+
+consumption of three portions (90 g day-1) of rice-based infant food represents a substantial source
+
+of inorganic arsenic. Thus, the elevated levels of total arsenic/inorganic arsenic in rice-based infant
+
+foods require special attention because, although they are not the most consumed foods, they can
+
+lead to high inorganic arsenic exposure (EFSA, 2014a). Another EFSA study (EFSA, 2009a)
+
+reported mean LB/UB arsenic levels of 149.6/157.5 µg kg-1 in rice-based infant foods versus 2.3/2.9
+
+µg kg-1 in infant and follow-on formulae without cereal products, and 33.2/50.7 µg kg-1 in cereal-
+
+based foods without rice. Finally, in 2015, the European Commission (Council of the European
+
+Union, 2015) established maximum levels (ML) of inorganic arsenic in rice and rice-based products
+
+(rice waffles, rice cakes, parboiled and husked rice, etc.) from 0.10 to 0.30 mg kg-1, depending on
+
+the product. A specific ML of 0.10 mg kg-1 was set for rice intended for the production of foods
+
+intended for infants and young children, but we could not compare our results with this value
+
+because MLs apply only to raw commodities.
+
+
+
+3.4 Barium
+
+Of the 291 food samples analysed, 87.6% had quantifiable barium levels. The mean concentration
+
+of barium found in this study ranged from 25.0 µg kg-1 in butter, sugars and sugar derivatives, meat
+
+and poultry and game to 1080 µg kg-1 in the sweet and savoury biscuits and bars. Mean barium
+
+levels were similar (p>0.05) and ranged from 417 to 615 µg kg-1 in the following food categories:
+
+bread and dried bread products, croissant-like pastries, dairy-based desserts, pasta, fruits and,
+
+                                                                                                    13
+finally, vegetables (excluding potatoes). In the latter two food categories, the highest levels were
+
+found in kiwi fruit (1096 µg kg-1) and in carrots (1116 µg kg-1), respectively. These high
+
+concentrations in kiwi and carrot are in accordance with previous studies (Hadayat et al., 2018;
+
+Millour et al., 2012). Among the infant foods, barium content ranged from 58.9 µg kg-1 in growing-
+
+up milk, to 337 µg kg-1 in vegetable-based ready-to-eat meals, with the highest mean level found in
+
+carrots: 1450 µg kg-1. The barium levels in fruit purees, soups/purees, meat-/fish-based ready-to-eat
+
+meals and fruit juices ranged from 184 to 317 µg kg-1, and in follow-on and infant formulae, milk-
+
+based desserts and cereal-based foods, they were similar (p>0.05) and ranged from 111 to 118 µg
+
+kg-1. Contamination of vegetables may occur via root uptake, which is influenced by environmental
+
+pollution and industrial and human activities. This occurrence in soil can lead to higher
+
+contamination of the food categories containing fruits and vegetables. In surveys conducted in the
+
+UK (Zand et al., 2012) and the USA (Ikem et al., 2002), barium concentrations range from < 53
+
+(LOQ) to 290 µg kg-1 (chicken- and fish-based infant food samples) and from 30 to 68 µg kg-1
+
+(infant formulae category), respectively, which is in agreement with the present study (meat-fish
+
+based ready-to-eat meals and infant/follow-on formulae food categories). Most of foods contain less
+
+than 2000 µg kg-1 but, due to the accumulation of barium in plants, some plants such as legumes,
+
+cereals and nuts may contain high barium levels (e.g. pecans, 6700 µg kg-1) (ATSDR, 2007; WHO,
+
+2004), which is consistent with our findings. Furthermore, the barium levels in foods and drinking
+
+waters are typically too low to be of concern; consequently, the dietary barium exposure of the
+
+general population is typically low. However, the lack of data regarding infant exposure does not
+
+allow a reliable barium exposure assessment for this population (ATSDR, 2007).
+
+
+
+3.5 Cadmium
+
+Of the 291 food samples analysed, 57% had quantifiable cadmium levels. The mean concentration
+
+of cadmium found in this survey ranged from 0.30 µg kg-1 in fruit juices, butter, bottled water and
+
+milk to 25.0 µg kg-1 in potatoes and potato products. In the common foods, the highest mean levels
+
+                                                                                                  14
+were found, in decreasing order, in potatoes and potato products, sweet and savoury biscuits and
+
+bars, pasta, bread and dried bread products and, finally, vegetables (excluding potatoes) (25.0, 22.0,
+
+16.0, 15.5 and 15.5 µg kg-1, respectively). In the infant foods, the most contaminated categories
+
+were meat-/fish-based ready-to-eat meals and vegetable-based ready-to-eat meals (9.31 and 9.26 µg
+
+kg-1, respectively), followed by soups/purees (7.36 µg kg-1) and cereal-based foods (2.79 µg kg-1).
+
+The other remaining food categories (infant formulae, fruit juices, fruit purees and milk-based
+
+products) had low contents ranging from 0.30 to 1.88 µg kg-1. Vegetables and wheat/rice products,
+
+identified to be among the highest contributors to cadmium intake by the Joint FAO/WHO Expert
+
+Committee on Food Additives and Contaminants (WHO, 2001), were the most contaminated
+
+categories in the common and infant foods. Sweet and savoury biscuits represented by dry
+
+chocolate biscuits were also high contributors to cadmium content, probably due to their chocolate
+
+content. Cadmium in infant and follow-on formulae and growing-up milks presented low levels
+
+(0.39, 0.43 and 0.71 µg kg-1, respectively), as well as milk-based desserts and milk-based beverages
+
+(0.65 and 1.88 µg kg-1, respectively). Although the cadmium content was low in these food
+
+categories, they may contribute to dietary cadmium intake. Indeed, (EFSA, 2009b) reported that the
+
+high consumption of milk and dairy products contributes to high cadmium intake among toddlers.
+
+However, cereals and cereal-based products, vegetables, nuts and pulses still dominate as cadmium
+
+sources, even for this age group. In addition, infant formulae and cereal foods contribute
+
+significantly to exposure in infants and young children (EFSA, 2012). Infant formulae have been
+
+reported to contain cadmium at concentrations lower than 1.2 µg kg-1 (Ikem et al., 2002; Ljung et
+
+al., 2011; Pedron et al., 2016) in various studies from different countries which is in agreement with
+
+the present study. Higher mean levels have been measured in infant formulae (10.75 µg kg-1) in an
+
+Italian survey (Bargellini et al., 2018) and in chicken-based infant food samples (22 µg kg-1) in a
+
+UK survey (Zand et al., 2012). Finally, the EFSA opinion (EFSA, 2012) estimated average LB/UB
+
+cadmium in food for infants and small children at 14.2/14.8 µg kg-1, with the highest level found in
+
+cereal-based foods for children (11.9/12.6 µg kg-1) and a lower level in liquid follow-on formulae
+
+                                                                                                   15
+(1.0/1.4 µg kg-1), which is consistent with our results. All cadmium concentrations observed in
+
+individual samples in the follow-on formula, growing-up milk and infant formula categories were
+
+far below the ML of 0.005 mg kg-1 set by Commission Regulation (EC) No 488/2014 (Council of
+
+the European Union, 2014), in liquid formulae manufactured from cows’ milk proteins or protein
+
+hydrolysates. This ML (the lowest among infant formulae and follow on-formulae MLs) is the most
+
+suitable regarding the samples of the present study. Similarly, no results exceeded the ML of 0.040
+
+mg kg-1 set for processed cereal-based foods and baby foods for infants and young children.
+
+
+
+3.6 Chromium
+
+Chromium was present in almost all samples with 93.2% of quantification (69.4% in the common
+
+foods and 95.8% in the infant foods), and ranged from 6.25 to 232 µg kg-1 in the common foods and
+
+from 20.8 to 68.9 µg kg-1 in the infant foods. In the common foods, the highest mean chromium
+
+levels were quantified, in decreasing order, in sweet and savoury biscuits and bars, dairy-based
+
+desserts, cheese and croissant-like pastries at 232, 178, 111 and 95 µg kg-1, respectively. These high
+
+levels can be attributed to the samples containing chocolate in these food categories (dry chocolate
+
+biscuit: 178 µg kg-1, refrigerated chocolate mousse: 280 µg kg-1 and chocolate croissant: 162 µg kg-
+1
+    ), except for the cheese category. This is consistent with the high chromium concentrations
+
+observed in chocolate products which can increase the mean occurrence values in certain food
+
+categories (EFSA, 2014b). In the infant foods, the two most contaminated food categories were the
+
+meat-/fish-based ready-to-eat meals (68.9 µg kg-1; n= 45) and the vegetable-based ready-to-eat
+
+meals (50.4 µg kg-1; n=27), for which all the samples showed contents ranging from 20 to 155 µg
+
+kg-1 and from 16 to 92 µg kg-1, respectively. For the remaining food categories, concentrations
+
+ranged from 20.8 µg kg-1 (infant formulae) to 42.7 µg kg-1 (fruit purees). Previous studies from
+
+Norway (Melo et al., 2008), USA (Ikem et al., 2002), Spain (Sola-Larranaga and Navarro-Blasco,
+
+2006) and Italy (Bargellini et al., 2018), reported maximum chromium levels in infant formulae of
+
+0.2, 15, 15.02 and 37.5 µg kg-1, respectively, which is in agreement with our findings (milk-based
+
+                                                                                                   16
+products and infant/follow-on formulae food categories), except for the low value of 0.2 µg kg-1.
+
+Chromium levels reported in infant ready-to-eat dinners category (ranging from 32.3 to 101 µg kg-1)
+
+(Melo et al., 2008) and rice-based and non-rice-based babyfood categories in Brazil (3.2 - 35.2 µg
+
+kg-1) (Pedron et al., 2016) were also comparable to those in the present study (meat-/fish- and
+
+vegetable-based ready-to-eat meals), whereas those reported in fish-based and chicken-based ready-
+
+to-eat infant food samples in the UK (range 50 to 310 and 50 to 1900 µg kg-1, respectively) (Zand et
+
+al., 2012), were higher. The 2014 EFSA opinion (EFSA, 2014b) indicated that the main sources of
+
+chromium in foods were products for special nutritional use, herbs, spices and condiments, sugar
+
+and confectionery – due to the presence of chocolate/cocoa products –, and vegetables and
+
+vegetable products. It also stated that the contamination during food processing (contact with
+
+stainless steel) may contribute to chromium levels. The chromium LB/UB level of 52/64 µg kg-1
+
+and 0.9/3.4 µg L-1 determined in foods for infants and small children and bottled water respectively,
+
+were consistent with the values in the present study. The dietary exposure to chromium has been
+
+assessed for chromium (III) and chromium (VI) content and the CONTAM panel (EFSA, 2014b)
+
+considered the analytical results in food as chromium (III) (because food is by and large a reducing
+
+medium) and chromium present in drinking water as chromium (VI) (due to oxidative water
+
+treatments to make water potable). The IARC (2012) classified chromium (VI) as carcinogenic in
+
+2012. Moreover, EFSA, 2014b stated that although the chromium (III) had been recognised as a
+
+beneficial nutrient for a long time, it is no longer considered as an essential element.
+
+
+
+3.7 Cobalt
+
+Of the 291 food samples analysed, 62.2% had quantifiable levels of cobalt, with the highest mean
+
+levels found, in decreasing order, in the common food categories of sweet and savoury biscuits and
+
+bars (58.0 µg kg-1; n=1), dairy-based desserts (40.0 µg kg-1; n=2) and croissant-like pastries (19.5
+
+µg kg-1; n=2). These high levels were likely due to the presence of chocolate in some samples: 58
+
+µg kg-1 in dry chocolate biscuits, 62 µg kg-1 in refrigerated chocolate mousse and 35 µg kg-1 in
+
+                                                                                                  17
+chocolate croissants from the three food categories cited above, respectively. The other foods
+
+categories had contents varying from 0.70 to 8.69 µg kg-1. In the infant foods, the highest mean
+
+levels were found in milk-based desserts (5.62 µg kg-1; n=6), with the highest contents found in two
+
+brands of dairy-based desserts (10 and 20 µg kg-1), followed by meat-/fish-based ready-to-eat meals
+
+(3.82 µg kg-1; n=45) and vegetable-based ready-to-eat meals (3.69 µg kg-1; n=27), for which all the
+
+samples were quantified between 1.00 and 7.00 µg kg-1. The other foods categories had contents
+
+lower than 3.05 µg kg-1 with the lowest mean cobalt content found in a growing-up milk category
+
+(0.90 µg kg-1). The values of cobalt are similar to those previously reported in Norway (in infant
+
+formulae, ready-to-eat dinners and fruit purees categories) and Brazil for baby food puree category
+
+(Melo et al., 2008; Pedron et al., 2016) with a maximum level of 6.3 µg kg-1. Cobalt is an essential
+
+micronutrient that must be consumed in adequate amounts to maintain physiological functions, but
+
+may be toxic if taken up in excessive amounts. In this study, among the infant foods, growing-up
+
+milks and infant formulae which are mostly consumed during early childhood were the foods that
+
+contributed the least to this intake. However, chocolate-based products (common or infant foods)
+
+seem to be among the highest source of cobalt content.
+
+
+
+3.8 Gallium
+
+Only 6.9% of the samples had quantifiable gallium levels in this study. The highest mean levels in
+
+the common foods were found, in decreasing order, in sweet and savoury biscuits and bars, dairy-
+
+based desserts, croissant-like pastries and vegetables (excluding potatoes) (3.00, 2.00, 1.25 and 1.19
+
+µg kg-1, respectively), and, for the infant foods, in cereal-based foods, vegetable-based ready-to-eat
+
+meals and growing-up milks (0.62, 0.57 and 0.56 µg kg-1, respectively). The remaining food
+
+categories had mean gallium contents not exceeding 0.53 µg kg-1 in the infant foods and 1.00 µg kg-
+1
+    in the common foods. The lowest levels were 0.45 µg kg-1 (hot beverages) and 0.50 µg kg-1 (milk-
+
+based beverages, milk-based desserts, fruit juices, soups, purees and infant formulae), in the
+
+common foods and infant foods, respectively. No data on gallium have been reported in surveys
+
+                                                                                                   18
+from other countries. Gallium has been quantified at low levels in only a few food categories in
+
+infant and common foods, but because it considered carcinogenic (IARC 2006), it is important to
+
+collect contamination data for dietary risk assessment.
+
+
+
+3.9 Nickel
+
+Of the 291 food samples analysed, 37.1% of nickel levels were quantifiable, providing a high
+
+percentage of censored data. The highest mean levels were found in the common food categories,
+
+mainly due to the contribution of samples containing chocolate: sweet and savoury biscuits and bars
+
+(527 µg kg-1 in dry chocolate biscuit), dairy-based desserts (388 µg kg-1), with the highest level
+
+found in a sample of refrigerated chocolate mousse (605 µg kg-1), croissant-like pastries (173 µg kg-
+1
+    ), with the maximum found in a chocolate croissant (295 µg kg-1) and in hot beverages (96.2 µg kg-
+1
+    in an instant hot chocolate drink). In the infant foods, the highest nickel levels were found, in
+
+decreasing order, in meat-/fish-based ready-to-eat meals (75.7 µg kg-1), vegetable-based ready-to-
+
+eat meals (71.5 µg kg-1), soups/purees (57.7 µg kg-1) and fruit purees (54.7 µg kg-1). In these food
+
+categories, nickel levels in individual samples were quite low and ranged from 25.0 to 143 µg kg-1,
+
+as in the remaining food categories, where values were lower than 51.0 and 69.5 µg kg-1in infant
+
+foods and common foods, respectively. Several studies have shown similarly low levels: not
+
+detected (ND) to 25.5 µg kg-1 in infant formulae (Bargellini et al., 2018), from ND to 125 µg kg-1 in
+
+infant foods (infant formulae, ready-to-eat dinners and fruit purees categories) (Melo et al., 2008)
+
+and from 100 to 200 µg kg-1 in solid food and beverages categories (Pandelova et al., 2012).
+
+Slightly higher levels were found in ready to-eat infant food samples (from < 80 to 410 µg kg-1,
+
+Zand et al., 2012) and much lower levels in infant formulae category (from ND to 2 µg kg-1, Ikem et
+
+al., 2002). Our results were also in agreement with an EFSA opinion (EFSA, 2015) that reported
+
+nickel concentrations in common foods less than 500 µg kg-1, nickel levels in baby foods (reported
+
+in previous European studies) ranging from 100 to 1300 µg kg-1 and in breast milk and water
+
+concentrations generally below 10 µg L-1. Current data from the EFSA opinion indicate that nickel
+
+                                                                                                   19
+mean LB/UB are 126/152 µg kg-1 in food for infants and small children (n = 309) and 1/2 µg kg-1 in
+
+drinking water (n = 25,700). These values are two to four times higher than those of the present
+
+work for the infant foods included in the study (range: 25 - 75.7 µg kg-1). Among the common
+
+foods, the main contributors to nickel content were sugar and confectionary (related to chocolate-
+
+based products) and legumes, nuts and oilseeds (mean LB/UB: 1504/1586 and 1862/1880 µg kg-1,
+
+respectively). Nickel contamination in certain foods and more generally in processed foods can be
+
+attributed to food preparation techniques (cooking utensils in stainless steel) (IARC, 2012).
+
+
+
+3.10 Strontium
+
+The only unquantified sample in the present work was sugar (the ‘sugar and sugar derivatives’ food
+
+category). In the other food categories, strontium mean levels ranged from 50 µg kg-1 (poultry and
+
+game) to 2180 µg kg-1 (bottled water) in the common foods and from 221 µg kg-1 (cereal-based
+
+foods) to 695 µg kg-1 (milk-based beverage) in the infant foods. Strontium contents were widely
+
+found in the 12 samples of bottled water and ranged from 18 µg kg-1 to 9270 µg kg-1, due to its
+
+natural occurrence in surface water (geologically variable). In the other common food categories,
+
+strontium levels were quantified with the highest mean levels found, in decreasing order, in cheese
+
+(1980 µg kg-1; n=1), vegetables (excluding potatoes) (1590 µg kg-1; n=8), with the highest levels
+
+found in spinach and broccoli samples (3470 and 2120 µg kg-1, respectively), fish (1410 µg kg-1;
+
+n=3), sweet and savoury biscuits and bars (1300 µg kg-1; n=1) and fruit (1160 µg kg-1; n=6), with
+
+the highest levels found in fresh orange and clementine or mandarin samples (2860 and 2250 µg kg-
+1
+, respectively). These results corroborate the fact that the primary strontium exposure sources are
+
+drinking water, vegetables, grains and dairy products, and the strontium concentrations in these
+
+ingredients can vary widely (WHO, 2010). For the infant foods, categories similar to those cited
+
+above had the highest strontium levels. Mean strontium contents were quantified in milk-based
+
+beverages, soups/purees, meat-/fish-based ready-to-eat meals, vegetable-based foods and vegetable-
+
+based ready-to-eat meals at 695, 581, 580 and 568 µg kg-1, respectively. The other food categories
+
+                                                                                                20
+had strontium contents ranging from 221 to 512 µg kg-1. In some food categories, the strontium
+
+results varied up to six times between the lowest and the highest value, likely reflecting, the
+
+variability of strontium content in the raw ingredients (fruits, vegetable, cereals, water, etc.) used in
+
+the composition of the final product. A previous study reported concentrations ranging from 160 to
+
+220 µg kg-1 in milk-based and soy-based infant formulae categories (Ikem et al., 2002), which are
+
+lower than our findings in the same category.
+
+
+
+3.11 Tin
+
+Tin concentrations were by and large quite low: tin was quantified only in 4.5% of the samples in
+
+this study. The most contaminated food category was an infant food: fruit purees, with a mean
+
+content of 424 µg kg-1. In this food category (n=30), the quantified results were quite similar and
+
+varied from 98 to 244 µg kg-1, except for four samples with relatively high contents of 1970, 2280,
+
+3320 and 3330 µg kg-1 in mixed (exotic) fruit purees (2 different brands) and apple-kiwi purees,
+
+respectively. These high values could not be attributed to possible contamination from packaging,
+
+because these four samples were packaged in plastic, glass or a mixture of both; only metal cans
+
+often contain tin. Similarly, contamination cannot be traced to a specific brand, because the samples
+
+were of different brands. The other food categories with quantifiable tin contents showed means
+
+varying from 42.0 to 62.5 µg kg-1. In the common foods, apart from two food categories –
+
+vegetables (excluding potatoes) and potatoes and potato products with mean values of 63.9 and 63.3
+
+µg kg-1 respectively – tin was not detected in the other food categories. A previous study reported
+
+low tin concentrations ranging from 29.0 to 85.0 µg kg-1, in milk-based and soy-based infant
+
+formulae categories (Ikem et al., 2002), which is consistent with the present work, if we exclude the
+
+extreme high values measured in fruit purees. Previous European studies have reported tin levels
+
+ranging from ND to 300 mg kg-1 and generally less than 1 mg kg-1 in unprocessed foods. Tin intake
+
+from the diet depends greatly on the type and amount of canned food consumed (WHO, 2005;
+
+2006b). However, in this study, few samples were packaged in metal cans (growing-up milks, infant
+
+                                                                                                      21
+formulae categories); likewise, their tin concentrations were far below the ML of 50 mg kg-1, set by
+
+Commission Regulation (EC) No 1881/2006 (Council of the European Union, 2006) in canned
+
+infant formulae and follow-on formulae (including infant milk and follow-on milk), excluding dried
+
+and powdered products.
+
+
+
+3.12 Vanadium
+
+Vanadium was present in 75.3% of the samples, albeit at low levels. The highest vanadium contents
+
+were found in the common food categories, in decreasing order, of sweet and savoury biscuits and
+
+bars, cheese, dairy-based desserts, and croissant-like pastries (37.0, 36.0, 23.5 and 12.0 µg kg-1,
+
+respectively). Other levels in the common foods varied from 0.50 µg kg-1 (butter, sugars and sugar
+
+derivatives) to 7.00 µg kg-1 (bread and dried bread products; n=2). For the infant foods, the mean
+
+contents did not exceed 3 LOQ (LOQ =1 µg kg-1), except for cereal-based foods for which the mean
+
+contents were slightly higher (3.18 µg kg-1; n=17). The highest levels were found in samples of
+
+different brands of biscuits for infants (14.0 and 20.0 µg kg-1) and cereals with cocoa (2.88, 3.17
+
+and 5.26 µg kg-1). The other infant food categories had low levels with mean contents ranging from
+
+0.88 (fruit juices) to 2.63 µg kg-1 (infant formulae). Only some data have been reported, also at
+
+relatively low concentrations, in milk-based and soy-based infant formulae categories (0.0822 to 3
+
+µg kg-1) in a USA survey (Ikem et al., 2002).
+
+
+
+3.13 Mean contribution (%) of infant foods and common foods to the total element contents
+
+Infants’ and toddlers’ diets vary during their first three years and are defined by crucial phases.
+
+After the first six months, during which non-breastfed children usually consume infant formula,
+
+follow-on formula and various foods (such as infant foods with specific regulations) are
+
+progressively introduced, as well as common foods (vegetables, fruit, etc.). Because common foods
+
+are an important part of infants’ and toddlers’ diets (Hulin et al., 2014), it is important to evaluate
+
+their contribution – in addition to that of infant foods – to trace element contents. The contribution
+
+                                                                                                    22
+of common and infant foods to the total element concentration (Fig. 1) shows that common foods
+
+presented a higher contribution (94%) on average, to arsenic content than infant foods, due to the
+
+high arsenic levels found in the fish food category, whereas infant foods contributed to 69% of tin
+
+content due to the fruit puree food category. Regarding the other trace elements, infant foods
+
+contributed, on average, to 49%, 45%, 43% and 42% to chromium, barium, nickel, gallium and
+
+cadmium contents, respectively, and less than 36% for the other elements, with common foods
+
+contributing the rest. However, regarding median concentrations, infant foods presented
+
+significantly higher contamination levels (p<0.05) than common foods only for chromium and
+
+barium and no statistical differences were found for the other elements (Fig. 2); no statistical
+
+comparisons were carried out for antimony, gallium, silver, tellurium, tin or germanium, due to the
+
+high percentage of left-censored data. Therefore, although there are no statistical differences for
+
+most of elements in common and infant foods, some specific food categories may have high
+
+contamination values and may also potentially lead to higher levels of exposure to trace elements
+
+depending on daily food consumption (common foods or infant foods). The dietary exposure
+
+assessment of infant and toddlers to these trace elements and their associated risks have been
+
+described in detail elsewhere (Sirot et al., 2018).
+
+
+
+4. Conclusions
+
+This TDS presented occurrence data on food mainly consumed by French infants and toddlers, data
+
+that are rarely available in other TDSs.
+
+The contamination data for infant foods indicated higher levels of trace elements in processed foods
+
+and relatively low contents in infant formulae, which are widely consumed by infants. The
+
+contribution of trace element levels was not statistically different between infant and common
+
+foods, except for chromium and barium with median concentrations slightly higher in infant foods.
+
+Despite the differences observed for some elements and food categories, the results of the first
+
+French TDS on infants and toddlers were generally comparable to those from other surveys.
+
+                                                                                                 23
+Caution must be taken when comparing with other studies, because food composition may differ in
+
+many instances.
+
+These results, combined with individual food consumption data, were used to evaluate the dietary
+
+exposure to trace elements of the French population of infants and toddlers (Sirot et al., 2018).
+
+Moreover, the output of this first French TDS on infants and toddlers will be useful for refining
+
+future health risk assessments.
+
+
+
+Acknowledgements
+
+The authors would like to thank the Directorate General for Food of the Ministry for Food,
+
+Agriculture and Fisheries and the French Directorate General for Health of the Ministry of Health
+
+and Sports for their financial contribution.
+
+Declaration of interest
+
+Declarations of interest: none
+
+
+
+
+                                                                                              24
+Figure Captions
+
+Figure 1: Mean contribution (%) of infant foods and common foods to the total element contents
+
+       (calculated as the mean element content of each food type (infant foods or common foods)
+
+       normalized to the sum of element content of all food types)
+
+Figure 2: Distribution of element contamination levels in infant and common foods (median values
+
+       in µg kg-1/box plots)
+
+Supplementary material
+
+Table SM-1: List of food categories and the associated sample foods
+
+Table SM-2: Lower bounds (LB) levels of trace elements in foods ‘as consumed’ by French infants
+
+and toddlers (in µg kg-1 fresh weight)
+
+
+
+
+                                                                                             25
+References
+
+Agency for Toxic Substances and Disease Registry (ATSDR), 2007. Toxicological profile for
+
+     barium and barium compounds. Department of Health and Human Services. Public
+
+     Health Service, US.
+
+Association Française de Normalisation (AFNOR), 2013. Produits alimentaires -
+
+     Détermination des éléments et de leurs espèces chimiques - Considérations générales et
+
+     exigences spécifiques. AFNOR NF 13804. Saint Denis, France.
+
+Bargellini, A., Venturelli, F., Casali, E., Ferrari, A., Marchesi, I., Borella, P., 2018. Trace
+
+     elements in starter infant formula: dietary intake and safety assessment. Environ. Sci.
+
+     Pollut. Res. 25, 2035–2044.
+
+Burlo, F., Ramirez-Gandolfo, A., Signes-Pastor, A.J., Haris, P.I., Carbonell-Barrachina, A.A.,
+
+     2012. Arsenic contents in Spanish infant rice, pureed infant foods, and rice. J. Food Sci.
+
+     77, 2–6.
+
+Carbonell-Barrachina, A.A., Wu, X., Ramírez-Gandolfo, A., Norton, G.J., Burló, F., Deacon,
+
+     C., Meharg, A.A., 2012. Inorganic arsenic contents in rice-based infant foods from
+
+     Spain, UK, China and USA. Environ. Pollut. 163, 77–83.
+
+Chevallier, E., Chekri, R., Zinck, J., Guérin, T., Noël, L., 2015. Simultaneous determination
+
+     of 31 elements in foodstuffs by ICP-MS after closed-vessel microwave digestion:
+
+     Method validation based on the accuracy profile. J. Food Compos. Anal. 41, 35–41.
+
+Council of the European Union, 2006. Commission Regulation 1881/2006/EU of 19
+
+     December 2006. Setting maximum levels of certain contaminants in foodstuffs. Off. J.
+
+     Eur. Commun. L364, 5-24.
+
+Council of the European Union, 2014. Commission Regulation 488/2014/EU of 12 May
+
+     2014. Amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium
+
+     in foodstuffs. Off. J. Eur. Commun. L138, 75-79.
+
+
+                                              26
+Council of the European Union, 2015. Commission Regulation 2015/1006/EU of 25 June
+
+    2015. Amending Regulation (EC) No 1881/2006 as regards maximum levels of arsenic
+
+    in foodstuffs. Off. J. Eur. Commun. L161, 14-16.
+
+European Food Safety Authority (EFSA), 2008. Scientific opinion of the panel on food
+
+    additives, flavourings, processing; Aids and food contact materials. Safety of aluminium
+
+    from dietary intake. EFSA J. 754, 1-34.
+
+European Food Safety Authority (EFSA), 2009a. Scientific opinion of the EFSA panel on
+
+    contaminants in the food chain. Arsenic in Food. EFSA J. 7, 10-1351.
+
+European Food Safety Authority (EFSA), 2009b. Scientific opinion of the panel on
+
+    contaminants in the food chain. Cadmium in Food. EFSA J. 980, 1-39.
+
+European Food Safety Authority (EFSA), 2012. Cadmium dietary exposure in the European
+
+    population. EFSA J. 10, 1-2551.
+
+European Food Safety Authority (EFSA), 2014a. Dietary exposure to inorganic arsenic in the
+
+    European population. EFSA J. 12, 3-3597.
+
+European Food Safety Authority (EFSA), 2014b. Scientific opinion of the panel on
+
+    contaminants in the food chain. Risks to public health related to the presence of
+
+    chromium in food and drinking water. EFSA J. 12, 3-3595.
+
+European Food Safety Authority (EFSA), 2015. Scientific opinion of the panel on
+
+    contaminants in the food chain. Risks to public health related to the presence of nickel in
+
+    food and drinking water. EFSA J. 13, 2-4002.
+
+Fantino, M., Gourmet, E., 2008. Apports nutritionnels en France en 2005 chez les enfants non
+
+    allaités âgés de moins de 36 mois. Arch. Pediatr. 15, 446–455.
+
+Guérin, T., Le Calvez, E., Zinck, J., Bemrah, N., Sirot, V., Leblanc, J.C., Chekri, R., Hulin,
+
+    M., Noël, L., 2017. Levels of lead in foods from the first French total diet study on
+
+    infants and toddlers. Food Chem. 237, 849–856.
+
+
+                                              27
+Guérin, T., Chekri, R., Chafey, C., Testu, C., Hulin, M., Noël, L., 2018. Mercury in foods
+
+    from the first French total diet study on infants and toddlers. Food Chem. 239, 920–925.
+
+Hadayat, N., De Oliveira, L.M., Da Silva, E., Han, L., Hussain, M., Liu, X., Ma, L.Q., 2018.
+
+    Assessment of trace metals in five most-consumed vegetables in the US: Conventional
+
+    vs. organic. Environ. Pollut. 243, 292-300.
+
+Hulin, M., Bemrah, N., Nougadère, A., Volatier, J.L., Sirot, V., Leblanc, J.C., 2014.
+
+    Assessment of infant exposure to food chemicals: The French Total Diet Study design.
+
+    Food Addit. Contam. - Part A Chem. Anal. Control. Expo. Risk Assess. 31, 1226–1239.
+
+Ikem, A., Nwankwoala, A., Odueyungbo, S., Nyavor, K., Egiebor, N., 2002. Levels of 26
+
+    elements in infant formula from USA, UK, and Nigeria by microwave digestion and
+
+    ICP-OES. Food Chem. 77, 439–447.
+
+Institut de Veille Sanitaire (2016). INVS Maladies chroniques et traumatismes-Alimentation
+
+    des nourrissons pendant leur première année de vie : Résultats de l'étude Epifane 2012-
+
+    2013. Retrieved April 17, 2018 from: http://invs.santepubliquefrance.fr/Publications-et-
+
+    outils/Rapports-et-syntheses/Maladies-chroniques-et-traumatismes/2016/Alimentation-
+
+    des-nourrissons-pendant-leur-premiere-annee-de-vie.
+
+International Agency for Research on Cancer (IARC), 2006. IARC Monographs on the
+
+    Evaluation of Carcinogenic Risks to Humans. Cobalt in hard metals and cobalt sulfate,
+
+    gallium arsenide, indium phosphide and vanadium pentoxide. Voulume 86.
+
+International Agency for Research on Cancer (IARC), 2012. IARC Monographs on the
+
+    Evaluation of Carcinogenic Risks to Humans. Arsenic, metals, fibres and dusts. V100-C.
+
+Jackson, B.P., Taylor, V.F., Punshon, T., Cottingham, K.L., 2012. Arsenic concentration and
+
+    speciation in infant formulas and first foods. Pure Appl. Chem. 84, 215–223.
+
+Kazi, T.G., Jalbani, N., Baig, J.A., Arain, M.B., Afridi, H.I., Jamali, M.K., Shah, A.Q.,
+
+    Memon, A.N., 2010. Evaluation of toxic elements in baby foods commercially available
+
+
+                                             28
+    in Pakistan. Food Chem. 119, 1313–1317.
+
+Ljung, K., Palm, B., Grandér, M., Vahter, M., 2011. High concentrations of essential and
+
+    toxic elements in infant formula and infant foods - A matter of concern. Food Chem.
+
+    127, 943–951.
+
+Lopez-García, I., Vinas, P., Romero-Romero, R., Hernandez-Cordoba, M., 2009. Ion-
+
+    exchange preconcentration and determination of vanadium in milk samples by
+
+    electrothermal atomic absorption spectrometry. Talanta 78, 1458–1463.
+
+Meharg, A.A., Sun, G., Williams, P.N., Adomako, E., Deacon, C., Zhu, Y.G., Feldmann, J.,
+
+    Raab, A., 2008. Inorganic arsenic levels in baby rice are of concern. Environ. Pollut.
+
+    152, 746–749.
+
+Melo, R., Gellein, K., Evje, L., Syversen, T., 2008. Minerals and trace elements in
+
+    commercial infant food. Food Chem. Toxicol. 46, 3339–3342.
+
+Millour, S., Noël, L., Chekri, R., Vastel, C., Kadar, A., Guérin, T. 2010. Internal Quality
+
+    Controls applied in Inductively Coupled Plasma Mass Spectrometry multi-elemental
+
+    analysis for the second French Total Diet Study. Accred Qual Assur, 15, 503-513.
+
+Millour, S., Noël, L., Chekri, R., Vastel, C., Kadar, A., Sirot, V., Leblanc, J.C., Guérin, T.
+
+    2012. Strontium, silver, tin, iron, tellurium, gallium, germanium, barium and vanadium
+
+    levels in foodstuffs from the Second French Total Diet Study. J. Food Compos. Anal. 25,
+
+    108-129.
+
+Pandelova, M., Lopez, W.L., Michalke, B., Schramm, K.W., 2012. Ca, Cd, Cu, Fe, Hg, Mn,
+
+    Ni, Pb, Se, and Zn contents in baby foods from the EU market: Comparison of assessed
+
+    infant intakes with the present safety limits for minerals and trace elements. J. Food
+
+    Compos. Anal. 27, 120–127.
+
+Pedron, T., Segura, F.R., da Silva, F.F., de Souza, A.L., Maltez, H.F., Batista, B.L., 2016.
+
+    Essential and non-essential elements in Brazilian infant food and other rice-based
+
+
+                                             29
+     products frequently consumed by children and celiac population. J. Food Compos. Anal.
+
+     49, 78–86.
+
+Rose, M., Baxter, M., Brereton, N., Baskaran, C., 2010. Dietary exposure to metals and other
+
+     elements in the 2006 UK total diet study and some trends over the last 30 years. Food
+
+     Addit. Contam. Part A Chem. Anal. Control. Expo. Risk Assess. 27, 1380–1404.
+
+Sirot, V., Guérin, T., Volatier, J.L., Leblanc, J.C., 2009. Dietary exposure and biomarkers of
+
+     arsenic in consumers of fish and shellfish from France. Sci. Total Environ. 407, 1875–
+
+     1885.
+
+Sirot, V., Traore, T., Guérin, T., Noël, L., Bachelot , M., Cravedi, J.P., Mazur, A., Glorennec,
+
+     P., Vasseur, P., Jean, J., Carne, G., Gorecki, S., Rivière, G., Hulin, M., 2018. French
+
+     infant total diet study: Exposure to selected trace elements and associated health risks.
+
+     Food Chem. Toxicol. 120, 625–633.
+
+Sola-Larranaga, C., Navarro-Blasco, I., 2006. Chromium content in different kinds of Spanish
+
+     infant formulae and estimation of dietary intake by infants fed on reconstituted powder
+
+     formulae. Food Addit. Contam. 23, 1157–1168.
+
+Stahl, T., Taschan, H., Brunn, H., 2011. Aluminium content of selected foods and food
+
+     products. Environ. Sci. Eur. 23, 37.
+
+Vinas, P., Pardo-Martinez, M., Hernadez-Cordoba, M., 1999. Slurry atomization for the
+
+     determination of arsenic in baby foods using electrothermal atomic absorption
+
+     spectrometry and deuterium background correction. J. Anal. At. Spectrom. 14, 1215–
+
+     1219.
+
+World Health Organization (WHO), 2001. Evaluation of certain food additives and
+
+     contaminants. Fifty-fifth report of the joint FAO/WHO Expert Committee on Food
+
+     Additives 901.
+
+World Health Organization (WHO), 2003. Antimony in drinking-water. Background
+
+
+                                              30
+    document for development of WHO Guidelines for Drinking-water Quality
+
+    WHO/SDE/WSH/03.04/74.
+
+World Health Organization (WHO), 2004. Barium in drinking-water. Background document
+
+    for    development      of    WHO       Guidelines      for       Drinking-water   Quality
+
+    WHO/SDE/WSH/03.04/76.
+
+World Health Organization (WHO), 2005. Tin and inorganic tin compounds. Concise
+
+    International chemical assessment document 65.
+
+World Health Organization (WHO), 2006a. GEMS/Food Total Diet Studies: Report of the 4th
+
+    International Workshop on Total Diet Studies. 23-27 October 2006, Beijing, China.
+
+World Health Organization (WHO), 2006b. Evaluation of certain food contaminants. Sixty-
+
+    fourth report of the Joint FAO/WHO Expert Committee on Food Additives 930.
+
+World Health Organization (WHO), 2009. Infant and young child feeding. Model chapter for
+
+    textbooks for medical students and allied health professionals.
+
+    http://www.who.int/nutrition/publications/infantfeeding/9789241597494/en/
+
+World Health Organization (WHO), 2010. Strontium and strontium compounds. Concise
+
+    international chemical assessment document 77.
+
+World Health Organization (WHO), 2013. GEMS/Food-EURO: Second Workshop on
+
+    Reliable Evaluation of Low-Level Contamination of Food. 26-27th May 1995,
+
+    Kulmbach, Federal Republic of Germany.
+
+Yeh, T.S., Liu, Y.T., Liou, P.J., Li, H.P., Chen, C.C., 2016. Investigation of aluminum
+
+    content of imported candies and snack foods in Taiwan. J. Food Drug Anal. 24, 771–779.
+
+Zand, N., Chowdhry, B.Z., Wray, D.S., Pullen, F.S., Snowden, M.J., 2012. Elemental content
+
+    of commercial “ready to-feed” poultry and fish based infant foods in the UK. Food
+
+    Chem. 135, 2796–2801.
+
+
+
+
+                                             31
+*Mann Whitney statistical test significant at p <0.05
+Table 1: ICP-MS operating conditions and acquisition parameters
+
+ Operating conditions               Agilent 7700 Series ICP-MS
+ Nebulizer                          Quartz concentric (Micromist) 400 µ L min-1
+ Spray chamber                      Scott-type double-pass water cooled
+ Cell geometry                      Octopole
+ Sampling cone                      Nickel, 1.0 mm orifice
+ Skimmer cone                       Nickel, 0.75 mm orifice
+ RF power                           1400 - 1500 W
+ Reflected power                    < 10 W
+ Standard mode
+ Plasma gas flow                    15 L min-1
+ Nebulizer gas flow                 0.95-1.00 L min-1
+ Auxiliary gas flow                 0.99 L min-1
+ Expansion stage                    2.0 mbar
+ Intermediate stage                 2.0 x 10-4 - 3.0 x 10-4 mbar
+ Analyser stage                     1.0 x 10-6 - 2.0 x 10-6 mbar
+ Octopole bias                      -8 V
+ Quadrupole bias                    -3 V
+ He mode (collision cell mode)
+ He gas flow                        4.3 mL min-1
+ Octopole bias                      -18 V
+ Quadrupole bias                    -15 V
+ Acquisition parameters
+ Mass range                         2-260 a.m.u
+ Number of channels                 500
+ Dwell time                         100 µs
+ Number of sweeps                   500
+ Total acquisition time             219 s
+                                                                   Internal
+ Isotopes measured                  Analysis Mode
+                                                                   standard
+ 27
+    Al, 51V, 52Cr, 59Co, 71Ga,                                     45
+ 74                                 He                                  Sc
+    Ge, 60Ni, 75As
+ 88                                                                89
+    Sr                              He                                  Y
+ 107
+     Ag, 111-114Cd, 118Sn, 125Te,                                  185
+ 135-137                            Standard                             Re
+         Ba
+ 121                                                               185
+     Sb                             Standard                             Re
+  Table 2: Evaluation of trueness of the method: multi-elemental analyses of certified materials TORT-2 (Lobster hepatopancreas), DOLT-4 (Dogfish liver) and SRM
+           1548a (Typical diet)
+
+                                               TORT-2                                                  DOLT-4                                                        SRM-1548
+                                                  Mean ± SD                                                 Mean ± SD                                                    Mean ± SD
+           CVR                                                                                                             Min-max       Reference/                                       Min-max
+Element            Reference     Confidence       measured                        Reference   Confidence    measured                                  Confidence         measured
+           (%)                                                    Min-max                                                 individual     indicative                                      individual
+                     value         interval          value                          value       interval       value                                    interval            value
+                                                                  (mg kg-1)                                                 value           value                                          value
+                   (mg kg-1)      (mg kg-1)         (n=10)                        (mg kg-1)    (mg kg-1)      (n=10)                                   (mg kg-1)           (n=10)
+                                                                                                                           (mg kg-1)     (mg kg-1)                                        (mg kg-1)
+                                                   (mg kg-1)                                                 (mg kg-1)                                                    (mg kg-1)
+  Al        12          -              -                -             -               -            -             -             -           72.4        46.3 - 98.5       65.5 ± 9.6      56.8 - 90.6
+  Sb         8          -              -                -             -               -            -             -             -          0.009*      0.007 - 0.011     0.008 ± 0.001   0.007 - 0.009
+  As        12        21.6       13.8 - 29.4       20.1 ±2.3     17.7 - 23.1        9.66      6.18 - 13.1   9.46 ± 0.90   7.61 - 10.83      0.2         0.1 - 0.3        0.2 ± 0.01       0.2 - 0.2
+  Ba        20          -              -                -             -               -            -             -             -           1.1*         0.4 - 1.8         1.0 ± 0.1       0.9 - 1.0
+  Cd        10        26.7       18.7 - 34.7       25.1 ± 2.5    20.3 - 23.1        24.3      17.0 - 31.6   24.7 ± 2.0    21.0 - 28.3      0.035      0.025 - 0.046     0.034 ± 0.002   0.030 - 0.037
+  Cr        10        0.77       0.54 - 1.00      0.68 ± 0.07    0.54 - 0.75          -            -             -             -             -              -                   -             -
+  Co        10        0.51       0.36 - 0.66      0.45 ± 0.04    0.37 - 0.52          -            -             -             -             -              -                   -             -
+  Ni        15        2.5          1.4 - 3.6       2.1 ± 0.2      1.7 - 2.4         0.97      0.43 - 1.41   0.98 ± 0.20   0.76 - 1.37        -              -                   -             -
+  Ag        12          -              -                -             -             0.93      0.60 - 1.26   0.75 ± 0.13   0.59 - 1.01        -              -                   -             -
+  Sr        15        45.2       24.9 - 65.2       34.9 ± 3.3    29.1 - 39.9          -            -             -             -             -              -                   -             -
+  Sn        10          -              -                -             -               -            -             -             -           17.2        12.0 - 22.4       15.1 ± 0.8      13.4 - 16.0
+  V          8        1.64       1.25 - 2.03      1.60 ± 0.15    1.31 - 1.77          -            -             -             -             -              -                   -             -
+  * Not certified values, indicative values regarding the element concentration
+Table 3: Evaluation of trueness of the method: multi-elemental analyses of spiked samples
+
+                                   Mean ± SD
+                     Theoretical                    Mean        Min-Max        Min-Max
+                                    measured
+                       value                      recovery      measured       recovery
+                                   value (n= 6)
+                      (µg L-1)                      (%)       value (µg L-1)     (%)
+                                     (µg L-1)
+              Ga          1          1.0 ± 0.1       100        0.9 - 1.0      90 - 100
+                          5          4.8 ± 0.2       96         4.5 - 5.1      90 - 102
+                         10          9.5 ± 0.2       95         9.3 - 9.8       93 - 98
+              Ge          1          1.0 ± 0.1       100        0.9 - 1.0      90 - 100
+                          5          5.1 ± 0.2       102        4.8 - 5.4      96 - 108
+                         10          9.5 ± 0.3       95         9.2 - 9.8       92 - 98
+              Te          1          1.0 ± 0.2       100        0.9 - 1.1      90 - 110
+                          5          5.1 ± 0.2       102        4.8 - 5.8      96 - 116
+                         10         10.0 ± 0.3       100        9.8 - 10.5     98 - 105
+Table 4: Limits of detection and quantification (LOD/LOQ), percentage of detected and quantified
+         results
+                                       LOD*          LOQ*
+                  Element                                         % > LOD       % > LOQ
+                                      µg kg-1 fw    µg kg-1 fw
+                  Aluminium               42            83           93.8           85.9
+                  Antimony                0.5            1           22.8           11.3
+                  Arsenic                  1             2           70.3           44.3
+                  Barium                  25            50           93.8           87.6
+                  Cadmium                 0.3           0.5          64.5           57.0
+                  Chromium                5.0           10           98.6           93.2
+                  Cobalt                  0.7            1           84.1           62.2
+                  Gallium                 0.5            1           14.1           6.9
+                  Germanium               0.5            1            7.2           1.4
+                  Nickel                  25            50           54.5           37.1
+                  Strontium               5.0           10           99.7           99.7
+                  Silver                  25            50             0             0
+                  Tellurium                1             2            1.4           0.7
+                  Tin                     42            83           13.8           4.5
+                  Vanadium                0.5            1           89.7           75.3
+                 *LOD and LOQ were estimated as three and six standard deviation respectively, of 21 sample blanks.
+    Table 5: Upper bound (UB) levels of trace elements in foods “as consumed” by French infants and toddlers (in µg kg-1 fresh weight)
+                                                        Al                          Sb                          As                           Ba                     Cd
+          Food category
+                                     N    Mean ± SD      Min-Max      Mean ± SD      Min-Max      Mean ± SD       Min-Max      Mean ± SD      Min-Max      Mean ± SD Min-Max
+Infant foods
+Cereal-based foods                   17   630 ± 1030    44.0 - 3810   0.72 ± 0.54   0.04 - 2.00   3.13 ± 2.85    0.19 - 8.00   118 ± 213     14.0 - 762    2.79 ± 4.68   0.14 - 17.0
+Follow-on formulae                   34   276 ± 231     83.0 - 1140   0.57 ± 0.28   0.50 - 2.00   1.68 ± 0.59    1.00 - 3.00   111 ± 28.4    50.0 - 156    0.43 ± 0.33   0.30 - 2.00
+Fruit juices                         4    191 ± 112     42.0 - 314    0.75 ± 0.29   0.50 - 1.00   2.00 ± 0.00    1.00 - 2.00   317 ± 164     91.0 - 483    0.30 ± 0.00   0.30 - 0.30
+Fruit purees                         30   556 ± 254     260 - 1420    0.65 ± 0.48   0.50 - 3.00   2.00 ± 1.39    1.00 - 8.00   184 ± 57.0    110 - 303     0.66 ± 0.49   0.30 - 2.00
+Growing-up milks                     9    189 ± 220     42.0 - 724    0.56 ± 0.17   0.50 - 1.00   2.11 ± 0.78    1.00 - 4.00   58.9 ± 31.8   25.0 - 139    0.71 ± 1.23   0.30 - 4.00
+Infant formulae                      28   196 ± 135     42.0 - 585    0.54 ± 0.13   0.50 - 1.00   1.61 ± 0.69    1.00 - 4.00   115 ± 25.9    25.0 - 157    0.39 ± 0.19   0.30 - 1.00
+Meat/fish-based ready-to-eat meals   45   597 ± 436     116 - 2590    0.56 ± 0.16   0.50 - 1.00   27.5 ± 70.4    1.00 - 411    286 ± 141     85.0 - 584    9.31 ± 4.33   3.00 - 30.0
+Milk-based beverages                 8    328 ± 140     150 - 561     0.50 ± 0.00   0.50 - 0.50   3.13 ± 2.85    0.00 - 10.0   65.8 ± 39.9   50.0 - 164    1.88 ± 1.13   1.00 - 4.00
+Milk-based desserts                  6    306 ± 289     104 - 859     0.58 ± 0.20   0.50 - 1.00   1.17 ± 0.41    1.00 - 2.00   117 ± 14.7    91.0 - 136    0.65 ± 0.38   0.30 - 1.00
+Soups/purees                         11   653 ± 595     207 - 2140    0.55 ± 0.15   0.50 - 1.00   4.82 ± 2.27    1.00 - 9.00   259 ± 100     102 - 483     7.36 ± 2.69   5.00 - 15.0
+Vegetable-based ready-to-eat meals   27   575 ± 511     83.0 - 2480   0.52 ± 0.10   0.50 - 1.00   3.33 ± 3.63    1.00 - 17.0   337 ± 316     76.0 - 1450   9.26 ± 4.48   1.00 - 18.0
+Common foods
+Bottled waters                       12   66.0 ± 59.5   42.0 - 248    0.58 ± 0.20   0.50 - 1.00   1.17 ± 0.58    1.00 - 3.00   37.8 ± 19.8   25.0 - 74.0   0.30 ± 0.00   0.30 - 0.30
+Bread and dried bread products       2    1800 ± 499    1450 - 2150   1.00 ± 0.00   1.00 - 1.00   12.5 ± 3.54    10.0 - 15.0   615 ± 170     495 - 735     15.5 ± 2.12   14.0 - 17.0
+Butter                               1    42.0          -             0.50          -             1.00           -             25.0          -             0.30          -
+Cheese                               1    4220          -             5.00          -             5.00           -             178           -             2.00          -
+Compotes and cooked fruit            2    618 ± 110     540 - 696     1.00 ± 0.00   1.00 - 1.00   1.00 ± 0.00    1.00 - 1.00   168 ± 85.6    107 - 228     0.75 ± 0.35   0.50 - 1.00
+Croissant-like pastries              2    4300 ± 3400   1890 - 6710   1.00 ± 0.00   1.00 - 1.00   4.00 ± 0.00    4.00 - 4.00   568 ± 173     446 - 690     12.5 ± 0.71   12.0 - 13.0
+Dairy-based desserts                 2    5950 ± 4800   2550 - 9350   1.50 ± 0.71   1.00 - 2.00   3.00 ± 1.41    2.00 - 4.00   471 ± 303     257 - 685     7.00 ± 5.66   3.00 - 11.0
+Delicatessen meats                   2    712 ± 889     83.0 - 1340   0.75 ± 0.35   0.50 - 1.00   4.50 ± 0.71    4.00 - 5.00   51.0 ± 36.8   25.0 - 77.0   0.75 ± 0.35   0.50 - 1.00
+Eggs and egg products                1    42.0          -             0.50          -             11.0           -             261           -             0.50          -
+Fish                                 3    1380 ± 1340   266 - 2860    3.00 ± 1.00   2.00 - 4.00   2750 ± 2290    1250 - 5390   136 ± 84.5    62.0 - 228    4.33 ± 2.52   2.00 - 7.00
+Fruit                                6    300 ± 290     83.0 - 851    0.50 ± 0.00   0.50 - 0.50   1.17 ± 0.41    1.00 - 2.00   418 ± 356     122 - 1100    0.73 ± 0.68   0.30 - 2.00
+Hot beverages                        1    1390          -             0.37          -             0.49           -             107           -             1.85          -
+Meat                                 2    326 ± 242     155 - 497     2.00 ± 0.00   2.00 - 2.00   5.50 ± 6.36    1.00 - 10.0   25.0 ± 0.00   25.0 - 25.0   0.75 ± 0.35   0.50 - 1.00
+Milk                                 3    69.3 ± 23.7   42.0 - 83.0   0.50 ± 0.00   0.50 - 0.50   1.00 ± 0.00    1.00 - 1.00   77.7 ± 15.2   64.0 - 94.0   0.30 ± 0.00   0.30 - 0.30
+Mixed dishes                         1    1290          -             1.00          -             11.0           -             303           -             13.0          -
+Non-alcoholic beverages              6    348 ± 382     42.0 - 1030   0.58 ± 0.20   0.50 - 1.00   1.17 ± 0.41    1.00 - 2.00   117 ± 60.1    25.0 - 205    0.42 ± 0.29   0.30 - 1.00
+Pasta                                1    1040          -             2.00          -             5.00           -             470           -             16.0          -
+Potatoes and potato products         3    607 ± 400     311 - 1060    0.83 ± 0.29   0.50 - 1.00   2.00 ± 0.00    2.00 - 2.00   93.3 ± 24.2   76.0 - 121    25.0 ± 10.5   15.0 - 36.0
+Poultry and game                     2    271 ± 26.9    252 - 290     0.50 ± 0.00   0.50 - 0.50   8.50 ± 0.71    8.00 - 9.00   25.0 ± 0.00   25.0 - 25.0   0.75 ± 0.35   0.50 - 1.00
+Rice and wheat products              2    718 ± 38.9    690 - 745     2.00 ± 1.41   1.00 - 3.00   30.0 ± 33.9    6.00 - 54.0   238 ± 266     50.0 - 426    10.0 ± 7.07   5.00 - 15.0
+Soups/broths                         1    443           -             0.50          -             5.00           -             177           -             8.00          -
+Sugar and sugar derivatives          1    83.0          -             6.00          -             1.00           -             25.0          -             1.00          -
+Sweet and savoury biscuits & bars    1    10000         -             3.00          -             6.00           -             1080          -             22.0          -
+Ultra-fresh dairy products           5    298 ± 169     83.0 - 470    0.50 ± 0.00   0.50 - 0.50   1.60 ± 0.89    1.00 - 3.00   64.4 ± 12.4   54.0 - 85.0   0.48 ± 0.30   0.30 - 1.00
+Vegetables excluding potatoes        8    2380 ± 3580   585 - 11000   0.75 ± 0.54   0.50 - 2.00   3.25 ± 2.71    1.00 - 9.00   417 ± 355     62.0 - 1120   15.5 ± 27.3   1.00 - 82.0
+                                                   Cr                          Co                          Ga                           Ni                          Sr
+          Food category
+                                     N    Mean ± SD Min-Max           Mean ± SD Min-Max           Mean ± SD Min-Max           Mean ± SD Min-Max            Mean ± SD Min-Max
+Infant foods
+Cereal-based foods                   17   23.0 ± 38.0   2.38 - 125    3.05 ± 4.67   0.14 - 16.0   0.62 ± 0.63   0.07 - 2.00   43.0 ± 61.5   4.00 - 234    221 ± 407     36.9 - 1380
+Follow-on formulae                   34   22.1 ± 13.5   10.0 - 78.0   0.98 ± 0.29   0.70 - 2.00   0.53 ± 0.12   0.50 - 1.00   26.5 ± 5.97   25.0 - 50.0   495 ± 134     199 - 721
+Fruit juices                         4    21.0 ± 10.8   5.00 - 29.0   0.93 ± 0.15   0.70 - 1.00   0.50 ± 0.00   0.50 - 0.50   25.0 ± 0.00   25.0 - 25.0   263 ± 84.7    191 - 367
+Fruit purees                         30   42.7 ± 15.8   13.0 - 84.0   2.87 ± 1.04   1.00 - 5.00   0.52 ± 0.09   0.50 - 1.00   54.7 ± 26.7   25.0 - 121    273 ± 150     94.0 - 756
+Growing-up milks                     9    27.7 ± 17.3   10.0 - 61.0   0.90 ± 0.15   0.70 - 1.00   0.56 ± 0.17   0.50 - 1.00   25.0 ± 0.00   25.0 - 25.0   325 ± 183     165 - 791
+Infant formulae                      28   20.8 ± 9.28   5.00 - 38.0   0.91 ± 0.26   0.70 - 2.00   0.50 ± 0.00   0.50 - 0.50   25.9 ± 4.72   25.0 - 50.0   512 ± 116     113 - 735
+Meat/fish-based ready-to-eat meals   45   68.9 ± 30.6   20.0 - 155    3.82 ± 1.32   2.00 - 7.00   0.53 ± 0.13   0.50 - 1.00   75.7 ± 25.7   25.0 - 143    580 ± 203     250 - 1280
+Milk-based beverages                 8    31.8 ± 12.5   20.0 - 51.0   2.75 ± 1.58   1.00 - 5.00   0.50 ± 0.00   0.50 - 0.50   32.4 ± 13.9   25.0 - 59.0   695 ± 607     216 - 1750
+Milk-based desserts                  6    33.0 ± 24.0   10.0 - 75.0   5.62 ± 7.93   0.70 - 20.0   0.50 ± 0.00   0.50 - 0.50   41.2 ± 29.1   25.0 - 97.0   509 ± 124     356 - 660
+Soups/purees                         11   39.0 ± 12.7   19.0 - 57.0   2.73 ± 1.10   1.00 - 4.00   0.50 ± 0.00   0.50 - 0.50   57.7 ± 20.6   25.0 - 106    581 ± 92.0    454 - 756
+Vegetable-based ready-to-eat meals   27   50.4 ± 18.1   16.0 - 92.0   3.69 ± 2.67   0.70 - 14.0   0.57 ± 0.18   0.50 - 1.00   71.5 ± 28.0   25.0 - 137    568 ± 157     226 - 864
+Common foods
+Bottled waters                       12   6.25 ± 2.26   5.00 - 10.0   0.70 ± 0.00   0.70 - 0.70   0.50 ± 0.00   0.50 - 0.50   27.1 ± 7.22   25.0 - 50.0   2180 ± 3290   18.0 - 9270
+Bread and dried bread products       2    80.5 ± 51.6   44.0 - 117    6.00 ± 0.00   6.00 - 6.00   1.00 ± 0.00   1.00 - 1.00   69.5 ± 3.54   67.0 - 72.0   644 ± 4.24    641 - 647
+Butter                               1    30.0          -             1.00          -             0.50          -             25.0          -             101           -
+Cheese                               1    111           -             2.00          -             1.00          -             51.0          -             1980          -
+Compotes and cooked fruit            2    41.5 ± 21.9   26.0 - 57.0   2.50 ± 0.71   2.00 - 3.00   0.50 ± 0.00   0.50 - 0.50   40.5 ± 21.9   25.0 - 56.0   305 ± 194     168 - 442
+Croissant-like pastries              2    95.0 ± 94.8   28.0 - 162    19.5 ± 21.9   4.00 - 35.0   1.25 ± 1.06   0.50 - 2.00   173 ± 173     50.0 - 295    611 ± 314     389 - 833
+Dairy-based desserts                 2    178 ± 144     76.0 - 280    40.0 ± 31.1   18.0 - 62.0   2.00 ± 1.41   1.00 - 3.00   388 ± 307     171 - 605     861 ± 431     556 - 1170
+Delicatessen meats                   2    38.5 ± 33.2   15.0 - 62.0   3.50 ± 3.54   1.00 - 6.00   0.50 ± 0.00   0.50 - 0.50   37.5 ± 17.7   25.0 - 50.0   170 ± 156     60.0 - 280
+Eggs and egg products                1    21.0          -             0.70          -             0.50          -             25.0          -             352           -
+Fish                                 3    81.7 ± 17.9   61.0 - 93.0   2.67 ± 0.58   2.00 - 3.00   0.50 ± 0.00   0.50 - 0.50   41.7 ± 14.4   25.0 - 50.0   1410 ± 530    868 - 1930
+Fruit                                6    28.0 ± 13.9   10.0 - 46.0   4.50 ± 5.75   1.00 - 16.0   0.58 ± 0.20   0.50 - 1.00   44.0 ± 15.4   25.0 - 62.0   1160 ± 1140   113 - 2860
+Hot beverages                        1    42.4          -             8.69          -             0.45          -             96.2          -             153           -
+Meat                                 2    91.5 ± 46.0   59.0 - 124    2.00 ± 0.00   2.00 - 2.00   0.50 ± 0.00   0.50 - 0.50   41.0 ± 22.6   25.0 - 57.0   109 ± 53.7    71.0 - 147
+Milk                                 3    10.7 ± 1.15   10.0 - 12.0   1.23 ± 0.68   0.70 - 2.00   0.50 ± 0.00   0.50 - 0.50   25.0 ± 0.00   25.0 - 25.0   358 ± 61.7    315 - 429
+Mixed dishes                         1    86.0          -             6.00          -             0.50          -             65.0          -             839           -
+Non-alcoholic beverages              6    13.2 ± 5.49   5.00 - 20.0   1.40 ± 0.92   0.70 - 3.00   0.50 ± 0.00   0.50 - 0.50   29.2 ± 10.2   25.0 - 50.0   511 ± 307     161 - 971
+Pasta                                1    33.0          -             1.00          -             0.50          -             50.0          -             646           -
+Potatoes and potato products         3    35.0 ± 23.8   17.0 - 62.0   8.33 ± 3.06   5.00 - 11.0   0.50 ± 0.00   0.50 - 0.50   60.7 ± 13.6   50.0 - 76.0   344 ± 101     238 - 438
+Poultry and game                     2    41.0 ± 21.2   26.0 - 56.0   1.00 ± 0.00   1.00 - 1.00   0.50 ± 0.00   0.50 - 0.50   25.0 ± 0.0    25.0 - 25.0   50.0 ± 1.41   49.0 - 51.0
+Rice and wheat products              2    28.0 ± 17.0   16.0 - 40.0   1.50 ± 0.71   1.00 - 2.00   0.75 ± 0.35   0.50 - 1.00   50.0 ± 0.00   50.0 - 50.0   406 ± 136     310 - 502
+Soups/broths                         1    46.0          -             4.00          -             0.50          -             25.0          -             583           -
+Sugar and sugar derivatives          1    12.0          -             0.70          -             0.50          -             25.0          -             5.00          -
+Sweet and savoury biscuits & bars    1    232           -             58.0          -             3.00          -             527           -             1300          -
+Ultra-fresh dairy products           5    17.2 ± 7.92   10.0 - 27.0   0.88 ± 0.16   0.70 - 1.00   0.50 ± 0.00   0.50 - 0.50   25.0          25.0 - 25.0   379 ± 58.9    328 - 477
+Vegetables excluding potatoes        8    45.3 ± 40.0   5.00 - 129    4.88 ± 4.70   1.00 - 15.0   1.19 ± 1.16   0.50 - 4.00   62.4 ± 44.8   25.0 - 157    1590 ± 853    792 - 3470
+                                                   Sn                           V
+          Food category
+                                     N    Mean ± SD Min-Max           Mean ± SD Min-Max
+Infant foods
+Cereal-based foods                   17   49.2 ± 16.1   42.0 - 83.0   3.18 ± 5.47   0.29 - 20.0
+Follow-on formulae                   34   42.0 ± 0.00   42.0 - 42.0   2.31 ± 2.74   0.50 - 16.0
+Fruit juices                         4    62.5 ± 23.7   42.0 - 83.0   0.88 ± 0.25   0.00 - 1.00
+Fruit purees                         30   424 ± 946     42.0 - 3330   1.40 ± 0.81   1.00 - 4.00
+Growing-up milks                     9    42.0 ± 0.00   42.0 - 42.0   2.50 ± 3.32   0.00 - 11.0
+Infant formulae                      28   42.0 ± 0.00   42.0 - 42.0   2.63 ± 2.83   0.50 - 10.0
+Meat/fish-based ready-to-eat meals   45   49.3 ± 15.9   42.0 - 83.0   2.56 ± 1.32   1.00 - 7.00
+Milk-based beverages                 8    42.0 ± 0.00   42.0 - 42.0   2.13 ± 1.25   1.00 - 5.00
+Milk-based desserts                  6    42.0 ± 0.00   42.0 - 42.0   1.50 ± 1.34   0.00 - 4.00
+Soups/purees                         11   42.0 ± 0.00   42.0 - 42.0   2.18 ± 0.75   1.00 - 3.00
+Vegetable-based ready-to-eat meals   27   59.5 ± 27.7   42.0 - 143    2.19 ± 1.27   1.00 - 6.00
+Common foods
+Bottled waters                       12   42.0 ± 0.00   42.0 - 42.0   0.88 ± 1.00   0.50 - 4.00
+Bread and dried bread products       2    42.0 ± 0.00   42.0 - 42.0   7.00 ± 2.83   5.00 - 9.00
+Butter                               1    42.0          -             0.50          -
+Cheese                               1    42.0          -             36.0          -
+Compotes and cooked fruit            2    42.0 ± 0.00   42.0 - 42.0   1.50 ± 0.71   1.00 - 2.00
+Croissant-like pastries              2    42.0 ± 0.00   42.0 - 42.0   12.0 ± 9.90   5.00 - 19.0
+Dairy-based desserts                 2    42.0 ± 0.00   42.0 - 42.0   23.5 ± 14.8   13.0 - 34.0
+Delicatessen meats                   2    42.0 ± 0.00   42.0 - 42.0   4.00 ± 0.00   4.00 - 4.00
+Eggs and egg products                1    42.0          -             1.00          -
+Fish                                 3    42.0 ± 0.00   42.0 - 42.0   4.00 ± 0.00   4.00 - 4.00
+Fruit                                6    42.0 ± 0.00   42.0 - 42.0   1.00 ± 0.55   0.50 - 2.00
+Hot beverages                        1    42.0          -             4.22          -
+Meat                                 2    42.0 ± 0.00   42.0 - 42.0   1.00 ± 0.00   1.00 - 1.00
+Milk                                 3    42.0 ± 0.00   42.0 - 42.0   0.67 ± 0.29   0.50 - 1.00
+Mixed dishes                         1    42.0          -             4.00          -
+Non-alcoholic beverages              6    42.0 ± 0.00   42.0 - 42.0   3.17 ± 5.34   0.50 - 14.0
+Pasta                                1    42.0          -             3.00          -
+Potatoes and potato products         3    63.3 ± 37.0   42.0 - 106    4.00 ± 4.36   1.00 - 9.00
+Poultry and game                     2    42.0 ± 0.00   42.0 - 42.0   1.50 ± 0.71   1.00 - 2.00
+Rice and wheat products              2    42.0 ± 0.00   42.0 - 42.0   3.50 ± 0.71   3.00 - 4.00
+Soups/broths                         1    42.0          -             3.00          -
+Sugar and sugar derivatives          1    42.0          -             0.50          -
+Sweet and savoury biscuits & bars    1    42.0          -             37.0          -
+Ultra-fresh dairy products           5    42.0 ± 0.00   42.0 - 42.0   0.90 ± 0.65   0.50 - 2.00
+Vegetables excluding potatoes        8    63.9 ± 47.5   42.0 - 176    6.25 ± 10.5   1.00 - 32.0
+

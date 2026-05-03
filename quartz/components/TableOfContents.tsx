@@ -20,6 +20,7 @@ const defaultOptions: Options = {
 const productTocLabels = new Map([
   ["Evidence Governance", "Evidence quality"],
   ["Scaffold Status", "Build status"],
+  ["Regulatory Match Status", "Regulatory match"],
   ["Distribution Context", "Distribution context"],
   ["Measured Values And Concentration Evidence", "Measured values"],
   ["Source Evidence Inventory", "Source evidence"],

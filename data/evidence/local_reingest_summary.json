@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-03T22:08:39.505Z",
+  "product_filter": "infant-formula-powder-non-soy",
+  "include_structured": false,
+  "total_queue_rows": 18,
+  "by_priority": {
+    "P0-extract-direct-product-values": 11,
+    "P0-promote-direct-product-source": 1,
+    "P1-resolve-row-fit-before-extraction": 5,
+    "P1-extract-or-document-context-only": 1
+  },
+  "by_local_pdf_status": {
+    "local_pdf_found": 18
+  },
+  "by_route_status": {
+    "source_on_page_no_structured_value": 12,
+    "missing_direct_product_route": 1,
+    "missing_broad_product_context": 5
+  }
+}

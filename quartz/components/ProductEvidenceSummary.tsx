@@ -69,7 +69,18 @@ export default (() => {
     const evidenceStatus = text(frontmatter.public_evidence_label) ?? labelize(frontmatter.evidence_fitness)
     const population = formatPopulation(frontmatter.vulnerable_population)
     const categoryLabel = text(frontmatter.category_label)
+    const measuredValuesEntry =
+      fileData.toc?.find((tocEntry) => tocEntry.text === "Measured Values At A Glance") ??
+      fileData.toc?.find((tocEntry) => tocEntry.text === "Source Evidence Inventory") ??
+      fileData.toc?.find((tocEntry) => tocEntry.text === "Structured Concentration Rows")
     const shortcuts = [
+      "Standards Evidence Matrix",
+      "HMTc Standards Evidence Matrix",
+      "Standards Calculation Workbench",
+      "Standards Decision Matrix",
+      "Calculation Readiness",
+      "Regulatory Match Status",
+      "Measured Values At A Glance",
       "Source Evidence Inventory",
       "Measured Values And Concentration Evidence",
       "Distribution Context",
@@ -96,14 +107,14 @@ export default (() => {
           <div class="hmi-product-brief-main">
             <h2>Evidence Summary</h2>
             <p>
-              This page summarizes what cited Heavy Metal Index sources report for this product
-              category: metals covered, measured values, regulatory context, and evidence gaps.
+              This page is the Heavy Metal Index evidence record for this product category:
+              metals covered, extracted N values, measured source statistics, regulatory context,
+              resources, and evidence gaps.
             </p>
             <p class="hmi-product-standards-note">
-              Technical extraction details may appear below for traceability, but public pages do
-              not publish HMT&C standards, candidate limits, or certification thresholds. Internal
-              percentile, confidence, and regulatory-ceiling decisions belong in the staff
-              standards workbench.
+              Standards work should use the evidence matrix first. This page shows the evidence
+              inputs, regulatory references, and gaps; final calculations belong in the decision
+              matrix or Ask the Index with cited math.
             </p>
           </div>
 
@@ -138,9 +149,15 @@ export default (() => {
         {metals.length > 0 ? (
           <div class="hmi-product-chip-group" aria-label="Metals covered">
             <span class="hmi-product-chip-label">Metals covered</span>
-            {metals.map((metal) => (
-              <span class="hmi-product-chip">{metal}</span>
-            ))}
+            {metals.map((metal) =>
+              measuredValuesEntry ? (
+                <a class="hmi-product-chip" href={`#${measuredValuesEntry.slug}`} aria-label={`${metal} measured values`}>
+                  {metal}
+                </a>
+              ) : (
+                <span class="hmi-product-chip">{metal}</span>
+              ),
+            )}
           </div>
         ) : null}
 
@@ -170,6 +187,19 @@ export default (() => {
 
 function productShortcutLabel(label: string): string {
   switch (label) {
+    case "Standards Evidence Matrix":
+    case "HMTc Standards Evidence Matrix":
+      return "Standards matrix"
+    case "Standards Calculation Workbench":
+      return "Calculation inputs"
+    case "Standards Decision Matrix":
+      return "Decision matrix"
+    case "Calculation Readiness":
+      return "Calculation readiness"
+    case "Regulatory Match Status":
+      return "Regulatory match"
+    case "Measured Values At A Glance":
+      return "Measured values"
     case "Source Evidence Inventory":
       return "Source evidence"
     case "Measured Values And Concentration Evidence":

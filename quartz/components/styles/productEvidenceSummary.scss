@@ -123,6 +123,16 @@
   padding: 0.42rem 0.56rem;
 }
 
+a.hmi-product-chip {
+  text-decoration: none;
+}
+
+a.hmi-product-chip:hover {
+  background: rgba(139, 42, 74, 0.08);
+  border-color: rgba(139, 42, 74, 0.28);
+  color: var(--secondary);
+}
+
 .hmi-product-chip-group-muted .hmi-product-chip {
   color: var(--gray);
   font-weight: 500;

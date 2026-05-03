@@ -35,20 +35,334 @@ sources: 12
 
 # Infant Formula, Powder (Soy-Based)
 
-This page is a structural scaffold for HMTc Category 1 row 2. Soy-specific powder evidence now includes UK dry soy-formula category values, historical Canadian milk-free/soy-base powder cadmium distributions, and EU pooled soy-formula basket values; current-market soy-powder product-level distributions remain incomplete.
+This page is a structural scaffold for Category 1 row 2. Soy-specific powder evidence now includes UK dry soy-formula category values, historical Canadian milk-free/soy-base powder cadmium distributions, and EU pooled soy-formula basket values; current-market soy-powder product-level distributions remain incomplete.
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Federal / Regulatory Limits vs Field Findings
+<span id="regulatory-match-status"></span>
+
+## Standards Evidence Matrix
+
+<!-- audience: regulator, retailer, brand, legal, app -->
+
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+
+<p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
+
+<table class="hmi-standards-evidence-table">
+<thead>
+<tr>
+<th>Metal</th>
+<th>N</th>
+<th>Loaded source values</th>
+<th>Regulatory reference values</th>
+<th>Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
+<td><strong>57</strong>
+<span class="hmi-crosswalk-status-note">3 sources; prepared-for-feeding and as-sold</span></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>: N=38; prepared-for-feeding; highest 1.1 ppb</li><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a>: N=15; prepared-for-feeding; median 1.27; highest 1.9 ppb</li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a>: N=4; as-sold; mean 109.4; range 98.6-119; highest 119 ppb</li></ul></td>
+<td><ul class="hmi-compact-list"><li><strong>EU:</strong> 20 ug/kg Pb; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></li><li>17 routed sources still need follow-up. 17 have matched local source files but still need extraction or review.</li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
+<td><strong>57</strong>
+<span class="hmi-crosswalk-status-note">3 sources; prepared-for-feeding and as-sold</span></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>: N=38; prepared-for-feeding; highest 1.4 ppb</li><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a>: N=15; prepared-for-feeding; mean 1.56; median 1.39; highest 3.47 ppb</li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a>: N=4; as-sold; mean 11.7; range 8.3-14.5; highest 14.5 ppb</li></ul></td>
+<td><ul class="hmi-compact-list"><li><strong>EU:</strong> 20 ug/kg Cd; as sold; <a href="../regulations/eu-2023-915-cadmium" class="internal" data-slug="regulations/eu-2023-915-cadmium">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></li><li>17 routed sources still need follow-up. 17 have matched local source files but still need extraction or review.</li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No inorganic-arsenic values are loaded. Total arsenic is present elsewhere but cannot substitute for iAs.</td>
+<td><ul class="hmi-compact-list"><li><strong>EU:</strong> 20 ug/kg iAs; as sold; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li><li>FDA: no formula-specific regulatory value loaded for this metal/species.</li></ul></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li>17 routed sources still need follow-up. 17 have matched local source files but still need extraction or review.</li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
+<td><strong>38</strong>
+<span class="hmi-crosswalk-status-note">1 source; prepared-for-feeding</span></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>: N=38; prepared-for-feeding; highest 2.2 ppb</li></ul></td>
+<td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li>17 routed sources still need follow-up. 17 have matched local source files but still need extraction or review.</li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
+<td><strong>38</strong>
+<span class="hmi-crosswalk-status-note">1 source; prepared-for-feeding</span></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>: N=38; prepared-for-feeding; highest 0.3 ppb</li></ul></td>
+<td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></li><li>17 routed sources still need follow-up. 17 have matched local source files but still need extraction or review.</li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/nickel" class="internal" data-slug="metals/nickel">Ni</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
+<td><ul class="hmi-compact-list"><li>17 routed sources still need follow-up. 17 have matched local source files but still need extraction or review.</li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
+<td><strong>22</strong>
+<span class="hmi-crosswalk-status-note">4 sources; prepared-for-feeding and as-sold</span></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a>: N=15; prepared-for-feeding; mean 733; median 713; highest 1461 ppb</li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a>: N=4; as-sold; mean 2270; range 1740-2720; highest 2720 ppb</li><li><a href="../sources/burrell2010-aluminium-in-infant-formulas" class="internal" data-slug="sources/burrell2010-aluminium-in-infant-formulas">Burrell 2010</a>: N=1; as-sold; range 629-629; highest 629 ppb</li><li><a href="../sources/chuchu2013-aluminium-in-infant-formulas" class="internal" data-slug="sources/chuchu2013-aluminium-in-infant-formulas">Chuchu 2013</a>: N=2; as-sold; range 656-756; highest 756 ppb</li></ul></td>
+<td>No FDA or EU regulatory reference value is loaded for this product/metal.</td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></li><li><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></li><li><a href="../sources/burrell2010-aluminium-in-infant-formulas" class="internal" data-slug="sources/burrell2010-aluminium-in-infant-formulas">Burrell 2010</a></li><li><a href="../sources/chuchu2013-aluminium-in-infant-formulas" class="internal" data-slug="sources/chuchu2013-aluminium-in-infant-formulas">Chuchu 2013</a></li><li>17 routed sources still need follow-up. 17 have matched local source files but still need extraction or review.</li></ul></td>
+</tr>
+</tbody>
+</table>
+
+## Standards Decision Matrix
+
+<!-- audience: regulator, retailer, brand, legal, app -->
+
+This matrix translates the product evidence into the decisions the page needs to support. It keeps HMTc standards calculations, regulatory references, operational QC, and legal defensibility separate so a visible limit is not mistaken for a finished HMTc standard.
+
+<table class="hmi-decision-matrix-table">
+<thead>
+<tr>
+<th>Decision lane</th>
+<th>Question this page should answer</th>
+<th>Current read</th>
+<th>Next action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>HMTc standards development</strong></td>
+<td>Build a defensible clean-subcategory standard only after source inclusion, product fit, metal species, basis, censoring, and confidence are resolved.</td>
+<td>4 metals have at least one distribution-capable row loaded (tAs, Pb, Cd, and tHg); standards math still requires source-fit and basis review. Standards matrix tracks 7 metal/species rows (Pb, Cd, iAs, tAs, tHg, Al, and Ni). 17 routed sources still need follow-up before the evidence pool is complete. 17 have matched local source files but still need extraction or review.</td>
+<td>Use the standards evidence matrix as the row index; add missing sources, normalize basis/species, then run the standards calculation only after the source pool is complete enough.</td>
+</tr>
+<tr>
+<td><strong>Retail/spec programs</strong></td>
+<td>See regulatory reference values beside the extracted evidence record, without treating either one as the other.</td>
+<td>3 regulatory reference values loaded (EU). 3 rows are visible as context but blocked for direct comparison.</td>
+<td>Use the loaded FDA/EU values as jurisdiction-specific guardrails; keep basis, status, and analyte labels visible in any procurement spec.</td>
+</tr>
+<tr>
+<td><strong>Brand QC operations</strong></td>
+<td>Turn the evidence pool into a test plan: which metals, which product form, which lab basis, and what data fields must be captured.</td>
+<td>12 measured-value rows loaded across 5 metals; current basis: prepared-for-feeding and as-sold.</td>
+<td>Match lab testing to the product row and metal species; capture sample count, LOD/LOQ, censoring, unit basis, and prepared-vs-as-sold handling.</td>
+</tr>
+<tr>
+<td><strong>Legal/claims defense</strong></td>
+<td>Separate evidence, standards work, and legal reference values so claims do not overstate comparability.</td>
+<td>3 comparison rows are blocked by basis, species, or scope and should be described as context only. 17 routed sources still need follow-up before the evidence pool is complete. 17 have matched local source files but still need extraction or review.</td>
+<td>Prioritize pending extraction and row-fit sources, then cite each conclusion with source, product row, metal species, basis, jurisdiction, and comparison status.</td>
+</tr>
+</tbody>
+</table>
+
+<details class="hmi-crosswalk-details">
+<summary>Scope details and evidence-use notes</summary>
+<ul>
+<li><strong>Pb:</strong> Limit scope: infant formulae, follow-on formulae, and young-child formulae placed on the market as powder. Basis: product as placed on market. Comparison note: EU maximum level loaded; comparison blocked because occurrence row is prepared-for-feeding while EU powder ML is product-as-placed. Use: External EU legal ceiling; use for standards context only after basis conversion.</li>
+<li><strong>Cd:</strong> Limit scope: infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as powder and manufactured from soy protein isolates alone or mixed with cow's milk proteins. Basis: product as placed on market. Comparison note: EU maximum level loaded; comparison blocked because occurrence row is prepared-for-feeding while EU powder ML is product-as-placed. Use: External EU legal ceiling; use for standards context only after basis conversion.</li>
+<li><strong>iAs:</strong> Limit scope: infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as powder. Basis: product as placed on market. Comparison note: EU maximum level loaded; comparison blocked because occurrence row is total arsenic and prepared-for-feeding while EU value is inorganic arsenic and product-as-placed. Use: External EU legal ceiling and speciation gap marker; not a direct comparison.</li>
+</ul>
+</details>
+
+
+## Measured Values At A Glance
 
 <!-- audience: regulator, educator, consumer, app -->
 
-This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
+This table is the fast route from a metal name to the loaded product-row values. It is an extraction ledger for N, mean, median, high/low context, basis, and source resources. It is not where final standards values are selected.
 
-| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: infant formulae, follow-on formulae, and young-child formulae placed on the market as powder. Basis: product as placed on market. | FDA 2026 prepared-for-feeding soy powder subset: N=38; Pb detected 0.1-1.1 ug/kg; values are not powder-as-placed. | EU maximum level loaded; comparison blocked because occurrence row is prepared-for-feeding while EU powder ML is product-as-placed. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
-| [[metals/cadmium]] (Cd) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 20 ug/kg Cd. Scope: infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as powder and manufactured from soy protein isolates alone or mixed with cow's milk proteins. Basis: product as placed on market. | FDA 2026 prepared-for-feeding soy powder subset: N=38; Cd detected 0.4-1.4 ug/kg; values are not powder-as-placed. | EU maximum level loaded; comparison blocked because occurrence row is prepared-for-feeding while EU powder ML is product-as-placed. | [[regulations/eu-2023-915-cadmium]]; [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
-| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as powder. Basis: product as placed on market. | FDA 2026 reports total arsenic for this formula subset; no comparable inorganic arsenic field row is loaded. | EU maximum level loaded; comparison blocked because occurrence row is total arsenic and prepared-for-feeding while EU value is inorganic arsenic and product-as-placed. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+<table class="hmi-measured-values-table">
+<thead>
+<tr>
+<th>Metal</th>
+<th>Study</th>
+<th>Product/basis</th>
+<th>N</th>
+<th>Loaded values</th>
+<th>Use in standards work</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
+<td><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></td>
+<td>Infant formula powder, soy-based, as consumed<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
+<td>15</td>
+<td>median 1.27; highest 1.9 ppb</td>
+<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
+</tr>
+<tr>
+<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
+<td><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></td>
+<td>Infant Formula, Powder, Soy-based<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
+<td>38</td>
+<td>highest 1.1 ppb</td>
+<td>Distribution-capable input after row fit, basis, censoring, and clean-row review; not a standalone standard.</td>
+</tr>
+<tr>
+<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
+<td><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></td>
+<td>Soy-based infant formula powder, pasted Table 3<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
+<td>4</td>
+<td>mean 109.4; range 98.6-119; highest 119 ppb</td>
+<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
+</tr>
+<tr>
+<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
+<td><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></td>
+<td>Infant formula powder, soy-based, as consumed<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
+<td>15</td>
+<td>mean 1.56; median 1.39; highest 3.47 ppb</td>
+<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
+</tr>
+<tr>
+<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
+<td><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></td>
+<td>Infant Formula, Powder, Soy-based<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
+<td>38</td>
+<td>highest 1.4 ppb</td>
+<td>Distribution-capable input after row fit, basis, censoring, and clean-row review; not a standalone standard.</td>
+</tr>
+<tr>
+<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
+<td><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></td>
+<td>Soy-based infant formula powder, pasted Table 3<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
+<td>4</td>
+<td>mean 11.7; range 8.3-14.5; highest 14.5 ppb</td>
+<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
+</tr>
+<tr>
+<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
+<td><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></td>
+<td>Infant Formula, Powder, Soy-based<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
+<td>38</td>
+<td>highest 2.2 ppb</td>
+<td>Distribution-capable input after row fit, basis, censoring, and clean-row review; not a standalone standard.</td>
+</tr>
+<tr>
+<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
+<td><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a></td>
+<td>Infant Formula, Powder, Soy-based<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
+<td>38</td>
+<td>highest 0.3 ppb</td>
+<td>Distribution-capable input after row fit, basis, censoring, and clean-row review; not a standalone standard.</td>
+</tr>
+<tr>
+<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
+<td><a href="../sources/burrell2010-aluminium-in-infant-formulas" class="internal" data-slug="sources/burrell2010-aluminium-in-infant-formulas">Burrell 2010</a></td>
+<td>Soy-based formula powder, prepared estimate<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
+<td>1</td>
+<td>range 629-629; highest 629 ppb</td>
+<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
+</tr>
+<tr>
+<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
+<td><a href="../sources/chuchu2013-aluminium-in-infant-formulas" class="internal" data-slug="sources/chuchu2013-aluminium-in-infant-formulas">Chuchu 2013</a></td>
+<td>Soy-based formula products, prepared estimate<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
+<td>2</td>
+<td>range 656-756; highest 756 ppb</td>
+<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
+</tr>
+<tr>
+<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
+<td><a href="../sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum" class="internal" data-slug="sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">Dabeka 2011</a></td>
+<td>Infant formula powder, soy-based, as consumed<br><span class="hmi-crosswalk-status-note">prepared-for-feeding</span></td>
+<td>15</td>
+<td>mean 733; median 713; highest 1461 ppb</td>
+<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
+</tr>
+<tr>
+<td><a href="../metals/aluminum" class="internal" data-slug="metals/aluminum">Al</a></td>
+<td><a href="../sources/kazi2009-toxic-elements-in-infant-formulae" class="internal" data-slug="sources/kazi2009-toxic-elements-in-infant-formulae">Kazi 2009</a></td>
+<td>Soy-based infant formula powder, pasted Table 3<br><span class="hmi-crosswalk-status-note">as-sold</span></td>
+<td>4</td>
+<td>mean 2270; range 1740-2720; highest 2720 ppb</td>
+<td>Summary/range input for evidence context; not enough for aggregate distribution math alone.</td>
+</tr>
+</tbody>
+</table>
+
+<p class="hmi-source-route-summary"><strong>Source routing check:</strong> 5 sources already have structured value rows for this product, 7 sources are cited on the page without structured value rows, and 10 declared formula sources are not yet visible here.</p>
+<details class="hmi-crosswalk-details hmi-source-routing-audit" open>
+<summary>Declared formula sources not yet visible on this page</summary>
+<p>These rows are an inclusion audit, not a standards math table. Broad formula sources should be visible for traceability, but they stay out of standards calculations until powder/liquid, soy/non-soy, analyte species, basis, and distribution fitness are resolved.</p>
+<table class="hmi-source-routing-table">
+<thead>
+<tr>
+<th>Status</th>
+<th>Declared route</th>
+<th>Next action</th>
+<th>Study</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--blocked">Needs routing</span></td>
+<td>Exact product link</td>
+<td>Promote this source to the product page, then decide whether structured values can be extracted.</td>
+<td><a href="../sources/chung2021-china-infant-formula-toxic-elements" class="internal" data-slug="sources/chung2021-china-infant-formula-toxic-elements" title="Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market">Chung 2021</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--blocked">Needs routing</span></td>
+<td>Exact product link</td>
+<td>Promote this source to the product page, then decide whether structured values can be extracted.</td>
+<td><a href="../sources/gardener2019-lead-cadmium-infant-formula-baby-food" class="internal" data-slug="sources/gardener2019-lead-cadmium-infant-formula-baby-food" title="Lead and cadmium contamination in a large sample of United States infant formulas and baby foods">Gardener 2019</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--pending">Broad powder</span></td>
+<td>Broad powdered formula</td>
+<td>Promote as broad formula context; do not use in standards calculations until row fit is resolved.</td>
+<td><a href="../sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin" class="internal" data-slug="sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin" title="Determination of aflatoxin M1 and heavy metals in infant formula milk brands available in Pakistani markets">Akhtar 2017</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--pending">Broad powder</span></td>
+<td>Broad powdered formula</td>
+<td>Promote as broad formula context; do not use in standards calculations until row fit is resolved.</td>
+<td><a href="../sources/almeida2022-brazil-infant-formula-toxic-metals" class="internal" data-slug="sources/almeida2022-brazil-infant-formula-toxic-metals" title="Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk">Almeida 2022</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--pending">Broad powder</span></td>
+<td>Broad powdered formula</td>
+<td>Promote as broad formula context; do not use in standards calculations until row fit is resolved.</td>
+<td><a href="../sources/astolfi2021-italy-powdered-infant-formula-elements" class="internal" data-slug="sources/astolfi2021-italy-powdered-infant-formula-elements" title="Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment">Astolfi 2021</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--pending">Broad powder</span></td>
+<td>Broad powdered formula</td>
+<td>Promote as broad formula context; do not use in standards calculations until row fit is resolved.</td>
+<td><a href="../sources/lutfullah2014-peshawar-dried-fluid-milk-metals" class="internal" data-slug="sources/lutfullah2014-peshawar-dried-fluid-milk-metals" title="Comparative study of heavy metals in dried and fluid milk in Peshawar by atomic absorption spectrophotometry">Lutfullah 2014</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--pending">Broad powder</span></td>
+<td>Broad powdered formula</td>
+<td>Promote as broad formula context; do not use in standards calculations until row fit is resolved.</td>
+<td><a href="../sources/meli2024-chemical-characterization-baby-food-italy" class="internal" data-slug="sources/meli2024-chemical-characterization-baby-food-italy" title="Chemical characterization of baby food consumed in Italy">Meli 2024</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--pending">Broad formula</span></td>
+<td>Broad formula</td>
+<td>Promote as broad formula context; do not use in standards calculations until row fit is resolved.</td>
+<td><a href="../sources/amarh2023-ghana-infant-food-heavy-metals" class="internal" data-slug="sources/amarh2023-ghana-infant-food-heavy-metals" title="Health risk assessment of some selected heavy metals in infant food sold in Wa, Ghana">Amarh 2023</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--pending">Broad formula</span></td>
+<td>Broad formula</td>
+<td>Promote as broad formula context; do not use in standards calculations until row fit is resolved.</td>
+<td><a href="../sources/efsa-cadmium-contam-2009" class="internal" data-slug="sources/efsa-cadmium-contam-2009" title="Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food">Efsa Cadmium Contam 2009</a></td>
+</tr>
+<tr>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--pending">Broad formula</span></td>
+<td>Broad formula</td>
+<td>Promote as broad formula context; do not use in standards calculations until row fit is resolved.</td>
+<td><a href="../sources/tatsuta2024-methylmercury-intake-children-duplicate-diet" class="internal" data-slug="sources/tatsuta2024-methylmercury-intake-children-duplicate-diet" title="Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan">Tatsuta 2024</a></td>
+</tr>
+</tbody>
+</table>
+</details>
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -58,7 +372,7 @@ Public evidence label: **Modeled or limited evidence**.
 
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
 
-This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
+This page does not publish or justify certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 ## Scaffold Status
 

@@ -1,0 +1,574 @@
+SOURCE ID: pandelova2012-eu-baby-food-formula-elements
+SOURCE TITLE: Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market: Comparison of assessed infant intakes with the present safety limits for minerals and trace elements
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: raw/studies/pandelova2012.pdf
+METALS DECLARED: [Cd, tHg, Ni, Pb, Ca, Cu, Fe, Mn, Se, Zn]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 3-7 ---
+    3 | 
+    4 | 
+    5 |                                                           Contents lists available at SciVerse ScienceDirect
+    6 | 
+    7 | 
+
+--- lines 7-11 ---
+    7 | 
+    8 |                                             Journal of Food Composition and Analysis
+    9 |                                                    journal homepage: www.elsevier.com/locate/jfca
+   10 | 
+   11 | 
+
+--- lines 10-14 ---
+   10 | 
+   11 | 
+   12 | Original Research Article
+   13 | 
+   14 | Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market:
+
+--- lines 12-16 ---
+   12 | Original Research Article
+   13 | 
+   14 | Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market:
+   15 | Comparison of assessed infant intakes with the present safety limits for minerals
+   16 | and trace elements
+
+--- lines 13-17 ---
+   13 | 
+   14 | Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market:
+   15 | Comparison of assessed infant intakes with the present safety limits for minerals
+   16 | and trace elements
+   17 | Marchela Pandelova a,*, Walkiria Levy Lopez a, Bernhard Michalke a, Karl-Werner Schramm a,b
+
+--- lines 17-21 ---
+   17 | Marchela Pandelova a,*, Walkiria Levy Lopez a, Bernhard Michalke a, Karl-Werner Schramm a,b
+   18 | a
+   19 |     Helmholtz Zentrum München, German Research Center for Environmental Health, Institute of Ecological Chemistry, Ingolstädter Landstrasse 1, 85764 Neuherberg, Germany
+   20 | b
+   21 |     TUM, Wissenschaftszentrum Weihenstephan für Ernährung und Landnutzung, Department für Biowissenschaften, Weihenstephaner Steig 23, 85350 Freising, Germany
+
+--- lines 19-23 ---
+   19 |     Helmholtz Zentrum München, German Research Center for Environmental Health, Institute of Ecological Chemistry, Ingolstädter Landstrasse 1, 85764 Neuherberg, Germany
+   20 | b
+   21 |     TUM, Wissenschaftszentrum Weihenstephan für Ernährung und Landnutzung, Department für Biowissenschaften, Weihenstephaner Steig 23, 85350 Freising, Germany
+   22 | 
+   23 | 
+
+--- lines 26-30 ---
+   26 | A R T I C L E I N F O                                    A B S T R A C T
+   27 | 
+   28 | Article history:                                         In this study calcium (Ca), cadmium (Cd), copper (Cu), iron (Fe), mercury (Hg), manganese (Mn), nickel
+   29 | Received 17 October 2011                                 (Ni), lead (Pb), selenium (Se), and zinc (Zn) were determined in most consumed baby foods in Europe
+   30 | Received in revised form 9 March 2012                    including infant formulae and solid foods and beverages (SFB). Additionally, Cd and Zn contents were
+
+--- lines 27-31 ---
+   27 | 
+   28 | Article history:                                         In this study calcium (Ca), cadmium (Cd), copper (Cu), iron (Fe), mercury (Hg), manganese (Mn), nickel
+   29 | Received 17 October 2011                                 (Ni), lead (Pb), selenium (Se), and zinc (Zn) were determined in most consumed baby foods in Europe
+   30 | Received in revised form 9 March 2012                    including infant formulae and solid foods and beverages (SFB). Additionally, Cd and Zn contents were
+   31 | Accepted 25 April 2012
+
+--- lines 28-32 ---
+   28 | Article history:                                         In this study calcium (Ca), cadmium (Cd), copper (Cu), iron (Fe), mercury (Hg), manganese (Mn), nickel
+   29 | Received 17 October 2011                                 (Ni), lead (Pb), selenium (Se), and zinc (Zn) were determined in most consumed baby foods in Europe
+   30 | Received in revised form 9 March 2012                    including infant formulae and solid foods and beverages (SFB). Additionally, Cd and Zn contents were
+   31 | Accepted 25 April 2012
+   32 |                                                          determined in baby foods from the ‘‘national baskets’’ of four selected countries (Italy, Spain, Slovakia,
+
+--- lines 30-34 ---
+   30 | Received in revised form 9 March 2012                    including infant formulae and solid foods and beverages (SFB). Additionally, Cd and Zn contents were
+   31 | Accepted 25 April 2012
+   32 |                                                          determined in baby foods from the ‘‘national baskets’’ of four selected countries (Italy, Spain, Slovakia,
+   33 |                                                          and Sweden). Overall, highest element levels were found in the soy-based infant formulae. Furthermore,
+   34 | Keywords:                                                the assessed daily/weekly intakes of the 0–9-month-old non-breast-fed infants were compared with the
+
+--- lines 31-35 ---
+   31 | Accepted 25 April 2012
+   32 |                                                          determined in baby foods from the ‘‘national baskets’’ of four selected countries (Italy, Spain, Slovakia,
+   33 |                                                          and Sweden). Overall, highest element levels were found in the soy-based infant formulae. Furthermore,
+   34 | Keywords:                                                the assessed daily/weekly intakes of the 0–9-month-old non-breast-fed infants were compared with the
+   35 | Minerals
+
+--- lines 32-36 ---
+   32 |                                                          determined in baby foods from the ‘‘national baskets’’ of four selected countries (Italy, Spain, Slovakia,
+   33 |                                                          and Sweden). Overall, highest element levels were found in the soy-based infant formulae. Furthermore,
+   34 | Keywords:                                                the assessed daily/weekly intakes of the 0–9-month-old non-breast-fed infants were compared with the
+   35 | Minerals
+   36 |                                                          current safety limits of the 10 elements here analyzed. Assessment to Cd exposure to infants consuming
+
+--- lines 34-38 ---
+   34 | Keywords:                                                the assessed daily/weekly intakes of the 0–9-month-old non-breast-fed infants were compared with the
+   35 | Minerals
+   36 |                                                          current safety limits of the 10 elements here analyzed. Assessment to Cd exposure to infants consuming
+   37 | Micronutrients
+   38 | Trace element
+
+--- lines 37-41 ---
+   37 | Micronutrients
+   38 | Trace element
+   39 |                                                          commercial SFB was found to exceed the limit established by the European Food Safety Authority (EFSA)
+   40 | Heavy metal contamination in food                        of a tolerable weekly intake (TWI) of 2.5 mg Cd/kg bw. Furthermore, mercury acquisition higher than the
+   41 | Recommended dietary allowance                            Joint FAO/WHO Expert Committee of Food Additives (JECFA) established provisional tolerable weekly
+
+--- lines 38-42 ---
+   38 | Trace element
+   39 |                                                          commercial SFB was found to exceed the limit established by the European Food Safety Authority (EFSA)
+   40 | Heavy metal contamination in food                        of a tolerable weekly intake (TWI) of 2.5 mg Cd/kg bw. Furthermore, mercury acquisition higher than the
+   41 | Recommended dietary allowance                            Joint FAO/WHO Expert Committee of Food Additives (JECFA) established provisional tolerable weekly
+   42 | Food analysis                                            intake (PTWI) of 4 mg Hg/kg bw was determined for infants fed speciﬁcally with ‘‘follow on’’ milk infant
+
+--- lines 40-44 ---
+   40 | Heavy metal contamination in food                        of a tolerable weekly intake (TWI) of 2.5 mg Cd/kg bw. Furthermore, mercury acquisition higher than the
+   41 | Recommended dietary allowance                            Joint FAO/WHO Expert Committee of Food Additives (JECFA) established provisional tolerable weekly
+   42 | Food analysis                                            intake (PTWI) of 4 mg Hg/kg bw was determined for infants fed speciﬁcally with ‘‘follow on’’ milk infant
+   43 | Infant                                                   formula. In regard to the estimated infant intakes of the non-essential (Pb and Ni) and the essential (Ca,
+   44 | Infant formula                                           Cu, Fe, Mn, Se and Zn) elements the values were within the safety limits.
+
+--- lines 41-45 ---
+   41 | Recommended dietary allowance                            Joint FAO/WHO Expert Committee of Food Additives (JECFA) established provisional tolerable weekly
+   42 | Food analysis                                            intake (PTWI) of 4 mg Hg/kg bw was determined for infants fed speciﬁcally with ‘‘follow on’’ milk infant
+   43 | Infant                                                   formula. In regard to the estimated infant intakes of the non-essential (Pb and Ni) and the essential (Ca,
+   44 | Infant formula                                           Cu, Fe, Mn, Se and Zn) elements the values were within the safety limits.
+   45 | Baby food                                                                                                                ß 2012 Elsevier Inc. All rights reserved.
+
+--- lines 42-46 ---
+   42 | Food analysis                                            intake (PTWI) of 4 mg Hg/kg bw was determined for infants fed speciﬁcally with ‘‘follow on’’ milk infant
+   43 | Infant                                                   formula. In regard to the estimated infant intakes of the non-essential (Pb and Ni) and the essential (Ca,
+   44 | Infant formula                                           Cu, Fe, Mn, Se and Zn) elements the values were within the safety limits.
+   45 | Baby food                                                                                                                ß 2012 Elsevier Inc. All rights reserved.
+   46 | Exposure
+
+--- lines 43-47 ---
+   43 | Infant                                                   formula. In regard to the estimated infant intakes of the non-essential (Pb and Ni) and the essential (Ca,
+   44 | Infant formula                                           Cu, Fe, Mn, Se and Zn) elements the values were within the safety limits.
+   45 | Baby food                                                                                                                ß 2012 Elsevier Inc. All rights reserved.
+   46 | Exposure
+   47 | Europe
+
+--- lines 46-50 ---
+   46 | Exposure
+   47 | Europe
+   48 | Food safety
+   49 | Food composition
+   50 | 
+
+--- lines 52-56 ---
+   52 | 
+   53 | 
+   54 |                                                                                           infant’s diet. According to statistics from 2007, few European
+   55 | 1. Introduction
+   56 |                                                                                           women breastfeed their infants exclusively at 6 months of age, and
+
+--- lines 54-58 ---
+   54 |                                                                                           infant’s diet. According to statistics from 2007, few European
+   55 | 1. Introduction
+   56 |                                                                                           women breastfeed their infants exclusively at 6 months of age, and
+   57 |                                                                                           only 33% of infants in the USA are exclusively breastfed up to 3
+   58 |    During infancy, breast milk and infant formulae are the major
+
+--- lines 55-59 ---
+   55 | 1. Introduction
+   56 |                                                                                           women breastfeed their infants exclusively at 6 months of age, and
+   57 |                                                                                           only 33% of infants in the USA are exclusively breastfed up to 3
+   58 |    During infancy, breast milk and infant formulae are the major
+   59 |                                                                                           months of age (Cattaneo, 2004). An increasing number of mothers
+
+--- lines 56-60 ---
+   56 |                                                                                           women breastfeed their infants exclusively at 6 months of age, and
+   57 |                                                                                           only 33% of infants in the USA are exclusively breastfed up to 3
+   58 |    During infancy, breast milk and infant formulae are the major
+   59 |                                                                                           months of age (Cattaneo, 2004). An increasing number of mothers
+   60 | source of nutrients for infants (Ikem et al., 2002). Although the
+
+--- lines 57-61 ---
+   57 |                                                                                           only 33% of infants in the USA are exclusively breastfed up to 3
+   58 |    During infancy, breast milk and infant formulae are the major
+   59 |                                                                                           months of age (Cattaneo, 2004). An increasing number of mothers
+   60 | source of nutrients for infants (Ikem et al., 2002). Although the
+   61 |                                                                                           feed their babies with industrially processed formula milk or solids
+
+--- lines 59-63 ---
+   59 |                                                                                           months of age (Cattaneo, 2004). An increasing number of mothers
+   60 | source of nutrients for infants (Ikem et al., 2002). Although the
+   61 |                                                                                           feed their babies with industrially processed formula milk or solids
+   62 | World Health Organization (WHO) recommends breastfeeding as
+   63 |                                                                                           such as vegetables and meat or ﬁsh purée, so that in recent years
+
+--- lines 60-64 ---
+   60 | source of nutrients for infants (Ikem et al., 2002). Although the
+   61 |                                                                                           feed their babies with industrially processed formula milk or solids
+   62 | World Health Organization (WHO) recommends breastfeeding as
+   63 |                                                                                           such as vegetables and meat or ﬁsh purée, so that in recent years
+   64 | the best feeding choice (WHO, 2008), infant formulae are an
+
+--- lines 62-66 ---
+   62 | World Health Organization (WHO) recommends breastfeeding as
+   63 |                                                                                           such as vegetables and meat or ﬁsh purée, so that in recent years
+   64 | the best feeding choice (WHO, 2008), infant formulae are an
+   65 |                                                                                           the baby food market and the assortment of products offered have
+   66 | alternative to breast-milk that often play an important role in the
+
+--- lines 63-67 ---
+   63 |                                                                                           such as vegetables and meat or ﬁsh purée, so that in recent years
+   64 | the best feeding choice (WHO, 2008), infant formulae are an
+   65 |                                                                                           the baby food market and the assortment of products offered have
+   66 | alternative to breast-milk that often play an important role in the
+   67 |                                                                                           grown signiﬁcantly. Since the ﬁrst year of life is a sensitive period
+
+--- lines 65-69 ---
+   65 |                                                                                           the baby food market and the assortment of products offered have
+   66 | alternative to breast-milk that often play an important role in the
+   67 |                                                                                           grown signiﬁcantly. Since the ﬁrst year of life is a sensitive period
+   68 |                                                                                           in the human development of the nervous, reproductive, digestive,
+   69 | Abbreviations: ATSDR, Agency for Toxic Substance and Disease Registry; bw, body           respiratory and immune systems, the composition of baby foods
+
+--- lines 67-71 ---
+   67 |                                                                                           grown signiﬁcantly. Since the ﬁrst year of life is a sensitive period
+   68 |                                                                                           in the human development of the nervous, reproductive, digestive,
+   69 | Abbreviations: ATSDR, Agency for Toxic Substance and Disease Registry; bw, body           respiratory and immune systems, the composition of baby foods
+   70 | weight; Ca, calcium; Cd, cadmium; Cu, copper; dw, dry weight; EFSA, European              and their consumption pattern are crucial.
+   71 | Food Safety Authority; EU, European Union; Fe, iron; fHAf, ‘‘follow-on’’ hypoaller-           Despite the beneﬁts of infant formulas as a major source of food
+
+--- lines 68-72 ---
+   68 |                                                                                           in the human development of the nervous, reproductive, digestive,
+   69 | Abbreviations: ATSDR, Agency for Toxic Substance and Disease Registry; bw, body           respiratory and immune systems, the composition of baby foods
+   70 | weight; Ca, calcium; Cd, cadmium; Cu, copper; dw, dry weight; EFSA, European              and their consumption pattern are crucial.
+   71 | Food Safety Authority; EU, European Union; Fe, iron; fHAf, ‘‘follow-on’’ hypoaller-           Despite the beneﬁts of infant formulas as a major source of food
+   72 | genic-based infant formula; fMf, ‘‘follow-on’’ milk-based infant formula; fSf,            for infants, the presence of contaminants, such as heavy metals,
+
+--- lines 69-73 ---
+   69 | Abbreviations: ATSDR, Agency for Toxic Substance and Disease Registry; bw, body           respiratory and immune systems, the composition of baby foods
+   70 | weight; Ca, calcium; Cd, cadmium; Cu, copper; dw, dry weight; EFSA, European              and their consumption pattern are crucial.
+   71 | Food Safety Authority; EU, European Union; Fe, iron; fHAf, ‘‘follow-on’’ hypoaller-           Despite the beneﬁts of infant formulas as a major source of food
+   72 | genic-based infant formula; fMf, ‘‘follow-on’’ milk-based infant formula; fSf,            for infants, the presence of contaminants, such as heavy metals,
+   73 | ‘‘follow-on’’ soy-based infant formula; fw, fresh weight; HAf, hypoallergenic-based
+
+--- lines 70-74 ---
+   70 | weight; Ca, calcium; Cd, cadmium; Cu, copper; dw, dry weight; EFSA, European              and their consumption pattern are crucial.
+   71 | Food Safety Authority; EU, European Union; Fe, iron; fHAf, ‘‘follow-on’’ hypoaller-           Despite the beneﬁts of infant formulas as a major source of food
+   72 | genic-based infant formula; fMf, ‘‘follow-on’’ milk-based infant formula; fSf,            for infants, the presence of contaminants, such as heavy metals,
+   73 | ‘‘follow-on’’ soy-based infant formula; fw, fresh weight; HAf, hypoallergenic-based
+   74 |                                                                                           may pose health risks to children (Souad et al., 2006; Tripathi et al.,
+
+--- lines 71-75 ---
+   71 | Food Safety Authority; EU, European Union; Fe, iron; fHAf, ‘‘follow-on’’ hypoaller-           Despite the beneﬁts of infant formulas as a major source of food
+   72 | genic-based infant formula; fMf, ‘‘follow-on’’ milk-based infant formula; fSf,            for infants, the presence of contaminants, such as heavy metals,
+   73 | ‘‘follow-on’’ soy-based infant formula; fw, fresh weight; HAf, hypoallergenic-based
+   74 |                                                                                           may pose health risks to children (Souad et al., 2006; Tripathi et al.,
+   75 | infant formula; HFCS, high fructose corn syrup; Hg, mercury; JECFA, Joint FAO/WHO
+
+--- lines 72-76 ---
+   72 | genic-based infant formula; fMf, ‘‘follow-on’’ milk-based infant formula; fSf,            for infants, the presence of contaminants, such as heavy metals,
+   73 | ‘‘follow-on’’ soy-based infant formula; fw, fresh weight; HAf, hypoallergenic-based
+   74 |                                                                                           may pose health risks to children (Souad et al., 2006; Tripathi et al.,
+   75 | infant formula; HFCS, high fructose corn syrup; Hg, mercury; JECFA, Joint FAO/WHO
+   76 | Expert Committee of Food Additives; Mf, milk-based infant formula; Mn,                    2001). Moreover, infants tend to be exposed to relatively higher
+
+--- lines 73-77 ---
+   73 | ‘‘follow-on’’ soy-based infant formula; fw, fresh weight; HAf, hypoallergenic-based
+   74 |                                                                                           may pose health risks to children (Souad et al., 2006; Tripathi et al.,
+   75 | infant formula; HFCS, high fructose corn syrup; Hg, mercury; JECFA, Joint FAO/WHO
+   76 | Expert Committee of Food Additives; Mf, milk-based infant formula; Mn,                    2001). Moreover, infants tend to be exposed to relatively higher
+   77 | manganese; Ni, nickel; Pb, lead; PTWI, provisional tolerable weekly intake; RDI,          levels of food chemicals, since they consume more food than adults
+
+--- lines 74-78 ---
+   74 |                                                                                           may pose health risks to children (Souad et al., 2006; Tripathi et al.,
+   75 | infant formula; HFCS, high fructose corn syrup; Hg, mercury; JECFA, Joint FAO/WHO
+   76 | Expert Committee of Food Additives; Mf, milk-based infant formula; Mn,                    2001). Moreover, infants tend to be exposed to relatively higher
+   77 | manganese; Ni, nickel; Pb, lead; PTWI, provisional tolerable weekly intake; RDI,          levels of food chemicals, since they consume more food than adults
+   78 | recommended daily intake; RF, radio frequency; SCF, Scientiﬁc Committee for Food;         relative to their body weight. Thus, a child can absorb as much as
+
+--- lines 75-79 ---
+   75 | infant formula; HFCS, high fructose corn syrup; Hg, mercury; JECFA, Joint FAO/WHO
+   76 | Expert Committee of Food Additives; Mf, milk-based infant formula; Mn,                    2001). Moreover, infants tend to be exposed to relatively higher
+   77 | manganese; Ni, nickel; Pb, lead; PTWI, provisional tolerable weekly intake; RDI,          levels of food chemicals, since they consume more food than adults
+   78 | recommended daily intake; RF, radio frequency; SCF, Scientiﬁc Committee for Food;         relative to their body weight. Thus, a child can absorb as much as
+   79 | Se, selenium; Sf, soy-based infant formula; TDI, tolerable daily intake; TWI,
+
+--- lines 76-80 ---
+   76 | Expert Committee of Food Additives; Mf, milk-based infant formula; Mn,                    2001). Moreover, infants tend to be exposed to relatively higher
+   77 | manganese; Ni, nickel; Pb, lead; PTWI, provisional tolerable weekly intake; RDI,          levels of food chemicals, since they consume more food than adults
+   78 | recommended daily intake; RF, radio frequency; SCF, Scientiﬁc Committee for Food;         relative to their body weight. Thus, a child can absorb as much as
+   79 | Se, selenium; Sf, soy-based infant formula; TDI, tolerable daily intake; TWI,
+   80 |                                                                                           50% of the lead present in food, whereas an adult takes up only 10%
+
+--- lines 77-81 ---
+   77 | manganese; Ni, nickel; Pb, lead; PTWI, provisional tolerable weekly intake; RDI,          levels of food chemicals, since they consume more food than adults
+   78 | recommended daily intake; RF, radio frequency; SCF, Scientiﬁc Committee for Food;         relative to their body weight. Thus, a child can absorb as much as
+   79 | Se, selenium; Sf, soy-based infant formula; TDI, tolerable daily intake; TWI,
+   80 |                                                                                           50% of the lead present in food, whereas an adult takes up only 10%
+   81 | tolerable weekly intake; UL, tolerable upper limit; WHO, World Health Organiza-
+
+--- lines 78-82 ---
+   78 | recommended daily intake; RF, radio frequency; SCF, Scientiﬁc Committee for Food;         relative to their body weight. Thus, a child can absorb as much as
+   79 | Se, selenium; Sf, soy-based infant formula; TDI, tolerable daily intake; TWI,
+   80 |                                                                                           50% of the lead present in food, whereas an adult takes up only 10%
+   81 | tolerable weekly intake; UL, tolerable upper limit; WHO, World Health Organiza-
+   82 | tion; Zn, zinc.
+
+--- lines 79-83 ---
+   79 | Se, selenium; Sf, soy-based infant formula; TDI, tolerable daily intake; TWI,
+   80 |                                                                                           50% of the lead present in food, whereas an adult takes up only 10%
+   81 | tolerable weekly intake; UL, tolerable upper limit; WHO, World Health Organiza-
+   82 | tion; Zn, zinc.
+   83 |                                                                                           (CEC, 2003). There is evidence that vegetables are able to
+
+--- lines 80-84 ---
+   80 |                                                                                           50% of the lead present in food, whereas an adult takes up only 10%
+   81 | tolerable weekly intake; UL, tolerable upper limit; WHO, World Health Organiza-
+   82 | tion; Zn, zinc.
+   83 |                                                                                           (CEC, 2003). There is evidence that vegetables are able to
+   84 |    * Corresponding author. Tel.: +49 89 3187 2932; fax: +49 89 3187 3371.                 accumulate mercury, lead, cadmium, zinc, and copper in their
+
+--- lines 82-86 ---
+   82 | tion; Zn, zinc.
+   83 |                                                                                           (CEC, 2003). There is evidence that vegetables are able to
+   84 |    * Corresponding author. Tel.: +49 89 3187 2932; fax: +49 89 3187 3371.                 accumulate mercury, lead, cadmium, zinc, and copper in their
+   85 |      E-mail address: pandelova@helmholtz-muenchen.de (M. Pandelova).                      edible and inedible parts at various concentration levels (Zheng
+   86 | 
+
+--- lines 85-89 ---
+   85 |      E-mail address: pandelova@helmholtz-muenchen.de (M. Pandelova).                      edible and inedible parts at various concentration levels (Zheng
+   86 | 
+   87 | 0889-1575/$ – see front matter ß 2012 Elsevier Inc. All rights reserved.
+   88 | http://dx.doi.org/10.1016/j.jfca.2012.04.011
+   89 |                                       M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127                             121
+
+--- lines 86-90 ---
+   86 | 
+   87 | 0889-1575/$ – see front matter ß 2012 Elsevier Inc. All rights reserved.
+   88 | http://dx.doi.org/10.1016/j.jfca.2012.04.011
+   89 |                                       M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127                             121
+   90 | 
+
+--- lines 90-94 ---
+   90 | 
+   91 | 
+   92 | et al., 2007). Mercury, and in particular methylmercury, poses a                tion according to age in months of the non-breast-fed infant (solids
+   93 | risk to public health; for example, it can affect the development of            and beverages).
+   94 | the infant brain and can cause neurological changes in adults
+
+--- lines 91-95 ---
+   91 | 
+   92 | et al., 2007). Mercury, and in particular methylmercury, poses a                tion according to age in months of the non-breast-fed infant (solids
+   93 | risk to public health; for example, it can affect the development of            and beverages).
+   94 | the infant brain and can cause neurological changes in adults
+   95 | (Jedrychowski et al., 2006). Negative effects on the behavior and               2.1.1. ‘‘EU basket’’
+
+--- lines 92-96 ---
+   92 | et al., 2007). Mercury, and in particular methylmercury, poses a                tion according to age in months of the non-breast-fed infant (solids
+   93 | risk to public health; for example, it can affect the development of            and beverages).
+   94 | the infant brain and can cause neurological changes in adults
+   95 | (Jedrychowski et al., 2006). Negative effects on the behavior and               2.1.1. ‘‘EU basket’’
+   96 | intelligence of children are found at lower levels of lead exposure                To identify the holding companies and their main brands from
+
+--- lines 93-97 ---
+   93 | risk to public health; for example, it can affect the development of            and beverages).
+   94 | the infant brain and can cause neurological changes in adults
+   95 | (Jedrychowski et al., 2006). Negative effects on the behavior and               2.1.1. ‘‘EU basket’’
+   96 | intelligence of children are found at lower levels of lead exposure                To identify the holding companies and their main brands from
+   97 | than those commonly associated with lead poisoning (Tripathi                    which products would have to be sampled, the companies that
+
+--- lines 94-98 ---
+   94 | the infant brain and can cause neurological changes in adults
+   95 | (Jedrychowski et al., 2006). Negative effects on the behavior and               2.1.1. ‘‘EU basket’’
+   96 | intelligence of children are found at lower levels of lead exposure                To identify the holding companies and their main brands from
+   97 | than those commonly associated with lead poisoning (Tripathi                    which products would have to be sampled, the companies that
+   98 | et al., 2001). Furthermore, recent studies show that cadmium and                constitute, altogether, over 80% of the market were selected
+
+--- lines 95-99 ---
+   95 | (Jedrychowski et al., 2006). Negative effects on the behavior and               2.1.1. ‘‘EU basket’’
+   96 | intelligence of children are found at lower levels of lead exposure                To identify the holding companies and their main brands from
+   97 | than those commonly associated with lead poisoning (Tripathi                    which products would have to be sampled, the companies that
+   98 | et al., 2001). Furthermore, recent studies show that cadmium and                constitute, altogether, over 80% of the market were selected
+   99 | zinc can act as endocrine disruptors in ﬁsh, either in vivo or through          (Piccinelli et al., 2010). Finally, 42 different infant formulae
+
+--- lines 96-100 ---
+   96 | intelligence of children are found at lower levels of lead exposure                To identify the holding companies and their main brands from
+   97 | than those commonly associated with lead poisoning (Tripathi                    which products would have to be sampled, the companies that
+   98 | et al., 2001). Furthermore, recent studies show that cadmium and                constitute, altogether, over 80% of the market were selected
+   99 | zinc can act as endocrine disruptors in ﬁsh, either in vivo or through          (Piccinelli et al., 2010). Finally, 42 different infant formulae
+  100 | a direct action on steroidogenic cells, as it has been demonstrated             products were sampled from 6 different countries including
+
+--- lines 97-101 ---
+   97 | than those commonly associated with lead poisoning (Tripathi                    which products would have to be sampled, the companies that
+   98 | et al., 2001). Furthermore, recent studies show that cadmium and                constitute, altogether, over 80% of the market were selected
+   99 | zinc can act as endocrine disruptors in ﬁsh, either in vivo or through          (Piccinelli et al., 2010). Finally, 42 different infant formulae
+  100 | a direct action on steroidogenic cells, as it has been demonstrated             products were sampled from 6 different countries including
+  101 | in vitro (Gagnon et al., 2007).                                                 France, Germany, Italy, Portugal, Sweden and UK. For the basket of
+
+--- lines 98-102 ---
+   98 | et al., 2001). Furthermore, recent studies show that cadmium and                constitute, altogether, over 80% of the market were selected
+   99 | zinc can act as endocrine disruptors in ﬁsh, either in vivo or through          (Piccinelli et al., 2010). Finally, 42 different infant formulae
+  100 | a direct action on steroidogenic cells, as it has been demonstrated             products were sampled from 6 different countries including
+  101 | in vitro (Gagnon et al., 2007).                                                 France, Germany, Italy, Portugal, Sweden and UK. For the basket of
+  102 |     Although, copper, zinc, manganese, iron, calcium, and selenium              SFB the same procedure was followed and 112 products were
+
+--- lines 100-104 ---
+  100 | a direct action on steroidogenic cells, as it has been demonstrated             products were sampled from 6 different countries including
+  101 | in vitro (Gagnon et al., 2007).                                                 France, Germany, Italy, Portugal, Sweden and UK. For the basket of
+  102 |     Although, copper, zinc, manganese, iron, calcium, and selenium              SFB the same procedure was followed and 112 products were
+  103 | are essential micronutrients and have a variety of biochemical                  identiﬁed. Since it would have lead to very high costs of time and
+  104 | functions in living organisms, these elements can be toxic when                 resources, a random sampling of brands, weighed on market share
+
+--- lines 101-105 ---
+  101 | in vitro (Gagnon et al., 2007).                                                 France, Germany, Italy, Portugal, Sweden and UK. For the basket of
+  102 |     Although, copper, zinc, manganese, iron, calcium, and selenium              SFB the same procedure was followed and 112 products were
+  103 | are essential micronutrients and have a variety of biochemical                  identiﬁed. Since it would have lead to very high costs of time and
+  104 | functions in living organisms, these elements can be toxic when                 resources, a random sampling of brands, weighed on market share
+  105 | taken in excess. For example, high manganese exposure in                        data, was performed in order to select only one brand within each
+
+--- lines 102-106 ---
+  102 |     Although, copper, zinc, manganese, iron, calcium, and selenium              SFB the same procedure was followed and 112 products were
+  103 | are essential micronutrients and have a variety of biochemical                  identiﬁed. Since it would have lead to very high costs of time and
+  104 | functions in living organisms, these elements can be toxic when                 resources, a random sampling of brands, weighed on market share
+  105 | taken in excess. For example, high manganese exposure in                        data, was performed in order to select only one brand within each
+  106 | childhood can result in a neurotoxic syndrome affecting dopamine                typology of product. Consequently, 22 different SFB products were
+
+--- lines 103-107 ---
+  103 | are essential micronutrients and have a variety of biochemical                  identiﬁed. Since it would have lead to very high costs of time and
+  104 | functions in living organisms, these elements can be toxic when                 resources, a random sampling of brands, weighed on market share
+  105 | taken in excess. For example, high manganese exposure in                        data, was performed in order to select only one brand within each
+  106 | childhood can result in a neurotoxic syndrome affecting dopamine                typology of product. Consequently, 22 different SFB products were
+  107 | balance and behavior control (Ericson et al., 2007). Considering the            sampled from 5 different countries including Germany, Italy,
+
+--- lines 104-108 ---
+  104 | functions in living organisms, these elements can be toxic when                 resources, a random sampling of brands, weighed on market share
+  105 | taken in excess. For example, high manganese exposure in                        data, was performed in order to select only one brand within each
+  106 | childhood can result in a neurotoxic syndrome affecting dopamine                typology of product. Consequently, 22 different SFB products were
+  107 | balance and behavior control (Ericson et al., 2007). Considering the            sampled from 5 different countries including Germany, Italy,
+  108 | recommended dietary allowance (RDA) values for zinc and iron,                   France, Spain and UK.
+
+--- lines 105-109 ---
+  105 | taken in excess. For example, high manganese exposure in                        data, was performed in order to select only one brand within each
+  106 | childhood can result in a neurotoxic syndrome affecting dopamine                typology of product. Consequently, 22 different SFB products were
+  107 | balance and behavior control (Ericson et al., 2007). Considering the            sampled from 5 different countries including Germany, Italy,
+  108 | recommended dietary allowance (RDA) values for zinc and iron,                   France, Spain and UK.
+  109 | some authors have observed nutritional deﬁciencies for bottle-fed
+
+--- lines 107-111 ---
+  107 | balance and behavior control (Ericson et al., 2007). Considering the            sampled from 5 different countries including Germany, Italy,
+  108 | recommended dietary allowance (RDA) values for zinc and iron,                   France, Spain and UK.
+  109 | some authors have observed nutritional deﬁciencies for bottle-fed
+  110 | infants (Ikem et al., 2002). As a constituent of selenoproteins,                2.1.2. ‘‘National basket’’ – Italy, Spain, Slovakia and Sweden
+  111 | selenium has structural and enzymatic roles, being best known as                   In order to design the ‘‘national basket’’ of infant formulae in the
+
+--- lines 108-112 ---
+  108 | recommended dietary allowance (RDA) values for zinc and iron,                   France, Spain and UK.
+  109 | some authors have observed nutritional deﬁciencies for bottle-fed
+  110 | infants (Ikem et al., 2002). As a constituent of selenoproteins,                2.1.2. ‘‘National basket’’ – Italy, Spain, Slovakia and Sweden
+  111 | selenium has structural and enzymatic roles, being best known as                   In order to design the ‘‘national basket’’ of infant formulae in the
+  112 | an antioxidant and catalyst for the production of active thyroid                4 selected countries (Italy, Spain, Slovakia and Sweden) only one
+
+--- lines 109-113 ---
+  109 | some authors have observed nutritional deﬁciencies for bottle-fed
+  110 | infants (Ikem et al., 2002). As a constituent of selenoproteins,                2.1.2. ‘‘National basket’’ – Italy, Spain, Slovakia and Sweden
+  111 | selenium has structural and enzymatic roles, being best known as                   In order to design the ‘‘national basket’’ of infant formulae in the
+  112 | an antioxidant and catalyst for the production of active thyroid                4 selected countries (Italy, Spain, Slovakia and Sweden) only one
+  113 | hormone (Rayman, 2000). It has been suggested that dietary                      brand within basket was selected. This was the main brand
+
+--- lines 110-114 ---
+  110 | infants (Ikem et al., 2002). As a constituent of selenoproteins,                2.1.2. ‘‘National basket’’ – Italy, Spain, Slovakia and Sweden
+  111 | selenium has structural and enzymatic roles, being best known as                   In order to design the ‘‘national basket’’ of infant formulae in the
+  112 | an antioxidant and catalyst for the production of active thyroid                4 selected countries (Italy, Spain, Slovakia and Sweden) only one
+  113 | hormone (Rayman, 2000). It has been suggested that dietary                      brand within basket was selected. This was the main brand
+  114 | calcium supplementation may be an effective prevention strategy                 producing infant formulae from the leading company with the
+
+--- lines 111-115 ---
+  111 | selenium has structural and enzymatic roles, being best known as                   In order to design the ‘‘national basket’’ of infant formulae in the
+  112 | an antioxidant and catalyst for the production of active thyroid                4 selected countries (Italy, Spain, Slovakia and Sweden) only one
+  113 | hormone (Rayman, 2000). It has been suggested that dietary                      brand within basket was selected. This was the main brand
+  114 | calcium supplementation may be an effective prevention strategy                 producing infant formulae from the leading company with the
+  115 | to reduce the circulating levels of lead in the mother and the lead             highest market share in the country (Piccinelli et al., 2010). Finally,
+
+--- lines 112-116 ---
+  112 | an antioxidant and catalyst for the production of active thyroid                4 selected countries (Italy, Spain, Slovakia and Sweden) only one
+  113 | hormone (Rayman, 2000). It has been suggested that dietary                      brand within basket was selected. This was the main brand
+  114 | calcium supplementation may be an effective prevention strategy                 producing infant formulae from the leading company with the
+  115 | to reduce the circulating levels of lead in the mother and the lead             highest market share in the country (Piccinelli et al., 2010). Finally,
+  116 | exposure in the developing fetus and nursing infant (Ettinger et al.,           24 national market baskets of infant formulae were designed
+
+--- lines 113-117 ---
+  113 | hormone (Rayman, 2000). It has been suggested that dietary                      brand within basket was selected. This was the main brand
+  114 | calcium supplementation may be an effective prevention strategy                 producing infant formulae from the leading company with the
+  115 | to reduce the circulating levels of lead in the mother and the lead             highest market share in the country (Piccinelli et al., 2010). Finally,
+  116 | exposure in the developing fetus and nursing infant (Ettinger et al.,           24 national market baskets of infant formulae were designed
+  117 | 2007; Jiao et al., 2011).                                                       including 24 different infant formulae products. For the national
+
+--- lines 114-118 ---
+  114 | calcium supplementation may be an effective prevention strategy                 producing infant formulae from the leading company with the
+  115 | to reduce the circulating levels of lead in the mother and the lead             highest market share in the country (Piccinelli et al., 2010). Finally,
+  116 | exposure in the developing fetus and nursing infant (Ettinger et al.,           24 national market baskets of infant formulae were designed
+  117 | 2007; Jiao et al., 2011).                                                       including 24 different infant formulae products. For the national
+  118 |     Therefore, the EU-funded research project CASCADE (chemicals                baskets of SFB, only the ﬁfth month diet was considered due to
+
+--- lines 115-119 ---
+  115 | to reduce the circulating levels of lead in the mother and the lead             highest market share in the country (Piccinelli et al., 2010). Finally,
+  116 | exposure in the developing fetus and nursing infant (Ettinger et al.,           24 national market baskets of infant formulae were designed
+  117 | 2007; Jiao et al., 2011).                                                       including 24 different infant formulae products. For the national
+  118 |     Therefore, the EU-funded research project CASCADE (chemicals                baskets of SFB, only the ﬁfth month diet was considered due to
+  119 | as contaminants in the food chain; Network of Excellence, FP6                   lower number products included compared with the sixth,
+
+--- lines 116-120 ---
+  116 | exposure in the developing fetus and nursing infant (Ettinger et al.,           24 national market baskets of infant formulae were designed
+  117 | 2007; Jiao et al., 2011).                                                       including 24 different infant formulae products. For the national
+  118 |     Therefore, the EU-funded research project CASCADE (chemicals                baskets of SFB, only the ﬁfth month diet was considered due to
+  119 | as contaminants in the food chain; Network of Excellence, FP6                   lower number products included compared with the sixth,
+  120 | funded consortium, targeting health risks in food) decided to                   seventh, eighth and ninth months. A total of 4 national baskets
+
+--- lines 118-122 ---
+  118 |     Therefore, the EU-funded research project CASCADE (chemicals                baskets of SFB, only the ﬁfth month diet was considered due to
+  119 | as contaminants in the food chain; Network of Excellence, FP6                   lower number products included compared with the sixth,
+  120 | funded consortium, targeting health risks in food) decided to                   seventh, eighth and ninth months. A total of 4 national baskets
+  121 | determined the levels of the 10 essential and non-essential                     of SFB5 were designed including 13 different solid food products
+  122 | elements such as: calcium (Ca), cadmium (Cd), copper (Cu), iron                 (one brand within each typology product was considered).
+
+--- lines 119-123 ---
+  119 | as contaminants in the food chain; Network of Excellence, FP6                   lower number products included compared with the sixth,
+  120 | funded consortium, targeting health risks in food) decided to                   seventh, eighth and ninth months. A total of 4 national baskets
+  121 | determined the levels of the 10 essential and non-essential                     of SFB5 were designed including 13 different solid food products
+  122 | elements such as: calcium (Ca), cadmium (Cd), copper (Cu), iron                 (one brand within each typology product was considered).
+  123 | (Fe), mercury (Hg), manganese (Mn), nickel (Ni), lead (Pb),
+
+--- lines 120-124 ---
+  120 | funded consortium, targeting health risks in food) decided to                   seventh, eighth and ninth months. A total of 4 national baskets
+  121 | determined the levels of the 10 essential and non-essential                     of SFB5 were designed including 13 different solid food products
+  122 | elements such as: calcium (Ca), cadmium (Cd), copper (Cu), iron                 (one brand within each typology product was considered).
+  123 | (Fe), mercury (Hg), manganese (Mn), nickel (Ni), lead (Pb),
+  124 | selenium (Se), and zinc (Zn) in the most-consumed baby foods                    2.2. Sample preparation
+
+--- lines 121-125 ---
+  121 | determined the levels of the 10 essential and non-essential                     of SFB5 were designed including 13 different solid food products
+  122 | elements such as: calcium (Ca), cadmium (Cd), copper (Cu), iron                 (one brand within each typology product was considered).
+  123 | (Fe), mercury (Hg), manganese (Mn), nickel (Ni), lead (Pb),
+  124 | selenium (Se), and zinc (Zn) in the most-consumed baby foods                    2.2. Sample preparation
+  125 | in Europe. These elements were analyzed in weighted mixtures
+
+--- lines 122-126 ---
+  122 | elements such as: calcium (Ca), cadmium (Cd), copper (Cu), iron                 (one brand within each typology product was considered).
+  123 | (Fe), mercury (Hg), manganese (Mn), nickel (Ni), lead (Pb),
+  124 | selenium (Se), and zinc (Zn) in the most-consumed baby foods                    2.2. Sample preparation
+  125 | in Europe. These elements were analyzed in weighted mixtures
+  126 | designed to represent an exclusive feeding based on commercial                      The proportion of each infant formula product in the pooled EU
+
+--- lines 123-127 ---
+  123 | (Fe), mercury (Hg), manganese (Mn), nickel (Ni), lead (Pb),
+  124 | selenium (Se), and zinc (Zn) in the most-consumed baby foods                    2.2. Sample preparation
+  125 | in Europe. These elements were analyzed in weighted mixtures
+  126 | designed to represent an exclusive feeding based on commercial                      The proportion of each infant formula product in the pooled EU
+  127 | baby food at the different month-ages of an average European                    basket sample was the same as its share of the European market,
+
+--- lines 124-128 ---
+  124 | selenium (Se), and zinc (Zn) in the most-consumed baby foods                    2.2. Sample preparation
+  125 | in Europe. These elements were analyzed in weighted mixtures
+  126 | designed to represent an exclusive feeding based on commercial                      The proportion of each infant formula product in the pooled EU
+  127 | baby food at the different month-ages of an average European                    basket sample was the same as its share of the European market,
+  128 | infant until reaching the age of 9 months. Additionally, the selected           whereas the proportion of SFB item in the pooled sample was the

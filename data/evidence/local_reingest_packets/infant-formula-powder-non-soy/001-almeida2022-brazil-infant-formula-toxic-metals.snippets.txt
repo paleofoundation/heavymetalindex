@@ -1,0 +1,571 @@
+SOURCE ID: almeida2022-brazil-infant-formula-toxic-metals
+SOURCE TITLE: Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: raw/studies/Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk.pdf
+METALS DECLARED: [Al, tAs, Cd, Sn, tHg, Pb, U]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 1-3 ---
+    1 |              International Journal of
+    2 |              Environmental Research
+    3 |              and Public Health
+
+--- lines 1-4 ---
+    1 |              International Journal of
+    2 |              Environmental Research
+    3 |              and Public Health
+    4 | 
+
+--- lines 1-5 ---
+    1 |              International Journal of
+    2 |              Environmental Research
+    3 |              and Public Health
+    4 | 
+    5 | 
+
+--- lines 5-9 ---
+    5 | 
+    6 | Article
+    7 | Toxic Metals and Metalloids in Infant Formulas Marketed in
+    8 | Brazil, and Child Health Risks According to the Target Hazard
+    9 | Quotients and Target Cancer Risk
+
+--- lines 6-10 ---
+    6 | Article
+    7 | Toxic Metals and Metalloids in Infant Formulas Marketed in
+    8 | Brazil, and Child Health Risks According to the Target Hazard
+    9 | Quotients and Target Cancer Risk
+   10 | Cristine Couto de Almeida 1,2,3,4 , Diego dos Santos Baião 4,5 , Paloma de Almeida Rodrigues 2,3,4 ,
+
+--- lines 7-11 ---
+    7 | Toxic Metals and Metalloids in Infant Formulas Marketed in
+    8 | Brazil, and Child Health Risks According to the Target Hazard
+    9 | Quotients and Target Cancer Risk
+   10 | Cristine Couto de Almeida 1,2,3,4 , Diego dos Santos Baião 4,5 , Paloma de Almeida Rodrigues 2,3,4 ,
+   11 | Tatiana Dillenburg Saint’Pierre 6 , Rachel Ann Hauser-Davis 7 , Katia Christina Leandro 1 ,
+
+--- lines 8-12 ---
+    8 | Brazil, and Child Health Risks According to the Target Hazard
+    9 | Quotients and Target Cancer Risk
+   10 | Cristine Couto de Almeida 1,2,3,4 , Diego dos Santos Baião 4,5 , Paloma de Almeida Rodrigues 2,3,4 ,
+   11 | Tatiana Dillenburg Saint’Pierre 6 , Rachel Ann Hauser-Davis 7 , Katia Christina Leandro 1 ,
+   12 | Vania Margaret Flosi Paschoalin 4,5,8 , Marion Pereira da Costa 3,9 and Carlos Adam Conte-Junior 1,2,3,4,5,8, *
+
+--- lines 9-13 ---
+    9 | Quotients and Target Cancer Risk
+   10 | Cristine Couto de Almeida 1,2,3,4 , Diego dos Santos Baião 4,5 , Paloma de Almeida Rodrigues 2,3,4 ,
+   11 | Tatiana Dillenburg Saint’Pierre 6 , Rachel Ann Hauser-Davis 7 , Katia Christina Leandro 1 ,
+   12 | Vania Margaret Flosi Paschoalin 4,5,8 , Marion Pereira da Costa 3,9 and Carlos Adam Conte-Junior 1,2,3,4,5,8, *
+   13 | 
+
+--- lines 10-14 ---
+   10 | Cristine Couto de Almeida 1,2,3,4 , Diego dos Santos Baião 4,5 , Paloma de Almeida Rodrigues 2,3,4 ,
+   11 | Tatiana Dillenburg Saint’Pierre 6 , Rachel Ann Hauser-Davis 7 , Katia Christina Leandro 1 ,
+   12 | Vania Margaret Flosi Paschoalin 4,5,8 , Marion Pereira da Costa 3,9 and Carlos Adam Conte-Junior 1,2,3,4,5,8, *
+   13 | 
+   14 |                                             1   Graduate Program in Sanitary Surveillance (PPGVS), National Institute of Health Quality Control (INCQS),
+
+--- lines 12-16 ---
+   12 | Vania Margaret Flosi Paschoalin 4,5,8 , Marion Pereira da Costa 3,9 and Carlos Adam Conte-Junior 1,2,3,4,5,8, *
+   13 | 
+   14 |                                             1   Graduate Program in Sanitary Surveillance (PPGVS), National Institute of Health Quality Control (INCQS),
+   15 |                                                 Oswaldo Cruz Foundation (FIOCRUZ), Rio de Janeiro 21040-900, Brazil
+   16 |                                             2   Center for Food Analysis (NAL), Technological Development Support Laboratory (LADETEC), Federal
+
+--- lines 13-17 ---
+   13 | 
+   14 |                                             1   Graduate Program in Sanitary Surveillance (PPGVS), National Institute of Health Quality Control (INCQS),
+   15 |                                                 Oswaldo Cruz Foundation (FIOCRUZ), Rio de Janeiro 21040-900, Brazil
+   16 |                                             2   Center for Food Analysis (NAL), Technological Development Support Laboratory (LADETEC), Federal
+   17 |                                                 University of Rio de Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+
+--- lines 14-18 ---
+   14 |                                             1   Graduate Program in Sanitary Surveillance (PPGVS), National Institute of Health Quality Control (INCQS),
+   15 |                                                 Oswaldo Cruz Foundation (FIOCRUZ), Rio de Janeiro 21040-900, Brazil
+   16 |                                             2   Center for Food Analysis (NAL), Technological Development Support Laboratory (LADETEC), Federal
+   17 |                                                 University of Rio de Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   18 |                                             3   Graduate Program in Veterinary Hygiene (PPGHV), Faculty of Veterinary Medicine, Fluminense Federal
+
+--- lines 15-19 ---
+   15 |                                                 Oswaldo Cruz Foundation (FIOCRUZ), Rio de Janeiro 21040-900, Brazil
+   16 |                                             2   Center for Food Analysis (NAL), Technological Development Support Laboratory (LADETEC), Federal
+   17 |                                                 University of Rio de Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   18 |                                             3   Graduate Program in Veterinary Hygiene (PPGHV), Faculty of Veterinary Medicine, Fluminense Federal
+   19 |                                                 University (UFF), Vital Brazil Filho, Niterói 24230-340, Brazil
+
+--- lines 16-20 ---
+   16 |                                             2   Center for Food Analysis (NAL), Technological Development Support Laboratory (LADETEC), Federal
+   17 |                                                 University of Rio de Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   18 |                                             3   Graduate Program in Veterinary Hygiene (PPGHV), Faculty of Veterinary Medicine, Fluminense Federal
+   19 |                                                 University (UFF), Vital Brazil Filho, Niterói 24230-340, Brazil
+   20 |                                             4   Laboratory of Advanced Analysis in Biochemistry and Molecular Biology (LAABBM), Department of
+
+--- lines 17-21 ---
+   17 |                                                 University of Rio de Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   18 |                                             3   Graduate Program in Veterinary Hygiene (PPGHV), Faculty of Veterinary Medicine, Fluminense Federal
+   19 |                                                 University (UFF), Vital Brazil Filho, Niterói 24230-340, Brazil
+   20 |                                             4   Laboratory of Advanced Analysis in Biochemistry and Molecular Biology (LAABBM), Department of
+   21 |                                                 Biochemistry, Federal University of Rio de Janeiro (UFRJ), Cidade Universitária,
+
+--- lines 18-22 ---
+   18 |                                             3   Graduate Program in Veterinary Hygiene (PPGHV), Faculty of Veterinary Medicine, Fluminense Federal
+   19 |                                                 University (UFF), Vital Brazil Filho, Niterói 24230-340, Brazil
+   20 |                                             4   Laboratory of Advanced Analysis in Biochemistry and Molecular Biology (LAABBM), Department of
+   21 |                                                 Biochemistry, Federal University of Rio de Janeiro (UFRJ), Cidade Universitária,
+   22 |                                                 Rio de Janeiro 21941-909, Brazil
+
+--- lines 19-23 ---
+   19 |                                                 University (UFF), Vital Brazil Filho, Niterói 24230-340, Brazil
+   20 |                                             4   Laboratory of Advanced Analysis in Biochemistry and Molecular Biology (LAABBM), Department of
+   21 |                                                 Biochemistry, Federal University of Rio de Janeiro (UFRJ), Cidade Universitária,
+   22 |                                                 Rio de Janeiro 21941-909, Brazil
+   23 |                                             5   Graduate Studies in Food Science (PPGCAL), Institute of Chemistry (IQ), Federal University of Rio de
+
+--- lines 21-25 ---
+   21 |                                                 Biochemistry, Federal University of Rio de Janeiro (UFRJ), Cidade Universitária,
+   22 |                                                 Rio de Janeiro 21941-909, Brazil
+   23 |                                             5   Graduate Studies in Food Science (PPGCAL), Institute of Chemistry (IQ), Federal University of Rio de
+   24 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   25 |                                             6   Department of Chemistry, Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Rua Marquês
+
+--- lines 22-26 ---
+   22 |                                                 Rio de Janeiro 21941-909, Brazil
+   23 |                                             5   Graduate Studies in Food Science (PPGCAL), Institute of Chemistry (IQ), Federal University of Rio de
+   24 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   25 |                                             6   Department of Chemistry, Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Rua Marquês
+   26 | Citation: de Almeida, C.C.; Baião,              de São Vicente, 225, Rio de Janeiro 22541-041, Brazil
+
+--- lines 23-27 ---
+   23 |                                             5   Graduate Studies in Food Science (PPGCAL), Institute of Chemistry (IQ), Federal University of Rio de
+   24 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   25 |                                             6   Department of Chemistry, Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Rua Marquês
+   26 | Citation: de Almeida, C.C.; Baião,              de São Vicente, 225, Rio de Janeiro 22541-041, Brazil
+   27 |                                             7   Laboratory for Environmental Health Assessment and Promotion, Oswaldo Cruz Foundation (FIOCRUZ),
+
+--- lines 24-28 ---
+   24 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   25 |                                             6   Department of Chemistry, Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Rua Marquês
+   26 | Citation: de Almeida, C.C.; Baião,              de São Vicente, 225, Rio de Janeiro 22541-041, Brazil
+   27 |                                             7   Laboratory for Environmental Health Assessment and Promotion, Oswaldo Cruz Foundation (FIOCRUZ),
+   28 | D.d.S.; Rodrigues, P.d.A.; Saint’Pierre,
+
+--- lines 25-29 ---
+   25 |                                             6   Department of Chemistry, Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Rua Marquês
+   26 | Citation: de Almeida, C.C.; Baião,              de São Vicente, 225, Rio de Janeiro 22541-041, Brazil
+   27 |                                             7   Laboratory for Environmental Health Assessment and Promotion, Oswaldo Cruz Foundation (FIOCRUZ),
+   28 | D.d.S.; Rodrigues, P.d.A.; Saint’Pierre,
+   29 | T.D.; Hauser-Davis, R.A.; Leandro,              Rio de Janeiro 21040-900, Brazil
+
+--- lines 26-30 ---
+   26 | Citation: de Almeida, C.C.; Baião,              de São Vicente, 225, Rio de Janeiro 22541-041, Brazil
+   27 |                                             7   Laboratory for Environmental Health Assessment and Promotion, Oswaldo Cruz Foundation (FIOCRUZ),
+   28 | D.d.S.; Rodrigues, P.d.A.; Saint’Pierre,
+   29 | T.D.; Hauser-Davis, R.A.; Leandro,              Rio de Janeiro 21040-900, Brazil
+   30 |                                             8   Graduate Studies in Chemistry (PGQu), Institute of Chemistry (IQ), Federal University of Rio de
+
+--- lines 27-31 ---
+   27 |                                             7   Laboratory for Environmental Health Assessment and Promotion, Oswaldo Cruz Foundation (FIOCRUZ),
+   28 | D.d.S.; Rodrigues, P.d.A.; Saint’Pierre,
+   29 | T.D.; Hauser-Davis, R.A.; Leandro,              Rio de Janeiro 21040-900, Brazil
+   30 |                                             8   Graduate Studies in Chemistry (PGQu), Institute of Chemistry (IQ), Federal University of Rio de
+   31 | K.C.; Paschoalin, V.M.F.; da Costa,
+
+--- lines 28-32 ---
+   28 | D.d.S.; Rodrigues, P.d.A.; Saint’Pierre,
+   29 | T.D.; Hauser-Davis, R.A.; Leandro,              Rio de Janeiro 21040-900, Brazil
+   30 |                                             8   Graduate Studies in Chemistry (PGQu), Institute of Chemistry (IQ), Federal University of Rio de
+   31 | K.C.; Paschoalin, V.M.F.; da Costa,
+   32 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+
+--- lines 29-33 ---
+   29 | T.D.; Hauser-Davis, R.A.; Leandro,              Rio de Janeiro 21040-900, Brazil
+   30 |                                             8   Graduate Studies in Chemistry (PGQu), Institute of Chemistry (IQ), Federal University of Rio de
+   31 | K.C.; Paschoalin, V.M.F.; da Costa,
+   32 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   33 | M.P.; Conte-Junior, C.A. Toxic Metals       9   Laboratory of Inspection and Technology of Milk and Derivatives (LaITLácteos), School of Veterinary
+
+--- lines 30-34 ---
+   30 |                                             8   Graduate Studies in Chemistry (PGQu), Institute of Chemistry (IQ), Federal University of Rio de
+   31 | K.C.; Paschoalin, V.M.F.; da Costa,
+   32 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   33 | M.P.; Conte-Junior, C.A. Toxic Metals       9   Laboratory of Inspection and Technology of Milk and Derivatives (LaITLácteos), School of Veterinary
+   34 | and Metalloids in Infant Formulas
+
+--- lines 31-35 ---
+   31 | K.C.; Paschoalin, V.M.F.; da Costa,
+   32 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   33 | M.P.; Conte-Junior, C.A. Toxic Metals       9   Laboratory of Inspection and Technology of Milk and Derivatives (LaITLácteos), School of Veterinary
+   34 | and Metalloids in Infant Formulas
+   35 |                                                 Medicine and Animal Science, Federal University of Bahia (UFBA), Salvador 40170-110, Brazil
+
+--- lines 32-36 ---
+   32 |                                                 Janeiro (UFRJ), Cidade Universitária, Rio de Janeiro 21941-909, Brazil
+   33 | M.P.; Conte-Junior, C.A. Toxic Metals       9   Laboratory of Inspection and Technology of Milk and Derivatives (LaITLácteos), School of Veterinary
+   34 | and Metalloids in Infant Formulas
+   35 |                                                 Medicine and Animal Science, Federal University of Bahia (UFBA), Salvador 40170-110, Brazil
+   36 | Marketed in Brazil, and Child Health        *   Correspondence: carlosconte@hotmail.com
+
+--- lines 33-37 ---
+   33 | M.P.; Conte-Junior, C.A. Toxic Metals       9   Laboratory of Inspection and Technology of Milk and Derivatives (LaITLácteos), School of Veterinary
+   34 | and Metalloids in Infant Formulas
+   35 |                                                 Medicine and Animal Science, Federal University of Bahia (UFBA), Salvador 40170-110, Brazil
+   36 | Marketed in Brazil, and Child Health        *   Correspondence: carlosconte@hotmail.com
+   37 | Risks According to the Target Hazard
+
+--- lines 34-38 ---
+   34 | and Metalloids in Infant Formulas
+   35 |                                                 Medicine and Animal Science, Federal University of Bahia (UFBA), Salvador 40170-110, Brazil
+   36 | Marketed in Brazil, and Child Health        *   Correspondence: carlosconte@hotmail.com
+   37 | Risks According to the Target Hazard
+   38 | Quotients and Target Cancer Risk.
+
+--- lines 36-40 ---
+   36 | Marketed in Brazil, and Child Health        *   Correspondence: carlosconte@hotmail.com
+   37 | Risks According to the Target Hazard
+   38 | Quotients and Target Cancer Risk.
+   39 |                                             Abstract: Children are highly vulnerable to chemical exposure. Thus, metal and metalloid in infant
+   40 | Int. J. Environ. Res. Public Health 2022,
+
+--- lines 37-41 ---
+   37 | Risks According to the Target Hazard
+   38 | Quotients and Target Cancer Risk.
+   39 |                                             Abstract: Children are highly vulnerable to chemical exposure. Thus, metal and metalloid in infant
+   40 | Int. J. Environ. Res. Public Health 2022,
+   41 |                                             formulas are a concern, although studies in this regard are still relatively scarce. Thus, the pres-
+
+--- lines 38-42 ---
+   38 | Quotients and Target Cancer Risk.
+   39 |                                             Abstract: Children are highly vulnerable to chemical exposure. Thus, metal and metalloid in infant
+   40 | Int. J. Environ. Res. Public Health 2022,
+   41 |                                             formulas are a concern, although studies in this regard are still relatively scarce. Thus, the pres-
+   42 | 19, 11178. https://doi.org/10.3390/
+
+--- lines 39-43 ---
+   39 |                                             Abstract: Children are highly vulnerable to chemical exposure. Thus, metal and metalloid in infant
+   40 | Int. J. Environ. Res. Public Health 2022,
+   41 |                                             formulas are a concern, although studies in this regard are still relatively scarce. Thus, the pres-
+   42 | 19, 11178. https://doi.org/10.3390/
+   43 |                                             ence of aluminum, arsenic, cadmium, tin, mercury, lead, and uranium was investigated in infant
+
+--- lines 41-45 ---
+   41 |                                             formulas are a concern, although studies in this regard are still relatively scarce. Thus, the pres-
+   42 | 19, 11178. https://doi.org/10.3390/
+   43 |                                             ence of aluminum, arsenic, cadmium, tin, mercury, lead, and uranium was investigated in infant
+   44 | ijerph191811178
+   45 |                                             formulas marketed in Brazil by inductively coupled plasma mass spectrometry, and the Target
+
+--- lines 43-47 ---
+   43 |                                             ence of aluminum, arsenic, cadmium, tin, mercury, lead, and uranium was investigated in infant
+   44 | ijerph191811178
+   45 |                                             formulas marketed in Brazil by inductively coupled plasma mass spectrometry, and the Target
+   46 | Academic Editors: Helena                    Hazard Quotients (THQ) and Target Cancer Risk (TCR) were calculated in to assess the potential
+   47 | Solo-Gabriele and Alesia Ferguson
+
+--- lines 44-48 ---
+   44 | ijerph191811178
+   45 |                                             formulas marketed in Brazil by inductively coupled plasma mass spectrometry, and the Target
+   46 | Academic Editors: Helena                    Hazard Quotients (THQ) and Target Cancer Risk (TCR) were calculated in to assess the potential
+   47 | Solo-Gabriele and Alesia Ferguson
+   48 |                                             risk of toxicity for children who consume these products continuously. Aluminum ranging from
+
+--- lines 45-49 ---
+   45 |                                             formulas marketed in Brazil by inductively coupled plasma mass spectrometry, and the Target
+   46 | Academic Editors: Helena                    Hazard Quotients (THQ) and Target Cancer Risk (TCR) were calculated in to assess the potential
+   47 | Solo-Gabriele and Alesia Ferguson
+   48 |                                             risk of toxicity for children who consume these products continuously. Aluminum ranging from
+   49 | Received: 4 August 2022                     0.432 ± 0.049 to 1.241 ± 0.113 mg·kg−1 , arsenic from 0.012 ± 0.009 to 0.034 ± 0.006 mg·kg−1 , and tin
+
+--- lines 46-50 ---
+   46 | Academic Editors: Helena                    Hazard Quotients (THQ) and Target Cancer Risk (TCR) were calculated in to assess the potential
+   47 | Solo-Gabriele and Alesia Ferguson
+   48 |                                             risk of toxicity for children who consume these products continuously. Aluminum ranging from
+   49 | Received: 4 August 2022                     0.432 ± 0.049 to 1.241 ± 0.113 mg·kg−1 , arsenic from 0.012 ± 0.009 to 0.034 ± 0.006 mg·kg−1 , and tin
+   50 | Accepted: 3 September 2022                  from 0.007 ± 0.003 to 0.095 ± 0.024 mg·kg−1 were the major elements, while cadmium and uranium
+
+--- lines 47-51 ---
+   47 | Solo-Gabriele and Alesia Ferguson
+   48 |                                             risk of toxicity for children who consume these products continuously. Aluminum ranging from
+   49 | Received: 4 August 2022                     0.432 ± 0.049 to 1.241 ± 0.113 mg·kg−1 , arsenic from 0.012 ± 0.009 to 0.034 ± 0.006 mg·kg−1 , and tin
+   50 | Accepted: 3 September 2022                  from 0.007 ± 0.003 to 0.095 ± 0.024 mg·kg−1 were the major elements, while cadmium and uranium
+   51 | Published: 6 September 2022                 were present at the lowest concentrations. According to the THQ, arsenic contents in infant formulas
+
+--- lines 48-52 ---
+   48 |                                             risk of toxicity for children who consume these products continuously. Aluminum ranging from
+   49 | Received: 4 August 2022                     0.432 ± 0.049 to 1.241 ± 0.113 mg·kg−1 , arsenic from 0.012 ± 0.009 to 0.034 ± 0.006 mg·kg−1 , and tin
+   50 | Accepted: 3 September 2022                  from 0.007 ± 0.003 to 0.095 ± 0.024 mg·kg−1 were the major elements, while cadmium and uranium
+   51 | Published: 6 September 2022                 were present at the lowest concentrations. According to the THQ, arsenic contents in infant formulas
+   52 |                                             showed a THQ > 1, indicating potential health risk concerns for newborns or children. Minimal
+
+--- lines 49-53 ---
+   49 | Received: 4 August 2022                     0.432 ± 0.049 to 1.241 ± 0.113 mg·kg−1 , arsenic from 0.012 ± 0.009 to 0.034 ± 0.006 mg·kg−1 , and tin
+   50 | Accepted: 3 September 2022                  from 0.007 ± 0.003 to 0.095 ± 0.024 mg·kg−1 were the major elements, while cadmium and uranium
+   51 | Published: 6 September 2022                 were present at the lowest concentrations. According to the THQ, arsenic contents in infant formulas
+   52 |                                             showed a THQ > 1, indicating potential health risk concerns for newborns or children. Minimal
+   53 | Publisher’s Note: MDPI stays neutral
+
+--- lines 50-54 ---
+   50 | Accepted: 3 September 2022                  from 0.007 ± 0.003 to 0.095 ± 0.024 mg·kg−1 were the major elements, while cadmium and uranium
+   51 | Published: 6 September 2022                 were present at the lowest concentrations. According to the THQ, arsenic contents in infant formulas
+   52 |                                             showed a THQ > 1, indicating potential health risk concerns for newborns or children. Minimal
+   53 | Publisher’s Note: MDPI stays neutral
+   54 | with regard to jurisdictional claims in
+
+--- lines 51-55 ---
+   51 | Published: 6 September 2022                 were present at the lowest concentrations. According to the THQ, arsenic contents in infant formulas
+   52 |                                             showed a THQ > 1, indicating potential health risk concerns for newborns or children. Minimal
+   53 | Publisher’s Note: MDPI stays neutral
+   54 | with regard to jurisdictional claims in
+   55 |                                             carcinogenic risks were observed for the elements considered carcinogenic. Metabolic and nutritional
+
+--- lines 52-56 ---
+   52 |                                             showed a THQ > 1, indicating potential health risk concerns for newborns or children. Minimal
+   53 | Publisher’s Note: MDPI stays neutral
+   54 | with regard to jurisdictional claims in
+   55 |                                             carcinogenic risks were observed for the elements considered carcinogenic. Metabolic and nutritional
+   56 | published maps and institutional affil-     interactions are also discussed. This study indicates the need to improve infant formula surveillance
+
+--- lines 53-57 ---
+   53 | Publisher’s Note: MDPI stays neutral
+   54 | with regard to jurisdictional claims in
+   55 |                                             carcinogenic risks were observed for the elements considered carcinogenic. Metabolic and nutritional
+   56 | published maps and institutional affil-     interactions are also discussed. This study indicates the need to improve infant formula surveillance
+   57 | iations.                                    concerning contamination by potentially toxic and carcinogenic elements.
+
+--- lines 54-58 ---
+   54 | with regard to jurisdictional claims in
+   55 |                                             carcinogenic risks were observed for the elements considered carcinogenic. Metabolic and nutritional
+   56 | published maps and institutional affil-     interactions are also discussed. This study indicates the need to improve infant formula surveillance
+   57 | iations.                                    concerning contamination by potentially toxic and carcinogenic elements.
+   58 | 
+
+--- lines 55-59 ---
+   55 |                                             carcinogenic risks were observed for the elements considered carcinogenic. Metabolic and nutritional
+   56 | published maps and institutional affil-     interactions are also discussed. This study indicates the need to improve infant formula surveillance
+   57 | iations.                                    concerning contamination by potentially toxic and carcinogenic elements.
+   58 | 
+   59 |                                             Keywords: food analysis; food safety; early childhood health; toxic metals; hazard quotient risk;
+
+--- lines 57-61 ---
+   57 | iations.                                    concerning contamination by potentially toxic and carcinogenic elements.
+   58 | 
+   59 |                                             Keywords: food analysis; food safety; early childhood health; toxic metals; hazard quotient risk;
+   60 |                                             toxicological risk; carcinogenic risk
+   61 | Copyright: © 2022 by the authors.
+
+--- lines 58-62 ---
+   58 | 
+   59 |                                             Keywords: food analysis; food safety; early childhood health; toxic metals; hazard quotient risk;
+   60 |                                             toxicological risk; carcinogenic risk
+   61 | Copyright: © 2022 by the authors.
+   62 | Licensee MDPI, Basel, Switzerland.
+
+--- lines 59-63 ---
+   59 |                                             Keywords: food analysis; food safety; early childhood health; toxic metals; hazard quotient risk;
+   60 |                                             toxicological risk; carcinogenic risk
+   61 | Copyright: © 2022 by the authors.
+   62 | Licensee MDPI, Basel, Switzerland.
+   63 | This article is an open access article
+
+--- lines 62-66 ---
+   62 | Licensee MDPI, Basel, Switzerland.
+   63 | This article is an open access article
+   64 | distributed under the terms and
+   65 |                                             1. Introduction
+   66 | conditions of the Creative Commons
+
+--- lines 63-67 ---
+   63 | This article is an open access article
+   64 | distributed under the terms and
+   65 |                                             1. Introduction
+   66 | conditions of the Creative Commons
+   67 | Attribution (CC BY) license (https://
+
+--- lines 65-69 ---
+   65 |                                             1. Introduction
+   66 | conditions of the Creative Commons
+   67 | Attribution (CC BY) license (https://
+   68 |                                                 Adequate and safe nutrition is essential to ensure optimal health, growth, and de-
+   69 | creativecommons.org/licenses/by/
+
+--- lines 66-70 ---
+   66 | conditions of the Creative Commons
+   67 | Attribution (CC BY) license (https://
+   68 |                                                 Adequate and safe nutrition is essential to ensure optimal health, growth, and de-
+   69 | creativecommons.org/licenses/by/
+   70 |                                             velopment during early childhood. Breast milk combines ideal nutritional characteristics
+
+--- lines 68-72 ---
+   68 |                                                 Adequate and safe nutrition is essential to ensure optimal health, growth, and de-
+   69 | creativecommons.org/licenses/by/
+   70 |                                             velopment during early childhood. Breast milk combines ideal nutritional characteristics
+   71 | 4.0/).
+   72 |                                             with optimal nutrient balance available at all times, at the ideal temperature, and free of
+
+--- lines 70-74 ---
+   70 |                                             velopment during early childhood. Breast milk combines ideal nutritional characteristics
+   71 | 4.0/).
+   72 |                                             with optimal nutrient balance available at all times, at the ideal temperature, and free of
+   73 | 
+   74 | 
+
+--- lines 75-79 ---
+   75 | 
+   76 | 
+   77 | Int. J. Environ. Res. Public Health 2022, 19, 11178. https://doi.org/10.3390/ijerph191811178                     https://www.mdpi.com/journal/ijerph
+   78 | Int. J. Environ. Res. Public Health 2022, 19, 11178                                                                              2 of 14
+   79 | 
+
+--- lines 76-80 ---
+   76 | 
+   77 | Int. J. Environ. Res. Public Health 2022, 19, 11178. https://doi.org/10.3390/ijerph191811178                     https://www.mdpi.com/journal/ijerph
+   78 | Int. J. Environ. Res. Public Health 2022, 19, 11178                                                                              2 of 14
+   79 | 
+   80 | 
+
+--- lines 81-85 ---
+   81 | 
+   82 | 
+   83 |                                         microbial contaminants, also favoring numerous immunological and psychological ad-
+   84 |                                         vantages, paramount in reducing infant morbidity and mortality [1,2]. Numerous studies
+   85 |                                         have demonstrated that breastfed infants display significantly decreased risks for asthma,
+
+--- lines 82-86 ---
+   82 | 
+   83 |                                         microbial contaminants, also favoring numerous immunological and psychological ad-
+   84 |                                         vantages, paramount in reducing infant morbidity and mortality [1,2]. Numerous studies
+   85 |                                         have demonstrated that breastfed infants display significantly decreased risks for asthma,
+   86 |                                         allergy, arthritis, infection, diabetes, cardiovascular disease, obesity, and various cancers in
+
+--- lines 84-88 ---
+   84 |                                         vantages, paramount in reducing infant morbidity and mortality [1,2]. Numerous studies
+   85 |                                         have demonstrated that breastfed infants display significantly decreased risks for asthma,
+   86 |                                         allergy, arthritis, infection, diabetes, cardiovascular disease, obesity, and various cancers in
+   87 |                                         both childhood and adulthood. Not being breastfed, on the other hand, results in loss of
+   88 |                                         immunological protection afforded by maternal colostrum, the “pre-milk” fluid secreted
+
+--- lines 85-89 ---
+   85 |                                         have demonstrated that breastfed infants display significantly decreased risks for asthma,
+   86 |                                         allergy, arthritis, infection, diabetes, cardiovascular disease, obesity, and various cancers in
+   87 |                                         both childhood and adulthood. Not being breastfed, on the other hand, results in loss of
+   88 |                                         immunological protection afforded by maternal colostrum, the “pre-milk” fluid secreted
+   89 |                                         during the first days after delivery, as well as numerous other bioactive compounds that aid
+
+--- lines 86-90 ---
+   86 |                                         allergy, arthritis, infection, diabetes, cardiovascular disease, obesity, and various cancers in
+   87 |                                         both childhood and adulthood. Not being breastfed, on the other hand, results in loss of
+   88 |                                         immunological protection afforded by maternal colostrum, the “pre-milk” fluid secreted
+   89 |                                         during the first days after delivery, as well as numerous other bioactive compounds that aid
+   90 |                                         in protecting infants in the first two years of life, when the immune and nervous systems
+
+--- lines 87-91 ---
+   87 |                                         both childhood and adulthood. Not being breastfed, on the other hand, results in loss of
+   88 |                                         immunological protection afforded by maternal colostrum, the “pre-milk” fluid secreted
+   89 |                                         during the first days after delivery, as well as numerous other bioactive compounds that aid
+   90 |                                         in protecting infants in the first two years of life, when the immune and nervous systems
+   91 |                                         are not completely developed [3].
+
+--- lines 88-92 ---
+   88 |                                         immunological protection afforded by maternal colostrum, the “pre-milk” fluid secreted
+   89 |                                         during the first days after delivery, as well as numerous other bioactive compounds that aid
+   90 |                                         in protecting infants in the first two years of life, when the immune and nervous systems
+   91 |                                         are not completely developed [3].
+   92 |                                               When breastfeeding is impossible or not recommended, infant formulas comprise
+
+--- lines 90-94 ---
+   90 |                                         in protecting infants in the first two years of life, when the immune and nervous systems
+   91 |                                         are not completely developed [3].
+   92 |                                               When breastfeeding is impossible or not recommended, infant formulas comprise
+   93 |                                         the most suitable source of nutrients for children under 1 year old, replacing or partially
+   94 |                                         complementing breastfeeding [4]. Infant formulas are industrialized products prepared
+
+--- lines 91-95 ---
+   91 |                                         are not completely developed [3].
+   92 |                                               When breastfeeding is impossible or not recommended, infant formulas comprise
+   93 |                                         the most suitable source of nutrients for children under 1 year old, replacing or partially
+   94 |                                         complementing breastfeeding [4]. Infant formulas are industrialized products prepared
+   95 |                                         using modified milk from cows or other animals or hydrolysate proteins from vegeta-
+
+--- lines 92-96 ---
+   92 |                                               When breastfeeding is impossible or not recommended, infant formulas comprise
+   93 |                                         the most suitable source of nutrients for children under 1 year old, replacing or partially
+   94 |                                         complementing breastfeeding [4]. Infant formulas are industrialized products prepared
+   95 |                                         using modified milk from cows or other animals or hydrolysate proteins from vegeta-
+   96 |                                         bles, such as soy or rice. Cow milk-derived infant formulas are those that most closely
+
+--- lines 93-97 ---
+   93 |                                         the most suitable source of nutrients for children under 1 year old, replacing or partially
+   94 |                                         complementing breastfeeding [4]. Infant formulas are industrialized products prepared
+   95 |                                         using modified milk from cows or other animals or hydrolysate proteins from vegeta-
+   96 |                                         bles, such as soy or rice. Cow milk-derived infant formulas are those that most closely
+   97 |                                         resemble the nutritional and functional characteristics of human milk [5]. In Brazil, infant
+
+--- lines 94-98 ---
+   94 |                                         complementing breastfeeding [4]. Infant formulas are industrialized products prepared
+   95 |                                         using modified milk from cows or other animals or hydrolysate proteins from vegeta-
+   96 |                                         bles, such as soy or rice. Cow milk-derived infant formulas are those that most closely
+   97 |                                         resemble the nutritional and functional characteristics of human milk [5]. In Brazil, infant
+   98 |                                         formulas are sold mainly in the powdered form packed in aluminum cans, in contrast
+
+--- lines 95-99 ---
+   95 |                                         using modified milk from cows or other animals or hydrolysate proteins from vegeta-
+   96 |                                         bles, such as soy or rice. Cow milk-derived infant formulas are those that most closely
+   97 |                                         resemble the nutritional and functional characteristics of human milk [5]. In Brazil, infant
+   98 |                                         formulas are sold mainly in the powdered form packed in aluminum cans, in contrast
+   99 |                                         to the USA and European countries, where these products are commercialized in both
+
+--- lines 96-100 ---
+   96 |                                         bles, such as soy or rice. Cow milk-derived infant formulas are those that most closely
+   97 |                                         resemble the nutritional and functional characteristics of human milk [5]. In Brazil, infant
+   98 |                                         formulas are sold mainly in the powdered form packed in aluminum cans, in contrast
+   99 |                                         to the USA and European countries, where these products are commercialized in both
+  100 |                                         powder and liquid form, ready for consumption, as well as in concentrated liquid form for
+
+--- lines 97-101 ---
+   97 |                                         resemble the nutritional and functional characteristics of human milk [5]. In Brazil, infant
+   98 |                                         formulas are sold mainly in the powdered form packed in aluminum cans, in contrast
+   99 |                                         to the USA and European countries, where these products are commercialized in both
+  100 |                                         powder and liquid form, ready for consumption, as well as in concentrated liquid form for
+  101 |                                         subsequent dilution [6–8].
+
+--- lines 98-102 ---
+   98 |                                         formulas are sold mainly in the powdered form packed in aluminum cans, in contrast
+   99 |                                         to the USA and European countries, where these products are commercialized in both
+  100 |                                         powder and liquid form, ready for consumption, as well as in concentrated liquid form for
+  101 |                                         subsequent dilution [6–8].
+  102 |                                               Environmental contaminants present in infant formulas are a concern, as both the
+
+--- lines 99-103 ---
+   99 |                                         to the USA and European countries, where these products are commercialized in both
+  100 |                                         powder and liquid form, ready for consumption, as well as in concentrated liquid form for
+  101 |                                         subsequent dilution [6–8].
+  102 |                                               Environmental contaminants present in infant formulas are a concern, as both the
+  103 |                                         raw materials and/or their manipulation can be subject to inadequate agriculture practices
+
+--- lines 100-104 ---
+  100 |                                         powder and liquid form, ready for consumption, as well as in concentrated liquid form for
+  101 |                                         subsequent dilution [6–8].
+  102 |                                               Environmental contaminants present in infant formulas are a concern, as both the
+  103 |                                         raw materials and/or their manipulation can be subject to inadequate agriculture practices
+  104 |                                         and/or processing methods. In this regard, milk and its derivatives may be contaminated
+
+--- lines 101-105 ---
+  101 |                                         subsequent dilution [6–8].
+  102 |                                               Environmental contaminants present in infant formulas are a concern, as both the
+  103 |                                         raw materials and/or their manipulation can be subject to inadequate agriculture practices
+  104 |                                         and/or processing methods. In this regard, milk and its derivatives may be contaminated
+  105 |                                         during agricultural management by harmful chemical compounds, such as toxic metals
+
+--- lines 103-107 ---
+  103 |                                         raw materials and/or their manipulation can be subject to inadequate agriculture practices
+  104 |                                         and/or processing methods. In this regard, milk and its derivatives may be contaminated
+  105 |                                         during agricultural management by harmful chemical compounds, such as toxic metals
+  106 |                                         and metalloids, which may be taken up by both plants and animals. Furthermore, indus-
+  107 |                                         trial processing product packaging also comprise toxic metals and metalloids sources in

@@ -1,0 +1,618 @@
+                                                          Journal of Food Composition and Analysis 27 (2012) 120–127
+
+
+
+                                                          Contents lists available at SciVerse ScienceDirect
+
+
+                                            Journal of Food Composition and Analysis
+                                                   journal homepage: www.elsevier.com/locate/jfca
+
+
+Original Research Article
+
+Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market:
+Comparison of assessed infant intakes with the present safety limits for minerals
+and trace elements
+Marchela Pandelova a,*, Walkiria Levy Lopez a, Bernhard Michalke a, Karl-Werner Schramm a,b
+a
+    Helmholtz Zentrum München, German Research Center for Environmental Health, Institute of Ecological Chemistry, Ingolstädter Landstrasse 1, 85764 Neuherberg, Germany
+b
+    TUM, Wissenschaftszentrum Weihenstephan für Ernährung und Landnutzung, Department für Biowissenschaften, Weihenstephaner Steig 23, 85350 Freising, Germany
+
+
+
+
+A R T I C L E I N F O                                    A B S T R A C T
+
+Article history:                                         In this study calcium (Ca), cadmium (Cd), copper (Cu), iron (Fe), mercury (Hg), manganese (Mn), nickel
+Received 17 October 2011                                 (Ni), lead (Pb), selenium (Se), and zinc (Zn) were determined in most consumed baby foods in Europe
+Received in revised form 9 March 2012                    including infant formulae and solid foods and beverages (SFB). Additionally, Cd and Zn contents were
+Accepted 25 April 2012
+                                                         determined in baby foods from the ‘‘national baskets’’ of four selected countries (Italy, Spain, Slovakia,
+                                                         and Sweden). Overall, highest element levels were found in the soy-based infant formulae. Furthermore,
+Keywords:                                                the assessed daily/weekly intakes of the 0–9-month-old non-breast-fed infants were compared with the
+Minerals
+                                                         current safety limits of the 10 elements here analyzed. Assessment to Cd exposure to infants consuming
+Micronutrients
+Trace element
+                                                         commercial SFB was found to exceed the limit established by the European Food Safety Authority (EFSA)
+Heavy metal contamination in food                        of a tolerable weekly intake (TWI) of 2.5 mg Cd/kg bw. Furthermore, mercury acquisition higher than the
+Recommended dietary allowance                            Joint FAO/WHO Expert Committee of Food Additives (JECFA) established provisional tolerable weekly
+Food analysis                                            intake (PTWI) of 4 mg Hg/kg bw was determined for infants fed speciﬁcally with ‘‘follow on’’ milk infant
+Infant                                                   formula. In regard to the estimated infant intakes of the non-essential (Pb and Ni) and the essential (Ca,
+Infant formula                                           Cu, Fe, Mn, Se and Zn) elements the values were within the safety limits.
+Baby food                                                                                                                ß 2012 Elsevier Inc. All rights reserved.
+Exposure
+Europe
+Food safety
+Food composition
+
+
+
+
+                                                                                          infant’s diet. According to statistics from 2007, few European
+1. Introduction
+                                                                                          women breastfeed their infants exclusively at 6 months of age, and
+                                                                                          only 33% of infants in the USA are exclusively breastfed up to 3
+   During infancy, breast milk and infant formulae are the major
+                                                                                          months of age (Cattaneo, 2004). An increasing number of mothers
+source of nutrients for infants (Ikem et al., 2002). Although the
+                                                                                          feed their babies with industrially processed formula milk or solids
+World Health Organization (WHO) recommends breastfeeding as
+                                                                                          such as vegetables and meat or ﬁsh purée, so that in recent years
+the best feeding choice (WHO, 2008), infant formulae are an
+                                                                                          the baby food market and the assortment of products offered have
+alternative to breast-milk that often play an important role in the
+                                                                                          grown signiﬁcantly. Since the ﬁrst year of life is a sensitive period
+                                                                                          in the human development of the nervous, reproductive, digestive,
+Abbreviations: ATSDR, Agency for Toxic Substance and Disease Registry; bw, body           respiratory and immune systems, the composition of baby foods
+weight; Ca, calcium; Cd, cadmium; Cu, copper; dw, dry weight; EFSA, European              and their consumption pattern are crucial.
+Food Safety Authority; EU, European Union; Fe, iron; fHAf, ‘‘follow-on’’ hypoaller-           Despite the beneﬁts of infant formulas as a major source of food
+genic-based infant formula; fMf, ‘‘follow-on’’ milk-based infant formula; fSf,            for infants, the presence of contaminants, such as heavy metals,
+‘‘follow-on’’ soy-based infant formula; fw, fresh weight; HAf, hypoallergenic-based
+                                                                                          may pose health risks to children (Souad et al., 2006; Tripathi et al.,
+infant formula; HFCS, high fructose corn syrup; Hg, mercury; JECFA, Joint FAO/WHO
+Expert Committee of Food Additives; Mf, milk-based infant formula; Mn,                    2001). Moreover, infants tend to be exposed to relatively higher
+manganese; Ni, nickel; Pb, lead; PTWI, provisional tolerable weekly intake; RDI,          levels of food chemicals, since they consume more food than adults
+recommended daily intake; RF, radio frequency; SCF, Scientiﬁc Committee for Food;         relative to their body weight. Thus, a child can absorb as much as
+Se, selenium; Sf, soy-based infant formula; TDI, tolerable daily intake; TWI,
+                                                                                          50% of the lead present in food, whereas an adult takes up only 10%
+tolerable weekly intake; UL, tolerable upper limit; WHO, World Health Organiza-
+tion; Zn, zinc.
+                                                                                          (CEC, 2003). There is evidence that vegetables are able to
+   * Corresponding author. Tel.: +49 89 3187 2932; fax: +49 89 3187 3371.                 accumulate mercury, lead, cadmium, zinc, and copper in their
+     E-mail address: pandelova@helmholtz-muenchen.de (M. Pandelova).                      edible and inedible parts at various concentration levels (Zheng
+
+0889-1575/$ – see front matter ß 2012 Elsevier Inc. All rights reserved.
+http://dx.doi.org/10.1016/j.jfca.2012.04.011
+                                      M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127                             121
+
+
+et al., 2007). Mercury, and in particular methylmercury, poses a                tion according to age in months of the non-breast-fed infant (solids
+risk to public health; for example, it can affect the development of            and beverages).
+the infant brain and can cause neurological changes in adults
+(Jedrychowski et al., 2006). Negative effects on the behavior and               2.1.1. ‘‘EU basket’’
+intelligence of children are found at lower levels of lead exposure                To identify the holding companies and their main brands from
+than those commonly associated with lead poisoning (Tripathi                    which products would have to be sampled, the companies that
+et al., 2001). Furthermore, recent studies show that cadmium and                constitute, altogether, over 80% of the market were selected
+zinc can act as endocrine disruptors in ﬁsh, either in vivo or through          (Piccinelli et al., 2010). Finally, 42 different infant formulae
+a direct action on steroidogenic cells, as it has been demonstrated             products were sampled from 6 different countries including
+in vitro (Gagnon et al., 2007).                                                 France, Germany, Italy, Portugal, Sweden and UK. For the basket of
+    Although, copper, zinc, manganese, iron, calcium, and selenium              SFB the same procedure was followed and 112 products were
+are essential micronutrients and have a variety of biochemical                  identiﬁed. Since it would have lead to very high costs of time and
+functions in living organisms, these elements can be toxic when                 resources, a random sampling of brands, weighed on market share
+taken in excess. For example, high manganese exposure in                        data, was performed in order to select only one brand within each
+childhood can result in a neurotoxic syndrome affecting dopamine                typology of product. Consequently, 22 different SFB products were
+balance and behavior control (Ericson et al., 2007). Considering the            sampled from 5 different countries including Germany, Italy,
+recommended dietary allowance (RDA) values for zinc and iron,                   France, Spain and UK.
+some authors have observed nutritional deﬁciencies for bottle-fed
+infants (Ikem et al., 2002). As a constituent of selenoproteins,                2.1.2. ‘‘National basket’’ – Italy, Spain, Slovakia and Sweden
+selenium has structural and enzymatic roles, being best known as                   In order to design the ‘‘national basket’’ of infant formulae in the
+an antioxidant and catalyst for the production of active thyroid                4 selected countries (Italy, Spain, Slovakia and Sweden) only one
+hormone (Rayman, 2000). It has been suggested that dietary                      brand within basket was selected. This was the main brand
+calcium supplementation may be an effective prevention strategy                 producing infant formulae from the leading company with the
+to reduce the circulating levels of lead in the mother and the lead             highest market share in the country (Piccinelli et al., 2010). Finally,
+exposure in the developing fetus and nursing infant (Ettinger et al.,           24 national market baskets of infant formulae were designed
+2007; Jiao et al., 2011).                                                       including 24 different infant formulae products. For the national
+    Therefore, the EU-funded research project CASCADE (chemicals                baskets of SFB, only the ﬁfth month diet was considered due to
+as contaminants in the food chain; Network of Excellence, FP6                   lower number products included compared with the sixth,
+funded consortium, targeting health risks in food) decided to                   seventh, eighth and ninth months. A total of 4 national baskets
+determined the levels of the 10 essential and non-essential                     of SFB5 were designed including 13 different solid food products
+elements such as: calcium (Ca), cadmium (Cd), copper (Cu), iron                 (one brand within each typology product was considered).
+(Fe), mercury (Hg), manganese (Mn), nickel (Ni), lead (Pb),
+selenium (Se), and zinc (Zn) in the most-consumed baby foods                    2.2. Sample preparation
+in Europe. These elements were analyzed in weighted mixtures
+designed to represent an exclusive feeding based on commercial                      The proportion of each infant formula product in the pooled EU
+baby food at the different month-ages of an average European                    basket sample was the same as its share of the European market,
+infant until reaching the age of 9 months. Additionally, the selected           whereas the proportion of SFB item in the pooled sample was the
+elements Cd and Zi were analyzed in four European national                      same as its energy percentage in the infant diet. With regard to the
+baskets designed until 5 months of age. Furthermore, the daily/                 national basket of infant formula, a single product was investigated
+weekly intake of these elements in the age range 0–9 months for                 and no sample preparation was performed. However, the
+non-breast-fed infants was estimated and compared with recently                 proportion of each item in the pooled SFB5 sample was the same
+established safety limits.                                                      as its energy percentage in the infant diet. Further details have
+                                                                                been reported in (Piccinelli et al., 2010).
+2. Materials and methods                                                            Sample lyophilization was performed for baby jar and beverage
+                                                                                products using freeze drying equipment (Type BETA 1–16, Christ
+2.1. Baby food items included in the study                                      GmbH, Osterode, Germany) for about 36 h per sample. Conse-
+                                                                                quently, in regard to the EU basket the fresh weight (fw) of 20 g
+    Market baskets of baby foods designed for consumption during                SFB5, SFB6, SFB7, SFB8 and SFB9 resulted dry weight (dw) of 9.44,
+the ﬁrst 9 months of life by an ‘‘average’’ EU baby fed with infant             8.55, 8.01, 8.59, 7.87 g, respectively. For the national baskets of
+formulae and weaned (at 5 months) with solid foods and beverages                Italy, Spain, Slovakia and Sweden the resulted dw of 20 g fw SFB5
+(SFB) were assessed and representatively pooled. These assess-                  was 9.72, 9.62, 10.66 and 9.86, respectively. The weighing
+ments were based on an infant whose diet consisted entirely of                  procedures were performed in a puriﬁed glovebox under nitrogen
+commercial baby foods, i.e. who was not breast fed at all. The 2007             atmosphere and the pooled samples were further homogenized in
+market data made available by Food for Thought (www.fft.com)                    a rotoshaker (Type Reax 20/8, Heidolph GmbH) for 8 h. The
+was used to identify the major brands of baby foods and their                   samples were kept at room temperature and stored in brown glass
+shares of the market in 22 EU countries considered to represent the             jars protected from direct light. In order to prevent any
+entire EU.                                                                      contamination the opening and closing of the sample collector
+    A total of 6 pooled samples of ‘‘starting’’ infant formulae of              was performed under nitrogen atmosphere.
+milk-based (Mf), soy-based (Sf), hypoallergenic-based (HAf) and                     For element determination, a 300 mg sample (related to solids)
+‘‘follow-on’’ infant formulae of milk-based (fMf), soy-based (fSf)              was exactly weighed into quartz vessels, and subsequently 8 mL
+and hypoallergenic-based (fHAf) and 5 pooled samples of solid                   of suprapure, subboiling distilled nitric acid (Merck, Darmstadt)
+foods and beverages designed for 5–9-month-old infants (SFB5,                   was added. Digestion was performed in a Multiwave 3000
+SFB6, SFB7, SFB8 and SFB9) were prepared separately for chemical                microwave digestion system (Anton Paar, Graz, Austria) at a
+target element analysis. Thus, 11 heterogenic samples were                      power increase up to 750 W and remaining at 600 W for 30 min,
+generated considering the different types of milk feeding (milk,                followed by a 20-min cooling period. The resulting clear solution
+soy-based and hypoallergenic) and the pattern of food consump-                  was ﬁlled up exactly to 30 mL with Milli-Q H2O (Millipore GmbH,
+122                                           M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127
+
+
+Schwalbach, Germany) and was then ready for element determi-                                 An Ar vaporizer at the tank provided Ar gas. Quantiﬁcation of
+nation.                                                                                      element concentrations was done using 9 point calibration for each
+                                                                                             element in the range 0–10,000 ng/L. Samples with concentrations
+2.3. Element determination                                                                   above were appropriately diluted.
+
+   Ten elements (Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se and Zn) were                             2.3.3. Quality control for ICP-AES and ICP-sf-MS
+determined in EU basket samples, and only Cd and Zn were                                         Ten sample measurements, three blank determinations and a
+determined in the samples of the national basket from Italy,                                 control determination of a certiﬁed standard (CPI International) for
+Slovakia, Spain and Sweden. The concentration levels of the SFB                              all mentioned elements were performed. Dilutions of these certiﬁed
+samples were converted per fw considering the lyophilization                                 standards were prepared at concentrations in the same range as
+data. Since no freeze drying procedures were employed to the                                 previously determined sample concentration. Calculation of results
+infant formula samples the results were given per fw powder.                                 was carried out on a computerized lab-data management system,
+                                                                                             relating the sample measurements to calibration curves, blank
+2.3.1. ICP-AES                                                                               determinations, control standards and the weight of the digested
+   An ICP-AES ICAP system (Thermo-Fischer Scientiﬁc GmbH,                                    sample. The limits of detection (LOD) related to infant formulae were
+Dreieich, Germany) was used for Ca, Cu, Fe, Mn, Ni, Se and Zn                                0.5 mg/kg fw for Cd, Pb and Hg; 0.1 mg/kg fw for Mn; 0.5 mg/kg fw
+determination in samples. Sample introduction was carried out                                for Cu, Fe, Ni, Se and Zn; and 0.005 g/kg fw for Ca. Furthermore, the
+using a peristaltic pump equipped with an ‘‘anti-pulse-head’’                                LOD related to SFB were 0.2 mg/kg fw for Cd, Pb and Hg in SFB5–9;
+(SPETEC, Erding, Germany), connected to a Meinhard nebulizer                                 0.05 and 0.04 mg/kg fw for Mn in SFB5 and SFB6–9; 0.2 mg/kg fw for
+with a cyclon spray chamber. The measured spectral element lines                             Cu, Fe, Ni, Se and Zn in SFB5–9; and 0.002 g/kg fw for Ca in SFB5–9.
+were: Ca: 393.366 nm; Cu: 324.752 nm; Fe: 259.939; Mn:
+257.61 nm; Ni: 231.604 nm; Se: 196.026 nm; and Zn: 213.857 nm.                               2.4. Reference values and safety limits for Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb,
+   The radio frequency (RF) power was set to 1400 W, the plasma                              Se and Zn in children
+gas was 15 L argon (Ar)/min, whereas the nebulizer gas was 0.7 L
+Ar/min. Argonliqu was purchased from Air-Liquide, Gröbenzell,                                  Reference values and safety limits for children, adolescents and
+Germany. An Ar vaporizer at the tank provided Ar gas.                                        adults related to Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se and Zn were
+Quantiﬁcation of element concentrations was done using 9 point                               retrieved from the European Food Safety Authority (EFSA), the
+calibration for each element in the range 0–2000 mg/L. Samples                               Scientiﬁc Committee for Food (SCF), Joint FAO/WHO Expert
+with concentrations above were appropriately diluted.                                        Committee on Food Additives (JECFA) and World Health Organiza-
+                                                                                             tion (Table 1). The safety limits were given in tolerable weekly intake
+2.3.2. ICP-sf-MS                                                                             (TWI), provisional tolerable weekly intake (PTWI), tolerable daily
+   An ELEMENT 1, Thermo-Finnigan (Bremen, Germany) ICP-sf-                                   intake (TDI), tolerable upper limit (UL) and/or recommended daily
+MS instrument was employed for 208Pb, 202Hg and 112Cd                                        intake (RDI).
+determination in low resolution mode. Sample introduction was
+carried out using a peristaltic pump equipped with an anti-pulse-                            2.5. Estimated daily baby foods consumed per body weight regarding
+head (SPETEC), connected to a Meinhard nebulizer with a cyclon                               EU babies in the ﬁrst 9 months of life
+spray chamber. The RF power was set to 1200 W, the plasma gas
+was 15 L Ar/min, whereas the nebulizer gas was 0.9 L Ar/min.                                    The mean daily intake of the 10 elements was calculated based
+Argonliqu was purchased from Air-Liquide, Gröbenzell, Germany.                              on estimated average amount of infant formulae (ml/day) and solid
+
+
+Table 1
+Reference values and safety limits for Cd, Fe, Pb, Se, Hg, Cu, Ni, Zn, Ca, Mn in children.
+
+        European Food Safety Authority (EFSA)                         Scientiﬁc Committee for Food (SCF) (SCF, 2006)            Joint FAO/WHO Expert        World Health
+                                                                                                                                Committee on Food           Organization
+                                                                                                                                Additives (JECFA)           (WHO)
+        TWI                            UL                             RDI                           UL                          PTWI                        TDI
+
+ Non-essential elements
+ Cd   2.5 mg/kg bw (EFSA, 2011)                                                                                                 7 mg/kg bw
+                                                                                                                                (JECFA, 2003)
+ Pb                                                                                                                             25 mg/kg bw (JECFA, 2002)
+ Hg                                                                                                                             4 mg/kg bw (JECFA, 2010)
+ Ni                                                                                                                                                         11 mg/kg bw
+                                                                                                                                                            (WHO, 2007)
+ Essential elements
+ Se                                    60 mg/day for 1–3-year-old                                   60 mg/day for
+                                       children (EFSA, 2009a)                                       1–3-year-old children
+ Cu                                                                                                 1 mg/day for
+                                                                                                    1–3-year-old children
+ Fe                                                                   6 mg/day for                  No UL established
+                                                                      0.5–1-year-old children
+ Zn                                                                                                 7 mg/day
+                                                                                                    for 1–3-year-old children
+ Ca     No TWI established for         For adults                     500–800 mg/day for            No ULs for children
+        children and adolescents       2500 mg/day                    children up                   and adolescents
+                                       (EFSA, 2008)                   to 7 years old
+ Mn                                    Adequate intake level                                        No UL established
+                                       of 1.2 mg/day for
+                                       1–3-year-old children
+                                       (EFSA, 2009b)
+                                                 M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127                                              123
+
+Table 2                                                                                          pooled items (9 different hypoallergenic infant formulae) is given
+Results of triplicate analysis of Cd, Fe, Pb, Se, Hg, Cu, Ni, Zn, Ca, Mn in hypoallergenic
+                                                                                                 as an example. To achieve this quality control, fHAf was three times
+‘‘follow-on formulae’’ (fHAf).
+                                                                                                 independently sampled and measured in their element content.
+                                fHAf (1)               fHAf (2)                fHAf (3)          The results of triplicate elemental analysis are shown in Table 2.
+ Ca (g/kg fw)                     4.2                    4.1                      4.3            Thus, the successful homogenization of the pooled samples was
+ Cd (mg/kg fw)                    4.5                    3.5                      3.6            achieved such as it is indicated in this example. However, a
+ Cu (mg/kg fw)                    3.5                    3.5                      3.2            deviation was observed for mercury, selenium and nickel. In the
+ Fe (mg/kg fw)                   59.5                   58.1                     59.7
+                                                                                                 case of mercury this is related to the very low values present in the
+ Hg (mg/kg fw)                   25.6                   11.8                      5.7
+ Mn (mg/kg fw)                  809.0                  856.0                   1180.0            sample (closeness to the limit of detection), whereas nickel
+ Ni (mg/kg fw)                  270.0                   83.7                    104.0            deviations are related to the limit of quantiﬁcation of the
+ Pb (mg/kg fw)                   10.8                    7.5                      9.5            methodology applied.
+ Se (mg/kg fw)                  645.0                  299.0                    286.0
+ Zn (mg/kg fw)                   39.2                   41.4                     43.1
+                                                                                                 3.2. Concentration levels of Cd, Fe, Pb, Se, Hg, Cu, Ni, Zn, Ca, Mn in
+                                                                                                 infant formulae and solid foods and beverages
+
+foods and beverages (g/day) consumed by an ‘‘average EU baby’’                                      The concentration levels of Cd, Fe, Pb, Se, Hg, Cu, Ni, Zn, Ca and
+(Piccinelli et al., 2010). The values thus obtained were 25.2, 22.9,                             Mn in infant formulae and solid foods and beverages for infants
+21.0, 18.3, 12.8, 8.0, 4.6, 4.4 and 4.2 g (fw)/kg bw for infant                                  until the age of 9 months based on the EU basket designed are
+formulae (powder) consumed by infants aged 0–1, 1–2, 2–3, 3–4,                                   shown in Table 3. In this table, the results of Cd and Zn in baby
+4–5, 5–6, 6–7, 7–8 and 8–9 months, respectively; and 28.8, 54.7,                                 foods for infants until the age of 5 months based on the 4 national
+72.6, 70.2 and 71.9 g (fw)/kg bw for SFB consumed by infants aged                                baskets designed (Italy, Slovakia, Spain and Sweden) are further
+4–5, 5–6, 6–7, 7–8 and 8–9 months, respectively. In order to                                     presented.
+establish a meaningful comparison between the calculated dietary
+exposure and the safety limits established by international expert                               3.3. Comparison between obtained and supplier labeled Zn values in
+committees in some cases the values were additionally expressed                                  infant formula
+in weekly units.
+                                                                                                    Since each infant formula sample from the 4 national baskets
+3. Results and discussion                                                                        was represented by one unique brand product the detected Zn
+                                                                                                 amount was compared with the labeled value given from the
+3.1. Quality control of the pooled baby foods samples                                            product supplier (random selection). As a result, the obtained
+                                                                                                 levels in the range of 31.7–55.8 mg/kg fw (Table 3) were found to
+    The quality control of the correct homogenization of each                                    be in agreement with the Zn values presented by supplier in the
+different type of sample was proven by elemental analysis of one                                 range of 32.9–47.7 mg/kg fw (data not shown). Cd values are not
+sample. The sample of fHAf which contains the largest amount of                                  provided by any baby food supplier because it is a non-essential
+
+Table 3
+Concentration levels of Cd, Fe, Pb, Se, Hg, Cu, Ni, Zn, Ca, Mn in infant formulae and solid foods and beverages of designed ‘‘EU basket’’ and ‘‘national basket’’ (Italy, Slovakia,
+Spain, and Sweden).
+
+ Element                Relative expanded uncertainty (%)          ‘‘Starting’’ infant formu-      ‘‘Follow-on’’                SFB5      SFB6       SFB7       SFB8       SFB9
+                                                                   lae
+
+                                                                   Mf        Sf           HAf      Infant formulae
+
+                                                                                                   fMf        fSf     fHAf*
+
+ EU basket
+ Ca (g/kg fw)        <3                                             3.4        4.8         3.1       5.5        4.8     4.2      0.2        1.1        1.4        1.4        1.4
+ Cd (mg/kg fw)       <3                                             3.3       15.8         4.2       4.5       18.3     3.9      2.8        8.3        9.6        9.5        9.1
+ Cu (mg/kg fw)       <5                                             2.6        3.3         2.5       3.9        3.2     3.4      0.4        0.6        0.8        0.7        0.7
+ Fe (mg/kg fw)       <3                                            47.7       70.4        46.5      69.1       67.3    59.1     27         23.6       20.8       22.6       20.6
+ Hg (mg/kg fw)      <10                                            <0.5       <0.5        <0.5     113         29.3    14.4      2.7        3          4.5       29.9        5.9
+ Mn (mg/kg fw)       <2                                             0.5        3.3         0.8       0.6        3.3     0.9      1.5        3          3.3        3.2        3.1
+ Ni (mg/kg fw)       <7                                            <0.5       <0.5        <0.5       0.1        1.3     0.1     <0.2        0.1        0.2        0.1        0.1
+ Pb (mg/kg fw)       <2                                             8.2       30.5        13.2      43.9       20.1     9.3      7.9        8.7        8.3       17.2       11
+ Se (mg/kg fw)      <12                                            84.7      120          73.8     510        222     410       81.7      198.4      165.8      161.5      169.6
+ Zn (mg/kg fw)       <2                                            32.9       41.6        36        46.5       47.7    41        2.9        4.7        6          5.7        5.4
+ National basket from Italy
+ Cd (mg/kg fw)       <3                                             5.8        18.2        3.7       5.2       17.2     7.1     10.3
+ Zn (mg/kg fw)       <2                                            31.7        45.1       37.7      37.6       47.8    36.1      6.6
+ National basket from Slovakia
+ Cd (mg/kg fw)       <3                                             5           3.7       14.6       1.9        3.7     2.6      7.2
+ Zn (mg/kg fw)       <2                                            37.9        38.6       55.2      55.2       38.6    51.3      7.1
+ National basket from Spain
+ Cd (mg/kg fw)       <3                                             5.6        10.6        2.2       5.7       10.6     7.5     10.1
+ Zn (mg/kg fw)       <2                                            37.7        49.9       39.8      49.6       49.9    55.8      6.2
+ National basket from Sweden
+ Cd (mg/kg fw)       <3                                             3.9        12.8        9         3         12.8     9       21.8
+ Zn (mg/kg fw)       <2                                            52.3        52         41.5      36.2       52      41.5     16.5
+
+Expanded uncertainty (EUc) was calculated twice the standard deviation. EUc-values for an element are below the given range for all results in a row.
+Mf: ‘‘starting’’ infant formulae of milk-based; Sf: ‘‘starting’’ infant formulae of soy-based; HAf: ‘‘starting’’ infant formulae of hypoallergenic-based; fMf: ‘‘follow on’’ infant
+formulae of milk-based; fSf: ‘‘follow on’’ infant formulae soy-based; fHAf: ‘‘follow on’’ infant formulae hypoallergenic-based; SFB5, SFB6, SFB7, SFB8, and SFB9: solid baby
+foods and beverages designed for 5, 6, 7, 8, and 9-month-old infants, respectively.
+  *
+    Mean value within triplicate analysis.
+124                                            M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127
+
+
+element. It makes a direct comparison not possible. In the case of                        infants fed with baby foods until 9 months of age from the EU
+the European baskets, the obtained values correspond to pooled                            basket and Cd and Zn intakes from the national baskets (Italy,
+samples thus, a direct comparison with the labeled data provided                          Slovakia, Spain and Sweden) until 5 months of age was estimated
+by the single product suppliers is not possible.                                          (Table 4). The results shown in Table 4 were further compared with
+                                                                                          the current safety limits of these elements (Table 1).
+3.4. Infant daily/weekly intake of Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se and
+Zn by consumption of commercial baby foods                                                3.4.1. Cadmium
+                                                                                              In regard to both types of baskets, a similar Cd intake of
+   Based on the consumption data (see Section 2.5) and the                                0.5  0.4 mg/kg bw/week was assessed for infants consuming infant
+concentration levels of the 10 elements here analyzed (Table 3),                          formulae (Table 4). However, greater Cd intake of 2.1  0.7 mg/kg bw
+the daily/weekly intake of Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se and Zn of                   infant was estimated when considering the consumption of ‘‘starting’’
+
+
+Table 4
+Calculated daily/weekly infant intake of Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se and Zn through consumption of infant formula and solid foods and beverages (SFB) based on designed
+EU basket and national basket (Italy, Slovakia, Spain, and Sweden).
+
+                                         Infant age (month)
+
+                                         0–1             1–2            2–3            3–4             4–5            5–6             6–7            7–8             8–9
+
+ EU basket
+ Ca (mg/day)
+ Milk infant formula                     331.2           382.9          414.0          403.6           493.1          332.4           199.4          199.4           199.4
+ Soy infant formula                      459.8           531.7          574.8          560.4           428.1          288.6           173.2          173.2           173.2
+ Hypoallergenic infant formula           297.6           344.1          372.0          362.7           376.5          253.8           152.3          152.3           152.3
+ SFB                                                                                                    37.8          450.2           769.4          782.0           831.9
+ Cd (mg/kg bw/week)
+ Milk infant formula                        0.6            0.5             0.5            0.4            0.4             0.3            0.1             0.1            0.1
+ Soy infant formula                         2.8            2.5             2.3            2.0            1.6             1.0            0.6             0.6            0.5
+ Hypoallergenic infant formula              0.7            0.7             0.6            0.5            0.4             0.2            0.1             0.1            0.1
+ SFB                                                                                                     0.6             3.2            4.9             4.7            4.6
+ Cu (mg/day)
+ Milk infant formula                        0.2             0.3            0.3            0.3            0.3             0.2            0.1             0.1            0.1
+ Soy infant formula                         0.3             0.4            0.4            0.4            0.3             0.2            0.1             0.1            0.1
+ Hypoallergenic infant formula              0.2             0.3            0.3            0.3            0.3             0.2            0.1             0.1            0.1
+ SFB                                                                                                     0.1             0.2            0.5             0.4            0.4
+ Fe (mg/day)
+ Milk infant formula                        4.6            5.3             5.7            5.6            6.1             4.1            2.5            2.5             2.5
+ Soy infant formula                         6.8            7.8             8.4            8.2            6.0             4.0            2.4            2.4             2.4
+ Hypoallergenic infant formula              4.5            5.2             5.6            5.4            5.3             3.5            2.1            2.1             2.1
+ SFB                                                                                                     5.4             9.6           11.8           12.9            12.4
+ Hg (mg/kg bw/week)
+ Milk infant formula                      <0.1            <0.1           <0.1           <0.1            10.2             6.4            3.6            3.5             3.4
+ Soy infant formula                       <0.1            <0.1           <0.1           <0.1             2.6             1.6            0.9            0.9             0.9
+ Hypoallergenic infant formula            <0.1            <0.1           <0.1           <0.1             1.3             0.8            0.5            0.4             0.4
+ SFB                                                                                                     0.5             1.1            2.3           14.7             3.0
+ Mn (mg/day)
+ Milk infant formula                        0.0             0.0            0.1            0.1            0.0             0.0            0.0             0.0            0.0
+ Soy infant formula                         0.3             0.4            0.4            0.4            0.3             0.2            0.1             0.1            0.1
+ Hypoallergenic infant formula              0.1             0.1            0.1            0.1            0.1             0.1            0.0             0.0            0.0
+ SFB                                                                                                     0.3             1.2            1.9             1.8            1.9
+ Ni (mg/kg bw/day)
+ Milk infant formula                      <0.01           <0.01          <0.01          <0.01            0.00            0.00           0.00            0.00           0.00
+ Soy infant formula                       <0.01           <0.01          <0.01          <0.01            0.02            0.01           0.01            0.01           0.01
+ Hypoallergenic infant formula            <0.01           <0.01          <0.01          <0.01            0.00            0.00           0.00            0.00           0.00
+ SFB                                                                                                    <0.01            0.01           0.01            0.01           0.01
+ Pb (mg/kg bw/week)
+ Milk infant formula                        1.4            1.3             1.2            1.0            3.9             2.5            1.4             1.4            1.3
+ Soy infant formula                         5.4            4.9             4.5            3.9            1.8             1.1            0.6             0.6            0.6
+ Hypoallergenic infant formula              2.3            2.1             1.9            1.7            0.8             0.5            0.3             0.3            0.3
+ SFB                                                                                                     1.6             3.3            4.2             8.5            5.5
+ Se (mg/day)
+ Milk infant formula                       8.1             9.4           10.2             9.9           45.4            30.6           18.4           18.4            18.4
+ Soy infant formula                       11.5            13.3           14.4            14.0           19.8            13.3            8.0            8.0             8.0
+ Hypoallergenic infant formula             7.1             8.2            8.9             8.6           36.5            24.6           14.8           14.8            14.8
+ SFB                                                                                                    16.3            80.3           93.7           91.9           102.4
+ Zn (mg/day)
+ Milk infant formula                        3.2            3.6             4.0            3.8            4.1             2.8            1.7             1.7            1.7
+ Soy infant formula                         4.0            4.6             5.0            4.9            4.2             2.9            1.7             1.7            1.7
+ Hypoallergenic infant formula              3.5            4.0             4.3            4.2            3.6             2.5            1.5             1.5            1.5
+ SFB                                                                                                     0.6             1.9            3.4             3.2            3.3
+ National basket from Italy
+ Cd (mg/kg bw/week)
+ Milk infant formula                        1.0            0.9             0.8            0.7            0.5             0.3            0.2             0.2            0.2
+ Soy infant formula                         3.2            2.9             2.7            2.3            1.5             2.0            2.7             2.6            2.6
+ Hypoallergenic infant formula              0.7            0.6             0.5            0.5            0.6             0.0            0.0             0.0            0.0
+ SFB                                                                                                     2.1
+                                         M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127                               125
+
+Table 4 (Continued )
+
+                                   Infant age (month)
+
+                                   0–1             1–2            2–3            3–4             4–5            5–6         6–7      7–8          8–9
+
+ Zn (mg/day)
+ Milk infant formula                 3.0             3.5             3.8            3.7            3.3            2.3        1.3       1.3          1.3
+ Soy infant formula                  4.3             5.0             5.4            5.3            4.2            2.9        1.7       1.7          1.7
+ Hypoallergenic infant formula       3.6             4.2             4.5            4.4            3.2            2.2        1.3       1.3          1.3
+ SFB                                                                                               1.3
+ National basket from Slovakia
+ Cd (mg/kg bw/week)
+ Milk infant formula                 0.9             0.8             0.7            0.6            0.2            0.0         0.0      0.0          0.0
+ Soy infant formula                  0.6             0.6             0.5            0.5            0.3            0.2         0.1      0.1          0.1
+ Hypoallergenic infant formula       2.6             2.3             2.1            1.9            0.2            0.0         0.0      0.0          0.0
+ SFB                                                                                               1.5
+ Zn (mg/day)
+ Milk infant formula                 3.6             4.2             4.5            4.4            4.9            3.3        2.0       2.0          2.0
+ Soy infant formula                  3.7             4.3             4.6            4.5            3.4            2.3        1.4       1.4          1.4
+ Hypoallergenic infant formula       5.3             6.1             6.6            6.5            4.6            3.1        1.8       1.8          1.8
+ SFB                                                                                               1.4
+ National basket from Spain
+ Cd (mg/kg bw/week)
+ Milk infant formula                 1.0             0.9             0.8            0.7            0.5            0.3         0.2      0.2          0.2
+ Soy infant formula                  1.9             1.7             1.6            1.4            0.1            0.6         0.3      0.3          0.3
+ Hypoallergenic infant formula       0.4             0.3             0.33           0.3            0.7            0.4         0.2      0.2          0.2
+ SFB                                                                                               2.0
+ Zn (mg/day)
+ Milk infant formula                 3.6             4.2             4.5            4.4            4.4            3.0        1.8       1.8          1.8
+ Soy infant formula                  4.8             5.5             6.0            5.8            4.4            3.0        1.8       1.8          1.8
+ Hypoallergenic infant formula       3.8             4.4             4.8            4.7            5.0            3.3        2.0       2.0          2.0
+ SFB                                                                                               1.2
+ National basket from Sweden
+ Cd (mg/kg bw/week)
+ Milk infant formula                 0.7             0.6             0.6            0.5            0.3            0.2         0.1      0.1          0.1
+ Soy infant formula                  2.3             2.0             1.9            1.6            1.1            0.7         0.4      0.4          0.4
+ Hypoallergenic infant formula       1.6             1.4             1.3            1.1            0.8            0.5         0.3      0.3          0.3
+ SFB                                                                                               4.4
+ Zn (mg/day)
+ Milk infant formula                 5.0             5.8             6.3            6.1            3.2            2.2        1.3       1.3          1.3
+ Soy infant formula                  5.0             5.8             6.2            6.1            4.6            3.1        1.9       1.9          1.9
+ Hypoallergenic infant formula       4.0             4.6             5.0            4.9            3.7            2.2        1.3       1.3          1.3
+ SFB                                                                                               3.3
+
+
+soy-based infant formulae. Overall, these values are lower than the                Similar Zn intake of 4.4  0.7, 5.0  1.0, 4.9  0.8 and 5.7  1.0 mg/
+reported Cd exposure of 3.6–4.9 mg/kg bw/week for 0–9 month                        day was assessed for 0–5-month-old infants fed with baby foods from
+Canadian infants fed with soy-based formula (Dabeka, 1989).                        the ‘‘national basket’’ of Italy, Slovakia, Spain and Sweden,
+    Elevated Cd week exposure during the ﬁrst 4 months considers                   respectively.
+only these infants, whose diet is based on soy products. For the
+period from the 5th to the 9th month of life, the main contribution                3.4.3. Iron
+to Cd exposure is found to be the SFB. A cumulative exposure of                        Present data suggested 6.1  1.4 mg of Fe mean daily intake for
+4.7  0.7 mg/kg bw/week may occur for infants during the weaning                   infants aged 0–4 months who were fed exclusively with infant
+period. Furthermore, a Swedish data have manifested that more than                 formulae, whereas the mean daily intake for infants aged 5–9 months
+80% of the dietary Cd intake comes from plant foods (Olsson et al.,                during the weaning period was 13.7  1.5 mg iron (Table 4). For
+2002), mainly cereals (especially whole grains), vegetables, root                  comparison, SCF established RDI for infants aged 0.5–1 years is 6 mg
+vegetables and potatoes. Cadmium absorption after dietary exposure                 Fe (SCF, 2006).
+in humans is relatively low (3–5%) but cadmium is efﬁciently retained
+in the kidney and liver in the human body, with a very long biological             3.4.4. Copper
+half-life ranging from 10 to 30 years (EFSA, 2009a). The developed                     Nearly identical Cu mean intakes of 0.4  0.1 mg/day were
+approach also showed that feeding with foods from different country                estimated during the whole infant formula feeding and the weaning
+markets inﬂuences the amount of Cd intake. For example, a 4–5-                     period for the EU average infant aged 0–9 months (Table 4). These
+month-old Swedish infant fed with SFB from the local market may                    values are within ULs of 1 mg Cu/day regarding 1–3-year-old children
+ingest up to 5.3 mg/kg bw/week or about twice more than an infant                  (SCF, 2006). However, a recent Fe, Cu and Zn survey manifested
+from Italy, Spain, or Slovakia. Accordingly, in many cases (Table 4) the           signiﬁcantly higher concentrations in powdered infant formula than
+safety limit established by EFSA for cadmium (TWI = 2.5 mg/kg bw/                  those concentrations found in human milk from Canary Island women
+week) is exceeded (EFSA, 2011).                                                    (Saracoglu et al., 2007). Moreover, the Committee noted that additional
+                                                                                   copper intakes from drinking water may be appreciable and may need
+3.4.2. Zinc                                                                        to be taken into account for the whole intake assessment.
+   Since there are no data indicating that children or adolescents
+are more susceptible to the adverse effects of Zn (SCF, 2003), the                 3.4.5. Selenium
+SCF had extrapolated the UL from adults to children (1–3 years old)                    Relatively low Se mean intake of 10.3  2.5 mg/day was
+and proposed 7 mg/day as a UL for zinc in this age class (SCF, 2006).              estimated for the infants exclusively fed with infant formula during
+Considering the EU basket, the estimated mean daily intake of Zn                   the ﬁrst 4 months of life (Table 4). Another study on estimation of
+was 4.5  0.5 mg/day for the infants aged 0–9 months (Table 4).                    selenium infant intake that consider some commercial infant
+126                                   M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127
+
+
+formulae from the Spanish market has indicated a value lower than               (HFCS) (IATP, 2009). But, no presence of HFCS was labeled in here
+10 mg Se/day for infants in the ﬁrst month of their life (Navarro-              investigated infant formulae.
+Blasco and Alvarez-Galindo, 2005). However, the assessed cumulative
+mean Se intake of 98.0  23.0 mg/day for infants aged 5–9 months                3.4.10. Nickel
+exceeded EFSA and SCF established UL of 60 mg/day for children at the              Dietary exposure of 0–0.02 mg/kg bw/day was assessed for non-
+age of 1–3 years (SCF, 2006; EFSA, 2009b).                                      breast-fed infants aged 0–9 months consuming food from the EU
+                                                                                market (Table 4). These values are well below the WHO TDI for
+3.4.6. Manganese                                                                nickel of 11 mg/kg bw (WHO, 2007).
+   Since there is no recommended Mn tolerable upper level, the
+ATSDR estimated adequate intake level of 0.003 and 0.6 mg/day for               4. Conclusions
+infants aged 0–6 and 7–12 months, respectively (EFSA, 2009c). The
+estimated here Mn mean intakes for the mentioned above infant                      The results of generated EU basket and national basket
+periods (0–6 and 7–12 months) were 0.53  0.64 and                              samples suggest that the levels of all essential and non-essential
+1.92  0.06 mg/day, respectively (Table 4). In agreement with our               elements in ‘‘starting’’ soy-based infant formulae are higher than
+results, several other studies have found a newborn’s overexposure to           the values obtained for the milk-based or hypoallergenic-based
+Mn through ingestion of infant formula that may be associated with              powder formulations. The same ﬁnding of higher metal
+adverse neurotoxic effects (Ljung et al., 2011; Menezes-Filho et al.,           abundance in soy-based powder brands was also manifested
+2009).                                                                          by other large surveys in USA and Canada (Ikem et al., 2002).
+                                                                                Besides, elevated levels of the non-essential Hg and Pb were
+3.4.7. Calcium                                                                  observed in designed fMf sample. Due to possible risks on
+   Stepwise increase in Ca daily mean intake from 362.9  85.6 mg               human health from the consumption of foods other than ﬁsh
+to 740.0  39.4 mg and to 1011  23.6 mg for infants aged 0–1, 5–6              and shellﬁsh, the JECFA established a PTWI of 4 mg/kg bw that
+and 8–9 months, respectively, is shown in Table 4. According to                 takes inorganic Hg into consideration (JECFA, 2010). Since 10.1
+German data of non-breast-fed infants, the 90th percentile of Ca                and 6.4 mg Hg/kg bw/week was found for infants aged 4–5 and
+intake was from 700 to 900 mg/day (Alexy and Kersting, 1999). Since             5–6 months who consume fMf the exposures could be harmful.
+there were no sufﬁcient data to deﬁne UL for infants, only the RDI of           The current study based on consumption of infant food based on
+500–800 mg Ca for children up to 7 years of age was considered (SCF,            a designed EU basket suggested Pb exposure for infants aged 0–9
+2006).                                                                          months lower than the established PTWI of 25 mg Pb/kg bw.
+                                                                                However, the assessed Cd exposure during the weaning period
+3.4.8. Lead                                                                     was found to exceed the TWI of 2.5 mg/kg bw (EFSA, 2011)
+    Mean Pb intakes of 2.6  1.6 and 5.8  2.1 mg/kg bw/week for                and nearly attain the JECFA established PTWI of 7 mg/kg bw
+infants during the formula-feeding (0–4 months old) and weaning                 (JECFA, 2003).
+period (5–9 months old), respectively, were suggested. Considering                 Finally, it should be pointed out that the infant baskets designed
+the weaning period, a progressive increase in Pb exposure was                   here concern only foods that may include the diet for infants aged
+observed. The leading contribution of Pb exposure between 1.6 and               0–9 months and belong to one particular case within current
+8.5 mg/kg bw/week for the non-breast-fed infants was determined in              feeding practices, where breast milk (mother’s milk) is the
+the SFB samples (Table 4). Indeed, the highest cumulative Pb exposure           preferred food. Despite the strong endorsement of breastfeeding,
+assessed was 9.8 mg/kg bw/week and concerned infants aged 7–8                   the vast majority of infants receive infant formulae or solid foods
+months fed with fMf and SFB8. Overall, the estimated values do not              during their ﬁrst year, exclusively or in combination with breast
+exceed JECFA established PTWI of 25 mg/kg bw/week (JECFA, 2002).                milk. Consequently, additional survey work on element analysis
+Several studies conducted in Germany (Schumann, 1990), Australia                and dietary infant intake by breast milk is necessary. To sum up,
+(Gulson et al., 2001) and Canada (Dabeka and McKenzie, 1987)                    the current study provides a broad overview of the intake of
+manifested higher Pb level determined in cows’ milk-based infant                essential minerals and non-essential trace elements in industrial
+formula than human milk. Therefore, the control of Pb in infant                 baby foods, and can be useful for further studies in health risk
+formulae seems to be essential.                                                 assessments.
+
+3.4.9. Mercury
+                                                                                Acknowledgements
+   Our results suggested Hg levels lower than the LOD in ‘‘starting’’
+infant formulae (Table 3). However, elevated Hg levels in fSf and
+                                                                                   The authors would like to thank to Raffaela Piccinelli and
+SFB8 samples and considerable Hg level of 113 mg/kg fw in fMf
+                                                                                Catherine Leclercq for their cooperation work and support in
+(Table 3) were found. Due to differences in the pattern of
+                                                                                preparation of the manuscript. Thanks to all CASCADE partners
+consumption during the weaning period the assessed Hg exposure
+                                                                                who assisted in acquiring information and shopping for baby food
+was mainly contributed by the SFB. The worst-case scenario
+                                                                                products, namely Ingemar Pongratz, Lars-Arne Haldosen, Stefan
+suggested a weekly exposure of 18.2 mg Hg/kg bw infants (7–8
+                                                                                Rehnmark, Nicolas Olea, Jean-Pierre Cravedi and Július Brtko. The
+months old) consuming fMf and ﬁsh-based commercial infant
+                                                                                study was ﬁnancial supported by the European Union network
+solid foods. However, the estimated Hg exposure for infants aged
+                                                                                CASCADE (FOOD-CT-2003-506319) within the framework of WP19
+8–9 months was reduced by three when considering the factor of
+                                                                                projects (bread project and baby food project).
+body weight and the introduction of new food items in SFB9 of
+designed EU basket. Subsequently, the highest exposure via infant
+formula (10.2 mg/kg bw/week) was assessed during the ﬁrst 4–5                   References
+months of life regarding infants who consume fMf. In this context,
+                                                                                Alexy, U., Kersting, M., 1999. Was Kinder essen und was essen sollten. Die DONALD-
+the estimated exposure exceed the established by JECFA PTWI of                      Studie und die Ernährungskonzepte des Forschungsinstituts für Kinderernäh-
+4 mg Hg/kg bw (JECFA, 2010) regarding dietary exposure of                           rung Dortmund (FKE) Hans Marseille Verlag GmbH, München.
+inorganic mercury from foods others than ﬁsh and shellﬁsh.                      Cattaneo, A., 2004. Protection, promotion and support of breastfeeding in Europe: a
+                                                                                    blueprint for action. EU Project Contract N. SPC 2002359. Retrieved June 18,
+Recently, the Institute for Agriculture and Trade Policy has                        2004 from the European Commission home page http://ec.europa.eu/health/
+reported detectable levels of Hg in high fructose corn syrup                        ph_projects/2002/promotion/fp_promotion_2002_frep_18_en.pdf.
+                                                   M. Pandelova et al. / Journal of Food Composition and Analysis 27 (2012) 120–127                                                 127
+
+Commission of the European Communities: CEC, 2003. Communication from the                       Joint FAO/WHO Expert Committee of Food Additives: JECFA, 2002. Joint FAO/WHO
+    Commission to the council the European parliament and European economic                         Expert Committee on Food Additives. Summary of Evaluations. Retrieved April 28,
+    and social committee. A European Environment and Health Strategy. Brussels,                     2002, from http://www.inchem.org/documents/jecfa/jeceval/jec_1260.htm.
+    June 11, 2003, COM 338 ﬁnal. From http://www.eu-humanbiomonitoring.org/                     Joint FAO/WHO Expert Committee of Food Additives: JECFA, 2003. Joint FAO/WHO
+    doc/com2003.pdf.                                                                                Expert Committee on Food Additives. Sixty-ﬁrst meeting, Rome. Retrieved June
+Dabeka, R.W., McKenzie, A.D., 1987. Lead, cadmium, and ﬂuoride levels in market                     10, 2003, from FAO home page ftp://ftp.fao.org/es/esn/jecfa/jecfa61sc.pdf.
+    milk and infant formulas in Canada. Journal of the Association of Ofﬁcial                   Joint FAO/WHO Expert Committee of Food Additives: JECFA, 2010. Joint FAO/WHO
+    Analytical Chemists 70, 754–757.                                                                Expert Committee on Food Additives. Seventy-second meeting Rome. Retrieved
+Dabeka, R.W., 1989. Survey of lead, cadmium, cobalt and nickel in infant formulas                   March 16, 2010, from FAO home page http://www.fao.org/ag/agn/agns/jecfa/
+    and evaporated milks and estimation of dietary intakes of the elements by                       JECFA72%20Summary%20Version%2016%20%20Mar%20FINAL%20-
+    infants 0–12 month old. Science of the Total Environment 89, 279–289.                           rev%20(2).pdf.
+European Food Safety Authority: EFSA, 2008. Guidance of Scientiﬁc Opinion of the                Ljung, K., Palm, B., Grander, M., Vahter, M., 2011. High concentrations of essential
+    Panel on Dietetic Products, Nutrition and Allergies (Question No. EFSA-Q-2008-                  and toxic elements in infant formula and infant foods – a matter of concern.
+    116). Adopted on October 2, 2008 (vol. 828, pp.1–13) from http://www.ef-                        Food Chemistry 127, 943–951.
+    sa.europa.eu/en/scdocs/doc/828.pdf.                                                         Menezes-Filho, J.A., Bouchard, M., Sarcinelli, P.N., Moreira, J.C., 2009. Manganese
+European Food Safety Authority: EFSA, 2009a. Cadmium in food. Scientiﬁc Opinion                     exposure and the neuropsychological effect on children and adolescents: a
+    of the Panel on Contaminants in the Food Chain (Question No EFSA-Q-2007-                        review. The Pan American Journal of Public Health 26, 541–548.
+    138). Adopted on January 30, 2009 (vol. 980, pp. 1–139) from http://www.ef-                 Navarro-Blasco, I., Alvarez-Galindo, J.I., 2005. Selenium content of Spanish infant
+    sa.europa.eu/de/scdocs/doc/980.pdf.                                                             formulae and human milk: Inﬂuence of protein matrix, interactions with other
+European Food Safety Authority: EFSA, 2009b. Guidance of Scientiﬁc Opinion of the                   trace elements and estimation of dietary intake by infants. Journal of Trace
+    Panel on Food Additives and Nutrient Sources added to Food (Question No.                        Elements in Medicine and Biology 17, 277–289.
+    EFSA-Q-2005-103, EFSA-Q-2006-195, EFSA-Q-2006-196, EFSA-Q-2006-304).                        Olsson, I.M., Bensryd, I., Lundh, T., Ottosson, H., Skerfving, S., Oskarsson, A., 2002.
+    Adopted on May 14, 2009 (vol. 1082, pp.1–39) from http://www.efsa.euro-                         Cadmium in blood and urine-impact of sex, age, dietary intake, iron status, and
+    pa.eu/en/scdocs/doc/1082.pdf.                                                                   former smoking-association of renal effects. Environmental Health Perspectives
+European Food Safety Authority: EFSA, 2009c. Guidance of Scientiﬁc Opinion of the                   110, 1185–1190.
+    Panel on Food Additives and Nutrient Sources added to Food (Question No. EFSA-              Piccinelli, R., Ferrari, M., Schramm, K.-W., Pandelova, M., Leclercq, C., 2010. Design
+    Q-EFSA-Q-2006-226, EFSA-Q-2006-302, EFSA-Q-2005-144, EFSA-Q-2005-037,                           and preparation of market baskets of EU commercial baby foods for the
+    EFSA-Q-2005-160, EFSA-Q-2006-322). Adopted on June 4, 2009 (vol. 1114, pp.                      assessment of infant exposure to food chemicals and to their effects. Food
+    1–23) from http://www.efsa.europa.eu/en/scdocs/doc/ans_ej1114_Manganese-                        Additives and Contaminants 27, 1337–1351.
+    sources_op_en.pdf?ssbinary=true.                                                            Rayman, M.P., 2000. The importance of selenium to human health. Lancet 356,
+European Food Safety Authority: EFSA, 2011. Guidance of Scientiﬁc Opinion of the                    233–2341.
+    Panel of Contaminants in the Food Chain (Question No. EFSA-Q-2010-01008).                   Saracoglu, S., Saygi, K.O., Uluozlu, O.D., Tuzen, M., Soylak, M., 2007. Determination of
+    Adopted on January 18, 2011 (vol. 1975, pp. 1–19) from http://www.efsa.eur-                     trace element content of baby foods from Turkey. Food Chemistry 105, 280–285.
+    opa.eu/en/efsajournal/doc/1975.pdf.                                                         Schumann, K., 1990. Zur toxikologischen Beuteilung der Schwermetallgehalte (Cd,
+Ericson, J.E., Crinella, F.M., Clarke-Stewart, A., Allhusen, V.D., Chan, T., Robertson,             Hg, Pb) in sauglings und kleinkindhahrung. Zeitschrift für Ernährung 29, 54–73.
+    R.T., 2007. Prenatal manganese levels linked to childhood behavioral disinhibi-             Scientiﬁc Committee on Food: SCF, 2003. Opinion of the Scientiﬁc Committee on
+    tion. Neurotoxicology and Teratology 29, 181–187.                                               Food on the tolerable upper intake level of zinc. Retrieved March 5, 2003, from
+Ettinger, A.S., Hu, H., Hernandez-Avila, M., 2007. Dietary calcium supplementation                  http://ec.europa.eu/food/fs/sc/scf/out177_en.pdf.
+    to lower blood lead levels in pregnancy and lactation. The Journal of Nutritional           Scientiﬁc Committee on Food: SCF, 2006. Scientiﬁc Panel on Dietetic Products,
+    Biochemistry 18, 172–178.                                                                       Nutrition and Allergies. Tolerable upper intake levels for vitamins and minerals.
+Gagnon, E., Hontela, A., Jumarie, C., 2007. Reciprocal inhibition of Cd and Ca uptake               Retrieved February 2006, from http://www.efsa.europa.eu/en/ndatopics/docs/
+    in isolated head kidney cells of rainbow trout (Oncorhynchus mykiss). Toxicology                ndatolerableuil.pdf.
+    in Vitro 21, 1077–1086.                                                                     Souad, C., Farida, Z., Nadra, L., François, B., Bougle, D., Azeddine, S., 2006. Trace
+Gulson, B.L., Mizon, K.J., Palmer, J.M., Patison, N., Law, A.J., Korsch, M.J., Mahaffey,            element level in infant hair and diet, and in the local environment of the
+    K.R., Donnelly, J.B., 2001. Longitudinal study of daily intake and excretion of lead            Moroccan city of Marrakech. Science of the Total Environment 370, 337–342.
+    in newly born infants. Environmental Research 85, 232–245.                                  Tripathi, R.M., Raghunath, R., Mahapatra, S., Sadasivan, S., 2001. Blood lead and its
+Ikem, A., Nwankwoala, A., Odueyungbo, S., Nyavor, K., Egiebor, N., 2002. Levels of 26               effect on Cd, Cu, Zn, Fe and haemoglobin levels of children. Science of the Total
+    elements in infant formula from USA, UK, and Nigeria by microwave digestion                     Environment 277, 161–168.
+    and ICP-OES. Food Chemistry 77, 439–447.                                                    World Health Organisation: WHO, 2007. Nickel in drinking-water. Background
+Institute for Agriculture and Trade Policy: IATP, 2009. Not so sweet: missing                       document for development of WHO Guidelines for Drinking Water Quality.
+    mercury and high fructose corn syrup. Retrieved January 2009, from http://                      From http://www.who.int/water_sanitation_health/gdwqrevision/nickel2n-
+    www.iatp.org/ﬁles/421_2_105026.pdf.                                                             dadd.pdf.
+Jedrychowski, W., Jankowski, J., Flak, E., Skarupa, A., Mroz, E., Sochacka-Tatara, E.,          World Health Organisation: WHO, 2008. Strengthening action to improve feeding of
+    Lisowska-Miszczyk, I., Szpanowska-Wohn, A., Rauh, V., Skolicki, Z., Kaim, I.,                   infants and young children 6–23 months of age in nutrition and child health
+    Perera, F., 2006. Effects of prenatal exposure to mercury on cognitive and                      programmes. In Report of Proceedings, Geneva, October 6–9, 2008 (ISBN: 978 92 4
+    psychomotor function in one-year-old infants: epidemiologic cohort study in                     159789 0). From http://whqlibdoc.who.int/publications/2008/9789241597890_
+    Poland. Annals of Epidemiology 16, 439–447.                                                     eng.pdf.
+Jiao, J., Lü, G., Liu, X., Zhu, H., Zhang, Y., 2011. Reduction of blood lead levels in lead-   Zheng, N., Wang, Q., Zheng, D., 2007. Health risk of Hg, Pb, Cd, Zn, and Cu to the
+    exposed mice by dietary supplements and natural antioxidants. Journal of the                    inhabitants around Huludao zinc plant in China via consumption of vegetables.
+    Science of Food and Agriculture 91, 485–491.                                                    Science of the Total Environment 383, 81–88.
+

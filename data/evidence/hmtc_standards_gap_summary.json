@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-03T22:08:39.594Z",
+  "product_filter": "infant-formula-powder-non-soy",
+  "include_queue_only_metals": false,
+  "total_gap_rows": 11,
+  "by_aggregate_status": {
+    "DO NOT PUBLISH P90: single distribution-capable source": 4,
+    "BLOCKED: summary evidence only": 4,
+    "BLOCKED: species-specific evidence missing": 1,
+    "BLOCKED: evidence fitness review needed": 1,
+    "BLOCKED: no structured evidence loaded": 1
+  },
+  "rows_with_pending_local_extracts": 8,
+  "rows_with_missing_pdfs": 0
+}

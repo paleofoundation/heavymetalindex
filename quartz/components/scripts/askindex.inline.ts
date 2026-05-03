@@ -94,7 +94,7 @@ function setupAskIndex(root: Element) {
       appendMessage(
         messagesEl,
         "assistant",
-        "<p>Ask a question and I'll answer only from Heavy Metal Index pages, with citations back to the site.</p>",
+        "<p>Ask a question and I'll answer only from Heavy Metal Index pages, with citations and stated evidence limits.</p>",
       )
     }
     if (prefill) inputEl.value = prefill

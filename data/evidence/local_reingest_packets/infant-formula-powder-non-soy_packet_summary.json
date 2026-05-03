@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-05-03T22:08:39.229Z",
+  "product_filter": "infant-formula-powder-non-soy",
+  "pdftotext": "/opt/homebrew/bin/pdftotext",
+  "include_candidates": false,
+  "packet_limit": 8,
+  "packet_count": 8,
+  "by_extraction_status": {
+    "text_extracted": 8
+  }
+}

@@ -28,7 +28,14 @@ type SourceSection = {
   type: "library" | "narrative"
 }
 
-const narrowSourceColumnHeaders = new Set(["citation", "citations", "source", "sources"])
+const narrowSourceColumnHeaders = new Set([
+  "citation",
+  "citations",
+  "refs",
+  "references",
+  "source",
+  "sources",
+])
 const evidenceLinkColumnHeaders = new Set([
   ...narrowSourceColumnHeaders,
   "caveat",
@@ -36,6 +43,8 @@ const evidenceLinkColumnHeaders = new Set([
   "distribution use",
   "evidence",
   "evidence note",
+  "refs",
+  "references",
   "row-fit caveat",
   "use note",
 ])
@@ -599,7 +608,12 @@ function compactInlineSourceLinks(root: Root, sections: SourceSection[], registr
   }
 
   root.children.forEach((child, index) => {
-    if (!isElement(child) || sectionChildIndexes.has(index) || child.tagName === "table") {
+    if (
+      !isElement(child) ||
+      sectionChildIndexes.has(index) ||
+      child.tagName === "table" ||
+      getClasses(child).includes("hmi-source-routing-audit")
+    ) {
       return
     }
 
@@ -621,6 +635,12 @@ function processTable(table: Element, registry: SourceRegistry) {
   }
 
   const headerCells = rowCells(header)
+  const normalizedHeaders = headerCells.map((cell) => normalizeHeader(toString(cell)))
+  const isCrosswalkTable =
+    ((normalizedHeaders.includes("answer") && normalizedHeaders.includes("loaded limit")) ||
+      (normalizedHeaders.includes("hmtc p90") &&
+        normalizedHeaders.includes("missing evidence"))) &&
+    (normalizedHeaders.includes("refs") || normalizedHeaders.includes("source"))
   const linkColumnIndexes = headerColumnIndexes(table, evidenceLinkColumnHeaders)
   const narrowColumnIndexes = headerColumnIndexes(table, narrowSourceColumnHeaders)
 
@@ -667,6 +687,9 @@ function processTable(table: Element, registry: SourceRegistry) {
   }
 
   addClass(table, "hmi-evidence-table")
+  if (isCrosswalkTable) {
+    addClass(table, "hmi-crosswalk-table")
+  }
   for (const columnIndex of narrowColumnIndexes) {
     const cell = headerCells[columnIndex]
     if (cell) {

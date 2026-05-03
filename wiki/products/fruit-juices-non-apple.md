@@ -16,13 +16,13 @@ public_evidence_label: Data gap
 review_state: draft
 hmtc_threshold_status: data_gap
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
-sources: 0
+updated: 2026-05-03
+sources: 1
 ---
 
 # Fruit Juices, Non-Apple
 
-This page is HMTc Category 5 row 1 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
+This page is Category 5 row 1 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
 
 ## Decision Snapshot
 
@@ -31,22 +31,102 @@ This page is HMTc Category 5 row 1 from the locked beverage architecture. It exi
 | Row state | Locked row node; structured occurrence extraction started |
 | Category hub | [[products/category-5-beverages]] |
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
-| HMTc use | Routing and evidence-gap tracking only; not a certification threshold |
+| standards use | Routing and evidence-gap tracking only; not a certification threshold |
 
 
 <!-- BEGIN: hmi-product-crosswalk -->
-## Federal / Regulatory Limits vs Field Findings
+<span id="regulatory-match-status"></span>
 
-<!-- audience: regulator, educator, consumer, app -->
+## Standards Evidence Matrix
 
-This is the fast comparison view for standards developers, regulators, retailers, brands, and legal teams. It shows the applicable federal or regulatory limit next to the current field-evidence state. It is not an HMTc pass/fail table; technical distributions remain in the evidence sections below.
+<!-- audience: regulator, retailer, brand, legal, app -->
 
-| Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 20 ug/kg Pb. Scope: other single-strength juices and juice blends. Basis: single-strength ready-to-drink juice. | FDA TDS FY2018-FY2020 grapefruit juice rows provide N=3 bottled/cartoned grapefruit-juice results: Pb was reported as 0 ppb in all three rows; no inorganic-arsenic row is present for grapefruit juice. | Draft context only. Do not present this value as a final federal limit or an HMTc threshold. | [[regulations/fda2022-draft-lead-juice]]; [[sources/fda2022-tds-elements-fy2018-fy2020]] |
-| [[metals/lead]] (Pb) | [[regulations/fda2004-juice-haccp-lead]]: Federal FDA guidance hazard-control level: 50 ug/kg Pb. Scope: ready-to-drink fruit juices including fruit nectars. Basis: ready-to-drink juice. | FDA TDS FY2018-FY2020 grapefruit juice rows provide N=3 bottled/cartoned grapefruit-juice results: Pb was reported as 0 ppb in all three rows; no inorganic-arsenic row is present for grapefruit juice. | Current older juice guidance context; direct compliance interpretation remains scope-limited. | [[regulations/fda2004-juice-haccp-lead]]; [[sources/fda2022-tds-elements-fy2018-fy2020]] |
-| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 30 ug/kg Pb. Scope: fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits. Basis: wet weight or reconstituted juice. | No comparable field-finding row has been promoted yet for this beverage category. | EU maximum level loaded; field-finding comparison blocked until beverage occurrence sources are promoted and berry/small-fruit scope is separated. | [[regulations/eu2023-contaminants-maximum-levels]] |
-| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: fruit juices, concentrated fruit juices as reconstituted, and fruit nectars. Basis: wet weight or reconstituted juice. | No comparable field-finding row has been promoted yet for this beverage category. | EU maximum level loaded; field-finding comparison blocked until beverage occurrence sources are promoted with arsenic species. | [[regulations/eu2023-contaminants-maximum-levels]] |
+This is the product evidence matrix for standards development. It does not treat a single study statistic as a finished standard. The page shows the metal, extracted N, loaded source statistics, regulatory reference values, resources, and evidence gaps so cited calculations can be run from approved rows.
+
+<p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
+
+<table class="hmi-standards-evidence-table">
+<thead>
+<tr>
+<th>Metal</th>
+<th>N</th>
+<th>Loaded source values</th>
+<th>Regulatory reference values</th>
+<th>Resources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td><ul class="hmi-compact-list"><li><strong>FDA:</strong> 20 ug/kg Pb; ready-to-drink; <a href="../regulations/fda2022-draft-lead-juice" class="internal" data-slug="regulations/fda2022-draft-lead-juice">FDA 2022 draft</a></li><li><strong>FDA:</strong> 50 ug/kg Pb; ready-to-drink juice; <a href="../regulations/fda2004-juice-haccp-lead" class="internal" data-slug="regulations/fda2004-juice-haccp-lead">FDA Juice HACCP</a></li><li><strong>EU:</strong> 30 ug/kg Pb; wet/reconstituted; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li></ul></td>
+<td><ul class="hmi-compact-list"><li><a href="../sources/fda2022-tds-elements-fy2018-fy2020" class="internal" data-slug="sources/fda2022-tds-elements-fy2018-fy2020">Fda 2022</a></li></ul></td>
+</tr>
+<tr>
+<td><a href="../metals/arsenic-inorganic" class="internal" data-slug="metals/arsenic-inorganic">iAs</a></td>
+<td><span class="hmi-missing-n">N pending</span></td>
+<td>No structured values loaded for this metal/species.</td>
+<td><ul class="hmi-compact-list"><li><strong>EU:</strong> 20 ug/kg iAs; wet/reconstituted; <a href="../regulations/eu2023-contaminants-maximum-levels" class="internal" data-slug="regulations/eu2023-contaminants-maximum-levels">EU 2023-915</a></li></ul></td>
+<td>No extracted source resource is attached yet.</td>
+</tr>
+</tbody>
+</table>
+
+## Standards Decision Matrix
+
+<!-- audience: regulator, retailer, brand, legal, app -->
+
+This matrix translates the product evidence into the decisions the page needs to support. It keeps HMTc standards calculations, regulatory references, operational QC, and legal defensibility separate so a visible limit is not mistaken for a finished HMTc standard.
+
+<table class="hmi-decision-matrix-table">
+<thead>
+<tr>
+<th>Decision lane</th>
+<th>Question this page should answer</th>
+<th>Current read</th>
+<th>Next action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>HMTc standards development</strong></td>
+<td>Build a defensible clean-subcategory standard only after source inclusion, product fit, metal species, basis, censoring, and confidence are resolved.</td>
+<td>No distribution-capable row is loaded for this product page yet. Standards matrix tracks 2 metal/species rows (Pb and iAs).</td>
+<td>Promote structured product-row values first; an HMTc standard cannot be selected from source coverage, a single study, or regulatory limits alone.</td>
+</tr>
+<tr>
+<td><strong>Retail/spec programs</strong></td>
+<td>See regulatory reference values beside the extracted evidence record, without treating either one as the other.</td>
+<td>4 regulatory reference values loaded (FDA and EU). 1 row is visible as context but blocked for direct comparison.</td>
+<td>Use the loaded FDA/EU values as jurisdiction-specific guardrails; keep basis, status, and analyte labels visible in any procurement spec.</td>
+</tr>
+<tr>
+<td><strong>Brand QC operations</strong></td>
+<td>Turn the evidence pool into a test plan: which metals, which product form, which lab basis, and what data fields must be captured.</td>
+<td>No structured measured-value rows are loaded yet; QC can only use the crosswalk narrative as a gap map.</td>
+<td>Match lab testing to the product row and metal species; capture sample count, LOD/LOQ, censoring, unit basis, and prepared-vs-as-sold handling.</td>
+</tr>
+<tr>
+<td><strong>Legal/claims defense</strong></td>
+<td>Separate evidence, standards work, and legal reference values so claims do not overstate comparability.</td>
+<td>1 comparison row is blocked by basis, species, or scope and should be described as context only.</td>
+<td>For any external claim, cite the source row and legal reference separately; when basis or species differ, state that no direct exceedance read is supported.</td>
+</tr>
+</tbody>
+</table>
+
+<details class="hmi-crosswalk-details">
+<summary>Scope details and evidence-use notes</summary>
+<ul>
+<li><strong>Pb:</strong> Limit scope: other single-strength juices and juice blends. Basis: single-strength ready-to-drink juice. Comparison note: Draft only; one TDS grapefruit-juice food is occurrence evidence and not a full non-apple juice distribution. Use: Draft context only.</li>
+<li><strong>Pb:</strong> Limit scope: ready-to-drink fruit juices including fruit nectars. Basis: ready-to-drink juice. Comparison note: Current older juice guidance context; direct compliance interpretation remains scope-limited. Use: Regulatory context.</li>
+<li><strong>Pb:</strong> Limit scope: fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits. Basis: wet weight or reconstituted juice. Comparison note: EU maximum level loaded; field-finding comparison blocked until beverage occurrence sources are promoted and berry/small-fruit scope is separated. Use: Use as external EU legal context, not standards value.</li>
+<li><strong>iAs:</strong> Limit scope: fruit juices, concentrated fruit juices as reconstituted, and fruit nectars. Basis: wet weight or reconstituted juice. Comparison note: EU maximum level loaded; field-finding comparison blocked until beverage occurrence sources are promoted with arsenic species. Use: Use as external EU legal context, not standards value.</li>
+</ul>
+</details>
+
+
 
 <!-- END: hmi-product-crosswalk -->
 

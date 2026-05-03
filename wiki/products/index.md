@@ -19,7 +19,7 @@ Product-category pages describe heavy-metal evidence for consumer-facing food ca
   </div>
 </div>
 
-## Infant and Child Foods (HMTc Category 1, Ages 0-5)
+## Infant and Child Foods (Category 1, Ages 0-5)
 
 These pages report what the evidence says about the product row, source coverage, partial distributions, and data gaps. Technical row architecture and Evidence Fitness notes remain on the detail pages for auditability.
 
@@ -42,7 +42,7 @@ These pages report what the evidence says about the product row, source coverage
 
 ## Base and Bridge Product Nodes
 
-These pages are graph anchors for sources that report a broader product category than the locked HMTc row split. They should not replace the 16 Category 1 row pages or carry final p90/p100 candidate values unless the evidence is later resolved into a specific row.
+These pages are graph anchors for sources that report a broader product category than the locked row split. They should not replace the 16 Category 1 row pages or carry final candidate values unless the evidence is later resolved into a specific row.
 
 - [[products/infant-formula-powder|Infant formula powder]]
 - [[products/infant-formula-concentrated-liquid-non-soy|Infant formula, concentrated liquid (non-soy)]]

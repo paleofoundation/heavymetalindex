@@ -175,8 +175,8 @@ function renderCategoryNote(root: HTMLElement, state: ToolState) {
 
   note.innerHTML = `<p><strong>${escapePercentileHTML(state.selectedRow.row_label)}</strong></p>
     <ul>
-      <li>Clean p90 comparator: ${escapePercentileHTML(clean?.row_label ?? "current row only")}</li>
-      <li>Dirty p10 comparator: ${escapePercentileHTML(dirty?.row_label ?? "not yet available")}</li>
+      <li>Clean upper-percentile comparator: ${escapePercentileHTML(clean?.row_label ?? "current row only")}</li>
+      <li>Dirty lower-percentile comparator: ${escapePercentileHTML(dirty?.row_label ?? "not yet available")}</li>
     </ul>
     <a href="${escapePercentileHTML(state.selectedRow.product_url)}">Open category evidence page</a>`
 }
@@ -203,11 +203,11 @@ function renderTable(root: HTMLElement, state: ToolState) {
           </div>
           <dl>
             <div>
-              <dt>Clean p90</dt>
+              <dt>Clean benchmark</dt>
               <dd>${formatNumber(row.clean?.p90)} ${row.clean?.unit ?? ""}</dd>
             </div>
             <div>
-              <dt>Dirty p10</dt>
+              <dt>Dirty benchmark</dt>
               <dd>${formatNumber(row.dirty?.p10)} ${row.dirty?.unit ?? ""}</dd>
             </div>
           </dl>
@@ -304,9 +304,9 @@ function evaluateResult(state: ToolState, metal: string, basis: string, value: n
   if (cleanSignal === true && dirtySignal === true) {
     headline = "Promising single-metal pre-screen"
   } else if (cleanSignal === true && dirtySignal === undefined) {
-    headline = "Within clean p90 candidate"
+    headline = "Within clean benchmark candidate"
   } else if (cleanSignal === false) {
-    headline = "Above current clean p90 candidate"
+    headline = "Above current clean benchmark candidate"
   } else if (dirtySignal === false) {
     headline = "Overlaps dirty-platform context"
   }
@@ -314,11 +314,11 @@ function evaluateResult(state: ToolState, metal: string, basis: string, value: n
   const bullets = [
     percentile ? `Estimated source position: ${percentile}.` : undefined,
     typeof cleanP90 === "number"
-      ? `Clean benchmark p90 candidate: ${formatNumber(cleanP90)} ${clean?.unit}.`
-      : "Clean benchmark p90 candidate is not available for this metal/basis.",
+      ? `Clean benchmark candidate: ${formatNumber(cleanP90)} ${clean?.unit}.`
+      : "Clean benchmark candidate is not available for this metal/basis.",
     typeof dirtyP10 === "number"
-      ? `Dirty-platform p10 candidate: ${formatNumber(dirtyP10)} ${dirty?.unit}.`
-      : "Dirty-platform p10 candidate is not available for this metal/basis.",
+      ? `Dirty-platform benchmark candidate: ${formatNumber(dirtyP10)} ${dirty?.unit}.`
+      : "Dirty-platform benchmark candidate is not available for this metal/basis.",
     clean?.substitution_rule ? `Non-detect rule: ${clean.substitution_rule}.` : undefined,
   ].filter((bullet): bullet is string => Boolean(bullet))
 
@@ -327,7 +327,7 @@ function evaluateResult(state: ToolState, metal: string, basis: string, value: n
 
 function overallHeadline(evaluations: ReturnType<typeof evaluateResult>[]) {
   if (evaluations.some((evaluation) => evaluation.cleanSignal === false)) {
-    return "One or more results are above the current clean p90 candidate"
+    return "One or more results are above the current clean benchmark candidate"
   }
 
   if (evaluations.some((evaluation) => evaluation.dirtySignal === false)) {
@@ -339,7 +339,7 @@ function overallHeadline(evaluations: ReturnType<typeof evaluateResult>[]) {
   }
 
   if (evaluations.every((evaluation) => evaluation.cleanSignal === true)) {
-    return "Entered values are within available clean p90 candidates"
+    return "Entered values are within available clean benchmark candidates"
   }
 
   return "Needs standards review"

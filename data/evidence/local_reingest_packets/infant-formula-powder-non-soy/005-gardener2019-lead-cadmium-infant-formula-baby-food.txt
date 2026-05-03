@@ -1,0 +1,426 @@
+                                                                   Science of the Total Environment 651 (2019) 822–827
+
+
+
+                                                                     Contents lists available at ScienceDirect
+
+
+                                                          Science of the Total Environment
+
+                                                   journal homepage: www.elsevier.com/locate/scitotenv
+
+
+
+
+Lead and cadmium contamination in a large sample of United States
+infant formulas and baby foods
+Hannah Gardener a, Jaclyn Bowen b,⁎, Sean P. Callan c
+a
+    Department of Neurology, University of Miami, Miami, FL, USA
+b
+    The Clean Label Project, Denver, CO, USA
+c
+    Ellipse Analytics, Denver, CO, USA
+
+
+
+H I G H L I G H T S                                         G R A P H I C A L       A B S T R A C T
+
+
+• Data is limited on heavy metal levels in
+  food for babies, a sensitive population.
+• We examined lead and cadmium in
+  baby food in relation to regulatory
+  limits.
+• 0/91 infant formulas exceeded FDA lead
+  guidelines in 31 oz, 22% exceeded Prop
+  65.
+• 23% infant formulas exceeded Prop 65
+  cadmium guidelines, 14% exceeded
+  WHO PTMI.
+• 3% food exceeded FDA lead consump-
+  tion limit in 300 cal, 34% exceeded
+  Prop 65.
+
+
+
+
+a r t i c l e            i n f o                            a b s t r a c t
+
+Article history:                                            Data is limited on lead and cadmium contamination in baby food, a population uniquely susceptible to the toxic ef-
+Received 27 April 2018                                      fects of heavy metals. The goal of this study was to examine lead and cadmium concentrations in a large convenience
+Received in revised form 2 September 2018                   sample of US baby foods. We identiﬁed the number of baby food product samples that exceeded US FDA and Cali-
+Accepted 3 September 2018
+                                                            fornia Proposition 65 limits for daily lead consumption across a range of servings/calories, and the number of sam-
+Available online 04 September 2018
+                                                            ples that exceeded World Health Organization and California Proposition 65 limits for daily cadmium consumption
+Editor: Jay Gan                                             across a range of servings/calories. In total, 564 baby foods were tested across infant and toddler formula, cereals,
+                                                            meals, juices/drinks, jars, pouches, snacks, and electrolyte water. ICP-MS analysis of lead and cadmium was com-
+Keywords:                                                   pleted using a modiﬁed version of EPA method 6020A. Samples were analyzed using kinetic energy distribution
+Cadmium                                                     mode. Lead was detected in 37% of samples (median = non-detect, 75% = 5.6, maximum = 183.6 μg/kg), and cad-
+Baby food                                                   mium in 57% (25% = non-detect, median = 2.8, 75% = 9.5, maximum = 103.90 μg/kg). Of 91 infant formula sam-
+Infant                                                      ples, none exceeded FDA lead consumption guidelines in 31 oz, but 22% exceeded the Proposition 65 lead guidelines,
+Lead                                                        23% exceeded the Proposition 65 cadmium guidelines, and 14% exceeded the WHO tolerable cadmium intake levels
+Rice
+                                                            for a four-month-old baby. In the solid baby food samples, 1% exceeded FDA lead guidelines in two servings (26%
+                                                            exceeded CA Proposition 65 limits), 3% in 300 cal (34% exceeded CA Proposition 65 limits). For cadmium, 6%
+                                                            exceeded Proposition 65 guidelines in two servings, 8% in 300 cal. There was no association between whether the
+                                                            product was certiﬁed organic and its heavy metal concentration. Products containing rice were higher in both
+                                                            lead and cadmium concentrations. Further research is needed to understand the long-term health effects of this
+                                                            chronic daily low level heavy metal exposure in babies.
+                                                                                                                                        © 2018 Elsevier B.V. All rights reserved.
+
+
+
+
+    ⁎ Corresponding author at: Clean Label Project, Independence Plaza 1001 16th St., B-180 #164 Denver, CO 80265, USA.
+      E-mail addresses: hgardener@med.miami.edu (H. Gardener), jbowen@cleanlabelproject.org (J. Bowen), scallan@ellipseanalytics.com (S.P. Callan).
+
+
+
+https://doi.org/10.1016/j.scitotenv.2018.09.026
+0048-9697/© 2018 Elsevier B.V. All rights reserved.
+                                                H. Gardener et al. / Science of the Total Environment 651 (2019) 822–827                                       823
+
+
+1. Introduction                                                                        consumer sources. Fifty-two week US national sales data compiled
+                                                                                       Nielson Holdings, a leading global data, measurement, and information
+    Lead is a potent neurotoxin and reproductive toxin with permanent ir-              company, was used to identify the top selling infant formulas and baby
+reversible effects, and the brains of infants and children are particularly            foods according to mainstream retail sales. The convenience sample was
+susceptible to its deleterious effects (Bellinger, 2008; Téllez-Rojo et al.,           expanded to also include top sellers within the natural/organic retail
+2006). It is well-established that there is no safe lead exposure level                channel and brands promoted online as direct to consumer. These prod-
+(Joint FOA/WHO Expert Committee on Food Additives, 2011). Although                     ucts were purchased with the intent of modeling the consumer shopping
+the removal of lead from house paint and gasoline has reduced the occur-               experience and were chosen from popular brands across a range of price
+rence of very high lead poisoning, low-level lead exposure remains ubiq-               points. Baby foods were divided into seven categories: infant formula (N
+uitous, and diet is a relevant source (US Food and Drug Administration,                = 91), cereals (N = 30), kids' meals (N = 23), toddler formula (N =
+2018a, 2018b). Contaminated food is also an exposure source for cad-                   22), juices/drinks (N = 30), jars/ﬁrst meals (N = 107), pouches (N =
+mium, a heavy metal that is a neurotoxin, renal toxin, and reproductive                140), snacks (N = 107), and electrolyte solutions (N = 14). No prescrip-
+toxin (Noonan et al., 2002; Rigon et al., 2008). In fact, the most recent              tion or medical foods were included in this dataset. A minimum of 300 g
+total diet study (TDS) in France underscored the health concern based                  per sample was purchased to ensure adequate material for testing. When
+on the lead and cadmium exposure in the typical diet of a large portion                multiple samples were purchased, the sample lots were recorded to con-
+of children under age three and the importance of reducing this exposure               trol for this variable. Original sample packaging was retained, and the list
+for public health (Jean et al., 2018; Sirot et al., 2018). However, there is           of ingredients along with other nutritional information was recorded.
+limited information about the presence of these metals among a broad
+array of commercially-available baby foods in the United States.                       2.2. List of reagents
+    In consideration of the reproductive toxicity of lead and cadmium,
+the California Ofﬁce of Environmental Health Hazard Assessment                            Tracemetal Grade HNO3, and concentrated HCl were purchased
+(2018) set a maximum allowable oral dose level of 0.5 μg/day for lead                  from Fischer Scientiﬁc (Hampton, NH). Tracemetal grade methanol
+and 4.1 μg/day for cadmium (i.e. Proposition 65). The latter maximum                   was purchased from Honeywell (Morris Plains, NJ). HPLC grade water
+allowable daily dose level for cadmium is stricter than the provisional                was purchased from Rocky Mountain Reagents (Golden, CO). Multi-
+tolerable monthly intake (PTMI) of 25 μg/kg body weight established                    element standard (10 μg/mL), mercury standard (10 μg/mL) and gold
+by the World Health Organization (WHO, 2013). The WHO determined                       standard (1000 μg/mL) were purchased from Inorganic Ventures
+that it is not possible to establish a provisional tolerable intake level of           (Christiansburg, VA).
+lead that would be health protective. The Proposition 65 maximum
+dose level for lead is also substantially lower than that set by the US                2.3. Heavy metals analysis by ICP/MS
+Food and Drug Administration (FDA) in 1993 of 6 μg/day (US FDA,
+2017). The US FDA limit was based on the CDC's blood lead “level of con-                    Infant formulas and baby foods can be heterogenous. Prior to analy-
+cern” that at the time was 10 μg/dL. FDA guidelines also include limits of             sis, all infant formulas and baby food samples were homogenized using
+100 PPB for candy and certain dried fruits and 50 PPB for fruit juice.                 a mortar and pestle and mixed until the food achieved a uniform tex-
+These limits reﬂect the fact that lead is unavoidable in many otherwise                ture. The sample preparation process follows a modiﬁed version of
+healthy foods due to the natural occurrence of lead in soil, and therefore             EPA method 3015A. Approximately 0.25 g of this homogenized sample
+realistically achievable limits must be balanced against the known dan-                was digested using an acid solution of 2 mL HNO3 + 0.5 mL HCl
+gers of lead exposure. Since the guidelines were established, a growing                + 7.6 mL HPLC water in a microwave digester (Mars6 One Touch micro-
+body of literature has shown deleterious cognitive effects even at much                wave, CEM). The digest protocol utilized a 10 min ramp to 170 °C
+lower and commonly-observed exposure levels (Bellinger, 2008; Téllez-                  followed by a 10 min hold and 50 min cool down. Following digestion,
+Rojo et al., 2006), underscoring the need for further evaluation. Since                the samples were then transferred to 50 mL vials and were diluted
+then the EPA air quality standard was reduced to reﬂect the latest ﬁnd-                with HPLC water to ~20 mL for analysis.
+ings, and the CDC has reduced their blood lead “level of concern” to 5 μg/                  Diluted sample was combined with internal standards prior to assay.
+dL (US FDA, 2017). Despite these important advancements, there has                     Heavy metals analysis was carried out by ICP-MS (NexION 350× IPC
+been no change in the FDA guidelines, and the 1993 FDA provisional                     Mass Spectrometer with PerkinElmer ESI: 2DX Auto-sampler and
+maximum daily lead intake level of 6 μg/day remains. Existing survey                   Polyscience: Whisper Cool cooler) using a modiﬁed version of EPA
+data on lead levels in US food samples suggest that lead contamination                 method 6020A. Samples were analyzed using kinetic energy distribu-
+in the US food supply is generally low in relation to FDA limits, typically            tion (KED) mode, which uses energized He to collide with potentially
+well below 100 PPB (US Food and Drug Administration, 2018a, 2018b).                    interfering molecules. This step reduces interference and produces a
+    The current study examines the levels of lead and cadmium contam-                  stronger, cleaner signal. To counteract this, 2% Tracemetal grade Metha-
+ination in a large convenience sample of US baby foods in relation to the              nol was added to all standards prior to analysis. ICP-MS data were proc-
+maximum allowable dose levels set according to California's Proposition                essed using Syngistix Software (PerkinElmer).
+65 for lead and cadmium, as well as WHO PTMI for cadmium and the                            For this study the quantiﬁcation limits (LoQ's) were 2PPB for cadmium
+FDA standard for lead. Our goal is to describe the levels of lead and cad-             and 4PPB for lead. For quality control purposes, our minimum acceptable
+mium contamination in the baby food sample, identify the types of                      R2 value for the calibration curve for each run for both metals was 0.998,
+foods that have higher levels of lead and cadmium, and identify ingredi-               the maximum acceptable RSD for matrix spike duplicates was 20%, the
+ents associated with elevated lead and cadmium. Our hypothesis is that                 maximum acceptable variability for the low-level and mid-level calibra-
+a varied diet is needed for babies and toddlers to avoid exceeding the                 tion veriﬁcation was 30% and 10%, respectively. For these metals, our
+maximum limits of lead and cadmium consumption set by California                       maximum measure of uncertainty for cadmium and lead were ±2.36%
+Proposition 65.                                                                        and 2.39%, respectively. The MDL for this method was based on acid solu-
+                                                                                       tion and was not matrix-corrected – method accuracy for each matrix was
+2. Materials and methods                                                               determined using matrix spike and matrix spike duplicates.
+
+2.1. Sample purchasing                                                                 2.4. Data analysis
+
+    564 baby foods were purchased from Denver, Colorado area conven-                      The distributions of lead and cadmium in μg/kg were examined in
+tional and natural/organic supermarkets, online retailers, and direct-to-              the full sample of infant formula and baby food items, and by the type
+824                                                   H. Gardener et al. / Science of the Total Environment 651 (2019) 822–827
+
+
+of baby food (cereal, electrolyte solutions, infant formula, toddler for-
+mula, jars/meals, juices/drinks, kid meals, pouches, snacks). Non-
+detected levels were included with an imputed value of 0 μg/kg. A visual
+inspection showed that these distributions were not normally distrib-
+uted. We calculated the amount of lead and cadmium in each food sam-
+ple across range of calories (100, 200, and 300 cal) and servings (1, 2,
+and 3 servings) to portray a range of exposures to each given food.
+Next, we calculated the number of baby food items, overall and across
+food type, that exceeded established hazard limits within each of the
+calorie and serving quantities. For lead, we used the Proposition 65
+limit of 0.5 μg/day and the FDA limit of 6 μg/day and calculated the num-
+ber of food items that exceeded these limits within 100–500 cal and 1–3
+servings. For cadmium we used the Proposition 65 limit of 4.1 μg/day
+and the WHO PTMI of 25 μg/kg body weight, which translates into a
+limit of 7.5 μg/day for a 9 kg baby (50% for females at age one year)
+and a limit of 5.3 μg/day for a 6.4 kg baby (50% for females at age four                     Fig. 1. 75th percentile for the concentrations of lead and cadmium across the solid baby
+months, Centers for Disease Control and Prevention, 2009). Again, we                         food samples.
+calculated the number of food items that exceeded these cadmium
+limits within 100–500 cal and 1–3 servings.                                                  lead was 9.72 μg/kg in the 304 organic items, 9.37 μg/kg in the 260
+    The American Academy of Pediatrics (2011) recommends that four-                          non-organic items, and the 75th percentile for cadmium was 5.60
+month-old infants consume between 30 and 32 oz of formula each day.                          μg/kg in the organic items, and 5.65 μg/kg in the non-organic. Fig. 1
+As such, exposure to lead and cadmium can be estimated by converting                         shows the 75th percentile of lead and cadmium concentration in
+the quantiﬁed μg/kg (PPB) into μg/31 oz of formula (the midpoint of the                      μg/kg across the types of baby food samples. The levels of both cadmium
+given range). Using this calculation we determined the daily consump-                        and lead varied across the type of food (Kruskal-Wallis p b 0.0001 for
+tion of lead and cadmium in 31 oz for each infant formula tested, and                        cadmium and lead). Cadmium and lead levels were highest in cereals,
+identiﬁed those that exceeded the FDA and Proposition 65 levels for                          snacks, and kid meals. Supplemental Fig. 2 shows the 75th percentile
+lead and the WHO and Proposition 65 levels for cadmium.                                      of lead and cadmium concentration in μg/kg according to the pres-
+    Next, our goal was to identify ingredients associated with higher                        ence/absence of the 16 most common ingredients in the samples tested.
+lead and cadmium concentration levels. We focused on the most com-                           Cadmium levels were highest in products that contained rice, quinoa,
+mon 16 ingredients listed in the ﬁrst ﬁve ingredients: rice, spinach, ap-                    wheat, and oats, and cadmium levels were lowest in products with ap-
+ples, sweet potatoes, potatoes, pears, blueberries, carrots, milk, quinoa,                   ples, pears, peaches, and milk (Wilcoxon p b 0.05). Lead levels were el-
+wheat, oat, bananas, strawberries, peaches, and chicken. We calculated                       evated in products containing rice, quinoa, and sweet potatoes
+the distribution of lead and cadmium in μg/kg by whether each ingredi-                       (Wilcoxon p N 0.05).
+ent was included in the top 5 listed ingredients for each food item (pres-
+ence vs. absence). Due to the non-normal distribution of lead and                            3.1. Estimated lead exposure: solid baby foods
+cadmium in the samples based on a visual inspection, we used non-
+parametric Wilcoxon rank sum tests to identify ingredients (presence                             Table 2 shows the percentage of baby food samples that exceeded
+vs absence) associated with higher lead and cadmium concentrations.                          the FDA and Proposition 65 limits for daily lead intake across a range
+Wilcoxon rank sum tests were also used to examine whether organic                            of number of servings and calories. Only one item (a pouch) exceeded
+certiﬁcation (as deﬁned by the presence of a certiﬁcation logo indicating                    the FDA limit in a single serving, though six items did so in two servings,
+compliance with USDA Organic certiﬁcation requirements) was associ-                          and eight in three servings (four of which were pouches). Fifteen baby
+ated with lead and cadmium levels. Lastly, a non-parametric Kruskal-                         food items exceeded the FDA lead limits in 300 cal, and 31 in 500 cal.
+Wallis test was used to examine whether lead and cadmium concentra-                          When the much lower Proposition 65 limit was considered, 18% of sam-
+tion levels varied across the baby food types. All analyses were per-                        ples exceeded the limit in a single serving, increasing to 28% within
+formed using SAS version 9.4 (Cary, NC).                                                     three servings, and 21% exceeded the limit in 100 cal, increasing to
+                                                                                             40% in 500 cal.
+3. Results
+                                                                                             3.2. Estimated cadmium exposure: solid baby foods
+    Table 1 shows the distribution of the two heavy metals of interest
+across the 564 food items. Of the 564 products tested, 210 (37%)                                Table 3 shows the percentage of baby food samples that exceeded
+had quantiﬁable lead and 321 (57%) had quantiﬁable cadmium. Only                             the WHO and Proposition 65 limits for daily cadmium intake across a
+one sample exceeded 100 μg/kg lead, which is the FDA regulatory                              range of number of servings and calories. Only two items exceeded
+limit for candy and certain dried fruits. Organic certiﬁcation was                           the WHO limit in a single serving for a 9 kg baby, though seven items
+unrelated to lead and cadmium concentration (Wilcoxon rank sum                               did so in two servings, and 21 in three servings (18 of which were
+test p = 0.65 for cadmium, p = 0.28 for lead). The 75th percentile for                       kids meals). Ten baby food items exceeded the WHO cadmium daily tol-
+                                                                                             erable limit for a 9 kg baby in 300 cal, and 32 in 500 cal. When the lower
+Table 1                                                                                      Proposition 65 limit was considered, 6% of samples exceeded the limit in
+Distribution of heavy metals across the baby food samples (N = 564).                         two servings, increasing to 11% within three servings, and 8% exceeded
+                                                                                             the limit in 300 cal, increasing to 21% in 500 cal.
+  Quantile                     Cadmium (μg/kg)                    Lead (μg/kg)
+
+  100% max                     103.90                             183.60
+                                                                                             3.3. Estimated lead and cadmium exposure: infant formula
+  99%                          42.50                              62.75
+  95%                          29.44                              18.50
+  90%                          20.75                              10.80                          Table 4 shows the distribution of lead and cadmium consumption
+  75% Q3                       9.54                               5.60                       estimated per day across the 91 samples of infant formulas based on
+  50% median                   2.76                               0.00 (non-detect)          the recommended intake levels for a four month old infant (approxi-
+  25% Q1                       0.00 (non-detect)                  0.00 (non-detect)
+                                                                                             mately 31 oz/day). This table shows the range of lead and cadmium
+                                                        H. Gardener et al. / Science of the Total Environment 651 (2019) 822–827                                      825
+
+
+Table 2
+Number of solid baby food samples that exceed guidelines for lead across a range of servings/calories.
+
+                                  Exceeds FDA lead daily limit
+
+                                  1 serving                2 servings                3 servings                100 cal               300 cal            500 cal
+
+  Baby food samples               N           %            N             %           N             %           N             %       N          %       N         %
+
+  All (N = 471)                   1           0.21         6             1.27        8             1.70        2             0.42    15         3.18    31        6.58
+  Cereals (N = 30)                0           0.00         0             0.00        0             0.00        0             0.00    1          3.33    1         3.33
+  Jars/meals (N = 112)            0           0.00         2             1.79        2             1.79        1             0.89    3          2.68    11        9.82
+  Juices/drinks (N = 25)          0           0.00         1             4.00        1             4.00        0             0.00    1          4.00    1         4.00
+  Kids meals (N = 58)             0           0.00         1             1.72        1             1.72        0             0.00    1          1.72    1         1.72
+  Pouches (N = 138)               1           0.72         2             1.45        4             2.90        1             0.72    9          6.52    13        9.42
+  Snacks (N = 108)                0           0.00         0             0.00        0             0.00        0             0.00    0          0.00    4         3.70
+
+                                  Exceeds Proposition 65 lead daily limit
+                                  1 serving               2 servings                 3 servings                100 cal               300 cal            500 cal
+  Baby food samples               N         %             N           %              N             %           N             %       N          %       N         %
+  All (N = 471)                   85        18.05         123         26.11          132           28.03       100           21.23   159        33.76   187       39.70
+  Cereals (N = 30)                2         6.67          3           10.00          6             20.00       2             6.67    13         43.33   21        70.00
+  Jars/meals (N = 112)            30        26.79         38          33.93          38            33.93       32            28.57   36         32.14   38        33.93
+  Juices/drinks (N = 25)          2         8.00          3           12.00          3             12.00       2             8.00    2          8.00    3         12.00
+  Kids meals (N = 58)             10        17.24         22          37.93          26            44.83       4             6.90    25         43.10   28        48.28
+  Pouches (N = 138)               33        23.91         42          30.43          42            30.43       42            30.43   42         30.43   43        31.16
+  Snacks (N = 108)                8         7.41          15          13.89          17            15.74       18            16.67   41         37.96   54        50.00
+
+
+
+
+Table 3
+Number of solid baby food samples that exceed guidelines for cadmium across a range of servings/calories.
+
+                                  Exceeds WHO cadmium daily limit for a 9 kg baby
+
+                                  1 serving                 2 servings                3 servings                   100 cal           300 cal            500 cal
+
+  Baby food samples               N           %             N            %            N            %               N         %       N         %        N         %
+
+  All (N = 471)                   2           0.42          7            1.49         21           4.46            3         0.64    10        2.12     32        6.79
+  Cereals (N = 30)                0           0.00          0            0.00         0            0.00            0         0.00    0         0.00     0         0.00
+  Jars/meals (N = 112)            0           0.00          0            0.00         1            0.89            0         0.00    3         2.68     9         8.04
+  Juices/drinks (N = 25)          0           0.00          0            0.00         0            0.00            0         0.00    0         0.00     0         0.00
+  Kids meals (N = 58)             1           1.72          6            10.34        18           31.03           2         3.45    4         6.90     12        20.69
+  Pouches (N = 138)               1           0.72          1            0.72         2            1.45            1         0.72    3         2.17     11        7.97
+  Snacks (N = 108)                0           0.00          0            0.00         0            0.00            0         0.00    0         0.00     0         0.00
+
+                                  Exceeds Proposition 65 cadmium daily limit
+  Baby food samples               1 serving               2 servings                  3 servings                   100 cal           300 cal            500 cal
+                                  N         %             N          %                N          %                 N         %       N         %        N         %
+  All (N = 471)                   7         1.49          29         6.16             53         11.25             6         1.27    38        8.07     101       21.44
+  Cereals (N = 30)                0         0.00          1          3.33             1          3.33              0         0.00    0         0.00     2         6.67
+  Jars/meals (N = 112)            0         0.00          3          2.68             12         10.71             2         1.79    2         1.79     28        25.00
+  Juices/drinks (N = 25)          0         0.00          1          4.00             2          8.00              0         0.00    0         0.00     1         4.00
+  Kids meals (N = 58)             6         10.34         22         37.93            34         58.62             2         3.45    14        24.14    32        55.17
+  Pouches (N = 138)               1         0.72          2          1.45             4          2.90              2         1.45    11        7.97     23        16.67
+  Snacks (N = 108)                0         0.00          0          0.00             0          0.00              0         0.00    1         0.93     15        13.89
+
+
+
+
+levels in μg/day that an infant would consume in 31 oz across the 91 in-                       4. Discussion
+fant formulas tested. While no formula exceeded the FDA's provisional
+limit of 6 μg lead/day, 22% of infant formula tested exceed the daily                              The current study represents an analysis of lead and cadmium con-
+lead limit set by California's Proposition 65 (0.5 μg/day). For cadmium,                       tamination in infant formula and baby food sold in the US, utilizing
+14% formulas exceeded 5.3 μg/day, the WHO tolerable daily limit for a                          564 commercial samples. Overall, the concentrations of lead and cad-
+6.4 kg baby (median weight of a 4 month old female baby), while 23%                            mium in the baby food samples are considered very low, with only
+exceeded the Proposition 65 daily limit.                                                       one sample exceeding 100 PPB for lead, which is the current FDA stan-
+                                                                                               dard for candy and certain dried fruits. In order to understand these
+                                                                                               contamination levels in the context of adverse health effects we identi-
+Table 4                                                                                        ﬁed the number of samples that exceeded currently proposed tolerable
+Distribution of estimated lead and cadmium exposure at age 4 months across infant for-         limits set forth by the US FDA, WHO, and California's Ofﬁce of Environ-
+mula samples (N = 91).                                                                         mental Health Hazard Assessment across a range of servings and calo-
+  Quantile        Est. lead exposure from formula       Est. cadmium exposure from             ries consumed. The limits set by California's Ofﬁce of Environmental
+                  at 4 months (μg/day)                  formula at 4 months (μg/day)           Health Hazard Assessment under Proposition 65 were the strictest,
+  100% max        2.68                                  23.33
+                                                                                               and as such almost a quarter of the infant formulas exceeded their
+  95%             1.06                                  8.04                                   lead limits and cadmium limits based on the recommended average
+  90%             0.78                                  6.11                                   consumption of a four month old infant. Our ﬁnding that 8% of baby
+  75% Q3          0.43                                  3.86                                   foods exceeded the Proposition 65 cadmium limits in 300 cal and 34%
+  50% median      0.00                                  0.00
+                                                                                               exceeded Proposition 65 lead levels in 300 cal underscores the
+826                                            H. Gardener et al. / Science of the Total Environment 651 (2019) 822–827
+
+
+importance of providing babies with a very varied diet in order to re-                calculated weekly intake met WHO standards for all items, there was
+duce the risk of overexposure to any given food contaminant. Though                   substantial variability in the median lead and cadmium concentrations
+the WHO cadmium limit and the FDA lead limit are much less conserva-                  between baby foods, juices, and deserts (Winiarska-Mieczan and
+tive in identifying samples of concern, it is noteworthy that 3% of baby              Kiczorowska, 2012). Ready-to-eat breakfast cereals sourced in Brisbane,
+food samples still exceeded the FDA lead limit in 300 cal, and 2% still               Australia, generally contained low levels of cadmium and lead with
+exceeded the WHO cadmium limit for a 9 kg baby. For lead, pouches                     some high outliers (Tinggi and Schoendorfer, 2018). Analysis of infant
+and jarred baby food represented the items most likely to exceed the                  cereals in Spain demonstrated that while most cereals contained
+limits examined, and rice and sweet potatoes were identiﬁed as com-                   below-recommendation levels of lead or cadmium, organic infant ce-
+mon ingredients associated with increased lead concentrations. In con-                reals and those with honey or cocoa contained higher concentrations
+trast, items classiﬁed as “kids' meals” were more likely to exceed                    of these metals (Hernández-Martínez and Navarro-Blasco, 2012). A
+cadmium limits, as grain-containing foods with rice, quinoa, wheat, or                comparison of infant foods from China, the United States, the United
+oats had the highest cadmium concentrations.                                          Kingdom, and Spain demonstrated variability in the presence of heavy
+    Though the reproductive toxicity and neurotoxicity of lead and cad-               metals between countries: lead levels were signiﬁcantly higher in
+mium are well-established, the long-term health effects of this chronic               baby rice from Spain as compared to other countries, and cadmium con-
+daily exposure in vulnerable infant populations remains poorly under-                 centrations were highest in baby rice from China (Carbonell-Barrachina
+stood. The long-term effects and cumulative risks associated with inges-              et al., 2012).
+tion of multiple heavy metals and industrial and environmental                            Our ﬁndings are similar to the ﬁndings of other research groups and
+contaminants is virtually unknown. However, we know that even                         government bodies. For example, the 2015 FDA Total Diet Study (TDS)
+small exposures can have negative consequences in the most vulnerable                 found heavy metals in approximately the same proportion as the pres-
+subset of the population (Al-Saleh et al., 2009; Choi et al., 2017; Kim               ent work, though they did tend to ﬁnd these metals in slightly lower
+et al., 2013), and we know that there is no known safe level of lead ex-              median concentrations, likely due to the TDS using composite samples
+posure. The results conﬁrm that although organic food is beneﬁcial for                (US Food and Drug Administration, 2018a, 2018b). Likewise, the ﬁrst
+reducing exposure to toxic pesticide residue in food, it does not confer              French Total Diet Study (Guérin et al., 2017) reported a signiﬁcantly
+similar protection against heavy metals.                                              higher rate of lead detection than the present work, likely due to their
+    The high concentration of arsenic in rice has been a topic of public              lower quantiﬁcation levels. Additionally, the French TDS reported less
+health scrutiny and concern over the last decade (US Food and Drug                    extreme values than the present work (maximum value 16 ppb), likely
+Administration, 2018a, 2018b). The current results demonstrating that                 due to differences in sampling technique. While water remains a pri-
+rice may be a particularly important ingredient when considering associ-              mary source of heavy metal exposure, the role of various food types is
+ations with lead and cadmium, support recommendations for regulation                  well documented.
+and public health guidance regarding appropriate rice consumption for                     This study represents one of the largest single time-point examina-
+babies. Based on our testing, signiﬁcantly reducing the consumption of                tions of American infant formula and baby food to date. The relatively
+rice by infants and toddlers would be expected to reduce their consump-               low quantiﬁcation limits featured in this study allow for meaningful ex-
+tion of both lead and cadmium. The public health relevance of our ﬁnd-                amination of very low-level contaminant concentrations. However, the
+ings is potentially substantial because rice was found in 10% of the baby             present study has several limitations. First, these samples were pur-
+food samples tested, including 50% of snacks, 47% of cereals, 1% of infant            chased based on popularity and availability in local and online retail
+formulas, and 45% of toddler formula. Rice cereal is a common ﬁrst food               stores. As such, this does not represent a random representative sample
+for babies in the United States, and puffed rice products are commonly                and no attempt was made to ensure an equal number of samples across
+marketed to babies as snacks. Substituting fruits and vegetables for rice             the various sub-categories, and the sample sizes across products types
+in a baby's diet would likely decrease the exposure to toxic heavy metals.            were relatively small. Second, unlike the FDA's Total Diet Study (Abt
+    These results clearly demonstrate a need for increased testing and sur-           et al., 2016), these samples were not the composite of multiple product
+veillance of heavy metal contamination by baby food and infant formula                purchases, and each sample was only acquired and analyzed once. This
+manufacturers in the US. Options for infant formula and baby foods                    may partially explain why the FDA sees lower median concentrations of
+with low levels of heavy metals exist, and, whether through changing                  heavy metals. While this study explored differences between conven-
+suppliers or changing formulations to include ingredients with less asso-             tional and USDA organic products, the authors recognize that both the
+ciation with heavy metals, it is possible to reduce infant and baby expo-             deﬁnition of ‘organic’ and the degree of compliance with organic certiﬁ-
+sure to these metals. This is accomplished by manufacturers engaging in               cation requirements are matters of debate (Barański et al., 2017). Addi-
+diligent ingredient sourcing coupled with rigorous quality and supplier               tionally, while this study explored major ingredients associated with
+assurance programs, analytical testing, and ingredient speciﬁcations.                 heavy metal concentrations in baby foods, more nuanced analyses are
+The results suggest that monitoring heavy metal contamination by the                  possible. Future studies should more directly investigate the heavy
+baby food industry may be warranted to help identify best practices to re-            metals burden of fruits and vegetables in baby foods, especially relative
+duce these levels over time. Some ingredients, like rice, may not be suit-            to their nutritional density.
+able for inclusion in infant formulas or baby foods given their status as a
+signiﬁcant source of cadmium and lead as well as arsenic.                             4.1. Conclusions
+    Lead and cadmium concentrations in infant formula, milk or other
+foods for infants and children have been quantiﬁed in international                      Low-level heavy metal contamination is widespread in baby food,
+markets. While infant formulas typically contain concentrations of                    and highest in items that contained grains in the ﬁrst ﬁve ingredients,
+these metals below safety thresholds, there is variability between prod-              particularly those containing rice. Further research is needed to under-
+ucts and countries. Analyses of commercially available infant formula                 stand the long-term health effects of this chronic daily low level heavy
+milks in Pakistan (Akhtar et al., 2017) and infant formula, electrolyte,              metal exposure in babies.
+and glucose solutions in Canada (Dabeka et al., 2011), and baby foods                    Supplementary data to this article can be found online at https://doi.
+in the United Kingdom (Khamoni et al., 2017) found low lead and cad-                  org/10.1016/j.scitotenv.2018.09.026.
+mium concentrations. In Brazil, infant formula was also found to have
+cadmium below recommended levels, but the median lead concentra-                      Disclosure
+tion was higher than local and WHO recommendations of 0.2 mg/kg
+(De Castro et al., 2010). European-produced baby foods available com-                     No competing ﬁnancial interests.
+mercially in Poland were examined for lead and cadmium; while                             This study was funded by the Clean Label Project.
+                                                              H. Gardener et al. / Science of the Total Environment 651 (2019) 822–827                                                                827
+
+
+References                                                                                            Jean, J., Sirot, V., Hulin, M., Le Calvez, E., Zinck, J., Noël, L., et al., 2018. Dietary exposure to
+                                                                                                          cadmium and health risk assessment in children - results of the French infant total
+Abt, E., Spungen, J., Pouillot, R., Gamalo-Siebers, M., Wirtz, M., 2016. Update on dietary in-            diet study. Food Chem. Toxicol. 115, 358–364.
+     take of perchlorate and iodine from US food and drug administration's total diet                 Joint FOA/WHO Expert Committee on Food Additives, 2011. Safety Evaluation of Certain
+     study: 2008–2012. J. Expo. Sci. Environ. Epidemiol. https://doi.org/10.1038/                         Food Additives and Contaminants. Available:. http://www.inchem.org/documents/
+     jes.2016.78.                                                                                         jecfa/jecmono/v64je01.pdf, Accessed date: 25 November 2017.
+Akhtar, S., Shahzad, M.A., Yoo, S.H., Ismail, A., Hameed, A., Ismail, T., Riaz, M., 2017. Deter-      Khamoni, J.A., Hamshaw, T., Gardiner, P.H.E., 2017. Impact of ingredients on the elemental
+     mination of aﬂatoxin M1 and heavy metals in infant formula milk brands available in                  content of baby foods. Food Chem. 231, 309–315.
+     Pakistani markets. Korean J. Food Sci. Anim. Resour. 37 (1), 79–86.                              Kim, Y., Ha, E.H., Park, H., Ha, M., Kim, Y., Hong, Y.C., Kim, E.J., Kim, B.N., 2013. Prenatal lead
+Al-Saleh, I., Nester, M., Mashhour, A., Moncari, L., Shinwari, N., Mohamed, Gel-D, Rabah, A.,             and cadmium co-exposure and infant neurodevelopment at 6 months of age: the
+     2009. Prenatal and postnatal lead exposure and early cognitive development: longi-                   Mothers and Children's Environmental Health (MOCEH) study. Neurotoxicology 35,
+     tudinal study in Saudi Arabia. J. Environ. Pathol. Toxicol. Oncol. 28 (4), 283–302.                  15–22.
+American Academy of Pediatrics, 2011. In: Holt, K. (Ed.), Bright Futures Nutrition 3rd Edi-           Noonan, C.W., Sarasua, S.M., Campagna, D., Kathman, S.J., Lybarger, J.A., Mueller, P.W.,
+     tion Pocket Guide. American Academy of Pediatrics Available:. https://brightfutures.                 2002. Effects of exposure to low levels of environmental cadmium on renal bio-
+     aap.org/Bright%20Futures%20Documents/BFNutrition3rdEdPocketGuide.pdf,                                markers. Environ. Health Perspect. 110 (2), 151–155.
+     Accessed date: 25 November 2017.                                                                 Rigon, A.P., Cordova, F.M., Oliveira, C.S., Posser, T., Costa, A.P., Silva, I.G., et al., 2008. Neu-
+Barański, M., Rempelos, L., Iversen, P.O., Leifert, C., 2017. Effects of organic food consump-            rotoxicity of cadmium on immature hippocampus and a neuroprotective role for p38
+     tion on human health; the jury is still out! Food Nutr. Res. 61 (1), 1287333.                        MAPK. Neurotoxicology 29 (4), 727–734.
+Bellinger, D.C., 2008. Very low lead exposures and children's neurodevelopment. Curr.                 Sirot, V., Traore, T., Guérin, T., Noël, L., Bachelot, M., Cravedi, J.P., et al., 2018. French infant
+     Opin. Pediatr. 20 (2), 172–177.                                                                      total diet study: exposure to selected trace elements and associated health risks. Food
+California Ofﬁce of Environmental Health Hazard Assessment, 2018. Available:. https://                    Chem. Toxicol. 120, 625–633.
+     oehha.ca.gov/proposition-65, Accessed date: 2 August 2018.                                       Téllez-Rojo, M.M., Bellinger, D.C., Arroyo-Quiroz, C., Lamadrid-Figueroa, H., Mercado-
+Carbonell-Barrachina, Á.A., Ramírez-Gandolfo, A., Wu, X., Norton, G.J., Burló, F., Deacon, C.,            García, A., Schnaas-Arrieta, L., et al., 2006. Longitudinal associations between blood
+     Meharg, A.A., 2012. Essential and toxic elements in infant foods from Spain, UK, China               lead concentrations lower than 10 microg/dL and neurobehavioral development in
+     and USA. J. Environ. Monit. 14 (9), 2447–2455.                                                       environmentally exposed children in Mexico City. Pediatrics 118 (2), e323–e330.
+Centers for Disease Control and Prevention, 2009. Available:. https://www.cdc.gov/                    Tinggi, U., Schoendorfer, N., 2018. Analysis of lead and cadmium in cereal products and du-
+     growthcharts/data/who/GrChrt_Girls_24LW_9210.pdf, Accessed date: 25 August 2018.                     plicate diets of a small group of selected Brisbane children for estimation of daily metal
+Choi, J., Chang, J.Y., Hong, J., Shin, S., Park, J.S., Oh, S., 2017. Low-level toxic metal exposure       exposure. J. Trace Elem. Med. Biol. https://doi.org/10.1016/j.jtemb.2018.06.022 (pii:
+     in healthy weaning-age infants: association with growth, dietary intake, and iron de-                S0946-672X(17)30977-X).
+     ﬁciency. Int. J. Environ. Res. Public Health 14 (4). https://doi.org/10.3390/                    US Food and Drug Administration, 2017. Questions and Answers on Lead in Foods. Available:
+     ijerph14040388 (pii: E388).                                                                          https://www.fda.gov/Food/FoodborneIllnessContaminants/Metals/ucm557424.htm,
+Dabeka, R., Fouquet, A., Belisle, S., Turcotte, S., 2011. Lead, cadmium and aluminum in Ca-               Accessed date: 27 August 2018.
+     nadian infant formulae, oral electrolytes and glucose solutions. Food Addit. Contam. A           US Food and Drug Administration, 2018a. Arsenic in Rice and Rice Products. Available:.
+     Chem. Anal. Control Expo. Risk Assess. 28 (6), 744–753.                                              https://www.fda.gov/Food/FoodborneIllnessContaminants/Metals/ucm319870.htm,
+De Castro, C.S., Arruda, A.F., Da Cunha, L.R., Souzade, J.R., Braga, J.W., Dórea, J.G., 2010.             Accessed date: 20 August 2018.
+     Toxic metals (Pb and Cd) and their respective antagonists (Ca and Zn) in infant for-             US Food and Drug Administration, 2018b. Total Diet Study. Available:. https://www.fda.gov/
+     mulas and milk marketed in Brasilia, Brazil. Int. J. Environ. Res. Public Health 7                   food/foodscienceresearch/totaldietstudy/default.htm, Accessed date: 27 August 2018.
+     (11), 4062–4077.                                                                                 Winiarska-Mieczan, A., Kiczorowska, B., 2012. Determining the content of lead and cad-
+Guérin, T., Le Calvez, E., Zinck, J., Bemrah, N., Sirot, V., Leblanc, J.C., et al., 2017. Levels of       mium in infant food from the Polish market. Int. J. Food Sci. Nutr. 63 (6), 708–712.
+     lead in foods from the ﬁrst French total diet study on infants and toddlers. Food                World Health Organization, 2013. Available:. http://apps.who.int/food-additives-contam-
+     Chem. 237, 849–856.                                                                                  inants-jecfa-database/chemical.aspx?chemID=1376, Accessed date: 27 August 2018.
+Hernández-Martínez, R., Navarro-Blasco, I., 2012. Estimation of dietary intake and content
+     of lead and cadmium in infant cereals marketed in Spain. Food Control 26, 6e14.
+

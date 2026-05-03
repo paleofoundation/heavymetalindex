@@ -12,47 +12,34 @@ This audit controls the next ingest wave for `raw/reports` followed by `raw/stud
 
 | Bucket | PDF files |
 | --- | ---: |
-| Reports | 51 |
+| Reports | 3 |
 | Studies | 331 |
-| Total | 382 |
+| Total | 334 |
 
 ## Source-Page Status
 
 | Status | Count |
 | --- | ---: |
-| deferred_historical | 1 |
-| matched_by_raw_path | 56 |
-| matched_by_sha256 | 2 |
-| no_source_page | 318 |
-| rejected_unusable | 2 |
-| related_artifact | 2 |
-| superseded_artifact | 1 |
+| matched_by_raw_path | 12 |
+| matched_by_sha256 | 3 |
+| no_source_page | 319 |
 
 ## Priority Buckets
 
 | Priority | Count |
 | --- | ---: |
-| P0-report-regulatory-toxicology | 30 |
-| P1-report-context | 17 |
+| P0-report-regulatory-toxicology | 2 |
+| P1-report-context | 1 |
 | P1-study-product-relevant | 36 |
 | P2-study-background | 295 |
-| P4-historical-draft | 1 |
-| P8-superseded | 1 |
-| P9-filename-content-misfire | 1 |
-| P9-out-of-scope | 1 |
 
 ## Reports Needing Source Pages First
 
-All report PDFs currently have a source-page match.
+- `raw/reports/fda-tds-elements-analytical-results-key-fy2018-fy2020.pdf`
 
 ## Reports Deliberately Not Promoted as Independent Source Pages
 
-- `raw/reports/2512.24601v2.pdf` — rejected_unusable; do not ingest into Heavy Metal Index; file is an AI/LLM paper, not a heavy-metal food, toxicology, regulatory, ingredient, or standards source
-- `raw/reports/ATSDR-2023-0004-0004_content.pdf` — superseded_artifact; do not create a separate public source page unless historical draft provenance is needed; final ATSDR nickel profile is represented by wiki/sources/atsdr-nickel-toxprofile-2024.md
-- `raw/reports/Biochem_Mercury_Ralston_2008.pdf` — rejected_unusable; do not ingest as mercury evidence; file content is Mitsuhashi et al. 2008 on pyrogallol/polyphenol apoptosis, not the intended Ralston mercury source
-- `raw/reports/EPA_IRIS_Cadmium_ToxicologicalReview.pdf` — deferred_historical; retain as historical EPA cadmium reassessment draft; do not use as operative EPA IRIS value because it is marked external review draft/do not quote and was not finalized
-- `raw/reports/EPA_IRIS_InorganicArsenic_Summary.pdf` — related_artifact; treat as companion IRIS summary artifact for the full 2025 inorganic arsenic toxicological review; do not create duplicate source weight
-- `raw/reports/EPA_IRIS_InorganicMercury_ToxReview.pdf` — related_artifact; treat as mislabeled companion artifact for EPA IRIS methylmercury summary; do not create an inorganic-mercury source page from this file
+No report PDFs are currently marked as non-public ingest artifacts.
 
 ## Product-Relevant Study Queue
 

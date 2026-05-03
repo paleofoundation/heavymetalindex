@@ -112,6 +112,8 @@ const QUERY_EXPANSIONS = {
   arsenic: ["as", "inorganic", "total", "rice", "speciation"],
   cadmium: ["cd", "cocoa", "rice", "wheat", "kidney", "efsa", "jecfa"],
   chromium: ["cr"],
+  calculate: ["calculation", "math", "standards", "values", "basis", "sources"],
+  calculation: ["calculate", "math", "standards", "values", "basis", "sources"],
   countries: ["country", "jurisdiction", "jurisdictions", "regulate", "regulation", "directive"],
   country: ["countries", "jurisdiction", "jurisdictions", "regulate", "regulation", "directive"],
   contaminated: ["contamination", "concentration", "occurrence", "exposure", "ingredients", "foods"],
@@ -120,6 +122,7 @@ const QUERY_EXPANSIONS = {
   food: ["foods", "product", "products", "ingredients", "commodities"],
   formula: ["infant", "powder", "ready", "rtf", "soy", "non-soy"],
   lead: ["pb", "closer", "zero", "baby", "children"],
+  math: ["calculation", "calculate", "values", "basis", "sources", "standards"],
   mercury: ["hg", "methylmercury", "mehg", "fish", "seafood"],
   methylmercury: ["mercury", "mehg", "fish", "seafood"],
   metals: ["metal", "lead", "cadmium", "arsenic", "mercury", "nickel", "aluminum", "chromium", "tin"],
@@ -128,6 +131,8 @@ const QUERY_EXPANSIONS = {
   regulate: ["regulated", "regulation", "regulations", "jurisdiction", "country", "countries", "directive"],
   regulated: ["regulate", "regulation", "regulations", "jurisdiction", "country", "countries", "directive"],
   regulations: ["regulation", "regulate", "regulated", "jurisdiction", "country", "countries", "directive"],
+  standard: ["standards", "calculation", "basis", "values", "sources"],
+  standards: ["standard", "calculation", "basis", "values", "sources"],
   tin: ["sn"],
   zinc: ["zn"],
 }
@@ -480,6 +485,11 @@ function scoreChunk(chunk, tokens, rawQuestion, pageSlug) {
   if (question.includes("source") || question.includes("study") || question.includes("evidence")) {
     if (chunk.category === "sources") score += 10
   }
+  if (question.includes("value") || question.includes("calculat") || question.includes("math") || question.includes("standard")) {
+    if (chunk.category === "products") score += 14
+    if (chunk.category === "sources") score += 6
+    if (chunk.category === "regulations") score += 6
+  }
 
   return score
 }
@@ -602,6 +612,8 @@ Traceability rules:
 - Use only citation numbers that appear in the provided excerpts.
 - If the excerpts do not support an answer, say the Index does not yet contain enough evidence to answer.
 - For comparative questions ("most contaminated", "covered most", "highest", "best"), answer only if the excerpts support the comparison. Otherwise explain the evidence gap and cite the closest relevant pages.
+- For HMTc standards calculation questions, separate loaded evidence inputs from final HMTc outputs. You may list source-stated values, N, basis, regulatory reference values, and cited evidence gaps when the excerpts provide them.
+- Do not invent final standards values, percentiles, conversions, source weights, or math that is not explicitly documented in the excerpts. If the calculation trace is not in the retrieved excerpts, say what inputs are visible and what calculation logic is missing.
 - Do not provide medical, legal, or regulatory advice. Frame answers as reference summaries of the site.
 
 Return JSON only.`

@@ -1,0 +1,1712 @@
+      Food Additives & Contaminants: Part A
+
+
+
+
+      ISSN: 1944-0049 (Print) 1944-0057 (Online) Journal homepage: www.tandfonline.com/journals/tfac20
+
+
+
+
+Infants’ and young children’s dietary exposures to
+lead and cadmium: FDA total diet study 2018–2020
+
+Dana Hoﬀman-Pennesi, Sarah Winﬁeld, Alexandra Gavelek, Soﬁa M.
+Santillana Farakos & Judith Spungen
+
+To cite this article: Dana Hoﬀman-Pennesi, Sarah Winﬁeld, Alexandra Gavelek, Soﬁa M.
+Santillana Farakos & Judith Spungen (2024) Infants’ and young children’s dietary exposures to
+lead and cadmium: FDA total diet study 2018–2020, Food Additives & Contaminants: Part A,
+41:11, 1454-1479, DOI: 10.1080/19440049.2024.2396910
+
+To link to this article: https://doi.org/10.1080/19440049.2024.2396910
+
+
+
+
+       © 2024 U.S. FDA Center for Food Safety and
+       Applied Nutrition. Published with license by
+       Taylor & Francis Group, LLC.
+
+       Published online: 05 Sep 2024.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 4089
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+       Citing articles: 9 View citing articles
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=tfac20
+Food Additives & Contaminants: Part A
+2024, VOL. 41, NO. 11, 1454–1479
+https://doi.org/10.1080/19440049.2024.2396910
+
+
+
+
+Infants’ and young children’s dietary exposures to lead and cadmium: FDA
+total diet study 2018–2020
+Dana Hoffman-Pennesi, Sarah Winfield, Alexandra Gavelek, Sofia M. Santillana Farakos                                                                and
+Judith Spungen
+Center for Food Safety and Applied Nutrition, U.S. Food and Drug Administration, College Park, MD, USA
+
+
+    ABSTRACT                                                                                                                             ARTICLE HISTORY
+    Food can be a source of lead and cadmium exposure for infants and children. Employing a                                              Received 24 June 2024
+    semi-probabilistic approach, dietary exposures to lead and cadmium were assessed for infants                                         Revised 19 August 2024
+    0–11 months (excluding human milk-fed infants) and children 1–6 years using U.S. total diet                                          Accepted 19 August 2024
+    study data from 2018 to 2020 and food consumption data from 2015 to 2018. Estimated                                                  KEYWORDS
+    mean lead and cadmium exposures range from 0.7–3.6 µg/day to 0.18–0.47 µg/kg bw/day,                                                 dietary exposure; lead;
+    respectively, depending on the age group and method for handling non-detected values.                                                cadmium; infants; children
+    Dietary exposures to lead and cadmium are slightly lower and slightly higher than our
+    estimates published in 2019. In addition to the use of more recent datasets for consumption
+    and contamination, differences may be due to the use of refined exposure assessment
+    methodology, particularly a new system of mapping contamination data to intake data. The
+    processed baby food and infant formula food group is the major contributor to lead and
+    cadmium exposure, driven by intake, among infants who do not consume human milk. The
+    food groups contributing most to children’s lead and cadmium exposure are grains/baking,
+    dairy and fruit and grains/baking and vegetables, respectively. This work will inform FDA
+    initiatives such as closer to zero, including research needs and regulatory priorities.
+
+
+
+
+Introduction                                                                               review of the literature identified full-scale IQ,
+Infants and young children can be exposed to                                               nervous system and renal effects as potential
+lead and cadmium through many sources, includ-                                             health outcomes from children’s cadmium expo-
+ing food. Food is a source of environmental con-                                           sure; however, the authors concluded more
+taminants such as lead and cadmium because                                                 research is needed (Flannery et al. 2022).
+they occur in the soil, water or air where foods                                           Cadmium is excreted from the body slowly with
+are grown, raised or processed (FDA 2024b).                                                accumulation starting at a young age and poten-
+Lead exposure occurs primarily through inges-                                              tially resulting in serious health effects in later
+tion, and children generally absorb a higher per-                                          life (Schoeters et al. 2006). In adults, oral expo-
+centage of ingested lead compared to adults                                                sure to cadmium is associated with a decrease
+(ATSDR 2023). In the United States (U.S.) the                                              in bone mineral density and renal tubular
+primary source of cadmium exposure, other than                                             degeneration (Schaefer et al. 2023).
+cigarette smoke, is food (ATSDR 2012).                                                        The current study updates previous lead and
+   Lead is a health concern for fetuses, infants                                           cadmium dietary exposure estimates for young
+and young children due to its effects on neuro-                                            children aged 1–6 years (Spungen 2019), using
+development (ATSDR 2020; Flannery et al.                                                   improved methodology and more recent data
+2020). Exposure to lead can have negative cog-                                             on concentrations and food intakes. We also
+nitive effects not only in youth but also into                                             estimated dietary lead and cadmium exposures
+adulthood in addition to hypertension and kid-                                             for infants 0–11 months, excluding infants who
+ney dysfunction (Dolan et al. 2020). A scoping                                             consumed human milk, due to limited data
+
+CONTACT Dana Hoffman-Pennesi                   dana.hoffman-pennesi@fda.hhs.gov               Center for Food Safety and Applied Nutrition, U.S. Food and Drug
+Administration, College Park, MD, USA
+© 2024 U.S. FDA Center for Food Safety and Applied Nutrition. Published with license by Taylor & Francis Group, LLC.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted
+use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the
+Accepted Manuscript in a repository by the author(s) or with their consent.
+                                                                    Food Additives & Contaminants: Part A   1455
+
+
+available for estimating lead and cadmium               for analysis. Foods identified as nationally distrib-
+exposures from human milk. We used the                  uted (‘national foods’) are collected once per year.
+2018–2020 total diet study (TDS) lead and cad-          The food lists were also updated in 2018 to focus
+mium concentration data (FDA 2022b), mapped             on foods that are highly consumed and foods
+to     2017–2018     (2015–2018     for   infants       that are used as ingredients in foods e.g. flour,
+0–11 months) food intake data from What We              salt and cocoa powder. Further information on
+Eat in America (WWEIA) (USDA 2022b), the                TDS samples and analyses are on the TDS web-
+food consumption portion of the National                site (FDA 2022a). A total of 307 foods and bev-
+Health and Nutrition Examination Study                  erages (including bottled water) sampled from
+(NHANES) (NHANES/WWEIA) (CDC 2015) to                   2018 to 2020 were selected to represent key foods
+estimate infant and children’s lead and cadmium         and food groups in the U.S. diet (Table 1). TDS
+exposures and to identify key dietary sources of        data from these samples were used to estimate
+exposures. The exposure estimates were com-             mean concentrations of lead and cadmium.
+pared with the FDA’s current lead interim refer-
+ence level (IRL) (Flannery and Middleton 2022)          Lead and cadmium concentrations
+based on the Center for Disease Control and
+Prevention’s (CDC’s) blood lead reference value         Lead and cadmium were measured using induc-
+of 3.5 µg/dL (CDC 2022) and FDA’s cadmium               tively    coupled    plasma-mass      spectrometry
+toxicological reference value (TRV) based on an         (ICP-MS), after microwave digestion (Gray et al.
+adapted physiological based pharmacokinetic             2020). Reporting limits (RLs) are set between the
+(PBPK) model that assumes chronic exposure              LOD and LOQ and are static across years. They
+from birth to approximately 50 years of age             varied analyte by analyte, with some close to the
+developed by Pouillot et al. (2022) using the           LOD, and all below the LOQ. RLs for lead and
+kidney and bone as critical targets for cadmium         cadmium in foods varied, depending on the food
+toxicity (Schaefer et al. 2023). The updated            matrix and the sample size needed for ICP-MS
+exposure estimates will be used to inform and           analysis. RLs were lower for bottled water and
+serve as baseline estimates for the FDA initia-         beverages than for solid foods. The RLs for lead
+tive, ‘Closer to Zero’ or C2Z, which identifies         ranged from 0.4–10 µg/kg and 0.03–3 µg/kg for
+actions the Agency will take to reduce toxic ele-       cadmium (FDA 2022b).
+ment exposure from foods eaten by babies and               Three different methods for handling
+young children (FDA 2024a).                             non-detected values (<RL) were used to calculate
+                                                        mean concentrations in food and to estimate the
+                                                        range of possible exposures. To estimate lower
+Materials and methods                                   bound mean concentrations all values less than
+                                                        the RL were set to zero, and to estimate the
+Foods sampled in TDS
+                                                        upper bound mean concentrations all values less
+Beginning in 2018, the TDS sampling plan                than the RL were set to the RL (EFSA 2010;
+changed from convenience-based sampling (all            EFSA et al. 2011; FAO and WHO 2020). The
+foods collected in one of four regions at the same      range is further defined using a ‘hybrid’ mean
+time each year) to population-based sampling,           concentration where mean concentrations were
+where ‘regional foods’ are collected in six regions     estimated by setting values for foods with no his-
+(approximately equal in population) twice per           tory of detections (using data from TDS collec-
+year to account for where people live and season-       tions 2013–2020) to zero (i.e. similar to the lower
+ality. For each regional collection, three cities are   bound method) and setting non-detected values
+identified in the selected region as collection         for foods in the same dataset that have one or
+locations. FDA collects the same list of regional       more detected values to half the RL (Xue et al.
+foods from each of the three selected cities within     2010). Hybrid, lower bound and upper bound
+each region once per month, and samples of each         mean concentration data for lead and cadmium
+food from each of the three cities are composited       can be found in the Appendix.
+1456      D. HOFFMAN-PENNESI ET AL.
+
+
+Table 1. Food groupings and types of foods collected in the total diet study (2018–2020).
+                                                                                                                                            Number of
+                                                                                                                                Number of     samples
+Food group                                                             Description                                                foods     2018–2020a
+Beveragesb             Includes all beverages other than 100% fruit juice and 100% vegetable juice (e.g. bottled water,            21           87
+                           non-dairy beverages, carbonated beverages, and energy drinks)
+Candy/sweets           Includes candy, gelatin, jelly, sugar and syrup                                                       12            36
+Condiments/sauces      Condiments and sauces (e.g. ketchup, mustard, salsa, soy sauce)                                        6            42
+Dairy                  All dairy products (e.g. butter, cheese, milk, yogurt, creams and ice cream)                          20           371
+Eggs                   Hard-boiled eggs                                                                                       1            27
+Fats/oils              Vegetable fats and oils and salad dressings                                                            8            24
+Fruit                  All fruits (e.g. apples, bananas, berries, peaches and pineapple)                                     17           366
+Fruit juice            Includes all 100% fruit juices (e.g. apple juice, orange juice and lemon juice)                        8            24
+Grains/baking          All grains and grain products (e.g. rice, pasta, oatmeal, cereals, breadcrumbs, baked goods and flour)52           490
+Legumes                All legumes (e.g. beans, lentils and tofu)                                                            10            24
+Meat/poultry           All meats, poultry, processed meat products (e.g. ground meats, fried chicken and luncheon meats)     19           436
+Mixtures               Mixtures of meat/poultry/fish, grains and vegetables (e.g. cheese pizza, macaroni and cheese and soup)13            63
+Peanuts/nuts/seeds     Peanuts, tree nuts, nut butters and seeds                                                              6            35
+Processed baby food    All processed baby foods (i.e. foods marketed to infants and young children), infant formula and      63           384
+    and infant formula     baby water (water marketed to babies)
+Seafood                All fish and shellfish                                                                                 7           141
+Vegetables             All vegetables and 100% vegetable juice (e.g. broccoli, carrots, leafy greens, potatoes and squash)   39           717
+NEC                    Not elsewhere categorised. Includes salt, cocoa powder, protein powder and chicken broth               5               9
+All                                                                                                                        307           3276
+a
+ TDS regional samples were collected twelve times a year and national samples once per year. An additional sampling of baby foods occurred in 2019.
+   Nine TDS collections and/or associated analyses were cancelled due to the federal government furlough in December 2018 through January 2019 and
+   the COVID-19 pandemic in 2020.
+b
+  Alcoholic beverages were not included as there was no reported consumption of these beverages by infants 0–11 months or children 1–6 years.
+
+
+Mapping NHANES/WWEIA foods to TDS lead and                                     contaminant concentrations in ‘shrimp and noo-
+cadmium concentrations                                                         dles with mushroom sauce’ are estimated using
+                                                                               ingredient percentage-based mapping to TDS
+Infants’ and children’s total dietary exposures to
+                                                                               data on shrimp, noodles, milk, mushroom soup
+lead and cadmium were determined using analyte
+                                                                               and oil. Contaminant concentrations in tap water
+concentration data from TDS (2018–2020), com-
+                                                                               were estimated using TDS data for bottled water
+bined with food intake amounts reported in the
+                                                                               (mineral or spring water depending on availabil-
+2017–2018 NHANES/WWEIA cycle for children
+                                                                               ity) because TDS does not collect tap water.
+1–6 years and the 2015–2018 NHANES/WWEIA                                       Exposures to lead and cadmium from the con-
+cycles for infants 0–11 months. Additional years                               sumption of homemade baby foods were esti-
+of the survey were needed to estimate exposure                                 mated assuming the concentrations are those in
+to infants 0–11 months to ensure the appropriate                               the foods consumed by the general population.
+number of consumers for statistical reliability.                                  For cases in which there were large (~10% or
+   We mapped NHANES/WWEIA foods to TDS                                         more) differences in % solids between the
+data using the FDA Food Disaggregation Database                                FDA-FDD ingredient (after any relevant cooking
+or FDA-FDD (Spungen et al. 2024). FDA-FDD is                                   step) and the closest TDS food match, we devel-
+a ‘recipe’ database that is based on recipes in the                            oped factors for adjusting TDS concentration val-
+USDA’s Food and Nutrient Database for Dietary                                  ues to reflect the % solids in the NHANES/
+Studies (FNDDS) (USDA 2022a), with additional                                  WWEIA ingredients. These adjustment factors
+further disaggregation of ingredients in many                                  were calculated as % solids in the NHANES/
+FNDDS recipes. Using FDA-FDD, we identified                                    WWEIA ingredient divided by % solids in the
+the TDS foods that best match each NHANES/                                     TDS food, and they were estimated using mois-
+WWEIA food, on the food or ingredient basis,                                   ture concentration data for the closest ingredient
+considering potential similarities in contamina-                               match from USDA’s Food Data Central (USDA
+tion patterns. Some NHANES/WWEIA foods                                         2024). For example, for NHANES/WWEIA food
+were mapped to single TDS foods (e.g. NHANES/                                  code 72201100 (Broccoli, raw), the TDS food we
+WWEIA raw orange to TDS raw orange) but                                        judged to be closest is TDS food number 113
+most were mapped to multiple TDS foods based                                   (Broccoli, fresh/frozen, cooked). Raw broccoli is
+on estimated ingredient percentages. For example,                              10.8% solids (based on moisture data from
+                                                                  Food Additives & Contaminants: Part A   1457
+
+
+USDA’s Food Data Central) on average and TDS              In the current study, lead and cadmium expo-
+cooked broccoli is 7.4% solids on average, so the      sures were estimated for infants 0–11 months who
+ratio of solids in the NHANES/WWEIA ingredi-           did not consume human milk (n = 316, represent-
+ent to that in the TDS food is 1.5 raw broccoli:       ing about half of the U.S. infant population)
+1 cooked broccoli leading to an adjustment factor      because TDS does not measure contaminant con-
+of 1.5 for mapping purposes.                           centrations in human milk and NHANES/
+   The mapping of NHANES/WWEIA foods to                WWEIA does not quantify intakes of human
+foods collected in the TDS is included in an online    milk. Exposures for infants not consuming human
+application (https://pub-connect.foodsafetyrisk.org/   milk were estimated separately from those for
+fda-fdd). With this application, users can find the    children 1–6 years because infant diets contain
+most up-to-date mapping to TDS foods and can           relatively low amounts of solid foods (Hamner
+download the mapping data.                             et al. 2017; Karmaus et al. 2017).
+                                                          The estimated lead and cadmium dietary expo-
+                                                       sures for infants and children were compared
+Estimation of infants’ and children’s lead and
+                                                       with FDA’s IRL of 2.2 µg/day for young children’s
+cadmium dietary exposures
+                                                       exposures to dietary lead (Flannery and Middleton
+Mean daily exposures to lead and cadmium for           2022) and FDA’s cadmium TRV range of 0.21–
+each NHANES/WWEIA respondent 0–6 years                 0.36 µg/kg body weight/day (Schaefer et al. 2023).
+were estimated as the sum of exposures to lead,
+and to cadmium, from each food consumed,               Results
+which were in turn estimated as the product of
+the average daily amount of food consumed and          Lead in food
+the contaminant concentration (using hybrid,           Among the 3276 TDS samples analyzed, 2801
+lower bound and upper bound means). Exposures          (86%) had lead levels below the reporting limit
+in units of µg/day and µg/kg body weight (as           (RL). Lead concentrations were below the RL
+measured)/day were estimated for each respon-          (not detected) in all samples of 194 (63%) of the
+dent. We used an exposure assessment software          307 foods. Lead concentrations were above the
+package, the Foods Analysis and Residue                RL in every sample for 24 (8%) foods; these
+Evaluation (FARE) Program (Exponent, Inc. 2023)        foods included chocolate-containing foods (e.g.
+which divides each consumer’s two-day average          chocolate cake, chocolate candies, cookies, brown-
+food intake by the consumer’s body weight              ies and chocolate syrup), honey oat ring cereal,
+reported in NHANES/WWEIA before calculation            processed baby foods, salad dressing and more.
+of the population intake means and percentiles.        Foods with the highest hybrid mean lead concen-
+Mean and upper level (90th percentile) two-day         trations (consumed by infants and children)
+average exposures were estimated for infants           include baby food sweet potatoes (21 µg/kg), baby
+0–11 months (n = 316) and children 1–6 years           food teething biscuits (18 µg/kg), crème-filled
+(n = 740). Food consumption data from 24-h             sandwich cookies (13 µg/kg), baked sweet potato
+recalls administered over each of the two              (13 µg/kg), low-calorie ranch dressing (13 µg/kg),
+non-consecutive NHANES/WWEIA survey days               barbecue sauce (11 µg/kg), raisins (10 µg/kg) and
+were used in the analyses (CDC 2015; USDA              chocolate syrup (9 µg/kg) (Figure 1). Baking pow-
+2022b). Because NHANES does not provide                der (164 µg/kg, one sample) and cocoa powder
+information on the region of residence, all expo-      (63 µg/kg, one sample) also ranked high.
+sure estimates were generated for total U.S. pop-
+ulations rather than regional populations. Food
+                                                       Cadmium in food
+group contributions to lead and cadmium expo-
+sures were calculated based on the estimated           Among the 3276 samples analyzed, 1280 (39%)
+hybrid population average exposures from each          had cadmium levels below the RL. Cadmium
+food group. These exposure estimates can be            concentrations were below the RL (not detected)
+found in detail in the Appendix.                       in all samples of 93 (30%) of the 307 foods. For
+1458     D. HOFFMAN-PENNESI ET AL.
+
+
+
+
+Figure 1. Foods with the ten highest lead concentrations, FDA total diet study 2018–2020 (analysis method: ICP-MS), hybrid mean
+concentrations, for foods with n > 1 error bars represent standard deviations. BF = baby food.
+
+
+
+
+Figure 2. Ten foods with the highest cadmium concentrations, FDA total diet study, 2018–2020 (analysis method: ICP-MS), hybrid
+mean concentrations, for foods with n > 1 error bars represent standard deviation.
+
+
+165 foods (54%), cadmium concentrations were                     spinach (222 µg/kg), potato chips (130 µg/kg), raw
+at or above the RL in every sample; these foods                  leaf lettuce (61 µg/kg), French fries (58 µg/kg),
+included chocolate-containing foods (e.g. choco-                 peanut butter (52 µg/kg), chocolate chip cookies
+late milk, chocolate cake, chocolate candies, choc-              (48 µg/kg), graham crackers (43 µg/kg), and baked
+olate chip cookies), peanuts, sunflower seeds,                   potato (43 µg/kg) (Figure 2). Cocoa powder also
+grains (e.g. rice, oatmeal, bread, baked goods,                  ranked high (400 µg/kg, one sample).
+cereals), fruits (e.g. strawberries, avocado), leafy
+green vegetables (e.g. collards, spinach, kale, let-
+                                                                 Estimated dietary exposures to lead among
+tuce), root vegetables (e.g. potatoes, carrots), pro-
+                                                                 infants 0–11 months and children 1–6 years
+cessed baby foods, condiments/sauces (e.g.
+ketchup, barbecue sauce) and many more. The                      Estimated mean and 90th percentile lead expo-
+TDS foods with the highest hybrid mean concen-                   sures for infants who do not consume human
+trations were sunflower seeds (333 µg/kg), raw                   milk (n = 316, representing about half the U.S.
+                                                                                            Food Additives & Contaminants: Part A   1459
+
+
+infant population) and for children 1–6 years are                               bound, upper bound) mean lead concentrations
+dependent on the non-detect substitution scenar-                                for infants. Mean and 90th percentile lead expo-
+ios (hybrid, lower bound, and upper bound)                                      sures considering bodyweight for children
+(Table 2). All estimated mean lead exposures for                                1–6 years were 0.09 (0.04, 0.22) µg/kg bw/day and
+infants who do not consume human milk are                                       0.14 (0.07, 0.33) µg/kg bw/day, respectively, using
+below the FDA’s IRL of 2.2 µg/day. Mean lead                                    hybrid (lower bound, upper bound) mean lead
+exposures for children 1–6 years estimated based                                concentrations.
+on lower bound and hybrid concentrations are
+below FDA’s IRL (Table 2).                                                      Estimated dietary exposures to cadmium among
+   Dietary exposures to lead were also estimated                                infants 0–11 months and children 1–6 years
+considering bodyweight (in kilograms) as reported                               Estimated mean dietary cadmium exposures for
+by NHANES/WWEIA respondents and calculated                                      infants who do not consume human milk were
+as µg/kg bw/day. Mean and 90th percentile lead                                  below the lower range of the published TRV of
+exposures considering body weight were 0.16                                     0.21–0.36 µg/kg bw/day (Table 3). However, all
+(0.12, 0.26) µg/kg bw/day and 0.28 (0.22, 0.42)                                 the estimated 90th percentile cadmium dietary
+µg/kg bw/day, respectively, using hybrid (lower                                 exposures for infants, including the lower bound,
+                                                                                are above the upper range of the cadmium TRV.
+Table 2. Dietary exposures to lead among infants 0–11 months                    Estimated mean and 90th percentile cadmium
+and children 1–6 years.                                                         dietary exposures for children 1–6 years are both
+                                    Dietary lead exposure (µg/day)a             higher than the upper range of the cadmium
+                                     Mean                90th percentile        TRV (Table 3).
+                                     Hybridb                  Hybridb
+                                 (lower boundc,           (lower boundc,
+                                                                                   Dietary exposures to cadmium were also esti-
+Age group                        upper boundd)            upper boundd)         mated not considering bodyweight and calculated
+0–11 months (n = 316)                  1.3 (0.9, 2.0)          2.4 (1.9, 3.6)   as µg/day. Mean and 90th percentile cadmium
+1–6 years (n = 740)                    1.5 (0.7, 3.6)          2.4 (1.2, 5.3)
+a
+  Data sources: toxic element concentrations in foods: FDA total diet study,    exposures for infants not considering bodyweight
+   2018–2020 (analysis method: ICP-MS), arithmetic mean concentrations.         were 1.5 (1.5, 1.7) µg/day and 3.6 (3.5, 3.8) µg/
+   Food consumption: What We Eat in America (WWEIA)/National Health
+   and Nutrition Examination (NHANES) 2017–2018 (2015–2018 for infants).        day, respectively, using hybrid (lower bound,
+   Estimated exposures do not include contributions from human milk.            upper bound) mean cadmium concentrations.
+b
+  Values < reporting limit (RL) set to zero if there were no detections from
+   2013 to 2020; otherwise, values < RL set to 0.5*RL.                          Mean and 90th percentile cadmium exposures
+ Values < RL set to zero.                                                       not considering bodyweight for children 1–6 years
+c
+d
+  Values < RL set to RL.
+                                                                                were 7.2 (7.1, 7.9) µg/day and 11.2 (11.1, 12.0)
+                                                                                µg/day, respectively, using hybrid (lower bound,
+Table 3. Dietary exposures to cadmium among infants
+0–11 months and children 1–6 years.                                             upper bound) mean cadmium concentrations.
+                             Dietary cadmium exposure (µg/kg bw/day)a,b
+                                     Mean                90th percentile
+                                                                                Food group contributions to exposure
+                                     Hybridc                 Hybridc
+                                 (lower boundd,          (lower boundd,         The food group contributing the most to lead
+Age group                        upper bounde)           upper bounde)
+0–11 months (n = 316)           0.19 (0.18, 0.20)       0.39 (0.38, 0.40)       (81% contribution) and cadmium (55% contribu-
+1–6 years (n = 740)             0.43 (0.43, 0.47)       0.71 (0.70, 0.76)       tion) exposure for infants not consuming human
+a
+  Data sources: toxic element concentrations in foods: FDA total diet study,    milk is the processed baby food and infant for-
+   2018–2020 (analysis method: ICP-MS), arithmetic mean concentra-
+   tions. Food consumption: What We Eat in America (WWEIA)/National             mula food group. These exposures appear to be
+   Health and Nutrition Examination (NHANES) 2017–2018 (2015–2018 for
+   infants). Estimated exposures do not include contributions from human
+                                                                                mainly driven by intake levels because lead and
+   milk.                                                                        cadmium concentrations were relatively low in
+b
+  Exposure assessment software package, the Foods Analysis and Residue
+   Evaluation (FARE) Program (Exponent, Inc.) divide the estimated two-day      most foods in the processed baby foods and
+   average food intake by consumers by the body weight of each individual       infant formula food group (Table 4). Other food
+   in NHANES/WWEIA.
+c
+ Values < reporting limit (RL) set to zero if there were no detections from     groups contributing to lead exposure in infants
+d
+   2013 to 2020; otherwise, values < RL set to 0.5*RL.
+  Values < RL set to zero.
+                                                                                not consuming human milk include beverages
+e
+  Values < RL set to RL.                                                        (7.4%) and vegetables (3.3%). For cadmium, other
+1460        D. HOFFMAN-PENNESI ET AL.
+
+
+Table 4. Total diet study food group intakes and contributions                 Table 5. Total diet study food group intakes and contributions
+to lead and cadmium exposures for infants, excluding human                     to lead and cadmium exposures for children 1–6 years.
+milk consumers.                                                                                                         Dietary lead     Dietary cadmium
+                                         Dietary lead     Dietary cadmium                           Food intake          exposurea           exposurea
+                    Food intake           exposurea           exposurea                             g per
+                  g per                                                        Food group         capita/day % total µg/day % total µg/day % total
+Food group      capita/day % total     µg/day % total µg/day % total           Beverages             579      36.0       0.11    7.3       0.05     0.7
+Processed          541       48          1.04       81       0.85      55      Dairy                 349      21.7       0.20 13.1         0.15     2.1
+    baby food                                                                  Grains/baking         148       9.2       0.38 24.6         3.00    41.5
+    and infant                                                                 Fruit                 135       8.4       0.19 12.3         0.21     2.9
+    formula                                                                    Fruit juice           109       6.8       0.13    8.5       0.02     0.3
+Beverages          484        43         0.10      7.4       0.02      1.0     Vegetables              74      4.6       0.12    8.1       2.29    31.7
+Dairy               36        3.1        0.02      1.3      <0.01      0.2     Meat/poultry            67      4.2       0.11    7.0       0.16     2.3
+Grains/baking       17        1.5        0.02      1.7       0.28      18      Mixtures                47      2.9       0.09    6.2       0.69     9.5
+Fruit               15        1.4        0.02      1.6       0.02      1.6     Candy/sweets            27      1.7       0.05    3.4       0.06     0.9
+Vegetables          14        1.2        0.05      3.6       0.29      19      Eggs                    16      1.0       0.03    2.1       0        0
+Fruit juice         12        1.0        0.02      1.3      <0.01     <0.1     Processed               11      0.7       0.02    1.5       0.04     0.5
+Meat/poultry        5.5       0.5        0.01      0.6       0.01      0.7         baby food
+Mixtures            5.0       0.4        0.01      0.7       0.05      3.5         and infant
+Eggs                3.5       0.3        0.01      0.5       0          0          formula
+NECb                1.9       0.2      <0.01      <0.1      <0.01      0.2     Legumes                 10      0.6       0.03    0.3       0.03     0.4
+Candy/sweets        1.2       0.1      <0.01       0.1      <0.01     <0.1     NECb                    10      0.6       0.01    0.7       0.07     1.0
+Fats/oils           1.0       0.1      <0.01       0.2      <0.01     <0.1     Fats/oils                9      0.6       0.02    1.2       0.01     0.1
+Legumes             0.8       0.1      <0.01      <0.1      <0.01      0.1     Condiments/              7      0.4       0.02    1.5       0.13     1.7
+Condiment/          0.4      <0.1      <0.01       0.1      <0.01      0.2         sauces
+    sauces                                                                     Peanuts/nuts/            6      0.4       0.03    1.7       0.30     4.2
+Peanuts/nuts/       0.1      <0.1      <0.01       0.1       0.01      0.5         seeds
+    seeds                                                                      Seafood                  4      0.2       0.01    0.5       0.03     0.4
+Seafood             0.1      <0.1      <0.01      <0.1      <0.01     <0.1     Total                1608       100       1.5     100       7.2       100
+Total               1139       100       1.29      100       1.54     100      a
+                                                                                 Data sources: toxic element concentrations in foods: FDA total diet study,
+a
+ Data sources: toxic element concentrations in foods: FDA total diet study,       2018–2020 (analysis method: ICP-MS, hybrid mean concentrations. Food
+   2018–2020 (analysis method: ICP-MS, hybrid mean concentrations. Food           consumption: What We Eat in America (WWEIA)/National Health and
+   consumption: What We Eat in America (WWEIA)/National Health and                Nutrition Examination Survey (NHANES) 2017–2018. Estimated exposures
+   Nutrition Examination Survey (NHANES) 2015–2018. Estimated exposures           do not include contributions from human milk and are based on hybrid
+   are based on hybrid mean concentrations (values < reporting limits set         mean concentrations (values < reporting limits set to zero for foods with
+   to zero for foods with no history of detections (using data from TDS           no history of detections (using data from TDS collections 2013–2020)
+   collections 2013–2020) and set to half the RL for foods in the same data-      and set to half the RL for foods in the same dataset that have one or
+   set that have one or more detected values). The consumption of alco-           more detected values). The consumption of alcoholic beverages was zero
+   holic beverages was zero for infants and was not included in this table.       for all age groups and not included in this table.
+b
+  NEC = not elsewhere categorised (salt, cocoa powder, protein powder and
+                                                                               b
+                                                                                 NEC = not elsewhere categorised (salt, cocoa powder, protein powder and
+   chicken broth).                                                                chicken broth).
+
+
+food groups contributing to exposure in infants                                (Table 5). The food groups contributing most to
+not consuming human milk are vegetables (19%                                   cadmium exposure for children 1–6 years are
+contribution), grains/baking (18% contribution)                                grains/baking (41.5%) and vegetables (31.7%)
+and mixtures, fruit and beverages (<5% contribu-                               (Table 5). Within these food groups, the specific
+tion from each). The beverages food group con-                                 foods contributing most to lead exposure include
+tributes 43% of total food intake with 97% of                                  white bread, reduced fat milk and apples; and the
+beverage intake being bottled water. Because                                   specific foods contributing most to cadmium
+mean lead and cadmium concentrations in bot-                                   exposure include white bread, French fries and
+tled water are among the lowest concentrations,                                potato chips. The top contributing foods include
+the beverages food group contributes less to lead                              intake estimates for the foods and all NHANES/
+(7.4%) and cadmium (1.0%) exposures for infants                                WWEIA foods mapped to these foods.
+than the processed baby food and infant formula
+food group.
+                                                                               Discussion
+   For children 1–6 years, the food groups con-
+tributing most to lead and cadmium are different                               In this study, we present, for the first time, intake
+than those for infants possibly due to the changes                             as well as lead and cadmium exposure estimates
+in eating patterns that occur from infancy to                                  for infants 0–11 months in the U.S., excluding
+childhood. For children, 1–6 years, grains/baking                              infants who consume human milk. The infant
+(24.6%), dairy (13.1%) and fruit (12.3%) are the                               population in our study represents about 50% of
+top food groups contributing to lead exposure                                  the NHANES/WWEIA infants surveyed from
+                                                                Food Additives & Contaminants: Part A   1461
+
+
+2015 to 2018. Infants 0–11 months who do not        example, contaminant concentrations in ‘shrimp
+consume human milk consume mostly processed         and noodles with mushroom sauce’ were esti-
+baby food, infant formula and bottled water         mated using FDA-FDD ingredient percentage
+(Table 4). For infants, the processed baby food     mapping to TDS data on shrimp, noodles, milk,
+and infant formula food group (which includes       mushroom soup and oil.
+baby water), is the major source of lead and cad-      Previous published peer-reviewed estimates of
+mium exposure. In a study of feeding patterns of    U.S. children’s lead and cadmium exposures based
+infants, infancy is marked as a time of rapid       solely on TDS concentration data include those
+transition from a diet almost solely of human       by Gunderson (1988, 1995a, 1995b), Bolger et al.
+milk or formula to a varied diet by age one that    (1996), Egan et al. (2002), JECFA (2011) and
+includes cereals, fruits, vegetables, meats and     Spungen (2019). Figures 3 and 4 show a compar-
+milk products but also foods high in sugar and      ison between those previous TDS-based lead and
+fat (Grummer-Strawn et al. 2008). Compared to       cadmium exposure estimates and the current
+the consumption patterns in infants, children       study, all based on lower bound means. In 2014–
+1–6 years consume almost no processed baby          2016 the TDS analytical methods for lead and
+food or infant formula (Table 5). For children      cadmium changed, resulting in lower detection
+1–6 years, the grains/baking food group is the      limits, so it is difficult to evaluate the differences
+leading contributor to both lead and cadmium        between exposures estimated for periods before
+exposure.                                           2014 and those estimated for 2014–2020. Although
+   While the analysis of estimated lead and cad-    the age groups considered vary among assess-
+mium exposures in this study was based on a         ments, children’s lead exposure in the U.S. appears
+similar methodology to that used in our previ-      to have declined between 1980 and 2018–2020
+ously published studies (Spungen 2019; Gavelek      (Figure 3). This apparent decline may be due to
+et al. 2020), this study makes use of more recent   a variety of factors, including improvements in
+concentration data (2018–2020 TDS), NHANES/         agricultural and manufacturing process controls,
+WWEIA consumption data (2015–2018 survey            the elimination of lead from gasoline and the
+cycles), and a new mapping approach using           elimination of lead from food contact surfaces,
+FDA-FDD (Spungen et al. 2024). In our previ-        such as lead solder from food cans (Bolger et al.
+ous TDS-based exposure assessments (e.g.            1996). Children’s lower bound mean lead expo-
+Spungen 2019; Gavelek et al. 2020), each of the     sures appear to have slightly declined between
+approximately 7300 foods reported by one or         2014–2016 and 2018–2020. TDS-based estimates
+more NHANES/WWEIA 2009–2014 respondents             of lower bound mean children’s cadmium expo-
+was mapped to a single TDS food based primar-       sure declined between 1980 and 2004–2008 but
+ily on similarity of ingredients, and the contam-   increased slightly from the analyses based on
+inant concentrations in the NHANES/WWEIA            2014–2016 TDS data (Spungen 2019) and those
+foods were assumed to be the same as those in       based on 2018–2020 TDS data in the current
+the TDS foods to which the NHANES/WWEIA             study (Figure 4). The total diet publications relied
+foods were mapped. For example, in previous         on for Figures 3 and 4 also included estimates of
+TDS-based exposure assessments, it was assumed      infant lead and cadmium exposures; however,
+that all NHANES/WWEIA seafood-starch mix-           these are not included in Figures 3 and 4, as they
+tures (e.g. ‘shrimp and noodles with mushroom       did not exclude human milk consumers.
+sauce’) have the same contaminant concentra-           In both the previous (Spungen 2019) and
+tions as those found in TDS tuna noodle casse-      current analyses, the identified key sources of
+role. In the current study, contaminant             exposure to lead and cadmium were not neces-
+concentrations in most food mixtures were esti-     sarily the foods with the highest concentrations.
+mated based on FDA-FDD mapping to TDS               In the current analysis, the TDS food groups
+data on mixture ingredients, providing more         contributing most to children’s lead exposure
+accurate estimates of lead and cadmium concen-      were grains/baking, dairy and fruit. The specific
+tration and therefore, exposure estimates. For      TDS foods contributing most to children’s lead
+1462     D. HOFFMAN-PENNESI ET AL.
+
+
+
+
+Figure 3. Current findings and previously published estimates of children’s lead exposures based on FDA total diet study (TDS)
+data. Estimates are based on lower bound mean concentrations: values < LOD (years before 2018) and values < RL (2018–2020)
+set to zero. Sources of data: 1980, 1981–1982, 1982–1984 (Gunderson 1988); 1990–1991 (Bolger et al. 1996); 1991–1996 (Egan
+et al. 2002); 2014–2016 (Spungen 2019).
+
+
+
+
+Figure 4. Current findings and previously published estimates of children’s cadmium exposures based on FDA total diet study
+(TDS) data. Estimates are based on lower bound mean concentrations: values < LOD (years before 2018) and values < RL (2018–
+2020) set to zero. Sources of data: 1982–1984 (Gunderson 1988), 1984–1986 (Gunderson 1995a); 1986–1991 (Gunderson 1995b);
+2004–2008 (JECFA 2011); 2014–2016 (Spungen 2019). Cadmium exposures expressed in original documents as μg/kg bw/m; were
+converted to μg/kg bw/day by dividing values by 30.
+
+exposures in those food groups included white                    and vegetables, and the specific TDS foods con-
+bread, reduced-fat milk and apples, respectively,                tributing most to children’s cadmium exposures
+and all NHANES/WWEIA foods mapped to                             in those food groups included white bread,
+these foods. None of these foods were among                      French fries, potato chips, and all NHANES/
+the foods with the ten highest lead concentra-                   WWEIA foods mapped to these foods. French
+tions. The food groups contributing most to                      fries and potato chips are among the TDS foods
+children’s cadmium exposure were grains/baking                   with the ten highest cadmium concentrations.
+                                                                                 Food Additives & Contaminants: Part A      1463
+
+
+Although the food groups are slightly different                   This may explain the increase in the percent con-
+in the previous and current analyses, in both                     tribution to dietary cadmium exposure for both
+analyses the food group contributing most to                      the grains/baking group and the vegetables group
+lead and cadmium exposure for children                            in the current analysis compared to the grains
+1–6 years remains grains/baking due in part to                    and vegetables groups in the analysis published in
+the high consumption of these foods (Table 4;                     2019 (Spungen 2019) (Figure 6).
+Figures 5 and 6).                                                    Other published U.S. exposure assessments
+   In addition to using different datasets for con-               which make use of TDS data include those by
+sumption and contamination, differences between                   Kim et al. (2019) and Pokharel and Wu (2023).
+food group contributions to children’s exposures                  However, these studies estimated exposures from
+in the previous (Spungen 2019) and current anal-                  a limited number of foods rather than from the
+yses may also be due to changes in food group                     total diet.
+definition and/or mapping. For example, for lead,                    Kim et al. (2019) estimated dietary cadmium
+in the previous analysis, 100% fruit juices were                  exposures for children 2–10 years using TDS data
+included in the fruit group. For the current study,               from 2006 to 2013, but the foods included in the
+we elected to divide fruit juice and fruit into two               analyses were limited to those sampled in the
+separate food groups. However, the current com-                   TDS program. Concentrations measured in the
+bined fruit and fruit juice groups’ percent contri-               TDS foods from 2006 to 2013 were not mapped
+butions to total dietary lead exposure are                        to other foods consumed by NHANES/WWEIA
+comparable to the fruit group’s percent contribu-                 participants, other than to mixtures containing
+tion to dietary lead exposure in the previous                     TDS foods as ingredients. The estimate of mean
+analysis (Figure 5). Additionally, in the new sys-                cadmium exposure reported by Kim et al. (2019)
+tem of mapping TDS foods to the NHANES/                           is lower than our lower bound estimate for ages
+WWEIA foods, mixtures are disaggregated into                      1–6 years (2.96 μg/day and 7.1 μg/day, respec-
+more individual components which allows for a                     tively), likely due to the exclusion of some key
+more robust estimation of intake and exposure.                    sources of cadmium exposure in the analysis.
+
+
+
+
+Figure 5. Comparison of percent contributions to children’s total dietary lead (Pb) exposure from food categories in the previous
+analysis (Spungen 2019) versus the current analysis. Data sources: toxic element concentrations in foods: FDA total diet study,
+2014–2016 and 2018–2020 (analysis method: ICP-MS, lower bound mean concentrations (values < reporting limits or LOD set to
+zero)). Food consumption: NHANES/WWEIA 2009–2014 and 2017–2018. Estimated exposures do not include contributions from
+human milk. NEC = not elsewhere categorised.
+1464     D. HOFFMAN-PENNESI ET AL.
+
+
+
+
+Figure 6. Comparison of percent contributions to children’s total dietary cadmium (Cd) exposure from food categories in the pre-
+vious analysis (Spungen 2019) versus the current analysis. Data sources: Toxic element concentrations in foods: FDA total diet
+study, 2014–2016 and 2018–2020 (analysis method: ICP-MS, lower bound mean concentrations (values < reporting limits or LOD
+set to zero)). Food consumption: NHANES/WWEIA 2009–2014 and 2017–2018. Estimated exposures do not include contributions
+from human milk. NEC = not elsewhere categorised.
+
+Similarly to our results showing the grains/baking                capita cumulative cadmium exposures from the
+food group as the major food group contributor                    six commodities were 0.15 and 0.17 µg/kg bw/day
+to cadmium exposure, Kim et al. (2019) reported                   for 6–24 months and 24–60 months populations,
+that the food group with the greatest contribu-                   respectively. The estimated mean cumulative
+tion to cadmium exposure for the total U.S. pop-                  exposure for consumers in these populations was
+ulation was cereals and bread (34%). Kim et al.                   0.20 and 0.29 µg/kg bw/day, respectively.
+(2019) found that the foods contributing most to                     The Pokharel and Wu (2023) estimate of
+estimated cadmium exposures for children 2–10 y                   cumulative cadmium exposure for consumers
+were spaghetti (10.8%), bread (9%), potato chips                  6–24 months, 0.20 µg/kg bw/day, is similar to
+(6%); lettuce (5.5%) and potatoes (5.3%). In the                  the range of exposures we estimated for
+current study, white bread, French fries and                      non-human milk-fed infants 0–11 months
+potato chips, and all NHANES/WWEIA foods                          (0.18–0.20 µg/kg    bw/day).    However,    the
+mapped to these foods were found to be key con-                   Pokharel and Wu (2023) estimate of mean
+tributors to cadmium exposure for children                        cumulative cadmium exposures per consumer
+1–6 years.                                                        for ages 24–60 months (0.29 µg/kg bw/day) is
+   Pokharel and Wu (2023) based their exposure                    lower than our lower bound and hybrid mean
+estimates on mean cadmium concentrations from                     estimates of 0.43 µg/kg bw/day for ages
+2018 to 2020 TDS data for rice, spinach, oats,                    1–6 years. There are several potential reasons
+potatoes and wheat. For barley, Pokharel and Wu                   why the Pokharel and Wu (2023) estimates of
+used baby food industry cadmium concentration                     cumulative cadmium exposure cannot be com-
+values     (U.S.   House     of    Representatives                pared directly to our estimates. Firstly, the
+Subcommittee on Economic and Consumer Policy                      Pokharel and Wu (2023) estimate is not for
+Committee on Oversight and Reform 2021). The                      total dietary cadmium exposure, but only for
+cadmium concentrations for these foods were                       exposure from six food commodities. In addi-
+combined with intake data from the EPA’s Food                     tion, the TDS values for rice, oats, potatoes
+Commodity Intake Database (FCID), 2005–2010                       and possibly wheat are for cooked commodi-
+(EPA/JIFSAN 2023). The estimated mean per                         ties, while FCID intake values are for the
+                                                                  Food Additives & Contaminants: Part A   1465
+
+
+uncooked forms, and it is unclear if any adjust-    kg bw/day) and other children 3–<10 years (range
+ments were made to any of these values to           0.61–1.08 µg/kg bw/day) (EFSA 2012b).
+convert them to the same basis. If no adjust-          For cadmium, our estimated mean dietary
+ments were made for differences in moisture         exposure for all substitution scenarios for infants
+values between the cooked and uncooked              0–11 months who do not consume human milk
+forms, the cadmium exposures are likely under-      (range 0.18–0.20 µg/kg bw/day) in the U.S. is
+estimated, because the moisture contents of the     lower than the mean lower bound dietary expo-
+cooked cereal forms are much higher than            sure for European infants <1 year (range 0.27–
+those in the uncooked forms. Secondly,              0.28 µg/kg bw/day) (EFSA 2012a). Our estimated
+Pokharel and Wu (2023) added mean expo-             90th percentile cadmium exposure for all substi-
+sures per consumer value for each commodity,        tution scenarios for infants (range 0.38–0.40 µg/kg
+even though not every consumer of one com-          bw/day) in the U.S. is comparable to the mean
+modity is a consumer of all six commodities.        middle-bound cadmium exposure for European
+The cumulative per-consumer exposures of            infants (range 0.37–0.39 µg/kg bw/day) (EFSA
+0.20 and 0.29 µg/kg bw/day are likely an over-      2012a). Estimated mean (range 0.43–0.47 µg/kg
+estimate of exposure from these six foods           bw/day) and 90th percentile (range 0.70–0.76 µg/
+because mean per-consumer exposures for each        kg bw/day) cadmium exposures for all substitu-
+of the six commodities were added, and this         tion scenarios for children 1–6 years are compara-
+overestimation may or may not compensate for        ble to the mean lower bound cadmium exposures
+the underestimation that may have occurred          for European toddlers 1–<3 years (0.41–0.81 µg/kg
+due to the use of unadjusted TDS or FCID            bw/day) and other children 3–<10 years (0.37–
+data. Thirdly, FCID estimates are for commod-       0.60 µg/kg bw/day) (EFSA 2012a). While the
+ity intakes from 2005 to 2010 and may not           exposure estimates reported by EFSA (2012a,
+reflect the most current dietary patterns. Our      2012b) are somewhat comparable to our study,
+current study is based on intake data from the      many differences exist between study methods
+most recent nationally representative NHANES/       and data, including population group ages, diets
+WWEIA cycle (2015–2018 for infants, 2017–           of those populations and the categorization and
+2018 for children). This study represents the       mapping of foods. Other more recent TDS-based
+most current assessment of infants’ and chil-       exposure estimates in Europe include those pub-
+dren’s total dietary exposures to lead and cad-     lished by Sirot et al. (2018) and Kolbaum et al.
+mium in the U.S. using FDA’s TDS.                   (2024). Those studies are not comparable due
+   Other exposure estimates carried out in Europe   mostly to differences in population age groups.
+in comparable age groups as those presented in
+the study include those published by EFSA in
+                                                    Limitations
+2012 for lead and cadmium.
+   Our U.S.-based estimated mean (range 0.12–       The current estimates of dietary lead and cad-
+0.26 µg/kg bw/day) and 90th percentile (range       mium exposures are limited to some extent
+0.22–0.42 µg/kg bw/day) lead exposures for all      because lead and cadmium concentrations in
+substitution scenarios for infants 0–11 months      each of the approximately 6500 foods reported as
+who do not consume human milk are lower than        having been consumed by NHANES/WWEIA
+mean lower bound lead dietary exposure for          2015–2018 respondents were assigned based on
+European infants <1 year (range 0.63–0.73 µg/kg     results for the much more limited number of
+bw/day) (EFSA 2012b). Similarly, our U.S.-based     TDS foods. In particular, tap water was mapped
+estimated mean (range 0.04–0.22 µg/kg bw/day)       to bottled water. Bottled water is included in the
+and 90th percentile (range 0.07–0.33 µg/kg bw/      beverages food group. This group contributed
+day) lead dietary exposures for all substitution    7.3% to dietary lead exposure and 0.7% of cad-
+scenarios for children 1–6 years are lower than     mium exposure for children 1–6 years (based on
+the mean lower bound lead exposure for both         hybrid mean concentrations). If lead or cadmium
+European toddlers 1–<3 years (range 0.81–1.30 µg/   concentrations differ on average in bottled versus
+1466    D. HOFFMAN-PENNESI ET AL.
+
+
+tap water, this could impact the cadmium and          Future research
+lead exposure estimates, as well as what food
+                                                      The results of this study can be used to estimate
+groups and foods contribute most to exposure.
+                                                      the potential public health impacts of infants’ and
+   The lead and cadmium concentrations for
+                                                      children’s dietary exposures to lead and cadmium.
+some of the foods consumed are based on only
+                                                      Our analysis highlights the importance of collect-
+one TDS sample, and the values may not be rep-
+                                                      ing U.S. human milk intake data and analyzing
+resentative of concentrations in those foods (e.g.
+                                                      U.S. human milk for contaminants to improve
+cocoa powder and baking powder). Nine TDS
+                                                      our understanding of infant dietary exposures to
+collections and/or associated laboratory analyses
+                                                      lead and cadmium. While there are some data on
+were cancelled due to the federal government
+furlough in December 2018 through January             concentrations of lead and cadmium in human
+2019 and to the COVID-19 pandemic in 2020.            milk (Chao et al. 2014; Park et al. 2018; Khanjani
+These cancellations resulted in fewer samples         et al. 2018; Sharafi et al. 2023), these are not U.S.
+than planned for this study.                          human milk samples, and therefore, not clearly
+   Another potential limitation in our analyses is    applicable to the U.S. infant population. FDA is
+that the estimates of lead and cadmium concen-        collaborating with other federal agencies as part
+trations in many NHANES/WWEIA foods are               of C2Z to develop potential strategies for reduc-
+based on recipes developed by USDA or FDA,            ing toxic element exposures through mitigation,
+and the ingredients in those recipes may or may       changes in agricultural practices for key food
+not reflect the types or amounts of ingredients       sources of exposure, changes in the manufactur-
+present in the foods as consumed. These recipes       ing of these foods, and more (FDA 2023).
+generally focus on major ingredients, and many        Additionally, a future publication on dietary
+do not include spices and other minor ingredients     exposures to lead and cadmium focusing on older
+that could additionally contribute to lead or cad-    children and adults is planned.
+mium exposure. In cases where mapping of a pro-
+cessed product is based on a recipe, contaminants     Conclusion
+introduced in processing may be underestimated.
+   Additionally, there is uncertainty in our infant   The research presented provides lead and cad-
+exposure estimates as we are unable to estimate       mium dietary exposure estimates for infants and
+exposure in infants who consume human milk.           children and identifies key sources of lead and
+While NHANES/WWEIA does provide informa-              cadmium exposure in the diets of infants
+tion on whether infants consume or do not con-        and children. For infants, the food group contrib-
+sume human milk, there are no intake data on          uting most to lead and cadmium exposure is the
+the amounts of human milk consumed, as mea-           processed baby food and infant formula food
+suring human milk intake is difficult to obtain       group. Food groups contributing most to chil-
+(da Costa et al. 2010). Therefore, our infant         dren’s lead exposure are grains/baking, dairy and
+dietary exposure estimates exclude infants who        fruit. Food groups contributing most to children’s
+consume human milk.                                   cadmium exposures are grains/baking and vegeta-
+   Finally, estimates of lead and cadmium exposures   bles. Children’s dietary exposure (based on lower
+are based on two days of intake data for each         bound mean concentrations) to lead has decreased
+NHANES/WWEIA respondent and mean concen-              slightly and children’s dietary exposure (based on
+trations using different substitution methods for     lower bound mean concentrations) to cadmium
+non-detects. The summary estimates, particularly      has increased slightly since the previous analyses
+the 90th percentile estimates, may not reflect        (Spungen 2019). This research serves as a base-
+long-term exposure levels for individuals as the      line for dietary lead and cadmium estimated
+intake is based only on two days of data. Depending   exposures for the FDA’s C2Z program, which is
+on the substitution methods for the concentration     focused on reducing exposures and prioritizing
+data these estimates may be underestimates or over-   the types of research and regulatory efforts for
+estimates of dietary exposures to lead and cadmium.   reducing exposures to lead and cadmium.
+                                                                                   Food Additives & Contaminants: Part A      1467
+
+
+Acknowledgments                                                        of nutritional and toxic elements, 1991-96. Food Addit
+                                                                       Contam. 19(2):103–125. doi: 10.1080/02652030110071354.
+The authors gratefully acknowledge Sherri Dennis for her            [EFSA] European Food Safety Authority. 2010. Management
+review of earlier versions of this manuscript. Additionally,           of left-censored data in dietary exposure assessment of
+the authors would like to thank Terry Councell, Edward                 chemical substances. EFSA J. 8:1–96.
+Nyambok, FDA’s Kansas City Laboratory and FDA’s District            [EFSA] European Food Safety Authority. 2012a. Cadmium
+Offices and Resident Posts for the collections and analyses            dietary exposure in the European population. EFSA J.
+related to the FDA’s Total Diet Study.                                 10(1):2551. doi: 10.2903/j.efsa.2012.2551.
+                                                                    [EFSA] European Food Safety Authority. 2012b. Lead dietary
+                                                                       exposure in the European population. EFSA J. 10(7):2831.
+ORCID                                                               [EFSA] European Food Safety Authority, Food and
+Sofia M. Santillana Farakos      http://orcid.                         Agriculture Organization of the United Nations (FAO),
+org/0000-0002-6498-0648                                                World Health Organization (WHO). 2011. Towards a
+Judith Spungen      http://orcid.org/0000-0001-6489-7660               harmonized total diet study approach: a guidance docu-
+                                                                       ment. EFSA J. 9(11):2450–2516.
+                                                                    [EPA/JIFSAN] Environmental Protection Agency/Joint
+References                                                             Institute for Food Safety and Applied Nutrition. 2023.
+                                                                       U.S. EPA’s What we eat in America—food commodity
+[ATSDR] U.S. Agency for Toxic Substances and Disease                   intake database, 2005–2010. [accessed 2024 Apr 23].
+  Registry. 2012. Toxicological profile for cadmium. [accessed         https://fcid.foodrisk.org/.
+  2024 Apr 23]. https://www.atsdr.cdc.gov/ToxProfiles/tp5.pdf.      Exponent, Inc. 2023. FARE Foods Analysis and Residue
+[ATSDR] U.S. Agency for Toxic Substances and Disease                   Evaluation Program [software]. Ver. 15.12. Washington
+  Registry. 2020. Toxicological profile for lead. [accessed 2024       (DC): Exponent, Inc.
+  Apr 23]. https://www.atsdr.cdc.gov/ToxProfiles/tp13.pdf.          [FAO] Food and Agriculture Organization of the United
+[ATSDR] U.S. Agency for Toxic Substances and Disease                   Nations, World Health Organization. 2020. Dietary expo-
+  Registry. 2023. What are routes of exposure to lead?                 sure assessment for chemicals in food. 2nd ed. Geneva,
+  [accessed 2024 May 29]. https://www.atsdr.cdc.gov/csem/              Switzerland: World Health Organization. Chapter 6,
+  leadtoxicity/exposure_routes.html.                                   Environmental health criteria 240: principles and methods
+Bolger PM, Yess NJ, Gunderson EL, Troxell TC, Carrington               for the risk assessment of chemicals in food. p. 6–1–6-92.
+  CD. 1996. Identification and reduction of sources of              [FDA] U.S. Food and Drug Administration. 2022a. FDA total
+  dietary lead in the United States. Food Addit Contam.                diet study (TDS). [accessed 2024 Apr 23]. https://www.fda.
+  13(1):53–60. doi: 10.1080/02652039609374380.                         gov/food/science-research-food/fda-total-diet-study-tds.
+[CDC] Centers for Disease Control and Prevention. 2022.             [FDA] U.S. Food and Drug Administration. 2022b. Total
+  Blood lead reference value [accessed 2024 Apr 23]. https://          diet study report fiscal years 2018–2020 elements data.
+  www.cdc.gov/nceh/lead/data/blood-lead-reference-value.               [accessed 2024 March 21]. https://www.fda.gov/
+  htm.                                                                 media/159745/download?attachment.
+[CDC] U.S. Centers for Disease Control and Prevention.              [FDA] U.S. Food and Drug Administration. 2024a. Closer
+  2015. What We Eat in America, DHHS-USDA dietary                      to zero: reducing childhood exposure to contaminants
+  survey integration [accessed 2024 Apr 23]. https://www.              from foods. [accessed 2024 Apr 23]. https://www.fda.gov/
+  cdc.gov/nchs/nhanes/wweia.htm.                                       food/environmental-contaminants-food/closer-zer
+Chao HH, Guo CH, Huang CB, Chen PC, Li HC, Hsiung DY,                  o-reducing-childhood-exposure-contaminants-foods.
+  Chou YK. 2014. Arsenic, cadmium, lead, and aluminum con-          [FDA] U.S. Food and Drug Administration. 2024b. Lead in
+  centrations in human milk at early stages of lactation. Pediatr      food, foodwares, and dietary supplements. [accessed 2024 Apr
+  Neonatol. 55(2):127–134. doi: 10.1016/j.pedneo.2013.08.005.          23]. https://www.fda.gov/food/environmental-contaminants-
+Da Costa THM, Haisma H, Wells JCK, Mander AP,                          food/lead-food-foodwares-and-dietary-supplements.
+  Whitehead RG, Bluck LJC. 2010. How much human milk                Flannery BM, Dolan LC, Hoffman-Pennesi D, Gavelek A,
+  do infants consume? Data from 12 countries using a                   Jones OE, Kanwal R, Wolpert B, Gensheimer K, Dennis
+  standardized stable isotope methodology. J Nutr.                     S, Fitzpatrick S. 2020. U.S. Food and Drug Administration’s
+  140(12):2227–2232. doi: 10.3945/jn.110.123489.                       interim reference levels for dietary leas exposure in chil-
+Dolan LC, Flannery BM, Hoffman-Pennesi D, Gavelek A,                   dren and women of childbearing age. Regul Toxicol
+  Jones OE, Kanwal R, Wolpert B, Gensheimer K, Dennis                  Pharmacol. 110:104516. doi: 10.1016/j.yrtph.2019.104516.
+  S, Fitzpatrick S. 2020. A review of the evidence to sup-          Flannery BM, Middleton KB. 2022. Updated interim refer-
+  port interim reference level for dietary lead exposure in            ence levels for dietary lead to support FDA’s closer to
+  adults. Regul Toxicol Pharmacol. 111:104579. doi:                    zero action plan. Regul Toxicol Pharmacol. 133:105202.
+  10.1016/j.yrtph.2020.104579.                                         doi: 10.1016/j.yrtph.2022.105202.
+Egan SK, Tao SS-H, Pennington JAT, Bolger PM. 2002. US              Flannery BM, Schaefer HR, Middleton KB. 2022. A scoping
+  Food and Drug Administration’s Total Diet Study: intake              review of infant and children health effects associated
+1468     D. HOFFMAN-PENNESI ET AL.
+
+
+   with cadmium exposure. Regul Toxicol Pharmacol.               Kolbaum AE, Jung C, Jaeger A, Libuda L, Lindtner O. 2024.
+   131:105155. doi: 10.1016/j.yrtph.2022.105155.                    Assessment of long-term dietary cadmium exposure in
+Gavelek A, Spungen J, Hoffman-Pennesi D, Flannery B, Dolan          children in Germany: does consideration of data from
+   L, Dennis S, Fitzpatrick S. 2020. Lead exposures in older        total diet studies reduce uncertainties from food monitor-
+   children (males and females 7-17 years), women of child-         ing programmes? Food Chem Toxicol. 184:114404. doi:
+   bearing age (females 16-49 years) and adults (males and          10.1016/j.fct.2023.114404.
+   females 18+ years): FDA total diet study 2014-16. Food        Park Y, Lee A, Choi K, Kim HJ, Lee JJ, Choi G, Kim S, Kim
+   Addit Contam Part A Chem Anal Control Expo Risk                  SY, Cho GJ, Suh E, et al. 2018. Exposure to lead and
+   Assess. 37(1):104–109. doi: 10.1080/19440049.2019.1681595.       mercury through breastfeeding during the first month of
+Gray PJ, Mindak WR, Cheng J. 2020. Inductively coupled              life: A CHECK cohort study. Sci Total Environ. 612:876–
+   plasma-mass spectrometric determination of arsenic, cad-         883. doi: 10.1016/j.scitotenv.2017.08.079.
+   mium, chromium, lead, mercury, and other elements in          Pokharel A, Wu F. 2023. Dietary exposure to cadmium
+   food using microwave assisted digestion. U.S. Food and           from six common foods in the United States. Food Chem
+   Drug Administration Elemental Analysis Manual for                Toxicol. 178:113873. doi: 10.1016/j.fct.2023.113873.
+   Food and Related Products. Section 4.7. Version 1.2.          Pouillot R, Santillana Farakos S, Spungen J, Schaefer HR,
+   [accessed 2024 Apr 23]. https://www.fda.gov/media/87509/         Flannery BM, Van Doren JM. 2022. Cadmium physiolog-
+   download.                                                        ically based pharmacokinetic (PBPK) models for forward
+Grummer-Strawn LM, Scanlon KS, Fein SB. 2008. Infant                and reverse dosimetry: review, evaluation, and adaptation
+   feeding and feeding transitions during the first year of         to the U.S. population. Toxicol Lett. 367:67–75. doi:
+   life. Pediatrics. 122 Suppl 2(Supplement_2):S36–S42. doi:        10.1016/j.toxlet.2022.07.812.
+   10.1542/peds.2008-1315d.                                      Schaefer HR, Flannery BM, Crosby LM, Pouillot R,
+Gunderson EL. 1988. FDA total diet study, April 1982-April          Santillana Farakos SM, Van Doren JM, Dennis S,
+   1984, dietary intakes of pesticides, selected elements, and      Fitzpatrick S, Middleton K. 2023. Reassessment of the
+   other chemicals. JAOAC International. 71(6):1200–1209.           cadmium toxicological reference value for use in human
+Gunderson EL. 1995a. Dietary intakes of pesticides, selected        health assessments of foods. Regul Toxicol Pharmacol.
+   elements, and other chemicals: FDA total diet study, June        144:105487. doi: 10.1016/j.yrtph.2023.105487.
+   1984–April 1986. JAOAC International. 78(4):910–920.          Schoeters G, Den Hond E, Zuurbier M, Naginiene R, Van
+   doi: 10.1093/jaoac/78.4.910.                                     den Hazel P, Stilianakis N, Ronchetti R, Koppe JG. 2006.
+Gunderson EL. 1995b. FDA total diet study, July 1986-April          Cadmium and children: exposure and health effects.
+   1991, dietary intakes of pesticides, selected elements, and      Acta Paediatr Suppl. 95(453):50–54. doi: 10.1080/
+   other chemicals. JAOAC International. 78(6):1353–1363.           08035320600886232.
+Hamner HC, Perrine CG, Gupta PM, Herrick KA, Cogswell            Sharafi K, Nakhaee S, Azadi NA, Mansouri B, Kermanshahi
+   ME. 2017. Food Consumption Patterns among U.S.                   SM, Paknahad M, Habibi Y. 2023. Human health risk
+   Children from Birth to 23 Months of Age, 2009-2014.              assessment of potentially toxic elements in the breast
+   Nutrients. 9(9):942. doi: 10.3390/nu9090942.                     milk consumed by infants in Western Iran. Nature.
+[JECFA] Joint FAO/WHO Expert Committee on Food                      13:6656.
+   Additives. 2011. Evaluation of certain food additives and     Sirot V, Traore T, Guérin T, Noël L, Bachelot M, Cravedi
+   contaminants. Seventy-third report of the Joint FAO/             J-P, Mazur A, Glorennec P, Vasseur P, Jean J, et al. 2018.
+   WHO Expert Committee on Food Additives. WHO                      French infant total diet study: exposure to selected trace
+   Technical Report Series, No. 960.                                elements and associate health risks. Food Chem Toxicol.
+[JECFA] Joint FAO/WHO Expert Committee on Food                      120:625–633. doi: 10.1016/j.fct.2018.07.062.
+   Additives. 2022. Evaluation of certain food additives and     Spungen JH. 2019. Children’s exposures to lead and cad-
+   contaminants. Ninety-first report of the Joint FAO/WHO           mium: FDA total diet study 2014-16. Food Addit Contam
+   Expert Committee on Food Additives. WHO Technical                Part A Chem Anal Control Expo Risk Assess. 36(6):893–
+   Report Series, No. 1036.                                         903. doi: 10.1080/19440049.2019.1595170.
+Karmaus W, Soto-Ramírez N, Zhang H. 2017. Infant feed-           Spungen JH, Shimizu M, Jarman D, Santillana FS. 2024.
+   ing pattern in the first six months of age in USA: a             U.S. FDA’s Food Disaggregation Database (FDA-FDD): a
+   follow-up study. Int Breastfeed J. 12(1):48–58. doi:             new tool for dietary exposure assessment. Food Additives
+   10.1186/s13006-017-0139-4.                                       & Contaminants: Part A.
+Khanjani N, Jafari M, Mousavi EA. 2018. Breast milk con-         [USDA] U.S. Department of Agriculture, Agricultural
+   tamination with lead and cadmium and its related factors         Research Service. 2024. Food data central. [accessed 2024
+   in Kerman, Iran. J Environ Health Sci Eng. 16(2):323–            Apr 23]. https://fdc.nal.usda.gov/.
+   335. doi: 10.1007/s40201-018-0320-8.                          [USDA] U.S. Department of Agriculture, Agricultural
+Kim K, Melough MM, Vance TM, Noh H, Koo SI, Chun                    Research Service, Food Surveys Research Group. 2022a.
+   OK. 2019. Dietary cadmium intake and sources in the              Food and nutrient database for dietary studies. [accessed
+   US. Nutrients. 11(1):2. doi: 10.3390/nu11010002.                 2024 Mar 22]. https://www.ars.usda.gov/northeast-area/
+                                                                              Food Additives & Contaminants: Part A         1469
+
+
+  beltsville-md-bhnrc/beltsville-human-nutrition-research-      Appendix
+  center/food-surveys-research-group/docs/fndds/.
+[USDA] U.S. Department of Agriculture, Agricultural Research    Mean lead and cadmium concentrations
+  Service, Food Surveys Research Group 2022b. What we eat       Tables A1 and A2 show the hybrid, lower bound, and upper
+  in America…source of data on food, beverages and nutrient     bound mean concentrations for lead and cadmium, respec-
+  intakes of Americans. [accessed 2024 Apr 23]. https://www.    tively, for each TDS food sampled between 2018 and 2020.
+  ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-
+  human-nutrition-research-center/food-surveys-research-
+  group/docs/wweianhanes-overview/.                             Consumption Data and Exposure Estimation for
+U.S. House of Representatives Committee on Oversight and        Infants and Children
+  Reform. Subcommittee on Economic and Consumer
+                                                                Tables A3 and A4 show a truncated version of the FARE
+  Policy. 2021. Baby foods are tainted with dangerous levels
+                                                                software output for the dietary exposure to lead for infants
+  of arsenic, lead, cadmium, and mercury.
+                                                                0–11 months who do not consume human milk and chil-
+Xue J, Zartarian V, Wang S-W, Liu SV, Georgopoulos P. 2010.     dren 1–6 years, respectively. Tables A5 and A6 show the
+  Probabilistic modeling of dietary arsenic exposure and dose   same information for dietary exposure to cadmium for in-
+  and evaluation with 2003–2004 NHANES data. Environ            fants 0–11 months who do not consume human milk and
+  Health Perspect. 118(3):345–350. doi: 10.1289/ehp.0901205.    children 1–6 years, respectively.
+
+
+
+
+Table A1. Hybrid, lower bound, and upper bound mean concentrations for lead in 2018–2020 TDS foods (in µg/kg).
+                                                                                     Lower
+TDS food                                                                   Hybrid    bound   Upper bound Reporting Number of
+number                                 TDS food description                meana     meanb      meanc      limit    samples
+1           Milk, whole, fluid                                               0         0         1.0          1       27
+2           Milk, reduced fat, fluid                                        0.5       0.1        1.0          1       27
+3           Milk, chocolate, reduced fat, fluid                             1.1       1.0        1.2          1       27
+4           Milk, skim, fluid                                               0.5        0         1.0          1       27
+10          Cheese, American, processed                                     3.4       2.1        4.8          4        3
+12          Cheese, cheddar (sharp/mild)                                    2.0        0         4.0          4       27
+13          Beef, ground, pan-cooked                                         0         0         4.0          4       27
+17          Ham, cured (not canned), baked                                  3.5       2.3        4.8          4       27
+18          Pork chop, pan-cooked with oil                                   0         0         4.0          4       27
+19          Pork sausage (link/patty), pan-cooked                           2.6       1.0        4.1          4       27
+20          Pork bacon, oven-cooked                                         2.3       0.6        4.0          4       27
+22          Lamb chop, pan-cooked with oil                                  2.1       0.2        4.0          4       27
+26          Turkey breast, oven-roasted                                     2.0        0         4.0          4       27
+28          Frankfurter (all beef/beef and pork), boiled                    3.0       1.7        4.4          4       22
+29          Luncheon meat, bologna                                           0         0         4.0          4        3
+34          Fish sticks or patty, frozen, oven-cooked                       2.7       1.4        4.1          4        3
+37          Eggs, hard-boiled                                               2.0        0         4.0          4       27
+39          Pork and beans, canned                                           0         0         4.0          4        3
+42          Lima beans, immature, frozen, boiled                             0         0         4.0          4        2
+46          Peas, green, frozen, boiled                                      0         0         4.0          4        3
+47          Peanut butter, creamy                                           5.6       5.6        5.6          4        3
+48          Peanuts, dry roasted, salted                                    2.0        0         4.0          4        3
+50          Rice, white, enriched, cooked                                    0         0         4.0          4       27
+51          Oatmeal, plain, quick, cooked                                    0         0         4.0          4        3
+52          Cream of wheat (farina), enriched, cooked                       2.0        0         4.0          4        3
+53          Corn/hominy grits, enriched, cooked                              0         0         4.0          4        3
+54          Corn, frozen, boiled                                             0         0         4.0          4       27
+55          Corn, canned, drained solids                                    2.0        0         4.0          4        3
+58          Bread, white, enriched, pre-sliced                              3.6       2.3        4.9          4       27
+60          Cornbread, homemade                                             7.1       6.4        7.8          4        3
+62          Bread, whole wheat, pre-sliced                                  4.4       3.9        4.9          4       27
+63          Tortilla, flour                                                 2.8       1.0        4.6          4       27
+65          Muffin, blueberry                                               2.1       0.2        4.0          4       27
+66          Crackers, saltine                                               2.7       1.4        4.0          4        3
+67          Chips, tortilla                                                  0         0         4.0          4        3
+69          Noodles, egg, enriched, boiled                                  4.3       3.6        5.0          4        3
+71          Cereal, corn flakes                                             2.8       1.5        4.1          4        3
+74          Cereal, bran with raisins                                       7.7       7.1        8.4          4        3
+75          Cereal, crisped rice                                            2.8       1.5        4.2          4        3
+77          Cereal, oat ring                                                4.3       3.6        4.9          4        3
+78          Apple, red, with peel, raw                                      2.0        0         4.0          4       27
+79          Orange, raw                                                      0         0         4.0          4       27
+80          Banana, raw                                                      0         0         4.0          4       27
+                                                                                                                      (Continued)
+1470       D. HOFFMAN-PENNESI ET AL.
+
+
+Table A1. Continued.
+                                                                                      Lower
+TDS food                                                                     Hybrid   bound   Upper bound Reporting Number of
+number                                 TDS food description                  meana    meanb      meanc      limit    samples
+81            Watermelon, raw/frozen                                          2.0       0         4.0         4         27
+83            Peach, raw/frozen                                                0        0         4.0         4         27
+84            Applesauce, bottled                                              0        0         4.0         4          3
+85            Pear, with peel, raw                                            2.0       0         4.0         4         27
+86            Strawberry, raw/frozen                                          2.0       0         4.0         4         27
+87            Fruit cocktail, canned in light syrup, solids and liquids       4.2      3.5        4.8         4          3
+88            Grapes, seedless, red/green, raw                                2.0       0         4.0         4         27
+89            Cantaloupe, raw/frozen                                           0        0         4.0         4         27
+92            Grapefruit, raw                                                 2.0       0         4.0         4         27
+95            Raisins                                                         9.7      9.7        9.7         4          3
+97            Avocado, raw                                                    2.4      0.4        4.3         4         27
+99            Juice, apple, bottled                                           1.6      1.4        1.7         1          3
+100           Juice, grapefruit, bottled/cartoned                              0        0         1.0         1          3
+108           Collards, fresh/frozen, boiled                                  2.7      1.1        4.2         4         27
+109           Lettuce, iceberg, raw                                            0        0         4.0         4         27
+113           Broccoli, fresh/frozen, boiled                                   0        0         4.0         4         27
+114           Celery, raw                                                      0        0         4.0         4         27
+115           Asparagus, fresh/frozen, boiled                                 2.2      0.3        4.0         4         27
+116           Cauliflower, fresh/frozen, boiled                                0        0         4.0         4         27
+117           Tomato, raw                                                      0        0         4.0         4         27
+121           Green beans, fresh/frozen, boiled                               2.1      0.2        4.0         4         27
+122           Green beans, canned, drained solids                              0        0         4.0         4          3
+123           Cucumber, peeled, raw                                            0        0         4.0         4         27
+125           Pepper, bell, green, raw                                         0        0         4.0         4         27
+126           Squash, winter, fresh/frozen, boiled                            2.0       0         4.0         4         27
+128           Onion, mature, raw                                              2.2      0.3        4.1         4         27
+130           Mushrooms, canned, drained solids                                0        0         4.0         4          1
+136           Potato, peeled, boiled                                          2.0       0         4.0         4         27
+137           Potato, with peel, baked                                        3.7      2.3        5.0         4         27
+138           Chips, potato                                                   3.5      2.1        4.8         4          3
+145           Chili con carne with beans, canned                              3.5      2.2        4.9         4          3
+146           Macaroni and cheese, prepared from boxed mix                    2.0       0         4.0         4          3
+152           Chicken potpie, frozen, heated                                  2.0       0         4.0         4          3
+155           Soup, chicken noodle, canned, condensed, prepared with water    2.0       0         4.0         4          3
+156           Soup, tomato, canned, condensed, prepared with water            2.0       0         4.0         4          3
+161           Pickles, dill, cucumber                                         5.3      4.6        5.9         4          3
+162           Margarine, salted                                               2.0       0         4.0         4          3
+164           Butter, salted                                                  2.0       0         4.0         4          3
+166           Mayonnaise                                                      2.0       0         4.0         4          3
+167           Cream, half and half                                            2.0       0         4.0         4         27
+168           Cream substitute, non-dairy, liquid                             2.0       0         4.0         4          3
+169           Sugar, white, granulated                                         0        0         4.0         4          3
+170           Syrup, pancake                                                   0        0         4.0         4          3
+172           Honey                                                           2.0       0         4.0         4          3
+173           Ketchup, tomato                                                 2.0       0         4.0         4          3
+178           Cake, chocolate with chocolate icing                            8.9      8.9        8.9         4         27
+183           Cookies, chocolate chip                                         7.6      7.6        7.6         4          3
+184           Cookies, sandwich, with crème filling                           13       13         13          4          3
+185           Pie, apple, fresh/frozen                                        2.0       0         4.0         4          3
+186           Pie, pumpkin, fresh/frozen                                      5.3      5.3        5.3         4          3
+187           Candy bar, milk chocolate, plain                                7.9      7.9        7.9         4          3
+190           Gelatin dessert, strawberry                                     2.0       0         4.0         4          3
+191           Carbonated beverage, cola, regular                               0        0         1.0         1          3
+193           Fruit drink, from powder                                        0.5       0         1.0         1          3
+194           Carbonated beverage, cola, diet                                  0        0         1.0         1          3
+197           Tea, brewed from tea bag                                         0        0         1.0         1          3
+198           Beer                                                             0        0         1.0         1          3
+200           Alcohol, distilled, whiskey/scotch                               0        0         1.0         1          3
+205           BF, beef and broth/gravy                                        2.0       0         4.0         4          8
+211           BF, vegetables and beef                                         2.0       0         4.0         4          3
+212           BF, vegetables and chicken                                      2.0       0         4.0         4          3
+214           BF, chicken noodle dinner                                       2.0       0         4.0         4          8
+215           BF, pasta, tomato and beef                                      2.0       0         4.0         4          8
+216           BF, turkey and rice                                             9.0      8.7        9.2         4          8
+218           BF, carrots                                                     7.7      7.3        8.1         4         14
+219           BF, green beans                                                 2.0       0         4.0         4          8
+220           BF, mixed vegetables                                            5.2      4.7        5.7         4          8
+221           BF, sweet potatoes                                              21       21         21          4          8
+223           BF, peas                                                        2.0       0         4.0         4          8
+225           BF, applesauce                                                  2.0       0         4.0         4          8
+                                                                                                                    (Continued)
+                                                                 Food Additives & Contaminants: Part A         1471
+
+
+Table A1. Continued.
+                                                                        Lower
+TDS food                                                      Hybrid    bound   Upper bound Reporting Number of
+number                                 TDS food description   meana     meanb      meanc      limit    samples
+226         BF, peaches                                        2.0        0         4.0         4            22
+227         BF, pears                                          0.0        0         4.0         4             8
+230         BF, juice, apple                                   1.4       1.2        1.6         1             8
+235         Yogurt, low-fat, fruit-flavored                    2.0        0         4.0         4             3
+236         Cheese, Swiss                                      2.0        0         4.0         4            27
+237         Cream cheese                                       2.0        0         4.0         4             3
+239         Luncheon meat, ham                                  0         0         4.0         4             3
+240         Chicken breast, oven-roasted, skin removed         2.0       0.3        4.1         4            27
+241         Chicken nuggets, fast-food                         2.1       0.2        4.0         4            27
+244         Shrimp, pre-cooked, shells removed, no tails       5.8       4.9        6.8         4            27
+249         Bagel, plain, toasted                              2.8       1.0        4.5         4            27
+250         English muffin, plain, toasted                     2.6       0.8        4.3         4            27
+251         Crackers, graham                                   4.2       2.5        5.8         5             3
+252         Crackers, butter-type                              4.1       2.4        5.8         5             3
+256         Juice, pineapple, canned                           5.8       5.8        5.8         1             3
+257         Juice, grape, bottled                              5.0       5.0        5.0         1             3
+258         Potatoes, French fries, fast-food                  2.5       0.6        4.4         4            27
+263         Brussels sprouts, fresh/frozen, boiled              0         0         4.0         4            27
+264         Mushrooms, raw                                     2.0        0         4.0         4            27
+265d        Eggplant, fresh, peeled, boiled                     0         0         4.0         4             6
+268         Mixed vegetables, frozen, boiled                   2.0        0         4.0         4             3
+286         Ice cream, vanilla                                  0         0         4.0         4            27
+288         Popsicle, fruit-flavored                           3.4       2.1        4.8         4             3
+290         Doughnut, cake-type, plain                         2.8       1.4        4.1         4             3
+291         Brownie                                            6.7       6.7        6.7         4             3
+292         Cookies, sugar                                     2.0        0         4.0         4             3
+293         Candy, hard                                        2.0        0         4.0         4             3
+294         Pretzels, hard, salted                             2.7       1.4        4.1         4             3
+295         Syrup, chocolate-flavored                          9.2       9.2        9.2         4             3
+296         Jelly, grape                                       2.0        0         4.0         4             3
+298         Mustard, yellow, plain                             5.8       5.8        5.8         4             3
+299         Olives, black, pitted                              2.0        0         4.0         4             3
+300         Sour cream                                          0         0         4.0         4             3
+305         Coffee, brewed from ground                          0         0         1.0         1             3
+307         Fruit drink (5–25% juice), canned or bottled        0         0         1.0         1             3
+313         BF, bananas                                         0         0         4.0         4             8
+317         BF, teething biscuits                              18        18         18          5             8
+318         Salmon, steaks/fillets, baked                       0         0         4.0         4            27
+320         BF, squash                                         2.0        0         4.0         4             8
+323d        BF, cereal, oatmeal, dry, prepared with water       0         0         4.0         4             1
+324d        BF, cereal, rice, dry, prepared with water         2.0        0         4.0         4            13
+328         BF, turkey and broth/gravy                          0         0         4.0         4             8
+332         Cottage cheese, creamed, reduced fat               2.0        0         4.0         4             3
+334         Beef steak, loin/sirloin, oven-roasted              0         0         4.0         4            27
+336         Chicken breast, fried with skin, fast-food         2.2       0.3        4.1         4            27
+337         Chicken thigh, oven-roasted, skin removed           0         0         4.0         4            27
+338         Chicken leg, fried with skin, fast-food            2.1       0.2        4.0         4            27
+339         Catfish, pan-cooked with oil                        0         0         4.0         4            27
+340         Tuna, canned in water, drained solids              2.0        0         4.0         4             3
+341         Beans, refried, canned                             2.0        0         4.0         4             3
+343         Seeds, sunflower, shelled, salted, roasted          0         0         5.0         5             3
+344         Pancakes, frozen, heated                            0         0         4.0         4             3
+345         Breakfast tart/toaster pastry                      2.0        0         4.0         4             3
+347         Spaghetti, enriched, boiled                         0         0         4.0         4             3
+350         Fruit juice blend (100% juice), canned/bottled     0.7       0.4        1.1         1             3
+351         Juice, cranberry cocktail, bottled                 0.5        0         1.0         1             3
+352         Juice, orange, bottled/cartoned                     0         0         1.0         1             3
+356         Carrot, baby, raw                                  2.0        0         4.0         4            27
+357         Lettuce, leaf, raw                                 3.3       1.9        4.8         4            27
+359         Salsa, tomato, bottled                             2.0        0         4.0         4             3
+367         Soup, ramen noodles, prepared with water           2.0        0         4.0         4             3
+369         Cake, white with white icing                       3.9       2.6        5.2         4            27
+371         Candy bar, chocolate, nougat, with nuts            2.0        0         4.0         4             3
+372         Popcorn, microwave, butter-flavored                3.8       2.2        5.5         5             3
+374         Brown gravy, canned or bottled                     2.0        0         4.0         4             3
+377         Salad dressing, Italian, regular                   3.6       1.9        5.3         5             3
+378         Oil, olive                                          0         0         5.0         5             3
+379         Oil, vegetable                                     2.5        0         5.0         5             3
+380         Water, bottled, mineral/spring                     0.2        0         0.4         0            27
+385         Sorbet, fruit-flavored                             2.0        0         4.0         4             3
+
+                                                                                                         (Continued)
+1472       D. HOFFMAN-PENNESI ET AL.
+
+
+Table A1. Continued.
+                                                                                         Lower
+TDS food                                                                        Hybrid   bound   Upper bound Reporting Number of
+number                                 TDS food description                     meana    meanb      meanc      limit    samples
+386           Cinnamon roll, iced                                                4.5      3.8        5.1         4         27
+387           Cod, baked                                                          0        0         4.0         4         27
+388           Tilapia, baked                                                      0        0         4.0         4         27
+389           Salami, dry/hard                                                   2.1      0.2        4.0         4         27
+390           Turkey, ground, pan-cooked                                          0        0         4.0         4         27
+391           Cheese, Monterey jack                                               0        0         4.0         4         27
+392           Cheese, mozzarella                                                  0        0         4.0         4         27
+393           Ice cream, chocolate                                               4.6      4.0        5.3         4         27
+394           Milk shakes, vanilla, fast-food                                    2.5      0.6        4.3         4         27
+396           Pineapple, raw/frozen                                               0        0         4.0         4         27
+397           Sweet potato, baked, peel removed                                  13       12         13          4         27
+398           Blueberries, raw                                                   2.5      0.7        4.3         4         27
+399           Biscuits, fast-food                                                2.3      0.4        4.1         4         27
+400           Tortilla, corn                                                      0        0         4.0         4         27
+401           Bread, white roll/bun (hamburger/hotdog)                           2.5      0.9        4.2         4         27
+402           Rice, brown, cooked                                                 0        0         4.0         4         27
+403           Walnuts shelled                                                    2.2      0.3        4.1         4         22
+404           Pizza, cheese, fast-food                                           2.2      0.3        4.0         4         27
+405           Sauce, barbecue                                                    11       10         11          4         27
+406           Cabbage, raw                                                        0        0         4.0         4         27
+407           Zucchini, fresh/frozen, boiled                                     2.5      0.7        4.4         4         27
+408           Spinach, raw                                                       6.8      6.4        7.3         4         27
+409           Yogurt, frozen, vanilla                                            2.1      0.2        4.0         4         26
+410           Eggplant, baked with peel                                           0        0         4.0         4         21
+411           Kale, fresh, pan-cooked                                            3.2      1.8        4.5         4          6
+412           Mango, raw/frozen                                                   0        0         4.0         4          6
+413           Garlic, raw                                                         0        0         4.0         4          6
+414           Cashews, salted                                                     0        0         1.0         1          1
+500           Alcohol, distilled, vodka                                          1.7      1.4        2.0         1          3
+501           Wine, red                                                          5.3      5.3        5.3         1          3
+502           Wine, white                                                        13       13         13          1          3
+503           Beverage, almond (non-dairy)                                       1.4      1.3        1.6         1          3
+504           Beverage, coconut water                                             0        0         1.0         1          3
+505           Beverage, energy                                                    0        0         1.0         1          3
+506           Beverage, soy (non-dairy)                                          0.7      0.7        1.0         1          3
+507           Beverage, sports                                                    0        0         1.0         1          3
+508           Carbonated beverage, lemon-lime, regular                            0        0         1.0         1          3
+509           Meal replacement, liquid RTD, Vanilla                               0        0         4.0         4          3
+510           Powder, Protein                                                    6.7      6.7        6.7         4          3
+511           Candies, fruit snacks                                               0        0         4.0         4          3
+512           Cereal, granola                                                     0        0         4.0         4          3
+513           Cereal, oat ring, honey                                            6.4      6.4        6.4         4          3
+514           Cereal, shredded wheat, frosted                                     0        0         4.0         4          3
+515           Cereal, whole wheat, cooked                                        3.4      2.1        4.8         4          3
+516           Salad dressing, ranch, low-calorie                                 13       13         13          4          3
+517           Salad dressing, ranch, regular                                      0        0         4.0         4          3
+518           Sauce, soy                                                          0        0         4.0         4          3
+519           Sauce, tomato, canned                                               0        0         4.0         4          3
+520           Sauce, tomato, pasta                                                0        0         4.0         4          3
+521           Yogurt, low-fat, vanilla                                            0        0         4.0         4          3
+522           Quinoa, cooked                                                     5.0      3.7        6.3         4          3
+523           Granola bar                                                         0        0         4.0         4          3
+524           Juice, lemon                                                        0        0         1.0         1          3
+525           Juice, tomato-vegetable                                            0.9      0.5        1.2         1          3
+526           Almonds, shelled                                                    0        0         4.0         4          3
+527           Beans, black, canned, drained solids                                0        0         4.0         4          3
+528           Beans, kidney, canned, drained solids                               0        0         4.0         4          3
+529           Beans, pinto, canned, drained solids                                0        0         4.0         4          3
+530           Beans, white, canned, drained solids                                0        0         4.0         4          3
+531           Crackers, cheese                                                   4.8      4.8        4.8         4          3
+532           Broth, chicken, cartoned                                            0        0         4.0         4          3
+533           Soup, broccoli cheese, canned, condensed, prepared with water       0        0         4.0         4          3
+534           Soup, clam chowder, New England, canned, ready to serve            3.0      1.7        4.4         4          3
+535           Soup, cream of mushroom, canned, condensed, prepared with water     0        0         4.0         4          3
+536           Soup, cream of potato, canned, condensed, prepared with water       0        0         4.0         4          3
+537           Soup, vegetable beef, canned, ready to serve                       2.0       0         4.0         4          3
+538           Soup, vegetable, canned, ready to serve                             0        0         4.0         4          3
+539           Pasta, rice noodles, cooked                                         0        0         4.0         4          3
+540           Pasta, whole wheat, cooked                                          0        0         4.0         4          3
+541           Pie crust                                                           0        0         4.0         4          3
+                                                                                                                       (Continued)
+                                                                                                   Food Additives & Contaminants: Part A        1473
+
+
+Table A1. Continued.
+                                                                                                            Lower
+TDS food                                                                                       Hybrid       bound    Upper bound Reporting Number of
+number                                     TDS food description                                meana        meanb       meanc      limit    samples
+542             Pudding, ready-to-eat, chocolate                                                2.8          1.4           4.1       4         3
+543             Luncheon meat, turkey                                                           2.7          1.4           4.1       4         3
+544             Veggie burger                                                                   4.1          3.5           4.8       4         3
+545             Beans, garbanzo (chickpeas), canned, drained solids                               0            0           4.0       4         1
+546             Lentils, dry, cooked                                                              0            0           4.0       4         1
+547             Tofu, firm, plain, drained solids                                                 0            0           4.0       4         1
+701d            BF, cereal, mixed, dry, prepared with water                                     2.0            0           4.0       4         1
+711             BF, juice, pear                                                                 0.8          0.6           1.1       1         8
+712             BF, juice, grape                                                                4.5          4.4           4.7       1         8
+721             BF, fruit yogurt dessert                                                        2.0            0           4.0       4         8
+728             BF, vegetables and turkey                                                       7.0          5.8           8.1       4         7
+730             BF, apples with berries                                                         2.0            0           4.0       4         1
+731             BF, apples with fruit other than berries                                        2.0            0           4.0       4         8
+732             BF, macaroni and cheese with vegetables                                         7.0          6.8           7.3       4         8
+733             BF, finger foods, puffed snack                                                  5.1          3.6           6.6       4         8
+734  d
+                BF, infant formula, milk-based, powdered, prepared with water                     0            0           4.0       4         1
+735d            BF, infant formula, soy-based, powdered, prepared with water                      0            0           4.0       4         1
+736             BF, prunes                                                                        0            0           4.0       4         8
+737             BF, ravioli, cheese-filled, with tomato sauce                                     0            0           4.0       4         8
+738             BF, water, baby, bottled                                                          0            0           0.4       0         8
+740             BF, mango, glass jar                                                              0            0           4.0       4         5
+741d            BF, mango, pouch                                                                  0            0           4.0       4         5
+742             BF, banana, blackberry and blueberry, plastic jar                                 0            0           4.0       4         5
+743             BF, banana and strawberry, glass jar                                              0            0           4.0       4         5
+744d            BF, banana and blueberry, pouch                                                   0            0           4.0       4         5
+745d            BF, banana, apple and pear, plastic jar                                           0            0           4.0       4         5
+746d            BF, organic pears and spinach, pouch                                              0            0           4.0       4         5
+747  d
+                BF, peas and spinach, glass jar                                                   0            0           4.0       4         1
+748d            BF, sweet potato, apple and spinach, pouch                                        0            0           4.0       4         5
+749d            BF, pear, blueberry, apple and avocado, pouch                                     0            0           4.0       4         5
+750d            BF, peas, green beans and avocado, pouch                                        2.5          0.9           4.1       4         5
+751  d
+                BF, apple, spinach and avocado, bowl/pouch                                      2.7          1.1           4.3       4         5
+753d            BF, organic yogurt, apple, pumpkin, cinnamon and quinoa, pouch                    0            0           4.0       4         4
+754d            BF, turkey, quinoa, apple and sweet potato, pouch                               2.5          0.9           4.1       4         5
+755             BF, apple and sweet potato with cinnamon, pouch                                   0            0           4.0       4         5
+756  d
+                BF, apple, sweet potato and pineapple, pouch                                      0            0           4.0       4         5
+757d            BF, sweet potato, apple and corn, pouch                                           0            0           4.0       4         5
+758d            BF, pumpkin, banana, papaya and cardamom, bowl                                    0            0           4.0       4         3
+759d            BF, mango, carrot and turmeric, bowl                                              0            0           4.0       4         2
+760  d
+                BF, pear, mango, avocado, pouch                                                   0            0           4.0       4         5
+761             BF, mango, yellow zucchini, corn and turmeric, pouch                              0            0           4.0       4         2
+762             BF, juice, mixed fruit                                                            0            0           4.0       4         3
+763d            BF, yogurt, peach pear                                                            0            0           4.0       4         3
+764             BF, cereal, oatmeal, dry                                                          0            0           4.0       4         7
+765             BF, cereal, rice, dry                                                           3.2          2.1           4.3       4         9
+766             BF, cereal, mixed, dry                                                          6.0          6.0           6.0       4         7
+767             BF, infant formula, milk-based, powdered                                        6.0          5.0           7.0       4         2
+768             BF, infant formula, soy-based, powdered                                         2.0            0           4.0       4         2
+900             Flour, white, all-purpose                                                       3.0          1.6           4.3       4         3
+902             Baking powder                                                                   164          164           164       4         1
+903             Breadcrumbs                                                                     4.9          4.9           4.9       4         3
+904             Salt, sea                                                                         0            0           10       10         1
+909d            Salt, iodized                                                                     0            0           10       10         1
+910             Cocoa powder                                                                     63           63           63       10         1
+BF = baby food.
+a
+  Values < reporting limit (RL) set to zero if there were no detections from 2013 to 2020; otherwise, values < RL set to 0.5*RL.
+b
+  Values < RL set to zero.
+c
+  Values < RL set to RL.
+d
+  Foods not used in the estimation of dietary exposure to lead.
+1474       D. HOFFMAN-PENNESI ET AL.
+
+
+Table A2. Hybrid, lower bound, and upper bound mean concentrations for cadmium in 2018–2020 TDS Foods (in µg/kg).
+                                                                                   Lower     Upper
+TDS food                                                                  Hybrid   bound     bound    Reporting Number of
+number                                    TDS food description            meana    meanb     meanc      limit    samples
+1             Milk, whole, fluid                                             0        0       1.0       1          27
+2             Milk, reduced fat, fluid                                       0        0       1.0       1          27
+3             Milk, chocolate, reduced fat, fluid                           2.6      2.6      2.6       1          27
+4             Milk, skim, fluid                                              0        0       1.0       1          27
+10            Cheese, American, processed                                   2.8      2.8      2.8       1           3
+12            Cheese, cheddar (sharp/mild)                                  0.5       0       1.0       1          27
+13            Beef, ground, pan-cooked                                      0.5       0       1.0       1          27
+17            Ham, cured (not canned), baked                                1.3      1.0      1.5       1          27
+18            Pork chop, pan-cooked with oil                                0.5       0       1.0       1          27
+19            Pork sausage (link/patty), pan-cooked                         0.5      0.1      1.0       1          27
+20            Pork bacon, oven-cooked                                       1.9      1.6      2.1       1          27
+22            Lambchop, pan-cooked with oil                                 0.5     0.04      1.0       1          27
+26            Turkey breast, oven-roasted                                   0.5       0       1.0       1          27
+28            Frankfurter (all beef/beef and pork), boiled                  2.9      2.9      2.9       1          22
+29            Luncheon meat, bologna                                        2.4      2.4      2.4       1           3
+34            Fish sticks or patty, frozen, oven-cooked                     12       12        12       1           3
+37            Eggs, hard-boiled                                              0        0       1.0       1          27
+39            Pork and beans, canned                                        3.1      3.1      3.1       1           3
+42            Lima beans, immature, frozen, boiled                          0.5       0       1.0       1           2
+46            Peas, green, frozen, boiled                                   1.7      1.6      1.9       1           3
+47            Peanut butter, creamy                                         52       52        52       1           3
+48            Peanuts, dry roasted, salted                                  41       41        41       1           3
+50            Rice, white, enriched, cooked                                 6.5      6.5      6.5       1          27
+51            Oatmeal, plain, quick, cooked                                 2.2      2.2      2.2       1           3
+52            Cream of wheat (farina), enriched, cooked                     4.7      4.7      4.7       1           3
+53            Corn/hominy grits, enriched, cooked                           0.5       0       1.0       1           3
+54            Corn, frozen, boiled                                          2.5      2.5      2.5       1          27
+55            Corn, canned, drained solids                                  1.3      1.1      1.4       1           3
+58            Bread, white, enriched, pre-sliced                            27       27        27       1          27
+60            Cornbread, homemade                                           10       10        10       1           3
+62            Bread, whole wheat, pre-sliced                                30       30        30       1          27
+63            Tortilla, flour                                               26       26        26       1          27
+65            Muffin, blueberry                                             8.8      8.8      8.8       1          27
+66            Crackers, saltine                                             28       28        28       1           3
+67            Chips, tortilla                                               2.0      2.0      2.0       1           3
+69            Noodles, egg, enriched, boiled                                22       22        22       1           3
+71            Cereal, cornflakes                                            1.3      1.3      1.3       1           3
+74            Cereal, bran with raisins                                     38       38        38       1           3
+75            Cereal, crisped rice                                          22       22        22       1           3
+77            Cereal, oat ring                                              20       20        20       1           3
+78            Apple, red, with peel, raw                                     0        0       1.0       1          27
+79            Orange, raw                                                   0.5     0.04      1.0       1          27
+80            Banana, raw                                                   0.5       0       1.0       1          27
+81            Watermelon, raw/frozen                                        0.9      0.6      1.2       1          27
+83            Peach, raw/frozen                                             1.0      0.6      1.3       1          27
+84            Applesauce, bottled                                           0.5       0       1.0       1           3
+85            Pear, with peel, raw                                          1.1      0.8      1.4       1          27
+86            Strawberry, raw/frozen                                        9.3      9.3      9.3       1          27
+87            Fruit cocktail, canned in light syrup, solids and liquids     0.5       0       1.0       1           3
+88            Grapes, seedless, red/green, raw                              0.5       0       1.0       1          27
+89            Cantaloupe, raw/frozen                                        8.7      8.7      8.7       1          27
+92            Grapefruit, raw                                               0.5       0       1.0       1          27
+95            Raisins                                                       0.7      0.3      1.0       1           3
+97            Avocado, raw                                                  9.4      9.4      9.4       1          27
+99            Juice, apple, bottled                                          0        0       1.0       1           3
+100           Juice, grapefruit, bottled/cartoned                            0        0       1.0       1           3
+108           Collards, fresh/frozen, boiled                                27       27        27       1          27
+109           Lettuce, iceberg, raw                                         34       34        34       1          27
+113           Broccoli, fresh/frozen, boiled                                16       16        16       1          27
+114           Celery, raw                                                   38       38        38       1          27
+115           Asparagus, fresh/frozen, boiled                               17       17        17       1          27
+116           Cauliflower, fresh/frozen, boiled                             12       12        12       1          27
+117           Tomato, raw                                                   3.5      3.5      3.6       1          27
+121           Green beans, fresh/frozen, boiled                             1.0      0.7      1.3       1          27
+122           Green beans, canned, drained solids                           0.5       0       1.0       1           3
+123           Cucumber, peeled, raw                                         1.5      1.3      1.6       1          27
+125           Pepper, bell, green, raw                                      8.9      8.9      8.9       1          27
+126           Squash, winter, fresh/frozen, boiled                          2.2      2.1      2.2       1          27
+128           Onion, mature, raw                                            7.6      7.6      7.6       1          27
+130           Mushrooms, canned, drained solids                             1.8      1.8      1.8       1           1
+136           Potato, peeled, boiled                                       24.8     24.8      24.8      1          27
+
+                                                                                                               (Continued)
+                                                                              Food Additives & Contaminants: Part A         1475
+
+
+Table A2. Continued.
+                                                                                     Lower      Upper
+TDS food                                                                   Hybrid    bound      bound    Reporting Number of
+number                               TDS food description                  meana     meanb      meanc      limit    samples
+137         Potato, with peel, baked                                        43        43          43        1             27
+138         Chips, potato                                                   130       130        130        1              3
+145         Chili con carne with beans, canned                              6.3       6.3        6.3        1              3
+146         Macaroni and cheese, prepared from boxed mix                    11        11          11        1              3
+152         Chicken potpie, frozen, heated                                  6.6       6.6        6.6        1              3
+155         Soup, chicken noodle, canned, condensed, prepared with water    2.6       2.6        2.6        1              3
+156         Soup, tomato, canned, condensed, prepared with water            8.5       8.5        8.5        1              3
+161         Pickles, dill, cucumber                                         1.1       1.1        1.1        1              3
+162         Margarine, salted                                               0.5        0         1.0        1              3
+164         Butter, salted                                                   0         0         1.0        1              3
+166         Mayonnaise                                                      0.5        0         1.0        1              3
+167         Cream, half and half                                             0         0         1.0        1             27
+168         Cream substitute, non-dairy, liquid                             0.5        0         1.0        1              3
+169         Sugar, white, granulated                                         0         0         1.0        1              3
+170         Syrup, pancake                                                  0.5        0         1.0        1              3
+172         Honey                                                           0.5        0         1.0        1              3
+173         Ketchup, tomato                                                 21        21          21        1              3
+178         Cake, chocolate with chocolate icing                            18        18          18        1             27
+183         Cookies, chocolate chip                                         48        48          48        1              3
+184         Cookies, sandwich, with crème filling                           18        18          18        1              3
+185         Pie, apple, fresh/frozen                                        11        11          11        1              3
+186         Pie, pumpkin, fresh/frozen                                      7.7       7.7        7.7        1              3
+187         Candy bar, milk chocolate, plain                                20        20          20        1              3
+190         Gelatin dessert, strawberry                                     0.5        0         1.0        1              3
+191         Carbonated beverage, cola, regular                               0         0         1.0        1              3
+193         Fruit drink, from powder                                         0         0         1.0        1              3
+194         Carbonated beverage, cola, diet                                  0         0         1.0        1              3
+197         Tea, brewed from tea bag                                         0         0         1.0        1              3
+198         Beer                                                             0         0         1.0        1              3
+200         Alcohol, distilled, whiskey/scotch                               0         0         1.0        1              3
+205         BF, beef and broth/gravy                                         0         0         1.0        1              8
+211         BF, vegetables and beef                                         3.9       3.9        3.9        1              3
+212         BF, vegetables and chicken                                      2.2       2.2        2.2        1              3
+214         BF, chicken noodle dinner                                       13        13          13        1              8
+215         BF, pasta, tomato and beef                                      11        11          11        1              8
+216         BF, turkey and rice                                             3.9       3.9        3.9        1              8
+218         BF, carrots                                                     20        20          20        1             14
+219         BF, green beans                                                 1.7       1.7        1.7        1              8
+220         BF, mixed vegetables                                            16        16          16        1              8
+221         BF, sweet potatoes                                              4.2       4.2        4.2        1              8
+223         BF, peas                                                        0.5        0         1.0        1              8
+225         BF, applesauce                                                  0.5        0         1.0        1              8
+226         BF, peaches                                                     2.5       2.5        2.5        1             22
+227         BF, pears                                                       1.6       1.6        1.6        1              8
+230         BF, juice, apple                                                 0         0         1.0        1              8
+235         Yogurt, low-fat, fruit-flavored                                  0         0         1.0        1              3
+236         Cheese, Swiss                                                    0         0         1.0        1             27
+237         Cream cheese                                                     0         0         1.0        1              3
+239         Luncheon meat, ham                                              3.2       3.2        3.2        1              3
+240         Chicken breast, oven-roasted, skin removed                      0.8       0.4        1.2        1             27
+241         Chicken nuggets, fast-food                                      5.7       5.7        5.7        1             27
+244         Shrimp, pre-cooked, shells removed, no tails                    5.9       5.7        6.0        1             27
+249         Bagel, plain, toasted                                           24        24          24        1             27
+250         English muffin, plain, toasted                                  29        29          29        1             27
+251         Crackers, graham                                                43        43          43        2              3
+252         Crackers, butter-type                                           36        36          36        2              3
+256         Juice, pineapple, canned                                        0.5        0         1.0        1              3
+257         Juice, grape, bottled                                           1.5       1.5        1.5        1              3
+258         Potatoes, French fries, fast-food                               58        58          58        1             27
+263         Brussels sprouts, fresh/frozen, boiled                          10        10          10        1             27
+264         Mushrooms, raw                                                  3.3       3.3        3.3        1             27
+265d        Eggplant, fresh, peeled, boiled                                 11        11          11        1              6
+268         Mixed vegetables, frozen, boiled                                5.1       5.1        5.1        1              3
+286         Ice cream, vanilla                                               0         0         1.0        1             27
+288         Popsicle, fruit-flavored                                         0         0         1.0        1              3
+290         Doughnut, cake-type, plain                                      11        11          11        1              3
+291         Brownie                                                         21        21          21        1              3
+292         Cookies, sugar                                                  16        16          16        1              3
+293         Candy, hard                                                      0         0         1.0        1              3
+294         Pretzels, hard, salted                                          36        36          36        1              3
+
+
+                                                                                                                      (Continued)
+1476       D. HOFFMAN-PENNESI ET AL.
+
+
+Table A2. Continued.
+                                                                         Lower   Upper
+TDS food                                                        Hybrid   bound   bound   Reporting Number of
+number                                  TDS food description    meana    meanb   meanc     limit    samples
+295           Syrup, chocolate-flavored                           13      13      13       1           3
+296           Jelly, grape                                        0.5      0     1.0       1           3
+298           Mustard, yellow, plain                              35      35      35       1           3
+299           Olives, black, pitted                               0.5      0     1.0       1           3
+300           Sour cream                                          0.5      0     1.0       1           3
+305           Coffee, brewed from ground                           0       0     1.0       1           3
+307           Fruit drink (5% - 25% juice), canned or bottled     0.5      0     1.0       1           3
+313           BF, bananas                                          0       0     1.0       1           8
+317           BF, teething biscuits                               22      22      22       2           8
+318           Salmon, steaks/fillets, baked                       1.9     1.6    2.1       1          27
+320           BF, squash                                          1.2     1.1    1.3       1           8
+323d          BF, cereal, oatmeal, dry, prepared with water       2.1     2.1    2.1       1           1
+324d          BF, cereal, rice, dry, prepared with water          2.0     2.0    2.0       1          13
+328           BF, turkey and broth/gravy                           0       0     1.0       1           8
+332           Cottage cheese, creamed, reduced fat                0.5      0     1.0       1           3
+334           Beef steak, loin/sirloin, oven-roasted               0       0     1.0       1          27
+336           Chicken breast, fried with skin, fast-food          3.8     3.8    3.8       1          27
+337           Chicken thigh, oven-roasted, skin removed           0.6     0.2    1.1       1          27
+338           Chicken leg, fried with skin, fast-food             4.2     4.2    4.2       1          27
+339           Catfish, pan-cooked with oil                        0.6     0.2    1.1       1          27
+340           Tuna, canned in water, drained solids               25      25      25       1           3
+341           Beans, refried, canned                              1.9     1.9    1.9       1           3
+343           Seeds, sunflower, shelled, salted, roasted         333     333     333       2           3
+344           Pancakes, frozen, heated                            13      13      13       1           3
+345           Breakfast tart/toaster pastry                       13      13      13       1           3
+347           Spaghetti, enriched, boiled                         28      28      28       1           3
+350           Fruit juice blend (100% juice), canned/bottled       0       0     1.0       1           3
+351           Juice, cranberry cocktail, bottled                  1.3     1.0    1.7       1           3
+352           Juice, orange, bottled/cartoned                     0.5      0     1.0       1           3
+356           Carrot, baby, raw                                   25      25      25       1          27
+357           Lettuce, leaf, raw                                  61      61      61       1          27
+359           Salsa, tomato, bottled                              20      20      20       1           3
+367           Soup, ramen noodles, prepared with water            8.4     8.4    8.4       1           3
+369           Cake, white with white icing                        4.1     4.1    4.1       1          27
+371           Candy bar, chocolate, nougat, with nuts             16      16      16       1           3
+372           Popcorn, microwave, butter-flavored                 6.0     6.0    6.0       2           3
+374           Brown gravy, canned or bottled                      0.9     0.7    1.0       1           3
+377           Salad dressing, Italian, regular                    1.0      0     2.0       2           3
+378           Oil, olive                                           0       0     2.0       2           3
+379           Oil, vegetable                                       0       0     2.0       2           3
+380           Water, bottled, mineral/spring                     0.02    0.01    0.03      0.03       27
+385           Sorbet, fruit-flavored                              2.8     2.8    2.8       1           3
+386           Cinnamon roll, iced                                 14      14      14       1          27
+387           Cod, baked                                          2.4     2.2    2.6       1          27
+388           Tilapia, baked                                      0.5     0.1    1.0       1          27
+389           Salami, dry/hard                                    0.9     0.5    1.2       1          27
+390           Turkey, ground, pan-cooked                          1.1     0.8    1.3       1          27
+391           Cheese, Monterey jack                                0       0     1.0       1          27
+392           Cheese, mozzarella                                  0.7     0.2    1.1       1          27
+393           Ice cream, chocolate                                7.3     7.3    7.3       1          27
+394           Milk shake, vanilla, fast-food                       0       0     1.0       1          27
+396           Pineapple, raw/frozen                               1.5     1.0    1.9       1          27
+397           Sweet potato, baked, peel removed                   5.7     5.7    5.7       1          27
+398           Blueberries, raw                                    0.6     0.1    1.0       1          27
+399           Biscuits, fast-food                                 19      19      19       1          27
+400           Tortilla, corn                                      1.6     1.5    1.6       1          27
+401           Bread, white roll/bun (hamburger/hotdog)            25      25      25       1          27
+402           Rice, brown, cooked                                 8.0     8.0    8.0       1          27
+403           Walnuts, shelled                                    0.6     0.1    1.0       1          22
+404           Pizza, cheese, fast-food                            21      21      21       1          27
+405           Sauce, barbecue                                     13      13      13       1          27
+406           Cabbage, raw                                        5.5     5.5    5.5       1          27
+407           Zucchini, fresh/frozen, boiled                      7.1     7.1    7.2       1          27
+408           Spinach, raw                                       222     222     222       1          27
+409           Yogurt, frozen, vanilla                              0       0     1.0       1          26
+410           Eggplant, baked with peel                           12      12      12       1          21
+411           Kale, fresh, pan-cooked                             30      30      30       1           6
+412           Mango, raw/frozen                                   2.6     2.5    2.7       1           6
+413           Garlic, raw                                         21      21      21       1           6
+414           Cashews, salted                                      0       0     1.0       1           1
+
+                                                                                                  (Continued)
+                                                                                 Food Additives & Contaminants: Part A         1477
+
+
+Table A2. Continued.
+                                                                                        Lower      Upper
+TDS food                                                                      Hybrid    bound      bound    Reporting Number of
+number                              TDS food description                      meana     meanb      meanc      limit    samples
+500         Alcohol, distilled, vodka                                           0         0         1.0        1              3
+501         Wine, red                                                          0.5        0         1.0        1              3
+502         Wine, white                                                        0.5        0         1.0        1              3
+503         Beverage, almond (non-dairy)                                       1.1       1.0        1.3        1              3
+504         Beverage, coconut water                                             0         0         1.0        1              3
+505         Beverage, energy                                                    0         0         1.0        1              3
+506         Beverage, soy (non-dairy)                                          2.8       2.8        2.8        1              3
+507         Beverage, sports                                                    0         0         1.0        1              3
+508         Carbonated beverage, lemon-lime, regular                            0         0         1.0        1              3
+509         Meal replacement, liquid RTD, vanilla                              1.4       1.2        1.6        1              3
+510         Powder, protein                                                    14        14          14        1              3
+511         Candies, fruit snacks                                               0         0         1.0        1              3
+512         Cereal, granola                                                    16        16          16        1              3
+513         Cereal, oat ring, honey                                            13        13          13        1              3
+514         Cereal, shredded wheat, frosted                                    40        40          40        1              3
+515         Cereal, whole wheat, cooked                                        3.1       3.1        3.1        1              3
+516         Salad dressing, ranch, low-calorie                                 1.4       1.3        1.6        1              3
+517         Salad dressing, ranch, regular                                     3.7       3.7        3.7        1              3
+518         Sauce, soy                                                         11        11          11        1              3
+519         Sauce, tomato, canned                                              21        21          21        1              3
+520         Sauce, tomato, pasta                                               24        24          24        1              3
+521         Yogurt, lowfat, vanilla                                             0         0          1         1              3
+522         Quinoa, cooked                                                     11        11          11        1              3
+523         Granola bar                                                        8.5       8.5        8.5        1              3
+524         Juice, lemon                                                        0         0         1.0        1              3
+525         Juice, tomato-vegetable                                            11        11          11        1              3
+526         Almonds, shelled                                                   15        15          15        1              3
+527         Beans, black, canned, drained solids                               5.5       5.5        5.5        1              3
+528         Beans, kidney, canned, drained solids                               0         0         1.0        1              3
+529         Beans, pinto, canned, drained solids                               0.5        0         1.0        1              3
+530         Beans, white, canned, drained solids                               2.0       2.0        2.0        1              3
+531         Crackers, cheese                                                   22        22          22        1              3
+532         Broth, chicken, cartooned                                           0         0         1.0        1              3
+533         Soup, broccoli cheese, canned, condensed, prepared with water      1.0       0.8        1.2        1              3
+534         Soup, clam chowder, New England, canned, ready to serve            19        19          19        1              3
+535         Soup, cream of mushroom, canned, condensed, prepared with water    0.7       0.3        1.0        1              3
+536         Soup, cream of potato, canned, condensed, prepared with water      4.3       4.3        4.3        1              3
+537         Soup, vegetable beef, canned, ready to serve                       10        10          10        1              3
+538         Soup, vegetable, canned, ready to serve                            6.0       6.0        6.0        1              3
+539         Pasta, rice noodles, cooked                                        6.7       6.7        6.7        1              3
+540         Pasta, whole wheat, cooked                                         38        38          38        1              3
+541         Pie crust                                                          8.6       8.6        8.6        1              3
+542         Pudding, ready-to-eat, chocolate                                   4.9       4.9        4.9        1              3
+543         Luncheon meat, turkey                                              3.9       3.9        3.9        1              3
+544         Veggie burger                                                      17        17          17        1              3
+545         Beans, garbanzo (chickpeas), canned, drained solids                1.3       1.3        1.3        1              1
+546         Lentils, dry, cooked                                               1.5       1.5        1.5        1              1
+547         Tofu, firm, plain, drained solids                                  12        12          12        1              1
+701d        BF, cereal, mixed, dry, prepared with water                        4.5       4.5        4.5        1              1
+711         BF, juice, pear                                                    1.0       0.9        1.1        1              8
+712         BF, juice, grape                                                    0         0         1.0        1              8
+721         BF, fruit yogurt dessert                                           0.6       0.2        1.1        1              8
+728         BF, vegetables and turkey                                          8.6       8.6        8.6        1              7
+730         BF, apples with berries                                            0.5        0         1.0        1              1
+731         BF, apples with fruit other than berries                           0.5        0         1.0        1              8
+732         BF, macaroni and cheese with vegetables                            4.7       4.7        4.7        1              8
+733         BF, finger foods, puffed snack                                     15        15          15        1              8
+734d        BF, infant formula, milk-based, powdered, prepared with water       0         0         1.0        1              1
+735d        BF, infant formula, soy-based, powdered, prepared with water        0         0         1.0        1              1
+736         BF, prunes                                                          0         0         1.0        1              8
+737         BF, ravioli, cheese-filled, with tomato sauce                      24        24          24        1              8
+738         BF, water, baby, bottled                                            0         0         0.03       0.03           8
+740         BF, mango, glass jar                                               2.8       2.8        2.8        1              5
+741d        BF, mango, pouch                                                   4.8       4.8        4.8        1              5
+742         BF, banana, blackberry and blueberry, plastic jar                   0         0         1.0        1              5
+743         BF, banana and strawberry, glass jar                               0.4       0.4        1.0        1              5
+744d        BF, banana and blueberry, pouch                                     0         0         1.0        1              5
+745d        BF, banana, apple and pear, plastic jar                             0         0         1.0        1              5
+746d        BF, organic pears and spinach, pouch                               10        10          10        1              5
+747d        BF, peas and spinach, glass jar                                    7.2       7.2        7.2        1              1
+
+                                                                                                                         (Continued)
+1478       D. HOFFMAN-PENNESI ET AL.
+
+
+Table A2. Continued.
+                                                                                                           Lower          Upper
+TDS food                                                                                      Hybrid       bound          bound       Reporting Number of
+number                                    TDS food description                                meana        meanb          meanc         limit    samples
+748d            BF, sweet potato, apple and spinach, pouch                                      9.0          9.0          9.0             1             5
+749d            BF, pear, blueberry, apple and avocado, pouch                                    0            0           1.0             1             5
+750d            BF, peas, green beans and avocado, pouch                                        1.0          1.0          1.2             1             5
+751  d
+                BF, apple, spinach and avocado, bowl/pouch                                      32           32            32             1             5
+753d            BF, organic yogurt, apple, pumpkin, cinnamon and quinoa, pouch                  1.8          1.8          1.8             1             4
+754d            BF, turkey, quinoa, apple and sweet potato, pouch                               4.0          4.0          4.0             1             5
+755             BF, apple and sweet potato with cinnamon, pouch                                  0            0           1.0             1             5
+756  d
+                BF, apple, sweet potato and pineapple, pouch                                     0            0           1.0             1             5
+757d            BF, sweet potato, apple and corn, pouch                                          1            1           1.2             1             5
+758d            BF, pumpkin, banana, papaya and cardamom, bowl                                  2.1          2.1          2.1             1             3
+759d            BF, mango, carrot and turmeric, bowl                                            3.5          3.5          3.5             1             2
+760  d
+                BF, pear, mango, avocado, pouch                                                 5.7          5.7          5.7             1             5
+761d            BF, mango, yellow zucchini, corn and turmeric, pouch                            3.2          3.2          3.2             1             2
+762             BF, juice, mixed fruit                                                           0            0           1.0             1             3
+763d            BF, yogurt, peach pear                                                           0            0           1.0             1             3
+764             BF, cereal, oatmeal, dry                                                        12           12            12             1             7
+765             BF, cereal, rice, dry                                                           11           11            11             1             9
+766             BF, cereal, mixed, dry                                                          29           29            29             1             7
+767             BF, infant formula, milk-based, powdered                                        1.5          1.5          1.5             1             2
+768             BF, infant formula, soy-based, powdered                                         6.2          6.2          6.2             1             2
+900             Flour, white, all-purpose                                                       42           42            42             1             3
+902             Baking powder                                                                   20           20            20             1             1
+903             Breadcrumbs                                                                     33           33            33             1             3
+904             Salt, sea                                                                        0            0           3.0             3             1
+909d            Salt, iodized                                                                    0            0           3.0             3             1
+910             Cocoa powder                                                                    400          400          400             3             1
+BF = baby food.
+a
+  Values < reporting limit (RL) set to zero if there were no detections from 2013 to 2020; otherwise, values < RL set to 0.5*RL.
+b
+  Values < RL set to zero.
+c
+  Values < RL set to RL.
+d
+  Foods not used in the estimation of dietary exposure to cadmium.
+
+
+
+Table A3. Consumption and total dietary exposure to lead for infants 0-11 months, who do not consume human milk using hybrid,
+lower bound, and upper bound mean lead concentrations.
+                                                                                                                             Per capita       Per capita 90th
+Exposure                              NHANES/                                             Unwtdc total                         mean              percentile
+scenario               Intake        WWEIA survey        Subpopulationa        BW Adjb       users        Percent users                   µg/day
+Hybrid            2-day average        2015–2018            MF 0–11               N            316             100                1.290927        2.360066
+Lower bound       2-day average        2015–2018            MF 0–11               N            316             100                0.920035        1.887336
+Upper bound       2-day average        2015–2018            MF 0–11               N            316             100                2.045038        3.609545
+                                                                                                                                      µg/kg bw/day
+Hybrid           2-day average         2015–2018            MF 0–11               Y            316             100                0.16495         0.281401
+Lower bound      2-day average         2015–2018            MF 0–11               Y            316             100                0.118222        0.216262
+Upper ound       2-day average         2015–2018            MF 0–11               Y            316             100                0.258582        0.419201
+a
+  MF = males and females.
+b
+  BW adj = bodyweight adjustment.
+c
+ Unwtd = unweighted.
+                                                                                     Food Additives & Contaminants: Part A              1479
+
+
+Table A4. Consumption and total dietary exposure to lead for children 1-6 y using hybrid, lower bound, and upper bound mean
+lead concentrations.
+                                                                                                             Per capita      Per capita 90th
+Exposure                             NHANES/                                  Unwtdc total                     mean             percentile
+scenario             Intake         WWEIA survey   Subpopulationa   BW Adjb      users       Percent users                µg/day
+Hybrid          2-day average        2017–2018        MF 1–6          N           740            100            1.531843        2.367296
+Hybrid          2-day average        2017–2018        MF 1–3          N           426            100            1.415033        2.138262
+Hybrid          2-day average        2017–2018        MF 4–6          N           314            100            1.664088        2.554734
+Lower bound     2-day average        2017–2018        MF 1–6          N           740            100            0.687759        1.209865
+Lower bound     2-day average        2017–2018        MF 1–3          N           426            100            0.634722        1.072631
+Lower bound     2-day average        2017–2018        MF 4–6          N           314            100            0.747805        1.335593
+Upper bound     2-day average        2017–2018        MF 1–6          N           740            100            3.631288        5.285947
+Upper bound     2-day average        2017–2018        MF 1–3          N           426            100            3.476338         5.15309
+Upper bound     2-day average        2017–2018        MF 4–6          N           314            100            3.806713        5.525694
+                                                                                                                   µg/kg bw/day
+Hybrid          2-day average        2017–2018        MF 1–6          Y           740            100            0.092138        0.138408
+Hybrid          2-day average        2017–2018        MF 1–3          Y           426            100            0.102729        0.156788
+Hybrid          2-day average        2017–2018        MF 4–6          Y           314            100            0.080147        0.121422
+Lower bound     2-day average        2017–2018        MF 1–6          Y           740            100            0.041857        0.072006
+Lower bound     2-day average        2017–2018        MF 1–3          Y           426            100            0.046917        0.080227
+Lower bound     2-day average        2017–2018        MF 4–6          Y           314            100            0.036128        0.064066
+Upper bound     2-day average        2017–2018        MF 1–6          Y           740            100            0.220859        0.333521
+Upper bound     2-day average        2017–2018        MF 1–3          Y           426            100            0.253377        0.365392
+Upper bound     2-day average        2017–2018        MF 4–6          Y           314            100            0.184044        0.263809
+a
+  MF = males and females.
+b
+  BW Adj = bodyweight adjustment.
+c
+  Unwtd = unweighted.
+
+Table A5. Consumption and total dietary exposure to cadmium for infants 0-11 m, who do not consume human milk using hybrid,
+lower bound, and upper bound mean cadmium concentrations.
+                                                                                                             Per capita      Per capita 90th
+Exposure                             NHANES/                                  Unwtdc total                     mean             percentile
+scenario             Intake         WWEIA survey   Subpopulationa   BW Adjb      users       Percent users                µg/day
+Hybrid          2-day average        2015–2018       MF 0–11          N           316            100         1.541535       3.587502
+Lower bound     2-day average        2015–2018       MF 0–11          N           316            100         1.512137       3.535057
+Upper bound     2-day average        2015–2018       MF 0–11          N           316            100         1.665273       3.837507
+                                                                                                                   µg/kg bw/day
+Hybrid           2-day average       2015–2018       MF 0–11          Y           316            100         0.186914       0.385798
+Lower bound      2-day average       2015–2018       MF 0–11          Y           316            100         0.183423       0.380804
+Upper bound      2-day average       2015–2018       MF 0–11          Y           316            100         0.201335       0.399284
+a
+  MF = males and females.
+b
+  BW Adj = bodyweight adjustment.
+c
+ Unwtd = unweighted.
+
+Table A6. Consumption and total dietary exposure to cadmium for children 1–6 years using hybrid, lower bound, and upper
+bound mean cadmium concentrations.
+                                                                                                             Per capita       Per capita 90th
+Exposure                             NHANES/                                  Unwtdc total                     mean              percenile
+scenario              Intake        WWEIA survey   Subpopulationa   BW Adjb      users       Percent users                µg/day
+Hybrid            2-day average      2017–2018        MF 1–6           N          740             100         7.23494         11.16456
+Hybrid            2-day average      2017–2018        MF 1–3           N          426             100         6.514732        10.71463
+Hybrid            2-day average      2017–2018        MF 4–6           N          314             100         8.050319        11.64338
+Lower bound       2-day average      2017–2018        MF 1–6           N          740             100         7.123818        11.05681
+Lower bound       2-day average      2017–2018        MF 1–3           N          426             100         6.41093         10.54416
+Lower bound       2-day average      2017–2018        MF 4–6           N          314             100         7.93091         11.48185
+Upper bound       2-day average      2017–2018        MF 1–6           N          740             100         7.886955        11.99859
+Upper bound       2-day average      2017–2018        MF 1–3           N          426             100         7.210302        11.44223
+Upper bound       2-day average      2017–2018        MF 4–6           N          314             100         8.653025        12.38339
+                                                                                                                    µg/kg bw/day
+Hybrid             2-day average     2017–2018        MF 1–6           Y          740             100         0.432328        0.707542
+Hybrid             2-day average     2017–2018        MF 1–3           Y          426             100         0.471107         0.77057
+Hybrid             2-day average     2017–2018        MF 4–6           Y          314             100         0.388425        0.563425
+Lower bound        2-day average     2017–2018        MF 1–6           Y          740             100         0.425588         0.70066
+Lower bound        2-day average     2017–2018        MF 1–3           Y          426             100         0.463548        0.758948
+Lower bound        2-day average     2017–2018        MF 4–6           Y          314             100         0.382612        0.560633
+Upper bound        2-day average     2017–2018        MF 1–6           Y          740             100         0.472961        0.756943
+Upper bound        2-day average     2017–2018        MF 1–3           Y          426             100         0.521998        0.837077
+Upper bound        2-day average     2017–2018        MF 4–6           Y          314             100         0.417444        0.593922
+a
+  MF = males and females.
+b
+  BW Adj = bodyweight adjustment.
+c
+ Unwtd = unweighted.
+

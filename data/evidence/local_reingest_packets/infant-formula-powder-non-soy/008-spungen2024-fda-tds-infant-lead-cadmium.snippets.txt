@@ -1,0 +1,574 @@
+SOURCE ID: spungen2024-fda-tds-infant-lead-cadmium
+SOURCE TITLE: Infants' and young children's dietary exposures to lead and cadmium: FDA total diet study 2018-2020
+PRODUCT: infant-formula-powder-non-soy
+PRIORITY: P0-extract-direct-product-values
+LOCAL PDF: raw/studies/Infants  and young children s dietary exposures to lead and cadmium  FDA total diet study 2018 2020.pdf
+METALS DECLARED: [Pb, Cd]
+
+EXTRACTION GUARDRAILS:
+- Extract only source-stated or reconstructable product concentration values.
+- Capture N, detected N, basis, unit, analyte species, product fit, mean, median, min/low, max/high, and explicitly reported percentiles.
+- Do not infer p50, p90, or p95 from a mean, range, or one source.
+- Keep total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury.
+- Keep powder, liquid, soy, and non-soy formula rows separate unless the source table explicitly supports pooling.
+
+TEXT SNIPPETS FOR REVIEW:
+--- lines 10-14 ---
+   10 | 
+   11 | Infants’ and young children’s dietary exposures to
+   12 | lead and cadmium: FDA total diet study 2018–2020
+   13 | 
+   14 | Dana Hoﬀman-Pennesi, Sarah Winﬁeld, Alexandra Gavelek, Soﬁa M.
+
+--- lines 17-21 ---
+   17 | To cite this article: Dana Hoﬀman-Pennesi, Sarah Winﬁeld, Alexandra Gavelek, Soﬁa M.
+   18 | Santillana Farakos & Judith Spungen (2024) Infants’ and young children’s dietary exposures to
+   19 | lead and cadmium: FDA total diet study 2018–2020, Food Additives & Contaminants: Part A,
+   20 | 41:11, 1454-1479, DOI: 10.1080/19440049.2024.2396910
+   21 | 
+
+--- lines 49-53 ---
+   49 | 
+   50 | 
+   51 |        Citing articles: 9 View citing articles
+   52 | 
+   53 | 
+
+--- lines 63-67 ---
+   63 | 
+   64 | 
+   65 | Infants’ and young children’s dietary exposures to lead and cadmium: FDA
+   66 | total diet study 2018–2020
+   67 | Dana Hoffman-Pennesi, Sarah Winfield, Alexandra Gavelek, Sofia M. Santillana Farakos                                                                and
+
+--- lines 71-75 ---
+   71 | 
+   72 |     ABSTRACT                                                                                                                             ARTICLE HISTORY
+   73 |     Food can be a source of lead and cadmium exposure for infants and children. Employing a                                              Received 24 June 2024
+   74 |     semi-probabilistic approach, dietary exposures to lead and cadmium were assessed for infants                                         Revised 19 August 2024
+   75 |     0–11 months (excluding human milk-fed infants) and children 1–6 years using U.S. total diet                                          Accepted 19 August 2024
+
+--- lines 72-76 ---
+   72 |     ABSTRACT                                                                                                                             ARTICLE HISTORY
+   73 |     Food can be a source of lead and cadmium exposure for infants and children. Employing a                                              Received 24 June 2024
+   74 |     semi-probabilistic approach, dietary exposures to lead and cadmium were assessed for infants                                         Revised 19 August 2024
+   75 |     0–11 months (excluding human milk-fed infants) and children 1–6 years using U.S. total diet                                          Accepted 19 August 2024
+   76 |     study data from 2018 to 2020 and food consumption data from 2015 to 2018. Estimated                                                  KEYWORDS
+
+--- lines 75-79 ---
+   75 |     0–11 months (excluding human milk-fed infants) and children 1–6 years using U.S. total diet                                          Accepted 19 August 2024
+   76 |     study data from 2018 to 2020 and food consumption data from 2015 to 2018. Estimated                                                  KEYWORDS
+   77 |     mean lead and cadmium exposures range from 0.7–3.6 µg/day to 0.18–0.47 µg/kg bw/day,                                                 dietary exposure; lead;
+   78 |     respectively, depending on the age group and method for handling non-detected values.                                                cadmium; infants; children
+   79 |     Dietary exposures to lead and cadmium are slightly lower and slightly higher than our
+
+--- lines 76-80 ---
+   76 |     study data from 2018 to 2020 and food consumption data from 2015 to 2018. Estimated                                                  KEYWORDS
+   77 |     mean lead and cadmium exposures range from 0.7–3.6 µg/day to 0.18–0.47 µg/kg bw/day,                                                 dietary exposure; lead;
+   78 |     respectively, depending on the age group and method for handling non-detected values.                                                cadmium; infants; children
+   79 |     Dietary exposures to lead and cadmium are slightly lower and slightly higher than our
+   80 |     estimates published in 2019. In addition to the use of more recent datasets for consumption
+
+--- lines 77-81 ---
+   77 |     mean lead and cadmium exposures range from 0.7–3.6 µg/day to 0.18–0.47 µg/kg bw/day,                                                 dietary exposure; lead;
+   78 |     respectively, depending on the age group and method for handling non-detected values.                                                cadmium; infants; children
+   79 |     Dietary exposures to lead and cadmium are slightly lower and slightly higher than our
+   80 |     estimates published in 2019. In addition to the use of more recent datasets for consumption
+   81 |     and contamination, differences may be due to the use of refined exposure assessment
+
+--- lines 81-85 ---
+   81 |     and contamination, differences may be due to the use of refined exposure assessment
+   82 |     methodology, particularly a new system of mapping contamination data to intake data. The
+   83 |     processed baby food and infant formula food group is the major contributor to lead and
+   84 |     cadmium exposure, driven by intake, among infants who do not consume human milk. The
+   85 |     food groups contributing most to children’s lead and cadmium exposure are grains/baking,
+
+--- lines 82-86 ---
+   82 |     methodology, particularly a new system of mapping contamination data to intake data. The
+   83 |     processed baby food and infant formula food group is the major contributor to lead and
+   84 |     cadmium exposure, driven by intake, among infants who do not consume human milk. The
+   85 |     food groups contributing most to children’s lead and cadmium exposure are grains/baking,
+   86 |     dairy and fruit and grains/baking and vegetables, respectively. This work will inform FDA
+
+--- lines 83-87 ---
+   83 |     processed baby food and infant formula food group is the major contributor to lead and
+   84 |     cadmium exposure, driven by intake, among infants who do not consume human milk. The
+   85 |     food groups contributing most to children’s lead and cadmium exposure are grains/baking,
+   86 |     dairy and fruit and grains/baking and vegetables, respectively. This work will inform FDA
+   87 |     initiatives such as closer to zero, including research needs and regulatory priorities.
+
+--- lines 92-96 ---
+   92 | Introduction                                                                               review of the literature identified full-scale IQ,
+   93 | Infants and young children can be exposed to                                               nervous system and renal effects as potential
+   94 | lead and cadmium through many sources, includ-                                             health outcomes from children’s cadmium expo-
+   95 | ing food. Food is a source of environmental con-                                           sure; however, the authors concluded more
+   96 | taminants such as lead and cadmium because                                                 research is needed (Flannery et al. 2022).
+
+--- lines 94-98 ---
+   94 | lead and cadmium through many sources, includ-                                             health outcomes from children’s cadmium expo-
+   95 | ing food. Food is a source of environmental con-                                           sure; however, the authors concluded more
+   96 | taminants such as lead and cadmium because                                                 research is needed (Flannery et al. 2022).
+   97 | they occur in the soil, water or air where foods                                           Cadmium is excreted from the body slowly with
+   98 | are grown, raised or processed (FDA 2024b).                                                accumulation starting at a young age and poten-
+
+--- lines 95-99 ---
+   95 | ing food. Food is a source of environmental con-                                           sure; however, the authors concluded more
+   96 | taminants such as lead and cadmium because                                                 research is needed (Flannery et al. 2022).
+   97 | they occur in the soil, water or air where foods                                           Cadmium is excreted from the body slowly with
+   98 | are grown, raised or processed (FDA 2024b).                                                accumulation starting at a young age and poten-
+   99 | Lead exposure occurs primarily through inges-                                              tially resulting in serious health effects in later
+
+--- lines 96-100 ---
+   96 | taminants such as lead and cadmium because                                                 research is needed (Flannery et al. 2022).
+   97 | they occur in the soil, water or air where foods                                           Cadmium is excreted from the body slowly with
+   98 | are grown, raised or processed (FDA 2024b).                                                accumulation starting at a young age and poten-
+   99 | Lead exposure occurs primarily through inges-                                              tially resulting in serious health effects in later
+  100 | tion, and children generally absorb a higher per-                                          life (Schoeters et al. 2006). In adults, oral expo-
+
+--- lines 97-101 ---
+   97 | they occur in the soil, water or air where foods                                           Cadmium is excreted from the body slowly with
+   98 | are grown, raised or processed (FDA 2024b).                                                accumulation starting at a young age and poten-
+   99 | Lead exposure occurs primarily through inges-                                              tially resulting in serious health effects in later
+  100 | tion, and children generally absorb a higher per-                                          life (Schoeters et al. 2006). In adults, oral expo-
+  101 | centage of ingested lead compared to adults                                                sure to cadmium is associated with a decrease
+
+--- lines 99-103 ---
+   99 | Lead exposure occurs primarily through inges-                                              tially resulting in serious health effects in later
+  100 | tion, and children generally absorb a higher per-                                          life (Schoeters et al. 2006). In adults, oral expo-
+  101 | centage of ingested lead compared to adults                                                sure to cadmium is associated with a decrease
+  102 | (ATSDR 2023). In the United States (U.S.) the                                              in bone mineral density and renal tubular
+  103 | primary source of cadmium exposure, other than                                             degeneration (Schaefer et al. 2023).
+
+--- lines 101-105 ---
+  101 | centage of ingested lead compared to adults                                                sure to cadmium is associated with a decrease
+  102 | (ATSDR 2023). In the United States (U.S.) the                                              in bone mineral density and renal tubular
+  103 | primary source of cadmium exposure, other than                                             degeneration (Schaefer et al. 2023).
+  104 | cigarette smoke, is food (ATSDR 2012).                                                        The current study updates previous lead and
+  105 |    Lead is a health concern for fetuses, infants                                           cadmium dietary exposure estimates for young
+
+--- lines 102-106 ---
+  102 | (ATSDR 2023). In the United States (U.S.) the                                              in bone mineral density and renal tubular
+  103 | primary source of cadmium exposure, other than                                             degeneration (Schaefer et al. 2023).
+  104 | cigarette smoke, is food (ATSDR 2012).                                                        The current study updates previous lead and
+  105 |    Lead is a health concern for fetuses, infants                                           cadmium dietary exposure estimates for young
+  106 | and young children due to its effects on neuro-                                            children aged 1–6 years (Spungen 2019), using
+
+--- lines 103-107 ---
+  103 | primary source of cadmium exposure, other than                                             degeneration (Schaefer et al. 2023).
+  104 | cigarette smoke, is food (ATSDR 2012).                                                        The current study updates previous lead and
+  105 |    Lead is a health concern for fetuses, infants                                           cadmium dietary exposure estimates for young
+  106 | and young children due to its effects on neuro-                                            children aged 1–6 years (Spungen 2019), using
+  107 | development (ATSDR 2020; Flannery et al.                                                   improved methodology and more recent data
+
+--- lines 106-110 ---
+  106 | and young children due to its effects on neuro-                                            children aged 1–6 years (Spungen 2019), using
+  107 | development (ATSDR 2020; Flannery et al.                                                   improved methodology and more recent data
+  108 | 2020). Exposure to lead can have negative cog-                                             on concentrations and food intakes. We also
+  109 | nitive effects not only in youth but also into                                             estimated dietary lead and cadmium exposures
+  110 | adulthood in addition to hypertension and kid-                                             for infants 0–11 months, excluding infants who
+
+--- lines 107-111 ---
+  107 | development (ATSDR 2020; Flannery et al.                                                   improved methodology and more recent data
+  108 | 2020). Exposure to lead can have negative cog-                                             on concentrations and food intakes. We also
+  109 | nitive effects not only in youth but also into                                             estimated dietary lead and cadmium exposures
+  110 | adulthood in addition to hypertension and kid-                                             for infants 0–11 months, excluding infants who
+  111 | ney dysfunction (Dolan et al. 2020). A scoping                                             consumed human milk, due to limited data
+
+--- lines 115-119 ---
+  115 | © 2024 U.S. FDA Center for Food Safety and Applied Nutrition. Published with license by Taylor & Francis Group, LLC.
+  116 | This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted
+  117 | use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the
+  118 | Accepted Manuscript in a repository by the author(s) or with their consent.
+  119 |                                                                     Food Additives & Contaminants: Part A   1455
+
+--- lines 120-124 ---
+  120 | 
+  121 | 
+  122 | available for estimating lead and cadmium               for analysis. Foods identified as nationally distrib-
+  123 | exposures from human milk. We used the                  uted (‘national foods’) are collected once per year.
+  124 | 2018–2020 total diet study (TDS) lead and cad-          The food lists were also updated in 2018 to focus
+
+--- lines 122-126 ---
+  122 | available for estimating lead and cadmium               for analysis. Foods identified as nationally distrib-
+  123 | exposures from human milk. We used the                  uted (‘national foods’) are collected once per year.
+  124 | 2018–2020 total diet study (TDS) lead and cad-          The food lists were also updated in 2018 to focus
+  125 | mium concentration data (FDA 2022b), mapped             on foods that are highly consumed and foods
+  126 | to     2017–2018     (2015–2018     for   infants       that are used as ingredients in foods e.g. flour,
+
+--- lines 125-129 ---
+  125 | mium concentration data (FDA 2022b), mapped             on foods that are highly consumed and foods
+  126 | to     2017–2018     (2015–2018     for   infants       that are used as ingredients in foods e.g. flour,
+  127 | 0–11 months) food intake data from What We              salt and cocoa powder. Further information on
+  128 | Eat in America (WWEIA) (USDA 2022b), the                TDS samples and analyses are on the TDS web-
+  129 | food consumption portion of the National                site (FDA 2022a). A total of 307 foods and bev-
+
+--- lines 129-133 ---
+  129 | food consumption portion of the National                site (FDA 2022a). A total of 307 foods and bev-
+  130 | Health and Nutrition Examination Study                  erages (including bottled water) sampled from
+  131 | (NHANES) (NHANES/WWEIA) (CDC 2015) to                   2018 to 2020 were selected to represent key foods
+  132 | estimate infant and children’s lead and cadmium         and food groups in the U.S. diet (Table 1). TDS
+  133 | exposures and to identify key dietary sources of        data from these samples were used to estimate
+
+--- lines 130-134 ---
+  130 | Health and Nutrition Examination Study                  erages (including bottled water) sampled from
+  131 | (NHANES) (NHANES/WWEIA) (CDC 2015) to                   2018 to 2020 were selected to represent key foods
+  132 | estimate infant and children’s lead and cadmium         and food groups in the U.S. diet (Table 1). TDS
+  133 | exposures and to identify key dietary sources of        data from these samples were used to estimate
+  134 | exposures. The exposure estimates were com-             mean concentrations of lead and cadmium.
+
+--- lines 132-136 ---
+  132 | estimate infant and children’s lead and cadmium         and food groups in the U.S. diet (Table 1). TDS
+  133 | exposures and to identify key dietary sources of        data from these samples were used to estimate
+  134 | exposures. The exposure estimates were com-             mean concentrations of lead and cadmium.
+  135 | pared with the FDA’s current lead interim refer-
+  136 | ence level (IRL) (Flannery and Middleton 2022)          Lead and cadmium concentrations
+
+--- lines 133-137 ---
+  133 | exposures and to identify key dietary sources of        data from these samples were used to estimate
+  134 | exposures. The exposure estimates were com-             mean concentrations of lead and cadmium.
+  135 | pared with the FDA’s current lead interim refer-
+  136 | ence level (IRL) (Flannery and Middleton 2022)          Lead and cadmium concentrations
+  137 | based on the Center for Disease Control and
+
+--- lines 134-138 ---
+  134 | exposures. The exposure estimates were com-             mean concentrations of lead and cadmium.
+  135 | pared with the FDA’s current lead interim refer-
+  136 | ence level (IRL) (Flannery and Middleton 2022)          Lead and cadmium concentrations
+  137 | based on the Center for Disease Control and
+  138 | Prevention’s (CDC’s) blood lead reference value         Lead and cadmium were measured using induc-
+
+--- lines 136-140 ---
+  136 | ence level (IRL) (Flannery and Middleton 2022)          Lead and cadmium concentrations
+  137 | based on the Center for Disease Control and
+  138 | Prevention’s (CDC’s) blood lead reference value         Lead and cadmium were measured using induc-
+  139 | of 3.5 µg/dL (CDC 2022) and FDA’s cadmium               tively    coupled    plasma-mass      spectrometry
+  140 | toxicological reference value (TRV) based on an         (ICP-MS), after microwave digestion (Gray et al.
+
+--- lines 137-141 ---
+  137 | based on the Center for Disease Control and
+  138 | Prevention’s (CDC’s) blood lead reference value         Lead and cadmium were measured using induc-
+  139 | of 3.5 µg/dL (CDC 2022) and FDA’s cadmium               tively    coupled    plasma-mass      spectrometry
+  140 | toxicological reference value (TRV) based on an         (ICP-MS), after microwave digestion (Gray et al.
+  141 | adapted physiological based pharmacokinetic             2020). Reporting limits (RLs) are set between the
+
+--- lines 139-143 ---
+  139 | of 3.5 µg/dL (CDC 2022) and FDA’s cadmium               tively    coupled    plasma-mass      spectrometry
+  140 | toxicological reference value (TRV) based on an         (ICP-MS), after microwave digestion (Gray et al.
+  141 | adapted physiological based pharmacokinetic             2020). Reporting limits (RLs) are set between the
+  142 | (PBPK) model that assumes chronic exposure              LOD and LOQ and are static across years. They
+  143 | from birth to approximately 50 years of age             varied analyte by analyte, with some close to the
+
+--- lines 140-144 ---
+  140 | toxicological reference value (TRV) based on an         (ICP-MS), after microwave digestion (Gray et al.
+  141 | adapted physiological based pharmacokinetic             2020). Reporting limits (RLs) are set between the
+  142 | (PBPK) model that assumes chronic exposure              LOD and LOQ and are static across years. They
+  143 | from birth to approximately 50 years of age             varied analyte by analyte, with some close to the
+  144 | developed by Pouillot et al. (2022) using the           LOD, and all below the LOQ. RLs for lead and
+
+--- lines 142-146 ---
+  142 | (PBPK) model that assumes chronic exposure              LOD and LOQ and are static across years. They
+  143 | from birth to approximately 50 years of age             varied analyte by analyte, with some close to the
+  144 | developed by Pouillot et al. (2022) using the           LOD, and all below the LOQ. RLs for lead and
+  145 | kidney and bone as critical targets for cadmium         cadmium in foods varied, depending on the food
+  146 | toxicity (Schaefer et al. 2023). The updated            matrix and the sample size needed for ICP-MS
+
+--- lines 143-147 ---
+  143 | from birth to approximately 50 years of age             varied analyte by analyte, with some close to the
+  144 | developed by Pouillot et al. (2022) using the           LOD, and all below the LOQ. RLs for lead and
+  145 | kidney and bone as critical targets for cadmium         cadmium in foods varied, depending on the food
+  146 | toxicity (Schaefer et al. 2023). The updated            matrix and the sample size needed for ICP-MS
+  147 | exposure estimates will be used to inform and           analysis. RLs were lower for bottled water and
+
+--- lines 146-150 ---
+  146 | toxicity (Schaefer et al. 2023). The updated            matrix and the sample size needed for ICP-MS
+  147 | exposure estimates will be used to inform and           analysis. RLs were lower for bottled water and
+  148 | serve as baseline estimates for the FDA initia-         beverages than for solid foods. The RLs for lead
+  149 | tive, ‘Closer to Zero’ or C2Z, which identifies         ranged from 0.4–10 µg/kg and 0.03–3 µg/kg for
+  150 | actions the Agency will take to reduce toxic ele-       cadmium (FDA 2022b).
+
+--- lines 147-151 ---
+  147 | exposure estimates will be used to inform and           analysis. RLs were lower for bottled water and
+  148 | serve as baseline estimates for the FDA initia-         beverages than for solid foods. The RLs for lead
+  149 | tive, ‘Closer to Zero’ or C2Z, which identifies         ranged from 0.4–10 µg/kg and 0.03–3 µg/kg for
+  150 | actions the Agency will take to reduce toxic ele-       cadmium (FDA 2022b).
+  151 | ment exposure from foods eaten by babies and               Three different methods for handling
+
+--- lines 148-152 ---
+  148 | serve as baseline estimates for the FDA initia-         beverages than for solid foods. The RLs for lead
+  149 | tive, ‘Closer to Zero’ or C2Z, which identifies         ranged from 0.4–10 µg/kg and 0.03–3 µg/kg for
+  150 | actions the Agency will take to reduce toxic ele-       cadmium (FDA 2022b).
+  151 | ment exposure from foods eaten by babies and               Three different methods for handling
+  152 | young children (FDA 2024a).                             non-detected values (<RL) were used to calculate
+
+--- lines 151-155 ---
+  151 | ment exposure from foods eaten by babies and               Three different methods for handling
+  152 | young children (FDA 2024a).                             non-detected values (<RL) were used to calculate
+  153 |                                                         mean concentrations in food and to estimate the
+  154 |                                                         range of possible exposures. To estimate lower
+  155 | Materials and methods                                   bound mean concentrations all values less than
+
+--- lines 152-156 ---
+  152 | young children (FDA 2024a).                             non-detected values (<RL) were used to calculate
+  153 |                                                         mean concentrations in food and to estimate the
+  154 |                                                         range of possible exposures. To estimate lower
+  155 | Materials and methods                                   bound mean concentrations all values less than
+  156 |                                                         the RL were set to zero, and to estimate the
+
+--- lines 153-157 ---
+  153 |                                                         mean concentrations in food and to estimate the
+  154 |                                                         range of possible exposures. To estimate lower
+  155 | Materials and methods                                   bound mean concentrations all values less than
+  156 |                                                         the RL were set to zero, and to estimate the
+  157 | Foods sampled in TDS
+
+--- lines 156-160 ---
+  156 |                                                         the RL were set to zero, and to estimate the
+  157 | Foods sampled in TDS
+  158 |                                                         upper bound mean concentrations all values less
+  159 | Beginning in 2018, the TDS sampling plan                than the RL were set to the RL (EFSA 2010;
+  160 | changed from convenience-based sampling (all            EFSA et al. 2011; FAO and WHO 2020). The
+
+--- lines 159-163 ---
+  159 | Beginning in 2018, the TDS sampling plan                than the RL were set to the RL (EFSA 2010;
+  160 | changed from convenience-based sampling (all            EFSA et al. 2011; FAO and WHO 2020). The
+  161 | foods collected in one of four regions at the same      range is further defined using a ‘hybrid’ mean
+  162 | time each year) to population-based sampling,           concentration where mean concentrations were
+  163 | where ‘regional foods’ are collected in six regions     estimated by setting values for foods with no his-
+
+--- lines 160-164 ---
+  160 | changed from convenience-based sampling (all            EFSA et al. 2011; FAO and WHO 2020). The
+  161 | foods collected in one of four regions at the same      range is further defined using a ‘hybrid’ mean
+  162 | time each year) to population-based sampling,           concentration where mean concentrations were
+  163 | where ‘regional foods’ are collected in six regions     estimated by setting values for foods with no his-
+  164 | (approximately equal in population) twice per           tory of detections (using data from TDS collec-
+
+--- lines 161-165 ---
+  161 | foods collected in one of four regions at the same      range is further defined using a ‘hybrid’ mean
+  162 | time each year) to population-based sampling,           concentration where mean concentrations were
+  163 | where ‘regional foods’ are collected in six regions     estimated by setting values for foods with no his-
+  164 | (approximately equal in population) twice per           tory of detections (using data from TDS collec-
+  165 | year to account for where people live and season-       tions 2013–2020) to zero (i.e. similar to the lower
+
+--- lines 164-168 ---
+  164 | (approximately equal in population) twice per           tory of detections (using data from TDS collec-
+  165 | year to account for where people live and season-       tions 2013–2020) to zero (i.e. similar to the lower
+  166 | ality. For each regional collection, three cities are   bound method) and setting non-detected values
+  167 | identified in the selected region as collection         for foods in the same dataset that have one or
+  168 | locations. FDA collects the same list of regional       more detected values to half the RL (Xue et al.
+
+--- lines 168-172 ---
+  168 | locations. FDA collects the same list of regional       more detected values to half the RL (Xue et al.
+  169 | foods from each of the three selected cities within     2010). Hybrid, lower bound and upper bound
+  170 | each region once per month, and samples of each         mean concentration data for lead and cadmium
+  171 | food from each of the three cities are composited       can be found in the Appendix.
+  172 | 1456      D. HOFFMAN-PENNESI ET AL.
+
+--- lines 179-183 ---
+  179 | Beveragesb             Includes all beverages other than 100% fruit juice and 100% vegetable juice (e.g. bottled water,            21           87
+  180 |                            non-dairy beverages, carbonated beverages, and energy drinks)
+  181 | Candy/sweets           Includes candy, gelatin, jelly, sugar and syrup                                                       12            36
+  182 | Condiments/sauces      Condiments and sauces (e.g. ketchup, mustard, salsa, soy sauce)                                        6            42
+  183 | Dairy                  All dairy products (e.g. butter, cheese, milk, yogurt, creams and ice cream)                          20           371
+
+--- lines 180-184 ---
+  180 |                            non-dairy beverages, carbonated beverages, and energy drinks)
+  181 | Candy/sweets           Includes candy, gelatin, jelly, sugar and syrup                                                       12            36
+  182 | Condiments/sauces      Condiments and sauces (e.g. ketchup, mustard, salsa, soy sauce)                                        6            42
+  183 | Dairy                  All dairy products (e.g. butter, cheese, milk, yogurt, creams and ice cream)                          20           371
+  184 | Eggs                   Hard-boiled eggs                                                                                       1            27
+
+--- lines 185-189 ---
+  185 | Fats/oils              Vegetable fats and oils and salad dressings                                                            8            24
+  186 | Fruit                  All fruits (e.g. apples, bananas, berries, peaches and pineapple)                                     17           366
+  187 | Fruit juice            Includes all 100% fruit juices (e.g. apple juice, orange juice and lemon juice)                        8            24
+  188 | Grains/baking          All grains and grain products (e.g. rice, pasta, oatmeal, cereals, breadcrumbs, baked goods and flour)52           490
+  189 | Legumes                All legumes (e.g. beans, lentils and tofu)                                                            10            24
+
+--- lines 191-195 ---
+  191 | Mixtures               Mixtures of meat/poultry/fish, grains and vegetables (e.g. cheese pizza, macaroni and cheese and soup)13            63
+  192 | Peanuts/nuts/seeds     Peanuts, tree nuts, nut butters and seeds                                                              6            35
+  193 | Processed baby food    All processed baby foods (i.e. foods marketed to infants and young children), infant formula and      63           384
+  194 |     and infant formula     baby water (water marketed to babies)
+  195 | Seafood                All fish and shellfish                                                                                 7           141
+
+--- lines 192-196 ---
+  192 | Peanuts/nuts/seeds     Peanuts, tree nuts, nut butters and seeds                                                              6            35
+  193 | Processed baby food    All processed baby foods (i.e. foods marketed to infants and young children), infant formula and      63           384
+  194 |     and infant formula     baby water (water marketed to babies)
+  195 | Seafood                All fish and shellfish                                                                                 7           141
+  196 | Vegetables             All vegetables and 100% vegetable juice (e.g. broccoli, carrots, leafy greens, potatoes and squash)   39           717
+
+--- lines 195-199 ---
+  195 | Seafood                All fish and shellfish                                                                                 7           141
+  196 | Vegetables             All vegetables and 100% vegetable juice (e.g. broccoli, carrots, leafy greens, potatoes and squash)   39           717
+  197 | NEC                    Not elsewhere categorised. Includes salt, cocoa powder, protein powder and chicken broth               5               9
+  198 | All                                                                                                                        307           3276
+  199 | a
+
+--- lines 205-209 ---
+  205 | 
+  206 | 
+  207 | Mapping NHANES/WWEIA foods to TDS lead and                                     contaminant concentrations in ‘shrimp and noo-
+  208 | cadmium concentrations                                                         dles with mushroom sauce’ are estimated using
+  209 |                                                                                ingredient percentage-based mapping to TDS
+
+--- lines 206-210 ---
+  206 | 
+  207 | Mapping NHANES/WWEIA foods to TDS lead and                                     contaminant concentrations in ‘shrimp and noo-
+  208 | cadmium concentrations                                                         dles with mushroom sauce’ are estimated using
+  209 |                                                                                ingredient percentage-based mapping to TDS
+  210 | Infants’ and children’s total dietary exposures to
+
+--- lines 210-214 ---
+  210 | Infants’ and children’s total dietary exposures to
+  211 |                                                                                data on shrimp, noodles, milk, mushroom soup
+  212 | lead and cadmium were determined using analyte
+  213 |                                                                                and oil. Contaminant concentrations in tap water
+  214 | concentration data from TDS (2018–2020), com-
+
+--- lines 218-222 ---
+  218 | 2017–2018 NHANES/WWEIA cycle for children
+  219 |                                                                                ity) because TDS does not collect tap water.
+  220 | 1–6 years and the 2015–2018 NHANES/WWEIA                                       Exposures to lead and cadmium from the con-
+  221 | cycles for infants 0–11 months. Additional years                               sumption of homemade baby foods were esti-
+  222 | of the survey were needed to estimate exposure                                 mated assuming the concentrations are those in
+
+--- lines 226-230 ---
+  226 | data using the FDA Food Disaggregation Database                                FDA-FDD ingredient (after any relevant cooking
+  227 | or FDA-FDD (Spungen et al. 2024). FDA-FDD is                                   step) and the closest TDS food match, we devel-
+  228 | a ‘recipe’ database that is based on recipes in the                            oped factors for adjusting TDS concentration val-
+  229 | USDA’s Food and Nutrient Database for Dietary                                  ues to reflect the % solids in the NHANES/
+  230 | Studies (FNDDS) (USDA 2022a), with additional                                  WWEIA ingredients. These adjustment factors
+
+--- lines 236-240 ---
+  236 | tion patterns. Some NHANES/WWEIA foods                                         2024). For example, for NHANES/WWEIA food
+  237 | were mapped to single TDS foods (e.g. NHANES/                                  code 72201100 (Broccoli, raw), the TDS food we
+  238 | WWEIA raw orange to TDS raw orange) but                                        judged to be closest is TDS food number 113
+  239 | most were mapped to multiple TDS foods based                                   (Broccoli, fresh/frozen, cooked). Raw broccoli is
+  240 | on estimated ingredient percentages. For example,                              10.8% solids (based on moisture data from
+
+--- lines 242-246 ---
+  242 | 
+  243 | 
+  244 | USDA’s Food Data Central) on average and TDS              In the current study, lead and cadmium expo-
+  245 | cooked broccoli is 7.4% solids on average, so the      sures were estimated for infants 0–11 months who
+  246 | ratio of solids in the NHANES/WWEIA ingredi-           did not consume human milk (n = 316, represent-
+
+--- lines 246-250 ---
+  246 | ratio of solids in the NHANES/WWEIA ingredi-           did not consume human milk (n = 316, represent-
+  247 | ent to that in the TDS food is 1.5 raw broccoli:       ing about half of the U.S. infant population)
+  248 | 1 cooked broccoli leading to an adjustment factor      because TDS does not measure contaminant con-
+  249 | of 1.5 for mapping purposes.                           centrations in human milk and NHANES/
+  250 |    The mapping of NHANES/WWEIA foods to                WWEIA does not quantify intakes of human
+
+--- lines 254-258 ---
+  254 | most up-to-date mapping to TDS foods and can           relatively low amounts of solid foods (Hamner
+  255 | download the mapping data.                             et al. 2017; Karmaus et al. 2017).
+  256 |                                                           The estimated lead and cadmium dietary expo-
+  257 |                                                        sures for infants and children were compared
+  258 | Estimation of infants’ and children’s lead and
+
+--- lines 256-260 ---
+  256 |                                                           The estimated lead and cadmium dietary expo-
+  257 |                                                        sures for infants and children were compared
+  258 | Estimation of infants’ and children’s lead and
+  259 |                                                        with FDA’s IRL of 2.2 µg/day for young children’s
+  260 | cadmium dietary exposures
+
+--- lines 258-262 ---
+  258 | Estimation of infants’ and children’s lead and
+  259 |                                                        with FDA’s IRL of 2.2 µg/day for young children’s
+  260 | cadmium dietary exposures
+  261 |                                                        exposures to dietary lead (Flannery and Middleton
+  262 | Mean daily exposures to lead and cadmium for           2022) and FDA’s cadmium TRV range of 0.21–
+
+--- lines 259-263 ---
+  259 |                                                        with FDA’s IRL of 2.2 µg/day for young children’s
+  260 | cadmium dietary exposures
+  261 |                                                        exposures to dietary lead (Flannery and Middleton
+  262 | Mean daily exposures to lead and cadmium for           2022) and FDA’s cadmium TRV range of 0.21–
+  263 | each NHANES/WWEIA respondent 0–6 years                 0.36 µg/kg body weight/day (Schaefer et al. 2023).
+
+--- lines 260-264 ---
+  260 | cadmium dietary exposures
+  261 |                                                        exposures to dietary lead (Flannery and Middleton
+  262 | Mean daily exposures to lead and cadmium for           2022) and FDA’s cadmium TRV range of 0.21–
+  263 | each NHANES/WWEIA respondent 0–6 years                 0.36 µg/kg body weight/day (Schaefer et al. 2023).
+  264 | were estimated as the sum of exposures to lead,
+
+--- lines 262-266 ---
+  262 | Mean daily exposures to lead and cadmium for           2022) and FDA’s cadmium TRV range of 0.21–
+  263 | each NHANES/WWEIA respondent 0–6 years                 0.36 µg/kg body weight/day (Schaefer et al. 2023).
+  264 | were estimated as the sum of exposures to lead,
+  265 | and to cadmium, from each food consumed,               Results
+  266 | which were in turn estimated as the product of
+
+--- lines 263-267 ---
+  263 | each NHANES/WWEIA respondent 0–6 years                 0.36 µg/kg body weight/day (Schaefer et al. 2023).
+  264 | were estimated as the sum of exposures to lead,
+  265 | and to cadmium, from each food consumed,               Results
+  266 | which were in turn estimated as the product of
+  267 | the average daily amount of food consumed and          Lead in food
+
+--- lines 265-269 ---
+  265 | and to cadmium, from each food consumed,               Results
+  266 | which were in turn estimated as the product of
+  267 | the average daily amount of food consumed and          Lead in food
+  268 | the contaminant concentration (using hybrid,           Among the 3276 TDS samples analyzed, 2801
+  269 | lower bound and upper bound means). Exposures          (86%) had lead levels below the reporting limit
+
+--- lines 267-271 ---
+  267 | the average daily amount of food consumed and          Lead in food
+  268 | the contaminant concentration (using hybrid,           Among the 3276 TDS samples analyzed, 2801
+  269 | lower bound and upper bound means). Exposures          (86%) had lead levels below the reporting limit
+  270 | in units of µg/day and µg/kg body weight (as           (RL). Lead concentrations were below the RL
+  271 | measured)/day were estimated for each respon-          (not detected) in all samples of 194 (63%) of the
+
+--- lines 268-272 ---
+  268 | the contaminant concentration (using hybrid,           Among the 3276 TDS samples analyzed, 2801
+  269 | lower bound and upper bound means). Exposures          (86%) had lead levels below the reporting limit
+  270 | in units of µg/day and µg/kg body weight (as           (RL). Lead concentrations were below the RL
+  271 | measured)/day were estimated for each respon-          (not detected) in all samples of 194 (63%) of the
+  272 | dent. We used an exposure assessment software          307 foods. Lead concentrations were above the
+
+--- lines 270-274 ---
+  270 | in units of µg/day and µg/kg body weight (as           (RL). Lead concentrations were below the RL
+  271 | measured)/day were estimated for each respon-          (not detected) in all samples of 194 (63%) of the
+  272 | dent. We used an exposure assessment software          307 foods. Lead concentrations were above the
+  273 | package, the Foods Analysis and Residue                RL in every sample for 24 (8%) foods; these
+  274 | Evaluation (FARE) Program (Exponent, Inc. 2023)        foods included chocolate-containing foods (e.g.
+
+--- lines 276-280 ---
+  276 | food intake by the consumer’s body weight              ies and chocolate syrup), honey oat ring cereal,
+  277 | reported in NHANES/WWEIA before calculation            processed baby foods, salad dressing and more.
+  278 | of the population intake means and percentiles.        Foods with the highest hybrid mean lead concen-
+  279 | Mean and upper level (90th percentile) two-day         trations (consumed by infants and children)
+  280 | average exposures were estimated for infants           include baby food sweet potatoes (21 µg/kg), baby
+
+--- lines 277-281 ---
+  277 | reported in NHANES/WWEIA before calculation            processed baby foods, salad dressing and more.
+  278 | of the population intake means and percentiles.        Foods with the highest hybrid mean lead concen-
+  279 | Mean and upper level (90th percentile) two-day         trations (consumed by infants and children)
+  280 | average exposures were estimated for infants           include baby food sweet potatoes (21 µg/kg), baby
+  281 | 0–11 months (n = 316) and children 1–6 years           food teething biscuits (18 µg/kg), crème-filled
+
+--- lines 283-287 ---
+  283 | recalls administered over each of the two              (13 µg/kg), low-calorie ranch dressing (13 µg/kg),
+  284 | non-consecutive NHANES/WWEIA survey days               barbecue sauce (11 µg/kg), raisins (10 µg/kg) and
+  285 | were used in the analyses (CDC 2015; USDA              chocolate syrup (9 µg/kg) (Figure 1). Baking pow-
+  286 | 2022b). Because NHANES does not provide                der (164 µg/kg, one sample) and cocoa powder
+  287 | information on the region of residence, all expo-      (63 µg/kg, one sample) also ranked high.
+
+--- lines 284-288 ---
+  284 | non-consecutive NHANES/WWEIA survey days               barbecue sauce (11 µg/kg), raisins (10 µg/kg) and
+  285 | were used in the analyses (CDC 2015; USDA              chocolate syrup (9 µg/kg) (Figure 1). Baking pow-
+  286 | 2022b). Because NHANES does not provide                der (164 µg/kg, one sample) and cocoa powder
+  287 | information on the region of residence, all expo-      (63 µg/kg, one sample) also ranked high.
+  288 | sure estimates were generated for total U.S. pop-
+
+--- lines 288-292 ---
+  288 | sure estimates were generated for total U.S. pop-
+  289 | ulations rather than regional populations. Food
+  290 |                                                        Cadmium in food
+  291 | group contributions to lead and cadmium expo-
+  292 | sures were calculated based on the estimated           Among the 3276 samples analyzed, 1280 (39%)
