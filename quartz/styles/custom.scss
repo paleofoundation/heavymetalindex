@@ -342,6 +342,120 @@ article tbody td > code:only-child {
   color: var(--dark);
 }
 
+/* Evidence tables keep source traceability without letting long source slugs
+   determine the layout width. The transformer compacts source/citation cells
+   to numbered links and writes the full titles into the legend below. */
+
+body[data-slug^="products/"] #quartz-root > #quartz-body > .center,
+body[data-slug^="ingredients/"] #quartz-root > #quartz-body > .center,
+body[data-slug^="metals/"] #quartz-root > #quartz-body > .center {
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+}
+
+article .table-container {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+article .table-container > table {
+  margin: 0.5rem 0 1.5rem;
+  padding: 0;
+}
+
+article .table-container:has(> table.hmi-evidence-table) {
+  margin: 0.5rem 0 0;
+}
+
+article table.hmi-evidence-table {
+  table-layout: auto;
+}
+
+article table.hmi-evidence-table th,
+article table.hmi-evidence-table td {
+  min-width: 3.25rem;
+  overflow-wrap: anywhere;
+}
+
+article table.hmi-evidence-table .hmi-evidence-table__source-header,
+article table.hmi-evidence-table .hmi-evidence-table__source-cell {
+  max-width: 4.75rem;
+  min-width: 3.5rem;
+  text-align: left;
+  white-space: nowrap;
+  width: 4rem;
+}
+
+article table a.hmi-compact-citation,
+article .hmi-table-source-legend a.hmi-compact-citation {
+  align-items: center;
+  background: color-mix(in srgb, var(--secondary) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--secondary) 28%, transparent);
+  border-radius: var(--radius-xs);
+  color: var(--secondary);
+  display: inline-flex;
+  font-family: var(--codeFont);
+  font-size: 0.72rem;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.1;
+  min-width: 1.55rem;
+  padding: 0.12rem 0.28rem;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+article table a.hmi-compact-citation:hover,
+article .hmi-table-source-legend a.hmi-compact-citation:hover {
+  background: color-mix(in srgb, var(--secondary) 13%, transparent);
+  border-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+}
+
+article .hmi-table-source-legend {
+  border-top: 1px solid var(--lightgray);
+  color: var(--gray);
+  font-size: 0.76rem;
+  line-height: 1.45;
+  margin: -0.75rem 0 1.5rem;
+  overflow-wrap: anywhere;
+  padding-top: 0.55rem;
+}
+
+article .hmi-table-source-legend__label {
+  color: var(--darkgray);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  article .table-container > table {
+    display: table;
+  }
+
+  article .table-container > table.hmi-evidence-table th,
+  article .table-container > table.hmi-evidence-table td {
+    min-width: 6rem;
+  }
+
+  article
+    .table-container
+    > table.hmi-evidence-table
+    .hmi-evidence-table__source-header,
+  article
+    .table-container
+    > table.hmi-evidence-table
+    .hmi-evidence-table__source-cell {
+    max-width: 4.25rem;
+    min-width: 3.25rem;
+    width: 3.75rem;
+  }
+}
+
 /* -----------------------------------------------------------
    Citation popover — Vector 2022 source-preview pattern
 
