@@ -1,6 +1,6 @@
 # Reports Ingest Log
 
-Updated: 2026-05-02
+Updated: 2026-05-04
 
 This folder records locally held report PDFs supplied under `raw/reports/`. The PDFs themselves remain local raw evidence and are not committed because `raw/` is intentionally gitignored. Source pages in `wiki/sources/` carry the citable metadata and SHA-256 verification hashes.
 
@@ -47,3 +47,12 @@ These two files are not duplicate bytes and should not be given independent evid
 | `FDA_CloserToZero_Lead_ActionLevels_2025.pdf` | FDA guidance webpage PDF/snapshot, used to verify official final status, docket, download link, and related FDA links | 3 | `d349ed5cc116261df02ba4c0b6f90e77cb6b9a5ac83aec71120234c588ebd40c` |
 
 The canonical wiki source page is [[sources/fda-ctz-Pb-babyfood-2025]]. The canonical regulation hub created for product pages is [[regulations/fda2025-lead-processed-baby-foods]].
+
+## WHO GEMS/Food Contaminants Heavy-Metal Exports
+
+These CSV exports are source-data artifacts for [[sources/who-gemsfood-heavy-metal-contaminants]]. They remain local raw evidence under `raw/reports/gemsfood-contaminants/`; the tracked manifest is `data/evidence/who_gemsfood_heavy_metals_raw_exports.csv`.
+
+- Exports preserved: 193 CSV files.
+- Normalized rows: 2,109,234 rows in `raw/reports/gemsfood-contaminants/normalized/who_gemsfood_heavy_metals_samples.csv`.
+- Summary rows: 14,027 rows in `data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`.
+- Manifest: `data/evidence/who_gemsfood_heavy_metals_raw_exports.csv` records query, row count, access date, raw path, and SHA-256 for every export.

@@ -31,6 +31,8 @@ and Category 1 pilot coverage registers.
 - `category1_formula_special_survey_samples.csv`: parsed FDA sample-level
   infant-formula special-survey rows with locked-row, bridge, and out-of-scope
   mapping notes.
+- `who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`: lower-bound per-food/per-contaminant summaries derived from the normalized GEMS/Food exports.
+- `who_gemsfood_heavy_metals_raw_exports.csv`: raw export manifest with access dates, row counts, and SHA-256 hashes.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.

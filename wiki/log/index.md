@@ -9,19 +9,19 @@ This is the public archive of Heavy Metal Index ingests, lints, corrections, sch
 
 Corrections should be added as new correction entries. Existing entries are retained for historical context instead of being silently deleted.
 
-- Total entries: 47
-- Ledger SHA-256: `def76b87d80b1e51c32e0ba5572df3a003b2cd53174a2c191f19c49e6cab665e`
+- Total entries: 48
+- Ledger SHA-256: `db8dfb7560d66ad787c9d4dfd71e66a8e08444cf3a78edf36d96c4874cb7af17`
 - Complete readable archive: [[log/all|all entries]]
 - Public machine-readable ledger copy: [[log/records|records JSONL]]
 
 ## Archive By Month
 
-- [[log/2026-05|May 2026]] - 7 entries
+- [[log/2026-05|May 2026]] - 8 entries
 - [[log/2026-04|April 2026]] - 40 entries
 
 ## Archive By Year
 
-- [[log/2026|2026]] - 47 entries
+- [[log/2026|2026]] - 48 entries
 
 ## Latest Entries
 
@@ -34,6 +34,15 @@ Entry ID: `2026-05-04-lint-2026-05-04-broad-lint-pass`
 Pages touched: [[lint/2026-05-04-broad-lint-pass]]
 
 Notes: First broad lint pass since the 2026-05-03 mitigation and Codex CXC 81-2022 ingest. Findings: 4 stale pending claims about now-ingested Codex CXS 193-1995 and CXC 81-2022 (synthesis.md lines 50 and 54; ingredients/cocoa.md line 74; regulations/jecfa-cadmium-ptmi.md TBD); 543 broken wikilinks resolving to 228 unique missing targets (the majority intentional backlog markers per the 2026-04-27 convention but with three unusually high-frequency missing sources - `sources/fera2014-fsa-metals-infant-foods-formula` at 141 references, `sources/bair2022-heavy-metals-infant-toddler-foods` at 34, `sources/price2023-baby-food-lead-biokinetic-models` at 24 - that warrant cite-key audit and migration); 14 anti-pattern `[[raw/...]]` wikilinks in log entries that should be plain inline references; 2 orphans (methodology/corpus-genesis-2026-04 and sources/efsa-food-safety-research-needs-2030); only log.md missing required frontmatter (correct exemption); zero `contamination_profile` metal sub-blocks populated across all 15 ingredient pages, all on the 8-metal schema. Action priority list with 8 items in the report. Recommended next sources via WebFetch pathway: Codex CXC 49-2001, FDA 2023 apple juice iAs action level, FDA 21 CFR 165.110 bottled water lead, EU 2023/915 (already ingested per log 2026-05-02 - verify), Codex CCCF18 documents.
+
+<a id="2026-05-04-ingest-who-gemsfood-heavy-metal-contaminants"></a>
+
+### [2026-05-04] ingest | who-gemsfood-heavy-metal-contaminants - WHO GEMS/Food heavy-metal contaminant exports
+
+Entry ID: `2026-05-04-ingest-who-gemsfood-heavy-metal-contaminants`
+
+Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[sources/index]], [[log]]
+Notes: Preserved 193 WHO GEMS/Food CSV export files under `raw/reports/gemsfood-contaminants/`; generated 2,109,234 normalized row-level records and 14,027 lower-bound summary rows. Original result text, units, LOD/LOQ, basis, QA, WHO region, food identifiers, and serial numbers are retained; no brand claims, HMTc threshold claims, or regulatory exceedance claims were added.
 
 <a id="2026-05-03-schema-governance-pages-publication"></a>
 
@@ -109,12 +118,3 @@ Entry ID: `2026-04-29-ingest-lgc2003-nickel-piercing-post-assemblies`
 
 Pages touched: [[sources/lgc2003-nickel-piercing-post-assemblies]], [[metals/nickel]], [[products/piercing-post-assemblies]], [[regulations/eu-nickel-directive-94-27-ec]], [[testing/en-1811-nickel-release]], [[raw/Digest/INGESTED]]
 Notes: Critical ingest of `nickel_en.pdf`, preserving the exact paper title and exact source table headings on the rendered source page. Connected the report to nickel, the actual product category, the Nickel Directive, and EN 1811, while explicitly marking it as context-only for Category 1 food occurrence because it measures dermal/contact-material nickel release rather than food concentrations.
-
-<a id="2026-04-29-lint-fda2026-infant-formula-toxic-elements-special-survey"></a>
-
-### [2026-04-29] lint | fda2026-infant-formula-toxic-elements-special-survey - source-table headings surfaced
-
-Entry ID: `2026-04-29-lint-fda2026-infant-formula-toxic-elements-special-survey`
-
-Pages touched: [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
-Notes: Added an explicit FDA source-table section so the exact table heading "Analytical Results for Arsenic in Infant Formula (FY2023-2025)" is visible on the rendered page. Added a compact arsenic characterization table showing total arsenic (`tAs`), prepared-for-feeding ppb basis, direct Category 1 rows, context-only rows, and Evidence Fitness treatment.

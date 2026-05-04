@@ -2,7 +2,7 @@
 title: Sources
 description: Per-source summary pages covering the peer-reviewed and regulatory literature cited elsewhere in the wiki.
 audience: [regulator, educator, researcher]
-updated: 2026-05-03
+updated: 2026-05-04
 ---
 
 Each source cited in the Heavy Metal Index has its own page. Source pages record bibliographic metadata, evidence tier, methods, key quantitative results, and the wiki pages that cite the source.
@@ -26,6 +26,10 @@ The folder list below is the public source catalog. For faster lookup, use searc
 - [[sources/milani2023-trace-elements-soy-based-beverages]]
 - [[sources/damato2026-inorganic-arsenic-rice-based-beverages]]
 - [[sources/marques2021-trace-elements-milks-plant-based-drinks]]
+
+## WHO / International
+
+- [[sources/who-gemsfood-heavy-metal-contaminants]] - WHO GEMS/Food Contaminants database heavy-metal CSV exports, with normalized row-level and summary evidence files.
 
 ## FDA / U.S. Government
 
