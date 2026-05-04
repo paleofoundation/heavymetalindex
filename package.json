@@ -13,7 +13,7 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "prebuild": "node tools/audit-product-source-routing.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs",
+    "prebuild": "node tools/logs/build-log-archives.mjs && node tools/audit-product-source-routing.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs",
     "build": "./quartz/bootstrap-cli.mjs build -d wiki -o public",
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",
     "check": "tsc --noEmit",
@@ -41,7 +41,8 @@
     "workbench": "node tools/standards-workbench/server.mjs",
     "release:wiki": "npm test && npm run check && npm run build",
     "publish:wiki": "npm run release:wiki && npx vercel@latest --prod --yes",
-    "verify:live": "node tools/verify-live-pages.mjs"
+    "verify:live": "node tools/verify-live-pages.mjs",
+    "logs:archives": "node tools/logs/build-log-archives.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",

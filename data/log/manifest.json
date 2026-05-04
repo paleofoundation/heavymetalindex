@@ -1,0 +1,12 @@
+{
+  "entries": 47,
+  "latest_date": "2026-05-04",
+  "ledger_sha256": "def76b87d80b1e51c32e0ba5572df3a003b2cd53174a2c191f19c49e6cab665e",
+  "months": {
+    "2026-05": 7,
+    "2026-04": 40
+  },
+  "years": {
+    "2026": 47
+  }
+}
