@@ -45,7 +45,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 | Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
 | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | No federal product-specific limit loaded in this crosswalk. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+| [[metals/lead]] (Pb) | No federal product-specific limit loaded in this crosswalk. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/fsa2016-infant-food-formula-metals-survey]] |
 
 <!-- END: hmi-product-crosswalk -->
 

@@ -174,4 +174,4 @@ For the Category 1 build, this source strengthens the nickel page by preserving 
 - [[products/piercing-post-assemblies]]
 - [[regulations/eu-nickel-directive-94-27-ec]]
 - [[testing/en-1811-nickel-release]]
-- [[raw/Digest/INGESTED]]
+- `raw/Digest/INGESTED.md`

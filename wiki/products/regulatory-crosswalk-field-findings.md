@@ -47,7 +47,7 @@ High-signal rows after the EU 2023/915 ingest:
 ## Source And Regulation Nodes
 
 - [[sources/fda2026-infant-formula-product-testing-results]]
-- [[sources/fera2014-fsa-metals-infant-foods-formula]]
+- [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[regulations/fda2025-lead-processed-baby-foods]]
 - [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]]
 - [[regulations/fda2023-inorganic-arsenic-apple-juice]]

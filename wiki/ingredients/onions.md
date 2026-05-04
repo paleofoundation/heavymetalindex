@@ -87,7 +87,7 @@ sources: 2
 
 # Onions
 
-FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fera2014-fsa-metals-infant-foods-formula]]
+FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 ## Routing
 
@@ -105,4 +105,4 @@ FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix 
 
 
 - [[sources/fda2022-tds-elements-fy2018-fy2020]]
-- [[sources/fera2014-fsa-metals-infant-foods-formula]]
+- [[sources/fsa2016-infant-food-formula-metals-survey]]

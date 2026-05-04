@@ -164,4 +164,4 @@ Microbiome: No direct microbiome endpoint.
 - [[products/infant-formula-rtf-liquid-soy-based]]
 - [[products/infant-formula-concentrated-liquid-non-soy]]
 - [[products/infant-formula-concentrated-liquid-soy-based]]
-- [[raw/Digest/INGESTED]]
+- `raw/Digest/INGESTED.md`

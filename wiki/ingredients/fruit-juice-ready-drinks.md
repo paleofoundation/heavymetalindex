@@ -73,7 +73,7 @@ sources: 1
 
 # Fruit juice ready drinks
 
-FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fera2014-fsa-metals-infant-foods-formula]]
+FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 ## Routing
 
@@ -85,4 +85,4 @@ The machine-readable contamination profile is `in_progress`. Ingredient-level va
 
 ## Sources
 
-- [[sources/fera2014-fsa-metals-infant-foods-formula]]
+- [[sources/fsa2016-infant-food-formula-metals-survey]]

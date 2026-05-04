@@ -8,7 +8,7 @@ study_count: 243
 
 # Multi-metal and Thematic Primary Literature Catalog
 
-This page is a citable index of primary research articles related to multimetal in food, supply chain, exposure, biomarkers, and remediation. The articles are held privately under raw/studies/ (gitignored per the licensing model documented in [[raw/README]]); each entry below provides the document filename, an inferred title from the filename, and the DOI where extractable. Source pages with full provenance metadata, key-numbers extraction, and substantive synthesis are deferred to a future per-study deep-ingestion wave; this catalog establishes the corpus exists and makes each study citable from the metals and ingredients pages.
+This page is a citable index of primary research articles related to multimetal in food, supply chain, exposure, biomarkers, and remediation. The articles are held privately under raw/studies/ (gitignored per the licensing model documented in `raw/README.md`); each entry below provides the document filename, an inferred title from the filename, and the DOI where extractable. Source pages with full provenance metadata, key-numbers extraction, and substantive synthesis are deferred to a future per-study deep-ingestion wave; this catalog establishes the corpus exists and makes each study citable from the metals and ingredients pages.
 
 For curated regulatory, advisory, and textbook sources see the source pages under wiki/sources/. The articles cataloged here are primary research literature contributing to the empirical base underlying the regulatory documents.
 

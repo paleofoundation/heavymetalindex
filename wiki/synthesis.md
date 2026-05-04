@@ -47,11 +47,9 @@ To resolve before the cadmium synthesis is written:
 
 Raised during ingest of [[sources/codex-cccf17-2024|Codex CCCF17 2024]] on 2026-04-24.
 
-CCCF17 is a session report, not a standards text. The operative matrix-level Codex cadmium MLs live in Codex Standard CXS 193-1995 (General Standard for Contaminants and Toxins in Food and Feed), which is not in the current corpus. Until CXS 193-1995 is ingested, the wiki cannot state specific Codex ML values for rice, cereals, leafy vegetables, edible offal, bivalve molluscs, or other matrices. CXC 81-2022 (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans) is also pending ingest and is the precedent for the newly-initiated broader cadmium CoP work. The regulation page [[regulations/codex-cadmium-mls]] flags both as pending.
+CCCF17 is a session report, not a standards text. The operative matrix-level Codex cadmium MLs live in Codex Standard [[sources/codex-cxs-193-1995|CXS 193-1995]] (General Standard for Contaminants and Toxins in Food and Feed), ingested on 2026-04-30 with the full matrix-level Cd ML table transcribed (rice 0.4 mg/kg polished, cocoa powder 2.0 mg/kg, dark chocolate ≥70 percent solids 0.9 mg/kg, leafy vegetables 0.2 mg/kg, marine bivalve molluscs 2 mg/kg, and others). The cocoa-specific Code of Practice [[sources/codex-cxc-81-2022|CXC 81-2022]] (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans) was ingested on 2026-05-03 directly from FAO and supplies the operative agronomic, processing, and partial formulation cocoa-cadmium mitigation specifics referenced from the [[mitigation/index|mitigation strategy pages]]. Codex CXS 193-1995 was ingested via WebFetch from FAO's Codex Standards web service; CXC 81-2022 was ingested via the same pathway with the full text transcribed into the [[sources/codex-cxc-81-2022|source page]].
 
-To resolve:
-- Ingest CXS 193-1995 and its current amendments for the full matrix-level Codex Cd ML table.
-- Ingest CXC 81-2022 for the Cocoa Beans Code of Practice, which aligns with the JECFA 91st meeting cocoa finding already captured in [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]].
+Resolution status: closed for both CXS 193-1995 and CXC 81-2022. The remaining open items in this section are the EFSA 2011 reaffirming statement (raw PDF still pending) and historical JECFA derivation documents.
 
 To resolve before the cadmium synthesis is written:
 - Ingest the EFSA 2011 reaffirming statement (pending raw PDF availability).

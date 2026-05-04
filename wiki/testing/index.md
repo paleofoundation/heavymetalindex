@@ -12,9 +12,9 @@ _Stub. This section is a planned home for analytical-method, detection-limit, an
 
 Planned topics:
 
+- [[testing/icp-ms]] — Inductively coupled plasma mass spectrometry, the dominant trace-metal analytical method underlying nearly all post-2000 food-occurrence datasets cited in this wiki.
 - [[testing/en-1811-nickel-release]] — nickel release from skin-contact articles and piercing post assemblies, reported as µg/cm2/week rather than food ppb.
-- ICP-MS methods for heavy metals in food matrices, including detection limits and matrix interferences.
-- HPLC-ICP-MS arsenic speciation methods (separating iAs from organic As species).
+- HPLC-ICP-MS arsenic speciation methods (separating iAs from organic As species) — covered as a hyphenated configuration on the ICP-MS page; a dedicated speciation page is planned.
 - AOAC and EPA validated methods commonly cited in regulatory documents.
 - Round-robin and proficiency-testing programs (FAPAS and others) that bound inter-laboratory variability.
 - Field-sampling and homogenization considerations specific to heavy-metal occurrence surveys.

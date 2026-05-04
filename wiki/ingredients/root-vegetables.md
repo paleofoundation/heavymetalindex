@@ -73,7 +73,7 @@ sources: 1
 
 # Root vegetables
 
-FSA/Fera measured this ingredient or a closely matching non-infant-specific food composite in the FS102048 survey. Exact concentrations remain in progress until Table 6 is parsed into structured ingredient rows with quantitation flags preserved. [[sources/fera2014-fsa-metals-infant-foods-formula]]
+FSA/Fera measured this ingredient or a closely matching non-infant-specific food composite in the FS102048 survey. Exact concentrations remain in progress until Table 6 is parsed into structured ingredient rows with quantitation flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 ## Routing
 
@@ -85,4 +85,4 @@ The machine-readable contamination profile is `in_progress`. Ingredient-level va
 
 ## Sources
 
-- [[sources/fera2014-fsa-metals-infant-foods-formula]]
+- [[sources/fsa2016-infant-food-formula-metals-survey]]
