@@ -34,6 +34,8 @@ If you contact the Paleo Foundation about corrections, licensing, media, regulat
 
 If you use Ask the Index, the site processes the question you submit, the current page context, retrieved Heavy Metal Index excerpts, generated answers, cited source links, and technical request metadata. The assistant is designed for public-reference questions. Do not submit confidential, private, regulated, or sensitive information through the assistant.
 
+The public assistant is separate from the private analytical workbench described on [[analytical-workbench]]. Confidential lot data, supplier scorecards, internal specifications, private certificates of analysis, and release or escalation workflows do not belong in public Ask the Index.
+
 ### Licensing and Legal Data
 
 For commercial licensing, legal process, or regulatory inquiries, the Foundation may process business contact information, matter details, negotiation records, contract records, and related communications.

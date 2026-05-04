@@ -24,6 +24,8 @@ Ask the Index is a site-grounded reference assistant. It is designed to answer q
 
 Assistant answers may be incomplete, may omit relevant pages, and may reflect limitations in the current corpus. Users should verify important claims against the linked pages and underlying primary sources. Do not submit confidential, private, regulated, or sensitive information through the assistant.
 
+Confidential analytical work belongs in the separate [[analytical-workbench]] context rather than in the public assistant. Brand-specific records, supplier benchmarking, lot-level decisions, private certificates of analysis, and internal standards calculations are outside the public Ask the Index workflow.
+
 ## Intellectual Property
 
 The Paleo Foundation owns or controls the Heavy Metal Index compilation, page text, editorial selection, organization, metadata, source annotations, and database structure, except where third-party materials are identified. Third-party source documents, names, marks, and excerpts remain the property of their respective owners.

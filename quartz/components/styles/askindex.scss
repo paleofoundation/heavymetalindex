@@ -83,6 +83,111 @@
   margin-top: 0.2rem;
 }
 
+.ask-index-mode-strip,
+.ask-index-control-panel {
+  border-bottom: 1px solid var(--lightgray);
+  padding: 0.9rem 1.1rem;
+}
+
+.ask-index-mode-strip {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ask-index-mode-card {
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-sm);
+  color: var(--darkgray);
+  display: block;
+  min-height: 5.25rem;
+  padding: 0.8rem 0.85rem;
+  text-decoration: none;
+}
+
+.ask-index-mode-card.active {
+  background: color-mix(in srgb, var(--secondary) 7%, var(--light));
+  border-color: color-mix(in srgb, var(--secondary) 20%, var(--lightgray));
+}
+
+.ask-index-mode-card:hover {
+  border-color: var(--secondary);
+}
+
+.ask-index-mode-label {
+  color: var(--dark);
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.ask-index-mode-card p {
+  color: var(--gray);
+  font-size: 0.76rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.ask-index-control-panel {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.ask-index-control-group {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.ask-index-control-label {
+  color: var(--gray);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ask-index-verb-toggle,
+.ask-index-role-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.ask-index-verb-toggle button,
+.ask-index-role-grid button {
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-sm);
+  color: var(--darkgray);
+  cursor: pointer;
+  font: inherit;
+  min-height: 2.1rem;
+  padding: 0.38rem 0.65rem;
+}
+
+.ask-index-verb-toggle button {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.ask-index-role-grid button {
+  font-size: 0.78rem;
+}
+
+.ask-index-verb-toggle button.active,
+.ask-index-role-grid button.active {
+  background: color-mix(in srgb, var(--secondary) 9%, var(--light));
+  border-color: color-mix(in srgb, var(--secondary) 22%, var(--lightgray));
+  color: var(--secondary);
+}
+
+.ask-index-verb-toggle button:hover,
+.ask-index-role-grid button:hover {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}
+
 .ask-index-close {
   align-items: center;
   background: transparent;
@@ -127,6 +232,19 @@
   margin-bottom: 0;
 }
 
+.ask-index-inline-tag {
+  background: color-mix(in srgb, var(--secondary) 8%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--secondary) 18%, var(--lightgray));
+  border-radius: 999px;
+  color: var(--secondary);
+  display: inline-flex;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-right: 0.35rem;
+  min-height: 1.5rem;
+  padding: 0.08rem 0.45rem;
+}
+
 .ask-index-message.user {
   background: color-mix(in srgb, var(--secondary) 9%, var(--light));
   border: 1px solid color-mix(in srgb, var(--secondary) 22%, var(--lightgray));
@@ -146,6 +264,94 @@
   max-width: max-content;
 }
 
+.ask-index-summary {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.ask-index-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.ask-index-badge {
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  color: var(--darkgray);
+  display: inline-flex;
+  font-size: 0.72rem;
+  font-weight: 700;
+  min-height: 1.55rem;
+  padding: 0.08rem 0.5rem;
+}
+
+.ask-index-badge.status-supported {
+  background: color-mix(in srgb, #2e7d32 10%, var(--light));
+  border-color: color-mix(in srgb, #2e7d32 24%, var(--lightgray));
+  color: #2e7d32;
+}
+
+.ask-index-badge.status-limited,
+.ask-index-badge.confidence-low {
+  background: color-mix(in srgb, #8d6e63 9%, var(--light));
+  border-color: color-mix(in srgb, #8d6e63 22%, var(--lightgray));
+  color: #7b5d54;
+}
+
+.ask-index-badge.status-blocked,
+.ask-index-badge.status-private_mode_required,
+.ask-index-badge.confidence-insufficient {
+  background: color-mix(in srgb, #9c2f4c 9%, var(--light));
+  border-color: color-mix(in srgb, #9c2f4c 22%, var(--lightgray));
+  color: #8a2843;
+}
+
+.ask-index-badge.status-non_comparable,
+.ask-index-badge.confidence-medium {
+  background: color-mix(in srgb, #856404 9%, var(--light));
+  border-color: color-mix(in srgb, #856404 22%, var(--lightgray));
+  color: #7a5d00;
+}
+
+.ask-index-badge.confidence-high {
+  background: color-mix(in srgb, var(--secondary) 9%, var(--light));
+  border-color: color-mix(in srgb, var(--secondary) 22%, var(--lightgray));
+  color: var(--secondary);
+}
+
+.ask-index-summary-grid {
+  display: grid;
+  gap: 0.65rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ask-index-summary-field {
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-sm);
+  padding: 0.7rem;
+}
+
+.ask-index-summary-label {
+  color: var(--gray);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+}
+
+.ask-index-summary-value {
+  color: var(--darkgray);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.ask-index-summary-value p {
+  margin: 0 0 0.45rem;
+}
+
 .ask-index-cite {
   font-family: var(--codeFont);
   font-size: 0.85em;
@@ -159,6 +365,10 @@
   font-size: 0.82rem;
   margin-top: 0.7rem;
   padding-left: 0.7rem;
+}
+
+.ask-index-limits p {
+  margin: 0 0 0.45rem;
 }
 
 .ask-index-sources {
@@ -303,5 +513,10 @@
 
   .ask-index-actions button {
     width: 100%;
+  }
+
+  .ask-index-mode-strip,
+  .ask-index-summary-grid {
+    grid-template-columns: 1fr;
   }
 }

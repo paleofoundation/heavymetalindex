@@ -15,6 +15,10 @@ To report a factual error, a broken provenance link, an outdated regulatory valu
 
 For commercial licensing of Heavy Metal Index content, including bulk extraction, derivative-works arrangements, and enterprise access, correspondence goes to the licensing address published on the Paleo Foundation contact page.
 
+## Private analytical workbench
+
+For confidential analytical workflows, supplier or lot benchmarking, authenticated workbench access, or operational review that cannot be handled in the public assistant, use the same commercial or regulatory contact routes and identify the inquiry as an analytical workbench request.
+
 ## Media
 
 For press inquiries and interview requests, correspondence goes to the media address published on the Paleo Foundation contact page. The editorial team responds to fact-checking requests from journalists on a priority basis.

@@ -10,4 +10,5 @@ Supply-chain pages describe the paths by which heavy metals enter the food syste
 ## Supply-Chain Pages
 
 - [[supply-chain/aluminum-based-packaging]]
+- [[supply-chain/ingredient-supplier-evidence-workflow]]
 - [[supply-chain/soil-nickel-screening]]

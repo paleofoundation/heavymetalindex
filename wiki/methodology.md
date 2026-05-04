@@ -12,6 +12,10 @@ This page describes how the Heavy Metal Index is built. It is the first page sop
 
 The Heavy Metal Index is in pre-launch development. The methodology described below is the current operating policy for the live build. Audit results and some governance outputs will continue to expand before the site moves from preview to general availability, but the core ingest, inclusion, review, correction, and dispute rules are now public.
 
+## Ask modes
+
+The site's public assistant is a citation-backed reference interface rather than a confidential decision engine. The public and private assistant split, supported roles, and public answer rules are documented in [[methodology/ask-the-index-roles-and-modes]] and [[analytical-workbench]].
+
 ## Scope
 
 Coverage is scoped to lead, cadmium, inorganic and total arsenic, methylmercury and total mercury, nickel, aluminum, chromium, and tin, as these metals occur in food, food ingredients, supply-chain inputs (soil, water, fertilizers, equipment, packaging), remediation approaches, and governing regulatory instruments. Clinical metallomics in medicine, occupational exposure in industrial settings, and environmental exposure outside the food system are out of scope; a substantial portion of that material lives at [WikiBiome](https://wikibiome.com).
