@@ -2,14 +2,14 @@
 title: Contact
 description: How to contact the Heavy Metal Index editorial team.
 audience: [regulator, researcher, consumer, commercial]
-updated: 2026-04-24
+updated: 2026-05-03
 ---
 
 The Heavy Metal Index is operated by the [Paleo Foundation](https://paleofoundation.com), Cyprus.
 
 ## Corrections and editorial
 
-To report a factual error, a broken provenance link, an outdated regulatory value, or a missing source that should be considered for ingest, correspondence goes to the editorial address published on the Paleo Foundation contact page. A dedicated correction-submission form will be added to this page before general availability.
+To report a factual error, a broken provenance link, an outdated regulatory value, or a missing source that should be considered for ingest, correspondence goes to the editorial address published on the Paleo Foundation contact page. The correction workflow and suggested submission format are documented in [corrections-policy](/corrections-policy).
 
 ## Commercial licensing
 
@@ -22,3 +22,7 @@ For press inquiries and interview requests, correspondence goes to the media add
 ## Regulatory and legal
 
 For regulatory inquiries, legal process, and matters affecting the Paleo Foundation's programs, correspondence goes through the Paleo Foundation's published regulatory and legal contact channels.
+
+## Disputes
+
+If the issue is not a clear factual correction but a substantive disagreement with an Index interpretation, use the same public contact channel and identify the submission as a dispute. The review path is documented in [dispute-resolution-policy](/dispute-resolution-policy).

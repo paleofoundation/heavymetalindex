@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-03] schema | governance-pages-publication — public methodology and governance layer expanded
+Pages touched: [[methodology]], [[methodology/source-inclusion-protocol]], [[methodology/quality-assurance-audit-protocol]], [[editorial-standards]], [[editorial-review-and-sign-off]], [[conflict-of-interest-policy]], [[corrections-policy]], [[dispute-resolution-policy]], [[about]], [[contact]]
+Notes: Replaced the most visible public governance gaps with concrete pages for source inclusion, audit design, editorial review and sign-off, conflict handling, corrections, and disputes. The methodology page no longer points readers to future placeholders for the core operating rules; it now links to the current live governance set while still preserving the distinction between preview status and fully published audit results.
+
 ## [2026-05-03] schema | persistent-wiki-ingest-rule — compiled-wiki ingest contract for the live build
 Pages touched: [[methodology]], [[methodology/persistent-wiki-ingest-rule]], [[methodology/raw-reports-studies-ingest-workflow]], `CLAUDE.md`
 Notes: Converted the abstract "LLM wiki" pattern into an explicit Heavy Metal Index ingest rule tied to the current `heavymetalindex.com` build. The new contract makes the evidence register a first-class layer between raw files and public wiki pages, requires stub creation before routed evidence can attach, and defines product-page completion in terms of the standards matrix, measured-values ledger exports, and routing-audit visibility rather than treating local files or source-page stubs as completed ingest.

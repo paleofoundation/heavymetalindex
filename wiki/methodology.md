@@ -3,14 +3,14 @@ title: Methodology
 description: Selection, extraction, quality-assurance audit, error categorization, and correction procedures used in the Heavy Metal Index.
 audience: [regulator, educator, researcher]
 updated: 2026-05-03
-status: stub
+status: preview
 ---
 
 This page describes how the Heavy Metal Index is built. It is the first page sophisticated readers are expected to consult, and is maintained as a living document. Substantive changes to methodology are logged; the version history in git is the authoritative record.
 
 ## Current status
 
-The Heavy Metal Index is in pre-launch development. The methodology described below reflects the intended final state. Sections that remain under construction are marked as such. A publicly verifiable quality-assurance audit with error-rate statistics will precede the move from pre-launch to general availability.
+The Heavy Metal Index is in pre-launch development. The methodology described below is the current operating policy for the live build. Audit results and some governance outputs will continue to expand before the site moves from preview to general availability, but the core ingest, inclusion, review, correction, and dispute rules are now public.
 
 ## Scope
 
@@ -20,7 +20,7 @@ Coverage is scoped to lead, cadmium, inorganic and total arsenic, methylmercury 
 
 The corpus draws primarily from peer-reviewed journal literature (Tier A), supplemented by government and intergovernmental regulatory and scientific documents from the United States Food and Drug Administration, the European Food Safety Authority, the World Health Organization, the United States Environmental Protection Agency, and Codex Alimentarius (also Tier A). Industry white papers, non-governmental organization reports such as those from the Environmental Working Group and Healthy Babies Bright Futures, and reputable trade publications are admitted as Tier B with explicit attribution. News coverage and blog material are treated as Tier C; such material is used as a lead to verify against primary sources, not as evidence in its own right.
 
-A detailed inclusion-and-exclusion protocol with the full search strategy, database coverage, and handling of preprints, retractions, and duplicates is forthcoming and will be published before general availability.
+The detailed corpus-boundary and selection rules now live in [[methodology/source-inclusion-protocol]]. The April 2026 corpus assembly record remains documented in [[methodology/corpus-genesis-2026-04]].
 
 ## Evidence Fitness
 
@@ -83,7 +83,7 @@ A p90 candidate does not need to be U.S.-based. The defensibility requirement is
 
 ## Quality assurance
 
-A pre-launch audit will sample extracted records at a rate sufficient to produce published error-rate statistics before the site moves to general availability. Audit methodology, sample size, reviewer qualifications, error taxonomy, and threshold for launch are under development and will be documented on this page prior to the audit. Audit results and remediation actions will be public.
+A pre-general-availability audit protocol is now documented in [[methodology/quality-assurance-audit-protocol]]. Audit results and remediation actions will be published once that audit run is completed for the live preview build.
 
 After launch, ongoing quality assurance comprises: periodic re-sampling of published records; lint passes across the wiki detecting contradictions, stale claims, orphaned pages, missing cross-references, and evidence-tier imbalances; and a standing correction-reporting channel accessible from every page.
 
@@ -93,7 +93,7 @@ When an error is identified, the affected pages are corrected and the correction
 
 ## Human review
 
-A human review layer is a non-negotiable part of this project. Pure algorithmic extraction at scale has known failure modes that have been documented during the pipeline's development, including numeric hallucination, silent regulatory value substitution, and citation fabrication. The review process, the reviewer roster, the sign-off protocol, and the dispute-resolution procedure are under development and will be documented prior to launch.
+A human review layer is a non-negotiable part of this project. Pure algorithmic extraction at scale has known failure modes that have been documented during the pipeline's development, including numeric hallucination, silent regulatory value substitution, and citation fabrication. The public review model, sign-off boundaries, conflict posture, corrections workflow, and dispute process are documented in [[editorial-standards]], [[editorial-review-and-sign-off]], [[conflict-of-interest-policy]], [[corrections-policy]], and [[dispute-resolution-policy]].
 
 ## Licensing and access
 

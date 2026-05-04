@@ -1,13 +1,11 @@
 ---
 title: Editorial standards
 type: meta
-updated: 2026-04-26
+updated: 2026-05-03
 audience: [regulator, educator, consumer]
 ---
 
 This page describes who maintains Heavy Metal Index, how the index is governed, and the firewall between the index and the Paleo Foundation's Heavy Metal Tested & Certified (HMT&C) certification program. It is one of two pages a sophisticated reader is expected to consult before relying on the index for regulatory, legal, or commercial purposes; the other is [[methodology]].
-
-This page is a stub and will be expanded. The governance posture below is not aspirational; it is the working policy under which the index is being built. Sections marked stub will be expanded with names, dates, and procedural detail before the index transitions out of preview.
 
 ## Operator
 
@@ -37,19 +35,31 @@ Sixth, data gaps stay visible. When the Index has no approved evidence for a met
 
 ## Curators
 
-[Stub. To be expanded with named curators, qualifications, editorial roles, and the sign-off process for substantive entries.]
+The public review model is role-based. The Index separates corpus handling, deterministic extraction, synthesis review, public-use approval, and governance escalation so that no single automation step becomes equivalent to publication. The operational review boundaries and sign-off model are documented in [[editorial-review-and-sign-off]].
 
 ## Conflict of interest posture
 
-[Stub. To be expanded with the Foundation's policy on disclosing financial relationships, the procedure for handling entries where a curator has a potential conflict, and the recusal practice for HMT&C-related decisions.]
+The operator relationship between the Index and HMT&C is disclosed openly because it is the central structural conflict question. The public conflict posture, recusal triggers, and handling rules are documented in [[conflict-of-interest-policy]].
 
 ## Errors and corrections
 
-[Stub. To be expanded with: how to flag a suspected error (contact channel, submission format), how corrections are tracked (changelog convention, public record of changes), the version-history mechanism, and the timeline within which substantiated errors are corrected.]
+Heavy Metal Index treats corrections as part of the product rather than as quiet maintenance. Intake, severity triage, versioning, and public logging rules are documented in [[corrections-policy]].
 
 ## Disputes
 
-[Stub. To be expanded with the procedure for handling substantive disagreements with index claims, including who reviews disputes, how the review is documented, and whether contested entries carry visible flags during review.]
+Interpretive disputes are handled separately from routine factual corrections. Intake, review path, temporary visible flags, and outcome categories are documented in [[dispute-resolution-policy]].
+
+## Governing documents
+
+The public governance set for the current build is:
+
+- [[methodology]]
+- [[methodology/source-inclusion-protocol]]
+- [[methodology/quality-assurance-audit-protocol]]
+- [[editorial-review-and-sign-off]]
+- [[conflict-of-interest-policy]]
+- [[corrections-policy]]
+- [[dispute-resolution-policy]]
 
 ## Governing reference
 

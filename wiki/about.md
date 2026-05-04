@@ -2,7 +2,7 @@
 title: About
 description: About the Heavy Metal Index and the Paleo Foundation.
 audience: [regulator, educator, researcher, consumer]
-updated: 2026-04-24
+updated: 2026-05-03
 ---
 
 The Heavy Metal Index is a public-facing reference on heavy metals in food, supply chain, remediation, and regulatory findings. It is operated by the [Paleo Foundation](https://paleofoundation.com), a standards organization based in Cyprus. The index is the principal scientific reference asset of the Foundation's heavy metals program.
@@ -19,7 +19,7 @@ The Paleo Foundation also operates the Heavy Metal Tested and Certified (HMT&amp
 
 ## Governance
 
-Methodology, selection criteria, extraction approach, quality-assurance audit procedures, and error-handling workflow are documented on the [methodology page](/methodology). The wiki is version-controlled in git; every substantive change is committed with provenance, and the commit log is the authoritative record of who changed what and when.
+Methodology, source-inclusion rules, quality-assurance audit protocol, editorial-review model, conflict posture, corrections workflow, and dispute handling are documented on the [methodology page](/methodology) and the linked governance pages. The wiki is version-controlled in git; every substantive change is committed with provenance, and the commit log is the authoritative record of who changed what and when.
 
 ## Relationship to other Paleo Foundation properties
 
