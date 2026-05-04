@@ -57,7 +57,7 @@ Codex MLs are set by CCCF in a risk-management framework that uses the JECFA PTM
 
 ## Relationship to the existing CXC 81-2022 (Cocoa Beans CoP)
 
-The existing Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022) is a finalized 2022 Codex text that informed the CCCF17 decision to initiate broader CoP work ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]). CXC 81-2022 is referenced in the session report as the precedent document but is not in the current raw corpus. It is flagged for ingest.
+The existing Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans ([[sources/codex-cxc-81-2022|CXC 81-2022]]) is a finalized 2022 Codex text that informed the CCCF17 decision to initiate broader CoP work ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]). The CoP is structured in four sections covering pre-planting practices (soil analysis, cover crops, plantation siting away from industrial contamination sources), production-to-harvest practices (soil characterization with at least 20 subsamples per hectare at 0–15 cm depth, Cd-immobilization strategies including liming at 3 t/ha/year as dolomite to raise soil pH above 6, zinc sulphate supplementation where soil zinc is deficient, biochar amendment at rates comparable to and additive with liming, vinasse application for mycorrhizal-fungus promotion, and avoidance of high-Cd phosphate fertilizers and apatite/rock phosphate), post-harvest practices (mucilage draining for 12, 24, or 36 hours; *Saccharomyces cerevisiae* inoculation during fermentation; drying on clean solid surfaces to less than 8 percent moisture content), and transport practices. The CoP supplies the operative agronomic, processing, and partial formulation mitigation specifics for cocoa cadmium and is the load-bearing primary source on the [[mitigation/index|mitigation pages]].
 
 ## Comparison to EU, US, and national MLs
 
@@ -66,5 +66,5 @@ Pending ingest. EU cadmium MLs are established in Regulation (EU) 2023/915 (the 
 ## Sources
 
 - [[sources/codex-cccf17-2024|Codex CCCF17 2024]] — Codex CCCF, April 2024. Report of the 17th Session (REP24/CF17).
-
-_Pending: Codex Standard CXS 193-1995 (General Standard for Contaminants and Toxins in Food and Feed), which contains the matrix-level Codex Cd MLs. CXC 81-2022 (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans), the precedent for the newly-initiated broader CoP work._
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — General Standard for Contaminants and Toxins in Food and Feed; matrix-level Codex Cd MLs.
+- [[sources/codex-cxc-81-2022|Codex CXC 81-2022]] — Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans, the precedent for the newly-initiated broader CoP work.

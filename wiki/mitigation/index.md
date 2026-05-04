@@ -52,6 +52,8 @@ Priority promotion candidates identified from the corpus by-metal indexes ([[cor
 | FM_12691791 | n.d. | High Sorption Efficiency of Purified Clinoptilolite-Tuff for Aflatoxins... in Plant-Based Beverages and Milk | Formulation, sorbents |
 | FM_10447601 | n.d. | Characterisation of a low methane emission rice cultivar (raw studies) | Agronomic, cultivar selection |
 
+The first regulatory-mitigation source has now been ingested directly from FAO: [[sources/codex-cxc-81-2022|Codex CXC 81-2022]] (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans). It is the load-bearing primary source for the cocoa-cadmium content across [[mitigation/agronomic|agronomic]], [[mitigation/processing|processing]], and parts of [[mitigation/formulation|formulation]] and supplies the operative cocoa-mitigation specifics on [[ingredients/cocoa|the cocoa ingredient page]].
+
 The list is not exhaustive. The corpus extraction regex used to identify these candidates matched on terms like "mitigation," "remediation," "biofortification," "reduction methods," "processing method," "cultivar," "polishing," "parboiling," and similar; primary-literature papers reporting iron-amendment effects on cadmium uptake, silicon-amendment effects on arsenic uptake, water-management trials in paddy rice, and similar agronomic mitigation experiments will surface only when the by-strategy corpus extraction is rerun with broader vocabulary or when individual high-priority commodities are deeply mined for mitigation-relevant primary studies.
 
 ## Cross-references

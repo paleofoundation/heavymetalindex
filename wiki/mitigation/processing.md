@@ -34,7 +34,7 @@ Inorganic arsenic in rice is the processing-mitigation domain with the most-deve
 
 Cadmium in rice is partially addressable by polishing (since cadmium also concentrates in the bran) but the reduction is smaller than for inorganic arsenic and the trade-off with nutrient loss is the same.
 
-Cadmium in cocoa is processing-addressable through fermentation, drying-protocol selection, and shell-removal during conching. The Codex CXC 81-2022 Code of Practice describes processing-stage interventions for cadmium in cocoa products and is a priority promotion target for this page.
+Cadmium in cocoa is processing-addressable through fermentation-stage interventions specified in [[sources/codex-cxc-81-2022|Codex CXC 81-2022]] section 4.3: mucilage draining for 12, 24, or 36 hours reduces cadmium concentrations without affecting organoleptic quality, and *Saccharomyces cerevisiae* inoculation during fermentation absorbs cadmium and reduces bean Cd content per the experimental studies cited in the CoP. Drying surface cleanliness (drying on solid surfaces, target less than 8 percent moisture content) and storage protection from fuel and exhaust contamination are the additional CoP-specified processing-stage practices.
 
 Lead in agricultural produce is partially addressable by rinsing (for surface-deposited lead from air or splash) but is not substantially altered by milling, fermentation, or cooking, since most lead in produce that reaches the processor is internalized rather than surface-bound.
 
@@ -50,7 +50,7 @@ Specific primary studies in the corpus that should be promoted to populate this 
 | FM_11673565 | 2024 | Effects of different processing methods on the functional, nutritional, and physicochemical profiles of cowpea leaf powder | Cross-protocol processing |
 | FM_10528236 | 2023 | Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods | Cross-strategy review including processing |
 
-Additional primary studies on parboiling protocols for rice arsenic, rinsing-water and cooking-water effects on rice arsenic, and fermentation effects on cocoa cadmium will surface as the by-strategy corpus extraction is rerun. The Codex CXC 81-2022 Code of Practice for cocoa is a regulatory document not yet in the wiki and should be ingested as both a regulation page and a processing-mitigation source.
+[[sources/codex-cxc-81-2022|Codex CXC 81-2022]] is the load-bearing regulatory source for cocoa-cadmium processing interventions and is now ingested. Additional primary studies on parboiling protocols for rice arsenic, rinsing-water and cooking-water effects on rice arsenic, and primary-experimental confirmation of *Saccharomyces cerevisiae* Cd-absorption rates during cocoa fermentation will surface as the by-strategy corpus extraction is rerun.
 
 ## Cross-references
 
