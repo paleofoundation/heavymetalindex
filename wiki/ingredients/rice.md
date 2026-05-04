@@ -47,6 +47,20 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  Cr:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Sn:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, flooded-paddy, geography, cultivar, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
@@ -77,7 +91,15 @@ Derivative products of rice inherit, concentrate, or redistribute the cadmium pr
 
 ## Mitigation options
 
-_Pending. Literature on cultivar selection, water management, liming, zinc amendment, and post-harvest processing will be synthesized in a dedicated mitigation subsection when ingredient-level ingests complete._
+Rice mitigation is structured across all four [[mitigation/index|mitigation classes]], with the strongest evidence base for inorganic arsenic and a partial overlap with cadmium mitigation. The four strategy pages identify the relevant interventions and the priority primary literature for each; per-protocol efficacy data is pending the underlying source promotion.
+
+[[mitigation/agronomic|Agronomic mitigation]] for rice is dominated by water-management regime selection (intermittent flooding, alternate wetting and drying, aerobic cultivation reduce inorganic arsenic uptake but can increase cadmium uptake), cultivar selection (low-As-accumulator and low-Cd-accumulator varieties), and silicon and zinc soil amendment for competitive uptake antagonism. The water-management trade-off between inorganic arsenic and cadmium is the most consequential per-soil decision facing rice growers in HMT&C-relevant supply chains.
+
+[[mitigation/processing|Processing mitigation]] for rice is dominated by polishing (removes the bran where both inorganic arsenic and cadmium concentrate, at the cost of nutrient loss documented in [[sources/su-2023-arsenic-brown-rice|Su et al. 2023]]), parboiling, and rinsing or cooking-water discard (substantial inorganic arsenic reductions in finished consumed rice).
+
+[[mitigation/supply-chain-screening|Supply-chain screening]] for rice is dominated by geographic-risk-segmented sourcing (basmati-India and California rice are documented lower-arsenic origins than typical South-Asian and Southeast-Asian arsenic-rich-aquifer-zone rice) and by irrigation-water arsenic testing in supplier regions.
+
+[[mitigation/formulation|Formulation mitigation]] for rice-containing finished products includes ingredient substitution (oat or almond bases for plant-based beverages, basmati or California rice for unspecified-origin rice in infant cereals) and sorbent co-formulation, documented in the corpus paper FM_12691791 for plant-based beverage applications.
 
 ## Other metals of concern
 

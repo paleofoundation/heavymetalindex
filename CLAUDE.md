@@ -108,6 +108,7 @@ wiki/
   health/             # toxicology, exposure routes, vulnerable populations, dose-response
   microbiome/         # metal-microbiome mechanisms, WikiBiome crosswalk pages
   certification/      # HMT&C program pages — proposed criteria, auditor notes, gap analyses vs FDA/EU/Codex
+  mitigation/         # remediation strategies — agronomic, processing, supply-chain screening, formulation
   courses/            # course outlines, module pages, learning objectives
   app/                # app-model pages: ingredient→risk mappings, recipe inference logic
   sources/            # one page per source document (summary + metadata + cite key)
@@ -267,7 +268,6 @@ contamination_profile:
     confidence: null               # low | medium | high (only meaningful when status: populated)
     n_studies: 0
     last_reviewed: null
-    last_full_resynthesis: null
   Cd:
     status: pending
     typical_ppb: [null, null]
@@ -275,7 +275,6 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
-    last_full_resynthesis: null
   iAs:
     status: pending
     typical_ppb: [null, null]
@@ -283,7 +282,6 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
-    last_full_resynthesis: null
   tHg:
     status: pending
     typical_ppb: [null, null]
@@ -291,7 +289,34 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
-    last_full_resynthesis: null
+  Ni:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Al:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Cr:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Sn:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, flooded-paddy, geography, cultivar, processing]
 lower_risk_variants: ["[[ingredients/basmati-india]]", "[[ingredients/california-rice]]"]
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
@@ -304,6 +329,10 @@ updated: 2026-04-22
 Sections: Why this commodity accumulates the metal, Ranges by source/region/variety, Processing effects (polishing, rinsing, parboiling), Ingredient-derivative risk (bran > whole > white; syrup concentrates), Mitigation options, Regulatory limits that apply, Sources.
 
 The `contamination_profile` block is deliberately machine-readable. The app will consume it directly.
+
+The metal set is the eight metals with dedicated `wiki/metals/` pages: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn. Earlier ingredient pages (pre-2026-05) used a 4-metal subset (Pb, Cd, iAs, tHg) and were schema-extended on 2026-05-03 to the 8-metal standard so that the app receives a consistent feature vector for every ingredient. Adding a ninth metal in the future requires extending all existing ingredient pages in lockstep; the schema-extension is mechanical and idempotent (see `tools/` if a script is added, or perform via targeted edits).
+
+The `last_full_resynthesis` field referenced in Part 9 is no longer carried per-metal-sub-block on ingredient pages. Resynthesis events are now tracked in the structured-evidence layer at `data/evidence/review_events.jsonl`, which is authoritative. Part 9's conceptual logic (when to trigger full resynthesis vs incremental update) still applies; only the implementation has moved off the page frontmatter.
 
 #### The three-field state system
 
@@ -324,7 +353,7 @@ The `confidence` field is the evidence-state field. It answers: given the resear
 
 The `n_studies` field is the count of A-tier or B-tier sources contributing to the values. A value of `n_studies: 0` with `status: populated` is a legitimate finding: it means the literature is silent on this combination, and the app should treat it as a data gap rather than as "probably clean." A value of `n_studies: 0` with `status: pending` is simply the template default.
 
-The `last_reviewed` field is the date Claude last integrated new evidence into this metal sub-block. The `last_full_resynthesis` field is the date Claude last re-read all contributing sources and regenerated the synthesis from scratch (see Part 9).
+The `last_reviewed` field is the date Claude last integrated new evidence into this metal sub-block (per-page tracking of incremental updates). Full-resynthesis tracking — the date Claude last re-read all contributing sources and regenerated the synthesis from scratch — lives in the structured-evidence layer at `data/evidence/review_events.jsonl`, not on the ingredient page itself; Part 9 describes the resynthesis logic and the structured layer applies it.
 
 This structure resolves what would otherwise be a persistent lint-noise problem. Every new ingredient page is born in a valid state (`pending` with `null` values) rather than a lint-failure state. It also surfaces a real-world distinction that matters for the app: genuine data gaps behave differently from unprocessed templates.
 

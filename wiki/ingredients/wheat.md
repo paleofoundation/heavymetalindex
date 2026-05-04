@@ -47,6 +47,20 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  Cr:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Sn:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, cultivar, zinc-status, phosphate-fertilization, geography]
 lower_risk_variants: ["[[ingredients/refined-white-flour]]"]
 higher_risk_variants: ["[[ingredients/wheat-bran]]", "[[ingredients/wheat-germ]]", "[[ingredients/whole-wheat-flour]]", "[[ingredients/wheat-protein-concentrate]]"]

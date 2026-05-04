@@ -47,6 +47,20 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  Cr:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Sn:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, geography, volcanic-soils, variety, processing, fermentation]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/cocoa-powder]]", "[[ingredients/high-cocoa-solid-dark-chocolate]]"]
@@ -77,7 +91,15 @@ Derivative products of cocoa redistribute cadmium between cocoa solids and cocoa
 
 ## Mitigation options
 
-_Pending. Literature on cultivar selection, soil amendment, agroforestry practices, and post-harvest processing (including a 2019-onward emphasis in the Codex CXC 81-2022 Code of Practice) will be synthesized when ingredient-level ingests complete._
+Cocoa cadmium mitigation is structured across all four [[mitigation/index|mitigation classes]] and is the second-highest-salience commodity in the wiki's mitigation coverage after rice arsenic. The Codex CXC 81-2022 Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans is a foundational regulatory document spanning several of these classes and is a priority promotion target.
+
+[[mitigation/agronomic|Agronomic mitigation]] for cocoa is dominated by soil pH management (liming raises pH and immobilizes cadmium in soils with naturally acidic Latin American volcanic substrate), cultivar and rootstock selection (cocoa genotypes vary in cadmium accumulation efficiency by an order of magnitude in some screening trials), agroforestry shade-tree practices (which alter soil organic matter and pH dynamics), and biochar or compost amendment.
+
+[[mitigation/processing|Processing mitigation]] for cocoa is dominated by post-harvest fermentation regime, drying conditions, alkalization (Dutch-process treatment alters cadmium distribution between fractions), winnowing efficiency (shell removal reduces cadmium because shell is a higher-cadmium fraction than nib), and conching. The Codex CXC 81-2022 Code of Practice specifies several of these processing-stage interventions.
+
+[[mitigation/supply-chain-screening|Supply-chain screening]] for cocoa is the dominant brand-side intervention in EU markets given the [[regulations/eu-2023-915-cadmium|EU 2023/915]] cocoa cadmium maximum levels. West-African origins (Ghana, Côte d'Ivoire) are documented lower-cadmium than parts of Latin America (Ecuador, Peru, Colombia volcanic-soil regions); within Latin America, altitude- and soil-pH-segmented sourcing differentiates lower- and higher-cadmium production zones.
+
+[[mitigation/formulation|Formulation mitigation]] for cocoa-containing products includes cocoa-percentage adjustment (lower-cocoa-solids products have correspondingly less cocoa-derived cadmium), cocoa-origin sourcing realized at the recipe level, and substitution of cocoa butter for cocoa powder where formulation permits (cocoa butter is much lower in cadmium than the defatted solids).
 
 ## Other metals of concern
 

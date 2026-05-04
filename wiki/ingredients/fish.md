@@ -47,6 +47,20 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  Cr:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Sn:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [trophic-level, methylmercury-biomagnification, species, harvest-region, fish-age-and-size]
 lower_risk_variants: ["[[ingredients/salmon]]", "[[ingredients/sardines]]", "[[ingredients/anchovies]]", "[[ingredients/herring]]", "[[ingredients/tilapia]]", "[[ingredients/trout]]", "[[ingredients/light-canned-tuna]]"]
 higher_risk_variants: ["[[ingredients/swordfish]]", "[[ingredients/shark]]", "[[ingredients/king-mackerel]]", "[[ingredients/tilefish]]", "[[ingredients/bigeye-tuna]]", "[[ingredients/marlin]]", "[[ingredients/orange-roughy]]"]

@@ -47,6 +47,20 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  Cr:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  Sn:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [cocoa-solid-fraction, cocoa-origin, formulation]
 lower_risk_variants: ["[[ingredients/milk-chocolate]]", "[[ingredients/white-chocolate]]"]
 higher_risk_variants: ["[[ingredients/high-cocoa-dark-chocolate]]", "[[ingredients/baking-chocolate]]", "[[ingredients/cocoa-powder-heavy-confections]]"]
