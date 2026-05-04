@@ -111,7 +111,7 @@ updated: 2026-05-03
 
 # FDA 2022 - TDS Elements Analytical Results FY2018-FY2020
 
-## TL;DR
+## Summary
 
 FDA's FY2018-FY2020 Total Diet Study elements dataset reports 29,148 analytical-result rows across 90 prepared TDS foods, 24 analytes, fiscal years 2018-2020, and calendar years 2017-2020. The accompanying FDA key defines the twelve columns in the CSV, including fiscal year, calendar year, collection, TDS food number and description, season, food-list type, region, analyte, units, concentration, and reporting limit. The raw CSV and key PDF are retained as audit artifacts, and the normalized rows are written to `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`.
 

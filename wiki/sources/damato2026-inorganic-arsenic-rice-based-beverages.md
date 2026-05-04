@@ -26,7 +26,7 @@ updated: 2026-05-01
 
 # D'Amato 2026 - Inorganic Arsenic In Rice-Based Beverages
 
-## TL;DR
+## Summary
 
 This A-tier peer-reviewed paper is a high-priority Category 5 source because it directly measures inorganic arsenic in finished rice-based beverages. It analyzed 25 rice-based drinks from the Italian market using HPLC-ICP-MS speciation and ICP-MS total arsenic. It gives both occurrence findings and a regulatory comparison against the EU maximum level for non-alcoholic rice-based drinks.
 

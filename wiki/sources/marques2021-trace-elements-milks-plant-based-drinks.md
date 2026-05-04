@@ -25,7 +25,7 @@ updated: 2026-05-01
 
 # Marques 2021 - Trace Elements In Milks And Plant-Based Drinks
 
-## TL;DR
+## Summary
 
 This A-tier peer-reviewed paper is useful Category 5 beverage context because it measured retail cow milk, goat milk, soy drink, almond drink, rice drink, oat drink, and follow-on formula composites from Spain using ICP-MS. It reports that Hg, U, and V were not detected in the milk and plant-based drink samples, while Pb was detected in three samples, including one non-organic oat drink.
 

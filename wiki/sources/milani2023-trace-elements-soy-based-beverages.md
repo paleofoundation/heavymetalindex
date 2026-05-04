@@ -19,7 +19,7 @@ updated: 2026-05-01
 
 # Milani 2023 - Trace Elements In Soy-Based Beverages
 
-## TL;DR
+## Summary
 
 This A-tier peer-reviewed paper is the first promoted Category 5 occurrence source for the soy-based plant-milk row. It measured 18 soy-based beverages from Campinas, Brazil, grouped by soy source, using ICP-OES. It provides usable finished-product values for Al, As, Cd, Ni, Pb, Sn, and other trace elements, plus an Al exposure estimate for one 200 mL serving.
 

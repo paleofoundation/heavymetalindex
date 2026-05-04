@@ -213,7 +213,7 @@ updated: 2026-04-23
 ```markdown
 # He et al. 2013 — Dietary cadmium exposure in Shanghai adults
 
-## TL;DR
+## Summary
 Two to four sentences summarizing what they measured, what they found, and why it matters.
 
 ## Key numbers
@@ -485,7 +485,7 @@ If automation cannot place evidence cleanly, do not silently drop the source. Em
 When Karen drops a file into `raw/` and says "ingest this":
 
 1. Read the file. For PDFs, actually extract and read the text. For Marker-converted markdown, read the markdown. For images or figures, view them.
-2. Tell Karen the TL;DR first — three to five sentences — before writing anything. Wait for Karen's reaction so she can redirect.
+2. Tell Karen the summary first — three to five sentences — before writing anything. Wait for Karen's reaction so she can redirect.
 3. Create the source page at `wiki/sources/<cite-key>.md` using the template in Part 6.
 4. Identify affected pages: metals, ingredients, products, regulations, testing methods, microbiome topics, certification criteria. List them for Karen.
 5. Update each affected page. Weave in new findings. When a claim is superseded, do not just overwrite — note the change and flag contradictions. For example, "Earlier estimates of 250 ppb (Jones 2019) have been revised to 180 ppb by Smith 2024." When updating an ingredient's `contamination_profile`, advance `status` from `pending` to `in_progress` or `populated` as appropriate, and populate `confidence`, `n_studies`, and `last_reviewed` when moving to `populated`.
@@ -512,7 +512,7 @@ When ingesting the full Marker-converted corpus (or any batch over ~20 papers), 
    - Any papers that failed to ingest and why
    - Any papers whose manifest-provided metadata disagreed substantially with actual content
 6. Karen reads batch reports at her own pace. Karen's Lab (the external lint/QA system) runs linting across batches.
-7. Do not pause for per-paper TL;DR approval during bulk ingest. The batch report is the review artifact.
+7. Do not pause for per-paper summary approval during bulk ingest. The batch report is the review artifact.
 
 ### Query workflow (Karen asks a question)
 
