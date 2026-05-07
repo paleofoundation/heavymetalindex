@@ -95,7 +95,7 @@ Meat and poultry puree evidence is currently grouped with meat/fish infant foods
 | [[metals/cadmium|Cadmium]] | UK meat and fish based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish; not poultry-specific. |
 | [[metals/lead|Lead]] | UK meat and fish based infant foods/dishes | 4 to 5 ug/kg | 4 to 5 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish; not poultry-specific. |
 | [[metals/nickel|Nickel]] | UK meat and fish based infant foods/dishes | 43 to 72 ug/kg | 43 to 72 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish; not poultry-specific. |
-| [[metals/cadmium|Cadmium]] and [[metals/lead|Lead]] | Italian homogenized baby foods including meat | below LOD in all samples | below method LOD | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Study includes meat homogenized foods, but source page does not yet extract meat-only concentration table. |
+| [[metals/aluminum|Aluminum]], [[metals/arsenic-total|total arsenic]], [[metals/mercury-total|total mercury]], [[metals/nickel|nickel]], [[metals/tin|tin]], [[metals/cadmium|cadmium]], and [[metals/lead|lead]] | Italian homogenized meat products | Al 753 ppb; tAs <17 ppb; tHg 4 ppb; Ni 86 ppb; Sn 267 ppb; Cd <5 ppb; Pb <100 ppb | same numeric ppb wet weight | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Small N=4 wet-weight category means/censored values; summary evidence only. |
 
 ## French TDS Category Rows
 
@@ -115,7 +115,7 @@ This row is independent in the locked row architecture and has no clean-counterp
 
 <!-- audience: regulator, educator, consumer, app -->
 
-A 2024 analytical study of European baby foods included homogenized meat foods and reported that cadmium and lead were below the study LOD in all samples, but the study did not isolate HMTc-style meat-and-poultry puree distributions. [[sources/meli2024-chemical-characterization-baby-food-italy]]
+A 2024 analytical study of European baby foods reported wet-weight Table 5 summary rows for four homogenized meat products, including Al 753 ppb, tAs <17 ppb, tHg 4 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <100 ppb; these are small-N category means or censored values, not percentile distributions. [[sources/meli2024-chemical-characterization-baby-food-italy]]
 
 A 2025 global scoping review reported Pb detection in 83% and Cd detection in 84% of meat and meat-mix baby-food determinations, but the review grouping does not isolate poultry purees or finished puree format. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 
