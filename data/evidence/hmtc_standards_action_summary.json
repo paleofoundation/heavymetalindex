@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-05-07T13:28:36.408Z",
+  "product_filter": "all",
+  "total_action_rows": 59,
+  "by_action_priority": {
+    "P0": 6,
+    "P1": 11,
+    "P2": 39,
+    "P3": 3
+  },
+  "by_action_type": {
+    "review-local-candidate-values": 3,
+    "review-tds-product-routes": 3,
+    "resolve-species-specific-gap": 11,
+    "find-fit-source-after-context-only-review": 4,
+    "find-or-route-fit-source-evidence": 16,
+    "find-sample-level-or-percentile-evidence": 7,
+    "find-second-distribution-capable-source": 12,
+    "review-evidence-fitness": 3
+  },
+  "by_aggregate_status": {
+    "BLOCKED: local candidate review pending": 3,
+    "BLOCKED: TDS product route review pending": 3,
+    "BLOCKED: species-specific evidence missing": 11,
+    "BLOCKED: documented local sources are context-only": 4,
+    "BLOCKED: no structured evidence loaded": 16,
+    "BLOCKED: summary evidence only": 7,
+    "DO NOT PUBLISH P90: single distribution-capable source": 12,
+    "BLOCKED: evidence fitness review needed": 3
+  },
+  "top_actions": [
+    {
+      "action_order": 1,
+      "action_priority": "P0",
+      "action_type": "review-local-candidate-values",
+      "product_slug": "fish-containing-baby-foods",
+      "metal_species": "Pb; Cd"
+    },
+    {
+      "action_order": 2,
+      "action_priority": "P0",
+      "action_type": "review-local-candidate-values",
+      "product_slug": "meat-and-poultry-purees",
+      "metal_species": "Pb; Cd"
+    },
+    {
+      "action_order": 3,
+      "action_priority": "P0",
+      "action_type": "review-local-candidate-values",
+      "product_slug": "plant-milks-soy-based",
+      "metal_species": "Ni"
+    },
+    {
+      "action_order": 4,
+      "action_priority": "P0",
+      "action_type": "review-tds-product-routes",
+      "product_slug": "fruit-juice-not-canned",
+      "metal_species": "Pb; Cd; Ni"
+    },
+    {
+      "action_order": 5,
+      "action_priority": "P0",
+      "action_type": "review-tds-product-routes",
+      "product_slug": "fruit-juices-apple-containing",
+      "metal_species": "Pb"
+    },
+    {
+      "action_order": 6,
+      "action_priority": "P0",
+      "action_type": "review-tds-product-routes",
+      "product_slug": "fruit-juices-non-apple",
+      "metal_species": "Pb"
+    },
+    {
+      "action_order": 7,
+      "action_priority": "P1",
+      "action_type": "resolve-species-specific-gap",
+      "product_slug": "baby-cereals-dry-non-rice",
+      "metal_species": "iAs"
+    },
+    {
+      "action_order": 8,
+      "action_priority": "P1",
+      "action_type": "resolve-species-specific-gap",
+      "product_slug": "baby-cereals-dry-rice-based",
+      "metal_species": "iAs"
+    },
+    {
+      "action_order": 9,
+      "action_priority": "P1",
+      "action_type": "resolve-species-specific-gap",
+      "product_slug": "fruit-juice-not-canned",
+      "metal_species": "iAs"
+    },
+    {
+      "action_order": 10,
+      "action_priority": "P1",
+      "action_type": "resolve-species-specific-gap",
+      "product_slug": "fruit-juices-apple-containing",
+      "metal_species": "iAs"
+    },
+    {
+      "action_order": 11,
+      "action_priority": "P1",
+      "action_type": "resolve-species-specific-gap",
+      "product_slug": "fruit-juices-non-apple",
+      "metal_species": "iAs"
+    },
+    {
+      "action_order": 12,
+      "action_priority": "P1",
+      "action_type": "resolve-species-specific-gap",
+      "product_slug": "fruit-purees",
+      "metal_species": "iAs"
+    }
+  ]
+}

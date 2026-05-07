@@ -8,6 +8,8 @@ const rowLimit = Number(args.get("limit") ?? (product ? 200 : 25))
 
 const gapPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
 const gapSummaryPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_summary.json")
+const actionQueuePath = path.join(repoRoot, "data/evidence/hmtc_standards_action_queue.csv")
+const actionSummaryPath = path.join(repoRoot, "data/evidence/hmtc_standards_action_summary.json")
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
 const queueSummaryPath = path.join(repoRoot, "data/evidence/local_reingest_summary.json")
 const packetManifestPath = path.join(
@@ -26,6 +28,7 @@ const syncChangesPath = path.join(repoRoot, "data/evidence/local_ingest_changes.
 const syncStatePath = path.join(repoRoot, "data/evidence/local_ingest_state.json")
 
 const gapRows = fs.existsSync(gapPath) ? parseCsv(fs.readFileSync(gapPath, "utf8")) : []
+const actionRows = fs.existsSync(actionQueuePath) ? parseCsv(fs.readFileSync(actionQueuePath, "utf8")) : []
 const queueRows = fs.existsSync(queuePath) ? parseCsv(fs.readFileSync(queuePath, "utf8")) : []
 const packetRows = fs.existsSync(packetManifestPath) ? parseCsv(fs.readFileSync(packetManifestPath, "utf8")) : []
 const taskRows = fs.existsSync(extractionTasksPath) ? parseCsv(fs.readFileSync(extractionTasksPath, "utf8")) : []
@@ -36,6 +39,7 @@ const tdsRouteCandidateRows = fs.existsSync(tdsRouteCandidatePath)
   ? parseCsv(fs.readFileSync(tdsRouteCandidatePath, "utf8"))
   : []
 const gapSummary = fs.existsSync(gapSummaryPath) ? JSON.parse(fs.readFileSync(gapSummaryPath, "utf8")) : {}
+const actionSummary = fs.existsSync(actionSummaryPath) ? JSON.parse(fs.readFileSync(actionSummaryPath, "utf8")) : {}
 const queueSummary = fs.existsSync(queueSummaryPath) ? JSON.parse(fs.readFileSync(queueSummaryPath, "utf8")) : {}
 const candidateSummary = fs.existsSync(candidateSummaryPath)
   ? JSON.parse(fs.readFileSync(candidateSummaryPath, "utf8"))
@@ -44,6 +48,7 @@ const tdsRouteSummary = fs.existsSync(tdsRouteSummaryPath) ? JSON.parse(fs.readF
 const syncSummary = fs.existsSync(syncSummaryPath) ? JSON.parse(fs.readFileSync(syncSummaryPath, "utf8")) : {}
 
 const filteredGapRows = product ? gapRows.filter((row) => row.product_slug === product) : gapRows
+const filteredActionRows = product ? actionRows.filter((row) => row.product_slug === product) : actionRows
 const filteredQueueRows = product ? queueRows.filter((row) => row.product_slug === product) : queueRows
 const filteredTaskRows = product ? taskRows.filter((row) => row.product_slug === product) : taskRows
 const filteredContextDispositionRows = product
@@ -63,6 +68,9 @@ if (queueSummary.excluded_visible_broad_context_rows !== undefined) {
   console.log(`Visible broad-context rows held outside queue: ${queueSummary.excluded_visible_broad_context_rows}${suffix}`)
 }
 console.log(`HMTc gap rows: ${filteredGapRows.length}`)
+if (filteredActionRows.length > 0 || actionSummary.total_action_rows !== undefined) {
+  console.log(`HMTc action queue rows: ${filteredActionRows.length}`)
+}
 console.log(`PDF packets: ${packetRows.length}`)
 if (candidateSummary.deterministic_candidate_value_count !== undefined) {
   console.log(`Deterministic candidate rows: ${candidateSummary.deterministic_candidate_value_count}`)
@@ -101,6 +109,17 @@ if (Object.keys(readinessCounts).length) {
   console.log("")
 }
 
+const actionPriorityCounts = countBy(filteredActionRows, (row) => row.action_priority)
+if (Object.keys(actionPriorityCounts).length) {
+  console.log("Standards action queue by priority")
+  for (const [key, value] of Object.entries(actionPriorityCounts)) console.log(`- ${key}: ${value}`)
+  console.log("")
+}
+
+if (filteredActionRows.length) {
+  printActionQueue(filteredActionRows, Math.min(rowLimit, 12))
+}
+
 if (Object.keys(candidateSummary.by_source ?? {}).length) {
   console.log("Deterministic candidate rows by source")
   for (const [key, value] of Object.entries(candidateSummary.by_source)) console.log(`- ${key}: ${value}`)
@@ -131,6 +150,7 @@ if (filteredGapRows.length && !product) {
 
 console.log("Files")
 console.log(`- ${path.relative(repoRoot, gapPath)}`)
+console.log(`- ${path.relative(repoRoot, actionQueuePath)}`)
 console.log(`- ${path.relative(repoRoot, queuePath)}`)
 console.log(`- ${path.relative(repoRoot, candidateValuesPath)}`)
 console.log(`- ${path.relative(repoRoot, contextDispositionPath)}`)
@@ -142,6 +162,7 @@ console.log(`- ${path.relative(repoRoot, packetManifestPath)}`)
 console.log("")
 console.log("Open in Finder or spreadsheet")
 console.log(`open ${shellQuote(path.relative(repoRoot, gapPath))}`)
+console.log(`open ${shellQuote(path.relative(repoRoot, actionQueuePath))}`)
 console.log(`open ${shellQuote(path.relative(repoRoot, candidateValuesPath))}`)
 console.log(`open ${shellQuote(path.relative(repoRoot, contextDispositionPath))}`)
 console.log(`open ${shellQuote(path.relative(repoRoot, tdsRouteCandidatePath))}`)
@@ -263,6 +284,24 @@ function printGapOverview(rows, limit) {
   }
   if (ranked.length > limit) {
     console.log(`... ${ranked.length - limit} more groups hidden; rerun with --limit ${ranked.length} or --product <slug>.`)
+  }
+  console.log("")
+}
+
+function printActionQueue(rows, limit) {
+  const sorted = [...rows].sort((a, b) => Number(a.action_order || 9999) - Number(b.action_order || 9999))
+
+  console.log(`Standards action queue (first ${Math.min(limit, sorted.length)} of ${sorted.length})`)
+  for (const row of sorted.slice(0, limit)) {
+    console.log(`- ${row.action_priority} ${row.action_type}: ${row.product_label} (${row.product_slug})`)
+    console.log(`  metals: ${row.metal_species}`)
+    if (row.action_sources) console.log(`  action sources: ${row.action_sources}`)
+    if (row.context_disposition_sources) console.log(`  context-only routes: ${row.context_disposition_sources}`)
+    if (row.tds_product_route_foods) console.log(`  TDS foods: ${row.tds_product_route_foods}`)
+    if (row.next_step) console.log(`  next: ${row.next_step}`)
+  }
+  if (sorted.length > limit) {
+    console.log(`... ${sorted.length - limit} more action rows hidden; rerun with --limit ${sorted.length} or --product <slug>.`)
   }
   console.log("")
 }

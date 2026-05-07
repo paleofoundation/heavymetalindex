@@ -56,6 +56,11 @@ and Category 1 pilot coverage registers.
   reingest, and regulatory crosswalk layers before assigning gap status. It
   labels bridge/base product nodes as context-only so they stay visible without
   creating false HMTc p90 work.
+- `hmtc_standards_action_queue.csv`: generated next-action queue collapsed from
+  the standards gap report. It groups locked-row blockers by product/status,
+  ranks local candidate review, TDS route review, species-specific gaps, source
+  discovery, summary-only rows, and single-source p90 blockers, and gives the
+  reviewer the next command or file to inspect without promoting evidence.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.
@@ -73,6 +78,8 @@ and Category 1 pilot coverage registers.
   and draft source page candidates.
 - `npm run evidence:tds-routes`: rebuilds the FDA TDS product-route candidate
   report used by standards gap triage.
+- `npm run evidence:standards-actions`: rebuilds the HMTc standards action
+  queue from the current standards gap report.
 
 ## Review Boundary
 
