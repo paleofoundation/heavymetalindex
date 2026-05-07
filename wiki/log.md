@@ -336,3 +336,7 @@ Notes: Added reviewed Milani 2023 soy-beverage Cr and Sb occurrence context to t
 ## [2026-05-07] routing | fruit-juice-guidance-context-dispositions — FDA juice guidance routes documented
 Pages affected: [[products/fruit-juice-not-canned]], [[sources/fda2022-draft-lead-juice]], [[sources/fda2004-juice-haccp-lead]]
 Notes: Added explicit source-page citations and context-disposition rows for the FDA 2022 draft lead-in-juice guidance and FDA 2004 Juice HACCP guidance. These sources remain visible as regulatory context for the product crosswalk, but are not treated as measured occurrence evidence, HMTc thresholds, or extraction blockers; no p50, p90, or p95 was inferred.
+
+## [2026-05-07] tooling | visible-base-bridge-context-queue — base and bridge context held outside local queue
+Pages affected: [[products/infant-formula-powder]], [[products/glucose-solutions]], [[products/oral-electrolyte-solutions]]
+Notes: Added the remaining broad infant-formula source citations to the base powder page and updated the local reingest queue so source-visible base and bridge context routes are counted outside the default extraction queue. This keeps non-locked context nodes visible without asking for paper-by-paper HMTc extraction work; locked child-row use still requires subtype, species, basis, and statistic-fit review.

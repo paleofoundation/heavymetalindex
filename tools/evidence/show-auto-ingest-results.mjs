@@ -67,6 +67,10 @@ if (queueSummary.excluded_visible_broad_context_rows !== undefined) {
   const suffix = product ? " (all products)" : ""
   console.log(`Visible broad-context rows held outside queue: ${queueSummary.excluded_visible_broad_context_rows}${suffix}`)
 }
+if (queueSummary.excluded_visible_context_node_rows !== undefined) {
+  const suffix = product ? " (all products)" : ""
+  console.log(`Visible base/bridge context rows held outside queue: ${queueSummary.excluded_visible_context_node_rows}${suffix}`)
+}
 console.log(`HMTc gap rows: ${filteredGapRows.length}`)
 if (filteredActionRows.length > 0 || actionSummary.total_action_rows !== undefined) {
   console.log(`HMTc action queue rows: ${filteredActionRows.length}`)

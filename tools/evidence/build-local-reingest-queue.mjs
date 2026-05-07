@@ -31,6 +31,7 @@ for (let index = 2; index < process.argv.length; index += 1) {
 const productFilter = args.get("product") ?? ""
 const includeStructured = args.get("include-structured") === "true"
 const includeVisibleBroadContext = args.get("include-visible-broad-context") === "true"
+const includeVisibleContextNodes = args.get("include-visible-context-nodes") === "true"
 
 const routingRows = fs.existsSync(routingAuditPath) ? parseCsv(fs.readFileSync(routingAuditPath, "utf8")) : []
 const rawInventoryRows = fs.existsSync(rawInventoryPath) ? parseCsv(fs.readFileSync(rawInventoryPath, "utf8")) : []
@@ -51,8 +52,12 @@ const candidateQueueRows = routingRows
 const excludedContextDispositionRows = candidateQueueRows.filter(isFullyDispositionedRoute)
 const candidateRowsNeedingReview = candidateQueueRows.filter((row) => !isFullyDispositionedRoute(row))
 const excludedVisibleBroadContextRows = candidateRowsNeedingReview.filter(isVisibleBroadContextRow)
-const queueRows = candidateRowsNeedingReview
-  .filter((row) => includeVisibleBroadContext || !isVisibleBroadContextRow(row))
+const candidateRowsAfterBroadContext = candidateRowsNeedingReview.filter(
+  (row) => includeVisibleBroadContext || !isVisibleBroadContextRow(row),
+)
+const excludedVisibleContextNodeRows = candidateRowsAfterBroadContext.filter(isVisibleContextNodeRow)
+const queueRows = candidateRowsAfterBroadContext
+  .filter((row) => includeVisibleContextNodes || !isVisibleContextNodeRow(row))
   .sort((a, b) => a.priority_rank - b.priority_rank || a.product_slug.localeCompare(b.product_slug) || a.source_id.localeCompare(b.source_id))
 
 writeCsv(outputPath, queueRows.map(publicQueueRow), [
@@ -80,8 +85,10 @@ const summary = {
   product_filter: productFilter || "all",
   include_structured: includeStructured,
   include_visible_broad_context: includeVisibleBroadContext,
+  include_visible_context_nodes: includeVisibleContextNodes,
   excluded_context_disposition_rows: excludedContextDispositionRows.length,
   excluded_visible_broad_context_rows: includeVisibleBroadContext ? 0 : excludedVisibleBroadContextRows.length,
+  excluded_visible_context_node_rows: includeVisibleContextNodes ? 0 : excludedVisibleContextNodeRows.length,
   total_queue_rows: queueRows.length,
   by_priority: countBy(queueRows, (row) => row.priority),
   by_local_pdf_status: countBy(queueRows, (row) => row.local_pdf_status),
@@ -228,6 +235,17 @@ function isVisibleBroadContextRow(row) {
       row.route_status === "partial_structured_values_present") &&
     String(row.route_kind || "").startsWith("broad_") &&
     (row.evidence_use === "broad_context_pending_row_fit" ||
+      row.evidence_use === "partial_structured_value_candidate")
+  )
+}
+
+function isVisibleContextNodeRow(row) {
+  return (
+    (row.product_standard_scope === "base_context" || row.product_standard_scope === "bridge_context") &&
+    row.product_page_cites_source === "true" &&
+    (row.route_status === "source_on_page_no_structured_value" ||
+      row.route_status === "partial_structured_values_present") &&
+    (row.evidence_use === "direct_context_pending_extraction" ||
       row.evidence_use === "partial_structured_value_candidate")
   )
 }
