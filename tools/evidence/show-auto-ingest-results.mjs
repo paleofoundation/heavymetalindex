@@ -18,6 +18,8 @@ const packetManifestPath = path.join(
 const candidateSummaryPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_summary.json")
 const candidateValuesPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_values.csv")
 const extractionTasksPath = path.join(repoRoot, "data/evidence/local_reingest_extraction_tasks.csv")
+const tdsRouteCandidatePath = path.join(repoRoot, "data/evidence/fda_tds_product_route_candidates.csv")
+const tdsRouteSummaryPath = path.join(repoRoot, "data/evidence/fda_tds_product_route_summary.json")
 const syncSummaryPath = path.join(repoRoot, "data/evidence/local_ingest_sync_summary.json")
 const syncChangesPath = path.join(repoRoot, "data/evidence/local_ingest_changes.csv")
 const syncStatePath = path.join(repoRoot, "data/evidence/local_ingest_state.json")
@@ -26,16 +28,23 @@ const gapRows = fs.existsSync(gapPath) ? parseCsv(fs.readFileSync(gapPath, "utf8
 const queueRows = fs.existsSync(queuePath) ? parseCsv(fs.readFileSync(queuePath, "utf8")) : []
 const packetRows = fs.existsSync(packetManifestPath) ? parseCsv(fs.readFileSync(packetManifestPath, "utf8")) : []
 const taskRows = fs.existsSync(extractionTasksPath) ? parseCsv(fs.readFileSync(extractionTasksPath, "utf8")) : []
+const tdsRouteCandidateRows = fs.existsSync(tdsRouteCandidatePath)
+  ? parseCsv(fs.readFileSync(tdsRouteCandidatePath, "utf8"))
+  : []
 const gapSummary = fs.existsSync(gapSummaryPath) ? JSON.parse(fs.readFileSync(gapSummaryPath, "utf8")) : {}
 const queueSummary = fs.existsSync(queueSummaryPath) ? JSON.parse(fs.readFileSync(queueSummaryPath, "utf8")) : {}
 const candidateSummary = fs.existsSync(candidateSummaryPath)
   ? JSON.parse(fs.readFileSync(candidateSummaryPath, "utf8"))
   : {}
+const tdsRouteSummary = fs.existsSync(tdsRouteSummaryPath) ? JSON.parse(fs.readFileSync(tdsRouteSummaryPath, "utf8")) : {}
 const syncSummary = fs.existsSync(syncSummaryPath) ? JSON.parse(fs.readFileSync(syncSummaryPath, "utf8")) : {}
 
 const filteredGapRows = product ? gapRows.filter((row) => row.product_slug === product) : gapRows
 const filteredQueueRows = product ? queueRows.filter((row) => row.product_slug === product) : queueRows
 const filteredTaskRows = product ? taskRows.filter((row) => row.product_slug === product) : taskRows
+const filteredTdsRouteRows = product
+  ? tdsRouteCandidateRows.filter((row) => row.product_slug === product)
+  : tdsRouteCandidateRows
 
 console.log("")
 console.log("Heavy Metal Index local ingest results")
@@ -50,6 +59,14 @@ console.log(`HMTc gap rows: ${filteredGapRows.length}`)
 console.log(`PDF packets: ${packetRows.length}`)
 if (candidateSummary.deterministic_candidate_value_count !== undefined) {
   console.log(`Deterministic candidate rows: ${candidateSummary.deterministic_candidate_value_count}`)
+}
+if (tdsRouteSummary.direct_product_route_candidate_rows !== undefined || filteredTdsRouteRows.length > 0) {
+  console.log(`FDA TDS product-route candidate rows: ${filteredTdsRouteRows.length}`)
+  if (!product && tdsRouteSummary.food_rows_with_product_routes !== undefined) {
+    console.log(
+      `FDA TDS foods with product routes: ${tdsRouteSummary.food_rows_with_product_routes} of ${tdsRouteSummary.tds_food_route_rows}`,
+    )
+  }
 }
 console.log(`Remaining extraction tasks: ${filteredTaskRows.length}`)
 console.log("")
@@ -94,6 +111,7 @@ console.log(`- ${path.relative(repoRoot, gapPath)}`)
 console.log(`- ${path.relative(repoRoot, queuePath)}`)
 console.log(`- ${path.relative(repoRoot, candidateValuesPath)}`)
 console.log(`- ${path.relative(repoRoot, extractionTasksPath)}`)
+console.log(`- ${path.relative(repoRoot, tdsRouteCandidatePath)}`)
 console.log(`- ${path.relative(repoRoot, syncChangesPath)}`)
 console.log(`- ${path.relative(repoRoot, syncStatePath)}`)
 console.log(`- ${path.relative(repoRoot, packetManifestPath)}`)
@@ -101,6 +119,7 @@ console.log("")
 console.log("Open in Finder or spreadsheet")
 console.log(`open ${shellQuote(path.relative(repoRoot, gapPath))}`)
 console.log(`open ${shellQuote(path.relative(repoRoot, candidateValuesPath))}`)
+console.log(`open ${shellQuote(path.relative(repoRoot, tdsRouteCandidatePath))}`)
 console.log(`open ${shellQuote(path.relative(repoRoot, syncChangesPath))}`)
 console.log(`open -R ${shellQuote(path.relative(repoRoot, gapPath))}`)
 console.log("")

@@ -31,6 +31,10 @@ and Category 1 pilot coverage registers.
 - `category1_formula_special_survey_samples.csv`: parsed FDA sample-level
   infant-formula special-survey rows with locked-row, bridge, and out-of-scope
   mapping notes.
+- `fda_tds_product_route_candidates.csv`: FDA FY2018-FY2020 Total Diet Study
+  finished-food rows whose ingredient route table maps them to product pages.
+  These are review candidates only; total/speciated analytes and small-N rows
+  must be reviewed before promotion into standards evidence.
 - `category1_lead_benchmark_context.csv`: ppb-normalized Category 1 lead
   benchmark context, including FDA status/value, EU maximum-level ppb values,
   Prop 65 serving-based ppb equivalents, and HMTc/public interpretation notes.
@@ -49,6 +53,8 @@ and Category 1 pilot coverage registers.
   registers.
 - `npm run evidence:queue`: converts draft JSONL registers into a reviewer queue
   and draft source page candidates.
+- `npm run evidence:tds-routes`: rebuilds the FDA TDS product-route candidate
+  report used by standards gap triage.
 
 ## Review Boundary
 

@@ -255,3 +255,7 @@ Notes: Added stable JSON summary writing for evidence queue, standards gap, cand
 ## [2026-05-07] routing | broad-formula-context-sections — context-only sources moved out of emergency queue
 Pages affected: [[products/infant-formula-powder-non-soy]], [[products/infant-formula-powder-soy-based]], [[products/infant-formula-rtf-liquid-non-soy]], [[products/infant-formula-rtf-liquid-soy-based]]
 Notes: Added generated broad-context sections for formula sources that are relevant to a locked product row but do not yet resolve product format, soy status, basis, species, and statistic fit. The local reingest queue now excludes visible broad-context rows by default while retaining them in product pages and routing audits, so these papers are not silently dropped and also do not masquerade as immediate extraction blockers.
+
+## [2026-05-07] audit | fda-tds-product-route-candidates — TDS product-route candidates surfaced
+Pages affected: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[products/fruit-juice-not-canned]], [[products/fruit-juices-apple-containing]], [[products/fruit-juices-non-apple]]
+Notes: Added a generated FDA TDS product-route candidate report for finished-food TDS rows that already have explicit product-route mappings. The standards gap report now distinguishes true no-evidence gaps from TDS product-route review blockers, and keeps total arsenic visible as related context without substituting it for inorganic arsenic. No TDS candidate was promoted into HMTc p90 math.

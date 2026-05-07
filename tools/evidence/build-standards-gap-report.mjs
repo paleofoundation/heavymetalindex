@@ -8,6 +8,7 @@ const productDir = path.join(repoRoot, "wiki/products")
 const summaryPath = path.join(repoRoot, "data/evidence/category1_formula_concentration_summary.csv")
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
+const tdsRouteCandidatePath = path.join(repoRoot, "data/evidence/fda_tds_product_route_candidates.csv")
 const outputPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
 const summaryOutputPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_summary.json")
 
@@ -19,12 +20,16 @@ const productPages = readProductPages()
 const valueRows = fs.existsSync(summaryPath) ? parseCsv(fs.readFileSync(summaryPath, "utf8")) : []
 const regulatoryRows = fs.existsSync(crosswalkPath) ? parseCsv(fs.readFileSync(crosswalkPath, "utf8")) : []
 const queueRows = fs.existsSync(queuePath) ? parseCsv(fs.readFileSync(queuePath, "utf8")) : []
+const tdsRouteCandidateRows = fs.existsSync(tdsRouteCandidatePath)
+  ? parseCsv(fs.readFileSync(tdsRouteCandidatePath, "utf8"))
+  : []
 
 const productSlugs = [...new Set([
   ...productPages.keys(),
   ...valueRows.map((row) => row.row_slug).filter(Boolean),
   ...regulatoryRows.map((row) => row.product_slug).filter(Boolean),
   ...queueRows.map((row) => row.product_slug).filter(Boolean),
+  ...tdsRouteCandidateRows.map((row) => row.product_slug).filter(Boolean),
 ])]
   .filter((slug) => !productFilter || slug === productFilter)
   .sort()
@@ -58,6 +63,12 @@ for (const productSlug of productSlugs) {
     const p2Rows = pendingForMetal.filter((row) => row.local_pdf_status === "candidate_local_pdf_needs_review")
     const p3Rows = pendingForMetal.filter((row) => row.local_pdf_status === "missing_local_pdf")
     const sourceRowsMissingValues = pendingForMetal.filter((row) => row.route_status === "source_on_page_no_structured_value")
+    const tdsCandidatesForMetal = tdsRouteCandidateRows.filter(
+      (row) => row.product_slug === productSlug && canonicalMetal(row.metal_species) === metal,
+    )
+    const tdsRelatedSpeciesCandidates = tdsRouteCandidateRows.filter(
+      (row) => row.product_slug === productSlug && relatedSpecies(canonicalMetal(row.metal_species), metal),
+    )
     const basisValues = unique(loadedRows.map((row) => row.basis).filter(Boolean))
     const rowFits = unique(loadedRows.map((row) => row.row_fit).filter(Boolean))
 
@@ -70,6 +81,8 @@ for (const productSlug of productSlugs) {
       p2Rows,
       p3Rows,
       summaryOnlyRows,
+      tdsCandidatesForMetal,
+      tdsRelatedSpeciesCandidates,
     })
 
     reportRows.push({
@@ -87,6 +100,8 @@ for (const productSlug of productSlugs) {
       candidate_pdf_match_count: unique(p2Rows.map((row) => row.source_id)).length,
       missing_pdf_count: unique(p3Rows.map((row) => row.source_id)).length,
       source_on_page_no_structured_value_count: unique(sourceRowsMissingValues.map((row) => row.source_id)).length,
+      tds_product_route_candidate_count: tdsCandidatesForMetal.length,
+      tds_product_route_foods: tdsFoodList(tdsCandidatesForMetal),
       regulatory_reference_status: regulatoryStatus(regulatoryMatches),
       aggregate_hmtc_p90_status: status.status,
       evidence_needed: status.evidence_needed,
@@ -113,6 +128,8 @@ writeCsv(outputPath, reportRows, [
   "candidate_pdf_match_count",
   "missing_pdf_count",
   "source_on_page_no_structured_value_count",
+  "tds_product_route_candidate_count",
+  "tds_product_route_foods",
   "regulatory_reference_status",
   "aggregate_hmtc_p90_status",
   "evidence_needed",
@@ -130,24 +147,45 @@ const summary = {
   by_aggregate_status: countBy(reportRows, (row) => row.aggregate_hmtc_p90_status),
   rows_with_pending_local_extracts: reportRows.filter((row) => Number(row.pending_local_extract_source_count) > 0).length,
   rows_with_missing_pdfs: reportRows.filter((row) => Number(row.missing_pdf_count) > 0).length,
+  rows_with_tds_product_route_candidates: reportRows.filter((row) => Number(row.tds_product_route_candidate_count) > 0).length,
 }
 writeStableJsonSummary(summaryOutputPath, summary)
 
 console.log(`Wrote ${reportRows.length} HMTc standards gap rows to ${path.relative(repoRoot, outputPath)}`)
 console.log(`Wrote HMTc standards gap summary to ${path.relative(repoRoot, summaryOutputPath)}`)
 
-function aggregateStatus({ metal, loadedRows, loadedRelatedSpeciesRows, distributionSourceIds, p0Rows, p2Rows, p3Rows, summaryOnlyRows }) {
+function aggregateStatus({
+  metal,
+  loadedRows,
+  loadedRelatedSpeciesRows,
+  distributionSourceIds,
+  p0Rows,
+  p2Rows,
+  p3Rows,
+  summaryOnlyRows,
+  tdsCandidatesForMetal,
+  tdsRelatedSpeciesCandidates,
+}) {
   const pendingLocalCount = unique(p0Rows.map((row) => row.source_id)).length
   const candidateCount = unique(p2Rows.map((row) => row.source_id)).length
   const missingCount = unique(p3Rows.map((row) => row.source_id)).length
   const loadedSourceCount = unique(loadedRows.map((row) => row.source_id).filter(Boolean)).length
-  const relatedOnlyCount = loadedRelatedSpeciesRows.length
+  const relatedOnlyCount = loadedRelatedSpeciesRows.length + tdsRelatedSpeciesCandidates.length
 
   if (loadedRows.length === 0 && relatedOnlyCount > 0 && speciesNeedsExactMatch(metal)) {
     return {
       status: "BLOCKED: species-specific evidence missing",
       evidence_needed: `Load ${metal} rows for this product; related total-species rows cannot substitute.`,
       notes: "Total/speciated analytes are intentionally separated before HMTc standards math.",
+    }
+  }
+
+  if (loadedRows.length === 0 && tdsCandidatesForMetal.length > 0) {
+    return {
+      status: "BLOCKED: TDS product route review pending",
+      evidence_needed:
+        "Review FDA TDS product-route candidate rows for product scope, basis, species, and small-N limits before promotion.",
+      notes: "TDS candidates are visible in data/evidence/fda_tds_product_route_candidates.csv; do not use them as HMTc p90 values until reviewed.",
     }
   }
 
@@ -411,6 +449,15 @@ function unique(values) {
 
 function sourceList(rows) {
   return unique(rows.map((row) => row.source_id).filter(Boolean)).join("; ")
+}
+
+function tdsFoodList(rows) {
+  return unique(
+    rows.map((row) => {
+      const number = row.tds_food_number ? `TDS ${row.tds_food_number}` : "TDS food"
+      return `${number}: ${row.tds_food_description || row.ingredient_label || row.source_id}`
+    }),
+  ).join("; ")
 }
 
 function countBy(rows, keyFn) {
