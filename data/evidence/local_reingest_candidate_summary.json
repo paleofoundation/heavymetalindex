@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-07T10:59:52.753Z",
+  "generated_at": "2026-05-07T11:08:52.340Z",
   "product_filter": "all",
   "source_count": 37,
-  "deterministic_candidate_value_count": 8,
-  "source_task_count": 35,
+  "deterministic_candidate_value_count": 16,
+  "source_task_count": 33,
   "by_source": {
-    "chung2021-china-infant-formula-toxic-elements": 8
+    "chung2021-china-infant-formula-toxic-elements": 16
   },
   "by_metal": {
-    "Cr-total": 2,
-    "tAs": 2,
-    "Cd": 2,
-    "Pb": 2
+    "Cr-total": 4,
+    "tAs": 4,
+    "Cd": 4,
+    "Pb": 4
   },
   "by_extraction_method": {
-    "deterministic_parser_chung2021_table4_total": 8
+    "deterministic_parser_chung2021_table4_total": 16
   }
 }

@@ -180,7 +180,19 @@ function hmtcRowMeta(productSlug) {
 }
 
 function valueBasis(basis) {
-  return basis === "prepared_for_feeding" || basis === "as_consumed" ? "reconstituted" : "as_sold"
+  const text = String(basis || "").trim()
+  if (
+    text === "prepared_for_feeding" ||
+    text === "as_consumed" ||
+    text === "as_sold" ||
+    text === "wet_weight" ||
+    text === "dry_weight" ||
+    text === "reconstituted" ||
+    text === "not_reported"
+  ) {
+    return text
+  }
+  return "as_sold"
 }
 
 function publicLabelForEvidenceFitness(verdict) {

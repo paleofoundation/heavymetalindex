@@ -78,6 +78,7 @@ function deterministicExtract(queueRow, text) {
   if (queueRow.source_id === "almeida2022-brazil-infant-formula-toxic-metals") return extractAlmeida2022(queueRow, text)
   if (queueRow.source_id === "burrell2010-aluminium-in-infant-formulas") return extractBurrell2010(queueRow, text)
   if (queueRow.source_id === "chuchu2013-aluminium-in-infant-formulas") return extractChuchu2013(queueRow, text)
+  if (queueRow.source_id === "dabeka1987-canada-infant-formula-lead-cadmium") return extractDabeka1987(queueRow, text)
   return []
 }
 
@@ -86,6 +87,87 @@ function filterCandidateMetals(queueRow, candidates) {
   if (missingMetals.length === 0) return candidates
   const missingKeys = new Set(missingMetals.map(canonicalMetal).filter(Boolean))
   return candidates.filter((candidate) => missingKeys.has(canonicalMetal(candidate.metal_species)))
+}
+
+function extractDabeka1987(queueRow, text) {
+  if (!text.includes("Lead, Cadmium, and Fluoride Levels in Market Milk and Infant Formulas in Canada")) return []
+  if (!text.includes("Table 3. Cadmium levels")) return []
+
+  const sourceRows = {
+    "infant-formula-powder-non-soy": {
+      source_product_label: "Infant formula powders, milk-base",
+      basis: "as_sold",
+      n: "17",
+      n_text: "Table 3 reports infant formula powders, milk-base, n=17.",
+      mean_ppb: "1.02",
+      p50_ppb: "0.6",
+      min_ppb: "",
+      max_ppb: "4.3",
+      quote_trace:
+        "Dabeka 1987 Table 3 reports infant formula powders, milk-base: n=17, mean Cd 1.02 ng/g, median 0.6 ng/g, range <0.07-4.3 ng/g.",
+      notes:
+        "Deterministic parse of Dabeka 1987 Table 3 cadmium milk-base powder row. The lower range value is censored as <0.07 ng/g and is retained in notes rather than imputed. Lead powder values are not soy-split and remain queued separately.",
+      source_row_order: "1",
+    },
+    "infant-formula-powder-soy-based": {
+      source_product_label: "Infant formula powders, milk-free or soy-base",
+      basis: "as_sold",
+      n: "15",
+      n_text: "Table 3 reports infant formula powders, milk-free or soy-base, n=15.",
+      mean_ppb: "13.3",
+      p50_ppb: "12.0",
+      min_ppb: "1.1",
+      max_ppb: "35",
+      quote_trace:
+        "Dabeka 1987 Table 3 reports infant formula powders, milk-free or soy-base: n=15, mean Cd 13.3 ng/g, median 12.0 ng/g, range 1.1-35 ng/g.",
+      notes:
+        "Deterministic parse of Dabeka 1987 Table 3 cadmium milk-free or soy-base powder row. Lead powder values are not soy-split and remain queued separately.",
+      source_row_order: "2",
+    },
+    "infant-formula-rtf-liquid-non-soy": {
+      source_product_label: "Ready-to-use formula, milk-base",
+      basis: "as_consumed",
+      n: "13",
+      n_text: "Table 3 reports ready-to-use formula, milk-base, n=13.",
+      mean_ppb: "0.27",
+      p50_ppb: "0.08",
+      min_ppb: "0.05",
+      max_ppb: "0.78",
+      quote_trace:
+        "Dabeka 1987 Table 3 reports ready-to-use formulas, milk-base: n=13, mean Cd 0.27 ng/g, median 0.08 ng/g, range 0.05-0.78 ng/g.",
+      notes:
+        "Deterministic parse of Dabeka 1987 Table 3 cadmium milk-base ready-to-use row. Lead ready-to-use rows are glass/can split rather than soy/non-soy split and remain queued separately.",
+      source_row_order: "3",
+    },
+    "infant-formula-rtf-liquid-soy-based": {
+      source_product_label: "Ready-to-use formula, milk-free or soy-base",
+      basis: "as_consumed",
+      n: "16",
+      n_text: "Table 3 reports ready-to-use formula, milk-free or soy-base, n=16.",
+      mean_ppb: "2.35",
+      p50_ppb: "1.64",
+      min_ppb: "0.18",
+      max_ppb: "7.55",
+      quote_trace:
+        "Dabeka 1987 Table 3 reports ready-to-use formulas, milk-free or soy-base: n=16, mean Cd 2.35 ng/g, median 1.64 ng/g, range 0.18-7.55 ng/g.",
+      notes:
+        "Deterministic parse of Dabeka 1987 Table 3 cadmium milk-free or soy-base ready-to-use row. Lead ready-to-use rows are glass/can split rather than soy/non-soy split and remain queued separately.",
+      source_row_order: "4",
+    },
+  }
+
+  const row = sourceRows[queueRow.product_slug]
+  if (!row) return []
+  return [
+    candidateRow(queueRow, {
+      candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-Cd-milk-soy-split`,
+      metal_species: "Cd",
+      statistic_type: "source_reported_mean_median_range",
+      row_fit: "direct_category1_row",
+      extraction_method: "deterministic_parser_dabeka1987_table3_cadmium_formula_splits",
+      ...row,
+    }),
+  ]
 }
 
 function extractBurrell2010(queueRow, text) {
@@ -444,7 +526,7 @@ function candidateRow(queueRow, values) {
     mean_ub_ppb: values.mean_ub_ppb ?? "",
     min_ppb: values.min_ppb ?? "",
     max_ppb: values.max_ppb ?? "",
-    p50_ppb: "",
+    p50_ppb: values.p50_ppb ?? "",
     p90_ppb: "",
     p95_ppb: "",
     unit: "ppb",
