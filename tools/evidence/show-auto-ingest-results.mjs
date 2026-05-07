@@ -17,6 +17,7 @@ const packetManifestPath = path.join(
 )
 const candidateSummaryPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_summary.json")
 const candidateValuesPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_values.csv")
+const contextDispositionPath = path.join(repoRoot, "data/evidence/local_reingest_context_dispositions.csv")
 const extractionTasksPath = path.join(repoRoot, "data/evidence/local_reingest_extraction_tasks.csv")
 const tdsRouteCandidatePath = path.join(repoRoot, "data/evidence/fda_tds_product_route_candidates.csv")
 const tdsRouteSummaryPath = path.join(repoRoot, "data/evidence/fda_tds_product_route_summary.json")
@@ -28,6 +29,9 @@ const gapRows = fs.existsSync(gapPath) ? parseCsv(fs.readFileSync(gapPath, "utf8
 const queueRows = fs.existsSync(queuePath) ? parseCsv(fs.readFileSync(queuePath, "utf8")) : []
 const packetRows = fs.existsSync(packetManifestPath) ? parseCsv(fs.readFileSync(packetManifestPath, "utf8")) : []
 const taskRows = fs.existsSync(extractionTasksPath) ? parseCsv(fs.readFileSync(extractionTasksPath, "utf8")) : []
+const contextDispositionRows = fs.existsSync(contextDispositionPath)
+  ? parseCsv(fs.readFileSync(contextDispositionPath, "utf8"))
+  : []
 const tdsRouteCandidateRows = fs.existsSync(tdsRouteCandidatePath)
   ? parseCsv(fs.readFileSync(tdsRouteCandidatePath, "utf8"))
   : []
@@ -42,6 +46,9 @@ const syncSummary = fs.existsSync(syncSummaryPath) ? JSON.parse(fs.readFileSync(
 const filteredGapRows = product ? gapRows.filter((row) => row.product_slug === product) : gapRows
 const filteredQueueRows = product ? queueRows.filter((row) => row.product_slug === product) : queueRows
 const filteredTaskRows = product ? taskRows.filter((row) => row.product_slug === product) : taskRows
+const filteredContextDispositionRows = product
+  ? contextDispositionRows.filter((row) => row.product_slug === product)
+  : contextDispositionRows
 const filteredTdsRouteRows = product
   ? tdsRouteCandidateRows.filter((row) => row.product_slug === product)
   : tdsRouteCandidateRows
@@ -59,6 +66,15 @@ console.log(`HMTc gap rows: ${filteredGapRows.length}`)
 console.log(`PDF packets: ${packetRows.length}`)
 if (candidateSummary.deterministic_candidate_value_count !== undefined) {
   console.log(`Deterministic candidate rows: ${candidateSummary.deterministic_candidate_value_count}`)
+}
+if (candidateSummary.context_disposition_count !== undefined || filteredContextDispositionRows.length > 0) {
+  console.log(`Context disposition rows: ${filteredContextDispositionRows.length}`)
+}
+if (gapSummary.rows_with_local_candidate_values !== undefined) {
+  console.log(`Standards rows with local candidates: ${gapSummary.rows_with_local_candidate_values}`)
+}
+if (gapSummary.rows_with_context_dispositions !== undefined) {
+  console.log(`Standards rows with context dispositions: ${gapSummary.rows_with_context_dispositions}`)
 }
 if (tdsRouteSummary.direct_product_route_candidate_rows !== undefined || filteredTdsRouteRows.length > 0) {
   console.log(`FDA TDS product-route candidate rows: ${filteredTdsRouteRows.length}`)
@@ -91,6 +107,13 @@ if (Object.keys(candidateSummary.by_source ?? {}).length) {
   console.log("")
 }
 
+const dispositionCounts = countBy(filteredContextDispositionRows, (row) => row.disposition_status)
+if (Object.keys(dispositionCounts).length) {
+  console.log("Context dispositions by status")
+  for (const [key, value] of Object.entries(dispositionCounts)) console.log(`- ${key}: ${value}`)
+  console.log("")
+}
+
 if (Object.keys(syncSummary.by_change_status ?? {}).length || Object.keys(syncSummary.by_action_status ?? {}).length) {
   console.log("Persistent local ingest state")
   for (const [key, value] of Object.entries(syncSummary.by_change_status ?? {})) console.log(`- ${key}: ${value}`)
@@ -110,6 +133,7 @@ console.log("Files")
 console.log(`- ${path.relative(repoRoot, gapPath)}`)
 console.log(`- ${path.relative(repoRoot, queuePath)}`)
 console.log(`- ${path.relative(repoRoot, candidateValuesPath)}`)
+console.log(`- ${path.relative(repoRoot, contextDispositionPath)}`)
 console.log(`- ${path.relative(repoRoot, extractionTasksPath)}`)
 console.log(`- ${path.relative(repoRoot, tdsRouteCandidatePath)}`)
 console.log(`- ${path.relative(repoRoot, syncChangesPath)}`)
@@ -119,6 +143,7 @@ console.log("")
 console.log("Open in Finder or spreadsheet")
 console.log(`open ${shellQuote(path.relative(repoRoot, gapPath))}`)
 console.log(`open ${shellQuote(path.relative(repoRoot, candidateValuesPath))}`)
+console.log(`open ${shellQuote(path.relative(repoRoot, contextDispositionPath))}`)
 console.log(`open ${shellQuote(path.relative(repoRoot, tdsRouteCandidatePath))}`)
 console.log(`open ${shellQuote(path.relative(repoRoot, syncChangesPath))}`)
 console.log(`open -R ${shellQuote(path.relative(repoRoot, gapPath))}`)
@@ -191,6 +216,14 @@ function printMetalRows(rows) {
     if (row.pending_local_extract_source_count && row.pending_local_extract_source_count !== "0") {
       console.log(`  local papers ready to extract: ${row.pending_local_extract_source_count}`)
     }
+    if (row.local_candidate_value_count && row.local_candidate_value_count !== "0") {
+      console.log(`  local candidate rows: ${row.local_candidate_value_count}`)
+    }
+    if (row.context_disposition_count && row.context_disposition_count !== "0") {
+      console.log(`  context dispositions: ${row.context_disposition_count}`)
+    }
+    if (row.local_candidates_to_review) console.log(`  candidates to review: ${row.local_candidates_to_review}`)
+    if (row.context_dispositions) console.log(`  context-only sources: ${row.context_dispositions}`)
     if (row.papers_to_find) console.log(`  papers to find: ${row.papers_to_find}`)
     if (row.evidence_needed) console.log(`  needed: ${row.evidence_needed}`)
   }
@@ -238,6 +271,8 @@ function severityRank(status) {
   if (status === "BLOCKED: no structured evidence loaded") return 0
   if (status === "BLOCKED: species-specific evidence missing") return 1
   if (status === "BLOCKED: local extraction pending") return 2
+  if (status === "BLOCKED: local candidate review pending") return 2
+  if (status === "BLOCKED: documented local sources are context-only") return 2
   if (status === "BLOCKED: PDF match review pending") return 2
   if (status === "BLOCKED: source document missing") return 2
   if (status === "BLOCKED: TDS product route review pending") return 2

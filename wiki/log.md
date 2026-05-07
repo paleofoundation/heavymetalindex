@@ -287,3 +287,7 @@ Notes: Added partial-candidate tracking so deterministic source parsers can keep
 ## [2026-05-07] tooling | local-context-dispositions — read-but-not-routeable sources documented
 Pages affected: [[products/plant-milks-rice-based]], [[products/plant-milks-soy-based]], [[products/plant-milks-non-soy-non-rice]], [[products/fish-containing-baby-foods]], [[products/fruit-purees]], [[products/teething-and-snacks-rice-based]]
 Notes: Added a local context-disposition register so source/product/metal routes that were read but do not yield routeable product values stop appearing as unresolved extraction tasks. The candidate extractor now writes 46 context dispositions and zero source-specific extraction tasks alongside the 114 non-public candidate rows. The standards gap report distinguishes local candidate-review blockers from documented context-only routes; no candidate or disposition row is promoted to public HMTc math, and no p50, p90, or p95 was inferred.
+
+## [2026-05-07] tooling | ingest-results-context-dispositions — result viewer shows disposition state
+Pages affected: [[methodology/persistent-wiki-ingest-rule]]
+Notes: Updated the local ingest results viewer and evidence README so candidate rows, context dispositions, standards rows with candidate values, and standards rows with context-only dispositions are visible in one command. The overview now ranks local candidate-review and documented context-only blockers with other actionable ingest blockers instead of burying them below lower-priority states.

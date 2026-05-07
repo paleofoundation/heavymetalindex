@@ -41,6 +41,13 @@ and Category 1 pilot coverage registers.
 - `local_reingest_queue.csv`: generated work queue from the routing audit and
   local raw-file inventory. Queue priority is highest for locked-row extraction;
   bridge/base rows remain visible as context-only review work.
+- `local_reingest_candidate_values.csv`: deterministic candidate rows parsed
+  from local source packets. These are non-public review inputs until promoted.
+- `local_reingest_context_dispositions.csv`: source/product/metal routes that
+  were read but documented as context-only, not routeable, or table-review
+  blocked. This prevents read sources from remaining as vague extraction tasks.
+- `local_reingest_extraction_tasks.csv`: remaining source-specific extraction
+  prompts after deterministic candidates and context dispositions are written.
 - `category1_lead_benchmark_context.csv`: ppb-normalized Category 1 lead
   benchmark context, including FDA status/value, EU maximum-level ppb values,
   Prop 65 serving-based ppb equivalents, and HMTc/public interpretation notes.
