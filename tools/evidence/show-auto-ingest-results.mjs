@@ -106,9 +106,9 @@ if (Object.keys(queuePriorityCounts).length) {
   console.log("")
 }
 
-const readinessCounts = countBy(filteredGapRows, (row) => row.aggregate_hmtc_p90_status)
+const readinessCounts = countBy(filteredGapRows, (row) => aggregateStatus(row))
 if (Object.keys(readinessCounts).length) {
-  console.log("HMTc p90 readiness")
+  console.log("HMTc standards-percentile readiness")
   for (const [key, value] of Object.entries(readinessCounts)) console.log(`- ${key}: ${value}`)
   console.log("")
 }
@@ -234,7 +234,7 @@ function parseCsv(text) {
 function printMetalRows(rows) {
   console.log("Metal-level gap report")
   for (const row of rows) {
-    console.log(`- ${row.product_label || row.product_slug} / ${row.metal_species}: ${row.aggregate_hmtc_p90_status}`)
+    console.log(`- ${row.product_label || row.product_slug} / ${row.metal_species}: ${aggregateStatus(row)}`)
     if (row.loaded_source_count || row.loaded_n) {
       console.log(`  loaded sources: ${row.loaded_source_count || 0}; loaded N: ${row.loaded_n || 0}`)
     }
@@ -259,12 +259,13 @@ function printGapOverview(rows, limit) {
   const groups = new Map()
 
   for (const row of rows) {
-    const key = `${row.product_slug}::${row.aggregate_hmtc_p90_status}`
+    const status = aggregateStatus(row)
+    const key = `${row.product_slug}::${status}`
     if (!groups.has(key)) {
       groups.set(key, {
         product_slug: row.product_slug,
         product_label: row.product_label || row.product_slug,
-        status: row.aggregate_hmtc_p90_status,
+        status,
         metals: [],
         evidence_needed: row.evidence_needed,
       })
@@ -290,6 +291,10 @@ function printGapOverview(rows, limit) {
     console.log(`... ${ranked.length - limit} more groups hidden; rerun with --limit ${ranked.length} or --product <slug>.`)
   }
   console.log("")
+}
+
+function aggregateStatus(row) {
+  return row.aggregate_hmtc_percentile_status || ""
 }
 
 function printActionQueue(rows, limit) {
@@ -321,7 +326,7 @@ function severityRank(status) {
   if (status === "BLOCKED: TDS product route review pending") return 2
   if (status === "BLOCKED: summary evidence only") return 3
   if (status === "BLOCKED: evidence fitness review needed") return 4
-  if (status === "DO NOT PUBLISH P90: single distribution-capable source") return 5
+  if (status.startsWith("DO NOT PUBLISH ") && status.endsWith(": single distribution-capable source")) return 5
   if (status === "PENDING: aggregate math after local extraction") return 6
   if (status === "READY FOR AGGREGATE MATH REVIEW") return 7
   if (status === "CONTEXT ONLY: not a locked HMTc standards row") return 8

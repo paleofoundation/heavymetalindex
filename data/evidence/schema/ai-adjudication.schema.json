@@ -12,7 +12,9 @@
     "product_slug",
     "product_label",
     "metal_species",
-    "aggregate_hmtc_p90_status",
+    "hmtc_standard_percentile_target",
+    "hmtc_standard_statistic",
+    "aggregate_hmtc_percentile_status",
     "required_decisions",
     "input_artifacts",
     "guardrails",
@@ -61,7 +63,15 @@
     "source_ids": {
       "type": "string"
     },
-    "aggregate_hmtc_p90_status": {
+    "hmtc_standard_percentile_target": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hmtc_standard_statistic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aggregate_hmtc_percentile_status": {
       "type": "string",
       "minLength": 1
     },

@@ -52,6 +52,8 @@ This peer-reviewed study measured lead and cadmium in 564 US infant formula and 
 
 ## Full-Sample Concentration Distribution
 
+These percentiles describe the paper's full 564-product source pool. They are not cereal-specific, formula-format-specific, rice-status-specific, or HMTc aggregate threshold values.
+
 | Analyte | N | Detection frequency | p25 | p50 | p75 | p90 | p95 | p99 | p100 max | Unit | Table |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
 | [[metals/cadmium|Cadmium]] | 564 | 321/564, 57% | 0, non-detect | 2.76 | 9.54 | 20.75 | 29.44 | 42.50 | 103.90 | ug/kg, equivalent to ppb | Table 1 |
@@ -76,6 +78,8 @@ The paper reports infant-formula values as estimated daily intake from 31 oz for
 
 ## Solid Baby-Food Exceedance Findings
 
+The solid-food tables report exceedance counts by broad food type and intake scenario. They support category-risk context, but they do not provide category-specific concentration percentiles.
+
 | Analyte | Scenario | All solid baby foods | Category notes | Table |
 | --- | --- | --- | --- | --- |
 | [[metals/lead|Lead]] | Exceeded FDA daily lead limit in 300 calories | 15/471, 3.18% | Pouches 9/138, 6.52%; cereals 1/30, 3.33%; jars/meals 3/112, 2.68% | Table 2 |
@@ -93,7 +97,7 @@ This was a convenience sample rather than a random representative market sample.
 
 ## Implications
 
-- Certification: Strong A-tier distribution source for Pb and Cd in US infant formula and baby foods, especially because it reports p90, p95, and p100 values for the full sample and exposure percentiles for formula.
+- Certification: Strong A-tier occurrence-context source for Pb and Cd in US infant formula and baby foods. Its full-sample p90/p95/p100 values are source-scope context, not HMTc aggregate thresholds; the main paper does not publish cereal-specific, non-rice-specific, or formula-format-specific concentration percentiles.
 - Courses: Useful demonstration of why product concentration, daily intake, and threshold exceedance tables must not be mixed.
 - App: Supports rice, quinoa, wheat/oat, sweet-potato, cereal, snack, pouch, and formula risk features after row-specific mapping.
 - Microbiome: No direct microbiome endpoint.

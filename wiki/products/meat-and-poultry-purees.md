@@ -146,7 +146,7 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 <!-- audience: regulator, educator, app -->
 
-These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc p90 or p95 calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
+These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc standards-percentile calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
 
 | Source | Title | Source scope | Metals | Row-fit handling |
 | --- | --- | --- | --- | --- |

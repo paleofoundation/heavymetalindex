@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T16:27:55.951Z",
+  "generated_at": "2026-05-07T16:54:15.295Z",
   "product_filter": "all",
   "total_action_rows": 57,
   "by_action_priority": {
@@ -21,9 +21,16 @@
     "BLOCKED: documented local sources are context-only": 3,
     "BLOCKED: no structured evidence loaded": 16,
     "BLOCKED: summary evidence only": 16,
-    "DO NOT PUBLISH P90: single distribution-capable source": 15,
+    "DO NOT PUBLISH CLEAN P90: single distribution-capable source": 5,
+    "DO NOT PUBLISH DIRTY P10: single distribution-capable source": 7,
+    "DO NOT PUBLISH INDEPENDENT P90: single distribution-capable source": 3,
     "BLOCKED: evidence fitness review needed": 3,
     "READY FOR AGGREGATE MATH REVIEW": 1
+  },
+  "by_standard_percentile_target": {
+    "dirty_p10": 24,
+    "clean_p90": 21,
+    "independent_p90": 12
   },
   "top_actions": [
     {

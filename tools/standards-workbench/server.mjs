@@ -1246,7 +1246,7 @@ function promptsFor(row, metal, records, blockers, standardBasis) {
     },
     {
       label: "Confidence Work",
-      prompt: `Using sample-level values for ${category} and ${metal}, compute nearest-rank p10/p50/p90/p95/p100, bootstrap confidence intervals for the row-standard statistic (${standardBasis.statistic_label}), and a clean-vs-dirty distribution comparison where a paired comparator exists. If only summary statistics are available, preserve mean/median/range/min/max/SD as context and mark percentile or p-value calculations as not computable from the public summary alone. Note all non-detect substitution assumptions.`,
+      prompt: `Using sample-level values for ${category} and ${metal}, compute the row-standard statistic (${standardBasis.statistic_label}) and bootstrap confidence intervals for that statistic. Clean benchmark rows use clean-platform p90; dirty contamination-platform rows use contaminated-platform p10. Do not calculate dirty p90 or clean p10 as limit-setting targets. If a paired comparator exists, compare clean p90 against dirty p10 for separation context. If only summary statistics are available, preserve mean/median/range/min/max/SD as context and mark percentile or p-value calculations as not computable from the public summary alone. Note all non-detect substitution assumptions.`,
     },
     {
       label: "Standards Note",

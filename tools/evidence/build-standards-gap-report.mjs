@@ -25,6 +25,9 @@ const summaryOutputPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_
 const args = parseArgs(process.argv.slice(2))
 const productFilter = args.get("product") ?? ""
 const includeQueueOnlyMetals = args.get("include-queue-only-metals") === "true"
+const dirtyStandardPercentile = normalizeDirtyStandardPercentile(
+  args.get("dirty-standard-percentile") ?? process.env.HMTC_DIRTY_STANDARD_PERCENTILE ?? "p10",
+)
 
 const productPages = readProductPages()
 const valueRows = readOccurrenceSummaryRows()
@@ -54,6 +57,7 @@ const reportRows = []
 for (const productSlug of productSlugs) {
   const product = productPages.get(productSlug) ?? { label: readableSlug(productSlug), metals: [] }
   const productStandardScope = standardScopeForProduct(product)
+  const percentileTarget = percentileTargetForProduct(product, productStandardScope)
   const metals = metalsForProduct(
     productSlug,
     product,
@@ -73,6 +77,7 @@ for (const productSlug of productSlugs) {
     const regulatoryMatches = regulatoryRows.filter(
       (row) => row.product_slug === productSlug && splitMetals(row.metal_species).some((item) => canonicalMetal(item) === metal),
     )
+    const regulatoryCap = lowestRegulatoryCap(regulatoryMatches)
     const pendingRows = queueRows.filter((row) => row.product_slug === productSlug)
     const pendingForMetal = pendingRows.filter((row) => queueMetals(row).some((item) => canonicalMetal(item) === metal))
     const loadedResolutionKeys = new Set(
@@ -100,11 +105,13 @@ for (const productSlug of productSlugs) {
     )
 
     const loadedSourceIds = unique(loadedRows.map((row) => row.source_id).filter(Boolean))
-    const distributionRows = loadedRows.filter((row) => hasValue(row.p90_ppb))
+    const distributionRows = percentileTarget.value_column
+      ? loadedRows.filter((row) => hasValue(row[percentileTarget.value_column]))
+      : []
     const distributionSourceIds = unique(distributionRows.map((row) => row.source_id).filter(Boolean))
     const summaryOnlyRows = loadedRows.filter(
       (row) =>
-        !hasValue(row.p90_ppb) &&
+        (!percentileTarget.value_column || !hasValue(row[percentileTarget.value_column])) &&
         (hasValue(row.mean_ppb) ||
           hasValue(row.median_ppb) ||
           hasValue(row.max_ppb) ||
@@ -128,6 +135,8 @@ for (const productSlug of productSlugs) {
     const status = aggregateStatus({
       metal,
       productStandardScope,
+      percentileTarget,
+      regulatoryCap,
       loadedRows,
       loadedRelatedSpeciesRows,
       distributionSourceIds,
@@ -146,6 +155,8 @@ for (const productSlug of productSlugs) {
       product_label: product.label,
       product_standard_scope: productStandardScope,
       product_review_state: product.review_state,
+      hmtc_standard_percentile_target: percentileTarget.target,
+      hmtc_standard_statistic: percentileTarget.statistic,
       metal_species: metal,
       loaded_source_count: loadedSourceIds.length,
       loaded_n: sumNumeric(loadedRows.map((row) => row.n)),
@@ -162,8 +173,10 @@ for (const productSlug of productSlugs) {
       context_disposition_count: contextDispositionsForMetal.length,
       tds_product_route_candidate_count: tdsCandidatesForMetal.length,
       tds_product_route_foods: tdsFoodList(tdsCandidatesForMetal),
+      lowest_regulatory_cap_ug_kg: regulatoryCap.value ?? "",
+      lowest_regulatory_cap_source: regulatoryCap.source ?? "",
       regulatory_reference_status: regulatoryStatus(regulatoryMatches),
-      aggregate_hmtc_p90_status: status.status,
+      aggregate_hmtc_percentile_status: status.status,
       evidence_needed: status.evidence_needed,
       local_papers_to_extract: sourceList(p0Rows),
       local_candidates_to_review: sourceList(localCandidatesForMetal),
@@ -180,6 +193,8 @@ writeCsv(outputPath, reportRows, [
   "product_label",
   "product_standard_scope",
   "product_review_state",
+  "hmtc_standard_percentile_target",
+  "hmtc_standard_statistic",
   "metal_species",
   "loaded_source_count",
   "loaded_n",
@@ -196,8 +211,10 @@ writeCsv(outputPath, reportRows, [
   "context_disposition_count",
   "tds_product_route_candidate_count",
   "tds_product_route_foods",
+  "lowest_regulatory_cap_ug_kg",
+  "lowest_regulatory_cap_source",
   "regulatory_reference_status",
-  "aggregate_hmtc_p90_status",
+  "aggregate_hmtc_percentile_status",
   "evidence_needed",
   "local_papers_to_extract",
   "local_candidates_to_review",
@@ -211,11 +228,13 @@ const summary = {
   generated_at: new Date().toISOString(),
   product_filter: productFilter || "all",
   include_queue_only_metals: includeQueueOnlyMetals,
+  dirty_standard_percentile: dirtyStandardPercentile,
   occurrence_summary_files: occurrenceSummaryFiles,
   total_gap_rows: reportRows.length,
   rows_in_locked_hmtc_scope: reportRows.filter((row) => row.product_standard_scope === "locked_hmtc_row").length,
   rows_outside_locked_hmtc_scope: reportRows.filter((row) => row.product_standard_scope !== "locked_hmtc_row").length,
-  by_aggregate_status: countBy(reportRows, (row) => row.aggregate_hmtc_p90_status),
+  by_aggregate_status: countBy(reportRows, (row) => row.aggregate_hmtc_percentile_status),
+  by_standard_percentile_target: countBy(reportRows, (row) => row.hmtc_standard_percentile_target),
   rows_with_pending_local_extracts: reportRows.filter((row) => Number(row.pending_local_extract_source_count) > 0).length,
   rows_with_missing_pdfs: reportRows.filter((row) => Number(row.missing_pdf_count) > 0).length,
   rows_with_local_candidate_values: reportRows.filter((row) => Number(row.local_candidate_value_count) > 0).length,
@@ -230,6 +249,8 @@ console.log(`Wrote HMTc standards gap summary to ${path.relative(repoRoot, summa
 function aggregateStatus({
   metal,
   productStandardScope,
+  percentileTarget,
+  regulatoryCap,
   loadedRows,
   loadedRelatedSpeciesRows,
   distributionSourceIds,
@@ -249,13 +270,14 @@ function aggregateStatus({
   const relatedOnlyCount = loadedRelatedSpeciesRows.length + tdsRelatedSpeciesCandidates.length
   const localCandidateCount = localCandidatesForMetal.length
   const contextDispositionCount = contextDispositionsForMetal.length
+  const capText = regulatoryCapInstruction(regulatoryCap)
 
   if (productStandardScope !== "locked_hmtc_row") {
     const isContextOnly = productStandardScope === "bridge_context" || productStandardScope === "base_context"
     return {
       status: isContextOnly ? "CONTEXT ONLY: not a locked HMTc standards row" : "OUT OF SCOPE: not a locked HMTc standards row",
       evidence_needed:
-        "Keep this row visible for source routing and exposure context; do not compute an HMTc p90 unless it is promoted into the locked row architecture.",
+        "Keep this row visible for source routing and exposure context; do not compute an HMTc standards percentile unless it is promoted into the locked row architecture.",
       notes: `Product scope: ${productStandardScope}.`,
     }
   }
@@ -273,7 +295,7 @@ function aggregateStatus({
       status: "BLOCKED: TDS product route review pending",
       evidence_needed:
         "Review FDA TDS product-route candidate rows for product scope, basis, species, and small-N limits before promotion.",
-      notes: "TDS candidates are visible in data/evidence/fda_tds_product_route_candidates.csv; do not use them as HMTc p90 values until reviewed.",
+      notes: "TDS candidates are visible in data/evidence/fda_tds_product_route_candidates.csv; do not use them as HMTc standards values until reviewed.",
     }
   }
 
@@ -283,7 +305,7 @@ function aggregateStatus({
       evidence_needed:
         "Review deterministic local candidate rows for source table, product fit, basis, species, unit, and N before promotion.",
       notes:
-        "Candidate rows are non-public review inputs; do not use them as HMTc p90 values until promoted.",
+        "Candidate rows are non-public review inputs; do not use them as HMTc standards values until promoted.",
     }
   }
 
@@ -323,7 +345,7 @@ function aggregateStatus({
   if (loadedRows.length === 0) {
     return {
       status: "BLOCKED: no structured evidence loaded",
-      evidence_needed: "Add or route fit-source product evidence before any HMTc p90 decision.",
+      evidence_needed: `Add or route fit-source product evidence before any HMTc ${percentileTarget.label} decision.${capText}`,
       notes: "",
     }
   }
@@ -332,39 +354,39 @@ function aggregateStatus({
     return {
       status: "BLOCKED: summary evidence only",
       evidence_needed:
-        "Loaded rows support N/mean/median/max context, but aggregate p90 needs sample-level values or explicitly reported percentiles from fit sources.",
-      notes: "Do not invent p50/p90/p95 from ranges or means.",
+        `Loaded rows support N/mean/median/max context, but aggregate ${percentileTarget.label} needs sample-level values or explicitly reported target percentiles from fit sources.${capText}`,
+      notes: `Do not invent ${percentileTarget.statistic}, p50, or p95 from ranges or means.`,
     }
   }
 
   if (distributionSourceIds.length === 1) {
     const extra = pendingLocalCount > 0 ? " Extract pending local sources before deciding." : ""
     return {
-      status: "DO NOT PUBLISH P90: single distribution-capable source",
-      evidence_needed: `Aggregate HMTc p90 needs multiple fit sources, not one source-reported or reconstructed distribution.${extra}`,
-      notes: "A single source can remain loaded evidence, but it is not the HMTc aggregate.",
+      status: `DO NOT PUBLISH ${percentileTarget.short_label}: single distribution-capable source`,
+      evidence_needed: `Aggregate HMTc ${percentileTarget.label} needs multiple fit sources, not one source-reported or reconstructed distribution.${extra}${capText}`,
+      notes: "A single source can remain loaded evidence, but it is not the HMTc aggregate threshold.",
     }
   }
 
   if (distributionSourceIds.length > 1 && pendingLocalCount > 0) {
     return {
       status: "PENDING: aggregate math after local extraction",
-      evidence_needed: "Run aggregate math only after pending local fit-source rows are extracted and reviewed.",
-      notes: "Multiple distribution-capable sources exist, but the local backlog may materially change the p90.",
+      evidence_needed: `Run aggregate math only after pending local fit-source rows are extracted and reviewed.${capText}`,
+      notes: `Multiple distribution-capable sources exist, but the local backlog may materially change the ${percentileTarget.label}.`,
     }
   }
 
   if (distributionSourceIds.length > 1) {
     return {
       status: "READY FOR AGGREGATE MATH REVIEW",
-      evidence_needed: "Review row fit, basis harmonization, censoring, and source weights before publishing an HMTc p90.",
+      evidence_needed: `Review row fit, basis harmonization, censoring, and source weights before publishing an HMTc ${percentileTarget.label}.${capText}`,
       notes: "This is a readiness flag, not a final standards value.",
     }
   }
 
   return {
     status: "BLOCKED: evidence fitness review needed",
-    evidence_needed: "Review loaded rows and pending sources before HMTc p90 math.",
+    evidence_needed: `Review loaded rows and pending sources before HMTc ${percentileTarget.label} math.${capText}`,
     notes: `Loaded source count: ${loadedSourceCount}.`,
   }
 }
@@ -504,6 +526,73 @@ function standardScopeForProduct(product) {
   if (variantType === "base") return "base_context"
 
   return "not_locked_hmtc_row"
+}
+
+function percentileTargetForProduct(product, productStandardScope) {
+  if (productStandardScope !== "locked_hmtc_row") {
+    return {
+      target: "not_applicable",
+      statistic: "not_applicable",
+      value_column: "",
+      label: "standards percentile",
+      short_label: "TARGET PERCENTILE",
+    }
+  }
+
+  const variantType = String(product.variant_type || "")
+  if (variantType.includes("contamination_platform")) {
+    const statistic = `${dirtyStandardPercentile}_ppb`
+    const label = `contaminated-platform ${dirtyStandardPercentile.toUpperCase()}`
+    return {
+      target: `dirty_${dirtyStandardPercentile}`,
+      statistic,
+      value_column: statistic,
+      label,
+      short_label: `DIRTY ${dirtyStandardPercentile.toUpperCase()}`,
+    }
+  }
+
+  if (variantType.includes("clean_benchmark")) {
+    return {
+      target: "clean_p90",
+      statistic: "p90_ppb",
+      value_column: "p90_ppb",
+      label: "clean-platform P90",
+      short_label: "CLEAN P90",
+    }
+  }
+
+  return {
+    target: "independent_p90",
+    statistic: "p90_ppb",
+    value_column: "p90_ppb",
+    label: "independent-row P90",
+    short_label: "INDEPENDENT P90",
+  }
+}
+
+function normalizeDirtyStandardPercentile(value) {
+  const normalized = String(value || "").trim().toLowerCase()
+  if (normalized === "p10" || normalized === "10") return "p10"
+  if (normalized === "p20" || normalized === "20") return "p20"
+  throw new Error(`Unsupported dirty standards percentile: ${value}. Use p10 or p20.`)
+}
+
+function lowestRegulatoryCap(rows) {
+  const caps = rows
+    .map((row) => ({
+      value: Number(row.regulatory_value_ug_kg),
+      source: row.regulatory_limit_id || "regulatory row",
+    }))
+    .filter((row) => Number.isFinite(row.value) && row.value > 0 && row.source !== "none_loaded")
+    .sort((left, right) => left.value - right.value)
+
+  return caps[0] ?? { value: "", source: "" }
+}
+
+function regulatoryCapInstruction(cap) {
+  if (!hasValue(cap.value)) return ""
+  return ` Final HMTc value must not exceed the lowest loaded applicable regulatory cap: ${cap.value} ug/kg (${cap.source}).`
 }
 
 function parseArgs(argv) {

@@ -198,7 +198,7 @@ function speciesRouteNote(metal, wantedMetals) {
 function tdsNotes(row, speciesNote) {
   const parts = [
     "FDA TDS finished-food composite summary retained from existing per-food/per-analyte data.",
-    "Candidate only; not promoted into HMTc p90 math.",
+    "Candidate only; not promoted into HMTc standards-percentile math.",
   ]
   if (Number(row.n) > 0 && Number(row.n) < 5) parts.push(`Small N=${row.n}; review before standards use.`)
   if (speciesNote) parts.push(speciesNote)
