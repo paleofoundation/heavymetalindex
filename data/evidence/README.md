@@ -81,8 +81,13 @@ and Category 1 pilot coverage registers.
 - `hmtc_standards_action_queue.csv`: generated next-action queue collapsed from
   the standards gap report. It groups locked-row blockers by product/status,
   ranks local candidate review, TDS route review, species-specific gaps, source
-  discovery, summary-only rows, and single-source p90 blockers, and gives the
-  reviewer the next command or file to inspect without promoting evidence.
+  discovery, summary-only rows, and single-source p90 blockers.
+- `ai_adjudication_queue.csv`: generated machine-adjudication contract for the
+  standards action queue. It names the AI task, required decisions, input
+  artifacts, confidence gate, expected outputs, and human exception trigger for
+  each unresolved product/metal standards action. Human work is scoped to source
+  retrieval, low-confidence exceptions, policy conflicts, and final governance
+  approval rather than routine row sorting.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.
@@ -104,7 +109,10 @@ and Category 1 pilot coverage registers.
   arsenic speciation and FDA 2016 grape-juice inorganic arsenic summaries and
   value records from the checked sample extracts.
 - `npm run evidence:standards-actions`: rebuilds the HMTc standards action
-  queue from the current standards gap report.
+  queue and downstream AI adjudication queue from the current standards gap
+  report.
+- `npm run evidence:ai-adjudication`: rebuilds the machine adjudication queue
+  from the current HMTc standards action queue.
 
 ## Review Boundary
 
