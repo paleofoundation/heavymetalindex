@@ -76,8 +76,11 @@ function deterministicExtract(queueRow, text) {
   if (!text) return []
   if (queueRow.source_id === "chung2021-china-infant-formula-toxic-elements") return extractChung2021(queueRow, text)
   if (queueRow.source_id === "fsa2016-infant-food-formula-metals-survey") return extractFsa2016(queueRow, text)
+  if (queueRow.source_id === "chekri2019-french-infant-toddler-tds-trace-elements") return extractChekri2019(queueRow, text)
   if (queueRow.source_id === "almeida2022-brazil-infant-formula-toxic-metals") return extractAlmeida2022(queueRow, text)
+  if (queueRow.source_id === "meli2024-chemical-characterization-baby-food-italy") return extractMeli2024(queueRow, text)
   if (queueRow.source_id === "pandelova2012-eu-baby-food-formula-elements") return extractPandelova2012(queueRow, text)
+  if (queueRow.source_id === "weldegebriel2025-ethiopia-packaged-fruit-juice-metals") return extractWeldegebriel2025(queueRow, text)
   if (queueRow.source_id === "burrell2010-aluminium-in-infant-formulas") return extractBurrell2010(queueRow, text)
   if (queueRow.source_id === "chuchu2013-aluminium-in-infant-formulas") return extractChuchu2013(queueRow, text)
   if (queueRow.source_id === "dabeka1987-canada-infant-formula-lead-cadmium") return extractDabeka1987(queueRow, text)
@@ -363,12 +366,51 @@ function fsa2016Route(productSlug) {
     "Table 2 dry infant formula; samples analysed as sold and not reconstituted. Values are lower-bound to upper-bound means where ranges are shown; iAs may include source-estimated values using 70% of tAs."
   const readyToFeedFootnote =
     "Table 1 ready-to-feed infant formula; values are liquid as-consumed concentrations in ug/L. Values are lower-bound to upper-bound means where ranges are shown; iAs may include source-estimated values using 70% of tAs."
+  const commercialInfantFoodFootnote =
+    "Table 3 commercial infant foods; values are as-consumed concentrations in ug/kg fresh weight. Values are lower-bound to upper-bound means where ranges are shown; iAs may include source-estimated values using 70% of tAs."
   const dryTableMarker =
     "Table 2. Average concentration data used to assess dietary exposure to metals and other elements in dry infant formula"
   const readyToFeedTableMarker =
     "Table 1. Average concentration data used to assess dietary exposure to metals and other elements in ready-to-feed infant"
+  const commercialInfantFoodTableMarker =
+    "Table 3. Average concentration data used to assess dietary exposure to metals and other elements in commercial infant"
 
   const routes = {
+    "fruit-purees": {
+      tableMarker: commercialInfantFoodTableMarker,
+      basis: "as_consumed",
+      nText:
+        "FSA/Fera Table 3 reports commercial infant-food category means; the fruit-based foods and dishes category N is not reported in Table 3.",
+      footnote: commercialInfantFoodFootnote,
+      extractionMethod: "deterministic_parser_fsa2016_table3_fruit_based_infant_foods",
+      note: "Deterministic parse of FSA/Fera Table 3 fruit based foods and dishes concentration means in ug/kg fresh weight.",
+      sourceRows: [
+        {
+          label: "Fruit based foods and dishes",
+          row_fit: "direct_fruit_based_infant_foods_needs_review",
+          values: [
+            "1125",
+            "0-3",
+            "9",
+            "1-4",
+            "2-3",
+            "43-54",
+            "862",
+            "22-27",
+            "7543",
+            "1-3",
+            "2436",
+            "0-1",
+            "92-117",
+            "6-7",
+            "43-50",
+            "4993-5002",
+          ],
+          source_line:
+            "Fruit based foods and dishes: Al 1125; Sb 0-3; As 9; iAs 1-4; Cd 2-3; Cr 43-54; Cu 862; I 22-27; Fe 7543; Pb 1-3; Mn 2436; Hg 0-1; Ni 92-117; Se 6-7; Sn 43-50; Zn 4993-5002 ug/kg.",
+        },
+      ],
+    },
     "infant-formula-powder-non-soy": {
       tableMarker: dryTableMarker,
       basis: "as_sold",
@@ -471,6 +513,83 @@ function fsa2016Route(productSlug) {
     },
   }
 
+  return routes[productSlug]
+}
+
+function extractChekri2019(queueRow, text) {
+  const route = chekri2019Route(queueRow.product_slug)
+  if (!route) return []
+  if (!text.includes("Table 5: Upper bound (UB) levels of trace elements in foods")) return []
+
+  const rows = []
+  for (const [metalIndex, [metal, values]] of Object.entries(route.values).entries()) {
+    rows.push(
+      candidateRow(queueRow, {
+        candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${metal}`,
+        metal_species: metal,
+        source_product_label: route.label,
+        basis: "as_consumed",
+        n: route.n,
+        n_text: `Chekri 2019 Table 5 reports ${route.label}, n=${route.n}.`,
+        statistic_type: "source_reported_upper_bound_mean_range",
+        mean_ppb: values.mean,
+        min_ppb: values.min,
+        max_ppb: values.max,
+        row_fit: "direct_infant_food_category_needs_review",
+        extraction_method: "deterministic_parser_chekri2019_table5_food_category_ub",
+        quote_trace: `${route.source_line} Table 5 values are upper-bound concentrations in foods as consumed by French infants and toddlers (ug/kg fresh weight).`,
+        notes: compact(
+          [
+            "Deterministic parse of Chekri 2019 Table 5 upper-bound food-category concentration means.",
+            "Mean, minimum, and maximum are source-reported UB concentrations, not percentiles.",
+            metal === "tAs" ? "Source reports total arsenic as As; this is not inorganic arsenic." : "",
+            metal === "Cr-total" ? "Source reports chromium as Cr; this does not satisfy Cr-VI without species confirmation." : "",
+          ].join(" "),
+        ),
+        source_row_order: String(metalIndex + 1),
+      }),
+    )
+  }
+  return rows
+}
+
+function chekri2019Route(productSlug) {
+  const routes = {
+    "fruit-juice-not-canned": {
+      label: "Fruit juices",
+      n: "4",
+      source_line:
+        "Chekri 2019 Table 5 Fruit juices: n=4; Al 191 (42.0-314); Sb 0.75 (0.50-1.00); As 2.00 (1.00-2.00); Cd 0.30 (0.30-0.30); Cr 21.0 (5.00-29.0); Co 0.93 (0.70-1.00); Ni 25.0 (25.0-25.0); Sn 62.5 (42.0-83.0); V 0.88 (0.00-1.00) ug/kg fresh weight.",
+      values: {
+        Al: { mean: "191", min: "42.0", max: "314" },
+        Sb: { mean: "0.75", min: "0.50", max: "1.00" },
+        tAs: { mean: "2.00", min: "1.00", max: "2.00" },
+        Cd: { mean: "0.30", min: "0.30", max: "0.30" },
+        "Cr-total": { mean: "21.0", min: "5.00", max: "29.0" },
+        Co: { mean: "0.93", min: "0.70", max: "1.00" },
+        Ni: { mean: "25.0", min: "25.0", max: "25.0" },
+        Sn: { mean: "62.5", min: "42.0", max: "83.0" },
+        V: { mean: "0.88", min: "0.00", max: "1.00" },
+      },
+    },
+    "fruit-purees": {
+      label: "Fruit purees",
+      n: "30",
+      source_line:
+        "Chekri 2019 Table 5 Fruit purees: n=30; Al 556 (260-1420); Sb 0.65 (0.50-3.00); As 2.00 (1.00-8.00); Cd 0.66 (0.30-2.00); Cr 42.7 (13.0-84.0); Co 2.87 (1.00-5.00); Ni 54.7 (25.0-121); Sn 424 (42.0-3330); V 1.40 (1.00-4.00) ug/kg fresh weight.",
+      values: {
+        Al: { mean: "556", min: "260", max: "1420" },
+        Sb: { mean: "0.65", min: "0.50", max: "3.00" },
+        tAs: { mean: "2.00", min: "1.00", max: "8.00" },
+        Cd: { mean: "0.66", min: "0.30", max: "2.00" },
+        "Cr-total": { mean: "42.7", min: "13.0", max: "84.0" },
+        Co: { mean: "2.87", min: "1.00", max: "5.00" },
+        Ni: { mean: "54.7", min: "25.0", max: "121" },
+        Sn: { mean: "424", min: "42.0", max: "3330" },
+        V: { mean: "1.40", min: "1.00", max: "4.00" },
+      },
+    },
+  }
   return routes[productSlug]
 }
 
@@ -581,6 +700,78 @@ function extractAlmeida2022(queueRow, text) {
   return rows
 }
 
+function extractMeli2024(queueRow, text) {
+  const route = meli2024Route(queueRow.product_slug)
+  if (!route) return []
+  if (!text.includes("Table 5. Concentration (mg kg-1ww) of non essential or toxic elements in baby food")) return []
+
+  const rows = []
+  for (const [metalIndex, [metal, rawValue]] of Object.entries(route.values).entries()) {
+    const parsed = parseMgKgConcentration(rawValue)
+    rows.push(
+      candidateRow(queueRow, {
+        candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${metal}`,
+        metal_species: metal,
+        source_product_label: route.label,
+        basis: "wet_weight",
+        n: route.n,
+        n_text: route.nText,
+        statistic_type: parsed.statistic_type,
+        mean_ppb: parsed.mean_ppb,
+        censoring_status: parsed.censoring_status,
+        censoring_limit_ppb: parsed.censoring_limit_ppb,
+        row_fit: "direct_baby_food_category_mean_needs_review",
+        extraction_method: "deterministic_parser_meli2024_table5_category_means",
+        quote_trace: `${route.source_line} Values are Table 5 category means in mg/kg wet weight, normalized to ppb.`,
+        notes: compact(
+          [
+            "Deterministic parse of Meli 2024 Table 5 category mean concentrations.",
+            "Rows are source-reported category means, not sample distributions or percentiles.",
+            metal === "tAs" ? "Source reports As; retained as total/unspecified arsenic candidate, not iAs." : "",
+            metal === "tHg" ? "Source reports Hg; retained as total mercury, not methylmercury." : "",
+            metal === "Cd" || metal === "Pb"
+              ? "Table 2 reports zero samples above LOD for this analyte across the study; retained as a censored source-table value."
+              : "",
+            parsed.note,
+          ].join(" "),
+        ),
+        source_row_order: String(metalIndex + 1),
+      }),
+    )
+  }
+  return rows
+}
+
+function meli2024Route(productSlug) {
+  const routes = {
+    "fish-containing-baby-foods": {
+      label: "Homogenized fish products, mean",
+      n: "3",
+      nText: "Table 5 reports three homogenized fish products: bream, salmon, and sea bass.",
+      source_line:
+        "Meli 2024 Table 5 Fish mean: Al 0.390; As 0.0600; Hg 0.0068; Ni 0.080; Sn <0.075 mg/kg wet weight. Table 2 reports Cd LOD 0.005 mg/kg and Pb LOD 0.10 mg/kg, with zero samples above LOD across the study.",
+      values: { Al: "0.390", tAs: "0.0600", Cd: "<0.005", tHg: "0.0068", Ni: "0.080", Pb: "<0.10", Sn: "<0.075" },
+    },
+    "fruit-purees": {
+      label: "Homogenized fruit products, mean",
+      n: "3",
+      nText: "Table 5 reports three homogenized fruit products: apple, pear, and banana.",
+      source_line:
+        "Meli 2024 Table 5 Fruit mean: Al 0.580; As <0.0197; Hg 0.0072; Ni 0.137; Sn 0.098 mg/kg wet weight. Table 2 reports Cd LOD 0.005 mg/kg and Pb LOD 0.10 mg/kg, with zero samples above LOD across the study.",
+      values: { Al: "0.580", tAs: "<0.0197", Cd: "<0.005", tHg: "0.0072", Ni: "0.137", Pb: "<0.10", Sn: "0.098" },
+    },
+    "meat-and-poultry-purees": {
+      label: "Homogenized meat products, mean",
+      n: "4",
+      nText: "Table 5 reports four homogenized meat products: rabbit, lamb, turkey, and veal.",
+      source_line:
+        "Meli 2024 Table 5 Meat mean: Al 0.753; As <0.017; Hg 0.0040; Ni 0.086; Sn 0.267 mg/kg wet weight. Table 2 reports Cd LOD 0.005 mg/kg and Pb LOD 0.10 mg/kg, with zero samples above LOD across the study.",
+      values: { Al: "0.753", tAs: "<0.017", Cd: "<0.005", tHg: "0.0040", Ni: "0.086", Pb: "<0.10", Sn: "0.267" },
+    },
+  }
+  return routes[productSlug]
+}
+
 function extractPandelova2012(queueRow, text) {
   const sourceRowsByProduct = {
     "infant-formula-powder-non-soy": [
@@ -671,6 +862,45 @@ function extractPandelova2012(queueRow, text) {
   }
 
   return rows
+}
+
+function extractWeldegebriel2025(queueRow, text) {
+  if (queueRow.product_slug !== "fruit-juice-not-canned") return []
+  if (!text.includes("Table 5.**; Median, IQR and range of toxic metals in fruit juice")) return []
+
+  const values = {
+    Cd: { median: "0.08", min: "0.010", max: "0.1" },
+    "Cr-total": { median: "0.004", min: "0.0003", max: "0.0081" },
+    Pb: { median: "0.035", min: "0.01", max: "0.04" },
+    Ni: { median: "0.078", min: "0.0025", max: "0.08" },
+  }
+
+  return Object.entries(values).map(([metal, item], index) =>
+    candidateRow(queueRow, {
+      candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${metal}`,
+      metal_species: metal,
+      source_product_label: "Packaged fruit juice samples, all brands",
+      basis: "as_consumed",
+      n: "80",
+      n_text: "Table 5 reports toxic-metal concentrations in fruit juice, n=80.",
+      statistic_type: "source_reported_median_iqr_range",
+      min_ppb: String(round(Number(item.min) * 1000)),
+      max_ppb: String(round(Number(item.max) * 1000)),
+      p50_ppb: String(round(Number(item.median) * 1000)),
+      row_fit: "direct_packaged_fruit_juice_needs_review",
+      extraction_method: "deterministic_parser_weldegebriel2025_table5_fruit_juice_medians",
+      quote_trace:
+        "Weldegebriel 2025 Table 5 reports Cd median 0.08 mg/L, min 0.010, max 0.1; Cr median 0.004 mg/L, min 0.0003, max 0.0081; Pb median 0.035 mg/L, min 0.01, max 0.04; Ni median 0.078 mg/L, min 0.0025, max 0.08 for fruit juice (n=80).",
+      notes: compact(
+        [
+          "Deterministic parse of Weldegebriel 2025 Table 5 fruit-juice medians and ranges.",
+          "mg/L liquid concentrations are normalized to ppb as ug/L-equivalent; no p90 or p95 is reported or inferred.",
+          metal === "Cr-total" ? "Source reports Cr; this does not satisfy Cr-VI without species confirmation." : "",
+        ].join(" "),
+      ),
+      source_row_order: String(index + 1),
+    }),
+  )
 }
 
 function candidateRow(queueRow, values) {
@@ -782,6 +1012,26 @@ function parseMgKgMean(raw, limits = {}) {
   }
   return {
     statistic_type: "source_reported_formula_mean",
+    mean_ppb: String(round(Number(value) * 1000)),
+    censoring_status: "",
+    censoring_limit_ppb: "",
+    note: "",
+  }
+}
+
+function parseMgKgConcentration(raw) {
+  const value = String(raw).trim()
+  if (value.startsWith("<")) {
+    return {
+      statistic_type: "source_reported_censored_category_mean",
+      mean_ppb: "",
+      censoring_status: "less_than",
+      censoring_limit_ppb: String(round(Number(value.slice(1)) * 1000)),
+      note: `${value} mg/kg wet weight retained as a censored source table value.`,
+    }
+  }
+  return {
+    statistic_type: "source_reported_category_mean",
     mean_ppb: String(round(Number(value) * 1000)),
     censoring_status: "",
     censoring_limit_ppb: "",

@@ -271,3 +271,7 @@ Notes: Updated the HMTc standards gap report to label base and bridge product no
 ## [2026-05-07] tooling | product-source-routing-generalized — source-route queue expanded beyond formula
 Pages affected: [[products/category-5-beverages]], [[products/fish-containing-baby-foods]], [[products/meat-and-poultry-purees]], [[products/plant-milks-soy-based]]
 Notes: Generalized the product-source routing audit from formula-only targets to locked HMTc product rows plus base/bridge context nodes. The local reingest queue now surfaces direct and broad product-source extraction work for baby-food, juice, and plant-milk pages while de-prioritizing base/bridge context rows outside locked standards math.
+
+## [2026-05-07] tooling | nonformula-local-candidate-parsers — deterministic candidates for baby-food and juice source tables
+Pages affected: [[products/fruit-purees]], [[products/fruit-juice-not-canned]], [[products/fish-containing-baby-foods]], [[products/meat-and-poultry-purees]]
+Notes: Added source-specific deterministic candidate parsers for Meli 2024, Chekri 2019, Weldegebriel 2025, and the FSA 2016 fruit-based infant-food table. The candidate register now contains 59 non-published review rows across four sources and leaves 23 local extraction tasks; no p90 or p95 was inferred, and total/speciated analytes remain separated.
