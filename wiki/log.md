@@ -251,3 +251,7 @@ Notes: Updated the product-source routing audit so source pages identified as re
 ## [2026-05-07] tooling | stable-evidence-summary-json — no-op reruns stop dirtying summaries
 Pages affected: [[methodology/persistent-wiki-ingest-rule]]
 Notes: Added stable JSON summary writing for evidence queue, standards gap, candidate, packet, sync, and raw-inventory summary outputs. When a rerun changes only `generated_at`, the writer preserves the previous timestamp and avoids rewriting the file. This keeps routine verification runs from creating meaningless git diffs while still updating summaries when substantive counts or statuses change.
+
+## [2026-05-07] routing | broad-formula-context-sections — context-only sources moved out of emergency queue
+Pages affected: [[products/infant-formula-powder-non-soy]], [[products/infant-formula-powder-soy-based]], [[products/infant-formula-rtf-liquid-non-soy]], [[products/infant-formula-rtf-liquid-soy-based]]
+Notes: Added generated broad-context sections for formula sources that are relevant to a locked product row but do not yet resolve product format, soy status, basis, species, and statistic fit. The local reingest queue now excludes visible broad-context rows by default while retaining them in product pages and routing audits, so these papers are not silently dropped and also do not masquerade as immediate extraction blockers.

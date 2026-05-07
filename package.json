@@ -33,6 +33,7 @@
     "publish:wiki": "npm run release:wiki && npx vercel@latest --prod --yes",
     "verify:live": "node tools/verify-live-pages.mjs",
     "evidence:local-reingest": "node tools/evidence/build-local-reingest-queue.mjs",
+    "evidence:broad-context": "node tools/evidence/apply-product-broad-context-sections.mjs",
     "evidence:local-packets": "node tools/evidence/extract-local-pdf-packets.mjs",
     "evidence:local-candidates": "node tools/evidence/extract-local-gap-candidates.mjs",
     "evidence:local-promote": "node tools/evidence/promote-local-candidate-values.mjs",
