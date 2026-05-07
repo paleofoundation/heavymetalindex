@@ -52,7 +52,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-07
 ---
 
 # Rice
@@ -100,6 +100,26 @@ _Some metals not listed in this section because no ingested source yet covers th
 ## FDA TDS FY2018-FY2020 Evidence
 
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 50, "Rice, white, enriched, cooked." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Arsenic Occurrence Context
+
+The cleaned GEMS/Food layer now gives rice its first large global row-level occurrence context in this Index. These values are lower-bound summaries in ug/kg from WHO-region monitoring exports; they support ingredient-level occurrence context, not brand comparisons or pass/fail reads.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Rice | iAs | EURO | 2,341 | 87.01 | 191 | 570 | Broad rice row. |
+| Rice | iAs | WPRO | 1,561 | 130 | 290 | 590 | Broad rice row. |
+| Rice, husked | iAs | WPRO | 1,521 | 150 | 270 | 600 | Husked/brown-rice adjacent row. |
+| Rice, polished | iAs | WPRO | 1,045 | 90 | 150 | 260 | Polished-rice row. |
+| Rice | tAs | EURO | 3,282 | 120 | 298 | 18,000 | Total arsenic row; not interchangeable with iAs. |
+| Rice | DMA | EURO | 149 | 6.73 | 81.88 | 486 | Organic arsenic species context. |
+| Rice | MMA | EURO | 80 | 0 | 0.4197 | 0.638 | Organic arsenic species context. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 

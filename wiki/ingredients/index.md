@@ -2,13 +2,14 @@
 title: Ingredients
 description: Commodity-level risk profiles for food ingredients relevant to heavy metal exposure.
 audience: [regulator, educator, researcher, commercial]
-updated: 2026-05-03
+updated: 2026-05-07
 ---
 
 Commodity-level pages describe why specific ingredients accumulate specific metals, typical concentration ranges by source and variety, processing effects, and mitigation options. Each page carries a structured contamination profile in frontmatter that the future consumer app will consume directly. Ingredient-level values belong on these pages; finished-product values belong on [[products/index|product-category pages]].
 
 ## Ingredient Nodes
 
+- [[ingredients/algae-seaweed|Algae / seaweed]] (1 sources)
 - [[ingredients/almond|Almond]] (0 sources)
 - [[ingredients/apple|Apple]] (2 sources)
 - [[ingredients/apple-juice|Apple juice]] (2 sources)

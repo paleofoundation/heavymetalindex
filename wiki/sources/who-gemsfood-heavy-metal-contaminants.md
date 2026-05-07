@@ -16,7 +16,7 @@ summary_path: data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminan
 export_manifest_path: data/evidence/who_gemsfood_heavy_metals_raw_exports.csv
 metals: [Al, Cd, Cr, DMA, Hg_unspecified, MMA, MeHg, Ni, Pb, Sn, iAs, iHg, oAs, tAs, tHg]
 jurisdictions: [WHO, Global]
-updated: 2026-05-04
+updated: 2026-05-07
 ---
 
 # WHO GEMS/Food - Heavy-Metal Contaminant Exports
@@ -66,6 +66,16 @@ The downloader recreates the public GEMS/Food search URL for each contaminant an
 ## Limitations
 
 GEMS/Food is a contributed global monitoring database, not a harmonized retail audit. Public exports expose WHO region rather than full country in this search view, and the rows can mix years, food states, origins, representativeness classes, and analytical QA status. Generic mercury rows remain flagged for speciation review; chromium rows are total chromium, not chromium VI. Organic arsenic, dimethylarsinic acid, monomethylarsonic acid, inorganic mercury, uranium, and other broader elements are preserved as occurrence evidence but are not all part of the active HMTc Category 1 analyte panel.
+
+<!-- BEGIN: hmi-gemsfood-routed-pages -->
+
+## Routed Public Pages
+
+The first promotion pass routes arsenic occurrence context from the cleaned GEMS/Food summary table to high-confidence HMI pages: [[metals/arsenic-inorganic]], [[metals/arsenic-total]], [[ingredients/rice]], [[products/baby-cereals-dry-rice-based]], [[products/mixed-meals-rice-containing]], [[ingredients/algae-seaweed]], [[ingredients/fish]], [[ingredients/seafood]], [[ingredients/bivalve-molluscs]], [[ingredients/fruit-juice]], [[ingredients/water]], [[ingredients/vegetables]], [[ingredients/root-vegetables]], [[ingredients/leafy-greens]], and [[ingredients/wild-mushrooms]].
+
+The route ledger is stored in `data/evidence/who_gemsfood_arsenic_page_routes.csv`. These routed rows remain occurrence context only: no brand claims, direct legal exceedance reads, or HMTc standards values are inferred from GEMS/Food.
+
+<!-- END: hmi-gemsfood-routed-pages -->
 
 ## Use Boundaries
 

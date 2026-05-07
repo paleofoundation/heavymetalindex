@@ -29,7 +29,7 @@ cc_relationship:
       role_of_partner: clean_benchmark
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-02
+updated: 2026-05-07
 sources: 10
 ---
 
@@ -251,6 +251,24 @@ The app model placeholder for this row should treat [[ingredients/baby-cereals-d
 FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, included 20 ppb for dry infant cereals. [[sources/price2023-baby-food-lead-biokinetic-models]]
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Arsenic Occurrence Context
+
+GEMS/Food adds global monitoring context for cereal-based infant foods and rice-linked infant/young-child meals. These rows are useful for screening and source discovery; they do not replace rice-cereal-specific FDA compliance data or regulatory action levels.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Cereal-based food for infants and young children | iAs | PAHO | 674 | 43.55 | 84 | 189 | Strongest product-row fit for rice-based dry cereal context. |
+| Cereal-based food for infants and young children | iAs | EURO | 532 | 36.61 | 120 | 296 | Product-row context; not rice-only without sub-ingredient detail. |
+| Cereal-based food for infants and young children | tAs | EURO | 1,215 | 4.4 | 150 | 4,000 | Total arsenic; speciation not assumed. |
+| Cereal-based food for infants and young children | organic As | PAHO | 689 | 22.6 | 162.9 | 270.4 | Organic arsenic context. |
+| Ready-to-eat meal for infants and young children | iAs | EURO | 212 | 0 | 31.45 | 121.3 | Adjacent mixed-meal context; use outside dry cereal calculations. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 

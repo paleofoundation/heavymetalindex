@@ -1,14 +1,24 @@
 ---
 title: "Complete Change Log"
 type: "log-archive-all"
-updated: "2026-05-04"
+updated: "2026-05-07"
 ---
 # Complete Change Log
 
 Stable complete archive generated from `data/log/entries.jsonl`.
 
 - Back to [[log|Update History]]
-- Ledger SHA-256: `db8dfb7560d66ad787c9d4dfd71e66a8e08444cf3a78edf36d96c4874cb7af17`
+- Ledger SHA-256: `f97c26c8bd6a8f64641c73069cc79398ccf6ec1b1e927112212f42c89cabba23`
+
+<a id="2026-05-07-synthesis-who-gemsfood-arsenic-page-routing"></a>
+
+## [2026-05-07] synthesis | who-gemsfood-arsenic-page-routing - WHO GEMS/Food arsenic occurrence routed to public pages
+
+Entry ID: `2026-05-07-synthesis-who-gemsfood-arsenic-page-routing`
+
+Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[metals/arsenic-inorganic]], [[metals/arsenic-total]], [[ingredients/rice]], [[ingredients/algae-seaweed]], [[ingredients/fish]], [[ingredients/seafood]], [[ingredients/bivalve-molluscs]], [[ingredients/fruit-juice]], [[ingredients/water]], [[ingredients/vegetables]], [[ingredients/root-vegetables]], [[ingredients/leafy-greens]], [[ingredients/wild-mushrooms]], [[products/baby-cereals-dry-rice-based]], [[products/mixed-meals-rice-containing]], [[ingredients/index]], [[log]]
+
+Notes: Promoted the cleaned WHO GEMS/Food arsenic occurrence summaries from source-layer evidence into page-level occurrence-context sections. Added a route ledger at `data/evidence/who_gemsfood_arsenic_page_routes.csv` and created a dedicated algae/seaweed ingredient node. The sections preserve species labels and WHO-region scope; they do not infer brand claims, direct regulatory exceedance, or HMTc standards values.
 
 <a id="2026-05-04-lint-2026-05-04-broad-lint-pass"></a>
 

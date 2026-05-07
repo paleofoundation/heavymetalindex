@@ -6,7 +6,7 @@ name: Arsenic, inorganic
 species: [As3+, As5+]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: high
-updated: 2026-05-02
+updated: 2026-05-07
 status: scaffold
 n_sources: 2
 ---
@@ -32,6 +32,26 @@ The EU rows are binding maximum levels. The FDA rows are final guidance action l
 ## Planned sections
 
 Toxicology, typical exposure routes, food sources (linked to [ingredients](/ingredients)), regulatory limits (linked to [regulations](/regulations)), testing methods including speciation (linked to [testing](/testing)), microbiome effects (linked to [microbiome](/microbiome)), vulnerable populations, open questions, and sources.
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Occurrence Context
+
+The GEMS/Food import adds a global occurrence layer for inorganic arsenic. It strengthens the page's food-source map, especially for rice, rice-based infant cereal, algae/seaweed, bivalve molluscs, fruit juice, water, and mixed vegetable rows. These are monitoring summaries in ug/kg, not legal exceedance determinations or HMTc standards inputs by themselves.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Rice | iAs | EURO | 2,341 | 87.01 | 191 | 570 | Core ingredient evidence; rice row maps to [[ingredients/rice]]. |
+| Rice | iAs | WPRO | 1,561 | 130 | 290 | 590 | Confirms higher-region rice context without assigning country-level origin. |
+| Rice, husked | iAs | WPRO | 1,521 | 150 | 270 | 600 | Supports brown/husked-rice processing distinction. |
+| Cereal-based food for infants and young children | iAs | PAHO | 674 | 43.55 | 84 | 189 | Routes to [[products/baby-cereals-dry-rice-based]] as global product-context evidence. |
+| Algae | iAs | WPRO | 910 | 107.5 | 815 | 54,200 | Requires separate algae/seaweed node because total arsenic and iAs fractions differ sharply. |
+| Fruit juice | iAs | PAHO | 619 | 1.25 | 8.664 | 55.5 | Routes to [[ingredients/fruit-juice]] and fruit-juice product rows as context. |
+| Bottled water | iAs | PAHO | 444 | 0.14 | 1.35 | 5 | Water-row context; most larger water rows report total arsenic. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 

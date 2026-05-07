@@ -52,7 +52,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/wild-harvested-near-estuaries]]", "[[ingredients/older-specimens]]"]
 used_in_products: ["[[products/clam-chowder]]", "[[products/frozen-shellfish-mixes]]", "[[products/prepared-seafood]]", "[[products/shellfish-sauces]]", "[[products/seafood-supplements]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-24
+updated: 2026-05-07
 ---
 
 # Bivalve Molluscs (excluding Oysters)
@@ -88,6 +88,24 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for bivalve molluscs (pending ingest of CXS 193-1995); historically one of the higher matrix-specific values in CXS 193, reflecting the biological reality of filter-feeder bioaccumulation.
 - [[regulations/eu-2023-915-cadmium]] and [[regulations/eu2023-contaminants-maximum-levels]] — EU maximum levels for bivalve molluscs are 1.0 mg/kg (1000 ug/kg) Cd and 1.50 mg/kg (1500 ug/kg) Pb; the general EU mercury maximum level for crustaceans, molluscs, and non-listed fish is 0.50 mg/kg (500 ug/kg). For Pecten maximus, the Cd/Pb rows apply to adductor muscle and gonad only.
 - [[regulations/oehha-cadmium-prop65]] — OEHHA Prop 65 MADL of 4.1 µg/day oral applies to consumer products sold in California; frequent bivalve mollusc consumption can trigger the Prop 65 warning threshold.
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Arsenic Occurrence Context
+
+GEMS/Food provides direct arsenic rows for mussels, clams, and oysters. This belongs on the bivalve node as occurrence context, with oysters called out as a future split because the current HMI page excludes oysters in its title but GEMS reports them beside other bivalves.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Mussels | iAs | EURO | 434 | 11 | 106.7 | 1,500 | Bivalve iAs context. |
+| Mussels | iAs | EURO | 283 | 19 | 138.7 | 1,300 | Bivalve iAs context. |
+| Mussels | tAs | EURO | 824 | 2,060 | 3,985 | 39,700 | Total arsenic; not iAs. |
+| Clams | iAs | EURO | 83 | 40 | 180 | 420 | Bivalve iAs context. |
+| Oysters | iAs | EURO | 94 | 4.95 | 65.45 | 266 | Future oysters page candidate. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 

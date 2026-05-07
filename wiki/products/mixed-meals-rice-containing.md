@@ -29,7 +29,7 @@ cc_relationship:
       role_of_partner: clean_benchmark
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-29
+updated: 2026-05-07
 sources: 5
 ---
 
@@ -236,6 +236,24 @@ The app model placeholder for this row should treat [[ingredients/mixed-meals]],
 See the page-level crosswalk above and [[products/regulatory-crosswalk-field-findings]] for current regulatory context; row-specific enforcement events remain pending.
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Arsenic Occurrence Context
+
+GEMS/Food includes rice-based meal and infant ready-to-eat meal rows that belong here as mixed-meal context. The rows are not ingredient-only rice values and should not be used as rice-cereal standards evidence without product-form review.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Rice-based meals | DMA | EURO | 48 | 7.701 | 18.67 | 24.69 | Rice-based meal species row. |
+| Rice-based meals | MMA | EURO | 48 | 0.2755 | 0.5166 | 0.694 | Rice-based meal species row. |
+| Ready-to-eat meal for infants and young children | tAs | EURO | 1,356 | 0 | 100 | 2,347 | Infant/young-child meal context. |
+| Ready-to-eat meal for infants and young children | iAs | EURO | 212 | 0 | 31.45 | 121.3 | Infant/young-child meal context. |
+| Ready-to-eat meal for infants and young children | iAs | PAHO | 125 | 1.39 | 6.33 | 33.81 | Infant/young-child meal context. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 

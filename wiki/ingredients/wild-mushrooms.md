@@ -52,7 +52,7 @@ lower_risk_variants: ["[[ingredients/cultivated-button-mushrooms]]", "[[ingredie
 higher_risk_variants: ["[[ingredients/wild-porcini]]", "[[ingredients/wild-chanterelle]]", "[[ingredients/boletus-species]]", "[[ingredients/dried-wild-mushroom]]", "[[ingredients/mushroom-extract-supplements]]"]
 used_in_products: ["[[products/dried-mushroom]]", "[[products/mushroom-powder]]", "[[products/mushroom-supplements]]", "[[products/mushroom-sauces]]", "[[products/pates]]", "[[products/foraged-mushroom-products]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-24
+updated: 2026-05-07
 ---
 
 # Wild Mushrooms
@@ -87,6 +87,24 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for fungi (pending ingest of CXS 193-1995).
 - [[regulations/eu-2023-915-cadmium]] and [[regulations/eu2023-contaminants-maximum-levels]] — EU maximum levels for fungi: wild fungi are 0.50 mg/kg (500 ug/kg) Cd and 0.80 mg/kg (800 ug/kg) Pb; cultivated fungi except oyster and shiitake are 0.050 mg/kg (50 ug/kg) Cd; oyster and shiitake mushrooms are 0.15 mg/kg (150 ug/kg) Cd; common/oyster/shiitake cultivated fungi have a Pb maximum level of 0.30 mg/kg (300 ug/kg).
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Arsenic Occurrence Context
+
+GEMS/Food has enough fungi and mushroom arsenic rows to mark mushrooms as an arsenic-routing target. These rows are broad and should be split by cultivated mushrooms, wild fungi, species, and preparation before any consumer-facing risk ranking.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Mushrooms | tAs | EURO | 821 | 0 | 419 | 19,200 | Mushroom context. |
+| Fungi, edible (not including mushrooms) | tAs | EURO | 707 | 9 | 327.6 | 108,700 | Wild/other fungi candidate. |
+| Mushrooms | tAs | EURO | 489 | 15.8 | 1,316 | 12,700 | Mushroom context. |
+| Fungi, edible (not including mushrooms) | iAs | EURO | 95 | 0 | 184.8 | 820 | Speciated fungi context. |
+| Mushrooms | iAs | EURO | 71 | 23.55 | 616.1 | 3,300 | Speciated mushroom context. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 

@@ -67,7 +67,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-07
 sources: 0
 ---
 
@@ -82,6 +82,23 @@ This node is linked from [[products/non-root-vegetable-purees]].
 ## Contamination Profile State
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Arsenic Occurrence Context
+
+GEMS/Food routes broad leafy-vegetable arsenic rows here. The rows are useful for monitoring context but too broad for spinach, lettuce, or collard-green claims without a narrower source review.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Leafy vegetables | tAs | EURO | 623 | 0 | 61.8 | 79,000 | Review high-end values before ingredient-specific claims. |
+| Leafy vegetables | tAs | EURO | 542 | 0 | 64.8 | 844 | Broad leafy-vegetable context. |
+| Leafy vegetables | tAs | European Union | 532 | 0 | 57.8 | 844 | EU-overlap row retained as context. |
+| Spinach (bunch) | organic As | EURO | 1 | 0.63 | 0.63 | 0.63 | Too small for spinach inference. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 

@@ -1,7 +1,7 @@
 ---
 title: "Update History"
 type: "log-index"
-updated: "2026-05-04"
+updated: "2026-05-07"
 ---
 # Heavy Metal Index Change Log
 
@@ -9,21 +9,31 @@ This is the public archive of Heavy Metal Index ingests, lints, corrections, sch
 
 Corrections should be added as new correction entries. Existing entries are retained for historical context instead of being silently deleted.
 
-- Total entries: 48
-- Ledger SHA-256: `db8dfb7560d66ad787c9d4dfd71e66a8e08444cf3a78edf36d96c4874cb7af17`
+- Total entries: 49
+- Ledger SHA-256: `f97c26c8bd6a8f64641c73069cc79398ccf6ec1b1e927112212f42c89cabba23`
 - Complete readable archive: [[log/all|all entries]]
 - Public machine-readable ledger copy: [[log/records|records JSONL]]
 
 ## Archive By Month
 
-- [[log/2026-05|May 2026]] - 8 entries
+- [[log/2026-05|May 2026]] - 9 entries
 - [[log/2026-04|April 2026]] - 40 entries
 
 ## Archive By Year
 
-- [[log/2026|2026]] - 48 entries
+- [[log/2026|2026]] - 49 entries
 
 ## Latest Entries
+
+<a id="2026-05-07-synthesis-who-gemsfood-arsenic-page-routing"></a>
+
+### [2026-05-07] synthesis | who-gemsfood-arsenic-page-routing - WHO GEMS/Food arsenic occurrence routed to public pages
+
+Entry ID: `2026-05-07-synthesis-who-gemsfood-arsenic-page-routing`
+
+Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[metals/arsenic-inorganic]], [[metals/arsenic-total]], [[ingredients/rice]], [[ingredients/algae-seaweed]], [[ingredients/fish]], [[ingredients/seafood]], [[ingredients/bivalve-molluscs]], [[ingredients/fruit-juice]], [[ingredients/water]], [[ingredients/vegetables]], [[ingredients/root-vegetables]], [[ingredients/leafy-greens]], [[ingredients/wild-mushrooms]], [[products/baby-cereals-dry-rice-based]], [[products/mixed-meals-rice-containing]], [[ingredients/index]], [[log]]
+
+Notes: Promoted the cleaned WHO GEMS/Food arsenic occurrence summaries from source-layer evidence into page-level occurrence-context sections. Added a route ledger at `data/evidence/who_gemsfood_arsenic_page_routes.csv` and created a dedicated algae/seaweed ingredient node. The sections preserve species labels and WHO-region scope; they do not infer brand claims, direct regulatory exceedance, or HMTc standards values.
 
 <a id="2026-05-04-lint-2026-05-04-broad-lint-pass"></a>
 
@@ -109,12 +119,3 @@ Entry ID: `2026-04-30-ingest-ufelle2021-metals-chapter`
 
 Pages touched: [[sources/ufelle2021-metals-chapter]], [[metals/arsenic]], [[metals/arsenic-inorganic]], [[metals/arsenic-total]], [[metals/cadmium]], [[metals/chromium]], [[metals/cobalt]], [[metals/copper]], [[metals/iron]], [[metals/lead]], [[metals/magnesium]], [[metals/mercury]], [[metals/mercury-methyl]], [[metals/mercury-total]], [[metals/molybdenum]], [[metals/nickel]], [[metals/zinc]], [[metals/aluminum]], [[metals/antimony]], [[metals/barium]], [[metals/beryllium]], [[metals/cesium]], [[metals/gold]], [[metals/lithium]], [[metals/manganese]], [[metals/palladium]], [[metals/platinum]], [[metals/silver]], [[metals/tellurium]], [[metals/thallium]], [[metals/tin]], [[metals/titanium]], [[metals/uranium]], [[metals/vanadium]]
 Notes: Re-ingested Casarett & Doull's Essentials of Toxicology Chapter 23 as a whole-chapter metal toxicology source rather than a cadmium-only corroborating source. The rendered source page now visibly preserves the exact chapter title, exact figure/table titles, chapter section structure, and a metal-node map across existing and newly stubbed wiki metal/species pages, while marking the source as textbook synthesis with no food occurrence values.
-
-<a id="2026-04-29-ingest-lgc2003-nickel-piercing-post-assemblies"></a>
-
-### [2026-04-29] ingest | lgc2003-nickel-piercing-post-assemblies - critical nickel dermal-contact report
-
-Entry ID: `2026-04-29-ingest-lgc2003-nickel-piercing-post-assemblies`
-
-Pages touched: [[sources/lgc2003-nickel-piercing-post-assemblies]], [[metals/nickel]], [[products/piercing-post-assemblies]], [[regulations/eu-nickel-directive-94-27-ec]], [[testing/en-1811-nickel-release]], [[raw/Digest/INGESTED]]
-Notes: Critical ingest of `nickel_en.pdf`, preserving the exact paper title and exact source table headings on the rendered source page. Connected the report to nickel, the actual product category, the Nickel Directive, and EN 1811, while explicitly marking it as context-only for Category 1 food occurrence because it measures dermal/contact-material nickel release rather than food concentrations.

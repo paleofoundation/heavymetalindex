@@ -33,6 +33,7 @@ and Category 1 pilot coverage registers.
   mapping notes.
 - `who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`: lower-bound per-food/per-contaminant summaries derived from the normalized GEMS/Food exports.
 - `who_gemsfood_heavy_metals_raw_exports.csv`: raw export manifest with access dates, row counts, and SHA-256 hashes.
+- `who_gemsfood_arsenic_page_routes.csv`: routed arsenic occurrence summaries promoted from GEMS/Food to public HMI pages.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.

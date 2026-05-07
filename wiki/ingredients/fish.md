@@ -52,7 +52,7 @@ lower_risk_variants: ["[[ingredients/salmon]]", "[[ingredients/sardines]]", "[[i
 higher_risk_variants: ["[[ingredients/swordfish]]", "[[ingredients/shark]]", "[[ingredients/king-mackerel]]", "[[ingredients/tilefish]]", "[[ingredients/bigeye-tuna]]", "[[ingredients/marlin]]", "[[ingredients/orange-roughy]]"]
 used_in_products: ["[[products/fresh-fish]]", "[[products/frozen-fish]]", "[[products/canned-tuna]]", "[[products/canned-salmon]]", "[[products/canned-sardines]]", "[[products/fish-oil-supplements]]", "[[products/prepared-seafood]]", "[[products/surimi]]", "[[products/fish-sauce]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-26
+updated: 2026-05-07
 ---
 
 # Fish
@@ -77,6 +77,25 @@ Collado-Lopez et al. 2025 reports fish/fish-mix baby foods as a priority review-
 - [[regulations/efsa-methylmercury-twi]] — EFSA tolerable weekly intake of 1.3 µg methylmercury/kg b.w./week.
 - [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA/EPA joint advice for women who might become pregnant, women who are pregnant or breastfeeding, and young children.
 - [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/eu-2023-915-cadmium]] — EU fish maximum levels are species- and tissue-specific. General muscle meat of fish is 0.30 mg/kg (300 ug/kg) Pb, 0.050 mg/kg (50 ug/kg) Cd, and 0.50 mg/kg (500 ug/kg) Hg; listed lower-mercury fish are 0.30 mg/kg (300 ug/kg) Hg, and listed higher-mercury fish including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Arsenic Occurrence Context
+
+GEMS/Food adds broad arsenic occurrence context for fish. The largest fish rows are total arsenic, which in marine fish is often dominated by less-toxic organic arsenicals; therefore these rows should guide speciation-aware review, not inorganic-arsenic risk claims.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Marine fishes | tAs | EURO | 3,173 | 3,200 | 33,000 | 170,000 | Total arsenic, not iAs. |
+| Cod | tAs | EURO | 2,695 | 3,000 | 15,000 | 78,534 | Species row; total arsenic. |
+| Fishes | tAs | EURO | 2,176 | 1,000 | 8,605 | 77,500 | Broad fish row. |
+| Fresh water fishes | tAs | PAHO | 1,670 | 0 | 102 | 604 | Freshwater fish context. |
+| Cod | iAs | EURO | 320 | 0 | 3.1 | 71.72 | Speciated inorganic arsenic row. |
+| Tuna | iAs | EURO | 123 | 0 | 17.9 | 1,939 | Review outliers before species claims. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 

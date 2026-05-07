@@ -67,7 +67,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [vegetable-juices-root-vegetable-containing]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-07
 sources: 1
 ---
 
@@ -82,6 +82,23 @@ This node is linked from [[products/vegetable-juices-root-vegetable-containing]]
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+
+## WHO GEMS/Food Arsenic Occurrence Context
+
+GEMS/Food routes potato and carrot arsenic rows to the root-vegetable family. These are total-arsenic context rows unless explicitly speciated; they should be used for source discovery and screening, not direct infant-puree standards.
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ug/kg | P95 ug/kg | Max ug/kg | Use note |
+| --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+| Potato | tAs | EURO | 1,016 | 0 | 6.44 | 287 | Root-vegetable context. |
+| Potato | tAs | EURO | 794 | 0 | 8.675 | 270 | Root-vegetable context. |
+| Carrot | tAs | EURO | 641 | 0 | 21 | 90 | Root-vegetable context. |
+| Carrot | tAs | European Union | 586 | 0 | 21 | 90 | EU-overlap row retained as monitoring context. |
+
+[[sources/who-gemsfood-heavy-metal-contaminants]]
+
+<!-- END: hmi-gemsfood-arsenic-context -->
 
 ## Sources
 
