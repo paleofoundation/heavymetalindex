@@ -23,3 +23,7 @@ replit.nix
 .obsidian/
 .vercel
 .env*.local
+# Local PDF extraction packets/prompts may contain copyrighted source text.
+# Keep them local and commit only structured evidence, queues, audits, and gap reports.
+data/evidence/local_reingest_packets/
+data/evidence/local_reingest_prompts/
