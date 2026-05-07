@@ -310,3 +310,7 @@ Notes: Added the primary Signes-Pastor 2016 Food Chemistry paper and promoted si
 ## [2026-05-07] backfill | fsa2016-cereal-context-rows - cereal iAs context structured
 Pages affected: [[sources/fsa2016-infant-food-formula-metals-survey]], [[products/baby-cereals-dry-non-rice]], [[products/baby-cereals-dry-rice-based]]
 Notes: Backfilled FSA/Fera 2016 Table 3 cereal-based infant-food As, iAs, Cd, Pb, and Ni values into the structured local baby-food occurrence register for the rice and non-rice cereal pages as EF-4 broad context. The row remains unsuitable for HMTc standards math because the source does not isolate rice status or report p90/p95. Removed the weaker secondary Signes-Pastor 2018 mixed-cereal iAs measured-value row from the non-rice page; that source remains biomarker/food-diary context only.
+
+## [2026-05-07] extract | fruit-juice-direct-context-rows - Fruit juice context rows structured
+Pages affected: [[products/fruit-juice-not-canned]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements]], [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]
+Notes: Added reviewed EF-4 structured context rows for Chekri 2019 fruit-juice upper-bound means/ranges and Weldegebriel 2025 packaged fruit-juice medians/ranges. Total arsenic remains separate from inorganic arsenic; no p90 or p95 was inferred; Weldegebriel remains mixed-packaging context until canned products can be excluded.

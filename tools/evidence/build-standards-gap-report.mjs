@@ -73,14 +73,20 @@ for (const productSlug of productSlugs) {
     )
     const pendingRows = queueRows.filter((row) => row.product_slug === productSlug)
     const pendingForMetal = pendingRows.filter((row) => queueMetals(row).some((item) => canonicalMetal(item) === metal))
-    const localCandidatesForMetal = localCandidateRows.filter(
+    const loadedResolutionKeys = new Set(
+      loadedRows.map((row) => routeMetalKey(productSlug, row.source_id, row.metal_species)),
+    )
+    const localCandidateRowsForMetal = localCandidateRows.filter(
       (row) => row.product_slug === productSlug && canonicalMetal(row.metal_species) === metal,
+    )
+    const localCandidatesForMetal = localCandidateRowsForMetal.filter(
+      (row) => !loadedResolutionKeys.has(routeMetalKey(productSlug, row.source_id, row.metal_species)),
     )
     const contextDispositionsForMetal = contextDispositionRows.filter(
       (row) => row.product_slug === productSlug && canonicalMetal(row.metal_species) === metal,
     )
     const localResolutionKeys = new Set(
-      [...localCandidatesForMetal, ...contextDispositionsForMetal].map((row) =>
+      [...loadedRows, ...localCandidateRowsForMetal, ...contextDispositionsForMetal].map((row) =>
         routeMetalKey(productSlug, row.source_id, row.metal_species),
       ),
     )
