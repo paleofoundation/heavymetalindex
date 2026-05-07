@@ -211,7 +211,10 @@ function extractProductLinks(text) {
 }
 
 function stripNonEvidenceProductLinkSections(text) {
-  return text.replace(/\n##\s+Wiki pages updated on ingest[\s\S]*?(?=\n##\s+|$)/g, "\n")
+  return text.replace(
+    /\n##\s+(?:Wiki pages updated on ingest|Caveated product pages referenced on ingest)[\s\S]*?(?=\n##\s+|$)/g,
+    "\n",
+  )
 }
 
 function asStringArray(value) {

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-07T11:38:19.574Z",
+  "generated_at": "2026-05-07T11:41:22.529Z",
   "product_filter": "all",
-  "source_count": 11,
+  "source_count": 9,
   "deterministic_candidate_value_count": 0,
-  "source_task_count": 11,
+  "source_task_count": 9,
   "by_source": {},
   "by_metal": {},
   "by_extraction_method": {}
