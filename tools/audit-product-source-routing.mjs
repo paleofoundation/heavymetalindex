@@ -12,6 +12,7 @@ const occurrenceSummaryFiles = [
   "data/evidence/category1_fda_baby_food_compliance_summary.csv",
   "data/evidence/category1_local_baby_food_occurrence_summary.csv",
   "data/evidence/category5_plant_milk_occurrence_summary.csv",
+  "data/evidence/category5_tds_finished_food_occurrence_summary.csv",
 ]
 
 const auditedProductPages = readAuditedProductPages()

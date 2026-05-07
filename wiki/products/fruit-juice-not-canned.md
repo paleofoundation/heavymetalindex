@@ -26,12 +26,12 @@ cc_relationship:
   partners: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 3
+sources: 4
 ---
 
 # Fruit Juice (Not Canned)
 
-This page is a structural scaffold for HMTc Category 1 row 14. One broad infant/toddler-food review has been promoted; not-canned juice-specific data are still pending.
+This page is a structural scaffold for HMTc Category 1 row 14. Broad infant/toddler-food evidence is promoted, and FDA TDS apple-juice finished-food rows are now routed as small-N not-canned juice context.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -43,10 +43,10 @@ This is the fast comparison view for standards developers, regulators, retailers
 | Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
 | --- | --- | --- | --- | --- |
 | [[metals/arsenic-inorganic]] (iAs) | [[regulations/fda2023-inorganic-arsenic-apple-juice]]: Federal FDA final action level: 10 ug/kg iAs. Scope: apple juice. Basis: juice. | FSA/Fera Table 6 includes apple juice and juice composites; FDA TDS reports total arsenic, not iAs, for apple juice. | Limit is visible, but exceedance comparison is blocked until product-row values are extracted and basis/species match. | [[regulations/fda2023-inorganic-arsenic-apple-juice]]; [[sources/fera2014-fsa-metals-infant-foods-formula]]; [[sources/fda2022-tds-elements-fy2018-fy2020]] |
-| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: fruit juices, concentrated fruit juices as reconstituted, and fruit nectars. Basis: wet weight or reconstituted juice. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | EU maximum level loaded; field-finding comparison blocked until juice rows are extracted with product type and arsenic species. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: fruit juices, concentrated fruit juices as reconstituted, and fruit nectars. Basis: wet weight or reconstituted juice. | FSA/Fera Table 6 includes apple juice and juice composites; FDA TDS reports total arsenic, not iAs, for apple juice. | EU maximum level loaded; direct comparison remains blocked until juice rows are extracted with inorganic arsenic species. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]]; [[sources/fda2022-tds-elements-fy2018-fy2020]] |
 | [[metals/lead]] (Pb) | [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 10 ug/kg Pb. Scope: single-strength apple juice. Basis: single-strength ready-to-drink juice. | FDA TDS FY2018-FY2020 apple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with no apple-juice iAs speciation row. | Draft context only. Do not present this value as a final federal limit or an HMTc threshold. | [[regulations/fda2022-draft-lead-juice]]; [[sources/fera2014-fsa-metals-infant-foods-formula]]; [[sources/fda2022-tds-elements-fy2018-fy2020]] |
 | [[metals/lead]] (Pb) | [[regulations/fda2004-juice-haccp-lead]]: Federal FDA guidance hazard-control level: 50 ug/kg Pb. Scope: ready-to-drink fruit juices including fruit nectars. Basis: ready-to-drink juice. | FDA TDS apple juice N=3 had Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; grapefruit juice N=3 had Pb reported as 0 ppb. | Current older juice guidance context; use as legal/regulatory context, not an HMTc value. | [[regulations/fda2004-juice-haccp-lead]]; [[sources/fera2014-fsa-metals-infant-foods-formula]]; [[sources/fda2022-tds-elements-fy2018-fy2020]] |
-| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 30 ug/kg Pb. Scope: fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits. Basis: wet weight or reconstituted juice. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | EU maximum level loaded; field-finding comparison blocked until juice rows are extracted and berry/small-fruit scope is separated. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 30 ug/kg Pb. Scope: fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits. Basis: wet weight or reconstituted juice. | FDA TDS apple juice N=3 had Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; grapefruit juice route review remains product-specific to the non-apple row. | EU maximum level loaded; one small-N apple-juice TDS row is below 30 ug/kg, but this is occurrence context and not an HMTc category distribution. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]]; [[sources/fda2022-tds-elements-fy2018-fy2020]] |
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -89,10 +89,14 @@ Full crosswalk: [[products/lead-benchmark-context]].
 
 <!-- audience: regulator, educator, consumer, app -->
 
-No promoted source currently gives a not-canned fruit-juice-only concentration distribution. The closest Category 1 row evidence includes the UK baby-drinks group and a packaged fruit-juice study that includes multiple packaging formats, so canned products must be filtered out before threshold work.
+No promoted source currently gives a full not-canned fruit-juice-only concentration distribution. FDA TDS apple juice is now routed as a small-N finished-food row, while broader UK baby-drinks and packaged fruit-juice sources still need row-fit filtering before threshold work.
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
+| [[metals/lead|Lead]] | FDA TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | retained ppb summary | [[sources/fda2022-tds-elements-fy2018-fy2020]] | Small-N apple bottled juice route; not a not-canned juice aggregate. |
+| [[metals/cadmium|Cadmium]] | FDA TDS 99 apple juice, bottled | N=3; all reported concentrations 0 ppb | 0 ppb reported concentration summary; reporting limit 1 ppb | [[sources/fda2022-tds-elements-fy2018-fy2020]] | Small-N apple bottled juice route; reported zeroes retained as FDA reported. |
+| [[metals/arsenic-total|Total arsenic]] | FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | retained ppb summary | [[sources/fda2022-tds-elements-fy2018-fy2020]] | Total arsenic only; not inorganic arsenic. |
+| [[metals/nickel|Nickel]] | FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retained ppb summary; reporting limit 20 ppb | [[sources/fda2022-tds-elements-fy2018-fy2020]] | Small-N row with high reporting limit; occurrence context only. |
 | [[metals/arsenic-total|Total arsenic]] | UK baby drinks | 2 ug/kg | 2 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Baby-drinks group, not specifically not-canned fruit juice. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK baby drinks | 1 ug/kg | 1 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Baby-drinks group, not specifically not-canned fruit juice. |
 | [[metals/cadmium|Cadmium]] | UK baby drinks | 0 ug/kg | 0 ppb lower-bound category value | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound treatment; not juice-specific. |
@@ -164,4 +168,5 @@ These sources are visible as product context, but they are not direct locked-row
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
 - [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]
