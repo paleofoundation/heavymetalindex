@@ -306,3 +306,7 @@ Notes: Promoted reviewed FDA TDS apple-juice and grapefruit-juice product-route 
 ## [2026-05-07] extract | signes-pastor2016-rice-products-ias - rice-based infant food iAs source promoted
 Pages affected: [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]], [[products/baby-cereals-dry-rice-based]], [[products/teething-and-snacks-rice-based]]
 Notes: Added the primary Signes-Pastor 2016 Food Chemistry paper and promoted six reviewed iAs median/range rows for baby rice, rice cereals, and rice crackers into `data/evidence/category1_local_baby_food_occurrence_summary.csv` and `data/evidence/values.jsonl`. These rows resolve rice-based iAs as species-specific summary evidence only; dry-weight basis is retained, total arsenic is not substituted for inorganic arsenic, and no p90 or p95 was inferred.
+
+## [2026-05-07] backfill | fsa2016-cereal-context-rows - cereal iAs context structured
+Pages affected: [[sources/fsa2016-infant-food-formula-metals-survey]], [[products/baby-cereals-dry-non-rice]], [[products/baby-cereals-dry-rice-based]]
+Notes: Backfilled FSA/Fera 2016 Table 3 cereal-based infant-food As, iAs, Cd, Pb, and Ni values into the structured local baby-food occurrence register for the rice and non-rice cereal pages as EF-4 broad context. The row remains unsuitable for HMTc standards math because the source does not isolate rice status or report p90/p95. Removed the weaker secondary Signes-Pastor 2018 mixed-cereal iAs measured-value row from the non-rice page; that source remains biomarker/food-diary context only.
