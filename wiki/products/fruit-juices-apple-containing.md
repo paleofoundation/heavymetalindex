@@ -16,8 +16,8 @@ public_evidence_label: Data gap
 review_state: draft
 hmtc_threshold_status: data_gap
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
-sources: 1
+updated: 2026-05-07
+sources: 2
 ---
 
 # Fruit Juices, Apple-Containing
@@ -108,7 +108,7 @@ This matrix translates the product evidence into the decisions the page needs to
 <tr>
 <td><strong>Brand QC operations</strong></td>
 <td>Turn the evidence pool into a test plan: which metals, which product form, which lab basis, and what data fields must be captured.</td>
-<td>No structured measured-value rows are loaded yet; QC can only use the crosswalk narrative as a gap map.</td>
+<td>Structured GEMS/Food context rows are routed below, but no exact apple-juice measured-value distribution is loaded yet; QC can only use the crosswalk narrative as a gap map.</td>
 <td>Match lab testing to the product row and metal species; capture sample count, LOD/LOQ, censoring, unit basis, and prepared-vs-as-sold handling.</td>
 </tr>
 <tr>
@@ -123,7 +123,7 @@ This matrix translates the product evidence into the decisions the page needs to
 <details class="hmi-crosswalk-details">
 <summary>Scope details and evidence-use notes</summary>
 <ul>
-<li><strong>iAs:</strong> Limit scope: apple juice. Basis: juice. Comparison note: Final apple-juice action level; direct iAs comparison remains blocked until apple-juice iAs rows are loaded. Use: Regulatory context and split trigger.</li>
+<li><strong>iAs:</strong> Limit scope: apple juice. Basis: juice. Comparison note: Final apple-juice action level; direct iAs comparison remains blocked because the loaded GEMS/Food juice rows are broad fruit-juice context, not exact apple-juice rows. Use: Regulatory context and split trigger.</li>
 <li><strong>iAs:</strong> Limit scope: fruit juices, concentrated fruit juices as reconstituted, and fruit nectars. Basis: wet weight or reconstituted juice. Comparison note: EU maximum level loaded; field-finding comparison blocked until beverage occurrence sources are promoted with arsenic species. Use: External EU legal context alongside FDA apple-juice guidance; not standards value.</li>
 <li><strong>Pb:</strong> Limit scope: single-strength apple juice. Basis: single-strength ready-to-drink juice. Comparison note: Draft apple-juice value only; not for implementation; occurrence data are not a final regulatory comparison. Use: Draft context only.</li>
 <li><strong>Pb:</strong> Limit scope: fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits. Basis: wet weight or reconstituted juice. Comparison note: EU maximum level loaded; field-finding comparison blocked until beverage occurrence sources are promoted and berry/small-fruit scope is separated. Use: External EU legal context alongside FDA juice guidance; not standards value.</li>
@@ -138,8 +138,23 @@ This matrix translates the product evidence into the decisions the page needs to
 
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
+<!-- BEGIN: hmi-gemsfood-arsenic-context -->
+## WHO GEMS/Food Arsenic Occurrence Context
+
+GEMS/Food adds broad fruit-juice inorganic arsenic context and upstream apple-fruit context for this apple-containing juice category. Because no exact Apple juice row is present in the export, these rows are routed as occurrence context next to FDA/EU reference values, not as final HMTc standards inputs or direct legal exceedance reads. Displayed values are ppm, converted from the GEMS ug/kg summary values by dividing by 1,000. [[sources/who-gemsfood-heavy-metal-contaminants]]
+
+| Routed GEMS food row | Arsenic species | Region | N | P50 ppm | P95 ppm | Max ppm | Use note |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Fruit juice | iAs | PAHO | 619 | 0.00125 | 0.008664 | 0.0555 | Best available juice-context row; GEMS does not label it apple-only. |
+| Fruit or vegetable juice NES | iAs | PAHO | 240 | 0.00057 | 0.003036 | 0.01297 | Broader juice row; use as beverage context. |
+| Fruit juice | iAs | EURO | 70 | 0 | 0.00555 | 0.03 | Additional fruit-juice iAs context. |
+| Fruit juice | tAs | EURO | 1,358 | 0 | 0.013 | 0.382 | Total arsenic; not interchangeable with iAs. |
+| Apple | iAs | PAHO | 39 | 0.00071 | 0.01261 | 0.0546 | Upstream apple-fruit row; not a juice matrix. |
+| Apple | tAs | EURO | 639 | 0 | 0.02 | 0.102 | Upstream apple-fruit row; not a juice matrix. |
+<!-- END: hmi-gemsfood-arsenic-context -->
+
 ## Sources
 
 
 - [[sources/fda2022-tds-elements-fy2018-fy2020]]
-- Source promotion pending.
+- [[sources/who-gemsfood-heavy-metal-contaminants]]

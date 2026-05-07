@@ -75,3 +75,21 @@ ingredients/wild-mushrooms,"Fungi, edible (not including mushrooms)",tAs,EURO,70
 ingredients/wild-mushrooms,Mushrooms,tAs,EURO,489,15.8,1316,12700,Mushroom context.
 ingredients/wild-mushrooms,"Fungi, edible (not including mushrooms)",iAs,EURO,95,0,184.8,820,Speciated fungi context.
 ingredients/wild-mushrooms,Mushrooms,iAs,EURO,71,23.55,616.1,3300,Speciated mushroom context.
+ingredients/apple-juice,Fruit juice,iAs,PAHO,619,1.25,8.664,55.5,Best available juice-context row; GEMS does not label it apple-only.
+ingredients/apple-juice,Fruit or vegetable juice NES,iAs,PAHO,240,0.57,3.036,12.97,Broader juice row; use as beverage context.
+ingredients/apple-juice,Fruit juice,iAs,EURO,70,0,5.55,30,Additional fruit-juice iAs context.
+ingredients/apple-juice,Fruit juice,tAs,EURO,1358,0,13,382,Total arsenic; not interchangeable with iAs.
+ingredients/apple-juice,Apple,iAs,PAHO,39,0.71,12.61,54.6,Upstream apple-fruit row; not a juice matrix.
+ingredients/apple-juice,Apple,tAs,EURO,639,0,20,102,Upstream apple-fruit row; not a juice matrix.
+ingredients/apple,Apple,tAs,EURO,639,0,20,102,Apple-fruit occurrence context.
+ingredients/apple,Apple,tAs,European Union,613,0,20,102,EU-overlap apple-fruit context.
+ingredients/apple,Apple,tAs,EURO,515,0,3.627,80,Apple-fruit occurrence context.
+ingredients/apple,Apple,tAs,EURO,398,0,25.75,350,Apple-fruit occurrence context; review high-end values before claims.
+ingredients/apple,Apple,iAs,PAHO,39,0.71,12.61,54.6,Speciated apple-fruit row; small N.
+ingredients/apple,Apple,tAs,EURO,49,0,57.42,325,Small-N apple-fruit context; review before percentile use.
+products/fruit-juices-apple-containing,Fruit juice,iAs,PAHO,619,1.25,8.664,55.5,Best available juice-context row; GEMS does not label it apple-only.
+products/fruit-juices-apple-containing,Fruit or vegetable juice NES,iAs,PAHO,240,0.57,3.036,12.97,Broader juice row; use as beverage context.
+products/fruit-juices-apple-containing,Fruit juice,iAs,EURO,70,0,5.55,30,Additional fruit-juice iAs context.
+products/fruit-juices-apple-containing,Fruit juice,tAs,EURO,1358,0,13,382,Total arsenic; not interchangeable with iAs.
+products/fruit-juices-apple-containing,Apple,iAs,PAHO,39,0.71,12.61,54.6,Upstream apple-fruit row; not a juice matrix.
+products/fruit-juices-apple-containing,Apple,tAs,EURO,639,0,20,102,Upstream apple-fruit row; not a juice matrix.

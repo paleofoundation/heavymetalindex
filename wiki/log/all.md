@@ -8,7 +8,7 @@ updated: "2026-05-07"
 Stable complete archive generated from `data/log/entries.jsonl`.
 
 - Back to [[log|Update History]]
-- Ledger SHA-256: `f97c26c8bd6a8f64641c73069cc79398ccf6ec1b1e927112212f42c89cabba23`
+- Ledger SHA-256: `6653850cff012a292bf29526d2d3fc99cf5b6664e37e5ee3011f6445e221932a`
 
 <a id="2026-05-07-synthesis-who-gemsfood-arsenic-page-routing"></a>
 
@@ -19,6 +19,16 @@ Entry ID: `2026-05-07-synthesis-who-gemsfood-arsenic-page-routing`
 Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[metals/arsenic-inorganic]], [[metals/arsenic-total]], [[ingredients/rice]], [[ingredients/algae-seaweed]], [[ingredients/fish]], [[ingredients/seafood]], [[ingredients/bivalve-molluscs]], [[ingredients/fruit-juice]], [[ingredients/water]], [[ingredients/vegetables]], [[ingredients/root-vegetables]], [[ingredients/leafy-greens]], [[ingredients/wild-mushrooms]], [[products/baby-cereals-dry-rice-based]], [[products/mixed-meals-rice-containing]], [[ingredients/index]], [[log]]
 
 Notes: Promoted the cleaned WHO GEMS/Food arsenic occurrence summaries from source-layer evidence into page-level occurrence-context sections. Added a route ledger at `data/evidence/who_gemsfood_arsenic_page_routes.csv` and created a dedicated algae/seaweed ingredient node. The sections preserve species labels and WHO-region scope; they do not infer brand claims, direct regulatory exceedance, or HMTc standards values.
+
+<a id="2026-05-07-synthesis-who-gemsfood-apple-juice-routing"></a>
+
+## [2026-05-07] synthesis | who-gemsfood-apple-juice-routing - WHO GEMS/Food arsenic context routed to apple juice pages
+
+Entry ID: `2026-05-07-synthesis-who-gemsfood-apple-juice-routing`
+
+Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[ingredients/apple]], [[ingredients/apple-juice]], [[products/fruit-juices-apple-containing]], [[log]]
+
+Notes: Added the missing GEMS/Food arsenic routing for apple juice. The export does not expose an exact Apple juice row, so the routed page sections now carry broad fruit-juice inorganic arsenic rows plus upstream apple-fruit rows as occurrence context only. Public page tables display ppm converted from the GEMS ug/kg summary values; the route ledger preserves source-species, WHO-region scope, sample count, and original ug/kg percentile values. No HMTc standard, brand claim, or direct regulatory exceedance is inferred.
 
 <a id="2026-05-04-lint-2026-05-04-broad-lint-pass"></a>
 

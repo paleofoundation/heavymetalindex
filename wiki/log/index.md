@@ -9,19 +9,19 @@ This is the public archive of Heavy Metal Index ingests, lints, corrections, sch
 
 Corrections should be added as new correction entries. Existing entries are retained for historical context instead of being silently deleted.
 
-- Total entries: 49
-- Ledger SHA-256: `f97c26c8bd6a8f64641c73069cc79398ccf6ec1b1e927112212f42c89cabba23`
+- Total entries: 50
+- Ledger SHA-256: `6653850cff012a292bf29526d2d3fc99cf5b6664e37e5ee3011f6445e221932a`
 - Complete readable archive: [[log/all|all entries]]
 - Public machine-readable ledger copy: [[log/records|records JSONL]]
 
 ## Archive By Month
 
-- [[log/2026-05|May 2026]] - 9 entries
+- [[log/2026-05|May 2026]] - 10 entries
 - [[log/2026-04|April 2026]] - 40 entries
 
 ## Archive By Year
 
-- [[log/2026|2026]] - 49 entries
+- [[log/2026|2026]] - 50 entries
 
 ## Latest Entries
 
@@ -34,6 +34,16 @@ Entry ID: `2026-05-07-synthesis-who-gemsfood-arsenic-page-routing`
 Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[metals/arsenic-inorganic]], [[metals/arsenic-total]], [[ingredients/rice]], [[ingredients/algae-seaweed]], [[ingredients/fish]], [[ingredients/seafood]], [[ingredients/bivalve-molluscs]], [[ingredients/fruit-juice]], [[ingredients/water]], [[ingredients/vegetables]], [[ingredients/root-vegetables]], [[ingredients/leafy-greens]], [[ingredients/wild-mushrooms]], [[products/baby-cereals-dry-rice-based]], [[products/mixed-meals-rice-containing]], [[ingredients/index]], [[log]]
 
 Notes: Promoted the cleaned WHO GEMS/Food arsenic occurrence summaries from source-layer evidence into page-level occurrence-context sections. Added a route ledger at `data/evidence/who_gemsfood_arsenic_page_routes.csv` and created a dedicated algae/seaweed ingredient node. The sections preserve species labels and WHO-region scope; they do not infer brand claims, direct regulatory exceedance, or HMTc standards values.
+
+<a id="2026-05-07-synthesis-who-gemsfood-apple-juice-routing"></a>
+
+### [2026-05-07] synthesis | who-gemsfood-apple-juice-routing - WHO GEMS/Food arsenic context routed to apple juice pages
+
+Entry ID: `2026-05-07-synthesis-who-gemsfood-apple-juice-routing`
+
+Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[ingredients/apple]], [[ingredients/apple-juice]], [[products/fruit-juices-apple-containing]], [[log]]
+
+Notes: Added the missing GEMS/Food arsenic routing for apple juice. The export does not expose an exact Apple juice row, so the routed page sections now carry broad fruit-juice inorganic arsenic rows plus upstream apple-fruit rows as occurrence context only. Public page tables display ppm converted from the GEMS ug/kg summary values; the route ledger preserves source-species, WHO-region scope, sample count, and original ug/kg percentile values. No HMTc standard, brand claim, or direct regulatory exceedance is inferred.
 
 <a id="2026-05-04-lint-2026-05-04-broad-lint-pass"></a>
 
@@ -110,12 +120,3 @@ Entry ID: `2026-05-01-ingest-category-5-plant-milk-corpus-pilot`
 Pages touched: [[corpus/index]], [[sources/milani2023-trace-elements-soy-based-beverages]], [[sources/damato2026-inorganic-arsenic-rice-based-beverages]], [[sources/marques2021-trace-elements-milks-plant-based-drinks]], [[regulations/eu2023-arsenic-rice-based-drinks]], [[products/plant-milks-soy-based]], [[products/plant-milks-rice-based]], [[products/plant-milks-non-soy-non-rice]], [[products/regulatory-crosswalk-field-findings]], [[ingredients/plant-milk]], [[ingredients/soy]], [[ingredients/rice]], [[lint/2026-05-01-category-5-plant-milk-corpus-pilot-audit]]
 
 Notes: Promoted the first raw-markdown corpus pilot into the canonical wiki path for Category 5 beverage rows. Added curated source nodes for Milani 2023, D'Amato 2026, and Marques 2021; added plant-milk product pages; added an EU rice-drink inorganic arsenic regulation node; added structured occurrence and regulatory crosswalk data; and added [[products/regulatory-crosswalk-field-findings]] as the critical comparison layer.
-
-<a id="2026-04-30-ingest-ufelle2021-metals-chapter"></a>
-
-### [2026-04-30] ingest | ufelle2021-metals-chapter - chapter-level metals toxicology re-ingest
-
-Entry ID: `2026-04-30-ingest-ufelle2021-metals-chapter`
-
-Pages touched: [[sources/ufelle2021-metals-chapter]], [[metals/arsenic]], [[metals/arsenic-inorganic]], [[metals/arsenic-total]], [[metals/cadmium]], [[metals/chromium]], [[metals/cobalt]], [[metals/copper]], [[metals/iron]], [[metals/lead]], [[metals/magnesium]], [[metals/mercury]], [[metals/mercury-methyl]], [[metals/mercury-total]], [[metals/molybdenum]], [[metals/nickel]], [[metals/zinc]], [[metals/aluminum]], [[metals/antimony]], [[metals/barium]], [[metals/beryllium]], [[metals/cesium]], [[metals/gold]], [[metals/lithium]], [[metals/manganese]], [[metals/palladium]], [[metals/platinum]], [[metals/silver]], [[metals/tellurium]], [[metals/thallium]], [[metals/tin]], [[metals/titanium]], [[metals/uranium]], [[metals/vanadium]]
-Notes: Re-ingested Casarett & Doull's Essentials of Toxicology Chapter 23 as a whole-chapter metal toxicology source rather than a cadmium-only corroborating source. The rendered source page now visibly preserves the exact chapter title, exact figure/table titles, chapter section structure, and a metal-node map across existing and newly stubbed wiki metal/species pages, while marking the source as textbook synthesis with no food occurrence values.
