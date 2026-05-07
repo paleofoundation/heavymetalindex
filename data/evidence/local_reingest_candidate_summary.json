@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-05-07T13:00:55.064Z",
+  "generated_at": "2026-05-07T13:12:05.033Z",
   "product_filter": "all",
   "source_count": 30,
   "deterministic_candidate_value_count": 114,
-  "source_task_count": 18,
+  "context_disposition_count": 46,
+  "source_task_count": 0,
   "by_source": {
     "collado-lopez2025-heavy-metals-baby-food-formula": 17,
     "meli2024-chemical-characterization-baby-food-italy": 21,
@@ -43,5 +44,13 @@
     "deterministic_parser_parker2022_table4_baby_food_categories": 12,
     "deterministic_parser_damato2026_table3_rice_drinks": 2,
     "deterministic_parser_milani2023_table3_soy_beverages": 24
+  },
+  "by_disposition_status": {
+    "context_only_no_routeable_review_median": 27,
+    "context_only_duplicate_diet_exposure": 2,
+    "context_only_biomarker_food_diary": 2,
+    "context_only_table_review_blocked": 12,
+    "context_only_tds_exposure_model": 2,
+    "context_only_no_rice_snack_mercury_subset": 1
   }
 }
