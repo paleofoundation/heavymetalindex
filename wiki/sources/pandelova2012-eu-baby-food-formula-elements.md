@@ -33,11 +33,11 @@ This peer-reviewed CASCADE project study measured ten elements in designed Europ
 | National SFB5 baskets | 13 solid food products representing fifth-month diets in Italy, Spain, Slovakia, and Sweden |
 | Basket design | Pooled market baskets weighted by market share or energy contribution to infant diet |
 | Analytical methods | ICP-AES for Ca, Cu, Fe, Mn, Ni, Se, Zn; ICP-sf-MS for Pb, Hg, Cd |
-| Important unit note | The extracted PDF text renders microgram symbols inconsistently as `m`; trace metal values in the source tables are preserved as reported and should be checked against the PDF image before final numeric normalization. |
+| Important unit note | Table 3 unit labels were checked against the rendered PDF image on 2026-05-07. Cd, Hg, Pb, and Se are reported as ug/kg fw; Cu, Fe, Mn, Ni, and Zn as mg/kg fw; Ca as g/kg fw. Structured evidence rows normalize these source units deterministically to ppb while preserving the source unit in source-page tables and structured evidence notes. |
 
 ## EU Basket Formula Concentration Findings
 
-Trace element units are preserved from Table 3 as extracted. For public product pages, these values should be treated as pooled-basket concentrations, not individual-product distributions.
+Trace element units are preserved from Table 3 as extracted below. For structured evidence, the Table 3 PDF image was checked and units were normalized deterministically to ppb. These values should still be treated as pooled-basket concentrations, not individual-product distributions.
 
 | Analyte | Starting milk formula | Starting soy formula | Starting hypoallergenic formula | Follow-on milk formula | Follow-on soy formula | Follow-on hypoallergenic formula | Table |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
@@ -76,7 +76,7 @@ This source is a pooled market-basket study. It is useful for formula-type compa
 
 ## Limitations
 
-The extracted text has unit-symbol OCR ambiguity, with microgram symbols often rendered as `m`. Before these numbers are used in threshold tables, the source PDF image should be checked and a normalized extraction table should be created. The study uses pooled baskets weighted by market share or diet contribution, so sample-level variability is not available.
+The extracted text has unit-symbol OCR ambiguity, with microgram symbols often rendered as `m`; Table 3 unit labels were therefore checked against the PDF image before structured normalization. The study uses pooled baskets weighted by market share or diet contribution, so sample-level variability is not available.
 
 ## Implications
 
