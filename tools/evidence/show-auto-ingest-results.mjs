@@ -237,9 +237,17 @@ function printGapOverview(rows, limit) {
 function severityRank(status) {
   if (status === "BLOCKED: no structured evidence loaded") return 0
   if (status === "BLOCKED: species-specific evidence missing") return 1
-  if (status === "BLOCKED: summary evidence only") return 2
-  if (status === "BLOCKED: evidence fitness review needed") return 3
-  if (status === "DO NOT PUBLISH P90: single distribution-capable source") return 4
+  if (status === "BLOCKED: local extraction pending") return 2
+  if (status === "BLOCKED: PDF match review pending") return 2
+  if (status === "BLOCKED: source document missing") return 2
+  if (status === "BLOCKED: TDS product route review pending") return 2
+  if (status === "BLOCKED: summary evidence only") return 3
+  if (status === "BLOCKED: evidence fitness review needed") return 4
+  if (status === "DO NOT PUBLISH P90: single distribution-capable source") return 5
+  if (status === "PENDING: aggregate math after local extraction") return 6
+  if (status === "READY FOR AGGREGATE MATH REVIEW") return 7
+  if (status === "CONTEXT ONLY: not a locked HMTc standards row") return 8
+  if (status === "OUT OF SCOPE: not a locked HMTc standards row") return 8
   return 9
 }
 

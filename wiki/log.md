@@ -263,3 +263,7 @@ Notes: Added a generated FDA TDS product-route candidate report for finished-foo
 ## [2026-05-07] tooling | standards-gap-occurrence-inputs — standards gaps read all occurrence summaries
 Pages affected: [[methodology/persistent-wiki-ingest-rule]], [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]], [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 Notes: Updated the HMTc standards gap report so it reads existing formula, FDA baby-food compliance, and plant-milk occurrence summary layers instead of only formula rows. This converts already-ingested baby cereal, puree, mixed-meal, snack, and plant-milk evidence from false "no structured evidence" gaps into single-source, species-specific, or summary-evidence blockers. No total arsenic was substituted for inorganic arsenic, and no new p90 was inferred.
+
+## [2026-05-07] tooling | standards-gap-scope-labels — non-locked product rows marked context-only
+Pages affected: [[products/infant-formula-powder]], [[products/oral-electrolyte-solutions]], [[products/glucose-solutions]]
+Notes: Updated the HMTc standards gap report to label base and bridge product nodes as context-only rather than treating them as locked standards rows. This keeps infant-formula powder base context, concentrated-liquid bridge rows, oral electrolytes, and glucose solutions visible for source routing and exposure context without creating false HMTc p90 work.
