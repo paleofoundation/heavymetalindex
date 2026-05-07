@@ -4,6 +4,8 @@ This repository is a compiled wiki, not a raw-file bucket and not a query-time R
 
 Codex must read `CLAUDE.md` and `wiki/methodology/persistent-wiki-ingest-rule.md` before any ingest, evidence-routing, product-page, ingredient-page, or source-page work.
 
+Codex must also read `docs/governance/hmtc-governing-principles.md` before any product-category, HMTc standards, limit-setting, crosswalk, or certification-threshold work.
+
 ## Ingest Completion Gate
 
 A source is not ingested merely because a PDF exists, a source page exists, or the source is searchable.
