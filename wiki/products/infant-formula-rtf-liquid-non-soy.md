@@ -170,6 +170,28 @@ See the page-level crosswalk above and [[products/regulatory-crosswalk-field-fin
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
+<!-- BEGIN: hmi-broad-context-sources -->
+## Broad Formula Context Awaiting Row-Fit Review
+
+<!-- audience: regulator, educator, app -->
+
+These sources are visible as formula context, but they are not direct locked-row evidence. Keep them out of HMTc p90 or p95 calculations unless a later extraction resolves product format, soy status, basis, species, and statistic fit.
+
+| Source | Title | Source scope | Metals | Row-fit handling |
+| --- | --- | --- | --- | --- |
+| [[sources/amarh2023-ghana-infant-food-heavy-metals]] | Health risk assessment of some selected heavy metals in infan... | infant-foods; infant-formula | tAs; Cd; Cr; tHg; Mn; Ni; Pb; Sb | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/chung2021-china-infant-formula-toxic-elements]] | Content and Dietary Exposure Assessment of Toxic Elements in ... | infant-formula | Cr; tAs; Cd; Pb | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] | Concentrations of Heavy Metals in Processed Baby Foods and In... | infant-formula; baby-cereals-dry-rice-based; baby-cereals-dry-non-rice; fruit-purees | Pb; Cd; tAs; tHg | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/efsa-cadmium-contam-2009]] | Scientific Opinion of the Panel on Contaminants in the Food C... | [[products/chocolate]]; [[products/infant-formula]]; [[products/breast-milk]] | Cd | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]] | Arsenic, Organic Foods, and Brown Rice Syrup | infant-formula; toddler-formula; rice-containing-products | tAs; iAs | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/marques2021-trace-elements-milks-plant-based-drinks]] | Essential and Non-essential Trace Elements in Milks and Plant... | plant-milks-soy-based; plant-milks-rice-based; plant-milks-non-soy-non-rice; infant-formula | Pb; tHg; Ni; U | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Infants' and young children's dietary exposures to lead and c... | processed-baby-food; infant-formula; root-vegetable-purees; teething-biscuits | Pb; Cd | Broad formula context only until format and soy/non-soy fit are resolved. |
+| [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]] | Dietary intake of methylmercury by 0-5 years children using t... | fish-containing-baby-foods; infant-formula; baby-foods; toddler-meals | tHg; MeHg | Broad formula context only until format and soy/non-soy fit are resolved. |
+
+<!-- END: hmi-broad-context-sources -->
+
 ## Sources
 
 - [[sources/spungen2024-fda-tds-infant-lead-cadmium]]

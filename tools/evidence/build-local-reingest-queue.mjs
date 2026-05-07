@@ -29,16 +29,21 @@ for (let index = 2; index < process.argv.length; index += 1) {
 
 const productFilter = args.get("product") ?? ""
 const includeStructured = args.get("include-structured") === "true"
+const includeVisibleBroadContext = args.get("include-visible-broad-context") === "true"
 
 const routingRows = fs.existsSync(routingAuditPath) ? parseCsv(fs.readFileSync(routingAuditPath, "utf8")) : []
 const rawInventoryRows = fs.existsSync(rawInventoryPath) ? parseCsv(fs.readFileSync(rawInventoryPath, "utf8")) : []
 const sourcePages = readSourcePages()
 const rawInventoryBySource = indexRawInventoryBySource(rawInventoryRows)
 
-const queueRows = routingRows
+const candidateQueueRows = routingRows
   .filter((row) => !productFilter || row.product_slug === productFilter)
   .filter((row) => includeStructured || row.route_status !== "structured_values_present")
   .map((row) => buildQueueRow(row))
+
+const excludedVisibleBroadContextRows = candidateQueueRows.filter(isVisibleBroadContextRow)
+const queueRows = candidateQueueRows
+  .filter((row) => includeVisibleBroadContext || !isVisibleBroadContextRow(row))
   .sort((a, b) => a.priority_rank - b.priority_rank || a.product_slug.localeCompare(b.product_slug) || a.source_id.localeCompare(b.source_id))
 
 writeCsv(outputPath, queueRows.map(publicQueueRow), [
@@ -64,6 +69,8 @@ const summary = {
   generated_at: new Date().toISOString(),
   product_filter: productFilter || "all",
   include_structured: includeStructured,
+  include_visible_broad_context: includeVisibleBroadContext,
+  excluded_visible_broad_context_rows: includeVisibleBroadContext ? 0 : excludedVisibleBroadContextRows.length,
   total_queue_rows: queueRows.length,
   by_priority: countBy(queueRows, (row) => row.priority),
   by_local_pdf_status: countBy(queueRows, (row) => row.local_pdf_status),
@@ -201,6 +208,14 @@ function priorityRank(priority) {
   if (priority.startsWith("P2")) return 2
   if (priority.startsWith("P3")) return 3
   return 9
+}
+
+function isVisibleBroadContextRow(row) {
+  return (
+    row.route_status === "source_on_page_no_structured_value" &&
+    String(row.route_kind || "").startsWith("broad_") &&
+    row.evidence_use === "broad_context_pending_row_fit"
+  )
 }
 
 function guardrailsFor(row, source) {
