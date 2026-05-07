@@ -66,6 +66,8 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
   const sourcePath = path.join(sourceDir, file)
   const raw = fs.readFileSync(sourcePath, "utf8")
   const parsed = matter(raw)
+  if (isRegulatorySource(parsed.data)) continue
+
   const sourceId = String(parsed.data.cite_key || path.basename(file, ".md"))
   const sourceTitle = String(parsed.data.title || firstHeading(raw) || readableSlug(sourceId))
   const products = asStringArray(parsed.data.products)
@@ -240,6 +242,14 @@ function asStringArray(value) {
       .filter(Boolean)
   }
   return []
+}
+
+function isRegulatorySource(data) {
+  const sourceType = String(data.source_type || "").toLowerCase()
+  if (sourceType.includes("regulation")) return true
+
+  const claimClasses = asStringArray(data.claim_classes).map((item) => item.toLowerCase())
+  return claimClasses.includes("regulatory_limit")
 }
 
 function productMetalScopeMap(value) {
