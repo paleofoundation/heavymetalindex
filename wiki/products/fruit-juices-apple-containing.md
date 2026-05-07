@@ -37,7 +37,7 @@ This page is HMTc Category 5 row 2 from the locked beverage architecture. It exi
 
 <!-- audience: regulator, educator, consumer, app -->
 
-FDA TDS food 99 routes to this row as bottled apple juice for total-element context, and FDA 2011 apple-juice speciation rows provide routeable inorganic-arsenic occurrence evidence. These source summaries are useful occurrence context, but no aggregate HMTc p90 is published from one source alone. [[sources/fda2022-tds-elements-fy2018-fy2020]] [[sources/fda2011-apple-juice-arsenic-speciation]]
+FDA TDS food 99 routes to this row as bottled apple juice for total-element context, and FDA 2011 apple-juice speciation rows provide routeable inorganic-arsenic occurrence evidence. These source summaries are useful occurrence context, but no aggregate HMTc threshold is published from one source alone. [[sources/fda2022-tds-elements-fy2018-fy2020]] [[sources/fda2011-apple-juice-arsenic-speciation]]
 
 | Analyte | Evidence scope | Reported value | Source-use caveat |
 | --- | --- | --- | --- |
@@ -65,6 +65,23 @@ This is the fast comparison view for standards developers, regulators, retailers
 ## Evidence Handling
 
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
+
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## HMTc Evidence Summary
+
+<!-- audience: regulator, educator, app -->
+
+This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+
+Clean benchmark rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMTc value must be no higher than the lowest applicable loaded regulatory cap.
+
+| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | contaminated-platform P10 | 1 source; 1 distribution source; 0 summary sources; N=3 | Below confidence gate: only one fit distribution source is loaded. | 10 ug/kg (fda2022_draft_pb_apple_juice_10) |
+| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 1 source; 1 distribution source; 0 summary sources; N=3 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
+| [[metals/arsenic-inorganic]] (iAs) | contaminated-platform P10 | 1 source; 1 distribution source; 0 summary sources; N=94 | Below confidence gate: only one fit distribution source is loaded. | 10 ug/kg (fda2023_ias_apple_juice_10) |
+
+<!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources
 

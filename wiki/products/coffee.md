@@ -51,6 +51,23 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## HMTc Evidence Summary
+
+<!-- audience: regulator, educator, app -->
+
+This row's standards target is **independent-row P90**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+
+Clean benchmark rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMTc value must be no higher than the lowest applicable loaded regulatory cap.
+
+| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+| [[metals/cadmium]] (Cd) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+| [[metals/arsenic-total]] (tAs) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+
+<!-- END: hmi-hmtc-evidence-summary -->
+
 ## Sources
 
 - Source promotion pending.

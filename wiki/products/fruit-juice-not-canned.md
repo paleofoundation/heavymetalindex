@@ -58,6 +58,31 @@ This page is part of the Category 1 Evidence Fitness pilot. It summarizes source
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## HMTc Evidence Summary
+
+<!-- audience: regulator, educator, app -->
+
+This row's standards target is **independent-row P90**. Some metals are ready for aggregate math review; blocked metals stay out of limit-setting until the stated evidence gap is closed. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+
+Clean benchmark rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMTc value must be no higher than the lowest applicable loaded regulatory cap.
+
+| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | independent-row P90 | 3 sources; 1 distribution source; 2 summary sources; N=83 | Below confidence gate: only one fit distribution source is loaded. | 10 ug/kg (fda2022_draft_pb_apple_juice_10) |
+| [[metals/cadmium]] (Cd) | independent-row P90 | 4 sources; 1 distribution source; 3 summary sources; N=87 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
+| [[metals/arsenic-total]] (tAs) | independent-row P90 | 3 sources; 1 distribution source; 2 summary sources; N=7 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
+| [[metals/arsenic-inorganic]] (iAs) | independent-row P90 | 3 sources; 2 distribution sources; 1 summary source; N=152 | Ready for aggregate math review; final use still needs bootstrap/stability review at the 80-95% confidence gate. | 10 ug/kg (fda2023_ias_apple_juice_10) |
+| [[metals/aluminum]] (Al) | independent-row P90 | 1 source; 0 distribution sources; 1 summary source; N=4 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| [[metals/nickel]] (Ni) | independent-row P90 | 4 sources; 1 distribution source; 3 summary sources; N=87 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
+| [[metals/tin]] (Sn) | independent-row P90 | 1 source; 0 distribution sources; 1 summary source; N=4 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| Co | independent-row P90 | 1 source; 0 distribution sources; 1 summary source; N=4 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| Cr-total | independent-row P90 | 2 sources; 0 distribution sources; 2 summary sources; N=84 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| Sb | independent-row P90 | 1 source; 0 distribution sources; 1 summary source; N=4 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| V | independent-row P90 | 1 source; 0 distribution sources; 1 summary source; N=4 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+
+<!-- END: hmi-hmtc-evidence-summary -->
+
 ## Lead Benchmark Context
 
 <!-- audience: regulator, educator, consumer, app -->

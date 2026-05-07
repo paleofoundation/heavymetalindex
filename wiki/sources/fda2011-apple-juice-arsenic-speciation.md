@@ -43,7 +43,7 @@ FDA reports Trace (`TR`) when species results are above the limit of detection a
 
 ## Evidence Fitness
 
-This is EF-2 reconstructable evidence: the source table provides sample-level values and the lower-bound percentiles are deterministic nearest-rank calculations from the checked sample extract. It is stronger than a narrative or mean-only source, but it remains one historical FDA dataset and should not be published as an HMTc aggregate p90 by itself.
+This is EF-2 reconstructable evidence: the source table provides sample-level values and the lower-bound percentiles are deterministic nearest-rank calculations from the checked sample extract. It is stronger than a narrative or mean-only source, but it remains one historical FDA dataset and should not be published as an HMTc row-standard aggregate by itself.
 
 ## Limitations
 
