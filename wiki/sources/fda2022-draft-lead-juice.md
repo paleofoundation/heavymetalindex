@@ -38,4 +38,8 @@ FDA's April 2022 lead-in-juice guidance is draft guidance and not for implementa
 
 - [[regulations/fda2022-draft-lead-juice]]
 - [[products/lead-benchmark-context]]
+- [[products/fruit-juice-not-canned]]
 
+## Product-row handling
+
+This source is regulatory guidance context, not a measured occurrence dataset. Keep the draft lead values in the regulatory crosswalk and do not promote them as HMTc occurrence evidence or certification thresholds.

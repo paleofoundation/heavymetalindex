@@ -26,7 +26,7 @@ cc_relationship:
   partners: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-07
-sources: 5
+sources: 7
 ---
 
 # Fruit Juice (Not Canned)
@@ -77,6 +77,10 @@ Juice is the clearest example where a current federal context value can look loo
 Full crosswalk: [[products/lead-benchmark-context]].
 
 <!-- lead-benchmark-context:end -->
+
+## Regulatory Guidance Source Handling
+
+The FDA 2022 draft juice guidance and the FDA 2004 Juice HACCP guidance are retained here as regulatory source context, not fruit-juice occurrence evidence. They document the draft 10/20 ppb lead context and current 50 ppb Juice HACCP context used in the crosswalk, but neither source reports measured product concentration rows for this locked HMTc category. [[sources/fda2022-draft-lead-juice]] [[sources/fda2004-juice-haccp-lead]]
 
 ## Scaffold Status
 
@@ -169,5 +173,7 @@ These sources are visible as product context, but they are not direct locked-row
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
 - [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
+- [[sources/fda2004-juice-haccp-lead]]
+- [[sources/fda2022-draft-lead-juice]]
 - [[sources/fda2022-tds-elements-fy2018-fy2020]]
 - [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]

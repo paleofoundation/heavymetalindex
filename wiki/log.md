@@ -332,3 +332,7 @@ Notes: Promoted reviewed Parker 2022 Table 4 root-vegetable and leguminous-veget
 ## [2026-05-07] extract | milani2023-soy-beverage-cr-sb-context — Soy beverage Cr/Sb context structured
 Pages affected: [[sources/milani2023-trace-elements-soy-based-beverages]], [[products/plant-milks-soy-based]]
 Notes: Added reviewed Milani 2023 soy-beverage Cr and Sb occurrence context to the Category 5 plant-milk register, product crosswalk, source page, and soy-based plant-milk page. Chromium remains total/unspecified Cr, not Cr-VI; censored bounds are retained as reported; no p50, p90, or p95 was inferred.
+
+## [2026-05-07] routing | fruit-juice-guidance-context-dispositions — FDA juice guidance routes documented
+Pages affected: [[products/fruit-juice-not-canned]], [[sources/fda2022-draft-lead-juice]], [[sources/fda2004-juice-haccp-lead]]
+Notes: Added explicit source-page citations and context-disposition rows for the FDA 2022 draft lead-in-juice guidance and FDA 2004 Juice HACCP guidance. These sources remain visible as regulatory context for the product crosswalk, but are not treated as measured occurrence evidence, HMTc thresholds, or extraction blockers; no p50, p90, or p95 was inferred.
