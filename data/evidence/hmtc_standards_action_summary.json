@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-07T14:22:29.694Z",
+  "generated_at": "2026-05-07T14:35:05.570Z",
   "product_filter": "all",
-  "total_action_rows": 58,
+  "total_action_rows": 59,
   "by_action_priority": {
     "P1": 8,
-    "P2": 47,
+    "P2": 48,
     "P3": 3
   },
   "by_action_type": {
     "resolve-species-specific-gap": 8,
     "find-fit-source-after-context-only-review": 4,
     "find-or-route-fit-source-evidence": 16,
-    "find-sample-level-or-percentile-evidence": 12,
+    "find-sample-level-or-percentile-evidence": 13,
     "find-second-distribution-capable-source": 15,
     "review-evidence-fitness": 3
   },
@@ -19,7 +19,7 @@
     "BLOCKED: species-specific evidence missing": 8,
     "BLOCKED: documented local sources are context-only": 4,
     "BLOCKED: no structured evidence loaded": 16,
-    "BLOCKED: summary evidence only": 12,
+    "BLOCKED: summary evidence only": 13,
     "DO NOT PUBLISH P90: single distribution-capable source": 15,
     "BLOCKED: evidence fitness review needed": 3
   },

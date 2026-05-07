@@ -25,13 +25,13 @@ cc_relationship:
   scope: none
   partners: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
-sources: 4
+updated: 2026-05-07
+sources: 5
 ---
 
 # Fruit Juice (Not Canned)
 
-This page is a structural scaffold for HMTc Category 1 row 14. Broad infant/toddler-food evidence is promoted, and FDA TDS apple-juice finished-food rows are now routed as small-N not-canned juice context.
+This page is a structural scaffold for HMTc Category 1 row 14. Broad infant/toddler-food evidence is promoted, FDA TDS apple-juice finished-food rows are routed as small-N not-canned juice context, and Chekri/Weldegebriel fruit-juice rows are now structured as context-only evidence.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -89,7 +89,7 @@ Full crosswalk: [[products/lead-benchmark-context]].
 
 <!-- audience: regulator, educator, consumer, app -->
 
-No promoted source currently gives a full not-canned fruit-juice-only concentration distribution. FDA TDS apple juice is now routed as a small-N finished-food row, while broader UK baby-drinks and packaged fruit-juice sources still need row-fit filtering before threshold work.
+No promoted source currently gives a full not-canned fruit-juice-only concentration distribution. FDA TDS apple juice is routed as a small-N finished-food row, while broader UK baby-drinks and packaged fruit-juice sources remain context only until row-fit filtering resolves fruit type, canned status, analyte species, and statistic fit.
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |
@@ -168,5 +168,6 @@ These sources are visible as product context, but they are not direct locked-row
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
 - [[sources/bair2022-heavy-metals-infant-toddler-foods]]
+- [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
 - [[sources/fda2022-tds-elements-fy2018-fy2020]]
 - [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]
