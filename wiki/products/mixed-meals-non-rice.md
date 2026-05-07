@@ -28,7 +28,7 @@ cc_relationship:
       role_of_partner: contamination_platform
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-07
 sources: 4
 ---
 
@@ -90,7 +90,7 @@ Full crosswalk: [[products/lead-benchmark-context]].
 
 <!-- audience: regulator, educator, app -->
 
-The current source set does not yet support a non-rice mixed-meal p10/p90/p100 concentration spread. UK category-average data and broad Gardener 2019 all-sample percentiles can support screening context, but rice status and mixed-meal formulation must be resolved before threshold-setting use. [[sources/fsa2016-infant-food-formula-metals-survey]] [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+The current source set does not yet support a non-rice mixed-meal p10/p90/p100 concentration spread. UK category-average data are structured as EF-4 context and broad Gardener 2019 all-sample percentiles can support screening context, but rice status and mixed-meal formulation must be resolved before threshold-setting use. [[sources/fsa2016-infant-food-formula-metals-survey]] [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
