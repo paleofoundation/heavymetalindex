@@ -13,6 +13,7 @@ const occurrenceSummaryFiles = [
   "data/evidence/category1_local_baby_food_occurrence_summary.csv",
   "data/evidence/category5_plant_milk_occurrence_summary.csv",
   "data/evidence/category5_tds_finished_food_occurrence_summary.csv",
+  "data/evidence/category5_apple_juice_arsenic_speciation_summary.csv",
 ]
 
 const auditedProductPages = readAuditedProductPages()

@@ -348,3 +348,7 @@ Notes: Backfilled FSA/Fera 2016 Table 3 baby-drinks tAs, iAs, Cd, Pb, and Ni mea
 ## [2026-05-07] backfill | fsa2016-mixed-meals-ias-context — Other-savoury iAs context structured
 Pages affected: [[sources/fsa2016-infant-food-formula-metals-survey]], [[products/mixed-meals-non-rice]], [[products/mixed-meals-rice-containing]]
 Notes: Backfilled FSA/Fera 2016 Table 3 other-savoury infant-food tAs, iAs, Cd, Pb, and Ni means into the structured local baby-food register for both mixed-meal child rows. The rows remain EF-4 context because the source row excludes meat but does not isolate rice status or complete mixed-meal formulation; inorganic arsenic is kept separate from total arsenic, and no p50, p90, or p95 was inferred.
+
+## [2026-05-07] extract | fda2011-apple-juice-ias-speciation — Apple-juice iAs rows structured
+Pages affected: [[sources/fda2011-apple-juice-arsenic-speciation]], [[products/fruit-juices-apple-containing]], [[products/fruit-juice-not-canned]]
+Notes: Added FDA 2011 single-strength apple-juice arsenic speciation sample and summary rows. The lower-bound iAs summary uses 94 FDA sample rows, treats TR values as 0 ppb only for the documented deterministic lower-bound percentile calculation, and keeps total arsenic separate from inorganic arsenic. This resolves the apple-containing juice iAs species gap but remains one historical source, not an HMTc aggregate p90.
