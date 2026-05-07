@@ -28,6 +28,11 @@ and Category 1 pilot coverage registers.
 - `category1_local_baby_food_occurrence_summary.csv`: reviewed small-sample
   peer-reviewed baby-food occurrence summaries that are useful as product-row
   context but not distribution-capable HMTc p90 evidence.
+- `category5_tds_finished_food_occurrence_summary.csv`: reviewed FDA TDS
+  finished-food route rows promoted from product-route candidates. These rows
+  preserve source/TDS p10-p95 summaries where available, keep total arsenic
+  separate from inorganic arsenic, and remain single-source or small-N context
+  until HMTc aggregate review.
 - `category1_formula_concentration_summary.csv`: formula concentration
   summary rows from the FDA FY2023-FY2025 special survey and promoted Digest
   formula papers.
