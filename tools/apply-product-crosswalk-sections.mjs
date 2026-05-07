@@ -36,7 +36,7 @@ const category5Rows = [
     base: "fruit-juices",
     variant: "clean_benchmark",
     ingredients: ["fruit-juice"],
-    metals: ["Pb"],
+    metals: ["Pb", "iAs"],
   },
   {
     slug: "fruit-juices-apple-containing",

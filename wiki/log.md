@@ -352,3 +352,7 @@ Notes: Backfilled FSA/Fera 2016 Table 3 other-savoury infant-food tAs, iAs, Cd, 
 ## [2026-05-07] extract | fda2011-apple-juice-ias-speciation — Apple-juice iAs rows structured
 Pages affected: [[sources/fda2011-apple-juice-arsenic-speciation]], [[products/fruit-juices-apple-containing]], [[products/fruit-juice-not-canned]]
 Notes: Added FDA 2011 single-strength apple-juice arsenic speciation sample and summary rows. The lower-bound iAs summary uses 94 FDA sample rows, treats TR values as 0 ppb only for the documented deterministic lower-bound percentile calculation, and keeps total arsenic separate from inorganic arsenic. This resolves the apple-containing juice iAs species gap but remains one historical source, not an HMTc aggregate p90.
+
+## [2026-05-07] extract | fda2016-grape-juice-ias — Grape-category juice iAs rows structured
+Pages affected: [[sources/fda2016-infant-toddler-foods-inorganic-arsenic]], [[products/fruit-juices-non-apple]], [[products/fruit-juice-not-canned]], [[methodology/persistent-wiki-ingest-rule]]
+Notes: Added FDA 2016 grape and grape-containing juice inorganic-arsenic sample and summary rows. The quantified-cell summary uses 58 numeric iAs cells from 61 FDA grape-category rows, keeps the 3 NS rows out of percentile math, preserves total arsenic separately from inorganic arsenic, and documents grape/blend row-fit caveats. Added an AI adjudication rule so routine row fit, basis, species, unit, censoring, and statistic-fit decisions are treated as logged system work, with human review reserved for exceptions.

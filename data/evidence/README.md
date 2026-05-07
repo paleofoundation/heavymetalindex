@@ -40,6 +40,13 @@ and Category 1 pilot coverage registers.
   inorganic-arsenic p10/p50/p90/p95/p100 rows routed to the apple-containing
   juice row and the broader not-canned fruit-juice context row. FDA Trace (TR)
   values are treated as 0 ppb only for the documented lower-bound calculation.
+- `category5_grape_juice_inorganic_arsenic_samples.csv`: FDA 2016 `Juice -
+  Grape` infant/toddler foods arsenic sample rows, preserving grape blends,
+  NS cells, total arsenic, inorganic arsenic, DMA, MMA, and serving-size notes.
+- `category5_grape_juice_inorganic_arsenic_summary.csv`: generated
+  quantified-cell inorganic-arsenic p10/p50/p90/p95/p100 rows routed to the
+  non-apple juice row and the broader not-canned fruit-juice context row. NS
+  cells are not speciated and are excluded from percentile calculations.
 - `category1_formula_concentration_summary.csv`: formula concentration
   summary rows from the FDA FY2023-FY2025 special survey and promoted Digest
   formula papers.
@@ -94,7 +101,8 @@ and Category 1 pilot coverage registers.
 - `npm run evidence:tds-routes`: rebuilds the FDA TDS product-route candidate
   report used by standards gap triage.
 - `npm run evidence:juice-speciation`: rebuilds the FDA 2011 apple-juice
-  arsenic speciation summary and value records from the checked sample extract.
+  arsenic speciation and FDA 2016 grape-juice inorganic arsenic summaries and
+  value records from the checked sample extracts.
 - `npm run evidence:standards-actions`: rebuilds the HMTc standards action
   queue from the current standards gap report.
 

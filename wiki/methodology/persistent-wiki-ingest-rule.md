@@ -24,6 +24,12 @@ The current Heavy Metal Index build has four layers.
 
 This means the Index is not run as "upload PDFs and let retrieval rediscover them later." It is run as "compile once, preserve, cross-link, and reuse."
 
+## AI Adjudication Rule
+
+The default actor for routine evidence adjudication is the AI ingest system. When a source reports enough information, Codex must determine product row fit, basis, analyte species, statistic type, units, censoring treatment, and routeability, then record those decisions in structured evidence and audits.
+
+Humans supply missing source material, define governance rules, and review exceptions. They should not be treated as the primary mechanism for routine row sorting, because manual sorting is less reproducible and easier to misapply than logged, repeatable AI adjudication.
+
 ## What Counts as an Ingest
 
 A source counts as ingested only when all applicable steps below are complete.

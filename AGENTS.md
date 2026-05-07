@@ -6,6 +6,14 @@ Codex must read `CLAUDE.md` and `wiki/methodology/persistent-wiki-ingest-rule.md
 
 Codex must also read `docs/governance/hmtc-governing-principles.md` before any product-category, HMTc standards, limit-setting, crosswalk, or certification-threshold work.
 
+## AI Adjudication Default
+
+Evidence routing is an AI adjudication workflow, not a manual clerical workflow.
+
+Codex is expected to resolve row fit, basis, analyte species, statistic type, units, censoring, and routeability from the source whenever the source provides enough information. Each decision must leave an auditable trace in structured evidence, routing audits, context dispositions, gap reports, source pages, and/or wiki pages.
+
+Human review is reserved for low-confidence extraction, policy conflicts, high-impact threshold decisions, missing-source retrieval, and final governance approval. Do not write instructions that imply Karen or another human must manually perform routine source-to-row sorting when the repository can perform or record the adjudication.
+
 ## Ingest Completion Gate
 
 A source is not ingested merely because a PDF exists, a source page exists, or the source is searchable.
