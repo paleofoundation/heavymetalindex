@@ -109,7 +109,8 @@ function isPromotableCandidate(row) {
   const method = String(row.extraction_method || "")
   return (
     method === "deterministic_parser_almeida2022_table3_formula_means" ||
-    method === "deterministic_parser_fsa2016_table2_dry_formula"
+    method === "deterministic_parser_fsa2016_table2_dry_formula" ||
+    method === "deterministic_parser_fsa2016_table1_rtf_formula"
   )
 }
 
