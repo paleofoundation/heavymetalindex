@@ -51,6 +51,7 @@ writeCsv(outputPath, queueRows.map(publicQueueRow), [
   "local_pdf_path",
   "source_page_path",
   "metals_declared",
+  "missing_metal_species",
   "products_declared",
   "evidence_use",
   "action_needed",
@@ -181,6 +182,9 @@ function queuePriority(row, localPdf) {
   if (localPdf.status === "missing_local_pdf") return "P3-find-local-pdf-or-web-copy"
   if (localPdf.status === "candidate_local_pdf_needs_review") return "P2-confirm-local-pdf-match"
   if (row.route_status === "missing_direct_product_route") return "P0-promote-direct-product-source"
+  if (row.route_status === "partial_structured_values_present" && row.route_kind?.startsWith("direct_product")) {
+    return "P0-extract-missing-product-values"
+  }
   if (row.route_status === "source_on_page_no_structured_value" && row.route_kind?.startsWith("direct_product")) {
     return "P0-extract-direct-product-values"
   }
@@ -293,6 +297,7 @@ function publicQueueRow(row, index) {
     local_pdf_path: row.local_pdf_path,
     source_page_path: row.source_page_path,
     metals_declared: row.metals_declared,
+    missing_metal_species: row.missing_metal_species || "",
     products_declared: row.products_declared,
     evidence_use: row.evidence_use,
     action_needed: row.action_needed,
