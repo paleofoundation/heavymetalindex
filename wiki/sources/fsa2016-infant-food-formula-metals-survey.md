@@ -16,7 +16,7 @@ sample_n_notes: "47 infant formula samples, 200 commercial infant food samples, 
 metals: [Al, Sb, tAs, iAs, Cd, Cr, Cu, I, Fe, Pb, Mn, tHg, Ni, Se, Sn, Zn]
 products: [infant-formula-powder, infant-formula-rtf-liquid, baby-cereals, fruit-purees, vegetable-purees, baby-drinks, snacks, meat-and-fish-baby-foods, mixed-meals]
 jurisdictions: [UK]
-updated: 2026-04-28
+updated: 2026-05-07
 ---
 
 # FSA 2016 — Infant Food And Formula Metals Survey
@@ -35,6 +35,7 @@ The Digest batch contains two byte-identical copies of this report; both have be
 - Dry soy-based formula, as sold: Al 2550 ug/kg, tAs 7 ug/kg, iAs 4.6 ug/kg, Cd 11 ug/kg, Pb 0-5 ug/kg, tHg 0-1 ug/kg, Ni 200 ug/kg, Sn 0-23 ug/kg.
 - Cereal-based infant foods/dishes: Al 183-229 ug/kg, tAs 10 ug/kg, iAs 5-6 ug/kg, Cd 3 ug/kg, Pb 0-1 ug/kg, tHg 0 ug/kg, Ni 124-127 ug/kg, Sn 14-18 ug/kg.
 - Fruit-based infant foods/dishes: Al 1125 ug/kg, tAs 9 ug/kg, iAs 1-4 ug/kg, Cd 2-3 ug/kg, Pb 1-3 ug/kg, tHg 0-1 ug/kg, Ni 92-117 ug/kg, Sn 43-50 ug/kg.
+- Baby drinks: Al 453 ug/kg, tAs 2 ug/kg, iAs 1 ug/kg, Cd 0 ug/kg, Pb 3 ug/kg, tHg 0 ug/kg, Ni 0-9 ug/kg, Sn 0 ug/kg.
 - Snacks: Al 5185 ug/kg, tAs 98 ug/kg, iAs 58-62 ug/kg, Cd 24 ug/kg, Pb 10 ug/kg, tHg 0 ug/kg, Ni 292 ug/kg, Sn 0 ug/kg.
 - Meat and fish based infant foods/dishes: Al 1425-1427 ug/kg, tAs 15 ug/kg, iAs 2-4 ug/kg, Cd 9 ug/kg, Pb 4-5 ug/kg, tHg 0-1 ug/kg, Ni 43-72 ug/kg, Sn 47-52 ug/kg.
 

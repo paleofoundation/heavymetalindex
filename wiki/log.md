@@ -340,3 +340,7 @@ Notes: Added explicit source-page citations and context-disposition rows for the
 ## [2026-05-07] tooling | visible-base-bridge-context-queue — base and bridge context held outside local queue
 Pages affected: [[products/infant-formula-powder]], [[products/glucose-solutions]], [[products/oral-electrolyte-solutions]]
 Notes: Added the remaining broad infant-formula source citations to the base powder page and updated the local reingest queue so source-visible base and bridge context routes are counted outside the default extraction queue. This keeps non-locked context nodes visible without asking for paper-by-paper HMTc extraction work; locked child-row use still requires subtype, species, basis, and statistic-fit review.
+
+## [2026-05-07] backfill | fsa2016-baby-drinks-juice-context — Baby-drinks iAs context structured
+Pages affected: [[sources/fsa2016-infant-food-formula-metals-survey]], [[products/fruit-juice-not-canned]]
+Notes: Backfilled FSA/Fera 2016 Table 3 baby-drinks tAs, iAs, Cd, Pb, and Ni means into the structured local baby-food register for the not-canned fruit-juice page. The row remains EF-4 context because baby drinks are broader than fruit juice and do not isolate canned status or fruit type; inorganic arsenic is kept separate from total arsenic, and no p50, p90, or p95 was inferred.
