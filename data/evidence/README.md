@@ -35,6 +35,12 @@ and Category 1 pilot coverage registers.
   finished-food rows whose ingredient route table maps them to product pages.
   These are review candidates only; total/speciated analytes and small-N rows
   must be reviewed before promotion into standards evidence.
+- `product_source_routing_audit.csv`: generated source-to-product routing audit
+  for locked HMTc rows plus base/bridge context nodes. It distinguishes direct
+  routes, broad row-fit context, structured rows, and missing extraction work.
+- `local_reingest_queue.csv`: generated work queue from the routing audit and
+  local raw-file inventory. Queue priority is highest for locked-row extraction;
+  bridge/base rows remain visible as context-only review work.
 - `category1_lead_benchmark_context.csv`: ppb-normalized Category 1 lead
   benchmark context, including FDA status/value, EU maximum-level ppb values,
   Prop 65 serving-based ppb equivalents, and HMTc/public interpretation notes.

@@ -58,11 +58,11 @@ function buildSection(rows) {
   }))
 
   return `${beginMarker}
-## Broad Formula Context Awaiting Row-Fit Review
+## Broad Product Context Awaiting Row-Fit Review
 
 <!-- audience: regulator, educator, app -->
 
-These sources are visible as formula context, but they are not direct locked-row evidence. Keep them out of HMTc p90 or p95 calculations unless a later extraction resolves product format, soy status, basis, species, and statistic fit.
+These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc p90 or p95 calculations unless a later extraction resolves product row fit, basis, analyte species, and statistic fit.
 
 ${toMarkdownTable(tableRows)}
 
@@ -104,7 +104,10 @@ function rowFitHandling(row) {
   if (row.route_kind === "broad_powder_context") {
     return "Powder context only until soy/non-soy fit is resolved."
   }
-  return "Broad formula context only until format and soy/non-soy fit are resolved."
+  if (row.route_kind === "broad_formula_context") {
+    return "Broad formula context only until format and soy/non-soy fit are resolved."
+  }
+  return "Broad product context only until row fit, basis, species, and statistic type are resolved."
 }
 
 function toMarkdownTable(rows) {
