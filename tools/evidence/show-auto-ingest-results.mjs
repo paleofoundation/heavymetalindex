@@ -4,6 +4,7 @@ import path from "node:path"
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
 const product = args.get("product") ?? ""
+const rowLimit = Number(args.get("limit") ?? (product ? 200 : 25))
 
 const gapPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
 const gapSummaryPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_summary.json")
@@ -41,6 +42,10 @@ console.log("Heavy Metal Index local ingest results")
 console.log("======================================")
 console.log(`Product: ${product || gapSummary.product_filter || queueSummary.product_filter || "all"}`)
 console.log(`Queue rows: ${filteredQueueRows.length}`)
+if (queueSummary.excluded_visible_broad_context_rows !== undefined) {
+  const suffix = product ? " (all products)" : ""
+  console.log(`Visible broad-context rows held outside queue: ${queueSummary.excluded_visible_broad_context_rows}${suffix}`)
+}
 console.log(`HMTc gap rows: ${filteredGapRows.length}`)
 console.log(`PDF packets: ${packetRows.length}`)
 if (candidateSummary.deterministic_candidate_value_count !== undefined) {
@@ -49,15 +54,17 @@ if (candidateSummary.deterministic_candidate_value_count !== undefined) {
 console.log(`Remaining extraction tasks: ${filteredTaskRows.length}`)
 console.log("")
 
-if (Object.keys(queueSummary.by_priority ?? {}).length) {
+const queuePriorityCounts = countBy(filteredQueueRows, (row) => row.priority)
+if (Object.keys(queuePriorityCounts).length) {
   console.log("Reingest queue by priority")
-  for (const [key, value] of Object.entries(queueSummary.by_priority)) console.log(`- ${key}: ${value}`)
+  for (const [key, value] of Object.entries(queuePriorityCounts)) console.log(`- ${key}: ${value}`)
   console.log("")
 }
 
-if (Object.keys(gapSummary.by_aggregate_status ?? {}).length) {
+const readinessCounts = countBy(filteredGapRows, (row) => row.aggregate_hmtc_p90_status)
+if (Object.keys(readinessCounts).length) {
   console.log("HMTc p90 readiness")
-  for (const [key, value] of Object.entries(gapSummary.by_aggregate_status)) console.log(`- ${key}: ${value}`)
+  for (const [key, value] of Object.entries(readinessCounts)) console.log(`- ${key}: ${value}`)
   console.log("")
 }
 
@@ -74,20 +81,12 @@ if (Object.keys(syncSummary.by_change_status ?? {}).length || Object.keys(syncSu
   console.log("")
 }
 
-if (filteredGapRows.length) {
-  console.log("Metal-level gap report")
-  for (const row of filteredGapRows) {
-    console.log(`- ${row.metal_species}: ${row.aggregate_hmtc_p90_status}`)
-    if (row.loaded_source_count || row.loaded_n) {
-      console.log(`  loaded sources: ${row.loaded_source_count || 0}; loaded N: ${row.loaded_n || 0}`)
-    }
-    if (row.pending_local_extract_source_count && row.pending_local_extract_source_count !== "0") {
-      console.log(`  local papers ready to extract: ${row.pending_local_extract_source_count}`)
-    }
-    if (row.papers_to_find) console.log(`  papers to find: ${row.papers_to_find}`)
-    if (row.evidence_needed) console.log(`  needed: ${row.evidence_needed}`)
-  }
-  console.log("")
+if (filteredGapRows.length && product) {
+  printMetalRows(filteredGapRows)
+}
+
+if (filteredGapRows.length && !product) {
+  printGapOverview(filteredGapRows, rowLimit)
 }
 
 console.log("Files")
@@ -161,6 +160,78 @@ function parseCsv(text) {
 
   const [headers = [], ...body] = rows.filter((line) => line.some((cell) => cell !== ""))
   return body.map((cells) => Object.fromEntries(headers.map((header, index) => [header, cells[index] ?? ""])))
+}
+
+function printMetalRows(rows) {
+  console.log("Metal-level gap report")
+  for (const row of rows) {
+    console.log(`- ${row.product_label || row.product_slug} / ${row.metal_species}: ${row.aggregate_hmtc_p90_status}`)
+    if (row.loaded_source_count || row.loaded_n) {
+      console.log(`  loaded sources: ${row.loaded_source_count || 0}; loaded N: ${row.loaded_n || 0}`)
+    }
+    if (row.pending_local_extract_source_count && row.pending_local_extract_source_count !== "0") {
+      console.log(`  local papers ready to extract: ${row.pending_local_extract_source_count}`)
+    }
+    if (row.papers_to_find) console.log(`  papers to find: ${row.papers_to_find}`)
+    if (row.evidence_needed) console.log(`  needed: ${row.evidence_needed}`)
+  }
+  console.log("")
+}
+
+function printGapOverview(rows, limit) {
+  const groups = new Map()
+
+  for (const row of rows) {
+    const key = `${row.product_slug}::${row.aggregate_hmtc_p90_status}`
+    if (!groups.has(key)) {
+      groups.set(key, {
+        product_slug: row.product_slug,
+        product_label: row.product_label || row.product_slug,
+        status: row.aggregate_hmtc_p90_status,
+        metals: [],
+        evidence_needed: row.evidence_needed,
+      })
+    }
+    groups.get(key).metals.push(row.metal_species)
+  }
+
+  const ranked = [...groups.values()].sort((a, b) => {
+    const severityCompare = severityRank(a.status) - severityRank(b.status)
+    if (severityCompare !== 0) return severityCompare
+    const labelCompare = a.product_label.localeCompare(b.product_label)
+    if (labelCompare !== 0) return labelCompare
+    return a.status.localeCompare(b.status)
+  })
+
+  console.log(`Standards gap overview (first ${Math.min(limit, ranked.length)} of ${ranked.length} product/status groups)`)
+  for (const group of ranked.slice(0, limit)) {
+    console.log(`- ${group.product_label} (${group.product_slug})`)
+    console.log(`  ${group.status}: ${group.metals.join(", ")}`)
+    if (group.evidence_needed) console.log(`  needed: ${group.evidence_needed}`)
+  }
+  if (ranked.length > limit) {
+    console.log(`... ${ranked.length - limit} more groups hidden; rerun with --limit ${ranked.length} or --product <slug>.`)
+  }
+  console.log("")
+}
+
+function severityRank(status) {
+  if (status === "BLOCKED: no structured evidence loaded") return 0
+  if (status === "BLOCKED: species-specific evidence missing") return 1
+  if (status === "BLOCKED: summary evidence only") return 2
+  if (status === "BLOCKED: evidence fitness review needed") return 3
+  if (status === "DO NOT PUBLISH P90: single distribution-capable source") return 4
+  return 9
+}
+
+function countBy(rows, keyFn) {
+  const counts = {}
+  for (const row of rows) {
+    const key = keyFn(row)
+    if (!key) continue
+    counts[key] = (counts[key] || 0) + 1
+  }
+  return counts
 }
 
 function shellQuote(value) {
