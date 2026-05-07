@@ -1,19 +1,14 @@
 {
-  "generated_at": "2026-05-07T15:35:56.688Z",
+  "generated_at": "2026-05-07T15:39:43.025Z",
   "product_filter": "all",
   "include_structured": false,
   "include_visible_broad_context": false,
+  "include_visible_context_nodes": false,
   "excluded_context_disposition_rows": 23,
   "excluded_visible_broad_context_rows": 86,
-  "total_queue_rows": 10,
-  "by_priority": {
-    "P2-review-context-only-route": 10
-  },
-  "by_local_pdf_status": {
-    "local_pdf_found": 10
-  },
-  "by_route_status": {
-    "source_on_page_no_structured_value": 5,
-    "missing_direct_product_route": 5
-  }
+  "excluded_visible_context_node_rows": 10,
+  "total_queue_rows": 0,
+  "by_priority": {},
+  "by_local_pdf_status": {},
+  "by_route_status": {}
 }
