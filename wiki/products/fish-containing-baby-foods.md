@@ -122,6 +122,7 @@ Fish-containing baby foods have arsenic and mercury signals, but many sources gr
 | [[metals/arsenic-total|Total arsenic]] | UK meat and fish based infant foods/dishes | 15 ug/kg | 15 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish. |
 | [[metals/cadmium|Cadmium]] | UK meat and fish based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish. |
 | [[metals/lead|Lead]] | UK meat and fish based infant foods/dishes | 4 to 5 ug/kg | 4 to 5 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Combines meat and fish. |
+| [[metals/aluminum|Aluminum]], [[metals/arsenic-total|total arsenic]], [[metals/mercury-total|total mercury]], [[metals/nickel|nickel]], [[metals/tin|tin]], [[metals/cadmium|cadmium]], and [[metals/lead|lead]] | Italian homogenized fish products | Al 390 ppb; tAs 60 ppb; tHg 6.8 ppb; Ni 80 ppb; Sn <75 ppb; Cd <5 ppb; Pb <100 ppb | same numeric ppb wet weight | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Small N=3 wet-weight category means/censored values; summary evidence only. |
 
 ## French TDS Category Rows
 
@@ -143,7 +144,7 @@ This row uses an aggregate non-fish Category 1 reference relationship in the row
 
 A 2025 global scoping review found that fish/fish-mix baby foods had the highest median arsenic concentration among baby-food groups in the review at 0.165 mg/kg and the highest median mercury concentration at 0.016 mg/kg; Hg was detected in 100% of fish/fish-mix items in that review's baby-food grouping. [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 
-A 2024 analytical study of European baby foods included fish homogenized foods and reported that a salmon homogenized food had the highest estimated daily intake for total arsenic in the study at 0.143 ug/kg body weight per day; the same study reported total mercury but did not speciate methylmercury. [[sources/meli2024-chemical-characterization-baby-food-italy]]
+A 2024 analytical study of European baby foods reported wet-weight Table 5 summary rows for three homogenized fish products, including Al 390 ppb, total arsenic 60 ppb, total mercury 6.8 ppb, Ni 80 ppb, Sn <75 ppb, Cd <5 ppb, and Pb <100 ppb. The same study reported that a salmon homogenized food had the highest estimated daily intake for total arsenic in the study at 0.143 ug/kg body weight per day, but it did not speciate methylmercury. [[sources/meli2024-chemical-characterization-baby-food-italy]]
 
 A 2024 duplicate-diet study of Japanese children aged 0-5 measured both total mercury and methylmercury; among diet samples with total mercury at or above 1 ng/g, methylmercury had a median concentration of 1.70 ng/g and accounted for 90.0% of total mercury. [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]]
 
