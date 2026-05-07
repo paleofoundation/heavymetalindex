@@ -69,6 +69,7 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
   const sourceId = String(parsed.data.cite_key || path.basename(file, ".md"))
   const sourceTitle = String(parsed.data.title || firstHeading(raw) || readableSlug(sourceId))
   const products = asStringArray(parsed.data.products)
+  const declaredMetals = asStringArray(parsed.data.metals)
   const sourceProductLinks = extractProductLinks(raw)
   const routes = new Map()
 
@@ -85,10 +86,11 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
     const valueRowsForRoute = valueRowsBySourceProduct.get(routeKey(sourceId, productSlug)) || []
     const product_page_cites_source = sourceAppearsOnProductPage(productPageText, sourceId)
     const value_record_count = valueRowsForRoute.length
-    const metal_species = [...new Set(valueRowsForRoute.map((row) => row.metal_species).filter(Boolean))]
+    const structuredMetals = [...new Set(valueRowsForRoute.map((row) => row.metal_species).filter(Boolean))]
       .sort()
-      .join(";")
-    const route_status = routeStatus(route.route_kind, product_page_cites_source, value_record_count)
+    const structuredMetalKeys = new Set(structuredMetals.map(canonicalMetal).filter(Boolean))
+    const missingMetals = declaredMetals.filter((metal) => !structuredMetalKeys.has(canonicalMetal(metal)))
+    const route_status = routeStatus(route.route_kind, product_page_cites_source, value_record_count, missingMetals)
 
     auditRows.push({
       product_slug: productSlug,
@@ -100,10 +102,12 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
       route_basis: [...route.route_basis].sort().join(";"),
       route_status,
       value_record_count,
-      metal_species,
+      declared_metal_species: declaredMetals.join(";"),
+      metal_species: structuredMetals.join(";"),
+      missing_metal_species: missingMetals.join(";"),
       product_page_cites_source: product_page_cites_source ? "true" : "false",
-      evidence_use: evidenceUse(route.route_kind, value_record_count),
-      action_needed: actionNeeded(route_status, route.route_kind),
+      evidence_use: evidenceUse(route.route_kind, value_record_count, missingMetals),
+      action_needed: actionNeeded(route_status, route.route_kind, missingMetals),
       route_note: route.route_note,
     })
   }
@@ -151,22 +155,28 @@ function upsertRoute(routes, productSlug, next) {
   }
 }
 
-function routeStatus(routeKind, productPageCitesSource, valueRecordCount) {
-  if (valueRecordCount > 0) return "structured_values_present"
+function routeStatus(routeKind, productPageCitesSource, valueRecordCount, missingMetals) {
+  if (valueRecordCount > 0 && missingMetals.length === 0) return "structured_values_present"
+  if (valueRecordCount > 0) return "partial_structured_values_present"
   if (productPageCitesSource) return "source_on_page_no_structured_value"
   if (routeKind.startsWith("direct_product")) return "missing_direct_product_route"
   return "missing_broad_product_context"
 }
 
-function evidenceUse(routeKind, valueRecordCount) {
-  if (valueRecordCount > 0) return "structured_value_candidate"
+function evidenceUse(routeKind, valueRecordCount, missingMetals) {
+  if (valueRecordCount > 0 && missingMetals.length === 0) return "structured_value_candidate"
+  if (valueRecordCount > 0) return "partial_structured_value_candidate"
   if (routeKind.startsWith("direct_product")) return "direct_context_pending_extraction"
   return "broad_context_pending_row_fit"
 }
 
-function actionNeeded(routeStatusValue, routeKind) {
+function actionNeeded(routeStatusValue, routeKind, missingMetals) {
   if (routeStatusValue === "structured_values_present") {
     return "Review row fit, basis, censoring, and inclusion before standards calculation use."
+  }
+  if (routeStatusValue === "partial_structured_values_present") {
+    const missing = missingMetals.length > 0 ? ` Missing declared metals: ${missingMetals.join("; ")}.` : ""
+    return `Extract missing product-row metals if the source table is usable; otherwise document why they remain context only.${missing}`
   }
   if (routeStatusValue === "source_on_page_no_structured_value") {
     return routeKind.startsWith("direct_product")
@@ -242,13 +252,60 @@ function toCsv(rows) {
     "route_basis",
     "route_status",
     "value_record_count",
+    "declared_metal_species",
     "metal_species",
+    "missing_metal_species",
     "product_page_cites_source",
     "evidence_use",
     "action_needed",
     "route_note",
   ]
   return `${[headers.join(","), ...rows.map((row) => headers.map((header) => csvCell(row[header])).join(","))].join("\n")}\n`
+}
+
+function canonicalMetal(value) {
+  const text = String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "")
+  const aliases = {
+    al: "Al",
+    aluminium: "Al",
+    aluminum: "Al",
+    as: "tAs",
+    tas: "tAs",
+    totalas: "tAs",
+    totalarsenic: "tAs",
+    arsenic: "tAs",
+    ias: "iAs",
+    inorganicarsenic: "iAs",
+    cd: "Cd",
+    cadmium: "Cd",
+    pb: "Pb",
+    lead: "Pb",
+    hg: "tHg",
+    thg: "tHg",
+    totalhg: "tHg",
+    totalmercury: "tHg",
+    mercury: "tHg",
+    mehg: "MeHg",
+    methylmercury: "MeHg",
+    cr: "Cr-total",
+    crtotal: "Cr-total",
+    chromium: "Cr-total",
+    crvi: "Cr-VI",
+    chromiumvi: "Cr-VI",
+    ni: "Ni",
+    nickel: "Ni",
+    sn: "Sn",
+    tin: "Sn",
+    sb: "Sb",
+    antimony: "Sb",
+    v: "V",
+    vanadium: "V",
+    co: "Co",
+    cobalt: "Co",
+    u: "U",
+    uranium: "U",
+  }
+  return aliases[text] ?? value
 }
 
 function csvCell(value) {

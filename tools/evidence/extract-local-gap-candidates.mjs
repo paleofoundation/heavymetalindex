@@ -22,7 +22,7 @@ const taskRows = []
 for (const row of selectedRows) {
   const textPath = packetTextPath(row)
   const text = textPath && fs.existsSync(textPath) ? fs.readFileSync(textPath, "utf8") : ""
-  const sourceCandidates = deterministicExtract(row, text)
+  const sourceCandidates = filterCandidateMetals(row, deterministicExtract(row, text))
 
   if (sourceCandidates.length > 0) {
     candidateRows.push(...sourceCandidates)
@@ -79,6 +79,13 @@ function deterministicExtract(queueRow, text) {
   if (queueRow.source_id === "burrell2010-aluminium-in-infant-formulas") return extractBurrell2010(queueRow, text)
   if (queueRow.source_id === "chuchu2013-aluminium-in-infant-formulas") return extractChuchu2013(queueRow, text)
   return []
+}
+
+function filterCandidateMetals(queueRow, candidates) {
+  const missingMetals = splitMetals(queueRow.missing_metal_species)
+  if (missingMetals.length === 0) return candidates
+  const missingKeys = new Set(missingMetals.map(canonicalMetal).filter(Boolean))
+  return candidates.filter((candidate) => missingKeys.has(canonicalMetal(candidate.metal_species)))
 }
 
 function extractBurrell2010(queueRow, text) {
@@ -678,6 +685,60 @@ function candidateHeaders() {
     "notes",
     "guardrails",
   ]
+}
+
+function splitMetals(value) {
+  return String(value || "")
+    .replace(/^\[/, "")
+    .replace(/\]$/, "")
+    .split(/[;,]/)
+    .map((item) => item.trim().replace(/^["']|["']$/g, ""))
+    .filter(Boolean)
+}
+
+function canonicalMetal(value) {
+  const text = String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "")
+  const aliases = {
+    al: "Al",
+    aluminium: "Al",
+    aluminum: "Al",
+    as: "tAs",
+    tas: "tAs",
+    totalas: "tAs",
+    totalarsenic: "tAs",
+    arsenic: "tAs",
+    ias: "iAs",
+    inorganicarsenic: "iAs",
+    cd: "Cd",
+    cadmium: "Cd",
+    pb: "Pb",
+    lead: "Pb",
+    hg: "tHg",
+    thg: "tHg",
+    totalhg: "tHg",
+    totalmercury: "tHg",
+    mercury: "tHg",
+    mehg: "MeHg",
+    methylmercury: "MeHg",
+    cr: "Cr-total",
+    crtotal: "Cr-total",
+    chromium: "Cr-total",
+    crvi: "Cr-VI",
+    chromiumvi: "Cr-VI",
+    ni: "Ni",
+    nickel: "Ni",
+    sn: "Sn",
+    tin: "Sn",
+    sb: "Sb",
+    antimony: "Sb",
+    v: "V",
+    vanadium: "V",
+    co: "Co",
+    cobalt: "Co",
+    u: "U",
+    uranium: "U",
+  }
+  return aliases[text] ?? value
 }
 
 function parseArgs(argv) {

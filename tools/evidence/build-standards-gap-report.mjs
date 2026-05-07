@@ -42,9 +42,9 @@ for (const productSlug of productSlugs) {
       (row) => row.product_slug === productSlug && splitMetals(row.metal_species).some((item) => canonicalMetal(item) === metal),
     )
     const pendingRows = queueRows.filter((row) => row.product_slug === productSlug)
-    const pendingForMetal = pendingRows.filter((row) => splitMetals(row.metals_declared).some((item) => canonicalMetal(item) === metal))
+    const pendingForMetal = pendingRows.filter((row) => queueMetals(row).some((item) => canonicalMetal(item) === metal))
     const pendingRelatedSpecies = pendingRows.filter((row) =>
-      splitMetals(row.metals_declared).some((item) => relatedSpecies(canonicalMetal(item), metal)),
+      queueMetals(row).some((item) => relatedSpecies(canonicalMetal(item), metal)),
     )
 
     const loadedSourceIds = unique(loadedRows.map((row) => row.source_id).filter(Boolean))
@@ -244,7 +244,7 @@ function metalsForProduct(productSlug, product, rows, regulatoryRows, queueRows,
   }
   if (includeQueueOnly) {
     for (const row of queueRows) {
-      if (row.product_slug === productSlug) splitMetals(row.metals_declared).forEach((metal) => metals.add(canonicalMetal(metal)))
+      if (row.product_slug === productSlug) queueMetals(row).forEach((metal) => metals.add(canonicalMetal(metal)))
     }
   }
   return [...metals].filter(Boolean).sort(metalSort)
@@ -344,6 +344,11 @@ function splitMetals(value) {
     .split(/[;,]/)
     .map((item) => item.trim().replace(/^["']|["']$/g, ""))
     .filter(Boolean)
+}
+
+function queueMetals(row) {
+  const missing = splitMetals(row.missing_metal_species)
+  return missing.length > 0 ? missing : splitMetals(row.metals_declared)
 }
 
 function canonicalMetal(value) {
