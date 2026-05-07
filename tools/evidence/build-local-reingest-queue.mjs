@@ -214,9 +214,11 @@ function priorityRank(priority) {
 
 function isVisibleBroadContextRow(row) {
   return (
-    row.route_status === "source_on_page_no_structured_value" &&
+    (row.route_status === "source_on_page_no_structured_value" ||
+      row.route_status === "partial_structured_values_present") &&
     String(row.route_kind || "").startsWith("broad_") &&
-    row.evidence_use === "broad_context_pending_row_fit"
+    (row.evidence_use === "broad_context_pending_row_fit" ||
+      row.evidence_use === "partial_structured_value_candidate")
   )
 }
 
