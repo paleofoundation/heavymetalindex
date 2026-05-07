@@ -14,7 +14,8 @@ raw_path: "raw/Digest/nuaf138.pdf"
 access_url: https://doi.org/10.1093/nutrit/nuaf138
 raw_sha256: "cda9bb27da1138e8e260f562e6fc2d3f6f264ca21436ad838f31139ee448589e"
 metals: [Pb, Cd, tAs, tHg]
-products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, fruit-purees, non-root-vegetable-purees, root-vegetable-purees, meat-and-poultry-purees, fish-containing-baby-foods, mixed-meals-rice-containing, mixed-meals-non-rice, teething-and-snacks-rice-based, teething-and-snacks-non-rice]
+products: [infant-formula, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, fruit-purees, non-root-vegetable-purees, root-vegetable-purees, meat-and-poultry-purees, fish-containing-baby-foods, mixed-meals-rice-containing, mixed-meals-non-rice, teething-and-snacks-rice-based, teething-and-snacks-non-rice]
+context_only_products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
 ingredients: [infant-formula-ingredients, soy, milk-and-dairy, rice, infant-cereal-ingredients, fish, fruit, vegetables, meat-and-poultry]
 matrices: [processed-baby-food, infant-formula, scoping-review]
 jurisdictions: [global]

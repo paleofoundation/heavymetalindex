@@ -1,6 +1,7 @@
 import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
+import matter from "gray-matter"
 
 const repoRoot = process.cwd()
 const routingAuditPath = path.join(repoRoot, "data/evidence/product_source_routing_audit.csv")
@@ -234,15 +235,15 @@ function readSourcePages() {
     if (!entry.endsWith(".md")) continue
     const filePath = path.join(sourceDir, entry)
     const source = fs.readFileSync(filePath, "utf8")
-    const frontmatter = source.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? ""
-    const sourceId = frontmatterValue(frontmatter, "cite_key") || entry.replace(/\.md$/, "")
+    const parsed = matter(source)
+    const sourceId = asString(parsed.data.cite_key) || entry.replace(/\.md$/, "")
     pages.set(sourceId, {
       path: filePath,
-      title: frontmatterValue(frontmatter, "title"),
-      raw_path: frontmatterValue(frontmatter, "raw_path"),
-      raw_handle: frontmatterValue(frontmatter, "raw_handle"),
-      metals: frontmatterValue(frontmatter, "metals"),
-      products: frontmatterValue(frontmatter, "products"),
+      title: asString(parsed.data.title),
+      raw_path: asString(parsed.data.raw_path),
+      raw_handle: asString(parsed.data.raw_handle),
+      metals: asStringArray(parsed.data.metals).join(";"),
+      products: asStringArray(parsed.data.products).join(";"),
     })
   }
 
@@ -259,12 +260,6 @@ function indexRawInventoryBySource(rows) {
     }
   }
   return indexed
-}
-
-function frontmatterValue(frontmatter, key) {
-  const match = frontmatter.match(new RegExp(`^${escapeRegExp(key)}:\\s*(.+)$`, "m"))
-  if (!match) return ""
-  return match[1].trim().replace(/^["']|["']$/g, "")
 }
 
 function* walk(dir) {
@@ -377,6 +372,18 @@ function readableSlug(slug) {
     .replace(/\b\w/g, (letter) => letter.toUpperCase())
 }
 
-function escapeRegExp(value) {
-  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+function asString(value) {
+  if (value === null || value === undefined) return ""
+  return String(value).trim()
+}
+
+function asStringArray(value) {
+  if (Array.isArray(value)) return value.map((item) => asString(item)).filter(Boolean)
+  if (typeof value === "string") {
+    return value
+      .split(/[;,]/)
+      .map((item) => item.trim())
+      .filter(Boolean)
+  }
+  return []
 }

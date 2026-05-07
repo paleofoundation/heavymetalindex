@@ -11,6 +11,11 @@ evidence_tier: B
 jurisdiction: Canada
 metals: [Pb, Cd]
 products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
+product_metal_scope:
+  infant-formula-powder-non-soy: [Cd]
+  infant-formula-powder-soy-based: [Cd]
+  infant-formula-rtf-liquid-non-soy: [Cd]
+  infant-formula-rtf-liquid-soy-based: [Cd]
 audience: [regulator, educator, app]
 raw_path: raw/studies/dabeka1987.pdf
 access_url: https://doi.org/10.1093/jaoac/70.4.754
