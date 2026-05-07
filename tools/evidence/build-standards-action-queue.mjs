@@ -15,14 +15,16 @@ const filteredGapRows = productFilter ? gapRows.filter((row) => row.product_slug
 
 const groups = new Map()
 for (const row of filteredGapRows) {
-  const action = actionForStatus(row.aggregate_hmtc_p90_status)
+  const aggregateStatus = row.aggregate_hmtc_percentile_status
+  const action = actionForStatus(aggregateStatus)
   if (!action) continue
 
   const key = [
     action.priority,
     action.type,
     row.product_slug,
-    row.aggregate_hmtc_p90_status,
+    aggregateStatus,
+    row.hmtc_standard_percentile_target,
   ].join("::")
 
   if (!groups.has(key)) {
@@ -33,7 +35,9 @@ for (const row of filteredGapRows) {
       product_label: row.product_label || readableSlug(row.product_slug),
       product_standard_scope: row.product_standard_scope,
       product_review_state: row.product_review_state,
-      aggregate_hmtc_p90_status: row.aggregate_hmtc_p90_status,
+      hmtc_standard_percentile_target: row.hmtc_standard_percentile_target,
+      hmtc_standard_statistic: row.hmtc_standard_statistic,
+      aggregate_hmtc_percentile_status: aggregateStatus,
       metal_species: [],
       loaded_source_count: 0,
       loaded_n: 0,
@@ -91,7 +95,9 @@ writeCsv(outputPath, actionRows, [
   "product_label",
   "product_standard_scope",
   "product_review_state",
-  "aggregate_hmtc_p90_status",
+  "hmtc_standard_percentile_target",
+  "hmtc_standard_statistic",
+  "aggregate_hmtc_percentile_status",
   "metal_species",
   "loaded_source_count",
   "loaded_n",
@@ -122,7 +128,8 @@ const summary = {
   total_action_rows: actionRows.length,
   by_action_priority: countBy(actionRows, (row) => row.action_priority),
   by_action_type: countBy(actionRows, (row) => row.action_type),
-  by_aggregate_status: countBy(actionRows, (row) => row.aggregate_hmtc_p90_status),
+  by_aggregate_status: countBy(actionRows, (row) => row.aggregate_hmtc_percentile_status),
+  by_standard_percentile_target: countBy(actionRows, (row) => row.hmtc_standard_percentile_target),
   top_actions: actionRows.slice(0, 12).map((row) => ({
     action_order: row.action_order,
     action_priority: row.action_priority,
@@ -145,7 +152,7 @@ function actionForStatus(status) {
         nextStep: () =>
           "Review candidate rows against the source table, product fit, basis, species, unit, and N; promote only after review.",
         guardrails:
-          "Candidate rows are non-public review inputs. Do not publish or use for HMTc p90 math until reviewed and promoted; do not infer p90/p95.",
+          "Candidate rows are non-public review inputs. Do not publish or use for HMTc standards math until reviewed and promoted; do not infer p90/p95.",
       }
     case "BLOCKED: TDS product route review pending":
       return {
@@ -215,14 +222,16 @@ function actionForStatus(status) {
         guardrails:
           "Do not infer p50, p90, or p95 from means, ranges, IQRs, or max values unless a deterministic method is documented.",
       }
-    case "DO NOT PUBLISH P90: single distribution-capable source":
+    case "DO NOT PUBLISH CLEAN P90: single distribution-capable source":
+    case "DO NOT PUBLISH DIRTY P10: single distribution-capable source":
+    case "DO NOT PUBLISH INDEPENDENT P90: single distribution-capable source":
       return {
         priority: "P2",
         type: "find-second-distribution-capable-source",
-        nextStep: () =>
-          "Find or route at least one additional fit distribution-capable source before aggregate HMTc p90 publication.",
+        nextStep: (row) =>
+          `Find or route at least one additional fit distribution-capable source before aggregate HMTc ${targetLabel(row)} publication.`,
         guardrails:
-          "A single distribution-capable source can remain loaded evidence, but it is not the aggregate HMTc p90.",
+          "A single distribution-capable source can remain loaded evidence, but it is not the aggregate HMTc threshold.",
       }
     case "BLOCKED: evidence fitness review needed":
       return {
@@ -238,7 +247,7 @@ function actionForStatus(status) {
         type: "complete-local-backlog-before-aggregate-math",
         nextStep: () => "Finish pending local extraction, then run aggregate math review.",
         guardrails:
-          "Do not publish aggregate p90 while unresolved local fit-source rows may materially change the result.",
+          "Do not publish aggregate standards percentiles while unresolved local fit-source rows may materially change the result.",
       }
     case "READY FOR AGGREGATE MATH REVIEW":
       return {
@@ -302,7 +311,15 @@ function actionSort(left, right) {
   if (typeCompare !== 0) return typeCompare
   const productCompare = left.product_label.localeCompare(right.product_label)
   if (productCompare !== 0) return productCompare
-  return left.aggregate_hmtc_p90_status.localeCompare(right.aggregate_hmtc_p90_status)
+  return left.aggregate_hmtc_percentile_status.localeCompare(right.aggregate_hmtc_percentile_status)
+}
+
+function targetLabel(row) {
+  if (row.hmtc_standard_percentile_target === "dirty_p20") return "contaminated-platform P20"
+  if (row.hmtc_standard_percentile_target === "dirty_p10") return "contaminated-platform P10"
+  if (row.hmtc_standard_percentile_target === "clean_p90") return "clean-platform P90"
+  if (row.hmtc_standard_percentile_target === "independent_p90") return "independent-row P90"
+  return "standards percentile"
 }
 
 function priorityRank(priority) {

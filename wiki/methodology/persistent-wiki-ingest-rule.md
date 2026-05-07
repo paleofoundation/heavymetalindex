@@ -65,6 +65,16 @@ Reasoning belongs in a different layer:
 
 When a statistic cannot be extracted deterministically, the wiki should say that the value is pending, incomplete, or context-only rather than inventing a polished-looking output.
 
+## Aggregate Percentile Boundary
+
+Source-level percentiles are evidence inputs, not HMTc thresholds by themselves. A paper may report p90, p95, or p100 for its own sample pool; those values must remain labeled as source-scope context until the source is admitted into the exact product-row aggregate pool.
+
+For HMTc limit-setting, clean benchmark rows use the aggregate clean-platform P90. Contaminated-platform rows use a governance-selected aggregate lower-tail value: P10 by default, or P20 only when that row's governance packet explicitly selects it. The opposite tails are not HMTc limit-setting targets: do not calculate dirty-category P90 or clean-category P10 as standards values. If those values are computed for exploratory variance or clean-vs-dirty separation context, label them as comparator context and keep them out of limit-setting fields.
+
+After the aggregate target is calculated, compare it to the lowest applicable loaded regulatory ceiling for the same product row, analyte species, and basis. If the aggregate target is higher than that regulatory cap, the HMTc standard must use the regulatory cap or a stricter value; it must not publish a looser threshold.
+
+The deterministic layer may calculate documented nearest-rank percentiles from sample-level values, but it must record the source pool, product-row fit, basis, analyte species, censoring rule, and whether the value is source-scope context or an aggregate standards candidate. The AI adjudication layer decides whether the source is fit to enter the aggregate pool; the math layer then computes the row-standard percentile from the admitted pool.
+
 ## Stub-First Rule
 
 The wiki must always have somewhere stable for new evidence to attach.

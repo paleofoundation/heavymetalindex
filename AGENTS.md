@@ -71,6 +71,7 @@ Report pages touched, evidence rows generated, product or ingredient pages updat
 
 Do not silently drop source data because a destination page is missing.
 Do not infer p50, p90, or p95 unless the source reports it or a deterministic calculation is documented.
+Do not treat a source-reported percentile from one paper as the HMTc aggregate percentile. Clean benchmark standards use aggregate clean-platform P90; contaminated-platform standards use a governance-selected aggregate lower-tail value, P10 by default or P20 only when explicitly selected. Dirty-category P90 and clean-category P10 are not HMTc limit-setting targets. Final HMTc values must not exceed the lowest applicable loaded regulatory cap.
 Do not mix total arsenic with inorganic arsenic.
 Do not mix total mercury with methylmercury.
 Do not mix wet, dry, as-sold, and reconstituted bases.

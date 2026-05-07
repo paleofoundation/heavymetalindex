@@ -90,7 +90,7 @@ Full crosswalk: [[products/lead-benchmark-context]].
 
 <!-- audience: regulator, educator, app -->
 
-The current source set does not yet support a non-rice dry cereal p10/p90/p100 concentration spread. Parker 2022 provides a small grain baby-food distribution, but the authors report that two of three grain-product types were rice-based, so the table is more appropriate as a grain-category warning than a non-rice benchmark. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+The current source set does not yet support a non-rice dry cereal HMTc clean-platform P90. Parker 2022 provides a small grain baby-food distribution, but the authors report that two of three grain-product types were rice-based, so the table is more appropriate as a grain-category warning than a non-rice benchmark. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
@@ -98,8 +98,8 @@ The current source set does not yet support a non-rice dry cereal p10/p90/p100 c
 | Grain baby-food distribution | [[metals/arsenic-total|Total arsenic]] | Grain baby foods, mostly rice-containing | 9 | min, mean, median, max, detection rate | min 10 ppb; mean 90.4 ppb; median 126 ppb; max 132 ppb; detected 9/9 | Not for non-rice threshold setting | Total arsenic, not iAs; row fit is weak because the grain group is mostly rice-containing. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 | Grain baby-food distribution | [[metals/cadmium|Cadmium]] | Grain baby foods, mostly rice-containing | 9 | min, mean, median, max, detection rate | min 12 ppb; mean 25.8 ppb; median 20 ppb; max 61 ppb; detected 9/9 | Not for non-rice threshold setting | Row fit is weak because the grain group is mostly rice-containing; no p10/p90. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 | Grain baby-food distribution | [[metals/lead|Lead]] | Grain baby foods, mostly rice-containing | 9 | min, mean, median, max, detection rate | min 5 ppb; mean 9.7 ppb; median 5 ppb; max 20 ppb; detected 9/9 | Not for non-rice threshold setting | Row fit is weak because the grain group is mostly rice-containing; no p10/p90. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
-| All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad context only | All categories combined; cereal-specific and non-rice-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
-| All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad context only | All categories combined; cereal-specific and non-rice-specific values require source-table extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
+| All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad source-scope context only | Main paper Table 1 combines all categories; it does not publish cereal-specific or non-rice cereal concentration percentiles. Sample-level or supplemental data would be needed before this source can support the non-rice cereal clean-platform aggregate. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
+| All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad source-scope context only | Main paper Table 1 combines all categories; it does not publish cereal-specific or non-rice cereal concentration percentiles. Sample-level or supplemental data would be needed before this source can support the non-rice cereal clean-platform aggregate. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 
 ## Measured Values And Concentration Evidence
 
@@ -119,6 +119,17 @@ Non-rice cereal evidence remains mixed because many infant cereal sources combin
 | [[metals/cadmium|Cadmium]] | UK cereal-based infant foods/dishes | 3 ug/kg | 3 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Cereal-based infant foods/dishes; rice status not isolated. |
 | [[metals/lead|Lead]] | UK cereal-based infant foods/dishes | 0 to 1 ug/kg | 0 to 1 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Lower-bound/upper-bound non-detect treatment. |
 | [[metals/nickel|Nickel]] | UK cereal-based infant foods/dishes | 124 to 127 ug/kg | 124 to 127 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Cereal-based infant foods/dishes; rice status not isolated. |
+
+## Gardener 2019 Cereal Exceedance Context
+
+Gardener 2019 includes 30 baby cereal products in the solid-food exceedance tables. These rows support cereal-level risk context, but they still do not split rice from non-rice cereals and do not provide cereal-specific concentration percentiles.
+
+| Analyte | Broad cereal row | Scenario | Result | Standards use |
+| --- | --- | --- | --- | --- |
+| [[metals/lead|Lead]] | Baby cereals | FDA daily lead limit at 300 calories | 1/30, 3.33% exceeded | Exceedance context only; not a concentration percentile. |
+| [[metals/lead|Lead]] | Baby cereals | California Prop 65 lead daily limit at 300 calories | 13/30, 43.33% exceeded | Exceedance context only; not a concentration percentile. |
+| [[metals/cadmium|Cadmium]] | Baby cereals | WHO cadmium daily limit for a 9 kg baby at 300 calories | 0/30 exceeded | Exceedance context only; not a concentration percentile. |
+| [[metals/cadmium|Cadmium]] | Baby cereals | California Prop 65 cadmium daily limit at 300 calories | 0/30 exceeded | Exceedance context only; not a concentration percentile. |
 
 ## French TDS Category Rows
 
@@ -171,7 +182,7 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 
 <!-- audience: regulator, educator, app -->
 
-These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc p90 or p95 calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
+These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc standards-percentile calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
 
 | Source | Title | Source scope | Metals | Row-fit handling |
 | --- | --- | --- | --- | --- |

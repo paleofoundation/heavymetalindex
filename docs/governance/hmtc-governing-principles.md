@@ -60,10 +60,25 @@ The HMTc Program uses percentile-based thresholds at two distinct points:
 
 **Limit-setting thresholds (P_clean / P_dirty):** These govern initial
 publication of limits. Clean platform limits are derived from the 90th
-percentile (default) of the clean platform's occurrence distribution.
-Contaminated platform limits are derived from the 10th percentile (default)
-of the contaminated platform's distribution. These are sourced from
-external survey data (FDA, EFSA, peer-reviewed studies) during Step 0.
+percentile of the clean platform's occurrence distribution. Contaminated
+platform limits are derived from a governance-selected lower-tail percentile
+of the contaminated platform's distribution, P10 by default or P20 only when
+explicitly selected for that row. These are sourced from external survey data
+(FDA, EFSA, peer-reviewed studies) during Step 0.
+
+Clean P90 and the selected contaminated lower-tail value are aggregate
+distribution targets for their own exact product rows. A source-reported
+percentile from one paper is source context until it is admitted into the
+aggregate pool. Do not calculate or publish a dirty-category p90 as the HMTc
+limit-setting target, and do not calculate or publish a clean-category p10 as
+the HMTc limit-setting target. Those opposite tail values may appear only as
+labeled comparator or variance context when they are needed to explain
+separation between clean and contaminated rows.
+
+After the aggregate target is calculated, compare it to every applicable
+loaded regulatory ceiling. If the aggregate target exceeds the lowest
+applicable regulatory limit, the HMTc standard must be capped at that lower
+regulatory value unless a stricter internal standard is selected.
 
 **Ratchet trigger (80th percentile of program testing data):** This governs
 subsequent tightening at the revision cycle, per Governance Policy §12.3.

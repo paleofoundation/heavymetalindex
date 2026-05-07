@@ -27,7 +27,7 @@ and Category 1 pilot coverage registers.
   baby/young-child food compliance rows with product-row mapping notes.
 - `category1_local_baby_food_occurrence_summary.csv`: reviewed small-sample
   peer-reviewed baby-food occurrence summaries that are useful as product-row
-  context but not distribution-capable HMTc p90 evidence.
+  context but not distribution-capable HMTc standards-percentile evidence.
 - `category5_tds_finished_food_occurrence_summary.csv`: reviewed FDA TDS
   finished-food route rows promoted from product-route candidates. These rows
   preserve source/TDS p10-p95 summaries where available, keep total arsenic
@@ -77,11 +77,16 @@ and Category 1 pilot coverage registers.
   the formula, baby-food compliance, plant-milk occurrence, TDS candidate, local
   reingest, and regulatory crosswalk layers before assigning gap status. It
   labels bridge/base product nodes as context-only so they stay visible without
-  creating false HMTc p90 work.
+  creating false HMTc threshold work. Clean benchmark rows use aggregate
+  clean-platform P90 as the standards target; contaminated-platform rows use a
+  governance-selected aggregate lower-tail value, P10 by default or P20 only
+  when explicitly selected. Source-reported percentiles are context until
+  admitted into the exact-row aggregate pool, and final HMTc values must not
+  exceed the lowest applicable loaded regulatory cap.
 - `hmtc_standards_action_queue.csv`: generated next-action queue collapsed from
   the standards gap report. It groups locked-row blockers by product/status,
   ranks local candidate review, TDS route review, species-specific gaps, source
-  discovery, summary-only rows, and single-source p90 blockers.
+  discovery, summary-only rows, and single-source standards-percentile blockers.
 - `ai_adjudication_queue.csv`: generated machine-adjudication contract for the
   standards action queue. It names the AI task, required decisions, input
   artifacts, confidence gate, expected outputs, and human exception trigger for

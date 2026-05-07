@@ -106,7 +106,7 @@ const summaryRows = [
     category1_related_rows: "fruit-juices-apple-containing",
     field_value_summary: `iAs N=${sampleRows.length}; p50=${formatNumber(stats.p50)} ppb; p90=${formatNumber(stats.p90)} ppb; p95=${formatNumber(stats.p95)} ppb; max=${formatNumber(stats.p100)} ppb`,
     notes:
-      "Historical FDA single-strength apple-juice speciation dataset. Use for species-specific occurrence and source-prioritization; one historical source is not an HMTc aggregate p90.",
+      "Historical FDA single-strength apple-juice speciation dataset. Use for species-specific occurrence and source-prioritization; one historical source is not an HMTc aggregate threshold.",
   },
   {
     ...common,

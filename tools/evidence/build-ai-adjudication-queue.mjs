@@ -31,7 +31,9 @@ writeCsv(outputPath, adjudicationRows, [
   "product_review_state",
   "metal_species",
   "source_ids",
-  "aggregate_hmtc_p90_status",
+  "hmtc_standard_percentile_target",
+  "hmtc_standard_statistic",
+  "aggregate_hmtc_percentile_status",
   "required_decisions",
   "input_artifacts",
   "guardrails",
@@ -50,7 +52,8 @@ const summary = {
   total_adjudication_rows: adjudicationRows.length,
   by_priority: countBy(adjudicationRows, (row) => row.priority),
   by_machine_task: countBy(adjudicationRows, (row) => row.machine_task),
-  by_aggregate_status: countBy(adjudicationRows, (row) => row.aggregate_hmtc_p90_status),
+  by_aggregate_status: countBy(adjudicationRows, (row) => row.aggregate_hmtc_percentile_status),
+  by_standard_percentile_target: countBy(adjudicationRows, (row) => row.hmtc_standard_percentile_target),
   public_claim_blockers: adjudicationRows.filter((row) => row.blocks_public_claims === "true").length,
   hmtc_threshold_blockers: adjudicationRows.filter((row) => row.blocks_hmtc_threshold === "true").length,
   human_role:
@@ -87,8 +90,10 @@ function buildAdjudicationRow(row) {
     product_review_state: row.product_review_state,
     metal_species: row.metal_species,
     source_ids: sourceIds.join("; "),
-    aggregate_hmtc_p90_status: row.aggregate_hmtc_p90_status,
-    required_decisions: plan.requiredDecisions,
+    hmtc_standard_percentile_target: row.hmtc_standard_percentile_target,
+    hmtc_standard_statistic: row.hmtc_standard_statistic,
+    aggregate_hmtc_percentile_status: row.aggregate_hmtc_percentile_status,
+    required_decisions: withTargetDecision(plan.requiredDecisions, row),
     input_artifacts: artifacts.join("; "),
     guardrails,
     expected_outputs: plan.expectedOutputs,
@@ -237,7 +242,7 @@ function planForActionType(actionType) {
         humanExceptionTrigger:
           "single source is proposed as sufficient; source independence or comparability is contested",
         guardrails:
-          "A single distribution-capable source is loaded evidence, not the aggregate HMTc p90.",
+          "A single distribution-capable source is loaded evidence, not the aggregate HMTc threshold.",
       }
     case "review-evidence-fitness":
       return {
@@ -264,7 +269,7 @@ function planForActionType(actionType) {
         humanExceptionTrigger:
           "deferment affects a near-threshold result or conflicts with governance rules",
         guardrails:
-          "Do not publish aggregate p90 while unresolved fit-source rows may materially change the result.",
+          "Do not publish aggregate standards percentiles while unresolved fit-source rows may materially change the result.",
       }
     case "run-aggregate-math-review":
       return {
@@ -301,7 +306,21 @@ function baseDecisions() {
 }
 
 function universalGuardrails() {
-  return "Do not infer p50, p90, or p95 unless source-reported or deterministically documented; keep total arsenic separate from inorganic arsenic; keep total mercury separate from methylmercury; keep wet, dry, as-sold, prepared, and reconstituted bases separate; do not promote pending-tier evidence into public claims."
+  return "Do not infer p50, p90, or p95 unless source-reported or deterministically documented; clean benchmark rows use clean-platform P90 as the standards target; contaminated-platform rows use the governance-selected lower-tail target, P10 by default or P20 only when explicitly selected; do not calculate dirty P90 or clean P10 as HMTc limit-setting targets; final HMTc values must not exceed the lowest applicable loaded regulatory cap; keep total arsenic separate from inorganic arsenic; keep total mercury separate from methylmercury; keep wet, dry, as-sold, prepared, and reconstituted bases separate; do not promote pending-tier evidence into public claims."
+}
+
+function withTargetDecision(decisions, row) {
+  const target = targetLabel(row)
+  const statistic = row.hmtc_standard_statistic || "row-standard statistic"
+  return `${decisions}; HMTc row-standard target (${target}; ${statistic}) versus source-context-only percentiles`
+}
+
+function targetLabel(row) {
+  if (row.hmtc_standard_percentile_target === "dirty_p20") return "contaminated-platform P20"
+  if (row.hmtc_standard_percentile_target === "dirty_p10") return "contaminated-platform P10"
+  if (row.hmtc_standard_percentile_target === "clean_p90") return "clean-platform P90"
+  if (row.hmtc_standard_percentile_target === "independent_p90") return "independent-row P90"
+  return "not applicable"
 }
 
 function inputArtifactsFor(row, sourceIds) {

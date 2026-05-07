@@ -12,6 +12,12 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-07] schema | aggregate-percentile-boundary — HMTc clean/dirty standards target split
+
+Pages touched: [[methodology/persistent-wiki-ingest-rule]], [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]], [[products/baby-cereals-dry-non-rice]], [[products/baby-cereals-dry-rice-based]], [[products/mixed-meals-rice-containing]], [[products/mixed-meals-non-rice]], [[products/teething-and-snacks-rice-based]], [[products/teething-and-snacks-non-rice]]
+
+Notes: Updated standards triage and AI adjudication outputs so clean benchmark rows target aggregate clean-platform P90 while contaminated-platform rows target the governance-selected lower-tail aggregate, P10 by default or P20 when explicitly selected. Clarified that source-reported paper percentiles are source-scope context until admitted into the exact product-row aggregate pool, and that final HMTc values must not exceed the lowest applicable loaded regulatory cap; Gardener 2019 remains broad occurrence and cereal exceedance context, not non-rice cereal concentration percentile evidence.
+
 ## [2026-05-03] ingest | fda2022-tds-elements-fy2018-fy2020 - FDA Total Diet Study FY2018-FY2020 elements dataset
 
 Pages touched: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[sources/index]], [[ingredients/index]], [[products/fruit-juice-not-canned]], [[products/fruit-juices-apple-containing]], [[products/fruit-juices-non-apple]], [[products/regulatory-crosswalk-field-findings]], [[lint/2026-05-03-fda-tds-elements-ingest-audit]]
