@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-07T13:54:32.855Z",
+  "generated_at": "2026-05-07T14:10:24.026Z",
   "product_filter": "all",
   "total_action_rows": 58,
   "by_action_priority": {
-    "P1": 11,
-    "P2": 44,
+    "P1": 9,
+    "P2": 46,
     "P3": 3
   },
   "by_action_type": {
-    "resolve-species-specific-gap": 11,
+    "resolve-species-specific-gap": 9,
     "find-fit-source-after-context-only-review": 4,
     "find-or-route-fit-source-evidence": 16,
-    "find-sample-level-or-percentile-evidence": 9,
+    "find-sample-level-or-percentile-evidence": 11,
     "find-second-distribution-capable-source": 15,
     "review-evidence-fitness": 3
   },
   "by_aggregate_status": {
-    "BLOCKED: species-specific evidence missing": 11,
+    "BLOCKED: species-specific evidence missing": 9,
     "BLOCKED: documented local sources are context-only": 4,
     "BLOCKED: no structured evidence loaded": 16,
-    "BLOCKED: summary evidence only": 9,
+    "BLOCKED: summary evidence only": 11,
     "DO NOT PUBLISH P90: single distribution-capable source": 15,
     "BLOCKED: evidence fitness review needed": 3
   },
@@ -35,78 +35,78 @@
       "action_order": 2,
       "action_priority": "P1",
       "action_type": "resolve-species-specific-gap",
-      "product_slug": "baby-cereals-dry-rice-based",
+      "product_slug": "fruit-juice-not-canned",
       "metal_species": "iAs"
     },
     {
       "action_order": 3,
       "action_priority": "P1",
       "action_type": "resolve-species-specific-gap",
-      "product_slug": "fruit-juice-not-canned",
+      "product_slug": "fruit-juices-apple-containing",
       "metal_species": "iAs"
     },
     {
       "action_order": 4,
       "action_priority": "P1",
       "action_type": "resolve-species-specific-gap",
-      "product_slug": "fruit-juices-apple-containing",
+      "product_slug": "fruit-juices-non-apple",
       "metal_species": "iAs"
     },
     {
       "action_order": 5,
       "action_priority": "P1",
       "action_type": "resolve-species-specific-gap",
-      "product_slug": "fruit-juices-non-apple",
+      "product_slug": "fruit-purees",
       "metal_species": "iAs"
     },
     {
       "action_order": 6,
       "action_priority": "P1",
       "action_type": "resolve-species-specific-gap",
-      "product_slug": "fruit-purees",
-      "metal_species": "iAs"
-    },
-    {
-      "action_order": 7,
-      "action_priority": "P1",
-      "action_type": "resolve-species-specific-gap",
       "product_slug": "infant-formula-powder-non-soy",
       "metal_species": "MeHg"
     },
     {
-      "action_order": 8,
+      "action_order": 7,
       "action_priority": "P1",
       "action_type": "resolve-species-specific-gap",
       "product_slug": "infant-formula-rtf-liquid-soy-based",
       "metal_species": "iAs"
     },
     {
-      "action_order": 9,
+      "action_order": 8,
       "action_priority": "P1",
       "action_type": "resolve-species-specific-gap",
       "product_slug": "mixed-meals-non-rice",
       "metal_species": "iAs"
     },
     {
-      "action_order": 10,
+      "action_order": 9,
       "action_priority": "P1",
       "action_type": "resolve-species-specific-gap",
       "product_slug": "mixed-meals-rice-containing",
       "metal_species": "iAs"
     },
     {
+      "action_order": 10,
+      "action_priority": "P2",
+      "action_type": "find-fit-source-after-context-only-review",
+      "product_slug": "fish-containing-baby-foods",
+      "metal_species": "MeHg"
+    },
+    {
       "action_order": 11,
-      "action_priority": "P1",
-      "action_type": "resolve-species-specific-gap",
-      "product_slug": "teething-and-snacks-rice-based",
-      "metal_species": "iAs"
+      "action_priority": "P2",
+      "action_type": "find-fit-source-after-context-only-review",
+      "product_slug": "plant-milks-non-soy-non-rice",
+      "metal_species": "Ni"
     },
     {
       "action_order": 12,
       "action_priority": "P2",
       "action_type": "find-fit-source-after-context-only-review",
-      "product_slug": "fish-containing-baby-foods",
-      "metal_species": "MeHg"
+      "product_slug": "plant-milks-rice-based",
+      "metal_species": "Pb"
     }
   ]
 }

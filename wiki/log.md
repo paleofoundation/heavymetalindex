@@ -302,3 +302,7 @@ Notes: Promoted reviewed summary-context rows for Meli 2024 fish/meat Pb and Cd 
 ## [2026-05-07] extract | tds-fruit-juice-routes-reviewed - FDA TDS juice route rows promoted
 Pages affected: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[products/fruit-juice-not-canned]], [[products/fruit-juices-apple-containing]], [[products/fruit-juices-non-apple]]
 Notes: Promoted reviewed FDA TDS apple-juice and grapefruit-juice product-route candidates into `data/evidence/category5_tds_finished_food_occurrence_summary.csv`. Rows remain EF-3 small-N occurrence context; total arsenic is kept separate from inorganic arsenic; no p50, p90, or p95 was newly inferred during route promotion.
+
+## [2026-05-07] extract | signes-pastor2016-rice-products-ias - rice-based infant food iAs source promoted
+Pages affected: [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]], [[products/baby-cereals-dry-rice-based]], [[products/teething-and-snacks-rice-based]]
+Notes: Added the primary Signes-Pastor 2016 Food Chemistry paper and promoted six reviewed iAs median/range rows for baby rice, rice cereals, and rice crackers into `data/evidence/category1_local_baby_food_occurrence_summary.csv` and `data/evidence/values.jsonl`. These rows resolve rice-based iAs as species-specific summary evidence only; dry-weight basis is retained, total arsenic is not substituted for inorganic arsenic, and no p90 or p95 was inferred.

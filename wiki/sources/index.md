@@ -2,7 +2,7 @@
 title: Sources
 description: Per-source summary pages covering the peer-reviewed and regulatory literature cited elsewhere in the wiki.
 audience: [regulator, educator, researcher]
-updated: 2026-05-03
+updated: 2026-05-07
 ---
 
 Each source cited in the Heavy Metal Index has its own page. Source pages record bibliographic metadata, evidence tier, methods, key quantitative results, and the wiki pages that cite the source.
@@ -20,6 +20,10 @@ Each source cited in the Heavy Metal Index has its own page. Source pages record
 </div>
 
 The folder list below is the public source catalog. For faster lookup, use search with an agency name, metal, product category, or author/year.
+
+## Infant And Child Food Studies
+
+- [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] - Primary inorganic-arsenic occurrence source for rice-based infant cereals and rice crackers.
 
 ## Category 5 Beverages
 
