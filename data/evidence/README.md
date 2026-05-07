@@ -38,6 +38,9 @@ and Category 1 pilot coverage registers.
 - `category1_lead_benchmark_context.csv`: ppb-normalized Category 1 lead
   benchmark context, including FDA status/value, EU maximum-level ppb values,
   Prop 65 serving-based ppb equivalents, and HMTc/public interpretation notes.
+- `hmtc_standards_gap_report.csv`: generated standards triage report that reads
+  the formula, baby-food compliance, plant-milk occurrence, TDS candidate, local
+  reingest, and regulatory crosswalk layers before assigning gap status.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.

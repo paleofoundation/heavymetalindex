@@ -5,7 +5,11 @@ import { writeStableJsonSummary } from "./stable-json-summary.mjs"
 
 const repoRoot = process.cwd()
 const productDir = path.join(repoRoot, "wiki/products")
-const summaryPath = path.join(repoRoot, "data/evidence/category1_formula_concentration_summary.csv")
+const occurrenceSummaryFiles = [
+  "data/evidence/category1_formula_concentration_summary.csv",
+  "data/evidence/category1_fda_baby_food_compliance_summary.csv",
+  "data/evidence/category5_plant_milk_occurrence_summary.csv",
+]
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
 const tdsRouteCandidatePath = path.join(repoRoot, "data/evidence/fda_tds_product_route_candidates.csv")
@@ -17,7 +21,7 @@ const productFilter = args.get("product") ?? ""
 const includeQueueOnlyMetals = args.get("include-queue-only-metals") === "true"
 
 const productPages = readProductPages()
-const valueRows = fs.existsSync(summaryPath) ? parseCsv(fs.readFileSync(summaryPath, "utf8")) : []
+const valueRows = readOccurrenceSummaryRows()
 const regulatoryRows = fs.existsSync(crosswalkPath) ? parseCsv(fs.readFileSync(crosswalkPath, "utf8")) : []
 const queueRows = fs.existsSync(queuePath) ? parseCsv(fs.readFileSync(queuePath, "utf8")) : []
 const tdsRouteCandidateRows = fs.existsSync(tdsRouteCandidatePath)
@@ -37,7 +41,7 @@ const productSlugs = [...new Set([
 const reportRows = []
 for (const productSlug of productSlugs) {
   const product = productPages.get(productSlug) ?? { label: readableSlug(productSlug), metals: [] }
-    const metals = metalsForProduct(productSlug, product, valueRows, regulatoryRows, queueRows, includeQueueOnlyMetals)
+  const metals = metalsForProduct(productSlug, product, valueRows, regulatoryRows, queueRows, includeQueueOnlyMetals)
 
   for (const metal of metals) {
     const loadedRows = valueRows.filter((row) => row.row_slug === productSlug && canonicalMetal(row.metal_species) === metal)
@@ -57,7 +61,12 @@ for (const productSlug of productSlugs) {
     const distributionRows = loadedRows.filter((row) => hasValue(row.p90_ppb))
     const distributionSourceIds = unique(distributionRows.map((row) => row.source_id).filter(Boolean))
     const summaryOnlyRows = loadedRows.filter(
-      (row) => !hasValue(row.p90_ppb) && (hasValue(row.mean_ppb) || hasValue(row.median_ppb) || hasValue(row.max_ppb)),
+      (row) =>
+        !hasValue(row.p90_ppb) &&
+        (hasValue(row.mean_ppb) ||
+          hasValue(row.median_ppb) ||
+          hasValue(row.max_ppb) ||
+          hasValue(row.field_value_summary)),
     )
     const p0Rows = pendingForMetal.filter((row) => row.priority?.startsWith("P0") && row.local_pdf_status === "local_pdf_found")
     const p2Rows = pendingForMetal.filter((row) => row.local_pdf_status === "candidate_local_pdf_needs_review")
@@ -143,6 +152,7 @@ const summary = {
   generated_at: new Date().toISOString(),
   product_filter: productFilter || "all",
   include_queue_only_metals: includeQueueOnlyMetals,
+  occurrence_summary_files: occurrenceSummaryFiles,
   total_gap_rows: reportRows.length,
   by_aggregate_status: countBy(reportRows, (row) => row.aggregate_hmtc_p90_status),
   rows_with_pending_local_extracts: reportRows.filter((row) => Number(row.pending_local_extract_source_count) > 0).length,
@@ -287,6 +297,70 @@ function metalsForProduct(productSlug, product, rows, regulatoryRows, queueRows,
     }
   }
   return [...metals].filter(Boolean).sort(metalSort)
+}
+
+function readOccurrenceSummaryRows() {
+  const rows = []
+  for (const relativePath of occurrenceSummaryFiles) {
+    const filePath = path.join(repoRoot, relativePath)
+    if (!fs.existsSync(filePath)) continue
+
+    const sourceRows = parseCsv(fs.readFileSync(filePath, "utf8"))
+    if (relativePath.endsWith("category5_plant_milk_occurrence_summary.csv")) {
+      rows.push(...normalizePlantMilkRows(sourceRows, relativePath))
+    } else {
+      rows.push(...sourceRows.map((row) => ({ ...row, evidence_file: relativePath })))
+    }
+  }
+  return rows
+}
+
+function normalizePlantMilkRows(rows, evidenceFile) {
+  const normalized = []
+
+  for (const row of rows) {
+    const productSlug = row.product_slug
+    for (const metal of splitMetals(row.metal_species)) {
+      normalized.push({
+        evidence_file: evidenceFile,
+        source_id: row.source_id,
+        source_page: `wiki/sources/${row.source_id}.md`,
+        row_id: "",
+        row_slug: productSlug,
+        hmtc_row: "",
+        product_label: readableSlug(productSlug),
+        source_product_label: row.matrix,
+        metal_species: canonicalMetal(metal),
+        basis: row.basis,
+        n: /^\d+(\.\d+)?$/.test(String(row.n || "")) ? row.n : "",
+        detected_n: "",
+        lod_n: "",
+        substitution_rule: "reviewed summary row; no percentile inference",
+        fiscal_year_min: "",
+        fiscal_year_max: "",
+        p10_ppb: "",
+        p50_ppb: "",
+        p90_ppb: "",
+        p95_ppb: "",
+        p100_ppb: "",
+        mean_ppb: "",
+        median_ppb: "",
+        max_ppb: "",
+        n_text: row.n,
+        statistic_type: "reviewed_product_occurrence_summary",
+        unit: row.field_unit,
+        statistic_scope: row.matrix,
+        evidence_fitness_verdict: row.review_state === "needs_table_review" ? "EF-4" : "EF-3",
+        review_state: row.review_state,
+        row_fit: row.comparison_status === "direct_comparison_available" ? "direct_product_summary_row" : "product_summary_context",
+        category1_related_rows: productSlug,
+        field_value_summary: row.field_value_summary,
+        notes: row.notes,
+      })
+    }
+  }
+
+  return normalized
 }
 
 function readProductPages() {
