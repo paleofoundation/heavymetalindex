@@ -1,25 +1,26 @@
 {
-  "generated_at": "2026-05-07T14:35:09.310Z",
+  "generated_at": "2026-05-07T14:57:41.792Z",
   "product_filter": "all",
   "include_structured": false,
   "include_visible_broad_context": false,
-  "excluded_visible_broad_context_rows": 89,
-  "total_queue_rows": 39,
+  "excluded_context_disposition_rows": 14,
+  "excluded_visible_broad_context_rows": 86,
+  "total_queue_rows": 24,
   "by_priority": {
-    "P0-extract-direct-product-values": 22,
-    "P0-extract-missing-product-values": 5,
+    "P0-extract-direct-product-values": 9,
+    "P0-extract-missing-product-values": 3,
     "P2-confirm-local-pdf-match": 1,
     "P2-review-context-only-route": 10,
     "P3-find-local-pdf-or-web-copy": 1
   },
   "by_local_pdf_status": {
-    "local_pdf_found": 37,
+    "local_pdf_found": 22,
     "candidate_local_pdf_needs_review": 1,
     "missing_local_pdf": 1
   },
   "by_route_status": {
-    "source_on_page_no_structured_value": 27,
-    "partial_structured_values_present": 5,
+    "source_on_page_no_structured_value": 14,
+    "partial_structured_values_present": 3,
     "missing_direct_product_route": 7
   }
 }
