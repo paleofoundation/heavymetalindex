@@ -12,6 +12,7 @@ const occurrenceSummaryFiles = [
   "data/evidence/category5_plant_milk_occurrence_summary.csv",
   "data/evidence/category5_tds_finished_food_occurrence_summary.csv",
   "data/evidence/category5_apple_juice_arsenic_speciation_summary.csv",
+  "data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv",
 ]
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
