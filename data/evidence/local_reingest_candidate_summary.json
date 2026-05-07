@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-07T12:55:20.935Z",
+  "generated_at": "2026-05-07T13:00:55.064Z",
   "product_filter": "all",
   "source_count": 30,
-  "deterministic_candidate_value_count": 97,
+  "deterministic_candidate_value_count": 114,
   "source_task_count": 18,
   "by_source": {
+    "collado-lopez2025-heavy-metals-baby-food-formula": 17,
     "meli2024-chemical-characterization-baby-food-italy": 21,
     "chekri2019-french-infant-toddler-tds-trace-elements": 18,
     "weldegebriel2025-ethiopia-packaged-fruit-juice-metals": 4,
@@ -14,12 +15,12 @@
     "milani2023-trace-elements-soy-based-beverages": 24
   },
   "by_metal": {
+    "Pb": 17,
+    "Cd": 18,
+    "tAs": 18,
+    "tHg": 8,
     "Al": 9,
-    "tAs": 13,
-    "Cd": 13,
-    "tHg": 7,
     "Ni": 10,
-    "Pb": 11,
     "Sn": 9,
     "Sb": 6,
     "Cr-total": 7,
@@ -34,6 +35,7 @@
     "Zn": 1
   },
   "by_extraction_method": {
+    "deterministic_parser_collado_lopez2025_scoping_review_baby_food_medians": 17,
     "deterministic_parser_meli2024_table5_category_means": 21,
     "deterministic_parser_chekri2019_table5_food_category_ub": 18,
     "deterministic_parser_weldegebriel2025_table5_fruit_juice_medians": 4,

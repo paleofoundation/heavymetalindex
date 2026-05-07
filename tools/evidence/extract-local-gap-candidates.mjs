@@ -24,10 +24,11 @@ for (const row of selectedRows) {
   const textPath = packetTextPath(row)
   const text = textPath && fs.existsSync(textPath) ? fs.readFileSync(textPath, "utf8") : ""
   const sourceCandidates = filterCandidateMetals(row, deterministicExtract(row, text))
+  const remainingMetals = remainingCandidateMetals(row, sourceCandidates)
 
   if (sourceCandidates.length > 0) {
     candidateRows.push(...sourceCandidates)
-    continue
+    if (remainingMetals.length === 0) continue
   }
 
   const promptPath = writeExtractionPrompt(row, text)
@@ -38,9 +39,16 @@ for (const row of selectedRows) {
     local_pdf_path: row.local_pdf_path,
     packet_text_path: textPath ? path.relative(repoRoot, textPath) : "",
     prompt_path: path.relative(repoRoot, promptPath),
-    extraction_status: text ? "needs_source_specific_parser_or_ai_review" : "missing_packet_text",
+    extraction_status: text
+      ? sourceCandidates.length > 0
+        ? "partial_candidate_parse_needs_remaining_review"
+        : "needs_source_specific_parser_or_ai_review"
+      : "missing_packet_text",
+    remaining_metal_species: remainingMetals.join(";"),
     action_needed:
-      "Extract source-stated rows into candidate values only; do not publish and do not infer p50/p90/p95.",
+      remainingMetals.length > 0
+        ? `Extract or document remaining source-stated rows for: ${remainingMetals.join(";")}. Do not publish and do not infer p50/p90/p95.`
+        : "Extract source-stated rows into candidate values only; do not publish and do not infer p50/p90/p95.",
   })
 }
 
@@ -53,6 +61,7 @@ writeCsv(tasksPath, taskRows, [
   "packet_text_path",
   "prompt_path",
   "extraction_status",
+  "remaining_metal_species",
   "action_needed",
 ])
 
@@ -84,6 +93,7 @@ function deterministicExtract(queueRow, text) {
   if (queueRow.source_id === "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk") return extractParker2022(queueRow, text)
   if (queueRow.source_id === "damato2026-inorganic-arsenic-rice-based-beverages") return extractDamato2026(queueRow, text)
   if (queueRow.source_id === "milani2023-trace-elements-soy-based-beverages") return extractMilani2023(queueRow, text)
+  if (queueRow.source_id === "collado-lopez2025-heavy-metals-baby-food-formula") return extractColladoLopez2025(queueRow, text)
   if (queueRow.source_id === "burrell2010-aluminium-in-infant-formulas") return extractBurrell2010(queueRow, text)
   if (queueRow.source_id === "chuchu2013-aluminium-in-infant-formulas") return extractChuchu2013(queueRow, text)
   if (queueRow.source_id === "dabeka1987-canada-infant-formula-lead-cadmium") return extractDabeka1987(queueRow, text)
@@ -95,6 +105,13 @@ function filterCandidateMetals(queueRow, candidates) {
   if (missingMetals.length === 0) return candidates
   const missingKeys = new Set(missingMetals.map(canonicalMetal).filter(Boolean))
   return candidates.filter((candidate) => missingKeys.has(canonicalMetal(candidate.metal_species)))
+}
+
+function remainingCandidateMetals(queueRow, candidates) {
+  const missingMetals = splitMetals(queueRow.missing_metal_species)
+  if (missingMetals.length === 0) return []
+  const candidateKeys = new Set(candidates.map((candidate) => canonicalMetal(candidate.metal_species)).filter(Boolean))
+  return missingMetals.filter((metal) => !candidateKeys.has(canonicalMetal(metal)))
 }
 
 function extractDabeka1987(queueRow, text) {
@@ -1107,6 +1124,184 @@ function extractMilani2023(queueRow, text) {
   return rows
 }
 
+function extractColladoLopez2025(queueRow, text) {
+  const route = colladoLopez2025Route(queueRow.product_slug)
+  if (!route) return []
+  if (!text.includes("Concentrations of Heavy Metals in Processed Baby Foods and")) return []
+  if (!text.includes("median concentration") || !text.includes("interquartile range")) return []
+
+  return Object.entries(route.values).map(([metal, item], index) =>
+    candidateRow(queueRow, {
+      candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${metal}-${slugify(route.source_group)}`,
+      metal_species: metal,
+      source_product_label: `${route.source_group} baby-food group`,
+      basis: "mixed_or_source_reported",
+      n: "",
+      n_text:
+        "Collado-Lopez 2025 reports detected-item medians and interquartile ranges from a scoping review of studies published from 2014 to 2024; item counts vary by metal and source group.",
+      statistic_type: item.q1_ppb && item.q3_ppb ? "scoping_review_detected_item_median_iqr" : "scoping_review_detected_item_median",
+      p50_ppb: item.p50_ppb,
+      row_fit: route.row_fit,
+      extraction_method: "deterministic_parser_collado_lopez2025_scoping_review_baby_food_medians",
+      evidence_fitness_verdict: "EF-4",
+      quote_trace: item.quote,
+      notes: compact(
+        [
+          "Deterministic parse of Collado-Lopez 2025 scoping-review narrative summaries for detected concentrations.",
+          "These are secondary review medians across heterogeneous studies and detected items, not sample-level occurrence data and not product-specific HMTc percentile evidence.",
+          item.q1_ppb && item.q3_ppb
+            ? `Source IQR is ${item.q1_ppb}-${item.q3_ppb} ppb; IQR values are retained in notes and not stored as min/max.`
+            : "",
+          "No p90 or p95 is reported or inferred.",
+          metal === "tAs" ? "Source reports As; retained as total/unspecified arsenic, not inorganic arsenic." : "",
+          metal === "tHg" ? "Source reports Hg; retained as total mercury, not methylmercury." : "",
+          route.note,
+        ].join(" "),
+      ),
+      source_row_order: String(index + 1),
+    }),
+  )
+}
+
+function colladoLopez2025Route(productSlug) {
+  const riceValues = {
+    Pb: {
+      p50_ppb: "8",
+      q1_ppb: "3",
+      q3_ppb: "27",
+      quote:
+        "Collado-Lopez 2025 reports rice and rice mixes Pb median 0.008 mg/kg [0.003 mg/kg, 0.027 mg/kg] among detected baby-food items.",
+    },
+    Cd: {
+      p50_ppb: "7",
+      q1_ppb: "3",
+      q3_ppb: "13",
+      quote:
+        "Collado-Lopez 2025 reports rice and rice mixes Cd median 0.007 mg/kg [0.003 mg/kg, 0.013 mg/kg] among detected baby-food items.",
+    },
+    tAs: {
+      p50_ppb: "48",
+      q1_ppb: "19",
+      q3_ppb: "107",
+      quote:
+        "Collado-Lopez 2025 reports rice and rice mixes As median 0.048 mg/kg [0.019 mg/kg, 0.107 mg/kg] among detected baby-food items.",
+    },
+  }
+
+  const routes = {
+    "baby-cereals-dry-non-rice": {
+      source_group: "cereals",
+      row_fit: "broad_scoping_review_cereal_context_only",
+      note:
+        "Mapped to dry non-rice baby cereals only as broad cereal context; the review category may include cereal products outside the locked page scope.",
+      values: {
+        Pb: {
+          p50_ppb: "7",
+          q1_ppb: "3",
+          q3_ppb: "15",
+          quote:
+            "Collado-Lopez 2025 reports cereals Pb median 0.007 mg/kg [0.003 mg/kg, 0.015 mg/kg] among detected baby-food items.",
+        },
+        Cd: {
+          p50_ppb: "13",
+          q1_ppb: "4",
+          q3_ppb: "30",
+          quote:
+            "Collado-Lopez 2025 reports cereals Cd median 0.013 mg/kg [0.004 mg/kg, 0.030 mg/kg] among detected baby-food items.",
+        },
+        tAs: {
+          p50_ppb: "15",
+          q1_ppb: "",
+          q3_ppb: "",
+          quote:
+            "Collado-Lopez 2025 discussion reports cereals As median 0.015 mg/kg among detected baby-food items.",
+        },
+      },
+    },
+    "baby-cereals-dry-rice-based": {
+      source_group: "rice and rice mixes",
+      row_fit: "broad_scoping_review_rice_product_context_only",
+      note:
+        "Mapped to rice-based dry cereals only as broad rice-product context; the review category includes rice mixes and other rice-based baby foods.",
+      values: riceValues,
+    },
+    "fish-containing-baby-foods": {
+      source_group: "fish and fish mixes",
+      row_fit: "broad_scoping_review_fish_mix_context_only",
+      note:
+        "Mapped to fish-containing baby foods as broad fish-and-fish-mix context; the review category may include mixed dishes as well as fish products.",
+      values: {
+        Pb: {
+          p50_ppb: "8",
+          q1_ppb: "7",
+          q3_ppb: "29",
+          quote:
+            "Collado-Lopez 2025 reports fish and fish mixes Pb median 0.008 mg/kg [0.007 mg/kg, 0.029 mg/kg] among detected baby-food items.",
+        },
+        tAs: {
+          p50_ppb: "165",
+          q1_ppb: "53",
+          q3_ppb: "210",
+          quote:
+            "Collado-Lopez 2025 reports fish and fish mixes As median 0.165 mg/kg [0.053 mg/kg, 0.210 mg/kg] among detected baby-food items.",
+        },
+        tHg: {
+          p50_ppb: "16",
+          q1_ppb: "9",
+          q3_ppb: "21",
+          quote:
+            "Collado-Lopez 2025 reports fish and fish mixes Hg median 0.016 mg/kg [0.009 mg/kg, 0.021 mg/kg] among detected baby-food items.",
+        },
+      },
+    },
+    "mixed-meals-non-rice": {
+      source_group: "mixes of different foods",
+      row_fit: "broad_scoping_review_mixed_food_context_only",
+      note:
+        "Mapped to mixed meals only as broad non-rice mixed-food context; the review excludes meat, fish, and rice from this mixed-food group but does not map to HMTc page boundaries.",
+      values: {
+        Cd: {
+          p50_ppb: "8",
+          q1_ppb: "2",
+          q3_ppb: "36",
+          quote:
+            "Collado-Lopez 2025 reports mixes of different foods Cd median 0.008 mg/kg [0.002 mg/kg, 0.036 mg/kg] among detected baby-food items.",
+        },
+      },
+    },
+    "mixed-meals-rice-containing": {
+      source_group: "rice and rice mixes",
+      row_fit: "broad_scoping_review_rice_product_context_only",
+      note:
+        "Mapped to rice-containing mixed meals only as broad rice-product context; the review category includes rice mixes and other rice-based baby foods.",
+      values: riceValues,
+    },
+    "root-vegetable-purees": {
+      source_group: "roots and tubers",
+      row_fit: "broad_scoping_review_root_tuber_context_only",
+      note:
+        "Mapped to root vegetable purees as broad roots-and-tubers context; the review category may include products outside puree scope.",
+      values: {
+        Pb: {
+          p50_ppb: "7",
+          q1_ppb: "2",
+          q3_ppb: "15",
+          quote:
+            "Collado-Lopez 2025 reports roots and tubers Pb median 0.007 mg/kg [0.002 mg/kg, 0.015 mg/kg] among detected baby-food items.",
+        },
+      },
+    },
+    "teething-and-snacks-rice-based": {
+      source_group: "rice and rice mixes",
+      row_fit: "broad_scoping_review_rice_product_context_only",
+      note:
+        "Mapped to rice-based teething/snack products only as broad rice-product context; the review category includes rice mixes and other rice-based baby foods.",
+      values: riceValues,
+    },
+  }
+  return routes[productSlug]
+}
+
 function candidateRow(queueRow, values) {
   return {
     candidate_id: values.candidate_id,
@@ -1135,7 +1330,7 @@ function candidateRow(queueRow, values) {
     extraction_method: values.extraction_method ?? "deterministic_parser",
     extraction_status: "candidate_only_not_published",
     review_state: "needs_review",
-    evidence_fitness_verdict: "EF-3",
+    evidence_fitness_verdict: values.evidence_fitness_verdict ?? "EF-3",
     source_row_order: values.source_row_order ?? "",
     quote_trace: values.quote_trace ?? "",
     notes: values.notes ?? "",
