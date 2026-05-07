@@ -93,7 +93,7 @@ The FDA 2022 draft juice guidance and the FDA 2004 Juice HACCP guidance are reta
 
 <!-- audience: regulator, educator, consumer, app -->
 
-No promoted source currently gives a full not-canned fruit-juice-only concentration distribution. FDA TDS apple juice is routed as a small-N finished-food row, while broader UK baby-drinks and packaged fruit-juice sources remain context only until row-fit filtering resolves fruit type, canned status, analyte species, and statistic fit.
+No promoted source currently gives a full not-canned fruit-juice-only concentration distribution. FDA TDS apple juice is routed as a small-N finished-food row, while broader UK baby-drinks and packaged fruit-juice sources are structured as context only until row-fit filtering resolves fruit type, canned status, analyte species, and statistic fit.
 
 | Analyte | Evidence scope | Reported value | Approximate ppb equivalent | Source | Row-fit caveat |
 | --- | --- | --- | --- | --- | --- |

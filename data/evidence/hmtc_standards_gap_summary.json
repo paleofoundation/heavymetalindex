@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T15:35:57.013Z",
+  "generated_at": "2026-05-07T15:44:52.467Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "occurrence_summary_files": [
@@ -14,9 +14,9 @@
   "rows_outside_locked_hmtc_scope": 38,
   "by_aggregate_status": {
     "DO NOT PUBLISH P90: single distribution-capable source": 55,
-    "BLOCKED: summary evidence only": 83,
+    "BLOCKED: summary evidence only": 84,
     "BLOCKED: no structured evidence loaded": 34,
-    "BLOCKED: species-specific evidence missing": 8,
+    "BLOCKED: species-specific evidence missing": 7,
     "CONTEXT ONLY: not a locked HMTc standards row": 26,
     "OUT OF SCOPE: not a locked HMTc standards row": 12,
     "BLOCKED: evidence fitness review needed": 9,
