@@ -200,13 +200,18 @@ function sourceAppearsOnProductPage(productPageText, sourceId) {
 
 function extractProductLinks(text) {
   const products = new Set()
+  const evidenceText = stripNonEvidenceProductLinkSections(text)
   const wikiLinkPattern = /\[\[products\/([a-z0-9-]+)(?:[|\]#])/g
   const markdownLinkPattern = /\]\((?:\.\.\/)?products\/([a-z0-9-]+)(?:[)#/]|$)/g
   for (const pattern of [wikiLinkPattern, markdownLinkPattern]) {
     let match
-    while ((match = pattern.exec(text))) products.add(match[1])
+    while ((match = pattern.exec(evidenceText))) products.add(match[1])
   }
   return [...products]
+}
+
+function stripNonEvidenceProductLinkSections(text) {
+  return text.replace(/\n##\s+Wiki pages updated on ingest[\s\S]*?(?=\n##\s+|$)/g, "\n")
 }
 
 function asStringArray(value) {
