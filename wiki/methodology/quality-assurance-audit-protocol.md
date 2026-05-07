@@ -39,6 +39,12 @@ The audit strata are:
 
 Within each stratum, records are sampled across source classes, page families, and analytes so that the audit does not accidentally become a check of only one strong corner of the build.
 
+## Machine adjudication boundary
+
+Routine source-to-row decisions are assigned to the AI adjudication layer, not to a manual clerical workflow. The machine layer is responsible for product row fit, basis, analyte species, units, statistic type, censoring treatment, Evidence Fitness, and routeability when the source provides enough information.
+
+Human participation is reserved for source retrieval, low-confidence exceptions, policy conflicts, and final governance approval of thresholds. Auditors check the machine decision trace against source material; they are not expected to perform first-pass sorting by hand.
+
 ## What reviewers check
 
 Every audited record is checked against the underlying source material and the published page or evidence file.

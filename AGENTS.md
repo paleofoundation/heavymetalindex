@@ -59,6 +59,7 @@ Run the applicable checks:
 - `npm run evidence:source-routes`
 - `npm run evidence:local-reingest`
 - `npm run evidence:standards-gaps`
+- `npm run evidence:ai-adjudication`
 - `npm run prebuild`
 - `npm test`
 - `npm run check`

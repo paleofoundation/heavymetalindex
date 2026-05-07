@@ -58,11 +58,11 @@ function buildSection(rows) {
   }))
 
   return `${beginMarker}
-## Broad Product Context Awaiting Row-Fit Review
+## Broad Product Context Awaiting AI Adjudication
 
 <!-- audience: regulator, educator, app -->
 
-These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc p90 or p95 calculations unless an AI adjudication pass writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
+These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc p90 or p95 calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
 
 ${toMarkdownTable(tableRows)}
 
@@ -102,12 +102,12 @@ function metalsFor(row) {
 
 function rowFitHandling(row) {
   if (row.route_kind === "broad_powder_context") {
-    return "Powder context only until soy/non-soy fit is resolved."
+    return "Powder context only until AI adjudication resolves soy/non-soy fit."
   }
   if (row.route_kind === "broad_formula_context") {
-    return "Broad formula context only until format and soy/non-soy fit are resolved."
+    return "Broad formula context only until AI adjudication resolves format and soy/non-soy fit."
   }
-  return "Broad product context only until row fit, basis, species, and statistic type are resolved."
+  return "Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type."
 }
 
 function toMarkdownTable(rows) {

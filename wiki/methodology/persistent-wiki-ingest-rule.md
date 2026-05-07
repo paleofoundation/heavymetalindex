@@ -42,11 +42,18 @@ A source counts as ingested only when all applicable steps below are complete.
 - Any affected generated product outputs have been regenerated.
 - The ingest is logged, checked, and committed.
 
-If a source cannot yet be placed cleanly, it still must leave a persistent trace in the system: reviewer queue, routing audit, gap report, or candidate-only evidence record. Silent drops are not allowed.
+If a source cannot yet be placed cleanly, it still must leave a persistent trace in the system: AI adjudication queue, routing audit, gap report, context disposition, or candidate-only evidence record. Silent drops are not allowed.
 
 ## Deterministic Boundary
 
 Numeric extraction should be deterministic wherever the source allows it. Tables, sample sizes, means, medians, maxima, ranges, regulatory thresholds, basis labels, and analyte names should be parsed or transcribed as facts, not guessed by reasoning.
+
+This boundary is not a ban on AI reasoning. It separates two jobs:
+
+- extraction records what the source says and what can be calculated reproducibly;
+- adjudication reasons over product fit, basis comparability, analyte species, statistic usability, Evidence Fitness, and standards readiness.
+
+The reason for the separation is defensibility. A later reviewer should be able to distinguish a copied source value from an AI row-fit decision, inspect both, and reproduce the route without relying on hidden chat context.
 
 Reasoning belongs in a different layer:
 
@@ -77,7 +84,7 @@ When structured product evidence exists, the page should expose three complement
 
 1. The standards evidence matrix: a per-metal summary of loaded source values, regulatory reference values, source pages, and remaining follow-up.
 2. The measured values ledger: a download-first summary that points to row-level structured values.
-3. The routing audit: a downloadable view of sources that are routed to the product but still need extraction, row-fit review, promotion, or documentation.
+3. The routing audit: a downloadable view of sources that are routed to the product but still need extraction, AI row-fit adjudication, promotion, or documentation.
 
 These layers should agree with one another. The download artifacts are not optional sidecars; they are part of the public traceability contract. If the page shows source-backed evidence, the corresponding structured CSV and routing outputs should exist when applicable.
 
