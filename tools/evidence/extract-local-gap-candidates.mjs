@@ -76,7 +76,107 @@ function deterministicExtract(queueRow, text) {
   if (queueRow.source_id === "chung2021-china-infant-formula-toxic-elements") return extractChung2021(queueRow, text)
   if (queueRow.source_id === "fsa2016-infant-food-formula-metals-survey") return extractFsa2016(queueRow, text)
   if (queueRow.source_id === "almeida2022-brazil-infant-formula-toxic-metals") return extractAlmeida2022(queueRow, text)
+  if (queueRow.source_id === "burrell2010-aluminium-in-infant-formulas") return extractBurrell2010(queueRow, text)
+  if (queueRow.source_id === "chuchu2013-aluminium-in-infant-formulas") return extractChuchu2013(queueRow, text)
   return []
+}
+
+function extractBurrell2010(queueRow, text) {
+  if (!text.includes("There is (still) too much aluminium in infant")) return []
+  if (!text.includes("Table 2 The aluminium content of milk powders")) return []
+
+  const sourceRows = {
+    "infant-formula-powder-non-soy": {
+      source_product_label: "Non-soy formula powders, prepared estimate",
+      basis: "prepared_for_feeding",
+      n: "7",
+      n_text:
+        "Table 2 contains seven non-soy powdered formula products; prepared estimates are based on manufacturer instructions.",
+      statistic_type: "source_reported_prepared_estimate_range",
+      min_ppb: "333.3",
+      max_ppb: "592.4",
+      quote_trace:
+        "Burrell 2010 Table 2 reports non-soy formula powder prepared estimates from 333.3 to 592.4 ug/L; the paper separately reports powder replicate ranges in ug/g, including a 10.8 ug/g replicate maximum.",
+      notes:
+        "Deterministic parse of Burrell 2010 Table 2 non-soy powder prepared estimates. Range is source-scope product-format range, not p50/p90/p95. Powder replicate maxima are not mixed with prepared-for-feeding values.",
+      source_row_order: "1",
+    },
+    "infant-formula-rtf-liquid-non-soy": {
+      source_product_label: "Ready-made non-soy formula products",
+      basis: "as_consumed",
+      n: "8",
+      n_text: "Table 1 contains eight ready-made infant formula products; the source page classifies these as non-soy.",
+      statistic_type: "source_reported_product_mean_range",
+      min_ppb: "175.5",
+      max_ppb: "700.4",
+      quote_trace:
+        "Burrell 2010 Table 1 reports ready-made formula product means from 175.5 to 700.4 ug/L; the table also reports a 863.0 ug/L replicate maximum for the highest product.",
+      notes:
+        "Deterministic parse of Burrell 2010 Table 1 ready-made formula product means. Range is source-scope product-format range, not p50/p90/p95. Replicate maxima are retained in notes only because they are not product means.",
+      source_row_order: "2",
+    },
+  }
+
+  const row = sourceRows[queueRow.product_slug]
+  if (!row) return []
+  return [
+    candidateRow(queueRow, {
+      candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-Al-format-range`,
+      metal_species: "Al",
+      row_fit: "direct_category1_row",
+      extraction_method: "deterministic_parser_burrell2010_formula_format_summary",
+      ...row,
+    }),
+  ]
+}
+
+function extractChuchu2013(queueRow, text) {
+  if (!text.includes("Chuchu et al. BMC Pediatrics 2013")) return []
+  if (!text.includes("Table 2 The aluminium content of powdered infant formula milks")) return []
+
+  const sourceRows = {
+    "infant-formula-powder-non-soy": {
+      source_product_label: "Non-soy formula powders, prepared estimate",
+      basis: "prepared_for_feeding",
+      n: "18",
+      n_text:
+        "Table 2 contains eighteen non-soy powdered formula products; prepared estimates are based on manufacturer instructions.",
+      statistic_type: "source_reported_prepared_estimate_range",
+      min_ppb: "106",
+      max_ppb: "411",
+      quote_trace:
+        "Chuchu 2013 Table 2 reports non-soy powder prepared estimates from approximately 106 to 411 ug/L at six months; the two soy products are reported separately at 656/654 and 756/755 ug/L.",
+      notes:
+        "Deterministic parse of Chuchu 2013 Table 2 non-soy powder prepared estimates. Range is source-scope product-format range, not p50/p90/p95. Soy-based products remain separated.",
+      source_row_order: "1",
+    },
+    "infant-formula-rtf-liquid-non-soy": {
+      source_product_label: "Ready-to-drink non-soy formula products",
+      basis: "as_consumed",
+      n: "10",
+      n_text: "Table 1 contains ten ready-to-drink infant formula products; the source page classifies these as non-soy.",
+      statistic_type: "source_reported_product_mean_range",
+      min_ppb: "155",
+      max_ppb: "422",
+      quote_trace:
+        "Chuchu 2013 Table 1 reports ready-to-drink formula product means from 155 to 422 ug/L.",
+      notes:
+        "Deterministic parse of Chuchu 2013 Table 1 ready-to-drink formula product means. Range is source-scope product-format range, not p50/p90/p95.",
+      source_row_order: "2",
+    },
+  }
+
+  const row = sourceRows[queueRow.product_slug]
+  if (!row) return []
+  return [
+    candidateRow(queueRow, {
+      candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-Al-format-range`,
+      metal_species: "Al",
+      row_fit: "direct_category1_row",
+      extraction_method: "deterministic_parser_chuchu2013_formula_format_summary",
+      ...row,
+    }),
+  ]
 }
 
 function extractChung2021(queueRow, text) {
@@ -121,6 +221,7 @@ function extractChung2021(queueRow, text) {
 }
 
 function extractFsa2016(queueRow, text) {
+  if (queueRow.product_slug !== "infant-formula-powder-non-soy") return []
   if (!text.includes("Table 2. Average concentration data used to assess dietary exposure to metals and other elements in dry infant formula")) {
     return []
   }
@@ -214,6 +315,7 @@ function extractFsa2016(queueRow, text) {
 }
 
 function extractAlmeida2022(queueRow, text) {
+  if (queueRow.product_slug !== "infant-formula-powder-non-soy") return []
   if (!text.includes("Infant formulas containing protein sources other than cow milk, such as soy or wheat")) return []
   if (!text.includes("Table 3. Average concentrations of toxic elements in phase 1 and phase 2 infant formulas marketed")) return []
 

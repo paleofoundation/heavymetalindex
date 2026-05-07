@@ -33,6 +33,7 @@ const promotedCandidates = candidateRows
   .filter((row) => !productFilter || row.product_slug === productFilter)
   .filter((row) => eligibleSourceKeys.has(stateKey(row.product_slug, row.source_id)))
   .filter((row) => String(row.extraction_method || "").startsWith("deterministic_parser_"))
+  .filter(isPromotableCandidate)
   .sort((a, b) => candidateSortKey(a).localeCompare(candidateSortKey(b)))
 
 const promotedSummaryRows = promotedCandidates.map(toSummaryRow)
@@ -100,6 +101,10 @@ function toSummaryRow(row) {
     category1_related_rows: row.product_slug,
     notes: `${row.notes || ""} Auto-promoted from deterministic local candidate after confirmed local-PDF match.`.trim(),
   }
+}
+
+function isPromotableCandidate(row) {
+  return String(row.row_fit || "") === "direct_category1_row"
 }
 
 function toValueRecord(row) {
