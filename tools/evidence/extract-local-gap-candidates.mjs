@@ -310,61 +310,14 @@ function extractChung2021(queueRow, text) {
 }
 
 function extractFsa2016(queueRow, text) {
-  if (queueRow.product_slug !== "infant-formula-powder-non-soy") return []
-  if (!text.includes("Table 2. Average concentration data used to assess dietary exposure to metals and other elements in dry infant formula")) {
-    return []
-  }
+  const route = fsa2016Route(queueRow.product_slug)
+  if (!route) return []
+  if (!text.includes(route.tableMarker)) return []
 
-  const sourceRows = [
-    {
-      label: "First milk & hungrier milk (from birth)",
-      row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["388-488", "0-5", "1-3", "0.7-1.8", "3-4", "15-35", "3007", "948", "42363", "1-4", "593", "0-1", "18-54", "107", "0-23", "40388"],
-      source_line:
-        "First milk & hungrier milk (from birth): Al 388-488; Sb 0-5; As 1-3; iAs 0.7-1.8; Cd 3-4; Cr 15-35; Cu 3007; I 948; Fe 42363; Pb 1-4; Mn 593; Hg 0-1; Ni 18-54; Se 107; Sn 0-23; Zn 40388 ug/kg.",
-    },
-    {
-      label: "Comfort (from birth)",
-      row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["767", "0-5", "1-3", "0.9-1.9", "0-2", "37-73", "2967", "753", "46600", "0-5", "603", "0-1", "0-40", "173", "0-24", "42800"],
-      source_line:
-        "Comfort (from birth): Al 767; Sb 0-5; As 1-3; iAs 0.9-1.9; Cd 0-2; Cr 37-73; Cu 2967; I 753; Fe 46600; Pb 0-5; Mn 603; Hg 0-1; Ni 0-40; Se 173; Sn 0-24; Zn 42800 ug/kg.",
-    },
-    {
-      label: "Follow on milk (from 6 months)",
-      row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["400-450", "0-5", "1-3", "0.9-2", "3", "0-25", "2855", "913", "72475", "0-3", "615", "0-1", "0-40", "93", "0-22", "44500"],
-      source_line:
-        "Follow on milk (from 6 months): Al 400-450; Sb 0-5; As 1-3; iAs 0.9-2; Cd 3; Cr 0-25; Cu 2855; I 913; Fe 72475; Pb 0-3; Mn 615; Hg 0-1; Ni 0-40; Se 93; Sn 0-22; Zn 44500 ug/kg.",
-    },
-    {
-      label: "Growing up milk (12 months +)",
-      row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["650", "5-9", "2-3", "1.4-2.3", "3-4", "0-40", "3195", "1150", "83950", "0-4", "580", "0-1", "0-40", "105", "0-22", "60300"],
-      source_line:
-        "Growing up milk (12 months +): Al 650; Sb 5-9; As 2-3; iAs 1.4-2.3; Cd 3-4; Cr 0-40; Cu 3195; I 1150; Fe 83950; Pb 0-4; Mn 580; Hg 0-1; Ni 0-40; Se 105; Sn 0-22; Zn 60300 ug/kg.",
-    },
-    {
-      label: "Goat based (from birth and growing up)",
-      row_fit: "non_soy_goat_formula_subtype_needs_review",
-      values: ["950", "0-5", "9", "6-6.3", "0-2", "40-45", "4220", "960", "71900", "6.5", "800", "0-1", "0-45", "137", "0-35", "47000"],
-      source_line:
-        "Goat based (from birth and growing up): Al 950; Sb 0-5; As 9; iAs 6-6.3; Cd 0-2; Cr 40-45; Cu 4220; I 960; Fe 71900; Pb 6.5; Mn 800; Hg 0-1; Ni 0-45; Se 137; Sn 0-35; Zn 47000 ug/kg.",
-    },
-    {
-      label: "Organic milk",
-      row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["1000", "<5", "14", "~7", "8", "~30", "3740", "1030", "47500", "~3", "2470", "<1", "<40", "79", "~40", "49400"],
-      source_line:
-        "Organic milk: Al 1000; Sb <5; As 14; iAs ~7; Cd 8; Cr ~30; Cu 3740; I 1030; Fe 47500; Pb ~3; Mn 2470; Hg <1; Ni <40; Se 79; Sn ~40; Zn 49400 ug/kg.",
-    },
-  ]
   const metals = ["Al", "Sb", "tAs", "iAs", "Cd", "Cr-total", "Cu", "I", "Fe", "Pb", "Mn", "tHg", "Ni", "Se", "Sn", "Zn"]
-  const footnote =
-    "Table 2 dry infant formula; samples analysed as sold and not reconstituted. Values are lower-bound to upper-bound means where ranges are shown; iAs may include source-estimated values using 70% of tAs."
   const rows = []
 
-  for (const [sourceIndex, sourceRow] of sourceRows.entries()) {
+  for (const [sourceIndex, sourceRow] of route.sourceRows.entries()) {
     for (const [metalIndex, metal] of metals.entries()) {
       const parsed = parseFsaValue(sourceRow.values[metalIndex])
       rows.push(
@@ -372,20 +325,20 @@ function extractFsa2016(queueRow, text) {
           candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${slugify(sourceRow.label)}-${metal}`,
           metal_species: metal,
           source_product_label: sourceRow.label,
-          basis: "as_sold",
+          basis: route.basis,
           n: "",
-          n_text: "N by dry-formula subtype is not provided in this table; total infant formula samples reported elsewhere as 47.",
+          n_text: route.nText,
           statistic_type: parsed.statistic_type,
           mean_ppb: parsed.mean_ppb,
           mean_lb_ppb: parsed.mean_lb_ppb,
           mean_ub_ppb: parsed.mean_ub_ppb,
           censoring_status: parsed.censoring_status,
           row_fit: sourceRow.row_fit,
-          extraction_method: "deterministic_parser_fsa2016_table2_dry_formula",
-          quote_trace: `${sourceRow.source_line} ${footnote}`,
+          extraction_method: route.extractionMethod,
+          quote_trace: `${sourceRow.source_line} ${route.footnote}`,
           notes: compact(
             [
-              "Deterministic parse of FSA/Fera Table 2 dry infant formula concentration means in ug/kg.",
+              route.note,
               "LB/UB values are source lower-bound/upper-bound concentration means, not min/max and not percentiles.",
               metal === "iAs"
                 ? "Source estimates iAs for some samples using a 70% tAs factor; retain as estimated iAs candidate pending review."
@@ -401,6 +354,122 @@ function extractFsa2016(queueRow, text) {
   }
 
   return rows
+}
+
+function fsa2016Route(productSlug) {
+  const dryFootnote =
+    "Table 2 dry infant formula; samples analysed as sold and not reconstituted. Values are lower-bound to upper-bound means where ranges are shown; iAs may include source-estimated values using 70% of tAs."
+  const readyToFeedFootnote =
+    "Table 1 ready-to-feed infant formula; values are liquid as-consumed concentrations in ug/L. Values are lower-bound to upper-bound means where ranges are shown; iAs may include source-estimated values using 70% of tAs."
+  const dryTableMarker =
+    "Table 2. Average concentration data used to assess dietary exposure to metals and other elements in dry infant formula"
+  const readyToFeedTableMarker =
+    "Table 1. Average concentration data used to assess dietary exposure to metals and other elements in ready-to-feed infant"
+
+  const routes = {
+    "infant-formula-powder-non-soy": {
+      tableMarker: dryTableMarker,
+      basis: "as_sold",
+      nText: "N by dry-formula subtype is not provided in this table; total infant formula samples reported elsewhere as 47.",
+      footnote: dryFootnote,
+      extractionMethod: "deterministic_parser_fsa2016_table2_dry_formula",
+      note: "Deterministic parse of FSA/Fera Table 2 dry infant formula concentration means in ug/kg.",
+      sourceRows: [
+        {
+          label: "First milk & hungrier milk (from birth)",
+          row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
+          values: ["388-488", "0-5", "1-3", "0.7-1.8", "3-4", "15-35", "3007", "948", "42363", "1-4", "593", "0-1", "18-54", "107", "0-23", "40388"],
+          source_line:
+            "First milk & hungrier milk (from birth): Al 388-488; Sb 0-5; As 1-3; iAs 0.7-1.8; Cd 3-4; Cr 15-35; Cu 3007; I 948; Fe 42363; Pb 1-4; Mn 593; Hg 0-1; Ni 18-54; Se 107; Sn 0-23; Zn 40388 ug/kg.",
+        },
+        {
+          label: "Comfort (from birth)",
+          row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
+          values: ["767", "0-5", "1-3", "0.9-1.9", "0-2", "37-73", "2967", "753", "46600", "0-5", "603", "0-1", "0-40", "173", "0-24", "42800"],
+          source_line:
+            "Comfort (from birth): Al 767; Sb 0-5; As 1-3; iAs 0.9-1.9; Cd 0-2; Cr 37-73; Cu 2967; I 753; Fe 46600; Pb 0-5; Mn 603; Hg 0-1; Ni 0-40; Se 173; Sn 0-24; Zn 42800 ug/kg.",
+        },
+        {
+          label: "Follow on milk (from 6 months)",
+          row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
+          values: ["400-450", "0-5", "1-3", "0.9-2", "3", "0-25", "2855", "913", "72475", "0-3", "615", "0-1", "0-40", "93", "0-22", "44500"],
+          source_line:
+            "Follow on milk (from 6 months): Al 400-450; Sb 0-5; As 1-3; iAs 0.9-2; Cd 3; Cr 0-25; Cu 2855; I 913; Fe 72475; Pb 0-3; Mn 615; Hg 0-1; Ni 0-40; Se 93; Sn 0-22; Zn 44500 ug/kg.",
+        },
+        {
+          label: "Growing up milk (12 months +)",
+          row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
+          values: ["650", "5-9", "2-3", "1.4-2.3", "3-4", "0-40", "3195", "1150", "83950", "0-4", "580", "0-1", "0-40", "105", "0-22", "60300"],
+          source_line:
+            "Growing up milk (12 months +): Al 650; Sb 5-9; As 2-3; iAs 1.4-2.3; Cd 3-4; Cr 0-40; Cu 3195; I 1150; Fe 83950; Pb 0-4; Mn 580; Hg 0-1; Ni 0-40; Se 105; Sn 0-22; Zn 60300 ug/kg.",
+        },
+        {
+          label: "Goat based (from birth and growing up)",
+          row_fit: "non_soy_goat_formula_subtype_needs_review",
+          values: ["950", "0-5", "9", "6-6.3", "0-2", "40-45", "4220", "960", "71900", "6.5", "800", "0-1", "0-45", "137", "0-35", "47000"],
+          source_line:
+            "Goat based (from birth and growing up): Al 950; Sb 0-5; As 9; iAs 6-6.3; Cd 0-2; Cr 40-45; Cu 4220; I 960; Fe 71900; Pb 6.5; Mn 800; Hg 0-1; Ni 0-45; Se 137; Sn 0-35; Zn 47000 ug/kg.",
+        },
+        {
+          label: "Organic milk",
+          row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
+          values: ["1000", "<5", "14", "~7", "8", "~30", "3740", "1030", "47500", "~3", "2470", "<1", "<40", "79", "~40", "49400"],
+          source_line:
+            "Organic milk: Al 1000; Sb <5; As 14; iAs ~7; Cd 8; Cr ~30; Cu 3740; I 1030; Fe 47500; Pb ~3; Mn 2470; Hg <1; Ni <40; Se 79; Sn ~40; Zn 49400 ug/kg.",
+        },
+      ],
+    },
+    "infant-formula-powder-soy-based": {
+      tableMarker: dryTableMarker,
+      basis: "as_sold",
+      nText: "N for soy-based dry formula is not provided in Table 2; the source flags powdered soy formula separately in the exposure discussion.",
+      footnote: dryFootnote,
+      extractionMethod: "deterministic_parser_fsa2016_table2_dry_formula",
+      note: "Deterministic parse of FSA/Fera Table 2 soy-based dry infant formula concentration means in ug/kg.",
+      sourceRows: [
+        {
+          label: "Soy based (from birth)",
+          row_fit: "direct_soy_dry_formula_subtype_needs_review",
+          values: ["2550", "0-6", "7", "4.6", "11", "35-55", "2905", "855", "65250", "0-5", "2785", "0-1", "200", "147", "0-23", "46000"],
+          source_line:
+            "Soy based (from birth): Al 2550; Sb 0-6; As 7; iAs 4.6; Cd 11; Cr 35-55; Cu 2905; I 855; Fe 65250; Pb 0-5; Mn 2785; Hg 0-1; Ni 200; Se 147; Sn 0-23; Zn 46000 ug/kg.",
+        },
+      ],
+    },
+    "infant-formula-rtf-liquid-non-soy": {
+      tableMarker: readyToFeedTableMarker,
+      basis: "as_consumed",
+      nText: "N by ready-to-feed formula subtype is not provided in Table 1; the source reports category mean concentrations for exposure assessment.",
+      footnote: readyToFeedFootnote,
+      extractionMethod: "deterministic_parser_fsa2016_table1_rtf_formula",
+      note: "Deterministic parse of FSA/Fera Table 1 ready-to-feed infant formula concentration means in ug/L, retained as as-consumed liquid concentration values.",
+      sourceRows: [
+        {
+          label: "Ready-to-feed first milk & hungrier milk (from birth)",
+          row_fit: "direct_non_soy_rtf_formula_subtype_needs_review",
+          values: ["18-34", "0-1", "0-0.3", "0-0.2", "0-0.2", "0-3", "376", "143", "5136", "0-0.4", "63", "0-0.2", "0-9", "18", "0-3", "5974"],
+          source_line:
+            "Ready-to-feed first milk & hungrier milk (from birth): Al 18-34; Sb 0-1; As 0-0.3; iAs 0-0.2; Cd 0-0.2; Cr 0-3; Cu 376; I 143; Fe 5136; Pb 0-0.4; Mn 63; Hg 0-0.2; Ni 0-9; Se 18; Sn 0-3; Zn 5974 ug/L.",
+        },
+        {
+          label: "Ready-to-feed follow on milk (6 months +)",
+          row_fit: "direct_non_soy_rtf_formula_subtype_needs_review",
+          values: ["15-31", "0-0.8", "0-0.4", "0-0.3", "0-0.2", "0-3", "329", "115", "8785", "0-0.5", "71", "0-0.2", "0-7", "17", "0-3", "5608"],
+          source_line:
+            "Ready-to-feed follow on milk (6 months +): Al 15-31; Sb 0-0.8; As 0-0.4; iAs 0-0.3; Cd 0-0.2; Cr 0-3; Cu 329; I 115; Fe 8785; Pb 0-0.5; Mn 71; Hg 0-0.2; Ni 0-7; Se 17; Sn 0-3; Zn 5608 ug/L.",
+        },
+        {
+          label: "Ready-to-feed growing up milk (12 months +)",
+          row_fit: "direct_non_soy_rtf_formula_subtype_needs_review",
+          values: ["15-29", "0-0.8", "0.3-0.7", "0.2-0.5", "0-0.3", "0-3", "346", "140", "10223", "0-0.5", "65", "0-0.2", "0-9", "14", "0-3", "7615"],
+          source_line:
+            "Ready-to-feed growing up milk (12 months +): Al 15-29; Sb 0-0.8; As 0.3-0.7; iAs 0.2-0.5; Cd 0-0.3; Cr 0-3; Cu 346; I 140; Fe 10223; Pb 0-0.5; Mn 65; Hg 0-0.2; Ni 0-9; Se 14; Sn 0-3; Zn 7615 ug/L.",
+        },
+      ],
+    },
+  }
+
+  return routes[productSlug]
 }
 
 function extractAlmeida2022(queueRow, text) {
