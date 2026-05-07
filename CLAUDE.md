@@ -68,13 +68,17 @@ Claude owns the wiki. Karen curates sources, asks questions, and decides directi
 
 ## Part 4 — Architecture
 
-Three layers.
+Four layers.
 
 The `raw/` directory contains immutable source documents. PDFs of studies, agency reports, clipped articles, lab data, images, and — for this project — Marker-converted markdown files that stand in for the original PDFs. Never modify anything here. Treat as append-only source of truth.
 
+The `data/evidence/` directory contains the structured evidence register. Candidate values, approved values, routing audits, reviewer queues, claims, schemas, and review events live here. Deterministic extraction belongs here first. A PDF is not "ingested" just because it exists in `raw/`; it must leave a structured trace in `data/evidence/` or an explicit gap/audit record.
+
 The `wiki/` directory contains everything Claude writes. Markdown pages, interlinked, organized by the taxonomy below. Claude owns this layer entirely.
 
-CLAUDE.md (this file) contains conventions, workflows, and page templates. Karen and Claude co-evolve this as they learn what works.
+CLAUDE.md (this file), the methodology pages, and the ingest scripts together define the schema and automation layer. Karen and Claude co-evolve this as they learn what works.
+
+This build is a compiled wiki, not a query-time RAG surface. Queries may read raw files when needed, but the default goal of ingest is to compile durable knowledge once into source pages, evidence registers, routed wiki pages, and generated public outputs so the same work does not need to be rediscovered from scratch on every question.
 
 ### Version control
 
@@ -488,6 +492,22 @@ Consumer translation is dose-and-population-specific. This is the highest-risk i
 ## Part 8 — Ingest workflows
 
 Three distinct workflows with different constraints.
+
+### Compiled-wiki rule
+
+For this build, ingest means compiling a source into the persistent wiki system. It does not mean "the file is searchable now."
+
+A source is not counted as ingested until all applicable steps below are complete:
+
+1. preserve the raw source and verify provenance;
+2. create or update the canonical source page;
+3. extract deterministic evidence into `data/evidence/` with basis, species, unit, statistic-type, and row-fit metadata;
+4. route the evidence to the correct wiki page family;
+5. create a stub first if the destination page does not yet exist, especially for ingredient pages and direct product-page destinations;
+6. regenerate any affected product-page evidence surfaces, including the standards matrix, measured-values ledger exports, and routing-audit outputs when applicable;
+7. update `index.md` and `log.md`, run checks, and commit.
+
+If automation cannot place evidence cleanly, do not silently drop the source. Emit or update the routing audit, reingest queue, gap report, or candidate-only record so the missing placement remains visible and recoverable.
 
 ### Single-paper ingest (Karen drops one file and says "ingest this")
 

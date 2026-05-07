@@ -13,6 +13,7 @@ const sourceFiles = fs
 const missingDoi = []
 const missingAccess = []
 const textbookWithoutDoi = []
+let pendingTier1Skipped = 0
 
 for (const file of sourceFiles) {
   const filePath = path.join(sourceDir, file)
@@ -21,6 +22,17 @@ for (const file of sourceFiles) {
   const doi = data.doi === null || data.doi === undefined ? "" : String(data.doi).trim()
   const accessUrl =
     data.access_url === null || data.access_url === undefined ? "" : String(data.access_url).trim()
+
+  const status = String(data.status ?? "").trim()
+  const evidenceTier = String(data.evidence_tier ?? "").trim()
+  const ingestMethod = String(data.ingest_method ?? "").trim()
+  const isPendingTier1 =
+    status === "tier1-stub" || evidenceTier === "pending" || ingestMethod.startsWith("tier1-")
+
+  if (isPendingTier1) {
+    pendingTier1Skipped += 1
+    continue
+  }
 
   if (paperTypes.has(sourceType) && !doi) {
     missingDoi.push({ file, title: data.title ?? file })
@@ -54,6 +66,12 @@ if (textbookWithoutDoi.length > 0) {
   for (const source of textbookWithoutDoi) {
     console.warn(`- ${source.file}: ${source.title}`)
   }
+}
+
+if (pendingTier1Skipped > 0) {
+  console.warn(
+    `DOI audit skipped ${pendingTier1Skipped} pending Tier-1 source stubs; complete Tier-2 before promotion.`,
+  )
 }
 
 if (missingDoi.length > 0 || missingAccess.length > 0) {
