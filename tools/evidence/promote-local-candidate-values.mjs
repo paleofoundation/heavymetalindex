@@ -43,9 +43,12 @@ const nextSummaryRows = [
   ...promotedSummaryRows,
 ]
 
+const promotedValueRecords = promotedSummaryRows.map(toValueRecord)
+const promotedValueIds = new Set(promotedValueRecords.map((row) => row.value_id))
+
 const nextValueRows = [
-  ...existingValueRows.filter((row) => !String(row.value_id || "").startsWith("category1-formula-local-auto-")),
-  ...promotedSummaryRows.map(toValueRecord),
+  ...existingValueRows.filter((row) => !promotedValueIds.has(String(row.value_id || ""))),
+  ...promotedValueRecords,
 ]
 
 fs.writeFileSync(summaryPath, toCsv(nextSummaryRows, summaryHeaders(nextSummaryRows)), "utf8")
