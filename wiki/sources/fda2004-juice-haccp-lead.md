@@ -39,4 +39,8 @@ The later 2022 FDA lead-in-juice guidance remains draft and not for implementati
 
 - [[regulations/fda-juice-haccp-lead-50ppb]]
 - [[products/lead-benchmark-context]]
+- [[products/fruit-juice-not-canned]]
 
+## Product-row handling
+
+This source is FDA guidance context, not a measured occurrence dataset. Keep the 50 ppb Juice HACCP value in the regulatory crosswalk and do not promote it as HMTc occurrence evidence or a certification threshold.

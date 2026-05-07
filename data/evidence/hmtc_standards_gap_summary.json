@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T15:29:30.660Z",
+  "generated_at": "2026-05-07T15:35:57.013Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "occurrence_summary_files": [
@@ -23,8 +23,8 @@
     "BLOCKED: documented local sources are context-only": 4
   },
   "rows_with_pending_local_extracts": 0,
-  "rows_with_missing_pdfs": 1,
+  "rows_with_missing_pdfs": 0,
   "rows_with_local_candidate_values": 0,
-  "rows_with_context_dispositions": 41,
+  "rows_with_context_dispositions": 42,
   "rows_with_tds_product_route_candidates": 8
 }
