@@ -259,3 +259,7 @@ Notes: Added generated broad-context sections for formula sources that are relev
 ## [2026-05-07] audit | fda-tds-product-route-candidates — TDS product-route candidates surfaced
 Pages affected: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[products/fruit-juice-not-canned]], [[products/fruit-juices-apple-containing]], [[products/fruit-juices-non-apple]]
 Notes: Added a generated FDA TDS product-route candidate report for finished-food TDS rows that already have explicit product-route mappings. The standards gap report now distinguishes true no-evidence gaps from TDS product-route review blockers, and keeps total arsenic visible as related context without substituting it for inorganic arsenic. No TDS candidate was promoted into HMTc p90 math.
+
+## [2026-05-07] tooling | standards-gap-occurrence-inputs — standards gaps read all occurrence summaries
+Pages affected: [[methodology/persistent-wiki-ingest-rule]], [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]], [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+Notes: Updated the HMTc standards gap report so it reads existing formula, FDA baby-food compliance, and plant-milk occurrence summary layers instead of only formula rows. This converts already-ingested baby cereal, puree, mixed-meal, snack, and plant-milk evidence from false "no structured evidence" gaps into single-source, species-specific, or summary-evidence blockers. No total arsenic was substituted for inorganic arsenic, and no new p90 was inferred.
