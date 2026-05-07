@@ -17,6 +17,7 @@ variant_type: clean_benchmark
 provenance: split_from_base
 ingredient_targets: [infant-formula-powder, non-soy-protein-source, vitamin-mineral-premix]
 primary_metals_of_concern: [Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
+hmtc_tested_metals: [Pb, Cd, tAs, tHg]
 vulnerable_population: infants-0-12mo
 applicable_regulations: []
 cc_relationship:
@@ -47,14 +48,71 @@ sources: 15
     <span class="hmi-pill">Cd</span>
     <span class="hmi-pill">tAs</span>
     <span class="hmi-pill">tHg</span>
-    <span class="hmi-pill">Al</span>
-    <span class="hmi-pill">Ni</span>
-    <span class="hmi-pill">Sn</span>
-    <span class="hmi-pill">Cr</span>
   </div>
 </div>
 
 This page is the public evidence page for powdered non-soy infant formula. It is organized around source-backed product concentration evidence, with exposure estimates and broad formula studies separated so they do not get mistaken for direct ppb product measurements.
+
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## HMTc Standards Snapshot
+
+<!-- audience: regulator, educator, app -->
+
+Clean-category target: aggregate P90. Values shown in ppb. Current values are source-scope candidates unless marked final. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate.
+
+Source-scope percentiles are evidence inputs, not final HMTc standards. Clean rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Dirty P90 and clean P10 are not HMTc limit-setting targets.
+
+| Metal | Candidate P90 | Evidence confidence | HMTc readiness | Regulatory cap | Blocker | Sources |
+| --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | 0.4 ppb; N=230; prepared-for-feeding; source-scope | 0.93 (source row) | 0.45 (aggregate incomplete) | 20 ppb (EU) | Needs at least one more fit distribution source | <sup><a href="/sources/fda2026-infant-formula-toxic-elements-special-survey">S1</a></sup> <sup><a href="/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">S2</a></sup> <sup><a href="/sources/kazi2009-toxic-elements-in-infant-formulae">S3</a></sup> <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">S4</a></sup> <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">S5</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">S6</a></sup> |
+| [[metals/cadmium]] (Cd) | 0.4 ppb; N=230; prepared-for-feeding; source-scope | 0.93 (source row) | 0.45 (aggregate incomplete) | 10 ppb (EU) | Needs at least one more fit distribution source | <sup><a href="/sources/fda2026-infant-formula-toxic-elements-special-survey">S1</a></sup> <sup><a href="/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">S2</a></sup> <sup><a href="/sources/kazi2009-toxic-elements-in-infant-formulae">S3</a></sup> <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">S4</a></sup> <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">S5</a></sup> <sup><a href="/sources/dabeka1987-canada-infant-formula-lead-cadmium">S7</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">S6</a></sup> |
+| [[metals/arsenic-total]] (tAs) | 1.3 ppb; N=230; prepared-for-feeding; source-scope | 0.93 (source row) | 0.45 (aggregate incomplete) | None loaded | Needs at least one more fit distribution source | <sup><a href="/sources/fda2026-infant-formula-toxic-elements-special-survey">S1</a></sup> <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">S4</a></sup> <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">S5</a></sup> |
+| [[metals/mercury-total]] (tHg) | 0 ppb; N=230; prepared-for-feeding; source-scope | 0.93 (source row) | 0.45 (aggregate incomplete) | None loaded | Needs at least one more fit distribution source | <sup><a href="/sources/fda2026-infant-formula-toxic-elements-special-survey">S1</a></sup> <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">S4</a></sup> <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">S5</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">S6</a></sup> |
+
+### Source Key
+
+- <sup><a href="/sources/fda2026-infant-formula-toxic-elements-special-survey">S1</a></sup> FDA 2026 infant formula toxic-elements survey
+- <sup><a href="/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">S2</a></sup> Dabeka 2011 Canadian infant formula Pb/Cd/Al
+- <sup><a href="/sources/kazi2009-toxic-elements-in-infant-formulae">S3</a></sup> Kazi 2009 infant formula toxic elements
+- <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">S4</a></sup> Almeida 2022 Brazil infant formula toxic metals
+- <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">S5</a></sup> FSA 2016 infant foods/formula metals survey
+- <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">S6</a></sup> Pandelova 2012 EU baby foods/formula elements
+- <sup><a href="/sources/dabeka1987-canada-infant-formula-lead-cadmium">S7</a></sup> Dabeka 1987 Canadian infant formula Pb/Cd
+
+### Context Evidence Appendix
+
+The metals below remain visible for traceability, but they are not the primary HMTc standards decision surface for this product row.
+
+| Metal | State | Sources |
+| --- | --- | --- |
+| [[metals/arsenic-inorganic]] (iAs) | 1 source; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> |
+| [[metals/mercury-methyl]] (MeHg) | 0 sources; 0 distribution sources; species gap | None |
+| [[metals/aluminum]] (Al) | 6 sources; 0 distribution sources; summary only | <sup><a href="/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">C2</a></sup> <sup><a href="/sources/kazi2009-toxic-elements-in-infant-formulae">C3</a></sup> <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">C4</a></sup> <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/burrell2010-aluminium-in-infant-formulas">C5</a></sup> <sup><a href="/sources/chuchu2013-aluminium-in-infant-formulas">C6</a></sup> |
+| [[metals/nickel]] (Ni) | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
+| [[metals/tin]] (Sn) | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">C4</a></sup> <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> |
+| Cr-total | 1 source; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> |
+| Cr-VI | 0 sources; 0 distribution sources; no structured pool | None |
+| Ca | 1 source; 0 distribution sources; summary only | <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
+| Cu | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
+| Fe | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
+| I | 1 source; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> |
+| Mn | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
+| Sb | 1 source; 0 distribution sources; blocked | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> |
+| Se | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
+| U | 1 source; 0 distribution sources; summary only | <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">C4</a></sup> |
+| Zn | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
+
+### Context Source Key
+
+- <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> FSA 2016 infant foods/formula metals survey
+- <sup><a href="/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum">C2</a></sup> Dabeka 2011 Canadian infant formula Pb/Cd/Al
+- <sup><a href="/sources/kazi2009-toxic-elements-in-infant-formulae">C3</a></sup> Kazi 2009 infant formula toxic elements
+- <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">C4</a></sup> Almeida 2022 Brazil infant formula toxic metals
+- <sup><a href="/sources/burrell2010-aluminium-in-infant-formulas">C5</a></sup> Burrell 2010 infant formula aluminium
+- <sup><a href="/sources/chuchu2013-aluminium-in-infant-formulas">C6</a></sup> Chuchu 2013 infant formula aluminium
+- <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> Pandelova 2012 EU baby foods/formula elements
+
+<!-- END: hmi-hmtc-evidence-summary -->
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -78,40 +136,6 @@ Public evidence label: **Modeled or limited evidence**.
 This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level extraction and standards review are tracked separately in staff tooling.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
-
-<!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
-
-<!-- audience: regulator, educator, app -->
-
-This row's standards target is **clean-platform P90**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
-
-Clean benchmark rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMTc value must be no higher than the lowest applicable loaded regulatory cap.
-
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | clean-platform P90 | 6 sources; 1 distribution source; 5 summary sources; N=300 | Below confidence gate: only one fit distribution source is loaded. | 20 ug/kg (eu2023_pb_formula_powder_20) |
-| [[metals/cadmium]] (Cd) | clean-platform P90 | 7 sources; 1 distribution source; 6 summary sources; N=317 | Below confidence gate: only one fit distribution source is loaded. | 10 ug/kg (eu2023_cd_formula_cow_powder_10) |
-| [[metals/arsenic-total]] (tAs) | clean-platform P90 | 3 sources; 1 distribution source; 2 summary sources; N=230 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
-| [[metals/arsenic-inorganic]] (iAs) | clean-platform P90 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | 20 ug/kg (eu2023_ias_formula_powder_20) |
-| [[metals/mercury-total]] (tHg) | clean-platform P90 | 4 sources; 1 distribution source; 1 summary source; N=230 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
-| [[metals/mercury-methyl]] (MeHg) | clean-platform P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: exact analyte species is missing. | No loaded cap |
-| [[metals/aluminum]] (Al) | clean-platform P90 | 6 sources; 0 distribution sources; 6 summary sources; N=95 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| [[metals/nickel]] (Ni) | clean-platform P90 | 2 sources; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| [[metals/tin]] (Sn) | clean-platform P90 | 2 sources; 0 distribution sources; 2 summary sources; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| Cr-VI | clean-platform P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
-| Ca | clean-platform P90 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| Cr-total | clean-platform P90 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| Cu | clean-platform P90 | 2 sources; 0 distribution sources; 2 summary sources; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| Fe | clean-platform P90 | 2 sources; 0 distribution sources; 2 summary sources; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| I | clean-platform P90 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| Mn | clean-platform P90 | 2 sources; 0 distribution sources; 2 summary sources; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| Sb | clean-platform P90 | 1 source; 0 distribution sources; 0 summary sources; N not loaded | Blocked: evidence fitness review needed before confidence work. | No loaded cap |
-| Se | clean-platform P90 | 2 sources; 0 distribution sources; 2 summary sources; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| U | clean-platform P90 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| Zn | clean-platform P90 | 2 sources; 0 distribution sources; 2 summary sources; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-
-<!-- END: hmi-hmtc-evidence-summary -->
 
 ## Lead Benchmark Context
 
