@@ -279,3 +279,7 @@ Notes: Added source-specific deterministic candidate parsers for Meli 2024, Chek
 ## [2026-05-07] tooling | baby-food-plant-milk-candidate-parsers — Parker, D'Amato, and Milani candidate rows added
 Pages affected: [[products/fruit-purees]], [[products/non-root-vegetable-purees]], [[products/root-vegetable-purees]], [[products/plant-milks-rice-based]], [[products/plant-milks-soy-based]]
 Notes: Added deterministic candidate parsers for Parker 2022 baby-food Table 4, D'Amato 2026 rice-drink arsenic Table 3, and Milani 2023 soy-beverage trace-element Table 3. The candidate register now contains 97 non-published review rows and leaves 18 local extraction tasks; no p90 or p95 was inferred, total arsenic remains separate from inorganic arsenic, and total chromium remains separate from Cr-VI.
+
+## [2026-05-07] tooling | partial-candidate-tracking-collado — scoping-review medians retained without hiding gaps
+Pages affected: [[products/baby-cereals-dry-non-rice]], [[products/baby-cereals-dry-rice-based]], [[products/fish-containing-baby-foods]], [[products/mixed-meals-non-rice]], [[products/mixed-meals-rice-containing]], [[products/root-vegetable-purees]], [[products/teething-and-snacks-rice-based]]
+Notes: Added partial-candidate tracking so deterministic source parsers can keep unresolved metals visible when only some source rows are usable. Added EF-4 context-only candidate rows for Collado-Lopez 2025 scoping-review detected-item medians across broad baby-food groups; IQRs are retained in notes, not min/max fields, and no p90 or p95 was inferred.
