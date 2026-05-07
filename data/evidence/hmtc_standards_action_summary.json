@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-07T15:44:52.530Z",
+  "generated_at": "2026-05-07T15:52:09.054Z",
   "product_filter": "all",
   "total_action_rows": 58,
   "by_action_priority": {
-    "P1": 7,
-    "P2": 48,
+    "P1": 5,
+    "P2": 50,
     "P3": 3
   },
   "by_action_type": {
-    "resolve-species-specific-gap": 7,
+    "resolve-species-specific-gap": 5,
     "find-fit-source-after-context-only-review": 3,
     "find-or-route-fit-source-evidence": 16,
-    "find-sample-level-or-percentile-evidence": 14,
+    "find-sample-level-or-percentile-evidence": 16,
     "find-second-distribution-capable-source": 15,
     "review-evidence-fitness": 3
   },
   "by_aggregate_status": {
-    "BLOCKED: species-specific evidence missing": 7,
+    "BLOCKED: species-specific evidence missing": 5,
     "BLOCKED: documented local sources are context-only": 3,
     "BLOCKED: no structured evidence loaded": 16,
-    "BLOCKED: summary evidence only": 14,
+    "BLOCKED: summary evidence only": 16,
     "DO NOT PUBLISH P90: single distribution-capable source": 15,
     "BLOCKED: evidence fitness review needed": 3
   },
@@ -61,52 +61,52 @@
     },
     {
       "action_order": 6,
-      "action_priority": "P1",
-      "action_type": "resolve-species-specific-gap",
-      "product_slug": "mixed-meals-non-rice",
-      "metal_species": "iAs"
-    },
-    {
-      "action_order": 7,
-      "action_priority": "P1",
-      "action_type": "resolve-species-specific-gap",
-      "product_slug": "mixed-meals-rice-containing",
-      "metal_species": "iAs"
-    },
-    {
-      "action_order": 8,
       "action_priority": "P2",
       "action_type": "find-fit-source-after-context-only-review",
       "product_slug": "plant-milks-non-soy-non-rice",
       "metal_species": "Ni"
     },
     {
-      "action_order": 9,
+      "action_order": 7,
       "action_priority": "P2",
       "action_type": "find-fit-source-after-context-only-review",
       "product_slug": "plant-milks-rice-based",
       "metal_species": "Pb"
     },
     {
-      "action_order": 10,
+      "action_order": 8,
       "action_priority": "P2",
       "action_type": "find-fit-source-after-context-only-review",
       "product_slug": "teething-and-snacks-non-rice",
       "metal_species": "Pb; Cd"
     },
     {
-      "action_order": 11,
+      "action_order": 9,
       "action_priority": "P2",
       "action_type": "find-or-route-fit-source-evidence",
       "product_slug": "coffee",
       "metal_species": "Pb; Cd; tAs"
     },
     {
-      "action_order": 12,
+      "action_order": 10,
       "action_priority": "P2",
       "action_type": "find-or-route-fit-source-evidence",
       "product_slug": "fermented-beverages-non-tea-based",
       "metal_species": "Pb; Cd"
+    },
+    {
+      "action_order": 11,
+      "action_priority": "P2",
+      "action_type": "find-or-route-fit-source-evidence",
+      "product_slug": "flavored-waters",
+      "metal_species": "Pb"
+    },
+    {
+      "action_order": 12,
+      "action_priority": "P2",
+      "action_type": "find-or-route-fit-source-evidence",
+      "product_slug": "herbal-botanical-infusions",
+      "metal_species": "Pb; Cd; Al"
     }
   ]
 }

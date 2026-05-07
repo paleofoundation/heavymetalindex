@@ -344,3 +344,7 @@ Notes: Added the remaining broad infant-formula source citations to the base pow
 ## [2026-05-07] backfill | fsa2016-baby-drinks-juice-context — Baby-drinks iAs context structured
 Pages affected: [[sources/fsa2016-infant-food-formula-metals-survey]], [[products/fruit-juice-not-canned]]
 Notes: Backfilled FSA/Fera 2016 Table 3 baby-drinks tAs, iAs, Cd, Pb, and Ni means into the structured local baby-food register for the not-canned fruit-juice page. The row remains EF-4 context because baby drinks are broader than fruit juice and do not isolate canned status or fruit type; inorganic arsenic is kept separate from total arsenic, and no p50, p90, or p95 was inferred.
+
+## [2026-05-07] backfill | fsa2016-mixed-meals-ias-context — Other-savoury iAs context structured
+Pages affected: [[sources/fsa2016-infant-food-formula-metals-survey]], [[products/mixed-meals-non-rice]], [[products/mixed-meals-rice-containing]]
+Notes: Backfilled FSA/Fera 2016 Table 3 other-savoury infant-food tAs, iAs, Cd, Pb, and Ni means into the structured local baby-food register for both mixed-meal child rows. The rows remain EF-4 context because the source row excludes meat but does not isolate rice status or complete mixed-meal formulation; inorganic arsenic is kept separate from total arsenic, and no p50, p90, or p95 was inferred.

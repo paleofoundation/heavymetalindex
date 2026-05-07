@@ -29,7 +29,7 @@ cc_relationship:
       role_of_partner: clean_benchmark
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-07
 sources: 5
 ---
 
@@ -91,7 +91,7 @@ Full crosswalk: [[products/lead-benchmark-context]].
 
 <!-- audience: regulator, educator, app -->
 
-The current source set does not yet support a rice-containing mixed-meal p10/p90/p100 concentration spread. Gardener 2019 includes jars/meals, pouches, and kids-meals categories and provides broad all-sample lead/cadmium percentiles, but rice-containing mixed meals still need product-level extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]]
+The current source set does not yet support a rice-containing mixed-meal p10/p90/p100 concentration spread. Gardener 2019 includes jars/meals, pouches, and kids-meals categories and provides broad all-sample lead/cadmium percentiles, and the FSA other-savoury row is structured as EF-4 context only because rice-containing status is not isolated. Rice-containing mixed meals still need product-level extraction. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |

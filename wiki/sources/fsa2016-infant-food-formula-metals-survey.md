@@ -36,6 +36,7 @@ The Digest batch contains two byte-identical copies of this report; both have be
 - Cereal-based infant foods/dishes: Al 183-229 ug/kg, tAs 10 ug/kg, iAs 5-6 ug/kg, Cd 3 ug/kg, Pb 0-1 ug/kg, tHg 0 ug/kg, Ni 124-127 ug/kg, Sn 14-18 ug/kg.
 - Fruit-based infant foods/dishes: Al 1125 ug/kg, tAs 9 ug/kg, iAs 1-4 ug/kg, Cd 2-3 ug/kg, Pb 1-3 ug/kg, tHg 0-1 ug/kg, Ni 92-117 ug/kg, Sn 43-50 ug/kg.
 - Baby drinks: Al 453 ug/kg, tAs 2 ug/kg, iAs 1 ug/kg, Cd 0 ug/kg, Pb 3 ug/kg, tHg 0 ug/kg, Ni 0-9 ug/kg, Sn 0 ug/kg.
+- Other savoury based infant foods/dishes, no meat: Al 1995-1999 ug/kg, tAs 15 ug/kg, iAs 7-9 ug/kg, Cd 10 ug/kg, Pb 3-5 ug/kg, tHg 0-1 ug/kg, Ni 66-97 ug/kg, Sn 61-68 ug/kg.
 - Snacks: Al 5185 ug/kg, tAs 98 ug/kg, iAs 58-62 ug/kg, Cd 24 ug/kg, Pb 10 ug/kg, tHg 0 ug/kg, Ni 292 ug/kg, Sn 0 ug/kg.
 - Meat and fish based infant foods/dishes: Al 1425-1427 ug/kg, tAs 15 ug/kg, iAs 2-4 ug/kg, Cd 9 ug/kg, Pb 4-5 ug/kg, tHg 0-1 ug/kg, Ni 43-72 ug/kg, Sn 47-52 ug/kg.
 
