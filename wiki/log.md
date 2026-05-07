@@ -328,3 +328,7 @@ Notes: Added the missing Meli 2024 Table 5 homogenized fish and meat Al, tAs, tH
 ## [2026-05-07] extract | parker2022-vegetable-table4-rows — Parker vegetable baby-food rows structured
 Pages affected: [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]], [[products/root-vegetable-purees]], [[products/non-root-vegetable-purees]]
 Notes: Promoted reviewed Parker 2022 Table 4 root-vegetable and leguminous-vegetable baby-food tAs, Cd, tHg, and Pb summary rows into the structured local baby-food register and value records. Rows retain source-reported mean/median/min/max summaries after the study's ND/LLOQ substitution conventions; no p90 or p95 was inferred, total arsenic remains separate from inorganic arsenic, and total mercury remains separate from methylmercury.
+
+## [2026-05-07] extract | milani2023-soy-beverage-cr-sb-context — Soy beverage Cr/Sb context structured
+Pages affected: [[sources/milani2023-trace-elements-soy-based-beverages]], [[products/plant-milks-soy-based]]
+Notes: Added reviewed Milani 2023 soy-beverage Cr and Sb occurrence context to the Category 5 plant-milk register, product crosswalk, source page, and soy-based plant-milk page. Chromium remains total/unspecified Cr, not Cr-VI; censored bounds are retained as reported; no p50, p90, or p95 was inferred.

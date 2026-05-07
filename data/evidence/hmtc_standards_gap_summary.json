@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T15:19:29.310Z",
+  "generated_at": "2026-05-07T15:29:30.660Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "occurrence_summary_files": [
@@ -9,12 +9,12 @@
     "data/evidence/category5_plant_milk_occurrence_summary.csv",
     "data/evidence/category5_tds_finished_food_occurrence_summary.csv"
   ],
-  "total_gap_rows": 229,
-  "rows_in_locked_hmtc_scope": 191,
+  "total_gap_rows": 231,
+  "rows_in_locked_hmtc_scope": 193,
   "rows_outside_locked_hmtc_scope": 38,
   "by_aggregate_status": {
     "DO NOT PUBLISH P90: single distribution-capable source": 55,
-    "BLOCKED: summary evidence only": 81,
+    "BLOCKED: summary evidence only": 83,
     "BLOCKED: no structured evidence loaded": 34,
     "BLOCKED: species-specific evidence missing": 8,
     "CONTEXT ONLY: not a locked HMTc standards row": 26,
