@@ -275,3 +275,7 @@ Notes: Generalized the product-source routing audit from formula-only targets to
 ## [2026-05-07] tooling | nonformula-local-candidate-parsers — deterministic candidates for baby-food and juice source tables
 Pages affected: [[products/fruit-purees]], [[products/fruit-juice-not-canned]], [[products/fish-containing-baby-foods]], [[products/meat-and-poultry-purees]]
 Notes: Added source-specific deterministic candidate parsers for Meli 2024, Chekri 2019, Weldegebriel 2025, and the FSA 2016 fruit-based infant-food table. The candidate register now contains 59 non-published review rows across four sources and leaves 23 local extraction tasks; no p90 or p95 was inferred, and total/speciated analytes remain separated.
+
+## [2026-05-07] tooling | baby-food-plant-milk-candidate-parsers — Parker, D'Amato, and Milani candidate rows added
+Pages affected: [[products/fruit-purees]], [[products/non-root-vegetable-purees]], [[products/root-vegetable-purees]], [[products/plant-milks-rice-based]], [[products/plant-milks-soy-based]]
+Notes: Added deterministic candidate parsers for Parker 2022 baby-food Table 4, D'Amato 2026 rice-drink arsenic Table 3, and Milani 2023 soy-beverage trace-element Table 3. The candidate register now contains 97 non-published review rows and leaves 18 local extraction tasks; no p90 or p95 was inferred, total arsenic remains separate from inorganic arsenic, and total chromium remains separate from Cr-VI.
