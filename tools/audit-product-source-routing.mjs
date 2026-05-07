@@ -8,14 +8,8 @@ const productDir = path.join(repoRoot, "wiki/products")
 const valuesPath = path.join(repoRoot, "data/evidence/values.jsonl")
 const outputPath = path.join(repoRoot, "data/evidence/product_source_routing_audit.csv")
 
-const targetProducts = [
-  "infant-formula-powder-non-soy",
-  "infant-formula-powder-soy-based",
-  "infant-formula-rtf-liquid-non-soy",
-  "infant-formula-rtf-liquid-soy-based",
-  "infant-formula-concentrated-liquid-non-soy",
-  "infant-formula-concentrated-liquid-soy-based",
-]
+const auditedProductPages = readAuditedProductPages()
+const targetProducts = [...auditedProductPages.keys()].sort()
 
 const inheritedProductRoutes = new Map([
   [
@@ -25,6 +19,15 @@ const inheritedProductRoutes = new Map([
       product_slugs: ["infant-formula-powder-non-soy", "infant-formula-powder-soy-based"],
       route_note:
         "Source is declared for powdered formula but does not itself resolve the locked soy/non-soy row split.",
+    },
+  ],
+  [
+    "infant-formula-rtf-liquid",
+    {
+      route_kind: "broad_formula_context",
+      product_slugs: ["infant-formula-rtf-liquid-non-soy", "infant-formula-rtf-liquid-soy-based"],
+      route_note:
+        "Source is declared for ready-to-feed/liquid formula but does not itself resolve the locked soy/non-soy row split.",
     },
   ],
   [
@@ -41,13 +44,109 @@ const inheritedProductRoutes = new Map([
         "Source is declared for infant formula broadly and must stay contextual until powder/liquid and soy/non-soy fit are resolved.",
     },
   ],
+  [
+    "baby-cereals",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["baby-cereals-dry-non-rice", "baby-cereals-dry-rice-based"],
+      route_note:
+        "Source is declared for baby cereals broadly and must stay contextual until rice/non-rice and dry/as-served row fit are resolved.",
+    },
+  ],
+  [
+    "rice-cereal",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["baby-cereals-dry-rice-based"],
+      route_note:
+        "Source is declared for rice cereal and must be reviewed for dry infant-cereal row fit, basis, and species before standards use.",
+    },
+  ],
+  [
+    "mixed-cereals",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["baby-cereals-dry-non-rice"],
+      route_note:
+        "Source is declared for mixed cereals and must be reviewed for rice content, dry/as-served basis, and row fit.",
+    },
+  ],
+  [
+    "vegetable-purees",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["non-root-vegetable-purees", "root-vegetable-purees"],
+      route_note:
+        "Source is declared for vegetable purees broadly and must stay contextual until root/non-root row fit is resolved.",
+    },
+  ],
+  [
+    "meat-and-fish-baby-foods",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["meat-and-poultry-purees", "fish-containing-baby-foods"],
+      route_note:
+        "Source combines meat and fish baby foods; keep contextual until meat/poultry versus fish-containing row fit is resolved.",
+    },
+  ],
+  [
+    "mixed-meals",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["mixed-meals-non-rice", "mixed-meals-rice-containing"],
+      route_note:
+        "Source is declared for mixed meals broadly and must stay contextual until rice-containing row fit is resolved.",
+    },
+  ],
+  [
+    "snacks",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["teething-and-snacks-non-rice", "teething-and-snacks-rice-based"],
+      route_note:
+        "Source is declared for snacks broadly and must stay contextual until rice-based versus non-rice row fit is resolved.",
+    },
+  ],
+  [
+    "rice-based-snacks",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["teething-and-snacks-rice-based"],
+      route_note:
+        "Source is declared for rice-based snacks and must be reviewed for infant teething/snack row fit before standards use.",
+    },
+  ],
+  [
+    "teething-biscuits",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["teething-and-snacks-non-rice", "teething-and-snacks-rice-based"],
+      route_note:
+        "Source is declared for teething biscuits broadly and must stay contextual until rice-based versus non-rice row fit is resolved.",
+    },
+  ],
+  [
+    "fruit-juice",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["fruit-juice-not-canned"],
+      route_note:
+        "Source is declared for fruit juice broadly and must be reviewed for apple/non-apple, canned status, and species before standards use.",
+    },
+  ],
+  [
+    "packaged-fruit-juice",
+    {
+      route_kind: "broad_product_context",
+      product_slugs: ["fruit-juice-not-canned"],
+      route_note:
+        "Source is declared for packaged fruit juice; keep contextual until canned status, juice type, and analyte species are resolved.",
+    },
+  ],
 ])
 
 const productPages = new Map(
-  targetProducts.map((slug) => {
-    const pagePath = path.join(productDir, `${slug}.md`)
-    return [slug, fs.existsSync(pagePath) ? fs.readFileSync(pagePath, "utf8") : ""]
-  }),
+  [...auditedProductPages.entries()].map(([slug, product]) => [slug, product.text]),
 )
 
 const valueRows = readJsonl(valuesPath)
@@ -70,9 +169,13 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
 
   const sourceId = String(parsed.data.cite_key || path.basename(file, ".md"))
   const sourceTitle = String(parsed.data.title || firstHeading(raw) || readableSlug(sourceId))
-  const products = asStringArray(parsed.data.products)
+  const products = asProductArray(parsed.data.products)
   const declaredMetals = asStringArray(parsed.data.metals)
-  const contextOnlyProducts = new Set(asStringArray(parsed.data.context_only_products))
+  const contextOnlyProducts = new Set([
+    ...asProductArray(parsed.data.context_only_products),
+    ...asProductArray(parsed.data.context_products),
+    ...asProductArray(parsed.data.excluded_category1_rows),
+  ])
   const productMetalScope = productMetalScopeMap(parsed.data.product_metal_scope)
   const sourceProductLinks = extractProductLinks(raw)
   const routes = new Map()
@@ -99,6 +202,7 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
 
     auditRows.push({
       product_slug: productSlug,
+      product_standard_scope: auditedProductPages.get(productSlug)?.standard_scope || "not_audited",
       source_id: sourceId,
       source_page: `wiki/sources/${sourceId}.md`,
       source_title: sourceTitle,
@@ -125,22 +229,20 @@ function addProductRoute(routes, sourceId, product, basis, { contextOnlyProducts
   if (targetProducts.includes(product)) {
     if (contextOnlyProducts.has(product)) {
       upsertRoute(routes, product, {
-        route_kind: "broad_formula_context",
+        route_kind: "broad_product_context",
         route_basis: [`${basis}:${product}`],
         route_note:
-          "Source declares or links this locked product row as context only; keep out of direct standards extraction until row fit is resolved.",
+          "Source declares or links this product row as context only; keep out of direct standards extraction until row fit is resolved.",
         priority: 1,
       })
-      return
+    } else {
+      upsertRoute(routes, product, {
+        route_kind: basis === "source_link" ? "direct_product_link" : "direct_product_frontmatter",
+        route_basis: [`${basis}:${product}`],
+        route_note: "Source declares or links this exact locked/context product row.",
+        priority: 3,
+      })
     }
-
-    upsertRoute(routes, product, {
-      route_kind: basis === "source_link" ? "direct_product_link" : "direct_product_frontmatter",
-      route_basis: [`${basis}:${product}`],
-      route_note: "Source declares or links this exact locked product row.",
-      priority: 3,
-    })
-    return
   }
 
   const inherited = inheritedProductRoutes.get(product)
@@ -197,12 +299,12 @@ function actionNeeded(routeStatusValue, routeKind, missingMetals) {
   if (routeStatusValue === "source_on_page_no_structured_value") {
     return routeKind.startsWith("direct_product")
       ? "Extract product-row values if the source table is usable; otherwise document why it remains context only."
-      : "Keep visible as broad context; extract only if powder/liquid and soy/non-soy row fit can be resolved."
+      : "Keep visible as broad context; extract only if product row fit, basis, species, and statistic type can be resolved."
   }
   if (routeStatusValue === "missing_direct_product_route") {
     return "Promote this source to the product page, then decide whether structured values can be extracted."
   }
-  return "Promote as broad formula context; do not use in standards calculations until row fit is resolved."
+  return "Promote as broad product context; do not use in standards calculations until row fit is resolved."
 }
 
 function sourceAppearsOnProductPage(productPageText, sourceId) {
@@ -228,7 +330,7 @@ function extractProductLinks(text) {
 
 function stripNonEvidenceProductLinkSections(text) {
   return text.replace(
-    /\n##\s+(?:Wiki pages updated on ingest|Caveated product pages referenced on ingest)[\s\S]*?(?=\n##\s+|$)/g,
+    /\n##\s+(?:Wiki pages updated on ingest|Caveated product pages referenced on ingest)[\s\S]*?(?=\n##\s+|$)/gi,
     "\n",
   )
 }
@@ -244,6 +346,53 @@ function asStringArray(value) {
   return []
 }
 
+function asProductArray(value) {
+  return asStringArray(value).map(productSlugFromValue).filter(Boolean)
+}
+
+function productSlugFromValue(value) {
+  const text = String(value || "").trim()
+  const wikiMatch = text.match(/\[\[products\/([^|\]#]+)/)
+  if (wikiMatch) return wikiMatch[1]
+  const markdownMatch = text.match(/products\/([^)\]#]+)/)
+  if (markdownMatch) return markdownMatch[1]
+  return text
+}
+
+function readAuditedProductPages() {
+  const pages = new Map()
+  if (!fs.existsSync(productDir)) return pages
+
+  for (const file of fs.readdirSync(productDir).filter((name) => name.endsWith(".md")).sort()) {
+    const pagePath = path.join(productDir, file)
+    const text = fs.readFileSync(pagePath, "utf8")
+    const parsed = matter(text)
+    if (parsed.data.type !== "product-category") continue
+
+    const hasLockedRow = parsed.data.hmtc_category !== undefined && parsed.data.hmtc_row !== undefined
+    const variantType = String(parsed.data.variant_type || "")
+    if (!hasLockedRow && variantType !== "bridge" && variantType !== "base") continue
+
+    const slug = String(parsed.data.category || path.basename(file, ".md"))
+    pages.set(slug, {
+      text,
+      standard_scope: standardScopeForProduct(parsed.data),
+    })
+  }
+
+  return pages
+}
+
+function standardScopeForProduct(data) {
+  if (data.hmtc_category !== undefined && data.hmtc_row !== undefined) return "locked_hmtc_row"
+
+  const variantType = String(data.variant_type || "")
+  if (variantType === "bridge") return "bridge_context"
+  if (variantType === "base") return "base_context"
+
+  return "not_locked_hmtc_row"
+}
+
 function isRegulatorySource(data) {
   const sourceType = String(data.source_type || "").toLowerCase()
   if (sourceType.includes("regulation")) return true
@@ -257,7 +406,7 @@ function productMetalScopeMap(value) {
   if (!value || Array.isArray(value) || typeof value !== "object") return scoped
 
   for (const [productSlug, metals] of Object.entries(value)) {
-    scoped.set(productSlug, asStringArray(metals))
+    scoped.set(productSlugFromValue(productSlug), asStringArray(metals))
   }
 
   return scoped
@@ -287,6 +436,7 @@ function readableSlug(slug) {
 function toCsv(rows) {
   const headers = [
     "product_slug",
+    "product_standard_scope",
     "source_id",
     "source_page",
     "source_title",

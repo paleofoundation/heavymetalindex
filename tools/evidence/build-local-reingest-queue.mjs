@@ -50,6 +50,7 @@ writeCsv(outputPath, queueRows.map(publicQueueRow), [
   "queue_order",
   "priority",
   "product_slug",
+  "product_standard_scope",
   "source_id",
   "source_title",
   "route_status",
@@ -190,6 +191,7 @@ function fuzzyFindPdf(sourceId, title = "") {
 function queuePriority(row, localPdf) {
   if (localPdf.status === "missing_local_pdf") return "P3-find-local-pdf-or-web-copy"
   if (localPdf.status === "candidate_local_pdf_needs_review") return "P2-confirm-local-pdf-match"
+  if (row.product_standard_scope && row.product_standard_scope !== "locked_hmtc_row") return "P2-review-context-only-route"
   if (row.route_status === "missing_direct_product_route") return "P0-promote-direct-product-source"
   if (row.route_status === "partial_structured_values_present" && row.route_kind?.startsWith("direct_product")) {
     return "P0-extract-missing-product-values"
@@ -223,7 +225,7 @@ function guardrailsFor(row, source) {
     "local PDF first",
     "extract N, mean, median, min/low, max/high, basis, unit, product fit, analyte species",
     "do not infer p50/p90/p95 unless explicitly reported",
-    "do not pool broad formula rows into locked subcategory until row fit is resolved",
+    "do not pool broad/context rows into locked subcategory until row fit is resolved",
     "write candidate rows for review before page publication",
   ]
 
@@ -300,6 +302,7 @@ function publicQueueRow(row, index) {
     queue_order: String(index + 1),
     priority: row.priority,
     product_slug: row.product_slug,
+    product_standard_scope: row.product_standard_scope || "",
     source_id: row.source_id,
     source_title: row.source_title,
     route_status: row.route_status,

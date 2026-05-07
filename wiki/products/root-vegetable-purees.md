@@ -174,6 +174,21 @@ FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, incl
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
+<!-- BEGIN: hmi-broad-context-sources -->
+## Broad Product Context Awaiting Row-Fit Review
+
+<!-- audience: regulator, educator, app -->
+
+These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc p90 or p95 calculations unless a later extraction resolves product row fit, basis, analyte species, and statistic fit.
+
+| Source | Title | Source scope | Metals | Row-fit handling |
+| --- | --- | --- | --- | --- |
+| [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Broad product context only until row fit, basis, species, and statistic type are resolved. |
+| [[sources/fsa2016-infant-food-formula-metals-survey]] | Survey of metals in commercial infant foods, infant formula a... | infant-formula-powder; infant-formula-rtf-liquid; baby-cereals; fruit-purees | Al; Sb; tAs; iAs; Cd; Cr; Cu; I; Fe; Pb; Mn; tHg; Ni; Se; Sn; Zn | Broad product context only until row fit, basis, species, and statistic type are resolved. |
+| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Broad product context only until row fit, basis, species, and statistic type are resolved. |
+
+<!-- END: hmi-broad-context-sources -->
+
 ## Sources
 
 - [[sources/spungen2024-fda-tds-infant-lead-cadmium]]

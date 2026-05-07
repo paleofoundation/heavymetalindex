@@ -267,3 +267,7 @@ Notes: Updated the HMTc standards gap report so it reads existing formula, FDA b
 ## [2026-05-07] tooling | standards-gap-scope-labels — non-locked product rows marked context-only
 Pages affected: [[products/infant-formula-powder]], [[products/oral-electrolyte-solutions]], [[products/glucose-solutions]]
 Notes: Updated the HMTc standards gap report to label base and bridge product nodes as context-only rather than treating them as locked standards rows. This keeps infant-formula powder base context, concentrated-liquid bridge rows, oral electrolytes, and glucose solutions visible for source routing and exposure context without creating false HMTc p90 work.
+
+## [2026-05-07] tooling | product-source-routing-generalized — source-route queue expanded beyond formula
+Pages affected: [[products/category-5-beverages]], [[products/fish-containing-baby-foods]], [[products/meat-and-poultry-purees]], [[products/plant-milks-soy-based]]
+Notes: Generalized the product-source routing audit from formula-only targets to locked HMTc product rows plus base/bridge context nodes. The local reingest queue now surfaces direct and broad product-source extraction work for baby-food, juice, and plant-milk pages while de-prioritizing base/bridge context rows outside locked standards math.
