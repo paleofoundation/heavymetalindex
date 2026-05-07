@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T15:13:08.078Z",
+  "generated_at": "2026-05-07T15:19:29.310Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "occurrence_summary_files": [
@@ -24,7 +24,7 @@
   },
   "rows_with_pending_local_extracts": 0,
   "rows_with_missing_pdfs": 1,
-  "rows_with_local_candidate_values": 8,
+  "rows_with_local_candidate_values": 0,
   "rows_with_context_dispositions": 41,
   "rows_with_tds_product_route_candidates": 8
 }

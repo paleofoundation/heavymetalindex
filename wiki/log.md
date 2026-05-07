@@ -324,3 +324,7 @@ Notes: Promoted 17 Collado-Lopez 2025 detected-item median rows across 7 Categor
 ## [2026-05-07] extract | meli2024-fish-meat-table5-rows - Meli fish and meat Table 5 rows structured
 Pages affected: [[sources/meli2024-chemical-characterization-baby-food-italy]], [[products/fish-containing-baby-foods]], [[products/meat-and-poultry-purees]]
 Notes: Added the missing Meli 2024 Table 5 homogenized fish and meat Al, tAs, tHg, Ni, and Sn rows to the structured local baby-food register, and backfilled value records for all 14 fish/meat Table 5 analyte rows including existing Pb and Cd censored rows. Rows are EF-3 reviewed summaries on wet-weight basis; no p50, p90, or p95 was inferred; total arsenic remains separate from inorganic arsenic and total mercury from methylmercury.
+
+## [2026-05-07] extract | parker2022-vegetable-table4-rows — Parker vegetable baby-food rows structured
+Pages affected: [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]], [[products/root-vegetable-purees]], [[products/non-root-vegetable-purees]]
+Notes: Promoted reviewed Parker 2022 Table 4 root-vegetable and leguminous-vegetable baby-food tAs, Cd, tHg, and Pb summary rows into the structured local baby-food register and value records. Rows retain source-reported mean/median/min/max summaries after the study's ND/LLOQ substitution conventions; no p90 or p95 was inferred, total arsenic remains separate from inorganic arsenic, and total mercury remains separate from methylmercury.
