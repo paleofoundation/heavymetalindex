@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-07T11:24:20.294Z",
+  "generated_at": "2026-05-07T11:33:58.222Z",
   "product_filter": "all",
-  "source_count": 33,
+  "source_count": 31,
   "deterministic_candidate_value_count": 16,
-  "source_task_count": 29,
+  "source_task_count": 27,
   "by_source": {
     "chung2021-china-infant-formula-toxic-elements": 16
   },

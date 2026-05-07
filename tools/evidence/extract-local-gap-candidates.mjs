@@ -76,6 +76,7 @@ function deterministicExtract(queueRow, text) {
   if (queueRow.source_id === "chung2021-china-infant-formula-toxic-elements") return extractChung2021(queueRow, text)
   if (queueRow.source_id === "fsa2016-infant-food-formula-metals-survey") return extractFsa2016(queueRow, text)
   if (queueRow.source_id === "almeida2022-brazil-infant-formula-toxic-metals") return extractAlmeida2022(queueRow, text)
+  if (queueRow.source_id === "pandelova2012-eu-baby-food-formula-elements") return extractPandelova2012(queueRow, text)
   if (queueRow.source_id === "burrell2010-aluminium-in-infant-formulas") return extractBurrell2010(queueRow, text)
   if (queueRow.source_id === "chuchu2013-aluminium-in-infant-formulas") return extractChuchu2013(queueRow, text)
   if (queueRow.source_id === "dabeka1987-canada-infant-formula-lead-cadmium") return extractDabeka1987(queueRow, text)
@@ -579,6 +580,98 @@ function extractAlmeida2022(queueRow, text) {
   return rows
 }
 
+function extractPandelova2012(queueRow, text) {
+  const sourceRowsByProduct = {
+    "infant-formula-powder-non-soy": [
+      {
+        label: "EU basket starting infant formulae, milk-based (Mf)",
+        values: { Ca: "3.4", Cd: "3.3", Cu: "2.6", Fe: "47.7", tHg: "<0.5", Mn: "0.5", Ni: "<0.5", Pb: "8.2", Se: "84.7", Zn: "32.9" },
+        row_fit: "direct_non_soy_pooled_formula_basket_needs_review",
+        source_line:
+          "Pandelova 2012 Table 3 EU basket Mf: Ca 3.4 g/kg fw; Cd 3.3 ug/kg fw; Cu 2.6 mg/kg fw; Fe 47.7 mg/kg fw; Hg <0.5 ug/kg fw; Mn 0.5 mg/kg fw; Ni <0.5 mg/kg fw; Pb 8.2 ug/kg fw; Se 84.7 ug/kg fw; Zn 32.9 mg/kg fw.",
+      },
+      {
+        label: "EU basket follow-on infant formulae, milk-based (fMf)",
+        values: { Ca: "5.5", Cd: "4.5", Cu: "3.9", Fe: "69.1", tHg: "113", Mn: "0.6", Ni: "0.1", Pb: "43.9", Se: "510", Zn: "46.5" },
+        row_fit: "direct_non_soy_pooled_formula_basket_needs_review",
+        source_line:
+          "Pandelova 2012 Table 3 EU basket fMf: Ca 5.5 g/kg fw; Cd 4.5 ug/kg fw; Cu 3.9 mg/kg fw; Fe 69.1 mg/kg fw; Hg 113 ug/kg fw; Mn 0.6 mg/kg fw; Ni 0.1 mg/kg fw; Pb 43.9 ug/kg fw; Se 510 ug/kg fw; Zn 46.5 mg/kg fw.",
+      },
+    ],
+    "infant-formula-powder-soy-based": [
+      {
+        label: "EU basket starting infant formulae, soy-based (Sf)",
+        values: { Ca: "4.8", Cd: "15.8", Cu: "3.3", Fe: "70.4", tHg: "<0.5", Mn: "3.3", Ni: "<0.5", Pb: "30.5", Se: "120", Zn: "41.6" },
+        row_fit: "direct_soy_pooled_formula_basket_needs_review",
+        source_line:
+          "Pandelova 2012 Table 3 EU basket Sf: Ca 4.8 g/kg fw; Cd 15.8 ug/kg fw; Cu 3.3 mg/kg fw; Fe 70.4 mg/kg fw; Hg <0.5 ug/kg fw; Mn 3.3 mg/kg fw; Ni <0.5 mg/kg fw; Pb 30.5 ug/kg fw; Se 120 ug/kg fw; Zn 41.6 mg/kg fw.",
+      },
+      {
+        label: "EU basket follow-on infant formulae, soy-based (fSf)",
+        values: { Ca: "4.8", Cd: "18.3", Cu: "3.2", Fe: "67.3", tHg: "29.3", Mn: "3.3", Ni: "1.3", Pb: "20.1", Se: "222", Zn: "47.7" },
+        row_fit: "direct_soy_pooled_formula_basket_needs_review",
+        source_line:
+          "Pandelova 2012 Table 3 EU basket fSf: Ca 4.8 g/kg fw; Cd 18.3 ug/kg fw; Cu 3.2 mg/kg fw; Fe 67.3 mg/kg fw; Hg 29.3 ug/kg fw; Mn 3.3 mg/kg fw; Ni 1.3 mg/kg fw; Pb 20.1 ug/kg fw; Se 222 ug/kg fw; Zn 47.7 mg/kg fw.",
+      },
+    ],
+  }
+  const sourceRows = sourceRowsByProduct[queueRow.product_slug]
+  if (!sourceRows) return []
+  if (!text.includes("Concentration levels of Cd, Fe, Pb, Se, Hg, Cu, Ni, Zn, Ca, Mn in infant formulae")) return []
+
+  const units = {
+    Ca: { source_unit: "g/kg fw", multiplier: 1000000 },
+    Cd: { source_unit: "ug/kg fw", multiplier: 1 },
+    Cu: { source_unit: "mg/kg fw", multiplier: 1000 },
+    Fe: { source_unit: "mg/kg fw", multiplier: 1000 },
+    tHg: { source_unit: "ug/kg fw", multiplier: 1 },
+    Mn: { source_unit: "mg/kg fw", multiplier: 1000 },
+    Ni: { source_unit: "mg/kg fw", multiplier: 1000 },
+    Pb: { source_unit: "ug/kg fw", multiplier: 1 },
+    Se: { source_unit: "ug/kg fw", multiplier: 1 },
+    Zn: { source_unit: "mg/kg fw", multiplier: 1000 },
+  }
+  const metals = ["Cd", "tHg", "Ni", "Pb", "Ca", "Cu", "Fe", "Mn", "Se", "Zn"]
+  const rows = []
+
+  for (const [sourceIndex, sourceRow] of sourceRows.entries()) {
+    for (const [metalIndex, metal] of metals.entries()) {
+      const parsed = parsePandelovaValue(sourceRow.values[metal], units[metal])
+      rows.push(
+        candidateRow(queueRow, {
+          candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${slugify(sourceRow.label)}-${metal}`,
+          metal_species: metal,
+          source_product_label: sourceRow.label,
+          basis: "as_sold",
+          n: "",
+          n_text:
+            "Table 3 reports pooled EU formula-basket values; the study reports 42 infant-formula products pooled into milk-based, soy-based, and hypoallergenic starting/follow-on baskets.",
+          statistic_type: parsed.statistic_type,
+          mean_ppb: parsed.mean_ppb,
+          censoring_status: parsed.censoring_status,
+          censoring_limit_ppb: parsed.censoring_limit_ppb,
+          row_fit: sourceRow.row_fit,
+          extraction_method: "deterministic_parser_pandelova2012_table3_formula_baskets",
+          quote_trace: `${sourceRow.source_line} Formula samples were reported per fresh-weight powder; units were verified against the rendered PDF page image.`,
+          notes: compact(
+            [
+              "Deterministic parse of Pandelova 2012 Table 3 EU pooled formula baskets.",
+              `Source unit ${parsed.source_unit} normalized to ppb using deterministic unit conversion.`,
+              "Pooled market-basket values are source means, not individual-product distributions.",
+              "No p50, p90, or p95 is reported or inferred.",
+              metal === "tHg" ? "Source reports total mercury as Hg; it is not methylmercury." : "",
+              parsed.note,
+            ].join(" "),
+          ),
+          source_row_order: String(sourceIndex * metals.length + metalIndex + 1),
+        }),
+      )
+    }
+  }
+
+  return rows
+}
+
 function candidateRow(queueRow, values) {
   return {
     candidate_id: values.candidate_id,
@@ -646,6 +739,30 @@ function parseFsaValue(raw) {
     mean_ub_ppb: "",
     censoring_status: approx ? "approximate" : "",
     note: approx ? "Source value is marked approximate." : "",
+  }
+}
+
+function parsePandelovaValue(raw, unitInfo) {
+  const sourceUnit = unitInfo.source_unit
+  const multiplier = unitInfo.multiplier
+  const value = String(raw).trim()
+  if (value.startsWith("<")) {
+    return {
+      statistic_type: "source_reported_censored_pooled_basket_mean",
+      mean_ppb: "",
+      censoring_status: "less_than",
+      censoring_limit_ppb: String(round(Number(value.slice(1)) * multiplier)),
+      source_unit: sourceUnit,
+      note: `${value} ${sourceUnit} retained as a censored source-table value.`,
+    }
+  }
+  return {
+    statistic_type: "source_reported_pooled_basket_mean",
+    mean_ppb: String(round(Number(value) * multiplier)),
+    censoring_status: "",
+    censoring_limit_ppb: "",
+    source_unit: sourceUnit,
+    note: "",
   }
 }
 
