@@ -235,3 +235,7 @@ Notes: Added deterministic Table 3 extraction for the EU pooled formula baskets 
 ## [2026-05-07] audit | source-route-link-scope — bookkeeping links excluded from direct evidence routing
 Pages affected: [[methodology/persistent-wiki-ingest-rule]]
 Notes: Hardened the product-source routing audit so product links inside source-page "Wiki pages updated on ingest" bookkeeping sections no longer create direct evidence routes. The refreshed local reingest queue drops from 57 to 54 rows, P0 rows drop from 31 to 11, and deterministic local candidates drop from 16 Chung broad-formula candidates to 0. Broad formula sources remain visible through broad-context queue rows instead of being silently dropped or falsely promoted into locked powder/ready-to-feed rows.
+
+## [2026-05-07] audit | chekri2019-route-fit — French TDS formula route corrected to broad context
+Pages affected: [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
+Notes: Corrected the Chekri 2019 source metadata so the French TDS formula evidence is declared as broad `infant-formula` context rather than exact locked powder or ready-to-feed formula rows. The source table reports infant formulae, follow-on formulae, and growing-up milks as consumed, but it does not separate powder from ready-to-feed liquid or soy from non-soy. The product links remain as caveated prior-ingest references; direct standards extraction remains blocked until row fit can be resolved.
