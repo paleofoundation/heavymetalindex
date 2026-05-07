@@ -319,47 +319,47 @@ function extractFsa2016(queueRow, text) {
     {
       label: "First milk & hungrier milk (from birth)",
       row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["388-488", "1-3", "0.7-1.8", "3-4", "15-35", "1-4", "0-1", "18-54", "0-23"],
+      values: ["388-488", "0-5", "1-3", "0.7-1.8", "3-4", "15-35", "3007", "948", "42363", "1-4", "593", "0-1", "18-54", "107", "0-23", "40388"],
       source_line:
-        "First milk & hungrier milk (from birth): Al 388-488; As 1-3; iAs 0.7-1.8; Cd 3-4; Cr 15-35; Pb 1-4; Hg 0-1; Ni 18-54; Sn 0-23 ug/kg.",
+        "First milk & hungrier milk (from birth): Al 388-488; Sb 0-5; As 1-3; iAs 0.7-1.8; Cd 3-4; Cr 15-35; Cu 3007; I 948; Fe 42363; Pb 1-4; Mn 593; Hg 0-1; Ni 18-54; Se 107; Sn 0-23; Zn 40388 ug/kg.",
     },
     {
       label: "Comfort (from birth)",
       row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["767", "1-3", "0.9-1.9", "0-2", "37-73", "0-5", "0-1", "0-40", "0-24"],
+      values: ["767", "0-5", "1-3", "0.9-1.9", "0-2", "37-73", "2967", "753", "46600", "0-5", "603", "0-1", "0-40", "173", "0-24", "42800"],
       source_line:
-        "Comfort (from birth): Al 767; As 1-3; iAs 0.9-1.9; Cd 0-2; Cr 37-73; Pb 0-5; Hg 0-1; Ni 0-40; Sn 0-24 ug/kg.",
+        "Comfort (from birth): Al 767; Sb 0-5; As 1-3; iAs 0.9-1.9; Cd 0-2; Cr 37-73; Cu 2967; I 753; Fe 46600; Pb 0-5; Mn 603; Hg 0-1; Ni 0-40; Se 173; Sn 0-24; Zn 42800 ug/kg.",
     },
     {
       label: "Follow on milk (from 6 months)",
       row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["400-450", "1-3", "0.9-2", "3", "0-25", "0-3", "0-1", "0-40", "0-22"],
+      values: ["400-450", "0-5", "1-3", "0.9-2", "3", "0-25", "2855", "913", "72475", "0-3", "615", "0-1", "0-40", "93", "0-22", "44500"],
       source_line:
-        "Follow on milk (from 6 months): Al 400-450; As 1-3; iAs 0.9-2; Cd 3; Cr 0-25; Pb 0-3; Hg 0-1; Ni 0-40; Sn 0-22 ug/kg.",
+        "Follow on milk (from 6 months): Al 400-450; Sb 0-5; As 1-3; iAs 0.9-2; Cd 3; Cr 0-25; Cu 2855; I 913; Fe 72475; Pb 0-3; Mn 615; Hg 0-1; Ni 0-40; Se 93; Sn 0-22; Zn 44500 ug/kg.",
     },
     {
       label: "Growing up milk (12 months +)",
       row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["650", "2-3", "1.4-2.3", "3-4", "0-40", "0-4", "0-1", "0-40", "0-22"],
+      values: ["650", "5-9", "2-3", "1.4-2.3", "3-4", "0-40", "3195", "1150", "83950", "0-4", "580", "0-1", "0-40", "105", "0-22", "60300"],
       source_line:
-        "Growing up milk (12 months +): Al 650; As 2-3; iAs 1.4-2.3; Cd 3-4; Cr 0-40; Pb 0-4; Hg 0-1; Ni 0-40; Sn 0-22 ug/kg.",
+        "Growing up milk (12 months +): Al 650; Sb 5-9; As 2-3; iAs 1.4-2.3; Cd 3-4; Cr 0-40; Cu 3195; I 1150; Fe 83950; Pb 0-4; Mn 580; Hg 0-1; Ni 0-40; Se 105; Sn 0-22; Zn 60300 ug/kg.",
     },
     {
       label: "Goat based (from birth and growing up)",
       row_fit: "non_soy_goat_formula_subtype_needs_review",
-      values: ["950", "9", "6-6.3", "0-2", "40-45", "6.5", "0-1", "0-45", "0-35"],
+      values: ["950", "0-5", "9", "6-6.3", "0-2", "40-45", "4220", "960", "71900", "6.5", "800", "0-1", "0-45", "137", "0-35", "47000"],
       source_line:
-        "Goat based (from birth and growing up): Al 950; As 9; iAs 6-6.3; Cd 0-2; Cr 40-45; Pb 6.5; Hg 0-1; Ni 0-45; Sn 0-35 ug/kg.",
+        "Goat based (from birth and growing up): Al 950; Sb 0-5; As 9; iAs 6-6.3; Cd 0-2; Cr 40-45; Cu 4220; I 960; Fe 71900; Pb 6.5; Mn 800; Hg 0-1; Ni 0-45; Se 137; Sn 0-35; Zn 47000 ug/kg.",
     },
     {
       label: "Organic milk",
       row_fit: "direct_non_soy_dry_formula_subtype_needs_review",
-      values: ["1000", "14", "~7", "8", "~30", "~3", "<1", "<40", "~40"],
+      values: ["1000", "<5", "14", "~7", "8", "~30", "3740", "1030", "47500", "~3", "2470", "<1", "<40", "79", "~40", "49400"],
       source_line:
-        "Organic milk: Al 1000; As 14; iAs ~7; Cd 8; Cr ~30; Pb ~3; Hg <1; Ni <40; Sn ~40 ug/kg.",
+        "Organic milk: Al 1000; Sb <5; As 14; iAs ~7; Cd 8; Cr ~30; Cu 3740; I 1030; Fe 47500; Pb ~3; Mn 2470; Hg <1; Ni <40; Se 79; Sn ~40; Zn 49400 ug/kg.",
     },
   ]
-  const metals = ["Al", "tAs", "iAs", "Cd", "Cr-total", "Pb", "tHg", "Ni", "Sn"]
+  const metals = ["Al", "Sb", "tAs", "iAs", "Cd", "Cr-total", "Cu", "I", "Fe", "Pb", "Mn", "tHg", "Ni", "Se", "Sn", "Zn"]
   const footnote =
     "Table 2 dry infant formula; samples analysed as sold and not reconstituted. Values are lower-bound to upper-bound means where ranges are shown; iAs may include source-estimated values using 70% of tAs."
   const rows = []
@@ -411,53 +411,53 @@ function extractAlmeida2022(queueRow, text) {
   const formulaRows = [
     {
       label: "ME1",
-      values: { Al: "0.724", tAs: "0.016", Cd: "0.004", Sn: "0.007", tHg: "<LOQ", Pb: "<LOD" },
-      source_line: "ME1: Al 0.724; As 0.016; Cd 0.004; Sn 0.007; Hg <LOQ; Pb <LOD mg/kg.",
+      values: { Al: "0.724", tAs: "0.016", Cd: "0.004", Sn: "0.007", tHg: "<LOQ", Pb: "<LOD", U: "0.005" },
+      source_line: "ME1: Al 0.724; As 0.016; Cd 0.004; Sn 0.007; Hg <LOQ; Pb <LOD; U 0.005 mg/kg.",
     },
     {
       label: "NC1",
-      values: { Al: "0.459", tAs: "<LOQ", Cd: "0.005", Sn: "0.081", tHg: "<LOQ", Pb: "<LOD" },
-      source_line: "NC1: Al 0.459; As <LOQ; Cd 0.005; Sn 0.081; Hg <LOQ; Pb <LOD mg/kg.",
+      values: { Al: "0.459", tAs: "<LOQ", Cd: "0.005", Sn: "0.081", tHg: "<LOQ", Pb: "<LOD", U: "<LOD" },
+      source_line: "NC1: Al 0.459; As <LOQ; Cd 0.005; Sn 0.081; Hg <LOQ; Pb <LOD; U <LOD mg/kg.",
     },
     {
       label: "NN1",
-      values: { Al: "0.504", tAs: "<LOQ", Cd: "0.004", Sn: "0.054", tHg: "<LOQ", Pb: "0.036" },
-      source_line: "NN1: Al 0.504; As <LOQ; Cd 0.004; Sn 0.054; Hg <LOQ; Pb 0.036 mg/kg.",
+      values: { Al: "0.504", tAs: "<LOQ", Cd: "0.004", Sn: "0.054", tHg: "<LOQ", Pb: "0.036", U: "<LOD" },
+      source_line: "NN1: Al 0.504; As <LOQ; Cd 0.004; Sn 0.054; Hg <LOQ; Pb 0.036; U <LOD mg/kg.",
     },
     {
       label: "DM1",
-      values: { Al: "0.432", tAs: "0.031", Cd: "0.005", Sn: "0.068", tHg: "<LOD", Pb: "0.016" },
-      source_line: "DM1: Al 0.432; As 0.031; Cd 0.005; Sn 0.068; Hg <LOD; Pb 0.016 mg/kg.",
+      values: { Al: "0.432", tAs: "0.031", Cd: "0.005", Sn: "0.068", tHg: "<LOD", Pb: "0.016", U: "0.009" },
+      source_line: "DM1: Al 0.432; As 0.031; Cd 0.005; Sn 0.068; Hg <LOD; Pb 0.016; U 0.009 mg/kg.",
     },
     {
       label: "DA1",
-      values: { Al: "0.746", tAs: "0.020", Cd: "0.005", Sn: "0.040", tHg: "<LOD", Pb: "<LOD" },
-      source_line: "DA1: Al 0.746; As 0.020; Cd 0.005; Sn 0.040; Hg <LOD; Pb <LOD mg/kg.",
+      values: { Al: "0.746", tAs: "0.020", Cd: "0.005", Sn: "0.040", tHg: "<LOD", Pb: "<LOD", U: "0.011" },
+      source_line: "DA1: Al 0.746; As 0.020; Cd 0.005; Sn 0.040; Hg <LOD; Pb <LOD; U 0.011 mg/kg.",
     },
     {
       label: "ME2",
-      values: { Al: "0.673", tAs: "0.021", Cd: "<LOQ", Sn: "0.010", tHg: "<LOD", Pb: "0.023" },
-      source_line: "ME2: Al 0.673; As 0.021; Cd <LOQ; Sn 0.010; Hg <LOD; Pb 0.023 mg/kg.",
+      values: { Al: "0.673", tAs: "0.021", Cd: "<LOQ", Sn: "0.010", tHg: "<LOD", Pb: "0.023", U: "0.007" },
+      source_line: "ME2: Al 0.673; As 0.021; Cd <LOQ; Sn 0.010; Hg <LOD; Pb 0.023; U 0.007 mg/kg.",
     },
     {
       label: "NC2",
-      values: { Al: "0.942", tAs: "0.012", Cd: "0.008", Sn: "0.095", tHg: "<LOD", Pb: "0.011" },
-      source_line: "NC2: Al 0.942; As 0.012; Cd 0.008; Sn 0.095; Hg <LOD; Pb 0.011 mg/kg.",
+      values: { Al: "0.942", tAs: "0.012", Cd: "0.008", Sn: "0.095", tHg: "<LOD", Pb: "0.011", U: "0.003" },
+      source_line: "NC2: Al 0.942; As 0.012; Cd 0.008; Sn 0.095; Hg <LOD; Pb 0.011; U 0.003 mg/kg.",
     },
     {
       label: "NN2",
-      values: { Al: "0.494", tAs: "0.015", Cd: "0.004", Sn: "0.075", tHg: "<LOD", Pb: "<LOD" },
-      source_line: "NN2: Al 0.494; As 0.015; Cd 0.004; Sn 0.075; Hg <LOD; Pb <LOD mg/kg.",
+      values: { Al: "0.494", tAs: "0.015", Cd: "0.004", Sn: "0.075", tHg: "<LOD", Pb: "<LOD", U: "0.002" },
+      source_line: "NN2: Al 0.494; As 0.015; Cd 0.004; Sn 0.075; Hg <LOD; Pb <LOD; U 0.002 mg/kg.",
     },
     {
       label: "DM2",
-      values: { Al: "<LOQ", tAs: "0.034", Cd: "0.004", Sn: "0.033", tHg: "<LOD", Pb: "<LOD" },
-      source_line: "DM2: Al <LOQ; As 0.034; Cd 0.004; Sn 0.033; Hg <LOD; Pb <LOD mg/kg.",
+      values: { Al: "<LOQ", tAs: "0.034", Cd: "0.004", Sn: "0.033", tHg: "<LOD", Pb: "<LOD", U: "0.009" },
+      source_line: "DM2: Al <LOQ; As 0.034; Cd 0.004; Sn 0.033; Hg <LOD; Pb <LOD; U 0.009 mg/kg.",
     },
     {
       label: "DA2",
-      values: { Al: "1.241", tAs: "0.024", Cd: "0.004", Sn: "0.035", tHg: "<LOD", Pb: "<LOD" },
-      source_line: "DA2: Al 1.241; As 0.024; Cd 0.004; Sn 0.035; Hg <LOD; Pb <LOD mg/kg.",
+      values: { Al: "1.241", tAs: "0.024", Cd: "0.004", Sn: "0.035", tHg: "<LOD", Pb: "<LOD", U: "0.016" },
+      source_line: "DA2: Al 1.241; As 0.024; Cd 0.004; Sn 0.035; Hg <LOD; Pb <LOD; U 0.016 mg/kg.",
     },
   ]
   const limitsMgKg = {
@@ -467,9 +467,10 @@ function extractAlmeida2022(queueRow, text) {
     Sn: { LOQ: 0.005 },
     tHg: { LOD: 0.003, LOQ: 0.011 },
     Pb: { LOD: 0.003, LOQ: 0.010 },
+    U: { LOD: 0.0004, LOQ: 0.001 },
   }
   const tableNote =
-    "Almeida 2022 Table 3. Data are formula means from three batches per brand; samples analyzed in quintuplicate; N = 150 analytical determinations. LOQ mg/kg: Al 0.430, As 0.011, Cd 0.002, Sn 0.005, Hg 0.011, Pb 0.010. LOD mg/kg: Hg 0.003, Pb 0.003."
+    "Almeida 2022 Table 3. Data are formula means from three batches per brand; samples analyzed in quintuplicate; N = 150 analytical determinations. LOQ mg/kg: Al 0.430, As 0.011, Cd 0.002, Sn 0.005, Hg 0.011, Pb 0.010, U 0.001. LOD mg/kg: Hg 0.003, Pb 0.003, U 0.0004."
   const rows = []
 
   for (const [formulaIndex, formula] of formulaRows.entries()) {
@@ -496,6 +497,7 @@ function extractAlmeida2022(queueRow, text) {
               "Source excludes soy, wheat, lactose-free, hydrolyzed, and special-needs formulas.",
               "No p90/p95 is reported or inferred.",
               metal === "tAs" ? "Source reports As; retained as total/unspecified arsenic candidate, not iAs." : "",
+              metal === "U" ? "Source reports uranium; retained as uranium and not pooled with other metals." : "",
               parsed.note,
             ].join(" "),
           ),
@@ -635,7 +637,7 @@ Return JSON with this shape:
   "candidate_values": [
     {
       "source_product_label": "",
-      "metal_species": "Pb|Cd|tAs|iAs|tHg|MeHg|Al|Ni|Sn|Cr-total|Cr-VI",
+      "metal_species": "Pb|Cd|tAs|iAs|tHg|MeHg|Al|Ni|Sn|Cr-total|Cr-VI|Sb|Cu|I|Fe|Mn|Se|Zn|U",
       "basis": "as_sold|prepared_for_feeding|as_consumed|as_sold_or_source_reported|not_reported",
       "n": "",
       "n_text": "",
