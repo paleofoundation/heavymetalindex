@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T11:41:22.385Z",
+  "generated_at": "2026-05-07T11:48:22.923Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "total_gap_rows": 172,
@@ -10,6 +10,6 @@
     "BLOCKED: species-specific evidence missing": 2,
     "BLOCKED: evidence fitness review needed": 9
   },
-  "rows_with_pending_local_extracts": 18,
+  "rows_with_pending_local_extracts": 0,
   "rows_with_missing_pdfs": 0
 }

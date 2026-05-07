@@ -70,15 +70,17 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
   const sourceTitle = String(parsed.data.title || firstHeading(raw) || readableSlug(sourceId))
   const products = asStringArray(parsed.data.products)
   const declaredMetals = asStringArray(parsed.data.metals)
+  const contextOnlyProducts = new Set(asStringArray(parsed.data.context_only_products))
+  const productMetalScope = productMetalScopeMap(parsed.data.product_metal_scope)
   const sourceProductLinks = extractProductLinks(raw)
   const routes = new Map()
 
   for (const product of products) {
-    addProductRoute(routes, sourceId, product, "frontmatter")
+    addProductRoute(routes, sourceId, product, "frontmatter", { contextOnlyProducts })
   }
 
   for (const product of sourceProductLinks) {
-    addProductRoute(routes, sourceId, product, "source_link")
+    addProductRoute(routes, sourceId, product, "source_link", { contextOnlyProducts })
   }
 
   for (const [productSlug, route] of [...routes.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
@@ -89,7 +91,8 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
     const structuredMetals = [...new Set(valueRowsForRoute.map((row) => row.metal_species).filter(Boolean))]
       .sort()
     const structuredMetalKeys = new Set(structuredMetals.map(canonicalMetal).filter(Boolean))
-    const missingMetals = declaredMetals.filter((metal) => !structuredMetalKeys.has(canonicalMetal(metal)))
+    const routeDeclaredMetals = productMetalScope.get(productSlug) ?? declaredMetals
+    const missingMetals = routeDeclaredMetals.filter((metal) => !structuredMetalKeys.has(canonicalMetal(metal)))
     const route_status = routeStatus(route.route_kind, product_page_cites_source, value_record_count, missingMetals)
 
     auditRows.push({
@@ -102,7 +105,7 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
       route_basis: [...route.route_basis].sort().join(";"),
       route_status,
       value_record_count,
-      declared_metal_species: declaredMetals.join(";"),
+      declared_metal_species: routeDeclaredMetals.join(";"),
       metal_species: structuredMetals.join(";"),
       missing_metal_species: missingMetals.join(";"),
       product_page_cites_source: product_page_cites_source ? "true" : "false",
@@ -116,8 +119,19 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
 fs.writeFileSync(outputPath, toCsv(auditRows), "utf8")
 console.log(`Wrote ${auditRows.length} product source routing rows to ${outputPath}`)
 
-function addProductRoute(routes, sourceId, product, basis) {
+function addProductRoute(routes, sourceId, product, basis, { contextOnlyProducts = new Set() } = {}) {
   if (targetProducts.includes(product)) {
+    if (contextOnlyProducts.has(product)) {
+      upsertRoute(routes, product, {
+        route_kind: "broad_formula_context",
+        route_basis: [`${basis}:${product}`],
+        route_note:
+          "Source declares or links this locked product row as context only; keep out of direct standards extraction until row fit is resolved.",
+        priority: 1,
+      })
+      return
+    }
+
     upsertRoute(routes, product, {
       route_kind: basis === "source_link" ? "direct_product_link" : "direct_product_frontmatter",
       route_basis: [`${basis}:${product}`],
@@ -226,6 +240,17 @@ function asStringArray(value) {
       .filter(Boolean)
   }
   return []
+}
+
+function productMetalScopeMap(value) {
+  const scoped = new Map()
+  if (!value || Array.isArray(value) || typeof value !== "object") return scoped
+
+  for (const [productSlug, metals] of Object.entries(value)) {
+    scoped.set(productSlug, asStringArray(metals))
+  }
+
+  return scoped
 }
 
 function readJsonl(filePath) {

@@ -12,13 +12,8 @@ evidence_tier: A
 raw_path: raw/markdown/FM_9439980_Essential_and_Non-essential_Trace_Elements_in_Milks_and_Plan/FM_9439980_Essential_and_Non-essential_Trace_Elements_in_Milks_and_Plan.md
 metals: [Pb, tHg, Ni, U]
 ingredients: [plant-milk, soy, almond, rice, oat, whole-milk, goat-milk]
-products:
-  [
-    plant-milks-soy-based,
-    plant-milks-rice-based,
-    plant-milks-non-soy-non-rice,
-    infant-formula-powder-non-soy,
-  ]
+products: [plant-milks-soy-based, plant-milks-rice-based, plant-milks-non-soy-non-rice, infant-formula]
+context_only_products: [infant-formula-powder-non-soy]
 jurisdictions: [EU, Spain]
 updated: 2026-05-01
 ---
@@ -52,7 +47,7 @@ This A-tier peer-reviewed paper is useful Category 5 beverage context because it
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
 | Soy, rice, almond, and oat drinks  | [[products/plant-milks-soy-based]], [[products/plant-milks-rice-based]], [[products/plant-milks-non-soy-non-rice]] | Finished-product occurrence context. Do not write these values into ingredient profiles.            |
 | Non-organic oat drink Pb detection | [[products/plant-milks-non-soy-non-rice]]                                                                          | Comparison-blocked until the source table is reviewed against the PDF/table image.                  |
-| Infant/follow-on formula rows      | [[products/infant-formula-powder-non-soy]]                                                                         | Context only; the formula preparation basis differs from the FDA formula workbook already promoted. |
+| Infant/follow-on formula rows      | [[products/infant-formula]]                                                                                        | Context only; the formula preparation basis differs from the FDA formula workbook already promoted. |
 
 ## Limitations
 
