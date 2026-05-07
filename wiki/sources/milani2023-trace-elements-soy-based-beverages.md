@@ -14,7 +14,7 @@ metals: [Al, tAs, Cd, Cr, Ni, Pb, Sb, Sn]
 ingredients: [plant-milk, soy]
 products: [plant-milks-soy-based]
 jurisdictions: [Brazil, MERCOSUR, EU]
-updated: 2026-05-01
+updated: 2026-05-07
 ---
 
 # Milani 2023 - Trace Elements In Soy-Based Beverages
@@ -30,8 +30,10 @@ This A-tier peer-reviewed paper is the first promoted Category 5 occurrence sour
 | Al          | Mean 758 ug/L in isolate-protein beverages, 609 ug/L in hydrosoluble-extract beverages, and 176 ug/L in soybean beverages; ranges 137-1822, 92-1375, and 45-356 ug/L | Finished-product occurrence evidence for [[products/plant-milks-soy-based]]                               |
 | tAs         | <38.2 ug/L across all three soy-source groups                                                                                                                        | Total arsenic only; do not treat as iAs                                                                   |
 | Cd          | <3.8 ug/L across all three soy-source groups                                                                                                                         | Occurrence context; no exact loaded product-specific regulation in the wiki yet                           |
+| Cr          | 1.8 (<10.9-11.0) ug/L in isolate-protein beverages; <10.9 ug/L in hydrosoluble-extract and soybean beverages                                                         | Total/unspecified chromium only; do not treat as Cr-VI                                                    |
 | Ni          | <25.7 ug/L in isolate-protein beverages, 4.9 (<25.7-29.4) ug/L in hydrosoluble-extract beverages, and 29 (<25.7-46) ug/L in soybean beverages                        | Occurrence context for the soy row                                                                        |
 | Pb          | <10.9 ug/L in isolate-protein and hydrosoluble-extract beverages; 2.2 (<10.9-13) ug/L in soybean beverages                                                           | Occurrence context; source-cited Brazilian/MERCOSUR threshold comparison needs direct legal-source review |
+| Sb          | 6.2 (<10.3-24) ug/L in isolate-protein beverages, 2.5 (<10.3-15) ug/L in hydrosoluble-extract beverages, and 12 (<10.3-61) ug/L in soybean beverages                  | Occurrence context; censored lower range bounds retained as reported                                      |
 | Sn          | 4.3 (<18-26) ug/L in isolate-protein beverages; <18 ug/L in the other groups                                                                                         | Occurrence context                                                                                        |
 | Al exposure | One 200 mL serving contributed up to 3.5% of Al PTWI for children and 0.9% for adults                                                                                | Risk context, not an HMTc threshold                                                                       |
 
