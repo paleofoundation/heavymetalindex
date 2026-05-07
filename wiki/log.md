@@ -291,3 +291,7 @@ Notes: Added a local context-disposition register so source/product/metal routes
 ## [2026-05-07] tooling | ingest-results-context-dispositions — result viewer shows disposition state
 Pages affected: [[methodology/persistent-wiki-ingest-rule]]
 Notes: Updated the local ingest results viewer and evidence README so candidate rows, context dispositions, standards rows with candidate values, and standards rows with context-only dispositions are visible in one command. The overview now ranks local candidate-review and documented context-only blockers with other actionable ingest blockers instead of burying them below lower-priority states.
+
+## [2026-05-07] tooling | standards-action-queue — gap statuses collapsed into next actions
+Pages affected: [[methodology/persistent-wiki-ingest-rule]]
+Notes: Added a generated HMTc standards action queue that turns the standards gap report into product/status action rows with priorities, sources, metals, guardrails, and suggested inspection commands. The result viewer now shows the action queue directly, reducing manual CSV triage while keeping candidate rows non-public and preserving the no-inferred-percentile guardrail.
