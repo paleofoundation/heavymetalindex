@@ -104,7 +104,13 @@ function toSummaryRow(row) {
 }
 
 function isPromotableCandidate(row) {
-  return String(row.row_fit || "") === "direct_category1_row"
+  if (String(row.row_fit || "") === "direct_category1_row") return true
+
+  const method = String(row.extraction_method || "")
+  return (
+    method === "deterministic_parser_almeida2022_table3_formula_means" ||
+    method === "deterministic_parser_fsa2016_table2_dry_formula"
+  )
 }
 
 function toValueRecord(row) {

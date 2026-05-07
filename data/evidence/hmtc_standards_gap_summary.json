@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-07T11:08:26.220Z",
+  "generated_at": "2026-05-07T11:18:17.007Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
-  "total_gap_rows": 144,
+  "total_gap_rows": 152,
   "by_aggregate_status": {
     "BLOCKED: no structured evidence loaded": 99,
     "DO NOT PUBLISH P90: single distribution-capable source": 28,
-    "BLOCKED: summary evidence only": 9,
+    "BLOCKED: summary evidence only": 16,
     "BLOCKED: species-specific evidence missing": 4,
-    "BLOCKED: evidence fitness review needed": 1,
+    "BLOCKED: evidence fitness review needed": 2,
     "BLOCKED: local extraction pending": 3
   },
-  "rows_with_pending_local_extracts": 29,
+  "rows_with_pending_local_extracts": 36,
   "rows_with_missing_pdfs": 0
 }
