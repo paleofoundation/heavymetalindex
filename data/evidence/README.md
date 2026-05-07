@@ -33,6 +33,13 @@ and Category 1 pilot coverage registers.
   preserve source/TDS p10-p95 summaries where available, keep total arsenic
   separate from inorganic arsenic, and remain single-source or small-N context
   until HMTc aggregate review.
+- `category5_apple_juice_arsenic_speciation_samples.csv`: FDA 2011
+  single-strength apple-juice arsenic speciation sample rows, preserving total
+  arsenic, inorganic arsenic, DMA, MMA, and trace/zero handling.
+- `category5_apple_juice_arsenic_speciation_summary.csv`: generated lower-bound
+  inorganic-arsenic p10/p50/p90/p95/p100 rows routed to the apple-containing
+  juice row and the broader not-canned fruit-juice context row. FDA Trace (TR)
+  values are treated as 0 ppb only for the documented lower-bound calculation.
 - `category1_formula_concentration_summary.csv`: formula concentration
   summary rows from the FDA FY2023-FY2025 special survey and promoted Digest
   formula papers.
@@ -86,6 +93,8 @@ and Category 1 pilot coverage registers.
   and draft source page candidates.
 - `npm run evidence:tds-routes`: rebuilds the FDA TDS product-route candidate
   report used by standards gap triage.
+- `npm run evidence:juice-speciation`: rebuilds the FDA 2011 apple-juice
+  arsenic speciation summary and value records from the checked sample extract.
 - `npm run evidence:standards-actions`: rebuilds the HMTc standards action
   queue from the current standards gap report.
 
