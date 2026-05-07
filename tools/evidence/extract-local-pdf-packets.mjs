@@ -1,6 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { spawnSync } from "node:child_process"
+import { writeStableJsonSummary } from "./stable-json-summary.mjs"
 
 const repoRoot = process.cwd()
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
@@ -77,7 +78,7 @@ const summary = {
   by_extraction_status: countBy(manifestRows, (row) => row.extraction_status),
 }
 const summaryPath = path.join(packetRoot, productFilter ? `${productFilter}_packet_summary.json` : "packet_summary.json")
-fs.writeFileSync(summaryPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8")
+writeStableJsonSummary(summaryPath, summary)
 
 console.log(`Wrote ${manifestRows.length} local PDF packet rows to ${path.relative(repoRoot, manifestPath)}`)
 console.log(`Wrote local PDF packet summary to ${path.relative(repoRoot, summaryPath)}`)

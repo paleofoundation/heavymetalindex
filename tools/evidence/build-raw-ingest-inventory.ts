@@ -190,6 +190,35 @@ function csvEscape(value: string | number): string {
   return stringValue
 }
 
+function writeStableJsonSummary(filePath: string, summary: Record<string, unknown>): void {
+  const nextSummary = { ...summary }
+
+  if (existsSync(filePath)) {
+    try {
+      const previousSummary = JSON.parse(readFileSync(filePath, "utf8")) as Record<string, unknown>
+      if (sameExceptGeneratedAt(previousSummary, nextSummary)) {
+        nextSummary.generated_at = previousSummary.generated_at || nextSummary.generated_at
+      }
+    } catch {
+      // Rewrite malformed JSON with the current summary.
+    }
+  }
+
+  const nextText = `${JSON.stringify(nextSummary, null, 2)}\n`
+  if (existsSync(filePath) && readFileSync(filePath, "utf8") === nextText) return
+  writeFileSync(filePath, nextText)
+}
+
+function sameExceptGeneratedAt(left: Record<string, unknown>, right: Record<string, unknown>): boolean {
+  return JSON.stringify(withoutGeneratedAt(left)) === JSON.stringify(withoutGeneratedAt(right))
+}
+
+function withoutGeneratedAt(value: Record<string, unknown>): Record<string, unknown> {
+  const clone = { ...value }
+  delete clone.generated_at
+  return clone
+}
+
 const sources = sourceFootprints()
 const overrides: Record<string, IngestOverride> = existsSync(OVERRIDES_PATH)
   ? JSON.parse(readFileSync(OVERRIDES_PATH, "utf8"))
@@ -308,7 +337,7 @@ const summary = {
   ).length,
 }
 
-writeFileSync(OUT_JSON, `${JSON.stringify(summary, null, 2)}\n`)
+writeStableJsonSummary(OUT_JSON, summary)
 
 const reportRows = rows.filter((row) => row.bucket === "reports")
 const studyRows = rows.filter((row) => row.bucket === "studies")

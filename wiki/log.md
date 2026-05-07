@@ -247,3 +247,7 @@ Notes: Added source-level context-only route metadata so Collado-Lopez 2025 revi
 ## [2026-05-07] audit | regulatory-sources-excluded-from-reingest — regulation pages kept in crosswalk lane
 Pages affected: [[sources/eu2023-915-lead-infant-young-child-foods]], [[sources/eu-2023-915-contaminants-maximum-levels]]
 Notes: Updated the product-source routing audit so source pages identified as regulations or regulatory-limit records are not treated as product-occurrence papers that need local PDF extraction. EU 2023/915 remains available through the regulatory source pages, regulation pages, `data/evidence/regulatory_limits.csv`, and `data/evidence/product_regulatory_crosswalk.csv`; it no longer appears as a candidate local-paper reingest task for formula rows.
+
+## [2026-05-07] tooling | stable-evidence-summary-json — no-op reruns stop dirtying summaries
+Pages affected: [[methodology/persistent-wiki-ingest-rule]]
+Notes: Added stable JSON summary writing for evidence queue, standards gap, candidate, packet, sync, and raw-inventory summary outputs. When a rerun changes only `generated_at`, the writer preserves the previous timestamp and avoids rewriting the file. This keeps routine verification runs from creating meaningless git diffs while still updating summaries when substantive counts or statuses change.

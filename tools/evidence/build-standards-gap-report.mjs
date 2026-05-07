@@ -1,6 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { writeStableJsonSummary } from "./stable-json-summary.mjs"
 
 const repoRoot = process.cwd()
 const productDir = path.join(repoRoot, "wiki/products")
@@ -130,7 +131,7 @@ const summary = {
   rows_with_pending_local_extracts: reportRows.filter((row) => Number(row.pending_local_extract_source_count) > 0).length,
   rows_with_missing_pdfs: reportRows.filter((row) => Number(row.missing_pdf_count) > 0).length,
 }
-fs.writeFileSync(summaryOutputPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8")
+writeStableJsonSummary(summaryOutputPath, summary)
 
 console.log(`Wrote ${reportRows.length} HMTc standards gap rows to ${path.relative(repoRoot, outputPath)}`)
 console.log(`Wrote HMTc standards gap summary to ${path.relative(repoRoot, summaryOutputPath)}`)
