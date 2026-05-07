@@ -419,10 +419,18 @@ function readerRead(row) {
 
   if (status.includes("blocked") || status.includes("pending")) {
     const specificStatus = stripPercentileSummary(row.comparison_status || "")
-    if (/(basis|species|scope|product-as-placed|prepared-for-feeding|extracted|inorganic arsenic|total arsenic)/i.test(specificStatus)) {
+    if (
+      /(basis|species|scope|product-as-placed|prepared-for-feeding|extracted|inorganic arsenic|total arsenic|reporting limit|reference value|censored upper bound)/i.test(
+        specificStatus,
+      )
+    ) {
       return specificStatus
     }
     return "Limit is visible, but exceedance comparison is blocked until product-row values are extracted and basis/species match."
+  }
+
+  if (/needs? review/i.test(row.comparison_status || "")) {
+    return stripPercentileSummary(row.comparison_status)
   }
 
   if (status.includes("applies only") || status.includes("applicability")) {
