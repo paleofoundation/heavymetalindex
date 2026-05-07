@@ -12,6 +12,8 @@ const occurrenceSummaryFiles = [
 ]
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
+const localCandidatePath = path.join(repoRoot, "data/evidence/local_reingest_candidate_values.csv")
+const contextDispositionPath = path.join(repoRoot, "data/evidence/local_reingest_context_dispositions.csv")
 const tdsRouteCandidatePath = path.join(repoRoot, "data/evidence/fda_tds_product_route_candidates.csv")
 const outputPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
 const summaryOutputPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_summary.json")
@@ -24,6 +26,10 @@ const productPages = readProductPages()
 const valueRows = readOccurrenceSummaryRows()
 const regulatoryRows = fs.existsSync(crosswalkPath) ? parseCsv(fs.readFileSync(crosswalkPath, "utf8")) : []
 const queueRows = fs.existsSync(queuePath) ? parseCsv(fs.readFileSync(queuePath, "utf8")) : []
+const localCandidateRows = fs.existsSync(localCandidatePath) ? parseCsv(fs.readFileSync(localCandidatePath, "utf8")) : []
+const contextDispositionRows = fs.existsSync(contextDispositionPath)
+  ? parseCsv(fs.readFileSync(contextDispositionPath, "utf8"))
+  : []
 const tdsRouteCandidateRows = fs.existsSync(tdsRouteCandidatePath)
   ? parseCsv(fs.readFileSync(tdsRouteCandidatePath, "utf8"))
   : []
@@ -33,6 +39,8 @@ const productSlugs = [...new Set([
   ...valueRows.map((row) => row.row_slug).filter(Boolean),
   ...regulatoryRows.map((row) => row.product_slug).filter(Boolean),
   ...queueRows.map((row) => row.product_slug).filter(Boolean),
+  ...localCandidateRows.map((row) => row.product_slug).filter(Boolean),
+  ...contextDispositionRows.map((row) => row.product_slug).filter(Boolean),
   ...tdsRouteCandidateRows.map((row) => row.product_slug).filter(Boolean),
 ])]
   .filter((slug) => !productFilter || slug === productFilter)
@@ -42,7 +50,16 @@ const reportRows = []
 for (const productSlug of productSlugs) {
   const product = productPages.get(productSlug) ?? { label: readableSlug(productSlug), metals: [] }
   const productStandardScope = standardScopeForProduct(product)
-  const metals = metalsForProduct(productSlug, product, valueRows, regulatoryRows, queueRows, includeQueueOnlyMetals)
+  const metals = metalsForProduct(
+    productSlug,
+    product,
+    valueRows,
+    regulatoryRows,
+    queueRows,
+    localCandidateRows,
+    contextDispositionRows,
+    includeQueueOnlyMetals,
+  )
 
   for (const metal of metals) {
     const loadedRows = valueRows.filter((row) => row.row_slug === productSlug && canonicalMetal(row.metal_species) === metal)
@@ -54,6 +71,20 @@ for (const productSlug of productSlugs) {
     )
     const pendingRows = queueRows.filter((row) => row.product_slug === productSlug)
     const pendingForMetal = pendingRows.filter((row) => queueMetals(row).some((item) => canonicalMetal(item) === metal))
+    const localCandidatesForMetal = localCandidateRows.filter(
+      (row) => row.product_slug === productSlug && canonicalMetal(row.metal_species) === metal,
+    )
+    const contextDispositionsForMetal = contextDispositionRows.filter(
+      (row) => row.product_slug === productSlug && canonicalMetal(row.metal_species) === metal,
+    )
+    const localResolutionKeys = new Set(
+      [...localCandidatesForMetal, ...contextDispositionsForMetal].map((row) =>
+        routeMetalKey(productSlug, row.source_id, row.metal_species),
+      ),
+    )
+    const unresolvedPendingForMetal = pendingForMetal.filter(
+      (row) => !localResolutionKeys.has(routeMetalKey(productSlug, row.source_id, metal)),
+    )
     const pendingRelatedSpecies = pendingRows.filter((row) =>
       queueMetals(row).some((item) => relatedSpecies(canonicalMetal(item), metal)),
     )
@@ -69,10 +100,12 @@ for (const productSlug of productSlugs) {
           hasValue(row.max_ppb) ||
           hasValue(row.field_value_summary)),
     )
-    const p0Rows = pendingForMetal.filter((row) => row.priority?.startsWith("P0") && row.local_pdf_status === "local_pdf_found")
-    const p2Rows = pendingForMetal.filter((row) => row.local_pdf_status === "candidate_local_pdf_needs_review")
-    const p3Rows = pendingForMetal.filter((row) => row.local_pdf_status === "missing_local_pdf")
-    const sourceRowsMissingValues = pendingForMetal.filter((row) => row.route_status === "source_on_page_no_structured_value")
+    const p0Rows = unresolvedPendingForMetal.filter(
+      (row) => row.priority?.startsWith("P0") && row.local_pdf_status === "local_pdf_found",
+    )
+    const p2Rows = unresolvedPendingForMetal.filter((row) => row.local_pdf_status === "candidate_local_pdf_needs_review")
+    const p3Rows = unresolvedPendingForMetal.filter((row) => row.local_pdf_status === "missing_local_pdf")
+    const sourceRowsMissingValues = unresolvedPendingForMetal.filter((row) => row.route_status === "source_on_page_no_structured_value")
     const tdsCandidatesForMetal = tdsRouteCandidateRows.filter(
       (row) => row.product_slug === productSlug && canonicalMetal(row.metal_species) === metal,
     )
@@ -92,6 +125,8 @@ for (const productSlug of productSlugs) {
       p2Rows,
       p3Rows,
       summaryOnlyRows,
+      localCandidatesForMetal,
+      contextDispositionsForMetal,
       tdsCandidatesForMetal,
       tdsRelatedSpeciesCandidates,
     })
@@ -113,12 +148,16 @@ for (const productSlug of productSlugs) {
       candidate_pdf_match_count: unique(p2Rows.map((row) => row.source_id)).length,
       missing_pdf_count: unique(p3Rows.map((row) => row.source_id)).length,
       source_on_page_no_structured_value_count: unique(sourceRowsMissingValues.map((row) => row.source_id)).length,
+      local_candidate_value_count: localCandidatesForMetal.length,
+      context_disposition_count: contextDispositionsForMetal.length,
       tds_product_route_candidate_count: tdsCandidatesForMetal.length,
       tds_product_route_foods: tdsFoodList(tdsCandidatesForMetal),
       regulatory_reference_status: regulatoryStatus(regulatoryMatches),
       aggregate_hmtc_p90_status: status.status,
       evidence_needed: status.evidence_needed,
       local_papers_to_extract: sourceList(p0Rows),
+      local_candidates_to_review: sourceList(localCandidatesForMetal),
+      context_dispositions: sourceList(contextDispositionsForMetal),
       candidate_pdf_matches_to_review: sourceList(p2Rows),
       papers_to_find: sourceList(p3Rows),
       notes: status.notes,
@@ -143,12 +182,16 @@ writeCsv(outputPath, reportRows, [
   "candidate_pdf_match_count",
   "missing_pdf_count",
   "source_on_page_no_structured_value_count",
+  "local_candidate_value_count",
+  "context_disposition_count",
   "tds_product_route_candidate_count",
   "tds_product_route_foods",
   "regulatory_reference_status",
   "aggregate_hmtc_p90_status",
   "evidence_needed",
   "local_papers_to_extract",
+  "local_candidates_to_review",
+  "context_dispositions",
   "candidate_pdf_matches_to_review",
   "papers_to_find",
   "notes",
@@ -165,6 +208,8 @@ const summary = {
   by_aggregate_status: countBy(reportRows, (row) => row.aggregate_hmtc_p90_status),
   rows_with_pending_local_extracts: reportRows.filter((row) => Number(row.pending_local_extract_source_count) > 0).length,
   rows_with_missing_pdfs: reportRows.filter((row) => Number(row.missing_pdf_count) > 0).length,
+  rows_with_local_candidate_values: reportRows.filter((row) => Number(row.local_candidate_value_count) > 0).length,
+  rows_with_context_dispositions: reportRows.filter((row) => Number(row.context_disposition_count) > 0).length,
   rows_with_tds_product_route_candidates: reportRows.filter((row) => Number(row.tds_product_route_candidate_count) > 0).length,
 }
 writeStableJsonSummary(summaryOutputPath, summary)
@@ -182,6 +227,8 @@ function aggregateStatus({
   p2Rows,
   p3Rows,
   summaryOnlyRows,
+  localCandidatesForMetal,
+  contextDispositionsForMetal,
   tdsCandidatesForMetal,
   tdsRelatedSpeciesCandidates,
 }) {
@@ -190,6 +237,8 @@ function aggregateStatus({
   const missingCount = unique(p3Rows.map((row) => row.source_id)).length
   const loadedSourceCount = unique(loadedRows.map((row) => row.source_id).filter(Boolean)).length
   const relatedOnlyCount = loadedRelatedSpeciesRows.length + tdsRelatedSpeciesCandidates.length
+  const localCandidateCount = localCandidatesForMetal.length
+  const contextDispositionCount = contextDispositionsForMetal.length
 
   if (productStandardScope !== "locked_hmtc_row") {
     const isContextOnly = productStandardScope === "bridge_context" || productStandardScope === "base_context"
@@ -215,6 +264,25 @@ function aggregateStatus({
       evidence_needed:
         "Review FDA TDS product-route candidate rows for product scope, basis, species, and small-N limits before promotion.",
       notes: "TDS candidates are visible in data/evidence/fda_tds_product_route_candidates.csv; do not use them as HMTc p90 values until reviewed.",
+    }
+  }
+
+  if (loadedRows.length === 0 && localCandidateCount > 0) {
+    return {
+      status: "BLOCKED: local candidate review pending",
+      evidence_needed:
+        "Review deterministic local candidate rows for source table, product fit, basis, species, unit, and N before promotion.",
+      notes:
+        "Candidate rows are non-public review inputs; do not use them as HMTc p90 values until promoted.",
+    }
+  }
+
+  if (loadedRows.length === 0 && contextDispositionCount > 0 && pendingLocalCount === 0) {
+    return {
+      status: "BLOCKED: documented local sources are context-only",
+      evidence_needed:
+        "Find or route fit-source product evidence; local source routes for this row were read and documented as context-only or not routeable.",
+      notes: "See data/evidence/local_reingest_context_dispositions.csv.",
     }
   }
 
@@ -302,7 +370,16 @@ function regulatoryStatus(rows) {
     .join(" | ")
 }
 
-function metalsForProduct(productSlug, product, rows, regulatoryRows, queueRows, includeQueueOnly) {
+function metalsForProduct(
+  productSlug,
+  product,
+  rows,
+  regulatoryRows,
+  queueRows,
+  localCandidateRows,
+  contextDispositionRows,
+  includeQueueOnly,
+) {
   const metals = new Set(product.metals.map(canonicalMetal).filter(Boolean))
   for (const row of rows) {
     if (row.row_slug === productSlug) metals.add(canonicalMetal(row.metal_species))
@@ -313,6 +390,12 @@ function metalsForProduct(productSlug, product, rows, regulatoryRows, queueRows,
   if (includeQueueOnly) {
     for (const row of queueRows) {
       if (row.product_slug === productSlug) queueMetals(row).forEach((metal) => metals.add(canonicalMetal(metal)))
+    }
+    for (const row of localCandidateRows) {
+      if (row.product_slug === productSlug) metals.add(canonicalMetal(row.metal_species))
+    }
+    for (const row of contextDispositionRows) {
+      if (row.product_slug === productSlug) metals.add(canonicalMetal(row.metal_species))
     }
   }
   return [...metals].filter(Boolean).sort(metalSort)
@@ -556,6 +639,10 @@ function unique(values) {
 
 function sourceList(rows) {
   return unique(rows.map((row) => row.source_id).filter(Boolean)).join("; ")
+}
+
+function routeMetalKey(productSlug, sourceId, metal) {
+  return `${productSlug}::${sourceId}::${canonicalMetal(metal)}`
 }
 
 function tdsFoodList(rows) {

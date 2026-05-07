@@ -8,6 +8,7 @@ const productFilter = args.get("product") ?? ""
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
 const packetRoot = path.join(repoRoot, "data/evidence/local_reingest_packets")
 const outputPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_values.csv")
+const dispositionPath = path.join(repoRoot, "data/evidence/local_reingest_context_dispositions.csv")
 const tasksPath = path.join(repoRoot, "data/evidence/local_reingest_extraction_tasks.csv")
 const summaryPath = path.join(repoRoot, "data/evidence/local_reingest_candidate_summary.json")
 const promptRoot = path.join(repoRoot, "data/evidence/local_reingest_prompts")
@@ -18,18 +19,21 @@ const selectedRows = queueRows
   .filter((row) => row.priority?.startsWith("P0") && row.local_pdf_status === "local_pdf_found")
 
 const candidateRows = []
+const dispositionRows = []
 const taskRows = []
 
 for (const row of selectedRows) {
   const textPath = packetTextPath(row)
   const text = textPath && fs.existsSync(textPath) ? fs.readFileSync(textPath, "utf8") : ""
   const sourceCandidates = filterCandidateMetals(row, deterministicExtract(row, text))
-  const remainingMetals = remainingCandidateMetals(row, sourceCandidates)
+  const sourceDispositions = filterDispositionMetals(row, deterministicDisposition(row, text))
+  const remainingMetals = remainingCandidateMetals(row, [...sourceCandidates, ...sourceDispositions])
 
   if (sourceCandidates.length > 0) {
     candidateRows.push(...sourceCandidates)
-    if (remainingMetals.length === 0) continue
   }
+  if (sourceDispositions.length > 0) dispositionRows.push(...sourceDispositions)
+  if ((sourceCandidates.length > 0 || sourceDispositions.length > 0) && remainingMetals.length === 0) continue
 
   const promptPath = writeExtractionPrompt(row, text)
   taskRows.push({
@@ -53,6 +57,7 @@ for (const row of selectedRows) {
 }
 
 writeCsv(outputPath, candidateRows, candidateHeaders())
+writeCsv(dispositionPath, dispositionRows, dispositionHeaders())
 writeCsv(tasksPath, taskRows, [
   "product_slug",
   "source_id",
@@ -70,14 +75,17 @@ const summary = {
   product_filter: productFilter || "all",
   source_count: selectedRows.length,
   deterministic_candidate_value_count: candidateRows.length,
+  context_disposition_count: dispositionRows.length,
   source_task_count: taskRows.length,
   by_source: countBy(candidateRows, (row) => row.source_id),
   by_metal: countBy(candidateRows, (row) => row.metal_species),
   by_extraction_method: countBy(candidateRows, (row) => row.extraction_method),
+  by_disposition_status: countBy(dispositionRows, (row) => row.disposition_status),
 }
 writeStableJsonSummary(summaryPath, summary)
 
 console.log(`Wrote ${candidateRows.length} deterministic local candidate rows to ${path.relative(repoRoot, outputPath)}`)
+console.log(`Wrote ${dispositionRows.length} local context disposition rows to ${path.relative(repoRoot, dispositionPath)}`)
 console.log(`Wrote ${taskRows.length} local extraction task rows to ${path.relative(repoRoot, tasksPath)}`)
 console.log(`Wrote local candidate summary to ${path.relative(repoRoot, summaryPath)}`)
 
@@ -100,11 +108,41 @@ function deterministicExtract(queueRow, text) {
   return []
 }
 
+function deterministicDisposition(queueRow, text) {
+  if (!text) return []
+  if (queueRow.source_id === "collado-lopez2025-heavy-metals-baby-food-formula") {
+    return dispositionColladoLopez2025(queueRow, text)
+  }
+  if (queueRow.source_id === "tatsuta2024-methylmercury-intake-children-duplicate-diet") {
+    return dispositionTatsuta2024(queueRow, text)
+  }
+  if (queueRow.source_id === "signes-pastor2018-infants-dietary-arsenic-solid-food") {
+    return dispositionSignesPastor2018(queueRow, text)
+  }
+  if (queueRow.source_id === "spungen2024-fda-tds-infant-lead-cadmium") {
+    return dispositionSpungen2024(queueRow, text)
+  }
+  if (queueRow.source_id === "fda2024-toxic-elements-baby-food-compliance-2009-2024") {
+    return dispositionFdaTep2024(queueRow, text)
+  }
+  if (queueRow.source_id === "marques2021-trace-elements-milks-plant-based-drinks") {
+    return dispositionMarques2021(queueRow, text)
+  }
+  return []
+}
+
 function filterCandidateMetals(queueRow, candidates) {
   const missingMetals = splitMetals(queueRow.missing_metal_species)
   if (missingMetals.length === 0) return candidates
   const missingKeys = new Set(missingMetals.map(canonicalMetal).filter(Boolean))
   return candidates.filter((candidate) => missingKeys.has(canonicalMetal(candidate.metal_species)))
+}
+
+function filterDispositionMetals(queueRow, dispositions) {
+  const missingMetals = splitMetals(queueRow.missing_metal_species)
+  if (missingMetals.length === 0) return dispositions
+  const missingKeys = new Set(missingMetals.map(canonicalMetal).filter(Boolean))
+  return dispositions.filter((disposition) => missingKeys.has(canonicalMetal(disposition.metal_species)))
 }
 
 function remainingCandidateMetals(queueRow, candidates) {
@@ -1302,6 +1340,158 @@ function colladoLopez2025Route(productSlug) {
   return routes[productSlug]
 }
 
+function dispositionColladoLopez2025(queueRow, text) {
+  if (!text.includes("Concentrations of Heavy Metals in Processed Baby Foods and")) return []
+  if (!text.includes("median concentration") || !text.includes("interquartile range")) return []
+
+  const route = colladoLopez2025Route(queueRow.product_slug)
+  const routeableMetals = new Set(Object.keys(route?.values ?? {}).map(canonicalMetal))
+  const productNotes = {
+    "fruit-purees":
+      "The review narrative does not provide a routeable fruit-puree detected-item median for the locked product page.",
+    "meat-and-poultry-purees":
+      "The review narrative does not provide a routeable meat-and-poultry puree detected-item median for the locked product page.",
+    "non-root-vegetable-purees":
+      "The review narrative does not provide a routeable non-root vegetable puree detected-item median for the locked product page.",
+    "teething-and-snacks-non-rice":
+      "The review narrative does not provide a routeable non-rice teething/snack detected-item median for the locked product page.",
+  }
+  const baseNote =
+    productNotes[queueRow.product_slug] ??
+    `The review narrative provides some ${route?.source_group ?? "source-group"} medians, but not for every declared metal in this route.`
+
+  return splitMetals(queueRow.missing_metal_species)
+    .filter((metal) => !routeableMetals.has(canonicalMetal(metal)))
+    .map((metal) =>
+      dispositionRow(queueRow, {
+        metal_species: metal,
+        disposition_status: "context_only_no_routeable_review_median",
+        row_fit: route?.row_fit ?? "broad_scoping_review_context_only",
+        reason:
+          "Collado-Lopez 2025 is a secondary scoping review. For this product-metal route, the local packet does not provide a source-stated product-specific concentration row or percentile suitable for HMTc occurrence math.",
+        quote_trace:
+          "Collado-Lopez 2025 reports selected detected-item medians/IQRs for broad baby-food groups, not sample-level rows for every locked HMTc product-metal route.",
+        notes: compact(
+          [
+            baseNote,
+            "No candidate row was emitted for this product-metal route.",
+            "The source remains visible through Collado EF-4 context rows where routeable medians exist and through this disposition where they do not.",
+            "No p50, p90, or p95 was inferred.",
+            canonicalMetal(metal) === "tAs" ? "Arsenic remains total/unspecified arsenic, not inorganic arsenic." : "",
+            canonicalMetal(metal) === "tHg" ? "Mercury remains total mercury, not methylmercury." : "",
+          ].join(" "),
+        ),
+      }),
+    )
+}
+
+function dispositionTatsuta2024(queueRow, text) {
+  if (!text.includes("duplicate diet method")) return []
+  if (!text.includes("Table 2 THg in the diet samples")) return []
+  return splitMetals(queueRow.missing_metal_species).map((metal) =>
+    dispositionRow(queueRow, {
+      metal_species: metal,
+      disposition_status: "context_only_duplicate_diet_exposure",
+      row_fit: "exposure_context_not_product_occurrence",
+      reason:
+        "Tatsuta 2024 measured total diet composites and dietary intake by age stage, not concentration rows for a fish-containing baby-food product category.",
+      quote_trace:
+        "The source describes 24-hour duplicate diet samples collected over three days and reports THg/MeHg diet-sample concentrations and intake estimates by dietary stage.",
+      notes: compact(
+        [
+          "Useful for methylmercury exposure context in young children who consume fish, but not for product occurrence or standards math.",
+          "No fish-containing baby-food product row was promoted.",
+          canonicalMetal(metal) === "MeHg"
+            ? "MeHg is retained as methylmercury exposure context and is not substituted for total mercury occurrence."
+            : "",
+          canonicalMetal(metal) === "tHg" ? "Total mercury remains separate from methylmercury." : "",
+        ].join(" "),
+      ),
+    }),
+  )
+}
+
+function dispositionSignesPastor2018(queueRow, text) {
+  if (!text.includes("Infants' dietary arsenic exposure during transition to solid food")) return []
+  if (!text.includes("urinary arsenic species")) return []
+  return splitMetals(queueRow.missing_metal_species).map((metal) =>
+    dispositionRow(queueRow, {
+      metal_species: metal,
+      disposition_status: "context_only_biomarker_food_diary",
+      row_fit: "biomarker_exposure_context_not_product_occurrence",
+      reason:
+        "Signes-Pastor 2018 relates infant food-diary categories to urinary arsenic species; it does not report source-stated fruit-puree concentration rows.",
+      quote_trace:
+        "The source reports a 3-day food diary and paired urine samples, then evaluates associations between solid-food intake and urinary arsenic species.",
+      notes:
+        "Useful exposure-context source for weaning and arsenic biomarkers. It should not be converted into fruit-puree total or inorganic arsenic occurrence values.",
+    }),
+  )
+}
+
+function dispositionSpungen2024(queueRow, text) {
+  if (!text.includes("Infants’ and young children’s dietary exposures to lead and cadmium")) return []
+  if (!text.includes("2018–2020 total diet study")) return []
+  return splitMetals(queueRow.missing_metal_species).map((metal) =>
+    dispositionRow(queueRow, {
+      metal_species: metal,
+      disposition_status: "context_only_tds_exposure_model",
+      row_fit: "tds_exposure_context_not_primary_occurrence_table",
+      reason:
+        "Spungen 2024 is an FDA dietary-exposure modeling paper that uses TDS concentration data and food-intake mappings; product occurrence values should be sourced from the underlying TDS analytical tables.",
+      quote_trace:
+        "The paper maps NHANES/WWEIA foods to TDS foods and estimates lead and cadmium exposure, rather than publishing root-vegetable puree occurrence rows.",
+      notes:
+        "Keep this source as exposure and source-apportionment context. Do not duplicate TDS occurrence values from the exposure paper.",
+    }),
+  )
+}
+
+function dispositionFdaTep2024(queueRow, text) {
+  if (!text.includes("Analytical Results for Mercury in Food Intended for Babies and Young Children")) return []
+  if (queueRow.product_slug !== "teething-and-snacks-rice-based") return []
+  return splitMetals(queueRow.missing_metal_species)
+    .filter((metal) => canonicalMetal(metal) === "tHg")
+    .map((metal) =>
+      dispositionRow(queueRow, {
+        metal_species: metal,
+        disposition_status: "context_only_no_rice_snack_mercury_subset",
+        row_fit: "broad_grain_snack_context_not_rice_specific",
+        reason:
+          "The FDA TEP mercury table contains grain-based snack rows, but the currently loaded rice-based snack route is limited to explicit rice-named snack rows. No routeable rice-named snack mercury subset is isolated.",
+        quote_trace:
+          "The source page already keeps broad Grain-Based Snacks mercury as EF-4 context and warns that rice status is not isolated.",
+        notes:
+          "Do not infer rice-based teething/snack mercury from broad puffs, wafers, cookies, or unspecified grain-based snack rows. The broad snack mercury context remains visible in the FDA compliance summary.",
+      }),
+    )
+}
+
+function dispositionMarques2021(queueRow, text) {
+  const lower = text.toLowerCase()
+  if (!lower.includes("plant-based drinks") || !lower.includes("pb was detected")) return []
+
+  return splitMetals(queueRow.missing_metal_species).map((metal) =>
+    dispositionRow(queueRow, {
+      metal_species: metal,
+      disposition_status: "context_only_table_review_blocked",
+      row_fit: "plant_milk_context_table_ocr_not_final_numeric",
+      reason:
+        "Marques 2021 supports finished plant-milk context, but the local marker table is not reliable enough for final product-row numeric extraction without table-image review.",
+      quote_trace:
+        "The source reports that Hg, U, and V were not detected in milk and plant-based drink samples, while Pb was detected in three samples including one non-organic oat drink.",
+      notes: compact(
+        [
+          "No candidate value was emitted from the OCR table for this route.",
+          "The source page documents the finished-beverage context and the non-organic oat Pb finding.",
+          "Ni and Pb table cells need source-table review before any threshold use.",
+          "Hg and U nondetection context is not converted into numeric <LD values because the table units/LD presentation are not clean enough in the local text extraction.",
+        ].join(" "),
+      ),
+    }),
+  )
+}
+
 function candidateRow(queueRow, values) {
   return {
     candidate_id: values.candidate_id,
@@ -1336,6 +1526,24 @@ function candidateRow(queueRow, values) {
     notes: values.notes ?? "",
     guardrails:
       "Candidate row only; do not publish until source table, product fit, basis, species, unit, and N are reviewed. Do not infer p90/p95.",
+  }
+}
+
+function dispositionRow(queueRow, values) {
+  return {
+    product_slug: queueRow.product_slug,
+    source_id: queueRow.source_id,
+    source_title: queueRow.source_title,
+    source_page: queueRow.source_page_path,
+    metal_species: values.metal_species,
+    disposition_status: values.disposition_status,
+    evidence_use: "context_only_not_published",
+    row_fit: values.row_fit,
+    reason: values.reason,
+    quote_trace: values.quote_trace,
+    notes: values.notes,
+    guardrails:
+      "No candidate value emitted for this product-metal route. Keep source visible through disposition/context; do not publish or infer p50/p90/p95.",
   }
 }
 
@@ -1652,6 +1860,23 @@ function candidateHeaders() {
     "review_state",
     "evidence_fitness_verdict",
     "source_row_order",
+    "quote_trace",
+    "notes",
+    "guardrails",
+  ]
+}
+
+function dispositionHeaders() {
+  return [
+    "product_slug",
+    "source_id",
+    "source_title",
+    "source_page",
+    "metal_species",
+    "disposition_status",
+    "evidence_use",
+    "row_fit",
+    "reason",
     "quote_trace",
     "notes",
     "guardrails",
