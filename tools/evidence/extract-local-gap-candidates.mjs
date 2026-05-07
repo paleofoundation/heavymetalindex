@@ -81,6 +81,9 @@ function deterministicExtract(queueRow, text) {
   if (queueRow.source_id === "meli2024-chemical-characterization-baby-food-italy") return extractMeli2024(queueRow, text)
   if (queueRow.source_id === "pandelova2012-eu-baby-food-formula-elements") return extractPandelova2012(queueRow, text)
   if (queueRow.source_id === "weldegebriel2025-ethiopia-packaged-fruit-juice-metals") return extractWeldegebriel2025(queueRow, text)
+  if (queueRow.source_id === "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk") return extractParker2022(queueRow, text)
+  if (queueRow.source_id === "damato2026-inorganic-arsenic-rice-based-beverages") return extractDamato2026(queueRow, text)
+  if (queueRow.source_id === "milani2023-trace-elements-soy-based-beverages") return extractMilani2023(queueRow, text)
   if (queueRow.source_id === "burrell2010-aluminium-in-infant-formulas") return extractBurrell2010(queueRow, text)
   if (queueRow.source_id === "chuchu2013-aluminium-in-infant-formulas") return extractChuchu2013(queueRow, text)
   if (queueRow.source_id === "dabeka1987-canada-infant-formula-lead-cadmium") return extractDabeka1987(queueRow, text)
@@ -903,6 +906,207 @@ function extractWeldegebriel2025(queueRow, text) {
   )
 }
 
+function extractParker2022(queueRow, text) {
+  const route = parker2022Route(queueRow.product_slug)
+  if (!route) return []
+  if (!text.includes("**Table 4**As, Cd, Hg, and Pb Concentrations")) return []
+
+  return Object.entries(route.values).map(([metal, item], index) =>
+    candidateRow(queueRow, {
+      candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${metal}-${slugify(route.label)}`,
+      metal_species: metal,
+      source_product_label: `${route.label} baby food samples`,
+      basis: "as_consumed",
+      n: "9",
+      n_text: `Parker 2022 Table 4 reports ${route.label} ingredient category samples, n=9, detection frequency ${item.detection}.`,
+      statistic_type: "source_reported_mean_median_range",
+      mean_ppb: item.mean,
+      min_ppb: item.min,
+      max_ppb: item.max,
+      p50_ppb: item.median,
+      row_fit: route.row_fit,
+      extraction_method: "deterministic_parser_parker2022_table4_baby_food_categories",
+      quote_trace: `Parker 2022 Table 4 ${route.label} row for ${item.source_metal}: n=9; detection frequency ${item.detection}; minimum ${item.min} ug/kg; mean ${item.mean} ug/kg; median ${item.median} ug/kg; maximum ${item.max} ug/kg; SD ${item.sd} ug/kg.`,
+      notes: compact(
+        [
+          "Deterministic parse of Parker 2022 Table 4 baby-food ingredient-category concentration summaries.",
+          "The source assigns non-detects to one-half LOD and non-quantifiable results to one-half LLOQ for risk assessment; these substituted summary statistics are retained as source-reported candidates.",
+          "No p90 or p95 is reported or inferred.",
+          metal === "tAs" ? "Source reports As by ICP-MS; retained as total/unspecified arsenic, not inorganic arsenic." : "",
+          metal === "tHg" ? "Source reports Hg; retained as total mercury, not methylmercury." : "",
+          route.note,
+        ].join(" "),
+      ),
+      source_row_order: String(index + 1),
+    }),
+  )
+}
+
+function parker2022Route(productSlug) {
+  const routes = {
+    "fruit-purees": {
+      label: "Fruit",
+      row_fit: "direct_fruit_baby_food_category_needs_review",
+      note: "Fruit category includes jar and pouch baby/toddler foods whose primary ingredients are fruit; review fit before product-page publication.",
+      values: {
+        tAs: { source_metal: "As", detection: "6 (67%)", min: "1.5", mean: "3.8", median: "5.0", max: "5.0", sd: "1.8" },
+        Cd: { source_metal: "Cd", detection: "3 (33%)", min: "1.5", mean: "4.4", median: "1.5", max: "16.0", sd: "5.2" },
+        tHg: { source_metal: "Hg", detection: "0 (0%)", min: "1.5", mean: "1.5", median: "1.5", max: "1.5", sd: "0.0" },
+        Pb: { source_metal: "Pb", detection: "3 (33%)", min: "1.5", mean: "2.7", median: "1.5", max: "5.0", sd: "1.8" },
+      },
+    },
+    "non-root-vegetable-purees": {
+      label: "Leguminous Vegetable",
+      row_fit: "leguminous_vegetable_baby_food_category_needs_review",
+      note: "Leguminous vegetable rows map only as review candidates for the broader non-root vegetable puree page; do not pool them into all non-root vegetable purees without review.",
+      values: {
+        tAs: { source_metal: "As", detection: "7 (78%)", min: "1.5", mean: "4.2", median: "5.0", max: "5.0", sd: "1.5" },
+        Cd: { source_metal: "Cd", detection: "0 (0%)", min: "1.5", mean: "1.5", median: "1.5", max: "1.5", sd: "0.0" },
+        tHg: { source_metal: "Hg", detection: "0 (0%)", min: "1.5", mean: "1.5", median: "1.5", max: "1.5", sd: "0.0" },
+        Pb: { source_metal: "Pb", detection: "2 (22%)", min: "1.5", mean: "2.3", median: "1.5", max: "5.0", sd: "1.5" },
+      },
+    },
+    "root-vegetable-purees": {
+      label: "Root Vegetable",
+      row_fit: "direct_root_vegetable_baby_food_category_needs_review",
+      note: "Root vegetable category includes sweet potato and carrot baby foods; review fit before product-page publication.",
+      values: {
+        tAs: { source_metal: "As", detection: "9 (100%)", min: "5.0", mean: "10.8", median: "12.0", max: "22.0", sd: "5.4" },
+        Cd: { source_metal: "Cd", detection: "6 (67%)", min: "1.5", mean: "3.8", median: "5.0", max: "5.0", sd: "1.8" },
+        tHg: { source_metal: "Hg", detection: "0 (0%)", min: "1.5", mean: "1.5", median: "1.5", max: "1.5", sd: "0.0" },
+        Pb: { source_metal: "Pb", detection: "8 (88%)", min: "1.5", mean: "15.8", median: "5.0", max: "48.0", sd: "15.6" },
+      },
+    },
+  }
+  return routes[productSlug]
+}
+
+function extractDamato2026(queueRow, text) {
+  if (queueRow.product_slug !== "plant-milks-rice-based") return []
+  if (!text.includes("Mean occurrence levels of total arsenic and species")) return []
+
+  const values = {
+    tAs: { label: "total arsenic", mean: "23", median: "22", min: "9", max: "58" },
+    iAs: { label: "inorganic arsenic", mean: "15", median: "15", min: "7", max: "24" },
+  }
+
+  return Object.entries(values).map(([metal, item], index) =>
+    candidateRow(queueRow, {
+      candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${metal}-rice-drinks`,
+      metal_species: metal,
+      source_product_label: "Rice-based beverages available on the Italian market",
+      basis: "as_consumed",
+      n: "25",
+      n_text: "Table 3 reports 25 rice-based beverage samples purchased in Italy between April 2022 and March 2023.",
+      statistic_type: "source_reported_mean_median_range",
+      mean_ppb: item.mean,
+      min_ppb: item.min,
+      max_ppb: item.max,
+      p50_ppb: item.median,
+      row_fit: "direct_rice_based_plant_milk_needs_review",
+      extraction_method: "deterministic_parser_damato2026_table3_rice_drinks",
+      quote_trace: `D'Amato 2026 Table 3 reports ${item.label} in rice drinks: mean ${item.mean} ug/kg; median ${item.median} ug/kg; min-max ${item.min}-${item.max} ug/kg; n=25.`,
+      notes: compact(
+        [
+          "Deterministic parse of D'Amato 2026 Table 3 rice-drink occurrence summary.",
+          "Rice-based beverage concentrations are retained as as-consumed ug/kg values and normalized to ppb without changing the numeric value.",
+          "The source states no censored values were present for the rice-drink occurrence dataset.",
+          "No p90 or p95 is reported or inferred.",
+          metal === "tAs" ? "Total arsenic is retained separately from inorganic arsenic." : "",
+          metal === "iAs" ? "The source defines iAs as the sum of As(III) and As(V), quantified as As(V)." : "",
+        ].join(" "),
+      ),
+      source_row_order: String(index + 1),
+    }),
+  )
+}
+
+function extractMilani2023(queueRow, text) {
+  if (queueRow.product_slug !== "plant-milks-soy-based") return []
+  if (!text.includes("Trace element contents in soy-based beverages")) return []
+
+  const groups = [
+    {
+      label: "Soy isolate protein beverages",
+      values: {
+        Al: "758 (137-1822)",
+        tAs: "<38.2",
+        Cd: "<3.8",
+        "Cr-total": "1.8 (<10.9-11.0)",
+        Ni: "<25.7",
+        Pb: "<10.9",
+        Sb: "6.2 (<10.3-24)",
+        Sn: "4.3 (<18.0-26)",
+      },
+    },
+    {
+      label: "Soy hydrosoluble extract beverages",
+      values: {
+        Al: "609 (92-1375)",
+        tAs: "<38.2",
+        Cd: "<3.8",
+        "Cr-total": "<10.9",
+        Ni: "4.9 (<25.7-29.4)",
+        Pb: "<10.9",
+        Sb: "2.5 (<10.3-15)",
+        Sn: "<18.0",
+      },
+    },
+    {
+      label: "Soybean beverages",
+      values: {
+        Al: "176 (45-356)",
+        tAs: "<38.2",
+        Cd: "<3.8",
+        "Cr-total": "<10.9",
+        Ni: "29 (<25.7-46)",
+        Pb: "2.2 (<10.9-13)",
+        Sb: "12 (<10.3-61)",
+        Sn: "<18.0",
+      },
+    },
+  ]
+
+  const rows = []
+  for (const [groupIndex, group] of groups.entries()) {
+    for (const [metalIndex, [metal, rawValue]] of Object.entries(group.values).entries()) {
+      const parsed = parseUgPerLiterMeanRange(rawValue)
+      rows.push(
+        candidateRow(queueRow, {
+          candidate_id: `${queueRow.source_id}-${queueRow.product_slug}-${slugify(group.label)}-${metal}`,
+          metal_species: metal,
+          source_product_label: group.label,
+          basis: "as_consumed",
+          n: "6",
+          n_text: `Milani 2023 Table 3 reports ${group.label}, n=6.`,
+          statistic_type: parsed.statistic_type,
+          mean_ppb: parsed.mean_ppb,
+          min_ppb: parsed.min_ppb,
+          max_ppb: parsed.max_ppb,
+          censoring_status: parsed.censoring_status,
+          censoring_limit_ppb: parsed.censoring_limit_ppb,
+          row_fit: "direct_soy_based_plant_milk_source_group_needs_review",
+          extraction_method: "deterministic_parser_milani2023_table3_soy_beverages",
+          quote_trace: `Milani 2023 Table 3 ${group.label} ${metalLabel(metal)}: ${rawValue} ug/L; n=6.`,
+          notes: compact(
+            [
+              "Deterministic parse of Milani 2023 Table 3 soy-based beverage trace-element means and ranges.",
+              "Values are reported in ug/L and normalized to ppb without changing the numeric value.",
+              "No p50, p90, or p95 is reported or inferred.",
+              metal === "tAs" ? "Source reports As; retained as total/unspecified arsenic, not inorganic arsenic." : "",
+              metal === "Cr-total" ? "Source reports Cr; this does not satisfy Cr-VI without species confirmation." : "",
+              parsed.note,
+            ].join(" "),
+          ),
+          source_row_order: String(groupIndex * Object.keys(group.values).length + metalIndex + 1),
+        }),
+      )
+    }
+  }
+
+  return rows
+}
+
 function candidateRow(queueRow, values) {
   return {
     candidate_id: values.candidate_id,
@@ -1037,6 +1241,57 @@ function parseMgKgConcentration(raw) {
     censoring_limit_ppb: "",
     note: "",
   }
+}
+
+function parseUgPerLiterMeanRange(raw) {
+  const value = String(raw).trim()
+  const cleaned = value.replace(/,/g, "")
+  if (cleaned.startsWith("<")) {
+    return {
+      statistic_type: "source_reported_censored_source_group_mean",
+      mean_ppb: "",
+      min_ppb: "",
+      max_ppb: "",
+      censoring_status: "less_than",
+      censoring_limit_ppb: cleaned.slice(1),
+      note: `${value} ug/L retained as a censored source-table value.`,
+    }
+  }
+
+  const range = cleaned.match(/^([\d.]+)\s+\((<?[\d.]+)-([\d.]+)\)$/)
+  if (range) {
+    const lower = range[2]
+    const lowerCensored = lower.startsWith("<")
+    return {
+      statistic_type: lowerCensored ? "source_reported_mean_censored_range" : "source_reported_mean_range",
+      mean_ppb: range[1],
+      min_ppb: lowerCensored ? "" : lower,
+      max_ppb: range[3],
+      censoring_status: lowerCensored ? "range_lower_less_than" : "",
+      censoring_limit_ppb: lowerCensored ? lower.slice(1) : "",
+      note: lowerCensored
+        ? `${value} ug/L includes a censored lower range bound; the censored lower bound is retained as a limit rather than imputed.`
+        : "",
+    }
+  }
+
+  return {
+    statistic_type: "source_reported_mean",
+    mean_ppb: cleaned,
+    min_ppb: "",
+    max_ppb: "",
+    censoring_status: "",
+    censoring_limit_ppb: "",
+    note: "",
+  }
+}
+
+function metalLabel(metal) {
+  const labels = {
+    tAs: "As",
+    "Cr-total": "Cr",
+  }
+  return labels[metal] ?? metal
 }
 
 function packetTextPath(row) {

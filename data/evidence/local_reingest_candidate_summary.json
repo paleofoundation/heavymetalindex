@@ -1,28 +1,31 @@
 {
-  "generated_at": "2026-05-07T12:45:04.290Z",
+  "generated_at": "2026-05-07T12:55:20.935Z",
   "product_filter": "all",
   "source_count": 30,
-  "deterministic_candidate_value_count": 59,
-  "source_task_count": 23,
+  "deterministic_candidate_value_count": 97,
+  "source_task_count": 18,
   "by_source": {
     "meli2024-chemical-characterization-baby-food-italy": 21,
     "chekri2019-french-infant-toddler-tds-trace-elements": 18,
     "weldegebriel2025-ethiopia-packaged-fruit-juice-metals": 4,
-    "fsa2016-infant-food-formula-metals-survey": 16
+    "fsa2016-infant-food-formula-metals-survey": 16,
+    "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk": 12,
+    "damato2026-inorganic-arsenic-rice-based-beverages": 2,
+    "milani2023-trace-elements-soy-based-beverages": 24
   },
   "by_metal": {
-    "Al": 6,
-    "tAs": 6,
-    "Cd": 7,
-    "tHg": 4,
-    "Ni": 7,
-    "Pb": 5,
-    "Sn": 6,
-    "Sb": 3,
-    "Cr-total": 4,
+    "Al": 9,
+    "tAs": 13,
+    "Cd": 13,
+    "tHg": 7,
+    "Ni": 10,
+    "Pb": 11,
+    "Sn": 9,
+    "Sb": 6,
+    "Cr-total": 7,
     "Co": 2,
     "V": 2,
-    "iAs": 1,
+    "iAs": 2,
     "Cu": 1,
     "I": 1,
     "Fe": 1,
@@ -34,6 +37,9 @@
     "deterministic_parser_meli2024_table5_category_means": 21,
     "deterministic_parser_chekri2019_table5_food_category_ub": 18,
     "deterministic_parser_weldegebriel2025_table5_fruit_juice_medians": 4,
-    "deterministic_parser_fsa2016_table3_fruit_based_infant_foods": 16
+    "deterministic_parser_fsa2016_table3_fruit_based_infant_foods": 16,
+    "deterministic_parser_parker2022_table4_baby_food_categories": 12,
+    "deterministic_parser_damato2026_table3_rice_drinks": 2,
+    "deterministic_parser_milani2023_table3_soy_beverages": 24
   }
 }
