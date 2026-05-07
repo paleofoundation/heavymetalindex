@@ -40,7 +40,9 @@ and Category 1 pilot coverage registers.
   Prop 65 serving-based ppb equivalents, and HMTc/public interpretation notes.
 - `hmtc_standards_gap_report.csv`: generated standards triage report that reads
   the formula, baby-food compliance, plant-milk occurrence, TDS candidate, local
-  reingest, and regulatory crosswalk layers before assigning gap status.
+  reingest, and regulatory crosswalk layers before assigning gap status. It
+  labels bridge/base product nodes as context-only so they stay visible without
+  creating false HMTc p90 work.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.

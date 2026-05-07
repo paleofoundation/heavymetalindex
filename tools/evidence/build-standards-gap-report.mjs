@@ -41,6 +41,7 @@ const productSlugs = [...new Set([
 const reportRows = []
 for (const productSlug of productSlugs) {
   const product = productPages.get(productSlug) ?? { label: readableSlug(productSlug), metals: [] }
+  const productStandardScope = standardScopeForProduct(product)
   const metals = metalsForProduct(productSlug, product, valueRows, regulatoryRows, queueRows, includeQueueOnlyMetals)
 
   for (const metal of metals) {
@@ -83,6 +84,7 @@ for (const productSlug of productSlugs) {
 
     const status = aggregateStatus({
       metal,
+      productStandardScope,
       loadedRows,
       loadedRelatedSpeciesRows,
       distributionSourceIds,
@@ -97,6 +99,8 @@ for (const productSlug of productSlugs) {
     reportRows.push({
       product_slug: productSlug,
       product_label: product.label,
+      product_standard_scope: productStandardScope,
+      product_review_state: product.review_state,
       metal_species: metal,
       loaded_source_count: loadedSourceIds.length,
       loaded_n: sumNumeric(loadedRows.map((row) => row.n)),
@@ -125,6 +129,8 @@ for (const productSlug of productSlugs) {
 writeCsv(outputPath, reportRows, [
   "product_slug",
   "product_label",
+  "product_standard_scope",
+  "product_review_state",
   "metal_species",
   "loaded_source_count",
   "loaded_n",
@@ -154,6 +160,8 @@ const summary = {
   include_queue_only_metals: includeQueueOnlyMetals,
   occurrence_summary_files: occurrenceSummaryFiles,
   total_gap_rows: reportRows.length,
+  rows_in_locked_hmtc_scope: reportRows.filter((row) => row.product_standard_scope === "locked_hmtc_row").length,
+  rows_outside_locked_hmtc_scope: reportRows.filter((row) => row.product_standard_scope !== "locked_hmtc_row").length,
   by_aggregate_status: countBy(reportRows, (row) => row.aggregate_hmtc_p90_status),
   rows_with_pending_local_extracts: reportRows.filter((row) => Number(row.pending_local_extract_source_count) > 0).length,
   rows_with_missing_pdfs: reportRows.filter((row) => Number(row.missing_pdf_count) > 0).length,
@@ -166,6 +174,7 @@ console.log(`Wrote HMTc standards gap summary to ${path.relative(repoRoot, summa
 
 function aggregateStatus({
   metal,
+  productStandardScope,
   loadedRows,
   loadedRelatedSpeciesRows,
   distributionSourceIds,
@@ -181,6 +190,16 @@ function aggregateStatus({
   const missingCount = unique(p3Rows.map((row) => row.source_id)).length
   const loadedSourceCount = unique(loadedRows.map((row) => row.source_id).filter(Boolean)).length
   const relatedOnlyCount = loadedRelatedSpeciesRows.length + tdsRelatedSpeciesCandidates.length
+
+  if (productStandardScope !== "locked_hmtc_row") {
+    const isContextOnly = productStandardScope === "bridge_context" || productStandardScope === "base_context"
+    return {
+      status: isContextOnly ? "CONTEXT ONLY: not a locked HMTc standards row" : "OUT OF SCOPE: not a locked HMTc standards row",
+      evidence_needed:
+        "Keep this row visible for source routing and exposure context; do not compute an HMTc p90 unless it is promoted into the locked row architecture.",
+      notes: `Product scope: ${productStandardScope}.`,
+    }
+  }
 
   if (loadedRows.length === 0 && relatedOnlyCount > 0 && speciesNeedsExactMatch(metal)) {
     return {
@@ -374,10 +393,24 @@ function readProductPages() {
     products.set(slug, {
       label: parsed.data.label || parsed.data.title || readableSlug(slug),
       metals: asArray(parsed.data.primary_metals_of_concern),
+      hmtc_category: parsed.data.hmtc_category ?? "",
+      hmtc_row: parsed.data.hmtc_row ?? "",
+      variant_type: parsed.data.variant_type ?? "",
+      review_state: parsed.data.review_state ?? "",
     })
   }
 
   return products
+}
+
+function standardScopeForProduct(product) {
+  if (hasValue(product.hmtc_category) && hasValue(product.hmtc_row)) return "locked_hmtc_row"
+
+  const variantType = String(product.variant_type || "")
+  if (variantType === "bridge") return "bridge_context"
+  if (variantType === "base") return "base_context"
+
+  return "not_locked_hmtc_row"
 }
 
 function parseArgs(argv) {
