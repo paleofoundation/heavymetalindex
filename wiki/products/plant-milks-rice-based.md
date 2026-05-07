@@ -56,6 +56,24 @@ The same source reports consumer-only dietary exposure estimates that are import
 
 The iAs measurements are finished rice-based beverages. They should not be copied into [[ingredients/rice]] as ingredient-only values. The rice ingredient node can link to this source as related finished-product evidence.
 
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## HMTc Evidence Summary
+
+<!-- audience: regulator, educator, app -->
+
+This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+
+Clean benchmark rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMTc value must be no higher than the lowest applicable loaded regulatory cap.
+
+| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Blocked: documented sources are context-only for this row. | No loaded cap |
+| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=25 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| [[metals/arsenic-inorganic]] (iAs) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=25 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | 30 ug/kg (eu2023_ias_rice_drinks_30) |
+
+<!-- END: hmi-hmtc-evidence-summary -->
+
 ## Sources
 
 - [[sources/damato2026-inorganic-arsenic-rice-based-beverages]]

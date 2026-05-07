@@ -45,7 +45,7 @@ The Markdown extraction of Table 4 is partially degraded, so the source page ret
 
 ## Implications
 
-Certification: Useful warning-range context for nickel in infant formula milk brands. It is not row-specific evidence for cow-milk/non-soy formula and is not enough by itself to select an aggregate p90 with 95% confidence.
+Certification: Useful warning-range context for nickel in infant formula milk brands. It is not row-specific evidence for cow-milk/non-soy formula and is not enough by itself to select an aggregate row-standard percentile with 95% confidence.
 
 Courses: Useful example of why outlier/high-maximum sources need image verification before entering standards math.
 

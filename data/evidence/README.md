@@ -93,6 +93,13 @@ and Category 1 pilot coverage registers.
   each unresolved product/metal standards action. Human work is scoped to source
   retrieval, low-confidence exceptions, policy conflicts, and final governance
   approval rather than routine row sorting.
+- Product-page `HMTc Evidence Summary` blocks: generated from
+  `hmtc_standards_gap_report.csv` by
+  `tools/evidence/apply-product-hmtc-evidence-summaries.mjs`. These blocks
+  answer the row-standard percentile question in one place: clean rows use
+  aggregate P90, contaminated rows use aggregate P10 by default, source
+  percentiles remain context until admitted into the aggregate pool, and final
+  values remain capped by the lowest loaded applicable regulatory ceiling.
 - `schema/*.json`: JSON Schemas for the tracked JSONL records.
 - `drafts/`: unreviewed scan output, review queues, and source page
   candidates. Draft records are not public evidence.
@@ -118,6 +125,8 @@ and Category 1 pilot coverage registers.
   report.
 - `npm run evidence:ai-adjudication`: rebuilds the machine adjudication queue
   from the current HMTc standards action queue.
+- `npm run evidence:standards-summary`: refreshes generated HMTc Evidence
+  Summary blocks on product pages from the current standards gap report.
 
 ## Review Boundary
 

@@ -153,7 +153,7 @@ FDA's FY2018-FY2020 Total Diet Study elements dataset reports 29,148 analytical-
 
 ## Row routing
 
-The dataset is routed primarily to [[ingredients/index]] because the TDS foods are prepared foods and composites rather than HMTc product rows. Apple juice and grapefruit juice also update the Category 5 and Category 1 juice routing surfaces because those rows already distinguish apple-containing and non-apple juice. Reviewed juice route rows are tracked in `data/evidence/category5_tds_finished_food_occurrence_summary.csv`; they remain small-N single-food occurrence context, not HMTc aggregate p90 values. The source should not be used for brand rankings, current brand claims, or HMTc thresholds.
+The dataset is routed primarily to [[ingredients/index]] because the TDS foods are prepared foods and composites rather than HMTc product rows. Apple juice and grapefruit juice also update the Category 5 and Category 1 juice routing surfaces because those rows already distinguish apple-containing and non-apple juice. Reviewed juice route rows are tracked in `data/evidence/category5_tds_finished_food_occurrence_summary.csv`; they remain small-N single-food occurrence context, not HMTc aggregate threshold values. The source should not be used for brand rankings, current brand claims, or HMTc thresholds.
 
 ## Methods (brief)
 

@@ -357,7 +357,7 @@ Notes: Backfilled FSA/Fera 2016 Table 3 other-savoury infant-food tAs, iAs, Cd, 
 
 ## [2026-05-07] extract | fda2011-apple-juice-ias-speciation — Apple-juice iAs rows structured
 Pages affected: [[sources/fda2011-apple-juice-arsenic-speciation]], [[products/fruit-juices-apple-containing]], [[products/fruit-juice-not-canned]]
-Notes: Added FDA 2011 single-strength apple-juice arsenic speciation sample and summary rows. The lower-bound iAs summary uses 94 FDA sample rows, treats TR values as 0 ppb only for the documented deterministic lower-bound percentile calculation, and keeps total arsenic separate from inorganic arsenic. This resolves the apple-containing juice iAs species gap but remains one historical source, not an HMTc aggregate p90.
+Notes: Added FDA 2011 single-strength apple-juice arsenic speciation sample and summary rows. The lower-bound iAs summary uses 94 FDA sample rows, treats TR values as 0 ppb only for the documented deterministic lower-bound percentile calculation, and keeps total arsenic separate from inorganic arsenic. This resolves the apple-containing juice iAs species gap but remains one historical source, not an HMTc row-standard aggregate.
 
 ## [2026-05-07] extract | fda2016-grape-juice-ias — Grape-category juice iAs rows structured
 Pages affected: [[sources/fda2016-infant-toddler-foods-inorganic-arsenic]], [[products/fruit-juices-non-apple]], [[products/fruit-juice-not-canned]], [[methodology/persistent-wiki-ingest-rule]]
@@ -366,3 +366,7 @@ Notes: Added FDA 2016 grape and grape-containing juice inorganic-arsenic sample 
 ## [2026-05-07] tooling | ai-adjudication-queue — standards blockers assigned to machine adjudication
 Pages affected: [[methodology/persistent-wiki-ingest-rule]], [[methodology/quality-assurance-audit-protocol]], [[products/infant-formula-powder-non-soy]]
 Notes: Added a generated AI adjudication queue that converts HMTc standards action rows into machine tasks with required decisions, input artifacts, confidence gates, expected outputs, and human exception triggers. Deterministic extraction remains the boundary for source numbers and reproducible calculations; AI adjudication is now the explicit layer for row fit, basis, analyte species, statistic usability, Evidence Fitness, and standards readiness.
+
+## [2026-05-07] tooling | hmtc-evidence-summary-blocks — product pages answer row-standard target
+Pages affected: [[products/baby-cereals-dry-non-rice]], [[products/baby-cereals-dry-rice-based]], [[products/root-vegetable-purees]], [[products/fruit-juice-not-canned]]
+Notes: Added generated HMTc Evidence Summary blocks to locked product pages from the standards gap report. The block states the row-standard target, evidence pool state, confidence/readiness gate, and lowest loaded regulatory cap without publishing final HMTc limits. Clean rows use aggregate P90; contaminated-platform rows use aggregate P10 by default or P20 only when explicitly selected. Source-level percentiles remain context until admitted into the exact-row aggregate pool.

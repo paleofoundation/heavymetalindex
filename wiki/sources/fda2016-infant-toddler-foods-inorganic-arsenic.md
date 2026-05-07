@@ -48,7 +48,7 @@ This is EF-3 limited/reconstructable evidence. The full analytical table support
 ## Limitations
 
 - The dataset is a grape-category FDA table, not a complete non-apple juice market distribution.
-- The quantified-cell p90 is a transparent internal occurrence summary, not a source-reported percentile and not an HMTc aggregate p90.
+- The quantified-cell p90 is a transparent internal occurrence summary, not a source-reported percentile and not an HMTc row-standard aggregate.
 - `NS` rows remain not speciated; total arsenic is not substituted for inorganic arsenic.
 - Apple-grape and white-grape-peach blend rows remain visible in the sample extract and must not be silently treated as pure non-apple juice.
 

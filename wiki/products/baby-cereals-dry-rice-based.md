@@ -61,6 +61,26 @@ This page is part of the Category 1 Evidence Fitness pilot. It summarizes source
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## HMTc Evidence Summary
+
+<!-- audience: regulator, educator, app -->
+
+This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+
+Clean benchmark rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMTc value must be no higher than the lowest applicable loaded regulatory cap.
+
+| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=256 | Below confidence gate: only one fit distribution source is loaded. | 20 ug/kg (fda2025_pb_dry_infant_cereal_20) |
+| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=252 | Below confidence gate: only one fit distribution source is loaded. | 40 ug/kg (eu2023_cd_babyfood_cereal_40) |
+| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=253 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
+| [[metals/arsenic-inorganic]] (iAs) | contaminated-platform P10 | 2 sources; 0 distribution sources; 2 summary sources; N=272 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | 100 ug/kg (fda2020_ias_infant_rice_cereal_100) |
+| [[metals/mercury-total]] (tHg) | contaminated-platform P10 | 1 source; 1 distribution source; 0 summary sources; N=64 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
+| [[metals/nickel]] (Ni) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+
+<!-- END: hmi-hmtc-evidence-summary -->
+
 ## Lead Benchmark Context
 
 <!-- audience: regulator, educator, consumer, app -->

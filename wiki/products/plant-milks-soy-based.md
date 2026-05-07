@@ -43,7 +43,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 | --- | --- | --- | --- | --- |
 | [[metals/aluminum]] (Al) | No federal product-specific limit loaded in this crosswalk. | Milani 2023: Al means 758, 609, and 176 ug/L by soy source; max range endpoint 1822 ug/L. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
 | [[metals/arsenic-total]] (tAs); [[metals/cadmium]] (Cd); [[metals/lead]] (Pb); [[metals/tin]] (Sn) | No federal/product-specific limit loaded yet. Source-cited non-U.S. thresholds require direct legal-source, unit, basis, and species review. | tAs <38.2 ug/L; Cd <3.8 ug/L; Pb mostly <10.9 ug/L with soybean group mean 2.2 ug/L; Sn <18 ug/L except isolate mean 4.3 ug/L. | No compliance read yet. Load the direct legal text before using this row in regulatory or litigation analysis. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
-| [[metals/chromium]] (total/unspecified Cr); [[metals/antimony]] (Sb) | No product-specific Cr or Sb value loaded in this crosswalk. | Milani 2023: Cr isolate mean 1.8 ug/L with range <10.9-11.0; hydrosoluble and soybean groups <10.9 ug/L. Sb means 6.2, 2.5, and 12 ug/L with range endpoints up to 61 ug/L. | Occurrence context only. Cr is not species-confirmed Cr-VI, and censored bounds are retained as reported. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
+| Cr-total; Sb | No federal product-specific limit loaded in this crosswalk. | Milani 2023: Cr isolate mean 1.8 ug/L with range <10.9-11.0; hydrosoluble and soybean groups <10.9 ug/L. Sb means 6.2, 2.5, and 12 ug/L with range endpoints up to 61 ug/L. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/milani2023-trace-elements-soy-based-beverages]] |
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -58,6 +58,28 @@ Milani reports chromium as total/unspecified Cr and antimony as Sb in the finish
 ## Ingredient Handling
 
 Ingredient-only values belong on [[ingredients/soy]] or [[ingredients/plant-milk]]. Milani's values are finished beverage values, so they remain here and in the structured occurrence data layer.
+
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## HMTc Evidence Summary
+
+<!-- audience: regulator, educator, app -->
+
+This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+
+Clean benchmark rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMTc value must be no higher than the lowest applicable loaded regulatory cap.
+
+| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=18 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=18 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=18 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| [[metals/aluminum]] (Al) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=18 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| [[metals/nickel]] (Ni) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=18 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| [[metals/tin]] (Sn) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=18 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| Cr-total | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=18 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| Sb | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=18 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+
+<!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources
 

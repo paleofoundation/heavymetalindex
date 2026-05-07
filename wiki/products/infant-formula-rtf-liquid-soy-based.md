@@ -60,6 +60,27 @@ This page is part of the Category 1 Evidence Fitness pilot. It summarizes source
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## HMTc Evidence Summary
+
+<!-- audience: regulator, educator, app -->
+
+This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+
+Clean benchmark rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMTc value must be no higher than the lowest applicable loaded regulatory cap.
+
+| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
+| --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | contaminated-platform P10 | 2 sources; 1 distribution source; 1 summary source; N=17 | Below confidence gate: only one fit distribution source is loaded. | 10 ug/kg (eu2023_pb_formula_liquid_10) |
+| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=33 | Below confidence gate: only one fit distribution source is loaded. | 10 ug/kg (eu2023_cd_formula_soy_liquid_10) |
+| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 1 source; 1 distribution source; 0 summary sources; N=3 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
+| [[metals/arsenic-inorganic]] (iAs) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: exact analyte species is missing. | 10 ug/kg (eu2023_ias_formula_liquid_10) |
+| [[metals/mercury-total]] (tHg) | contaminated-platform P10 | 1 source; 1 distribution source; 0 summary sources; N=3 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
+| [[metals/aluminum]] (Al) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=14 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+| [[metals/nickel]] (Ni) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+
+<!-- END: hmi-hmtc-evidence-summary -->
+
 ## Lead Benchmark Context
 
 <!-- audience: regulator, educator, consumer, app -->
