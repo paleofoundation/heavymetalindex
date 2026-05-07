@@ -1,5 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
+import { writeStableJsonSummary } from "./stable-json-summary.mjs"
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
@@ -65,7 +66,7 @@ const summary = {
   by_metal: countBy(candidateRows, (row) => row.metal_species),
   by_extraction_method: countBy(candidateRows, (row) => row.extraction_method),
 }
-fs.writeFileSync(summaryPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8")
+writeStableJsonSummary(summaryPath, summary)
 
 console.log(`Wrote ${candidateRows.length} deterministic local candidate rows to ${path.relative(repoRoot, outputPath)}`)
 console.log(`Wrote ${taskRows.length} local extraction task rows to ${path.relative(repoRoot, tasksPath)}`)

@@ -2,6 +2,7 @@ import crypto from "node:crypto"
 import fs from "node:fs"
 import path from "node:path"
 import { spawnSync } from "node:child_process"
+import { writeStableJsonSummary } from "./stable-json-summary.mjs"
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
@@ -123,7 +124,7 @@ const summary = {
     "data/evidence/local_ingest_sync_summary.json",
   ],
 }
-fs.writeFileSync(summaryPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8")
+writeStableJsonSummary(summaryPath, summary)
 
 console.log("")
 console.log("Local evidence sync complete.")

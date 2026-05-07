@@ -2,6 +2,7 @@ import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
 import matter from "gray-matter"
+import { writeStableJsonSummary } from "./stable-json-summary.mjs"
 
 const repoRoot = process.cwd()
 const routingAuditPath = path.join(repoRoot, "data/evidence/product_source_routing_audit.csv")
@@ -68,7 +69,7 @@ const summary = {
   by_local_pdf_status: countBy(queueRows, (row) => row.local_pdf_status),
   by_route_status: countBy(queueRows, (row) => row.route_status),
 }
-fs.writeFileSync(summaryPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8")
+writeStableJsonSummary(summaryPath, summary)
 
 console.log(`Wrote ${queueRows.length} local reingest queue rows to ${path.relative(repoRoot, outputPath)}`)
 console.log(`Wrote local reingest summary to ${path.relative(repoRoot, summaryPath)}`)
