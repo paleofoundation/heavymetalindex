@@ -24,13 +24,13 @@ cc_relationship:
   scope: none
   partners: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-07
 sources: 8
 ---
 
 # Fruit Purees
 
-This page is a structural scaffold for HMTc Category 1 row 7. Quantitative evidence now includes FDA compliance fruit samples, a small fruit baby-food distribution, and broader fruit-based infant-food category values; fruit-by-fruit puree p10/p90/p100 distributions remain incomplete.
+This page is a structural scaffold for HMTc Category 1 row 7. Value-level structured evidence now includes FDA compliance fruit samples, Chekri fruit-puree TDS rows, FSA/Fera fruit-based infant-food category means, Meli homogenized fruit-product rows, and Parker fruit baby-food summaries; fruit-by-fruit puree p10/p90/p100 distributions remain incomplete.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -41,10 +41,10 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 | Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
 | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]]: Federal FDA final action level: 10 ug/kg Pb. Scope: fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2. Basis: as sold or ready-to-eat as applicable. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Regulatory value loaded; field-finding comparison blocked until puree rows are extracted. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
-| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods. Basis: product as placed on market. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | EU maximum level loaded; field-finding comparison blocked until puree rows are extracted. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
-| [[metals/cadmium]] (Cd) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and processed cereal-based food for infants and young children. Basis: product as placed on market. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | EU maximum level loaded; field-finding comparison blocked until puree rows are extracted. | [[regulations/eu-2023-915-cadmium]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
-| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: baby food for infants and young children. Basis: product as placed on market. | FSA/Fera and other promoted sources support occurrence narrative; structured iAs row extraction pending. | EU maximum level loaded; comparison blocked until inorganic-arsenic puree rows are extracted. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fera2014-fsa-metals-infant-foods-formula]] |
+| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]]: Federal FDA final action level: 10 ug/kg Pb. Scope: fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2. Basis: as sold or ready-to-eat as applicable. | FDA fruit samples: p90 2.4 ppb, max 8 ppb. Parker fruit baby foods: mean 2.7 ppb, median 1.5 ppb, max 5 ppb. FSA/Fera fruit-based infant foods: source LB-UB mean 1-3 ppb. | Loaded values sit below the FDA 10 ppb action level where directly comparable, but HMTc aggregate p90 is still blocked until more fit distribution-capable sources are loaded. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]; [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods. Basis: product as placed on market. | FDA fruit samples: p90 2.4 ppb, max 8 ppb. Meli homogenized fruit products: Pb <100 ppb as a censored wet-weight source table value. | Most loaded occurrence rows are below 20 ppb, but Meli's Pb LOD is above both FDA and EU reference values; comparison remains source-specific, not a pass/fail aggregate. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/meli2024-chemical-characterization-baby-food-italy]] |
+| [[metals/cadmium]] (Cd) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and processed cereal-based food for infants and young children. Basis: product as placed on market. | FDA fruit samples: p90 2.2 ppb, max 4 ppb. Parker fruit baby foods: mean 4.4 ppb, median 1.5 ppb, max 16 ppb. Chekri fruit purees: mean 0.66 ppb, max 2 ppb. | Loaded Cd rows are below the EU 40 ppb maximum where comparable, but the row still lacks a multi-source fit aggregate p90. | [[regulations/eu-2023-915-cadmium]]; [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]; [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] |
+| [[metals/arsenic-inorganic]] (iAs) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: baby food for infants and young children. Basis: product as placed on market. | FSA/Fera fruit-based infant foods: source LB-UB mean 1-4 ppb iAs; Signes-Pastor remains biomarker/food-diary context, not occurrence evidence. | Species-specific iAs evidence is now loaded as context/summary, but it does not replace fruit-puree-only distribution evidence or total-arsenic rows. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fsa2016-infant-food-formula-metals-survey]]; [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] |
 
 <!-- END: hmi-product-crosswalk -->
 
@@ -78,8 +78,8 @@ Full crosswalk: [[products/lead-benchmark-context]].
 
 ## Scaffold Status
 
-- Page state: evidence-backed scaffold with first distribution entries; row-specific synthesis remains incomplete.
-- Source coverage: measured-values and distribution tables populated from promoted sources; row-fit caveats remain in the tables.
+- Page state: evidence-backed scaffold with first distribution and summary entries; row-specific synthesis remains incomplete.
+- Source coverage: structured rows now cover FDA 2024, Chekri 2019, FSA/Fera 2016, Meli 2024, and Parker 2022; row-fit caveats remain in the tables.
 - Next ingest target: fruit puree concentration datasets across the Category 1 metal panel that report individual-product percentile distributions.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
@@ -88,6 +88,8 @@ Full crosswalk: [[products/lead-benchmark-context]].
 <!-- audience: regulator, educator, app -->
 
 Parker 2022 provides a small fruit baby-food distribution with N=9. It supports min/mean/median/max summaries for total arsenic, cadmium, mercury, and lead, but it does not provide p10 or p90 and does not separate apple, pear, peach, banana, or other fruit types. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+
+The structured backfill also loads Chekri 2019 fruit-puree mean/range rows, FSA/Fera 2016 fruit-based infant-food lower-bound/upper-bound means, and Meli 2024 homogenized fruit-product means or censored values. These rows improve occurrence context but do not publish an HMTc aggregate p90.
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
@@ -111,6 +113,8 @@ Fruit-puree evidence comes from fruit baby-food distributions, fruit-based infan
 | [[metals/lead|Lead]] | Parker 2022 fruit baby foods | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Fruit group, N=9; no p10/p90. |
 | [[metals/cadmium|Cadmium]] | Parker 2022 fruit baby foods | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Fruit group, N=9; includes substitution conventions. |
 | [[metals/arsenic-total|Total arsenic]] | Parker 2022 fruit baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median 5 ppb; max 5 ppb | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Total arsenic, not iAs. |
+| [[metals/aluminum|Aluminum]], [[metals/nickel|Nickel]], [[metals/tin|Tin]], and [[metals/mercury-total|Total mercury]] | Meli 2024 homogenized fruit products | Al mean 580 ppb; Ni mean 137 ppb; Sn mean 98 ppb; tHg mean 7.2 ppb | same as reported ppb wet weight | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Apple, pear, and banana homogenized products; N=3; no percentiles. |
+| [[metals/arsenic-total|Total arsenic]], [[metals/cadmium|Cadmium]], and [[metals/lead|Lead]] | Meli 2024 homogenized fruit products | tAs <19.7 ppb; Cd <5 ppb; Pb <100 ppb | censored source table values | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Wet-weight category row; Pb LOD is too high for low-level regulatory comparison. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | Popular fruit and vegetable purees cited in infant arsenic study | up to 20 ug/kg | up to 20 ppb | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Secondary citation combines fruit and vegetable purees. |
 | [[metals/arsenic-total|Total arsenic]] | UK fruit-based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Fruit-based group, not puree-only. |
 | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK fruit-based infant foods/dishes | 1 to 4 ug/kg | 1 to 4 ppb | [[sources/fsa2016-infant-food-formula-metals-survey]] | Fruit-based group, not puree-only. |

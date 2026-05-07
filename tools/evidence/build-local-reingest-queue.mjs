@@ -7,6 +7,7 @@ import { writeStableJsonSummary } from "./stable-json-summary.mjs"
 const repoRoot = process.cwd()
 const routingAuditPath = path.join(repoRoot, "data/evidence/product_source_routing_audit.csv")
 const rawInventoryPath = path.join(repoRoot, "data/evidence/raw_ingest_inventory.csv")
+const contextDispositionPath = path.join(repoRoot, "data/evidence/local_reingest_context_dispositions.csv")
 const sourceDir = path.join(repoRoot, "wiki/sources")
 const outputPath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
 const summaryPath = path.join(repoRoot, "data/evidence/local_reingest_summary.json")
@@ -33,16 +34,24 @@ const includeVisibleBroadContext = args.get("include-visible-broad-context") ===
 
 const routingRows = fs.existsSync(routingAuditPath) ? parseCsv(fs.readFileSync(routingAuditPath, "utf8")) : []
 const rawInventoryRows = fs.existsSync(rawInventoryPath) ? parseCsv(fs.readFileSync(rawInventoryPath, "utf8")) : []
+const contextDispositionRows = fs.existsSync(contextDispositionPath)
+  ? parseCsv(fs.readFileSync(contextDispositionPath, "utf8"))
+  : []
 const sourcePages = readSourcePages()
 const rawInventoryBySource = indexRawInventoryBySource(rawInventoryRows)
+const contextDispositionKeys = new Set(
+  contextDispositionRows.map((row) => routeMetalKey(row.product_slug, row.source_id, row.metal_species)),
+)
 
 const candidateQueueRows = routingRows
   .filter((row) => !productFilter || row.product_slug === productFilter)
   .filter((row) => includeStructured || row.route_status !== "structured_values_present")
   .map((row) => buildQueueRow(row))
 
-const excludedVisibleBroadContextRows = candidateQueueRows.filter(isVisibleBroadContextRow)
-const queueRows = candidateQueueRows
+const excludedContextDispositionRows = candidateQueueRows.filter(isFullyDispositionedRoute)
+const candidateRowsNeedingReview = candidateQueueRows.filter((row) => !isFullyDispositionedRoute(row))
+const excludedVisibleBroadContextRows = candidateRowsNeedingReview.filter(isVisibleBroadContextRow)
+const queueRows = candidateRowsNeedingReview
   .filter((row) => includeVisibleBroadContext || !isVisibleBroadContextRow(row))
   .sort((a, b) => a.priority_rank - b.priority_rank || a.product_slug.localeCompare(b.product_slug) || a.source_id.localeCompare(b.source_id))
 
@@ -71,6 +80,7 @@ const summary = {
   product_filter: productFilter || "all",
   include_structured: includeStructured,
   include_visible_broad_context: includeVisibleBroadContext,
+  excluded_context_disposition_rows: excludedContextDispositionRows.length,
   excluded_visible_broad_context_rows: includeVisibleBroadContext ? 0 : excludedVisibleBroadContextRows.length,
   total_queue_rows: queueRows.length,
   by_priority: countBy(queueRows, (row) => row.priority),
@@ -220,6 +230,40 @@ function isVisibleBroadContextRow(row) {
     (row.evidence_use === "broad_context_pending_row_fit" ||
       row.evidence_use === "partial_structured_value_candidate")
   )
+}
+
+function isFullyDispositionedRoute(row) {
+  const metals = splitMetals(row.missing_metal_species || row.metal_species || row.metals_declared)
+  if (metals.length === 0) return false
+  return metals.every((metal) => contextDispositionKeys.has(routeMetalKey(row.product_slug, row.source_id, metal)))
+}
+
+function routeMetalKey(productSlug, sourceId, metal) {
+  return `${productSlug}::${sourceId}::${canonicalMetal(metal)}`
+}
+
+function canonicalMetal(value) {
+  const normalized = String(value || "").trim()
+  const lower = normalized.toLowerCase()
+  if (lower === "cr") return "Cr-total"
+  if (lower === "hg") return "tHg"
+  if (lower === "as") return "tAs"
+  if (lower === "lead") return "Pb"
+  if (lower === "cadmium") return "Cd"
+  if (lower === "arsenic") return "tAs"
+  if (lower === "inorganic arsenic") return "iAs"
+  if (lower === "mercury") return "tHg"
+  if (lower === "methylmercury") return "MeHg"
+  return normalized
+}
+
+function splitMetals(value) {
+  return String(value || "")
+    .replace(/^\[/, "")
+    .replace(/\]$/, "")
+    .split(/[;,]/)
+    .map((metal) => metal.trim())
+    .filter(Boolean)
 }
 
 function guardrailsFor(row, source) {

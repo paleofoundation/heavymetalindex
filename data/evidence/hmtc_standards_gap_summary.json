@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T14:35:55.784Z",
+  "generated_at": "2026-05-07T14:57:19.045Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "occurrence_summary_files": [
@@ -9,22 +9,22 @@
     "data/evidence/category5_plant_milk_occurrence_summary.csv",
     "data/evidence/category5_tds_finished_food_occurrence_summary.csv"
   ],
-  "total_gap_rows": 206,
-  "rows_in_locked_hmtc_scope": 168,
+  "total_gap_rows": 219,
+  "rows_in_locked_hmtc_scope": 181,
   "rows_outside_locked_hmtc_scope": 38,
   "by_aggregate_status": {
     "DO NOT PUBLISH P90: single distribution-capable source": 55,
-    "BLOCKED: summary evidence only": 57,
+    "BLOCKED: summary evidence only": 71,
     "BLOCKED: no structured evidence loaded": 34,
     "BLOCKED: documented local sources are context-only": 5,
-    "BLOCKED: species-specific evidence missing": 8,
+    "BLOCKED: species-specific evidence missing": 7,
     "CONTEXT ONLY: not a locked HMTc standards row": 26,
     "OUT OF SCOPE: not a locked HMTc standards row": 12,
     "BLOCKED: evidence fitness review needed": 9
   },
   "rows_with_pending_local_extracts": 0,
   "rows_with_missing_pdfs": 1,
-  "rows_with_local_candidate_values": 27,
+  "rows_with_local_candidate_values": 22,
   "rows_with_context_dispositions": 38,
   "rows_with_tds_product_route_candidates": 8
 }
