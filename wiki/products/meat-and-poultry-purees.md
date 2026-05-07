@@ -25,12 +25,12 @@ cc_relationship:
   partners: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 1
+sources: 3
 ---
 
 # Meat And Poultry Purees
 
-This page is a structural scaffold for HMTc Category 1 row 10. One broad baby-food analytical source has been promoted from `raw/` to `wiki/sources/`; meat-and-poultry puree-specific distributions are still pending.
+This page is a structural scaffold for HMTc Category 1 row 10. Broad baby-food analytical sources and a small Meli 2024 meat-homogenate summary are promoted; meat-and-poultry puree-specific distributions are still pending.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -41,9 +41,9 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 | Metal | Federal / regulatory limit | Actual field finding | Decision read | Evidence |
 | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]]: Federal FDA final action level: 10 ug/kg Pb. Scope: fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2. Basis: as sold or ready-to-eat as applicable. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | Regulatory value loaded; field-finding comparison blocked until meat/poultry rows are extracted. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/fsa2016-infant-food-formula-metals-survey]] |
-| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods. Basis: product as placed on market. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | EU maximum level loaded; field-finding comparison blocked until meat/poultry rows are extracted. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/fsa2016-infant-food-formula-metals-survey]] |
-| [[metals/cadmium]] (Cd) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and processed cereal-based food for infants and young children. Basis: product as placed on market. | Promoted field evidence exists, but comparable product-row values have not been extracted yet. | EU maximum level loaded; field-finding comparison blocked until meat/poultry rows are extracted. | [[regulations/eu-2023-915-cadmium]]; [[sources/fsa2016-infant-food-formula-metals-survey]] |
+| [[metals/lead]] (Pb) | [[regulations/fda2025-lead-processed-baby-foods]]: Federal FDA final action level: 10 ug/kg Pb. Scope: fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2. Basis: as sold or ready-to-eat as applicable. | Meli 2024 reports Pb <100 ug/kg wet weight in four homogenized meat products; the reporting limit is above the FDA 10 ug/kg and EU 20 ug/kg Pb reference values. | Regulatory value loaded; comparison blocked because the source Pb reporting limit is higher than the reference value. | [[regulations/fda2025-lead-processed-baby-foods]]; [[sources/meli2024-chemical-characterization-baby-food-italy]] |
+| [[metals/lead]] (Pb) | [[regulations/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods. Basis: product as placed on market. | Meli 2024 reports Pb <100 ug/kg wet weight in four homogenized meat products; the reporting limit is above the FDA 10 ug/kg and EU 20 ug/kg Pb reference values. | EU maximum level loaded; comparison blocked because the source Pb reporting limit is higher than the reference value. | [[regulations/eu2023-contaminants-maximum-levels]]; [[sources/meli2024-chemical-characterization-baby-food-italy]] |
+| [[metals/cadmium]] (Cd) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and processed cereal-based food for infants and young children. Basis: product as placed on market. | Meli 2024 reports Cd <5 ug/kg wet weight in four homogenized meat products; this is a censored small-N source summary. | EU maximum level loaded; censored upper bound is below 40 ug/kg but remains summary evidence only. | [[regulations/eu-2023-915-cadmium]]; [[sources/meli2024-chemical-characterization-baby-food-italy]] |
 
 <!-- END: hmi-product-crosswalk -->
 

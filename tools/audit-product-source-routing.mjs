@@ -7,6 +7,12 @@ const sourceDir = path.join(repoRoot, "wiki/sources")
 const productDir = path.join(repoRoot, "wiki/products")
 const valuesPath = path.join(repoRoot, "data/evidence/values.jsonl")
 const outputPath = path.join(repoRoot, "data/evidence/product_source_routing_audit.csv")
+const occurrenceSummaryFiles = [
+  "data/evidence/category1_formula_concentration_summary.csv",
+  "data/evidence/category1_fda_baby_food_compliance_summary.csv",
+  "data/evidence/category1_local_baby_food_occurrence_summary.csv",
+  "data/evidence/category5_plant_milk_occurrence_summary.csv",
+]
 
 const auditedProductPages = readAuditedProductPages()
 const targetProducts = [...auditedProductPages.keys()].sort()
@@ -149,7 +155,7 @@ const productPages = new Map(
   [...auditedProductPages.entries()].map(([slug, product]) => [slug, product.text]),
 )
 
-const valueRows = readJsonl(valuesPath)
+const valueRows = [...readJsonl(valuesPath), ...readOccurrenceRouteRows()]
 const valueRowsBySourceProduct = new Map()
 for (const row of valueRows) {
   const sourceId = String(row.source_id || "")
@@ -419,6 +425,75 @@ function readJsonl(filePath) {
     .split(/\r?\n/)
     .filter(Boolean)
     .map((line) => JSON.parse(line))
+}
+
+function readOccurrenceRouteRows() {
+  const rows = []
+
+  for (const relativePath of occurrenceSummaryFiles) {
+    const filePath = path.join(repoRoot, relativePath)
+    if (!fs.existsSync(filePath)) continue
+
+    for (const row of parseCsv(fs.readFileSync(filePath, "utf8"))) {
+      const sourceId = String(row.source_id || "").trim()
+      const productSlug = String(row.row_slug || row.product_slug || "").trim()
+      if (!sourceId || !productSlug) continue
+
+      for (const metal of asStringArray(row.metal_species)) {
+        rows.push({
+          source_id: sourceId,
+          product_matrix: productSlug,
+          metal_species: canonicalMetal(metal),
+          evidence_file: relativePath,
+        })
+      }
+    }
+  }
+
+  return rows
+}
+
+function parseCsv(text) {
+  const rows = []
+  let row = []
+  let field = ""
+  let quoted = false
+
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index]
+    const next = text[index + 1]
+    if (quoted && char === '"' && next === '"') {
+      field += '"'
+      index += 1
+      continue
+    }
+    if (char === '"') {
+      quoted = !quoted
+      continue
+    }
+    if (!quoted && char === ",") {
+      row.push(field)
+      field = ""
+      continue
+    }
+    if (!quoted && (char === "\n" || char === "\r")) {
+      if (char === "\r" && next === "\n") index += 1
+      row.push(field)
+      rows.push(row)
+      row = []
+      field = ""
+      continue
+    }
+    field += char
+  }
+
+  if (field || row.length) {
+    row.push(field)
+    rows.push(row)
+  }
+
+  const [headers = [], ...body] = rows.filter((line) => line.some((cell) => cell !== ""))
+  return body.map((cells) => Object.fromEntries(headers.map((header, index) => [header, cells[index] ?? ""])))
 }
 
 function firstHeading(text) {

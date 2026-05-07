@@ -295,3 +295,7 @@ Notes: Updated the local ingest results viewer and evidence README so candidate 
 ## [2026-05-07] tooling | standards-action-queue — gap statuses collapsed into next actions
 Pages affected: [[methodology/persistent-wiki-ingest-rule]]
 Notes: Added a generated HMTc standards action queue that turns the standards gap report into product/status action rows with priorities, sources, metals, guardrails, and suggested inspection commands. The result viewer now shows the action queue directly, reducing manual CSV triage while keeping candidate rows non-public and preserving the no-inferred-percentile guardrail.
+
+## [2026-05-07] extract | meli-milani-summary-promotions — P0 candidate rows promoted as summary context
+Pages affected: [[products/fish-containing-baby-foods]], [[products/meat-and-poultry-purees]], [[products/plant-milks-soy-based]], [[sources/meli2024-chemical-characterization-baby-food-italy]], [[sources/milani2023-trace-elements-soy-based-beverages]]
+Notes: Promoted reviewed summary-context rows for Meli 2024 fish/meat Pb and Cd censored findings and added the missing Milani 2023 soy-beverage Ni occurrence row. These rows remain summary evidence only; Pb comparisons stay blocked where the source reporting limit is above the regulatory reference, and no p50, p90, or p95 was inferred.

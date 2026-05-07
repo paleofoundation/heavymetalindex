@@ -25,6 +25,9 @@ and Category 1 pilot coverage registers.
   lower-bound p10/p50/p90/p95/p100 rows.
 - `category1_fda_baby_food_compliance_samples.csv`: parsed FDA sample-level
   baby/young-child food compliance rows with product-row mapping notes.
+- `category1_local_baby_food_occurrence_summary.csv`: reviewed small-sample
+  peer-reviewed baby-food occurrence summaries that are useful as product-row
+  context but not distribution-capable HMTc p90 evidence.
 - `category1_formula_concentration_summary.csv`: formula concentration
   summary rows from the FDA FY2023-FY2025 special survey and promoted Digest
   formula papers.
