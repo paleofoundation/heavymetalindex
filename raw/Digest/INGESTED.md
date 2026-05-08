@@ -1,6 +1,6 @@
 # Digest Ingest Log
 
-Updated: 2026-04-29
+Updated: 2026-05-08
 
 This folder records the Digest PDF batch supplied locally at `/Users/karenpendergrass/Desktop/heavy-metal-index/raw/Digest`. The PDFs themselves remain local raw evidence and are not committed because `raw/` is intentionally gitignored. Source pages in `wiki/sources/` point back to the expected raw paths.
 
@@ -16,6 +16,10 @@ This folder records the Digest PDF batch supplied locally at `/Users/karenpender
 - `nuaf138.pdf` -> [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 - `nickel_en.pdf` -> [[sources/lgc2003-nickel-piercing-post-assemblies]]
 - `toxic_element_infant_formula_prepared_for_posting_20260324.pdf` -> [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+- `Bookshelf_NBK599935.pdf` -> [[sources/atsdr2005-tin-toxicological-profile]]
+- `benoy1971.pdf` -> [[sources/benoy1971-tin-toxicity-canned-fruit-juices]]
+- `(330-333)V9N5PT.pdf` -> [[sources/tarigan2016-factors-tin-released-canned-beverages]]
+- `10.1016@0273-23008490006-0.pdf` -> [[sources/schafer1984-tin-toxic-heavy-metal-review]]
 
 ## Structured Extraction Completed
 
