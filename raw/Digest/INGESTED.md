@@ -20,6 +20,10 @@ This folder records the Digest PDF batch supplied locally at `/Users/karenpender
 - `benoy1971.pdf` -> [[sources/benoy1971-tin-toxicity-canned-fruit-juices]]
 - `(330-333)V9N5PT.pdf` -> [[sources/tarigan2016-factors-tin-released-canned-beverages]]
 - `10.1016@0273-23008490006-0.pdf` -> [[sources/schafer1984-tin-toxic-heavy-metal-review]]
+- `Analytical Results for Lead in Juice-Toxic Elements Food and Foodware Program (FY2005-FY2018).pdf` -> [[sources/fda2018-lead-in-juice-fy2005-fy2018]]
+- `Analytical-Results-for-Lead-in-Food-Intended-for-Babies-Young-Children-FY2020-FY2021.pdf` -> [[sources/fda2021-lead-baby-food-fy2020-fy2021]]
+- `leadinfood-babiesyoungchildren-fy2023-12302024.pdf` -> [[sources/fda2024-lead-baby-food-fy2023-guidance-basis]]
+- `TDS-ElementsAnalyticalResultsKey-TDS-Report-FY2018toFY2020-07082022_0.pdf` -> [[sources/fda2022-tds-elements-analytical-key]]
 
 ## Structured Extraction Completed
 
