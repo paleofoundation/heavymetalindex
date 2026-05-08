@@ -78,5 +78,6 @@ The local PDF was supplied in `raw/Working Together with ChatGPT/`. DOI and bibl
 
 ## Wiki Pages Updated On Ingest
 
+- [[metals/chromium-hexavalent]]
 - [[metals/chromium]]
 - [[products/infant-formula-powder-non-soy]]

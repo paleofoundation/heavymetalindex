@@ -91,7 +91,7 @@ These are the metal and species nodes this chapter directly supports on the wiki
 | --- | --- | --- |
 | Arsenic, including inorganic arsenic species and arsine | [[metals/arsenic]]; see also [[metals/arsenic-inorganic]] and [[metals/arsenic-total]] | Toxicokinetics, acute/chronic toxicity, carcinogenicity, treatment, biomarkers, methylation/excretion context. |
 | Cadmium | [[metals/cadmium]] | Exposure, toxicokinetics, renal/pulmonary/skeletal/cardiovascular/reproductive toxicity, carcinogenicity, treatment limits. |
-| Chromium | [[metals/chromium]] | Hexavalent/trivalent distinction, absorption, corrosivity, allergic contact dermatitis, renal injury, lung cancer and genotoxicity mechanisms. |
+| Chromium | [[metals/chromium]] (Cr-III and total); [[metals/chromium-hexavalent]] (Cr-VI) | Hexavalent/trivalent distinction, absorption, corrosivity, allergic contact dermatitis, renal injury, lung cancer and genotoxicity mechanisms. |
 | Lead | [[metals/lead]] | Exposure, child/adult toxicokinetics, neurodevelopmental toxicity, heme synthesis interference, renal/cardiovascular/bone effects, carcinogenicity, treatment. |
 | Mercury, methylmercury, inorganic mercury, elemental mercury vapor | [[metals/mercury]]; see also [[metals/mercury-methyl]] and [[metals/mercury-total]] | Global cycling, fish exposure, vapor/inorganic/methylmercury toxicokinetics, neurotoxicity, renal toxicity, treatment. |
 | Nickel | [[metals/nickel]] | Occupational/dietary exposure, inhalation absorption, contact dermatitis, nickel carbonyl poisoning, lung/nasal cancer, epigenetic mechanisms, treatment. |
@@ -144,7 +144,7 @@ The chapter emphasizes that children and elderly people may be more susceptible 
 | --- | --- | --- |
 | Arsenic | Toxic and carcinogenic metalloid; major environmental exposure from contaminated drinking water, rice, seafood, and occupational settings; inorganic arsenic is well absorbed and excreted largely in urine after methylation; chronic exposure targets skin, cardiovascular system, respiratory tract, liver, peripheral nerves, immune function, and cancer risk. | [[metals/arsenic]] |
 | Cadmium | Food, tobacco smoke, and occupational inhalation are major exposure routes; gastrointestinal absorption is limited but increased by iron/calcium deficiency and low-protein diet; half-life is measured in decades; primary chronic targets include kidney, lung, bone, cardiovascular system, reproductive/developmental endpoints, and cancer. | [[metals/cadmium]] |
-| Chromium | Hexavalent chromium is the high-concern carcinogenic form; trivalent chromium is less absorbed; Cr(VI) crosses membranes via sulfate/phosphate transporters and is associated with corrosive injury, allergic contact dermatitis, renal injury, and lung cancer. | [[metals/chromium]] |
+| Chromium | Hexavalent chromium is the high-concern carcinogenic form; trivalent chromium is less absorbed; Cr(VI) crosses membranes via sulfate/phosphate transporters and is associated with corrosive injury, allergic contact dermatitis, renal injury, and lung cancer. | [[metals/chromium-hexavalent]] (Cr-VI); [[metals/chromium]] (Cr-III and total) |
 | Lead | Major exposure routes include occupational dust/fume, lead paint, old housing dust, water infrastructure, food, and soil; children absorb and retain much more ingested lead than adults; targets include developing brain, heme synthesis, kidney, cardiovascular system, immune system, bone, teeth, and cancer-relevant pathways. | [[metals/lead]] |
 | Mercury | Elemental vapor, inorganic salts, and methylmercury have distinct kinetics and targets; methylmercury from fish is the major dietary human concern and crosses the blood-brain barrier and placenta; vapor exposure targets the CNS; inorganic mercury targets kidney. | [[metals/mercury]] |
 | Nickel | Exposure occurs occupationally by inhalation/dermal contact and generally through air, smoke, water, and food; key toxic outcomes include allergic contact dermatitis, nickel carbonyl poisoning, lung/nasal cancer, DNA repair disruption, ROS, glutathione depletion, and epigenetic effects. | [[metals/nickel]] |
@@ -192,6 +192,7 @@ License class `copyright-licensed-private`. Casarett & Doull's Essentials of Tox
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
+- [[metals/chromium-hexavalent]]
 - [[metals/cobalt]]
 - [[metals/copper]]
 - [[metals/iron]]
