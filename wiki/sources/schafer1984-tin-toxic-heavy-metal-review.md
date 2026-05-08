@@ -5,9 +5,11 @@ title: "Tin — A Toxic Heavy Metal? A Review of the Literature"
 authors: ["S. G. Schafer", "U. Femfert"]
 year: 1984
 publication: "Regulatory Toxicology and Pharmacology, Vol. 4, pp. 57-69"
+doi: "10.1016/0273-2300(84)90006-0"
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/Digest/10.1016@0273-23008490006-0.pdf"
+access_url: "https://doi.org/10.1016/0273-2300(84)90006-0"
 metals: [Sn]
 species: [Sn2+, Sn4+, organotins]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/canned-fruit-cocktail]]", "[[ingredients/canned-tomatoes]]"]

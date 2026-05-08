@@ -4,10 +4,12 @@ cite_key: benoy1971-tin-toxicity-canned-fruit-juices
 title: "The Toxicity of Tin in Canned Fruit Juices and Solid Foods"
 authors: ["Christine J. Benoy", "Patricia A. Hooper", "R. Schneider"]
 year: 1971
-publication: "Food and Cosmetics Toxicology, Vol. 9, pp. 645-656"
+publication: "Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656"
+doi: "10.1016/0015-6264(71)90152-0"
 source_type: peer-reviewed
 evidence_tier: A
 raw_path: "raw/Digest/benoy1971.pdf"
+access_url: "https://doi.org/10.1016/0015-6264(71)90152-0"
 metals: [Sn]
 species: [Sn2+, Sn4+]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/canned-fruit-cocktail]]"]

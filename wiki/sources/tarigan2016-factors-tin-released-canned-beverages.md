@@ -7,7 +7,10 @@ year: 2016
 publication: "International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333"
 source_type: peer-reviewed
 evidence_tier: B
+no_doi_assigned: true
+no_doi_reason: "International Journal of PharmTech Research (Sphinx Knowledge House Publishers, sphinxsai.com) does not register DOIs through CrossRef; CrossRef returned no record for this article on 2026-05-08."
 raw_path: "raw/Digest/(330-333)V9N5PT.pdf"
+access_url: "https://sphinxsai.com/2016/ph_vol9_no5/3/(330-333)V9N5PT.pdf"
 metals: [Sn]
 species: [Sn2+, Sn4+]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/canned-fruit-cocktail]]"]

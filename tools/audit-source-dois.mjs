@@ -13,6 +13,7 @@ const sourceFiles = fs
 const missingDoi = []
 const missingAccess = []
 const textbookWithoutDoi = []
+const noDoiByDeclaration = []
 let pendingTier1Skipped = 0
 
 for (const file of sourceFiles) {
@@ -22,6 +23,7 @@ for (const file of sourceFiles) {
   const doi = data.doi === null || data.doi === undefined ? "" : String(data.doi).trim()
   const accessUrl =
     data.access_url === null || data.access_url === undefined ? "" : String(data.access_url).trim()
+  const noDoiAssigned = data.no_doi_assigned === true
 
   const status = String(data.status ?? "").trim()
   const evidenceTier = String(data.evidence_tier ?? "").trim()
@@ -31,6 +33,19 @@ for (const file of sourceFiles) {
 
   if (isPendingTier1) {
     pendingTier1Skipped += 1
+    continue
+  }
+
+  // Sources that explicitly declare no_doi_assigned: true (because the publishing
+  // venue does not register DOIs) are tolerated provided they carry an access_url.
+  // This handles grey-literature and small-publisher primary research that is
+  // genuinely peer-reviewed but lacks a DOI registry record.
+  if (paperTypes.has(sourceType) && noDoiAssigned) {
+    if (!accessUrl) {
+      missingAccess.push({ file, doi: "(no DOI assigned by venue; access_url required)" })
+    } else {
+      noDoiByDeclaration.push({ file, title: data.title ?? file, accessUrl })
+    }
     continue
   }
 
@@ -65,6 +80,13 @@ if (textbookWithoutDoi.length > 0) {
   console.warn("Textbook chapters without DOI metadata, kept as publisher-access records:")
   for (const source of textbookWithoutDoi) {
     console.warn(`- ${source.file}: ${source.title}`)
+  }
+}
+
+if (noDoiByDeclaration.length > 0) {
+  console.warn("Peer-reviewed sources from venues that do not register DOIs (no_doi_assigned: true):")
+  for (const source of noDoiByDeclaration) {
+    console.warn(`- ${source.file}: ${source.title} (${source.accessUrl})`)
   }
 }
 
