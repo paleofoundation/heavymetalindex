@@ -794,6 +794,20 @@ Flag sampling plan implications. A limit is only as good as its sampling and met
 
 Name the rationale for any gap between literature and proposed limit. Tag with one of: precautionary, market-ratcheting, feasibility-driven, regulatory-alignment. The gap itself is fine and often intentional. Failing to name the rationale is the lint failure.
 
+### Clean and dirty subcategory framework
+
+Within a parent category that has multiple subcategories (for example, infant formula split into milk-based, soy-based, and hydrolyzed; or baby cereals split into rice-based and non-rice), classify each subcategory per-analyte as the clean subcategory or the dirty subcategory based on whether its empirical distribution for that analyte is meaningfully lower (clean) or higher (dirty) than the parent-category median. Clean and dirty are designations within a parent category, not fixed labels on a subcategory; the same subcategory can be clean for one analyte and dirty for another. If only one subcategory has data for an analyte, the comparison cannot be made; report what is available and note the missing comparison rather than guessing.
+
+The clean subcategory standard for an analyte is p90 of that subcategory's distribution. This is a lenient bar: ninety percent of samples in the cleanest part of the market already meet it. The certification effect is to recognize the consistently cleanest products.
+
+The dirty subcategory standard for an analyte is p30 of that subcategory's distribution. This is a strict bar: only thirty percent of samples in the dirtier part of the market currently meet it. The seventy percent that fail may be below regulatory limits but are above their cleaner peers; the certification creates competitive pressure to ratchet down. This is the market-ratcheting rationale described in Part 2.
+
+Both standards are reported alongside p100, the maximum observed value in the subcategory's distribution, for context.
+
+The CC candidate summary table on each product-category page makes the clean/dirty designation explicit per row, for example "milk-based [clean]" carrying the p90 standard and "soy-based [dirty]" carrying the p30 standard, alongside n, n_a_tier, confidence, and CC eligibility. Final HMT&C values must remain no higher than the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.
+
+Earlier wiki conventions referred to "clean-platform" and "contaminated-platform" rows with default percentiles of P90 (clean) and P10 or P20 (contaminated). The clean/dirty subcategory framework above supersedes those earlier defaults for HMT&C threshold-setting; the dirty subcategory standard is p30, not p10 or p20. Update legacy product-page text and "HMTc Evidence Summary" blocks during Phase 2 cleanup.
+
 ## Part 20 — Course drafting workflow
 
 When writing course content:
