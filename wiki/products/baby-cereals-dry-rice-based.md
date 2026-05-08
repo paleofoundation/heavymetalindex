@@ -62,24 +62,43 @@ This page is part of the Category 1 Evidence Fitness pilot. It summarizes source
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## CC Candidate Summary (Part 19 framework)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This block was rebuilt 2026-05-08 in Phase 3 against the [Part 19 clean/dirty subcategory framework](../../CLAUDE.md). Clean and dirty are per-analyte empirical designations within the parent category (Infant and Child Foods → dry baby cereals). For each HMT&C analyte, the rice-based subcategory is classified clean or dirty by comparing its empirical distribution against its sibling subcategory on [[products/baby-cereals-dry-non-rice]] (the only other dry-baby-cereal subcategory currently in the row architecture). The clean subcategory standard is p90 (lenient bar). The dirty subcategory standard is p30 (strict bar; 70% of samples in the dirtier subcategory currently fail it, creating market-ratcheting pressure per Part 2). Both standards are reported alongside p100 (max observed in the subcategory). Final HMT&C values must remain no higher than the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.
 
-This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+p30, p50, p90, and p100 values for Pb, Cd, tAs, and tHg are computed directly from FDA FY2009-FY2024 baby-food compliance sample-level data (`data/evidence/category1_fda_baby_food_compliance_samples.csv`), filtered to the subcategory's row_slug. Values are lower-bound (`<LOD` and `NDb` treated as 0). iAs and the remaining HMT&C analytes (MeHg, Ni, Al, Cr-VI, Sn) are data gaps for this row pending Phase 3b ingest of priority-1 papers from the manifest.
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+| Analyte | Subcategory designation | Standard target | n | n_a_tier | Sources | Confidence | CC eligibility | Regulatory cap |
+| --- | --- | ---: | ---: | ---: | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | rice-based **[dirty]** (rice p50 5.00 ppb vs non-rice p50 4.00 ppb; rice p90 19.10 ppb vs non-rice p90 7.84 ppb) | dirty p30 = **2.85 ppb** (p100 = 32 ppb) | 256 | 1 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | thin (one fit sample-level source) | Path A supported but n_a_tier=1; second fit distribution source needed before publishing | 20 ug/kg ([[regulations/fda2025-lead-processed-baby-foods]]) |
+| [[metals/cadmium\|Cd]] | rice-based **[clean]** (rice p50 10.20 ppb vs non-rice p50 15.00 ppb; rice p90 22.00 ppb vs non-rice p90 27.28 ppb) | clean p90 = **22.00 ppb** (p100 = 40.5 ppb) | 252 | 1 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | thin (one fit sample-level source) | Path A supported but n_a_tier=1; second fit distribution source needed before publishing | 40 ug/kg ([[regulations/eu-2023-915-cadmium]]) |
+| [[metals/arsenic-total\|tAs]] | rice-based **[dirty]** (rice p50 115.00 ppb vs non-rice p50 12.90 ppb; rice p90 135.00 ppb vs non-rice p90 36.00 ppb) | dirty p30 = **102.00 ppb** (p100 = 348 ppb) | 253 | 1 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | thin (one fit sample-level source); FDA total arsenic, not iAs | Path A supported but n_a_tier=1; iAs speciation gap remains separate | No loaded cap |
+| [[metals/arsenic-inorganic\|iAs]] | rice-based **[dirty]** (per Signes-Pastor 2016 baby-rice/rice-cereal medians 75-121 ppb vs broad UK cereal 5-6 ppb) | data gap | 0 sample-level | 0 | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] (medians/ranges only); [[sources/fda-iAs-rice-cereal-2020]] (regulatory, not occurrence) | data gap | **Phase 3b ingest needed** for sample-level iAs in rice cereals; Path B (5× LOQ) fallback if ingest yields nothing | 100 ug/kg ([[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]]) |
+| [[metals/mercury-methyl\|MeHg]] | (no measured-MeHg source in either rice or non-rice cereal) | data gap | 0 | 0 | none | data gap | **Phase 3b ingest needed**; speciation source required (tHg cannot substitute) | No loaded cap |
+| [[metals/mercury-total\|tHg]] | rice-based **[dirty (data-thin)]** (rice p50 0 ppb vs non-rice p50 0 ppb; rice p90 2.10 ppb vs non-rice p90 0 ppb; FDA detection sparse — 64/256 samples for rice, 9/25 for non-rice) | dirty p30 = **0 ppb** (p100 = 4 ppb); subcategory designation marginal due to high non-detect rate | 64 | 1 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/meli2024-chemical-characterization-baby-food-italy]] (N=3 cereal-cream outlier with mean 30 ppb / max 40 ppb — needs verification) | data-thin / outlier signal | Path A formally supported but values are mostly non-detect; Meli 2024 outlier flag for follow-up before publishing | No loaded cap |
+| [[metals/nickel\|Ni]] | (broad-cereal sources only; FSA 2016 and Chekri 2019 do not split rice vs non-rice; no per-subcategory empirical distribution) | data gap | 0 rice-specific | 0 | [[sources/fsa2016-infant-food-formula-metals-survey]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] (broad cereal only) | data gap | **Phase 3b ingest needed**; rice-specific Ni source required | No loaded cap |
+| [[metals/aluminum\|Al]] | (broad-cereal sources only; Chekri 2019 N=17 broad cereal; no per-subcategory split) | data gap | 0 rice-specific | 0 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] (broad cereal only) | data gap | **Phase 3b ingest needed** | No loaded cap |
+| [[metals/chromium-hexavalent\|Cr-VI]] | (no Cr-VI source for either rice or non-rice cereal) | data gap | 0 | 0 | none | data gap | **Phase 3b ingest needed**; Cr-VI requires speciation (total Cr cannot substitute per CLAUDE.md Part 14) | No loaded cap |
+| [[metals/tin\|Sn]] | (broad-cereal sources only; Chekri 2019 N=17 broad cereal; no per-subcategory split) | data gap | 0 rice-specific | 0 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] (broad cereal only) | data gap | **Phase 3b ingest needed** | No loaded cap |
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=256 | Below confidence gate: only one fit distribution source is loaded. | 20 ug/kg (fda2025_pb_dry_infant_cereal_20) |
-| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=252 | Below confidence gate: only one fit distribution source is loaded. | 40 ug/kg (eu2023_cd_babyfood_cereal_40) |
-| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=253 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
-| [[metals/arsenic-inorganic]] (iAs) | contaminated-platform P10 | 2 sources; 0 distribution sources; 2 summary sources; N=272 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | 100 ug/kg (fda2020_ias_infant_rice_cereal_100) |
-| [[metals/mercury-total]] (tHg) | contaminated-platform P10 | 1 source; 1 distribution source; 0 summary sources; N=64 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
-| [[metals/nickel]] (Ni) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+### Per-analyte clean/dirty classification record
+
+For audit traceability, the within-row classification used the central-tendency comparison below. Where both subcategories had FDA sample-level data (Pb, Cd, tAs, tHg), the comparison is empirical from `category1_fda_baby_food_compliance_samples.csv`. Where one or both subcategories lacked sample-level data, the classification falls back to source-reported summary statistics or is marked as a data gap.
+
+| Analyte | Rice-based p50 | Non-rice p50 | Rice-based p90 | Non-rice p90 | Rice-based role | Comparator basis |
+| --- | ---: | ---: | ---: | ---: | --- | --- |
+| Pb | 5.00 | 4.00 | 19.10 | 7.84 | dirty | FDA sample-level; rice p90 > non-rice p90 by 11.26 ppb |
+| Cd | 10.20 | 15.00 | 22.00 | 27.28 | clean | FDA sample-level; rice p90 < non-rice p90 by 5.28 ppb |
+| tAs | 115.00 | 12.90 | 135.00 | 36.00 | dirty | FDA sample-level; rice p90 > non-rice p90 by 99.00 ppb |
+| iAs | (medians 75-121 ppb baby rice/rice cereal) | (5-6 ppb broad cereal) | n/a | n/a | dirty (qualitative; sample-level pool absent) | source-reported medians; rice >> non-rice by 1-2 orders of magnitude |
+| MeHg | n/a | n/a | n/a | n/a | unclassifiable | both data gap |
+| tHg | 0.00 | 0.00 | 2.10 | 0.00 | dirty (data-thin) | FDA sample-level; both p50=0 (sparse detection); rice p90 > non-rice p90 |
+| Ni | n/a | n/a | n/a | n/a | unclassifiable | broad sources only on both sides |
+| Al | n/a | n/a | n/a | n/a | unclassifiable | broad sources only on both sides |
+| Cr-VI | n/a | n/a | n/a | n/a | unclassifiable | both data gap |
+| Sn | n/a | n/a | n/a | n/a | unclassifiable | broad sources only on both sides |
 
 <!-- END: hmi-hmtc-evidence-summary -->
 
