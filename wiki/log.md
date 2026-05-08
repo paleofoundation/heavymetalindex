@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-08] schema | CLAUDE.md — canonical-location declaration and row-fit determination rule
+Pages touched: CLAUDE.md
+Notes: Added Part 4 canonical-location subsection so future LLM sessions stop asking Karen to switch folders or designate a different canonical. Added row-fit determination rule to Part 6 product-category guidance, naming author scope statements as authoritative metadata. Triggered by Soares 2000 (Cr-VI in powdered milk infant formula) being incorrectly hedged as "milk-based or soy-based" by a prior ingest despite explicit milk-only scoping in title, abstract, methods, and Table 4 footnotes.
+
 ## [2026-05-08] schema | benchmark-pool-percentile-rule - stop requiring source-reported percentiles
 
 Pages touched: [[methodology/persistent-wiki-ingest-rule]], [[sources/soares2000-chromium-vi-powdered-milk-formulas]], [[products/infant-formula-powder-non-soy]], [[log]]
