@@ -61,6 +61,20 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  tAs:
+    status: in_progress
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
+  U:
+    status: in_progress
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
 drivers: [soil-uptake, tuber-formation-in-soil, geography, peel-versus-flesh]
 lower_risk_variants: ["[[ingredients/peeled-potato]]", "[[ingredients/potato-starch]]"]
 higher_risk_variants: ["[[ingredients/unpeeled-potato]]", "[[ingredients/potato-skin]]", "[[ingredients/potato-peel-heavy-products]]"]
@@ -123,8 +137,8 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | Cr | 27 | 0 | 0 | 0 | 0 | 0 | 63 | in profile |
 | Ni | 27 | 0 | 0 | 0 | 48 | 79.4 | 91 | in profile |
 | Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | *not in profile schema* |
-| tAs | 27 | 0 | 0 | 0 | 0 | 2.66 | 4.8 | *not in profile schema* |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| tAs | 27 | 0 | 0 | 0 | 0 | 2.66 | 4.8 | in profile |
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->

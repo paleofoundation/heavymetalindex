@@ -329,6 +329,20 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  tAs:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
+  U:
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: null
 drivers: [soil-uptake, flooded-paddy, geography, cultivar, processing]
 lower_risk_variants: ["[[ingredients/basmati-india]]", "[[ingredients/california-rice]]"]
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
@@ -342,7 +356,7 @@ Sections: Why this commodity accumulates the metal, Ranges by source/region/vari
 
 The `contamination_profile` block is deliberately machine-readable. The app will consume it directly.
 
-The metal set is the eight metals with dedicated `wiki/metals/` pages: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn. Earlier ingredient pages (pre-2026-05) used a 4-metal subset (Pb, Cd, iAs, tHg) and were schema-extended on 2026-05-03 to the 8-metal standard so that the app receives a consistent feature vector for every ingredient. Adding a ninth metal in the future requires extending all existing ingredient pages in lockstep; the schema-extension is mechanical and idempotent (see `tools/` if a script is added, or perform via targeted edits).
+The metal set is the ten metals: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U. Schema history: pre-2026-05 ingredient pages used a 4-metal subset (Pb, Cd, iAs, tHg); 2026-05-03 extended to an 8-metal set (added Ni, Al, Cr, Sn); 2026-05-08 extended to the current 10-metal set (added tAs as a separate sub-block from iAs because most occurrence surveys report total arsenic and the iAs/tAs split is non-negotiable per Part 14, and added U because the wiki's scope is "heavy metals in food" rather than "HMTc-certified analytes" and uranium is a recognized toxic heavy metal of rising public-health attention even though it is not in the HMTc-10 analyte vocabulary). The Cr sub-block carries total chromium; Cr-VI evidence belongs on [[metals/chromium-hexavalent]] and is never substituted for total Cr in the ingredient profile. MeHg deliberately stays out of the ingredient profile because it is matrix-driven (fish/seafood-specific); MeHg evidence is captured in body prose on the small set of pages where it matters and at the product layer. Adding an eleventh metal in the future requires extending all existing ingredient pages in lockstep; the schema-extension is mechanical and idempotent (see `tools/` if a script is added, or perform via targeted edits).
 
 The `last_full_resynthesis` field referenced in Part 9 is no longer carried per-metal-sub-block on ingredient pages. Resynthesis events are now tracked in the structured-evidence layer at `data/evidence/review_events.jsonl`, which is authoritative. Part 9's conceptual logic (when to trigger full resynthesis vs incremental update) still applies; only the implementation has moved off the page frontmatter.
 

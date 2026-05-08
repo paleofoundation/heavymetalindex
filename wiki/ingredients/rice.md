@@ -61,6 +61,20 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
+  tAs:
+    status: in_progress
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
+  U:
+    status: in_progress
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
 drivers: [soil-uptake, flooded-paddy, geography, cultivar, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
@@ -136,9 +150,9 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 | Ni | 27 | 0 | 0 | 0 | 72.2 | 78.2 | 170 | in profile |
 | Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | *not in profile schema* |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 | iAs | 1 | 41.6 | 41.6 | 41.6 | 41.6 | 41.6 | 41.6 | in profile |
-| tAs | 27 | 20 | 30.2 | 43 | 62 | 66.9 | 75 | *not in profile schema* |
+| tAs | 27 | 20 | 30.2 | 43 | 62 | 66.9 | 75 | in profile |
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 1.4 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
