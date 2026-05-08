@@ -24,7 +24,6 @@ updated: 2026-05-07
 
 # FDA 2016 - Infant/Toddler Foods Inorganic Arsenic
 
-## TL;DR
 
 FDA's infant/toddler foods arsenic table reports a `Juice - Grape` category with 61 grape and grape-containing juice rows. The Index routes the quantified inorganic-arsenic cells to [[products/fruit-juices-non-apple]] as grape-category species-specific context and to [[products/fruit-juice-not-canned]] as broader juice context.
 

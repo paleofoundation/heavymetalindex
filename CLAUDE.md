@@ -222,8 +222,7 @@ updated: 2026-04-23
 ```markdown
 # He et al. 2013 — Dietary cadmium exposure in Shanghai adults
 
-## TL;DR
-Two to four sentences summarizing what they measured, what they found, and why it matters.
+Two to four sentences of un-headed opening prose summarizing what the authors measured, what they found, and why it matters. The prose sits directly under the `# H1` title with no `## TL;DR` heading; the wiki reads as authoritative reference, not as a list of casual TL;DRs. Source pages created before 2026-05-08 may still carry the legacy heading; remove it on touch.
 
 ## Key numbers
 Pull exact figures: sample sizes, means, 95th percentiles, LODs, geographic breakdown. Include page and table references from the source markdown. Preserve units and do not round.
