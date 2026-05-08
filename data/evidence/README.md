@@ -47,6 +47,16 @@ and Category 1 pilot coverage registers.
   quantified-cell inorganic-arsenic p10/p50/p90/p95/p100 rows routed to the
   non-apple juice row and the broader not-canned fruit-juice context row. NS
   cells are not speciated and are excluded from percentile calculations.
+- `who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`: recovered
+  WHO GEMS/Food lower-bound per-food/per-contaminant summaries. These rows are
+  source-scope occurrence context and route/gap inputs until the gitignored raw
+  exports are restored and exact-row aggregate review admits a row.
+- `who_gemsfood_heavy_metals_raw_exports.csv`: recovered GEMS/Food raw export
+  manifest with access dates, row counts, raw paths, and SHA-256 hashes. The
+  raw CSV exports themselves live under `raw/` and are intentionally untracked.
+- `who_gemsfood_arsenic_page_routes.csv`: arsenic route audit for high-value
+  GEMS/Food food rows. Route entries preserve species and page fit caveats; they
+  are not final HMTc standards values.
 - `category1_formula_concentration_summary.csv`: formula concentration
   summary rows from the FDA FY2023-FY2025 special survey and promoted Digest
   formula papers.
@@ -120,6 +130,10 @@ and Category 1 pilot coverage registers.
 - `npm run evidence:juice-speciation`: rebuilds the FDA 2011 apple-juice
   arsenic speciation and FDA 2016 grape-juice inorganic arsenic summaries and
   value records from the checked sample extracts.
+- `npm run evidence:gemsfood`: ingests WHO GEMS/Food CSV exports from a local
+  input file/directory or a download run. Raw exports remain under gitignored
+  `raw/`; tracked outputs are the manifest, grouped summaries, source page, and
+  route/gap context.
 - `npm run evidence:standards-actions`: rebuilds the HMTc standards action
   queue and downstream AI adjudication queue from the current standards gap
   report.

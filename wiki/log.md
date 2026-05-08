@@ -12,6 +12,12 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-08] ingest | who-gemsfood-heavy-metal-contaminants — recovered GEMS/Food heavy-metal summaries and routes
+
+Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[sources/index]], [[log]]
+
+Notes: Recovered the WHO GEMS/Food heavy-metal export manifest, grouped summary CSV, arsenic page-route audit, source registry row, and ingest tool from the old FDA/TDS/GEMS branch without wholesale-merging stale page edits. The raw export CSVs remain gitignored and are not present in this checkout, so GEMS rows are route/gap context until raw restoration and exact-row aggregate review; source-scope p10/p50/p90/p95 values are not final HMTc standards.
+
 ## [2026-05-07] schema | aggregate-percentile-boundary — HMTc clean/dirty standards target split
 
 Pages touched: [[methodology/persistent-wiki-ingest-rule]], [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]], [[products/baby-cereals-dry-non-rice]], [[products/baby-cereals-dry-rice-based]], [[products/mixed-meals-rice-containing]], [[products/mixed-meals-non-rice]], [[products/teething-and-snacks-rice-based]], [[products/teething-and-snacks-non-rice]]
