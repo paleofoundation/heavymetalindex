@@ -26,6 +26,178 @@ This is the product evidence matrix for standards development. It does not treat
 
 <p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
 
+## Platform And Normalization Snapshot
+
+<!-- audience: standards-development, regulator, retailer, brand, legal, app -->
+
+This is the computation layer between the source inventory and any standards calculation. It makes the row relationship, basis state, and source-specific distribution inputs visible without turning them into a finished HMTc limit. The method boundary is summarized on the <a href="../methodology" class="internal" data-slug="methodology">methodology page</a>.
+
+<div class="table-container">
+<table class="hmi-platform-map-table">
+<thead>
+<tr>
+<th>Row</th>
+<th>Platform role</th>
+<th>Relationship</th>
+<th>Platform metals</th>
+<th>Basis states</th>
+<th>Computation use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../products/infant-formula-concentrated-liquid-soy-based" class="internal" data-slug="products/infant-formula-concentrated-liquid-soy-based">Infant Formula, Concentrated Liquid (Soy-Based)</a></td>
+<td>Bridge/context</td>
+<td>Current row</td>
+<td>tAs, Pb, Cd, and tHg</td>
+<td>prepared-for-feeding</td>
+<td>Retained for context only; do not merge into locked rows without an explicit taxonomy decision.</td>
+</tr>
+<tr>
+<td><a href="../products/infant-formula-powder-non-soy" class="internal" data-slug="products/infant-formula-powder-non-soy">Infant Formula, Powder (Non-Soy)</a></td>
+<td>Clean benchmark</td>
+<td>Related formula context</td>
+<td>tAs, Pb, Cd, tHg, Al, Sn, Cr-total, iAs, and Ni</td>
+<td>prepared-for-feeding and as-sold</td>
+<td>May supply clean P90 source inputs after Evidence Fitness, basis, and source-pool review.</td>
+</tr>
+<tr>
+<td><a href="../products/infant-formula-powder-soy-based" class="internal" data-slug="products/infant-formula-powder-soy-based">Infant Formula, Powder (Soy-Based)</a></td>
+<td>Contamination platform</td>
+<td>Related formula context</td>
+<td>Al, Ni, Cd, tAs, Pb, and tHg</td>
+<td>prepared-for-feeding and as-sold</td>
+<td>May supply dirty P10 source inputs for affected metals; without fit dirty data the row remains held to clean.</td>
+</tr>
+<tr>
+<td><a href="../products/infant-formula-rtf-liquid-non-soy" class="internal" data-slug="products/infant-formula-rtf-liquid-non-soy">Infant Formula, RTF Liquid (Non-Soy)</a></td>
+<td>Clean benchmark</td>
+<td>Related formula context</td>
+<td>tAs, Pb, Cd, tHg, and Al</td>
+<td>prepared-for-feeding</td>
+<td>May supply clean P90 source inputs after Evidence Fitness, basis, and source-pool review.</td>
+</tr>
+<tr>
+<td><a href="../products/infant-formula-rtf-liquid-soy-based" class="internal" data-slug="products/infant-formula-rtf-liquid-soy-based">Infant Formula, RTF Liquid (Soy-Based)</a></td>
+<td>Contamination platform</td>
+<td>Related formula context</td>
+<td>Al, Ni, Cd, tAs, Pb, and tHg</td>
+<td>prepared-for-feeding</td>
+<td>May supply dirty P10 source inputs for affected metals; without fit dirty data the row remains held to clean.</td>
+</tr>
+<tr>
+<td><a href="../products/infant-formula-concentrated-liquid-non-soy" class="internal" data-slug="products/infant-formula-concentrated-liquid-non-soy">Infant Formula, Concentrated Liquid (Non-Soy)</a></td>
+<td>Bridge/context</td>
+<td>Bridge formula context; not a locked row</td>
+<td>tAs, Pb, Cd, and tHg</td>
+<td>prepared-for-feeding</td>
+<td>Retained for context only; do not merge into locked rows without an explicit taxonomy decision.</td>
+</tr>
+<tr>
+<td>Infant formula, powder, amino acid-based</td>
+<td>Specialty/out-of-scope</td>
+<td>Specialty/out-of-scope formula context</td>
+<td>tAs, Pb, Cd, and tHg</td>
+<td>prepared-for-feeding</td>
+<td>Retained for context only; do not merge into locked rows without an explicit taxonomy decision.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>Basis-Separated Distribution Inputs</h3>
+<div class="table-container">
+<table class="hmi-basis-distribution-table">
+<thead>
+<tr>
+<th>Metal</th>
+<th>Basis</th>
+<th>Clean P90</th>
+<th>Contamination P10</th>
+<th>Use status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../metals/lead" class="internal" data-slug="metals/lead">Pb</a></td>
+<td>prepared-for-feeding</td>
+<td><strong>P90 0.4 ppb</strong>
+<span class="hmi-crosswalk-status-note"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>; N=3; EF-4</span></td>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--gap">Missing</span></td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Context only</span></td>
+</tr>
+<tr>
+<td><a href="../metals/cadmium" class="internal" data-slug="metals/cadmium">Cd</a></td>
+<td>prepared-for-feeding</td>
+<td><strong>P90 1.5 ppb</strong>
+<span class="hmi-crosswalk-status-note"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>; N=3; EF-4</span></td>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--gap">Missing</span></td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Context only</span></td>
+</tr>
+<tr>
+<td><a href="../metals/arsenic-total" class="internal" data-slug="metals/arsenic-total">tAs</a></td>
+<td>prepared-for-feeding</td>
+<td><strong>P90 0.7 ppb</strong>
+<span class="hmi-crosswalk-status-note"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>; N=3; EF-4</span></td>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--gap">Missing</span></td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Context only</span></td>
+</tr>
+<tr>
+<td><a href="../metals/mercury-total" class="internal" data-slug="metals/mercury-total">tHg</a></td>
+<td>prepared-for-feeding</td>
+<td><strong>P90 0.05 ppb</strong>
+<span class="hmi-crosswalk-status-note"><a href="../sources/fda2026-infant-formula-toxic-elements-special-survey" class="internal" data-slug="sources/fda2026-infant-formula-toxic-elements-special-survey">FDA 2026</a>; N=3; EF-4</span></td>
+<td><span class="hmi-crosswalk-status hmi-crosswalk-status--gap">Missing</span></td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Context only</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>Normalization Workflow</h3>
+<div class="table-container">
+<table class="hmi-normalization-table">
+<thead>
+<tr>
+<th>Step</th>
+<th>Status</th>
+<th>Current handling</th>
+<th>Blocked until</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basis tagging</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--review">Tagged</span></td>
+<td>Structured rows currently carry prepared-for-feeding basis states.</td>
+<td>Every value used for computation carries basis, unit, matrix, and censoring fields.</td>
+</tr>
+<tr>
+<td>Within-basis distribution</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">No input</span></td>
+<td>No direct product-row distribution statistic is loaded for this row.</td>
+<td>Fit-source pool is reviewed and competing source rows are adjudicated.</td>
+</tr>
+<tr>
+<td>Cross-basis conversion</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--review">No conversion applied</span></td>
+<td>No cross-basis pooling is applied on the public page.</td>
+<td>A source-backed preparation factor or product-specific conversion model is approved and logged.</td>
+</tr>
+<tr>
+<td>Platform relationship</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Unpaired</span></td>
+<td>No clean/contamination counterpart is declared for this row.</td>
+<td>Affected metals, clean floor, and held-to-clean behavior are reviewed by row.</td>
+</tr>
+<tr>
+<td>Calculation handoff</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Not computable</span></td>
+<td>The row remains a source inventory and gap map until distribution inputs exist.</td>
+<td>Records are approved for internal use and the deterministic standards workbench produces a calculation trace.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 <div class="table-container">
 <table class="hmi-standards-evidence-table">
 <thead>
@@ -186,7 +358,10 @@ This download area now mirrors the page in layers instead of forcing one CSV to 
 <a href="/static/hmi-standards-matrix/infant-formula-concentrated-liquid-soy-based.csv" download="infant-formula-concentrated-liquid-soy-based-standards-matrix.csv">Download standards matrix CSV</a>
 <a href="/static/hmi-structured-values/infant-formula-concentrated-liquid-soy-based.csv" download="infant-formula-concentrated-liquid-soy-based-structured-values.csv">Download structured values CSV</a>
 <a href="/static/hmi-routing-audit/infant-formula-concentrated-liquid-soy-based.csv" download="infant-formula-concentrated-liquid-soy-based-routing-audit.csv">Download routing audit CSV</a>
-<span>The three exports are complementary: matrix summary, row-level extraction ledger, and routing/gap follow-up.</span>
+<a href="/static/hmi-platform-model/infant-formula-concentrated-liquid-soy-based.csv" download="infant-formula-concentrated-liquid-soy-based-platform-model.csv">Download platform model CSV</a>
+<a href="/static/hmi-basis-distributions/infant-formula-concentrated-liquid-soy-based.csv" download="infant-formula-concentrated-liquid-soy-based-basis-distributions.csv">Download basis distributions CSV</a>
+<a href="/static/hmi-normalization/infant-formula-concentrated-liquid-soy-based.csv" download="infant-formula-concentrated-liquid-soy-based-normalization.csv">Download normalization workflow CSV</a>
+<span>The exports are complementary: matrix summary, row-level extraction ledger, routing/gap follow-up, platform relationships, and basis-separated distribution inputs.</span>
 </div>
 </div>
 

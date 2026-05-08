@@ -45,6 +45,83 @@ This is the product evidence matrix for standards development. It does not treat
 
 <p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
 
+## Platform And Normalization Snapshot
+
+<!-- audience: standards-development, regulator, retailer, brand, legal, app -->
+
+This is the computation layer between the source inventory and any standards calculation. It makes the row relationship, basis state, and source-specific distribution inputs visible without turning them into a finished HMTc limit. The method boundary is summarized on the <a href="../methodology" class="internal" data-slug="methodology">methodology page</a>.
+
+<div class="table-container">
+<table class="hmi-platform-map-table">
+<thead>
+<tr>
+<th>Row</th>
+<th>Platform role</th>
+<th>Relationship</th>
+<th>Platform metals</th>
+<th>Basis states</th>
+<th>Computation use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../products/fruit-juices-apple-containing" class="internal" data-slug="products/fruit-juices-apple-containing">Fruit juices, apple-containing</a></td>
+<td>Contamination platform</td>
+<td>Current row</td>
+<td>none</td>
+<td>none</td>
+<td>May supply dirty P10 source inputs for affected metals; without fit dirty data the row remains held to clean.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Normalization Workflow</h3>
+<div class="table-container">
+<table class="hmi-normalization-table">
+<thead>
+<tr>
+<th>Step</th>
+<th>Status</th>
+<th>Current handling</th>
+<th>Blocked until</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basis tagging</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Missing</span></td>
+<td>No structured measured rows are loaded.</td>
+<td>Every value used for computation carries basis, unit, matrix, and censoring fields.</td>
+</tr>
+<tr>
+<td>Within-basis distribution</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">No input</span></td>
+<td>No direct product-row distribution statistic is loaded for this row.</td>
+<td>Fit-source pool is reviewed and competing source rows are adjudicated.</td>
+</tr>
+<tr>
+<td>Cross-basis conversion</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--review">No conversion applied</span></td>
+<td>No cross-basis pooling is applied on the public page.</td>
+<td>A source-backed preparation factor or product-specific conversion model is approved and logged.</td>
+</tr>
+<tr>
+<td>Platform relationship</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Unpaired</span></td>
+<td>No clean/contamination counterpart is declared for this row.</td>
+<td>Affected metals, clean floor, and held-to-clean behavior are reviewed by row.</td>
+</tr>
+<tr>
+<td>Calculation handoff</td>
+<td><span class="hmi-confidence-chip hmi-confidence-chip--gap">Not computable</span></td>
+<td>The row remains a source inventory and gap map until distribution inputs exist.</td>
+<td>Records are approved for internal use and the deterministic standards workbench produces a calculation trace.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 <div class="table-container">
 <table class="hmi-standards-evidence-table">
 <thead>
@@ -108,7 +185,7 @@ This matrix translates the product evidence into the decisions the page needs to
 <tr>
 <td><strong>Brand QC operations</strong></td>
 <td>Turn the evidence pool into a test plan: which metals, which product form, which lab basis, and what data fields must be captured.</td>
-<td>Structured GEMS/Food context rows are routed below, but no exact apple-juice measured-value distribution is loaded yet; QC can only use the crosswalk narrative as a gap map.</td>
+<td>No structured measured-value rows are loaded yet; QC can only use the crosswalk narrative as a gap map.</td>
 <td>Match lab testing to the product row and metal species; capture sample count, LOD/LOQ, censoring, unit basis, and prepared-vs-as-sold handling.</td>
 </tr>
 <tr>
@@ -123,7 +200,7 @@ This matrix translates the product evidence into the decisions the page needs to
 <details class="hmi-crosswalk-details">
 <summary>Scope details and evidence-use notes</summary>
 <ul>
-<li><strong>iAs:</strong> Limit scope: apple juice. Basis: juice. Comparison note: Final apple-juice action level; direct iAs comparison remains blocked because the loaded GEMS/Food juice rows are broad fruit-juice context, not exact apple-juice rows. Use: Regulatory context and split trigger.</li>
+<li><strong>iAs:</strong> Limit scope: apple juice. Basis: juice. Comparison note: Final apple-juice action level; direct iAs comparison remains blocked until apple-juice iAs rows are loaded. Use: Regulatory context and split trigger.</li>
 <li><strong>iAs:</strong> Limit scope: fruit juices, concentrated fruit juices as reconstituted, and fruit nectars. Basis: wet weight or reconstituted juice. Comparison note: EU maximum level loaded; field-finding comparison blocked until beverage occurrence sources are promoted with arsenic species. Use: External EU legal context alongside FDA apple-juice guidance; not standards value.</li>
 <li><strong>Pb:</strong> Limit scope: single-strength apple juice. Basis: single-strength ready-to-drink juice. Comparison note: Draft apple-juice value only; not for implementation; occurrence data are not a final regulatory comparison. Use: Draft context only.</li>
 <li><strong>Pb:</strong> Limit scope: fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits. Basis: wet weight or reconstituted juice. Comparison note: EU maximum level loaded; field-finding comparison blocked until beverage occurrence sources are promoted and berry/small-fruit scope is separated. Use: External EU legal context alongside FDA juice guidance; not standards value.</li>
@@ -141,7 +218,7 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 <!-- BEGIN: hmi-gemsfood-arsenic-context -->
 ## WHO GEMS/Food Arsenic Occurrence Context
 
-GEMS/Food adds broad fruit-juice inorganic arsenic context and upstream apple-fruit context for this apple-containing juice category. Because no exact Apple juice row is present in the export, these rows are routed as occurrence context next to FDA/EU reference values, not as final HMTc standards inputs or direct legal exceedance reads. Displayed values are ppm, converted from the GEMS ug/kg summary values by dividing by 1,000. [[sources/who-gemsfood-heavy-metal-contaminants]]
+GEMS/Food adds broad fruit-juice inorganic arsenic context and upstream apple-fruit context for this apple-containing juice category. Because no exact Apple juice row is present in the export, these rows are routed as occurrence context next to FDA/EU reference values, not as final standards inputs or direct legal exceedance reads. Displayed values are ppm, converted from the GEMS ug/kg summary values by dividing by 1,000. [[sources/who-gemsfood-heavy-metal-contaminants]]
 
 | Routed GEMS food row | Arsenic species | Region | N | P50 ppm | P95 ppm | Max ppm | Use note |
 | --- | --- | --- | --- | --- | --- | --- | --- |

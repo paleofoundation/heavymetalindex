@@ -12,6 +12,10 @@ and Category 1 pilot coverage registers.
 - `values.jsonl`: candidate concentration, regulatory, toxicology, and exposure values.
 - `claims.jsonl`: claim-level statements with source provenance.
 - `review_events.jsonl`: append-only review and promotion events.
+- `ask_gap_queue.jsonl`: optional local Ask the Index demand-signal queue,
+  created only when `HMI_ASK_GAP_WRITE=1` is enabled. This file is gitignored
+  because it can contain raw user questions; promote reviewed gaps manually into
+  source-ingest, value, claim, or review queues.
 - `category1_register.csv`: expected Category 1 row x metal/species coverage
   for value-level backfill and review. Existing source-cited product pages may
   contain public synthesis before every table cell has a matching JSONL value
@@ -31,6 +35,14 @@ and Category 1 pilot coverage registers.
 - `category1_formula_special_survey_samples.csv`: parsed FDA sample-level
   infant-formula special-survey rows with locked-row, bridge, and out-of-scope
   mapping notes.
+- `category1_formula_platform_relationships.csv`: clean-platform,
+  contamination-platform, bridge, and out-of-scope formula row relationships used
+  to keep standards calculations row-aware.
+- `category1_formula_basis_distribution_inputs.csv`: basis-separated clean P90
+  and contamination-platform P10 source inputs. These are computation inputs,
+  not HMTc limits.
+- `category1_formula_normalization_workflow.csv`: per-row normalization status
+  showing which steps are tagged, reviewable, blocked, or not yet computable.
 - `who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`: lower-bound per-food/per-contaminant summaries derived from the normalized GEMS/Food exports.
 - `who_gemsfood_heavy_metals_raw_exports.csv`: raw export manifest with access dates, row counts, and SHA-256 hashes.
 - `who_gemsfood_arsenic_page_routes.csv`: routed arsenic occurrence summaries promoted from GEMS/Food to public HMI pages.

@@ -12,6 +12,9 @@ const productDir = path.join(repoRoot, "wiki/products")
 const structuredValuesStaticDir = path.join(repoRoot, "wiki/static/hmi-structured-values")
 const standardsMatrixStaticDir = path.join(repoRoot, "wiki/static/hmi-standards-matrix")
 const routingAuditStaticDir = path.join(repoRoot, "wiki/static/hmi-routing-audit")
+const platformModelStaticDir = path.join(repoRoot, "wiki/static/hmi-platform-model")
+const basisDistributionStaticDir = path.join(repoRoot, "wiki/static/hmi-basis-distributions")
+const normalizationStaticDir = path.join(repoRoot, "wiki/static/hmi-normalization")
 const today = "2026-05-03"
 
 const beginMarker = "<!-- BEGIN: hmi-product-crosswalk -->"
@@ -19,6 +22,8 @@ const endMarker = "<!-- END: hmi-product-crosswalk -->"
 const crosswalkHeadings = [
   "## Standards Evidence Matrix",
   "## HMTc Standards Evidence Matrix",
+  "## Platform And Normalization Snapshot",
+  "## Basis-Separated Distribution Inputs",
   "## Clean Subcategory P90 Workbench",
   "## Standards Decision Matrix",
   "## HMTc P90 Readiness",
@@ -199,12 +204,16 @@ const rowsByProduct = groupBy(crosswalkRows, (row) => row.product_slug)
 const sourceRoutingRowsByProduct = groupBy(sourceRoutingAuditRows, (row) => row.product_slug)
 const queueRowsByProduct = groupBy(localReingestQueueRows, (row) => row.product_slug)
 const candidateCountsByProductSource = countBy(localCandidateValueRows, (row) => `${row.product_slug}::${row.source_id}`)
+const productMetadataCache = new Map()
 
 const touched = new Set()
 
 fs.mkdirSync(structuredValuesStaticDir, { recursive: true })
 fs.mkdirSync(standardsMatrixStaticDir, { recursive: true })
 fs.mkdirSync(routingAuditStaticDir, { recursive: true })
+fs.mkdirSync(platformModelStaticDir, { recursive: true })
+fs.mkdirSync(basisDistributionStaticDir, { recursive: true })
+fs.mkdirSync(normalizationStaticDir, { recursive: true })
 
 for (const [slug, rows] of rowsByProduct) {
   const pagePath = path.join(productDir, `${slug}.md`)
@@ -237,6 +246,8 @@ for (const entry of fs.readdirSync(productDir)) {
   const slug = entry.replace(/\.md$/, "")
   upsertCrosswalkSection(pagePath, rowsByProduct.get(slug) ?? [], slug)
 }
+
+writeGlobalFormulaArchitectureFiles()
 
 console.log(`Applied product crosswalk sections to ${touched.size} product pages.`)
 
@@ -336,6 +347,9 @@ function upsertCrosswalkSection(pagePath, rows, productSlugOverride = "") {
   writeStructuredValuesCsv(productSlug)
   writeStandardsMatrixCsv(productSlug, rows, fallbackMetals)
   writeRoutingAuditCsv(productSlug)
+  writePlatformModelCsv(productSlug)
+  writeBasisDistributionCsv(productSlug)
+  writeNormalizationCsv(productSlug)
   touched.add(pagePath)
 }
 
@@ -354,7 +368,9 @@ function sanitizeProductPageBody(body) {
     return token
   }
 
-  let sanitized = body.replace(/## Standards Decision Matrix[\s\S]*?<\/table>\n?/g, preserve)
+  let sanitized = body
+    .replace(new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}\\n?`, "g"), preserve)
+    .replace(/## Standards Decision Matrix[\s\S]*?<\/table>\n?/g, preserve)
 
   sanitized = sanitized
     .replace(/\bHMT&C certification limits\b/g, "certification limits")
@@ -383,6 +399,7 @@ function buildCrosswalkSection(rows, productSlugOverride = "", fallbackMetals = 
   const tableRows = buildStandardsEvidenceRows(productSlug, rows, fallbackMetals)
   const tableSupportNote = standardsMatrixSupportNote(productSlug)
 
+  const platformSnapshot = buildPlatformAndNormalizationSnapshot(productSlug)
   const details = rows.length > 0 ? buildCrosswalkDetails(rows) : ""
   const decisionMatrix = buildStandardsDecisionMatrix(productSlug, rows, fallbackMetals)
   const measuredValues = buildMeasuredValuesAtGlance(productSlug)
@@ -399,6 +416,7 @@ This is the product evidence matrix for standards development. It does not treat
 
 <p class="hmi-standards-readiness-note"><strong>Calculation boundary:</strong> public product pages show inputs and completeness, not final standards math. A single distribution-capable source or summary/range-only evidence remains an input until the fit-source pool, basis/species decisions, censoring rules, and calculation trace are documented.</p>
 
+${platformSnapshot}
 <div class="table-container">
 <table class="hmi-standards-evidence-table">
 <thead>
@@ -499,6 +517,130 @@ function standardsMatrixSupportNote(productSlug) {
   }
 
   return `<p class="hmi-source-route-summary"><strong>Reading note:</strong> ${escapeHtml(readingNote)} <strong>Follow-up queue:</strong> ${escapeHtml(pendingText)}</p>`
+}
+
+function buildPlatformAndNormalizationSnapshot(productSlug) {
+  const platformRows = platformModelRows(productSlug)
+  const distributionRows = basisDistributionRows(productSlug)
+  const normalizationRows = normalizationWorkflowRows(productSlug)
+
+  if (platformRows.length === 0 && distributionRows.length === 0 && normalizationRows.length === 0) return ""
+
+  const platformTable =
+    platformRows.length > 0
+      ? `<div class="table-container">
+<table class="hmi-platform-map-table">
+<thead>
+<tr>
+<th>Row</th>
+<th>Platform role</th>
+<th>Relationship</th>
+<th>Platform metals</th>
+<th>Basis states</th>
+<th>Computation use</th>
+</tr>
+</thead>
+<tbody>
+${platformRows.map(platformModelTableRow).join("\n")}
+</tbody>
+</table>
+</div>`
+      : ""
+
+  const distributionTable =
+    distributionRows.length > 0
+      ? `<h3>Basis-Separated Distribution Inputs</h3>
+<div class="table-container">
+<table class="hmi-basis-distribution-table">
+<thead>
+<tr>
+<th>Metal</th>
+<th>Basis</th>
+<th>Clean P90</th>
+<th>Contamination P10</th>
+<th>Use status</th>
+</tr>
+</thead>
+<tbody>
+${distributionRows.map(basisDistributionTableRow).join("\n")}
+</tbody>
+</table>
+</div>`
+      : ""
+
+  const normalizationTable =
+    normalizationRows.length > 0
+      ? `<h3>Normalization Workflow</h3>
+<div class="table-container">
+<table class="hmi-normalization-table">
+<thead>
+<tr>
+<th>Step</th>
+<th>Status</th>
+<th>Current handling</th>
+<th>Blocked until</th>
+</tr>
+</thead>
+<tbody>
+${normalizationRows.map(normalizationWorkflowTableRow).join("\n")}
+</tbody>
+</table>
+</div>`
+      : ""
+
+  return `## Platform And Normalization Snapshot
+
+<!-- audience: standards-development, regulator, retailer, brand, legal, app -->
+
+This is the computation layer between the source inventory and any standards calculation. It makes the row relationship, basis state, and source-specific distribution inputs visible without turning them into a finished HMTc limit. The method boundary is summarized on the <a href="../methodology" class="internal" data-slug="methodology">methodology page</a>.
+
+${platformTable}
+${distributionTable}
+${normalizationTable}
+`
+}
+
+function platformModelTableRow(row) {
+  return `<tr>
+<td>${productLink(row.product_slug, row.row_label)}</td>
+<td>${escapeHtml(row.platform_role_label)}</td>
+<td>${escapeHtml(row.relationship_to_page)}</td>
+<td>${escapeHtml(row.platform_metals || "not metal-specific")}</td>
+<td>${escapeHtml(row.basis_states || "no structured basis yet")}</td>
+<td>${escapeHtml(row.computation_use)}</td>
+</tr>`
+}
+
+function basisDistributionTableRow(row) {
+  return `<tr>
+<td>${metalCell(row.metal_species)}</td>
+<td>${escapeHtml(row.basis_label)}</td>
+<td>${distributionInputCell(row.clean_record, "p90")}</td>
+<td>${distributionInputCell(row.dirty_record, "p10")}</td>
+<td>${confidenceChip(row.confidence_tier, row.use_status)}</td>
+</tr>`
+}
+
+function normalizationWorkflowTableRow(row) {
+  return `<tr>
+<td>${escapeHtml(row.step)}</td>
+<td>${confidenceChip(row.status_tone, row.status_label)}</td>
+<td>${escapeHtml(row.current_handling)}</td>
+<td>${escapeHtml(row.blocked_until)}</td>
+</tr>`
+}
+
+function distributionInputCell(row, stat) {
+  if (!row) return `<span class="hmi-crosswalk-status hmi-crosswalk-status--gap">Missing</span>`
+  const value = stat === "p10" ? row.p10_ppb : row.p90_ppb
+  if (value === "") return `<span class="hmi-crosswalk-status hmi-crosswalk-status--gap">Not computed</span>`
+  const label = stat.toUpperCase()
+  return `<strong>${label} ${formatNumber(value)} ${escapeHtml(row.unit || "ppb")}</strong>
+<span class="hmi-crosswalk-status-note">${sourceLinkById(row.source_id)}; N=${escapeHtml(row.n || "pending")}; ${escapeHtml(row.evidence_fitness_verdict || "fitness pending")}</span>`
+}
+
+function confidenceChip(tone, text) {
+  return `<span class="hmi-confidence-chip hmi-confidence-chip--${escapeAttribute(tone || "pending")}">${escapeHtml(text || "Review")}</span>`
 }
 
 function buildFallbackP90WorkbenchRows(metals) {
@@ -1314,7 +1456,12 @@ function buildMeasuredValuesAtGlance(productSlug) {
   const matrixCsvHref = standardsMatrixCsvHref(productSlug)
   const structuredCsvHref = structuredValuesCsvHref(productSlug)
   const routingCsvHref = routingAuditCsvHref(productSlug)
+  const platformCsvHref = platformModelCsvHref(productSlug)
+  const basisCsvHref = basisDistributionCsvHref(productSlug)
+  const normalizationCsvHrefValue = normalizationCsvHref(productSlug)
   const hasRoutingAudit = (sourceRoutingRowsByProduct.get(productSlug) ?? []).length > 0
+  const hasPlatformModel = platformModelRows(productSlug).length > 0
+  const hasBasisDistributions = basisDistributionRows(productSlug).length > 0
   const metals = uniqueValues(rows.map((row) => row.metal_species))
     .sort((a, b) => metalOrder(a) - metalOrder(b) || a.localeCompare(b))
   const sourceCount = uniqueSourceCount(rows)
@@ -1370,7 +1517,10 @@ This download area now mirrors the page in layers instead of forcing one CSV to 
     `${productSlug}-structured-values.csv`,
   )}">Download structured values CSV</a>
 ${hasRoutingAudit ? `<a href="${escapeAttribute(routingCsvHref)}" download="${escapeAttribute(`${productSlug}-routing-audit.csv`)}">Download routing audit CSV</a>` : ""}
-<span>The three exports are complementary: matrix summary, row-level extraction ledger, and routing/gap follow-up.</span>
+${hasPlatformModel ? `<a href="${escapeAttribute(platformCsvHref)}" download="${escapeAttribute(`${productSlug}-platform-model.csv`)}">Download platform model CSV</a>` : ""}
+${hasBasisDistributions ? `<a href="${escapeAttribute(basisCsvHref)}" download="${escapeAttribute(`${productSlug}-basis-distributions.csv`)}">Download basis distributions CSV</a>` : ""}
+${hasPlatformModel ? `<a href="${escapeAttribute(normalizationCsvHrefValue)}" download="${escapeAttribute(`${productSlug}-normalization.csv`)}">Download normalization workflow CSV</a>` : ""}
+<span>The exports are complementary: matrix summary, row-level extraction ledger, routing/gap follow-up, platform relationships, and basis-separated distribution inputs.</span>
 </div>
 </div>
 `
@@ -1378,6 +1528,268 @@ ${hasRoutingAudit ? `<a href="${escapeAttribute(routingCsvHref)}" download="${es
 
 function measuredRowsForProduct(productSlug) {
   return formulaSummaryRows.filter((row) => row.row_slug === productSlug)
+}
+
+function platformModelRows(productSlug) {
+  const metadata = productMetadataForProduct(productSlug)
+  const slugs = new Set([productSlug])
+  for (const partner of metadata.partners) slugs.add(partner.slug)
+
+  if (productSlug.startsWith("infant-formula")) {
+    for (const row of formulaSummaryRows) {
+      if (row.row_slug?.startsWith("infant-formula") && row.row_fit !== "direct_category1_row") slugs.add(row.row_slug)
+    }
+  }
+
+  return [...slugs]
+    .map((slug) => platformModelRow(slug, productSlug))
+    .filter(Boolean)
+    .sort((a, b) => platformSortOrder(a, productSlug) - platformSortOrder(b, productSlug) || a.row_label.localeCompare(b.row_label))
+}
+
+function platformModelRow(slug, pageSlug) {
+  const metadata = productMetadataForProduct(slug)
+  const measuredRows = measuredRowsForProduct(slug)
+  const fallback = measuredRows[0]
+
+  if (!metadata.exists && !fallback) return null
+
+  const pageMetadata = productMetadataForProduct(pageSlug)
+  const partnerFromPage = pageMetadata.partners.find((partner) => partner.slug === slug)
+  const role = metadata.variant_type || rowFitRole(measuredRows)
+  const platformMetals = uniqueValues([
+    ...metadata.platform_metals,
+    ...(partnerFromPage?.metals ?? []),
+    ...measuredRows.map((row) => row.metal_species),
+  ])
+  const basisStates = uniqueValues(measuredRows.map((row) => basisLabel(row.basis)))
+  const relationship = platformRelationshipLabel(slug, pageSlug, metadata, partnerFromPage)
+
+  return {
+    product_slug: slug,
+    row_label: metadata.title || metadata.label || fallback?.product_label || fallback?.row_label || readableSlug(slug),
+    hmtc_row: metadata.hmtc_row,
+    variant_type: role,
+    platform_role_label: platformRoleLabel(role),
+    relationship_to_page: relationship,
+    platform_metals: formatList(platformMetals),
+    basis_states: formatList(basisStates),
+    computation_use: platformComputationUse(role),
+  }
+}
+
+function basisDistributionRows(productSlug) {
+  const relationship = platformRelationship(productSlug)
+  const slugs = uniqueValues([relationship.cleanSlug, relationship.dirtySlug, productSlug])
+  const relevantRows = formulaSummaryRows.filter(
+    (row) => slugs.includes(row.row_slug) && row.unit === "ppb" && (row.p90_ppb !== "" || row.p10_ppb !== ""),
+  )
+  const keys = uniqueValues(relevantRows.map((row) => `${row.metal_species}|||${basisLabel(row.basis)}`))
+
+  return keys
+    .map((key) => {
+      const [metal, basisLabelValue] = key.split("|||")
+      const cleanRecord = bestDistributionRecord(relationship.cleanSlug, metal, basisLabelValue, "p90")
+      const dirtyRecord = bestDistributionRecord(relationship.dirtySlug, metal, basisLabelValue, "p10")
+      const confidence = distributionConfidence(cleanRecord, dirtyRecord)
+      return {
+        product_slug: productSlug,
+        metal_species: metal,
+        basis: basisLabelValue,
+        basis_label: basisLabelValue,
+        clean_slug: relationship.cleanSlug || "",
+        clean_record: cleanRecord,
+        dirty_slug: relationship.dirtySlug || "",
+        dirty_record: dirtyRecord,
+        confidence_tier: confidence.tone,
+        use_status: confidence.label,
+        computation_note: confidence.note,
+      }
+    })
+    .filter((row) => row.clean_record || row.dirty_record)
+    .sort((a, b) => metalOrder(a.metal_species) - metalOrder(b.metal_species) || a.basis.localeCompare(b.basis))
+}
+
+function bestDistributionRecord(rowSlug, metal, basisLabelValue, stat) {
+  if (!rowSlug) return null
+  const statField = stat === "p10" ? "p10_ppb" : "p90_ppb"
+  const candidates = formulaSummaryRows.filter(
+    (row) =>
+      row.row_slug === rowSlug &&
+      row.metal_species === metal &&
+      row.unit === "ppb" &&
+      basisLabel(row.basis) === basisLabelValue &&
+      row[statField] !== "",
+  )
+  if (candidates.length === 0) return null
+  return candidates.sort(distributionRecordSort)[0]
+}
+
+function distributionRecordSort(a, b) {
+  const directA = a.row_fit === "direct_category1_row" ? 0 : 1
+  const directB = b.row_fit === "direct_category1_row" ? 0 : 1
+  const efA = a.evidence_fitness_verdict === "EF-2" ? 0 : a.evidence_fitness_verdict === "EF-3" ? 1 : 2
+  const efB = b.evidence_fitness_verdict === "EF-2" ? 0 : b.evidence_fitness_verdict === "EF-3" ? 1 : 2
+  return directA - directB || efA - efB || numericValue(b.n) - numericValue(a.n)
+}
+
+function normalizationWorkflowRows(productSlug) {
+  const measuredRows = measuredRowsForProduct(productSlug)
+  const crosswalkRows = rowsByProduct.get(productSlug) ?? []
+  const metadata = productMetadataForProduct(productSlug)
+  const bases = uniqueValues(measuredRows.map((row) => basisLabel(row.basis)))
+  const hasPrepared = bases.includes("prepared-for-feeding")
+  const hasAsSold = bases.includes("as-sold")
+  const hasRegulatoryBasisMismatch = crosswalkRows.some((row) =>
+    /prepared-for-feeding|product-as-placed|powder ML|basis/i.test(`${row.comparison_status} ${row.hmtc_use}`),
+  )
+  const hasDistributionRows = measuredRows.some((row) => row.p90_ppb !== "" && row.row_fit === "direct_category1_row")
+  const hasSummaryOnlyRows = measuredRows.some((row) => row.row_fit !== "direct_category1_row")
+  const hasPartners = metadata.partners.length > 0
+
+  return [
+    {
+      step: "Basis tagging",
+      status_tone: bases.length > 0 ? "review" : "gap",
+      status_label: bases.length > 0 ? "Tagged" : "Missing",
+      current_handling:
+        bases.length > 0 ? `Structured rows currently carry ${formatList(bases)} basis states.` : "No structured measured rows are loaded.",
+      blocked_until: "Every value used for computation carries basis, unit, matrix, and censoring fields.",
+    },
+    {
+      step: "Within-basis distribution",
+      status_tone: hasDistributionRows ? "review" : "gap",
+      status_label: hasDistributionRows ? "Provisional inputs" : "No input",
+      current_handling: hasDistributionRows
+        ? "Source-specific P10/P50/P90/P95/P100 values are displayed only inside their source basis."
+        : "No direct product-row distribution statistic is loaded for this row.",
+      blocked_until: "Fit-source pool is reviewed and competing source rows are adjudicated.",
+    },
+    {
+      step: "Cross-basis conversion",
+      status_tone: hasPrepared && hasAsSold ? "blocked" : hasRegulatoryBasisMismatch ? "blocked" : "review",
+      status_label: hasPrepared && hasAsSold ? "Not pooled" : hasRegulatoryBasisMismatch ? "Blocked" : "No conversion applied",
+      current_handling:
+        hasPrepared && hasAsSold
+          ? "Prepared-for-feeding and as-sold values remain separated; no implicit preparation factor is applied."
+          : "No cross-basis pooling is applied on the public page.",
+      blocked_until: "A source-backed preparation factor or product-specific conversion model is approved and logged.",
+    },
+    {
+      step: "Platform relationship",
+      status_tone: hasPartners ? "review" : "gap",
+      status_label: hasPartners ? "Mapped" : "Unpaired",
+      current_handling: hasPartners
+        ? `This row has ${metadata.partners.length} explicit clean/contamination counterpart${plural(metadata.partners.length)} in frontmatter.`
+        : "No clean/contamination counterpart is declared for this row.",
+      blocked_until: "Affected metals, clean floor, and held-to-clean behavior are reviewed by row.",
+    },
+    {
+      step: "Calculation handoff",
+      status_tone: hasDistributionRows ? "blocked" : hasSummaryOnlyRows ? "gap" : "gap",
+      status_label: hasDistributionRows ? "Not a standard" : "Not computable",
+      current_handling: hasDistributionRows
+        ? "Visible P90/P10 values are source inputs for standards review, not final HMTc limits."
+        : "The row remains a source inventory and gap map until distribution inputs exist.",
+      blocked_until: "Records are approved for internal use and the deterministic standards workbench produces a calculation trace.",
+    },
+  ]
+}
+
+function platformRelationship(productSlug) {
+  const metadata = productMetadataForProduct(productSlug)
+  const cleanPartner = metadata.partners.find((partner) => partner.role_of_partner === "clean_benchmark")
+  const dirtyPartner = metadata.partners.find((partner) => partner.role_of_partner === "contamination_platform")
+
+  if (metadata.variant_type.includes("clean_benchmark")) {
+    return { cleanSlug: productSlug, dirtySlug: dirtyPartner?.slug || "" }
+  }
+  if (metadata.variant_type.includes("contamination_platform")) {
+    return { cleanSlug: cleanPartner?.slug || "", dirtySlug: productSlug }
+  }
+  return { cleanSlug: productSlug, dirtySlug: dirtyPartner?.slug || "" }
+}
+
+function distributionConfidence(cleanRecord, dirtyRecord) {
+  const records = [cleanRecord, dirtyRecord].filter(Boolean)
+  const directRows = records.filter((row) => row.row_fit === "direct_category1_row")
+  const minN = Math.min(...records.map((row) => numericValue(row.n)).filter((value) => value > 0))
+  const hasSmallN = Number.isFinite(minN) && minN < 30
+  const hasContext = records.some((row) => row.evidence_fitness_verdict === "EF-4")
+  const hasModeled = records.some((row) => row.evidence_fitness_verdict === "EF-3")
+
+  if (records.length === 0 || hasContext) {
+    return {
+      tone: "gap",
+      label: "Context only",
+      note: "No computation-ready source row is available for this basis.",
+    }
+  }
+  if (hasSmallN || hasModeled) {
+    return {
+      tone: "pending",
+      label: "Stability review",
+      note: "A source statistic exists, but small N or limited evidence blocks direct standards use.",
+    }
+  }
+  if (directRows.length === records.length) {
+    return {
+      tone: "review",
+      label: records.length > 1 ? "Paired source inputs" : "Source input",
+      note: "Basis-matched source statistic is visible for standards review; it is not an aggregate standard.",
+    }
+  }
+  return {
+    tone: "pending",
+    label: "Review fit",
+    note: "A source statistic exists, but row-fit review is still required.",
+  }
+}
+
+function platformRelationshipLabel(slug, pageSlug, metadata, partnerFromPage) {
+  if (slug === pageSlug) return "Current row"
+  if (partnerFromPage) return `Paired ${platformRoleLabel(partnerFromPage.role_of_partner)} row`
+  if (metadata.variant_type === "bridge" || rowFitRole(measuredRowsForProduct(slug)) === "bridge") {
+    return "Bridge formula context; not a locked row"
+  }
+  if (rowFitRole(measuredRowsForProduct(slug)) === "outside_locked_category1_rows") {
+    return "Specialty/out-of-scope formula context"
+  }
+  return "Related formula context"
+}
+
+function platformRoleLabel(role) {
+  if (String(role).includes("clean_benchmark")) return "Clean benchmark"
+  if (String(role).includes("contamination_platform")) return "Contamination platform"
+  if (String(role).includes("bridge")) return "Bridge/context"
+  if (String(role).includes("outside_locked_category1_rows")) return "Specialty/out-of-scope"
+  if (String(role).includes("independent")) return "Independent row"
+  return role ? readableSlug(String(role)) : "Context"
+}
+
+function platformComputationUse(role) {
+  if (String(role).includes("clean_benchmark")) {
+    return "May supply clean P90 source inputs after Evidence Fitness, basis, and source-pool review."
+  }
+  if (String(role).includes("contamination_platform")) {
+    return "May supply dirty P10 source inputs for affected metals; without fit dirty data the row remains held to clean."
+  }
+  if (String(role).includes("bridge") || String(role).includes("outside_locked_category1_rows")) {
+    return "Retained for context only; do not merge into locked rows without an explicit taxonomy decision."
+  }
+  return "Use only after row identity, basis, and source fitness are reviewed."
+}
+
+function rowFitRole(rows) {
+  if (rows.some((row) => row.row_fit === "bridge_product_context")) return "bridge"
+  if (rows.some((row) => row.row_fit === "outside_locked_category1_rows")) return "outside_locked_category1_rows"
+  return ""
+}
+
+function platformSortOrder(row, productSlug) {
+  if (row.product_slug === productSlug) return 0
+  if (row.variant_type.includes("clean_benchmark") || row.variant_type.includes("contamination_platform")) return 1
+  return 2
 }
 
 function measuredValueTableRow(row) {
@@ -1432,6 +1844,18 @@ function standardsMatrixCsvHref(productSlug) {
 
 function routingAuditCsvHref(productSlug) {
   return `/static/hmi-routing-audit/${encodeURIComponent(productSlug)}.csv`
+}
+
+function platformModelCsvHref(productSlug) {
+  return `/static/hmi-platform-model/${encodeURIComponent(productSlug)}.csv`
+}
+
+function basisDistributionCsvHref(productSlug) {
+  return `/static/hmi-basis-distributions/${encodeURIComponent(productSlug)}.csv`
+}
+
+function normalizationCsvHref(productSlug) {
+  return `/static/hmi-normalization/${encodeURIComponent(productSlug)}.csv`
 }
 
 function writeStructuredValuesCsv(productSlug) {
@@ -1503,6 +1927,218 @@ function writeStructuredValuesCsv(productSlug) {
 
   const csv = [header, ...csvRows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
   fs.writeFileSync(filePath, `${csv}\n`, "utf8")
+}
+
+function writePlatformModelCsv(productSlug) {
+  const rows = platformModelRows(productSlug)
+  const filePath = path.join(platformModelStaticDir, `${productSlug}.csv`)
+  if (rows.length === 0) {
+    removeFileIfExists(filePath)
+    return
+  }
+
+  const header = [
+    "page_slug",
+    "product_slug",
+    "row_label",
+    "hmtc_row",
+    "variant_type",
+    "platform_role_label",
+    "relationship_to_page",
+    "platform_metals",
+    "basis_states",
+    "computation_use",
+  ]
+  const csvRows = rows.map((row) => [
+    productSlug,
+    row.product_slug,
+    row.row_label,
+    row.hmtc_row,
+    row.variant_type,
+    row.platform_role_label,
+    row.relationship_to_page,
+    row.platform_metals,
+    row.basis_states,
+    row.computation_use,
+  ])
+  const csv = [header, ...csvRows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
+  fs.writeFileSync(filePath, `${csv}\n`, "utf8")
+}
+
+function writeBasisDistributionCsv(productSlug) {
+  const rows = basisDistributionRows(productSlug)
+  const filePath = path.join(basisDistributionStaticDir, `${productSlug}.csv`)
+  if (rows.length === 0) {
+    removeFileIfExists(filePath)
+    return
+  }
+
+  const header = [
+    "product_slug",
+    "metal_species",
+    "basis",
+    "basis_label",
+    "clean_slug",
+    "clean_p90_ppb",
+    "clean_n",
+    "dirty_slug",
+    "dirty_p10_ppb",
+    "dirty_n",
+    "confidence_tier",
+    "use_status",
+    "computation_note",
+  ]
+  const csvRows = rows.map((row) => [
+    productSlug,
+    row.metal_species,
+    row.basis,
+    row.basis_label,
+    row.clean_slug,
+    row.clean_record?.p90_ppb ?? "",
+    row.clean_record?.n ?? "",
+    row.dirty_slug,
+    row.dirty_record?.p10_ppb ?? "",
+    row.dirty_record?.n ?? "",
+    row.confidence_tier,
+    row.use_status,
+    row.computation_note,
+  ])
+  const csv = [header, ...csvRows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
+  fs.writeFileSync(filePath, `${csv}\n`, "utf8")
+}
+
+function writeNormalizationCsv(productSlug) {
+  const rows = normalizationWorkflowRows(productSlug)
+  const filePath = path.join(normalizationStaticDir, `${productSlug}.csv`)
+  if (rows.length === 0) {
+    removeFileIfExists(filePath)
+    return
+  }
+
+  const header = ["product_slug", "step", "status_tone", "status_label", "current_handling", "blocked_until"]
+  const csvRows = rows.map((row) => [
+    productSlug,
+    row.step,
+    row.status_tone,
+    row.status_label,
+    row.current_handling,
+    row.blocked_until,
+  ])
+  const csv = [header, ...csvRows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
+  fs.writeFileSync(filePath, `${csv}\n`, "utf8")
+}
+
+function writeGlobalFormulaArchitectureFiles() {
+  const formulaSlugs = uniqueValues(
+    formulaSummaryRows
+      .map((row) => row.row_slug)
+      .filter((slug) => slug?.startsWith("infant-formula")),
+  )
+
+  const lockedFormulaSlugs = [
+    "infant-formula-powder-non-soy",
+    "infant-formula-powder-soy-based",
+    "infant-formula-rtf-liquid-non-soy",
+    "infant-formula-rtf-liquid-soy-based",
+  ].filter((slug) => !formulaSlugs.includes(slug))
+  formulaSlugs.push(...lockedFormulaSlugs)
+
+  const platformRows = formulaSlugs.flatMap((slug) => platformModelRows(slug).map((row) => ({ page_slug: slug, ...row })))
+  const platformHeader = [
+    "page_slug",
+    "product_slug",
+    "row_label",
+    "hmtc_row",
+    "variant_type",
+    "platform_role_label",
+    "relationship_to_page",
+    "platform_metals",
+    "basis_states",
+    "computation_use",
+  ]
+  const platformCsvRows = platformRows.map((row) => [
+    row.page_slug,
+    row.product_slug,
+    row.row_label,
+    row.hmtc_row,
+    row.variant_type,
+    row.platform_role_label,
+    row.relationship_to_page === "Current row" ? "Self" : row.relationship_to_page,
+    row.platform_metals,
+    row.basis_states,
+    row.computation_use,
+  ])
+  writeCsvFile(path.join(repoRoot, "data/evidence/category1_formula_platform_relationships.csv"), platformHeader, dedupeCsvRows(platformCsvRows))
+
+  const distributionRows = formulaSlugs.flatMap((slug) => basisDistributionRows(slug))
+  const distributionHeader = [
+    "product_slug",
+    "metal_species",
+    "basis",
+    "basis_label",
+    "clean_slug",
+    "clean_p90_ppb",
+    "clean_n",
+    "dirty_slug",
+    "dirty_p10_ppb",
+    "dirty_n",
+    "confidence_tier",
+    "use_status",
+    "computation_note",
+  ]
+  const distributionCsvRows = distributionRows.map((row) => [
+    row.product_slug,
+    row.metal_species,
+    row.basis,
+    row.basis_label,
+    row.clean_slug,
+    row.clean_record?.p90_ppb ?? "",
+    row.clean_record?.n ?? "",
+    row.dirty_slug,
+    row.dirty_record?.p10_ppb ?? "",
+    row.dirty_record?.n ?? "",
+    row.confidence_tier,
+    row.use_status,
+    row.computation_note,
+  ])
+  writeCsvFile(
+    path.join(repoRoot, "data/evidence/category1_formula_basis_distribution_inputs.csv"),
+    distributionHeader,
+    dedupeCsvRows(distributionCsvRows),
+  )
+
+  const normalizationRows = formulaSlugs.flatMap((slug) =>
+    normalizationWorkflowRows(slug).map((row) => [
+      slug,
+      row.step,
+      row.status_tone,
+      row.status_label,
+      row.current_handling,
+      row.blocked_until,
+    ]),
+  )
+  writeCsvFile(
+    path.join(repoRoot, "data/evidence/category1_formula_normalization_workflow.csv"),
+    ["product_slug", "step", "status_tone", "status_label", "current_handling", "blocked_until"],
+    dedupeCsvRows(normalizationRows),
+  )
+}
+
+function writeCsvFile(filePath, header, rows) {
+  const csv = [header, ...rows].map((cells) => cells.map(csvEscape).join(",")).join("\n")
+  fs.writeFileSync(filePath, `${csv}\n`, "utf8")
+}
+
+function dedupeCsvRows(rows) {
+  const seen = new Set()
+  const output = []
+  for (const row of rows) {
+    const key = JSON.stringify(row)
+    if (seen.has(key)) continue
+    seen.add(key)
+    output.push(row)
+  }
+  return output
 }
 
 function writeStandardsMatrixCsv(productSlug, rows, fallbackMetals = []) {
@@ -1643,6 +2279,94 @@ function metalOrder(metal) {
   const order = ["Pb", "Cd", "iAs", "tAs", "tHg", "MeHg", "Ni", "Al", "Sn", "Cr", "Cr-VI"]
   const index = order.indexOf(metal)
   return index >= 0 ? index : 99
+}
+
+function productMetadataForProduct(productSlug) {
+  if (productMetadataCache.has(productSlug)) return productMetadataCache.get(productSlug)
+
+  const metadata = {
+    exists: false,
+    title: "",
+    label: "",
+    hmtc_row: "",
+    hmtc_category: "",
+    base_taxonomy: "",
+    variant_type: "",
+    platform_metals: [],
+    partners: [],
+  }
+
+  const pagePath = path.join(productDir, `${productSlug}.md`)
+  if (!fs.existsSync(pagePath)) {
+    productMetadataCache.set(productSlug, metadata)
+    return metadata
+  }
+
+  const source = fs.readFileSync(pagePath, "utf8")
+  const frontmatter = source.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? ""
+  metadata.exists = true
+  metadata.title = frontmatterScalar(frontmatter, "title")
+  metadata.label = frontmatterScalar(frontmatter, "label")
+  metadata.hmtc_row = frontmatterScalar(frontmatter, "hmtc_row")
+  metadata.hmtc_category = frontmatterScalar(frontmatter, "hmtc_category")
+  metadata.base_taxonomy = frontmatterScalar(frontmatter, "base_taxonomy")
+  metadata.variant_type = frontmatterScalar(frontmatter, "variant_type")
+  metadata.platform_metals = frontmatterInlineList(frontmatter, "platform_metals")
+  metadata.partners = frontmatterPartners(frontmatter)
+
+  productMetadataCache.set(productSlug, metadata)
+  return metadata
+}
+
+function frontmatterScalar(frontmatter, key) {
+  const match = frontmatter.match(new RegExp(`^${key}:\\s*"?(.+?)"?\\s*$`, "m"))
+  return match?.[1]?.replace(/^"|"$/g, "").trim() ?? ""
+}
+
+function frontmatterInlineList(frontmatter, key) {
+  const match = frontmatter.match(new RegExp(`^${key}:\\s*\\[(.*?)\\]\\s*$`, "m"))
+  if (!match) return []
+  return match[1]
+    .split(",")
+    .map((item) => item.trim().replace(/^"|"$/g, ""))
+    .filter(Boolean)
+}
+
+function frontmatterPartners(frontmatter) {
+  const partners = []
+  let current = null
+
+  for (const line of frontmatter.split(/\r?\n/)) {
+    const slug = line.match(/^\s*-\s+slug:\s*(.+?)\s*$/)?.[1]
+    if (slug) {
+      if (current?.slug) partners.push(current)
+      current = { slug: slug.trim(), role_of_partner: "", metals: [] }
+      continue
+    }
+
+    const role = line.match(/^\s+role_of_partner:\s*(.+?)\s*$/)?.[1]
+    if (role && current) {
+      current.role_of_partner = role.trim()
+      continue
+    }
+
+    const metals = line.match(/^\s+metals:\s*\[(.*?)\]\s*$/)?.[1]
+    if (metals && current) {
+      current.metals = metals
+        .split(",")
+        .map((item) => item.trim())
+        .filter(Boolean)
+    }
+  }
+
+  if (current?.slug) partners.push(current)
+  return partners
+}
+
+function productLink(productSlug, label = readableSlug(productSlug)) {
+  if (!fs.existsSync(path.join(productDir, `${productSlug}.md`))) return escapeHtml(label)
+  const slug = `products/${productSlug}`
+  return `<a href="../${escapeAttribute(slug)}" class="internal" data-slug="${escapeAttribute(slug)}">${escapeHtml(label)}</a>`
 }
 
 function sourceLinkById(sourceId, label = shortSourceLabel(sourceId)) {

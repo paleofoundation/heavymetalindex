@@ -1,0 +1,6 @@
+product_slug,step,status_tone,status_label,current_handling,blocked_until
+fruit-juices-apple-containing,Basis tagging,gap,Missing,No structured measured rows are loaded.,"Every value used for computation carries basis, unit, matrix, and censoring fields."
+fruit-juices-apple-containing,Within-basis distribution,gap,No input,No direct product-row distribution statistic is loaded for this row.,Fit-source pool is reviewed and competing source rows are adjudicated.
+fruit-juices-apple-containing,Cross-basis conversion,review,No conversion applied,No cross-basis pooling is applied on the public page.,A source-backed preparation factor or product-specific conversion model is approved and logged.
+fruit-juices-apple-containing,Platform relationship,gap,Unpaired,No clean/contamination counterpart is declared for this row.,"Affected metals, clean floor, and held-to-clean behavior are reviewed by row."
+fruit-juices-apple-containing,Calculation handoff,gap,Not computable,The row remains a source inventory and gap map until distribution inputs exist.,Records are approved for internal use and the deterministic standards workbench produces a calculation trace.

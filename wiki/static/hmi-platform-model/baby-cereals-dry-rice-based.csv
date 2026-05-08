@@ -1,0 +1,3 @@
+page_slug,product_slug,row_label,hmtc_row,variant_type,platform_role_label,relationship_to_page,platform_metals,basis_states,computation_use
+baby-cereals-dry-rice-based,baby-cereals-dry-rice-based,"Baby Cereals / Grain Products, Dry (Rice-Based)",6,contamination_platform,Contamination platform,Current row,"iAs, Cd, and Pb",none,May supply dirty P10 source inputs for affected metals; without fit dirty data the row remains held to clean.
+baby-cereals-dry-rice-based,baby-cereals-dry-non-rice,"Baby Cereals / Grain Products, Dry (Non-Rice)",5,clean_benchmark,Clean benchmark,Paired Clean benchmark row,"iAs, Cd, and Pb",none,"May supply clean P90 source inputs after Evidence Fitness, basis, and source-pool review."

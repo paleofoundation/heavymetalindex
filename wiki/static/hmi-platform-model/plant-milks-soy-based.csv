@@ -1,0 +1,2 @@
+page_slug,product_slug,row_label,hmtc_row,variant_type,platform_role_label,relationship_to_page,platform_metals,basis_states,computation_use
+plant-milks-soy-based,plant-milks-soy-based,"Plant milks, soy-based",6,contamination_platform,Contamination platform,Current row,"Al, Ni, and Cd",none,May supply dirty P10 source inputs for affected metals; without fit dirty data the row remains held to clean.

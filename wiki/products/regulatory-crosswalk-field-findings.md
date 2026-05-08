@@ -21,6 +21,19 @@ Regulatory values are not HMTc standards values. They are external legal or guid
 - Field findings are shown only where a structured extraction exists. Otherwise the comparison is intentionally blocked rather than guessed.
 - Formula occurrence values are prepared-for-feeding lower-bound values from the FDA workbook, not dry-powder-as-sold values.
 
+## Regulatory Philosophy Classification
+
+The crosswalk does not treat every external value as the same kind of limit. Each regulatory row must preserve the issuing authority, legal status, product scope, basis, and philosophy before it is placed beside field findings.
+
+| Regulatory construct | Examples currently loaded | How the Index uses it |
+| --- | --- | --- |
+| Concentration maximum level | EU 2023/915 maximum levels | External legal ceiling or scope-specific context; not an HMTc value. |
+| Enforcement/action-level guidance | FDA Closer to Zero processed-food lead, FDA apple-juice iAs | Nonbinding but enforcement-relevant federal context; do not treat as a statutory ML. |
+| Draft guidance | FDA draft juice lead values | Scenario context only until finalized; never a final legal limit. |
+| Quality standard | FDA bottled-water lead standard | Direct only where the product is within the regulatory product scope. |
+| Exposure/toxicology threshold | Prop 65, reference-dose, MRL, or TWI values when loaded | Exposure framework; not directly comparable to product concentration without intake modeling. |
+| Disclosure or state-law trigger | State infant-food statutes when loaded | Labeling/reporting context; separate from concentration feasibility benchmarks. |
+
 ## Crosswalk Surface
 
 The detailed comparison surface is generated on each product page from `data/evidence/product_regulatory_crosswalk.csv`. That CSV is now the source of truth for the row-level crosswalk; the product pages carry the readable table close to the top of the page.

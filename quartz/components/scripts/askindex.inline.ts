@@ -1,15 +1,45 @@
 type AskCitation = {
-  id: number
-  title: string
-  url: string
-  slug: string
-  excerpt: string
-}
+  id: number;
+  title: string;
+  url: string;
+  slug: string;
+  excerpt: string;
+};
 
-type AskConfidence = "high" | "medium" | "low" | "insufficient"
-type AskMode = "model" | "retrieval_only" | "guardrail_fallback" | "private_boundary"
-type AskStatus = "supported" | "limited" | "blocked" | "non_comparable" | "private_mode_required"
-type AskVerb = "explain" | "compare" | "calculate" | "audit"
+type AskPage = {
+  title: string;
+  url: string;
+  slug: string;
+  category?: string;
+  why?: string;
+};
+
+type AskEvidenceGap = {
+  id: string;
+  capture_status?: string;
+  public_answer_status?: AskStatus;
+  priority?: "high" | "medium" | "low";
+  ingredient_or_product?: string;
+  metal_or_analyte?: string;
+  claim_needed?: string;
+  evidence_type_needed?: string;
+  blocking_reason?: string;
+  suggested_source_slots?: string[];
+};
+
+type AskConfidence = "high" | "medium" | "low" | "insufficient";
+type AskMode =
+  | "model"
+  | "retrieval_only"
+  | "guardrail_fallback"
+  | "private_boundary";
+type AskStatus =
+  | "supported"
+  | "limited"
+  | "blocked"
+  | "non_comparable"
+  | "private_mode_required";
+type AskVerb = "explain" | "compare" | "calculate" | "audit";
 type AskRole =
   | "standards"
   | "brand"
@@ -19,24 +49,27 @@ type AskRole =
   | "quality"
   | "regulator"
   | "lawyer"
-  | "journalist"
+  | "journalist";
 
 type AskResponse = {
-  answer?: string
-  confidence?: AskConfidence
-  limits?: string
-  citations?: AskCitation[]
-  mode?: AskMode
-  status?: AskStatus
-  direct_answer?: string
-  question_interpreted_as?: string
-  source_pool?: string
-  calculation_method?: string
-  regulatory_comparison?: string
-  audit_trail?: string
-  next_step?: string
-  error?: string
-}
+  answer?: string;
+  confidence?: AskConfidence;
+  limits?: string;
+  citations?: AskCitation[];
+  mode?: AskMode;
+  status?: AskStatus;
+  direct_answer?: string;
+  question_interpreted_as?: string;
+  source_pool?: string;
+  calculation_method?: string;
+  regulatory_comparison?: string;
+  audit_trail?: string;
+  next_step?: string;
+  pages?: AskPage[];
+  follow_up_questions?: string[];
+  evidence_gap?: AskEvidenceGap | null;
+  error?: string;
+};
 
 const STATUS_LABELS: Record<AskStatus, string> = {
   supported: "Supported",
@@ -44,21 +77,21 @@ const STATUS_LABELS: Record<AskStatus, string> = {
   blocked: "Blocked",
   non_comparable: "Non-comparable",
   private_mode_required: "Private mode required",
-}
+};
 
 const CONFIDENCE_LABELS: Record<AskConfidence, string> = {
   high: "High confidence",
   medium: "Medium confidence",
   low: "Low confidence",
   insufficient: "Insufficient confidence",
-}
+};
 
 const VERB_LABELS: Record<AskVerb, string> = {
   explain: "Explain",
   compare: "Compare",
   calculate: "Calculate",
   audit: "Audit",
-}
+};
 
 const ROLE_LABELS: Record<AskRole, string> = {
   standards: "Standards",
@@ -70,7 +103,7 @@ const ROLE_LABELS: Record<AskRole, string> = {
   regulator: "Regulator",
   lawyer: "Lawyer",
   journalist: "Journalist",
-}
+};
 
 const QUESTION_SUGGESTIONS: Record<AskVerb, Record<AskRole, string[]>> = {
   explain: {
@@ -261,7 +294,7 @@ const QUESTION_SUGGESTIONS: Record<AskVerb, Record<AskRole, string[]>> = {
       "Audit whether the apparent comparison is direct or actually broken by basis or species mismatch.",
     ],
   },
-}
+};
 
 function escapeHTML(value: string) {
   return value
@@ -269,41 +302,49 @@ function escapeHTML(value: string) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;")
+    .replace(/'/g, "&#39;");
 }
 
-function renderRichText(text: string, citations: AskCitation[], wrapParagraphs = true) {
-  let html = escapeHTML(text)
-  html = html.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+function renderRichText(
+  text: string,
+  citations: AskCitation[],
+  wrapParagraphs = true,
+) {
+  let html = escapeHTML(text);
+  html = html.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
   html = html.replace(/\[(\d+)\]/g, (_match, id) => {
-    const citation = citations.find((item) => item.id === Number(id))
-    if (!citation) return `[${id}]`
-    return `<a href="${citation.url}" class="ask-index-cite">[${id}]</a>`
-  })
+    const citation = citations.find((item) => item.id === Number(id));
+    if (!citation) return `[${id}]`;
+    return `<a href="${citation.url}" class="ask-index-cite">[${id}]</a>`;
+  });
 
-  if (!wrapParagraphs) return html.replace(/\n/g, "<br />")
+  if (!wrapParagraphs) return html.replace(/\n/g, "<br />");
 
   return html
     .split(/\n{2,}/)
     .map((paragraph) => `<p>${paragraph.replace(/\n/g, "<br />")}</p>`)
-    .join("")
+    .join("");
 }
 
 function removeChildren(node: Element) {
-  while (node.firstChild) node.removeChild(node.firstChild)
+  while (node.firstChild) node.removeChild(node.firstChild);
 }
 
-function appendMessage(container: Element, role: "user" | "assistant" | "status", html: string) {
-  const message = document.createElement("div")
-  message.className = `ask-index-message ${role}`
-  message.innerHTML = html
-  container.appendChild(message)
-  container.scrollTop = container.scrollHeight
-  return message
+function appendMessage(
+  container: Element,
+  role: "user" | "assistant" | "status",
+  html: string,
+) {
+  const message = document.createElement("div");
+  message.className = `ask-index-message ${role}`;
+  message.innerHTML = html;
+  container.appendChild(message);
+  container.scrollTop = container.scrollHeight;
+  return message;
 }
 
 function renderSummaryValue(text: string, citations: AskCitation[]) {
-  return `<div class="ask-index-summary-value">${renderRichText(text, citations)}</div>`
+  return `<div class="ask-index-summary-value">${renderRichText(text, citations)}</div>`;
 }
 
 function renderSummary(data: AskResponse, citations: AskCitation[]) {
@@ -318,19 +359,25 @@ function renderSummary(data: AskResponse, citations: AskCitation[]) {
       : "",
   ]
     .filter(Boolean)
-    .join("")
+    .join("");
 
   const fields = [
     data.direct_answer ? ["Direct answer", data.direct_answer] : null,
-    data.question_interpreted_as ? ["Question interpreted as", data.question_interpreted_as] : null,
+    data.question_interpreted_as
+      ? ["Question interpreted as", data.question_interpreted_as]
+      : null,
     data.source_pool ? ["Source pool", data.source_pool] : null,
-    data.calculation_method ? ["Calculation method", data.calculation_method] : null,
-    data.regulatory_comparison ? ["Regulatory comparison", data.regulatory_comparison] : null,
+    data.calculation_method
+      ? ["Calculation method", data.calculation_method]
+      : null,
+    data.regulatory_comparison
+      ? ["Regulatory comparison", data.regulatory_comparison]
+      : null,
     data.audit_trail ? ["Audit trail", data.audit_trail] : null,
     data.next_step ? ["Next step", data.next_step] : null,
-  ].filter(Boolean) as Array<[string, string]>
+  ].filter(Boolean) as Array<[string, string]>;
 
-  if (badges.length === 0 && fields.length === 0) return ""
+  if (badges.length === 0 && fields.length === 0) return "";
 
   const fieldHtml = fields
     .map(
@@ -339,15 +386,15 @@ function renderSummary(data: AskResponse, citations: AskCitation[]) {
           label,
         )}</div>${renderSummaryValue(value, citations)}</div>`,
     )
-    .join("")
+    .join("");
 
   return `<div class="ask-index-summary">${
     badges ? `<div class="ask-index-badges">${badges}</div>` : ""
-  }${fieldHtml ? `<div class="ask-index-summary-grid">${fieldHtml}</div>` : ""}</div>`
+  }${fieldHtml ? `<div class="ask-index-summary-grid">${fieldHtml}</div>` : ""}</div>`;
 }
 
 function renderCitations(citations: AskCitation[]) {
-  if (citations.length === 0) return ""
+  if (citations.length === 0) return "";
 
   const items = citations
     .map(
@@ -356,178 +403,288 @@ function renderCitations(citations: AskCitation[]) {
         <p>${escapeHTML(citation.excerpt)}</p>
       </li>`,
     )
-    .join("")
+    .join("");
 
-  return `<div class="ask-index-sources"><div class="ask-index-sources-title">Sources</div><ol>${items}</ol></div>`
+  return `<div class="ask-index-sources"><div class="ask-index-sources-title">Sources</div><ol>${items}</ol></div>`;
+}
+
+function renderPages(pages: AskPage[] = [], citations: AskCitation[] = []) {
+  const citationSlugs = new Set(citations.map((citation) => citation.slug));
+  const uniquePages = pages.filter((page, index, list) => {
+    if (!page?.url || !page?.slug) return false;
+    return (
+      list.findIndex((candidate) => candidate.slug === page.slug) === index
+    );
+  });
+  if (uniquePages.length === 0) return "";
+
+  const items = uniquePages
+    .map((page) => {
+      const cited = citationSlugs.has(page.slug)
+        ? "Cited"
+        : page.why || "Related";
+      return `<li>
+        <a href="${page.url}">${escapeHTML(page.title)}</a>
+        <p>${escapeHTML(cited)}${page.category ? ` · ${escapeHTML(page.category)}` : ""}</p>
+      </li>`;
+    })
+    .join("");
+
+  return `<div class="ask-index-pages"><div class="ask-index-sources-title">Pages to open</div><ol>${items}</ol></div>`;
+}
+
+function renderFollowUps(followUps: string[] = []) {
+  const prompts = followUps
+    .filter((prompt, index, list) => prompt && list.indexOf(prompt) === index)
+    .slice(0, 5);
+  if (prompts.length === 0) return "";
+
+  const buttons = prompts
+    .map(
+      (prompt) =>
+        `<button type="button" data-ask-followup="${escapeHTML(prompt)}">${escapeHTML(prompt)}</button>`,
+    )
+    .join("");
+
+  return `<div class="ask-index-followups"><div class="ask-index-sources-title">Follow-up questions</div><div>${buttons}</div></div>`;
+}
+
+function renderEvidenceGap(gap?: AskEvidenceGap | null) {
+  if (!gap) return "";
+
+  const tags = [
+    gap.priority ? `Priority: ${gap.priority}` : "",
+    gap.evidence_type_needed || "",
+    gap.capture_status || "",
+  ].filter(Boolean);
+  const tagHtml = tags
+    .map((tag) => `<span class="ask-index-gap-tag">${escapeHTML(tag)}</span>`)
+    .join("");
+  const slots = (gap.suggested_source_slots || [])
+    .slice(0, 5)
+    .map((slot) => `<li>${escapeHTML(slot)}</li>`)
+    .join("");
+
+  return `<div class="ask-index-gap">
+    <div class="ask-index-sources-title">Evidence needed</div>
+    ${tagHtml ? `<div class="ask-index-gap-tags">${tagHtml}</div>` : ""}
+    ${
+      gap.claim_needed
+        ? `<p><strong>Claim to unlock:</strong> ${escapeHTML(gap.claim_needed)}</p>`
+        : ""
+    }
+    ${
+      gap.blocking_reason
+        ? `<p><strong>Current block:</strong> ${escapeHTML(gap.blocking_reason)}</p>`
+        : ""
+    }
+    ${slots ? `<ul>${slots}</ul>` : ""}
+  </div>`;
 }
 
 function inferInitialRole(pageSlug: string): AskRole {
-  if (pageSlug.startsWith("ingredients/")) return "supplier"
-  if (pageSlug.startsWith("regulations/")) return "regulator"
-  if (pageSlug.startsWith("testing/")) return "auditor"
-  if (pageSlug.startsWith("supply-chain/")) return "supplier"
-  if (pageSlug.startsWith("products/")) return "standards"
-  return "standards"
+  if (pageSlug.startsWith("ingredients/")) return "supplier";
+  if (pageSlug.startsWith("regulations/")) return "regulator";
+  if (pageSlug.startsWith("testing/")) return "auditor";
+  if (pageSlug.startsWith("supply-chain/")) return "supplier";
+  if (pageSlug.startsWith("products/")) return "standards";
+  return "standards";
 }
 
 function inferInitialVerb(pageSlug: string): AskVerb {
-  if (pageSlug.startsWith("products/")) return "calculate"
-  if (pageSlug.startsWith("regulations/")) return "compare"
-  if (pageSlug.startsWith("testing/") || pageSlug.startsWith("methodology")) return "audit"
-  return "explain"
+  if (pageSlug.startsWith("products/")) return "calculate";
+  if (pageSlug.startsWith("regulations/")) return "compare";
+  if (pageSlug.startsWith("testing/") || pageSlug.startsWith("methodology"))
+    return "audit";
+  return "explain";
 }
 
 function buildPlaceholder(role: AskRole, verb: AskVerb) {
   if (role === "supplier") {
     return verb === "audit"
       ? "Ask what a supplier COA or public evidence packet would need to support, and where public limits still apply..."
-      : "Ask about supplier evidence, higher-risk ingredient forms, COA fields, public specs, or derivative risk..."
+      : "Ask about supplier evidence, higher-risk ingredient forms, COA fields, public specs, or derivative risk...";
   }
 
   if (verb === "calculate") {
-    return "Ask about public calculation inputs, source pools, percentiles, pass-rate math, or why a calculation is blocked..."
+    return "Ask about public calculation inputs, source pools, percentiles, pass-rate math, or why a calculation is blocked...";
   }
 
   if (verb === "audit") {
-    return "Ask whether a public claim, comparison, or evidence path is supported, limited, blocked, or non-comparable..."
+    return "Ask whether a public claim, comparison, or evidence path is supported, limited, blocked, or non-comparable...";
   }
 
-  return "Ask to explain, compare, calculate, or audit published evidence. Do not enter confidential COAs, lot data, or supplier records here."
+  return "Ask to explain, compare, calculate, or audit published evidence. Do not enter confidential COAs, lot data, or supplier records here.";
 }
 
 function getSuggestions(role: AskRole, verb: AskVerb) {
-  return QUESTION_SUGGESTIONS[verb][role]
+  return QUESTION_SUGGESTIONS[verb][role];
 }
 
 function setupAskIndex(root: Element) {
-  const button = root.querySelector(".ask-index-button") as HTMLButtonElement | null
-  const panel = root.querySelector(".ask-index-panel") as HTMLDivElement | null
-  const close = root.querySelector(".ask-index-close") as HTMLButtonElement | null
-  const form = root.querySelector(".ask-index-form") as HTMLFormElement | null
-  const input = root.querySelector(".ask-index-input") as HTMLTextAreaElement | null
-  const messages = root.querySelector(".ask-index-messages") as HTMLDivElement | null
-  const suggestions = root.querySelector(".ask-index-suggestions") as HTMLDivElement | null
+  const button = root.querySelector(
+    ".ask-index-button",
+  ) as HTMLButtonElement | null;
+  const panel = root.querySelector(".ask-index-panel") as HTMLDivElement | null;
+  const close = root.querySelector(
+    ".ask-index-close",
+  ) as HTMLButtonElement | null;
+  const form = root.querySelector(".ask-index-form") as HTMLFormElement | null;
+  const input = root.querySelector(
+    ".ask-index-input",
+  ) as HTMLTextAreaElement | null;
+  const messages = root.querySelector(
+    ".ask-index-messages",
+  ) as HTMLDivElement | null;
+  const suggestions = root.querySelector(
+    ".ask-index-suggestions",
+  ) as HTMLDivElement | null;
   const verbButtons = Array.from(
     root.querySelectorAll("[data-ask-verb]"),
-  ) as HTMLButtonElement[]
+  ) as HTMLButtonElement[];
   const roleButtons = Array.from(
     root.querySelectorAll("[data-ask-role]"),
-  ) as HTMLButtonElement[]
+  ) as HTMLButtonElement[];
 
-  if (!button || !panel || !close || !form || !input || !messages || !suggestions) return
+  if (
+    !button ||
+    !panel ||
+    !close ||
+    !form ||
+    !input ||
+    !messages ||
+    !suggestions
+  )
+    return;
 
-  const openButton = button
-  const panelEl = panel
-  const closeButton = close
-  const formEl = form
-  const inputEl = input
-  const messagesEl = messages
-  const suggestionsEl = suggestions
-  const pageSlug = document.body.dataset.slug || ""
-  let activeVerb = inferInitialVerb(pageSlug)
-  let activeRole = inferInitialRole(pageSlug)
-  let isSubmitting = false
+  const openButton = button;
+  const panelEl = panel;
+  const closeButton = close;
+  const formEl = form;
+  const inputEl = input;
+  const messagesEl = messages;
+  const suggestionsEl = suggestions;
+  const pageSlug = document.body.dataset.slug || "";
+  let activeVerb = inferInitialVerb(pageSlug);
+  let activeRole = inferInitialRole(pageSlug);
+  let isSubmitting = false;
 
   function renderSuggestions() {
-    removeChildren(suggestionsEl)
+    removeChildren(suggestionsEl);
     getSuggestions(activeRole, activeVerb).forEach((prompt) => {
-      const suggestion = document.createElement("button")
-      suggestion.type = "button"
-      suggestion.textContent = prompt
-      suggestion.addEventListener("click", () => openPanel(prompt))
-      suggestionsEl.appendChild(suggestion)
-    })
+      const suggestion = document.createElement("button");
+      suggestion.type = "button";
+      suggestion.textContent = prompt;
+      suggestion.addEventListener("click", () => openPanel(prompt));
+      suggestionsEl.appendChild(suggestion);
+    });
   }
 
   function syncControls() {
     verbButtons.forEach((button) => {
-      const isActive = button.dataset.askVerb === activeVerb
-      button.classList.toggle("active", isActive)
-      button.setAttribute("aria-pressed", isActive ? "true" : "false")
-    })
+      const isActive = button.dataset.askVerb === activeVerb;
+      button.classList.toggle("active", isActive);
+      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
 
     roleButtons.forEach((button) => {
-      const isActive = button.dataset.askRole === activeRole
-      button.classList.toggle("active", isActive)
-      button.setAttribute("aria-pressed", isActive ? "true" : "false")
-    })
+      const isActive = button.dataset.askRole === activeRole;
+      button.classList.toggle("active", isActive);
+      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
 
-    inputEl.placeholder = buildPlaceholder(activeRole, activeVerb)
-    renderSuggestions()
+    inputEl.placeholder = buildPlaceholder(activeRole, activeVerb);
+    renderSuggestions();
   }
 
   function openPanel(prefill?: string) {
-    panelEl.classList.add("active")
-    panelEl.setAttribute("aria-hidden", "false")
-    openButton.setAttribute("aria-expanded", "true")
+    panelEl.classList.add("active");
+    panelEl.setAttribute("aria-hidden", "false");
+    openButton.setAttribute("aria-expanded", "true");
     if (messagesEl.childElementCount === 0) {
       appendMessage(
         messagesEl,
         "assistant",
         "<p>Public evidence mode is active. I can explain, compare, calculate, or audit from published Heavy Metal Index pages only.</p><p>For COAs, lot histories, supplier scorecards, private specs, or release decisions, use the private analytical workbench.</p>",
-      )
+      );
     }
-    if (prefill) inputEl.value = prefill
-    inputEl.focus()
+    if (prefill) inputEl.value = prefill;
+    inputEl.focus();
   }
 
   function closePanel() {
-    panelEl.classList.remove("active")
-    panelEl.setAttribute("aria-hidden", "true")
-    openButton.setAttribute("aria-expanded", "false")
-    openButton.focus()
+    panelEl.classList.remove("active");
+    panelEl.setAttribute("aria-hidden", "true");
+    openButton.setAttribute("aria-expanded", "false");
+    openButton.focus();
   }
 
-  openButton.addEventListener("click", () => openPanel())
-  closeButton.addEventListener("click", closePanel)
+  openButton.addEventListener("click", () => openPanel());
+  closeButton.addEventListener("click", closePanel);
   panelEl.addEventListener("click", (event) => {
-    if (event.target === panelEl) closePanel()
-  })
+    if (event.target === panelEl) closePanel();
+  });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && panelEl.classList.contains("active")) closePanel()
-  })
+    if (event.key === "Escape" && panelEl.classList.contains("active"))
+      closePanel();
+  });
 
   verbButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      const next = button.dataset.askVerb as AskVerb | undefined
-      if (!next) return
-      activeVerb = next
-      syncControls()
-    })
-  })
+      const next = button.dataset.askVerb as AskVerb | undefined;
+      if (!next) return;
+      activeVerb = next;
+      syncControls();
+    });
+  });
 
   roleButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      const next = button.dataset.askRole as AskRole | undefined
-      if (!next) return
-      activeRole = next
-      syncControls()
-    })
-  })
+      const next = button.dataset.askRole as AskRole | undefined;
+      if (!next) return;
+      activeRole = next;
+      syncControls();
+    });
+  });
 
   inputEl.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && (event.metaKey || event.ctrlKey)) {
-      event.preventDefault()
-      formEl.requestSubmit()
+      event.preventDefault();
+      formEl.requestSubmit();
     }
-  })
+  });
+
+  messagesEl.addEventListener("click", (event) => {
+    const target = event.target as HTMLElement | null;
+    const followUp = target?.closest(
+      "[data-ask-followup]",
+    ) as HTMLButtonElement | null;
+    if (!followUp) return;
+    const prompt = followUp.dataset.askFollowup || followUp.textContent || "";
+    inputEl.value = prompt;
+    inputEl.focus();
+  });
 
   formEl.addEventListener("submit", async (event) => {
-    event.preventDefault()
-    if (isSubmitting) return
+    event.preventDefault();
+    if (isSubmitting) return;
 
-    const question = inputEl.value.trim()
-    if (!question) return
+    const question = inputEl.value.trim();
+    if (!question) return;
 
-    isSubmitting = true
+    isSubmitting = true;
     appendMessage(
       messagesEl,
       "user",
       `<p><span class="ask-index-inline-tag">${escapeHTML(VERB_LABELS[activeVerb])}</span> <span class="ask-index-inline-tag">${escapeHTML(ROLE_LABELS[activeRole])}</span></p><p>${escapeHTML(question)}</p>`,
-    )
-    inputEl.value = ""
-    const status = appendMessage(messagesEl, "status", "<p>Searching the Index...</p>")
+    );
+    inputEl.value = "";
+    const status = appendMessage(
+      messagesEl,
+      "status",
+      "<p>Searching the Index...</p>",
+    );
 
     try {
       const response = await fetch("/api/ask", {
@@ -539,67 +696,76 @@ function setupAskIndex(root: Element) {
           verb: activeVerb,
           role: activeRole,
         }),
-      })
+      });
 
-      const data = (await response.json()) as AskResponse
-      status.remove()
+      const data = (await response.json()) as AskResponse;
+      status.remove();
 
       if (!response.ok || data.error) {
         appendMessage(
           messagesEl,
           "assistant",
           `<p>${escapeHTML(data.error || "Ask the Index could not answer right now.")}</p>`,
-        )
-        return
+        );
+        return;
       }
 
-      const citations = data.citations || []
-      const summary = renderSummary(data, citations)
-      const answer = data.answer ? renderRichText(data.answer, citations) : ""
+      const citations = data.citations || [];
+      const summary = renderSummary(data, citations);
+      const answer = data.answer ? renderRichText(data.answer, citations) : "";
       const limits = data.limits
         ? `<div class="ask-index-limits">${renderRichText(data.limits, citations)}</div>`
-        : ""
+        : "";
 
       appendMessage(
         messagesEl,
         "assistant",
-        `${summary}${answer}${limits}${renderCitations(citations)}`,
-      )
+        `${summary}${answer}${limits}${renderEvidenceGap(data.evidence_gap)}${renderPages(data.pages, citations)}${renderCitations(citations)}${renderFollowUps(
+          data.follow_up_questions,
+        )}`,
+      );
     } catch {
-      status.remove()
-      appendMessage(messagesEl, "assistant", "<p>Ask the Index could not connect. Try again in a moment.</p>")
+      status.remove();
+      appendMessage(
+        messagesEl,
+        "assistant",
+        "<p>Ask the Index could not connect. Try again in a moment.</p>",
+      );
     } finally {
-      isSubmitting = false
+      isSubmitting = false;
     }
-  })
+  });
 
-  syncControls()
+  syncControls();
 }
 
 function setupAllAskIndex() {
   document.querySelectorAll(".ask-index").forEach((root) => {
-    if ((root as HTMLElement).dataset.askIndexReady === "true") return
-    ;(root as HTMLElement).dataset.askIndexReady = "true"
-    setupAskIndex(root)
-  })
+    if ((root as HTMLElement).dataset.askIndexReady === "true") return;
+    (root as HTMLElement).dataset.askIndexReady = "true";
+    setupAskIndex(root);
+  });
 }
 
 function setupAskIndexTriggers() {
   document.querySelectorAll("[data-ask-index-trigger]").forEach((trigger) => {
-    if ((trigger as HTMLElement).dataset.askIndexTriggerReady === "true") return
-    ;(trigger as HTMLElement).dataset.askIndexTriggerReady = "true"
+    if ((trigger as HTMLElement).dataset.askIndexTriggerReady === "true")
+      return;
+    (trigger as HTMLElement).dataset.askIndexTriggerReady = "true";
     trigger.addEventListener("click", () => {
-      const button = document.querySelector(".ask-index-button") as HTMLButtonElement | null
-      button?.click()
-    })
-  })
+      const button = document.querySelector(
+        ".ask-index-button",
+      ) as HTMLButtonElement | null;
+      button?.click();
+    });
+  });
 }
 
 function setupAskIndexUI() {
-  setupAllAskIndex()
-  setupAskIndexTriggers()
+  setupAllAskIndex();
+  setupAskIndexTriggers();
 }
 
-document.addEventListener("nav", setupAskIndexUI)
+document.addEventListener("nav", setupAskIndexUI);
 
-queueMicrotask(setupAskIndexUI)
+queueMicrotask(setupAskIndexUI);

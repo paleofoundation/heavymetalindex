@@ -85,6 +85,14 @@ The pilot register starts as a row-metal coverage map and is updated as source-b
 
 A p90 candidate does not need to be U.S.-based. The defensibility requirement is that the selected or aggregated evidence pool is product-fit, analytically comparable, documented by source, and strong enough to support the standards workflow's confidence target, currently 95% confidence. Jurisdiction is retained as metadata and may affect weighting, applicability notes, or later regional variants, but it is not by itself a reason to exclude otherwise valid occurrence evidence from the aggregate pool.
 
+## Platform and normalization model
+
+Product pages now expose the computation layer between source inventory and standards math. This layer does not publish HMTc limits. It shows whether a row is a clean benchmark, contamination platform, bridge row, independent row, or out-of-scope context; which counterpart rows it is paired with; which metals are affected by the platform relationship; which basis states are present; and whether a source statistic is a basis-matched input or only context.
+
+Basis incompatibility is handled as a workflow rather than as a dead end. The Index keeps prepared-for-feeding, as-sold, dry-weight, wet-weight, and source-reported bases separated; it does not pool them unless a source-backed conversion model is explicitly approved. Product pages therefore show basis-separated distribution inputs first, then mark cross-basis conversion as blocked until preparation factors, density assumptions, or other normalization rules are documented.
+
+The infant-formula pilot currently publishes three machine-readable computation surfaces under `data/evidence/`: `category1_formula_platform_relationships.csv`, `category1_formula_basis_distribution_inputs.csv`, and `category1_formula_normalization_workflow.csv`. These files make clean-platform P90 and contamination-platform P10 source inputs visible while preserving the distinction between source-specific percentiles, provisional review inputs, and final standards decisions.
+
 ## Quality assurance
 
 A pre-general-availability audit protocol is now documented in [[methodology/quality-assurance-audit-protocol]]. Audit results and remediation actions will be published once that audit run is completed for the live preview build.

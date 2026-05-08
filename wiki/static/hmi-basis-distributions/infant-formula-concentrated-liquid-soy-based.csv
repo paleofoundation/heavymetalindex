@@ -1,0 +1,5 @@
+product_slug,metal_species,basis,basis_label,clean_slug,clean_p90_ppb,clean_n,dirty_slug,dirty_p10_ppb,dirty_n,confidence_tier,use_status,computation_note
+infant-formula-concentrated-liquid-soy-based,Pb,prepared-for-feeding,prepared-for-feeding,infant-formula-concentrated-liquid-soy-based,0.4,3,,,,gap,Context only,No computation-ready source row is available for this basis.
+infant-formula-concentrated-liquid-soy-based,Cd,prepared-for-feeding,prepared-for-feeding,infant-formula-concentrated-liquid-soy-based,1.5,3,,,,gap,Context only,No computation-ready source row is available for this basis.
+infant-formula-concentrated-liquid-soy-based,tAs,prepared-for-feeding,prepared-for-feeding,infant-formula-concentrated-liquid-soy-based,0.7,3,,,,gap,Context only,No computation-ready source row is available for this basis.
+infant-formula-concentrated-liquid-soy-based,tHg,prepared-for-feeding,prepared-for-feeding,infant-formula-concentrated-liquid-soy-based,0.05,3,,,,gap,Context only,No computation-ready source row is available for this basis.

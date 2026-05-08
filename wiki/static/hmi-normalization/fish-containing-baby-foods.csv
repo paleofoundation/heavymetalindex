@@ -1,0 +1,6 @@
+product_slug,step,status_tone,status_label,current_handling,blocked_until
+fish-containing-baby-foods,Basis tagging,gap,Missing,No structured measured rows are loaded.,"Every value used for computation carries basis, unit, matrix, and censoring fields."
+fish-containing-baby-foods,Within-basis distribution,gap,No input,No direct product-row distribution statistic is loaded for this row.,Fit-source pool is reviewed and competing source rows are adjudicated.
+fish-containing-baby-foods,Cross-basis conversion,review,No conversion applied,No cross-basis pooling is applied on the public page.,A source-backed preparation factor or product-specific conversion model is approved and logged.
+fish-containing-baby-foods,Platform relationship,review,Mapped,This row has 1 explicit clean/contamination counterpart in frontmatter.,"Affected metals, clean floor, and held-to-clean behavior are reviewed by row."
+fish-containing-baby-foods,Calculation handoff,gap,Not computable,The row remains a source inventory and gap map until distribution inputs exist.,Records are approved for internal use and the deterministic standards workbench produces a calculation trace.

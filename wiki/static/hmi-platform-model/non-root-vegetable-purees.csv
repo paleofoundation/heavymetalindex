@@ -1,0 +1,3 @@
+page_slug,product_slug,row_label,hmtc_row,variant_type,platform_role_label,relationship_to_page,platform_metals,basis_states,computation_use
+non-root-vegetable-purees,non-root-vegetable-purees,Non-Root Vegetable Purees,8,independent_serves_as_cross_row_cc,Independent row,Current row,none,none,"Use only after row identity, basis, and source fitness are reviewed."
+non-root-vegetable-purees,root-vegetable-purees,Root-Vegetable Purees,9,contamination_platform_cross_row,Contamination platform,Paired Contamination platform row,Cd and Pb,none,May supply dirty P10 source inputs for affected metals; without fit dirty data the row remains held to clean.

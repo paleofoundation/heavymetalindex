@@ -23,3 +23,7 @@ replit.nix
 .obsidian/
 .vercel
 .env*.local
+
+# Optional local Ask the Index gap-capture queue. It can contain raw public
+# questions and should be reviewed before any record is promoted.
+data/evidence/ask_gap_queue.jsonl
