@@ -1012,8 +1012,8 @@ function parker2022Route(productSlug) {
     },
     "non-root-vegetable-purees": {
       label: "Leguminous Vegetable",
-      row_fit: "leguminous_vegetable_baby_food_category_needs_review",
-      note: "Leguminous vegetable rows map only as review candidates for the broader non-root vegetable puree page; do not pool them into all non-root vegetable purees without review.",
+      row_fit: "direct_leguminous_vegetable_baby_food_distribution_summary",
+      note: "Leguminous vegetable baby food is exact-fit evidence for HMTc Category 1 row 8 (non-root vegetable purees) per the row taxonomy. Within-row benchmark pools should stratify by sub-matrix (leguminous, leafy/cucurbit, squash) when sample size permits, given differing Cd uptake biology across non-root vegetable groups.",
       values: {
         tAs: { source_metal: "As", detection: "7 (78%)", min: "1.5", mean: "4.2", median: "5.0", max: "5.0", sd: "1.5" },
         Cd: { source_metal: "Cd", detection: "0 (0%)", min: "1.5", mean: "1.5", median: "1.5", max: "1.5", sd: "0.0" },

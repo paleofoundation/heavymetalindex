@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-08] lint | row-fit re-sweep — Parker 2022 leguminous reroute, no other over-hedges found
+Pages touched: [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]], [[products/non-root-vegetable-purees]]
+Notes: Applied the new Part 6 row-fit determination rule across the published structured layer (gap report, 12 row-fit-bearing CSVs, 95 source pages, 42 product pages). Surfaced one over-hedge: Parker 2022 leguminous-vegetable baby-food rows (n=9 per metal) were routed as broad context-only for non-root-vegetable-purees despite Parker's explicit named subcategory and the row-8 taxonomy covering all non-root vegetables botanically. Rerouted to direct_leguminous_vegetable_baby_food_distribution_summary; added leguminous-vegetables to non-root-vegetable-purees ingredient_targets; added a within-row stratification note (Cd uptake biology differs across legume/leafy/cucurbit). Updated extract-local-gap-candidates.mjs row_fit and note for future regenerations. Aggregate status remains DO NOT PUBLISH INDEPENDENT P90 because Parker reports summary statistics only, not sample-level data; the reroute changes pool composition, not threshold publishability. All other broad-context hedges in the published layer (FSA 2016 broad food categories, Collado-Lopez 2025 scoping review, Dabeka/FDA concentrated-liquid bridge rows, FDA 2024 unspecified-rice-status snacks) verified as author-faithful.
+
 ## [2026-05-08] schema | CLAUDE.md — canonical-location declaration and row-fit determination rule
 Pages touched: CLAUDE.md
 Notes: Added Part 4 canonical-location subsection so future LLM sessions stop asking Karen to switch folders or designate a different canonical. Added row-fit determination rule to Part 6 product-category guidance, naming author scope statements as authoritative metadata. Triggered by Soares 2000 (Cr-VI in powdered milk infant formula) being incorrectly hedged as "milk-based or soy-based" by a prior ingest despite explicit milk-only scoping in title, abstract, methods, and Table 4 footnotes.

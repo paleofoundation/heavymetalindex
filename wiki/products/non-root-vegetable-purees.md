@@ -15,7 +15,7 @@ label: "Non-root vegetable purees"
 base_taxonomy: vegetable-purees
 variant_type: independent_serves_as_cross_row_cc
 provenance: base_taxonomy
-ingredient_targets: [vegetable-purees, non-root-vegetables, leafy-greens, squash]
+ingredient_targets: [vegetable-purees, non-root-vegetables, leafy-greens, squash, leguminous-vegetables]
 primary_metals_of_concern: [Cd, Pb]
 vulnerable_population: infants-0-24mo
 applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
@@ -29,7 +29,7 @@ cc_relationship:
       metals: [Cd, Pb]
       notes: "Non-root vegetable purees serve as the clean cross-row CC source for root-vegetable purees on Cd and Pb. Within row 8 itself, no within-row contamination split exists."
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-08
 sources: 7
 ---
 
