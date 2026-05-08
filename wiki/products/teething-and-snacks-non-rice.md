@@ -170,18 +170,18 @@ See the page-level crosswalk above and [[products/regulatory-crosswalk-field-fin
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 <!-- BEGIN: hmi-broad-context-sources -->
-## Broad Product Context Awaiting AI Adjudication
+## Broad Product Context — Author-Scope Index
 
 <!-- audience: regulator, educator, app -->
 
-These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc standards-percentile calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
+The sources below are catalogued as product-context candidates for this row. The "Author-scope row-fit" column states what the authors actually resolved (matrix axis: rice-based / non-rice / unresolved; format axis: snacks-and-teething / cereal / unresolved) per CLAUDE.md Part 6. A source counts toward this row's CC candidate n only once; sources marked "Cross-reference" already appear as direct evidence elsewhere on this page and are not counted again.
 
-| Source | Title | Source scope | Metals | Row-fit handling |
-| --- | --- | --- | --- | --- |
-| [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Analytical Results for Arsenic, Lead, Cadmium, and Mercury in... | baby-cereals-dry-non-rice; baby-cereals-dry-rice-based; fruit-purees; non-root-vegetable-purees | tAs; Pb; Cd; tHg | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
-| [[sources/fsa2016-infant-food-formula-metals-survey]] | Survey of metals in commercial infant foods, infant formula a... | infant-formula-powder; infant-formula-rtf-liquid; baby-cereals; fruit-purees | Al; Sb; tAs; iAs; Cd; Cr; Cu; I; Fe; Pb; Mn; tHg; Ni; Se; Sn; Zn | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
-| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
-| [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Infants' and young children's dietary exposures to lead and c... | processed-baby-food; infant-formula; root-vegetable-purees; teething-biscuits | Pb; Cd | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
+| Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | Analytical Results for Arsenic, Lead, Cadmium, and Mercury in... | baby-cereals-dry-non-rice; baby-cereals-dry-rice-based; fruit-purees; non-root-vegetable-purees | tAs; Pb; Cd; tHg | Broad grain-based snacks category in the FDA dataset includes non-rice products (rice status not isolated within the broad category, n=91). Source frontmatter `products` array enumerates `teething-and-snacks-rice-based` but does not currently enumerate `teething-and-snacks-non-rice`; flag for source-page reconciliation. Cross-reference. | § Distribution Context, § Measured Values And Concentration Evidence |
+| [[sources/fsa2016-infant-food-formula-metals-survey]] | Survey of metals in commercial infant foods, infant formula a... | infant-formula-powder; infant-formula-rtf-liquid; baby-cereals; fruit-purees | Al; Sb; tAs; iAs; Cd; Cr; Cu; I; Fe; Pb; Mn; tHg; Ni; Se; Sn; Zn | UK sweet-and-savoury snacks category; rice/non-rice axis not isolated by author. Cross-reference. | § Distribution Context, § Measured Values And Concentration Evidence |
+| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | U.S. baby-foods/formula scope; per author, Cd elevated in foods containing rice, quinoa, wheat, oats — i.e., the rice-elevation signal explicitly extends to non-rice grains (oats, wheat) too, so the author scope supports both row-fits. Source-published table is all-categories aggregate; rice/non-rice not isolated. Cross-reference. | § Distribution Context |
+| [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Infants' and young children's dietary exposures to lead and c... | processed-baby-food; infant-formula; root-vegetable-purees; teething-biscuits | Pb; Cd | Author scope includes teething-biscuits subset; rice/non-rice axis not split. Cross-reference. | § Measured Values And Concentration Evidence |
 
 <!-- END: hmi-broad-context-sources -->
 

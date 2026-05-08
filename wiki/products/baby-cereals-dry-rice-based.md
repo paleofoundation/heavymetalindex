@@ -203,19 +203,19 @@ FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, incl
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 <!-- BEGIN: hmi-broad-context-sources -->
-## Broad Product Context Awaiting AI Adjudication
+## Broad Product Context — Cross-Reference Index
 
 <!-- audience: regulator, educator, app -->
 
-These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc standards-percentile calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
+The sources below all also appear as direct evidence elsewhere on this page; this section is a cross-reference index, not a separate evidence pool. Each source counts toward this row's CC candidate n only once, in its canonical SEI/Distribution Context appearance noted below. The "Author-scope row-fit" column states which row-fit axes the author resolved and which are left open per the CLAUDE.md Part 6 row-fit determination rule.
 
-| Source | Title | Source scope | Metals | Row-fit handling |
-| --- | --- | --- | --- | --- |
-| [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
-| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
-| [[sources/meli2024-chemical-characterization-baby-food-italy]] | Chemical characterization of baby food consumed in Italy | infant-formula-powder; fruit-purees; meat-and-poultry-purees; fish-containing-baby-foods | Al; tAs; Cd; tHg; Ni; Pb; Sn | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
-| [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Human health risk assessment of arsenic, cadmium, lead, and m... | fruit-purees; root-vegetable-purees; non-root-vegetable-purees; baby-cereals | tAs; Cd; tHg; Pb | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
-| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
+| Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Cereal-based infant foods scope; rice/non-rice axis not split by author. | § French TDS Category Rows |
+| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | U.S. baby-foods/formula scope; rice-containing subset signal explicit per author (Cd elevated in foods containing rice, quinoa, wheat, oats; Pb elevated in foods containing rice, quinoa, sweet potatoes). Source-published table is all-categories aggregate; rice-specific concentrations not isolated. | § Distribution Context |
+| [[sources/meli2024-chemical-characterization-baby-food-italy]] | Chemical characterization of baby food consumed in Italy | infant-formula-powder; fruit-purees; meat-and-poultry-purees; fish-containing-baby-foods | Al; tAs; Cd; tHg; Ni; Pb; Sn | Italian/European baby-foods study; cream-of-rice subset is rice-relevant per author scope; N=3 in subset. | § Measured Values And Concentration Evidence |
+| [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Human health risk assessment of arsenic, cadmium, lead, and m... | fruit-purees; root-vegetable-purees; non-root-vegetable-purees; baby-cereals | tAs; Cd; tHg; Pb | Grain baby-food group is mostly rice-containing per author (2 of 3 grain-product types rice-based); arsenic not speciated. | § Distribution Context, § Measured Values And Concentration Evidence |
+| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Has explicit rice-cereal subset per author scope (`products: [..., rice-cereal, ...]`). | § Measured Values And Concentration Evidence |
 
 <!-- END: hmi-broad-context-sources -->
 

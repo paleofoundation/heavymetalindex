@@ -13,19 +13,19 @@ raw_path: "raw/markdown/FM_5355587/FM_5355587.md"
 access_url: https://doi.org/10.5851/kosfa.2017.37.1.79
 raw_sha256: "9799e278fa0263b8c26513174f5111e2245b4248ef4d63916da601a2d9210363"
 metals: [Ni, Pb, Cd, Fe, Zn]
-products: [infant-formula-powder]
-matrices: [infant-formula-milk-powder]
+products: [infant-formula-powder-non-soy]
+matrices: [infant-formula-milk-powder, milk-based-infant-formula-powder]
 jurisdictions: [PK]
 sample_n: 13
-sample_population: "Thirteen infant formula milk brands purchased in Pakistani markets; ten samples per brand collected"
-updated: 2026-04-29
+sample_population: "Thirteen infant formula milk (IFM) brands purchased in Pakistani markets; ten samples per brand collected; milk-based throughout (no soy-based or hydrolyzed products in panel)"
+updated: 2026-05-08
 ---
 
 # Akhtar et al. 2017 — Pakistan Infant Formula Milk Nickel
 
 ## Summary
 
-This peer-reviewed infant formula milk study measured nickel, lead, cadmium, iron, zinc, and aflatoxin M1 in 13 formula brands purchased in Pakistani markets. It is relevant to broad powdered infant-formula nickel context, but it does not distinguish cow-milk, non-soy, or soy-based formulas and reports brand-level summary ranges rather than a reconstructable percentile distribution.
+This peer-reviewed infant formula milk study measured nickel, lead, cadmium, iron, zinc, and aflatoxin M1 in 13 infant formula milk (IFM) brands purchased in Pakistani markets. The paper's title, abstract, methods, and sample-prep description (defatting via centrifugation) consistently scope the matrix to milk-based formulas (IFM); no soy-based or hydrolyzed formulas are described. Author scope therefore resolves to milk-based / non-soy infant formula powder. Matrix axis: exact (milk-based / non-soy); format axis: powder (exact). The source reports brand-level summary ranges rather than a reconstructable percentile distribution and is not soy-vs-non-soy comparison evidence (no soy products in the panel). A prior version of this summary stated the source "does not distinguish cow-milk, non-soy, or soy-based formulas"; that hedge was incorrect — the paper does not include soy-based formulas at all, so the matrix axis is resolved as non-soy by the absence of any soy products in the design.
 
 ## Key Numbers
 
@@ -41,11 +41,11 @@ The study used wet acid digestion followed by flame atomic absorption spectropho
 
 ## Limitations
 
-The Markdown extraction of Table 4 is partially degraded, so the source page retains the abstract and discussion ranges rather than attempting a row-by-row product table. The source is not soy-resolved, and the very high nickel maximum should be handled as source-scope p100 context pending PDF image QA.
+The Markdown extraction of Table 4 is partially degraded, so the source page retains the abstract and discussion ranges rather than attempting a row-by-row product table. The very high nickel maximum (50.9 mg/kg) should be handled as source-scope p100 context pending PDF image QA. Soy-based formulas are not in the design (the panel is milk-based throughout); this source therefore cannot inform a soy-vs-non-soy comparison from this dataset alone.
 
 ## Implications
 
-Certification: Useful warning-range context for nickel in infant formula milk brands. It is not row-specific evidence for cow-milk/non-soy formula and is not enough by itself to select an aggregate row-standard percentile with 95% confidence.
+Certification: Direct row-fit evidence for non-soy (milk-based) powdered infant formula nickel context. Brand-level summary ranges rather than a reconstructable percentile distribution; not enough by itself to select an aggregate row-standard percentile with 95% confidence, but counts toward the non-soy matrix CC pool when combined with other matrix-fit sources.
 
 Courses: Useful example of why outlier/high-maximum sources need image verification before entering standards math.
 
