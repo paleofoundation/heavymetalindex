@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T16:58:57.013Z",
+  "generated_at": "2026-05-08T17:18:00.418Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "dirty_standard_percentile": "p10",
@@ -17,9 +17,9 @@
   "rows_outside_locked_hmtc_scope": 38,
   "by_aggregate_status": {
     "DO NOT PUBLISH CLEAN P90: single distribution-capable source": 19,
-    "BLOCKED: summary evidence only": 87,
+    "BLOCKED: summary evidence only": 88,
     "DO NOT PUBLISH DIRTY P10: single distribution-capable source": 26,
-    "BLOCKED: no structured evidence loaded": 34,
+    "BLOCKED: no structured evidence loaded": 33,
     "BLOCKED: species-specific evidence missing": 3,
     "DO NOT PUBLISH INDEPENDENT P90: single distribution-capable source": 12,
     "READY FOR AGGREGATE MATH REVIEW": 1,

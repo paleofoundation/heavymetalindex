@@ -46,6 +46,12 @@ Product category pages are core HMTc evidence surfaces. Product-occurrence data 
 
 If row fit is unclear, keep the source visible through an audit or queue record. Do not silently drop it.
 
+## Infant Formula Row Fit
+
+For formula sources, "infant formula" alone is broad until powder/liquid and soy/non-soy status are resolved. But sources that explicitly describe the matrix as cow-milk, milk-based, powdered milk, milk formula, follow-up milk, or dietetic milk should route to the non-soy formula row unless the source states soy, plant protein, amino-acid-only, or another non-dairy formulation.
+
+Keep specialty or dietetic milk formulas flagged as specialty/context when appropriate, and do not treat group means, ranges, or maxima as p90/p95 distributions. This row-fit rule does not weaken the species rule: total chromium still cannot substitute for Cr(VI), total arsenic for inorganic arsenic, or total mercury for methylmercury.
+
 ## Dataset Ingests
 
 For datasets with many foods or ingredients, each routeable row or grouped summary must be mapped to destination wiki pages or recorded in a routing gap.

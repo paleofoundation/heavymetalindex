@@ -398,6 +398,7 @@ function sourceTitle(sourceId) {
     ["fsa2016-infant-food-formula-metals-survey", "FSA 2016 infant foods/formula metals survey"],
     ["dabeka1987-canada-infant-formula-lead-cadmium", "Dabeka 1987 Canadian infant formula Pb/Cd"],
     ["pandelova2012-eu-baby-food-formula-elements", "Pandelova 2012 EU baby foods/formula elements"],
+    ["soares2000-chromium-vi-powdered-milk-formulas", "Soares 2000 powdered milk formula Cr(VI)"],
     ["burrell2010-aluminium-in-infant-formulas", "Burrell 2010 infant formula aluminium"],
     ["chuchu2013-aluminium-in-infant-formulas", "Chuchu 2013 infant formula aluminium"],
   ])

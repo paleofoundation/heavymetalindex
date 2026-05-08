@@ -29,8 +29,8 @@ cc_relationship:
       role_of_partner: contamination_platform
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
-sources: 15
+updated: 2026-05-08
+sources: 16
 ---
 
 # Infant Formula, Powder (Non-Soy)
@@ -91,7 +91,7 @@ The metals below remain visible for traceability, but they are not the primary H
 | [[metals/nickel]] (Ni) | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
 | [[metals/tin]] (Sn) | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/almeida2022-brazil-infant-formula-toxic-metals">C4</a></sup> <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> |
 | Cr-total | 1 source; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> |
-| Cr-VI | 0 sources; 0 distribution sources; no structured pool | None |
+| Cr-VI | 1 source; 0 distribution sources; summary only | <sup><a href="/sources/soares2000-chromium-vi-powdered-milk-formulas">C8</a></sup> |
 | Ca | 1 source; 0 distribution sources; summary only | <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
 | Cu | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
 | Fe | 2 sources; 0 distribution sources; summary only | <sup><a href="/sources/fsa2016-infant-food-formula-metals-survey">C1</a></sup> <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> |
@@ -111,6 +111,7 @@ The metals below remain visible for traceability, but they are not the primary H
 - <sup><a href="/sources/burrell2010-aluminium-in-infant-formulas">C5</a></sup> Burrell 2010 infant formula aluminium
 - <sup><a href="/sources/chuchu2013-aluminium-in-infant-formulas">C6</a></sup> Chuchu 2013 infant formula aluminium
 - <sup><a href="/sources/pandelova2012-eu-baby-food-formula-elements">C7</a></sup> Pandelova 2012 EU baby foods/formula elements
+- <sup><a href="/sources/soares2000-chromium-vi-powdered-milk-formulas">C8</a></sup> Soares 2000 powdered milk formula Cr(VI)
 
 <!-- END: hmi-hmtc-evidence-summary -->
 
@@ -176,6 +177,7 @@ This table lists what each source actually reports. Highest values are source-sc
 | [[metals/cadmium|Cd]] | China cow milk-based formulas | 93 | mean and range | mean 0.98 ppb; range 0.13 to 3.58 ppb | 3.58 ppb | Direct cow-milk formula evidence; useful as supporting occurrence evidence, but not a complete product distribution by itself. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
 | [[metals/arsenic-total|tAs]] | China cow milk-based formulas | 93 | mean and range | mean 3.32 ppb; range 0.89 to 7.87 ppb | 7.87 ppb | Direct cow-milk formula evidence; total arsenic only, not iAs. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
 | [[metals/chromium|Cr]] | China cow milk-based formulas | 93 | mean and range | mean 27.38 ppb; range 2.51 to 83.80 ppb | 83.80 ppb | Total chromium only; it should not be interpreted as Cr-VI unless a source speciates Cr-VI. | [[sources/chung2021-china-infant-formula-toxic-elements|1]] |
+| [[metals/chromium|Cr(VI)]] | Portugal powdered milk infant, follow-up, and dietetic formulas | 20 grouped as 7 / 5 / 8 | mean and range | infant formulas mean 24 ppb, range <10 to 75; follow-up milks mean 12 ppb, range <10 to 26; dietetic milks mean 33 ppb, range <10 to 75 | 75 ppb | Direct dairy/powdered-milk formula Cr(VI) context; source reports group means/ranges only, no p90/p95. | [[sources/soares2000-chromium-vi-powdered-milk-formulas|13]] |
 | [[metals/aluminum|Al]] | Brazil cow-milk phase 1/2 formulas | not extracted | range | 432 to 1241 ppb | 1241 ppb | Direct cow-milk powder evidence; supports occurrence review but does not establish a full distribution by itself. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
 | [[metals/arsenic-total|tAs]] | Brazil cow-milk phase 1/2 formulas | not extracted | range | 12 to 34 ppb | 34 ppb | Direct cow-milk powder evidence; total arsenic only. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
 | [[metals/tin|Sn]] | Brazil cow-milk phase 1/2 formulas | not extracted | range | 7 to 95 ppb | 95 ppb | Direct cow-milk powder evidence; supports occurrence review but does not establish a full distribution by itself. | [[sources/almeida2022-brazil-infant-formula-toxic-metals|2]] |
@@ -237,7 +239,6 @@ These sources are visible as product context, but they are not direct locked-row
 | [[sources/marques2021-trace-elements-milks-plant-based-drinks]] | Essential and Non-essential Trace Elements in Milks and Plant... | plant-milks-soy-based; plant-milks-rice-based; plant-milks-non-soy-non-rice; infant-formula | Pb; tHg; Ni; U | Broad formula context only until AI adjudication resolves format and soy/non-soy fit. |
 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Chemical characterization of baby food consumed in Italy | infant-formula-powder; fruit-purees; meat-and-poultry-purees; fish-containing-baby-foods | Al; tAs; Cd; tHg; Ni; Pb; Sn | Powder context only until AI adjudication resolves soy/non-soy fit. |
 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Powder context only until AI adjudication resolves soy/non-soy fit. |
-| [[sources/soares2000-chromium-vi-powdered-milk-formulas]] | Selective Determination of Chromium (VI) in Powdered Milk Inf... | infant-formula-powder | Cr-VI | Powder context only until AI adjudication resolves soy/non-soy fit. |
 | [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Infants' and young children's dietary exposures to lead and c... | processed-baby-food; infant-formula; root-vegetable-purees; teething-biscuits | Pb; Cd | Broad formula context only until AI adjudication resolves format and soy/non-soy fit. |
 | [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]] | Dietary intake of methylmercury by 0-5 years children using t... | fish-containing-baby-foods; infant-formula; baby-foods; toddler-meals | tHg; MeHg | Broad formula context only until AI adjudication resolves format and soy/non-soy fit. |
 
@@ -255,7 +256,7 @@ The values above should therefore be read as source-reported or structured evide
 
 <!-- audience: regulator, educator, app -->
 
-The direct row-fit evidence is strongest when a study measures cow-milk or milk-base powdered formula as a product concentration. Chung 2021, Almeida 2022, FSA 2016, Dabeka 1987, and Pandelova 2012 are therefore more useful for this row than broad baby-food papers, but each still has limitations that require AI adjudication before standards use.
+The direct row-fit evidence is strongest when a study measures cow-milk, milk-base, or powdered milk formula as a product concentration. Chung 2021, Almeida 2022, FSA 2016, Dabeka 1987, Pandelova 2012, and Soares 2000 are therefore more useful for this row than broad baby-food papers, but each still has limitations that require AI adjudication before standards use.
 
 The largest interpretive issue is scope. China-market, Brazil-market, UK-market, Canada-historical, EU-pooled-basket, and U.S. prepared-for-feeding values should not be silently merged without basis matching, AI row-fit adjudication, and jurisdiction metadata. They can show what has been observed in formula, and they may contribute to an aggregate evidence pool when the standards workflow can document comparability and 95% confidence.
 
@@ -298,7 +299,7 @@ A 2018 infant biomarker study cited prior work reporting total arsenic in formul
 
 A 2024 analytical study of European baby foods included powdered milk and reported that cadmium and lead were below the study LOD in all samples, while mercury was detectable in all samples and one powdered-milk sample had the highest estimated nickel intake in the study at 9.43 ug/kg body weight per day. [[sources/meli2024-chemical-characterization-baby-food-italy|10]]
 
-Non-soy-specific risk characterization remains pending. <!-- UNCITED: Need non-soy powdered infant formula sources that measure Al, Ni, Cd, Pb, tAs/iAs, tHg/MeHg, Cr-VI, and Sn while distinguishing non-soy powder from soy-based powder and ready-to-feed liquid formula. -->
+Non-soy-specific risk characterization remains incomplete. <!-- UNCITED: Need additional non-soy powdered infant formula sources that measure Al, Ni, Cd, Pb, tAs/iAs, tHg/MeHg, Cr-VI, and Sn while distinguishing non-soy powder from soy-based powder and ready-to-feed liquid formula. Soares 2000 supplies summary-only Cr(VI) context but not a distribution. -->
 
 ## What Drives Variance Across Brands
 
@@ -340,6 +341,7 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 10. [[sources/meli2024-chemical-characterization-baby-food-italy|Meli 2024]]: European baby-food and powdered-milk analytical context.
 11. [[sources/spungen2024-fda-tds-infant-lead-cadmium|Spungen 2024]]: FDA Total Diet Study infant lead and cadmium context.
 12. [[sources/efsa-cadmium-contam-2009|EFSA 2009]]: cadmium toxicology and regulatory context.
+13. [[sources/soares2000-chromium-vi-powdered-milk-formulas|Soares 2000]]: Portugal powdered milk formula Cr(VI) method/application paper.
 
 ## Sources
 
@@ -358,3 +360,4 @@ No row-specific regulatory event has been added for this scaffold. <!-- UNCITED:
 - [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
 - [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]]
 - [[sources/kazi2009-toxic-elements-in-infant-formulae]]
+- [[sources/soares2000-chromium-vi-powdered-milk-formulas]]

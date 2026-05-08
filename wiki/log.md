@@ -12,6 +12,12 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-08] schema | soares2000-formula-row-fit-correction - powdered milk formula routes to non-soy
+
+Pages touched: [[sources/soares2000-chromium-vi-powdered-milk-formulas]], [[metals/chromium]], [[products/infant-formula-powder]], [[products/infant-formula-powder-non-soy]], [[products/infant-formula-powder-soy-based]], [[log]]
+
+Notes: Corrected the Soares 2000 route after re-reading the matrix language: the paper reports powdered milk infant formulas, follow-up milks, and dietetic milks, and the extracted text does not mention soy or plant protein. The structured rows now route to the non-soy/dairy powdered formula row, not the base powdered-formula node or the soy child row; the no-p90/no-p95 and Cr(VI)-not-total-Cr rules remain unchanged. Added an operating rule in `AGENTS.md` so future formula sources treat explicit milk/cow-milk/follow-up/dietetic milk language as non-soy unless the source states soy, plant protein, amino-acid-only, or another non-dairy formulation.
+
 ## [2026-05-08] ingest | soares2000-chromium-vi-powdered-milk-formulas - Cr(VI) powdered formula context
 
 Pages touched: [[sources/soares2000-chromium-vi-powdered-milk-formulas]], [[metals/chromium]], [[products/infant-formula-powder]], [[products/infant-formula-powder-non-soy]], [[products/infant-formula-powder-soy-based]], [[sources/index]]

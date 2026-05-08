@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-07T16:54:15.355Z",
+  "generated_at": "2026-05-08T17:18:00.481Z",
   "product_filter": "all",
-  "total_adjudication_rows": 57,
+  "total_adjudication_rows": 56,
   "by_priority": {
     "P1": 3,
-    "P2": 50,
+    "P2": 49,
     "P3": 4
   },
   "by_machine_task": {
     "discover_or_route_species_specific_source": 3,
-    "find_or_route_fit_product_evidence": 16,
+    "find_or_route_fit_product_evidence": 15,
     "find_replacement_fit_source_after_context_disposition": 3,
     "find_second_fit_distribution_source": 15,
     "locate_sample_level_or_reported_percentile_data": 16,
@@ -18,7 +18,7 @@
   },
   "by_aggregate_status": {
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: no structured evidence loaded": 16,
+    "BLOCKED: no structured evidence loaded": 15,
     "BLOCKED: documented local sources are context-only": 3,
     "DO NOT PUBLISH CLEAN P90: single distribution-capable source": 5,
     "DO NOT PUBLISH DIRTY P10: single distribution-capable source": 7,
@@ -29,11 +29,11 @@
   },
   "by_standard_percentile_target": {
     "dirty_p10": 24,
-    "clean_p90": 21,
+    "clean_p90": 20,
     "independent_p90": 12
   },
-  "public_claim_blockers": 57,
-  "hmtc_threshold_blockers": 57,
+  "public_claim_blockers": 56,
+  "hmtc_threshold_blockers": 56,
   "human_role": "source retrieval, low-confidence exception review, policy-conflict resolution, and final governance approval",
   "top_adjudications": [
     {
@@ -89,36 +89,36 @@
       "adjudication_order": 8,
       "priority": "P2",
       "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "infant-formula-powder-non-soy",
-      "metal_species": "Cr-VI"
-    },
-    {
-      "adjudication_order": 9,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
       "product_slug": "infant-formula-rtf-liquid-soy-based",
       "metal_species": "Ni"
     },
     {
-      "adjudication_order": 10,
+      "adjudication_order": 9,
       "priority": "P2",
       "machine_task": "find_or_route_fit_product_evidence",
       "product_slug": "kombucha-tea-based",
       "metal_species": "Pb; Cd; Al"
     },
     {
-      "adjudication_order": 11,
+      "adjudication_order": 10,
       "priority": "P2",
       "machine_task": "find_or_route_fit_product_evidence",
       "product_slug": "matcha",
       "metal_species": "Pb; Cd; Al"
     },
     {
-      "adjudication_order": 12,
+      "adjudication_order": 11,
       "priority": "P2",
       "machine_task": "find_or_route_fit_product_evidence",
       "product_slug": "plant-milks-non-soy-non-rice",
       "metal_species": "Cd; iAs; Al"
+    },
+    {
+      "adjudication_order": 12,
+      "priority": "P2",
+      "machine_task": "find_or_route_fit_product_evidence",
+      "product_slug": "plant-milks-rice-based",
+      "metal_species": "Cd"
     }
   ]
 }

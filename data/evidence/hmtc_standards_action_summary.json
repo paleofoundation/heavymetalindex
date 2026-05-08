@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-07T16:54:15.295Z",
+  "generated_at": "2026-05-08T17:18:00.451Z",
   "product_filter": "all",
-  "total_action_rows": 57,
+  "total_action_rows": 56,
   "by_action_priority": {
     "P1": 3,
-    "P2": 50,
+    "P2": 49,
     "P3": 4
   },
   "by_action_type": {
     "resolve-species-specific-gap": 3,
     "find-fit-source-after-context-only-review": 3,
-    "find-or-route-fit-source-evidence": 16,
+    "find-or-route-fit-source-evidence": 15,
     "find-sample-level-or-percentile-evidence": 16,
     "find-second-distribution-capable-source": 15,
     "review-evidence-fitness": 3,
@@ -19,7 +19,7 @@
   "by_aggregate_status": {
     "BLOCKED: species-specific evidence missing": 3,
     "BLOCKED: documented local sources are context-only": 3,
-    "BLOCKED: no structured evidence loaded": 16,
+    "BLOCKED: no structured evidence loaded": 15,
     "BLOCKED: summary evidence only": 16,
     "DO NOT PUBLISH CLEAN P90: single distribution-capable source": 5,
     "DO NOT PUBLISH DIRTY P10: single distribution-capable source": 7,
@@ -29,7 +29,7 @@
   },
   "by_standard_percentile_target": {
     "dirty_p10": 24,
-    "clean_p90": 21,
+    "clean_p90": 20,
     "independent_p90": 12
   },
   "top_actions": [
@@ -107,15 +107,15 @@
       "action_order": 11,
       "action_priority": "P2",
       "action_type": "find-or-route-fit-source-evidence",
-      "product_slug": "infant-formula-powder-non-soy",
-      "metal_species": "Cr-VI"
+      "product_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal_species": "Ni"
     },
     {
       "action_order": 12,
       "action_priority": "P2",
       "action_type": "find-or-route-fit-source-evidence",
-      "product_slug": "infant-formula-rtf-liquid-soy-based",
-      "metal_species": "Ni"
+      "product_slug": "kombucha-tea-based",
+      "metal_species": "Pb; Cd; Al"
     }
   ]
 }

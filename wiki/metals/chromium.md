@@ -17,7 +17,7 @@ Chromium (Cr, atomic number 24) in the food system is a split case. Trivalent ch
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] supports the Cr(III)/Cr(VI) distinction, hexavalent chromium absorption through sulfate/phosphate transporters, corrosive injury, allergic contact dermatitis, acute renal injury after high-dose ingestion, and lung-cancer/genotoxicity framing for Cr(VI). It is a toxicology source, not a food occurrence dataset.
 
-[[sources/soares2000-chromium-vi-powdered-milk-formulas|Soares et al. 2000]] is the first species-specific food occurrence source attached to this page. It reports Cr(VI) in 20 powdered milk formula products from Portugal, with product-group means of 12 to 33 ppb and source-scope ranges up to 75 ppb. This source should remain Cr(VI)-specific context; it must not be pooled with total chromium rows.
+[[sources/soares2000-chromium-vi-powdered-milk-formulas|Soares et al. 2000]] is the first species-specific food occurrence source attached to this page. It reports Cr(VI) in 20 powdered milk formula products from Portugal, with product-group means of 12 to 33 ppb and source-scope ranges up to 75 ppb. Because the matrix is described as powdered milk / follow-up milk / dietetic milk and not soy or plant protein, it routes as dairy/non-soy powdered formula context. This source should remain Cr(VI)-specific context; it must not be pooled with total chromium rows.
 
 ## Status
 
@@ -30,4 +30,4 @@ Toxicology of Cr3+ and Cr6+ separately, typical exposure routes, food and water 
 ## Sources
 
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
-- [[sources/soares2000-chromium-vi-powdered-milk-formulas|Soares et al. 2000]] - Cr(VI) method and small Portuguese powdered milk formula occurrence survey.
+- [[sources/soares2000-chromium-vi-powdered-milk-formulas|Soares et al. 2000]] - Cr(VI) method and small Portuguese dairy/powdered milk formula occurrence survey.
