@@ -152,7 +152,7 @@ function actionForStatus(status) {
         nextStep: () =>
           "Review candidate rows against the source table, product fit, basis, species, unit, and N; promote only after review.",
         guardrails:
-          "Candidate rows are non-public review inputs. Do not publish or use for HMTc standards math until reviewed and promoted; do not infer p90/p95.",
+          "Candidate rows are non-public review inputs. Do not publish or use for HMTc standards math until reviewed and promoted; do not infer benchmark percentiles from unadmitted source summaries.",
       }
     case "BLOCKED: TDS product route review pending":
       return {
@@ -218,9 +218,9 @@ function actionForStatus(status) {
         priority: "P2",
         type: "find-sample-level-or-percentile-evidence",
         nextStep: () =>
-          "Find sample-level data or explicitly reported percentiles; retain mean/median/max rows as context until then.",
+          "Find fit-source sample-level data for the benchmark pool; retain mean/median/max rows as context until then.",
         guardrails:
-          "Do not infer p50, p90, or p95 from means, ranges, IQRs, or max values unless a deterministic method is documented.",
+          "Do not require studies to report benchmark percentiles; calculate them only after samples are admitted to the pool.",
       }
     case "DO NOT PUBLISH CLEAN P90: single distribution-capable source":
     case "DO NOT PUBLISH DIRTY P10: single distribution-capable source":

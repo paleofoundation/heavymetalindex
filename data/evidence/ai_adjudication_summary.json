@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:18:00.481Z",
+  "generated_at": "2026-05-08T17:31:56.018Z",
   "product_filter": "all",
   "total_adjudication_rows": 56,
   "by_priority": {
@@ -12,7 +12,7 @@
     "find_or_route_fit_product_evidence": 15,
     "find_replacement_fit_source_after_context_disposition": 3,
     "find_second_fit_distribution_source": 15,
-    "locate_sample_level_or_reported_percentile_data": 16,
+    "locate_benchmark_pool_sample_data": 16,
     "adjudicate_evidence_fitness": 3,
     "run_aggregate_math_readiness_check": 1
   },

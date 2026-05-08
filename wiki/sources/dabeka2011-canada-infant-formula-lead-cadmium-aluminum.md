@@ -46,18 +46,18 @@ Values are reported as consumed in ng/g; for water-like liquids and prepared for
 
 | Product fit | Metal | N | Basis | Mean | Median / p50 | Max / p100 | Row-fit note |
 | --- | --- | ---: | --- | ---: | ---: | ---: | --- |
-| [[products/infant-formula-powder-non-soy]] | [[metals/aluminum|Al]] | 57 | as consumed | 177 | 44 | 1004 | Direct milk-based powder summary; no p90. |
-| [[products/infant-formula-powder-non-soy]] | [[metals/cadmium|Cd]] | 57 | as consumed | 0.17 | 0.06 | 1.21 | Direct milk-based powder summary; no p90. |
-| [[products/infant-formula-powder-non-soy]] | [[metals/lead|Pb]] | 57 | as consumed | 0.65 | 0.34 | 3.46 | Direct milk-based powder summary; no p90. |
-| [[products/infant-formula-powder-soy-based]] | [[metals/aluminum|Al]] | 15 | as consumed | 733 | 713 | 1461 | Direct soy-based powder summary; no p90. |
-| [[products/infant-formula-powder-soy-based]] | [[metals/cadmium|Cd]] | 15 | as consumed | 1.56 | 1.39 | 3.47 | Direct soy-based powder summary; no p90. |
+| [[products/infant-formula-powder-non-soy]] | [[metals/aluminum|Al]] | 57 | as consumed | 177 | 44 | 1004 | Direct milk-based powder summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-powder-non-soy]] | [[metals/cadmium|Cd]] | 57 | as consumed | 0.17 | 0.06 | 1.21 | Direct milk-based powder summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-powder-non-soy]] | [[metals/lead|Pb]] | 57 | as consumed | 0.65 | 0.34 | 3.46 | Direct milk-based powder summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-powder-soy-based]] | [[metals/aluminum|Al]] | 15 | as consumed | 733 | 713 | 1461 | Direct soy-based powder summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-powder-soy-based]] | [[metals/cadmium|Cd]] | 15 | as consumed | 1.56 | 1.39 | 3.47 | Direct soy-based powder summary; no benchmark percentile calculated from this source summary. |
 | [[products/infant-formula-powder-soy-based]] | [[metals/lead|Pb]] | 15 | as consumed | 0.72 | 1.27 | 1.90 | Source table reports mean lower than median; preserve as source-reported and QA before final math. |
-| [[products/infant-formula-rtf-liquid-non-soy]] | [[metals/aluminum|Al]] | 67 | ready-to-use, as consumed | 437 | 365 | 3442 | Direct milk-based RTU summary; no p90. |
-| [[products/infant-formula-rtf-liquid-non-soy]] | [[metals/cadmium|Cd]] | 67 | ready-to-use, as consumed | 0.23 | 0.11 | 1.26 | Direct milk-based RTU summary; no p90. |
-| [[products/infant-formula-rtf-liquid-non-soy]] | [[metals/lead|Pb]] | 67 | ready-to-use, as consumed | 0.90 | 0.84 | 2.46 | Direct milk-based RTU summary; no p90. |
-| [[products/infant-formula-rtf-liquid-soy-based]] | [[metals/aluminum|Al]] | 14 | ready-to-use, as consumed | 730 | 769 | 1121 | Direct soy-based RTU summary; no p90. |
-| [[products/infant-formula-rtf-liquid-soy-based]] | [[metals/cadmium|Cd]] | 14 | ready-to-use, as consumed | 1.18 | 1.06 | 2.95 | Direct soy-based RTU summary; no p90. |
-| [[products/infant-formula-rtf-liquid-soy-based]] | [[metals/lead|Pb]] | 14 | ready-to-use, as consumed | 1.45 | 1.36 | 2.10 | Direct soy-based RTU summary; no p90. |
+| [[products/infant-formula-rtf-liquid-non-soy]] | [[metals/aluminum|Al]] | 67 | ready-to-use, as consumed | 437 | 365 | 3442 | Direct milk-based RTU summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-rtf-liquid-non-soy]] | [[metals/cadmium|Cd]] | 67 | ready-to-use, as consumed | 0.23 | 0.11 | 1.26 | Direct milk-based RTU summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-rtf-liquid-non-soy]] | [[metals/lead|Pb]] | 67 | ready-to-use, as consumed | 0.90 | 0.84 | 2.46 | Direct milk-based RTU summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-rtf-liquid-soy-based]] | [[metals/aluminum|Al]] | 14 | ready-to-use, as consumed | 730 | 769 | 1121 | Direct soy-based RTU summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-rtf-liquid-soy-based]] | [[metals/cadmium|Cd]] | 14 | ready-to-use, as consumed | 1.18 | 1.06 | 2.95 | Direct soy-based RTU summary; no benchmark percentile calculated from this source summary. |
+| [[products/infant-formula-rtf-liquid-soy-based]] | [[metals/lead|Pb]] | 14 | ready-to-use, as consumed | 1.45 | 1.36 | 2.10 | Direct soy-based RTU summary; no benchmark percentile calculated from this source summary. |
 | [[products/infant-formula-concentrated-liquid-non-soy]] | [[metals/aluminum|Al]] | 44 | concentrated liquid, as consumed | 131 | 61 | 796 | Base/bridge row outside locked Category 1; useful format context. |
 | [[products/infant-formula-concentrated-liquid-non-soy]] | [[metals/cadmium|Cd]] | 44 | concentrated liquid, as consumed | 0.13 | 0.04 | 2.03 | Base/bridge row outside locked Category 1; useful format context. |
 | [[products/infant-formula-concentrated-liquid-non-soy]] | [[metals/lead|Pb]] | 44 | concentrated liquid, as consumed | 0.32 | 0.29 | 0.85 | Base/bridge row outside locked Category 1; useful format context. |

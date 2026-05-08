@@ -218,17 +218,17 @@ function planForActionType(actionType) {
       }
     case "find-sample-level-or-percentile-evidence":
       return {
-        machineTask: "locate_sample_level_or_reported_percentile_data",
+        machineTask: "locate_benchmark_pool_sample_data",
         requiredDecisions:
-          "whether source provides sample-level values, source-reported percentiles, or only summary/range evidence; basis; species; censoring",
+          "whether source provides sample-level values for benchmark-pool admission or only summary/range evidence; basis; species; geography/market; sample frame; censoring",
         expectedOutputs:
-          "distribution-capable rows, documented percentile extraction, or summary-only disposition",
+          "distribution-capable sample rows, benchmark-pool admission notes, or summary-only disposition",
         confidenceGate:
-          "Mark distribution-capable only when sample values or explicitly reported percentiles are present and traceable.",
+          "Mark distribution-capable when sample values are present and traceable; source-reported percentiles are optional source-scope context, not an HMTc requirement.",
         humanExceptionTrigger:
-          "only summary values available but threshold pressure is high; deterministic percentile method proposed",
+          "only summary values available but threshold pressure is high; cross-market pooling or benchmark-pool substitution proposed",
         guardrails:
-          "Means, medians, ranges, and maxima do not create p90 or p95 values by themselves.",
+          "Means, medians, ranges, and maxima do not create a benchmark pool by themselves.",
       }
     case "find-second-distribution-capable-source":
       return {
@@ -306,7 +306,7 @@ function baseDecisions() {
 }
 
 function universalGuardrails() {
-  return "Do not infer p50, p90, or p95 unless source-reported or deterministically documented; clean benchmark rows use clean-platform P90 as the standards target; contaminated-platform rows use the governance-selected lower-tail target, P10 by default or P20 only when explicitly selected; do not calculate dirty P90 or clean P10 as HMTc limit-setting targets; final HMTc values must not exceed the lowest applicable loaded regulatory cap; keep total arsenic separate from inorganic arsenic; keep total mercury separate from methylmercury; keep wet, dry, as-sold, prepared, and reconstituted bases separate; do not promote pending-tier evidence into public claims."
+  return "Do not require individual studies to report benchmark percentiles; HMTc percentiles are calculated after benchmark-pool admission. Clean benchmark rows use clean-platform P90 as the standards target; contaminated-platform rows use the governance-selected lower-tail target, P10 by default or P20 only when explicitly selected; do not calculate dirty P90 or clean P10 as HMTc limit-setting targets. Final HMTc values must not exceed the lowest applicable loaded regulatory cap. Keep total arsenic separate from inorganic arsenic; keep total mercury separate from methylmercury; keep wet, dry, as-sold, and reconstituted bases separate; keep benchmark pools jurisdiction- and market-aware; do not promote pending-tier evidence into public claims."
 }
 
 function withTargetDecision(decisions, row) {

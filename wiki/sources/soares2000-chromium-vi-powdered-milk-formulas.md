@@ -42,7 +42,7 @@ This peer-reviewed AOAC International paper adapts an ion-exchange / electrother
 | Follow-up milks for infants older than 4 months | 5 | powder as sold | <10 to 26 ng/g | 12 ng/g | Table 4 | Direct non-soy/dairy follow-up formula context; source summary only. |
 | Dietetic milks for infants in pathological situations | 8 | powder as sold | <10 to 75 ng/g | 33 ng/g | Table 4 | Direct non-soy/dairy specialty formula context; source summary only. |
 
-Because 1 ng/g equals 1 ppb on a mass basis, the reported means correspond to 24 ppb, 12 ppb, and 33 ppb Cr(VI), with source-scope maxima up to 75 ppb. The lower end of the range is censored at <10 ng/g, and the source does not report p50, p90, or p95.
+Because 1 ng/g equals 1 ppb on a mass basis, the reported means correspond to 24 ppb, 12 ppb, and 33 ppb Cr(VI), with source-scope maxima up to 75 ppb. The lower end of the range is censored at <10 ng/g. The paper reports grouped means/ranges rather than the underlying sample-level values needed for later HMTc benchmark-pool percentile math.
 
 ## Methods Brief
 
@@ -52,19 +52,19 @@ The method validation reported a 1.8 ug/L detection limit in reconstituted milk,
 
 ## Evidence Fitness
 
-Evidence Fitness: EF-3, modeled or limited evidence. The source is species-specific for Cr(VI), directly relevant to dairy/non-soy powdered formula context, and reports product-group means and ranges. It is not a reconstructable sample-level distribution and should not be used to calculate HMTc row-standard percentiles by itself.
+Evidence Fitness: EF-3, modeled or limited evidence. The source is species-specific for Cr(VI), directly relevant to dairy/non-soy powdered formula context, and reports product-group means and ranges. It is not a reconstructable sample-level distribution and should remain summary/context evidence unless another traceable sample pool is added.
 
 ## Limitations
 
 - The survey covers 20 Portuguese-market products and does not report brand-level values.
 - The product groups are milk-formula groups and should not be routed to the soy-based formula row unless another source supplies soy-specific evidence.
 - The lower range is censored at <10 ng/g.
-- No p50, p90, or p95 is reported or inferable from the published table.
+- The paper does not publish the individual product values behind the grouped means/ranges, so the products cannot be admitted one by one into benchmark-pool calculations from this table alone.
 - The method measures Cr(VI) after reconstitution and sample preparation; comparability to newer Cr speciation methods should be reviewed before cross-source pooling.
 
 ## Implications
 
-Certification: Useful Cr(VI) species-specific warning context for non-soy/dairy powdered formula, but not standards-ready because it provides only group means/ranges from a small market-specific survey and no p90/p95 or sample-level distribution.
+Certification: Useful Cr(VI) species-specific warning context for non-soy/dairy powdered formula. It is not sufficient by itself for HMTc benchmark-pool math because it provides grouped means/ranges from a small Portugal-market survey rather than individual sample values; HMTc percentile calculations belong to the admitted benchmark pool, not to this paper.
 
 Courses: Good teaching example for why total chromium and Cr(VI) must be kept separate, and why method validation does not automatically make a small occurrence survey standards-ready.
 

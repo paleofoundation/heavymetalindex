@@ -97,7 +97,7 @@ This was a convenience sample rather than a random representative market sample.
 
 ## Implications
 
-- Certification: Strong A-tier occurrence-context source for Pb and Cd in US infant formula and baby foods. Its full-sample p90/p95/p100 values are source-scope context, not HMTc aggregate thresholds; the main paper does not publish cereal-specific, non-rice-specific, or formula-format-specific concentration percentiles.
+- Certification: Strong A-tier occurrence-context source for Pb and Cd in US infant formula and baby foods. Its full-sample source percentiles/p100 values are source-scope context, not HMTc aggregate thresholds; the main paper does not publish cereal-specific, non-rice-specific, or formula-format-specific concentration percentiles.
 - Courses: Useful demonstration of why product concentration, daily intake, and threshold exceedance tables must not be mixed.
 - App: Supports rice, quinoa, wheat/oat, sweet-potato, cereal, snack, pouch, and formula risk features after row-specific mapping.
 - Microbiome: No direct microbiome endpoint.

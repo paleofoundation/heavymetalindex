@@ -75,6 +75,20 @@ the HMTc limit-setting target. Those opposite tail values may appear only as
 labeled comparator or variance context when they are needed to explain
 separation between clean and contaminated rows.
 
+Individual studies do not need to report P90, P95, P10, or P20. Those are
+HMTc calculations performed after the benchmark pool is chosen. The evidence
+task is to capture fit-source sample values, source metadata, basis, species,
+geography, and summary context; the governance task is to decide which samples
+belong in the benchmark pool before the math is run.
+
+Benchmark pools are market-aware. A United States standard should be based on
+United States market evidence unless governance explicitly approves a
+different pool. If US values materially diverge from Nigeria, Portugal, the
+EU, or another market, the evidence must be stratified and explained rather
+than silently pooled. Non-target-market evidence may support context,
+sensitivity checks, priors, or gap analysis, but it requires written rationale
+before it can influence a jurisdiction-specific HMTc threshold.
+
 After the aggregate target is calculated, compare it to every applicable
 loaded regulatory ceiling. If the aggregate target exceeds the lowest
 applicable regulatory limit, the HMTc standard must be capped at that lower
@@ -94,9 +108,10 @@ times, and serve different functions.
 
 ---
 
-**Version 1.1 — April 2026**
+**Version 1.2 — May 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | April 2026 | Initial version. |
 | 1.1 | April 2026 | Added "Two Percentile Mechanisms" section to clarify the distinction between P_clean/P_dirty (limit-setting, external data) and the 80th percentile ratchet trigger (revision cycle, program data). Prevents confusion between Governance Policy §12.3 and the Methodology Reference §1.4. |
+| 1.2 | May 2026 | Clarified that benchmark percentiles are HMTc benchmark-pool calculations, not values individual studies are expected to report; added jurisdiction-aware benchmark pool rule. |

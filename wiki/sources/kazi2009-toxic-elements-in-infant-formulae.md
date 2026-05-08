@@ -43,11 +43,11 @@ Values are reported on a dried-basis ug/kg basis in the pasted Table 3, which is
 | Evidence item | Category 1 fit | N in pasted table | Basis | Mean | Range | Approximate ppb equivalent | Row-fit note |
 | --- | --- | ---: | --- | ---: | --- | --- | --- |
 | Milk-based infant formula aluminum | [[products/infant-formula-powder-non-soy]] | 13 | dried powder | 1018.5 ug/kg | 640-1520 ug/kg | mean 1018.5 ppb; max 1520 ppb | Direct milk-based formula powder context; table count conflicts with methods description. |
-| Milk-based infant formula cadmium | [[products/infant-formula-powder-non-soy]] | 13 | dried powder | 7.86 ug/kg | 4.2-12.3 ug/kg | mean 7.86 ppb; max 12.3 ppb | Direct milk-based formula powder context; no p90. |
-| Milk-based infant formula lead | [[products/infant-formula-powder-non-soy]] | 13 | dried powder | 64.2 ug/kg | 28.7-97 ug/kg | mean 64.2 ppb; max 97 ppb | Direct milk-based formula powder context; no p90. |
+| Milk-based infant formula cadmium | [[products/infant-formula-powder-non-soy]] | 13 | dried powder | 7.86 ug/kg | 4.2-12.3 ug/kg | mean 7.86 ppb; max 12.3 ppb | Direct milk-based formula powder context; no benchmark percentile calculated from this source summary. |
+| Milk-based infant formula lead | [[products/infant-formula-powder-non-soy]] | 13 | dried powder | 64.2 ug/kg | 28.7-97 ug/kg | mean 64.2 ppb; max 97 ppb | Direct milk-based formula powder context; no benchmark percentile calculated from this source summary. |
 | Soy-based infant formula aluminum | [[products/infant-formula-powder-soy-based]] | 4 | dried powder | 2270 ug/kg | 1740-2720 ug/kg | mean 2270 ppb; max 2720 ppb | Direct soy-based formula powder context; table count conflicts with methods description. |
-| Soy-based infant formula cadmium | [[products/infant-formula-powder-soy-based]] | 4 | dried powder | 11.7 ug/kg | 8.3-14.5 ug/kg | mean 11.7 ppb; max 14.5 ppb | Direct soy-based formula powder context; no p90. |
-| Soy-based infant formula lead | [[products/infant-formula-powder-soy-based]] | 4 | dried powder | 109.4 ug/kg | 98.6-119 ug/kg | mean 109.4 ppb; max 119 ppb | Direct soy-based formula powder context; no p90. |
+| Soy-based infant formula cadmium | [[products/infant-formula-powder-soy-based]] | 4 | dried powder | 11.7 ug/kg | 8.3-14.5 ug/kg | mean 11.7 ppb; max 14.5 ppb | Direct soy-based formula powder context; no benchmark percentile calculated from this source summary. |
+| Soy-based infant formula lead | [[products/infant-formula-powder-soy-based]] | 4 | dried powder | 109.4 ug/kg | 98.6-119 ug/kg | mean 109.4 ppb; max 119 ppb | Direct soy-based formula powder context; no benchmark percentile calculated from this source summary. |
 
 ## Ingredient and variance notes
 

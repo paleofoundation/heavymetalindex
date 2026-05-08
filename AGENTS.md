@@ -46,11 +46,21 @@ Product category pages are core HMTc evidence surfaces. Product-occurrence data 
 
 If row fit is unclear, keep the source visible through an audit or queue record. Do not silently drop it.
 
+## Benchmark Percentiles
+
+Do not look for p90, p95, p10, or p20 as a requirement inside individual studies. HMTc standard percentiles are calculated later from an admitted benchmark pool after product row, geography/market, basis, species, time period, method quality, censoring, and sample inclusion/exclusion are decided.
+
+During ingest, capture source facts: sample-level values when available, N, basis, species, units, censoring, geography/market, time period, sample frame, and any source-reported summary statistics. A source-reported percentile is optional source-scope context, not the HMTc percentile. Lack of a reported percentile is not, by itself, an Evidence Fitness defect.
+
+Summary-only papers can still be valuable, but means, medians, ranges, and maxima do not create a benchmark distribution by themselves. Describe those sources as "summary/context only" or "not sufficient alone for benchmark-pool math" rather than blaming missing source-reported percentiles.
+
+Benchmark pools must be jurisdiction- and market-aware. If the standard is for the United States, US-market samples are the primary benchmark pool unless governance explicitly approves another pool. If US values are materially different from Nigeria, Portugal, EU, or any other market, stratify and document the difference; do not silently pool them. Non-target-market evidence may support context, priors, gap flags, or sensitivity checks, but cross-market pooling needs an auditable rationale.
+
 ## Infant Formula Row Fit
 
 For formula sources, "infant formula" alone is broad until powder/liquid and soy/non-soy status are resolved. But sources that explicitly describe the matrix as cow-milk, milk-based, powdered milk, milk formula, follow-up milk, or dietetic milk should route to the non-soy formula row unless the source states soy, plant protein, amino-acid-only, or another non-dairy formulation.
 
-Keep specialty or dietetic milk formulas flagged as specialty/context when appropriate, and do not treat group means, ranges, or maxima as p90/p95 distributions. This row-fit rule does not weaken the species rule: total chromium still cannot substitute for Cr(VI), total arsenic for inorganic arsenic, or total mercury for methylmercury.
+Keep specialty or dietetic milk formulas flagged as specialty/context when appropriate, and do not treat group means, ranges, or maxima as benchmark distributions. This row-fit rule does not weaken the species rule: total chromium still cannot substitute for Cr(VI), total arsenic for inorganic arsenic, or total mercury for methylmercury.
 
 ## Dataset Ingests
 
@@ -76,8 +86,10 @@ Report pages touched, evidence rows generated, product or ingredient pages updat
 ## Do Not
 
 Do not silently drop source data because a destination page is missing.
-Do not infer p50, p90, or p95 unless the source reports it or a deterministic calculation is documented.
+Do not require individual studies to report p90, p95, p10, or p20.
+Do not infer benchmark percentiles from means, medians, ranges, IQRs, maxima, or one unadmitted source pool.
 Do not treat a source-reported percentile from one paper as the HMTc aggregate percentile. Clean benchmark standards use aggregate clean-platform P90; contaminated-platform standards use a governance-selected aggregate lower-tail value, P10 by default or P20 only when explicitly selected. Dirty-category P90 and clean-category P10 are not HMTc limit-setting targets. Final HMTc values must not exceed the lowest applicable loaded regulatory cap.
+Do not silently pool samples across jurisdictions, markets, time periods, bases, product forms, or analyte species. If the benchmark target is jurisdiction-specific, document why each non-target-market source is included, excluded, or retained as context.
 Do not mix total arsenic with inorganic arsenic.
 Do not mix total mercury with methylmercury.
 Do not mix wet, dry, as-sold, and reconstituted bases.

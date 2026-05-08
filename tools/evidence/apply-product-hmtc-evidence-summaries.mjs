@@ -294,7 +294,7 @@ function blockerRead(row) {
     return "Complete pending local extraction"
   }
   if (status === "BLOCKED: summary evidence only") {
-    return "Needs sample-level values or reported target percentile"
+    return "Needs fit-source samples admitted to benchmark pool"
   }
   if (status === "BLOCKED: no structured evidence loaded") {
     return "Load structured occurrence evidence"

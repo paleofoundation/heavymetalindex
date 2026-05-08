@@ -22,7 +22,7 @@ and Category 1 pilot coverage registers.
   provisional percentile calculations.
 - `category1_fda_baby_food_compliance_summary.csv`: FDA FY2009-FY2024
   baby/young-child food compliance samples summarized into Category 1
-  lower-bound p10/p50/p90/p95/p100 rows.
+  deterministic lower-bound p10, p50, p90, p95, and p100 rows.
 - `category1_fda_baby_food_compliance_samples.csv`: parsed FDA sample-level
   baby/young-child food compliance rows with product-row mapping notes.
 - `category1_local_baby_food_occurrence_summary.csv`: reviewed small-sample
@@ -37,14 +37,14 @@ and Category 1 pilot coverage registers.
   single-strength apple-juice arsenic speciation sample rows, preserving total
   arsenic, inorganic arsenic, DMA, MMA, and trace/zero handling.
 - `category5_apple_juice_arsenic_speciation_summary.csv`: generated lower-bound
-  inorganic-arsenic p10/p50/p90/p95/p100 rows routed to the apple-containing
+  inorganic-arsenic p10, p50, p90, p95, and p100 rows routed to the apple-containing
   juice row and the broader not-canned fruit-juice context row. FDA Trace (TR)
   values are treated as 0 ppb only for the documented lower-bound calculation.
 - `category5_grape_juice_inorganic_arsenic_samples.csv`: FDA 2016 `Juice -
   Grape` infant/toddler foods arsenic sample rows, preserving grape blends,
   NS cells, total arsenic, inorganic arsenic, DMA, MMA, and serving-size notes.
 - `category5_grape_juice_inorganic_arsenic_summary.csv`: generated
-  quantified-cell inorganic-arsenic p10/p50/p90/p95/p100 rows routed to the
+  quantified-cell inorganic-arsenic p10, p50, p90, p95, and p100 rows routed to the
   non-apple juice row and the broader not-canned fruit-juice context row. NS
   cells are not speciated and are excluded from percentile calculations.
 - `who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`: recovered

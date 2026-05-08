@@ -354,8 +354,8 @@ function aggregateStatus({
     return {
       status: "BLOCKED: summary evidence only",
       evidence_needed:
-        `Loaded rows support N/mean/median/max context, but aggregate ${percentileTarget.label} needs sample-level values or explicitly reported target percentiles from fit sources.${capText}`,
-      notes: `Do not invent ${percentileTarget.statistic}, p50, or p95 from ranges or means.`,
+        `Loaded rows support N/mean/median/max context, but aggregate ${percentileTarget.label} needs fit-source sample-level values admitted to a benchmark pool.${capText}`,
+      notes: "Do not require source-reported benchmark percentiles; calculate them only after sample-pool admission. Means/ranges do not create a pool by themselves.",
     }
   }
 
@@ -469,7 +469,7 @@ function normalizePlantMilkRows(rows, evidenceFile) {
         n: /^\d+(\.\d+)?$/.test(String(row.n || "")) ? row.n : "",
         detected_n: "",
         lod_n: "",
-        substitution_rule: "reviewed summary row; no percentile inference",
+        substitution_rule: "reviewed summary row; benchmark-pool calculation deferred",
         fiscal_year_min: "",
         fiscal_year_max: "",
         p10_ppb: "",

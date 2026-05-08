@@ -154,7 +154,7 @@ function substitutionRule(row) {
   if (row.censoring_status === "less_than" || row.censoring_status === "less_than_loq" || row.censoring_status === "less_than_lod") {
     rules.push("<LOD/LOQ retained as censored source table value; not imputed")
   }
-  if (rules.length === 0) rules.push("source-reported summary statistic; no percentile inference")
+  if (rules.length === 0) rules.push("source-reported summary statistic; benchmark-pool calculation deferred")
   return rules.join("; ")
 }
 

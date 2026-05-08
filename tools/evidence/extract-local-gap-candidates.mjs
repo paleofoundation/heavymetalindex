@@ -51,8 +51,8 @@ for (const row of selectedRows) {
     remaining_metal_species: remainingMetals.join(";"),
     action_needed:
       remainingMetals.length > 0
-        ? `Extract or document remaining source-stated rows for: ${remainingMetals.join(";")}. Do not publish and do not infer p50/p90/p95.`
-        : "Extract source-stated rows into candidate values only; do not publish and do not infer p50/p90/p95.",
+        ? `Extract or document remaining source-stated rows for: ${remainingMetals.join(";")}. Do not publish and do not infer benchmark percentiles.`
+        : "Extract source-stated rows into candidate values only; do not publish and do not infer benchmark percentiles.",
   })
 }
 
@@ -250,7 +250,7 @@ function extractBurrell2010(queueRow, text) {
       quote_trace:
         "Burrell 2010 Table 2 reports non-soy formula powder prepared estimates from 333.3 to 592.4 ug/L; the paper separately reports powder replicate ranges in ug/g, including a 10.8 ug/g replicate maximum.",
       notes:
-        "Deterministic parse of Burrell 2010 Table 2 non-soy powder prepared estimates. Range is source-scope product-format range, not p50/p90/p95. Powder replicate maxima are not mixed with prepared-for-feeding values.",
+        "Deterministic parse of Burrell 2010 Table 2 non-soy powder prepared estimates. Range is source-scope product-format range, not benchmark percentiles. Powder replicate maxima are not mixed with prepared-for-feeding values.",
       source_row_order: "1",
     },
     "infant-formula-rtf-liquid-non-soy": {
@@ -264,7 +264,7 @@ function extractBurrell2010(queueRow, text) {
       quote_trace:
         "Burrell 2010 Table 1 reports ready-made formula product means from 175.5 to 700.4 ug/L; the table also reports a 863.0 ug/L replicate maximum for the highest product.",
       notes:
-        "Deterministic parse of Burrell 2010 Table 1 ready-made formula product means. Range is source-scope product-format range, not p50/p90/p95. Replicate maxima are retained in notes only because they are not product means.",
+        "Deterministic parse of Burrell 2010 Table 1 ready-made formula product means. Range is source-scope product-format range, not benchmark percentiles. Replicate maxima are retained in notes only because they are not product means.",
       source_row_order: "2",
     },
   }
@@ -299,7 +299,7 @@ function extractChuchu2013(queueRow, text) {
       quote_trace:
         "Chuchu 2013 Table 2 reports non-soy powder prepared estimates from approximately 106 to 411 ug/L at six months; the two soy products are reported separately at 656/654 and 756/755 ug/L.",
       notes:
-        "Deterministic parse of Chuchu 2013 Table 2 non-soy powder prepared estimates. Range is source-scope product-format range, not p50/p90/p95. Soy-based products remain separated.",
+        "Deterministic parse of Chuchu 2013 Table 2 non-soy powder prepared estimates. Range is source-scope product-format range, not benchmark percentiles. Soy-based products remain separated.",
       source_row_order: "1",
     },
     "infant-formula-rtf-liquid-non-soy": {
@@ -313,7 +313,7 @@ function extractChuchu2013(queueRow, text) {
       quote_trace:
         "Chuchu 2013 Table 1 reports ready-to-drink formula product means from 155 to 422 ug/L.",
       notes:
-        "Deterministic parse of Chuchu 2013 Table 1 ready-to-drink formula product means. Range is source-scope product-format range, not p50/p90/p95.",
+        "Deterministic parse of Chuchu 2013 Table 1 ready-to-drink formula product means. Range is source-scope product-format range, not benchmark percentiles.",
       source_row_order: "2",
     },
   }
@@ -363,7 +363,7 @@ function extractChung2021(queueRow, text) {
       quote_trace: quote,
       notes: compact(
         [
-          "Deterministic parse of source Table 4 Total row. No p90/p95 is reported or inferred.",
+          "Deterministic parse of source Table 4 Total row. Source reports summary statistics; benchmark percentiles are calculated after sample-pool admission.",
           item.note,
         ].join(" "),
       ),
@@ -743,7 +743,7 @@ function extractAlmeida2022(queueRow, text) {
             [
               "Deterministic parse of Almeida 2022 Table 3 formula means in mg/kg converted to ppb.",
               "Source excludes soy, wheat, lactose-free, hydrolyzed, and special-needs formulas.",
-              "No p90/p95 is reported or inferred.",
+              "Source reports formula means; benchmark percentiles are calculated after sample-pool admission.",
               metal === "tAs" ? "Source reports As; retained as total/unspecified arsenic candidate, not iAs." : "",
               metal === "U" ? "Source reports uranium; retained as uranium and not pooled with other metals." : "",
               parsed.note,
@@ -908,7 +908,7 @@ function extractPandelova2012(queueRow, text) {
               "Deterministic parse of Pandelova 2012 Table 3 EU pooled formula baskets.",
               `Source unit ${parsed.source_unit} normalized to ppb using deterministic unit conversion.`,
               "Pooled market-basket values are source means, not individual-product distributions.",
-              "No p50, p90, or p95 is reported or inferred.",
+              "Use as summary/context evidence; pooled means do not create a benchmark sample distribution by themselves.",
               metal === "tHg" ? "Source reports total mercury as Hg; it is not methylmercury." : "",
               parsed.note,
             ].join(" "),
@@ -952,7 +952,7 @@ function extractWeldegebriel2025(queueRow, text) {
       notes: compact(
         [
           "Deterministic parse of Weldegebriel 2025 Table 5 fruit-juice medians and ranges.",
-          "mg/L liquid concentrations are normalized to ppb as ug/L-equivalent; no p90 or p95 is reported or inferred.",
+          "mg/L liquid concentrations are normalized to ppb as ug/L-equivalent; benchmark percentiles are calculated after sample-pool admission.",
           metal === "Cr-total" ? "Source reports Cr; this does not satisfy Cr-VI without species confirmation." : "",
         ].join(" "),
       ),
@@ -986,7 +986,7 @@ function extractParker2022(queueRow, text) {
         [
           "Deterministic parse of Parker 2022 Table 4 baby-food ingredient-category concentration summaries.",
           "The source assigns non-detects to one-half LOD and non-quantifiable results to one-half LLOQ for risk assessment; these substituted summary statistics are retained as source-reported candidates.",
-          "No p90 or p95 is reported or inferred.",
+          "Source reports summary statistics only; benchmark percentiles are calculated after sample-pool admission.",
           metal === "tAs" ? "Source reports As by ICP-MS; retained as total/unspecified arsenic, not inorganic arsenic." : "",
           metal === "tHg" ? "Source reports Hg; retained as total mercury, not methylmercury." : "",
           route.note,
@@ -1066,7 +1066,7 @@ function extractDamato2026(queueRow, text) {
           "Deterministic parse of D'Amato 2026 Table 3 rice-drink occurrence summary.",
           "Rice-based beverage concentrations are retained as as-consumed ug/kg values and normalized to ppb without changing the numeric value.",
           "The source states no censored values were present for the rice-drink occurrence dataset.",
-          "No p90 or p95 is reported or inferred.",
+          "Source reports summary statistics only; benchmark percentiles are calculated after sample-pool admission.",
           metal === "tAs" ? "Total arsenic is retained separately from inorganic arsenic." : "",
           metal === "iAs" ? "The source defines iAs as the sum of As(III) and As(V), quantified as As(V)." : "",
         ].join(" "),
@@ -1147,7 +1147,7 @@ function extractMilani2023(queueRow, text) {
             [
               "Deterministic parse of Milani 2023 Table 3 soy-based beverage trace-element means and ranges.",
               "Values are reported in ug/L and normalized to ppb without changing the numeric value.",
-              "No p50, p90, or p95 is reported or inferred.",
+              "Use as summary/context evidence; source-group means/ranges do not create a benchmark sample distribution by themselves.",
               metal === "tAs" ? "Source reports As; retained as total/unspecified arsenic, not inorganic arsenic." : "",
               metal === "Cr-total" ? "Source reports Cr; this does not satisfy Cr-VI without species confirmation." : "",
               parsed.note,
@@ -1190,7 +1190,7 @@ function extractColladoLopez2025(queueRow, text) {
           item.q1_ppb && item.q3_ppb
             ? `Source IQR is ${item.q1_ppb}-${item.q3_ppb} ppb; IQR values are retained in notes and not stored as min/max.`
             : "",
-          "No p90 or p95 is reported or inferred.",
+          "Source reports summary statistics only; benchmark percentiles are calculated after sample-pool admission.",
           metal === "tAs" ? "Source reports As; retained as total/unspecified arsenic, not inorganic arsenic." : "",
           metal === "tHg" ? "Source reports Hg; retained as total mercury, not methylmercury." : "",
           route.note,
@@ -1368,7 +1368,7 @@ function dispositionColladoLopez2025(queueRow, text) {
         disposition_status: "context_only_no_routeable_review_median",
         row_fit: route?.row_fit ?? "broad_scoping_review_context_only",
         reason:
-          "Collado-Lopez 2025 is a secondary scoping review. For this product-metal route, the local packet does not provide a source-stated product-specific concentration row or percentile suitable for HMTc occurrence math.",
+          "Collado-Lopez 2025 is a secondary scoping review. For this product-metal route, the local packet does not provide a source-stated product-specific concentration row suitable for benchmark-pool admission.",
         quote_trace:
           "Collado-Lopez 2025 reports selected detected-item medians/IQRs for broad baby-food groups, not sample-level rows for every locked HMTc product-metal route.",
         notes: compact(
@@ -1376,7 +1376,7 @@ function dispositionColladoLopez2025(queueRow, text) {
             baseNote,
             "No candidate row was emitted for this product-metal route.",
             "The source remains visible through Collado EF-4 context rows where routeable medians exist and through this disposition where they do not.",
-            "No p50, p90, or p95 was inferred.",
+            "No benchmark percentile was inferred from summary statistics.",
             canonicalMetal(metal) === "tAs" ? "Arsenic remains total/unspecified arsenic, not inorganic arsenic." : "",
             canonicalMetal(metal) === "tHg" ? "Mercury remains total mercury, not methylmercury." : "",
           ].join(" "),
@@ -1525,7 +1525,7 @@ function candidateRow(queueRow, values) {
     quote_trace: values.quote_trace ?? "",
     notes: values.notes ?? "",
     guardrails:
-      "Candidate row only; do not publish until source table, product fit, basis, species, unit, and N are reviewed. Do not infer p90/p95.",
+      "Candidate row only; do not publish until source table, product fit, basis, species, unit, and N are reviewed. Do not infer benchmark percentiles from unadmitted source summaries.",
   }
 }
 
@@ -1543,7 +1543,7 @@ function dispositionRow(queueRow, values) {
     quote_trace: values.quote_trace,
     notes: values.notes,
     guardrails:
-      "No candidate value emitted for this product-metal route. Keep source visible through disposition/context; do not publish or infer p50/p90/p95.",
+      "No candidate value emitted for this product-metal route. Keep source visible through disposition/context; do not publish or infer benchmark percentiles.",
   }
 }
 
@@ -1760,7 +1760,8 @@ Return JSON with this shape:
 \`\`\`
 
 ## Guardrails
-- Do not infer p50, p90, or p95.
+- Do not require source-reported p90, p95, p10, or p20; capture sample values for later benchmark-pool math when available.
+- Do not infer benchmark percentiles from means, ranges, maxima, or one unadmitted source pool.
 - Do not convert total arsenic into inorganic arsenic.
 - Do not convert total mercury into methylmercury.
 - Do not pool powder/liquid or soy/non-soy rows unless the source explicitly does so.

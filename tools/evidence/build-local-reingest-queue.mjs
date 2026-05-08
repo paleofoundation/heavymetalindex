@@ -287,8 +287,8 @@ function splitMetals(value) {
 function guardrailsFor(row, source) {
   const guardrails = [
     "local PDF first",
-    "extract N, mean, median, min/low, max/high, basis, unit, product fit, analyte species",
-    "do not infer p50/p90/p95 unless explicitly reported",
+    "extract N, sample-level values when available, mean, median, min/low, max/high, basis, unit, product fit, analyte species, geography/market",
+    "do not require source-reported benchmark percentiles; HMTc percentiles are calculated after benchmark-pool admission",
     "do not pool broad/context rows into locked subcategory until row fit is resolved",
     "write candidate rows for review before page publication",
   ]

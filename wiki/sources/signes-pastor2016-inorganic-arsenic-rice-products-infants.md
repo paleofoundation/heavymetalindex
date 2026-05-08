@@ -32,7 +32,7 @@ updated: 2026-05-07
 
 This A-tier peer-reviewed occurrence paper directly reports inorganic arsenic (`iAs`, reported as `Asi`) in rice-based products marketed for infants and young children. It is the primary source behind the later Signes-Pastor 2018 weaning-exposure citation for baby rice, rice cereals, and rice crackers.
 
-The paper supports species-specific occurrence context for [[products/baby-cereals-dry-rice-based]] and [[products/teething-and-snacks-rice-based]]. It does not support aggregate HMTc threshold values because the routeable tables report medians and ranges, not source-stated p90/p95 values.
+The paper supports species-specific occurrence context for [[products/baby-cereals-dry-rice-based]] and [[products/teething-and-snacks-rice-based]]. It does not support aggregate HMTc threshold values because the routeable tables report medians and ranges rather than sample-level values that can be admitted one by one into the benchmark pool.
 
 ## Key Numbers
 
@@ -60,7 +60,7 @@ These rows are `EF-3` summary evidence. They are species-specific and product-re
 ## Limitations
 
 - Basis is source-reported dry weight. Do not silently mix with wet, prepared, or reconstituted bases.
-- The source reports iAs medians and ranges for product groups; no p90, p95, or aggregate HMTc percentile is inferred.
+- The source reports iAs medians and ranges for product groups; no benchmark percentile or aggregate HMTc percentile is inferred from summary statistics.
 - The source includes total arsenic for US FDA survey rows, but this ingest routes only inorganic arsenic.
 
 ## Wiki Pages Updated On Ingest
