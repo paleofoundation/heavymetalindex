@@ -6,19 +6,19 @@ aliases: [white potato, russet potato, yukon gold, red potato, potato flakes, po
 category: starchy-root
 contamination_profile:
   Pb:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Cd:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   iAs:
     status: pending
     typical_ppb: [null, null]
@@ -27,19 +27,19 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
   tHg:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Ni:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Al:
     status: pending
     typical_ppb: [null, null]
@@ -48,12 +48,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
   Cr:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Sn:
     status: pending
     typical_ppb: [null, null]
@@ -66,7 +66,7 @@ lower_risk_variants: ["[[ingredients/peeled-potato]]", "[[ingredients/potato-sta
 higher_risk_variants: ["[[ingredients/unpeeled-potato]]", "[[ingredients/potato-skin]]", "[[ingredients/potato-peel-heavy-products]]"]
 used_in_products: ["[[products/baby-food-vegetables]]", "[[products/french-fries]]", "[[products/potato-chips]]", "[[products/mashed-potato-products]]", "[[products/potato-starch-containing-baked-goods]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-08
 ---
 
 # Potatoes
@@ -109,6 +109,25 @@ _Some metals not listed in this section because no ingested source yet covers th
 ## FDA TDS FY2018-FY2020 Evidence
 
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 136, "Potato, peeled, boiled." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018-FY2020 Occurrence Values
+
+<!-- audience: regulator, educator, app -->
+
+FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Potato, peeled, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
+
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 13 | 15 | 25 | 34 | 37.7 | 42 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 63 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 48 | 79.4 | 91 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | *not in profile schema* |
+| tAs | 27 | 0 | 0 | 0 | 0 | 2.66 | 4.8 | *not in profile schema* |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+
+<!-- END: hmi-fda-tds-occurrence -->
 
 ## Sources
 

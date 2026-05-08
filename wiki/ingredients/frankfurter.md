@@ -105,6 +105,25 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018-FY2020 Occurrence Values
+
+<!-- audience: regulator, educator, app -->
+
+FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Frankfurter (all beef/beef and pork), boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
+
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 22 | 0 | 1.2 | 3.35 | 4.56 | 4.695 | 4.8 | in profile |
+| Cr | 22 | 0 | 0 | 0 | 47.7 | 97.65 | 100 | in profile |
+| Ni | 22 | 0 | 0 | 0 | 59.4 | 73.3 | 76 | in profile |
+| Pb | 22 | 0 | 0 | 0 | 5.08 | 6.24 | 7.1 | in profile |
+| U | 22 | 0 | 0 | 1.3 | 2.2 | 2.39 | 2.9 | in profile |
+| tAs | 22 | 0 | 0 | 0 | 0 | 2.945 | 4.2 | in profile |
+| tHg | 22 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+
+<!-- END: hmi-fda-tds-occurrence -->
+
 ## Sources
 
 - [[sources/fda2022-tds-elements-fy2018-fy2020]]

@@ -105,6 +105,25 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 
 The machine-readable contamination profile is `in_progress` for analytes measured in the TDS file and `pending` for profile metals not measured by this source. Ingredient-level values belong here once cross-source synthesis is reviewed; product-category values belong on the relevant product page.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018-FY2020 Occurrence Values
+
+<!-- audience: regulator, educator, app -->
+
+FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Chili con carne with beans, canned" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
+
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 3 | 5.4 | 5.58 | 6.3 | 7.1 | 7.2 | 7.3 | in profile |
+| Cr | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Ni | 3 | 250 | 266 | 330 | 450 | 465 | 480 | in profile |
+| Pb | 3 | 0 | 0 | 0 | 5.28 | 5.94 | 6.6 | in profile |
+| U | 3 | 0 | 0.22 | 1.1 | 1.18 | 1.19 | 1.2 | in profile |
+| tAs | 3 | 3 | 3.06 | 3.3 | 4.9 | 5.1 | 5.3 | in profile |
+| tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+
+<!-- END: hmi-fda-tds-occurrence -->
+
 ## Sources
 
 - [[sources/fda2022-tds-elements-fy2018-fy2020]]

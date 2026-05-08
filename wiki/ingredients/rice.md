@@ -6,40 +6,40 @@ aliases: [rice flour, rice syrup, brown rice syrup, rice protein, rice starch, w
 category: grain
 contamination_profile:
   Pb:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Cd:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   iAs:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   tHg:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Ni:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Al:
     status: pending
     typical_ppb: [null, null]
@@ -48,12 +48,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
   Cr:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Sn:
     status: pending
     typical_ppb: [null, null]
@@ -66,7 +66,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-08
 ---
 
 # Rice
@@ -122,6 +122,26 @@ _Some metals not listed in this section because no ingested source yet covers th
 ## FDA TDS FY2018-FY2020 Evidence
 
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 50, "Rice, white, enriched, cooked." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018-FY2020 Occurrence Values
+
+<!-- audience: regulator, educator, app -->
+
+FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Rice, white, enriched, cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
+
+| Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Cd | 27 | 3.1 | 3.46 | 5.2 | 9.66 | 19 | 23 | in profile |
+| Cr | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| Ni | 27 | 0 | 0 | 0 | 72.2 | 78.2 | 170 | in profile |
+| Pb | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
+| U | 27 | 0 | 0 | 0 | 0 | 0 | 0 | *not in profile schema* |
+| iAs | 1 | 41.6 | 41.6 | 41.6 | 41.6 | 41.6 | 41.6 | in profile |
+| tAs | 27 | 20 | 30.2 | 43 | 62 | 66.9 | 75 | *not in profile schema* |
+| tHg | 27 | 0 | 0 | 0 | 0 | 0 | 1.4 | in profile |
+
+<!-- END: hmi-fda-tds-occurrence -->
 
 ## Sources
 
