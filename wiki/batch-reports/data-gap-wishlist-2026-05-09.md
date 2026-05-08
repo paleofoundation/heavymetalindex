@@ -17,15 +17,24 @@ The PubMed query strategy targeted the most-acute data gaps from the Phase 5 mas
 
 ## Acquisition attempt status
 
-The autonomous run attempted PMC OA PDF fetch for the three highest-priority OA-accessible candidates:
+The autonomous run made multiple attempts at PMC OA PDF fetch via different endpoints. **Update after retry:** the PMC IDs returned by my initial `elink` PMID→PMC mapping were partly *citing or related* PMCs rather than the originally-targeted papers' PMCs. After reverse-verifying via PMC esummary, the actual papers behind those PMCs are different from what was first targeted. Specifically:
 
-- PMC11050093 (Mathebula 2019 Cr(VI)/Cr(III) milk/dairy/cereal): PMC HTML interstitial blocked direct PDF fetch (returns a "Preparing to download" page rather than the PDF). Wishlisted for manual fetch.
-- PMC7065688 (Al-Saleh 2020 Al/As/Hg infant formula): same interstitial behavior. Wishlisted.
-- PMC11125859 (Vacchina 2021 Cr speciation milk/meat): not attempted; wishlisted with the others.
+- **PMC11050093** is **Toledo 2024 "Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment"** (*Int J Environ Res Public Health* 21(4):381) — *not* Mathebula 2019 as initially assumed. This is itself a high-value paper directly relevant to the rice cereal and non-rice cereal subcategories. License CC BY. **Newly added to the wishlist.**
+- **PMC7065688** is **Igweze 2020 "Public Health and Paediatric Risk Assessment of Aluminium, Arsenic and Mercury in Infant Formula Milks and Baby Foods"** (*Sultan Qaboos Univ Med J* 20(1):e63-e70). This is the originally-targeted paper (PMID 32190371). License CC BY-ND.
+- **PMC11125859** is **Song 2024 "Development of a Fast Method Using ICP-MS Coupled with..."** (*Toxics* 12(5):325) — methodology paper, lower direct value than originally hoped. Vacchina 2021 (PMID 33428550) does not appear to have its own PMC entry.
 
-The PMC OA bulk API (`https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi`) and the EFetch XML endpoint (`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc`) are alternatives that the next session could try. Karen's manual download via a logged-in browser session is the lowest-friction path for the three OA candidates below.
+**Acquisition still blocked.** Both `https://pmc.ncbi.nlm.nih.gov/articles/PMC<id>/pdf/` (returns 1.8 KB HTML interstitial "Preparing to download") and the FTP-mirror HTTPS path `https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_pdf/...` (returns HTTP 404) failed from this autonomous environment. The PMC OA bulk API correctly returned tar.gz package URLs, but those URLs returned 404 when the `ftp://` scheme was rewritten to `https://`. The next-session paths to try are: (a) actual FTP fetch via `ftplib` (autonomous environment may need DNS resolution to `ftp.ncbi.nlm.nih.gov`); (b) NCBI's EFetch XML endpoint `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC<id>&retmode=xml` for the JATS XML which contains the full text without a PDF; (c) Karen's manual download via a logged-in browser session.
+
+The Mathebula 2019 PubMed→PMC mapping needs to be redone — the first elink call surfaced PMC11050093 (Toledo 2024) as a *citing* paper, not Mathebula's own PMC. If Mathebula 2019 has its own PMC entry it can be re-discovered with a tighter elink call (`linkname=pubmed_pmc`).
 
 ## Highest-priority OA candidates (close direct gaps)
+
+### Newly-discovered: Toledo 2024 — infant cereal toxic elements (Brazil)
+
+- **PMC11050093** (2024) "Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment" — *Int J Environ Res Public Health* 21(4):381. Toledo MC et al. License: **CC BY**. Surfaced when verifying the PMC IDs returned by the original elink call.
+  - Closes (potentially) sample-level Pb, Cd, tAs, possibly iAs cells for rice-based and non-rice infant cereal subcategories — depending on whether the paper splits by rice presence.
+  - Brazilian market subset; would supply a second A-tier sample-level source for infant cereal cells currently at Path A thin.
+  - Highest gap-filler value among confirmed-OA candidates given how many cells it could touch.
 
 ### Cr-VI speciation gap — **highest value**
 
