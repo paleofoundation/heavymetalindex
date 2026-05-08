@@ -58,9 +58,11 @@ This page is the public evidence page for powdered non-soy infant formula. It is
 
 <!-- audience: regulator, educator, app -->
 
+> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+
 Clean-category target: aggregate P90. Values shown in ppb. Current values are source-scope candidates unless marked final. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate.
 
-Source-scope percentiles are evidence inputs, not final HMTc standards. Clean rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Dirty P90 and clean P10 are not HMTc limit-setting targets.
+Source-scope percentiles are evidence inputs, not final HMT&C standards. Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 and dirty subcategories use aggregate p30 (per-analyte empirical classification within the parent category). The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded; legacy values shown in this block are placeholders until Phase 3 rebuilds the block.
 
 | Metal | Candidate P90 | Evidence confidence | HMTc readiness | Regulatory cap | Blocker | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
