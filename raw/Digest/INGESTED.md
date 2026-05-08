@@ -24,6 +24,8 @@ This folder records the Digest PDF batch supplied locally at `/Users/karenpender
 - `Analytical-Results-for-Lead-in-Food-Intended-for-Babies-Young-Children-FY2020-FY2021.pdf` -> [[sources/fda2021-lead-baby-food-fy2020-fy2021]]
 - `leadinfood-babiesyoungchildren-fy2023-12302024.pdf` -> [[sources/fda2024-lead-baby-food-fy2023-guidance-basis]]
 - `TDS-ElementsAnalyticalResultsKey-TDS-Report-FY2018toFY2020-07082022_0.pdf` -> [[sources/fda2022-tds-elements-analytical-key]]
+- `abt2018.pdf` -> [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]]
+- `abt2020.pdf` -> [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate]]
 
 ## Structured Extraction Completed
 

@@ -6,19 +6,19 @@ aliases: [dark chocolate, milk chocolate, chocolate liquor, chocolate bar, choco
 category: processed-confectionery
 contamination_profile:
   Pb:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Cd:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   iAs:
     status: pending
     typical_ppb: [null, null]
@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/milk-chocolate]]", "[[ingredients/white-cho
 higher_risk_variants: ["[[ingredients/high-cocoa-dark-chocolate]]", "[[ingredients/baking-chocolate]]", "[[ingredients/cocoa-powder-heavy-confections]]"]
 used_in_products: ["[[products/chocolate-bars]]", "[[products/chocolate-confections]]", "[[products/baked-goods]]", "[[products/ice-cream]]", "[[products/chocolate-beverages]]", "[[products/nutritional-supplements]]", "[[products/chocolate-coated-snacks]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-24
+updated: 2026-05-08
 ---
 
 # Chocolate
@@ -107,9 +107,20 @@ A chocolate-containing ingredient list translates to cadmium exposure primarily 
 
 _Pending. Upstream cocoa-sourcing decisions are the meaningful mitigation lever for chocolate manufacturers; see [[ingredients/cocoa]]._
 
+## Abt 2018 sample-level occurrence values
+
+[[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt et al. 2018]] is the primary FDA U.S.-market occurrence dataset for finished chocolate products. Per-matrix means below; full ranges and stratification by percent cocoa and by Latin America versus Africa origin are in the source page. The 2020 perspective [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] contextualizes these values within the JECFA-and-Codex regulatory landscape and the JECFA finding that cocoa-and-chocolate consumption can drive 30-69 percent of total Cd intake in high-consumer children.
+
+| Matrix | Mean Cd ± SD (mg/kg) | Mean Pb ± SD (mg/kg) |
+| --- | ---: | ---: |
+| Dark chocolate | 0.27 ± 0.25 | 0.03 ± 0.02 |
+| Milk chocolate | 0.06 ± 0.07 | 0.01 ± 0.01 |
+
+The four-fold higher Cd in dark chocolate versus milk chocolate reflects the higher percent cocoa content in dark chocolate; Cd and Pb were both significantly correlated with percent cocoa across the dataset. These values count as one Path A primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
+
 ## Other metals of concern
 
-_Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
+_Pending dedicated iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all ten HMI metals; commodity-specific narrative for non-Cd-and-Pb metals will populate when the corresponding source pages are ingested._
 
 ## Regulatory limits that apply
 
@@ -119,5 +130,7 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 
 ## Sources
 
+- [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt et al. 2018]] — FDA U.S. market convenience-sample survey of 144 cocoa-and-chocolate products with Cd and Pb by ICP-MS; per-matrix means including dark and milk chocolate.
+- [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] — FDA perspective synthesizing Abt 2018 with JECFA 2013, FDA 2014-2016 dietary exposure, and Codex international standards efforts.
 - [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment.
 - [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food.

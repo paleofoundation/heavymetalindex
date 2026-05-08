@@ -6,19 +6,19 @@ aliases: [cocoa beans, cacao, cocoa mass, cocoa liquor, cocoa solids, cocoa powd
 category: tree-crop
 contamination_profile:
   Pb:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   Cd:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 0
-    last_reviewed: null
+    n_studies: 1
+    last_reviewed: 2026-05-08
   iAs:
     status: pending
     typical_ppb: [null, null]
@@ -80,7 +80,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/cocoa-powder]]", "[[ingredients/high-cocoa-solid-dark-chocolate]]"]
 used_in_products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[products/cocoa-baked-goods]]", "[[products/confectionery]]", "[[products/baby-food-flavor]]", "[[products/nutritional-supplements]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-04-24
+updated: 2026-05-08
 ---
 
 # Cocoa
@@ -115,9 +115,20 @@ Cocoa cadmium mitigation is structured across all four [[mitigation/index|mitiga
 
 [[mitigation/formulation|Formulation mitigation]] for cocoa-containing products includes cocoa-percentage adjustment (lower-cocoa-solids products have correspondingly less cocoa-derived cadmium), cocoa-origin sourcing realized at the recipe level, and substitution of cocoa butter for cocoa powder where formulation permits (cocoa butter is much lower in cadmium than the defatted solids).
 
+## Abt 2018 sample-level occurrence values
+
+[[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt et al. 2018]] is the primary FDA U.S.-market occurrence dataset for Cd and Pb in cocoa products. Key per-matrix means below; full ranges and stratification by percent cocoa and by Latin America versus Africa origin are in the source page. The 2020 perspective [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] cites these values within the broader JECFA-and-Codex regulatory context.
+
+| Matrix | Mean Cd ± SD (mg/kg) | Mean Pb ± SD (mg/kg) |
+| --- | ---: | ---: |
+| Cocoa powder | 0.70 ± 0.83 | 0.11 ± 0.10 |
+| Cocoa nibs | 0.62 ± 0.38 | 0.003 ± 0.004 |
+
+Cd range across all 144 cocoa-and-chocolate samples: 0.004 to 3.15 mg/kg. Pb range: <LOD to 0.38 mg/kg. The 26 cocoa-powder samples with 100 percent cocoa content had a mean Cd of 0.99 ± 0.87 mg/kg. Cd was significantly higher in Latin American product than in African product. These values count as one Path A primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
+
 ## Other metals of concern
 
-_Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
+_Pending dedicated iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all ten HMI metals; commodity-specific narrative for non-Cd-and-Pb metals will populate when the corresponding source pages are ingested._
 
 ## Regulatory limits that apply
 
@@ -127,5 +138,8 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 
 ## Sources
 
+- [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt et al. 2018]] — FDA U.S. market convenience-sample survey of 144 cocoa-and-chocolate products with Cd and Pb by ICP-MS; per-matrix means and percent-cocoa-and-origin correlation.
+- [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] — FDA perspective synthesizing Abt 2018 with JECFA 2013, FDA 2014-2016 dietary exposure, and Codex international standards efforts.
 - [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment.
 - [[sources/codex-cccf17-2024|Codex CCCF17 2024]] — Codex CCCF, April 2024. Report of the 17th Session (REP24/CF17).
+- [[sources/codex-cxc-81-2022|Codex CXC 81-2022]] — Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans.
