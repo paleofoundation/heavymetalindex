@@ -10,7 +10,7 @@ primary_metals_of_concern: [Al, Ni, Cd, Pb, tAs, iAs, tHg, MeHg, Cr-VI, Sn]
 vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 # Infant Formula Powder
@@ -27,6 +27,7 @@ _Stub page. This base product node exists for sources that report powdered infan
 - [[sources/meli2024-chemical-characterization-baby-food-italy]] — Italy baby-food survey with formula-powder context; product subgroup remains broad for this base node.
 - [[sources/pandelova2012-eu-baby-food-formula-elements]] — EU baby-food/formula element survey with broad formula categories; do not pool soy, hypoallergenic, and non-soy rows on this base page.
 - [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] — Exposure-context paper for infant transition diets; keep biomarker/food-diary context separate from formula occurrence rows.
+- [[sources/soares2000-chromium-vi-powdered-milk-formulas]] — Portugal powdered milk formula Cr(VI) method/application paper; base powder context because soy/non-soy status is not resolved.
 
 ## Row Mapping
 
@@ -46,3 +47,14 @@ These sources can inform retrieval priorities and source-scope context, but they
 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Italy baby-food survey with infant-formula powder context. | Formula subgroup is broad and should not be pooled into a child row without subtype review. |
 | [[sources/pandelova2012-eu-baby-food-formula-elements]] | EU baby-food and formula element context. | The source spans formula and solid baby-food categories; soy/hypoallergenic/non-soy pooling is not permitted. |
 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Transition-diet arsenic exposure context. | Biomarker and food-diary associations are not formula-powder occurrence rows. |
+| [[sources/soares2000-chromium-vi-powdered-milk-formulas]] | Cr(VI) in Portuguese powdered milk infant, follow-up, and dietetic formulas; Table 4 reports group means and ranges. | Powder format and Cr(VI) species are clear, but the paper does not separate non-soy from soy-based formula and does not report p90/p95. |
+
+## Structured Base Context Rows
+
+The structured evidence register now includes Soares 2000 Cr(VI) mean/range rows for the base powdered-formula node. These rows keep Cr(VI) separate from total chromium and keep the source at base-context level until a later adjudication can determine whether any product subgroup maps cleanly to the non-soy or soy-based child rows.
+
+| Source | Product group | N | Basis | Reported Cr(VI) | Use note |
+| --- | --- | ---: | --- | ---: | --- |
+| [[sources/soares2000-chromium-vi-powdered-milk-formulas]] | Infant formulas | 7 | powder as sold | mean 24 ppb; range <10 to 75 ppb | Source-scope mean/range only; no p90/p95. |
+| [[sources/soares2000-chromium-vi-powdered-milk-formulas]] | Follow-up milks | 5 | powder as sold | mean 12 ppb; range <10 to 26 ppb | Source-scope mean/range only; no p90/p95. |
+| [[sources/soares2000-chromium-vi-powdered-milk-formulas]] | Dietetic milks | 8 | powder as sold | mean 33 ppb; range <10 to 75 ppb | Source-scope mean/range only; no p90/p95. |

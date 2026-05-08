@@ -12,6 +12,12 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-08] ingest | soares2000-chromium-vi-powdered-milk-formulas - Cr(VI) powdered formula context
+
+Pages touched: [[sources/soares2000-chromium-vi-powdered-milk-formulas]], [[metals/chromium]], [[products/infant-formula-powder]], [[products/infant-formula-powder-non-soy]], [[products/infant-formula-powder-soy-based]], [[sources/index]]
+
+Notes: Added the Soares 2000 AOAC International paper from `raw/Working Together with ChatGPT/soares2000.pdf` as a species-specific Cr(VI) source for powdered milk formulas. Structured the three Table 4 mean/range rows as base powdered-formula context in `data/evidence/category1_formula_concentration_summary.csv` and `data/evidence/values.jsonl`; no p50, p90, or p95 was inferred, total chromium was not substituted for Cr(VI), and child-row use remains broad context until soy/non-soy row fit is adjudicated.
+
 ## [2026-05-08] ingest | who-gemsfood-heavy-metal-contaminants — recovered GEMS/Food heavy-metal summaries and routes
 
 Pages touched: [[sources/who-gemsfood-heavy-metal-contaminants]], [[sources/index]], [[log]]

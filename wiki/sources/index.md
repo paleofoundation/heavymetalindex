@@ -24,6 +24,7 @@ The folder list below is the public source catalog. For faster lookup, use searc
 ## Infant And Child Food Studies
 
 - [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] - Primary inorganic-arsenic occurrence source for rice-based infant cereals and rice crackers.
+- [[sources/soares2000-chromium-vi-powdered-milk-formulas]] - Species-specific Cr(VI) method/application paper for powdered milk infant, follow-up, and dietetic formulas.
 
 ## Category 5 Beverages
 
