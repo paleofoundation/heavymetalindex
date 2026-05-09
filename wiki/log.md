@@ -957,3 +957,34 @@ Notes: Cycle 23 of overnight loop. Per priority order, attempted to "begin Prior
   **Recommendation for Priority 5**: Karen would need to define Step 0 lock for one new category at a time (e.g., raw/reports/category-2-step-0-output-locked-YYYYMMDD.md for HMTc Cat 2). Then the loop could mirror the Cat 5 build-out pattern (~10-15 cycles per new category). Speculative scope inference (categories may cover toddler/older-child foods, adult foods, supplements, cosmetics, contact products, medical foods, etc.) is captured in the batch report but is NOT the locked architecture.
 
   No stop conditions triggered. The architectural-gap is a scope-discovery deliverable (operations-mode "query"), not a row-fit-rule unresolved drift or schema-uncovered decision. Cycle 23 of overnight loop. Next cycle (24): pivot back to re-ingest queue items or focused per-page extractions to close more Cat 1/Cat 5 cells to at-bar.
+
+## [2026-05-09] resynthesis | cycle-24-root-vegetable-purees-pb-at-bar — 12th IandC at-bar cell achieved
+Pages affected: [[products/root-vegetable-purees]] (CC block Pb cell upgraded n_a_tier 2→3, status approaching→at-bar); [[products/infant-and-child-foods-master]] (Pb cell upgraded; readiness roll-up row updated to list Pb in at-bar column).
+Notes: Cycle 24 of overnight loop. Per priority order, focused on Cat 1 cell-closing work since Priority 5 is blocked on Karen's Step 0 architectural input (cycle 23 finding).
+
+  Root-vegetable purees Pb cell had 3 sources already cited on the page but n_a_tier was conservatively set to 2 in the master:
+   - **FDA 2024** baby-food compliance (n=59 sample-level Pb; lower-bound deterministic; p30=3.74, p90=15.9, p100=27.30 ppb) — primary admitted-pool source
+   - **Parker 2022** root-vegetable baby foods (n=9 below 10-sample defensibility floor; mean 15.8, max 48 ppb)
+   - **Spungen 2024** FDA TDS sweet-potato baby food (hybrid mean 21 ppb; named-food summary)
+
+  All three are direct Path A fit measurements (root-vegetable baby food / puree subcategory). Per CLAUDE.md Part 6 confidence rule (1-2 studies = low; 3-10 = medium), this constitutes 3 studies → medium confidence → at readiness bar.
+
+  Cell upgrade:
+   - n_a_tier 2 → **3**
+   - confidence low → **medium**
+   - status "Approaching" → **"At readiness bar"**
+   - Standards target: **dirty p30 = 3.74 ppb** (FDA 2024 sample-level)
+   - p100 = 27.30 ppb
+   - **p30 is 81% below the FDA 20 ppb root-vegetable cap** (single-ingredient root-vegetable baby food per FDA final guidance)
+   - 12th IandC at-bar cell
+
+  Note on Cd cell (also has multiple sources): FDA 2024 + Parker 2022 = 2 direct Path A fit. FSA 2016 UK potatoes is ingredient-cascade (not finished puree) → triangulation only, not direct fit. So Cd cell stays at n_a_tier=2 / approaching. Not upgraded this cycle.
+
+  Note on tAs cell: FDA 2024 + Parker 2022 = 2 direct fit. Stays at approaching pending 3rd direct source.
+
+  No stop conditions triggered. Cycle 24 of overnight loop. Total publishable Path A standards now = 5 (apple-juice iAs cycle 13 + rice-cereal tAs cycle 9ad45f8 + apple-juice Pb cycle 21 + non-apple-juice Pb cycle 21 + root-vegetable purees Pb cycle 24).
+
+  Remaining tractable cell-closing candidates for cycle 25+:
+   - mixed-meals-non-rice Pb/Cd/tAs (gap report flags single distribution-capable; FDA 2024 has n=78; check for second source)
+   - Soy-based RTF formula (n=3-33 across analytes; small N constraints)
+   - Various Cat 5 cells with Path A thin status (would need 2nd source most aren't in corpus)

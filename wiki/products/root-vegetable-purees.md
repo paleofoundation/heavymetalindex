@@ -72,7 +72,7 @@ Per-analyte synthesis is mirrored from [[products/infant-and-child-foods-master]
 
 | Analyte | Subcategory designation | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| [[metals/lead\|Pb]] | **dirty** | dirty p30 = **3.74 ppb** | 27.30 ppb | 59 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
+| [[metals/lead\|Pb]] | **dirty** | dirty p30 = **3.74 ppb** | 27.30 ppb | 59 | **3** | **medium** | **At readiness bar (cycle 24).** Path A n_a_tier=3: FDA 2024 sample-level n=59 + Parker 2022 root-vegetable baby foods n=9 (triangulation, below 10-sample floor) + Spungen 2024 FDA TDS sweet-potato baby food hybrid mean 21 ppb (named-food). Confidence=medium per Part 6 (3 studies). p30 = 3.74 ppb is **81% below the FDA 20 ppb root-vegetable cap**. |
 | [[metals/cadmium\|Cd]] | **dirty** | dirty p30 = **3.95 ppb** | 42.00 ppb | 54 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
 | [[metals/arsenic-total\|tAs]] | **dirty** | dirty p30 = **0.00 ppb** | 10.30 ppb | 54 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
 | [[metals/arsenic-inorganic\|iAs]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
@@ -89,7 +89,7 @@ Concise audit-trail summary of the within-pair (or standalone) clean/dirty desig
 
 | Analyte | Designation | Eligibility note |
 | --- | --- | --- |
-| Pb | dirty | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
+| Pb | dirty | At readiness bar (cycle 24). Path A n_a_tier=3 medium-confidence (FDA 2024 + Parker 2022 + Spungen 2024). |
 | Cd | dirty | Path A thin (n_a_tier=1); second fit sample-level source needed. |
 | tAs | dirty | Path A thin (n_a_tier=1); second fit sample-level source needed. |
 | iAs | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |

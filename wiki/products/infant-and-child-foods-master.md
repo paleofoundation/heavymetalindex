@@ -56,7 +56,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 | Soy-based RTF liquid infant formula ([[products/infant-formula-rtf-liquid-soy-based]]) | **clean** | clean p90 = **0.36 ppb** | 0.40 ppb | 3 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. Sample-size warning: n=3 below 10-sample defensibility floor. |
 | Fruit purees ([[products/fruit-purees]]) | **standalone** (provisional p90) | clean p90 = **2.37 ppb** | 8.00 ppb | 44 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
 | Non-root vegetable purees ([[products/non-root-vegetable-purees]]) | **clean** | clean p90 = **1.76 ppb** | 7.60 ppb | 29 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| Root-vegetable purees ([[products/root-vegetable-purees]]) | **dirty** | dirty p30 = **3.74 ppb** | 27.30 ppb | 59 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
+| Root-vegetable purees ([[products/root-vegetable-purees]]) | **dirty** | dirty p30 = **3.74 ppb** | 27.30 ppb | 59 | **3** | **medium** | **At readiness bar.** Path A n_a_tier=3: FDA 2024 sample-level n=59 (lower-bound deterministic, p30=3.74, p90=15.9, p100=27.3 ppb) + [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk|Parker 2022]] root-vegetable baby foods n=9 (mean 15.8, max 48 ppb; n=9 below 10-sample defensibility floor as triangulation) + [[sources/spungen2024-fda-tds-infant-lead-cadmium|Spungen 2024]] FDA TDS baby-food sweet-potato hybrid mean 21 ppb (named-food summary). Confidence=medium per Part 6 (3 studies). FDA 2024 is the primary admitted-pool source; Parker + Spungen provide concordant triangulation. **p30 = 3.74 ppb is 81% below FDA 20 ppb root-vegetable cap.** Cycle 24 upgrade. |
 | Meat and poultry purees ([[products/meat-and-poultry-purees]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 | Fish-containing baby foods ([[products/fish-containing-baby-foods]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 | Mixed meals (rice-containing) ([[products/mixed-meals-rice-containing]]) | **clean** | clean p90 = **3.92 ppb** | 11.60 ppb | 9 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
@@ -270,7 +270,7 @@ Each cell tagged by status: AT-BAR (Path A n_a_tier≥2 + medium confidence), AP
 | Soy-based RTF liquid infant formula | — | Pb, Cd | tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
 | Fruit purees | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Cr-VI | Al, Sn |
 | Non-root vegetable purees | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
-| Root-vegetable purees | — | Pb | Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
+| Root-vegetable purees | **Pb (dirty p30=3.74 ppb)** | — | Cd, tAs, tHg | iAs, MeHg, Ni, Al, Cr-VI, Sn |
 | Meat and poultry purees | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
 | Fish-containing baby foods | — | — | Pb, Cd, tAs, iAs, MeHg, Ni, Al, Cr-VI, Sn | tHg |
 | Mixed meals (rice-containing) | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
