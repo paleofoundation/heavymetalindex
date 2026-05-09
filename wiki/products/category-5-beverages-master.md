@@ -26,7 +26,7 @@ The readiness bar is the same as Cat 1 per CLAUDE.md Part 6 + Part 19: each cell
 | Vegetable juices, root-vegetable-containing | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
 | Plant milks, non-soy-non-rice | — | Pb, tHg, Ni | — | Cd, tAs, iAs, MeHg, Al, Cr-VI, Sn |
 | Plant milks, soy-based | — | Pb, Cd, tAs, Ni, Al, Sn | — | iAs, MeHg, tHg, Cr-VI |
-| Plant milks, rice-based | iAs | Pb, tHg | tAs | Cd, MeHg, Ni, Al, Cr-VI, Sn |
+| Plant milks, rice-based | — | iAs (summary-level p30≈12 ppb < EU 30 cap), Pb, tHg, tAs | Ni | Cd, MeHg, Al, Cr-VI, Sn |
 | Flavored waters | — | — | Sn (canned context) | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI |
 | Sports/energy drinks | — | — | — | All 10 |
 | Herbal/botanical infusions | — | — | — | All 10 |
@@ -39,8 +39,8 @@ The readiness bar is the same as Cat 1 per CLAUDE.md Part 6 + Part 19: each cell
 
 Counts (160 cells total):
 
-- **At readiness bar: 2 cells.** iAs in fruit-juices-apple-containing (FDA 2011 single-strength apple juice n=94 + FDA 2016 Juice-Grape n=61). iAs in plant-milks-rice-based (Da Mato 2026 EU n=20 + Gu 2020 Australia rice-milk-powder subset n=4 + Signes-Pastor 2016 ingredient cascade context).
-- **Approaching the bar: 12 cells.** Fruit-juice Pb across both subcategories (FDA 2018 longitudinal compliance + FDA 2022 draft action levels + Weldegebriel 2025 Ethiopia). Plant-milk-soy Pb/Cd/tAs/Ni/Al/Sn (Milani 2023 multi-element + Marques 2021). Plant-milk-non-soy-non-rice Pb/tHg/Ni (Marques 2021 ICP-MS).
+- **At readiness bar: 1 cell.** iAs in fruit-juices-apple-containing — Path A sample-level dirty p30 = 3.0 ppb (FDA 2011 single-strength apple juice n=94 + FDA 2016 Juice-Grape n=58 cross-juice context). Per-page CC block built at cycle 13 (commit b789bc1). (The cycle-12 master skeleton claimed 2 at-bar cells; cycle-14 review demoted plant-milks-rice-based iAs to approaching after confirming Da Mato 2026 publishes summary-only mean+median+range, not sample-level distribution; n_a_tier=2 with low confidence per Part 6's 3-studies-for-medium rule.)
+- **Approaching the bar: 15 cells.** iAs in plant-milks-rice-based (Da Mato 2026 summary p30≈12 ppb < EU 30 cap; awaits sample-level extraction or 3rd source for at-bar). tAs and tHg in plant-milks-rice-based (Da Mato 2026 + Marques 2021). Fruit-juice Pb across both subcategories (FDA 2018 longitudinal compliance + FDA 2022 draft action levels + Weldegebriel 2025 Ethiopia). Plant-milk-soy Pb/Cd/tAs/Ni/Al/Sn (Milani 2023 multi-element + Marques 2021). Plant-milk-non-soy-non-rice Pb/tHg/Ni (Marques 2021 ICP-MS).
 - **Path A thin (n_a_tier=1): 7 cells.** Mostly Cd/tAs/iAs/Ni in fruit juices and tAs in rice plant-milk; plus Sn in flavored-water and soft-drink-canned subcategories from canned-beverage Sn-leach evidence (Tarigan 2016 + Benoy 1971 + ATSDR 2005).
 - **Data gap: 139 cells.** Dominant gap drivers: (a) **Tea, matcha, coffee, kombucha, sports/energy drinks, soft drinks, fermented beverages, herbal infusions** — 8 subcategories × 10 analytes = 80 cells with no direct in-corpus evidence in `wiki/sources/`. (b) **Vegetable juices** (both splits) — 20 cells with no direct evidence. (c) **MeHg and Cr-VI** systematically gap across all 16 subcategories (Cr-VI by chemistry-mechanism inference from Hernandez 2019 + Saraiva 2021 carries forward to milk-like beverages but has not been extended to acidic/aqueous beverage matrices in the corpus).
 
@@ -99,7 +99,7 @@ The per-cell percentile values, n, n_a_tier, confidence, and CC eligibility for 
 | --- | --- | --- | --- | --- |
 | Fruit juices, non-apple | Path A thin | FDA 2016 Juice-Grape (n=61) — non-apple juice subset | 1 | One A-tier sample-level source; second needed. |
 | Fruit juices, apple-containing | **At bar** | FDA 2011 single-strength apple juice (n=94) + FDA 2016 (grape-and-grape-containing subset for cross-juice context) + FDA CTZ 10 ppb cap | 2 | **At bar (cycle 13).** Per Part 19 dirty designation: dirty p30 = 3.0 ppb (FDA 2011 lower-bound deterministic; TR values treated as 0). Sample-level CSV at `data/evidence/category5_apple_juice_arsenic_speciation_*.csv`. p100 = 9.8 ppb. p30 is 70% below FDA CTZ 10 ppb cap. Per-page CC block rebuilt at [[products/fruit-juices-apple-containing]]. |
-| Plant milks, rice-based | **At bar** | Da Mato 2026 (n=20 EU rice-based drinks) + Gu 2020 (rice-milk-powder subset) + Signes-Pastor 2016 (ingredient cascade) + EU 2023 30 ppb cap | 3 | Sample-level distribution achievable; EU 2023 cap = 30 ppb iAs in rice drinks. p90 candidate from Da Mato 2026. |
+| Plant milks, rice-based | Approaching | Da Mato 2026 (n=25 EU rice-based drinks; summary-level mean=15, median=15, range 7-24 ppb) + Gu 2020 (rice-milk-powder n=3 triangulation, below 10-sample floor) + EU 2023 30 ppb cap | 2 | Path A summary-level (no per-sample distribution from Da Mato 2026 published). Estimated dirty p30 ≈ 12 ppb (range-based); p100 = 24 ppb. Cell is **approaching**, not at-bar — confidence is low (2 studies; Part 6 medium = 3+). Closing requires either sample-level extraction from Da Mato 2026 supplementary tables or a 3rd direct rice-plant-milk iAs source. |
 | All other subcategories | data gap | — | 0 | iAs in non-rice plant-milks, vegetable juices, tea/coffee/soft-drinks/etc. not in corpus. |
 
 ### MeHg (methylmercury)
@@ -205,7 +205,7 @@ Cowork's `hmtc-standards` skill builds the Standards Briefing as a .docx. The 2 
 | Subcategory | Analyte | Standard target candidate | n | n_a_tier | Regulatory cap |
 | --- | --- | --- | --- | --- | --- |
 | Fruit juices, apple-containing | **iAs (dirty)** | **dirty p30 = 3.0 ppb** (FDA 2011 lower-bound; TR=0) | 94 | 2 | 10 ppb (FDA CTZ apple juice); 20 ppb (EU 2023/915) |
-| Plant milks, rice-based | iAs (dirty) | p30 candidate from Da Mato 2026 distribution | 20 | 3 | 30 ppb (EU 2023/915 rice drinks) |
+| Plant milks, rice-based | iAs (dirty) | summary-level dirty p30 estimate ≈ 12 ppb (range-based; Da Mato 2026 mean=15, median=15, range 7-24); approaching the bar | 25 | 2 (summary-level) | 30 ppb (EU 2023/915 rice drinks) |
 
 The 12 approaching cells (Pb/Cd/tAs/Al/Sn in plant-milks-soy + Pb across fruit juices + Ni/tHg in plant-milks-non-soy-non-rice) are the next readiness targets — most need a second fit sample-level source to clear the bar.
 

@@ -605,3 +605,41 @@ Notes: Built first Cat 5 per-page CC candidate block under CLAUDE.md Part 19 fra
   Master summary at [[products/category-5-beverages-master]] updated: readiness roll-up cell for fruit-juices-apple-containing iAs labeled "iAs (publishable: dirty p30=3.0 ppb)"; per-analyte iAs table updated to "dirty p30 = 3.0 ppb"; coordination payload updated to reflect dirty designation (was incorrectly labeled clean in skeleton).
 
   This is the FIRST publishable HMTc Cat 5 standard. The next per-page CC builds (cycle 14+) will tackle plant-milks-rice-based (the 2nd at-bar cell — Da Mato 2026 + Gu 2020 + EU 2023 30 ppb cap), then plant-milks-soy-based (6 approaching cells via Milani 2023). Cycle 13 of overnight loop.
+
+## [2026-05-09] resynthesis | plant-milks-rice-based-cc-block — Cat 5 row 7 CC block built; iAs cell demoted from at-bar to approaching after summary-only review
+Pages affected: [[products/plant-milks-rice-based]] (CC block rebuilt under Part 19); [[products/category-5-beverages-master]] (cell demoted at-bar→approaching, count corrected from 2 to 1 at-bar).
+Notes: Built second Cat 5 per-page CC candidate block under CLAUDE.md Part 19. Subcategory: plant-milks-rice-based (locked Cat 5 row 7; contamination_platform variant with platform_metals iAs/Cd/Pb).
+
+  Critical correction made: cycle-12 master skeleton over-claimed iAs at-bar status (n_a_tier=3, 20 samples). On detailed source review:
+   - Da Mato 2026: n=25 (not 20) Italian rice-based beverages, summary-level statistics only — mean=15, median=15, range=7-24 ppb iAs; mean tAs=23, median=22, range=9-58. 100% quantifiable, no left-censoring. Per-sample distribution NOT published in main paper text (supplementary tables not yet inspected).
+   - Gu 2020: rice-milk-powder subset n=3 within n=39 Australian rice-based infant food survey; below 10-sample defensibility floor; triangulation only.
+   - Marques 2021: did NOT measure iAs in plant-drinks panel (Hg/Pb/U/V/Ni only). Does not contribute to iAs cell.
+   - Signes-Pastor 2016: rice-products iAs but not direct rice-plant-milk; ingredient-cascade context only.
+
+  Per CLAUDE.md Part 6 + Part 19: iAs cell is Path A summary-level n_a_tier=2 (Da Mato direct + Gu triangulation), confidence=low (2 studies; medium = 3+). Demoted from at-bar to APPROACHING the bar.
+
+  Path A summary-level estimates for the iAs cell:
+   - Range-based p30 estimator: 7 + 0.30·(24-7) = 12.1 ppb
+   - Median-based normal-approximation: ~12.8 ppb
+   - p100 = 24 ppb (Da Mato 2026 max)
+   - max=24 ppb is 20% below EU 30 ppb cap (substantial regulatory headroom even at p100)
+   - Estimated dirty p30 ≈ 12 ppb is 60% below EU cap
+
+  Closing the iAs cell to at-bar requires either (a) sample-level extraction from Da Mato 2026 supplementary tables (the paper publishes 25 named samples; Foods journal supplementary materials may contain per-sample values), or (b) a 3rd direct rice-plant-milk iAs source (e.g., U.S. or U.K. market survey).
+
+  Other 9 analytes characterized in the rebuilt block:
+   - Pb: dirty Path A thin from Marques 2021 (3 of 42 plant-drink samples Pb-detected; rice-drink subset count requires source-table review);
+   - Cd: data gap (closing requires direct measurement; rice-cereal Cd ingredient-cascade context exists);
+   - tAs: dirty Path A summary-level n_a_tier=2 (Da Mato 2026 mean 23, range 9-58 + Gu 2020 n=3 triangulation); supplemental to iAs;
+   - MeHg: data gap with Brombach 2017 European-rice-ingredient cascade context (rice ingredient mean MeHg 1.91 ppb, range 0.11-6.45 ppb);
+   - tHg: dirty Path A thin (Marques 2021 not-detected);
+   - Ni: dirty Path A thin (Marques 2021);
+   - Al: data gap (Da Mato 2026 did not measure Al; de Paiva 2020 rice-flour cereal cascade context);
+   - Cr-VI: data gap with chemistry-mechanism inference (Hernandez 2019 + Saraiva 2021 — rice plant-milk is milk-like neutral-pH protein-containing matrix that inherits Cr(VI)<LOD inference more strongly than acidic juice matrices);
+   - Sn: data gap (modern rice plant-milk is aseptic-pack; canned-Sn-leach context not applicable).
+
+  Frontmatter updated: evidence_fitness blank→EF-3; public_evidence_label added "Approaching the bar (iAs summary-level)"; review_state added phase3_part19; hmtc_threshold_status added approaching_iAs_dirty_p30_summary_level; sources 2→4; updated 2026-05-01→2026-05-09.
+
+  Cat 5 master corrected: at-bar count 2→1 (only fruit-juices-apple-containing iAs remains at-bar); approaching count 12→15 (iAs/tAs/tHg in rice plant-milk added). Master entry for the rice plant-milk iAs cell updated from at-bar to approaching with full caveats.
+
+  No stop conditions triggered. The over-claim was caught via standard Part 6 + Part 19 evidence-tier audit, not an A-tier-vs-A-tier contradiction. Cycle 14 of overnight loop. Next cycle: plant-milks-soy-based (6 approaching cells via Milani 2023) — most-evidence-rich approaching subcategory in Cat 5.

@@ -12,9 +12,13 @@ ingredient_targets: [plant-milk, rice]
 primary_metals_of_concern: [iAs, Cd, Pb]
 vulnerable_population: general_population
 applicable_regulations: [eu2023_ias_rice_drinks_30]
+evidence_fitness: EF-3
+public_evidence_label: Approaching the bar (iAs summary-level)
+review_state: phase3_part19
+hmtc_threshold_status: approaching_iAs_dirty_p30_summary_level
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
-sources: 2
+updated: 2026-05-09
+sources: 4
 ---
 
 # Plant Milks, Rice-Based
@@ -57,26 +61,47 @@ The same source reports consumer-only dietary exposure estimates that are import
 The iAs measurements are finished rice-based beverages. They should not be copied into [[ingredients/rice]] as ingredient-only values. The rice ingredient node can link to this source as related finished-product evidence.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## HMTc Evidence Summary (Part 19 clean/dirty)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This block reports the candidate certification (CC) status for each of the 10 HMT&C analytes under CLAUDE.md Part 19 (clean p90 / dirty p30, both alongside p100). Per the locked Step 0 architecture, plant-milks-rice-based is a **contamination_platform** subcategory (paired against plant-milks-non-soy-non-rice as the clean benchmark). Per Part 19, clean/dirty designations are **per-analyte empirical**, not fixed labels on the subcategory: an analyte is "dirty" when measured field values cluster above the parent-category clean benchmark (here, plant-milks-non-soy-non-rice) for that analyte. iAs, Cd, and Pb are the primary contamination concerns per the locked frontmatter and platform_metals; for iAs the dirty designation is empirically supported by Da Mato 2026 (mean iAs 15 ppb in rice plant-milk vs ~1-2 ppb expected in non-rice plant-milk — Marques 2021 did not measure iAs but the rice-vs-non-rice ingredient cascade is clear).
 
-This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap. Da Mato 2026 (n=25 Italian rice-based beverages, summary-level mean+median+range) is the primary admitted-pool source for iAs; Gu 2020 rice-milk-powder subset (n=3) provides triangulation context.
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+| Metal | Clean/dirty | Standards target | p100 | n | n_a_tier | Confidence | CC eligibility | Regulatory cap |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | dirty | summary range from Marques 2021 | TBD (Marques 2021 reports 3 of 42 plant-drink samples Pb-detected; rice-drink subset count not enumerated) | small | 1 | low | Path A thin (summary-level). Marques 2021 detected Pb in 3 plant-drink samples including non-organic oat drink; rice-drink-specific Pb count requires source-table review. Closing requires sample-level Pb extraction or a 2nd direct rice-plant-milk Pb source. | No loaded cap; EU 2023/915 contemplates Pb in plant-based drinks. |
+| [[metals/cadmium]] (Cd) | dirty | data gap | — | 0 | 0 | data gap | Closing requires direct Cd measurement in rice plant-milk. Rice ingredient-cascade Cd context exists (rice-cereal data; FDA 2024 baby food Cd p90 22 ppb in rice cereal) but rice-plant-milk Cd-specific is gap. | No loaded cap |
+| [[metals/arsenic-total]] (tAs) | dirty | dirty p30 estimate ≈ 18 ppb (Da Mato 2026 mean=23, median=22, range 9-58); supplemental to iAs | 58 ppb | 25 | 2 | low | Path A summary-level. Da Mato 2026 reports tAs as supporting context for the iAs measurement; Gu 2020 rice-milk-powder n=3 triangulation confirms rice-plant-milk tAs profile. | No loaded cap. |
+| [[metals/arsenic-inorganic]] (iAs) | **dirty** | **dirty p30 estimate ≈ 12 ppb** (Da Mato 2026 mean=15, median=15, range 7-24; range-based estimator p30 ≈ 7 + 0.30·(24-7) = 12.1; median-based normal-approximation gives p30 ≈ 12.8) | **24 ppb** | 25 | 2 | low | **Approaching the bar.** Path A summary-level (Da Mato 2026 publishes mean+median+range; no per-sample distribution). n_a_tier=2 = Da Mato 2026 (n=25 direct) + Gu 2020 (n=3 rice-milk-powder triangulation, below 10-sample defensibility floor). Confidence=low (2 studies; Part 6 threshold for medium is 3+ studies). max=24 ppb is **20% below EU 30 ppb cap** (substantial regulatory headroom). Closing to at-bar requires either (a) sample-level extraction from Da Mato 2026 supplementary tables, or (b) a 3rd direct rice-plant-milk iAs source (e.g., a U.S. or U.K. market survey). | **30 ppb** (EU 2023/915 non-alcoholic rice-based drinks) |
+| [[metals/methylmercury]] (MeHg) | data gap (cascade from Brombach 2017 rice ingredient) | — | — | 0 | 0 | data gap | Brombach 2017 covers European rice ingredient MeHg (mean MeHg 1.91 ppb, range 0.11-6.45 ppb in n=87 rice samples); ingredient-cascade context for rice plant-milk but no direct rice-plant-milk MeHg measurement. Closing requires direct rice-drink MeHg speciation. |
+| [[metals/mercury-total]] (tHg) | dirty | summary not-detected from Marques 2021 | — | small | 1 | low | Marques 2021 reports Hg not detected in plant-drink samples including rice drink. Brombach 2017 rice-ingredient tHg cascade context. Path A thin. |
+| [[metals/nickel]] (Ni) | dirty | summary range from Marques 2021 | TBD | small | 1 | low | Marques 2021 includes Ni in essential/trace element panel; rice-drink subset count requires source-table review. |
+| [[metals/aluminum]] (Al) | data gap | — | — | 0 | 0 | data gap | Closing requires direct Al measurement in rice plant-milk. de Paiva 2020 rice-flour subset n=3 cereal Al cascade context (group-mean 0.92-8.82 mg/kg in rice-flour-based infant cereal) suggests rice-plant-milk Al should be measurable; Da Mato 2026 did not measure Al. |
+| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | <LOD by inference for the milk-like fraction; direct measurement absent | — | 0 (corpus); 1 (inference cascade from Hernandez 2019 + Saraiva 2021) | 1 | low | Per CLAUDE.md Part 14 + Hernandez 2019 + Saraiva 2021 chemistry, food-matrix Cr is essentially Cr(III); rice-plant-milk is a milk-like (neutral-pH, protein-containing) matrix that inherits the Cr(VI)<LOD inference more strongly than acidic matrices. Direct rice-plant-milk Cr speciation absent from corpus. |
+| [[metals/tin]] (Sn) | data gap | — | — | 0 | 0 | data gap | Modern rice plant-milk is aseptic-pack or shelf-stable carton; Sn-leach context applies only to canned subset (negligible market share). |
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Blocked: documented sources are context-only for this row. | No loaded cap |
-| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
-| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=25 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| [[metals/arsenic-inorganic]] (iAs) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=25 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | 30 ug/kg (eu2023_ias_rice_drinks_30) |
+**iAs cell readiness summary**: Approaching the bar at Path A summary-level. The estimated p30 ≈ 12 ppb is 60% below the EU 30 ppb cap; even the p100 max of 24 ppb is 20% below cap. Cell will move to at-bar after either sample-level extraction from Da Mato 2026 (publishes 25 named samples; supplementary tables may contain per-sample values) or addition of a 3rd direct rice-plant-milk iAs source.
 
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources
 
-- [[sources/damato2026-inorganic-arsenic-rice-based-beverages]]
-- [[sources/marques2021-trace-elements-milks-plant-based-drinks]]
+- [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] — n=25 Italian rice-based beverages; iAs/tAs summary-level (mean+median+range). Primary source for the approaching iAs cell.
+- [[sources/gu2020-arsenic-rice-infant-food-australia]] — Rice-milk-powder subset n=3 triangulation (below 10-sample defensibility floor). Supports n_a_tier=2 with caveat.
+- [[sources/marques2021-trace-elements-milks-plant-based-drinks]] — Spanish ICP-MS plant-drink survey including rice drinks; Pb/Hg/Ni/U/V (no iAs measurement). Supports Pb/Hg/Ni cells.
+- [[sources/brombach2017-methylmercury-european-commercial-rice]] — European rice ingredient MeHg/tHg cascade context for rice plant-milk subcategory.
+
+## CC candidate evidence map
+
+| Analyte | Distribution sources (sample-level) | Summary sources | Total source count |
+| --- | --- | --- | --- |
+| Pb | — | Marques 2021 (n=42 plant-drinks; rice-drink subset count pending) | 1 summary |
+| Cd | — | — | 0 |
+| tAs | — | Da Mato 2026 (n=25 summary), Gu 2020 (n=3 triangulation) | 2 summary |
+| **iAs** | — | **Da Mato 2026 (n=25 summary)**, Gu 2020 (n=3 triangulation) | **2 summary + EU cap** |
+| MeHg | — | Brombach 2017 ingredient cascade | 1 cascade |
+| tHg | — | Marques 2021 (not-detected) | 1 summary |
+| Ni | — | Marques 2021 | 1 summary |
+| Al, Cr-VI, Sn | — | — | 0 |
