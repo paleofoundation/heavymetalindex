@@ -669,3 +669,25 @@ Notes: Built third Cat 5 per-page CC candidate block under CLAUDE.md Part 19. Su
   Cat 5 master corrected: cycle-12 skeleton listed 6 approaching cells (Pb, Cd, tAs, Ni, Al, Sn) for soy-based plant-milk; cycle-15 review reclassified to 3 approaching (Pb, Ni — both n_a_tier=2 with caveats; tHg via Marques) + 1 Path A thin (Al, the dominant finding) + 3 Path B candidates (Cd, tAs, Sn — Milani's high ICP-OES LOQs constrain) + 3 data gap (iAs, MeHg, Cr-VI). Per-analyte master tables updated for Pb/Cd/tAs/Ni/Al/Sn cells with realistic Milani 2023 group-mean structure.
 
   No stop conditions triggered. The skeleton over-claim was a routine cycle-12 placeholder, not a contradiction. Cycle 15 of overnight loop. Next cycle: plant-milks-non-soy-non-rice (3 approaching cells via Marques 2021).
+
+## [2026-05-09] resynthesis | plant-milks-non-soy-non-rice-cc-block — Cat 5 row 5 CC block built; clean-benchmark single-source Path A thin
+Pages affected: [[products/plant-milks-non-soy-non-rice]] (CC block rebuilt under Part 19); [[products/category-5-beverages-master]] (cells demoted approaching→Path A thin given single-source + composite extraction caveats).
+Notes: Built fourth Cat 5 per-page CC candidate block. Subcategory: plant-milks-non-soy-non-rice (locked Cat 5 row 5; clean_benchmark variant — paired against soy/rice contamination platforms; almond/oat/coconut/other).
+
+  Sole admitted-pool source: Marques 2021 (Spanish ICP-MS plant-drink survey; composite samples). Subcategory subset (almond + oat composites) is small (~3-6) and below 10-sample defensibility floor. Marques source page itself flags the plant-drink table extraction as "marker output noisy; numeric Pb table cells need source-table review before threshold use" — so all cells carry an extraction-quality caveat. Marques did NOT measure Cd, Al, iAs, tAs, or Sn in the plant-drink panel.
+
+  Per-analyte cell determinations:
+   - **Pb: clean Path A thin (n_a_tier=1).** Marques 2021 Pb detected in 1 non-organic oat drink composite among the almond+oat subset; numeric value pending source-table review. Single-source clean-benchmark cell.
+   - **tHg: clean Path A thin (n_a_tier=1).** Marques 2021 reports Hg not detected across all milks and plant-drinks. Cleanest Hg evidence in Cat 5 plant milks.
+   - **Ni: clean Path A thin (n_a_tier=1).** Marques 2021 measured Ni; subset values pending extraction.
+   - **Cr-VI: data gap with chemistry-mechanism inference (n_a_tier=1 cascade).** Almond/oat/coconut milks are milk-like neutral-pH protein-or-fat-containing matrices that inherit Hernandez 2019 + Saraiva 2021 Cr(VI)<LOD inference more strongly than acidic juice matrices.
+   - **Cd, tAs, iAs, MeHg, Al, Sn: data gap.** Marques didn't measure 5 of these; MeHg unexpected by mechanism (no methylation pathway in nut/oat matrix).
+   - U (non-HMTc): clean not-detected baseline from Marques 2021.
+
+  Frontmatter updated: evidence_fitness blank→EF-3; public_evidence_label "Path A thin (Pb, tHg, Ni single-source)"; review_state phase3_part19; hmtc_threshold_status thin_clean_benchmark_single_source; updated 2026-05-01→2026-05-09.
+
+  Cat 5 master corrected: cycle-12 skeleton listed 3 approaching cells (Pb/tHg/Ni) for non-soy/non-rice plant-milk; cycle-16 review reclassified to 3 Path A thin (single-source single-study with composite extraction caveats — Path A thin per Part 6, not approaching). Per-analyte master tables updated.
+
+  Closing 8 of 10 analyte cells (the data gaps) requires multi-element direct surveys of almond/oat/coconut beverages — clean-benchmark target paper for the contamination-platform comparison. This is the row that most needs additional corpus growth in Cat 5.
+
+  No stop conditions triggered. Cycle 16 of overnight loop. Next cycle: fruit-juices-non-apple (1 approaching Pb + 4 thin: Cd/tAs/iAs/Ni via FDA 2018 + FDA 2022 + Weldegebriel 2025 + FDA 2016 grape subset).

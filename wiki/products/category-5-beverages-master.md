@@ -24,7 +24,7 @@ The readiness bar is the same as Cat 1 per CLAUDE.md Part 6 + Part 19: each cell
 | Fruit juices, apple-containing | **iAs (publishable: dirty p30=3.0 ppb)** | Pb | Cd, tAs, Ni | MeHg, tHg, Al, Cr-VI, Sn |
 | Vegetable juices, non-root | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
 | Vegetable juices, root-vegetable-containing | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
-| Plant milks, non-soy-non-rice | — | Pb, tHg, Ni | — | Cd, tAs, iAs, MeHg, Al, Cr-VI, Sn |
+| Plant milks, non-soy-non-rice | — | — | Pb, tHg, Ni | Cd, tAs, iAs, MeHg, Al, Cr-VI, Sn |
 | Plant milks, soy-based | — | Pb, Ni, Al | tHg | Cd, tAs (Path B), iAs, MeHg, Cr-VI, Sn (Path B) |
 | Plant milks, rice-based | — | iAs (summary-level p30≈12 ppb < EU 30 cap), Pb, tHg, tAs | Ni | Cd, MeHg, Al, Cr-VI, Sn |
 | Flavored waters | — | — | Sn (canned context) | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI |
@@ -58,7 +58,7 @@ The per-cell percentile values, n, n_a_tier, confidence, and CC eligibility for 
 | Fruit juices, apple-containing | Approaching | FDA 2018 + FDA 2022 draft (10 ppb apple juice cap) + Weldegebriel 2025 | 3 | Apple subset has a stricter 10-ppb draft cap; sample-level distribution feasible. |
 | Vegetable juices, non-root | data gap | — | 0 | Veg-juice-specific Pb data not in corpus. Closing requires a vegetable-juice multi-element survey. |
 | Vegetable juices, root-vegetable-containing | data gap | — | 0 | Same gap; root-veg-containing subset would inherit ingredient-cascade Pb context from root-vegetable analyses. |
-| Plant milks, non-soy-non-rice | Approaching | Marques 2021 Pb sample-level (n=42 plant-based drinks subset) | 2 | Marques 2021 covers cow/goat milk + soy/almond/rice/oat plant-based drinks. Almond/oat/coconut subset is partial. |
+| Plant milks, non-soy-non-rice | Path A thin | Marques 2021 (Pb detected in 1 non-organic oat drink composite among small subset; numeric value pending source-table review per extraction-quality caveat) | 1 | Single-source clean-benchmark cell with composite-sample design. Closing requires sample-level Pb extraction from 2nd source. |
 | Plant milks, soy-based | Approaching | Milani 2023 (Pb mean 2.2 ppb in soybean group, <10.9 ppb LOQ in isolate-protein and hydrosoluble groups; soybean max 13 ppb) + Marques 2021 | 2 | Path A summary-level. Closing requires sample-level Pb from lower-LOD method. |
 | Plant milks, rice-based | Approaching | Marques 2021 + Da Mato 2026 (Pb co-measured) | 2 | Sample-level distribution feasible from Marques 2021 subset + Da Mato 2026 co-measured Pb. |
 | Flavored waters | data gap | — | 0 | Sn context from canned-beverage corpus does not extend to Pb in this subcategory. |
@@ -110,7 +110,7 @@ All 16 subcategories: **data gap**. MeHg is rarely measured in beverage matrices
 
 | Subcategory | Cell state | Best evidence | n_a_tier | Notes |
 | --- | --- | --- | --- | --- |
-| Plant milks, non-soy-non-rice | Approaching | Marques 2021 ICP-MS tHg (n=42 plant-based drinks) | 2 | A-tier sample-level. |
+| Plant milks, non-soy-non-rice | Path A thin | Marques 2021 reports tHg not detected across all milks and plant-based drinks (clean baseline) | 1 | Path A thin clean baseline; cleanest Hg evidence in Cat 5 plant milks. |
 | Plant milks, rice-based | Approaching | Marques 2021 + Brombach 2017 ingredient cascade | 2 | Marques 2021 measured tHg directly; Brombach 2017 provides rice-ingredient tHg context. |
 | All other subcategories | data gap | — | 0 | tHg in fruit juices, soft drinks, tea, coffee not in corpus. |
 
@@ -119,7 +119,7 @@ All 16 subcategories: **data gap**. MeHg is rarely measured in beverage matrices
 | Subcategory | Cell state | Best evidence | n_a_tier | Notes |
 | --- | --- | --- | --- | --- |
 | Fruit juices, non-apple + apple-containing | Path A thin | Weldegebriel 2025 Ethiopia n=80 Ni | 1 | One A-tier source; second needed. |
-| Plant milks, non-soy-non-rice | Approaching | Marques 2021 Ni (n=42) | 2 | A-tier sample-level. |
+| Plant milks, non-soy-non-rice | Path A thin | Marques 2021 Ni measured in plant-drinks panel; almond+oat composite subset values pending source-table review | 1 | Path A thin single-source. |
 | Plant milks, soy-based | Approaching | Milani 2023 (group means; soybean group mean 29 ppb, max 46 ppb; isolate/hydrosoluble groups <25.7 ppb LOQ) + Marques 2021 | 2 | Path A summary-level approaching. Closing requires sample-level extraction or 3rd source. |
 | All other subcategories | data gap | — | 0 | — |
 
