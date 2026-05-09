@@ -25,7 +25,7 @@ The readiness bar is the same as Cat 1 per CLAUDE.md Part 6 + Part 19: each cell
 | Vegetable juices, non-root | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
 | Vegetable juices, root-vegetable-containing | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
 | Plant milks, non-soy-non-rice | — | Pb, tHg, Ni | — | Cd, tAs, iAs, MeHg, Al, Cr-VI, Sn |
-| Plant milks, soy-based | — | Pb, Cd, tAs, Ni, Al, Sn | — | iAs, MeHg, tHg, Cr-VI |
+| Plant milks, soy-based | — | Pb, Ni, Al | tHg | Cd, tAs (Path B), iAs, MeHg, Cr-VI, Sn (Path B) |
 | Plant milks, rice-based | — | iAs (summary-level p30≈12 ppb < EU 30 cap), Pb, tHg, tAs | Ni | Cd, MeHg, Al, Cr-VI, Sn |
 | Flavored waters | — | — | Sn (canned context) | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI |
 | Sports/energy drinks | — | — | — | All 10 |
@@ -59,7 +59,7 @@ The per-cell percentile values, n, n_a_tier, confidence, and CC eligibility for 
 | Vegetable juices, non-root | data gap | — | 0 | Veg-juice-specific Pb data not in corpus. Closing requires a vegetable-juice multi-element survey. |
 | Vegetable juices, root-vegetable-containing | data gap | — | 0 | Same gap; root-veg-containing subset would inherit ingredient-cascade Pb context from root-vegetable analyses. |
 | Plant milks, non-soy-non-rice | Approaching | Marques 2021 Pb sample-level (n=42 plant-based drinks subset) | 2 | Marques 2021 covers cow/goat milk + soy/almond/rice/oat plant-based drinks. Almond/oat/coconut subset is partial. |
-| Plant milks, soy-based | Approaching | Milani 2023 Pb sample-level n=18 soy beverages (Brazil) + Marques 2021 | 2 | Two A-tier sample-level sources. |
+| Plant milks, soy-based | Approaching | Milani 2023 (Pb mean 2.2 ppb in soybean group, <10.9 ppb LOQ in isolate-protein and hydrosoluble groups; soybean max 13 ppb) + Marques 2021 | 2 | Path A summary-level. Closing requires sample-level Pb from lower-LOD method. |
 | Plant milks, rice-based | Approaching | Marques 2021 + Da Mato 2026 (Pb co-measured) | 2 | Sample-level distribution feasible from Marques 2021 subset + Da Mato 2026 co-measured Pb. |
 | Flavored waters | data gap | — | 0 | Sn context from canned-beverage corpus does not extend to Pb in this subcategory. |
 | Sports/energy drinks | data gap | — | 0 | No sports/energy drink Pb data in corpus. |
@@ -79,7 +79,7 @@ The per-cell percentile values, n, n_a_tier, confidence, and CC eligibility for 
 | Fruit juices, apple-containing | Path A thin | FDA 2022 TDS apple-juice subset + Weldegebriel 2025 | 1 | One A-tier sample-level source plus FDA TDS coverage; second source needed. |
 | Vegetable juices, non-root + root | data gap | — | 0 | Root-veg Cd ingredient cascade exists at HMTc Cat 1 (root-veg purees) but not yet extended to root-veg juice subcategory. |
 | Plant milks, non-soy-non-rice | data gap | — | 0 | Marques 2021 did not measure Cd. |
-| Plant milks, soy-based | Approaching | Milani 2023 sample-level n=18 | 2 | Soy ingredient cascade Cd context (legume Cd-uptake characteristics) reinforces. |
+| Plant milks, soy-based | Path B candidate | Milani 2023 reports all 18 samples <LOQ (3.8 ppb ICP-OES); Path B 5×LOQ = 19 ppb upper bound | 1 (Path B) | Closing requires sample-level Cd from a lower-LOD method (ICP-MS sub-ppb LOQ). |
 | Plant milks, rice-based | data gap | — | 0 | Da Mato 2026 measured iAs only; corpus lacks rice-plant-milk Cd sample-level. |
 | Flavored waters, sports/energy, herbal infusions, tea, matcha, coffee, soft drinks, fermented, kombucha | data gap | — | 0 | All 9 subcategories lack direct Cd evidence in corpus. |
 
@@ -89,7 +89,7 @@ The per-cell percentile values, n, n_a_tier, confidence, and CC eligibility for 
 | --- | --- | --- | --- | --- |
 | Fruit juices, non-apple | Path A thin | Da Mato 2026 (covers tAs alongside iAs) + FDA 2022 TDS | 1 | tAs co-measured. |
 | Fruit juices, apple-containing | Path A thin | FDA 2011 apple juice tAs co-measurement + FDA 2016 Juice-Grape | 2 | Strong As corpus for apple-containing juice. |
-| Plant milks, soy-based | Approaching | Milani 2023 tAs sample-level n=18 | 2 | A-tier sample-level. |
+| Plant milks, soy-based | Path B candidate | Milani 2023 reports all 18 samples <LOQ (38.2 ppb ICP-OES — high vs ICP-MS); Path B 5×LOQ = 191 ppb | 1 (Path B) | Closing requires lower-LOD method. |
 | Plant milks, rice-based | Path A thin | Da Mato 2026 + Gu 2020 rice-milk-powder | 2 | tAs co-measured with iAs across two A-tier sources. |
 | All other subcategories | data gap | — | 0 | — |
 
@@ -120,14 +120,14 @@ All 16 subcategories: **data gap**. MeHg is rarely measured in beverage matrices
 | --- | --- | --- | --- | --- |
 | Fruit juices, non-apple + apple-containing | Path A thin | Weldegebriel 2025 Ethiopia n=80 Ni | 1 | One A-tier source; second needed. |
 | Plant milks, non-soy-non-rice | Approaching | Marques 2021 Ni (n=42) | 2 | A-tier sample-level. |
-| Plant milks, soy-based | Approaching | Milani 2023 Ni (n=18) + Marques 2021 | 2 | Two A-tier sources. |
+| Plant milks, soy-based | Approaching | Milani 2023 (group means; soybean group mean 29 ppb, max 46 ppb; isolate/hydrosoluble groups <25.7 ppb LOQ) + Marques 2021 | 2 | Path A summary-level approaching. Closing requires sample-level extraction or 3rd source. |
 | All other subcategories | data gap | — | 0 | — |
 
 ### Al (aluminum)
 
 | Subcategory | Cell state | Best evidence | n_a_tier | Notes |
 | --- | --- | --- | --- | --- |
-| Plant milks, soy-based | Approaching | Milani 2023 Al sample-level n=18 (key Al source — Al found in 100% of soy beverages tested at 0.46-2.40 mg/L) | 2 | Closing to at-bar requires a second A-tier sample-level source. Soy ingredient is a known Al accumulator. |
+| Plant milks, soy-based | Path A thin | Milani 2023 group means by soy-source: isolate-protein 758 ppb, hydrosoluble-extract 609 ppb, soybean 176 ppb; range 45-1822 ppb across all groups | 1 | **Path A thin (n_a_tier=1, single source).** Group-mean structure shows clear soy-source dependence: isolate-protein and hydrosoluble extract beverages have higher Al than whole-soybean beverages, consistent with the processing step concentrating Al. Closing to approaching requires a 2nd direct soy-beverage Al source. |
 | All other subcategories | data gap | — | 0 | True tea is a known Al accumulator (~hundreds of mg/kg in dry leaf, 1-10 mg/L in steeped tea per literature) but tea-Al data is not yet in corpus — wishlist item with high regulatory pull. |
 
 ### Cr-VI (hexavalent chromium)
@@ -139,7 +139,7 @@ All 16 subcategories: **data gap by direct measurement**. Per CLAUDE.md Part 14 
 | Subcategory | Cell state | Best evidence | n_a_tier | Notes |
 | --- | --- | --- | --- | --- |
 | Fruit juices (canned subset) | Path A thin | Benoy 1971 (canned fruit juice Sn toxicity 1971) + ATSDR 2005 Sn toxprofile + Tarigan 2016 (factors-tin-released-canned-beverages) | 1 | Historical canned-juice Sn corpus relevant to canned-juice subset only. Modern aluminum/aseptic packaging has largely supplanted Sn-lined cans for juice. |
-| Plant milks, soy-based | Approaching | Milani 2023 Sn sample-level n=18 | 2 | A-tier sample-level. |
+| Plant milks, soy-based | Path B candidate | Milani 2023 isolate-protein group mean 4.3 ppb (LOD-zero substitution), max 26 ppb; other 2 groups <18 ppb LOQ; Path B 5×LOQ = 90 ppb | 1 (Path B) | Modern soy plant-milk is aseptic-pack; canned-Sn-leach context not applicable. |
 | Soft drinks (canned) + Flavored waters (canned) | Path A thin | Tarigan 2016 + Benoy 1971 cascade | 1 | Same canned-beverage Sn-leach context. |
 | All other subcategories | data gap | — | 0 | — |
 

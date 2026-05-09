@@ -643,3 +643,29 @@ Notes: Built second Cat 5 per-page CC candidate block under CLAUDE.md Part 19. S
   Cat 5 master corrected: at-bar count 2→1 (only fruit-juices-apple-containing iAs remains at-bar); approaching count 12→15 (iAs/tAs/tHg in rice plant-milk added). Master entry for the rice plant-milk iAs cell updated from at-bar to approaching with full caveats.
 
   No stop conditions triggered. The over-claim was caught via standard Part 6 + Part 19 evidence-tier audit, not an A-tier-vs-A-tier contradiction. Cycle 14 of overnight loop. Next cycle: plant-milks-soy-based (6 approaching cells via Milani 2023) — most-evidence-rich approaching subcategory in Cat 5.
+
+## [2026-05-09] resynthesis | plant-milks-soy-based-cc-block — Cat 5 row 6 CC block built; Al p100=1822 ppb is dominant finding
+Pages affected: [[products/plant-milks-soy-based]] (CC block rebuilt under Part 19); [[products/category-5-beverages-master]] (per-analyte tables corrected for soy-beverage cells).
+Notes: Built third Cat 5 per-page CC candidate block under CLAUDE.md Part 19. Subcategory: plant-milks-soy-based (locked Cat 5 row 6; contamination_platform variant; platform_metals = [Al, Ni, Cd]).
+
+  Primary admitted-pool source: Milani 2023 (n=18 Brazilian soy beverages by ICP-OES, grouped by soy-source: isolate-protein, hydrosoluble-extract, soybean — ~6 samples per group). Supporting: Marques 2021 (Spanish ICP-MS plant-drink survey including soy drinks; Pb/Hg/Ni/U).
+
+  Important method note: Milani 2023 used ICP-OES with high LOQs (Cd 3.8 ppb, Pb 10.9 ppb, tAs 38.2 ppb, Sn 18 ppb). Modern ICP-MS would give sub-ppb LOQ for these analytes. Several cells therefore are Path B candidates (5×LOQ upper-bound) rather than Path A.
+
+  Per-analyte cell determinations:
+   - **Al: Path A thin (n_a_tier=1).** DOMINANT FINDING. Milani 2023 group means 758/609/176 ppb across 3 soy-source groups (isolate-protein highest); range 45-1822 ppb across all samples. Soy is a known Al accumulator (soy roots take up Al from acidic soils). Mean 758 ppb in isolate-protein beverages is comparable to milk-formula Al ranges (FDA 2026 milk formula mean 432-1241 ppb). p100 = 1822 ppb is the standout high-end value. Soy beverages serve a population that often substitutes for cow milk (lactose-intolerant + vegan markets); Al exposure for high-soy-consuming subpopulations is a real concern. Closing to approaching/at-bar requires a 2nd direct soy-beverage Al source.
+   - **Ni: Approaching (n_a_tier=2).** Milani 2023 (soybean group mean 29 ppb, max 46 ppb; isolate-protein/hydrosoluble groups <25.7 ppb LOQ) + Marques 2021. Path A summary-level. Soy is a Ni-uptake plant (legume biology); Ni cell is empirically dirty in the soybean-group subset. Closing requires sample-level extraction or 3rd source.
+   - **Pb: Approaching (n_a_tier=2).** Milani 2023 soybean group Pb mean 2.2 ppb, max 13 ppb; isolate-protein and hydrosoluble groups <10.9 ppb LOQ. Marques 2021 supporting. Closing requires sample-level from lower-LOD method.
+   - **tHg: Path A thin (n_a_tier=1).** Marques 2021 reports Hg not detected in plant-drink samples including soy. Clean cell.
+   - **Cd: Path B candidate.** All Milani samples <3.8 ppb LOQ; Path B 5×LOQ = 19 ppb upper bound.
+   - **tAs: Path B candidate.** All Milani samples <38.2 ppb LOQ (high vs ICP-MS); Path B 5×LOQ = 191 ppb.
+   - **iAs: data gap.** Milani measured tAs only; no speciation. Soy is not a known iAs accumulator (rice ingredient is the dominant iAs concern).
+   - **MeHg: data gap.** No methylation pathway in soy matrix.
+   - **Cr-VI: data gap (chemistry-mechanism inference).** Soy plant-milk is milk-like neutral-pH protein-containing matrix; inherits Hernandez 2019 + Saraiva 2021 Cr(VI)<LOD inference. Milani measured Cr-total (1.8 ppb in isolate group, <10.9 ppb in others) — total ≠ Cr-VI.
+   - **Sn: Path B candidate.** Milani isolate-protein group mean 4.3 ppb (LOD-zero), max 26 ppb; other 2 groups <18 ppb LOQ; Path B 5×LOQ = 90 ppb. Modern soy plant-milk is aseptic-pack; canned-Sn-leach Tarigan 2016 not applicable.
+
+  Frontmatter updated: evidence_fitness blank→EF-3; public_evidence_label "Approaching the bar (Al, Ni, Pb)"; review_state phase3_part19; hmtc_threshold_status approaching_summary_level; updated 2026-05-07→2026-05-09. Sources count 2 unchanged.
+
+  Cat 5 master corrected: cycle-12 skeleton listed 6 approaching cells (Pb, Cd, tAs, Ni, Al, Sn) for soy-based plant-milk; cycle-15 review reclassified to 3 approaching (Pb, Ni — both n_a_tier=2 with caveats; tHg via Marques) + 1 Path A thin (Al, the dominant finding) + 3 Path B candidates (Cd, tAs, Sn — Milani's high ICP-OES LOQs constrain) + 3 data gap (iAs, MeHg, Cr-VI). Per-analyte master tables updated for Pb/Cd/tAs/Ni/Al/Sn cells with realistic Milani 2023 group-mean structure.
+
+  No stop conditions triggered. The skeleton over-claim was a routine cycle-12 placeholder, not a contradiction. Cycle 15 of overnight loop. Next cycle: plant-milks-non-soy-non-rice (3 approaching cells via Marques 2021).
