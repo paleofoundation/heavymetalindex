@@ -90,7 +90,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 | Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **102.00 ppb** | 348.00 ppb | 253 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
+| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **102.00 ppb** | 348.00 ppb | 253 | 2 | low | Approaching. Path A n_a_tier=2 (FDA 2024 sample-level n=253 + Gu 2020 Australian rice cereal n=12 mean 134 ppb summary); third A-tier source clears the medium-confidence bar. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **clean** | clean p90 = **36.00 ppb** | 54.80 ppb | 25 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
 | Milk-based powdered infant formula ([[products/infant-formula-powder-non-soy]]) | **clean** | clean p90 = **1.30 ppb** | 4.70 ppb | 230 | 3 | medium | **At readiness bar.** Path A n_a_tier=3 medium confidence. |
 | Soy-based powdered infant formula ([[products/infant-formula-powder-soy-based]]) | **dirty** | dirty p30 = **0.80 ppb** | 2.20 ppb | 38 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
@@ -103,7 +103,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 | Fish-containing baby foods ([[products/fish-containing-baby-foods]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 | Mixed meals (rice-containing) ([[products/mixed-meals-rice-containing]]) | **dirty** | dirty p30 = **5.26 ppb** | 28.30 ppb | 9 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
 | Mixed meals (non-rice) ([[products/mixed-meals-non-rice]]) | **clean** | clean p90 = **5.54 ppb** | 13.60 ppb | 77 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| Teething & snacks (rice-based) ([[products/teething-and-snacks-rice-based]]) | **provisional** (partner data thin/missing) | p90 = 163.53 ppb | 171.00 ppb | 2 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=2 below 10-sample defensibility floor. |
+| Teething & snacks (rice-based) ([[products/teething-and-snacks-rice-based]]) | **provisional** (partner data thin/missing) | p90 = 163.53 ppb (FDA n=2); Gu 2020 rice crackers mean 132 ppb (n=21 summary) | 171.00 ppb | 2 | 2 | low | Approaching. Path A n_a_tier=2 (FDA 2024 sample-level n=2 + Gu 2020 Australian rice crackers n=21 summary, mean 132 ppb tAs / 94 ppb iAs); third A-tier source with larger sample-level pool clears the medium-confidence bar. Sample-size warning persists for the FDA subset. |
 | Teething & snacks (non-rice) ([[products/teething-and-snacks-non-rice]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 | Fruit juice (not-canned) ([[products/fruit-juice-not-canned]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 
@@ -124,7 +124,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 | Fish-containing baby foods ([[products/fish-containing-baby-foods]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
 | Mixed meals (rice-containing) ([[products/mixed-meals-rice-containing]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
 | Mixed meals (non-rice) ([[products/mixed-meals-non-rice]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| Teething & snacks (rice-based) ([[products/teething-and-snacks-rice-based]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| Teething & snacks (rice-based) ([[products/teething-and-snacks-rice-based]]) | summary-only | summary range; Gu 2020 rice crackers mean iAs 94 ± 12 ppb (74.3% iAs:tAs) | — | 0 sample-level | 2 | low | Approaching. n_a_tier=2 summary-only (Signes-Pastor 2016 EU+US rice crackers n=199, median 79-111 ppb + Gu 2020 Australian rice crackers n=21, mean 94 ppb); sample-level pool needed to clear Path A. |
 | Teething & snacks (non-rice) ([[products/teething-and-snacks-non-rice]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 | Fruit juice (not-canned) ([[products/fruit-juice-not-canned]]) | **standalone** (provisional p90) | clean p90 = **15.27 ppb** | 49.60 ppb | 152 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
 
@@ -313,6 +313,7 @@ Primary A-tier sources contributing to multiple cells in this master:
 27. [[sources/chandravanshi-shiv-kumar-2021-cadmium-developmental-toxicity-infants-children-review]] — Pediatric Cd developmental toxicology review (kidneys, liver, heart, nervous system); supports vulnerable-population HMTc Cd-threshold rationale.
 28. [[sources/signes-pastor2017-urinary-arsenic-speciation-children-pregnant-women-spain]] — Spanish INMA cohort; urinary As speciation in children and pregnant women. European biomarker counterpart to the Dartmouth U.S. infant-As cluster.
 29. [[sources/carroquino-posada-landrigan-environmental-toxicology-children-at-risk]] — Encyclopedia of Sustainability Science and Technology pediatric environmental toxicology chapter (Landrigan); foundational secondary reference for the child-vulnerable-population framework.
+30. [[sources/gu2020-arsenic-rice-infant-food-australia]] — Australian rice-based infant food n=39 (rice milk powder, rice pasta, rice cereal, rice crackers); tAs and iAs by ICP-MS with HPLC speciation. Summary-level (mean ± SE), CC BY OA via PMC EFetch. Brings rice-cereal tAs cell to n_a_tier=2; rice-cracker tAs and iAs cells to n_a_tier=2; first primary A-tier source for plant-milks-rice-based iAs.
 
 For per-page primary sources see each constituent product-category page's Source Evidence Inventory.
 
