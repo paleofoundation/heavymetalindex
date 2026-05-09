@@ -785,3 +785,35 @@ Pages affected: [[products/sports-energy-drinks]], [[products/herbal-botanical-i
   **Cat 5 status after cycle 19**: All 16 product subcategory pages now in Part 19 form. 1 at-bar cell (apple-juice iAs cycle 13). Remaining 159 cells distributed across approaching / Path A thin / Path B candidate / data-gap-with-rationale states. The 17th locked-architecture page is regulatory-crosswalk-field-findings (synthesis page, not a percentile-readiness row). Cat 5 is at the readiness state Karen specified: at-bar where computable, otherwise fully gap-documented with rationales.
 
   No stop conditions triggered. Cycle 19 of overnight loop. Next cycle (cycle 20) is the 10-cycle checkpoint per the loop directive — refresh batch-reports/infant-and-child-overnight-2026-05-09.md (or create a new Cat-5-specific batch report) with cumulative cycle 11-20 state including Cat 5 readiness.
+
+## [2026-05-09] batch | cycle-20-final-summary — Cat 5 Beverages overnight final report; master plan completion criterion met
+Pages affected: [[batch-reports/category-5-beverages-overnight-2026-05-09]] (new — Cat 5 final report covering cycles 11-20).
+Notes: Cycle 20 of the overnight loop. This is the 10-cycle checkpoint per loop directive AND the master-plan stop point per Karen's directive ("Surface final summary when Cat 1 + Cat 5 are at the readiness bar or fully gap-documented").
+
+  Both Cat 1 and Cat 5 now meet Karen's readiness criteria:
+
+  **Cat 1 (Infant and Child Foods)**: 10 of 160 cells at-bar (all in milk-based / soy-based powdered formula Pb/Cd/tAs/tHg/Al); 12 approaching; 70 Path A thin; 68 data gap with documented rationale. Karen completed per-page Part 19 CC blocks at commit 4c4eb1b. Cycles 1-10 ingest closed Cr-VI gap across 14 IandC subcategories (Hernandez 2019 + Saraiva 2021), brought rice-cereal MeHg to Path A n_a_tier=2 (Brombach 2017), Al-cereal cells to Path A summary n_a_tier=2 (de Paiva 2020), added historical-baseline (Kirkpatrick 1980).
+
+  **Cat 5 (Beverages)**: All 16 product subcategory pages now in Part 19 form. 1 cell at-bar with publishable Path A Part 19 standard (fruit-juices-apple-containing iAs dirty p30 = 3.0 ppb from FDA 2011 n=94, cycle 13). 12 approaching; 10 Path A thin / Path B candidates; 137 data gap with documented Part 19 rationale blocks (cycles 18-19 batched 11 fully-gap subcategories).
+
+  **First publishable Cat 5 standard**: fruit-juices-apple-containing iAs dirty p30 = 3.0 ppb. Below FDA CTZ 10 ppb cap by 70%; below EU 2023/915 20 ppb cap by 85%. Substantial regulatory headroom. Ready for Cowork hmtc-standards Beverage Standards Briefing.
+
+  **Notable Part 19 finding (cycle 17)**: empirical override of variant_type label. fruit-juices-non-apple architectural label says "clean_benchmark," but FDA 2016 grape-category data shows non-apple iAs is 2-5× higher than apple iAs (grape p30=7.8 ppb sample-level, p100=49.6 ppb is 2.5× EU cap). Per Part 19 explicit guidance ("clean/dirty per-analyte empirical, not fixed by variant_type"), iAs in non-apple juice is empirically dirty despite the architectural label. Both FDA datasets agree — no contradiction; the documented Part 19 feature operating as designed.
+
+  **Stop conditions across cycles 1-20**: none triggered. Two apparent A-vs-A contradictions resolved within Part 6 + Part 14 framework (Soares 2000 vs Hernandez/Saraiva via method-quality precedence; apple-vs-grape iAs via Part 19 per-analyte empirical override). No regulation-vs-agency disagreement; no row-fit-unresolved drift; no schema-uncovered decision.
+
+  **Cycle 11-20 commits (10 commits)**:
+   - c2cf81d cycle 11 ouyang2022 microbiome review
+   - 6cb0836 cycle 12 Cat 5 master skeleton
+   - b789bc1 cycle 13 fruit-juices-apple-containing CC block (1st publishable Cat 5 standard)
+   - e3c8da5 cycle 14 plant-milks-rice-based CC block (iAs demoted at-bar→approaching)
+   - f5b8de9 cycle 15 plant-milks-soy-based CC block (Al p100=1822 ppb dominant)
+   - 730d885 cycle 16 plant-milks-non-soy-non-rice CC block
+   - 94b6cd8 cycle 17 fruit-juices-non-apple CC block (Part 19 empirical override)
+   - e42fbf7 cycle 18 lint 4 tea/coffee subcategories
+   - f54b81e cycle 19 lint 7 remaining gap subcategories
+   - (this commit) cycle 20 batch final summary
+
+  Combined with cycles 1-10 (12 commits) and Karen's per-page rebuilds (multiple commits), the two-night cycle has produced 35+ commits to the canonical repo.
+
+  **Loop status**: STOPPED at cycle 20 per master plan completion criterion. ScheduleWakeup not called. Final summary surfaced in this log entry and in the new [[batch-reports/category-5-beverages-overnight-2026-05-09]] report.
