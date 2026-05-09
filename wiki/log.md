@@ -862,3 +862,45 @@ Notes: User-prompted analysis ("what gaps exist… and can you perform a re-inge
    10. Chekri 2019 row-fit re-classification across broader French TDS categories.
 
   Stop conditions check: none triggered. The Brazilian-vs-US Pb difference (Toledo 60 vs FDA 32 max) is a documented Part 6 jurisdiction-mix variation, not an A-tier-vs-A-tier contradiction.
+
+## [2026-05-09] resynthesis | fda2018-juice-pb-sample-level-extraction — Cycle 21 closes 2 Cat 5 fruit-juice Pb cells to at-bar
+Pages affected: data/evidence/category5_fda2018_juice_pb_apple_containing_samples.csv (new, n=650), data/evidence/category5_fda2018_juice_pb_non_apple_samples.csv (new, n=993), [[products/fruit-juices-apple-containing]] (Pb cell at-bar), [[products/fruit-juices-non-apple]] (Pb cell at-bar), [[products/category-5-beverages-master]] (at-bar count 1→3).
+Notes: Cycle 21 of overnight loop (re-fired by Karen with fresh prompt). Per the re-ingest queue documented at commit 9ad45f8, FDA 2018 lead-in-juice longitudinal sample-level extraction was the highest-value single move (would close 2 Cat 5 fruit-juice Pb cells from approaching to at-bar). Executed.
+
+  Source: FDA 2018 lead in juice FY2005-FY2018 PDF at raw/Digest/Analytical Results for Lead in Juice... (FY2005-FY2018).pdf. Used pdftotext -layout to extract structured table (1,643 sample rows; 45 unique juice types). Lower-bound deterministic substitution: <LOQ values treated as 0 ppb. 1,643 rows parsed cleanly into apple-containing (n=650) and non-apple (n=993) subsets per Part 6 row-fit.
+
+  **Apple-containing Pb (n=650 from FDA 2018 + n=3 from FDA 2022 TDS = n_a_tier=2)**:
+  - p10=0, p30=0, p50=0.60, p70=1.90, p90=6.00, p95=10.50, p99=27.60, p100=67.00 ppb; mean=2.43; 374 of 650 detected
+  - Per Part 19 per-analyte empirical: apple-juice Pb is empirically clean (p90 6.00 < non-apple 14.90). Despite contamination_platform variant_type, this is clean designation per Part 19.
+  - Standards target = clean p90 = **6.00 ppb** (40% below FDA 2022 draft 10 ppb apple-juice cap; substantial regulatory headroom)
+  - Confidence=low per Part 6 (2 studies; 3+ for medium); cell at readiness bar pending 3rd source for medium confidence
+
+  **Non-apple Pb (n=993 from FDA 2018 + n=3 from FDA 2022 TDS grapefruit = n_a_tier=2)**:
+  - p10=0, p30=0, p50=1.50, p70=5.60, p90=14.90, p95=20.70, p99=47.50, p100=134.80 ppb; mean=5.35; 633 of 993 detected
+  - Per Part 19 per-analyte empirical: non-apple-juice Pb is empirically dirty vs apple
+  - Standards target = dirty p30 = **0.00 ppb** with p90 = 14.90 ppb context
+  - **p95 = 20.70 ppb is right at FDA 2022 draft 20 ppb other-juice cap** — most regulatorily-pulling Cat 5 Pb finding
+  - Upper-tail driven by passion fruit (max 134.8), pomegranate (115/91/87 ppb), prune (82), beet (79), kiwi (62.8/51.0)
+  - This is the **second** Part 19 per-analyte empirical-dirty signal in non-apple-juice (first: grape iAs cycle 17)
+
+  Cell-state changes:
+  - fruit-juices-apple-containing Pb: approaching → **at readiness bar** (clean p90 = 6.0 ppb)
+  - fruit-juices-non-apple Pb: approaching → **at readiness bar** (dirty p30 = 0 / p90 = 14.9 ppb)
+  - Cat 5 at-bar count: 1 → **3**
+  - Cat 5 readiness roll-up updated: both fruit-juice rows now have multiple at-bar cells.
+
+  No stop conditions triggered. The apple-vs-non-apple Pb pattern is internally consistent (single FDA 2018 dataset showing both subsets); not an A-vs-A contradiction.
+
+  **Re-ingest queue status after cycle 21**:
+  - DONE: FDA 2018 fruit-juice Pb sample-level extraction (this cycle)
+  - DONE earlier: Toledo 2024 + FDA 2024 rice-cereal Pb/Cd/tAs combined pool (commit 9ad45f8)
+  - REMAINING (priority order):
+    1. Brombach 2017 Table S1 supplementary (per-sample MeHg/tHg n=87 European rice incl. baby-rice subset n=7) — rice-cereal MeHg specific p30/p90 computation
+    2. Weldegebriel 2025 Ethiopia n=80 sample-level extraction — Cat 5 fruit-juice Cd/Cr/Ni cells
+    3. Sadiq 2021 Figure 1 visual extraction — would add n=3 baby rice cereal triangulation across 8 elements (uncertainty ±20-30 ppb; not unsuitable for percentile pool but valuable for bio-accessibility cross-check)
+    4. Da Mato 2026 supplementary tables — sample-level rice-plant-milk iAs
+    5. Marques 2021 PDF/table-image review — plant-milk Pb numeric values
+    6. Sipahi 2014 Al unit-label disambiguation
+    7. Chekri 2019 row-fit re-classification
+
+  Next cycle should continue the queue (cycle 22 = Brombach 2017 Table S1 if accessible, else Weldegebriel 2025) OR begin Priority 5 (other HMTc product categories) OR regenerate hmtc_standards_gap_report.csv.

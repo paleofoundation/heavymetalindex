@@ -20,8 +20,8 @@ The readiness bar is the same as Cat 1 per CLAUDE.md Part 6 + Part 19: each cell
 
 | Subcategory | At bar | Approaching | Path A thin (n_a_tier=1) | Data gap |
 | --- | --- | --- | --- | --- |
-| Fruit juices, non-apple | — | Pb, iAs (grape p30=7.8 ppb sample-level Path A thin; partial-fit caveat) | Cd, tAs, Ni | MeHg, tHg, Al, Cr-VI, Sn |
-| Fruit juices, apple-containing | **iAs (publishable: dirty p30=3.0 ppb)** | Pb | Cd, tAs, Ni | MeHg, tHg, Al, Cr-VI, Sn |
+| Fruit juices, non-apple | **Pb (publishable: dirty p30=0 ppb, p90=14.9 ppb sample-level n=993 from FDA 2018)** | iAs (grape p30=7.8 ppb sample-level Path A thin; partial-fit caveat) | Cd, tAs, Ni | MeHg, tHg, Al, Cr-VI, Sn |
+| Fruit juices, apple-containing | **iAs (publishable: dirty p30=3.0 ppb)**, **Pb (publishable: clean p90=6.0 ppb sample-level n=650 from FDA 2018)** | — | Cd, tAs, Ni | MeHg, tHg, Al, Cr-VI, Sn |
 | Vegetable juices, non-root | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
 | Vegetable juices, root-vegetable-containing | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
 | Plant milks, non-soy-non-rice | — | — | Pb, tHg, Ni | Cd, tAs, iAs, MeHg, Al, Cr-VI, Sn |
@@ -39,7 +39,10 @@ The readiness bar is the same as Cat 1 per CLAUDE.md Part 6 + Part 19: each cell
 
 Counts (160 cells total):
 
-- **At readiness bar: 1 cell.** iAs in fruit-juices-apple-containing — Path A sample-level dirty p30 = 3.0 ppb (FDA 2011 single-strength apple juice n=94 + FDA 2016 Juice-Grape n=58 cross-juice context). Per-page CC block built at cycle 13 (commit b789bc1). (The cycle-12 master skeleton claimed 2 at-bar cells; cycle-14 review demoted plant-milks-rice-based iAs to approaching after confirming Da Mato 2026 publishes summary-only mean+median+range, not sample-level distribution; n_a_tier=2 with low confidence per Part 6's 3-studies-for-medium rule.)
+- **At readiness bar: 3 cells.** (cycle 21 update: +2 cells via FDA 2018 longitudinal Pb sample-level extraction)
+  - iAs in fruit-juices-apple-containing — Path A sample-level dirty p30 = 3.0 ppb (FDA 2011 n=94 + FDA 2016 grape cross-juice context). Cycle 13 build (commit b789bc1).
+  - **Pb in fruit-juices-apple-containing — Path A sample-level clean p90 = 6.0 ppb** (FDA 2018 longitudinal n=650 + FDA 2022 TDS n=3). p90 40% below FDA 2022 draft 10 ppb apple-juice cap. Cycle 21 build (this commit).
+  - **Pb in fruit-juices-non-apple — Path A sample-level dirty p30 = 0 ppb, p90 = 14.9 ppb** (FDA 2018 longitudinal n=993 + FDA 2022 TDS grapefruit n=3). p95=20.7 right at FDA 2022 draft 20 ppb other-juice cap. Cycle 21 build (this commit).
 - **Approaching the bar: 15 cells.** iAs in plant-milks-rice-based (Da Mato 2026 summary p30≈12 ppb < EU 30 cap; awaits sample-level extraction or 3rd source for at-bar). tAs and tHg in plant-milks-rice-based (Da Mato 2026 + Marques 2021). Fruit-juice Pb across both subcategories (FDA 2018 longitudinal compliance + FDA 2022 draft action levels + Weldegebriel 2025 Ethiopia). Plant-milk-soy Pb/Cd/tAs/Ni/Al/Sn (Milani 2023 multi-element + Marques 2021). Plant-milk-non-soy-non-rice Pb/tHg/Ni (Marques 2021 ICP-MS).
 - **Path A thin (n_a_tier=1): 7 cells.** Mostly Cd/tAs/iAs/Ni in fruit juices and tAs in rice plant-milk; plus Sn in flavored-water and soft-drink-canned subcategories from canned-beverage Sn-leach evidence (Tarigan 2016 + Benoy 1971 + ATSDR 2005).
 - **Data gap: 139 cells.** Dominant gap drivers: (a) **Tea, matcha, coffee, kombucha, sports/energy drinks, soft drinks, fermented beverages, herbal infusions** — 8 subcategories × 10 analytes = 80 cells with no direct in-corpus evidence in `wiki/sources/`. (b) **Vegetable juices** (both splits) — 20 cells with no direct evidence. (c) **MeHg and Cr-VI** systematically gap across all 16 subcategories (Cr-VI by chemistry-mechanism inference from Hernandez 2019 + Saraiva 2021 carries forward to milk-like beverages but has not been extended to acidic/aqueous beverage matrices in the corpus).
