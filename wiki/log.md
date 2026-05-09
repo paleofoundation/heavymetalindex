@@ -1028,3 +1028,44 @@ Notes: Cycle 25 of overnight loop. Per priority order, focused on Cat 1 cell-clo
   Audit notes documented inline: cells "Difficult/Blocked" generally require new external acquisition or larger sample-level pulls. Going forward, the loop's tractable cell-closing work is reaching diminishing returns on the in-corpus pool.
 
   No stop conditions triggered. Cycle 25 of overnight loop.
+
+## [2026-05-09] batch | cycles-21-26-final-summary — In-corpus cell-closing exhausted; loop stops with 6 publishable Path A standards
+Pages affected: [[batch-reports/cycles-21-26-final-summary-2026-05-09]] (new).
+Notes: Cycle 26 of overnight loop. Per priority-list item #5 ("After all tractable in-corpus work exhausted, surface a final summary"), this is the final summary closing the post-cycle-20 extension run.
+
+  Cycle 26 audit findings (continuing cycle 25's approaching-cell audit):
+   - Igweze 2020 milk-based group n=9 does NOT distinguish soy/non-soy; routes only to non-soy or unclassified. Does not help soy-formula cells.
+   - Sipahi 2014 milk-based group n=28 routes only to non-soy formula by Part 6 default; already counted at n_a_tier=1 in non-soy formula cells per cycle 7 ingest.
+   - Sadiq 2021 Figure 1 visual extraction would add n=3 below 10-sample defensibility floor (triangulation only).
+   - Sipahi 2014 cereal-based n=23 is matrix-axis partial-fit (formula not cereal); count as caveat-laden 3rd source for rice-cereal Pb/Cd would be defensible but produces only marginal cell-state shift since Toledo 2024 + FDA 2024 already provide n=270/266 sample-level.
+
+  **Conclusion**: cell-closing returns from in-corpus pool are exhausted. No more clear at-bar upgrades available without (a) Karen's Step 0 lock for Priority 5, (b) new external-corpus sources, (c) gap-report regeneration tooling.
+
+  **Six publishable Path A Part 19 standards documented across cycles 13-25**:
+   1. fruit-juices-apple-containing iAs dirty p30 = 3.0 ppb (cycle 13)
+   2. baby-cereals-dry-rice-based tAs dirty p30 = 102 ppb (post-cycle-20 commit 9ad45f8)
+   3. fruit-juices-apple-containing Pb clean p90 = 6.0 ppb (cycle 21)
+   4. fruit-juices-non-apple Pb dirty p30 = 0 ppb (p95 = 20.7 right at FDA cap; cycle 21)
+   5. root-vegetable-purees Pb dirty p30 = 3.74 ppb (cycle 24)
+   6. baby-cereals-dry-rice-based Al dirty p30 = 552 ppb (cycle 25)
+
+  **Cumulative state cycle 0 → 26**:
+   - IandC at-bar cells: 10 → 13
+   - Cat 5 at-bar cells: 0 → 3
+   - Total publishable Path A standards: 0 → 6
+   - Karen-drop queue: 12/12 resolved
+   - Cat 1 + Cat 5 product pages 100% in Part 19 form
+   - Cat 2/3/4/6+ pages: still 0 (Step 0 lock blocked)
+
+  **Stop conditions across all 26 cycles**: 2 contradictions encountered, both resolved within Part 6 + Part 14 + Part 19 framework (Soares vs Hernandez/Saraiva via method-quality precedence; apple-vs-grape iAs and apple-vs-non-apple Pb via Part 19 per-analyte empirical override). No unresolved drift.
+
+  **Recommended next steps for Karen** (in priority order):
+   1. Decide on Cat 1 bridge-page hmtc_category integer assignments (3 pages flagged at cycle 23)
+   2. Define Step 0 lock for Cat 2 or next priority category (enables Priority 5 build-out)
+   3. Point to gap-report regeneration tooling
+   4. Drop next external-fetch papers (Brombach 2017 SI; rice-cereal Pb/Cd 3rd-source; tea-Al surveys)
+   5. Trigger Cowork hmtc-standards skill to build Standards Briefing .docx
+
+  **Loop stops at cycle 26** — no ScheduleWakeup. Resume requires fresh /loop directive with one of the unblocking actions above.
+
+  End of post-cycle-20 extension run.
