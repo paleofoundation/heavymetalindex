@@ -817,3 +817,48 @@ Notes: Cycle 20 of the overnight loop. This is the 10-cycle checkpoint per loop 
   Combined with cycles 1-10 (12 commits) and Karen's per-page rebuilds (multiple commits), the two-night cycle has produced 35+ commits to the canonical repo.
 
   **Loop status**: STOPPED at cycle 20 per master plan completion criterion. ScheduleWakeup not called. Final summary surfaced in this log entry and in the new [[batch-reports/category-5-beverages-overnight-2026-05-09]] report.
+
+## [2026-05-09] resynthesis | toledo-fda-rice-cereal-pool-integration — 11th IandC at-bar cell achieved (rice-cereal tAs n_a_tier=3 medium-confidence)
+Pages affected: [[products/infant-and-child-foods-master]] (rice-cereal Pb/Cd/tAs cells upgraded with combined Toledo 2024 + FDA 2024 sample-level pool).
+Notes: User-prompted analysis ("what gaps exist… and can you perform a re-ingest") surfaced that the existing data/evidence/hmtc_standards_gap_report.csv was generated 2026-05-08T17:18 — BEFORE cycle 1 of the autonomous loop. The report flags 19 cells as "DO NOT PUBLISH CLEAN P90: single distribution-capable source" + 26 as "DO NOT PUBLISH DIRTY P10: single distribution-capable source"; many of these have a 2nd distribution-capable source loaded post-cycle-1 (Toledo 2024 sample-level CSV is on disk at data/evidence/category1_toledo2024_infant_cereal_brazil_samples.csv).
+
+  Computed combined Toledo 2024 + FDA 2024 sample-level pools for rice-based infant cereal (Python percentile script, cf. log entries cycle 13 + cycle 17):
+
+   **Pb pool (n=270; Toledo n=14 + FDA 2024 n=256)**:
+   - p10=0.00, p20=0.00, p30=3.30, p50=5.00, p70=7.20, p90=20.70, p95=24.10, p100=60.13 ppb; mean=7.68
+   - Cap = 20 ppb (FDA 2025 dry infant cereal)
+   - **p90 = 20.70 ppb is right at the cap; p95 = 24.10 exceeds cap by 20%; Toledo Brazilian samples drive upper tail (max 60.13 = 3× FDA max 32.00)**
+   - Per Part 6 jurisdiction-mix labeling required.
+
+   **Cd pool (n=266; Toledo n=14 + FDA 2024 n=252)**:
+   - p10=0.00, p30=7.70, p50=10.50, p90=22.00, p100=40.50 ppb
+   - Cap = 40 ppb (EU 2023 cereal-based baby food); p90=22.00 well below cap; p100=40.50 right at cap.
+
+   **tAs pool (n=267; Toledo n=14 + FDA 2024 n=253)**:
+   - p30=102.00, p50=115.00, p90=135.00, p100=348.00 ppb
+   - No regulatory cap loaded
+   - With Gu 2020 Australia rice cereal n=12 summary as 3rd source: **n_a_tier=3, confidence=medium per Part 6 (3+ studies)**
+   - **At readiness bar — publishable Path A standard candidate at dirty p30 = 102 ppb**
+
+  Cell-state upgrades in IandC master (post-Toledo integration, this turn):
+   - Rice-cereal Pb: Path A thin n=256 → **Approaching n=270 n_a_tier=2** (FDA + Toledo)
+   - Rice-cereal Cd: Path A thin n=252 → **Approaching n=266 n_a_tier=2** (FDA + Toledo)
+   - Rice-cereal tAs: Approaching n_a_tier=2 → **At readiness bar n=267 n_a_tier=3 medium-confidence** (FDA + Toledo + Gu) — 11th IandC at-bar cell
+   - Rice-cereal readiness roll-up updated: tAs moved from approaching column to at-bar column; Pb and Cd moved from Path A thin to approaching column.
+   - Non-rice cereal cells: Toledo non-rice n=4 below 10-sample defensibility floor; documented as triangulation-only, no n_a_tier upgrade.
+
+  Note on stale gap report: data/evidence/hmtc_standards_gap_report.csv needs regeneration to reflect post-cycle-1-20 corpus state. The underlying source-page evidence and percentile-computable CSVs already support multiple cell upgrades; the gap-report tooling has not been re-run. Per CLAUDE.md Part 17, I'm logging this as resynthesis (not lint) because it changes cell-state classifications.
+
+  Other re-ingest opportunities identified (not yet executed; deferred for next loop run if Karen wants more):
+   1. Brombach 2017 Table S1 (supplementary) — per-sample tHg/MeHg for n=87 European rice incl. 7 baby-rice + 2 toddler rice cakes; would compute baby-rice-specific MeHg p30/p50/p90/p100 instead of relying on overall n=87 distribution. Requires fetching the supporting-information file separate from the main PDF.
+   2. Sadiq & Beauchemin 2021 Table 2 — total-concentration values per brand for n=3 baby rice cereal across As/Cr/Se/Cd/Pb/Cu/Fe/Zn; small N below floor but adds bio-accessibility-paired sample-level evidence.
+   3. de Paiva 2020 per-batch sample-level Al data — would require contacting authors (group means only in published Table 2).
+   4. Gu 2020 Supplementary Materials — per-sample data may be there for the n=39 rice-based infant foods.
+   5. FDA 2018 lead-in-juice longitudinal — sample-level Pb extraction for fruit-juice subcategories (would close Cat 5 fruit-juice Pb cells from approaching to at-bar).
+   6. Weldegebriel 2025 Ethiopia — n=80 packaged fruit juices; per-row extraction pending.
+   7. Marques 2021 — composite extraction-quality caveat; needs source-table review against PDF/table image to resolve numeric Pb values.
+   8. Da Mato 2026 supplementary tables — sample-level rice-plant-milk iAs would push that cell from approaching (cycle 14 finding) to at-bar.
+   9. Sipahi 2014 Al unit-label disambiguation (table ng/g vs discussion µg/g).
+   10. Chekri 2019 row-fit re-classification across broader French TDS categories.
+
+  Stop conditions check: none triggered. The Brazilian-vs-US Pb difference (Toledo 60 vs FDA 32 max) is a documented Part 6 jurisdiction-mix variation, not an A-tier-vs-A-tier contradiction.

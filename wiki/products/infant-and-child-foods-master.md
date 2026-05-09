@@ -48,8 +48,8 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 | Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **2.85 ppb** | 32.00 ppb | 256 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **clean** | clean p90 = **7.84 ppb** | 9.90 ppb | 25 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
+| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **3.30 ppb** (combined sample-level pool) | **60.13 ppb** | **270** | **2** | low | **Approaching.** Path A n_a_tier=2 sample-level: FDA 2024 baby-food compliance n=256 + Toledo 2024 Brazilian infant cereal n=14 (combined n=270). Brazilian samples drive the upper-tail (Toledo max 60.13 ppb is 3× FDA 2024 max 32 ppb, reflecting jurisdiction-mix Pb variation). Per Part 6 jurisdiction-mix labeling. Third A-tier source clears the medium-confidence bar. p90 of combined pool = 20.70 ppb is right at the FDA 2025 dry-cereal cap of 20 ppb. |
+| Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **clean** | clean p90 = **7.84 ppb** | 9.90 ppb | 25 | 1 | low | Path A thin (n_a_tier=1; Toledo 2024 n=4 non-rice subset is triangulation-only, below 10-sample defensibility floor). Second fit sample-level source above floor needed. |
 | Milk-based powdered infant formula ([[products/infant-formula-powder-non-soy]]) | **clean** | clean p90 = **0.40 ppb** | 0.60 ppb | 230 | 5 | medium | **At readiness bar.** Path A n_a_tier=5 medium confidence. |
 | Soy-based powdered infant formula ([[products/infant-formula-powder-soy-based]]) | **dirty** | dirty p30 = **0.30 ppb** | 1.10 ppb | 38 | 4 | medium | **At readiness bar.** Path A n_a_tier=4 medium confidence. |
 | Milk-based RTF liquid infant formula ([[products/infant-formula-rtf-liquid-non-soy]]) | **dirty** | dirty p30 = **0.20 ppb** | 0.50 ppb | 20 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
@@ -69,8 +69,8 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 | Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **clean** | clean p90 = **22.00 ppb** | 40.50 ppb | 252 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **dirty** | dirty p30 = **11.36 ppb** | 62.90 ppb | 25 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
+| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **clean** | clean p90 = **22.00 ppb** (combined pool) | 40.50 ppb | **266** | **2** | low | **Approaching.** Path A n_a_tier=2 sample-level: FDA 2024 n=252 + Toledo 2024 n=14 (combined n=266). Combined p90=22.00 ppb is well below EU 2023 cereal-baby-food Cd cap of 40 ppb. Third A-tier source clears medium-confidence bar. |
+| Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **dirty** | dirty p30 = **11.36 ppb** | 62.90 ppb | 25 | 1 | low | Path A thin (n_a_tier=1; Toledo 2024 non-rice n=4 triangulation only, below floor). Second fit sample-level source needed. |
 | Milk-based powdered infant formula ([[products/infant-formula-powder-non-soy]]) | **clean** | clean p90 = **0.40 ppb** | 1.30 ppb | 230 | 6 | medium | **At readiness bar.** Path A n_a_tier=6 medium confidence. |
 | Soy-based powdered infant formula ([[products/infant-formula-powder-soy-based]]) | **dirty** | dirty p30 = **0.60 ppb** | 1.40 ppb | 38 | 4 | medium | **At readiness bar.** Path A n_a_tier=4 medium confidence. |
 | Milk-based RTF liquid infant formula ([[products/infant-formula-rtf-liquid-non-soy]]) | **clean** | clean p90 = **0.60 ppb** | 0.70 ppb | 20 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
@@ -90,7 +90,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 | Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **102.00 ppb** | 348.00 ppb | 253 | 2 | low | Approaching. Path A n_a_tier=2 (FDA 2024 sample-level n=253 + Gu 2020 Australian rice cereal n=12 mean 134 ppb summary); third A-tier source clears the medium-confidence bar. |
+| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **102.00 ppb** (combined pool) | 348.00 ppb | **267** | **3** | **medium** | **At readiness bar.** Path A n_a_tier=3: FDA 2024 sample-level n=253 + Toledo 2024 sample-level n=14 + Gu 2020 Australian rice cereal n=12 summary (mean 134 ppb). Three A-tier sources, sample-level + summary triangulation. Confidence=medium per Part 6 (3+ studies). Combined dirty p30 = 102.00 ppb. **Publishable Path A standard candidate.** No regulatory cap loaded for tAs in dry rice cereal. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **clean** | clean p90 = **36.00 ppb** | 54.80 ppb | 25 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
 | Milk-based powdered infant formula ([[products/infant-formula-powder-non-soy]]) | **clean** | clean p90 = **1.30 ppb** | 4.70 ppb | 230 | 3 | medium | **At readiness bar.** Path A n_a_tier=3 medium confidence. |
 | Soy-based powdered infant formula ([[products/infant-formula-powder-soy-based]]) | **dirty** | dirty p30 = **0.80 ppb** | 2.20 ppb | 38 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
@@ -262,7 +262,7 @@ Each cell tagged by status: AT-BAR (Path A n_a_tier≥2 + medium confidence), AP
 
 | Subcategory | At bar | Approaching | Path A thin | Data gap |
 | --- | --- | --- | --- | --- |
-| Infant rice cereal (dry) | — | iAs | Pb, Cd, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
+| Infant rice cereal (dry) | **tAs** (Path A n_a_tier=3 medium-confidence; combined Toledo+FDA+Gu pool n=267; dirty p30=102 ppb) | iAs, Pb, Cd | MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
 | Infant non-rice cereal (dry) | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
 | Milk-based powdered infant formula | Pb, Cd, tAs, tHg | — | MeHg, Cr-VI | iAs, Ni, Al, Sn |
 | Soy-based powdered infant formula | Pb, Cd | tAs, tHg | iAs, MeHg, Ni, Cr-VI, Sn | Al |
