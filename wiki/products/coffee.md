@@ -12,11 +12,11 @@ primary_metals_of_concern: [Pb, Cd, tAs]
 vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-5
-public_evidence_label: Data gap
-review_state: draft
-hmtc_threshold_status: data_gap
+public_evidence_label: Data gap with documented rationale
+review_state: phase3_part19
+hmtc_threshold_status: data_gap_documented
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-09
 sources: 0
 ---
 
@@ -52,21 +52,30 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This subcategory has **zero direct in-corpus sources** as of cycle 18 (2026-05-09). Coffee is locked as an **independent_no_split** variant_type — no within-pair partner; standards target is standalone p90 if measurements were available.
 
-This row's standards target is **independent-row P90**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Coffee facts from broader literature (not in HMTc corpus):
+- Coffee plants take up some metals from volcanic soils; less Al-accumulation than Camellia sinensis (tea).
+- Brewed coffee Pb/Cd/As typically lower than ground coffee due to extraction-efficiency limits (most metals stay in spent grounds).
+- Robusta vs Arabica varieties show different metal profiles (Robusta higher Cu/Mn).
+- Green/raw coffee bean Pb 0.05-0.5 ppm; brewed coffee at typical 50:1 dilution gives 1-10 ppb Pb.
+- Acrylamide and ochratoxin A are higher-priority coffee contaminants in regulatory frameworks (not HMT&C analytes).
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+| Metal | Clean/dirty (anticipated) | n | n_a_tier | CC eligibility | Closing rationale |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd) | clean (anticipated low in brewed; potentially measurable in ground) | 0 | 0 | data gap | Closing requires multi-element coffee survey. Distinguishing brewed vs ground coffee is an axis-axis decision per Part 6. |
+| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated low) | 0 | 0 | data gap | Coffee not a known As accumulator. |
+| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway in coffee matrix. |
+| [[metals/nickel]] (Ni) | clean/dirty TBD | 0 | 0 | data gap | Coffee Ni is measurable; Robusta higher than Arabica. |
+| [[metals/aluminum]] (Al) | clean (vs tea high baseline) | 0 | 0 | data gap | Coffee plants are not Al hyperaccumulators like tea; expected lower. |
+| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 1 (cascade) | data gap | Brewed coffee is acidic-aqueous (pH 4-5); milk-like Cr(VI)<LOD inference is weaker than for milk-based beverages. |
+| [[metals/tin]] (Sn) | data gap (modern); historical canned-RTD-coffee context | 0 | 0 | data gap | Modern coffee is brewed-fresh or single-serve; canned-RTD-coffee is a minor share with potential canned-Sn-leach context. |
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
-| [[metals/cadmium]] (Cd) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
-| [[metals/arsenic-total]] (tAs) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+**Wishlist priority for closing this row**: multi-element coffee survey distinguishing brewed vs ground; both are commercial-form-axis routes. None in HMTc corpus.
 
 <!-- END: hmi-hmtc-evidence-summary -->
 

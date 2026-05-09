@@ -722,3 +722,39 @@ Notes: Built fifth Cat 5 per-page CC candidate block. Subcategory: fruit-juices-
   Cat 5 master updated: cycle-12 skeleton classification of "Path A thin" iAs is correct, but the cell is now sample-level Path A thin (not summary-level) with computable p30=7.8 ppb; per-analyte master tables updated with the computed values + Part 19 empirical-override caveat.
 
   No stop conditions triggered. The variant_type-vs-empirical mismatch is a Part 19 documented feature, not a row-fit-rule failure. Cycle 17 of overnight loop. Next cycle: fruit-juice-not-canned (separate page; cross-references multiple FDA sources including FDA 2011 apple + FDA 2016 grape + FDA 2018 longitudinal).
+
+## [2026-05-09] lint | cycle-18-cat5-tea-coffee-data-gap-rationales — Batched Part 19 data-gap blocks for 4 Cat 5 subcategories
+Pages affected: [[products/true-tea-camellia-sinensis]], [[products/matcha]], [[products/coffee]], [[products/kombucha-tea-based]] (legacy schema-warning blocks replaced with Part 19 data-gap-with-rationale blocks; frontmatter updated review_state→phase3_part19, public_evidence_label→"Data gap with documented rationale", hmtc_threshold_status→data_gap_documented).
+Notes: Cycle 18 of the overnight loop. Pivoted from the cycle-12-skeleton-priority list (which incorrectly listed fruit-juice-not-canned as next — that is actually HMTc Cat 1 row 14, already rebuilt under Part 19 by Karen at commit 4c4eb1b). Moved to the next actual priority: documenting data-gap rationales for the 8 fully-gap Cat 5 subcategories.
+
+  Batched 4 tea/coffee subcategories in this cycle (true-tea, matcha, coffee, kombucha). Cycle 19 will cover the remaining 4 fully-gap subcategories (sports-energy-drinks, herbal-botanical-infusions, soft-drinks-carbonated-beverages, fermented-beverages-non-tea-based) plus the 2 vegetable-juice subcategories and flavored-waters.
+
+  Per-page summary:
+
+  **[[products/true-tea-camellia-sinensis]]** (Cat 5 row 11; contamination_platform):
+   - Al cell flagged as **highest-priority Cat 5 data gap** with high regulatory pull. Camellia sinensis is a documented Al hyperaccumulator (dry leaf 500-30,000 ppm Al; steeped 1-10 mg/L). Karak & Bhagat 2010 estimates tea contributes ~25% of dietary Al in tea-drinking populations.
+   - Pb/Cd dirty (anticipated; soil-uptake-dependent); broader literature (Schwalfenberg 2013, Brzezicha-Cirocka 2016) documents elevated Pb in 73% of Canadian-market teas.
+   - tAs/iAs/MeHg/tHg/Sn data gap.
+   - Cr-VI: chemistry-mechanism inference partial (steeped tea acidic-aqueous; weaker than milk-like inference).
+   - Wishlist for closing: Karak & Bhagat 2010, Schwalfenberg 2013, Brzezicha-Cirocka 2016 (all paywalled).
+
+  **[[products/matcha]]** (Cat 5 row 12; distinct_exposure_pathway):
+   - **Critical exposure-model implication for Al**: matcha is whole-leaf consumption (not steeping). Consumer ingests 100% of dry-leaf Al vs 5-30% extraction efficiency in steeped tea. A 2 g matcha serving could deliver 1-60 mg Al per cup vs 0.25-2.5 mg per cup steeped tea. **Matcha could be the highest single-source dietary Al exposure in any beverage subcategory.**
+   - Strong Part 19 dirty-designation candidate by mechanism but no in-corpus measurement.
+   - Wishlist: matcha-specific multi-element analysis (powder + suspension); Brzezicha-Cirocka 2016 may include some matcha samples.
+
+  **[[products/coffee]]** (Cat 5 row 13; independent_no_split):
+   - Coffee plants are NOT Al hyperaccumulators (vs Camellia sinensis); expected lower Al than tea.
+   - Brewed coffee Pb/Cd typically lower than ground coffee due to extraction-efficiency limits (most metals stay in spent grounds); 50:1 dilution from green bean to brewed.
+   - Higher-priority coffee contaminants are acrylamide and ochratoxin A (not HMT&C analytes).
+   - Wishlist: multi-element coffee survey distinguishing brewed vs ground (axis-axis Part 6 decision).
+
+  **[[products/kombucha-tea-based]]** (Cat 5 row 16; contamination_platform):
+   - Inherits all heavy metals from tea base + fermentation-extraction effects.
+   - Historical lead-glazed-pottery home-brew Pb concern (CDC MMWR 1995).
+   - **Cr-VI cell is the highest-value Cr-VI measurement target in Cat 5** because acidic kombucha matrix (pH 2.5-4.5) is where the Hernandez/Saraiva milk-like Cr(VI)<LOD inference applies LEAST. Direct kombucha Cr speciation would be the most regulatory-pulling test of whether food-matrix Cr-VI inference extends to acidic matrices.
+   - Wishlist: kombucha multi-element + Cr speciation (commercial vs home-brew distinction).
+
+  All 4 pages: frontmatter EF-5 retained (no new evidence); review_state draft→phase3_part19; public_evidence_label "Data gap"→"Data gap with documented rationale"; hmtc_threshold_status data_gap→data_gap_documented; sources 0 (unchanged). Legacy schema-warning blocks fully replaced with Part 19 framework.
+
+  No stop conditions triggered. Cycle 18 of overnight loop. Next cycle: complete the remaining 4 fully-gap subcategories + 2 vegetable-juice subcategories + flavored-waters in a similar batched lint pass.
