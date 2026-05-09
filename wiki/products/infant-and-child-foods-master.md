@@ -132,9 +132,9 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 | Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | exposure-pathway evidence; primary occurrence still data gap | — | — | 0 sample-level rice MeHg | 1 (Rothenberg 2021) | low | Path A primary occurrence still data gap (no rice MeHg sample-level pool); cohort-level rice-MeHg-exposure-and-neurodev evidence loaded ([[sources/rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china|Rothenberg 2021]] n=391 rural China cohort, peripartum hair MeHg + Bayley scores). |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| Milk-based powdered infant formula ([[products/infant-formula-powder-non-soy]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| Milk-based powdered infant formula ([[products/infant-formula-powder-non-soy]]) | mechanism-only evidence; primary occurrence still data gap | — | — | 0 sample-level | 1 (Coe 2023 mechanism) | low | Below bar; primary occurrence in formula MeHg still pending; gut-microbiome-MeHg demethylation mechanism evidence loaded ([[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe 2023]] gnotobiotic + cohort). |
 | Soy-based powdered infant formula ([[products/infant-formula-powder-soy-based]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
 | Milk-based RTF liquid infant formula ([[products/infant-formula-rtf-liquid-non-soy]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
 | Soy-based RTF liquid infant formula ([[products/infant-formula-rtf-liquid-soy-based]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
@@ -308,6 +308,11 @@ Primary A-tier sources contributing to multiple cells in this master:
 22. [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort]] — Dartmouth NHBC longitudinal first-year-of-life arsenic exposure by feeding mode.
 23. [[sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk]] — Dartmouth + Brigham/Harvard infant cohort; urinary biomarkers by feeding mode.
 24. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review]] — AJCN 2025 systematic review of As, Cd, Pb, Hg, PFAS in human milk and infant formula.
+25. [[sources/rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china]] — Rural China prospective cohort (n=391); maternal MeHg from rice ingestion paired with child Bayley neurodev outcomes through 36 months. Exposure-pathway evidence for the rice-as-MeHg-pathway (not direct rice MeHg occurrence).
+26. [[sources/marques2021-trace-elements-milks-plant-based-drinks]] — Spanish cow/goat milk + soy/almond/rice/oat plant-based drinks + infant formulas; ICP-MS Hg, Pb, U, V, plus essentials. Direct primary occurrence for plant-milk and milk-based formula matrices. (Already existed on wiki at this session start; cited here for legend completeness.)
+27. [[sources/chandravanshi-shiv-kumar-2021-cadmium-developmental-toxicity-infants-children-review]] — Pediatric Cd developmental toxicology review (kidneys, liver, heart, nervous system); supports vulnerable-population HMTc Cd-threshold rationale.
+28. [[sources/signes-pastor2017-urinary-arsenic-speciation-children-pregnant-women-spain]] — Spanish INMA cohort; urinary As speciation in children and pregnant women. European biomarker counterpart to the Dartmouth U.S. infant-As cluster.
+29. [[sources/carroquino-posada-landrigan-environmental-toxicology-children-at-risk]] — Encyclopedia of Sustainability Science and Technology pediatric environmental toxicology chapter (Landrigan); foundational secondary reference for the child-vulnerable-population framework.
 
 For per-page primary sources see each constituent product-category page's Source Evidence Inventory.
 
