@@ -20,7 +20,7 @@ The readiness bar is the same as Cat 1 per CLAUDE.md Part 6 + Part 19: each cell
 
 | Subcategory | At bar | Approaching | Path A thin (n_a_tier=1) | Data gap |
 | --- | --- | --- | --- | --- |
-| Fruit juices, non-apple | — | Pb | Cd, tAs, iAs, Ni | MeHg, tHg, Al, Cr-VI, Sn |
+| Fruit juices, non-apple | — | Pb, iAs (grape p30=7.8 ppb sample-level Path A thin; partial-fit caveat) | Cd, tAs, Ni | MeHg, tHg, Al, Cr-VI, Sn |
 | Fruit juices, apple-containing | **iAs (publishable: dirty p30=3.0 ppb)** | Pb | Cd, tAs, Ni | MeHg, tHg, Al, Cr-VI, Sn |
 | Vegetable juices, non-root | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
 | Vegetable juices, root-vegetable-containing | — | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn (all 10) |
@@ -97,7 +97,7 @@ The per-cell percentile values, n, n_a_tier, confidence, and CC eligibility for 
 
 | Subcategory | Cell state | Best evidence | n_a_tier | Notes |
 | --- | --- | --- | --- | --- |
-| Fruit juices, non-apple | Path A thin | FDA 2016 Juice-Grape (n=61) — non-apple juice subset | 1 | One A-tier sample-level source; second needed. |
+| Fruit juices, non-apple | Path A thin (sample-level computable) | FDA 2016 grape and grape-containing juice category n=58 quantified | 1 | **Path A thin (n_a_tier=1, sample-level).** Computed grape-category sample-level distribution: p30=7.8, p50=11.2, p90=22.6, p100=49.6 ppb. **Empirical override of variant_type label**: despite being clean_benchmark per locked architecture, iAs is empirically dirty in non-apple juice — grape-category iAs (mean 12.9 ppb) is 2-5× apple-juice iAs (mean 4.1 ppb). p30=7.8 ppb is 61% below EU 20 ppb cap. Partial-fit caveat (FDA 2016 covers grape only; broader non-apple-juice population includes lower-iAs orange/grapefruit/cranberry). Closing to at-bar requires 2nd non-apple-juice iAs source covering more juice types. |
 | Fruit juices, apple-containing | **At bar** | FDA 2011 single-strength apple juice (n=94) + FDA 2016 (grape-and-grape-containing subset for cross-juice context) + FDA CTZ 10 ppb cap | 2 | **At bar (cycle 13).** Per Part 19 dirty designation: dirty p30 = 3.0 ppb (FDA 2011 lower-bound deterministic; TR values treated as 0). Sample-level CSV at `data/evidence/category5_apple_juice_arsenic_speciation_*.csv`. p100 = 9.8 ppb. p30 is 70% below FDA CTZ 10 ppb cap. Per-page CC block rebuilt at [[products/fruit-juices-apple-containing]]. |
 | Plant milks, rice-based | Approaching | Da Mato 2026 (n=25 EU rice-based drinks; summary-level mean=15, median=15, range 7-24 ppb) + Gu 2020 (rice-milk-powder n=3 triangulation, below 10-sample floor) + EU 2023 30 ppb cap | 2 | Path A summary-level (no per-sample distribution from Da Mato 2026 published). Estimated dirty p30 ≈ 12 ppb (range-based); p100 = 24 ppb. Cell is **approaching**, not at-bar — confidence is low (2 studies; Part 6 medium = 3+). Closing requires either sample-level extraction from Da Mato 2026 supplementary tables or a 3rd direct rice-plant-milk iAs source. |
 | All other subcategories | data gap | — | 0 | iAs in non-rice plant-milks, vegetable juices, tea/coffee/soft-drinks/etc. not in corpus. |

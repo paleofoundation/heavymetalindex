@@ -691,3 +691,34 @@ Notes: Built fourth Cat 5 per-page CC candidate block. Subcategory: plant-milks-
   Closing 8 of 10 analyte cells (the data gaps) requires multi-element direct surveys of almond/oat/coconut beverages — clean-benchmark target paper for the contamination-platform comparison. This is the row that most needs additional corpus growth in Cat 5.
 
   No stop conditions triggered. Cycle 16 of overnight loop. Next cycle: fruit-juices-non-apple (1 approaching Pb + 4 thin: Cd/tAs/iAs/Ni via FDA 2018 + FDA 2022 + Weldegebriel 2025 + FDA 2016 grape subset).
+
+## [2026-05-09] resynthesis | fruit-juices-non-apple-cc-block — Cat 5 row 1 CC block; iAs Part 19 empirical override (grape-category p30=7.8 ppb)
+Pages affected: [[products/fruit-juices-non-apple]] (CC block rebuilt under Part 19); [[products/category-5-beverages-master]] (cells updated; iAs finding documented).
+Notes: Built fifth Cat 5 per-page CC candidate block. Subcategory: fruit-juices-non-apple (locked Cat 5 row 1; clean_benchmark variant_type — paired against fruit-juices-apple-containing as contamination platform; primary_metals_of_concern=[Pb, iAs]).
+
+  Notable Part 19 finding: **per-analyte clean/dirty empirical override of variant_type label**. The locked architecture calls fruit-juices-non-apple "clean_benchmark," but FDA 2016 grape-and-grape-containing juice data shows non-apple-juice iAs is 2-5× HIGHER than apple-juice iAs:
+   - Apple-juice iAs (cycle 13 finding): n=94, p30=3.0, p50=4.9, p90=7.7, p100=9.8 ppb, mean=4.09
+   - Grape-juice iAs (cycle 17 computed sample-level, n=58 quantified): p30=7.8, p50=11.2, p90=22.6, p100=49.6 ppb, mean=12.91
+
+  Per CLAUDE.md Part 19: "Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. An analyte is 'dirty' when measured field values cluster above the parent-category clean benchmark for that analyte." So iAs in non-apple juice is empirically DIRTY despite the clean_benchmark variant_type label. This does NOT trigger a stop condition — it is an explicit Part-19-supported per-analyte override, not an A-tier-vs-A-tier contradiction.
+
+  iAs cell determination:
+   - Path A thin sample-level (n_a_tier=1; FDA 2016 grape-category sole sample-level source).
+   - Computed deterministic percentiles from data/evidence/category5_grape_juice_inorganic_arsenic_samples.csv (n=58 quantified rows; 3 NS rows excluded): p10=5.4, p20=6.5, p30=7.8, p40=10.5, p50=11.2, p60=13.0, p70=14.8, p80=17.4, p90=22.6, p95=25.6, p100=49.6 ppb; mean=12.91.
+   - Per Part 19 dirty designation: target = aggregate dirty p30 = 7.8 ppb. p100 = 49.6 ppb is **2.5× the EU 20 ppb cap** at the upper-tail (some grape-juice samples exceed EU iAs limit).
+   - Partial-fit caveat: FDA 2016 covers only grape and grape-containing juice. Broader non-apple-juice subcategory includes orange/grapefruit/cranberry/pomegranate/etc. which are typically lower-iAs. Grape-category bridge is conservative (overestimating) for the dirty p30 strict bar.
+   - Closing to at-bar requires either a 2nd non-apple-juice iAs source covering more juice types, or population-of-interest restriction to grape-category juice with named-row designation.
+
+  Other 9 analytes:
+   - Pb: clean (architectural intent supported empirically). 3 sources in corpus (FDA 2018 longitudinal + FDA 2022 TDS n=3 grapefruit Pb=0 clean signal + Weldegebriel 2025 n=80 Ethiopia); approaching but per-page sample-level CSV extraction pending. Confidence=medium per Part 6 (3 studies).
+   - Cd, Ni: dirty Path A thin from Weldegebriel 2025 (extraction pending).
+   - tAs: dirty Path A thin (FDA 2016 grape co-measurement + FDA 2022 TDS grapefruit tAs=0).
+   - MeHg, tHg, Al: data gap.
+   - Cr-VI: data gap with chemistry-mechanism inference partial (acidic juice matrix; weaker inference than milk-like neutral-pH).
+   - Sn: data gap modern; canned-Sn-leach historical context for canned subset only.
+
+  Frontmatter updated: evidence_fitness EF-5→EF-3; public_evidence_label "Path A thin (iAs grape-category bridge); approaching (Pb)"; review_state phase3_part19; hmtc_threshold_status thin_iAs_dirty_p30_grape_bridge; sources 2→5; updated 2026-05-01→2026-05-09.
+
+  Cat 5 master updated: cycle-12 skeleton classification of "Path A thin" iAs is correct, but the cell is now sample-level Path A thin (not summary-level) with computable p30=7.8 ppb; per-analyte master tables updated with the computed values + Part 19 empirical-override caveat.
+
+  No stop conditions triggered. The variant_type-vs-empirical mismatch is a Part 19 documented feature, not a row-fit-rule failure. Cycle 17 of overnight loop. Next cycle: fruit-juice-not-canned (separate page; cross-references multiple FDA sources including FDA 2011 apple + FDA 2016 grape + FDA 2018 longitudinal).
