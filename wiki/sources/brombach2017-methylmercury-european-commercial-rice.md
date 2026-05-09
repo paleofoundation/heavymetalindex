@@ -34,12 +34,19 @@ Article-level summary (Table S1 sample-level values are in supporting informatio
 | Scope | n | tHg range (ppb) | tHg mean ± SD (ppb) | MeHg range (ppb) | MeHg mean ± SD (ppb) | MeHg/tHg fraction |
 | --- | ---: | --- | --- | --- | --- | --- |
 | All commercial rice products | 87 | 0.53 – 11.1 | 3.04 ± 2.7 | 0.11 – 6.45 | 1.91 ± 1.07 | 71 ± 26 % |
-| Baby-food rice (samples 11-17) | 7 | (within population, not significantly different per author) | (within population) | (within population) | (within population) | (within population) |
-| Toddler rice cakes (samples 18-19) | 2 | (within population) | (within population) | (within population) | (within population) | (within population) |
+| **Pre-cooked baby rice products (paper-text grouping; n=9 = samples 11-19)** | **9** | — | **1.85 ± 0.71** (significantly LOWER than other rice 3.25 ± 2.14, p=0.046) | — | **1.71 ± 0.73** (NOT significantly different from other rice 1.98 ± 1.10, p=0.29) | — |
+
+**Cycle-22 paper-text update (commit pending)**: The Brombach 2017 main paper (page 9, accepted manuscript) explicitly groups all pre-cooked baby rice products as **n=9** (samples 11-19), not the prior split of n=7 baby-food rice + n=2 toddler rice cakes. The author-reported baby-rice-specific summary stats are tHg = 1.85 ± 0.71 ppb and MeHg = 1.71 ± 0.73 ppb. The tHg in baby-rice is significantly LOWER than in non-baby rice products (p=0.046), interpreted by the authors as cooking/processing removing inorganic Hg but preserving MeHg. This is matrix-axis-exact data for the rice-cereal cell and supersedes the earlier-cycle use of the broader n=87 distribution as the baby-rice MeHg estimator.
+
+Estimated baby-rice-specific percentiles (assuming approximately normal distribution from mean ± SD; n=9 below 10-sample defensibility floor for absolute distribution math but stated as a population statistic by the authors):
+- MeHg: p30 ≈ 1.33 ppb, p50 ≈ 1.71 ppb, p90 ≈ 2.65 ppb (mean+1.282·SD)
+- tHg: p30 ≈ 1.48 ppb, p50 ≈ 1.85 ppb, p90 ≈ 2.76 ppb
+
+These remain summary-level (Table S1 sample-level not in main PDF; supplementary materials separate file).
 
 Exposure context: MeHg in all rice products studied did not exceed the EFSA provisional tolerable weekly intake (PTWI) of 1.3 µg/kg b.w./week for MeHg by single-rice consumption, but **30% of all commercial market rice products exceeded 10% of the toddler PTWI** and **13% exceeded 10% of the adult PTWI** for rice-based diets — meaning rice can contribute non-trivially to MeHg intake for high-rice-consumption toddlers.
 
-Sample-level Table S1 in the supplementary materials (per the article's reference to "Table S1, supporting Information") contains per-sample tHg and MeHg values; that table is not in the main PDF and was not extracted in this initial ingest. A follow-up sample-level extraction would enable computing the rice-cereal-specific MeHg p30/p50/p90/p100 from the 7-sample baby-rice subset. For now, the author-stated "not significantly different" claim plus the overall mean ± SD is the appropriate level of synthesis.
+Sample-level Table S1 in the supplementary materials remains in supporting information (separate file from the main PDF). A direct supplementary fetch would enable computing the rice-cereal-specific MeHg p30/p50/p90/p100 distribution exactly. For now, the **n=9 baby-rice-specific summary stats** (cycle-22 update from main-text page 9) are the closest matrix-axis-exact synthesis available.
 
 ## Routing to HMTc subcategories
 

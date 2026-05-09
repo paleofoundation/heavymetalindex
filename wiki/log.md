@@ -904,3 +904,34 @@ Notes: Cycle 21 of overnight loop (re-fired by Karen with fresh prompt). Per the
     7. Chekri 2019 row-fit re-classification
 
   Next cycle should continue the queue (cycle 22 = Brombach 2017 Table S1 if accessible, else Weldegebriel 2025) OR begin Priority 5 (other HMTc product categories) OR regenerate hmtc_standards_gap_report.csv.
+
+## [2026-05-09] resynthesis | cycle-22-brombach-refinement-weldegebriel-method-flag — Refined rice-cereal MeHg/tHg with baby-rice-specific n=9; flagged Weldegebriel method-quality concerns
+Pages affected: [[sources/brombach2017-methylmercury-european-commercial-rice]] (baby-rice-specific n=9 grouping documented), [[products/infant-and-child-foods-master]] (rice-cereal MeHg + tHg cells refined). No commit yet for Weldegebriel review (deferred to source-page comment in next cycle).
+Notes: Cycle 22 of overnight loop (post-cycle-21 wakeup fired). Per priority order, evaluated Weldegebriel 2025 + Brombach 2017 supplementary candidates.
+
+  **Weldegebriel 2025 review** — paper found in raw/markdown/FM_12546707/FM_12546707.md (was external acquisition, markdown extract). Key findings:
+   1. **Composite-sample design**: "For each brand, individual samples were pooled and homogenized to obtain representative composite samples for analysis." So n=80 reduces to 8 effective brand composites with triplicate analytical reps; **NOT 80 independent sample-level data points** as initial routing suggested.
+   2. **AAS LOD/LOQ anomaly**: paper reports Cd LOQ=0.01 / LOD=0.04 mg/L; Pb LOQ=0.04 / LOD=0.08 mg/L; Ni LOQ=0.01 / LOD=0.03 mg/L. **LOD > LOQ is method-quality reverse** (typically LOD < LOQ). Either values are mis-labeled in source paper or method has unusual reporting conventions. With Pb LOD potentially at 80 ppb, the reported median Pb of 35 ppb would be below the actual LOD if the table is read literally.
+   3. **Per-fruit-type means**: Pb 31-36 ppb, Cd 56-80 ppb, Ni 34-70 ppb across mango/pineapple/strawberry/cocktail composites.
+   4. **Decision**: Weldegebriel 2025 stays as Path A summary-level supporting context already cited. Adding it to fruit-juice Pb sample-level pool would muddy the cleaner FDA 2018 n=993 distribution given the composite-sample design + AAS LOD anomaly. Deferred a method-quality flag annotation to the source page (later cycle).
+
+  **Brombach 2017 main-paper review** — extracted from main PDF page 9 (accepted manuscript text):
+   1. **Paper groups all pre-cooked baby rice products as n=9** (samples 11-19), NOT the prior split of n=7 baby-food rice + n=2 toddler rice cakes. The author paper-text statement supersedes the per-sample split previously used.
+   2. **Baby-rice-specific tHg**: 1.85 ± 0.71 ppb (significantly LOWER than non-baby rice 3.25 ± 2.14, p=0.046). Authors interpret as cooking/processing removing iHg but preserving MeHg.
+   3. **Baby-rice-specific MeHg**: 1.71 ± 0.73 ppb (NOT significantly different from non-baby rice 1.98 ± 1.10, p=0.29). This is the matrix-axis-exact data for the rice-cereal MeHg cell.
+   4. Sample-level Table S1 still in supplementary materials (separate file from main PDF; not in raw/).
+
+  **Cell-state changes**:
+   - Rice-cereal MeHg: refined p30 from broader n=87 (mean 1.91 ± 1.07) to **baby-rice-specific n=9** (mean 1.71 ± 0.73). Estimated p30 ≈ 1.33 ppb (normal-approximation), p90 ≈ 2.65 ppb.
+   - Rice-cereal tHg: cell upgraded n_a_tier=1 → 2 (FDA 2024 n=64 + Brombach baby-rice n=9). Brombach's tHg 1.85 ± 0.71 ppb suggests FDA's <LOQ readings reflect different LOQ sensitivities, not zero tHg — important caveat for downstream interpretation.
+   - Brombach source page Key Numbers table updated with baby-rice-specific n=9 row + cycle-22 narrative.
+
+  No new at-bar cells; both refinements are summary-level n_a_tier=2 still requiring 3rd source for medium confidence per Part 6.
+
+  **Re-ingest queue status after cycle 22**:
+   - DONE: FDA 2018 fruit-juice Pb sample-level extraction (cycle 21)
+   - DONE: Brombach 2017 main-paper baby-rice-specific n=9 refinement (this cycle; supplementary Table S1 still pending)
+   - REVIEWED-NOT-EXTRACTED: Weldegebriel 2025 (composite design + AAS LOD anomaly; not suitable for sample-level pool addition)
+   - REMAINING: Sadiq 2021 Figure 1 visual extraction (low priority); Da Mato 2026 supplementary; Marques 2021 PDF/table review; Sipahi 2014 Al unit disambiguation; Chekri 2019 row-fit re-classification; Brombach Table S1 supplementary fetch.
+
+  No stop conditions triggered. Cycle 22 of overnight loop. Next cycle: continue queue OR begin Priority 5 (other HMTc categories).
