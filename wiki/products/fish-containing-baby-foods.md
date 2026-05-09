@@ -49,7 +49,7 @@ cc_relationship:
       - teething-and-snacks-rice-based
     rationale: "Non-fish baby foods constitute the clean reference distribution for MeHg in Category 1; fish-containing baby foods diverge from this distribution because of bioaccumulation, which is the contamination platform being characterized."
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-09
 sources: 4
 ---
 
@@ -81,26 +81,43 @@ This page is part of the Category 1 Evidence Fitness pilot. It summarizes source
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## CC Candidate Summary (Part 19 framework)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This block was rebuilt 2026-05-09 in Phase 3 against the [Part 19 clean/dirty subcategory framework](../../CLAUDE.md). Clean and dirty are per-analyte empirical designations within the parent category (Infant and Child Foods → fish-containing baby foods). This subcategory has no within-pair partner; standalone subcategory with provisional p90/p30 noted alongside summary-only context. The clean subcategory standard is p90 (lenient bar). The dirty subcategory standard is p30 (strict bar; 70% of samples in the dirtier subcategory currently fail it, creating market-ratcheting pressure per Part 2). Both standards are reported alongside p100 (max observed in the subcategory). Final HMT&C values must remain no higher than the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.
 
-This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Per-analyte synthesis is mirrored from [[products/infant-and-child-foods-master]] (the canonical 16-subcategory × 10-analyte master summary). Sample-level distributions for Pb, Cd, tAs, and tHg derive from FDA FY2009-FY2024 baby-food compliance data and FDA FY2023-FY2025 formula special survey where applicable; iAs from FDA 2016 inorganic arsenic infant/toddler dataset; remaining analytes from summary-only sources or carry explicit data gaps as noted per row.
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+| Analyte | Subcategory designation | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| --- | --- | ---: | ---: | ---: | ---: | --- | --- |
+| [[metals/lead\|Pb]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| [[metals/cadmium\|Cd]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| [[metals/arsenic-total\|tAs]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| [[metals/arsenic-inorganic\|iAs]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| [[metals/mercury-methyl\|MeHg]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| [[metals/mercury-total\|tHg]] | summary-only | summary range | — | 0 | 2 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
+| [[metals/nickel\|Ni]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| [[metals/aluminum\|Al]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| [[metals/chromium-hexavalent\|Cr-VI]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| [[metals/tin\|Sn]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | contaminated-platform P10 | 2 sources; 0 distribution sources; 2 summary sources; N=3 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | 10 ug/kg (fda2025_pb_baby_food_10) |
-| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=3 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | 40 ug/kg (eu2023_cd_babyfood_cereal_40) |
-| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 2 sources; 0 distribution sources; 2 summary sources; N=3 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| [[metals/mercury-total]] (tHg) | contaminated-platform P10 | 2 sources; 0 distribution sources; 2 summary sources; N=3 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| [[metals/mercury-methyl]] (MeHg) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: exact analyte species is missing. | No loaded cap |
-| [[metals/aluminum]] (Al) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=3 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| [[metals/nickel]] (Ni) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=3 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| [[metals/tin]] (Sn) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N=3 | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+### Per-analyte classification record
+
+Concise audit-trail summary of the within-pair (or standalone) clean/dirty designation per analyte. For full empirical comparator basis (p50/p90 against the partner subcategory) see [[products/infant-and-child-foods-master]].
+
+| Analyte | Designation | Eligibility note |
+| --- | --- | --- |
+| Pb | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| Cd | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| tAs | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| iAs | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| MeHg | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| tHg | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
+| Ni | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| Al | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
+| Cr-VI | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| Sn | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 
 <!-- END: hmi-hmtc-evidence-summary -->
 

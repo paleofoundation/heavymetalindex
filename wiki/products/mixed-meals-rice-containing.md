@@ -29,7 +29,7 @@ cc_relationship:
       role_of_partner: clean_benchmark
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-07
+updated: 2026-05-09
 sources: 5
 ---
 
@@ -61,24 +61,43 @@ This page is part of the Category 1 Evidence Fitness pilot. It summarizes source
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## CC Candidate Summary (Part 19 framework)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This block was rebuilt 2026-05-09 in Phase 3 against the [Part 19 clean/dirty subcategory framework](../../CLAUDE.md). Clean and dirty are per-analyte empirical designations within the parent category (Infant and Child Foods → mixed meals (rice-containing)). For each HMT&C analyte, this subcategory is classified clean or dirty by comparing its empirical distribution against its sibling subcategory on [[products/mixed-meals-non-rice]] (the within-pair partner). The clean subcategory standard is p90 (lenient bar). The dirty subcategory standard is p30 (strict bar; 70% of samples in the dirtier subcategory currently fail it, creating market-ratcheting pressure per Part 2). Both standards are reported alongside p100 (max observed in the subcategory). Final HMT&C values must remain no higher than the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.
 
-This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Per-analyte synthesis is mirrored from [[products/infant-and-child-foods-master]] (the canonical 16-subcategory × 10-analyte master summary). Sample-level distributions for Pb, Cd, tAs, and tHg derive from FDA FY2009-FY2024 baby-food compliance data and FDA FY2023-FY2025 formula special survey where applicable; iAs from FDA 2016 inorganic arsenic infant/toddler dataset; remaining analytes from summary-only sources or carry explicit data gaps as noted per row.
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+| Analyte | Subcategory designation | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| --- | --- | ---: | ---: | ---: | ---: | --- | --- |
+| [[metals/lead\|Pb]] | **clean** | clean p90 = **3.92 ppb** | 11.60 ppb | 9 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
+| [[metals/cadmium\|Cd]] | **dirty** | dirty p30 = **0.00 ppb** | 7.00 ppb | 9 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
+| [[metals/arsenic-total\|tAs]] | **dirty** | dirty p30 = **5.26 ppb** | 28.30 ppb | 9 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
+| [[metals/arsenic-inorganic\|iAs]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| [[metals/mercury-methyl\|MeHg]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| [[metals/mercury-total\|tHg]] | **dirty** | dirty p30 = **0.00 ppb** | 0.30 ppb | 3 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=3 below 10-sample defensibility floor. |
+| [[metals/nickel\|Ni]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| [[metals/aluminum\|Al]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| [[metals/chromium-hexavalent\|Cr-VI]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| [[metals/tin\|Sn]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=9 | Below confidence gate: only one fit distribution source is loaded. | 10 ug/kg (fda2025_pb_baby_food_10) |
-| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=9 | Below confidence gate: only one fit distribution source is loaded. | 40 ug/kg (eu2023_cd_babyfood_cereal_40) |
-| [[metals/arsenic-total]] (tAs) | contaminated-platform P10 | 3 sources; 1 distribution source; 2 summary sources; N=9 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
-| [[metals/arsenic-inorganic]] (iAs) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
-| [[metals/mercury-total]] (tHg) | contaminated-platform P10 | 1 source; 1 distribution source; 0 summary sources; N=3 | Below confidence gate: only one fit distribution source is loaded. | No loaded cap |
-| [[metals/nickel]] (Ni) | contaminated-platform P10 | 1 source; 0 distribution sources; 1 summary source; N not loaded | Not estimable from summaries alone; needs sample-level values or the exact target percentile. | No loaded cap |
+### Per-analyte classification record
+
+Concise audit-trail summary of the within-pair (or standalone) clean/dirty designation per analyte. For full empirical comparator basis (p50/p90 against the partner subcategory) see [[products/infant-and-child-foods-master]].
+
+| Analyte | Designation | Eligibility note |
+| --- | --- | --- |
+| Pb | clean | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
+| Cd | dirty | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
+| tAs | dirty | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
+| iAs | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| MeHg | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| tHg | dirty | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=3 below 10-sample defensibility floor. |
+| Ni | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| Al | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| Cr-VI | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
+| Sn | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
 
 <!-- END: hmi-hmtc-evidence-summary -->
 
