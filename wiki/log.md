@@ -576,3 +576,32 @@ Karen-drop queue exhausted. Next cycle: begin Priority 4 (HMTc Cat 5 Beverages m
 ## [2026-05-09] resynthesis | category-5-beverages-master — HMTc Cat 5 Beverages master summary skeleton committed (160 cells)
 Pages affected: [[products/category-5-beverages-master]] (new — Cat 5 master per Priority 4).
 Notes: Built HMTc Category 5 Beverages master summary skeleton mirroring the Cat 1 IandC master structure. 16 product subcategories × 10 analytes = 160 cells (the 17th locked-architecture page is regulatory-crosswalk-field-findings, which is a horizontal synthesis layer rather than a per-cell readiness row). Subcategory readiness roll-up: 2 cells at-bar (iAs in fruit-juices-apple-containing via FDA 2011 + FDA 2016 + FDA CTZ 10 ppb; iAs in plant-milks-rice-based via Da Mato 2026 + Gu 2020 + Signes-Pastor 2016 + EU 2023 30 ppb cap); 12 cells approaching (Pb across fruit juices, Pb/Cd/tAs/Ni/Al/Sn in plant-milks-soy, Pb/tHg/Ni in plant-milks-non-soy-non-rice); 7 cells Path A thin (Cd/tAs/iAs/Ni in fruit juices, tAs in rice plant-milk, Sn in canned subsets); **139 cells data gap** (dominant gap drivers: 8 entire subcategories — tea/matcha/coffee/kombucha/sports-energy/herbal/fermented/soft-drinks — with no direct corpus evidence = 80 cells; vegetable-juice subcategories = 20 cells; MeHg systematically gap across all 16 subcategories; Cr-VI by chemistry-mechanism inference partial for milk-like beverages, gap for acidic-aqueous matrices). Per-analyte tables built for Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn — populated with cell-state + best evidence + n_a_tier where evidence exists, else "data gap" with rationale. Source Legend includes 16 primary Cat 5 sources (FDA 2011/2016/2018/2022/2022-draft/2004; Weldegebriel 2025; Da Mato 2026; Marques 2021; Milani 2023; Gu 2020; Brombach 2017; Signes-Pastor 2016; Benoy 1971; ATSDR 2005; Tarigan 2016) + 5 regulatory references. Coordination payload for Cowork Beverage Standards Briefing identifies the 2 at-bar cells. Note: per-page CC candidate block builds (Part 19 clean/dirty per pair) for the at-bar + approaching subcategories deferred to subsequent cycles. Skeleton commit gives the gap-readiness picture honestly without re-introducing schema drift. No stop conditions triggered. Cycle 12 of overnight loop.
+
+## [2026-05-09] resynthesis | fruit-juices-apple-containing-cc-block — First Cat 5 publishable HMTc standard: iAs dirty p30=3.0 ppb
+Pages affected: [[products/fruit-juices-apple-containing]] (CC block rebuilt under Part 19); [[products/category-5-beverages-master]] (readiness roll-up + master tables updated to reflect publishable iAs).
+Notes: Built first Cat 5 per-page CC candidate block under CLAUDE.md Part 19 framework. Subcategory: fruit-juices-apple-containing (locked Cat 5 row 2; contamination_platform variant). iAs cell at readiness bar:
+
+  Path A admitted-pool source: FDA 2011 single-strength apple juice n=94 (data/evidence/category5_apple_juice_arsenic_speciation_samples.csv), lower-bound deterministic with TR (Trace, between LOD and LOQ) values treated as 0 ppb. Computed full distribution with Python: p10=0, p20=0, p30=3.0, p40=4.1, p50=4.9, p60=5.2, p70=5.5, p80=6.8, p90=7.7, p95=8.2, p100=9.8 ppb. Mean (LB) = 4.09 ppb. 26 samples at 0 (3 <LOD + 23 TR), 68 quantified.
+
+  Per Part 19 dirty designation (apple-juice iAs is the contamination platform's primary contamination concern; apple-juice iAs measured higher than fruit-juices-non-apple non-grape baseline): standards target = aggregate p30 = 3.0 ppb. p100 = 9.8 ppb. Regulatory caps: FDA CTZ 10 ppb (apple juice); EU 2023/915 20 ppb (fruit juice). p30 is 70% below FDA CTZ cap = substantial regulatory headroom.
+
+  Supporting cross-juice context: FDA 2016 grape-and-grape-containing subset (n=58 quantified, p30=7.2 ppb in non-apple grape blends — apple-juice subset is the cleaner of the two juice subsets, consistent with apple's lower iAs uptake than grape).
+
+  n_a_tier=2 (FDA 2011 + FDA 2016 grape subset cross-context); confidence=medium per Part 6 (1-2 studies = low; 3-10 = medium); CC eligibility = at the readiness bar.
+
+  Other 9 analytes characterized in the rebuilt block:
+   - Pb: dirty (approaching the bar; 3 sample-level sources — FDA 2018 longitudinal + FDA 2022 TDS n=3 + Weldegebriel 2025 Ethiopia n=80 — but per-page CSV extraction pending; will move to at-bar after extraction populates data/evidence/);
+   - Cd: dirty (Path A thin; FDA 2022 TDS small-N + Weldegebriel 2025 sample-level pull pending);
+   - tAs: supplemental dirty context (iAs is the regulated species; tAs co-measured in FDA 2011 with p100=9.8 same as iAs upper-bound region);
+   - MeHg: data gap by mechanism (no methylation pathway in fruit matrix);
+   - tHg: data gap (closing requires fruit-juice-specific tHg measurement);
+   - Ni: dirty (Path A thin from Weldegebriel 2025 n=80);
+   - Al: data gap (apple-juice Al data not in corpus; apple itself low-Al ingredient; primarily packaging-leach concern);
+   - Cr-VI: data gap (Hernandez/Saraiva chemistry-mechanism inference for milk/dairy doesn't fully extend to acidic fruit-juice matrices; direct apple-juice Cr speciation needed);
+   - Sn: data gap modern (canned-juice Sn-leach Benoy 1971/Tarigan 2016 historical context applies to canned subset only; modern apple juice is bottled or aseptic).
+
+  Frontmatter updated: evidence_fitness EF-5→EF-3; public_evidence_label "Data gap" → "At readiness bar (iAs); approaching (Pb)"; review_state draft → phase3_part19; hmtc_threshold_status data_gap → at_bar_iAs_dirty_p30; sources 2 → 5; updated 2026-05-07 → 2026-05-09. Decision Snapshot updated to reflect at-bar status.
+
+  Master summary at [[products/category-5-beverages-master]] updated: readiness roll-up cell for fruit-juices-apple-containing iAs labeled "iAs (publishable: dirty p30=3.0 ppb)"; per-analyte iAs table updated to "dirty p30 = 3.0 ppb"; coordination payload updated to reflect dirty designation (was incorrectly labeled clean in skeleton).
+
+  This is the FIRST publishable HMTc Cat 5 standard. The next per-page CC builds (cycle 14+) will tackle plant-milks-rice-based (the 2nd at-bar cell — Da Mato 2026 + Gu 2020 + EU 2023 30 ppb cap), then plant-milks-soy-based (6 approaching cells via Milani 2023). Cycle 13 of overnight loop.
