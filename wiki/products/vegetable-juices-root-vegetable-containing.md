@@ -12,11 +12,11 @@ primary_metals_of_concern: [Pb, Cd]
 vulnerable_population: general_population
 applicable_regulations: [fda2022_draft_pb_other_juice_20]
 evidence_fitness: EF-5
-public_evidence_label: Data gap
-review_state: draft
-hmtc_threshold_status: data_gap
+public_evidence_label: Data gap with documented rationale
+review_state: phase3_part19
+hmtc_threshold_status: data_gap_documented
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-09
 sources: 0
 ---
 
@@ -52,20 +52,26 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Root-vegetable-containing juices are locked as **contamination_platform** variant_type within the vegetable-juice split, paired against vegetable-juices-non-root (cycle 19) as clean_benchmark.
 
-This row's standards target is **contaminated-platform P10**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Subcategory scope: carrot juice, beet juice, sweet-potato juice, ginger-juice (ginger is a rhizome but routes here per locked architecture), and blends including these. Root-veg ingredient cascade evidence exists at HMTc Cat 1: **root-vegetable-purees** has FDA 2024 baby-food sample-level data showing Pb p90=15 ppb and Cd p90=22 ppb in sweet-potato baby food. The juice-form should empirically inherit these elevated values (with juicing concentration factor — most root-veg juice is concentrated 10-15× from raw vegetable).
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+| Metal | Clean/dirty (anticipated empirical) | n | n_a_tier | CC eligibility | Closing rationale |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | **dirty (anticipated; root-veg ingredient cascade)** | 0 | 0 | data gap | **Root vegetables are documented Pb-uptakers**; FDA 2024 baby-food sweet-potato has p90=15 ppb. Closing this row requires direct root-veg-juice survey. |
+| [[metals/cadmium]] (Cd) | **dirty (anticipated)** | 0 | 0 | data gap | Root vegetables are documented Cd-uptakers; FDA 2024 baby-food sweet-potato Cd p90=22 ppb. Same closing path. |
+| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | data gap (potentially elevated for carrot/beet from contaminated soils) | 0 | 0 | data gap | — |
+| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
+| [[metals/nickel]] (Ni) | data gap | 0 | 0 | data gap | — |
+| [[metals/aluminum]] (Al) | data gap | 0 | 0 | data gap | — |
+| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 0 | data gap | Acidic-aqueous juice matrix. |
+| [[metals/tin]] (Sn) | data gap | 0 | 0 | data gap | Modern root-veg juice is bottled/aseptic-pack; canned subset minor. |
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | 20 ug/kg (fda2022_draft_pb_other_juice_20) |
-| [[metals/cadmium]] (Cd) | contaminated-platform P10 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+**Wishlist priority**: carrot/beet/sweet-potato juice multi-element survey; this row is the highest-priority Cat 5 vegetable-juice gap because the root-veg ingredient cascade strongly predicts elevated Pb/Cd that consumers may not anticipate.
 
 <!-- END: hmi-hmtc-evidence-summary -->
 

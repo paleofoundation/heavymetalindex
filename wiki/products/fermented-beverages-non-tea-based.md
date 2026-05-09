@@ -12,11 +12,11 @@ primary_metals_of_concern: [Pb, Cd]
 vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-5
-public_evidence_label: Data gap
-review_state: draft
-hmtc_threshold_status: data_gap
+public_evidence_label: Data gap with documented rationale
+review_state: phase3_part19
+hmtc_threshold_status: data_gap_documented
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-09
 sources: 0
 ---
 
@@ -52,20 +52,27 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Non-tea fermented beverages are locked as **clean_benchmark** variant_type within the kombucha-and-fermented-beverages split, paired against kombucha-tea-based (cycle 18) as contamination platform. Standards target = clean p90.
 
-This row's standards target is **clean-platform P90**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Subcategory scope: water kefir, jun (similar to kombucha but with green tea + honey), beverage-tibet (mineral-water-fermented), fermented coconut water, fermented juices (excluding wine/cider). Excluded from this row per locked-architecture boundary: kombucha (tea-based, separate row), beer/wine/spirits (alcoholic; outside HMT&C scope per CLAUDE.md Part 4 if outside HMTc Cat 5 architecture).
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+Heavy-metal exposure pathways are similar to kombucha but **without the Camellia sinensis Al-accumulation cascade** — water kefir uses a sugar-water base; jun uses green tea (so partial-Camellia cascade); fermented juices inherit the underlying juice's profile.
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | clean-platform P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
-| [[metals/cadmium]] (Cd) | clean-platform P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+| Metal | Clean/dirty (anticipated empirical) | n | n_a_tier | CC eligibility | Closing rationale |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd) | clean (anticipated; water-base or non-tea base) | 0 | 0 | data gap | Closing requires multi-element water-kefir / jun / fermented-juice survey. |
+| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated) | 0 | 0 | data gap | — |
+| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
+| [[metals/nickel]] (Ni) | clean (anticipated, small) | 0 | 0 | data gap | Stainless-steel fermentation vessels; trace transfer possible. |
+| [[metals/aluminum]] (Al) | clean (architectural intent supported — no Camellia accumulator base) | 0 | 0 | data gap | The clean-vs-kombucha (cycle 18) Al comparison would be the highest-value test of Camellia cascade vs no-tea-base differentiation. |
+| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial; acidic matrix) | 0 | 0 | data gap | Fermented beverages are acidic (pH 3-4); milk-like inference partial. |
+| [[metals/tin]] (Sn) | data gap | 0 | 0 | data gap | Modern home-brew non-tea-fermented is glass/ceramic vessel; commercial is glass/PET; not canned. |
+
+**Wishlist priority**: water-kefir + jun + fermented-juice multi-element survey to establish the clean baseline for the kombucha contamination-platform comparison.
 
 <!-- END: hmi-hmtc-evidence-summary -->
 

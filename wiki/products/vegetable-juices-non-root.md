@@ -12,11 +12,11 @@ primary_metals_of_concern: [Pb, Cd]
 vulnerable_population: general_population
 applicable_regulations: [fda2022_draft_pb_other_juice_20]
 evidence_fitness: EF-5
-public_evidence_label: Data gap
-review_state: draft
-hmtc_threshold_status: data_gap
+public_evidence_label: Data gap with documented rationale
+review_state: phase3_part19
+hmtc_threshold_status: data_gap_documented
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-09
 sources: 0
 ---
 
@@ -52,20 +52,28 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Non-root vegetable juices are locked as **clean_benchmark** variant_type within the vegetable-juice split, paired against vegetable-juices-root-vegetable-containing (cycle 19) as contamination platform. Standards target = clean p90.
 
-This row's standards target is **clean-platform P90**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Subcategory scope: tomato juice, kale/spinach/leafy-green juices, celery juice, cucumber-based green juices. Excluded: carrot, beet, sweet-potato juices (which route to root-veg-containing). The architectural rationale: leafy and stem vegetables typically have lower soil-Cd/Pb uptake than root tubers (which directly contact contaminated soils). However, leafy greens DO accumulate some metals (Cd in particular concentrates in leaves; spinach is a known Cd-accumulator), so the clean-benchmark designation is variant-specific not absolute.
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+The HMTc Cat 1 vegetable-purees-non-root subcategory (different category) has Cd p90 from FDA 2024 baby-food data — that ingredient cascade can inform anticipated juice values, but ingredients cooked-or-juiced vs purees have different concentration profiles.
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | clean-platform P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | 20 ug/kg (fda2022_draft_pb_other_juice_20) |
-| [[metals/cadmium]] (Cd) | clean-platform P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+| Metal | Clean/dirty (anticipated empirical) | n | n_a_tier | CC eligibility | Closing rationale |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | clean (anticipated low) | 0 | 0 | data gap | Closing requires direct multi-element vegetable-juice survey. FDA 2022 draft Pb cap = 20 ppb other-juice (loaded). |
+| [[metals/cadmium]] (Cd) | dirty (anticipated for leafy-green subset) | 0 | 0 | data gap | **Leafy-green-juice subset (spinach/kale) is the dirty signal candidate**: spinach is a known Cd-accumulator. Subsetting from broader non-root would surface this. |
+| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated) | 0 | 0 | data gap | Non-root vegetables are not As accumulators. |
+| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
+| [[metals/nickel]] (Ni) | clean (anticipated, leafy subset slightly higher) | 0 | 0 | data gap | — |
+| [[metals/aluminum]] (Al) | data gap | 0 | 0 | data gap | — |
+| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 0 | data gap | Acidic-aqueous matrix (tomato juice especially acidic); weaker Hernandez/Saraiva inference. |
+| [[metals/tin]] (Sn) | data gap (canned-juice subset eligible) | 0 | 0 | data gap | Canned tomato juice is a major Sn-leach historical concern (Benoy 1971, ATSDR 2005); modern aseptic tetra-pack and glass have largely replaced lined-can. |
+
+**Wishlist priority**: vegetable-juice multi-element survey distinguishing leafy-green from stem subsets; canned tomato juice Sn-leach review.
 
 <!-- END: hmi-hmtc-evidence-summary -->
 

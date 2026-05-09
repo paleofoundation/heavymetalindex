@@ -12,11 +12,11 @@ primary_metals_of_concern: [Pb]
 vulnerable_population: general_population
 applicable_regulations: [fda_21cfr165110_pb_bottled_water_5]
 evidence_fitness: EF-5
-public_evidence_label: Data gap
-review_state: draft
-hmtc_threshold_status: data_gap
+public_evidence_label: Data gap with documented rationale
+review_state: phase3_part19
+hmtc_threshold_status: data_gap_documented
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-09
 sources: 0
 ---
 
@@ -52,19 +52,27 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Flavored waters are locked as **independent_no_split** variant_type — no within-pair partner. Boundary rule: unflavored sparkling water routes to the water category (separate from Cat 5); only flavored/sweetened sparkling water + flavored still water + electrolyte-water + functional-water route here.
 
-This row's standards target is **independent-row P90**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Heavy-metal exposure: flavored water is treated-water base + flavor (natural or artificial) + minor sweetener (sugar, stevia, etc.) + sometimes carbonation. The base is municipal-treated water (subject to FDA bottled water 5 ppb Pb cap per 21 CFR 165.110). Flavor and sweetener ingredients add minimal heavy-metal load.
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+The FDA bottled water Pb 5 ppb cap (21 CFR 165.110) is loaded for this subcategory and is the **strictest applicable Pb cap** in Cat 5 — flavored-water Pb threshold is set well below typical fruit-juice (10-50 ppb FDA range) and EU 2023 plant-milk (no specific cap) levels.
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | 5 ug/kg (fda_21cfr165110_pb_bottled_water_5) |
+| Metal | Clean/dirty (anticipated) | n | n_a_tier | CC eligibility | Closing rationale |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb) | clean (FDA cap = 5 ppb loaded) | 0 | 0 | data gap | Closing requires direct flavored-water survey. **Strictest applicable Pb cap in Cat 5** at 5 ppb (21 CFR 165.110 bottled water rule). |
+| [[metals/cadmium]] (Cd); [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated; treated water base) | 0 | 0 | data gap | — |
+| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
+| [[metals/nickel]] (Ni) | clean (anticipated) | 0 | 0 | data gap | — |
+| [[metals/aluminum]] (Al) | data gap (potential aluminum-can transfer for canned subset) | 0 | 0 | data gap | — |
+| [[metals/chromium-vi|Cr-VI]] | data gap | 0 | 0 | data gap | Treated water expected to have Cr near tap-water levels (regulated under SDWA at 100 ppb total Cr). |
+| [[metals/tin]] (Sn) | data gap (canned-subset eligible) | 0 | 0 | data gap | Canned flavored water (e.g., La Croix-style) eligible for Tarigan 2016 / Benoy 1971 cascade context; modern aluminum-can dominance has reduced Sn-leach concern. |
+
+**Wishlist priority**: flavored-water multi-element survey distinguishing canned vs PET-bottle subsets.
 
 <!-- END: hmi-hmtc-evidence-summary -->
 

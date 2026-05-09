@@ -12,11 +12,11 @@ primary_metals_of_concern: [Pb, Cd, tAs]
 vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-5
-public_evidence_label: Data gap
-review_state: draft
-hmtc_threshold_status: data_gap
+public_evidence_label: Data gap with documented rationale
+review_state: phase3_part19
+hmtc_threshold_status: data_gap_documented
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-09
 sources: 0
 ---
 
@@ -52,21 +52,25 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary
+## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
 
 <!-- audience: regulator, educator, app -->
 
-> **Schema note (2026-05-08, op `schema`):** This block carries legacy "clean-platform P90 / contaminated-platform P10 (or P20)" target labels that were superseded by the Part 19 clean/dirty subcategory framework. Targets, percentiles, and confidence-readiness labels are placeholders until Phase 3 reclassifies per-analyte and rebuilds the block under p90 (clean) / p30 (dirty), both alongside p100. Do not treat values below as current HMT&C standards-readiness signals.
+This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Sports/energy drinks are locked as **independent_no_split** variant_type — no within-pair partner; standalone target is p90 if measurements were available.
 
-This row's standards target is **independent-row P90**. No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate. This generated summary does not publish final HMTc limits; it shows whether the evidence pool can support the row-standard percentile under the governing principles.
+Sports/energy drinks are formulated beverages built on treated water + electrolyte/caffeine/taurine/ingredient-blend systems. Heavy-metal exposure is expected to be low because (a) the water base is municipal-treatment-grade, (b) ingredient sourcing is generally controlled by major manufacturers, and (c) packaging is aluminum can or PET — neither a major heavy-metal contamination vector for finished beverage. Higher-priority sports-drink contaminants are sugar/HFCS, caffeine dose, artificial sweeteners, and dye colorants (none HMT&C analytes).
 
-Per the Part 19 clean/dirty subcategory framework, clean subcategories use aggregate p90 (lenient bar) and dirty subcategories use aggregate p30 (strict bar; market-ratcheting per Part 2), both reported alongside p100. Clean and dirty are per-analyte empirical designations within a parent category, not fixed labels on a subcategory. The earlier "clean-platform P90 / contaminated-platform P10 (or P20)" defaults are superseded by Part 19; the legacy targets and percentiles shown in this generated block are placeholders until Phase 3 rebuilds the block under per-analyte clean/dirty classification. Source-reported percentiles stay source context until admitted into the exact-row aggregate pool, and any final HMT&C value must be no higher than the lowest applicable loaded regulatory cap.
+| Metal | Clean/dirty (anticipated) | n | n_a_tier | CC eligibility | Closing rationale |
+| --- | --- | --- | --- | --- | --- |
+| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd) | clean (anticipated low; treated water base) | 0 | 0 | data gap | Closing requires multi-element sports-drink survey. Aluminum-can-packaged products may have trace Al transfer. |
+| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated low) | 0 | 0 | data gap | Treated water + formulated ingredients; not a concentrating matrix. |
+| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway; biologically unexpected. |
+| [[metals/nickel]] (Ni) | clean (anticipated) | 0 | 0 | data gap | — |
+| [[metals/aluminum]] (Al) | data gap (potential aluminum-can transfer) | 0 | 0 | data gap | Aluminum-can packaging context; closing requires direct survey of canned vs PET-packaged sports drinks. |
+| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 0 | data gap | Acidic-aqueous matrix; weaker Hernandez/Saraiva inference than milk-like. |
+| [[metals/tin]] (Sn) | data gap (potential canned-Sn-leach historical) | 0 | 0 | data gap | Canned subset eligible for Tarigan 2016 / Benoy 1971 cascade context. |
 
-| Metal | Standards target | Evidence pool | Confidence/readiness | Regulatory cap |
-| --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
-| [[metals/cadmium]] (Cd) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
-| [[metals/arsenic-total]] (tAs) | independent-row P90 | 0 sources; 0 distribution sources; 0 summary sources; N not loaded | Not estimable: no structured occurrence pool is loaded. | No loaded cap |
+**Wishlist priority for closing this row**: multi-element sports-drink/energy-drink survey; aluminum-can vs PET packaging comparison.
 
 <!-- END: hmi-hmtc-evidence-summary -->
 

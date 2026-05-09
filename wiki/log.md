@@ -758,3 +758,30 @@ Notes: Cycle 18 of the overnight loop. Pivoted from the cycle-12-skeleton-priori
   All 4 pages: frontmatter EF-5 retained (no new evidence); review_state draft→phase3_part19; public_evidence_label "Data gap"→"Data gap with documented rationale"; hmtc_threshold_status data_gap→data_gap_documented; sources 0 (unchanged). Legacy schema-warning blocks fully replaced with Part 19 framework.
 
   No stop conditions triggered. Cycle 18 of overnight loop. Next cycle: complete the remaining 4 fully-gap subcategories + 2 vegetable-juice subcategories + flavored-waters in a similar batched lint pass.
+
+## [2026-05-09] lint | cycle-19-cat5-remaining-gap-rationales — Batched Part 19 data-gap blocks for 7 remaining Cat 5 subcategories
+Pages affected: [[products/sports-energy-drinks]], [[products/herbal-botanical-infusions]], [[products/soft-drinks-carbonated-beverages]], [[products/fermented-beverages-non-tea-based]], [[products/vegetable-juices-non-root]], [[products/vegetable-juices-root-vegetable-containing]], [[products/flavored-waters]] — all 7 had legacy schema-warning blocks replaced with Part 19 data-gap-with-rationale blocks; frontmatter updated review_state→phase3_part19, public_evidence_label→"Data gap with documented rationale", hmtc_threshold_status→data_gap_documented, updated→2026-05-09.
+
+  After cycle 18 (4 tea/coffee subcategories) + cycle 19 (these 7), **all 11 fully-gap Cat 5 subcategories now have Part 19 data-gap-with-rationale blocks**. Combined with the 5 Path A / approaching subcategories already rebuilt (cycles 13-17), all 16 Cat 5 product subcategories are now in Part 19 form. Cycle 19 used a Python regex-batch approach for efficiency: per-page custom block content + uniform frontmatter replacement, applied across 7 pages in one pass.
+
+  Per-page key cell findings (cycle 19):
+
+  - **sports-energy-drinks** (Cat 5 row 9, independent_no_split): Treated-water base + electrolyte/caffeine system; clean (anticipated low) for most analytes. Higher-priority sports-drink contaminants are sugar/caffeine/dyes (not HMT&C analytes). Aluminum-can transfer is the only flagged data-gap concern.
+
+  - **herbal-botanical-infusions** (Cat 5 row 10, clean_benchmark for tea-taxonomy): **Clean-benchmark architectural intent supported by botany** — non-Camellia herbs (chamomile, peppermint, rooibos, hibiscus) are NOT Al accumulators (Al typically <50 mg/kg dry vs Camellia's 500-30,000). Closing this row's Al cell is the highest-value test of the tea-vs-non-tea Part 19 contamination_platform comparison.
+
+  - **soft-drinks-carbonated-beverages** (Cat 5 row 14, independent_no_split): **Cola is the most-acidic Cat 5 subcategory matrix (pH 2.5 from phosphoric acid)** — the milk-like Hernandez/Saraiva Cr(VI)<LOD inference applies LEAST. Direct cola Cr speciation = highest-value Cr-VI test in Cat 5 alongside kombucha. Caramel-color 4-MEI is regulatory benchmark context (separate from HMT&C panel).
+
+  - **fermented-beverages-non-tea-based** (Cat 5 row 15, clean_benchmark for kombucha split): Water kefir, jun (partial-Camellia cascade), beverage-tibet, fermented juices. Clean-benchmark intent supported (no Camellia accumulator base) — the clean-vs-kombucha (cycle 18) Al comparison would test Camellia cascade vs no-tea-base differentiation.
+
+  - **vegetable-juices-non-root** (Cat 5 row 3, clean_benchmark): Tomato/leafy-green/celery juices. **Leafy-green subset (spinach/kale) is the dirty-signal candidate** within this otherwise-clean variant — spinach is a known Cd-accumulator, so subsetting from broader non-root would surface this. Canned tomato juice has historical Sn-leach concern (Benoy 1971, Tarigan 2016).
+
+  - **vegetable-juices-root-vegetable-containing** (Cat 5 row 4, contamination_platform): Carrot/beet/sweet-potato juices + ginger-rhizome. Strong Pb/Cd dirty signal anticipated via root-veg ingredient cascade — FDA 2024 Cat 1 baby-food data shows sweet-potato Pb p90=15 ppb, Cd p90=22 ppb. **Highest-priority Cat 5 vegetable-juice gap because root-veg ingredient cascade strongly predicts elevated Pb/Cd that consumers may not anticipate.**
+
+  - **flavored-waters** (Cat 5 row 8, independent_no_split): Treated-water base + flavor + minor sweetener. **Strictest applicable Pb cap in Cat 5 is loaded for this row at FDA bottled water 5 ppb** (21 CFR 165.110), well below typical fruit-juice (10-50 ppb) and EU plant-milk levels.
+
+  All 7 pages: frontmatter EF-5 retained (no new evidence in corpus); review_state draft→phase3_part19; public_evidence_label "Data gap"→"Data gap with documented rationale"; hmtc_threshold_status data_gap→data_gap_documented; sources 0 (unchanged).
+
+  **Cat 5 status after cycle 19**: All 16 product subcategory pages now in Part 19 form. 1 at-bar cell (apple-juice iAs cycle 13). Remaining 159 cells distributed across approaching / Path A thin / Path B candidate / data-gap-with-rationale states. The 17th locked-architecture page is regulatory-crosswalk-field-findings (synthesis page, not a percentile-readiness row). Cat 5 is at the readiness state Karen specified: at-bar where computable, otherwise fully gap-documented with rationales.
+
+  No stop conditions triggered. Cycle 19 of overnight loop. Next cycle (cycle 20) is the 10-cycle checkpoint per the loop directive — refresh batch-reports/infant-and-child-overnight-2026-05-09.md (or create a new Cat-5-specific batch report) with cumulative cycle 11-20 state including Cat 5 readiness.
