@@ -935,3 +935,25 @@ Notes: Cycle 22 of overnight loop (post-cycle-21 wakeup fired). Per priority ord
    - REMAINING: Sadiq 2021 Figure 1 visual extraction (low priority); Da Mato 2026 supplementary; Marques 2021 PDF/table review; Sipahi 2014 Al unit disambiguation; Chekri 2019 row-fit re-classification; Brombach Table S1 supplementary fetch.
 
   No stop conditions triggered. Cycle 22 of overnight loop. Next cycle: continue queue OR begin Priority 5 (other HMTc categories).
+
+## [2026-05-09] query | priority-5-architecture-survey — Cycle 23 surfaces Priority 5 scope-discovery: Cat 2/3/4/6+ have no product pages
+Pages affected: [[batch-reports/priority-5-architecture-survey-2026-05-09]] (new).
+Notes: Cycle 23 of overnight loop. Per priority order, attempted to "begin Priority 5 — survey other HMTc product categories". Survey output:
+
+  - Total wiki/products/ pages: 44.
+  - HMTc Cat 1: 17 pages (architecture complete; 11 cells at-bar)
+  - HMTc Cat 5: 18 pages (architecture complete; 3 cells at-bar)
+  - HMTc Cat 2 / 3 / 4 / 6 / 7 / 8 / 9 / 10 / 11 / 12: **ZERO pages**. Step 0 lock not done. **Autonomous loop blocked on Priority 5 build-out without Karen's architectural input.**
+  - 9 pages without `hmtc_category` integer: 3 Cat 1 bridge variants (infant-formula-powder, infant-formula-concentrated-liquid-non-soy/-soy-based — flagged for Karen review on whether bridge pages should carry the integer); 1 Cat 5 regulatory-crosswalk; 4 utility/synthesis pages; 1 contact-product (piercing-post-assemblies.md, outside food scope).
+
+  **Key finding**: The Step 0 process (locked-row architecture) was applied to Cat 1 and Cat 5 only. raw/reports/category5-step-0-output-locked-20260428.md exists (referenced from category-5-beverages.md frontmatter) but no equivalent exists for Cat 2-12. The autonomous loop cannot generate Cat 2-12 product pages without Step 0 inputs (subcategory row architecture, variant_type assignments, cc_relationship pairings, primary_metals_of_concern, applicable_regulations, boundary rules).
+
+  **Tractable autonomous work that doesn't require Step 0 lock** (cycle 24+ candidates):
+   1. Re-ingest queue items: Sipahi 2014 Al unit disambiguation; Marques 2021 PDF/table-image review; Chekri 2019 row-fit re-classification; Sadiq 2021 Figure 1 visual extraction; Da Mato 2026 supplementary fetch (requires external)
+   2. Cat 1/Cat 5 sample-level extraction continuation — many "approaching" cells could move to at-bar via focused per-page CSV pulls from FDA 2024 baby-food compliance dataset (e.g., non-rice cereal Pb/Cd/tAs, root-vegetable purees, etc.)
+   3. Gap-report regeneration (pending tooling location)
+   4. Cat 1 bridge-page frontmatter consistency (small lint)
+
+  **Recommendation for Priority 5**: Karen would need to define Step 0 lock for one new category at a time (e.g., raw/reports/category-2-step-0-output-locked-YYYYMMDD.md for HMTc Cat 2). Then the loop could mirror the Cat 5 build-out pattern (~10-15 cycles per new category). Speculative scope inference (categories may cover toddler/older-child foods, adult foods, supplements, cosmetics, contact products, medical foods, etc.) is captured in the batch report but is NOT the locked architecture.
+
+  No stop conditions triggered. The architectural-gap is a scope-discovery deliverable (operations-mode "query"), not a row-fit-rule unresolved drift or schema-uncovered decision. Cycle 23 of overnight loop. Next cycle (24): pivot back to re-ingest queue items or focused per-page extractions to close more Cat 1/Cat 5 cells to at-bar.
