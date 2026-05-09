@@ -153,4 +153,93 @@ Per the master plan, Cowork uses the `hmtc-standards` skill to build the Standar
 
 The highest-impact dirty-subcategory candidate that is *not* yet at the bar but has the most regulatory pull is **iAs in infant rice cereal** at dirty p30 = 90.62 ppb (n=82, n_a_tier=2, FDA 2016 + Signes-Pastor 2016; FDA action level cap 100 ppb). One additional A-tier sample-level source would clear the readiness bar and make this a publishable Standards Briefing centerpiece for the rice-cereal CTZ docket.
 
-End of 2026-05-09 overnight final report.
+End of 2026-05-09 overnight final report (initial section).
+
+---
+
+## 10-cycle autonomous-loop checkpoint (cycles 1-10 of overnight self-paced loop)
+
+Per the loop directive, this section refreshes the report at the cycle-10 checkpoint with cumulative state from the dynamic-mode `/loop` started after the initial report was committed. Karen also dropped 12 author-fetched PDFs into `raw/external-fetch/` between the initial report and cycle 1, which became the primary ingest queue for cycles 1-10.
+
+### Per-cycle ingest summary
+
+| Cycle | Commit | Source ingested | HMTc gap closed |
+| --- | --- | --- | --- |
+| 1 | `1b628b2` | [[sources/gu2020-arsenic-rice-infant-food-australia]] (n=39) | Rice-cereal tAs Path A thin → n_a_tier=2; rice-cracker tAs/iAs cells → n_a_tier=2; first primary plant-milks-rice-based iAs source. |
+| 2 | `2f4c7d6` | (resynthesis only — propagated cycle 1 to master) | Master summary cell-state propagation. |
+| 3 | `24a3453` | [[sources/brombach2017-methylmercury-european-commercial-rice]] (n=87 incl. n=7 baby rice + n=2 toddler rice cakes) | **Rice-cereal MeHg cell**: from "exposure-pathway only" (Rothenberg 2021) to **Path A primary occurrence n_a_tier=2**. Rice-cracker MeHg cell to Path A thin n_a_tier=1. Rice-ingredient MeHg cascade for rice-mixed-meal and rice-plant-milk subcategories. |
+| 4 | `50f001d` | [[sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil]] (n=35 across 6 product compositions) | **Al-rice-cereal cell**: from Path B candidate to **Path A summary-level n_a_tier=2** (de Paiva + Chekri 2019). Al-non-rice-cereal cell similarly with n=6 corn-flour samples. |
+| 5 | `678c9ee` | [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france]] (n=68 by LC-ICP-MS; Cr(VI) <LOD across all) | **Cr-VI gap closed across all 14 IandC subcategories**: from data gap to Path A primary occurrence (<LOD by sensitive speciation; chemistry mechanism — food matrix reduces Cr(VI) to Cr(III) per EFSA 2014a). Supersedes Soares 2000 detected-Cr(VI) values (older ETAAS method, reinterpreted as artefact). |
+| 6 | `7597641` | [[sources/saraiva2021-chromium-speciation-milk-meat-cooking-france]] (n=30 by gold-standard SS-ID-HPLC-ICP-MS at LOQ 0.049 µg/kg) | **Cr-VI cell milk-based formula and meat-poultry-purees: n_a_tier=1 → 2** (Hernandez + Saraiva). Confirms thermal cooking does NOT generate Cr(VI). |
+| 7 | `dd7c056` | [[sources/sipahi2014-toxic-metals-infant-formulas-turkey]] (n=63 across milk/cereal/mixed) | Multi-cell Pb/Cd/Al breadth across milk-based formula and infant-cereal subcategories. Geographic context (Turkish 2006 market). Flagged Al unit-label inconsistency between Sipahi's Table II (ng/g) and discussion text (µg/g) for downstream caveats. |
+| 8 | `f12c031` | [[sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals]] (n=3 brands; bio-accessibility + speciation) | First A-tier bio-accessibility A-tier source for rice cereal: As 95-100%, Cr 29-100%, Pb 62-100%, Cd 63-100% bio-accessible. Cr(III) dominance confirmation (consistent with Hernandez+Saraiva). |
+| 9 | `a1874a9` | [[sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi]] (n=57 across 19 brands) | B-tier Saudi Arabian formula + children's foods. Most product types out-of-scope for HMTc Cat 1 (potato chips, popcorn, biscuits). Notable Al outliers: brand 19 baby powder milk daily intake 391 µg/kg/day (exceeds FAO/WHO PTDI 285.7); biscuit brand 6 Al 291,900 ppb (likely high-Al baking soda). Flagged anomalies, not standards-math drivers. |
+| 10 | `90dcd31` | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods]] (n=330 across 11 categories, AAS LOD 10 ppb) | **Historical-baseline B-tier reference** documenting 50-year exposure-reduction trajectory: 1980 mean Pb prepared formula 30 ppb → FDA 2026 0.4 ppb (~75× reduction); 1980 juice Pb 220 ppb → FDA 2024 1.5 ppb (~150× reduction post lead-soldered-can phaseout). Adds n_a_tier=1 to ~9 subcategories with historical-baseline caveat. Not a modern-percentile contributor. |
+
+### Karen-drop queue resolution
+
+12 PDFs in `raw/external-fetch/` at cycle 1 start. By cycle 10 end:
+
+- **8 ingested as primary new source pages** (cycles 1, 3-10): Gu 2020, Brombach 2017, de Paiva 2020, Hernandez 2019, Saraiva 2021, Sipahi 2014, Sadiq & Beauchemin 2021, Elsheikh 2020, Kirkpatrick 1980.
+- **3 dedup-confirmed against existing source pages** (logged without creating duplicate sources): `2020ILN.OrisaSQUMEDJ.pdf` and `PediatricriskassessmentSQUMJ.pdf` confirmed as Igweze 2020 duplicates; `Determination_of_40_Elements_in_Powdered_Infant_Fo.pdf` confirmed as Astolfi 2021 duplicate.
+- **1 remaining**: `Early-Life-Microbiota-Impact-of-Delivery-Mode-and-Infant-Feeding.pdf` — microbiome paper, scheduled for cycle 11; may route to `wiki/microbiome/` rather than `wiki/products/` per the microbiome-vs-product schema split.
+
+### Net cell-state movement across cycles 1-10
+
+Cumulative impact on the 16 × 10 = 160 cells (where the cycle-10 state differs from the initial-report state):
+
+| Cell change | Cells | Driver |
+| --- | --- | --- |
+| Data gap → Path A (n_a_tier=2) | 1 (rice-cereal MeHg) | Brombach 2017 + Rothenberg 2021. |
+| Data gap → Path A primary (<LOD by chemistry) | 14 (all Cr-VI cells across IandC) | Hernandez 2019 (Cr-VI <LOD via LC-ICP-MS). |
+| Path A thin → Path A n_a_tier=2 | 2 (Cr-VI in milk-based formula + meat-poultry-purees) | Saraiva 2021 SS-ID-HPLC-ICP-MS confirmation. |
+| Path A thin → Path A n_a_tier=2 | 1 (rice-cereal tAs) | Gu 2020. |
+| Path B candidate → Path A summary-level n_a_tier=2 | 2 (Al-rice-cereal + Al-non-rice-cereal) | de Paiva 2020 + Chekri 2019. |
+| New bio-accessibility dimension (rice cereal) | 8 (As, Cr, Cd, Pb, Cu, Fe, Zn, Se) | Sadiq & Beauchemin 2021. |
+| Historical-baseline n_a_tier=1 added | ~9 subcategories × multiple analytes | Kirkpatrick 1980 (with caveat — not modern percentile contributor). |
+
+**Net readiness-bar count change**: 10 → 10 at-bar. The cycle-1-to-10 work primarily moved data-gap cells to Path A thin or Path A n_a_tier=2 (closing breadth), rather than pushing already-Path-A-thin cells to at-bar (which requires sample-level data, not summary-level). The Cr-VI gap closure is the largest single-cycle impact: 14 cells from data gap to Path A primary occurrence.
+
+### Updated dominant gap pattern
+
+Going into cycle 11+:
+
+- **Cr-VI**: gap closed across all 14 IandC subcategories (cycles 5-6).
+- **MeHg in rice cereal**: at n_a_tier=2 (cycle 3); MeHg in fish-containing baby foods at n_a_tier=1 (Tatsuta 2024); MeHg in non-rice subcategories remains a gap.
+- **Al in baby cereals**: at n_a_tier=2 summary-level (cycle 4); not yet at-bar (would need sample-level distribution from a Path A source).
+- **iAs in non-cereal subcategories** (purees, mixed meals, RTF formula): still data gap; closing requires Da Pozzo 2024 (PMID 38196052, paywalled — wishlisted).
+- **Second fit sample-level Pb/Cd/tAs source for rice cereal**: still needed to push 4 cells from approaching to at-bar; 2026 baby-food paper (PMID 41416855, paywalled) is the leading candidate.
+
+### Stop conditions check (cycles 1-10)
+
+No stop conditions triggered. Specifically:
+
+- **A-tier vs A-tier contradiction**: Soares 2000 detected Cr(VI) in milk formula vs Hernandez 2019 + Saraiva 2021 finding Cr(VI) <LOD/LOQ. Resolved per CLAUDE.md Part 6 + Part 14 method-quality precedence: modern matrix-validated LC-ICP-MS / SS-ID-HPLC-ICP-MS supersedes older ETAAS+ion-exchange. Did NOT trigger stop.
+- **Regulation-vs-current-agency disagreement**: none observed.
+- **Row-fit-rule-unresolved drift**: none observed in cycles 1-10. Some judgment calls (Sipahi 2014 Al unit ambiguity; Sadiq 2021 partial Cr-VI suggestion) resolved within the existing rule.
+- **Schema-uncovered decision**: none observed.
+
+### Commits across cycles 1-10
+
+```
+90dcd31 cycle 10: kirkpatrick1980 historical-baseline
+a1874a9 cycle 9:  elsheikh2020 Saudi
+f12c031 cycle 8:  sadiq-beauchemin-2021 + dedup confirmations
+dd7c056 cycle 7:  sipahi2014 Turkish
+7597641 cycle 6:  saraiva2021 SS-ID Cr speciation
+678c9ee cycle 5:  hernandez2019 Cr-VI gap closure
+50f001d cycle 4:  depaiva2020 Al cereal
+24a3453 cycle 3:  brombach2017 MeHg rice
+2f4c7d6 cycle 2:  master resynthesis with gu2020
+1b628b2 cycle 1:  gu2020 Australia rice infant food
+```
+
+Plus the cycle-10 checkpoint refresh of this report (this commit).
+
+### Positioning for cycles 11+
+
+- Karen-drop queue: 1 paper remaining (microbiome paper) for cycle 11.
+- After Karen-drop queue exhausted: begin **HMTc Category 5 Beverages** master summary + per-page CC blocks (17 subcategories per the master plan). The Cat 5 work begins fresh — the Cat 1 master summary is at the readiness-bar level Karen specified for the overnight expansion.
+- Long-tail data-gap closure: continues to depend on the wishlist papers Karen would manually fetch (Da Pozzo 2024, 2026 baby-food, Filippini 2020).
+
+End of 2026-05-09 cycle-10 checkpoint addendum.
