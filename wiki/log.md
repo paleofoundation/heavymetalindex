@@ -988,3 +988,43 @@ Notes: Cycle 24 of overnight loop. Per priority order, focused on Cat 1 cell-clo
    - mixed-meals-non-rice Pb/Cd/tAs (gap report flags single distribution-capable; FDA 2024 has n=78; check for second source)
    - Soy-based RTF formula (n=3-33 across analytes; small N constraints)
    - Various Cat 5 cells with Path A thin status (would need 2nd source most aren't in corpus)
+
+## [2026-05-09] resynthesis | cycle-25-rice-cereal-al-at-bar — 13th IandC at-bar cell achieved + approaching-cell audit
+Pages affected: [[products/infant-and-child-foods-master]] (rice-cereal Al cell upgraded summary-only Approaching → at readiness bar; readiness roll-up updated).
+Notes: Cycle 25 of overnight loop. Per priority order, focused on Cat 1 cell-closing.
+
+  **Approaching-cell audit** (selected from IandC master, focusing on cells with n_a_tier=2 and tractable 3rd-source candidates):
+   - At-bar already (cycles 21-24 work): 1 (rice-cereal tAs)
+   - Possible upgrade with corpus action: 5 (rice-cereal Pb/Cd via Sadiq+Sipahi caveats; rice-cereal Al via Toledo sample-level integration; soy-formula Pb/Cd via Igweze 2020 if subset identified)
+   - Difficult — corpus thin: 4 (RTF formula small-N constraints; rice-snack tAs/iAs lacking 3rd direct fit)
+   - Blocked — needs new ingest: 3 (rice-cereal MeHg/tHg 3rd direct source; fruit-purees 2nd source)
+
+  **Action taken: rice-cereal Al cell upgrade to at-bar.** Toledo 2024 has Al sample-level data n=14 already in data/evidence/category1_toledo2024_infant_cereal_brazil_samples.csv. Computed sample-level distribution:
+   - p10=0, p30=552, p50=1264, p70=3870, p90=4962, p100=8800 ppb; mean=2553
+   - 3 of 14 samples at 0 (apparently <LOQ); 11 quantified
+
+  Cell upgrade:
+   - n_a_tier 2 summary-only → **3** with sample-level
+   - confidence low → **medium** per Part 6 (3 studies: Toledo + de Paiva + Chekri)
+   - status "Approaching summary-only" → **"At readiness bar"**
+   - Standards target: **dirty p30 = 552 ppb** (Toledo sample-level)
+   - p100 = 8800 ppb (Toledo max)
+   - No regulatory cap loaded; bioaccessibility 1.5-10.4% per de Paiva 2020 is critical risk modifier — total-Al threshold may overstate health risk by 10-50× vs bioaccessible-fraction analysis
+   - de Paiva 2020 group-means range 1300-7130 ppb is concordant with Toledo distribution (Toledo p50=1264, p90=4962 falls within de Paiva range)
+   - Chekri 2019 broad cereal mean 630 ppb is lower than Brazilian; jurisdiction-mix per Part 6
+
+  13th IandC at-bar cell.
+
+  Rice cereal subcategory now has **2 at-bar cells**: tAs (cycle 9ad45f8 commit) + Al (this cycle). Plus 3 approaching cells (Pb, Cd, MeHg) at n_a_tier=2 awaiting 3rd direct source.
+
+  Total publishable Path A standards = **6**:
+   1. apple-juice iAs dirty p30 = 3.0 ppb (cycle 13)
+   2. rice-cereal tAs dirty p30 = 102 ppb (commit 9ad45f8)
+   3. apple-juice Pb clean p90 = 6.0 ppb (cycle 21)
+   4. non-apple-juice Pb dirty p30 = 0 ppb (cycle 21; p95 = 20.7 right at FDA 20 ppb cap)
+   5. root-veg-purees Pb dirty p30 = 3.74 ppb (cycle 24)
+   6. **rice-cereal Al dirty p30 = 552 ppb** (cycle 25; this commit)
+
+  Audit notes documented inline: cells "Difficult/Blocked" generally require new external acquisition or larger sample-level pulls. Going forward, the loop's tractable cell-closing work is reaching diminishing returns on the in-corpus pool.
+
+  No stop conditions triggered. Cycle 25 of overnight loop.
