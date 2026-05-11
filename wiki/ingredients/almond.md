@@ -35,12 +35,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: in_progress
+    typical_ppb: [1000, 1500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-11
   Al:
     status: pending
     typical_ppb: [null, null]
@@ -97,6 +97,12 @@ This node is linked from [[products/plant-milks-non-soy-non-rice]].
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+## Nickel in almond
+
+[[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] reports almond mean Ni at 1.3 µg/g (range 1.0 to 1.5 µg/g, n=5 samples) from the post-1969 AAS/PIXE literature. Almonds sit in the same population-level high-Ni group as hazelnuts (1.8 µg/g, n=12), walnuts (3.6 µg/g, n=1), peanuts (2.8 µg/g, n=2), and pistachios (0.8 µg/g, n=1). [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] subsequently names nuts collectively among the principal dietary Ni sources alongside cocoa, drinking water, legumes, and cereals. For nickel-sensitized consumers (SNAS, approximately 10 to 15 percent of the European adult population), nuts including almonds are routinely excluded from the low-nickel diet protocols; [[sources/braga2013-snas-nosologic-framework-bramani-diet|Braga et al. 2013]] BraMa-Ni diet (~50 µg Ni/day) and the conventional forbidden-foods list both exclude almonds.
+
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+- [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] — Foundational Ni-in-food review; almond mean 1.3 µg/g (range 1.0-1.5, n=5).
+- [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] — Nuts named among principal dietary Ni sources.
+- [[sources/braga2013-snas-nosologic-framework-bramani-diet|Braga et al. 2013]] — SNAS framework; almonds excluded from BraMa-Ni low-Ni diet.

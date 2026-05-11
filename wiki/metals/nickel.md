@@ -58,15 +58,32 @@ Once sensitized, individuals are susceptible to systemic contact dermatitis from
 ## Food sources
 <!-- audience: regulator, educator, app -->
 
+Primary occurrence data from [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] (2,221 food samples reviewed from the post-1969 AAS or PIXE literature, plus Danish National Food Institute analyses) establishes the foundational Ni-content rank order for foods. The ten highest-Ni foods by weighted mean concentration are:
+
+| Rank | Food | Mean Ni (µg/g) | Range (µg/g) | n |
+| ---: | --- | ---: | --- | ---: |
+| 1 | Cocoa | 9.8 | 8.2-12 | 7 |
+| 2 | Soy beans | 5.2 | 4.7-5.9 | 3 |
+| 3 | Soy products | 5.1 | 1.08-7.8 | 7 |
+| 4 | Walnuts | 3.6 | (single sample) | 1 |
+| 5 | Peanuts | 2.8 | 1.6-4.9 | 2 |
+| 6 | Oats | 2.3 | 0.33-4.8 | 37 |
+| 7 | Buckwheat | 2.0 | 1.3-2.8 | 3 |
+| 8 | Bitter (dark) chocolate | 1.9 | 1.3-2.7 | 7 |
+| 9 | Hazelnuts | 1.8 | 0.66-3.3 | 12 |
+| 10 | Dried legumes | 1.7 | 0.52-3.3 | 17 |
+
+Notable lower-ranked foods include almonds (1.3 µg/g, n=5), pistachios (0.8 µg/g, n=1), milk chocolate (0.7 µg/g, n=11), whole wheat (0.33 µg/g, n=85), and white bread (0.27 µg/g, n=65). Within the modeled Danish average diet (2,099 g/person/day excluding drinking water), Flyvholm estimated 150 µg Ni/day total dietary intake, of which oatmeal alone contributed 14.1 µg/day at a striking load factor F = 24 (the highest single-food load factor in the diet). Wheat flour contributed 14.7 µg/day at F = 1.9, potatoes 24.4 µg/day at F = 2.0, and fats including margarine 4.2 µg/day at F = 5.8. Replacing average-diet items with high-Ni foods can push intake to 900 µg/day or more, well within the 600 to 5,600 µg per oral provocation range that triggers hand-eczema flare in nickel-sensitive patients.
+
 | Matrix | Nickel concern |
 | --- | --- |
-| Cocoa and chocolate products | Among the highest-Ni food categories; dark chocolate higher than milk ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Oats and oat products | Elevated relative to other cereals ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Legumes (beans, chickpeas, lentils, soy) | Plant-family-level efficient Ni accumulators ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Nuts (especially cashews, hazelnuts) | Elevated ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
-| Drinking water (in some regions) | Variable; corrosion of nickel-containing plumbing, well water in Ni-rich geology ([[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| Cocoa and chocolate products | Highest-Ni food category at 9.8 µg/g cocoa, 1.9 µg/g bitter chocolate, 0.7 µg/g milk chocolate ([[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm 1984]]; [[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| Oats and oat products | Elevated at 2.3 µg/g; oatmeal carries the highest dietary load factor F=24 in the Danish average diet ([[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm 1984]]; [[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| Legumes (beans, chickpeas, lentils, soy) | Plant-family-level efficient Ni accumulators; soybeans 5.2 µg/g, soy products 5.1 µg/g, dried legumes 1.7 µg/g ([[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm 1984]]; [[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| Nuts (walnuts, peanuts, hazelnuts, almonds, pistachios) | Elevated; walnuts 3.6 µg/g, peanuts 2.8 µg/g, hazelnuts 1.8 µg/g, almonds 1.3 µg/g, pistachios 0.8 µg/g ([[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm 1984]]; [[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
+| Drinking water (in some regions) | Variable; cold tap water mean 9 µg/L (Danish data) but post-8-hour stagnation can reach 490 µg/L; corrosion of Ni-containing plumbing ([[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm 1984]]; [[sources/efsa-nickel-contam-2020|EFSA 2020]]) |
 
-[[sources/efsa-nickel-contam-2020|EFSA 2020]] found that mean dietary nickel exposure across European Member States routinely exceeds the chronic TDI of 13 µg/kg b.w./day, particularly among toddlers and other children, and among adults consuming legume-heavy or cocoa-heavy diets.
+[[sources/efsa-nickel-contam-2020|EFSA 2020]] subsequently confirmed Flyvholm's rank ordering and found that mean dietary nickel exposure across European Member States routinely exceeds the chronic TDI of 13 µg/kg b.w./day, particularly among toddlers and other children, and among adults consuming legume-heavy or cocoa-heavy diets.
 
 ### What this means for food choice
 <!-- audience: consumer -->
@@ -185,6 +202,7 @@ The implication for HMTc Ni threshold rationale: the EFSA TDI framework calibrat
 ## Sources
 
 - [[sources/efsa-nickel-contam-2020|EFSA Ni 2020]] — EFSA CONTAM Panel, 2020. Update of the Risk Assessment of Nickel in Food and Drinking Water.
+- [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] — Foundational primary occurrence data; 2,221 food samples from post-1969 AAS/PIXE literature; Danish-average-diet model 150 µg Ni/day; rank order cocoa > soy > nuts > oats > chocolate > legumes > whole-grain cereals.
 - [[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]] — ATSDR, October 2024. Toxicological Profile for Nickel.
 - [[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]] — US National Toxicology Program, 2021. 15th Report on Carcinogens: Nickel Compounds and Metallic Nickel.
 - [[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]] — EPA, 2007. Ecological Soil Screening Levels for Nickel.

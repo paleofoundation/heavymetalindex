@@ -34,12 +34,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: in_progress
+    typical_ppb: [100, 800]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-11
   Al:
     status: pending
     typical_ppb: [null, null]
@@ -119,7 +119,12 @@ _Some metals not listed in this section because no ingested source yet covers th
 - [[regulations/eu-2023-915-cadmium]] — EU Cd maximum levels for cereals: 0.10 mg/kg (100 ug/kg) for cereals except listed rows; 0.050 mg/kg (50 ug/kg) for barley and rye; 0.15 mg/kg (150 ug/kg) for rice, quinoa, wheat bran, and wheat gluten; 0.18 mg/kg (180 ug/kg) for durum wheat; 0.20 mg/kg (200 ug/kg) for wheat germ.
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] — FDA CTZ 20 ppb lead action level for dry infant cereals is the adjacent Pb rule; any future Cd analogue under the CTZ program would apply similarly to wheat-based infant cereal.
 
+## Nickel in wheat
+
+[[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] reports wheat flour mean Ni at 0.13 µg/g (range 0.03 to 0.3 µg/g, n=32 samples) and whole wheat at 0.33 µg/g (range 0.1 to 0.8 µg/g, n=85). The roughly 2.5x concentration gap between whole-grain wheat and refined flour reflects the bran fraction's accumulation of Ni, parallel to the bran-effect on Cd and Mn. In the Danish average diet model, wheat flour contributes 14.7 µg Ni/day (10 percent of total dietary Ni) at a load factor F = 1.9; wheat is therefore a meaningful per-day Ni source by volume, though not a high per-gram contributor on the order of cocoa, soy, or oats. Whole wheat at 0.33 µg/g is roughly 5x higher than white bread (0.27 µg/g, n=65 samples), supporting the bran-versus-endosperm pattern.
+
 ## Sources
 
 - [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food.
 - [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment.
+- [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] — Foundational Ni-in-food review; wheat flour 0.13 µg/g mean (n=32), whole wheat 0.33 µg/g mean (n=85), white bread 0.27 µg/g mean (n=65).

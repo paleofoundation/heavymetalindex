@@ -35,11 +35,11 @@ contamination_profile:
     last_reviewed: 2026-05-08
   Ni:
     status: in_progress
-    typical_ppb: [null, null]
+    typical_ppb: [80, 450]
     p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-11
   Al:
     status: pending
     typical_ppb: [null, null]
@@ -157,8 +157,13 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+## Nickel in rice
+
+[[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] reports rice mean Ni at 0.21 µg/g (range 0.08 to 0.45 µg/g, n=16 samples). In the Danish average diet model, rice contributes only 1.05 µg Ni/day (load factor F = 3.5) reflecting low Danish rice consumption rather than a per-gram pattern; the load factor F = 3.5 indicates rice contributes Ni out of proportion to its consumption weight where consumed. Rice Ni values sit below cocoa, soy, oats, hazelnuts, and almonds but above potatoes (0.14 µg/g), white bread (0.27 µg/g), and most vegetables. For high-rice-consumption populations (East Asia, infant rice cereal as staple), rice contributes proportionally more to daily Ni intake.
+
 ## Sources
 
 - [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] — review-level rice/rice-mix baby-food signal for Pb and As.
 - [[sources/eu-2023-915-contaminants-maximum-levels]] — EU 2023/915 rice, rice-product, and rice-drink maximum levels for Cd and iAs.
 - See [[metals/cadmium]] for the cross-source synthesis that identifies rice as a population-level contributor.
+- [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] — Foundational Ni-in-food review; rice mean 0.21 µg/g (range 0.08-0.45, n=16); load factor F = 3.5 in the Danish-average diet model.

@@ -35,10 +35,10 @@ contamination_profile:
     last_reviewed: null
   Ni:
     status: in_progress
-    typical_ppb: [null, null]
+    typical_ppb: [700, 1900]
     p95_ppb: null
     confidence: low
-    n_studies: 1
+    n_studies: 2
     last_reviewed: 2026-05-11
   Al:
     status: in_progress
@@ -124,7 +124,7 @@ Chocolate inherits Pb from its cocoa-solid fraction with the four-fold dark-vers
 
 ## Nickel in chocolate
 
-Chocolate carries Ni from the cocoa-solid fraction; dark chocolate Ni concentration scales with cocoa-solid percentage. [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] names cocoa among the principal dietary Ni sources, and dark chocolate inherits that load. Nickel-sensitized individuals (systemic-contact-dermatitis-prone, approximately 10 to 15 percent of the European adult population per EFSA) can experience flare-ups from high-cocoa dark chocolate consumption; the EFSA acute LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up identifies chocolate-heavy consumers as one of the dietary subgroups at risk. Sample-level chocolate Ni distributions are not yet loaded; the EFSA Ni 2020 underlying occurrence data and primary U.S. or EU-market chocolate Ni surveys are Phase 3b candidates.
+Chocolate carries Ni proportional to its cocoa-solid fraction. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] reports bitter (dark) chocolate at 1.9 µg/g (range 1.3 to 2.7 µg/g, n=7) and milk chocolate at 0.7 µg/g (range 0.4 to 1.2 µg/g, n=11) from the post-1969 AAS/PIXE literature. The roughly 3x gap between bitter and milk chocolate maps cleanly onto the cocoa-solid percentage difference, which is consistent with the >9 µg/g concentration in cocoa itself (Flyvholm 1984). [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] subsequently confirmed cocoa among the principal dietary Ni sources and dark chocolate inherits that load. Nickel-sensitized individuals (systemic contact dermatitis-prone, approximately 10 to 15 percent of the European adult population per EFSA) can experience flare-ups from high-cocoa dark chocolate consumption; the EFSA acute LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up identifies chocolate-heavy consumers as one of the dietary subgroups at risk. [[sources/pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc|Pacor et al. 2003]] documents cocoa-and-chocolate as the most consistently symptom-aggravating food category in nickel-reactive recurrent aphthous stomatitis (92.6 percent of patients).
 
 ## Aluminum in chocolate
 

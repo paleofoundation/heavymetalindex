@@ -35,10 +35,10 @@ contamination_profile:
     last_reviewed: null
   Ni:
     status: in_progress
-    typical_ppb: [null, null]
+    typical_ppb: [8200, 12000]
     p95_ppb: null
     confidence: low
-    n_studies: 1
+    n_studies: 2
     last_reviewed: 2026-05-11
   Al:
     status: in_progress
@@ -132,7 +132,7 @@ Cocoa carries measurable but lower Pb than Cd, with the strongest signal in coco
 
 ## Nickel in cocoa
 
-Cocoa is one of the highest-Ni dietary commodities at population level. [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] explicitly names cocoa among the principal dietary Ni sources alongside drinking water, nuts, legumes, and cereals, with the EFSA CONTAM Panel chronic TDI of 13 µg Ni/kg b.w./day calibrating against this matrix. Cocoa Ni concentration is driven by the high Ni-uptake capacity of the cacao tree from tropical soils plus processing-equipment contact during cocoa-mass and cocoa-powder manufacture. Ni in cocoa is also clinically relevant for nickel-sensitized individuals (systemic contact dermatitis flare-ups); the EFSA 2020 acute LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up reactions identifies cocoa-frequent consumers as one of the at-risk dietary subgroups. Sample-level cocoa Ni concentration distributions are not yet loaded on the wiki; Phase 3b ingest of EFSA's underlying cocoa Ni occurrence dataset would firm Path A.
+Cocoa is the single highest-Ni dietary commodity in the food supply. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] reports cocoa mean Ni at 9.8 µg/g (range 8.2 to 12 µg/g, n=7 samples across the post-1969 literature using AAS or PIXE), the highest mean of any food matrix in their 2,221-sample compilation. Soy beans by comparison average 5.2 µg/g and oatmeal 1.76 µg/g; cocoa sits a full order of magnitude above most dietary staples. The high Ni concentration reflects the cacao tree's high root Ni-uptake capacity from tropical soils combined with processing-equipment contact during cocoa-mass and cocoa-powder manufacture. [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] subsequently confirmed cocoa among the principal dietary Ni sources alongside drinking water, nuts, legumes, and cereals, and calibrated its chronic TDI of 13 µg Ni/kg b.w./day against this matrix mix. Ni in cocoa is also clinically relevant for nickel-sensitized individuals (systemic contact dermatitis flare-ups, SNAS); the EFSA 2020 acute LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up reactions identifies cocoa-frequent consumers as one of the at-risk dietary subgroups, and [[sources/pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc|Pacor et al. 2003]] independently confirmed cocoa as the food most consistently aggravating oral nickel-related symptoms (92.6 percent of patients identified cocoa as an aggravating food). Sample-level cocoa Ni concentration distributions from modern speciation studies are still sparse; cocoa Ni surveillance is a continuing priority.
 
 ## Aluminum in cocoa
 
@@ -164,5 +164,7 @@ The remaining HMI-tracked metals on cocoa (iAs, tAs, tHg, MeHg, Sn, U) do not ha
 - [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — International General Standard for Contaminants and Toxins in Food and Feed; cocoa powder Cd ML 2.0 mg/kg and chocolate Cd MLs scaled by cocoa-solid percentage.
 - [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] — EFSA Scientific Opinion on cadmium in food; 140,000-sample occurrence dataset identifying chocolate among major dietary Cd contributors.
 - [[sources/efsa-nickel-contam-2020|EFSA Ni 2020]] — EFSA CONTAM Panel update; cocoa explicitly named among top dietary Ni sources alongside drinking water, nuts, legumes, and cereals.
+- [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] — Foundational Ni-in-food review (2,221 samples post-1969 literature, AAS/PIXE methods); cocoa mean 9.8 µg/g (range 8.2-12 µg/g, n=7), highest of any food matrix surveyed.
+- [[sources/pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc|Pacor et al. 2003]] — DBPC trial in recurrent aphthous stomatitis; cocoa identified as aggravating food in 92.6 percent of nickel-reactive patients.
 - [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france|Hernandez et al. 2019]] — French Cr-VI/Cr-III speciation in milk, dairy, and cereal products; cocoa-containing breakfast cereals 360-483 ppb total Cr, chocolate biscuit 103 ppb.
 - [[sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi|Elsheikh et al. 2020]] — Saudi children's-foods elements by ICP-OES; cocoa sweets is one of the matrices analyzed for Al-and-others (B-tier journal).
