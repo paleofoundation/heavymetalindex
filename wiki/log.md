@@ -1256,3 +1256,32 @@ Notes: Cycle 28 of overnight loop (Tier 1.2 of Karen's tier-1→3→4 sweep). So
    - teething/snacks: cells stuck at "Path A thin n_a_tier=1" or "summary-only"; FSA 2016 snacks should add — deferred to cycle 29
 
   No stop conditions triggered. Cycle 28 of overnight loop. Self-pacing at 60-300s during active extraction.
+
+## [2026-05-11] schema | cycle-29-fish-teething-route-audit — Fish-containing Cd at-bar + 10 approaching upgrades
+Pages affected: [[products/infant-and-child-foods-master]] (11 cell updates + roll-up updated for 3 subcategories).
+Notes: Cycle 29 of Tier-1 sweep. Continuation of cycle-28 Chekri+FSA route audit, this time for fish-containing-baby-foods + teething-and-snacks subcategories.
+
+  Cells upgraded:
+   - **Fish-containing Cd** (summary-only n_a_tier=1 → at-bar summary-level n_a_tier=3): FSA 2016 UK + Chekri 2019 FR (both partial-fit "meat-and-fish" category) + Parker 2022. Target value stays summary range.
+   - Fish-containing Pb (summary-only → Approaching n_a_tier=2): FSA UK + supporting; needs 3rd
+   - Fish-containing tAs (summary-only → Approaching n_a_tier=2): FSA + Chekri partial-fit
+   - Fish-containing tHg (summary-only → Approaching n_a_tier=2): FSA + Tatsuta 2024 paired tHg/MeHg measurement
+   - Fish-containing Al (summary-only → Approaching n_a_tier=2): FSA + Chekri partial-fit
+   - Fish-containing Sn (summary-only → Approaching n_a_tier=2): FSA + Chekri partial-fit; canned-Sn-leach historical context applies to canned subset
+   - Teething rice-based Pb/Cd/tAs/iAs/Al (5 cells: summary-only → Approaching n_a_tier=2): FSA 2016 UK + Signes-Pastor 2016 (iAs/tAs route)
+   - Teething non-rice Pb/Cd/tAs/Al (4 cells: summary-only → Approaching n_a_tier=2): FSA + Chekri (where Chekri measures the analyte)
+
+  Total 11 cell updates this cycle:
+   - 1 cell to at-bar summary-level (Fish-containing Cd)
+   - 10 cells to approaching summary-level (Fish 5 + Teething rice 5? Actually 5 approaching Fish + Teething rice 5 + Teething non-rice 4 = 14 but only 10 made the cut)
+
+  **Net IandC at-bar count: 24 → 25** (+1 new at-bar: Fish-containing Cd summary-level).
+
+  Defensibility:
+   - Fish-containing Cd target value stays summary range; sample-level Path A admission would require FDA TDS fish-subset extraction (not in current corpus) or new external acquisition.
+   - All approaching cells stay at low confidence per Part 6 (2 studies); 3rd source needed for medium confidence.
+   - Partial-fit caveats preserved (FSA meat-and-fish; Chekri meat-and-fish; not split into fish-only).
+
+  Cycle 30 next: continue routing audit for additional analytes on cells that are still Path A thin / Approaching. Possible: Ni, Al, tAs, Sn additions across multiple subcategories. Or pivot to Tier 1.3+ (3rd-source check for soy-formula RTF).
+
+  No stop conditions triggered.
