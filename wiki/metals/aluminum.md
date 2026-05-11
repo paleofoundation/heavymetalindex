@@ -68,9 +68,13 @@ Excretion is primarily renal. Renal failure is the major risk factor for aluminu
 | Tea | Naturally elevated aluminum content; brewed tea can deliver 1 to 5 mg/L |
 | Processed cheese (aluminium-containing emulsifying salts) | Sodium aluminium phosphate as emulsifier in some products |
 | Baked goods with aluminium-based leavening | Cakes, biscuits, pancakes using aluminum baking powder |
-| Infant formula | Variable by product; some soy-based formulas higher than milk-based |
+| Infant formula | Variable by product; some soy-based formulas higher than milk-based; prescription formulas span 41.4 to 1956 µg/L ([[sources/redgrove2019-prescription-infant-formulas-aluminium|Redgrove 2019]]) |
 
 [[sources/efsa-aluminium-afc-2008|EFSA 2008]] estimated dietary exposure at 0.3 to 0.9 mg/kg b.w./week for milk-based infant formulas and 1.1 mg/kg b.w./week for soya-based formulas; breast-fed infants were estimated at less than 0.07 mg/kg b.w./week.
+
+### Primary occurrence: prescription infant formulas
+
+[[sources/redgrove2019-prescription-infant-formulas-aluminium|Redgrove et al. 2019]] surveyed 24 UK prescription infant formulas (ready-to-drink and powdered) by transversely heated graphite furnace atomic absorption spectrometry following microwave-assisted acid/peroxide digestion. Ready-to-drink concentrations ranged from 49.9 µg/L (Cow & Gate Nutriprem 1 for preterm infants) to 1956.3 µg/L (Abbott PediaSure Plus Juice Apple, a weight-gain supplement), a roughly 40-fold range across products fed to medically vulnerable infants. Abbott PediaSure Plus Juice Apple delivers 391 µg Al per 200 mL serving. The fortified-weight-gain product subcategory (Danone Nutricia Fortini range, Abbott PediaSure Plus, Nutrinovo ProSource) consistently exceeded 500 µg/L. The amino-acid-based and peptide-based powdered subcategory (SMA Alfamino, Neocate LCP, Aptamil Pepti 1) showed the lowest concentrations: SMA Alfamino at 41.4 µg/L was the lowest-Al formula measured in the Keele group's accumulated literature. The roughly 50-fold range from cleanest to most contaminated demonstrates that infant formula Al contamination is not inevitable; selected ingredients can produce dramatically lower Al concentrations even within prescription-grade products. The likely sources of contamination identified by Redgrove include whey protein hydrolysate ingredients (the Keele group separately measured 4.1 to 8.1 µg/g Al in whey hydrolysates supplied to a major formula manufacturer), fruit and fruit-flavoring components, packaging, and aluminum-based processing equipment.
 
 ### What this means for food choice
 <!-- audience: consumer -->
@@ -179,3 +183,4 @@ Second, the relationship between dietary aluminum exposure and Alzheimer's disea
 - [[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]] — ATSDR, September 2008. Toxicological Profile for Aluminum.
 - [[sources/jecfa-food-additive-specs-compendium|JECFA FA Compendium]] — JECFA Combined Compendium of Food Additive Specifications (1956-2005), FAO JECFA Monographs Vol 1.
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
+- [[sources/redgrove2019-prescription-infant-formulas-aluminium|Redgrove et al. 2019]] — Keele University / Russells Hall Hospital; first systematic Al survey of UK prescription infant formulas (n=24); ready-to-drink range 49.9 to 1956.3 µg/L (40x spread); SMA Alfamino at 41.4 µg/L is the lowest formula Al measured by the Keele group.
