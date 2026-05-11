@@ -116,7 +116,19 @@ The FDA Toxic Elements Program uses ICP-MS for total arsenic in food matrices, w
 ## Microbiome effects
 <!-- audience: educator -->
 
-_Pending dedicated microbiome ingests. Arsenic biomethylation is an area where the gut microbiome is mechanistically implicated: gut bacteria can methylate inorganic arsenic and demethylate methylated species, contributing to interspecies and inter-individual variation in arsenic biotransformation. The [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review summarizes the AS3MT-pathway evidence (host enzymatic methylation), but the gut microbiome's complementary contribution remains an active research area. The wikibiome-crosswalk anchors are tentatively `arsenic-gut-axis` and `arsenic-microbial-methylation`._
+The gut microbiome operates a substantial parallel arsenal of arsenic-handling enzymes that modify host exposure independently of the AS3MT host pathway. [[sources/coryell2019-human-gut-microbiome-arsenic-toxicity|Coryell, Roggenbeck, Walk 2019]] from Montana State University is the canonical synthesis. Key pathways:
+
+- **ars operon** (arsR, arsB/acr3, arsC, arsA, arsD, arsH, arsI, arsJ, arsK, arsN, arsP): efflux and detoxification within bacterial cells; protects the microbe but is neutral with respect to host benefit.
+- **arsM (arsenic methyltransferase)**: microbial homolog of AS3MT; methylates iAs to MMA and DMA, including the more reactive trivalent intermediates (MMA(III), DMA(III), TMA(III)). The same methylation paradox applies at the microbial level as at the host level: methylation was historically considered detoxification, but trivalent intermediates may be more toxic than the parent iAs.
+- **aioAB and arxAB (arsenite oxidases)**: convert As(III) to less-toxic As(V); arxAB functions under the anaerobic conditions of the large intestine, where most of the gut microbiome resides.
+- **arrAB (arsenate respiratory reductase)**: certain anaerobic bacteria use As(V) as a terminal electron acceptor for respiration, mobilizing bound As(V).
+- **Thiolation**: nonenzymatic sulfide-dependent replacement of As-O bonds with As-S bonds; produces thioarsenicals (MMMTA(V), DMMTA(V)) with cytotoxicity comparable to trivalent oxoarsenicals. Sulfate-reducing bacteria (e.g. desulfovibrio) are implicated as the sulfide source.
+
+The compartment structure of the GIT constrains which pathways operate where. The oral cavity (aerobic, pH 6.2-7.6) supports oxidation. The stomach (microaerobic, pH 1.5-3.5) is hostile to most pathways but tolerated by some. The small intestine (microaerobic to anaerobic, pH 6-7.4) is a mixed-pathway window. The large intestine (anaerobic, pH 5.7-6.7) is where arxAB, arsM, arrAB, and thiolation pathways are most active.
+
+Germ-free and antibiotic-treated mouse data summarized in Coryell 2019 demonstrate that the microbiome causally contributes to arsenic excretion: antibiotic-treated mice excrete less arsenic in stool and accumulate more in organs (liver, spleen, heart, lung) than conventional controls at 25 ppm iAs(V) exposure. AS3MT-knockout mice are hypersensitive to arsenic when germ-free; colonization with human fecal microbiota restores survival, with substantial donor-to-donor variation in protective capacity. Microbiome alpha diversity correlates with arsenic survival in mouse models, suggesting that inter-individual variation in microbiome composition is a partial explanation for the longstanding clinical observation that arsenicosis severity varies dramatically among people with similar exposure.
+
+The [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review summarizes the parallel AS3MT host pathway and the inter-individual genetic variation that drives host methylation efficiency. The wikibiome-crosswalk anchors are `arsenic-gut-axis` and `arsenic-microbial-methylation`. Direct human GIT measurement of microbial As biotransformation has not been performed; the wiki tracks the inferential framework while the empirical evidence remains based on environmental, in vitro, and model-organism work.
 
 ## Historical context: groundwater arsenic and the 10 ppb drinking water rule
 <!-- audience: educator, regulator -->
@@ -186,6 +198,7 @@ Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-
 - [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
 - [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] — Thomas DJ, 2021. Arsenic methylation: lessons from three decades of research (Toxicology).
 - [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson et al. 2012]] — Dartmouth Trace Element Analysis Laboratory; foundational U.S. dataset for As speciation in 15 infant formulas (2.2-12.6 ng/g, ~100% iAs, non-dairy>dairy P=0.003), 41 fruit/vegetable purees (0.32-22 ng/g), 18 stage 2/3 foods (meat-rice interaction P=0.0005, meat+rice meals 18.45 ng/g LS mean).
+- [[sources/coryell2019-human-gut-microbiome-arsenic-toxicity|Coryell, Roggenbeck, Walk 2019]] — Canonical synthesis of microbial As biotransformation in the human gut; maps ars operon, arsM methyltransferase, aioAB/arxAB oxidases, arrAB respiration, thiolation; documents germ-free and antibiotic data establishing microbiome-mediated As excretion.
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
 
 See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/.
