@@ -69,6 +69,10 @@ Dietary intake is the dominant route in non-groundwater-affected populations ([[
 
 [[sources/efsa-arsenic-contam-2009|EFSA 2009]] reports inorganic arsenic exposure across 19 European countries: 0.13 to 0.56 µg/kg b.w./day for average consumers, 0.37 to 1.22 µg/kg b.w./day for 95th-percentile consumers. Children under three years are exposed at 2 to 3 times adult per-kg rates due to greater per-kg food intake.
 
+### Primary occurrence: infant formula and first foods
+
+[[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson et al. 2012]] from the Dartmouth Trace Element Analysis Laboratory provides the foundational U.S. dataset for As in infant formulas and complementary foods, with speciation by IC-ICP-MS. Total As in 15 main-brand infant formulas ranged 2.2 to 12.6 ng/g; non-dairy formulas (including soy) were significantly higher than dairy-based (P = 0.003); formulas containing rice starch were higher again. Speciation showed essentially 100 percent inorganic arsenic in formulas with total As > 6 ng/g, with As(V) dominant. The exposure consequence: a 3-month-old 6.2 kg infant consuming six 120 mL formula bottles daily is exposed to 0.036 to 0.21 µg As/kg/day from formula alone; the upper end exceeds the 0.17 µg/kg/day reference derived from an adult drinking 1 L water at the WHO/EPA 10 µg/L MCL, indicating vulnerable-population overrun before any complementary food enters the diet. In 18 stage 2/3 mixed-meal foods, a significant meat × rice interaction emerged (P = 0.0005): meals containing both meat and rice averaged 18.45 ng/g As (least-squares mean), rice-only meals 11.90 ng/g, and meals without rice 3.75 ng/g. Speciation in these mixed meals was predominantly inorganic As (>70 percent), unexpected for U.S. rice (where DMA usually dominates) and suggesting rice-bran inclusion. In 41 fruit and vegetable purees, most samples ranged 0.32 to 7.81 ng/g, but Brand E pear-containing products averaged 16.6 ng/g, driven by source-specific contamination rather than a general property of pears.
+
 ### What this means for food choice
 <!-- audience: consumer -->
 
@@ -181,6 +185,7 @@ Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-
 - [[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]] — FDA, August 2020. Inorganic Arsenic in Rice Cereals for Infants Action Level.
 - [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
 - [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] — Thomas DJ, 2021. Arsenic methylation: lessons from three decades of research (Toxicology).
+- [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson et al. 2012]] — Dartmouth Trace Element Analysis Laboratory; foundational U.S. dataset for As speciation in 15 infant formulas (2.2-12.6 ng/g, ~100% iAs, non-dairy>dairy P=0.003), 41 fruit/vegetable purees (0.32-22 ng/g), 18 stage 2/3 foods (meat-rice interaction P=0.0005, meat+rice meals 18.45 ng/g LS mean).
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
 
 See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/.
