@@ -336,4 +336,55 @@ Detailed cell-by-cell readiness state and the data-gap-with-rationale notes are 
 
 ## Coordination payload for Cowork (Heavy Metals in Infant and Child Foods Standards Briefing)
 
-Per the master plan, Cowork uses the `hmtc-standards` skill to build the Standards Briefing as a .docx. The "At readiness bar" cells in the readiness roll-up are the publishable Path A targets the Briefing should center on; the rest are flagged as Path A thin / Approaching / Path B candidate / data gap with rationale.
+Refreshed 2026-05-11 (cycle 34). Cowork's `hmtc-standards` skill builds the Standards Briefing as a .docx.
+
+### Two readiness tiers for the Briefing
+
+**Strict-publishable tier (gap-report READY)**: 1 cell across IandC. Tooling at `tools/evidence/build-standards-gap-report.mjs` gates on "2+ sample-level distribution-capable A-tier sources":
+- `fruit-juice-not-canned` iAs (n=152 sample-level from FDA 2011 apple n=94 + FDA 2016 grape n=58 cross-juice context)
+
+**Permissive curator-narrative tier (master at-bar; CLAUDE.md Part 6 strict reading)**: 41 IandC at-bar cells. Counts sample-level + summary-level A-tier sources toward n_a_tier confidence calibration per Part 6 (3+ studies = medium). All cells carry inline method-quality + sample-size + partial-fit caveats.
+
+### Per-subcategory at-bar summary (cycle 34 state)
+
+| Subcategory | At-bar | At-bar analytes |
+| --- | ---: | --- |
+| Infant rice cereal (dry) | 4 | Pb (3.30), Cd (22.00), tAs (102), Al (552) ppb |
+| Infant non-rice cereal (dry) | 4 | Pb (7.84), Cd (11.36), tAs, Al (summary) |
+| Milk-based powdered infant formula | 8 | Pb (0.40), Cd (0.40), tAs (1.30), tHg (0.00); iAs/Al/Ni/Sn summary-level |
+| Soy-based powdered infant formula | 7 | Pb (0.30), Cd (0.60), tAs (0.80), tHg (0.00); Al/Ni/Sn summary-level |
+| Milk-based RTF liquid infant formula | 4 | Pb (0.20), Cd (0.60), tAs (1.21), Al (summary) |
+| Soy-based RTF liquid infant formula | 4 | Pb (0.36), Cd (0.86), tAs (1.08), Al (summary); n=3 below-floor caveats |
+| Fruit purees | 3 | Pb (2.37), Cd (2.12), tAs |
+| Non-root vegetable purees | 3 | Pb (1.76), Cd (11.90), tAs |
+| Root-vegetable purees | 3 | Pb (3.74), Cd (3.95), tAs |
+| Meat and poultry purees | 1 | Cd (summary-level n_a_tier=3) |
+| Fish-containing baby foods | 1 | Cd (summary-level n_a_tier=3) |
+| Mixed meals (rice-containing) | 2 | Cd (0.00), tAs (n=9 below-floor caveat) |
+| Mixed meals (non-rice) | 2 | Cd (5.08), tAs |
+| Teething & snacks (rice-based) | 0 | — (5 analytes Approaching with FSA + Signes-Pastor) |
+| Teething & snacks (non-rice) | 0 | — (4 analytes Approaching) |
+| Fruit juice (not-canned) | 1 | Pb (dirty p30=0 / p90=12.0 ppb sample-level) |
+
+**Total IandC at-bar: 41 cells.** Standards target values come from sample-level distributions (FDA 2024 baby-food compliance, FDA 2026 special survey, FDA 2018 longitudinal juice Pb, FDA 2011 apple-juice iAs, FDA 2016 grape-juice iAs, Toledo 2024 Brazilian infant cereal) where they exist; Chekri 2019, FSA 2016, Kirkpatrick 1980, Elsheikh 2020, de Paiva 2020 contribute toward n_a_tier confidence calibration as summary-level corroborators with explicit method/sample-size/partial-fit caveats inline.
+
+### Recommended Briefing structure
+
+1. **Strict gate**: 1 publishable-as-tooling cell (fruit-juice-not-canned iAs)
+2. **Curator-approved gate**: 41 IandC at-bar cells with caveat-inline narrative
+3. **Standards Briefing centerpiece candidates** by regulatory pull:
+   - **Rice cereal**: 4 cells (Pb 3.30 ppb 84% below 20 ppb FDA cap; Cd 22.00 well below 40 ppb EU; tAs 102 ppb no cap loaded; Al 552 ppb with bioaccessibility 1.5-10.4% caveat)
+   - **Apple-juice (Cat 5)**: iAs 3.0 ppb 70% below FDA CTZ 10 ppb cap; Pb 6.0 ppb 40% below FDA 2022 draft 10 ppb cap
+   - **Non-apple juice (Cat 5)**: Pb p95 20.7 ppb right at FDA 2022 draft 20 ppb cap (upper-tail signal)
+   - **Root-vegetable purees**: Pb 3.74 ppb 81% below FDA 20 ppb root-veg cap; Cd 3.95 ppb below 40 ppb EU
+   - **Powdered formula** (both milk + soy): comprehensive Pb/Cd/tAs/tHg/Al/Ni/Sn coverage; first cohesive Standards Briefing centerpiece
+
+### Cells deferred for tooling-strict-gate upgrade
+
+The 41 curator-at-bar cells stay at "permissive gate" until they accumulate 2+ sample-level distribution-capable A-tier sources. Closing them to the strict tooling gate requires either:
+- FDA TDS meat-subset, fish-subset sample-level extraction (would unlock meat-poultry-purees + fish-containing Pb/Cd/tAs/tHg)
+- Brombach 2017 supplementary Table S1 fetch (would unlock rice-cereal MeHg)
+- Da Mato 2026 supplementary tables (Cat 5 rice plant-milk iAs)
+- Multi-source per-subcategory ICP-MS sample-level surveys (general)
+
+See [[batch-reports/cycles-21-26-final-summary-2026-05-09]] for the Tier 2 external-acquisition wishlist.

@@ -1438,3 +1438,26 @@ Notes: Cycle 33 of Tier-3a sweep. Located gap-report regeneration tooling: `tool
   Tooling can be re-run any time via `node tools/evidence/build-standards-gap-report.mjs`. Adding new sample-level CSV files to `data/evidence/` (e.g., FDA TDS meat-subset, Brombach 2017 SI Table S1, Da Mato 2026 supplementary) would change the tooling's READY count.
 
   Cycle 34 next: Tier 4 — refresh Cowork coordination-payload sections in IandC + Cat 5 masters, presenting both strict-tooling (1 cell) and permissive-curator (50 cells) tiers.
+
+## [2026-05-11] batch | cycle-34-cowork-coordination-payload-refresh — Standards Briefing centerpiece updated; 44 total publishable cells
+Pages affected: [[products/infant-and-child-foods-master]] (Coordination payload section rewritten with current 41 at-bar cells); [[products/category-5-beverages-master]] (Coordination payload section rewritten with current 3 at-bar cells).
+Notes: Cycle 34 of Tier-4. Refreshed Cowork coordination-payload sections of both master pages to reflect cumulative cycle 27-32 cell-state changes. Standards Briefing centerpiece now documents:
+
+  **IandC master** (41 at-bar cells across 16 subcategories):
+   - Two readiness tiers: strict-tooling-READY (1 cell: fruit-juice-not-canned iAs n=152) + permissive curator-narrative (41 cells at master at-bar with caveats inline)
+   - Per-subcategory at-bar summary table with analytes + target values
+   - Recommended Briefing centerpiece by regulatory pull (rice cereal, apple-juice, non-apple juice, root-veg, powdered formula)
+   - Deferred-to-tooling-strict-gate list (cells needing 2+ sample-level sources)
+
+  **Cat 5 master** (3 at-bar cells):
+   - 3-cell publishable centerpiece (apple iAs + apple Pb + non-apple Pb)
+   - 12 approaching cells with closing requirements per subcategory
+   - Recommended Briefing structure: lead with apple-vs-non-apple Pb pair (Part 19 empirical override); plant-milk Al as soy-formula-substitute concern
+
+  **Total publishable Path A Part 19 standards (IandC + Cat 5): 44 cells** (41 IandC + 3 Cat 5).
+
+  **Strict-tooling-publishable**: just 1 cell — fruit-juice-not-canned iAs — which by tooling criteria has 2+ sample-level distribution-capable A-tier sources (FDA 2011 + FDA 2016). The curator-narrative 44-cell count reflects CLAUDE.md Part 6 strict reading (3+ studies = medium confidence) with summary-level corroborators credited per tier audit (commit a31e398).
+
+  **Per CLAUDE.md Part 17 op type**: this is "batch" work — synthesis update across both master pages.
+
+  Cycle 35 next: Final summary + Tier 2 wishlist refresh.

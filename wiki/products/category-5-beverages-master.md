@@ -203,14 +203,29 @@ This Cat 5 master skeleton is committed at autonomous-loop cycle 12 (commit pend
 
 ## Coordination payload for Cowork (Heavy Metals in Beverages Standards Briefing)
 
-Cowork's `hmtc-standards` skill builds the Standards Briefing as a .docx. The 2 Cat 5 cells at the readiness bar are the publishable Path A targets the Beverage Standards Briefing should center on:
+Refreshed 2026-05-11 (cycle 34). Cowork's `hmtc-standards` skill builds the Standards Briefing as a .docx. **3 Cat 5 cells at the readiness bar** (up from 2 at cycle-20 baseline; +1 from cycle 21 FDA 2018 juice Pb extraction):
 
-| Subcategory | Analyte | Standard target candidate | n | n_a_tier | Regulatory cap |
-| --- | --- | --- | --- | --- | --- |
-| Fruit juices, apple-containing | **iAs (dirty)** | **dirty p30 = 3.0 ppb** (FDA 2011 lower-bound; TR=0) | 94 | 2 | 10 ppb (FDA CTZ apple juice); 20 ppb (EU 2023/915) |
-| Plant milks, rice-based | iAs (dirty) | summary-level dirty p30 estimate ≈ 12 ppb (range-based; Da Mato 2026 mean=15, median=15, range 7-24); approaching the bar | 25 | 2 (summary-level) | 30 ppb (EU 2023/915 rice drinks) |
+| # | Subcategory | Analyte | Standard target | n | n_a_tier | Regulatory cap | Headroom |
+| ---: | --- | --- | --- | ---: | ---: | --- | --- |
+| 1 | Fruit juices, apple-containing | **iAs (dirty)** | **dirty p30 = 3.0 ppb** (FDA 2011 lower-bound; TR=0) | 94 | 2 | 10 ppb FDA CTZ apple juice; 20 ppb EU 2023/915 | 70% below FDA cap |
+| 2 | Fruit juices, apple-containing | **Pb (clean)** | **clean p90 = 6.0 ppb** (FDA 2018 longitudinal extraction cycle 21) | 650 | 2 | 10 ppb FDA 2022 draft apple juice | 40% below cap |
+| 3 | Fruit juices, non-apple | **Pb (dirty)** | **dirty p30 = 0 ppb / p90 = 14.9 ppb / p95 = 20.7 ppb** (FDA 2018 longitudinal n=993) | 993 | 2 | 20 ppb FDA 2022 draft other-juice; 30 ppb EU 2023/915 | p95 right at FDA cap; passion-fruit + pomegranate + prune + beet drive upper tail |
 
-The 12 approaching cells (Pb/Cd/tAs/Al/Sn in plant-milks-soy + Pb across fruit juices + Ni/tHg in plant-milks-non-soy-non-rice) are the next readiness targets — most need a second fit sample-level source to clear the bar.
+### Approaching cells (12) — next readiness targets
+
+| Subcategory | Analytes approaching | Closing requirement |
+| --- | --- | --- |
+| Plant milks, rice-based | iAs (summary p30≈12 ppb < EU 30 cap), Pb, tHg, tAs | Sample-level extraction from Da Mato 2026 SI; or 3rd direct rice-plant-milk iAs source |
+| Plant milks, soy-based | Pb, Ni, Al (n=18 sample-level Milani 2023 with Al p100=1822 ppb) | 2nd direct soy-plant-milk multi-element source |
+| Plant milks, non-soy-non-rice | Pb, tHg, Ni (Marques 2021 composites with extraction caveat) | Sample-level extraction or 2nd direct source |
+| Fruit juices, non-apple | iAs (FDA 2016 grape p30=7.8 ppb sample-level Path A thin) | 2nd direct non-apple-juice iAs source (orange, cranberry, pomegranate) |
+
+### Recommended Briefing structure
+
+1. **Lead with the fruit-juice Pb pair** (apple clean p90=6.0; non-apple dirty p30=0/p95=20.7): the empirical apple-vs-non-apple variance is the strongest contamination-platform comparison in the Cat 5 publishable set; Part 19 empirical override of variant_type label is the structural finding.
+2. **Apple-juice iAs as the cleanest cell**: 3.0 ppb 70% below FDA CTZ — most regulatory headroom.
+3. **Non-apple Pb upper-tail story**: passion fruit (134.8 ppb max), pomegranate (115 ppb), beet (79 ppb) — practical retail-monitoring guidance.
+4. **Plant-milk Al concern**: Milani 2023 n=18 soy beverages mean 758 ppb (isolate-protein); regulatory-pull data point for soy-formula-substitute consumers.
 
 ## Wiki Pages Updated On Ingest
 
