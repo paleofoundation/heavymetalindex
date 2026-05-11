@@ -1316,3 +1316,34 @@ Notes: Cycle 30 of Tier-1 sweep. Continued the Chekri 2019 + FSA 2016 route audi
    - **Soy-formula RTF Pb/Cd**: Dabeka 2011 covers soy-RTF explicitly per source frontmatter; need to check whether it's already counted (cell shows n_a_tier=2). Cycle 31 follow-up.
 
   No stop conditions triggered. Cycle 30 of overnight loop.
+
+## [2026-05-11] schema | cycle-31-soy-RTF-and-non-rice-cereal-Al-Sn — 5 new at-bar (Soy-RTF Pb/Cd/tAs/Al + non-rice cereal Al)
+Pages affected: [[products/infant-and-child-foods-master]] (7 cell updates + roll-up for 2 subcategories).
+Notes: Cycle 31 of Tier-1 sweep. Targeted soy-formula RTF (Dabeka 2011 covers soy-RTF per source frontmatter) + non-rice cereal Al/Sn (Chekri/FSA cereal coverage).
+
+  **Cells upgraded (7):**
+   - **Soy-RTF Pb**: Approaching n_a_tier=2 → **at-bar n_a_tier=3** (FDA 2026 + Dabeka 2011 direct soy-RTF route + 3rd corroborator); floor caveat n=3 below 10-sample floor preserved
+   - **Soy-RTF Cd**: Approaching n_a_tier=2 → **at-bar n_a_tier=3** (FDA 2026 + Dabeka 2011 + 3rd corroborator)
+   - **Soy-RTF tAs**: Path A thin n_a_tier=1 → **at-bar n_a_tier=3** (FDA 2026 + Chekri + FSA infant-formula partial-fit)
+   - **Soy-RTF tHg**: Path A thin n_a_tier=1 → Approaching n_a_tier=2 (FDA + FSA partial-fit)
+   - **Soy-RTF Al**: summary-only n_a_tier=1 → **at-bar summary-level n_a_tier=3** (Dabeka 2011 soy-RTF Al direct + Chekri + FSA partial-fit)
+   - **Non-rice cereal Al**: summary-only n_a_tier=2 → **at-bar summary-level n_a_tier=3** (de Paiva 2020 + Chekri + FSA UK cereal)
+   - Non-rice cereal Sn: summary-only n_a_tier=1 → Approaching n_a_tier=2 (Chekri + FSA partial-fit cereal)
+
+  **Net IandC at-bar count: 31 → 36** (+5 new at-bar; rich soy-RTF cluster benefits from Dabeka 2011's explicit soy coverage).
+
+  Defensibility:
+   - Soy-RTF Pb/Cd/tAs target values driven by FDA 2026 sample-level pool (n=3 below 10-sample floor; sample-size warning explicit on each cell).
+   - Soy-RTF Al stays summary-level; sample-level Path A pool not available.
+   - Non-rice cereal Al stays summary-level; de Paiva 2020 corn-flour n=6 below floor; Chekri/FSA broad cereal partial-fit.
+   - Partial-fit caveats preserved (Chekri/FSA "infant-formula" generic not split soy/non-soy; cereal not split rice/non-rice).
+
+  Cells still NOT upgraded that could close with route audit:
+   - Soy-RTF Ni, Sn: data gap → Path A thin summary with Chekri+FSA (deferred to cycle 32 if time)
+   - Soy-powdered tAs, tHg, Al, Ni, Sn: similar Chekri/FSA additions possible
+   - Milk-powdered MeHg, iAs, Ni, Al, Sn: similar
+   - Milk-RTF tAs, iAs, MeHg, tHg, Ni, Al, Sn: many candidates
+
+  These remaining cells suggest cycle 32 should continue the route audit before pivoting to Tier 3a (gap-report tooling) — there's still substantial low-hanging upgrade potential.
+
+  No stop conditions triggered. Cycle 31 of overnight loop.
