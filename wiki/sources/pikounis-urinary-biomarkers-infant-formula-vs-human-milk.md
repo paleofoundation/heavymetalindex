@@ -5,11 +5,12 @@ title: "Urinary biomarkers of exposure to toxic and essential elements: A compar
 authors: ["Talia D. Pikounis", "Kassaundra L. Amann", "Brian P. Jackson", "Tracy Punshon", "Diane Gilbert-Diamond", "Susan Korrick", "Margaret R. Karagas", "Kathryn L. Cottingham"]
 year: 2024
 publication: "Environmental Epidemiology"
+doi: "10.1097/EE9.0000000000000286"
 source_type: peer-reviewed
 evidence_tier: A
 license: lww-cc-by
 raw_path: "raw/Digest/urinary_biomarkers_of_exposure_to_toxic_and.4.pdf"
-access_url: "https://journals.lww.com/environepidem/"
+access_url: "https://doi.org/10.1097/EE9.0000000000000286"
 metals: [iAs, tAs, Pb, Cd, Hg, Mn]
 ingredients: ["[[ingredients/breastmilk]]", "[[ingredients/non-soy-infant-formula]]"]
 products: ["[[products/infant-formula-powder-non-soy]]"]

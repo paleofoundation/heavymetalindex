@@ -7,6 +7,8 @@ year: 2014
 publication: "The Turkish Journal of Pediatrics 56(4):385-391"
 source_type: peer-reviewed
 evidence_tier: A
+no_doi_assigned: true
+no_doi_reason: "The Turkish Journal of Pediatrics did not register CrossRef DOIs for its pre-2018 volumes; volume 56 (2014) articles are identified by journal-volume-issue-page citation only and are not retrievable through CrossRef. Article located by manual fetch from the journal site."
 license: "paywalled — Karen-fetched copy on file"
 access_url: "http://www.turkishjournalpediatrics.org"
 raw_path: "raw/external-fetch/2014_Sipahi_TurkishJPediatric.pdf"
