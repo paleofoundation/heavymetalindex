@@ -1194,3 +1194,33 @@ Notes: Follow-on to commit a31e398 tier-audit. Karen requested deferred row-by-r
    - Mixed meals (rice/non-rice): Kirkpatrick doesn't have mixed-meals subset; FSA 2016 broad category only.
 
   No stop conditions triggered. Op type "schema" per Part 17 (rules-of-classification correction propagated downstream to cell-state). Continues commit a31e398 tier-audit work.
+
+## [2026-05-11] resynthesis | cycle-27-fruit-juice-pb-mislabel-correction — 17th IandC at-bar cell (cell was actually at-bar since cycle 21)
+Pages affected: [[products/infant-and-child-foods-master]] (fruit-juice-not-canned Pb cell relabeled from "summary-only / Below bar" to "At readiness bar"; readiness roll-up updated).
+Notes: Cycle 27 of overnight loop. Kicking off Tier 1 of Karen's tier-1→3→4 sweep. The simplest Tier 1 win: fruit-juice-not-canned Pb cell was mislabeled "summary-only n_a_tier=2 / Below bar" while the FDA 2018 longitudinal Pb dataset (n=1,643 sample-level) was extracted to data/evidence at cycle 21. Updated cell to reflect actual evidence state.
+
+  Computed combined FDA 2018 juice Pb pool for fruit-juice-not-canned (HMTc Cat 1 row 14, infant fruit juice scope; FDA 2018 covers all-consumer juices, infant-context exposure modeling is downstream):
+   - n=1,643 (apple-containing n=650 + non-apple n=993)
+   - p10=0, p20=0, p30=0, p50=1.00, p70=3.30, p90=12.00, p95=17.90, p99=38.00, p100=134.80 ppb
+   - mean=4.20; 1,007 of 1,643 detected
+   - p95=17.90 ppb approaches FDA 2022 draft 20 ppb other-juice cap
+
+  Cell state:
+   - n_a_tier 2 → 3 (FDA 2018 sample-level + FDA 2022 TDS small-N + Weldegebriel 2025 composite); medium confidence per Part 6
+   - Standards target: dirty p30 = 0.00 ppb / p90 = 12.00 ppb
+   - **20th IandC at-bar cell post-tier-audit** (running total: 16 + 1 = 17; or 16 + 4 from earlier overcount; re-tally needed in next cycle)
+   - Eliminates the only remaining "Pb data gap" in Cat 1 row 14
+
+  Cycle-28 reality check: inspected FDA 2024 baby-food compliance dataset row_slugs. **No "meat-and-poultry-purees" or "fish-containing-baby-foods" row_slugs exist in the extracted CSV** — FDA 2024 doesn't separately classify those subcategories. Original Tier 1 plan items #2 (meat-poultry extraction) and #3 (fish-containing extraction) are not viable from existing extracted data. Re-scoped Tier 1 below.
+
+  Revised Tier 1 plan (cycles 28+):
+   1. ~~Tier 1.1 fruit-juice-not-canned Pb mislabel fix~~ ✓ DONE this commit
+   2. **Source-route audit for Chekri 2019 + FSA 2016 across IandC subcategories** — these are A-tier multi-category sources already in corpus; n_a_tier crediting audit needed to identify cells where they're admissible but not yet counted.
+   3. mixed-meals-non-rice Pb/Cd 2nd source (currently FDA 2024 n=78 sample-level only)
+   4. fruit-purees + non-root-veg-purees Pb/Cd 3rd-source check (currently at "Approaching n_a_tier=2" post-tier-audit; need 3rd source)
+   5. soy-formula RTF Pb/Cd 3rd-source check (Dabeka 2011, Almeida 2022 soy-subset identifiability)
+   6. teething-snacks-rice and non-rice subcategory n_a_tier audit (FDA 2024 has only n=2-6 for these; below floor; need 2nd direct source)
+
+  Meat-poultry-purees + fish-containing cells will not move to sample-level Path A without new external acquisition (FDA TDS meat/fish data, or new ingest).
+
+  No stop conditions triggered. Cycle 27 of overnight loop.

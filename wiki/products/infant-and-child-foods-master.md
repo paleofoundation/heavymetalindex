@@ -65,7 +65,7 @@ How to read the `n (Path A)` column in every analyte table below: this value ref
 | Mixed meals (non-rice) ([[products/mixed-meals-non-rice]]) | **dirty** | dirty p30 = **1.00 ppb** | 13.00 ppb | 78 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
 | Teething & snacks (rice-based) ([[products/teething-and-snacks-rice-based]]) | **provisional** (partner data thin/missing) | p90 = 5.85 ppb | 6.50 ppb | 2 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=2 below 10-sample defensibility floor. |
 | Teething & snacks (non-rice) ([[products/teething-and-snacks-non-rice]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| Fruit juice (not-canned) ([[products/fruit-juice-not-canned]]) | summary-only | summary range | — | 0 | 2 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
+| Fruit juice (not-canned) ([[products/fruit-juice-not-canned]]) | **dirty** | dirty p30 = **0.00 ppb** (FDA 2018 longitudinal sample-level pool drives target value); p90 = 12.00 ppb; p95 = 17.90 ppb | **134.80 ppb** | **1,643** sample-level (FDA 2018 combined apple-containing n=650 + non-apple n=993) | **3** | **medium** | **At readiness bar (cycle 27 mislabel-correction).** Path A n_a_tier=3 sample-level: [[sources/fda2018-lead-in-juice-fy2005-fy2018\|FDA 2018]] FY2005-FY2018 longitudinal Pb in juice n=1,643 (extracted cycle 21) + [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022 TDS]] grapefruit + apple bottled small-N + [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\|Weldegebriel 2025]] Ethiopian composites (method-quality caveat per cycle 22). Combined: p10=0, p30=0, p50=1.00, p70=3.30, p90=12.00, p95=17.90, p99=38.00, p100=134.80 ppb; mean=4.20; 1,007 of 1,643 detected. p95=17.90 ppb approaches FDA 2022 draft 20 ppb other-juice cap. Cell was previously mislabeled "summary-only / Below bar" while sample-level CSV existed in corpus since cycle 21. |
 
 ## Cadmium (Cd)
 
@@ -279,7 +279,7 @@ Each cell tagged by status: AT-BAR (Path A n_a_tier≥2 + medium confidence), AP
 | Mixed meals (non-rice) | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
 | Teething & snacks (rice-based) | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
 | Teething & snacks (non-rice) | — | — | Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
-| Fruit juice (not-canned) | — | iAs | Cd, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | Pb |
+| Fruit juice (not-canned) | **Pb (dirty p30=0 ppb / p90=12.0 ppb)** | iAs | Cd, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn | — |
 
 
 ## Source Legend
