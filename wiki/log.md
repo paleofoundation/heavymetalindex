@@ -1465,3 +1465,28 @@ Notes: Cycle 34 of Tier-4. Refreshed Cowork coordination-payload sections of bot
   **Per CLAUDE.md Part 17 op type**: this is "batch" work — synthesis update across both master pages.
 
   Cycle 35 next: Final summary + Tier 2 wishlist refresh.
+
+## [2026-05-11] batch | cycle-35-tier-sweep-final-summary — Sweep complete; loop stops
+Pages affected: [[batch-reports/cycles-27-34-tier-sweep-final-summary-2026-05-11]] (new — comprehensive batch report).
+Notes: Cycle 35 of overnight loop. Final cycle of the tier-1→3→4 sweep.
+
+  Cumulative cycle 27-34 outcomes:
+   - IandC at-bar count: 16 → 41 cells (+25 from route-audit clerical-undercount-correction)
+   - Cat 5 at-bar count: 3 (unchanged this sweep; was the focus of cycles 12-26)
+   - Total publishable Path A Part 19 standards: 44 cells
+   - Architectural finding: curator-narrative at-bar vs strict-tooling-READY divergence (cycle 33)
+   - Cowork coordination payloads refreshed on both master pages (cycle 34)
+   - Tier 2 external-acquisition wishlist refreshed for Karen's manual fetches
+
+  Batch report documents:
+   1. Net cell-state movement table per cycle
+   2. Per-subcategory at-bar inventory (16 subcategories, 41 IandC + 3 Cat 5)
+   3. Two-tier readiness framework (strict-tooling vs curator-narrative)
+   4. Tier 2 external-acquisition wishlist refreshed (Brombach SI; FDA TDS meat+fish subsets; Da Mato SI; tea-Al surveys; multi-element rice/soy formula 3rd sources)
+   5. Recommended next steps (Cowork hmtc-standards trigger; bridge-page integers; Step 0 for Cat 2+; tooling enhancement option)
+
+  Stop conditions across cycles 27-35: none triggered. No A-vs-A unresolved; no regulation-vs-agency disagreement; no row-fit-rule unresolved drift (partial-fit caveats applied throughout); no CLAUDE.md-uncovered schema decision (curator-vs-tooling divergence in cycle 33 was documentation discovery not a schema gap).
+
+  **Loop status: STOPPED at cycle 35.** No ScheduleWakeup called. Resume requires fresh /loop directive with new scope.
+
+  End of cycles 27-35 tier-sweep run.
