@@ -1289,3 +1289,30 @@ Notes: Cycle 29 of Tier-1 sweep. Continuation of cycle-28 Chekri+FSA route audit
   Cycle 30 next: continue routing audit for additional analytes on cells that are still Path A thin / Approaching. Possible: Ni, Al, tAs, Sn additions across multiple subcategories. Or pivot to Tier 1.3+ (3rd-source check for soy-formula RTF).
 
   No stop conditions triggered.
+
+## [2026-05-11] schema | cycle-30-additional-analyte-route-audit — 6 new at-bar (tAs across purees + mixed-meals + non-rice cereal); 3 approaching
+Pages affected: [[products/infant-and-child-foods-master]] (9 cell updates + roll-up for 6 subcategories).
+Notes: Cycle 30 of Tier-1 sweep. Continued the Chekri 2019 + FSA 2016 route audit for remaining Path A thin cells across additional analytes.
+
+  Cells upgraded (9 total):
+   - **Non-rice cereal tAs**: Path A thin n_a_tier=1 → **at-bar n_a_tier=3 medium** (FDA + Chekri + FSA)
+   - **Fruit purees tAs**: Path A thin → **at-bar n_a_tier=3 medium**
+   - **Non-root-veg-purees tAs**: Path A thin → **at-bar n_a_tier=3 medium**
+   - **Root-veg-purees tAs**: Path A thin → **at-bar n_a_tier=3 medium**
+   - **Mixed-meals-rice-containing tAs**: Path A thin → **at-bar n_a_tier=3 medium** (with n=9 below-floor caveat)
+   - **Mixed-meals-non-rice tAs**: Path A thin → **at-bar n_a_tier=3 medium**
+   - Mixed-meals-rice-containing Pb: Path A thin → Approaching n_a_tier=2 (FSA only; Chekri no Pb)
+   - Root-veg-purees tHg: Path A thin → Approaching n_a_tier=2 (FSA only; Chekri no Hg)
+   - Mixed-meals-non-rice tHg: Path A thin → Approaching n_a_tier=2 (FSA only)
+
+  **Net IandC at-bar count: 25 → 31** (+6 new at-bar; tAs cluster across 5 subcategories — all benefit from Chekri tAs + FSA tAs being already cited but not previously credited).
+
+  Defensibility framework retained:
+   - Target values driven by FDA 2024 sample-level pool; Chekri/FSA count as summary-level corroborators for confidence calibration.
+   - Floor caveats preserved (mixed-meals-rice n=9).
+
+  Cells NOT upgraded that could close with route audit (deferred):
+   - **Non-rice cereal Al, Ni, Sn**: would need separate analysis since Chekri/FSA do cover these but the cells currently show "data gap" rather than Path A thin (no FDA 2024 sample-level for Al/Ni/Sn in non-rice cereal); upgrade would be summary-level only.
+   - **Soy-formula RTF Pb/Cd**: Dabeka 2011 covers soy-RTF explicitly per source frontmatter; need to check whether it's already counted (cell shows n_a_tier=2). Cycle 31 follow-up.
+
+  No stop conditions triggered. Cycle 30 of overnight loop.
