@@ -1224,3 +1224,35 @@ Notes: Cycle 27 of overnight loop. Kicking off Tier 1 of Karen's tier-1→3→4 
   Meat-poultry-purees + fish-containing cells will not move to sample-level Path A without new external acquisition (FDA TDS meat/fish data, or new ingest).
 
   No stop conditions triggered. Cycle 27 of overnight loop.
+
+## [2026-05-11] schema | cycle-28-chekri-fsa-route-audit — Adding A-tier multi-category sources to per-cell n_a_tier; 7 new at-bar cells
+Pages affected: [[products/infant-and-child-foods-master]] (8 cell updates + readiness roll-up updated for 5 subcategories).
+Notes: Cycle 28 of overnight loop (Tier 1.2 of Karen's tier-1→3→4 sweep). Source-route audit identified that Chekri 2019 (FR TDS) and FSA 2016 (UK survey) were ALREADY cited on virtually every IandC product page (chekri:1-5, fsa:4-13 occurrences each) but their direct n_a_tier contributions weren't being credited in master CC cells for several subcategories.
+
+  Source metal coverage (from frontmatter):
+   - Chekri 2019: [Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V] — **does NOT measure Pb or Hg**
+   - FSA 2016: [Al, Sb, tAs, iAs, Cd, Cr, Cu, I, Fe, Pb, Mn, tHg, Ni, Se, Sn, Zn] — broad
+
+  Cells upgraded:
+   - **Fruit purees Pb** (Approaching n_a_tier=2 → at-bar n_a_tier=3): FDA 2024 + Kirkpatrick + FSA 2016 UK fruit-puree summary
+   - **Fruit purees Cd** (Approaching n_a_tier=2 → at-bar n_a_tier=4): FDA + Kirkpatrick + FSA + Chekri
+   - **Non-root-veg-purees Pb** (Approaching n_a_tier=2 → at-bar n_a_tier=3): FDA + Kirkpatrick partial-fit + FSA 2016
+   - **Non-root-veg-purees Cd** (Approaching n_a_tier=2 → at-bar n_a_tier=4): FDA + Kirkpatrick + FSA + Chekri
+   - **Meat-poultry-purees Cd** (Approaching summary n_a_tier=2 → at-bar summary-level n_a_tier=3): Kirkpatrick + FSA + Chekri; **target value remains summary range until sample-level Path A admitted**; FDA TDS meat-subset extraction would upgrade further
+   - **Mixed-meals-non-rice Cd** (Path A thin n_a_tier=1 → at-bar n_a_tier=3): FDA + FSA + Chekri
+   - **Mixed-meals-rice-containing Cd** (Path A thin n_a_tier=1 → at-bar with floor caveat n_a_tier=3): FDA n=9 below 10-sample floor + FSA + Chekri; explicit sample-size caveat
+   - Mixed-meals-non-rice Pb (Path A thin → Approaching n_a_tier=2): FDA + FSA; Chekri doesn't help (no Pb)
+
+  **Net IandC at-bar count: 17 → 24** (+7 new at-bar cells; mixed-meals Cd contributes +2 with floor caveat).
+
+  Defensibility framework retained:
+   - Standards target values continue to be driven by sample-level distributions where they exist (FDA 2024, etc.); Chekri/FSA count toward n_a_tier confidence calibration as summary-level corroborators.
+   - Method-quality caveats stay visible inline (FSA 2016 UK regional; Chekri 2019 French TDS; sample-size warnings preserved).
+   - Meat-poultry-purees Cd is explicitly summary-level — no sample-level Path A pool yet; target value remains summary range; FDA TDS meat-subset extraction (not in current corpus) would be the closing upgrade.
+
+  Cells NOT yet upgraded that could close with more route auditing:
+   - meat-poultry-purees Pb: only Kirkpatrick + FSA = n_a_tier=2 (Chekri no Pb); still Approaching; would need 3rd Pb source
+   - fish-containing-baby-foods: multiple cells stuck at "summary-only n_a_tier=1"; FSA 2016 fish category should add 2nd source — deferred to cycle 29
+   - teething/snacks: cells stuck at "Path A thin n_a_tier=1" or "summary-only"; FSA 2016 snacks should add — deferred to cycle 29
+
+  No stop conditions triggered. Cycle 28 of overnight loop. Self-pacing at 60-300s during active extraction.
