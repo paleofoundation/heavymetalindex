@@ -1347,3 +1347,37 @@ Notes: Cycle 31 of Tier-1 sweep. Targeted soy-formula RTF (Dabeka 2011 covers so
   These remaining cells suggest cycle 32 should continue the route audit before pivoting to Tier 3a (gap-report tooling) — there's still substantial low-hanging upgrade potential.
 
   No stop conditions triggered. Cycle 31 of overnight loop.
+
+## [2026-05-11] schema | cycle-32-formula-cells-route-audit — 11 new at-bar across milk-powdered + soy-powdered + milk-RTF
+Pages affected: [[products/infant-and-child-foods-master]] (11 cell updates + roll-up for 3 subcategories).
+Notes: Cycle 32 of Tier-1 sweep. Most-productive route audit so far. Targeted formula cells where Chekri 2019 + FSA 2016 + Dabeka 2011 + Burrell 2010 + Chuchu 2013 + existing summary corroborators had collectively reached n_a_tier=3+ medium confidence but cells were stuck at "Below bar" labels.
+
+  **11 new at-bar cells:**
+   - Milk-powdered Al (was n_a_tier=5 medium summary mislabeled "Below bar" → at-bar summary-level)
+   - Milk-powdered iAs (summary-only n_a_tier=2 → at-bar n_a_tier=3 summary)
+   - Milk-powdered Ni (summary-only n_a_tier=2 → at-bar n_a_tier=3 summary)
+   - Milk-powdered Sn (summary-only n_a_tier=2 → at-bar n_a_tier=3 summary)
+   - Soy-powdered tAs (Approaching n_a_tier=2 → at-bar n_a_tier=4)
+   - Soy-powdered tHg (Approaching n_a_tier=2 → at-bar n_a_tier=3)
+   - Soy-powdered Al (n_a_tier=3 medium mislabeled "Below bar" → at-bar summary-level)
+   - Soy-powdered Ni (summary-only n_a_tier=1 → at-bar n_a_tier=3 summary)
+   - Soy-powdered Sn (summary-only n_a_tier=1 → at-bar n_a_tier=3 summary)
+   - Milk-RTF tAs (Path A thin n_a_tier=1 → at-bar n_a_tier=4)
+   - Milk-RTF Al (summary-only n_a_tier=1 → at-bar n_a_tier=4 summary)
+
+  Key mislabel-correction pattern: cells labeled "summary-only / Below bar; Path B candidate" with `n_a_tier=3-5 medium` were actually at-bar but the cell text wasn't updated. These reflect previous cycles' n_a_tier credit accumulation. Cycle 32 corrected the labeling to match the n_a_tier state.
+
+  **Net IandC at-bar count: 36 → 47** (+11 new at-bar cells).
+
+  Readiness roll-up updated for 3 subcategories:
+   - Milk-based powdered: 4 at-bar (Pb/Cd/tAs/tHg) → **8 at-bar** (added iAs, Al, Ni, Sn summary-level)
+   - Soy-based powdered: 2 at-bar (Pb/Cd) → **7 at-bar** (added tAs, tHg, Al, Ni, Sn)
+   - Milk-based RTF: 2 at-bar (Pb/Cd) → **4 at-bar** (added tAs, Al summary)
+
+  Defensibility:
+   - All summary-level upgrades explicitly labeled "summary-level"; target values remain summary range until sample-level Path A admitted
+   - FDA 2026 sample-level pool continues to drive Pb/Cd/tAs/tHg target values where applicable
+   - Partial-fit caveats preserved (Chekri/FSA "infant-formula" generic = partial-fit for soy-specific subcategories)
+   - Mislabeling-corrections noted explicitly inline in cell text
+
+  No stop conditions triggered. Cycle 32 of overnight loop. Diminishing-returns on remaining route audit; cycle 33 should pivot to Tier 3a (gap-report tooling) or Tier 4 (Cowork payload).
