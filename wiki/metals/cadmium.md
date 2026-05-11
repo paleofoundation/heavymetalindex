@@ -244,5 +244,6 @@ Fifth, the Codex standards landscape is now substantially covered. Matrix-level 
 - [[sources/nordberg2015-cadmium-chapter|Nordberg 2015]] — Nordberg GF, Nogawa K, Nordberg M, 2015. Cadmium. In Handbook on the Toxicology of Metals, 4th ed., Vol II, Ch 32 (Academic Press / Elsevier).
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed. (McGraw Hill).
 - [[sources/jakubowski2012-zinc-cadmium-chapter|Jakubowski 2012]] — Jakubowski M, 2012. Zinc and Cadmium Compounds, Ch 7 in Patty's Toxicology, 6th ed. (John Wiley & Sons). Cadmium portion only; zinc portion deferred to future Zn ingest.
+- [[sources/balali-mood-2021-toxic-mechanisms-five-heavy-metals|Balali-Mood et al. 2021]] — Cross-metal mechanistic-toxicology synthesis covering Hg, Pb, Cr, Cd, As; documents shared ROS/GSH-depletion pathways and Cd-specific signatures (ETC complexes II/III inhibition, MT half-life 25-30y, OGG1/XPA repair inhibition).
 
 _Pending for later ingest waves: EPA IRIS (raw is a 1999 draft; operative 1985 record pending), JECFA 73rd meeting primary derivation documents for the PTMI, EFSA 2011 reaffirming statement._

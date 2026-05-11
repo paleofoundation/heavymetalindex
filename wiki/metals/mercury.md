@@ -179,5 +179,6 @@ Second, the EPA IRIS methylmercury reassessment (currently in step 1 at IRIS) ma
 - [[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]] — Farina, Rocha, Aschner 2011. Mechanisms of methylmercury-induced neurotoxicity.
 - [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]] — FDA / EPA. Advice About Eating Fish (joint guidance).
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
+- [[sources/balali-mood-2021-toxic-mechanisms-five-heavy-metals|Balali-Mood et al. 2021]] — Cross-metal mechanistic-toxicology synthesis. For Hg: documents thiol affinity binding cysteine residues, selenoenzyme targeting via Hg-Se complex formation (selenoprotein P, glutathione peroxidase, thioredoxin reductase), MeHg blood-brain and placental crossing, and inorganic-Hg renal accumulation.
 
 See also [[studies/mercury-primary-literature]] for the citable index of mercury-focused primary research articles in raw/studies/.
