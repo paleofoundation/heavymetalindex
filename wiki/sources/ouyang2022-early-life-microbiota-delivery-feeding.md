@@ -8,6 +8,7 @@ publication: "Comprehensive Gut Microbiota, Volume 2 (Elsevier), Chapter 2.03, p
 doi: "10.1016/B978-0-12-819265-8.00064-4"
 source_type: review-chapter
 evidence_tier: B
+tier_rationale_b_retained: "Review chapter (not primary research, not formal meta-analysis). Per CLAUDE.md Part 13, A-tier covers 'primary studies' + 'meta-analyses' + 'government reports' — review chapters fall outside these categories. Stays B with explicit rationale."
 license: "publisher-licensed (Elsevier; book chapter, not OA)"
 access_url: "https://doi.org/10.1016/B978-0-12-819265-8.00064-4"
 raw_path: "raw/external-fetch/Early-Life-Microbiota-Impact-of-Delivery-Mode-and-Infant-Feeding.pdf"

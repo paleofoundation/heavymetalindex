@@ -1077,3 +1077,48 @@ Notes: Cycle 26 of overnight loop. Per priority-list item #5 ("After all tractab
   **Loop stops at cycle 26** — no ScheduleWakeup. Resume requires fresh /loop directive with one of the unblocking actions above.
 
   End of post-cycle-20 extension run.
+
+## [2026-05-11] schema | tier-classification-audit-part13-strict — Tier upgrades + IandC at-bar count 13→16 + new tier_rationale fields
+Pages affected: 7 source-page frontmatter updates (5 B→A upgrades + 2 rationale-annotated stays + Elsheikh + Kirkpatrick), [[products/infant-and-child-foods-master]] (3 new at-bar cells + roll-up updated).
+Notes: Karen flagged that I had been applying an unwritten Q1-journal-impact + ICP-MS-method-modernity filter on top of CLAUDE.md Part 13's tier definition, causing peer-reviewed sources to be undercounted as B-tier. Part 13 strict reading: A-tier = "peer-reviewed primary studies, government reports (FDA, EFSA, EPA, WHO, Codex), and authoritative meta-analyses." No journal-impact or method-modernity filter is canonical.
+
+  Defensibility framework reaffirmed: tier (Part 13 source-type credibility) is orthogonal to (a) evidence_fitness (capture/extraction quality), (b) Path A sample-level vs Path B summary-level (statistical computation path), and (c) method-quality caveats (LOD/LOQ, sample-size, jurisdiction-mix). Each dimension is tracked separately. Method-quality concerns belong in source-page Limitations + new `method_quality_caveat` and `journal_impact` frontmatter fields, NOT in tier demotion.
+
+  Audit pass across 130+ source pages identified 8 B-tier flagged sources. Per Part 13 strict reading:
+   - **5 upgraded to A-tier**:
+     - dabeka1987-canada-infant-formula-lead-cadmium (peer-reviewed primary, J Assoc Off Anal Chem; Canadian govt agency authors)
+     - efsa-food-safety-research-needs-2030 (EFSA explicitly named in Part 13 as A-tier source)
+     - eticha2018-infant-formula-metals-mekelle-ethiopia (peer-reviewed primary, Hindawi venue; journal_impact caveat)
+     - lgc2003-nickel-piercing-post-assemblies (UK govt chem lab + EC contract; government research report)
+     - stanton2021-metallome-autism-spectrum-disorders (peer-reviewed primary, Frontiers in Molecular Neuroscience)
+   - **3 kept B-tier with explicit `tier_rationale_b_retained` annotation**:
+     - belgian-lead-factsheet-2024 (government-issued factsheet is synthesis communication, not primary research or meta-analysis; sits closer to NGO-synthesis territory)
+     - ouyang2022-early-life-microbiota-delivery-feeding (review chapter, not primary research or formal meta-analysis)
+     - tarigan2016-factors-tin-released-canned-beverages (Int J PharmTech Research; publisher SphinxSai on Beall's predatory-journal list — "peer-reviewed" status questionable in substance)
+   - **Plus Elsheikh 2020 + Kirkpatrick 1980 upgraded to A-tier** (cycle-9 and cycle-10 ingests; method-quality caveats explicitly preserved in new `method_quality_caveat` frontmatter field; tier_rationale documents the Part 13 reasoning).
+
+  Defensibility guardrails enforced in master cell updates:
+   - Tier upgrade ≠ silent admission to sample-level percentile pool. Standards target values continue to come from the best sample-level distribution (FDA 2024, Toledo 2024); Kirkpatrick/Elsheikh count toward n_a_tier confidence calibration but do not pool into percentile math.
+   - Method-quality caveats stay visible inline on every cell they contribute to (LOD-floor inflation, sample-size below floor, partial-fit, jurisdiction-mix).
+   - EF stays low for Elsheikh/Kirkpatrick (EF-3) to preserve documented quality signal.
+
+  Cell-state changes in IandC master:
+   - baby-cereals-dry-rice-based Pb: Approaching n_a_tier=2 (FDA + Toledo sample-level) → **At readiness bar n_a_tier=4 medium** (added Kirkpatrick + Elsheikh as summary corroborators); target value p30=3.30 ppb unchanged
+   - baby-cereals-dry-rice-based Cd: Approaching n_a_tier=2 → **At readiness bar n_a_tier=4 medium**; target p90=22.00 ppb unchanged
+   - root-vegetable-purees Cd: Path A thin n_a_tier=1 → **At readiness bar n_a_tier=3 medium** (added Kirkpatrick veg as partial-fit summary corroborator; target p30=3.95 ppb unchanged)
+   - Readiness roll-up updated: rice cereal row now lists 4 at-bar analytes (Pb, Cd, tAs, Al); root-veg-purees lists 2 at-bar (Pb, Cd).
+
+  **Net IandC at-bar count: 13 → 16 cells.** Total publishable Path A Part 19 standards across IandC + Cat 5: 6 → **9**:
+   1. fruit-juices-apple-containing iAs dirty p30 = 3.0 ppb (cycle 13)
+   2. baby-cereals-dry-rice-based tAs dirty p30 = 102 ppb (post-cycle-20 9ad45f8)
+   3. fruit-juices-apple-containing Pb clean p90 = 6.0 ppb (cycle 21)
+   4. fruit-juices-non-apple Pb dirty p30 = 0 ppb / p95 = 20.7 ppb (cycle 21)
+   5. root-vegetable-purees Pb dirty p30 = 3.74 ppb (cycle 24)
+   6. baby-cereals-dry-rice-based Al dirty p30 = 552 ppb (cycle 25)
+   7. **baby-cereals-dry-rice-based Pb dirty p30 = 3.30 ppb** (post-tier-audit; this commit)
+   8. **baby-cereals-dry-rice-based Cd clean p90 = 22.00 ppb** (post-tier-audit; this commit)
+   9. **root-vegetable-purees Cd dirty p30 = 3.95 ppb** (post-tier-audit; this commit)
+
+  Remaining tier-audit-deferred cell upgrades for future cycles: meat-poultry-purees Pb/Cd/tAs/tHg (Kirkpatrick n=76 + FSA 2016 broad UK meats → approaching from Path A thin); fruit-purees Pb/Cd/tAs (Kirkpatrick n=102 + FSA 2016 fruit category); non-rice cereal Pb/Cd (Kirkpatrick + Elsheikh + Toledo non-rice n=4 partial-fit); ready-to-feed-formula Pb/Cd (Kirkpatrick n=13 prepared liquid); soy-formula Pb/Cd (Dabeka 1987 + Eticha 2018 if soy subset identifiable). These would require row-by-row disambiguation across 7 identical-row patterns in the master tables; deferred to dedicated lint cycle.
+
+  No stop conditions triggered. The tier-audit is a Part 17 op type "schema" (rules-of-classification correction); cell-state propagation is a downstream consequence with documented method-quality caveats preserving defensibility.

@@ -7,7 +7,9 @@ year: 1987
 publication: "Journal of Association of Official Analytical Chemists 70(4):754-757"
 doi: 10.1093/jaoac/70.4.754
 source_type: study
-evidence_tier: B
+evidence_tier: A
+tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed primary study (J Assoc Off Anal Chem) + government agency authors (Health Protection Branch, Canada). Both A-tier criteria satisfied."
+method_quality_caveat: "1987-era methodology; LOD/LOQ should be checked against modern ICP-MS sensitivity for any contemporary comparison."
 jurisdiction: Canada
 metals: [Pb, Cd]
 products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]

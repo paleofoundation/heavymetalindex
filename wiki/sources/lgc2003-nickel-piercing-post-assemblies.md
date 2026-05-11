@@ -7,7 +7,9 @@ authors: ["LGC Limited"]
 year: 2003
 publication: "Final Report submitted under EC Contract ETD/FIF.2001592"
 source_type: gov-report
-evidence_tier: B
+evidence_tier: A
+tier_rationale: "Per CLAUDE.md Part 13: government-contract research report (LGC Limited / UK National Measurement Laboratory under EC Contract ETD/FIF.2001592). Government-commissioned scientific report."
+method_quality_caveat: "2003 dossier preceding EU nickel restrictions; specific to piercing-post contact-product subcategory, not food matrices."
 license: public-reference-only
 raw_path: "raw/Digest/nickel_en.pdf"
 raw_sha256: "47baa4d890c906a884a301a1395fdbfcfb42587b3faf812cf962ffd794cbd87b"

@@ -7,7 +7,10 @@ year: 2018
 publication: "International Journal of Analytical Chemistry, Vol. 2018, Article 2985698"
 doi: "10.1155/2018/2985698"
 source_type: peer-reviewed
-evidence_tier: B
+evidence_tier: A
+tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed primary study (Int J Anal Chem / Hindawi). Hindawi journal-impact concerns are captured in journal_impact field, not used to demote tier."
+method_quality_caveat: "Hindawi-published; journal-impact below premier food-safety venues. Methodology details require review before sample-level pooling."
+journal_impact: "Hindawi venue with mixed peer-review reputation; verify methodology details before standards use."
 license: cc-by
 raw_path: "raw/Digest/eticha2018.pdf"
 access_url: "https://doi.org/10.1155/2018/2985698"

@@ -7,7 +7,11 @@ year: 2020
 publication: "Asian Journal of Chemistry 32(6):1273-1278"
 doi: "10.14233/ajchem.2020.22499"
 source_type: peer-reviewed
-evidence_tier: B
+evidence_tier: A
+evidence_fitness: EF-3
+journal_impact: lower-tier (Asian J Chem is below Q1 food-safety venues; methodology reasonable but reporting density lower than premier journals)
+method_quality_caveat: "ICP-OES at LOD/LOQ ppm: Al 0.0055/0.064; Pb 0.0062/0.086; Cd 0.0051/0.013; As 0.0054/0.046. Recovery 92.3-101.6%. Formula subset n=3 brands and Cerelac n=1 brand are below the 10-sample defensibility floor; outlier Al values (brand 19 baby powder milk 391 µg/kg/day daily intake; biscuit brand 6 291,900 ppb total Al) flagged as possibly real Saudi-market signal or possibly method-sensitivity artefact pending brand-level follow-up."
+tier_rationale: "Per CLAUDE.md Part 13 A-tier = peer-reviewed primary studies; Asian J Chem is peer-reviewed. Journal-impact concern is captured in journal_impact field; method/sample-size concerns are captured in method_quality_caveat and Limitations section; not used to demote tier."
 license: "CC BY 4.0"
 access_url: "https://doi.org/10.14233/ajchem.2020.22499"
 raw_path: "raw/external-fetch/elsheikh2020.pdf"
