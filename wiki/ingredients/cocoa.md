@@ -9,16 +9,16 @@ contamination_profile:
     status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-11
   Cd:
     status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-11
   iAs:
     status: pending
     typical_ppb: [null, null]
@@ -34,26 +34,26 @@ contamination_profile:
     n_studies: 0
     last_reviewed: null
   Ni:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-11
   Al:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-11
   Cr:
-    status: pending
+    status: in_progress
     typical_ppb: [null, null]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-11
   Sn:
     status: pending
     typical_ppb: [null, null]
@@ -80,7 +80,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/cocoa-powder]]", "[[ingredients/high-cocoa-solid-dark-chocolate]]"]
 used_in_products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[products/cocoa-baked-goods]]", "[[products/confectionery]]", "[[products/baby-food-flavor]]", "[[products/nutritional-supplements]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-08
+updated: 2026-05-11
 ---
 
 # Cocoa
@@ -126,20 +126,43 @@ Cocoa cadmium mitigation is structured across all four [[mitigation/index|mitiga
 
 Cd range across all 144 cocoa-and-chocolate samples: 0.004 to 3.15 mg/kg. Pb range: <LOD to 0.38 mg/kg. The 26 cocoa-powder samples with 100 percent cocoa content had a mean Cd of 0.99 ± 0.87 mg/kg. Cd was significantly higher in Latin American product than in African product. These values count as one Path A primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
 
+## Lead in cocoa
+
+Cocoa carries measurable but lower Pb than Cd, with the strongest signal in cocoa powder rather than finished chocolate. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt et al. 2018]] reports mean Pb in cocoa powder at 0.11 ± 0.10 mg/kg (range below LOD to 0.38 mg/kg across 144 samples), with cocoa nibs at 0.003 ± 0.004 mg/kg, dark chocolate at 0.03 ± 0.02 mg/kg, and milk chocolate at 0.01 ± 0.01 mg/kg. Pb correlated significantly with percent cocoa solids and showed geographic variation (Latin America somewhat higher than Africa) but with a smaller spread than Cd. The 2020 FDA perspective ([[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]]) frames cocoa Pb as principally anthropogenic-deposition-driven rather than geogenic, in contrast with the largely soil-Cd-driven Cd signal. The U.S. FDA Pb-in-candy guidance recommends a maximum level of 0.1 mg/kg in candy including chocolate candy.
+
+## Nickel in cocoa
+
+Cocoa is one of the highest-Ni dietary commodities at population level. [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] explicitly names cocoa among the principal dietary Ni sources alongside drinking water, nuts, legumes, and cereals, with the EFSA CONTAM Panel chronic TDI of 13 µg Ni/kg b.w./day calibrating against this matrix. Cocoa Ni concentration is driven by the high Ni-uptake capacity of the cacao tree from tropical soils plus processing-equipment contact during cocoa-mass and cocoa-powder manufacture. Ni in cocoa is also clinically relevant for nickel-sensitized individuals (systemic contact dermatitis flare-ups); the EFSA 2020 acute LOAEL of 4.3 µg Ni/kg b.w. for eczematous flare-up reactions identifies cocoa-frequent consumers as one of the at-risk dietary subgroups. Sample-level cocoa Ni concentration distributions are not yet loaded on the wiki; Phase 3b ingest of EFSA's underlying cocoa Ni occurrence dataset would firm Path A.
+
+## Aluminum in cocoa
+
+Cocoa is a recognized Al matrix from a combination of plant uptake (cacao tree roots take up Al from acidic tropical soils) and processing-equipment contact (alkalization step in cocoa manufacturing uses alkaline reagents in aluminum-containing vessels in some plants). [[sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi|Elsheikh et al. 2020]] reports Al in cocoa sweets among the children's-food matrices analyzed in Turabah province, Saudi Arabia (B-tier evidence; Saudi-market specific). Direct sample-level cocoa Al concentration distributions from U.S. or EU markets are not yet loaded on the wiki. The metal warrants a Phase 3b raw/markdown sweep for primary cocoa Al occurrence work.
+
+## Chromium in cocoa
+
+[[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france|Hernandez et al. 2019]] reports that cocoa-containing products consistently show the highest Cr concentrations across the French food categories surveyed: four breakfast cereals containing chocolate ranged 360 to 483 ppb total Cr; a dry chocolate biscuit averaged 103 ppb. The authors note the cocoa-Cr association is "consistent with prior EFSA findings." This is total Cr rather than Cr-VI specifically; the Hernandez paper measures both species, and Cr-VI in cocoa-containing finished products remains a candidate for additional surveillance ingest. The total-Cr signal supports flagging cocoa as a Cr-bearing matrix worth monitoring; whether finished-product Cr-VI fractions are significant requires speciation studies that are not yet loaded.
+
 ## Other metals of concern
 
-_Pending dedicated iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all ten HMI metals; commodity-specific narrative for non-Cd-and-Pb metals will populate when the corresponding source pages are ingested._
+The remaining HMI-tracked metals on cocoa (iAs, tAs, tHg, MeHg, Sn, U) do not have strong cocoa-specific occurrence evidence in the loaded corpus. Cocoa is not a primary arsenic matrix (rice and seafood dominate the dietary As pathway), is not canned in tin (so Sn is not a cocoa-specific exposure route), and does not carry meaningful Hg or U at population level. These metals remain at status: pending on the contamination_profile.
 
 ## Regulatory limits that apply
 
-- [[regulations/jecfa-cadmium-ptmi]] — Not a cocoa-specific limit but the health-based reference value Codex cocoa MLs are aligned against; children 0.5 to 12 can reach 96 percent of the PTMI with cocoa included in total dietary intake.
-- [[regulations/codex-cadmium-mls]] — Codex matrix-level MLs for cocoa and chocolate products (pending ingest of CXS 193-1995 and CXC 81-2022); CCCF17 2024 initiated a broader Code of Practice for cadmium across foods with cocoa as the precedent category.
+- [[regulations/jecfa-cadmium-ptmi]] — Not a cocoa-specific limit but the health-based reference value Codex cocoa MLs are aligned against; children 0.5 to 12 can reach 96 percent of the PTMI with cocoa included in total dietary intake ([[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]]).
+- [[regulations/codex-cadmium-mls]] / [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — International matrix-specific Cd maximum levels: cocoa powder (100 percent cocoa solids on dry matter basis) 2.0 mg/kg; chocolate ≥70 percent cocoa solids 0.9 mg/kg; chocolate 50 to less than 70 percent cocoa solids 0.8 mg/kg; chocolate 30 to less than 50 percent cocoa solids 0.7 mg/kg; chocolate less than 30 percent cocoa solids (including milk chocolate) 0.3 mg/kg.
 - [[regulations/eu-2023-915-cadmium]] — EU Cd maximum level for cocoa powder placed on the market for the final consumer or as an ingredient in sweetened cocoa powder/powdered chocolate is 0.60 mg/kg (600 ug/kg). Chocolate products are regulated separately by cocoa-solid percentage on [[ingredients/chocolate]].
+- [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] — Chronic TDI 13 µg Ni/kg b.w./day; acute LOAEL 4.3 µg Ni/kg b.w. for eczematous flare-up in sensitized individuals. No cocoa-specific Ni ML at international level.
+- FDA Pb in candy: recommended maximum level 0.1 mg/kg for candy including chocolate candy ([[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] cites the FDA guidance).
 
 ## Sources
 
 - [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt et al. 2018]] — FDA U.S. market convenience-sample survey of 144 cocoa-and-chocolate products with Cd and Pb by ICP-MS; per-matrix means and percent-cocoa-and-origin correlation.
 - [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] — FDA perspective synthesizing Abt 2018 with JECFA 2013, FDA 2014-2016 dietary exposure, and Codex international standards efforts.
-- [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment.
+- [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment; cocoa-inclusive child exposure up to 96 percent of PTMI.
 - [[sources/codex-cccf17-2024|Codex CCCF17 2024]] — Codex CCCF, April 2024. Report of the 17th Session (REP24/CF17).
 - [[sources/codex-cxc-81-2022|Codex CXC 81-2022]] — Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — International General Standard for Contaminants and Toxins in Food and Feed; cocoa powder Cd ML 2.0 mg/kg and chocolate Cd MLs scaled by cocoa-solid percentage.
+- [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] — EFSA Scientific Opinion on cadmium in food; 140,000-sample occurrence dataset identifying chocolate among major dietary Cd contributors.
+- [[sources/efsa-nickel-contam-2020|EFSA Ni 2020]] — EFSA CONTAM Panel update; cocoa explicitly named among top dietary Ni sources alongside drinking water, nuts, legumes, and cereals.
+- [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france|Hernandez et al. 2019]] — French Cr-VI/Cr-III speciation in milk, dairy, and cereal products; cocoa-containing breakfast cereals 360-483 ppb total Cr, chocolate biscuit 103 ppb.
+- [[sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi|Elsheikh et al. 2020]] — Saudi children's-foods elements by ICP-OES; cocoa sweets is one of the matrices analyzed for Al-and-others (B-tier journal).
