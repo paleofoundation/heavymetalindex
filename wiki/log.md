@@ -1122,3 +1122,75 @@ Notes: Karen flagged that I had been applying an unwritten Q1-journal-impact + I
   Remaining tier-audit-deferred cell upgrades for future cycles: meat-poultry-purees Pb/Cd/tAs/tHg (Kirkpatrick n=76 + FSA 2016 broad UK meats → approaching from Path A thin); fruit-purees Pb/Cd/tAs (Kirkpatrick n=102 + FSA 2016 fruit category); non-rice cereal Pb/Cd (Kirkpatrick + Elsheikh + Toledo non-rice n=4 partial-fit); ready-to-feed-formula Pb/Cd (Kirkpatrick n=13 prepared liquid); soy-formula Pb/Cd (Dabeka 1987 + Eticha 2018 if soy subset identifiable). These would require row-by-row disambiguation across 7 identical-row patterns in the master tables; deferred to dedicated lint cycle.
 
   No stop conditions triggered. The tier-audit is a Part 17 op type "schema" (rules-of-classification correction); cell-state propagation is a downstream consequence with documented method-quality caveats preserving defensibility.
+
+## [2026-05-11] schema | tier-audit-cell-propagation — Row-by-row Pb + Cd cell upgrades; IandC at-bar 16→21
+Pages affected: [[products/infant-and-child-foods-master]] (10 cell text updates + readiness roll-up updated for 5 subcategories).
+Notes: Follow-on to commit a31e398 tier-audit. Karen requested deferred row-by-row updates done ASAP. Applied 10 cell upgrades for Pb + Cd analytes where Kirkpatrick 1980 (now A-tier post-audit) and Elsheikh 2020 (now A-tier) route directly or as partial-fit.
+
+  Kirkpatrick 1980 routes (now n_a_tier-creditable per Part 13):
+   - Cat 1 prepared formula n=13 → milk-based RTF liquid (direct fit, soy/non-soy not split → non-soy default per Part 6)
+   - Cat 2 powdered formula n=4 → infant-formula-powder-non-soy (already at-bar; no upgrade needed)
+   - Cat 3+4 strained+junior meats n=76 → meat-and-poultry-purees (direct fit)
+   - Cat 5+6 strained+junior vegetables n=59 → non-root-vegetable-purees + root-vegetable-purees (partial-fit; not split root/non-root)
+   - Cat 7+8 strained+junior desserts/fruits n=102 → fruit-purees + mixed-purees-with-fruit
+   - Cat 10 cereals n=35 → baby-cereals-dry-rice-based + baby-cereals-dry-non-rice (partial-fit; not split rice/non-rice)
+
+  Elsheikh 2020 routes:
+   - Infant formula 3 brands → infant-formula-powder-non-soy (already at-bar; corroboration only)
+   - Cerelac 1 brand → baby-cereals-dry-rice-based (if rice-based) + baby-cereals-dry-non-rice (if non-rice; routing ambiguous, treat as partial-fit to both)
+
+  **Cell-state changes (10 cells updated in Pb + Cd sections):**
+
+  Pb section:
+  - non-rice cereal Pb: Path A thin n_a_tier=1 → **at-bar n_a_tier=3 medium** (FDA + Toledo non-rice n=4 triangulation + Kirkpatrick partial-fit + Elsheikh partial-fit); target clean p90=7.84 ppb unchanged
+  - fruit-purees Pb: Path A thin n_a_tier=1 → **Approaching n_a_tier=2** (FDA + Kirkpatrick desserts/fruits n=102 direct fit); target clean p90=2.37 ppb unchanged
+  - non-root-veg-purees Pb: Path A thin n_a_tier=1 → **Approaching n_a_tier=2** (FDA + Kirkpatrick veg partial-fit); target clean p90=1.76 ppb unchanged
+  - meat-poultry-purees Pb: summary-only n_a_tier=1 → **Approaching n_a_tier=2 summary-level** (Kirkpatrick n=76 + FSA 2016); no sample-level Path A pool yet
+  - milk-based RTF Pb: Approaching n_a_tier=2 → **at-bar n_a_tier=3 medium** (FDA 2026 sample-level + Kirkpatrick prepared formula n=13 + 3rd corroborator); target dirty p30=0.20 ppb unchanged
+
+  Cd section: parallel updates for same 5 subcategories:
+  - non-rice cereal Cd → **at-bar**
+  - fruit-purees Cd → **Approaching**
+  - non-root-veg-purees Cd → **Approaching**
+  - meat-poultry-purees Cd → **Approaching summary-level**
+  - milk-based RTF Cd → **at-bar**
+
+  **Defensibility guardrails enforced** (consistent with commit a31e398):
+   - Target value continues to be driven by sample-level distributions (FDA 2024 + FDA 2026); Kirkpatrick and Elsheikh count toward n_a_tier confidence calibration but do not pool into percentile math.
+   - "Historical-baseline caveat" inline on every cell where Kirkpatrick contributes: "AAS LOD 10 ppb inflates 1980 means; corroborates direction not magnitude."
+   - "Partial-fit caveat" inline where Kirkpatrick cereals/veg aren't split by HMTc subcategory architecture.
+   - Meat-poultry-purees stays summary-level (no sample-level pool extracted); explicit "no FDA 2024 meat-specific sample-level extracted yet" caveat preserves the gap.
+
+  **Readiness roll-up updated** for 5 subcategories:
+   - Infant non-rice cereal (dry): at-bar adds **Pb (clean p90=7.84 ppb)** + **Cd (dirty p30=11.36 ppb)**
+   - Milk-based RTF liquid infant formula: at-bar adds **Pb (dirty p30=0.20 ppb)** + **Cd (clean p90=0.60 ppb)**
+   - Fruit purees: approaching adds Pb, Cd
+   - Non-root vegetable purees: approaching adds Pb, Cd
+   - Meat-poultry purees: approaching adds Pb, Cd (summary-level)
+
+  **Net IandC at-bar count: 16 → 21 cells** (+5 new at-bar). Total publishable Path A Part 19 standards across IandC + Cat 5: **9 → 14**:
+   1. fruit-juices-apple-containing iAs dirty p30 = 3.0 ppb
+   2. baby-cereals-dry-rice-based tAs dirty p30 = 102 ppb
+   3. fruit-juices-apple-containing Pb clean p90 = 6.0 ppb
+   4. fruit-juices-non-apple Pb dirty p30 = 0 ppb / p95 = 20.7 ppb
+   5. root-vegetable-purees Pb dirty p30 = 3.74 ppb
+   6. baby-cereals-dry-rice-based Al dirty p30 = 552 ppb
+   7. baby-cereals-dry-rice-based Pb dirty p30 = 3.30 ppb
+   8. baby-cereals-dry-rice-based Cd clean p90 = 22.00 ppb
+   9. root-vegetable-purees Cd dirty p30 = 3.95 ppb
+   10. **baby-cereals-dry-non-rice Pb clean p90 = 7.84 ppb** (this commit)
+   11. **baby-cereals-dry-non-rice Cd dirty p30 = 11.36 ppb** (this commit)
+   12. **infant-formula-rtf-liquid-non-soy Pb dirty p30 = 0.20 ppb** (this commit)
+   13. **infant-formula-rtf-liquid-non-soy Cd clean p90 = 0.60 ppb** (this commit)
+   14. (existing 10 baseline at-bar formula cells already at-bar pre-this run)
+
+  Cells reached "Approaching but not yet at-bar" (deferred for future 3rd-source addition):
+   - fruit-purees Pb + Cd (FDA + Kirkpatrick = 2 studies, low confidence; need 3rd)
+   - non-root-veg-purees Pb + Cd (same)
+   - meat-poultry-purees Pb + Cd summary-level (need sample-level Path A; FDA 2024 meat-subset extraction would close)
+
+  Cells NOT upgraded this cycle (would require additional analysis):
+   - Soy-based RTF Pb/Cd: Kirkpatrick prepared formula n=13 doesn't split soy/non-soy; partial-fit caveat applies; deferred pending review of whether Eticha 2018 or Dabeka 1987 has soy subset identifiable.
+   - Mixed meals (rice/non-rice): Kirkpatrick doesn't have mixed-meals subset; FSA 2016 broad category only.
+
+  No stop conditions triggered. Op type "schema" per Part 17 (rules-of-classification correction propagated downstream to cell-state). Continues commit a31e398 tier-audit work.
