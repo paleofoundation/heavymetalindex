@@ -44,9 +44,11 @@ Standalone subcategories (no within-pair partner): fruit-purees, meat-and-poultr
 
 Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data: `data/evidence/category1_fda_baby_food_compliance_samples.csv` (FY2009-FY2024 baby-food compliance) and `data/evidence/category1_formula_special_survey_samples.csv` (FDA FY2023-FY2025 formula special survey). iAs values are from `data/evidence/category1_fda2016_infant_cereal_ias_samples.csv` (FDA 2016 inorganic arsenic infant/toddler foods) and the FDA 2011 + 2016 juice iAs speciation extracts. Lower-bound treatment with `<LOD` and `NDb` set to 0 for FDA compliance samples; trace `TR (x.x)` values preserved as numeric for FDA 2016. All percentiles are linear-interpolation between sorted samples.
 
+How to read the `n (Path A)` column in every analyte table below: this value reflects the sample size of the selected Path A clean-platform dataset for that subcategory × analyte cell, not a pool across every source cited on this page or on the constituent product-category pages. The Path A dataset may be a single source or a deliberately combined sample-level pool under explicit jurisdiction-mix labeling; the row note records which when applicable. The datasets selected per analyte are identified in the paragraph above. Other sources mentioned in row notes contribute to `n_a_tier` and the confidence rating through corroboration; they do not enter the percentile calculation. Pooling across sources without explicit basis matching is deliberately avoided because LOQs, sampling periods, geographies, and analytical bases vary across the literature, and a naively pooled p90 would be dominated by detection-limit handling and cross-basis drift rather than describing the modern clean-platform distribution the threshold is meant to govern. Where a single sample-level Path A dataset is unavailable, partial, or substituted by named-food summaries, the column describes the scope of the dataset closest to Path A readiness rather than a single sample-level n. Cells marked summary-only or data gap carry `n=0`.
+
 ## Lead (Pb)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **3.30 ppb** (combined sample-level pool) | **60.13 ppb** | **270** | **2** | low | **Approaching.** Path A n_a_tier=2 sample-level: FDA 2024 baby-food compliance n=256 + Toledo 2024 Brazilian infant cereal n=14 (combined n=270). Brazilian samples drive the upper-tail (Toledo max 60.13 ppb is 3× FDA 2024 max 32 ppb, reflecting jurisdiction-mix Pb variation). Per Part 6 jurisdiction-mix labeling. Third A-tier source clears the medium-confidence bar. p90 of combined pool = 20.70 ppb is right at the FDA 2025 dry-cereal cap of 20 ppb. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **clean** | clean p90 = **7.84 ppb** | 9.90 ppb | 25 | 1 | low | Path A thin (n_a_tier=1; Toledo 2024 n=4 non-rice subset is triangulation-only, below 10-sample defensibility floor). Second fit sample-level source above floor needed. |
@@ -67,7 +69,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 ## Cadmium (Cd)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **clean** | clean p90 = **22.00 ppb** (combined pool) | 40.50 ppb | **266** | **2** | low | **Approaching.** Path A n_a_tier=2 sample-level: FDA 2024 n=252 + Toledo 2024 n=14 (combined n=266). Combined p90=22.00 ppb is well below EU 2023 cereal-baby-food Cd cap of 40 ppb. Third A-tier source clears medium-confidence bar. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **dirty** | dirty p30 = **11.36 ppb** | 62.90 ppb | 25 | 1 | low | Path A thin (n_a_tier=1; Toledo 2024 non-rice n=4 triangulation only, below floor). Second fit sample-level source needed. |
@@ -88,7 +90,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 ## Total Arsenic (tAs)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **102.00 ppb** (combined pool) | 348.00 ppb | **267** | **3** | **medium** | **At readiness bar.** Path A n_a_tier=3: FDA 2024 sample-level n=253 + Toledo 2024 sample-level n=14 + Gu 2020 Australian rice cereal n=12 summary (mean 134 ppb). Three A-tier sources, sample-level + summary triangulation. Confidence=medium per Part 6 (3+ studies). Combined dirty p30 = 102.00 ppb. **Publishable Path A standard candidate.** No regulatory cap loaded for tAs in dry rice cereal. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **clean** | clean p90 = **36.00 ppb** | 54.80 ppb | 25 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
@@ -109,7 +111,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 ## Inorganic Arsenic (iAs)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **90.62 ppb** | 176.00 ppb | 82 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **clean** | clean p90 = **25.71 ppb** | 68.30 ppb | 30 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
@@ -130,7 +132,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 ## Methylmercury (MeHg)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** (rice accumulates MeHg from paddy soils) | **dirty p30 ≈ 1.33 ppb** (cycle-22 refined: Brombach 2017 baby-rice-specific n=9 mean 1.71 ± 0.73 ppb, normal-approximation p30); estimated p90 ≈ 2.65 ppb | 6.45 ppb (population max from n=87) | **9 baby-rice-specific (samples 11-19) per author paper-text grouping** | 2 | low | Approaching. Path A n_a_tier=2: [[sources/brombach2017-methylmercury-european-commercial-rice|Brombach 2017]] baby-rice-specific n=9 (mean MeHg 1.71 ± 0.73 ppb; matrix-axis-exact per cycle-22 main-paper review) + [[sources/rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china|Rothenberg 2021]] cohort-pathway evidence. Brombach baby-rice MeHg NOT significantly different from broader n=87 (p=0.29). Cycle-22 update: n=9 (paper-text) supersedes earlier-cycle use of n=87 broader pool as the baby-rice MeHg estimator. Sample-level Table S1 (supplementary file separate from main PDF) extraction would refine further; third A-tier occurrence source clears medium-confidence bar. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
@@ -151,7 +153,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 ## Total Mercury (tHg)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | dirty p30 = **0.00 ppb** (FDA 2024 sample-level n=64); Brombach 2017 baby-rice n=9 reports tHg 1.85 ± 0.71 ppb (significantly LOWER than non-baby rice 3.25 ± 2.14, p=0.046; cooking/processing removes iHg but preserves MeHg) | 4.00 ppb (FDA) | 64 (FDA) + 9 (Brombach baby-rice subset) | **2** | low | Approaching. Path A n_a_tier=2: FDA 2024 sample-level n=64 + Brombach 2017 baby-rice n=9 summary (mean 1.85 ± 0.71 ppb). The FDA 2024 dataset reports many <LOQ tHg (driving p30=0); Brombach's baby-rice tHg cluster around 1.85 ppb suggests Brombach used a more sensitive method (CV-AFS LOD 0.02 vs FDA's higher LOQ). Cycle-22 update brings the n_a_tier from 1→2. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | **clean** | clean p90 = **0.00 ppb** | 0.00 ppb | 9 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. Sample-size warning: n=9 below 10-sample defensibility floor. |
@@ -172,7 +174,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 ## Nickel (Ni)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
@@ -193,7 +195,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 ## Aluminum (Al)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | **dirty** | **dirty p30 = 552 ppb** (Toledo 2024 sample-level) | **8800 ppb** (Toledo 2024 max) | **14** sample-level (Toledo) + 29 group means (de Paiva) + 17 broad cereal (Chekri) | **3** | **medium** | **At readiness bar (cycle 25).** Path A n_a_tier=3: [[sources/toledo2024-essential-toxic-elements-infant-cereal-brazil|Toledo 2024]] Brazilian rice-based infant cereal sample-level n=14 (p30=552, p50=1264, p90=4962, p100=8800 ppb; mean 2553) + [[sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil|de Paiva 2020]] Brazilian rice-based pool n=29 group means (range 1300-7130 ppb; concordant with Toledo distribution) + [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]] French TDS broad cereal n=17 (mean 630 max 3810 ppb; lower than Brazilian; jurisdiction-mix). Confidence=medium per Part 6 (3 studies). Toledo 2024 is the primary admitted-pool sample-level source; de Paiva and Chekri provide concordant summary triangulation. **No regulatory cap loaded** for Al in dry rice cereal; bioaccessibility 1.5-10.4% per de Paiva is critical risk modifier — total-Al threshold may overstate health risk by 10-50× vs bioaccessible-fraction analysis. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | summary-only | summary range from de Paiva 2020 corn-flour pool: 1170-4650 ppb across 2 brand group means | 4650 ppb (de Paiva 2020 brand B corn flour) | 0 sample-level (6 across group means in de Paiva 2020) | 2 | low | Approaching. n_a_tier=2 summary-level: [[sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil|de Paiva 2020]] Brazilian corn-flour pool n=6 + Chekri 2019 broad cereal. n=6 below 10-sample defensibility floor for non-rice subset alone; useful triangulation only. |
@@ -216,7 +218,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 **Category-wide chemistry resolution (2026-05-09):** Hernandez et al. 2019 ([[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france]]) measured Cr(VI) in 68 French food samples (38 dairy + 30 cereal) by LC-ICP-MS speciation at LOD 0.3-0.4 µg/kg and **detected zero Cr(VI) across all samples**, confirming the EFSA 2014a finding that food matrices reduce Cr(VI) to Cr(III). The HMTc Cr-VI standard target across all IandC food matrices is therefore "**< LOD with sensitive speciation**" — detection at modern method LOD signals matrix anomaly or sample-prep contamination, not actual Cr(VI) presence. The Soares 2000 detected-Cr(VI) values in milk-formula are reinterpreted as method artefact per Hernandez authors' explicit discussion (older ETAAS+ion-exchange methods are prone to on-column reduction artefacts that LC-ICP-MS avoids).
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | < LOD (matrix-chemistry resolved) | < LOD ≈ 0.4 µg/kg ([[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france|Hernandez 2019]] cereal LOD) | n/a (<LOD) | 30 cereal-matrix samples (Hernandez 2019, incl. 9 breakfast cereals + 1 rice-and-wheat) | 1 | low | Path A — Cr-VI <LOD; food matrix reduces Cr(VI) to Cr(III). HMTc target = detection itself. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | < LOD | < LOD ≈ 0.4 µg/kg | n/a | 30 cereal-matrix samples | 1 | low | Path A — Cr-VI <LOD per [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france|Hernandez 2019]]; matrix-chemistry resolved. |
@@ -237,7 +239,7 @@ Numeric values for Pb, Cd, tAs, and tHg are computed from FDA sample-level data:
 
 ## Tin (Sn)
 
-| Subcategory | Clean/dirty | Standard target | p100 | n | n_a_tier | Confidence | CC eligibility |
+| Subcategory | Clean/dirty | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
 | Infant rice cereal (dry) ([[products/baby-cereals-dry-rice-based]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
 | Infant non-rice cereal (dry) ([[products/baby-cereals-dry-non-rice]]) | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
