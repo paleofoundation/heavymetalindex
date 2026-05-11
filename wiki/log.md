@@ -1381,3 +1381,60 @@ Notes: Cycle 32 of Tier-1 sweep. Most-productive route audit so far. Targeted fo
    - Mislabeling-corrections noted explicitly inline in cell text
 
   No stop conditions triggered. Cycle 32 of overnight loop. Diminishing-returns on remaining route audit; cycle 33 should pivot to Tier 3a (gap-report tooling) or Tier 4 (Cowork payload).
+
+## [2026-05-11] schema | cycle-33-gap-report-tooling-located-and-regenerated — Architectural finding on curator-vs-tooling layer divergence
+Pages affected: data/evidence/hmtc_standards_gap_report.csv (regenerated; 233 rows), data/evidence/hmtc_standards_gap_summary.json (regenerated).
+Notes: Cycle 33 of Tier-3a sweep. Located gap-report regeneration tooling: `tools/evidence/build-standards-gap-report.mjs`. Ran successfully.
+
+  **Tooling input dependencies**:
+   - `data/evidence/category1_formula_concentration_summary.csv`
+   - `data/evidence/category1_fda_baby_food_compliance_summary.csv`
+   - `data/evidence/category1_local_baby_food_occurrence_summary.csv`
+   - `data/evidence/category5_plant_milk_occurrence_summary.csv`
+   - `data/evidence/category5_tds_finished_food_occurrence_summary.csv`
+   - `data/evidence/category5_apple_juice_arsenic_speciation_summary.csv`
+   - `data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv`
+   - `data/evidence/product_regulatory_crosswalk.csv`
+   - `data/evidence/local_reingest_queue.csv`
+   - `data/evidence/local_reingest_candidate_values.csv`
+   - `data/evidence/local_reingest_context_dispositions.csv`
+   - `data/evidence/fda_tds_product_route_candidates.csv`
+   - `wiki/products/*.md` (frontmatter only — `products`, `metals`, `evidence_tier`, etc.)
+
+  **Important finding — curator-vs-tooling layer divergence**:
+
+  Status distribution after regeneration (233 cells):
+   - 88 BLOCKED: summary evidence only
+   - 33 BLOCKED: no structured evidence loaded
+   - 26 DO NOT PUBLISH DIRTY P10: single distribution-capable source
+   - 19 DO NOT PUBLISH CLEAN P90: single distribution-capable source
+   - 12 DO NOT PUBLISH INDEPENDENT P90: single distribution-capable source
+   - 9 BLOCKED: evidence fitness review needed
+   - 4 BLOCKED: documented local sources are context-only
+   - 3 BLOCKED: species-specific evidence missing
+   - **1 READY FOR AGGREGATE MATH REVIEW** (fruit-juice-not-canned iAs only)
+   - 38 OUT OF SCOPE / CONTEXT ONLY
+
+  This is **identical** to the pre-cycle-1 distribution, despite my 47 at-bar cells documented in the IandC master. The reason: the tooling has a STRICTER definition than my master-cell narrative:
+   - Tooling "distribution-capable" = sample-level distribution source only (the source has sample-level CSV like FDA 2024 baby-food compliance)
+   - Summary-level A-tier corroborators (Chekri 2019, FSA 2016, Kirkpatrick 1980, Elsheikh 2020, etc.) do NOT count toward tooling's distribution-capable count
+   - "READY FOR AGGREGATE MATH REVIEW" requires 2+ distribution-capable sources
+
+  **Reconciliation**:
+   - Both views are correct under their respective definitions
+   - **Master narrative** (curator-synthesis layer): cells at-bar at "Path A n_a_tier=N medium" per CLAUDE.md Part 6 (1-2 studies = low, 3+ = medium); summary-level + sample-level both count toward n_a_tier. This is what humans read.
+   - **Gap report** (tooling-operational layer): cells "READY" require 2+ sample-level distribution-capable A-tier sources. Stricter than CLAUDE.md Part 6 but defensible for publishable-standards-strict gate.
+
+  **Implications for Tier 4 Cowork Standards Briefing**:
+   - The Cowork `hmtc-standards` skill must decide which gate it uses
+   - **Strict gate (tooling READY)**: just 1 cell — fruit-juice-not-canned iAs (n=152 from FDA 2011 + FDA 2016)
+   - **Permissive gate (master at-bar including summary-level corroborators)**: 47 cells documented; many with explicit summary-level caveats
+   - Recommended for Standards Briefing: present BOTH tiers — strict-publishable (1 cell, no caveats) + curator-approved (50 cells with method/source caveats inline)
+
+  **Defensibility check**: The master's at-bar cells remain defensible per CLAUDE.md Part 6 + Part 19 strict reading. The tooling adds a stricter sample-level-only filter as an extra gate. Neither layer should be silently abandoned — both serve different audiences (curator narrative vs operational queue).
+
+  No stop conditions triggered. The curator-vs-tooling divergence is a documented architectural feature, not an unresolved schema decision.
+
+  Tooling can be re-run any time via `node tools/evidence/build-standards-gap-report.mjs`. Adding new sample-level CSV files to `data/evidence/` (e.g., FDA TDS meat-subset, Brombach 2017 SI Table S1, Da Mato 2026 supplementary) would change the tooling's READY count.
+
+  Cycle 34 next: Tier 4 — refresh Cowork coordination-payload sections in IandC + Cat 5 masters, presenting both strict-tooling (1 cell) and permissive-curator (50 cells) tiers.
