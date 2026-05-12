@@ -148,7 +148,7 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Thresholds and agencies</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>79 pages</span>
+    <span>250 pages</span>
     <h2><a href="sources/">Sources</a></h2>
     <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
     <div class="hmi-home-card-meta">Traceable evidence</div>
