@@ -52,6 +52,7 @@
     "watch:sources": "node tools/watch-sources.mjs",
     "wishlist:parse": "node tools/wishlist/parse-wishlist.mjs",
     "wishlist:fetch": "node tools/wishlist/parse-wishlist.mjs && node tools/wishlist/find-candidates.mjs",
+    "plan": "node tools/orchestrator/analyze-gaps.mjs",
     "prepare": "husky"
   },
   "engines": {
