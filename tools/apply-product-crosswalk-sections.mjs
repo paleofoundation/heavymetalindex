@@ -414,19 +414,23 @@ function readerRead(row) {
   }
 
   if (status.includes("direct comparison available")) {
-    return "Direct comparison available because matrix, analyte species, and unit basis match; still not an HMTc certification limit."
+    return "Direct comparison available; matrix, analyte species, and unit basis match. Not an HMTc certification limit."
+  }
+
+  const speciation = detectSpeciationMismatch(row)
+  if (speciation) {
+    return `No conversion offered. ${speciation} See the page [Methodology](#methodology) section for the non-substitutability rule on speciation.`
+  }
+
+  const conversion = detectBasisConversion(row)
+  if (conversion) {
+    return `Indicative comparison. ${conversion} See the page [Methodology](#methodology) section for basis-conversion assumptions.`
   }
 
   if (status.includes("blocked") || status.includes("pending")) {
     const specificStatus = stripPercentileSummary(row.comparison_status || "")
-    if (
-      /(basis|species|scope|product-as-placed|prepared-for-feeding|extracted|inorganic arsenic|total arsenic|reporting limit|reference value|censored upper bound)/i.test(
-        specificStatus,
-      )
-    ) {
-      return specificStatus
-    }
-    return "Limit is visible, but exceedance comparison is blocked until product-row values are extracted and basis/species match."
+    if (specificStatus) return specificStatus
+    return "Comparable product-row values pending; load matched-basis evidence before reading this row."
   }
 
   if (/needs? review/i.test(row.comparison_status || "")) {
@@ -438,6 +442,71 @@ function readerRead(row) {
   }
 
   return stripPercentileSummary(row.comparison_status || row.hmtc_use)
+}
+
+function detectSpeciationMismatch(row) {
+  const status = String(row.comparison_status || "").toLowerCase()
+  const limitMetal = String(row.metal_species || "").trim()
+  const finding = String(row.field_finding_summary || "")
+
+  if (limitMetal === "iAs" && /total arsenic/i.test(finding)) {
+    return "Regulatory ceiling is on inorganic arsenic; cited occurrence row reports total arsenic. The two are toxicologically and regulatorily distinct."
+  }
+  if (limitMetal === "MeHg" && /total mercury/i.test(finding)) {
+    return "Regulatory ceiling is on methylmercury; cited occurrence row reports total mercury. The two are toxicologically and regulatorily distinct."
+  }
+  if (limitMetal === "Cr-VI" && /total chromium|cr-total|\bcr\b/i.test(finding)) {
+    return "Regulatory ceiling is on hexavalent chromium; cited occurrence row reports total chromium. Total chromium cannot substitute for Cr-VI."
+  }
+  if (/speciation/i.test(status) || /inorganic arsenic.*total arsenic|total arsenic.*inorganic arsenic/i.test(status)) {
+    return "Speciation differs between the regulatory ceiling and the cited occurrence row."
+  }
+  return null
+}
+
+function detectBasisConversion(row) {
+  const status = String(row.comparison_status || "")
+  if (detectSpeciationMismatch(row)) return null
+  if (!/prepared-for-feeding/i.test(status) && !/prepared-for-feeding/i.test(row.field_finding_summary || "")) return null
+  if (!/product-as-placed|powder ml|placed on the market/i.test(status) && !/powder/i.test(row.regulatory_scope || "")) {
+    return null
+  }
+
+  // Conservative reconstitution: 1 g powder + 7 g water (1:8 dilution by mass).
+  const factor = 8
+
+  const finding = String(row.field_finding_summary || "")
+  const rangeMatch = finding.match(/([\d.]+)\s*(?:-|to)\s*([\d.]+)\s*(?:ug\/kg|ppb)/i)
+  const limit = Number(row.regulatory_value_ug_kg || 0)
+  const limitText = limit > 0 ? `${limit} ppb cap (${row.regulatory_scope})` : "the regulatory ceiling"
+
+  if (rangeMatch) {
+    const lo = Number(rangeMatch[1])
+    const hi = Number(rangeMatch[2])
+    const convertedLo = roundConverted(lo * factor)
+    const convertedHi = roundConverted(hi * factor)
+    const verdict =
+      limit > 0 && convertedHi <= limit
+        ? `within ${limitText} on the converted basis`
+        : limit > 0 && convertedLo > limit
+          ? `above ${limitText} on the converted basis`
+          : `compared against ${limitText} on the converted basis`
+    return `Cited range ${formatRange(lo, hi)} ppb prepared-for-feeding converts to approximately ${formatRange(convertedLo, convertedHi)} ppb powder-as-placed at the conservative 1:${factor - 1} reconstitution (1 g powder per ${factor - 1} g water), ${verdict}.`
+  }
+
+  return `Cited prepared-for-feeding occurrence values convert to powder-as-placed at the conservative 1:${factor - 1} reconstitution (1 g powder per ${factor - 1} g water); numeric range was not extractable from the row summary, so the converted comparison is qualitative. Match the comparison basis before quoting an exceedance.`
+}
+
+function roundConverted(value) {
+  if (!Number.isFinite(value)) return value
+  if (value >= 100) return Math.round(value)
+  if (value >= 10) return Math.round(value * 10) / 10
+  return Math.round(value * 100) / 100
+}
+
+function formatRange(lo, hi) {
+  if (lo === hi) return String(lo)
+  return `${lo} to ${hi}`
 }
 
 function stripPercentileSummary(value) {
@@ -472,6 +541,7 @@ function sourcesCell(value) {
 function tableCell(value) {
   return String(value || "")
     .replace(/\n/g, " ")
+    .replace(/—/g, "-")
     .replace(/\|/g, "/")
     .trim()
 }

@@ -52,27 +52,19 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 18 (2026-05-09). Matcha is locked as a **distinct_exposure_pathway** variant_type within the tea-taxonomy split — the exposure model differs from steeped tea because matcha is **whole-leaf consumption** (powdered tea suspended in water), not water-extraction. The consumer ingests the entire tea leaf, including all elements that would otherwise remain in spent leaf during steeping.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Matcha. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-**Critical exposure-model implication for Al**: Steeped tea typically extracts only 5-30% of dry-leaf Al into the brew (per Karak & Bhagat 2010). Matcha consumers ingest 100% of dry-leaf Al via the suspended-powder pathway. If dry tea leaf is 500-30,000 ppm Al, then a 2 g matcha serving delivers 1-60 mg Al per cup — orders of magnitude higher than the 1-10 mg/L Al in steeped tea (which at ~250 mL serving = 0.25-2.5 mg per cup). **Matcha could be the highest single-source dietary Al exposure in any beverage subcategory.** This is a strong Part 19 dirty-designation candidate but no in-corpus measurement exists.
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-| Metal | Clean/dirty (anticipated empirical) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | dirty (anticipated) | 0 | 0 | data gap | Matcha-specific Pb measurement absent; ceremonial-grade matcha may have different Pb profile than culinary-grade. Closing requires multi-element matcha survey. |
-| [[metals/cadmium]] (Cd) | dirty (anticipated, small) | 0 | 0 | data gap | Same gap pattern as Pb. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated) | 0 | 0 | data gap | Tea is not a known As accumulator; expected low. |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway in tea matrix. |
-| [[metals/nickel]] (Ni) | dirty (anticipated, small) | 0 | 0 | data gap | Soil-uptake-driven; closing via multi-element matcha survey. |
-| [[metals/aluminum]] (Al) | **dirty (mechanistically very high — distinct_exposure_pathway)** | 0 | 0 | **data gap with the highest regulatory pull in Cat 5** | **Whole-leaf consumption pathway delivers 100% of dry-leaf Al; matcha could yield 1-60 mg Al per 2 g serving vs 0.25-2.5 mg per cup steeped tea.** Closing this gap requires direct matcha multi-element analysis (powder + suspension preparation). |
-| [[metals/chromium-vi|Cr-VI]] | data gap | 0 | 1 (cascade) | data gap | Matcha suspension is acidic-aqueous (similar to tea pH); Hernandez/Saraiva milk-like inference doesn't fully apply. |
-| [[metals/tin]] (Sn) | data gap | 0 | 0 | data gap | Modern matcha is bagged powder; not canned. |
-
-**Wishlist priority for closing this row**: matcha-specific multi-element analysis paper (none in corpus; surveys typically focus on green tea or oolong rather than matcha specifically — high-priority external acquisition target). The Brzezicha-Cirocka 2016 EU tea study includes some matcha samples; could be partial-fit if obtained.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/aluminum\|Al]] | Matcha (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Matcha (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Matcha (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources

@@ -52,28 +52,18 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Soft drinks/carbonated beverages are locked as **independent_no_split** variant_type — no within-pair partner.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Soft drinks/carbonated beverages. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Soft drinks are formulated beverages: treated water + sugar/HFCS/sweetener + acidulant (phosphoric acid in colas; citric acid in citrus sodas) + flavoring + colorant. Heavy-metal exposure pathways are limited because (a) treated municipal water base, (b) syrup/concentrate ingredient sourcing is controlled by major manufacturers, (c) acidic carbonated matrix CAN potentially leach trace metals from packaging (aluminum cans, PET bottles) over storage time.
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-Notable exposure-pathway: **caramel-color in cola-style soft drinks** historically contained 4-methylimidazole (4-MEI; not an HMT&C analyte but a regulatory benchmark for soft-drink contamination, California Prop 65 listed) — relevant context for the "soft-drink contamination" framing but separate from the 10-analyte panel.
-
-| Metal | Clean/dirty (anticipated) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd) | clean (anticipated; treated water base) | 0 | 0 | data gap | Modern treated-water base is generally low; closing requires direct soft-drink survey. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated) | 0 | 0 | data gap | Treated water + formulated ingredients. |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
-| [[metals/nickel]] (Ni) | clean (anticipated; trace from stainless-steel processing) | 0 | 0 | data gap | — |
-| [[metals/aluminum]] (Al) | data gap (potential aluminum-can transfer for canned subset) | 0 | 0 | data gap | Aluminum-can packaging context; acidic carbonation can dissolve trace Al from can liners over storage time. |
-| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference WEAK for cola pH ~2.5) | 0 | 0 | data gap | **Cola is the most-acidic Cat 5 subcategory matrix (pH 2.5 from phosphoric acid); the milk-like Hernandez/Saraiva Cr(VI)<LOD inference applies LEAST.** Direct cola Cr speciation would test inference boundary. |
-| [[metals/tin]] (Sn) | data gap (potential canned-Sn-leach historical) | 0 | 0 | data gap | Canned-soft-drink subset eligible for Tarigan 2016 / Benoy 1971 cascade context; modern aluminum-can dominance has reduced Sn-leach concern. |
-
-**Wishlist priority**: cola/soft-drink Cr speciation (highest Cr-VI value in Cat 5 alongside kombucha for similar acidic-pH-stability reason); multi-element survey distinguishing aluminum-can vs PET vs glass-bottle subsets.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Soft drinks/carbonated beverages (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Soft drinks/carbonated beverages (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources

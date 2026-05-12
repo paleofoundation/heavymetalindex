@@ -52,26 +52,19 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Sports/energy drinks are locked as **independent_no_split** variant_type — no within-pair partner; standalone target is p90 if measurements were available.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Sports/energy drinks. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Sports/energy drinks are formulated beverages built on treated water + electrolyte/caffeine/taurine/ingredient-blend systems. Heavy-metal exposure is expected to be low because (a) the water base is municipal-treatment-grade, (b) ingredient sourcing is generally controlled by major manufacturers, and (c) packaging is aluminum can or PET — neither a major heavy-metal contamination vector for finished beverage. Higher-priority sports-drink contaminants are sugar/HFCS, caffeine dose, artificial sweeteners, and dye colorants (none HMT&C analytes).
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-| Metal | Clean/dirty (anticipated) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd) | clean (anticipated low; treated water base) | 0 | 0 | data gap | Closing requires multi-element sports-drink survey. Aluminum-can-packaged products may have trace Al transfer. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated low) | 0 | 0 | data gap | Treated water + formulated ingredients; not a concentrating matrix. |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway; biologically unexpected. |
-| [[metals/nickel]] (Ni) | clean (anticipated) | 0 | 0 | data gap | — |
-| [[metals/aluminum]] (Al) | data gap (potential aluminum-can transfer) | 0 | 0 | data gap | Aluminum-can packaging context; closing requires direct survey of canned vs PET-packaged sports drinks. |
-| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 0 | data gap | Acidic-aqueous matrix; weaker Hernandez/Saraiva inference than milk-like. |
-| [[metals/tin]] (Sn) | data gap (potential canned-Sn-leach historical) | 0 | 0 | data gap | Canned subset eligible for Tarigan 2016 / Benoy 1971 cascade context. |
-
-**Wishlist priority for closing this row**: multi-element sports-drink/energy-drink survey; aluminum-can vs PET packaging comparison.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Sports/energy drinks (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Sports/energy drinks (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | Sports/energy drinks (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources

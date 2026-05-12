@@ -54,51 +54,25 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 Public evidence label: **Modeled or limited evidence**.
 
-This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
+This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level tracking is maintained in the staff Standards Workbench.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## CC Candidate Summary (Part 19 framework)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This block was rebuilt 2026-05-09 in Phase 3 against the [Part 19 clean/dirty subcategory framework](../../CLAUDE.md). Clean and dirty are per-analyte empirical designations within the parent category (Infant and Child Foods → fruit juice (not-canned)). This subcategory has no within-pair partner; standalone subcategory with FDA juice surveys as primary basis. The clean subcategory standard is p90 (lenient bar). The dirty subcategory standard is p30 (strict bar; 70% of samples in the dirtier subcategory currently fail it, creating market-ratcheting pressure per Part 2). Both standards are reported alongside p100 (max observed in the subcategory). Final HMT&C values must remain no higher than the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Fruit juice (not canned). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Per-analyte synthesis is mirrored from [[products/infant-and-child-foods-master]] (the canonical 16-subcategory × 10-analyte master summary). Sample-level distributions for Pb, Cd, tAs, and tHg derive from FDA FY2009-FY2024 baby-food compliance data and FDA FY2023-FY2025 formula special survey where applicable; iAs from FDA 2016 inorganic arsenic infant/toddler dataset; remaining analytes from summary-only sources or carry explicit data gaps as noted per row.
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-How to read the `n (Path A)` column: this value reflects the sample size of the selected Path A clean-platform dataset used to compute the percentile values for that analyte cell, not a pool across every source cited on this page. The dataset selected for each analyte is identified in the paragraph above. Other sources cited on this page contribute to `n_a_tier` and the confidence rating; they corroborate the selected dataset rather than entering the percentile calculation. Pooling is deliberately avoided because LOQs, sampling periods, geographies, and analytical bases vary across the source set, and a pooled p90 would be dominated by detection-limit handling and cross-basis drift rather than describing the modern clean-platform distribution the threshold is meant to govern. Where a single sample-level Path A dataset is unavailable, partial, or assembled from more than one source, the column describes the scope of the dataset closest to Path A readiness rather than a single sample-level n. Data-gap analytes carry `n=0`.
-
-| Analyte | Subcategory designation | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
-| --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| [[metals/lead\|Pb]] | summary-only | summary range | — | 0 | 2 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
-| [[metals/cadmium\|Cd]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| [[metals/arsenic-total\|tAs]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| [[metals/arsenic-inorganic\|iAs]] | **standalone** (provisional p90) | clean p90 = **15.27 ppb** | 49.60 ppb | 152 | 2 | low | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
-| [[metals/mercury-methyl\|MeHg]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| [[metals/mercury-total\|tHg]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| [[metals/nickel\|Ni]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| [[metals/aluminum\|Al]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| [[metals/chromium-hexavalent\|Cr-VI]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| [[metals/tin\|Sn]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-
-### Per-analyte classification record
-
-Concise audit-trail summary of the within-pair (or standalone) clean/dirty designation per analyte. For full empirical comparator basis (p50/p90 against the partner subcategory) see [[products/infant-and-child-foods-master]].
-
-| Analyte | Designation | Eligibility note |
-| --- | --- | --- |
-| Pb | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
-| Cd | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| tAs | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| iAs | standalone | Approaching. Path A n_a_tier=2 (low per Part 6); third A-tier source clears bar. |
-| MeHg | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| tHg | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| Ni | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| Al | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| Cr-VI | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| Sn | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-inorganic\|iAs]] | Fruit juice (not canned) (summary-only / supporting context) | mean 1 to 12.91 ppb (3 sources); highest reported 49.6 ppb | 97% detected (91/94, Fda 2011, single-strength-juice) | [[regulations/fda2023-inorganic-arsenic-apple-juice]]: 10 ppb (juice) | 3 cited | medium (3 sources) | as-consumed; single-strength-juice; ready-to-drink-juice-1-ml-1-g |
+| [[metals/nickel\|Ni]] | Fruit juice (not canned) (direct row-fit) | mean/median 0 to 78 ppb (3 sources); highest reported 80 ppb | 33% detected (1/3, Fda 2022, FDA TDS prepared food/composite; reported concentration values retained) | No applicable cap loaded | 4 cited | medium (4 sources) | as-consumed; FDA TDS prepared food/composite; reported concentration values retained |
+| [[metals/cadmium\|Cd]] | Fruit juice (not canned) (direct row-fit) | mean/median 0 to 80 ppb (4 sources); highest reported 100 ppb | 0% detected (0/3, Fda 2022, FDA TDS prepared food/composite; reported concentration values retained) | No applicable cap loaded | 4 cited | medium (4 sources) | as-consumed; FDA TDS prepared food/composite; reported concentration values retained |
+| [[metals/lead\|Pb]] | Fruit juice (not canned) (summary-only / supporting context) | mean/median 1.5 to 35 ppb (3 sources); highest reported 40 ppb | 67% detected (2/3, Fda 2022, FDA TDS prepared food/composite; reported concentration values retained) | [[regulations/fda2022-draft-lead-juice]]: 10 ppb (single-strength ready-to-drink juice) | 3 cited | medium (3 sources) | as-consumed; FDA TDS prepared food/composite; reported concentration values retained |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Lead Benchmark Context
@@ -201,15 +175,15 @@ Primary FDA juice action-level documents are now captured in the page-level cros
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 <!-- BEGIN: hmi-broad-context-sources -->
-## Broad Product Context Awaiting AI Adjudication
+## Broad Product Context: Author-Scope Index
 
 <!-- audience: regulator, educator, app -->
 
-These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc standards-percentile calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
+The sources below are catalogued as product-context candidates for this row. The "Author-scope row-fit" column states what the authors actually resolved on each axis: matrix (cow milk-based, soy-based, rice-based, non-rice, or unresolved) and format (powder, ready-to-feed liquid, concentrated liquid, dry, or unresolved). A source counts toward this row's evidence pool only once; rows marked "Cross-reference" already appear as direct evidence elsewhere on this page and are not counted again here.
 
-| Source | Title | Source scope | Metals | Row-fit handling |
-| --- | --- | --- | --- | --- |
-| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type. |
+| Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 
 <!-- END: hmi-broad-context-sources -->
 

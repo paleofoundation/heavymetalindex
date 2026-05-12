@@ -52,29 +52,18 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Non-root vegetable juices are locked as **clean_benchmark** variant_type within the vegetable-juice split, paired against vegetable-juices-root-vegetable-containing (cycle 19) as contamination platform. Standards target = clean p90.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-root vegetable vegetable juice. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Subcategory scope: tomato juice, kale/spinach/leafy-green juices, celery juice, cucumber-based green juices. Excluded: carrot, beet, sweet-potato juices (which route to root-veg-containing). The architectural rationale: leafy and stem vegetables typically have lower soil-Cd/Pb uptake than root tubers (which directly contact contaminated soils). However, leafy greens DO accumulate some metals (Cd in particular concentrates in leaves; spinach is a known Cd-accumulator), so the clean-benchmark designation is variant-specific not absolute.
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-The HMTc Cat 1 vegetable-purees-non-root subcategory (different category) has Cd p90 from FDA 2024 baby-food data — that ingredient cascade can inform anticipated juice values, but ingredients cooked-or-juiced vs purees have different concentration profiles.
-
-| Metal | Clean/dirty (anticipated empirical) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | clean (anticipated low) | 0 | 0 | data gap | Closing requires direct multi-element vegetable-juice survey. FDA 2022 draft Pb cap = 20 ppb other-juice (loaded). |
-| [[metals/cadmium]] (Cd) | dirty (anticipated for leafy-green subset) | 0 | 0 | data gap | **Leafy-green-juice subset (spinach/kale) is the dirty signal candidate**: spinach is a known Cd-accumulator. Subsetting from broader non-root would surface this. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated) | 0 | 0 | data gap | Non-root vegetables are not As accumulators. |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
-| [[metals/nickel]] (Ni) | clean (anticipated, leafy subset slightly higher) | 0 | 0 | data gap | — |
-| [[metals/aluminum]] (Al) | data gap | 0 | 0 | data gap | — |
-| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 0 | data gap | Acidic-aqueous matrix (tomato juice especially acidic); weaker Hernandez/Saraiva inference. |
-| [[metals/tin]] (Sn) | data gap (canned-juice subset eligible) | 0 | 0 | data gap | Canned tomato juice is a major Sn-leach historical concern (Benoy 1971, ATSDR 2005); modern aseptic tetra-pack and glass have largely replaced lined-can. |
-
-**Wishlist priority**: vegetable-juice multi-element survey distinguishing leafy-green from stem subsets; canned tomato juice Sn-leach review.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | non-root vegetable (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/fda2022-draft-lead-juice]]: 20 ppb (single-strength ready-to-drink juice) | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | non-root vegetable (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources

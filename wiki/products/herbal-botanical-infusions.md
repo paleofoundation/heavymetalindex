@@ -52,28 +52,19 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Herbal/botanical infusions are locked as **clean_benchmark** variant_type within the tea-taxonomy split, paired against true-tea-camellia-sinensis (cycle 18) and matcha (cycle 18) as contamination platforms. Standards target = clean p90.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Herbal/botanical infusions. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Herbal infusions encompass chamomile, peppermint, rooibos, hibiscus, ginger, and many other non-Camellia botanicals. Unlike Camellia sinensis (which is a documented Al hyperaccumulator), most herbal botanicals are NOT Al accumulators — chamomile, peppermint, and ginger have Al levels typically <50 mg/kg dry vs Camellia's 500-30,000 mg/kg. **The clean-benchmark architectural intent is empirically supported for Al** (vs the cycle-17 fruit-juice case where it was empirically overridden).
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-Geographic-soil dependence is the major variance driver: hibiscus from Egyptian/Mexican soils may have different metal profiles than Sudanese or West African origins. Rooibos (Aspalathus linearis, South African) has a documented Mn-uptake profile but generally low Pb/Cd.
-
-| Metal | Clean/dirty (anticipated empirical) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd) | clean (anticipated; soil-dependent variance) | 0 | 0 | data gap | Closing requires multi-element herbal-tea survey covering chamomile/peppermint/rooibos/hibiscus across geographic origins. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated) | 0 | 0 | data gap | — |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
-| [[metals/nickel]] (Ni) | clean (anticipated) | 0 | 0 | data gap | — |
-| [[metals/aluminum]] (Al) | **clean (architectural intent supported by botany — non-Camellia herbs are not Al accumulators)** | 0 | 0 | data gap | Closing this row's Al cell requires multi-element herbal survey to confirm the clean-vs-Camellia-tea baseline. **High value for the tea-vs-non-tea Part 19 contamination_platform comparison.** |
-| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 0 | data gap | Acidic-aqueous infusion matrix. |
-| [[metals/tin]] (Sn) | data gap | 0 | 0 | data gap | Modern herbal tea is bagged/loose; not canned. |
-
-**Wishlist priority**: multi-element herbal-tea survey establishing the clean baseline for the Camellia-tea contamination-platform comparison.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/aluminum\|Al]] | Herbal/botanical infusions (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Herbal/botanical infusions (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Herbal/botanical infusions (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources

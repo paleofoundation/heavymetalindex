@@ -52,51 +52,39 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 Public evidence label: **Modeled or limited evidence**.
 
-This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
+This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level tracking is maintained in the staff Standards Workbench.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## CC Candidate Summary (Part 19 framework)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This block was rebuilt 2026-05-09 in Phase 3 against the [Part 19 clean/dirty subcategory framework](../../CLAUDE.md). Clean and dirty are per-analyte empirical designations within the parent category (Infant and Child Foods → fruit purees). This subcategory has no within-pair partner; standalone subcategory with provisional clean p90 from its own distribution where sample-level data exists. The clean subcategory standard is p90 (lenient bar). The dirty subcategory standard is p30 (strict bar; 70% of samples in the dirtier subcategory currently fail it, creating market-ratcheting pressure per Part 2). Both standards are reported alongside p100 (max observed in the subcategory). Final HMT&C values must remain no higher than the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Fruit purees (general). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Per-analyte synthesis is mirrored from [[products/infant-and-child-foods-master]] (the canonical 16-subcategory × 10-analyte master summary). Sample-level distributions for Pb, Cd, tAs, and tHg derive from FDA FY2009-FY2024 baby-food compliance data and FDA FY2023-FY2025 formula special survey where applicable; iAs from FDA 2016 inorganic arsenic infant/toddler dataset; remaining analytes from summary-only sources or carry explicit data gaps as noted per row.
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-How to read the `n (Path A)` column: this value reflects the sample size of the selected Path A clean-platform dataset used to compute the percentile values for that analyte cell, not a pool across every source cited on this page. The dataset selected for each analyte is identified in the paragraph above. Other sources cited on this page contribute to `n_a_tier` and the confidence rating; they corroborate the selected dataset rather than entering the percentile calculation. Pooling is deliberately avoided because LOQs, sampling periods, geographies, and analytical bases vary across the source set, and a pooled p90 would be dominated by detection-limit handling and cross-basis drift rather than describing the modern clean-platform distribution the threshold is meant to govern. Where a single sample-level Path A dataset is unavailable, partial, or assembled from more than one source, the column describes the scope of the dataset closest to Path A readiness rather than a single sample-level n. Data-gap analytes carry `n=0`.
-
-| Analyte | Subcategory designation | Standard target | p100 | n (Path A) | n_a_tier | Confidence | CC eligibility |
-| --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| [[metals/lead\|Pb]] | **standalone** (provisional p90) | clean p90 = **2.37 ppb** | 8.00 ppb | 44 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| [[metals/cadmium\|Cd]] | **standalone** (provisional p90) | clean p90 = **2.12 ppb** | 4.00 ppb | 39 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| [[metals/arsenic-total\|tAs]] | **standalone** (provisional p90) | clean p90 = **5.20 ppb** | 8.70 ppb | 39 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| [[metals/arsenic-inorganic\|iAs]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| [[metals/mercury-methyl\|MeHg]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| [[metals/mercury-total\|tHg]] | **standalone** (provisional p90) | clean p90 = **0.41 ppb** | 0.60 ppb | 14 | 1 | low | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| [[metals/nickel\|Ni]] | summary-only | summary range | — | 0 | 1 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| [[metals/aluminum\|Al]] | summary-only | summary range | — | 0 | 2 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
-| [[metals/chromium-hexavalent\|Cr-VI]] | data gap | — | — | 0 | 0 | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| [[metals/tin\|Sn]] | summary-only | summary range | — | 0 | 2 | low | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
-
-### Per-analyte classification record
-
-Concise audit-trail summary of the within-pair (or standalone) clean/dirty designation per analyte. For full empirical comparator basis (p50/p90 against the partner subcategory) see [[products/infant-and-child-foods-master]].
-
-| Analyte | Designation | Eligibility note |
-| --- | --- | --- |
-| Pb | standalone | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| Cd | standalone | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| tAs | standalone | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| iAs | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| MeHg | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| tHg | standalone | Path A thin (n_a_tier=1); second fit sample-level source needed. |
-| Ni | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=1 summary-only. |
-| Al | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
-| Cr-VI | data gap | Below bar; corpus exhausted within current ingest scope; raw/markdown manifest sweep needed. |
-| Sn | summary-only | Below bar; Path B candidate (no sample-level distribution); n_a_tier=2 summary-only. |
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Fruit purees (general) (direct row-fit) | mean/median 1 to 2.7 ppb (2 sources); highest reported 8 ppb | 59% detected (26/44, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 10 ppb (as sold or ready-to-eat as applicable) | 4 cited | medium (4 sources) | as-sold; as-consumed; wet-weight |
+| [[metals/cadmium\|Cd]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 4.4 ppb (3 sources); highest reported 16 ppb | 44% detected (17/39, Fda 2024, as-sold) | [[regulations/eu-2023-915-cadmium]]: 40 ppb (product as placed on market) | 5 cited | medium (5 sources) | as-sold; as-consumed; wet-weight |
+| [[metals/arsenic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, as-sold) | No applicable cap loaded | 5 cited | medium (5 sources) | as-sold; as-consumed; wet-weight |
+| [[metals/arsenic-inorganic\|iAs]] | Fruit purees (general) (summary-only / supporting context) | highest reported 4 ppb | Sample-level detection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (product as placed on market) | 1 cited | low (1-2 sources) | as-consumed |
+| [[metals/mercury-total\|tHg]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 7.2 ppb (3 sources); highest reported 7.2 ppb | 29% detected (4/14, Fda 2024, as-sold) | No applicable cap loaded | 4 cited | medium (4 sources) | as-sold; as-consumed; wet-weight |
+| [[metals/aluminum\|Al]] | Fruit purees (general) (direct row-fit) | mean 556 to 1125 ppb (3 sources); highest reported 1420 ppb | Sample-level detection rate not reported | No applicable cap loaded | 3 cited | medium (3 sources) | as-consumed; wet-weight |
+| [[metals/nickel\|Ni]] | Fruit purees (general) (direct row-fit) | mean 54.7 to 137 ppb (2 sources); highest reported 137 ppb | Sample-level detection rate not reported | No applicable cap loaded | 3 cited | medium (3 sources) | as-consumed; wet-weight |
+| [[metals/tin\|Sn]] | Fruit purees (general) (direct row-fit) | mean 98 to 424 ppb (2 sources); highest reported 3330 ppb | Sample-level detection rate not reported | No applicable cap loaded | 3 cited | medium (3 sources) | as-consumed; wet-weight |
+| [[metals/chromium\|Cr]] | Fruit purees (general) (direct row-fit) | mean 42.7 ppb (1 source); highest reported 84 ppb | Sample-level detection rate not reported | No applicable cap loaded | 2 cited | low (1-2 sources) | as-consumed |
+| Co | Fruit purees (general) (direct row-fit) | mean 2.87 ppb (1 source); highest reported 5 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
+| Cu | Fruit purees (general) (summary-only / supporting context) | mean 862 ppb (1 source); highest reported 862 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
+| Fe | Fruit purees (general) (summary-only / supporting context) | mean 7543 ppb (1 source); highest reported 7543 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
+| I | Fruit purees (general) (summary-only / supporting context) | highest reported 27 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
+| Mn | Fruit purees (general) (summary-only / supporting context) | mean 2436 ppb (1 source); highest reported 2436 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
+| Sb | Fruit purees (general) (direct row-fit) | mean 0.65 ppb (1 source); highest reported 3 ppb | Sample-level detection rate not reported | No applicable cap loaded | 2 cited | low (1-2 sources) | as-consumed |
+| Se | Fruit purees (general) (summary-only / supporting context) | highest reported 7 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
+| V | Fruit purees (general) (direct row-fit) | mean 1.4 ppb (1 source); highest reported 4 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
+| Zn | Fruit purees (general) (summary-only / supporting context) | highest reported 5002 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Lead Benchmark Context

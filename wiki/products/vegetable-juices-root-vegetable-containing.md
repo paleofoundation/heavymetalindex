@@ -52,27 +52,18 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Root-vegetable-containing juices are locked as **contamination_platform** variant_type within the vegetable-juice split, paired against vegetable-juices-non-root (cycle 19) as clean_benchmark.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in root-vegetable-containing vegetable juice. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Subcategory scope: carrot juice, beet juice, sweet-potato juice, ginger-juice (ginger is a rhizome but routes here per locked architecture), and blends including these. Root-veg ingredient cascade evidence exists at HMTc Cat 1: **root-vegetable-purees** has FDA 2024 baby-food sample-level data showing Pb p90=15 ppb and Cd p90=22 ppb in sweet-potato baby food. The juice-form should empirically inherit these elevated values (with juicing concentration factor — most root-veg juice is concentrated 10-15× from raw vegetable).
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-| Metal | Clean/dirty (anticipated empirical) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | **dirty (anticipated; root-veg ingredient cascade)** | 0 | 0 | data gap | **Root vegetables are documented Pb-uptakers**; FDA 2024 baby-food sweet-potato has p90=15 ppb. Closing this row requires direct root-veg-juice survey. |
-| [[metals/cadmium]] (Cd) | **dirty (anticipated)** | 0 | 0 | data gap | Root vegetables are documented Cd-uptakers; FDA 2024 baby-food sweet-potato Cd p90=22 ppb. Same closing path. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | data gap (potentially elevated for carrot/beet from contaminated soils) | 0 | 0 | data gap | — |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
-| [[metals/nickel]] (Ni) | data gap | 0 | 0 | data gap | — |
-| [[metals/aluminum]] (Al) | data gap | 0 | 0 | data gap | — |
-| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 0 | data gap | Acidic-aqueous juice matrix. |
-| [[metals/tin]] (Sn) | data gap | 0 | 0 | data gap | Modern root-veg juice is bottled/aseptic-pack; canned subset minor. |
-
-**Wishlist priority**: carrot/beet/sweet-potato juice multi-element survey; this row is the highest-priority Cat 5 vegetable-juice gap because the root-veg ingredient cascade strongly predicts elevated Pb/Cd that consumers may not anticipate.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | root-vegetable-containing (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/fda2022-draft-lead-juice]]: 20 ppb (single-strength ready-to-drink juice) | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | root-vegetable-containing (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources

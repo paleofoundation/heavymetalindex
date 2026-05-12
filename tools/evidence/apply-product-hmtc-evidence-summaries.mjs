@@ -4,8 +4,10 @@ import matter from "gray-matter"
 
 const repoRoot = process.cwd()
 const gapPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
+const limitsPath = path.join(repoRoot, "data/evidence/regulatory_limits.csv")
 const productDir = path.join(repoRoot, "wiki/products")
 const sourceDir = path.join(repoRoot, "wiki/sources")
+const workbenchSnapshotDir = path.join(repoRoot, "wiki/workbench/standards")
 const occurrenceSummaryFiles = [
   "data/evidence/category1_formula_concentration_summary.csv",
   "data/evidence/category1_fda_baby_food_compliance_summary.csv",
@@ -21,21 +23,25 @@ const endMarker = "<!-- END: hmi-hmtc-evidence-summary -->"
 
 const gapRows = fs.existsSync(gapPath) ? parseCsv(fs.readFileSync(gapPath, "utf8")) : []
 const occurrenceRows = readOccurrenceRows()
+const limitRows = fs.existsSync(limitsPath) ? parseCsv(fs.readFileSync(limitsPath, "utf8")) : []
+const limitsById = new Map(limitRows.map((row) => [row.regulatory_limit_id, row]))
 const sourceCatalog = readSourceCatalog()
-const rowsByProduct = new Map()
 
+const today = new Date().toISOString().slice(0, 10)
+
+const rowsByProduct = new Map()
 for (const row of gapRows) {
   if (row.product_standard_scope !== "locked_hmtc_row") continue
-
   const productSlug = String(row.product_slug || "").trim()
   if (!productSlug) continue
-
   if (!rowsByProduct.has(productSlug)) rowsByProduct.set(productSlug, [])
   rowsByProduct.get(productSlug).push(row)
 }
 
+if (rowsByProduct.size > 0) fs.mkdirSync(workbenchSnapshotDir, { recursive: true })
+
 let updatedPages = 0
-let writtenRows = 0
+let staffSnapshotsWritten = 0
 
 for (const [productSlug, rows] of [...rowsByProduct.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
   const pagePath = path.join(productDir, `${productSlug}.md`)
@@ -43,314 +49,490 @@ for (const [productSlug, rows] of [...rowsByProduct.entries()].sort((a, b) => a[
 
   const original = fs.readFileSync(pagePath, "utf8")
   const parsed = matter(original)
-  const testedMetals = asArray(parsed.data.hmtc_tested_metals).map(canonicalMetal).filter(Boolean)
-  if (testedMetals.length === 0) continue
+  const primaryMetals = pickPrimaryMetals(parsed.data, rows)
+  if (primaryMetals.length === 0) continue
 
-  const section = buildSection(productSlug, rows, { testedMetals })
-  const next = upsertSection(original, section)
-  if (next === original) continue
+  const productLabel = String(parsed.data.label || parsed.data.title || productSlug)
+  const subcategory = subcategoryDesignation(productSlug, parsed.data)
 
-  fs.writeFileSync(pagePath, next, "utf8")
-  updatedPages += 1
-  writtenRows += testedMetals.length
+  const publicSection = buildPublicSection({
+    productSlug,
+    productLabel,
+    subcategory,
+    rows,
+    primaryMetals,
+  })
+  const next = upsertSection(original, publicSection)
+  if (next !== original) {
+    fs.writeFileSync(pagePath, next, "utf8")
+    updatedPages += 1
+  }
+
+  const staffFile = buildStaffSnapshot({
+    productSlug,
+    productLabel,
+    subcategory,
+    rows,
+    primaryMetals,
+  })
+  fs.writeFileSync(path.join(workbenchSnapshotDir, `${productSlug}.md`), staffFile, "utf8")
+  staffSnapshotsWritten += 1
 }
 
-console.log(`Updated ${updatedPages} product HMTc evidence summary section(s) with ${writtenRows} metal row(s).`)
+console.log(
+  `Updated ${updatedPages} product page(s) with literature evidence summaries; wrote ${staffSnapshotsWritten} workbench snapshot(s).`,
+)
 
-function buildSection(productSlug, rows, productConfig) {
-  const sortedRows = [...rows].sort((a, b) => metalSort(a.metal_species, b.metal_species))
-  const testedMetals = unique(productConfig.testedMetals)
-  const testedSet = new Set(testedMetals)
-  const primaryMetals = testedMetals.length
-    ? testedMetals
-    : unique(sortedRows.map((row) => canonicalMetal(row.metal_species))).sort(metalSort)
-  const primaryRows = primaryMetals
-    .map((metal) => sortedRows.find((row) => canonicalMetal(row.metal_species) === metal))
-    .filter(Boolean)
-  const contextRows = testedMetals.length
-    ? sortedRows.filter((row) => !testedSet.has(canonicalMetal(row.metal_species)))
-    : []
-  const sourceKeys = createSourceKeyRegistry("S")
-  const contextSourceKeys = createSourceKeyRegistry("C")
-  const targetLabels = unique(primaryRows.map((row) => targetLabel(row)))
-  const overall = overallRead(primaryRows)
-  const targetSentence = targetBoundarySentence(targetLabels)
-  const candidateHeader = candidateHeaderForRows(primaryRows)
+// ---------- Public block ----------
 
-  const tableRows = primaryRows.map((row) =>
-    standardsSnapshotRow(productSlug, row, candidateHeader, sourceKeys),
-  )
-  const contextSection = contextRows.length
-    ? `\n\n### Context Evidence Appendix\n\nThe metals below remain visible for traceability, but they are not the primary HMTc standards decision surface for this product row.\n\n${toMarkdownTable(
-        contextRows.map((row) => contextAppendixRow(productSlug, row, contextSourceKeys)),
-      )}\n\n${contextSourceKeys.toMarkdown("Context Source Key")}`
-    : ""
-  const sourceKey = sourceKeys.toMarkdown("Source Key")
+function buildPublicSection({ productSlug, productLabel, subcategory, rows, primaryMetals }) {
+  const tableRows = primaryMetals.map((metal) => {
+    const gapRow = rows.find((row) => canonicalMetal(row.metal_species) === metal) ?? {}
+    const summaryRows = occurrenceRowsFor(productSlug, metal)
+    return publicRow(metal, gapRow, summaryRows, subcategory)
+  })
+
+  const intro = [
+    `The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in ${subcategory.introPhrase}. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.`,
+    "",
+    `Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.`,
+  ].join("\n")
 
   return `${beginMarker}
-## HMTc Standards Snapshot
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-${targetSentence} ${overall}
-
-Source-scope percentiles are evidence inputs, not final HMTc standards. Clean rows use aggregate P90. Contaminated-platform rows use aggregate P10 by default, or P20 only when explicitly selected. Dirty P90 and clean P10 are not HMTc limit-setting targets.
+${intro}
 
 ${toMarkdownTable(tableRows)}
-
-${sourceKey}${contextSection}
-
 ${endMarker}`
 }
 
-function overallRead(rows) {
-  const statuses = rows.map((row) => String(row.aggregate_hmtc_percentile_status || ""))
-  const readyCount = statuses.filter((status) => status === "READY FOR AGGREGATE MATH REVIEW").length
-  if (readyCount === rows.length && rows.length > 0) {
-    return "All listed metals are ready for aggregate math review, then bootstrap/stability review before final approval."
-  }
-  if (readyCount > 0) {
-    return "Some metals are ready for aggregate math review; blocked metals stay out of limit-setting until the stated evidence gap is closed."
-  }
-  return "No listed metal currently has a publishable aggregate HMTc value at the 80-95% confidence gate."
-}
-
-function targetBoundarySentence(targetLabels) {
-  if (targetLabels.length === 1 && targetLabels[0] === "clean-platform P90") {
-    return "Clean-category target: aggregate P90. Values shown in ppb. Current values are source-scope candidates unless marked final."
-  }
-  if (targetLabels.length === 1 && targetLabels[0].startsWith("contaminated-platform")) {
-    return `${targetLabels[0]} target. Values shown in ppb. Current values are source-scope candidates unless marked final.`
-  }
-  if (targetLabels.length === 1) {
-    return `${targetLabels[0]} target. Values shown in ppb. Current values are source-scope candidates unless marked final.`
-  }
-  return `Mixed standards targets: ${targetLabels.join(", ")}. Values shown in ppb. Current values are source-scope candidates unless marked final.`
-}
-
-function targetLabel(row) {
-  switch (row.hmtc_standard_percentile_target) {
-    case "clean_p90":
-      return "clean-platform P90"
-    case "dirty_p10":
-      return "contaminated-platform P10"
-    case "dirty_p20":
-      return "contaminated-platform P20"
-    case "independent_p90":
-      return "independent-row P90"
-    default:
-      return "not applicable"
+function publicRow(metal, gapRow, summaryRows, subcategory) {
+  return {
+    Analyte: metalLabel(metal),
+    Subcategory: subcategoryCell(metal, gapRow, summaryRows, subcategory),
+    "Reported concentration range": rangeCell(summaryRows),
+    "Detection rate": detectionCell(summaryRows),
+    "Applicable regulatory cap": regulatoryCapCell(gapRow),
+    Sources: sourceCountCell(summaryRows),
+    Confidence: confidenceCell(summaryRows),
+    Basis: basisCell(summaryRows),
   }
 }
 
-function standardsSnapshotRow(productSlug, row, candidateHeader, sourceKeys) {
-  const candidate = bestCandidateRow(productSlug, row)
-  const sourceIds = unique([
-    candidate?.source_id,
-    ...occurrenceRows
-      .filter(
-        (sourceRow) =>
-          sourceRow.row_slug === productSlug &&
-          canonicalMetal(sourceRow.metal_species) === canonicalMetal(row.metal_species),
+function subcategoryCell(metal, gapRow, summaryRows, subcategory) {
+  const hasDirect = summaryRows.some((row) => String(row.row_fit || "").includes("direct"))
+  const hasAny = summaryRows.length > 0
+  const fitNote = hasDirect
+    ? "direct row-fit"
+    : hasAny
+      ? "summary-only / supporting context"
+      : "no contributing evidence loaded"
+  return `${subcategory.publicLabel} (${fitNote})`
+}
+
+function rangeCell(summaryRows) {
+  if (summaryRows.length === 0) return "No concentration data loaded for this analyte"
+
+  let centralLo = Infinity
+  let centralHi = -Infinity
+  const centralSourceIds = new Set()
+  const centralKind = new Set()
+  let observedMax = -Infinity
+
+  for (const row of summaryRows) {
+    const censored = /less_than|below/i.test(String(row.censoring_status || ""))
+    let central = null
+    if (!censored) {
+      if (hasValue(row.mean_ppb)) {
+        central = Number(row.mean_ppb)
+        centralKind.add("mean")
+      } else if (hasValue(row.median_ppb)) {
+        central = Number(row.median_ppb)
+        centralKind.add("median")
+      } else if (hasValue(row.p50_ppb)) {
+        central = Number(row.p50_ppb)
+        centralKind.add("median")
+      }
+    }
+    if (Number.isFinite(central)) {
+      if (central < centralLo) centralLo = central
+      if (central > centralHi) centralHi = central
+      if (row.source_id) centralSourceIds.add(row.source_id)
+    }
+
+    for (const candidate of [row.max_ppb, row.p100_ppb, row.mean_ub_ppb, row.mean_ppb]) {
+      const value = Number(candidate)
+      if (Number.isFinite(value) && value > observedMax) observedMax = value
+    }
+  }
+
+  const parts = []
+  if (centralSourceIds.size > 0) {
+    const kindLabel = centralKindLabel(centralKind)
+    if (centralLo === centralHi) {
+      parts.push(`${kindLabel} ${formatNumber(centralLo)} ppb (${numberText(centralSourceIds.size, "source")})`)
+    } else {
+      parts.push(
+        `${kindLabel} ${formatNumber(centralLo)} to ${formatNumber(centralHi)} ppb (${numberText(centralSourceIds.size, "source")})`,
       )
-      .map((sourceRow) => sourceRow.source_id),
+    }
+  }
+  if (Number.isFinite(observedMax)) {
+    parts.push(`highest reported ${formatNumber(observedMax)} ppb`)
+  }
+
+  if (parts.length === 0) return "Summary statistics only; no comparable numeric range across cited sources"
+  return parts.join("; ")
+}
+
+function centralKindLabel(kindSet) {
+  if (kindSet.size === 0) return "central"
+  if (kindSet.size === 1) {
+    const kind = [...kindSet][0]
+    return kind === "mean" ? "mean" : "median"
+  }
+  return "mean/median"
+}
+
+function detectionCell(summaryRows) {
+  const sampleLevelRows = summaryRows.filter((row) => Number(row.n || 0) > 0 && hasValue(row.detected_n))
+  if (sampleLevelRows.length === 0) return "Sample-level detection rate not reported"
+
+  const lines = sampleLevelRows
+    .sort((a, b) => Number(b.n || 0) - Number(a.n || 0))
+    .slice(0, 1)
+    .map((row) => {
+      const n = Number(row.n || 0)
+      const detected = Number(row.detected_n || 0)
+      const percent = n > 0 ? Math.round((detected / n) * 100) : 0
+      const sourceShort = sourceShortTitle(row.source_id)
+      const basis = basisLabel(row.basis)
+      return `${percent}% detected (${detected}/${n}, ${sourceShort}, ${basis})`
+    })
+
+  return lines.join("; ")
+}
+
+function regulatoryCapCell(gapRow) {
+  const value = String(gapRow.lowest_regulatory_cap_ug_kg || "").trim()
+  const id = String(gapRow.lowest_regulatory_cap_source || "").trim()
+  if (!value) return "No applicable cap loaded"
+
+  const limit = limitsById.get(id)
+  if (!limit) return `${value} ppb`
+
+  const auth = limit.authority || limit.jurisdiction || ""
+  const page = limit.regulation_page ? `[[${limit.regulation_page}]]` : ""
+  const basis = limit.basis ? ` (${limit.basis})` : ""
+  const ref = page || auth
+  return ref ? `${ref}: ${value} ppb${basis}` : `${value} ppb${basis}`
+}
+
+function sourceCountCell(summaryRows) {
+  const count = uniqueSourceCount(summaryRows)
+  if (count === 0) return "0"
+  return `${count} cited`
+}
+
+function confidenceCell(summaryRows) {
+  const count = uniqueSourceCount(summaryRows)
+  if (count === 0) return "data gap"
+  if (count <= 2) return "low (1-2 sources)"
+  if (count <= 10) return `medium (${count} sources)`
+  return `high (${count} sources)`
+}
+
+function basisCell(summaryRows) {
+  const bases = unique(summaryRows.map((row) => basisLabel(row.basis)).filter((value) => value && value !== "basis not loaded"))
+  if (bases.length === 0) return "Basis not reported"
+  return bases.join("; ")
+}
+
+// ---------- Staff snapshot ----------
+
+function buildStaffSnapshot({ productSlug, productLabel, subcategory, rows, primaryMetals }) {
+  const arithmeticTable = toMarkdownTable(
+    primaryMetals.map((metal) => {
+      const gapRow = rows.find((row) => canonicalMetal(row.metal_species) === metal) ?? {}
+      const summaryRows = occurrenceRowsFor(productSlug, metal)
+      const best = bestSummaryRow(summaryRows)
+      return {
+        Analyte: metalLabel(metal),
+        p10: formatOrDash(best?.p10_ppb),
+        p50: formatOrDash(best?.p50_ppb),
+        p90: formatOrDash(best?.p90_ppb),
+        p95: formatOrDash(best?.p95_ppb),
+        p100: formatOrDash(best?.p100_ppb ?? best?.max_ppb),
+        "n (Path A)": pathANText(best),
+        Source: best ? `[[sources/${best.source_id}]]` : "no Path A dataset",
+        Basis: best ? basisLabel(best.basis) : "—",
+      }
+    }),
+  )
+
+  const designationTable = toMarkdownTable(
+    primaryMetals.map((metal) => {
+      const summaryRows = occurrenceRowsFor(productSlug, metal)
+      const best = bestSummaryRow(summaryRows)
+      return {
+        Analyte: metalLabel(metal),
+        Designation: designationFor(productSlug, metal, summaryRows),
+        "Comparator basis": comparatorBasis(productSlug, best, summaryRows),
+      }
+    }),
+  )
+
+  const eligibilityTable = toMarkdownTable(
+    primaryMetals.map((metal) => {
+      const gapRow = rows.find((row) => canonicalMetal(row.metal_species) === metal) ?? {}
+      const summaryRows = occurrenceRowsFor(productSlug, metal)
+      const naTier = uniqueSourceCount(summaryRows)
+      return {
+        Analyte: metalLabel(metal),
+        n_a_tier: naTier,
+        Path: pathLabel(gapRow, summaryRows),
+        "CC eligibility verdict": eligibilityVerdict(gapRow, naTier),
+        "Phase / next-ingest target": nextIngestTarget(gapRow),
+      }
+    }),
+  )
+
+  return [
+    "---",
+    `title: "Workbench standards snapshot — ${productLabel}"`,
+    "type: workbench-standards-snapshot",
+    "audience: [internal]",
+    "noindex: true",
+    `product_slug: ${productSlug}`,
+    `public_page: products/${productSlug}`,
+    `updated: ${today}`,
+    "---",
+    "",
+    `# Workbench standards snapshot — ${productLabel}`,
+    "",
+    `Staff-only percentile arithmetic, clean/dirty designation per Part 19, Path A/B status, and CC eligibility verdict for ${productLabel}. This snapshot is regenerated by the HMTc evidence summary generator and rewritten end-to-end on every run; do not edit by hand.`,
+    "",
+    `Public-facing literature evidence summary for this row lives at [[products/${productSlug}]]; this page is the percentile-arithmetic side of that public summary and stays restricted to staff.`,
+    "",
+    "## Percentile arithmetic",
+    "",
+    `Selected Path A datasets for each analyte (single-source where one sample-level dataset dominates; aggregate review otherwise). Pooling decisions, LOQ handling, and clean-platform inclusion remain workbench-side.`,
+    "",
+    arithmeticTable,
+    "",
+    "## Clean and dirty designation",
+    "",
+    "Per-analyte within-pair classification (clean subcategory standard = p90; dirty subcategory standard = p30 per Part 19). Designations are scoped to this parent category and reset per analyte.",
+    "",
+    designationTable,
+    "",
+    "## CC eligibility and Path status",
+    "",
+    eligibilityTable,
+    "",
+    "## Operational reminders",
+    "",
+    "- Final HMT&C values must not exceed the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.",
+    "- Pooling across sources requires basis matching (powder-as-sold, prepared-for-feeding, as-consumed) before percentile recalculation.",
+    "- Speciation rules are non-substitutable: total arsenic, inorganic arsenic, total mercury, methylmercury, total chromium, and Cr-VI are tracked as separate analytes.",
+    "- Source-count confidence ratings follow CLAUDE.md Part 6: low (1-2 sources), medium (3-10), high (more than 10).",
+    "",
+  ].join("\n")
+}
+
+function pathANText(row) {
+  if (!row) return "-"
+  const n = Number(row.n || 0)
+  if (n > 0) return String(n)
+  return "-"
+}
+
+function pathLabel(gapRow, summaryRows) {
+  const distributionCapable = summaryRows.some(
+    (row) => hasValue(row.p90_ppb) || hasValue(row.p50_ppb) || hasValue(row.p100_ppb),
+  )
+  if (distributionCapable) return "Path A (sample-level distribution)"
+  if (summaryRows.length > 0) return "Path B (summary statistics / range only)"
+  if (String(gapRow.aggregate_hmtc_percentile_status || "").includes("BLOCKED")) return "blocked"
+  return "no Path A or Path B candidate"
+}
+
+function eligibilityVerdict(gapRow, naTier) {
+  const status = String(gapRow.aggregate_hmtc_percentile_status || "")
+  if (status === "READY FOR AGGREGATE MATH REVIEW") {
+    if (naTier >= 3) return "At readiness bar"
+    return "Approaching readiness bar"
+  }
+  if (status.startsWith("DO NOT PUBLISH")) return "Approaching (single distribution-capable source)"
+  if (status.startsWith("BLOCKED")) return "Below readiness bar"
+  if (status === "PENDING: aggregate math after local extraction") return "Pending extraction"
+  if (status) return status
+  return "Below readiness bar"
+}
+
+function nextIngestTarget(gapRow) {
+  const needs = String(gapRow.evidence_needed || "").trim()
+  if (needs) return needs
+  if (String(gapRow.aggregate_hmtc_percentile_status || "").includes("species-specific")) {
+    return "Speciation-specific source required (no substitution from total-species values)"
+  }
+  return "Continue baseline ingest"
+}
+
+function designationFor(productSlug, metal, summaryRows) {
+  const hasDistribution = summaryRows.some((row) => hasValue(row.p90_ppb))
+  if (!hasDistribution) return "summary-only (designation deferred)"
+
+  if (/-non-soy$/.test(productSlug) || /-non-rice$/.test(productSlug)) return "clean (within-pair)"
+  if (/-soy-based$/.test(productSlug) || /-rice-based$/.test(productSlug)) return "dirty (within-pair)"
+  return "see workbench for comparator pair"
+}
+
+function comparatorBasis(productSlug, best, summaryRows) {
+  if (!best) return "no sample-level dataset"
+  const n = Number(best.n || 0)
+  const nText = n > 0 ? `n=${n}` : "n not reported"
+  return `${sourceShortTitle(best.source_id)} (${basisLabel(best.basis)}, ${nText})`
+}
+
+function bestSummaryRow(summaryRows) {
+  if (summaryRows.length === 0) return null
+  const ranked = [...summaryRows].sort((a, b) => candidateRank(b) - candidateRank(a))
+  return ranked[0]
+}
+
+// ---------- Shared ----------
+
+function pickPrimaryMetals(frontmatter, rows) {
+  const explicit = asArray(frontmatter.primary_metals_of_concern).map(canonicalMetal).filter(Boolean)
+  if (explicit.length > 0) return explicit
+
+  const tested = asArray(frontmatter.hmtc_tested_metals).map(canonicalMetal).filter(Boolean)
+  if (tested.length > 0) return tested
+
+  return unique(rows.map((row) => canonicalMetal(row.metal_species))).sort(metalSort)
+}
+
+function occurrenceRowsFor(productSlug, metal) {
+  return occurrenceRows.filter(
+    (row) => String(row.row_slug || "").trim() === productSlug && canonicalMetal(row.metal_species) === metal,
+  )
+}
+
+function uniqueSourceCount(rows) {
+  return unique(rows.map((row) => row.source_id)).length
+}
+
+function subcategoryDesignation(productSlug, frontmatter) {
+  const productLabel = String(frontmatter.label || frontmatter.title || "").trim()
+
+  const matrixVocab = new Map([
+    ["non-soy", "non-soy (cow milk-based)"],
+    ["soy-based", "soy-based"],
+    ["rice-based", "rice-based"],
+    ["non-rice", "non-rice grain-based"],
+    ["apple-containing", "apple-containing"],
+    ["non-apple", "non-apple"],
+    ["root-vegetable-containing", "root-vegetable-containing"],
+    ["non-root", "non-root vegetable"],
+  ])
+  const formatVocab = new Map([
+    ["powder", "powder"],
+    ["rtf-liquid", "ready-to-feed liquid"],
+    ["concentrated-liquid", "concentrated liquid"],
+    ["dry", "dry"],
+    ["pouch", "pouch"],
+    ["jar", "jar"],
+    ["fresh", "fresh"],
   ])
 
-  return {
-    Metal: metalLabel(row.metal_species),
-    [candidateHeader]: candidateRead(candidate, row),
-    "Evidence confidence": evidenceConfidenceRead(candidate),
-    "HMTc readiness": readinessRead(row),
-    "Regulatory cap": regulatoryCap(row),
-    Blocker: blockerRead(row),
-    Sources: sourceKeys.markers(sourceIds),
+  let matrix = null
+  for (const [key, value] of matrixVocab) {
+    if (productSlug.includes(key)) {
+      matrix = value
+      break
+    }
   }
+  let format = null
+  for (const [key, value] of formatVocab) {
+    if (productSlug.includes(key)) {
+      format = value
+      break
+    }
+  }
+
+  // publicLabel is the cell-friendly subcategory tag; introPhrase reads inside a sentence.
+  const phrase = [matrix, format].filter(Boolean).join(", ")
+  const publicLabel = phrase || productLabel || friendly(productSlug)
+  const introPhrase = phrase ? `${phrase} ${categoryNoun(productSlug)}`.trim() : productLabel || friendly(productSlug)
+
+  return { publicLabel, introPhrase, matrix, format, productLabel }
 }
 
-function contextAppendixRow(productSlug, row, sourceKeys) {
-  const sourceIds = unique(
-    occurrenceRows
-      .filter(
-        (sourceRow) =>
-          sourceRow.row_slug === productSlug &&
-          canonicalMetal(sourceRow.metal_species) === canonicalMetal(row.metal_species),
-      )
-      .map((sourceRow) => sourceRow.source_id),
-  )
-  return {
-    Metal: metalLabel(row.metal_species),
-    State: contextState(row),
-    Sources: sourceKeys.markers(sourceIds),
-  }
+function categoryNoun(productSlug) {
+  if (productSlug.startsWith("infant-formula")) return "infant formula"
+  if (productSlug.startsWith("baby-cereals")) return "baby cereal"
+  if (productSlug.startsWith("fruit-juice")) return "fruit juice"
+  if (productSlug.startsWith("vegetable-juice")) return "vegetable juice"
+  if (productSlug.startsWith("fruit-purees")) return "fruit puree"
+  if (productSlug.startsWith("vegetable-purees")) return "vegetable puree"
+  if (productSlug.startsWith("mixed-meals")) return "mixed meal"
+  if (productSlug.startsWith("fish-containing")) return "baby food"
+  if (productSlug.startsWith("meat-and-poultry")) return "puree"
+  return "product"
 }
 
-function candidateHeaderForRows(rows) {
-  const statistics = unique(rows.map((row) => row.hmtc_standard_statistic))
-  if (statistics.length === 1) {
-    if (statistics[0] === "p90_ppb") return "Candidate P90"
-    if (statistics[0] === "p10_ppb") return "Candidate P10"
-    if (statistics[0] === "p20_ppb") return "Candidate P20"
-  }
-  return "Candidate percentile"
+function friendly(slug) {
+  return String(slug || "")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (letter) => letter.toUpperCase())
 }
 
-function bestCandidateRow(productSlug, gapRow) {
-  const statistic = String(gapRow.hmtc_standard_statistic || "").trim()
-  if (!statistic) return null
-
-  return occurrenceRows
-    .filter(
-      (row) =>
-        row.row_slug === productSlug &&
-        canonicalMetal(row.metal_species) === canonicalMetal(gapRow.metal_species) &&
-        hasValue(row[statistic]),
-    )
-    .sort((left, right) => candidateRank(right) - candidateRank(left))[0] ?? null
-}
-
-function candidateRank(row) {
-  const directFit = String(row.row_fit || "").includes("direct") ? 1 : 0
-  const n = Number(row.n || 0)
-  const efRank = evidenceFitnessRank(row.evidence_fitness_verdict)
-  const reviewed = String(row.review_state || "").includes("approved") ? 1 : 0
-  return directFit * 100000 + efRank * 10000 + Math.min(n, 9999) + reviewed * 1000
-}
-
-function candidateRead(candidate, gapRow) {
-  if (!candidate) return "None loaded"
-
-  const statistic = String(gapRow.hmtc_standard_statistic || "p90_ppb")
-  const value = formatNumber(candidate[statistic])
-  const n = Number(candidate.n || 0)
-  const basis = basisLabel(candidate.basis)
-  const nText = n > 0 ? `N=${n}` : "N not loaded"
-  return `${value} ppb; ${nText}; ${basis}; source-scope`
-}
-
-function evidenceConfidenceRead(candidate) {
-  if (!candidate) return "0.00 (no candidate)"
-  return `${confidenceScore(candidate).toFixed(2)} (source row)`
-}
-
-function confidenceScore(candidate) {
-  let score = 0.6
-  if (String(candidate.row_fit || "").includes("direct")) score += 0.12
-  const n = Number(candidate.n || 0)
-  if (n >= 100) score += 0.08
-  else if (n >= 30) score += 0.05
-  else if (n > 0) score += 0.03
-  if (candidate.source_id) score += 0.04
-  if (candidate.basis) score += 0.04
-  if (evidenceFitnessRank(candidate.evidence_fitness_verdict) >= 4) score += 0.05
-  else if (evidenceFitnessRank(candidate.evidence_fitness_verdict) >= 3) score += 0.03
-  if (String(candidate.review_state || "").includes("machine")) score = Math.min(score, 0.93)
-  return Math.max(0, Math.min(score, 0.95))
-}
-
-function readinessRead(row) {
-  const score = readinessScore(row)
-  return `${score.toFixed(2)} (${readinessLabel(row)})`
-}
-
-function readinessScore(row) {
-  const status = String(row.aggregate_hmtc_percentile_status || "")
-  if (status === "READY FOR AGGREGATE MATH REVIEW") return 0.8
-  if (status === "PENDING: aggregate math after local extraction") return 0.55
-  if (status.startsWith("DO NOT PUBLISH")) return 0.45
-  if (status === "BLOCKED: summary evidence only") return 0.25
-  if (status === "BLOCKED: local extraction pending") return 0.2
-  if (status === "BLOCKED: species-specific evidence missing") return 0.1
-  if (status === "BLOCKED: no structured evidence loaded") return 0.05
-  return 0.15
-}
-
-function readinessLabel(row) {
-  const status = String(row.aggregate_hmtc_percentile_status || "")
-  if (status === "READY FOR AGGREGATE MATH REVIEW") return "math review"
-  if (status === "PENDING: aggregate math after local extraction") return "pending extraction"
-  if (status.startsWith("DO NOT PUBLISH")) return "aggregate incomplete"
-  if (status === "BLOCKED: summary evidence only") return "summary only"
-  if (status === "BLOCKED: no structured evidence loaded") return "no structured pool"
-  if (status === "BLOCKED: species-specific evidence missing") return "species gap"
-  if (status === "BLOCKED: local extraction pending") return "local extraction"
-  if (status === "BLOCKED: local candidate review pending" || status === "BLOCKED: TDS product route review pending") {
-    return "candidate review"
+function sourceShortTitle(sourceId) {
+  if (!sourceId) return "source"
+  const knownShortTitles = new Map([
+    ["fda2026-infant-formula-toxic-elements-special-survey", "FDA 2026"],
+    ["dabeka2011-canada-infant-formula-lead-cadmium-aluminum", "Dabeka 2011"],
+    ["kazi2009-toxic-elements-in-infant-formulae", "Kazi 2009"],
+    ["almeida2022-brazil-infant-formula-toxic-metals", "Almeida 2022"],
+    ["chung2021-china-infant-formula-toxic-elements", "Chung 2021"],
+    ["fsa2016-infant-food-formula-metals-survey", "FSA 2016"],
+    ["dabeka1987-canada-infant-formula-lead-cadmium", "Dabeka 1987"],
+    ["pandelova2012-eu-baby-food-formula-elements", "Pandelova 2012"],
+    ["soares2000-chromium-vi-powdered-milk-formulas", "Soares 2000"],
+    ["burrell2010-aluminium-in-infant-formulas", "Burrell 2010"],
+    ["chuchu2013-aluminium-in-infant-formulas", "Chuchu 2013"],
+  ])
+  if (knownShortTitles.has(sourceId)) return knownShortTitles.get(sourceId)
+  const fromCatalog = sourceCatalog.get(sourceId)
+  if (fromCatalog?.shortTitle) return fromCatalog.shortTitle
+  const match = sourceId.match(/^([a-z-]+?)(\d{4})/)
+  if (match) {
+    const author = match[1].replace(/-/g, " ").trim().split(" ").filter(Boolean)[0]
+    if (author) return `${author.charAt(0).toUpperCase()}${author.slice(1)} ${match[2]}`
   }
-  return "blocked"
-}
-
-function blockerRead(row) {
-  const status = String(row.aggregate_hmtc_percentile_status || "")
-  const pending = Number(row.pending_local_extract_source_count || 0)
-  const candidates = Number(row.local_candidate_value_count || 0) + Number(row.tds_product_route_candidate_count || 0)
-
-  if (status === "READY FOR AGGREGATE MATH REVIEW") {
-    return "Run aggregate math and stability review"
-  }
-  if (status.startsWith("DO NOT PUBLISH")) {
-    return "Needs at least one more fit distribution source"
-  }
-  if (status === "PENDING: aggregate math after local extraction") {
-    return "Complete pending local extraction"
-  }
-  if (status === "BLOCKED: summary evidence only") {
-    return "Needs fit-source samples admitted to benchmark pool"
-  }
-  if (status === "BLOCKED: no structured evidence loaded") {
-    return "Load structured occurrence evidence"
-  }
-  if (status === "BLOCKED: species-specific evidence missing") {
-    return "Exact analyte species missing"
-  }
-  if (status === "BLOCKED: local extraction pending") {
-    return `${numberText(pending, "local source")} needs extraction`
-  }
-  if (status === "BLOCKED: local candidate review pending" || status === "BLOCKED: TDS product route review pending") {
-    return `${numberText(candidates, "candidate row")} needs AI adjudication`
-  }
-  if (status === "BLOCKED: documented local sources are context-only") {
-    return "Documented sources are context-only"
-  }
-  if (status === "BLOCKED: evidence fitness review needed") {
-    return "Evidence fitness review needed"
-  }
-  return status || "Status not loaded"
-}
-
-function contextState(row) {
-  const sourceCount = numberText(row.loaded_source_count, "source")
-  const distributionCount = numberText(row.distribution_capable_source_count, "distribution source")
-  return `${sourceCount}; ${distributionCount}; ${readinessLabel(row)}`
-}
-
-function regulatoryCap(row) {
-  const value = String(row.lowest_regulatory_cap_ug_kg || "").trim()
-  const source = String(row.lowest_regulatory_cap_source || "").trim()
-  if (!value) return "None loaded"
-  return source ? `${value} ppb (${regulatorySourceLabel(source)})` : `${value} ppb`
-}
-
-function regulatorySourceLabel(source) {
-  const normalized = String(source || "").toLowerCase()
-  if (normalized.startsWith("eu")) return "EU"
-  if (normalized.startsWith("fda")) return "FDA"
-  if (normalized.startsWith("codex")) return "Codex"
-  if (normalized.startsWith("prop65")) return "Prop 65"
-  return source
+  return sourceId.replace(/-/g, " ")
 }
 
 function metalLabel(value) {
   const metal = String(value || "").trim()
   const links = new Map([
-    ["Pb", "[[metals/lead]] (Pb)"],
-    ["Cd", "[[metals/cadmium]] (Cd)"],
-    ["tAs", "[[metals/arsenic-total]] (tAs)"],
-    ["iAs", "[[metals/arsenic-inorganic]] (iAs)"],
-    ["tHg", "[[metals/mercury-total]] (tHg)"],
-    ["MeHg", "[[metals/mercury-methyl]] (MeHg)"],
-    ["Al", "[[metals/aluminum]] (Al)"],
-    ["Ni", "[[metals/nickel]] (Ni)"],
-    ["Sn", "[[metals/tin]] (Sn)"],
+    ["Pb", "[[metals/lead\\|Pb]]"],
+    ["Cd", "[[metals/cadmium\\|Cd]]"],
+    ["tAs", "[[metals/arsenic-total\\|tAs]]"],
+    ["iAs", "[[metals/arsenic-inorganic\\|iAs]]"],
+    ["tHg", "[[metals/mercury-total\\|tHg]]"],
+    ["MeHg", "[[metals/mercury-methyl\\|MeHg]]"],
+    ["Al", "[[metals/aluminum\\|Al]]"],
+    ["Ni", "[[metals/nickel\\|Ni]]"],
+    ["Sn", "[[metals/tin\\|Sn]]"],
+    ["Cr-VI", "[[metals/chromium-hexavalent\\|Cr-VI]]"],
+    ["Cr-total", "[[metals/chromium\\|Cr]]"],
+    ["Cr", "[[metals/chromium\\|Cr]]"],
+    ["U", "[[metals/uranium\\|U]]"],
   ])
   return links.get(metal) ?? metal
 }
@@ -361,70 +543,10 @@ function numberText(value, singular) {
   return `${count} ${label}`
 }
 
-function createSourceKeyRegistry(prefix = "S") {
-  const markersBySourceId = new Map()
-
-  return {
-    markers(sourceIds) {
-      const markers = unique(sourceIds)
-        .filter(Boolean)
-        .map((sourceId) => this.marker(sourceId))
-      return markers.length ? markers.join(" ") : "None"
-    },
-    marker(sourceId) {
-      if (!markersBySourceId.has(sourceId)) {
-        markersBySourceId.set(sourceId, `${prefix}${markersBySourceId.size + 1}`)
-      }
-      const marker = markersBySourceId.get(sourceId)
-      return `<sup><a href="/sources/${sourceId}">${marker}</a></sup>`
-    },
-    toMarkdown(heading = "Source Key") {
-      if (markersBySourceId.size === 0) return `### ${heading}\n\nNo source-scope candidates are loaded.`
-      const lines = [...markersBySourceId.entries()].map(
-        ([sourceId, marker]) => `- <sup><a href="/sources/${sourceId}">${marker}</a></sup> ${sourceTitle(sourceId)}`,
-      )
-      return `### ${heading}\n\n${lines.join("\n")}`
-    },
-  }
-}
-
-function sourceTitle(sourceId) {
-  const knownShortTitles = new Map([
-    ["fda2026-infant-formula-toxic-elements-special-survey", "FDA 2026 infant formula toxic-elements survey"],
-    ["dabeka2011-canada-infant-formula-lead-cadmium-aluminum", "Dabeka 2011 Canadian infant formula Pb/Cd/Al"],
-    ["kazi2009-toxic-elements-in-infant-formulae", "Kazi 2009 infant formula toxic elements"],
-    ["almeida2022-brazil-infant-formula-toxic-metals", "Almeida 2022 Brazil infant formula toxic metals"],
-    ["chung2021-china-infant-formula-toxic-elements", "Chung 2021 China infant formula toxic elements"],
-    ["fsa2016-infant-food-formula-metals-survey", "FSA 2016 infant foods/formula metals survey"],
-    ["dabeka1987-canada-infant-formula-lead-cadmium", "Dabeka 1987 Canadian infant formula Pb/Cd"],
-    ["pandelova2012-eu-baby-food-formula-elements", "Pandelova 2012 EU baby foods/formula elements"],
-    ["soares2000-chromium-vi-powdered-milk-formulas", "Soares 2000 powdered milk formula Cr(VI)"],
-    ["burrell2010-aluminium-in-infant-formulas", "Burrell 2010 infant formula aluminium"],
-    ["chuchu2013-aluminium-in-infant-formulas", "Chuchu 2013 infant formula aluminium"],
-  ])
-  if (knownShortTitles.has(sourceId)) return knownShortTitles.get(sourceId)
-  const title = sourceCatalog.get(sourceId)?.title || readableSourceId(sourceId)
-  const compacted = compactSourceTitle(title)
-  return compacted.length > 90 ? readableSourceId(sourceId) : compacted
-}
-
-function compactSourceTitle(title) {
-  return String(title || "")
-    .replace(/^Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market$/i, "Chung 2021 China infant formula toxic elements")
-    .replace(/^Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey$/i, "FDA 2026 infant formula toxic-elements survey")
-    .replace(/^Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions$/i, "Dabeka 2011 Canadian infant formula Pb/Cd/Al")
-    .replace(/^Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk$/i, "Almeida 2022 Brazil infant formula toxic metals")
-    .replace(/^Survey of metals in commercial infant foods, infant formula and non-infant specific foods$/i, "FSA 2016 infant foods and formula metals survey")
-    .replace(/^Determination of Metals and Iodine in Infant Formula and Adult\/Pediatric Nutritional Formula by Inductively Coupled Plasma Mass Spectrometry \(ICP-MS\): First Action 2011\.19$/i, "FDA formula ICP-MS method")
-}
-
-function readableSourceId(sourceId) {
-  return String(sourceId || "source").replace(/-/g, " ")
-}
-
 function upsertSection(text, section) {
   const pattern = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`)
-  const base = pattern.test(text) ? text.replace(pattern, "").replace(/\n{3,}/g, "\n\n") : text
+  if (pattern.test(text)) return text.replace(pattern, section)
+  const base = text
 
   const productCrosswalk = "\n<!-- BEGIN: hmi-product-crosswalk -->"
   if (base.includes(productCrosswalk)) {
@@ -440,9 +562,6 @@ function upsertSection(text, section) {
     }
   }
 
-  // Insertion anchors. Prefer the newer "Page Completeness" heading; fall back
-  // to legacy "Scaffold Status" / "Distribution Context" / "Sources" for pages
-  // that have not been migrated yet.
   for (const anchor of [
     "\n## Page Completeness",
     "\n## Scaffold Status",
@@ -461,7 +580,7 @@ function nextHeadingIndex(text, startIndex) {
 }
 
 function toMarkdownTable(rows) {
-  if (rows.length === 0) return "No locked-row standards evidence rows are loaded for this product."
+  if (rows.length === 0) return "No literature evidence rows loaded for this product."
 
   const headers = Object.keys(rows[0])
   const lines = [
@@ -477,7 +596,11 @@ function toMarkdownTable(rows) {
 }
 
 function escapeTableCell(value) {
-  return String(value ?? "").replace(/\|/g, "\\|").replace(/\n/g, " ").trim()
+  return String(value ?? "")
+    .replace(/\n/g, " ")
+    .replace(/—/g, "-")
+    .replace(/(?<!\\)\|/g, "\\|")
+    .trim()
 }
 
 function parseCsv(text) {
@@ -547,7 +670,7 @@ function readOccurrenceRows() {
   for (const relativePath of occurrenceSummaryFiles) {
     const filePath = path.join(repoRoot, relativePath)
     if (!fs.existsSync(filePath)) continue
-    rows.push(...parseCsv(fs.readFileSync(filePath, "utf8")).map((row) => ({ ...row, evidence_file: relativePath })))
+    rows.push(...parseCsv(fs.readFileSync(filePath, "utf8")))
   }
   return rows
 }
@@ -560,7 +683,7 @@ function readSourceCatalog() {
     const sourceId = path.basename(file, ".md")
     const parsed = matter(fs.readFileSync(path.join(sourceDir, file), "utf8"))
     catalog.set(sourceId, {
-      title: parsed.data.title || parsed.data.citation_title || readableSourceId(sourceId),
+      title: parsed.data.title || parsed.data.citation_title || sourceId.replace(/-/g, " "),
     })
   }
 
@@ -601,6 +724,10 @@ function canonicalMetal(value) {
     ["chromiumvi", "Cr-VI"],
     ["crtotal", "Cr-total"],
     ["totalchromium", "Cr-total"],
+    ["cr", "Cr-total"],
+    ["chromium", "Cr-total"],
+    ["u", "U"],
+    ["uranium", "U"],
   ])
   return aliases.get(compact) || metal
 }
@@ -615,10 +742,23 @@ function evidenceFitnessRank(value) {
   return Math.max(0, 6 - Number(match[1]))
 }
 
+function candidateRank(row) {
+  const directFit = String(row.row_fit || "").includes("direct") ? 1 : 0
+  const n = Number(row.n || 0)
+  const efRank = evidenceFitnessRank(row.evidence_fitness_verdict)
+  const reviewed = String(row.review_state || "").includes("approved") ? 1 : 0
+  return directFit * 100000 + efRank * 10000 + Math.min(n, 9999) + reviewed * 1000
+}
+
 function formatNumber(value) {
   const number = Number(value)
   if (!Number.isFinite(number)) return String(value || "")
   return Number.isInteger(number) ? String(number) : String(Number(number.toFixed(3)))
+}
+
+function formatOrDash(value) {
+  if (!hasValue(value)) return "-"
+  return formatNumber(value)
 }
 
 function basisLabel(value) {

@@ -52,30 +52,19 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 18 (2026-05-09). Kombucha (tea-based fermented beverage) is locked as a **contamination_platform** variant_type within the kombucha-and-fermented-beverages split, paired against fermented-beverages-non-tea-based as the clean_benchmark.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Kombucha (tea-based). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Kombucha facts from broader literature (not in HMTc corpus):
-- Kombucha is fermented sweetened tea (true tea or green tea + sugar + SCOBY culture); inherits **all heavy metals from the tea base** including Camellia sinensis Al accumulation.
-- Fermentation step at acidic pH 2.5-4.5 can extract additional metals from brewing vessels — historically a Pb concern with crystal/lead-glazed pottery; modern stainless-steel commercial production largely eliminates this.
-- Kombucha brewers' Lead Poisoning case reports from home-brewed kombucha in lead-glazed ceramic crocks documented in CDC MMWR 1995 (relevant historical context).
-- The acidic kombucha matrix (pH 2.5-4.5) makes Cr(VI) more stable than in neutral matrices — the milk-like Hernandez/Saraiva inference is **weakest** here vs other Cat 5 subcategories.
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-| Metal | Clean/dirty (anticipated) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb) | dirty (anticipated; tea-base cascade + historical lead-glaze concern) | 0 | 0 | data gap | Closing requires direct kombucha multi-element survey + commercial vs home-brew distinction. CDC MMWR 1995 lead poisoning case is regulatory context. |
-| [[metals/cadmium]] (Cd); [[metals/aluminum]] (Al) | dirty (tea-base cascade) | 0 | 0 | data gap | Inherits Camellia sinensis Al accumulation; fermentation may concentrate or retain. Kombucha-specific Al measurement absent. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated low) | 0 | 0 | data gap | Tea is not a known As accumulator. |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway in tea/kombucha matrix. |
-| [[metals/nickel]] (Ni) | dirty (anticipated, small) | 0 | 0 | data gap | Tea-base cascade. |
-| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference WEAK for kombucha) | 0 | 0 | data gap | **Acidic kombucha matrix (pH 2.5-4.5) is where the Hernandez/Saraiva milk-like Cr(VI)<LOD inference applies LEAST.** Direct Cr speciation in kombucha is the highest-value Cr-VI measurement in Cat 5. |
-| [[metals/tin]] (Sn) | data gap | 0 | 0 | data gap | Modern kombucha is bottled or canned aluminum can; canned-Sn-leach minor concern. |
-
-**Wishlist priority for closing this row**: kombucha multi-element analysis + Cr speciation (the latter is the highest-value Cr-VI measurement target in Cat 5 because acidic matrix conditions are where Cr(VI) is most stable). None in HMTc corpus.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/aluminum\|Al]] | Kombucha (tea-based) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Kombucha (tea-based) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Kombucha (tea-based) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources

@@ -52,31 +52,19 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 18 (2026-05-09). Coffee is locked as an **independent_no_split** variant_type — no within-pair partner; standards target is standalone p90 if measurements were available.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Coffee. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Coffee facts from broader literature (not in HMTc corpus):
-- Coffee plants take up some metals from volcanic soils; less Al-accumulation than Camellia sinensis (tea).
-- Brewed coffee Pb/Cd/As typically lower than ground coffee due to extraction-efficiency limits (most metals stay in spent grounds).
-- Robusta vs Arabica varieties show different metal profiles (Robusta higher Cu/Mn).
-- Green/raw coffee bean Pb 0.05-0.5 ppm; brewed coffee at typical 50:1 dilution gives 1-10 ppb Pb.
-- Acrylamide and ochratoxin A are higher-priority coffee contaminants in regulatory frameworks (not HMT&C analytes).
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-| Metal | Clean/dirty (anticipated) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd) | clean (anticipated low in brewed; potentially measurable in ground) | 0 | 0 | data gap | Closing requires multi-element coffee survey. Distinguishing brewed vs ground coffee is an axis-axis decision per Part 6. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated low) | 0 | 0 | data gap | Coffee not a known As accumulator. |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway in coffee matrix. |
-| [[metals/nickel]] (Ni) | clean/dirty TBD | 0 | 0 | data gap | Coffee Ni is measurable; Robusta higher than Arabica. |
-| [[metals/aluminum]] (Al) | clean (vs tea high baseline) | 0 | 0 | data gap | Coffee plants are not Al hyperaccumulators like tea; expected lower. |
-| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial) | 0 | 1 (cascade) | data gap | Brewed coffee is acidic-aqueous (pH 4-5); milk-like Cr(VI)<LOD inference is weaker than for milk-based beverages. |
-| [[metals/tin]] (Sn) | data gap (modern); historical canned-RTD-coffee context | 0 | 0 | data gap | Modern coffee is brewed-fresh or single-serve; canned-RTD-coffee is a minor share with potential canned-Sn-leach context. |
-
-**Wishlist priority for closing this row**: multi-element coffee survey distinguishing brewed vs ground; both are commercial-form-axis routes. None in HMTc corpus.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Coffee (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Coffee (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | Coffee (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources

@@ -31,7 +31,9 @@ for (const [productSlug, rows] of [...rowsByProduct.entries()].sort((a, b) => a[
   if (!fs.existsSync(pagePath)) continue
 
   const original = fs.readFileSync(pagePath, "utf8")
-  const section = buildSection(rows)
+  const canonicalAppearances = buildCanonicalAppearanceMap(original)
+
+  const section = buildSection(rows, canonicalAppearances)
   const next = upsertSection(original, section)
   if (next === original) continue
 
@@ -42,27 +44,26 @@ for (const [productSlug, rows] of [...rowsByProduct.entries()].sort((a, b) => a[
 
 console.log(`Updated ${updatedPages} product broad-context section(s) with ${writtenRows} source route row(s).`)
 
-function buildSection(rows) {
-  const sortedRows = [...rows].sort((a, b) => {
-    const sourceCompare = String(a.source_id || "").localeCompare(String(b.source_id || ""))
-    if (sourceCompare !== 0) return sourceCompare
-    return String(a.route_kind || "").localeCompare(String(b.route_kind || ""))
-  })
+function buildSection(rows, canonicalAppearances) {
+  const sortedRows = [...rows].sort((a, b) =>
+    String(a.source_id || "").localeCompare(String(b.source_id || "")),
+  )
 
   const tableRows = sortedRows.map((row) => ({
     Source: `[[sources/${row.source_id}]]`,
     Title: sourceLabel(row),
     "Source scope": sourceScope(row),
     Metals: metalsFor(row),
-    "Row-fit handling": rowFitHandling(row),
+    "Author-scope row-fit": authorScopeRowFit(row),
+    "Canonical appearance": canonicalAppearances.get(row.source_id) ?? "(context only)",
   }))
 
   return `${beginMarker}
-## Broad Product Context Awaiting AI Adjudication
+## Broad Product Context: Author-Scope Index
 
 <!-- audience: regulator, educator, app -->
 
-These sources are visible as product context, but they are not direct locked-row evidence. Keep them out of HMTc standards-percentile calculations unless the AI adjudication layer writes an auditable extraction, row-fit, basis, analyte-species, and statistic-fit decision. Human review is reserved for low-confidence, high-impact, or policy-conflict exceptions.
+The sources below are catalogued as product-context candidates for this row. The "Author-scope row-fit" column states what the authors actually resolved on each axis: matrix (cow milk-based, soy-based, rice-based, non-rice, or unresolved) and format (powder, ready-to-feed liquid, concentrated liquid, dry, or unresolved). A source counts toward this row's evidence pool only once; rows marked "Cross-reference" already appear as direct evidence elsewhere on this page and are not counted again here.
 
 ${toMarkdownTable(tableRows)}
 
@@ -100,14 +101,81 @@ function metalsFor(row) {
   return metals.length > 0 ? metals.join("; ") : "not declared"
 }
 
-function rowFitHandling(row) {
+function authorScopeRowFit(row) {
+  const declared = splitList(row.declared_products)
+  const matrixAxis = classifyMatrix(declared)
+  const formatAxis = classifyFormat(declared)
+  const matrixSentence = `Matrix axis: ${matrixAxis.label}${matrixAxis.detail ? ` (${matrixAxis.detail})` : ""}.`
+  const formatSentence = `Format axis: ${formatAxis.label}${formatAxis.detail ? ` (${formatAxis.detail})` : ""}.`
+
+  let routeNote
   if (row.route_kind === "broad_powder_context") {
-    return "Powder context only until AI adjudication resolves soy/non-soy fit."
+    routeNote = "Source resolves powder format but does not split soy from non-soy."
+  } else if (row.route_kind === "broad_formula_context") {
+    routeNote = "Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy."
+  } else {
+    routeNote = "Source is broader than this row; authors do not narrow to this exact matrix/format pair."
   }
-  if (row.route_kind === "broad_formula_context") {
-    return "Broad formula context only until AI adjudication resolves format and soy/non-soy fit."
+
+  return `${matrixSentence} ${formatSentence} ${routeNote}`
+}
+
+function classifyMatrix(declared) {
+  const hasNonSoy = declared.some((p) => /(infant-formula).*non-soy/i.test(p) || /non-soy/i.test(p))
+  const hasSoy = declared.some((p) => /soy-based/i.test(p))
+  const hasGenericPowder = declared.some((p) => /^infant-formula-powder$/.test(p))
+  const hasGenericFormula = declared.some((p) => /^infant-formula$/.test(p) || /infant-foods/i.test(p))
+
+  if (hasNonSoy && !hasSoy) return { label: "exact", detail: "declares non-soy specifically" }
+  if (hasSoy && !hasNonSoy) return { label: "exact", detail: "declares soy-based specifically" }
+  if (hasNonSoy && hasSoy) return { label: "partial", detail: "covers both non-soy and soy without splitting" }
+  if (hasGenericPowder) return { label: "unresolved", detail: "declares powder generally; soy/non-soy not split" }
+  if (hasGenericFormula) return { label: "unresolved", detail: "declares infant formula broadly" }
+  return { label: "unresolved", detail: null }
+}
+
+function classifyFormat(declared) {
+  const hasPowder = declared.some((p) => /powder/i.test(p))
+  const hasRtf = declared.some((p) => /rtf-liquid|ready-to-feed/i.test(p))
+  const hasConcentrate = declared.some((p) => /concentrated-liquid|concentrate/i.test(p))
+  const hasGenericFormula = declared.some((p) => /^infant-formula$/.test(p))
+
+  if (hasPowder && !hasRtf && !hasConcentrate) return { label: "exact", detail: "powder" }
+  if (hasRtf && !hasPowder && !hasConcentrate) return { label: "exact", detail: "ready-to-feed liquid" }
+  if (hasConcentrate && !hasPowder && !hasRtf) return { label: "exact", detail: "concentrated liquid" }
+  if ((hasPowder ? 1 : 0) + (hasRtf ? 1 : 0) + (hasConcentrate ? 1 : 0) > 1) {
+    return { label: "partial", detail: "covers multiple formats without splitting" }
   }
-  return "Broad product context only until AI adjudication resolves row fit, basis, species, and statistic type."
+  if (hasGenericFormula) return { label: "unresolved", detail: "powder vs RTF not split" }
+  return { label: "unresolved", detail: null }
+}
+
+function buildCanonicalAppearanceMap(productPageText) {
+  const map = new Map()
+  const broadStart = productPageText.indexOf(beginMarker)
+  const broadEnd = productPageText.indexOf(endMarker)
+  const sliceOut = broadStart !== -1 && broadEnd !== -1
+    ? productPageText.slice(0, broadStart) + productPageText.slice(broadEnd + endMarker.length)
+    : productPageText
+
+  const headingRegex = /^## (.+?)$/gm
+  const headings = []
+  let match
+  while ((match = headingRegex.exec(sliceOut)) !== null) {
+    headings.push({ title: match[1].trim(), index: match.index })
+  }
+
+  const sourceRegex = /\[\[sources\/([a-z0-9-]+?)(?:\|[^\]]*)?\]\]/g
+  while ((match = sourceRegex.exec(sliceOut)) !== null) {
+    const sourceId = match[1]
+    const position = match.index
+    const section = headings.filter((h) => h.index < position).slice(-1)[0]
+    if (!section) continue
+    if (map.has(sourceId)) continue
+    map.set(sourceId, `Cross-reference - section: ${section.title}`)
+  }
+
+  return map
 }
 
 function toMarkdownTable(rows) {
@@ -127,7 +195,11 @@ function toMarkdownTable(rows) {
 }
 
 function escapeTableCell(value) {
-  return String(value ?? "").replace(/\|/g, "\\|").replace(/\n/g, " ").trim()
+  return String(value ?? "")
+    .replace(/\n/g, " ")
+    .replace(/—/g, "-")
+    .replace(/(?<!\\)\|/g, "\\|")
+    .trim()
 }
 
 function splitList(value) {

@@ -57,51 +57,24 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 Public evidence label: **Modeled or limited evidence**.
 
-This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level JSONL backfill is tracked separately in `data/evidence/category1_register.csv`.
+This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level tracking is maintained in the staff Standards Workbench.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## CC Candidate Summary (Part 19 framework)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This block was rebuilt 2026-05-08 in Phase 3 against the [Part 19 clean/dirty subcategory framework](../../CLAUDE.md). Clean and dirty are per-analyte empirical designations within the parent category (Infant and Child Foods → dry baby cereals). For each HMT&C analyte, the rice-based subcategory is classified clean or dirty by comparing its empirical distribution against its sibling subcategory on [[products/baby-cereals-dry-non-rice]] (the only other dry-baby-cereal subcategory currently in the row architecture). The clean subcategory standard is p90 (lenient bar). The dirty subcategory standard is p30 (strict bar; 70% of samples in the dirtier subcategory currently fail it, creating market-ratcheting pressure per Part 2). Both standards are reported alongside p100 (max observed in the subcategory). Final HMT&C values must remain no higher than the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in rice-based, dry baby cereal. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-p30, p50, p90, and p100 values for Pb, Cd, tAs, and tHg are computed directly from FDA FY2009-FY2024 baby-food compliance sample-level data (`data/evidence/category1_fda_baby_food_compliance_samples.csv`), filtered to the subcategory's row_slug. Values are lower-bound (`<LOD` and `NDb` treated as 0). iAs and the remaining HMT&C analytes (MeHg, Ni, Al, Cr-VI, Sn) are data gaps for this row pending Phase 3b ingest of priority-1 papers from the manifest.
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-How to read the `n (Path A)` column: this value reflects the sample size of the selected Path A clean-platform dataset used to compute the percentile values for that analyte cell, not a pool across every source cited on this page. The dataset selected for each analyte is identified in the paragraph above. Other sources cited on this page contribute to `n_a_tier` and the confidence rating; they corroborate the selected dataset rather than entering the percentile calculation. Pooling is deliberately avoided because LOQs, sampling periods, geographies, and analytical bases vary across the source set, and a pooled p90 would be dominated by detection-limit handling and cross-basis drift rather than describing the modern clean-platform distribution the threshold is meant to govern. Where a single sample-level Path A dataset is unavailable, partial, or assembled from more than one source, the column describes the scope of the dataset closest to Path A readiness rather than a single sample-level n. Data-gap analytes carry `n=0`.
-
-| Analyte | Subcategory designation | Standard target | n (Path A) | n_a_tier | Sources | Confidence | CC eligibility | Regulatory cap |
-| --- | --- | ---: | ---: | ---: | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | rice-based **[dirty]** (rice p50 5.00 ppb vs non-rice p50 4.00 ppb; rice p90 19.10 ppb vs non-rice p90 7.84 ppb) | dirty p30 = **2.85 ppb** (p100 = 32 ppb) | 256 | 1 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | thin (one fit sample-level source) | Path A supported but n_a_tier=1; second fit distribution source needed before publishing | 20 ug/kg ([[regulations/fda2025-lead-processed-baby-foods]]) |
-| [[metals/cadmium\|Cd]] | rice-based **[clean]** (rice p50 10.20 ppb vs non-rice p50 15.00 ppb; rice p90 22.00 ppb vs non-rice p90 27.28 ppb) | clean p90 = **22.00 ppb** (p100 = 40.5 ppb) | 252 | 1 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | thin (one fit sample-level source) | Path A supported but n_a_tier=1; second fit distribution source needed before publishing | 40 ug/kg ([[regulations/eu-2023-915-cadmium]]) |
-| [[metals/arsenic-total\|tAs]] | rice-based **[dirty]** (rice p50 115.00 ppb vs non-rice p50 12.90 ppb; rice p90 135.00 ppb vs non-rice p90 36.00 ppb) | dirty p30 = **102.00 ppb** (p100 = 348 ppb) | 253 | 1 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | thin (one fit sample-level source); FDA total arsenic, not iAs | Path A supported but n_a_tier=1; iAs speciation gap remains separate | No loaded cap |
-| [[metals/arsenic-inorganic\|iAs]] | rice-based **[dirty]** (FDA 2016 sample-level rice-based pool p90 124.90 ppb vs non-rice 25.71 ppb; n=82 vs 30) | dirty p30 = **90.62 ppb** (p100 = 176 ppb) | 82 | 2 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic]] (n=82 sample-level: rice n=76 + multigrain-with-rice n=6); [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] (n=82 source: 29 baby rice + 53 rice cereals; source-reported medians/ranges, dry-weight) | low (Part 6: 1-2 studies = low; n_a_tier=2 is at the floor of the readiness bar) | Path A n_a_tier=2; below confidence-≥-medium bar pending a third A-tier sample-level source for rice infant cereal iAs. Final HMT&C value capped at 100 ppb regulatory cap. | 100 ug/kg ([[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]]) |
-| [[metals/mercury-methyl\|MeHg]] | (no measured-MeHg source in either rice or non-rice cereal) | data gap | 0 | 0 | none | data gap | **Phase 3b ingest needed**; speciation source required (tHg cannot substitute) | No loaded cap |
-| [[metals/mercury-total\|tHg]] | rice-based **[dirty (data-thin)]** (rice p50 0 ppb vs non-rice p50 0 ppb; rice p90 2.10 ppb vs non-rice p90 0 ppb; FDA detection sparse — 64/256 samples for rice, 9/25 for non-rice) | dirty p30 = **0 ppb** (p100 = 4 ppb); subcategory designation marginal due to high non-detect rate | 64 | 1 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]]; [[sources/meli2024-chemical-characterization-baby-food-italy]] (N=3 cereal-cream outlier with mean 30 ppb / max 40 ppb — needs verification) | data-thin / outlier signal | Path A formally supported but values are mostly non-detect; Meli 2024 outlier flag for follow-up before publishing | No loaded cap |
-| [[metals/nickel\|Ni]] | (broad-cereal sources only; FSA 2016 and Chekri 2019 do not split rice vs non-rice; no per-subcategory empirical distribution) | data gap | 0 rice-specific | 0 | [[sources/fsa2016-infant-food-formula-metals-survey]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] (broad cereal only) | data gap | **Phase 3b ingest needed**; rice-specific Ni source required | No loaded cap |
-| [[metals/aluminum\|Al]] | (broad-cereal sources only; Chekri 2019 N=17 broad cereal; no per-subcategory split) | data gap | 0 rice-specific | 0 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] (broad cereal only) | data gap | **Phase 3b ingest needed** | No loaded cap |
-| [[metals/chromium-hexavalent\|Cr-VI]] | (no Cr-VI source for either rice or non-rice cereal) | data gap | 0 | 0 | none | data gap | **Phase 3b ingest needed**; Cr-VI requires speciation (total Cr cannot substitute per CLAUDE.md Part 14) | No loaded cap |
-| [[metals/tin\|Sn]] | (broad-cereal sources only; Chekri 2019 N=17 broad cereal; no per-subcategory split) | data gap | 0 rice-specific | 0 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] (broad cereal only) | data gap | **Phase 3b ingest needed** | No loaded cap |
-
-### Per-analyte clean/dirty classification record
-
-For audit traceability, the within-row classification used the central-tendency comparison below. Where both subcategories had FDA sample-level data (Pb, Cd, tAs, tHg), the comparison is empirical from `category1_fda_baby_food_compliance_samples.csv`. Where one or both subcategories lacked sample-level data, the classification falls back to source-reported summary statistics or is marked as a data gap.
-
-| Analyte | Rice-based p50 | Non-rice p50 | Rice-based p90 | Non-rice p90 | Rice-based role | Comparator basis |
-| --- | ---: | ---: | ---: | ---: | --- | --- |
-| Pb | 5.00 | 4.00 | 19.10 | 7.84 | dirty | FDA sample-level; rice p90 > non-rice p90 by 11.26 ppb |
-| Cd | 10.20 | 15.00 | 22.00 | 27.28 | clean | FDA sample-level; rice p90 < non-rice p90 by 5.28 ppb |
-| tAs | 115.00 | 12.90 | 135.00 | 36.00 | dirty | FDA sample-level; rice p90 > non-rice p90 by 99.00 ppb |
-| iAs | 99.40 (FDA 2016 n=82) | 10.35 (FDA 2016 n=30) | 124.90 | 25.71 | dirty | FDA 2016 sample-level (added 2026-05-08); non-rice p90 25.71 < rice-based p90 124.90 |
-| MeHg | n/a | n/a | n/a | n/a | unclassifiable | both data gap |
-| tHg | 0.00 | 0.00 | 2.10 | 0.00 | dirty (data-thin) | FDA sample-level; both p50=0 (sparse detection); rice p90 > non-rice p90 |
-| Ni | n/a | n/a | n/a | n/a | unclassifiable | broad sources only on both sides |
-| Al | n/a | n/a | n/a | n/a | unclassifiable | broad sources only on both sides |
-| Cr-VI | n/a | n/a | n/a | n/a | unclassifiable | both data gap |
-| Sn | n/a | n/a | n/a | n/a | unclassifiable | broad sources only on both sides |
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/arsenic-inorganic\|iAs]] | rice-based, dry (direct row-fit) | median 75 to 121 ppb (1 source); highest reported 323 ppb | 100% detected (105/105, Signes 2016, dry-weight) | [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]]: 100 ppb (as sold infant rice cereal) | 2 cited | low (1-2 sources) | dry-weight; as-sold-or-source-reported |
+| [[metals/cadmium\|Cd]] | rice-based, dry (direct row-fit) | mean/median 3 to 10.1 ppb (3 sources); highest reported 40.5 ppb | 84% detected (212/252, Fda 2024, as-sold) | [[regulations/eu-2023-915-cadmium]]: 40 ppb (product as placed on market) | 3 cited | medium (3 sources) | as-sold; as-sold-or-source-reported; mixed-or-source-reported |
+| [[metals/lead\|Pb]] | rice-based, dry (direct row-fit) | median 5 to 8 ppb (2 sources); highest reported 32 ppb | 77% detected (196/256, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 20 ppb (dry infant cereal) | 3 cited | medium (3 sources) | as-sold; as-sold-or-source-reported; mixed-or-source-reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Lead Benchmark Context
@@ -226,19 +199,19 @@ FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, incl
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
 <!-- BEGIN: hmi-broad-context-sources -->
-## Broad Product Context — Cross-Reference Index
+## Broad Product Context: Author-Scope Index
 
 <!-- audience: regulator, educator, app -->
 
-The sources below all also appear as direct evidence elsewhere on this page; this section is a cross-reference index, not a separate evidence pool. Each source counts toward this row's CC candidate n only once, in its canonical SEI/Distribution Context appearance noted below. The "Author-scope row-fit" column states which row-fit axes the author resolved and which are left open per the CLAUDE.md Part 6 row-fit determination rule.
+The sources below are catalogued as product-context candidates for this row. The "Author-scope row-fit" column states what the authors actually resolved on each axis: matrix (cow milk-based, soy-based, rice-based, non-rice, or unresolved) and format (powder, ready-to-feed liquid, concentrated liquid, dry, or unresolved). A source counts toward this row's evidence pool only once; rows marked "Cross-reference" already appear as direct evidence elsewhere on this page and are not counted again here.
 
 | Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
 | --- | --- | --- | --- | --- | --- |
-| [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Cereal-based infant foods scope; rice/non-rice axis not split by author. | § French TDS Category Rows |
-| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | U.S. baby-foods/formula scope; rice-containing subset signal explicit per author (Cd elevated in foods containing rice, quinoa, wheat, oats; Pb elevated in foods containing rice, quinoa, sweet potatoes). Source-published table is all-categories aggregate; rice-specific concentrations not isolated. | § Distribution Context |
-| [[sources/meli2024-chemical-characterization-baby-food-italy]] | Chemical characterization of baby food consumed in Italy | infant-formula-powder; fruit-purees; meat-and-poultry-purees; fish-containing-baby-foods | Al; tAs; Cd; tHg; Ni; Pb; Sn | Italian/European baby-foods study; cream-of-rice subset is rice-relevant per author scope; N=3 in subset. | § Measured Values And Concentration Evidence |
-| [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Human health risk assessment of arsenic, cadmium, lead, and m... | fruit-purees; root-vegetable-purees; non-root-vegetable-purees; baby-cereals | tAs; Cd; tHg; Pb | Grain baby-food group is mostly rice-containing per author (2 of 3 grain-product types rice-based); arsenic not speciated. | § Distribution Context, § Measured Values And Concentration Evidence |
-| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Has explicit rice-cereal subset per author scope (`products: [..., rice-cereal, ...]`). | § Measured Values And Concentration Evidence |
+| [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: French TDS Category Rows |
+| [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Distribution Context |
+| [[sources/meli2024-chemical-characterization-baby-food-italy]] | Chemical characterization of baby food consumed in Italy | infant-formula-powder; fruit-purees; meat-and-poultry-purees; fish-containing-baby-foods | Al; tAs; Cd; tHg; Ni; Pb; Sn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Measured Values And Concentration Evidence |
+| [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] | Human health risk assessment of arsenic, cadmium, lead, and m... | fruit-purees; root-vegetable-purees; non-root-vegetable-purees; baby-cereals | tAs; Cd; tHg; Pb | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Distribution Context |
+| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Measured Values And Concentration Evidence |
 
 <!-- END: hmi-broad-context-sources -->
 

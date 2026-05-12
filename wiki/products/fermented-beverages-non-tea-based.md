@@ -52,28 +52,18 @@ This is the fast comparison view for standards developers, regulators, retailers
 Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-## HMTc Evidence Summary (Part 19 — Data gap with documented rationale)
+## Literature Evidence Summary
 
-<!-- audience: regulator, educator, app -->
+<!-- audience: regulator, educator, consumer, app -->
 
-This subcategory has **zero direct in-corpus sources** as of cycle 19 (2026-05-09). Non-tea fermented beverages are locked as **clean_benchmark** variant_type within the kombucha-and-fermented-beverages split, paired against kombucha-tea-based (cycle 18) as contamination platform. Standards target = clean p90.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Fermented beverages, non-tea-based. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
-Subcategory scope: water kefir, jun (similar to kombucha but with green tea + honey), beverage-tibet (mineral-water-fermented), fermented coconut water, fermented juices (excluding wine/cider). Excluded from this row per locked-architecture boundary: kombucha (tea-based, separate row), beer/wine/spirits (alcoholic; outside HMT&C scope per CLAUDE.md Part 4 if outside HMTc Cat 5 architecture).
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
-Heavy-metal exposure pathways are similar to kombucha but **without the Camellia sinensis Al-accumulation cascade** — water kefir uses a sugar-water base; jun uses green tea (so partial-Camellia cascade); fermented juices inherit the underlying juice's profile.
-
-| Metal | Clean/dirty (anticipated empirical) | n | n_a_tier | CC eligibility | Closing rationale |
-| --- | --- | --- | --- | --- | --- |
-| [[metals/lead]] (Pb); [[metals/cadmium]] (Cd) | clean (anticipated; water-base or non-tea base) | 0 | 0 | data gap | Closing requires multi-element water-kefir / jun / fermented-juice survey. |
-| [[metals/arsenic-total]] (tAs); [[metals/arsenic-inorganic]] (iAs) | clean (anticipated) | 0 | 0 | data gap | — |
-| [[metals/methylmercury]] (MeHg); [[metals/mercury-total]] (tHg) | data gap | 0 | 0 | data gap | No methylation pathway. |
-| [[metals/nickel]] (Ni) | clean (anticipated, small) | 0 | 0 | data gap | Stainless-steel fermentation vessels; trace transfer possible. |
-| [[metals/aluminum]] (Al) | clean (architectural intent supported — no Camellia accumulator base) | 0 | 0 | data gap | The clean-vs-kombucha (cycle 18) Al comparison would be the highest-value test of Camellia cascade vs no-tea-base differentiation. |
-| [[metals/chromium-vi|Cr-VI]] | data gap (chemistry-mechanism inference partial; acidic matrix) | 0 | 0 | data gap | Fermented beverages are acidic (pH 3-4); milk-like inference partial. |
-| [[metals/tin]] (Sn) | data gap | 0 | 0 | data gap | Modern home-brew non-tea-fermented is glass/ceramic vessel; commercial is glass/PET; not canned. |
-
-**Wishlist priority**: water-kefir + jun + fermented-juice multi-element survey to establish the clean baseline for the kombucha contamination-platform comparison.
-
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Fermented beverages, non-tea-based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Fermented beverages, non-tea-based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Sources
