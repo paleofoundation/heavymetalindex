@@ -440,7 +440,15 @@ function upsertSection(text, section) {
     }
   }
 
-  for (const anchor of ["\n## Scaffold Status", "\n## Distribution Context", "\n## Sources"]) {
+  // Insertion anchors. Prefer the newer "Page Completeness" heading; fall back
+  // to legacy "Scaffold Status" / "Distribution Context" / "Sources" for pages
+  // that have not been migrated yet.
+  for (const anchor of [
+    "\n## Page Completeness",
+    "\n## Scaffold Status",
+    "\n## Distribution Context",
+    "\n## Sources",
+  ]) {
     const index = base.indexOf(anchor)
     if (index !== -1) return `${base.slice(0, index).trimEnd()}\n\n${section}\n\n${base.slice(index).trimStart()}`
   }

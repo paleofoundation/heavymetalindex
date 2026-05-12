@@ -57,11 +57,12 @@ function upsertSection(source, block) {
   const existing = /^## Lead Benchmark Context\n\n<!-- audience: regulator, educator, consumer, app -->\n<!-- lead-benchmark-context:start -->[\s\S]*?<!-- lead-benchmark-context:end -->\n?/m
   if (existing.test(source)) return source.replace(existing, block)
 
-  const needle = "\n## Scaffold Status"
-  if (source.includes(needle)) return source.replace(needle, `\n${block}\n## Scaffold Status`)
-
-  const fallback = "\n## Distribution Context"
-  if (source.includes(fallback)) return source.replace(fallback, `\n${block}\n## Distribution Context`)
+  // Insertion anchors. Prefer the newer "Page Completeness" heading; fall back
+  // to legacy "Scaffold Status" / "Distribution Context" for pages that have
+  // not been migrated yet.
+  for (const anchor of ["\n## Page Completeness", "\n## Scaffold Status", "\n## Distribution Context"]) {
+    if (source.includes(anchor)) return source.replace(anchor, `\n${block}\n${anchor.trimStart()}`)
+  }
 
   return `${source.trimEnd()}\n\n${block}`
 }

@@ -17,21 +17,35 @@ const defaultOptions: Options = {
   layout: "modern",
 }
 
+// Product-category TOC display map.
+//
+// The keys are the exact H2 text in the source markdown. The values are the
+// labels shown in the right-rail TOC. Any H2 that is NOT in this map will be
+// hidden from the TOC, so the map must include every section we want
+// navigable. We keep the display labels close to the body H2 text so readers
+// are not confused by a TOC that uses different vocabulary than the page.
 const productTocLabels = new Map([
-  ["Evidence Governance", "Evidence quality"],
-  ["Scaffold Status", "Build status"],
+  ["Methodology", "Methodology"],
+  ["Evidence Summary", "Evidence summary"],
+  ["Federal / Regulatory Limits vs Field Findings", "Regulatory comparison"],
+  ["Evidence Governance", "Evidence governance"],
+  ["Lead Benchmark Context", "Lead benchmark"],
+  ["Page Completeness", "Page completeness"],
+  ["Scaffold Status", "Page completeness"],
   ["Distribution Context", "Distribution context"],
   ["Measured Values And Concentration Evidence", "Measured values"],
+  ["Source Legend", "Source legend"],
   ["Source Evidence Inventory", "Source evidence"],
   ["Extracted Formula Concentration Rows", "Structured values"],
   ["Structured Concentration Rows", "Structured values"],
-  ["CC Candidate Summary", "Internal review"],
+  ["Broad Product Context — Author-Scope Index", "Broad product context"],
+  ["Broad Product Context", "Broad product context"],
   ["Internal Standards Boundary", "Standards boundary"],
-  ["How Standards Math Uses This Page", "Internal review"],
   ["Evidence Used For This Row", "Evidence used"],
   ["Exposure Estimates From Formula Consumption", "Exposure context"],
   ["French TDS Category Rows", "Context rows"],
-  ["Why This Category Is High-Risk", "Risk context"],
+  ["Row Relationship", "Row relationship"],
+  ["Why This Category Is High-Risk", "Why this is high-risk"],
   ["What Drives Variance Across Brands", "Variance drivers"],
   ["How The App Would Estimate Risk From An Ingredient List", "Ingredient-list use"],
   ["Historical Recalls/Enforcement", "Regulatory events"],
