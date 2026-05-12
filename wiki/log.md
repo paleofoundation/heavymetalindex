@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-12] ingest | batch-E (9 PDFs) — manual-fetch seasonal-geographic-variance
+Pages touched: [[sources/fu2022-sunflower-cd-cultivar-transcriptomics]], [[sources/hao2022-probabilistic-risk-rice-mining-county]], [[sources/xie2023-sb-smelter-soil-hunan]], [[sources/scaccabarozzi2020-cacao-soil-cd-peru]], [[sources/wang2023-hangzhou-industrial-soil]], [[sources/canada-t4-93-fertilizer-heavy-metal-standards]], [[sources/thomas2023-peru-cacao-cd-distribution]], [[sources/fda2013-ias-rice-products-sampling]], [[sources/llorente-mirandes2016-ias-food-analytical-review]]
+Notes: 9 PDFs from raw/manual-fetch/seasonal-geographic-variance/ ingested. 7 peer-reviewed studies moved to raw/studies/, 2 government/regulatory documents (CFIA T-4-93, FDA 2013 iAs rice) moved to raw/reports/. Strongest additions for geographic variance: thomas2023 is the nation-wide Peru cacao Cd predictive map (n=2,194 samples, 563 farms) with Piura/Tumbes as high-risk departments (up to 89% farms above EU threshold); scaccabarozzi2020 provides complementary soil-factor data (1,100–3,200 ppb Cd) from 4 Peruvian regions. FDA 2013 provides the key US market iAs per-serving table for 20+ rice product subcategories and geographic breakdown by US state.
+
 ## [2026-05-12] batch | p4-batch3 (200 handles) — 2 net new source pages, 8 duplicates removed
 Pages touched: [[sources/lee2025-knhanes-mercury-cadmium-arsenic-obesity]], [[sources/jermilova2025-mackenzie-mercury-fish-bayesian]]
 Notes: First food-matrix-filtered batch. Low yield due to handle overlap with batches 1–2 (8 duplicates created then removed) and large filesystem gap (FM_12022213–FM_12048xxx mostly absent — raw 2/ PDFs not yet Marker-converted). Process fix applied: future batches cross-reference source page frontmatter to exclude already-ingested handles. lee2025 is KNHANES Korean national biomonitoring (n=6,609; Hg, Cd, total As); jermilova2025 is Bayesian Hg risk model for Mackenzie freshwater fish (Canada). Batch report: [[batch-reports/p4-batch3-2026-05-12]].
