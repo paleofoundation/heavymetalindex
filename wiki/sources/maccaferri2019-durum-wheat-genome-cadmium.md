@@ -14,8 +14,8 @@ sha256: 52e8a75e563d01f3943c3840b895466bc359aaa2d80b63eb8a8ec21dfce9bfed
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1038/s41588-019-0381-3"
 metals: [Cd]
-ingredients: ["[[ingredients/durum-wheat]]", "[[ingredients/wheat]]"]
-products: ["[[products/pasta]]"]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/pasta]]"]
+products: []
 matrices: [durum-wheat-grain]
 jurisdictions: []
 sample_n: null

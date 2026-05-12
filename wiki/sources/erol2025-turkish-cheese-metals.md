@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12277537/FM_12277537.md
 metals: [Pb, tHg, Al, tAs, Cd, Ni, Cr]
-ingredients: ["[[ingredients/cheese]]", "[[ingredients/dairy]]"]
+ingredients: ["[[ingredients/milk-and-dairy]]"]
 products: []
 matrices: [cheese]
 jurisdictions: [TR]

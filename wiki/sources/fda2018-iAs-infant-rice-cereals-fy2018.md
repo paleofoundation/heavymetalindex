@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://www.fda.gov/food/environmental-contaminants-food/what-we-are-doing-arsenic-rice-and-rice-products"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/infant-rice-cereal]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [infant-rice-cereal, infant-brown-rice-cereal, infant-rice-banana-cereal]
 jurisdictions: [US]
 sample_n: 149

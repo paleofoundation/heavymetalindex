@@ -14,7 +14,7 @@ sha256: 9a68aab35785bbca05e743226b7ee53fafebc92b4ce90224f7e0c9b553f6b067
 access_date: 2026-05-12
 access_url: "https://doi.org/10.34302/crpjfst/2023.15.4.3"
 metals: [As, Cd, Cr, Pb, Hg, Al, Fe, Ba, Ni, Co]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [tea-herb, tea-infusion, black-tea, green-tea]
 jurisdictions: []

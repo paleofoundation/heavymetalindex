@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://www.fda.gov/food/environmental-contaminants-food/inorganic-arsenic-rice-and-rice-products"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/infant-rice-cereal]]", "[[products/rice-protein-powder]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [white-rice, brown-rice, basmati-rice, parboiled-rice, rice-products, infant-rice-cereal, rice-protein-powder, rice-cakes, rice-beverages]
 jurisdictions: [US]
 sample_n: 1300

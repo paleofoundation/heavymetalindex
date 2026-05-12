@@ -14,7 +14,7 @@ sha256: 1263675c779cdd1bd8ebb97eab88f38986ac2a97e7be4277b01bab9cd4804350
 access_date: 2026-05-12
 access_url: "https://doi.org/10.3390/toxics11080662"
 metals: [tAs, Cd, Cr, Cu, tHg, Pb]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [green-tea, white-tea, dark-tea, black-tea, oolong-tea, scented-tea, yellow-tea, tea-plantation-soil]
 jurisdictions: [CN]

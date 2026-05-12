@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12455183/FM_12455183.md
 metals: [tAs, Cd, Cr, tHg, Pb]
-ingredients: ["[[ingredients/corn]]", "[[ingredients/corn-flour]]"]
-products: ["[[products/breakfast-cereals]]"]
+ingredients: ["[[ingredients/corn]]"]
+products: []
 matrices: [breakfast-cereal, dry-food]
 jurisdictions: [LB]
 near_duplicates: []

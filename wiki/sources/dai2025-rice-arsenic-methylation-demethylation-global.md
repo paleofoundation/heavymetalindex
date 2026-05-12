@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY-NC-ND"
 raw_path: raw/markdown/FM_12478174/FM_12478174.md
 metals: [iAs, tAs]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/brown-rice]]"]
-products: ["[[products/rice-products]]"]
+ingredients: ["[[ingredients/rice]]"]
+products: []
 matrices: [rice-grain, brown-rice, rice-husk, paddy-soil]
 jurisdictions: [CN, global]
 near_duplicates: []

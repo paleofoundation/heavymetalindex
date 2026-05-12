@@ -12,7 +12,7 @@ evidence_tier: A
 license: "not specified (OA)"
 raw_path: raw/markdown/FM_11844342/FM_11844342.md
 metals: [tHg, MeHg]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/lake-whitefish]]", "[[ingredients/northern-pike]]", "[[ingredients/lake-trout]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]", "[[ingredients/fish]]", "[[ingredients/fish]]"]
 products: []
 matrices: [fish-tissue, freshwater, dietary-intake]
 jurisdictions: [CA]

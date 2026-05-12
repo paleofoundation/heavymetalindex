@@ -14,7 +14,7 @@ sha256: 75277429df4ab9cae5b91c476c9437ed795d7ad3ca3b7a458098fdbda1810bae
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1038/s41598-021-91554-z"
 metals: [Cd, Pb]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/carrot]]", "[[ingredients/apple]]", "[[ingredients/berry]]"]
+ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/carrot]]", "[[ingredients/apple]]", "[[ingredients/fruit]]"]
 products: []
 matrices: [fresh-vegetable, frozen-vegetable, dried-vegetable, fresh-fruit, frozen-fruit, dried-fruit, processed-fruit, processed-vegetable]
 jurisdictions: [PL]

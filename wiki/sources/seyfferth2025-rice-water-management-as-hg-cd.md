@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY-NC-ND"
 raw_path: raw/markdown/FM_12344449/FM_12344449.md
 metals: [iAs, tAs, tHg, MeHg, Cd]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/rice-bran]]"]
-products: ["[[products/infant-rice-cereal]]"]
+ingredients: ["[[ingredients/rice]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [rice-grain, rice-bran, rice-husk, rice-straw, rice-root, porewater]
 jurisdictions: [US, CODEX]
 near_duplicates: []

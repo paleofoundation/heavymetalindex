@@ -4,8 +4,20 @@ op: triage
 date: 2026-05-12
 scope: routing_unresolved
 initial_count: 256
-final_count: 37
-status: complete
+final_count: 46
+status: in-progress
+passes:
+  - pass: 1
+    initial_count: 256
+    final_count: 37
+    files_modified: 74
+    rows_resolved: 219
+  - pass: 2
+    initial_count: 93
+    final_count: 46
+    files_modified: 30
+    rows_resolved: 47
+    note: "Second-pass triage of new ingest entries from seasonal-geographic-variance batch (2026-05-12)"
 ---
 
 # Routing-Unresolved Triage — 2026-05-12
@@ -178,8 +190,62 @@ All 256 entries were genuine unresolved slugs (the routing audit was not too str
 | Product slug remaps applied | 39 |
 | Product slug removals applied | 20 |
 | Product array expansions | 2 |
-| **Total rows resolved** | **219** |
-| Remaining (new-page proposals) | 37 |
-| New-page proposals for Karen | 5 |
+| **Total rows resolved (pass 1)** | **219** |
+| **Total rows resolved (pass 2)** | **47** |
+| **Total rows resolved (cumulative)** | **266** |
+| Remaining (new-page proposals) | 46 |
+| New-page proposals for Karen | 6 |
 
-The 37 remaining entries in `data/evidence/routing_unresolved.csv` will resolve when Karen approves and creates the 5 proposed pages: `ingredients/breastmilk`, `ingredients/cereals`, `ingredients/shellfish`, `ingredients/freshwater-fish`, `products/seafood`.
+The 46 remaining entries will resolve when Karen approves and creates the 6 proposed pages: `ingredients/breastmilk`, `ingredients/cereals`, `ingredients/shellfish`, `ingredients/freshwater-fish`, `ingredients/quinoa`, `products/seafood`.
+
+---
+
+## Pass 2 — 2026-05-12 (seasonal-geographic-variance batch)
+
+The second ingest pass (seasonal-geographic-variance batch) added 56 new unresolved entries, bringing the total from 37 to 93. After pass 2 triage, the count is back to 46 (all above-threshold new-page proposals). 30 source files were modified across the following categories.
+
+### Frontmatter convention drift fixes (pass 2)
+
+| Broken slug | Correct slug | Source count |
+|---|---|---|
+| `leafy-vegetables` | `leafy-greens` | 3 (ametepey2018, romero-crespo2023, rusin2021) |
+| `onion` | `onions` | 1 (ametepey2018) |
+| `sunflower-seed` | `sunflower-seeds` | 1 (fu2022) |
+| `potato` | `potatoes` | 1 (romero-crespo2023) |
+| `dairy` | `milk-and-dairy` | 1 (erol2025) |
+| `tea` | `camellia-sinensis` | 9 (brzezicha2016, fan2025, hu2023, kazeminia2023, li2013, li2015, li2021, yaqub2018, zhang2018) |
+| `tea` | `camellia-sinensis` + `herbal-botanicals` | 1 (salmani2023 — mixed camellia sinensis and herbal scope; expanded to two slugs) |
+| `infant-cereal` (product) | `baby-cereals-dry-rice-based` | 3 (carey2015, cr-fsasc2014, signes-pastor2017) |
+| `infant-rice-cereal` (product) | `baby-cereals-dry-rice-based` | 6 (carey2018, efsa2021, efsa2024, fda2013, fda2018, seyfferth2025) |
+
+### Below-threshold redirects to parent pages (pass 2)
+
+| Slug | → Parent | Source | Rationale |
+|---|---|---|---|
+| `wheat-flour` | `wheat` | asaditouranlou2025 | Processed form of wheat; 1 paper |
+| `bread` | `wheat` | asaditouranlou2025 | Baked wheat product; 1 paper |
+| `brown-rice` | removed (already has `rice`) | dai2025 | Redundant; rice.md covers all rice types |
+| `rice-bran` | removed (already has `rice`) | seyfferth2025 | Sub-fraction of rice; 1 paper |
+| `mushrooms` | `wild-mushrooms` | cfia2025 | Generic mushrooms → closest existing parent |
+| `spices` | `herbal-botanicals` | cfia2025 | Culinary spices; 1 paper |
+| `cheese` | `milk-and-dairy` | erol2025 | Sub-type; 1 paper |
+| `breakfast-cereals` (product) | removed | hassan2025 | No parent product page; 1 paper; routed via `corn` ingredient instead |
+| `corn-flour` | `corn` | hassan2025 | Corn-derived; 1 paper |
+| `lake-whitefish` | `fish` | jermilova2025 | Species-level; routes to `freshwater-fish` once that page is created |
+| `northern-pike` | `fish` | jermilova2025 | Species-level |
+| `lake-trout` | `fish` | jermilova2025 | Species-level |
+| `durum-wheat` | removed (already has `wheat`) | maccaferri2019 | Sub-species; wheat.md covers durum |
+| `pasta` (product) | moved to ingredients | maccaferri2019 | `pasta.md` exists as ingredient page; was incorrectly declared as product |
+| `rice-products` (product) | removed | dai2025 | No parent product page; soil-science paper routes via `rice` ingredient |
+| `rice-protein-powder` (product) | removed | fda2013 | Below threshold (1 source); routes via `rice` ingredient |
+| `seaweed` | `seafood` | nour2025 | Marine-origin food; 1 paper; no dedicated algae parent page |
+| `small-indigenous-fish` | `fish` | paul2025 | Species-level; 1 paper |
+| `berry` | `fruit` | rusin2021 | Fruit sub-type; 1 paper |
+| `sardine` | `fish` | venant2025 | Species-level; 1 paper |
+| `camel-milk` | `milk-and-dairy` | yazdanian2025 | Dairy sub-type; 1 paper |
+
+### New-page proposals added in pass 2
+
+`ingredients/quinoa` — **6 papers** (bedoya-perales2023, ccopi2026, cr-fsasc2014, gul2024, roman-ochoa2021, rosales-huamani2023). Andean grain with distinct heavy metal profile, particularly Cd via high-altitude Andean soils. Six papers all specifically measure quinoa as a distinct commodity. Above threshold. Sources include both Peruvian field studies and a broad Consumer Reports grain survey. Proposed slug: `quinoa`.
+
+The other 5 proposals from pass 1 remain open with updated source counts: `freshwater-fish` now has 9 sources (was 6; added auzier-guimaraes2025, jermilova2025, venant2025 in this batch).

@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12406078/FM_12406078.md
 metals: [Cd, Pb]
-ingredients: ["[[ingredients/sardine]]", "[[ingredients/freshwater-fish]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]"]
 products: []
 matrices: [fish-muscle, dried-fish, fresh-fish]
 jurisdictions: [TZ, CODEX]

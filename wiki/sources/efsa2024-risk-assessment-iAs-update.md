@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.2903/j.efsa.2024.8488"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/infant-rice-cereal]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [rice, rice-based-products, grain-based-products, drinking-water, dietary-intake]
 jurisdictions: [EU]
 sample_n: 20

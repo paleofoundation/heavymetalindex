@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1371/journal.pone.0131608"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/infant-cereal]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [rice-grain, rice-cooked]
 jurisdictions: [GB, US, IN, PK, BD]
 sample_n: 41

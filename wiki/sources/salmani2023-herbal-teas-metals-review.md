@@ -14,7 +14,7 @@ sha256: 84da7c5759a288e0704181f5071b7edc9ac765910d8c441b052ff3b3726e5b65
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1007/s12011-023-03698-w"
 metals: [Pb, Cd, tAs, Al, Cr, Ni]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]", "[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [herbal-tea-dried, black-tea, green-tea, chamomile, thyme, rosemary]
 jurisdictions: [IR, TR, CN, SA, IN, IT, RS, US, BR]

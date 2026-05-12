@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: null
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/quinoa]]"]
-products: ["[[products/infant-cereal]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [white-rice, brown-rice, basmati-rice, jasmine-rice, sushi-rice, infant-cereal, alternative-grains]
 jurisdictions: [US]
 sample_n: 697

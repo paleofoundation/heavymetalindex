@@ -14,7 +14,7 @@ sha256: e0e61503fa3748f5244f6ecbd92a384929a96b7df4a1380cb2dea51e1de12edd
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1007/s10661-016-5157-y"
 metals: [Cd, Pb, Cr, Ni, Cu, Zn, Co, Mn, Fe]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [tea-leaves, tea-infusion]
 jurisdictions: [CN, IN, JP, global]

@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12286368/FM_12286368.md
 metals: [tAs, Al, Cr, Cd, Ni, Pb, Hg]
-ingredients: ["[[ingredients/wheat-flour]]", "[[ingredients/bread]]"]
+ingredients: ["[[ingredients/wheat]]"]
 products: []
 matrices: [wheat-flour, bread]
 jurisdictions: [IR]

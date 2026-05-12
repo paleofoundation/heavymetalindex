@@ -14,7 +14,7 @@ sha256: b92d4c2c046426ea38c2661e42c5cec731eef6dc7461550368527a008c8f8f51
 access_date: 2026-05-12
 access_url: "https://doi.org/10.3389/fpls.2022.854386"
 metals: [Cd]
-ingredients: ["[[ingredients/sunflower-seed]]"]
+ingredients: ["[[ingredients/sunflower-seeds]]"]
 products: []
 matrices: [sunflower-shoot, sunflower-root]
 jurisdictions: [CN, UA]

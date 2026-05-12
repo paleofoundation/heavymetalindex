@@ -14,7 +14,7 @@ sha256: 2a11f5d213e9b03f9b36039b8eb8a018cd2dcdd66f98085fa1204eea85189064
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1590/fst.07417"
 metals: [Zn, Cr, Cu, Mn, Co]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [tea-leaves, tea-dry]
 jurisdictions: [PK]

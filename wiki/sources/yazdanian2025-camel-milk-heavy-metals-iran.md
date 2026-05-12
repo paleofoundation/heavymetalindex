@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12482525/FM_12482525.md
 metals: [Pb, Cd, tAs]
-ingredients: ["[[ingredients/camel-milk]]"]
+ingredients: ["[[ingredients/milk-and-dairy]]"]
 products: []
 matrices: [camel-milk, raw-milk]
 jurisdictions: [IR]

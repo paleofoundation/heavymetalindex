@@ -14,7 +14,7 @@ sha256: 1d7b84c8696a98ff4c662c6901dd5c4b26d3051409f311e86d85831bc8ffa0d5
 access_date: 2026-05-12
 access_url: "https://doi.org/10.3390/ijerph15010133"
 metals: [Al, Pb, Cd, tHg, tAs, Cr, Ni]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [tea-leaves-young, tea-leaves-mature, soil]
 jurisdictions: [CN]

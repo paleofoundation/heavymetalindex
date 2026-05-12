@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12440808/FM_12440808.md
 metals: [Cr, Ni, tAs, Cd, Pb]
-ingredients: ["[[ingredients/seaweed]]"]
+ingredients: ["[[ingredients/seafood]]"]
 products: []
 matrices: [seaweed, marine-plant]
 jurisdictions: [DJ]

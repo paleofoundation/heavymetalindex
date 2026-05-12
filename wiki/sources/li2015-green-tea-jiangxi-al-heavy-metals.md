@@ -14,7 +14,7 @@ sha256: f056dcea720b0ae9a777c5337b81b2eb7159fb18a11c1db4a5e719a7cda7345a
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1007/s10661-015-4445-2"
 metals: [Al, Cd, Cr, Ni, Pb]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [green-tea-leaves, tea-infusion]
 jurisdictions: [CN]

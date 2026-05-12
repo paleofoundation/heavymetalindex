@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12407486/FM_12407486.md
 metals: [tAs]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/small-indigenous-fish]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
 products: []
 matrices: [fish-muscle, freshwater, sediment]
 jurisdictions: [BD]

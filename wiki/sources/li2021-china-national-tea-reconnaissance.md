@@ -14,7 +14,7 @@ sha256: 7b1bfce635031b2e0eb098ca3eaa65f945f69d38b9c27ada1c8c1a0391bad115
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1016/j.scitotenv.2021.148354"
 metals: [tAs, Cd, Cr, Cu, Mn, Pb, Zn, Ni]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [tea-leaves, rhizosphere-soil, bulk-soil]
 jurisdictions: [CN]

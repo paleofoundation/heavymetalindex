@@ -14,7 +14,7 @@ sha256: d3b663a364c1b8d927a71f9b1bd343f194e39e224c84d97c24e8e6202e48fcbc
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1016/j.foodres.2012.12.048"
 metals: [Pb, Cd, tAs, Cr, Cu]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [green-tea, black-tea, oolong-tea, tea-infusion, tea-leaves]
 jurisdictions: [CN, IN, TR]

@@ -14,7 +14,7 @@ sha256: 4d855098910e776b191bd9d36e97f09a79a207476e9ab8d9a2ffc7393e3642d8
 access_date: 2026-05-12
 access_url: "https://inspection.canada.ca/food-safety-for-industry/food-chemistry-and-microbiology/food-safety-testing-bulletin-and-reports/targeted-surveys/toxic-metals-in-selected-foods/eng/1741104432441/1741104432988"
 metals: [tAs, Cd, Pb, tHg]
-ingredients: ["[[ingredients/mushrooms]]", "[[ingredients/spices]]"]
+ingredients: ["[[ingredients/wild-mushrooms]]", "[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [dried-mushroom, spices, juices-and-nectars, sugar-and-syrups, sweets, vinegar, duck-eggs]
 jurisdictions: [CA]

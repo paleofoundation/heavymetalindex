@@ -14,7 +14,7 @@ sha256: 78c69f799e02f2c341de3f0a22f086f58751c3d29ceb32f6ae244e908bfb9cb4
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1007/s10653-023-01514-x"
 metals: [As, Cd, Cr, Cu, Ni, Pb, Zn]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/potato]]", "[[ingredients/corn]]"]
+ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/potatoes]]", "[[ingredients/corn]]"]
 products: []
 matrices: [crop-grain, root-vegetable, leafy-vegetable, mining-area-soil]
 jurisdictions: [EC]
