@@ -51,8 +51,7 @@
     "evidence:source-routes": "node tools/evidence/build-routing-audit.mjs",
     "watch:sources": "node tools/watch-sources.mjs",
     "wishlist:parse": "node tools/wishlist/parse-wishlist.mjs",
-    "wishlist:find": "node tools/wishlist/find-candidates.mjs",
-    "wishlist:download": "node tools/wishlist/download-candidates.mjs",
+    "wishlist:fetch": "node tools/wishlist/parse-wishlist.mjs && node tools/wishlist/find-candidates.mjs",
     "prepare": "husky"
   },
   "engines": {
