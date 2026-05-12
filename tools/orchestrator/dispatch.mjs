@@ -58,30 +58,34 @@ const runId = `${actionId}-${new Date().toISOString().replace(/[:.]/g, "-")}`
 const logPath = path.join(logsDir, `${runId}.log`)
 const resultPath = path.join(logsDir, `${runId}.result.json`)
 
-// Tool whitelist + denylist for unattended runs. Permissive on file edits
-// and routine bash; strict on destructive operations.
+// Tool denylist. Each pattern must be its own argv item per Commander
+// variadic-args parsing (claude CLI uses --disallowedTools <tools...>).
+// Variadic args consume everything after them until the next flag, so the
+// prompt is passed via stdin instead of argv to avoid being consumed.
 const disallowedTools = [
   "Bash(rm -rf *)",
   "Bash(git push --force*)",
   "Bash(git reset --hard*)",
   "Bash(git clean -*f*)",
-].join(" ")
+]
 
+// NOTE: --add-dir is intentionally omitted. The subprocess runs with cwd
+// set to repoRoot, so it has access to everything under the repo by default.
+// Passing --add-dir on directories inside cwd causes Claude Code to enumerate
+// them at startup; on this repo, raw/ has 23K+ FM_XXXXX folders and the
+// enumeration hangs the subprocess for many minutes before any task output.
 const claudeArgs = [
   "--print",
   "--dangerously-skip-permissions",
   "--model", model,
   "--max-turns", String(maxTurns),
-  "--disallowedTools", disallowedTools,
-  "--add-dir", path.join(repoRoot, "raw"),
-  "--add-dir", path.join(repoRoot, "data"),
-  "--add-dir", path.join(repoRoot, "tools"),
-  prompt,
+  "--disallowedTools", ...disallowedTools,
 ]
 
 if (dryRun) {
-  console.log("Dry run — would invoke:")
-  console.log(`  claude ${claudeArgs.map((a) => (a.includes(" ") || a.includes("\n") ? `"${a.slice(0, 60).replace(/\n/g, " ")}..."` : a)).join(" ")}`)
+  console.log("Dry run — would invoke (prompt piped via stdin):")
+  console.log(`  claude ${claudeArgs.map((a) => (a.includes(" ") ? `"${a}"` : a)).join(" ")}`)
+  console.log(`Prompt length: ${prompt.length} chars (first 80: "${prompt.slice(0, 80).replace(/\n/g, " ")}...")`)
   console.log(`Log path: ${logPath}`)
   console.log(`Result path: ${resultPath}`)
   process.exit(0)
@@ -94,8 +98,12 @@ const startedAt = Date.now()
 const child = spawn("/opt/homebrew/bin/claude", claudeArgs, {
   cwd: repoRoot,
   env: process.env,
-  stdio: ["ignore", "pipe", "pipe"],
+  stdio: ["pipe", "pipe", "pipe"],
 })
+
+// Pipe the prompt through stdin so variadic args don't consume it.
+child.stdin.write(prompt)
+child.stdin.end()
 
 const logStream = fs.createWriteStream(logPath)
 let stdoutBytes = 0
