@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-12] batch | p2-sub3 (50 handles attempted) — 3 source pages created; 47 handles not in filesystem
+Pages touched: [[sources/cantoral2024-lead-levels-mexican-foods]], [[sources/bousquet2024-lead-drinking-water-university]], [[sources/atanasov2024-sers-ammonium-nitrate-aln]]
+Notes: P2 sub-batch 3 attempted 50 handles. Only 3 existed in raw/markdown. FM_11125852 (Cantoral 2024, Toxics) ingested as a P1-grade food concentration paper — Pb in 103 Mexican foods, including infant rice cereal at 1,005 ppb and soy infant formula at 35 ppb by GF-AAS; reclassification P2 to P1 recommended. FM_11120698 (Bousquet 2024, IJERPH) ingested as an environmental paper on Pb in drinking water at UNC-CH; not a food matrix paper. FM_11123258 (Atanasov 2024, Materials) is a materials science SERS false positive; no food data. Remaining 47 handles (FM_11134948 through FM_12231472) are absent from both raw/markdown and triage manifest; likely from raw 2/ directory not yet imported. Batch report: [[batch-reports/p2-sub3-report]].
+
 ## [2026-05-12] batch | p2-sub2 (50 handles attempted) — 1 source page created; 45 handles not in corpus
 Pages touched: [[sources/kayani2025-hg-ratiometric-carbon-dots-water]]
 Notes: P2 sub-batch 2 attempted 50 handles. Only 4 existed in filesystem/manifest. FM_12522116 (Kayani 2025, RSC Advances) ingested as an analytical method source page for Hg2+ ratiometric fluorescence detection in water (LOD 60 nM). FM_12526837 (glucose biosensor) and FM_12538560 (ascorbic acid colorimetric in juice) skipped as false positives; FM_11044589 (drinking water chemical prioritization, EST 2024) skipped as out-of-scope for food wiki. Remaining 45 handles are not in the triage manifest and not in raw/markdown/; they cannot be processed. These handles appear to be from a second ingest wave not yet Marker-converted. See /tmp/p2_sub2_report.md for full table. No food concentration data found in this batch; no values.jsonl entries. testing/mercury-detection-methods page needs kayani2025 added when created.
