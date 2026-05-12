@@ -29,8 +29,9 @@ Items where Karen owns the next move. Claude does not act on these without Karen
 
 ### Awaiting Karen's external action
 
-- [ ] Drop materials into `raw/manual-fetch/seasonal-geographic-variance/` per the wishlist as they become available. See [the wishlist](raw/manual-fetch/seasonal-geographic-variance/wishlist.md) for the current open gaps.
+- [ ] Continue dropping materials into `raw/manual-fetch/seasonal-geographic-variance/` per the wishlist as they become available. See [the wishlist](raw/manual-fetch/seasonal-geographic-variance/wishlist.md) for the current open gaps. (First wave of 60 files dropped 2026-05-12 — see Karen's completed list below.)
 - [ ] Get real-world feedback from stakeholders when she has a channel (retailers, brand QA leads, brand counsel). Per OPERATING.md Part 2, Claude designs against the public-record persona until Karen has a feedback channel.
+- [ ] **Review `data/evidence/wishlist-candidates.csv`** and mark the `approved` column with yes/no/skip per row. The CSV is the output of `npm run wishlist:find` — currently 320 candidates across 40 wishlist queries, with a `recommendation` column pre-scored as yes (strong/likely match), review (weak match), or skip. After Karen marks approvals, running `npm run wishlist:download` pulls the approved open-access PDFs into the manual-fetch staging folder for the next ingest session.
 
 ---
 
@@ -44,7 +45,9 @@ Items Claude is working through. Picked up in priority order from the top of eac
 
 ### Next up
 
-1. [ ] Triage the 199 unresolved entries in `data/evidence/routing_unresolved.csv`. Categorize each as: frontmatter typo (Claude fixes), new-page proposal (Karen approves), or detector bug in the routing audit (Claude fixes the detector). One-time pass; the watcher + hook keep the count low going forward. Estimated 1-2 hours.
+1. [ ] Ingest the ~60 PDFs Karen dropped 2026-05-12 into `raw/manual-fetch/seasonal-geographic-variance/`. Each produces a source page per CLAUDE.md Part 8; routing audit fans them out automatically. High-value standouts: FDA juice/cereal arsenic datasets, cocoa cadmium series (Ecuadorian by province, LatAm & Caribbean, US dark chocolate multi-year), Peruvian Andes crops + quinoa, Chinese tea series. Closes a third of the v0 wishlist in one wave.
+
+2. [ ] Triage the 199 unresolved entries in `data/evidence/routing_unresolved.csv`. Categorize each as: frontmatter typo (Claude fixes), new-page proposal (Karen approves), or detector bug in the routing audit (Claude fixes the detector). One-time pass; the watcher + hook keep the count low going forward. Best done in the same session block as the 60-file ingest above so the audit catches new unresolved entries from those drops at the same time. Estimated 1-2 hours.
 
 2. [ ] Routing layer Phase 3: implement `exposure_only` and `regulatory_context` route_kind categorization. Currently the audit emits 4 of the 6 Part 5b route_kinds; the other two are reserved but not yet recognized. Adds intake/biomarker studies and regulation-citation patterns as distinct routes.
 
@@ -88,3 +91,9 @@ Items Claude is working through. Picked up in priority order from the top of eac
 - [x] `.claude/settings.local.json` updated for the auto-continue ask: `defaultMode: "acceptEdits"`, broad Bash allowlist, explicit deny floor (local only; not committed because .claude/ is gitignored).
 - [x] TODO.md created at repo root with Karen's and Claude's working backlogs (this commit).
 - [x] Stakeholder guide replication to 30 non-formula product pages via `tools/apply-stakeholder-guides.mjs` (commit `70d169a` plus base-variant fix `3b7c516`). Per-family brand-legal attack-vector framing for baby cereals, purees, mixed meals, teething/snacks, fruit and vegetable juices, plant milks, tea family, beverages, and specialty pediatric matrices.
+- [x] Wishlist automated paper retrieval — `tools/wishlist/{parse-wishlist,find-candidates,download-candidates}.mjs`, three npm scripts (`wishlist:parse`, `wishlist:find`, `wishlist:download`), OpenAlex API integration with word-boundary metal-code extraction (commit `4b672ab`). v0 produced 320 candidates across 40 wishlist queries.
+- [x] Cowork CLAUDE.md consistency audit committed as historical record (commit `90bc4d1`). Most findings closed this week; remaining ones catalogued in the "Queued" section of this file.
+
+### Karen's recently completed
+
+- [x] Dropped 60 PDFs into `raw/manual-fetch/seasonal-geographic-variance/` 2026-05-12. ~115 MB. Closes ~1/3 of v0 wishlist on a first wave; substantial coverage on cocoa Cd by Latin American origin, FDA juice/cereal arsenic datasets, Peruvian Andes crops, Chinese tea series, UK total diet study, dark chocolate multi-year US analysis.
