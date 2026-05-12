@@ -1,0 +1,275 @@
+#!/usr/bin/env node
+// Builds the public-facing corpus-scope counter rendered on the homepage.
+//
+// Counts every page in wiki/sources/, wiki/ingredients/, wiki/products/,
+// wiki/metals/, and wiki/regulations/, plus the structured evidence layer
+// at data/evidence/values.jsonl, plus the routing audit row count. Emits a
+// marker-bounded HTML block at wiki/index.md so regulators, brand legal
+// teams, retailers, and journalists landing on the homepage see the scale
+// of the indexed corpus before they navigate anywhere.
+//
+// The counter is rebuilt on every prebuild run so the homepage stays
+// current as the bulk ingest fills out the corpus. Counts are derived
+// strictly from on-disk frontmatter and the structured-evidence layer;
+// no hand-maintained tallies.
+
+import fs from "node:fs"
+import path from "node:path"
+import matter from "gray-matter"
+
+const repoRoot = process.cwd()
+const sourcesDir = path.join(repoRoot, "wiki/sources")
+const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
+const productsDir = path.join(repoRoot, "wiki/products")
+const metalsDir = path.join(repoRoot, "wiki/metals")
+const regulationsDir = path.join(repoRoot, "wiki/regulations")
+const valuesPath = path.join(repoRoot, "data/evidence/values.jsonl")
+const routingAuditPath = path.join(repoRoot, "data/evidence/product_source_routing_audit.csv")
+const homepagePath = path.join(repoRoot, "wiki/index.md")
+
+const beginMarker = "<!-- BEGIN: hmi-corpus-counter -->"
+const endMarker = "<!-- END: hmi-corpus-counter -->"
+
+// Source-type normalization map. The on-disk vocabulary has accumulated
+// spelling drift over time; the counter normalizes to a canonical set so
+// the public-facing counts are unambiguous.
+const sourceTypeMap = new Map([
+  ["peer-reviewed", "peer_reviewed"],
+  ["study", "peer_reviewed"],
+  ["systematic-review", "peer_reviewed"],
+  ["review-chapter", "peer_reviewed"],
+  ["meta-analysis", "peer_reviewed"],
+  ["textbook-chapter", "textbook"],
+  ["gov-report", "government"],
+  ["government_report", "government"],
+  ["government-report", "government"],
+  ["government_dataset", "government"],
+  ["gov-data", "government"],
+  ["gov-guidance", "government"],
+  ["government_documentation", "government"],
+  ["regulation", "government"],
+  ["ngo-report", "ngo_industry"],
+  ["industry-report", "ngo_industry"],
+  ["news-commentary", "news"],
+  ["news", "news"],
+])
+
+const counts = {
+  source_pages_total: 0,
+  source_peer_reviewed: 0,
+  source_government: 0,
+  source_textbook: 0,
+  source_ngo_industry: 0,
+  source_news: 0,
+  source_other: 0,
+  source_evidence_tier_a: 0,
+  source_evidence_tier_b: 0,
+  source_evidence_tier_c: 0,
+  source_evidence_tier_unknown: 0,
+  source_databases_indexed: 0,
+  ingredient_pages: 0,
+  product_pages: 0,
+  metal_pages: 0,
+  regulation_pages: 0,
+  structured_value_records: 0,
+  routing_rows: 0,
+  jurisdictions_indexed: 0,
+}
+
+const jurisdictionSet = new Set()
+const databaseSet = new Set()
+
+// Patterns that mark a source page as a recurring dataset (database extract)
+// rather than a one-off study or report. These add a separate "databases
+// indexed" axis to the counter so regulators see that the corpus draws on
+// programmatic monitoring data, not just individual papers.
+const databasePatterns = [
+  /\btds\b/i, // FDA / EFSA Total Diet Study
+  /\bgems\b/i, // WHO GEMS/Food
+  /\bcompliance\b/i, // FDA compliance datasets
+  /\bsurvey\b/i, // formal surveys (FDA special survey, FSA surveys)
+  /\bsurveillance\b/i,
+  /\bmonitoring\b/i,
+  /fy\d{4}/i, // fiscal-year tagged datasets
+  /-tds-/i,
+  /^fda\d{4}-(infant|baby|juice|food|toxic|compliance|survey|tds|special|analytical)/i,
+  /^efsa-?\d/i,
+  /^fsa\d{4}-/i,
+  /^who-?(gems|tds)/i,
+  /^codex-/i,
+  /^atsdr-/i,
+]
+
+for (const file of fs.readdirSync(sourcesDir).sort()) {
+  if (!file.endsWith(".md")) continue
+  if (file === "index.md" || file === "_TEMPLATE.md") continue
+  counts.source_pages_total += 1
+  const raw = fs.readFileSync(path.join(sourcesDir, file), "utf8")
+  const fm = matter(raw).data
+  const cite = String(fm.cite_key || path.basename(file, ".md"))
+  const rawType = String(fm.source_type || "").trim().toLowerCase()
+  const normalized = sourceTypeMap.get(rawType) || (rawType ? "other" : "other")
+  switch (normalized) {
+    case "peer_reviewed":
+      counts.source_peer_reviewed += 1
+      break
+    case "government":
+      counts.source_government += 1
+      break
+    case "textbook":
+      counts.source_textbook += 1
+      break
+    case "ngo_industry":
+      counts.source_ngo_industry += 1
+      break
+    case "news":
+      counts.source_news += 1
+      break
+    default:
+      counts.source_other += 1
+  }
+  const tier = String(fm.evidence_tier || "").trim().toUpperCase()
+  if (tier === "A") counts.source_evidence_tier_a += 1
+  else if (tier === "B") counts.source_evidence_tier_b += 1
+  else if (tier === "C") counts.source_evidence_tier_c += 1
+  else counts.source_evidence_tier_unknown += 1
+
+  if (databasePatterns.some((pattern) => pattern.test(cite))) {
+    databaseSet.add(cite)
+  }
+  for (const jurisdiction of asArray(fm.jurisdictions)) {
+    const code = String(jurisdiction).trim()
+    if (code) jurisdictionSet.add(code.toUpperCase())
+  }
+}
+
+counts.source_databases_indexed = databaseSet.size
+counts.jurisdictions_indexed = jurisdictionSet.size
+
+counts.ingredient_pages = countMarkdownPages(ingredientsDir, ["index.md"])
+counts.product_pages = countMarkdownPages(productsDir, ["index.md"])
+counts.metal_pages = countMarkdownPages(metalsDir, ["index.md"])
+counts.regulation_pages = countMarkdownPages(regulationsDir, ["index.md"])
+
+if (fs.existsSync(valuesPath)) {
+  const text = fs.readFileSync(valuesPath, "utf8")
+  counts.structured_value_records = text.split("\n").filter((line) => line.trim().length > 0).length
+}
+
+if (fs.existsSync(routingAuditPath)) {
+  const text = fs.readFileSync(routingAuditPath, "utf8")
+  counts.routing_rows = Math.max(text.split("\n").filter((line) => line.trim().length > 0).length - 1, 0)
+}
+
+const today = new Date().toISOString().slice(0, 10)
+const block = renderBlock(counts, today)
+
+upsertHomepageBlock(homepagePath, block)
+console.log(
+  `Wrote corpus counter: ${counts.source_pages_total} source pages (${counts.source_peer_reviewed} peer-reviewed, ${counts.source_government} government, ${counts.source_databases_indexed} databases, ${counts.source_evidence_tier_a} A-tier), ${counts.ingredient_pages} ingredients, ${counts.product_pages} products, ${counts.metal_pages} metals, ${counts.regulation_pages} regulations, ${counts.structured_value_records} structured records, ${counts.routing_rows} routing rows, ${counts.jurisdictions_indexed} jurisdictions.`,
+)
+
+function renderBlock(c, refreshDate) {
+  return `${beginMarker}
+<section class="hmi-home-corpus-counter" aria-label="Corpus scope">
+  <div class="hmi-home-corpus-counter-label">Corpus indexed</div>
+  <dl class="hmi-home-corpus-counter-grid">
+    <div>
+      <dt>Peer-reviewed studies</dt>
+      <dd>${fmt(c.source_peer_reviewed)}</dd>
+    </div>
+    <div>
+      <dt>Government reports and datasets</dt>
+      <dd>${fmt(c.source_government)}</dd>
+    </div>
+    <div>
+      <dt>Programmatic databases indexed</dt>
+      <dd>${fmt(c.source_databases_indexed)}</dd>
+      <small>FDA TDS, FDA baby-food compliance, EFSA, FSA, WHO GEMS, and similar recurring monitoring data extracts.</small>
+    </div>
+    <div>
+      <dt>A-tier curated sources</dt>
+      <dd>${fmt(c.source_evidence_tier_a)}</dd>
+      <small>Peer-reviewed primary studies and government reports per CLAUDE.md Part 13.</small>
+    </div>
+    <div>
+      <dt>Structured evidence records</dt>
+      <dd>${fmt(c.structured_value_records)}</dd>
+      <small>Per-value entries in the evidence layer with basis, species, unit, and statistic-type metadata.</small>
+    </div>
+    <div>
+      <dt>Jurisdictions covered</dt>
+      <dd>${fmt(c.jurisdictions_indexed)}</dd>
+    </div>
+    <div>
+      <dt>Ingredient profiles</dt>
+      <dd>${fmt(c.ingredient_pages)}</dd>
+    </div>
+    <div>
+      <dt>Product categories</dt>
+      <dd>${fmt(c.product_pages)}</dd>
+    </div>
+    <div>
+      <dt>Metal profiles</dt>
+      <dd>${fmt(c.metal_pages)}</dd>
+    </div>
+    <div>
+      <dt>Regulation pages</dt>
+      <dd>${fmt(c.regulation_pages)}</dd>
+    </div>
+  </dl>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: ${refreshDate}. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">/sources/</a>.</p>
+</section>
+${endMarker}`
+}
+
+function fmt(value) {
+  return new Intl.NumberFormat("en-US").format(value)
+}
+
+function countMarkdownPages(dir, skipFiles) {
+  if (!fs.existsSync(dir)) return 0
+  const skip = new Set(skipFiles)
+  return fs
+    .readdirSync(dir)
+    .filter((file) => file.endsWith(".md") && !skip.has(file))
+    .filter((file) => !file.startsWith("_"))
+    .length
+}
+
+function asArray(value) {
+  if (Array.isArray(value)) return value
+  if (value === null || value === undefined || value === "") return []
+  return [value]
+}
+
+function upsertHomepageBlock(filePath, block) {
+  if (!fs.existsSync(filePath)) {
+    console.error(`Homepage not found at ${filePath}`)
+    process.exit(1)
+  }
+  const text = fs.readFileSync(filePath, "utf8")
+  const pattern = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`)
+
+  let next
+  if (pattern.test(text)) {
+    next = text.replace(pattern, block)
+  } else {
+    // Insert after the hero section, before the feature grid. If the hero
+    // section isn't where expected, append at the end of the file.
+    const heroEnd = text.indexOf("</section>", text.indexOf('class="hmi-home-hero"'))
+    if (heroEnd >= 0) {
+      const insertAt = heroEnd + "</section>".length
+      next = `${text.slice(0, insertAt)}\n\n${block}\n${text.slice(insertAt)}`
+    } else {
+      next = `${text.trimEnd()}\n\n${block}\n`
+    }
+  }
+
+  if (next === text) return
+  fs.writeFileSync(filePath, next, "utf8")
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}

@@ -13,7 +13,7 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs",
+    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs && node tools/build-corpus-counter.mjs",
     "build": "./quartz/bootstrap-cli.mjs build -d wiki -o public",
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",
     "check": "tsc --noEmit",

@@ -1318,6 +1318,83 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
   z-index: 3;
 }
 
+.hmi-home-corpus-counter {
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  margin: 0 0 3.25rem;
+  padding: 1.5rem 1.6rem;
+}
+
+.hmi-home-corpus-counter-label {
+  color: var(--secondary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.1rem;
+  text-transform: uppercase;
+}
+
+.hmi-home-corpus-counter-grid {
+  display: grid;
+  gap: 0.95rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  margin: 0 0 1.1rem;
+}
+
+.hmi-home-corpus-counter-grid > div {
+  border-left: 2px solid var(--secondary);
+  padding: 0.2rem 0 0.2rem 0.85rem;
+}
+
+.hmi-home-corpus-counter-grid dt {
+  color: var(--gray);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+}
+
+.hmi-home-corpus-counter-grid dd {
+  color: var(--dark);
+  font-family: var(--codeFont);
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.hmi-home-corpus-counter-grid small {
+  color: var(--gray);
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  margin-top: 0.35rem;
+}
+
+.hmi-home-corpus-counter-meta {
+  color: var(--gray);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.hmi-home-corpus-counter-meta a {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .hmi-home-corpus-counter {
+    padding: 1.1rem 1.1rem;
+  }
+
+  .hmi-home-corpus-counter-grid dd {
+    font-size: 1.3rem;
+  }
+}
+
 .hmi-home-feature-grid {
   display: grid;
   gap: 1.1rem;
