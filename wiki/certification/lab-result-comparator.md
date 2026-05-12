@@ -1,19 +1,21 @@
 ---
 title: Lab Result Comparator
 type: brand-pre-screen-tool
-description: A staff pre-screen for comparing product lab results with structured Heavy Metal Index evidence context.
-updated: 2026-04-30
+description: A brand-facing pre-screen for comparing finished-product heavy-metal results with the cited literature and applicable regulatory caps.
+updated: 2026-05-12
 noindex: true
 ---
 
-Use this page as an internal staff pre-screen when a brand, researcher, or reviewer submits finished-product heavy-metal results for comparison with structured Heavy Metal Index evidence context.
+This page is a literature comparator for finished-product heavy-metal results. It is intended for brand QA leads, retailer assortment reviewers, and analytical-method engineers who want a fast read on whether a single laboratory value sits inside the range reported by cited peer-reviewed and government sources for the relevant product category, and how that value compares to the applicable regulatory ceiling.
 
 ## How To Read The Output
 
-The comparator uses the same structured evidence layer that supports the staff standards workbench. It may show percentile-style context when the underlying evidence is sufficient, but those values are internal review aids rather than public limits.
+The comparator reports literature evidence in literature-native terms. For each of the ten HMT&C analytes, it shows the reported concentration range across cited sources, the cited source count, a confidence rating, and the applicable regulatory cap with its scope and basis. When a brand value is entered, the comparator positions it inside the reported literature range and against the regulatory cap on the same screen, with a basis conversion explicitly shown if one was applied.
 
-This page does not decide certification. It is a traceable pre-screen that helps identify whether a submitted lab result appears directionally consistent with the best available comparator evidence, conflicts with a known higher-contamination comparator, or needs standards review because the current evidence is incomplete.
+The comparator does not display HMT&C certification thresholds or threshold-selection percentile arithmetic. Those values live in the staff Standards Workbench because they are policy choices on top of the literature, not literature evidence in themselves. Surfacing them here would invite readers to interpret them as either the certification line or a recommended action level, neither of which is the role of this page.
+
+The basis selector controls how the comparator interprets the entered lab value. Pick the basis the laboratory used (commonly powder-as-sold for dry products, or prepared-for-feeding for reconstituted infant formula). If the regulatory cap on the same row is reported on a different basis, the comparator converts the entered value into the regulatory basis using the assumptions stated alongside the converted figure, and labels the comparison as indicative.
 
 ## What Still Requires Review
 
-Certification review still needs the full required analyte panel, lot and sampling documentation, the original laboratory report, method and accreditation review, LOD/LOQ handling, matrix-basis matching, jurisdiction and row-fit review, and any HMT&C program rules that sit outside the public Index.
+A directional pre-screen on a single value does not replace the certification workflow. HMT&C certification still requires the full required analyte panel, lot and sampling documentation, the original laboratory report, method and accreditation review, LOD and LOQ handling, matrix and basis matching, jurisdiction and row-fit review, and any program rules that sit outside this public Index. Treat this page as a fast literature comparison, not a compliance verdict.

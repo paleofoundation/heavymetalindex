@@ -1,0 +1,5926 @@
+{
+  "schema": "hmi.lab-comparator.v1",
+  "generated_from": [
+    "wiki/static/hmi-percentile-context.json",
+    "data/evidence/product_regulatory_crosswalk.csv",
+    "data/evidence/regulatory_limits.csv",
+    "data/evidence/category1_formula_concentration_summary.csv",
+    "data/evidence/category1_fda_baby_food_compliance_summary.csv",
+    "data/evidence/category1_local_baby_food_occurrence_summary.csv",
+    "data/evidence/category5_plant_milk_occurrence_summary.csv",
+    "data/evidence/category5_tds_finished_food_occurrence_summary.csv",
+    "data/evidence/category5_apple_juice_arsenic_speciation_summary.csv",
+    "data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv"
+  ],
+  "rows": [
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "row_label": "Infant Formula, Powder (Non-Soy)",
+      "hmtc_row": 1,
+      "hmtc_category": 1,
+      "category_label": "Infant and Child Foods",
+      "variant_type": "clean_benchmark",
+      "product_url": "/products/infant-formula-powder-non-soy",
+      "partners": [
+        {
+          "slug": "infant-formula-powder-soy-based",
+          "role_of_partner": "contamination_platform"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "row_label": "Infant Formula, Powder (Soy-Based)",
+      "hmtc_row": 2,
+      "hmtc_category": 1,
+      "category_label": "Infant and Child Foods",
+      "variant_type": "contamination_platform",
+      "product_url": "/products/infant-formula-powder-soy-based",
+      "partners": [
+        {
+          "slug": "infant-formula-powder-non-soy",
+          "role_of_partner": "clean_benchmark"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "row_label": "Infant Formula, RTF Liquid (Non-Soy)",
+      "hmtc_row": 3,
+      "hmtc_category": 1,
+      "category_label": "Infant and Child Foods",
+      "variant_type": "clean_benchmark",
+      "product_url": "/products/infant-formula-rtf-liquid-non-soy",
+      "partners": [
+        {
+          "slug": "infant-formula-rtf-liquid-soy-based",
+          "role_of_partner": "contamination_platform"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "row_label": "Infant Formula, RTF Liquid (Soy-Based)",
+      "hmtc_row": 4,
+      "hmtc_category": 1,
+      "category_label": "Infant and Child Foods",
+      "variant_type": "contamination_platform",
+      "product_url": "/products/infant-formula-rtf-liquid-soy-based",
+      "partners": [
+        {
+          "slug": "infant-formula-rtf-liquid-non-soy",
+          "role_of_partner": "clean_benchmark"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-non-soy",
+      "row_label": "Infant Formula, Concentrated Liquid (Non-Soy)",
+      "hmtc_row": null,
+      "hmtc_category": null,
+      "category_label": "Infant and Child Foods",
+      "variant_type": "bridge",
+      "product_url": "/products/infant-formula-concentrated-liquid-non-soy",
+      "partners": []
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-soy-based",
+      "row_label": "Infant Formula, Concentrated Liquid (Soy-Based)",
+      "hmtc_row": null,
+      "hmtc_category": null,
+      "category_label": "Infant and Child Foods",
+      "variant_type": "bridge",
+      "product_url": "/products/infant-formula-concentrated-liquid-soy-based",
+      "partners": []
+    },
+    {
+      "row_slug": "infant-formula-powder-amino-acid-based-out-of-scope",
+      "row_label": "Infant formula, powder, amino acid-based",
+      "hmtc_row": null,
+      "hmtc_category": null,
+      "category_label": "",
+      "variant_type": "",
+      "product_url": "/products/infant-formula-powder-amino-acid-based-out-of-scope",
+      "partners": []
+    }
+  ],
+  "analytes": [
+    {
+      "code": "Pb",
+      "label": "Lead",
+      "wiki_link": "/metals/lead",
+      "mitigation_link": "/mitigation/lead-mitigation",
+      "remediation_note": "Trace the highest-risk ingredient inputs (rice flour, root vegetables, cocoa, leafy greens, low-quality vitamin/mineral premixes) and request a recent ingredient-level COA before targeting the finished-product result."
+    },
+    {
+      "code": "Cd",
+      "label": "Cadmium",
+      "wiki_link": "/metals/cadmium",
+      "mitigation_link": "/mitigation/cadmium-mitigation",
+      "remediation_note": "Cadmium typically tracks soil and crop type (sunflower, cocoa, spinach, soy). Confirm sourcing region and rotate to lower-Cd ingredient suppliers where possible before pursuing in-process mitigation."
+    },
+    {
+      "code": "tAs",
+      "label": "Arsenic (total)",
+      "wiki_link": "/metals/arsenic-total",
+      "mitigation_link": "/mitigation/arsenic-mitigation",
+      "remediation_note": "Total arsenic includes the much-lower-risk organic forms; if the toxic inorganic fraction is the driver, request an iAs/tAs speciation result from the lab before deciding on mitigation steps."
+    },
+    {
+      "code": "iAs",
+      "label": "Arsenic (inorganic)",
+      "wiki_link": "/metals/arsenic-inorganic",
+      "mitigation_link": "/mitigation/arsenic-mitigation",
+      "remediation_note": "Inorganic arsenic typically tracks rice and rice-derivatives (brown rice syrup, rice protein). Lower-iAs rice varieties (Californian, basmati) and rinse-and-cook protocols are the first levers; ingredient substitution is the strongest."
+    },
+    {
+      "code": "tHg",
+      "label": "Mercury (total)",
+      "wiki_link": "/metals/mercury-total",
+      "mitigation_link": "/mitigation/mercury-mitigation",
+      "remediation_note": "Total mercury is most informative for non-fish matrices; in fish or shellfish, request methylmercury speciation because that is the toxicologically active fraction and the regulated species."
+    },
+    {
+      "code": "MeHg",
+      "label": "Mercury (methyl)",
+      "wiki_link": "/metals/mercury-methyl",
+      "mitigation_link": "/mitigation/mercury-mitigation",
+      "remediation_note": "Methylmercury is concentrated in larger predatory fish. The most direct lever is fish-species selection (smaller, shorter-lived species) rather than processing change."
+    },
+    {
+      "code": "Ni",
+      "label": "Nickel",
+      "wiki_link": "/metals/nickel",
+      "mitigation_link": "/mitigation/nickel-mitigation",
+      "remediation_note": "Nickel often migrates from stainless-steel processing equipment in acidic or chloride-rich matrices. Audit dwell time, equipment alloy grade, and ingredient-borne nickel (legumes, oats, soy) in that order."
+    },
+    {
+      "code": "Al",
+      "label": "Aluminum",
+      "wiki_link": "/metals/aluminum",
+      "mitigation_link": "/mitigation/aluminum-mitigation",
+      "remediation_note": "Aluminum in food often tracks packaging contact, additives (sodium aluminum phosphates), and certain mineral premixes. Review the additive/premix supplier specs before pursuing process changes."
+    },
+    {
+      "code": "Cr-VI",
+      "label": "Chromium (hexavalent)",
+      "wiki_link": "/metals/chromium-hexavalent",
+      "mitigation_link": "/mitigation/chromium-mitigation",
+      "remediation_note": "Hexavalent chromium is rarely reported in food; confirm the lab actually speciated Cr(VI) rather than reporting total chromium, because the two are not interchangeable for regulatory or toxicological purposes."
+    },
+    {
+      "code": "Sn",
+      "label": "Tin",
+      "wiki_link": "/metals/tin",
+      "mitigation_link": "/mitigation/tin-mitigation",
+      "remediation_note": "Tin in canned or metal-packaged products typically tracks can-coating wear and storage time; review packaging supplier specs, lacquer integrity, and shelf-life protocols."
+    }
+  ],
+  "basis_vocab": [
+    {
+      "code": "as_sold",
+      "label": "As sold / as placed on market"
+    },
+    {
+      "code": "prepared_for_feeding",
+      "label": "Prepared for feeding (reconstituted)"
+    },
+    {
+      "code": "as_consumed",
+      "label": "As consumed"
+    },
+    {
+      "code": "dry_weight",
+      "label": "Dry weight"
+    },
+    {
+      "code": "as_sold_or_source_reported",
+      "label": "As sold (source-reported)"
+    }
+  ],
+  "lit_context": [
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 15,
+      "range_high": 62.9,
+      "central_low": 15,
+      "central_high": 15,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 25,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Cd",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Cd",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 13,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "iAs",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 6,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Ni",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 127,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 4,
+      "range_high": 9.9,
+      "central_low": 4,
+      "central_high": 4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 25,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Pb",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Pb",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 12.9,
+      "range_high": 54.8,
+      "central_low": 12.9,
+      "central_high": 12.9,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 25,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "tAs",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 10,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "tAs",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 15,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 9,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 10.1,
+      "range_high": 40.5,
+      "central_low": 10.1,
+      "central_high": 10.1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 252,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Cd",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Cd",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "iAs",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 6,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "iAs",
+      "basis": "dry_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 323,
+      "central_low": 0,
+      "central_high": 121,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "signes-pastor2016-inorganic-arsenic-rice-products-infants",
+          "n": 85,
+          "basis": "dry_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Ni",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 127,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 5,
+      "range_high": 32,
+      "central_low": 5,
+      "central_high": 5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 256,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Pb",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Pb",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 8,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 115,
+      "range_high": 348,
+      "central_low": 115,
+      "central_high": 115,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 253,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "tAs",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 10,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "tAs",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 48,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 4,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 64,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Al",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 390,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Cd",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Ni",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 80,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Pb",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 8,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Pb",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Sn",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "tAs",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 165,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "tAs",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 60,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "tHg",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 16,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "tHg",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 6.8,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Al",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 314,
+      "central_low": 0,
+      "central_high": 191,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 100,
+      "central_low": 0,
+      "central_high": 80,
+      "n_sources": 3,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
+          "n": 80,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Cd",
+      "basis": "FDA TDS prepared food/composite; reported concentration values retained",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2022-tds-elements-fy2018-fy2020",
+          "n": 3,
+          "basis": "FDA TDS prepared food/composite; reported concentration values retained"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Co",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1,
+      "central_low": 0,
+      "central_high": 0.93,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Cr-total",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 29,
+      "central_low": 0,
+      "central_high": 21,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
+          "n": 80,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "iAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "iAs",
+      "basis": "ready_to_drink_juice_1_ml_1_g",
+      "unit": "ppb",
+      "range_low": 11.2,
+      "range_high": 49.6,
+      "central_low": 11.2,
+      "central_high": 12.91,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2016-infant-toddler-foods-inorganic-arsenic",
+          "n": 58,
+          "basis": "ready_to_drink_juice_1_ml_1_g"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "iAs",
+      "basis": "single_strength_juice",
+      "unit": "ppb",
+      "range_low": 4.09,
+      "range_high": 9.8,
+      "central_low": 4.09,
+      "central_high": 4.9,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2011-apple-juice-arsenic-speciation",
+          "n": 94,
+          "basis": "single_strength_juice"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Ni",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 80,
+      "central_low": 0,
+      "central_high": 78,
+      "n_sources": 3,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
+          "n": 80,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Ni",
+      "basis": "FDA TDS prepared food/composite; reported concentration values retained",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 20,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2022-tds-elements-fy2018-fy2020",
+          "n": 3,
+          "basis": "FDA TDS prepared food/composite; reported concentration values retained"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 40,
+      "central_low": 0,
+      "central_high": 35,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
+          "n": 80,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Pb",
+      "basis": "FDA TDS prepared food/composite; reported concentration values retained",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2.7,
+      "central_low": 0,
+      "central_high": 1.5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2022-tds-elements-fy2018-fy2020",
+          "n": 3,
+          "basis": "FDA TDS prepared food/composite; reported concentration values retained"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Sb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1,
+      "central_low": 0,
+      "central_high": 0.75,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Sn",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 83,
+      "central_low": 0,
+      "central_high": 62.5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "tAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2,
+      "central_low": 0,
+      "central_high": 2,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "tAs",
+      "basis": "FDA TDS prepared food/composite; reported concentration values retained",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 4.4,
+      "central_low": 0,
+      "central_high": 2.4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2022-tds-elements-fy2018-fy2020",
+          "n": 3,
+          "basis": "FDA TDS prepared food/composite; reported concentration values retained"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "V",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1,
+      "central_low": 0,
+      "central_high": 0.88,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 4,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juices-apple-containing",
+      "metal": "iAs",
+      "basis": "single_strength_juice",
+      "unit": "ppb",
+      "range_low": 4.09,
+      "range_high": 9.8,
+      "central_low": 4.09,
+      "central_high": 4.9,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2011-apple-juice-arsenic-speciation",
+          "n": 94,
+          "basis": "single_strength_juice"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juices-apple-containing",
+      "metal": "Pb",
+      "basis": "FDA TDS prepared food/composite; reported concentration values retained",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2.7,
+      "central_low": 0,
+      "central_high": 1.5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2022-tds-elements-fy2018-fy2020",
+          "n": 3,
+          "basis": "FDA TDS prepared food/composite; reported concentration values retained"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juices-apple-containing",
+      "metal": "tAs",
+      "basis": "FDA TDS prepared food/composite; reported concentration values retained",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 4.4,
+      "central_low": 0,
+      "central_high": 2.4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2022-tds-elements-fy2018-fy2020",
+          "n": 3,
+          "basis": "FDA TDS prepared food/composite; reported concentration values retained"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juices-non-apple",
+      "metal": "iAs",
+      "basis": "ready_to_drink_juice_1_ml_1_g",
+      "unit": "ppb",
+      "range_low": 11.2,
+      "range_high": 49.6,
+      "central_low": 11.2,
+      "central_high": 12.91,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2016-infant-toddler-foods-inorganic-arsenic",
+          "n": 58,
+          "basis": "ready_to_drink_juice_1_ml_1_g"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juices-non-apple",
+      "metal": "Pb",
+      "basis": "FDA TDS prepared food/composite; reported concentration values retained",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2022-tds-elements-fy2018-fy2020",
+          "n": 3,
+          "basis": "FDA TDS prepared food/composite; reported concentration values retained"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-juices-non-apple",
+      "metal": "tAs",
+      "basis": "FDA TDS prepared food/composite; reported concentration values retained",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2022-tds-elements-fy2018-fy2020",
+          "n": 3,
+          "basis": "FDA TDS prepared food/composite; reported concentration values retained"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Al",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1420,
+      "central_low": 0,
+      "central_high": 1125,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Al",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 580,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 16,
+      "central_low": 0,
+      "central_high": 4.4,
+      "n_sources": 3,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 4,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 39,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Cd",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Co",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 0,
+      "central_high": 2.87,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Cr-total",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 84,
+      "central_low": 0,
+      "central_high": 42.7,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Cu",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 862,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Fe",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7543,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "I",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 27,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "iAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 4,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Mn",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 2436,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Ni",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 121,
+      "central_low": 0,
+      "central_high": 54.7,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Ni",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 137,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 0,
+      "central_high": 2.7,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1,
+      "range_high": 8,
+      "central_low": 1,
+      "central_high": 1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 44,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Pb",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Sb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3,
+      "central_low": 0,
+      "central_high": 0.65,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Se",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 7,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Sn",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3330,
+      "central_low": 0,
+      "central_high": 424,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Sn",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 98,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "tAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 8,
+      "central_low": 0,
+      "central_high": 9,
+      "n_sources": 3,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1.4,
+      "range_high": 8.7,
+      "central_low": 1.4,
+      "central_high": 1.4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 39,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "tAs",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "tHg",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.5,
+      "central_low": 0,
+      "central_high": 1.5,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.6,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 14,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "tHg",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7.2,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 3,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "V",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 4,
+      "central_low": 0,
+      "central_high": 1.4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
+          "n": 30,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Zn",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5002,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "grain-based-snacks-rice-status-unspecified",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 14,
+      "range_high": 41,
+      "central_low": 14,
+      "central_high": 14,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 91,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "grain-based-snacks-rice-status-unspecified",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 4.5,
+      "range_high": 23.7,
+      "central_low": 4.5,
+      "central_high": 4.5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 91,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "grain-based-snacks-rice-status-unspecified",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 61,
+      "range_high": 561,
+      "central_low": 61,
+      "central_high": 61,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 91,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "grain-based-snacks-rice-status-unspecified",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3.3,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 28,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-non-soy",
+      "metal": "Al",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 796,
+      "central_low": 0,
+      "central_high": 131,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 44,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-non-soy",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2.03,
+      "central_low": 0,
+      "central_high": 0.13,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 44,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-non-soy",
+      "metal": "Cd",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.5,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 8,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-non-soy",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.85,
+      "central_low": 0,
+      "central_high": 0.32,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 44,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-non-soy",
+      "metal": "Pb",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.4,
+      "central_low": 0,
+      "central_high": 0.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 8,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-non-soy",
+      "metal": "tAs",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.4,
+      "central_low": 0,
+      "central_high": 0.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 8,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-non-soy",
+      "metal": "tHg",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 8,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-soy-based",
+      "metal": "Al",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1047,
+      "central_low": 0,
+      "central_high": 798,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 12,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-soy-based",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.7,
+      "central_low": 0,
+      "central_high": 1.12,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 12,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-soy-based",
+      "metal": "Cd",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.5,
+      "central_low": 0,
+      "central_high": 1.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 3,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-soy-based",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.54,
+      "central_low": 0,
+      "central_high": 1.19,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 12,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-soy-based",
+      "metal": "Pb",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.4,
+      "central_low": 0,
+      "central_high": 0.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 3,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-soy-based",
+      "metal": "tAs",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.7,
+      "central_low": 0,
+      "central_high": 0.6,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 3,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-concentrated-liquid-soy-based",
+      "metal": "tHg",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.05,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 3,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-amino-acid-based-out-of-scope",
+      "metal": "Cd",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.1,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 10,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-amino-acid-based-out-of-scope",
+      "metal": "Pb",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.6,
+      "central_low": 0,
+      "central_high": 0.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 10,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-amino-acid-based-out-of-scope",
+      "metal": "tAs",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2.5,
+      "central_low": 0,
+      "central_high": 1.1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 10,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-amino-acid-based-out-of-scope",
+      "metal": "tHg",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.3,
+      "central_low": 0,
+      "central_high": 0.1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 10,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Al",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1004,
+      "central_low": 0,
+      "central_high": 177,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 57,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Al",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 488,
+      "central_low": 0,
+      "central_high": 1000,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Al",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1520,
+      "central_low": 0,
+      "central_high": 1241,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "kazi2009-toxic-elements-in-infant-formulae",
+          "n": 13,
+          "basis": "as_sold_or_source_reported"
+        },
+        {
+          "source_id": "almeida2022-brazil-infant-formula-toxic-metals",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Al",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 592.4,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "burrell2010-aluminium-in-infant-formulas",
+          "n": 7,
+          "basis": "prepared_for_feeding"
+        },
+        {
+          "source_id": "chuchu2013-aluminium-in-infant-formulas",
+          "n": 18,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Ca",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 5500000,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.21,
+      "central_low": 0,
+      "central_high": 0.17,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 57,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 4.3,
+      "central_low": 0,
+      "central_high": 8,
+      "n_sources": 3,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "dabeka1987-canada-infant-formula-lead-cadmium",
+          "n": 17,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Cd",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 12.3,
+      "central_low": 0,
+      "central_high": 8,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "kazi2009-toxic-elements-in-infant-formulae",
+          "n": 13,
+          "basis": "as_sold_or_source_reported"
+        },
+        {
+          "source_id": "almeida2022-brazil-infant-formula-toxic-metals",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Cd",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.3,
+      "central_low": 0,
+      "central_high": 0.2,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 230,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Cr-total",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 73,
+      "central_low": 0,
+      "central_high": 30,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Cr-VI",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 75,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "soares2000-chromium-vi-powdered-milk-formulas",
+          "n": 7,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Cu",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 4220,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Fe",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 83950,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "I",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 1150,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "iAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 6.3,
+      "central_low": 0,
+      "central_high": 7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Mn",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 2470,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Ni",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 54,
+      "central_low": 0,
+      "central_high": 100,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3.46,
+      "central_low": 0,
+      "central_high": 0.65,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 57,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 0,
+      "central_high": 43.9,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Pb",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 97,
+      "central_low": 0,
+      "central_high": 64.2,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "kazi2009-toxic-elements-in-infant-formulae",
+          "n": 13,
+          "basis": "as_sold_or_source_reported"
+        },
+        {
+          "source_id": "almeida2022-brazil-infant-formula-toxic-metals",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Pb",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.6,
+      "central_low": 0,
+      "central_high": 0.2,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 230,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Sb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 9,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Se",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 510,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Sn",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 35,
+      "central_low": 0,
+      "central_high": 40,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Sn",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 95,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "almeida2022-brazil-infant-formula-toxic-metals",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3,
+      "central_low": 0,
+      "central_high": 14,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "tAs",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 34,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "almeida2022-brazil-infant-formula-toxic-metals",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "tAs",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 4.7,
+      "central_low": 0,
+      "central_high": 0.4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 230,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1,
+      "central_low": 0,
+      "central_high": 113,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "tHg",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "almeida2022-brazil-infant-formula-toxic-metals",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "tHg",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.3,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 230,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "U",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 16,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "almeida2022-brazil-infant-formula-toxic-metals",
+          "n": null,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Zn",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 60300,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Al",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1461,
+      "central_low": 0,
+      "central_high": 733,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 15,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Al",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 2550,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Al",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2720,
+      "central_low": 0,
+      "central_high": 2270,
+      "n_sources": 3,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "kazi2009-toxic-elements-in-infant-formulae",
+          "n": 4,
+          "basis": "as_sold_or_source_reported"
+        },
+        {
+          "source_id": "burrell2010-aluminium-in-infant-formulas",
+          "n": 1,
+          "basis": "as_sold_or_source_reported"
+        },
+        {
+          "source_id": "chuchu2013-aluminium-in-infant-formulas",
+          "n": 2,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Ca",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 4800000,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3.47,
+      "central_low": 0,
+      "central_high": 1.56,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 15,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 35,
+      "central_low": 0,
+      "central_high": 18.3,
+      "n_sources": 3,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "dabeka1987-canada-infant-formula-lead-cadmium",
+          "n": 15,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Cd",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 14.5,
+      "central_low": 0,
+      "central_high": 11.7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "kazi2009-toxic-elements-in-infant-formulae",
+          "n": 4,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Cd",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.4,
+      "central_low": 0,
+      "central_high": 0.8,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 38,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Cr-total",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 55,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Cu",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 3300,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Fe",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 70400,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "I",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 855,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "iAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 4.6,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Mn",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 3300,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Ni",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 1300,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.9,
+      "central_low": 0,
+      "central_high": 1.27,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 15,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 0,
+      "central_high": 30.5,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Pb",
+      "basis": "as_sold_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 119,
+      "central_low": 0,
+      "central_high": 109.4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "kazi2009-toxic-elements-in-infant-formulae",
+          "n": 4,
+          "basis": "as_sold_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Pb",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.1,
+      "central_low": 0,
+      "central_high": 0.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 38,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Sb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 6,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Se",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 222,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Sn",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 23,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "tAs",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2.2,
+      "central_low": 0,
+      "central_high": 1.1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 38,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1,
+      "central_low": 0,
+      "central_high": 29.3,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "tHg",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.3,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 38,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Zn",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 47700,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_sold"
+        },
+        {
+          "source_id": "pandelova2012-eu-baby-food-formula-elements",
+          "n": null,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Al",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3442,
+      "central_low": 0,
+      "central_high": 437,
+      "n_sources": 4,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 67,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "burrell2010-aluminium-in-infant-formulas",
+          "n": 8,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "chuchu2013-aluminium-in-infant-formulas",
+          "n": 10,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.26,
+      "central_low": 0,
+      "central_high": 0.27,
+      "n_sources": 3,
+      "confidence": "medium",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 67,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "dabeka1987-canada-infant-formula-lead-cadmium",
+          "n": 13,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Cd",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.7,
+      "central_low": 0,
+      "central_high": 0.09,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 20,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Cr-total",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Cu",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 376,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Fe",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 10223,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "I",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 143,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "iAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.5,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Mn",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 71,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Ni",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 9,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2.46,
+      "central_low": 0,
+      "central_high": 0.9,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 67,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Pb",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.5,
+      "central_low": 0,
+      "central_high": 0.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 20,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Sb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Se",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 18,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Sn",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "tAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.7,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "tAs",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3,
+      "central_low": 0,
+      "central_high": 0.7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 20,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "tHg",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.2,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "tHg",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 20,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Zn",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7615,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "Al",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1121,
+      "central_low": 0,
+      "central_high": 769,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 14,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 7.55,
+      "central_low": 0,
+      "central_high": 2.35,
+      "n_sources": 2,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 14,
+          "basis": "as_consumed"
+        },
+        {
+          "source_id": "dabeka1987-canada-infant-formula-lead-cadmium",
+          "n": 16,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "Cd",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.1,
+      "central_low": 0,
+      "central_high": 0.9,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 3,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 2.1,
+      "central_low": 0,
+      "central_high": 1.45,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "dabeka2011-canada-infant-formula-lead-cadmium-aluminum",
+          "n": 14,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "Pb",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.4,
+      "central_low": 0,
+      "central_high": 0.2,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 3,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "tAs",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.3,
+      "central_low": 0,
+      "central_high": 1.2,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 3,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "tHg",
+      "basis": "prepared_for_feeding",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.08,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2026-infant-formula-toxic-elements-special-survey",
+          "n": 3,
+          "basis": "prepared_for_feeding"
+        }
+      ]
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "Al",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 753,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 4,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "Cd",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 4,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "Ni",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 86,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 4,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "Pb",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 4,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "Sn",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 267,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 4,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "tAs",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 1,
+      "confidence": "low",
+      "coverage_note": "All cited sources reported values below detection or quantification; literature is too thin for a numeric range.",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 4,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "tHg",
+      "basis": "wet_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "meli2024-chemical-characterization-baby-food-italy",
+          "n": 4,
+          "basis": "wet_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 10,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 2.2,
+      "range_high": 44.4,
+      "central_low": 2.2,
+      "central_high": 2.2,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 77,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Cd",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 8,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "iAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 9,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Ni",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 97,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1.6,
+      "range_high": 13,
+      "central_low": 1.6,
+      "central_high": 1.6,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 78,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "tAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 15,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 3,
+      "range_high": 13.6,
+      "central_low": 3,
+      "central_high": 3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 77,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.4,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 36,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 10,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1.3,
+      "range_high": 7,
+      "central_low": 1.3,
+      "central_high": 1.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 9,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Cd",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "iAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 9,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Ni",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 97,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1,
+      "range_high": 11.6,
+      "central_low": 1,
+      "central_high": 1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 9,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Pb",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 8,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "tAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 15,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fsa2016-infant-food-formula-metals-survey",
+          "n": null,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 11,
+      "range_high": 28.3,
+      "central_low": 11,
+      "central_high": 11,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 9,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "tAs",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 48,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.3,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 3,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.5,
+      "central_low": 1.5,
+      "central_high": 1.5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0.7,
+      "range_high": 23.1,
+      "central_low": 0.7,
+      "central_high": 0.7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 22,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 1.5,
+      "central_high": 2.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 7.6,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 29,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "tAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 4.2,
+      "central_high": 5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 11,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 20,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "tHg",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.5,
+      "central_low": 1.5,
+      "central_high": 1.5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0.4,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 13,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "Cd",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 5,
+      "central_low": 3.8,
+      "central_high": 5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 8.7,
+      "range_high": 42,
+      "central_low": 8.7,
+      "central_high": 8.7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 54,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "Pb",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 48,
+      "central_low": 5,
+      "central_high": 15.8,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 5.1,
+      "range_high": 27.3,
+      "central_low": 5.1,
+      "central_high": 5.1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 59,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "Pb",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "tAs",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 22,
+      "central_low": 10.8,
+      "central_high": 12,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1.4,
+      "range_high": 10.3,
+      "central_low": 1.4,
+      "central_high": 1.4,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 54,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "tHg",
+      "basis": "as_consumed",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.5,
+      "central_low": 1.5,
+      "central_high": 1.5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "n": 9,
+          "basis": "as_consumed"
+        }
+      ]
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 1.1,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 25,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "teething-and-snacks-rice-based",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3.5,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 2,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "teething-and-snacks-rice-based",
+      "metal": "Cd",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 7,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "teething-and-snacks-rice-based",
+      "metal": "iAs",
+      "basis": "dry_weight",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 273,
+      "central_low": 0,
+      "central_high": 111,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "signes-pastor2016-inorganic-arsenic-rice-products-infants",
+          "n": 199,
+          "basis": "dry_weight"
+        }
+      ]
+    },
+    {
+      "row_slug": "teething-and-snacks-rice-based",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 6.5,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 2,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "teething-and-snacks-rice-based",
+      "metal": "Pb",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 8,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "teething-and-snacks-rice-based",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 96.3,
+      "range_high": 171,
+      "central_low": 96.3,
+      "central_high": 96.3,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 2,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "teething-and-snacks-rice-based",
+      "metal": "tAs",
+      "basis": "mixed_or_source_reported",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 48,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "collado-lopez2025-heavy-metals-baby-food-formula",
+          "n": null,
+          "basis": "mixed_or_source_reported"
+        }
+      ]
+    },
+    {
+      "row_slug": "yogurts-custards-puddings-out-of-scope",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1,
+      "range_high": 1,
+      "central_low": 1,
+      "central_high": 1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 5,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "yogurts-custards-puddings-out-of-scope",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1,
+      "range_high": 2.6,
+      "central_low": 1,
+      "central_high": 1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 5,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "yogurts-custards-puddings-out-of-scope",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 2,
+      "range_high": 2.9,
+      "central_low": 2,
+      "central_high": 2,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 5,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "yogurts-custards-puddings-out-of-scope",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 3,
+          "basis": "as_sold"
+        }
+      ]
+    }
+  ],
+  "reg_caps": [
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, and young-child formulae placed on the market as powder",
+      "regulation_id": "eu2023_pb_formula_powder_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "Cd",
+      "value_ppb": 10,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as powder and manufactured from cow's milk proteins or cow's milk protein hydrolysates",
+      "regulation_id": "eu2023_cd_formula_cow_powder_10",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-powder-non-soy",
+      "metal": "iAs",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as powder",
+      "regulation_id": "eu2023_ias_formula_powder_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, and young-child formulae placed on the market as powder",
+      "regulation_id": "eu2023_pb_formula_powder_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "Cd",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as powder and manufactured from soy protein isolates alone or mixed with cow's milk proteins",
+      "regulation_id": "eu2023_cd_formula_soy_powder_20",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-powder-soy-based",
+      "metal": "iAs",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as powder",
+      "regulation_id": "eu2023_ias_formula_powder_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, and young-child formulae placed on the market as liquid",
+      "regulation_id": "eu2023_pb_formula_liquid_10",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "Cd",
+      "value_ppb": 5,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as liquid and manufactured from cow's milk proteins or cow's milk protein hydrolysates",
+      "regulation_id": "eu2023_cd_formula_cow_liquid_5",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-non-soy",
+      "metal": "iAs",
+      "value_ppb": 10,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as liquid",
+      "regulation_id": "eu2023_ias_formula_liquid_10",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, and young-child formulae placed on the market as liquid",
+      "regulation_id": "eu2023_pb_formula_liquid_10",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "Cd",
+      "value_ppb": 10,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as liquid and manufactured from soy protein isolates alone or mixed with cow's milk proteins",
+      "regulation_id": "eu2023_cd_formula_soy_liquid_10",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "infant-formula-rtf-liquid-soy-based",
+      "metal": "iAs",
+      "value_ppb": 10,
+      "basis": "product as placed on market",
+      "scope": "infant formulae, follow-on formulae, food for special medical purposes intended for infants and young children, and young-child formulae placed on the market as liquid",
+      "regulation_id": "eu2023_ias_formula_liquid_10",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "dry infant cereal",
+      "scope": "dry infant cereals for children under 2",
+      "regulation_id": "fda2025_pb_dry_infant_cereal_20",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "baby-cereals-dry-non-rice",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "dry infant cereal",
+      "scope": "dry infant cereals for children under 2",
+      "regulation_id": "fda2025_pb_dry_infant_cereal_20",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "baby-cereals-dry-rice-based",
+      "metal": "iAs",
+      "value_ppb": 100,
+      "basis": "as sold infant rice cereal",
+      "scope": "all types of infant rice cereals",
+      "regulation_id": "fda2020_ias_infant_rice_cereal_100",
+      "page": "/regulations/fda2020-inorganic-arsenic-infant-rice-cereal",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "as sold or ready-to-eat as applicable",
+      "scope": "fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2",
+      "regulation_id": "fda2025_pb_baby_food_10",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fruit-purees",
+      "metal": "iAs",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food for infants and young children",
+      "regulation_id": "eu2023_ias_babyfood_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "as sold or ready-to-eat as applicable",
+      "scope": "fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2",
+      "regulation_id": "fda2025_pb_baby_food_10",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "non-root-vegetable-purees",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "as sold or ready-to-eat as applicable",
+      "scope": "single-ingredient root vegetables for children under 2",
+      "regulation_id": "fda2025_pb_root_baby_food_20",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "root-vegetable-purees",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "as sold or ready-to-eat as applicable",
+      "scope": "fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2",
+      "regulation_id": "fda2025_pb_baby_food_10",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "meat-and-poultry-purees",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "as sold or ready-to-eat as applicable",
+      "scope": "fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2",
+      "regulation_id": "fda2025_pb_baby_food_10",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fish-containing-baby-foods",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "as sold or ready-to-eat as applicable",
+      "scope": "fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2",
+      "regulation_id": "fda2025_pb_baby_food_10",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "mixed-meals-non-rice",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "as sold or ready-to-eat as applicable",
+      "scope": "fruits; vegetables excluding single-ingredient root vegetables; mixtures including grain- and meat-based mixtures; yogurts; custards/puddings; single-ingredient meats for children under 2",
+      "regulation_id": "fda2025_pb_baby_food_10",
+      "page": "/regulations/fda2025-lead-processed-baby-foods",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children, except covered infant drinks and formula/medical foods",
+      "regulation_id": "eu2023_pb_babyfood_cereal_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "mixed-meals-rice-containing",
+      "metal": "Cd",
+      "value_ppb": 40,
+      "basis": "product as placed on market",
+      "scope": "baby food and processed cereal-based food for infants and young children",
+      "regulation_id": "eu2023_cd_babyfood_cereal_40",
+      "page": "/regulations/eu-2023-915-cadmium",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "iAs",
+      "value_ppb": 10,
+      "basis": "juice",
+      "scope": "apple juice",
+      "regulation_id": "fda2023_ias_apple_juice_10",
+      "page": "/regulations/fda2023-inorganic-arsenic-apple-juice",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "iAs",
+      "value_ppb": 20,
+      "basis": "wet weight or reconstituted juice",
+      "scope": "fruit juices, concentrated fruit juices as reconstituted, and fruit nectars",
+      "regulation_id": "eu2023_ias_fruit_juice_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "single-strength ready-to-drink juice",
+      "scope": "single-strength apple juice",
+      "regulation_id": "fda2022_draft_pb_apple_juice_10",
+      "page": "/regulations/fda2022-draft-lead-juice",
+      "authority": "US-FDA",
+      "status": "draft guidance; not for implementation"
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Pb",
+      "value_ppb": 50,
+      "basis": "ready-to-drink juice",
+      "scope": "ready-to-drink fruit juices including fruit nectars",
+      "regulation_id": "fda2004_juice_haccp_pb_50",
+      "page": "/regulations/fda2004-juice-haccp-lead",
+      "authority": "US-FDA",
+      "status": "guidance hazard-control level"
+    },
+    {
+      "row_slug": "fruit-juice-not-canned",
+      "metal": "Pb",
+      "value_ppb": 30,
+      "basis": "wet weight or reconstituted juice",
+      "scope": "fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits",
+      "regulation_id": "eu2023_pb_fruit_juice_other_30",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "teething-and-snacks-rice-based",
+      "metal": "iAs",
+      "value_ppb": 300,
+      "basis": "product as placed on market",
+      "scope": "rice waffles, rice wafers, rice crackers, rice cakes, rice flakes, and popped breakfast rice",
+      "regulation_id": "eu2023_ias_rice_products_300",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fruit-juices-non-apple",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "single-strength ready-to-drink juice",
+      "scope": "other single-strength juices and juice blends",
+      "regulation_id": "fda2022_draft_pb_other_juice_20",
+      "page": "/regulations/fda2022-draft-lead-juice",
+      "authority": "US-FDA",
+      "status": "draft guidance; not for implementation"
+    },
+    {
+      "row_slug": "fruit-juices-non-apple",
+      "metal": "Pb",
+      "value_ppb": 50,
+      "basis": "ready-to-drink juice",
+      "scope": "ready-to-drink fruit juices including fruit nectars",
+      "regulation_id": "fda2004_juice_haccp_pb_50",
+      "page": "/regulations/fda2004-juice-haccp-lead",
+      "authority": "US-FDA",
+      "status": "guidance hazard-control level"
+    },
+    {
+      "row_slug": "fruit-juices-non-apple",
+      "metal": "Pb",
+      "value_ppb": 30,
+      "basis": "wet weight or reconstituted juice",
+      "scope": "fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits",
+      "regulation_id": "eu2023_pb_fruit_juice_other_30",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fruit-juices-non-apple",
+      "metal": "iAs",
+      "value_ppb": 20,
+      "basis": "wet weight or reconstituted juice",
+      "scope": "fruit juices, concentrated fruit juices as reconstituted, and fruit nectars",
+      "regulation_id": "eu2023_ias_fruit_juice_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fruit-juices-apple-containing",
+      "metal": "iAs",
+      "value_ppb": 10,
+      "basis": "juice",
+      "scope": "apple juice",
+      "regulation_id": "fda2023_ias_apple_juice_10",
+      "page": "/regulations/fda2023-inorganic-arsenic-apple-juice",
+      "authority": "US-FDA",
+      "status": "final guidance action level"
+    },
+    {
+      "row_slug": "fruit-juices-apple-containing",
+      "metal": "iAs",
+      "value_ppb": 20,
+      "basis": "wet weight or reconstituted juice",
+      "scope": "fruit juices, concentrated fruit juices as reconstituted, and fruit nectars",
+      "regulation_id": "eu2023_ias_fruit_juice_20",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "fruit-juices-apple-containing",
+      "metal": "Pb",
+      "value_ppb": 10,
+      "basis": "single-strength ready-to-drink juice",
+      "scope": "single-strength apple juice",
+      "regulation_id": "fda2022_draft_pb_apple_juice_10",
+      "page": "/regulations/fda2022-draft-lead-juice",
+      "authority": "US-FDA",
+      "status": "draft guidance; not for implementation"
+    },
+    {
+      "row_slug": "fruit-juices-apple-containing",
+      "metal": "Pb",
+      "value_ppb": 30,
+      "basis": "wet weight or reconstituted juice",
+      "scope": "fruit juices, fruit juices from concentrate, concentrated fruit juices, and fruit nectars other than exclusively from berries and other small fruits",
+      "regulation_id": "eu2023_pb_fruit_juice_other_30",
+      "page": "/regulations/eu2023-contaminants-maximum-levels",
+      "authority": "European Commission",
+      "status": "maximum level"
+    },
+    {
+      "row_slug": "vegetable-juices-non-root",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "single-strength ready-to-drink juice",
+      "scope": "other single-strength juices and juice blends",
+      "regulation_id": "fda2022_draft_pb_other_juice_20",
+      "page": "/regulations/fda2022-draft-lead-juice",
+      "authority": "US-FDA",
+      "status": "draft guidance; not for implementation"
+    },
+    {
+      "row_slug": "vegetable-juices-root-vegetable-containing",
+      "metal": "Pb",
+      "value_ppb": 20,
+      "basis": "single-strength ready-to-drink juice",
+      "scope": "other single-strength juices and juice blends",
+      "regulation_id": "fda2022_draft_pb_other_juice_20",
+      "page": "/regulations/fda2022-draft-lead-juice",
+      "authority": "US-FDA",
+      "status": "draft guidance; not for implementation"
+    },
+    {
+      "row_slug": "flavored-waters",
+      "metal": "Pb",
+      "value_ppb": 5,
+      "basis": "bottled water",
+      "scope": "bottled drinking water",
+      "regulation_id": "fda_21cfr165110_pb_bottled_water_5",
+      "page": "/regulations/fda-21cfr165110-bottled-water-lead",
+      "authority": "US-FDA",
+      "status": "regulatory quality standard"
+    },
+    {
+      "row_slug": "plant-milks-rice-based",
+      "metal": "iAs",
+      "value_ppb": 30,
+      "basis": "wet weight",
+      "scope": "non-alcoholic rice-based drinks",
+      "regulation_id": "eu2023_ias_rice_drinks_30",
+      "page": "/regulations/eu2023-arsenic-rice-based-drinks",
+      "authority": "European Commission",
+      "status": "maximum level"
+    }
+  ]
+}

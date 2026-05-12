@@ -1,9 +1,11 @@
-type PercentilePartner = {
-  slug: string
-  role_of_partner: string
-}
+// Brand-facing Lab Result Comparator. Renders a literature-native view:
+// reported concentration range across cited sources, applicable regulatory cap,
+// source count and confidence rating, with an optional basis conversion when
+// the brand's lab basis differs from the cited literature or regulatory ceiling.
+// Threshold-selection percentile arithmetic (p10/p30/p50/p90/p95/p100) is not
+// displayed to brands — it lives on the staff Standards Workbench tree only.
 
-type PercentileRow = {
+type ComparatorRow = {
   row_slug: string
   row_label: string
   hmtc_row: number | null
@@ -11,59 +13,77 @@ type PercentileRow = {
   category_label: string
   variant_type: string
   product_url: string
-  partners: PercentilePartner[]
 }
 
-type PercentileRecord = {
+type AnalyteSpec = {
+  code: string
+  label: string
+  wiki_link: string
+  mitigation_link: string
+  remediation_note: string
+}
+
+type BasisOption = {
+  code: string
+  label: string
+}
+
+type LitContextEntry = {
   row_slug: string
-  row_label: string
   metal: string
   basis: string
   unit: string
-  n: number | null
-  detected_n: number | null
-  lod_n: number | null
-  p10: number | null
-  p50: number | null
-  p90: number | null
-  p95: number | null
-  p100: number | null
-  source_title: string
-  source_url: string
-  evidence_fitness: string
-  review_state: string
-  row_fit: string
-  substitution_rule: string
-  notes: string
+  range_low: number | null
+  range_high: number | null
+  central_low: number | null
+  central_high: number | null
+  n_sources: number
+  confidence: "data gap" | "low" | "medium" | "high"
+  coverage_note?: string
+  source_summaries: { source_id: string; n: number | null; basis: string }[]
 }
 
-type PercentileContext = {
+type RegCapEntry = {
+  row_slug: string
+  metal: string
+  value_ppb: number
+  basis: string
+  scope: string
+  regulation_id: string
+  page: string | null
+  authority: string
+  status: string
+}
+
+type ComparatorContext = {
   schema: string
-  generated_from: string
-  rows?: PercentileRow[]
-  records: PercentileRecord[]
+  rows: ComparatorRow[]
+  analytes: AnalyteSpec[]
+  basis_vocab: BasisOption[]
+  lit_context: LitContextEntry[]
+  reg_caps: RegCapEntry[]
 }
 
-type ToolState = {
-  context: PercentileContext
-  selectedRow: PercentileRow
-  cleanSlug?: string
-  dirtySlug?: string
-  records: PercentileRecord[]
+const RECONSTITUTION_FACTOR = 8
+
+let comparatorContextCache: Promise<ComparatorContext> | undefined
+const stateByRoot = new WeakMap<HTMLElement, ComparatorState>()
+
+type ComparatorState = {
+  context: ComparatorContext
+  rowSlug: string
+  basis: string
 }
 
-let percentileContextCache: Promise<PercentileContext> | undefined
-const stateByRoot = new WeakMap<HTMLElement, ToolState>()
-
-function loadPercentileContext() {
-  percentileContextCache ??= fetch("/static/hmi-percentile-context.json").then((response) => {
-    if (!response.ok) throw new Error("Percentile context unavailable")
-    return response.json() as Promise<PercentileContext>
+function loadComparatorContext() {
+  comparatorContextCache ??= fetch("/static/hmi-lab-comparator-context.json").then((response) => {
+    if (!response.ok) throw new Error("Lab comparator context unavailable")
+    return response.json() as Promise<ComparatorContext>
   })
-  return percentileContextCache
+  return comparatorContextCache
 }
 
-function escapePercentileHTML(value: string) {
+function escapeComparatorHTML(value: string) {
   return value
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
@@ -72,400 +92,360 @@ function escapePercentileHTML(value: string) {
     .replace(/'/g, "&#39;")
 }
 
-function prettyBasis(value: string) {
-  return value.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase())
-}
-
 function formatNumber(value: number | null | undefined) {
-  if (value === null || typeof value === "undefined") return "Pending"
-  return Number.isInteger(value) ? String(value) : String(Number(value.toFixed(3)))
+  if (value === null || typeof value === "undefined" || !Number.isFinite(value)) return "—"
+  if (value === 0) return "0"
+  if (Math.abs(value) >= 100) return String(Math.round(value))
+  if (Math.abs(value) >= 10) return value.toFixed(1).replace(/\.0$/, "")
+  if (Math.abs(value) >= 1) return value.toFixed(2).replace(/0+$/, "").replace(/\.$/, "")
+  return value.toFixed(3).replace(/0+$/, "").replace(/\.$/, "")
 }
 
-function availableRows(context: PercentileContext): PercentileRow[] {
-  if (context.rows?.length) return context.rows
-
-  const rowSlugs = [...new Set(context.records.map((record) => record.row_slug))]
-  return rowSlugs
-    .map((rowSlug) => {
-      const fallback = context.records.find((record) => record.row_slug === rowSlug)
-      return {
-        row_slug: rowSlug,
-        row_label: fallback?.row_label ?? rowSlug,
-        hmtc_row: null,
-        hmtc_category: null,
-        category_label: "",
-        variant_type: "",
-        product_url: `/products/${rowSlug}`,
-        partners: [],
-      }
-    })
-    .sort((a, b) => a.row_label.localeCompare(b.row_label))
-}
-
-function classifySlugs(row: PercentileRow): Pick<ToolState, "cleanSlug" | "dirtySlug"> {
-  const cleanPartner = row.partners.find((partner) => partner.role_of_partner === "clean_benchmark")
-  const dirtyPartner = row.partners.find((partner) => partner.role_of_partner === "contamination_platform")
-
-  if (row.variant_type.includes("clean_benchmark")) {
-    return { cleanSlug: row.row_slug, dirtySlug: dirtyPartner?.slug }
-  }
-
-  if (row.variant_type.includes("contamination_platform")) {
-    return { cleanSlug: cleanPartner?.slug, dirtySlug: row.row_slug }
-  }
-
-  return { cleanSlug: row.row_slug }
-}
-
-function candidateRows(state: ToolState) {
-  const keys = new Set<string>()
-
-  for (const record of state.records) {
-    if (record.row_slug === state.cleanSlug || record.row_slug === state.dirtySlug) {
-      keys.add(`${record.metal}|||${record.basis}`)
-    }
-  }
-
-  return [...keys]
-    .map((key) => {
-      const [metal, basis] = key.split("|||")
-      const clean = state.records.find(
-        (record) => record.row_slug === state.cleanSlug && record.metal === metal && record.basis === basis,
-      )
-      const dirty = state.records.find(
-        (record) => record.row_slug === state.dirtySlug && record.metal === metal && record.basis === basis,
-      )
-
-      return { metal, basis, clean, dirty }
-    })
-    .filter((row) => typeof row.clean?.p90 === "number" || typeof row.dirty?.p10 === "number")
-    .sort((a, b) => a.basis.localeCompare(b.basis) || a.metal.localeCompare(b.metal))
-}
-
-function rowLabel(row: PercentileRow) {
+function rowLabel(row: ComparatorRow) {
   const prefix = row.hmtc_row ? `Row ${row.hmtc_row}: ` : ""
   return `${prefix}${row.row_label}`
 }
 
-function requestedCategory(rows: PercentileRow[]) {
-  const queryValue = new URLSearchParams(window.location.search).get("category")
-  if (queryValue && rows.some((row) => row.row_slug === queryValue)) return queryValue
-  return rows[0]?.row_slug
+function rowsAvailable(context: ComparatorContext) {
+  return [...context.rows].sort((a, b) => a.row_label.localeCompare(b.row_label))
 }
 
-function populateCategorySelect(root: HTMLElement, context: PercentileContext, selectedSlug: string) {
-  const select = root.querySelector("[data-percentile-category]") as HTMLSelectElement | null
-  if (!select) return
-
-  const rows = availableRows(context)
-  select.innerHTML = rows
-    .map((row) => {
-      const selected = row.row_slug === selectedSlug ? " selected" : ""
-      return `<option value="${escapePercentileHTML(row.row_slug)}"${selected}>${escapePercentileHTML(rowLabel(row))}</option>`
-    })
-    .join("")
+function findLitContext(context: ComparatorContext, rowSlug: string, metal: string, basis: string): LitContextEntry | null {
+  const exact = context.lit_context.find(
+    (entry) => entry.row_slug === rowSlug && entry.metal === metal && entry.basis === basis,
+  )
+  if (exact) return exact
+  return context.lit_context.find((entry) => entry.row_slug === rowSlug && entry.metal === metal) ?? null
 }
 
-function renderCategoryNote(root: HTMLElement, state: ToolState) {
-  const note = root.querySelector("[data-percentile-category-note]")
-  if (!note) return
-
-  const clean = availableRows(state.context).find((row) => row.row_slug === state.cleanSlug)
-  const dirty = availableRows(state.context).find((row) => row.row_slug === state.dirtySlug)
-
-  note.innerHTML = `<p><strong>${escapePercentileHTML(state.selectedRow.row_label)}</strong></p>
-    <ul>
-      <li>Clean p90 comparator: ${escapePercentileHTML(clean?.row_label ?? "current row only")}</li>
-      <li>Dirty p10 comparator: ${escapePercentileHTML(dirty?.row_label ?? "not yet available")}</li>
-    </ul>
-    <a href="${escapePercentileHTML(state.selectedRow.product_url)}">Open category evidence page</a>`
+function findRegCap(context: ComparatorContext, rowSlug: string, metal: string): RegCapEntry | null {
+  return context.reg_caps.find((entry) => entry.row_slug === rowSlug && entry.metal === metal) ?? null
 }
 
-function renderTable(root: HTMLElement, state: ToolState) {
-  const table = root.querySelector("[data-percentile-table]")
-  if (!table) return
+function basisLabel(context: ComparatorContext, code: string) {
+  if (!code) return "unspecified basis"
+  const known = context.basis_vocab.find((entry) => entry.code === code)
+  if (known) return known.label
+  return code.replace(/_/g, " ")
+}
 
-  const rows = candidateRows(state)
-
-  if (rows.length === 0) {
-    table.innerHTML = `<div class="hmi-percentile-empty">No structured percentile candidates are available for this category yet.</div>`
-    return
+function convertForBasis(
+  value: number,
+  from: string,
+  to: string,
+): { value: number; explanation: string } | null {
+  if (!from || !to) return null
+  if (from === to) return { value, explanation: "matched basis; no conversion applied" }
+  const preparedAliases = new Set(["prepared_for_feeding", "as_consumed"])
+  const powderAliases = new Set(["as_sold", "as_sold_or_source_reported", "dry_weight"])
+  if (preparedAliases.has(from) && powderAliases.has(to)) {
+    return {
+      value: value * RECONSTITUTION_FACTOR,
+      explanation: `prepared-for-feeding to powder-as-placed at the conservative 1:${RECONSTITUTION_FACTOR - 1} reconstitution (1 g powder per ${RECONSTITUTION_FACTOR - 1} g water)`,
+    }
   }
+  if (powderAliases.has(from) && preparedAliases.has(to)) {
+    return {
+      value: value / RECONSTITUTION_FACTOR,
+      explanation: `powder-as-placed to prepared-for-feeding at the conservative 1:${RECONSTITUTION_FACTOR - 1} reconstitution`,
+    }
+  }
+  return null
+}
 
-  table.innerHTML = `<div class="hmi-context-rows">
-    ${rows
-      .map((row) => {
-        const source = row.clean ?? row.dirty
-        return `<div class="hmi-context-row">
-          <div>
-            <strong>${escapePercentileHTML(row.metal)}</strong>
-            <span>${escapePercentileHTML(prettyBasis(row.basis))}</span>
-          </div>
-          <dl>
-            <div>
-              <dt>Clean p90</dt>
-              <dd>${formatNumber(row.clean?.p90)} ${row.clean?.unit ?? ""}</dd>
-            </div>
-            <div>
-              <dt>Dirty p10</dt>
-              <dd>${formatNumber(row.dirty?.p10)} ${row.dirty?.unit ?? ""}</dd>
-            </div>
-          </dl>
-          <p>
-            <a href="${source?.source_url ?? "#"}">${escapePercentileHTML(source?.source_title ?? "Source pending")}</a>
-            <span>N=${formatNumber(source?.n)}; ${escapePercentileHTML(source?.evidence_fitness ?? "pending review")}</span>
-          </p>
-        </div>`
-      })
-      .join("")}
+function valuePositionPercent(value: number, low: number, high: number) {
+  if (high <= low) return 50
+  const clamped = Math.min(Math.max(value, low), high)
+  return ((clamped - low) / (high - low)) * 100
+}
+
+function renderRangeBar(
+  brandValue: number | null,
+  low: number | null,
+  high: number | null,
+  regCap: number | null,
+) {
+  if (!Number.isFinite(low) || !Number.isFinite(high) || low === null || high === null) {
+    return ""
+  }
+  const upper = Math.max(high, regCap ?? -Infinity, brandValue ?? -Infinity)
+  const lower = Math.min(low, 0, regCap !== null && regCap > 0 ? 0 : low)
+  const litLeft = valuePositionPercent(low, lower, upper)
+  const litWidth = valuePositionPercent(high, lower, upper) - litLeft
+  const brandPosition = brandValue !== null ? valuePositionPercent(brandValue, lower, upper) : null
+  const capPosition = regCap !== null && regCap > 0 ? valuePositionPercent(regCap, lower, upper) : null
+
+  return `<div class="hmi-comparator-rangebar" aria-hidden="true">
+    <div class="hmi-comparator-rangebar-track">
+      <div class="hmi-comparator-rangebar-literature" style="left:${litLeft}%; width:${litWidth}%"></div>
+      ${capPosition !== null ? `<div class="hmi-comparator-rangebar-cap" style="left:${capPosition}%" title="Regulatory cap"></div>` : ""}
+      ${brandPosition !== null ? `<div class="hmi-comparator-rangebar-brand" style="left:${brandPosition}%" title="Your value"></div>` : ""}
+    </div>
+    <div class="hmi-comparator-rangebar-axis">
+      <span>${formatNumber(lower)} ppb</span>
+      <span>${formatNumber(upper)} ppb</span>
+    </div>
   </div>`
 }
 
-function populateResultInputs(root: HTMLElement, state: ToolState) {
-  const container = root.querySelector("[data-percentile-result-inputs]")
-  if (!container) return
+function renderAnalyteCard(state: ComparatorState, analyte: AnalyteSpec) {
+  const { context, rowSlug, basis } = state
+  const lit = findLitContext(context, rowSlug, analyte.code, basis)
+  const cap = findRegCap(context, rowSlug, analyte.code)
+  const litRangeText = lit && lit.range_low !== null && lit.range_high !== null
+    ? `${formatNumber(lit.range_low)} to ${formatNumber(lit.range_high)} ppb`
+    : "no numeric range loaded"
+  const centralText = lit && lit.central_low !== null && lit.central_high !== null
+    ? lit.central_low === lit.central_high
+      ? `central tendency ${formatNumber(lit.central_low)} ppb`
+      : `central tendency ${formatNumber(lit.central_low)} to ${formatNumber(lit.central_high)} ppb`
+    : null
 
-  const rows = candidateRows(state)
-  if (rows.length === 0) {
-    container.innerHTML = `<div class="hmi-percentile-empty">This category does not have comparable ppb percentile rows yet.</div>`
-    return
+  const sourceCountText = lit
+    ? `${lit.n_sources} source${lit.n_sources === 1 ? "" : "s"} cited on this basis`
+    : "no cited sources on this basis"
+  const litBasisNote = lit && lit.basis && lit.basis !== basis
+    ? ` (cited literature on ${basisLabel(context, lit.basis)} basis)`
+    : ""
+
+  const capText = cap
+    ? `${formatNumber(cap.value_ppb)} ppb cap; ${cap.authority || "regulatory authority"}, basis: ${cap.basis}`
+    : "no regulatory cap loaded for this product / analyte"
+  const capLinkText = cap?.page
+    ? ` <a href="${escapeComparatorHTML(cap.page)}">View regulation</a>.`
+    : ""
+
+  const confidenceText = lit ? lit.confidence : "data gap"
+  const confidenceSlug = confidenceText.replace(/\s+/g, "-")
+
+  return `<div class="hmi-comparator-analyte" data-analyte="${escapeComparatorHTML(analyte.code)}">
+    <div class="hmi-comparator-analyte-header">
+      <div>
+        <strong>${escapeComparatorHTML(analyte.label)} (${escapeComparatorHTML(analyte.code)})</strong>
+        <a class="hmi-comparator-analyte-link" href="${escapeComparatorHTML(analyte.wiki_link)}">about this metal</a>
+      </div>
+      <div class="hmi-comparator-confidence hmi-comparator-confidence-${escapeComparatorHTML(confidenceSlug)}">
+        ${escapeComparatorHTML(confidenceText)} confidence
+      </div>
+    </div>
+
+    <dl class="hmi-comparator-facts">
+      <div>
+        <dt>Reported range across cited sources</dt>
+        <dd>${escapeComparatorHTML(litRangeText)}${centralText ? `; ${escapeComparatorHTML(centralText)}` : ""}${escapeComparatorHTML(litBasisNote)}</dd>
+      </div>
+      <div>
+        <dt>Cited sources on this basis</dt>
+        <dd>${escapeComparatorHTML(sourceCountText)}</dd>
+      </div>
+      <div>
+        <dt>Applicable regulatory cap</dt>
+        <dd>${escapeComparatorHTML(capText)}.${capLinkText}</dd>
+      </div>
+    </dl>
+
+    <div class="hmi-comparator-rangebar-wrap" data-rangebar></div>
+
+    <form class="hmi-comparator-input" data-analyte-form>
+      <label>
+        Your lab result (ppb)
+        <input type="number" min="0" step="any" inputmode="decimal" data-analyte-input placeholder="—" />
+      </label>
+      <button type="submit">Check this value</button>
+    </form>
+
+    <div class="hmi-comparator-result" data-analyte-result>
+      ${lit?.coverage_note ? `<p class="hmi-comparator-coverage-note">${escapeComparatorHTML(lit.coverage_note)}</p>` : ""}
+    </div>
+
+    <details class="hmi-comparator-remediation">
+      <summary>What to do if your value is high</summary>
+      <p>${escapeComparatorHTML(analyte.remediation_note)}</p>
+      <p><a href="${escapeComparatorHTML(analyte.mitigation_link)}">Open the ${escapeComparatorHTML(analyte.label)} mitigation guide</a>.</p>
+    </details>
+  </div>`
+}
+
+function renderTool(root: HTMLElement, state: ComparatorState) {
+  const container = root.querySelector("[data-comparator-grid]")
+  if (!container) return
+  container.innerHTML = state.context.analytes.map((analyte) => renderAnalyteCard(state, analyte)).join("")
+
+  for (const card of [...container.querySelectorAll<HTMLElement>(".hmi-comparator-analyte")]) {
+    const analyteCode = card.dataset.analyte ?? ""
+    const analyte = state.context.analytes.find((entry) => entry.code === analyteCode)
+    if (!analyte) continue
+    const lit = findLitContext(state.context, state.rowSlug, analyteCode, state.basis)
+    const cap = findRegCap(state.context, state.rowSlug, analyteCode)
+    const rangebar = card.querySelector("[data-rangebar]")
+    if (rangebar) {
+      rangebar.innerHTML = renderRangeBar(null, lit?.range_low ?? null, lit?.range_high ?? null, cap?.value_ppb ?? null)
+    }
+    const form = card.querySelector("[data-analyte-form]") as HTMLFormElement | null
+    if (!form) continue
+    form.addEventListener("submit", (event) => {
+      event.preventDefault()
+      const input = form.querySelector("[data-analyte-input]") as HTMLInputElement | null
+      if (!input) return
+      const numeric = Number(input.value)
+      if (!input.value || !Number.isFinite(numeric)) return
+      handleAnalyteSubmit(card, state, analyte, numeric)
+    })
+  }
+}
+
+function handleAnalyteSubmit(card: HTMLElement, state: ComparatorState, analyte: AnalyteSpec, value: number) {
+  const lit = findLitContext(state.context, state.rowSlug, analyte.code, state.basis)
+  const cap = findRegCap(state.context, state.rowSlug, analyte.code)
+  const result = card.querySelector("[data-analyte-result]")
+  const rangebar = card.querySelector("[data-rangebar]")
+  if (!result) return
+
+  const lines: string[] = []
+
+  if (lit && lit.range_low !== null && lit.range_high !== null) {
+    if (value <= lit.range_high && value >= lit.range_low) {
+      lines.push(`Inside the reported literature range (${formatNumber(lit.range_low)} to ${formatNumber(lit.range_high)} ppb).`)
+    } else if (value > lit.range_high) {
+      lines.push(`Above the highest reported value in cited literature (${formatNumber(lit.range_high)} ppb).`)
+    } else {
+      lines.push(`Below the lowest reported value in cited literature (${formatNumber(lit.range_low)} ppb); confirm detection limits and lab method.`)
+    }
+  } else {
+    lines.push(`Literature is too thin on this matrix and basis to position the value inside a range. Treat this comparator as orientation only.`)
   }
 
-  container.innerHTML = rows
+  if (cap) {
+    let capCompare: { value: number; explanation: string } | null = { value, explanation: "matched basis" }
+    if (cap.basis && cap.basis !== state.basis) {
+      capCompare = convertForBasis(value, state.basis, basisCodeForRegCap(cap.basis))
+    }
+    if (capCompare) {
+      const verdict =
+        capCompare.value <= cap.value_ppb
+          ? `within the ${formatNumber(cap.value_ppb)} ppb regulatory cap`
+          : `above the ${formatNumber(cap.value_ppb)} ppb regulatory cap`
+      const conversionNote =
+        capCompare.value === value
+          ? ""
+          : ` (converted ${formatNumber(value)} → ${formatNumber(capCompare.value)} ppb using ${capCompare.explanation})`
+      lines.push(`${verdict}${conversionNote}.`)
+    } else {
+      lines.push(`Regulatory cap is ${formatNumber(cap.value_ppb)} ppb on a ${cap.basis} basis; no automatic conversion is offered for ${basisLabel(state.context, state.basis)}. Match the basis before drawing a compliance read.`)
+    }
+  } else {
+    lines.push(`No applicable regulatory cap is loaded for this product and analyte.`)
+  }
+
+  if (lit) {
+    const basisList = [...new Set(lit.source_summaries.map((s) => basisLabel(state.context, s.basis)).filter(Boolean))]
+    const basisText = basisList.length > 0 ? ` Cited bases: ${basisList.join(", ")}.` : ""
+    lines.push(
+      `Confidence: ${lit.confidence} (${lit.n_sources} cited source${lit.n_sources === 1 ? "" : "s"}).${basisText}`,
+    )
+  }
+
+  result.innerHTML = `<div class="hmi-comparator-result-card">
+    <strong>Your value: ${formatNumber(value)} ppb (${escapeComparatorHTML(basisLabel(state.context, state.basis))})</strong>
+    <ul>${lines.map((line) => `<li>${escapeComparatorHTML(line)}</li>`).join("")}</ul>
+    <p class="hmi-comparator-disclaimer">This is a directional comparison against cited literature and the applicable regulatory ceiling. It is not a certification decision; HMT&amp;C certification still requires the full required analyte panel, lab documentation, LOD/LOQ review, lot sampling, and HMT&amp;C program review.</p>
+  </div>`
+  if (rangebar) {
+    rangebar.innerHTML = renderRangeBar(value, lit?.range_low ?? null, lit?.range_high ?? null, cap?.value_ppb ?? null)
+  }
+}
+
+function basisCodeForRegCap(basis: string) {
+  const value = basis.toLowerCase()
+  if (value.includes("placed on the market") || value.includes("as sold")) return "as_sold"
+  if (value.includes("prepared")) return "prepared_for_feeding"
+  if (value.includes("as consumed") || value.includes("ready-to-eat")) return "as_consumed"
+  if (value.includes("dry")) return "dry_weight"
+  return basis
+}
+
+function defaultBasisFor(context: ComparatorContext, rowSlug: string) {
+  const candidates = context.lit_context.filter((entry) => entry.row_slug === rowSlug)
+  if (candidates.length === 0) return context.basis_vocab[0]?.code ?? "as_sold"
+  const counts = new Map<string, number>()
+  for (const entry of candidates) {
+    counts.set(entry.basis, (counts.get(entry.basis) ?? 0) + 1)
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0]
+}
+
+function populateCategorySelect(root: HTMLElement, context: ComparatorContext, selectedSlug: string) {
+  const select = root.querySelector("[data-comparator-row]") as HTMLSelectElement | null
+  if (!select) return
+  const rows = rowsAvailable(context)
+  select.innerHTML = rows
     .map((row) => {
-      return `<label class="hmi-result-input-row">
-        <span>
-          <strong>${escapePercentileHTML(row.metal)}</strong>
-          <small>${escapePercentileHTML(prettyBasis(row.basis))}</small>
-        </span>
-        <input
-          name="${escapePercentileHTML(`${row.metal}|||${row.basis}`)}"
-          type="number"
-          min="0"
-          step="any"
-          inputmode="decimal"
-          placeholder="ppb"
-          data-result-input
-          data-metal="${escapePercentileHTML(row.metal)}"
-          data-basis="${escapePercentileHTML(row.basis)}"
-        />
-        <em>ppb</em>
-      </label>`
+      const selected = row.row_slug === selectedSlug ? " selected" : ""
+      return `<option value="${escapeComparatorHTML(row.row_slug)}"${selected}>${escapeComparatorHTML(rowLabel(row))}</option>`
     })
     .join("")
 }
 
-function estimatePercentile(value: number, record: PercentileRecord | undefined) {
-  if (!record) return undefined
-
-  const points = [
-    [10, record.p10],
-    [50, record.p50],
-    [90, record.p90],
-    [95, record.p95],
-    [100, record.p100],
-  ].filter((point): point is [number, number] => typeof point[1] === "number")
-
-  if (points.length < 2) return undefined
-  if (value <= points[0][1]) return `at or below about the ${points[0][0]}th percentile`
-
-  for (let index = 1; index < points.length; index += 1) {
-    const [previousPercentile, previousValue] = points[index - 1]
-    const [nextPercentile, nextValue] = points[index]
-    if (value <= nextValue) {
-      if (nextValue === previousValue) return `near the ${nextPercentile}th percentile`
-      const fraction = (value - previousValue) / (nextValue - previousValue)
-      const estimate = previousPercentile + fraction * (nextPercentile - previousPercentile)
-      return `around the ${Math.round(estimate)}th percentile`
-    }
-  }
-
-  return "above the reported source maximum"
+function populateBasisSelect(root: HTMLElement, context: ComparatorContext, selectedBasis: string) {
+  const select = root.querySelector("[data-comparator-basis]") as HTMLSelectElement | null
+  if (!select) return
+  select.innerHTML = context.basis_vocab
+    .map((option) => {
+      const selected = option.code === selectedBasis ? " selected" : ""
+      return `<option value="${escapeComparatorHTML(option.code)}"${selected}>${escapeComparatorHTML(option.label)}</option>`
+    })
+    .join("")
 }
 
-function evaluateResult(state: ToolState, metal: string, basis: string, value: number) {
-  const clean = state.records.find(
-    (record) => record.row_slug === state.cleanSlug && record.metal === metal && record.basis === basis,
-  )
-  const dirty = state.records.find(
-    (record) => record.row_slug === state.dirtySlug && record.metal === metal && record.basis === basis,
-  )
-  const current = state.records.find(
-    (record) => record.row_slug === state.selectedRow.row_slug && record.metal === metal && record.basis === basis,
-  )
+async function setupComparator(root: HTMLElement) {
+  if (root.dataset.comparatorReady === "true") return
+  root.dataset.comparatorReady = "true"
 
-  const percentile = estimatePercentile(value, current ?? clean ?? dirty)
-  const cleanP90 = clean?.p90
-  const dirtyP10 = dirty?.p10
-  const cleanSignal = typeof cleanP90 === "number" ? value <= cleanP90 : undefined
-  const dirtySignal = typeof dirtyP10 === "number" ? value < dirtyP10 : undefined
-
-  let headline = "Needs standards review"
-  if (cleanSignal === true && dirtySignal === true) {
-    headline = "Promising single-metal pre-screen"
-  } else if (cleanSignal === true && dirtySignal === undefined) {
-    headline = "Within clean p90 candidate"
-  } else if (cleanSignal === false) {
-    headline = "Above current clean p90 candidate"
-  } else if (dirtySignal === false) {
-    headline = "Overlaps dirty-platform context"
-  }
-
-  const bullets = [
-    percentile ? `Estimated source position: ${percentile}.` : undefined,
-    typeof cleanP90 === "number"
-      ? `Clean benchmark p90 candidate: ${formatNumber(cleanP90)} ${clean?.unit}.`
-      : "Clean benchmark p90 candidate is not available for this metal/basis.",
-    typeof dirtyP10 === "number"
-      ? `Dirty-platform p10 candidate: ${formatNumber(dirtyP10)} ${dirty?.unit}.`
-      : "Dirty-platform p10 candidate is not available for this metal/basis.",
-    clean?.substitution_rule ? `Non-detect rule: ${clean.substitution_rule}.` : undefined,
-  ].filter((bullet): bullet is string => Boolean(bullet))
-
-  return { metal, basis, value, headline, bullets, cleanSignal, dirtySignal }
-}
-
-function overallHeadline(evaluations: ReturnType<typeof evaluateResult>[]) {
-  if (evaluations.some((evaluation) => evaluation.cleanSignal === false)) {
-    return "One or more results are above the current clean p90 candidate"
-  }
-
-  if (evaluations.some((evaluation) => evaluation.dirtySignal === false)) {
-    return "One or more results overlap the dirty-platform context"
-  }
-
-  if (evaluations.every((evaluation) => evaluation.cleanSignal === true && evaluation.dirtySignal === true)) {
-    return "Promising pre-screen across entered metals"
-  }
-
-  if (evaluations.every((evaluation) => evaluation.cleanSignal === true)) {
-    return "Entered values are within available clean p90 candidates"
-  }
-
-  return "Needs standards review"
-}
-
-function setupForm(root: HTMLElement) {
-  const form = root.querySelector("[data-percentile-form]") as HTMLFormElement | null
-  const result = root.querySelector("[data-percentile-result]")
-  const button = form?.querySelector("button[type='submit']")
-  if (!form || !result || form.dataset.percentileFormReady === "true") return
-
-  form.dataset.percentileFormReady = "true"
-  const handleSubmit = (event: Event) => {
-    event.preventDefault()
-    const state = stateByRoot.get(root)
-    if (!state) return
-
-    const inputs = [...form.querySelectorAll("[data-result-input]")] as HTMLInputElement[]
-    const evaluations = inputs
-      .map((input) => {
-        const value = Number(input.value)
-        if (!input.value || !Number.isFinite(value)) return undefined
-        return evaluateResult(state, input.dataset.metal ?? "", input.dataset.basis ?? "", value)
-      })
-      .filter((evaluation): evaluation is ReturnType<typeof evaluateResult> => Boolean(evaluation))
-
-    if (evaluations.length === 0) {
-      result.innerHTML = `<div class="hmi-percentile-result-card warning">Enter at least one numeric ppb value first.</div>`
-      return
-    }
-
-    const hasCaution = evaluations.some(
-      (evaluation) => evaluation.cleanSignal === false || evaluation.dirtySignal === false,
-    )
-    const tone = hasCaution ? "caution" : "good"
-
-    result.innerHTML = `<div class="hmi-percentile-result-card ${tone}">
-      <strong>${escapePercentileHTML(overallHeadline(evaluations))}</strong>
-      <p>${evaluations.length} result${evaluations.length === 1 ? "" : "s"} assessed for ${escapePercentileHTML(
-        state.selectedRow.row_label,
-      )}.</p>
-      <div class="hmi-result-lines">
-        ${evaluations
-          .map((evaluation) => {
-            return `<div class="hmi-result-line">
-              <strong>${escapePercentileHTML(evaluation.metal)} ${escapePercentileHTML(prettyBasis(evaluation.basis))}: ${formatNumber(
-                evaluation.value,
-              )} ppb</strong>
-              <span>${escapePercentileHTML(evaluation.headline)}</span>
-              <ul>${evaluation.bullets.map((bullet) => `<li>${escapePercentileHTML(bullet)}</li>`).join("")}</ul>
-            </div>`
-          })
-          .join("")}
-      </div>
-      <p>Single-page pre-screen only. Full certification requires all required analytes and HMT&C review.</p>
-    </div>`
-  }
-
-  form.addEventListener("submit", handleSubmit)
-  button?.addEventListener("click", handleSubmit)
-}
-
-function updateTool(root: HTMLElement, context: PercentileContext, selectedSlug: string) {
-  const row = availableRows(context).find((candidate) => candidate.row_slug === selectedSlug)
-  if (!row) return
-
-  const slugs = classifySlugs(row)
-  const state: ToolState = {
-    context,
-    selectedRow: row,
-    cleanSlug: slugs.cleanSlug,
-    dirtySlug: slugs.dirtySlug,
-    records: context.records,
-  }
-
-  stateByRoot.set(root, state)
-  populateCategorySelect(root, context, row.row_slug)
-  renderCategoryNote(root, state)
-  renderTable(root, state)
-  populateResultInputs(root, state)
-
-  const result = root.querySelector("[data-percentile-result]")
-  if (result) result.innerHTML = ""
-}
-
-async function setupPercentileTool(root: HTMLElement) {
-  if (root.dataset.percentileReady === "true") return
-  root.dataset.percentileReady = "true"
-
-  const status = root.querySelector("[data-percentile-status]")
-  const select = root.querySelector("[data-percentile-category]") as HTMLSelectElement | null
-
+  const status = root.querySelector("[data-comparator-status]")
   try {
-    const context = await loadPercentileContext()
-    const rows = availableRows(context)
-    const selectedSlug = requestedCategory(rows)
-
-    if (!selectedSlug) {
-      status?.classList.add("empty")
-      if (status) status.textContent = "No structured percentile context is available yet."
+    const context = await loadComparatorContext()
+    const rows = rowsAvailable(context)
+    if (rows.length === 0) {
+      if (status) status.textContent = "Lab comparator context is not loaded yet."
       return
     }
+    const initialQueryRow = new URLSearchParams(window.location.search).get("category")
+    const initialRow = rows.find((row) => row.row_slug === initialQueryRow)?.row_slug ?? rows[0].row_slug
+    const initialBasis = defaultBasisFor(context, initialRow)
+    const state: ComparatorState = { context, rowSlug: initialRow, basis: initialBasis }
+    stateByRoot.set(root, state)
 
-    status?.remove()
-    updateTool(root, context, selectedSlug)
-    setupForm(root)
+    populateCategorySelect(root, context, initialRow)
+    populateBasisSelect(root, context, initialBasis)
+    if (status) status.remove()
+    renderTool(root, state)
 
-    select?.addEventListener("change", () => {
-      updateTool(root, context, select.value)
+    const rowSelect = root.querySelector("[data-comparator-row]") as HTMLSelectElement | null
+    rowSelect?.addEventListener("change", () => {
+      state.rowSlug = rowSelect.value
+      state.basis = defaultBasisFor(context, state.rowSlug)
+      populateBasisSelect(root, context, state.basis)
+      renderTool(root, state)
       const url = new URL(window.location.href)
-      url.searchParams.set("category", select.value)
+      url.searchParams.set("category", state.rowSlug)
       window.history.replaceState({}, "", url)
     })
+
+    const basisSelect = root.querySelector("[data-comparator-basis]") as HTMLSelectElement | null
+    basisSelect?.addEventListener("change", () => {
+      state.basis = basisSelect.value
+      renderTool(root, state)
+    })
   } catch {
-    status?.classList.add("empty")
-    if (status) {
-      status.textContent = "Percentile context could not be loaded."
-    }
+    if (status) status.textContent = "Lab comparator context could not be loaded."
   }
 }
 
-function setupAllPercentileTools() {
-  document.querySelectorAll("[data-percentile-tool]").forEach((tool) => {
-    setupPercentileTool(tool as HTMLElement)
+function setupAllComparators() {
+  document.querySelectorAll<HTMLElement>("[data-percentile-tool]").forEach((tool) => {
+    setupComparator(tool)
   })
 }
 
-document.addEventListener("nav", setupAllPercentileTools)
-queueMicrotask(setupAllPercentileTools)
+document.addEventListener("nav", setupAllComparators)
+queueMicrotask(setupAllComparators)

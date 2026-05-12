@@ -10,49 +10,47 @@ export default (() => {
     if (frontmatter?.type !== "brand-pre-screen-tool") return null
 
     return (
-      <section class="hmi-percentile-tool hmi-brand-pre-screen" id="lab-result-comparator" data-percentile-tool>
+      <section
+        class="hmi-percentile-tool hmi-brand-pre-screen"
+        id="lab-result-comparator"
+        data-percentile-tool
+      >
         <div class="hmi-percentile-heading">
           <div>
-            <div class="hmi-percentile-kicker">Brand lab-result comparator</div>
-            <h2>Choose a category and compare your results</h2>
+            <div class="hmi-percentile-kicker">Lab result comparator</div>
+            <h2>Compare your finished-product result against the cited literature</h2>
           </div>
           <p>
-            Enter finished-product heavy-metal results in ppb and compare them with structured
-            Heavy Metal Index percentile context. Values stay in your browser.
+            Enter a finished-product heavy-metal result in ppb. The comparator shows where your
+            value sits inside the range reported by cited peer-reviewed and government sources
+            for the selected product category, and against the applicable regulatory cap. All
+            values stay in your browser; nothing is submitted.
           </p>
         </div>
 
-        <div class="hmi-percentile-status" data-percentile-status>
-          Loading percentile context...
+        <div class="hmi-percentile-status" data-comparator-status>
+          Loading lab comparator context...
         </div>
 
-        <div class="hmi-pre-screen-grid">
-          <div class="hmi-percentile-panel">
-            <h3>Category Context</h3>
-            <label class="hmi-category-select-label">
-              Product category
-              <select name="category" data-percentile-category></select>
-            </label>
-            <div class="hmi-percentile-category-note" data-percentile-category-note></div>
-            <div class="hmi-percentile-table-wrap" data-percentile-table></div>
-          </div>
-
-          <form class="hmi-percentile-panel hmi-percentile-form" data-percentile-form>
-            <h3>Lab Results</h3>
-            <p class="hmi-percentile-form-note">
-              Add one or more reported results from a comparable matrix basis. Leave unknown metals
-              blank.
-            </p>
-            <div class="hmi-result-inputs" data-percentile-result-inputs></div>
-            <button type="submit">Assess entered results</button>
-            <div class="hmi-percentile-result" data-percentile-result></div>
-          </form>
+        <div class="hmi-comparator-controls">
+          <label>
+            Product category
+            <select data-comparator-row></select>
+          </label>
+          <label>
+            Your lab basis
+            <select data-comparator-basis></select>
+          </label>
         </div>
+
+        <div class="hmi-comparator-grid" data-comparator-grid></div>
 
         <p class="hmi-percentile-disclaimer">
-          This is a directional pre-screen, not certification approval. Certification still requires
-          all required analytes, comparable matrix basis, lab documentation, LOQ/LOD review, lot
-          sampling, and HMT&amp;C program review.
+          This comparator reports what the cited literature says and what the applicable
+          regulatory cap is; it does not display HMT&amp;C certification thresholds. Final
+          certification decisions follow the HMT&amp;C program and require the full required
+          analyte panel, comparable matrix basis, lab documentation, LOQ/LOD review, lot
+          sampling, and program review.
         </p>
       </section>
     )
