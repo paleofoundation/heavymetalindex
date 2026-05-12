@@ -1,0 +1,27 @@
+# Pre-commit hook per CLAUDE.md Part 5b.
+#
+# When a commit touches wiki/sources/, refresh the routing audit and abort
+# the commit if the audit cannot regenerate cleanly (blocking-malformed
+# entries; missing cite_key on a source page). The audit's sibling logs
+# (routing_unresolved.csv, routing_malformed.csv) catch advisory and strict
+# issues without blocking the commit during the migration period.
+#
+# Skips the audit when no wiki/sources/ files are staged so commits to
+# unrelated paths stay fast.
+
+if git diff --cached --name-only | grep -q '^wiki/sources/'; then
+  echo "pre-commit: wiki/sources/ touched; running routing audit..."
+  if ! npm run --silent evidence:source-routes; then
+    echo "pre-commit: routing audit failed. Fix the blocking-malformed source(s) named above (typically missing cite_key) and re-commit."
+    exit 1
+  fi
+
+  # If the audit regenerated the audit CSVs, stage them so the commit
+  # includes the refreshed state instead of leaving it as a dirty working
+  # tree post-commit.
+  for f in data/evidence/product_source_routing_audit.csv data/evidence/routing_unresolved.csv data/evidence/routing_malformed.csv; do
+    if [ -f "$f" ] && ! git diff --quiet -- "$f"; then
+      git add "$f"
+    fi
+  done
+fi
