@@ -24,6 +24,34 @@ sources: 0
 
 This page is HMTc Category 5 row 11 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
 
+<!-- BEGIN: hmi-stakeholder-guide -->
+<div class="hmi-stakeholder-guide">
+  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+  <dl>
+    <div>
+      <dt>Brand legal and regulatory affairs</dt>
+      <dd>Cherry-pick attack vectors on tea (Camellia sinensis) typically center on aluminum, manganese, and lead uptake by the tea plant; elevation and provincial sourcing drive multi-fold variance. The aluminum case for true tea is one of the most-litigated heavy-metal-in-food categories. Geographic and elevation context is the defensive core. Compare with <a href="/products/matcha">Matcha</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+    </div>
+    <div>
+      <dt>Retailer quality and compliance</dt>
+      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+    </div>
+    <div>
+      <dt>Brand QA and product development</dt>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=true-tea-camellia-sinensis">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for true tea, with aluminum and lead treated as primary concerns.</dd>
+    </div>
+    <div>
+      <dt>Regulators, journalists, and adversarial readers</dt>
+      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+    </div>
+    <div>
+      <dt>HMT&amp;C staff (internal)</dt>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/true-tea-camellia-sinensis">/workbench/standards/true-tea-camellia-sinensis</a>, not on this public page.</dd>
+    </div>
+  </dl>
+</div>
+<!-- END: hmi-stakeholder-guide -->
 ## Decision Snapshot
 
 | Field | Status |

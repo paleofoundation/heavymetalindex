@@ -32,6 +32,34 @@ sources: 3
 
 This page is a structural scaffold for HMTc Category 1 row 10. Broad baby-food analytical sources and a small Meli 2024 meat-homogenate summary are promoted; meat-and-poultry puree-specific distributions are still pending.
 
+<!-- BEGIN: hmi-stakeholder-guide -->
+<div class="hmi-stakeholder-guide">
+  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+  <dl>
+    <div>
+      <dt>Brand legal and regulatory affairs</dt>
+      <dd>Cherry-pick attack vectors on meat and poultry purees typically center on lead in livestock liver and kidney products and on cadmium accumulation in older animals. Sourcing transparency (cut, age, region) is the defensive core; the Methodology section's species-vs-species rule (total Hg vs MeHg, etc.) keeps non-comparable values out of the read. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+    </div>
+    <div>
+      <dt>Retailer quality and compliance</dt>
+      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+    </div>
+    <div>
+      <dt>Brand QA and product development</dt>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=meat-and-poultry-purees">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for meat and poultry purees, against the FDA 2025 baby-food lead cap.</dd>
+    </div>
+    <div>
+      <dt>Regulators, journalists, and adversarial readers</dt>
+      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+    </div>
+    <div>
+      <dt>HMT&amp;C staff (internal)</dt>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/meat-and-poultry-purees">/workbench/standards/meat-and-poultry-purees</a>, not on this public page.</dd>
+    </div>
+  </dl>
+</div>
+<!-- END: hmi-stakeholder-guide -->
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 

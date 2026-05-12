@@ -37,6 +37,34 @@ sources: 5
 
 This page is a structural scaffold for HMTc Category 1 row 13. FDA compliance samples provide a small rice-named mixture subset, while broader rice/rice-mix, savoury infant-food, and U.S. baby-food survey sources remain useful context.
 
+<!-- BEGIN: hmi-stakeholder-guide -->
+<div class="hmi-stakeholder-guide">
+  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+  <dl>
+    <div>
+      <dt>Brand legal and regulatory affairs</dt>
+      <dd>Cherry-pick attack vectors on rice-containing mixed meals typically center on inorganic arsenic (because of the rice base) plus secondary lead and cadmium from vegetable and meat ingredients. Source provenance and ingredient-list scrutiny are the defensive core. Compare with <a href="/products/mixed-meals-non-rice">Mixed Meals Non Rice</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+    </div>
+    <div>
+      <dt>Retailer quality and compliance</dt>
+      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+    </div>
+    <div>
+      <dt>Brand QA and product development</dt>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=mixed-meals-rice-containing">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for rice-containing mixed meals, against the FDA 2025 baby-food cap with rice-base context.</dd>
+    </div>
+    <div>
+      <dt>Regulators, journalists, and adversarial readers</dt>
+      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+    </div>
+    <div>
+      <dt>HMT&amp;C staff (internal)</dt>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/mixed-meals-rice-containing">/workbench/standards/mixed-meals-rice-containing</a>, not on this public page.</dd>
+    </div>
+  </dl>
+</div>
+<!-- END: hmi-stakeholder-guide -->
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 

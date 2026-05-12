@@ -25,6 +25,34 @@ sources: 2
 
 This page is HMTc Category 5 row 6. It is no longer a pure scaffold: the row has early finished-product occurrence evidence, but the evidence is still insufficient for HMTc threshold-setting.
 
+<!-- BEGIN: hmi-stakeholder-guide -->
+<div class="hmi-stakeholder-guide">
+  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+  <dl>
+    <div>
+      <dt>Brand legal and regulatory affairs</dt>
+      <dd>Cherry-pick attack vectors on soy-based plant milks typically center on cadmium uptake by the soy crop. Geographic and growing-region context are the defensive core. Compare with <a href="/products/plant-milks-non-soy-non-rice">Plant Milks Non Soy Non Rice</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+    </div>
+    <div>
+      <dt>Retailer quality and compliance</dt>
+      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+    </div>
+    <div>
+      <dt>Brand QA and product development</dt>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=plant-milks-soy-based">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for soy-based plant milks.</dd>
+    </div>
+    <div>
+      <dt>Regulators, journalists, and adversarial readers</dt>
+      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+    </div>
+    <div>
+      <dt>HMT&amp;C staff (internal)</dt>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/plant-milks-soy-based">/workbench/standards/plant-milks-soy-based</a>, not on this public page.</dd>
+    </div>
+  </dl>
+</div>
+<!-- END: hmi-stakeholder-guide -->
 ## Decision Snapshot
 
 | Field                 | Status                                                                             |

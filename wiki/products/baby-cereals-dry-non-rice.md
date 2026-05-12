@@ -36,6 +36,34 @@ sources: 8
 
 This page is a structural scaffold for HMTc Category 1 row 5. FDA compliance samples now provide a direct non-rice dry-cereal lower-bound distribution, while broader cereal and infant-food sources remain useful context.
 
+<!-- BEGIN: hmi-stakeholder-guide -->
+<div class="hmi-stakeholder-guide">
+  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+  <dl>
+    <div>
+      <dt>Brand legal and regulatory affairs</dt>
+      <dd>Cherry-pick attack vectors on non-rice cereal typically center on lead and cadmium in grain bases (oats, wheat, barley) where soil-uptake and harvest-year variance is wide. The Methodology section's basis preservation rule (dry cereal vs prepared) is the defensive core. Compare with <a href="/products/baby-cereals-dry-rice-based">Baby Cereals Dry Rice Based</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+    </div>
+    <div>
+      <dt>Retailer quality and compliance</dt>
+      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+    </div>
+    <div>
+      <dt>Brand QA and product development</dt>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=baby-cereals-dry-non-rice">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for non-rice cereal grains, against the FDA 2025 dry-cereal cap.</dd>
+    </div>
+    <div>
+      <dt>Regulators, journalists, and adversarial readers</dt>
+      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+    </div>
+    <div>
+      <dt>HMT&amp;C staff (internal)</dt>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/baby-cereals-dry-non-rice">/workbench/standards/baby-cereals-dry-non-rice</a>, not on this public page.</dd>
+    </div>
+  </dl>
+</div>
+<!-- END: hmi-stakeholder-guide -->
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 

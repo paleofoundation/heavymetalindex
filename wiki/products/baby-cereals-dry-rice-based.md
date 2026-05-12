@@ -37,6 +37,34 @@ sources: 10
 
 This page is a structural scaffold for HMTc Category 1 row 6. Quantitative evidence now includes FDA rice-cereal compliance samples, rice/rice-mix review evidence, a small grain baby-food distribution, a large U.S. baby-food lead/cadmium survey, and regulatory action-level context.
 
+<!-- BEGIN: hmi-stakeholder-guide -->
+<div class="hmi-stakeholder-guide">
+  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+  <dl>
+    <div>
+      <dt>Brand legal and regulatory affairs</dt>
+      <dd>Inorganic arsenic in infant rice cereal is the highest-profile cherry-pick target in the entire HMT&C product set; the FDA 2020 100 ppb action level is the public number a plaintiff's expert anchors on. The literature shows wide cultivar, geography, and cooking-water variance, and basis (dry vs as-served) shifts values by 4-5x. Source provenance, geographic breakdown (when populated), and rinsing-and-cooking-method context are the defensive core. Compare with <a href="/products/baby-cereals-dry-non-rice">Baby Cereals Dry Non Rice</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+    </div>
+    <div>
+      <dt>Retailer quality and compliance</dt>
+      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+    </div>
+    <div>
+      <dt>Brand QA and product development</dt>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=baby-cereals-dry-rice-based">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for rice cereal, against the FDA 2020 cap and EU 2023/915, with basis conversion explicit.</dd>
+    </div>
+    <div>
+      <dt>Regulators, journalists, and adversarial readers</dt>
+      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+    </div>
+    <div>
+      <dt>HMT&amp;C staff (internal)</dt>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/baby-cereals-dry-rice-based">/workbench/standards/baby-cereals-dry-rice-based</a>, not on this public page.</dd>
+    </div>
+  </dl>
+</div>
+<!-- END: hmi-stakeholder-guide -->
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
