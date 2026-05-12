@@ -160,6 +160,9 @@ const FAMILIES = {
 // matcher would get it wrong, plus the human-readable matrix name used in
 // the brand-QA entry's parenthetical.
 const SLUG_FAMILY = new Map([
+  ["infant-formula-powder", "infant_formula"],
+  ["infant-formula-rtf-liquid", "infant_formula"],
+  ["baby-cereals", "baby_cereal_non_rice"],
   ["baby-cereals-dry-rice-based", "baby_cereal_rice"],
   ["baby-cereals-dry-non-rice", "baby_cereal_non_rice"],
   ["fruit-purees", "puree_fruit"],
