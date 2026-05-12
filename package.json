@@ -48,7 +48,8 @@
     "evidence:sync-local": "node tools/evidence/sync-local-evidence.mjs",
     "evidence:watch-local": "node tools/evidence/watch-local-evidence.mjs",
     "evidence:show-results": "node tools/evidence/show-auto-ingest-results.mjs",
-    "evidence:source-routes": "node tools/evidence/build-routing-audit.mjs"
+    "evidence:source-routes": "node tools/evidence/build-routing-audit.mjs",
+    "watch:sources": "node tools/watch-sources.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
