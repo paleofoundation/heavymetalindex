@@ -21,7 +21,7 @@ products: [baby-cereals-dry-rice-based, teething-and-snacks-rice-based]
 product_metal_scope:
   baby-cereals-dry-rice-based: [iAs]
   teething-and-snacks-rice-based: [iAs]
-ingredients: [rice, rice-cereal, rice-crackers]
+ingredients: [rice, rice-cereal, rice-cakes]
 jurisdictions: [EU, US]
 updated: 2026-05-07
 ---

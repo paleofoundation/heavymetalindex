@@ -11,7 +11,7 @@ source_type: peer-reviewed
 evidence_tier: A
 raw_path: raw/markdown/FM_9439980_Essential_and_Non-essential_Trace_Elements_in_Milks_and_Plan/FM_9439980_Essential_and_Non-essential_Trace_Elements_in_Milks_and_Plan.md
 metals: [Pb, tHg, Ni, U]
-ingredients: [plant-milk, soy, almond, rice, oat, whole-milk, goat-milk]
+ingredients: [plant-milk, soy, almond, rice, oat, whole-milk, milk-and-dairy]
 products: [plant-milks-soy-based, plant-milks-rice-based, plant-milks-non-soy-non-rice, infant-formula]
 context_only_products: [infant-formula-powder-non-soy]
 jurisdictions: [EU, Spain]

@@ -12,7 +12,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_4509523/FM_4509523.md
 metals: [Pb, Cd, tHg]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/seaweed]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: []
 matrices: [dietary-intake, blood, urine, food]
 jurisdictions: [KR]

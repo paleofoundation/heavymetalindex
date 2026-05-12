@@ -12,8 +12,8 @@ evidence_tier: A
 license: null
 raw_path: raw/markdown/FM_11167146/FM_11167146.md
 metals: [tAs, Cd, Pb, Cr, Ni, Zn]
-ingredients: ["[[ingredients/dairy]]"]
-products: ["[[products/dairy]]"]
+ingredients: ["[[ingredients/milk-and-dairy]]"]
+products: []
 matrices: [animal-feed, dairy-supply-chain]
 jurisdictions: [ZA]
 near_duplicates: []

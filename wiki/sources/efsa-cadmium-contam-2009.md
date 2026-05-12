@@ -14,8 +14,8 @@ access_date: 2026-04-24
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/980
 license: public-reference-only
 metals: [Cd]
-ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/vegetables-leafy]]", "[[ingredients/vegetables-root]]", "[[ingredients/potatoes]]", "[[ingredients/starchy-roots]]", "[[ingredients/nuts]]", "[[ingredients/oilseeds]]", "[[ingredients/pulses]]", "[[ingredients/chocolate]]", "[[ingredients/cocoa]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/oysters]]", "[[ingredients/mussels]]", "[[ingredients/fish]]", "[[ingredients/horse-meat]]", "[[ingredients/offal-liver]]", "[[ingredients/offal-kidney]]", "[[ingredients/seaweed]]", "[[ingredients/mushrooms]]", "[[ingredients/celeriac]]", "[[ingredients/spinach]]"]
-products: ["[[products/chocolate]]", "[[products/infant-formula]]", "[[products/breast-milk]]"]
+ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/leafy-greens]]", "[[ingredients/root-vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/peanuts]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/lentils]]", "[[ingredients/chocolate]]", "[[ingredients/cocoa]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/fish]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]", "[[ingredients/seafood]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/spinach]]"]
+products: ["[[products/infant-formula]]"]
 jurisdictions: [EU]
 superseded_by: null
 updated: 2026-04-24

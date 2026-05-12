@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_13070780/FM_13070780.md
 metals: [Pb, tAs, Cd, Cr, tHg, U]
-ingredients: ["[[ingredients/clay-geophagy]]"]
+ingredients: []
 products: []
 matrices: [clay-geophagic, dietary-intake]
 jurisdictions: [GH]

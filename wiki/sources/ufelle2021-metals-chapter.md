@@ -14,7 +14,7 @@ access_date: 2026-04-24
 access_url: https://accesspharmacy.mhmedical.com/book.aspx?bookid=2964
 license: copyright-licensed-private
 metals: [As, Cd, Cr, Pb, Hg, Ni, Co, Cu, Fe, Mg, Mn, Mo, Zn, Al, Li, Pt, Sb, Ba, Cs, Pd, Ag, Te, Tl, Sn, Ti, U, V, Be, Au]
-ingredients: ["[[ingredients/seafood]]", "[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/drinking-water]]"]
+ingredients: ["[[ingredients/seafood]]", "[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/water]]"]
 products: []
 jurisdictions: [US, international]
 superseded_by: null

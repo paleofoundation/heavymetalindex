@@ -12,7 +12,7 @@ license: springer
 raw_path: "raw 2/Nickel Content of Food and Estimation of Dietary Intake.pdf"
 access_url: "https://doi.org/10.1007/BF01043437"
 metals: [Ni]
-ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/soybean]]", "[[ingredients/oats]]", "[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/peanut]]", "[[ingredients/walnut]]", "[[ingredients/hazelnut]]", "[[ingredients/almond]]", "[[ingredients/legumes]]", "[[ingredients/potato]]", "[[ingredients/leafy-vegetables]]"]
+ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/soy]]", "[[ingredients/oat]]", "[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/peanuts]]", "[[ingredients/almond]]", "[[ingredients/lentils]]", "[[ingredients/potatoes]]", "[[ingredients/leafy-greens]]"]
 products: []
 matrices: [foods-dietary-survey, danish-average-diet, ni-load-factor]
 jurisdictions: [DK]

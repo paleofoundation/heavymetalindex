@@ -20,15 +20,15 @@
     {
       "id": "TRIAGE-ROUTING-UNRESOLVED",
       "strategy": "triage",
-      "title": "Triage 240 routing-unresolved entries",
+      "title": "Triage 256 routing-unresolved entries",
       "impact_score": 250,
       "cost": "expensive",
       "confidence": 0.9,
-      "closes_count": 240,
+      "closes_count": 256,
       "closes_what": "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
       "best_dispatched_to": "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
       "prompt_path": "data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md",
-      "details": "240 entries broken down as: 177 ingredient, 63 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
+      "details": "256 entries broken down as: 71 product, 185 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
       "priority": 28.125
     },
     {

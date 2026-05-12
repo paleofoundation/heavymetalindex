@@ -32,7 +32,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 2. Triage 240 routing-unresolved entries
+## 2. Triage 256 routing-unresolved entries
 
 **Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
 **Strategy:** triage
@@ -43,7 +43,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 **What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
 
-**Details:** 240 entries broken down as: 177 ingredient, 63 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
+**Details:** 256 entries broken down as: 71 product, 185 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
 
 ---
 

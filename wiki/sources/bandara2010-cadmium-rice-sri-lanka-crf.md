@@ -12,7 +12,7 @@ evidence_tier: A
 license: paywalled
 raw_path: raw/markdown/FM_7127468/FM_7127468.md
 metals: [Cd, Pb, Fe]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/pulses]]", "[[ingredients/fish]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/lentils]]", "[[ingredients/fish]]"]
 products: []
 matrices: [rice-grain, pulses, fish, breast-milk, drinking-water, wet-weight]
 jurisdictions: [LK]

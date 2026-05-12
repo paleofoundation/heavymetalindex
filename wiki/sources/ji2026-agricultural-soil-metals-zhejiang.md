@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12962467/FM_12962467.md
 metals: [Cr, Pb, Cd, tHg, As]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/tea]]", "[[ingredients/vegetables]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/camellia-sinensis]]", "[[ingredients/vegetables]]"]
 products: []
 matrices: [agricultural-soil]
 jurisdictions: [CN]

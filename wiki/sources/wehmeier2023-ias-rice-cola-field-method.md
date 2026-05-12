@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11009735/FM_11009735.md
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/infant-rice-cereal]]", "[[products/rice-crackers]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [rice, rice-flour, infant-rice, rice-cracker, unpolished-rice, parboiled-rice]
 jurisdictions: [AT]
 near_duplicates: []

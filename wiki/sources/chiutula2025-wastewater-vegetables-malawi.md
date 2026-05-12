@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12652890/FM_12652890.md
 metals: [Cd, Cr, Pb]
 products: []
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/brassica]]", "[[ingredients/amaranth]]"]
+ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/broccoli]]", "[[ingredients/non-rice-grains]]"]
 matrices: [leafy-vegetables, vegetable-stems, soil, wastewater]
 jurisdictions: [MW]
 sample_n: 36

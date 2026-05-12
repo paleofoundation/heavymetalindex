@@ -14,8 +14,8 @@ access_date: 2026-04-25
 access_url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/inorganic-arsenic-rice-cereals-infants-action-level
 license: us-government-work
 metals: [iAs]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/infant-rice-cereal]]"]
-products: ["[[products/infant-rice-cereal]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/rice-cereal]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 jurisdictions: [US]
 superseded_by: null
 updated: 2026-04-25

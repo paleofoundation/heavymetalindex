@@ -13,7 +13,7 @@ raw_path: raw/markdown/FM_12378713/FM_12378713.md
 access_url: https://doi.org/10.1007/s10653-025-02723-2
 license: public-redistribute
 metals: [iAs, tAs, MMA, DMA]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/brown-rice]]", "[[ingredients/white-rice]]"]
+ingredients: ["[[ingredients/rice]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null

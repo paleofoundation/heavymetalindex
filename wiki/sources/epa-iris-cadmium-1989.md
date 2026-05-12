@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://iris.epa.gov/ChemicalLanding/&substance_nmbr=141
 license: us-government-work
 metals: [Cd]
-ingredients: ["[[ingredients/drinking-water]]"]
+ingredients: ["[[ingredients/water]]"]
 products: []
 jurisdictions: [US]
 superseded_by: null

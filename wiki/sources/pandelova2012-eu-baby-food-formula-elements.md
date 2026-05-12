@@ -11,7 +11,7 @@ evidence_tier: A
 raw_path: "raw/studies/pandelova2012.pdf"
 access_url: https://doi.org/10.1016/j.jfca.2012.04.011
 metals: [Cd, tHg, Ni, Pb, Ca, Cu, Fe, Mn, Se, Zn]
-products: [infant-formula-powder, infant-formula-soy, infant-formula-hypoallergenic, solid-baby-foods-and-beverages]
+products: [infant-formula-powder, infant-formula-powder-soy-based, infant-formula-powder-non-soy]
 jurisdictions: [EU, FR, DE, IT, PT, SE, UK, ES, SK]
 updated: 2026-04-29
 ---

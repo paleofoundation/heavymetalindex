@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12609216/FM_12609216.md
 metals: [Cd]
 products: []
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 matrices: [analytical-method, tea-leaves, brewed-tea, soil]
 jurisdictions: [EU, CN, BR]
 sample_n: null

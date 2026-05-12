@@ -15,7 +15,7 @@ access_url: https://www.minamataconvention.org/en/documents/minamata-convention-
 license: public-redistribute
 metals: [Hg, MeHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: ["[[products/dental-amalgam]]", "[[products/fluorescent-lamps]]", "[[products/batteries]]", "[[products/pesticides]]"]
+products: []
 jurisdictions: [international]
 superseded_by: null
 updated: 2026-04-25

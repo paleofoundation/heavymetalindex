@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11311761/FM_11311761.md
 metals: [tHg]
 products: []
-ingredients: ["[[ingredients/milk]]"]
+ingredients: ["[[ingredients/milk-and-dairy]]"]
 matrices: [analytical-method]
 jurisdictions: []
 near_duplicates: []

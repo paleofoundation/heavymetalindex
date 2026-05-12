@@ -14,7 +14,7 @@ license: public-reference-only
 raw_path: "raw/Digest/nickel_en.pdf"
 raw_sha256: "47baa4d890c906a884a301a1395fdbfcfb42587b3faf812cf962ffd794cbd87b"
 metals: [Ni]
-products: [piercing-post-assemblies, stainless-steel-plates, stainless-steel-wires, finished-piercing-post-assemblies]
+products: [piercing-post-assemblies]
 matrices: [skin-contact-article, piercing-post-assembly, stainless-steel, artificial-sweat, blood-plasma, urine]
 jurisdictions: [EU]
 sample_n: null

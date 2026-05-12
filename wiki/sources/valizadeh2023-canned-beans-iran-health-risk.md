@@ -12,8 +12,8 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_12858930/FM_12858930.md
 metals: [tAs, Cd, Pb, Sn, tHg]
-ingredients: ["[[ingredients/beans]]", "[[ingredients/legumes]]"]
-products: ["[[products/canned-food]]"]
+ingredients: ["[[ingredients/lentils]]"]
+products: []
 matrices: [canned-food, legume, cooked-legume]
 jurisdictions: [IR]
 near_duplicates: []

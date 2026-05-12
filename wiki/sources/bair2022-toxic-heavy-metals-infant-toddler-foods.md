@@ -12,7 +12,7 @@ license: cc-by
 raw_path: "raw/Digest/fnut-09-919913.pdf"
 access_url: "https://doi.org/10.3389/fnut.2022.919913"
 metals: [Pb, Cd, tAs, iAs, tHg, MeHg]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potatoes]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potato]]"]
 products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/fruit-purees]]", "[[products/root-vegetable-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/teething-and-snacks-rice-based]]", "[[products/fruit-juice-not-canned]]", "[[products/mixed-meals-rice-containing]]"]
 matrices: [infant-food, toddler-food, infant-cereal, baby-puree, baby-snack, infant-juice]
 jurisdictions: [US]

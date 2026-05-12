@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/2985
 license: public-reference-only
 metals: [Hg, MeHg, iHg]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/tuna]]", "[[ingredients/swordfish]]", "[[ingredients/dental-amalgam]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: []
 jurisdictions: [EU]
 superseded_by: null

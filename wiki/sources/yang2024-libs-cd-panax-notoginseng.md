@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11011736/FM_11011736.md
 metals: [Cd]
 products: []
-ingredients: ["[[ingredients/panax-notoginseng]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 matrices: [analytical-method, botanical]
 jurisdictions: [CN]
 near_duplicates: []

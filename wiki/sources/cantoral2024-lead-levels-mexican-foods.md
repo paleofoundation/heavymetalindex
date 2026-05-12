@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11125852/FM_11125852.md
 metals: [Pb]
-products: ["[[products/infant-rice-cereal]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy]]"]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/soy]]", "[[ingredients/spices]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/soy]]", "[[ingredients/herbal-botanicals]]"]
 matrices: [food-occurrence, infant-formula, infant-cereal, cereal, spices, legumes, meat, dairy, fruits, vegetables]
 jurisdictions: [MX]
 near_duplicates: []

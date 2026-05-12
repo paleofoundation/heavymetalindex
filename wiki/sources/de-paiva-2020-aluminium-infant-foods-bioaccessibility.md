@@ -12,7 +12,7 @@ license: elsevier
 raw_path: "raw 2/Aluminium in infant foods Total content, effect of in vitro digestion onbioacc.pdf"
 access_url: "https://doi.org/10.1016/j.jfca.2020.103493"
 metals: [Al]
-ingredients: ["[[ingredients/soybean]]", "[[ingredients/oats]]", "[[ingredients/cocoa]]"]
+ingredients: ["[[ingredients/soy]]", "[[ingredients/oat]]", "[[ingredients/cocoa]]"]
 products: ["[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/fruit-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]"]
 matrices: [infant-salty-purees, fruit-purees, infant-drinks, petit-suisse, soy-based-drink, in-vitro-digestion, bioaccessibility]
 jurisdictions: [BR]

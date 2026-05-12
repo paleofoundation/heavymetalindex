@@ -20,8 +20,8 @@ download_url: https://www.fda.gov/media/164684/download
 docket: FDA-2022-D-0278
 license: us-government-work
 metals: [Pb]
-ingredients: ["[[ingredients/rice-flour]]", "[[ingredients/rice-cereal]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potatoes]]", "[[ingredients/fruits]]", "[[ingredients/vegetables]]", "[[ingredients/yogurt]]", "[[ingredients/single-ingredient-meats]]"]
-products: ["[[products/infant-rice-cereal]]", "[[products/dry-infant-cereal]]", "[[products/single-ingredient-root-vegetable-babyfood]]", "[[products/processed-babyfood-mixtures]]", "[[products/babyfood-fruits]]", "[[products/babyfood-vegetables]]", "[[products/babyfood-yogurts-custards]]", "[[products/babyfood-single-ingredient-meats]]"]
+ingredients: ["[[ingredients/rice-flour]]", "[[ingredients/rice-cereal]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potato]]", "[[ingredients/fruit]]", "[[ingredients/vegetables]]", "[[ingredients/yogurt]]", "[[ingredients/meat]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/root-vegetable-purees]]", "[[products/fruit-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/meat-and-poultry-purees]]"]
 jurisdictions: [US]
 superseded_by: null
 updated: 2026-05-02

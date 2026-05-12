@@ -14,8 +14,8 @@ access_date: 2026-04-24
 access_url: https://www.sciencedirect.com/science/article/pii/B9780444594532000329
 license: copyright-licensed-private
 metals: [Cd]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/nuts]]", "[[ingredients/oilseeds]]", "[[ingredients/pulses]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/oysters]]", "[[ingredients/fish]]", "[[ingredients/kidney]]", "[[ingredients/liver]]", "[[ingredients/offal]]", "[[ingredients/tobacco]]", "[[ingredients/cocoa]]"]
-products: ["[[products/tobacco]]", "[[products/rice-based-foods]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/potatoes]]", "[[ingredients/peanuts]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/lentils]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/fish]]", "[[ingredients/organ-meats]]", "[[ingredients/cocoa]]"]
+products: []
 jurisdictions: [international, EU, US, JP]
 superseded_by: null
 updated: 2026-04-24

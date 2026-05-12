@@ -12,7 +12,7 @@ license: aoac
 raw_path: "raw/Digest/pacquette2016.pdf"
 access_url: "https://doi.org/10.5740/jaoacint.15-0211"
 metals: [As, Cd, Hg, Pb, tAs, tHg]
-ingredients: ["[[ingredients/non-soy-infant-formula]]", "[[ingredients/soy-based-infant-formula]]", "[[ingredients/skim-milk-powder]]", "[[ingredients/maltodextrin]]", "[[ingredients/acid-casein]]"]
+ingredients: ["[[ingredients/non-soy-infant-formula]]", "[[ingredients/soy-based-infant-formula]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/infant-formula-ingredients]]"]
 products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]"]
 matrices: [infant-formula-powder, raw-ingredient, NIST-SRM-1548a, NIST-SRM-1577c, NIST-SRM-1568b]
 jurisdictions: [US]

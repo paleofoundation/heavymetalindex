@@ -14,7 +14,7 @@ access_date: 2026-04-25
 access_url: https://doi.org/10.3389/fnut.2023.1209574
 license: public-redistribute
 metals: [iAs, tAs]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/brown-rice]]", "[[ingredients/white-rice]]"]
+ingredients: ["[[ingredients/rice]]"]
 products: []
 jurisdictions: [US, international]
 superseded_by: null

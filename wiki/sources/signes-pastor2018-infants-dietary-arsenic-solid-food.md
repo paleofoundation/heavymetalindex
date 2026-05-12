@@ -12,7 +12,7 @@ raw_path: raw/markdown/FM_5940663/FM_5940663.md
 access_url: https://doi.org/10.1038/s41598-018-25372-1
 pdf_path: raw/studies/FM_5940663_Infants_dietary_arsenic_exposure_during_transition_to_solid.pdf
 metals: [iAs, tAs]
-ingredients: [formula-powder, rice-cereal, fruit, vegetables, apples, mixed-cereals]
+ingredients: [infant-formula-powder, rice-cereal, fruit, vegetables, apple, non-rice-grains]
 products: [infant-formula-powder, rice-cereal, fruit-purees, vegetable-purees, mixed-cereals, rice-based-snacks]
 jurisdictions: [US]
 updated: 2026-04-28

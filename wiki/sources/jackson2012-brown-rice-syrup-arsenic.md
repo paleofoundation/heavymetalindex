@@ -12,8 +12,8 @@ evidence_tier: A
 license: "open access (NIEHS/NIH)"
 raw_path: raw/markdown/FM_3346791/FM_3346791.md
 metals: [iAs, tAs, DMA, MMA]
-ingredients: ["[[ingredients/brown-rice-syrup]]", "[[ingredients/rice]]"]
-products: ["[[products/infant-formula-toddler]]", "[[products/cereal-bars]]"]
+ingredients: ["[[ingredients/rice]]"]
+products: []
 matrices: [organic-brown-rice-syrup, infant-formula-toddler-with-rice-syrup, cereal-bars, dry-weight]
 jurisdictions: [US]
 sample_n: 29

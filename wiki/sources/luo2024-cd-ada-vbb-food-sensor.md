@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11394572/FM_11394572.md
 metals: [Cd]
 products: []
-ingredients: ["[[ingredients/rice]]", "[[ingredients/milk]]", "[[ingredients/vegetables]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/vegetables]]"]
 matrices: [rice, dairy, vegetables, analytical-method]
 jurisdictions: []
 near_duplicates: []

@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11533999/FM_11533999.md
 metals: [Pb]
 products: []
-ingredients: ["[[ingredients/lycium-berries]]", "[[ingredients/licorice-root]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 matrices: [analytical-method]
 jurisdictions: [CN]
 near_duplicates: []

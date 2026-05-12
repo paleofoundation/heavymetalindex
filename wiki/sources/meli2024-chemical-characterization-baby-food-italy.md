@@ -18,7 +18,7 @@ markdown_path: raw/markdown/FM_10883532/FM_10883532.md
 access_url: https://doi.org/10.1371/journal.pone.0297158
 license: CC-BY-4.0
 metals: [Al, tAs, Cd, tHg, Ni, Pb, Sn]
-ingredients: [powdered-milk, rice-cereal, fruit, fish, meat]
+ingredients: [milk-and-dairy, rice-cereal, fruit, fish, meat]
 products: [infant-formula-powder, fruit-purees, meat-and-poultry-purees, fish-containing-baby-foods, baby-cereals]
 jurisdictions: [EU, Italy]
 updated: 2026-05-02

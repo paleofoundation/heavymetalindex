@@ -12,8 +12,8 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11074222/FM_11074222.md
 metals: [Cd, Pb, Al]
-ingredients: ["[[ingredients/beetroot]]"]
-products: ["[[products/dietary-supplements]]"]
+ingredients: ["[[ingredients/beet]]"]
+products: []
 matrices: [dietary-supplement, powder, capsule, tablet]
 jurisdictions: [PL]
 near_duplicates: []

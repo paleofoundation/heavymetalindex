@@ -1,6 +1,6 @@
 # Session prompt: triage routing-unresolved entries
 
-240 entries in `data/evidence/routing_unresolved.csv`. Each is a source page whose frontmatter declared a product / ingredient / metal / regulation that does not match any existing wiki page.
+256 entries in `data/evidence/routing_unresolved.csv`. Each is a source page whose frontmatter declared a product / ingredient / metal / regulation that does not match any existing wiki page.
 
 ## Decision tree per entry
 
@@ -16,11 +16,11 @@ For each unresolved row, classify it as one of:
 
 Sample first 5 rows:
 
+  - adelusi2024-dairy-feed-south-africa declared product `dairy` (does not exist)
+  - adelusi2024-dairy-feed-south-africa declared ingredient `dairy` (does not exist)
   - altunay2023-cadmium-food-turkey declared ingredient `leafy-vegetables` (does not exist)
   - altunay2023-cadmium-food-turkey declared ingredient `cereals` (does not exist)
   - atsdr-aluminum-toxprofile-2008 declared product `antacids` (does not exist)
-  - atsdr-aluminum-toxprofile-2008 declared ingredient `drinking-water` (does not exist)
-  - atsdr-aluminum-toxprofile-2008 declared ingredient `infant-formula` (does not exist)
 
 ## At the end
 

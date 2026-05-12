@@ -16,7 +16,7 @@ license: "publisher-licensed (Pergamon Press / Elsevier)"
 access_url: "https://doi.org/10.1016/S0315-5463(80)73332-1"
 raw_path: "raw/external-fetch/kirkpatrick1980 (1).pdf"
 metals: [Cd, Cr-total, Co, Cu, Fe, Pb, Mn, Ni, Zn]
-products: [infant-formula-powder-non-soy, ready-to-feed-formula, meat-poultry-purees, vegetable-purees-non-root, root-vegetable-purees, fruit-purees, mixed-purees-with-fruit, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice]
+products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, meat-and-poultry-purees, non-root-vegetable-purees, root-vegetable-purees, fruit-purees, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice]
 matrices: [infant-formula-prepared-liquid, infant-formula-powdered-base, strained-meats, junior-meats, strained-vegetables, junior-vegetables, strained-fruits-desserts, junior-fruits-desserts, juices-and-drinks, infant-cereals, evaporated-condensed-milks]
 jurisdictions: [CA]
 sample_n: 330

@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11532634/FM_11532634.md
 metals: [tHg]
 products: []
-ingredients: ["[[ingredients/tuna]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 matrices: [seafood, fish]
 jurisdictions: [JP]
 near_duplicates: []

@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_10649747/FM_10649747.md
 metals: [tAs, Cd, tHg, Pb]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/marine-fish]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
 products: ["[[products/seafood]]"]
 matrices: [fish-muscle, freshwater-fish, marine-fish]
 jurisdictions: [TH]

@@ -12,7 +12,7 @@ evidence_tier: A
 license: "public domain (US government)"
 raw_path: raw/markdown/FM_11262827/FM_11262827.md
 metals: [Pb]
-ingredients: ["[[ingredients/cinnamon]]", "[[ingredients/apple]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/apple]]"]
 products: ["[[products/fruit-purees]]"]
 matrices: [fruit-puree-pouch, wet-weight]
 jurisdictions: [US]

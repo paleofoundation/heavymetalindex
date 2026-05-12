@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11223760/FM_11223760.md
 metals: [tAs, Pb, Cd]
 products: []
-ingredients: ["[[ingredients/mussels]]", "[[ingredients/shellfish]]"]
+ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]"]
 matrices: [seafood, shellfish]
 jurisdictions: []
 near_duplicates: []

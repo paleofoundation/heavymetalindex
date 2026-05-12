@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_10572459/FM_10572459.md
 metals: [Cd]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/cereals]]"]
+ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/cereals]]"]
 products: []
 matrices: [fresh-vegetable, grain, rice]
 jurisdictions: [TR]

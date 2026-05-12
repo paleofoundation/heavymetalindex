@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12984638/FM_12984638.md
 metals: [tAs, Cd, Pb, Sn]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/legumes]]", "[[ingredients/fruit]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/lentils]]", "[[ingredients/fruit]]"]
 products: []
 matrices: [dietary-intake, total-diet-study]
 jurisdictions: [PT, EU]
