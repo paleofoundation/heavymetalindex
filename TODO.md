@@ -40,7 +40,7 @@ Items Claude is working through. Picked up in priority order from the top of eac
 
 ### In progress
 
-- [ ] Stakeholder guide replication to product families beyond infant formula. Pattern is a generator + per-family customization config. Target families: baby cereals (2 pages), purees (5 pages: fruit, root-veg, non-root-veg, meat-and-poultry, fish-containing), mixed meals (2), teething and snacks (2), fruit juices (3), vegetable juices (2), plant milks (3), tea / coffee / fermented / matcha / herbal (6), specialty beverages (3), oral electrolytes / glucose solutions (2). ~30 pages total.
+(none right now — pick the next item below)
 
 ### Next up
 
@@ -86,3 +86,5 @@ Items Claude is working through. Picked up in priority order from the top of eac
 - [x] CLAUDE.md Part 6 schema extension — `geographic_breakdown` and `seasonal_variance` sub-fields per metal (commit `2deb724`).
 - [x] Corpus-scope counter on the homepage with 10 axes including A-tier curated sources, programmatic databases indexed, structured evidence records, and jurisdictions covered (commit `e204196`).
 - [x] `.claude/settings.local.json` updated for the auto-continue ask: `defaultMode: "acceptEdits"`, broad Bash allowlist, explicit deny floor (local only; not committed because .claude/ is gitignored).
+- [x] TODO.md created at repo root with Karen's and Claude's working backlogs (this commit).
+- [x] Stakeholder guide replication to 30 non-formula product pages via `tools/apply-stakeholder-guides.mjs` (commit `70d169a` plus base-variant fix `3b7c516`). Per-family brand-legal attack-vector framing for baby cereals, purees, mixed meals, teething/snacks, fruit and vegetable juices, plant milks, tea family, beverages, and specialty pediatric matrices.
