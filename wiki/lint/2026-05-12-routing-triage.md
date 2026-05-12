@@ -5,7 +5,7 @@ date: 2026-05-12
 scope: routing_unresolved
 initial_count: 256
 final_count: 46
-status: in-progress
+status: complete
 passes:
   - pass: 1
     initial_count: 256

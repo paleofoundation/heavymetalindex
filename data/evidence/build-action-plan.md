@@ -2,7 +2,7 @@
 title: Build Action Plan
 type: orchestrator-plan
 generated_at: 2026-05-12
-action_count: 4
+action_count: 3
 audience: [internal]
 noindex: true
 ---
@@ -32,22 +32,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 2. Triage 256 routing-unresolved entries
-
-**Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
-**Strategy:** triage
-**Priority score:** 28.1 (impact 250 × confidence 0.9 ÷ cost factor)
-**Cost:** expensive
-**Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
-**Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
-
-**What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
-
-**Details:** 256 entries broken down as: 71 product, 185 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
-
----
-
-## 3. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
+## 2. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
 
 **Action ID:** `WISHLIST-EXPAND-FOR-BLOCKED-CELLS`
 **Strategy:** wishlist-update
@@ -62,18 +47,18 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 4. Ingest 95 staged PDFs and produce source pages
+## 3. Triage 46 routing-unresolved entries
 
-**Action ID:** `INGEST-STAGED`
-**Strategy:** ingest
-**Priority score:** 22.6 (impact 190 × confidence 0.95 ÷ cost factor)
-**Cost:** expensive
-**Best dispatched to:** Obsidian Sonnet (cheaper per-token for bulk work)
-**Session prompt:** [`data/evidence/build-action-prompts/INGEST-STAGED.md`](../../data/evidence/build-action-prompts/INGEST-STAGED.md)
+**Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
+**Strategy:** triage
+**Priority score:** 20.7 (impact 69 × confidence 0.9 ÷ cost factor)
+**Cost:** medium
+**Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
+**Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
 
-**What this closes:** wishlist gaps (each PDF likely closes one or more) + brings ingredient/product pages closer to populated
+**What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
 
-**Details:** 95 files in raw/manual-fetch/seasonal-geographic-variance/ (manual drops + auto-fetched). Each produces a source page per CLAUDE.md Part 8; routing audit fans them out automatically via the watcher.
+**Details:** 46 entries broken down as: 37 ingredient, 9 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
 
 ---
 
