@@ -27,17 +27,24 @@ noindex: true
   </div>
 
   <div class="hmi-staff-actions">
-    <a class="hmi-staff-primary" href="http://127.0.0.1:8090/">Open local workbench</a>
+    <a class="hmi-staff-primary" href="/workbench/standards/">Browse standards snapshots</a>
+    <a class="hmi-staff-secondary" href="http://127.0.0.1:8090/">Open local workbench</a>
     <a class="hmi-staff-secondary" href="/staff">Back to staff dashboard</a>
   </div>
 </div>
 
+## Standards Snapshots
+
+The per-product standards snapshots are the staff-side view of the public product pages. They carry the percentile arithmetic (p10 through p100), clean and dirty subcategory designation per Part 19, Path A/B status with n_a_tier, CC eligibility verdict, and next-ingest target. The public pages carry only the literature-native evidence.
+
+Browse the full snapshots index at [[workbench/standards/index|/workbench/standards/]]. Each snapshot links back to its public product page; the two views regenerate together from the same data source on each generator run.
+
 ## Start The Local Workbench
 
-Run this from the repo:
+Run this from the repo root on Karen's Mac mini:
 
 ```bash
-cd /private/tmp/heavymetalindex-publish
+cd ~/Desktop/heavy-metal-index
 export PATH="/opt/homebrew/opt/node@24/bin:$PATH"
 npm run workbench
 ```
