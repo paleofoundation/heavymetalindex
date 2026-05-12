@@ -11,6 +11,12 @@ raw/*
 !raw/*/INGESTED.md
 !raw/manifest/
 !raw/manifest/**
+# raw/manual-fetch/ is the staging area for materials Karen drops in
+# response to a wishlist gap. README + wishlist are committed; dropped
+# files stay local until ingest routes them into raw/studies/ etc.
+!raw/manual-fetch/
+!raw/manual-fetch/**/README.md
+!raw/manual-fetch/**/wishlist.md
 
 # Quartz / Node build artifacts
 node_modules/

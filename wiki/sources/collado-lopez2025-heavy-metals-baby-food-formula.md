@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: Digest/nuaf138.pdf
+raw_handle: FM_12793581
 cite_key: collado-lopez2025-heavy-metals-baby-food-formula
 title: "Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review"
 authors: ["Sonia Collado-Lopez", "Maria Fernanda Rodriguez Hernandez", "Rosa Maria Mariscal-Moreno", "Martha Maria Tellez-Rojo", "Larissa Betanzos-Robledo", "Moises Reyes Luna", "Alejandra Cantoral-Preciado"]
@@ -10,7 +10,7 @@ doi: "10.1093/nutrit/nuaf138"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"
-raw_path: "raw/Digest/nuaf138.pdf"
+raw_path: "raw/markdown/FM_12793581/FM_12793581.md"
 access_url: https://doi.org/10.1093/nutrit/nuaf138
 raw_sha256: "cda9bb27da1138e8e260f562e6fc2d3f6f264ca21436ad838f31139ee448589e"
 metals: [Pb, Cd, tAs, tHg]

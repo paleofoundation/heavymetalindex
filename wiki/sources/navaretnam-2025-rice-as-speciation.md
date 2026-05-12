@@ -1,5 +1,6 @@
 ---
 type: source
+raw_handle: FM_12378713
 cite_key: navaretnam-2025-rice-as-speciation
 title: "Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment"
 authors: [Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, Isa NM, Looi LJ]
@@ -8,9 +9,7 @@ publication: "Environmental Geochemistry and Health 47:411"
 doi: 10.1007/s10653-025-02723-2
 source_type: peer-reviewed
 evidence_tier: A
-raw_path: raw/studies/FM_12378713_Arsenic_speciation_using_HPLC-ICP-MS_in_white_and_brown_rice.pdf
-sha256: 181e7d94f1a5e65b26ce42e858ba96e57d2b402c9be5161f0001ba4bc28d4f78
-access_date: 2026-04-25
+raw_path: raw/markdown/FM_12378713/FM_12378713.md
 access_url: https://doi.org/10.1007/s10653-025-02723-2
 license: public-redistribute
 metals: [iAs, tAs, MMA, DMA]
