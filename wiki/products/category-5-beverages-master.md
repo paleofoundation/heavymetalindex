@@ -1,14 +1,21 @@
 ---
-type: product-category-master
+type: workbench-master-summary
 hmtc_category: 5
 label: "HMTc Category 5 — Beverages — Master Summary"
 covers: [category-5-beverages, fruit-juices-non-apple, fruit-juices-apple-containing, vegetable-juices-non-root, vegetable-juices-root-vegetable-containing, plant-milks-non-soy-non-rice, plant-milks-soy-based, plant-milks-rice-based, flavored-waters, sports-energy-drinks, herbal-botanical-infusions, true-tea-camellia-sinensis, matcha, coffee, soft-drinks-carbonated-beverages, fermented-beverages-non-tea-based, kombucha-tea-based, regulatory-crosswalk-field-findings]
-audience: [regulator, educator, researcher, app, curator]
+audience: [internal]
+noindex: true
 analytes: [Pb, Cd, tAs, iAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
-updated: 2026-05-09
+updated: 2026-05-12
 ---
 
 # HMTc Category 5 — Beverages — Master Summary
+
+<div class="hmi-staff-callout">
+  <div class="hmi-staff-callout-label">Staff content — not public</div>
+  <p>This page is the staff Standards Workbench cross-product view of HMT&amp;C Category 5. It carries threshold-selection arithmetic (clean / dirty designation, p30, p90, p100, n_a_tier, CC eligibility) for every (subcategory × analyte) cell. Per OPERATING.md Part 2 and CLAUDE.md Part 19, this content is HMT&amp;C certification work product and does not appear on the public per-product pages at heavymetalindex.com; those pages carry only the literature-native view. The page is marked <code>noindex: true</code> for that reason.</p>
+  <p>Public readers landing here from a bookmark or stale link should go to <a href="/index">the wiki index</a> for the public navigation or to a specific beverage product page in the <code>covers</code> list above for the literature-native view of that subcategory.</p>
+</div>
 
 This master summary mirrors the [[products/infant-and-child-foods-master|HMTc Category 1 master]] structure but for the locked Category 5 beverage architecture (16 subcategories from `category-5-beverages.md` Step 0 lock plus the regulatory-crosswalk-field-findings synthesis page). The locked rows preserve the contamination-platform vs clean-benchmark splits established in the Step 0 process and are not renumbered here.
 

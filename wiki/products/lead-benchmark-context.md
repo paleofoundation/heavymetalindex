@@ -77,4 +77,5 @@ Formula rows use labelled illustrative intake assumptions because infant formula
 - [[sources/eu2023-915-lead-infant-young-child-foods]]
 - [[regulations/oehha-lead-prop65]]
 - [[sources/ecfr-21cfr10112-serving-sizes]]
-- `data/evidence/category1_lead_benchmark_context.csv`
+
+The structured ppb-normalized lead benchmark values that power this page are maintained in the staff Standards Workbench and applied to per-product pages by the lead-benchmark-context generator (`tools/evidence/apply-lead-benchmark-context.mjs`).

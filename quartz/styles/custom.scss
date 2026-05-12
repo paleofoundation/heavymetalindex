@@ -1609,6 +1609,23 @@ a.hmi-staff-secondary:hover {
   color: var(--dark);
 }
 
+.hmi-staff-callout-label {
+  color: var(--secondary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.hmi-staff-callout p {
+  margin: 0 0 0.55rem;
+}
+
+.hmi-staff-callout p:last-child {
+  margin-bottom: 0;
+}
+
 .hmi-staff-grid {
   display: grid;
   gap: 1rem;

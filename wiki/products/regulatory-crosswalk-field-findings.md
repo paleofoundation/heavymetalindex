@@ -37,12 +37,9 @@ High-signal rows after the EU 2023/915 ingest:
 | [[products/teething-and-snacks-rice-based]] | EU iAs 300 ug/kg for named rice cakes/crackers/wafers/flakes/popped rice products | Useful legal context, but product split is required; do not substitute FDA infant-rice-cereal values for snacks. |
 | [[products/plant-milks-rice-based]] | EU iAs 30 ug/kg for non-alcoholic rice-based drinks | Direct comparison is available for D'Amato 2026 because product matrix, species, and unit basis match. |
 
-## Data Files
+## Where the structured data lives
 
-- `data/evidence/regulatory_limits.csv`
-- `data/evidence/product_regulatory_crosswalk.csv`
-- `data/evidence/category1_formula_special_survey_samples.csv`
-- `data/evidence/category1_formula_concentration_summary.csv`
+The regulatory-cap entries shown on per-product pages are pulled from the staff Standards Workbench and applied by `tools/apply-product-crosswalk-sections.mjs`. The structured occurrence data feeding the field-findings columns lives in the same workbench layer. See the per-product page for the rendered comparison; see the workbench for the underlying tables.
 
 ## Source And Regulation Nodes
 

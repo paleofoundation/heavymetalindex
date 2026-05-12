@@ -1,9 +1,10 @@
 ---
 title: Infant and Child Foods — Master CC Candidate Summary
-type: master-summary
+type: workbench-master-summary
 category_label: Infant and Child Foods
 hmtc_category: 1
-audience: [regulator, educator, app]
+audience: [internal]
+noindex: true
 constituent_pages:
   - "[[products/baby-cereals-dry-rice-based]]"
   - "[[products/baby-cereals-dry-non-rice]]"
@@ -24,12 +25,18 @@ constituent_pages:
 n_subcategories: 16
 n_analytes: 10
 n_cells: 160
-updated: 2026-05-09
+updated: 2026-05-12
 ---
 
 # Infant and Child Foods — Master CC Candidate Summary (16-subcategory expansion)
 
-Generated 2026-05-09 under Karen's overnight Expansion 1 directive. This master summary covers all 16 HMTc Category 1 product-category pages × 10 HMT&C analytes = 160 cells. Each cell carries the within-pair clean/dirty designation per the [Part 19 framework](../../CLAUDE.md), the corresponding standard target (clean p90 or dirty p30), p100 for context, n, n_a_tier, confidence per CLAUDE.md Part 6, and CC eligibility against the readiness bar.
+<div class="hmi-staff-callout">
+  <div class="hmi-staff-callout-label">Staff content — not public</div>
+  <p>This page is the staff Standards Workbench cross-product view of HMT&amp;C Category 1. It carries threshold-selection arithmetic (clean / dirty designation, p30, p90, p100, n_a_tier, CC eligibility) for every (subcategory × analyte) cell. Per OPERATING.md Part 2 and CLAUDE.md Part 19, this content is HMT&amp;C certification work product and does not appear on the public per-product pages at heavymetalindex.com; those pages carry only the literature-native view. The page is marked <code>noindex: true</code> for that reason.</p>
+  <p>Public readers landing here from a bookmark or stale link should go to <a href="/index">the wiki index</a> for the public navigation or to the per-product page in the <code>constituent_pages</code> list above for the literature-native view of any specific subcategory.</p>
+</div>
+
+Generated 2026-05-09 under Karen's overnight Expansion 1 directive. This master summary covers all 16 HMTc Category 1 product-category pages × 10 HMT&C analytes = 160 cells. Each cell carries the within-pair clean/dirty designation per the Part 19 framework in CLAUDE.md, the corresponding standard target (clean p90 or dirty p30), p100 for context, n, n_a_tier, confidence per CLAUDE.md Part 6, and CC eligibility against the readiness bar.
 
 Pair-based clean/dirty classification applies within these pairs:
 
