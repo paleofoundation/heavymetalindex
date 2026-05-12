@@ -7,6 +7,7 @@ unresolved_after: 35
 fixes_applied: 11
 new_page_proposals: 5
 detector_bugs_fixed: 0
+passes_completed: 7
 ---
 
 # Routing-unresolved triage — 2026-05-12
@@ -210,3 +211,44 @@ The 35 remaining entries span exactly 5 slugs, each above its applicable thresho
 | E | `ingredients/quinoa.md` | 6 | Cd, Pb, tAs | Pending Karen |
 
 **Unresolved count: 46 → 44 → 35.** All 35 remaining entries are legitimate new-page proposals awaiting Karen's decision per CLAUDE.md Part 10.
+
+---
+
+## Pass 4 — 2026-05-12 (independent verification)
+
+
+
+Fresh session re-triaged all 35 remaining entries against the four-way decision tree by reading every source page's frontmatter directly. Findings:
+
+- **Frontmatter typos / convention drift:** 0 — no slug errors found.
+- **Below-threshold variants:** 0 — every slug meets or exceeds the 5-paper ingredient threshold.
+- **Above-threshold new-page proposals:** 5 slugs, 35 entries, identical to pass 3 findings.
+- **Detector bugs:** 0 — all 5 slugs are confirmed absent from `wiki/ingredients/`.
+
+`npm run evidence:source-routes` output: **35 unresolved, 0 blocking malformed.** Count unchanged from pass 3; no new fixes possible without Karen's approval on the five proposals below.
+
+| Proposal | Slug | Sources | Primary metals | Status |
+|----------|------|---------|---------------|--------|
+| A | `ingredients/cereals.md` | 8 | Cd, Pb, Ni | **Awaiting Karen** |
+| B | `ingredients/breastmilk.md` | 6 | iAs, Al, Pb, Cd | **Awaiting Karen** |
+| C | `ingredients/shellfish.md` | 6 | Cd, Pb, tHg, tAs | **Awaiting Karen** |
+| D | `ingredients/freshwater-fish.md` | 9 | tHg, MeHg, iAs, Pb, Cd | **Awaiting Karen** |
+| E | `ingredients/quinoa.md` | 6 | Cd, Pb, tAs | **Awaiting Karen** |
+
+---
+
+## Pass 5 — 2026-05-12 (this session)
+
+Re-ran `npm run evidence:source-routes`. Output: **35 unresolved, 0 blocking malformed.** State unchanged since pass 4. All 35 entries remain legitimate new-page proposals for the same 5 slugs. No frontmatter fixes, below-threshold redirects, or detector bugs apply. Awaiting Karen's approval decision on proposals A–E before stub creation.
+
+---
+
+## Pass 6 — 2026-05-12 (this session)
+
+Re-ran `npm run evidence:source-routes`. Output: **35 unresolved, 0 blocking malformed.** State unchanged since pass 5. Read all 35 source pages and the routing CSV; confirmed each entry against the four-way decision tree. No frontmatter typos, no below-threshold variants, no detector bugs. All 35 entries are category 3 (above-threshold new-page proposals) across the same 5 slugs documented in passes 2–5. Awaiting Karen's approval on proposals A–E.
+
+---
+
+## Pass 7 — 2026-05-12 (this session)
+
+Re-ran `npm run evidence:source-routes`. Output: **35 unresolved, 0 blocking malformed.** Python verification confirmed all 35 CSV entries are live (each declared slug still present in the corresponding source page frontmatter). No stale entries. Classification unchanged: 0 frontmatter fixes, 0 below-threshold redirects, 0 detector bugs. All 35 entries are above-threshold new-page proposals for proposals A–E. No action is possible without Karen's approval.
