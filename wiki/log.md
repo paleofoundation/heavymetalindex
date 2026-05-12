@@ -1490,3 +1490,7 @@ Notes: Cycle 35 of overnight loop. Final cycle of the tier-1→3→4 sweep.
   **Loop status: STOPPED at cycle 35.** No ScheduleWakeup called. Resume requires fresh /loop directive with new scope.
 
   End of cycles 27-35 tier-sweep run.
+
+## [2026-05-12] schema | triage-manifest — 23,260 FM folders catalogued
+Pages touched: raw/manifest/triage-manifest.csv, raw/manifest/manifest-build-report.md, tools/build-triage-manifest.py
+Notes: Built first-pass triage manifest from the full raw/markdown/ FM corpus. 23,260 rows, 0 quarantined, 130 dedup clusters (261 files). Priority tier distribution: P1=54, P2=488, P3=18, P4=6571, P5=16129. Four FM source pages already ingested flagged. Cite-keys provisional; bulk ingest verifies against content.

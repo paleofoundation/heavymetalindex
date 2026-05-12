@@ -9,6 +9,8 @@
 raw/*
 !raw/README.md
 !raw/*/INGESTED.md
+!raw/manifest/
+!raw/manifest/**
 
 # Quartz / Node build artifacts
 node_modules/
