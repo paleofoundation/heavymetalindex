@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11750936/FM_11750936.md
 metals: [Al, tAs, Cd, Cr, Cu, Fe, tHg, Ni, Pb, Se]
 ingredients: ["[[ingredients/freshwater-fish]]"]
-products: ["[[products/seafood]]"]
+products: []
 matrices: [fish-muscle, freshwater-fish]
 jurisdictions: [SK]
 near_duplicates: []

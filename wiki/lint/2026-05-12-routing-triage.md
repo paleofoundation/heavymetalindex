@@ -3,9 +3,9 @@ type: lint
 op: triage
 date: 2026-05-12
 unresolved_before: 46
-unresolved_after: 44
-fixes_applied: 2
-new_page_proposals: 6
+unresolved_after: 35
+fixes_applied: 11
+new_page_proposals: 5
 detector_bugs_fixed: 0
 ---
 
@@ -162,7 +162,7 @@ No detector bugs identified. All unresolved slugs are genuine missing pages, not
 
 ---
 
-## Summary
+## Summary (pass 2)
 
 | Category | Count | Action |
 |----------|-------|--------|
@@ -171,12 +171,42 @@ No detector bugs identified. All unresolved slugs are genuine missing pages, not
 | New-page proposals pending Karen's approval | 6 pages (44 unresolved entries) | See section 3 |
 | Detector bugs fixed | 0 | None found |
 
-**Unresolved count: 46 → 44.** All 44 remaining entries are legitimate new-page proposals waiting for Karen's decision.
+**Unresolved count: 46 → 44.** 44 remaining entries were documented as proposals pending Karen's decision.
 
-Proposed pages in priority order (by source count and strategic importance):
-1. `products/seafood.md` — 9 sources; routes health-risk fish/shellfish literature (product threshold: 3+)
-2. `ingredients/freshwater-fish.md` — 9 sources; distinct Hg/As contamination profile from marine fish
-3. `ingredients/cereals.md` — 8 sources; required to route EFSA, JECFA, Codex regulatory matrix assessments
-4. `ingredients/shellfish.md` — 6 sources; intermediate category between bivalve-molluscs and seafood
-5. `ingredients/breastmilk.md` — 6 sources; critical matrix for infant formula vs breastfed-infant comparisons
-6. `ingredients/quinoa.md` — 6 sources; distinct Andean-soil Cd risk profile
+---
+
+## Pass 3 — 2026-05-12 (this session)
+
+Pass 2 classified proposal F (`products/seafood.md`) as a new-page proposal because the 9 fish-study sources declare `products: ["[[products/seafood]]"]`. On closer review, this is convention drift, not a missing page: the `products/` namespace in this wiki is for processed food categories (infant formula, baby cereals, fruit juices). Raw fish and seafood research belongs in `ingredients/`. The 9 sources already route correctly through `ingredients: [fish]`, `ingredients: [freshwater-fish]`, and `ingredients: [bivalve-molluscs]`; the `products: [seafood]` declaration was a frontmatter error added during ingest.
+
+### Fixes applied (9 sources, 9 entries resolved)
+
+Removed `products: ["[[products/seafood]]"]` from the frontmatter of all 9 sources. Each source retains its correct ingredient routing.
+
+| Source | Retained ingredient routing |
+|--------|----------------------------|
+| `auzier-guimaraes2025-mercury-tapajos-fish` | `freshwater-fish`, `fish` |
+| `dogruyol2024-mediterranean-mussels-health-risk` | `bivalve-molluscs` |
+| `kovacik2024-grass-carp-muscle-microelements` | `freshwater-fish` |
+| `naz2025-trace-elements-punjnad-fish` | `freshwater-fish` |
+| `reksten2020-angola-fish-metals` | `fish` |
+| `reksten2021-bay-bengal-fish-metals` | `fish` |
+| `sirisangarunroj2023-thai-fish-toxic-elements` | `freshwater-fish`, `fish` |
+| `taylor2025-seafood-benefits-contaminants` | `fish`, `shellfish` |
+| `uzomah2021-nigeria-fish-contaminants` | `fish` |
+
+`npm run evidence:source-routes` confirmed: **44 → 35 unresolved entries.**
+
+### Current state: 35 entries, all new-page proposals
+
+The 35 remaining entries span exactly 5 slugs, each above its applicable threshold (5 papers for ingredients, 3 for products). Proposal F (`products/seafood.md`) is withdrawn — those entries are resolved. Proposals A–E from pass 2 stand unchanged. Karen's approval is required before any stubs are created.
+
+| Proposal | Slug | Sources | Primary metals | Status |
+|----------|------|---------|---------------|--------|
+| A | `ingredients/cereals.md` | 8 | Cd, Pb, Ni | Pending Karen |
+| B | `ingredients/breastmilk.md` | 6 | iAs, Al, Pb, Cd | Pending Karen |
+| C | `ingredients/shellfish.md` | 6 | Cd, Pb, tHg, tAs | Pending Karen |
+| D | `ingredients/freshwater-fish.md` | 9 | tHg, MeHg, iAs, Pb, Cd | Pending Karen |
+| E | `ingredients/quinoa.md` | 6 | Cd, Pb, tAs | Pending Karen |
+
+**Unresolved count: 46 → 44 → 35.** All 35 remaining entries are legitimate new-page proposals awaiting Karen's decision per CLAUDE.md Part 10.

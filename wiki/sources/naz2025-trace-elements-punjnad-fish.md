@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11761173/FM_11761173.md
 metals: [Cd, Cu, Pb, Ni]
 ingredients: ["[[ingredients/freshwater-fish]]"]
-products: ["[[products/seafood]]"]
+products: []
 matrices: [fish-muscle, fish-liver, fish-gills, freshwater-fish]
 jurisdictions: [PK]
 near_duplicates: []

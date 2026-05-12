@@ -13,7 +13,7 @@ license: unknown
 raw_path: raw/markdown/FM_11442619/FM_11442619.md
 metals: [Cd, tHg, Pb, Se]
 ingredients: ["[[ingredients/bivalve-molluscs]]"]
-products: ["[[products/seafood]]"]
+products: []
 matrices: [shellfish, mussel, bivalve]
 jurisdictions: [TR, BG]
 near_duplicates: []
