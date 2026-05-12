@@ -31,7 +31,7 @@ Items where Karen owns the next move. Claude does not act on these without Karen
 
 - [ ] Continue dropping materials into `raw/manual-fetch/seasonal-geographic-variance/` per the wishlist as they become available. See [the wishlist](raw/manual-fetch/seasonal-geographic-variance/wishlist.md) for the current open gaps. (First wave of 60 files dropped 2026-05-12 — see Karen's completed list below.)
 - [ ] Get real-world feedback from stakeholders when she has a channel (retailers, brand QA leads, brand counsel). Per OPERATING.md Part 2, Claude designs against the public-record persona until Karen has a feedback channel.
-- [ ] **Review `data/evidence/wishlist-candidates.csv`** and mark the `approved` column with yes/no/skip per row. The CSV is the output of `npm run wishlist:find` — currently 320 candidates across 40 wishlist queries, with a `recommendation` column pre-scored as yes (strong/likely match), review (weak match), or skip. After Karen marks approvals, running `npm run wishlist:download` pulls the approved open-access PDFs into the manual-fetch staging folder for the next ingest session.
+- [ ] *(Optional, not a routine gate)* Scan `data/evidence/wishlist-fetch-audit.csv` if you want to second-guess the auto-fetcher's decisions. The audit log shows what was downloaded, what was deduplicated, what was skipped as weak-match, and what failed (typically http-403 paywalls despite OpenAlex's OA flag). The fetcher decides for itself by default per OPERATING.md Part 3; this is a review surface, not an approval queue.
 
 ---
 
@@ -45,7 +45,7 @@ Items Claude is working through. Picked up in priority order from the top of eac
 
 ### Next up
 
-1. [ ] Ingest the ~60 PDFs Karen dropped 2026-05-12 into `raw/manual-fetch/seasonal-geographic-variance/`. Each produces a source page per CLAUDE.md Part 8; routing audit fans them out automatically. High-value standouts: FDA juice/cereal arsenic datasets, cocoa cadmium series (Ecuadorian by province, LatAm & Caribbean, US dark chocolate multi-year), Peruvian Andes crops + quinoa, Chinese tea series. Closes a third of the v0 wishlist in one wave.
+1. [ ] Ingest the ~94 new PDFs in the manual-fetch folder: 60 Karen dropped 2026-05-12 plus 34 auto-fetched by `wishlist:fetch` (in `auto-fetched/` subfolder). Each produces a source page per CLAUDE.md Part 8; routing audit fans them out automatically. High-value standouts from the manual drops: FDA juice/cereal arsenic datasets, cocoa cadmium series (Ecuadorian by province, LatAm & Caribbean, US dark chocolate multi-year), Peruvian Andes crops + quinoa, Chinese tea series. Closes ~1/3 of v0 wishlist between the manual drop and the auto-fetch.
 
 2. [ ] Triage the 199 unresolved entries in `data/evidence/routing_unresolved.csv`. Categorize each as: frontmatter typo (Claude fixes), new-page proposal (Karen approves), or detector bug in the routing audit (Claude fixes the detector). One-time pass; the watcher + hook keep the count low going forward. Best done in the same session block as the 60-file ingest above so the audit catches new unresolved entries from those drops at the same time. Estimated 1-2 hours.
 
@@ -91,7 +91,8 @@ Items Claude is working through. Picked up in priority order from the top of eac
 - [x] `.claude/settings.local.json` updated for the auto-continue ask: `defaultMode: "acceptEdits"`, broad Bash allowlist, explicit deny floor (local only; not committed because .claude/ is gitignored).
 - [x] TODO.md created at repo root with Karen's and Claude's working backlogs (this commit).
 - [x] Stakeholder guide replication to 30 non-formula product pages via `tools/apply-stakeholder-guides.mjs` (commit `70d169a` plus base-variant fix `3b7c516`). Per-family brand-legal attack-vector framing for baby cereals, purees, mixed meals, teething/snacks, fruit and vegetable juices, plant milks, tea family, beverages, and specialty pediatric matrices.
-- [x] Wishlist automated paper retrieval — `tools/wishlist/{parse-wishlist,find-candidates,download-candidates}.mjs`, three npm scripts (`wishlist:parse`, `wishlist:find`, `wishlist:download`), OpenAlex API integration with word-boundary metal-code extraction (commit `4b672ab`). v0 produced 320 candidates across 40 wishlist queries.
+- [x] Wishlist automated paper retrieval — `tools/wishlist/parse-wishlist.mjs` and `tools/wishlist/find-candidates.mjs` (commits `4b672ab` and `9b7960b`). OpenAlex API integration with word-boundary metal-code extraction. v0 first run downloaded **34 open-access PDFs** to the manual-fetch staging folder; 5 deduplicated against `wiki/sources/`; 39 weak matches logged for optional review; 33 OpenAlex-OA-but-publisher-paywalled failures (typical). One npm script: `npm run wishlist:fetch` runs the full pipeline end-to-end. The model decides yes/no itself; no Karen-side approval gate.
+- [x] Wishlist auto-fetch rewritten to decide-and-act instead of asking Karen to approve (commit `9b7960b`). Per OPERATING.md Part 3: Claude does not introduce approval gates for decisions Claude is qualified to make. Audit log at `data/evidence/wishlist-fetch-audit.csv` is for Karen's optional second-guessing, not routine gating.
 - [x] Cowork CLAUDE.md consistency audit committed as historical record (commit `90bc4d1`). Most findings closed this week; remaining ones catalogued in the "Queued" section of this file.
 
 ### Karen's recently completed
