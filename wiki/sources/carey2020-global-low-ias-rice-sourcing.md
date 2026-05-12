@@ -18,6 +18,7 @@ ingredients: ["[[ingredients/rice]]"]
 products: []
 matrices: [white-rice, polished-rice]
 jurisdictions: [global, AR, BO, BR, CL, PY, UY, GH, CI, ML, TZ, EG, FR, IT, ES, TR, CN, IN, KR, LK, VN, MX, AU, MY]
+near_duplicates: [carey2019-global-rice-arsenic-sourcing]
 sample_n: 1180
 updated: 2026-05-12
 ---
