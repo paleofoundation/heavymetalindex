@@ -63,31 +63,48 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   tAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [vegetable-juices-root-vegetable-containing]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-12
 sources: 1
 ---
 
 # Root vegetables
 
 FSA/Fera measured this ingredient or a closely matching non-infant-specific food composite in the FS102048 survey. Exact concentrations remain in progress until Table 6 is parsed into structured ingredient rows with quantitation flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 (in progress) | — | — | — | — |
+| Cd | n=1 (in progress) | — | — | — | — |
+| iAs | n=1 (in progress) | — | — | — | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 (in progress) | — | — | — | — |
+| Ni | n=1 (in progress) | — | — | — | — |
+| Al | n=1 (in progress) | — | — | — | — |
+| Cr | n=1 (in progress) | — | — | — | — |
+| Sn | n=1 (in progress) | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

@@ -41,12 +41,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-08
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   Cr:
     status: in_progress
     typical_ppb: [null, null]
@@ -55,12 +55,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-08
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   tAs:
     status: in_progress
     typical_ppb: [null, null]
@@ -80,12 +80,29 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-08
+updated: 2026-05-12
 ---
 
 # Rice
 
 _Stub page. Contamination profile populates on the next ingest wave. Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors worldwide, with variation driven by soil cadmium, cultivar differences, flooded-paddy redox chemistry, and processing (bran contains higher cadmium than endosperm)._
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 (in progress) | — | — | — | — |
+| Cd | n=1 (in progress) | — | — | — | — |
+| iAs | n=1 (in progress) | — | — | — | — |
+| tAs | n=1 (in progress) | — | — | — | — |
+| tHg | n=1 (in progress) | — | — | — | — |
+| Ni | n=1 (in progress) | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | n=1 (in progress) | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | n=1 (in progress) | — | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

@@ -21,12 +21,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-03
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   tAs:
     status: in_progress
     typical_ppb: [null, null]
@@ -49,12 +49,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-03
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   Cr:
     status: in_progress
     typical_ppb: [null, null]
@@ -63,12 +63,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-03
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   U:
     status: in_progress
     typical_ppb: [null, null]
@@ -81,13 +81,30 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [meat-and-poultry-purees]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-12
 sources: 1
 ---
 
 # Turkey
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 (in progress) | — | — | — | — |
+| Cd | n=1 (in progress) | — | — | — | — |
+| iAs | data gap | — | — | — | — |
+| tAs | n=1 (in progress) | — | — | — | — |
+| tHg | n=1 (in progress) | — | — | — | — |
+| Ni | n=1 (in progress) | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | n=1 (in progress) | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | n=1 (in progress) | — | — | — | — |
 
 ## Routing
 

@@ -81,13 +81,30 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-03
+updated: 2026-05-12
 sources: 2
 ---
 
 # Cucumber
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=2 (in progress) | — | — | — | — |
+| Cd | n=2 (in progress) | — | — | — | — |
+| iAs | n=1 (in progress) | — | — | — | — |
+| tAs | n=1 (in progress) | — | — | — | — |
+| tHg | n=2 (in progress) | — | — | — | — |
+| Ni | n=2 (in progress) | — | — | — | — |
+| Al | n=1 (in progress) | — | — | — | — |
+| Cr | n=2 (in progress) | — | — | — | — |
+| Sn | n=1 (in progress) | — | — | — | — |
+| U | n=1 (in progress) | — | — | — | — |
 
 ## Routing
 

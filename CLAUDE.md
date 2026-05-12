@@ -382,6 +382,39 @@ The `last_reviewed` field is the date Claude last integrated new evidence into t
 
 This structure resolves what would otherwise be a persistent lint-noise problem. Every new ingredient page is born in a valid state (`pending` with `null` values) rather than a lint-failure state. It also surfaces a real-world distinction that matters for the app: genuine data gaps behave differently from unprocessed templates.
 
+#### Coverage rule: all ten analytes addressed per ingest
+
+When any ingest touches an ingredient page (advances at least one sub-block to `in_progress` or `populated`), all ten sub-blocks must move out of `pending` in the same pass. Sub-blocks for analytes the source does not cover are advanced to `status: populated, n_studies: 0, confidence: null, last_reviewed: <today>` — the declared-data-gap state described above. A page whose sub-blocks are split between `in_progress`/`populated` and `pending` is a lint failure (see Part 18): it represents asymmetric coverage where some analytes have been considered and others were silently skipped. This rule exists because HMT&C certifies products against the full analyte vocabulary (Part 14); ingredient pages that report on iAs but are silent on Ni leave the certification's literature anchor visibly incomplete and create the defensibility gap described in Part 2. Pages still carrying all-`pending` sub-blocks (no ingest has yet touched them) are not lint failures; they are the legitimate stub state.
+
+The coverage rule applies to the ten metals in the ingredient `contamination_profile` schema (Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U). MeHg is not in the ingredient profile (matrix-driven, captured at the product layer per Part 6); Cr-VI evidence lives on [[metals/chromium-hexavalent]] and is never substituted for total Cr in the ingredient profile (Part 14). Declaring an analyte a data gap is a finding, not a placeholder: it tells the app, the certifier, and downstream readers that the wiki has reviewed the literature for this commodity-analyte combination and found nothing usable, which is materially different from "we have not looked."
+
+#### Body table: "Heavy metal contamination profile"
+
+The `contamination_profile` YAML is for the app. Human readers — regulators, brand QA, journalists, plaintiff and defense experts — read the page body. Every ingredient page that has been touched by an ingest must therefore carry a body-level table summarizing per-analyte coverage:
+
+```markdown
+## Heavy metal contamination profile
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb  | n=2       | 50–200 | 350    | low    | [[sources/foo2024-bar\|1]], [[sources/baz2023-qux\|2]] |
+| Cd  | n=5       | 100–600 | 1,200 | medium | [[sources/...\|3]], [[sources/...\|4]] |
+| iAs | data gap  | —      | —      | —      | — |
+| tAs | n=3       | ...    | ...    | low    | ... |
+| tHg | data gap  | —      | —      | —      | — |
+| Ni  | n=1       | 800    | —      | low    | [[sources/...\|5]] |
+| Al  | n=1       | 20,000 | —      | low    | ... |
+| Cr  | n=1       | 200    | —      | low    | ... |
+| Sn  | data gap  | —      | —      | —      | — |
+| U   | data gap  | —      | —      | —      | — |
+
+### Source legend
+1. [[sources/foo2024-bar]] — short description of what this source contributes
+2. [[sources/baz2023-qux]] — ...
+```
+
+Coverage cells use `n=<count>` when `n_studies > 0` and `data gap` when `n_studies = 0` with `status: populated`. Numerical cells use `—` for data gaps. Key-sources cells cite the top two or three contributing sources using the numbered-alias convention (see product-category pages above), with a `Source legend` section below the table mapping each number to the full source page and what it contributes. This table is a sanctioned exception to Part 15's "multi-column tables discouraged" guidance; the stakeholder-snapshot use case warrants the format, and the same data lives in machine-readable form in frontmatter for any rendering surface that cannot accommodate the wide table.
+
 ### Product-category page (`wiki/products/<category>.md`)
 
 ```yaml
@@ -542,7 +575,7 @@ When Karen drops a file into `raw/` and says "ingest this":
 2. Tell Karen the TL;DR first — three to five sentences — before writing anything. Wait for Karen's reaction so she can redirect.
 3. Create the source page at `wiki/sources/<cite-key>.md` using the template in Part 6.
 4. Identify affected pages: metals, ingredients, products, regulations, testing methods, microbiome topics, certification criteria. List them for Karen.
-5. Update each affected page. Weave in new findings. When a claim is superseded, do not just overwrite — note the change and flag contradictions. For example, "Earlier estimates of 250 ppb (Jones 2019) have been revised to 180 ppb by Smith 2024." When updating an ingredient's `contamination_profile`, advance `status` from `pending` to `in_progress` or `populated` as appropriate, and populate `confidence`, `n_studies`, and `last_reviewed` when moving to `populated`.
+5. Update each affected page. Weave in new findings. When a claim is superseded, do not just overwrite — note the change and flag contradictions. For example, "Earlier estimates of 250 ppb (Jones 2019) have been revised to 180 ppb by Smith 2024." When updating an ingredient's `contamination_profile`, advance `status` from `pending` to `in_progress` or `populated` for analytes the source addresses, populate `confidence`, `n_studies`, and `last_reviewed` accordingly, and apply the Part 6 coverage rule: any remaining `pending` sub-blocks on the same page advance to `populated` with `n_studies: 0` to declare the data gap explicitly. Update or create the body-level "Heavy metal contamination profile" table to match the new state. A touched ingredient page must not leave the ingest with mixed `pending` / `populated` sub-blocks.
 6. Update `index.md` with the new source page and any newly created pages.
 7. Append to `log.md` using the format `## [YYYY-MM-DD] ingest | <cite-key> — <title>` followed by a short note on what changed.
 8. Commit to git. Message format matches the log entry.
@@ -735,7 +768,7 @@ Legitimate uses of bullets in wiki content: enumerated regulatory values or thre
 
 Illegitimate uses: summaries of individual studies (use prose with full citation), explanations of mechanisms (use prose, develop the argument), synthesis paragraphs (use prose, make the connections), consumer-facing explanations of risk (use prose, contextualize the dose), implications sections (use prose, reason through the implications).
 
-Structured data belongs in frontmatter YAML or two-column tables, not in bullets. Regulatory limits, concentration values, study details, and test method parameters are reference data, not analytical claims. They go in YAML where the app can parse them, or in two-column tables where humans can scan them. Multi-column tables are discouraged because they render poorly on mobile and in narrow Obsidian panes; if a multi-column table seems necessary, consider whether the data should be split across several two-column tables or represented as structured YAML.
+Structured data belongs in frontmatter YAML or two-column tables, not in bullets. Regulatory limits, concentration values, study details, and test method parameters are reference data, not analytical claims. They go in YAML where the app can parse them, or in two-column tables where humans can scan them. Multi-column tables are discouraged because they render poorly on mobile and in narrow Obsidian panes; if a multi-column table seems necessary, consider whether the data should be split across several two-column tables or represented as structured YAML. The ingredient-page "Heavy metal contamination profile" table defined in Part 6 is a sanctioned exception to this guidance: the stakeholder-snapshot use case (a single scannable view of all ten analytes for one commodity, read by regulators, brand QA, and legal reviewers) warrants the wide format, and the same data is available in machine-readable form in the frontmatter for any rendering surface that cannot accommodate it.
 
 Avoid em dashes. Use commas, semicolons, periods, or parentheticals instead. Em dashes are fine inside direct quotes and citation text; do not introduce them in new writing.
 
@@ -790,6 +823,10 @@ Silent threshold deviation: certification pages that cite different values than 
 Evidence-tier mismatch: synthesis claims supported only by B-tier or C-tier sources when A-tier sources exist in the corpus.
 
 Provenance gaps: wiki claims that do not trace to a specific source page. Every numerical claim in the wiki must link to a source; claims without provenance are a lint failure.
+
+Ingredient coverage asymmetry: ingredient pages where some `contamination_profile` sub-blocks are `in_progress` or `populated` while others remain `pending`. Per the Part 6 coverage rule, any ingest that touches an ingredient page must advance all ten sub-blocks out of `pending`; analytes the source does not address advance to `populated, n_studies: 0` as declared data gaps. Mixed-state pages indicate an ingest that addressed some analytes and silently skipped others, leaving HMT&C-relevant analytes without visible coverage decisions. Pages still carrying all-`pending` sub-blocks (untouched stubs) are not flagged by this check; only mixed-state pages are. Run via `node tools/audit-ingredient-metal-coverage.mjs`.
+
+Ingredient body-table presence: ingredient pages whose frontmatter `contamination_profile` has any sub-block at `populated` or `in_progress` but whose page body lacks the "Heavy metal contamination profile" table from Part 6. The YAML is machine-readable; the body table is the stakeholder-facing surface and must travel with the data.
 
 Lint results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`. Lint entries in `log.md` use `op: lint`.
 
