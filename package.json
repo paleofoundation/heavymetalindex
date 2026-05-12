@@ -13,7 +13,7 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "prebuild": "node tools/audit-product-source-routing.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs",
+    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs",
     "build": "./quartz/bootstrap-cli.mjs build -d wiki -o public",
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",
     "check": "tsc --noEmit",
@@ -25,7 +25,7 @@
     "evidence:queue": "tsx tools/evidence/build-review-queue.ts",
     "evidence:raw-inventory": "tsx tools/evidence/build-raw-ingest-inventory.ts",
     "evidence:scan": "tsx tools/evidence/scan-markdown.ts --raw raw/markdown --out data/evidence/drafts",
-    "crosswalk:apply": "node tools/audit-product-source-routing.mjs && node tools/apply-product-crosswalk-sections.mjs",
+    "crosswalk:apply": "node tools/evidence/build-routing-audit.mjs && node tools/apply-product-crosswalk-sections.mjs",
     "format": "npx prettier . --write",
     "test": "tsx --test",
     "workbench": "node tools/standards-workbench/server.mjs",
@@ -48,7 +48,7 @@
     "evidence:sync-local": "node tools/evidence/sync-local-evidence.mjs",
     "evidence:watch-local": "node tools/evidence/watch-local-evidence.mjs",
     "evidence:show-results": "node tools/evidence/show-auto-ingest-results.mjs",
-    "evidence:source-routes": "node tools/audit-product-source-routing.mjs"
+    "evidence:source-routes": "node tools/evidence/build-routing-audit.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",

@@ -1,6 +1,6 @@
 ---
 type: source
-source_id: dabeka1987-canada-infant-formula-lead-cadmium
+cite_key: dabeka1987-canada-infant-formula-lead-cadmium
 title: "Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada"
 authors: [Dabeka, McKenzie]
 year: 1987
