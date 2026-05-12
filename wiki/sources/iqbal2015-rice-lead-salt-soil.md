@@ -1,0 +1,46 @@
+---
+type: source
+cite_key: iqbal2015-rice-lead-salt-soil
+title: "Lead accumulation and growth response of rice (Oryza sativa L.) varieties in lead contaminated soil under salt stress"
+authors: [Iqbal M, Zafar S, Hasanuzzaman M]
+year: 2015
+publication: "International Journal of Agriculture and Biology"
+doi: "10.17957/IJAB/15.0026"
+source_type: peer-reviewed
+evidence_tier: B
+license: "unknown"
+raw_path: raw/studies/iqbal2015-rice-lead-salt-soil.pdf
+sha256: 9499c61420bd1907303b35fbf0822621392354abc91b99ac4e4305750b961a35
+access_date: 2026-05-12
+access_url: "https://doi.org/10.17957/IJAB/15.0026"
+metals: [Pb]
+ingredients: ["[[ingredients/rice]]"]
+products: []
+matrices: [rice-grain, rice-straw, paddy-soil]
+jurisdictions: [PK]
+sample_n: 2
+updated: 2026-05-12
+---
+
+# Iqbal et al. 2015 — Lead accumulation in rice varieties under combined Pb and salt stress, Pakistan
+
+Iqbal et al. examined lead (Pb) accumulation and growth responses in two Pakistani rice varieties (Super Basmati and Irri-6) grown in pots with soil spiked at 0, 50, 100, and 200 mg Pb/kg under varying salt (NaCl) concentrations (0, 50, 100, 150 mM). The study is primarily a phytotoxicity investigation using artificially contaminated soil at concentrations considerably above ambient field levels; its relevance to natural-occurrence surveillance is limited. However, it provides data on differential Pb accumulation between cultivars and between plant organs (straw vs. grain) under controlled conditions in Pakistan, a country with significant rice cultivation and soil Pb contamination concerns.
+
+## Key numbers
+- Soil Pb spike levels: 0, 50, 100, 200 mg/kg
+- Pb in rice grain: substantially lower than straw at all treatment levels (consistent with the general translocation barrier for Pb in rice)
+- Salt stress generally reduced Pb uptake and accumulation in both varieties at moderate NaCl concentrations, with effects reversing at higher salinity
+- Super Basmati accumulated less Pb in grain than Irri-6 under most treatment conditions
+- Exact grain Pb values reported in tables (values given as µg/g dry weight) — at 200 mg/kg soil Pb, grain Pb in Irri-6 exceeded that of Super Basmati
+
+## Methods (brief)
+Pot experiment; two rice varieties; factorial design crossing Pb dose (4 levels) and NaCl concentration (4 levels); FAAS for Pb determination; Pakistan.
+
+## Implications
+Certification: Provides cultivar-level differentiation for Pb accumulation in basmati vs. non-basmati rice — useful context for sourcing guidance, though soil spike levels far exceed ambient.
+Courses: Illustrates the general principle that straw accumulates far more Pb than grain (the plant excludes Pb at the grain-filling step), which is relevant to animal feed vs. human food exposure discussions.
+App: B-tier; controlled contamination study not usable for ambient concentration estimates.
+
+## Wiki pages updated on ingest
+- [[ingredients/rice]]
+- [[metals/lead]]
