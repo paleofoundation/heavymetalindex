@@ -4,6 +4,8 @@ Working backlog for the Heavy Metal Index build. Two lists: Karen's (decisions, 
 
 For strategic direction, see [OPERATING.md](OPERATING.md) Part 7 standing initiatives. For procedure, see [CLAUDE.md](CLAUDE.md). This file is the granular working backlog underneath those documents.
 
+**Primary "what's next" surface: run `npm run plan`** — that emits [data/evidence/build-action-plan.md](data/evidence/build-action-plan.md), an auto-generated prioritized list of actions scored by impact × confidence ÷ cost, with per-action session prompts ready to paste into the recommended session type (Claude Code Opus / Obsidian Sonnet / etc.). The plan regenerates from gap signals each invocation; TODO.md is the human-curated overlay for items the orchestrator's signal vocabulary doesn't capture.
+
 Format notes:
 - Each item is one line. Severity / priority lives in section ordering, not in item text.
 - A completed item moves to "Recently completed" at the bottom of its list, kept there for one or two sessions so the next session can scan recent context, then archived.
@@ -93,6 +95,7 @@ Items Claude is working through. Picked up in priority order from the top of eac
 - [x] Stakeholder guide replication to 30 non-formula product pages via `tools/apply-stakeholder-guides.mjs` (commit `70d169a` plus base-variant fix `3b7c516`). Per-family brand-legal attack-vector framing for baby cereals, purees, mixed meals, teething/snacks, fruit and vegetable juices, plant milks, tea family, beverages, and specialty pediatric matrices.
 - [x] Wishlist automated paper retrieval — `tools/wishlist/parse-wishlist.mjs` and `tools/wishlist/find-candidates.mjs` (commits `4b672ab` and `9b7960b`). OpenAlex API integration with word-boundary metal-code extraction. v0 first run downloaded **34 open-access PDFs** to the manual-fetch staging folder; 5 deduplicated against `wiki/sources/`; 39 weak matches logged for optional review; 33 OpenAlex-OA-but-publisher-paywalled failures (typical). One npm script: `npm run wishlist:fetch` runs the full pipeline end-to-end. The model decides yes/no itself; no Karen-side approval gate.
 - [x] Wishlist auto-fetch rewritten to decide-and-act instead of asking Karen to approve (commit `9b7960b`). Per OPERATING.md Part 3: Claude does not introduce approval gates for decisions Claude is qualified to make. Audit log at `data/evidence/wishlist-fetch-audit.csv` is for Karen's optional second-guessing, not routine gating.
+- [x] Build orchestrator v0 (commit `eca77e4`). `tools/orchestrator/analyze-gaps.mjs` + `npm run plan`. Reads every gap signal, scores actions by priority, emits a sorted action plan plus per-action session prompts. First run surfaced 4 actions: 460-cell synthesis pass (top priority), 240-entry routing triage, 33-cell wishlist expansion, 95-PDF ingest. The orchestrator recommends which session type to dispatch each action to (Claude Code Opus for analytical work, Obsidian Sonnet for bulk mechanical work, etc.); v1 will wire auto-dispatch via `claude --print --permission-mode bypassPermissions "<prompt>"`.
 - [x] Cowork CLAUDE.md consistency audit committed as historical record (commit `90bc4d1`). Most findings closed this week; remaining ones catalogued in the "Queued" section of this file.
 
 ### Karen's recently completed
