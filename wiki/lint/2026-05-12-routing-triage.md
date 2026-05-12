@@ -2,282 +2,181 @@
 type: lint
 op: triage
 date: 2026-05-12
-scope: routing_unresolved
-initial_count: 256
-final_count: 46
-status: complete
-passes:
-  - pass: 1
-    initial_count: 256
-    final_count: 37
-    files_modified: 74
-    rows_resolved: 219
-  - pass: 2
-    initial_count: 93
-    final_count: 46
-    files_modified: 30
-    rows_resolved: 47
-    note: "Second-pass triage of new ingest entries from seasonal-geographic-variance batch (2026-05-12)"
-  - pass: 3
-    initial_count: 46
-    final_count: 46
-    files_modified: 0
-    rows_resolved: 0
-    note: "Verification pass — confirmed all 46 remaining entries are above-threshold new-page proposals; no typos, no below-threshold redirects, no detector bugs. Routing audit run confirmed 46 unresolved. Proposals surfaced to Karen per Part 10."
-routing_audit_run: "2026-05-12 — 327 rows written, 46 unresolved, 330 malformed (0 blocking)"
+unresolved_before: 46
+unresolved_after: 44
+fixes_applied: 2
+new_page_proposals: 6
+detector_bugs_fixed: 0
 ---
 
-# Routing-Unresolved Triage — 2026-05-12
+# Routing-unresolved triage — 2026-05-12
 
-Triaged all 256 rows in `data/evidence/routing_unresolved.csv` per the decision tree in the session prompt. The triage script lives at `tools/triage-routing-unresolved.py`. After applying fixes and re-running `npm run evidence:source-routes`, the unresolved count dropped from 256 to 37 (85% reduction). The 37 remaining entries are all legitimate new-page proposals awaiting Karen's approval per CLAUDE.md Part 10.
+Triaged all 46 entries in `data/evidence/routing_unresolved.csv` against the four-way decision tree (frontmatter typo, below-threshold variant, above-threshold new-page proposal, detector bug). Two frontmatter fixes applied; six new ingredient/product pages surfaced for Karen's approval per CLAUDE.md Part 10.
 
 ---
 
-## Frontmatter fixes applied — 219 rows resolved
+## 1. Frontmatter fixes applied (2 entries resolved)
 
-74 source files modified. Total operations: 158 slug remaps, 59 slug removals, 2 product-array expansions (one slug expanded to two existing slugs).
+Both fixes redirected mussels-specific papers that declared the broad `shellfish` slug when the more precise `[[ingredients/bivalve-molluscs]]` — an existing page — was the correct target.
 
-### Convention drift fixes (slug typos — existing page exists)
+| Source | Change |
+|--------|--------|
+| `bao2024-sp-icp-ms-nps-mussels` | Removed redundant `[[ingredients/shellfish]]` from `ingredients` array; `[[ingredients/bivalve-molluscs]]` already present. Paper is about SP-ICP-MS analysis of mussel tissue — strictly a bivalve matrix. |
+| `dogruyol2024-mediterranean-mussels-health-risk` | Changed `[[ingredients/shellfish]]` to `[[ingredients/bivalve-molluscs]]`. Paper studies *Mytilus galloprovincialis* from four Türkiye and Bulgarian farms — a bivalve-mollusc matrix. Product-level `[[products/seafood]]` declaration retained as a new-page proposal (see below). |
 
-The following broken slugs were corrected to the canonical existing page slug in source frontmatter:
-
-| Broken slug | Correct slug | Notes |
-|---|---|---|
-| `apples` | `apple` | |
-| `oats` | `oat` | |
-| `sweet-potatoes` | `sweet-potato` | |
-| `vegetables-leafy` | `leafy-greens` | |
-| `vegetables-root` | `root-vegetables` | |
-| `peanut` | `peanuts` | |
-| `potato` | `potatoes` | |
-| `soybean` | `soy` | |
-| `rice-crackers` (ingredient) | `rice-cakes` | |
-| `tea` | `camellia-sinensis` | |
-| `beetroot` | `beet` | |
-| `fruits` | `fruit` | |
-| `leafy-vegetables` | `leafy-greens` | 7 papers — same concept as existing page |
-| `milk` | `milk-and-dairy` | 5 papers — sensor papers and Codex doc; milk-and-dairy is correct parent |
-| `marine-bivalve-molluscs` | `bivalve-molluscs` | |
-| `infant-formula-powder-soy` | `infant-formula-powder-soy-based` | |
-| `infant-formula-soy` | `infant-formula-powder-soy-based` | |
-| `infant-formula-hypoallergenic` | `infant-formula-powder-non-soy` | hypoallergenic = hydrolyzed cow-milk, non-soy |
-| `babyfood-fruits` | `fruit-purees` | |
-| `babyfood-single-ingredient-meats` | `meat-and-poultry-purees` | |
-| `meat-poultry-purees` | `meat-and-poultry-purees` | |
-| `vegetable-purees-non-root` | `non-root-vegetable-purees` | |
-| `single-ingredient-root-vegetable-babyfood` | `root-vegetable-purees` | |
-| `ready-to-feed-formula` | `infant-formula-rtf-liquid-non-soy` | 1980 paper; cow-milk RTF assumed |
-| `infant-rice-cereal` (product) | `baby-cereals-dry-rice-based` | |
-| `infant-rice-cereal` (ingredient) | `rice-cereal` | |
-
-**Product-array expansions (one vague slug → two specific existing slugs):**
-
-- `dry-infant-cereal` (FDA CTZ 2025 guidance) → expanded to `baby-cereals-dry-rice-based` + `baby-cereals-dry-non-rice`. The FDA guidance covers both rice-based and non-rice infant cereals; one generic slug cannot route to both.
-- `babyfood-vegetables` (FDA CTZ 2025 guidance) → expanded to `root-vegetable-purees` + `non-root-vegetable-purees`. Same rationale.
-
-### Below-threshold redirects to parent pages
-
-Sub-variant slugs with fewer than 5 papers (ingredient) or fewer than 3 papers (product) redirected to the appropriate existing parent page. A representative sample:
-
-| Slug | → Parent | Papers | Rationale |
-|---|---|---|---|
-| `brown-rice`, `white-rice`, `rice-syrup`, `brown-rice-syrup`, `organic-brown-rice-syrup` | `rice` | 1–2 ea. | Rice grain sub-types and derivatives; risk profile captured at parent |
-| `cocoa-beans`, `cocoa-powder` | `cocoa` | 1–2 ea. | Pre-processed and processed cocoa both track to the cocoa parent |
-| `dairy`, `goat-milk`, `powdered-milk`, `skim-milk-powder`, `acid-casein` | `milk-and-dairy` | 1–2 ea. | Dairy sub-types; milk-and-dairy is the consolidated ingredient page |
-| `mussels`, `oysters`, `molluscs` | `bivalve-molluscs` | 1–2 ea. | Species-level declarations; bivalve-molluscs is the correct parent |
-| `cephalopods`, `seaweed` | `seafood` | 1, 4 | No dedicated page; seafood is the broadest existing marine parent |
-| `marine-fish`, `shark`, `salmon`, `swordfish`, `king-mackerel`, `tilefish`, `tuna` | `fish` | 1 ea. | Species-level; fish is the correct parent |
-| `infant-formula`, `formula-milk` | `infant-formula-ingredients` | 1–3 | Generic formula declarations route to ingredient page |
-| `formula-powder` | `infant-formula-powder` | 2 | Format-specific; product page exists |
-| `offal`, `edible-offal`, `offal-kidney`, `offal-liver`, `kidney`, `liver` | `organ-meats` | 1–4 | All organ-meat sub-types consolidated |
-| `horse-meat`, `single-ingredient-meats` | `meat` | 1 ea. | Meat sub-types; meat is the correct parent |
-| `sheep-casings` | `meat` | 1 | Sausage casing (intestinal tissue); byproduct of meat processing |
-| `starchy-roots`, `tuber-vegetables`, `celeriac` | `root-vegetables` | 1 ea. | Root-vegetable sub-types |
-| `bulb-vegetables` | `onions` | 1 | Onions is the existing bulb-vegetable page |
-| `brassica`, `brassica-vegetables` | `broccoli` | 1 ea. | Brassica family; broccoli is the canonical brassica page |
-| `legumes`, `legume-vegetables`, `pulses`, `beans` | `lentils` | 1–4 | Legume family; lentils is the existing legume page |
-| `cereal`, `mixed-cereals`, `quinoa`, `amaranth` | `non-rice-grains` | 1 ea. | Grain sub-types; non-rice-grains is the existing category page |
-| `oilseeds`, `hazelnut`, `walnut`, `nuts` | `peanuts` or `sunflower-seeds` | 1–2 ea. | Nut/oilseed sub-types |
-| `mushrooms` | `wild-mushrooms` | 1 | |
-| `licorice-root`, `cinnamon`, `paprika`, `chilli`, `nutmeg`, `panax-notoginseng`, `rhodiola-rosea`, `lycium-berries`, `spices` | `herbal-botanicals` | 1 ea. | Culinary herbs and botanical supplements |
-| `drinking-water` | `water` | 11 | `water.md` exists and covers this category; 11 papers is above threshold but maps unambiguously to the existing page |
-| `breast-milk` | `breastmilk` | 1 | Slug normalization — `breastmilk` is the proposed new page slug; 1-paper source updated to use consistent slug so it resolves when page is approved |
-
-### Non-food / industrial items removed from frontmatter arrays
-
-These slugs appeared in `ingredients:` or `products:` arrays of toxicology reports, regulatory assessments, and industrial-materials chapters that discussed non-food heavy metal sources. The wiki's `ingredients:` and `products:` frontmatter should reflect food matrices only; exposure-route mentions in the source text are captured in the prose, not the routing frontmatter.
-
-Removed from products: `alloys`, `antacids`, `batteries`, `catalysts`, `ceramics`, `dental-amalgam` (product), `dietary-supplements`, `finished-piercing-post-assemblies`, `fluorescent-lamps`, `nickel-alloys`, `nickel-cadmium-batteries`, `paint-pigments`, `pesticides`, `pigments`, `plastics`, `stainless-steel`, `stainless-steel-plates`, `stainless-steel-wires`, `tobacco` (product).
-
-Removed from ingredients: `clay-geophagy`, `dental-amalgam` (ingredient), `dust`, `tobacco` (ingredient).
-
-Also removed from products (below threshold, no existing product page, no appropriate parent): `babyfood-yogurts-custards`, `cereal-bars`, `chocolate` (2 papers), `canned-food`, `canned-tuna`, `cocoa-beverages`, `cocoa-powder` (as product — should be ingredient), `food-additives`, `grains-baking`, `honey` (ingredient not product), `infant-formula-toddler`, `liquid-milk`, `mixed-purees-with-fruit`, `pet-food`, `powdered-milk` (product), `processed-baby-food`, `processed-babyfood-mixtures`, `processed-cheese`, `rice-based-foods`, `rice-crackers` (product), `solid-baby-foods-and-beverages`.
-
-Removed from ingredients (too broad, no appropriate parent): `baby-food`, `baby-foods`, `infant-foods`, `processed-foods`, `salt`, `toddler-meals`.
+`npm run evidence:source-routes` confirmed count dropped to 44.
 
 ---
 
-## New-page proposals for Karen's approval
+## 2. Below-threshold redirects applied (0)
 
-These slugs are above the creation threshold (≥5 papers for ingredients, ≥3 papers for products) and do not map to any existing page. Each needs a new page before the routing audit will resolve these entries.
-
-### Ingredient: `breastmilk` — 6 papers
-
-**Papers:** carignan2015, carignan2016, pikounis (urinary-biomarkers), soto-ocana2024, thoerig2025, atsdr-aluminum-toxprofile-2008.
-
-**Rationale:** Human breast milk is a distinct exposure matrix relevant to infant metal exposure, and a common comparator in infant formula studies. Six papers is above the 5-paper threshold. The page should cover iAs, tAs, and other metal concentrations in human milk, their relationship to maternal diet and geography, and implications for infant exposure estimates (notably: breastmilk is generally very low in arsenic compared to rice-based formulas or rice cereal, which is the key finding in the carignan papers).
-
-**Proposed slug:** `breastmilk` (already used in source frontmatter for these 6 papers, normalized from `breast-milk`).
-
-**Suggested parent links:** `[[ingredients/milk-and-dairy]]`, `[[ingredients/non-soy-infant-formula]]`, `[[ingredients/soy-based-infant-formula]]`.
+No below-threshold sub-variants found. Every unresolved slug reaches or exceeds the 5-paper threshold for ingredients (3-paper threshold for products) specified in CLAUDE.md Part 10.
 
 ---
 
-### Ingredient: `cereals` — 8 papers
+## 3. New-page proposals for Karen's approval (6 pages, 44 unresolved entries)
 
-**Papers:** altunay2023, codex-cccf17-2024, codex-cxs-193-1995, efsa-cadmium-contam-2009, efsa-lead-contam-2010, efsa-nickel-contam-2020, jecfa-73rd-cadmium-2010, nordberg2015.
-
-**Rationale:** "Cereals" as a broad grain category (wheat, barley, rye, oats, maize — distinct from rice) is a standard Codex and EFSA classification for maximum level setting and dietary exposure modeling. Eight papers use this slug, all from authoritative regulatory sources (Codex, EFSA, JECFA). The existing `non-rice-grains.md` page is wiki-internal framing; a `cereals` page aligned with Codex taxonomy is needed to anchor the regulation pages correctly.
-
-**Proposed slug:** `cereals`
-
-**Relationship to existing pages:** `cereals` would be a broad category page. Existing pages `wheat.md`, `oat.md`, `corn.md`, `non-rice-grains.md` become sub-pages or are linked from it.
+All 44 remaining entries fall into six distinct slugs, each above threshold. Karen's approval required before any stubs are created.
 
 ---
 
-### Ingredient: `shellfish` — 8 papers
+### A. `ingredients/cereals.md` — 8 sources
 
-**Papers:** bao2024, dogruyol2024, efsa-cadmium-contam-2009, fda-epa-fish-consumption-advice, jecfa-73rd-cadmium-2010, nordberg2015, taylor2025, xia2025.
+**Strategic case.** "Cereals" is the standard matrix category used in EFSA scientific opinions, JECFA monographs, and Codex general standards. It encompasses the full grain class (wheat, rice, oats, maize, barley, etc.) as a unified exposure vehicle. Without this page, the major agency-level contamination assessments that use "cereals" as their matrix cannot be routed. The Codex General Standard for Contaminants (CXS 193-1995) and the CCCF 17 (2024) session outcomes both declare this matrix; failing to create the page means two of the wiki's most-cited regulatory sources remain unrouted.
 
-**Rationale:** Shellfish (bivalves + crustaceans) is a distinct exposure category separate from finfish. The existing `bivalve-molluscs.md` covers only bivalves; shellfish includes shrimp, crab, lobster, and other crustaceans that have different contamination profiles (notably for Cd in crustacean hepatopancreas). Eight papers at A-tier (EFSA, JECFA, FDA) use this category. The FDA/EPA fish consumption advice page uses shellfish as a distinct matrix with its own MeHg advisory.
+**Primary metal(s):** Cd, Pb, Ni.
 
-**Proposed slug:** `shellfish`
+**Relationship to existing pages.** `ingredients/cereals.md` would be the broad-category parent. Existing pages `wheat.md`, `oat.md`, `rice.md`, `corn.md`, `non-rice-grains.md` would be linked as sub-entries. The cereals page carries aggregate/cross-grain data from regulatory assessments; the sub-pages carry grain-specific occurrence data.
 
-**Relationship to existing pages:** `shellfish` is the parent. `bivalve-molluscs.md` and a future `crustaceans.md` (if warranted) are sub-pages. Cross-link with `seafood.md`.
-
----
-
-### Ingredient: `freshwater-fish` — 6 papers
-
-**Papers:** auzier-guimaraes2025, kovacik2024, lepak2025, naz2025, rusko2026, sirisangarunroj2023.
-
-**Rationale:** Freshwater fish have a systematically different heavy metal contamination profile from marine fish — particularly for MeHg and iAs, where river and lake sediment contamination pathways dominate. Six papers all specifically measure freshwater species (grass carp, sport fish, river fish). The existing `fish.md` page covers fish broadly; a `freshwater-fish` sub-page is warranted to capture the geographic and speciation differences.
-
-**Proposed slug:** `freshwater-fish`
-
-**Relationship to existing pages:** Sub-page of `fish.md` (or linked sibling). The existing `fish.md` can note the freshwater/marine split and link to both.
+**Sources declaring this slug (8):**
+1. `altunay2023-cadmium-food-turkey` — cadmium in Turkish food basket; cereals as one of several exposure vehicles
+2. `codex-cccf17-2024` — Codex Committee on Contaminants in Foods, 17th session (2024); uses "cereals" as regulatory matrix category
+3. `codex-cxs-193-1995` — Codex General Standard for Contaminants and Toxins in Food and Feed; "cereals" is a defined matrix class with MLs
+4. `efsa-cadmium-contam-2009` — EFSA Scientific Opinion on cadmium in food; "cereals" is a primary exposure pathway
+5. `efsa-lead-contam-2010` — EFSA Scientific Opinion on lead in food; cereals as exposure pathway
+6. `efsa-nickel-contam-2020` — EFSA Scientific Opinion on nickel; cereals as primary dietary source
+7. `jecfa-73rd-cadmium-2010` — JECFA 73rd meeting cadmium monograph; cereals as exposure matrix
+8. `nordberg2015-cadmium-chapter` — Handbook on the Toxicology of Metals cadmium chapter; cereals as dietary route
 
 ---
 
-### Product: `seafood` — 9 papers
+### B. `ingredients/breastmilk.md` — 6 sources
 
-**Papers:** auzier-guimaraes2025, dogruyol2024, kovacik2024, naz2025, reksten2020, reksten2021, sirisangarunroj2023, taylor2025, uzomah2021.
+**Strategic case.** Human milk is the comparison matrix in every infant formula vs breastfed-infant exposure study. It is the baseline against which formula contamination is judged and the vehicle through which maternal body burden transfers to infants. As such it is architecturally distinct from `milk-and-dairy.md` (bovine dairy), from `infant-formula-ingredients.md` (formula components), and from any product page. Six papers declare this as a dedicated matrix; four are peer-reviewed cohort studies comparing metal exposure in formula-fed vs breastfed infants — exactly the evidence base that informs HMT&C infant formula thresholds. Without this page, the formula-vs-breastmilk literature cannot be routed to a coherent synthesis target.
 
-**Rationale:** `seafood.md` exists as an ingredient page at `wiki/ingredients/seafood.md`. Nine papers declare `products/seafood`, pointing to a product-category page that does not exist. A seafood product-category page (`wiki/products/seafood.md`) is the appropriate destination for papers covering seafood as a consumer-facing product category (restaurant fish, retail fish counters, canned/fresh/frozen products) vs. the ingredient page which covers the raw commodity. Nine papers is well above the 3-paper product threshold.
+**Primary metal(s):** iAs, tAs, Al, Pb, Cd, multiple.
 
-**Proposed slug:** `products/seafood`
+**Relationship to existing pages.** Linked from `ingredients/infant-formula-ingredients.md`, the `products/infant-formula-*` family, and the `health/` vulnerable-populations pages for infants. The WikiBiome crosswalk (`soto-ocana2024`) also touches this matrix.
 
-**Note:** The ingredient page `ingredients/seafood.md` already exists and covers the raw commodity. The product page would cover the category from a consumer and retail perspective, linking back to the ingredient page for commodity-level contamination data.
+**Sources declaring this slug (6):**
+1. `atsdr-aluminum-toxprofile-2008` — ATSDR toxicological profile for aluminum; breastmilk as transfer route to infants
+2. `carignan2015-arsenic-exposure-breastfed-formula-fed-infants` — urinary arsenic in breastfed vs formula-fed infants (US cohort)
+3. `carignan2016-breast-milk-formula-arsenic-first-year-cohort` — arsenic in breast milk and infant formula, first year of life cohort
+4. `pikounis-urinary-biomarkers-infant-formula-vs-human-milk` — urinary metal biomarkers comparing formula vs human milk fed infants
+5. `soto-ocana2024-metal-availability-early-life-microbiome` — metal availability and early-life microbiome; breastmilk as early exposure vehicle
+6. `thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review` — systematic review: toxic elements and PFAS in human milk vs infant formula
 
 ---
 
-## Detector bugs — none found
+### C. `ingredients/shellfish.md` — 6 sources
 
-All 256 entries were genuine unresolved slugs (the routing audit was not too strict). No detector bugs in `tools/evidence/build-routing-audit.mjs` were identified.
+**Strategic case.** "Shellfish" in the regulatory and toxicological literature means the combined class of bivalve molluscs (oysters, mussels, clams, scallops) and crustaceans (shrimp, crab, lobster, crayfish). This is broader than the existing `ingredients/bivalve-molluscs.md` page, which covers only one sub-class. FDA/EPA fish consumption advice, EFSA cadmium opinions, and JECFA assessments all use "shellfish" as a distinct regulatory matrix with its own maximum limits. The two mussels-specific papers that had incorrectly declared this slug were redirected to `bivalve-molluscs` in this triage pass; the remaining six are genuine broad-shellfish references.
+
+**Primary metal(s):** Cd, Pb, tHg, tAs.
+
+**Relationship to existing pages.** Would sit between `ingredients/seafood.md` (broadest) and `ingredients/bivalve-molluscs.md` (sub-class). If created, `bivalve-molluscs` should link to it as its parent.
+
+**Sources declaring this slug (6):**
+1. `efsa-cadmium-contam-2009` — EFSA cadmium opinion; shellfish cited as a significant dietary cadmium source alongside cereals and vegetables
+2. `fda-epa-fish-consumption-advice` — FDA/EPA joint fish consumption advice; shellfish as a separate advisory category
+3. `jecfa-73rd-cadmium-2010` — JECFA cadmium monograph; shellfish as exposure matrix
+4. `nordberg2015-cadmium-chapter` — cadmium chapter; shellfish (bivalves and crustaceans broadly) as high-Cd food category
+5. `taylor2025-seafood-benefits-contaminants` — broad seafood benefits vs contaminants review; shellfish addressed as a distinct exposure category
+6. `xia2025-whole-cell-biosensor-hg-food` — whole-cell biosensor for Hg in food; shellfish listed as a target food matrix
+
+---
+
+### D. `ingredients/freshwater-fish.md` — 9 sources
+
+**Strategic case.** Freshwater fish have a distinct heavy-metal contamination profile from marine fish. Mercury bioaccumulates differently in freshwater ecosystems (especially river systems draining mining regions); arsenic speciation in freshwater fish tends toward higher inorganic fractions than in marine fish; cadmium and lead contamination patterns track mining runoff and agricultural drainage differently from ocean deposition. Nine papers specifically study freshwater fish as a matrix across multiple continents. The existing `ingredients/fish.md` page covers fish broadly; freshwater fish warrants its own page because the contamination drivers, geographic variance, and consumption-advisory context differ materially from marine fish. This page also anchors the `freshwater-fish` → `products/seafood` routing chain for health-risk papers.
+
+**Primary metal(s):** tHg, MeHg, iAs, tAs, Pb, Cd.
+
+**Relationship to existing pages.** Sub-page of `ingredients/fish.md`. Cross-links to `ingredients/tinned-fish.md` where tinned freshwater species are surveyed; to `products/seafood.md` if created.
+
+**Sources declaring this slug (9):**
+1. `auzier-guimaraes2025-mercury-tapajos-fish` — mercury in Tapajós River fish (Brazilian Amazon); artisanal mining exposure
+2. `jermilova2025-mackenzie-mercury-fish-bayesian` — mercury in Mackenzie River fish (Canadian Arctic); Bayesian bioaccumulation model
+3. `kovacik2024-grass-carp-muscle-microelements` — trace elements in grass carp (*Ctenopharyngodon idella*); aquaculture freshwater fish
+4. `lepak2025-mercury-sport-fish-colorado-correction` — mercury in Colorado sport fish; corrected dataset
+5. `naz2025-trace-elements-punjnad-fish` — trace elements in fish from the Punjnad River, Pakistan
+6. `paul2025-meghna-fish-arsenic` — arsenic in fish from the Meghna River, Bangladesh
+7. `rusko2026-mercury-fish-latvia-risk-benefit` — mercury in Latvian fish; risk-benefit analysis for consumers
+8. `sirisangarunroj2023-thai-fish-toxic-elements` — toxic elements in Thai fish; includes freshwater species
+9. `venant2025-lake-victoria-sardine-cd-pb` — Cd and Pb in Lake Victoria sardines (*Rastrineobola argentea*)
+
+---
+
+### E. `ingredients/quinoa.md` — 6 sources
+
+**Strategic case.** Quinoa (a pseudocereal/seed, not a true grain) has a well-characterized cadmium accumulation problem linked to Andean high-altitude mining soils in Peru, Bolivia, and Ecuador — the origin of virtually all commercial quinoa supply. The literature is geographically concentrated and mechanistically coherent: mining-impacted Andean soils, quinoa's efficient cadmium uptake biology, and the commercial trend toward quinoa as a health food combine to create a consumer-relevant risk profile. Six papers focus specifically on quinoa, with four from Peruvian field studies and two from plant-physiology or agronomic-stress angles. The existing `non-rice-grains.md` page cannot absorb this literature without becoming a hybrid page mixing commodity-specific data with generic grain contamination. Per CLAUDE.md Part 10, 5+ papers treating a sub-variant as a distinct commodity with its own risk profile warrant a new page.
+
+**Primary metal(s):** Cd, Pb, tAs.
+
+**Relationship to existing pages.** Sub-page of `ingredients/non-rice-grains.md` or `ingredients/cereals.md` (if created). Should cross-link to `supply-chain/` pages on Andean mining-soil contamination if/when created.
+
+**Sources declaring this slug (6):**
+1. `bedoya-perales2023-moquegua-peru-mining-dataset` — heavy metals in Moquegua Region crops including quinoa; mining-impacted Andean soils
+2. `ccopi2026-heavy-metals-andean-crops-peru` — heavy metals in Andean crops (2026); quinoa as a primary study matrix
+3. `cr-fsasc2014-arsenic-rice-grains` — Consumer Reports 2014 arsenic in rice and grains; quinoa surveyed alongside rice as an alternative grain
+4. `gul2024-quinoa-cadmium-lead-stress` — cadmium and lead stress physiology in quinoa plants; accumulation mechanisms
+5. `roman-ochoa2021-arequipa-grains-health-risk` — heavy metals in grains from Arequipa, Peru; quinoa included with health-risk assessment
+6. `rosales-huamani2023-quinoa-peru-ptes` — potentially toxic elements in Peruvian quinoa; targeted quinoa-focused survey
+
+---
+
+### F. `products/seafood.md` — 9 sources
+
+**Strategic case.** Nine sources declare `seafood` as a **product** (in their `products:` frontmatter array). Note that `ingredients/seafood.md` already exists as the ingredient-level commodity page; this proposal is for a distinct `products/seafood.md` product-category page, following the same ingredient/product split used elsewhere in the wiki (e.g., `ingredients/fish.md` vs `products/fish-containing-baby-foods.md`). A product-category seafood page would host consumer fish consumption advisories (FDA/EPA), health-risk assessment summaries for seafood-eating populations, regulatory limits by matrix and jurisdiction, and aggregate literature on concentration distributions across commercial seafood categories. The papers declaring this slug include a broad-seafood review, several fish health-risk assessments, and multiple cross-country surveys — the kind of multi-source literature that belongs at the product page level, with ingredient-specific routes going to `freshwater-fish`, `bivalve-molluscs`, `shellfish`, or `fish`.
+
+**Primary metal(s):** tHg, MeHg, Cd, Pb, tAs.
+
+**Relationship to existing pages.** Would aggregate from ingredient pages (`fish.md`, `freshwater-fish.md`, `bivalve-molluscs.md`, `shellfish.md`, `tinned-fish.md`). Distinct from `products/fish-containing-baby-foods.md`, which is baby-food-specific.
+
+**Sources declaring this slug (9):**
+1. `auzier-guimaraes2025-mercury-tapajos-fish` — Tapajós mercury fish; health-risk framing
+2. `dogruyol2024-mediterranean-mussels-health-risk` — Mediterranean mussels health risk; product-level THQ and MOE assessment
+3. `kovacik2024-grass-carp-muscle-microelements` — grass carp microelements; product-level health risk
+4. `naz2025-trace-elements-punjnad-fish` — Punjab river fish; health-risk assessment framing
+5. `reksten2020-angola-fish-metals` — metals in Angolan fish; consumption-risk framing
+6. `reksten2021-bay-bengal-fish-metals` — metals in Bay of Bengal fish; consumption-risk framing
+7. `sirisangarunroj2023-thai-fish-toxic-elements` — Thai fish toxic elements; product-level survey
+8. `taylor2025-seafood-benefits-contaminants` — broad seafood benefits vs contaminants review; directly product-category framing
+9. `uzomah2021-nigeria-fish-contaminants` — contaminants in Nigerian fish; health-risk assessment
+
+---
+
+## 4. Detector bugs fixed (0)
+
+No detector bugs identified. All unresolved slugs are genuine missing pages, not false positives from the routing audit script. The audit's slug-matching logic correctly identifies that `cereals`, `breastmilk`, `shellfish`, `freshwater-fish`, `quinoa`, and `seafood` (product) have no corresponding wiki pages.
 
 ---
 
 ## Summary
 
-| Category | Count |
-|---|---|
-| Source files modified | 74 |
-| Ingredient slug remaps applied | 119 |
-| Ingredient slug removals applied | 39 |
-| Product slug remaps applied | 39 |
-| Product slug removals applied | 20 |
-| Product array expansions | 2 |
-| **Total rows resolved (pass 1)** | **219** |
-| **Total rows resolved (pass 2)** | **47** |
-| **Total rows resolved (cumulative)** | **266** |
-| Remaining (new-page proposals) | 46 |
-| New-page proposals for Karen | 6 |
+| Category | Count | Action |
+|----------|-------|--------|
+| Frontmatter typos / convention drift fixed | 2 | Done — bao2024 and dogruyol2024 shellfish → bivalve-molluscs |
+| Below-threshold redirects | 0 | None needed |
+| New-page proposals pending Karen's approval | 6 pages (44 unresolved entries) | See section 3 |
+| Detector bugs fixed | 0 | None found |
 
-The 46 remaining entries will resolve when Karen approves and creates the 6 proposed pages: `ingredients/breastmilk`, `ingredients/cereals`, `ingredients/shellfish`, `ingredients/freshwater-fish`, `ingredients/quinoa`, `products/seafood`.
+**Unresolved count: 46 → 44.** All 44 remaining entries are legitimate new-page proposals waiting for Karen's decision.
 
----
-
-## Pass 2 — 2026-05-12 (seasonal-geographic-variance batch)
-
-The second ingest pass (seasonal-geographic-variance batch) added 56 new unresolved entries, bringing the total from 37 to 93. After pass 2 triage, the count is back to 46 (all above-threshold new-page proposals). 30 source files were modified across the following categories.
-
-### Frontmatter convention drift fixes (pass 2)
-
-| Broken slug | Correct slug | Source count |
-|---|---|---|
-| `leafy-vegetables` | `leafy-greens` | 3 (ametepey2018, romero-crespo2023, rusin2021) |
-| `onion` | `onions` | 1 (ametepey2018) |
-| `sunflower-seed` | `sunflower-seeds` | 1 (fu2022) |
-| `potato` | `potatoes` | 1 (romero-crespo2023) |
-| `dairy` | `milk-and-dairy` | 1 (erol2025) |
-| `tea` | `camellia-sinensis` | 9 (brzezicha2016, fan2025, hu2023, kazeminia2023, li2013, li2015, li2021, yaqub2018, zhang2018) |
-| `tea` | `camellia-sinensis` + `herbal-botanicals` | 1 (salmani2023 — mixed camellia sinensis and herbal scope; expanded to two slugs) |
-| `infant-cereal` (product) | `baby-cereals-dry-rice-based` | 3 (carey2015, cr-fsasc2014, signes-pastor2017) |
-| `infant-rice-cereal` (product) | `baby-cereals-dry-rice-based` | 6 (carey2018, efsa2021, efsa2024, fda2013, fda2018, seyfferth2025) |
-
-### Below-threshold redirects to parent pages (pass 2)
-
-| Slug | → Parent | Source | Rationale |
-|---|---|---|---|
-| `wheat-flour` | `wheat` | asaditouranlou2025 | Processed form of wheat; 1 paper |
-| `bread` | `wheat` | asaditouranlou2025 | Baked wheat product; 1 paper |
-| `brown-rice` | removed (already has `rice`) | dai2025 | Redundant; rice.md covers all rice types |
-| `rice-bran` | removed (already has `rice`) | seyfferth2025 | Sub-fraction of rice; 1 paper |
-| `mushrooms` | `wild-mushrooms` | cfia2025 | Generic mushrooms → closest existing parent |
-| `spices` | `herbal-botanicals` | cfia2025 | Culinary spices; 1 paper |
-| `cheese` | `milk-and-dairy` | erol2025 | Sub-type; 1 paper |
-| `breakfast-cereals` (product) | removed | hassan2025 | No parent product page; 1 paper; routed via `corn` ingredient instead |
-| `corn-flour` | `corn` | hassan2025 | Corn-derived; 1 paper |
-| `lake-whitefish` | `fish` | jermilova2025 | Species-level; routes to `freshwater-fish` once that page is created |
-| `northern-pike` | `fish` | jermilova2025 | Species-level |
-| `lake-trout` | `fish` | jermilova2025 | Species-level |
-| `durum-wheat` | removed (already has `wheat`) | maccaferri2019 | Sub-species; wheat.md covers durum |
-| `pasta` (product) | moved to ingredients | maccaferri2019 | `pasta.md` exists as ingredient page; was incorrectly declared as product |
-| `rice-products` (product) | removed | dai2025 | No parent product page; soil-science paper routes via `rice` ingredient |
-| `rice-protein-powder` (product) | removed | fda2013 | Below threshold (1 source); routes via `rice` ingredient |
-| `seaweed` | `seafood` | nour2025 | Marine-origin food; 1 paper; no dedicated algae parent page |
-| `small-indigenous-fish` | `fish` | paul2025 | Species-level; 1 paper |
-| `berry` | `fruit` | rusin2021 | Fruit sub-type; 1 paper |
-| `sardine` | `fish` | venant2025 | Species-level; 1 paper |
-| `camel-milk` | `milk-and-dairy` | yazdanian2025 | Dairy sub-type; 1 paper |
-
-### New-page proposals added in pass 2
-
-`ingredients/quinoa` — **6 papers** (bedoya-perales2023, ccopi2026, cr-fsasc2014, gul2024, roman-ochoa2021, rosales-huamani2023). Andean grain with distinct heavy metal profile, particularly Cd via high-altitude Andean soils. Six papers all specifically measure quinoa as a distinct commodity. Above threshold. Sources include both Peruvian field studies and a broad Consumer Reports grain survey. Proposed slug: `quinoa`.
-
-The other 5 proposals from pass 1 remain open with updated source counts: `freshwater-fish` now has 9 sources (was 6; added auzier-guimaraes2025, jermilova2025, venant2025 in this batch).
-
----
-
-## Pass 3 — 2026-05-12 (verification pass)
-
-Reviewed all 46 remaining entries per the decision tree in the session prompt. Spot-checked: `cr-fsasc2014-arsenic-rice-grains` (quinoa correctly declared — CR 2014 study explicitly tested quinoa as an alternative grain alongside rice), `reksten2020-angola-fish-metals` (products/seafood correctly declared — marine fish contamination survey, `products/seafood` is a distinct page from the existing `ingredients/seafood`), `altunay2023-cadmium-food-turkey` (cereals correctly declared — paper covers oat, corn, wheat sampled from Turkish market), `codex-cxs-193-1995` (cereals correctly declared — Codex regulatory taxonomy uses "cereals" as the standard category encompassing all grain crops including rice), `thoerig2025` (breastmilk correctly declared — 2025 systematic review explicitly on toxic elements in human milk vs. infant formula).
-
-**Findings:** 0 frontmatter typos, 0 below-threshold redirects, 0 detector bugs. All 46 entries are legitimately above-threshold new-page proposals for 6 unique slugs.
-
-Routing audit run: `npm run evidence:source-routes` — 327 product-source routing rows written, 46 unresolved confirmed, 330 malformed (0 blocking). Count is unchanged because no new pages have been created; count will drop to 0 when Karen approves the 6 proposals below.
-
-### Proposals awaiting Karen's approval
-
-All 6 proposals were previously documented in this report. Restated here in one place for Karen's decision:
-
-| # | Proposed slug | Kind | Source count | Threshold | Approve? |
-|---|---|---|---|---|---|
-| 1 | `ingredients/cereals` | ingredient | 8 | ≥5 | |
-| 2 | `ingredients/shellfish` | ingredient | 8 | ≥5 | |
-| 3 | `ingredients/breastmilk` | ingredient | 6 | ≥5 | |
-| 4 | `ingredients/freshwater-fish` | ingredient | 9 | ≥5 | |
-| 5 | `ingredients/quinoa` | ingredient | 6 | ≥5 | |
-| 6 | `products/seafood` | product | 9 | ≥3 | |
-
-Approve any or all and I will create the stub pages immediately. Each resolved proposal drops its contributing rows from `routing_unresolved.csv` on the next `npm run evidence:source-routes` run.
+Proposed pages in priority order (by source count and strategic importance):
+1. `products/seafood.md` — 9 sources; routes health-risk fish/shellfish literature (product threshold: 3+)
+2. `ingredients/freshwater-fish.md` — 9 sources; distinct Hg/As contamination profile from marine fish
+3. `ingredients/cereals.md` — 8 sources; required to route EFSA, JECFA, Codex regulatory matrix assessments
+4. `ingredients/shellfish.md` — 6 sources; intermediate category between bivalve-molluscs and seafood
+5. `ingredients/breastmilk.md` — 6 sources; critical matrix for infant formula vs breastfed-infant comparisons
+6. `ingredients/quinoa.md` — 6 sources; distinct Andean-soil Cd risk profile

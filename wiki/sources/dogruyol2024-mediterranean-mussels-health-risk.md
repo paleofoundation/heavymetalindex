@@ -12,7 +12,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11442619/FM_11442619.md
 metals: [Cd, tHg, Pb, Se]
-ingredients: ["[[ingredients/shellfish]]"]
+ingredients: ["[[ingredients/bivalve-molluscs]]"]
 products: ["[[products/seafood]]"]
 matrices: [shellfish, mussel, bivalve]
 jurisdictions: [TR, BG]
