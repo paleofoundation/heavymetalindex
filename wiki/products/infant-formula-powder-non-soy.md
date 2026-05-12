@@ -53,6 +53,33 @@ sources: 16
 
 This page is the public evidence page for powdered non-soy infant formula. It is organized around source-backed product concentration evidence, with exposure estimates and broad formula studies separated so they do not get mistaken for direct ppb product measurements.
 
+<div class="hmi-stakeholder-guide">
+  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading the page with a specific question in mind.</p>
+  <dl>
+    <div>
+      <dt>Brand legal and regulatory affairs</dt>
+      <dd>Start with the <a href="#methodology">Methodology</a> section for the speciation, basis, and non-detect rules that govern every numeric claim, then the <a href="#literature-evidence-summary">Literature Evidence Summary</a> for source-traceable concentration evidence by analyte. Every numeric claim links to its source page; the <a href="#sources">Sources</a> block at the bottom is the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+    </div>
+    <div>
+      <dt>Retailer quality and compliance</dt>
+      <dd>The <a href="#federal--regulatory-limits-vs-field-findings">Federal / Regulatory Limits vs Field Findings</a> section compares the applicable regulatory cap to the cited field evidence on a like-for-like basis (with basis conversion shown when conversion is well-defined, and a methodology anchor when speciation differs). The <a href="#literature-evidence-summary">Literature Evidence Summary</a> gives source count and confidence rating per analyte.</dd>
+    </div>
+    <div>
+      <dt>Brand QA and product development</dt>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=infant-formula-powder-non-soy">Lab Result Comparator</a> to position a single lab value inside the cited literature for this matrix, against the applicable regulatory cap, with basis conversion explicit if applied. The comparator covers all ten HMT&amp;C analytes and links to mitigation guidance per analyte.</dd>
+    </div>
+    <div>
+      <dt>Regulators, journalists, and adversarial readers</dt>
+      <dd>Every numeric claim on this page traces to a source page in the <a href="#sources">Sources</a> block. The <a href="#methodology">Methodology</a> section states the rules that govern interpretation; the <a href="#evidence-governance">Evidence Governance</a> note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+    </div>
+    <div>
+      <dt>HMT&amp;C staff (internal)</dt>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/infant-formula-powder-non-soy">/workbench/standards/infant-formula-powder-non-soy</a>, not on this public page.</dd>
+    </div>
+  </dl>
+</div>
+
 ## Methodology
 
 This page reports what the cited sources say about heavy-metal concentrations in non-soy powdered infant formula. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable. The rules are stated here once and referenced from every section that depends on them.

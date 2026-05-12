@@ -726,6 +726,62 @@ a.hmi-meth-card:hover {
   padding: 6px 8px;
 }
 
+.hmi-stakeholder-guide {
+  background: rgba(139, 42, 74, 0.04);
+  border: 1px solid var(--lightgray);
+  border-left: 3px solid var(--secondary);
+  border-radius: var(--radius-md);
+  margin: 0 0 1.5rem;
+  padding: 18px 20px;
+}
+
+.hmi-stakeholder-guide-label {
+  color: var(--secondary);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.hmi-stakeholder-guide p {
+  color: var(--darkgray);
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0 0 0.85rem;
+}
+
+.hmi-stakeholder-guide dl {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+}
+
+.hmi-stakeholder-guide dl > div {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-sm);
+  padding: 0.7rem 0.85rem;
+}
+
+.hmi-stakeholder-guide dt {
+  color: var(--dark);
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.hmi-stakeholder-guide dd {
+  color: var(--darkgray);
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.hmi-stakeholder-guide dd a {
+  font-weight: 600;
+}
+
 .hmi-archive-note {
   border-left: 3px solid var(--secondary);
   color: var(--darkgray);
