@@ -404,7 +404,48 @@ Sections: Why this commodity accumulates the metal, Ranges by source/region/vari
 
 The `contamination_profile` block is deliberately machine-readable. The app will consume it directly.
 
-The metal set is the ten metals: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U. Schema history: pre-2026-05 ingredient pages used a 4-metal subset (Pb, Cd, iAs, tHg); 2026-05-03 extended to an 8-metal set (added Ni, Al, Cr, Sn); 2026-05-08 extended to the current 10-metal set (added tAs as a separate sub-block from iAs because most occurrence surveys report total arsenic and the iAs/tAs split is non-negotiable per Part 14, and added U because the wiki's scope is "heavy metals in food" rather than "HMTc-certified analytes" and uranium is a recognized toxic heavy metal of rising public-health attention even though it is not in the HMTc-10 analyte vocabulary). The Cr sub-block carries total chromium; Cr-VI evidence belongs on [[metals/chromium-hexavalent]] and is never substituted for total Cr in the ingredient profile. MeHg deliberately stays out of the ingredient profile because it is matrix-driven (fish/seafood-specific); MeHg evidence is captured in body prose on the small set of pages where it matters and at the product layer. Adding an eleventh metal in the future requires extending all existing ingredient pages in lockstep; the schema-extension is mechanical and idempotent (see `tools/` if a script is added, or perform via targeted edits).
+#### Geographic and seasonal variance sub-fields (added 2026-05-12)
+
+Each metal sub-block carries two optional variance arrays — `geographic_breakdown` and `seasonal_variance` — that hold the regional and harvest-period range data brand legal teams need to defend against a cherry-picked-maximum attack. See OPERATING.md Part 7 standing initiative 7 for the strategic frame.
+
+```yaml
+  Cd:
+    status: populated
+    typical_ppb: [80, 240]
+    p95_ppb: 410
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-12
+    geographic_breakdown:
+      - region: "Côte d'Ivoire"
+        range_ppb: [60, 180]
+        n: 124
+        sources: ["[[sources/example-cocoa-cdv-2024]]"]
+      - region: "Ecuador, high altitude"
+        range_ppb: [220, 540]
+        n: 87
+        sources: ["[[sources/example-ecuador-cocoa-2023]]"]
+      - region: "Ghana"
+        range_ppb: [70, 210]
+        n: 92
+        sources: ["[[sources/example-ghana-cocoa-2022]]"]
+    seasonal_variance:
+      - period: "El Niño years (Ecuador 2015-2016, 2023)"
+        range_ppb: [180, 620]
+        n: 41
+        sources: ["[[sources/example-elnino-cocoa-2024]]"]
+        note: "Drought-stress concentrates Cd uptake; values run roughly 40 percent higher than non-El-Niño-year baselines."
+```
+
+Schema rules:
+
+- Both arrays are optional and default to empty. A populated `contamination_profile` is valid with or without variance entries.
+- Each entry carries `region` (or `period`), `range_ppb`, `n` (sample count from the cited source set), `sources` (list of contributing source wikilinks), and optional `note` (one-line caveat).
+- Regional entries are non-overlapping enough to read sensibly (state-level, country-level, or production-region-level, depending on what the literature reports). Mixing state-level US entries with whole-country EU entries is fine; mixing state-level US with sub-state US (county-level) is not.
+- Seasonal entries name an explicit period or condition (harvest year, drought, monsoon timing, El Niño phase). Avoid vague periods like "summer" without geographic context.
+- Variance entries are populated by the synthesis pass per Part 9 when sources report the data, or lazily added when materials drop into `raw/manual-fetch/seasonal-geographic-variance/` per OPERATING.md initiative 7 Phase C. The ingredient page does not need every metal × region cell pre-stubbed.
+
+The metal set is the ten metals: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U. Schema history: pre-2026-05 ingredient pages used a 4-metal subset (Pb, Cd, iAs, tHg); 2026-05-03 extended to an 8-metal set (added Ni, Al, Cr, Sn); 2026-05-08 extended to the current 10-metal set (added tAs as a separate sub-block from iAs because most occurrence surveys report total arsenic and the iAs/tAs split is non-negotiable per Part 14, and added U because the wiki's scope is "heavy metals in food" rather than "HMTc-certified analytes" and uranium is a recognized toxic heavy metal of rising public-health attention even though it is not in the HMTc-10 analyte vocabulary); 2026-05-12 added the `geographic_breakdown` and `seasonal_variance` sub-fields per metal for brand-legal defensibility per OPERATING.md initiative 7. The Cr sub-block carries total chromium; Cr-VI evidence belongs on [[metals/chromium-hexavalent]] and is never substituted for total Cr in the ingredient profile. MeHg deliberately stays out of the ingredient profile because it is matrix-driven (fish/seafood-specific); MeHg evidence is captured in body prose on the small set of pages where it matters and at the product layer. Adding an eleventh metal in the future requires extending all existing ingredient pages in lockstep; the schema-extension is mechanical and idempotent (see `tools/` if a script is added, or perform via targeted edits).
 
 The `last_full_resynthesis` field referenced in Part 9 is no longer carried per-metal-sub-block on ingredient pages. Resynthesis events are now tracked in the structured-evidence layer at `data/evidence/review_events.jsonl`, which is authoritative. Part 9's conceptual logic (when to trigger full resynthesis vs incremental update) still applies; only the implementation has moved off the page frontmatter.
 
