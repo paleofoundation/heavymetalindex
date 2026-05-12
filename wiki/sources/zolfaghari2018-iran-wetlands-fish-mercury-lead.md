@@ -1,0 +1,51 @@
+---
+type: source
+raw_handle: FM_6065159
+cite_key: zolfaghari2018-iran-wetlands-fish-mercury-lead
+title: "Risk assessment of mercury and lead in fish species from Iranian international wetlands"
+authors: [Zolfaghari G]
+year: 2018
+publication: "MethodsX"
+doi: null
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY"
+raw_path: raw/markdown/FM_6065159/FM_6065159.md
+metals: [tHg, Pb]
+ingredients: ["[[ingredients/fish]]"]
+products: []
+matrices: [fish-tissue]
+jurisdictions: [IR, WHO, EU]
+near_duplicates: []
+sample_n: null
+sample_population: "Multiple fish species from Anzali Wetland (Caspian Sea), Caspian Sea, and Hamun Wetlands, Iran; 20 fish per species"
+updated: 2026-05-12
+---
+
+# Zolfaghari 2018 — Mercury and lead in fish from Iranian international wetlands
+
+Mercury and lead concentrations were determined in multiple tissues of several fish species from three internationally significant Iranian wetland systems: Anzali Wetland (Caspian Sea coast), the Caspian Sea, and Hamun Wetlands. Species analyzed included Rutilus rutilus, Hemiculter leucisculus, Alosa caspia caspia, Ctenopharyngodon idella, Cyprinus carpio, Hypophthalmichthys molitrix, Hypophthalmichthys nobilis, Schizocypris altidorsalis, and Schizothorax zardunyi. Mercury concentrations in all species were below FAO, WHO, FDA, and EU limits for fish. Lead concentrations in C. idella, C. carpio, and H. molitrix were below FAO, WHO, FDA, Turkish Acceptable Limits, UK MAFF, and NHMRC limits; however, Schizocypris altidorsalis and Schizothorax zardunyi had lead concentrations above WHO and Turkish Acceptable Limits. Hazard Quotient (HQ) analysis showed cumulative risk increases markedly with fish consumption frequency, raising consumer health concerns for high fish-consuming populations.
+
+## Key numbers
+
+Mercury: all species below FAO, WHO, FDA, and EU limits. Lead: S. altidorsalis and S. zardunyi exceeded WHO and TAL limits; C. idella, C. carpio, H. molitrix below all regulatory limits. Maximum Allowable Fish Consumption Rate for mercury was highest for Hemiculter leucisculus. Lead HQ values: no HQ > 1 for any species from Hamun wetland, indicating no significant health risk from lead alone at measured concentrations. 20 fish samples per species. Mercury determined by Advanced Mercury Analyzer (LECO AMA 254 by ASTM D-6722); lead by AAS with graphite furnace (GBC GF 3000). Recovery for mercury standard reference materials: 95-100%.
+
+Note: mercury is reported as total mercury (tHg) measured by atomic absorption/combustion method. Species-specific total mercury values are reported in tables in the source document.
+
+## Methods (brief)
+
+Tissues separated from 20 fish per species; dried, ground, homogenized. Mercury: LECO AMA 254 combustion AAS per ASTM D-6722; validated against NIST SRM 1633b, 2709, 2711. Lead: AAS with graphite furnace (GBC GF 3000), 20 µL injection volume; validated against NIST 1515 Apple Leaves. Health risk assessment via Hazard Quotient (HQ) per EPA/WHO instructions.
+
+## Implications
+
+Certification: provides species-specific tHg and Pb concentration data for fish from Iranian wetland systems; relevant to supply chain provenance for Iranian-sourced fish.
+
+Courses: useful for illustrating health risk assessment methodology (HQ) for fish-borne metals, and for the variability in lead concentrations across endemic freshwater species.
+
+App: tHg and Pb data for Iranian freshwater and coastal fish species contribute to species-level contamination profiles.
+
+## Wiki pages updated on ingest
+
+- [[metals/mercury]]
+- [[metals/lead]]
+- [[ingredients/fish]]

@@ -18,6 +18,8 @@ ingredients: []
 products: []
 jurisdictions: [US]
 superseded_by: null
+raw_handle_marker: FM_4509523_Korean_research_project_on_the_integrated_exposure_assessmen
+near_duplicates: ["[[sources/atsdr2020-lead-toxicological-profile]]"]
 updated: 2026-04-25
 ---
 
