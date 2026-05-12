@@ -246,7 +246,7 @@ function addProductRoute(routes, sourceId, product, basis, { contextOnlyProducts
       })
     } else {
       upsertRoute(routes, product, {
-        route_kind: basis === "source_link" ? "direct_product_link" : "direct_product_frontmatter",
+        route_kind: "direct_evidence",
         route_basis: [`${basis}:${product}`],
         route_note: "Source declares or links this exact locked/context product row.",
         priority: 3,
@@ -286,14 +286,14 @@ function routeStatus(routeKind, productPageCitesSource, valueRecordCount, missin
   if (valueRecordCount > 0 && missingMetals.length === 0) return "structured_values_present"
   if (valueRecordCount > 0) return "partial_structured_values_present"
   if (productPageCitesSource) return "source_on_page_no_structured_value"
-  if (routeKind.startsWith("direct_product")) return "missing_direct_product_route"
+  if (routeKind.startsWith("direct")) return "missing_direct_product_route"
   return "missing_broad_product_context"
 }
 
 function evidenceUse(routeKind, valueRecordCount, missingMetals) {
   if (valueRecordCount > 0 && missingMetals.length === 0) return "structured_value_candidate"
   if (valueRecordCount > 0) return "partial_structured_value_candidate"
-  if (routeKind.startsWith("direct_product")) return "direct_context_pending_extraction"
+  if (routeKind.startsWith("direct")) return "direct_context_pending_extraction"
   return "broad_context_pending_row_fit"
 }
 
@@ -306,7 +306,7 @@ function actionNeeded(routeStatusValue, routeKind, missingMetals) {
     return `Extract missing product-row metals if the source table is usable; otherwise document why they remain context only.${missing}`
   }
   if (routeStatusValue === "source_on_page_no_structured_value") {
-    return routeKind.startsWith("direct_product")
+    return routeKind.startsWith("direct")
       ? "Extract product-row values if the source table is usable; otherwise document why it remains context only."
       : "Keep visible as broad context; extract only if product row fit, basis, species, and statistic type can be resolved."
   }
