@@ -12,6 +12,10 @@ Where `<op>` is one of: ingest | query | lint | certification | course | app | s
 
 ---
 
+## [2026-05-12] batch | p4-batch3 (200 handles) — 2 net new source pages, 8 duplicates removed
+Pages touched: [[sources/lee2025-knhanes-mercury-cadmium-arsenic-obesity]], [[sources/jermilova2025-mackenzie-mercury-fish-bayesian]]
+Notes: First food-matrix-filtered batch. Low yield due to handle overlap with batches 1–2 (8 duplicates created then removed) and large filesystem gap (FM_12022213–FM_12048xxx mostly absent — raw 2/ PDFs not yet Marker-converted). Process fix applied: future batches cross-reference source page frontmatter to exclude already-ingested handles. lee2025 is KNHANES Korean national biomonitoring (n=6,609; Hg, Cd, total As); jermilova2025 is Bayesian Hg risk model for Mackenzie freshwater fish (Canada). Batch report: [[batch-reports/p4-batch3-2026-05-12]].
+
 ## [2026-05-12] batch | p4-batch3-group4 (50 handles) — 0 source pages, 50 false positives
 Pages touched: none
 Notes: P4 batch 3 group 4 processed 50 handles (FM_12043373 through FM_12048672), all 2025 papers, food-matrix-filtered fish/seafood list. 49 of 50 handles do not exist in raw/markdown (entire FM_12043373–FM_12048672 range absent from filesystem except FM_12047800; handles also absent from triage manifest — this numeric range was not Marker-converted in the current corpus). The one existing handle, FM_12047800, is a false positive: a PLoS ONE fungal immunology paper (IL-18/Th1 response to Fonsecaea pedrosoi in experimental chromoblastomycosis), P5, no food matrix, no heavy metals data. Zero source pages created for this group. Missing-handle range confirmed as a systematic gap consistent with the pattern flagged in groups 1–3 (FM_12022213–FM_12043110 also absent in group 3). Karen should verify whether this FM_120xxxxx numeric range corresponds to a batch of papers not yet extracted from the raw PDF corpus.
