@@ -18,6 +18,13 @@ passes:
     files_modified: 30
     rows_resolved: 47
     note: "Second-pass triage of new ingest entries from seasonal-geographic-variance batch (2026-05-12)"
+  - pass: 3
+    initial_count: 46
+    final_count: 46
+    files_modified: 0
+    rows_resolved: 0
+    note: "Verification pass — confirmed all 46 remaining entries are above-threshold new-page proposals; no typos, no below-threshold redirects, no detector bugs. Routing audit run confirmed 46 unresolved. Proposals surfaced to Karen per Part 10."
+routing_audit_run: "2026-05-12 — 327 rows written, 46 unresolved, 330 malformed (0 blocking)"
 ---
 
 # Routing-Unresolved Triage — 2026-05-12
@@ -249,3 +256,28 @@ The second ingest pass (seasonal-geographic-variance batch) added 56 new unresol
 `ingredients/quinoa` — **6 papers** (bedoya-perales2023, ccopi2026, cr-fsasc2014, gul2024, roman-ochoa2021, rosales-huamani2023). Andean grain with distinct heavy metal profile, particularly Cd via high-altitude Andean soils. Six papers all specifically measure quinoa as a distinct commodity. Above threshold. Sources include both Peruvian field studies and a broad Consumer Reports grain survey. Proposed slug: `quinoa`.
 
 The other 5 proposals from pass 1 remain open with updated source counts: `freshwater-fish` now has 9 sources (was 6; added auzier-guimaraes2025, jermilova2025, venant2025 in this batch).
+
+---
+
+## Pass 3 — 2026-05-12 (verification pass)
+
+Reviewed all 46 remaining entries per the decision tree in the session prompt. Spot-checked: `cr-fsasc2014-arsenic-rice-grains` (quinoa correctly declared — CR 2014 study explicitly tested quinoa as an alternative grain alongside rice), `reksten2020-angola-fish-metals` (products/seafood correctly declared — marine fish contamination survey, `products/seafood` is a distinct page from the existing `ingredients/seafood`), `altunay2023-cadmium-food-turkey` (cereals correctly declared — paper covers oat, corn, wheat sampled from Turkish market), `codex-cxs-193-1995` (cereals correctly declared — Codex regulatory taxonomy uses "cereals" as the standard category encompassing all grain crops including rice), `thoerig2025` (breastmilk correctly declared — 2025 systematic review explicitly on toxic elements in human milk vs. infant formula).
+
+**Findings:** 0 frontmatter typos, 0 below-threshold redirects, 0 detector bugs. All 46 entries are legitimately above-threshold new-page proposals for 6 unique slugs.
+
+Routing audit run: `npm run evidence:source-routes` — 327 product-source routing rows written, 46 unresolved confirmed, 330 malformed (0 blocking). Count is unchanged because no new pages have been created; count will drop to 0 when Karen approves the 6 proposals below.
+
+### Proposals awaiting Karen's approval
+
+All 6 proposals were previously documented in this report. Restated here in one place for Karen's decision:
+
+| # | Proposed slug | Kind | Source count | Threshold | Approve? |
+|---|---|---|---|---|---|
+| 1 | `ingredients/cereals` | ingredient | 8 | ≥5 | |
+| 2 | `ingredients/shellfish` | ingredient | 8 | ≥5 | |
+| 3 | `ingredients/breastmilk` | ingredient | 6 | ≥5 | |
+| 4 | `ingredients/freshwater-fish` | ingredient | 9 | ≥5 | |
+| 5 | `ingredients/quinoa` | ingredient | 6 | ≥5 | |
+| 6 | `products/seafood` | product | 9 | ≥3 | |
+
+Approve any or all and I will create the stub pages immediately. Each resolved proposal drops its contributing rows from `routing_unresolved.csv` on the next `npm run evidence:source-routes` run.
