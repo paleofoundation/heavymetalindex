@@ -1,0 +1,1014 @@
+{
+  "schema": "hmi.wishlist-queries.v1",
+  "generated_from": "raw/manual-fetch/seasonal-geographic-variance/wishlist.md",
+  "generated_at": "2026-05-12T15:57:17.521Z",
+  "query_count": 40,
+  "queries": [
+    {
+      "id": "WL-0001",
+      "section": "Rice (the iAs and tAs anchor)",
+      "bullet_text": "**California medium-grain rice** — iAs by harvest year, 2015 onward. USDA NASS plus academic surveys (Williams, Meharg, Signes-Pastor groups have regional series; the FDA TDS publishes by sampling year). California Rice Commission has industry-side data.",
+      "line_number": 15,
+      "extracted": {
+        "crops": [
+          "rice"
+        ],
+        "regions": [
+          "california"
+        ],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "rice inorganic arsenic california",
+      "search_query_full": "rice california inorganic arsenic harvest harvest year"
+    },
+    {
+      "id": "WL-0002",
+      "section": "Rice (the iAs and tAs anchor)",
+      "bullet_text": "**Texas / Arkansas / Louisiana / Mississippi long-grain rice** — iAs by state and harvest year. Same period.",
+      "line_number": 16,
+      "extracted": {
+        "crops": [
+          "rice"
+        ],
+        "regions": [
+          "texas",
+          "arkansas",
+          "louisiana",
+          "mississippi"
+        ],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "rice inorganic arsenic texas arkansas",
+      "search_query_full": "rice texas arkansas louisiana mississippi inorganic arsenic harvest harvest year"
+    },
+    {
+      "id": "WL-0003",
+      "section": "Rice (the iAs and tAs anchor)",
+      "bullet_text": "**Basmati from India (Punjab vs other regions)** — iAs. Indian Council of Medical Research and FSSAI publish surveys.",
+      "line_number": 17,
+      "extracted": {
+        "crops": [
+          "basmati"
+        ],
+        "regions": [
+          "india",
+          "punjab"
+        ],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "basmati inorganic arsenic india punjab",
+      "search_query_full": "basmati india punjab inorganic arsenic"
+    },
+    {
+      "id": "WL-0004",
+      "section": "Rice (the iAs and tAs anchor)",
+      "bullet_text": "**Basmati from Pakistan (Punjab)** — iAs. PCSIR and Pakistan Standards and Quality Control Authority.",
+      "line_number": 18,
+      "extracted": {
+        "crops": [
+          "basmati"
+        ],
+        "regions": [
+          "pakistan",
+          "punjab"
+        ],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "basmati inorganic arsenic pakistan punjab",
+      "search_query_full": "basmati pakistan punjab inorganic arsenic"
+    },
+    {
+      "id": "WL-0005",
+      "section": "Rice (the iAs and tAs anchor)",
+      "bullet_text": "**Thai jasmine rice** — iAs. Thai FDA and Mahidol University.",
+      "line_number": 19,
+      "extracted": {
+        "crops": [
+          "rice",
+          "jasmine rice"
+        ],
+        "regions": [],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "rice jasmine rice inorganic arsenic",
+      "search_query_full": "rice jasmine rice inorganic arsenic"
+    },
+    {
+      "id": "WL-0006",
+      "section": "Rice (the iAs and tAs anchor)",
+      "bullet_text": "**Italian rice (Po Valley)** — iAs. EFSA dietary exposure reports broken down by member state.",
+      "line_number": 20,
+      "extracted": {
+        "crops": [
+          "rice"
+        ],
+        "regions": [
+          "po valley"
+        ],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "rice inorganic arsenic po valley",
+      "search_query_full": "rice po valley inorganic arsenic"
+    },
+    {
+      "id": "WL-0007",
+      "section": "Rice (the iAs and tAs anchor)",
+      "bullet_text": "**Brown rice vs white rice by region** — iAs concentration ratio. Several academic studies; need region-stratified versions.",
+      "line_number": 21,
+      "extracted": {
+        "crops": [
+          "rice"
+        ],
+        "regions": [],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "rice inorganic arsenic",
+      "search_query_full": "rice inorganic arsenic"
+    },
+    {
+      "id": "WL-0008",
+      "section": "Rice-derived ingredients (the brown rice syrup driver)",
+      "bullet_text": "**Brown rice syrup by source country** — iAs. Jackson 2012 is the foundational paper; need updated regional series.",
+      "line_number": 25,
+      "extracted": {
+        "crops": [
+          "rice",
+          "brown rice syrup"
+        ],
+        "regions": [],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "rice brown rice syrup inorganic arsenic",
+      "search_query_full": "rice brown rice syrup inorganic arsenic"
+    },
+    {
+      "id": "WL-0009",
+      "section": "Rice-derived ingredients (the brown rice syrup driver)",
+      "bullet_text": "**Rice protein concentrate by source country** — iAs and tAs. Multiple sources cite high values without regional split.",
+      "line_number": 26,
+      "extracted": {
+        "crops": [
+          "rice",
+          "rice protein"
+        ],
+        "regions": [],
+        "metals": [
+          "ias",
+          "tas"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic",
+          "arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "rice rice protein inorganic arsenic arsenic",
+      "search_query_full": "rice rice protein inorganic arsenic arsenic"
+    },
+    {
+      "id": "WL-0010",
+      "section": "Cocoa (the Cd anchor)",
+      "bullet_text": "**West Africa: Côte d'Ivoire, Ghana, Nigeria, Cameroon** — Cd by harvest year. ICCO and Cocoa Research Centre Trinidad have data; need year-stratified.",
+      "line_number": 30,
+      "extracted": {
+        "crops": [
+          "cocoa"
+        ],
+        "regions": [
+          "côte d'ivoire",
+          "ghana",
+          "nigeria",
+          "cameroon",
+          "west africa"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "cocoa cadmium côte d'ivoire ghana",
+      "search_query_full": "cocoa côte d'ivoire ghana nigeria cameroon west africa cadmium harvest harvest year"
+    },
+    {
+      "id": "WL-0011",
+      "section": "Cocoa (the Cd anchor)",
+      "bullet_text": "**Latin America: Ecuador, Peru, Colombia, Dominican Republic** — Cd by harvest year and altitude (altitude is a known Cd-uptake driver in Andean cocoa).",
+      "line_number": 31,
+      "extracted": {
+        "crops": [
+          "cocoa"
+        ],
+        "regions": [
+          "ecuador",
+          "peru",
+          "colombia",
+          "dominican republic",
+          "latin america",
+          "andean"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "cocoa cadmium ecuador peru",
+      "search_query_full": "cocoa ecuador peru colombia dominican republic latin america andean cadmium harvest harvest year"
+    },
+    {
+      "id": "WL-0012",
+      "section": "Cocoa (the Cd anchor)",
+      "bullet_text": "**Cocoa nibs vs cocoa powder vs cocoa butter by origin** — Cd concentration distribution. Abt 2018 and 2020 papers cover US-market chocolate; the upstream regional cacao data is thinner.",
+      "line_number": 32,
+      "extracted": {
+        "crops": [
+          "cocoa",
+          "cacao",
+          "chocolate"
+        ],
+        "regions": [
+          "us"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "cocoa cacao chocolate cadmium us",
+      "search_query_full": "cocoa cacao chocolate us cadmium"
+    },
+    {
+      "id": "WL-0013",
+      "section": "Sunflower seed and sunflower oil",
+      "bullet_text": "**Bulgaria, Ukraine, Russia (the main sunflower belt)** — Cd by harvest year. Cd in sunflower is a known driver for sunflower-seed-containing baby foods.",
+      "line_number": 36,
+      "extracted": {
+        "crops": [
+          "sunflower"
+        ],
+        "regions": [
+          "bulgaria",
+          "ukraine",
+          "russia"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "sunflower cadmium bulgaria ukraine",
+      "search_query_full": "sunflower bulgaria ukraine russia cadmium harvest harvest year"
+    },
+    {
+      "id": "WL-0014",
+      "section": "Sunflower seed and sunflower oil",
+      "bullet_text": "**US Midwest sunflower** — Cd by harvest year. USDA NASS may have data.",
+      "line_number": 37,
+      "extracted": {
+        "crops": [
+          "sunflower"
+        ],
+        "regions": [
+          "us",
+          "us midwest",
+          "midwest"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "sunflower cadmium us us midwest",
+      "search_query_full": "sunflower us us midwest midwest cadmium harvest harvest year"
+    },
+    {
+      "id": "WL-0015",
+      "section": "Carrots and root vegetables (the Pb and Cd anchor for purees)",
+      "bullet_text": "**California, Washington, Michigan carrots** — Pb and Cd by harvest year. USDA NASS plus FDA TDS.",
+      "line_number": 41,
+      "extracted": {
+        "crops": [
+          "carrots"
+        ],
+        "regions": [
+          "california",
+          "michigan",
+          "washington"
+        ],
+        "metals": [
+          "pb",
+          "cd"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "cadmium"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "carrots lead cadmium california michigan",
+      "search_query_full": "carrots california michigan washington lead cadmium harvest harvest year"
+    },
+    {
+      "id": "WL-0016",
+      "section": "Carrots and root vegetables (the Pb and Cd anchor for purees)",
+      "bullet_text": "**Sweet potato by US state** — Pb and Cd. Same.",
+      "line_number": 42,
+      "extracted": {
+        "crops": [
+          "sweet potato"
+        ],
+        "regions": [
+          "us"
+        ],
+        "metals": [
+          "pb",
+          "cd"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "sweet potato lead cadmium us",
+      "search_query_full": "sweet potato us lead cadmium"
+    },
+    {
+      "id": "WL-0017",
+      "section": "Carrots and root vegetables (the Pb and Cd anchor for purees)",
+      "bullet_text": "**European carrot growing regions** — Pb and Cd. EFSA member-state breakdowns.",
+      "line_number": 43,
+      "extracted": {
+        "crops": [
+          "carrot"
+        ],
+        "regions": [],
+        "metals": [
+          "pb",
+          "cd"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "carrot lead cadmium",
+      "search_query_full": "carrot lead cadmium"
+    },
+    {
+      "id": "WL-0018",
+      "section": "Leafy greens (spinach, kale)",
+      "bullet_text": "**California vs Arizona spinach** — Cd. The two states dominate US production; Cd uptake varies with soil pH and irrigation water.",
+      "line_number": 47,
+      "extracted": {
+        "crops": [
+          "spinach"
+        ],
+        "regions": [
+          "california",
+          "arizona",
+          "us"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "spinach cadmium california arizona",
+      "search_query_full": "spinach california arizona us cadmium"
+    },
+    {
+      "id": "WL-0019",
+      "section": "Leafy greens (spinach, kale)",
+      "bullet_text": "**Italy and France spinach** — Cd. EFSA reports.",
+      "line_number": 48,
+      "extracted": {
+        "crops": [
+          "spinach"
+        ],
+        "regions": [
+          "italy",
+          "france"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "spinach cadmium italy france",
+      "search_query_full": "spinach italy france cadmium"
+    },
+    {
+      "id": "WL-0020",
+      "section": "Leafy greens (spinach, kale)",
+      "bullet_text": "**Kale by US region** — Cd. Production has grown rapidly; regional baseline data is thin.",
+      "line_number": 49,
+      "extracted": {
+        "crops": [
+          "kale"
+        ],
+        "regions": [
+          "us"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "kale cadmium us",
+      "search_query_full": "kale us cadmium"
+    },
+    {
+      "id": "WL-0021",
+      "section": "Wheat, oats, and grain bases for baby cereal",
+      "bullet_text": "**US Pacific Northwest wheat (Washington, Oregon, Idaho)** — Cd. Durum wheat is a known Cd accumulator.",
+      "line_number": 53,
+      "extracted": {
+        "crops": [
+          "wheat"
+        ],
+        "regions": [
+          "washington",
+          "oregon",
+          "idaho",
+          "us",
+          "pacific northwest"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "wheat cadmium washington oregon",
+      "search_query_full": "wheat washington oregon idaho us pacific northwest cadmium"
+    },
+    {
+      "id": "WL-0022",
+      "section": "Wheat, oats, and grain bases for baby cereal",
+      "bullet_text": "**Canadian Prairie wheat (Saskatchewan, Manitoba, Alberta)** — Cd by harvest year.",
+      "line_number": 54,
+      "extracted": {
+        "crops": [
+          "wheat"
+        ],
+        "regions": [
+          "saskatchewan",
+          "manitoba",
+          "alberta"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "wheat cadmium saskatchewan manitoba",
+      "search_query_full": "wheat saskatchewan manitoba alberta cadmium harvest harvest year"
+    },
+    {
+      "id": "WL-0023",
+      "section": "Wheat, oats, and grain bases for baby cereal",
+      "bullet_text": "**Australian wheat** — Cd by growing region. FSANZ publishes data.",
+      "line_number": 55,
+      "extracted": {
+        "crops": [
+          "wheat"
+        ],
+        "regions": [],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "wheat cadmium",
+      "search_query_full": "wheat cadmium"
+    },
+    {
+      "id": "WL-0024",
+      "section": "Wheat, oats, and grain bases for baby cereal",
+      "bullet_text": "**Oats from US Midwest, Canada, Sweden, Finland** — Cd, Pb, and tAs. Variance by region is documented in spot studies; need consolidated regional series.",
+      "line_number": 56,
+      "extracted": {
+        "crops": [
+          "oats"
+        ],
+        "regions": [
+          "us",
+          "us midwest",
+          "midwest",
+          "canada"
+        ],
+        "metals": [
+          "pb",
+          "cd",
+          "tas"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "cadmium",
+          "arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "oats lead cadmium arsenic us us midwest",
+      "search_query_full": "oats us us midwest midwest canada lead cadmium arsenic"
+    },
+    {
+      "id": "WL-0025",
+      "section": "Quinoa",
+      "bullet_text": "**Bolivian and Peruvian quinoa by altitude and harvest year** — Cd. Altitude is the dominant driver.",
+      "line_number": 60,
+      "extracted": {
+        "crops": [
+          "quinoa"
+        ],
+        "regions": [],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": [
+          "harvest",
+          "harvest year"
+        ]
+      },
+      "search_query_core": "quinoa cadmium",
+      "search_query_full": "quinoa cadmium harvest harvest year"
+    },
+    {
+      "id": "WL-0026",
+      "section": "Quinoa",
+      "bullet_text": "**US quinoa (Washington, Colorado)** — Cd. Production is small but growing.",
+      "line_number": 61,
+      "extracted": {
+        "crops": [
+          "quinoa"
+        ],
+        "regions": [
+          "washington",
+          "colorado",
+          "us"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "quinoa cadmium washington colorado",
+      "search_query_full": "quinoa washington colorado us cadmium"
+    },
+    {
+      "id": "WL-0027",
+      "section": "Apple juice (the iAs and Pb anchor)",
+      "bullet_text": "**US apple juice by source state** — iAs and Pb. FDA 2018 and 2022 surveys exist but state-level data is aggregated.",
+      "line_number": 67,
+      "extracted": {
+        "crops": [
+          "apple juice"
+        ],
+        "regions": [
+          "us"
+        ],
+        "metals": [
+          "pb",
+          "ias"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "apple juice lead inorganic arsenic us",
+      "search_query_full": "apple juice us lead inorganic arsenic"
+    },
+    {
+      "id": "WL-0028",
+      "section": "Apple juice (the iAs and Pb anchor)",
+      "bullet_text": "**Chinese apple concentrate (the major import)** — iAs and Pb by province. FDA import alert data has aggregated values; provincial breakdown is thin in the published literature.",
+      "line_number": 68,
+      "extracted": {
+        "crops": [],
+        "regions": [],
+        "metals": [
+          "pb",
+          "ias"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "lead inorganic arsenic",
+      "search_query_full": "lead inorganic arsenic"
+    },
+    {
+      "id": "WL-0029",
+      "section": "Apple juice (the iAs and Pb anchor)",
+      "bullet_text": "**Argentine apple concentrate** — iAs and Pb.",
+      "line_number": 69,
+      "extracted": {
+        "crops": [],
+        "regions": [],
+        "metals": [
+          "pb",
+          "ias"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "inorganic arsenic"
+        ],
+        "periods": []
+      },
+      "search_query_core": "lead inorganic arsenic",
+      "search_query_full": "lead inorganic arsenic"
+    },
+    {
+      "id": "WL-0030",
+      "section": "Apple juice (the iAs and Pb anchor)",
+      "bullet_text": "**European cider apple regions (Normandy, Asturias, Somerset)** — Pb and Cd.",
+      "line_number": 70,
+      "extracted": {
+        "crops": [],
+        "regions": [
+          "asturias",
+          "normandy"
+        ],
+        "metals": [
+          "pb",
+          "cd"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "cadmium"
+        ],
+        "periods": []
+      },
+      "search_query_core": "lead cadmium asturias normandy",
+      "search_query_full": "asturias normandy lead cadmium"
+    },
+    {
+      "id": "WL-0031",
+      "section": "Grape juice and grape products",
+      "bullet_text": "**California vs Washington vs New York grape juice** — Pb. FDA 2016 has aggregated data.",
+      "line_number": 74,
+      "extracted": {
+        "crops": [
+          "grape juice"
+        ],
+        "regions": [
+          "california",
+          "washington"
+        ],
+        "metals": [
+          "pb"
+        ],
+        "metal_search_terms": [
+          "lead"
+        ],
+        "periods": []
+      },
+      "search_query_core": "grape juice lead california washington",
+      "search_query_full": "grape juice california washington lead"
+    },
+    {
+      "id": "WL-0032",
+      "section": "Tea",
+      "bullet_text": "**Chinese green tea by province** — Al and Pb. China is the dominant source; provincial variance is large because tea bush uptake depends on soil acidity and growing altitude.",
+      "line_number": 78,
+      "extracted": {
+        "crops": [
+          "tea"
+        ],
+        "regions": [
+          "china"
+        ],
+        "metals": [
+          "pb",
+          "al"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "aluminum"
+        ],
+        "periods": []
+      },
+      "search_query_core": "tea lead aluminum china",
+      "search_query_full": "tea china lead aluminum"
+    },
+    {
+      "id": "WL-0033",
+      "section": "Tea",
+      "bullet_text": "**Sri Lankan tea by elevation** — Al, Pb, Mn. Elevation (Nuwara Eliya high-grown vs Ruhuna low-grown) is a documented driver.",
+      "line_number": 79,
+      "extracted": {
+        "crops": [
+          "tea"
+        ],
+        "regions": [],
+        "metals": [
+          "pb",
+          "al"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "aluminum"
+        ],
+        "periods": []
+      },
+      "search_query_core": "tea lead aluminum",
+      "search_query_full": "tea lead aluminum"
+    },
+    {
+      "id": "WL-0034",
+      "section": "Tea",
+      "bullet_text": "**Kenyan and Indian Assam tea** — Al, Pb.",
+      "line_number": 80,
+      "extracted": {
+        "crops": [
+          "tea"
+        ],
+        "regions": [],
+        "metals": [
+          "pb",
+          "al"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "aluminum"
+        ],
+        "periods": []
+      },
+      "search_query_core": "tea lead aluminum",
+      "search_query_full": "tea lead aluminum"
+    },
+    {
+      "id": "WL-0035",
+      "section": "Tea",
+      "bullet_text": "**Japanese matcha by grade and region (Uji, Nishio, Shizuoka)** — Al, Pb. Matcha concentrates leaf content vs steeped tea.",
+      "line_number": 81,
+      "extracted": {
+        "crops": [
+          "tea",
+          "matcha"
+        ],
+        "regions": [
+          "uji",
+          "nishio",
+          "shizuoka"
+        ],
+        "metals": [
+          "pb",
+          "al"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "aluminum"
+        ],
+        "periods": []
+      },
+      "search_query_core": "tea matcha lead aluminum uji nishio",
+      "search_query_full": "tea matcha uji nishio shizuoka lead aluminum"
+    },
+    {
+      "id": "WL-0036",
+      "section": "Seasonal variance (cross-cutting)",
+      "bullet_text": "**Multi-year time series for rice iAs in California**, ideally five or more consecutive harvest years from a single agronomic source. Soil-water-management changes year-over-year drive iAs.",
+      "line_number": 87,
+      "extracted": {
+        "crops": [
+          "rice"
+        ],
+        "regions": [
+          "california"
+        ],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": [
+          "harvest",
+          "multi-year",
+          "time series"
+        ]
+      },
+      "search_query_core": "rice inorganic arsenic california",
+      "search_query_full": "rice california inorganic arsenic harvest multi-year time series"
+    },
+    {
+      "id": "WL-0037",
+      "section": "Seasonal variance (cross-cutting)",
+      "bullet_text": "**Multi-year time series for cocoa Cd in Ecuador**, ideally tied to El Niño / La Niña years.",
+      "line_number": 88,
+      "extracted": {
+        "crops": [
+          "cocoa"
+        ],
+        "regions": [
+          "ecuador"
+        ],
+        "metals": [
+          "cd",
+          "ni"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "nickel"
+        ],
+        "periods": [
+          "el niño",
+          "la niña",
+          "multi-year",
+          "time series"
+        ]
+      },
+      "search_query_core": "cocoa cadmium nickel ecuador",
+      "search_query_full": "cocoa ecuador cadmium nickel el niño la niña multi-year time series"
+    },
+    {
+      "id": "WL-0038",
+      "section": "Seasonal variance (cross-cutting)",
+      "bullet_text": "**Drought-year vs wet-year wheat Cd from the Australian wheat belt**. Drought concentrates Cd in grain.",
+      "line_number": 89,
+      "extracted": {
+        "crops": [
+          "wheat"
+        ],
+        "regions": [],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": [
+          "drought"
+        ]
+      },
+      "search_query_core": "wheat cadmium",
+      "search_query_full": "wheat cadmium drought"
+    },
+    {
+      "id": "WL-0039",
+      "section": "Seasonal variance (cross-cutting)",
+      "bullet_text": "**Pre-monsoon vs post-monsoon Indian rice iAs**, where applicable.",
+      "line_number": 90,
+      "extracted": {
+        "crops": [
+          "rice"
+        ],
+        "regions": [],
+        "metals": [
+          "ias"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic"
+        ],
+        "periods": [
+          "monsoon",
+          "pre-monsoon",
+          "post-monsoon"
+        ]
+      },
+      "search_query_core": "rice inorganic arsenic",
+      "search_query_full": "rice inorganic arsenic monsoon pre-monsoon post-monsoon"
+    },
+    {
+      "id": "WL-0040",
+      "section": "Seasonal variance (cross-cutting)",
+      "bullet_text": "**Spring vs fall harvest leafy-green Cd from California**.",
+      "line_number": 91,
+      "extracted": {
+        "crops": [],
+        "regions": [
+          "california"
+        ],
+        "metals": [
+          "cd"
+        ],
+        "metal_search_terms": [
+          "cadmium"
+        ],
+        "periods": [
+          "harvest",
+          "spring",
+          "fall"
+        ]
+      },
+      "search_query_core": "cadmium california",
+      "search_query_full": "california cadmium harvest spring fall"
+    }
+  ]
+}
