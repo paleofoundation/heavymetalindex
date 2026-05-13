@@ -39,6 +39,52 @@ const API_DELAY_MS = 250
 const DOWNLOAD_DELAY_MS = 500
 const DOWNLOAD_THRESHOLD = 3
 
+// Negative-keyword prefilter. Papers with these phrases in title/abstract
+// are predominantly sensor methodology, materials science, plant molecular
+// biology, AMR studies, or clinical case reports — papers that mention
+// metals but do not report food-matrix concentration data. We score them
+// down so they fall below DOWNLOAD_THRESHOLD even if positive keywords hit.
+// Audited via wishlist-fetch-audit.csv; rejections are logged with reason.
+const NEGATIVE_KEYWORDS = [
+  // sensor/biosensor methodology
+  "biosensor", "fluorescence sensor", "colorimetric sensor", "electrochemical sensor",
+  "voltammetric", "amperometric", "potentiometric sensor", "fluorometric",
+  "LIBS", "laser-induced", "ratiometric sensor", "chemosensor",
+  "nanoparticle sensor", "quantum dot sensor", "carbon dot sensor", "aptamer sensor",
+  // materials science contexts
+  "perovskite", "photovoltaic", "solar cell", "battery", "catalyst",
+  "MOF synthesis", "metal-organic framework", "nanocomposite synthesis",
+  // plant molecular biology / experiment contexts
+  "transcriptomic", "QTL mapping", "gene expression analysis", "transgenic",
+  "stress tolerance", "phytoextraction", "phytoremediation", "hydroponic",
+  "CRISPR", "rhizosphere", "metallothionein gene", "transporter gene",
+  // AMR / microbiology contexts
+  "antimicrobial resistance", "antibiotic resistance gene", "AMR",
+  "metal resistance gene", "biofilm formation", "Salmonella isolates",
+  // clinical case reports / pathology
+  "case report", "case series", "fatty liver", "acute kidney injury",
+  "hepatology", "nephrology", "renal failure", "intoxication case",
+  // pure ecology / soil-only studies
+  "sediment ecology", "bioindicator species", "mining tailings remediation",
+  "soil microbial community",
+]
+
+function negativeScore(haystack) {
+  let penalty = 0
+  for (const kw of NEGATIVE_KEYWORDS) {
+    if (haystack.includes(kw.toLowerCase())) penalty -= 2
+  }
+  return penalty
+}
+
+function matchedNegatives(haystack) {
+  const hits = []
+  for (const kw of NEGATIVE_KEYWORDS) {
+    if (haystack.includes(kw.toLowerCase())) hits.push(kw)
+  }
+  return hits
+}
+
 if (!fs.existsSync(queriesPath)) {
   console.error(`No wishlist queries at ${queriesPath}. Run tools/wishlist/parse-wishlist.mjs first.`)
   process.exit(1)
@@ -106,13 +152,16 @@ for (let i = 0; i < queries.length; i += 1) {
 
     const abstract = reconstructAbstract(work.abstract_inverted_index)
     const haystack = `${work.title ?? ""} ${abstract}`.toLowerCase()
-    const score = scoreHits(haystack, [
+    const positiveScore = scoreHits(haystack, [
       ...q.extracted.crops,
       ...q.extracted.regions,
       ...q.extracted.metals,
       ...(q.extracted.metal_search_terms ?? []),
       ...q.extracted.periods,
     ])
+    const penalty = negativeScore(haystack)
+    const score = positiveScore + penalty
+    const negativeHits = matchedNegatives(haystack)
 
     const oaUrl = work.open_access?.oa_url ?? ""
     const row = {
@@ -120,6 +169,9 @@ for (let i = 0; i < queries.length; i += 1) {
       wishlist_section: q.section,
       query_terms: searchTerms,
       relevance_score: score,
+      positive_score: positiveScore,
+      negative_penalty: penalty,
+      negative_hits: negativeHits.join("; "),
       title: work.title ?? "",
       doi: doi || "",
       year: work.publication_year ?? "",
@@ -195,6 +247,9 @@ writeCsv(auditPath, audit, [
   "decision",
   "downloaded_path",
   "relevance_score",
+  "positive_score",
+  "negative_penalty",
+  "negative_hits",
   "already_indexed",
   "title",
   "doi",
