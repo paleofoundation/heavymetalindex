@@ -39,7 +39,9 @@ This candidate is distinct from the promoted subsistence-fishing-mehg-disparity 
 
 Batch 11 adds: [[wiki/sources/willacker2023-mercury-fish-snake-river|Willacker 2023]] (Snake River reservoirs; thermal stratification drives tHg 76% higher in fish; 52–80% exceed consumption benchmarks vs 6–17% in free-flowing reaches); [[wiki/sources/leclerc2023-methylmercury-periphyton-river|Leclerc 2023]] (Quebec run-of-river dam, periphyton methylation hotspots, MeHg/tHg ratio 2.9× in impounded reaches); [[wiki/sources/paez-osuna2024-fish-mercury-selenium-mexico|Paez-Osuna 2024]] (El Comedero dam Mexico post-mine-tailing spill, elevated MeHg/tHg ratio). These add dam-related impoundment as a Hg methylation driver that is mechanistically parallel to ASGM. The synthesis page should present both drivers (mining and impoundment) as co-mechanisms for the same anoxic-bottom-sediment methylation pathway.
 
-Promotion readiness: 3 of 4 criteria met. Criterion 2 (spans multiple metals, ingredients, or products) is borderline — this is a mercury-only thread focused on freshwater fish. Willacker 2023 and Paez-Osuna 2024 strengthen the thread but do not yet resolve the multi-metal gap. Promote when one more study corroborates the multi-metal dimension (As, Pb, or Cd co-elevation in ASGM contexts) or when a third continent's ASGM data enters the corpus.
+Batch 12 adds: [[wiki/sources/lucchini2025-amazon-mercury-co-exposures|Lucchini 2025]] (Amazon basin scoping review; fish tHg 0.10–4.73 µg/g; hair Hg 3.07–24.6 µg/g in exposed populations; ASGM as primary anthropogenic Hg source; framing includes co-exposures with agrochemicals and microplastics). This adds further South American ASGM documentation but is mercury-only and does not resolve the multi-metal criterion.
+
+Promotion readiness: 3 of 4 criteria met. Criterion 2 (spans multiple metals, ingredients, or products) is borderline — this is a mercury-only thread focused on freshwater fish. Promote when one more study corroborates the multi-metal dimension (As, Pb, or Cd co-elevation in ASGM contexts) or when a third continent's ASGM data enters the corpus. Note: South America (Colombia, Amazon) and Africa (Zambia) are documented; a third ASGM continent (Asia or Oceania) would satisfy the geographic trigger regardless of the multi-metal gap.
 
 ### Simultaneous Pb+As co-mitigation via single soil amendment intervention
 
@@ -57,6 +59,31 @@ Why this matters:
 Promotion readiness: 1 of 4 criteria met (criterion 3, non-obvious from any single source; the significance is the magnitude and dual-metal nature of the result). Criterion 1 requires 2 additional corroborating studies. Criterion 2 is borderline — this is a soil chemistry result, not yet demonstrated in food matrix concentrations. Promote when: (a) a field study shows jarosite treatment reduces Pb and As in crop tissue simultaneously, or (b) two additional soil amendment studies achieve comparable dual-metal bioaccessibility reductions via any mechanism, or (c) a regulatory body or Code of Practice adopts a jarosite-class treatment recommendation.
 
 Suggested synthesis page slug: `dual-metal-soil-co-mitigation` (broader framing that can absorb corroborating papers on any co-mitigation approach, not just jarosite).
+
+### Spice and cinnamon adulteration as a Pb exposure pathway for infants and toddlers
+
+Anchor sources (2 A/B-tier studies; seeding):
+
+Batch 12 adds: [[wiki/sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] (CDC MMWR, WanaBana/Schnucks/Weis cinnamon applesauce recall; n=566 elevated BLL cases; median BLL 7.2 µg/dL, range 3.5–39.3; Pb in cinnamon 1.9–3.0 ppm; lead chromate identified as adulterant; 55% of cases in children under 2 years; largest documented infant/toddler Pb poisoning event from a processed food product in recent US history); [[wiki/sources/rylander2025-georgia-children-blood-lead|Rylander 2025]] (EHP; n=1,635 Georgian children 5–7 years; 39.8% BLL ≥3.5 µg/dL; spice use independent predictor OR approximately 1.47; VAMS blood collection; corroborates spice as a cross-context Pb exposure vector, not limited to the US recall event).
+
+Thesis: Lead chromate is used industrially as a yellow-orange pigment and, in some supply chains, as an adulterant in spices including cinnamon, turmeric, and chili pepper. The WanaBana recall (troeschel2024) documents that a processed food product targeting infants and toddlers — cinnamon applesauce pouches — reached hundreds of thousands of US households with Pb levels generating median BLL 7.2 µg/dL before detection. The Georgian surveillance data (rylander2025) shows that elevated BLL in children is independently associated with spice consumption in a completely different context, suggesting the WanaBana event reflects a broader pattern of spice-sourcing vulnerability rather than a single isolated adulteration incident. The mechanism (lead chromate as a density or coloring adulterant in spice supply chains) is distinct from the soil-uptake and ASGM mechanisms that dominate other wiki threads, and the exposure population (infants and toddlers via flavored purees and blended products) is the highest-concern demographic.
+
+Why this matters:
+- Brand-legal: any food brand that uses cinnamon or spice flavorings in products targeting infants and toddlers has a supply-chain testing obligation that the WanaBana case makes visible and defensible to courts. The wiki's role is to document what the literature says the hazard is, so that HMT&C testing requirements for spice ingredients can be anchored to evidence.
+- Regulator: the CDC MMWR establishes this as a documented regulatory event. The thread's synthesis value is showing it is not isolated.
+- Educator: explains how a non-agricultural contamination mechanism (deliberate adulteration with an industrial chemical) reaches the food chain and why ingredient-level testing is required in addition to finished-product testing.
+
+Promotion readiness: 2 of 4 criteria met. Criterion 3 (non-obvious) and criterion 4 (strategic relevance) are met. Criterion 1 requires at least one additional independent A-tier or high-quality B-tier study; a third paper documenting spice adulteration as a Pb source in a third context (turmeric adulteration, another national surveillance study showing spice-BLL association) would satisfy criterion 1. Criterion 2 is borderline — this is primarily a Pb thread (lead chromate as adulterant), though it spans multiple spice types and processed food product formats. Promote when a third independent study enters the corpus. Suggested slug: `spice-adulteration-lead-infants`.
+
+### Dietary and herbal supplement Pb contamination (seeding)
+
+Anchor sources (1 B-tier study; seeding only):
+
+Batch 12 adds: [[wiki/sources/thomas2024-lead-poisoning-ayurvedic-herbal|Thomas 2024]] (case report: Ayurvedic herbal diabetes capsule containing 40,657 ppm Pb — 4,066× the API permissible limit for heavy metals in Ayurvedic preparations — causing clinical Pb poisoning in a Kerala patient, blood Pb 121.20 µg/dL).
+
+Thesis (nascent): Dietary supplements and traditional herbal preparations are a distinct Pb exposure pathway that is systematically undercaptured by food-matrix surveillance focused on conventional food categories. The thomas2024 result is extreme (40,657 ppm is several orders of magnitude above the worst findings in any food-matrix category in the current corpus), suggesting that the supplement and herbal medicine supply chain may be operating with testing and regulatory standards that are materially weaker than conventional food supply chains. If two or more independent studies document high Pb in supplements or traditional medicines across different product categories or jurisdictions, the thread warrants a synthesis page targeting brand-legal (supplement brands seeking HMT&C certification) and regulator (harmonization of supplement testing requirements) audiences.
+
+Promotion readiness: 1 of 4 criteria met. Criterion 3 (non-obvious) is met — a 40,657 ppm finding in a consumer product is not derivable from conventional food-chain surveillance. Promote when two or more independent A/B-tier studies document high Pb in supplements or herbal preparations, or when a regulatory body takes an enforcement action against supplement Pb that enters the corpus as a regulation page.
 
 ### Egypt regulatory baseline as a multi-jurisdiction interpretation hazard
 
