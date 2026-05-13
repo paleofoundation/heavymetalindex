@@ -1385,8 +1385,10 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
 }
 
 .hmi-home-corpus-counter-meta a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
   font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 @media (max-width: 720px) {

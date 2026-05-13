@@ -176,49 +176,46 @@ function renderBlock(c, refreshDate) {
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd>${fmt(c.source_peer_reviewed)}</dd>
+      <dd><a href="sources/">${fmt(c.source_peer_reviewed)}</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd>${fmt(c.source_government)}</dd>
+      <dd><a href="sources/">${fmt(c.source_government)}</a></dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
-      <dd>${fmt(c.source_databases_indexed)}</dd>
-      <small>FDA TDS, FDA baby-food compliance, EFSA, FSA, WHO GEMS, and similar recurring monitoring data extracts.</small>
+      <dd><a href="sources/">${fmt(c.source_databases_indexed)}</a></dd>
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd>${fmt(c.source_evidence_tier_a)}</dd>
-      <small>Peer-reviewed primary studies and government reports per CLAUDE.md Part 13.</small>
+      <dd><a href="sources/">${fmt(c.source_evidence_tier_a)}</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
-      <dd>${fmt(c.structured_value_records)}</dd>
-      <small>Per-value entries in the evidence layer with basis, species, unit, and statistic-type metadata.</small>
+      <dd><a href="methodology/">${fmt(c.structured_value_records)}</a></dd>
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd>${fmt(c.jurisdictions_indexed)}</dd>
+      <dd><a href="regulations/">${fmt(c.jurisdictions_indexed)}</a></dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
-      <dd>${fmt(c.ingredient_pages)}</dd>
+      <dd><a href="ingredients/">${fmt(c.ingredient_pages)}</a></dd>
     </div>
     <div>
       <dt>Product categories</dt>
-      <dd>${fmt(c.product_pages)}</dd>
+      <dd><a href="products/">${fmt(c.product_pages)}</a></dd>
     </div>
     <div>
       <dt>Metal profiles</dt>
-      <dd>${fmt(c.metal_pages)}</dd>
+      <dd><a href="metals/">${fmt(c.metal_pages)}</a></dd>
     </div>
     <div>
       <dt>Regulation pages</dt>
-      <dd>${fmt(c.regulation_pages)}</dd>
+      <dd><a href="regulations/">${fmt(c.regulation_pages)}</a></dd>
     </div>
   </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: ${refreshDate}. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">/sources/</a>.</p>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: ${refreshDate}. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
 </section>
 ${endMarker}`
 }
