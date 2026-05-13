@@ -144,7 +144,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/chen2024-trimodal-hg-food-sensor\|Chen et al. 2024]]. *Design and fabrication of self-calibration colorimetric/fluorescence/SERS tri-modal optical sensor for highly rapid and accurate detection of mercury ions in foods*, Food Chemistry: X | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | *[awaiting synthesis]* |
+| 1 | [[sources/chen2024-trimodal-hg-food-sensor\|Chen et al. 2024]]. *Design and fabrication of self-calibration colorimetric/fluorescence/SERS tri-modal optical sensor for highly rapid and accurate detection of mercury ions in foods*, Food Chemistry: X | 2024 | Peer-reviewed | tHg sensor validation using spiked grape matrix; no primary occurrence data — analytical-method context confirming tHg detection in grape at method LOQ range |
+| 2 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Grapes, seedless, red/green, raw (n=27); detectable concentrations for Ni, U, tAs |
 <!-- END: hmi-source-legend -->
 
