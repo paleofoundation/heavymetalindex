@@ -36,6 +36,8 @@ sources: 4
 
 This page is a structural scaffold for HMTc Category 1 row 12. FDA compliance samples now provide a direct non-rice mixed-meal lower-bound distribution, while broader savoury infant-food evidence remains useful context.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -64,6 +66,27 @@ This page is a structural scaffold for HMTc Category 1 row 12. FDA compliance sa
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in non-rice mixed meals for infants and young children. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as wet weight (ready-to-eat), dry weight, or as sold. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix. Partial or unknown fit means the author uses a broader category.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
@@ -147,7 +170,7 @@ The current source set does not yet support a non-rice mixed-meal HMTc clean-pla
 | All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad source-scope context only | Main paper Table 1 combines all categories; it does not publish mixed-meal or rice-status-specific concentration percentiles. Sample-level or supplemental data would be needed before this source can support the non-rice mixed-meal clean-platform aggregate. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 | All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad source-scope context only | Main paper Table 1 combines all categories; it does not publish mixed-meal or rice-status-specific concentration percentiles. Sample-level or supplemental data would be needed before this source can support the non-rice mixed-meal clean-platform aggregate. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -198,6 +221,27 @@ Potential variance drivers for non-rice mixed meals should be documented only af
 <!-- audience: app, consumer -->
 
 The app model placeholder for this row should treat [[ingredients/mixed-meals]] and non-rice ingredient targets as unresolved until source-backed contamination profiles exist. <!-- UNCITED: Need source-backed ingredient mapping and concentration distributions before app risk inference is populated. -->
+
+## Levers to reduce contamination
+
+Non-rice mixed meals (meat and vegetable combinations, pasta or oat-based blends) have a diverse contamination profile depending on ingredient composition. Lead and cadmium are the primary concerns in vegetable components; methylmercury is a concern in fish-containing mixed meals.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Source root vegetable components from low-Pb/Cd soil regions; source any fish components from low-trophic species with documented low MeHg burden. | _Quantified magnitude data not yet ingested from cited sources for non-rice mixed meal matrix; ingredient-level data applies upstream._ | — |
+| 2 | Agronomic | Soil management at vegetable growing site reduces Pb and Cd in root and leafy vegetable components; upstream supplier lever. | _Quantified magnitude data not yet ingested; section will be expanded when intervention studies are available._ | — |
+| 3 | Processing | Washing, peeling, and blanching of vegetable components reduces surface-deposited Pb; cooking meat components to discard drippings reduces some fat-soluble contaminants. | _Quantified magnitude data not yet ingested from cited sources._ | — |
+| 4 | Formulation | Balance ingredient proportions to avoid over-reliance on high-Pb/Cd components; review full analyte panel for each ingredient category in the recipe before finalization. | _Quantified magnitude data not yet ingested for mixed-meal formulation trade-offs._ | — |
+| 5 | Testing and QC | Lot-level ICP-MS on incoming ingredients (vegetables, grains, meat/fish) plus finished product testing for full HMT&C analyte panel. | _Quantified magnitude data not yet ingested for detection-power modeling._ | — |
+| 6 | Packaging and storage | Not a primary lever for jarred or pouched mixed meals under normal conditions. | — | — |
+
+Cross-links: relevant ingredient pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
 
 ## Historical Recalls/Enforcement
 

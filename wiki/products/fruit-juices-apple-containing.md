@@ -24,6 +24,8 @@ sources: 5
 
 This page is HMTc Category 5 row 2 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -52,6 +54,27 @@ This page is HMTc Category 5 row 2 from the locked beverage architecture. It exi
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in apple-containing fruit juices. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as wet weight (ready-to-eat), dry weight, or as sold. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix. Partial or unknown fit means the author uses a broader category.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 ## Decision Snapshot
 
 | Field | Status |
@@ -62,7 +85,7 @@ This page is HMTc Category 5 row 2 from the locked beverage architecture. It exi
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
 | HMTc use | iAs cell publishable as Path A under Part 19 dirty p30 = 3.0 ppb (n=94 from FDA 2011 single-strength apple juice). Other cells routing or evidence-tracking only. |
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -109,6 +132,42 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/arsenic-inorganic\|iAs]] | apple-containing (direct row-fit) | mean 4.09 ppb (1 source); highest reported 9.8 ppb | 97% detected (91/94, Fda 2011, single-strength-juice) | [[regulations/fda2023-inorganic-arsenic-apple-juice]]: 10 ppb (juice) | 1 cited | low (1-2 sources) | single-strength-juice |
 | [[metals/lead\|Pb]] | apple-containing (summary-only / supporting context) | median 1.5 ppb (1 source); highest reported 2.7 ppb | 67% detected (2/3, Fda 2022, FDA TDS prepared food/composite; reported concentration values retained) | [[regulations/fda2022-draft-lead-juice]]: 10 ppb (single-strength ready-to-drink juice) | 1 cited | low (1-2 sources) | FDA TDS prepared food/composite; reported concentration values retained |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+<!-- BEGIN: hmi-broad-context-sources -->
+## Broad Product Context: Author-Scope Index
+
+<!-- audience: regulator, educator, app -->
+
+_Generator-managed section: will be populated when the routing audit identifies sources whose author-stated scope is broader than this row._
+
+<!-- END: hmi-broad-context-sources -->
+
+## Levers to reduce contamination
+
+The primary contamination concern in apple-containing juices is lead (Pb), documented by widespread regulatory monitoring and at least one high-profile enforcement action. Inorganic arsenic is a secondary concern due to carry-through from apple-growing practices in some regions. Levers are ordered by approximate impact on Pb.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Source apples from orchards with documented low soil lead and no legacy arsenical pesticide history. Historical US apple orchards in the Northeast and mid-Atlantic commonly have residual lead arsenate contamination from pre-1950s pesticide use; Pacific Northwest and newer growing regions typically have lower baseline Pb. | _Quantified magnitude data not yet ingested from cited sources for origin-stratified apple juice Pb data._ | — |
+| 2 | Agronomic | Soil remediation and pH management at orchard level reduces Pb bioavailability and uptake into fruit; upstream supplier lever. | _Quantified magnitude data not yet ingested; section will be expanded when orchard-level intervention studies are available._ | — |
+| 3 | Processing | Peeling apples before pressing removes surface-deposited Pb; clarification and filtration steps during juice processing may reduce particulate Pb. | _Quantified magnitude data not yet ingested from cited sources for processing effects on apple juice Pb._ | — |
+| 4 | Formulation | Blend with non-apple juice bases or dilute to reduce per-serving Pb contribution where apple juice Pb is elevated. | _Quantified magnitude data not yet ingested; linear dilution effect expected proportional to apple juice fraction._ | — |
+| 5 | Testing and QC | Lot-level ICP-MS on incoming apple juice concentrate and finished product. FDA compliance program detects Pb in apple juice at relevant concentrations; routine testing is the primary detection mechanism. | _Quantified magnitude data not yet ingested for detection-power modeling at specific sample sizes._ | — |
+| 6 | Packaging and storage | Avoid lead-soldered can seams (historical; eliminated in modern production); glass and PET packaging do not contribute Pb migration under normal conditions. | Elimination of lead solder is complete in modern food-grade packaging; not a residual lever for compliant producers. | — |
+
+Cross-links: [[ingredients/apple-juice]] if it exists; relevant mitigation pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
+
+## Historical recalls and enforcement
+
+<!-- audience: regulator, educator -->
+
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule (CLAUDE.md Part 12). Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

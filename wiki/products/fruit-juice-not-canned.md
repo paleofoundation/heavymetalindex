@@ -33,6 +33,8 @@ sources: 9
 
 This page is a structural scaffold for HMTc Category 1 row 14. Broad infant/toddler-food evidence is promoted, FDA 2011 apple-juice speciation rows are routed as apple-only inorganic-arsenic context, FDA 2016 grape-category inorganic-arsenic rows are routed as non-apple/blend juice context, FDA TDS apple-juice finished-food rows are routed as small-N not-canned juice context, and Chekri/Weldegebriel fruit-juice rows are now structured as context-only evidence.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -61,6 +63,27 @@ This page is a structural scaffold for HMTc Category 1 row 14. Broad infant/todd
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in fruit juice (not canned) for infants and young children. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as wet weight (ready-to-eat), dry weight, or as sold. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix. Partial or unknown fit means the author uses a broader category.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
@@ -134,7 +157,7 @@ The FDA 2022 draft juice guidance and the FDA 2004 Juice HACCP guidance are reta
 - Next ingest target: fruit juice monitoring reports that distinguish the not-canned scope where possible.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -193,6 +216,27 @@ Weldegebriel 2025 supports packaging and fruit type as candidate variance driver
 <!-- audience: app, consumer -->
 
 The app model placeholder for this row should treat [[ingredients/fruit-juice]], [[ingredients/apple-juice]], and [[ingredients/grape-juice]] as unresolved ingredient targets until source-backed contamination profiles exist. <!-- UNCITED: Need source-backed ingredient mapping and concentration distributions before app risk inference is populated. -->
+
+## Levers to reduce contamination
+
+Non-canned fruit juices (glass, PET, Tetra Pak, and similar formats) present a simplified packaging contamination pathway compared to canned products: tin migration is eliminated, but lead and arsenic from fruit ingredients remain the primary concerns. The driving contamination sources are identical to the ingredient levers above.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Source fruit from documented low-Pb/Cd growing regions; for apple juice specifically, avoid orchards with legacy arsenical pesticide history. | _Quantified magnitude data not yet ingested from cited sources for origin-stratified non-canned fruit juice data._ | — |
+| 2 | Agronomic | Soil management at growing site reduces Pb and Cd uptake; upstream supplier lever. | _Quantified magnitude data not yet ingested._ | — |
+| 3 | Processing | Clarification and filtration during juice processing may reduce particulate metal content; the effectiveness depends on the speciation of metals (particulate vs dissolved). | _Quantified magnitude data not yet ingested from cited sources._ | — |
+| 4 | Formulation | Blend fruit juice types to reduce per-serving contribution from high-Pb/Cd fruit sources. | _Quantified magnitude data not yet ingested; dilution effect expected proportional to high-metal fraction._ | — |
+| 5 | Testing and QC | Lot-level ICP-MS on incoming juice concentrates and finished product. Non-canned packaging eliminates Sn migration concern, so the full analyte panel focuses on Pb, Cd, iAs, and tAs from fruit-origin sources. | _Quantified magnitude data not yet ingested for detection-power modeling._ | — |
+| 6 | Packaging and storage | Non-canned packaging eliminates tin migration as a concern. Ensure glass containers are lead-free per modern food-contact material regulations. Not a residual lever for compliant glass or plastic packaging. | Sn migration eliminated; Pb from food-contact glass is not a demonstrated concern in modern food-grade manufacturing. | — |
+
+Cross-links: relevant ingredient pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
 
 ## Historical Recalls/Enforcement
 

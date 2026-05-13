@@ -24,6 +24,8 @@ sources: 5
 
 This page is HMTc Category 5 row 1 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -52,6 +54,27 @@ This page is HMTc Category 5 row 1 from the locked beverage architecture. It exi
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in non-apple fruit juices. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as wet weight (ready-to-eat), dry weight, or as sold. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix. Partial or unknown fit means the author uses a broader category.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 ## Decision Snapshot
 
 | Field | Status |
@@ -61,7 +84,7 @@ This page is HMTc Category 5 row 1 from the locked beverage architecture. It exi
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
 | HMTc use | Routing and evidence-gap tracking only; not a certification threshold |
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -108,6 +131,42 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/lead\|Pb]] | non-apple (summary-only / supporting context) | median 0 ppb (1 source); highest reported 0 ppb | 0% detected (0/3, Fda 2022, FDA TDS prepared food/composite; reported concentration values retained) | [[regulations/fda2022-draft-lead-juice]]: 20 ppb (single-strength ready-to-drink juice) | 1 cited | low (1-2 sources) | FDA TDS prepared food/composite; reported concentration values retained |
 | [[metals/arsenic-inorganic\|iAs]] | non-apple (summary-only / supporting context) | mean 12.91 ppb (1 source); highest reported 49.6 ppb | 100% detected (58/58, Fda 2016, ready-to-drink-juice-1-ml-1-g) | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (wet weight or reconstituted juice) | 1 cited | low (1-2 sources) | ready-to-drink-juice-1-ml-1-g |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+<!-- BEGIN: hmi-broad-context-sources -->
+## Broad Product Context: Author-Scope Index
+
+<!-- audience: regulator, educator, app -->
+
+_Generator-managed section: will be populated when the routing audit identifies sources whose author-stated scope is broader than this row._
+
+<!-- END: hmi-broad-context-sources -->
+
+## Levers to reduce contamination
+
+Non-apple fruit juices (grape, prune, pear, mixed fruit) have varying contamination profiles by fruit type. Grape and prune juices are associated with elevated lead and cadmium from soil accumulation; tropical fruit juices may carry arsenic from certain growing regions.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Source grape and prune ingredients from growing regions with documented low soil Pb and Cd. Lead and cadmium in grape juice are driven by vineyard soil contamination; European wine-growing regions vary substantially in soil Pb history. | _Quantified magnitude data not yet ingested from cited sources for origin-stratified grape juice data._ | — |
+| 2 | Agronomic | Soil pH management and amendment at vineyard/orchard level reduces Pb and Cd uptake into fruit. | _Quantified magnitude data not yet ingested; section will be expanded when intervention studies are available._ | — |
+| 3 | Processing | Juice clarification and filtration removes particulate-bound metals; chelation-based clarification agents may further reduce soluble metal content. | _Quantified magnitude data not yet ingested from cited sources._ | — |
+| 4 | Formulation | Avoid disproportionate use of high-Pb/Cd fruit concentrates; blend to reduce per-serving contribution. | _Quantified magnitude data not yet ingested; dilution effect expected proportional to concentration fraction._ | — |
+| 5 | Testing and QC | Lot-level ICP-MS on incoming juice concentrates and finished product. Routine testing is the primary mechanism given the variability in fruit-origin soil chemistry. | _Quantified magnitude data not yet ingested for detection-power modeling._ | — |
+| 6 | Packaging and storage | Not a primary lever for modern glass or PET juice packaging under normal storage conditions. | — | — |
+
+Cross-links: relevant ingredient pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
+
+## Historical recalls and enforcement
+
+<!-- audience: regulator, educator -->
+
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule (CLAUDE.md Part 12). Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

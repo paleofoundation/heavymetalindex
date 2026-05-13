@@ -37,6 +37,8 @@ sources: 5
 
 This page is a structural scaffold for HMTc Category 1 row 13. FDA compliance samples provide a small rice-named mixture subset, while broader rice/rice-mix, savoury infant-food, and U.S. baby-food survey sources remain useful context.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -65,6 +67,27 @@ This page is a structural scaffold for HMTc Category 1 row 13. FDA compliance sa
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in rice-containing mixed meals for infants and young children. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as wet weight (ready-to-eat), dry weight, or as sold. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix. Partial or unknown fit means the author uses a broader category.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
@@ -146,7 +169,7 @@ The current source set does not yet support a rice-containing mixed-meal HMTc co
 | All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad source-scope context only | Main paper Table 1 combines all categories; it does not publish mixed-meal or rice-status-specific concentration percentiles. Sample-level or supplemental data would be needed before this source can support the rice-containing mixed-meal contaminated-platform aggregate. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 | All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad source-scope context only | Main paper Table 1 combines all categories; it does not publish mixed-meal or rice-status-specific concentration percentiles. Sample-level or supplemental data would be needed before this source can support the rice-containing mixed-meal contaminated-platform aggregate. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -201,6 +224,27 @@ Potential variance drivers for rice-containing mixed meals should be documented 
 <!-- audience: app, consumer -->
 
 The app model placeholder for this row should treat [[ingredients/mixed-meals]], [[ingredients/rice]], and [[ingredients/rice-flour]] as unresolved ingredient targets until source-backed contamination profiles exist. <!-- UNCITED: Need source-backed ingredient mapping and concentration distributions before app risk inference is populated. -->
+
+## Levers to reduce contamination
+
+The primary contamination concern in rice-containing mixed meals is inorganic arsenic (iAs) from the rice component, compounded by cadmium and lead contributions from the rice and vegetable components. Levers address the rice ingredient and the overall mixed-meal formulation.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Source rice ingredient from low-iAs origins (California medium-grain or Indian basmati rather than US long-grain from Arkansas/Louisiana/Texas) and from fields with documented low Cd. | _Quantified magnitude data for finished mixed-meal product not yet ingested from cited sources; origin effects on rice iAs documented upstream._ | — |
+| 2 | Agronomic | Alternate wet-dry irrigation at paddy level reduces rice grain iAs but increases Cd; upstream supplier lever requiring soil Cd pre-screening. | _Quantified magnitude data not yet ingested for the mixed-meal matrix specifically._ | — |
+| 3 | Processing | For rice-containing mixed meals, the rice cooking method prior to incorporation affects iAs carry-through; excess-water cooking methods reduce iAs 50–85% versus absorption cooking in grain form. | _Quantified magnitude data not yet ingested for finished mixed-meal products from cited sources._ | — |
+| 4 | Formulation | Reduce the proportion of rice relative to total product weight; replace with lower-iAs grains or vegetables. The iAs contribution is proportional to the rice fraction. | Linear dilution effect proportional to rice-to-non-rice ratio in the formulation. | — |
+| 5 | Testing and QC | Lot-level iAs speciation by HPLC-ICP-MS on incoming rice ingredient, combined with finished-product ICP-MS for the full analyte panel. | _Quantified magnitude data not yet ingested for detection-power modeling at specific sample sizes._ | — |
+| 6 | Packaging and storage | Not a primary lever for jarred or pouched mixed meals under normal conditions. | — | — |
+
+Cross-links: [[ingredients/rice]] Mitigation options; relevant mitigation pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
 
 ## Historical Recalls/Enforcement
 
