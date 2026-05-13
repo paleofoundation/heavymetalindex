@@ -41,29 +41,22 @@ Batch 11 adds: [[wiki/sources/willacker2023-mercury-fish-snake-river|Willacker 2
 
 Promotion readiness: 3 of 4 criteria met. Criterion 2 (spans multiple metals, ingredients, or products) is borderline — this is a mercury-only thread focused on freshwater fish. Willacker 2023 and Paez-Osuna 2024 strengthen the thread but do not yet resolve the multi-metal gap. Promote when one more study corroborates the multi-metal dimension (As, Pb, or Cd co-elevation in ASGM contexts) or when a third continent's ASGM data enters the corpus.
 
-### Seafood arsenic speciation: "organic As is benign" is increasingly contested
+### Simultaneous Pb+As co-mitigation via single soil amendment intervention
 
-**Promotion readiness: all 4 criteria met (updated batch 11). Ready to promote.**
+Anchor sources (1 A-tier study; seeding):
 
-Anchor sources (8 A-tier studies across batches 9-11):
+- [[wiki/sources/sowers2023-jarosite-pb-as-remediation|Sowers 2023]] (PNAS: jarosite mineral treatment reduces soil Pb bioaccessibility from ~65% to <10% and As bioaccessibility from ~70% to <10% simultaneously in a single application)
 
-- [[wiki/sources/davydiuk2023-arsenosugars-methylation|Davydiuk 2023]] (critical review: arsenosugars/arsenolipids from seafood elevate urinary DMA independently of iAs methylation efficiency, confounding biomonitoring)
-- [[wiki/sources/liu2023-arsenic-seafood-digestion|Liu 2023]] (in vitro: organic As in crab/scallop converts to As(V) 2–3× during GI digestion via pH-dependent free radical mechanism)
-- [[wiki/sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa 2023]] (J-MICC Daiko, n=2,709: serum tAs from fish — 98% arsenobetaine — associated with dose-dependent hypertension risk)
-- [[wiki/sources/hull2023-arsenic-lake-foodweb|Hull 2023]] (Puget Sound legacy lakes: sediment As predicts fish iAs; %iAs increases at lower trophic levels, organic As enriches at higher)
-- [[wiki/sources/sadee2023-arsenic-speciation-vegetables|Sadee 2023]] (review of HPLC-ICP-MS speciation methods for vegetable As)
-- [[wiki/sources/walenta2024-arsenic-speciation-mushrooms|Walenta 2024]] (batch 11: novel arsenobetaine amide discovered in mushrooms — extends unexpected organoarsenical metabolite pattern to terrestrial fungi)
-- [[wiki/sources/raab2024-arsenolipids-chlamydomonas|Raab 2024]] (batch 11: first AsSugPhytol report in any organism; 57% of tAs as arsenolipids in microalgae — affects spirulina, chlorella, algae protein ingredients)
-- [[wiki/sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim 2024]] (batch 11: Laminaria digitata iAs >50% of tAs; HPLC-ICP-MS method validated for EU 2023/915 seaweed iAs compliance testing)
-
-Thesis: Regulatory and public health guidance treats marine organoarsenicals (principally arsenobetaine) as toxicologically inert and uses urinary %DMA as a proxy for inorganic arsenic methylation efficiency in biomonitoring studies. The accumulating evidence challenges both assumptions: (1) arsenosugars and arsenolipids from seafood are metabolized to DMA independently of iAs methylation pathways, inflating apparent methylation efficiency in populations with high seafood intake; (2) organic As forms in seafood partially convert to As(V) during GI digestion via pH-dependent oxidation, meaning the speciation at consumption does not equal speciation at absorption; (3) epidemiological evidence from a large Japanese cohort shows dose-dependent hypertension association even with serum tAs dominated by arsenobetaine; (4) the pattern extends beyond marine fish to terrestrial fungi (novel arsenobetaine amide in mushrooms) and microalgae-derived ingredients (57% arsenolipids in Chlamydomonas; >50% iAs fraction in kelp). Together these findings span four food matrix types (seafood, mushrooms, microalgae, seaweed) and two exposure pathways (dietary intake and urinary biomonitoring), satisfying criterion 2.
+Thesis: Most soil remediation and agricultural mitigation strategies address one heavy metal at a time, and often involve trade-offs (raising soil pH to reduce Pb bioaccessibility can increase As mobility; adding phosphate to immobilise Pb can mobilise As). Sowers 2023 is the first PNAS-level report of a single mineral amendment — jarosite, an iron(III) sulfate mineral that forms in acid mine drainage — that simultaneously immobilises both Pb and As via distinct but co-operative mechanisms (Pb adsorption/substitution into jarosite structure; As(V) adsorption onto ferric iron surface sites). The reduction from approximately 65–70% bioaccessibility to below 10% for both metals in a single treatment is the strongest co-mitigation magnitude result in the current corpus for any two-metal combination.
 
 Why this matters:
-- Brand-legal: products using microalgae-derived protein, spirulina, chlorella, or kelp ingredients that test only for tAs may be undercharacterizing the iAs-equivalent health-relevant fraction. The EU's 2023/915 seaweed iAs limit is now operative; the sim2024 method is the compliance-relevant tool.
-- Regulator: biomonitoring reference values derived from seafood-eating populations using urinary %DMA as a methylation index may systematically underestimate iAs exposure. Organoarsenical metabolism from diet is not controlled in standard biomonitoring designs.
-- Educator: teaches the non-substitutability of iAs and tAs (CLAUDE.md Part 14) with concrete mechanistic examples; illustrates why "fish arsenic is arsenobetaine and therefore safe" is an incomplete framing.
+- Brand-legal: co-contamination of Pb and As in the same soil and crop matrix is common (mining-adjacent soils, legacy urban soils, high-As paddy soils with co-occurring Pb from airborne deposition). A single intervention that addresses both reduces the remediation cost calculus and strengthens the argument that suppliers in co-contaminated regions can achieve multi-metal threshold compliance.
+- Regulator: if replicated, jarosite treatment could inform voluntary Code of Practice requirements for multi-metal management in soil remediation, analogous to CXC 81-2022 for cocoa Cd.
+- Educator: illustrates the co-mitigation vs trade-off landscape in soil chemistry; the contrast with pH manipulation (which helps Pb but can worsen As) is a teaching example for why multi-metal thinking is necessary.
 
-Suggest synthesis page slug: `organoarsenical-inertness-assumption`
+Promotion readiness: 1 of 4 criteria met (criterion 3, non-obvious from any single source; the significance is the magnitude and dual-metal nature of the result). Criterion 1 requires 2 additional corroborating studies. Criterion 2 is borderline — this is a soil chemistry result, not yet demonstrated in food matrix concentrations. Promote when: (a) a field study shows jarosite treatment reduces Pb and As in crop tissue simultaneously, or (b) two additional soil amendment studies achieve comparable dual-metal bioaccessibility reductions via any mechanism, or (c) a regulatory body or Code of Practice adopts a jarosite-class treatment recommendation.
+
+Suggested synthesis page slug: `dual-metal-soil-co-mitigation` (broader framing that can absorb corroborating papers on any co-mitigation approach, not just jarosite).
 
 ### Egypt regulatory baseline as a multi-jurisdiction interpretation hazard
 
@@ -109,6 +102,10 @@ Promoted 2026-05-13. Anchor sources: Suomi 2023 (Finnish cumulative HI), JECFA 9
 ### US chocolate lead temporal decline
 
 Promoted 2026-05-13. Anchor sources: Abt 2018 (US baseline), Hands 2024 (multi-year trajectory), Zhao 2024 (global mechanistic context). Synthesis page: [[../../wiki/synthesis/us-chocolate-lead-temporal-decline|us-chocolate-lead-temporal-decline]].
+
+### The organoarsenical inertness assumption is increasingly contested
+
+Promoted 2026-05-13. Anchor sources: Davydiuk 2023 (biomonitoring confound), Liu 2023 (digestion-phase As(V) conversion), Kagawa 2023 (n=2,709 Japanese cohort hypertension signal), Raab 2024 (microalgae arsenolipids 57% of tAs), Walenta 2024 (novel arsenobetaine amide in mushrooms), Sim 2024 (seaweed iAs >50% tAs), Hull 2023, Sadee 2023. Eight A-tier anchors spanning seafood, fungi, microalgae, and seaweed. Synthesis page: [[../../wiki/synthesis/organoarsenical-inertness-assumption|organoarsenical-inertness-assumption]].
 
 ## Workflow notes
 
