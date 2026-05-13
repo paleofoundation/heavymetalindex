@@ -20,6 +20,25 @@ Candidates can be added by any session that reads the corpus. Ingest sessions su
 
 ## Pending candidates
 
+### Mining-impacted freshwater fish as a global Hg contamination driver
+
+Anchor sources (7+ A-tier studies, growing):
+
+Batch 9 adds: [[wiki/sources/shumba2025-tilapia-mercury-zambia-mining|Shumba 2025]] (Zambia artisanal gold mining, tilapia tHg 0.12–1.94 µg/g); [[wiki/sources/stahl2023-us-river-fish-mercury|Stahl 2023]] (US NRSA rivers, n=1,250+, 8% exceed FDA 1.0 µg/g); [[wiki/sources/lepak2023-sport-fish-mercury-colorado|Lepak 2023]] (Colorado sport fish, 26% exceed FDA advisory for vulnerable groups); [[wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry|Marriott 2023]] (Lake Victoria, industrial + agricultural runoff signatures); [[wiki/sources/hussein2023-freshwater-marine-fish-egypt|Hussein 2023]] (Egyptian freshwater fish, Pb exceedances vs EU ML).
+
+Pre-existing anchors: [[wiki/sources/fuenteslopez2025-colombia-freshwater-fish-mercury|Fuentes-López 2025]] (Colombia artisanal gold mining, La Mojana); [[wiki/sources/barquero2024-almaden-freshwater-bass-mercury|Barquero 2024]] (Almadén mine district Spain, 7.61 mg/kg tHg in bass); plus Li 2024 (PNAS global model) and Wu 2025 (PNAS China projection) already anchoring the [[wiki/synthesis/subsistence-fishing-mehg-disparity]] page.
+
+Thesis: Industrial mining (hard rock and coal), artisanal and small-scale gold mining (ASGM), and legacy contamination from decommissioned mine sites each produce elevated dissolved Hg in freshwater systems, where microbial methylation (now mechanistically documented by [[wiki/sources/zhou2025-microbial-methylmercury-rice-china|Zhou 2025]] for paddy systems) converts inorganic Hg to MeHg that biomagnifies up the food chain. The pattern is global (Africa, Asia, Europe, North and South America documented) and affects both subsistence and recreational fisheries. Regulatory thresholds for fish consumption are set against aggregate population means, not against populations with elevated consumption of fish from contaminated systems.
+
+Why this matters:
+- Brand-legal: the subsistence-fishing synthesis page identifies the vulnerable population; this candidate identifies the contamination source mechanism and its global distribution, enabling the defense argument that HMTc seafood standards calibrated to commercial market supply chains cannot rely on existing FDA/EFSA limits to protect populations reliant on artisanal or recreational catch.
+- Regulator: the geographic scope (global, confirmed across six continents) is the non-obvious finding. Regulatory frameworks are mostly national; the cross-national scope of the same driver is a synthesis-page contribution.
+- Educator: explains why "follow FDA fish advisory" does not apply uniformly to all fish consumption contexts.
+
+This candidate is distinct from the promoted subsistence-fishing-mehg-disparity page, which focuses on population vulnerability. This candidate focuses on the contamination driver and geographic scope.
+
+Promotion readiness: 3 of 4 criteria met. Criterion 2 (spans multiple metals, ingredients, or products) is borderline — this is a mercury-only thread focused on freshwater fish. Consider whether to narrow scope to mercury-in-artisanal-fishing-systems or broaden to include multi-metal contamination from mining (As, Pb, Cd also elevated in ASGM contexts; see [[wiki/sources/shumba2025-tilapia-mercury-zambia-mining|Shumba 2025]] for As). Promote when one more study corroborates the multi-metal dimension or when a third continent's ASGM data enters the corpus.
+
 ### Egypt regulatory baseline as a multi-jurisdiction interpretation hazard
 
 Anchor sources (meta-finding about corpus pattern, not a single-paper thesis):
