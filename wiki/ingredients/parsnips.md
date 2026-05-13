@@ -7,33 +7,33 @@ aliases: [parsnip]
 category: root-vegetable
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 65]
+    p95_ppb: 83.8
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 90.5]
+    p95_ppb: 142.8
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   iAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [16.4, 112.7]
+    p95_ppb: 152.8
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 0.6]
+    p95_ppb: 2.0
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Ni:
     status: in_progress
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 1
 ---
 

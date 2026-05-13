@@ -7,19 +7,19 @@ aliases: [banana, blueberry, grape, melon, orange, peach, pear, strawberry]
 category: fruit
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 13.4]
+    p95_ppb: 15.6
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 11.3]
+    p95_ppb: 17.9
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   iAs:
     status: in_progress
     typical_ppb: [null, null]
@@ -28,12 +28,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 1.9]
+    p95_ppb: 9.4
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Ni:
     status: in_progress
     typical_ppb: [null, null]
@@ -42,12 +42,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   Al:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 3075]
+    p95_ppb: 3918
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cr:
     status: in_progress
     typical_ppb: [null, null]
@@ -56,12 +56,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   Sn:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [53.5, 32000]
+    p95_ppb: 32900
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   tAs:
     status: populated
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [fruit-juices-non-apple]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 1
 ---
 

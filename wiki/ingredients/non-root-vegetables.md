@@ -7,33 +7,33 @@ aliases: [broccoli, cucumber, peas, tomatoes, squash]
 category: vegetable
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [9.4, 18.4]
+    p95_ppb: 23.8
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 91]
+    p95_ppb: 181
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   iAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [9.4, 125.3]
+    p95_ppb: 150.2
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 0.2]
+    p95_ppb: 2.7
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Ni:
     status: in_progress
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees, vegetable-juices-non-root]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 1
 ---
 

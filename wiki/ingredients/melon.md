@@ -14,12 +14,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 10]
+    p95_ppb: 12.6
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   iAs:
     status: in_progress
     typical_ppb: [null, null]
@@ -28,12 +28,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 0.1]
+    p95_ppb: 0.2
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Ni:
     status: in_progress
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 1
 ---
 

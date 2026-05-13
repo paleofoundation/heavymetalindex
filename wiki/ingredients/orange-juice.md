@@ -7,61 +7,61 @@ aliases: [orange juice]
 category: juice-composite
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 29.9]
+    p95_ppb: 49.9
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 0.2]
+    p95_ppb: 6
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   iAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 3.6]
+    p95_ppb: 5.5
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 0.2]
+    p95_ppb: 1
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [63, 63]
+    p95_ppb: 63
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Al:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 2560]
+    p95_ppb: 2875
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [48.6, 65.4]
+    p95_ppb: 66.5
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Sn:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 8.9]
+    p95_ppb: 9.0
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   tAs:
     status: populated
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 1
 ---
 

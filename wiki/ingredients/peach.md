@@ -7,19 +7,19 @@ aliases: []
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 1.8]
+    p95_ppb: 2.9
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -28,26 +28,26 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   tAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 8.3]
+    p95_ppb: 9.3
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 100]
+    p95_ppb: 107
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -56,12 +56,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -70,18 +70,18 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   U:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 1.0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [fruit-purees]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 1
 ---
 
