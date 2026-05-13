@@ -40,6 +40,24 @@ const briefingDir = path.join(repoRoot, "data/workbench/briefings")
 
 const args = parseArgs(process.argv.slice(2))
 const productSlug = args.get("product") ?? "infant-formula-powder-non-soy"
+// Authorship default — names ONLY people who can defend this briefing under
+// cross-examination. Phantom co-authors are a Daubert vulnerability: if a
+// named author can't defend the methodology, the briefing is impeached. Past
+// collaborators on earlier standards work belong on THOSE documents, not on
+// this one. Override via --authors="Name 1; Name 2" only when those people
+// have actually contributed to this specific briefing AND consented.
+//
+// AI implementation acknowledgment lives in the Provenance Footer, NOT in
+// the byline. Claude is a tool that can't testify; putting it in the
+// authors line invites mockery without supplying a defense witness.
+const authorsList = (args.get("authors") ?? "Karen Pendergrass, Standards Architect, Paleo Foundation")
+  .split(";")
+  .map((s) => s.trim())
+  .filter(Boolean)
+const implementationCredit = args.get("implementation-credit") ??
+  "Methodology implementation: deterministic open-source pooling engine and document generator (this file's repository at the commit named in the Provenance Footer). Engine code and document templates were drafted with AI assistance (Claude, Anthropic) under the supervision and direction of the Standards Architect. All policy decisions, methodology choices, source-admission rules, basis conventions, and final values are the Standards Architect's; the AI assistance is a calculator-and-drafter, not a co-author."
+const ceoDualRoleNote = args.get("ceo-dual-role-note") ??
+  "Karen Pendergrass also serves as CEO of the Paleo Foundation, which operates the HMT&C certification program. This dual role is disclosed for transparency; the methodology in this briefing is reproducible from the open-source pooling engine and source data, independent of the author's organizational title."
 
 // HMTc-10 analyte order (per CLAUDE.md Part 19, ordered for briefing readability)
 const ANALYTE_ORDER = ["Pb", "iAs", "tAs", "Sn", "Ni", "Cd", "Cr-VI", "Al", "tHg", "MeHg"]
@@ -335,6 +353,7 @@ function variantRoleLabel(variantType) {
 }
 
 function renderTitle(productLabel, variantRole, nativeBasis, today) {
+  const fmAuthors = authorsList.map((a) => `"${a}"`).join(", ")
   return `---
 title: "HMTc Standards Briefing — ${productLabel}"
 type: hmtc-standards-briefing
@@ -342,7 +361,7 @@ product_slug: ${productSlug}
 native_basis: ${nativeBasis}
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
 generated_at: ${new Date().toISOString()}
-authors: [K. Pendergrass, K. Eyer, D. Aleru]
+authors: [${fmAuthors}]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
 ---
@@ -354,7 +373,7 @@ noindex: true
 **Native basis for published thresholds:** ${nativeBasis}
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
 **Date generated:** ${today}
-**Authors:** K. Pendergrass (CEO), K. Eyer, D. Aleru
+**Author:** ${authorsList.join("; ")}
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.`
 }
 
@@ -582,7 +601,7 @@ function renderAntiCircumvention() {
 
 Per the hmtc-standards skill rule #6, every Standards Briefing publishes the anti-circumvention argument that defends the program against the most common evasion strategies. The six moves are:
 
-**Move 1 — Clean platform anchor.** The clean subcategory standard is set at P97 of the clean platform's distribution, not the dirty platform's. Brands cannot argue "the dirty platform is also part of the market, so the limit should accommodate it." The clean platform exists and is achievable; the standard reflects what the cleanest 3% of the clean platform already meet.
+**Move 1 — Clean platform anchor.** The clean subcategory standard is set at P97 of the clean platform's distribution, not the dirty platform's. Brands cannot argue "the dirty platform is also part of the market, so the limit should accommodate it." The clean platform exists and is achievable; **97% of brands in the clean platform's distribution already meet the per-analyte limit** (the cleanest 97%, not the cleanest 3%). At the row level, with ten analytes combined under typical analyte correlation, approximately 90% of clean-platform brands pass joint certification — which is the Governing Principles' stated 90% clean row-pass target.
 
 **Move 2 — Row-level certification.** A brand certifies a product (one row, ten analytes simultaneously), not one analyte. The single-analyte attack "you let 70% of brands pass on Pb individually" misses the joint test. Per-analyte P97 delivers ~90% row-pass; the joint discipline is the certification.
 
@@ -670,8 +689,16 @@ This briefing is reproducible by:
 | Pooling engine | \`tools/evidence/build-hmtc-aggregate-distributions.mjs\` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
 | Git commit | \`${gitCommit}\` |
-| Authors | K. Pendergrass (CEO), K. Eyer, D. Aleru |
+| Author | ${authorsList.join("; ")} |
 | Status | Draft for stakeholder review |
+
+### Disclosure: organizational role
+
+${ceoDualRoleNote}
+
+### Methodology implementation note
+
+${implementationCredit}
 
 *End of briefing.*`
 }
