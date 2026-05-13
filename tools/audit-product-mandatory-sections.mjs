@@ -65,7 +65,7 @@ const MANDATORY_SECTIONS = [
   {
     key: "regulatory_vs_field",
     patterns: [
-      /^##\s+Federal.Regulatory Limits/im,
+      /^##\s+Federal\s*[/\\]\s*Regulatory Limits/im,
       /^##\s+Regulatory.*Field Findings/im,
       /^##\s+Regulatory comparison/im,
     ],
