@@ -12,8 +12,13 @@
         <p class="eyebrow">Local-only internal tool</p>
         <h1>HMI Standards Workbench</h1>
       </div>
-      <div class="topbar-note">Not part of the public Heavy Metal Index build</div>
+      <div class="topbar-meta">
+        <div id="generated-at" class="topbar-stamp"></div>
+        <div class="topbar-note">Not part of the public Heavy Metal Index build</div>
+      </div>
     </header>
+
+    <div id="methodology-banner" class="methodology-banner" hidden></div>
 
     <main class="app-shell">
       <aside class="sidebar">
@@ -28,19 +33,37 @@
           <button class="filter" data-status="path-b">Path B</button>
           <button class="filter" data-status="missing">Missing</button>
         </div>
+        <div class="sidebar-section-label">Rows (sorted by readiness)</div>
         <div id="row-list" class="row-list"></div>
       </aside>
 
       <section class="workspace">
         <section class="summary-grid" id="summary"></section>
 
+        <section class="staging-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Staging log</p>
+              <h2>Recent Decisions &amp; Adjudications</h2>
+            </div>
+            <div class="staging-actions">
+              <p>Everything you record in the workbench lands here first (JSONL staging). Nothing mutates <code>category1_standards_decisions.csv</code> silently. Click a log entry to jump to the cell.</p>
+              <div class="staging-buttons">
+                <button id="commit-dry-run" class="ghost">Preview commit (dry run)</button>
+                <button id="commit-decisions" class="primary">Promote staged → canonical CSV</button>
+              </div>
+            </div>
+          </div>
+          <div id="staging-log" class="staging-log"></div>
+        </section>
+
         <section class="validation-panel">
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Validation audit</p>
-              <h2>Traceability & Guardrails</h2>
+              <h2>Traceability &amp; Guardrails</h2>
             </div>
-            <p>Automated checks that must be cleared or explicitly adjudicated before any value is treated as standards-ready.</p>
+            <p>Adjudicate each finding to keep it out of the open queue. Adjudicated findings are dimmed but stay visible for audit.</p>
           </div>
           <div id="validation-report" class="validation-report"></div>
         </section>
@@ -49,9 +72,9 @@
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Decision register</p>
-              <h2>Finalized Standards</h2>
+              <h2>Finalized Standards (canonical CSV)</h2>
             </div>
-            <p>Approved values belong here, separate from provisional extraction and gap-tracking math.</p>
+            <p>Approved values from <code>data/evidence/category1_standards_decisions.csv</code>. The staging log above is the working pile; this is the committed register.</p>
           </div>
           <div id="finalized-register" class="finalized-register"></div>
         </section>
@@ -62,7 +85,7 @@
               <p class="eyebrow">Standards matrix</p>
               <h2>Row-Metal Status</h2>
             </div>
-            <p>Row-specific standard statistic, paired comparator context, current blocker, and next action.</p>
+            <p>Row-specific standard statistic, paired comparator context, current blocker, and next action. Clean cells show p90; dirty cells show both p10 and p30 (methodology under reconciliation — see banner).</p>
           </div>
           <div class="matrix-wrap">
             <table>
@@ -73,7 +96,8 @@
                   <th>Status</th>
                   <th>Row standard</th>
                   <th>Comparator</th>
-                  <th>Regulatory ceiling</th>
+                  <th>Reg ceiling</th>
+                  <th>Readiness</th>
                   <th>Next action</th>
                 </tr>
               </thead>

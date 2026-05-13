@@ -3,6 +3,8 @@ const state = {
   status: "all",
   query: "",
   selectedId: null,
+  showPair: false,
+  showAdjudicated: false,
 }
 
 const statusTone = {
@@ -19,13 +21,32 @@ const validationTone = {
   notice: "notice",
 }
 
+const HMTC_TEN_ANALYTES = [
+  "Pb",
+  "Cd",
+  "iAs",
+  "tAs",
+  "MeHg",
+  "tHg",
+  "Ni",
+  "Al",
+  "Cr-VI",
+  "Sn",
+]
+
 init()
 
 async function init() {
+  await refresh()
+  bindEvents()
+}
+
+async function refresh() {
   const response = await fetch("/api/context")
   state.context = await response.json()
-  state.selectedId = state.context.cells[0]?.id ?? null
-  bindEvents()
+  if (!state.context.cells.some((cell) => cell.id === state.selectedId)) {
+    state.selectedId = state.context.cells[0]?.id ?? null
+  }
   render()
 }
 
@@ -43,6 +64,43 @@ function bindEvents() {
       render()
     })
   })
+
+  document.body.addEventListener("click", async (event) => {
+    if (event.target.id === "commit-decisions") {
+      await runDecisionCommit(false)
+    }
+    if (event.target.id === "commit-dry-run") {
+      await runDecisionCommit(true)
+    }
+  })
+}
+
+async function runDecisionCommit(dryRun) {
+  if (!dryRun) {
+    const ok = window.confirm(
+      "Promote all staged decisions into data/evidence/category1_standards_decisions.csv?\n\nThis writes to the canonical CSV. The staging JSONL is preserved as audit trail. Commit both files in git after review.",
+    )
+    if (!ok) return
+  }
+  try {
+    const response = await fetch("/api/decisions/commit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ dry_run: dryRun }),
+    })
+    if (!response.ok) throw new Error(await response.text())
+    const result = await response.json()
+    const lines = [
+      result.message,
+      ...(result.committed ?? []).map(
+        (entry) => `  · ${entry.row_slug} / ${entry.metal} → ${entry.standard_status}`,
+      ),
+    ]
+    window.alert(lines.join("\n"))
+    if (!dryRun) await refresh()
+  } catch (error) {
+    window.alert(`Commit failed: ${error.message}`)
+  }
 }
 
 function render() {
@@ -51,7 +109,10 @@ function render() {
     state.selectedId = cells[0]?.id ?? null
   }
 
+  renderMethodologyBanner()
+  renderGeneratedAt()
   renderSummary()
+  renderStagingLog()
   renderValidationReport()
   renderRows(cells)
   renderMatrix(cells)
@@ -62,10 +123,40 @@ function render() {
 function filteredCells() {
   return state.context.cells.filter((cell) => {
     const statusMatch = state.status === "all" || cell.status === state.status
-    const queryText =
-      `${cell.row_title} ${cell.metal} ${cell.status_label} ${cell.next_action} ${cell.regulatory_guardrail?.status_label ?? ""}`.toLowerCase()
+    const queryText = [
+      cell.row_title,
+      cell.metal,
+      cell.status_label,
+      cell.next_action,
+      cell.regulatory_guardrail?.status_label ?? "",
+      cell.readiness?.aggregate_status ?? "",
+      cell.readiness?.label ?? "",
+    ]
+      .join(" ")
+      .toLowerCase()
     return statusMatch && queryText.includes(state.query)
   })
+}
+
+function renderMethodologyBanner() {
+  const banner = document.querySelector("#methodology-banner")
+  const note = state.context.methodology_note
+  if (!note) {
+    banner.hidden = true
+    return
+  }
+  banner.hidden = false
+  banner.innerHTML = `
+    <strong>${escapeHTML(note.title)}</strong>
+    <p>${escapeHTML(note.detail)}</p>
+    <p class="banner-action"><em>${escapeHTML(note.action)}</em></p>
+  `
+}
+
+function renderGeneratedAt() {
+  const stamp = document.querySelector("#generated-at")
+  const time = new Date(state.context.generated_at)
+  stamp.textContent = `Snapshot ${time.toLocaleString()}`
 }
 
 function renderSummary() {
@@ -73,10 +164,12 @@ function renderSummary() {
   document.querySelector("#summary").innerHTML = `
     ${summaryCard("Rows", totals.rows, "product categories")}
     ${summaryCard("Cells", totals.rowMetals, "row-metal checks")}
-    ${summaryCard("Final", totals.finalized, "approved values")}
+    ${summaryCard("Final", totals.finalized, "committed (canonical CSV)")}
     ${summaryCard("Review", totals.review, "need adjudication")}
     ${summaryCard("Path B", totals.pathB, "LOQ fallback likely")}
     ${summaryCard("Missing", totals.missing, "need evidence")}
+    ${summaryCard("Staged", totals.staged_decisions, "decisions in JSONL")}
+    ${summaryCard("Adjud.", totals.staged_adjudications, "findings adjudicated")}
   `
 }
 
@@ -85,6 +178,62 @@ function summaryCard(label, value, caption) {
     <span>${escapeHTML(label)}</span>
     <strong>${value}</strong>
     <p>${escapeHTML(caption)}</p>
+  </article>`
+}
+
+function renderStagingLog() {
+  const decisions = state.context.decisions_log ?? []
+  const adjudications = state.context.adjudications_log ?? []
+  const target = document.querySelector("#staging-log")
+
+  if (decisions.length === 0 && adjudications.length === 0) {
+    target.innerHTML = `<p class="empty">No staged activity yet. Record a decision in the detail panel and it shows up here. Adjudicate a validation finding and it shows up here too.</p>`
+    return
+  }
+
+  const items = [
+    ...decisions.map((record) => ({ ...record, kind: "decision" })),
+    ...adjudications.map((record) => ({ ...record, kind: "adjudication" })),
+  ]
+    .sort((a, b) => b.recorded_at.localeCompare(a.recorded_at))
+    .slice(0, 12)
+
+  target.innerHTML = items.map(renderStagedRecord).join("")
+
+  target.querySelectorAll("[data-jump]").forEach((article) => {
+    article.addEventListener("click", () => {
+      state.selectedId = article.dataset.jump
+      render()
+    })
+  })
+}
+
+function renderStagedRecord(record) {
+  const time = new Date(record.recorded_at).toLocaleString()
+  if (record.kind === "decision") {
+    const value =
+      record.final_value_ppb !== null && record.final_value_ppb !== undefined
+        ? `${formatNumber(record.final_value_ppb)} ppb`
+        : "—"
+    const cellId = `${record.row_slug}::${record.metal}`
+    return `<article class="staged-record decision clickable" data-jump="${escapeHTML(cellId)}">
+      <span>${escapeHTML(record.action)} · decision</span>
+      <strong>${escapeHTML(record.row_slug)} · ${escapeHTML(record.metal)}</strong>
+      <p>${escapeHTML(value)} · ${escapeHTML(record.rationale_tag ?? "no rationale tag")} · ${escapeHTML(record.basis ?? "no basis")}</p>
+      <p class="staged-note">${escapeHTML(record.note || "no note")}</p>
+      <p class="staged-meta">${escapeHTML(time)} · ${escapeHTML(record.actor ?? "")}</p>
+    </article>`
+  }
+  const jumpAttr = record.cell_id
+    ? `data-jump="${escapeHTML(record.cell_id)}"`
+    : ""
+  const clickableClass = record.cell_id ? "clickable" : ""
+  return `<article class="staged-record adjudication ${clickableClass}" ${jumpAttr}>
+    <span>${escapeHTML(record.status)} · adjudication</span>
+    <strong>${escapeHTML(record.title || record.finding_id)}</strong>
+    <p>${escapeHTML(record.severity ?? "")} · ${escapeHTML(record.category ?? "")} · ${escapeHTML(record.cell_id ?? "")}</p>
+    <p class="staged-note">${escapeHTML(record.note || "no note")}</p>
+    <p class="staged-meta">${escapeHTML(time)} · ${escapeHTML(record.actor ?? "")}</p>
   </article>`
 }
 
@@ -97,32 +246,55 @@ function renderValidationReport() {
     return
   }
 
-  const findings = report.findings ?? []
-  const visibleFindings = findings.slice(0, 28)
+  const allFindings = report.findings ?? []
+  const visible = state.showAdjudicated
+    ? allFindings
+    : allFindings.filter((f) => f.adjudication_status === "open")
+  const limited = visible.slice(0, 30)
 
   target.innerHTML = `
     <div class="validation-summary">
-      ${validationSummaryCard("Critical", report.summary.critical, "must be fixed", "critical")}
-      ${validationSummaryCard("Warnings", report.summary.warning, "must be adjudicated", "warning")}
-      ${validationSummaryCard("Notices", report.summary.notice, "context checks", "notice")}
+      ${validationSummaryCard("Critical (open)", report.summary.critical, "must be fixed", "critical")}
+      ${validationSummaryCard("Warnings (open)", report.summary.warning, "must be adjudicated", "warning")}
+      ${validationSummaryCard("Notices (open)", report.summary.notice, "context checks", "notice")}
+      ${validationSummaryCard("Adjudicated", report.summary.adjudicated_total, "off the open queue", "good")}
       ${validationSummaryCard("Ceilings", report.summary.cells_with_linked_concentration_ceiling, "linked concentration ceilings", "notice")}
       ${validationSummaryCard("Reg review", report.summary.cells_needing_regulatory_adjudication, "need ceiling adjudication", "warning")}
-      ${validationSummaryCard("Machine", report.summary.machine_extracted_candidates, "candidate extractions", "warning")}
     </div>
     <p class="acceptance-rule">${escapeHTML(report.acceptance_rule)}</p>
+    <div class="validation-controls">
+      <label class="toggle">
+        <input type="checkbox" id="show-adjudicated" ${state.showAdjudicated ? "checked" : ""} />
+        Show adjudicated findings (${report.summary.adjudicated_total})
+      </label>
+      <span class="validation-count">Showing ${limited.length} of ${visible.length} ${state.showAdjudicated ? "(all)" : "(open)"} findings</span>
+    </div>
     <div class="validation-list">
       ${
-        visibleFindings.length
-          ? visibleFindings.map(renderValidationFinding).join("")
-          : '<p class="empty">No automated validation findings.</p>'
+        limited.length
+          ? limited.map(renderValidationFinding).join("")
+          : `<p class="empty">${state.showAdjudicated ? "No findings." : "All open findings adjudicated."}</p>`
       }
     </div>
   `
+
+  target.querySelector("#show-adjudicated")?.addEventListener("change", (event) => {
+    state.showAdjudicated = event.target.checked
+    render()
+  })
 
   target.querySelectorAll("[data-cell]").forEach((button) => {
     button.addEventListener("click", () => {
       state.selectedId = button.dataset.cell
       render()
+    })
+  })
+
+  target.querySelectorAll("[data-adjudicate]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const findingId = button.dataset.adjudicate
+      const finding = allFindings.find((f) => f.id === findingId)
+      if (finding) openAdjudicationDialog(finding)
     })
   })
 }
@@ -139,15 +311,25 @@ function renderValidationFinding(finding) {
   const cellButton = finding.cell_id
     ? `<button data-cell="${escapeHTML(finding.cell_id)}">Open cell</button>`
     : ""
+  const adjudicateButton =
+    finding.adjudication_status === "open"
+      ? `<button class="adjudicate-button" data-adjudicate="${escapeHTML(finding.id)}">Adjudicate</button>`
+      : `<span class="adjudication-stamp">${escapeHTML(finding.adjudication_status)}</span>`
+  const dimmed = finding.adjudication_status !== "open" ? "dimmed" : ""
 
-  return `<article class="validation-finding ${validationTone[finding.severity] ?? "notice"}">
+  return `<article class="validation-finding ${validationTone[finding.severity] ?? "notice"} ${dimmed}">
     <div>
-      <span>${escapeHTML(finding.severity)} · ${escapeHTML(finding.category)}</span>
+      <span>${escapeHTML(finding.severity)} · ${escapeHTML(finding.category)} · ${escapeHTML(finding.adjudication_status)}</span>
       <strong>${escapeHTML(finding.title)}</strong>
       <p>${escapeHTML(finding.detail)}</p>
       <p><em>${escapeHTML(finding.action)}</em></p>
+      ${
+        finding.adjudication_note
+          ? `<p class="adjudication-note"><strong>Adjudication note:</strong> ${escapeHTML(finding.adjudication_note)}</p>`
+          : ""
+      }
     </div>
-    ${cellButton}
+    <div class="validation-finding-actions">${cellButton}${adjudicateButton}</div>
   </article>`
 }
 
@@ -158,26 +340,76 @@ function renderRows(cells = filteredCells()) {
     byRow.get(cell.row_slug).push(cell)
   }
 
-  document.querySelector("#row-list").innerHTML = [...byRow.entries()]
+  const ordered = [...byRow.entries()].sort(([, a], [, b]) => {
+    return readinessScore(b) - readinessScore(a)
+  })
+
+  document.querySelector("#row-list").innerHTML = ordered
     .map(([slug, cells]) => {
       const row = state.context.rows.find((candidate) => candidate.slug === slug)
       const counts = countStatuses(cells)
-      return `<button class="row-button" data-row="${escapeHTML(slug)}">
-        <strong>${escapeHTML(row?.title ?? slug)}</strong>
+      const priority = highestPriority(cells)
+      const priorityChip = priority ? `<span class="priority-chip ${priority.toLowerCase()}">${escapeHTML(priority)}</span>` : ""
+      const readinessLine = readinessBlurb(cells)
+      const isActive = state.selectedId && cells.some((cell) => cell.id === state.selectedId) ? "active" : ""
+      return `<button class="row-button ${isActive}" data-row="${escapeHTML(slug)}">
+        <strong>${escapeHTML(row?.title ?? slug)}${priorityChip}</strong>
         <span>${cells.length} metals · ${counts.review} review · ${counts.pathB} Path B · ${counts.missing} missing</span>
+        <span class="row-readiness">${escapeHTML(readinessLine)}</span>
       </button>`
     })
     .join("")
 
   document.querySelectorAll(".row-button").forEach((button) => {
     button.addEventListener("click", () => {
-      const cell = cells.find((candidate) => candidate.row_slug === button.dataset.row)
+      const slugCells = byRow.get(button.dataset.row) ?? []
+      const cell = slugCells[0]
       if (cell) {
         state.selectedId = cell.id
         render()
       }
     })
   })
+}
+
+function readinessScore(cells) {
+  // Higher score = sort earlier. P1 gaps and at-readiness rows rise.
+  let score = 0
+  for (const cell of cells) {
+    const priority = cell.readiness?.action_priority ?? ""
+    if (priority.startsWith("P1")) score += 100
+    if (priority.startsWith("P2")) score += 60
+    if (priority.startsWith("P3")) score += 30
+    if ((cell.readiness?.aggregate_status ?? "").includes("readiness bar")) score += 80
+    if (cell.status === "review") score += 10
+  }
+  return score
+}
+
+function highestPriority(cells) {
+  for (const tier of ["P1", "P2", "P3", "P4", "P5"]) {
+    if (cells.some((cell) => cell.readiness?.action_priority?.startsWith(tier))) {
+      return tier
+    }
+  }
+  return null
+}
+
+function readinessBlurb(cells) {
+  const atBar = cells.filter((cell) =>
+    (cell.readiness?.aggregate_status ?? "").includes("readiness bar"),
+  ).length
+  const blocked = cells.filter((cell) =>
+    (cell.readiness?.aggregate_status ?? "").startsWith("BLOCKED"),
+  ).length
+  const hold = cells.filter((cell) =>
+    (cell.readiness?.aggregate_status ?? "").startsWith("DO NOT PUBLISH"),
+  ).length
+  const parts = []
+  if (atBar) parts.push(`${atBar} at bar`)
+  if (hold) parts.push(`${hold} on hold`)
+  if (blocked) parts.push(`${blocked} blocked`)
+  return parts.length ? parts.join(" · ") : "no aggregate signal"
 }
 
 function countStatuses(cells) {
@@ -193,13 +425,20 @@ function renderMatrix(cells = filteredCells()) {
   matrix.innerHTML = cells
     .map((cell) => {
       const active = cell.id === state.selectedId ? "active" : ""
+      const stagedBadge = cell.staged_decision
+        ? `<span class="staged-badge">staged</span>`
+        : ""
+      const comparator = renderComparatorCell(cell)
+      const readiness = cell.readiness?.label ?? "—"
+      const readinessTone = readinessToneFor(cell.readiness?.aggregate_status)
       return `<tr class="${active}" data-cell="${escapeHTML(cell.id)}">
-        <td><strong>${escapeHTML(cell.row_title)}</strong><span>Row ${cell.hmtc_row ?? "n/a"}</span></td>
+        <td><strong>${escapeHTML(cell.row_title)}${stagedBadge}</strong><span>Row ${cell.hmtc_row ?? "n/a"}</span></td>
         <td>${escapeHTML(cell.metal)}</td>
         <td><span class="badge ${statusTone[cell.status]}">${escapeHTML(cell.status_label)}</span></td>
         <td>${renderMatrixValue(cell.row_standard.label, cell.row_standard.candidate_value, cell.row_standard.unit)}</td>
-        <td>${renderMatrixValue(cell.comparator_context.label, cell.comparator_context.value, cell.comparator_context.unit)}</td>
-        <td>${renderMatrixValue(cell.regulatory_guardrail.status_label, cell.regulatory_guardrail.ceiling_value, cell.regulatory_guardrail.ceiling_unit)}</td>
+        <td>${comparator}</td>
+        <td>${renderRegCeilingCell(cell)}</td>
+        <td><span class="readiness-pill ${readinessTone}">${escapeHTML(readiness)}</span></td>
         <td>${escapeHTML(cell.next_action)}</td>
       </tr>`
     })
@@ -213,6 +452,37 @@ function renderMatrix(cells = filteredCells()) {
   })
 }
 
+function renderComparatorCell(cell) {
+  const c = cell.comparator_context
+  if (!c?.slug) return `<span class="muted">—</span>`
+  if (c.statistic === "p10 / p30") {
+    return `<strong>p10 ${valueOrDash(c.p10, c.unit)}<br>p30 ${valueOrDash(c.p30, c.unit)}</strong>
+      <span>${escapeHTML(c.row_title)}</span>`
+  }
+  return `<strong>${valueOrDash(c.value, c.unit)}</strong><span>${escapeHTML(c.label)}</span>`
+}
+
+function renderRegCeilingCell(cell) {
+  const guardrail = cell.regulatory_guardrail
+  const readinessCap = cell.readiness?.lowest_regulatory_cap_ppb
+  const readinessSource = cell.readiness?.lowest_regulatory_cap_source
+  if (guardrail?.ceiling_value !== null && guardrail?.ceiling_value !== undefined) {
+    return `<strong>${valueOrDash(guardrail.ceiling_value, guardrail.ceiling_unit)}</strong><span>${escapeHTML(guardrail.status_label)}</span>`
+  }
+  if (readinessCap !== null && readinessCap !== undefined) {
+    return `<strong>${formatNumber(readinessCap)} ppb</strong><span>${escapeHTML(readinessSource ?? "from gap report")}</span>`
+  }
+  return `<span class="muted">${escapeHTML(guardrail?.status_label ?? "no ceiling")}</span>`
+}
+
+function readinessToneFor(aggregate) {
+  if (!aggregate) return "muted"
+  if (aggregate.startsWith("BLOCKED")) return "blocked"
+  if (aggregate.startsWith("DO NOT PUBLISH")) return "hold"
+  if (aggregate.includes("readiness bar")) return "ready"
+  return "neutral"
+}
+
 function renderFinalizedRegister() {
   const finalized = state.context.finalized_decisions.filter((decision) =>
     ["approved", "finalized"].includes(decision.standard_status),
@@ -220,7 +490,7 @@ function renderFinalizedRegister() {
   const register = document.querySelector("#finalized-register")
 
   if (finalized.length === 0) {
-    register.innerHTML = `<p class="empty">No finalized Category 1 standards are recorded yet. When a row-metal value is approved, add it to <code>data/evidence/category1_standards_decisions.csv</code> and it will appear here.</p>`
+    register.innerHTML = `<p class="empty">No finalized Category 1 standards are recorded in the canonical CSV yet. Stage decisions in the detail panel; a separate commit action (TBD) will write them here.</p>`
     return
   }
 
@@ -247,45 +517,67 @@ function renderDetail(cells = filteredCells()) {
   state.selectedId = cell.id
   const previousSelectedId = detail.dataset.selectedCell
   detail.dataset.selectedCell = cell.id
+
+  const pairCell = pairCellFor(cell)
+  const showPair = state.showPair && pairCell
+
   detail.innerHTML = `
     <div class="detail-heading">
       <p class="eyebrow">Selected cell</p>
       <h2>${escapeHTML(cell.row_title)}</h2>
-      <span class="metal-chip">${escapeHTML(cell.metal)}</span>
-      <span class="badge ${statusTone[cell.status]}">${escapeHTML(cell.status_label)}</span>
+      <div class="detail-chip-row">
+        <span class="metal-chip">${escapeHTML(cell.metal)}</span>
+        <span class="badge ${statusTone[cell.status]}">${escapeHTML(cell.status_label)}</span>
+        ${cell.staged_decision ? `<span class="badge staged">${escapeHTML(cell.staged_decision.action)} staged</span>` : ""}
+        ${cell.readiness?.action_priority ? `<span class="priority-chip ${cell.readiness.action_priority.toLowerCase()}">${escapeHTML(cell.readiness.action_priority)}</span>` : ""}
+        <a class="snapshot-link" href="${escapeHTML(cell.snapshot_url)}" target="_blank" rel="noreferrer">Open snapshot →</a>
+      </div>
     </div>
 
+    ${renderRowOverviewCard(cell)}
+
+    ${pairCell ? renderPairToggle(pairCell) : ""}
+    ${showPair ? renderPairView(cell, pairCell) : ""}
+
+    <section class="readiness-card">
+      <h3>Standards readiness</h3>
+      ${renderReadiness(cell.readiness)}
+    </section>
+
     <section class="final-card">
-      <h3>Finalized Standard</h3>
+      <h3>Finalized / Staged Decision</h3>
       ${renderFinalized(cell)}
+      ${renderStagedDecision(cell)}
     </section>
 
     <section class="regulatory-card">
       <h3>Regulatory Guardrail</h3>
-      ${renderRegulatoryGuardrail(cell.regulatory_guardrail)}
+      ${renderRegulatoryGuardrail(cell.regulatory_guardrail, cell.readiness)}
     </section>
 
     <section class="math-card">
-      <h3>Row Standard Candidate</h3>
+      <h3>Row standard candidate</h3>
       <dl>
         <div><dt>Basis rule</dt><dd>${escapeHTML(cell.row_standard.label)}</dd></div>
         <div><dt>Candidate</dt><dd>${valueOrDash(cell.row_standard.candidate_value, cell.row_standard.unit)}</dd></div>
         <div><dt>This-row p90</dt><dd>${valueOrDash(cell.row_percentiles.p90, cell.row_percentiles.unit)}</dd></div>
+        <div><dt>This-row p30</dt><dd>${valueOrDash(cell.row_percentiles.p30, cell.row_percentiles.unit)}${cell.row_percentiles.p30_source ? ` <em class="muted">(${escapeHTML(cell.row_percentiles.p30_source)})</em>` : ""}</dd></div>
         <div><dt>This-row p10</dt><dd>${valueOrDash(cell.row_percentiles.p10, cell.row_percentiles.unit)}</dd></div>
         <div><dt>Matrix basis</dt><dd>${escapeHTML(cell.row_standard.basis ?? "pending")}</dd></div>
         <div><dt>Register state</dt><dd>${escapeHTML(cell.register?.review_state ?? "not registered")}</dd></div>
+        <div><dt>N</dt><dd>${escapeHTML(cell.row_standard.n ?? "—")}</dd></div>
       </dl>
       <p>${escapeHTML(cell.row_standard.formula)}</p>
-      <p>${escapeHTML(cell.path_b.formula)} ${escapeHTML(cell.path_b.status)}</p>
+      <p class="muted">${escapeHTML(cell.path_b.formula)} ${escapeHTML(cell.path_b.status)}</p>
     </section>
 
     <section class="comparator-card">
-      <h3>Paired Comparator Context</h3>
+      <h3>Paired comparator context</h3>
       ${renderComparator(cell.comparator_context)}
     </section>
 
     <section class="difference-card">
-      <h3>Why Values Differ</h3>
+      <h3>Why values differ</h3>
       ${renderDifferenceNotes(cell.why_values_differ)}
     </section>
 
@@ -324,8 +616,14 @@ function renderDetail(cells = filteredCells()) {
       </div>
     </section>
 
+    <section class="decision-recorder-card">
+      <h3>Stage a decision</h3>
+      <p class="muted">Writes to <code>data/evidence/standards_decision_staging.jsonl</code>. Never silently mutates the canonical CSV. A separate commit action (TBD) promotes staged → canonical.</p>
+      ${renderDecisionForm(cell)}
+    </section>
+
     <section class="prompt-card">
-      <h3>Copy/Paste Research Prompts</h3>
+      <h3>Research prompts (copy/paste)</h3>
       ${cell.prompts
         .map(
           (prompt) => `<article>
@@ -338,15 +636,244 @@ function renderDetail(cells = filteredCells()) {
   `
   if (previousSelectedId !== cell.id) detail.scrollTop = 0
 
+  bindDetailHandlers(detail, cell, pairCell)
+}
+
+function bindDetailHandlers(detail, cell, pairCell) {
   detail.querySelectorAll("[data-copy]").forEach((button) => {
     button.addEventListener("click", async () => {
       await navigator.clipboard.writeText(decodeURIComponent(button.dataset.copy))
+      const label = button.textContent
       button.textContent = "Copied"
-      setTimeout(() => {
-        button.textContent = cell.prompts.find((prompt) => prompt.prompt === decodeURIComponent(button.dataset.copy))?.label ?? "Copy"
-      }, 1200)
+      setTimeout(() => (button.textContent = label), 1200)
     })
   })
+
+  const pairToggle = detail.querySelector("#pair-toggle")
+  pairToggle?.addEventListener("click", () => {
+    state.showPair = !state.showPair
+    render()
+  })
+
+  detail.querySelectorAll("[data-jump-cell]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.selectedId = button.dataset.jumpCell
+      render()
+    })
+  })
+
+  const form = detail.querySelector("#decision-form")
+  form?.addEventListener("submit", async (event) => {
+    event.preventDefault()
+    const data = Object.fromEntries(new FormData(form).entries())
+    data.row_slug = cell.row_slug
+    data.metal = cell.metal
+    data.source_ids = [
+      ...form.querySelectorAll('input[name="source_ids"]:checked'),
+    ].map((input) => input.value)
+    if (data.final_value_ppb === "") delete data.final_value_ppb
+    try {
+      const response = await fetch("/api/decisions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+      if (!response.ok) throw new Error(await response.text())
+      await refresh()
+    } catch (error) {
+      alert(`Failed to stage decision: ${error.message}`)
+    }
+  })
+
+  if (pairCell) {
+    detail.querySelectorAll("[data-pair-recorder]").forEach((button) => {
+      button.addEventListener("click", () => {
+        state.selectedId = button.dataset.pairRecorder
+        state.showPair = false
+        render()
+      })
+    })
+  }
+}
+
+function pairCellFor(cell) {
+  const partnerSlug = cell.comparator_context?.slug
+  if (!partnerSlug) return null
+  return state.context.cells.find(
+    (candidate) =>
+      candidate.row_slug === partnerSlug && candidate.metal === cell.metal,
+  )
+}
+
+function renderPairToggle(pairCell) {
+  return `<div class="pair-toggle-row">
+    <button id="pair-toggle" class="${state.showPair ? "active" : ""}">
+      ${state.showPair ? "Hide" : "Show"} pair view: ${escapeHTML(pairCell.row_title)} (${escapeHTML(pairCell.metal)})
+    </button>
+  </div>`
+}
+
+function renderPairView(cell, pairCell) {
+  return `<section class="pair-view-card">
+    <h3>Pair view: ${escapeHTML(cell.metal)} across ${escapeHTML(cell.row_title)} vs ${escapeHTML(pairCell.row_title)}</h3>
+    <div class="pair-grid">
+      ${renderPairColumn(cell, true)}
+      ${renderPairColumn(pairCell, false)}
+    </div>
+    <div class="pair-separation">
+      ${renderSeparationBlock(cell)}
+    </div>
+  </section>`
+}
+
+function renderPairColumn(cell, isPrimary) {
+  const sourceCount = cell.evidence?.source_count ?? 0
+  const roleClass = cell.within_pair_role?.startsWith("clean")
+    ? "role-clean"
+    : cell.within_pair_role?.startsWith("dirty")
+      ? "role-dirty"
+      : "role-independent"
+  return `<article class="pair-column ${isPrimary ? "primary" : "secondary"} ${roleClass}">
+    <header>
+      <span class="badge ${statusTone[cell.status]}">${escapeHTML(cell.status_label)}</span>
+      <strong>${escapeHTML(cell.row_title)}</strong>
+      ${!isPrimary ? `<button class="pair-jump" data-pair-recorder="${escapeHTML(cell.id)}">Make this the selected cell →</button>` : `<span class="muted">selected</span>`}
+    </header>
+    <p class="pair-role-line"><strong>Per Part 19:</strong> ${escapeHTML(cell.within_pair_role)}</p>
+    <dl>
+      <div><dt>Row standard</dt><dd>${valueOrDash(cell.row_standard.candidate_value, cell.row_standard.unit)} <em>(${escapeHTML(cell.row_standard.label)})</em></dd></div>
+      <div><dt>p10</dt><dd>${valueOrDash(cell.row_percentiles.p10, cell.row_percentiles.unit)}</dd></div>
+      <div><dt>p30</dt><dd>${valueOrDash(cell.row_percentiles.p30, cell.row_percentiles.unit)}</dd></div>
+      <div><dt>p90</dt><dd>${valueOrDash(cell.row_percentiles.p90, cell.row_percentiles.unit)}</dd></div>
+      <div><dt>N (selected source)</dt><dd>${escapeHTML(cell.row_standard.n ?? "—")}</dd></div>
+      <div><dt>Basis</dt><dd>${escapeHTML(cell.row_standard.basis ?? "pending")}</dd></div>
+      <div><dt>Sources</dt><dd>${sourceCount}</dd></div>
+      <div><dt>Reg ceiling</dt><dd>${valueOrDash(cell.regulatory_guardrail?.ceiling_value, cell.regulatory_guardrail?.ceiling_unit)}</dd></div>
+    </dl>
+  </article>`
+}
+
+function renderSeparationBlock(cell) {
+  const sP10 = cell.dirty_context?.separation_p10 ?? cell.comparator_context?.separation
+  const sP30 = cell.dirty_context?.separation_p30 ?? cell.comparator_context?.separation_p30
+  return `<div class="separation-block">
+    <div><strong>Clean p90 vs dirty p10</strong>${renderSeparationLine(sP10)}</div>
+    <div><strong>Clean p90 vs dirty p30 (Part 19)</strong>${renderSeparationLine(sP30)}</div>
+  </div>`
+}
+
+function renderSeparationLine(sep) {
+  if (!sep) return `<p class="muted">Not computable from current evidence.</p>`
+  const tone = sep.separated ? "good-text" : "warn-text"
+  return `<p class="${tone}">Margin: ${formatNumber(sep.margin)} ppb · Ratio: ${sep.ratio ?? "n/a"} · ${sep.separated ? "Separated (dirty > clean)" : "Not separated (within-pair distributions overlap)"}</p>`
+}
+
+function renderRowOverviewCard(cell) {
+  const rowCells = state.context.cells.filter(
+    (candidate) => candidate.row_slug === cell.row_slug,
+  )
+  const byMetal = new Map(rowCells.map((entry) => [entry.metal, entry]))
+  const rows = HMTC_TEN_ANALYTES.map((metal) => {
+    const cellForMetal = byMetal.get(metal)
+    if (!cellForMetal) {
+      return `<tr class="muted">
+        <td>${escapeHTML(metal)}</td>
+        <td colspan="5">Not in <code>primary_metals_of_concern</code> for this row.</td>
+      </tr>`
+    }
+    const isSelected = cellForMetal.id === cell.id ? "active" : ""
+    const candidate = valueOrDash(
+      cellForMetal.row_standard.candidate_value,
+      cellForMetal.row_standard.unit,
+    )
+    const p30 = valueOrDash(
+      cellForMetal.row_percentiles.p30,
+      cellForMetal.row_percentiles.unit,
+    )
+    const ceiling = cellForMetal.regulatory_guardrail?.ceiling_value
+    const ceilingCell =
+      ceiling !== null && ceiling !== undefined
+        ? `${formatNumber(ceiling)} ${cellForMetal.regulatory_guardrail.ceiling_unit || "ppb"}`
+        : cellForMetal.readiness?.lowest_regulatory_cap_ppb !== null &&
+            cellForMetal.readiness?.lowest_regulatory_cap_ppb !== undefined
+          ? `${formatNumber(cellForMetal.readiness.lowest_regulatory_cap_ppb)} ppb*`
+          : "—"
+    return `<tr class="${isSelected}" data-jump-cell="${escapeHTML(cellForMetal.id)}">
+      <td><strong>${escapeHTML(metal)}</strong></td>
+      <td><span class="badge ${statusTone[cellForMetal.status]} micro">${escapeHTML(cellForMetal.status_label)}</span></td>
+      <td>${candidate} <span class="muted">(${escapeHTML(cellForMetal.row_standard.statistic ?? "—")})</span></td>
+      <td>${p30}</td>
+      <td>${ceilingCell}</td>
+      <td>${cellForMetal.readiness?.n_a_tier ?? "—"}</td>
+    </tr>`
+  }).join("")
+  const otherMetals = rowCells
+    .filter((entry) => !HMTC_TEN_ANALYTES.includes(entry.metal))
+    .map((entry) => entry.metal)
+  const otherNote = otherMetals.length
+    ? `<p class="muted">Row also carries non-HMTc-10 analytes: ${otherMetals.map(escapeHTML).join(", ")}.</p>`
+    : ""
+
+  return `<section class="row-overview-card">
+    <h3>Row overview — ${escapeHTML(cell.row_title)}</h3>
+    <p class="muted">All ten HMTc analytes for this row. Click a row to make it the selected cell. * = ceiling drawn from gap-report fallback, not regulation page.</p>
+    <table class="row-overview-table">
+      <thead>
+        <tr>
+          <th>Metal</th>
+          <th>Status</th>
+          <th>Row standard</th>
+          <th>Dirty p30</th>
+          <th>Reg ceiling</th>
+          <th>n A-tier</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+    ${otherNote}
+  </section>`
+}
+
+function renderReadiness(readiness) {
+  if (!readiness || readiness.status === "no_gap_report") {
+    return `<p class="muted">No gap-report row for this cell. (Probably outside the Category 1 pilot.)</p>`
+  }
+  const items = [
+    ["Aggregate verdict", readiness.aggregate_status],
+    ["Workbench label", readiness.label],
+    ["A-tier source count", readiness.n_a_tier],
+    ["Distribution-capable sources", readiness.distribution_capable_source_count],
+    ["Summary/range sources", readiness.summary_or_range_source_count],
+    ["Lowest reg cap", readiness.lowest_regulatory_cap_ppb ? `${formatNumber(readiness.lowest_regulatory_cap_ppb)} ppb` : null],
+    ["Reg cap source", readiness.lowest_regulatory_cap_source],
+    ["Standard target", readiness.hmtc_standard_percentile_target],
+    ["Action priority", readiness.action_priority],
+    ["Action type", readiness.action_type],
+  ].filter(([, value]) => value !== null && value !== undefined && value !== "")
+  return `<dl>${items
+    .map(
+      ([label, value]) =>
+        `<div><dt>${escapeHTML(label)}</dt><dd>${escapeHTML(String(value))}</dd></div>`,
+    )
+    .join("")}</dl>
+  ${readiness.evidence_needed ? `<p><strong>Evidence needed:</strong> ${escapeHTML(readiness.evidence_needed)}</p>` : ""}
+  ${readiness.next_step ? `<p><strong>Next step:</strong> ${escapeHTML(readiness.next_step)}</p>` : ""}
+  ${readiness.suggested_command ? `<div class="suggested-command"><code>${escapeHTML(readiness.suggested_command)}</code><button data-copy="${encodeURIComponent(readiness.suggested_command)}">Copy</button></div>` : ""}
+  ${readiness.guardrails ? `<p class="guardrails"><strong>Guardrails:</strong> ${escapeHTML(readiness.guardrails)}</p>` : ""}
+  ${readiness.papers_to_find ? `<p><strong>Papers to find:</strong> ${escapeHTML(readiness.papers_to_find)}</p>` : ""}
+  ${readiness.local_papers_to_extract ? `<p><strong>Local PDFs awaiting extract:</strong> ${escapeHTML(readiness.local_papers_to_extract)}</p>` : ""}
+  ${readiness.candidate_pdf_matches_to_review ? `<p><strong>Candidate PDFs to review:</strong> ${escapeHTML(readiness.candidate_pdf_matches_to_review)}</p>` : ""}`
+}
+
+function renderStagedDecision(cell) {
+  const staged = cell.staged_decision
+  if (!staged) return `<p class="muted">No staged decision for this cell yet.</p>`
+  return `<div class="staged-block">
+    <strong>Staged: ${escapeHTML(staged.action)} · ${escapeHTML(staged.actor ?? "")}</strong>
+    <p>${escapeHTML(staged.final_value_ppb !== null && staged.final_value_ppb !== undefined ? `${formatNumber(staged.final_value_ppb)} ppb` : "no value")} · ${escapeHTML(staged.rationale_tag ?? "no rationale")} · ${escapeHTML(staged.basis ?? "no basis")}</p>
+    <p class="muted">${escapeHTML(staged.note || "no note")}</p>
+    <p class="muted">recorded ${escapeHTML(new Date(staged.recorded_at).toLocaleString())} · ${cell.staged_decision_count} total staged entries for this cell</p>
+  </div>`
 }
 
 function renderFinalized(cell) {
@@ -360,11 +887,7 @@ function renderFinalized(cell) {
     <p>${escapeHTML(cell.finalized.notes || "No final decision note recorded.")}</p>`
   }
 
-  return `<p>No finalized value is recorded for this row-metal cell yet.</p>
-    <dl>
-      <div><dt>Register label</dt><dd>${escapeHTML(cell.register?.public_label ?? "not registered")}</dd></div>
-      <div><dt>Register state</dt><dd>${escapeHTML(cell.register?.review_state ?? "not registered")}</dd></div>
-    </dl>`
+  return `<p class="muted">No canonical-finalized value yet. Register state: ${escapeHTML(cell.register?.review_state ?? "not registered")}.</p>`
 }
 
 function renderComparator(comparator) {
@@ -372,17 +895,35 @@ function renderComparator(comparator) {
     return `<p class="note">${escapeHTML(comparator?.note ?? "No paired comparator is defined.")}</p>`
   }
 
+  const valueBlock =
+    comparator.statistic === "p10 / p30"
+      ? `<div><dt>Dirty p10</dt><dd>${valueOrDash(comparator.p10, comparator.unit)}</dd></div>
+         <div><dt>Dirty p30 (Part 19)</dt><dd>${valueOrDash(comparator.p30, comparator.unit)}${comparator.p30_source ? ` <em class="muted">(${escapeHTML(comparator.p30_source)})</em>` : ""}</dd></div>`
+      : `<div><dt>${escapeHTML(comparator.label)}</dt><dd>${valueOrDash(comparator.value, comparator.unit)}</dd></div>`
+
   return `<dl>
-    <div><dt>${escapeHTML(comparator.label)}</dt><dd>${valueOrDash(comparator.value, comparator.unit)}</dd></div>
+    ${valueBlock}
     <div><dt>Paired row</dt><dd>${escapeHTML(comparator.row_title)}</dd></div>
     <div><dt>Basis</dt><dd>${escapeHTML(comparator.basis ?? "pending")}</dd></div>
   </dl>
   <p>${escapeHTML(comparator.note)}</p>
-  ${renderSeparation(comparator.separation)}`
+  ${renderSeparation("Clean p90 vs dirty p10", comparator.separation)}
+  ${renderSeparation("Clean p90 vs dirty p30 (Part 19)", comparator.separation_p30)}`
 }
 
-function renderRegulatoryGuardrail(guardrail) {
+function renderSeparation(label, separation) {
+  if (!separation) return `<p class="muted">${escapeHTML(label)}: not computable.</p>`
+  const tone = separation.separated ? "good-text" : "warn-text"
+  return `<p class="${tone}"><strong>${escapeHTML(label)}:</strong> margin ${formatNumber(separation.margin)} ppb · ratio ${separation.ratio ?? "n/a"}.</p>`
+}
+
+function renderRegulatoryGuardrail(guardrail, readiness) {
   if (!guardrail) return `<p class="note">No regulatory guardrail has been generated yet.</p>`
+
+  const readinessCapNote =
+    guardrail.ceiling_value === null && readiness?.lowest_regulatory_cap_ppb
+      ? `<p class="muted"><strong>From gap report:</strong> lowest applicable cap = ${formatNumber(readiness.lowest_regulatory_cap_ppb)} ppb (${escapeHTML(readiness.lowest_regulatory_cap_source ?? "source not recorded")}). Promote this to a regulation page and link it on the product to clear the guardrail.</p>`
+      : ""
 
   return `<dl>
     <div><dt>Status</dt><dd>${escapeHTML(guardrail.status_label)}</dd></div>
@@ -391,6 +932,7 @@ function renderRegulatoryGuardrail(guardrail) {
     <div><dt>Rule basis</dt><dd>${escapeHTML(guardrail.ceiling_basis ?? "not linked")}</dd></div>
   </dl>
   <p>${escapeHTML(guardrail.note)}</p>
+  ${readinessCapNote}
   ${renderRegulationLinks("Applicable limits", guardrail.limits)}
   ${renderRegulatoryExclusions(guardrail.excluded_tracks)}
   ${renderRegulatoryPrompts(guardrail.review_prompts)}`
@@ -398,7 +940,6 @@ function renderRegulatoryGuardrail(guardrail) {
 
 function renderRegulationLinks(label, regulations) {
   if (!Array.isArray(regulations) || regulations.length === 0) return ""
-
   return `<div class="regulation-list">
     <strong>${escapeHTML(label)}</strong>
     ${regulations
@@ -414,7 +955,6 @@ function renderRegulationLinks(label, regulations) {
 
 function renderRegulatoryExclusions(exclusions) {
   if (!Array.isArray(exclusions) || exclusions.length === 0) return ""
-
   return `<div class="regulation-list">
     <strong>Scope exclusions</strong>
     ${exclusions
@@ -430,13 +970,11 @@ function renderRegulatoryExclusions(exclusions) {
 
 function renderRegulatoryPrompts(prompts) {
   if (!Array.isArray(prompts) || prompts.length === 0) return ""
-
   return `<ul class="regulatory-prompts">${prompts.map((prompt) => `<li>${escapeHTML(prompt)}</li>`).join("")}</ul>`
 }
 
 function renderDifferenceNotes(notes) {
   if (!Array.isArray(notes) || notes.length === 0) return `<p class="note">No comparability notes generated yet.</p>`
-
   return `<div class="difference-list">
     ${notes
       .map(
@@ -449,10 +987,103 @@ function renderDifferenceNotes(notes) {
   </div>`
 }
 
-function renderSeparation(separation) {
-  if (!separation) return `<p class="note">No clean p90 / dirty p10 separation calculation yet.</p>`
-  const tone = separation.separated ? "good-text" : "warn-text"
-  return `<p class="${tone}">Separation margin: ${formatNumber(separation.margin)} ppb; ratio: ${separation.ratio ?? "n/a"}.</p>`
+function renderDecisionForm(cell) {
+  const rationales = state.context.rationale_tags ?? []
+  const actions = state.context.decision_actions ?? []
+  const sources = cell.evidence.source_rows ?? []
+  return `<form id="decision-form" class="decision-form">
+    <div class="form-row">
+      <label>
+        Action
+        <select name="action" required>
+          <option value="">— choose —</option>
+          ${actions
+            .map(
+              (action) =>
+                `<option value="${escapeHTML(action)}">${escapeHTML(action)}</option>`,
+            )
+            .join("")}
+        </select>
+      </label>
+      <label>
+        Rationale tag
+        <select name="rationale_tag">
+          <option value="">(none / literature-baseline)</option>
+          ${rationales
+            .map(
+              (tag) =>
+                `<option value="${escapeHTML(tag)}">${escapeHTML(tag)}</option>`,
+            )
+            .join("")}
+        </select>
+      </label>
+    </div>
+    <div class="form-row">
+      <label>
+        Final value (ppb)
+        <input type="number" name="final_value_ppb" step="0.0001" placeholder="e.g. 0.4" />
+      </label>
+      <label>
+        Basis
+        <input type="text" name="basis" placeholder="prepared_for_feeding / as_sold / as_consumed" />
+      </label>
+    </div>
+    <label>
+      Note
+      <textarea name="note" rows="2" placeholder="What rationale would you want to read in 18 months when this decision is challenged?"></textarea>
+    </label>
+    <fieldset class="source-checkboxes">
+      <legend>Attach source IDs</legend>
+      ${
+        sources.length
+          ? sources
+              .map(
+                (source) => `<label class="source-checkbox">
+            <input type="checkbox" name="source_ids" value="${escapeHTML(source.source_id)}" />
+            ${escapeHTML(source.source_id)} · N=${source.n ?? "n/a"} · ${escapeHTML(source.evidence_fitness ?? "")}
+          </label>`,
+              )
+              .join("")
+          : "<p class=\"muted\">No source rows linked to this cell.</p>"
+      }
+    </fieldset>
+    <div class="form-actions">
+      <button type="submit">Stage decision</button>
+      <span class="muted">Decision is appended to staging JSONL; canonical CSV is untouched.</span>
+    </div>
+  </form>`
+}
+
+function openAdjudicationDialog(finding) {
+  const note = window.prompt(
+    `Adjudication note for: ${finding.title}\n\nStatus options: adjudicated, dismissed, escalated, resolved.\n\nWhat are you doing about this finding, and why?`,
+    "",
+  )
+  if (note === null) return
+  const status = window.prompt(
+    "Status (adjudicated / dismissed / escalated / resolved):",
+    "adjudicated",
+  )
+  if (status === null) return
+
+  fetch("/api/adjudications", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      finding_id: finding.id,
+      status: status.trim(),
+      note: note.trim(),
+      cell_id: finding.cell_id,
+      severity: finding.severity,
+      category: finding.category,
+      title: finding.title,
+    }),
+  })
+    .then(async (response) => {
+      if (!response.ok) throw new Error(await response.text())
+      await refresh()
+    })
+    .catch((error) => alert(`Failed to adjudicate: ${error.message}`))
 }
 
 function renderMatrixValue(label, value, unit) {
