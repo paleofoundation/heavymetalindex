@@ -957,4 +957,34 @@ function parseArgs(argv) {
   return map
 }
 
-main()
+// Export internals for testing. The functions below are pure (modulo the
+// seeded RNG) and reproducible.
+export {
+  SeededRng,
+  pool,
+  reconstructPseudoSamples,
+  lognormalFromMeanCV,
+  convertBasis,
+  percentile,
+  interpolatePercentile,
+  generateFromPercentileVector,
+  bootstrapCI_sourceLevel,
+  sensitivity,
+  rationaleTag,
+  targetForProduct,
+  deriveNativeBasis,
+  assertSamplesReplacedSummary,
+  assertPoolShareCap,
+  downsampleUniform,
+  MAX_SOURCE_SHARE,
+  BASIS_RECONSTITUTION_FACTOR,
+  CLEAN_TARGET_P,
+  DIRTY_TARGET_P,
+  DEFAULT_CV_FOR_MEAN_ONLY,
+}
+
+// Only run main() when this file is invoked directly, not when imported by
+// the test runner.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main()
+}
