@@ -11,19 +11,19 @@ tds_food:
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [1.1, 12.3]
+    p95_ppb: 13.1
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [9.3, 10.8]
+    p95_ppb: 10.9
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -32,26 +32,26 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   tAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [3.0, 3.4]
+    p95_ppb: 3.5
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [2.8, 3.9]
+    p95_ppb: 4.1
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [146, 178]
+    p95_ppb: 179
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -60,12 +60,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [200, 200]
+    p95_ppb: 200
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -74,18 +74,18 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   U:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [2.2, 2.6]
+    p95_ppb: 2.6
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 1
 ---
 

@@ -7,81 +7,81 @@ aliases: [fish finger]
 category: seafood-composite
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 3.4]
+    p95_ppb: 3.8
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [11.2, 12.8]
+    p95_ppb: 12.9
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-13
   iAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 2.5
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   tAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [682, 810]
+    p95_ppb: 810
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [5.7, 9.0]
+    p95_ppb: 9.4
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [93.2, 134]
+    p95_ppb: 137
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Al:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 1752]
+    p95_ppb: 2617
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [200, 360]
+    p95_ppb: 380
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Sn:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 30.8]
+    p95_ppb: 36.6
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   U:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0.2, 1.5]
+    p95_ppb: 1.6
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 2
 ---
 
