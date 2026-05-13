@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 54, "Corn, frozen, boiled." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Maize (corn) accumulates cadmium through root uptake from soil, a mechanism that is modulated by soil pH, organic matter content, and the competing presence of zinc. In acidic soils or soils with elevated cadmium from phosphate fertilizer application, maize grain can carry detectable cadmium, though whole-grain corn is generally a lower Cd accumulator than leafy vegetables or root vegetables because the grain is a reproductive structure with some buffering against cadmium translocation from vegetative tissue. [[sources/romero-crespo2023-ecuador-mining-crops-metals]] documented substantially elevated cadmium, chromium, lead, and arsenic in maize grain grown near mining operations in Ecuador, where soil-to-plant transfer is driven by contaminated parent rock and tailings rather than agricultural inputs alone.
+
+Arsenic in corn is typically low: the FDA TDS FY2018-FY2020 data shows tAs at or near zero across all 27 composite samples for frozen boiled corn [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the broader literature showing that corn does not concentrate arsenic the way flooded-paddy rice does. Nickel shows episodic elevation in the TDS corn data, with a p90 of 54.4 ppb and a maximum of 160 ppb, indicating that some market-basket composites captured nickel from soil or processing sources at levels notably higher than typical. Lead and mercury are essentially non-detectable in the TDS corn dataset.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +146,52 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 market-basket survey of frozen boiled corn (n=27) shows Cd at a median of 2.6 ppb and a maximum of 4.8 ppb, with Pb and tAs at zero across all samples [[sources/fda2022-tds-elements-fy2018-fy2020]]. This represents the commercial US market baseline for a composite of diverse origin corn. By contrast, [[sources/romero-crespo2023-ecuador-mining-crops-metals]] measured substantially higher metal concentrations in maize grain from agricultural plots adjacent to mining operations in Ecuador, where contamination from ore processing and tailings runoff is the dominant input. This contrast between market-basket and mining-area concentrations reflects the origin dependence that is critical to understanding corn's metal risk profile: under normal US or EU agricultural conditions the risk is low, but sourcing from mining-adjacent or industrially contaminated regions can elevate cadmium, lead, arsenic, chromium, and nickel well above market-basket levels.
+
+Corn variety also influences metal accumulation, though varietal differences are less studied than origin effects. Field corn versus sweet corn versus popcorn varieties have different grain morphologies and growing conditions, and these differences can translate into different metal concentrations per unit of edible tissue. No cross-varietal comparison is yet integrated into this corpus.
+
+## Processing effects
+
+Milling removes the bran and germ fractions of the corn kernel, concentrating the starchy endosperm in refined products (corn flour, masa, starch) and leaving the metal-concentrated outer layers behind. Cadmium in corn grain, like in wheat, tends to partition into the bran and germ rather than the endosperm, so degermination and milling reduce Cd in refined corn products relative to whole-grain corn. Wet milling for corn starch and corn syrup production removes essentially all mineral content, including trace metals, so these highly refined corn derivatives carry negligible metals.
+
+Boiling corn does not meaningfully reduce metal concentrations in the grain, since most metal is structurally bound within the kernel's cell walls and is not water-extractable. The TDS data for frozen boiled corn therefore reflects an as-consumed metal burden that is substantially similar to the raw grain's metal content adjusted for moisture change.
+
+## Ingredient-derivative risk
+
+Corn is processed into a wide range of derivative ingredients with different metal profiles. Whole-grain corn flour and masa harina retain the bran fraction and carry the highest cadmium and mineral content of any corn-derived product. Degerminated corn meal removes the germ and has lower cadmium than whole-grain flour. Corn starch and corn syrup are highly refined and carry negligible metals. Corn oil, extracted from the germ fraction, concentrates any lipid-soluble contaminants present in the germ, though heavy metals are largely hydrophilic and do not preferentially partition into oil; corn oil is therefore a low-risk derivative for the analytes tracked in this wiki. Popcorn, which retains the pericarp and germ, carries a metal burden more similar to whole-grain corn than to degerminated products.
+
+## Mitigation options
+
+### Sourcing levers
+
+Origin selection is the dominant mitigation lever for corn. Avoiding procurement from mining-adjacent regions or areas with documented soil cadmium elevation (for example, from legacy phosphate fertilizer overuse or industrial contamination) is the most effective strategy. [[sources/romero-crespo2023-ecuador-mining-crops-metals]] illustrates the magnitude of the origin effect: mining-area maize carried metals far exceeding the levels in US commercial market-basket corn [[sources/fda2022-tds-elements-fy2018-fy2020]]. Supplier specification requiring origin documentation and soil-cadmium pre-screening is the procurement-side implementation of this lever.
+
+### Agronomic levers
+
+Soil pH management reduces cadmium bioavailability; liming acidic soils to raise pH above 6.5 reduces cadmium uptake by corn. Zinc application competes with cadmium at the same root transporter, potentially reducing cadmium uptake, though excess zinc application carries its own environmental costs. These levers are most relevant for farmers supplying to buyers with contractual metal specifications.
+
+### Processing levers
+
+Degermination and milling to remove bran and germ reduces cadmium in refined corn products. For whole-grain corn products, this lever is not applicable by definition. Washing or blanching corn prior to processing has minimal effect on grain-incorporated metals but may reduce surface-deposited particulate contamination.
+
+### Formulation levers
+
+For food manufacturers concerned about cadmium or nickel, substituting degerminated corn products for whole-grain corn in formulations will reduce the metal burden per serving without eliminating corn as an ingredient.
+
+### Testing and QC levers
+
+Given that nickel in the TDS corn dataset reaches 160 ppb maximum across 27 samples [[sources/fda2022-tds-elements-fy2018-fy2020]], lot-level nickel testing is warranted for brands with high-corn-content products sold to sensitive populations. Cadmium testing at the incoming ingredient level is appropriate for any product using whole-grain corn from origins with uncertain soil histories.
+
+### Packaging and storage levers
+
+_No quantified data on packaging or storage effects on heavy metal content in corn is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The European Union under [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for cadmium in cereals (including corn) of 0.10 mg/kg (100 ppb) wet weight. For lead in cereals, the EU limit is 0.20 mg/kg (200 ppb). Codex Alimentarius (CXS 193-1995 and revisions) sets a maximum level of 0.10 mg/kg for cadmium in grain crops including maize and 0.20 mg/kg for lead. The US TDS market-basket Cd maximum of 4.8 ppb and Pb at zero are well below these regulatory limits for the sampled commercial products. No US federal maximum level for cadmium or lead in corn grain has been finalized for the general food supply as of 2026.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

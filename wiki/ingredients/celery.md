@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 114, "Celery, raw." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Celery is a high-water-content stalk vegetable that draws metals into its petioles primarily through root uptake from soil and irrigation water. The plant's physiology, which relies on high transpiration rates to move water and dissolved solutes upward through its hollow stalks, also transports cadmium, nickel, and other divalent cations that enter the root zone from soil or irrigation sources. Cadmium is the metal of primary concern in celery; the FDA Total Diet Study FY2018-FY2020 reports a median Cd concentration of 32 ppb wet weight (n=27), with a 90th-percentile value of 59.4 ppb and a maximum of 100 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. The Codex Alimentarius maximum level for cadmium in celery is 0.1 mg/kg fresh weight [[sources/codex-cxs-193-1995]], substantially higher than limits for most other vegetables, reflecting empirical recognition that celery accumulates cadmium at higher rates than lower-accumulating crops such as root vegetables or legumes. The stalk includes both the petiole (lower metal accumulation) and attached leaves (higher Pb and Cd per unit mass due to smaller cross-sectional area and higher surface-to-volume ratio); survey values reported for whole celery or unspecified plant parts reflect the combined tissue profile.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,50 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA Total Diet Study FY2018-FY2020 is the primary quantitative reference for celery in the US market, reporting cadmium with a median of 32 ppb, 90th percentile of 59.4 ppb, and maximum of 100 ppb across 27 composite samples (wet weight, as consumed raw) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Nickel was detected at the 90th percentile (59.8 ppb) but was below the reporting limit at the median, indicating right-skewed distribution. Total arsenic was detectable at the 90th percentile (3.62 ppb) and at a maximum of 9 ppb; lead and mercury were below reporting limits in all samples [[sources/fda2022-tds-elements-fy2018-fy2020]]. Celery cadmium is known to vary substantially with soil origin: irrigated production in arid regions using groundwater with elevated dissolved cadmium, and production on soils with elevated natural cadmium background or historical phosphate-fertiliser use, tends to produce higher concentrations. The Codex limit for celery cadmium (0.1 mg/kg, [[sources/codex-cxs-193-1995]]) is double the limit for most other fresh vegetables, which itself reflects empirical evidence that celery occupies a higher position in the cadmium accumulation spectrum than standard vegetable crops. Geographic and varietal breakdown for celery is not currently available in this corpus beyond the US TDS aggregate.
+
+## Processing effects
+
+The FDA TDS reports celery as "Celery, raw," meaning no cooking was applied before analysis; concentrations represent the as-consumed raw product [[sources/fda2022-tds-elements-fy2018-fy2020]]. Washing whole celery stalks before cutting removes surface soil and some atmospheric particulate lead from the exterior, but does not reduce internalized cadmium. If celery is blanched or boiled (for soups and cooked preparations), cadmium leaches partially into the cooking water; the magnitude is not quantified for celery specifically in the current corpus. Celery leaves, when consumed, carry higher concentrations of cadmium and potentially lead per unit mass than the stalk tissue, owing to the higher surface-to-volume ratio and more direct atmospheric deposition pathway. Processing into celery juice concentrates or extracts may concentrate metals on a fresh-weight-equivalent basis if the juice is subsequently reduced; this derivative pathway is not characterised in the current corpus.
+
+## Ingredient-derivative risk
+
+Fresh celery stalks represent the baseline exposure. Celery is used as a flavouring ingredient in broths, soups, and prepared dishes, where it is cooked and partially leaches metals into the liquid phase. Celery seed and celery seed extract are concentrated derivatives: drying concentrates cadmium substantially relative to fresh-weight values, and celery seed is used in seasoning blends, dietary supplements, and flavour formulations where per-serving exposures may be meaningful. Celery salt (ground celery seed mixed with salt) similarly carries concentrated cadmium. These derived forms are not individually characterised in the current corpus; users should treat celery seed and extract as potentially carrying cadmium at levels substantially above fresh stalk on a dry-weight basis.
+
+## Mitigation options
+
+### Sourcing levers
+
+Selecting celery from growing regions with documented low soil cadmium background is the highest-impact lever. Key high-volume growing regions (central California in the US) have variable soil cadmium depending on field history and irrigation source. Supplier specification requiring compliance with the Codex maximum of 0.1 mg/kg Cd ([[sources/codex-cxs-193-1995]]) or the EU general vegetable limit of 0.050 mg/kg ([[regulations/eu-2023-915-cadmium]]) is appropriate for ingredient buyers seeking lower-cadmium product. The EU limit for celery specifically (where celery is categorised as a stalk/stem vegetable subject to the general vegetable limit) is more restrictive than Codex.
+
+### Agronomic levers
+
+Soil pH management is the primary agronomic lever; maintaining pH above 6.5 reduces cadmium bioavailability in the root zone. Avoiding phosphate fertilisers with elevated cadmium impurity reduces the ongoing cadmium load added to soil. Irrigation water quality is relevant in arid production regions where groundwater may carry dissolved cadmium; surface water irrigation generally carries lower dissolved cadmium.
+
+_No quantified data on cultivar selection for celery cadmium in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Discarding outer leaves and removing leaf tips before sale or use reduces per-serving cadmium if leaves are a significant fraction of the consumed weight. Blanching and discarding the blanch water removes some cadmium. Washing in clean water reduces surface contamination.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+For manufacturers using celery seed or celery extract in concentrated forms, lot-level ICP-MS testing for cadmium is appropriate given the concentration effect. Fresh stalk celery at typical consumption volumes (Cd median 32 ppb, 90th-percentile 59.4 ppb) sits well below the Codex 0.1 mg/kg limit; routine lot testing is lower priority for fresh whole stalk applications unless sourcing from regions with documented elevated soil cadmium.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The Codex Alimentarius general standard CXS 193-1995 ([[regulations/codex-cadmium-mls]]) sets a cadmium maximum level of 0.1 mg/kg fresh weight specifically for celery (Apium graveolens), which is notably higher than the 0.050 mg/kg limit applied to most other fresh vegetables and reflects celery's status as a known cadmium accumulator [[sources/codex-cxs-193-1995]]. The EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) applies the general vegetable cadmium maximum of 0.050 mg/kg fresh weight to celery, and the general Pb maximum of 0.10 mg/kg fresh weight. No specific US FDA action level applies to lead or cadmium in fresh celery; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods rather than fresh vegetables. The FDA TDS median Cd (32 ppb) is 32% of the Codex celery-specific limit and 64% of the EU general vegetable limit, indicating that typical US market celery sits within regulatory bounds on average while individual samples at the 90th percentile (59.4 ppb) approach the EU threshold.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

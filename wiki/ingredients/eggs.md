@@ -89,6 +89,14 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Eggs are a low-to-negligible heavy metal risk food under normal commercial production conditions. The mechanism by which metals enter eggs is dietary transfer from the laying hen's feed: cadmium, lead, arsenic, and other metals ingested by the hen distribute between excretion, tissue accumulation (liver and kidney are the primary accumulation organs), and limited transfer to the egg. Transfer rates from feed to egg for cadmium and lead are very low, typically below 1% on a weight basis, which means that even hens consuming moderately contaminated feed produce eggs with very low metal concentrations. Mercury follows a somewhat different pathway and accumulates in hen tissues more readily at high exposure, but under commercial feed conditions mercury exposure is minimal.
+
+The FDA TDS FY2018-FY2020 data for hard-boiled eggs (n=27 composites, TDS Food 37) reports all seven measured analytes at zero across all 27 samples [[sources/fda2022-tds-elements-fy2018-fy2020]], which is the most unambiguous low-risk signal in the TDS dataset for any commodity in this wiki batch. This result is consistent with the expectation for eggs from commercial laying hens on formulated feeds under normal production conditions in the US market basket.
+
+The exception to this low-risk characterization is environmental contamination at extreme levels. [[sources/aendo2024-thailand-egg-metals-goldmine]] documented elevated Pb, Cd, and other metals in eggs from poultry farms near an active gold mine in northern Thailand, demonstrating that when hens are exposed to highly contaminated feed or free-range environments adjacent to industrial contamination sources, metals transfer to the egg at detectable and toxicologically relevant concentrations. This exception underscores that the low-risk characterization applies to commercial production systems with controlled feed, not to backyard or free-range production in contaminated environments.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +144,56 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 hard-boiled egg dataset (n=27 composites) shows all analytes at zero [[sources/fda2022-tds-elements-fy2018-fy2020]], representing the US commercial market basket under standard production conditions. This is the baseline: eggs from hens on commercial formulated feed in managed production systems in a low-metal-contamination agricultural region.
+
+[[sources/aendo2024-thailand-egg-metals-goldmine]] provides the contrasting data point: eggs from poultry farms adjacent to a gold mine in northern Thailand showed elevated concentrations of Pb, Cd, and other metals in egg tissue, with concentrations in yolk substantially higher than in egg white for most metals studied. This source documents that free-range or backyard hens with soil contact in contaminated environments can produce eggs with toxicologically relevant metal concentrations, particularly for populations with high egg consumption frequency.
+
+The FSA/Fera FS102048 survey provides an additional data point for UK-market eggs awaiting structured table parsing [[sources/fsa2016-infant-food-formula-metals-survey]]. The iAs and tAs data point attributed to arsenic exposure assessment in Chongqing, China [[sources/dai2024-chongqing-dietary-arsenic-exposure]] contributes arsenic occurrence context for eggs in the Chinese dietary assessment literature, pending full structured integration.
+
+## Processing effects
+
+Cooking method affects the distribution of metals within the egg but does not reduce overall metal concentrations. Hard boiling, scrambling, frying, and poaching all retain the metal content of the whole egg or the specific fraction used (white only, yolk only). The egg yolk carries higher concentrations of fat-soluble compounds and metal-binding proteins than the egg white; for metals such as Cd and Pb that bind to metalloproteins (metallothionein in particular), the yolk fraction carries a higher per-gram metal burden than the white fraction under conditions of elevated exposure. Under near-zero metal conditions (as in the US TDS dataset), this partitioning is moot.
+
+Hard-boiling does not leach meaningful amounts of Cd or Pb into the cooking water, since metals in egg tissue are protein-bound rather than free in solution. Egg processing steps such as pasteurization also do not affect metal concentrations.
+
+## Ingredient-derivative risk
+
+Eggs are used as ingredients in a wide range of processed foods, contributing binding, emulsification, and leavening functions. The metal contribution of the egg fraction to a composite product (cake, pasta, mayonnaise, custard) is proportional to its weight fraction multiplied by its metal concentration. Under normal commercial production conditions where TDS egg data shows zero for all analytes [[sources/fda2022-tds-elements-fy2018-fy2020]], the egg fraction's metal contribution to composite foods is effectively zero and is not a meaningful source of heavy metal exposure in those products.
+
+Processed egg derivatives including dried whole egg powder, dried egg white, and dried egg yolk concentrate the protein and mineral content of the fresh egg by removing water. On a dry-weight basis, any metals present in the fresh egg would be concentrated proportionally in the dried form. Under normal commercial egg sourcing where fresh egg metals are near zero, this concentration effect is of no practical consequence.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing eggs from commercial laying flocks on formulated, low-metal feed is the primary mitigation lever. Commercial egg production with centralized feed formulation and quality control inherently limits the pathway for metals to enter eggs. Avoiding eggs from free-range or backyard flocks in regions with known soil contamination from mining, smelting, or industrial land use is the relevant risk mitigation for populations or procurement scenarios where such eggs might be used.
+
+### Agronomic levers
+
+_No egg-specific agronomic lever applies in the traditional sense. Feed quality control at the laying hen farm (using low-Cd, low-Pb feed ingredients) is the practical equivalent of an agronomic lever for this animal product._
+
+### Processing levers
+
+No processing step reduces heavy metals in eggs at the concentrations present in commercially produced eggs under normal conditions. If eggs from a contaminated-environment source were identified, no practical post-hoc processing intervention removes the metal from egg tissue.
+
+### Formulation levers
+
+For food products using eggs as an ingredient in contexts where maximum metal control is a priority (for example, infant or toddler foods), specifying commercially produced eggs from certified low-contamination production systems is the formulation-level implementation of the sourcing lever. Substitution of egg with plant-based egg alternatives eliminates the egg-origin metal pathway but introduces different metal risk profiles from the substitute ingredient.
+
+### Testing and QC levers
+
+Under normal commercial sourcing conditions, heavy metal testing of eggs is low priority. Testing is warranted when eggs are sourced from non-standard production systems (backyard, free-range in contaminated areas) or when procurement includes imports from regions where poultry environmental contamination has been documented. [[sources/aendo2024-thailand-egg-metals-goldmine]] provides the scientific basis for requiring testing in mining-adjacent production contexts.
+
+### Packaging and storage levers
+
+_No quantified data on packaging or storage effects on heavy metal content in eggs is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for lead in eggs is 0.10 mg/kg (100 ppb) on a fresh weight basis, and for cadmium in eggs it is 0.050 mg/kg (50 ppb) fresh weight. These limits reflect the historical possibility of elevated metals in eggs from free-range hens on contaminated land, rather than a risk specific to commercial production. The US TDS all-zero result for hard-boiled eggs [[sources/fda2022-tds-elements-fy2018-fy2020]] is consistent with the EU limits being non-binding in practice for commercially produced US market eggs. No US federal maximum level for lead or cadmium in eggs has been finalized as of 2026. Codex Alimentarius (CXS 193-1995 and revisions) sets a general lead limit of 0.10 mg/kg for eggs, consistent with the EU limit.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

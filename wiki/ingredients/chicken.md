@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Chicken muscle meat is generally a low accumulator of heavy metals relative to plant foods and organ meats. The primary contamination pathway for muscle is dietary transfer: metals ingested through feed accumulate predominantly in liver and kidney, with muscle tissue retaining only a small fraction. Cadmium and lead in commercial poultry muscle are consistently low in global surveillance data. The notable exception for US broiler chicken is arsenic, which was historically elevated due to the veterinary use of roxarsone (an organoarsenic growth promotant) until its voluntary withdrawal by Pfizer in 2011 and subsequent FDA ban on arsenical veterinary drugs in 2015. Post-withdrawal monitoring indicates residual total arsenic and inorganic arsenic remain detectable at low levels in some commercial US broiler chicken muscle, reflecting the persistence of arsenical compounds in soil and feed supply chains [[sources/lasky2013-arsenic-chicken-correspondence]]. Spanish-market processed chicken baby purees measured by ICP-MS showed tAs, tHg, Pb, Cd, Ni, Al, and Cr across 39 products; exact values for chicken muscle purees are in progress pending structured extraction [[sources/henriquez-hernandez2023-baby-purees-spain-elements]]. A Bangladesh study measured heavy metals and trace elements in edible body parts of chicken with results pending extraction [[sources/hossain2023-bangladesh-chicken-metals]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,50 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+The FSA/Fera FS102048 UK survey includes chicken as a measured food matrix [[sources/fsa2016-infant-food-formula-metals-survey]]; exact values are pending structured extraction. Henriquez-Hernandez et al. 2023 measured 39 processed chicken baby purees from Spanish retail by ICP-MS and found detectable concentrations of multiple metals [[sources/henriquez-hernandez2023-baby-purees-spain-elements]]; exact values are pending synthesis. Hossain et al. 2023 measured metals in chicken body parts in Bangladesh [[sources/hossain2023-bangladesh-chicken-metals]]; values pending extraction. Lasky et al. 2013 provides context on the US broiler arsenic situation following the veterinary drug withdrawal, noting that residual arsenic in US commercial chicken muscle remained detectable post-withdrawal [[sources/lasky2013-arsenic-chicken-correspondence]]. Geographic variation in chicken metal burdens is expected to be moderate for Pb and Cd (driven by regional feed quality and environmental conditions) and to differ materially between US and non-US markets for arsenic given the US-specific history of arsenical veterinary drug use.
+
+## Processing effects
+
+Whole muscle chicken carries very low cadmium and lead; cooking (roasting, boiling, grilling) does not substantially increase or decrease the metal content of the muscle tissue itself. Boiling chicken in water causes some leaching of water-soluble metal species into the broth; the broth therefore concentrates metals from bone surfaces (which can carry lead from skeletal sequestration) as well as from the muscle. Bone broth and chicken stock should be treated as potentially carrying higher lead than muscle meat alone. Skin, which may carry higher surface contamination from environmental sources, is typically consumed alongside muscle in many preparations. Processed chicken products (nuggets, patties, deli meats) that include mechanically separated chicken or added ingredients introduce additional metal pathways from non-muscle tissues and additives; these products are not characterised separately in the current corpus.
+
+## Ingredient-derivative risk
+
+Chicken liver and kidney accumulate cadmium and lead at substantially higher concentrations than muscle; this page covers muscle meat only. Chicken bone broth, as noted above, may carry elevated lead leached from the skeletal calcium matrix; the bone-lead pathway is a distinct concern from muscle-meat lead. Chicken powder and chicken flavouring concentrates used in soups, ramen, and seasoning blends derive from a combination of muscle, bone, and skin extraction; their metal profiles are not individually characterised in the current corpus. Chicken fat (schmaltz) carries metals primarily from dietary intake in the adipose tissue; this pathway is expected to be low but is not quantified.
+
+## Mitigation options
+
+### Sourcing levers
+
+Selecting chicken from suppliers whose feed formulations have been verified for cadmium and lead content reduces muscle-meat metal burden. In the US context, confirming that suppliers have discontinued all arsenical veterinary drug use is relevant; given the FDA ban enacted in 2015, compliance with US-licensed product restrictions is expected but confirmatory documentation may be requested from importers sourcing from markets where arsenical drugs remain licensed. EU-certified chicken is subject to regulatory maxima for Pb and Cd in muscle meat.
+
+### Agronomic levers
+
+Feed composition is the primary agronomic lever: low-cadmium grain and soy feeds reduce dietary cadmium intake by the bird and therefore muscle cadmium. Water quality at the production site influences metal uptake through drinking water. Environmental contamination of land (proximity to former industrial sites) can elevate soil ingestion pathways for birds raised in outdoor systems.
+
+_No quantified data on cultivar or breed selection effects on muscle metal content in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Removing skin before consumption eliminates one surface-contamination pathway. Cooking broth separately and discarding rather than consuming reduces bone-lead exposure in preparations that include bone-in chicken. For processed chicken products, minimising inclusion of mechanically separated chicken or by-product tissues reduces the contribution of organ-associated metals.
+
+### Formulation levers
+
+For composite products incorporating chicken (soups, ready meals), reducing the fraction of the final product derived from high-risk organ or bone-adjacent tissues and increasing the proportion of clean white-muscle meat is the most relevant formulation lever.
+
+### Testing and QC levers
+
+For chicken-containing prepared foods, particularly those marketed to children or including chicken liver as an ingredient, ICP-MS testing for Cd, Pb, and iAs is appropriate. For plain chicken muscle destined for retail, periodic surveillance testing is sufficient given the low baseline concentrations; routine lot-level testing is most warranted for US-origin broiler products tested for arsenic species where residual historical contamination may be relevant.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the associated contaminants regulation ([[regulations/eu2023-contaminants-maximum-levels]]) set a lead maximum of 0.10 mg/kg and a cadmium maximum of 0.050 mg/kg for poultry muscle meat. These limits apply to chicken as placed on the market. No specific US FDA action level for Pb or Cd applies to chicken muscle meat; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories rather than raw poultry. For inorganic arsenic in chicken, FDA has not established a specific action level for poultry muscle; the monitoring and regulatory response to arsenical veterinary drug residues is addressed through the veterinary drug residue program rather than a food contaminant limit. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides international cadmium limits for meat; the applicable limit for poultry muscle is 0.050 mg/kg.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

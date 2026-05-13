@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 60, "Cornbread, homemade." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Cornbread is a composite baked product whose primary ingredients are cornmeal, fat (typically butter or oil), eggs, milk, and chemical leavening. Its heavy metal profile is therefore a blend of contributions from each of these inputs. Cornmeal, the dominant ingredient by weight, carries the cadmium and trace metal burden of the corn grain after milling, with the exact level depending on whether the cornmeal is whole-grain (higher Cd, from the bran and germ fraction) or degerminated (lower Cd). Butter and eggs, the other substantive contributors, are low-risk matrices for most heavy metals under normal production conditions. Chemical leavening agents, particularly baking powder, can contribute trace amounts of aluminum in products that use aluminum-based leavening, though baking soda (sodium bicarbonate) does not carry this concern.
+
+The FDA TDS FY2018-FY2020 data for homemade cornbread (n=3, TDS Food 60) shows Pb at a maximum of 14 ppb, Cd at 9.2 to 11 ppb, Ni at 140 to 180 ppb, Cr at 200 ppb across all three samples, and tAs at 3 to 3.5 ppb, with U at 2.2 to 2.7 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. The uniform Cr value of 200 ppb and the elevated Ni of 140 to 180 ppb across all three composites are notable: at this level of consistency across three composites from the TDS program, equipment contact during the homemade preparation process, or a systematic feature of the cornmeal substrate, may be contributing chromium and nickel to the matrix.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +146,52 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 2.8 | 2.82 | 2.9 | 3.94 | 4.07 | 4.2 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 dataset for homemade cornbread is the only structured occurrence source integrated into this corpus (n=3 composites) [[sources/fda2022-tds-elements-fy2018-fy2020]]. The n=3 size is too small to characterize the distribution reliably, but all three composites show uniformly high Cr (200 ppb at all three samples), high Ni (140, 170, 180 ppb), and modest Cd (9.2 to 11 ppb) and Pb (0 to 14 ppb). The consistency of the Cr value across all three composites is analytically unusual; it may reflect a reporting-limit artifact, equipment contact during sample preparation, or a genuine feature of the homemade cornbread matrix.
+
+No peer-reviewed survey of heavy metals specifically in cornbread or corn-based baked products is currently integrated into this corpus. Commercial cornbread products may differ from homemade formulations in their cornmeal grade, fat source, and leavening type, all of which could affect the metal profile.
+
+## Processing effects
+
+Baking cornbread at high temperatures does not volatilize or remove heavy metals from the matrix; metals in the cornmeal, eggs, and other inputs are fixed in the baked structure. The use of aluminum-containing baking powder (sodium aluminum sulfate-based leaveners) contributes aluminum to the finished product; this is why aluminum is a data gap in this page's profile (it was not measured in the TDS dataset for this food item) but is a known concern for baking-powder-leavened products. Aluminum-free baking powder is commercially available and eliminates this source.
+
+The fat component of cornbread (butter or oil) does not substantially contribute heavy metals under normal production conditions. Milk or buttermilk, when used, is a low-risk ingredient for heavy metals. Eggs contribute negligibly to the metal burden of the finished product, consistent with the near-zero TDS values for hard-boiled eggs [[sources/fda2022-tds-elements-fy2018-fy2020]].
+
+## Ingredient-derivative risk
+
+Cornbread is a finished baked good rather than an industrial ingredient that feeds into further processing, so derivative risk in the traditional sense does not apply. The cornmeal component is the highest-risk ingredient within the recipe; substitution of whole-grain cornmeal with degerminated cornmeal would reduce the cadmium contribution from the grain fraction. Self-rising cornmeal mixes that include pre-blended aluminum-containing leaveners present a higher aluminum risk than plain cornmeal prepared with aluminum-free leavening.
+
+## Mitigation options
+
+### Sourcing levers
+
+Selecting degerminated cornmeal from origins with low background soil cadmium reduces the Cd contribution from the primary ingredient. For commercial cornbread producers, supplier specification for cornmeal Cd content and origin provenance is the relevant lever.
+
+### Agronomic levers
+
+_Agronomic levers apply at the corn grain level; see [[ingredients/corn]] for the relevant discussion. No cornbread-specific agronomic data is in the current corpus._
+
+### Processing levers
+
+Using aluminum-free leavening (sodium bicarbonate rather than aluminum-containing baking powder) eliminates the baking-powder aluminum source. Using degerminated cornmeal reduces cadmium relative to whole-grain formulations.
+
+### Formulation levers
+
+_No quantified data on formulation substitution effects on cornbread metal content beyond the cornmeal-grade effect is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+The elevated Cr and Ni values in the TDS homemade cornbread composites (200 ppb Cr, 140 to 180 ppb Ni across n=3 samples) [[sources/fda2022-tds-elements-fy2018-fy2020]] warrant confirmation with larger sample sizes and method scrutiny (to rule out equipment-contact artifacts). Commercial cornbread product manufacturers should include Cr and Ni in any finished-product testing program given these TDS signals, along with Cd and Pb as standard analytes.
+
+### Packaging and storage levers
+
+_No quantified data on packaging or storage effects on heavy metal content in cornbread is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+No specific US federal maximum level for lead or cadmium in baked corn products has been finalized as of 2026. Under the European Union's [[regulations/eu2023-contaminants-maximum-levels]], the applicable ML for cereal-based baked goods depends on the product classification: general cereal products are subject to a Cd limit of 0.10 mg/kg (100 ppb) and Pb limit of 0.20 mg/kg (200 ppb) wet weight. If a cornbread product is specifically formulated and marketed for infants and young children, the stricter infant food cadmium limit of 0.040 mg/kg (40 ppb) would apply. The TDS Cd maximum of 11 ppb and Pb maximum of 14 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]] are within the general EU limits but the Cd value would approach the infant-food limit in higher-Cd scenarios. Codex Alimentarius general cereal limits (0.10 mg/kg Cd, 0.20 mg/kg Pb) apply to cornbread-category products as processed cereal-based goods.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -93,6 +93,14 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 69, "Noodles, egg, enriched, boiled." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Egg noodles are a pasta product made from refined wheat flour (endosperm fraction) and eggs, formed into noodles and typically boiled before consumption. The heavy metal profile of egg noodles is dominated by contributions from the wheat flour fraction, with the egg fraction adding negligible metals under normal commercial production conditions.
+
+Cadmium in wheat flour (the endosperm fraction, with bran and germ removed) is lower than in whole-wheat flour, because Cd in wheat grain concentrates in the bran and germ outer layers. Egg noodles made from refined flour therefore carry less cadmium than whole-wheat pasta. The FDA TDS FY2018-FY2020 data for boiled enriched egg noodles (n=3, TDS Food 69) shows Cd at 15 to 26 ppb (median 26 ppb) [[sources/fda2022-tds-elements-fy2018-fy2020]], which is higher than some other refined grain products in the TDS dataset and may reflect variability in the wheat flour Cd content or in the degree of bran removal across the composite sample set. Pb is detectable at 0 to 6.6 ppb (median 4.3 ppb), while tAs, Cr, Ni, U, and tHg are all at zero across the three composites.
+
+The egg component of egg noodles contributes protein and color but does not meaningfully add heavy metals to the matrix. Hard-boiled eggs in the TDS dataset show all analytes at zero [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the expectation that eggs from commercial production carry negligible heavy metals.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +148,54 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 dataset (n=3 composites) is the only structured occurrence source for egg noodles in the current corpus [[sources/fda2022-tds-elements-fy2018-fy2020]]. Cd shows a range of 15 to 26 ppb with a notably constrained upper end (all three composites report 26 ppb at the p90 and max, indicating that two of the three composites are at this level), and Pb shows a range of 0 to 6.6 ppb. The n=3 size prevents confident characterization of the broader market distribution.
+
+No peer-reviewed multi-region survey of heavy metals in egg noodles specifically is currently integrated into this corpus. Wheat cadmium varies by origin (European wheat from regions with higher soil Cd, or wheat from high-cadmium irrigation areas, can carry higher grain Cd), so the Cd level in egg noodles in other markets may differ from the US TDS market-basket result. Pasta studies from Europe generally report Cd in pasta products in a range of 10 to 80 ppb depending on wheat variety, degree of milling, and origin, which frames the upper end of the distribution for context.
+
+## Processing effects
+
+Boiling egg noodles in water does not substantially reduce metal concentrations per gram of food, since cadmium incorporated in wheat protein matrices does not leach readily into cooking water at the temperatures and durations typical of pasta cooking. Unlike rice, where inorganic arsenic leaches into boiling water and discarding cooking water can reduce iAs exposure, pasta cooking does not produce a comparably effective metal-reduction step.
+
+The egg-enrichment step in noodle production (adding egg or egg solids to the dough) does not add heavy metals but does add protein that structurally modifies the pasta matrix. Drying and packaging of dry egg noodles preserves the metal burden of the cooked-equivalent; rehydration in cooking does not change the metal profile relative to what is present in the dry noodle.
+
+Enrichment of the noodles with vitamins and iron (standard for enriched egg noodles in the US) uses food-grade premixes that do not add cadmium or lead at levels relevant to this profile.
+
+## Ingredient-derivative risk
+
+Egg noodles are a consumer-facing product rather than an industrial ingredient in most applications. In composite dishes (soups, casseroles, noodle bowls), egg noodles contribute their Cd and Pb burden proportional to their weight fraction in the finished dish. The broth or sauce component of noodle dishes adds a separate metal contribution not captured in the noodle-only TDS data. In food service and retail contexts where egg noodles are a primary component, the Cd range of 15 to 26 ppb per gram of noodle (on the as-consumed wet-weight basis of the TDS data) is the relevant figure for exposure estimation.
+
+## Mitigation options
+
+### Sourcing levers
+
+Procuring wheat flour from origins with documented low soil cadmium is the primary lever for reducing Cd in egg noodles. Supplier specification for wheat flour Cd content and origin provenance, or selection of flour from certified low-Cd wheat cultivars where available, reduces the grain-origin contribution. Using semolina from durum wheat regions with established low-Cd soil profiles (for example, some North American spring wheat regions) rather than from high-Cd European regions is the geographic implementation of this lever.
+
+### Agronomic levers
+
+_Agronomic levers apply at the wheat farm level. Soil pH management (liming), phosphate fertilizer cadmium specifications, and low-Cd wheat cultivar selection are the relevant agronomic levers; see the wheat cadmium literature for detail._
+
+### Processing levers
+
+Effective bran and germ removal through roller milling reduces cadmium in the wheat flour used for egg noodles. Ensuring that the flour used is fully refined (not whole-wheat or partially refined) is the relevant specification. Boiling in a large volume of water and draining does not substantially reduce Cd but is consistent with standard safe preparation practice.
+
+### Formulation levers
+
+_No quantified data on formulation substitution effects on egg noodle metal content is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+The TDS Cd range of 15 to 26 ppb for boiled egg noodles (n=3) [[sources/fda2022-tds-elements-fy2018-fy2020]] is sufficiently variable that lot-level Cd testing of the wheat flour input is warranted for manufacturers producing high-volume egg noodle products or products positioned for children, who may have higher pasta consumption rates relative to body weight. Lead testing at spot-check frequency is reasonable given the detected Pb range (0 to 6.6 ppb).
+
+### Packaging and storage levers
+
+_No quantified data on packaging or storage effects on heavy metal content in egg noodles is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for cadmium in pasta and noodle products follows the general cereal products framework: 0.10 mg/kg (100 ppb) wet weight for pasta, and stricter limits apply for products specifically marketed to infants and young children. For lead in pasta, the EU general cereal limit of 0.20 mg/kg (200 ppb) applies. The TDS Cd maximum of 26 ppb (wet weight, boiled) and Pb maximum of 6.6 ppb are within these EU limits. Codex Alimentarius (CXS 193-1995 and revisions) sets a general cereal cadmium limit of 0.10 mg/kg and a lead limit of 0.20 mg/kg. No US federal maximum level for cadmium or lead in pasta or egg noodles has been finalized as of 2026.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

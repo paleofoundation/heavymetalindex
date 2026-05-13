@@ -89,6 +89,10 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Cheddar cheese, like other dairy products derived from cow's milk, accumulates heavy metals at very low concentrations relative to plant foods. The primary route is dietary transfer: cows ingest metals through feed and water, and a small fraction partitions into milk, where it distributes between the aqueous and fat fractions. During cheesemaking, cadmium and lead tend to partition into the whey (aqueous) phase rather than the curd, meaning cheese is generally lower in cadmium than the corresponding volume of milk. The FDA Total Diet Study FY2018-FY2020 found cadmium, lead, total arsenic, total mercury, nickel, and chromium all at or below reporting limits in 27 composite cheddar cheese samples, with only uranium detectable in trace amounts (maximum 1.3 ppb) [[sources/fda2022-tds-elements-fy2018-fy2020]]. The FSA/Fera FS102048 UK survey also measured cheddar cheese and similarly found very low concentrations [[sources/fsa2016-infant-food-formula-metals-survey]]. The concentration effect of aging (which reduces moisture content) applies to all constituents including metals, but the overall metal burden in aged cheddar remains extremely low relative to plant-derived ingredients.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA Total Diet Study FY2018-FY2020 reports all major metals at or below the reporting limit for cheddar cheese in 27 composite samples, with uranium as the sole detectable element (maximum 1.3 ppb, 90th percentile 1.24 ppb) [[sources/fda2022-tds-elements-fy2018-fy2020]]. The FSA/Fera FS102048 survey similarly found very low metal concentrations in cheddar across UK retail samples [[sources/fsa2016-infant-food-formula-metals-survey]]. Variation across cheddar varieties (mild, sharp, extra-sharp) is primarily a function of aging time and moisture content; as moisture decreases during aging, metal concentrations on a wet-weight basis increase proportionally, but from such a low baseline that even aged cheddar remains extremely low. Differences between cow breeds, feeding regimes (grass-fed vs grain-fed), and regional soil conditions are expected to introduce some variation in milk cadmium and lead, but the magnitude for cheese specifically has not been characterised in the current corpus.
+
+## Processing effects
+
+Cheesemaking involves acidifying milk with starter cultures, adding rennet to form a curd, cutting and draining the curd (which carries metals into the whey effluent), pressing, and aging. The whey-partition step is the most significant processing effect: cadmium preferentially partitions into the aqueous whey phase rather than the fat-and-protein curd, so the curd that forms cheese contains less cadmium per unit mass than the input milk. Lead follows a similar partition pattern. Uranium, which appeared as the only detectable metal in the FDA TDS cheddar data, may be retained in the curd fraction via binding to protein. Aging concentrates all retained metals in proportion to the reduction in moisture content; however, because the starting concentrations are so low, this concentration effect does not bring cheddar close to applicable regulatory limits even for long-aged varieties.
+
+## Ingredient-derivative risk
+
+Processed cheese products (American cheese, cheese slices, cheese sauces) that use cheddar as a base may incorporate additional ingredients with higher metal burdens, such as whey solids, modified starch, or flavouring agents; the composite product's metal profile reflects the ingredient blend rather than cheddar alone. Cheese powders, used in snack seasonings and packaged foods, concentrate all constituents including metals relative to fresh cheddar, but from a baseline so low that the resulting concentrations remain in the very-low range. No specific derivative risk has been identified in the current corpus that would distinguish cheddar-derived products as a meaningful metal exposure source.
+
+## Mitigation options
+
+### Sourcing levers
+
+Cheddar cheese sourced from dairy operations with clean pasture land and clean water supply will carry the lowest metal burden in milk. For regions where environmental lead contamination of soil or water is a concern, selecting suppliers with documented water quality monitoring reduces the risk of elevated milk lead. However, the practical importance of sourcing levers is low given the already very low baseline concentrations observed in both US and UK surveys.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Standard cheesemaking practices, particularly the separation of whey from curd, already achieve substantial reduction in cadmium and lead relative to raw milk. No additional processing lever beyond standard practice is indicated given the existing very low concentrations.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Routine lot-level testing for heavy metals in cheddar cheese is generally not warranted given the low concentrations observed in multiple national surveys. For specialty applications where cheddar cheese powder is used as a significant fraction of a finished product formulation, confirmatory ICP-MS testing may be appropriate as part of a broader ingredient testing program. EU dairy Pb limits (0.020 mg/kg for milk, applied to cheese as a milk-equivalent basis in some regulatory interpretations) are sufficiently high that exceedances from routine cheddar would be unexpected.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The EU sets a lead maximum level of 0.020 mg/kg for raw milk and heat-treated milk; for cheese, the applicable limit and its basis (as-product versus milk-equivalent) depends on the regulatory instrument in effect. Under [[regulations/eu2023-contaminants-maximum-levels]], dairy product limits apply to the product as placed on the market. The EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) sets a cadmium maximum for cheese; exact cheese-specific values should be verified against the current regulatory text. No US FDA action level for Pb or Cd applies specifically to cheddar cheese; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides international cadmium limits for dairy products. Given the TDS findings of all-below-reporting-limit concentrations for Cd, Pb, tAs, tHg, Ni, and Cr in 27 samples [[sources/fda2022-tds-elements-fy2018-fy2020]], typical US market cheddar is far below all applicable regulatory ceilings.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

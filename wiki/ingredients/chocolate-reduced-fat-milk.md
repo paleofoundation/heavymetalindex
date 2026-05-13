@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 3, "Milk, chocolate, reduced fat, fluid." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Chocolate reduced-fat milk is a dairy-cocoa composite product whose metal burden reflects the sum of two ingredient streams with very different metal profiles: reduced-fat cow's milk, which is intrinsically very low in heavy metals, and cocoa powder, which carries cadmium, nickel, and other metals from the soil of its growing origin. The dairy base contributes to volume while diluting the cocoa's metals across a large mass of essentially metal-free liquid; this dilution effect is the defining feature of this product's metal profile relative to pure cocoa or chocolate. Nickel is the most consistently detectable metal in chocolate milk: cocoa is one of the highest dietary nickel sources, and the FDA Total Diet Study FY2018-FY2020 found nickel in all 27 composite chocolate milk samples at a median of 62 ppb (minimum 39 ppb) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Cadmium was also consistently detectable at a median of 2.2 ppb (range 1.1-7 ppb), reflecting the cocoa-fraction cadmium diluted by the dairy matrix. Lead was detectable in a minority of samples at very low concentrations (median 1.2 ppb, maximum 1.9 ppb). Chromium was detectable at a median of 29 ppb, also consistent with the cocoa contribution.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 provides the primary quantitative reference with 27 composite samples of reduced-fat chocolate milk reporting: nickel median 62 ppb (p90 93.6 ppb, max 120 ppb), cadmium median 2.2 ppb (p90 4.28 ppb, max 7 ppb), lead median 1.2 ppb (p90 1.5 ppb, max 1.9 ppb), chromium median 29 ppb (p90 35.4 ppb, max 43 ppb), and total arsenic detectable at very low levels (p90 1.14 ppb, max 1.4 ppb); uranium and total mercury were below reporting limits across all samples [[sources/fda2022-tds-elements-fy2018-fy2020]]. Variation across brands would be expected primarily from: the cocoa powder percentage in the formulation (higher cocoa content increases Ni, Cd, and Cr proportionally); the geographic origin of the cocoa used (Andean-origin cocoa carries higher Cd than West African); and natural variation in plain milk metal content by herd geography and feed quality (a minor contributor given dairy's very low baseline).
+
+## Processing effects
+
+Chocolate milk is prepared by mixing cocoa powder and sweeteners into fluid milk; no high-temperature processing specific to the cocoa fraction beyond pasteurisation of the fluid milk is applied. Ultra-high temperature (UHT) processing, used for shelf-stable chocolate milk, does not alter metal content. Homogenisation distributes the cocoa solids uniformly and does not affect metal concentrations. Reduction to reduced-fat from whole milk (by partial centrifugal separation of cream) removes a small fraction of lipid-associated metals, but the primary metal burden derives from the cocoa solids rather than the fat fraction; the practical effect on metal concentrations of using reduced-fat versus whole milk is minimal.
+
+## Ingredient-derivative risk
+
+The cocoa fraction is the defining derivative-risk variable. Products with higher cocoa solids concentration (dark chocolate milk versus regular chocolate milk) carry proportionally more Ni, Cd, and Cr per serving. Cocoa-containing dairy powders (chocolate milk powder) concentrate all metals relative to the fluid product in proportion to the reduction in moisture; the metal profile of a reconstituted powder would be similar to the fluid product on a per-serving-as-consumed basis if the reconstitution ratio is equivalent, but the powder itself on a per-gram dry-weight basis carries substantially higher concentrations. Cocoa-containing infant formulas or toddler milks, where cocoa is an ingredient, would carry similar Ni and Cd signals from cocoa, with exposure implications amplified for infant/toddler populations who consume these products as a dietary staple.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing cocoa powder from lower-cadmium origins (West African rather than Andean) is the most impactful lever for reducing cadmium in the finished chocolate milk. For nickel, cocoa generally carries high Ni regardless of origin, so origin selection has less leverage on Ni than on Cd. Specifying cocoa suppliers who provide ICP-MS Cd and Ni certificates of analysis per batch is the appropriate quality control lever.
+
+### Agronomic levers
+
+Agronomic levers apply to the cocoa ingredient fraction; see [[ingredients/cocoa]] for cocoa-specific interventions that reduce cadmium at the farm level. The dairy fraction does not benefit from specific agronomic interventions given its already very low baseline metal content.
+
+### Processing levers
+
+Reducing the percentage of cocoa powder in the formulation reduces Ni, Cd, and Cr proportionally while maintaining the chocolate flavour profile requires compensating with cocoa flavour extracts or increasing sweetener to maintain palatability. The trade-off between metal reduction and product taste is a formulation decision. No processing step applied to the cocoa powder itself (alkalization, roasting) substantially reduces Cd or Ni.
+
+### Formulation levers
+
+Specifying lower-cocoa-solid formulations (pale chocolate milk rather than rich chocolate milk) reduces the metal burden proportionally. Using natural cocoa extract or flavouring at lower total solids loading, supplemented with other flavouring agents, can maintain chocolate character with a reduced cocoa-mass fraction. These levers are particularly relevant for product lines marketed to children or consumed daily at high volumes.
+
+### Testing and QC levers
+
+ICP-MS testing of the cocoa powder ingredient for Cd and Ni per batch is the appropriate quality control point. For products marketed specifically to children, where chronic daily consumption of chocolate milk represents a meaningful nickel and cadmium exposure source, finished-product testing provides a whole-system check. The FDA TDS data showing Ni at a median of 62 ppb across 27 samples indicates that nickel in chocolate milk is consistent and predictable rather than outlier-driven.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general EU contaminants framework ([[regulations/eu2023-contaminants-maximum-levels]]) apply limits to cocoa and dairy ingredients separately rather than to chocolate milk as a finished composite product. The dairy lead maximum (0.020 mg/kg for fluid milk) would be the applicable EU limit for the dairy component of chocolate milk. Cocoa cadmium limits under EU 2023/915 apply to the cocoa ingredient; the finished chocolate milk's cadmium is substantially diluted relative to the cocoa ingredient's limit. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides limits for cocoa products and dairy. No specific US FDA action level applies to chocolate reduced-fat milk; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories. For nickel, no specific EU or Codex maximum level applies to chocolate milk as a product category; nickel intake from chocolate milk is monitored under dietary exposure assessments at the population level rather than controlled by individual product limits.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

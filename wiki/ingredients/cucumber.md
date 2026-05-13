@@ -89,6 +89,12 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Cucumber is a cucurbit fruit that is botanically a berry of a vine plant and is consumed as a vegetable in virtually all culinary contexts. It is characterized by a very high water content (approximately 96% water by weight), which substantially dilutes any metal concentration in the edible flesh. Root uptake of cadmium and lead from soil does occur, but the translocation of these metals from root to fruit is limited: cucurbit fruits are physiologically distal from the root system and are not preferred sink tissues for cadmium or lead accumulation under normal soil conditions. The outer skin may carry somewhat more Pb than the interior flesh through atmospheric particle deposition, but the inner flesh is generally the consumed portion when peeled.
+
+The FDA TDS FY2018-FY2020 data for peeled raw cucumber (n=27 composites, TDS Food 123) is consistent with this low-risk characterization: Pb is at zero across all 27 samples, Cr is at zero, U is at zero, and tHg is at zero [[sources/fda2022-tds-elements-fy2018-fy2020]]. Cadmium shows low-level detection in some samples (median 1.6 ppb, maximum 3.2 ppb), and Ni appears in the upper tail (p95 28 ppb, maximum 76 ppb) and tAs is consistently detectable at moderate levels (median 14 ppb, maximum 31 ppb, p90 20 ppb). The total arsenic signal is unexpected given the cucurbit's low-risk general reputation and warrants attention, though without iAs speciation it is not possible to determine the proportion attributable to inorganic versus organic arsenic species in this matrix.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +142,52 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 data for peeled cucumber (n=27) provides the most structured occurrence dataset currently in the corpus for this commodity [[sources/fda2022-tds-elements-fy2018-fy2020]]. The 27-sample US market-basket composites show low cadmium (median 1.6 ppb, max 3.2 ppb) and near-zero lead, chromium, and mercury. The tAs distribution is the most notable feature: a median of 14 ppb and a maximum of 31 ppb across 27 composite samples is consistently detectable, and the FSA/Fera FS102048 survey provides additional data points awaiting structured integration [[sources/fsa2016-infant-food-formula-metals-survey]].
+
+No comprehensive peer-reviewed survey comparing heavy metals in cucumber across different growing regions or cultivation systems (greenhouse vs field, hydroponic vs soil) is currently in the corpus. Cucumber grown in contaminated or mining-adjacent soils would be expected to carry higher Cd and Pb than market-basket composites, but no regional breakdown is available from the current sources.
+
+## Processing effects
+
+Peeling cucumbers removes the outer skin, which carries the highest fraction of atmospheric-deposited lead and any surface-associated metals. The TDS data is for peeled cucumber, so it already reflects this partial decontamination. Slicing and salting cucumber (as in some pickle preparation pre-stages) can draw out moisture but does not meaningfully reduce root-incorporated metals. Cooking cucumber (a less common preparation) would not remove cadmium or arsenic that is structurally incorporated in the flesh tissue.
+
+The high water content of cucumber means that any processing step that concentrates the solid fraction (for example, drying or freeze-drying to produce cucumber powder) would proportionally concentrate metals on a per-gram dry-weight basis.
+
+## Ingredient-derivative risk
+
+Cucumber is consumed primarily as a fresh or fermented (pickled) product. The principal derivative is dill pickles, which is addressed separately on [[ingredients/dill-pickles]]. The pickling process adds an acidic brine, which may extract additional metals from the cucumber matrix or from processing equipment surfaces; this is discussed on the dill pickles page. Cucumber extract used in cosmetics and some functional foods would carry whatever metals are present in the source cucumber, potentially concentrated in the extraction process. No heavy metal data for cucumber extracts or concentrates is in the current corpus.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing cucumbers from agricultural areas with low background soil cadmium and minimal atmospheric lead pollution is the primary mitigation lever for the metal contaminants detected in this matrix. Greenhouse-grown cucumbers, which avoid atmospheric particulate deposition on the fruit surface and are grown in controlled substrate, may carry lower atmospheric Pb than field-grown cucumbers, though this distinction has not been quantified in the current corpus.
+
+### Agronomic levers
+
+_No quantified data on agronomic interventions specifically for cucumber metal accumulation is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Peeling cucumbers before consumption or further processing removes the surface-deposited metal fraction. Washing cucumber thoroughly before peeling reduces particle transfer from the peel surface during the peeling motion. These are standard food hygiene practices that also provide a marginal metal-reduction benefit for Pb.
+
+### Formulation levers
+
+_No quantified data on formulation substitution effects on cucumber metal content in composite products is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+The tAs signal in the TDS peeled cucumber data (median 14 ppb, max 31 ppb across n=27 composites) [[sources/fda2022-tds-elements-fy2018-fy2020]] is worth monitoring with speciated arsenic testing (iAs vs tAs) to characterize whether the detected arsenic is primarily inorganic or organic. Nickel in the upper tail (max 76 ppb) also warrants periodic testing for commercial cucumber-based products.
+
+### Packaging and storage levers
+
+_No quantified data on packaging or storage effects on heavy metal content in cucumber is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for lead in vegetables (other than leafy vegetables and brassicas) is 0.10 mg/kg (100 ppb) wet weight, and for cadmium in vegetables it is 0.050 mg/kg (50 ppb) wet weight. Cucumber falls within the general vegetable category. The TDS Pb values of zero and Cd maximum of 3.2 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]] are well within these limits. Codex Alimentarius (CXS 193-1995 and revisions) sets a general vegetable lead limit of 0.10 mg/kg. No US federal maximum level for lead or cadmium in cucumbers has been finalized as of 2026.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 155, "Soup, chicken noodle, canned, condensed, prepared with water." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Chicken noodle soup is a multi-ingredient composite product whose metal burden is the sum of contributions from each ingredient stream. Cadmium enters primarily through the wheat-based noodle component: wheat grain accumulates cadmium through root uptake from soil, and whole-wheat or enriched-wheat noodles carry this signal into the final product. Nickel is a secondary concern that derives from both the noodle fraction (wheat contains moderate Ni) and the vegetable components (celery, carrots, peas) commonly included in the soup recipe. Chicken muscle itself contributes very little to Pb, Cd, or Ni; the broth component, if prepared from bones, may contribute trace lead through leaching from the skeletal calcium matrix. The canned format introduces the potential for tin (Sn) from the can interior, though modern cans use enamel linings that substantially reduce tin migration. The FDA Total Diet Study FY2018-FY2020 measured canned condensed chicken noodle soup prepared with water and found cadmium detectable at a median of 2.6 ppb and nickel at a maximum of 62 ppb across 3 composite samples [[sources/fda2022-tds-elements-fy2018-fy2020]]; the small sample size limits inference.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 provides the primary quantitative reference, with 3 composite samples of canned condensed chicken noodle soup prepared with water reporting cadmium at a median of 2.6 ppb, nickel at a maximum of 62 ppb, and all other measured metals (Pb, tAs, tHg, Cr, U) below reporting limits [[sources/fda2022-tds-elements-fy2018-fy2020]]. The very small sample size (n=3) limits confidence in these distributional estimates. Variation across brands and product lines would be expected primarily from differences in the noodle-fraction wheat source (which drives Cd), the proportion of bone-derived versus muscle-only broth (which affects Pb), and the vegetable complement (which affects Ni). Homemade chicken noodle soup would vary from canned product in tin content (absent without canned ingredients) and in broth lead content depending on whether bone-in chicken is used and cooking time.
+
+## Processing effects
+
+Canning involves cooking the soup at high temperature under pressure (retort processing), which converts the product to a ready-to-heat form. The acidic content of the soup (from tomato-based additions in some recipes, or from natural acidity of ingredients) can influence tin migration from can interiors, but modern enamel-lined cans substantially limit this; Sn was below reporting limits in all three TDS samples [[sources/fda2022-tds-elements-fy2018-fy2020]]. The preparation instruction to dilute condensed soup with an equal volume of water reduces all concentrations by approximately half relative to the condensed product; the TDS values represent the prepared (diluted) product. Extended cooking of bone-in chicken to make broth before soup assembly increases the leaching of lead from bone surfaces into the liquid; the TDS product is manufactured with controlled processes that likely minimise this pathway compared to home preparation from whole bone-in chicken.
+
+## Ingredient-derivative risk
+
+Chicken noodle soup is already a composite product rather than a raw ingredient, and its derivatives are primarily variations in recipe formulation (see Mitigation options below). Dried soup mixes and instant noodle packets that carry the chicken noodle soup flavour profile would concentrate all metals relative to the prepared liquid product; they are not characterised separately in the current corpus. Soup stock or broth sold separately as a component derives from a similar process and would carry the bone-lead pathway more directly than the finished composite.
+
+## Mitigation options
+
+### Sourcing levers
+
+For manufacturers, specifying low-cadmium wheat flour for the noodle fraction is the highest-leverage sourcing decision, as the noodle component drives the cadmium signal in the final product. Selecting chicken suppliers who use clean-bone processing (muscle-only broth rather than bone-in broth) reduces potential lead contribution from skeletal calcium. Specifying enamel-lined cans minimises tin migration risk.
+
+### Agronomic levers
+
+Agronomic levers apply primarily to the wheat ingredient used in the noodle fraction; see [[ingredients/wheat-flour]] for wheat cadmium mitigation levers. The chicken, vegetable, and salt fractions do not offer meaningful agronomic levers relative to wheat.
+
+### Processing levers
+
+Using muscle-only chicken stock rather than bone-derived broth reduces the lead contribution from the broth fraction. Ensuring adequate can-lining quality limits tin migration. Formulating with a higher water-to-noodle ratio dilutes the cadmium contributed by the noodle fraction in the final product serving.
+
+### Formulation levers
+
+Reducing the noodle fraction of the recipe or substituting rice-based noodles (which carry different metal profiles depending on rice origin) for wheat noodles changes the cadmium source. Adding more vegetables relative to noodles may increase nickel but typically does not materially increase cadmium or lead. Including vegetables with lower soil-contact cadmium (peas, corn) rather than higher-accumulating types changes the vegetable-fraction metal contribution.
+
+### Testing and QC levers
+
+Given the low cadmium concentrations observed in the TDS data (median 2.6 ppb, maximum 2.8 ppb in prepared product), routine lot-level testing for chicken noodle soup is lower priority than for higher-risk categories. For manufacturers sourcing wheat from high-cadmium regions, testing the flour prior to noodle production provides earlier-stage quality control. Tin testing is warranted for any canned soup product where enamel lining quality cannot be confirmed.
+
+### Packaging and storage levers
+
+Enamel-lined cans substantially reduce tin migration. For products stored in damaged or corroded cans, tin migration increases and is a relevant quality defect. No specific metal packaging interaction has been identified for chicken noodle soup beyond the tin-can pathway.
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general contaminants framework ([[regulations/eu2023-contaminants-maximum-levels]]) do not set a single composite limit for chicken noodle soup as a finished product; rather, the limits for each constituent ingredient (cereal products, chicken meat, vegetables) apply to those components as assessed in the final product. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) similarly addresses ingredient categories rather than composite dishes. No specific US FDA action level applies to canned chicken noodle soup; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories. For tin in canned products, the Codex ML for tin in canned foods is 200 mg/kg; EU limits are 200 mg/kg for non-beverages. The TDS data showing Sn at or below reporting limits is consistent with modern canned products meeting these limits comfortably [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

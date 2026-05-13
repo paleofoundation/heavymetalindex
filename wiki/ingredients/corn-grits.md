@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 53, "Corn/hominy grits, enriched, cooked." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Corn grits (also known as hominy grits) are produced from dried, coarsely ground corn that has typically been alkali-treated through nixtamalization or at minimum degerminated. The grinding process removes the pericarp and often the germ, leaving the starchy endosperm as the dominant fraction. Because cadmium in corn grain concentrates in the bran and germ rather than the endosperm, degerminated grits carry lower cadmium than whole-grain corn products. The FDA TDS FY2018-FY2020 data for enriched cooked corn grits (n=3, TDS Food 53) shows all analytes at zero across all samples [[sources/fda2022-tds-elements-fy2018-fy2020]], which is consistent with effective cadmium removal during degermination and with corn's generally low arsenic and lead burden compared with rice or leafy vegetables.
+
+The enrichment step (addition of B vitamins and iron) that is standard for enriched grits does not substantially add heavy metals to the matrix, as food-grade mineral premixes are regulated for purity. Nixtamalization, the traditional alkali treatment with slaked lime used to make hominy, further affects the mineral profile of the corn grain through calcium exchange and can reduce the bioavailability of some metals, though the effect on cadmium and lead is incompletely characterized in the current corpus.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +146,54 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 dataset for enriched cooked corn grits (n=3 composites) reports all measured analytes at zero across Cd, Cr, Ni, Pb, U, tAs, and tHg [[sources/fda2022-tds-elements-fy2018-fy2020]]. This consistent below-detection result across all seven analytes is notable and distinguishes corn grits from corn flakes (which show detectable Cr and Ni) and from whole-grain corn products. The result is consistent with effective removal of the metal-bearing bran and germ fractions during degermination, though the n=3 sample count is too small to characterize the full distribution or to rule out elevated samples at higher percentiles.
+
+No independent peer-reviewed survey of heavy metals specifically in corn grits or hominy grits is currently integrated into this corpus. The contrast between the all-zero grits TDS result and the detectable Ni in the corn TDS dataset (p90 54.4 ppb, max 160 ppb) [[sources/fda2022-tds-elements-fy2018-fy2020]] suggests that processing does substantially reduce the nickel burden relative to less-processed corn, though the small TDS sample size precludes a definitive conclusion.
+
+## Processing effects
+
+Degermination, the removal of the corn germ during milling, is the primary processing step that reduces cadmium and other metals in grits relative to whole-grain corn. Coarse grinding retains a greater proportion of the endosperm and less bran than fine milling. Enrichment with vitamins and iron is a downstream step that does not add heavy metals at levels relevant to this profile.
+
+Nixtamalization (alkali treatment with calcium hydroxide) is used in hominy production and in masa-based products but is variable across commercial grits products. Where nixtamalization is applied, the lime treatment modifies the mineral matrix of the grain: it adds calcium, reduces phytic acid (which can affect metal bioavailability), and may alter the leachability of some trace metals. The effect on Pb and Cd bioavailability specifically is not quantified in the current corpus.
+
+Cooking grits by boiling in water further dilutes the dry-weight metal concentration as water is absorbed into the starchy matrix. TDS values are reported for the cooked, as-consumed form, so they already reflect this dilution.
+
+## Ingredient-derivative risk
+
+Corn grits as a product is itself derived from corn grain with metal-reducing processing applied. Further processing of grits into commercial food products (for example, grits-based porridges, grits used as a thickener, or instant grits products) would not be expected to increase metal concentration relative to the base grits ingredient, since no concentration step is involved. Stone-ground grits that retain more of the bran fraction would be expected to carry higher cadmium than conventionally degerminated grits, analogous to the difference between stone-ground and roller-milled wheat products.
+
+## Mitigation options
+
+### Sourcing levers
+
+Procuring corn grain from origins with low background soil cadmium and verifying that supplier specifications include degermination reduces the likelihood of elevated metal content in finished grits. The all-zero TDS result [[sources/fda2022-tds-elements-fy2018-fy2020]] suggests that US commercial enriched grits already achieve effective metal reduction through standard processing; maintaining degermination as a specification requirement preserves this outcome.
+
+### Agronomic levers
+
+_No quantified data on agronomic interventions specifically for corn metal accumulation as it relates to grits production is in the current corpus; see [[ingredients/corn]] for the general corn agronomic lever discussion._
+
+### Processing levers
+
+Ensuring full degermination and avoiding stone-ground or whole-grain formulations reduces cadmium in the finished product. Nixtamalization, where applicable, may further modify the metal profile, though the direction and magnitude of this effect on Pb and Cd is not yet characterized in the corpus.
+
+### Formulation levers
+
+_No quantified data on formulation substitution effects on corn grits metal content is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given the all-zero TDS result for commercial enriched corn grits, routine heavy metal testing is lower priority for this ingredient than for higher-risk commodities. However, the small TDS sample size (n=3) means the upper tail of the distribution is uncharacterized. Periodic cadmium and lead spot-checks at incoming ingredient receipt are reasonable for any manufacturer purchasing large volumes of grits.
+
+### Packaging and storage levers
+
+_No quantified data on packaging or storage effects on heavy metal content in corn grits is in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The European Union under [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for cadmium in cereals of 0.10 mg/kg (100 ppb) wet weight and for lead in cereals of 0.20 mg/kg (200 ppb) wet weight. For foods specifically marketed to infants and young children, the EU cadmium limit is 0.040 mg/kg (40 ppb). Codex Alimentarius (CXS 193-1995 and revisions) sets a cereal cadmium maximum of 0.10 mg/kg and a lead maximum of 0.20 mg/kg. All measured analytes in the FDA TDS FY2018-FY2020 corn grits data are at zero, well within these limits [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

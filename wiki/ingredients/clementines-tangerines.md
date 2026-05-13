@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Clementines and tangerines are thin-skinned citrus fruits that accumulate heavy metals at very low concentrations in the edible flesh. The thick-skin protection of citrus generally limits metal transfer from soil to the inner segments that are consumed; cadmium and lead taken up through roots tend to distribute preferentially in the root, stem, and leaf tissues of citrus plants rather than accumulating in fruit flesh. The peel may carry some atmospheric lead deposition, particularly in urban environments or near traffic corridors where airborne Pb particulates settle on the fruit surface, but the edible inner segments are well-shielded by the thick flavedo and albedo layers. Cadmium uptake from soil into citrus fruit is consistently low in the literature; the FSA/Fera FS102048 survey, which included clementines in its Table 6 food composite measurements, found very low metal concentrations consistent with the general citrus pattern [[sources/fsa2016-infant-food-formula-metals-survey]]. The Brassica-type active metal transport mechanisms that drive elevated cadmium in leafy greens and crucifer vegetables are absent in citrus; passive diffusion and limited xylem transport into fruit tissue constrain metal accumulation in the edible portion.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,48 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+The FSA/Fera FS102048 survey (UK, 2016) measured clementines as part of a broad food survey; exact clementine-specific concentrations are pending structured extraction from Table 6 [[sources/fsa2016-infant-food-formula-metals-survey]]. Based on the general pattern of citrus fruit in the broader literature, cadmium and lead in the edible flesh of clementines and tangerines are expected to be well below the EU maximums of 0.050 mg/kg Cd and 0.10 mg/kg Pb for citrus. Variation between clementine and tangerine varieties is expected to be minor relative to the inter-site and inter-region variation driven by soil cadmium background and atmospheric Pb deposition. Growing region (Spain, Morocco, USA, China) influences metal exposure primarily through soil background and proximity to industrial or traffic sources; Mediterranean and North African production sites dominate European market supply. No region-by-region quantitative breakdown for clementines or tangerines is available in the current corpus.
+
+## Processing effects
+
+Clementines and tangerines are primarily consumed as fresh whole fruit after peeling; the peel is discarded before consumption in most contexts, removing any surface-deposited lead or other metals from the portion consumed. Juicing removes the peel before pressing; citrus juice carries the inner flesh metals (very low) without the peel surface-contamination component. Clementine juice concentrate involves evaporation of water, which concentrates metals proportionally on a fresh-weight-equivalent basis; from such a low baseline that even concentrated citrus juice remains extremely low in metals. Dried or candied citrus peel, where the peel is the consumed fraction, would carry higher metals than the inner flesh, as the peel may carry both internally distributed metals and surface-deposited atmospheric Pb; this derivative form is not individually characterised in the current corpus.
+
+## Ingredient-derivative risk
+
+The primary derivative of note is the distinction between consuming the flesh (very low metals) versus the peel (potentially higher surface-deposited Pb and atmospheric particulates). Commercial preparations using whole citrus including peel (marmalades, candied peel, some liqueurs) carry a different metal profile from flesh-only preparations. Clementine juice and juice concentrate are low-risk derivatives given the flesh-only basis of most juice production. Essential oils extracted from clementine peel carry the peel's aromatic compounds and may carry peel-associated metals, though these oils are consumed in very small quantities in food applications.
+
+## Mitigation options
+
+### Sourcing levers
+
+The practical importance of sourcing levers for clementines and tangerines is low, given the already very low metal concentrations in the edible flesh. For applications using peel, selecting fruit from production sites with minimal atmospheric Pb exposure (away from major traffic routes or industrial zones) reduces surface-deposited Pb on the peel. Organic certification does not directly address metal content; soil background and atmospheric exposure are the primary determinants.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Washing fresh fruit before peeling reduces surface contamination on the peel, which is relevant for consumers who zest or candy the peel. For flesh consumption, the natural peeling step already removes the primary surface-contamination pathway. Blanching or cooking the peel before use in confectionery applications removes some surface-deposited metals.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Routine lot-level metal testing for fresh clementines or tangerines is not warranted given the expected very low metal concentrations in the edible flesh. For applications using peel (marmalades, candied peel, essential oils), confirmatory testing for lead may be appropriate if the product is marketed in high-volume to vulnerable populations.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general contaminants framework ([[regulations/eu2023-contaminants-maximum-levels]]) set a cadmium maximum of 0.050 mg/kg and a lead maximum of 0.10 mg/kg for fresh citrus fruit, applicable to clementines and tangerines. These limits apply to the fruit as placed on the market (whole fruit including peel, on a fresh-weight basis); the edible flesh alone would carry concentrations well below these limits. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides cadmium limits for fresh fruit at 0.050 mg/kg. No specific US FDA action level applies to fresh citrus; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories. Given the expected very low metal concentrations in the flesh of clementines and tangerines, these regulatory limits are not expected to be approached under normal commercial production conditions.
 
 ## Sources
 
