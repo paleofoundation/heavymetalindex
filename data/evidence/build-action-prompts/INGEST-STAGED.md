@@ -1,6 +1,6 @@
 # Session prompt: ingest staged PDFs
 
-You have 95 PDFs in `raw/manual-fetch/seasonal-geographic-variance/` (some at the top level from Karen's manual drops, some in the `auto-fetched/` subfolder from `npm run wishlist:fetch`).
+You have 97 PDFs in `raw/manual-fetch/seasonal-geographic-variance/` (some at the top level from Karen's manual drops, some in the `auto-fetched/` subfolder from `npm run wishlist:fetch`).
 
 Your job: produce source pages per CLAUDE.md Part 6 and Part 8.
 
@@ -28,59 +28,59 @@ Synthesis (contamination_profile updates on ingredient pages) is a SEPARATE work
 
 Append a batch report at `wiki/batch-reports/<batch-id>-<date>.md` per CLAUDE.md Part 17 format, listing source pages created, any new-page proposals, any contradictions flagged, and any papers that failed to ingest.
 
-## Files in scope (95)
+## Files in scope (97)
 
-1. raw/manual-fetch/seasonal-geographic-variance/2022-23_toxic metals in selected foods_report_en.pdf
-2. raw/manual-fetch/seasonal-geographic-variance/20250922_CP 7304.019 Toxic Elements in Food, Foodware and Radionuclides in Food 508-Compliant.pdf
-3. raw/manual-fetch/seasonal-geographic-variance/25th-ATDS.pdf
-4. raw/manual-fetch/seasonal-geographic-variance/A comparison of the potential health risk of aluminum and heavy metals in tea leaves and tea infusion of commercially available green tea in Jiangxi, China.pdf
-5. raw/manual-fetch/seasonal-geographic-variance/A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA.pdf
-6. raw/manual-fetch/seasonal-geographic-variance/Accumulation of Heavy Metals in Tea Leaves and Potential Health Risk Assessment: A Case Study from Puan County, Guizhou Province, China.pdf
-7. raw/manual-fetch/seasonal-geographic-variance/Addressing Cadmium in Cacao Farmland: A Path to Safer, Sustainable Chocolate.pdf
-8. raw/manual-fetch/seasonal-geographic-variance/Arsenic in Apple Juice Analytical Results from the 2005-2011 Toxic Elements Food and Foodware Program _ FDA.pdf
-9. raw/manual-fetch/seasonal-geographic-variance/Arsenic in Rice: II. Arsenic Speciation in USA Grain and Implications for Human Health.pdf
-10. raw/manual-fetch/seasonal-geographic-variance/Arsenic, Organic Foods, and Brown Rice Syrup.pdf
-11. raw/manual-fetch/seasonal-geographic-variance/Arsenic-in-Rice-and-Rice-Products-Risk-Assessment-Report-PDF.pdf
-12. raw/manual-fetch/seasonal-geographic-variance/ArsenicAnalyticResults-RiceCereal-2016.pdf
-13. raw/manual-fetch/seasonal-geographic-variance/Bioaccumulation of heavy metals in high Andean crops of the Peruvian Andes: comparative evaluation between irrigated and dry systems.pdf
-14. raw/manual-fetch/seasonal-geographic-variance/CR_FSASC_Arsenic_Analysis_Nov2014.pdf
-15. raw/manual-fetch/seasonal-geographic-variance/Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market.pdf
-16. raw/manual-fetch/seasonal-geographic-variance/Cadmium_in_Cacao_From_Latin_America_and_The_Caribbean.pdf
-17. raw/manual-fetch/seasonal-geographic-variance/Can nitrifiers from the sidestream deammonification process be a remedy for the N-overload of the mainstream reactor?.pdf
-18. raw/manual-fetch/seasonal-geographic-variance/Characterization-source-identification-risk-assessment-of-potentially-toxic-elements-PTEs.pdf
-19. raw/manual-fetch/seasonal-geographic-variance/Comparison-of-Essential-and-Toxic-Metals-Levels-in-some-Herbal-Teas-a-Systematic-Review (1).pdf
-20. raw/manual-fetch/seasonal-geographic-variance/Comparison-of-Essential-and-Toxic-Metals-Levels-in-some-Herbal-Teas-a-Systematic-Review.pdf
-21. raw/manual-fetch/seasonal-geographic-variance/Content and the relationship between cadmium, nickel, and lead 2 concentrations in Ecuadorian cocoa beans from nine provinces.pdf
-22. raw/manual-fetch/seasonal-geographic-variance/Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China.pdf
-23. raw/manual-fetch/seasonal-geographic-variance/Dataset of metals and metalloids in food crops and soils sampled across the mining region of Moquegua in Peru.pdf
-24. raw/manual-fetch/seasonal-geographic-variance/Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review.pdf
-25. raw/manual-fetch/seasonal-geographic-variance/Determination of Potentially Toxic Elements in Quinoa Crops Located in the Huacaybamba–Huanuco-Peru Area.pdf
-26. raw/manual-fetch/seasonal-geographic-variance/Determination-of-toxic-metals-in-canned-tuna-sold-in-developed-and-developing-countries-Health.pdf
-27. raw/manual-fetch/seasonal-geographic-variance/Dietary Risk Assessment of Cadmium Exposure Through Commonly Consumed Foodstuffs in Mexico.pdf
-28. raw/manual-fetch/seasonal-geographic-variance/Dietary exposure assessment of aluminium and cadmium from cocoa in relation to cocoa origin pone.0217990.pdf
-29. raw/manual-fetch/seasonal-geographic-variance/Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards.pdf
-30. raw/manual-fetch/seasonal-geographic-variance/EFSA Journal - 2010 -  - Scientific Opinion on Lead in Food.pdf
-31. raw/manual-fetch/seasonal-geographic-variance/EFSA Journal - 2021 -  - Chronic dietary exposure to inorganic arsenic.pdf
-32. raw/manual-fetch/seasonal-geographic-variance/EFSA Journal - 2024 -  - Update of the risk assessment of inorganic arsenic in food.pdf
-33. raw/manual-fetch/seasonal-geographic-variance/Evaluation and Dietary Exposure Assessment of Selected Toxic Trace Elements in Durum Wheat (Triticum durum) Imported into the Italian Market: Six Years of Official Controls.pdf
-34. raw/manual-fetch/seasonal-geographic-variance/Evaluation-of-trace-metallic-element-levels-in-coffee-by-icp-ms-a-comparative-study-among.pdf
-35. raw/manual-fetch/seasonal-geographic-variance/FiscalYear2018_ArsenicInInfantRiceCerealsAssignmentData (1).pdf
-36. raw/manual-fetch/seasonal-geographic-variance/FiscalYear2018_ArsenicInInfantRiceCerealsAssignmentData.pdf
-37. raw/manual-fetch/seasonal-geographic-variance/Geographical Variation in Total and Inorganic Arsenic Content of Polished (White) Rice meharg2009.pdf
-38. raw/manual-fetch/seasonal-geographic-variance/Geographical variation in inorganic arsenic in paddy field samples and commercial rice from the Iberian Peninsula.pdf
-39. raw/manual-fetch/seasonal-geographic-variance/Global Sourcing of Low‑Inorganic Arsenic Rice Grain.pdf
-40. raw/manual-fetch/seasonal-geographic-variance/Heavy metal accumulation in leaves and beans of cacao (Theobroma cacao L.) in major cacao growing regions in Peru 10.1016@j.scitotenv.2017.06.122.pdf
-41. raw/manual-fetch/seasonal-geographic-variance/Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru.pdf
-42. raw/manual-fetch/seasonal-geographic-variance/Heavy-metal-loid-s-in-agricultural-soil-from-main-grain-production-regions-of-China-Bioaccessibility.pdf
-43. raw/manual-fetch/seasonal-geographic-variance/InorganicArsenicAppleJuice-FinalGuidance-June2023-05312023.pdf
-44. raw/manual-fetch/seasonal-geographic-variance/MITIGATION OF CADMIUM ACCUMULATION IN COCOA BEANS USING ARBUSCULAR MYCORRHIZAL FUNGI, BIOCHAR AND Callisia repens.pdf
-45. raw/manual-fetch/seasonal-geographic-variance/Market Basket Survey Shows Elevated Levels of As in South Central U.S. Processed Rice Compared to California: Consequences for Human Dietary Exposure williams2007.pdf
-46. raw/manual-fetch/seasonal-geographic-variance/Monitoring and risk assessment due to presence of heavy metals and pesticides in tea samples.pdf
-47. raw/manual-fetch/seasonal-geographic-variance/Monitoring of essential and heavy metals in green tea from different geographical origins.pdf
-48. raw/manual-fetch/seasonal-geographic-variance/Occurrence, accumulation, and risk assessment of trace metals in tea (Camellia sinensis): A national reconnaissance.pdf
-49. raw/manual-fetch/seasonal-geographic-variance/Occurrence, exposure and health risk assessment of heavy metals in green tea samples cultivated in Hangzhou area.pdf
-50. raw/manual-fetch/seasonal-geographic-variance/Perspective on Cadmium and Lead in Cocoa and Chocolate.pdf
-... and 45 more
+1. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-non-rice-cd_2015_10-15244-pjoes-59306.pdf
+2. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-non-rice-ias_2015_10-1007-s00217-015-2545-4.pdf
+3. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-non-rice-ias_2015_10-15244-pjoes-59306.pdf
+4. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-non-rice-tas_2015_10-15244-pjoes-59306.pdf
+5. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-non-rice-thg_2015_10-15244-pjoes-59306.pdf
+6. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-non-rice-thg_2021_10-1007-s42773-021-00087-1.pdf
+7. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-rice-based-ias_2017_10-1371-journal-pone-0176923.pdf
+8. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-rice-based-ni_2022_10-1007-s12403-022-00489-x.pdf
+9. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2016_10-1186-s40064-016-2019-6.pdf
+10. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2017_10-5897-ajar2016-11832.pdf
+11. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2019_10-2478-sjph-2019-0024.pdf
+12. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2022_10-1007-s12011-022-03129-2.pdf
+13. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-pb_2022_10-1007-s12011-022-03129-2.pdf
+14. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2016_10-1038-jes-2015-86.pdf
+15. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2018_10-22159-ajpcr-2018-v11i6-25522.pdf
+16. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2021_10-36787-jti-v15i2-584.pdf
+17. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fermented-beverages-non-tea-based-pb_2024_10-1051-bioconf-20249806006.pdf
+18. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-al_2018_10-5539-ijc-v10n4p68.pdf
+19. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-co_2015_10-5937-savteh1502071s.pdf
+20. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-co_2021_10-30744-brjac-2179-3425-ar-87-2021.pdf
+21. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-ni_2023_10-11648-j-ijfsb-20230802-12.pdf
+22. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-pb_2015_10-5937-savteh1502071s.pdf
+23. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-pb_2018_10-32598-ijt-12-3-517-1.pdf
+24. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-sb_2025_10-12944-crnfsj-13-3-4.pdf
+25. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-sn_2018_10-5539-ijc-v10n4p68.pdf
+26. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-tas_2015_10-5937-savteh1502071s.pdf
+27. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-tas_2018_10-32598-ijt-12-3-517-1.pdf
+28. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-tas_2018_10-5539-ijc-v10n4p68.pdf
+29. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-tas_2021_10-46602-jcsn-v46i4-646.pdf
+30. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-v_2017_10-1186-s12866-017-1029-z.pdf
+31. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-v_2018_10-22159-ijap-2018v10i4-26788.pdf
+32. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-apple-containing-pb_2015_10-1007-s13204-015-0412-z.pdf
+33. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-apple-containing-pb_2019_10-20914-2310-1202-2019-3-91-98.pdf
+34. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-apple-containing-pb_2020_10-61872-sdj-2020-01-01.pdf
+35. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-apple-containing-pb_2024_10-1038-s41598-024-54969-y.pdf
+36. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-apple-containing-pb_2024_10-3126-ijasbt-v12i3-70167.pdf
+37. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-non-apple-pb_2015_10-5937-savteh1502071s.pdf
+38. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-non-apple-pb_2018_10-32598-ijt-12-3-517-1.pdf
+39. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-non-apple-tas_2015_10-5937-savteh1502071s.pdf
+40. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-non-apple-tas_2018_10-32598-ijt-12-3-517-1.pdf
+41. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-non-apple-tas_2018_10-5539-ijc-v10n4p68.pdf
+42. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juices-non-apple-tas_2021_10-46602-jcsn-v46i4-646.pdf
+43. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-herbal-botanical-infusions-al_2022_10-12982-jams-2022-024.pdf
+44. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-herbal-botanical-infusions-al_2022_10-15395-mkb-v54n3-2729.pdf
+45. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-herbal-botanical-infusions-cd_2016_10-1038-jes-2015-86.pdf
+46. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-herbal-botanical-infusions-pb_2016_10-1038-jes-2015-86.pdf
+47. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-infant-formula-powder-non-soy-al_2015_10-5897-ajfs2015-1315.pdf
+48. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-infant-formula-powder-non-soy-al_2017_10-46770-as-2017-04-005.pdf
+49. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-infant-formula-powder-non-soy-al_2021_10-1007-s11356-021-14700-0.pdf
+50. raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-infant-formula-powder-non-soy-ca_2022_10-1007-s12161-022-02267-6.pdf
+... and 47 more
 
 ## Reference
 

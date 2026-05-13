@@ -13,7 +13,7 @@
       "closes_what": "ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules",
       "best_dispatched_to": "Claude Code Opus (analytical: cross-source synthesis)",
       "prompt_path": null,
-      "details": "1587 ingredient × metal cells are currently pending. Of those, 396 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 1191 cells have 0-1 contributing sources and need more corpus before synthesis runs.",
+      "details": "1585 ingredient × metal cells are currently pending. Of those, 396 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 1189 cells have 0-1 contributing sources and need more corpus before synthesis runs.",
       "inline_action": "list_ready_synthesis_cells",
       "priority": 74.25
     },
@@ -32,20 +32,6 @@
       "priority": 52.13333333333333
     },
     {
-      "id": "TRIAGE-ROUTING-UNRESOLVED",
-      "strategy": "triage",
-      "title": "Triage 110 routing-unresolved entries",
-      "impact_score": 165,
-      "cost": "medium",
-      "confidence": 0.9,
-      "closes_count": 110,
-      "closes_what": "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
-      "best_dispatched_to": "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
-      "prompt_path": "data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md",
-      "details": "110 entries broken down as: 88 ingredient, 22 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
-      "priority": 49.5
-    },
-    {
       "id": "POPULATE-SOURCE-LEGEND",
       "strategy": "schema",
       "title": "Populate 314 *[awaiting synthesis]* cells in source-legend tables across 173 pages",
@@ -60,18 +46,18 @@
       "priority": 44.48333333333333
     },
     {
-      "id": "COMPLETE-PRODUCT-SECTIONS",
-      "strategy": "schema",
-      "title": "Draft missing mandatory sections on 26 non-stub product pages (26 missing the load-bearing Levers section)",
-      "impact_score": 104,
-      "cost": "medium",
-      "confidence": 0.85,
-      "closes_count": 26,
-      "closes_what": "product-category pages missing one or more of the ten mandatory sections per CLAUDE.md Part 6. The Levers to reduce contamination section is the brand-legal-actionable surface; most pages are missing it specifically.",
-      "best_dispatched_to": "Claude Code Opus (per-page levers + section drafting)",
-      "prompt_path": "data/evidence/build-action-prompts/COMPLETE-PRODUCT-SECTIONS.md",
-      "details": "Product pages are higher per-page impact than ingredient pages because brand legal reads them. The Levers section requires ordering interventions by impact magnitude across five categories (sourcing, agronomic, processing, formulation, QC, packaging where relevant) with cited magnitude estimates. Autonomous; no Karen review required.",
-      "priority": 29.466666666666665
+      "id": "TRIAGE-ROUTING-UNRESOLVED",
+      "strategy": "triage",
+      "title": "Triage 208 routing-unresolved entries",
+      "impact_score": 250,
+      "cost": "expensive",
+      "confidence": 0.9,
+      "closes_count": 208,
+      "closes_what": "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
+      "best_dispatched_to": "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
+      "prompt_path": "data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md",
+      "details": "208 entries broken down as: 169 ingredient, 39 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
+      "priority": 28.125
     },
     {
       "id": "WISHLIST-EXPAND-FOR-BLOCKED-CELLS",
@@ -101,6 +87,20 @@
       "prompt_path": "data/evidence/build-action-prompts/COMPLETE-INGREDIENT-SECTIONS.md",
       "details": "Each page needs the missing sections drafted from the routing audit's contributing sources. Autonomous; no Karen review required. The subprocess reads the page, identifies contributing sources via routing audit, reads the top 3-5 source TL;DRs, drafts each missing section per the Part 6 template, commits in batches of 10-15 pages.",
       "priority": 26.5625
+    },
+    {
+      "id": "INGEST-STAGED",
+      "strategy": "ingest",
+      "title": "Ingest 97 staged PDFs and produce source pages",
+      "impact_score": 194,
+      "cost": "expensive",
+      "confidence": 0.95,
+      "closes_count": 97,
+      "closes_what": "wishlist gaps (each PDF likely closes one or more) + brings ingredient/product pages closer to populated",
+      "best_dispatched_to": "Obsidian Sonnet (cheaper per-token for bulk work)",
+      "prompt_path": "data/evidence/build-action-prompts/INGEST-STAGED.md",
+      "details": "97 files in raw/manual-fetch/seasonal-geographic-variance/ (manual drops + auto-fetched). Each produces a source page per CLAUDE.md Part 8; routing audit fans them out automatically via the watcher.",
+      "priority": 23.037499999999998
     }
   ]
 }

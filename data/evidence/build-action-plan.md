@@ -28,7 +28,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 **What this closes:** ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules
 
-**Details:** 1587 ingredient × metal cells are currently pending. Of those, 396 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 1191 cells have 0-1 contributing sources and need more corpus before synthesis runs.
+**Details:** 1585 ingredient × metal cells are currently pending. Of those, 396 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 1189 cells have 0-1 contributing sources and need more corpus before synthesis runs.
 
 ---
 
@@ -47,22 +47,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 3. Triage 110 routing-unresolved entries
-
-**Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
-**Strategy:** triage
-**Priority score:** 49.5 (impact 165 × confidence 0.9 ÷ cost factor)
-**Cost:** medium
-**Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
-**Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
-
-**What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
-
-**Details:** 110 entries broken down as: 88 ingredient, 22 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
-
----
-
-## 4. Populate 314 *[awaiting synthesis]* cells in source-legend tables across 173 pages
+## 3. Populate 314 *[awaiting synthesis]* cells in source-legend tables across 173 pages
 
 **Action ID:** `POPULATE-SOURCE-LEGEND`
 **Strategy:** schema
@@ -77,22 +62,22 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 5. Draft missing mandatory sections on 26 non-stub product pages (26 missing the load-bearing Levers section)
+## 4. Triage 208 routing-unresolved entries
 
-**Action ID:** `COMPLETE-PRODUCT-SECTIONS`
-**Strategy:** schema
-**Priority score:** 29.5 (impact 104 × confidence 0.85 ÷ cost factor)
-**Cost:** medium
-**Best dispatched to:** Claude Code Opus (per-page levers + section drafting)
-**Session prompt:** [`data/evidence/build-action-prompts/COMPLETE-PRODUCT-SECTIONS.md`](../../data/evidence/build-action-prompts/COMPLETE-PRODUCT-SECTIONS.md)
+**Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
+**Strategy:** triage
+**Priority score:** 28.1 (impact 250 × confidence 0.9 ÷ cost factor)
+**Cost:** expensive
+**Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
+**Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
 
-**What this closes:** product-category pages missing one or more of the ten mandatory sections per CLAUDE.md Part 6. The Levers to reduce contamination section is the brand-legal-actionable surface; most pages are missing it specifically.
+**What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
 
-**Details:** Product pages are higher per-page impact than ingredient pages because brand legal reads them. The Levers section requires ordering interventions by impact magnitude across five categories (sourcing, agronomic, processing, formulation, QC, packaging where relevant) with cited magnitude estimates. Autonomous; no Karen review required.
+**Details:** 208 entries broken down as: 169 ingredient, 39 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
 
 ---
 
-## 6. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
+## 5. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
 
 **Action ID:** `WISHLIST-EXPAND-FOR-BLOCKED-CELLS`
 **Strategy:** wishlist-update
@@ -107,7 +92,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 7. Draft missing mandatory sections on 125 non-stub ingredient pages
+## 6. Draft missing mandatory sections on 125 non-stub ingredient pages
 
 **Action ID:** `COMPLETE-INGREDIENT-SECTIONS`
 **Strategy:** schema
@@ -119,6 +104,21 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 **What this closes:** ingredient pages missing one or more of the eight mandatory sections per CLAUDE.md Part 6 (Why this commodity accumulates, contamination_profile body table, Ranges by source/region/variety, Processing effects, Ingredient-derivative risk, Mitigation options, Regulatory limits, Sources). The Mitigation options section is the load-bearing addition — most pages are missing it.
 
 **Details:** Each page needs the missing sections drafted from the routing audit's contributing sources. Autonomous; no Karen review required. The subprocess reads the page, identifies contributing sources via routing audit, reads the top 3-5 source TL;DRs, drafts each missing section per the Part 6 template, commits in batches of 10-15 pages.
+
+---
+
+## 7. Ingest 97 staged PDFs and produce source pages
+
+**Action ID:** `INGEST-STAGED`
+**Strategy:** ingest
+**Priority score:** 23.0 (impact 194 × confidence 0.95 ÷ cost factor)
+**Cost:** expensive
+**Best dispatched to:** Obsidian Sonnet (cheaper per-token for bulk work)
+**Session prompt:** [`data/evidence/build-action-prompts/INGEST-STAGED.md`](../../data/evidence/build-action-prompts/INGEST-STAGED.md)
+
+**What this closes:** wishlist gaps (each PDF likely closes one or more) + brings ingredient/product pages closer to populated
+
+**Details:** 97 files in raw/manual-fetch/seasonal-geographic-variance/ (manual drops + auto-fetched). Each produces a source page per CLAUDE.md Part 8; routing audit fans them out automatically via the watcher.
 
 ---
 
