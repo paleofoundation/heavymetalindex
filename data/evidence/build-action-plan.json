@@ -1,35 +1,49 @@
 {
   "generated_at": "2026-05-13",
-  "action_count": 4,
+  "action_count": 5,
   "actions": [
     {
       "id": "SYNTHESIS-INGREDIENT-PENDING",
       "strategy": "synthesis",
-      "title": "Run synthesis pass on 384 (ingredient, metal) cells that have 2+ contributing sources",
-      "impact_score": 768,
+      "title": "Run synthesis pass on 396 (ingredient, metal) cells that have 2+ contributing sources",
+      "impact_score": 792,
       "cost": "expensive",
       "confidence": 0.75,
-      "closes_count": 384,
+      "closes_count": 396,
       "closes_what": "ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules",
       "best_dispatched_to": "Claude Code Opus (analytical: cross-source synthesis)",
       "prompt_path": null,
-      "details": "1537 ingredient × metal cells are currently pending. Of those, 384 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 1153 cells have 0-1 contributing sources and need more corpus before synthesis runs.",
+      "details": "1587 ingredient × metal cells are currently pending. Of those, 396 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 1191 cells have 0-1 contributing sources and need more corpus before synthesis runs.",
       "inline_action": "list_ready_synthesis_cells",
-      "priority": 72
+      "priority": 74.25
     },
     {
       "id": "FIX-MISSING-DOIS",
       "strategy": "schema",
-      "title": "Recover real DOIs for 89 source pages currently marked no_doi_assigned with Scholar fallback",
-      "impact_score": 178,
+      "title": "Recover real DOIs for 90 source pages currently marked no_doi_assigned with Scholar fallback",
+      "impact_score": 180,
       "cost": "medium",
       "confidence": 0.85,
-      "closes_count": 89,
+      "closes_count": 90,
       "closes_what": "provenance debt from 2026-05-13 publish run (wiki/lint/2026-05-13-doi-fallback-followup.md); restores real DOI + publisher access URLs in place of Scholar search fallbacks",
       "best_dispatched_to": "Claude Code Opus (small structured edits, occasional DOI lookup)",
       "prompt_path": "data/evidence/build-action-prompts/FIX-MISSING-DOIS.md",
       "details": "Each page has its raw_path pointing to the Marker-converted markdown. DOI is usually on page 1 of the paper; if not, query Crossref / OpenAlex / Semantic Scholar by title+author+year. Replace doi: null + no_doi_assigned: true + Scholar URL with the real DOI + matching publisher access_url. If no DOI exists after exhaustive search, keep no_doi_assigned: true but replace the Scholar URL with a venue/publisher URL.",
-      "priority": 50.43333333333333
+      "priority": 51
+    },
+    {
+      "id": "POPULATE-SOURCE-LEGEND",
+      "strategy": "schema",
+      "title": "Populate 1546 *[awaiting synthesis]* cells in source-legend tables across 173 pages",
+      "impact_score": 400,
+      "cost": "expensive",
+      "confidence": 0.85,
+      "closes_count": 1546,
+      "closes_what": "the \"Used on this page for\" column in the hmi-source-legend table on every product, ingredient, and metal page — the brand-legal-facing scannable provenance surface Karen prioritized as standard format on 2026-05-13",
+      "best_dispatched_to": "Claude Code Opus (per-source contextual synthesis at scale)",
+      "prompt_path": "data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md",
+      "details": "1546 cells across 173 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.",
+      "priority": 42.5
     },
     {
       "id": "WISHLIST-EXPAND-FOR-BLOCKED-CELLS",
@@ -49,16 +63,16 @@
     {
       "id": "TRIAGE-ROUTING-UNRESOLVED",
       "strategy": "triage",
-      "title": "Triage 39 routing-unresolved entries",
-      "impact_score": 58.5,
+      "title": "Triage 20 routing-unresolved entries",
+      "impact_score": 30,
       "cost": "medium",
       "confidence": 0.9,
-      "closes_count": 39,
+      "closes_count": 20,
       "closes_what": "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
       "best_dispatched_to": "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
       "prompt_path": "data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md",
-      "details": "39 entries broken down as: 39 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
-      "priority": 17.55
+      "details": "20 entries broken down as: 12 ingredient, 8 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
+      "priority": 9
     }
   ]
 }

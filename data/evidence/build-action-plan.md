@@ -2,7 +2,7 @@
 title: Build Action Plan
 type: orchestrator-plan
 generated_at: 2026-05-13
-action_count: 4
+action_count: 5
 audience: [internal]
 noindex: true
 ---
@@ -17,26 +17,26 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 1. Run synthesis pass on 384 (ingredient, metal) cells that have 2+ contributing sources
+## 1. Run synthesis pass on 396 (ingredient, metal) cells that have 2+ contributing sources
 
 **Action ID:** `SYNTHESIS-INGREDIENT-PENDING`
 **Strategy:** synthesis
-**Priority score:** 72.0 (impact 768 × confidence 0.75 ÷ cost factor)
+**Priority score:** 74.3 (impact 792 × confidence 0.75 ÷ cost factor)
 **Cost:** expensive
 **Best dispatched to:** Claude Code Opus (analytical: cross-source synthesis)
 **Inline action:** `list_ready_synthesis_cells` (the orchestrator can execute this directly; not yet wired in v0)
 
 **What this closes:** ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules
 
-**Details:** 1537 ingredient × metal cells are currently pending. Of those, 384 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 1153 cells have 0-1 contributing sources and need more corpus before synthesis runs.
+**Details:** 1587 ingredient × metal cells are currently pending. Of those, 396 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 1191 cells have 0-1 contributing sources and need more corpus before synthesis runs.
 
 ---
 
-## 2. Recover real DOIs for 89 source pages currently marked no_doi_assigned with Scholar fallback
+## 2. Recover real DOIs for 90 source pages currently marked no_doi_assigned with Scholar fallback
 
 **Action ID:** `FIX-MISSING-DOIS`
 **Strategy:** schema
-**Priority score:** 50.4 (impact 178 × confidence 0.85 ÷ cost factor)
+**Priority score:** 51.0 (impact 180 × confidence 0.85 ÷ cost factor)
 **Cost:** medium
 **Best dispatched to:** Claude Code Opus (small structured edits, occasional DOI lookup)
 **Session prompt:** [`data/evidence/build-action-prompts/FIX-MISSING-DOIS.md`](../../data/evidence/build-action-prompts/FIX-MISSING-DOIS.md)
@@ -47,7 +47,22 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 3. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
+## 3. Populate 1546 *[awaiting synthesis]* cells in source-legend tables across 173 pages
+
+**Action ID:** `POPULATE-SOURCE-LEGEND`
+**Strategy:** schema
+**Priority score:** 42.5 (impact 400 × confidence 0.85 ÷ cost factor)
+**Cost:** expensive
+**Best dispatched to:** Claude Code Opus (per-source contextual synthesis at scale)
+**Session prompt:** [`data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md`](../../data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md)
+
+**What this closes:** the "Used on this page for" column in the hmi-source-legend table on every product, ingredient, and metal page — the brand-legal-facing scannable provenance surface Karen prioritized as standard format on 2026-05-13
+
+**Details:** 1546 cells across 173 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.
+
+---
+
+## 4. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
 
 **Action ID:** `WISHLIST-EXPAND-FOR-BLOCKED-CELLS`
 **Strategy:** wishlist-update
@@ -62,18 +77,18 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 4. Triage 39 routing-unresolved entries
+## 5. Triage 20 routing-unresolved entries
 
 **Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
 **Strategy:** triage
-**Priority score:** 17.6 (impact 58.5 × confidence 0.9 ÷ cost factor)
+**Priority score:** 9.0 (impact 30 × confidence 0.9 ÷ cost factor)
 **Cost:** medium
 **Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
 **Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
 
 **What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
 
-**Details:** 39 entries broken down as: 39 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
+**Details:** 20 entries broken down as: 12 ingredient, 8 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
 
 ---
 
