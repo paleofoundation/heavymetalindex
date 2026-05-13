@@ -17,10 +17,9 @@
 //
 // Marker convention: <!-- BEGIN: hmi-source-legend --> / <!-- END: hmi-source-legend -->
 // wraps the generated section so the prebuild regenerator can replace
-// contents without disturbing surrounding prose. If a target page already
-// has a non-markered `## Sources` section with content, the page is
-// flagged in the lint output (manual-migration-required) and skipped to
-// avoid clobbering hand-curated tables.
+// contents without disturbing surrounding prose. Non-markered `## Sources`
+// sections are overwritten in place — all wiki content is Claude-generated
+// and nothing requires manual migration.
 
 import fs from "node:fs"
 import path from "node:path"
@@ -431,19 +430,8 @@ function upsertLegend(raw, citeKeys, targetPath, targetKey) {
       /^No source pages/i.test(existingContent)
     const isStructuredTable = preserved.size > 0
     const isBulletList = isSimpleBulletList(existingContent)
-    if (isPlaceholder || isStructuredTable || isBulletList) {
-      const rendered = renderLegend(citeKeys, preserved)
-      // Replace the heading + content (note: regex captures leading newline)
-      return raw.replace(sourcesHeadingMatch[0], `\n${rendered}\n`)
-    }
-    // Free-form prose — flag for manual migration
-    flaggedForMigration.push({
-      targetKey,
-      targetPath,
-      reason: "Free-form prose under `## Sources` — generator will not auto-migrate. Wrap in markers manually after review.",
-      snippet: existingContent.slice(0, 200),
-    })
-    return null
+    const rendered = renderLegend(citeKeys, preserved)
+    return raw.replace(sourcesHeadingMatch[0], `\n${rendered}\n`)
   }
   // Case 3: no `## Sources` heading at all — append at end of page
   const rendered = renderLegend(citeKeys)
