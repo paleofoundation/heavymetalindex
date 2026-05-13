@@ -19,7 +19,8 @@ products: []
 matrices: [dark-chocolate, cocoa-powder, cocoa-products]
 jurisdictions: [US]
 sample_n: 72
-updated: 2026-05-12
+near_duplicates: [FM_11321977]
+updated: 2026-05-13
 ---
 
 # Hands et al. 2024 — Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA

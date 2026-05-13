@@ -2,7 +2,7 @@
 title: Build Action Plan
 type: orchestrator-plan
 generated_at: 2026-05-13
-action_count: 5
+action_count: 7
 audience: [internal]
 noindex: true
 ---
@@ -32,11 +32,11 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 2. Recover real DOIs for 90 source pages currently marked no_doi_assigned with Scholar fallback
+## 2. Recover real DOIs for 92 source pages currently marked no_doi_assigned with Scholar fallback
 
 **Action ID:** `FIX-MISSING-DOIS`
 **Strategy:** schema
-**Priority score:** 51.0 (impact 180 × confidence 0.85 ÷ cost factor)
+**Priority score:** 52.1 (impact 184 × confidence 0.85 ÷ cost factor)
 **Cost:** medium
 **Best dispatched to:** Claude Code Opus (small structured edits, occasional DOI lookup)
 **Session prompt:** [`data/evidence/build-action-prompts/FIX-MISSING-DOIS.md`](../../data/evidence/build-action-prompts/FIX-MISSING-DOIS.md)
@@ -47,22 +47,52 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 3. Populate 1546 *[awaiting synthesis]* cells in source-legend tables across 173 pages
+## 3. Triage 110 routing-unresolved entries
+
+**Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
+**Strategy:** triage
+**Priority score:** 49.5 (impact 165 × confidence 0.9 ÷ cost factor)
+**Cost:** medium
+**Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
+**Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
+
+**What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
+
+**Details:** 110 entries broken down as: 88 ingredient, 22 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
+
+---
+
+## 4. Populate 314 *[awaiting synthesis]* cells in source-legend tables across 173 pages
 
 **Action ID:** `POPULATE-SOURCE-LEGEND`
 **Strategy:** schema
-**Priority score:** 42.5 (impact 400 × confidence 0.85 ÷ cost factor)
-**Cost:** expensive
+**Priority score:** 44.5 (impact 157 × confidence 0.85 ÷ cost factor)
+**Cost:** medium
 **Best dispatched to:** Claude Code Opus (per-source contextual synthesis at scale)
 **Session prompt:** [`data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md`](../../data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md)
 
 **What this closes:** the "Used on this page for" column in the hmi-source-legend table on every product, ingredient, and metal page — the brand-legal-facing scannable provenance surface Karen prioritized as standard format on 2026-05-13
 
-**Details:** 1546 cells across 173 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.
+**Details:** 314 cells across 173 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.
 
 ---
 
-## 4. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
+## 5. Draft missing mandatory sections on 26 non-stub product pages (26 missing the load-bearing Levers section)
+
+**Action ID:** `COMPLETE-PRODUCT-SECTIONS`
+**Strategy:** schema
+**Priority score:** 29.5 (impact 104 × confidence 0.85 ÷ cost factor)
+**Cost:** medium
+**Best dispatched to:** Claude Code Opus (per-page levers + section drafting)
+**Session prompt:** [`data/evidence/build-action-prompts/COMPLETE-PRODUCT-SECTIONS.md`](../../data/evidence/build-action-prompts/COMPLETE-PRODUCT-SECTIONS.md)
+
+**What this closes:** product-category pages missing one or more of the ten mandatory sections per CLAUDE.md Part 6. The Levers to reduce contamination section is the brand-legal-actionable surface; most pages are missing it specifically.
+
+**Details:** Product pages are higher per-page impact than ingredient pages because brand legal reads them. The Levers section requires ordering interventions by impact magnitude across five categories (sourcing, agronomic, processing, formulation, QC, packaging where relevant) with cited magnitude estimates. Autonomous; no Karen review required.
+
+---
+
+## 6. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
 
 **Action ID:** `WISHLIST-EXPAND-FOR-BLOCKED-CELLS`
 **Strategy:** wishlist-update
@@ -77,18 +107,18 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 5. Triage 20 routing-unresolved entries
+## 7. Draft missing mandatory sections on 125 non-stub ingredient pages
 
-**Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
-**Strategy:** triage
-**Priority score:** 9.0 (impact 30 × confidence 0.9 ÷ cost factor)
-**Cost:** medium
-**Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
-**Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
+**Action ID:** `COMPLETE-INGREDIENT-SECTIONS`
+**Strategy:** schema
+**Priority score:** 26.6 (impact 250 × confidence 0.85 ÷ cost factor)
+**Cost:** expensive
+**Best dispatched to:** Claude Code Opus (per-page section drafting from routing audit + source pages)
+**Session prompt:** [`data/evidence/build-action-prompts/COMPLETE-INGREDIENT-SECTIONS.md`](../../data/evidence/build-action-prompts/COMPLETE-INGREDIENT-SECTIONS.md)
 
-**What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
+**What this closes:** ingredient pages missing one or more of the eight mandatory sections per CLAUDE.md Part 6 (Why this commodity accumulates, contamination_profile body table, Ranges by source/region/variety, Processing effects, Ingredient-derivative risk, Mitigation options, Regulatory limits, Sources). The Mitigation options section is the load-bearing addition — most pages are missing it.
 
-**Details:** 20 entries broken down as: 12 ingredient, 8 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
+**Details:** Each page needs the missing sections drafted from the routing audit's contributing sources. Autonomous; no Karen review required. The subprocess reads the page, identifies contributing sources via routing audit, reads the top 3-5 source TL;DRs, drafts each missing section per the Part 6 template, commits in batches of 10-15 pages.
 
 ---
 

@@ -1,6 +1,6 @@
 # Session prompt: triage routing-unresolved entries
 
-20 entries in `data/evidence/routing_unresolved.csv`. Each is a source page whose frontmatter declared a product / ingredient / metal / regulation that does not match any existing wiki page.
+110 entries in `data/evidence/routing_unresolved.csv`. Each is a source page whose frontmatter declared a product / ingredient / metal / regulation that does not match any existing wiki page.
 
 ## Decision tree per entry
 
@@ -19,8 +19,8 @@ Sample first 5 rows:
   - albishi2026-cassava-flour-biofortification declared ingredient `cassava` (does not exist)
   - alinezhad2024-heavy-metals-milk-systematic-review declared product `pasteurized-milk` (does not exist)
   - alinezhad2024-heavy-metals-milk-systematic-review declared ingredient `dairy` (does not exist)
-  - bravo2024-cadmium-cacao-arauca declared product `chocolate` (does not exist)
-  - hussein2024-toxic-metals-canned-fish-egypt declared product `canned-fish` (does not exist)
+  - aljohani2023-heavy-metal-toxicity-poultry declared product `poultry-meat` (does not exist)
+  - aljohani2023-heavy-metal-toxicity-poultry declared product `eggs` (does not exist)
 
 ## At the end
 

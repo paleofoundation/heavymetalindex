@@ -17,7 +17,7 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/dark-chocolate]]"]
 products: ["[[products/dark-chocolate]]"]
 matrices: [dark-chocolate, cocoa-powder, cocoa-product]
 jurisdictions: [US]
-near_duplicates: []
+near_duplicates: [hands2024-multiyear-dark-chocolate-cocoa-usa]
 sample_n: 72
 sample_population: "72 consumer cocoa-containing products (dark chocolate, cocoa powder, and related products) purchased in the US from retail and online sources across four cohorts: 2014 (n=17), 2016 (n=17), 2019 (n=21), 2022 (n=17)"
 updated: 2026-05-13

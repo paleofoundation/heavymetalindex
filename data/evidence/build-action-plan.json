@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-13",
-  "action_count": 5,
+  "action_count": 7,
   "actions": [
     {
       "id": "SYNTHESIS-INGREDIENT-PENDING",
@@ -20,30 +20,58 @@
     {
       "id": "FIX-MISSING-DOIS",
       "strategy": "schema",
-      "title": "Recover real DOIs for 90 source pages currently marked no_doi_assigned with Scholar fallback",
-      "impact_score": 180,
+      "title": "Recover real DOIs for 92 source pages currently marked no_doi_assigned with Scholar fallback",
+      "impact_score": 184,
       "cost": "medium",
       "confidence": 0.85,
-      "closes_count": 90,
+      "closes_count": 92,
       "closes_what": "provenance debt from 2026-05-13 publish run (wiki/lint/2026-05-13-doi-fallback-followup.md); restores real DOI + publisher access URLs in place of Scholar search fallbacks",
       "best_dispatched_to": "Claude Code Opus (small structured edits, occasional DOI lookup)",
       "prompt_path": "data/evidence/build-action-prompts/FIX-MISSING-DOIS.md",
       "details": "Each page has its raw_path pointing to the Marker-converted markdown. DOI is usually on page 1 of the paper; if not, query Crossref / OpenAlex / Semantic Scholar by title+author+year. Replace doi: null + no_doi_assigned: true + Scholar URL with the real DOI + matching publisher access_url. If no DOI exists after exhaustive search, keep no_doi_assigned: true but replace the Scholar URL with a venue/publisher URL.",
-      "priority": 51
+      "priority": 52.13333333333333
+    },
+    {
+      "id": "TRIAGE-ROUTING-UNRESOLVED",
+      "strategy": "triage",
+      "title": "Triage 110 routing-unresolved entries",
+      "impact_score": 165,
+      "cost": "medium",
+      "confidence": 0.9,
+      "closes_count": 110,
+      "closes_what": "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
+      "best_dispatched_to": "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
+      "prompt_path": "data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md",
+      "details": "110 entries broken down as: 88 ingredient, 22 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
+      "priority": 49.5
     },
     {
       "id": "POPULATE-SOURCE-LEGEND",
       "strategy": "schema",
-      "title": "Populate 1546 *[awaiting synthesis]* cells in source-legend tables across 173 pages",
-      "impact_score": 400,
-      "cost": "expensive",
+      "title": "Populate 314 *[awaiting synthesis]* cells in source-legend tables across 173 pages",
+      "impact_score": 157,
+      "cost": "medium",
       "confidence": 0.85,
-      "closes_count": 1546,
+      "closes_count": 314,
       "closes_what": "the \"Used on this page for\" column in the hmi-source-legend table on every product, ingredient, and metal page — the brand-legal-facing scannable provenance surface Karen prioritized as standard format on 2026-05-13",
       "best_dispatched_to": "Claude Code Opus (per-source contextual synthesis at scale)",
       "prompt_path": "data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md",
-      "details": "1546 cells across 173 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.",
-      "priority": 42.5
+      "details": "314 cells across 173 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.",
+      "priority": 44.48333333333333
+    },
+    {
+      "id": "COMPLETE-PRODUCT-SECTIONS",
+      "strategy": "schema",
+      "title": "Draft missing mandatory sections on 26 non-stub product pages (26 missing the load-bearing Levers section)",
+      "impact_score": 104,
+      "cost": "medium",
+      "confidence": 0.85,
+      "closes_count": 26,
+      "closes_what": "product-category pages missing one or more of the ten mandatory sections per CLAUDE.md Part 6. The Levers to reduce contamination section is the brand-legal-actionable surface; most pages are missing it specifically.",
+      "best_dispatched_to": "Claude Code Opus (per-page levers + section drafting)",
+      "prompt_path": "data/evidence/build-action-prompts/COMPLETE-PRODUCT-SECTIONS.md",
+      "details": "Product pages are higher per-page impact than ingredient pages because brand legal reads them. The Levers section requires ordering interventions by impact magnitude across five categories (sourcing, agronomic, processing, formulation, QC, packaging where relevant) with cited magnitude estimates. Autonomous; no Karen review required.",
+      "priority": 29.466666666666665
     },
     {
       "id": "WISHLIST-EXPAND-FOR-BLOCKED-CELLS",
@@ -61,18 +89,18 @@
       "priority": 27.72
     },
     {
-      "id": "TRIAGE-ROUTING-UNRESOLVED",
-      "strategy": "triage",
-      "title": "Triage 20 routing-unresolved entries",
-      "impact_score": 30,
-      "cost": "medium",
-      "confidence": 0.9,
-      "closes_count": 20,
-      "closes_what": "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
-      "best_dispatched_to": "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
-      "prompt_path": "data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md",
-      "details": "20 entries broken down as: 12 ingredient, 8 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
-      "priority": 9
+      "id": "COMPLETE-INGREDIENT-SECTIONS",
+      "strategy": "schema",
+      "title": "Draft missing mandatory sections on 125 non-stub ingredient pages",
+      "impact_score": 250,
+      "cost": "expensive",
+      "confidence": 0.85,
+      "closes_count": 125,
+      "closes_what": "ingredient pages missing one or more of the eight mandatory sections per CLAUDE.md Part 6 (Why this commodity accumulates, contamination_profile body table, Ranges by source/region/variety, Processing effects, Ingredient-derivative risk, Mitigation options, Regulatory limits, Sources). The Mitigation options section is the load-bearing addition — most pages are missing it.",
+      "best_dispatched_to": "Claude Code Opus (per-page section drafting from routing audit + source pages)",
+      "prompt_path": "data/evidence/build-action-prompts/COMPLETE-INGREDIENT-SECTIONS.md",
+      "details": "Each page needs the missing sections drafted from the routing audit's contributing sources. Autonomous; no Karen review required. The subprocess reads the page, identifies contributing sources via routing audit, reads the top 3-5 source TL;DRs, drafts each missing section per the Part 6 template, commits in batches of 10-15 pages.",
+      "priority": 26.5625
     }
   ]
 }
