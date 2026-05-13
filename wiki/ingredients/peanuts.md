@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 48, "Peanuts, dry roasted, salted." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Peanuts (Arachis hypogaea), also called groundnuts, are unusual among legumes in that their pods develop and mature underground. After fertilisation, the petiole elongates and pushes the developing ovary into the soil, where the pod fills over a period of 60 to 80 days in direct contact with the surrounding soil matrix. This geocarpic growth habit means the seed and its enclosing pod are exposed to soil metals throughout grain fill, in contrast to above-ground legumes (lentils, chickpeas, soy) where seeds fill in pods that hang above the soil surface. Cadmium uptake occurs primarily through root membrane transporters and secondarily through direct contact between the pod surface and the soil; both pathways contribute to seed Cd accumulation. Nickel follows a similar bioavailability-driven uptake pattern, and peanuts are consistently identified as one of the highest dietary Ni contributors in occurrence surveys ([[sources/flyvholm1984-nickel-content-food-dietary-intake]]; [[sources/efsa-nickel-contam-2020]]).
+
+Cadmium accumulation in peanuts is further documented in authoritative toxicology reviews as a characteristic of oilseed crops grown with Cd-containing phosphate fertilizers or on soils with elevated natural Cd; peanuts and sunflower seeds are specifically named as elevated-Cd crops in the canonical Cd toxicology chapter ([[sources/nordberg2015-cadmium-chapter]]). The EFSA Cd opinion of 2009 identifies peanuts as a contributing source in European dietary Cd exposure assessments, reflecting their position in processed snack foods and peanut-containing products ([[sources/efsa-cadmium-contam-2009]]).
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -109,6 +115,52 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=1 (in progress) | — | — | — | — |
 | Sn | data gap | — | — | — | — |
 | U | n=1 (in progress) | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+Peanut Cd concentrations vary substantially by growing region. Sandy, acidic soils with elevated natural Cd, common in parts of West and Central Africa and certain South American growing zones, produce peanuts with higher Cd than peanuts grown on managed US or Argentine soils. US production, concentrated in Virginia, Georgia, Texas, and the Carolinas, generally shows lower Cd than African or some Asian production, but within-US variance by field and season is not negligible. Chinese peanut production covers diverse soil geographies; without origin-specific testing, Chinese peanuts represent an unknown Cd distribution. Runner, Virginia, Spanish, and Valencia types do not show consistent cultivar-level differences in Cd accumulation in the available literature; growing region soil chemistry dominates within-group variance.
+
+Nickel occurrence in peanuts is less origin-dependent than Cd; the EFSA 2020 Ni assessment documents peanuts as a high-Ni food group across European monitoring data regardless of geographic origin, consistent with Ni being a normal soil constituent present in bioavailable form across a wide range of agricultural soils ([[sources/efsa-nickel-contam-2020]]). Ni in peanuts therefore does not respond to origin-based sourcing interventions as strongly as Cd.
+
+The FDA TDS FY2018-FY2020 data for dry-roasted salted peanuts (TDS Food 48, n=3) shows Cd at 35-45 ppb (median approximately 42 ppb) and Ni at 400-550 ppb, reflecting US market peanuts predominantly from US-grown sources ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
+
+## Processing effects
+
+Dry roasting at 160-175 degrees Celsius does not appreciably volatilise inorganic metals (Pb, Cd, Ni). Moisture loss during roasting means dry roasted peanut metal concentrations are slightly higher on a wet-weight basis than raw peanut concentrations from the same lot. Blanching (skin removal post-roasting) removes the seed coat; the seed coat constitutes a small mass fraction, and its contribution to the whole-nut metal burden is minor. Salting (dry surface application) does not add significant heavy metals at standard application levels.
+
+## Ingredient-derivative risk
+
+Roasted whole peanuts represent the base form. Peanut butter (see [[ingredients/peanut-butter]]) is a concentrated paste form that carries the same metal profile as the source peanuts. Defatted peanut flour and defatted peanut meal, produced as co-products of peanut oil extraction, concentrate metals above whole-peanut levels because the oil fraction (which is metal-free after refining) is removed while the metal-bearing protein and fibre matrix remains; defatted peanut flour is therefore a higher-risk derivative than whole peanuts or peanut butter on a per-unit-mass basis. Refined peanut oil contains negligible heavy metals after industrial refining (solvent extraction, degumming, bleaching, deodorisation) because metals partition to the aqueous and solid phases.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying peanut origin to prefer US Southeast or Argentine production over unverified African or Asian origin, supported by Cd testing of incoming lots, is the highest-impact sourcing lever for cadmium reduction. For nickel, origin specification does not reduce risk as reliably; lot-level testing is the preferred lever. Codex and EU Cd MLs for peanuts provide a minimum compliance threshold; brand QA programs may adopt tighter internal specifications given the sensitivity of peanut Cd to soil origin.
+
+### Agronomic levers
+
+Soil liming in peanut fields to raise pH above 6.5 reduces soil Cd bioavailability and plant uptake. Avoiding application of Cd-contaminated phosphate fertilizers is a preventive measure for growers. These levers are most accessible in contracted supply chains where the buyer has influence over field management.
+
+### Processing levers
+
+No validated commercial-scale metal-reduction processing step for whole peanuts is documented in the current corpus. Blanching provides marginal seed-coat removal. The most effective processing lever documented is avoiding co-production of defatted peanut flour in applications where Cd load is a concern, since the defatting step concentrates metals into the meal fraction.
+
+### Formulation levers
+
+In composite products (snack mixes, granola bars, protein powders) where peanuts contribute a large share of dietary Ni, substituting a portion of peanut inclusion with seeds or other nuts that are lower in Ni per serving reduces the Ni contribution. For Cd, peanut contribution in multi-ingredient products is diluted by the overall ingredient mix, and the formulation lever is relevant primarily in high-peanut-fraction products.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of incoming peanuts or peanut-derived ingredients for Cd and Ni is the most direct control. Given that TDS data show consistent Cd detectability at 35-45 ppb and Ni at 400-550 ppb, both analytes are reliably above typical LODs and warrant routine monitoring in quality programmes. Third-party laboratory testing with chain-of-custody documentation provides audit-defensible evidence.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for cadmium in groundnuts (peanuts) intended for direct human consumption is 0.10 mg/kg fresh weight, and the ML for lead in peanuts for direct human consumption is 0.10 mg/kg ([[regulations/eu-2023-915-cadmium]]). Codex Alimentarius has adopted a Cd ML for groundnuts intended for further processing that differs from the direct-consumption ML; the relevant Codex document is [[regulations/codex-cadmium-mls]]. The 17th Session of the Codex Committee on Contaminants in Foods (2024) reviewed trace metal limits for nuts and legumes including peanuts ([[sources/codex-cccf17-2024]]). No US FDA action level for Cd or Ni in peanuts applies under the current regulatory framework; FDA Closer to Zero ([[regulations/fda-closer-to-zero]]) does not currently list peanuts as a priority category. EFSA's 2020 Ni risk assessment ([[sources/efsa-nickel-contam-2020]]) identifies peanuts as a high-Ni food and uses European peanut occurrence data in chronic exposure modelling, providing the regulatory toxicology basis for evaluating Ni exposure from peanut consumption.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

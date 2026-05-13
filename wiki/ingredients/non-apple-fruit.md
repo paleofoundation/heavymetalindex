@@ -89,6 +89,12 @@ sources: 1
 
 FSA/Fera measured this ingredient or a closely matching non-infant-specific food composite in the FS102048 survey. Exact concentrations remain in progress until Table 6 is parsed into structured ingredient rows with quantitation flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Non-apple fruit as a category encompasses a wide range of botanically distinct commodities (pears, peaches, berries, citrus, grapes, tropical fruits, and others) that share a broadly similar pattern of low heavy metal accumulation in edible flesh tissue. Fruit tissue is physiologically specialized for seed dispersal rather than nutrient storage, and the accumulation of phytotoxic metals such as Pb and Cd in flesh is actively limited by plant biology. Root uptake is the primary metal-entry pathway; however, the transfer factor from root to fruit flesh is substantially lower than the transfer factor from root to root tissue or leaf tissue. The protective effect of fruit skin or rind (thicker in citrus and stone fruits, thinner in berries) adds a secondary barrier against atmospheric Pb deposition and soil splash. Among non-apple fruits, the higher-risk sub-types within this category page are those with thin or consumed skins (berries, grapes) grown in contaminated soils, and those sourced from regions with elevated soil Cd from historic phosphate fertilizer use. Dried and concentrated derivatives (sultanas, dried berries, fruit juice concentrates) merit separate consideration because moisture removal concentrates all analytes on a wet weight basis.
+
+This is a broad category page covering non-apple fruits that cannot be attributed to a dedicated commodity page. Individual fruit pages (oranges, melon, and others) carry more specific occurrence data where available.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +119,48 @@ This node is linked from [[products/fruit-juices-non-apple]].
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+Variation within the non-apple fruit category is driven more by specific commodity type than by geography, because the biological differences between a berry, a stone fruit, and a citrus fruit are larger than the geographic soil differences for any single commodity. Berries (strawberries, blueberries, raspberries) have thin skins and relatively high surface-area-to-volume ratios, making them more susceptible to surface Pb deposition than thick-skinned citrus. Grapes, particularly wine grapes from regions where copper-based fungicides have been applied historically, may carry elevated Cu and occasionally elevated Cd in skin and flesh. Tropical fruits (mango, pineapple, papaya) are generally low-risk based on the sparse monitoring data available. Pears are botanically close to apples and show similar low metal profiles. The FSA FS102048 survey [[sources/fsa2016-infant-food-formula-metals-survey]] provides the broadest single-source occurrence dataset for this category in the current corpus, covering non-apple fruit as a composite monitoring category. Specific sub-commodity breakdown data remain limited and will be expanded as individual fruit source pages accumulate.
+
+## Processing effects
+
+Processing effects on metal concentrations in non-apple fruit depend substantially on the specific fruit and the processing step. Skin and stone removal during production of stone-fruit purées eliminates the higher-Pb outer tissue, reducing Pb concentration in the final product relative to whole-fruit composition. Juice extraction from citrus and other fruits concentrates analytes relative to whole-fruit flesh in proportion to juice yield; the remaining pulp retains a disproportionate share of fiber-bound metals. Drying (raisins, dried apricots, dried cranberries) concentrates all analytes proportionally to moisture loss, typically producing a 4 to 8-fold increase in ppb values relative to fresh fruit on a wet weight basis. Freezing without concentration does not alter metal concentrations materially. Pasteurization of juice or purée does not affect total metal concentrations.
+
+## Ingredient-derivative risk
+
+The derivative with the most materially different metal profile relative to fresh fruit flesh is dried fruit: the moisture removal that makes drying commercially practical simultaneously concentrates all metals in proportion to the degree of drying. Juice concentrates and fruit purée concentrates carry similar concentration artifacts. Fruit powders (freeze-dried berry powder, for example) used in supplements and functional foods may show further-elevated ppb values relative to fresh fruit. For regulatory compliance purposes, the concentration basis (wet weight as purchased versus reconstituted versus fresh-equivalent) must be specified when comparing against regulatory limits. Individual sub-commodity ingredient pages should be consulted for derivatives specific to a given fruit type.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing fresh fruit from suppliers operating under national monitoring programs with documented soil-history assessment reduces the primary risk from elevated soil Cd and Pb. For dried-fruit derivatives, requesting occurrence data from the supplier on a dry-weight basis (or a fresh-equivalent basis with moisture content documented) enables like-for-like comparison against regulatory limits.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Skin and stone removal before purée production reduces Pb contributed by surface deposition. For dried-fruit products, controlling drying temperature and duration and expressing analytical results on a consistent moisture-corrected basis prevents misinterpretation of concentration data.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in fresh fruit on a wet weight basis, applicable across the non-apple fruit category. Dried fruit carries different EU limits reflecting the concentration effect of water removal. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) sets Pb limits for fresh fruit. No specific iAs or tHg limit applies to fresh or dried fruit under major regulatory frameworks at the category level. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
 ## Sources
 

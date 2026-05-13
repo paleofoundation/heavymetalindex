@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 170, "Syrup, pancake." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Commercial pancake syrup is a formulated sweetener, distinct from real maple syrup, that is predominantly composed of high-fructose corn syrup or glucose-fructose syrup, water, artificial flavors, caramel color, and preservatives. The metal profile of this product is determined by the metal content of the corn-derived glucose syrup that constitutes its primary ingredient. Corn starch hydrolysis and glucose syrup refining are multi-step processes involving liquefaction, saccharification, ion-exchange purification, and evaporation; the ion-exchange step in particular removes most metal-containing impurities from the glucose stream, resulting in a refined syrup with very low metal concentrations. Caramel color, produced by controlled heat treatment of sugar solutions, does not introduce significant metals. Artificial flavorings and preservatives contribute negligible metals at the use levels applied in this product. The net result is that pancake syrup has one of the lowest heavy metal profiles of any food product in the current corpus. FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] for pancake syrup (TDS Food 170, n=3) show all analytes at or below detection limits with the sole exception of U, which was detected at trace levels (max 1.4 ppb).
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+Commercial pancake syrup does not exhibit meaningful geographic or variety-based variation in metal content because the product is manufactured from highly refined corn syrup rather than from a primary agricultural commodity that tracks soil conditions. The principal source of any trace metal variability would be the water used in manufacturing (which may contribute trace U and other metals at very low levels depending on source water quality) and equipment used in production. The FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] represent the only quantitative occurrence dataset for this product in the current corpus (n=3 composites) and confirm a uniformly low-metal profile across all analytes tested. Brand-to-brand variation is expected to be minimal.
+
+## Processing effects
+
+The corn-syrup refining process (involving liquefaction, saccharification, ion exchange, and evaporation) is the primary processing pathway that produces this product's low metal profile. The ion-exchange purification step removes most ionic metal species from the glucose stream. Subsequent blending with flavors, color, and preservatives occurs at concentrations too low to introduce metals in detectable quantities. The finished product has not been identified in the literature or monitoring programs as accumulating metals during storage in normal commercial packaging.
+
+## Ingredient-derivative risk
+
+Pancake syrup is itself a finished consumer product rather than an intermediate ingredient; however, it is occasionally listed as an ingredient in confectionery, baked goods, and processed food formulations as a flavored sweetener. In those applications, its uniformly low metal content means it does not drive the heavy metal profile of the composite product. Real maple syrup (a distinct product not covered on this page) has different processing characteristics and may carry higher metal concentrations from tree-xylem uptake and evaporator equipment; that product is not covered here.
+
+## Mitigation options
+
+### Sourcing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+Not applicable; pancake syrup is a formulated product based on refined corn syrup, not a directly harvested agricultural commodity.
+
+### Processing levers
+
+Maintaining ion-exchange resin quality and replacement schedules in glucose syrup manufacturing is the primary processing control for ensuring continued low metal content. Monitoring source water quality for U and other trace metals is relevant for manufacturers in regions with elevated groundwater U.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given the uniformly below-detection or near-detection levels observed across all analytes in TDS monitoring [[sources/fda2022-tds-elements-fy2018-fy2020]], routine heavy metal testing of pancake syrup is of very low priority for most food safety applications. For manufacturers incorporating this ingredient into infant or young-child products, periodic supplier verification testing provides an appropriate assurance baseline.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+No specific maximum level for Pb, Cd, or other metals applies exclusively to pancake syrup under EU Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] or under Codex CXS 193-1995. The product would fall within the broader sugar and sweetener category for regulatory classification. No US federal maximum level specifically addresses pancake syrup for metal contaminants. General food safety provisions and HACCP frameworks apply.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -93,6 +93,14 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 20, "Pork bacon, oven-cooked." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Pork bacon is produced from pork belly (subcutaneous fat and underlying muscle from the ventral trunk), cured with salt, nitrites, and often additional flavourings, then typically smoked and sliced. The heavy metal profile of pork bacon reflects the general characteristics of pork muscle and adipose tissue, which are low in cadmium, lead, and mercury relative to organ tissues (kidney, liver) because these metals do not bioaccumulate efficiently in mammalian muscle or fat. Cadmium in mammals concentrates preferentially in the renal cortex and, to a lesser extent, the liver; skeletal muscle and adipose tissue carry Cd at concentrations generally an order of magnitude lower than kidney.
+
+Pigs accumulate metals primarily through dietary intake and, in outdoor production systems, through soil ingestion. Commercial swine production relies on formulated compound feed, and feed Cd levels are regulated in the EU and by Codex to limit accumulation in edible tissues. Lead in pork muscle is low because Pb distributes primarily to bone rather than soft tissue after intestinal absorption. Total mercury in pork is very low because terrestrial livestock are not exposed to methylmercury, the marine-origin form that bioaccumulates in fish; the tHg detected in pork represents inorganic Hg from feed and environmental background at trace levels.
+
+The curing process (salt and nitrite immersion or dry application) introduces no significant metals. Smoking introduces polycyclic aromatic hydrocarbons but does not add lead, cadmium, or mercury at analytically significant concentrations. The FDA TDS FY2018-FY2020 data for oven-cooked pork bacon (TDS Food 20, n=27) shows Cd, Pb, and most other analytes predominantly at or near zero in the flesh, with some Cr detections at the p90 (40 ppb) and Ni at the p90 (16 ppb), consistent with the expected low-accumulation profile of pork muscle and fat tissue.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -109,6 +117,50 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=1 (in progress) | — | — | — | — |
 | Sn | data gap | — | — | — | — |
 | U | n=1 (in progress) | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+Pork bacon Cd and Pb concentrations are consistently low across production regions in US and European monitoring data because the relevant factors (feed Cd content and tissue distribution dynamics) are controlled by feed regulation and veterinary practice rather than by pork-producing country geography. Organic and free-range production, where pigs may have greater soil ingestion, could theoretically elevate Cd slightly relative to intensive indoor production, but this difference has not been quantified at commercially relevant levels in the current corpus. US market pork bacon as measured by the FDA TDS FY2018-FY2020 dataset (n=27) shows predominantly non-detect values for Cd, Pb, and Hg in the oven-cooked form, with sporadic Cr and Ni detections that may reflect sampling or analytical variability ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
+
+## Processing effects
+
+Curing (salt and nitrite application, with or without sugar and spices) does not introduce or remove heavy metals from the pork belly. Smoking at typical cold-smoke or hot-smoke temperatures does not measurably add lead or cadmium to the food, though particulate deposition from smoke could introduce trace surface deposits of metals from wood combustion. Oven cooking, as in the TDS preparation protocol, drives moisture loss and concentrates metals slightly on a wet-weight basis. Bacon fat that renders out during cooking carries negligible metals because lipid-soluble metal species are not a significant fraction of pork tissue metal burden; rendered bacon fat is therefore clean for cadmium and lead.
+
+## Ingredient-derivative risk
+
+Pork bacon is primarily consumed as a finished cooked product. Rendered bacon fat, produced during cooking, is very low in metals. Bacon bits (cooked, crumbled, and dried bacon) are a concentrated form where moisture removal would raise metal concentrations on a wet-weight basis proportionally, but because starting concentrations are already very low, the absolute values in bacon bits remain negligible. Bacon used as a flavouring ingredient in composite foods contributes proportionally to its inclusion level, which is typically small.
+
+## Mitigation options
+
+### Sourcing levers
+
+Feed cadmium content is the primary lever governing pork muscle Cd, and this is controlled upstream through feed ingredient quality and regulatory compliance. Sourcing pork from producers with documented feed Cd monitoring and compliance with EU feed contaminants regulations (where applicable) provides supply-chain assurance. No evidence supports geography-based sourcing as a significant lever for pork bacon specifically.
+
+### Agronomic levers
+
+Not applicable to pork bacon as a processed animal product. Feed cadmium management (monitoring of feed phosphate ingredient Cd levels) is the relevant upstream agronomic-adjacent lever, applied at the feed manufacturer rather than the pork producer level.
+
+### Processing levers
+
+No validated processing lever specifically reduces metals in pork bacon below what is inherent in the raw pork belly. Moisture loss during cooking concentrates metals marginally, but the starting concentrations are so low that this effect is not practically significant. Avoiding smoking fuels with high metal content (industrial waste wood) is a minor precautionary measure.
+
+### Formulation levers
+
+In composite products where bacon is a flavouring inclusion, its metal contribution is proportional to its low inclusion level and is not a meaningful driver of total product metal load.
+
+### Testing and QC levers
+
+Routine testing of pork bacon for heavy metals is not expected to be a primary QA priority given the consistently low concentrations documented in the literature and TDS data. Where testing is required for regulatory compliance (for example, EU Cd ML for pork muscle), ICP-MS testing of incoming pork belly or finished cooked product provides the required evidence.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for cadmium in meat of bovine animals, sheep, pigs, and poultry (muscle meat) is 0.050 mg/kg fresh weight, and for lead in muscle meat of bovine animals, sheep, pigs, and poultry is 0.10 mg/kg fresh weight. These limits apply to pork belly and by extension to pork bacon as a processed pork product.
+
+No US FDA action level for Cd or Pb in pork specifically applies under the current regulatory framework. FDA Closer to Zero ([[regulations/fda-closer-to-zero]]) does not currently list pork bacon as a priority category. Codex Alimentarius Cd ML for meat muscle applies; the relevant Codex document is [[regulations/codex-cadmium-mls]].
 
 ## FDA TDS FY2018-FY2020 Evidence
 

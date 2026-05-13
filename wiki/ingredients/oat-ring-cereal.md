@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 77, "Cereal, oat ring." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Oat ring cereal (a ring-shaped extruded breakfast cereal made predominantly from whole oat flour) inherits the metal profile of the oat grain from which it is produced, with modifications introduced by extrusion processing and fortification. Oats are notable among cereal grains for their relatively high nickel (Ni) content: oat grain accumulates Ni from soil through root uptake, and Ni is retained in the grain during milling because it is distributed throughout the endosperm rather than concentrated exclusively in the bran. EFSA's 2020 scientific opinion on nickel in food identifies cereals including oats as one of the major dietary sources of Ni across European populations. Cadmium in oat grain follows the standard cereal-grain pathway: Cd is absorbed from soil via root uptake and partitions into the grain, with higher concentrations in the outer bran layer than in the inner endosperm. Whole-grain oat products therefore carry more Cd than products made from refined or low-extraction oat flour. Lead concentrations in oat grain are generally low because Pb transfer from soil to grain is inefficient, but surface deposition during field growth and dust contamination in grain handling can contribute. Inorganic arsenic is not a significant analyte of concern for oats under typical production conditions; oats are grown on aerobic (non-flooded) soils where iAs mobilization is far lower than in flooded rice paddies.
+
+The FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] for oat ring cereal (TDS Food 77, n=3) confirm detectable concentrations for Ni (median 2,400 ppb, max 3,200 ppb), Cd (median 19 ppb, max 25 ppb), and tAs (median 28 ppb, max 35 ppb), with Pb, tHg, and Cr all at low or below-detection levels in this sample set.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +146,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The Ni and Cd concentration range in oat ring cereal reflects the geographic and agronomic variation in oat grain composition. Oats grown in regions with higher soil Ni (certain Scandinavian, Irish, and Scottish growing regions) can produce grain with Ni concentrations at the upper end of the range reported in European dietary exposure assessments. Cd in oat grain varies with soil pH and soil Cd levels; low-pH soils mobilize more Cd for root uptake. The extrusion process used to produce the ring shape does not substantially change the grain's metal profile; the product's metal content therefore primarily tracks the oat grain input. The FDA TDS data [[sources/fda2022-tds-elements-fy2018-fy2020]] provide the current corpus's quantitative anchor for this product in the US retail market (n=3 composites), with Ni ranging from 2,000 to 3,200 ppb across the three samples. Additional geographic breakdown data will be incorporated as further source pages are ingested.
+
+## Processing effects
+
+Extrusion, the process used to shape oat ring cereal, involves high temperature and pressure followed by expansion through a die. Extrusion does not volatilize or remove metals; concentrations in the extruded product track those of the oat flour input on a dry weight basis. The puffing-and-expansion step dilutes concentrations slightly on a volumetric basis but not on a mass basis. Fortification with mineral premixes (iron, zinc, calcium, and vitamins) is standard in commercial oat ring cereals and does not add Pb, Cd, or Ni at levels of concern when food-grade mineral sources are used, though fortification-grade ferrous sulfate and zinc oxide can carry trace amounts of co-contaminants if not specified to pharmaceutical-grade purity. Cooking the cereal in milk or water before consumption does not significantly leach metals from the extruded product in a typical 1 to 5 minute soak.
+
+## Ingredient-derivative risk
+
+Oat flour, the primary ingredient in oat ring cereal, is itself a derivative of whole oats that may show different metal profiles depending on the degree of bran retention: high-bran oat flour carries more Cd than low-bran oat flour. Oat milk produced by aqueous extraction of oat flour or rolled oats carries a different Ni and Cd profile than the intact grain, as the extraction process solubilizes a portion of the water-soluble metal fraction. Oat bran, separated during milling, concentrates Cd relative to the whole grain and warrants separate characterization. These derivative pages (oat-flour, oat-bran, oat-milk) are not yet populated in the current corpus.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing oat grain or oat flour from regions with documented low soil Ni and low soil Cd provides the most material reduction for the primary analytes of concern. Supplier disclosure of grain-level Ni and Cd occurrence data enables lot-level assessment rather than reliance on regional averages.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Selecting oat flour with a reduced bran fraction (lower extraction rate) reduces Cd concentration in the finished product, since Cd concentrates in the outer bran layer. This is a formulation trade-off between nutritional positioning (whole-grain versus refined) and metal content.
+
+### Formulation levers
+
+Blending oat flour with lower-Ni cereal flours (rice flour, tapioca starch) reduces the Ni contribution per serving, though this alters the ingredient composition and the product's whole-grain claims.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of incoming oat flour for Ni and Cd is the most reliable quality-control lever given the relatively high and variable Ni concentrations documented in this category. For products marketed to populations with nickel sensitivity (a clinically recognized condition), testing and labeling guidance is particularly relevant.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg Cd for processed cereal-based foods (including ready-to-eat breakfast cereals) and 0.20 mg/kg Pb. The EU cadmium limit for cereal-based products including oat-based breakfast cereals is established under [[regulations/eu-2023-915-cadmium]]. No specific EU maximum level for Ni applies to oat ring cereal or oat-based foods generally; Ni exposure is managed through dietary assessment rather than per-food limits in European regulatory practice. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) provides Pb reference levels for cereal products. See [[regulations/eu2023-contaminants-maximum-levels]], [[regulations/eu-2023-915-cadmium]], and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

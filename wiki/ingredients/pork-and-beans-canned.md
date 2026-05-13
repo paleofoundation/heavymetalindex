@@ -93,6 +93,14 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 39, "Pork and beans, canned." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Canned pork and beans is a composite food product containing cooked white beans (haricot beans, Phaseolus vulgaris) in a sweetened tomato sauce with a small inclusion of pork fat or pork pieces. The heavy metal profile of this product reflects contributions from two distinct ingredient pathways: cadmium from the bean fraction, which enters via soil uptake during legume growth, and tin (Sn) from the can itself through dissolution of the tinplate can wall into the food.
+
+Beans accumulate cadmium through root uptake from soil, consistent with the behaviour of other legumes. White beans grown on soils with elevated cadmium, particularly in European production zones where phosphate-containing fertilizers have raised soil Cd over decades, carry Cd concentrations that contribute to dietary exposure. The pork fraction in this product is a minor contributor to heavy metals because pork muscle tissue is low in cadmium and lead, reflecting the low bioaccumulation factor of these metals in mammalian muscle.
+
+Tin migration from tinplate cans is the most distinctive heavy metal pathway for this product category. Standard tinplate can walls contain a thin layer of metallic Sn over a steel substrate. When acidic or moderately acidic food contents contact the can surface, Sn dissolves electrochemically into the food at rates that are a function of pH, temperature, storage time, and whether the can interior is lacquered. Pork and beans in tomato sauce has a moderately acidic pH (approximately 4.5-5.5), which is sufficient to drive Sn migration over storage periods of months to years. Unlined (un-lacquered) tinplate cans allow the highest Sn migration; lacquered cans dramatically reduce Sn dissolution by physically separating food from metal. EU and Codex regulatory limits for Sn in canned foods are set specifically to manage this migration pathway.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -109,6 +117,50 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=1 (in progress) | — | — | — | — |
 | Sn | data gap | — | — | — | — |
 | U | n=1 (in progress) | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+The Cd concentration in canned pork and beans reflects the Cd burden of the white bean fraction, which varies by growing region. European white bean production, particularly from soils with elevated Cd from phosphate fertilizer accumulation, tends to show higher Cd than beans grown on low-Cd North American soils. The FDA TDS FY2018-FY2020 data (TDS Food 39, n=3) shows Cd at a consistent 3.0-3.4 ppb and Ni at 510-570 ppb in US market canned pork and beans ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The Sn concentration in canned pork and beans is not captured in the TDS multi-element dataset for this food item at the tested analytes; Sn migration varies by can type (lacquered vs unlined) and storage duration, and EU monitoring data show that unlined can Sn can exceed 100 mg/kg in canned tomato-based products stored at ambient temperature.
+
+## Processing effects
+
+Retort sterilisation (high-temperature autoclaving) of the filled can is the critical processing step. High temperatures accelerate Sn dissolution from tinplate walls into the food, with Sn migration rates increasing non-linearly with temperature. This means that the Sn in retorted canned food at the point of sale reflects Sn mobilised during the sterilisation step as well as any ongoing Sn dissolution during storage. Blanching and cooking of beans before canning reduces some of the Cd in brine (if the blanch water is discarded), but this leaching effect is minor relative to the Cd already bound in bean tissue. The low-oxygen headspace maintained in sealed cans retards oxidation but does not affect metal chemistry.
+
+## Ingredient-derivative risk
+
+Canned pork and beans is itself the primary processed form on this page. The pork fat inclusion is a minor ingredient that contributes negligible metals. The tomato-based sauce contributes some background Cd and Pb from tomato, but at concentrations lower than the bean fraction. The total Sn in the canned product is determined by the can technology used (lacquered or unlined) and the storage history, not by the food ingredients themselves.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing white beans from low-Cd growing regions (North America, certain South American origins) and requiring supplier Cd specifications reduces the bean-fraction Cd contribution. For the can itself, specifying BPA-free lacquered cans from qualified can manufacturers is the primary sourcing intervention for Sn control.
+
+### Agronomic levers
+
+Soil pH management in white bean-growing regions (liming above pH 6.5) reduces Cd bioavailability in the crop and is an effective lever in contracted bean supply chains. This applies to the bean ingredient, not to the finished canned product.
+
+### Processing levers
+
+Using lacquered (internally coated) cans instead of unlined tinplate is the single highest-impact processing lever for Sn in canned pork and beans. Lacquering reduces Sn migration by roughly an order of magnitude relative to unlined tinplate. Minimising retort temperature and duration consistent with sterilisation requirements reduces the Sn mobilised during the sterilisation step. Rapid post-retort cooling reduces the duration of high-temperature Sn dissolution.
+
+### Formulation levers
+
+In composite products where pork and beans is an ingredient, the proportion of this ingredient in the recipe determines the Sn and Cd contribution from this component. Reducing bean inclusion and substituting with lower-Cd legumes from documented clean-soil origins reduces the Cd load per serving.
+
+### Testing and QC levers
+
+Lot-level testing of canned pork and beans for Sn is the standard QC approach in markets where the EU 200 mg/kg Sn ML applies (in particular for European export or production). Cd testing of incoming beans provides assurance for the bean-fraction contribution. Testing for Pb and Cd in finished canned product addresses both the ingredient-origin and any can-leach pathways.
+
+### Packaging and storage levers
+
+Specifying lacquered cans is the packaging lever with the greatest impact on Sn. Storing finished canned product at cool ambient temperatures reduces the rate of ongoing Sn migration during shelf life. Monitoring shelf-life and stock rotation practices limits the duration over which Sn can accumulate in stored product. Once a can is opened, the remaining food should be transferred to a non-metal container if not consumed immediately, as dissolved-oxygen contact with the cut can edge accelerates further Sn dissolution.
+
+## Regulatory limits that apply
+
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for tin in canned solid foods is 200 mg/kg. This limit is set specifically for Sn migration from tinplate cans and is applied to the food as consumed from the can. The parallel EU Cd ML for canned beans falls under the general legume and cereal provisions. Pb limits for canned vegetables apply under the same regulation.
+
+Codex Alimentarius has adopted a maximum level for Sn in canned foods; the Codex Sn ML for canned solid foods is 250 mg/kg ([[regulations/codex-cadmium-mls]]). No US FDA action level for Sn in canned foods applies under the current regulatory framework; FDA has not established a specific Sn ML for canned food in the US, though Sn is regulated as a food additive in the context of preservative use. FDA Closer to Zero ([[regulations/fda-closer-to-zero]]) does not currently list canned pork and beans as a priority category.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

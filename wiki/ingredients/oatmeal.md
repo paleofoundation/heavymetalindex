@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 51, "Oatmeal, plain, quick, cooked." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Oatmeal (rolled or steel-cut oats, consumed as a cooked porridge) carries the metal profile of whole oat grain with minor modifications introduced by cooking. Oats are among the cereal grains with the highest nickel content, a characteristic documented in European dietary exposure assessments and in EFSA's 2020 nickel opinion, which identifies cereals (including oats) as a major dietary Ni source. The accumulation mechanism is soil uptake through root systems: Ni is present in many soils at trace levels and is taken up by oat plants without the active restriction mechanisms that some cereals employ. Cadmium in oat grain accumulates via the same root-uptake pathway, with concentrations influenced by soil pH and soil Cd levels; the outer bran and aleurone layers of the oat grain carry higher Cd than the inner endosperm. Rolled oats retain the full bran layer, while instant oat products may use more finely processed grain with similar overall extraction rate but different particle size. Lead is not efficiently translocated to oat grain under typical growing conditions, and tHg is not a significant concern in terrestrial cereal grains.
+
+FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] for cooked oatmeal (TDS Food 51, n=3 composites) show detectable Ni at 260 to 310 ppb and Cd at 1.9 to 2.6 ppb in the cooked (hydrated) product, with Pb, Cr, tHg, and U at or below detection limits in this sample set. The cooked-oatmeal basis reflects the water-dilution effect of cooking; the dry oat grain basis would show proportionally higher concentrations.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +146,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The principal dimension of variation in oatmeal Ni and Cd content is oat-grain sourcing region and soil characteristics. Oats grown on soils with higher background Ni (which correlates with certain geologic formations in Scandinavia, Ireland, and parts of Scotland) produce grain at the higher end of the Ni range documented in European monitoring. Cd variation tracks soil pH and anthropogenic Cd deposition history; oats from regions with legacy phosphate-fertilizer use on agricultural soils may carry modestly elevated Cd. The difference between steel-cut, rolled, and instant oat formats is less important for metal content than the underlying grain composition: all three retain the bran and aleurone layer that concentrates Cd, and the processing differences (cutting versus rolling versus partial cooking and re-drying) do not selectively remove metals. The FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] cover cooked plain oatmeal in the US retail market; geographic breakdown within the US is not available from this source.
+
+## Processing effects
+
+Cooking oatmeal in water is the defining processing step, and it materially affects the wet-weight metal concentration relative to dry grain. Adding water in roughly a 2:1 or higher ratio to dry oats dilutes per-unit-weight concentrations in the cooked product. The FDA TDS data [[sources/fda2022-tds-elements-fy2018-fy2020]] represent the cooked-and-ready-to-eat product, so values are on a cooked-wet-weight basis; comparisons with uncooked grain data from the literature require moisture-correction. Cooking does not selectively leach Ni or Cd from oat grain into the cooking water in substantial amounts because these metals are bound to grain proteins and phytate rather than freely dissolved; the cooking-water leaching effect documented for some metals in boiled pasta is less pronounced in porridge preparation where the water is absorbed rather than drained. Steel-cutting versus rolling does not materially change the metal extraction behavior during cooking. Instant oat processing (partial pre-cooking and re-drying) introduces an additional water-removal step that concentrates analytes in the dry product relative to rolled oats, which then re-dilute to comparable levels on a cooked-basis comparison.
+
+## Ingredient-derivative risk
+
+Oat bran, separated from the grain during milling, concentrates Cd and Ni relative to whole oat because the bran fraction is where both metals preferentially accumulate. Oat flour at full extraction rate carries a similar metal profile to rolled oats on a dry weight basis; low-extraction oat flour (inner endosperm only) carries less Cd and Ni. Oat milk, produced by aqueous extraction of rolled oats followed by filtration, carries a portion of the water-soluble Ni and Cd fraction; the filtered oat residue retains a larger share. Oat protein concentrate, produced by further fractionation, may have a different metal distribution depending on which protein fractions are recovered and which are discarded in the processing stream.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing oat grain or rolled oats from regions and suppliers with documented low soil Ni and Cd is the most effective upstream lever. For manufacturers formulating products where Ni is a concern (products targeting consumers with systemic contact dermatitis from nickel), supplier disclosure of grain Ni data enables specification and lot-level control.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Selecting lower-extraction oat flour (removing the bran fraction) reduces Cd and Ni in formulated oat-containing products, at the trade-off of reduced whole-grain nutritional positioning. For consumer-prepared oatmeal, using a larger water-to-oat ratio dilutes per-serving metal intake on a prepared-basis comparison.
+
+### Formulation levers
+
+Blending rolled oats with lower-Ni ingredients (white rice, tapioca) in a mixed-grain porridge product reduces per-serving Ni dose. This is relevant for product formulations where Ni exposure thresholds are a certification or labeling concern.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of rolled oats or oat flour for Ni and Cd provides reliable quality-control data for manufacturers where these analytes are relevant. Ni in particular can vary meaningfully across lots given grain-sourcing variability.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets maximum levels for Cd in cereal products at 0.10 mg/kg and Pb at 0.20 mg/kg (dry weight basis for processed cereal products). These limits apply to oatmeal as a processed cereal-based food. No specific EU Ni limit applies to oatmeal or oat-based foods. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) sets Pb reference levels for cereal products. See [[regulations/eu2023-contaminants-maximum-levels]], [[regulations/eu-2023-915-cadmium]], and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

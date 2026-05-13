@@ -89,6 +89,16 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Pork sausages are processed meat products made from a mixture of minced pork meat, fat, flavourings, and typically cereal-based fillers such as wheat rusk or breadcrumbs, encased in natural or collagen casings. The heavy metal profile of pork sausages reflects contributions from three distinct ingredient pathways, each with a different metal source.
+
+The dominant pork meat fraction, which comprises skeletal muscle and fat, contributes very low levels of cadmium and lead because these metals do not bioaccumulate efficiently in mammalian muscle or adipose tissue. However, many commercial sausage formulations include a small proportion of mechanically recovered meat (MRM) or offal trimmings, and sausages containing any liver or kidney fraction carry elevated Cd from those organ tissues, where cadmium concentrates at levels roughly 10 to 100 times higher than skeletal muscle following dietary accumulation in the pig.
+
+The cereal filler fraction (typically wheat rusk) introduces cadmium through the well-documented wheat grain Cd pathway: cadmium is taken up by wheat roots from soil and translocates to grain, and the bran fraction that is often present in rusk carries higher Cd than white flour derived from the endosperm. Wheat-rusk inclusion at levels of 5-15 percent by weight in standard pork sausage formulations represents a meaningful Cd contributor to the finished product.
+
+The casing does not contribute significant metals. Natural casings (cleaned intestine) would carry minimal residual Cd or Pb. Collagen casings do not introduce metals at analytically significant levels. Seasonings and flavourings at typical inclusion levels are negligible metal contributors unless specific flavouring ingredients have known elevated metal profiles.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +123,52 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+Pork sausage metal concentrations vary primarily as a function of formulation (the proportion of organ meat, the type of cereal filler, and the rusk Cd level) rather than geographic production origin. UK sausage formulations, which typically include higher rusk proportions than some continental European equivalents, may carry slightly higher Cd from the wheat filler fraction when UK wheat rusk is derived from higher-Cd durum or harder wheat varieties. The FSA/Fera 2016 survey ([[sources/fsa2016-infant-food-formula-metals-survey]]) includes pork sausages as a UK retail composite, providing one occurrence reference point. No multi-country comparative dataset for pork sausage metal concentrations is available in the current corpus.
+
+The FDA TDS FY2018-FY2020 dataset includes a pork sausage (link/patty, pan-cooked) entry (TDS Food 19, n=27) that shows Pb at a 90th percentile of 4.38 ppb (max 4.9 ppb) and Cd predominantly at zero (p95 of 0.7 ppb), reflecting US market sausages where wheat rusk may not be present in all formulations and organ-meat inclusion is less common than in UK sausages ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
+
+## Processing effects
+
+Mincing and emulsification homogenise the metal burden across the meat, fat, filler, and any organ-meat fractions; any pocket of higher Cd from an organ-meat inclusion is distributed throughout the product. Cooking (pan-frying, grilling, baking) drives moisture loss, which concentrates metals slightly on a wet-weight basis. Smoking does not add metals at analytically significant levels. The net cooking effect is minor relative to the formulation-driven Cd variance.
+
+## Ingredient-derivative risk
+
+Standard pork sausage is the base form on this page. Cocktail sausages and chipolatas are small-format versions of essentially the same formulation and share the same metal profile drivers. Cooked-in-can sausages are subject to Sn migration from tinplate and would therefore have an additional Sn pathway not present in fresh or chilled sausages. Sausage meat used as an ingredient in composite products contributes proportionally to its inclusion level.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying low-organ-meat or organ-meat-free pork sausage formulations for applications where Cd is a concern eliminates the organ-tissue Cd pathway. Sourcing wheat rusk from low-Cd wheat flour rather than whole-grain or bran-containing rusk reduces the cereal-filler Cd contribution. Supplier formulation transparency and filler-specification documentation are the verification mechanisms.
+
+### Agronomic levers
+
+Soil pH management and cultivar selection in the wheat supply chain upstream of rusk manufacture reduce cereal-filler Cd; this lever is at the wheat-growing and rusk-manufacturing stages and is not directly accessible to sausage manufacturers without supplier engagement.
+
+### Processing levers
+
+Using refined white wheat flour rather than bran-containing rusk in sausage formulations reduces the Cd contribution from the cereal fraction. Reducing the total rusk inclusion proportion in the formulation reduces the Cd load proportionally.
+
+### Formulation levers
+
+Replacing wheat rusk with alternative cereal or starch fillers that carry lower Cd (for example, tapioca starch or rice starch from verified low-Cd sources) is a formulation lever available to manufacturers seeking to reduce product Cd. Eliminating organ-meat inclusions from formulations directed at vulnerable populations is a higher-impact lever where organ-meat inclusion is confirmed.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of finished pork sausage for Cd provides assurance for markets where EU pork muscle Cd limits or product-specific limits apply. Testing incoming wheat rusk or flour for Cd addresses the primary variable cereal-filler contributor. Given the formulation variability across sausage types, testing should be formulation-specific rather than relying on generic pork sausage reference values.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for cadmium in processed meat products is governed by the ML for pork muscle meat (0.050 mg/kg) applied to the meat fraction; composite products are assessed proportionally to their meat content. Sausages are regulated as processed meat products under EU food law. For lead in processed meat, the EU ML for meat-based products applies.
+
+No US FDA action level for Cd or Pb in pork sausage applies under the current regulatory framework. FDA Closer to Zero ([[regulations/fda-closer-to-zero]]) does not list pork sausage as a priority category. Codex Cd ML for meat applies to the meat fraction ([[regulations/codex-cadmium-mls]]).
 
 ## FDA TDS FY2018-FY2020 Evidence
 

@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 47, "Peanut butter, creamy." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Peanut butter is manufactured from roasted peanuts (Arachis hypogaea), a legume that grows its pods underground in direct soil contact during the pod-fill stage. This subterranean pod development distinguishes peanuts from above-ground legumes and is the primary anatomical reason peanuts accumulate cadmium and nickel at higher concentrations than beans or lentils grown above ground. Cadmium in soil is taken up through root membrane transporters and translocates to pods and seeds during pod fill; the soil-contact surface of the pod shell creates an additional passive metal deposition pathway. Nickel follows a similar soil-contact accumulation pattern, and peanuts are consistently identified as one of the higher-Ni foods in systematic occurrence surveys ([[sources/flyvholm1984-nickel-content-food-dietary-intake]]).
+
+Peanut butter concentrates the metals present in peanuts because it is made by grinding large quantities of peanuts into a paste. The grinding and blending process does not remove metals, and the minor additions of salt and stabilising oils do not dilute metals in a meaningful way given that they constitute a small mass fraction of the finished product. The roasting step that precedes grinding alters moisture content and surface chemistry but does not volatilise or otherwise remove lead, cadmium, or nickel. As a result, peanut butter's metal profile directly reflects that of the source peanuts, with any variation driven primarily by origin soil cadmium levels and peanut growing conditions.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -109,6 +115,54 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=1 (in progress) | — | — | — | — |
 | Sn | data gap | — | — | — | — |
 | U | n=1 (in progress) | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+Peanut Cd and Ni concentrations vary by growing region as a function of soil cadmium levels and soil type. Peanuts grown on sandy, low-pH soils with naturally elevated cadmium, common in parts of West Africa and some South American production zones, accumulate more Cd than peanuts grown on calcareous or managed soils in the United States (Virginia, Southeast US) or Argentina. Runner-type peanuts dominant in US production, Virginia types used for premium nut markets, and Spanish types used in candy applications do not show systematic differences in metal accumulation attributable to variety alone; soil origin is the dominant driver. Chinese peanut production, which represents a large share of global supply, shows variable Cd depending on soil provenance within China's diverse agricultural regions.
+
+The FDA TDS FY2018-FY2020 dataset, which represents US retail peanut butter (TDS Food 47, n=3), captures US market peanut butter from peanuts predominantly grown in the US Southeast and Southwest, with Cd detections at 42-60 ppb (median approximately 55 ppb) and Ni at 450-890 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020]]). These n=3 observations are not sufficient to characterise the distribution; they are flagged here as indicative pending additional sourcing.
+
+## Processing effects
+
+Dry roasting, the dominant industrial process for peanut butter production, heats peanuts to 160-175 degrees Celsius. At these temperatures, volatile organomercury compounds would be removed, but inorganic metals (Pb, Cd, Ni) are not appreciably volatilised and remain in the peanut matrix. The roasting step does reduce moisture content, which means roasted peanut metal concentrations are slightly higher on a wet-weight basis than raw peanut concentrations from the same lot. Blanching (skin removal after roasting) removes the papery seed coat, which may carry marginally higher metal concentrations than the cotyledon, but the seed coat is a small mass fraction and the blanching contribution to overall reduction is minor.
+
+Grinding and homogenisation create a uniform paste that distributes metals evenly throughout the product. No size separation or centrifugation step in conventional peanut butter production selectively removes a metal-bearing fraction. Defatted peanut flour production, by contrast, removes the oil fraction by pressing or solvent extraction, and since metals are not oil-soluble, they concentrate in the defatted meal relative to the original peanut; defatted peanut flour therefore has higher metal concentrations per unit mass than peanut butter.
+
+## Ingredient-derivative risk
+
+Peanut butter is the concentrated paste form, representing the metals of the whole peanut (minus seed coat and any roasting-step moisture loss). Refined peanut oil, produced by solvent extraction and refining (degumming, bleaching, deodorisation), contains negligible heavy metal residues because metals partition to the aqueous and solid phases during refining. Defatted peanut meal and peanut flour, produced as co-products of oil extraction, concentrate metals above whole-peanut levels and are used as protein ingredients in food formulations. Peanut flour is therefore a higher-risk derivative than peanut butter itself on a per-unit-mass basis.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying peanut origin to prefer US Southeast or Argentine production over unverified West African or Chinese origin reduces average Cd exposure given documented regional soil differences. Requiring Cd and Ni specifications from peanut suppliers and testing incoming peanut lots or finished peanut butter is the supply-chain verification mechanism. Given the small TDS sample size (n=3), supplier-level testing provides more reliable lot-specific data than relying on published occurrence averages.
+
+### Agronomic levers
+
+Soil liming in peanut-producing regions to raise pH above 6.5 reduces Cd bioavailability. Soil selection (avoiding fields with documented elevated Cd history) is a pre-planting lever available to growers and large commercial buyers with supply-chain control.
+
+### Processing levers
+
+Blanching (seed coat removal) provides marginal Cd reduction. Washing peanuts in water before roasting is not standard in commercial peanut butter production and has limited impact on metals embedded in the cotyledon tissue. No validated commercial-scale metal-reduction processing step is documented for peanut butter specifically.
+
+### Formulation levers
+
+In composite products where peanut butter contributes a large share of Ni (e.g., snack bars), substituting a portion with almond butter (lower Ni) or sunflower butter would reduce total Ni per serving. For Cd, the contribution from peanut butter is moderate (40-60 ppb range in TDS data); formulation dilution is relevant only in high-peanut-fraction products.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of incoming peanut butter for Cd and Ni, with documented acceptance criteria, is the most direct QC lever. Given that TDS data show consistent Cd detectability at 40-60 ppb and Ni at 400-900 ppb, both analytes merit routine monitoring. Third-party verification adds audit-trail defensibility.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for cadmium in peanuts (groundnuts) placed on the market for direct human consumption or use as food ingredient is 0.10 mg/kg, and for lead in peanuts is 0.10 mg/kg fresh weight ([[regulations/eu-2023-915-cadmium]]). These limits apply to peanuts and by extension to peanut butter manufactured from conforming peanuts, though peanut butter as a finished product is regulated under the general processed foods provisions.
+
+Codex Alimentarius has adopted Cd maximum levels for groundnuts; the Codex Cd ML for peanuts intended for further processing is higher than the direct-consumption ML ([[regulations/codex-cadmium-mls]]). No US FDA action level for Cd or Ni specifically in peanut butter applies under the current regulatory framework; FDA Closer to Zero ([[regulations/fda-closer-to-zero]]) does not currently list peanut butter as a priority category. EFSA's 2020 Ni assessment identifies peanuts and peanut-derived products as significant contributors to dietary Ni intake in European populations and uses peanut occurrence data in its chronic exposure modelling.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

@@ -89,6 +89,10 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Oranges are one of the lowest-risk food categories for heavy metal accumulation. The thick, waxy peel that characterizes citrus fruit provides a physical barrier that substantially limits atmospheric Pb deposition from reaching the edible flesh; Pb that deposits on the outer peel surface is removed with the peel during normal peeling and juicing operations. Root uptake of Cd and Pb from soil occurs in citrus trees as in other fruit trees, but the transfer factor from root to fruit flesh is low; citrus trees are not recognized accumulators of Pb or Cd, and the physiological buffering of the fruit through the tree's vascular system results in low concentrations in the flesh. Mercury is not a significant concern in citrus grown under typical commercial conditions. Inorganic arsenic is similarly not a significant analyte in citrus flesh. FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] for raw orange (TDS Food 79, n=27) confirm this low-risk profile: Pb, Cd, Cr, and tHg were all at or below detection limits in nearly all samples, with only Ni (max 87 ppb), U (max 6.5 ppb), and tAs (max 6.7 ppb) detected at the high end of the distribution.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 dataset [[sources/fda2022-tds-elements-fy2018-fy2020]] for raw orange (n=27) provides the most comprehensive US monitoring baseline in the current corpus and shows that Pb, Cd, Cr, and tHg are effectively absent (at or below detection limits across virtually all samples). Ni was detected at concentrations ranging from 0 to 87 ppb (p90 approximately 60 ppb, max 87 ppb); tAs was detected in the upper tail of the distribution (p95 approximately 2 ppb, max 6.7 ppb). The FSA FS102048 survey [[sources/fsa2016-infant-food-formula-metals-survey]] provides additional occurrence context for UK dietary monitoring. Variation between growing regions for the analytes of concern in this category (Ni, tAs at low concentrations) is not documented in the current corpus with sufficient granularity to separate geographic from varietal effects.
+
+## Processing effects
+
+Peel removal before consumption or before juice extraction eliminates the outer tissue that carries the highest surface Pb deposition risk, though Pb in orange flesh is already below detection limits in US monitoring data. Peeling and consumption of the flesh without the peel (normal commercial and home practice) is therefore already the effectively lowest-metal consumption mode for this commodity. Drying to produce dried orange peel (used in confectionery and flavoring) concentrates analytes on a wet weight basis proportionally to moisture loss, and surface deposition on the peel is concentrated rather than removed. Juicing is addressed on the [[ingredients/orange-juice]] page.
+
+## Ingredient-derivative risk
+
+Fresh orange segments and commercially produced orange purée carry approximately equivalent metal profiles on a moisture-corrected basis, since purée production does not concentrate metals beyond the reduction in water content during the puréeing step. Dried orange peel and orange peel powder (used as a food ingredient and flavoring) concentrate any surface Pb and other metals present in the peel; these derivatives warrant separate occurrence characterization and should not be extrapolated from the flesh-based data that dominate the current corpus. Orange extract and orange oil (cold-pressed or steam-distilled) carry negligible metals because the extraction process is selective for lipophilic volatile compounds. Orange juice as a separate product category is covered on [[ingredients/orange-juice]].
+
+## Mitigation options
+
+### Sourcing levers
+
+Given the uniformly low metal concentrations documented in orange flesh, commercial sourcing decisions for fresh oranges are not a material lever for metal-content management in normal agricultural practice. For dried peel or peel-containing derivatives, sourcing from growing regions with lower atmospheric Pb deposition (non-urban, non-industrial areas) reduces peel Pb risk.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Standard peel removal before consumption or processing of the flesh eliminates the primary surface-deposition risk. For peel-containing products, washing the peel before processing removes the most readily desorbed surface Pb.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given the very low metal concentrations in orange flesh documented across monitoring programs, routine heavy metal testing of fresh orange is of low priority for most supply chain applications. For products incorporating orange peel (marmalade, flavoring extracts, supplements), Pb testing of the peel-derived ingredient provides relevant assurance.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in fresh fruit on a wet weight basis, applicable to oranges. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) sets Pb maximum levels for fresh fruit. No specific iAs or tHg regulatory limit applies to fresh citrus fruit. Orange juice (the derived product) is subject to a more stringent EU Pb limit of 0.050 mg/kg; see [[ingredients/orange-juice]] and [[regulations/eu2023-contaminants-maximum-levels]] for the juice-specific framework.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

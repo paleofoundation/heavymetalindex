@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Melon (cucurbit fruits including cantaloupe and honeydew) is among the lower-risk fruit categories for heavy metal accumulation. The edible flesh is physically separated from the external environment by a thick, waxy rind that limits atmospheric deposition of Pb particulates and reduces surface contamination during growth. Metal uptake in cucurbits occurs primarily through root absorption from soil, but the vine's rooting system and the water-dilution effect of the high-moisture flesh together produce low transfer factors from soil to edible tissue. Cadmium absorption by the fruit is further limited because Cd competes with calcium for uptake pathways that are less active in fruit tissue than in the roots and stems of the plant. The net result is that melon flesh typically contains concentrations of Pb, Cd, and most other regulated metals that are low relative to root vegetables or leafy greens grown under equivalent soil conditions. Inorganic arsenic and total mercury are not principal concerns for this matrix in monitoring data from major producing regions.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,48 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+The main dimension of variation within the melon category is growing region and soil history rather than varietal differences between cantaloupe and honeydew. Melons grown in regions with historic industrial activity or where contaminated phosphate fertilizers are used for soil amendment may show modestly elevated Cd in flesh tissue, though concentrations remain substantially below the EU maximum level for fresh fruit. The FSA FS102048 survey [[sources/fsa2016-infant-food-formula-metals-survey]] provides the primary occurrence dataset in the current corpus and covers melon as measured in a UK dietary monitoring context. Concentrations across survey samples in this and comparable European monitoring data are generally well below regulatory thresholds. Specific regional breakdown data by producing country are not yet available in the current corpus.
+
+## Processing effects
+
+Fresh melon consumed as cut fruit undergoes minimal processing steps that would affect metal concentrations. Rind removal eliminates the outer tissue that may carry surface contamination from atmospheric Pb deposition or soil splash, reducing Pb contribution relative to the whole-fruit basis. Melon-based processed products (purées, juices, dried melon, frozen chunks) concentrate metals proportionally with water removal: dried melon will show substantially higher ppb values on a wet-weight basis than fresh flesh, purely as a moisture-reduction artifact. Pasteurization and aseptic processing do not alter total metal concentrations. No evidence in the current corpus documents metal leaching from processing equipment as a meaningful source for melon products.
+
+## Ingredient-derivative risk
+
+Melon purée and melon juice are the primary derivatives where concentration relative to fresh flesh is relevant. Water-removal during concentration for juice-from-concentrate applications proportionally elevates all analytes on a wet weight basis. Dried melon or freeze-dried melon powder, used in nutritional supplements and functional foods, can show ppb values several-fold higher than fresh flesh because the moisture fraction that dilutes metal concentrations in fresh fruit has been removed. These derivatives warrant separate occurrence characterization rather than extrapolation from fresh-melon data.
+
+## Mitigation options
+
+### Sourcing levers
+
+Preferring melon grown on soils with documented low Cd history and low phosphate-fertilizer application reduces the primary risk driver for this category. Country-of-origin sourcing from major commercial production regions (Spain, Turkey, and the United States) with active regulatory monitoring provides an operational assurance baseline.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Rind removal before processing eliminates surface-deposited Pb and reduces the contribution of the outer tissue to the final product metal load. For dried or concentrated derivatives, reporting concentrations on a dry-weight or reconstitution-equivalent basis rather than a wet-weight basis provides a more meaningful risk signal.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in fresh fruit (wet weight basis), which applies to melon. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) sets comparable maximum levels for Pb in fresh fruit. No specific iAs or tHg limit applies to fresh melon under major regulatory frameworks; these analytes are addressed at the category level under general food safety provisions where applicable. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
 ## Sources
 

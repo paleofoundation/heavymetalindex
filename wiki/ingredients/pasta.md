@@ -89,6 +89,12 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Pasta is manufactured primarily from durum wheat semolina (Triticum turgidum subsp. durum), a hard wheat variety that accumulates cadmium in grain at systematically higher concentrations than bread wheat (Triticum aestivum). The mechanistic basis lies in the allelic composition of the HMA3 gene (Heavy Metal ATPase 3), a vacuolar sequestration transporter that controls cadmium loading into the grain endosperm. Durum wheat lacks the high-affinity TdHMA3-B1 allele variant that in bread wheat retains cadmium in root vacuoles and prevents translocation to the shoot and grain; as a result, durum wheat grain accumulates Cd that would otherwise be held in root tissue ([[sources/maccaferri2019-durum-wheat-genome-cadmium]]). This is a species-level genetic difference, not a soil or management artefact, and it means that all pasta manufactured from conventional durum semolina carries an inherent Cd burden relative to wheat-flour products made from bread wheat.
+
+Semolina is produced by milling durum wheat to separate the starchy endosperm from the outer bran layers and germ. Because cadmium in wheat grain is concentrated in the bran and aleurone layers to a degree, this milling step partially reduces the Cd content relative to whole-grain durum. However, because durum grain baseline Cd concentrations are already elevated above bread wheat, semolina Cd still exceeds equivalent bread-wheat white flour values in practice. Lead contamination in pasta is primarily a function of soil lead in the wheat-producing region and any processing or packaging contribution; it does not share the genetic amplification mechanism that drives Cd in durum.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -105,6 +111,56 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=1 (in progress) | — | — | — | — |
 | Sn | n=1 (in progress) | — | — | — | — |
 | U | data gap | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+Durum wheat Cd concentrations vary substantially by origin, reflecting differences in soil cadmium levels and cultivar composition. European production regions show a north-to-south gradient, with Southern European durum from Italy, Greece, and Turkey showing more variable Cd than Northern European production. Moroccan and other North African durum, grown on soils that can have elevated cadmium from parent rock geology, contributes to supply chains where the sourcing provenance is not controlled by contract. Canadian durum from the Prairie provinces is generally lower in Cd than Mediterranean counterparts, reflecting lower baseline soil Cd in Canadian prairie soils, though Canadian production is predominantly for domestic and North American markets. A comprehensive multi-origin comparison of semolina Cd is not available in the current corpus but is documented in the broader durum wheat literature referenced by [[sources/maccaferri2019-durum-wheat-genome-cadmium]].
+
+Within durum cultivar populations, the presence or absence of favorable HMA3 alleles creates within-species variance in grain Cd accumulation. Cultivar selection programmes oriented toward low-Cd durum exist in several European breeding programs, and their commercial-scale uptake would be expected to reduce semolina Cd over time as adoption spreads.
+
+## Processing effects
+
+The milling of durum wheat to semolina is the most consequential processing step for cadmium. Bran and aleurone layers removed during milling carry higher Cd concentrations than the starchy endosperm; whole-grain durum pasta therefore has higher Cd than refined semolina pasta. This relationship is the inverse of the nutritional argument (whole-grain pasta is nutritionally richer but higher in Cd), and product-category pages should note this trade-off.
+
+Cooking pasta in water leaches a fraction of water-soluble metals, primarily cadmium, into the cooking water. Discarding pasta cooking water (as opposed to retaining it for sauces) provides a modest reduction in dietary Cd exposure from this food. The magnitude of this leaching effect depends on cooking time, water volume relative to pasta mass, and particle size; no quantified leaching factor specific to pasta is available in the current corpus.
+
+Drying, the final manufacturing step for shelf-stable pasta, does not affect metal concentrations on a dry-weight basis but changes the concentration on a wet-weight basis (fresh pasta versus dry pasta comparisons must account for this). Fortification additions (iron, B-vitamins) used in enriched pasta do not introduce heavy metal contamination at regulated addition levels.
+
+## Ingredient-derivative risk
+
+Pasta as a finished product is the primary form on this page. Whole-grain pasta (retaining bran) elevates Cd relative to refined semolina pasta. Pasta flour (re-ground dried pasta) and pasta flakes used as binders or extenders in processed foods carry the same Cd burden as the semolina of origin. Fresh pasta, which typically uses a blend of durum semolina and egg, does not dilute the semolina Cd contribution significantly. Gluten-free pasta substitutes based on rice, corn, or legume flours have different metal profiles and are not addressed here.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying durum wheat origin is the primary lever: preferring Canadian Prairie durum or verified low-Cd Italian cultivars over unspecified North African or Eastern Mediterranean sourcing reduces the baseline Cd in semolina. Requiring Cd specifications from semolina suppliers and testing incoming lots is the supply-chain verification mechanism for this lever.
+
+### Agronomic levers
+
+Liming of acidic durum-growing soils to pH above 6.5 reduces cadmium bioavailability and is a documented lever in European wheat production systems. Cultivar selection favouring low-Cd HMA3 allele variants is emerging as a plant-breeding lever for the longer term; these varieties are not yet widely available commercially but represent the highest-impact agronomic intervention if adopted at scale.
+
+### Processing levers
+
+Milling to remove bran and aleurone (producing refined semolina rather than whole-grain flour) reduces Cd in the finished pasta. Advising consumers or food-service operators to discard pasta cooking water provides a modest additional reduction in dietary Cd exposure.
+
+### Formulation levers
+
+Blending durum semolina with bread-wheat flour (which accumulates less Cd) reduces per-serving Cd, though at the cost of changing the pasta's texture characteristics. In processed products where pasta is a minor ingredient by weight, the Cd contribution from pasta is proportional to its inclusion level.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of incoming semolina with Cd acceptance criteria is the standard QA approach for manufacturers selling into EU markets where the 0.10 mg/kg ML for Cd in semolina applies. Third-party laboratory verification of supplier Cd results is advisable when semolina origin includes high-variability regions.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for cadmium in cereals is 0.10 mg/kg fresh weight for cereal-based products including pasta. The parallel EU limit for lead in cereal-based foods for general consumption is 0.20 mg/kg. The specific EU Cd ML for durum wheat grain (not semolina) is 0.20 mg/kg, reflecting that the ML is applied at the grain stage before milling removes bran; the semolina/pasta ML (0.10 mg/kg) applies after milling ([[regulations/eu-2023-915-cadmium]]).
+
+Codex Alimentarius has set Cd maximum levels for cereal grains; the current Codex Cd ML for cereal grains generally is 0.10 mg/kg, with a higher ML of 0.40 mg/kg for wheat grain specifically in some Codex frameworks ([[regulations/codex-cadmium-mls]]). No specific US FDA action level for Cd in pasta applies under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]), which has focused on infant-specific food categories rather than general cereal products.
 
 ## Routing
 

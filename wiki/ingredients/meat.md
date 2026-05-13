@@ -89,6 +89,12 @@ sources: 1
 
 FSA/Fera measured this ingredient or a closely matching non-infant-specific food composite in the FS102048 survey. Exact concentrations remain in progress until Table 6 is parsed into structured ingredient rows with quantitation flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Commercial muscle meat from mammals and poultry is among the lower-risk food categories for heavy metal accumulation because skeletal muscle tissue has limited capacity to sequester most metals compared with organs such as kidney and liver. The primary exposure pathway for metals in muscle is systemic distribution from the gastrointestinal tract following dietary ingestion by the animal. Feed composition, drinking water quality, and soil contamination at pasture all influence the concentration delivered to muscle, but the transfer factors from diet to muscle are modest for Pb, Cd, and iAs. Cadmium is the most physiologically instructive case: Cd accumulates preferentially in the renal cortex and liver, and muscle tissue in most production animals contains an order of magnitude less Cd than kidney tissue. Lead follows a similar pattern, with the majority of absorbed Pb partitioned to bone and organ tissue rather than muscle. Inorganic arsenic, where present in feed or water, distributes into muscle at low concentrations relative to its aqueous source. Mercury speciation matters in the meat context: methylmercury (MeHg) is negligible in terrestrial muscle compared with seafood, and total mercury in commercial meat is generally below method detection limits in routine monitoring.
+
+The category includes muscle cuts from beef, pork, lamb, and poultry, as well as processed meat products (sausages, frankfurters, deli meats) that may incorporate mechanically separated meat or organ-meat inclusions. Processed products are the relevant risk variant because organ-meat inclusion in formulation can elevate Cd above what pure muscle tissue would contribute. This page covers commercial muscle meat and processed meat products as a category; organ meats including kidney and liver are separately characterized.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +119,48 @@ This node is linked from [[products/mixed-meals-non-rice]], [[products/mixed-mea
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+Within the commercial meat category, the most meaningful dimension of variation is the cut type (muscle versus processed product) rather than geography, because metal concentrations in muscle are low enough that geographic soil and water differences produce modest absolute changes against an already low baseline. Processed meat products represent the higher end of the category range: frankfurters and bologna can contain mechanically separated meat or organ-meat inclusions that carry the organ's higher Cd load into the finished product. The FSA FS102048 survey [[sources/fsa2016-infant-food-formula-metals-survey]] characterizes this ingredient matrix in the context of UK monitoring, while FDA TDS FY2018-FY2020 data cover a range of prepared US retail meat forms including ground beef, lamb chop, pork chop, turkey, and processed products [[sources/fda-tds-elements-2018-2020]]. Regional variation is secondary to product-type variation for most analytes; the exception is iAs, where animals raised in areas with elevated arsenic in groundwater or feed can show modestly higher muscle iAs concentrations than animals from low-arsenic production regions. Natural sheep casings measured by [[sources/wysok2025-heavy-metals-sheep-casings]] (mean Pb 77 ppb, mean tAs 36 ppb wet weight, n=35) illustrate that some meat-processing byproducts carry higher metal burdens than the muscle itself.
+
+## Processing effects
+
+Cooking and thermal processing of muscle meat do not dramatically alter total metal concentrations on a wet weight basis; the dominant effect is moisture loss during cooking, which concentrates analyte concentrations proportionally to the reduction in water content. A roasted or grilled portion will therefore show higher ppb values than the raw equivalent when measured on a wet weight basis, but the total mass of metal delivered per portion may be similar if portion size is adjusted for moisture loss. Canning, the primary preservation processing route for shelf-stable meat products, introduces the possibility of Sn migration from tinplate can interiors when the internal lacquer is absent or degraded. Fermentation and curing (for products such as salami or ham) do not meaningfully alter metal concentrations because the metals involved are not volatile and are not significantly leached by salt brines at typical production concentrations. Mechanical separation of meat, used in some processed products, is the processing step with the greatest potential to elevate Cd and Pb by incorporating bone and bone marrow fragments, which accumulate both metals at higher concentrations than muscle tissue.
+
+## Ingredient-derivative risk
+
+The derivatives with meaningfully different metal profiles relative to pure muscle meat are processed meat products incorporating organ-meat inclusions and mechanically separated meat (MSM). When kidney or liver is included in a formulation, the product inherits the organ's elevated Cd, which in kidney can reach concentrations substantially above the EU maximum level for muscle meat (0.050 mg/kg Cd in muscle versus 1.0 mg/kg in kidney under EU 2023 contaminant regulations). Product labeling does not always distinguish MSM from whole-muscle trim, making ingredient-list-based risk inference uncertain. Bone broths and collagen hydrolysates derived from meat processing also represent a distinct derivative risk profile: Pb accumulates in bone, and prolonged aqueous extraction of bone material at low pH can leach Pb into the final product at concentrations exceeding what muscle tissue would contribute.
+
+## Mitigation options
+
+### Sourcing levers
+
+Supplier specifications requiring muscle-only trim, without mechanically separated or organ-inclusive product, are the most effective sourcing control for processed meat applications. For whole-muscle cuts, sourcing from production systems with documented feed and water quality controls (particularly for arsenic in groundwater-fed operations) reduces iAs variability. Preference for suppliers operating under national monitoring programs that test finished product against regulatory limits provides an additional verification layer.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Avoiding mechanical separation processes that incorporate bone and bone-adjacent material limits Cd and Pb carry-through into formulated products. Where canning is required, selecting lacquer-lined tinplate interiors and monitoring can-integrity reduces Sn migration risk. Thermal processing protocols do not offer meaningful metal reduction; their effect on metal concentration is limited to the moisture-concentration artifact described above.
+
+### Formulation levers
+
+For manufacturers using meat as an ingredient in multi-component products (stews, mixed meals, infant meat purées), substituting pure muscle trim for MSM-inclusive trim reduces Cd contribution. Dilution with non-meat components (grains, vegetables) lowers the per-serving metal dose from the meat fraction but does not address the ingredient-level concentration.
+
+### Testing and QC levers
+
+Lot-level testing of incoming meat ingredients by ICP-MS for Pb, Cd, and tAs is the primary quality-control lever for manufacturers formulating infant and young-child products, where FDA's 10 ppb Pb action level [[sources/fda-ctz-Pb-babyfood-2025]] creates a legally binding limit for processed baby and toddler meat foods. Third-party testing against EU maximum levels for finished product categories that enter European markets provides an independent verification layer.
+
+### Packaging and storage levers
+
+For canned meat products, lacquer-lined interior surfaces are the primary packaging control for Sn migration. Storage conditions do not materially affect metal concentrations in muscle tissue or processed meat products within normal commercial temperature ranges.
+
+## Regulatory limits that apply
+
+European Union Regulation (EU) 2023/915 (amending and consolidating prior contaminant regulations) sets maximum levels for Pb at 0.10 mg/kg and Cd at 0.050 mg/kg in fresh meat (muscle tissue from cattle, sheep, pigs, and poultry) on a wet weight basis. Organ meats carry substantially higher Cd limits (kidney of cattle, sheep, pigs: 1.0 mg/kg; liver: 0.50 mg/kg), reflecting biological accumulation in those tissues. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) [[sources/codex-cxs-193-1995]] sets Pb and Cd limits for meat consistent with EU levels for most muscle-tissue categories. In the United States, FDA finalized action levels under the Closer to Zero initiative for processed food intended for babies and young children [[sources/fda-ctz-Pb-babyfood-2025]]: 10 ppb Pb applies to single-ingredient meats in processed baby and toddler foods. No US federal maximum level for Pb or Cd currently applies to conventional retail meat products outside the infant food context. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

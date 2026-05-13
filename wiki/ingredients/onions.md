@@ -89,6 +89,10 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Onions (Allium cepa) are bulb vegetables grown underground, but their metal accumulation pattern differs substantially from root vegetables such as carrots and potatoes. Onion bulbs are modified leaf bases rather than storage roots, and they lack some of the active metal-sequestration mechanisms that concentrate Cd and Pb in root tissues of other vegetables. Cadmium uptake in onions follows the general soil-to-plant pathway via root absorption, but the transfer factor from soil to bulb is lower than in dedicated root vegetables; onion bulbs do not appear to be hyperaccumulators of Cd under typical agricultural conditions. Lead accumulates in onion bulb tissue at low concentrations because Pb transfer from soil to above-ground plant parts is inefficient, and the bulb's protected position within the soil and outer scales provides some barrier from surface Pb deposition. Nickel is detectable in onion tissue; the FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] show Ni in the 0 to 100 ppb range (max 100 ppb) in raw mature onion (n=27). Sulfur compounds distinctive to Allium vegetables may influence metal speciation and binding in tissue, though specific mechanistic data on this interaction are limited in the current corpus. Total arsenic is detectable at low concentrations (median approximately 4 ppb in FDA TDS data), with inorganic speciation expected to represent a portion of that total; the level is substantially below arsenic concentrations in rice or seafood.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 dataset [[sources/fda2022-tds-elements-fy2018-fy2020]] for raw mature onion (n=27) shows Cd ranging from 2.3 to 26 ppb (p90 approximately 14 ppb, max 26 ppb) and Ni from 0 to 100 ppb (p90 approximately 59 ppb, max 100 ppb), providing a US retail baseline. The [[sources/ametepey2018-ghana-vegetables-heavy-metals]] survey measured Cd, Pb, Cr, and Ni in spring onion from three markets in Tamale, Ghana (n=15 samples), offering a West African occurrence context that may reflect higher soil contamination than managed European or North American growing regions. Geographic variation in Cd is primarily driven by soil Cd levels and pH; regions with history of phosphate fertilizer application on onion-growing soils may show elevated Cd relative to low-contamination baseline soils. Onion variety (yellow, white, red, spring onion, shallot) may show modest differences in metal concentrations, but cross-variety comparison data are not yet available in the current corpus to quantify this dimension.
+
+## Processing effects
+
+Removal of dry outer scales during commercial processing and home preparation eliminates the outer tissue that may carry surface Pb deposition from atmospheric particulates. Cooking onions by boiling, sautéing, or roasting does not materially reduce total Cd or Pb concentrations on a dry weight basis; moisture loss during cooking concentrates analytes per unit of wet weight. Dehydrated or powdered onion (produced by hot-air drying or spray-drying) will show higher ppb values than fresh onion on a wet weight basis in proportion to the degree of moisture removal. Pickling in acidic brine may leach some metals into the brine, but quantitative data on this effect for onions are not available in the current corpus.
+
+## Ingredient-derivative risk
+
+Dehydrated onion flakes, onion powder, and granulated onion are the main derivatives with materially different metal profiles relative to fresh onion, due to moisture removal concentrating all analytes. Onion oil and oleoresin (flavoring extracts) carry negligible metals because the extraction process is selective for volatile and lipophilic compounds rather than metal-containing hydrophilic fractions. These derivatives appear in ingredient lists of many processed foods and seasoning blends; their Cd and Pb concentrations on a wet-weight-equivalent basis should be compared on a moisture-adjusted rather than per-gram basis against regulatory limits for the fresh commodity.
+
+## Mitigation options
+
+### Sourcing levers
+
+Preferring onions from growing regions with documented low soil Cd and appropriate soil pH management (higher pH reduces Cd bioavailability) is the primary upstream control. For dehydrated onion applications, requesting occurrence data from suppliers on a dry-weight basis with moisture content specified enables proper comparison against regulatory limits.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Removal of outer dry scales before processing eliminates the highest-exposure tissue layer. For dehydrated products, expressing analytical results on a fresh-equivalent basis with moisture content documented prevents overestimation of risk relative to the fresh commodity.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets maximum levels of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in fresh vegetables on a wet weight basis, applicable to onions. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) [[sources/codex-cxs-193-1995]] sets Cd and Pb maximum levels for vegetables that include onion. No specific iAs or tHg regulatory limit applies to fresh onion under EU or Codex frameworks. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -89,6 +89,12 @@ sources: 1
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
+## Why this commodity accumulates heavy metals
+
+Pear (Pyrus communis and related species) is a pome fruit grown on tree branches, with the edible flesh separated from the environment by a thin skin that accumulates surface-deposited contaminants more readily than the protected interior. The mechanisms governing heavy metal accumulation in pear closely parallel those documented for apple, the other primary commercial pome fruit. Lead accumulates preferentially at the fruit surface through atmospheric deposition and does not translocate efficiently from root tissue through the woody perennial stem into the fruit interior under normal conditions. Cadmium similarly accumulates at low concentrations in pear flesh because its root-to-fruit translocation through woody perennial tissue is restricted.
+
+The historical use of lead arsenate as an orchard pesticide across the United States, United Kingdom, and parts of continental Europe during the pre-regulatory era is directly relevant to pear orchards. Lead arsenate was widely applied in pear and apple orchards from roughly the 1890s through the 1940s, leaving legacy lead and arsenic reservoirs in orchard soils that persist for decades and can still elevate soil Pb and As near the root zone. While translocation from soil Pb to fruit interior remains low, orchard soil contamination history is the primary variable affecting whether surface-deposited Pb from soil resuspension or contact contributes to whole-fruit analytical values.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +142,50 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+Pear Pb and Cd concentrations in the flesh are consistently among the lowest observed in monitored food categories, with most samples below or near analytical detection limits. Geographic variance is primarily a function of orchard soil history and proximity to industrial emission sources; no large multi-region comparative study specifically for pears is available in the current corpus. The FDA TDS FY2018-FY2020 dataset reports pear with peel (TDS Food 85, n=27) with Pb and Cd predominantly at zero and Ni at a median of 55 ppb (max 130 ppb), Cd at a 90th percentile of 1.84 ppb, and tAs at a median of 5 ppb, reflecting the US retail distribution of commercial pears ([[sources/fda2022-tds-elements-fy2018-fy2020]]). These values represent skin-on fruit, which would carry higher Pb than skin-off preparations.
+
+## Processing effects
+
+Peeling removes the surface-contaminated skin layer and reduces Pb concentrations in the edible portion. Commercial processing of pear into juice, puree, or baby food involves peeling and core removal, effectively eliminating the surface-deposited Pb fraction. Pear juice, produced by pressing and filtering, removes particulate solids and produces a lower-metal extract than whole-fruit puree. Freezing does not alter metal concentrations. Cooking (for compote or sauce) does not appreciably remove metals, but moisture concentration during high-solids evaporation would proportionally increase per-unit-mass values.
+
+## Ingredient-derivative risk
+
+Fresh pear is the primary raw form. Pear juice and pear concentrate are high-volume processing derivatives; pear concentrate is used in infant food beverages and as a natural sweetener, and the concentration step during evaporation would raise metal concentrations in proportion to the concentration ratio relative to fresh juice, though starting concentrations are very low. Pear puree for baby food represents the derivative with the highest regulatory scrutiny because of the infant exposure context; purees are made from peeled, cored pear and therefore reflect flesh-only metal profiles rather than skin-on values.
+
+## Mitigation options
+
+### Sourcing levers
+
+Preferring pears from orchards with documented absence of pre-1940 lead arsenate application history and low soil Pb reduces the risk of elevated surface contamination. For infant food applications, supplier orchard-provenance declarations and periodic soil screening are the chain-of-custody verification mechanism. Given that pear baseline concentrations are already very low, most commercial sourcing is adequate; the sourcing lever is primarily relevant for high-risk provenance scenarios.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Peeling before puree or juice production removes the surface-deposited Pb fraction. This is standard commercial practice for infant-grade pear products. Juice filtration further removes any particulate metal-bearing material that passes the pressing step.
+
+### Formulation levers
+
+Given that pear is already a very low metal commodity, formulation levers are not a primary concern. Blending with other low-metal fruits in infant food formulations does not meaningfully change the metal profile of the final product when pear is the base.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of incoming pear puree or concentrate is appropriate for infant food manufacturers as a supply-chain QC step, though most commercial pear lots are expected to be well below regulatory thresholds. Third-party testing provides audit-trail documentation.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for lead in pome fruit (including pear) is 0.10 mg/kg fresh weight, and for cadmium in pome fruit is 0.050 mg/kg fresh weight. These limits apply to fresh pear as placed on the market. For processed pear products in baby food formulations, lower Pb limits apply under the specific baby foods provisions of the same regulation.
+
+FDA's Closer to Zero program ([[regulations/fda-closer-to-zero]]) addresses lead in fruit purees and juices consumed by infants; pear is within scope as a commonly consumed infant fruit. Codex Alimentarius sets guidance levels for contaminants in fruit generally ([[regulations/codex-cadmium-mls]]). The UK post-Brexit Contaminants Regulation applies the same ML values as the EU for pear in domestic commerce.
 
 ## Sources
 

@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 168, "Cream substitute, non-dairy, liquid." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Non-dairy creamer is a formulated product rather than a primary agricultural commodity, and its heavy metal profile reflects the aggregate of its constituent ingredients rather than any single accumulation pathway. Commercial non-dairy creamers are predominantly composed of refined vegetable oils (typically partially hydrogenated soybean or palm oil), corn syrup or glucose syrup, sodium caseinate (a milk-protein derivative), and a range of emulsifiers, stabilizers, and flavorings. Refined vegetable oils carry very low metal concentrations because the refining process (degumming, neutralization, bleaching, deodorization) removes most metal-containing phospholipids and impurities from the crude oil. Corn syrup derived from refined starch hydrolysis similarly carries few metals into the finished product. Sodium caseinate, derived from skim milk, reflects the low metal profile of fluid milk. The net effect is that non-dairy creamer has one of the lower heavy metal profiles among processed food categories. FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] support this characterization: all analytes measured (Cd, Cr, Ni, Pb, tAs, tHg, and U) were reported at or below detection limits in the three composite samples collected for this food item.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+Non-dairy creamer does not exhibit meaningful geographic variation in metal content in the way that primary agricultural commodities do, because the constituent ingredients (refined oils, glucose syrups, sodium caseinate) are themselves processed to a degree that erases most geographic soil-related variation before they enter the creamer formulation. Brand-to-brand variation is more likely to arise from differences in oil type (palm oil versus soybean oil versus coconut oil), which each carry slightly different impurity profiles from their respective refining processes. Powdered versus liquid creamer formats do not differ substantially in metal profile on a water-corrected basis; the powder is effectively a dried version of the liquid. The FDA TDS FY2018-FY2020 dataset [[sources/fda2022-tds-elements-fy2018-fy2020]] covers liquid non-dairy creamer (TDS Food 168, n=3) with all analytes reported at or below detection limits, consistent with the expectation that this is a low-risk matrix.
+
+## Processing effects
+
+The multi-step refining processes applied to the vegetable oil components of non-dairy creamer (including high-temperature deodorization and bleaching with activated clay) are the principal processing steps that reduce metal content relative to crude agricultural inputs. These steps remove phospholipid-associated metals and adsorb trace elements onto clay media before filtration. Starch hydrolysis to glucose syrup further removes metals bound to starch granule surfaces. Subsequent blending, emulsification, and pasteurization or spray-drying of the final product do not introduce meaningful metal contamination provided that processing equipment is maintained and not a source of metal migration. The processing chain as a whole is an effective metal-reduction pathway for this product category.
+
+## Ingredient-derivative risk
+
+Non-dairy creamer is itself a formulated product rather than an agricultural ingredient; its derivatives in the food supply are downstream consumer uses (in coffee, tea, and recipes) rather than further processing into distinct commodity forms. There is no meaningful derivative risk hierarchy for this product in the heavy metals context given the uniformly low metal concentrations observed in TDS monitoring data [[sources/fda2022-tds-elements-fy2018-fy2020]].
+
+## Mitigation options
+
+### Sourcing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+Not applicable; non-dairy creamer is a formulated product, not a directly harvested commodity.
+
+### Processing levers
+
+Maintaining refining process quality controls for the vegetable oil and glucose syrup components (particularly activated-clay bleaching efficiency and deodorization temperature profiles) is the primary processing lever for ensuring continued low metal content in the finished product.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given the uniformly below-detection-limit values observed in TDS monitoring data, routine lot-level metal testing is of low priority for this ingredient in most application contexts. For infant or young-child product applications, supplier declaration and periodic ICP-MS verification provide an appropriate assurance level.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+No specific maximum level for Pb, Cd, or other metals applies exclusively to non-dairy creamer under EU Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] or under Codex CXS 193-1995. General food safety provisions and horizontal contaminant regulations apply; the product would fall within the broader dairy-substitute or fat-based food categories for regulatory classification purposes. No US federal maximum level specifically addresses non-dairy creamer for metal contaminants outside the general HACCP and adulteration framework.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

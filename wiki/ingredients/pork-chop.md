@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 18, "Pork chop, pan-cooked with oil." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Pork chop is a cut of pork loin or rib, comprising skeletal muscle with associated intramuscular fat and, depending on the cut, a bone. The heavy metal profile of pork loin muscle is among the lowest observed in the monitored food supply. Cadmium in mammals distributes preferentially to the renal cortex (kidney) and liver after intestinal absorption, with skeletal muscle retaining only a small fraction of the body burden; as a result, pork loin muscle Cd is consistently near or below analytical detection limits in food monitoring surveys. Lead distributes primarily to bone and other calcified tissue after absorption, with skeletal muscle again retaining very little. Total mercury in pork muscle is negligible because terrestrial pigs are not exposed to methylmercury, the marine bioaccumulation form; any tHg reflects inorganic mercury in feed at trace background levels.
+
+Feed composition is the primary determinant of pork muscle metal content. Commercial swine compound feed is regulated for cadmium content in the EU and under Codex standards to prevent accumulation in edible tissues; compliance with these regulations effectively caps the dietary Cd input to pigs and limits the Cd that can distribute to muscle. The FDA TDS FY2018-FY2020 data for pan-cooked pork chop (TDS Food 18, n=27) shows all measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) at zero across all 27 samples, confirming the expectation that pork loin muscle is essentially free of detectable heavy metals under normal production conditions ([[sources/fda2022-tds-elements-fy2018-fy2020]]).
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -109,6 +115,50 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=1 (in progress) | — | — | — | — |
 | Sn | data gap | — | — | — | — |
 | U | n=1 (in progress) | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+Pork loin muscle metal concentrations are consistently at or below detection limits across US and European monitoring data, reflecting the systemic biology of metal distribution in pigs rather than geographic or production-system variation. No material difference by production region, breed, or production system (indoor vs outdoor, organic vs conventional) is documented in the current corpus for pork loin Cd or Pb. The TDS data (n=27, all zero across all analytes) represent US market pork chops and are consistent with European monitoring results for pork muscle from regulatory monitoring programs.
+
+## Processing effects
+
+Pan cooking with oil, as in the TDS preparation protocol, drives moisture loss from the muscle and concentrates metals slightly on a wet-weight basis. Given that all measured values are at zero in n=27 TDS samples ([[sources/fda2022-tds-elements-fy2018-fy2020]]), this concentration effect is not analytically meaningful. Marinating in acidic solutions (wine, vinegar) does not mobilise metals from the muscle matrix at concentrations relevant to food safety. Bone-in chops carry bone tissue, which has higher Pb than muscle; consuming the bone tissue or bone marrow is not standard, and the bone fraction does not affect the muscle-tissue profile.
+
+## Ingredient-derivative risk
+
+Pork loin as a raw material is the base form. Pork loin used as an ingredient in composite meat products (reformed pork products, pre-marinated chops) carries the same low metal profile as raw loin muscle. Ground pork that includes loin as one component maintains a low metal profile unless organ meat (liver, kidney) is included in the blend, in which case organ-meat metal concentrations dominate. Pork loin broth or cooking jus would carry water-soluble metal fractions leached from the muscle, but given near-zero muscle concentrations, broth metal concentrations are expected to be very low.
+
+## Mitigation options
+
+### Sourcing levers
+
+Feed Cd compliance is the primary upstream control for pork muscle Cd, and is managed through feed regulation rather than by buyers of the finished meat cut. No evidence supports geographic sourcing as a lever for pork chop metal concentrations specifically.
+
+### Agronomic levers
+
+Not applicable to pork chop as a slaughterhouse-derived muscle cut. Feed raw material quality management (specifically phosphate ingredient Cd screening) is the upstream lever at the feed-manufacture stage.
+
+### Processing levers
+
+No processing lever is required or documented for pork chop, given that metal concentrations in the muscle are consistently at zero across a 27-sample US dataset. The standard butchering practice of separating bone-in from boneless cuts does not affect muscle metal concentrations.
+
+### Formulation levers
+
+Pork chop is not typically a fractional ingredient in composite products. Where pork loin trimmings are used in composite products, their low metal contribution does not require mitigation.
+
+### Testing and QC levers
+
+Routine heavy metal testing of pork chop for QA purposes is not expected to be a primary programme requirement given the all-zero TDS dataset. Where regulatory compliance testing is required for EU exports (EU Cd ML for pork muscle: 0.050 mg/kg), ICP-MS testing of representative loin samples provides the required documentation.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-levels]]), the maximum level for cadmium in pork muscle meat is 0.050 mg/kg fresh weight, and for lead in pork muscle meat is 0.10 mg/kg fresh weight. These apply to pork chop as a cut of pork muscle. Pork organ meats (kidney, liver) carry higher, separate regulatory limits for Cd that are not applicable to this page but are cross-referenced on the relevant organ-meat pages.
+
+No US FDA action level for Cd or Pb in pork muscle applies under the current regulatory framework. FDA Closer to Zero ([[regulations/fda-closer-to-zero]]) does not list pork chop as a priority category. Codex Alimentarius Cd ML for muscle meat applies; the relevant Codex document is [[regulations/codex-cadmium-mls]].
 
 ## FDA TDS FY2018-FY2020 Evidence
 
