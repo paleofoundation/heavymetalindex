@@ -1,0 +1,52 @@
+---
+type: source
+raw_handle: FM_12019543
+cite_key: du2025-infant-thickener-urinary-arsenic
+title: "Heavy metal exposures in aerodigestive clinic cohort of infants with reflux or dysphagia"
+authors: [Du N, Du M, Punshon T, Rosen R]
+year: 2025
+publication: "Scientific Reports"
+doi: null
+no_doi_assigned: true
+access_url: "https://www.nature.com/articles/s41598-025"
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY"
+raw_path: raw/markdown/FM_12019543/FM_12019543.md
+metals: [tAs, iAs, Pb, tHg, Cd, Sn, Cr, Ni, U]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/oat]]"]
+products: ["[[products/infant-cereal]]", "[[products/infant-formula]]"]
+matrices: [urine, biological]
+jurisdictions: [US]
+near_duplicates: [FM_12019543_Heavy_metal_exposures_in_aerodigestive_clinic_cohort_of_infa]
+sample_n: 56
+sample_population: "Infants under 1 year of age with reflux or oropharyngeal dysphagia seen at Boston Children's Hospital aerodigestive clinic, December 2021-2023; n=56 urine samples"
+updated: 2026-05-13
+---
+
+# Du et al. 2025 — Heavy metal exposures in infants with reflux or dysphagia using different thickeners
+
+This study is the first to assess heavy metal exposures specifically in infants with reflux or oropharyngeal dysphagia who use thickeners as medical treatment. Fifty-six infants under one year of age at Boston Children's Hospital submitted urine samples and 3-day dietary recalls. Three thickener groups were compared: gelmix or purees (control, n=27), Enfamil AR anti-reflux formula (n=19), and infant oatmeal/rice cereal (n=10). ICP-MS (Agilent 8900) with arsenic speciation measured 22 elements in urine including iAs, Pb, Hg, Cd, Sn, Cr, Ni, and U. Urinary arsenic (total and speciated iAs) did not differ significantly between thickener groups (p=0.086); all values were well below the ATSDR toxicity threshold of 100 µg/L. Only molybdenum showed significant differences between thickener groups after Bonferroni correction (p=0.0012, higher in oatmeal/rice cereal group). The number of servings of alternative arsenic dietary sources (applesauce, carrots, sweet potato) predicted higher urinary arsenic (p=0.001).
+
+## Key numbers
+
+56 infants (mean age 7.0 ± 2.8 months). Median total urinary arsenic: oatmeal/rice cereal group 1.78 µg/L; Enfamil AR group 0.96 µg/L; control (gelmix/purees) 0.76 µg/L; p=0.086 (not significant). All urinary arsenic values below 100 µg/L (ATSDR threshold). 22 elements measured; significant between-group differences found for 9 elements (Be, Mn, Fe, Mo, Cd, Sn, Sb, Hg, Pb) but only Mo survived Bonferroni correction. Urinary concentrations in ranges consistent with the New Hampshire Birth Cohort Study reference values. ICP-MS speciation: estimated total arsenic = sum of arsenite + arsenate + MMA + DMA (arsenobetaine excluded).
+
+## Methods (brief)
+
+Spot urine collected on day 3 of 3-day dietary diary. ICP-MS Agilent 8900 with LC-ICP-MS for As speciation (Thermo AS7 column). Reference materials: Seronorm Level 1 and 2; UTAK quality certified urine standards. No creatinine adjustment (validated as appropriate per cited literature). IRB approved: Boston Children's Hospital (11/12/2021, IRB-P00039551).
+
+## Implications
+
+Certification: Key finding: urinary arsenic in infants using rice/oatmeal thickeners was not significantly elevated above controls, and all values were well below ATSDR limits, even under the post-FDA action level food supply. This is reassuring evidence for infant rice cereal and oatmeal safety under current US regulatory conditions.
+Courses: Important for infant exposure assessment module; demonstrates that dietary diversity (applesauce, carrots, sweet potato) is a stronger predictor of urinary arsenic than thickener type.
+App: Urinary biomarker data confirms rice cereal does not dramatically elevate infant arsenic exposure relative to other baby foods under current US food supply conditions.
+Microbiome: Infant exposure data relevant to early life metal exposure and microbiome development context.
+
+## Wiki pages updated on ingest
+
+- [[products/infant-cereal]]
+- [[products/infant-formula]]
+- [[ingredients/rice]]
+- [[metals/arsenic]]
+- [[health/infant-arsenic-exposure]]
