@@ -235,6 +235,8 @@ The current promoted sources support rice/rice-mix concern, but they do not yet 
 
 Potential variance drivers for rice-based dry baby cereals should be documented only after sources distinguish rice ingredient form, sourcing geography, processing, fortification, and analytical method. <!-- UNCITED: Need comparative infant cereal sources that separate rice-based products from non-rice products and report methods such as [[testing/icp-ms]] and arsenic speciation. -->
 
+One emerging variance driver warrants explicit attention: irrigation regime in rice sourcing. Alternate wetting and drying (AWD), the leading climate-smart rice practice, reduces grain iAs by 30 to 50 percent relative to continuous flooding but increases grain Cd, with the driest conditions exceeding the Codex Cd maximum level of 0.4 mg/kg in experimental paddies ([[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer and Seyfferth 2024]], [[sources/seyfferth2025-rice-water-management-as-hg-cd|Seyfferth et al. 2025]]). As AWD adoption scales across South and Southeast Asian and US rice production, the metal profile of the underlying rice ingredient is shifting. Certification standards for rice-based baby cereals locked to pre-AWD baselines, which historically treated this category as primarily an arsenic story, will need revision to account for the emerging cadmium dimension. See [[synthesis/climate-metals-tradeoffs]] and [[ingredients/rice]] (irrigation-management cadmium risk section).
+
 ## How The App Would Estimate Risk From An Ingredient List
 
 <!-- audience: app, consumer -->

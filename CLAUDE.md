@@ -797,6 +797,10 @@ A full resynthesis re-reads every source page contributing to the cell and regen
 
 Every `contamination_profile` metal sub-block carries `last_reviewed` (date of most recent incremental update) and `last_full_resynthesis` (date of most recent full pass). Both fields are model-maintained on the ingredient page. The authoritative resynthesis history lives in `data/evidence/review_events.jsonl`; until that file is consistently populated, the page-level fields are the working source of truth, and the lint check in Part 18 should flag mismatches between the two layers.
 
+### Downstream propagation rule
+
+When a synthesis page identifies implications for downstream wiki pages, the session that writes the synthesis page must also make those downstream edits in the same commit. Listing implications without executing them is a failure mode: it produces a to-do list that no future session will reliably pick up. The synthesis page should record which downstream pages were updated and when, not what downstream pages need updating. If a downstream edit cannot be completed (the target page does not exist, the edit requires Karen's judgment, the evidence is too uncertain), log the specific blocker on the synthesis page rather than writing a generic implication statement.
+
 ## Part 10 — Page creation and naming
 
 New-page proposals (ingredient, product, regulation) surface from two places: the routing audit's `routing_unresolved.csv` when a source's frontmatter declares a page that does not exist, and the model's own pattern-noticing when a sub-variant accumulates enough independent evidence to warrant its own page (see thresholds below). Either way, Karen approves before pages are created; the model does not silently invent ingredient or product pages mid-ingest. See Part 5b for the routing layer's role and Part 8 single-paper ingest step 5 for how proposals get surfaced during ingest.

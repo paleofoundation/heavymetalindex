@@ -57,19 +57,16 @@ Three secondary questions remain open. First, the cadmium trade-off in rice has 
 
 The synthesis position is provisional and explicit about its provisionality. Re-synthesis is expected when corroborating studies enter the corpus, when commercial AWD rice cadmium data become available, or when an independent freshwater fish dataset from a non-Chinese watershed confirms the methylmercury projection.
 
-## Implications for downstream wiki pages
+## Downstream pages updated
 
-[[ingredients/rice]] needs an explicit subsection on irrigation-management cadmium risk, not buried in driver text but called out at the level the inorganic arsenic story currently occupies. The page's `drivers` field should add `irrigation-water-management` if not already present.
+The findings on this page have been propagated to the following downstream wiki pages (2026-05-13):
 
-[[ingredients/freshwater-fish]] needs the climate trajectory called out in the page body, with the Wu 2025 numbers anchoring it. The page's `drivers` field already lists `biomagnification` and `watershed-mining-history`; the climate driver should be added explicitly as a separate factor.
-
-[[products/baby-cereals-dry-rice-based]] should reference the irrigation trade-off in the page's Methodology or What Drives Variance section, with a note that AWD-sourced rice may shift the metal profile of the underlying ingredient and that certification standards locked to pre-AWD baselines will need revision.
-
-[[products/fish-containing-baby-foods]] should reference the climate-driven methylmercury trajectory and explicitly note that the FDA-EPA fish consumption advice is calibrated against historical fish Hg data and may underestimate near-future risk.
-
-[[metals/mercury-methyl]] needs the climate-driven enhancement of MeHg production discussed in the toxicology or production-mechanism section, with Wu 2025 as the anchor.
-
-[[metals/cadmium]] needs the irrigation-trade-off finding discussed in the rice-as-Cd-source section.
+- [[ingredients/rice]] — new "Irrigation-management cadmium risk" H2 section; `irrigation-water-management` added to `drivers`
+- [[ingredients/freshwater-fish]] — new "Climate-driven methylmercury trajectory" H2 section; `climate-driven-methylation` added to `drivers`
+- [[products/baby-cereals-dry-rice-based]] — AWD trade-off added to "What Drives Variance Across Brands"
+- [[products/fish-containing-baby-foods]] — climate-driven MeHg trajectory added to "What Drives Variance Across Brands"
+- [[metals/mercury-methyl]] — new "Climate-driven enhancement of MeHg production" H2 section
+- [[metals/cadmium]] — irrigation trade-off added to "Food sources" section
 
 ## Anchor sources
 

@@ -75,7 +75,7 @@ contamination_profile:
     confidence: null
     n_studies: 1
     last_reviewed: 2026-05-08
-drivers: [soil-uptake, flooded-paddy, geography, cultivar, processing]
+drivers: [soil-uptake, flooded-paddy, irrigation-water-management, geography, cultivar, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
@@ -107,6 +107,16 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 ## Why this commodity accumulates cadmium
 
 Rice is grown predominantly in flooded paddy systems where the reducing soil conditions alter the speciation and bioavailability of several metals. For cadmium, rice is a comparatively efficient accumulator from soil, with uptake driven by soil cadmium concentration, soil pH, zinc status, and cultivar-specific root biology. Cadmium concentrates in the bran layer rather than the endosperm, so brown rice and rice bran products carry higher cadmium than polished white rice from the same source. Geographic variation is substantial; regions with phosphate-fertilizer-amended soils, historic mining activity, or naturally cadmium-rich sedimentary rocks produce higher-cadmium rice than regions without these soil characteristics.
+
+## Irrigation-management cadmium risk
+
+Soil redox conditions, controlled in practice by irrigation regime, drive opposite accumulation dynamics for inorganic arsenic and cadmium in rice grain. Flooded paddies favor iAs accumulation and suppress Cd; aerobic or alternate-wetting-and-drying (AWD) paddies suppress iAs and favor Cd. The trade-off is quantified in two companion field studies from the University of Delaware RICE facility.
+
+[[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer and Seyfferth 2024]] reports a range of approximately 20 to 90 µg/kg dry weight iAs in polished grain across six irrigation treatments, with continuously flooded plots at the high end (80 to 90 µg/kg dw) and aerobic management at the low end. Cadmium ranges from approximately 10 to 150 µg/kg dw across the same treatments, in the opposite direction: continuously flooded at the low end, aerobic at the high end. AWD reduced grain iAs by approximately 30 to 50 percent compared to continuous flooding while keeping Cd below the EU's 100 µg/kg limit for polished rice in most replicates.
+
+[[sources/seyfferth2025-rice-water-management-as-hg-cd|Seyfferth et al. 2025]], sampling across a wider soil redox gradient (minus 177 mV to plus 623 mV), confirms the pattern at a more extreme scale: the driest paddy exceeded the Codex maximum level of 0.4 mg/kg Cd in polished grain in both years of the study. The drier the system runs in service of climate adaptation, the more the certification problem migrates from arsenic to cadmium.
+
+AWD is the leading climate-smart rice practice promoted by the International Rice Research Institute and adopted at increasing scale across South and Southeast Asia and in US production. The certification implication is that any HMTc standard set against the historically flooded rice paddy is calibrated against a system that is already changing. See [[synthesis/climate-metals-tradeoffs]] for the full synthesis.
 
 ## Ranges by source, region, and variety
 

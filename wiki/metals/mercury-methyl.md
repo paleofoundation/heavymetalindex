@@ -19,6 +19,16 @@ Methylmercury (MeHg) is the biomagnified organometallic form of mercury that dom
 
 This page is a stub. Substantive content awaits corpus ingest. See [methodology](/methodology) for the current state of the project.
 
+## Climate-driven enhancement of MeHg production
+
+Climate change is reshaping MeHg production dynamics in freshwater systems. [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] (PNAS) compiled approximately 13,000 fish mercury samples across 164 sampling sites in China spanning 2005 to 2020 and combined machine learning with climate scenario modeling to project MeHg concentrations in freshwater wild fish. Under both SSP2-4.5 and SSP5-8.5 pathways, national average MeHg in freshwater wild fish is projected to rise by approximately 60 percent by 2031 to 2060.
+
+The dominant individual climate driver is increased solar radiation (approximately 53 percent contribution), which the authors attribute to enhanced photochemical methylation in aquatic systems. Maximum temperature exerts a negative influence in the far future (after 2070) under the high-emissions pathway, but the 2031 to 2060 window is dominated by the solar radiation channel. The mechanism, climate-driven enhancement of microbial and photochemical methylation, is not specific to China; it operates through fundamental aquatic biogeochemistry. However, the model is parameterized on Chinese data, and independent confirmation from non-Chinese watersheds would strengthen the projection substantially.
+
+The present-day baseline from the same dataset establishes that freshwater wild fish carry MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across trophic classes, and 1.7 times higher than marine wild fish in the same trophic class. Mean MeHg in freshwater wild fish of typical adult size (40 ± 5 cm body length) was 30.9 µg/kg wet weight. Freshwater fish consumption accounted for 51 percent of China's total fish MeHg intake in 2011.
+
+The certification implication is that MeHg thresholds and fish-consumption advisories calibrated against historical fish Hg data are drawing on a baseline that is actively shifting. See [[synthesis/climate-metals-tradeoffs]] for the convergent analysis with rice irrigation trade-offs, and [[synthesis/subsistence-fishing-mehg-disparity]] for the equity dimension.
+
 ## Planned sections
 
 Toxicology, typical exposure routes, fish-species concentration ranges (linked to [ingredients](/ingredients)), regulatory and advisory instruments (linked to [regulations](/regulations)), testing methods including speciation (linked to [testing](/testing)), microbiome effects (linked to [microbiome](/microbiome)), vulnerable populations, open questions, and sources.

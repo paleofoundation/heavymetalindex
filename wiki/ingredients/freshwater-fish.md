@@ -76,7 +76,7 @@ contamination_profile:
     confidence: null
     n_studies: 0
     last_reviewed: null
-drivers: [biomagnification, trophic-level, watershed-mining-history, age-and-size, ASGM-proximity]
+drivers: [biomagnification, trophic-level, watershed-mining-history, age-and-size, ASGM-proximity, climate-driven-methylation]
 lower_risk_variants: ["[[ingredients/farmed-tilapia]]"]
 higher_risk_variants: ["[[ingredients/sport-fish-predatory]]"]
 used_in_products: ["[[products/fish-containing-baby-foods]]"]
@@ -90,6 +90,14 @@ sources: 9
 Freshwater fish are inland-water aquatic protein sources whose heavy-metal contamination profile differs materially from saltwater and marine fish. The defining difference is methylmercury biomagnification: freshwater systems with reducing sediments and microbial methylation activity (most notably in artisanal small-scale gold mining (ASGM) watersheds, mercury-impacted lakes, and historic industrial river basins) concentrate MeHg in piscivorous fish at levels that often exceed marine-fish equivalents. Sport-fishery advisories from US states, Canadian provinces, and the EFSA opinion on chronic methylmercury exposure target freshwater piscivores specifically.
 
 This page is the structural anchor for freshwater-specific fish evidence. The broader [[ingredients/fish]] page covers cross-cutting fish-as-food properties; [[ingredients/saltwater-fish]] (when promoted) carries marine-specific evidence. Trophic level and fish age are the dominant within-species variance drivers, not species identity alone — a small, young pike from a low-Hg lake can carry less MeHg than a large, old walleye from the same lake.
+
+## Climate-driven methylmercury trajectory
+
+Freshwater wild fish MeHg concentrations are projected to rise substantially under climate change. [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] (PNAS), drawing on approximately 13,000 fish mercury samples across 164 sampling sites in China spanning 2005 to 2020, projects that national average MeHg concentrations in freshwater wild fish will rise by approximately 60 percent by 2031 to 2060 under both SSP2-4.5 and SSP5-8.5 emission pathways. The dominant individual climate driver is increased solar radiation, which enhances photochemical methylation in aquatic systems (approximately 53 percent contribution to the projected increase).
+
+Three baseline findings from this dataset anchor the trajectory. First, freshwater wild fish carry MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across trophic classes, and 1.7 times higher than marine wild fish in the same trophic class. Second, freshwater fish consumption accounted for 51 percent of China's total fish MeHg intake in 2011. Third, mean MeHg in freshwater wild fish of typical adult size (40 ± 5 cm body length) was 30.9 µg/kg wet weight, comparable to US shrimp (30 to 40 µg/kg ww), a quantity Western consumers and US regulators treat as a meaningful MeHg exposure source.
+
+The mechanism, climate-driven enhancement of microbial and photochemical methylation in freshwater systems, is not specific to China, but the model is parameterized on Chinese data. Parallel datasets from North American, European, and other Asian freshwater systems would strengthen the geographic generalization substantially. See [[synthesis/climate-metals-tradeoffs]] for the full synthesis and [[synthesis/subsistence-fishing-mehg-disparity]] for the equity dimension.
 
 ## Routing
 

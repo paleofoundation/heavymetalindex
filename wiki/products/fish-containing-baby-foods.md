@@ -225,6 +225,8 @@ The promoted duplicate-diet study links higher methylmercury intake during later
 
 Potential variance drivers for fish-containing baby foods should be documented only after sources distinguish fish species, serving form, formulation share, sourcing, processing, and analytical method. <!-- UNCITED: Need fish baby-food or fish ingredient sources that report MeHg or tHg concentrations and methods such as [[testing/icp-ms]] or mercury speciation. -->
 
+One structural variance driver warrants flagging now: climate-driven methylmercury trajectory. [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] (PNAS, n ≈ 13,000) projects that MeHg concentrations in freshwater wild fish will rise by approximately 60 percent by 2031 to 2060 under moderate and high emission pathways, driven primarily by enhanced solar-radiation-mediated methylation. The FDA-EPA fish consumption advice for pregnant women and children is calibrated against historical fish Hg data that does not reflect this trajectory. For fish-containing baby foods sourced from freshwater fish or freshwater-derived ingredients, the near-future MeHg baseline may be materially higher than the baseline against which current advisories and certification standards were set. See [[synthesis/climate-metals-tradeoffs]] and [[ingredients/freshwater-fish]] (climate-driven methylmercury trajectory section).
+
 ## How The App Would Estimate Risk From An Ingredient List
 
 <!-- audience: app, consumer -->
