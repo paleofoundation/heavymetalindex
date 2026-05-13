@@ -6,19 +6,19 @@ aliases: [white potato, russet potato, yukon gold, red potato, potato flakes, po
 category: starchy-root
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [15, 34]
+    p95_ppb: 37.7
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -27,19 +27,19 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 48]
+    p95_ppb: 79.4
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -48,12 +48,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -62,25 +62,25 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   tAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 2.7
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   U:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: [soil-uptake, tuber-formation-in-soil, geography, peel-versus-flesh]
 lower_risk_variants: ["[[ingredients/peeled-potato]]", "[[ingredients/potato-starch]]"]
 higher_risk_variants: ["[[ingredients/unpeeled-potato]]", "[[ingredients/potato-skin]]", "[[ingredients/potato-peel-heavy-products]]"]
 used_in_products: ["[[products/baby-food-vegetables]]", "[[products/french-fries]]", "[[products/potato-chips]]", "[[products/mashed-potato-products]]", "[[products/potato-starch-containing-baked-goods]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 # Potatoes
