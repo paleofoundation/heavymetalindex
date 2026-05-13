@@ -36,6 +36,8 @@ sources: 5
 
 This page is a structural scaffold for HMTc Category 1 row 15. FDA compliance samples add broad grain-based snack context, but non-rice snack-specific p10/p90/p100 distributions are still pending because rice status is not isolated.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -64,6 +66,27 @@ This page is a structural scaffold for HMTc Category 1 row 15. FDA compliance sa
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in non-rice teething products and snacks. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as dry weight (as sold), wet weight (as consumed/prepared), or on other bases. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its limit of detection (LOD) or limit of quantification (LOQ), this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources whose LOQs, sampling periods, geographies, and analytical bases differ. Cross-source pooling, when needed for standards work, is performed in staff tooling and is not published on this page.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix and format. Partial or unknown fit means the author uses a broader category. Row-fit determines whether a source contributes direct evidence or supporting context.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. C-tier: news and press. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1-2 sources. Medium: 3-10 sources. High: more than 10 sources. Confidence reflects volume and agreement of evidence, not regulatory pass/fail status.
+
+**Standards-program math sits elsewhere.** Percentile selection, clean/dirty subcategory designation, and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
@@ -144,7 +167,7 @@ The current source set does not yet support a non-rice snack HMTc clean-platform
 | All-sample baby-food/formula distribution | [[metals/cadmium|Cadmium]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 2.76 ppb; p75 9.54 ppb; p90 20.75 ppb; p95 29.44 ppb; p99 42.50 ppb; max 103.90 ppb | Broad source-scope context only | Main paper Table 1 combines all categories; it does not publish snack-specific or rice-status-specific concentration percentiles. Sample-level or supplemental data would be needed before this source can support the non-rice snack clean-platform aggregate. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 | All-sample baby-food/formula distribution | [[metals/lead|Lead]] | Broad U.S. baby foods and formulas | 564 | p50, p75, p90, p95, p99, max | p50 0 ppb; p75 5.60 ppb; p90 10.80 ppb; p95 18.50 ppb; p99 62.75 ppb; max 183.60 ppb | Broad source-scope context only | Main paper Table 1 combines all categories; it does not publish snack-specific or rice-status-specific concentration percentiles. Sample-level or supplemental data would be needed before this source can support the non-rice snack clean-platform aggregate. [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] |
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -187,6 +210,27 @@ Potential variance drivers for non-rice teething foods and snacks should be docu
 <!-- audience: app, consumer -->
 
 The app model placeholder for this row should treat [[ingredients/teething-and-snacks]], [[ingredients/non-rice-grains]], and snack-format targets as unresolved until source-backed contamination profiles exist. <!-- UNCITED: Need source-backed ingredient mapping and concentration distributions before app risk inference is populated. -->
+
+## Levers to reduce contamination
+
+The primary contamination concern for non-rice teething products and snacks is cadmium (Cd) in grain-based ingredients (oats, wheat, quinoa), with lead (Pb) as a secondary concern. Inorganic arsenic is substantially lower in non-rice snack products than in rice-based products.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Specify Cd-screened grain ingredients from regions with low soil Cd (avoid high-Cd European soils for oats and wheat). Gardener 2019 documented elevated Cd in baby foods containing quinoa, wheat, and oats versus lower-Cd grain bases. | _Quantified magnitude data not yet ingested from cited sources; section will be expanded when grain-level Cd-by-origin data is available._ | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food\|—]] (contextual) |
+| 2 | Agronomic | Soil pH liming and soil amendment at grain-growing level reduces Cd uptake in oats and wheat; this is an upstream supplier lever, not a finished-product formulation lever. | _Quantified magnitude data not yet ingested; section will be expanded when intervention studies are available._ | — |
+| 3 | Processing | Milling removes the bran layer, which concentrates Cd relative to endosperm. Whole-grain snack formulations carry higher Cd loads than refined-grain equivalents. | _Quantified magnitude data not yet ingested from cited sources; section will be expanded when milling-effect data is available._ | — |
+| 4 | Formulation | Grain blend optimization to reduce average Cd contribution; avoid disproportionate reliance on high-Cd grains in the blend. Collado-Lopez 2025 identifies cereals as the highest-Cd baby-food group at median 13 ppb, providing context for the Cd reduction opportunity in the category. | _Quantified magnitude data not yet ingested for snack-specific formulation interventions._ | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|—]] (contextual) |
+| 5 | Testing and QC | Lot-level ICP-MS on incoming grain ingredients. Total arsenic screening by itself does not characterize cadmium and lead; the full analyte panel is required. Hernandez 2019 confirms food-matrix chromium is essentially Cr(III), so Cr-VI is not a primary testing concern for this matrix. | _Quantified magnitude data not yet ingested for detection-power modeling at specific sample sizes._ | [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\|—]] (Cr-VI context) |
+| 6 | Packaging and storage | Not applicable to this product category as a primary lever; no Sn migration pathway in dry snack packaging under normal storage conditions. | — | — |
+
+Cross-links: [[ingredients/oats]] if the page exists; [[ingredients/wheat]] if the page exists; relevant mitigation pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review; it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
 
 ## Historical Recalls/Enforcement
 
