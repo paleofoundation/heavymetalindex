@@ -7,6 +7,7 @@ authors: [Kim BF, Lupolt SN, Santo RE, Bachman G, Zhu X, Yang T, Fukagawa NK, Ri
 year: 2024
 publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0296840
+access_url: https://doi.org/10.1371/journal.pone.0296840
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC0"

@@ -7,6 +7,7 @@ authors: [Zhang Y, Li X, Kong F]
 year: 2026
 publication: "Scientific Reports"
 doi: 10.1038/s41598-026-37535-6
+access_url: https://doi.org/10.1038/s41598-026-37535-6
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

@@ -7,6 +7,7 @@ authors: [Qin J, Li J, Su S, Yuan G, Ouyang X, Zheng G, Xue M, Liu Z, Huang X, L
 year: 2026
 publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-026-03081-3
+access_url: https://doi.org/10.1007/s10653-026-03081-3
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"

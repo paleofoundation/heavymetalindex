@@ -7,6 +7,7 @@ authors: [Wei D, Huang Y, Yu Z, Zan L, Li W, Wei K, Peng Y, Wang X]
 year: 2025
 publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2025.1703651
+access_url: https://doi.org/10.3389/fpls.2025.1703651
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

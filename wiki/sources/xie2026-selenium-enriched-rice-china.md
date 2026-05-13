@@ -7,6 +7,7 @@ authors: [Xie Q, Li J, Luo D, Kong F, Zhang S, Chai G, Yan Q, Zhou H, Li G, Chen
 year: 2026
 publication: "Scientific Reports"
 doi: 10.1038/s41598-026-36600-4
+access_url: https://doi.org/10.1038/s41598-026-36600-4
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"

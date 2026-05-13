@@ -7,6 +7,7 @@ authors: [Li M, Qiu L, Ai X, Xu K, Peng M, Sun G, Zhang K, Huang C]
 year: 2024
 publication: "GeoHealth"
 doi: 10.1029/2024GH001040
+access_url: https://doi.org/10.1029/2024GH001040
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"

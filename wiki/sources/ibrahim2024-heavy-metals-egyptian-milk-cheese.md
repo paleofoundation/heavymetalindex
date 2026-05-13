@@ -7,6 +7,7 @@ authors: [Ibrahim SA, El-Sohaimy SA, Abd El-Aziz M, Shehata MG]
 year: 2024
 publication: "Open Veterinary Journal"
 doi: 10.5455/OVJ.2024.v14.i2.4
+access_url: https://doi.org/10.5455/OVJ.2024.v14.i2.4
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

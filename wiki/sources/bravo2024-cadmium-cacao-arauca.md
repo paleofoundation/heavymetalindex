@@ -7,6 +7,7 @@ authors: [Bravo AG, Espinosa LF, Quiroga JA, Noriega RD, Castellanos DA]
 year: 2024
 publication: "Environmental Monitoring and Assessment"
 doi: 10.1007/s10661-024-12539-9
+access_url: https://doi.org/10.1007/s10661-024-12539-9
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

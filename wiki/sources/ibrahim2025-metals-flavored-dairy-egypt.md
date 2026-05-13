@@ -7,6 +7,7 @@ authors: [Ibrahim AS, Awaad SS, Shehta HA, Hegab OW]
 year: 2025
 publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-025-04676-0
+access_url: https://doi.org/10.1007/s12011-025-04676-0
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

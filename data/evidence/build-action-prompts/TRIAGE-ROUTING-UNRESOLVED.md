@@ -1,6 +1,6 @@
 # Session prompt: triage routing-unresolved entries
 
-39 entries in `data/evidence/routing_unresolved.csv`. Each is a source page whose frontmatter declared a product / ingredient / metal / regulation that does not match any existing wiki page.
+20 entries in `data/evidence/routing_unresolved.csv`. Each is a source page whose frontmatter declared a product / ingredient / metal / regulation that does not match any existing wiki page.
 
 ## Decision tree per entry
 
@@ -16,11 +16,11 @@ For each unresolved row, classify it as one of:
 
 Sample first 5 rows:
 
-  - altunay2023-cadmium-food-turkey declared ingredient `cereals` (does not exist)
-  - atsdr-aluminum-toxprofile-2008 declared ingredient `breastmilk` (does not exist)
-  - auzier-guimaraes2025-mercury-tapajos-fish declared ingredient `freshwater-fish` (does not exist)
-  - bedoya-perales2023-moquegua-peru-mining-dataset declared ingredient `quinoa` (does not exist)
-  - carignan2015-arsenic-exposure-breastfed-formula-fed-infants declared ingredient `breastmilk` (does not exist)
+  - albishi2026-cassava-flour-biofortification declared ingredient `cassava` (does not exist)
+  - alinezhad2024-heavy-metals-milk-systematic-review declared product `pasteurized-milk` (does not exist)
+  - alinezhad2024-heavy-metals-milk-systematic-review declared ingredient `dairy` (does not exist)
+  - bravo2024-cadmium-cacao-arauca declared product `chocolate` (does not exist)
+  - hussein2024-toxic-metals-canned-fish-egypt declared product `canned-fish` (does not exist)
 
 ## At the end
 

@@ -7,6 +7,7 @@ authors: [Hussein MA, Morgan SE, Mahmoud AF, El-Ghareeb WR]
 year: 2024
 publication: "Open Veterinary Journal"
 doi: 10.5455/OVJ.2024.v14.i1.23
+access_url: https://doi.org/10.5455/OVJ.2024.v14.i1.23
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

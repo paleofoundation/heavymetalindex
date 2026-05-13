@@ -7,6 +7,7 @@ authors: [Albishi TS, Adaigho D, Alqahtani NK, Sami R, Uguru H, Helal M, Alaoufi
 year: 2026
 publication: "Frontiers in Nutrition"
 doi: 10.3389/fnut.2025.1731737
+access_url: https://doi.org/10.3389/fnut.2025.1731737
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

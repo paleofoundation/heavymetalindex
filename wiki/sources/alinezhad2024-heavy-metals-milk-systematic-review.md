@@ -7,6 +7,7 @@ authors: [Alinezhad S, Mousavi Khaneghah A, Hosseinzadeh Samani B, Fakhri Y, Ali
 year: 2024
 publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0296649
+access_url: https://doi.org/10.1371/journal.pone.0296649
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

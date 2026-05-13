@@ -7,6 +7,7 @@ authors: [Marcelino I, Monti G, Cornelissen P, Bassingthwaighte E, het Lam J, va
 year: 2026
 publication: "Frontiers in Veterinary Science"
 doi: 10.3389/fvets.2026.1751586
+access_url: https://doi.org/10.3389/fvets.2026.1751586
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
