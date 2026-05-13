@@ -438,7 +438,7 @@ async function buildCell(
     rawSamples,
     regulatoryGuardrail,
   );
-  const status = statusFor(rowRecords, selected, blockers, finalized);
+  const status = statusFor(rowRecords, selected, blockers, finalized, pooled);
   const sourceRows = await Promise.all(
     rowRecords.slice(0, 8).map(async (record) => ({
       source_id: record.source_id,
@@ -1410,9 +1410,21 @@ function blockersFor(
   return blockers;
 }
 
-function statusFor(records, selected, blockers, finalized) {
+function statusFor(records, selected, blockers, finalized, pooled) {
+  // Finalized (in canonical CSV) always wins.
   if (finalized?.standard_status === "finalized") return "finalized";
   if (finalized?.standard_status === "approved") return "finalized";
+
+  // Pooled engine verdict takes priority when present. The legacy
+  // chooseBestRecord path is a fallback only.
+  if (pooled?.verdict) {
+    if (pooled.verdict.startsWith("READY")) return "candidate";
+    if (pooled.verdict.startsWith("PROVISIONAL")) return "review";
+    if (pooled.verdict.startsWith("BLOCKED: no usable")) return "missing";
+    if (pooled.verdict.startsWith("BLOCKED: pool too thin")) return "review";
+    if (pooled.verdict.startsWith("BLOCKED: sensitivity")) return "review";
+  }
+
   if (records.length === 0) return "missing";
   if (!selected) return "path-b";
   if (blockers.length > 0) return "review";
@@ -1422,7 +1434,7 @@ function statusFor(records, selected, blockers, finalized) {
 function statusLabel(status) {
   return {
     finalized: "Finalized",
-    candidate: "Candidate-ready",
+    candidate: "Ready for review",
     review: "Needs review",
     "path-b": "Path B likely",
     missing: "Evidence missing",

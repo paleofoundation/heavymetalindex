@@ -951,6 +951,56 @@ tr:hover {
   background: #2f5a40;
 }
 
+.basis-tag {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--ink);
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-left: 0.25rem;
+  padding: 0.05rem 0.35rem;
+  text-transform: lowercase;
+  vertical-align: 0.05em;
+}
+
+.basis-tag--canonical {
+  background: var(--wine);
+  border-color: var(--wine-dark);
+  color: #fff;
+}
+
+.basis-tag--literature-baseline {
+  background: #eaf5ed;
+  border-color: #c4e0cf;
+  color: var(--green);
+}
+
+.basis-tag--regulatory-alignment {
+  background: #fff6ea;
+  border-color: #ecd1ad;
+  color: var(--amber);
+}
+
+.basis-tag--no-data {
+  background: var(--gray);
+  border-color: var(--line);
+  color: var(--muted);
+}
+
+.cross-basis {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.cross-basis em {
+  font-style: normal;
+}
+
 .row-overview-card,
 .readiness-card,
 .math-card,

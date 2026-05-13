@@ -54,6 +54,7 @@ const DIRTY_TARGET_P = 0.45       // per-analyte dirty standard
 const INDEPENDENT_TARGET_P = 0.97 // default for variant_type other than clean/dirty
 const DEFAULT_CV_FOR_MEAN_ONLY = 1.0 // EFSA/JECFA convention for contaminant data
 const BASIS_RECONSTITUTION_FACTOR = 7 // 1 g powder + 6 g water (1:7 dilution)
+const MAX_SOURCE_SHARE = 0.5      // no single source > 50% of pool weight
 
 // ---- Random number generator (deterministic, seeded for reproducibility)
 
@@ -358,25 +359,94 @@ function pool(rowsForCell, productNativeBasis, rng) {
     })
   }
 
-  // Pool with N-weighting capped at 2× median per-source N to prevent any
-  // one large survey from dominating.
-  if (sourceN.length === 0) return { pooled: [], contributions, capN: 0 }
-  const medianN = percentile(sourceN.slice().sort((a, b) => a - b), 0.5)
-  const cap = Math.max(2 * medianN, 50)
-  const pooled = []
-  for (const c of contributions) {
-    if (!c.admitted) continue
-    const keep = Math.min(c.samples.length, cap)
-    for (let i = 0; i < keep; i++) {
-      pooled.push(c.samples[Math.floor((i * c.samples.length) / keep)])
+  // Pool with N-weighting subject to a *relative-share cap*: no single source
+  // contributes more than MAX_SOURCE_SHARE of the final pool. This prevents a
+  // single mega-source from dominating WITHOUT punishing data quality the way
+  // an absolute cap (e.g. "no source contributes more than 50 pseudo-samples")
+  // would — that older approach truncated FDA 2026's N=230 down to 50 and
+  // gave the same weight to a single-point Pandelova basket entry.
+  //
+  // Algorithm: admit each source's pseudo-samples in full first. Then if any
+  // source exceeds MAX_SOURCE_SHARE of the total, downsample only that source
+  // (uniformly) until it sits at MAX_SOURCE_SHARE. Repeat until all sources
+  // are within the share cap.
+  if (sourceN.length === 0)
+    return { pooled: [], contributions, capN: 0, medianN: 0, share_cap: MAX_SOURCE_SHARE }
+
+  const admittedContribs = contributions.filter((c) => c.admitted)
+  const sampleVectors = admittedContribs.map((c) => c.samples.slice())
+
+  // Closed-form relative-share cap. For source i with original length n_i and
+  // others' total m_i, the post-cap length n_i' satisfies n_i' / (n_i' + m_i)
+  // ≤ S. Solving: n_i' ≤ m_i × S / (1 - S). For S = 0.5, n_i' ≤ m_i (a
+  // single source can match — but not exceed — the sum of all others).
+  // We apply this in one pass; if multiple sources are over the cap, each
+  // one's allowance is computed against the others' lengths *after* their
+  // own caps are applied. Solve iteratively but with a convergent shrinkage
+  // rule: each pass strictly reduces over-cap sources by at least 5% until
+  // all sit at or below the cap.
+  const ratio = MAX_SOURCE_SHARE / (1 - MAX_SOURCE_SHARE)
+  // Up to 200 iterations is plenty; each pass strictly shrinks.
+  let safety = 200
+  while (safety-- > 0) {
+    const lens = sampleVectors.map((s) => s.length)
+    const total = lens.reduce((a, b) => a + b, 0)
+    if (total === 0) break
+    let changed = false
+    for (let i = 0; i < sampleVectors.length; i++) {
+      const others = total - lens[i]
+      const allowed = Math.max(1, Math.floor(others * ratio))
+      if (sampleVectors[i].length > allowed) {
+        sampleVectors[i] = downsampleUniform(sampleVectors[i], allowed)
+        changed = true
+      }
     }
-    // Stop publishing the raw pseudo-samples in the contribution record (it
-    // would balloon the CSV); keep just the count.
-    c.sample_count_after_cap = keep
+    if (!changed) break
+  }
+
+  const pooled = []
+  for (let i = 0; i < admittedContribs.length; i++) {
+    const c = admittedContribs[i]
+    const samples = sampleVectors[i]
+    for (const v of samples) pooled.push(v)
+    c.sample_count_admitted = c.samples.length
+    c.sample_count_after_cap = samples.length
+    c.pool_share = samples.length === 0
+      ? 0
+      : Number((samples.length / Math.max(pooled.length, 1)).toFixed(4))
     delete c.samples
   }
   pooled.sort((a, b) => a - b)
-  return { pooled, contributions, capN: cap, medianN }
+
+  // Final-share audit for the assertion downstream.
+  const total = pooled.length
+  for (let i = 0; i < admittedContribs.length; i++) {
+    const c = admittedContribs[i]
+    c.pool_share = total === 0
+      ? 0
+      : Number((sampleVectors[i].length / total).toFixed(4))
+  }
+
+  const medianN =
+    sourceN.length > 0
+      ? percentile(sourceN.slice().sort((a, b) => a - b), 0.5)
+      : 0
+  return {
+    pooled,
+    contributions,
+    capN: null,
+    medianN,
+    share_cap: MAX_SOURCE_SHARE,
+  }
+}
+
+function downsampleUniform(samples, target) {
+  if (samples.length <= target) return samples
+  const out = []
+  for (let i = 0; i < target; i++) {
+    out.push(samples[Math.floor((i * samples.length) / target)])
+  }
+  return out
 }
 
 function percentile(sorted, p) {
@@ -407,20 +477,36 @@ function sensitivity(rowsForCell, productNativeBasis, targetP, seedBase) {
 }
 
 // ---- Bootstrap CI
+//
+// Proper meta-analytic bootstrap: each iteration draws |sources| sources
+// with replacement, regenerates each drawn source's pseudo-samples (under
+// the headline lognormal assumption with the seeded RNG), pools, and takes
+// the target percentile. This represents between-source uncertainty, which
+// dominates when sources differ in basis, jurisdiction, and method.
+//
+// The earlier implementation resampled individual pseudo-samples from the
+// final pool. That captured only within-pool variance and consistently
+// under-stated CI width because pseudo-samples within a source are
+// correlated (generated from one set of moments).
 
-function bootstrapCI(samples, p, iterations, rng) {
-  if (!samples.length) return { lo: null, hi: null }
+function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, iterations, seedBase) {
+  if (!rowsForCell.length) return { lo: null, hi: null }
   const draws = []
   for (let it = 0; it < iterations; it++) {
-    const resampled = []
-    for (let i = 0; i < samples.length; i++) {
-      resampled.push(samples[Math.floor(rng.next() * samples.length)])
+    const drawnRows = []
+    const iterRng = new SeededRng(seedBase ^ ((it + 1) * 2654435761))
+    for (let i = 0; i < rowsForCell.length; i++) {
+      drawnRows.push(rowsForCell[Math.floor(iterRng.next() * rowsForCell.length)])
     }
-    resampled.sort((a, b) => a - b)
-    draws.push(percentile(resampled, p))
+    const { pooled } = pool(drawnRows, productNativeBasis, iterRng)
+    if (pooled.length > 0) draws.push(percentile(pooled, targetP))
   }
   draws.sort((a, b) => a - b)
-  return { lo: percentile(draws, 0.025), hi: percentile(draws, 0.975) }
+  return {
+    lo: draws.length > 0 ? percentile(draws, 0.025) : null,
+    hi: draws.length > 0 ? percentile(draws, 0.975) : null,
+    iterations: draws.length,
+  }
 }
 
 // ---- Regulatory cap lookup
@@ -498,40 +584,72 @@ function main() {
     for (const metal of product.primary_metals_of_concern ?? []) {
       if (metalFilter && metal !== metalFilter) continue
       const key = `${slug}::${metal}`
-      const rowsForCell = rowsByKey.get(key) ?? []
+      const summaryRowsForCell = rowsByKey.get(key) ?? []
 
-      // Also synthesize sample-level rows: if samples CSV has rows for this
-      // key, prefer a synthetic row that uses the raw values.
+      // De-dup contribution sources: when samples CSV holds raw values for a
+      // source that the summary CSV also has, prefer the sample-level
+      // reconstruction and drop the summary-row reconstruction so the same
+      // physical paper isn't admitted twice.
       const samplesForCell = samplesByKey.get(key) ?? []
-      if (samplesForCell.length > 0) {
-        const values = samplesForCell
+      const samplesBySourceId = new Map()
+      for (const sample of samplesForCell) {
+        const sid = sample.source_id
+        if (!sid) continue
+        if (!samplesBySourceId.has(sid)) samplesBySourceId.set(sid, [])
+        samplesBySourceId.get(sid).push(sample)
+      }
+      const sourcesWithSamples = new Set(samplesBySourceId.keys())
+
+      // Build the final rowsForCell: summary rows for sources WITHOUT samples,
+      // plus a synthetic sample-level row per source WITH samples (which uses
+      // the basis from the matching summary row when available, so we don't
+      // default to as_consumed when the source is actually prepared_for_feeding).
+      const rowsForCell = summaryRowsForCell.filter(
+        (r) => !sourcesWithSamples.has(r.source_id),
+      )
+      for (const [sourceId, samples] of samplesBySourceId) {
+        const values = samples
           .map((s) => numberOrNull(s.numeric_lower_bound_ppb ?? s.value_ppb ?? s.reported_value))
           .filter((v) => v !== null)
           .sort((a, b) => a - b)
-        if (values.length > 0) {
-          rowsForCell.push({
-            source_id: samplesForCell[0].source_id + "::sample-level",
-            basis: samplesForCell[0].basis || "as_consumed",
-            n: String(values.length),
-            p10_ppb: String(percentile(values, 0.1)),
-            p50_ppb: String(percentile(values, 0.5)),
-            p90_ppb: String(percentile(values, 0.9)),
-            p95_ppb: String(percentile(values, 0.95)),
-            p100_ppb: String(values[values.length - 1]),
-            mean_ppb: String(values.reduce((a, b) => a + b, 0) / values.length),
-            _synthetic_from_samples: true,
-          })
-        }
+        if (values.length === 0) continue
+        // Inherit basis from the matching summary row (if any). Samples CSV
+        // rarely carries basis; summary CSV does.
+        const matchingSummary = summaryRowsForCell.find((r) => r.source_id === sourceId)
+        const basis =
+          matchingSummary?.basis ||
+          samples[0].basis ||
+          "as_consumed"
+        rowsForCell.push({
+          source_id: sourceId,
+          basis,
+          n: String(values.length),
+          p10_ppb: String(percentile(values, 0.1)),
+          p50_ppb: String(percentile(values, 0.5)),
+          p90_ppb: String(percentile(values, 0.9)),
+          p95_ppb: String(percentile(values, 0.95)),
+          p100_ppb: String(values[values.length - 1]),
+          mean_ppb: String(values.reduce((a, b) => a + b, 0) / values.length),
+          _synthetic_from_samples: true,
+          _replaces_summary_row: Boolean(matchingSummary),
+        })
       }
+
+      // Invariant: any source represented by sample-level synthesis must not
+      // also appear as a summary row in the same cell. Multiple summary rows
+      // for one source are legitimate when they represent distinct cohorts
+      // (e.g. per-brand-group rows in almeida2022).
+      assertSamplesReplacedSummary(rowsForCell, slug, metal)
 
       const seed = hashSeed(slug + ":" + metal)
       const rng = new SeededRng(seed)
 
-      const { pooled, contributions, capN, medianN } = pool(
+      const { pooled, contributions, capN, medianN, share_cap } = pool(
         rowsForCell,
         product.native_basis,
         rng,
       )
+      assertPoolShareCap(contributions, slug, metal)
       const admittedCount = contributions.filter((c) => c.admitted).length
       const sampleLevelCount = contributions.filter(
         (c) => c.admitted && c.reconstruction_method === "percentile_interpolation",
@@ -568,7 +686,13 @@ function main() {
 
       const ci =
         pooled.length > 0
-          ? bootstrapCI(pooled, target.target_p, bootstrapIterations, rng)
+          ? bootstrapCI_sourceLevel(
+              rowsForCell,
+              product.native_basis,
+              target.target_p,
+              bootstrapIterations,
+              seed,
+            )
           : { lo: null, hi: null }
 
       const regCap = lookupRegCap(slug, metal, gapRows)
@@ -678,6 +802,36 @@ function deriveVerdict({ admittedCount, sampleLevelCount, sensBand, regCap, pool
 }
 
 // ---- Utilities
+
+function assertSamplesReplacedSummary(rows, slug, metal) {
+  const summarySourceIds = new Set(
+    rows.filter((r) => !r._synthetic_from_samples).map((r) => r.source_id),
+  )
+  for (const r of rows) {
+    if (!r._synthetic_from_samples) continue
+    if (summarySourceIds.has(r.source_id)) {
+      throw new Error(
+        `[pool dedup] source ${r.source_id} appears as BOTH a summary row and a sample-level synthesis for ${slug} × ${metal}; the dedup logic in main() should have removed the summary. This is a bug; refusing to produce a double-counted pool.`,
+      )
+    }
+  }
+}
+
+function assertPoolShareCap(contributions, slug, metal) {
+  const admitted = contributions.filter((c) => c.admitted)
+  // The share cap only makes sense when ≥2 sources are admitted. A single
+  // admitted source legitimately holds 100% of the pool; the downstream
+  // verdict logic flags that case as "pool too thin" rather than treating
+  // it as a cap violation.
+  if (admitted.length < 2) return
+  for (const c of admitted) {
+    if (c.pool_share > MAX_SOURCE_SHARE + 0.001) {
+      throw new Error(
+        `[pool share cap] source ${c.source_id} contributes ${(c.pool_share * 100).toFixed(1)}% of the pool for ${slug} × ${metal}, exceeding the ${MAX_SOURCE_SHARE * 100}% relative-share cap. Downsampling failed; this is a bug.`,
+      )
+    }
+  }
+}
 
 function hashSeed(s) {
   let h = 2166136261

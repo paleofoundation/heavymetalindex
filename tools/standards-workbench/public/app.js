@@ -21,6 +21,48 @@ const validationTone = {
   notice: "notice",
 }
 
+const BASIS_RECONSTITUTION_FACTOR = 7
+
+function basisShortLabel(basis) {
+  if (!basis) return ""
+  return ({
+    powder_as_placed: "powder",
+    as_sold: "as-sold",
+    as_sold_or_source_reported: "as-sold",
+    dry_as_sold: "dry",
+    prepared_for_feeding: "prepared",
+    as_consumed: "as-consumed",
+    concentrated_liquid_as_placed: "concentrated",
+  })[basis] || basis
+}
+
+function isPowderBasis(basis) {
+  return ["powder_as_placed", "as_sold", "as_sold_or_source_reported", "dry_as_sold"].includes(basis)
+}
+
+function isPreparedBasis(basis) {
+  return ["prepared_for_feeding", "as_consumed"].includes(basis)
+}
+
+function crossBasisEquivalent(valuePpb, fromBasis) {
+  if (valuePpb === null || valuePpb === undefined || !Number.isFinite(valuePpb)) return null
+  if (isPowderBasis(fromBasis)) {
+    return {
+      value: valuePpb / BASIS_RECONSTITUTION_FACTOR,
+      basis: "prepared_for_feeding",
+      note: `÷${BASIS_RECONSTITUTION_FACTOR} (1:7 reconstitution)`,
+    }
+  }
+  if (isPreparedBasis(fromBasis)) {
+    return {
+      value: valuePpb * BASIS_RECONSTITUTION_FACTOR,
+      basis: "powder_as_placed",
+      note: `×${BASIS_RECONSTITUTION_FACTOR} (1:7 reconstitution)`,
+    }
+  }
+  return null
+}
+
 const HMTC_TEN_ANALYTES = [
   "Pb",
   "Cd",
@@ -429,13 +471,22 @@ function renderMatrix(cells = filteredCells()) {
         ? `<span class="staged-badge">staged</span>`
         : ""
       const comparator = renderComparatorCell(cell)
-      const readiness = cell.readiness?.label ?? "—"
-      const readinessTone = readinessToneFor(cell.readiness?.aggregate_status)
+      const readiness = cell.pooled?.verdict ?? cell.readiness?.label ?? "—"
+      const readinessTone = cell.pooled
+        ? cell.pooled.verdict?.startsWith("READY")
+          ? "ready"
+          : cell.pooled.verdict?.startsWith("PROVISIONAL")
+            ? "hold"
+            : cell.pooled.verdict?.startsWith("BLOCKED")
+              ? "blocked"
+              : "neutral"
+        : readinessToneFor(cell.readiness?.aggregate_status)
+      const rowStandardCell = renderMatrixRowStandardCell(cell)
       return `<tr class="${active}" data-cell="${escapeHTML(cell.id)}">
         <td><strong>${escapeHTML(cell.row_title)}${stagedBadge}</strong><span>Row ${cell.hmtc_row ?? "n/a"}</span></td>
         <td>${escapeHTML(cell.metal)}</td>
         <td><span class="badge ${statusTone[cell.status]}">${escapeHTML(cell.status_label)}</span></td>
-        <td>${renderMatrixValue(cell.row_standard.label, cell.row_standard.candidate_value, cell.row_standard.unit)}</td>
+        <td>${rowStandardCell}</td>
         <td>${comparator}</td>
         <td>${renderRegCeilingCell(cell)}</td>
         <td><span class="readiness-pill ${readinessTone}">${escapeHTML(readiness)}</span></td>
@@ -814,14 +865,20 @@ function renderRowOverviewCard(cell) {
       </tr>`
     }
     const isSelected = cellForMetal.id === cell.id ? "active" : ""
-    const candidate = valueOrDash(
-      cellForMetal.row_standard.candidate_value,
-      cellForMetal.row_standard.unit,
-    )
-    const p30 = valueOrDash(
-      cellForMetal.row_percentiles.p30,
-      cellForMetal.row_percentiles.unit,
-    )
+    // Prefer the pooled engine's candidate over the legacy per-source p90
+    // selection. Falls back to legacy only when the pooled engine hasn't
+    // produced output for this cell.
+    const pooledCell = cellForMetal.pooled
+    const candidateValue = pooledCell?.candidate_value_ppb ?? cellForMetal.row_standard.candidate_value
+    const candidateBasis = pooledCell?.native_basis ?? null
+    const candidateLabel = pooledCell?.target_label ?? cellForMetal.row_standard.statistic ?? "—"
+    const candidateRationale = pooledCell?.rationale_tag_auto
+    const candidate = candidateValue !== null && candidateValue !== undefined
+      ? `${formatNumber(candidateValue)} ppb${candidateBasis ? ` <span class="basis-tag">${escapeHTML(basisShortLabel(candidateBasis))}</span>` : ""}`
+      : "—"
+    const targetCell = pooledCell?.pooled_p45 ?? cellForMetal.row_percentiles.p30
+    const targetLabel = pooledCell?.target_label?.includes("p45") ? "P45" : "P30"
+    const dirtyLabel = valueOrDash(targetCell, "")
     const ceiling = cellForMetal.regulatory_guardrail?.ceiling_value
     const ceilingCell =
       ceiling !== null && ceiling !== undefined
@@ -830,13 +887,17 @@ function renderRowOverviewCard(cell) {
             cellForMetal.readiness?.lowest_regulatory_cap_ppb !== undefined
           ? `${formatNumber(cellForMetal.readiness.lowest_regulatory_cap_ppb)} ppb*`
           : "—"
+    const nATier = pooledCell?.sources_contributing ?? cellForMetal.readiness?.n_a_tier ?? "—"
+    const rationaleChip = candidateRationale
+      ? `<span class="basis-tag basis-tag--${escapeHTML(candidateRationale)}">${escapeHTML(candidateRationale)}</span>`
+      : ""
     return `<tr class="${isSelected}" data-jump-cell="${escapeHTML(cellForMetal.id)}">
       <td><strong>${escapeHTML(metal)}</strong></td>
       <td><span class="badge ${statusTone[cellForMetal.status]} micro">${escapeHTML(cellForMetal.status_label)}</span></td>
-      <td>${candidate} <span class="muted">(${escapeHTML(cellForMetal.row_standard.statistic ?? "—")})</span></td>
-      <td>${p30}</td>
+      <td>${candidate} <span class="muted">(${escapeHTML(candidateLabel)})</span> ${rationaleChip}</td>
+      <td>${dirtyLabel} <span class="muted">(${targetLabel})</span></td>
       <td>${ceilingCell}</td>
-      <td>${cellForMetal.readiness?.n_a_tier ?? "—"}</td>
+      <td>${nATier}</td>
     </tr>`
   }).join("")
   const otherMetals = rowCells
@@ -895,10 +956,16 @@ function renderPooledDistribution(pooled) {
     )
     .join("")
 
+  const candidateCross = crossBasisEquivalent(pooled.candidate_value_ppb, pooled.native_basis)
+  const candidateCrossDisplay = candidateCross
+    ? `<span class="cross-basis">≈ ${formatNumber(candidateCross.value)} ppb ${escapeHTML(basisShortLabel(candidateCross.basis))} <em class="muted">(${escapeHTML(candidateCross.note)})</em></span>`
+    : ""
+
   return `<div class="pooled-headline">
     <div class="pooled-candidate">
       <span class="pooled-candidate-label">HMTc candidate</span>
-      <strong class="pooled-candidate-value">${valueOrDash(pooled.candidate_value_ppb, "ppb")}</strong>
+      <strong class="pooled-candidate-value">${valueOrDash(pooled.candidate_value_ppb, "ppb")} <span class="basis-tag basis-tag--canonical">${escapeHTML(basisShortLabel(pooled.native_basis))}</span></strong>
+      ${candidateCrossDisplay}
       <span class="pooled-rationale ${pooled.rationale_tag_auto ?? "none"}">${escapeHTML(pooled.rationale_tag_auto || "no-rationale")}</span>
     </div>
     <span class="pooled-verdict readiness-pill ${verdictTone}">${escapeHTML(pooled.verdict || "")}</span>
@@ -1196,6 +1263,20 @@ function openAdjudicationDialog(finding) {
 
 function renderMatrixValue(label, value, unit) {
   return `<strong>${valueOrDash(value, unit)}</strong><span>${escapeHTML(label)}</span>`
+}
+
+function renderMatrixRowStandardCell(cell) {
+  const pooled = cell.pooled
+  if (pooled && pooled.candidate_value_ppb !== null && pooled.candidate_value_ppb !== undefined) {
+    const basis = basisShortLabel(pooled.native_basis)
+    const label = pooled.target_label ?? ""
+    const rationale = pooled.rationale_tag_auto
+    return `<strong>${formatNumber(pooled.candidate_value_ppb)} ppb <span class="basis-tag">${escapeHTML(basis)}</span></strong>
+      <span>${escapeHTML(label)}${rationale ? ` · ${escapeHTML(rationale)}` : ""}</span>`
+  }
+  // Fallback to legacy single-source row standard when the pooling engine
+  // hasn't produced output for this cell yet.
+  return `<strong>${valueOrDash(cell.row_standard.candidate_value, cell.row_standard.unit)}</strong><span>${escapeHTML(cell.row_standard.label)}</span>`
 }
 
 function sourceStat(label, value) {
