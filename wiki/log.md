@@ -1,3 +1,7 @@
+## [2026-05-13] batch | p4-batch9-g3 (50 handles) — 3 source pages, 47 false positives
+Pages touched: [[sources/alsulaiti2023-qatar-fish-mehg]], [[sources/kamaly2023-egypt-poultry-metals]], [[sources/suomi2023-finland-dietary-metals-cumulative]]
+Notes: Qatar fish tHg/MeHg risk assessment (n=65 composites, 7 species, ICP-MS); Egyptian broiler Pb/Cd/Al occurrence in Assiut market brands with 94% FAO/WHO Pb exceedance; Finnish cumulative dietary metal HI analysis (Cd, Pb, iAs, MeHg, Ni, Al via FinDiet 2012 n=1295). 47 FP: clinical/medical, plant genomics, aquatic ecotoxicology, materials science, EFSA feed additive opinions, animal nutrition trials.
+
 ## [2026-05-13] schema | populate source-legend — 1546 cells filled across 173 pages
 Pages touched: products:43, ingredients:189, metals:10+
 Notes: Tier 2 of the source-legend rollout per Karen's 2026-05-13 instinct-call. All *[awaiting synthesis]* cells in the hmi-source-legend blocks replaced with 1-sentence provenance descriptions for brand-legal-facing source scanability.
