@@ -39,6 +39,27 @@ This candidate is distinct from the promoted subsistence-fishing-mehg-disparity 
 
 Promotion readiness: 3 of 4 criteria met. Criterion 2 (spans multiple metals, ingredients, or products) is borderline — this is a mercury-only thread focused on freshwater fish. Consider whether to narrow scope to mercury-in-artisanal-fishing-systems or broaden to include multi-metal contamination from mining (As, Pb, Cd also elevated in ASGM contexts; see [[wiki/sources/shumba2025-tilapia-mercury-zambia-mining|Shumba 2025]] for As). Promote when one more study corroborates the multi-metal dimension or when a third continent's ASGM data enters the corpus.
 
+### Seafood arsenic speciation: "organic As is benign" is increasingly contested
+
+Anchor sources (5 A-tier studies across batches 9-10):
+
+- [[wiki/sources/davydiuk2023-arsenosugars-methylation|Davydiuk 2023]] (critical review: arsenosugars/arsenolipids from seafood elevate urinary DMA independently of iAs methylation efficiency, confounding biomonitoring)
+- [[wiki/sources/liu2023-arsenic-seafood-digestion|Liu 2023]] (in vitro: organic As in crab/scallop converts to As(V) 2–3× during GI digestion via pH-dependent free radical mechanism)
+- [[wiki/sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa 2023]] (J-MICC Daiko, n=2,709: serum tAs from fish — 98% arsenobetaine — associated with dose-dependent hypertension risk)
+- [[wiki/sources/hull2023-arsenic-lake-foodweb|Hull 2023]] (Puget Sound legacy lakes: sediment As predicts fish iAs; %iAs increases at lower trophic levels, organic As enriches at higher)
+- [[wiki/sources/sadee2023-arsenic-speciation-vegetables|Sadee 2023]] (review of HPLC-ICP-MS speciation methods for vegetable As; contextualizes the iAs vs organoarsenical distinction in non-marine matrices)
+
+Thesis: Regulatory and public health guidance treats marine organoarsenicals (principally arsenobetaine) as toxicologically inert and uses urinary %DMA as a proxy for inorganic arsenic methylation efficiency in biomonitoring studies. The accumulating evidence challenges both assumptions: (1) arsenosugars and arsenolipids from seafood are metabolized to DMA independently of iAs methylation pathways, inflating apparent methylation efficiency in populations with high seafood intake and biasing risk assessments downward; (2) organic As forms in seafood partially convert to As(V) during gastrointestinal digestion via pH-dependent oxidation, meaning the speciation at consumption does not reflect speciation at absorption; (3) epidemiological evidence from a large Japanese prospective cohort shows dose-dependent hypertension association even with serum tAs dominated by arsenobetaine, a finding that is anomalous under the inert-arsenobetaine assumption. Together these findings suggest that current biomonitoring interpretation, dietary exposure assessment, and regulatory frameworks for seafood As each rest on assumptions about organoarsenical inertness that are now empirically contested.
+
+Why this matters:
+- Brand-legal: seafood ingredient pages that report total As without speciation may understate the health-relevant fraction. Brands certifying seafood-containing products against a total-As limit may face scrutiny if the iAs/tAs ratio is poorly characterized for their specific species.
+- Regulator: biomonitoring studies in seafood-eating populations may systematically underestimate iAs exposure because urinary methylation indices are confounded by organoarsenical metabolism. Regulatory reference values derived from those populations may be miscalibrated.
+- Educator: teaches the non-obvious distinction between chemical speciation at time of consumption and bioavailable speciation after digestion; illustrates limits of urinary DMA as a biomarker in mixed-exposure populations.
+
+Criterion 2 borderline status: this is an arsenic-only thread but spans multiple matrices (seafood, fish, vegetables, dietary biomonitoring) and products (canned fish, fresh fish, kombucha/seaweed as proxy for algal organoarsenicals). The methodological finding — that organoarsenical metabolism confounds biomonitoring — applies to the whole seafood product category, not a single ingredient.
+
+Promotion readiness: 3 of 4 criteria met (3+ A-tier independent sources; spans multiple matrices and products; non-obvious from any single page). Criterion 4 (strategic relevance) is partially met for regulator and educator but only weakly for brand-legal. Promote when: (a) a study directly quantifies iAs absorption after in vivo seafood consumption in humans, or (b) a regulatory agency updates guidance on organoarsenical toxicity equivalence, or (c) the corpus accumulates two more papers in this cluster from different research groups.
+
 ### Egypt regulatory baseline as a multi-jurisdiction interpretation hazard
 
 Anchor sources (meta-finding about corpus pattern, not a single-paper thesis):
