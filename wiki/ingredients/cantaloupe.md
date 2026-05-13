@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 89, "Cantaloupe, raw/frozen." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Cantaloupe (Cucumis melo) is a cucurbit fruit with one of the lowest heavy metal accumulation profiles among common food crops. The edible interior flesh is protected by a thick, netted outer rind that physically separates it from direct soil contact, and the plant does not prioritize metal translocation to fruit tissue in the way that leafy vegetables or root crops do. Lead uptake from soil into melon flesh is limited both by physical rind protection and by the low phloem mobility of Pb, which restricts translocation from roots to developing fruit. Cadmium uptake is higher in cucurbits than lead, but cantaloupe flesh still shows Cd well below levels typical of brassica vegetables or root crops in the same soil. The FDA FY2018-FY2020 Total Diet Study confirms this low-accumulation pattern, with Pb, Cr, tHg, and U at or below the reporting limit, and Cd in the single-digit to low-teen ppb range [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel and total arsenic are detectable but at modest concentrations. Cantaloupe is not a canned product in the TDS food assessed (TDS Food 89 is raw/frozen), so tin migration from packaging is not a factor for this commodity.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study reports Cd in cantaloupe (raw/frozen) in the range of 0 to 36 ppb (median 7.1 ppb, p90 14.8 ppb, n=27 composites) [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 0 to 270 ppb (median 75 ppb, p90 172 ppb), which is unexpectedly high relative to other low-accumulation fruits and may warrant confirmation with independent sources. Total arsenic ranged from 0 to 26 ppb (median 7 ppb). Pb, Cr, tHg, and U were at or below the reporting limit across 27 composites. The Ni values are the most notable finding in the TDS data for this commodity; the corpus currently does not include independent studies to confirm or contextualize the cantaloupe Ni range. Geographic variation is expected to be minimal given the physical protection afforded by the rind; regional soil quality differences that substantially affect root or leafy vegetables have a smaller impact on cucurbit flesh.
+
+## Processing effects
+
+Cantaloupe consumed as fresh or frozen halves or cubes does not involve processing that would alter metal concentrations in the flesh. Washing the outer rind before cutting is a food safety practice (to prevent cross-contamination from the rind surface to the flesh during slicing) that does not directly reduce intrinsic metal content in the flesh. Cantaloupe pureed for smoothies, baby food, or juice processing carries whatever metal load is in the flesh into the final product at concentration determined by the flesh-to-water ratio. Frozen cantaloupe undergoes minimal processing (peeling, cutting, individual quick freezing) that does not alter metal concentrations.
+
+## Ingredient-derivative risk
+
+Cantaloupe is used in fruit salads, smoothies, baby food purees, juices, and dried snack products. Given its very low intrinsic metal load for most analytes, it contributes minimally to product-level metal concentrations even at high inclusion rates. Dried cantaloupe concentrates metals proportionally to moisture loss; a product dried to 10 percent of original moisture would carry approximately 10 times the fresh-weight concentration, but from a very low baseline this remains well within regulatory limits for most analytes. The notable exception to the low-risk profile is the Ni range observed in TDS data (up to 270 ppb), which if confirmed by additional sources would warrant inclusion in product-level Ni exposure estimates for formulations using cantaloupe at high inclusion rates.
+
+## Mitigation options
+
+### Sourcing levers
+
+Standard clean-soil agricultural sourcing is sufficient for most analytes given the low accumulation baseline. If the Ni values observed in TDS data are confirmed by additional surveys as consistently elevated, sourcing from lower-Ni-soil origins would become relevant. Irrigation water quality monitoring (particularly for Cd) provides upstream assurance.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._ Soil pH management and avoidance of contaminated irrigation water are general best practices applicable here as for other cucurbit crops.
+
+### Processing levers
+
+No processing steps are available to meaningfully reduce the intrinsic metal content of cantaloupe flesh. Washing the exterior rind before slicing prevents surface contamination of the flesh; this is standard practice.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._ Given the low baseline, formulation substitution is not indicated on metal-safety grounds for most analytes.
+
+### Testing and QC levers
+
+Routine heavy metal testing of cantaloupe is low priority given the consistently low values in TDS data for most analytes. If the Ni range is confirmed as elevated in additional studies, Ni verification on incoming lots would become relevant for products targeting sensitive populations.
+
+### Packaging and storage levers
+
+Packaging and storage conditions are not a material driver of heavy metal load in fresh, frozen, or pureed cantaloupe. No tin migration pathway applies to this commodity in its primary form.
+
+## Regulatory limits that apply
+
+The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Pb in fruit of 0.10 mg/kg (100 ppb) wet weight and for Cd in fruit of 0.050 mg/kg (50 ppb) wet weight. Cantaloupe falls under these general fruit limits. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets analogous Cd limits for fruit. No specific FDA action levels for cantaloupe are currently operative. Under FDA Closer to Zero [[regulations/fda-closer-to-zero]], any cantaloupe puree marketed as a food for young children would fall within the scope of Pb action levels under development for fruit-based baby foods.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -89,6 +89,12 @@ sources: 0
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
+## Why this commodity accumulates heavy metals
+
+Almonds are tree nuts produced primarily in California, Spain, and Australia. As with other nuts, metal uptake in almonds is driven largely by soil chemistry at the root zone: nickel, in particular, is absorbed through the root system and distributed to seeds in concentrations that reflect soil Ni availability. The post-1969 literature compiled by [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] places almonds consistently in the high-Ni food group alongside hazelnuts, walnuts, and peanuts, with a reported mean of 1.3 µg/g (1,300 ppb). [[sources/efsa-nickel-contam-2020|EFSA's 2020 Nickel opinion]] names nuts collectively as one of the principal dietary Ni contributors for European populations.
+
+Lead and cadmium in whole almonds are generally low under typical commercial production conditions in North America and Europe. Both metals can enter via root uptake from contaminated soils, but the nut tissue (enclosed within the hull and shell) provides a degree of physical isolation compared to leafy or root vegetables in direct soil contact. Arsenic, mercury, tin, chromium, uranium, and aluminum are not priority analytes for raw almonds in the current corpus; data are pending. The dominant metal risk for almonds is Ni, which is relevant primarily for nickel-sensitized individuals rather than for the general population.
+
 ## Routing
 
 This node is linked from [[products/plant-milks-non-soy-non-rice]].
@@ -100,6 +106,48 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 ## Nickel in almond
 
 [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] reports almond mean Ni at 1.3 µg/g (range 1.0 to 1.5 µg/g, n=5 samples) from the post-1969 AAS/PIXE literature. Almonds sit in the same population-level high-Ni group as hazelnuts (1.8 µg/g, n=12), walnuts (3.6 µg/g, n=1), peanuts (2.8 µg/g, n=2), and pistachios (0.8 µg/g, n=1). [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] subsequently names nuts collectively among the principal dietary Ni sources alongside cocoa, drinking water, legumes, and cereals. For nickel-sensitized consumers (SNAS, approximately 10 to 15 percent of the European adult population), nuts including almonds are routinely excluded from the low-nickel diet protocols; [[sources/braga2013-snas-nosologic-framework-bramani-diet|Braga et al. 2013]] BraMa-Ni diet (~50 µg Ni/day) and the conventional forbidden-foods list both exclude almonds.
+
+## Ranges by source, region, and variety
+
+Geographic and varietal variation data for almond metals are limited in the current corpus. The Ni data from [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm et al. 1984]] represent a Danish literature survey of samples collected between 1969 and 1982; geographic origin of those samples is not specified at the country level, limiting regional inference. The finished-product data from [[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques et al. 2021]] reflect retail almond milk from Spain rather than raw almonds, and Pb was below detection limits in that matrix. California-origin almonds, which supply the majority of the global market, have not been systematically characterized at the regional level in the ingested corpus; this is a data gap. Synthesis of values will be updated when additional occurrence sources with geographic metadata are integrated.
+
+## Processing effects
+
+Processing from whole almond to almond-derived products has meaningful implications for metal distribution. Blanching (removal of the brown skin through hot-water treatment) and roasting have minimal documented effect on metal content in the nut tissue itself, as the metals are distributed through the cotyledon rather than concentrated in the skin. When almonds are pressed for oil, the metals partition almost entirely into the defatted solid fraction (almond meal or almond flour) rather than into the oil; this means almond flour and almond meal carry higher metal concentrations per unit weight than almond oil. Almond milk production dilutes metals substantially relative to whole almonds because of the high water fraction: [[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques et al. 2021]] found Pb below detection limits and only trace Ni in retail almond milk from Spain, consistent with the expected dilution at typical almond-to-water ratios used commercially (approximately 1:7 to 1:10 by weight).
+
+## Ingredient-derivative risk
+
+The primary derivatives of concern for metal concentration relative to whole almond are almond flour and almond butter, both of which concentrate the nut solids without the dilution that occurs in almond milk. Almond flour, produced by blanching and grinding, retains the full metal load of the nut tissue in a denser form; at typical substitution ratios in baked goods, this derivative contributes a higher metal dose per serving than equivalent weights of wheat flour. Almond butter similarly concentrates the nut solids; the oil phase carries negligible metal content. Almond milk, by contrast, is a lower-risk derivative from a per-serving metal standpoint given the water dilution, as supported by [[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques et al. 2021]]. Almond protein isolate, if produced commercially, would represent the highest-concentration derivative, as protein isolation processes retain the metal-bound protein fractions; no data on this derivative appear in the current corpus.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing from regions with documented low soil Ni and low soil Pb and Cd is the primary lever for almond Ni reduction. California production dominates global supply, and California almond-growing regions have not been systematically characterized for soil metal variability in the current corpus. _No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+For nickel-sensitized consumers (systemic nickel allergy syndrome, SNAS), the relevant formulation lever is substituting almond-containing products with low-Ni alternatives. The BraMa-Ni diet described by [[sources/braga2013-snas-nosologic-framework-bramani-diet|Braga et al. 2013]] explicitly excludes almonds as a high-Ni food on the restricted diet protocol targeting approximately 50 µg Ni per day.
+
+### Testing and QC levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The European Union's Regulation (EU) 2023/915 on maximum levels for certain contaminants in food establishes maximum levels (MLs) for Pb and Cd in nuts. For tree nuts, the applicable Pb ML is 0.20 mg/kg (200 ppb) wet weight as placed on the market. The applicable Cd ML for tree nuts is 0.050 mg/kg (50 ppb) wet weight, with certain exceptions for specific nut species at lower levels ([[regulations/eu2023-contaminants-maximum-levels]]). No specific EU ML exists for Ni in almonds; Ni is regulated for drinking water but not for food matrices under current EU contaminant legislation. No US FDA action level for Pb, Cd, or Ni in whole almonds is established in the current corpus; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) has focused on infant and toddler foods rather than on tree nut commodities directly. No Codex Alimentarius ML for heavy metals in almonds appears in the current corpus.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

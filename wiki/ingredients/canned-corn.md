@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 55, "Corn, canned, drained solids." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Canned corn (maize) presents a two-pathway metal risk: a low intrinsic pathway from the corn grain itself, and a secondary packaging pathway from the tinplate can. Corn (Zea mays) is among the lowest-accumulating major cereal crops for heavy metals. Its kernel anatomy, particularly the thick pericarp and the relatively impermeable protein matrix of the endosperm, limits uptake and storage of Pb and Cd compared to wheat, rice, or brassica vegetables. Soil cadmium levels have a modest effect on corn grain Cd, but maize is classified as a low Cd accumulator at typical agricultural soil concentrations. Lead uptake from soil into corn grain is also low. The dominant heavy metal concern for canned corn therefore shifts to tin (Sn) migration from the tinplate can interior. Tinplate food cans are manufactured from tin-coated steel; in unlacquered (unlined) cans, the acidic or mildly acidic environment of the food product in contact with the tin coating drives electrochemical corrosion that releases inorganic tin ions into the food. Corn in brine (which is mildly acidic) in contact with unlacquered tinplate can accumulate Sn over shelf life. Storage time and temperature amplify this effect [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,50 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study reports Cd in canned corn (drained solids) at a median of 1.1 ppb (range 0 to 2.2 ppb, n=3) and total arsenic at a median of 3.6 ppb (range 0 to 5 ppb) [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 0 to 55 ppb. Pb, Cr, U, and tHg were at or below the reporting limit. These values reflect a low-intrinsic-contamination profile for the corn grain itself. Sn data are not in the TDS FY2018-FY2020 dataset for this food; the ATSDR tin profile documents that unlacquered canned vegetables can accumulate 50 to 200 mg/kg (50,000 to 200,000 ppb) Sn after extended storage, while lacquered cans maintain much lower levels [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]]. Geographic and varietal variation in corn grain metals is minimal relative to the can-type driven Sn range.
+
+## Processing effects
+
+Canning involves blanching the corn prior to thermal processing; this step may reduce some water-soluble metals. The thermal sterilization step (retorting) does not reduce metal concentrations but does not increase them in the corn matrix. The primary processing-relevant effect is the interaction between the product matrix and the can interior over time: Sn migration is slow at refrigerator temperatures but accelerates at ambient and warm temperatures and with extended storage. Draining and rinsing canned corn before consumption reduces the Sn and other metal content in the aqueous fraction (brine) but does not remove metals already incorporated into the corn kernel tissue. The drained-solids TDS measurement already excludes brine.
+
+## Ingredient-derivative risk
+
+Canned corn is used directly as a component in mixed vegetables, soups, salads, and retail products. Its metal contribution to blended products is dominated by the corn-grain fraction for most metals, and by any Sn migration from the can for tin. When canned corn is processed into corn-based products (corn salsas, corn chowders packaged in their own cans), the Sn exposure risk compounds if an additional canning step is involved.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing corn from regions with documented low soil-Cd and low soil-Pb reduces the grain-derived metal load, though the baseline is already low for this crop. For the canned product specifically, can specification (lacquered versus unlacquered) is the highest-impact sourcing decision.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._ Soil pH management benefits other crops more than maize given maize's inherently low metal uptake.
+
+### Processing levers
+
+Draining and rinsing canned corn before use reduces dissolved metals (including Sn) present in the brine fraction. This is a practical consumer-level step with no quantified magnitude in the current corpus for Sn specifically.
+
+### Formulation levers
+
+Substituting fresh, frozen, or glass-jarred corn for tinplate-canned corn eliminates the Sn migration pathway entirely. This is a high-impact formulation lever for products in which canned corn is used at meaningful inclusion rates.
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+ICP-MS measurement of Sn in finished canned product, particularly from lots with longer projected shelf life or higher storage temperatures, is the most relevant QC test for this commodity. For grain-derived metals (Cd, Pb, As), the low baseline concentrations in corn make this a lower priority than for wheat or rice ingredients.
+
+### Packaging and storage levers
+
+Lacquered ("enamel-lined") tinplate cans substantially reduce Sn migration compared to unlacquered cans, because the polymer coating interposes a barrier between the metal can wall and the food product. Specifying lacquered cans in purchasing contracts is the single most effective intervention for Sn in canned corn. Storing finished cans at lower temperatures (below 20°C) and minimizing shelf life reduces cumulative Sn migration. Product rotation (FIFO inventory management) limits the proportion of product approaching maximum shelf-life Sn levels [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]].
+
+## Regulatory limits that apply
+
+The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Sn in canned solid foods of 200 mg/kg (200,000 ppb); in canned beverages the limit is 100 mg/kg. No specific EU maximum level for Pb or Cd in canned corn as a distinct category is established beyond the general vegetable limits (Pb 0.10 mg/kg, Cd 0.050 mg/kg for vegetables). The Codex Alimentarius general standard for contaminants sets an international Sn limit of 250 mg/kg for canned foods (solid content). The FDA does not currently have a specific action level for Sn in canned vegetables; FDA Closer to Zero [[regulations/fda-closer-to-zero]] focuses on Pb in foods for young children and does not address Sn.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

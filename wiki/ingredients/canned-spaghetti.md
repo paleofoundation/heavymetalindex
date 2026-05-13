@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Canned spaghetti in tomato sauce is a composite food product whose heavy metal risk derives from three overlapping pathways: the wheat-derived pasta fraction, the tomato sauce fraction, and the tinplate can packaging. Wheat grain, as a cereal, accumulates cadmium in the bran and outer endosperm layers; durum wheat used for pasta has been the subject of substantial European regulatory attention for Cd, particularly from soft-wheat and durum cultivars grown on Cd-enriched soils. Tomato is a relatively low metal accumulator as a fruit-vegetable, but the acidic nature of tomato sauce (pH typically 3.5 to 4.5) makes it one of the most aggressive matrices for Sn migration from unlacquered tinplate can walls. Studies of canned acidic foods show that tomato-based products release more Sn from tinplate per unit time than near-neutral pH products, because the corrosion electrochemistry favors faster tin dissolution at lower pH [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer et al. 1984]]. The combined effect is that canned spaghetti presents both an intrinsic Cd signal from the wheat pasta fraction and an elevated Sn migration signal from the tomato-acid-can interaction, making it a product category warranting monitoring across both pathways. FSA/Fera included canned spaghetti in their FS102048 survey of non-infant food composites in the UK [[sources/fsa2016-infant-food-formula-metals-survey]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,50 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+The FSA/Fera FS102048 survey included canned spaghetti in tomato sauce as a non-infant food composite [[sources/fsa2016-infant-food-formula-metals-survey]]; exact tabulated values from Table 6 of that report remain in progress pending structured extraction. The general expectation from the literature is that pasta-based canned products show Cd from the wheat fraction at concentrations reflecting the durum wheat supply chain (typically 20 to 100 ppb dry-weight basis in the pasta; lower on a wet-product basis). Sn migration in tomato-based canned products is well documented as elevated relative to neutral-pH canned goods due to tomato acidity; Schafer et al. 1984 reviews European data showing acid foods can reach several hundred mg/kg Sn in unlacquered cans over standard shelf lives [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer et al. 1984]]. Geographic variation in the wheat Cd component follows durum wheat origin: Italian and North African durum wheat may carry higher Cd than wheat from low-Cd regions.
+
+## Processing effects
+
+Pasta production (milling, extrusion, drying) does not materially change the metal content of the wheat raw material; Cd, Pb, and Ni are retained through these processing steps. The canning step, involving thermal sterilization at temperatures of approximately 120°C, does not reduce intrinsic metal concentrations but initiates Sn migration from the can wall. The tomato sauce fraction is acidic throughout processing and storage, continuously accelerating Sn release. The combined solid-sauce product means that metal analysis of this commodity reflects both fractions simultaneously. Draining the sauce would reduce Sn exposure from the sauce fraction, but is not standard practice for this product type (consumed as a whole).
+
+## Ingredient-derivative risk
+
+Canned spaghetti is primarily a retail consumer product consumed as-is rather than as an ingredient in further processing. When used as a component in prepared meal assembly (commercial cafeteria, food service contexts), its Cd from the pasta and Sn from the can contribute at the proportion included. The tomato sauce fraction may be of interest in formulation contexts where the acid-can-Sn interaction is a concern.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing durum wheat from regions and supply chains with documented low Cd reduces the intrinsic pasta Cd. EU regulatory pressure on durum wheat Cd has driven some producers toward lower-Cd wheat varieties and supply chains. Specifying lacquered-can sourcing is the dominant lever for Sn reduction given the high acidity of the tomato sauce matrix.
+
+### Agronomic levers
+
+Low-Cd durum wheat cultivation (soil pH management, low-Cd phosphate fertilizers, cultivar selection) is the upstream lever for reducing pasta Cd. This is a supply-chain intervention rather than a direct lever for the canned spaghetti manufacturer.
+
+### Processing levers
+
+Specifying lacquered cans reduces Sn migration dramatically compared to unlacquered tinplate in this acid-food application. No processing step within the manufacturing of canned spaghetti itself further reduces Cd from the pasta fraction after pasta production is complete.
+
+### Formulation levers
+
+Reducing the pasta fraction relative to sauce, or substituting a lower-Cd pasta (for example, rice pasta from a low-iAs, low-Cd origin, or legume-based pasta with verified low metal content) reduces the intrinsic Cd contribution proportionally. These substitutions have product-taste implications and are primarily relevant where HMT&C or regulatory compliance requires demonstrating lower metal loads.
+
+_No quantified data on substitution effects in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+ICP-MS for Cd on incoming pasta and for Sn on finished canned product near end of shelf life are the two most relevant QC tests. Tomato sauce pH should be monitored as a proxy for Sn-migration rate; lower pH batches drive faster Sn release.
+
+### Packaging and storage levers
+
+Lacquered ("enamel-lined") tinplate cans are essential for this product given the high acidity of the tomato sauce matrix. The case for lacquered cans is stronger here than for near-neutral pH canned vegetables, because unlacquered-can Sn release rates in tomato-based products are substantially higher. Storing finished cans below 20°C and enforcing maximum shelf-life limits reduces cumulative Sn exposure. Lot-level documentation of can batch, fill date, and storage temperature supports trace-back in the event of a Sn exceedance [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer et al. 1984]].
+
+## Regulatory limits that apply
+
+For the pasta/wheat Cd component, the EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Cd in cereal-based foods of 0.060 mg/kg (60 ppb) wet weight; for pasta specifically (dry), the limit is 0.20 mg/kg (200 ppb) dry weight. For Sn in canned solid foods, the EU limit is 200 mg/kg (200,000 ppb) wet weight. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets Cd limits for cereal grain and processed cereal products at analogous levels. The FDA does not currently specify Sn action levels for canned pasta products; FDA Closer to Zero [[regulations/fda-closer-to-zero]] focuses on Pb in foods for young children.
 
 ## Sources
 

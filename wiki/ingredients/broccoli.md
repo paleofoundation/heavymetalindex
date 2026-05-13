@@ -89,6 +89,10 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Broccoli is a member of the Brassica oleracea species complex, a plant family that includes some of the most studied moderate-to-high cadmium accumulators among common food crops. Brassica species express high-affinity cadmium transporters (in the ZIP/IRT family) that move Cd from the soil solution into root cells and then upward through the xylem to shoot tissues. Broccoli florets, which are the commercially harvested portion, receive metals translocated from roots and stems, and can accumulate Cd at concentrations meaningfully above those in low-accumulating crops such as corn or potato grown in the same soil. Lead accumulation in broccoli follows a different mechanism: atmospheric deposition of particulate Pb on the broad, rough surface of broccoli florets is a significant uptake route, supplementing the smaller root-absorption pathway. The textured, open floreted head structure of broccoli provides an effective surface area for trapping airborne particulates, making it more susceptible to surface-deposited lead than smooth-surfaced vegetables. Nickel uptake through soil solution is also measurable in brassica species, consistent with the family's generally elevated trace-metal absorption capacity.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,50 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study reports Cd in boiled broccoli ranging from 3.9 to 84 ppb (median 11 ppb, p90 27.6 ppb, n=27), with substantial skew toward low values and occasional high outliers [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 0 to 170 ppb (median 58 ppb, p90 130 ppb). Pb, total As, and tHg were predominantly at or below the reporting limit in the TDS dataset. The Chiutula et al. 2025 study found measurably elevated Cd and Pb in brassica vegetables irrigated with wastewater effluent in Malawi [[sources/chiutula2025-wastewater-vegetables-malawi|Chiutula et al. 2025]], illustrating that irrigation-water quality is a major determinant of the Cd and Pb range in broccoli beyond the TDS background values. Varieties bred for higher glucosinolate content do not consistently differ from standard varieties in metal accumulation, though this remains understudied. The Codex Alimentarius international Cd maximum level for vegetables (0.05 mg/kg for most vegetables, with some variation) provides a ceiling against which the TDS p90 of 27.6 ppb falls comfortably [[sources/codex-cxs-193-1995|Codex 1995]].
+
+## Processing effects
+
+Washing broccoli before cooking removes a substantial fraction of the surface-deposited particulate Pb. Studies on brassica vegetables generally find that surface washing with water reduces externally deposited Pb by 30 to 70 percent, though this estimate comes from leafy vegetable data and the reduction in broccoli florets specifically is not precisely quantified in the current corpus. Boiling, as in the FDA TDS preparation method, results in some leaching of water-soluble metals into the cooking water; blanching and discarding water can further reduce Cd and Ni in the edible cooked product, though the magnitude for broccoli specifically requires additional study. Freezing does not alter metal concentrations. Industrial processing for frozen broccoli (blanching followed by freezing) may reduce surface-deposited Pb through the blanching step but effects on intrinsic (translocated) Cd and Ni are minimal.
+
+## Ingredient-derivative risk
+
+When broccoli is used as a component in baby food purees, soups, or stir-fry mixes, its Cd and Ni contribution is carried into those products in proportion to the broccoli inclusion rate. Broccoli-heavy baby food formulations (single-ingredient broccoli purees or broccoli-dominant blends) represent the highest-exposure scenario for this commodity, particularly for infants consuming multiple servings per day. Broccoli powder or concentrate, used in supplements, green-powder blends, and functional foods, concentrates metals in proportion to the moisture reduction achieved; a 10:1 concentrate will carry approximately ten times the ppb-basis concentration of fresh broccoli. Dehydrated broccoli in snack products follows a similar logic. These derivative forms are not separately profiled in the current corpus but warrant attention when inclusion rates are significant.
+
+## Mitigation options
+
+### Sourcing levers
+
+Broccoli grown in certified low-Cd-soil regions, or with documented soil Cd below 0.3 mg/kg (the threshold below which Cd accumulation in brassica crops tends to remain well within regulatory limits), is the strongest sourcing lever. Avoiding broccoli from fields irrigated with wastewater or receiving Cd-containing phosphate fertilizers reduces background contamination. For surface Pb, sourcing from areas distant from high-traffic roads and industrial facilities reduces atmospheric particulate deposition.
+
+### Agronomic levers
+
+Liming to maintain soil pH above 6.5 reduces Cd bioavailability in the soil solution and thereby reduces plant uptake. Cultivar selection within broccoli has not been developed specifically for low Cd, though variation across varieties exists. Drip irrigation rather than overhead spray reduces deposition of contaminated water onto floret surfaces.
+
+### Processing levers
+
+Pre-harvest: no direct intervention at the field level beyond agronomic levers above. Post-harvest: washing with clean water, particularly with gentle agitation, is the most practical processing lever for surface-deposited Pb. Blanching (brief immersion in boiling water followed by draining) removes a portion of water-soluble Cd and Ni with the blanching water; this step is already standard in frozen-broccoli industrial processing. Discarding blanching water rather than incorporating it into sauces or purees captures the benefit.
+
+### Formulation levers
+
+When broccoli is used alongside lower-metal vegetables in mixed-vegetable products, the overall metal load is diluted in proportion to the broccoli fraction. Substituting lower-Cd vegetables for broccoli in formulations targeting infants or frequent consumers is a formulation-level risk-reduction option.
+
+_No quantified data on formulation dilution effects in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Lot-level ICP-MS for Cd and Ni on incoming fresh or frozen broccoli, with documented acceptance criteria, provides the most direct quality control. Given the geographic and growing-season variability evident in the TDS data, a rolling lot-acceptance program is more informative than annual spot checks.
+
+### Packaging and storage levers
+
+Packaging and storage conditions are not a material driver of heavy metal load in fresh or frozen broccoli.
+
+## Regulatory limits that apply
+
+The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Cd in vegetables (excluding leafy vegetables, fresh herbs, and fungi) of 0.050 mg/kg (50 ppb) wet weight; broccoli falls under this limit as a brassica vegetable. For Pb, the EU limit for vegetables is 0.10 mg/kg (100 ppb) wet weight. The Codex Alimentarius [[sources/codex-cxs-193-1995|Codex 1995]] sets a Cd maximum level of 0.05 mg/kg for vegetables, consistent with EU limits. The FDA does not currently impose specific action levels for Cd or Pb in broccoli for general consumers. Under FDA Closer to Zero [[regulations/fda-closer-to-zero]], action levels for Pb in foods for young children are being developed across vegetable categories; broccoli purees intended for infant consumption would fall within that scope.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

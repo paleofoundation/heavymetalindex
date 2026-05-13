@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 130, "Mushrooms, canned, drained solids." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Mushrooms are among the most efficient heavy metal accumulators in the food kingdom, a property that distinguishes fungi from both animal and plant food sources. Fungi lack the selective metal-exclusion mechanisms found in plant vascular tissues; instead, the mycelium grows through substrate material and absorbs metals across its extensive surface area via active transport systems that also import essential minerals such as zinc and copper. Cadmium is particularly concentrated in mushroom tissue because it is taken up via transporters shared with zinc, and fungi allocate Cd to fruiting bodies at high rates. Mercury accumulation is also markedly elevated in mushrooms, particularly in wild species, because mercury in decaying organic matter and soil is bioavailable to fungal hyphae. Total arsenic and lead concentrations in mushrooms are variable and depend on the substrate. Wild mushrooms, which grow on uncontrolled substrates, can achieve Cd concentrations an order of magnitude or more above what is typical in vegetables. Cultivated mushrooms used in commercial canning (principally Agaricus bisporus, the common white mushroom) are grown on controlled composted substrates that typically show lower but still detectable heavy metal levels. The canning process adds a secondary pathway: tinplate can corrosion can contribute Sn to the product [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,50 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 1 | 1.4 | 1.4 | 1.4 | 1.4 | 1.4 | 1.4 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study reports Cd in canned mushroom drained solids at 1.8 ppb (n=1 composite), tHg at 1.4 ppb, tAs at 6.7 ppb, and U at 1.7 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Cr, Ni, and Pb were at or below the reporting limit. The n=1 composite count in the TDS dataset severely limits statistical inference; these values represent a single composite sample of commercially cultivated canned mushrooms and should not be treated as a stable distributional estimate. The literature on cultivated Agaricus bisporus (the predominant commercially canned species) shows Cd concentrations generally in the range of 50 to 500 ppb on a fresh-weight basis and up to several mg/kg on a dry-weight basis in some European surveys, substantially above the TDS composite value; the discrepancy may reflect composite dilution effects in the TDS preparation or lot-specific variation. Wild mushrooms, not typically used in commercial canning, show markedly higher Cd and Hg than cultivated species. Substrate composition is the principal driver of variability: mushrooms grown on low-Cd compost show lower tissue Cd than those grown on substrates with elevated Cd from agricultural or industrial inputs.
+
+## Processing effects
+
+Blanching prior to canning, which is standard practice, leaches some water-soluble metals (particularly Cd) from mushroom tissue into the blanching water, which is discarded. This step reduces the metal load in the finished product relative to raw mushrooms. Canning in brine and thermal sterilization do not further reduce intrinsic metal content in the mushroom tissue. Sn migration from unlacquered tinplate can walls proceeds after retorting, driven by the mild acidity of the mushroom brine. Draining and rinsing canned mushrooms before use removes the brine fraction, which carries dissolved Sn, and reduces exposure from that fraction.
+
+## Ingredient-derivative risk
+
+Canned mushrooms appear as ingredients in soups, pasta sauces, pizza toppings, and mixed vegetable products. Their Cd and Hg contribution carries forward proportionally into blended products in proportion to inclusion rate. Mushroom powder or extract, used in umami flavoring and functional food formulations, concentrates metals in proportion to moisture reduction from a baseline that is already elevated relative to most vegetables. Products marketed with mushroom as a primary ingredient (mushroom soups, mushroom sauces) warrant specific metal verification given the higher baseline accumulation of this commodity class.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying substrate composition is the most effective lever for cultivated mushroom Cd: compost substrates with documented low Cd (from verified agricultural or organic-waste inputs) produce mushrooms with consistently lower tissue Cd. Substrate metal testing prior to use provides the upstream control. Sourcing only cultivated species from controlled substrates, rather than wild-harvested mushrooms, eliminates the highest-risk fraction of the mushroom supply.
+
+### Agronomic levers
+
+For cultivated mushrooms, substrate management (the functional equivalent of soil management) is the primary lever. Composted straw from low-Cd grain origins, combined with monitoring of substrate Cd and Pb, is the agronomic-analog mitigation. Wild mushroom harvesting from known low-contamination forests with documented substrate metal surveys reduces variance, though this is difficult to operationalize at commercial scale.
+
+### Processing levers
+
+Blanching prior to canning already implements the most practical processing-level reduction step. Post-harvest washing of raw mushrooms before blanching removes surface-deposited metals. Specifying lacquered cans eliminates the Sn migration source. Draining and rinsing finished canned mushrooms before food service or ingredient use removes brine-phase Sn.
+
+### Formulation levers
+
+Reducing the mushroom inclusion rate in mixed-ingredient products and substituting lower-metal ingredients (such as leeks, onions, or celery) for a portion of the mushroom fraction reduces the product-level Cd and Hg contribution proportionally.
+
+_No quantified data on substitution-level effects in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+ICP-MS testing for Cd and tHg on incoming mushroom batches, with documented acceptance criteria, is the most relevant QC lever given the inherently elevated accumulation in this commodity. Substrate testing at the mushroom farm level provides upstream assurance. Sn testing on finished canned product near end of shelf life monitors the can-corrosion pathway.
+
+### Packaging and storage levers
+
+Lacquered ("enamel-lined") tinplate cans substantially reduce Sn migration from the can wall. Storing finished cans below 20°C and implementing FIFO inventory management limits cumulative Sn buildup. For the intrinsic Cd and Hg from the mushroom tissue itself, packaging and storage conditions do not materially change the concentration [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]].
+
+## Regulatory limits that apply
+
+The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Cd in cultivated mushrooms of 0.20 mg/kg (200 ppb) wet weight, and a higher limit for wild mushrooms of 1.0 mg/kg (1,000 ppb) wet weight, reflecting the systematically higher Cd accumulation in wild species. For Pb in mushrooms, the EU limit is 0.30 mg/kg (300 ppb) wet weight. For Sn in canned solid foods, the EU limit is 200 mg/kg (200,000 ppb) wet weight. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets a Cd maximum level of 0.20 mg/kg for cultivated mushrooms, consistent with the EU value. No specific FDA action levels for Cd, Pb, or tHg in mushrooms are currently operative; FDA Closer to Zero [[regulations/fda-closer-to-zero]] focuses on Pb in foods for young children.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 84, "Applesauce, bottled." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Applesauce is a heat-processed purée of whole apples, typically with added water and sometimes sweetener; its metal content is determined almost entirely by the metal load of the apples used and by the processing steps applied. The same accumulation routes that govern fresh apple apply: legacy orchard soil contamination from historical lead arsenate pesticide use, root uptake from soil, and atmospheric deposition on fruit surfaces during the growing season. Heat processing to produce applesauce does not remove metals. Peeling apples before cooking, where practiced commercially, eliminates the surface-deposited Pb fraction but does not affect metals absorbed into the flesh. The FDA FY2018-FY2020 TDS data for bottled applesauce (TDS Food 84, n=3) show all measured analytes reported at zero across those three samples ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]), which is consistent with the generally low metal concentrations observed in fresh apple in the same dataset but reflects a very small sample and warrants confirmation with additional occurrence data.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 TDS dataset for bottled applesauce (TDS Food 84, n=3) is the sole quantitative occurrence source in the current corpus ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). All seven analytes measured in that dataset (Cd, Cr, Ni, Pb, U, tAs, tHg) were reported as zero across all three samples, indicating concentrations at or below detection limits under TDS analytical conditions. With n=3, this distribution provides low confidence in the central tendency and cannot characterize the upper tail of the distribution or geographic or varietal variation. Regional variation in apple source (domestic versus imported concentrate) and variety selection (Gala, Fuji, Golden Delicious) may influence metal concentrations but are not resolvable from TDS data alone. Synthesis of ranges will be updated when additional sources with geographic and variety metadata are integrated.
+
+## Processing effects
+
+The primary processing steps for commercial applesauce are washing, peeling (in most commercial processes), coring, cooking, milling to purée, and hot-fill packaging. Washing removes surface-deposited metals, particularly Pb from atmospheric deposition; peeling removes the skin layer and eliminates the surface-contaminated fraction. Cooking and milling do not remove metals from the fruit matrix. Glass and plastic jar packaging do not contribute Sn contamination; applesauce is not typically commercially canned in tinplate at retail, although the FSA UK survey ([[sources/fsa2016-infant-food-formula-metals-survey]]) used pooled composite samples that may have included various packaging types. For organic applesauce, pesticide residue routes differ from conventional product but the fundamental metal accumulation pathways (soil uptake, atmospheric deposition) remain the same.
+
+## Ingredient-derivative risk
+
+Applesauce is itself a derivative of whole apple. Its principal use is as a finished product (retail jar, baby food pouch) and as a functional ingredient in baked goods (fat replacer) and baby food combinations. When applesauce is used in baby food pouches blended with other ingredients (grains, vegetables, other fruits), the metal load of each contributing ingredient adds to the total. The WanaBana incident highlighted that when a spice like cinnamon is added to an apple-based pouch, the spice's metal burden can dominate the product's metal risk even when the apple component is clean ([[sources/napier2024-wanabana-lead-apple-cinnamon|Napier et al. 2024]]); this is an ingredient-derivative risk at the formulation level rather than a risk intrinsic to the applesauce ingredient.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing apples from orchards with documented low soil Pb and arsenic, and with no historical lead arsenate pesticide application, represents the primary upstream lever. For commercial applesauce production, specification of domestic US or verified clean-origin apple concentrate reduces exposure to higher-arsenic supply chains. _Quantified reduction factors specific to applesauce are not available in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Commercial peeling before cooking removes the skin layer and associated surface-deposited Pb. _Quantified Pb reduction from peeling in an applesauce production context is not available in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+For baby food pouches and blended products, avoidance of high-metal spice additives (e.g., cinnamon from unverified sources) is a formulation lever relevant to the final product's total metal burden, as illustrated by the WanaBana cinnamon contamination event ([[sources/napier2024-wanabana-lead-apple-cinnamon|Napier et al. 2024]]).
+
+### Testing and QC levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+For applesauce as a finished food product in the European Union, Regulation (EU) 2023/915 applies the fresh fruit maximum levels as a starting point; however, for processed fruit products, a separate ML applies. Processed fruit products (purees, sauces) for the general population are subject to the applicable ML for the corresponding fresh fruit: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), wet weight ([[regulations/eu2023-contaminants-maximum-levels]]). For applesauce intended for infants and young children, the EU applies stricter MLs for Pb (0.020 mg/kg, 20 ppb). In the United States, no FDA commodity-specific action level for Pb or Cd in applesauce as a finished retail product exists under current regulations; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) has proposed action levels for Pb in processed foods for babies and young children that may encompass apple-based baby food products. No specific Codex Alimentarius ML for contaminants in applesauce appears in the current corpus.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

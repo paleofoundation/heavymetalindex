@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 164, "Butter, salted." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Butter accumulates heavy metals at very low levels relative to most food commodities, a consequence of its chemical composition. As a dairy fat product (approximately 80 percent milkfat by weight), butter separates the fat fraction of cream from the aqueous and protein fractions. Heavy metals, being hydrophilic ionic species in biological systems, partition strongly into the aqueous and protein-bound fractions of milk rather than into the lipid fraction. Lead, cadmium, mercury, and most other heavy metals present in raw milk are therefore concentrated in skimmed milk, whey, and milk proteins during dairy processing, while the fat that becomes butter carries minimal residual metal load. This partitioning behavior is well established in dairy processing science and explains why butter shows among the lowest heavy metal concentrations of any commonly studied food matrix. The FDA Total Diet Study FY2018-FY2020 confirms this pattern, reporting all measured metals (Cd, Cr, Ni, Pb, U, tAs, tHg) in salted butter at zero or below the reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. The residual risk in butter is primarily indirect: feed contamination in dairy cattle elevates metals in raw milk, but the subsequent fat-extraction process removes the vast majority of that load before butter reaches the consumer.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study found all measured metals (Cd, Cr, Ni, Pb, U, tAs, tHg) at or below the reporting limit in salted butter (n=3 composites) [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. This finding is consistent with the theoretical expectation from fat-water partitioning. Geographic and seasonal variability is expected to be minimal relative to other food commodities because the partitioning mechanism operates independently of feed or soil contamination levels at the range normally encountered in commercial dairy operations. The corpus currently holds one TDS source for this food; independent European or Asian dairy survey data for butter specifically are not yet represented.
+
+## Processing effects
+
+The churning process that produces butter from cream does not introduce or concentrate heavy metals; it segregates the fat fraction from the buttermilk fraction. Any metals present in the incoming cream partition predominantly into the buttermilk, which is removed. Salted butter includes added salt (sodium chloride), which does not introduce metal contamination if food-grade purity specifications are met. Clarified butter (ghee) is produced by further removing water and milk solids, leaving nearly pure butterfat; this additional processing step would be expected to further reduce any residual metal content below the already-low butter baseline. Pasteurization does not affect metal speciation or concentration. No metal-relevant transformation occurs during typical butter processing.
+
+## Ingredient-derivative risk
+
+Butter is used as an ingredient across baked goods, confections, sauces, and spreads. Because its metal load is negligible at the raw-butter level, its contribution to the metal load of finished products is likewise negligible in proportion to its mass fraction. Ghee follows the same logic. The heavy-metal risk in butter-containing products originates overwhelmingly from other ingredients (flour, cocoa, spices, fortification mineral premixes) rather than from the butter fraction.
+
+## Mitigation options
+
+### Sourcing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._ Feed quality for dairy cattle is the upstream variable most relevant to raw milk metal content, and the fat-partitioning step already removes most of that signal.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+The standard butter-making process (churning, separation, washing) already achieves near-complete metal removal via fat-water partitioning. No additional processing steps are indicated. Ghee production (further removal of water and non-fat solids) may further reduce residual metal load but the baseline is already at or below detection limits.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given the consistently below-detection results in butter, routine lot-level heavy metal testing for Cd and Pb is low priority for this commodity. Resources are better directed toward testing higher-risk ingredients in the same formulations. If a specific dairy supply chain shows elevated raw-milk contamination (confirmed via milk testing), butter from that supply chain warrants targeted verification.
+
+### Packaging and storage levers
+
+Packaging and storage conditions are not a material driver of heavy metal load in butter.
+
+## Regulatory limits that apply
+
+The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Pb in raw milk, heat-treated milk, and milk for manufacture of dairy-based products of 0.020 mg/kg (20 ppb). No specific EU maximum level for Pb in butter as a distinct product is established separate from the milk limit, reflecting the expectation that the fat-extraction process keeps butter values well below any applicable ceiling. Cd limits for dairy products are not separately specified in EU Regulation 2023/915 for most dairy fractions; butter falls within the general "foods for which no maximum levels are set" category for Cd given its consistently low measured values. No FDA action level specific to butter for Cd, Pb, or other heavy metals is currently operative.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

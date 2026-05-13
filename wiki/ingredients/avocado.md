@@ -89,6 +89,12 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Avocado is a lipid-rich tree fruit (approximately 15 percent fat by weight) whose edible flesh (mesocarp) is enclosed within a relatively impermeable skin. The thick skin provides a degree of physical separation between the external environment and the edible flesh, limiting direct surface deposition of atmospheric metals relative to thin-skinned fruits. Root uptake from orchard soils remains the primary route for Pb, Cd, and other metals to reach the flesh.
+
+The FDA FY2018-FY2020 TDS dataset for raw avocado (TDS Food 97, n=27) shows that avocado is a moderate-Ni matrix: Ni was detectable in all 27 samples with a median of 180 ppb, a p90 of 374 ppb, and a maximum of 580 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Cadmium was also detectable in all samples, with a median of 5.4 ppb and a maximum of 59 ppb. Total arsenic showed a p90 of 25.6 ppb and a maximum of 50 ppb, which is notable relative to most fruits. Lead had a maximum of 12 ppb but a p90 of 0 ppb, suggesting episodic rather than systematic Pb presence. Chromium was below detection across all samples. The elevated Ni relative to most fruits likely reflects Ni-rich volcanic or ultramafic soils prevalent in major avocado-producing regions (Mexico, Central America, California), though source-region breakdown is not available in TDS data. The lipid-rich mesocarp has not been shown to selectively accumulate fat-soluble metal species; the metals present appear to follow aqueous transport through the vascular system rather than lipophilic partitioning.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +142,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0.4 | 1.07 | 1.3 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 TDS data (TDS Food 97, n=27) are the primary quantitative occurrence source in the current corpus ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The FSA UK survey ([[sources/fsa2016-infant-food-formula-metals-survey]]) also includes avocado in Table 6 as a measured non-infant food composite, with values pending table extraction. The TDS is a US retail composite dataset and does not provide geographic separation by country of origin; avocado reaching US retail includes product from Mexico (dominant), California, and smaller imports from South America. Mexico-origin avocados grown in volcanic highland soils may have higher Ni and other trace metals than California product, but source-level breakdown is not available in TDS data. Hass variety dominates both production and TDS sampling; alternative varieties (Fuerte, Bacon, Zutano) may have different metal profiles but are not separately characterized in the current corpus.
+
+## Processing effects
+
+Avocado for consumption typically undergoes minimal processing: halving, pit removal, and skin peeling or scooping of the flesh. Skin peeling removes any metals deposited on the surface during growing and distribution. The pit (seed) contains a concentrated store of tannins and bitter compounds and is discarded in conventional use; no occurrence data for avocado seed metals appear in the current corpus. Guacamole and avocado purées retain the full metal content of the flesh. Avocado oil production extracts the lipid fraction; metals remain almost entirely in the non-lipid fraction (aqueous, cellular debris), meaning avocado oil carries very low metal concentrations. Heat treatment (for shelf-stable guacamole or avocado-based sauces) does not remove metals.
+
+## Ingredient-derivative risk
+
+The primary processed derivatives of avocado are guacamole (fresh or commercially processed), avocado purée for baby food, and avocado oil. Guacamole and purée carry the full metal load of the fresh flesh; commercial guacamole with added ingredients (lime juice, onion, salt) introduces additional minor metal contributions from those components but the avocado flesh dominates. Avocado purée has been introduced as an infant food ingredient in commercial squeezable pouches; given the Ni concentrations visible in the TDS data (median 180 ppb, maximum 580 ppb at [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]), avocado-based infant foods may contribute meaningfully to Ni intake in infants consuming them frequently. Avocado oil is a low-risk derivative for metals given the lipophilic partitioning away from dissolved metals.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing avocado from regions with documented low soil Ni and Cd reduces the concentration range in the fruit. Provenance specification distinguishing volcanic highland soils from alluvial or lower-Ni growing regions may be relevant for Ni specifically, but source-level data to quantify this effect are not available in the current corpus. _Quantified source-switching reduction factors are not available in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Skin removal before consumption eliminates any surface-deposited Pb or other metals from atmospheric deposition and handling. Avocado oil extraction effectively removes metals from the oil phase; producers requiring low-metal avocado-derived ingredients may prefer oil over whole-fruit derivatives. _Quantified reduction factors for peeling are not available in the current corpus._
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+In the European Union, Regulation (EU) 2023/915 applies the fresh fruit maximum levels to avocado: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), both wet weight as placed on the market ([[regulations/eu2023-contaminants-maximum-levels]]). No specific EU ML for Ni in fresh avocado exists; Ni is not currently regulated by ML in EU food contaminant legislation for this matrix. In the United States, no FDA action level for Pb, Cd, or Ni in fresh or processed avocado exists under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]). No Codex Alimentarius ML for heavy metals in avocado appears in the current corpus. For processed avocado products in infant food pouches, the applicable limits would derive from the product category, and the FDA Closer to Zero action levels for processed foods consumed by babies and young children may apply when finalized; those action levels are evolving and should be checked against the [[regulations/fda-closer-to-zero]] page for current status.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

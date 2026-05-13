@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 74, "Cereal, bran with raisins." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Bran cereal with raisins is a composite processed food whose contamination profile arises from two distinct source fractions. The bran fraction, derived from the outer layers of wheat or other cereal grains, is the primary driver of cadmium and to a lesser extent lead accumulation. Metal uptake in cereal crops is concentrated in the outer grain tissues: the bran layers (pericarp, aleurone, and seed coat) accumulate Cd at substantially higher levels than the inner endosperm, because these tissues are metabolically active and serve as a site of mineral transport and storage during grain development. Wheat bran fractions typically contain two to five times the Cd concentration of refined white flour from the same grain. The raisin fraction contributes a secondary lead pathway: dried grapes can concentrate atmospheric and soil-derived Pb deposited on the fruit surface during cultivation, and the drying process increases concentration on a mass basis. Fortification with mineral premixes, common in ready-to-eat breakfast cereals, may introduce additional trace metals depending on the source and purity of the mineral salts used. The combination of high-bran content, dried-fruit inclusion, and industrial processing makes this category one of the higher-metal breakfast cereal types on a ppb-per-serving basis.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,52 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study reports Cd in bran cereal with raisins in the range of 27 to 44 ppb (n=3, median 42 ppb) [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Total arsenic was detected in the same samples at 13 to 26 ppb (median 14 ppb), while Pb ranged from 0 to 16 ppb (median approximately 5 ppb). Geographic and varietal variance in the bran fraction is expected to track cereal-grain Cd variation, which is driven substantially by soil Cd levels in the growing region and cultivar sensitivity. Raisin origin introduces additional Pb variability: grapes grown near lead-contaminated soils or in high-traffic agricultural areas show higher surface Pb deposition. The corpus currently holds one TDS source for this food; broader geographic and brand-level breakdown requires additional studies.
+
+## Processing effects
+
+The primary processing effect relevant to heavy metals in this product type is the decision to retain bran rather than remove it. Milling that produces whole-bran or high-bran output preserves the outer grain layers where Cd, Ni, and Cr concentrate, while refining (producing white flour) removes those layers and reduces metal content by roughly 50 to 80 percent depending on the degree of extraction and the metal. Extrusion and crisping during manufacturing do not materially reduce metal concentrations because the processing temperatures and residence times are insufficient to volatilize or chemically transform inorganic contaminants. The raisin component undergoes a drying step that concentrates metals proportionally to the moisture loss; a raisin that is approximately one-quarter the weight of the original grape will carry roughly four times the metal mass per gram. Fortification with mineral premixes introduces metal co-contaminants at levels that depend on the purity specifications applied by the cereal manufacturer; high-purity pharmaceutical-grade mineral sources carry lower impurity loads than food-grade mineral salts.
+
+## Ingredient-derivative risk
+
+Bran cereal with raisins is consumed primarily as a whole product rather than as a derivative ingredient. When used as a component in granola bars, trail mixes, or baked goods, the metal load from the bran and raisin fractions is carried into those products in proportion to inclusion rate. Products that use bran concentrate or wheat bran as an ingredient will carry a higher Cd and Ni load than products using refined flour; the heavy-metal risk of a "high-fiber" formulation claim is therefore partially attributable to the bran fraction. Rice bran, if substituted for wheat bran in gluten-free formulations, introduces a different risk profile, with higher iAs and Cd versus the wheat-bran Cd/Ni pattern.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing cereal grain with documented low soil-Cd origin (for example, regions with low-Cd agricultural soils) is the most effective lever for reducing Cd in the bran fraction. Wheat grown on heavy-clay soils in low-contamination regions tends to accumulate less Cd than wheat grown on sandy or acidic soils. Sourcing raisins from regions with low atmospheric Pb deposition and verified absence of lead-arsenate legacy pesticide use reduces the Pb contribution from the dried-fruit component. Supplier specifications for incoming grain and dried fruit with maximum Cd and Pb limits per lot are the practical implementation of this lever.
+
+### Agronomic levers
+
+Soil pH management, liming to maintain pH above 6.5, reduces Cd availability in the rhizosphere and decreases grain Cd uptake. Cultivar selection also matters: within wheat, significant variation in bran Cd accumulation across varieties has been documented, and breeders have developed low-Cd wheat lines in regions where soil Cd is a known problem. Agronomic intervention options apply to the upstream grain supply rather than directly to the cereal manufacturer.
+
+### Processing levers
+
+Increasing the degree of milling to reduce bran inclusion is the most direct processing lever, though it conflicts with the product's high-fiber positioning. Washing or soaking raisins prior to incorporation can reduce surface-deposited Pb, though quantified data on reduction efficiency in commercial production are not available in the current corpus.
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+Blending high-bran grain with lower-metal grain types, or adjusting the raisin-to-cereal ratio, redistributes the metal load across serving size. Substituting higher-purity mineral premix sources for fortification reduces the incidental metal contribution from that fraction.
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of incoming bran and raisin fractions, with acceptance criteria for Cd and Pb, is the principal QC lever. Given the batch-to-batch variability expected in agricultural inputs, a composite sampling plan across multiple lots provides better coverage than single-lot spot checks.
+
+### Packaging and storage levers
+
+No significant Sn migration pathway applies to this product, which is not packaged in tinplate. Packaging and storage conditions are not a material driver of heavy metal load in this commodity.
+
+## Regulatory limits that apply
+
+For the cereal/bran fraction, the EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Cd in bran and germ products for direct human consumption of 0.20 mg/kg (200 ppb wet weight). For cereal grain intended for processing into foods for human consumption, the Cd limit is 0.10 mg/kg. No specific EU or Codex maximum level applies to the raisin component for Pb or Cd in the context of dried grape inclusions in mixed cereal products; fresh grapes are subject to an EU Pb limit of 0.10 mg/kg and Cd limit of 0.050 mg/kg, but the raisin concentration factor means the dried-fruit fraction may carry proportionally higher values. The FDA does not currently have a specific action level for Cd or Pb in ready-to-eat cereals; FDA Closer to Zero [[regulations/fda-closer-to-zero]] applies to foods intended for young children and infants, not to general adult cereals.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

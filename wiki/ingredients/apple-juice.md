@@ -89,6 +89,12 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Apple juice derives its metal content primarily from the apples used in production, with processing steps determining how much of the fruit's metal load reaches the final juice. Lead and arsenic in apples reflect legacy orchard soil contamination from historical lead arsenate pesticide use, combined with ongoing atmospheric deposition on fruit surfaces; when multiple apples are juiced together, metals from each fruit fraction concentrate into the juice volume. The FDA's FY2005-FY2011 arsenic monitoring program found measurable total arsenic in apple juice samples, providing the evidentiary basis for the subsequently established iAs action level ([[sources/fda2011-arsenic-apple-juice-2005-2011|FDA 2011]]). Juice also presents a higher per-serving metal exposure risk than whole fruit because multiple fruit portions contribute to a single serving and because the physical barrier of the skin and flesh is removed by pressing, allowing metals from deeper in the fruit to pass into solution.
+
+Tin (Sn) is a secondary contamination concern specific to canned apple juice, where contact between the acidic juice and tinplate can linings drives Sn dissolution. The magnitude of Sn release depends on juice pH, storage temperature, and can age, as demonstrated by [[sources/tarigan2016-factors-tin-released-canned-beverages|Tarigan et al. 2016]] in a study of canned beverages including juice matrices. The gastrointestinal acute toxicity of inorganic Sn at high concentrations (above approximately 200 mg/kg in the product) was established in early outbreak investigations and underpins the international canned-beverage Sn limits ([[sources/benoy1971-tin-toxicity-canned-fruit-juices|Benoy et al. 1971]]).
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +142,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 TDS data for bottled apple juice (TDS Food 99, n=3) show Pb with a p50 of 1.5 ppb and a maximum of 2.7 ppb, and tAs with a p50 of 2.4 ppb and a maximum of 4.4 ppb; Ni reached a maximum of 20 ppb in that small sample set ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The FDA FY2005-FY2011 compliance program covering 160 apple juice and concentrate samples provides a larger dataset with country-of-origin breakdown, showing variation by source country ([[sources/fda2011-arsenic-apple-juice-2005-2011|FDA 2011]]). The FY2005-FY2018 Pb dataset spanning 1,643 juice samples ([[sources/fda2018-lead-in-juice-fy2005-fy2018|FDA 2018]]) provides the most extensive US distribution data currently in the corpus. Country of origin for apple juice concentrate is a key variance driver: concentrate sourced from regions with documented orchard pesticide legacies or elevated soil arsenic can produce higher-arsenic juice than domestically concentrated US product. Specific per-country quantitative values will be populated when table extraction of these datasets is completed.
+
+## Processing effects
+
+Juicing concentrates metals from the full fruit into the juice volume; metals present in the skin, flesh, and core all contribute to the pressed juice. Filtration removes particulate matter but does not remove dissolved metals in ionic or complexed form. Concentration (reducing juice to concentrate for shipping and later reconstitution) proportionally elevates all metal concentrations by the factor of water removed; a concentrate reconstituted at a 1:6 ratio carries six times the metal concentration of the corresponding single-strength juice as concentrated. Pasteurization does not remove metals. For canned apple juice specifically, Sn leaches from tinplate can linings into the acidic juice during storage, with the rate increasing with storage duration and temperature, as documented by [[sources/tarigan2016-factors-tin-released-canned-beverages|Tarigan et al. 2016]]; glass or carton packaging eliminates this contamination route. The use of fining agents (gelatin, bentonite) in juice clarification may co-precipitate some metals with colloidal matter, but quantified reduction factors are not available in the current corpus.
+
+## Ingredient-derivative risk
+
+Apple juice is itself a derivative of the whole apple ingredient. Its primary downstream derivatives are apple juice concentrate (elevated metal concentration proportional to concentration factor), dehydrated apple juice powder (further elevated), reconstituted apple juice from concentrate (returns to approximately single-strength levels if reconstituted at label ratio), and blended fruit drinks where apple juice is one component. Apple cider (including fermented hard cider) carries through the metal content of the juice into the fermented product; fermentation does not remove metals. Apple juice used as a sweetener or flavor in other processed foods (e.g., dried fruit bars, infant pouches) carries its metal load into those formulations. The iAs regulatory action level ([[sources/fda2023-ias-apple-juice-guidance|FDA 2023]]) applies to juice as placed on the market, not to concentrate or intermediate forms; compliance testing must be performed on the ready-to-drink product.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing apple juice or concentrate from suppliers who can demonstrate orchard origin traceability and low soil Pb or arsenic in production regions reduces background contamination risk. Country-of-origin specification, where possible, allows exclusion of source regions with documented higher arsenic in apple juice ([[sources/fda2011-arsenic-apple-juice-2005-2011|FDA 2011]]). _Quantified magnitude of source-switching effect is not resolved in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Switching from tinplate cans to glass, carton, or polyethylene-lined packaging eliminates the Sn leaching contamination route for canned apple juice. Limiting storage duration and temperature for canned product reduces Sn accumulation during the shelf-life period ([[sources/tarigan2016-factors-tin-released-canned-beverages|Tarigan et al. 2016]]). _Quantified Pb and As reduction from processing steps (fining, filtration) are not available in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+Diluting apple juice with low-metal diluents (water) reduces per-serving metal dose but must be disclosed on labeling if the product is marketed as juice. Blending with juices from lower-metal sources can reduce the average concentration of the blend. _Quantified blending effects are not available in the current corpus._
+
+### Testing and QC levers
+
+The FDA iAs action level of 10 ppb for apple juice ([[sources/fda2023-ias-apple-juice-guidance|FDA 2023]]) provides a regulatory compliance testing target. Lot-level iAs testing by ICP-MS with HPLC speciation (or equivalent) before release is the standard QC approach for US market compliance. For Pb, the ongoing FDA compliance program ([[sources/fda2018-lead-in-juice-fy2005-fy2018|FDA 2018]]) provides the evidentiary basis for any future Pb action level development; suppliers should monitor Pb in anticipation of a formal FDA action level under Closer to Zero ([[regulations/fda-closer-to-zero]]).
+
+### Packaging and storage levers
+
+As noted under processing levers, non-metallic packaging eliminates the Sn contamination route specific to canned apple juice. Storage temperature control (cool, consistent temperature) reduces the rate of Sn dissolution from can linings during shelf life ([[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]]).
+
+## Regulatory limits that apply
+
+The FDA has established a final action level of 10 ppb inorganic arsenic (iAs) for apple juice and apple cider, applicable to product as placed on the market (single-strength, ready-to-drink basis) ([[sources/fda2023-ias-apple-juice-guidance|FDA 2023]]). For lead in juice, the FDA's FY2005-FY2018 compliance program data ([[sources/fda2018-lead-in-juice-fy2005-fy2018|FDA 2018]]) underpin ongoing action level development under the Closer to Zero program; the current FDA guidance for juice Pb is the 50 ppb level referenced in the HACCP juice regulation ([[regulations/fda-juice-haccp-lead-50ppb]]), though this is expected to tighten under Closer to Zero. In the European Union, Regulation (EU) 2023/915 sets a Pb ML of 0.050 mg/kg (50 ppb) for fruit juices generally, with a stricter 0.020 mg/kg (20 ppb) ML for fruit juices intended for infants and young children ([[regulations/eu2023-contaminants-maximum-levels]]). The EU also sets a maximum for inorganic tin (Sn) in canned beverages at 100 mg/kg (100,000 ppb) for non-carbonated drinks and 150 mg/kg for carbonated drinks. No specific EU ML for Cd in fruit juice appears in the current corpus as a binding ML; Cd MLs in EU Regulation 2023/915 focus on solid food matrices. Codex Alimentarius maximum levels for contaminants in fruit juices are not yet extracted into the corpus.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

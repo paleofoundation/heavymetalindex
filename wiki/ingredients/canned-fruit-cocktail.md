@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 87, "Fruit cocktail, canned in light syrup, solids and liquids." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Canned fruit cocktail is a mixed processed fruit product (typically peach, pear, grape, cherry, and pineapple in syrup) whose heavy metal risk derives primarily from tin migration from the tinplate can rather than from intrinsic contamination of the fruit ingredients. Tree fruits and small fruits that compose fruit cocktail are generally among the lowest-accumulating food categories for Pb and Cd because their edible flesh is protected from soil contact by skin and peel, and because fruit tissues tend not to concentrate metals at the levels characteristic of root or leafy vegetables. The syrup medium (sugar solution, mildly acidic from fruit organic acids) maintains direct contact with the can interior throughout shelf life, and this acidic aqueous environment drives electrochemical corrosion of unlacquered tin coatings. Inorganic tin ions released from the can wall migrate into the syrup and are absorbed by the solid fruit components over time. This mechanism has been documented for decades in the canned-food literature [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]], [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer et al. 1984]], [[sources/benoy1971-tin-toxicity-canned-fruit-juices|Benoy et al. 1971]]. Lead, cadmium, and arsenic in the fruit fractions themselves contribute modestly and represent background soil-derived accumulation in the growing region.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study reports Pb in canned fruit cocktail in light syrup (solids and liquids combined) at a median of 5.0 ppb (range 0 to 5.5 ppb, n=3) [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. Nickel ranged from 60 to 69 ppb (median 63 ppb), and Cr ranged from 0 to 66 ppb (median 55 ppb). Cd, tAs, and tHg were at or below the reporting limit. The elevated Ni and Cr detections in this product are notable and may reflect trace contamination from can interior alloy components or fruit variety variation; additional independent sources are needed to confirm the pattern. Tarigan et al. 2016 measured Sn in canned fruit juice and beverages in Indonesia, finding that product pH and storage time were the primary drivers of Sn release [[sources/tarigan2016-factors-tin-released-canned-beverages|Tarigan et al. 2016]]; these findings are directly applicable to canned fruit cocktail given similar acidity and can format. Historic incident data from Benoy et al. 1971 documented Sn concentrations well above 200 mg/kg in improperly handled unlacquered canned fruit products during a 1967 Kuwait distribution incident [[sources/benoy1971-tin-toxicity-canned-fruit-juices|Benoy et al. 1971]].
+
+## Processing effects
+
+The thermal sterilization (retorting) step in canning initiates the tin-release mechanism by heating the acidic fruit-syrup matrix in contact with the can wall; Sn release increases during and after retorting. Prolonged storage at ambient temperatures allows continued slow corrosion. Once opened, refrigeration slows further Sn release but does not reverse what has already migrated. The combined-solids-and-liquids TDS measurement includes Sn that has migrated into both the syrup and the solid fruit components; a drained-solids-only measurement would show lower total Sn and Ni, though the syrup itself carries the bulk of the migrated Sn. No metal-reducing transformation occurs during thermal processing; the concern is migration from packaging rather than intrinsic commodity contamination.
+
+## Ingredient-derivative risk
+
+Canned fruit cocktail is consumed directly or incorporated into desserts, yogurts, and baked goods. Its metal contribution to final products is dominated by whatever Sn (from the can) and Ni/Pb (from the fruit) are present in the portion used. Products that incorporate syrup as well as solids carry more migrated Sn than those using only drained solids. The fruit fractions themselves carry a low intrinsic metal load, so derivative applications using canned fruit cocktail as one ingredient among many dilute the effect proportionally.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying lacquered-can sourcing is the primary lever for reducing Sn in this commodity. Can manufacturer quality specifications for coating integrity and composition (including absence of Pb solder, which has been phased out in most markets but may persist in legacy supply chains) provide additional protection.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._ Fruit ingredients in cocktail are low metal accumulators by nature; agronomic interventions have marginal impact relative to the can-sourcing lever.
+
+### Processing levers
+
+Reducing retort temperature or time is not available as a safety-lever because retorting is required for shelf-stable sterilization. Lacquered cans are the processing-compatible mitigation. For consumers or food service operators: draining and rinsing the solid fruit before use removes syrup-phase Sn; this is the highest-impact simple intervention for reducing Sn exposure from canned fruit products.
+
+### Formulation levers
+
+Substituting glass-jarred fruit for tinplate-canned fruit cocktail eliminates the Sn migration pathway entirely. Refrigerated fruit products (not shelf-stable) packaged in plastic or glass also avoid Sn migration while maintaining product quality.
+
+### Testing and QC levers
+
+Sn measurement by ICP-MS in finished product from lots near end of shelf life provides the most directly relevant QC data. Monitoring Sn across can batches and storage durations establishes lot-specific Sn curves, enabling tighter shelf-life management. For Pb, Cd, and As in the fruit fractions, the low baseline makes testing a lower priority; lot-acceptance specifications from fruit suppliers with documented growing-region metal surveys are the appropriate upstream control.
+
+### Packaging and storage levers
+
+Lacquered ("enamel-lined") tinplate cans are the most important packaging specification for Sn reduction. Storage at cool temperatures (below 20°C) and under controlled humidity (to prevent external can corrosion affecting seal integrity) reduces the rate of Sn release. Implementing a strict shelf-life ceiling and FIFO inventory rotation limits cumulative exposure from aged stock. Products that have been stored above 25°C for extended periods should be tested before use in formulations targeting sensitive populations [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]].
+
+## Regulatory limits that apply
+
+The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Sn in canned solid foods of 200 mg/kg (200,000 ppb) wet weight. The Codex Alimentarius general standard for contaminants sets a Sn limit of 250 mg/kg for canned foods (solid content). For Pb in fruit, the EU limit is 0.10 mg/kg (100 ppb) wet weight. For Cd in fruit, the EU limit is 0.050 mg/kg (50 ppb). No FDA-specific action level for Sn in canned fruit cocktail is currently operative; FDA Closer to Zero [[regulations/fda-closer-to-zero]] does not address Sn.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

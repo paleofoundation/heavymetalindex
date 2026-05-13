@@ -93,6 +93,12 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 29, "Luncheon meat, bologna." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Bologna luncheon meat is a processed pork (or pork-and-beef blend) product that incorporates mechanically separated or comminuted meat, fat, water, seasonings, curing salts, and binders, then is stuffed into a casing and heat-processed. The metal burden of bologna and similar processed meat products is driven by which animal tissues are incorporated into the formulation. Pure skeletal muscle meat is a low-accumulator matrix for most heavy metals; the primary concern arises when organ fractions (particularly kidney and liver) or mechanically separated meat (which includes bone and marrow fractions) are included. Kidney and liver, especially from cattle, are the principal dietary exposure routes for Cd in meat products because these organs are the biological sites of cadmium accumulation during the animal's lifetime.
+
+The FDA FY2018-FY2020 TDS data for "Luncheon meat, bologna" (TDS Food 29, n=3) show Cd detectable in all three samples with a median of 1.6 ppb and a maximum of 4.4 ppb; Pb, Ni, tAs, and tHg were at or below detection limits; U showed a median of 1.4 ppb and a maximum of 2.2 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The Cd values, while low in absolute terms, reflect the organ and mechanically separated meat fractions in commercial bologna formulations. The small sample size (n=3) limits the confidence of the distribution estimate and particularly cannot characterize the upper tail or brand-to-brand variation driven by formulation differences.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +146,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 TDS data (TDS Food 29, n=3) are the sole quantitative occurrence source in the current corpus and are limited to three composite samples, providing insufficient resolution for robust distributional inference ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Commercial bologna formulations vary considerably by producer in terms of the proportion of skeletal muscle versus organ or mechanically separated meat; this compositional variation is the primary driver of Cd concentration differences across brands and products. No geographic or formulation-class breakdown is available in TDS data. European liver sausage and German-style bologna (Fleischwurst), which may include higher organ fractions, are expected to show higher Cd than US bologna products with predominantly muscle-based formulations, but no European comparative data appear in the current corpus.
+
+## Processing effects
+
+The principal processing steps for bologna (comminution, emulsification, heat processing, casing) do not materially alter the metal content of the formulation; metals are retained in the protein and fat matrix throughout these steps. Smoking, where applied, introduces no relevant metallic contamination under normal commercial conditions. Casing type (natural, collagen, or plastic) does not affect metal content of the meat emulsion. The thermal processing step (steam-cooking or water immersion cooking to achieve internal pasteurization temperatures) does not remove metals from the emulsion matrix.
+
+## Ingredient-derivative risk
+
+Bologna is itself a finished processed meat product. It is used directly in sandwiches and salads; there are no significant downstream derivatives. Its relevance as an ingredient in this wiki is primarily as a proxy matrix for the processed meat category in the FDA TDS dataset, providing a reference distribution for Cd (from organ fractions) and U in processed meat emulsion products. The relatively low metal concentrations in TDS data (Cd maximum 4.4 ppb, all other monitored analytes at zero) indicate that commercially processed bologna in the US market is not a high-priority metal exposure vehicle relative to plant-based foods with direct soil contact.
+
+## Mitigation options
+
+### Sourcing levers
+
+Reducing or eliminating the organ-meat fraction in formulation is the most effective sourcing-level lever for Cd reduction in bologna. Pure skeletal muscle meat formulations would be expected to carry lower Cd than formulations incorporating kidney or liver fractions. Sourcing from animals with documented low lifetime Cd exposure (younger animals, animals raised in low-Cd-soil environments) also reduces the Cd load in both organ and muscle fractions. _Quantified reduction factors comparing organ-inclusive versus muscle-only bologna are not available in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+Reformulating away from organ or mechanically separated meat fractions toward pure skeletal muscle is the primary formulation lever for Cd reduction. This is a commercially feasible lever, though it affects cost structure and USDA compositional labeling. _Quantified Cd reduction from reformulation in processed meat emulsions are not available in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+In the European Union, Regulation (EU) 2023/915 establishes maximum levels for Pb and Cd in meat products. For processed meat products (including luncheon meats and sausages), the applicable Pb ML is 0.10 mg/kg (100 ppb) wet weight and the Cd ML is 0.050 mg/kg (50 ppb) wet weight ([[regulations/eu2023-contaminants-maximum-levels]]). For offal (organ meats), the EU applies a higher Cd ML of 1.0 mg/kg (1,000 ppb) in bovine kidney and 0.5 mg/kg in liver, reflecting the biological accumulation in those organs; these limits apply to the organ as a separate food rather than to a processed meat product incorporating organ fractions. In the United States, no FDA action level for Pb or Cd in processed meat products exists under the Closer to Zero framework ([[regulations/fda-closer-to-zero]]). The USDA Food Safety and Inspection Service (FSIS) regulates meat product composition and labeling but has not established specific heavy metal action levels for processed meat products in the current corpus. No Codex Alimentarius ML specific to processed luncheon meat or bologna appears in the current corpus.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
