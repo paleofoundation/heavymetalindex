@@ -80,6 +80,19 @@ Thesis (nascent): Dietary supplements and traditional herbal preparations are a 
 
 Promotion readiness: 1 of 4 criteria met. Criterion 3 (non-obvious) is met — a 40,657 ppm finding in a consumer product is not derivable from conventional food-chain surveillance. Promote when two or more independent A/B-tier studies document high Pb in supplements or herbal preparations, or when a regulatory body takes an enforcement action against supplement Pb that enters the corpus as a regulation page.
 
+### Seaweed and kelp as systematic Cd and As exposure pathways (seeding)
+
+Anchor sources (2 A-tier studies; seeding):
+
+- [[wiki/sources/nepper-davidsen2023-kelp-biomass-composition-nz|Nepper-Davidsen 2023]] (batch 13: Ecklonia radiata kelp, 12 NZ sites, ICP-MS, mean tAs 49 ppm DW, Cd 1.2 ppm DW; significant temporal autocorrelation for As and Hg; iAs speciation absent)
+- [[wiki/sources/hahn2022-salish-seaweed-contaminants|Hahn 2022]] (batch 15: bull kelp Nereocystis luetkeana, 43 Salish Sea sites; Cd exceeded international limits at every site, mean 5.69 mg/kg DW; tAs up to 72.5 mg/kg DW; iAs typically 1–5% of tAs per authors' discussion; Pb spike to 13.2 mg/kg at industrial-adjacent site)
+
+Thesis (nascent): Commercial seaweed and kelp products — sold as health foods, dietary supplements, and food ingredients — carry systematically elevated Cd and As that is poorly characterized by the food-safety surveillance frameworks applied to conventional food categories. The Cd finding is particularly notable: Hahn 2022 found Cd above international limits at all 43 Pacific Northwest sites, and the 5.69 mg/kg DW mean is well above the Codex maximum level for seaweed food products in jurisdictions that have one. The arsenosugar/iAs speciation issue in seaweed is already covered in the promoted organoarsenical-inertness-assumption synthesis page; the Cd angle is distinct and not currently captured in any wiki synthesis. If a third study confirms the pattern across a third geographic region or product category (dried seaweed snacks, seaweed-based supplements, nori), the thread warrants a synthesis page.
+
+Promotion readiness: 2 of 4 criteria met. Criterion 1 requires 1 more independent A/B-tier study. Criterion 3 (non-obvious) is met — consumer seaweed products are often marketed without heavy metal characterization, and the Cd finding across multiple geographic regions is not derivable from conventional food-chain surveillance. Promote when: a third study documents elevated Cd or As in a seaweed or kelp product category across a third geographic region, or when a regulatory enforcement action or systematic review of seaweed heavy metal contamination enters the corpus.
+
+Suggested synthesis page slug: `seaweed-cd-as-contamination` (or fold into the organoarsenical-inertness-assumption page if the speciation angle dominates).
+
 ### Egypt regulatory baseline as a multi-jurisdiction interpretation hazard
 
 Anchor sources (meta-finding about corpus pattern, not a single-paper thesis):
