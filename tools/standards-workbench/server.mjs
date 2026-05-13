@@ -155,6 +155,7 @@ async function buildWorkbenchContext() {
     regulationRows,
     gapRows,
     actionRows,
+    pooledRows,
     decisionStagingLog,
     adjudicationStagingLog,
   ] = await Promise.all([
@@ -166,6 +167,7 @@ async function buildWorkbenchContext() {
     readRegulationRows(),
     readOptionalCsvFile("data/evidence/hmtc_standards_gap_report.csv"),
     readOptionalCsvFile("data/evidence/hmtc_standards_action_queue.csv"),
+    readOptionalCsvFile("data/evidence/hmtc_aggregate_distributions.csv"),
     readJsonlFile(decisionStagingPath),
     readJsonlFile(adjudicationStagingPath),
   ]);
@@ -174,6 +176,7 @@ async function buildWorkbenchContext() {
   const standardsMap = keyByCell(standardsRows);
   const gapMap = keyByGapRow(gapRows);
   const actionMap = keyByActionRow(actionRows);
+  const pooledMap = keyByPooledRow(pooledRows);
   const stagedDecisionsByCell = groupStagedRecords(
     decisionStagingLog,
     (record) => `${record.row_slug}::${record.metal}`,
@@ -198,6 +201,7 @@ async function buildWorkbenchContext() {
           regulationRows,
           gapMap,
           actionMap,
+          pooledMap,
           stagedDecisionsByCell,
           sourceTitleCache,
         ),
@@ -341,6 +345,7 @@ async function buildCell(
   regulationRows,
   gapMap,
   actionMap,
+  pooledMap,
   stagedDecisionsByCell,
   sourceTitleCache,
 ) {
@@ -405,7 +410,9 @@ async function buildCell(
       : null;
   const gapRow = gapMap.get(cellKey(row.slug, metal)) ?? null;
   const actionRow = actionMap.get(cellKey(row.slug, metal)) ?? null;
+  const pooledRow = pooledMap?.get(cellKey(row.slug, metal)) ?? null;
   const readiness = readinessFor(row, metal, gapRow, actionRow);
+  const pooled = poolingResult(pooledRow);
   const comparatorContext = comparatorFor(
     row,
     products,
@@ -534,6 +541,7 @@ async function buildCell(
       methodology_note_ref: "see methodology_note at top-level",
     },
     readiness,
+    pooled,
     // Standards arithmetic snapshots live in data/workbench/standards/ per
     // CLAUDE.md Part 19; they are not served by Quartz. The snapshot_path is
     // a filesystem path the workbench UI can offer for copy/paste; there is
@@ -1815,6 +1823,70 @@ function keyByGapRow(rows) {
     }
   }
   return map;
+}
+
+function keyByPooledRow(rows) {
+  const map = new Map();
+  for (const row of rows ?? []) {
+    if (row.product_slug && row.metal_species) {
+      map.set(cellKey(row.product_slug, row.metal_species), row);
+    }
+  }
+  return map;
+}
+
+function poolingResult(row) {
+  if (!row) return null;
+  const numericOrNull = (k) => {
+    const value = row[k];
+    if (value === null || value === undefined || value === "") return null;
+    const n = Number(value);
+    return Number.isFinite(n) ? n : null;
+  };
+  let contributionLog = [];
+  if (row.contribution_log) {
+    try {
+      contributionLog = JSON.parse(row.contribution_log);
+    } catch {
+      contributionLog = [];
+    }
+  }
+  return {
+    product_slug: row.product_slug,
+    metal_species: row.metal_species,
+    target_label: row.target_label,
+    target_p: numericOrNull("target_p"),
+    role: row.role,
+    native_basis: row.native_basis,
+    sources_loaded: numericOrNull("sources_loaded"),
+    sources_contributing: numericOrNull("sources_contributing"),
+    sample_level_contributing: numericOrNull("sample_level_contributing"),
+    pooled_n: numericOrNull("pooled_n"),
+    median_source_n: numericOrNull("median_source_n"),
+    cap_n: numericOrNull("cap_n"),
+    pooled_p10: numericOrNull("pooled_p10"),
+    pooled_p30: numericOrNull("pooled_p30"),
+    pooled_p45: numericOrNull("pooled_p45"),
+    pooled_p50: numericOrNull("pooled_p50"),
+    pooled_p90: numericOrNull("pooled_p90"),
+    pooled_p95: numericOrNull("pooled_p95"),
+    pooled_p97: numericOrNull("pooled_p97"),
+    pooled_p100: numericOrNull("pooled_p100"),
+    target_value: numericOrNull("target_value"),
+    target_ci_lo: numericOrNull("target_ci_lo"),
+    target_ci_hi: numericOrNull("target_ci_hi"),
+    sens_lognormal: numericOrNull("sens_lognormal"),
+    sens_gamma: numericOrNull("sens_gamma"),
+    sens_nonparametric: numericOrNull("sens_nonparametric"),
+    sens_spread: numericOrNull("sens_spread"),
+    sens_band: row.sens_band || null,
+    lowest_regulatory_cap_ppb: numericOrNull("lowest_regulatory_cap_ppb"),
+    lowest_regulatory_cap_source: row.lowest_regulatory_cap_source || null,
+    candidate_value_ppb: numericOrNull("candidate_value_ppb"),
+    rationale_tag_auto: row.rationale_tag_auto || null,
+    verdict: row.verdict || null,
+    contribution_log: contributionLog,
+  };
 }
 
 function keyByActionRow(rows) {

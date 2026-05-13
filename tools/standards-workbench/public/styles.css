@@ -820,6 +820,137 @@ tr:hover {
   padding: 0.15rem 0.4rem;
 }
 
+.pooled-card {
+  background: #fbf6ee;
+  border: 2px solid #e0b96f;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+  padding: 0.9rem;
+}
+
+.pooled-card h3 {
+  color: #6b430f;
+}
+
+.pooled-headline {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.pooled-candidate {
+  align-items: baseline;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pooled-candidate-label {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pooled-candidate-value {
+  color: var(--wine-dark);
+  font-size: 1.65rem;
+}
+
+.pooled-rationale {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 0.18rem 0.5rem;
+}
+
+.pooled-rationale.literature-baseline {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.pooled-rationale.regulatory-alignment {
+  border-color: var(--amber);
+  color: var(--amber);
+}
+
+.pooled-rationale.no-data {
+  border-color: var(--muted);
+  color: var(--muted);
+}
+
+.pooled-stats {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 0.7rem 0;
+}
+
+.pooled-stats div {
+  background: #fff;
+  border-radius: 6px;
+  padding: 0.45rem 0.55rem;
+}
+
+.pooled-percentiles,
+.pooled-sensitivity,
+.pooled-contributions {
+  background: #fff;
+  border-radius: 6px;
+  margin-top: 0.55rem;
+  padding: 0.55rem 0.7rem;
+}
+
+.pooled-percentiles summary,
+.pooled-sensitivity summary,
+.pooled-contributions summary {
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 700;
+  user-select: none;
+}
+
+.pooled-percentiles table,
+.pooled-contrib-table {
+  font-size: 0.74rem;
+  margin-top: 0.55rem;
+  min-width: 0;
+  width: 100%;
+}
+
+.pooled-percentiles th,
+.pooled-percentiles td,
+.pooled-contrib-table th,
+.pooled-contrib-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.32rem 0.4rem;
+  text-align: left;
+}
+
+.pooled-contrib-table td.muted {
+  color: var(--muted);
+}
+
+.pooled-prefill {
+  background: var(--green);
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+  padding: 0.45rem 0.75rem;
+}
+
+.pooled-prefill:hover {
+  background: #2f5a40;
+}
+
 .row-overview-card,
 .readiness-card,
 .math-card,

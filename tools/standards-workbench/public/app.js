@@ -544,6 +544,11 @@ function renderDetail(cells = filteredCells()) {
       ${renderReadiness(cell.readiness)}
     </section>
 
+    <section class="pooled-card">
+      <h3>Pooled distribution (P97/P45 per CLAUDE.md Part 19)</h3>
+      ${renderPooledDistribution(cell.pooled)}
+    </section>
+
     <section class="final-card">
       <h3>Finalized / Staged Decision</h3>
       ${renderFinalized(cell)}
@@ -618,7 +623,8 @@ function renderDetail(cells = filteredCells()) {
 
     <section class="decision-recorder-card">
       <h3>Stage a decision</h3>
-      <p class="muted">Writes to <code>data/evidence/standards_decision_staging.jsonl</code>. Never silently mutates the canonical CSV. A separate commit action (TBD) promotes staged → canonical.</p>
+      <p class="muted">Writes to <code>data/evidence/standards_decision_staging.jsonl</code>. Never silently mutates the canonical CSV. Use the canonical-promote button at the top of the workspace when ready.</p>
+      ${cell.pooled && cell.pooled.candidate_value_ppb !== null ? `<button class="pooled-prefill" data-prefill-value="${cell.pooled.candidate_value_ppb}" data-prefill-basis="${escapeHTML(cell.pooled.native_basis ?? "")}" data-prefill-rationale="${escapeHTML(cell.pooled.rationale_tag_auto ?? "")}">Stage from pooled candidate (${valueOrDash(cell.pooled.candidate_value_ppb, "ppb")} · ${escapeHTML(cell.pooled.rationale_tag_auto ?? "")})</button>` : ""}
       ${renderDecisionForm(cell)}
     </section>
 
@@ -660,6 +666,32 @@ function bindDetailHandlers(detail, cell, pairCell) {
       state.selectedId = button.dataset.jumpCell
       render()
     })
+  })
+
+  const prefillButton = detail.querySelector(".pooled-prefill")
+  prefillButton?.addEventListener("click", () => {
+    const form = detail.querySelector("#decision-form")
+    if (!form) return
+    const value = prefillButton.dataset.prefillValue ?? ""
+    const basis = prefillButton.dataset.prefillBasis ?? ""
+    const rationale = prefillButton.dataset.prefillRationale ?? ""
+    form.querySelector("[name=final_value_ppb]").value = value
+    form.querySelector("[name=basis]").value = basis
+    const rationaleSel = form.querySelector("[name=rationale_tag]")
+    if (rationaleSel && rationale) {
+      rationaleSel.value = [...rationaleSel.options]
+        .map((o) => o.value)
+        .includes(rationale)
+        ? rationale
+        : rationaleSel.value
+    }
+    const actionSel = form.querySelector("[name=action]")
+    if (actionSel && !actionSel.value) actionSel.value = "approve"
+    const note = form.querySelector("[name=note]")
+    if (note && !note.value) {
+      note.value = `Pre-filled from pooling engine; pooled candidate = ${value} ppb (${rationale || "no-rationale"}) in ${basis} basis. Edit if you want a different rationale or value.`
+    }
+    form.scrollIntoView({ behavior: "smooth", block: "nearest" })
   })
 
   const form = detail.querySelector("#decision-form")
@@ -832,6 +864,82 @@ function renderRowOverviewCard(cell) {
     </table>
     ${otherNote}
   </section>`
+}
+
+function renderPooledDistribution(pooled) {
+  if (!pooled) {
+    return `<p class="muted">The pooling engine has not produced a value for this cell. Run <code>node tools/evidence/build-hmtc-aggregate-distributions.mjs</code>; the result will appear here once <code>data/evidence/hmtc_aggregate_distributions.csv</code> includes this product+metal.</p>`
+  }
+  const verdictTone = (pooled.verdict ?? "").startsWith("BLOCKED")
+    ? "blocked"
+    : (pooled.verdict ?? "").startsWith("PROVISIONAL")
+      ? "hold"
+      : (pooled.verdict ?? "").startsWith("READY")
+        ? "ready"
+        : "neutral"
+  const targetLabel = (pooled.target_label ?? "").includes("p97")
+    ? "P97"
+    : (pooled.target_label ?? "").includes("p45")
+      ? "P45"
+      : "target"
+  const contributionRows = (pooled.contribution_log ?? [])
+    .map(
+      (c) => `<tr class="${c.admitted ? "" : "muted"}">
+        <td>${escapeHTML(c.source_id || "")}</td>
+        <td>${escapeHTML(c.basis || "")}</td>
+        <td>${c.n_used ?? "—"}</td>
+        <td>${escapeHTML(c.reconstruction_method || "")}</td>
+        <td>${c.admitted ? "✓" : "—"}${c.weak ? " <em>(weak)</em>" : ""}</td>
+        <td>${c.conversion_factor && c.conversion_factor !== 1 ? `×${formatNumber(c.conversion_factor)}` : "1"}${c.unknown_conversion ? " <em>?</em>" : ""}</td>
+      </tr>`,
+    )
+    .join("")
+
+  return `<div class="pooled-headline">
+    <div class="pooled-candidate">
+      <span class="pooled-candidate-label">HMTc candidate</span>
+      <strong class="pooled-candidate-value">${valueOrDash(pooled.candidate_value_ppb, "ppb")}</strong>
+      <span class="pooled-rationale ${pooled.rationale_tag_auto ?? "none"}">${escapeHTML(pooled.rationale_tag_auto || "no-rationale")}</span>
+    </div>
+    <span class="pooled-verdict readiness-pill ${verdictTone}">${escapeHTML(pooled.verdict || "")}</span>
+  </div>
+  <dl class="pooled-stats">
+    <div><dt>Pool size</dt><dd>${pooled.pooled_n ?? "—"} pseudo-samples from ${pooled.sources_contributing ?? "—"} sources (${pooled.sample_level_contributing ?? "—"} sample-level)</dd></div>
+    <div><dt>Native basis</dt><dd>${escapeHTML(pooled.native_basis || "—")}</dd></div>
+    <div><dt>${targetLabel} (target)</dt><dd>${valueOrDash(pooled.target_value, "ppb")} · 95% CI [${valueOrDash(pooled.target_ci_lo, "")} – ${valueOrDash(pooled.target_ci_hi, "ppb")}]</dd></div>
+    <div><dt>Reg cap</dt><dd>${valueOrDash(pooled.lowest_regulatory_cap_ppb, "ppb")}${pooled.lowest_regulatory_cap_source ? ` <span class="muted">(${escapeHTML(pooled.lowest_regulatory_cap_source)})</span>` : ""}</dd></div>
+    <div><dt>Sensitivity band</dt><dd class="${pooled.sens_band === "stable" ? "good-text" : pooled.sens_band === "provisional" ? "warn-text" : ""}">${escapeHTML(pooled.sens_band || "—")} (spread ${pooled.sens_spread !== null ? `${Math.round((pooled.sens_spread ?? 0) * 100)}%` : "—"})</dd></div>
+    <div><dt>Cap on per-source N</dt><dd>${pooled.cap_n ?? "—"} (median source N = ${pooled.median_source_n ?? "—"})</dd></div>
+  </dl>
+  <details class="pooled-percentiles">
+    <summary>Full pooled percentile vector (in ${escapeHTML(pooled.native_basis || "native basis")})</summary>
+    <table>
+      <thead><tr><th>P10</th><th>P30</th><th>P45</th><th>P50</th><th>P90</th><th>P95</th><th>P97</th><th>P100</th></tr></thead>
+      <tbody><tr>
+        <td>${valueOrDash(pooled.pooled_p10, "")}</td>
+        <td>${valueOrDash(pooled.pooled_p30, "")}</td>
+        <td>${valueOrDash(pooled.pooled_p45, "")}</td>
+        <td>${valueOrDash(pooled.pooled_p50, "")}</td>
+        <td>${valueOrDash(pooled.pooled_p90, "")}</td>
+        <td>${valueOrDash(pooled.pooled_p95, "")}</td>
+        <td>${valueOrDash(pooled.pooled_p97, "")}</td>
+        <td>${valueOrDash(pooled.pooled_p100, "")}</td>
+      </tr></tbody>
+    </table>
+  </details>
+  <details class="pooled-sensitivity">
+    <summary>Sensitivity analysis (three parametric variants)</summary>
+    <p>Log-normal (headline): <strong>${valueOrDash(pooled.sens_lognormal, "ppb")}</strong></p>
+    <p>Gamma (alternative): <strong>${valueOrDash(pooled.sens_gamma, "ppb")}</strong></p>
+    <p>Nonparametric: <strong>${valueOrDash(pooled.sens_nonparametric, "ppb")}</strong></p>
+  </details>
+  <details class="pooled-contributions">
+    <summary>Per-source contribution log (${(pooled.contribution_log ?? []).length} sources)</summary>
+    <table class="pooled-contrib-table">
+      <thead><tr><th>Source</th><th>Basis</th><th>N</th><th>Reconstruction</th><th>Admitted</th><th>Basis conv.</th></tr></thead>
+      <tbody>${contributionRows}</tbody>
+    </table>
+  </details>`
 }
 
 function renderReadiness(readiness) {
