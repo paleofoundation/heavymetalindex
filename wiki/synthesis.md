@@ -1,12 +1,42 @@
 ---
-type: synthesis
-updated: 2026-04-24
+type: synthesis-index
+updated: 2026-05-13
 audience: [regulator, educator]
 ---
 
-# Current synthesis
+# Synthesis
 
-This page is the evolving statement of the Heavy Metal Index's current best understanding across the metals in scope. It is updated when ingests move the needle, and it is always behind the primary-source pages it draws from.
+This page is the index of the Heavy Metal Index's synthesis layer. Each linked subpage is a self-contained synthesis findings page: a thesis statement built on at least three corroborating A-tier sources, presenting a non-obvious finding that emerges from the corpus and would not be evident from any single source page. Synthesis pages sit one layer above the source and product pages and one layer below the strategic / certification documents, and the wiki's epistemic authority rests on them remaining provisional, source-traceable, and explicit about their own uncertainty.
+
+## Synthesis findings pages
+
+- [[synthesis/climate-metals-tradeoffs|Climate adaptation creates new heavy-metal trade-offs]] — established 2026-05-13. Rice irrigation drives an iAs/Cd inverse correlation that climate-smart practices are accelerating; climate change is projected to increase methylmercury in freshwater wild fish by approximately 60 percent by 2031-2060. Three anchor studies (Seyfferth 2025, Limmer 2024, Wu 2025). Implications for certification standards calibrated to historical baselines.
+
+## When to promote a synthesis findings page
+
+A synthesis findings page is warranted when a thematic cluster in the corpus meets all of the following criteria.
+
+The finding rests on at least three independent A-tier or high-quality B-tier sources. Two sources are an interesting coincidence; three is the floor for treating the convergence as evidence of a real pattern rather than an artifact of any single research group's framing. The sources should be independent in the sense of distinct authorship, distinct institutional context, and ideally distinct geographies.
+
+The finding spans multiple metals, ingredients, or products. Findings that fit cleanly inside one existing page belong on that page, not in synthesis. Synthesis exists for claims whose support and implications span boundaries the existing taxonomy was not built to handle: a finding about climate effects on multiple food matrices, a finding about how regulatory bodies disagree across multiple metals, a finding about a vulnerable-population exposure pattern that aggregates across products and ingredients.
+
+The finding is not obvious from any single source. A synthesis page is doing work that no source page can do on its own. If the finding is just "rice contains arsenic" or "cocoa contains cadmium," that belongs in the relevant ingredient page's body, not in synthesis. Synthesis findings are the connections, contradictions, and trajectories that emerge when the corpus is read as a whole.
+
+The finding has strategic relevance to the wiki's audiences. The wiki's brand-legal, regulatory, and educational audiences are different from each other, but a synthesis finding should serve at least one of them in a load-bearing way: it should change how a defense counsel reads the wiki, how a regulator weighs the evidence, or how a course module is built. Findings that are intellectually interesting but operationally inert can live as notes on source pages or in the log; synthesis pages are reserved for findings that have downstream consequences.
+
+When all four criteria are met, the candidate thread becomes a synthesis proposal. Proposals are surfaced from three places in the workflow.
+
+First, batch reports. Every batch close commit produced by an ingest session should include a `Synthesis threads` note section listing thematic clusters the batch contributed to or established. When the same thread appears in three consecutive batch reports, it is automatically a promotion candidate.
+
+Second, orchestrator scans. The orchestrator at `tools/orchestrator/analyze-gaps.mjs` includes a `PROPOSE-SYNTHESIS-PAGES` signal (in development) that periodically scans the routing audit and recent log entries for thematic clusters. The signal does not write the synthesis page; it surfaces the candidate to Karen's queue at `data/evidence/synthesis-proposals.md`.
+
+Third, ad-hoc curator decisions. Karen or any session reading the corpus may identify a promotion candidate at any time. The threshold is the four criteria above, not the surfacing mechanism.
+
+A promoted candidate becomes a synthesis page through one of two paths. The fast path is a Claude session writing the page directly using the anchor sources, the routing audit, and CLAUDE.md Part 15 prose conventions. The slower path is a dedicated subprocess dispatch (`SYNTHESIZE-<topic-slug>`) which the orchestrator can run autonomously with the anchor sources as input.
+
+Either path produces the page at `wiki/synthesis/<topic-slug>.md` with the synthesis-page frontmatter and an entry in the index above. The original [Gaps and load-bearing questions surfaced during ingest](#gaps-and-load-bearing-questions-surfaced-during-ingest) section below preserves the older gap-tracking pattern; gaps that mature into synthesis-page-worthy findings should migrate to dedicated subpages over time. The page is provisional until at least two corroborating studies enter the corpus after the initial promotion, at which point it should be re-synthesized.
+
+## The cadmium synthesis (in flight)
 
 The first substantive synthesis entry will cover cadmium in food, integrating the regulatory tox documents currently in ingest (EFSA 2009, JECFA 2010, EPA IRIS, ATSDR, OEHHA Prop 65, Codex CCCF17) with the textbook chapters that provide the canonical toxicological frame (Handbook on the Toxicology of Metals chapter 32 by Nordberg, Nogawa, and Nordberg 2015, Casarett & Doull's Essentials chapter 23 by Ufelle and Barchowsky 2021, and Patty's Toxicology chapter 7 by Jakubowski 2012). The full cadmium synthesis will be posted after the regulatory-tox ingests complete and the textbook chapters are integrated. Readers should treat any claim here as provisional and trace it upward to the source page before citing.
 
