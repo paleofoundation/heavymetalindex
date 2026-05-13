@@ -35,10 +35,22 @@ _Pending soy-specific occurrence extraction. Current Category 1 evidence is file
 
 [[sources/milani2023-trace-elements-soy-based-beverages]] reports finished soy-based beverage values. These values belong on [[products/plant-milks-soy-based]], not in this ingredient profile, unless a later ingest separates soy ingredient values from beverage matrix values.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/burrell2010-aluminium-in-infant-formulas]] — soy-based infant formula powder aluminum value and discussion of soybean accumulation as a possible driver.
-- [[sources/chuchu2013-aluminium-in-infant-formulas]] — two soy-based infant formula powder aluminum values and aluminum-based packaging discussion.
-- [[sources/kazi2009-toxic-elements-in-infant-formulae]] — Pakistan-market soy-based infant formula Al, Cd, and Pb comparison against milk-based formula.
-- [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] — Canada-market soy-based formula Al, Cd, and Pb rows by formula format.
-- [[sources/milani2023-trace-elements-soy-based-beverages]] — finished soy-based beverage occurrence evidence routed to the soy plant-milk product page.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|Collado-Lopez et al. 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Nutrition Reviews | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/cantoral2024-lead-levels-mexican-foods\|Cantoral et al. 2024]]. *Lead Levels in the Most Consumed Mexican Foods: First Monitoring Effort*, Toxics | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/milani2023-trace-elements-soy-based-beverages\|Milani et al. 2023]]. *Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|Paiva et al. 2020]]. *Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment*, Journal of Food Composition and Analysis 90:103493 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/chuchu2013-aluminium-in-infant-formulas\|Chuchu et al. 2013]]. *The aluminium content of infant formulas remains too high*, BMC Pediatrics | 2013 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/kazi2009-toxic-elements-in-infant-formulae\|Kazi et al. 2009]]. *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*, Food and Chemical Toxicology | 2009 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

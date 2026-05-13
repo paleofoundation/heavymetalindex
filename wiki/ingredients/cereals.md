@@ -99,13 +99,20 @@ This node is the umbrella for grain-based regulatory documents. Per-grain detail
 
 All ten contamination_profile sub-blocks are `pending`. This umbrella page carries no per-commodity values; concentrations and exposure data live on the individual grain pages and on the regulatory pages referenced below.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/altunay2023-cadmium-food-turkey]] — Cd in cereal foods, Turkey
-- [[sources/codex-cccf17-2024]] — Codex Committee on Contaminants in Foods, 17th session
-- [[sources/codex-cxs-193-1995]] — Codex General Standard for Contaminants and Toxins in Food
-- [[sources/efsa-cadmium-contam-2009]] — EFSA Scientific Opinion on Cd in food
-- [[sources/efsa-lead-contam-2010]] — EFSA Scientific Opinion on Pb in food
-- [[sources/efsa-nickel-contam-2020]] — EFSA Scientific Opinion on Ni in food and drinking water
-- [[sources/jecfa-73rd-cadmium-2010]] — JECFA 73rd meeting on Cd
-- [[sources/nordberg2015-cadmium-chapter]] — Nordberg et al. (2015) cadmium chapter
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/codex-cccf17-2024\|Codex 2024]]. *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*, Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission | 2024 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/altunay2023-cadmium-food-turkey\|Altunay et al. 2023]]. *Ultra-Sensitive Determination of Cadmium in Food and Water by Flame-AAS after a New Polyvinyl Benzyl Xanthate as an Adsorbent Based Vortex Assisted Dispersive Solid-Phase Microextraction: Multivariate Optimization*, Foods 2023, 12, 3620 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/efsa-nickel-contam-2020\|EFSA 2020]]. *Update of the Risk Assessment of Nickel in Food and Drinking Water*, EFSA Journal 2020;18(11):6268 | 2020 | Government report | *[awaiting synthesis]* |
+| 4 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | *[awaiting synthesis]* |
+| 5 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | *[awaiting synthesis]* |
+| 6 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | *[awaiting synthesis]* |
+| 7 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | *[awaiting synthesis]* |
+| 8 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

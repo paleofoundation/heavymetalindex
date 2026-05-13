@@ -41,3 +41,13 @@ This is not an infant/child food product page. It exists because the source's ac
 - [[metals/nickel]]
 - [[regulations/eu-nickel-directive-94-27-ec]]
 - [[testing/en-1811-nickel-release]]
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/lgc2003-nickel-piercing-post-assemblies\|LGC 2003]]. *Risk of sensitisation of humans to nickel by piercing post assemblies*, Final Report submitted under EC Contract ETD/FIF.2001592 | 2003 | Government report | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->

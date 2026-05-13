@@ -137,8 +137,14 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
-- [[sources/fda2022-tds-elements-fy2018-fy2020]]
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | *[awaiting synthesis]* |
+| 2 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

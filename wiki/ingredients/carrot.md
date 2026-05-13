@@ -114,6 +114,15 @@ This node is linked from [[products/root-vegetable-purees]].
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|El-Batal et al. 2023]]. *Effect of selenium nanoparticles on heavy metal accumulation in carrot (Daucus carota) irrigated with wastewater*, Biologia | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|Rusin et al. 2021]]. *Cadmium and lead contents in fresh and processed fruit and vegetable products and the resulting dietary risk assessment*, Scientific Reports | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/tonska2020-carrots-lead-cadmium-organic\|Tonska et al. 2020]]. *Lead and cadmium content in organic and conventional carrots and their dietary risk assessment*, Proceedings of the Nutrition Society | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

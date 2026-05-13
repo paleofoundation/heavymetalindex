@@ -101,12 +101,19 @@ Direct evidence for shellfish-as-category lands here. Bivalve-specific evidence 
 
 All ten contamination_profile sub-blocks are `pending`. Cd, tAs, and the iAs/tAs ratio are the priority synthesis targets given seven contributing source pages already in scope. Speciation discipline (per Part 14) is load-bearing: never substitute tAs for iAs in shellfish prose or values.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/efsa-cadmium-contam-2009]] — EFSA Scientific Opinion on Cd in food
-- [[sources/fda-epa-fish-consumption-advice]] — FDA-EPA fish (and shellfish) consumption advice
-- [[sources/jecfa-73rd-cadmium-2010]] — JECFA 73rd meeting on Cd
-- [[sources/li2025-ratiometric-fluorescent-sensor-al-cu-food]] — Al and Cu sensor validated on food matrices including shellfish
-- [[sources/nordberg2015-cadmium-chapter]] — Nordberg et al. (2015) cadmium chapter
-- [[sources/taylor2025-seafood-benefits-contaminants]] — Seafood benefits vs contaminants tradeoff review
-- [[sources/xia2025-whole-cell-biosensor-hg-food]] — Whole-cell Hg biosensor validated in shellfish matrices
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/li2025-ratiometric-fluorescent-sensor-al-cu-food\|Li et al. 2025]]. *A ratiometric fluorescent sensor for Al3+ and Cu2+ detection in food samples*, Frontiers in Nutrition | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/taylor2025-seafood-benefits-contaminants\|Taylor et al. 2025]]. *Seafood Benefits and Contaminants: A Comprehensive Review of Health Impacts, Safety Concerns, and Risk Mitigation Strategies*, Foods | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/xia2025-whole-cell-biosensor-hg-food\|Xia et al. 2025]]. *Replacing Manual Operation with Bio-Automation II: Construction of a Biological Digestion Gene Circuit to Eliminate the Interference of Food Matrices in the Rapid Detection of Heavy Metals*, Foods | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | *[awaiting synthesis]* |
+| 5 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | *[awaiting synthesis]* |
+| 6 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | *[awaiting synthesis]* |
+| 7 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

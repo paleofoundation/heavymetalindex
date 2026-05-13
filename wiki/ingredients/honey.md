@@ -141,6 +141,16 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 
 <!-- END: hmi-fda-tds-occurrence -->
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fda2022-tds-elements-fy2018-fy2020]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/abeslami2025-moroccan-honey-minerals\|Abeslami et al. 2025]]. *Mineral Profile and Heavy Metal Content of Seven Monofloral and Multifloral Honeys from Eastern Morocco*, Molecules | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/naccari2025-honey-toxic-metals-microelements\|Naccari et al. 2025]]. *Study of Toxic Metals and Microelements in Honey as a Tool to Support Beekeeping Production and Consumer Safety*, Foods 2025, 14, 1986 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/zhang2024-mip-pb-honey-cyprus\|Zhang 2024]]. *Molecularly imprinted polymer electrochemical sensor for lead detection in honey*, unknown | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

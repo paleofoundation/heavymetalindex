@@ -75,7 +75,7 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd>296</dd>
+      <dd>311</dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
@@ -88,7 +88,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd>359</dd>
+      <dd>374</dd>
       <small>Peer-reviewed primary studies and government reports per CLAUDE.md Part 13.</small>
     </div>
     <div>
@@ -102,7 +102,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Ingredient profiles</dt>
-      <dd>184</dd>
+      <dd>189</dd>
     </div>
     <div>
       <dt>Product categories</dt>

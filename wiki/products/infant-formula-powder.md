@@ -74,3 +74,18 @@ These sources can inform retrieval priorities and source-scope context, but they
 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Italy baby-food survey with infant-formula powder context. | Formula subgroup is broad and should not be pooled into a child row without subtype review. |
 | [[sources/pandelova2012-eu-baby-food-formula-elements]] | EU baby-food and formula element context. | The source spans formula and solid baby-food categories; soy/hypoallergenic/non-soy pooling is not permitted. |
 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Transition-diet arsenic exposure context. | Biomarker and food-diary associations are not formula-powder occurrence rows. |
+
+<!-- BEGIN: hmi-source-legend -->
+## Sources
+
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/meli2024-chemical-characterization-baby-food-italy\|Meli et al. 2024]]. *Chemical characterization of baby food consumed in Italy*, PLOS ONE | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|Astolfi et al. 2021]]. *Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | *[awaiting synthesis]* |
+| 5 | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals\|Lutfullah et al. 2014]]. *Comparative study of heavy metals in dried and fluid milk in Peshawar by atomic absorption spectrophotometry*, The Scientific World Journal | 2014 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/pandelova2012-eu-baby-food-formula-elements\|Pandelova et al. 2012]]. *Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market: Comparison of assessed infant intakes with the present safety limits for minerals and trace elements*, Journal of Food Composition and Analysis | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->

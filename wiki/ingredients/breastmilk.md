@@ -101,11 +101,18 @@ Comparisons with formula route through the infant-formula product pages. Mechani
 
 All ten contamination_profile sub-blocks are `pending`. Population-typical concentrations from breastmilk vary by region and exposure regime more than for any food matrix; values will populate as the contributing source pages are synthesized per Part 9.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/atsdr-aluminum-toxprofile-2008]] — ATSDR Aluminum Toxicological Profile
-- [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants]] — Carignan et al. (2015) breastfed vs formula-fed iAs
-- [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort]] — Carignan et al. (2016) first-year cohort
-- [[sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk]] — Pikounis urinary biomarkers comparison
-- [[sources/soto-ocana2024-metal-availability-early-life-microbiome]] — Soto-Ocaña (2024) metal availability + early-life microbiome
-- [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review]] — Thoerig (2025) systematic review of toxic elements and PFAS in human milk vs formula
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|Thoerig et al. 2025]]. *Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review*, American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk\|Pikounis et al. 2024]]. *Urinary biomarkers of exposure to toxic and essential elements: A comparison of infants fed with human milk or formula*, Environmental Epidemiology | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/soto-ocana2024-metal-availability-early-life-microbiome\|Ocaña et al. 2024]]. *Metal availability shapes early life microbial ecology and community succession*, mBio 15(7):e00854-24 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|Carignan et al. 2016]]. *Contribution of breast milk and formula to arsenic exposure during the first year of life in a U.S. prospective cohort*, Journal of Exposure Science and Environmental Epidemiology, Vol. 26, No. 5, pp. 452-457 | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

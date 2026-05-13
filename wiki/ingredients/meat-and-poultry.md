@@ -31,6 +31,14 @@ _Stub page. Chekri et al. 2019 reports meat/fish-based ready-to-eat infant meals
 
 _Pending meat- and poultry-specific occurrence extraction._
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] — French infant/toddler TDS meat/fish-based ready-to-eat-meal category row.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|Collado-Lopez et al. 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Nutrition Reviews | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

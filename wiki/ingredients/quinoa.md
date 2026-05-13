@@ -99,11 +99,18 @@ Direct evidence for quinoa lands here. Andean-wide multi-crop surveys also touch
 
 All ten contamination_profile sub-blocks are `pending`. Cd will be the first synthesis target given six contributing source pages already in scope; geographic variance (Peru vs Bolivia vs Ecuador, valley vs altiplano, mining-proximate vs non-proximate) is the principal organizing axis for that synthesis.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/bedoya-perales2023-moquegua-peru-mining-dataset]] — Multi-element dataset, Moquegua mining region, Peru
-- [[sources/ccopi2026-heavy-metals-andean-crops-peru]] — Heavy metals in Andean crops including quinoa
-- [[sources/cr-fsasc2014-arsenic-rice-grains]] — As in rice and grains comparison (includes quinoa scope)
-- [[sources/gul2024-quinoa-cadmium-lead-stress]] — Quinoa under Cd and Pb stress (mechanistic + ionomic)
-- [[sources/roman-ochoa2021-arequipa-grains-health-risk]] — Arequipa grain health-risk assessment
-- [[sources/rosales-huamani2023-quinoa-peru-ptes]] — PTEs in Peruvian quinoa (Huacaybamba-Huánuco)
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|Ccopi et al. 2026]]. *Bioaccumulation of heavy metals in high Andean crops of the Peruvian Andes: comparative evaluation between irrigated and dry systems*, Journal of Agriculture and Food Research | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/gul2024-quinoa-cadmium-lead-stress\|Gül et al. 2024]]. *Effects of cadmium and lead stress on quinoa (Chenopodium quinoa Willd.) plant growth and antioxidant enzyme activities*, Turkish Journal of Nature and Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/bedoya-perales2023-moquegua-peru-mining-dataset\|Bedoya-Perales et al. 2023]]. *Dataset of metals and metalloids in food crops and soils sampled across the mining region of Moquegua in Peru*, Scientific Data | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/rosales-huamani2023-quinoa-peru-ptes\|Rosales-Huamani et al. 2023]]. *Determination of Potentially Toxic Elements in Quinoa Crops Located in the Huacaybamba-Huanuco-Peru Area*, International Journal of Membrane Science and Technology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

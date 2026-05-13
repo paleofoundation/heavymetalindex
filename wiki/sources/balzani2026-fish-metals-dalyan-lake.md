@@ -8,6 +8,7 @@ year: 2026
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Metals%20and%20Metalloids%20Accumulation%20and%20Biomagnification%20in%20Three%20Commercially%20Important%20Fishes%20from%20a%20Turkish%20Brackish%20Lake
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
