@@ -136,6 +136,27 @@ if (strictMalformed.length > 0) {
   })
 }
 
+// ---------- Signal 3b: source pages with no_doi_assigned scholar-fallback ----------
+const doiFallbackPages = findDoiFallbackPages()
+if (doiFallbackPages.length > 0) {
+  const id = "FIX-MISSING-DOIS"
+  const promptPath = path.join(promptsDir, `${id}.md`)
+  writePrompt(promptPath, buildFixMissingDoisPrompt(doiFallbackPages))
+  actions.push({
+    id,
+    strategy: "schema",
+    title: `Recover real DOIs for ${doiFallbackPages.length} source pages currently marked no_doi_assigned with Scholar fallback`,
+    impact_score: doiFallbackPages.length * 2,
+    cost: doiFallbackPages.length > 50 ? "medium" : "cheap",
+    confidence: 0.85,
+    closes_count: doiFallbackPages.length,
+    closes_what: "provenance debt from 2026-05-13 publish run (wiki/lint/2026-05-13-doi-fallback-followup.md); restores real DOI + publisher access URLs in place of Scholar search fallbacks",
+    best_dispatched_to: "Claude Code Opus (small structured edits, occasional DOI lookup)",
+    prompt_path: path.relative(repoRoot, promptPath),
+    details: `Each page has its raw_path pointing to the Marker-converted markdown. DOI is usually on page 1 of the paper; if not, query Crossref / OpenAlex / Semantic Scholar by title+author+year. Replace doi: null + no_doi_assigned: true + Scholar URL with the real DOI + matching publisher access_url. If no DOI exists after exhaustive search, keep no_doi_assigned: true but replace the Scholar URL with a venue/publisher URL.`,
+  })
+}
+
 // ---------- Signal 4: HMTc standards gap report (per-cell readiness) ----------
 const gapReport = readCsv(path.join(dataDir, "hmtc_standards_gap_report.csv"))
 const blockedCells = gapReport.filter((r) =>
@@ -299,6 +320,33 @@ function countPendingIngredientCells() {
   return { total, cellsReady }
 }
 
+function findDoiFallbackPages() {
+  const sourcesDir = path.join(repoRoot, "wiki/sources")
+  if (!fs.existsSync(sourcesDir)) return []
+  const out = []
+  for (const file of fs.readdirSync(sourcesDir)) {
+    if (!file.endsWith(".md")) continue
+    const fullPath = path.join(sourcesDir, file)
+    const raw = fs.readFileSync(fullPath, "utf8")
+    const m = raw.match(/^---\n([\s\S]*?)\n---/)
+    if (!m) continue
+    const fm = m[1]
+    // Fingerprint for the 2026-05-13 publish-run fallback:
+    // no_doi_assigned: true + access_url pointing at Google Scholar search.
+    if (!/^no_doi_assigned:\s*true/m.test(fm)) continue
+    if (!/^access_url:\s*https:\/\/scholar\.google\.com\/scholar/m.test(fm)) continue
+    const titleMatch = fm.match(/^title:\s*"([^"]+)"/m) || fm.match(/^title:\s*(.+)$/m)
+    const rawPathMatch = fm.match(/^raw_path:\s*(.+)$/m)
+    out.push({
+      file,
+      path: fullPath,
+      title: titleMatch ? titleMatch[1].trim() : null,
+      raw_path: rawPathMatch ? rawPathMatch[1].trim() : null,
+    })
+  }
+  return out
+}
+
 function countOpenWishlistItems() {
   const wishlistPath = path.join(stagingDir, "wishlist.md")
   if (!fs.existsSync(wishlistPath)) return 0
@@ -346,6 +394,58 @@ ${files.slice(0, 50).map((f, i) => `${i + 1}. ${path.relative(repoRoot, f)}`).jo
 - CLAUDE.md Part 6 (source-page template), Part 8 (ingest workflows)
 - OPERATING.md Part 3 (act without asking for routine ingest decisions)
 - Per Karen's standing rule: do not introduce approval gates for decisions you can make on your own.
+`
+}
+
+function buildFixMissingDoisPrompt(pages) {
+  const sample = pages.slice(0, 5).map((p) => `  - ${p.file}: ${p.title || "(no title)"}`).join("\n")
+  return `# Session prompt: recover real DOIs for source pages
+
+${pages.length} source pages are currently marked \`no_doi_assigned: true\` with a Google Scholar search URL as their \`access_url\`. This fingerprint was applied by the 2026-05-13 morning publish run to unblock the DOI audit; the lint file at \`wiki/lint/2026-05-13-doi-fallback-followup.md\` documents the debt.
+
+Most of these pages likely have real DOIs that Crossref title-matching missed (titles paraphrased, recent papers not indexed, or punctuation/casing differences). The remediation is straightforward but tedious; you have full authority to act without asking.
+
+## Per-page workflow
+
+For each page in scope:
+
+1. Read the source page's \`raw_path\` (the Marker-converted markdown of the original paper).
+2. Search the first 200 lines of that markdown for a DOI (case-insensitive \`10\\.\\d{4,9}/[^\\s"<>]+\`).
+3. If found:
+   - Replace \`doi: null\` with \`doi: <recovered>\`.
+   - Remove the \`no_doi_assigned: true\` line.
+   - Replace the Scholar fallback \`access_url\` with \`access_url: https://doi.org/<recovered>\`.
+4. If not found in the raw markdown:
+   - Query Crossref by title+author+year (use api.crossref.org).
+   - Fall back to OpenAlex (api.openalex.org) if Crossref returns no high-confidence match.
+   - Fall back to Semantic Scholar (api.semanticscholar.org).
+   - Apply any high-confidence match (>= 0.7 title similarity) using the same patch shape as step 3.
+5. If exhausted with no DOI:
+   - Keep \`no_doi_assigned: true\` but replace the Scholar URL with the actual publisher/venue URL (PubMed, the journal's article page, the publisher's catalog page).
+   - This is a real "no DOI assigned" claim, not a fallback — verify by reading the venue's own pages that they do not register DOIs.
+
+## What NOT to do
+
+- Do not add the publication/journal name to a page if it was missing — that requires a separate fact-check pass and is not the job here.
+- Do not invent DOIs. If you can't find one with high confidence, leave \`no_doi_assigned: true\` and improve the access_url.
+- Do not edit pages outside the scope of this batch.
+
+## At the end
+
+Append a single line to \`wiki/log.md\` summarizing: how many pages got real DOIs recovered, how many got an improved venue URL, how many stayed unchanged because no DOI exists, and how many failed.
+
+## Files in scope (${pages.length})
+
+${sample}${pages.length > 5 ? `\n... and ${pages.length - 5} more (see data/evidence/build-action-prompts/FIX-MISSING-DOIS.md tail for full list)` : ""}
+
+${pages.length > 5 ? `\n## Full list\n\n${pages.map((p, i) => `${i + 1}. \`${p.file}\`${p.raw_path ? ` (raw: ${p.raw_path})` : ""}`).join("\n")}` : ""}
+
+## Reference
+
+- CLAUDE.md Part 6 (frontmatter requirements), Part 13 (evidence tiers)
+- tools/audit-source-dois.mjs (the audit that's gating the build)
+- wiki/lint/2026-05-13-doi-fallback-followup.md (the lint that surfaced this)
+- OPERATING.md Part 3 (act without asking on routine schema/provenance fixes)
 `
 }
 

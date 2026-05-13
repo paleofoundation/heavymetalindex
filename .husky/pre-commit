@@ -24,4 +24,31 @@ if git diff --cached --name-only | grep -q '^wiki/sources/'; then
       git add "$f"
     fi
   done
+
+  # DOI completeness check. Catches the 2026-05-12 night-ingest failure mode
+  # at commit time instead of at the next build's prebuild audit. A source
+  # page passes if doi has a non-null value, OR no_doi_assigned: true is set
+  # (declared no-DOI venue), OR source_type is textbook-chapter.
+  doi_bad=0
+  for f in $(git diff --cached --name-only --diff-filter=AM | grep '^wiki/sources/.*\.md$'); do
+    head -40 "$f" > /tmp/.husky-fm.$$
+    doi_line=$(grep -E '^doi:' /tmp/.husky-fm.$$ | head -1 | sed -E 's/^doi:[[:space:]]*//;s/^"//;s/"$//')
+    no_doi_assigned=$(grep -cE '^no_doi_assigned:[[:space:]]*true' /tmp/.husky-fm.$$)
+    src_type=$(grep -E '^source_type:' /tmp/.husky-fm.$$ | head -1 | sed -E 's/^source_type:[[:space:]]*//;s/^"//;s/"$//')
+    is_missing=0
+    case "$doi_line" in
+      ""|null|unknown) is_missing=1 ;;
+    esac
+    if [ "$is_missing" = "1" ] && [ "$no_doi_assigned" = "0" ] && [ "$src_type" != "textbook-chapter" ]; then
+      echo "pre-commit: $f has doi: '$doi_line' and no no_doi_assigned: true marker."
+      doi_bad=$((doi_bad + 1))
+    fi
+    rm -f /tmp/.husky-fm.$$
+  done
+  if [ "$doi_bad" -gt 0 ]; then
+    echo "pre-commit: $doi_bad staged source page(s) have missing DOI metadata."
+    echo "Either fill in doi (preferred) or add no_doi_assigned: true with a real publisher access_url."
+    echo "See wiki/lint/2026-05-13-doi-fallback-followup.md for context."
+    exit 1
+  fi
 fi
