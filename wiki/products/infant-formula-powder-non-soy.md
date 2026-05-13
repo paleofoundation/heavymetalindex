@@ -53,6 +53,8 @@ sources: 16
 
 This page is the public evidence page for powdered non-soy infant formula. It is organized around source-backed product concentration evidence, with exposure estimates and broad formula studies separated so they do not get mistaken for direct ppb product measurements.
 
+## Who this page is for
+
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
   <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading the page with a specific question in mind.</p>
@@ -328,6 +330,30 @@ Potential variance drivers for non-soy powdered formula should be documented onl
 <!-- audience: app, consumer -->
 
 The app model placeholder for this row should treat [[ingredients/infant-formula-powder]] and [[ingredients/non-soy-infant-formula]] as unresolved ingredient targets until source-backed contamination profiles exist. <!-- UNCITED: Need source-backed ingredient mapping and concentration distributions before app risk inference is populated. -->
+
+## Levers to reduce contamination
+
+Infant formula is a manufactured product whose heavy-metal burden is determined by its ingredient inputs (dairy or soy protein base, vitamin and mineral premix, processing water, and processing equipment contact surfaces) rather than by whole-food agricultural contamination alone. The contamination profile of the finished product reflects the aggregate of all these inputs. Levers are ordered by approximate impact magnitude based on what the cited literature supports.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Specify low-metal mineral premix and protein ingredient inputs. Vitamin-mineral premixes are a documented pathway for aluminum and other trace metal contamination in formula; premix supplier specification and batch testing are the primary control. | Premix origin and specification can drive substantial variation in Al and other metal concentrations; quantified magnitude data not yet ingested from cited sources for this specific lever at the formula level. | — |
+| 2 | Sourcing | Specify dairy protein (cow milk protein or whey) from suppliers with documented low Cd, Al, and Pb in raw ingredient testing. Non-soy formulas consistently show lower Al and Ni relative to soy-based formulas (documented in multiple cited sources). | The cited evidence documents soy vs non-soy systematic differences for Al, Ni, and Cd; quantified lever magnitude at the ingredient-specification level not yet ingested from cited sources. | — |
+| 3 | Processing | Specify process water quality: water used for reconstitution of formula concentrate and for processing carries its own metal burden, particularly Pb from older plumbing and Al from water treatment. Processing water testing and specification is a well-established lever. | _Quantified magnitude data not yet ingested from cited sources for water-source contribution to finished formula metal burden._ | — |
+| 4 | Processing | Equipment contact surface audit: stainless steel alloys and aluminium processing equipment can contribute Al to the product stream under certain cleaning conditions. Processing equipment audit is a GMP control. | _Quantified magnitude data not yet ingested from cited sources for equipment-contact contribution._ | — |
+| 5 | Formulation | Non-soy formula is already on the lower-Al, lower-Ni side of the formula matrix. Continued supplier specification of dairy protein and premix inputs is the primary formulation lever to maintain this profile. | _Quantified magnitude data not yet ingested for formulation-lever magnitude on the non-soy Al and Ni pathways specifically._ | — |
+| 6 | Testing and QC | Lot-level ICP-MS on incoming protein ingredients, mineral premix, and finished product. The cited FDA 2026 survey documents that the prepared-for-feeding approach (230 cow-milk powder samples) is achievable and supports the regulatory basis for lot-level testing. | Lot-level testing detects outlier batches before distribution; no quantified detection-power data yet ingested from cited sources for sample-size optimization. | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| 7 | Packaging and storage | Not a primary lever for sealed powdered formula under normal storage conditions. Sn migration from non-lacquered cans is a concern for RTF and concentrated liquid formulas but not for powdered formula. Specify lacquered or non-metallic can lining for liquid format siblings. | Sn migration is format-specific (liquid > powder); quantified magnitude data not yet ingested from cited sources for formula-specific Sn migration rates. | — |
+
+Agronomic levers: not applicable to this product category as a direct lever. Agronomic interventions on dairy herds live upstream on the relevant ingredient pages.
+
+Cross-links: [[ingredients/infant-formula-powder]] if it exists; relevant mitigation pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
 
 ## Historical Recalls/Enforcement
 

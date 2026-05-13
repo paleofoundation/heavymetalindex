@@ -17,6 +17,8 @@ updated: 2026-05-08
 
 _Stub page. This base product node exists for sources that report powdered infant formula without separating non-soy from soy-based formulas. The HMTc Category 1 row pages remain [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]]._
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -45,6 +47,58 @@ _Stub page. This base product node exists for sources that report powdered infan
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in powdered infant formula (base node, covering sources that do not separate non-soy from soy-based formula). The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Methylmercury (MeHg) and total mercury (tHg) are reported separately for the same reason. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations in formula can be reported on at least three bases: powder as placed on the market, powder prepared for feeding (reconstituted with water at the manufacturer-specified dilution), or formula as consumed by an infant. Values on different bases are not directly comparable. Each table below labels the source basis explicitly. Where a basis conversion is provided, the conversion factor and assumptions are stated alongside the converted value, and the converted value is marked as indicative.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources on this base node are those whose author-stated scope does not resolve soy vs non-soy matrix or uses a broad powdered-formula umbrella. Sources that resolve the matrix belong on the appropriate child page.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection, clean/dirty subcategory designation, and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
+<!-- BEGIN: hmi-hmtc-evidence-summary -->
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+_Generator-managed section: will be populated when source data is extracted and reviewed for this product row._
+
+<!-- END: hmi-hmtc-evidence-summary -->
+
+## Source Evidence Inventory
+
+_Source evidence inventory pending structured extraction. Distribution context and occurrence evidence appear in the broad formula context section below._
+
+<!-- BEGIN: hmi-broad-context-sources -->
+## Broad Product Context: Author-Scope Index
+
+<!-- audience: regulator, educator, app -->
+
+_Generator-managed section: will be populated when the routing audit identifies sources with broader author-stated scope._
+
+<!-- END: hmi-broad-context-sources -->
+
+<!-- BEGIN: hmi-product-crosswalk -->
+## Federal / Regulatory Limits vs Field Findings
+
+<!-- audience: regulator, educator, consumer, app -->
+
+_Generator-managed section: will be populated when structured occurrence rows are extracted and reviewed._
+
+<!-- END: hmi-product-crosswalk -->
+
 ## Current Source Links
 
 - [[sources/astolfi2021-italy-powdered-infant-formula-elements]] — Italian powdered infant formula survey; 11 formulas, 22 packs, 40 elements by ICP-MS.
@@ -74,6 +128,36 @@ These sources can inform retrieval priorities and source-scope context, but they
 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Italy baby-food survey with infant-formula powder context. | Formula subgroup is broad and should not be pooled into a child row without subtype review. |
 | [[sources/pandelova2012-eu-baby-food-formula-elements]] | EU baby-food and formula element context. | The source spans formula and solid baby-food categories; soy/hypoallergenic/non-soy pooling is not permitted. |
 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Transition-diet arsenic exposure context. | Biomarker and food-diary associations are not formula-powder occurrence rows. |
+
+## Levers to reduce contamination
+
+Infant formula is a manufactured product whose heavy-metal burden is determined by its ingredient inputs (dairy or soy protein base, vitamin and mineral premix, processing water, and processing equipment contact surfaces) rather than by whole-food agricultural contamination alone. The contamination profile of the finished product reflects the aggregate of all these inputs. Levers are ordered by approximate impact magnitude based on what the cited literature supports.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Specify low-metal mineral premix and protein ingredient inputs. Vitamin-mineral premixes are a documented pathway for aluminum and other trace metal contamination in formula; premix supplier specification and batch testing are the primary control. | Premix origin and specification can drive substantial variation in Al and other metal concentrations; quantified magnitude data not yet ingested from cited sources for this specific lever at the formula level. | — |
+| 2 | Sourcing | Specify dairy protein (cow milk protein or whey) or soy protein concentrate from suppliers with documented low Cd, Al, and Pb in raw ingredient testing. Soy-based formulas consistently show higher Al and Ni relative to milk-based formulas (documented in cited sources). | The cited evidence documents soy vs non-soy systematic differences for Al, Ni, and Cd; quantified lever magnitude at the ingredient-specification level not yet ingested from cited sources. | — |
+| 3 | Processing | Specify process water quality: water used for reconstitution of formula concentrate and for processing carries its own metal burden, particularly Pb from older plumbing and Al from water treatment. Processing water testing and specification is a well-established lever. | _Quantified magnitude data not yet ingested from cited sources for water-source contribution to finished formula metal burden._ | — |
+| 4 | Processing | Equipment contact surface audit: stainless steel alloys and aluminium processing equipment can contribute Al to the product stream under certain cleaning conditions. Processing equipment audit is a GMP control. | _Quantified magnitude data not yet ingested from cited sources for equipment-contact contribution._ | — |
+| 5 | Formulation | For soy-based formulas: review soy protein concentrate ingredient specification and consider lower-Al soy protein sources where the cited evidence shows systematic soy > non-soy Al elevation. | _Quantified magnitude data not yet ingested for formulation-lever magnitude on the soy Al pathway specifically._ | — |
+| 6 | Testing and QC | Lot-level ICP-MS on incoming protein ingredients, mineral premix, and finished product. The Italian powdered formula survey ([[sources/astolfi2021-italy-powdered-infant-formula-elements]]) documents multi-element occurrence across 22 product packs and illustrates the variation that lot testing is designed to catch. | Lot-level testing detects outlier batches before distribution; no quantified detection-power data yet ingested from cited sources for sample-size optimization. | [[sources/astolfi2021-italy-powdered-infant-formula-elements]] |
+| 7 | Packaging and storage | Not a primary lever for sealed powdered formula under normal storage conditions. Sn migration from non-lacquered cans is a concern for RTF and concentrated liquid formats but not for powdered formula. Specify lacquered or non-metallic can lining for liquid format siblings. | Sn migration is format-specific (liquid > powder); quantified magnitude data not yet ingested from cited sources for formula-specific Sn migration rates. | — |
+
+Agronomic levers: not applicable to this product category as a direct lever. Agronomic interventions on dairy herds or soy crops live upstream on the relevant ingredient pages.
+
+Cross-links: [[products/infant-formula-powder-non-soy]]; [[products/infant-formula-powder-soy-based]]; relevant mitigation pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
+
+## Historical recalls and enforcement
+
+<!-- audience: regulator, educator -->
+
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not brand rankings (CLAUDE.md Part 12)._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

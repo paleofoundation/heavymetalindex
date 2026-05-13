@@ -37,6 +37,8 @@ sources: 5
 
 This page is a structural scaffold for HMTc Category 1 row 4. One broad infant-formula source has been promoted; ready-to-feed-specific and Al/Ni-specific evidence is still pending.
 
+## Who this page is for
+
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
   <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading the page with a specific question in mind.</p>
@@ -63,6 +65,26 @@ This page is a structural scaffold for HMTc Category 1 row 4. One broad infant-f
     </div>
   </dl>
 </div>
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in soy-based ready-to-feed liquid infant formula. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Methylmercury (MeHg) and total mercury (tHg) are reported separately for the same reason. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations in formula can be reported on at least three bases: powder as placed on the market, powder prepared for feeding (reconstituted with water at the manufacturer-specified dilution), or formula as consumed by an infant. Values on different bases are not directly comparable. Each table below labels the source basis explicitly. Where a basis conversion is provided, the conversion factor and assumptions are stated alongside the converted value, and the converted value is marked as indicative.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row on two axes: matrix (cow milk-based vs soy-based vs hydrolyzed) and format (powder vs ready-to-feed vs concentrated liquid). Each axis is classified independently as exact, partial, or unknown.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection, clean/dirty subcategory designation, and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -130,7 +152,7 @@ Full crosswalk: [[products/lead-benchmark-context]].
 - Next ingest target: formula-specific [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]] data for soy-based ready-to-feed liquid infant formula.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -190,6 +212,30 @@ Potential variance drivers for soy-based ready-to-feed formula should be documen
 <!-- audience: app, consumer -->
 
 The app model placeholder for this row should treat [[ingredients/infant-formula-rtf-liquid]], [[ingredients/soy-based-infant-formula]], and [[ingredients/soy-protein-isolate]] as unresolved ingredient targets until source-backed contamination profiles exist. <!-- UNCITED: Need source-backed ingredient mapping and concentration distributions before app risk inference is populated. -->
+
+## Levers to reduce contamination
+
+Infant formula is a manufactured product whose heavy-metal burden is determined by its ingredient inputs (dairy or soy protein base, vitamin and mineral premix, processing water, and processing equipment contact surfaces) rather than by whole-food agricultural contamination alone. The contamination profile of the finished product reflects the aggregate of all these inputs. Levers are ordered by approximate impact magnitude based on what the cited literature supports.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Specify low-metal mineral premix and protein ingredient inputs. Vitamin-mineral premixes are a documented pathway for aluminum and other trace metal contamination in formula; premix supplier specification and batch testing are the primary control. | Premix origin and specification can drive substantial variation in Al and other metal concentrations; quantified magnitude data not yet ingested from cited sources for this specific lever at the formula level. | — |
+| 2 | Sourcing | Specify soy protein concentrate or isolate from suppliers with documented low Cd, Al, and Ni in raw ingredient testing. Soy-based formulas consistently show higher Al and Ni relative to milk-based formulas (documented in multiple cited sources). The Canadian RTF soy data shows mean Al of 730 ppb vs 437 ppb for non-soy RTF in Dabeka 2011. | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] |
+| 3 | Processing | Specify process water quality: water used for RTF liquid processing carries its own metal burden, particularly Pb from older plumbing and Al from water treatment. Processing water testing and specification is a well-established lever. | _Quantified magnitude data not yet ingested from cited sources for water-source contribution to finished formula metal burden._ | — |
+| 4 | Processing | Equipment contact surface audit: stainless steel alloys and aluminium processing equipment can contribute Al to the product stream under certain cleaning conditions. Processing equipment audit is a GMP control. | _Quantified magnitude data not yet ingested from cited sources for equipment-contact contribution._ | — |
+| 5 | Formulation | Review the soy protein concentrate ingredient specification and consider lower-Al soy protein sources where the cited evidence shows systematic soy > non-soy Al elevation. The Brazilian soy-based infant drink shows Al of 2,860 µg/kg in the cited Paiva 2020 source. | [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility]] |
+| 6 | Testing and QC | Lot-level ICP-MS on incoming soy protein, mineral premix, and finished RTF product. The cited FDA 2026 survey documents N=3 soy-based RTF samples; this very small subset underscores the need for ongoing lot testing to characterize the soy RTF distribution. | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] |
+| 7 | Packaging and storage | Sn migration from non-lacquered cans is a concern for RTF liquid formula. Specify lacquered or non-metallic can lining for this liquid format. Sn migration is more relevant to liquid than to powdered formula. | Sn migration is format-specific (liquid > powder); quantified magnitude data not yet ingested from cited sources for formula-specific Sn migration rates. | — |
+
+Agronomic levers: not applicable to this product category as a direct lever. Agronomic interventions on soy crops live upstream on the relevant ingredient pages (see [[ingredients/soy-protein-concentrate]] if that page exists).
+
+Cross-links: [[products/infant-formula-rtf-liquid-non-soy]]; [[products/infant-formula-powder-soy-based]] for the format-sibling evidence base; relevant mitigation pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
 
 ## Historical Recalls/Enforcement
 
