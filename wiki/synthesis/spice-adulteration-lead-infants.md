@@ -10,6 +10,7 @@ anchor_sources:
   - "[[sources/troeschel2024-cinnamon-applesauce-lead]]"
   - "[[sources/rylander2025-georgia-children-blood-lead]]"
   - "[[sources/fda-import-alert-99-42-spice-lead]]"
+  - "[[sources/gafner2026-turmeric-adulteration-six-continents]]"
 metals: [Pb, Cr]
 ingredients: ["[[ingredients/turmeric]]", "[[ingredients/cinnamon]]"]
 products: ["[[products/baby-food-purees]]", "[[products/infant-cereal]]"]
@@ -31,13 +32,23 @@ The same deliberate-adulteration mechanism operates in other spice supply chains
 
 ## The scale
 
-The geographic scope of turmeric adulteration is continental. Forsyth 2024 documented lead concentrations exceeding 1,000 µg/g (1,000 ppm) in turmeric from Patna (Bihar, India), Karachi (Pakistan), and Peshawar (Pakistan). In Bihar, modeled child blood lead level increases from turmeric consumption alone reached 345-790 µg/L, more than ten times the CDC Blood Lead Reference Value of 35 µg/L. In Karachi, the modeled increase was 173-396 µg/L.
+The most comprehensive prevalence estimate comes from a PRISMA-ScR scoping review synthesizing 48 publications and 2,235 commercial turmeric samples from 22 countries across six continents ([[sources/gafner2026-turmeric-adulteration-six-continents|Gafner 2026]]). The overall adulteration rate is 20.0% (448/2,235). One in five commercial turmeric products tested worldwide is adulterated by some mechanism, whether toxic colorants, undeclared bulking agents, species substitution, or synthetic curcumin. The rate is similar across market channels: 20.4% for turmeric sold as spice (n=1,767) and 22.0% for dietary supplements and herbal medicines (n=332).
+
+The geographic distribution is genuinely global. Asia has the highest adulteration rate at 22.2% (328/1,478), with India alone at 16.5% (165/1,002), Pakistan at 27.0% (63/233), and Sri Lanka at 68/79 samples adulterated. Europe, with 462 samples (primarily the European Commission JRC investigation of 316 samples from 22 countries), shows 14.5% adulteration. North America shows 14.9% (25/168). South America, Africa, and Oceania have too few samples (39, 15, and 16 respectively) to draw firm conclusions, though South American data suggest rates as high as 35.9%.
+
+The geographic pattern of adulteration types is itself a finding. Lead chromate and other toxic colorants concentrate in South Asian spice supply chains: metanil yellow was found in 15.8% of 947 Indian spice samples tested for it, and lead chromate adulteration is particularly frequent in Bihar, Assam, and the neighboring countries of Bangladesh, Pakistan, and Nepal. In Europe and North America, the dominant adulteration mechanism for turmeric supplements is synthetic curcumin sold as natural extract (17 of 82 tested supplement samples across five publications), which poses a fraud risk rather than an acute toxicity risk but indicates that supply chain integrity failures are not confined to any single region or mechanism.
+
+Forsyth 2024 documented the concentration magnitudes that make the lead chromate pathway uniquely dangerous. Lead concentrations exceeded 1,000 µg/g (1,000 ppm) in turmeric from Patna (Bihar, India), Karachi (Pakistan), and Peshawar (Pakistan), with a maximum of 2,935 µg/g in Karachi. In Bihar, modeled child blood lead level increases from turmeric consumption alone reached 345-790 µg/L, more than ten times the CDC Blood Lead Reference Value of 35 µg/L. In Karachi, the modeled increase was 173-396 µg/L ([[sources/forsyth2024-turmeric-lead-chromate-south-asia|Forsyth 2024]]).
 
 The Bangladesh supply chain investigation found PbCrO4-based pigment adulteration in seven of nine major turmeric-producing districts, with yellow pigment samples containing a median of 20,024 µg/g Pb and a maximum of 115,500 µg/g (11.55% Pb by weight). Soil around polishing mills contained up to 4,257 µg/g Pb, creating secondary environmental contamination ([[sources/forsyth2019-turmeric-lead-chromate-bangladesh|Forsyth 2019]]).
 
 Critically, the contamination reaches US consumers. A survey of 127 ground turmeric products from US retail outlets found mean Pb of 1,410 ppb (1.41 µg/g), median 1,120 ppb, and a maximum of 7,590 ppb (7.59 µg/g), despite FDA Import Alert 99-42 mandating detention of Pb-contaminated spice imports ([[sources/lech2020-turmeric-lead-united-states|Lech 2020]], [[sources/fda-import-alert-99-42-spice-lead|FDA IA 99-42]]). The 7,590 ppb maximum in a retail product is 76 times the FDA action level of 100 ppb.
 
 Independent epidemiological evidence from the Republic of Georgia confirms spice consumption as a Pb exposure vector beyond the South Asian supply chain context. Among 1,635 Georgian children aged 5-7 years, spice use was an independent predictor of elevated blood lead levels (OR approximately 1.47), with 39.8% of children having BLL at or above 3.5 µg/dL ([[sources/rylander2025-georgia-children-blood-lead|Rylander 2025]]).
+
+## Enforcement works: the Bangladesh case
+
+The most significant finding in the Gafner 2026 review for regulatory audiences is the Bangladesh enforcement success story. Following publication of the Forsyth 2019 supply chain investigation linking lead chromate adulteration to elevated blood lead levels in rural Bangladesh, the Bangladesh Food Safety Authority implemented a coordinated intervention: declared turmeric adulteration a prosecutable act, imposed fines on traders found treating turmeric with lead-containing dyes, deployed handheld XRF analyzers to field-test turmeric for lead and chromium at markets and mills, and conducted educational campaigns warning consumers, traders, and polishers about the health consequences of lead in food. The result was rapid and measurable: lead-contaminated turmeric samples dropped from 47% in 2019, to 5% in early 2020, to 2.3% in fall 2020, to 0% in early 2021 (Forsyth et al. 2023, cited in [[sources/gafner2026-turmeric-adulteration-six-continents|Gafner 2026]]). This is the strongest documented case in the wiki's corpus of a regulatory intervention producing near-complete elimination of a specific contamination mechanism within two years. The implication is that deliberate adulteration, unlike biogeochemical contamination, is tractable through enforcement if the political will and field-testing infrastructure exist.
 
 ## Why this is distinct from other contamination pathways
 
@@ -59,7 +70,13 @@ For educators, spice adulteration is the clearest case study in the corpus of a 
 
 ## Open questions
 
-Whether other spice supply chains (chili pepper, paprika, saffron) carry the same PbCrO4 adulteration risk is not yet documented in the corpus at the same evidence level as turmeric and cinnamon. Lead-based paints as a contamination vector for food contact surfaces (distinct from spice adulteration but sharing the non-agricultural, deliberate-introduction mechanism) is a parallel thread that the wiki has not yet surfaced with dedicated source coverage.
+Whether other spice supply chains (chili pepper, paprika, saffron) carry the same PbCrO4 adulteration risk is not yet documented in the corpus at the same evidence level as turmeric and cinnamon. The Gafner 2026 review notes that natural colorants including paprika and chili powders are themselves used as turmeric adulterants, which suggests overlapping supply chain vulnerabilities but does not document lead chromate adulteration in those spice supply chains independently.
+
+The supplement-channel finding from Gafner 2026 opens a distinct question: synthetic curcumin adulteration of turmeric dietary supplements appears to be the dominant adulteration mode in Europe and North America, with rates reaching 27.1% in supplements (vs 9.7% in spices) when analysis is restricted to validated methods. While synthetic curcumin does not carry the same acute toxicity risk as lead chromate, it represents a systematic market-integrity failure that the wiki's existing supplement contamination thread (the nascent dietary-supplement Pb candidate in synthesis-proposals.md) should track alongside the heavy-metal adulteration pathway.
+
+The Bangladesh enforcement success (47% to 0% in two years) raises the question of whether the same intervention model (field XRF, prosecutable-act declaration, fines, education) is replicable in Pakistan, India, and Sri Lanka, where adulteration rates remain high. No comparable enforcement data from those jurisdictions has entered the corpus.
+
+Lead-based paints as a contamination vector for food contact surfaces (distinct from spice adulteration but sharing the non-agricultural, deliberate-introduction mechanism) is a parallel thread that the wiki has not yet surfaced with dedicated source coverage.
 
 ## Sources
 
@@ -69,3 +86,4 @@ Whether other spice supply chains (chili pepper, paprika, saffron) carry the sam
 - [[sources/troeschel2024-cinnamon-applesauce-lead]]
 - [[sources/rylander2025-georgia-children-blood-lead]]
 - [[sources/fda-import-alert-99-42-spice-lead]]
+- [[sources/gafner2026-turmeric-adulteration-six-continents]]
