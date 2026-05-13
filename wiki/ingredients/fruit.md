@@ -2,7 +2,7 @@
 title: Fruit
 type: ingredient
 commodity: fruit
-aliases: [apple, pear, peach, banana, berries, fruit puree, compote]
+aliases: [apple, pear, peach, banana, berries, fruit puree, compote, dried-fruit, dried fruits]
 category: fruit
 contamination_profile:
   Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }

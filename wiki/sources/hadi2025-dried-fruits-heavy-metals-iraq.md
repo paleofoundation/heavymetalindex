@@ -13,7 +13,7 @@ evidence_tier: B
 license: "CC BY"
 raw_path: raw/markdown/FM_12752863/FM_12752863.md
 metals: [Pb, Cd, Cr]
-ingredients: ["[[ingredients/dried-fruit]]"]
+ingredients: ["[[ingredients/fruit]]"]
 products: []
 matrices: [dried-fruit]
 jurisdictions: [IQ, IR]

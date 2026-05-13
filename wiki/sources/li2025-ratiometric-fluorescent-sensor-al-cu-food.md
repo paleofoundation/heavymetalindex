@@ -13,7 +13,7 @@ evidence_tier: B
 license: "CC BY"
 raw_path: raw/markdown/FM_12682671/FM_12682671.md
 metals: [Al]
-ingredients: ["[[ingredients/fried-dough]]", "[[ingredients/shellfish]]", "[[ingredients/scallops]]"]
+ingredients: ["[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]"]
 products: []
 matrices: [fried-dough-product, shellfish]
 jurisdictions: [CN]
