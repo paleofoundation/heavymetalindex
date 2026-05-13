@@ -1,3 +1,7 @@
+## [2026-05-13] schema | populate source-legend — 1546 cells filled across 173 pages
+Pages touched: products:43, ingredients:189, metals:10+
+Notes: Tier 2 of the source-legend rollout per Karen's 2026-05-13 instinct-call. All *[awaiting synthesis]* cells in the hmi-source-legend blocks replaced with 1-sentence provenance descriptions for brand-legal-facing source scanability.
+
 ## [2026-05-13] schema | populate-source-legend — 109 cells filled across 92 ingredient pages
 Pages touched: ingredients/ (92 pages, 109 cells total: 76 FDA TDS cells + 33 non-TDS cells)
 Notes: Tier 2 of the source-legend rollout per Karen's 2026-05-13 instruct. 109 cells originally awaiting synthesis across 92 ingredient pages; this dispatch closed all 109. Products and metals directories had 0 actual table cells remaining (prior count included boilerplate header text). Dominant source: fda2022-tds-elements-fy2018-fy2020 (76 cells), with per-ingredient TDS food name, n, and detected metals extracted from each page's hmi-fda-tds-occurrence section. Remaining 33 cells drawn from 22 other sources including ATSDR tin profile (4 canned-food pages), Chekri 2019 French TDS (spinach, meat-and-poultry, infant-cereal-ingredients), EFSA Cd 2009 (spinach, wild-mushrooms), Henriquez-Hernandez 2023 Spanish purees (beef, chicken), and page-specific sources.
