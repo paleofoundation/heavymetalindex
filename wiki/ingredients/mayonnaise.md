@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 166, "Mayonnaise." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Mayonnaise is an oil-in-water emulsion consisting primarily of refined vegetable oil (typically soybean or canola, 70 to 80 percent by weight), egg yolk as emulsifier, vinegar or lemon juice, salt, and seasonings. The combination of its dominant ingredient, refined vegetable oil, with low-metal secondary ingredients produces a finished product with negligible heavy metal concentrations across all analytes of concern. Refined vegetable oil carries minimal metals for the same reasons described for margarine: the degumming, bleaching, and deodorization steps of refining remove metal-bearing phospholipid and particulate fractions from the crude oil. Egg yolk, which constitutes approximately 5 to 8 percent of mayonnaise by weight, contains trace metals at low concentrations; dietary Pb in eggs is generally at or below reporting limits in surveillance surveys. Vinegar (acetic acid solution) contributes negligible metals. The FDA FY2018-FY2020 TDS data for mayonnaise found all seven measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) below the reporting limit across all three samples [[sources/fda2022-tds-elements-fy2018-fy2020]], which is consistent with the mechanistic expectation and places mayonnaise among the lowest-metal food matrices in the wiki.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study measured mayonnaise (TDS Food 166) with n=3 composites and found all seven measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) below the reporting limit at minimum and maximum [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. This uniformly non-detectable result is expected given the composition of the product and reflects the US retail market. The small TDS sample count is adequate for this commodity given the mechanistic basis for expecting very low metal content. Different formulations of mayonnaise (reduced-fat varieties with higher water content and modified starch, vegan mayonnaise with aquafaba instead of egg yolk, aioli with garlic) do not change the fundamental metal profile: the oil refining process is the dominant determinant, and none of the substituted ingredients in these variants introduce meaningful metal pathways.
+
+## Processing effects
+
+The emulsification process (high-shear mixing of oil with egg yolk and vinegar) does not affect metal concentration. Pasteurization of commercial mayonnaise does not alter metal content. Storage stability (achieved through the vinegar's low pH, combined with refrigeration) does not affect metal concentration over the normal product shelf life. The vinegar acidification that provides microbiological stability is not sufficient pH to drive dissolution of metals from stainless steel processing equipment at the concentrations relevant to food safety.
+
+## Ingredient-derivative risk
+
+Mayonnaise is a finished condiment. Its role as an ingredient in composite products (potato salad, coleslaw, sandwich spreads, dips) dilutes any residual metal load proportionally. No concentrate or derivative of mayonnaise is a mainstream commercial ingredient.
+
+## Mitigation options
+
+### Sourcing levers
+
+Standard food-grade refined vegetable oils and food-grade egg products already satisfy the conditions for negligible metal content. No special sourcing intervention is warranted.
+
+### Agronomic levers
+
+Not applicable; the refined oil refining process and the low-metal nature of egg products remove or preclude agricultural-origin metal variability.
+
+### Processing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Routine lot-level metal testing of commercial mayonnaise is unlikely to yield actionable findings given the uniformly BDL results in the TDS. Metal monitoring resources are more efficiently deployed on higher-risk ingredients in the formulation portfolio.
+
+### Packaging and storage levers
+
+Mayonnaise is packaged in glass jars or plastic bottles; the Sn migration pathway is not applicable. Refrigerated storage maintains product quality without affecting metal concentration.
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 sets a maximum level for Pb in fats and oils of 0.10 mg/kg [[regulations/eu2023-contaminants-maximum-levels]]; mayonnaise, as an emulsified fat product, falls under this or the general condiment framework. No specific EU maximum for Cd in mayonnaise is set. The United States does not set statutory maxima for Pb or Cd in mayonnaise. Codex Alimentarius provisions for contaminants in edible fats and oils and condiments apply [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

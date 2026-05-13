@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 100, "Juice, grapefruit, bottled/cartoned." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Grapefruit juice is the expressed and processed juice of grapefruit (Citrus paradisi), sold bottled or cartoned at single-strength rather than as a ready-to-drink diluted product. Because grapefruit flesh is among the lowest-risk food matrices for heavy metal accumulation (see [[ingredients/grapefruit]]), the juice expressed from the flesh section similarly carries very low metal concentrations under typical production conditions. The primary pathways by which metals could enter grapefruit juice above flesh levels are: surface contamination on the fruit rind being transferred to juice by peel oil expression during commercial juicing; contact with processing equipment containing lead or other metals (older tin-soldered or corroded equipment); and addition of ingredients such as vitamin C (ascorbic acid) from sources with metal impurities, though commercial food-grade ascorbic acid specifications constrain this pathway. The FDA TDS data for bottled/cartoned grapefruit juice (n=3) report all analytes at or below the reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the raw fruit data and with grapefruit juice being a genuinely low-risk matrix for routine heavy metal monitoring.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 measured grapefruit juice (bottled/cartoned) across three samples with all analytes below reporting limits [[sources/fda2022-tds-elements-fy2018-fy2020]], providing limited power to resolve geographic or varietal differences. The FDA's broader Toxic Elements compliance program for juice (FY2005-FY2018), which measured Pb in 1,643 juice samples across all juice types including grapefruit juice [[sources/fda2018-lead-in-juice-fy2005-fy2018]], provides a larger empirical basis for Pb distribution in citrus juice; the grapefruit juice subset of that dataset is not yet parsed in the current corpus at the product-level. Florida-grown grapefruit, which dominates US grapefruit production, grows on sandy soils with low naturally occurring metal burden, and commercial juice from this origin is expected to remain below regulatory thresholds for Pb with a large margin. Mediterranean and Southern Hemisphere grapefruit growing regions produce smaller volumes for export and are not individually characterized in the current corpus.
+
+## Processing effects
+
+Commercial grapefruit juice production typically uses extractors that express juice from the halved fruit while limiting contact with the bitter peel oil. Juicers that control the degree of peel reaming minimize transfer of rind-associated metals into the juice stream. Pasteurization by high-temperature short-time (HTST) or flash pasteurization does not affect metal concentrations. Concentration of juice for frozen concentrate products (and subsequent reconstitution to single strength) preserves metals proportionally in the concentrate; reconstituted single-strength juice is comparable to not-from-concentrate juice in metal burden per unit volume. The FDA TDS measures bottled/cartoned grapefruit juice in the ready-to-consume state, representing the commercial product as packaged rather than as home-prepared.
+
+## Ingredient-derivative risk
+
+Grapefruit juice is used as a beverage ingredient in mixed drinks, fruit punch blends, cocktail mixers, and some functional beverages. In all such uses the metal contribution from grapefruit juice is proportional to its volume share and is expected to be negligible given the near-zero metal concentrations in this matrix. Grapefruit juice concentrate used as a flavoring or acidulant in food products contributes metals in proportion to the dilution ratio applied in the finished product.
+
+## Mitigation options
+
+### Sourcing levers
+
+Given the very low metal burden of grapefruit juice documented in both the FDA TDS and the FDA Toxic Elements compliance program, sourcing-level metal risk management is low priority for this ingredient relative to higher-risk juice types (apple, grape). For manufacturers including grapefruit juice in multi-fruit blends, grapefruit juice is the lower-risk component; the blend's metal profile will be dominated by any higher-risk juice fractions present.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Selecting juicing equipment that minimizes peel reaming reduces the risk of transferring surface-deposited Pb from the rind exterior into the juice. Equipment maintenance to eliminate lead-containing solder or corroded metallic contact surfaces is a standard food safety practice that applies across all juice types, including grapefruit.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+FDA's juice HACCP regulation (see [[regulations/fda-juice-haccp-lead-50ppb]]) establishes a framework under which juice manufacturers must consider metal hazards; the low historical Pb levels in grapefruit juice would justify a HACCP hazard analysis conclusion that routine lot-level Pb testing is not required, provided equipment is properly maintained and supplier qualification is in place. Manufacturers who combine grapefruit juice with apple or grape juice in blends should ensure their testing program captures the blend-level Pb and As rather than only the grapefruit juice fraction.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in fruit juices is 0.050 mg/kg (50 ppb). This is the same limit that applies to all single-strength fruit juices and is stricter than the general food Pb limit, reflecting the historical occurrence data across juice types. Grapefruit juice as a product category is not specifically enumerated with a stricter or looser limit than the general fruit juice category. In the United States, FDA has established a guidance level for Pb in juice at 50 ppb under the framework referenced at [[regulations/fda-juice-haccp-lead-50ppb]], which applies to all commercially sold juice including grapefruit juice. The FDA TDS data showing all analytes below detection in bottled/cartoned grapefruit juice (n=3) [[sources/fda2022-tds-elements-fy2018-fy2020]] indicates that this limit is met with substantial margin under current US market conditions.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

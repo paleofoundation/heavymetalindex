@@ -89,6 +89,10 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Fish fingers are a composite food whose heavy metal burden derives primarily from the white fish species used in the fillet portion, typically cod, haddock, or pollock. Marine fish accumulate metals through the aquatic food chain: metals dissolved in seawater or present in sediments are taken up by lower trophic organisms and concentrate as they pass upward to commercial fish species. White fish species are generally lower in methylmercury (MeHg) and cadmium than fatty pelagic fish, because they occupy a middle rather than the apex of the marine food chain and carry less lipid in which fat-soluble organic mercury compounds accumulate. However, inorganic lead and total arsenic enter white fish tissue from ambient seawater chemistry and sediment-dwelling prey, and the geographic origin of the catch affects which metals predominate. The breadcrumb coating in fish fingers introduces a wheat-derived fraction that adds a small cadmium contribution via the same soil-to-grain pathway described for cereal commodities. The frying oil contributes negligible additional metal load. Because fish fingers are a finished composite product, the metal burden in any given batch reflects both the provenance of the fish and the composition of the coating, making lot-level variation higher than for single-ingredient commodities.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 5.6 | 5.68 | 6 | 9.04 | 9.42 | 9.8 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The geographic origin of the fish is the primary driver of variance across fish finger products. North Atlantic cod and haddock sourced from waters off Iceland, Norway, or eastern Canada carry lead and cadmium burdens that reflect the relatively clean mineral geology of those fishing grounds, whereas fish sourced from inshore or more industrialized coastal fisheries may show elevated Pb from sediment contamination. Total arsenic in white fish muscle reflects ambient seawater arsenic levels, which are generally higher in Pacific than Atlantic fishing zones, though the arsenic in marine fish is predominantly organic arsenobetaine, a non-toxic organoarsenic compound that dominates the tAs signal. Farmed white fish (pangasius, tilapia) grown in recirculating or pond systems carry metal burdens primarily from the feed ration rather than from ambient water, and Cd in farm-raised fish reflects dietary phosphate sources used in feed manufacture. The FSA/Fera UK survey captured a composite fish finger product that reflects a blend of sourcing origins; lot-to-lot variation within a single manufacturer is expected but not quantified in the current source corpus.
+
+## Processing effects
+
+Cooking and frying do not materially reduce heavy metal concentrations in fish finger products. Metals are bound to proteins and mineral structures in muscle tissue rather than being freely dissolved in moisture, so the evaporation of water during oven-cooking or frying concentrates metals slightly on a wet-weight basis (total metal mass is unchanged but the denominator shrinks). The breadcrumb crust absorbs frying oil but does not act as a barrier against metal leaching in either direction. Blanching or brining of the fish prior to breading, where practiced industrially, may result in minor surface leaching of water-soluble metal fractions, but this effect is not characterized quantitatively in the current corpus. The FDA Total Diet Study TDS Food 34 ("Fish sticks or patty, frozen, oven-cooked") measures the food in the oven-cooked state as consumed, which is the appropriate regulatory and risk-assessment basis [[sources/fda2022-tds-elements-fy2018-fy2020]].
+
+## Ingredient-derivative risk
+
+Fish fingers represent a downstream processed form of white fish fillet, and their metal profile is bounded above by the fillet's intrinsic burden. No derivative of fish fingers commonly used in further manufacturing is likely to concentrate metals beyond what the raw fillet contains, because the processing steps (breading, freezing, cooking) do not involve concentration of the fish fraction. Fish meal, a high-concentration derivative used in animal feed rather than direct human food, would carry much higher metal loads due to moisture removal, but this is not a fish-finger derivative. Fish stock and fish paste produced from trimmings of similar white fish species carry metal profiles broadly comparable to the fillet on a wet-weight basis.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specification of fish origin by fishing ground or farm certification is the highest-leverage intervention available to manufacturers of fish finger products. Sourcing from certified sustainable North Atlantic fisheries operating in clean oceanic waters reduces expected Pb and Cd exposure relative to inshore or industrialized coastal sourcing. For farmed species, requesting supplier-level feed specification that avoids high-cadmium phosphate sources reduces dietary Cd in the fish.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Selecting refined breadcrumb formulations that use lower-cadmium wheat flour (milled white flour rather than whole-grain or bran-enriched flour) reduces the Cd contribution from the coating fraction, though the coating fraction contributes a minor share of total metal burden relative to the fish fillet.
+
+### Formulation levers
+
+Increasing the fillet-to-coating ratio reduces the relative contribution of any breadcrumb-derived Cd while preserving the product format. Substituting rice-based or oat-based coatings introduces different metal profiles; rice flour would elevate arsenic and reduce cadmium, a trade-off that requires evaluation against the relevant product regulatory limits.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of the fish fillet fraction provides higher diagnostic value than testing the finished product because it separates the fish metal signal from the breadcrumb signal. For manufacturers processing multiple fish species or origins, maintaining separate incoming testing by origin allows traceability of elevated batches to source.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EC) No 1881/2006 as amended by [[regulations/eu2023-contaminants-maximum-levels]], fish muscle (the primary ingredient in fish fingers) is subject to a Pb maximum level of 0.30 mg/kg wet weight and a Cd maximum level of 0.050 mg/kg wet weight. These limits apply to the muscle fraction as placed on the market. The breaded composite format is not separately enumerated in current EU regulations, and the applicable limit is therefore the most restrictive limit applicable to any ingredient fraction; in practice, the fish muscle limits govern. There is no EU maximum level for total arsenic in fish products; arsenic regulation in seafood focuses on inorganic arsenic, for which a specific limit applies to fish-based dietary supplements but not to fresh or frozen fish or fish products at the time of this writing. The FSA/Fera survey [[sources/fsa2016-infant-food-formula-metals-survey]] measured fish fingers in the context of the UK total diet study framework, which benchmarks against the same EU limits. No specific US FDA action level applies to total metals in fish finger products; the FDA's mercury guidance for fish applies to commercial fish species by species rather than to processed composite products.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

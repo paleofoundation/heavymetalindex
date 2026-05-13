@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 109, "Lettuce, iceberg, raw." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Iceberg lettuce is a head-forming variety of Lactuca sativa with a notably high water content (approximately 95 percent) relative to other leafy vegetables. Like all leafy vegetables, it is capable of accumulating cadmium through root uptake from soil and lead through atmospheric deposition on leaf surfaces. However, several features of iceberg lettuce distinguish its contamination profile from denser leafy greens such as spinach or kale. The tight head structure means that outer wrapper leaves, which are the primary site of atmospheric Pb deposition, largely enclose and protect the inner leaves that reach the consumer; outer leaves are typically removed during harvesting and packing. The high water content dilutes metal concentrations on a fresh-weight basis relative to more concentrated leafy vegetables. Soil Cd is the dominant pathway for the Cd detected in iceberg lettuce, operating through root uptake into the edible leaf tissue; the FDA FY2018-FY2020 TDS data show Cd detectable in all 27 samples, with a median of 27 ppb and a maximum of 73 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. Nickel is also consistently detected, with a median of 90 ppb and a maximum of 250 ppb, reflecting the general tendency of leafy vegetables to accumulate Ni from soil. Lead was below the reporting limit across all 27 TDS samples, confirming that the head-leaf structure and commercial trimming practices effectively limit Pb exposure for the edible product.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study measured iceberg lettuce (TDS Food 109, "Lettuce, iceberg, raw") with n=27 composite samples and found Cd ranging from a minimum of 8.4 ppb to a maximum of 73 ppb, with a median of 27 ppb and a p90 of 61.2 ppb; Ni ranging from 0 to a maximum of 250 ppb with a median of 90 ppb; and Cr with a maximum of 100 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. Pb, tAs, tHg, and U were below the reporting limit across all samples. The TDS reflects the US retail market, which sources iceberg lettuce predominantly from California and Arizona. Iceberg lettuce grown in regions with elevated soil Cd (associated with certain phosphate-fertilized soils or historically contaminated fields) would be expected to show higher Cd concentrations; California growing regions for iceberg lettuce are generally well-characterized with respect to soil quality, and the TDS median of 27 ppb Cd is consistent with this agricultural context. European data for lettuce (various varieties) generally show Cd in the range of 10 to 100 ppb depending on soil and cultivation conditions.
+
+## Processing effects
+
+Iceberg lettuce is consumed primarily raw after trimming and washing. Removal of outer wrapper leaves, which is standard commercial practice, is the most significant processing step for metal reduction: outer leaves exposed to atmospheric deposition carry more surface-deposited Pb and environmental particulate than protected inner leaves. Washing of cut or whole leaves with potable water removes a portion of surface-deposited metals but does not affect cadmium that has been absorbed through root uptake into leaf tissue. Extended submersion washing removes more surface contamination than brief rinsing; the magnitude of the reduction for Pb is likely meaningful in high-deposition environments, but for Cd — the dominant concern based on TDS data — washing provides minimal benefit because the metal is within the leaf cell rather than on the surface.
+
+## Ingredient-derivative risk
+
+Iceberg lettuce is rarely processed into concentrated derivatives. Salad mixes and pre-washed bags represent the main processing pathway; shredded or chopped iceberg lettuce in foodservice and retail products retains the same metal profile as the intact head because no concentration step is involved. Juice or extraction of iceberg lettuce, which is uncommon, would not concentrate metals beyond what is present in the raw leaf on a juice-equivalent basis.
+
+## Mitigation options
+
+### Sourcing levers
+
+Selecting iceberg lettuce from producers with soil Cd monitoring programs and from regions with documented low soil Cd provides the primary reduction lever for this analyte. USDA Good Agricultural Practices (GAP) certification and equivalent EU frameworks address soil quality monitoring in ways that capture metal risk.
+
+### Agronomic levers
+
+Maintaining soil pH above 6.5 reduces Cd bioavailability and root uptake in leafy vegetables. Avoiding the application of impure phosphate fertilizers with high Cd content on lettuce fields directly reduces soil Cd load accumulation over successive growing seasons.
+
+### Processing levers
+
+Commercial trimming of outer wrapper leaves, which is standard in the iceberg lettuce supply chain, is the most practically significant processing lever. Enhanced washing of cut leaves with acidic or chelating rinse solutions has been studied in experimental contexts but is not standard commercial practice.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given that Cd is consistently detected across the full TDS distribution and ranges up to 73 ppb, lot-level or origin-level Cd testing provides a useful quality signal for buyers seeking to minimize dietary Cd contribution from leafy vegetables. Ni testing is also warranted given the high median (90 ppb) and maximum (250 ppb) observed in the TDS data.
+
+### Packaging and storage levers
+
+Iceberg lettuce is not packaged in tin-lined cans; Sn migration is not a relevant concern. Refrigerated storage under modified atmosphere reduces microbial risk and extends shelf life without affecting metal concentration.
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 sets maximum levels for Pb in leafy vegetables at 0.30 mg/kg fresh weight and for Cd in leafy vegetables at 0.20 mg/kg fresh weight [[regulations/eu2023-contaminants-maximum-levels]]. The FDA TDS maximum for Cd in iceberg lettuce (73 ppb, equivalent to 0.073 mg/kg) is well below the EU Cd limit of 0.20 mg/kg. The EU Cd limit for lettuce specifically under [[regulations/eu-2023-915-cadmium]] is 0.20 mg/kg fresh weight; Cd levels in the TDS distribution are consistent with compliance. The United States does not set a statutory maximum for Pb or Cd in leafy vegetables. Codex Alimentarius does not set a specific ML for Cd or Pb in lettuce as a distinct commodity [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

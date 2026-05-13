@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 92, "Grapefruit, raw." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Grapefruit (Citrus paradisi) is a tree fruit with a thick, protective rind that substantially shields the edible inner flesh from surface contamination pathways such as atmospheric deposition of Pb-containing particulates and spray-borne metal residues. Citrus trees are deep-rooted perennial crops that draw metals from subsoil horizons rather than only the topsoil layer, but grapefruit orchards in major commercial growing regions (Florida, Texas, California in the US; Mediterranean Spain; South Africa) typically occupy soils with moderate metal burdens, and the physiology of citrus root metal uptake does not involve the same high-efficiency channels as, for example, leafy vegetables or legumes. The thick rind (flavedo and albedo) accumulates more Pb and other atmospherically deposited metals than the edible flesh, but since the rind is not consumed in typical fresh-fruit use, the consumer exposure from grapefruit flesh is very low. The FDA TDS data for raw grapefruit (n=27) show all metals at or below detection limits [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with citrus flesh being among the lowest-risk food matrices for heavy metal exposure.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS data for grapefruit raw (n=27) shows all measured analytes at or below the reporting limit, suggesting that geographic and varietal variation in the flesh metal burden is not detectable at the sensitivity of the TDS method [[sources/fda2022-tds-elements-fy2018-fy2020]]. The rind fraction, which is excluded from the TDS measurement of the raw edible portion, would show higher Pb from atmospheric deposition and is not characterized for grapefruit flesh specifically in the current corpus. Pink versus white grapefruit varieties are not expected to differ materially in heavy metal burden, as both use the same root architecture and protective rind structure. Organic versus conventional production may affect surface residue metals on the rind but would not substantially alter flesh metal concentrations given the protective rind barrier.
+
+## Processing effects
+
+Peeling grapefruit before consumption removes the rind, which carries the majority of any atmospherically deposited surface Pb or Cd; the edible flesh that remains is the lowest-metal portion of the fruit. Juicing involves expression of juice from the flesh segment, with minimal contribution from the rind in mechanical juice extraction, though peel oils expressed in some commercial juicing operations can introduce surface-associated metals into the juice fraction. The FDA TDS measures raw grapefruit as the intact edible portion after peeling, which is appropriate for representing consumer exposure from fresh grapefruit consumption.
+
+## Ingredient-derivative risk
+
+Grapefruit juice (covered separately at [[ingredients/grapefruit-juice]]) is the primary derivative. Grapefruit zest and grapefruit peel extract, used in flavoring and confectionery, concentrate metals from the rind and would carry higher Pb and potentially higher Cd than the flesh; these are niche applications and are not characterized in the current corpus. Grapefruit seed extract, used as a natural antimicrobial in food and dietary supplements, is produced from seed and membrane fraction and is also not characterized in the current corpus.
+
+## Mitigation options
+
+### Sourcing levers
+
+Grapefruit flesh is a very-low-risk matrix for heavy metals, and sourcing-level metal risk mitigation is not a high-priority concern for this commodity relative to more contaminated foods. For grapefruit-derived products that utilize rind or peel fractions, sourcing from orchards with low atmospheric metal burden (away from industrial sites and major roads) reduces surface deposition on the fruit exterior.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Thorough washing of the fruit exterior before juicing or zesting removes atmospherically deposited metals from the rind surface, preventing their transfer to juice or flavoring products. This is standard sanitation practice and also addresses microbiological hazards.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Routine heavy metal testing of fresh grapefruit flesh is not justified by the available occurrence data, which show all analytes below detection limits in a 27-sample TDS dataset [[sources/fda2022-tds-elements-fy2018-fy2020]]. Testing resources for producers and users of grapefruit in food manufacturing are better directed at the higher-risk ingredients in the product formulation.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in citrus fruit is 0.10 mg/kg wet weight, and for Cd in citrus fruit it is 0.050 mg/kg wet weight. These limits apply to grapefruit as placed on the market in fresh form. Given the FDA TDS finding of all analytes at or below detection limits in 27 samples [[sources/fda2022-tds-elements-fy2018-fy2020]], grapefruit flesh is expected to present no compliance risk at these limits under typical production and supply chain conditions. There are no specific US FDA action levels for metals in fresh grapefruit.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

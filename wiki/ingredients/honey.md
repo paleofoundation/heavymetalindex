@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 172, "Honey." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Honey is unusual among food commodities in that its metal content reflects the surrounding foraging environment of the bee colony rather than any intrinsic biological accumulation by a plant or animal. Honeybees collect nectar, pollen, and water from a foraging radius of approximately two to five kilometers from the hive; metals present in that environment from soil, atmospheric deposition, industrial emissions, vehicle exhaust, or agricultural pesticide residues can enter the hive via contaminated floral sources, pollen, and water. Lead in honey is primarily of atmospheric and soil deposition origin; proximity to high-traffic roads, industrial facilities, or mining operations elevates Pb concentrations in honeybees and hive products. Cadmium enters honey principally through contaminated soils and agricultural inputs, particularly phosphate fertilizers applied to crops within the foraging range. Because honey is a bee-processed concentrate of nectar, it acts as an environmental biomonitor: systematic differences in honey metal concentration across geographic regions reflect differences in environmental contamination rather than commodity-specific physiological accumulation. This biomonitoring character distinguishes honey from virtually all other food commodities on this wiki, and it means that geographic sourcing is the dominant driver of inter-sample variance. Published studies from Italy, Morocco, and other producing regions confirm that Pb in honey can exceed the EU maximum level of 0.10 mg/kg (100 ppb) in apiaries near industrial or high-traffic sites [[sources/naccari2025-honey-toxic-metals-microelements]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study measured honey as TDS Food 172 with n=3 composites and found all seven measured analytes at or below the reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020|4]]. This US retail result contrasts with findings from European producing regions, where industrial and agricultural environmental contexts elevate metal concentrations. Naccari et al. 2025 analyzed 38 honey samples from Calabria, Italy, by ICP-MS and found that Pb exceeded the EU maximum level of 0.10 mg/kg in 80 percent of wildflower samples, with Al means of 4.5 to 6.0 mg/kg across honey types [[sources/naccari2025-honey-toxic-metals-microelements|2]]. Abeslami et al. 2025 measured seven monofloral and multifloral honeys from eastern Morocco and reported Cd concentrations of 0.0017 to 0.018 mg/kg and Pb of 0.13 to 0.19 mg/kg, with botanical-origin differences between honey types [[sources/abeslami2025-moroccan-honey-minerals|1]]. These inter-regional contrasts illustrate the primary driver of honey metal variance: proximity to pollution sources rather than botanical variety, though botanical origin (which determines foraging plant community) provides a secondary modulating effect through differences in plant metal uptake and nectar metal content.
+
+## Processing effects
+
+Honey processing involves extraction from the comb by centrifugation, filtration to remove wax and debris, and in some cases heat treatment for liquefaction or pasteurization. Filtration removes particulate contaminants including some surface-sorbed metals, and the filtered fraction generally shows slightly lower metal concentrations than raw comb honey, though this effect is not large in the current corpus. Creaming (controlled crystallization) does not alter metal concentration. Blending of honeys from different geographic sources is the most significant processing step from a metal-variability perspective: large commercial batches blend honeys from multiple apiaries and potentially multiple countries, and blending from diverse origins can average out both low and high metal concentrations. The Sn pathway does not apply because honey is packaged primarily in glass or food-grade plastic.
+
+## Ingredient-derivative risk
+
+Honey used as an ingredient in processed foods (baked goods, cereals, beverages, confectionery) is present in formulations at relatively low inclusion rates; the contribution of honey's metal content to the finished product is accordingly diluted. Concentrated honey, reduced honey, and honey powders prepared by spray-drying concentrate metals proportionally; a dehydrated honey powder with a water content reduced from 80 percent to 2 percent would concentrate metals by roughly a fourfold factor compared to liquid honey. Mead and other fermented honey products are not characterized in the current corpus.
+
+## Mitigation options
+
+### Sourcing levers
+
+Geographic sourcing is the primary mitigation lever for honey. Apiaries located away from high-traffic roads, industrial facilities, mining operations, and intensively phosphate-fertilized agricultural land consistently show lower metal concentrations. Apiary audits that document the within-radius land use and environmental burden of the foraging zone provide a documented basis for metal-risk sourcing decisions.
+
+### Agronomic levers
+
+Relocating hives away from known contamination sources is the most effective agronomic lever. Planting low-metal-accumulating nectar sources in the foraging radius reduces bees' metal exposure, but controlling foraging targets at scale is not practically feasible. Soil remediation or pH amendment of agricultural land within foraging range reduces cadmium bioavailability in flora but requires cooperation with land managers outside the apiary operator's control.
+
+### Processing levers
+
+Fine filtration of extracted honey removes coarse particulate matter that may carry surface-adsorbed metals; this provides a modest but not transformative reduction in metal content. Blending from multiple low-contamination origins provides dilution and consistency.
+
+### Formulation levers
+
+Substituting honey with alternative sweeteners in formulations where honey's metal load is a concern is an option, though the sensory and marketing properties of honey are generally integral to its use. Including honey at lower inclusion rates achieves proportional dilution.
+
+### Testing and QC levers
+
+Given the demonstrated regional variability and the finding that EU honey Pb exceedances are common near industrial zones, lot-level ICP-MS testing for Pb and Cd provides the most reliable quality assurance. Origin documentation and certificate-of-conformity requirements from suppliers should specify the apiary location and any environmental burden assessment. Testing frequency proportionate to supply-chain geographic diversity is appropriate.
+
+### Packaging and storage levers
+
+Glass packaging avoids any plastic-leachate pathway; Sn migration is not relevant for honey as it is not packaged in tin-lined cans. Storage in cool, dark conditions maintains product quality without affecting metal concentration.
+
+## Regulatory limits that apply
+
+The EU sets a maximum level for Pb in honey of 0.10 mg/kg (100 ppb) wet weight [[regulations/eu2023-contaminants-maximum-levels]]. No EU maximum level for Cd in honey has been set as of the current corpus state. The finding of Naccari et al. 2025 that 80 percent of Italian wildflower honey samples exceeded this Pb limit illustrates that the EU limit is an active regulatory constraint for this commodity, not a comfortable ceiling [[sources/naccari2025-honey-toxic-metals-microelements|2]]. The United States does not set a statutory maximum for Pb or Cd in honey. Codex Alimentarius does not list honey in its specific ML tables for Pb or Cd [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

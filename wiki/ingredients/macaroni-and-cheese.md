@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 146, "Macaroni and cheese, prepared from boxed mix." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Macaroni and cheese prepared from a boxed mix is a composite food product with two primary components: a refined-wheat pasta (macaroni) and a processed cheese sauce powder. The primary metal pathway in this product is cadmium, which enters through the semolina or refined wheat flour used to make the pasta. Wheat accumulates Cd through root uptake from soil, with durum wheat (used for semolina and pasta) showing somewhat different Cd accumulation characteristics from bread wheat. The milling of durum wheat into semolina removes much of the bran and germ (which carry higher Cd than the endosperm), but refined pasta flour retains detectable Cd because Cd distributes throughout the grain. The cheese powder component contributes very little to metal load, as dairy products are generally among the lowest-metal food matrices and cheese powders, which are derived from pasteurized milk with added emulsifiers, do not concentrate metals from the dairy fraction. The FDA FY2018-FY2020 TDS data for macaroni and cheese from a boxed mix found Cd ranging from 9.4 to 13 ppb and U with a maximum of 2.8 ppb, with other analytes at or below the reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the wheat pathway being the dominant contributor.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study measured macaroni and cheese prepared from a boxed mix (TDS Food 146) with n=3 composites and found Cd in the narrow range of 9.4 to 13 ppb (median 11 ppb), U with a maximum of 2.8 ppb, and Pb, tAs, tHg, Ni, and Cr at or below the reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. The narrow Cd range across the three composites suggests consistency across the US retail market for this product type, which is dominated by a small number of large-volume brands using similar formulations. The wheat sourcing geography for US pasta manufacturers draws on durum wheat grown primarily in the Northern Plains (Montana, North Dakota); the Cd content of Northern Plains durum wheat is generally lower than durum grown in some European regions with higher soil Cd. European macaroni and cheese products, where they exist, would reflect the Cd characteristics of European durum wheat and may differ from US market values. The cheese powder component does not materially vary by geographic origin with respect to metals.
+
+## Processing effects
+
+Boiling macaroni in water during preparation causes some Cd to leach from the pasta into the cooking water; discarding the cooking water and draining before adding the cheese sauce provides a modest reduction in Cd content relative to cooking in a minimal water volume where all the liquid is absorbed. Boxed macaroni and cheese preparation typically involves draining the pasta cooking water, which means some Cd leaves with the discarded water. The magnitude of this leaching effect for durum pasta is documented in the general pasta literature but specific values for the US boxed macaroni market are not in the current corpus; estimates from Italian pasta studies suggest 10 to 20 percent Cd reduction through the drain-cooking method. The cheese sauce preparation step (mixing the powder with butter and milk) does not alter metal concentrations.
+
+## Ingredient-derivative risk
+
+Macaroni and cheese as a finished retail product is itself a composite; its primary upstream ingredient with metal significance is the pasta component. Pasta flour (semolina) used in products with higher durum wheat Cd, whether from high-Cd growing regions or from less-refined milling, would produce finished macaroni with higher Cd. Whole-wheat pasta versions of macaroni and cheese products would carry higher Cd than refined-semolina versions because bran and germ Cd content is higher than endosperm. Mac and cheese products using gluten-free pasta substitutes (rice-based, chickpea-based, or lentil-based pasta) would have substantially different metal profiles; rice-based pasta would carry the arsenic and Cd signature of rice, while legume-based pasta would carry the Ni and Cd signature of pulses.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing durum wheat from low-Cd growing regions (US Northern Plains) provides the primary lever for the pasta component. Supplier specifications requiring semolina Cd documentation and lot-level verification provide a traceable quality basis for formulations where Cd minimization is a product objective.
+
+### Agronomic levers
+
+Soil pH management and phosphate fertilizer purity specifications at the wheat farm level reduce Cd in durum wheat; these are producer-level levers accessed by ingredient buyers through supply-chain audit and specification requirements.
+
+### Processing levers
+
+Use of drain-cooking methods (cooking pasta in ample water then discarding cooking water) during consumer preparation reduces Cd intake by approximately 10 to 20 percent relative to absorption-cooking in minimum water. For a manufacturer making pre-cooked or retorted macaroni and cheese, cooking-and-draining the pasta before combining with cheese sauce achieves this reduction at the manufacturing stage.
+
+### Formulation levers
+
+Switching from refined semolina pasta to whole-wheat pasta in the formulation increases Cd from the pasta component. Switching to gluten-free alternatives introduces different metal profiles (rice arsenic, legume Ni or Cd) that may not represent a net improvement. Increasing the relative proportion of cheese sauce component versus pasta dilutes the pasta-sourced Cd contribution.
+
+### Testing and QC levers
+
+Given the consistently detectable Cd (9.4 to 13 ppb) in the TDS data, lot-level Cd testing of incoming semolina or pasta is a proportionate quality assurance measure. Testing of the finished product provides direct verification but is redundant if ingredient-level testing is systematic.
+
+### Packaging and storage levers
+
+Boxed macaroni and cheese is packaged in cardboard with an inner polyethylene-lined cheese-powder packet; the Sn migration pathway is not applicable. Canned prepared macaroni and cheese products (a different format not characterized by this TDS food number) would require lacquer-lined can consideration for the Sn pathway.
+
+## Regulatory limits that apply
+
+No specific EU maximum level for Cd in pasta or macaroni and cheese as a product category exists in the current regulatory framework; the applicable EU limit would be for unprocessed cereals used in production. EU Regulation 2023/915 sets Cd limits for cereals at 0.10 mg/kg for durum wheat and pasta products, reflecting the pasta supply chain specifically [[regulations/eu-2023-915-cadmium]]. The Pb limit for cereals and cereal products under the EU framework is 0.20 mg/kg [[regulations/eu2023-contaminants-maximum-levels]]. The US does not set statutory maximum levels for Pb or Cd in pasta or macaroni and cheese products. Codex Alimentarius addresses Cd in cereals and products but does not have a distinct ML for pasta [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

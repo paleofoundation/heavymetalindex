@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 63, "Tortilla, flour." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Flour tortillas are made predominantly from refined wheat flour, water, fat, and leavening agents. The primary metal pathway is through the wheat grain, where cadmium is taken up from soil by the plant root system and partitions preferentially into the bran and germ fractions. Refining of wheat to produce white flour removes the bran and germ layers, substantially reducing cadmium relative to whole-wheat products; the endosperm retained in white flour carries a fraction of the cadmium present in whole grain. Lead reaches wheat primarily through soil contact and atmospheric deposition onto grain surfaces; milling and sifting remove surface-adherent dust, reducing Pb somewhat relative to field-collected grain. The fat added to flour tortillas (typically vegetable shortening or lard) introduces negligible additional metal load. Processing aids such as calcium propionate or baking powder contribute no meaningful metals at the concentrations used. The result is a grain product with a cadmium burden that is substantially lower than whole-wheat equivalents but not zero, and with the other analytes at concentrations broadly consistent with those of refined cereal products [[sources/fda2022-tds-elements-fy2018-fy2020]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 3.4 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The cadmium content of flour tortillas varies with the origin of the wheat and the degree of milling. Wheat grown in cadmium-enriched soils characteristic of certain phosphate-fertilized growing regions in Europe and North America carries higher intrinsic Cd than wheat grown on naturally low-Cd soils. Within refined white flour, the milling extraction rate is the principal technical driver: lower-extraction flours (70 to 72 percent, predominantly endosperm) carry less Cd than higher-extraction flours (80 to 85 percent, retaining more bran particles). Tortillas produced from masa harina (nixtamalized corn flour) would carry a distinctly different metal profile dominated by the corn grain's metal burden; this page covers wheat flour tortillas only, and corn tortillas are a separate commodity. Regional variation is not yet characterized in the corpus at the flour tortilla product level.
+
+## Processing effects
+
+The nixtamalization used in corn tortilla production (alkaline lime treatment) is not employed in standard wheat flour tortilla production; therefore, the alkali-based arsenic and heavy metal mobilization observed in masa processing does not apply here. Baking at high temperature does not volatilize or otherwise remove cadmium, lead, or other metals; concentrations in the finished tortilla reflect those in the raw flour adjusted for any moisture-loss concentration effect during cooking. The FDA TDS measures the tortilla in its ready-to-eat form (TDS Food 63, "Tortilla, flour"), which represents the consumer exposure basis [[sources/fda2022-tds-elements-fy2018-fy2020]].
+
+## Ingredient-derivative risk
+
+Flour tortillas are used directly as a food wrapper or vehicle rather than as an intermediate ingredient in further refining processes. Tortilla chips, produced by cutting and frying flour tortillas, concentrate metals on a dry-weight basis proportional to the moisture reduction achieved by frying; a chip is roughly half the moisture of an unbaked tortilla, producing approximately twofold concentration per unit dry weight. Tortilla flour can be used in composite baked products, where it contributes metals proportional to its weight fraction.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying wheat origin from low-cadmium growing regions or from suppliers with documented grain Cd specifications is the most direct lever for reducing Cd in flour tortillas. European Union regulations for Cd in cereals incentivize suppliers operating in that market to select low-Cd cultivars and growing regions, and US manufacturers sourcing EU-certified wheat benefit from that selection pressure.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Selecting a lower extraction rate (more refined white flour) reduces Cd relative to higher-extraction or whole-wheat formulations. This is an established effect across the cereal literature, though quantitative magnitude varies by source wheat Cd concentration.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Lot-level testing of incoming wheat flour for Cd by ICP-MS provides the most actionable signal for manufacturers for whom Cd is the primary concern in this product line. Given that the FDA TDS median Cd in flour tortillas is approximately 26 ppb (n=27) [[sources/fda2022-tds-elements-fy2018-fy2020]], establishing an incoming flour specification of less than 100 ppb Cd (dry weight) would be consistent with delivering finished product below EU cereal maximum levels.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Cd in cereal-based processed foods is 0.10 mg/kg. For Pb in cereal-based processed foods intended for general consumption, the maximum level is 0.20 mg/kg. The flour tortilla as a finished product would be assessed against these limits at the ready-to-eat stage. No specific EU or US FDA maximum level applies to total arsenic in wheat-based products intended for general consumption; the FDA TDS data show tAs in flour tortillas at a median of approximately 4.3 ppb (n=27), well below any regulatory threshold that might be proposed by analogy with cereal-based infant foods [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

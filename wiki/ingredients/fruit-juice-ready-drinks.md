@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Fruit juice ready drinks are diluted, ready-to-consume juice beverages that combine fruit juice (from concentrate or not from concentrate) with water and, in some formulations, added sugars, vitamin C, and flavor components. The metal burden of these products is determined primarily by the metal content of the fruit juice fraction, which in turn reflects the metal uptake of the source fruit crop and, to a lesser extent, by the quality of the dilution water. Apple juice is a historically notable juice for lead content, partly because lead arsenate was used as a pesticide in US apple orchards through the mid-twentieth century, leaving residual Pb and As in orchard soils that continues to contribute to apple and apple juice metal burdens from some growing regions. Grape juice and grape-based juice drinks carry arsenic and Pb from vineyard soils and from historically applied copper-based and lead arsenate fungicides. The dilution of juice concentrate with water to ready-to-drink strength reduces per-serving metal exposure proportional to the dilution factor, but does not eliminate it. The water fraction contributes metals according to the source water quality, which for municipal-supply water is generally low.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,48 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+The metal profile of fruit juice ready drinks varies most strongly by the type of fruit used as the juice base. Apple-based drinks and blends that include apple juice carry higher Pb expectations than citrus-based drinks because of the legacy apple orchard soil contamination pathway; FDA's compliance history for apple juice includes detections above guidance values for Pb and As from certain import and domestic sources. Grape-based drinks reflect vineyard soil Pb and As, which vary by region (European wine regions on historically mineralized soils versus New World vineyards on less disturbed soils). Citrus-based drinks (orange, grapefruit) are generally lower risk across all metals because citrus grows in different soil and agricultural-history contexts and the thick peel provides partial protection to the fruit flesh. Multi-fruit blends mix these profiles in proportion to the juice volume shares from each source. The FSA/Fera survey measured fruit juice ready drinks as a composite category without disaggregation by juice type, so species-level variation is not yet characterized at the product level in the current corpus.
+
+## Processing effects
+
+Concentration and reconstitution of juice (making and using juice from concentrate) does not remove heavy metals; metals are non-volatile and remain in the juice fraction through evaporation and reconstitution. Pasteurization of juice has no effect on metal concentrations. Clarification of juice (filtration, fining with gelatin or bentonite clay) can in principle reduce metal concentrations if the fining agent adsorbs metal species, but this is not a standard industry practice specifically directed at heavy metal removal. The addition of vitamin C (ascorbic acid) as a preservative does not affect metal concentrations. Ready-to-drink dilution of juice concentrate with water reduces absolute metal concentrations proportional to the dilution ratio, making ready-to-drink products lower per milliliter in metals than the concentrated juice source.
+
+## Ingredient-derivative risk
+
+Fruit juice ready drinks are finished consumer beverages. The concentrated juice intermediate used to produce them carries substantially higher metal concentrations per unit volume; juice concentrates used as ingredients in other products (smoothies, flavored dairy drinks, confectionery glazes) contribute metals proportional to the volume and concentration factor. Fruit juice used in infant food or infant drink products faces stricter regulatory limits in the EU than the same juice in adult products, and the ready-to-drink format assessed here is the relevant comparator for infant juice products.
+
+## Mitigation options
+
+### Sourcing levers
+
+Selecting juice from fruit origins with documented low-Pb and low-As soil histories (avoiding legacy orchard or vineyard regions known for historical pesticide contamination) is the most effective upstream lever. For apple-based drinks specifically, preferring juice concentrate from certified modern orchards on non-legacy soils, or from New World growing regions where lead arsenate was used less extensively and over a shorter historical period, reduces the expected Pb burden.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+For manufacturers with the facility capability, treating fruit juice with activated carbon or ion-exchange filtration before concentration can reduce Pb, As, and Cd. These are not standard juice industry processes and would require validation for flavor impact. Selecting high-quality dilution water (reverse osmosis treated or equivalent) eliminates the water-borne metal contribution from the dilution fraction.
+
+### Formulation levers
+
+Reducing the proportion of higher-risk juice types (apple, grape) in the blend in favor of lower-risk citrus or tropical fruit juices reduces expected average metal exposure per serving. For products targeting infants and young children, formulating with low-risk juice types and confirming compliance with infant-specific limits before market introduction is the standard responsible practice.
+
+### Testing and QC levers
+
+Finished product testing by ICP-MS for Pb and As is the most common and directly regulatory-relevant QC test for juice products in this category. Given FDA's historical focus on Pb and As in apple juice, manufacturers of apple-containing products should test every production lot or every concentrate lot, while manufacturers of exclusively citrus-based products may apply a less intensive surveillance program justified by the lower risk profile of that juice type.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The EU general food law maximum level for Pb in fruit juices under [[regulations/eu2023-contaminants-maximum-levels]] is 0.050 mg/kg (50 ppb), which is stricter than the general food Pb limit and reflects the elevated Pb levels historically observed in concentrated and processed juice products. For fruit juices specifically intended for infants and young children (labeled as such), the EU applies an even stricter maximum Pb limit. No EU maximum level exists for total arsenic in fruit juice; the regulatory focus for arsenic in food is on inorganic arsenic in specific high-risk commodities (cereals, rice). In the United States, FDA has established a guidance level for Pb in juice (all types) of 50 ppb, issued in the context of the juice HACCP regulation and available at [[regulations/fda-juice-haccp-lead-50ppb]], which applies to juice as a food safety reference point. For arsenic in apple juice specifically, FDA has issued draft guidance recommending a limit of 10 ppb for inorganic arsenic, consistent with the drinking water MCL, though this guidance had not been finalized as of the current date.
 
 ## Sources
 

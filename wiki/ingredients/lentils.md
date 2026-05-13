@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Lentils are small pulse legumes (Lens culinaris) with a pronounced capacity to accumulate cadmium from soil relative to cereal grains and many other food crops. The primary accumulation pathway is root uptake from soil: legumes in general tend to accumulate more Cd than grasses because their root architecture, symbiotic nitrogen-fixing bacteria, and organic acid exudates that mobilize soil nutrients also enhance the mobilization and uptake of divalent metal cations including Cd. Cadmium absorbed by the root is transported to the shoot and seed through the plant vascular system; the seed coat (testa) accumulates Cd at higher concentrations than the cotyledon, meaning that whole lentils have higher Cd than dehulled red lentils. Lead in lentils reaches the edible portion primarily through atmospheric deposition on plants during growth and post-harvest contamination; root uptake of Pb is limited because Pb is strongly bound in most soils. Nickel is also bioavailable to legumes and is reported in the range of several hundred ppb in lentils; EFSA's 2020 nickel risk assessment identified legumes including lentils among the principal dietary Ni contributors in Europe [[sources/efsa-nickel-contam-2020]]. The dietary significance of lentil Cd is compounded by high consumption frequency in South Asian, Middle Eastern, and Mediterranean populations, where lentils (dal, mercimek, and related preparations) are a dietary staple consumed multiple times daily. Nordberg et al. document legumes including lentils as dietary Cd contributors and the textbook reference on Cd toxicology identifies vegetarians as an exposure subgroup that can approach or exceed the EU tolerable weekly intake from legume-heavy diets [[sources/nordberg2015-cadmium-chapter]]; [[sources/efsa-cadmium-contam-2009]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,48 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+Geographic origin is the dominant driver of Cd variability in lentils. Soils used for lentil cultivation in South Asia (India, Nepal, Bangladesh, Pakistan) and the Middle East vary substantially in Cd content depending on geology, irrigation water quality, and fertilizer history. Canadian and US-grown lentils (the Palouse region of Washington and Idaho, Saskatchewan) are generally from lower-Cd soils and are expected to show lower Cd concentrations than South Asian imports, though direct comparison data are limited in the current corpus. Bandara et al. 2010 documented elevated Cd in pulses including lentils from Sri Lanka's North Central Province and linked them to chronic renal failure in the local population, illustrating the upper end of the geographic Cd range [[sources/bandara2010-cadmium-rice-sri-lanka-crf|6]]. Ventura et al. 2025 measured trace elements in Portuguese TDS samples across food groups and identified legumes and nuts as a contributing dietary group, with lentils implicitly included [[sources/ventura2025-portuguese-total-diet-study-trace-elements|2]]. The seed-coat versus cotyledon distinction creates within-variety variance: red lentils (which are dehulled) have lower Cd than green or brown lentils (whole), because the seed coat carries a disproportionate Cd burden.
+
+## Processing effects
+
+Soaking lentils in water for several hours before cooking, then discarding the soak water, reduces Cd content in the cooked lentil. Published studies on pulse soaking have reported Cd reductions of approximately 15 to 30 percent relative to unsoaked cooked lentils, with the magnitude depending on soaking duration, water volume, and initial Cd concentration; this range is documented in the general pulse literature but specific quantification for lentils in the current corpus is pending. Boiling lentils and discarding the cooking water provides a further reduction, though the cooking water carries some Cd that would otherwise be consumed. Dehulling (the process used to produce red lentils from whole brown or green lentils) removes the testa, which carries the highest Cd burden in the seed, and is the most effective single processing step for Cd reduction. Sprouting lentils reduces metal content through the biological processes of germination, with some studies reporting Cd reductions of 20 to 40 percent in sprouted versus unsprouted seeds, though this is not standard commercial processing.
+
+## Ingredient-derivative risk
+
+Lentil flour, produced by milling whole or dehulled lentils, concentrates the metals present in the source lentil proportionally; dehulled lentil flour carries less Cd than whole-lentil flour. Lentil protein concentrates and isolates, if produced by aqueous extraction, may partition Cd between the protein-rich and protein-depleted fractions; the metal distribution in lentil protein fractions is not characterized in the current corpus. Canned lentils (lentils packed in brine in tin-lined cans) may carry a Sn migration component from the can; Valizadeh et al. 2023 characterized Sn in canned pinto and fava beans from Iran and documented detectable Sn in samples, which is relevant context for canned pulse products generally [[sources/valizadeh2023-canned-beans-iran-health-risk|3]]. Dal preparations (Indian spiced lentil dishes) involving extended cooking with water, which is then consumed as part of the dish, retain more of the metal burden than preparations where cooking water is discarded.
+
+## Mitigation options
+
+### Sourcing levers
+
+Geographic sourcing from low-Cd soil regions (Canada, northwestern US) provides the most impactful ingredient-level Cd reduction for lentils. Supplier specifications requiring origin documentation and lot-level Cd testing, with certificate-of-conformity requirements, provide a documented basis for risk management. For South Asian origin lentils, Cd variability is high enough that lot-level testing is warranted rather than regional generalization.
+
+### Agronomic levers
+
+Soil liming to maintain pH above 6.5 reduces Cd bioavailability and plant uptake. Selection of lentil varieties with lower intrinsic Cd accumulation capacity, which varies measurably between cultivars, provides an additional lever at the seed level. Irrigation water quality management is relevant in regions where groundwater Cd is elevated.
+
+### Processing levers
+
+Dehulling (producing red lentils) is the most effective single processing lever for Cd reduction. Soaking before cooking and discarding soak water, then discarding cooking water if the dish permits, provide additional but more modest reductions. These processing steps are under consumer or foodservice control rather than manufacturer control for whole lentils sold retail.
+
+### Formulation levers
+
+Substituting a portion of high-Cd-origin lentils with low-Cd-origin lentils or other pulses reduces the per-serving Cd contribution proportionally. Dehulled lentil-based formulations (using red lentil flour or protein) carry lower Cd burdens than whole-lentil equivalents.
+
+### Testing and QC levers
+
+Given the dietary significance of lentil Cd particularly for frequent consumers, lot-level Cd testing by ICP-MS or ICP-OES provides the most reliable quality assurance signal. The EU ML of 0.10 mg/kg for Cd in pulses provides the compliance reference. Ni testing is also warranted given EFSA's identification of legumes as a principal dietary Ni contributor [[sources/efsa-nickel-contam-2020|4]].
+
+### Packaging and storage levers
+
+Lentils sold dry are not packaged in tin-lined cans; Sn migration is not applicable. Canned lentils, however, are subject to Sn migration from the can, and lacquer-lined can specifications reduce this pathway.
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 sets a maximum level for Cd in dried legumes (pulses) of 0.10 mg/kg wet weight, applicable to lentils [[regulations/eu-2023-915-cadmium]]. The Pb limit for dried legumes under the EU framework is 0.10 mg/kg wet weight [[regulations/eu2023-contaminants-maximum-levels]]. These limits apply to the product as placed on the market (dry weight basis for dry lentils). Codex Alimentarius sets a maximum of 0.10 mg/kg for Cd in pulses under the General Standard for Contaminants and Toxins [[regulations/codex-cadmium-mls]], consistent with the EU limit. The United States does not set a statutory maximum for Pb or Cd in lentils. EFSA's 2009 Cd opinion established the EU tolerable weekly intake (TWI) of 2.5 µg/kg body weight per week and identified vegetarians, who consume legumes at high frequency, as a population subgroup approaching or exceeding this TWI from dietary sources alone [[sources/efsa-cadmium-contam-2009|7]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

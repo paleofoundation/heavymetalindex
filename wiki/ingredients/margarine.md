@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 162, "Margarine, salted." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Margarine is an emulsified fat product made primarily from refined vegetable oils, water, emulsifiers (typically lecithin), salt, and stabilizers. The primary reason margarine carries negligible heavy metal concentrations is the extensive refining process applied to the vegetable oil base. Crude vegetable oils extracted from seeds or palm fruit contain trace metal contaminants that are associated with phospholipids, free fatty acids, and colloidal particles in the crude oil. Refining steps including degumming (removing phospholipids), alkali neutralization, bleaching with activated earth or carbon, and deodorization by steam stripping progressively remove these metal-containing fractions. By the time a refined vegetable oil reaches the margarine manufacturing step, most metal-bearing components have been removed. Lecithin added as an emulsifier is typically a soy-derived phospholipid concentrate that may carry trace metals, but the inclusion rate is low (approximately 0.2 to 0.5 percent) and refined lecithin is itself a processed material with low metal content. Salt and water dilute the formulation further. The FDA FY2018-FY2020 TDS data for margarine (salted) found all seven measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) below the reporting limit across all three samples [[sources/fda2022-tds-elements-fy2018-fy2020]], which is consistent with the expectation that refined-fat products are among the cleanest matrices in the food supply.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study measured margarine (TDS Food 162, "Margarine, salted") with n=3 composites and found all seven measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) below the reporting limit at both minimum and maximum [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. The small TDS sample count is adequate for this commodity given the uniformly non-detectable results and the mechanistic basis for expecting very low metal content from the refined-oil production process. European data for margarine and similar spreads are consistent with this result; refined plant fat products routinely pass regulatory surveillance at levels far below applicable limits. The vegetable oil source (soybean, canola, palm, sunflower) does not meaningfully differentiate the metal profile of the finished margarine because the refining process removes metal-bearing fractions regardless of the crude oil starting point.
+
+## Processing effects
+
+Oil refining, which precedes margarine manufacturing, is the critical processing step that determines margarine's metal content. Degumming removes phospholipid-associated metals; bleaching with activated earth physically adsorbs trace metals from the oil; deodorization at high temperature removes volatile contaminants. These sequential steps effectively eliminate metals from the oil phase. Hydrogenation of oils (used to achieve desired fat crystallization properties in some margarine products) does not introduce metals unless the hydrogenation catalyst (typically nickel-based) is incompletely removed; catalyst specifications and post-hydrogenation filtration are designed to prevent Ni carry-through, and the industry standard is to maintain Ni in the finished oil below the sub-ppb range. The emulsification step with water, lecithin, and salt does not introduce metals at meaningful concentrations.
+
+## Ingredient-derivative risk
+
+Margarine is itself the finished product; no further concentration or derivative process applies in typical consumer use. Baking or frying with margarine does not concentrate metals. At the ingredient level for food manufacturers, margarine presents essentially no metal risk pathway relative to other ingredient choices.
+
+## Mitigation options
+
+### Sourcing levers
+
+Standard food-grade refined vegetable oils already satisfy the condition for negligible metal content. No special sourcing intervention is warranted; the metal profile is determined by the refining process rather than the agricultural origin.
+
+### Agronomic levers
+
+Not applicable; the refining process removes agricultural-origin metal variability from the product.
+
+### Processing levers
+
+Confirming that nickel-catalyzed hydrogenation steps use properly filtered and purified catalyst systems, and that post-hydrogenation Ni specifications are maintained, provides assurance against the only meaningful processing-introduced metal risk. Activated-earth bleaching specifications and filtration standards ensure the degumming and bleaching steps function as designed.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Routine lot-level metal testing of refined margarine is unlikely to yield actionable findings given the uniformly BDL results in the TDS. Monitoring at the refined oil intermediate stage, specifically for Ni as a potential process contaminant from hydrogenation, is more cost-effective than testing the finished margarine.
+
+### Packaging and storage levers
+
+Margarine is typically packaged in plastic tubs or foil-wrapped blocks; the Sn migration pathway is not applicable. Storage temperature affects crystallization state but not metal concentration.
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 sets a maximum level for Pb in fats and oils of 0.10 mg/kg [[regulations/eu2023-contaminants-maximum-levels]]; margarine falls under this limit as an oil-based spread. No EU maximum for Cd in fats and oils as a distinct category is set in the current framework, as Cd is not a meaningful contaminant in refined fats. The Ni hydrogenation pathway is addressed through food additive and processing aid regulations specifying catalyst purity and maximum residue standards, rather than through contaminant maximum levels. The United States does not set statutory maxima for Pb or Cd in margarine. Codex Alimentarius provisions for contaminants in edible fats and oils apply [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

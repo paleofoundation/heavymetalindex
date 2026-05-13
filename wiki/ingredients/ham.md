@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 17, "Ham, cured (not canned), baked." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Ham, as a cured pork product derived from the hind leg of swine, accumulates heavy metals through pathways similar to those governing other muscle meats: dietary intake from feed and water, and limited metabolic accumulation in soft tissue relative to visceral organs. Pork muscle generally presents low concentrations of Cd and Pb because these metals partition preferentially to the kidney cortex and liver in swine rather than to skeletal muscle. The curing process introduces several additives, including sodium chloride, sodium nitrite, and in some products inorganic phosphate salts and polyphosphate binders. Phosphate-based curing agents derived from impure mineral sources can introduce trace Cd, though food-grade phosphate specifications are intended to minimize this pathway. Cadmium in the feed chain from phosphate-fertilized crop inputs may also contribute to dietary Cd load in swine, ultimately manifesting at low levels in muscle tissue. Lead in pork muscle is typically near or below reporting limits in modern commercial production. The FDA FY2018-FY2020 Total Diet Study found detectable Pb in some ham samples at low concentrations, with Cd also detected at the high end of the distribution, reflecting the population variance across US retail sources [[sources/fda2022-tds-elements-fy2018-fy2020]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study measured ham (TDS Food 17, "Ham, cured (not canned), baked") with n=27 composites and found Pb detectable with a p90 of 6.76 ppb and a maximum of 9.3 ppb; Cd detectable with a p90 of 2.22 ppb and a maximum of 4.7 ppb; U with a median of 1.4 ppb and a maximum of 3.6 ppb; tAs with a p90 of 3.84 ppb and a maximum of 4.6 ppb; and Cr with a maximum of 400 ppb and Ni with a maximum of 40 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. Mercury (tHg) was below the reporting limit across all samples. These distributions reflect the US retail market for cured ham. European survey data for cured pork products are not present in the current corpus; the EU maximum levels for pork muscle provide the operative regulatory reference. Canned versus non-canned formats are expected to differ for Sn, as canned ham would be subject to tin migration from the can; this page covers the non-canned, baked form.
+
+## Processing effects
+
+Curing introduces salt, nitrite, and in some formulations phosphate compounds; the curing brine may absorb trace metals from the processing environment, but the magnitude of this pathway is not well-characterized in the current corpus. Baking or cooking after curing concentrates metals slightly on a wet-weight basis due to moisture loss, an effect that the FDA TDS preparation method (baked) would capture in the measured values. Smoking of ham, which is common for certain product categories, exposes the meat surface to combustion aerosols that may deposit trace metals, but the surface-to-volume ratio of a whole ham leg limits the penetration of any deposited contamination into the muscle interior. The phosphate-based additives used as water-retention agents in some ham products introduce a trace Cd pathway if the phosphate source is impure; food-grade phosphate specifications for the EU and US are designed to control this.
+
+## Ingredient-derivative risk
+
+Ham is a finished product rather than an intermediate; the primary derivative-risk consideration is canned ham, where Sn migration from the can interior becomes relevant (see [[ingredients/ketchup]] for general treatment of canned products and tin migration). Diced ham used in ready-to-eat mixed products (soups, pasta dishes) is diluted with other ingredients; the per-serving metal burden from the ham component is reduced proportionally. Ham stock and broths derived from cured ham are not characterized in the current corpus.
+
+## Mitigation options
+
+### Sourcing levers
+
+Selecting pork from producers who use feed from regions with low soil Cd and use food-grade phosphate additives with verified low-Cd purity specifications are the principal sourcing levers. Organ-meat-free ham specifications (excluding kidney or liver blends) keep Cd at muscle-tissue levels.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Using food-grade phosphate additives with verified Cd specifications reduces the curing-additive metal pathway. Non-canned formats avoid the Sn migration pathway present in canned ham.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given detectable Pb (max 9.3 ppb) and Cd (max 4.7 ppb) in the TDS distribution, targeted lot-level verification for these analytes by ICP-MS is feasible and provides documentation for regulatory compliance against the EU 0.10 mg/kg Pb and 0.050 mg/kg Cd limits in muscle meat.
+
+### Packaging and storage levers
+
+Non-canned ham (the form characterized on this page) is not subject to Sn migration; packaging in vacuum pouches or oxygen-scavenged modified-atmosphere trays does not introduce metal pathways.
+
+## Regulatory limits that apply
+
+EU Regulation 2023/915 sets maximum levels for Pb in meat (muscle meat of pig) at 0.10 mg/kg wet weight and for Cd at 0.050 mg/kg wet weight [[regulations/eu2023-contaminants-maximum-levels]]. The FDA TDS maximum values for Pb (9.3 ppb) and Cd (4.7 ppb) in baked ham are well within these limits. No specific US statutory maximum for Pb or Cd in cured pork exists. The EU Cd limit for pig muscle of 0.050 mg/kg (50 ppb) is the operative regulatory cap for EU market access [[regulations/eu-2023-915-cadmium]]. Codex Alimentarius does not set a specific ML for Pb or Cd in cured pork muscle as a distinct category [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

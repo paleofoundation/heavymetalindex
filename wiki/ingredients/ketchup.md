@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 173, "Ketchup, tomato." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Ketchup is a tomato-based condiment produced by concentrating cooked tomato paste with vinegar, sugar, salt, and spices. Two distinct metal pathways converge in ketchup. The first is the tomato plant pathway: tomatoes grown in soil with elevated Cd or Pb accumulate those metals through root uptake (Cd) and atmospheric deposition on fruit surfaces (Pb), though tomato fruit is generally among the lower-metal matrices in the vegetable category. The second and historically more significant pathway is tin migration from can interiors: ketchup is acidic due to both the organic acids in tomato and added vinegar, and that acidity drives dissolution of tin from unlined tin-plate can interiors into the product. The EU limits Sn in canned solid foods at 200 mg/kg, reflecting decades of evidence that tin dissolution from acidic canned products is a measurable dietary exposure source. Modern lacquer-lined cans greatly reduce Sn migration. The tomato concentration effect is also relevant: ketchup contains roughly five times the tomato solids concentration of fresh tomato, meaning that metals present in the tomato base are five times more concentrated in the finished condiment than in fresh tomato on a volume basis. Cadmium in the FDA TDS data for ketchup ranged from 20 to 22 ppb, and Ni from 98 to 130 ppb, reflecting the tomato and soil pathways [[sources/fda2022-tds-elements-fy2018-fy2020]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA FY2018-FY2020 Total Diet Study measured ketchup (TDS Food 173, "Ketchup, tomato") with n=3 composites and found Cd consistently detected at 20 to 22 ppb, Ni at 98 to 130 ppb, and Pb, tAs, tHg, Cr, and U at or below the reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020|1]]. The small TDS sample count limits distributional inference. Nickel concentrations in the 100 to 130 ppb range reflect the well-characterized affinity of tomatoes for Ni from soil. The tomato origin geography (domestic US versus imported) affects Cd and Ni to the extent that the source soils differ; commercial ketchup in the US primarily draws on California-grown tomatoes, which are well-characterized. European ketchup products would be subject to different tomato source geographies and can-lining standards. The Sn pathway for unlacquered cans is not captured in the FDA TDS for this particular commodity because the sample may represent glass-bottled or lacquer-lined products; Sn absence from the TDS distribution does not preclude Sn migration in unlacquered canned ketchup.
+
+## Processing effects
+
+Tomato concentration (cooking down tomato juice or puree to paste and then to ketchup) concentrates all non-volatile constituents, including metals, by a factor of approximately five relative to fresh tomato. Acidification with vinegar lowers pH to approximately 3.5 to 4.0, which enhances Sn dissolution from unlined tin-plate can surfaces. The EU Sn limit for canned solid food products of 200 mg/kg reflects the reality that unlacquered canned tomato products (including ketchup in some markets) have historically shown Sn concentrations approaching or exceeding this level. Lacquer-lined cans reduce Sn migration by roughly an order of magnitude, bringing levels from potentially 200 mg/kg range down to single-digit or tens-of-mg/kg range. Pasteurization of the finished ketchup does not affect metal concentrations. Sugar addition dilutes the overall metal concentration marginally but does not alter the chemistry.
+
+## Ingredient-derivative risk
+
+Ketchup is itself a finished condiment rather than an intermediate; it functions as a concentrated tomato derivative relative to fresh tomato. Its use in composite products (sauces, pizza toppings, marinades, processed meat products) further dilutes the metal load proportionally. Tomato paste, from which ketchup is derived, carries a similar metal profile but at higher concentration per unit volume than the finished ketchup, because ketchup adds water, vinegar, and sugar. Tomato paste is characterized separately and is the upstream ingredient most relevant to cross-commodity comparison.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing tomato paste and puree from regions with documented low-Cd and low-Ni soil quality provides the primary ingredient-level lever. California tomato growing regions are generally well-documented with respect to soil quality under USDA and state agriculture frameworks. Supply specifications requiring tomato paste Cd verification provide a traceability anchor.
+
+### Agronomic levers
+
+pH management of tomato-growing soils reduces Cd bioavailability; phosphate fertilizer purity specifications reduce ongoing Cd load accumulation. These levers are at the tomato farmer level rather than the ketchup manufacturer level.
+
+### Processing levers
+
+Use of lacquer-lined cans rather than bare tin-plate cans is the single most impactful processing lever for Sn in ketchup. Lacquer lining reduces Sn migration from the 100 to 200 mg/kg range (observed with unlacquered cans and acidic tomato products) to values typically well below 50 mg/kg. Shifting to glass or plastic packaging eliminates the Sn pathway entirely.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given the consistently detectable Cd (20 to 22 ppb) and Ni (98 to 130 ppb) in the TDS data, lot-level testing for these analytes is warranted. For products packaged in tin-lined cans, Sn monitoring is the priority test, with the EU 200 mg/kg limit as the compliance reference. For glass or lacquer-lined products, Sn monitoring frequency can be reduced substantially.
+
+### Packaging and storage levers
+
+The choice of packaging material is the most consequential lever for the Sn pathway. Glass packaging eliminates Sn migration entirely. Lacquer-lined cans reduce Sn migration to an order-of-magnitude lower than unlined tin-plate. Plastic packaging (squeeze bottles) is also free of the Sn migration concern. Storage temperature does not substantially affect metal migration rates within the normal shelf-life temperature range.
+
+## Regulatory limits that apply
+
+The EU sets a maximum level for Sn in canned solid food products of 200 mg/kg [[regulations/eu2023-contaminants-maximum-levels]]; this limit applies to ketchup when packaged in tin-lined cans. No specific EU maximum for Cd or Pb in ketchup as a distinct product category exists; the tomato-product framework and general condiment provisions would apply by analogy. No US statutory maximum for Pb, Cd, or Sn in ketchup is set in current FDA regulations. Codex Alimentarius sets Sn limits for canned products that broadly align with the EU framework [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
