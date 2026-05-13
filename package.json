@@ -46,6 +46,7 @@
     "evidence:gemsfood": "node tools/evidence/ingest-gemsfood-heavy-metals.mjs",
     "evidence:standards-gaps": "node tools/evidence/build-tds-product-route-candidates.mjs && node tools/evidence/build-apple-juice-arsenic-speciation.mjs && node tools/evidence/build-grape-juice-inorganic-arsenic.mjs && node tools/evidence/build-standards-gap-report.mjs && node tools/evidence/build-standards-action-queue.mjs && node tools/evidence/build-ai-adjudication-queue.mjs && node tools/evidence/build-hmtc-aggregate-distributions.mjs && node tools/evidence/apply-product-hmtc-evidence-summaries.mjs",
     "evidence:pooling": "node tools/evidence/build-hmtc-aggregate-distributions.mjs",
+    "briefing": "node tools/standards/build-standards-briefing.mjs",
     "evidence:standards-summary": "node tools/evidence/apply-product-hmtc-evidence-summaries.mjs",
     "evidence:standards-actions": "node tools/evidence/build-standards-action-queue.mjs && node tools/evidence/build-ai-adjudication-queue.mjs",
     "evidence:ai-adjudication": "node tools/evidence/build-ai-adjudication-queue.mjs",
