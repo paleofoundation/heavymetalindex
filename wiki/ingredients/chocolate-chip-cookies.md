@@ -60,12 +60,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [300, 300]
+    p95_ppb: 300
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -85,7 +85,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 1
 ---
 
