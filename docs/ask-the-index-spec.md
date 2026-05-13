@@ -12,6 +12,8 @@ Internal product strategy and design specification for the Ask the Index convers
 
 This document is not public wiki content. It captures the strategic frame, the design principles, the full feature set (nineteen features across three phases), the hard guardrails, the infrastructure dependencies, and the rollout sequencing. It is the authoritative reference for any session working on Ask the Index until superseded.
 
+**Read first if doing build work.** Ask the Index v0 already exists in production at [api/ask.js](api/ask.js), with a frontend widget at [quartz/components/AskIndex.tsx](quartz/components/AskIndex.tsx). See `docs/ask-the-index-current-state-gap.md` for the v0-grounded MVP work plan. This strategy spec describes the target; the gap doc describes the path from v0 to the target. The Phase 2 and Phase 3 features depend on the MVP cut shipping per the gap doc's sequencing.
+
 ## 1. Strategic frame
 
 Ask the Index is a free, conversational interface that answers questions from the curated heavy-metals-in-food corpus and only from that corpus. It is not a product in the revenue sense. Revenue lives in HMT&C certification fees, the Journal of Food Metallomics, courses, and future expert services. The chatbot is a positioning instrument and a trust ceremony, and every design decision in this document is made in service of four signals.
