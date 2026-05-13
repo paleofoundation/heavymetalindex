@@ -6,19 +6,23 @@ aliases: [cocoa beans, cacao, cocoa mass, cocoa liquor, cocoa solids, cocoa powd
 category: tree-crop
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
+    status: populated
+    typical_ppb: [30, 110]
+    p95_ppb: 380
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-11
+    last_reviewed: 2026-05-13
+    basis: "as-sold; cocoa powder and finished chocolate; Abt 2018 (n=144 across cocoa powder, nibs, dark chocolate, milk chocolate); Hands 2024 (n=72 dark chocolate and cocoa products, 2014-2022 multi-year)"
+    notes: "Cocoa powder mean 110 ppb (Abt 2018); dark chocolate mean ~30 ppb; cocoa nibs ~3 ppb. Pb primarily processing-side (post-harvest, transport, manufacturing) per Abt 2020 mechanism review. Range 0 to 380 ppb across the 144-sample dataset."
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
+    status: populated
+    typical_ppb: [200, 990]
+    p95_ppb: 3150
     confidence: medium
     n_studies: 5
-    last_reviewed: 2026-05-11
+    last_reviewed: 2026-05-13
+    basis: "as-sold; cocoa powder and cocoa nibs; Abt 2018 (n=144 US-market); Meter 2019 (LAC review); Thomas 2023 (Peru n=2,194 farms); Hands 2024 (US multi-year); Romero-Estevez 2019 (Ecuador n=9 provinces)"
+    notes: "Cocoa powder mean 700 ppb (Abt 2018); 100% cocoa powder mean 990 ppb. LAC-origin product significantly higher than African-origin. Driven by soil geochemistry (Andean volcanic) per Scaccabarozzi 2020 and Barraza 2019 isotope work; not processing-driven. Range 4 to 3150 ppb across primary datasets."
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -93,16 +97,18 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | low | — |
-| Cd | n=5 (in progress) | — | — | medium | — |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | data gap | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | low | — |
-| Al | n=1 (in progress) | — | — | low | — |
-| Cr | n=1 (in progress) | — | — | low | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Pb | n=2 | 30 – 110 | 380 | low | [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market\|Abt 2018]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|Hands 2024]] |
+| Cd | n=5 | 200 – 990 | 3,150 | medium | [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market\|Abt 2018]], [[sources/thomas2023-peru-cacao-cd-distribution\|Thomas 2023]], [[sources/meter2019-cadmium-cacao-lac-review\|Meter 2019]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|Hands 2024]], [[sources/romero-estevez2019-ecuador-cocoa-cd-ni-pb\|Romero-Estevez 2019]] |
+| iAs | data gap | — | — | — | _Cocoa is not a primary As matrix; rice and seafood dominate the dietary As pathway._ |
+| tAs | data gap | — | — | — | _See iAs note._ |
+| tHg | data gap | — | — | — | _Cocoa does not carry meaningful Hg at population level._ |
+| Ni | n=2 | 8,200 – 12,000 | — | low | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm 1984]], [[sources/efsa-nickel-contam-2020\|EFSA Ni 2020]] |
+| Al | n=1 | — | — | low | [[sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\|Elsheikh 2020]] _quantified magnitude pending_ |
+| Cr | n=1 | 200 – 500 | — | low | [[sources/hernandez2019-cr-vi-cr-iII-milk-dairy-cereal-france\|Hernandez 2019]] _total Cr; Cr-VI speciation pending_ |
+| Sn | data gap | — | — | — | _Cocoa not canned in tin; Sn not a cocoa-specific exposure route._ |
+| U | data gap | — | — | — | _No cocoa-specific U evidence in current corpus._ |
+
+**Basis note:** all values are on the as-sold basis (cocoa powder or cocoa nibs) on a dry-weight equivalent. Finished chocolate values (which apply cocoa-solid-percentage dilution to cocoa powder concentrations) are tracked on [[ingredients/chocolate]] separately. Cocoa powder is the higher-Cd derivative of the cocoa supply chain because Cd concentrates in defatted solids during cocoa butter extraction; values for cocoa butter itself are typically an order of magnitude lower. The 990 ppb typical Cd upper bound is the 100% cocoa powder subset mean from Abt 2018 (n=26); 3,150 ppb is the highest observed value in the same 144-sample dataset.
 
 ## Why this commodity accumulates cadmium
 
@@ -124,13 +130,31 @@ Derivative products of cocoa redistribute cadmium between cocoa solids and cocoa
 
 Cocoa cadmium mitigation is structured across all four [[mitigation/index|mitigation classes]] and is the second-highest-salience commodity in the wiki's mitigation coverage after rice arsenic. The [[sources/codex-cxc-81-2022|Codex CXC 81-2022 Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans]] is the foundational regulatory document spanning the agronomic, processing, and formulation strategy classes and is the load-bearing primary source for the cocoa-cadmium content on this page.
 
-[[mitigation/agronomic|Agronomic mitigation]] for cocoa is dominated by soil pH management (liming at 3 t/ha/year preferably as dolomite to raise pH above 6 immobilizes cadmium in acidic Latin American volcanic substrate per [[sources/codex-cxc-81-2022|CXC 81-2022]] section 4.2.2), cultivar and rootstock selection (low-Cd-bioaccumulation genotypes used in breeding and as grafting rootstocks per [[sources/codex-cxc-81-2022|CXC 81-2022]]), zinc supplementation under deficient soils (cadmium and zinc compete for plant uptake; zinc sulphate fertilization), biochar amendment (Cd-uptake reduction comparable to and additive with liming), and avoidance of high-cadmium phosphate fertilizers and apatite/rock phosphate where Cd content is uncertain.
+The levers below are ordered by impact magnitude on bean-level cadmium concentration. Sourcing geography is the single largest lever because the underlying soil-Cd distribution varies by an order of magnitude across producing regions; agronomic interventions move the needle within a sourcing region but rarely overcome the geographic baseline. Pb mitigation follows a different lever order because Pb is primarily processing-side per the [[synthesis/us-chocolate-lead-temporal-decline|US-chocolate-Pb synthesis]] — sourcing-region change moves Pb less than manufacturer-side process control does.
 
-[[mitigation/processing|Processing mitigation]] for cocoa is dominated by post-harvest fermentation interventions specified in [[sources/codex-cxc-81-2022|CXC 81-2022]] section 4.3: mucilage draining for 12, 24, or 36 hours reduces cadmium concentrations without affecting organoleptic quality, and *Saccharomyces cerevisiae* inoculation during fermentation absorbs cadmium and reduces bean Cd content per experimental studies cited in the CoP. Drying surface cleanliness (drying on solid surfaces to less than 8 percent moisture, avoiding soil contamination) and storage protection from fuel and exhaust contamination are the additional CoP-specified processing-stage practices.
+### Sourcing levers (highest Cd impact)
 
-[[mitigation/supply-chain-screening|Supply-chain screening]] for cocoa is the dominant brand-side intervention in EU markets given the [[regulations/eu-2023-915-cadmium|EU 2023/915]] cocoa cadmium maximum levels. West-African origins (Ghana, Côte d'Ivoire) are documented lower-cadmium than parts of Latin America (Ecuador, Peru, Colombia volcanic-soil regions); within Latin America, altitude- and soil-pH-segmented sourcing differentiates lower- and higher-cadmium production zones.
+Origin-region selection is the dominant brand-side cadmium intervention in EU markets given the [[regulations/eu-2023-915-cadmium|EU 2023/915]] cocoa cadmium maximum levels. West-African origins (Ghana, Côte d'Ivoire, Nigeria) are documented at order-of-magnitude lower cadmium than parts of Latin America: African-origin product means cluster in the 100-300 ppb range while LAC-origin means cluster in the 600-1,500 ppb range per [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt 2018]] and the [[sources/meter2019-cadmium-cacao-lac-review|Meter 2019]] LAC review. Within Latin America, [[sources/thomas2023-peru-cacao-cd-distribution|Thomas 2023]] documents that altitude and soil-pH segmentation differentiates lower- and higher-cadmium Peruvian production zones at the farm scale (n=2,194 samples across 563 farms in 13 Peruvian departments); Tumbes, Piura, Amazonas, and Loreto are the primary high-Cd zones. Origin-segmented sourcing combined with batch-level Cd testing at intake is the most effective single brand-side lever for cocoa cadmium reduction; conservative magnitude is a 2-to-5-fold cocoa-solids Cd reduction by replacing typical LAC sourcing with West-African sourcing or low-Cd LAC sub-regions.
 
-[[mitigation/formulation|Formulation mitigation]] for cocoa-containing products includes cocoa-percentage adjustment (lower-cocoa-solids products have correspondingly less cocoa-derived cadmium), cocoa-origin sourcing realized at the recipe level, and substitution of cocoa butter for cocoa powder where formulation permits (cocoa butter is much lower in cadmium than the defatted solids).
+### Agronomic levers (moderate Cd impact within a sourcing region)
+
+[[mitigation/agronomic|Agronomic mitigation]] for cocoa is dominated by soil pH management (liming at 3 t/ha/year preferably as dolomite to raise pH above 6 immobilizes cadmium in acidic Latin American volcanic substrate per [[sources/codex-cxc-81-2022|CXC 81-2022]] section 4.2.2), cultivar and rootstock selection (low-Cd-bioaccumulation genotypes used in breeding and as grafting rootstocks per [[sources/codex-cxc-81-2022|CXC 81-2022]]; the [[sources/sounigo2023-climaloca-cocoa-cadmium|ClimaLOCA project]] documents multi-country germplasm screening identifying low-Cd accessions in Colombia, Ecuador, and Peru), zinc supplementation under deficient soils (cadmium and zinc compete for plant uptake; zinc sulphate fertilization), biochar amendment (Cd-uptake reduction comparable to and additive with liming per [[sources/vega-jara2025-cocoa-cd-mitigation-amf-biochar|Vega-Jara 2025]]), and avoidance of high-cadmium phosphate fertilizers and apatite/rock phosphate where Cd content is uncertain. Quantified magnitude varies by intervention and site; CXC 81-2022 reports liming as the single most-effective agronomic lever with documented Cd-uptake reductions in the 30-60 percent range across multiple cited studies.
+
+### Processing levers (moderate Cd impact; primary Pb lever)
+
+[[mitigation/processing|Processing mitigation]] for cocoa Cd is dominated by post-harvest fermentation interventions specified in [[sources/codex-cxc-81-2022|CXC 81-2022]] section 4.3: mucilage draining for 12, 24, or 36 hours reduces cadmium concentrations without affecting organoleptic quality, and *Saccharomyces cerevisiae* inoculation during fermentation absorbs cadmium and reduces bean Cd content per experimental studies cited in the CoP. For Pb, drying surface cleanliness (drying on solid surfaces to less than 8 percent moisture, avoiding soil contamination), storage protection from fuel and exhaust contamination, and manufacturing-equipment metal-contact specifications are the primary processing levers and the load-bearing reason the [[synthesis/us-chocolate-lead-temporal-decline|US chocolate Pb declined 2014-2022]] under Prop 65 enforcement pressure.
+
+### Formulation levers (moderate Cd impact via dilution)
+
+[[mitigation/formulation|Formulation mitigation]] for cocoa-containing products includes cocoa-percentage adjustment (lower-cocoa-solids products have correspondingly less cocoa-derived cadmium following a roughly linear dilution; 50 percent cocoa solids has roughly half the Cd of 100 percent cocoa solids), cocoa-origin sourcing realized at the recipe level (a high-cocoa formulation can still hit Cd targets if origin is selected appropriately), and substitution of cocoa butter for cocoa powder where formulation permits (cocoa butter is approximately one order of magnitude lower in cadmium than the defatted solids because Cd concentrates in the protein-and-fiber fraction during cocoa butter extraction).
+
+### Testing and QC levers (detection and exclusion)
+
+Lot-level ICP-MS at intake (in addition to or instead of spot-check post-receipt) gives detection power for Cd at parts-per-billion sensitivity that distinguishes compliant from non-compliant lots before manufacturing commits the lot to product. Third-party testing rather than supplier-attestation is the brand-legal-defensibility lever; supplier attestation gives the certifying brand no independent provenance to defend in litigation. The [[sources/ramtahal2016-cacao-cadmium-trinidad|Ramtahal 2016]] finding that pod and leaf Cd correlate with bean Cd enables pre-harvest agronomic screening for Cd compliance, which moves the lever upstream into the supplier rather than at intake.
+
+### Packaging and storage levers
+
+Not applicable to cocoa Cd or Pb at meaningful magnitude. Cocoa is not canned in tin (Sn not a relevant contamination route), and aluminum-foil contact does not move bean-level metal load. Storage protection from fuel/exhaust contamination per CXC 81-2022 is captured under processing levers above.
 
 ## Abt 2018 sample-level occurrence values
 
