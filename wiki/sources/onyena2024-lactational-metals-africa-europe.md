@@ -6,7 +6,8 @@ title: "Lactational Exposure of Human Infants to Metal(loid)s in Sub-Saharan Afr
 authors: [Onyena AP, et al.]
 year: 2024
 publication: "Current Research in Toxicology"
-doi: null
+doi: 10.1016/j.crtox.2024.100201
+access_url: https://doi.org/10.1016/j.crtox.2024.100201
 source_type: systematic-review
 evidence_tier: A
 license: "CC BY-NC-ND"

@@ -7,6 +7,7 @@ authors: [Henríquez-Hernández LA, Acosta-Dacal AC, Boada LD, Zumbado M, Serra-
 year: 2023
 publication: "Nutrients 15(14):3251"
 doi: 10.3390/nu15143251
+access_url: https://doi.org/10.3390/nu15143251
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

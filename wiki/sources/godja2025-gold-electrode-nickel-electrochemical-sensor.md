@@ -7,6 +7,8 @@ authors: [Godja N, Mihai I, Cernat A]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Screen-Printed%20Gold%20Electrode%20for%20Nickel(II)%20Detection%20in%20Deep%20Eutectic%20Solvent%20Media
 source_type: peer-reviewed
 evidence_tier: A
 license: null

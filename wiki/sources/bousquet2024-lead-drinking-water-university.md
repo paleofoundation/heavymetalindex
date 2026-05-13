@@ -7,6 +7,7 @@ authors: [Bousquet AG, Eaves LA, Haley K, Catalano D, Williams GB, Hartwell HJ, 
 year: 2024
 publication: "International Journal of Environmental Research and Public Health"
 doi: "10.3390/ijerph21050561"
+access_url: https://doi.org/10.3390/ijerph21050561
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

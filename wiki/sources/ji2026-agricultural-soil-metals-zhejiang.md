@@ -7,6 +7,7 @@ authors: [Ji J, Wu X]
 year: 2026
 publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0344184
+access_url: https://doi.org/10.1371/journal.pone.0344184
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

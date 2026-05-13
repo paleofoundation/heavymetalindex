@@ -7,6 +7,8 @@ authors: [Nguyen TH, Le ND, Pham MT]
 year: 2026
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=N%2CS-Doped%20Carbon%20Quantum%20Dots%20from%20Rice%20Straw%20for%20Fluorescence%20Detection%20of%20Mercury(II)
 source_type: peer-reviewed
 evidence_tier: A
 license: null

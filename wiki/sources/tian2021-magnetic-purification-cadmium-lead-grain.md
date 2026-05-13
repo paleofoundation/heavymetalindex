@@ -6,7 +6,9 @@ title: "A rapid magnetic-based purification of Cd2+ and Pb2+ prior to portable e
 authors: [Tian W, Zhou M, Liu Y, Wu Y, Zhang J, Chen X, Wang S]
 year: 2021
 publication: "Food Chemistry: X"
-doi: ""
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=A%20rapid%20magnetic-based%20purification%20of%20Cd2%2B%20and%20Pb2%2B%20prior%20to%20portable%20electrochemical%20determination%20for%20grain
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

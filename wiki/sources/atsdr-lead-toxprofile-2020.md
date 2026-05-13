@@ -5,13 +5,13 @@ title: "Toxicological Profile for Lead"
 authors: ["Agency for Toxic Substances and Disease Registry"]
 year: 2020
 publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
-doi: null
+doi: 10.15620/cdc:95222
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/ATSDR_Lead_ToxProfile.pdf
 sha256: a47206d2e1ea0b4b8ae16579c8bb0b00da2e0d71a90f1859c7b4f63bf166f66d
 access_date: 2026-04-25
-access_url: https://www.atsdr.cdc.gov/toxprofiles/tp13.pdf
+access_url: https://doi.org/10.15620/cdc:95222
 license: us-government-work
 metals: [Pb]
 ingredients: []

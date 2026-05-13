@@ -7,6 +7,7 @@ authors: [Ray S, Francis GA, Pathak SS, Chavan P, Vashishth R]
 year: 2025
 publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2025.1609067
+access_url: https://doi.org/10.3389/fpubh.2025.1609067
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

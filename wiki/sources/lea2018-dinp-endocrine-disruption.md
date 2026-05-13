@@ -7,6 +7,8 @@ authors: [Lea IA, Buerger AN, Feifarek D, Mihalchik A, Heintz MM, Haws LC, Nyamb
 year: 2018
 publication: "Current Research in Toxicology"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Evaluation%20of%20the%20endocrine%20disrupting%20potential%20of%20Di-isononyl%20phthalate
 source_type: review
 evidence_tier: B
 license: unknown

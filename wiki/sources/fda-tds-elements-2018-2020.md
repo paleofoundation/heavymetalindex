@@ -6,12 +6,13 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2022
 publication: "U.S. Food and Drug Administration, Total Diet Study Program"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Total%20Diet%20Study%20Report%3A%20Fiscal%20Years%202018-2020%20Elements%20Data
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/2022_07_14_TDSElementsReport_1436.pdf
 sha256: ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef
 access_date: 2026-04-25
-access_url: https://www.fda.gov/food/total-diet-study/analytical-results-total-diet-study
 license: us-government-work
 metals: [Cd, Pb, Hg, MeHg, iAs, tAs, Ni, Al, Cu, Fe, Zn, Mn, Mo, Cr]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/fruit]]", "[[ingredients/vegetables]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/meat]]", "[[ingredients/fish]]"]

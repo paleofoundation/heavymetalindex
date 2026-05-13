@@ -7,6 +7,7 @@ authors: [Yuan CY, Lee YJ, Hsu GW]
 year: 2012
 publication: "Journal of Biomedical Science 19(1):51"
 doi: 10.1186/1423-0127-19-51
+access_url: https://doi.org/10.1186/1423-0127-19-51
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

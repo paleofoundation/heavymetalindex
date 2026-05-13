@@ -6,12 +6,13 @@ authors: ["California Office of Environmental Health Hazard Assessment"]
 year: null
 publication: "California Office of Environmental Health Hazard Assessment, Proposition 65 Listings"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Arsenic%20(inorganic%20Arsenic%20Compounds)%20%E2%80%94%20Proposition%2065%20Chemical%20Listing
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/OEHHA_Arsenic_Prop65_Listing.pdf
 sha256: ac4d1b7255f7c315687a337be39942a33cacc30eae2b17857f591577b70d0d0c
 access_date: 2026-04-25
-access_url: https://oehha.ca.gov/proposition-65/chemicals/arsenic-inorganic-arsenic-compounds
 license: us-government-work
 metals: [iAs]
 ingredients: []

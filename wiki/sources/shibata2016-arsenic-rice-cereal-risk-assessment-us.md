@@ -6,7 +6,8 @@ title: "Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for 
 authors: [Shibata T, Meng C, Umoren J, West H]
 year: 2016
 publication: "International Journal of Environmental Research and Public Health 13(4):361"
-doi: null
+doi: 10.3390/ijerph13040361
+access_url: https://doi.org/10.3390/ijerph13040361
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY 4.0"

@@ -7,6 +7,7 @@ authors: [Yazdanian Ghahfarokhi E, Shakerian A, Sharafati Chaleshtori R, Rahimi 
 year: 2025
 publication: "Veterinary Medicine and Science"
 doi: 10.1002/vms3.70114
+access_url: https://doi.org/10.1002/vms3.70114
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

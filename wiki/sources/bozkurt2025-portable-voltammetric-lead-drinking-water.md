@@ -7,6 +7,8 @@ authors: [Bozkurt S, Uzun L, Ersoz A]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Portable%20Voltammetric%20Lead%20Sensor%20(Electronic%20Tongue)%20for%20Drinking%20Water%20Monitoring
 source_type: peer-reviewed
 evidence_tier: A
 license: null

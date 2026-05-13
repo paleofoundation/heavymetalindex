@@ -7,6 +7,7 @@ authors: [Ozkutlu F, Kocaman A, Ete Aydemir O]
 year: 2026
 publication: "ACS Omega"
 doi: "10.1021/acsomega.5c03376"
+access_url: https://doi.org/10.1021/acsomega.5c03376
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

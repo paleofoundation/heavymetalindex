@@ -7,6 +7,7 @@ authors: [Wang J, Niu K, Hou J, Zhuang Z, Zhu J, Jing X, Wang N, Xia B, Lei L]
 year: 2024
 publication: "Materials"
 doi: 10.3390/ma17010098
+access_url: https://doi.org/10.3390/ma17010098
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

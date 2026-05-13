@@ -7,6 +7,7 @@ authors: [Schoofs H, Schmit J, Rink L]
 year: 2024
 publication: "Molecules"
 doi: "10.3390/molecules29133130"
+access_url: https://doi.org/10.3390/molecules29133130
 source_type: review
 evidence_tier: A
 license: "CC BY"

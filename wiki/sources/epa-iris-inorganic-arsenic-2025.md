@@ -6,12 +6,13 @@ authors: ["U.S. Environmental Protection Agency, Center for Public Health and En
 year: 2025
 publication: "EPA/635/R-25/005Fa, U.S. Environmental Protection Agency, Integrated Risk Information System"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=IRIS%20Toxicological%20Review%20of%20Inorganic%20Arsenic
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_IRIS_InorganicArsenic_ToxicologicalReview.pdf
 sha256: 6276be43fbe5975141394cffe6578806ab1f84fe51404a8c8d33be03da593d94
 access_date: 2026-04-25
-access_url: https://www.epa.gov/iris
 license: us-government-work
 metals: [iAs]
 ingredients: ["[[ingredients/water]]", "[[ingredients/rice]]"]

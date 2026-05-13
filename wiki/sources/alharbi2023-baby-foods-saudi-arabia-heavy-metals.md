@@ -7,6 +7,7 @@ authors: [Alharbi NS, Akamsiei RM, Almaiman LA, AL-Samti MA, Al-Mutairi HS, Al-o
 year: 2023
 publication: "Food Science & Nutrition"
 doi: 10.1002/fsn3.3485
+access_url: https://doi.org/10.1002/fsn3.3485
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

@@ -7,6 +7,7 @@ authors: [Jackson BP, Taylor VF, Karagas MR, Punshon T, Cottingham KL]
 year: 2012
 publication: "Environmental Health Perspectives 120(5):623–626"
 doi: 10.1289/ehp.1104619
+access_url: https://doi.org/10.1289/ehp.1104619
 source_type: peer-reviewed
 evidence_tier: A
 license: "open access (NIEHS/NIH)"

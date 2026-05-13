@@ -7,6 +7,7 @@ authors: [Lim JA, Kwon HJ, Ha M, Kim H, Oh SY, Kim JS, Lee SA, Park JD, Hong YS,
 year: 2015
 publication: "Environmental Health and Toxicology"
 doi: "10.5620/eht.e2015004"
+access_url: https://doi.org/10.5620/eht.e2015004
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

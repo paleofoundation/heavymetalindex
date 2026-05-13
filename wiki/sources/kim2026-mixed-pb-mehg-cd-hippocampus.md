@@ -7,6 +7,7 @@ authors: [Kim S, Park J, Lee H, Choi Y, Jung K]
 year: 2026
 publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2026.1801968
+access_url: https://doi.org/10.3389/fpubh.2026.1801968
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

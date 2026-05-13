@@ -7,6 +7,7 @@ authors: [Cantoral A, Betanzos-Robledo L, Collado-López S, García-Martínez BA
 year: 2024
 publication: "Toxics"
 doi: "10.3390/toxics12050318"
+access_url: https://doi.org/10.3390/toxics12050318
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -6,7 +6,9 @@ title: "Colorimetric sensor for As3+ detection in water"
 authors: [Li]
 year: 2024
 publication: unknown
-doi: unknown
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Colorimetric%20sensor%20for%20As3%2B%20detection%20in%20water
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

@@ -6,12 +6,13 @@ authors: ["U.S. Environmental Protection Agency, National Center for Environment
 year: 1989
 publication: "U.S. Environmental Protection Agency, Integrated Risk Information System"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Cadmium%20(CASRN%207440-43-9)%20%E2%80%94%20IRIS%20Chemical%20Assessment%20Summary
 source_type: gov-report
 evidence_tier: A
 raw_path: null
 sha256: null
 access_date: 2026-04-25
-access_url: https://iris.epa.gov/ChemicalLanding/&substance_nmbr=141
 license: us-government-work
 metals: [Cd]
 ingredients: ["[[ingredients/water]]"]

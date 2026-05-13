@@ -7,6 +7,7 @@ authors: [Reksten AM, Rahman Z, Kjellevold M, Ahern MB, Mdegela RH, Hossain MB, 
 year: 2021
 publication: "Foods"
 doi: 10.3390/foods10051147
+access_url: https://doi.org/10.3390/foods10051147
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

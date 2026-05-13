@@ -7,6 +7,7 @@ authors: [Jaramillo-Mazo C, Bravo D, Villanueva-Mejía DF, Correa-Alvarez J]
 year: 2026
 publication: "PLoS One"
 doi: "10.1371/journal.pone.0345645"
+access_url: https://doi.org/10.1371/journal.pone.0345645
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

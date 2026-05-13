@@ -7,6 +7,8 @@ authors: [Sun J, Shao Y, He G, Wu Y]
 year: 2022
 publication: "Biomedical and Environmental Sciences"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Statement%20on%20Establishment%20of%20A%20Provisional%20Health%20Based%20Guidance%20Value%20for%20Dietary%20Exposure%20to%20Cadmium%20in%20China
 source_type: government-report
 evidence_tier: A
 license: unknown

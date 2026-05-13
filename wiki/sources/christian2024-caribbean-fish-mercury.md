@@ -6,7 +6,8 @@ title: "An evaluation of fish and invertebrate mercury concentrations in the Car
 authors: [Christian LD, Burton MEH, Mohammed A, Nelson W, Ali Shah T, Bertide-Josiah L, Yurek HG, Evers DC]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
+doi: 10.1007/s10646-024-02754-y
+access_url: https://doi.org/10.1007/s10646-024-02754-y
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

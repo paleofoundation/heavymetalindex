@@ -7,6 +7,8 @@ authors: [Valizadeh Moghadam Jirandehi H, Nourieh N, Yazdanfar N, Kashi G]
 year: 2023
 publication: "Scientific Reports (published 2023; open access)"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Health%20Risk%20Assessment%20of%20Potentially%20Toxic%20Elements%20in%20Canned%20Pinto%20Beans%20and%20Fava%20Beans%20Distributed%20in%20Gilan%20Province%20of%20Iran
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

@@ -6,7 +6,8 @@ title: "Detection of Inorganic Arsenic in Rice Using a Field-Deployable Method w
 authors: [Wehmeier S, Preihs M, Dressler J, Raab A, Feldmann J]
 year: 2023
 publication: "Analytical and Bioanalytical Chemistry (published online 23 November 2023)"
-doi: null
+doi: 10.1007/s00216-023-05041-7
+access_url: https://doi.org/10.1007/s00216-023-05041-7
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

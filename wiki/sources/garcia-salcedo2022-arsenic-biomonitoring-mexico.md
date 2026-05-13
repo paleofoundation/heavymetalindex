@@ -7,6 +7,7 @@ authors: [García Salcedo JJ, et al.]
 year: 2022
 publication: "International Journal of Environmental Research and Public Health 19(23):16232"
 doi: 10.3390/ijerph192316232
+access_url: https://doi.org/10.3390/ijerph192316232
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

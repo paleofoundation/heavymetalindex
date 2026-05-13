@@ -7,6 +7,7 @@ authors: [Hadi QM, Mahdi FA, Hamood FJ, Abbas SH, Abojassim AA]
 year: 2025
 publication: "International Journal of Analytical Chemistry"
 doi: 10.1155/ianc/3934929
+access_url: https://doi.org/10.1155/ianc/3934929
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

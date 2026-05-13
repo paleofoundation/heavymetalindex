@@ -6,7 +6,8 @@ title: "Toxicological Profile for Lead"
 authors: ["Agency for Toxic Substances and Disease Registry"]
 year: 2020
 publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
-doi: null
+doi: 10.15620/cdc:95222
+access_url: https://doi.org/10.15620/cdc:95222
 source_type: government-report
 evidence_tier: A
 license: "us-government-work"

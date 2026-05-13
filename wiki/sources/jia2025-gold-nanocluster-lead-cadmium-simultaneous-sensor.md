@@ -6,7 +6,8 @@ title: "Gold Nanocluster-Based Fluorescence Sensor for Simultaneous Detection of
 authors: [Jia X, Wang L, Zhou Y, Liu R]
 year: 2025
 publication: null
-doi: null
+doi: 10.1039/d5ra02612a
+access_url: https://doi.org/10.1039/d5ra02612a
 source_type: peer-reviewed
 evidence_tier: A
 license: null

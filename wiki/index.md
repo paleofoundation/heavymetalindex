@@ -75,30 +75,30 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd>156</dd>
+      <dd>296</dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd>60</dd>
+      <dd>72</dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
-      <dd>25</dd>
+      <dd>28</dd>
       <small>FDA TDS, FDA baby-food compliance, EFSA, FSA, WHO GEMS, and similar recurring monitoring data extracts.</small>
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd>215</dd>
+      <dd>359</dd>
       <small>Peer-reviewed primary studies and government reports per CLAUDE.md Part 13.</small>
     </div>
     <div>
       <dt>Structured evidence records</dt>
-      <dd>549</dd>
+      <dd>557</dd>
       <small>Per-value entries in the evidence layer with basis, species, unit, and statistic-type metadata.</small>
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd>47</dd>
+      <dd>107</dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
@@ -117,7 +117,7 @@ updated: 2026-04-30
       <dd>36</dd>
     </div>
   </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-05-12. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">/sources/</a>.</p>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-05-13. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">/sources/</a>.</p>
 </section>
 <!-- END: hmi-corpus-counter -->
 

@@ -6,7 +6,8 @@ title: "Evaluation of selected ultra-trace minerals in commercially available dr
 authors: [Kim HT, Loftus JP, Gagné JW, Rutzke MA, Glahn RP, Wakshlag JJ]
 year: null
 publication: "Veterinary Medicine: Research and Reports"
-doi: null
+doi: 10.2147/vmrr.s165890
+access_url: https://doi.org/10.2147/vmrr.s165890
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown

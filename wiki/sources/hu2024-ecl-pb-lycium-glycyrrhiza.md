@@ -7,6 +7,7 @@ authors: [Hu H, Wang C, Qian C, Li C, Li Y, Pan J, Ni X]
 year: 2024
 publication: "RSC Advances"
 doi: 10.1039/d4ra05742b
+access_url: https://doi.org/10.1039/d4ra05742b
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

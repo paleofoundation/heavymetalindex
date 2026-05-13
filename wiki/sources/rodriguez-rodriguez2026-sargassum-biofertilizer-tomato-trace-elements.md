@@ -7,6 +7,7 @@ authors: [Rodríguez-Rodríguez R, Sánchez-García A, Ruiz-Lozano JM, Aroca R]
 year: 2026
 publication: "Agronomy"
 doi: "10.3390/agronomy16050976"
+access_url: https://doi.org/10.3390/agronomy16050976
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

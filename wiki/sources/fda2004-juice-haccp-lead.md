@@ -6,12 +6,13 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2004
 publication: "FDA Guidance for Industry"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Juice%20HACCP%20Hazards%20and%20Controls%20Guidance%2C%20First%20Edition%20%E2%80%94%20Lead%20in%20Juice
 source_type: gov-guidance
 evidence_tier: A
 raw_path: null
 sha256: null
 access_date: 2026-05-03
-access_url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-juice-hazard-analysis-critical-control-point-hazards-and-controls-guidance-first
 license: us-government-work
 metals: [Pb]
 ingredients: ["[[ingredients/fruit-juice]]"]

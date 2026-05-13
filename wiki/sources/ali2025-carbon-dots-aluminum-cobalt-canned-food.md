@@ -7,6 +7,8 @@ authors: [Ali A, Khan S, Iqbal A]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Carbon%20Dots%20Fluorometric%20Sensor%20for%20Simultaneous%20Detection%20of%20Aluminum%20and%20Cobalt%20in%20Canned%20Foods
 source_type: peer-reviewed
 evidence_tier: A
 license: null

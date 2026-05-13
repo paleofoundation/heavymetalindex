@@ -7,6 +7,7 @@ authors: [Sirisangarunroj P, Monboonpitak N, Karnpanit W, Sridonpai P, Singhato 
 year: 2023
 publication: "Foods 2023, 12, 3967"
 doi: 10.3390/foods12213967
+access_url: https://doi.org/10.3390/foods12213967
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

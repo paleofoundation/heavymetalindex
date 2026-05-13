@@ -7,6 +7,7 @@ authors: [Bakyayita GK, Norrström AC, Kulabako RN]
 year: 2019
 publication: "Journal of Environmental and Public Health"
 doi: "10.1155/2019/6734017"
+access_url: https://doi.org/10.1155/2019/6734017
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

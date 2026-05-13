@@ -7,6 +7,7 @@ authors: [Su C, Zheng N, Gao Y, Huang S, Yang X, Wang Z, Yang H, Wang J]
 year: 2020
 publication: "Foods 9(12):1839"
 doi: 10.3390/foods9121839
+access_url: https://doi.org/10.3390/foods9121839
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

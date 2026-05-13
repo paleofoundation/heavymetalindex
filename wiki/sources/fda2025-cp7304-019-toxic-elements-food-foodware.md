@@ -6,13 +6,14 @@ authors: [US Food and Drug Administration]
 year: 2025
 publication: "US Food and Drug Administration"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Compliance%20Program%20Guidance%20Manual%3A%20Toxic%20Elements%20in%20Food%20and%20Foodware%2C%20and%20Radionuclides%20in%20Food%20%E2%80%93%20Import%20and%20Domestic%20(Program%207304.019)
 source_type: gov-report
 evidence_tier: A
 license: "public-domain-us-government"
 raw_path: raw/reports/fda2025-cp7304-019-toxic-elements-food-foodware.pdf
 sha256: e0ada94de8479e2b03757e3ab5f505e2c11282a0d06e433222b6bbca579fbaa0
 access_date: 2026-05-12
-access_url: "https://www.fda.gov/media/71877/download"
 metals: [Pb, Cd, tAs, tHg, Al, Cr, Sn, Sb, U]
 ingredients: []
 products: []

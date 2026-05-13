@@ -6,13 +6,14 @@ authors: [FDA]
 year: 2018
 publication: "U.S. Food and Drug Administration"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Fiscal%20Year%202018%20Arsenic%20in%20Infant%20Rice%20Cereals%20Assignment%20Data
 source_type: government-report
 evidence_tier: A
 license: "us-government-work"
 raw_path: raw/reports/fda2018-iAs-infant-rice-cereals-fy2018.pdf
 sha256: b274e31af29a05594448ee513e3a69123eeb6dddc04b76cbc5455efbfaf785ab
 access_date: 2026-05-12
-access_url: "https://www.fda.gov/food/environmental-contaminants-food/what-we-are-doing-arsenic-rice-and-rice-products"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/baby-cereals-dry-rice-based]]"]

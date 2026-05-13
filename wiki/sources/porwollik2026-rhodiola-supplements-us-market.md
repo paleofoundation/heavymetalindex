@@ -7,6 +7,7 @@ authors: [Porwollik S, Jafari M]
 year: 2026
 publication: "PLoS One"
 doi: "10.1371/journal.pone.0341070"
+access_url: https://doi.org/10.1371/journal.pone.0341070
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

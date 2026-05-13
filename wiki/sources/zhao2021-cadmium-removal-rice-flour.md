@@ -7,6 +7,7 @@ authors: [Zhao F, Zhang H, et al.]
 year: 2021
 publication: "Food Science & Nutrition"
 doi: 10.1002/fsn3.2427
+access_url: https://doi.org/10.1002/fsn3.2427
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

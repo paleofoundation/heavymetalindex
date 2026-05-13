@@ -7,6 +7,8 @@ authors: [Zandi O, Hakimi F, Keshavarzi M]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Carbon%20Quantum%20Dots%20from%20Coffee%20Waste%20for%20Fluorescence%20Detection%20of%20Cr(VI)%20in%20Water
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"

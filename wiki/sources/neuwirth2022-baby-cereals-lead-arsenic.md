@@ -7,6 +7,7 @@ authors: [Neuwirth LS, et al.]
 year: 2022
 publication: "International Journal of Environmental Research and Public Health 19(10):5788"
 doi: 10.3390/ijerph19105788
+access_url: https://doi.org/10.3390/ijerph19105788
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

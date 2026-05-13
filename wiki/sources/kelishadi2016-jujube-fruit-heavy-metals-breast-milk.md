@@ -7,6 +7,7 @@ authors: [Kelishadi R, Hasanghaliaei N, Poursafa P, Keikha M, Ghannadi A, Yazdi 
 year: 2016
 publication: "Journal of Research in Medical Sciences 21(1):94"
 doi: 10.4103/1735-1995.193499
+access_url: https://doi.org/10.4103/1735-1995.193499
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-SA 3.0"

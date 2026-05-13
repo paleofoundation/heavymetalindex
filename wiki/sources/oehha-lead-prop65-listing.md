@@ -6,12 +6,13 @@ authors: ["California Office of Environmental Health Hazard Assessment"]
 year: null
 publication: "California Office of Environmental Health Hazard Assessment, Proposition 65 Listings"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Lead%20and%20Lead%20Compounds%20%E2%80%94%20Proposition%2065%20Chemical%20Listing
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/OEHHA_Lead_Prop65_Listing.pdf
 sha256: 60a76a78d520e4506a7a85593e4d58527a4d800c2278d6316c6c979715007347
 access_date: 2026-04-25
-access_url: https://oehha.ca.gov/proposition-65/chemicals/lead
 license: us-government-work
 metals: [Pb]
 ingredients: []

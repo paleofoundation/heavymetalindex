@@ -7,6 +7,7 @@ authors: [Pinto JJ, Manuel V, Moreno C]
 year: 2023
 publication: "Membranes"
 doi: "10.3390/membranes13030327"
+access_url: https://doi.org/10.3390/membranes13030327
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

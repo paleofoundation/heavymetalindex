@@ -7,6 +7,7 @@ authors: [Chepak A, Balatskiy D, Tutov M, Mironenko A, Bratskaya S]
 year: 2023
 publication: "Molecules"
 doi: "10.3390/molecules28041633"
+access_url: https://doi.org/10.3390/molecules28041633
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

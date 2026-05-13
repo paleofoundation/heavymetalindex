@@ -6,12 +6,13 @@ authors: ["U.S. Environmental Protection Agency, National Center for Environment
 year: 2004
 publication: "U.S. Environmental Protection Agency, Integrated Risk Information System"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Lead%20and%20Compounds%20(Inorganic)%20%E2%80%94%20IRIS%20Chemical%20Assessment%20Summary
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_IRIS_Lead_ToxicologicalReview.pdf
 sha256: 943768c1a23663e136cf277ffd01188e92018aacbc2def84fe5d08cf9f3184d6
 access_date: 2026-04-25
-access_url: https://iris.epa.gov/ChemicalLanding/&substance_nmbr=277
 license: us-government-work
 metals: [Pb]
 ingredients: []

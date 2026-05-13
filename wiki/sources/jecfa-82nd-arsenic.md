@@ -6,12 +6,13 @@ authors: ["Joint FAO/WHO Expert Committee on Food Additives"]
 year: 2017
 publication: "WHO Food Additives Series 73"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Safety%20Evaluation%20of%20Certain%20Food%20Additives%20(Arsenic)%2C%2082nd%20Meeting%20of%20JECFA
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/JECFA_Arsenic_Monograph.pdf
 sha256: 3fecde4a1e9ce7ed2b38bf9c4ff455b6dfdddfbbe24659d02b29184f96ee14fd
 access_date: 2026-04-25
-access_url: https://apps.who.int/iris/handle/10665/259533
 license: CC-BY-NC-SA-3.0-IGO
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/water]]", "[[ingredients/seafood]]"]

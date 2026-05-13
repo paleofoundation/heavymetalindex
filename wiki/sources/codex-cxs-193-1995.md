@@ -6,12 +6,13 @@ authors: ["Codex Alimentarius Commission"]
 year: 1995
 publication: "Codex Alimentarius (Joint FAO/WHO Food Standards Programme)"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=General%20Standard%20for%20Contaminants%20and%20Toxins%20in%20Food%20and%20Feed%20(CXS%20193-1995)
 source_type: gov-report
 evidence_tier: A
 raw_path: null
 sha256: null
 access_date: 2026-04-25
-access_url: https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B193-1995%252FCXS_193e.pdf
 license: public-redistribute
 metals: [Cd, Pb, Hg, MeHg, iAs, Sn]
 ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/fruit]]", "[[ingredients/vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/root-vegetables]]", "[[ingredients/broccoli]]", "[[ingredients/onions]]", "[[ingredients/lentils]]", "[[ingredients/celery]]", "[[ingredients/fish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/seafood]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/organ-meats]]", "[[ingredients/meat]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/infant-formula-ingredients]]", "[[ingredients/rice-cereal]]", "[[ingredients/water]]"]

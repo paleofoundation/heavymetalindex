@@ -7,6 +7,7 @@ authors: [Arain GM, Memon S, Arain MB, Memon AA, Arain SA, Khuhawar MY]
 year: 2026
 publication: "ACS Omega"
 doi: 10.1021/acsomega.4c10893
+access_url: https://doi.org/10.1021/acsomega.4c10893
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,7 @@ authors: [Fångström B, Moore S, Nermell B, Kuenstl L, Goessler W, Grandér M, 
 year: 2008
 publication: "Environmental Health Perspectives 116(7):963–969"
 doi: 10.1289/ehp.11094
+access_url: https://doi.org/10.1289/ehp.11094
 source_type: peer-reviewed
 evidence_tier: A
 license: "open access (NIEHS)"

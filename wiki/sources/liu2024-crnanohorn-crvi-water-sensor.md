@@ -6,7 +6,9 @@ title: "Carbon nanohorn electrochemical sensor for Cr(VI) in tap water"
 authors: [Liu]
 year: 2024
 publication: unknown
-doi: unknown
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Carbon%20nanohorn%20electrochemical%20sensor%20for%20Cr(VI)%20in%20tap%20water
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

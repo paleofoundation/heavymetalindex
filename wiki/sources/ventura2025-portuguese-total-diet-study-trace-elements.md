@@ -7,6 +7,8 @@ authors: [Ventura M, Rego A, Gueifão S, Delgado I, Coelho I]
 year: 2025
 publication: "Foods"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Dietary%20Exposure%20to%20Essential%20and%20Toxic%20Trace%20Elements%20in%20the%20Portuguese%20Population%3A%20A%20Total%20Diet%20Study%20Approach
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

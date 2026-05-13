@@ -7,6 +7,7 @@ authors: [Bandara JMRS, Wijewardena HVP, Liyanege J, Upul MA, Bandara JMUA]
 year: 2010
 publication: "Toxicology Letters 198(1):33–39"
 doi: 10.1016/j.toxlet.2010.04.016
+access_url: https://doi.org/10.1016/j.toxlet.2010.04.016
 source_type: peer-reviewed
 evidence_tier: A
 license: paywalled

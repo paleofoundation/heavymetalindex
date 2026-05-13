@@ -6,7 +6,8 @@ title: "Design and fabrication of self-calibration colorimetric/fluorescence/SER
 authors: [Chen J, Zhang C, Yi L, Duan F, Gu Y, Ge K, Fan X]
 year: 2024
 publication: "Food Chemistry: X"
-doi: unknown
+doi: 10.1016/j.fochx.2024.101958
+access_url: https://doi.org/10.1016/j.fochx.2024.101958
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

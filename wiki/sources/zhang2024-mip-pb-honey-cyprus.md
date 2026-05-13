@@ -6,7 +6,9 @@ title: "Molecularly imprinted polymer electrochemical sensor for lead detection 
 authors: [Zhang]
 year: 2024
 publication: unknown
-doi: unknown
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Molecularly%20imprinted%20polymer%20electrochemical%20sensor%20for%20lead%20detection%20in%20honey
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

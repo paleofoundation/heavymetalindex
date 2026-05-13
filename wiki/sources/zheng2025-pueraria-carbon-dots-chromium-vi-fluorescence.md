@@ -7,6 +7,7 @@ authors: [Zheng Z, Zhou Z]
 year: 2025
 publication: "Sensors"
 doi: "10.3390/s25175554"
+access_url: https://doi.org/10.3390/s25175554
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

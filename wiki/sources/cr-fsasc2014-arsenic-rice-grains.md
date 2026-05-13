@@ -5,14 +5,14 @@ title: "Analysis of Arsenic in Rice and Other Grains"
 authors: [Consumer Reports Food Safety and Sustainability Center]
 year: 2014
 publication: "Consumer Reports Food Safety and Sustainability Center"
-doi: null
+doi: 10.1201/b16767-165
 source_type: industry
 evidence_tier: B
 license: "all-rights-reserved"
 raw_path: raw/reports/cr-fsasc2014-arsenic-rice-grains.pdf
 sha256: d0549260c22da3cf20064d5f0cc803a18d974ce921e18e840ea46080314f8ce0
 access_date: 2026-05-12
-access_url: null
+access_url: https://doi.org/10.1201/b16767-165
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/quinoa]]"]
 products: ["[[products/baby-cereals-dry-rice-based]]"]

@@ -6,12 +6,13 @@ authors: ["Joint FAO/WHO Expert Committee on Food Additives"]
 year: 2011
 publication: "WHO Technical Report Series 959"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Evaluation%20of%20Certain%20Contaminants%20in%20Food%3A%20Seventy-second%20Report%20of%20the%20Joint%20FAO%2FWHO%20Expert%20Committee%20on%20Food%20Additives%20(Lead%2C%20among%20others)
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/JECFA_Lead_Monograph.pdf
 sha256: 7300ccdfa4eb81143c27f96f0f9078727eaab0ce541aed1947a9d5e139160e94
 access_date: 2026-04-25
-access_url: https://apps.who.int/iris/handle/10665/44514
 license: CC-BY-NC-SA-3.0-IGO
 metals: [Pb, As, Hg, MeHg]
 ingredients: []

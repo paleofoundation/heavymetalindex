@@ -6,7 +6,9 @@ title: "Nitrogen-doped graphene quantum dot fluorescent sensor for Cr(VI) detect
 authors: [Wang]
 year: 2024
 publication: unknown
-doi: unknown
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Nitrogen-doped%20graphene%20quantum%20dot%20fluorescent%20sensor%20for%20Cr(VI)%20detection
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

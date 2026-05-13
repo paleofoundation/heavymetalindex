@@ -6,7 +6,8 @@ title: "Multiplexed Ultra-Sensitive Detection of Cr(III) and Cr(VI) Ion by FET S
 authors: [Shahim S, Sukesan R, Sarangadharan I, Wang YL]
 year: 2019
 publication: "Sensors"
-doi: null
+doi: 10.3390/s19091969
+access_url: https://doi.org/10.3390/s19091969
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

@@ -6,7 +6,9 @@ title: "Single-particle ICP-MS characterisation of metal nanoparticles in mussel
 authors: [Bao]
 year: 2024
 publication: unknown
-doi: unknown
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Single-particle%20ICP-MS%20characterisation%20of%20metal%20nanoparticles%20in%20mussels
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

@@ -7,6 +7,8 @@ authors: [Chronchol M, et al.]
 year: 2026
 publication: "Nutrients 2026, 18, 333"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Trace%20Element%20Intake%20from%20Dairy-Free%20Infant%20Porridges
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

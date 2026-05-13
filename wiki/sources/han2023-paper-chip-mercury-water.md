@@ -7,6 +7,7 @@ authors: [Han J, Liu H, Qi J, Xiang J, Fu L, Sun X, Wang L, Wang X, Li B, Chen L
 year: 2023
 publication: "Sensors"
 doi: "10.3390/s23063094"
+access_url: https://doi.org/10.3390/s23063094
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

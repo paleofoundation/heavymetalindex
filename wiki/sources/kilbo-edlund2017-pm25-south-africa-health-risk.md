@@ -7,6 +7,7 @@ authors: [Kilbo Edlund K, Killman F, Molnár P, Boman J, Stockfelt L, Wichmann J
 year: 2017
 publication: "International Journal of Environmental Research and Public Health"
 doi: "10.3390/ijerph18031359"
+access_url: https://doi.org/10.3390/ijerph18031359
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

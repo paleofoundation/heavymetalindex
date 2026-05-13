@@ -7,6 +7,7 @@ authors: [Kumar A, Agarwal N, Kumar K, Chayal M, Kumar G, Kumar R, Ali A, Srivas
 year: 2025
 publication: "BMC Public Health 25(1)"
 doi: 10.1186/s12889-024-20709-8
+access_url: https://doi.org/10.1186/s12889-024-20709-8
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

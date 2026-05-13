@@ -7,6 +7,8 @@ authors: [Hu Y, Zhang X, Wang J, Chen L]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Bacillus%20megaterium%20CMOS%20Biosensor%20for%20Arsenic%20Detection%20Below%20EPA%2010%20ppb%20in%20Soil%20and%20Food
 source_type: peer-reviewed
 evidence_tier: A
 license: null

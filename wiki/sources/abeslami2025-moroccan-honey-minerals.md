@@ -7,6 +7,7 @@ authors: [Abeslami A, El Farissi H, Cacciola F, Oulad El Majdoub Y, Mondello L, 
 year: 2025
 publication: "Molecules"
 doi: 10.3390/molecules30010150
+access_url: https://doi.org/10.3390/molecules30010150
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

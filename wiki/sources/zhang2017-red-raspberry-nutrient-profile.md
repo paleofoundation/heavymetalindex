@@ -7,6 +7,8 @@ authors: [Zhang X, Ahuja JKC, Burton-Freeman BM]
 year: 2017
 publication: "Journal of Food Composition and Analysis"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Characterization%20of%20the%20nutrient%20profile%20of%20processed%20red%20raspberries%20for%20use%20in%20nutrition%20labeling%20and%20promoting%20healthy%20food%20choices
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown

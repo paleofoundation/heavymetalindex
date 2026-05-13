@@ -7,6 +7,7 @@ authors: [Li M, Chen X, Xia X, Zhang T, Zhang W, Xu Q, Zhao X]
 year: 2025
 publication: "Frontiers in Nutrition"
 doi: 10.3389/fnut.2025.1707179
+access_url: https://doi.org/10.3389/fnut.2025.1707179
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

@@ -6,7 +6,9 @@ title: "LIBS detection of lead in contaminated soils"
 authors: [Sun]
 year: 2024
 publication: unknown
-doi: unknown
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=LIBS%20detection%20of%20lead%20in%20contaminated%20soils
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

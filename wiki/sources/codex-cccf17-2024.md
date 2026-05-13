@@ -6,12 +6,13 @@ authors: ["Codex Alimentarius Commission, Codex Committee on Contaminants in Foo
 year: 2024
 publication: "Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Report%20of%20the%2017th%20Session%20of%20the%20Codex%20Committee%20on%20Contaminants%20in%20Foods%20(REP24%2FCF17)
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/Codex_CCCF17_SessionReport_REP24_CF17.pdf
 sha256: 3d5f0a1ef4e0bcdeb85305cfa767ee17f533598cfa63a195cfaae98512cdc7fe
 access_date: 2026-04-24
-access_url: https://www.fao.org/fao-who-codexalimentarius/meetings/detail/en/?meeting=CCCF&session=17
 license: public-reference-only
 metals: [Pb, Cd, Hg, MeHg, iAs, tAs]
 ingredients: ["[[ingredients/non-rice-grains]]", "[[ingredients/herbal-botanicals]]", "[[ingredients/peanuts]]", "[[ingredients/cocoa]]", "[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]

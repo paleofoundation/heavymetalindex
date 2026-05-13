@@ -7,6 +7,7 @@ authors: [Wang X, Zhang Y, Li J, Chen H, Liu M]
 year: 2025
 publication: "Analytical Chemistry"
 doi: 10.1021/acs.analchem.5cXXXXX
+access_url: https://doi.org/10.1021/acs.analchem.5cXXXXX
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

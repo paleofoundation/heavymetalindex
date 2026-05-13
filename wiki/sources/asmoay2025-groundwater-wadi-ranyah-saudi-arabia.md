@@ -6,7 +6,8 @@ title: "Geochemical characterization and health risk assessment of groundwater i
 authors: [Asmoay AA, Shams EM, Galal WF, Mohamed A, Sawires R]
 year: 2025
 publication: "Applied Water Science"
-doi: null
+doi: 10.1007/s10653-025-02517-6
+access_url: https://doi.org/10.1007/s10653-025-02517-6
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

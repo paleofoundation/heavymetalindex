@@ -7,6 +7,7 @@ authors: [Zuhlke MD, Crock JG, Smith DB, Benzel WM]
 year: 2026
 publication: "Environmental Science & Technology"
 doi: "10.1021/acs.est.5c08523"
+access_url: https://doi.org/10.1021/acs.est.5c08523
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"

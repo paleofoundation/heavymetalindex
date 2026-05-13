@@ -6,12 +6,13 @@ authors: ["U.S. Environmental Protection Agency, Office of Water"]
 year: 2001
 publication: "U.S. Environmental Protection Agency"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=EPA%20Drinking%20Water%20Arsenic%20MCL%20Rule%20(10%20ppb)
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_Arsenic_DrinkingWater_MCL.pdf
 sha256: 269d6cbbb0b7c8a1f098034e9f46073b8e170e72c7abf83cb9a81fc3ddf65564
 access_date: 2026-04-25
-access_url: https://www.epa.gov/dwreginfo/chemical-contaminant-rules
 license: us-government-work
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/water]]"]

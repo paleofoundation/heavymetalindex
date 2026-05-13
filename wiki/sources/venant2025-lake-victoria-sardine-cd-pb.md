@@ -6,7 +6,8 @@ title: "Community Awareness and Health Risk of Heavy Metals Through Consumption 
 authors: [Venant HK, Lwetoijera DW, Kassim N]
 year: 2025
 publication: "Food Science & Nutrition"
-doi: null
+doi: 10.1002/fsn3.70898
+access_url: https://doi.org/10.1002/fsn3.70898
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

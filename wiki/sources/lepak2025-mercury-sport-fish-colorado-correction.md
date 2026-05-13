@@ -7,6 +7,7 @@ authors: [Lepak JM, Bhavsar SP, Eagles-Smith CA]
 year: 2025
 publication: "PLOS ONE"
 doi: "10.1371/journal.pone.0325891"
+access_url: https://doi.org/10.1371/journal.pone.0325891
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

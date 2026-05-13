@@ -7,6 +7,7 @@ authors: [Erol S, Ürkek B]
 year: 2025
 publication: "Food Science & Nutrition"
 doi: 10.1002/fsn3.4863
+access_url: https://doi.org/10.1002/fsn3.4863
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

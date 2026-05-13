@@ -6,12 +6,13 @@ authors: ["California Office of Environmental Health Hazard Assessment, Reproduc
 year: 2001
 publication: "California Environmental Protection Agency, Office of Environmental Health Hazard Assessment"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Proposition%2065%20Maximum%20Allowable%20Daily%20Level%20(MADL)%20for%20Reproductive%20Toxicity%20for%20Cadmium%20(Oral%20Route)
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/OEHHA_Cadmium_Prop65_MADL.pdf
 sha256: ec5c7a5c0460e99cbb525c09d842973bfc0dbbc64d8d3444df3507a35b639666
 access_date: 2026-04-24
-access_url: https://oehha.ca.gov/proposition-65/crnr/cadmium-causing-reproductive-toxicity
 license: us-government-work
 metals: [Cd]
 ingredients: []

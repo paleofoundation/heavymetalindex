@@ -7,6 +7,7 @@ authors: [Haydous F, Hassan HF, Shehab A, Alwan N, Serhan M, Dimassi H, Akoury E
 year: 2025
 publication: "RSC Advances"
 doi: 10.1039/d5ra02790j
+access_url: https://doi.org/10.1039/d5ra02790j
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

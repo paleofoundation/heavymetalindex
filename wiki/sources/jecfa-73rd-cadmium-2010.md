@@ -6,12 +6,13 @@ authors: ["Joint FAO/WHO Expert Committee on Food Additives"]
 year: 2011
 publication: "WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380)"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Cadmium%20(Addendum)%2C%2073rd%20Meeting%20of%20the%20Joint%20FAO%2FWHO%20Expert%20Committee%20on%20Food%20Additives%20%E2%80%94%20Safety%20Evaluation%20of%20Certain%20Food%20Additives%20and%20Contaminants
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/9789241660648_eng.pdf
 sha256: 00e91ef842f884c0d244f7a8b9d48ff62dc60fccff78bfadaf757e3daf1123b6
 access_date: 2026-04-25
-access_url: https://apps.who.int/iris/handle/10665/44520
 license: CC-BY-NC-SA-3.0-IGO
 metals: [Cd, Pb]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/organ-meats]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]"]

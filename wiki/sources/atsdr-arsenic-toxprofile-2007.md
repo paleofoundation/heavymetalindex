@@ -5,13 +5,13 @@ title: "Toxicological Profile for Arsenic"
 authors: ["Agency for Toxic Substances and Disease Registry"]
 year: 2007
 publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
-doi: null
+doi: 10.15620/cdc:11481
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/ATSDR_Arsenic_ToxProfile.pdf
 sha256: 161703c547fd924a137337f3552c8b4b24255ba060db9d8380204ee202dcbcd7
 access_date: 2026-04-25
-access_url: https://www.atsdr.cdc.gov/toxprofiles/tp2.pdf
+access_url: https://doi.org/10.15620/cdc:11481
 license: us-government-work
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/water]]", "[[ingredients/seafood]]", "[[ingredients/fish]]"]

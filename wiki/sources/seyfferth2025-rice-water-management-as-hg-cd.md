@@ -7,6 +7,7 @@ authors: [Seyfferth AL, Limmer MA, Jackson BP, Runkle BRK]
 year: 2025
 publication: "GeoHealth"
 doi: 10.1029/2025GH001410
+access_url: https://doi.org/10.1029/2025GH001410
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"

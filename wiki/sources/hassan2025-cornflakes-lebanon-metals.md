@@ -7,6 +7,7 @@ authors: [Hassan H, Abdallah M, Khalil N, Sleiman M]
 year: 2025
 publication: "RSC Advances"
 doi: 10.1039/d5ra03210k
+access_url: https://doi.org/10.1039/d5ra03210k
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

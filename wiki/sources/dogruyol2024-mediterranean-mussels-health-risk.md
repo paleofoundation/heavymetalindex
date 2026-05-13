@@ -6,7 +6,8 @@ title: "Evaluation of Health Risks Attributed to Toxic Trace Elements and Seleni
 authors: [Dogruyol H, Mol S, Ulusoy S, Atanasof A]
 year: 2024
 publication: "Environmental Science and Pollution Research (published online 1 February 2024)"
-doi: null
+doi: 10.1007/s12011-024-04084-w
+access_url: https://doi.org/10.1007/s12011-024-04084-w
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

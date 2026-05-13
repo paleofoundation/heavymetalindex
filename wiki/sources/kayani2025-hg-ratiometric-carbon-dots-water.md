@@ -7,6 +7,7 @@ authors: [Kayani KF]
 year: 2025
 publication: "RSC Advances"
 doi: "10.1039/d5ra06396e"
+access_url: https://doi.org/10.1039/d5ra06396e
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

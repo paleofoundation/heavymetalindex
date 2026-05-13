@@ -7,6 +7,7 @@ authors: [Carignan CC, Cottingham KL, Jackson BP, Farzan SF, Gandolfi AJ, Punsho
 year: 2015
 publication: "Environmental Health Perspectives 123(12):1281–1287"
 doi: 10.1289/ehp.1408789
+access_url: https://doi.org/10.1289/ehp.1408789
 source_type: peer-reviewed
 evidence_tier: A
 license: "open access (NIEHS)"

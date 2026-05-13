@@ -6,12 +6,13 @@ authors: ["European Commission"]
 year: 2023
 publication: "Official Journal of the European Union / EUR-Lex consolidated regulation"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Commission%20Regulation%20(EU)%202023%2F915%20%E2%80%94%20Lead%20Maximum%20Levels%20for%20Infant%20and%20Young-Child%20Foods
 source_type: regulation
 evidence_tier: A
 raw_path: null
 sha256: null
 access_date: 2026-05-03
-access_url: https://eur-lex.europa.eu/eli/reg/2023/915
 license: public-regulatory-text
 metals: [Pb]
 ingredients: []

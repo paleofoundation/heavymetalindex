@@ -6,7 +6,8 @@ title: "Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches —
 authors: [Napier MD, et al.]
 year: 2024
 publication: "MMWR Morbidity and Mortality Weekly Report"
-doi: null
+doi: 10.15585/mmwr.mm7328a2
+access_url: https://doi.org/10.15585/mmwr.mm7328a2
 source_type: government-report
 evidence_tier: A
 license: "public domain (US government)"

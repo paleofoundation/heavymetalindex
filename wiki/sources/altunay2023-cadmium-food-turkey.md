@@ -7,6 +7,7 @@ authors: [Altunay N, Hazer B, Lanjwani MF, Tuzen M]
 year: 2023
 publication: "Foods 2023, 12, 3620"
 doi: 10.3390/foods12193620
+access_url: https://doi.org/10.3390/foods12193620
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

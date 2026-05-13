@@ -7,6 +7,7 @@ authors: [Asadi Touranlou F, Ghasemi S, Gholian Aval M, Hashemi M, Tavakoly Sany
 year: 2025
 publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0327652
+access_url: https://doi.org/10.1371/journal.pone.0327652
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,7 @@ authors: [Naz S, Ullah Q, Fouad D, Qadeer A, Lateef M, Hassan MW, Chatha AMM]
 year: 2025
 publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0310744
+access_url: https://doi.org/10.1371/journal.pone.0310744
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

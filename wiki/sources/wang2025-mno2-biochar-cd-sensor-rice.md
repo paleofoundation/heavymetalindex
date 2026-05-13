@@ -7,6 +7,7 @@ authors: [Wang B, Tang K, Yang F]
 year: 2025
 publication: "Foods"
 doi: 10.3390/foods14244252
+access_url: https://doi.org/10.3390/foods14244252
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

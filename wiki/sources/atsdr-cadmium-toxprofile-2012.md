@@ -6,12 +6,13 @@ authors: ["Agency for Toxic Substances and Disease Registry"]
 year: 2012
 publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Toxicological%20Profile%20for%20Cadmium
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/ATSDR_Cadmium_ToxProfile.pdf
 sha256: c0cf82387e85df3ee5642f231d2fb0f97755abaa82aad76fa38adcde746f2ecb
 access_date: 2026-04-24
-access_url: https://www.atsdr.cdc.gov/toxprofiles/tp5.pdf
 license: us-government-work
 metals: [Cd]
 ingredients: []

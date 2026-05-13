@@ -7,6 +7,7 @@ authors: [Albuquerque FEA, Monteiro GC, Freitas MB, Silva EO, Aviz RL, Lima MO]
 year: 2026
 publication: "ACS Omega"
 doi: 10.1021/acsomega.4c11278
+access_url: https://doi.org/10.1021/acsomega.4c11278
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

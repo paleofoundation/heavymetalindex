@@ -6,12 +6,13 @@ authors: ["U.S. Environmental Protection Agency, Office of Solid Waste and Emerg
 year: 2007
 publication: "OSWER Directive 9285.7-76, U.S. Environmental Protection Agency"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Ecological%20Soil%20Screening%20Levels%20for%20Nickel%20%E2%80%94%20Interim%20Final
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/eco-ssl_nickel.pdf
 sha256: 69772e091c9ed0226f8aee94e3ae99bdd1a59ea21bb41121083982cf62322ce1
 access_date: 2026-04-25
-access_url: https://www.epa.gov/risk/ecological-soil-screening-levels-eco-ssls
 license: us-government-work
 metals: [Ni]
 ingredients: []

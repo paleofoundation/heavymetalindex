@@ -7,6 +7,7 @@ authors: [Wang J, Ding Z, Wu X, Wang X, Li H, Zhu M, Zhang X]
 year: 2025
 publication: "Foods"
 doi: 10.3390/foods14213779
+access_url: https://doi.org/10.3390/foods14213779
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

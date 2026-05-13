@@ -6,13 +6,14 @@ authors: [US Food and Drug Administration, Center for Food Safety and Applied Nu
 year: 2016
 publication: "US Food and Drug Administration"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Arsenic%20in%20Rice%20and%20Rice%20Products%20Risk%20Assessment%20Report
 source_type: gov-report
 evidence_tier: A
 license: "public-domain-us-government"
 raw_path: raw/reports/fda2016-arsenic-rice-risk-assessment.pdf
 sha256: 6f051a13ba6955ce661a417437616badfad1c64fe4298745190de1573cb60bf5
 access_date: 2026-05-12
-access_url: "https://www.fda.gov/food/environmental-contaminants-food/arsenic-rice-and-rice-products-risk-assessment-report"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
 products: []

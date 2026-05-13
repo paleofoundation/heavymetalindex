@@ -7,6 +7,7 @@ authors: [Paul SK, Jahan N, Saha D, Sarker BS, Majumdar PR, Rahman M]
 year: 2025
 publication: "PLoS One"
 doi: 10.1371/journal.pone.0330602
+access_url: https://doi.org/10.1371/journal.pone.0330602
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

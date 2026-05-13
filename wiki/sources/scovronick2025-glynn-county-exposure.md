@@ -7,6 +7,7 @@ authors: [Scovronick N, Lappe B, Pearson MA, Smith KA, Eick SM, D'Souza PE, Panu
 year: 2025
 publication: "Environmental Pollution"
 doi: 10.1016/j.envpol.2025.126240
+access_url: https://doi.org/10.1016/j.envpol.2025.126240
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"

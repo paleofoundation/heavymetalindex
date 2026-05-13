@@ -7,6 +7,7 @@ authors: [Lawluvi D, Glover ET, Agyei-Yeboah C, Nkrumah B]
 year: 2026
 publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2026.1782963
+access_url: https://doi.org/10.3389/fpubh.2026.1782963
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,7 @@ authors: [Zmudzinska A, et al.]
 year: 2022
 publication: "Nutrients 14(11):2325"
 doi: 10.3390/nu14112325
+access_url: https://doi.org/10.3390/nu14112325
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

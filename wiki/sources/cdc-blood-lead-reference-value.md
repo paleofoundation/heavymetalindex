@@ -6,12 +6,13 @@ authors: ["U.S. Centers for Disease Control and Prevention"]
 year: 2021
 publication: "U.S. Centers for Disease Control and Prevention, National Center for Environmental Health"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Blood%20Lead%20Reference%20Value%20(3.5%20%C2%B5g%2FdL)
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/CDC_BloodLeadReferenceValue.pdf
 sha256: faeb03a7b6a3bb5a5e9456c35ec712bf46e9cdcb5903d56db99a16ddfce0ac57
 access_date: 2026-04-25
-access_url: https://www.cdc.gov/nceh/lead/data/blood-lead-reference-value.htm
 license: us-government-work
 metals: [Pb]
 ingredients: []

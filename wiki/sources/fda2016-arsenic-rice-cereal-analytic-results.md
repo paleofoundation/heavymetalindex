@@ -6,13 +6,14 @@ authors: [US Food and Drug Administration]
 year: 2016
 publication: "US Food and Drug Administration"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Analytical%20Results%3A%20Inorganic%20Arsenic%20in%20Infant%2FToddler%20Foods%20(2016)
 source_type: gov-data
 evidence_tier: A
 license: "public-domain-us-government"
 raw_path: raw/reports/fda2016-arsenic-rice-cereal-analytic-results.pdf
 sha256: 1acf9b643bc7bfc34fe1853315f35f1f1cd0bf883996dd7aae0b73b6c4d16329
 access_date: 2026-05-12
-access_url: "https://www.fda.gov/food/environmental-contaminants-food/analytical-results-inorganic-arsenic-infanttoddler-foods"
 metals: [iAs]
 ingredients: ["[[ingredients/rice]]"]
 products: []

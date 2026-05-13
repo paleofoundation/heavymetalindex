@@ -7,6 +7,7 @@ authors: [Reksten AM, Victor AMJC, Neves EBN, Christiansen SM, Ahern M, Uzomah A
 year: 2020
 publication: "Foods"
 doi: 10.3390/foods9050629
+access_url: https://doi.org/10.3390/foods9050629
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

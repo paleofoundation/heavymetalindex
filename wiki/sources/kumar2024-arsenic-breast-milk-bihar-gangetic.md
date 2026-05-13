@@ -7,6 +7,7 @@ authors: [Kumar A, et al.]
 year: 2024
 publication: "Environmental Health 23(1)"
 doi: 10.1186/s12940-024-01115-w
+access_url: https://doi.org/10.1186/s12940-024-01115-w
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"

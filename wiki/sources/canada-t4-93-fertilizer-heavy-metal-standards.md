@@ -6,13 +6,14 @@ authors: [Canadian Food Inspection Agency]
 year: 2024
 publication: "Canadian Food Inspection Agency (CFIA)"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=T-4-93%20%E2%80%93%20Safety%20standards%20for%20fertilizers%20and%20supplements
 source_type: government-regulatory
 evidence_tier: A
 license: "crown-copyright-open-government"
 raw_path: raw/reports/canada-t4-93-fertilizer-heavy-metal-standards.pdf
 sha256: a895f612cb281dddc665391b7989f949870415b21d049b917e1a8667adbb016a
 access_date: 2026-05-12
-access_url: "https://inspection.canada.ca/en/plant-health/fertilizers/trade-memoranda/t-4-93"
 metals: [tAs, Cd, Cr, Pb, Hg, Ni, Se]
 ingredients: []
 products: []

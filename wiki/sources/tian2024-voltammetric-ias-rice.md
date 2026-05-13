@@ -6,7 +6,8 @@ title: "Efficient voltammetric analysis for total inorganic arsenic detection in
 authors: [Tian W, Guo J, Wang S, Zhou M, He Y, Xi X, Chen X, Wang Y, Wu Y, Zhang J]
 year: 2024
 publication: "Food Chemistry: X"
-doi: unknown
+doi: 10.1016/j.fochx.2024.102003
+access_url: https://doi.org/10.1016/j.fochx.2024.102003
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

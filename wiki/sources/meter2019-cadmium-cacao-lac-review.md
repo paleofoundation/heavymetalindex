@@ -6,13 +6,14 @@ authors: [Meter A, Atkinson RJ, Laliberte B]
 year: 2019
 publication: "Bioversity International / CAF Development Bank of Latin America"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Cadmium%20in%20Cacao%20from%20Latin%20America%20and%20the%20Caribbean%3A%20A%20Review%20of%20Research%20and%20Potential%20Mitigation%20Solutions
 source_type: gov-report
 evidence_tier: A
 license: "cc-by-nc-sa-3.0"
 raw_path: raw/reports/meter2019-cadmium-cacao-lac-review.pdf
 sha256: 50b3214db40121d1cb4814509394c55909e13fcef90c0942428363671047492e
 access_date: 2026-05-12
-access_url: "http://scioteca.caf.com/handle/123456789/1110"
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 products: []

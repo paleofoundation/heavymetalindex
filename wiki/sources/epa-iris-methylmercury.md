@@ -6,12 +6,13 @@ authors: ["U.S. Environmental Protection Agency"]
 year: 2001
 publication: "U.S. Environmental Protection Agency, Integrated Risk Information System"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Methylmercury%20(MeHg)%20%E2%80%94%20IRIS%20Chemical%20Assessment%20Summary
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_IRIS_Methylmercury_ToxReview.pdf
 sha256: c040605d1404be18b5c84849f502f62a4e4d67d754122a1949ff53ba51ca2bce
 access_date: 2026-04-25
-access_url: https://iris.epa.gov/ChemicalLanding/&substance_nmbr=73
 license: us-government-work
 metals: [MeHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]

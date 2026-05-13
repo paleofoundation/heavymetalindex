@@ -7,6 +7,7 @@ authors: [Chaura J, Velez GE, Clavijo-Buritica DC, Riccio-Rengifo C, Granobles L
 year: 2026
 publication: "ACS Nutrition Science"
 doi: "10.1021/acsnutrsci.5c00061"
+access_url: https://doi.org/10.1021/acsnutrsci.5c00061
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC-BY-NC-ND 4.0"

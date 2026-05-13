@@ -6,12 +6,13 @@ authors: ["Agency for Toxic Substances and Disease Registry"]
 year: 2024
 publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Toxicological%20Profile%20for%20Mercury
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/ATSDR_Mercury_ToxProfile.pdf
 sha256: 8c25779ab30f45ac55bb6bd3d2bea45cad627344c3b40aab25e073e57d633890
 access_date: 2026-04-25
-access_url: https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf
 license: us-government-work
 metals: [Hg, MeHg, tHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]

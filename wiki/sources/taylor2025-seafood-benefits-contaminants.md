@@ -7,6 +7,7 @@ authors: [Taylor B, Ofori KF, Parsaeimehr A, Akdemir Evrendilek G, Attarwala T, 
 year: 2025
 publication: "Foods"
 doi: 10.3390/foods14091461
+access_url: https://doi.org/10.3390/foods14091461
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

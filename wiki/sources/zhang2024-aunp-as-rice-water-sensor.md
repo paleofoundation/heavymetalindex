@@ -6,7 +6,9 @@ title: "AuNP-based colorimetric sensor for As3+ tested in rice and water"
 authors: [Zhang]
 year: 2024
 publication: unknown
-doi: unknown
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=AuNP-based%20colorimetric%20sensor%20for%20As3%2B%20tested%20in%20rice%20and%20water
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

@@ -6,12 +6,13 @@ authors: ["U.S. National Toxicology Program"]
 year: 2021
 publication: "National Toxicology Program, 15th Report on Carcinogens"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Nickel%20Compounds%20and%20Metallic%20Nickel%20%E2%80%94%2015th%20Report%20on%20Carcinogens
 source_type: gov-report
 evidence_tier: A
 raw_path: "raw/reports/Nickel Compounds and Metallic Nickel - 15th Report on Carcinogens - NCBI Bookshelf.pdf"
 sha256: 4661665bf3440dc665ded08f9605dbda33b1aee6a87becf2aa0ea3784c75fc15
 access_date: 2026-04-25
-access_url: https://www.ncbi.nlm.nih.gov/books/NBK590823/
 license: us-government-work
 metals: [Ni]
 ingredients: []

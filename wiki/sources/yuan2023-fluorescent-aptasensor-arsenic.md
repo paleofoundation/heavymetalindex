@@ -7,6 +7,7 @@ authors: [Yuan M, Yang Y, Chau NTQ, Zhang Q, Wu X, Chen J, Wu Z, Zhong H, Li Y, 
 year: 2023
 publication: "Molecules"
 doi: "10.3390/molecules28052341"
+access_url: https://doi.org/10.3390/molecules28052341
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

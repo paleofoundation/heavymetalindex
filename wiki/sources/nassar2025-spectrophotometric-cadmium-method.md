@@ -7,6 +7,8 @@ authors: [Nassar A, El-Sayed M, Hassan H]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Spectrophotometric%20Method%20for%20Cadmium(II)%20Determination%3A%20Validation%20and%20Application
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

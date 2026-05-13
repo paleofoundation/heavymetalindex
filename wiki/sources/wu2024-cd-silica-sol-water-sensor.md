@@ -6,7 +6,9 @@ title: "Cadmium colorimetric sensor using silica sol in water"
 authors: [Wu]
 year: 2024
 publication: unknown
-doi: unknown
+doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Cadmium%20colorimetric%20sensor%20using%20silica%20sol%20in%20water
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

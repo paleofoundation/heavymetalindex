@@ -7,6 +7,8 @@ authors: [Schmidt CW]
 year: 2015
 publication: "Environmental Health Perspectives 123(7):A168–A173"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Arsenic%20Exposure%20in%20Infancy
 source_type: news-commentary
 evidence_tier: C
 license: "open access (NIEHS)"

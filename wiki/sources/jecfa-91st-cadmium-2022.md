@@ -6,12 +6,13 @@ authors: ["Joint FAO/WHO Expert Committee on Food Additives"]
 year: 2022
 publication: "WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA)"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Cadmium%3A%20dietary%20exposure%20assessment
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/JECFA_Cadmium_Monograph.pdf
 sha256: b04661cc06e4c52655ce9573297eb68acedf0f22e844ccdad343c27591e34791
 access_date: 2026-04-24
-access_url: https://apps.who.int/iris/handle/10665/351083
 license: CC-BY-NC-SA-3.0-IGO
 metals: [Cd]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/seafood]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]

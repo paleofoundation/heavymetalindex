@@ -6,7 +6,8 @@ title: "Evaluation of the Safety and Potential Benefits of Beetroot-Based Dietar
 authors: [Brzezinska-Rojek J, Rutkowska M, Osko J, Konieczka P, Prokopowicz M, Grembecka M]
 year: 2023
 publication: "Biological Trace Element Research (published online 7 October 2023)"
-doi: null
+doi: 10.1007/s12011-023-03902-x
+access_url: https://doi.org/10.1007/s12011-023-03902-x
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

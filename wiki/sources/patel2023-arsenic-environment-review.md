@@ -7,6 +7,7 @@ authors: [Patel KS, Pandey PK, Martin-Ramos P, Corns WT, Varol S, Bhattacharya P
 year: 2023
 publication: "RSC Advances"
 doi: "10.1039/d3ra00789h"
+access_url: https://doi.org/10.1039/d3ra00789h
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,8 @@ authors: [Seesuan P, Kaewon S, Tumcharern G]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Deep%20Eutectic%20Solvent%2FEDTA-Based%20Colorimetric%20Sensor%20for%20Cr(VI)%20Detection%20in%20Water%20and%20Soil
 source_type: peer-reviewed
 evidence_tier: A
 license: null

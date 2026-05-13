@@ -6,13 +6,14 @@ authors: [Canadian Food Inspection Agency]
 year: 2025
 publication: "Canadian Food Inspection Agency"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Toxic%20metals%20in%20selected%20foods%20%E2%80%93%20April%201%2C%202022%20to%20March%2031%2C%202023%3A%20Food%20chemistry%20%E2%80%93%20Targeted%20surveys%20%E2%80%93%20Final%20report
 source_type: gov-report
 evidence_tier: A
 license: "copyright-crown-canada"
 raw_path: raw/reports/cfia2025-toxic-metals-selected-foods-2022-23.pdf
 sha256: 4d855098910e776b191bd9d36e97f09a79a207476e9ab8d9a2ffc7393e3642d8
 access_date: 2026-05-12
-access_url: "https://inspection.canada.ca/food-safety-for-industry/food-chemistry-and-microbiology/food-safety-testing-bulletin-and-reports/targeted-surveys/toxic-metals-in-selected-foods/eng/1741104432441/1741104432988"
 metals: [tAs, Cd, Pb, tHg]
 ingredients: ["[[ingredients/wild-mushrooms]]", "[[ingredients/herbal-botanicals]]"]
 products: []

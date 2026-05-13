@@ -7,6 +7,7 @@ authors: [Elsebai B, Ghica ME, Abbas MN, Brett CMA]
 year: 2023
 publication: "Molecules"
 doi: "10.3390/molecules28062809"
+access_url: https://doi.org/10.3390/molecules28062809
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -6,12 +6,13 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2020
 publication: "U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099)"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Inorganic%20Arsenic%20in%20Rice%20Cereals%20for%20Infants%3A%20Action%20Level%3B%20Guidance%20for%20Industry
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/FDA_InorganicArsenic_RiceCereal_ActionLevel_2020.pdf
 sha256: ced2c64301c7d05c0b6761228f4332bb4cedd66f06f32437d2eb74d33a0368d8
 access_date: 2026-04-25
-access_url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/inorganic-arsenic-rice-cereals-infants-action-level
 license: us-government-work
 metals: [iAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/rice-cereal]]"]

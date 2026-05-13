@@ -7,6 +7,7 @@ authors: [Awata H, Linder S, Mitchell LE, Delclos GL]
 year: 2011
 publication: "Environmental Health Perspectives"
 doi: "10.1289/EHP28"
+access_url: https://doi.org/10.1289/EHP28
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

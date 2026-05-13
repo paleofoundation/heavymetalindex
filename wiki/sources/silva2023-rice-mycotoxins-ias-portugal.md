@@ -7,6 +7,7 @@ authors: [Silva LJG, Pereira AMPT, Duarte S, Pedro I, Perdigão C, Silva A, Lino
 year: 2023
 publication: "Toxins 2023, 15, 291"
 doi: 10.3390/toxins15040291
+access_url: https://doi.org/10.3390/toxins15040291
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

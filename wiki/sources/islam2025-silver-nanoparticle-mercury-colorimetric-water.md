@@ -7,6 +7,8 @@ authors: [Islam S, Ahmed S, Rahman M]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Silver%20Nanoparticle%20Colorimetric%20Sensor%20for%20Mercury(II)%20Detection%20in%20Water%20Samples
 source_type: peer-reviewed
 evidence_tier: A
 license: null

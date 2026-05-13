@@ -7,6 +7,7 @@ authors: [Atanasov P, Dikovska A, Nikov R, Atanasova G, Grochowska K, Karczewski
 year: 2024
 publication: "Materials"
 doi: "10.3390/ma17102254"
+access_url: https://doi.org/10.3390/ma17102254
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

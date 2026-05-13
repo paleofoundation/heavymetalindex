@@ -6,12 +6,13 @@ authors: ["United Nations Environment Programme"]
 year: 2013
 publication: "United Nations Environment Programme, Secretariat of the Minamata Convention on Mercury"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Minamata%20Convention%20on%20Mercury%20%E2%80%94%20Text%20and%20Annexes%20(2024%20Edition)
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/MinamataConvention_Text.pdf
 sha256: 4723958effca7a69b976e49751b010fccd66a29d929f6a4cee7e17609c6cead0
 access_date: 2026-04-25
-access_url: https://www.minamataconvention.org/en/documents/minamata-convention-mercury-text-and-annexes
 license: public-redistribute
 metals: [Hg, MeHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]

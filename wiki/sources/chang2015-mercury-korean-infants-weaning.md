@@ -6,7 +6,8 @@ title: "Mercury Exposure in Healthy Korean Weaning-Age Infants: Association with
 authors: [Chang JY, Park JS, Shin S, Yang HR, Moon JS, Ko JS]
 year: 2015
 publication: "International Journal of Environmental Research and Public Health"
-doi: null
+doi: 10.3390/ijerph121114669
+access_url: https://doi.org/10.3390/ijerph121114669
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

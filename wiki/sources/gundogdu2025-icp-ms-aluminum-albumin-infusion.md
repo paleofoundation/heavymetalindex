@@ -6,7 +6,8 @@ title: "ICP-MS Method for Aluminum, Sodium, and Potassium Determination in Human
 authors: [Gundogdu A, Kaya M, Cinar M]
 year: 2025
 publication: null
-doi: null
+doi: 10.1155/ianc/2793979
+access_url: https://doi.org/10.1155/ianc/2793979
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

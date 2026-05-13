@@ -5,13 +5,13 @@ title: "Evaluation of Certain Food Additives and Contaminants (Methylmercury), 6
 authors: ["Joint FAO/WHO Expert Committee on Food Additives"]
 year: 2004
 publication: "WHO Technical Report Series 922"
-doi: null
+doi: 10.1016/s0168-1605(03)00167-3
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/JECFA_Methylmercury_Monograph.pdf
 sha256: 5ebe66177eab33ade2b4426adf4b46f9561ec17bc75fa73da6b4368c97eeeaa8
 access_date: 2026-04-25
-access_url: https://apps.who.int/iris/handle/10665/42849
+access_url: https://doi.org/10.1016/s0168-1605(03)00167-3
 license: CC-BY-NC-SA-3.0-IGO
 metals: [MeHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]

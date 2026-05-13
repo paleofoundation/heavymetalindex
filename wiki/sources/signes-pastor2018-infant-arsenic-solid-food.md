@@ -7,6 +7,7 @@ authors: [Signes-Pastor AJ, Cottingham KL, Carey M, Sayarath V, Palys T, Meharg 
 year: 2018
 publication: "Scientific Reports 8(1):7114"
 doi: 10.1038/s41598-018-25372-1
+access_url: https://doi.org/10.1038/s41598-018-25372-1
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

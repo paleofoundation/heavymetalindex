@@ -6,12 +6,13 @@ authors: ["Joint FAO/WHO Expert Committee on Food Additives"]
 year: 2005
 publication: "FAO JECFA Monographs 1, ISSN 1817-7077"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Combined%20Compendium%20of%20Food%20Additive%20Specifications%3A%20All%20Specifications%20Monographs%20from%20the%201st%20to%20the%2065th%20Meeting%20(1956-2005)
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/a0691e.pdf
 sha256: cf57a5da308c84280b242f6728b02a32e6414c7cd2d33b291f2799cfa4b35301
 access_date: 2026-04-25
-access_url: https://www.fao.org/3/a0691e/a0691e.pdf
 license: CC-BY-NC-SA-3.0-IGO
 metals: []
 ingredients: []

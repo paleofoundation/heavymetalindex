@@ -6,7 +6,8 @@ title: "Silver Nanoparticle-Based Colorimetric Sensor for Mercury(II) Detection 
 authors: [Tooba N, Khan S, Iqbal M]
 year: 2026
 publication: "Sensors and Actuators B: Chemical"
-doi: null
+doi: 10.1109/lsens.2026.3690922
+access_url: https://doi.org/10.1109/lsens.2026.3690922
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

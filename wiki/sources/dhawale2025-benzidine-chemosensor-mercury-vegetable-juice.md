@@ -7,6 +7,8 @@ authors: [Dhawale PV, Trivedi DR]
 year: 2025
 publication: null
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Benzidine-Based%20Chemosensors%20for%20Copper%20and%20Mercury%20Detection%20in%20Vegetable%20Juice
 source_type: peer-reviewed
 evidence_tier: A
 license: null

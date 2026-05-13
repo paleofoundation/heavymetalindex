@@ -6,7 +6,8 @@ title: "Risk assessment of mercury and lead in fish species from Iranian interna
 authors: [Zolfaghari G]
 year: 2018
 publication: "MethodsX"
-doi: null
+doi: 10.1016/j.mex.2018.05.002
+access_url: https://doi.org/10.1016/j.mex.2018.05.002
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

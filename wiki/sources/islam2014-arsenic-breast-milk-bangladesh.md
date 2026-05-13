@@ -7,6 +7,7 @@ authors: [Islam MR, Attia J, Alauddin M, McEvoy M, McElduff P, Slater C, Islam M
 year: 2014
 publication: "Environmental Health 13(1):101"
 doi: 10.1186/1476-069X-13-101
+access_url: https://doi.org/10.1186/1476-069X-13-101
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

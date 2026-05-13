@@ -7,6 +7,7 @@ authors: [Lasky T, Nachman KE, Baron PA, Raber G, Francesconi KA, Love DC]
 year: 2013
 publication: "Environmental Health Perspectives"
 doi: "10.1289/ehp.1307083"
+access_url: https://doi.org/10.1289/ehp.1307083
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown

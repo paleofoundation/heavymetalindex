@@ -6,13 +6,14 @@ authors: [Food Standards Australia New Zealand]
 year: 2019
 publication: "Food Standards Australia New Zealand"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=25th%20Australian%20Total%20Diet%20Study
 source_type: gov-report
 evidence_tier: A
 license: "copyright-australian-government"
 raw_path: raw/reports/fsanz2019-25th-australian-total-diet-study.pdf
 sha256: 529f57593c5918a3be9112c061dea3e084455531e7ac464e179f4d0742c6391f
 access_date: 2026-05-12
-access_url: "https://www.foodstandards.gov.au/consumer/chemicals/atds/Pages/25thaustraliantotaldiet.aspx"
 metals: [tAs, iAs, Cd, Pb, tHg, MeHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/fish]]"]
 products: []

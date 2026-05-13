@@ -6,12 +6,13 @@ authors: ["Agency for Toxic Substances and Disease Registry"]
 year: 2024
 publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
 doi: null
+no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Toxicological%20Profile%20for%20Nickel
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/Bookshelf_NBK610351.pdf
 sha256: dc8d74f9a42b72a9a2c47a931eee7664e0ba15797c6cf454c5d7c5b23f2f57c8
 access_date: 2026-04-25
-access_url: https://www.atsdr.cdc.gov/toxprofiles/tp15.pdf
 license: us-government-work
 metals: [Ni]
 ingredients: []

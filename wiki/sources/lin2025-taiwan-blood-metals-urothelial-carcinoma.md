@@ -7,6 +7,7 @@ authors: [Lin CH, Hung PH, Chang CH, Chang H, Chung MC, Chang WC, Chung CJ]
 year: 2025
 publication: "Archives of Toxicology"
 doi: 10.1007/s00204-025-04051-x
+access_url: https://doi.org/10.1007/s00204-025-04051-x
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"

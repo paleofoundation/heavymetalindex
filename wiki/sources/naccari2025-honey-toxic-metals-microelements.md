@@ -7,6 +7,7 @@ authors: [Naccari C, Ferrantelli V, Cammilleri G, Barbaccia G, Riolo P, Ferrante
 year: 2025
 publication: "Foods 2025, 14, 1986"
 doi: 10.3390/foods14111986
+access_url: https://doi.org/10.3390/foods14111986
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

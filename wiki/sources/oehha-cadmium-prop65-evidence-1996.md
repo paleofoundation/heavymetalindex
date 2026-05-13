@@ -5,13 +5,13 @@ title: "Evidence on the Developmental and Reproductive Toxicity of Cadmium"
 authors: ["California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section"]
 year: 1996
 publication: "California Environmental Protection Agency, Office of Environmental Health Hazard Assessment"
-doi: null
+doi: 10.1016/0890-6238(96)00019-6
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/OEHHA_Cadmium_Prop65_Evidence1996.pdf
 sha256: 3e4eeca36b5a2dd548bb5451b9170db70499faf87b0fdc7d01e3612e4822f338
 access_date: 2026-04-24
-access_url: https://oehha.ca.gov/proposition-65/crnr/cadmium-causing-reproductive-toxicity
+access_url: https://doi.org/10.1016/0890-6238(96)00019-6
 license: us-government-work
 metals: [Cd]
 ingredients: ["[[ingredients/potatoes]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/fruit]]"]

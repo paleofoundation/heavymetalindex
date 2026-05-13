@@ -7,6 +7,7 @@ authors: [Auzier Guimarães KL, do Nascimento Andrade SJ, Liscano-Carreño AA, d
 year: 2025
 publication: "ACS Environmental Au"
 doi: 10.1021/acsenvironau.4c00053
+access_url: https://doi.org/10.1021/acsenvironau.4c00053
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

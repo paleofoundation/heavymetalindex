@@ -7,6 +7,7 @@ authors: [Ljung K, Vahter M]
 year: 2007
 publication: "Environmental Health Perspectives 115(11):1533–1538"
 doi: 10.1289/ehp.10316
+access_url: https://doi.org/10.1289/ehp.10316
 source_type: peer-reviewed
 evidence_tier: A
 license: "open access (NIEHS)"

@@ -5,14 +5,14 @@ title: "Determination of Potentially Toxic Elements in Quinoa Crops Located in t
 authors: [Rosales-Huamani J, Brena-Ore J, Landauro-Abanto A, Arenas Niquin J, Centeno-Rojas L, Otiniano-Zavala A, Andrade-Choque J, Medina-Collana J]
 year: 2023
 publication: "International Journal of Membrane Science and Technology"
-doi: null
+doi: 10.15379/ijmst.v10i2.1181
 source_type: peer-reviewed
 evidence_tier: A
 license: "all-rights-reserved"
 raw_path: raw/studies/rosales-huamani2023-quinoa-peru-ptes.pdf
 sha256: e04ccfbff5d55335ed6dc4615f11599e9b40aa2a487c795515f6ec19ce2b1d50
 access_date: 2026-05-12
-access_url: null
+access_url: https://doi.org/10.15379/ijmst.v10i2.1181
 metals: [tAs, Pb, Cd, Cu, Zn]
 ingredients: ["[[ingredients/quinoa]]"]
 products: []

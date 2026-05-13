@@ -7,6 +7,7 @@ authors: [Lee J, Park SK]
 year: 2025
 publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0317190
+access_url: https://doi.org/10.1371/journal.pone.0317190
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

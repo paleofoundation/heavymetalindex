@@ -6,7 +6,8 @@ title: "Microelements, Fatty Acid Profile, and Selected Biomarkers in Grass Carp
 authors: [Kovacik A, Helczman M, Arvay J, Tomka M, Snirc M, Janco I, Fik M, Stefunkova N, Dupak R, Harangozo L, Tokarova K, Kovacikova E, Jambor T, Andreji J, Massanyi P]
 year: 2024
 publication: "Research (journal not specified in text; published online 9 May 2024)"
-doi: null
+doi: 10.1007/s12011-024-04190-9
+access_url: https://doi.org/10.1007/s12011-024-04190-9
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

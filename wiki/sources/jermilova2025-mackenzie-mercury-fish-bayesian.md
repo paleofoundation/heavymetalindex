@@ -7,6 +7,7 @@ authors: [Jermilova U, Kirk JL, Moe SJ, Landis WG, Sharpe E, McGovern M, Braaten
 year: 2025
 publication: "Integrated Environmental Assessment and Management"
 doi: 10.1093/inteam/vjae011
+access_url: https://doi.org/10.1093/inteam/vjae011
 source_type: peer-reviewed
 evidence_tier: A
 license: "not specified (OA)"
