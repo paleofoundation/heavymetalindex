@@ -37,6 +37,8 @@ sources: 7
 
 This page is a structural scaffold for HMTc Category 1 row 8. Quantitative evidence now includes FDA compliance non-root vegetable samples, a small leguminous-vegetable baby-food distribution, and broader UK green/other vegetable category values.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -65,6 +67,27 @@ This page is a structural scaffold for HMTc Category 1 row 8. Quantitative evide
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in non-root vegetable purees. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as wet weight (as consumed/ready-to-eat) or dry weight, or on other bases. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix. Partial or unknown fit means the author uses a broader category.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
@@ -145,7 +168,7 @@ Parker 2022 provides a small leguminous-vegetable baby-food distribution with N=
 | Leguminous vegetable baby-food distribution | [[metals/mercury-total|Total mercury]] | Leguminous vegetable baby foods | 9 | detection rate, substituted value | no detections; table value 1.5 ppb after ND substitution | Does not support p10/p90/p100 | ND substitution reflects the study's exposure model, not a measured concentration. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 | UK category average | [[metals/nickel|Nickel]] | UK green vegetables used in infant diet modeling | 50 other-food composites; category n not reported | category average | 210 ppb | Does not support p10/p90/p100 | Ingredient group, not finished puree. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -212,6 +235,27 @@ FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, incl
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
+## Levers to reduce contamination
+
+Non-root vegetables (peas, green beans, squash, spinach, kale, and other above-ground vegetables) generally present lower heavy-metal contamination than root vegetables, but leafy and brassica vegetables accumulate cadmium, nickel, and lead from soil and atmospheric deposition. Levers are ordered by approximate impact.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Specify ingredient origin from regions with low atmospheric deposition and low soil Pb/Cd. Leafy vegetables are particularly sensitive to atmospheric Pb fallout from industrial or traffic sources. | _Quantified magnitude data not yet ingested from cited sources; section will be expanded when origin-stratified data is available._ | — |
+| 2 | Agronomic | Soil management at growing site reduces cadmium uptake in leafy and cruciferous vegetables. | _Quantified magnitude data not yet ingested; section will be expanded when intervention studies are available._ | — |
+| 3 | Processing | Washing removes surface-deposited lead and cadmium from leaf surfaces. Blanching and discarding blanching liquid reduces soluble cadmium. | _Quantified magnitude data not yet ingested from cited sources._ | — |
+| 4 | Formulation | Blend with lower-Cd/Pb vegetables where occurrence data supports a dilution strategy. | _Quantified magnitude data not yet ingested._ | — |
+| 5 | Testing and QC | Lot-level ICP-MS on incoming vegetable ingredients. | _Quantified magnitude data not yet ingested for detection-power modeling._ | — |
+| 6 | Packaging and storage | Not a primary lever for vegetable purees under normal storage conditions. | — | — |
+
+Cross-links: [[ingredients/spinach]] if it exists; [[ingredients/leafy-vegetables]] if it exists; relevant mitigation pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
+
 <!-- BEGIN: hmi-broad-context-sources -->
 ## Broad Product Context: Author-Scope Index
 
@@ -223,7 +267,7 @@ The sources below are catalogued as product-context candidates for this row. The
 | --- | --- | --- | --- | --- | --- |
 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: French TDS Category Rows |
 | [[sources/fsa2016-infant-food-formula-metals-survey]] | Survey of metals in commercial infant foods, infant formula a... | infant-formula-powder; infant-formula-rtf-liquid; baby-cereals; fruit-purees | Al; Sb; tAs; iAs; Cd; Cr; Cu; I; Fe; Pb; Mn; tHg; Ni; Se; Sn; Zn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: partial (covers multiple formats without splitting). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Distribution Context |
-| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Measured Values And Concentration Evidence |
+| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Source Evidence Inventory |
 
 <!-- END: hmi-broad-context-sources -->
 

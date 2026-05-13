@@ -32,6 +32,8 @@ sources: 3
 
 This page is a structural scaffold for HMTc Category 1 row 10. Broad baby-food analytical sources and a small Meli 2024 meat-homogenate summary are promoted; meat-and-poultry puree-specific distributions are still pending.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -60,6 +62,27 @@ This page is a structural scaffold for HMTc Category 1 row 10. Broad baby-food a
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in meat and poultry purees. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as wet weight (as consumed/ready-to-eat) or dry weight, or on other bases. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix. Partial or unknown fit means the author uses a broader category.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
@@ -130,7 +153,7 @@ Full crosswalk: [[products/lead-benchmark-context]].
 - Next ingest target: meat and poultry baby-food monitoring data across the Category 1 metal panel.
 - Ingredient targets are unresolved app-taxonomy placeholders, not source-backed typical-ingredient findings.
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -189,6 +212,27 @@ See the page-level crosswalk above and [[products/regulatory-crosswalk-field-fin
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
 
+## Levers to reduce contamination
+
+Meat and poultry purees present a different contamination profile from plant-based baby foods. Cadmium, mercury, and lead in meat products are primarily driven by animal dietary exposure during rearing and by organ-tissue distribution (liver concentrates Cd, kidney concentrates Pb and Cd). Levers are ordered by approximate impact.
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Specify muscle meat (not organ meat) for infant puree formulation. Organ meats — particularly liver and kidney — concentrate Pb and Cd at significantly higher levels than muscle tissue; if organ meats are included, source from certified-low-metal suppliers. | _Quantified magnitude data not yet ingested from cited sources; section will be expanded when organ-vs-muscle concentration data is available._ | — |
+| 2 | Agronomic | Animal feed quality control at farm level reduces heavy metal accumulation in muscle and organs. Grain- or forage-based feeds from high-Cd soils increase tissue Cd concentrations. | _Quantified magnitude data not yet ingested; section will be expanded when feed-to-tissue transfer data is available._ | — |
+| 3 | Processing | Trimming fat and connective tissue reduces some heavy metal concentrations; muscle-only processing provides cleaner product than whole-carcass approaches for some metals. | _Quantified magnitude data not yet ingested from cited sources._ | — |
+| 4 | Formulation | Avoid disproportionate use of liver or kidney puree where Cd is a concern. | _Quantified magnitude data not yet ingested._ | — |
+| 5 | Testing and QC | Lot-level ICP-MS on incoming meat ingredients with particular attention to Cd and Pb in organ-meat components. | _Quantified magnitude data not yet ingested for detection-power modeling._ | — |
+| 6 | Packaging and storage | Not a primary lever for retort-pouched or glass-jarred meat purees under normal conditions. | — | — |
+
+Cross-links: relevant ingredient pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
+
 <!-- BEGIN: hmi-broad-context-sources -->
 ## Broad Product Context: Author-Scope Index
 
@@ -199,7 +243,7 @@ The sources below are catalogued as product-context candidates for this row. The
 | Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
 | --- | --- | --- | --- | --- | --- |
 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: French TDS Category Rows |
-| [[sources/fsa2016-infant-food-formula-metals-survey]] | Survey of metals in commercial infant foods, infant formula a... | infant-formula-powder; infant-formula-rtf-liquid; baby-cereals; fruit-purees | Al; Sb; tAs; iAs; Cd; Cr; Cu; I; Fe; Pb; Mn; tHg; Ni; Se; Sn; Zn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: partial (covers multiple formats without splitting). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Measured Values And Concentration Evidence |
+| [[sources/fsa2016-infant-food-formula-metals-survey]] | Survey of metals in commercial infant foods, infant formula a... | infant-formula-powder; infant-formula-rtf-liquid; baby-cereals; fruit-purees | Al; Sb; tAs; iAs; Cd; Cr; Cu; I; Fe; Pb; Mn; tHg; Ni; Se; Sn; Zn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: partial (covers multiple formats without splitting). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | Cross-reference - section: Source Evidence Inventory |
 
 <!-- END: hmi-broad-context-sources -->
 

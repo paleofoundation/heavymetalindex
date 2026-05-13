@@ -32,6 +32,8 @@ sources: 8
 
 This page is a structural scaffold for HMTc Category 1 row 7. Value-level structured evidence now includes FDA compliance fruit samples, Chekri fruit-puree TDS rows, FSA/Fera fruit-based infant-food category means, Meli homogenized fruit-product rows, and Parker fruit baby-food summaries; fruit-by-fruit puree p10/p90/p100 distributions remain incomplete.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -60,6 +62,27 @@ This page is a structural scaffold for HMTc Category 1 row 7. Value-level struct
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in fruit purees. The summary tables and inventories below are governed by a fixed set of methodology rules so the evidence is interpretable and auditable.
+
+**Speciation is treated as non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are reported separately; the toxicology and regulatory ceilings differ. Total chromium (Cr) is not interpreted as hexavalent chromium (Cr-VI) unless the source explicitly speciates Cr-VI.
+
+**Basis is preserved and labeled, never silently converted.** Concentrations may be reported as wet weight (as consumed/ready-to-eat) or dry weight, or on other bases. Each table below labels the source basis explicitly.
+
+**Non-detect handling.** Where a source reports a value below its LOD or LOQ, this page preserves the source's reported handling convention.
+
+**Source pooling is avoided.** Aggregate statistics are not computed by pooling across sources with different LOQs, sampling periods, geographies, and analytical bases.
+
+**Row-fit.** Sources are classified by how cleanly their reported scope matches this product row. Direct row-fit means the author's stated scope matches this matrix. Partial or unknown fit means the author uses a broader category.
+
+**Evidence tiers.** A-tier: peer-reviewed primary studies and government reports. B-tier: NGO reports and trade publications. Synthesis leans on A-tier.
+
+**Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
+
+**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
@@ -159,7 +182,7 @@ The structured backfill also loads Chekri 2019 fruit-puree mean/range rows, FSA/
 | Fruit baby-food distribution | [[metals/mercury-total|Total mercury]] | Fruit baby foods | 9 | detection rate, substituted value | no detections; table value 1.5 ppb after ND substitution | Does not support p10/p90/p100 | ND substitution reflects the study's exposure model, not a measured concentration. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]] |
 | UK category average | [[metals/nickel|Nickel]] | UK fruit-based infant foods/dishes | 200 infant-food total; category n not reported | category average/range | 92 to 117 ppb | Does not support p10/p90/p100 | Fruit-based group, not puree-only or fruit-specific. [[sources/fsa2016-infant-food-formula-metals-survey]] |
 
-## Measured Values And Concentration Evidence
+## Source Evidence Inventory
 
 <!-- audience: regulator, educator, consumer, app -->
 
@@ -230,6 +253,37 @@ The app model placeholder for this row should treat [[ingredients/fruit-purees]]
 FDA's 2023 proposed lead action levels, as summarized by Price et al. 2023, included 10 ppb for fruits and vegetables. [[sources/price2023-baby-food-lead-biokinetic-models]]
 
 No row-specific regulatory event has been added for this scaffold. <!-- UNCITED: Need agency records or enforcement notices before adding historical recalls or enforcement events; frame any future entries as regulatory events, not brand rankings. -->
+
+## Levers to reduce contamination
+
+The primary documented contamination concern for commercial fruit purees is lead (Pb), with tin (Sn) as a secondary concern in certain packaging formats. Inorganic arsenic is a secondary concern when rice-based thickeners are added. Levers are ordered by approximate impact magnitude on the dominant analyte (Pb).
+
+| # | Category | Specific lever | Magnitude | Source |
+|---|---|---|---|---|
+| 1 | Sourcing | Screen incoming spice and flavoring ingredients (especially cinnamon and apple-cinnamon blends) for lead. The 2024 WanaBana outbreak was traced to adulterated cinnamon applesauce pouches with Pb concentrations of 1,900–5,800 µg/kg. Spice ingredients from some regions are a documented Pb pathway. | Adulteration events document extreme upper bounds; routine screening prevents the ≥100× exceedance scenario. | [[sources/napier2024-wanabana-lead-apple-cinnamon\|—]] |
+| 2 | Sourcing | Source fruit from orchards with documented low soil-Pb. Apple, pear, and stone fruit grown on historical orchard soils with legacy arsenical pesticide and lead-paint history carry elevated Pb. Supplier specification for orchard soil testing is the control point. | _Quantified magnitude data not yet ingested from cited sources; section will be expanded when origin-stratified Pb data is available._ | — |
+| 3 | Agronomic | Soil remediation and pH management at orchard level reduces Pb uptake in fruit; upstream supplier lever. | _Quantified magnitude data not yet ingested; section will be expanded when intervention studies are available._ | — |
+| 4 | Processing | Peeling fruit before puréeing reduces surface-deposited Pb; washing is standard practice but variable in effectiveness. | _Quantified magnitude data not yet ingested from cited sources._ | — |
+| 5 | Formulation | Avoid adding rice-based thickeners (rice flour, rice starch) to fruit purees where iAs is a concern; the addition converts a low-iAs product into one with detectable iAs. | _Quantified magnitude data not yet ingested; iAs contribution from rice thickeners is proportional to addition rate._ | — |
+| 6 | Testing and QC | Lot-level ICP-MS on both incoming ingredients (especially spices and flavoring concentrates) and finished product. FDA FY2009–2024 compliance data shows 59% detection rate for Pb in fruit baby foods. | Detection power sufficient to screen lots before commercial release. | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\|—]] |
+| 7 | Packaging and storage | Avoid non-lacquered tin cans for high-acid fruit purees. Chekri 2019 documented French fruit puree mean Sn at 424 ppb with max 3330 ppb, consistent with tin migration from can lining under acidic conditions. Retort pouches and glass jars eliminate this pathway. | Sn reduction of 70–99%+ with switch from non-lacquered tin cans to alternative packaging formats. | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|—]] |
+
+Cross-links: [[ingredients/apple]] if the page exists; [[ingredients/fruit-purees]] if the page exists; relevant mitigation pages where they exist.
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
+
+<!-- BEGIN: hmi-broad-context-sources -->
+## Broad Product Context: Author-Scope Index
+
+<!-- audience: regulator, educator, app -->
+
+_Generator-managed section: will be populated when the routing audit identifies sources whose author-stated scope is broader than this row._
+
+<!-- END: hmi-broad-context-sources -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
