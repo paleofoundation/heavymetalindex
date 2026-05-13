@@ -33,7 +33,7 @@ if git diff --cached --name-only | grep -q '^wiki/sources/'; then
   for f in $(git diff --cached --name-only --diff-filter=AM | grep '^wiki/sources/.*\.md$'); do
     head -40 "$f" > /tmp/.husky-fm.$$
     doi_line=$(grep -E '^doi:' /tmp/.husky-fm.$$ | head -1 | sed -E 's/^doi:[[:space:]]*//;s/^"//;s/"$//')
-    no_doi_assigned=$(grep -cE '^no_doi_assigned:[[:space:]]*true' /tmp/.husky-fm.$$)
+    no_doi_assigned=$(grep -cE '^no_doi_assigned:[[:space:]]*true' /tmp/.husky-fm.$$ || true)
     src_type=$(grep -E '^source_type:' /tmp/.husky-fm.$$ | head -1 | sed -E 's/^source_type:[[:space:]]*//;s/^"//;s/"$//')
     is_missing=0
     case "$doi_line" in
