@@ -25,6 +25,8 @@ sources: 2
 
 This page is HMTc Category 5 row 6. It is no longer a pure scaffold: the row has early finished-product occurrence evidence, but the evidence is still insufficient for HMTc threshold-setting.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -53,6 +55,21 @@ This page is HMTc Category 5 row 6. It is no longer a pure scaffold: the row has
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in soy-based plant milks. It does not report HMT&C certification thresholds, percentile-selection arithmetic, or clean/dirty subcategory designations; those appear on the staff Standards Workbench at `/workbench/standards/plant-milks-soy-based`.
+
+**Speciation is non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes. Total mercury (tHg) and methylmercury (MeHg) are separate analytes. Total chromium (Cr) and hexavalent chromium (Cr-VI) are separate analytes. Values are never interchanged across speciation boundaries.
+
+**Basis is preserved and labeled.** Concentration values are reported as the source states them (as consumed, as placed on market, dry weight). Conversion between bases is shown explicitly when performed; silent conversion is never done.
+
+**Row-fit follows author scope.** A source's matrix and format classification is determined by what the authors state, not by re-derivation. Vague author scope receives a partial row-fit designation; sources silent on matrix receive an unknown designation.
+
+**Non-detect handling preserves source convention.** Sources that report non-detects as zero, as LOD/2, or as `<LOD` are recorded as stated. The convention is noted in the Source Evidence Inventory.
+
+**Source pooling is avoided** across different LOQ thresholds, collection periods, geographies, and analytical-basis differences without explicit documentation of the pooling rationale.
+
 ## Decision Snapshot
 
 | Field                 | Status                                                                             |
@@ -79,7 +96,15 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 <!-- END: hmi-product-crosswalk -->
 
-## Occurrence Evidence
+## Broad Product Context: Author-Scope Index
+
+<!-- BEGIN: hmi-broad-context-sources -->
+_Broad-context source index will be auto-generated here when the routing audit identifies sources whose author-stated scope is broader than this product row._
+<!-- END: hmi-broad-context-sources -->
+
+## Source Evidence Inventory
+
+Sources contributing measured soy-based plant milk concentrations are listed below. Intake and exposure estimates are kept separate from measured product concentrations.
 
 [[sources/milani2023-trace-elements-soy-based-beverages]] analyzed 18 soy-based beverages from Brazil by ICP-OES. The paper is directly relevant to this product row because it measures finished soy beverages rather than soy ingredient powders or isolated soy raw materials.
 
@@ -132,3 +157,29 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | Ni | — | Milani 2023 (soybean group mean 29 ppb), Marques 2021 | 2 summary |
 | Cr-VI | — | inference-cascade only (Hernandez/Saraiva chemistry; milk-like matrix) | 1 cascade |
 | Sn | — | Milani 2023 (isolate-protein group mean 4.3 ppb at LOD-zero; max 26 ppb; Path B candidate at 5×LOQ=90 ppb) | 1 summary (Path B) |
+
+## Levers to reduce contamination
+
+The levers below are ordered by estimated impact magnitude for finished soy-based plant milks as a product category. The primary metals of concern are aluminum (Al), nickel (Ni), and cadmium (Cd). Magnitude claims are cited; uncited lever rows carry a placeholder noting that quantified evidence has not yet been ingested.
+
+| Lever category | Specific action | Estimated magnitude | Source |
+|---|---|---|---|
+| Sourcing | Source soy from low-Cd soils; US soybean-origin Al means (176–758 µg/L in beverage) vary by soy input type (hydrosoluble vs soybean vs isolate); isolate-protein sources yielded lower mean Al in Milani 2023 | Al group means 176–758 µg/L range by soy-source type | [[sources/milani2023-trace-elements-soy-based-beverages\|1]] |
+| Sourcing | Supplier certificate of analysis for Cd and Pb on each soy lot; soy accumulates Cd from soil and cadmium burden varies by growing region | _Quantified magnitude data not yet ingested for finished beverage Cd reduction; section will be expanded when evidence is available._ | — |
+| Agronomic | Soil Cd pre-screening at soy growing region; low-Cd cultivar selection where available | _Quantified magnitude data not yet ingested_ | — |
+| Processing | For isolate-derived soy beverages: wet-process extraction reduces mineral carrythrough relative to whole-bean processing; affects Ni and Al | _Quantified magnitude data not yet ingested_ | — |
+| Formulation | Where Al reduction is the target, hydrosoluble or isolate soy fractions may carry lower Al burden than whole-soybean inputs (see Milani 2023 group-mean comparison) | Al group means 176 µg/L (isolate-protein) vs 609–758 µg/L (hydrosoluble/soybean) | [[sources/milani2023-trace-elements-soy-based-beverages\|1]] |
+| Testing/QC | Lot-level finished-product ICP-OES or ICP-MS testing for Al, Ni, Cd, and Pb; Milani 2023 ICP-OES LOQs for tAs and Cd were high (191 ppb and 19 ppb respectively), so method selection affects detection capability | _Quantified magnitude data not yet ingested for lot-level QC impact on Cd/tAs_ | — |
+| Packaging/storage | Non-canned format; aluminum packaging contact is not a primary contamination pathway for soy beverages in Tetra-Pak or glass formats | _Not a primary lever for this product class_ | — |
+
+## How standards math uses this page
+
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, CC eligibility verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-soy-based`.
+
+When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
+
+## Historical recalls and enforcement
+
+No public recalls or enforcement actions specifically targeting heavy metals in soy-based plant milks are documented in the wiki's source corpus as of the last review. This section will be populated when regulatory enforcement events are ingested.
+
+_Frame: if FDA, EU, or national-agency enforcement actions involving heavy metals in this product category are identified in future ingest, they will appear here as regulatory events. This section does not rank brands._
