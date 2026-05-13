@@ -60,20 +60,9 @@ Promotion readiness: 1 of 4 criteria met (criterion 3, non-obvious from any sing
 
 Suggested synthesis page slug: `dual-metal-soil-co-mitigation` (broader framing that can absorb corroborating papers on any co-mitigation approach, not just jarosite).
 
-### Spice and cinnamon adulteration as a Pb exposure pathway for infants and toddlers
+### ~~Spice and cinnamon adulteration as a Pb exposure pathway for infants and toddlers~~ → PROMOTED 2026-05-13
 
-Anchor sources (2 A/B-tier studies; seeding):
-
-Batch 12 adds: [[wiki/sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] (CDC MMWR, WanaBana/Schnucks/Weis cinnamon applesauce recall; n=566 elevated BLL cases; median BLL 7.2 µg/dL, range 3.5–39.3; Pb in cinnamon 1.9–3.0 ppm; lead chromate identified as adulterant; 55% of cases in children under 2 years; largest documented infant/toddler Pb poisoning event from a processed food product in recent US history); [[wiki/sources/rylander2025-georgia-children-blood-lead|Rylander 2025]] (EHP; n=1,635 Georgian children 5–7 years; 39.8% BLL ≥3.5 µg/dL; spice use independent predictor OR approximately 1.47; VAMS blood collection; corroborates spice as a cross-context Pb exposure vector, not limited to the US recall event).
-
-Thesis: Lead chromate is used industrially as a yellow-orange pigment and, in some supply chains, as an adulterant in spices including cinnamon, turmeric, and chili pepper. The WanaBana recall (troeschel2024) documents that a processed food product targeting infants and toddlers — cinnamon applesauce pouches — reached hundreds of thousands of US households with Pb levels generating median BLL 7.2 µg/dL before detection. The Georgian surveillance data (rylander2025) shows that elevated BLL in children is independently associated with spice consumption in a completely different context, suggesting the WanaBana event reflects a broader pattern of spice-sourcing vulnerability rather than a single isolated adulteration incident. The mechanism (lead chromate as a density or coloring adulterant in spice supply chains) is distinct from the soil-uptake and ASGM mechanisms that dominate other wiki threads, and the exposure population (infants and toddlers via flavored purees and blended products) is the highest-concern demographic.
-
-Why this matters:
-- Brand-legal: any food brand that uses cinnamon or spice flavorings in products targeting infants and toddlers has a supply-chain testing obligation that the WanaBana case makes visible and defensible to courts. The wiki's role is to document what the literature says the hazard is, so that HMT&C testing requirements for spice ingredients can be anchored to evidence.
-- Regulator: the CDC MMWR establishes this as a documented regulatory event. The thread's synthesis value is showing it is not isolated.
-- Educator: explains how a non-agricultural contamination mechanism (deliberate adulteration with an industrial chemical) reaches the food chain and why ingredient-level testing is required in addition to finished-product testing.
-
-Promotion readiness: 2 of 4 criteria met. Criterion 3 (non-obvious) and criterion 4 (strategic relevance) are met. Criterion 1 requires at least one additional independent A-tier or high-quality B-tier study; a third paper documenting spice adulteration as a Pb source in a third context (turmeric adulteration, another national surveillance study showing spice-BLL association) would satisfy criterion 1. Criterion 2 is borderline — this is primarily a Pb thread (lead chromate as adulterant), though it spans multiple spice types and processed food product formats. Promote when a third independent study enters the corpus. Suggested slug: `spice-adulteration-lead-infants`.
+Karen provided 4 papers (Forsyth 2024, Forsyth 2019, Lech 2020, FDA Import Alert 99-42) that, combined with existing troeschel2024 and rylander2025, satisfy all 4 promotion criteria. See Promoted section below.
 
 ### Dietary and herbal supplement Pb contamination (seeding)
 
@@ -133,6 +122,10 @@ Promoted 2026-05-13. Anchor sources: Abt 2018 (US baseline), Hands 2024 (multi-y
 ### The organoarsenical inertness assumption is increasingly contested
 
 Promoted 2026-05-13. Anchor sources: Davydiuk 2023 (biomonitoring confound), Liu 2023 (digestion-phase As(V) conversion), Kagawa 2023 (n=2,709 Japanese cohort hypertension signal), Raab 2024 (microalgae arsenolipids 57% of tAs), Walenta 2024 (novel arsenobetaine amide in mushrooms), Sim 2024 (seaweed iAs >50% tAs), Hull 2023, Sadee 2023. Eight A-tier anchors spanning seafood, fungi, microalgae, and seaweed. Synthesis page: [[../../wiki/synthesis/organoarsenical-inertness-assumption|organoarsenical-inertness-assumption]].
+
+### Spice adulteration with lead chromate as a non-agricultural Pb pathway reaching infants
+
+Promoted 2026-05-13. Anchor sources: Forsyth 2024 (n=356, South Asia, max 2,935 µg/g Pb, Pb:Cr ratio confirming PbCrO4), Forsyth 2019 (n=524, Bangladesh supply chain, 152 interviews, practice documented for 30+ years), Lech 2020 (n=127, US retail, max 7,590 ppb), Troeschel 2024 (CDC MMWR, WanaBana recall, n=566 childhood Pb poisoning cases from cinnamon applesauce), Rylander 2025 (Georgian children, spice use OR 1.47), FDA Import Alert 99-42 (DWPE enforcement since 1990s). Six sources across three continents, two spice types, supply-chain and epidemiological evidence. Synthesis page: [[../../wiki/synthesis/spice-adulteration-lead-infants|spice-adulteration-lead-infants]].
 
 ## Workflow notes
 
