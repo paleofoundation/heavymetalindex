@@ -472,6 +472,39 @@ The `last_reviewed` field is the date Claude last integrated new evidence into t
 
 This structure resolves what would otherwise be a persistent lint-noise problem. Every new ingredient page is born in a valid state (`pending` with `null` values) rather than a lint-failure state. It also surfaces a real-world distinction that matters for the app: genuine data gaps behave differently from unprocessed templates.
 
+#### Coverage rule: all ten analytes addressed per ingest
+
+When any ingest touches an ingredient page (advances at least one sub-block to `in_progress` or `populated`), all ten sub-blocks must move out of `pending` in the same pass. Sub-blocks for analytes the source does not cover are advanced to `status: populated, n_studies: 0, confidence: null, last_reviewed: <today>` — the declared-data-gap state described above. A page whose sub-blocks are split between `in_progress`/`populated` and `pending` is a lint failure (see Part 18): it represents asymmetric coverage where some analytes have been considered and others were silently skipped. This rule exists because HMT&C certifies products against the full analyte vocabulary (Part 14); ingredient pages that report on iAs but are silent on Ni leave the certification's literature anchor visibly incomplete and create the defensibility gap described in Part 2. Pages still carrying all-`pending` sub-blocks (no ingest has yet touched them) are not lint failures; they are the legitimate stub state.
+
+The coverage rule applies to the ten metals in the ingredient `contamination_profile` schema (Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U). MeHg is not in the ingredient profile (matrix-driven, captured at the product layer per Part 6); Cr-VI evidence lives on [[metals/chromium-hexavalent]] and is never substituted for total Cr in the ingredient profile (Part 14). Declaring an analyte a data gap is a finding, not a placeholder: it tells the app, the certifier, and downstream readers that the wiki has reviewed the literature for this commodity-analyte combination and found nothing usable, which is materially different from "we have not looked."
+
+#### Body table: "Heavy metal contamination profile"
+
+The `contamination_profile` YAML is for the app. Human readers — regulators, brand QA, journalists, plaintiff and defense experts — read the page body. Every ingredient page that has been touched by an ingest must therefore carry a body-level table summarizing per-analyte coverage:
+
+```markdown
+## Heavy metal contamination profile
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb  | n=2       | 50–200 | 350    | low    | [[sources/foo2024-bar\|1]], [[sources/baz2023-qux\|2]] |
+| Cd  | n=5       | 100–600 | 1,200 | medium | [[sources/...\|3]], [[sources/...\|4]] |
+| iAs | data gap  | —      | —      | —      | — |
+| tAs | n=3       | ...    | ...    | low    | ... |
+| tHg | data gap  | —      | —      | —      | — |
+| Ni  | n=1       | 800    | —      | low    | [[sources/...\|5]] |
+| Al  | n=1       | 20,000 | —      | low    | ... |
+| Cr  | n=1       | 200    | —      | low    | ... |
+| Sn  | data gap  | —      | —      | —      | — |
+| U   | data gap  | —      | —      | —      | — |
+
+### Source legend
+1. [[sources/foo2024-bar]] — short description of what this source contributes
+2. [[sources/baz2023-qux]] — ...
+```
+
+Coverage cells use `n=<count>` when `n_studies > 0` and `data gap` when `n_studies = 0` with `status: populated`. Numerical cells use `—` for data gaps. Key-sources cells cite the top two or three contributing sources using the numbered-alias convention (see product-category pages above), with a `Source legend` section below the table mapping each number to the full source page and what it contributes. This table is a sanctioned exception to Part 15's "multi-column tables discouraged" guidance; the stakeholder-snapshot use case warrants the format, and the same data lives in machine-readable form in frontmatter for any rendering surface that cannot accommodate the wide table.
+
 ### Product-category page (`wiki/products/<category>.md`)
 
 ```yaml
@@ -640,7 +673,7 @@ When Karen drops a file into `raw/` and says "ingest this", the model's delivera
 4. [system] Rebuild the routing audit by running `npm run evidence:source-routes` (or letting the watcher pick up the new source page once Part 5b's watcher is wired). The audit names the affected product, ingredient, metal, and regulation pages. The model reads the audit; the model does not re-derive fan-out from the source's content.
 5. [model, on Karen's approval] If the routing audit flags a `routing_unresolved` entry (the source declares a product or ingredient page that does not exist yet), surface the proposal to Karen. She approves; you create the stub with required frontmatter. Do not silently create new pages for unresolved routes; per Part 10, new ingredient pages are proposed in batch reports, not invented per-source.
 6. [generator] Run `npm run prebuild` (or `npm run crosswalk:apply`) so the affected product-page generators regenerate their marker-bounded sections from the updated routing audit and structured evidence. Do not edit inside `<!-- BEGIN: ... -->` / `<!-- END: ... -->` markers by hand.
-7. [model, where Part 9 applies] If the source contributes to an ingredient's `contamination_profile` for a (metal, ingredient) combination that already has loaded synthesis, advance the synthesis per Part 9's incremental-update rules. The synthesis workflow is separate from ingest; treat it as triggered by the routing audit, not as part of writing the source page.
+7. [model, where Part 9 applies] If the source contributes to an ingredient's `contamination_profile`, advance `status` from `pending` to `in_progress` or `populated` for analytes the source addresses and populate `confidence`, `n_studies`, and `last_reviewed` accordingly. Apply the Part 6 coverage rule: any remaining `pending` sub-blocks on the same page advance to `populated` with `n_studies: 0` to declare the data gap explicitly, so a touched ingredient page never leaves the ingest with mixed `pending` / `populated` sub-blocks. Update or create the body-level "Heavy metal contamination profile" table to match the new state. Where a (metal, ingredient) combination already has loaded synthesis, run the Part 9 incremental-update rules; treat the synthesis workflow as triggered by the routing audit, not as part of writing the source page.
 8. [model, until auto-emit per Part 17] Append a one-line entry to `log.md` and update `index.md` if a new page was created.
 9. [model] Commit to git with a message that mirrors the log entry. Report back with a summary of what was written, what the routing audit reported, and any new-page proposals the audit surfaced.
 
@@ -854,7 +887,7 @@ Legitimate uses of bullets in wiki content: enumerated regulatory values or thre
 
 Illegitimate uses: summaries of individual studies (use prose with full citation), explanations of mechanisms (use prose, develop the argument), synthesis paragraphs (use prose, make the connections), consumer-facing explanations of risk (use prose, contextualize the dose), implications sections (use prose, reason through the implications).
 
-Structured data belongs in frontmatter YAML or two-column tables, not in bullets. Regulatory limits, concentration values, study details, and test method parameters are reference data, not analytical claims. They go in YAML where the app can parse them, or in two-column tables where humans can scan them. Multi-column tables are discouraged because they render poorly on mobile and in narrow Obsidian panes; if a multi-column table seems necessary, consider whether the data should be split across several two-column tables or represented as structured YAML.
+Structured data belongs in frontmatter YAML or two-column tables, not in bullets. Regulatory limits, concentration values, study details, and test method parameters are reference data, not analytical claims. They go in YAML where the app can parse them, or in two-column tables where humans can scan them. Multi-column tables are discouraged because they render poorly on mobile and in narrow Obsidian panes; if a multi-column table seems necessary, consider whether the data should be split across several two-column tables or represented as structured YAML. The ingredient-page "Heavy metal contamination profile" table defined in Part 6 is a sanctioned exception to this guidance: the stakeholder-snapshot use case (a single scannable view of all ten analytes for one commodity, read by regulators, brand QA, and legal reviewers) warrants the wide format, and the same data is available in machine-readable form in the frontmatter for any rendering surface that cannot accommodate it.
 
 Avoid em dashes. Use commas, semicolons, periods, or parentheticals instead. Em dashes are fine inside direct quotes and citation text; do not introduce them in new writing.
 
@@ -913,6 +946,10 @@ Evidence-tier mismatch: synthesis claims supported only by B-tier or C-tier sour
 Provenance gaps: wiki claims that do not trace to a specific source page. Every numerical claim in the wiki must link to a source; claims without provenance are a lint failure.
 
 Routing audit unresolved: `data/evidence/routing_unresolved.csv` is non-empty. A source's frontmatter declares products, ingredients, or matrices that do not match any existing target page, and the routing layer (Part 5b) could not fan the source out. Each unresolved entry is either a frontmatter correction (the model wrote the wrong slug) or a new-page proposal (the slug refers to a page that legitimately needs to exist; see Part 10).
+
+Ingredient coverage asymmetry: ingredient pages where some `contamination_profile` sub-blocks are `in_progress` or `populated` while others remain `pending`. Per the Part 6 coverage rule, any ingest that touches an ingredient page must advance all ten sub-blocks out of `pending`; analytes the source does not address advance to `populated, n_studies: 0` as declared data gaps. Mixed-state pages indicate an ingest that addressed some analytes and silently skipped others, leaving HMT&C-relevant analytes without visible coverage decisions. Pages still carrying all-`pending` sub-blocks (untouched stubs) are not flagged by this check; only mixed-state pages are. Run via `node tools/audit-ingredient-metal-coverage.mjs`.
+
+Ingredient body-table presence: ingredient pages whose frontmatter `contamination_profile` has any sub-block at `populated` or `in_progress` but whose page body lacks the "Heavy metal contamination profile" table from Part 6. The YAML is machine-readable; the body table is the stakeholder-facing surface and must travel with the data.
 
 Routing audit malformed: `data/evidence/routing_malformed.csv` is non-empty. A source page is missing required frontmatter fields (`cite_key`, `products`, `ingredients`, `matrices`, `metals`, `jurisdictions`, `source_type`, `evidence_tier`). The source page needs frontmatter repair before the routing layer can place it.
 

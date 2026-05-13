@@ -20,12 +20,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-08
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   tHg:
     status: in_progress
     typical_ppb: [null, null]
@@ -41,12 +41,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-08
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   Cr:
     status: in_progress
     typical_ppb: [null, null]
@@ -55,12 +55,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-08
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-12
   tAs:
     status: in_progress
     typical_ppb: [null, null]
@@ -80,12 +80,29 @@ lower_risk_variants: ["[[ingredients/peeled-potato]]", "[[ingredients/potato-sta
 higher_risk_variants: ["[[ingredients/unpeeled-potato]]", "[[ingredients/potato-skin]]", "[[ingredients/potato-peel-heavy-products]]"]
 used_in_products: ["[[products/baby-food-vegetables]]", "[[products/french-fries]]", "[[products/potato-chips]]", "[[products/mashed-potato-products]]", "[[products/potato-starch-containing-baked-goods]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-08
+updated: 2026-05-12
 ---
 
 # Potatoes
 
 _Stub page. Contamination profile populates on the next ingest wave. Potatoes are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] as one of the population-level dietary cadmium contributors, placed in a joint "starchy roots and potatoes" category alongside other root vegetables. The commodity is distinct from the root-vegetables-for-babies category that the FDA CTZ Pb guidance treats under a dedicated 20 ppb action level._
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 (in progress) | — | — | — | — |
+| Cd | n=1 (in progress) | — | — | — | — |
+| iAs | data gap | — | — | — | — |
+| tAs | n=1 (in progress) | — | — | — | — |
+| tHg | n=1 (in progress) | — | — | — | — |
+| Ni | n=1 (in progress) | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | n=1 (in progress) | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | n=1 (in progress) | — | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

@@ -2,10 +2,14 @@
 title: Lint reports
 description: Audit reports identifying contradictions, stale claims, orphaned pages, missing cross-references, and evidence-tier imbalances.
 audience: [researcher]
-updated: 2026-05-03
+updated: 2026-05-12
 ---
 
 Periodic audits identify contradictions across pages, stale claims citing only older literature, orphaned pages with no inbound links, missing cross-references, evidence-tier imbalances where synthesis pages rest on Tier B or Tier C sources despite Tier A availability, regulatory drift on rules older than six months, and proposed next sources to seek out. Reports are dated and linked from the [log](/log).
+
+## 2026-05-11
+
+- [[lint/2026-05-11-ingredient-metal-coverage]] — Ingredient-page metal-coverage audit (Part 6 coverage rule); 110 mixed-state lint failures, 127 missing the body-level summary table.
 
 ## 2026-05-03
 
