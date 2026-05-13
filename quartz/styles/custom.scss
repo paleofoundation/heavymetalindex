@@ -1319,75 +1319,79 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
 }
 
 .hmi-home-corpus-counter {
-  background: var(--light);
-  border: 1px solid var(--lightgray);
+  background: var(--secondary);
   border-radius: var(--radius-md);
   margin: 0 0 3.25rem;
-  padding: 1.5rem 1.6rem;
+  padding: 1.75rem 1.9rem;
 }
 
 .hmi-home-corpus-counter-label {
-  color: var(--secondary);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.1em;
-  margin-bottom: 1.1rem;
+  letter-spacing: 0.12em;
+  margin-bottom: 1.25rem;
   text-transform: uppercase;
 }
 
 .hmi-home-corpus-counter-grid {
   display: grid;
-  gap: 0.95rem;
+  gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  margin: 0 0 1.1rem;
+  margin: 0 0 1.25rem;
 }
 
 .hmi-home-corpus-counter-grid > div {
-  border-left: 2px solid var(--secondary);
-  padding: 0.2rem 0 0.2rem 0.85rem;
+  border-left: 2px solid rgba(255, 255, 255, 0.25);
+  padding: 0.2rem 0 0.2rem 0.9rem;
 }
 
 .hmi-home-corpus-counter-grid dt {
-  color: var(--gray);
+  color: rgba(255, 255, 255, 0.65);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.06em;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.25rem;
   text-transform: uppercase;
 }
 
 .hmi-home-corpus-counter-grid dd {
-  color: var(--dark);
+  color: #fff;
   font-family: var(--codeFont);
   font-size: 1.55rem;
   font-weight: 700;
   line-height: 1.1;
   margin: 0;
-}
 
-.hmi-home-corpus-counter-grid small {
-  color: var(--gray);
-  display: block;
-  font-size: 0.72rem;
-  line-height: 1.4;
-  margin-top: 0.35rem;
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: rgba(255, 255, 255, 0.5);
+      text-underline-offset: 3px;
+    }
+  }
 }
 
 .hmi-home-corpus-counter-meta {
-  color: var(--gray);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.55);
   font-size: 0.78rem;
   line-height: 1.5;
   margin: 0;
+  padding-top: 1rem;
 }
 
 .hmi-home-corpus-counter-meta a {
-  color: var(--secondary);
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 600;
 }
 
 @media (max-width: 720px) {
   .hmi-home-corpus-counter {
-    padding: 1.1rem 1.1rem;
+    padding: 1.25rem 1.25rem;
   }
 
   .hmi-home-corpus-counter-grid dd {
