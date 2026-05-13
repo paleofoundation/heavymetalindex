@@ -49,5 +49,5 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/lgc2003-nickel-piercing-post-assemblies\|LGC 2003]]. *Risk of sensitisation of humans to nickel by piercing post assemblies*, Final Report submitted under EC Contract ETD/FIF.2001592 | 2003 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/lgc2003-nickel-piercing-post-assemblies\|LGC 2003]]. *Risk of sensitisation of humans to nickel by piercing post assemblies*, Final Report submitted under EC Contract ETD/FIF.2001592 | 2003 | Government report | EC-commissioned LGC dossier characterising Ni release from stainless steel piercing post assemblies in artificial sweat; foundational evidence for EU Nickel Directive compliance and dermal Ni sensitisation risk for this non-food product row |
 <!-- END: hmi-source-legend -->

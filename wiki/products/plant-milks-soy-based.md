@@ -114,8 +114,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/milani2023-trace-elements-soy-based-beverages\|Milani et al. 2023]]. *Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/milani2023-trace-elements-soy-based-beverages\|Milani et al. 2023]]. *Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | ICP-OES measurement of Al, tAs, Cd, Cr, Ni, Pb, Sb, and Sn in 18 Brazilian soy-based beverages by soy-source group; primary multi-metal occurrence source for the soy plant-milk row (Al group means 176–758 µg/L; most others <LOQ) |
+| 2 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | ICP-MS survey of Pb, tHg, Ni, and U in retail plant-based drinks from Spain including soy drink; tHg not detected; provides multi-metal occurrence context and Ni comparison for the soy plant-milk row |
 <!-- END: hmi-source-legend -->
 
 ## CC candidate evidence map
