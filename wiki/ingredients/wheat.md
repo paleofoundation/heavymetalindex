@@ -87,6 +87,23 @@ updated: 2026-04-24
 
 _Stub page. Contamination profile populates on the next ingest wave. Wheat is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors, with the bran and germ fractions carrying higher cadmium than refined endosperm._
 
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found. The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | pending | — | — | — | — |
+| Cd | pending | — | — | — | — |
+| iAs | pending | — | — | — | — |
+| tAs | pending | — | — | — | — |
+| tHg | pending | — | — | — | — |
+| Ni | n=1 (in progress) | 100 – 800 | — | low | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm 1984]] |
+| Al | pending | — | — | — | — |
+| Cr | pending | — | — | — | — |
+| Sn | pending | — | — | — | — |
+| U | pending | — | — | — | — |
+
 ## Why this commodity accumulates cadmium
 
 Wheat takes up cadmium from soil through its root system, with uptake efficiency influenced by soil cadmium concentration, zinc status, soil pH, and cultivar. Durum wheat has been documented as a more efficient cadmium accumulator than common bread wheats, producing elevated cadmium in pasta-grade wheat products. Within the wheat kernel, cadmium partitions preferentially to the bran and germ rather than the endosperm, so refined white flour carries the lowest cadmium among common wheat derivatives and whole-wheat products carry the highest.

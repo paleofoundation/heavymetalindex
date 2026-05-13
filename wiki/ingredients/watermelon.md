@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 81, "Watermelon, raw/frozen." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Watermelon is a cucurbit fruit with a high water content (approximately 92 percent by weight) and a large physical volume. Both characteristics limit heavy metal accumulation on a per-gram basis: metals taken up from soil by the root system are distributed across a large mass of dilute fruit tissue. The thick outer rind provides an additional physical barrier that restricts metal translocation into the edible flesh. Watermelon is therefore among the lower-risk food matrices on the wiki for most heavy metals. The FDA TDS FY2018-FY2020 data (n=27) consistently show zero or near-zero values for Pb, Cd, Cr, and tHg across the full distribution, with only Ni (reaching 79 ppb at maximum), tAs (reaching 6.8 ppb at maximum), and Cd (reaching 2.6 ppb at maximum) showing any non-zero observations at the upper tail ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The Ni signal is consistent with low-level background Ni in cucurbit crops. The tAs signal at trace levels is not unexpected for fruit grown on soils with any background arsenic. Root-level uptake from contaminated soils is the operative pathway for all detected metals; there is no aquatic bioaccumulation or manufacturing-related metal pathway for fresh watermelon.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+FDA TDS FY2018-FY2020 data (n=27) show that the vast majority of watermelon samples are at or below detection limits for all analytes ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The p90 for Ni is 52 ppb and maximum is 79 ppb; for tAs the p90 is 3.78 ppb and maximum is 6.8 ppb; for Cd the p90 is 1.44 ppb and maximum is 2.6 ppb. These distributions suggest that elevated values are rare events, likely associated with specific growing conditions rather than being characteristic of the commodity category as a whole. No geographic or varietal breakdown for watermelon heavy metals is available in the current corpus.
+
+## Processing effects
+
+Fresh watermelon consumed raw undergoes no processing steps that alter metal concentrations. Watermelon juice and watermelon-based beverages produced by pressing and filtering concentrate metals in proportion to water reduction only minimally, as the high initial water content of the fruit means that juice yield is high and solid residue is low. Freezing (the form in the TDS description "Watermelon, raw/frozen") does not alter metal concentrations. No cooking or thermal processing is conventionally applied to watermelon in its primary use as a fresh fruit.
+
+## Ingredient-derivative risk
+
+Watermelon is used primarily as a fresh fruit. Processed derivatives include watermelon juice, watermelon extract (used in beverages and supplements), watermelon rind pickles, and freeze-dried watermelon powder. The rind carries a different metal profile than the flesh because it is the outer structural tissue closest to the soil interface; rind-specific metal data are not in the current corpus. Freeze-dried watermelon powder concentrates metals proportionally to water removal but the low initial metal content of the flesh means concentrations remain low even after dehydration.
+
+## Mitigation options
+
+### Sourcing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given the consistently near-zero concentrations in the TDS data, routine lot-level heavy metal testing of fresh watermelon for commercial food manufacturing is unlikely to yield actionable signals under normal supply-chain conditions. Testing would be warranted when watermelon is sourced from geographies with known soil contamination or industrial co-location.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The European Union applies maximum levels for Pb (0.10 mg/kg, or 100 ppb) and Cd (0.050 mg/kg, or 50 ppb) to fresh fruit under [[regulations/eu2023-contaminants-maximum-levels]]. These limits apply to watermelon as fresh fruit sold in the EU. No FDA action level specific to watermelon or cucurbit fruits is in force. [[regulations/codex-cadmium-mls]] provides the international Codex Cd maximum for vegetables and certain fruits. The observed concentrations in the TDS data are substantially below applicable regulatory limits.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

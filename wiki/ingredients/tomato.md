@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 117, "Tomato, raw." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Tomato is a botanical fruit grown close to the soil surface, and its metal burden is determined primarily by the chemical composition of the growing medium. Lead and cadmium enter tomato tissue through root uptake from contaminated soils; both metals are taken up passively along with nutrients, with Cd uptake facilitated by the same membrane transporters that move zinc and calcium into root cells. Tomatoes are generally considered a low-to-moderate accumulator for both Pb and Cd relative to leafy vegetables or root crops, because the fruit forms a physical separation from the root system and metals must be transported through multiple plant compartments to reach the edible portion. However, tomatoes are a dietary staple consumed in large volumes by diverse populations, meaning that even low per-gram concentrations contribute meaningfully to aggregate dietary exposure across the population. Soil organic matter, pH, and proximity to industrial or road-traffic Pb sources are the primary drivers of field-level variance.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Processing effects
+
+Fresh tomato transitions into several processed forms that concentrate or dilute metals in different proportions. Dicing, crushing, and cooking in water do not significantly change metal concentrations on a wet-weight basis, but evaporation during sauce or paste production concentrates all solutes proportionally. Tomato paste, which undergoes substantial water removal, will carry higher ppb values for any metal present in the raw fruit simply because the same mass of metal is distributed across less water. Canning introduces a separate concern: the heat sterilisation step required for shelf-stable canned tomatoes in tinplate cans can drive tin (Sn) migration from the can lining into the acidic tomato matrix; this pathway is documented for canned tomato products more broadly and is discussed on the [[ingredients/tomato-soup]] page. Lacquer-lined or BPA-free can coatings substantially reduce Sn migration.
+
+## Ingredient-derivative risk
+
+The primary derivatives of tomato in food manufacturing are tomato paste (concentrated), tomato puree, crushed tomatoes, tomato sauce, ketchup, tomato juice, sun-dried tomatoes, and tomato powder. Because metals do not volatilize during cooking, any derivative that reduces water content relative to fresh tomato will show proportionally elevated concentrations on a wet-weight basis. Sun-dried tomatoes and tomato powder, which remove nearly all free water, would be expected to carry the highest per-gram concentrations of any metal present in the raw fruit. Tomato soup and tomato-based sauces occupy an intermediate position. Ketchup, which is typically made from concentrated paste diluted with vinegar and other ingredients, presents a blended metal profile. The [[ingredients/tomato-soup]] page carries occurrence data specific to the canned condensed soup form.
+
+## Mitigation options
+
+### Sourcing levers
+
+Tomatoes grown in soils with low background Pb and Cd concentrations, verified by supplier soil testing, represent the primary sourcing lever. Industrial or peri-urban cultivation sites near smelters, highways, or legacy industrial land carry higher Pb risk. Specification of growing-region origin and soil metal testing at supplier qualification is the upstream control.
+
+### Agronomic levers
+
+Soil pH management (maintaining pH above 6.5) reduces Cd and Pb bioavailability through adsorption to soil particles. Liming contaminated soils is an established agronomic practice for reducing Cd uptake across vegetable crops. Organic matter additions similarly reduce metal bioavailability. These interventions are most relevant where supplier soils are moderately elevated rather than severely contaminated.
+
+### Processing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Because tomato is a high-volume dietary staple, lot-level testing of raw tomato paste or puree used in high-volume products is warranted for Pb and Cd. Third-party ICP-MS testing of finished paste concentrates provides the most actionable signal for downstream product manufacturers.
+
+### Packaging and storage levers
+
+For canned tomato products, specifying lacquer-lined or polymer-coated cans eliminates the Sn migration pathway from tinplate. This is addressed in more detail on [[ingredients/tomato-soup]].
+
+## Regulatory limits that apply
+
+The European Union sets maximum levels for Pb and Cd in fresh tomatoes under [[regulations/eu2023-contaminants-maximum-levels]]: Pb at 0.10 mg/kg (100 ppb) and Cd at 0.050 mg/kg (50 ppb) on a fresh-weight basis. These limits apply to tomato as a fresh fruit or vegetable placed on the EU market. Processed tomato products such as paste or sauce are governed by separate matrix-specific provisions in EU contaminant regulations. No FDA action level specific to raw tomato is currently in force; [[regulations/fda-closer-to-zero]] guidance addresses Pb in processed baby foods rather than raw commodities. [[regulations/codex-cadmium-mls]] provides the international Codex Cd maximum for vegetables.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

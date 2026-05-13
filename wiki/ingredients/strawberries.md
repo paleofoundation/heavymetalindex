@@ -89,6 +89,10 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Strawberries (Fragaria x ananassa and related species) are a low-accumulation fruit for heavy metals under normal agricultural conditions. The aerial fruiting structure of the strawberry plant develops above the soil surface and receives metals primarily through translocation from root to above-ground tissues, rather than through direct soil contact. This distinguishes strawberries from root vegetables and tubers, which grow embedded in soil and accumulate metals much more efficiently. Cadmium (Cd) and lead (Pb) in soil solution are taken up by strawberry roots to a degree proportional to soil metal bioavailability and plant uptake efficiency; however, the translocation factor for both metals from root to berry is low, meaning only a small fraction of the metal absorbed at the root reaches the edible fruit. Pb in particular is largely immobilized at the root surface and in root tissue, with minimal transport to above-ground parts. A secondary contamination pathway specific to soft fruits like strawberries is surface deposition: dust, soil particles, and atmospheric Pb can deposit on the berry surface, particularly in areas with legacy soil Pb contamination from leaded fuel combustion or agricultural Pb arsenate applications. Washing before consumption removes a portion of surface contamination. The FDA TDS FY2018-FY2020 data for strawberries (n=27 composite samples) show Pb below detection in all 27 composites; Cd was detected in most samples with a median of 8.5 ppb and a maximum of 34 ppb; no Pb was detected [[sources/fda2022-tds-elements-fy2018-fy2020]]. The modest Cd values reflect strawberry cultivation in soils that may carry background Cd from agricultural inputs, while Pb non-detection is consistent with the low translocation and surface-bound character of Pb in this matrix.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The Cd content of strawberries varies with soil Cd loading in the production region and with soil pH, which governs Cd bioavailability. Strawberries grown on soils with elevated Cd from historical phosphate fertilizer applications in northern and western Europe show higher Cd than berries grown on lower-Cd soils in North America, southern Europe, or Australia. The FSA/Fera FS102048 survey provides UK market-basket data for strawberries; US market data are available from the FDA TDS FY2018-FY2020 dataset (Cd p50 of 8.5 ppb, max 34 ppb, n=27 composites) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Organic versus conventional production shows minimal difference for Cd (because Cd is soil-derived regardless of agricultural system) but may show modest Pb differences in areas with legacy surface contamination, as organic management may involve less soil disturbance and different irrigation practices. Variety-level differences in Cd accumulation within strawberry species exist but are secondary to soil and management factors in commercial production. Geographic source variation will be more precisely characterized as additional occurrence surveys from European and other international markets are ingested.
+
+## Processing effects
+
+Strawberries in retail commerce are sold fresh or frozen; in processed form they appear as purees, jams, freeze-dried powder, and flavoring ingredients. The key processing effect for metal content is the change in moisture state. Fresh strawberries contain approximately 90 percent water by weight. Freezing does not alter metal content. Producing strawberry puree from fresh or frozen berries does not remove metals; the puree retains the full metal load of the input fruit. Drying or freeze-drying concentrates metals in proportion to water removal: freeze-dried strawberry powder at approximately 5 percent moisture contains approximately eighteen times the metal concentration per gram as the fresh fruit on a wet-weight basis. Jam production involves cooking with added sugar, which dilutes the metal concentration relative to the input fruit fraction; the metal content of jam on a per-gram basis is lower than the input puree in proportion to the sugar dilution factor. Washing fresh strawberries before processing removes surface-deposited dust and Pb, but does not affect internally translocated Cd. Industrial wash steps are standard in processing lines.
+
+## Ingredient-derivative risk
+
+Strawberry puree and concentrate are used extensively in dairy products, beverages, baby food, and confectionery. In baby food formulations incorporating strawberry puree at meaningful inclusion levels, the Cd contribution from the berry fraction is the primary metal of concern from this ingredient, though at typical inclusion levels and the modest Cd values documented in the TDS data, the contribution is small relative to higher-risk ingredients. Freeze-dried strawberry powder used in snack coatings, cereal products, and supplement blends carries a substantially higher per-gram Cd load than fresh fruit due to moisture concentration and merits specific assessment when used at significant inclusion levels in products for children. Strawberry flavoring extracts used at very low inclusion levels do not contribute meaningful metal loads.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying strawberry origin from low-Cd-soil production regions reduces Cd in the finished ingredient. For processed strawberry products (puree, freeze-dried powder) used in products marketed to infants or young children, supplier COAs with ICP-MS Cd results provide the necessary lot-level verification. Given the relatively modest Cd values in US market data, sourcing from US growers rather than high-Cd European regions may be a relevant lever for manufacturers seeking to minimize Cd in sensitive products.
+
+### Agronomic levers
+
+Soil pH management (maintaining above 6.5) reduces Cd bioavailability to strawberry plants. Strawberries are typically grown on slightly acidic to neutral soils; liming programs where soil pH is low can reduce Cd uptake. Limiting phosphate fertilizer applications from high-Cd-rock sources is a recognized prevention strategy. _No quantified reduction magnitude data for strawberry Cd from agronomic interventions is available in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Thorough washing of fresh strawberries before processing removes surface-bound Pb from atmospheric deposition. This is standard practice and has documented effectiveness for surface contamination but does not affect internally translocated Cd. For products sold as washed fresh strawberries, consumer washing provides a similar benefit.
+
+### Formulation levers
+
+For products targeting infants and young children that use strawberry as a flavoring ingredient, using strawberry extract or flavoring at low inclusion levels rather than puree at high inclusion levels reduces the absolute metal contribution from this ingredient. Diluting freeze-dried strawberry powder in multi-ingredient formulations proportionally reduces its metal contribution.
+
+### Testing and QC levers
+
+For freeze-dried strawberry powder used in products for young children, lot-level Cd testing by ICP-MS is warranted given the concentration effect of drying. For fresh or frozen strawberries in the food service supply chain, periodic surveillance testing is sufficient given the modest and consistent values in market-basket data.
+
+### Packaging and storage levers
+
+_No quantified data on packaging or storage effects on strawberry metal content in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), strawberries fall within the berries and small fruits category. The applicable Pb maximum level is 0.10 mg/kg (100 ppb) wet weight, and the Cd maximum level is 0.050 mg/kg (50 ppb) wet weight. The FDA does not publish a specific action level for Pb or Cd in strawberries; the general tolerance framework under 21 CFR applies. The Closer to Zero program (see [[regulations/fda-closer-to-zero]]) addresses Pb reduction in foods for babies and young children broadly, and strawberry purees used in infant and toddler food formulations fall within scope of the CTZ reduction goals even where no berry-specific numerical limit currently exists.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

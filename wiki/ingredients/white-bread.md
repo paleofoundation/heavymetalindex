@@ -89,6 +89,10 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+White bread is produced from refined wheat flour (typically enriched white flour in the US) that has had the bran and germ fractions removed during milling. This processing step is the defining feature of white bread's metal profile: Cd partitions preferentially to the bran and germ of the wheat kernel, so refined flour carries approximately half the Cd of whole-wheat flour. The endosperm-dominant composition of white flour therefore results in a materially lower Cd content than whole-wheat bread or bran-enriched products made from the same grain. FDA TDS FY2018-FY2020 data (n=27) for enriched white pre-sliced bread confirm this pattern, with Cd showing a median of 29 ppb and a p95 of 35.4 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Nickel in the same dataset has a median of 79 ppb and a p95 of 117 ppb, consistent with wheat's background Ni contribution even through refining. Lead is near detection limits across the distribution (p90 = 5.3 ppb, max = 23 ppb). The primary metal accumulation pathway for all values present is soil uptake by the wheat crop; commercial yeast, salt, and water additives in bread manufacturing contribute negligible metals.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+FDA TDS FY2018-FY2020 data (n=27) for enriched white pre-sliced bread provide the most detailed available US dataset for this matrix ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The Cd distribution ranges from 18 ppb (minimum) to 37 ppb (maximum) with a median of 29 ppb, indicating a relatively narrow and consistent Cd range for a commercially standardised product. Ni ranges from 0 to 120 ppb (median 79 ppb). The FSA/Fera FS102048 UK survey provides a second data point that remains quantitatively unstructured in the current corpus ([[sources/fsa2016-infant-food-formula-metals-survey]]). White bread from different wheat sourcing regions would be expected to vary in Cd concentration in proportion to the wheat grain's Cd, but the refining step that removes the bran compresses the upper end of the distribution relative to whole-wheat products, resulting in a narrower Cd range across brands than is observed for whole-wheat bread.
+
+## Processing effects
+
+The milling step that produces white flour from wheat removes the bran and germ, reducing Cd and Ni content relative to the whole grain. Enrichment of the flour (adding back iron, thiamine, riboflavin, niacin, and folic acid to meet regulatory standards) uses food-grade nutrient forms that do not contribute heavy metals at measurable concentrations. Bread-making itself involves mixing, fermentation by yeast, proofing, and baking at 180 to 220 degrees Celsius. None of these steps remove or add heavy metals. The leavening step (yeast fermentation) produces CO2 and alcohol and alters the bread matrix physically and chemically, but has no established effect on metal concentrations in the finished loaf. Metal concentrations in finished white bread on a dry-weight basis are therefore determined entirely by the metal concentrations in the input flour.
+
+## Ingredient-derivative risk
+
+White bread is one of the lowest-risk positions on the wheat-product metal spectrum because bran removal during milling is the most effective single processing step for reducing Cd in wheat-derived foods. The risk gradient within the bread category runs from white bread (lowest Cd) through mixed-grain breads to whole-wheat bread and bran-enriched breads (highest Cd). White bread used in sandwiches, toast, or as a food-service base product carries the same metal profile as the retail loaf. Breadcrumbs made from white bread are used as coatings in processed products; the breadcrumb fraction contributes its white-bread metal profile proportionally to the finished product by weight.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing refined white flour from wheat varieties and growing regions with lower background Cd is the primary lever. While bran removal already substantially reduces Cd relative to whole grain, flour from lower-Cd wheat grain will produce lower-Cd white bread. Supplier wheat sourcing specifications and periodic commodity testing are the operationalisation of this lever.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+The milling step to white flour is already the most impactful single processing intervention for reducing Cd in wheat products. Further Cd reduction within the white-bread category is limited by the endosperm composition of the grain itself. Using municipal tap water from low-Pb systems (or filtered water) for dough mixing eliminates any Pb contribution from water, though the Pb contribution from process water is negligible under normal conditions.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Given the consistency of Cd values in the TDS data (18 to 37 ppb range across the US market), routine lot-level Cd testing of white bread specifically is a lower priority than testing for higher-risk wheat products such as whole-wheat bread or bran supplements. Testing incoming flour for Cd at supplier qualification is more efficient than testing finished bread.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The European Union sets a maximum level for Cd in cereal products of 0.10 mg/kg (100 ppb) under [[regulations/eu-2023-915-cadmium]] and [[regulations/eu2023-contaminants-maximum-levels]], applicable to white bread as a wheat-based food product. For Pb in cereals, the EU ML is 0.20 mg/kg (200 ppb). The observed Cd values in the TDS data (maximum 37 ppb) are well below the EU ML of 100 ppb. [[regulations/codex-cadmium-mls]] provides the international Codex Cd ML for cereal-based products. In the US, [[regulations/fda-closer-to-zero]] Pb guidance (20 ppb) applies to grain-based baby foods; white bread as an adult or general-population product has no specific FDA Pb or Cd action level.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

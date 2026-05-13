@@ -89,6 +89,10 @@ sources: 2
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Whole milk is a low-accumulator matrix for most heavy metals. The dairy cow's physiology actively restricts the transfer of ingested metals from blood to milk; this is particularly effective for cadmium and lead, which are tightly regulated across biological membranes. The transfer factor from feed to milk for Cd and Pb is very low (typically below 1 percent for Pb, and even lower for Cd), meaning that even when cows graze on Cd-or Pb-contaminated pastures, the resulting milk carries concentrations well below those of the feed. Mercury transfer to milk is similarly restricted. The FDA TDS FY2018-FY2020 data for whole fluid milk (n=27) record all seven measured analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) at zero across the entire distribution ([[sources/fda2022-tds-elements-fy2018-fy2020]]), consistent with the well-established low-risk characterisation of fluid dairy from non-contaminated herds. Marques et al. (2021) detected Pb in non-organic whole milk at trace levels in Spanish retail samples by ICP-MS ([[sources/marques2021-trace-elements-milks-plant-based-drinks]]), illustrating that Pb is detectable in some market contexts even if distribution-wide surveys show predominantly zero values. Whole milk's fat content relative to skim milk results in slightly higher concentrations of lipophilic metal species, but this effect is minor for the regulated heavy metals of concern.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+FDA TDS FY2018-FY2020 data (n=27) for whole fluid milk in the US show zero values across all analytes (Cd, Cr, Ni, Pb, U, tAs, tHg) throughout the distribution ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The Marques et al. 2021 Spanish retail study detected Pb in non-organic whole cow milk, illustrating that while distribution-wide surveys show predominantly zero values, some market contexts yield detectable Pb ([[sources/marques2021-trace-elements-milks-plant-based-drinks]]). Dairy from herds grazing pastures with elevated Pb or Cd, such as land near legacy mining or smelting operations, can produce milk with elevated concentrations; this is a localised exception rather than a characteristic of the commodity category. Organic versus conventional milk is not systematically associated with different metal profiles in the published literature, as the primary determinant of milk metal content is the metal burden of the pasture and feed rather than production system.
+
+## Processing effects
+
+Pasteurisation (HTST or UHT) does not significantly alter the metal content of milk; the thermal treatment targets microbial pathogens rather than mineral or metal composition. Homogenisation, which breaks up fat globules to produce uniform fat distribution, does not change total metal concentrations. Ultra-high temperature (UHT) processing and sterilisation similarly leave metal concentrations unchanged. Spray-drying of whole milk to produce whole milk powder concentrates all solutes including metals in proportion to the water removed, roughly by a factor of 7 to 8 (reflecting the reconstitution ratio of approximately 1 part powder to 7 parts water); however, because the starting fluid milk concentrations are near or below detection limits, the resulting whole milk powder concentrations remain very low even after this concentration step. Evaporated milk, which is concentrated but not fully dried, shows a similar concentration factor.
+
+## Ingredient-derivative risk
+
+Whole milk is the starting material for a range of dairy derivatives including cream, butter, cheese, yogurt, condensed milk, evaporated milk, and whole milk powder. In all of these derivatives, the metal profile of the raw milk is carried through with modification only by the concentration or dilution factor of the processing step. Cheese production involves concentration of protein and fat (which removes whey), so any metals associated with the protein or fat fraction may be slightly concentrated in the curd; however, cheese metal concentrations remain very low given the near-zero starting point of fluid milk. Butter, which is almost pure fat, carries minimal metals. Whey protein products (whey protein concentrate, whey protein isolate) are addressed on separate ingredient pages and may carry different metal profiles from the whey fraction.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing milk from herds grazing on non-contaminated pastures in regions without legacy industrial Pb or Cd soil loading is the primary upstream lever, though this is rarely a practical concern for commercially produced whole milk at population scale. In geographies with legacy mining or smelting activity adjacent to dairy farming, pasture metal testing and milk surveillance are appropriate.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Routine heavy metal testing of commercial whole milk for Pb and Cd is unlikely to yield actionable values under standard supply-chain conditions. Testing is warranted for dairy sourced from geographic areas with known soil contamination, or for product categories such as infant formula where milk is a primary ingredient and regulatory scrutiny of metals is high.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The European Union sets a maximum level for Pb in raw milk, heat-treated milk, and milk-based products of 0.020 mg/kg (20 ppb) under [[regulations/eu2023-contaminants-maximum-levels]]. No EU maximum level is set for Cd in fluid milk because Cd transfer to milk from contaminated feed is very low. No maximum level for Hg in milk is promulgated under current EU contaminant regulations. In the US, no FDA action level for Pb, Cd, or Hg in fluid cow milk is currently enforced under the [[regulations/fda-closer-to-zero]] programme, which focuses on processed infant foods and baby foods rather than raw milk constituents. [[regulations/codex-cadmium-mls]] includes provisions for Pb in milk at 0.020 mg/kg, consistent with the EU limit.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

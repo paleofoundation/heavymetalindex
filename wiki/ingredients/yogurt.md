@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Yogurt is a fermented dairy product produced from whole or reduced-fat cow's milk by the action of thermophilic lactic acid bacteria, principally Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus, with optional addition of probiotic strains. Because yogurt derives its base metal profile directly from its milk substrate, and because dairy cows are efficient discriminators against heavy metal transfer from feed into milk, yogurt is one of the lowest-risk food categories in the diet for Pb, Cd, and other heavy metals. The bioavailability of heavy metals for transfer from feed into bovine milk is well established to be low: for lead, transfer factors from feed to milk are in the range of 1 to 3 percent of ingested dose per kilogram milk; for cadmium, the transfer factor is even lower. Arsenic in cow's milk is predominantly in the dimethylarsinic acid (DMA) form, an organic species of low toxicological concern, and inorganic arsenic in milk is consistently below analytical reporting limits in market surveillance data. Mercury transfer to milk is also low, as methylmercury preferentially partitions to fatty tissue rather than milk. The fermentation step itself does not concentrate metals or introduce them; the lactic acid bacteria responsible for souring and curdling draw no heavy metals into the curd-forming process, and the whey drained off in some yogurt styles carries a portion of the water-soluble metal load with it, if anything marginally reducing concentrations in the retained curd fraction. The FSA/Fera FS102048 survey measured yogurt as a food composite, and the FDA Closer to Zero final guidance for Pb establishes a 10 ppb action level applicable to yogurt-based products intended for infants and young children, confirming the regulatory expectation that yogurt operates well within low-risk territory for Pb ([[sources/fda-ctz-Pb-babyfood-2025|1]]).
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,48 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+Yogurt's metal concentrations are consistently low across market surveys and jurisdictions, reflecting the low metal content of its milk base rather than any geography- or variety-specific pathway. Ibrahim et al. 2025 measured Pb, Cd, tAs, tHg, Al, Sb, Ni, and Cr in 180 flavored dairy products from the Egyptian market by ICP-MS, finding that yogurt samples showed metal concentrations that were generally low in absolute terms and below EU regulatory limits, even in an Egyptian market context where the supply chain is distinct from European or North American dairy systems ([[sources/ibrahim2025-metals-flavored-dairy-egypt|2]]). Greek-style yogurt, which concentrates the milk protein and fat fraction by straining out whey, would be expected to carry marginally higher per-gram metal concentrations than conventional stirred yogurt to the extent that metals partition to the curd rather than the whey; however, because baseline concentrations are low, even this concentration effect produces values that remain well within all applicable limits. Full-fat versus reduced-fat yogurt formats do not differ meaningfully in their metal content because the relevant metals (Pb, Cd, iAs) partition primarily to the aqueous phase rather than the fat fraction in dairy matrices. Variation across production regions is expected to be minimal given the uniformly low bioavailability of metals from dairy cow feed to milk.
+
+## Processing effects
+
+The fermentation process in yogurt production does not introduce heavy metals and does not significantly concentrate them. Lactic acid bacteria cultures used in yogurt fermentation (Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus) produce lactic acid and modify the protein matrix but do not accumulate metals from their environment into the curd. Some research has investigated the metal-binding capacity of Lactobacillus strains in vitro, finding that certain strains can adsorb Pb and Cd to their cell walls, potentially reducing bioaccessible metal in the finished product; however, the concentrations involved are low in both untreated milk and yogurt, so any bioaccessibility reduction is a marginal effect on an already low baseline. Straining to produce Greek or concentrated yogurt removes the whey phase; metals in dairy are primarily in the aqueous fraction, so whey removal could marginally increase the per-gram concentration in the retentate, but this effect is small relative to the inter-lot variability in raw milk. Heating of milk before fermentation (pasteurization), cooling, inoculation, and incubation steps all occur at temperatures where metals are non-volatile and concentrations are unaffected.
+
+## Ingredient-derivative risk
+
+Yogurt-based infant foods and toddler products represent the derivative category with the most regulatory scrutiny, as these products are consumed by a vulnerable population group. The FDA Closer to Zero 10 ppb Pb action level for yogurt intended for infants and young children establishes the applicable ceiling; market yogurt concentrations are expected to be well below this threshold. Yogurt used as an ingredient in mixed products (smoothies, dips, sauces, frozen desserts) contributes its low metal baseline to the blended product and does not represent a significant metal input. Yogurt powder, produced by spray drying, concentrates metals proportionally to the moisture removal, but because baseline concentrations are low, powdered yogurt metal concentrations remain in the low range in absolute terms. Probiotic-supplemented yogurts where cultures are added at high concentrations do not introduce additional metals from the bacterial biomass at commercially relevant levels.
+
+## Mitigation options
+
+### Sourcing levers
+
+Dairy sourcing from suppliers with documented raw milk monitoring programs provides the baseline assurance for yogurt producers. Because metal concentrations in milk are consistently low and driven by animal feed quality and environmental exposure at the farm level rather than by geographic or geological soil factors in the same way as plant foods, sourcing levers are of lower priority for yogurt than for crop-derived ingredients. Supplier quality programs that include routine raw milk monitoring for Pb and Cd, consistent with EU dairy surveillance expectations, are the standard commercial practice.
+
+### Agronomic levers
+
+At the dairy farm level, feed quality management (ensuring that animal feed does not contain elevated heavy metals from contaminated forage, by-product feeds, or mineral supplements) is the primary lever for controlling milk metal content. Feed contaminants, particularly elevated Cd in phosphate mineral supplements used in dairy rations, represent a potential pathway if not controlled. _No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Pasteurization and fermentation do not alter metal concentrations in the yogurt matrix. No processing lever analogous to washing (for vegetables) or milling (for grains) is available or necessary for yogurt given its low baseline concentrations. Greek-style straining removes whey and could marginally concentrate metals in the retentate; this is a minor effect on low baseline values rather than a significant risk.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Routine surveillance of raw milk and finished yogurt for Pb and Cd at frequencies consistent with applicable dairy monitoring programs provides compliance documentation. For yogurt-based infant food formulations, finished-product testing against the FDA Closer to Zero 10 ppb Pb action level is the relevant compliance benchmark. Third-party verification testing supports claims made in the context of certification programs.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+European Union Regulation 2023/915 sets a Pb ML for milk of 0.020 mg/kg (20 ppb) on a wet-weight basis; yogurt, as a processed dairy product derived from milk, falls under this dairy Pb limit. No EU ML exists specifically for Cd in milk or yogurt as of 2026, reflecting the very low Cd concentrations found in dairy matrices. See [[regulations/eu2023-contaminants-maximum-levels]] for the full milk and dairy-products scope. The FDA Closer to Zero final guidance establishes a 10 ppb (0.010 mg/kg) action level for Pb in yogurt and yogurt-based products intended for infants and young children ([[sources/fda-ctz-Pb-babyfood-2025|1]]); this is a voluntary action level rather than a legally binding maximum, but it represents the operative US compliance benchmark for baby yogurt products. For adult yogurt products in the US, no federal Pb or Cd action level applies outside this baby-food context. Codex STAN 193-1995 does not specify a Cd or Pb ML for fluid milk or yogurt, reflecting the broad regulatory consensus that dairy is a low-risk matrix for these analytes. See [[regulations/codex-cadmium-mls]] for the scope of Codex dairy coverage.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -89,6 +89,10 @@ sources: 1
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
+## Why this commodity accumulates heavy metals
+
+Turkey is a warm-blooded terrestrial animal whose muscle meat is a low-accumulator matrix for most heavy metals. Unlike fish, which bioaccumulate methylmercury (MeHg) through aquatic food chains, and unlike plant foods, which take up metals from soil, poultry muscle tissue is metabolically regulated: the bird's kidneys and liver process and excrete most systemic metals before they can accumulate in skeletal muscle. Residual metals in muscle reflect dietary intake from feed and water combined with the bird's metabolic efficiency of excretion. The FDA TDS FY2018-FY2020 data for turkey breast (oven-roasted, n=27) show near-zero concentrations for Cd, Cr, Ni, Pb, and tHg, with only tAs showing any signal at the higher percentiles (p95 = 7.47 ppb, max = 9.6 ppb) ([[sources/fda2022-tds-elements-fy2018-fy2020]]). This tAs signal likely reflects carry-through of feed-borne organic arsenicals from poultry feed, a pathway studied more extensively in broiler chickens but applicable to turkeys raised under comparable commercial conditions. The historical use of roxarsone and nitarsone in poultry feed as growth promoters contributed to elevated As in broiler and turkey tissue; regulatory withdrawal of these compounds in the US (completed by 2015) has reduced but not eliminated this pathway.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -136,6 +140,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 27 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+FDA TDS FY2018-FY2020 data for turkey breast (oven-roasted, n=27) show that Cd, Cr, Ni, Pb, and tHg are at or below detection limits across the full distribution, with only tAs and U showing any non-zero values at the upper tail ([[sources/fda2022-tds-elements-fy2018-fy2020]]). The tAs p90 is 5.38 ppb and max is 9.6 ppb; the U p95 is 0.77 ppb and max is 2.4 ppb. Turkey from US commercial supply chains post-2015, when roxarsone was withdrawn from the market, would be expected to show lower tAs than historical data from before that regulatory change. Geographic variation in turkey metal profiles is not well characterised in the current corpus; most available occurrence data originates from the US or European regulatory monitoring programmes.
+
+## Processing effects
+
+Oven roasting, which is the matrix reported in the FDA TDS data, removes free water through evaporation, which would concentrate non-volatile metals by a modest factor relative to raw muscle. Cooking methods that involve water immersion (poaching, boiling) may leach small amounts of metals into the cooking water, slightly reducing the metal content of the cooked meat. Neither effect is large enough to materially shift the risk classification of turkey as a low-accumulator matrix. Processed turkey products (deli slices, ground turkey, turkey sausage) may introduce additional ingredients (preservatives, starch fillers, casings) at low concentrations that contribute negligible additional metal load.
+
+## Ingredient-derivative risk
+
+Turkey muscle meat is used in products including roasted deli slices, ground turkey, turkey meatballs, turkey sausage, and turkey-based baby food purees. The metal profile of the muscle is carried into all of these derivatives without significant amplification or dilution. Organ meats (turkey liver, kidney) are a separate matter: kidneys and liver concentrate Cd systemically, so organ-based products would carry substantially higher Cd than muscle. This page covers turkey muscle only; organ-specific risk belongs on dedicated pages when ingested.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing turkey from flocks fed on verified low-As feed (certified free of arsenical additives) is the primary intervention for the tAs signal. In the US post-2015 regulatory environment, commercial feed is expected to be arsenical-additive-free; however, supplier documentation of this is appropriate for premium or certified product categories.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Routine Pb and Cd testing of turkey muscle is unlikely to yield detectable values given the consistently near-zero distributions in available surveys. Targeted tAs testing is warranted where feed provenance is uncertain or where products are positioned for infant or toddler markets, given that FDA Closer to Zero applies to baby food purees containing turkey.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+The European Union sets maximum levels for turkey muscle meat under [[regulations/eu2023-contaminants-maximum-levels]]: Pb at 0.10 mg/kg (100 ppb) and Cd at 0.050 mg/kg (50 ppb) for poultry muscle. No Hg or As specific maximum levels apply to poultry muscle under current EU contaminant regulations. In the US, [[regulations/fda-closer-to-zero]] Pb guidance (20 ppb for meat-based baby food purees) applies when turkey is used in products formulated for infants. No general FDA action level for As, Pb, or Cd in poultry muscle meat is currently promulgated for the domestic retail market.
 
 ## Sources
 

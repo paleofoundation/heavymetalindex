@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+Rice cakes are produced by puffing or compressing whole or milled rice under heat and pressure, yielding a product that is essentially concentrated rice with minimal water content. The metal contamination profile of rice cakes is driven by the same pathway that makes all rice-derived products high-priority for inorganic arsenic (iAs) surveillance: rice (Oryza sativa) is uniquely efficient at accumulating iAs from paddy soil water, through the same silicon uptake transporter system the plant uses to acquire silicon as a structural nutrient. In flooded paddy conditions, soil reduction converts insoluble arsenate to soluble arsenite, which becomes highly bioavailable to rice roots. The grain accumulates both iAs (the toxicologically relevant species) and total arsenic in concentrations that substantially exceed those found in other staple cereals grown under non-flooded conditions. Because rice cakes are made from rice with minimal dilution by other ingredients, they concentrate this arsenic load into a small-volume, low-moisture product. Unlike some grain products where refining (for example, removal of the bran in white rice) reduces iAs content, the puffing or compression step in rice cake manufacture does not remove arsenic; indeed, the low moisture content of the finished product means that metal concentrations on a wet-weight basis are proportionally higher than in cooked rice. Rice cakes marketed specifically to infants and young children are of particular regulatory and public health concern because infants have higher per-kilogram-body-weight dietary exposure and developing nervous systems that are more susceptible to iAs neurotoxicity. The relevant canonical page for the rice primary commodity is [[ingredients/rice]].
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,48 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+The iAs concentration in rice cakes is primarily determined by the iAs content of the rice grain used as the input, which is strongly influenced by rice production region and variety. California-grown medium-grain rice consistently produces lower iAs concentrations than US-grown long-grain varieties, particularly those from Arkansas, Louisiana, and Texas, owing to differences in soil arsenic availability and water management practices in these regions. Indian and Pakistani basmati varieties grown in low-arsenic subcontinent soils have some of the lowest iAs values documented among commonly traded rice types. Asian jasmine and short-grain varieties span a wide range depending on production location. Whole-grain (brown rice) inputs carry higher iAs than white rice inputs because the bran, where arsenic preferentially accumulates, is retained in brown rice. A rice cake made from whole-grain or brown rice therefore carries higher iAs than one made from white milled rice, all else being equal. The study by Signes-Pastor et al. (2016), the primary source on this page, documents iAs in rice cakes sold in UK and Spain, representing a European retail market basket including products made from various rice origins [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]]. Quantitative regional breakdown by input rice origin for rice cakes specifically requires additional source ingestion.
+
+## Processing effects
+
+The puffing or compression step in rice cake manufacture does not remove or neutralize iAs. Arsenic in the rice grain is bound within the grain matrix, primarily in the starchy endosperm and bran, and is not volatile at the process temperatures used. The moisture reduction achieved by puffing concentrates iAs on a wet-weight basis relative to cooked rice; puffed rice has approximately 5 to 10 percent moisture compared with approximately 70 percent in cooked rice, producing a roughly threefold concentration effect per unit weight compared with the as-consumed cooked grain. Rinsing of raw rice before puffing could theoretically remove some surface arsenic but is not a standard step in rice cake production lines, and its effect on endogenous (grain-matrix) arsenic would be negligible. For Cd and Pb, which are present at lower concentrations than iAs in most rice varieties, the same concentration effect applies; the finished rice cake carries proportionally higher Cd and Pb on a wet-weight basis than cooked rice.
+
+## Ingredient-derivative risk
+
+Rice cakes as a finished product are primarily sold as retail snacks. The primary derivative risk context is their use as infant and toddler finger foods, where the snack format may represent a substantial fraction of total daily food intake for young children not yet consuming adult portion sizes. In this context, a child consuming a 10 g rice cake serving at 100 ppb iAs would receive a meaningful fraction of their estimated daily tolerable intake of iAs, depending on body weight and other dietary sources. Flavored rice cakes with added coatings (yogurt coating, chocolate) introduce additional ingredients but the rice base remains the dominant iAs contributor. Rice flour and puffed rice as industrial ingredients are functionally equivalent to rice cakes in terms of iAs concentration per dry gram and carry the same derivative risk when used as primary components in other snack formats.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying low-iAs rice as the input ingredient is the most impactful lever. This means specifying California-grown or Indian/Pakistani basmati varieties with documented low iAs, supported by supplier lot-level iAs testing. For products marketed specifically to infants and young children, specifying white rice rather than brown or whole-grain rice further reduces iAs by removing the high-iAs bran fraction. Origin transparency from ingredient suppliers is the enabling condition for this lever.
+
+### Agronomic levers
+
+Aerobic or alternate wetting-and-drying rice cultivation methods have been documented to reduce grain iAs relative to continuously flooded paddy production by limiting the reducing conditions that mobilize arsenite in soil water. This lever operates at the farm level and is not directly accessible to food manufacturers except through sourcing specifications that favor suppliers using these practices. _No quantified reduction magnitude from aerobic cultivation in the specific context of rice cake input rice is available in the current corpus; see [[ingredients/rice]] for the broader rice iAs agronomic evidence._
+
+### Processing levers
+
+No processing step in rice cake manufacture removes iAs once it is in the grain. The only effective processing lever is at the raw-grain level: milling white rice (bran removal) before puffing reduces iAs relative to whole-grain input. This comes at the cost of removing fiber and some nutrients, and is a trade-off that product developers and the relevant population context must weigh. Rinsing of raw rice before puffing has limited effect on endogenous grain arsenic.
+
+### Formulation levers
+
+Blending rice with lower-iAs grains (for example, corn, oat, or millet) in multi-grain puffed formats dilutes the per-gram iAs load of the finished product. For infant-targeted products, multi-grain formulations that reduce the rice fraction are a documented reformulation approach. Substituting rice with alternative grains entirely produces the greatest reduction but changes the product identity.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing with speciation for iAs (as distinct from total arsenic) is essential for rice cakes marketed to infants and young children, given the EU regulatory limit specifically for iAs and the high variability of iAs by rice origin. Testing of incoming raw rice by origin and variety before production provides the earliest intervention point. Finished-product testing should confirm that any within-batch variation is captured.
+
+### Packaging and storage levers
+
+Packaging does not contribute iAs or other heavy metals to rice cakes under standard flexible plastic, multilayer, or paper packaging conditions. The lacquer-lined packaging used for some rice cake formats does not introduce metals at food-contact surfaces under standard conditions. Storage conditions do not alter iAs or other metal content in the finished product.
+
+## Regulatory limits that apply
+
+The EU has established a specific maximum level for iAs in rice-based foods for infants and young children of 0.10 mg/kg (100 ppb) wet weight under [[regulations/eu2023-contaminants-maximum-levels]], which applies directly to rice cakes marketed as infant or toddler food. For rice cakes sold to the general adult population, the EU applies the general cereal-product framework; this includes a Cd limit of 0.10 mg/kg (100 ppb) and a Pb limit of 0.20 mg/kg (200 ppb) for processed cereal products. In the United States, FDA's guidance for iAs in infant rice cereal establishes 100 ppb as the action level (see [[regulations/fda-iAs-rice-cereal-100ppb]]); this guidance applies specifically to infant rice cereal and not directly to rice cakes sold to adult consumers, but it provides context for the risk-based rationale applicable to rice-based infant snacks more broadly. The broader FDA Closer to Zero program (see [[regulations/fda-closer-to-zero]]) addresses ongoing work to reduce exposure to Pb, iAs, Cd, and Hg in foods for babies and young children, under which rice-based snacks are a relevant category.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

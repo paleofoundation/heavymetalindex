@@ -89,6 +89,10 @@ sources: 1
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
+## Why this commodity accumulates heavy metals
+
+True yam (Dioscorea spp.) is a starchy root tuber harvested from below-ground storage organs that develop in direct and sustained contact with soil over the several-month growing season typical of West African and Southeast Asian production systems. The extended soil contact during tuber development is the primary driver of heavy metal accumulation: lead, cadmium, and arsenic present in soil solution or as soil particles adsorbed to tuber surfaces can be taken up via the root system or deposited on tuber surfaces as soil adheres during harvest and handling. The soil-contact accumulation pathway is common to root vegetables broadly and is mechanistically similar to what is documented for sweet potato, carrot, cassava, and beet. Cadmium uptake efficiency varies by soil Cd content, soil pH, and the organic matter status of the soil; in West African yam-growing regions, where historically high phosphate fertilizer use has in some areas elevated soil Cd, the accumulation risk is higher than in production systems on low-Cd baseline soils. Lead in root vegetables reflects both soil-solution uptake and surface deposition from soil adherence at harvest; washing and peeling substantially reduce the surface-deposition component. The FSA/Fera FS102048 survey captured yam as a food composite in its Table 6, providing a baseline measurement reference for UK-market yam, which is sourced predominantly from West Africa and the Caribbean ([[sources/fsa2016-infant-food-formula-metals-survey|1]]).
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -113,6 +117,48 @@ This node is linked from the ingredient index and source routing list.
 ## Contamination Profile State
 
 The machine-readable contamination profile is `in_progress`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
+
+## Ranges by source, region, and variety
+
+Yam is produced across a geographically diverse range that spans West Africa (Nigeria, Ghana, Côte d'Ivoire, and Benin account for the large majority of global production), the Caribbean, Southeast Asia, and Pacific island systems. Soil metal burdens differ substantially across these production regions, with West African soils in high-density yam-producing areas showing variable Cd depending on historical fertilizer inputs and natural geological background. Varieties within the Dioscorea genus also vary: white yam (Dioscorea rotundata), water yam (Dioscorea alata), and yellow yam (Dioscorea cayenensis) are the most commercially significant, but variety-level differences in metal uptake efficiency are not resolved in the current corpus. UK-market yam surveyed in the FSA FS102048 study reflects a predominantly West African and Caribbean supply chain. US-market yam, often labeled in retail as yam but frequently being soft-flesh sweet potato (Ipomoea batatas) by botanical classification, draws on different growing regions and should be distinguished in literature sourcing. Quantified regional concentration ranges for true yam across production geographies are not available in the current corpus; the FSA survey composite provides the baseline data point pending further ingestion.
+
+## Processing effects
+
+Washing and peeling yam before consumption removes a meaningful fraction of surface-adhered soil and any associated lead, cadmium, and arsenic deposited from soil contact during cultivation and harvest. The extent of this reduction is substantial for Pb, because Pb in root vegetables is predominantly surface-deposited rather than internally translocated; studies across root vegetable categories consistently show that peeling reduces Pb by 50 percent or more relative to unpeeled. Cd is more uniformly distributed through tuber tissue as a result of vascular translocation, so peeling provides less reduction for Cd than for Pb. Boiling or steaming yam leaches some fraction of water-soluble metals into the cooking water; discarding cooking water rather than using it as stock removes the leached fraction from the diet, though the quantitative benefit for root vegetables is matrix-dependent and not well characterized for yam specifically in the current corpus. Drying yam for yam flour concentrates metals by approximately the water-removal factor; yam flour from yam containing 70 percent moisture would show roughly a 3.3-fold higher metal concentration per gram than the fresh tuber on a wet-weight basis.
+
+## Ingredient-derivative risk
+
+Yam flour, produced by drying and grinding fresh yam, concentrates heavy metals proportionally to the moisture reduction. This derivative is used in West African cooking as a base for pounded-yam analogue products and is exported to diaspora markets in Europe and North America. Consumers of yam flour who use it at high daily intake rates face proportionally higher metal exposure than consumers of fresh yam. Processed yam chips and yam crisps, which are fried or baked slices of yam with variable moisture content, carry intermediate concentration levels between fresh and fully dried product. Yam-based baby foods, where yam is a primary vegetable ingredient, fall under the applicable baby food regulatory framework and their metal concentrations should be evaluated at the product category level rather than at the ingredient level alone.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying the growing region and requesting Cd and Pb data from suppliers or exporting agents provides the most direct mitigation lever for yam processors and importers. For West African supply chains, preference for growing areas with documented low soil metal burdens, and for suppliers who conduct pre-export testing, reduces the probability of high-metal lots entering processing. Country-of-origin diversification across multiple growing regions reduces the exposure to any single region's soil metal burden.
+
+### Agronomic levers
+
+Soil pH management reduces Cd bioavailability in yam-growing soils; alkaline soils suppress Cd uptake by root tissues. However, many West African yam-growing systems operate on tropical laterite soils with lower pH buffering capacity, and agronomic Cd management programs are less advanced in West African smallholder systems than in European cereal production. _No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Thorough washing of fresh yam before peeling removes surface-adhered soil and its associated Pb and As. Mechanical peeling removes the outer cortex where surface deposition and highest-Cd peri-cortical tissue concentrate. Boiling with discard of cooking water removes leached metals. These three sequential steps, washing, peeling, and boiling with water discard, together provide the greatest practical processing reduction for Pb. _No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Formulation levers
+
+Where yam is one ingredient in a composite food, blending it with lower-risk vegetables or starches reduces the per-serving metal contribution from the yam fraction in proportion to the blend ratio. This lever is most relevant for processed foods and baby foods rather than for traditional yam preparations where yam is the primary ingredient.
+
+### Testing and QC levers
+
+Incoming-lot testing of fresh yam by ICP-MS or ICP-OES for Cd and Pb, with rejection thresholds benchmarked to applicable regulatory limits, provides direct compliance assurance. For yam flour, testing at the finished-flour level accounts for the concentration effect of drying and confirms compliance with the tighter per-gram limits that apply to a concentrated derivative. Surveillance frequency should reflect supply chain diversity and the variability of West African growing-region soil metal burdens.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+European Union Regulation 2023/915 sets maximum levels for root vegetables in the Pb and Cd analyte categories. Root vegetables, including tubers such as yam, fall under the root vegetable matrix scope with a Pb ML of 0.10 mg/kg (100 ppb) wet weight and a Cd ML of 0.10 mg/kg (100 ppb) wet weight. These limits apply to the commodity as placed on the market before peeling; they are distinct from the limits applicable to vegetable-based baby foods, which are governed by the Closer to Zero framework in the US and by the EU baby food directive in the EU. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/eu-2023-915-cadmium]] for the full scope of applicability. Codex STAN 193-1995 sets a Cd ML of 0.10 mg/kg for root and tuber vegetables, consistent with the EU value for this category; see [[regulations/codex-cadmium-mls]]. The UK retained EU maximum levels in domestic law following Brexit; UK root vegetable limits for Cd and Pb are equivalent to EU values as of 2026. The US FDA does not maintain specific federal action levels for Cd or Pb in yam as a fresh or processed commodity outside the baby-food context.
 
 ## Sources
 

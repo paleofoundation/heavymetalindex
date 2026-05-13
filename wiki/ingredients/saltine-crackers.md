@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 66, "Crackers, saltine." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Saltine crackers are thin, crisp crackers made primarily from refined wheat flour (typically white flour from which bran and germ have been removed), water, fat, and salt, with yeast or baking soda as a leavening agent. The heavy metal profile of saltine crackers is determined almost entirely by the metal content of the refined wheat flour base. Wheat (Triticum aestivum and related species) takes up cadmium (Cd) and lead (Pb) from soil through root absorption; Cd bioavailability is the primary driver because, as with most grain crops, Cd is efficiently translocated from root to grain. Refined white flour contains lower Cd than whole wheat flour because Cd preferentially accumulates in the outer layers of the wheat grain, including the bran and aleurone layer, which are removed during milling. A typical Cd concentration in whole wheat flour may be two to three times higher than in the corresponding white flour from the same source grain. Saltine crackers, being made from refined flour, therefore represent a moderate rather than high Cd risk within the wheat product category. Pb in wheat grain is low under normal agricultural conditions, and the milling of refined flour does not introduce Pb unless equipment or processing water is contaminated. Salt (NaCl) added to saltines at typical cracker-level inclusions (approximately 1 to 2 percent by weight) contributes negligible metals when food-grade salt is used. Vegetable shortening or oil added as a fat source is similarly low-risk after industrial refining.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+Wheat production region is the primary driver of variation in grain Cd concentration, reflecting differences in soil Cd loading across major wheat-growing regions. European hard wheat grown in Belgium, the Netherlands, and northern France tends toward higher Cd than North American spring or winter wheat, reflecting historical soil Cd from phosphate fertilizer applications. Canadian Prairie wheat and US Great Plains wheat show moderate Cd associated with the Cd content of soils in these regions. The degree of milling refinement (extraction rate) is also relevant: higher extraction rates that retain more bran material produce higher Cd flours; standard white flour at approximately 70 to 75 percent extraction removes most bran-associated Cd. The FDA TDS FY2018-FY2020 data for saltine crackers (n=3 composites) show Cd at p50 of 28 ppb and max of 35 ppb, Ni at p50 of 88 ppb and max of 110 ppb, and Pb at max of 4.1 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. These values represent a US market-basket average and do not resolve geographic or supplier-level variation. Quantitative regional breakdown will be populated when origin-stratified wheat or cracker studies are ingested.
+
+## Processing effects
+
+Milling of wheat grain into white flour removes the bran and germ, which are the primary sites of Cd accumulation in the wheat kernel. This step is the most significant metal-reducing processing effect for cracker products based on refined flour, and it occurs upstream of cracker manufacture. The cracker baking step (at 200 to 250 degrees Celsius for a short duration) does not alter total metal content; metals are neither destroyed nor volatilized at these temperatures. Salt added in the mixing step introduces negligible metals. Yeast or baking soda used for leavening contributes no measurable metals at typical inclusion levels. Vegetable oil or shortening incorporated into the dough introduces no metals after industrial refining. No evidence in the current corpus identifies any cracker-specific processing step as a meaningful metal-introduction or metal-reduction lever.
+
+## Ingredient-derivative risk
+
+Saltine crackers are consumed directly as snacks and used as carriers for spreads, toppings, and soups. In the context of infant and young child feeding, crackers are sometimes used as early finger foods. The Cd content of saltines, at around 28 ppb (p50, TDS data), is lower than that of whole wheat products or bran-containing crackers, but it is not negligible when consumed in substantial quantities. Multi-grain crackers incorporating bran, germ, or whole-grain flours from higher-Cd wheat would carry proportionally higher Cd. Cracker crumbs used as coatings for processed meat or fish products contribute their metal load at the coating fraction level, which is typically small.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying low-Cd wheat varieties or wheat from low-Cd-soil production regions is the most impactful lever for cracker manufacturers seeking to reduce Cd exposure. Requiring flour suppliers to provide lot-level Cd testing results and maintaining supplier specifications against Cd concentration limits are standard practices in ingredients procurement for products marketed to children.
+
+### Agronomic levers
+
+Soil pH management (liming to above 6.5) in wheat-growing fields reduces Cd bioavailability and uptake, as documented across wheat-growing regions. This lever operates at the farm level and is accessible to food manufacturers only through supply-chain specifications. _No quantified magnitude data for saltine-specific cracker production in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Using higher-refinement white flour (lower extraction rate, more complete bran removal) reduces Cd relative to whole-grain or high-extraction flour. This is already standard for saltine production. No cracker-manufacturing processing step beyond the milling choice meaningfully reduces Cd once incorporated into refined flour.
+
+### Formulation levers
+
+Substituting refined wheat flour partially with lower-Cd alternative starches (potato starch, tapioca starch) in cracker formulations can reduce Cd on a per-gram basis. This affects product texture and label identity and is typically not pursued solely for metal reduction.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of incoming flour for Cd is the primary QC lever for cracker manufacturers targeting a specific product Cd level. Finished-product sampling for Cd and Pb provides assurance that blending or formulation variations are not producing unexpected batch-level exceedances.
+
+### Packaging and storage levers
+
+Standard multilayer flexible packaging for saltine crackers does not contribute metals. Storage conditions do not alter metal content.
+
+## Regulatory limits that apply
+
+Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the applicable Cd maximum level for cereal-based processed foods and bread products is 0.10 mg/kg (100 ppb) wet weight; the Pb maximum level for processed cereal products for the general population is 0.20 mg/kg (200 ppb) wet weight. Crackers fall within the cereal-based processed food matrix under EU rules. The FDA does not publish a specific action level for Pb or Cd in crackers; general surveillance under 21 CFR applies. The Closer to Zero program (see [[regulations/fda-closer-to-zero]]) addresses processed foods for young children broadly, and crackers used as infant finger foods are within scope of this reduction effort even where no specific numerical limit currently exists.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

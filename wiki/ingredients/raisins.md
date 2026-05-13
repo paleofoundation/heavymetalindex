@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 95, "Raisins." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Raisins are produced by drying fresh grapes (Vitis vinifera and related varieties), typically by sun drying, mechanical drying, or a combination. The heavy metal profile of raisins is shaped by two distinct processes operating simultaneously: first, the same soil-uptake and surface-deposition pathways that determine metal content in fresh grapes; and second, the profound concentration effect of moisture removal during drying. Fresh grapes contain approximately 80 percent water by weight; dried raisins contain 15 to 20 percent moisture. This reduction in water content concentrates all non-volatile constituents, including heavy metals, by a factor of roughly three to four on a wet-weight basis. A Pb concentration of, for example, 5 ppb in the fresh grape becomes approximately 18 to 20 ppb in the dried raisin without any change in the absolute metal load of the fruit. Pb surface deposition from atmospheric sources, historically elevated near roadways due to leaded fuel combustion and still measurable in some agricultural environments from legacy soil contamination, is retained on the grape skin and is not removed during the drying process. Cd is taken up from soil through the root system and is distributed throughout the berry flesh; its concentration in raisins reflects the soil Cd bioavailability of the vineyard, which varies substantially with soil pH, organic matter content, and historical phosphate fertilizer application. EFSA dietary exposure assessments consistently identify dried fruits including raisins as contributors to population-level Cd exposure in Europe, reflecting the combination of moderate Cd content and substantial per-serving consumption weight in some populations.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 1.1 | 1.14 | 1.3 | 1.54 | 1.57 | 1.6 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+Production region is the dominant driver of Cd concentration in raisins, reflecting differences in vineyard soil Cd loading across major raisin-producing areas. California (the dominant US producer), Turkey, Greece, Iran, and Australia are the major commercial origins; vineyard soil Cd varies considerably among and within these regions depending on soil type, irrigation source, and historical fertilizer use. Sun Muscat varieties and sultanas may show modestly different Cd uptake than standard Thompson Seedless depending on root architecture and growing conditions, but variety effects are secondary to soil effects in the literature. Pb variation is primarily driven by proximity to legacy contamination sources and current atmospheric deposition levels; organic versus conventional production shows minimal difference for Cd but may show modest Pb differences in regions with legacy roadway Pb contamination near vineyards. The FDA TDS FY2018-FY2020 dataset (n=3 composite samples) used in the current corpus represents a market-basket average across US commercial raisins and does not resolve geographic or variety-level structure. The Pb p50 observed was 7.8 ppb and max was 16 ppb; Cd p50 was below detection (0 ppb) with max at 1 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. Quantitative regional ranges will be populated as origin-stratified studies are ingested.
+
+## Processing effects
+
+Drying is the central processing step and its effect on metal concentration is quantitative and unavoidable: metals concentrate in proportion to the reduction in water content. A three- to fourfold concentration factor is the expected range for standard raisin production, though the exact factor depends on initial moisture content of the grape and the target moisture of the finished raisin. Washing of grapes before drying can remove some surface Pb associated with dust or atmospheric deposition, but is not standard practice in all production chains and has variable effectiveness depending on the form of surface contamination. Sulfur dioxide treatment, applied to some golden raisins to prevent browning, does not meaningfully alter metal content. Oil coating applied to some raisins post-drying (to prevent clumping) introduces no metals under refined oil conditions. Mechanical drying at elevated temperatures versus sun drying does not alter the concentration factor for metals; both methods reduce moisture to the same target range.
+
+## Ingredient-derivative risk
+
+Raisins are consumed directly as a snack and also used as an ingredient in baked goods, cereals, trail mixes, and infant and toddler snack products. In formulated products, the raisin fraction's metal contribution scales with its inclusion level: a baked product containing 15 percent raisins by weight carries approximately 15 percent of the raisin metal load per gram of finished product. The highest-risk derivative context is raisin-paste or raisin-paste concentrate used as a sweetener or binder in infant snacks, where the raisin fraction may represent a high proportion of the product by weight while the consumer is an infant consuming on a per-kilogram-body-weight basis. Raisin-based sweetening in infant and toddler products warrants specific monitoring attention given the combined concentration effect and vulnerable-population exposure context. Grape juice concentrate, while not derived from raisins, undergoes an analogous concentration step and carries comparable considerations.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing raisins from vineyards with documented low soil Cd is the most impactful lever. Supplier qualification should include soil Cd testing by vineyard parcel where possible. California raisins produced under California's agricultural oversight framework have been shown in market surveys to generally meet EU maximum levels, though individual batches vary. Specifying origin and requiring supplier certificates of analysis (COAs) with ICP-MS results is the standard commercial practice for high-risk ingredient categories.
+
+### Agronomic levers
+
+Vineyard soil pH management reduces Cd bioavailability: liming to maintain pH above 6.5 has been documented to reduce grape Cd uptake in European studies. Pre-washing grapes before drying to remove surface Pb is a documented but inconsistently applied lever. Selecting vineyard sites away from historically contaminated soils or high-traffic roadways reduces both Cd (from soil) and Pb (from legacy atmospheric deposition) in the fruit. _No quantified reduction magnitude from specific agronomic interventions in raisin production is available in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Washing grapes before drying can reduce surface-bound Pb. However, the dominant Cd pathway is endogenous (plant uptake from soil) and is not removable by washing. No post-drying processing step removes biologically incorporated metals from raisin tissue. The concentration effect of drying is inherent to the product and cannot be mitigated without changing the product category.
+
+### Formulation levers
+
+In formulated products containing raisins, substituting raisins with lower-metal alternative sweeteners or dried fruits (for example, dates grown in low-Cd soils) can reduce the metal load of the formulated product. Reducing the raisin inclusion level in infant and toddler products and compensating with lower-risk ingredients is the primary formulation lever for products targeting vulnerable populations.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Cd and Pb in incoming raisin batches is the primary QC lever given the documented variability across origins. For products marketed to infants or young children, internal specification limits tighter than regulatory maximum levels are warranted given the higher per-kilogram body weight exposure in this population.
+
+### Packaging and storage levers
+
+_No quantified data on packaging or storage effects on raisin metal content in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the applicable Pb maximum level for dried fruits including raisins is 0.10 mg/kg (100 ppb) wet weight. A Cd maximum level of 0.050 mg/kg (50 ppb) wet weight applies to dried fruits under the EU framework. The FDA does not publish a specific action level for Pb or Cd in raisins; the general tolerance framework under 21 CFR applies. For the broader context of FDA efforts to reduce Pb in foods marketed to young children, see [[regulations/fda-closer-to-zero]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 156, "Soup, tomato, canned, condensed, prepared with water." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Canned tomato soup is a composite processed product whose metal profile is determined by two distinct mechanisms. The first is inheritance from the tomato base: Pb and Cd present in the tomato paste or puree used in soup manufacture are carried through processing unchanged, because neither metal is removed by cooking, blending, or acidification. The second mechanism is active migration of tin (Sn) from the tinplate can into the acidic soup matrix during retort sterilisation and shelf storage. Tomato soup is one of the most extensively studied matrices for tin migration from cans precisely because its low pH (typically around 4.0 to 4.4) and high water activity create ideal conditions for tin dissolution from unlined or inadequately lined tinplate. Studies from the United Kingdom and elsewhere have documented elevated Sn concentrations in canned condensed tomato soup relative to other canned products; this is a well-characterised migration pathway rather than a background soil-accumulation phenomenon.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+The FDA TDS FY2018-FY2020 data (n=3) shows Cd in the range 7.3 to 10 ppb and Ni in the range 47 to 69 ppb for condensed tomato soup prepared with water ([[sources/fda2022-tds-elements-fy2018-fy2020]]). These values represent a composite of US retail products from a single survey period and should be interpreted as a single-source snapshot. Variation across brands and can types (lacquer-lined versus unlined, BPA-free versus conventional) is expected to be meaningful for Sn but is not yet quantified in the current corpus for Cd and Ni specifically.
+
+## Processing effects
+
+The critical processing effect for canned tomato soup is Sn migration from the tinplate container during retort sterilisation (typically 121 degrees Celsius for several minutes) and subsequent ambient-temperature shelf storage. The high acidity of tomato soup drives electrochemical dissolution of tin from the can interior surface. Sn migration rates are substantially reduced by internal lacquer coatings applied to the can; unlined or inadequately coated cans can yield Sn concentrations several times higher than lacquer-lined equivalents over the same storage period. Storage time and temperature compound the effect: Sn concentration in canned acidic foods increases progressively over shelf life. The retort sterilisation step itself does not remove Pb or Cd from the tomato base; thermal processing concentrates slightly through minor water loss but does not alter the metal burden inherited from the raw ingredients.
+
+## Ingredient-derivative risk
+
+Tomato soup is itself a derivative of tomato paste or puree. The condensed soup format, which is diluted with water before consumption, carries a higher nominal Sn and metal concentration on a as-packaged basis than ready-to-serve soup because the same metal load is distributed across less water before preparation. Bouillon-based and cream-of-tomato variants introduce additional ingredients (starch, cream, dairy) that may slightly dilute tomato-derived metals but also introduce their own metal contributions at low concentrations. Tomato-based pasta sauces, pizza sauces, and ketchup are related derivatives; the canned variants share the Sn migration risk while the glass-packaged equivalents do not.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing tomato paste from regions with documented low Pb and Cd in growing soils reduces the inherited metal load in the soup base. Supplier qualification with soil and raw paste testing is the primary upstream lever.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Switching from unlined tinplate cans to lacquer-lined or fully polymer-coated cans is the most effective single intervention for Sn. Published studies indicate that internal lacquering reduces Sn migration by a substantial margin relative to unlined tinplate, particularly in high-acid applications such as tomato soup. Minimising shelf-storage time after filling and controlling post-retort storage temperature further limit Sn accumulation.
+
+### Formulation levers
+
+Using glass jars or carton packaging entirely eliminates the Sn migration pathway. Reformulation to reduce the tomato-paste concentration in the recipe would proportionally reduce inherited Pb and Cd but would also alter the product's flavour and tomato solids content.
+
+### Testing and QC levers
+
+Lot-level Sn testing of finished soup from tinplate cans is warranted for high-volume producers, particularly for products with extended shelf life. Sn is relatively inexpensive to test by ICP-OES or ICP-MS and provides direct evidence of can integrity. Testing incoming tomato paste for Pb and Cd at the raw-material qualification stage catches soil-derived contamination before it enters production.
+
+### Packaging and storage levers
+
+Packaging material selection is the dominant lever for Sn. Lacquer-lined cans, retort pouches, and glass containers each offer meaningfully lower Sn migration risk than unlined tinplate. The EU maximum level of 200 mg/kg (200,000 ppb) for Sn in canned solid food and 100 mg/kg in canned liquid food provides the regulatory ceiling; well-managed lacquer-lined cans typically remain well below these limits in practice.
+
+## Regulatory limits that apply
+
+The European Union sets a maximum level for tin (Sn) in canned tomato soup of 100 mg/kg (100,000 ppb) on a wet-weight basis for canned liquid food under [[regulations/eu2023-contaminants-maximum-levels]]; canned solid food carries a higher limit of 200 mg/kg. For the tomato base ingredients, EU maximum levels for Pb (0.10 mg/kg for fresh tomato) and Cd (0.050 mg/kg for fresh tomato) apply at the raw-material level; processed tomato products are subject to matrix-specific provisions. No FDA action level specifically addressing Sn in canned food is currently enforced in the United States, though FDA has issued guidance acknowledging Sn as a recognized contaminant in tinned acidic foods.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

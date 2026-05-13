@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 138, "Chips, potato." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Potato chips are a fried, sliced potato product, and their metal content originates primarily in the soil from which the source potatoes were grown. Potatoes (Solanum tuberosum) are shallow-rooted tubers that grow in direct contact with the soil matrix; cadmium (Cd) and lead (Pb) in soil solution are taken up through root absorption, with Cd being more bioavailable than Pb in most agricultural soils. The potato skin and outer flesh layers carry higher metal concentrations than the inner flesh because metals accumulate preferentially at the soil-plant interface and in the epidermal tissue. When chips are produced from skin-on slices, this differential is preserved in the finished product. Beyond the plant-accumulation pathway, atmospheric deposition of Pb onto field surfaces can contribute to surface contamination of the tuber, though this pathway is secondary relative to soil uptake in most modern production contexts. The frying step does not introduce metals from refined vegetable oil, which is typically stripped of trace contaminants during industrial refining. However, the moisture loss during frying, which reduces the product weight by roughly 50 to 60 percent relative to the raw slice, concentrates all pre-existing metals in proportion; a metal present at 10 ppb in the raw slice may appear at 20 to 25 ppb in the finished chip. This concentration effect is the primary reason processed snack forms of potatoes show higher per-gram metal loads than boiled or mashed preparations.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+Potato variety and production geography both influence metal concentrations in chips. Varieties with thinner skins or grown on high-Cd soils in regions such as parts of Belgium, the Netherlands, and some irrigated agricultural zones in North America accumulate more Cd per unit weight of edible tissue. Skin-on chip production accentuates this difference relative to skin-off varieties. Regional soil Cd loading driven by historical phosphate fertilizer application is the most consistent geographic driver; areas with long histories of intensive phosphate-fertilized cultivation show systematically higher Cd in root and tuber crops. Pb variation is more closely tied to historical pesticide use (pre-1970 lead arsenate applications can persist in soils for decades) and proximity to industrial point sources. The current source corpus contains only FDA TDS FY2018-FY2020 data (n=3 composite samples) and does not support a rigorous geographic or varietal breakdown; the TDS composites represent a market-basket average rather than any single origin. Quantitative regional ranges will be populated when dedicated origin-stratified studies are ingested.
+
+## Processing effects
+
+The most significant processing effect for potato chips is the concentration of metals during moisture removal under frying conditions. Raw potato typically contains 75 to 80 percent water by weight; the finished chip contains approximately 2 to 3 percent moisture. This dehydration concentrates all metal analytes roughly threefold to fourfold relative to the raw potato on a wet-weight basis. Skin-on versus skin-off slicing is the second major processing variable: slicing practices that retain the skin carry more Pb and Cd into the finished product because the peel carries higher metal concentrations than the flesh. Blanching or partial pre-cooking of slices before frying, used by some manufacturers to reduce acrylamide, removes some water-soluble metal fractions but the effect is modest relative to the concentration effect of frying. Seasoning coatings applied after frying (salt, flavoring) are not significant sources of metal contamination when industrial-grade ingredients are used. No evidence in the current corpus suggests that the frying oil itself contributes measurable metals under standard refined-oil conditions.
+
+## Ingredient-derivative risk
+
+Potato chips as a finished product are the primary form captured by this page. Derivative products that share a similar risk profile include flavored chip varieties (metal content determined by the chip base, not the flavoring), vegetable chip blends incorporating potato alongside other root vegetables, and potato-based extruded snacks where potato flour or starch is the primary ingredient. Potato flour and potato starch, being concentrated dehydrated derivatives, carry proportionally higher metal loads than fresh potato on a dry-weight basis, and products formulated primarily from these ingredients should be evaluated accordingly. Products marketed to children and infants that use potato as a primary ingredient inherit this concentration dynamic; however, no standalone regulatory limit for chips or potato snacks at the infant-food level exists in the US or EU frameworks, so the relevant comparison is the general adult food matrix rather than baby-food action levels.
+
+## Mitigation options
+
+### Sourcing levers
+
+Sourcing potato from fields with documented low soil Cd and Pb is the most impactful single lever. Soil testing prior to contracting, particularly for Cd given its high bioavailability from soil, allows suppliers to identify and exclude high-Cd parcels. Regions with a history of phosphate fertilizer applications should be audited specifically for soil Cd, as phosphate rock-derived fertilizers are a recognized source of agricultural Cd loading. _No quantified reduction magnitude from sourcing selection alone is available in the current corpus for potato chips specifically; section will be expanded when relevant evidence is ingested._
+
+### Agronomic levers
+
+Soil pH management is the primary agronomic lever for Cd: raising soil pH above 6.5 reduces Cd bioavailability and uptake by potato plants. Liming programs in acidic agricultural soils have been documented to reduce crop Cd uptake, though the magnitude varies with soil type and baseline pH. Selecting lower-Cd potato varieties is a complementary lever where such cultivar data is available to the grower. _No quantified data on variety-level Cd differences in potato chips specifically in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Switching from skin-on to skin-off slicing reduces Pb and Cd in the finished chip by removing the peel, which carries the highest metal concentration. The magnitude of the reduction depends on the ratio of peel to flesh in the slice geometry. Blanching before frying can remove a fraction of water-soluble metals but is unlikely to be adopted purely for metal reduction given the small effect size relative to frying-induced concentration. No processing lever eliminates the concentration effect of frying itself without changing the product category.
+
+### Formulation levers
+
+Blending higher-Cd potato batches with lower-Cd batches at the raw-material stage can reduce average product concentration; this is a dilution strategy rather than a contamination-reduction strategy and should be distinguished from sourcing selection. Partial substitution of potato with other lower-Cd starches in extruded formats can reduce overall metal load in formulated snacks.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of finished chips or of the incoming raw potato supply is the primary QC lever. Given the low n in available occurrence data (TDS composites, n=3), establishing internal spec limits requires sufficient historical sampling to characterize variance. Incoming raw potato testing by origin parcel is more efficient than finished-product testing for identifying high-Cd lots before the concentration effect of frying amplifies the problem.
+
+### Packaging and storage levers
+
+Packaging does not contribute to metal contamination in potato chips under standard multilayer flexible packaging conditions. Metallic foil packaging does not contact the food surface directly in most designs. Storage conditions do not meaningfully alter metal content once the product is manufactured.
+
+## Regulatory limits that apply
+
+No specific maximum level for heavy metals in potato chips as a product category exists under current US or EU frameworks. The applicable EU limits are those for processed cereal-based and starchy snack foods under [[regulations/eu2023-contaminants-maximum-levels]], but potato chips are typically classified under vegetable-derived processed foods. Under current EU Regulation (EC) No 1881/2006 as amended, the applicable Pb limit for processed vegetable products is 0.10 mg/kg (100 ppb) wet weight; a specific Cd limit for processed potato products is 0.050 mg/kg (50 ppb) wet weight under the framework applicable to this matrix. The FDA does not currently publish a specific action level or guidance value for Pb or Cd in potato chips; the general FDA tolerance framework under 21 CFR applies. For broader regulatory context on Closer to Zero Pb reduction goals, see [[regulations/fda-closer-to-zero]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

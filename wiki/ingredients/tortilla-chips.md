@@ -93,6 +93,10 @@ sources: 1
 
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 67, "Chips, tortilla." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
+## Why this commodity accumulates heavy metals
+
+Tortilla chips are manufactured from nixtamalized corn masa. The primary source of heavy metals in this product is the corn grain itself, which accumulates Cd, Pb, and other metals from soil through root uptake in a pattern similar to other cereal grains, though generally at lower concentrations than rice or wheat. Corn is considered a moderate accumulator: Cd concentrations in corn grain are typically lower than in durum wheat or sunflower seeds but higher than in most animal products. Nixtamalization, the traditional alkaline cooking process using calcium hydroxide (lime), is the defining processing step for masa-based products; its effect on metal bioaccessibility is discussed below. Nickel and chromium data in the FDA TDS FY2018-FY2020 survey (n=3) suggest meaningful Ni concentrations in tortilla chips (median 140 ppb, max 150 ppb), which is consistent with the known Ni content of corn and the concentration effect of frying and water removal. The salt added during frying and seasoning contributes negligible metals.
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
@@ -140,6 +144,48 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 | tHg | 3 | 0 | 0 | 0 | 0 | 0 | 0 | in profile |
 
 <!-- END: hmi-fda-tds-occurrence -->
+
+## Ranges by source, region, and variety
+
+FDA TDS FY2018-FY2020 data (n=3) for tortilla chips show Ni in the range 130 to 150 ppb (median 140 ppb), Cr with a wide range of 0 to 80 ppb (median 56 ppb), Cd from 1.9 to 2.2 ppb, and tAs from below detection to 3.1 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020]]). These represent a small composite US retail sample; geographic and varietal variation in corn sourcing, as well as differences in lime quality and frying conditions, would be expected to drive additional variance across manufacturers. Organic versus conventional corn sourcing may also influence Cd concentrations if organic growing soils differ in background Cd loading.
+
+## Processing effects
+
+Nixtamalization involves cooking dry corn in an alkaline solution of calcium hydroxide and water (typically at approximately 90 degrees Celsius), followed by steeping and then washing the grain before grinding into masa. The alkaline cooking step raises the pH of the grain surface to 11 to 12, which can influence the chemical speciation and bioaccessibility of certain metals. For inorganic arsenic, nixtamalization at high pH may reduce bioaccessibility relative to the raw grain. For Cd, the alkaline step may partially reduce bioavailability through precipitation of cadmium hydroxide, though the net effect on finished-product concentrations is not well quantified in the current corpus. The washing step after steeping removes some solubilized surface material, potentially reducing surface-adsorbed metals. Frying in vegetable oil, the final step in tortilla chip production, removes free water and concentrates all solutes proportionally, including any metals present in the masa. The frying oil itself contributes negligible metals.
+
+## Ingredient-derivative risk
+
+Tortilla chips sit at the end of a corn-processing chain. The primary risk inheritance is from the corn variety and growing region. Blue corn tortilla chips, made from blue corn with higher anthocyanin content, may differ from yellow or white corn in metal loading depending on cultivar and growing conditions, but no systematic comparison is in the current corpus. Corn masa used for tortillas (soft), tostadas, and tamales shares the same nixtamalization step and similar metal profile. Corn flour (masa harina), which is dried nixtamalized masa, is an intermediate product that can be tested as a proxy for the corn base prior to chip frying.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specifying corn from growing regions with low background soil Cd and Pb, ideally supported by supplier soil testing or commodity testing, is the primary sourcing lever. Corn from areas adjacent to smelters, fertilizer manufacturing, or heavily irrigated agricultural zones with long histories of phosphate fertilization carries higher Cd risk.
+
+### Agronomic levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Processing levers
+
+Optimising the nixtamalization wash step to remove maximum surface-adhered material may reduce metal load at the masa stage, but the magnitude of this effect is not quantified in the current corpus. Controlling frying oil temperature and turnover rate has no documented effect on metal concentrations.
+
+### Formulation levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+### Testing and QC levers
+
+Testing incoming dried corn or masa harina for Cd, Pb, and Ni by ICP-MS before production provides the most cost-effective quality gate. Finished-chip testing is appropriate for lot-release verification.
+
+### Packaging and storage levers
+
+_No quantified data on this lever in the current corpus; section will be expanded when relevant evidence is ingested._
+
+## Regulatory limits that apply
+
+No FDA action level specific to tortilla chips or corn snack products is currently in force. The EU sets maximum levels for Cd in cereals (0.10 mg/kg, or 100 ppb) and for Pb in cereals (0.20 mg/kg, or 200 ppb) under [[regulations/eu2023-contaminants-maximum-levels]], and these limits are applicable to corn-based food products sold in the EU. [[regulations/codex-cadmium-mls]] provides the international Codex ML for cereal grains, which forms the basis for many national limits outside the EU. [[regulations/fda-closer-to-zero]] Pb guidance covers processed baby foods but does not currently address tortilla chips or snack corn products.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
