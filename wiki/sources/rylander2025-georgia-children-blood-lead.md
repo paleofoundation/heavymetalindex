@@ -7,6 +7,7 @@ authors: [Rylander C, Sandanger TM, Nguyen TT, Ugulava N, Maglakelidze N, Lomtad
 year: 2025
 publication: "Environmental Health Perspectives"
 doi: 10.1289/EHP15788
+access_url: "https://doi.org/10.1289/EHP15788"
 source_type: peer-reviewed
 evidence_tier: A
 license: "public-domain"

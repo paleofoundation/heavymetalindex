@@ -6,6 +6,7 @@ authors: [Gafner S, Orhan N, Kahraman C, Blumenthal M]
 year: 2026
 publication: "Pharmaceutical Biology"
 doi: 10.1080/13880209.2025.2606229
+access_url: "https://doi.org/10.1080/13880209.2025.2606229"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"

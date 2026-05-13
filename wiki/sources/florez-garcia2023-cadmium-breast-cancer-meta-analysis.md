@@ -7,6 +7,7 @@ authors: [Florez-Garcia VA, Guevara-Romero EC, Hawkins MM, Bautista LE, Jenson T
 year: 2023
 publication: "Environmental Research"
 doi: 10.1016/j.envres.2022.115109
+access_url: "https://doi.org/10.1016/j.envres.2022.115109"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

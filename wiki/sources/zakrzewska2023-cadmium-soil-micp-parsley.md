@@ -7,6 +7,7 @@ authors: [Zakrzewska M, Rzepa G, Musialowski M, Goszcz A, Stasiuk R, Debiec-Andr
 year: 2023
 publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2023.1109467
+access_url: "https://doi.org/10.3389/fpls.2023.1109467"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

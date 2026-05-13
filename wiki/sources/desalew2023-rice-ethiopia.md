@@ -7,6 +7,7 @@ authors: [Desalew A, Mehari B]
 year: 2023
 publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0290073
+access_url: "https://doi.org/10.1371/journal.pone.0290073"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

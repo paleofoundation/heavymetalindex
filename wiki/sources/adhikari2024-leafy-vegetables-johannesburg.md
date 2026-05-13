@@ -6,6 +6,7 @@ title: "Concentrations and health risks of selected elements in leafy vegetables
 authors: [Adhikari S, Struwig M]
 year: 2024
 doi: 10.1007/s10661-023-12343-4
+access_url: "https://doi.org/10.1007/s10661-023-12343-4"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

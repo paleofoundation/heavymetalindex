@@ -8,6 +8,7 @@ year: 2024
 publication: "Food Chemistry"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Determination%20of%20inorganic%20arsenic%20in%20seaweed%2C%20grain%2C%20grass%20silage%2C%20and%20insect%20protein%20by%20HPLC-ICP-MS%20using%20a%20design%20of%20experiments%20optimization%20approach"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

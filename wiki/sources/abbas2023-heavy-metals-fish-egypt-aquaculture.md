@@ -7,6 +7,7 @@ authors: [Abbas MMM, EL-Sharkawy SM, Mohamed HR, Elaraby BE, Shaban WM, Metwally
 year: 2023
 publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-023-04007-1
+access_url: "https://doi.org/10.1007/s12011-023-04007-1"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

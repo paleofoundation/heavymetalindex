@@ -8,6 +8,7 @@ year: 2024
 publication: "Endocrinology, Diabetes & Metabolism Case Reports"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Case%20of%20lead%20poisoning%20secondary%20to%20intake%20of%20herbal%20medicine%20for%20diabetes%20mellitus%20in%20a%20tertiary%20care%20hospital%20in%20Kerala"
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"

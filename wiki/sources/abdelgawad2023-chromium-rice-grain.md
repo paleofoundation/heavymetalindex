@@ -7,6 +7,7 @@ authors: [AbdElgawad H, Abuelsoud W, Madany MMY, Selim S, Zinta G, Mousa ASM, Ha
 year: 2023
 publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2023.1019859
+access_url: "https://doi.org/10.3389/fpls.2023.1019859"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

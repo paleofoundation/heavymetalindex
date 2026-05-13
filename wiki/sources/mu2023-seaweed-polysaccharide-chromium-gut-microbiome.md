@@ -7,6 +7,7 @@ authors: [Mu J, Guo Z, Wang X, Wang X, Fu Y, Li X, Zhu F, Hu G, Ma X]
 year: 2023
 publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2022.1100988
+access_url: "https://doi.org/10.3389/fmicb.2022.1100988"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

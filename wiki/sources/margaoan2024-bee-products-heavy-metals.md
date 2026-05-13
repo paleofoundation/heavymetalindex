@@ -8,6 +8,7 @@ year: 2024
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Environmental%20pollution%20effect%20on%20honey%20bees%20and%20their%20derived%20products%3A%20a%20comprehensive%20analysis"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

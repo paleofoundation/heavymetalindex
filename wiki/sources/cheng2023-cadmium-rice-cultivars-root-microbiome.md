@@ -7,6 +7,7 @@ authors: [Cheng Z, Zheng Q, Shi J, He Y, Yang X, Huang X, Wu L, Xu J]
 year: 2023
 publication: "ISME Communications"
 doi: 10.1038/s43705-023-00213-z
+access_url: "https://doi.org/10.1038/s43705-023-00213-z"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

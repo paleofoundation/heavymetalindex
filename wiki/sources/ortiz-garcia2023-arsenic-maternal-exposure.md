@@ -7,6 +7,7 @@ authors: [Ortiz-Garcia NY, Cipriano Ramirez AI, Juarez K, Brand Galindo J, Brice
 year: 2023
 publication: "Cureus"
 doi: 10.7759/cureus.49523
+access_url: "https://doi.org/10.7759/cureus.49523"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: B

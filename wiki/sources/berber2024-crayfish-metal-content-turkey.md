@@ -8,6 +8,7 @@ year: 2024
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Metal%20content%20and%20fatty%20acid%20profiles%20in%20narrow-clawed%20crayfish%20(Pontastacus%20leptodactylus)%20from%20Atikhisar%20Dam%20Lake%2C%20Turkey%3A%20seasonal%20variation%20and%20health%20risk%20assessment"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

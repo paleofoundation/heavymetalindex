@@ -8,6 +8,7 @@ year: 2023
 publication: "Environmental Geochemistry and Health"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Land%20application%20of%20industrial%20wastes%3A%20impacts%20on%20soil%20quality%2C%20biota%2C%20and%20human%20health"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

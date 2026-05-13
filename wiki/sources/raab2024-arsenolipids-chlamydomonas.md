@@ -8,6 +8,7 @@ year: 2024
 publication: "Metallomics"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Arsenolipids%20in%20the%20green%20microalga%20Chlamydomonas%20reinhardtii%3A%20first%20report%20of%20arsenosugar%20phospholipid%20(AsSugPhytol)"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

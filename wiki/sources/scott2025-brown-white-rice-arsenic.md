@@ -7,6 +7,7 @@ authors: [Scott CK, Wu F]
 year: 2025
 publication: "Risk Analysis"
 doi: 10.1111/risa.70008
+access_url: "https://doi.org/10.1111/risa.70008"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

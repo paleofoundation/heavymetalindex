@@ -8,6 +8,7 @@ year: 2023
 publication: "Environmental Health Perspectives"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Gestational%20blood%20levels%20of%20toxic%20metals%20and%20risk%20of%20cerebral%20palsy%3A%20Norwegian%20Mother-Father-Child%20Cohort%20Study"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

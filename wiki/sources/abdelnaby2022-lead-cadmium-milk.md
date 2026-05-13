@@ -8,6 +8,7 @@ year: 2022
 publication: "unknown"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Lead%20and%20cadmium%20residues%20in%20raw%20and%20pasteurized%20milk%20and%20their%20reduction%20using%20natural%20adsorbents"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

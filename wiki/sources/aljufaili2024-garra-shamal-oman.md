@@ -8,6 +8,7 @@ year: 2024
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Heavy%20metals%20in%20Garra%20shamal%20freshwater%20fish%20from%20Oman%3A%20accumulation%20and%20health%20risk"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

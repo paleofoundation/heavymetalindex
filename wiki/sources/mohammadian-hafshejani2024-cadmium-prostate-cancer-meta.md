@@ -8,6 +8,7 @@ year: 2024
 publication: "Journal of Health (Tehran University of Medical Sciences)"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Investigating%20the%20Relationship%20between%20Cadmium%20Exposure%20and%20the%20Risk%20of%20Prostate%20Cancer%3A%20A%20Systematic%20Review%20and%20Dose-Response%20Meta-Analysis"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY-NC 4.0"

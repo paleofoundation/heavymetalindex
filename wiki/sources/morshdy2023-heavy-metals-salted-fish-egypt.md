@@ -6,6 +6,7 @@ title: "Heavy metal contents in salted fish retailed in Egypt: Dietary intakes a
 authors: [Morshdy AEMA, Tharwat AE, Maarouf H, Moustafa M, Darwish WS, El-Ghareeb WR, Alsayeqh AF, Mustafa NA]
 year: 2023
 doi: 10.5455/OVJ.2023.v13.i12.22
+access_url: "https://doi.org/10.5455/OVJ.2023.v13.i12.22"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

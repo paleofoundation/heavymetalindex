@@ -7,6 +7,7 @@ authors: [Mancuso G, Violi F, Nocella C]
 year: 2024
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Food%20contamination%20and%20cardiovascular%20disease%3A%20a%20narrative%20review"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY 4.0"

@@ -7,6 +7,7 @@ authors: [Pain DJ, Green RE, Bates N, Guiu M, Taggart MA]
 year: 2023
 publication: "Ambio"
 doi: 10.1007/s13280-023-01856-x
+access_url: "https://doi.org/10.1007/s13280-023-01856-x"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

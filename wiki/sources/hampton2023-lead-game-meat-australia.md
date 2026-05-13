@@ -8,6 +8,7 @@ year: 2023
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Lead%20contamination%20in%20Australian%20game%20meat"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

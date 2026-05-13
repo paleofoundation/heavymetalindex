@@ -6,6 +6,7 @@ title: "Effect of vermiculite feed additive on the chemical, mineral, and amino 
 authors: [Apdraim G, Sarsembayeva N, Lozowicka B]
 year: 2023
 doi: 10.14202/vetworld.2023.2431-2439
+access_url: "https://doi.org/10.14202/vetworld.2023.2431-2439"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

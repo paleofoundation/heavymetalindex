@@ -7,6 +7,7 @@ authors: [Onyegeme-Okerenta BM, West LO]
 year: 2023
 publication: "Environmental Analysis, Health and Toxicology"
 doi: 10.5620/eaht.2023015
+access_url: "https://doi.org/10.5620/eaht.2023015"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

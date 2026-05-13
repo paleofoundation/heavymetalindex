@@ -7,6 +7,7 @@ authors: [Begum S, Firdous S, Naeem Z, Chaudhry GS, Arshad S, Abid F, Zahra S, K
 year: 2023
 publication: "Tropical Life Sciences Research"
 doi: 10.21315/tlsr2023.34.3.7
+access_url: "https://doi.org/10.21315/tlsr2023.34.3.7"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

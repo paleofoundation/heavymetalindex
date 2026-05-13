@@ -7,6 +7,7 @@ authors: [Kosker AR, Gundogdu S, Esatbeyoglu T, Ayas D, Ozogul F]
 year: 2023
 publication: "Frontiers in Nutrition"
 doi: 10.3389/fnut.2023.1255857
+access_url: "https://doi.org/10.3389/fnut.2023.1255857"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

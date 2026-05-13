@@ -7,6 +7,7 @@ authors: [Guo Y, Zhao X, Zhang J, Yang H, Chu G, Zhang C, Xiao X, Huang W, Li F]
 year: 2024
 publication: "Frontiers in Nutrition"
 doi: 10.3389/fnut.2024.1337996
+access_url: "https://doi.org/10.3389/fnut.2024.1337996"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

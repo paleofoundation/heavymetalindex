@@ -8,6 +8,7 @@ year: 2024
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Trace%20and%20heavy%20metal%20concentrations%20in%20pectoral%20fin%20of%20Acipenser%20stellatus%20(stellate%20sturgeon)%20from%20the%20Caspian%20Sea"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

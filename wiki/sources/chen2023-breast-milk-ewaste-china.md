@@ -7,6 +7,7 @@ authors: [Chen C, Ma C, Li Q, Hang JG, Shen J, Nakayama SF, Kido T, Lin Y, Feng 
 year: 2023
 publication: "GeoHealth"
 doi: 10.1029/2023GH000897
+access_url: "https://doi.org/10.1029/2023GH000897"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"

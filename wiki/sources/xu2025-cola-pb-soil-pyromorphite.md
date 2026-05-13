@@ -6,6 +6,7 @@ title: "Cola beverage reduces risk of lead poisoning from accidental ingestion o
 authors: [Xu X, Qian Q, Shi Y, Huang W, Yuan C, Ma LQ, Harris WG, Dai J, Hou D, Cao X]
 year: 2025
 doi: 10.1038/s41467-025-56138-9
+access_url: "https://doi.org/10.1038/s41467-025-56138-9"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

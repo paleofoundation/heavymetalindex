@@ -7,6 +7,7 @@ authors: [Melnyk LJ, Lin J, Kusnierz DH, Pugh K, Durant JT, Suarez-Soto RJ, Venk
 year: 2021
 publication: "Science of the Total Environment"
 doi: 10.1016/j.scitotenv.2021.146691
+access_url: "https://doi.org/10.1016/j.scitotenv.2021.146691"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

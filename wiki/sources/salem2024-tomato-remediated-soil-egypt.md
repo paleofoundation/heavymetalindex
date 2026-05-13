@@ -8,6 +8,7 @@ year: 2024
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Influence%20of%20the%20use%20of%20remediated%20soil%20and%20agricultural%20drainage%20water%20on%20the%20safety%20of%20tomato%20fruits"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

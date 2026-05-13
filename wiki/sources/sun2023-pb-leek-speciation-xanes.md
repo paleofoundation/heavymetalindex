@@ -8,6 +8,7 @@ year: 2023
 publication: "Journal of Synchrotron Radiation"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Pb%20speciation%20and%20elemental%20distribution%20in%20leeks%20by%20micro%20X-ray%20fluorescence%20and%20X-ray%20absorption%20near-edge%20structure"
 source_type: peer-reviewed
 evidence_tier: A
 license: null

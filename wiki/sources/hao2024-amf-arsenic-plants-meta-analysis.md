@@ -7,6 +7,7 @@ authors: [Hao Y, Tian L, Lin X, Xie Y, Zhou H, Bañuelos GS]
 year: 2024
 publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2024.1327649
+access_url: "https://doi.org/10.3389/fpls.2024.1327649"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

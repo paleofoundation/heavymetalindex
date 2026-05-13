@@ -8,6 +8,7 @@ year: 2024
 publication: "Food Reviews International"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Atlantic%20bluefin%20tuna%20(Thunnus%20thynnus)%3A%20health%20benefits%2C%20contaminants%20and%20risk-benefit%20analysis%20for%20human%20consumption"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

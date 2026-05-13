@@ -8,6 +8,7 @@ year: 2023
 publication: "Biological Trace Element Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Lead%2C%20Cadmium%2C%20and%20Arsenic%20in%20Raw%20Milk%20Produced%20in%20the%20Vicinity%20of%20a%20Mini%20Mineral%20Concentrator%20in%20the%20Central%20Andes%20and%20Health%20Risk"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

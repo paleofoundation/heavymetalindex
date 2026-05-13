@@ -6,6 +6,7 @@ title: "Saccharomyces cerevisiae supplemented diets mitigate the effects of wate
 authors: [Abdel-Tawwab M, Khalil RH, Younis NA, Abo Selema TAM, Saad AH, El-Werwary SOM, Gouda AH, Soliman AM, Shady SHH, Monier MN]
 year: 2023
 doi: 10.1007/s10646-023-02690-z
+access_url: "https://doi.org/10.1007/s10646-023-02690-z"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

@@ -7,6 +7,7 @@ authors: [Liu B, Sui J, Feng R, Lin H, Han X, Sun X, Cao L]
 year: 2023
 publication: "Frontiers in Nutrition"
 doi: 10.3389/fnut.2023.1207732
+access_url: "https://doi.org/10.3389/fnut.2023.1207732"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

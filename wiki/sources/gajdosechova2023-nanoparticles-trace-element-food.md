@@ -8,6 +8,7 @@ year: 2023
 publication: "TrAC Trends in Analytical Chemistry"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Nanoparticles%20as%20trace%20element%20species%20in%20food%3A%20state%20of%20the%20art%2C%20challenges%2C%20and%20future%20perspectives"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

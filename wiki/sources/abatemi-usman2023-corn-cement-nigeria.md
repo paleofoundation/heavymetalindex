@@ -7,6 +7,7 @@ authors: [Abatemi-Usman S, Akindele O, Ayanlade A, Perez M, Attahiru I, Norton G
 year: 2023
 publication: "Journal of Exposure Science & Environmental Epidemiology"
 doi: 10.1038/s41370-023-00548-8
+access_url: "https://doi.org/10.1038/s41370-023-00548-8"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

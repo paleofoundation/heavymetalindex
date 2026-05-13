@@ -7,6 +7,7 @@ authors: [Zhou YL, Deng LS, Yang SD, Liu CF, Fan YG, Yu WJ]
 year: 2023
 publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2023.1326253
+access_url: "https://doi.org/10.3389/fmicb.2023.1326253"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

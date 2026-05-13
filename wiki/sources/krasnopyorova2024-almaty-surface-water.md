@@ -6,6 +6,7 @@ title: "Trace Element Composition of Surface Water in Almaty City and Human Heal
 authors: [Krasnopyorova M, Gorlachev I, Kharkin P, Zheltov D, Severinenko M, Serikov A]
 year: 2024
 doi: 10.3390/ijerph21111511
+access_url: "https://doi.org/10.3390/ijerph21111511"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

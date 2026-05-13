@@ -7,6 +7,7 @@ authors: [Kagawa T, Ohgami N, He T, Tazaki A, Ohnuma S, Naito H, Yajima I, Chen 
 year: 2023
 publication: "European Heart Journal Open"
 doi: 10.1093/ehjopen/oead074
+access_url: "https://doi.org/10.1093/ehjopen/oead074"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,7 @@ authors: [Aiken ML, Pace CE, Ramachandran M, Schwabe KA, Ajami H, Link BG, Ying 
 year: 2023
 publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.2c08385
+access_url: "https://doi.org/10.1021/acs.est.2c08385"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

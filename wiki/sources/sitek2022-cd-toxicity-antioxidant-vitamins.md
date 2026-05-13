@@ -8,6 +8,7 @@ year: 2022
 publication: "Nutrients"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=The%20role%20of%20antioxidant%20vitamins%20in%20cadmium%20toxicity%20prevention"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

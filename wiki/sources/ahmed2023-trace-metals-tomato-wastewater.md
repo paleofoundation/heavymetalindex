@@ -8,6 +8,7 @@ year: 2023
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Trace%20metal%20concentrations%20in%20tomato%20fruits%20irrigated%20with%20industrial%20wastewater%20in%20Cairo%20and%20health%20risk%20assessment"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

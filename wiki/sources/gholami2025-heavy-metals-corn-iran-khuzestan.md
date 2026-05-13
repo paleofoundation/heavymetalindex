@@ -8,6 +8,7 @@ year: 2025
 publication: "Scientific Reports"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Health%20risk%20assessment%20Pb%2C%20As%20and%20Cr%20in%20corn%20(Zea%20mays)%20of%20Behbahan%20and%20Dezful%20from%20Khuzestan%20Province%2C%20Iran"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

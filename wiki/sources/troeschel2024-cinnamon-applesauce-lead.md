@@ -8,6 +8,7 @@ year: 2024
 publication: "Morbidity and Mortality Weekly Report (MMWR)"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Investigation%20of%20Lead%20and%20Chromium%20Exposure%20After%20Consumption%20of%20Contaminated%20Cinnamon-Containing%20Applesauce%20%E2%80%94%20United%20States%2C%20November%202023%E2%80%93April%202024"
 source_type: government-report
 evidence_tier: A
 license: "public-domain"

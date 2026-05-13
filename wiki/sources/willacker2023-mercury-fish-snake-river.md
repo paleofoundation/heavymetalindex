@@ -7,6 +7,7 @@ authors: [Willacker JJ, Eagles-Smith CA, Chandler JA, Naymik J, Myers R, Krabben
 year: 2023
 publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.3c04670
+access_url: "https://doi.org/10.1021/acs.est.3c04670"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

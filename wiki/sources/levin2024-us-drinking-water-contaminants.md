@@ -7,6 +7,7 @@ authors: [Levin R, Villanueva CM, Beene D, Barr DB, Panuwet P, Uche UI, Donohue 
 year: 2024
 publication: "Journal of Exposure Science and Environmental Epidemiology"
 doi: 10.1038/s41370-023-00597-z
+access_url: "https://doi.org/10.1038/s41370-023-00597-z"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,7 @@ authors: [Rossini-Oliva S, López Nuñez R]
 year: 2024
 publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-024-33500-w
+access_url: "https://doi.org/10.1007/s11356-024-33500-w"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

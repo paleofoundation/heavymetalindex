@@ -6,6 +6,7 @@ title: "Arsenobetaine amide: a novel arsenic species detected in several mushroo
 authors: [Walenta M, Raab A, Braeuer S, Steiner L, Borovička J, Goessler W]
 year: 2024
 doi: 10.1007/s00216-023-05159-0
+access_url: "https://doi.org/10.1007/s00216-023-05159-0"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

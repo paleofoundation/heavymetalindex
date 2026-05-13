@@ -7,6 +7,7 @@ authors: [Henriksen C, Bügel S]
 year: 2023
 publication: "Food & Nutrition Research"
 doi: 10.29219/fnr.v67.10257
+access_url: "https://doi.org/10.29219/fnr.v67.10257"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

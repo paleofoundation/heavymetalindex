@@ -8,6 +8,7 @@ year: 2023
 publication: "Bulletin of Environmental Contamination and Toxicology"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Assessment%20of%20Potentially%20Toxic%20Metals%20in%20Fish%20from%20Lake%20Manyara%2C%20Northern%20Tanzania"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

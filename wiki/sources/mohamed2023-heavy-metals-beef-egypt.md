@@ -6,6 +6,7 @@ title: "Detection and health risk assessment of toxic heavy metals in chilled an
 authors: [Mohamed NH, Yahya G, El Bayoumi RM, Hussein MAM, Cavalu S, Dahshan H, Alsayeqh AF, Darwish WS, Nasr EAA]
 year: 2023
 doi: 10.5455/OVJ.2023.v13.i12.21
+access_url: "https://doi.org/10.5455/OVJ.2023.v13.i12.21"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

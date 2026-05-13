@@ -8,6 +8,7 @@ year: 2025
 publication: "Scientific Reports"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Risk%20assessment%20of%20heavy%20metals%20in%20north%20of%20Iran%20(Sari)%20rice%20and%20implications%20for%20human%20health"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

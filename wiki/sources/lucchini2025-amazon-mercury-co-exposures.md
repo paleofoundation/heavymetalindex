@@ -7,6 +7,7 @@ authors: [Lucchini R, Maserti BE, Dolciotti C, Zoni S, Colicino E, Fattore E, Br
 year: 2025
 publication: "Annals of Global Health"
 doi: 10.5334/aogh.4817
+access_url: "https://doi.org/10.5334/aogh.4817"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

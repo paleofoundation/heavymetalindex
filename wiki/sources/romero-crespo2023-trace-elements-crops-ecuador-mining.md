@@ -7,6 +7,7 @@ authors: [Romero-Crespo P, Jiménez-Oyola S, Salgado-Almeida B, Zambrano-Anchund
 year: 2023
 publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-023-01514-x
+access_url: "https://doi.org/10.1007/s10653-023-01514-x"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

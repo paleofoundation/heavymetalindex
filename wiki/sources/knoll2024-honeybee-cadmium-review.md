@@ -7,6 +7,7 @@ authors: [Knoll S, Cappai MG]
 year: 2024
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Foraging%20Activity%20of%20Honey%20Bees%20(Apis%20mellifera%20L.%2C%201758)%20and%20Exposure%20to%20Cadmium%3A%20a%20Review"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

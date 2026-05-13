@@ -7,6 +7,7 @@ authors: [Hall LA, Woo I, Marvin-DiPasquale M, Takekawa JY, Krabbenhoft DP, Yee 
 year: 2023
 publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.3c04907
+access_url: "https://doi.org/10.1021/acs.est.3c04907"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

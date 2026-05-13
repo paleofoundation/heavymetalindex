@@ -6,6 +6,7 @@ title: "Heavy Metal Levels and Cancer Risk Assessments of the Commercial Denis, 
 authors: [Abbas MMM]
 year: 2023
 doi: 10.1007/s12011-023-03880-0
+access_url: "https://doi.org/10.1007/s12011-023-03880-0"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -8,6 +8,7 @@ year: 2024
 publication: "Environmental Science and Pollution Research"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Cadmium%20and%20mercury%20trophic%20transfer%20in%20the%20Arctic%20marine%20food%20web%20of%20Hudson%20Bay"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

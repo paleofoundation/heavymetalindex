@@ -7,6 +7,7 @@ authors: [Mukhi M, Sehgal R, Puri S]
 year: 2023
 publication: "International Journal of Food Science"
 doi: 10.1155/2023/3840795
+access_url: "https://doi.org/10.1155/2023/3840795"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

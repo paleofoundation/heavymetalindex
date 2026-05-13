@@ -7,6 +7,7 @@ authors: [Molina A, Duque G, Cogua P]
 year: 2023
 publication: "Environmental Monitoring and Assessment"
 doi: 10.1007/s10661-023-11721-9
+access_url: "https://doi.org/10.1007/s10661-023-11721-9"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

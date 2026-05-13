@@ -7,6 +7,7 @@ authors: [Marincich L, Protti M, Mandrioli R, Mercolini L, Wozniak L]
 year: 2023
 publication: "EFSA Journal"
 doi: 10.2903/j.efsa.2023.e211011
+access_url: "https://doi.org/10.2903/j.efsa.2023.e211011"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-ND"

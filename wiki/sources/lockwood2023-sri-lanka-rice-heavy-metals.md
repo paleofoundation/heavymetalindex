@@ -8,6 +8,7 @@ year: 2023
 publication: "Food Chemistry Advances"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Toxic%20and%20essential%20element%20content%20of%20traditional%20Sri%20Lankan%20rice%20varieties%20from%20Anuradhapura%20district"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

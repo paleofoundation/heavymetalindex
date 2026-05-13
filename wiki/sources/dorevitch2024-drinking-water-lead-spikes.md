@@ -7,6 +7,7 @@ authors: [Dorevitch S, Dmochowski J, Waidyanatha S, Hwang SA]
 year: 2024
 publication: "Journal of Exposure Science and Environmental Epidemiology"
 doi: 10.1038/s41370-023-00534-0
+access_url: "https://doi.org/10.1038/s41370-023-00534-0"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

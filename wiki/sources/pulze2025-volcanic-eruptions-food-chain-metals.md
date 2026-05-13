@@ -7,6 +7,7 @@ authors: [Pulze L, Di Gioacchino M, Salvati L, Falcionelli N, Allegra M, Franzag
 year: 2025
 publication: "Italian Journal of Food Safety"
 doi: 10.4081/ijfs.2025.13517
+access_url: "https://doi.org/10.4081/ijfs.2025.13517"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC"

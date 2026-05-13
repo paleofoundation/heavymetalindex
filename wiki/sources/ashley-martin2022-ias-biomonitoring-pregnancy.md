@@ -7,6 +7,7 @@ authors: [Ashley-Martin J, Fisher M, Belanger P, Cirtiu CM, Arbuckle TE]
 year: 2022
 publication: "Journal of Exposure Science & Environmental Epidemiology"
 doi: 10.1038/s41370-022-00457-2
+access_url: "https://doi.org/10.1038/s41370-022-00457-2"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

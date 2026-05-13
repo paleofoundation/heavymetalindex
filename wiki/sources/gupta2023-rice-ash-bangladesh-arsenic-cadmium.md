@@ -8,6 +8,7 @@ year: 2023
 publication: "Environmental Pollution"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Recycled%20household%20ash%20in%20rice%20paddies%20of%20Bangladesh%20for%20sustainable%20production%20of%20rice%20without%20altering%20grain%20arsenic%20and%20cadmium"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

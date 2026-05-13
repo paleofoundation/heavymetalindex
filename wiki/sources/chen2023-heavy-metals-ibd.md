@@ -7,6 +7,7 @@ authors: [Chen X, He C, Huang Q, Chen J, Han L, Hu R]
 year: 2023
 publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2023.1140786
+access_url: "https://doi.org/10.3389/fpubh.2023.1140786"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

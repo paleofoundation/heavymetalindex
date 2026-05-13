@@ -8,6 +8,7 @@ year: 2023
 publication: "Ambio"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Global%20change%20effects%20on%20biogeochemical%20mercury%20cycling"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

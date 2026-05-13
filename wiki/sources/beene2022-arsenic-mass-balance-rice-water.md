@@ -7,6 +7,7 @@ authors: [Beene D, Collender P, Cardenas A, Harvey C, Huhmann L, Lin Y, Lewis J,
 year: 2022
 publication: "Environment International"
 doi: 10.1016/j.envint.2022.107371
+access_url: "https://doi.org/10.1016/j.envint.2022.107371"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"

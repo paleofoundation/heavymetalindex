@@ -7,6 +7,7 @@ authors: [Sowers TD, Blackmon MD, Betts AR, Jerden ML, Scheckel KG, Bradham KD]
 year: 2023
 publication: "Proceedings of the National Academy of Sciences"
 doi: 10.1073/pnas.2311564120
+access_url: "https://doi.org/10.1073/pnas.2311564120"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

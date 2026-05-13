@@ -8,6 +8,7 @@ year: 2024
 publication: "Exposome"
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Mercury%20exposure%20and%20thyroid%20cancer%3A%20a%20systematic%20review%20and%20meta-analysis"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

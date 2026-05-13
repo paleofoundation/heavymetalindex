@@ -7,6 +7,7 @@ authors: [Sandil S, Záray G, Endrédi A, Füzy A, Takács T, Óvári M, Dobosy 
 year: 2023
 publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-023-30615-w
+access_url: "https://doi.org/10.1007/s11356-023-30615-w"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

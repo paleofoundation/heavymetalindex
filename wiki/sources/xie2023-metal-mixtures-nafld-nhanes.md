@@ -7,6 +7,7 @@ authors: [Xie Y, Zheng Y, Li Z, Chen X, Li M, Liao Y, Wang X]
 year: 2023
 publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2023.1133194
+access_url: "https://doi.org/10.3389/fpubh.2023.1133194"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

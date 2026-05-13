@@ -7,6 +7,7 @@ authors: [Cui Y, Wu Q, Liu K, Wang S, Wang X, Jiang T, Meng B, Wu Y, Guo J]
 year: 2022
 publication: "ACS Environmental Au"
 doi: 10.1021/acsenvironau.1c00061
+access_url: "https://doi.org/10.1021/acsenvironau.1c00061"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

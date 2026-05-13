@@ -7,6 +7,7 @@ authors: [Palombieri S, Bonarrigo M, Cammerata A, Quagliata G, Astolfi S, Lafian
 year: 2023
 publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2023.1269212
+access_url: "https://doi.org/10.3389/fpls.2023.1269212"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

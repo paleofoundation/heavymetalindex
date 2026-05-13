@@ -7,6 +7,7 @@ authors: [Decharat S, Phethuayluk P]
 year: 2023
 doi: null
 no_doi_assigned: true
+access_url: "https://scholar.google.com/scholar?q=Quality%20and%20risk%20assessment%20of%20lead%20and%20cadmium%20in%20drinking%20water%20for%20child%20development%20centres%20use%20in%20Phatthalung%20province%2C%20Thailand"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC"

@@ -7,6 +7,7 @@ authors: [Tekile AK]
 year: 2023
 publication: "Journal of Environmental and Public Health"
 doi: 10.1155/2023/1482229
+access_url: "https://doi.org/10.1155/2023/1482229"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

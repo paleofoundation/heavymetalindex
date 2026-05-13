@@ -7,6 +7,7 @@ authors: [Alam MS, Mullakkalparambil Velayudhan S, Dey DK, Adilieme C, Malik PK,
 year: 2023
 publication: "Tropical Animal Health and Production"
 doi: 10.1007/s11250-023-03737-7
+access_url: "https://doi.org/10.1007/s11250-023-03737-7"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
