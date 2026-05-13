@@ -811,6 +811,15 @@ tr:hover {
   text-decoration: underline;
 }
 
+.snapshot-path {
+  background: var(--gray);
+  border-radius: 4px;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.74rem;
+  padding: 0.15rem 0.4rem;
+}
+
 .row-overview-card,
 .readiness-card,
 .math-card,

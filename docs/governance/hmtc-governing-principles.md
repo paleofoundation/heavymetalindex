@@ -22,16 +22,22 @@ The HMTc Program exists to serve five objectives simultaneously:
    competitive differentiation. If the standards are so loose that every
    brand qualifies, the mark has no value. If the standards change
    unpredictably, brands cannot plan. Standards ratchet tighter over time
-   but never loosen.
+   but never loosen. The program must offer a viable path to certification
+   for both clean and dirty subcategories; an unreachable bar drives no
+   change and no adoption.
 
 4. **Make it legally defensible.**
    Every limit must be traceable to documented inputs. Every regulatory
    claim must cite a real regulation with a real section number. No HMTc
    limit may exceed a government maximum level. The methodology must
-   withstand scrutiny from regulators, litigators, and competitors.
+   withstand scrutiny from regulators, litigators, and competitors. The
+   pooling math is in code, deterministic, and reproducible. Standards
+   arithmetic does not live in `wiki/`; the wiki is the public literature
+   evidence layer, the staff Standards Workbench (and `data/workbench/`)
+   carries the threshold math.
 
 5. **Make it valued at $2 billion by 2030.**
-   The program must scale across 23 product categories with consistent
+   The program must scale across all product categories with consistent
    methodology. The standards must be credible enough that retailers,
    distributors, and consumers treat the mark as a purchasing signal.
    Operational efficiency matters — the pipeline must produce standards
@@ -45,7 +51,7 @@ A standard that protects consumers but is legally indefensible fails.
 A standard that is legally bulletproof but doesn't drive contamination
 reduction fails. A standard that is rigorous but that brands see no
 commercial value in joining fails. A standard that brands value but
-that cannot scale across all 23 categories fails.
+that cannot scale across all categories fails.
 
 Every recommendation, design decision, and protocol step must be evaluated
 against all five principles. If a decision serves one principle but
@@ -54,64 +60,117 @@ ignored in favor of whichever principle feels most urgent in the moment.
 
 ---
 
-## Two Percentile Mechanisms — Do Not Confuse
+## The Locked Standards Math
 
 The HMTc Program uses percentile-based thresholds at two distinct points:
 
-**Limit-setting thresholds (P_clean / P_dirty):** These govern initial
-publication of limits. Clean platform limits are derived from the 90th
-percentile of the clean platform's occurrence distribution. Contaminated
-platform limits are derived from a governance-selected lower-tail percentile
-of the contaminated platform's distribution, P10 by default or P20 only when
-explicitly selected for that row. These are sourced from external survey data
-(FDA, EFSA, peer-reviewed studies) during Step 0.
+### Limit-setting (initial publication)
 
-Clean P90 and the selected contaminated lower-tail value are aggregate
-distribution targets for their own exact product rows. A source-reported
-percentile from one paper is source context until it is admitted into the
-aggregate pool. Do not calculate or publish a dirty-category p90 as the HMTc
-limit-setting target, and do not calculate or publish a clean-category p10 as
-the HMTc limit-setting target. Those opposite tail values may appear only as
-labeled comparator or variance context when they are needed to explain
-separation between clean and contaminated rows.
+**Per-analyte standard for a clean subcategory = P97** of that subcategory's
+marginal occurrence distribution for that analyte.
 
-Individual studies do not need to report P90, P95, P10, or P20. Those are
-HMTc calculations performed after the benchmark pool is chosen. The evidence
-task is to capture fit-source sample values, source metadata, basis, species,
-geography, and summary context; the governance task is to decide which samples
-belong in the benchmark pool before the math is run.
+**Per-analyte standard for a dirty subcategory = P45** of that subcategory's
+marginal occurrence distribution for that analyte.
 
-Benchmark pools are market-aware. A United States standard should be based on
-United States market evidence unless governance explicitly approves a
-different pool. If US values materially diverge from Nigeria, Portugal, the
-EU, or another market, the evidence must be stratified and explained rather
-than silently pooled. Non-target-market evidence may support context,
-sensitivity checks, priors, or gap analysis, but it requires written rationale
-before it can influence a jurisdiction-specific HMTc threshold.
+These per-analyte percentiles are calibrated to deliver the row-level outcomes
+the Governing Principles require:
 
-After the aggregate target is calculated, compare it to every applicable
-loaded regulatory ceiling. If the aggregate target exceeds the lowest
-applicable regulatory limit, the HMTc standard must be capped at that lower
-regulatory value unless a stricter internal standard is selected.
+- Approximately 90% of clean-subcategory brands pass row-level certification.
+- Approximately 30% of dirty-subcategory brands pass row-level certification.
 
-**Ratchet trigger (80th percentile of program testing data):** This governs
-subsequent tightening at the revision cycle, per Governance Policy §12.3.
-It uses aggregate lot-testing data collected through the HMTc Program's own
-testing infrastructure. When industry performance improves enough that the
-80th percentile of tested products falls below the current limit, the
-Program Operator considers tightening.
+The row-level outcomes are the consumer-facing promise. The per-analyte
+percentiles are the methodology that delivers them.
 
-These are distinct mechanisms. The limit-setting thresholds answer "what
-should the initial standard be?" The ratchet trigger answers "when should
-we make it harder?" They use different data sources, operate at different
-times, and serve different functions.
+**Why P97 and P45, not P90 and P30 (the row-pass calibration):**
+
+To certify, a brand must be at-or-below the limit on all ten HMTc analytes
+simultaneously. Under independence, per-analyte limits set at P90 (clean)
+would deliver 0.9^10 = 35% joint row-pass; per-analyte limits at P30 (dirty)
+would deliver effectively 0% joint row-pass. Real-world analytes correlate
+(supply-chain hygiene drives multiple metals together), so the actual joint
+pass rate sits between independence and perfect correlation — typically
+50-70% for clean and 10-15% for dirty at raw P90/P30. Both fall well short
+of the 90% / 30% targets.
+
+The heuristic uplift from P90 → P97 (clean) and P30 → P45 (dirty) brings
+the joint row-pass rate close to the 90/30 target under typical analyte
+correlation (≈0.6). It is not a relaxation: it is the per-analyte
+percentile that delivers the row-level outcome the program promises.
+
+The uplift is uniform across all analytes today. Per-analyte differentiation
+(e.g., Pb tighter than Ni based on regulatory pressure or toxicology) is a
+Tier 2 calibration deferred until HMTc has lot-testing data to measure the
+actual joint pass rate empirically. Target review: 6-12 months post-launch.
+
+### Pool admission and basis
+
+Every source loaded for a (row, metal) cell contributes to the pooled
+distribution unless explicitly dispositioned out with a stated reason.
+Sample-level data uses raw values. Summary-only sources (mean, median, max,
+SD, lb/ub, IQR) contribute via moment-matching pseudo-sample expansion
+under log-normal or gamma assumptions; the methodology is the standard
+practice in environmental exposure assessment (WHO/JECFA pooled TDS
+methodology; EFSA Scientific Opinions on Pb and Cd in food). Sources are
+weighted by their reported N, capped at twice the median per-source N to
+prevent any one large survey from dominating.
+
+Each row's standard is in the native basis of the product form: powder
+rows in powder-as-placed-on-market, RTF rows in as-consumed, dry cereal
+rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in
+their product's native form; the standard matches that form. Sources
+reporting in other bases get converted into the row's native basis during
+pooling, not the other way around. Conversions are logged per source.
+
+### Regulatory cap
+
+The final HMTc value is `min(per-analyte pooled percentile, lowest
+applicable regulatory ceiling)`, with both expressed in the row's native
+basis. The cap is converted into native basis if it was published in a
+different one. The rationale tag is `literature-baseline` when the pooled
+percentile binds and `regulatory-alignment` when the cap binds.
+
+A standard may be set lower than both the pooled percentile and the cap
+when staff documents a `precautionary` rationale (vulnerable population
+concern, cumulative exposure, scientific uncertainty). A standard may be
+set higher than the pooled percentile only via a `feasibility-driven`
+rationale paired with a sunset plan to tighten as analytical methods or
+supply-chain practices improve. The gap between literature-baseline and
+the final value, if any, is stated honestly.
+
+### Ratchet trigger (revision cycle, distinct from limit-setting)
+
+After initial publication, the §80th-percentile of program lot-testing
+data drives tightening. When industry performance improves enough that the
+80th percentile of HMTc-tested products falls below the current limit, the
+Program Operator considers tightening per Governance Policy §12.3. ALARA
+(As Low As Reasonably Achievable) and the brand remediation-plan
+infrastructure govern the ongoing relationship between certified brands
+and improving limits.
+
+The ratchet trigger uses HMTc-internal lot-testing data. The limit-setting
+math uses external survey data (FDA, EFSA, peer-reviewed studies, EU
+basket surveys, jurisdictional total-diet studies). The two mechanisms
+operate at different times, on different data sources, and serve
+different functions.
 
 ---
 
-**Version 1.2 — May 2026**
+## Scope
+
+This methodology applies to every category in the HMTc index, not to
+Category 1 (infant and child foods) alone. The pooling engine, admission
+rule, native-basis convention, and P97/P45 percentiles are the same for
+beverages, supplements, dry goods, condiments, and every other category as
+they are for infant and child foods. Per-category exceptions require an
+explicit governance decision and changelog entry to this document.
+
+---
+
+**Version 2.0 — May 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | April 2026 | Initial version. |
 | 1.1 | April 2026 | Added "Two Percentile Mechanisms" section to clarify the distinction between P_clean/P_dirty (limit-setting, external data) and the 80th percentile ratchet trigger (revision cycle, program data). Prevents confusion between Governance Policy §12.3 and the Methodology Reference §1.4. |
 | 1.2 | May 2026 | Clarified that benchmark percentiles are HMTc benchmark-pool calculations, not values individual studies are expected to report; added jurisdiction-aware benchmark pool rule. |
+| 2.0 | May 2026 | Locked the per-analyte limit-setting math to **P97 clean / P45 dirty** with the row-pass calibration rationale. Superseded the earlier "P10 default / P20 if selected" framing for dirty. Required pool admission of summary-only sources via moment-matching pseudo-sample expansion. Required each row's standard to be in the native basis of the product form. Reaffirmed that standards arithmetic does not live in `wiki/`. Reaffirmed scope: applies to every category in the HMTc index. |

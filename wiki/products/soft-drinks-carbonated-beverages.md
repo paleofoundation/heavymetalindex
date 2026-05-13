@@ -14,7 +14,6 @@ applicable_regulations: []
 evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
 review_state: phase3_part19
-hmtc_threshold_status: data_gap_documented
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 0
@@ -47,7 +46,7 @@ This page is HMTc Category 5 row 14 from the locked beverage architecture. It ex
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/soft-drinks-carbonated-beverages">/workbench/standards/soft-drinks-carbonated-beverages</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>

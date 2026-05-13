@@ -534,7 +534,11 @@ async function buildCell(
       methodology_note_ref: "see methodology_note at top-level",
     },
     readiness,
-    snapshot_url: `http://localhost:8080/workbench/standards/${row.slug}`,
+    // Standards arithmetic snapshots live in data/workbench/standards/ per
+    // CLAUDE.md Part 19; they are not served by Quartz. The snapshot_path is
+    // a filesystem path the workbench UI can offer for copy/paste; there is
+    // no public URL.
+    snapshot_path: `data/workbench/standards/${row.slug}.md`,
     staged_decision: latestStagedDecision,
     staged_decision_count: stagedDecisions.length,
     path_b: {

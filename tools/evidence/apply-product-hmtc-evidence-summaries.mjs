@@ -7,7 +7,11 @@ const gapPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv
 const limitsPath = path.join(repoRoot, "data/evidence/regulatory_limits.csv")
 const productDir = path.join(repoRoot, "wiki/products")
 const sourceDir = path.join(repoRoot, "wiki/sources")
-const workbenchSnapshotDir = path.join(repoRoot, "wiki/workbench/standards")
+// Per CLAUDE.md Part 19 and the Governing Principles v2.0, standards arithmetic
+// (percentile statistics, clean/dirty designation, pooling math, candidate
+// values) does not live under wiki/. It lives under data/workbench/standards/
+// and on the local staff Standards Workbench tool.
+const workbenchSnapshotDir = path.join(repoRoot, "data/workbench/standards")
 const occurrenceSummaryFiles = [
   "data/evidence/category1_formula_concentration_summary.csv",
   "data/evidence/category1_fda_baby_food_compliance_summary.csv",

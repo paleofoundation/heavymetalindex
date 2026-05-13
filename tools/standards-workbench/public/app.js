@@ -530,7 +530,7 @@ function renderDetail(cells = filteredCells()) {
         <span class="badge ${statusTone[cell.status]}">${escapeHTML(cell.status_label)}</span>
         ${cell.staged_decision ? `<span class="badge staged">${escapeHTML(cell.staged_decision.action)} staged</span>` : ""}
         ${cell.readiness?.action_priority ? `<span class="priority-chip ${cell.readiness.action_priority.toLowerCase()}">${escapeHTML(cell.readiness.action_priority)}</span>` : ""}
-        <a class="snapshot-link" href="${escapeHTML(cell.snapshot_url)}" target="_blank" rel="noreferrer">Open snapshot →</a>
+        <span class="snapshot-path" title="Snapshot file path (no public URL — staff-only per CLAUDE.md Part 19)">📄 ${escapeHTML(cell.snapshot_path ?? "")}</span>
       </div>
     </div>
 

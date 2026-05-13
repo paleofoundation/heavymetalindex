@@ -10,7 +10,6 @@ evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-hmtc_threshold_status: excluded_from_index_evidence
 label: "Baby cereals / grain products, dry (rice-based)"
 base_taxonomy: baby-cereals-dry
 variant_type: contamination_platform
@@ -60,7 +59,7 @@ This page is a structural scaffold for HMTc Category 1 row 6. Quantitative evide
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/baby-cereals-dry-rice-based">/workbench/standards/baby-cereals-dry-rice-based</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>

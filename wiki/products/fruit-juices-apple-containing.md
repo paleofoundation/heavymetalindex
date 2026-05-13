@@ -12,11 +12,8 @@ primary_metals_of_concern: [iAs, Pb]
 vulnerable_population: general_population
 applicable_regulations: [fda2023_ias_apple_juice_10, fda2022_draft_pb_apple_juice_10]
 evidence_fitness: EF-3
-public_evidence_label: At readiness bar (iAs); approaching (Pb)
-review_state: phase3_part19
-hmtc_threshold_status: at_bar_iAs_dirty_p30
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
+updated: 2026-05-13
 sources: 5
 ---
 
@@ -47,26 +44,24 @@ This page is HMTc Category 5 row 2 from the locked beverage architecture. It exi
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/fruit-juices-apple-containing">/workbench/standards/fruit-juices-apple-containing</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
-## Decision Snapshot
+## Literature Evidence At A Glance
 
 | Field | Status |
 | --- | --- |
-| Row state | At readiness bar for iAs (n=94 sample-level + regulatory cap); approaching for Pb (3-source corpus, sample-level extraction pending). |
+| Evidence base | Inorganic arsenic: FDA 2011 single-strength apple juice (n=94). Lead: TDS 99 apple juice (n=3); additional extraction pending. |
 | Category hub | [[products/category-5-beverages]] |
-| Cat 5 master | [[products/category-5-beverages-master]] |
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
-| HMTc use | iAs cell publishable as Path A under Part 19 dirty p30 = 3.0 ppb (n=94 from FDA 2011 single-strength apple juice). Other cells routing or evidence-tracking only. |
 
 ## Measured Values And Concentration Evidence
 
 <!-- audience: regulator, educator, consumer, app -->
 
-FDA TDS food 99 routes to this row as bottled apple juice for total-element context, and FDA 2011 apple-juice speciation rows provide routeable inorganic-arsenic occurrence evidence. These source summaries are useful occurrence context, but no aggregate HMTc threshold is published from one source alone. [[sources/fda2022-tds-elements-fy2018-fy2020]] [[sources/fda2011-apple-juice-arsenic-speciation]]
+FDA TDS food 99 routes to this row as bottled apple juice for total-element context, and FDA 2011 apple-juice speciation rows provide routeable inorganic-arsenic occurrence evidence. [[sources/fda2022-tds-elements-fy2018-fy2020]] [[sources/fda2011-apple-juice-arsenic-speciation]]
 
 | Analyte | Evidence scope | Reported value | Source-use caveat |
 | --- | --- | --- | --- |

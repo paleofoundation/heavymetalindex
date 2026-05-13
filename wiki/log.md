@@ -1,3 +1,8 @@
+---
+noindex: true
+audience: [internal]
+---
+
 ## [2026-05-13] batch | p4-batch10-g3 (50 handles, positions 3868-3917) — 8 source pages, 42 false positives
 Pages touched: [[sources/desalew2023-rice-ethiopia]], [[sources/hull2023-arsenic-lake-foodweb]], [[sources/sadee2023-arsenic-speciation-vegetables]], [[sources/davydiuk2023-arsenosugars-methylation]], [[sources/liu2023-arsenic-seafood-digestion]], [[sources/rubio2023-metals-cereals-madeira-azores]], [[sources/holbert2023-mercury-hawaiian-fish]], [[sources/onyegeme-okerenta2023-shellfish-nigeria]]
 Notes: Eight food-relevant papers from 2023 cohort (FM_10581525–FM_10640414). Strongest adds: rubio2023 (Cd in oats 0.307 mg/kg and Pb in rye 0.347 mg/kg from Portuguese Atlantic islands, all but maize exceeding EU Cd maxima); onyegeme-okerenta2023 (Niger Delta shellfish Cd up to 3.62 mg/kg and Cr up to 9.1 mg/kg dw, TCR above 1×10−4 for all groups); liu2023-arsenic-seafood-digestion (oAs→iAs conversion during in vitro digestion, crab As(V) post-digestion 17 µg/g, 2–3× pre-digestion level); davydiuk2023 (arsenosugar dietary intake confounds urinary DMA methylation markers, direct implication for seafood-population iAs risk assessment). 42 FP: materials science, plant genetics, clinical medicine, soil microbiology, ferrite nanoparticles, aquaculture, biomedical, photocatalysis.
