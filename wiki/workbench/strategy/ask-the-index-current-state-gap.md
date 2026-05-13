@@ -1,15 +1,17 @@
 ---
+title: "Ask the Index — current state and MVP gap analysis"
 type: product-design
 product: ask-the-index
 phase: current-state-and-mvp-gap
 status: design-spec
-audience: [internal, paleo-foundation-staff]
+audience: [internal]
+noindex: true
 updated: 2026-05-14
 ---
 
 # Ask the Index — current state and MVP gap analysis
 
-Reframe of `docs/ask-the-index-spec.md` after discovering that Ask the Index v0 is already in production. This document:
+Reframe of [[workbench/strategy/ask-the-index-spec]] after discovering that Ask the Index v0 is already in production. This document:
 
 1. Documents the v0 implementation in fact (backend, frontend, retrieval, system prompt, firewall posture).
 2. Maps each MVP design principle and feature in the spec against the v0 state (Already / Partial / Missing).
@@ -20,9 +22,9 @@ The strategy spec and the Phase 2/3 design doc remain valid; their feature inven
 
 ## 1. v0 implementation in fact
 
-### Backend — [api/ask.js](api/ask.js)
+### Backend — `api/ask.js`
 
-670 lines, registered as a Vercel function in [vercel.json](vercel.json) with `maxDuration: 30` seconds.
+670 lines, registered as a Vercel function in `vercel.json` with `maxDuration: 30` seconds.
 
 **Model surface.** OpenAI Responses API direct (not Vercel AI Gateway, not AI SDK). Default model `gpt-5-mini`, overridable via `HMI_ASSISTANT_MODEL` env var. Structured JSON output enforced via the API's `text.format` field with a strict JSON schema requiring `answer`, `citation_ids`, `confidence` (one of `high`/`medium`/`low`/`insufficient`), and `limits`. `max_output_tokens: 900`.
 
@@ -44,7 +46,7 @@ The strategy spec and the Phase 2/3 design doc remain valid; their feature inven
 
 **CORS posture.** `Access-Control-Allow-Origin: https://heavymetalindex.com` only. The endpoint is not callable from anywhere else.
 
-### System prompt — embedded in [api/ask.js:593-607](api/ask.js#L593)
+### System prompt — embedded in `api/ask.js` lines 593-607
 
 ```
 You are Ask the Index, the reference assistant for Heavy Metal Index.
@@ -66,15 +68,15 @@ Return JSON only.
 
 The system prompt is short, disciplined, and aligned with the spec's design principles at the level of fundamentals (evidence boundary, traceability, refusal, no medical/legal/regulatory advice). It is missing: audience mode framing, the methodology-ceremony format requirement, the branded refusal language, the "Where HMT&C draws the line" answer block instruction, brand-name detection rules, drift-defense framing (the wiki/HMT&C firewall), and any disagreement-surfacing instruction.
 
-### Frontend — [quartz/components/AskIndex.tsx](quartz/components/AskIndex.tsx), [scripts/askindex.inline.ts](quartz/components/scripts/askindex.inline.ts), [styles/askindex.scss](quartz/components/styles/askindex.scss)
+### Frontend — `quartz/components/AskIndex.tsx`, `quartz/components/scripts/askindex.inline.ts`, `quartz/components/styles/askindex.scss`
 
-72 + 212 + 307 = 591 lines total. A button-and-dialog widget mounted via Quartz's component system. The "Ask the Index" button opens a modal dialog with a text input, an answer panel, and a citation list. Marked accessible with appropriate ARIA attributes. Embedded in the site's Footer per a reference in [quartz/components/Footer.tsx](quartz/components/Footer.tsx).
+72 + 212 + 307 = 591 lines total. A button-and-dialog widget mounted via Quartz's component system. The "Ask the Index" button opens a modal dialog with a text input, an answer panel, and a citation list. Marked accessible with appropriate ARIA attributes. Embedded in the site's Footer per a reference in `quartz/components/Footer.tsx`.
 
 The widget passes the current page slug to the backend, which feeds the +18 page-stickiness bonus in retrieval. This is a thoughtful detail: it makes the widget feel context-aware when opened from inside a specific wiki page.
 
 The widget does not currently render a methodology footer, audience-mode picker, permalink generator, or shareable-card export.
 
-### Schema — [data/evidence/schema/ask-gap.schema.json](data/evidence/schema/ask-gap.schema.json)
+### Schema — `data/evidence/schema/ask-gap.schema.json`
 
 96 lines. A JSON schema for tracking gap-queue items, which suggests the Foundation has already begun designing the "queries that returned refusals become a prioritization signal" feedback loop from the spec. This needs separate inspection during the gap-queue feature build.
 
@@ -227,7 +229,7 @@ Given the v0 state and the architectural decisions above, the MVP work plan is:
 14. **Disagreement surfacing.** Add explicit instruction in the system prompt to name contradictions rather than synthesize a single position when sources conflict.
 15. **Vulnerable-population gating.** Add the gating logic in audience mode: the educator-audience mode and the (not-yet-launched) consumer-audience mode include vulnerable-population framing; the regulator-audience mode and legal-audience mode do not need it.
 
-The MVP launches publicly at the end of Phase 1.5. Phase 2 work (the seven features from `docs/ask-the-index-phases-2-3-design.md`) begins after.
+The MVP launches publicly at the end of Phase 1.5. Phase 2 work (the seven features from [[workbench/strategy/ask-the-index-phases-2-3-design]]) begins after.
 
 ## 5. What v0 got right that the spec should preserve
 
@@ -242,7 +244,7 @@ A few decisions in v0 are good and should not be lost in the MVP evolution:
 
 ## 6. Updates to companion docs
 
-This document supersedes parts of `docs/ask-the-index-spec.md` §6 (Rollout sequencing) and §5 (Infrastructure dependencies) with the v0-grounded reality. The strategy frame, design principles, hard guardrails, feature inventory, and Phase 2/3 design in the companion docs remain unchanged.
+This document supersedes parts of [[workbench/strategy/ask-the-index-spec]] §6 (Rollout sequencing) and §5 (Infrastructure dependencies) with the v0-grounded reality. The strategy frame, design principles, hard guardrails, feature inventory, and Phase 2/3 design in the companion docs remain unchanged.
 
 Specifically:
 

@@ -1,15 +1,17 @@
 ---
+title: "Ask the Index — Phase 2 and Phase 3 design"
 type: product-design
 product: ask-the-index
 phase: 2-and-3
 status: design-spec
-audience: [internal, paleo-foundation-staff]
+audience: [internal]
+noindex: true
 updated: 2026-05-14
 ---
 
 # Ask the Index — Phase 2 and Phase 3 design
 
-Companion to `docs/ask-the-index-spec.md`. The strategy spec captured the vision and feature inventory. This document goes build-deep on every Phase 2 and Phase 3 feature: what it does in concrete user terms, what the UX looks like, what the prompt template needs, what data dependencies it has, what edge cases break it, how it launches, and what success looks like.
+Companion to [[workbench/strategy/ask-the-index-spec]]. The strategy spec captured the vision and feature inventory. This document goes build-deep on every Phase 2 and Phase 3 feature: what it does in concrete user terms, what the UX looks like, what the prompt template needs, what data dependencies it has, what edge cases break it, how it launches, and what success looks like.
 
 Sequencing assumption: MVP has shipped (audience-mode prompt; per-claim provenance; methodology footer; branded refusal; "Where HMT&C draws the line" answer block on populated metal-matrix combinations; shareable answer cards; public query log; as-of-date queries). Phase 2 features layer onto that foundation; Phase 3 features assume both prior phases are stable.
 

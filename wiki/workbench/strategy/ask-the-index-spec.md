@@ -1,8 +1,10 @@
 ---
+title: "Ask the Index — product specification"
 type: product-spec
 product: ask-the-index
 status: strategy-spec
-audience: [internal, paleo-foundation-staff]
+audience: [internal]
+noindex: true
 updated: 2026-05-14
 ---
 
@@ -12,7 +14,7 @@ Internal product strategy and design specification for the Ask the Index convers
 
 This document is not public wiki content. It captures the strategic frame, the design principles, the full feature set (nineteen features across three phases), the hard guardrails, the infrastructure dependencies, and the rollout sequencing. It is the authoritative reference for any session working on Ask the Index until superseded.
 
-**Read first if doing build work.** Ask the Index v0 already exists in production at [api/ask.js](api/ask.js), with a frontend widget at [quartz/components/AskIndex.tsx](quartz/components/AskIndex.tsx). See `docs/ask-the-index-current-state-gap.md` for the v0-grounded MVP work plan. This strategy spec describes the target; the gap doc describes the path from v0 to the target. The Phase 2 and Phase 3 features depend on the MVP cut shipping per the gap doc's sequencing.
+**Read first if doing build work.** Ask the Index v0 already exists in production at `api/ask.js`, with a frontend widget at `quartz/components/AskIndex.tsx`. See [[workbench/strategy/ask-the-index-current-state-gap]] for the v0-grounded MVP work plan. This strategy spec describes the target; the gap doc describes the path from v0 to the target. The Phase 2 and Phase 3 features (see [[workbench/strategy/ask-the-index-phases-2-3-design]]) depend on the MVP cut shipping per the gap doc's sequencing.
 
 ## 1. Strategic frame
 
