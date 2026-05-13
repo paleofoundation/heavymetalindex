@@ -25,6 +25,8 @@ sources: 4
 
 This page is HMTc Category 5 row 7. It now has a usable regulatory-versus-field-finding comparison for inorganic arsenic in finished rice-based drinks.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -53,6 +55,21 @@ This page is HMTc Category 5 row 7. It now has a usable regulatory-versus-field-
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in rice-based plant milks. It does not report HMT&C certification thresholds, percentile-selection arithmetic, or clean/dirty subcategory designations; those appear on the staff Standards Workbench at `/workbench/standards/plant-milks-rice-based`.
+
+**Speciation is non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes. Total mercury (tHg) and methylmercury (MeHg) are separate analytes. Total chromium (Cr) and hexavalent chromium (Cr-VI) are separate analytes. Values are never interchanged across speciation boundaries.
+
+**Basis is preserved and labeled.** Concentration values are reported as the source states them (as consumed, as placed on market, dry weight). Conversion between bases is shown explicitly when performed; silent conversion is never done.
+
+**Row-fit follows author scope.** A source's matrix and format classification is determined by what the authors state, not by re-derivation. Vague author scope receives a partial row-fit designation; sources silent on matrix receive an unknown designation.
+
+**Non-detect handling preserves source convention.** Sources that report non-detects as zero, as LOD/2, or as `<LOD` are recorded as stated. The convention is noted in the Source Evidence Inventory.
+
+**Source pooling is avoided** across different LOQ thresholds, collection periods, geographies, and analytical-basis differences without explicit documentation of the pooling rationale.
+
 ## Decision Snapshot
 
 | Field                 | Status                                                                  |
@@ -77,6 +94,16 @@ This is the fast comparison view for standards developers, regulators, retailers
 | [[metals/arsenic-total]] (tAs) | No federal product-specific limit loaded in this crosswalk. | D'Amato 2026 reports total arsenic from 9 to 58 ug/kg in rice-based beverages; total arsenic is context only and is not interchangeable with inorganic arsenic. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/damato2026-inorganic-arsenic-rice-based-beverages]] |
 
 <!-- END: hmi-product-crosswalk -->
+
+## Broad Product Context: Author-Scope Index
+
+<!-- BEGIN: hmi-broad-context-sources -->
+_Broad-context source index will be auto-generated here when the routing audit identifies sources whose author-stated scope is broader than this product row._
+<!-- END: hmi-broad-context-sources -->
+
+## Source Evidence Inventory
+
+Sources contributing measured rice-based plant milk concentrations are listed below. Intake and exposure estimates are kept separate from measured product concentrations.
 
 ## Occurrence Evidence
 
@@ -129,3 +156,29 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | tHg | — | Marques 2021 (not-detected) | 1 summary |
 | Ni | — | Marques 2021 | 1 summary |
 | Al, Cr-VI, Sn | — | — | 0 |
+
+## Levers to reduce contamination
+
+The levers below are ordered by estimated impact magnitude for finished rice-based plant milks as a product category. Inorganic arsenic (iAs) is the primary metal of concern, with an applicable EU regulatory cap of 30 µg/kg (EU 2023/915). Magnitude claims are cited; uncited lever rows carry a placeholder noting that quantified evidence has not yet been ingested.
+
+| Lever category | Specific action | Estimated magnitude | Source |
+|---|---|---|---|
+| Sourcing | Source rice from low-iAs regions: D'Amato 2026 found iAs ranging from 7 to 24 µg/kg across 25 Italian retail rice beverages; origin geography of the rice base is the primary driver | D'Amato 2026: iAs range 7–24 µg/kg in Italian-market samples; no sample exceeded EU 30 µg/kg cap | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|1]] |
+| Sourcing | Rice raw-material specification: require supplier CoA with iAs values by lot; US long-grain and brown rice carry higher iAs burden than basmati varieties | _Quantified magnitude data for material-selection reduction in finished rice beverage iAs not yet ingested; cross-reference [[ingredients/rice]] when synthesis is available._ | — |
+| Agronomic | Water management at paddy level (aerobic vs flooded conditions); affects iAs uptake in rice grain; operational for brands purchasing direct from growers or cooperatives | _Quantified magnitude data not yet ingested for finished-beverage impact_ | — |
+| Processing | Rice washing and cooking prior to extraction; higher water-to-rice ratios in beverage production can dilute residual iAs; effect magnitude depends on extraction process design | _Quantified magnitude data not yet ingested_ | — |
+| Formulation | Blending rice with lower-iAs plant bases (oat, almond) reduces per-serving iAs burden but changes the product category; pure rice beverages cannot dilute without product reformulation | _Quantified magnitude data not yet ingested_ | — |
+| Testing/QC | Lot-level finished-product HPLC-ICP-MS iAs speciation (not total arsenic); the iAs-to-tAs ratio varies by rice origin; total arsenic alone does not support regulatory compliance against the EU 30 ppb iAs cap | _Quantified magnitude data not yet ingested for lot-level testing impact on exceedance rate_ | — |
+| Packaging/storage | Non-canned format typical for rice beverages; tin migration is not a primary lever; glass and paperboard cartons appropriate | _Not a primary lever for this product class_ | — |
+
+## How standards math uses this page
+
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, CC eligibility verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-rice-based`.
+
+When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
+
+## Historical recalls and enforcement
+
+No public recalls or enforcement actions specifically targeting heavy metals in rice-based plant milks are documented in the wiki's source corpus as of the last review. The EU Commission maximum level for iAs in non-alcoholic rice-based drinks (30 µg/kg, established under Regulation EU 2023/915) represents the operative regulatory framework for this product class in the EU market. This section will be populated when specific enforcement events or market-surveillance actions are ingested.
+
+_Frame: if FDA, EU, or national-agency enforcement actions involving heavy metals in this product category are identified in future ingest, they will appear here as regulatory events. This section does not rank brands._

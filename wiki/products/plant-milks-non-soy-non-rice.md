@@ -24,6 +24,8 @@ sources: 1
 
 This page is HMTc Category 5 row 5. It remains a clean-benchmark candidate, but the current evidence is not strong enough to use it as a clean comparator without more occurrence extraction.
 
+## Who this page is for
+
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
   <div class="hmi-stakeholder-guide-label">Who this page is for</div>
@@ -52,6 +54,21 @@ This page is HMTc Category 5 row 5. It remains a clean-benchmark candidate, but 
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in non-soy/non-rice plant milks (almond, oat, coconut, and other varieties). It does not report HMT&C certification thresholds, percentile-selection arithmetic, or clean/dirty subcategory designations; those appear on the staff Standards Workbench at `/workbench/standards/plant-milks-non-soy-non-rice`.
+
+**Speciation is non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes. Total mercury (tHg) and methylmercury (MeHg) are separate analytes. Total chromium (Cr) and hexavalent chromium (Cr-VI) are separate analytes. Values are never interchanged across speciation boundaries.
+
+**Basis is preserved and labeled.** Concentration values are reported as the source states them (as consumed, as placed on market, dry weight). Conversion between bases is shown explicitly when performed; silent conversion is never done.
+
+**Row-fit follows author scope.** A source's matrix and format classification is determined by what the authors state, not by re-derivation. Vague author scope receives a partial row-fit designation; sources silent on matrix receive an unknown designation.
+
+**Non-detect handling preserves source convention.** Sources that report non-detects as zero, as LOD/2, or as `<LOD` are recorded as stated. The convention is noted in the Source Evidence Inventory.
+
+**Source pooling is avoided** across different LOQ thresholds, collection periods, geographies, and analytical-basis differences without explicit documentation of the pooling rationale.
+
 ## Decision Snapshot
 
 | Field                 | Status                                                                                           |
@@ -74,6 +91,16 @@ This is the fast comparison view for standards developers, regulators, retailers
 | [[metals/lead]] (Pb); [[metals/mercury-total]] (tHg); [[metals/uranium]] (U) | No federal product-specific limit loaded in this crosswalk. | Marques 2021 reports Pb detected in one non-organic oat drink and Hg/U non-detected in milks and plant-based drinks; numeric table extraction requires review. | Occurrence evidence only. Do not infer a federal exceedance or HMTc pass/fail result from this row. | [[sources/marques2021-trace-elements-milks-plant-based-drinks]] |
 
 <!-- END: hmi-product-crosswalk -->
+
+## Broad Product Context: Author-Scope Index
+
+<!-- BEGIN: hmi-broad-context-sources -->
+_Broad-context source index will be auto-generated here when the routing audit identifies sources whose author-stated scope is broader than this product row._
+<!-- END: hmi-broad-context-sources -->
+
+## Source Evidence Inventory
+
+Sources contributing measured non-soy/non-rice plant milk concentrations are listed below. Intake and exposure estimates are kept separate from measured product concentrations.
 
 ## Occurrence Evidence
 
@@ -120,3 +147,29 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | tHg | — | Marques 2021 (not detected baseline) | 1 summary |
 | Ni | — | Marques 2021 (subset values pending source-table review) | 1 summary |
 | Cr-VI | — | inference cascade from Hernandez/Saraiva chemistry (milk-like matrix) | 1 cascade |
+
+## Levers to reduce contamination
+
+The levers below are ordered by estimated impact magnitude for finished non-soy/non-rice plant milks (almond, oat, coconut, cashew, and other varieties) as a product category. Evidence is currently thin for this row; Marques 2021 reports Pb detected in one non-organic oat drink and tHg non-detected. Magnitude claims are cited where evidence is available; uncited lever rows carry a placeholder noting that quantified evidence has not yet been ingested.
+
+| Lever category | Specific action | Estimated magnitude | Source |
+|---|---|---|---|
+| Sourcing | For oat-based: source oat from suppliers with documented Cd and Pb specifications; oats can accumulate Cd from phosphate-fertilized soils; organic vs non-organic sourcing may affect Pb burden per Marques 2021 detection pattern | Pb detected in 1 non-organic oat drink, non-detect in organic variants, in Marques 2021 (n=42 plant-drinks; exact oat-subset count pending table extraction) | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|1]] |
+| Sourcing | For almond-based: almonds can accumulate Cd; origin matters; California vs Mediterranean origins differ on soil Cd burden | _Quantified magnitude data for finished almond beverage Cd not yet ingested; section will be expanded when evidence is available._ | — |
+| Agronomic | Soil pre-screening requirement in supplier specification for key base-nut and grain crops; affects Cd and Pb burden | _Quantified magnitude data not yet ingested_ | — |
+| Processing | Water wash and extraction parameters during beverage manufacturing; effect on metal partitioning from nut or grain base to finished beverage has not been characterized in the current evidence base | _Quantified magnitude data not yet ingested_ | — |
+| Formulation | Reducing proportion of higher-risk base ingredients (oat, almond) in blended plant beverages in favor of lower-risk bases where Cd/Pb are the target analytes | _Quantified magnitude data not yet ingested_ | — |
+| Testing/QC | Lot-level ICP-MS testing for Pb, Cd, Ni, and tAs on finished beverage; particularly relevant given inter-variety variance (oat vs almond vs coconut carry different metal profiles) | _Quantified magnitude data not yet ingested_ | — |
+| Packaging/storage | Non-canned format typical for this product class; glass and paperboard cartons appropriate; tin migration is not a primary lever | _Not a primary lever for this product class_ | — |
+
+## How standards math uses this page
+
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, CC eligibility verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-non-soy-non-rice`.
+
+When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
+
+## Historical recalls and enforcement
+
+No public recalls or enforcement actions specifically targeting heavy metals in almond, oat, coconut, or other non-soy/non-rice plant milks are documented in the wiki's source corpus as of the last review. This section will be populated when regulatory enforcement events are ingested.
+
+_Frame: if FDA, EU, or national-agency enforcement actions involving heavy metals in this product category are identified in future ingest, they will appear here as regulatory events. This section does not rank brands._
