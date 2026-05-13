@@ -76,11 +76,11 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">361</a></dd>
+      <dd><a href="sources/">485</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">72</a></dd>
+      <dd><a href="sources/">73</a></dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
@@ -88,7 +88,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">421</a></dd>
+      <dd><a href="sources/">540</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
@@ -96,7 +96,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">114</a></dd>
+      <dd><a href="regulations/">119</a></dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
