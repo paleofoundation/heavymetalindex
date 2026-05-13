@@ -47,18 +47,18 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 3. Triage 46 routing-unresolved entries
+## 3. Triage 35 routing-unresolved entries
 
 **Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
 **Strategy:** triage
-**Priority score:** 20.7 (impact 69 × confidence 0.9 ÷ cost factor)
+**Priority score:** 15.8 (impact 52.5 × confidence 0.9 ÷ cost factor)
 **Cost:** medium
 **Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
 **Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
 
 **What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
 
-**Details:** 46 entries broken down as: 37 ingredient, 9 product. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
+**Details:** 35 entries broken down as: 35 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
 
 ---
 

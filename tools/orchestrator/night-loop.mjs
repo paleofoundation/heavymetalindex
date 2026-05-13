@@ -54,6 +54,14 @@ const deadlineMs = startedAt + Math.floor(maxHours * 3600 * 1000)
 const completed = []
 let totalSpend = 0
 
+// Session-level cooldown: actions that resolved 0 net work the previous time
+// they ran. The 2026-05-12 overnight loop burned ~$15 re-dispatching
+// TRIAGE-ROUTING-UNRESOLVED 15 extra times after it had already concluded all
+// remaining entries were new-page proposals (Karen's call per Part 10).
+// Tracked by action.id with the iteration index it was concluded; we skip
+// re-dispatching the same id once it has produced no commits.
+const concludedActions = new Set()
+
 console.log(`[night-loop] started ${new Date(startedAt).toISOString()}`)
 console.log(`[night-loop] budgets: max ${maxActions} actions, ${maxHours}h, $${maxSpendUsd}`)
 console.log(`[night-loop] model: ${dispatchModel}, synthesis included: ${includeSynthesis}`)
@@ -86,9 +94,12 @@ while (true) {
 
   // Read the plan.
   const plan = JSON.parse(fs.readFileSync(planJsonPath, "utf8"))
-  const eligible = plan.actions.filter((a) => isDispatchEligible(a))
+  const eligible = plan.actions.filter((a) => isDispatchEligible(a) && !concludedActions.has(a.id))
   if (eligible.length === 0) {
     console.log(`[night-loop] no dispatch-eligible actions remain; stopping.`)
+    if (concludedActions.size > 0) {
+      console.log(`[night-loop] concluded this session: ${[...concludedActions].join(", ")}`)
+    }
     break
   }
 
@@ -105,6 +116,9 @@ while (true) {
     completed.push({ ...next, dispatched: false, duration_ms: 0, exit_code: 0, dry_run: true })
     break // dry-run only shows the first eligible action
   }
+
+  // Capture HEAD before dispatch so we can detect "this action produced no commits"
+  const headBefore = readGitHead(repoRoot)
 
   const dispatchStart = Date.now()
   const dispatchResult = spawnSync(
@@ -123,6 +137,8 @@ while (true) {
     },
   )
   const dispatchDurationMs = Date.now() - dispatchStart
+  const headAfter = readGitHead(repoRoot)
+  const producedCommits = headBefore && headAfter && headBefore !== headAfter
 
   completed.push({
     ...next,
@@ -130,8 +146,18 @@ while (true) {
     duration_ms: dispatchDurationMs,
     exit_code: dispatchResult.status,
     estimated_cost_usd: estimatedCost,
+    produced_commits: producedCommits,
   })
   totalSpend += estimatedCost
+
+  // If the dispatch produced no commits, mark this action as concluded for the
+  // rest of the session. Prevents the re-dispatch loop that wasted ~$15 on
+  // 2026-05-12 when TRIAGE-ROUTING-UNRESOLVED ran 15 times against entries that
+  // were all new-page proposals (Karen-side decisions, not actionable).
+  if (!producedCommits && dispatchResult.status === 0) {
+    concludedActions.add(next.id)
+    console.log(`[night-loop] ${next.id} produced no commits; marking concluded for this session.`)
+  }
 
   // Routing audit refresh so the next plan-iteration sees the dispatch's edits.
   console.log(`[night-loop] refreshing routing audit after dispatch...`)
@@ -269,4 +295,10 @@ function parseStringArg(args, name, defaultValue) {
   const idx = args.indexOf(name)
   if (idx < 0) return defaultValue
   return args[idx + 1]
+}
+
+function readGitHead(cwd) {
+  const r = spawnSync("git", ["rev-parse", "HEAD"], { cwd, encoding: "utf8" })
+  if (r.status !== 0) return null
+  return r.stdout.trim()
 }

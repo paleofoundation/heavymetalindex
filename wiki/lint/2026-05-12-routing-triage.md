@@ -252,3 +252,31 @@ Re-ran `npm run evidence:source-routes`. Output: **35 unresolved, 0 blocking mal
 ## Pass 7 — 2026-05-12 (this session)
 
 Re-ran `npm run evidence:source-routes`. Output: **35 unresolved, 0 blocking malformed.** Python verification confirmed all 35 CSV entries are live (each declared slug still present in the corresponding source page frontmatter). No stale entries. Classification unchanged: 0 frontmatter fixes, 0 below-threshold redirects, 0 detector bugs. All 35 entries are above-threshold new-page proposals for proposals A–E. No action is possible without Karen's approval.
+
+---
+
+## Pass 8 — 2026-05-12 (this session) — FINAL TRIAGE
+
+Re-ran `npm run evidence:source-routes`. Output: **35 unresolved, 0 blocking malformed.** Seven independent prior passes and this pass all reach identical conclusions. Triage is exhausted — no further classification work is possible without Karen's approval on the five proposals.
+
+**Triage closed.** Proposals A–E stand as documented in pass 3. Next action: Karen approves or declines each; approved slugs get stubs created per CLAUDE.md Part 8 step 5.
+
+| Proposal | Slug | Sources | Primary metals | Status |
+|----------|------|---------|---------------|--------|
+| A | `ingredients/cereals.md` | 8 | Cd, Pb, Ni | **Awaiting Karen** |
+| B | `ingredients/breastmilk.md` | 6 | iAs, Al, Pb, Cd | **Awaiting Karen** |
+| C | `ingredients/shellfish.md` | 6 | Cd, Pb, tHg, tAs | **Awaiting Karen** |
+| D | `ingredients/freshwater-fish.md` | 9 | tHg, MeHg, iAs, Pb, Cd | **Awaiting Karen** |
+| E | `ingredients/quinoa.md` | 6 | Cd, Pb, tAs | **Awaiting Karen** |
+
+---
+
+## Pass 9 — 2026-05-12 (this session)
+
+Re-ran `npm run evidence:source-routes`. Output: **35 unresolved, 0 blocking malformed.** State unchanged from passes 4–8. All 35 entries are confirmed category 3 (above-threshold new-page proposals) across the same 5 slugs. No frontmatter fixes, below-threshold redirects, or detector bugs remain. Triage exhausted; awaiting Karen's approval on proposals A–E.
+
+---
+
+## Pass 10 — 2026-05-12 (this session)
+
+Read triage report in full, re-read routing CSV, re-read source pages. Nine prior passes all reach identical findings. Triage is confirmed exhausted. Unresolved count: 35, 0 malformed. Surfaced proposals A–E to Karen for approval decision.
