@@ -7,19 +7,19 @@ aliases: [apples]
 category: fruit
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   iAs:
     status: in_progress
     typical_ppb: [null, null]
@@ -28,60 +28,60 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   tAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 5.4]
+    p95_ppb: 8.0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Al:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 1410]
+    p95_ppb: 1645
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Sn:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 16.4]
+    p95_ppb: 20.8
+    confidence: medium
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   U:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [fruit-juices-apple-containing, fruit-purees]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 2
 ---
 

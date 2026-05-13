@@ -6,33 +6,33 @@ aliases: [rice flour, rice syrup, brown rice syrup, rice protein, rice starch, w
 category: grain
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [3.5, 9.7]
+    p95_ppb: 19
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   iAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [41.6, 41.6]
+    p95_ppb: 41.6
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Ni:
     status: in_progress
     typical_ppb: [80, 450]
@@ -48,12 +48,12 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -62,25 +62,25 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   tAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [30.2, 62]
+    p95_ppb: 66.9
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   U:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-08
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: [soil-uptake, flooded-paddy, irrigation-water-management, geography, cultivar, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 ---
 
 # Rice

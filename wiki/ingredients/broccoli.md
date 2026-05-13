@@ -7,47 +7,47 @@ aliases: [broccoli]
 category: vegetable
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [6.7, 27.6]
+    p95_ppb: 37
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   iAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   tAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
   tHg:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 130]
+    p95_ppb: 137
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Al:
     status: in_progress
     typical_ppb: [null, null]
@@ -56,12 +56,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 2
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 0]
+    p95_ppb: 0
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-13
   Sn:
     status: in_progress
     typical_ppb: [null, null]
@@ -70,18 +70,18 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-01
   U:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-03
+    status: populated
+    typical_ppb: [0, 1.7]
+    p95_ppb: 2.4
+    confidence: high
+    n_studies: 2
+    last_reviewed: 2026-05-13
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-12
+updated: 2026-05-13
 sources: 2
 ---
 
