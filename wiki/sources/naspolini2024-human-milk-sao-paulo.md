@@ -7,6 +7,7 @@ authors: [Naspolini NF, Vanzele PAR, Tótolo P, Schüroff PA, Fatori D, Vicentin
 year: 2024
 publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2024.1450570
+access_url: https://doi.org/10.3389/fpubh.2024.1450570
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

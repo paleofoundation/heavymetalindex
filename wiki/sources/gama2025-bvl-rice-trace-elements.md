@@ -7,6 +7,7 @@ authors: [Gama MS, Portela L, Patinha C, Durães N]
 year: 2025
 publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-025-02408-w
+access_url: https://doi.org/10.1007/s10653-025-02408-w
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

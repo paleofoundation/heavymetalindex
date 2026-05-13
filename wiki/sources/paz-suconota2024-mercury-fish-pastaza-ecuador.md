@@ -7,6 +7,7 @@ authors: [Paz-Suconota F, Fernández L, Carpintero-Salvador N, Ruiz-Urigüen M, 
 year: 2024
 publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0310688
+access_url: https://doi.org/10.1371/journal.pone.0310688
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

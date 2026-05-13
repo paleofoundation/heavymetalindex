@@ -7,6 +7,7 @@ authors: [Su LJ, Chiang TC, O'Connor SN]
 year: 2023
 publication: "Frontiers in Nutrition"
 doi: 10.3389/fnut.2023.1209574
+access_url: https://doi.org/10.3389/fnut.2023.1209574
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

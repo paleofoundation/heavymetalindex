@@ -7,6 +7,7 @@ authors: [Páez-Osuna F, Castro Espinoza A, Tirado Figueroa E, Saucedo Barrón C
 year: 2024
 publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-024-02232-8
+access_url: https://doi.org/10.1007/s10653-024-02232-8
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,7 @@ authors: [Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, Zhong H]
 year: 2025
 publication: "Proceedings of the National Academy of Sciences"
 doi: 10.1073/pnas.2424001122
+access_url: https://doi.org/10.1073/pnas.2424001122
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

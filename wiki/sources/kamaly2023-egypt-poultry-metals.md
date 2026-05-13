@@ -7,6 +7,7 @@ authors: [Kamaly HF, Sharkawy AA]
 year: 2023
 publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-023-27826-w
+access_url: https://doi.org/10.1007/s11356-023-27826-w
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,7 @@ authors: [Zhou XQ, Chen KH, Yu RQ, Yang M, Liu Q, Hao YY, Li J, Liu HW, Feng J, 
 year: 2025
 publication: "Nature Communications"
 doi: 10.1038/s41467-025-60458-1
+access_url: https://doi.org/10.1038/s41467-025-60458-1
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

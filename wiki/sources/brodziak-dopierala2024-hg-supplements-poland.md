@@ -8,6 +8,7 @@ year: 2024
 publication: "Biological Trace Element Research"
 doi: null
 no_doi_assigned: true
+access_url: https://scholar.google.com/scholar?q=Mercury%20Levels%20in%20Selected%20Medicines%20and%20Dietary%20Supplements%20in%20Poland
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

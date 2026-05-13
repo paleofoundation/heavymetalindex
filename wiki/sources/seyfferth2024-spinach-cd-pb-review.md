@@ -7,6 +7,7 @@ authors: [Seyfferth AL, Limmer MA, Runkle BRK, Chaney RL]
 year: 2024
 publication: "GeoHealth"
 doi: 10.1029/2024GH001081
+access_url: https://doi.org/10.1029/2024GH001081
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"

@@ -7,6 +7,7 @@ authors: [Mekonnen BA, Yizengaw MG, Kassahun H, Ketema G]
 year: 2024
 publication: "International Journal of Food Science"
 doi: 10.1155/2024/6677324
+access_url: https://doi.org/10.1155/2024/6677324
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

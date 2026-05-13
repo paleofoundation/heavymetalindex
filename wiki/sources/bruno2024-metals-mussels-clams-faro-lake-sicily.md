@@ -7,6 +7,7 @@ authors: [Bruno F, Nava V, Zappalà S, Costa GL, Fazio F, Parrino V, Licata P]
 year: 2024
 publication: "Frontiers in Toxicology"
 doi: 10.3389/ftox.2024.1494977
+access_url: https://doi.org/10.3389/ftox.2024.1494977
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

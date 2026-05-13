@@ -7,6 +7,7 @@ authors: [Alrashdi MM, Ragazzon-Smith A, Strashnov I, Polya DA]
 year: 2024
 publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-024-02280-0
+access_url: https://doi.org/10.1007/s10653-024-02280-0
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

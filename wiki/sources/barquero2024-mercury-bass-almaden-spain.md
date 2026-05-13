@@ -7,6 +7,7 @@ authors: [Barquero JI, Hidalgo JJ, Esbrí JM, Higueras P, García-Ordiales E]
 year: 2024
 publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-024-02326-3
+access_url: https://doi.org/10.1007/s10653-024-02326-3
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

@@ -7,6 +7,7 @@ authors: [Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, Futsaeter 
 year: 2025
 publication: "Nature Communications"
 doi: 10.1038/s41467-025-59785-5
+access_url: https://doi.org/10.1038/s41467-025-59785-5
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

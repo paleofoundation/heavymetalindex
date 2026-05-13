@@ -7,6 +7,7 @@ authors: [Hossain E, Nesha M, Chowdhury MAZ, Rahman SH]
 year: 2023
 publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0279043
+access_url: https://doi.org/10.1371/journal.pone.0279043
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

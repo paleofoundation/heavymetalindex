@@ -7,6 +7,7 @@ authors: [Cardini J, Sloth JJ, Loeschner K]
 year: 2025
 publication: "Analytical and Bioanalytical Chemistry"
 doi: 10.1007/s00216-025-05931-y
+access_url: https://doi.org/10.1007/s00216-025-05931-y
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

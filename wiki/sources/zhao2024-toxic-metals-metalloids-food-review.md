@@ -7,6 +7,7 @@ authors: [Zhao D, Wang P, Zhao FJ]
 year: 2024
 publication: "Current Opinion in Environmental Science & Health"
 doi: 10.1007/s42247-024-00934-6
+access_url: https://doi.org/10.1007/s42247-024-00934-6
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

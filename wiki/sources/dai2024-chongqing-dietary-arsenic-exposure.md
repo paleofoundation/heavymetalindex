@@ -7,6 +7,7 @@ authors: [Dai Xinghui, Li Mintao, Chen Jiahui, Feng Ping, Chen Jingrong, Zhao Ji
 year: 2024
 publication: "Chinese Journal of Public Health"
 doi: 10.12182/20241160509
+access_url: https://doi.org/10.12182/20241160509
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

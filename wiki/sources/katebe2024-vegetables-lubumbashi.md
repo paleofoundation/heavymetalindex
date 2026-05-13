@@ -7,6 +7,7 @@ authors: [Katebe FM, Colinet G, Kyalamakasa JMK, Mubemba MM, Jijakli MH]
 year: 2024
 publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-024-34806-z
+access_url: https://doi.org/10.1007/s11356-024-34806-z
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -7,6 +7,7 @@ authors: [Hussein MA, Morsy NS, Mahmoud AF, Darwish WS, Elabbasy MT, Zigo F, Far
 year: 2023
 publication: "Frontiers in Veterinary Science"
 doi: 10.3389/fvets.2023.1185395
+access_url: https://doi.org/10.3389/fvets.2023.1185395
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

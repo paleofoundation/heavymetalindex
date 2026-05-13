@@ -7,6 +7,7 @@ authors: [Stahl LL, Snyder BD, McCarty HB, Kincaid TM, Olsen AR, Cohen TR, Heale
 year: 2023
 publication: "Science of the Total Environment"
 doi: 10.1016/j.scitotenv.2022.160557
+access_url: https://doi.org/10.1016/j.scitotenv.2022.160557
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

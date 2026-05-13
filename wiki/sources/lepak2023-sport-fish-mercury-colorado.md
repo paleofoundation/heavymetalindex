@@ -7,6 +7,7 @@ authors: [Lepak JM, Johnson BM, Hooten MB, Wolff BA, Hansen AG]
 year: 2023
 publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0285890
+access_url: https://doi.org/10.1371/journal.pone.0285890
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

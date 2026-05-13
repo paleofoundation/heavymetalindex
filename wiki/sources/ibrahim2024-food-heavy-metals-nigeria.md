@@ -7,6 +7,7 @@ authors: [Ibrahim UM, Karkarna MZ, Babura SM, Matazu MA, Jibo AM, Umar ML, Aliyu
 year: 2024
 publication: "Environmental Health Insights"
 doi: 10.1177/11786302241301700
+access_url: https://doi.org/10.1177/11786302241301700
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

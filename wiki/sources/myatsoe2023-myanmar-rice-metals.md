@@ -7,6 +7,7 @@ authors: [Myat Soe AM, Mu AA, Toyoda K]
 year: 2023
 publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0283420
+access_url: https://doi.org/10.1371/journal.pone.0283420
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

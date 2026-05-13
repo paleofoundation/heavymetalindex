@@ -7,6 +7,7 @@ authors: [Aljohani ASM]
 year: 2023
 publication: "Frontiers in Veterinary Science"
 doi: 10.3389/fvets.2023.1161354
+access_url: https://doi.org/10.3389/fvets.2023.1161354
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

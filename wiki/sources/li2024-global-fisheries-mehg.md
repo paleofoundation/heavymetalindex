@@ -7,6 +7,7 @@ authors: [Li ML, Thackray CP, Lam VWY, Cheung WWL, Sunderland EM]
 year: 2024
 publication: "Proceedings of the National Academy of Sciences"
 doi: 10.1073/pnas.2405898121
+access_url: https://doi.org/10.1073/pnas.2405898121
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

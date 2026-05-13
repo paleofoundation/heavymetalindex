@@ -7,6 +7,7 @@ authors: [Uthayarajan N, Jayawardene KLTD, Weerasekara I]
 year: 2025
 publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s40620-024-02174-5
+access_url: https://doi.org/10.1007/s40620-024-02174-5
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

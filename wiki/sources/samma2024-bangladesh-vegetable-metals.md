@@ -7,6 +7,7 @@ authors: [Samma S, Islam Khan MS, Islam Chowdhury MT, Islam MA, Fick J, Kaium A]
 year: 2024
 publication: "Environmental Health Insights"
 doi: 10.1177/11786302241282601
+access_url: https://doi.org/10.1177/11786302241282601
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

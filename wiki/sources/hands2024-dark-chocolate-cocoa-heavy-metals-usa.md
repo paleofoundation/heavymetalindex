@@ -7,6 +7,7 @@ authors: [Hands JM, Anderson ML, Cooperman T, Balsky JE, Frame LA]
 year: 2024
 publication: "Frontiers in Nutrition"
 doi: 10.3389/fnut.2024.1366231
+access_url: https://doi.org/10.3389/fnut.2024.1366231
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -75,46 +75,49 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">311</a></dd>
+      <dd>361</dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">72</a></dd>
+      <dd>72</dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
-      <dd><a href="sources/">28</a></dd>
+      <dd>28</dd>
+      <small>FDA TDS, FDA baby-food compliance, EFSA, FSA, WHO GEMS, and similar recurring monitoring data extracts.</small>
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">374</a></dd>
+      <dd>421</dd>
+      <small>Peer-reviewed primary studies and government reports per CLAUDE.md Part 13.</small>
     </div>
     <div>
       <dt>Structured evidence records</dt>
-      <dd><a href="methodology/">557</a></dd>
+      <dd>557</dd>
+      <small>Per-value entries in the evidence layer with basis, species, unit, and statistic-type metadata.</small>
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">107</a></dd>
+      <dd>114</dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
-      <dd><a href="ingredients/">189</a></dd>
+      <dd>189</dd>
     </div>
     <div>
       <dt>Product categories</dt>
-      <dd><a href="products/">43</a></dd>
+      <dd>43</dd>
     </div>
     <div>
       <dt>Metal profiles</dt>
-      <dd><a href="metals/">36</a></dd>
+      <dd>36</dd>
     </div>
     <div>
       <dt>Regulation pages</dt>
-      <dd><a href="regulations/">36</a></dd>
+      <dd>36</dd>
     </div>
   </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-05-13. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-05-13. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">/sources/</a>.</p>
 </section>
 <!-- END: hmi-corpus-counter -->
 

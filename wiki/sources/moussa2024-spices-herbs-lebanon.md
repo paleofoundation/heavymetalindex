@@ -7,6 +7,7 @@ authors: [Moussa L, Hassan HF, Savvaidis IN, Karam L]
 year: 2024
 publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0307884
+access_url: https://doi.org/10.1371/journal.pone.0307884
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

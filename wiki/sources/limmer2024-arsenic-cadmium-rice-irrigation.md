@@ -7,6 +7,7 @@ authors: [Limmer MA, Seyferth LD]
 year: 2024
 publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.4c02310
+access_url: https://doi.org/10.1021/acs.est.4c02310
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

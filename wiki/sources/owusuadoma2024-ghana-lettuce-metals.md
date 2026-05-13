@@ -7,6 +7,7 @@ authors: [Owusu Adoma M, Nyarko G, Boateng A, Darko G]
 year: 2024
 publication: "Environmental Health Insights"
 doi: 10.1177/11786302241285737
+access_url: https://doi.org/10.1177/11786302241285737
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

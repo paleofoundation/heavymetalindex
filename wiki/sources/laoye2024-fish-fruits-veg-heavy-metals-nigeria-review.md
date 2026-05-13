@@ -7,6 +7,7 @@ authors: [Laoye B, Olagbemide P, Ogunnusi T, Akpor O]
 year: 2024
 publication: "F1000Research"
 doi: 10.12688/f1000research.157781.1
+access_url: https://doi.org/10.12688/f1000research.157781.1
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

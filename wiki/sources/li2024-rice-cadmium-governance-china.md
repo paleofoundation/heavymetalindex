@@ -7,6 +7,7 @@ authors: [Li Y, Tao H, Cao H, Wan X, Liao X]
 year: 2024
 publication: "Nature Communications"
 doi: 10.1038/s41467-024-53626-2
+access_url: https://doi.org/10.1038/s41467-024-53626-2
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

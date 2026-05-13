@@ -7,6 +7,7 @@ authors: [Marriott AL, Leng MJ, Ngereja E, Odada EO, Olago DO, Radebe MS, Soto D
 year: 2023
 publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-023-01585-w
+access_url: https://doi.org/10.1007/s10653-023-01585-w
 source_type: peer-reviewed
 evidence_tier: A
 license: "Crown 2023"

@@ -7,6 +7,7 @@ authors: [Yan Y, Mao Z, Wang X, Chen Z, Ma C, Wei D, Yan W, Wu X, Guo Y, Xu H, H
 year: 2025
 publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2025.1499653
+access_url: https://doi.org/10.3389/fpubh.2025.1499653
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

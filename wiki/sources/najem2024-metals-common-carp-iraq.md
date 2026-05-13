@@ -7,6 +7,7 @@ authors: [Najem ES, Hussein SA, Kane AM, Al-Ezzy AIA]
 year: 2024
 publication: "Open Veterinary Journal"
 doi: 10.5455/OVJ.2024.v14.i11.7
+access_url: https://doi.org/10.5455/OVJ.2024.v14.i11.7
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

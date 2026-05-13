@@ -7,6 +7,7 @@ authors: [Osei-Safo I, Miezah K, Sackey LNA, Adusei-Gyamf J, Abdul AM]
 year: 2024
 publication: "The Scientific World Journal"
 doi: 10.1155/2024/3168279
+access_url: https://doi.org/10.1155/2024/3168279
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
