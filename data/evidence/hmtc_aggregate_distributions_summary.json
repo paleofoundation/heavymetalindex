@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-05-14T09:09:28.688Z",
+  "product_filter": null,
+  "metal_filter": null,
+  "cells_total": 122,
+  "cells_by_verdict": {
+    "READY FOR REVIEW": 15,
+    "READY FOR REVIEW (regulatory cap applies)": 16,
+    "BLOCKED: no usable evidence": 60,
+    "PROVISIONAL: review sensitivity disagreement": 10,
+    "BLOCKED: pool too thin (≥2 admitted sources required)": 17,
+    "BLOCKED: sensitivity unstable across parametric assumptions": 4
+  },
+  "cells_by_rationale": {
+    "literature-baseline": 57,
+    "regulatory-alignment": 5,
+    "no-data": 60
+  },
+  "cells_by_role": {
+    "clean_subcategory": 36,
+    "dirty_subcategory": 34,
+    "independent_clean_by_default": 52
+  },
+  "sensitivity_band_distribution": {
+    "stable": 45,
+    "no_data": 60,
+    "provisional": 10,
+    "needs_review": 7
+  },
+  "methodology": {
+    "clean_target": "P97 of pooled clean-subcategory distribution",
+    "dirty_target": "P45 of pooled dirty-subcategory distribution",
+    "uplift_rationale": "Heuristic uplift from raw P90/P30 to P97/P45 calibrates per-analyte limits to deliver ~90% (clean) / ~30% (dirty) row-pass rates across ten HMTc analytes under typical correlation. Per-analyte differentiation deferred until lot-testing data exists.",
+    "reconstitution_factor": 7,
+    "default_cv": 1,
+    "bootstrap_iterations": 200,
+    "pseudo_sample_cap": 500,
+    "references": [
+      "WHO/JECFA pooled TDS methodology",
+      "EFSA Scientific Opinion on Pb (2010, 2024)",
+      "EFSA Scientific Opinion on Cd (2009, 2024)",
+      "ATSDR moment-matching guidance",
+      "Codex CAC/GL 50-2004"
+    ]
+  }
+}

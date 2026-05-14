@@ -11,7 +11,7 @@ covers:
   - "Part 19 empirical override demonstrated: fruit-juices-non-apple iAs"
   - "Cat 5 fully gap-documented where Path A insufficient"
 covers_cycles: "11-20"
-related: "[[batch-reports/infant-and-child-overnight-2026-05-09]]"
+related: "[[batch-reports/infant-and-child-overnight-2026-05-09]]"noindex: true
 ---
 
 # HMTc Category 5 Beverages — Overnight Final Report — 2026-05-09 (cycles 11-20)

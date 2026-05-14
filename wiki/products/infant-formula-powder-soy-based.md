@@ -10,7 +10,6 @@ evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-hmtc_threshold_status: excluded_from_index_evidence
 label: "Infant formula, powder (soy-based)"
 base_taxonomy: infant-formula-powder
 variant_type: contamination_platform
@@ -61,7 +60,7 @@ This page is a structural scaffold for HMTc Category 1 row 2. Soy-specific powde
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>Threshold-selection arithmetic lives at <a href="/workbench/standards/infant-formula-powder-soy-based">/workbench/standards/infant-formula-powder-soy-based</a>, not on this public page.</dd>
+      <dd>Threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>

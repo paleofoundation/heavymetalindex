@@ -25,8 +25,13 @@ const summaryOutputPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_
 const args = parseArgs(process.argv.slice(2))
 const productFilter = args.get("product") ?? ""
 const includeQueueOnlyMetals = args.get("include-queue-only-metals") === "true"
+// Per CLAUDE.md Part 19, the dirty subcategory per-analyte standard is P45 of the
+// pooled distribution (heuristic uplift from raw P30 to deliver ~30% joint
+// row-pass under typical analyte correlation). The pooling engine
+// (tools/evidence/build-hmtc-aggregate-distributions.mjs) computes P45 from the
+// pooled distribution; per-source p45_ppb columns are not required.
 const dirtyStandardPercentile = normalizeDirtyStandardPercentile(
-  args.get("dirty-standard-percentile") ?? process.env.HMTC_DIRTY_STANDARD_PERCENTILE ?? "p10",
+  args.get("dirty-standard-percentile") ?? process.env.HMTC_DIRTY_STANDARD_PERCENTILE ?? "p45",
 )
 
 const productPages = readProductPages()
@@ -105,6 +110,10 @@ for (const productSlug of productSlugs) {
     )
 
     const loadedSourceIds = unique(loadedRows.map((row) => row.source_id).filter(Boolean))
+    // Distribution-capable: sources that report sample-level percentiles directly.
+    // This is now an informational count, not an admission gate. The pooling engine
+    // (tools/evidence/build-hmtc-aggregate-distributions.mjs) admits summary-only
+    // sources via moment-matching pseudo-sample expansion per CLAUDE.md Part 19.
     const distributionRows = percentileTarget.value_column
       ? loadedRows.filter((row) => hasValue(row[percentileTarget.value_column]))
       : []
@@ -115,8 +124,29 @@ for (const productSlug of productSlugs) {
         (hasValue(row.mean_ppb) ||
           hasValue(row.median_ppb) ||
           hasValue(row.max_ppb) ||
+          hasValue(row.mean_lb_ppb) ||
+          hasValue(row.mean_ub_ppb) ||
           hasValue(row.field_value_summary)),
     )
+    // Poolable: any row contributing usable statistic to the pool. This is the
+    // new admission rule. Sample-level, reported percentiles, mean, median, max,
+    // lb/ub means, and field-summary values all count.
+    const poolableRows = loadedRows.filter(
+      (row) =>
+        (percentileTarget.value_column && hasValue(row[percentileTarget.value_column])) ||
+        hasValue(row.p10_ppb) ||
+        hasValue(row.p50_ppb) ||
+        hasValue(row.p90_ppb) ||
+        hasValue(row.p95_ppb) ||
+        hasValue(row.p100_ppb) ||
+        hasValue(row.mean_ppb) ||
+        hasValue(row.median_ppb) ||
+        hasValue(row.max_ppb) ||
+        hasValue(row.mean_lb_ppb) ||
+        hasValue(row.mean_ub_ppb) ||
+        hasValue(row.field_value_summary),
+    )
+    const poolableSourceIds = unique(poolableRows.map((row) => row.source_id).filter(Boolean))
     const p0Rows = unresolvedPendingForMetal.filter(
       (row) => row.priority?.startsWith("P0") && row.local_pdf_status === "local_pdf_found",
     )
@@ -140,6 +170,7 @@ for (const productSlug of productSlugs) {
       loadedRows,
       loadedRelatedSpeciesRows,
       distributionSourceIds,
+      poolableSourceIds,
       p0Rows,
       p2Rows,
       p3Rows,
@@ -254,6 +285,7 @@ function aggregateStatus({
   loadedRows,
   loadedRelatedSpeciesRows,
   distributionSourceIds,
+  poolableSourceIds,
   p0Rows,
   p2Rows,
   p3Rows,
@@ -350,37 +382,40 @@ function aggregateStatus({
     }
   }
 
-  if (distributionSourceIds.length === 0 && summaryOnlyRows.length > 0) {
+  const poolableCount = poolableSourceIds?.length ?? distributionSourceIds.length
+  const sampleLevelCount = distributionSourceIds.length
+
+  if (poolableCount === 0) {
     return {
-      status: "BLOCKED: summary evidence only",
+      status: "BLOCKED: no poolable evidence",
       evidence_needed:
-        `Loaded rows support N/mean/median/max context, but aggregate ${percentileTarget.label} needs fit-source sample-level values admitted to a benchmark pool.${capText}`,
-      notes: "Do not require source-reported benchmark percentiles; calculate them only after sample-pool admission. Means/ranges do not create a pool by themselves.",
+        `Loaded rows have no statistic the pooling engine can consume (no sample-level percentiles, mean, median, max, or lb/ub). Add or route a source that reports at least one usable statistic.${capText}`,
+      notes: "Per CLAUDE.md Part 19, the pooling engine admits mean/median/max/lb-ub via moment-matching; this row has none.",
     }
   }
 
-  if (distributionSourceIds.length === 1) {
-    const extra = pendingLocalCount > 0 ? " Extract pending local sources before deciding." : ""
+  if (poolableCount === 1) {
+    const extra = pendingLocalCount > 0 ? " Process the local extraction backlog before pooling." : ""
     return {
-      status: `DO NOT PUBLISH ${percentileTarget.short_label}: single distribution-capable source`,
-      evidence_needed: `Aggregate HMTc ${percentileTarget.label} needs multiple fit sources, not one source-reported or reconstructed distribution.${extra}${capText}`,
+      status: `POOLING ENGINE PENDING: single poolable source`,
+      evidence_needed: `One poolable source for ${percentileTarget.label}; pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: ${sampleLevelCount}.${extra}${capText}`,
       notes: "A single source can remain loaded evidence, but it is not the HMTc aggregate threshold.",
     }
   }
 
-  if (distributionSourceIds.length > 1 && pendingLocalCount > 0) {
+  if (poolableCount >= 2 && pendingLocalCount > 0) {
     return {
-      status: "PENDING: aggregate math after local extraction",
-      evidence_needed: `Run aggregate math only after pending local fit-source rows are extracted and reviewed.${capText}`,
-      notes: `Multiple distribution-capable sources exist, but the local backlog may materially change the ${percentileTarget.label}.`,
+      status: "POOLING ENGINE PENDING: process local extraction backlog first",
+      evidence_needed: `${poolableCount} poolable sources (${sampleLevelCount} sample-level) loaded for ${percentileTarget.label}; pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine.${capText}`,
+      notes: `Multiple poolable sources exist; pooling engine (data/evidence/hmtc_aggregate_distributions.csv) will produce the candidate value once Phase 2 lands and the backlog clears.`,
     }
   }
 
-  if (distributionSourceIds.length > 1) {
+  if (poolableCount >= 2) {
     return {
-      status: "READY FOR AGGREGATE MATH REVIEW",
-      evidence_needed: `Review row fit, basis harmonization, censoring, and source weights before publishing an HMTc ${percentileTarget.label}.${capText}`,
-      notes: "This is a readiness flag, not a final standards value.",
+      status: "POOLING ENGINE PENDING: ready for pooling math",
+      evidence_needed: `${poolableCount} poolable sources (${sampleLevelCount} sample-level) loaded for ${percentileTarget.label}. Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band.${capText}`,
+      notes: "Per CLAUDE.md Part 19, summary-only sources contribute via moment-matching pseudo-sample expansion. This cell is queued for the pooling engine.",
     }
   }
 
@@ -539,43 +574,55 @@ function percentileTargetForProduct(product, productStandardScope) {
     }
   }
 
+  // Note: value_column here points to the per-source column the OLD admission
+  // filter used. The new pooling engine (Phase 2) admits sources via
+  // moment-matching from any usable statistic, not just this one column. The
+  // value_column is retained as informational (it counts sources reporting a
+  // sample-level percentile directly), not as an admission gate.
   const variantType = String(product.variant_type || "")
   if (variantType.includes("contamination_platform")) {
-    const statistic = `${dirtyStandardPercentile}_ppb`
-    const label = `contaminated-platform ${dirtyStandardPercentile.toUpperCase()}`
+    // Per CLAUDE.md Part 19: dirty per-analyte standard = pooled P45.
+    // The label reflects the heuristic uplift; the value_column still points
+    // at p10/p30/p20 (whichever was passed) only as a source-direct counter.
     return {
-      target: `dirty_${dirtyStandardPercentile}`,
-      statistic,
-      value_column: statistic,
-      label,
-      short_label: `DIRTY ${dirtyStandardPercentile.toUpperCase()}`,
+      target: "dirty_p45_pooled",
+      statistic: "pooled_p45_ppb",
+      value_column: `${dirtyStandardPercentile}_ppb`,
+      label: "dirty-subcategory pooled P45 (heuristic uplift from P30 per CLAUDE.md Part 19)",
+      short_label: "DIRTY P45 (POOLED)",
     }
   }
 
   if (variantType.includes("clean_benchmark")) {
+    // Per CLAUDE.md Part 19: clean per-analyte standard = pooled P97.
     return {
-      target: "clean_p90",
-      statistic: "p90_ppb",
+      target: "clean_p97_pooled",
+      statistic: "pooled_p97_ppb",
       value_column: "p90_ppb",
-      label: "clean-platform P90",
-      short_label: "CLEAN P90",
+      label: "clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19)",
+      short_label: "CLEAN P97 (POOLED)",
     }
   }
 
   return {
-    target: "independent_p90",
-    statistic: "p90_ppb",
+    target: "independent_p97_pooled",
+    statistic: "pooled_p97_ppb",
     value_column: "p90_ppb",
-    label: "independent-row P90",
-    short_label: "INDEPENDENT P90",
+    label: "independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19)",
+    short_label: "INDEPENDENT P97 (POOLED)",
   }
 }
 
 function normalizeDirtyStandardPercentile(value) {
   const normalized = String(value || "").trim().toLowerCase()
+  if (normalized === "p45" || normalized === "45") return "p45"
+  if (normalized === "p30" || normalized === "30") return "p30"
+  // p10 and p20 retained for backward compatibility with stale callers; the
+  // current methodology is p45 per CLAUDE.md Part 19. p10/p20 produce honest
+  // reports but the verdicts assume the pooling engine will compute P45.
   if (normalized === "p10" || normalized === "10") return "p10"
   if (normalized === "p20" || normalized === "20") return "p20"
-  throw new Error(`Unsupported dirty standards percentile: ${value}. Use p10 or p20.`)
+  throw new Error(`Unsupported dirty standards percentile: ${value}. Use p45 (current default per CLAUDE.md Part 19), p30, p20, or p10.`)
 }
 
 function lowestRegulatoryCap(rows) {

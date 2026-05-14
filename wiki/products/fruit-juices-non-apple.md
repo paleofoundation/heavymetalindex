@@ -14,7 +14,6 @@ applicable_regulations: [fda2022_draft_pb_other_juice_20, fda2004_juice_haccp_pb
 evidence_fitness: EF-3
 public_evidence_label: Path A thin (iAs grape-category bridge); approaching (Pb)
 review_state: phase3_part19
-hmtc_threshold_status: thin_iAs_dirty_p30_grape_bridge
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 5
@@ -49,7 +48,7 @@ This page is HMTc Category 5 row 1 from the locked beverage architecture. It exi
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/fruit-juices-non-apple">/workbench/standards/fruit-juices-non-apple</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>

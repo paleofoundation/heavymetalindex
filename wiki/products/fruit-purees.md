@@ -10,13 +10,12 @@ evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-hmtc_threshold_status: excluded_from_index_evidence
 label: "Fruit purees (general)"
 base_taxonomy: fruit-purees
 variant_type: independent_no_split
 provenance: base_taxonomy
 ingredient_targets: [fruit-purees, apple, pear, peach, banana]
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 vulnerable_population: infants-0-24mo
 applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
 cc_relationship:
@@ -57,7 +56,7 @@ This page is a structural scaffold for HMTc Category 1 row 7. Value-level struct
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/fruit-purees">/workbench/standards/fruit-purees</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>

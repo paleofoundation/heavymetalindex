@@ -10,7 +10,6 @@ evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-hmtc_threshold_status: excluded_from_index_evidence
 label: "Infant formula, powder (non-soy)"
 base_taxonomy: infant-formula-powder
 variant_type: clean_benchmark
@@ -77,7 +76,7 @@ This page is the public evidence page for powdered non-soy infant formula. It is
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/infant-formula-powder-non-soy">/workbench/standards/infant-formula-powder-non-soy</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>

@@ -1,13 +1,60 @@
 import { createReadStream } from "node:fs";
-import { readFile, readdir, stat } from "node:fs/promises";
+import {
+  readFile,
+  readdir,
+  stat,
+  appendFile,
+  mkdir,
+  writeFile,
+} from "node:fs/promises";
 import http from "node:http";
-import { extname, join, normalize, resolve } from "node:path";
+import { dirname, extname, join, normalize, resolve } from "node:path";
 import matter from "gray-matter";
 
 const repoRoot = resolve(".");
 const publicRoot = resolve("tools/standards-workbench/public");
 const port = Number(process.env.HMI_WORKBENCH_PORT ?? 8090);
 const host = process.env.HMI_WORKBENCH_HOST ?? "127.0.0.1";
+
+const decisionStagingPath = resolve(
+  repoRoot,
+  "data/evidence/standards_decision_staging.jsonl",
+);
+const adjudicationStagingPath = resolve(
+  repoRoot,
+  "data/evidence/validation_adjudications.jsonl",
+);
+
+const RATIONALE_TAGS = new Set([
+  "precautionary",
+  "market-ratcheting",
+  "feasibility-driven",
+  "regulatory-alignment",
+  "literature-baseline",
+]);
+
+const DECISION_ACTIONS = new Set([
+  "approve",
+  "reject",
+  "defer",
+  "downgrade-to-data-gap",
+]);
+
+const ADJUDICATION_STATUSES = new Set([
+  "adjudicated",
+  "dismissed",
+  "escalated",
+  "resolved",
+]);
+
+const METHODOLOGY_NOTE = {
+  severity: "policy-contradiction",
+  title: "Dirty-subcategory statistic: p10 vs p30 is unresolved across the docs",
+  detail:
+    "CLAUDE.md Part 19 says the dirty subcategory standard is p30 (explicitly superseding earlier p10/p20 defaults). docs/governance/hmtc-governing-principles.md v1.2 and AGENTS.md still say p10 by default (p20 if selected). The gap-report CSV uses dirty_p10. The workbench snapshot's prose says p30 but its columns show p10/p50/p90/p95/p100. This workbench shows BOTH values per dirty cell so the contradiction is visible at decision time; Karen owns the resolution per OPERATING.md Part 4.",
+  action:
+    "Karen: pick a winner. Update docs/governance/hmtc-governing-principles.md and AGENTS.md to match CLAUDE.md, or update CLAUDE.md Part 19 to match the rest. The snapshot generator also needs a p30 column if p30 wins.",
+};
 
 const mimeTypes = {
   ".css": "text/css; charset=utf-8",
@@ -21,15 +68,40 @@ const server = http.createServer(async (request, response) => {
   try {
     const url = new URL(request.url ?? "/", `http://${request.headers.host}`);
 
-    if (url.pathname === "/api/context") {
+    if (url.pathname === "/api/context" && request.method === "GET") {
       const context = await buildWorkbenchContext();
       sendJson(response, context);
       return;
     }
 
+    if (url.pathname === "/api/decisions" && request.method === "POST") {
+      const payload = await readJsonBody(request);
+      const record = await stageDecision(payload);
+      sendJson(response, { ok: true, record });
+      return;
+    }
+
+    if (url.pathname === "/api/adjudications" && request.method === "POST") {
+      const payload = await readJsonBody(request);
+      const record = await stageAdjudication(payload);
+      sendJson(response, { ok: true, record });
+      return;
+    }
+
+    if (
+      url.pathname === "/api/decisions/commit" &&
+      request.method === "POST"
+    ) {
+      const payload = await readJsonBody(request);
+      const result = await promoteStagedDecisions(payload);
+      sendJson(response, { ok: true, ...result });
+      return;
+    }
+
     await serveStatic(url.pathname, response);
   } catch (error) {
-    response.writeHead(500, { "content-type": "text/plain; charset=utf-8" });
+    const status = error?.statusCode ?? 500;
+    response.writeHead(status, { "content-type": "text/plain; charset=utf-8" });
     response.end(
       error instanceof Error ? error.message : "Internal workbench error",
     );
@@ -81,6 +153,11 @@ async function buildWorkbenchContext() {
     registerRows,
     standardsRows,
     regulationRows,
+    gapRows,
+    actionRows,
+    pooledRows,
+    decisionStagingLog,
+    adjudicationStagingLog,
   ] = await Promise.all([
     readProductRows(),
     readCsvFile("data/evidence/category1_formula_concentration_summary.csv"),
@@ -88,10 +165,26 @@ async function buildWorkbenchContext() {
     readOptionalCsvFile("data/evidence/category1_register.csv"),
     readOptionalCsvFile("data/evidence/category1_standards_decisions.csv"),
     readRegulationRows(),
+    readOptionalCsvFile("data/evidence/hmtc_standards_gap_report.csv"),
+    readOptionalCsvFile("data/evidence/hmtc_standards_action_queue.csv"),
+    readOptionalCsvFile("data/evidence/hmtc_aggregate_distributions.csv"),
+    readJsonlFile(decisionStagingPath),
+    readJsonlFile(adjudicationStagingPath),
   ]);
   const sourceTitleCache = new Map();
   const registerMap = keyByCell(registerRows);
   const standardsMap = keyByCell(standardsRows);
+  const gapMap = keyByGapRow(gapRows);
+  const actionMap = keyByActionRow(actionRows);
+  const pooledMap = keyByPooledRow(pooledRows);
+  const stagedDecisionsByCell = groupStagedRecords(
+    decisionStagingLog,
+    (record) => `${record.row_slug}::${record.metal}`,
+  );
+  const stagedAdjudicationsByFinding = groupStagedRecords(
+    adjudicationStagingLog,
+    (record) => record.finding_id,
+  );
   const cells = [];
 
   for (const row of products) {
@@ -106,11 +199,22 @@ async function buildWorkbenchContext() {
           registerMap,
           standardsMap,
           regulationRows,
+          gapMap,
+          actionMap,
+          pooledMap,
+          stagedDecisionsByCell,
           sourceTitleCache,
         ),
       );
     }
   }
+
+  const validation = buildValidationReport({
+    cells,
+    products,
+    regulationRows,
+    stagedAdjudicationsByFinding,
+  });
 
   const totals = {
     rows: products.length,
@@ -120,18 +224,25 @@ async function buildWorkbenchContext() {
     review: cells.filter((cell) => cell.status === "review").length,
     pathB: cells.filter((cell) => cell.status === "path-b").length,
     missing: cells.filter((cell) => cell.status === "missing").length,
+    staged_decisions: decisionStagingLog.length,
+    staged_adjudications: adjudicationStagingLog.length,
   };
-  const validation = buildValidationReport({ cells, products, regulationRows });
 
   return {
     generated_at: new Date().toISOString(),
     privacy: "local-only; not part of the public Quartz build",
+    methodology_note: METHODOLOGY_NOTE,
     totals,
     validation,
     rows: products,
     regulations: regulationRows,
     cells,
     finalized_decisions: standardsRows.map(normalizeStandardDecision),
+    decisions_log: [...decisionStagingLog].reverse().slice(0, 50),
+    adjudications_log: [...adjudicationStagingLog].reverse().slice(0, 50),
+    rationale_tags: [...RATIONALE_TAGS],
+    decision_actions: [...DECISION_ACTIONS],
+    adjudication_statuses: [...ADJUDICATION_STATUSES],
   };
 }
 
@@ -232,6 +343,10 @@ async function buildCell(
   registerMap,
   standardsMap,
   regulationRows,
+  gapMap,
+  actionMap,
+  pooledMap,
+  stagedDecisionsByCell,
   sourceTitleCache,
 ) {
   const rowRecords = concentrationRows.filter(
@@ -273,18 +388,38 @@ async function buildCell(
   const rawSamples = sampleRows.filter(
     (sample) => sample.row_slug === row.slug && sample.metal_species === metal,
   );
+  const dirtySamples = relationship.dirtySlug
+    ? sampleRows.filter(
+        (sample) =>
+          sample.row_slug === relationship.dirtySlug &&
+          sample.metal_species === metal,
+      )
+    : [];
+  const ownSamplePercentiles = computeSamplePercentiles(rawSamples);
+  const dirtySamplePercentiles = computeSamplePercentiles(dirtySamples);
   const register = normalizeRegisterCell(
     registerMap.get(cellKey(row.slug, metal)),
   );
   const finalized = normalizeStandardDecision(
     standardsMap.get(cellKey(row.slug, metal)),
   );
+  const stagedDecisions = stagedDecisionsByCell.get(cellKey(row.slug, metal)) ?? [];
+  const latestStagedDecision =
+    stagedDecisions.length > 0
+      ? stagedDecisions[stagedDecisions.length - 1]
+      : null;
+  const gapRow = gapMap.get(cellKey(row.slug, metal)) ?? null;
+  const actionRow = actionMap.get(cellKey(row.slug, metal)) ?? null;
+  const pooledRow = pooledMap?.get(cellKey(row.slug, metal)) ?? null;
+  const readiness = readinessFor(row, metal, gapRow, actionRow);
+  const pooled = poolingResult(pooledRow);
   const comparatorContext = comparatorFor(
     row,
     products,
     relationship,
     cleanRecord,
     dirtyRecord,
+    dirtySamplePercentiles,
   );
   const regulatoryGuardrail = regulatoryGuardrailFor(
     row,
@@ -303,7 +438,7 @@ async function buildCell(
     rawSamples,
     regulatoryGuardrail,
   );
-  const status = statusFor(rowRecords, selected, blockers, finalized);
+  const status = statusFor(rowRecords, selected, blockers, finalized, pooled);
   const sourceRows = await Promise.all(
     rowRecords.slice(0, 8).map(async (record) => ({
       source_id: record.source_id,
@@ -341,6 +476,8 @@ async function buildCell(
     row_title: row.title,
     hmtc_row: row.hmtc_row,
     category_label: row.category_label,
+    variant_type: row.variant_type ?? "",
+    within_pair_role: withinPairRole(row.variant_type),
     metal,
     status,
     status_label: statusLabel(status),
@@ -371,7 +508,9 @@ async function buildCell(
     },
     row_percentiles: {
       p10: rowP10Record ? numberOrNull(rowP10Record.p10_ppb) : null,
+      p30: ownSamplePercentiles?.p30 ?? null,
       p90: rowP90Record ? numberOrNull(rowP90Record.p90_ppb) : null,
+      p30_source: ownSamplePercentiles ? "sample-level (workbench-computed)" : null,
       unit: rowP90Record?.unit ?? rowP10Record?.unit ?? "ppb",
       basis: rowP90Record?.basis ?? rowP10Record?.basis ?? null,
     },
@@ -389,11 +528,27 @@ async function buildCell(
     dirty_context: {
       slug: relationship.dirtySlug ?? null,
       p10: dirtyRecord ? numberOrNull(dirtyRecord.p10_ppb) : null,
+      p30: dirtySamplePercentiles?.p30 ?? null,
+      p30_source: dirtySamplePercentiles
+        ? "sample-level (workbench-computed)"
+        : null,
+      p30_n: dirtySamplePercentiles?.n ?? null,
       basis: dirtyRecord?.basis ?? null,
       unit: dirtyRecord?.unit ?? "ppb",
       source_id: dirtyRecord?.source_id ?? null,
-      separation: separation(cleanRecord, dirtyRecord),
+      separation_p10: separation(cleanRecord, dirtyRecord),
+      separation_p30: separationP30(cleanRecord, dirtySamplePercentiles),
+      methodology_note_ref: "see methodology_note at top-level",
     },
+    readiness,
+    pooled,
+    // Standards arithmetic snapshots live in data/workbench/standards/ per
+    // CLAUDE.md Part 19; they are not served by Quartz. The snapshot_path is
+    // a filesystem path the workbench UI can offer for copy/paste; there is
+    // no public URL.
+    snapshot_path: `data/workbench/standards/${row.slug}.md`,
+    staged_decision: latestStagedDecision,
+    staged_decision_count: stagedDecisions.length,
     path_b: {
       formula:
         "Path B fallback = method-specific LOQ x 5 for the analyte and matrix.",
@@ -422,7 +577,12 @@ async function buildCell(
   };
 }
 
-function buildValidationReport({ cells, products, regulationRows }) {
+function buildValidationReport({
+  cells,
+  products,
+  regulationRows,
+  stagedAdjudicationsByFinding,
+}) {
   const findings = [];
   const regulationIds = new Set(
     regulationRows.flatMap((regulation) =>
@@ -683,14 +843,42 @@ function buildValidationReport({ cells, products, regulationRows }) {
       a.category.localeCompare(b.category),
   );
 
+  for (const finding of findings) {
+    finding.id = findingId(finding);
+    const staged =
+      stagedAdjudicationsByFinding?.get(finding.id) ?? [];
+    finding.adjudications = staged;
+    const latest = staged.length > 0 ? staged[staged.length - 1] : null;
+    finding.adjudication_status = latest?.status ?? "open";
+    finding.adjudication_note = latest?.note ?? "";
+    finding.adjudication_actor = latest?.actor ?? null;
+    finding.adjudication_recorded_at = latest?.recorded_at ?? null;
+  }
+
+  const openFindings = findings.filter(
+    (finding) => finding.adjudication_status === "open",
+  );
+
   return {
     summary: {
-      critical: findings.filter((finding) => finding.severity === "critical")
-        .length,
-      warning: findings.filter((finding) => finding.severity === "warning")
-        .length,
-      notice: findings.filter((finding) => finding.severity === "notice")
-        .length,
+      critical: findings.filter(
+        (finding) =>
+          finding.severity === "critical" &&
+          finding.adjudication_status === "open",
+      ).length,
+      warning: findings.filter(
+        (finding) =>
+          finding.severity === "warning" &&
+          finding.adjudication_status === "open",
+      ).length,
+      notice: findings.filter(
+        (finding) =>
+          finding.severity === "notice" &&
+          finding.adjudication_status === "open",
+      ).length,
+      open_total: openFindings.length,
+      adjudicated_total: findings.length - openFindings.length,
+      all_total: findings.length,
       checked_cells: cells.length,
       cells_with_linked_concentration_ceiling: cells.filter(
         (cell) => cell.regulatory_guardrail?.ceiling_value !== null,
@@ -710,6 +898,35 @@ function buildValidationReport({ cells, products, regulationRows }) {
     acceptance_rule:
       "A row-metal finding is standards-ready only after critical findings are zero, warnings are explicitly adjudicated, and source/regulatory traceability has human sign-off.",
   };
+}
+
+function findingId(finding) {
+  const detailHash = shortHash(finding.detail ?? "");
+  return [
+    finding.severity,
+    finding.category,
+    finding.cell_id ?? finding.row_title ?? "row",
+    finding.metal ?? "n",
+    finding.title,
+    detailHash,
+  ]
+    .map((value) =>
+      String(value ?? "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, ""),
+    )
+    .join("::")
+    .slice(0, 256);
+}
+
+function shortHash(input) {
+  let hash = 5381;
+  const text = String(input ?? "");
+  for (let index = 0; index < text.length; index += 1) {
+    hash = (hash * 33) ^ text.charCodeAt(index);
+  }
+  return (hash >>> 0).toString(36);
 }
 
 function chooseBestRecord(records) {
@@ -768,7 +985,14 @@ function standardBasisFor(row) {
   };
 }
 
-function comparatorFor(row, products, relationship, cleanRecord, dirtyRecord) {
+function comparatorFor(
+  row,
+  products,
+  relationship,
+  cleanRecord,
+  dirtyRecord,
+  dirtySamplePercentiles,
+) {
   const cleanRow = products.find(
     (product) => product.slug === relationship.cleanSlug,
   );
@@ -776,19 +1000,27 @@ function comparatorFor(row, products, relationship, cleanRecord, dirtyRecord) {
     (product) => product.slug === relationship.dirtySlug,
   );
   const separationValue = separation(cleanRecord, dirtyRecord);
+  const separationP30Value = separationP30(cleanRecord, dirtySamplePercentiles);
 
   if (row.variant_type.includes("clean_benchmark") && relationship.dirtySlug) {
     return {
-      label: "Paired dirty category p10",
+      label: "Paired dirty category (p10 + p30)",
       slug: relationship.dirtySlug,
       row_title: dirtyRow?.title ?? relationship.dirtySlug,
-      statistic: "p10",
+      statistic: "p10 / p30",
       value: dirtyRecord ? numberOrNull(dirtyRecord.p10_ppb) : null,
+      p10: dirtyRecord ? numberOrNull(dirtyRecord.p10_ppb) : null,
+      p30: dirtySamplePercentiles?.p30 ?? null,
+      p30_source: dirtySamplePercentiles
+        ? "sample-level (workbench-computed)"
+        : null,
+      p30_n: dirtySamplePercentiles?.n ?? null,
       basis: dirtyRecord?.basis ?? null,
       unit: dirtyRecord?.unit ?? "ppb",
       source_id: dirtyRecord?.source_id ?? null,
       separation: separationValue,
-      note: "Comparator context only; this clean row is not assigned a dirty p10.",
+      separation_p30: separationP30Value,
+      note: "Both dirty statistics are shown because the docs disagree: AGENTS.md and Governing Principles say p10/p20; CLAUDE.md Part 19 says p30. Karen owns the resolution.",
     };
   }
 
@@ -802,11 +1034,14 @@ function comparatorFor(row, products, relationship, cleanRecord, dirtyRecord) {
       row_title: cleanRow?.title ?? relationship.cleanSlug,
       statistic: "p90",
       value: cleanRecord ? numberOrNull(cleanRecord.p90_ppb) : null,
+      p10: null,
+      p30: null,
       basis: cleanRecord?.basis ?? null,
       unit: cleanRecord?.unit ?? "ppb",
       source_id: cleanRecord?.source_id ?? null,
       separation: separationValue,
-      note: "Comparator context only; this dirty row standard is based on its own p10.",
+      separation_p30: separationP30Value,
+      note: "This dirty row's standard is its own p10 or p30 (docs disagree). The clean row's p90 is shown only as separation context.",
     };
   }
 
@@ -816,10 +1051,13 @@ function comparatorFor(row, products, relationship, cleanRecord, dirtyRecord) {
     row_title: null,
     statistic: null,
     value: null,
+    p10: null,
+    p30: null,
     basis: null,
     unit: "ppb",
     source_id: null,
     separation: null,
+    separation_p30: null,
     note: "No paired clean/dirty category is defined for this row.",
   };
 }
@@ -1172,9 +1410,21 @@ function blockersFor(
   return blockers;
 }
 
-function statusFor(records, selected, blockers, finalized) {
+function statusFor(records, selected, blockers, finalized, pooled) {
+  // Finalized (in canonical CSV) always wins.
   if (finalized?.standard_status === "finalized") return "finalized";
   if (finalized?.standard_status === "approved") return "finalized";
+
+  // Pooled engine verdict takes priority when present. The legacy
+  // chooseBestRecord path is a fallback only.
+  if (pooled?.verdict) {
+    if (pooled.verdict.startsWith("READY")) return "candidate";
+    if (pooled.verdict.startsWith("PROVISIONAL")) return "review";
+    if (pooled.verdict.startsWith("BLOCKED: no usable")) return "missing";
+    if (pooled.verdict.startsWith("BLOCKED: pool too thin")) return "review";
+    if (pooled.verdict.startsWith("BLOCKED: sensitivity")) return "review";
+  }
+
   if (records.length === 0) return "missing";
   if (!selected) return "path-b";
   if (blockers.length > 0) return "review";
@@ -1184,7 +1434,7 @@ function statusFor(records, selected, blockers, finalized) {
 function statusLabel(status) {
   return {
     finalized: "Finalized",
-    candidate: "Candidate-ready",
+    candidate: "Ready for review",
     review: "Needs review",
     "path-b": "Path B likely",
     missing: "Evidence missing",
@@ -1447,4 +1697,533 @@ function fitRank(value) {
 function efRank(value) {
   const match = String(value ?? "").match(/EF-(\d+)/);
   return match ? Number(match[1]) : 99;
+}
+
+function withinPairRole(variantType) {
+  const text = String(variantType ?? "");
+  if (text.includes("clean_benchmark")) return "clean (within-pair)";
+  if (text.includes("contamination_platform")) return "dirty (within-pair)";
+  return "independent (no pair)";
+}
+
+function computeSamplePercentiles(samples) {
+  if (!Array.isArray(samples) || samples.length === 0) return null;
+  const values = samples
+    .map((sample) =>
+      numberOrNull(sample.numeric_lower_bound_ppb ?? sample.value_ppb),
+    )
+    .filter((value) => value !== null)
+    .sort((a, b) => a - b);
+  if (values.length === 0) return null;
+  return {
+    n: values.length,
+    p10: percentile(values, 0.1),
+    p30: percentile(values, 0.3),
+    p50: percentile(values, 0.5),
+    p90: percentile(values, 0.9),
+    p95: percentile(values, 0.95),
+    p100: values[values.length - 1],
+  };
+}
+
+function percentile(sortedValues, p) {
+  if (!sortedValues.length) return null;
+  if (sortedValues.length === 1) return sortedValues[0];
+  const index = p * (sortedValues.length - 1);
+  const lower = Math.floor(index);
+  const upper = Math.ceil(index);
+  if (lower === upper) return Number(sortedValues[lower].toFixed(4));
+  const weight = index - lower;
+  const interpolated =
+    sortedValues[lower] * (1 - weight) + sortedValues[upper] * weight;
+  return Number(interpolated.toFixed(4));
+}
+
+function separationP30(cleanRecord, dirtySamplePercentiles) {
+  const cleanP90 = numberOrNull(cleanRecord?.p90_ppb);
+  const dirtyP30 = dirtySamplePercentiles?.p30 ?? null;
+  if (cleanP90 === null || dirtyP30 === null) return null;
+  return {
+    clean_p90: cleanP90,
+    dirty_p30: dirtyP30,
+    margin: Number((dirtyP30 - cleanP90).toFixed(4)),
+    ratio: cleanP90 === 0 ? null : Number((dirtyP30 / cleanP90).toFixed(3)),
+    separated: dirtyP30 > cleanP90,
+  };
+}
+
+function readinessFor(row, metal, gapRow, actionRow) {
+  if (!gapRow && !actionRow) {
+    return {
+      status: "no_gap_report",
+      label: "No gap report row found",
+      n_a_tier: null,
+      lowest_regulatory_cap_ppb: null,
+      lowest_regulatory_cap_source: null,
+      regulatory_reference_status: null,
+      aggregate_status: null,
+      hmtc_standard_percentile_target: null,
+      evidence_needed: null,
+      next_step: null,
+      suggested_command: null,
+      action_priority: null,
+      action_type: null,
+      papers_to_find: null,
+      local_papers_to_extract: null,
+      candidate_pdf_matches_to_review: null,
+      tds_product_route_foods: null,
+      notes: null,
+    };
+  }
+  return {
+    status: "loaded",
+    label: deriveReadinessLabel(gapRow, actionRow),
+    n_a_tier:
+      numberOrNull(gapRow?.distribution_capable_source_count) ??
+      numberOrNull(gapRow?.loaded_source_count),
+    loaded_source_count: numberOrNull(gapRow?.loaded_source_count),
+    distribution_capable_source_count: numberOrNull(
+      gapRow?.distribution_capable_source_count,
+    ),
+    summary_or_range_source_count: numberOrNull(
+      gapRow?.summary_or_range_source_count,
+    ),
+    pending_local_extract_source_count: numberOrNull(
+      gapRow?.pending_local_extract_source_count,
+    ),
+    candidate_pdf_match_count: numberOrNull(gapRow?.candidate_pdf_match_count),
+    missing_pdf_count: numberOrNull(gapRow?.missing_pdf_count),
+    local_candidate_value_count: numberOrNull(
+      gapRow?.local_candidate_value_count,
+    ),
+    lowest_regulatory_cap_ppb: numberOrNull(gapRow?.lowest_regulatory_cap_ug_kg),
+    lowest_regulatory_cap_source: gapRow?.lowest_regulatory_cap_source || null,
+    regulatory_reference_status: gapRow?.regulatory_reference_status || null,
+    aggregate_status: gapRow?.aggregate_hmtc_percentile_status || null,
+    hmtc_standard_percentile_target: gapRow?.hmtc_standard_percentile_target || null,
+    evidence_needed: gapRow?.evidence_needed || null,
+    next_step: actionRow?.next_step || null,
+    suggested_command: actionRow?.suggested_command || null,
+    action_priority: actionRow?.action_priority || null,
+    action_type: actionRow?.action_type || null,
+    papers_to_find: gapRow?.papers_to_find || null,
+    local_papers_to_extract: gapRow?.local_papers_to_extract || null,
+    candidate_pdf_matches_to_review: gapRow?.candidate_pdf_matches_to_review || null,
+    tds_product_route_foods: gapRow?.tds_product_route_foods || null,
+    notes: gapRow?.notes || actionRow?.notes || null,
+    guardrails: actionRow?.guardrails || null,
+  };
+}
+
+function deriveReadinessLabel(gapRow, actionRow) {
+  const aggregate = gapRow?.aggregate_hmtc_percentile_status || "";
+  if (aggregate.startsWith("DO NOT PUBLISH")) return "Hold — not standards-ready";
+  if (aggregate.startsWith("BLOCKED")) return "Blocked";
+  if (aggregate.includes("readiness bar")) return "At or near readiness bar";
+  if (actionRow?.action_priority?.startsWith("P1")) return "Priority gap (P1)";
+  if (actionRow?.action_priority?.startsWith("P2")) return "Priority gap (P2)";
+  if (actionRow?.action_priority) return `Action priority ${actionRow.action_priority}`;
+  if (aggregate) return aggregate.slice(0, 80);
+  return "Loaded (no escalation)";
+}
+
+function keyByGapRow(rows) {
+  const map = new Map();
+  for (const row of rows ?? []) {
+    if (row.product_slug && row.metal_species) {
+      map.set(cellKey(row.product_slug, row.metal_species), row);
+    }
+  }
+  return map;
+}
+
+function keyByPooledRow(rows) {
+  const map = new Map();
+  for (const row of rows ?? []) {
+    if (row.product_slug && row.metal_species) {
+      map.set(cellKey(row.product_slug, row.metal_species), row);
+    }
+  }
+  return map;
+}
+
+function poolingResult(row) {
+  if (!row) return null;
+  const numericOrNull = (k) => {
+    const value = row[k];
+    if (value === null || value === undefined || value === "") return null;
+    const n = Number(value);
+    return Number.isFinite(n) ? n : null;
+  };
+  let contributionLog = [];
+  if (row.contribution_log) {
+    try {
+      contributionLog = JSON.parse(row.contribution_log);
+    } catch {
+      contributionLog = [];
+    }
+  }
+  return {
+    product_slug: row.product_slug,
+    metal_species: row.metal_species,
+    target_label: row.target_label,
+    target_p: numericOrNull("target_p"),
+    role: row.role,
+    native_basis: row.native_basis,
+    sources_loaded: numericOrNull("sources_loaded"),
+    sources_contributing: numericOrNull("sources_contributing"),
+    sample_level_contributing: numericOrNull("sample_level_contributing"),
+    pooled_n: numericOrNull("pooled_n"),
+    median_source_n: numericOrNull("median_source_n"),
+    cap_n: numericOrNull("cap_n"),
+    pooled_p10: numericOrNull("pooled_p10"),
+    pooled_p30: numericOrNull("pooled_p30"),
+    pooled_p45: numericOrNull("pooled_p45"),
+    pooled_p50: numericOrNull("pooled_p50"),
+    pooled_p90: numericOrNull("pooled_p90"),
+    pooled_p95: numericOrNull("pooled_p95"),
+    pooled_p97: numericOrNull("pooled_p97"),
+    pooled_p100: numericOrNull("pooled_p100"),
+    target_value: numericOrNull("target_value"),
+    target_ci_lo: numericOrNull("target_ci_lo"),
+    target_ci_hi: numericOrNull("target_ci_hi"),
+    sens_lognormal: numericOrNull("sens_lognormal"),
+    sens_gamma: numericOrNull("sens_gamma"),
+    sens_nonparametric: numericOrNull("sens_nonparametric"),
+    sens_spread: numericOrNull("sens_spread"),
+    sens_band: row.sens_band || null,
+    lowest_regulatory_cap_ppb: numericOrNull("lowest_regulatory_cap_ppb"),
+    lowest_regulatory_cap_source: row.lowest_regulatory_cap_source || null,
+    candidate_value_ppb: numericOrNull("candidate_value_ppb"),
+    rationale_tag_auto: row.rationale_tag_auto || null,
+    verdict: row.verdict || null,
+    contribution_log: contributionLog,
+  };
+}
+
+function keyByActionRow(rows) {
+  const map = new Map();
+  for (const row of rows ?? []) {
+    if (row.product_slug && row.metal_species) {
+      const key = cellKey(row.product_slug, row.metal_species);
+      const existing = map.get(key);
+      const order = numberOrNull(row.action_order) ?? Number.MAX_SAFE_INTEGER;
+      const existingOrder =
+        numberOrNull(existing?.action_order) ?? Number.MAX_SAFE_INTEGER;
+      if (!existing || order < existingOrder) map.set(key, row);
+    }
+  }
+  return map;
+}
+
+function groupStagedRecords(records, keyer) {
+  const map = new Map();
+  for (const record of records ?? []) {
+    const key = keyer(record);
+    if (!key) continue;
+    const list = map.get(key) ?? [];
+    list.push(record);
+    map.set(key, list);
+  }
+  return map;
+}
+
+async function readJsonlFile(path) {
+  try {
+    const content = await readFile(path, "utf8");
+    const lines = content.split(/\r?\n/).filter((line) => line.trim().length);
+    const records = [];
+    for (const line of lines) {
+      try {
+        records.push(JSON.parse(line));
+      } catch {
+        // Skip malformed lines silently; the staging file is append-only
+        // and an interrupted write can leave a partial line.
+      }
+    }
+    return records;
+  } catch (error) {
+    if (error?.code === "ENOENT") return [];
+    throw error;
+  }
+}
+
+async function readJsonBody(request) {
+  return new Promise((resolvePromise, reject) => {
+    const chunks = [];
+    let totalLength = 0;
+    request.on("data", (chunk) => {
+      chunks.push(chunk);
+      totalLength += chunk.length;
+      if (totalLength > 256 * 1024) {
+        reject(httpError(413, "Request body too large"));
+        request.destroy();
+      }
+    });
+    request.on("end", () => {
+      try {
+        const body = Buffer.concat(chunks).toString("utf8");
+        if (!body.trim()) return resolvePromise({});
+        resolvePromise(JSON.parse(body));
+      } catch (error) {
+        reject(httpError(400, `Invalid JSON body: ${error.message}`));
+      }
+    });
+    request.on("error", reject);
+  });
+}
+
+function httpError(statusCode, message) {
+  const error = new Error(message);
+  error.statusCode = statusCode;
+  return error;
+}
+
+async function stageDecision(payload) {
+  const rowSlug = String(payload?.row_slug ?? "").trim();
+  const metal = String(payload?.metal ?? "").trim();
+  const action = String(payload?.action ?? "").trim();
+  const finalValuePpb = numberOrNull(payload?.final_value_ppb);
+  const basis = String(payload?.basis ?? "").trim();
+  const rationaleTag = String(payload?.rationale_tag ?? "").trim();
+  const sourceIds = Array.isArray(payload?.source_ids)
+    ? payload.source_ids.map((value) => String(value).trim()).filter(Boolean)
+    : [];
+  const note = String(payload?.note ?? "").trim();
+  const actor = String(payload?.actor ?? "Karen").trim();
+
+  if (!rowSlug || !metal) throw httpError(400, "row_slug and metal required");
+  if (!DECISION_ACTIONS.has(action))
+    throw httpError(400, `Unknown decision action: ${action}`);
+  if (rationaleTag && !RATIONALE_TAGS.has(rationaleTag))
+    throw httpError(
+      400,
+      `Unknown rationale tag: ${rationaleTag}. Use one of ${[...RATIONALE_TAGS].join(", ")} or leave blank.`,
+    );
+
+  const record = {
+    record_type: "decision",
+    recorded_at: new Date().toISOString(),
+    row_slug: rowSlug,
+    metal,
+    action,
+    final_value_ppb: finalValuePpb,
+    basis: basis || null,
+    rationale_tag: rationaleTag || null,
+    source_ids: sourceIds,
+    note,
+    actor,
+    staging_only: true,
+  };
+  await appendStagingRecord(decisionStagingPath, record);
+  return record;
+}
+
+async function stageAdjudication(payload) {
+  const findingIdInput = String(payload?.finding_id ?? "").trim();
+  const status = String(payload?.status ?? "").trim();
+  const note = String(payload?.note ?? "").trim();
+  const actor = String(payload?.actor ?? "Karen").trim();
+
+  if (!findingIdInput) throw httpError(400, "finding_id required");
+  if (!ADJUDICATION_STATUSES.has(status))
+    throw httpError(
+      400,
+      `Unknown status: ${status}. Use one of ${[...ADJUDICATION_STATUSES].join(", ")}.`,
+    );
+
+  const record = {
+    record_type: "adjudication",
+    recorded_at: new Date().toISOString(),
+    finding_id: findingIdInput,
+    status,
+    note,
+    actor,
+    cell_id: payload?.cell_id ? String(payload.cell_id) : null,
+    severity: payload?.severity ? String(payload.severity) : null,
+    category: payload?.category ? String(payload.category) : null,
+    title: payload?.title ? String(payload.title) : null,
+    staging_only: true,
+  };
+  await appendStagingRecord(adjudicationStagingPath, record);
+  return record;
+}
+
+async function appendStagingRecord(path, record) {
+  await mkdir(dirname(path), { recursive: true });
+  await appendFile(path, `${JSON.stringify(record)}\n`, "utf8");
+}
+
+const CANONICAL_STANDARDS_CSV = resolve(
+  repoRoot,
+  "data/evidence/category1_standards_decisions.csv",
+);
+const CANONICAL_STANDARDS_HEADERS = [
+  "category_id",
+  "row_id",
+  "row_slug",
+  "row_label",
+  "metal_species",
+  "standard_status",
+  "final_standard_ppb",
+  "unit",
+  "basis",
+  "standard_basis",
+  "standard_path",
+  "approved_by",
+  "approved_date",
+  "source_ids",
+  "notes",
+];
+
+async function promoteStagedDecisions(payload) {
+  const staged = await readJsonlFile(decisionStagingPath);
+  if (staged.length === 0) {
+    return {
+      committed_count: 0,
+      message: "No staged decisions to promote.",
+      canonical_path: relativeToRepo(CANONICAL_STANDARDS_CSV),
+    };
+  }
+
+  const dryRun = Boolean(payload?.dry_run);
+  const latestByCell = new Map();
+  for (const record of staged) {
+    if (!record.row_slug || !record.metal) continue;
+    if (record.record_type !== "decision") continue;
+    if (record.staging_committed_at) continue;
+    const key = cellKey(record.row_slug, record.metal);
+    const existing = latestByCell.get(key);
+    if (!existing || record.recorded_at > existing.recorded_at)
+      latestByCell.set(key, record);
+  }
+  if (latestByCell.size === 0) {
+    return {
+      committed_count: 0,
+      message:
+        "Staging file has records but none are uncommitted decisions. (Already promoted, or only adjudication markers.)",
+      canonical_path: relativeToRepo(CANONICAL_STANDARDS_CSV),
+    };
+  }
+
+  const productLookup = await buildProductLookup();
+  const existingCsv = await readOptionalCsvFile(
+    "data/evidence/category1_standards_decisions.csv",
+  );
+  const rowsByCell = new Map();
+  for (const row of existingCsv) {
+    if (row.row_slug && row.metal_species) {
+      rowsByCell.set(cellKey(row.row_slug, row.metal_species), row);
+    }
+  }
+
+  const committed = [];
+  for (const staged of latestByCell.values()) {
+    const key = cellKey(staged.row_slug, staged.metal);
+    const product = productLookup.get(staged.row_slug);
+    const existingRow = rowsByCell.get(key) ?? {};
+    const row = {
+      category_id: existingRow.category_id || "hmtc-category-1",
+      row_id: existingRow.row_id || product?.row_id || "",
+      row_slug: staged.row_slug,
+      row_label:
+        existingRow.row_label || product?.label || product?.title || staged.row_slug,
+      metal_species: staged.metal,
+      standard_status: mapActionToStatus(staged.action),
+      final_standard_ppb:
+        staged.final_value_ppb !== null && staged.final_value_ppb !== undefined
+          ? String(staged.final_value_ppb)
+          : existingRow.final_standard_ppb || "",
+      unit: existingRow.unit || "ppb",
+      basis: staged.basis ?? existingRow.basis ?? "",
+      standard_basis:
+        staged.rationale_tag ?? existingRow.standard_basis ?? "",
+      standard_path:
+        staged.action === "approve"
+          ? existingRow.standard_path || "Path A"
+          : existingRow.standard_path || "",
+      approved_by: staged.actor || existingRow.approved_by || "",
+      approved_date:
+        staged.recorded_at?.slice(0, 10) || existingRow.approved_date || "",
+      source_ids: (staged.source_ids ?? []).join(";") || existingRow.source_ids || "",
+      notes: staged.note || existingRow.notes || "",
+    };
+    rowsByCell.set(key, row);
+    committed.push({
+      row_slug: staged.row_slug,
+      metal: staged.metal,
+      action: staged.action,
+      standard_status: row.standard_status,
+    });
+  }
+
+  const allRows = [...rowsByCell.values()];
+  const csv = renderCsv(CANONICAL_STANDARDS_HEADERS, allRows);
+
+  if (!dryRun) {
+    await mkdir(dirname(CANONICAL_STANDARDS_CSV), { recursive: true });
+    await writeFile(CANONICAL_STANDARDS_CSV, csv, "utf8");
+    const marker = {
+      record_type: "decision_promotion",
+      recorded_at: new Date().toISOString(),
+      committed_count: committed.length,
+      committed,
+      actor: String(payload?.actor ?? "Karen"),
+    };
+    await appendStagingRecord(decisionStagingPath, marker);
+  }
+
+  return {
+    committed_count: committed.length,
+    committed,
+    canonical_path: relativeToRepo(CANONICAL_STANDARDS_CSV),
+    dry_run: dryRun,
+    message: dryRun
+      ? `Dry run: would promote ${committed.length} decision(s) to canonical CSV.`
+      : `Promoted ${committed.length} decision(s) to canonical CSV. Commit ${relativeToRepo(CANONICAL_STANDARDS_CSV)} and ${relativeToRepo(decisionStagingPath)} together in git when ready.`,
+  };
+}
+
+function mapActionToStatus(action) {
+  if (action === "approve") return "approved";
+  if (action === "reject") return "rejected";
+  if (action === "defer") return "draft";
+  if (action === "downgrade-to-data-gap") return "data_gap";
+  return "draft";
+}
+
+async function buildProductLookup() {
+  const products = await readProductRows();
+  const lookup = new Map();
+  for (const product of products) {
+    lookup.set(product.slug, {
+      title: product.title,
+      label: product.label,
+      row_id: product.hmtc_row ? `hmtc_c1_r${String(product.hmtc_row).padStart(2, "0")}` : "",
+    });
+  }
+  return lookup;
+}
+
+function renderCsv(headers, rows) {
+  const lines = [headers.map(quoteCsv).join(",")];
+  for (const row of rows) {
+    lines.push(headers.map((header) => quoteCsv(row[header] ?? "")).join(","));
+  }
+  return `${lines.join("\n")}\n`;
+}
+
+function quoteCsv(value) {
+  const text = String(value ?? "");
+  if (/[",\n\r]/.test(text)) {
+    return `"${text.replace(/"/g, '""')}"`;
+  }
+  return text;
+}
+
+function relativeToRepo(absolutePath) {
+  const prefix = repoRoot.endsWith("/") ? repoRoot : `${repoRoot}/`;
+  return absolutePath.startsWith(prefix)
+    ? absolutePath.slice(prefix.length)
+    : absolutePath;
 }

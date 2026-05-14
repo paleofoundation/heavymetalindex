@@ -17,13 +17,15 @@ ingredients: []
 products: []
 matrices: [food-packaging, packaging-material]
 jurisdictions: [IN, EU]
-near_duplicates: []
+near_duplicates: [papers-cube-mukhi2024-v3]
 sample_n: 13
 sample_population: "13 food and drug packaging materials procured from local market in Karnataka, India: aluminium cans, leak-proof bags, cardboard, tetrapaks, cellophane, tissues, sachets, aluminium bags and boxes, plastic bags and containers, medicinal blister packets and closures"
-updated: 2026-05-13
+updated: 2026-05-14
 ---
 
-# Mukhi et al. 2022 — Heavy metals in food and drug packaging materials, India
+# Mukhi et al. 2022/2024 — Heavy metals (As, V, Hg, Cd) in food and drug packaging materials, India
+
+*Note: This source page covers version 1 (v1, 2022) of this F1000Research paper (DOI .1). Version 3 (v3, 2024, DOI 10.12688/f1000research.121473.3) was received in the Papers Cube Manual Fetch corpus and is a near-duplicate: same study, same 13 samples, updated title to "Assessment of Arsenic, Vanadium, Mercury, and Cadmium in Food and Drug Packaging," revised peer review status (2 approved, 1 not approved), and methodological clarifications including updated European Council guidance references and calibration graph additions. The v3 data do not substantially change the findings; this page covers both versions.*
 
 This study quantifies arsenic (As), vanadium (V), mercury (Hg), and cadmium (Cd) contamination in 13 types of food and drug packaging materials from local markets in Karnataka, India, using ICP-OES with prior qualitative screening. The headline finding is that arsenic exceeded EU permissible limits in all 13 packaging samples. Vanadium exceeded EU permissible limits in 10 of 13 samples. Mercury exceeded EU limits in 2 samples and cadmium in 1. The study demonstrates that food packaging itself can be a significant source of heavy metal contamination risk, independent of agricultural or processing contamination in the food itself, with implications for packaged food safety assessments and for supply chains sourcing packaging from India.
 

@@ -8,7 +8,7 @@ covers:
   - "raw/Digest/ folder ingest, Batches 1-5"
   - "38 Digest source pages created"
   - "Phase 6 IandC readiness scorecard reconciliation"
-  - "Cross-agent coordination with the parallel autonomous IandC session"
+  - "Cross-agent coordination with the parallel autonomous IandC session"noindex: true
 ---
 
 # Digest Ingest Final Report — 2026-05-08

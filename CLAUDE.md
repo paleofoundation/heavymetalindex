@@ -1001,41 +1001,67 @@ Lint results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`. Lint entries in `l
 
 ## Part 19 — HMT&C threshold-setting workflow (staff-only outputs)
 
-This workflow produces certification thresholds. **Its outputs are staff and HMT&C certification content, not public wiki content.** Per the wiki/HMT&C firewall in Part 2, percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, CC eligibility verdicts, n_a_tier counts, and Path A / Path B status do not appear on heavymetalindex.com product pages. They appear on:
+This workflow produces certification thresholds. **Its outputs are staff and HMT&C certification content, not public wiki content, and they do not live inside `wiki/`.** Per the wiki/HMT&C firewall in Part 2, percentile-selection arithmetic (any P-value computation), clean/dirty subcategory designations, pooling math, sensitivity bands, and final candidate values appear under `data/workbench/standards/` and on the local staff Standards Workbench tool — not on heavymetalindex.com and not in `wiki/`. Public product-category pages on this wiki render only the literature-native view per Part 6's product-category template: analyte, reported concentration range across cited sources, detection rate where sources support it, applicable regulatory cap, source count, confidence rating, basis note.
 
-- The staff Standards Workbench routes under `/staff` and `/workbench` (frontmatter `noindex: true`, access-protected).
-- The per-product workbench snapshot pages auto-generated under `wiki/workbench/standards/<product-slug>.md` by `tools/evidence/apply-product-hmtc-evidence-summaries.mjs`.
-- Future HMT&C certification pages at heavymetaltested.com, which cite the wiki's literature-native synthesis for the baseline and document the threshold-selection rationale separately.
+### The locked methodology
 
-Public product-category pages on this wiki render only the literature-native view: analyte, reported concentration range across cited sources, detection rate where sources support it, applicable regulatory cap, source count and confidence rating, and basis note. See Part 6's product-category template for the public schema.
+The methodology is fixed, system-wide, and applies to every category and every row in the index. It is not infant-and-child-foods-specific.
 
-When Karen asks Claude to propose a threshold for HMT&C:
+**Per-analyte standard for a clean subcategory = P97** of that subcategory's marginal occurrence distribution for that analyte.
 
-Start from the wiki's current synthesis for the relevant metal and ingredient or product.
+**Per-analyte standard for a dirty subcategory = P45** of that subcategory's marginal occurrence distribution for that analyte.
 
-Show the work: cite the studies, show the source evidence inventory, then show the selected aggregate or selected-dataset CC candidate. p90 is derived from the selected clean-platform distribution in the Step 0F CC Source Data Package; it is not shown as a separate value for every paper unless that paper itself is the selected Path A dataset. For lower-is-better source evidence, p100/max is the highest observed concentration in that source's scoped pool.
+**Per-analyte standard for an independent (no within-pair partner) row = P97** of that row's marginal distribution, treated as clean-by-default. Override slot exists in the schema for rows where evidence justifies dirty treatment.
 
-Do not use intake or exposure estimates as if they were product concentration percentiles. Intake tables can inform exposure context, but HMT&C product thresholds need concentration distributions in ppb by matrix, metal, geography, and product fit.
+**Each row's standard is in the native basis of the product form.** Powder rows use powder-as-placed-on-market. RTF liquid rows use as-consumed. Dry cereal rows use dry-as-sold. Puree rows use as-consumed. Brands ship and test in their product's native form; the HMT&C standard matches that form. Sources reporting in other bases get converted into the row's native basis during the pooling math — never the other way around. The 1:7 reconstitution factor lives in `tools/evidence/basis-conversion.mjs` as the shared source-of-truth.
 
-Compare against FDA, EU, Codex, California Prop 65, and the Baby Food Safety Act (if applicable).
+**Final HMT&C value = `min(per-analyte percentile, lowest applicable regulatory ceiling)`** with both expressed in the row's native basis. The cap is converted into native basis if it was published in a different one. The auto-emitted rationale tag is `literature-baseline` when the pooled percentile binds and `regulatory-alignment` when the cap binds.
 
-Flag sampling plan implications. A limit is only as good as its sampling and method.
+**ALARA + the §80th-percentile ratchet trigger** (per Governing Principles §"Two Percentile Mechanisms") drive tightening *after* publication. Remediation plans handle initial-publication brands above the limit. The standards-setting math in this Part is for initial publication only.
 
-Name the rationale for any gap between literature and proposed limit. Tag with one of: precautionary, market-ratcheting, feasibility-driven, regulatory-alignment. The gap itself is fine and often intentional. Failing to name the rationale is the lint failure.
+### Why P97 and P45 (the row-pass calibration)
+
+Setting each analyte's limit at the raw P90 (clean) or P30 (dirty) of its marginal distribution *under independence* would deliver joint row-pass rates of approximately 0.9^10 = 35% (clean) and 0.3^10 ≈ 0% (dirty) across the ten HMTc analytes. Analytes correlate in real markets — supply-chain hygiene drives multiple metals together — so the actual joint pass rate is somewhere between independence and perfect correlation, typically 50-70% for clean and 10-15% for dirty at raw P90/P30.
+
+The Governing Principles require approximately 90% of clean-subcategory brands and 30% of dirty-subcategory brands to pass row-level certification — not per-analyte certification. To deliver the row-level outcome, per-analyte limits are uplifted: P90 → P97 (clean), P30 → P45 (dirty). Under typical analyte correlation (≈0.6), these uplifted per-analyte percentiles deliver joint row-pass rates close to the 90/30 target.
+
+The heuristic uplift is uniform across all analytes today. Per-analyte differentiation (e.g., Pb tighter than Ni based on regulatory pressure or toxicology) is a Tier 2 calibration deferred until HMT&C has lot-testing data to measure the actual joint pass rate empirically (target review: 6-12 months post-launch).
 
 ### Clean and dirty subcategory framework
 
 Within a parent category that has multiple subcategories (for example, infant formula split into milk-based, soy-based, and hydrolyzed; or baby cereals split into rice-based and non-rice), classify each subcategory per-analyte as the clean subcategory or the dirty subcategory based on whether its empirical distribution for that analyte is meaningfully lower (clean) or higher (dirty) than the parent-category median. Clean and dirty are designations within a parent category, not fixed labels on a subcategory; the same subcategory can be clean for one analyte and dirty for another. If only one subcategory has data for an analyte, the comparison cannot be made; report what is available and note the missing comparison rather than guessing.
 
-The clean subcategory standard for an analyte is p90 of that subcategory's distribution. This is a lenient bar: ninety percent of samples in the cleanest part of the market already meet it. The certification effect is to recognize the consistently cleanest products.
+### Pool admission, basis homogenization, and pooling math
 
-The dirty subcategory standard for an analyte is p30 of that subcategory's distribution. This is a strict bar: only thirty percent of samples in the dirtier part of the market currently meet it. The seventy percent that fail may be below regulatory limits but are above their cleaner peers; the certification creates competitive pressure to ratchet down. This is the market-ratcheting rationale described in Part 2.
+Every source loaded for a (row, metal) cell contributes to the pooled distribution unless it is explicitly dispositioned out with a stated reason. The admission rule is:
 
-Both standards are reported alongside p100, the maximum observed value in the subcategory's distribution, for context.
+- Sample-level data: use raw values directly.
+- Reported P-vector with N: 4-quantile fit; reconstruct N pseudo-samples by quantile interpolation.
+- Mean + SD + N: log-normal moment-match; generate N pseudo-samples.
+- Mean + median + max + N: log-normal fit on mean and CV-from-(max/mean); generate N pseudo-samples.
+- Mean + N only: assume CV = 1.0 (EFSA/JECFA convention for contaminant occurrence data); generate N pseudo-samples; mark "weak."
+- Lower-bound / upper-bound mean (LOD-censored): Tobit-style interval; generate N pseudo-samples between bounds.
+- Range / min / max only, no mean: uniform across range; min(N, 10) pseudo-samples; mark "range_only_weak."
+- Single value, no N: 1 pseudo-sample at the reported value, weight 1; mark "single_point_weak."
 
-The classification and standards values appear on the staff workbench snapshot for the product (`wiki/workbench/standards/<product-slug>.md`), not on the public product-category page. The public page carries only the literature-native columns per Part 6's product-category template. Final HMT&C values must remain no higher than the lowest applicable loaded regulatory cap regardless of where p90 or p30 falls.
+Pseudo-samples are pooled with source-N weighting (capped at 2× the median per-source N across the cell's pool to prevent any one large survey from dominating). Percentiles are computed on the pooled distribution. Sensitivity is reported across three parametric assumptions (log-normal headline, gamma alternative, nonparametric reconstruction); a spread within ±25% is "stable," 25-50% is "provisional," >50% is "needs review."
 
-Earlier wiki conventions referred to "clean-platform" and "contaminated-platform" rows with default percentiles of P90 (clean) and P10 or P20 (contaminated). The clean/dirty subcategory framework above supersedes those earlier defaults for HMT&C threshold-setting; the dirty subcategory standard is p30, not p10 or p20. The migration to literature-native public pages plus staff-side percentile snapshots was completed in the 2026-05-12 generator refactor; legacy product pages from before that refactor may still carry the old "HMTc Evidence Summary" framing and should be cleaned up on touch (see Part 7 standing initiatives in OPERATING.md for the order).
+This is standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food). The novelty is only in formalizing it as deterministic code rather than doing it ad hoc per cell.
+
+Final HMT&C values must not exceed the lowest applicable loaded regulatory cap regardless of where the pooled percentile falls. Intake and exposure estimates are not substitutes for product-occurrence distributions; intake tables inform exposure context only.
+
+### Rationale tagging on staged standards
+
+When a decision is staged in the workbench, one rationale tag is required:
+
+- `literature-baseline` — the pooled per-analyte percentile is the binding value.
+- `regulatory-alignment` — the lowest applicable regulatory cap is the binding value (pooled percentile would have been higher).
+- `precautionary` — staff selects a value lower than both the pooled percentile and the regulatory cap, with documented rationale (vulnerable population concern, cumulative exposure, scientific uncertainty).
+- `feasibility-driven` — staff selects a value higher than the pooled percentile because current analytical methods or supply-chain realities do not support the tighter value, paired with a sunset plan to tighten as feasibility improves.
+
+The gap between literature-baseline and the final value, if any, is stated honestly. Failing to name the rationale is the lint failure.
+
+Earlier wiki conventions referred to "clean-platform" / "contaminated-platform" rows with default percentiles of P90 (clean) and P10 or P20 (contaminated). Those defaults are superseded by the P97 / P45 framework above. Any tooling or documentation still using the older percentiles is stale and should be updated.
 
 ## Part 20 — Course drafting workflow
 

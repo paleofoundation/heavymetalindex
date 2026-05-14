@@ -10,13 +10,12 @@ evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: published
 evidence_register: data/evidence/category1_register.csv
-hmtc_threshold_status: excluded_from_index_evidence
 label: "Meat and poultry purees"
 base_taxonomy: meat-and-poultry-purees
 variant_type: independent_added_step_0c
 provenance: added_step_0c_no_existing_home
 ingredient_targets: [meat-and-poultry-purees, poultry, beef, turkey]
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, tAs, tHg]
 vulnerable_population: infants-0-24mo
 applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
 cc_relationship:
@@ -57,7 +56,7 @@ This page is a structural scaffold for HMTc Category 1 row 10. Broad baby-food a
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/meat-and-poultry-purees">/workbench/standards/meat-and-poultry-purees</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>

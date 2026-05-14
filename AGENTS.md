@@ -48,13 +48,22 @@ If row fit is unclear, keep the source visible through an audit or queue record.
 
 ## Benchmark Percentiles
 
-Do not look for p90, p95, p10, or p20 as a requirement inside individual studies. HMTc standard percentiles are calculated later from an admitted benchmark pool after product row, geography/market, basis, species, time period, method quality, censoring, and sample inclusion/exclusion are decided.
+Do not look for p90, p95, p10, p20, p30, p45, or p97 as a requirement inside individual studies. HMTc standard percentiles are calculated later from an admitted pool after product row, geography/market, basis, species, time period, method quality, censoring, and sample inclusion/exclusion are decided. Lack of a reported percentile in a source is not, by itself, an Evidence Fitness defect.
 
-During ingest, capture source facts: sample-level values when available, N, basis, species, units, censoring, geography/market, time period, sample frame, and any source-reported summary statistics. A source-reported percentile is optional source-scope context, not the HMTc percentile. Lack of a reported percentile is not, by itself, an Evidence Fitness defect.
+During ingest, capture source facts: sample-level values when available, N, basis, species, units, censoring, geography/market, time period, sample frame, and any source-reported summary statistics. Means, medians, ranges, maxima, IQRs, SDs, lower-bound / upper-bound means (LOD-censored) — every reportable statistic gets stored. Summary-only papers contribute to the pool via moment-matching pseudo-sample expansion (log-normal or gamma fit per the standards-math methodology in CLAUDE.md Part 19); they are NOT "context only" and they are NOT excluded from the pool.
 
-Summary-only papers can still be valuable, but means, medians, ranges, and maxima do not create a benchmark distribution by themselves. Describe those sources as "summary/context only" or "not sufficient alone for benchmark-pool math" rather than blaming missing source-reported percentiles.
+The locked HMTc standards math (per CLAUDE.md Part 19, system-wide across the entire index):
 
-Benchmark pools must be jurisdiction- and market-aware. If the standard is for the United States, US-market samples are the primary benchmark pool unless governance explicitly approves another pool. If US values are materially different from Nigeria, Portugal, EU, or any other market, stratify and document the difference; do not silently pool them. Non-target-market evidence may support context, priors, gap flags, or sensitivity checks, but cross-market pooling needs an auditable rationale.
+- Clean subcategory per-analyte standard = **P97** of the clean-subcategory marginal distribution for that analyte.
+- Dirty subcategory per-analyte standard = **P45** of the dirty-subcategory marginal distribution for that analyte.
+- Per-analyte limits are uplifted from raw P90/P30 to P97/P45 so the joint row-pass rate across ten analytes lands near the Governing Principles target (≈90% clean / ≈30% dirty). Uniform across all analytes today; per-analyte differentiation is a Tier 2 calibration once lot-testing data exists.
+- Each row's standard is in the native basis of the product form (powder rows → powder-as-placed; RTF rows → as-consumed; dry cereal → dry-as-sold). Sources reporting in other bases get converted into the row's native basis during pooling, not the other way around.
+- Final HMTc value capped at the lowest applicable loaded regulatory ceiling, expressed in the row's native basis.
+- ALARA and the §80th-percentile ratchet trigger drive tightening after publication; they are not part of initial standards-setting math.
+
+Benchmark pools must be jurisdiction- and market-aware. If the standard is for the United States, US-market samples are the primary pool unless governance explicitly approves another pool. If US values are materially different from Nigeria, Portugal, EU, or any other market, stratify and document the difference; do not silently pool them. Non-target-market evidence may support context, priors, gap flags, or sensitivity checks, but cross-market pooling needs an auditable rationale.
+
+The pooling engine (`tools/evidence/build-hmtc-aggregate-distributions.mjs`) is the single source-of-truth implementation; ad-hoc per-cell math by hand is not permitted. Its output lives in `data/evidence/hmtc_aggregate_distributions.csv` and `data/workbench/standards/` — never under `wiki/`.
 
 ## Infant Formula Row Fit
 
@@ -86,11 +95,12 @@ Report pages touched, evidence rows generated, product or ingredient pages updat
 ## Do Not
 
 Do not silently drop source data because a destination page is missing.
-Do not require individual studies to report p90, p95, p10, or p20.
-Do not infer benchmark percentiles from means, medians, ranges, IQRs, maxima, or one unadmitted source pool.
-Do not treat a source-reported percentile from one paper as the HMTc aggregate percentile. Clean benchmark standards use aggregate clean-platform P90; contaminated-platform standards use a governance-selected aggregate lower-tail value, P10 by default or P20 only when explicitly selected. Dirty-category P90 and clean-category P10 are not HMTc limit-setting targets. Final HMTc values must not exceed the lowest applicable loaded regulatory cap.
+Do not require individual studies to report any specific percentile.
+Do not exclude summary-only sources (mean, median, range, IQR, max, lb/ub) from the HMTc pooling math; they contribute via documented moment-matching pseudo-sample expansion per CLAUDE.md Part 19.
+Do not treat a source-reported percentile from one paper as the HMTc aggregate percentile. Clean per-analyte standards = pooled P97; dirty per-analyte standards = pooled P45; both with sensitivity bands. Final HMTc values must not exceed the lowest applicable loaded regulatory cap, expressed in the row's native basis.
 Do not silently pool samples across jurisdictions, markets, time periods, bases, product forms, or analyte species. If the benchmark target is jurisdiction-specific, document why each non-target-market source is included, excluded, or retained as context.
+Do not write standards arithmetic (P-value computations, pooling math, sensitivity bands, candidate values) into `wiki/`. That content lives in `data/workbench/standards/` and on the local staff Standards Workbench tool. The wiki is the public literature evidence layer only.
 Do not mix total arsenic with inorganic arsenic.
 Do not mix total mercury with methylmercury.
-Do not mix wet, dry, as-sold, and reconstituted bases.
+Do not mix wet, dry, as-sold, and reconstituted bases without explicit conversion logged in the contribution log.
 Do not promote pending-tier evidence into public claims.

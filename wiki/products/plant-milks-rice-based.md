@@ -15,7 +15,6 @@ applicable_regulations: [eu2023_ias_rice_drinks_30]
 evidence_fitness: EF-3
 public_evidence_label: Approaching the bar (iAs summary-level)
 review_state: phase3_part19
-hmtc_threshold_status: approaching_iAs_dirty_p30_summary_level
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 4
@@ -50,7 +49,7 @@ This page is HMTc Category 5 row 7. It now has a usable regulatory-versus-field-
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/plant-milks-rice-based">/workbench/standards/plant-milks-rice-based</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
     </div>
   </dl>
 </div>
