@@ -36,12 +36,13 @@ The HMTc Program exists to serve five objectives simultaneously:
    evidence layer, the staff Standards Workbench (and `data/workbench/`)
    carries the threshold math.
 
-5. **Make it valued at $2 billion by 2030.**
+5. **Make it the de facto standard.**
    The program must scale across all product categories with consistent
-   methodology. The standards must be credible enough that retailers,
-   distributors, and consumers treat the mark as a purchasing signal.
+   methodology. The mark must be credible enough that retailers,
+   distributors, and consumers treat it as a primary purchasing signal.
    Operational efficiency matters — the pipeline must produce standards
-   reliably without manual intervention at every step.
+   reliably without manual intervention at every step. Commercial success
+   follows from scale and credibility, not the reverse.
 
 ---
 
@@ -62,24 +63,41 @@ ignored in favor of whichever principle feels most urgent in the moment.
 
 ## The Locked Standards Math
 
-The HMTc Program uses percentile-based thresholds at two distinct points:
+The HMTc Program uses percentile-based thresholds at two distinct points,
+operating at two different moments in the program lifecycle. The framing
+below leads with **intent** (the row-level pass rate the program is
+designed to deliver) and follows with **mechanism** (the per-analyte
+percentile math that delivers it). Adversarial readers attacking "why P97
+and not P95" must instead attack "why 90% and not 85%" — and the answer
+to that traces directly to the Governing Principles.
 
-### Limit-setting (initial publication)
+### Limit-setting (initial publication) — the 90/30 row-pass intent
+
+The HMTc Standards are calibrated to deliver the following row-level
+outcomes at initial publication:
+
+- Approximately **90%** of clean-subcategory brands pass row-level
+  certification on day one.
+- Approximately **30%** of dirty-subcategory brands pass row-level
+  certification on day one.
+
+These targets are the policy choice. They sit at the intersection of all
+five Governing Principles: too tight (e.g., 50/10) violates Principles 3
+and 5 because brands cannot recruit and the program cannot scale; too
+loose (e.g., 99/80) violates Principles 1 and 3 because the mark loses
+meaning and clean brands lose differentiation. 90/30 is the policy answer
+to all five simultaneously.
+
+### Limit-setting (initial publication) — the per-analyte mechanism
+
+To deliver the 90/30 row-level intent, per-analyte limits are set as
+follows:
 
 **Per-analyte standard for a clean subcategory = P97** of that subcategory's
 marginal occurrence distribution for that analyte.
 
 **Per-analyte standard for a dirty subcategory = P45** of that subcategory's
 marginal occurrence distribution for that analyte.
-
-These per-analyte percentiles are calibrated to deliver the row-level outcomes
-the Governing Principles require:
-
-- Approximately 90% of clean-subcategory brands pass row-level certification.
-- Approximately 30% of dirty-subcategory brands pass row-level certification.
-
-The row-level outcomes are the consumer-facing promise. The per-analyte
-percentiles are the methodology that delivers them.
 
 **Why P97 and P45, not P90 and P30 (the row-pass calibration):**
 
@@ -139,19 +157,34 @@ the final value, if any, is stated honestly.
 
 ### Ratchet trigger (revision cycle, distinct from limit-setting)
 
-After initial publication, the §80th-percentile of program lot-testing
-data drives tightening. When industry performance improves enough that the
-80th percentile of HMTc-tested products falls below the current limit, the
-Program Operator considers tightening per Governance Policy §12.3. ALARA
-(As Low As Reasonably Achievable) and the brand remediation-plan
+After initial publication, the Standards Ratchet operates on
+HMTc-internal lot-testing data. The ratchet for a given analyte fires
+when **both** of the following conditions hold for two consecutive
+annual reviews (per Governance Policy §12.3):
+
+(a) The 80th percentile of certified Status A lot results sits at or
+    below 80% of the current limit.
+(b) At least 50% of certified Status A SKUs have lots at or below 60% of
+    the current limit.
+
+The first tests aggregate market shift. The second tests breadth — the
+ratchet does not fire on a single large brand pulling the percentile
+down. When fired, the new limit equals the maximum of (a) the actual
+80th percentile of Status A results or (b) 80% of the current limit. The
+second clause is the step cap: no brand faces more than a 20% reduction
+per ratchet event. Transition is 12–18 months from announcement to
+enforcement; Status A certifications grandfather for the transition
+period. Full mechanics are specified in Governance Policy §12.
+
+The ratchet trigger uses HMTc-internal lot-testing data. The
+limit-setting math uses external survey data (FDA, EFSA, peer-reviewed
+studies, EU basket surveys, jurisdictional total-diet studies). The two
+mechanisms operate at different times, on different data sources, and
+serve different functions.
+
+ALARA (As Low As Reasonably Achievable) and the brand remediation-plan
 infrastructure govern the ongoing relationship between certified brands
 and improving limits.
-
-The ratchet trigger uses HMTc-internal lot-testing data. The limit-setting
-math uses external survey data (FDA, EFSA, peer-reviewed studies, EU
-basket surveys, jurisdictional total-diet studies). The two mechanisms
-operate at different times, on different data sources, and serve
-different functions.
 
 ---
 
@@ -166,7 +199,7 @@ explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.0 — May 2026**
+**Version 2.1 — May 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -174,3 +207,4 @@ explicit governance decision and changelog entry to this document.
 | 1.1 | April 2026 | Added "Two Percentile Mechanisms" section to clarify the distinction between P_clean/P_dirty (limit-setting, external data) and the 80th percentile ratchet trigger (revision cycle, program data). Prevents confusion between Governance Policy §12.3 and the Methodology Reference §1.4. |
 | 1.2 | May 2026 | Clarified that benchmark percentiles are HMTc benchmark-pool calculations, not values individual studies are expected to report; added jurisdiction-aware benchmark pool rule. |
 | 2.0 | May 2026 | Locked the per-analyte limit-setting math to **P97 clean / P45 dirty** with the row-pass calibration rationale. Superseded the earlier "P10 default / P20 if selected" framing for dirty. Required pool admission of summary-only sources via moment-matching pseudo-sample expansion. Required each row's standard to be in the native basis of the product form. Reaffirmed that standards arithmetic does not live in `wiki/`. Reaffirmed scope: applies to every category in the HMTc index. |
+| 2.1 | May 2026 | Principle 5 reframed from "$2 billion by 2030" to "Make it the de facto standard" — commercial success follows from scale and credibility, not the reverse. Standards Math section restructured to lead with **intent** (90/30 row-pass) before **mechanism** (P97/P45 per-analyte uplift); the policy choice is the 90/30 row-pass rate, calibrated against all five Governing Principles, with P97/P45 as the math that delivers it. Ratchet trigger section expanded to specify two-condition fire rule (P80 of Status A + breadth threshold), 20% step cap, and reference to revised Governance Policy §12. |
