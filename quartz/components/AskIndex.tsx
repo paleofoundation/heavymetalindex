@@ -34,11 +34,25 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
               <div id="ask-index-title" class="ask-index-title">
                 Ask the Index
               </div>
-              <div class="ask-index-subtitle">Site-only answers with citations.</div>
+              <div class="ask-index-subtitle">
+                Site-only answers with citations. <a href="/methodology/ask-the-index">How this works</a>.
+              </div>
             </div>
             <button type="button" class="ask-index-close" aria-label="Close Ask the Index">
               x
             </button>
+          </div>
+          <div class="ask-index-audience-picker" aria-label="Choose audience mode">
+            <div class="ask-index-audience-prompt">
+              Who's asking? Answers are tuned per audience.
+            </div>
+            <div class="ask-index-audience-buttons">
+              <button type="button" data-audience="legal">Legal counsel</button>
+              <button type="button" data-audience="regulatory">Regulatory / QA</button>
+              <button type="button" data-audience="journalist">Journalist</button>
+              <button type="button" data-audience="educator">Educator</button>
+            </div>
+            <button type="button" class="ask-index-audience-change" hidden>Change audience</button>
           </div>
           <div class="ask-index-messages" aria-live="polite"></div>
           <div class="ask-index-suggestions" aria-label="Suggested questions">
@@ -56,7 +70,9 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
               aria-label="Ask a question of the Heavy Metal Index"
             ></textarea>
             <div class="ask-index-actions">
-              <span class="ask-index-note">Answers are limited to Heavy Metal Index pages.</span>
+              <span class="ask-index-note">
+                Answers cite only Heavy Metal Index pages. The wiki and the HMT&amp;C certification program are separate; gaps between them are labeled, not hidden.
+              </span>
               <button type="submit">Ask</button>
             </div>
           </form>

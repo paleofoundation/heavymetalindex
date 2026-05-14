@@ -1,0 +1,65 @@
+{
+  "$schema": "https://heavymetalindex.com/schemas/hmtc-thresholds.json",
+  "description": "Public-readable HMT&C threshold surface for the Ask the Index chatbot. The chatbot does not retrieve from wiki/certification/ directly (per CLAUDE.md Part 2 firewall); it reads this file instead. Each entry names the metal, the product/matrix scope, the HMT&C threshold value, the labeled rationale (precautionary / market-ratcheting / feasibility-driven / regulatory-alignment), the comparable regulatory limits, and a link to the public methodology page that explains how HMT&C arrived at the value. Entries are added as HMT&C threshold-setting work completes per CLAUDE.md Part 19. Empty entries are fine; the chatbot answers 'HMT&C threshold: in development' for combinations not yet covered.",
+  "last_updated": "2026-05-14",
+  "thresholds": [
+    {
+      "metal": "iAs",
+      "metal_name": "Inorganic arsenic",
+      "product_scope": "infant-rice-cereal",
+      "product_label": "Infant rice cereal",
+      "hmtc_value_ppb": null,
+      "hmtc_status": "in-development",
+      "hmtc_rationale": null,
+      "literature_floor_ppb": null,
+      "fda_value_ppb": 100,
+      "fda_basis": "FDA Closer to Zero action level, as-consumed basis",
+      "eu_value_ppb": null,
+      "codex_value_ppb": null,
+      "comparable_limits_note": "FDA action level finalized 2023; EU and Codex have no infant-rice-cereal-specific limit beyond broader Cd/iAs frameworks.",
+      "public_methodology_page": "methodology/hmtc-thresholds",
+      "certification_page_internal_only": "certification/iAs-infant-rice-cereal"
+    },
+    {
+      "metal": "Pb",
+      "metal_name": "Lead",
+      "product_scope": "baby-food-fruit-vegetable",
+      "product_label": "Baby food (fruits and vegetables, single-ingredient)",
+      "hmtc_value_ppb": null,
+      "hmtc_status": "in-development",
+      "hmtc_rationale": null,
+      "literature_floor_ppb": null,
+      "fda_value_ppb": 10,
+      "fda_basis": "FDA Closer to Zero draft guidance for processed baby foods, as-consumed basis",
+      "eu_value_ppb": 20,
+      "eu_basis": "EU 2023/915 maximum level for foods for infants and young children",
+      "codex_value_ppb": null,
+      "comparable_limits_note": "FDA draft guidance 2024; EU regulation 2023/915 binding.",
+      "public_methodology_page": "methodology/hmtc-thresholds",
+      "certification_page_internal_only": "certification/Pb-baby-food"
+    },
+    {
+      "metal": "Cd",
+      "metal_name": "Cadmium",
+      "product_scope": "dark-chocolate",
+      "product_label": "Dark chocolate",
+      "hmtc_value_ppb": null,
+      "hmtc_status": "in-development",
+      "hmtc_rationale": null,
+      "literature_floor_ppb": null,
+      "fda_value_ppb": null,
+      "eu_value_ppb": 800,
+      "eu_basis": "EU 2023/915 maximum level for chocolate with >=50% total dry cocoa solids",
+      "codex_value_ppb": null,
+      "comparable_limits_note": "FDA has no specific limit; EU regulation 2023/915 binding; California Prop 65 case-by-case settlements have set effective limits in litigation contexts.",
+      "public_methodology_page": "methodology/hmtc-thresholds",
+      "certification_page_internal_only": "certification/Cd-dark-chocolate"
+    }
+  ],
+  "rationale_vocabulary": {
+    "precautionary": "Threshold tighter than literature floor because vulnerable populations, cumulative exposure, or uncertainty warrant a safety margin beyond minimum-effect-level data.",
+    "market-ratcheting": "Threshold tighter than literature floor because the certification program's purpose is to move the market toward cleaner product; the threshold is a policy choice, not an assertion about where toxicological effects begin.",
+    "feasibility-driven": "Threshold looser than literature floor because current analytical methods, supply chain realities, or achievable agricultural practice do not yet support the tighter value. Paired with a sunset plan to tighten as feasibility improves.",
+    "regulatory-alignment": "Threshold matches an external regulatory framework (FDA, EU, Codex) for commercial or legal reasons, whether or not that framework aligns with the literature."
+  }
+}

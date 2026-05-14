@@ -1,0 +1,81 @@
+{
+  "description": "Brand-name detection list for the Part 12 firewall. The chatbot refuses queries that name a specific brand and strips brand names from model output. List is conservative (well-known CPG brands in categories where heavy-metals questions are common) and case-insensitive matched at word boundaries. Add brands as they appear in user queries. False positives are preferable to leaks: a refusal that names an unrelated brand can be corrected; a leaked brand recommendation cannot be undone.",
+  "last_updated": "2026-05-14",
+  "category_note": "Brands grouped by product category for ease of curation; the runtime detector treats the entire list as a flat set.",
+  "brands": {
+    "infant-formula": [
+      "Similac",
+      "Enfamil",
+      "Gerber Good Start",
+      "Earth's Best",
+      "Bobbie",
+      "ByHeart",
+      "Kendamil",
+      "Holle",
+      "HiPP",
+      "Loulouka"
+    ],
+    "baby-food-and-cereal": [
+      "Gerber",
+      "Beech-Nut",
+      "Plum Organics",
+      "Happy Baby",
+      "Sprout",
+      "Cerebelly",
+      "Once Upon a Farm",
+      "Serenity Kids",
+      "Square Baby",
+      "Yumi",
+      "Little Spoon"
+    ],
+    "dark-chocolate": [
+      "Hershey",
+      "Lindt",
+      "Ghirardelli",
+      "Trader Joe's",
+      "Theo",
+      "Endangered Species",
+      "Alter Eco",
+      "Equal Exchange",
+      "Tony's Chocolonely",
+      "Pascha"
+    ],
+    "protein-powder": [
+      "Optimum Nutrition",
+      "Garden of Life",
+      "Vega",
+      "Orgain",
+      "Now Foods",
+      "BSN",
+      "Dymatize",
+      "Quest",
+      "Premier Protein",
+      "Muscle Milk"
+    ],
+    "seafood": [
+      "Bumble Bee",
+      "StarKist",
+      "Chicken of the Sea",
+      "Wild Planet",
+      "Safe Catch"
+    ],
+    "rice-and-grain": [
+      "Lundberg",
+      "Mahatma",
+      "Uncle Ben's",
+      "Goya",
+      "Riceland"
+    ],
+    "supplements": [
+      "Nature Made",
+      "Nature's Bounty",
+      "GNC",
+      "Solgar",
+      "Pure Encapsulations",
+      "Thorne",
+      "Now Foods",
+      "Garden of Life",
+      "MegaFood"
+    ]
+  }
+}
