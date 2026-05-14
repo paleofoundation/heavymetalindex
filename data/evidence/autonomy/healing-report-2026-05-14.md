@@ -1,6 +1,6 @@
 # Heal-gaps report — 2026-05-14
 
-Generated: 2026-05-14T15:22:11.066Z
+Generated: 2026-05-14T15:52:20.188Z
 Mode: EXECUTED
 
 ## Summary
