@@ -74,13 +74,14 @@ Cat 2 status:         OPENED — 3 sources, 3 product rows, 1 reg page; methodol
 
 ### Daily session deltas (final tally at 21:30Z)
 
-- **6 manually-authored source pages**:
+- **7 manually-authored source pages** (+ 1 dedup pointer):
   - `han2024-nickel-zhejiang-china` — P1 Manual Resourcing pile; nickel in Chinese food categories
   - `rashmi2020-baby-talcum-powder-heavy-metals-india` — Cat 2 talcum
   - `attard2022-heavy-metals-cosmetics-review` — Cat 2 16-category meta-analysis
   - `massarsky2025-heavy-metals-toothpaste-health-risk` — Cat 2 toothpaste
   - `smajgl2015-tin-baby-diapers-croatia` — Cat 2 diapers (organotin)
   - `li2021-lead-lip-cosmetics-china-ecommerce` — Cat 2 lip cosmetics
+  - `arshad2020-heavy-metals-cosmetic-products-pakistan` — Cat 2 most comprehensive (6 product categories, 189 measurements, Cd/Cr/Fe/Ni/Pb)
   - `arsenic2025-unknown` — P1 Marker corpus (Navaretnam 2025 arsenic speciation in rice)
   - (dedup pointer: `arsenic2025-unknown-a`)
 - **4 new Cat 2 product pages** (baby-talcum-powder, toothpaste, lipstick, children-personal-care master)
