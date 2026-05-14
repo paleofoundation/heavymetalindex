@@ -62,28 +62,40 @@ The launchd-scheduled daemon now runs these steps per tick (every 30 min):
 ## Current system state (after this session)
 
 ```
-Routing audit:        128 unresolved (down from 493), 739 advisory-malformed (non-blocking), 0 blocking
+Routing audit:        140 unresolved (down from 493 — 72% reduction), 745 advisory-malformed (non-blocking), 0 blocking
 Firewall lint:        0 ERROR, 0 WARNING (down from 30 + 17)
 Mandatory sections:   0 ingredient + 0 product failures (down from 5 + 17)
-Provenance audit:     263 unsourced claims across 158 files (backlog)
-Page counts:          867 sources, 238 ingredients, 63 products, 37 metals, 38 regulations
+Provenance audit:     273+ unsourced claims (informational backlog)
+Page counts:          879 sources, 238 ingredients, 67 products, 37 metals, 38 regulations, 2 health
 Orphan pages:         0 (after link-orphans pass)
-Daemon heartbeat:     active, last tick 2026-05-14T20:49Z; next at 21:19Z
-Cat 2 status:         OPENED — 3 sources, 3 product rows, 1 reg page; methodology supplement pending
+Daemon status:        PAUSED on macOS provenance xattr issue; Karen reload required
+Cat 2 status:         OPENED — 8 sources, 6 product rows (talcum/toothpaste/lipstick/skin-lightening-cream/face-paint/master), 1 supplement, 1 reg
+Cat 1 status:         EXPANDED — 5 new sources covering rice, fish, seafood, meat, popcorn
 ```
 
 ### Daily session deltas (final tally at 21:30Z)
 
-- **7 manually-authored source pages** (+ 1 dedup pointer):
-  - `han2024-nickel-zhejiang-china` — P1 Manual Resourcing pile; nickel in Chinese food categories
-  - `rashmi2020-baby-talcum-powder-heavy-metals-india` — Cat 2 talcum
+- **13 manually-authored source pages** (+ 1 dedup pointer):
+  **Cat 1 — Food**:
+  - `han2024-nickel-zhejiang-china` — P1 Manual Resourcing pile; nickel in 2628 Chinese food samples
+  - `arsenic2025-unknown` — Navaretnam 2025 arsenic speciation in 30 Malaysian rice samples (manifest cite-key locked to "unknown" due to text-mining artifact)
+  - `chiger2017-iAs-rice-cereal-neurodevelopment-hbbf` — HBBF/Abt 2017 cost-benefit/IQ-loss policy reference for iAs in infant rice cereal
+  - `eaglessmith2016-freshwater-fish-mercury-western-us-canada` — USGS 96,310-fish Hg dataset, Western US + Canada (largest fish-Hg dataset in wiki)
+  - `garofalo2025-seafood-cd-pb-hg-italy-10yr` — IZSLT 10-year monitoring of 5,854 Italian seafood samples; swordfish 11.3% Hg-non-compliance
+  - `rabeey2025-bovine-meat-organs-hg-pb-cd-egypt` — 315 imported frozen bovine samples (Brazil/India/USA→Egypt); 54-63% Pb non-compliance
+  - `abebe2017-popcorn-cornflake-metals-ethiopia` — Ethiopian popcorn Pb 0.94 mg/kg (5-9x EU ceiling)
+
+  **Cat 2 — Children Personal Care**:
+  - `rashmi2020-baby-talcum-powder-heavy-metals-india` — Cat 2 baby talcum powder, three Indian brands
   - `attard2022-heavy-metals-cosmetics-review` — Cat 2 16-category meta-analysis
-  - `massarsky2025-heavy-metals-toothpaste-health-risk` — Cat 2 toothpaste
-  - `smajgl2015-tin-baby-diapers-croatia` — Cat 2 diapers (organotin)
-  - `li2021-lead-lip-cosmetics-china-ecommerce` — Cat 2 lip cosmetics
-  - `arshad2020-heavy-metals-cosmetic-products-pakistan` — Cat 2 most comprehensive (6 product categories, 189 measurements, Cd/Cr/Fe/Ni/Pb)
-  - `arsenic2025-unknown` — P1 Marker corpus (Navaretnam 2025 arsenic speciation in rice)
-  - (dedup pointer: `arsenic2025-unknown-a`)
+  - `massarsky2025-heavy-metals-toothpaste-health-risk` — Cat 2 toothpaste; WA TFCA 1000 ppb anchor
+  - `smajgl2015-tin-baby-diapers-croatia` — Cat 2 diaper organotin
+  - `li2021-lead-lip-cosmetics-china-ecommerce` — Cat 2 lip cosmetics China e-commerce
+  - `arshad2020-heavy-metals-cosmetic-products-pakistan` — Cat 2 6-category Pakistani cosmetics, 189 measurements (Cd/Cr/Fe/Ni/Pb)
+  - `ricketts2020-mercury-skin-lightening-jamaica` — Cat 2 skin lightening (Hg 0.05-17,547 ppm, 10% above FDA cap)
+  - `salles2023-face-paints-pancakes-brazil-cancer-risk` — Cat 2 face paints (95 samples, 12 PTEs, occupational cancer risk 10⁻³)
+
+  (Dedup pointer: `arsenic2025-unknown-a`)
 - **4 new Cat 2 product pages** (baby-talcum-powder, toothpaste, lipstick, children-personal-care master)
 - **1 new regulation page** (Washington TFCA toothpaste Pb 1000 ppb)
 - **66 auto-stub pages** (49 ingredient + 17 product) from routing-unresolved with frequency ≥ 2
@@ -92,7 +104,7 @@ Cat 2 status:         OPENED — 3 sources, 3 product rows, 1 reg page; methodol
 - **33 wiki/ files rewritten** by firewall-fix (workbench vocabulary removed)
 - **8 new autonomy tools committed** (alias-aware routing, create-missing-pages, ingest-marker-batch, firewall-lint, firewall-fix, mandatory-sections, provenance-audit, link-orphans)
 - **Cat 2 toxicology supplement v1** (`wiki/health/cat-2-non-ingestion-exposure-pathways.md`) — per OPERATING.md Part 7 initiative 3.1, the missing prerequisite for defensible Cat 2 thresholds. Documents the four exposure pathways (dermal, inhalation, product-mediated ingestion, trans-placental) with per-pathway absorption fractions and vulnerable-population factors. Open questions section flags where additional toxicokinetic data is needed.
-- **25 commits** to main (+ 1 daemon tick commit during session)
+- **37 commits** to main (+ 1 daemon tick commit during session)
 
 ### Cat 2 (Children Personal Care) opening summary
 
