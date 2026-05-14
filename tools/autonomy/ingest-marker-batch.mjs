@@ -105,27 +105,55 @@ for (const paper of batch) {
     continue
   }
 
-  if (!fs.existsSync(out)) {
-    console.log(`  FAIL: claude --print did not produce a source page at ${out}`)
-    failed.push({ ...paper, error: "no output file" })
+  // Parse claude's stdout into a source page.
+  const sourcePage = extractSourcePage(result.stdout || "")
+  if (!sourcePage) {
+    console.log(`  FAIL: claude --print stdout did not contain a parsable source page (length ${(result.stdout || "").length})`)
+    failed.push({ ...paper, error: "stdout did not contain '---' frontmatter" })
     continue
   }
 
-  // Basic sanity check
-  const written = fs.readFileSync(out, "utf8")
-  if (!written.startsWith("---")) {
-    console.log(`  FAIL: output missing frontmatter`)
-    failed.push({ ...paper, error: "missing frontmatter" })
+  // Schema sanity checks: cite_key and raw_handle must match the manifest exactly
+  const citeKeyMatch = sourcePage.match(/^cite_key:\s*(\S+)\s*$/m)
+  const rawHandleMatch = sourcePage.match(/^raw_handle:\s*(\S+)\s*$/m)
+  if (!citeKeyMatch || citeKeyMatch[1] !== paper.cite_key) {
+    console.log(`  FAIL: cite_key mismatch (got "${citeKeyMatch?.[1]}", expected "${paper.cite_key}")`)
+    failed.push({ ...paper, error: `cite_key mismatch: ${citeKeyMatch?.[1] || "absent"}` })
     continue
   }
-  if (!/cite_key:\s*\S/.test(written)) {
-    console.log(`  FAIL: output missing cite_key in frontmatter`)
-    failed.push({ ...paper, error: "missing cite_key" })
+  if (!rawHandleMatch || rawHandleMatch[1] !== paper.raw_handle) {
+    console.log(`  FAIL: raw_handle mismatch (got "${rawHandleMatch?.[1]}", expected "${paper.raw_handle}")`)
+    failed.push({ ...paper, error: `raw_handle mismatch: ${rawHandleMatch?.[1] || "absent"}` })
     continue
   }
 
-  console.log(`  OK: ${written.length} bytes`)
+  fs.writeFileSync(out, sourcePage, "utf8")
+  console.log(`  OK: ${sourcePage.length} bytes written to ${path.relative(repoRoot, out)}`)
   succeeded.push(paper)
+}
+
+// Extract the source-page markdown from claude --print stdout. The model
+// occasionally prepends/appends a small amount of chrome ("Here is the
+// source page:") even when instructed not to; we accept anything from the
+// first "---" line onwards.
+function extractSourcePage(stdout) {
+  const idx = stdout.indexOf("\n---\n")
+  if (idx >= 0 && stdout.slice(0, idx + 1).split("\n").every((line) => !line.startsWith("---"))) {
+    // Frontmatter starts after some chrome lines; trim chrome
+    return stdout.slice(idx + 1)
+  }
+  if (stdout.startsWith("---\n")) return stdout
+  // Look for "---" anywhere as first non-empty line
+  const trimmed = stdout.replace(/^[\s]*\n/, "")
+  if (trimmed.startsWith("---\n")) return trimmed
+  // Find first "---" line and take from there
+  const fmStart = stdout.indexOf("\n---\n")
+  if (fmStart >= 0) return stdout.slice(fmStart + 1)
+  if (stdout.includes("\n---")) {
+    const fmS = stdout.indexOf("---")
+    return stdout.slice(fmS)
+  }
+  return null
 }
 
 writeReport(batch, succeeded, failed)
@@ -137,35 +165,28 @@ function buildPrompt(paper) {
   const handle = paper.raw_handle
   const citeKey = paper.cite_key
   const mdPath = path.relative(repoRoot, paper.markdown_path)
-  const outPath = path.relative(repoRoot, path.join(sourcesDir, `${citeKey}.md`))
   const metaPath = path.relative(repoRoot, path.join(markdownDir, handle, `${handle}_meta.json`))
 
-  return `You are ingesting a peer-reviewed paper into the Heavy Metal Index wiki. Follow these instructions EXACTLY.
+  return `Generate a wiki source page from a peer-reviewed paper. You have Read tool access to the input files. Your ENTIRE response must be the source page markdown — no prose before or after, no explanation, no "Here is" — just the YAML frontmatter starting with "---" on line 1, followed by the markdown body, ending naturally with the last list item or paragraph.
 
-INPUT
+INPUT FILES (read with your Read tool):
   Marker-converted markdown: ${mdPath}
   Metadata JSON (may exist): ${metaPath}
-  Manifest record:
-    raw_handle: ${handle}
-    cite_key: ${citeKey}
-    title (mined): ${paper.cite_key.replace(/-/g, " ")}
-    year: ${paper.year || "unknown"}
-    doi: ${paper.doi || "unknown"}
-    publication: ${paper.publication || "unknown"}
-    first_author: ${paper.first_author || "unknown"}
-    license: ${paper.license || "unknown"}
-    text_mined_metals: ${paper.text_mined_metals || ""}
-    text_mined_ingredients: ${paper.text_mined_ingredients || ""}
-    text_mined_jurisdictions: ${paper.text_mined_jurisdictions || ""}
-    priority_tier: ${paper.priority_tier}
 
-TASK
-1. Read the Marker markdown at the input path. Read the metadata JSON if it exists.
-2. Generate a source page that follows CLAUDE.md Part 6's source-page template.
-3. Write the source page to: ${outPath}
+MANIFEST RECORD:
+  raw_handle: ${handle}
+  cite_key: ${citeKey}
+  year: ${paper.year || "unknown"}
+  doi: ${paper.doi || "unknown"}
+  publication: ${paper.publication || "unknown"}
+  first_author: ${paper.first_author || "unknown"}
+  license: ${paper.license || "unknown"}
+  text_mined_metals: ${paper.text_mined_metals || ""}
+  text_mined_ingredients: ${paper.text_mined_ingredients || ""}
+  text_mined_jurisdictions: ${paper.text_mined_jurisdictions || ""}
+  priority_tier: ${paper.priority_tier}
 
-OUTPUT TEMPLATE
-The source page must have this exact structure:
+REQUIRED OUTPUT STRUCTURE (this is literally what you output, nothing else):
 
 ---
 type: source
@@ -176,15 +197,17 @@ authors: [<comma-separated author list>]
 year: <integer>
 publication: "<journal or report name>"
 doi: <doi or null>
+no_doi_assigned: <true if doi is null, else omit>
+access_url: "<paper URL if known, else omit>"
 source_type: peer-reviewed
 evidence_tier: A
 license: <CC BY | CC BY-NC | CC0 | restricted | other>
 raw_path: ${mdPath}
 metals: [<list using vocabulary: Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U>]
-ingredients: [<list of wikilinks to ingredient slugs e.g. "[[ingredients/rice]]">]
-products: [<list of wikilinks to product slugs e.g. "[[products/infant-cereal]]" or empty>]
-matrices: [<simple slugs e.g. dietary-intake, whole-food, urine, blood>]
-jurisdictions: [<ISO country codes e.g. CN, US, EU>]
+ingredients: [<list of wikilinks like "[[ingredients/rice]]">]
+products: [<list of wikilinks like "[[products/infant-cereal]]" or empty>]
+matrices: [<simple slugs like dietary-intake, whole-food, urine, blood>]
+jurisdictions: [<ISO country codes>]
 sample_n: <integer or null>
 sample_population: "<one-line description>"
 updated: ${today}
@@ -198,19 +221,15 @@ created_by: autonomy_v0
 
 ## Key numbers
 
-<Pull exact figures: sample sizes, means, medians, percentiles, LODs, geographic breakdowns. Use markdown tables where appropriate. Preserve units (mg/kg, µg/kg, ppb). Include the regulatory limit cited if any.>
+<Pull exact figures: sample sizes, means, medians, percentiles, LODs, geographic breakdowns. Use markdown tables where appropriate. Preserve units. Include any regulatory limit cited.>
 
 ## Methods
 
-<Analytical method (ICP-MS, AAS, etc.), speciation or total, sample prep, LOD/LOQ, sample size. Two to four sentences.>
+<Analytical method, speciation or total, sample prep, LOD/LOQ, sample size. Two to four sentences.>
 
 ## Implications
 
-<One paragraph or 3-5 short labelled paragraphs:
-- Certification: ...
-- Courses: ...
-- App: ...
-- Microbiome (if applicable): ...>
+<One paragraph covering certification, courses, app, and microbiome relevance where applicable.>
 
 ## Wiki pages updated on ingest
 
@@ -220,15 +239,14 @@ created_by: autonomy_v0
 - [[regulations/<slug>]] for each named regulation if any
 
 CRITICAL RULES
-- The cite_key in frontmatter MUST be exactly: ${citeKey}
-- The raw_handle in frontmatter MUST be exactly: ${handle}
-- Use only the metal vocabulary above. Spell out on first use in prose.
-- Speciation matters: do NOT conflate iAs vs tAs, MeHg vs tHg, Cr-VI vs Cr.
+- cite_key MUST be exactly: ${citeKey}
+- raw_handle MUST be exactly: ${handle}
+- Use only the metal vocabulary listed. Speciation matters: do NOT conflate iAs/tAs, MeHg/tHg, Cr-VI/Cr.
 - Never round regulatory thresholds.
-- If you cannot find a value in the paper, omit it — do NOT invent numbers.
-- Write the file using your Write tool. Do not print the source page to stdout.
-
-When done, respond with the single line "INGESTED ${citeKey}".`
+- If a value isn't in the paper, omit it. Do NOT invent numbers.
+- If doi is missing, add no_doi_assigned: true with an access_url field.
+- DO NOT include prose before "---" or after the last list item.
+- DO NOT use the Write tool — just print the source page to stdout.`
 }
 
 function invokeClaude(prompt, model) {
@@ -243,13 +261,17 @@ function invokeClaude(prompt, model) {
   // loops with bypassPermissions" — relying on the repo's existing settings
   // keeps the spawn within the same trust boundary the user already accepted.
   //
+  // The model only needs Read tool access — it reads the Marker markdown
+  // file, then prints the source page to stdout. Our wrapper writes the
+  // file. This avoids the "is the sub-claude allowed to Write?" surface.
+  //
   // Long prompts go via stdin (argv has a kernel size limit; our prompts
   // are 3-5 KB so the limit is reachable on macOS).
   const args = [
     "--print",
     "--model", model,
     "--add-dir", repoRoot,
-    "--allowedTools", "Read,Write,Edit",
+    "--allowedTools", "Read",
   ]
 
   try {
