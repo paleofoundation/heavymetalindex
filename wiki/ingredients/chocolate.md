@@ -182,8 +182,3 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd in chocolate tiered by cocoa-solid percentage (0.3 to 0.9 mg/kg) and for Cd in cocoa powder at 2.0 mg/kg, the international benchmark for finished chocolate regulation |
 | 11 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni concentration data reporting dark (bitter) chocolate at 1.9 µg/g and milk chocolate at 0.7 µg/g, the primary Ni occurrence reference underpinning the chocolate Ni section |
 <!-- END: hmi-source-legend -->
-## Why this commodity accumulates heavy metals
-
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
-
-

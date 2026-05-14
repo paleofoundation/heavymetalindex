@@ -58,6 +58,12 @@ run_step() {
 
 log "Daemon tick start. Repo: $REPO_ROOT. Branch: $(git branch --show-current)"
 
+# Heartbeat: drop a timestamp so a separate watchdog (or human) can tell
+# whether the daemon is alive without reading tick logs. If this file gets
+# stale (>2 ticks worth, ~75 min), something is wrong.
+HEARTBEAT_FILE="$REPO_ROOT/data/evidence/autonomy/heartbeat.txt"
+echo "$TIMESTAMP" > "$HEARTBEAT_FILE"
+
 # Refuse to run if the working tree is dirty with uncommitted edits we didn't
 # make. Safer than committing surprises.
 if ! git diff --quiet || ! git diff --cached --quiet; then
@@ -116,8 +122,29 @@ run_step "pooling engine" node tools/evidence/build-hmtc-aggregate-distributions
 # fixed before it accumulates.
 run_step "firewall lint" node tools/autonomy/firewall-lint.mjs || log "WARN: firewall lint reported ERROR violations; see data/evidence/autonomy/firewall-lint-*.md"
 
+# Step 4c: firewall fix — re-applies the bulk firewall rewrites every tick so
+# regressions never accumulate. Idempotent: zero changes after the first
+# clean pass.
+run_step "firewall fix" node tools/autonomy/firewall-fix.mjs || true
+
+# Step 4d: mandatory-sections audit + autofill — ensures every non-stub
+# ingredient and product page carries the required H2 sections per CLAUDE.md
+# Part 6. Idempotent: any missing section gets a "Pending synthesis"
+# placeholder. Future synthesis ticks replace the placeholder with content.
+run_step "mandatory sections" node tools/autonomy/mandatory-sections.mjs || true
+
 # Step 5: gap-driven wishlist (queries for thin cells)
 run_step "gap-driven wishlist" node tools/autonomy/gap-driven-wishlist.mjs || true
+
+# Step 5b: actually fetch the wishlist's top OA-licensed candidates.
+# Off by default to keep OpenAlex bandwidth and raw/ disk usage under
+# control. Set HMI_AUTONOMOUS_FETCH=1 to enable per-tick fetch. Default-on
+# would be once per day, not per 30 min — wire that via a separate cron
+# or `if (( $(date +%M) < 30 && $(date +%H) == 9 ))` guard.
+FETCH_ENABLED="${HMI_AUTONOMOUS_FETCH:-0}"
+if [[ "$FETCH_ENABLED" == "1" ]]; then
+  run_step "wishlist fetch" npm run wishlist:fetch || true
+fi
 
 # Step 6: regenerate briefings for Category 1
 log "=== regenerating Cat 1 briefings ==="

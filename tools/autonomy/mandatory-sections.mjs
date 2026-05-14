@@ -189,7 +189,21 @@ function sectionPresent(body, sectionTitle) {
     const m = line.match(/^##\s+(.+?)\s*$/)
     if (m) headings.push(normalizeHeading(m[1]))
   }
-  return headings.includes(normalizeHeading(sectionTitle))
+  const target = normalizeHeading(sectionTitle)
+  if (headings.includes(target)) return true
+
+  // Variant matchers — pages that already cover the same content under a
+  // narrower title satisfy the requirement. The "Why this commodity
+  // accumulates heavy metals" section, for example, is satisfied by any
+  // analyte-specific variant (cadmium, lead, arsenic, etc.) because the
+  // underlying content explains the accumulation mechanism.
+  if (target === "why this commodity accumulates heavy metals") {
+    return headings.some((h) => /^why this commodity accumulates\b/.test(h))
+  }
+  if (target === "heavy metal contamination profile") {
+    return headings.some((h) => /^contamination profile\b/.test(h)) || headings.some((h) => /heavy metal.*profile/.test(h))
+  }
+  return false
 }
 
 function normalizeHeading(s) {
