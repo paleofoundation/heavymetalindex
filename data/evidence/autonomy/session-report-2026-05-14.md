@@ -199,6 +199,29 @@ For Karen's review:
 - `wiki/products/toothpaste.md` — Cat 2 row 2
 - `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md` — Cat 2 reg anchor
 
+## URGENT — daemon paused; needs your manual reload
+
+Tick at 21:19Z (and any subsequent) failed with `Operation not permitted` in `/tmp/heavymetalindex-daemon.err.log`. Root cause: macOS sets a `com.apple.provenance` xattr on every file modified by sandboxed processes (Claude Code's Edit tool). The OS blocks launchd from `exec`'ing provenance-tagged files.
+
+The fix is committed in the repo's plist (`tools/autonomy/com.paleo.heavymetalindex.daemon.plist`). The installed plist (at `~/Library/LaunchAgents/`) is still the old version. The harness blocked me from auto-reloading because changing a launchd job combined with the sub-claude `bypassPermissions` pattern crosses a safety boundary requiring explicit authorization.
+
+**Two-command manual fix:**
+
+```bash
+cp tools/autonomy/com.paleo.heavymetalindex.daemon.plist ~/Library/LaunchAgents/
+launchctl unload ~/Library/LaunchAgents/com.paleo.heavymetalindex.daemon.plist && launchctl load ~/Library/LaunchAgents/com.paleo.heavymetalindex.daemon.plist
+```
+
+After this, the daemon resumes on the next 30-min tick and picks up all the work committed during this session. You'll see new entries in `data/evidence/autonomy/daemon-runs/`.
+
+**Alternative one-shot test:**
+
+```bash
+bash tools/autonomy/daemon-tick.sh
+```
+
+This runs the daemon-tick exactly as launchd would, bypasses the xattr issue (you're not sandboxed), and gives you the per-tick output directly. If it works, the plist fix is just for autonomy.
+
 ## Bottom line
 
 The wiki self-build loop is now end-to-end functional:
