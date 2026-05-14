@@ -1,15 +1,3 @@
----
-title: "HMTc Standards Briefing, Mixed Meals, Non-Rice"
-type: hmtc-standards-briefing
-product_slug: mixed-meals-non-rice
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:30.848Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.13 Mixed Meals (Non-Rice)
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*

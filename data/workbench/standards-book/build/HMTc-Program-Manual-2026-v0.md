@@ -1,6 +1,6 @@
 <!--
 HMTc Program Manual, 2026 Edition — v0-pre-audit
-Generated: 2026-05-14T18:57:15.602Z
+Generated: 2026-05-14T19:38:13.406Z
 Source: data/workbench/standards-book/
 Build tool: tools/standards/build-program-manual.mjs
 -->
@@ -20,8 +20,8 @@ Build tool: tools/standards/build-program-manual.mjs
 Standards Architect, Paleo Foundation
 ORCID: [pending]
 
-The Paleo Foundation
-Larnaca, Cyprus
+Paleo Certified, Inc. dba The Paleo Foundation
+Orlando, Florida
 
 ---
 
@@ -70,11 +70,11 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 **ISBN:** [pending]
 **DOI:** [pending, to be minted via Zenodo or Crossref]
 
-**Copyright** © 2026 The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of The Paleo Foundation. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
+**Copyright** © 2026 Paleo Certified, Inc. dba The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of Paleo Certified, Inc. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
 
-**License for citation and reference.** This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from the Paleo Foundation. The HMTc Certification Mark may not be used by any party not licensed under a current HMTc license agreement.
+**License for citation and reference.** This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from Paleo Certified, Inc. The HMTc Certification Mark may not be used by any party not licensed under a current HMTc license agreement.
 
-**Database rights.** The heavymetalindex.com corpus that this manual references is protected under EU Database Directive (96/9/EC), 15-year sui generis term, by virtue of the Paleo Foundation's Cyprus operating base. Substantial extraction or re-utilization of the database without authorization is prohibited.
+**Intellectual property protection.** The HMTc Certification Mark is pending registration with the United States Patent and Trademark Office (Serial No. 99307306). The heavymetalindex.com corpus that this manual references is protected under U.S. copyright law and U.S. trade-secret doctrine, with additional protection planned through an EU corporate entity in a future Edition; substantial extraction or re-utilization of the corpus without authorization is prohibited.
 
 
 
@@ -757,17 +757,17 @@ Certification under this Program does not constitute legal advice and does not r
 
 ### 1.6 International Scope
 
-HMTc applies anywhere infant and child food products are sold. The Program operates from the Paleo Foundation's Cyprus base under EU regulatory frameworks for database rights and certification governance, and applies operationally to products sold in any jurisdiction.
+HMTc applies anywhere infant and child food products are sold. The Program is operated by Paleo Certified, Inc., a Florida corporation doing business as The Paleo Foundation, with dispute resolution under California law (see Part 5.6). The Program applies operationally to products sold in any jurisdiction.
 
 The 2026 Edition is calibrated against the global open literature aggregated on heavymetalindex.com. A brand selling in any jurisdiction is evaluated against the same per-category HMTc limits derived from the global corpus, with the lowest applicable regulatory cap in the brand's markets of sale serving as a hard upper bound (per the standards-setting principle in Part 5.1 and the regulatory escalation rule in Part 2.11).
 
 **Regional adaptability, roadmap for future Editions.** Future Editions of the Standards will introduce region-specific calibration as the heavymetalindex.com corpus accumulates region-specific evidence at sufficient sample-size totals to support statistically defensible regional pooling. The Governing Principles are universal; their *calibration* may become regional in a future Edition. When that happens, the operational rule will be: the more stringent of (regional platform limit, global cleanest-achievable benchmark) governs, so that brands selling in higher-contamination regions face standards that incentivize sourcing from cleaner supply chains, the market-demand catalyst Governing Principle 1 names as the program's primary mechanism.
 
-For the 2026 Edition, regional adaptability is named here as a structural commitment to future evolution, not as an operational feature. The honest disclosure is that the current Edition uses global calibration, and that the next Edition's regional-adaptability work will begin once Cat 2 and additional categories ship.
+For the 2026 Edition, regional adaptability is named here as a structural commitment to future evolution, not as an operational feature. The honest disclosure is that the current Edition uses global calibration, and that the next Edition's regional-adaptability work will begin once Cat 2 and additional categories ship. A separate EU-domiciled corporate entity for heavymetalindex.com is on the roadmap; that entity will operate the corpus under EU Database Directive 96/9/EC protection once incorporated, complementing the U.S. copyright and trade-secret protection that the 2026 Edition relies on.
 
 ### 1.7 Program-Operator Continuity
 
-The HMTc Program is operated by The Paleo Foundation, a regulatory and certification body incorporated in Cyprus with operational governance documented in the controlled-document registry. Brand licensees may rely on Program continuity as follows: the license agreement remains operative across changes in Program leadership; the methodology continues to evolve through the Standards Ratchet and the Governing Principles' revision cycle; and if Program operation transfers to another entity (by sale, merger, or governance reorganization), licensees receive written notice with a minimum 12-month grace period before any operational change affects their certification status. The Program Operator publishes annual operational continuity reporting that includes governance composition, financial sustainability, and any pending transition events.
+The HMTc Program is operated by Paleo Certified, Inc., a Florida corporation doing business as The Paleo Foundation, with operational governance documented in the controlled-document registry. Brand licensees may rely on Program continuity as follows: the license agreement remains operative across changes in Program leadership; the methodology continues to evolve through the Standards Ratchet and the Governing Principles' revision cycle; and if Program operation transfers to another entity (by sale, merger, or governance reorganization), licensees receive written notice with a minimum 12-month grace period before any operational change affects their certification status. The Program Operator publishes annual operational continuity reporting that includes governance composition, financial sustainability, and any pending transition events.
 
 ## Cross-references
 
@@ -1665,18 +1665,6 @@ Each chapter is the deterministic output of a Standards Briefing generator (`too
 
 <!-- data/workbench/standards-book/parts/04-the-standards/01-infant-formula-powder-non-soy.md -->
 
----
-title: "HMTc Standards Briefing, Infant Formula, Powder (Non-Soy)"
-type: hmtc-standards-briefing
-product_slug: infant-formula-powder-non-soy
-native_basis: powder_as_placed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:28.854Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.1 Infant Formula, Powder (Non-Soy)
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
@@ -2281,18 +2269,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 <!-- data/workbench/standards-book/parts/04-the-standards/02-infant-formula-powder-soy-based.md -->
 
----
-title: "HMTc Standards Briefing, Infant Formula, Powder (Soy-Based)"
-type: hmtc-standards-briefing
-product_slug: infant-formula-powder-soy-based
-native_basis: powder_as_placed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:29.025Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.2 Infant Formula, Powder (Soy-Based)
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
@@ -2567,18 +2543,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 <!-- data/workbench/standards-book/parts/04-the-standards/03-infant-formula-rtf-liquid-non-soy.md -->
 
----
-title: "HMTc Standards Briefing, Infant Formula, RTF Liquid (Non-Soy)"
-type: hmtc-standards-briefing
-product_slug: infant-formula-rtf-liquid-non-soy
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:29.188Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.3 Infant Formula, Ready-to-Feed Liquid (Non-Soy)
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
@@ -2847,18 +2811,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 <!-- data/workbench/standards-book/parts/04-the-standards/04-infant-formula-rtf-liquid-soy-based.md -->
 
----
-title: "HMTc Standards Briefing, Infant Formula, RTF Liquid (Soy-Based)"
-type: hmtc-standards-briefing
-product_slug: infant-formula-rtf-liquid-soy-based
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:29.352Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.4 Infant Formula, Ready-to-Feed Liquid (Soy-Based)
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
@@ -3103,18 +3055,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 
 <!-- data/workbench/standards-book/parts/04-the-standards/05-baby-cereals-dry-rice-based.md -->
-
----
-title: "HMTc Standards Briefing, Baby Cereals / Grain Products, Dry (Rice-Based)"
-type: hmtc-standards-briefing
-product_slug: baby-cereals-dry-rice-based
-native_basis: dry_as_sold
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:29.517Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
 
 # 3.5 Baby Cereals, Dry (Rice-Based)
 
@@ -3387,18 +3327,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 <!-- data/workbench/standards-book/parts/04-the-standards/06-baby-cereals-dry-non-rice.md -->
 
----
-title: "HMTc Standards Briefing, Baby Cereals / Grain Products, Dry (Non-Rice)"
-type: hmtc-standards-briefing
-product_slug: baby-cereals-dry-non-rice
-native_basis: dry_as_sold
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:29.681Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.6 Baby Cereals, Dry (Non-Rice)
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
@@ -3663,18 +3591,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 
 <!-- data/workbench/standards-book/parts/04-the-standards/07-fruit-purees.md -->
-
----
-title: "HMTc Standards Briefing, Fruit Purees"
-type: hmtc-standards-briefing
-product_slug: fruit-purees
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:29.864Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
 
 # 3.7 Fruit Purées
 
@@ -3972,18 +3888,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 <!-- data/workbench/standards-book/parts/04-the-standards/08-non-root-vegetable-purees.md -->
 
----
-title: "HMTc Standards Briefing, Non-Root Vegetable Purees"
-type: hmtc-standards-briefing
-product_slug: non-root-vegetable-purees
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:30.027Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.8 Non-Root Vegetable Purées
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
@@ -4203,18 +4107,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 
 <!-- data/workbench/standards-book/parts/04-the-standards/09-root-vegetable-purees.md -->
-
----
-title: "HMTc Standards Briefing, Root-Vegetable Purees"
-type: hmtc-standards-briefing
-product_slug: root-vegetable-purees
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:30.192Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
 
 # 3.9 Root-Vegetable Purées
 
@@ -4441,18 +4333,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 
 <!-- data/workbench/standards-book/parts/04-the-standards/10-meat-and-poultry-purees.md -->
-
----
-title: "HMTc Standards Briefing, Meat and Poultry Purees"
-type: hmtc-standards-briefing
-product_slug: meat-and-poultry-purees
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:30.358Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
 
 # 3.10 Meat and Poultry Purées
 
@@ -4710,18 +4590,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 <!-- data/workbench/standards-book/parts/04-the-standards/11-fish-containing-baby-foods.md -->
 
----
-title: "HMTc Standards Briefing, Fish-Containing Baby Foods"
-type: hmtc-standards-briefing
-product_slug: fish-containing-baby-foods
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:30.522Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.11 Fish-Containing Baby Foods
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
@@ -4908,18 +4776,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 
 <!-- data/workbench/standards-book/parts/04-the-standards/12-mixed-meals-rice-containing.md -->
-
----
-title: "HMTc Standards Briefing, Mixed Meals, Rice-Containing"
-type: hmtc-standards-briefing
-product_slug: mixed-meals-rice-containing
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:30.685Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
 
 # 3.12 Mixed Meals (Rice-Containing)
 
@@ -5177,18 +5033,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 <!-- data/workbench/standards-book/parts/04-the-standards/13-mixed-meals-non-rice.md -->
 
----
-title: "HMTc Standards Briefing, Mixed Meals, Non-Rice"
-type: hmtc-standards-briefing
-product_slug: mixed-meals-non-rice
-native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:30.848Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
-
 # 3.13 Mixed Meals (Non-Rice)
 
 *This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Program Manual. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume. The methodology that produces the limit values in this chapter is documented in Part 5.1 (How HMTc Standards Are Set). The certification status framework that operationalizes the limits is documented in Part 2.3. The Standards Ratchet that evolves these limits over time is documented in Part 2.10. Program-level adversarial attacks not specific to this product are addressed in Part 5.2 (Program-Level Adversarial Read); the per-product adversarial read in this chapter addresses attacks specific to this product category.*
@@ -5442,18 +5286,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 
 <!-- data/workbench/standards-book/parts/04-the-standards/14-teething-and-snacks-rice-based.md -->
-
----
-title: "HMTc Standards Briefing, Teething & Snacks (Rice-Based)"
-type: hmtc-standards-briefing
-product_slug: teething-and-snacks-rice-based
-native_basis: as_sold
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:31.011Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
 
 # 3.14 Teething and Snacks (Rice-Based)
 
@@ -5713,18 +5545,6 @@ Methodology implementation: deterministic open-source pooling engine and documen
 
 
 <!-- data/workbench/standards-book/parts/04-the-standards/15-teething-and-snacks-non-rice.md -->
-
----
-title: "HMTc Standards Briefing, Teething & Snacks (Non-Rice)"
-type: hmtc-standards-briefing
-product_slug: teething-and-snacks-non-rice
-native_basis: as_sold
-methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:31.181Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
-audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
-noindex: true
----
 
 # 3.15 Teething and Snacks (Non-Rice)
 
@@ -6517,11 +6337,11 @@ The auditability claim is now operationally specified with a documented response
 
 **Response.** Part 2.9 now includes an explicit §"Anonymization limits, honest disclosure" section acknowledging the metadata-correlation risk. The Program Operator's three operational mitigations are documented: batching (multiple reporting brands' findings combined into one alert), geographic generalization (region rather than exact origin), and discretionary hold (alerts delayed at the reporting brand's request). Brands are explicitly told that anonymization is **strong but not absolute**, that sophisticated observers correlating public sourcing disclosures could potentially infer the reporting brand, and that the metadata-correlation risk should factor into the participation decision. The Program Operator does not warrant absolute anonymization.
 
-## Cyprus operating-base enforceability
+## Dispute resolution forum
 
-**Attack.** "The Part 5.6 dispute-resolution provisions specify Cyprus-seated ICDR arbitration under Cypriot law. This is favorable to the Foundation but may be unenforceable against U.S. brands without specific contractual provisions. The choice of seat appears to disadvantage U.S. Licensees in jurisdictional terms."
+**Attack.** "The Part 5.6 dispute-resolution provisions specify California-seated arbitration under California law. A non-California Licensee may argue the choice of forum disadvantages them in jurisdictional terms, or that California arbitration awards face enforcement friction in other states."
 
-**Response.** Part 5.6 §"Dispute resolution" now includes a §"Why Cyprus-seated arbitration" explanation. The choice of seat is consistent with the Foundation's Cyprus regulatory and operational base. Under the **1958 New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards** (to which both Cyprus and the United States are signatories), Cyprus-seated arbitration awards are enforceable in U.S. courts, just as U.S. arbitration awards are enforceable in Cyprus. The choice of seat does not deprive U.S. Licensees of award enforceability. The Program Operator considers alternative-forum proposals on a case-by-case basis during license negotiations where material commercial considerations warrant it.
+**Response.** Part 5.6 §"Dispute resolution" specifies California-seated mediation followed by AAA Commercial Arbitration in San Diego. The choice of forum reflects three operational considerations: (a) MDL 3101 and the relevant baby-food heavy-metal product liability case law are being made in the Northern District of California, so the operative legal landscape is California's; (b) AB 899 and Proposition 65 are California-state regimes whose enforcement intersects directly with HMTc certification obligations; (c) the Program's defense counsel operates from San Diego, locating defense expertise in the dispute forum. California arbitration awards are enforceable in every U.S. jurisdiction under the Federal Arbitration Act, so a California award reaches non-California Licensees without enforcement friction. Non-U.S. Licensees may discuss alternative-forum proposals during license negotiations.
 
 ## Forward-forecast accountability
 
@@ -6579,7 +6399,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **EFSA.** European Food Safety Authority. An EU agency that produces scientific opinions on food and feed risks, including contaminant risk assessments used by regulators.
 
-**Heavymetalindex.com (HMI).** The public curated corpus of the heavy-metals-in-food literature operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program. The evidence layer that every HMTc standard rests on. Sui generis EU database-rights protected (15-year term) under Directive 96/9/EC. (Per Part 1.5 and Part 2.5.)
+**Heavymetalindex.com (HMI).** The public curated corpus of the heavy-metals-in-food literature operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program. The evidence layer that every HMTc standard rests on. Protected under U.S. copyright law and U.S. trade-secret doctrine; a parallel EU corporate structure for HMI is on the roadmap, at which point the corpus will additionally hold EU Database Directive 96/9/EC sui generis protection (15-year term). (Per Part 1.5 and Part 2.5.)
 
 **Hold-and-Release.** The finished product lot is physically quarantined and may not ship until laboratory results are received and the lot is confirmed to meet at minimum the applicable status criteria. Hold-and-release procedures must include documented quarantine location, responsible personnel, and release authorization records. (Per Part 4 §3.1.)
 
@@ -6825,26 +6645,28 @@ The summary covers fee structure, term length, mark-usage scope, anti-arbitrage 
 
 ## Fee structure
 
-HMTc licensing fees are **annual** and **revenue-based** rather than per-SKU. A brand with twenty certified SKUs at a single revenue tier pays the same annual licensing fee as a brand with two certified SKUs at the same tier. This structure reflects the program's commercial-viability principle (Governing Principle 5): fee structure should not penalize brands for breadth of certification, because the program's public-health objectives are served by maximizing the volume of certified SKUs in the market.
+HMTc License Fees are **revenue-tiered**, calculated based on the Licensee's annual revenue at the time the license agreement is executed. A brand with twenty certified SKUs at a single revenue tier pays the same License Fee as a brand with two certified SKUs at the same tier. This structure reflects the program's commercial-viability principle (Governing Principle 5): fee structure should not penalize brands for breadth of certification, because the program's public-health objectives are served by maximizing the volume of certified SKUs in the market.
 
-Revenue tiers are tiered to brand size:
+Revenue tiers, by brand size:
 
-- **Small brands** (under $5M annual revenue) pay an entry-tier annual fee designed to make certification accessible without subsidizing larger competitors.
-- **Mid-size brands** ($5M–$50M annual revenue) pay a mid-tier annual fee scaled to the financial benefit of certification at this revenue band.
-- **Large brands** ($50M–$500M annual revenue) pay a higher annual fee reflecting the proportional ROI delivery the program enables.
+- **Small brands** (under $5M annual revenue) pay an entry-tier License Fee designed to make certification accessible without subsidizing larger competitors.
+- **Mid-size brands** ($5M–$50M annual revenue) pay a mid-tier License Fee scaled to the financial benefit of certification at this revenue band.
+- **Large brands** ($50M–$500M annual revenue) pay a higher License Fee reflecting the proportional ROI delivery the program enables.
 - **Enterprise brands** (over $500M annual revenue) negotiate enterprise terms with the Program Operator directly.
 
-Specific fee schedules are published in the License Agreement Schedule and are reviewed annually by the Program Operator. Brands at the evaluation stage can request the current fee schedule from the Program Operator. The schedule is not reproduced in this manual because (a) fee schedules are operational rather than methodological, and (b) reproducing them here would require an addendum to the bound manual every time the schedule is revised.
+The License Fee is due and payable to the Program Operator upon execution of the license agreement and covers the initial term (see Term Length, below). The Program Operator may, in its discretion, approve an installment arrangement under which the License Fee is paid over the course of the initial term. Specific fee schedules are published in the License Agreement Schedule and are reviewed annually by the Program Operator. Brands at the evaluation stage can request the current fee schedule from the Program Operator. The schedule is not reproduced in this manual because fee schedules are operational rather than methodological.
 
-Testing costs (laboratory fees for the testing required under Part 4) are **separate from licensing fees** and are paid by the Licensee directly to their ISO/IEC 17025-accredited laboratory. The Program Operator does not mark up testing fees; the laboratory market provides the cost discipline.
+Testing costs (laboratory fees for the testing required under Part 4) are **separate from License Fees** and are paid by the Licensee directly to their ISO/IEC 17025-accredited laboratory. The Program Operator does not mark up testing fees; the laboratory market provides the cost discipline.
 
 ## Term length and renewal
 
-License agreements run for an **initial term of three (3) years**, with automatic annual renewal thereafter unless either party provides notice of non-renewal at least 90 days before the renewal date. The three-year initial term aligns with the Standards Ratchet's formal three-year revision cycle (Part 2.10 §12.1), giving brands certainty about both the certification framework and the licensing relationship across at least one ratchet cycle.
+License agreements are executed for an **initial term** of one to three (1–3) years, selected by mutual agreement at signing. At the end of the initial term, the Licensee may notify the Program Operator at least ten (10) days before expiration of intent to extend the license for an Extended Term of one to three additional years in consideration of an additional License Fee. Failure to provide timely notice causes the agreement to terminate at the end of the initial term.
 
-A brand may terminate the license at any time with 90 days' written notice. Upon termination, the brand surrenders mark usage rights immediately and Track confidentiality protections continue per the agreement's confidentiality provisions.
+Following the initial term and any Extended Term, the Licensee may renew the license by providing the Program Operator at least sixty (60) days' written notice prior to expiration. Renewal is by good-faith negotiation of a new license agreement, which may incorporate revised terms or revised standards (including any Standards Ratchet revisions per Part 2.10).
 
-The Program Operator may terminate the license for cause: data integrity violations (per Part 2.7 §8.2), regulatory limit violations (per Part 2.11), willful misconduct, or material breach of the agreement. For-cause termination triggers Status E revocation per Part 2.3 §5.6.
+Either party may terminate the license at any time, for any reason, upon thirty (30) days' prior written notice. In the event of alleged breach, the non-breaching party provides written notice and the other party has thirty (30) days to cure. The Program Operator may terminate for cause immediately upon written notice for Trademark misuse, use in connection with non-Approved Goods, or failure to pay any installment of the License Fee. For-cause termination triggers Status E revocation per Part 2.3 §5.6 and forfeits the sell-off rights described below.
+
+Upon termination or expiration, the Licensee has 180 days (the Sell-Off Period) to sell existing inventory of Approved Goods bearing the Trademark, except in the case of Termination for Cause where no Sell-Off Period applies. After the Sell-Off Period, the Licensee must destroy or remove all remaining product, marketing materials, and online content bearing the Trademark.
 
 ## Mark usage scope
 
@@ -6884,11 +6706,11 @@ In practice, regulatory cooperation means: the Program Operator will respond to 
 
 ## Dispute resolution
 
-License agreement disputes are subject to binding arbitration under the rules of the International Centre for Dispute Resolution (ICDR), seated in Cyprus, with the substantive law of the agreement being Cypriot law. The choice of seat and substantive law reflects the Paleo Foundation's Cyprus operating base and is consistent with the EU regulatory frameworks under which the program operates.
+License agreement disputes are first submitted to mediation in San Diego, California, with a mutually-agreed mediator (or, failing agreement, a JAMS-administered mediation). Unresolved disputes proceed to binding arbitration under the American Arbitration Association's Commercial Arbitration Rules, heard by a single arbitrator who shall be a retired judge or intellectual property attorney. The substantive law of the agreement is California law; the seat of arbitration is San Diego, California. The arbitrator's award is enforceable in any court of competent jurisdiction, including the San Diego Superior Court and the United States District Court for the Southern District of California.
 
-**Why Cyprus-seated arbitration.** The Paleo Foundation is incorporated in Cyprus and operates under EU regulatory frameworks. Cyprus-seated ICDR arbitration is consistent with the Foundation's regulatory and operational base and provides predictable procedural rules under the **1958 New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards**, to which both Cyprus and the United States are signatories. Arbitration awards rendered in Cyprus are therefore enforceable in U.S. courts under the Convention, just as U.S. arbitration awards are enforceable in Cyprus. The choice of seat does not deprive U.S. Licensees of the ability to enforce favorable awards in U.S. jurisdictions.
+**Why California-seated arbitration.** Paleo Certified, Inc. is a Florida corporation, but the substantive case law for heavy-metals product liability and food-safety regulation is being made in California: MDL 3101 (the consolidated baby-food heavy-metal litigation) is in the Northern District of California; AB 899 (mandatory baby-food testing and disclosure) is California state law; Proposition 65 (the private-enforcement civil-warning regime) is California state law; the Program's defense counsel operates from San Diego. Locating dispute resolution in the jurisdiction where the substantive law lives means that any dispute is heard by decision-makers familiar with the operative legal landscape. California arbitration awards are enforceable in all U.S. jurisdictions under the Federal Arbitration Act, so a California award reaches Licensees in any state.
 
-Licensees with specific concerns about the practical implications of Cyprus-seated arbitration, including non-U.S. Licensees evaluating jurisdictional questions in their home markets, should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
+Licensees outside the United States with specific concerns about California-seated arbitration should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
 
 Certification status disputes (as distinct from license agreement disputes) follow the two-tier appeals process specified in Part 2.12, which is independent of arbitration and operates as the Program's internal dispute-resolution mechanism for status determinations.
 
@@ -6920,7 +6742,7 @@ The actual license agreement contains operative terms not summarized here, inclu
 
 Karen Pendergrass is the Standards Architect for the HMTc Program and CEO of The Paleo Foundation. The dual role is disclosed transparently because it is the structurally honest disclosure: the Foundation operates the certification program; the Standards Architect develops the program's methodology; both roles are held by the same person. The operational separation between the two roles is documented in the Foundation's governance bylaws (controlled-document registry). The conflict-of-interest provisions of Part 2.12 §14.4 ensure that certification determinations are made by individuals free from conflicts with the Licensee under review, and the appeals process is structurally independent from CEO authority.
 
-The Paleo Foundation is a regulatory and certification body incorporated in Cyprus and operating under EU regulatory frameworks. Foundation governance, financial reporting, and operational continuity are documented in the public registry of Cypriot regulatory entities and in the Foundation's controlled-document set.
+The Program is operated by Paleo Certified, Inc., a Florida corporation doing business as The Paleo Foundation. Corporate governance, financial reporting, and operational continuity are documented in Florida state corporate filings and in the Foundation's controlled-document set.
 
 ## Methodology disclosure
 
@@ -6940,7 +6762,7 @@ This implementation acknowledgment is in the Colophon, not the byline. The bylin
 
 ## Evidence base
 
-Heavymetalindex.com (HMI) is the public curated corpus of the heavy-metals-in-food literature that this Program Manual rests on. HMI is operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program at heavymetaltested.com. Architectural separation, one-way reference (HMTc cites HMI; HMI does not endorse HMTc), and EU database-rights protection (Directive 96/9/EC, 15-year sui generis term, by virtue of the Foundation's Cyprus operating base) together establish the evidentiary foundation that the certification program's standards are built on. See Part 1.5 for the full account.
+Heavymetalindex.com (HMI) is the public curated corpus of the heavy-metals-in-food literature that this Program Manual rests on. HMI is operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program at heavymetaltested.com. Architectural separation and one-way reference (HMTc cites HMI; HMI does not endorse HMTc) establish the evidentiary foundation that the certification program's standards are built on. The corpus is protected under U.S. copyright law and U.S. trade-secret doctrine; a parallel EU corporate structure for HMI is on the roadmap and will add EU Database Directive 96/9/EC sui generis protection once incorporated. See Part 1.5 for the full account.
 
 ## Intellectual property
 
@@ -6948,9 +6770,9 @@ Heavymetalindex.com (HMI) is the public curated corpus of the heavy-metals-in-fo
 
 **Copyright.** © 2026 The Paleo Foundation. All rights reserved. This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from The Paleo Foundation. Per-chapter extraction as a licensing exhibit is authorized for executed Licensees per the License Agreement.
 
-**Database rights.** The heavymetalindex.com corpus that this manual references is protected under EU Database Directive (96/9/EC), 15-year sui generis term, by virtue of The Paleo Foundation's Cyprus operating base. Substantial extraction or re-utilization of the database without authorization is prohibited.
+**Database rights.** The heavymetalindex.com corpus that this manual references is protected under U.S. copyright law and U.S. trade-secret doctrine. A parallel EU corporate entity for HMI is on the roadmap and will hold EU Database Directive 96/9/EC sui generis protection (15-year term) once incorporated. Substantial extraction or re-utilization of the corpus without authorization is prohibited under either protection regime.
 
-**Trade secret.** The HMTc pooling engine and its associated methodology implementations (source-pooling algorithms, calibration analysis, per-source weighting rules, and related components) are protected as trade secrets per applicable Cypriot and EU trade-secret law. Authorized disclosure of engine internals occurs only under controlled-terms request to the Program Operator.
+**Trade secret.** The HMTc pooling engine and its associated methodology implementations (source-pooling algorithms, calibration analysis, per-source weighting rules, and related components) are protected as trade secrets under Florida and U.S. federal trade-secret law (Defend Trade Secrets Act, 18 U.S.C. § 1836; Florida Uniform Trade Secrets Act). Authorized disclosure of engine internals occurs only under controlled-terms request to the Program Operator.
 
 ## Production credits
 
@@ -6966,7 +6788,7 @@ The Program Operator can be reached at:
 - **Twitter / X:** @MicroMetallomics
 - **Program website:** heavymetaltested.com
 - **Evidence-base website:** heavymetalindex.com
-- **Postal:** [Cyprus address, controlled document registry]
+- **Postal:** Paleo Certified, Inc. dba The Paleo Foundation, 623 Divine Circle, Orlando, Florida 32828, United States
 
 Questions about specific certifications, the licensing process, brand enrollment in the Confidential Remediation Track, methodology audit requests, and regulatory cooperation should be directed to the Program Operator through these channels.
 

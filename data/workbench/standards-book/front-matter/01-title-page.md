@@ -10,8 +10,8 @@
 Standards Architect, Paleo Foundation
 ORCID: [pending]
 
-The Paleo Foundation
-Larnaca, Cyprus
+Paleo Certified, Inc. dba The Paleo Foundation
+Orlando, Florida
 
 ---
 

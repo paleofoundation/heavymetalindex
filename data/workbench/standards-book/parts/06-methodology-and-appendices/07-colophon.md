@@ -10,7 +10,7 @@
 
 Karen Pendergrass is the Standards Architect for the HMTc Program and CEO of The Paleo Foundation. The dual role is disclosed transparently because it is the structurally honest disclosure: the Foundation operates the certification program; the Standards Architect develops the program's methodology; both roles are held by the same person. The operational separation between the two roles is documented in the Foundation's governance bylaws (controlled-document registry). The conflict-of-interest provisions of Part 2.12 §14.4 ensure that certification determinations are made by individuals free from conflicts with the Licensee under review, and the appeals process is structurally independent from CEO authority.
 
-The Paleo Foundation is a regulatory and certification body incorporated in Cyprus and operating under EU regulatory frameworks. Foundation governance, financial reporting, and operational continuity are documented in the public registry of Cypriot regulatory entities and in the Foundation's controlled-document set.
+The Program is operated by Paleo Certified, Inc., a Florida corporation doing business as The Paleo Foundation. Corporate governance, financial reporting, and operational continuity are documented in Florida state corporate filings and in the Foundation's controlled-document set.
 
 ## Methodology disclosure
 
@@ -30,7 +30,7 @@ This implementation acknowledgment is in the Colophon, not the byline. The bylin
 
 ## Evidence base
 
-Heavymetalindex.com (HMI) is the public curated corpus of the heavy-metals-in-food literature that this Program Manual rests on. HMI is operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program at heavymetaltested.com. Architectural separation, one-way reference (HMTc cites HMI; HMI does not endorse HMTc), and EU database-rights protection (Directive 96/9/EC, 15-year sui generis term, by virtue of the Foundation's Cyprus operating base) together establish the evidentiary foundation that the certification program's standards are built on. See Part 1.5 for the full account.
+Heavymetalindex.com (HMI) is the public curated corpus of the heavy-metals-in-food literature that this Program Manual rests on. HMI is operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program at heavymetaltested.com. Architectural separation and one-way reference (HMTc cites HMI; HMI does not endorse HMTc) establish the evidentiary foundation that the certification program's standards are built on. The corpus is protected under U.S. copyright law and U.S. trade-secret doctrine; a parallel EU corporate structure for HMI is on the roadmap and will add EU Database Directive 96/9/EC sui generis protection once incorporated. See Part 1.5 for the full account.
 
 ## Intellectual property
 
@@ -38,9 +38,9 @@ Heavymetalindex.com (HMI) is the public curated corpus of the heavy-metals-in-fo
 
 **Copyright.** © 2026 The Paleo Foundation. All rights reserved. This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from The Paleo Foundation. Per-chapter extraction as a licensing exhibit is authorized for executed Licensees per the License Agreement.
 
-**Database rights.** The heavymetalindex.com corpus that this manual references is protected under EU Database Directive (96/9/EC), 15-year sui generis term, by virtue of The Paleo Foundation's Cyprus operating base. Substantial extraction or re-utilization of the database without authorization is prohibited.
+**Database rights.** The heavymetalindex.com corpus that this manual references is protected under U.S. copyright law and U.S. trade-secret doctrine. A parallel EU corporate entity for HMI is on the roadmap and will hold EU Database Directive 96/9/EC sui generis protection (15-year term) once incorporated. Substantial extraction or re-utilization of the corpus without authorization is prohibited under either protection regime.
 
-**Trade secret.** The HMTc pooling engine and its associated methodology implementations (source-pooling algorithms, calibration analysis, per-source weighting rules, and related components) are protected as trade secrets per applicable Cypriot and EU trade-secret law. Authorized disclosure of engine internals occurs only under controlled-terms request to the Program Operator.
+**Trade secret.** The HMTc pooling engine and its associated methodology implementations (source-pooling algorithms, calibration analysis, per-source weighting rules, and related components) are protected as trade secrets under Florida and U.S. federal trade-secret law (Defend Trade Secrets Act, 18 U.S.C. § 1836; Florida Uniform Trade Secrets Act). Authorized disclosure of engine internals occurs only under controlled-terms request to the Program Operator.
 
 ## Production credits
 
@@ -56,7 +56,7 @@ The Program Operator can be reached at:
 - **Twitter / X:** @MicroMetallomics
 - **Program website:** heavymetaltested.com
 - **Evidence-base website:** heavymetalindex.com
-- **Postal:** [Cyprus address, controlled document registry]
+- **Postal:** Paleo Certified, Inc. dba The Paleo Foundation, 623 Divine Circle, Orlando, Florida 32828, United States
 
 Questions about specific certifications, the licensing process, brand enrollment in the Confidential Remediation Track, methodology audit requests, and regulatory cooperation should be directed to the Program Operator through these channels.
 

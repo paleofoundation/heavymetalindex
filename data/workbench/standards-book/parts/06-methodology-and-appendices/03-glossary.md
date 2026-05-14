@@ -30,7 +30,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **EFSA.** European Food Safety Authority. An EU agency that produces scientific opinions on food and feed risks, including contaminant risk assessments used by regulators.
 
-**Heavymetalindex.com (HMI).** The public curated corpus of the heavy-metals-in-food literature operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program. The evidence layer that every HMTc standard rests on. Sui generis EU database-rights protected (15-year term) under Directive 96/9/EC. (Per Part 1.5 and Part 2.5.)
+**Heavymetalindex.com (HMI).** The public curated corpus of the heavy-metals-in-food literature operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program. The evidence layer that every HMTc standard rests on. Protected under U.S. copyright law and U.S. trade-secret doctrine; a parallel EU corporate structure for HMI is on the roadmap, at which point the corpus will additionally hold EU Database Directive 96/9/EC sui generis protection (15-year term). (Per Part 1.5 and Part 2.5.)
 
 **Hold-and-Release.** The finished product lot is physically quarantined and may not ship until laboratory results are received and the lot is confirmed to meet at minimum the applicable status criteria. Hold-and-release procedures must include documented quarantine location, responsible personnel, and release authorization records. (Per Part 4 §3.1.)
 

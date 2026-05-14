@@ -77,6 +77,13 @@ function outputFilename(idx, slug) {
 function renderChapter(briefing, chapter) {
   let content = fs.readFileSync(briefing, "utf8")
 
+  // Step 0: strip the briefing's YAML frontmatter block. The frontmatter
+  // is internal Obsidian/Quartz metadata (title, type, product_slug,
+  // generated_at, audience, noindex). It is not part of the published
+  // chapter; rendering it as visible text breaks the bound-manual layout.
+  // The frontmatter is delimited by --- at the start of the file.
+  content = content.replace(/^---\n[\s\S]*?\n---\n+/, "")
+
   // Step 1: replace the briefing's top-level header with the Part 3 chapter
   // header. The briefing typically starts with "# HMTc Standards Briefing — X".
   const headerRe = /^# HMTc Standards Briefing — (.+)$/m

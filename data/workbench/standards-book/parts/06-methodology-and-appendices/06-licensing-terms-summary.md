@@ -6,26 +6,28 @@ The summary covers fee structure, term length, mark-usage scope, anti-arbitrage 
 
 ## Fee structure
 
-HMTc licensing fees are **annual** and **revenue-based** rather than per-SKU. A brand with twenty certified SKUs at a single revenue tier pays the same annual licensing fee as a brand with two certified SKUs at the same tier. This structure reflects the program's commercial-viability principle (Governing Principle 5): fee structure should not penalize brands for breadth of certification, because the program's public-health objectives are served by maximizing the volume of certified SKUs in the market.
+HMTc License Fees are **revenue-tiered**, calculated based on the Licensee's annual revenue at the time the license agreement is executed. A brand with twenty certified SKUs at a single revenue tier pays the same License Fee as a brand with two certified SKUs at the same tier. This structure reflects the program's commercial-viability principle (Governing Principle 5): fee structure should not penalize brands for breadth of certification, because the program's public-health objectives are served by maximizing the volume of certified SKUs in the market.
 
-Revenue tiers are tiered to brand size:
+Revenue tiers, by brand size:
 
-- **Small brands** (under $5M annual revenue) pay an entry-tier annual fee designed to make certification accessible without subsidizing larger competitors.
-- **Mid-size brands** ($5M–$50M annual revenue) pay a mid-tier annual fee scaled to the financial benefit of certification at this revenue band.
-- **Large brands** ($50M–$500M annual revenue) pay a higher annual fee reflecting the proportional ROI delivery the program enables.
+- **Small brands** (under $5M annual revenue) pay an entry-tier License Fee designed to make certification accessible without subsidizing larger competitors.
+- **Mid-size brands** ($5M–$50M annual revenue) pay a mid-tier License Fee scaled to the financial benefit of certification at this revenue band.
+- **Large brands** ($50M–$500M annual revenue) pay a higher License Fee reflecting the proportional ROI delivery the program enables.
 - **Enterprise brands** (over $500M annual revenue) negotiate enterprise terms with the Program Operator directly.
 
-Specific fee schedules are published in the License Agreement Schedule and are reviewed annually by the Program Operator. Brands at the evaluation stage can request the current fee schedule from the Program Operator. The schedule is not reproduced in this manual because (a) fee schedules are operational rather than methodological, and (b) reproducing them here would require an addendum to the bound manual every time the schedule is revised.
+The License Fee is due and payable to the Program Operator upon execution of the license agreement and covers the initial term (see Term Length, below). The Program Operator may, in its discretion, approve an installment arrangement under which the License Fee is paid over the course of the initial term. Specific fee schedules are published in the License Agreement Schedule and are reviewed annually by the Program Operator. Brands at the evaluation stage can request the current fee schedule from the Program Operator. The schedule is not reproduced in this manual because fee schedules are operational rather than methodological.
 
-Testing costs (laboratory fees for the testing required under Part 4) are **separate from licensing fees** and are paid by the Licensee directly to their ISO/IEC 17025-accredited laboratory. The Program Operator does not mark up testing fees; the laboratory market provides the cost discipline.
+Testing costs (laboratory fees for the testing required under Part 4) are **separate from License Fees** and are paid by the Licensee directly to their ISO/IEC 17025-accredited laboratory. The Program Operator does not mark up testing fees; the laboratory market provides the cost discipline.
 
 ## Term length and renewal
 
-License agreements run for an **initial term of three (3) years**, with automatic annual renewal thereafter unless either party provides notice of non-renewal at least 90 days before the renewal date. The three-year initial term aligns with the Standards Ratchet's formal three-year revision cycle (Part 2.10 §12.1), giving brands certainty about both the certification framework and the licensing relationship across at least one ratchet cycle.
+License agreements are executed for an **initial term** of one to three (1–3) years, selected by mutual agreement at signing. At the end of the initial term, the Licensee may notify the Program Operator at least ten (10) days before expiration of intent to extend the license for an Extended Term of one to three additional years in consideration of an additional License Fee. Failure to provide timely notice causes the agreement to terminate at the end of the initial term.
 
-A brand may terminate the license at any time with 90 days' written notice. Upon termination, the brand surrenders mark usage rights immediately and Track confidentiality protections continue per the agreement's confidentiality provisions.
+Following the initial term and any Extended Term, the Licensee may renew the license by providing the Program Operator at least sixty (60) days' written notice prior to expiration. Renewal is by good-faith negotiation of a new license agreement, which may incorporate revised terms or revised standards (including any Standards Ratchet revisions per Part 2.10).
 
-The Program Operator may terminate the license for cause: data integrity violations (per Part 2.7 §8.2), regulatory limit violations (per Part 2.11), willful misconduct, or material breach of the agreement. For-cause termination triggers Status E revocation per Part 2.3 §5.6.
+Either party may terminate the license at any time, for any reason, upon thirty (30) days' prior written notice. In the event of alleged breach, the non-breaching party provides written notice and the other party has thirty (30) days to cure. The Program Operator may terminate for cause immediately upon written notice for Trademark misuse, use in connection with non-Approved Goods, or failure to pay any installment of the License Fee. For-cause termination triggers Status E revocation per Part 2.3 §5.6 and forfeits the sell-off rights described below.
+
+Upon termination or expiration, the Licensee has 180 days (the Sell-Off Period) to sell existing inventory of Approved Goods bearing the Trademark, except in the case of Termination for Cause where no Sell-Off Period applies. After the Sell-Off Period, the Licensee must destroy or remove all remaining product, marketing materials, and online content bearing the Trademark.
 
 ## Mark usage scope
 
@@ -65,11 +67,11 @@ In practice, regulatory cooperation means: the Program Operator will respond to 
 
 ## Dispute resolution
 
-License agreement disputes are subject to binding arbitration under the rules of the International Centre for Dispute Resolution (ICDR), seated in Cyprus, with the substantive law of the agreement being Cypriot law. The choice of seat and substantive law reflects the Paleo Foundation's Cyprus operating base and is consistent with the EU regulatory frameworks under which the program operates.
+License agreement disputes are first submitted to mediation in San Diego, California, with a mutually-agreed mediator (or, failing agreement, a JAMS-administered mediation). Unresolved disputes proceed to binding arbitration under the American Arbitration Association's Commercial Arbitration Rules, heard by a single arbitrator who shall be a retired judge or intellectual property attorney. The substantive law of the agreement is California law; the seat of arbitration is San Diego, California. The arbitrator's award is enforceable in any court of competent jurisdiction, including the San Diego Superior Court and the United States District Court for the Southern District of California.
 
-**Why Cyprus-seated arbitration.** The Paleo Foundation is incorporated in Cyprus and operates under EU regulatory frameworks. Cyprus-seated ICDR arbitration is consistent with the Foundation's regulatory and operational base and provides predictable procedural rules under the **1958 New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards**, to which both Cyprus and the United States are signatories. Arbitration awards rendered in Cyprus are therefore enforceable in U.S. courts under the Convention, just as U.S. arbitration awards are enforceable in Cyprus. The choice of seat does not deprive U.S. Licensees of the ability to enforce favorable awards in U.S. jurisdictions.
+**Why California-seated arbitration.** Paleo Certified, Inc. is a Florida corporation, but the substantive case law for heavy-metals product liability and food-safety regulation is being made in California: MDL 3101 (the consolidated baby-food heavy-metal litigation) is in the Northern District of California; AB 899 (mandatory baby-food testing and disclosure) is California state law; Proposition 65 (the private-enforcement civil-warning regime) is California state law; the Program's defense counsel operates from San Diego. Locating dispute resolution in the jurisdiction where the substantive law lives means that any dispute is heard by decision-makers familiar with the operative legal landscape. California arbitration awards are enforceable in all U.S. jurisdictions under the Federal Arbitration Act, so a California award reaches Licensees in any state.
 
-Licensees with specific concerns about the practical implications of Cyprus-seated arbitration, including non-U.S. Licensees evaluating jurisdictional questions in their home markets, should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
+Licensees outside the United States with specific concerns about California-seated arbitration should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
 
 Certification status disputes (as distinct from license agreement disputes) follow the two-tier appeals process specified in Part 2.12, which is independent of arbitration and operates as the Program's internal dispute-resolution mechanism for status determinations.
 

@@ -35,8 +35,8 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 **ISBN:** [pending]
 **DOI:** [pending, to be minted via Zenodo or Crossref]
 
-**Copyright** © 2026 The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of The Paleo Foundation. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
+**Copyright** © 2026 Paleo Certified, Inc. dba The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of Paleo Certified, Inc. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
 
-**License for citation and reference.** This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from the Paleo Foundation. The HMTc Certification Mark may not be used by any party not licensed under a current HMTc license agreement.
+**License for citation and reference.** This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from Paleo Certified, Inc. The HMTc Certification Mark may not be used by any party not licensed under a current HMTc license agreement.
 
-**Database rights.** The heavymetalindex.com corpus that this manual references is protected under EU Database Directive (96/9/EC), 15-year sui generis term, by virtue of the Paleo Foundation's Cyprus operating base. Substantial extraction or re-utilization of the database without authorization is prohibited.
+**Intellectual property protection.** The HMTc Certification Mark is pending registration with the United States Patent and Trademark Office (Serial No. 99307306). The heavymetalindex.com corpus that this manual references is protected under U.S. copyright law and U.S. trade-secret doctrine, with additional protection planned through an EU corporate entity in a future Edition; substantial extraction or re-utilization of the corpus without authorization is prohibited.
