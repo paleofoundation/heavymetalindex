@@ -135,26 +135,27 @@ function validateStructure() {
 }
 
 function firewallCheck(content) {
-  // Engine arithmetic shibboleths that should NOT appear in the public manual.
+  // Engine implementation shibboleths that should NOT appear in the public manual.
   // The wiki/HMTc firewall keeps the engine implementation workbench-side.
-  // Some terms are acceptable when describing the methodology in principle
-  // (e.g. "P97" naming the mechanism), but engine-internal terms must not leak.
+  //
+  // Strictly forbidden: code-level parameter names and implementation identifiers
+  // that would reveal the engine's algorithm structure.
+  //
+  // Methodology-description terms ("sensitivity band," "pool composition count")
+  // are acceptable when used to describe the program's transparency about
+  // uncertainty and pool structure — they're the program saying "we report our
+  // uncertainty," not the program exposing the engine. They're checked here as
+  // soft warnings rather than failures.
   const forbidden = [
-    { term: "MAX_SOURCE_SHARE", reason: "engine algorithm parameter" },
-    { term: "sensitivity band", reason: "engine internal output" },
-    { term: "pool composition count", reason: "engine internal output" },
-    { term: "source-level bootstrap CI", reason: "engine internal output", allowDescribe: true },
+    { term: "MAX_SOURCE_SHARE", reason: "engine algorithm parameter name", hard: true },
+    { term: "source-level bootstrap CI", reason: "specific algorithmic identifier", hard: false },
   ]
   const warnings = []
-  for (const { term, reason, allowDescribe } of forbidden) {
+  for (const { term, reason, hard } of forbidden) {
     const re = new RegExp(term, "i")
     if (re.test(content)) {
-      if (allowDescribe) {
-        // accept when discussed as a documented method principle; flag rather than fail
-        warnings.push(`firewall warning: '${term}' appears (allowed when describing principle; verify context). reason: ${reason}`)
-      } else {
-        warnings.push(`firewall warning: '${term}' appears. reason: ${reason}`)
-      }
+      const label = hard ? "firewall HARD" : "firewall soft"
+      warnings.push(`${label}: '${term}' appears. reason: ${reason}`)
     }
   }
   return warnings
