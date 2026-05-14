@@ -133,6 +133,12 @@ run_step "firewall fix" node tools/autonomy/firewall-fix.mjs || true
 # placeholder. Future synthesis ticks replace the placeholder with content.
 run_step "mandatory sections" node tools/autonomy/mandatory-sections.mjs || true
 
+# Step 4e: provenance audit — informational. Flags numerical claims on public
+# pages that don't trace to a [[sources/...]] link in the same paragraph.
+# Per CLAUDE.md Part 18, claims without provenance are a lint failure; this
+# tool surfaces the backlog so synthesis sessions can fix it incrementally.
+run_step "provenance audit" node tools/autonomy/provenance-audit.mjs || true
+
 # Step 5: gap-driven wishlist (queries for thin cells)
 run_step "gap-driven wishlist" node tools/autonomy/gap-driven-wishlist.mjs || true
 
