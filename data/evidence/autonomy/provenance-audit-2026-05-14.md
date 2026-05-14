@@ -1,12 +1,12 @@
 # Provenance audit — 2026-05-14
 
-Generated: 2026-05-14T20:54:11.784Z
+Generated: 2026-05-14T21:28:57.369Z
 
 ## Summary
 
-- Files scanned: 378
-- Files with unsourced claims: 158
-- Total unsourced claims: 263
+- Files scanned: 380
+- Files with unsourced claims: 160
+- Total unsourced claims: 273
 
 ## Methodology
 
@@ -25,6 +25,19 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
   > The practical consumer position: there is no internationally harmonized "safe daily inorganic arsenic intake," but the ATSDR MRL of 0.3 µg/kg/day (dermal-effects anchor) and the EPA drinking water MCL…
 - line 118: claim `25 ppm`
   > Germ-free and antibiotic-treated mouse data summarized in Coryell 2019 demonstrate that the microbiome causally contributes to arsenic excretion: antibiotic-treated mice excrete less arsenic in stool …
+- … 3 more on this page
+
+### wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md (8)
+- line 3: claim `1000 ppb`
+  > # Washington State Toxic-Free Cosmetics Act — Toothpaste Pb 1000 ppb statutory limit…
+- line 5: claim `1000 µg/kg`
+  > The Washington State Toxic-Free Cosmetics Act (TFCA) sets a 1000 µg/kg (1000 ppb, 1 ppm) statutory maximum for lead in toothpaste sold in Washington State, effective 2025-01-01. The TFCA is one of a s…
+- line 9: claim `1000 ppb`
+  > The TFCA covers cosmetic products including toothpastes, lipsticks, makeup, hair-care products, and other personal-care items sold in Washington State. The lead cap applies to finished product as sold…
+- line 13: claim `1000 µg/kg`
+  > Lead in toothpaste: 1000 µg/kg (1000 ppb, 1 mg/kg). The TFCA does not set toothpaste-specific limits for other heavy metals (Cd, Hg, As) at the same 1000 ppb level; those metals are addressed under se…
+- line 17: claim `1000 ppb`
+  > The TFCA does not specify a single official method but anticipates standard cosmetic-industry analytical practice: nitric acid + hydrogen peroxide microwave digestion followed by ICP-MS quantification…
 - … 3 more on this page
 
 ### wiki/metals/tin-inorganic.md (5)
@@ -225,6 +238,12 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 - line 109: claim `65 ppb`
   > Small serving size makes the one-serving Prop 65 ppb equivalent high, but frequent consumption or larger servings lower the equivalent.…
 
+### wiki/products/toothpaste.md (2)
+- line 9: claim `1000 ppb`
+  > Brand legal teams evaluating Cat 2 certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and…
+- line 60: claim `100 ppb`
+  > 1. **Sourcing levers** (highest impact): mineral abrasive (silica, calcium carbonate, baking soda) supplier selection. Cosmetic-grade silica from pre-screened sources runs Pb in single-digit ppb; indu…
+
 ### wiki/ingredients/baked-beans.md (2)
 - line 74: claim `200 mg/kg`
   > Non-metallic packaging (glass, retort pouch) eliminates the Sn dissolution route. For products sold in tinplate, lot-level Sn testing against the applicable ML (200 mg/kg for canned solid food in the …
@@ -243,16 +262,4 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 - line 101: claim `0.10 mg/kg`
   > In the European Union, Regulation (EU) 2023/915 establishes maximum levels for Pb and Cd in meat products. For processed meat products (including luncheon meats and sausages), the applicable Pb ML is …
 
-### wiki/ingredients/canned-green-beans.md (2)
-- line 69: claim `60 ppb`
-  > Canned green beans are used in casseroles, soups, and mixed-vegetable products. Their Ni contribution (relatively consistent at 60 ppb median in TDS data) will carry forward proportionally into blende…
-- line 101: claim `200 mg/kg`
-  > The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Sn in canned solid foods of 200 mg/kg (200,000 ppb) wet weight. For Pb in vegetables, the EU limit is 0.10 mg/kg (100…
-
-### wiki/ingredients/cantaloupe.md (2)
-- line 69: claim `270 ppb`
-  > Cantaloupe is used in fruit salads, smoothies, baby food purees, juices, and dried snack products. Given its very low intrinsic metal load for most analytes, it contributes minimally to product-level …
-- line 99: claim `0.10 mg/kg`
-  > The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Pb in fruit of 0.10 mg/kg (100 ppb) wet weight and for Cd in fruit of 0.050 mg/kg (50 ppb) wet weight. Cantaloupe fal…
-
-_128 more files — see CSV._
+_130 more files — see CSV._

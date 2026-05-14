@@ -1,11 +1,11 @@
 # Firewall fix — 2026-05-14
 
-Generated: 2026-05-14T20:54:11.604Z
+Generated: 2026-05-14T21:28:57.138Z
 Mode: EXECUTED
 
 ## Summary
 
-- Files scanned: 384
+- Files scanned: 386
 - Files changed: 0
 
 ## Changes
