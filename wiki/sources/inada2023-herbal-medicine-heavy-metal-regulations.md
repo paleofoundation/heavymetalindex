@@ -14,8 +14,8 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_10400675/FM_10400675.md
 metals: [Pb, Cd, Hg, As]
-ingredients: ["[[ingredients/herbal-medicines]]"]
-products: ["[[products/herbal-supplements]]", "[[products/dietary-supplements]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
+products: []
 matrices: [herbal-medicine, botanical-supplement]
 jurisdictions: [JP, EU, US, CN, KR, TW, IN, UK, WHO]
 near_duplicates: []

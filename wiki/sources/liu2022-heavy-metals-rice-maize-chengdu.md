@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9475252_Health_risk_assessment_of_heavy_metals_in_soils_and_food_cro/FM_9475252_Health_risk_assessment_of_heavy_metals_in_soils_and_food_cro.md
 metals: [tAs, Cd, tHg, Pb]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/maize]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/corn]]"]
 products: []
 matrices: [rice-grain, maize-grain, soil]
 jurisdictions: [CN]

@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11527527/FM_11527527.md
 metals: [tAs, Pb, Cd]
-ingredients: ["[[ingredients/ginger]]", "[[ingredients/garlic]]", "[[ingredients/turmeric]]", "[[ingredients/rosemary]]", "[[ingredients/aniseed]]", "[[ingredients/pepper]]", "[[ingredients/nutmeg]]", "[[ingredients/spices]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/turmeric]]"]
 products: []
 matrices: [spices, culinary-herbs]
 jurisdictions: [GH, IN, CN, MA, ML, FR, MY]

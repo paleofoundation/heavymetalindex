@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9968700/FM_9968700.md
 metals: [Pb, Cd, tAs, Cr, Ni]
-ingredients: ["[[ingredients/tilapia]]", "[[ingredients/freshwater-fish]]"]
-products: ["[[products/fish-seafood]]"]
+ingredients: ["[[ingredients/tilapia]]", "[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]"]
+products: []
 matrices: [food, fish-muscle, fish-bone, fish-gut, water, sediment]
 jurisdictions: [CM]
 near_duplicates: []

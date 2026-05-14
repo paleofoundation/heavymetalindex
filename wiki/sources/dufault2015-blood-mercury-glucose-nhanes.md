@@ -12,7 +12,7 @@ evidence_tier: B
 license: "CC BY"
 raw_path: raw/markdown/FM_8059611/FM_8059611.md
 metals: [tHg]
-ingredients: ["[[ingredients/high-fructose-corn-syrup]]", "[[ingredients/processed-foods]]"]
+ingredients: ["[[ingredients/corn]]"]
 products: []
 matrices: [blood, dietary-intake]
 jurisdictions: [US]

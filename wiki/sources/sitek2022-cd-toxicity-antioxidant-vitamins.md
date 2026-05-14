@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10464721/FM_10464721.md
 metals: [Cd]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/potatoes]]", "[[ingredients/wheat]]", "[[ingredients/vegetables]]", "[[ingredients/cereals]]", "[[ingredients/tobacco]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/potatoes]]", "[[ingredients/wheat]]", "[[ingredients/vegetables]]", "[[ingredients/cereals]]", "[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [dietary-intake, blood, urine, kidney, liver]
 jurisdictions: [EU, WHO, global]

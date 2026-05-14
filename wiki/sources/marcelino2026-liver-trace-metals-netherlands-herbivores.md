@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12971517/FM_12971517.md
 metals: [Pb, Cd, As, tAs, Cr, Ni, Co, Cu, Fe, Mn, Mo, Se, V, Zn]
-ingredients: ["[[ingredients/beef-liver]]", "[[ingredients/venison-liver]]"]
+ingredients: ["[[ingredients/organ-meats]]"]
 products: []
 matrices: [livestock-liver, game-liver]
 jurisdictions: [NL]

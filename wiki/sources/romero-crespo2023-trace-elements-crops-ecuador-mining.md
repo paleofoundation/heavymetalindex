@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10310628/FM_10310628.md
 metals: [tAs, Cd, Cr, Ni, Pb]
-ingredients: ["[[ingredients/corn]]", "[[ingredients/lettuce]]", "[[ingredients/carrots]]", "[[ingredients/cassava]]", "[[ingredients/leafy-vegetables]]"]
+ingredients: ["[[ingredients/corn]]", "[[ingredients/lettuce]]", "[[ingredients/carrots]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-greens]]"]
 products: []
 matrices: [vegetables, cereals, root-vegetables, agricultural-soil]
 jurisdictions: [EC]

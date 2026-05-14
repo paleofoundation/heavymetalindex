@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10702545/FM_10702545.md
 metals: [MeHg, tHg]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/bivalves]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]"]
 products: []
 matrices: [seafood, fish, invertebrates, sediment, water]
 jurisdictions: [US]

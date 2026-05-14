@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_8100522_Macro_and_Trace_Elements_in_Hemp_Cannabis_sativa_L_Cultivate/FM_8100522_Macro_and_Trace_Elements_in_Hemp_Cannabis_sativa_L_Cultivate.md
 metals: [Pb, Cd, tAs, tHg, Cr, Ni, Al, Sn]
-ingredients: ["[[ingredients/hemp]]", "[[ingredients/cannabis]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [herbal-product, hemp]
 jurisdictions: [GR, EU]

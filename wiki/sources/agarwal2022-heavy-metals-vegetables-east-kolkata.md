@@ -13,7 +13,7 @@ evidence_tier: A
 license: "exclusive licence to Springer"
 raw_path: raw/markdown/FM_9294751/FM_9294751.md
 metals: [Pb, Cd, Cr, tHg]
-ingredients: ["[[ingredients/bottle-gourd]]", "[[ingredients/okra]]", "[[ingredients/corn]]"]
+ingredients: ["[[ingredients/vegetables]]", "[[ingredients/corn]]"]
 products: []
 matrices: [food, soil]
 jurisdictions: [IN]

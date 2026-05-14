@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10955032/FM_10955032.md
 metals: [Al, tAs, Cr, Ni, Pb, Sn]
-ingredients: ["[[ingredients/cheese]]", "[[ingredients/dairy]]"]
+ingredients: ["[[ingredients/milk-and-dairy]]"]
 products: []
 matrices: [cheese, mozzarella]
 jurisdictions: [SK]

@@ -13,7 +13,7 @@ evidence_tier: A
 license: "public-domain"
 raw_path: raw/markdown/FM_12052077/FM_12052077.md
 metals: [Pb]
-ingredients: ["[[ingredients/spices]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [blood, dietary-intake]
 jurisdictions: [GE]

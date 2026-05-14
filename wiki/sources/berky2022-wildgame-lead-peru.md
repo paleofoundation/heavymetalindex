@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9555248/FM_9555248.md
 metals: [Pb, tHg]
-ingredients: ["[[ingredients/wild-game-meat]]", "[[ingredients/bushmeat]]"]
+ingredients: ["[[ingredients/meat-and-poultry]]"]
 products: []
 matrices: [blood, dietary-intake, wild-game-meat]
 jurisdictions: [PE]

@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12006530/FM_12006530.md
 metals: [Pb, Cd, Cr, tHg, tAs]
 ingredients: []
-products: ["[[products/pet-food]]"]
+products: []
 matrices: [pet-food]
 jurisdictions: [CN]
 near_duplicates: []

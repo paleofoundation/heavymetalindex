@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9563711/FM_9563711.md
 metals: [Cd, tHg]
-ingredients: ["[[ingredients/apple]]", "[[ingredients/cabbage]]"]
+ingredients: ["[[ingredients/apple]]", "[[ingredients/leafy-greens]]"]
 products: []
 matrices: [fruit, vegetable]
 jurisdictions: []

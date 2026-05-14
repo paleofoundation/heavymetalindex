@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_7817317/FM_7817317.md
 metals: [tHg, Pb, Cd]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]"]
-products: ["[[products/fish]]"]
+products: []
 matrices: [fish-muscle]
 jurisdictions: [MA]
 near_duplicates: []

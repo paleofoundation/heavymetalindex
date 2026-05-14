@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10710855/FM_10710855.md
 metals: [Cr]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/whole-grain]]", "[[ingredients/nuts]]", "[[ingredients/legumes]]", "[[ingredients/meat]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/cereals]]", "[[ingredients/almond]]", "[[ingredients/lentils]]", "[[ingredients/meat]]"]
 products: []
 matrices: [dietary-intake, food]
 jurisdictions: [EU, NO, SE, DK, FI]

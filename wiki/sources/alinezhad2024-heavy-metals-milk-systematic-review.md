@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10843077/FM_10843077.md
 metals: [Pb, Cd, Al, tAs, tHg, Ni, Cr, Cu, Zn, Co, Fe]
-ingredients: ["[[ingredients/dairy]]"]
-products: ["[[products/pasteurized-milk]]"]
+ingredients: ["[[ingredients/milk-and-dairy]]"]
+products: []
 matrices: [milk, cow-milk]
 jurisdictions: [Global, IR, CN, CN, TR, EG, BR, PK, IN]
 near_duplicates: []

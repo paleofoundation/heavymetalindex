@@ -14,8 +14,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10144899/FM_10144899.md
 metals: [tAs, Cd, Pb, tHg]
-ingredients: ["[[ingredients/kelp]]", "[[ingredients/seaweed]]"]
-products: ["[[products/seaweed-supplements]]", "[[products/kelp-powder]]"]
+ingredients: ["[[ingredients/seaweed]]", "[[ingredients/seafood]]"]
+products: []
 matrices: [seaweed, kelp]
 jurisdictions: [NZ]
 near_duplicates: []

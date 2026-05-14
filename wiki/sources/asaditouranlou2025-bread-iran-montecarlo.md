@@ -13,7 +13,7 @@ license: "CC BY (open access)"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Health risk assessment of potentially toxic elements in brea.pdf"
 metals: [Pb, Cd, tHg, Al, Cr, Ni, Cu, Fe, Zn, Co]
 ingredients: ["[[ingredients/wheat]]"]
-products: ["[[products/bread-and-baked-goods]]"]
+products: []
 matrices: [bread, wheat-flour]
 jurisdictions: [IR]
 sample_n: 248

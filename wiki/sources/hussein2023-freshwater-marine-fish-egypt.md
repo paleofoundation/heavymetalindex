@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10407656/FM_10407656.md
 metals: [Pb, Cd, tHg, tAs, Al]
-ingredients: ["[[ingredients/tilapia]]", "[[ingredients/mullet]]", "[[ingredients/marine-fish]]", "[[ingredients/freshwater-fish]]"]
-products: ["[[products/fish]]"]
+ingredients: ["[[ingredients/tilapia]]", "[[ingredients/seafood]]", "[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
+products: []
 matrices: [fish-muscle]
 jurisdictions: [EG]
 near_duplicates: []

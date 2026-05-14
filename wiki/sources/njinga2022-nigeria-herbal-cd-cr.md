@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9632904/FM_9632904.md
 metals: [Cd, Cr]
-ingredients: ["[[ingredients/herbal-plants]]"]
-products: ["[[products/herbal-tea]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
+products: ["[[products/herbal-botanical-infusions]]"]
 matrices: [herbal-plant, botanical]
 jurisdictions: [NG]
 near_duplicates: []

@@ -13,8 +13,8 @@ source_type: nonprofit
 evidence_tier: B
 raw_path: "raw/Manual Fetch Kimi/06_Infant_Foods_Formula/06_Infant_Foods_Formula/BabyFoodReport_ENGLISH_R6_0.pdf"
 metals: [tAs, iAs, Pb, Cd, tHg]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potato]]", "[[ingredients/apple]]", "[[ingredients/grape]]"]
-products: ["[[products/infant-rice-cereal]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/root-vegetable-purees]]", "[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]", "[[products/teething-and-snacks-rice-based]]", "[[products/infant-formula]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potato]]", "[[ingredients/apple]]", "[[ingredients/fruit]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/root-vegetable-purees]]", "[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]", "[[products/teething-and-snacks-rice-based]]", "[[products/infant-formula]]"]
 matrices: [baby-food, infant-cereal, baby-puree, baby-snack, fruit-juice, infant-formula]
 jurisdictions: [US]
 sample_n: 168

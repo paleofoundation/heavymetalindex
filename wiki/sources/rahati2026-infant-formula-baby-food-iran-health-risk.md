@@ -13,7 +13,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of .pdf"
 metals: [Pb, Cd, tHg, Al, Cr]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]"]
-products: ["[[products/infant-formula-powder-non-soy]]", "[[products/baby-food-grain-based]]"]
+products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-and-child-foods-master]]"]
 matrices: [infant-formula, baby-food, dry-weight]
 jurisdictions: [IR]
 sample_n: 107

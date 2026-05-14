@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_8478149/FM_8478149.md
 metals: [tHg]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/anadromous-fish]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]"]
 products: []
 matrices: [fish-tissue]
 jurisdictions: [US]

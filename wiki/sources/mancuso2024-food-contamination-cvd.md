@@ -13,7 +13,7 @@ evidence_tier: B
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_11405437_Food_contamination_and_cardiovascular_disease_a_narrative_re/FM_11405437_Food_contamination_and_cardiovascular_disease_a_narrative_re.md
 metals: [Pb, Cd, iAs, tAs, tHg]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/cocoa]]", "[[ingredients/bivalves]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/cocoa]]", "[[ingredients/bivalve-molluscs]]"]
 products: []
 matrices: [dietary-intake]
 jurisdictions: [EU, global]

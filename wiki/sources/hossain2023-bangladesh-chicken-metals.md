@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10004613/FM_10004613.md
 metals: [Pb, Cd, Cr]
-ingredients: ["[[ingredients/chicken]]", "[[ingredients/poultry-liver]]", "[[ingredients/poultry-offal]]"]
+ingredients: ["[[ingredients/chicken]]", "[[ingredients/organ-meats]]"]
 products: []
 matrices: [poultry-muscle, poultry-liver, poultry-offal]
 jurisdictions: [BD]

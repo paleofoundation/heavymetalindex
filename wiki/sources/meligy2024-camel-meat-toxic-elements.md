@@ -14,7 +14,7 @@ evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_11018421/FM_11018421.md
 metals: [Co, Cr, Mn, Se, As]
-ingredients: ["[[ingredients/camel-meat]]", "[[ingredients/organ-meat]]"]
+ingredients: ["[[ingredients/meat-and-poultry]]", "[[ingredients/organ-meats]]"]
 products: []
 matrices: [meat, organ-meat, hair, blood]
 jurisdictions: [SA]

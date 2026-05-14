@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10796695_Concentrations_and_health_risks_of_selected_elements_in_leaf/FM_10796695_Concentrations_and_health_risks_of_selected_elements_in_leaf.md
 metals: [Al, As, Cd, Co, Cr, Cu, Hg, Ni, Pb, Zn]
-ingredients: ["[[ingredients/coriander]]", "[[ingredients/lettuce]]", "[[ingredients/mint]]", "[[ingredients/spring-onion]]", "[[ingredients/swiss-chard]]", "[[ingredients/leafy-vegetables]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/lettuce]]", "[[ingredients/onions]]", "[[ingredients/leafy-greens]]"]
 products: []
 matrices: [leafy-vegetables]
 jurisdictions: [ZA]

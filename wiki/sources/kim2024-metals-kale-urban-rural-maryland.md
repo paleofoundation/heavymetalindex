@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC0"
 raw_path: raw/markdown/FM_11020932/FM_11020932.md
 metals: [tAs, Pb, Cd, Cr, Ni, U]
-ingredients: ["[[ingredients/kale]]", "[[ingredients/leafy-vegetables]]"]
+ingredients: ["[[ingredients/leafy-greens]]"]
 products: []
 matrices: [kale, leafy-vegetables]
 jurisdictions: [US]

@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12019543/FM_12019543.md
 metals: [tAs, iAs, Pb, tHg, Cd, Sn, Cr, Ni, U]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/oat]]"]
-products: ["[[products/infant-cereal]]", "[[products/infant-formula]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/infant-formula]]"]
 matrices: [urine, biological]
 jurisdictions: [US]
 near_duplicates: [FM_12019543_Heavy_metal_exposures_in_aerodigestive_clinic_cohort_of_infa]

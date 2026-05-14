@@ -13,7 +13,7 @@ evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_12002180/FM_12002180.md
 metals: [MeHg, tHg]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/marine-fish]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]"]
 products: []
 matrices: [freshwater-fish, marine-fish, farmed-fish]
 jurisdictions: [CN]

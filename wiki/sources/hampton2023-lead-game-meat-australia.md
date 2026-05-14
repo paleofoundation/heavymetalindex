@@ -14,8 +14,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10104915/FM_10104915.md
 metals: [Pb]
-ingredients: ["[[ingredients/game-meat]]", "[[ingredients/venison]]", "[[ingredients/kangaroo]]"]
-products: ["[[products/game-meat]]"]
+ingredients: ["[[ingredients/meat-and-poultry]]"]
+products: []
 matrices: [meat, food-product]
 jurisdictions: [AU]
 near_duplicates: []

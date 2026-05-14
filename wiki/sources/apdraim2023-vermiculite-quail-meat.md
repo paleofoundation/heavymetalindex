@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10844790/FM_10844790.md
 metals: [Pb, Cd]
-ingredients: ["[[ingredients/quail-meat]]", "[[ingredients/poultry]]"]
-products: ["[[products/poultry-meat]]"]
+ingredients: ["[[ingredients/poultry]]"]
+products: []
 matrices: [poultry-meat, quail-meat]
 jurisdictions: [KZ]
 near_duplicates: []

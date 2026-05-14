@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11111305/FM_11111305.md
 metals: [Pb, Cd, Cr]
-ingredients: ["[[ingredients/mango]]", "[[ingredients/banana]]", "[[ingredients/orange]]"]
+ingredients: ["[[ingredients/fruit]]", "[[ingredients/banana]]", "[[ingredients/oranges]]"]
 products: []
 matrices: [mango-fruit, banana-fruit, orange-fruit]
 jurisdictions: [ET]

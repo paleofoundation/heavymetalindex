@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_7905049/FM_7905049.md
 metals: [Pb, Cd, Ni, Cr]
 ingredients: ["[[ingredients/beef]]"]
-products: ["[[products/beef]]"]
+products: []
 matrices: [beef-muscle]
 jurisdictions: [UG]
 near_duplicates: []

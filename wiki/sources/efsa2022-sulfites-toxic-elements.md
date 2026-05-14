@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY-ND 4.0"
 raw_path: raw/markdown/FM_9685353/FM_9685353.md
 metals: [Pb, Cd, tAs, tHg]
-ingredients: ["[[ingredients/food-additives]]"]
+ingredients: []
 products: []
 matrices: [food-additive]
 jurisdictions: [EU]

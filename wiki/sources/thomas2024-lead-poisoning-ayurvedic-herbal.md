@@ -14,8 +14,8 @@ evidence_tier: B
 license: "unknown"
 raw_path: raw/markdown/FM_11227049/FM_11227049.md
 metals: [Pb]
-ingredients: ["[[ingredients/dietary-supplements]]", "[[ingredients/herbal-supplements]]"]
-products: ["[[products/dietary-supplements]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
+products: []
 matrices: [dietary-supplement, biomonitoring-blood, biomonitoring-urine]
 jurisdictions: [IN]
 near_duplicates: []

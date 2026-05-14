@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11483403/FM_11483403.md
 metals: [Pb, Cr, Ni, Cu, Zn, Fe]
-ingredients: ["[[ingredients/lettuce]]", "[[ingredients/spring-onion]]", "[[ingredients/leafy-vegetables]]"]
+ingredients: ["[[ingredients/lettuce]]", "[[ingredients/onions]]", "[[ingredients/leafy-greens]]"]
 products: []
 matrices: [leafy-vegetables]
 jurisdictions: [GH]

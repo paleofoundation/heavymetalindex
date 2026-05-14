@@ -14,7 +14,7 @@ evidence_tier: A
 license: null
 raw_path: raw/markdown/FM_10481275/FM_10481275.md
 metals: [Pb]
-ingredients: ["[[ingredients/leeks]]"]
+ingredients: ["[[ingredients/onions]]"]
 products: []
 matrices: [leek-root, leek-leaf]
 jurisdictions: [CN]

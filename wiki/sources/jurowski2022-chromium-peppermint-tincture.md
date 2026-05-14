@@ -14,8 +14,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10073164/FM_10073164.md
 metals: [Cr]
-ingredients: ["[[ingredients/peppermint]]", "[[ingredients/herbal-tinctures]]"]
-products: ["[[products/herbal-supplements]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
+products: []
 matrices: [tincture, herbal-product]
 jurisdictions: [PL]
 near_duplicates: []

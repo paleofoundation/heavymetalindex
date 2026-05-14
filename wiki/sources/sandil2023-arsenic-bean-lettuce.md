@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10697903_Arsenic_uptake_and_accumulation_in_bean_and_lettuce_plants_a/FM_10697903_Arsenic_uptake_and_accumulation_in_bean_and_lettuce_plants_a.md
 metals: [tAs]
-ingredients: ["[[ingredients/lettuce]]", "[[ingredients/beans]]"]
+ingredients: ["[[ingredients/lettuce]]", "[[ingredients/lentils]]"]
 products: []
 matrices: [vegetables, leafy-vegetables, legumes]
 jurisdictions: [HU]

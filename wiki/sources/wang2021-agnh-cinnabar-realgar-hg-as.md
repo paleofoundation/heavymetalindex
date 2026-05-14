@@ -12,7 +12,7 @@ evidence_tier: B
 license: "CC BY"
 raw_path: raw/markdown/FM_8035015/FM_8035015.md
 metals: [tHg, tAs, iAs]
-ingredients: ["[[ingredients/traditional-chinese-medicine]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [supplement, biological-tissue]
 jurisdictions: [CN]

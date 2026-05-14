@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_7990557/FM_7990557.md
 metals: [Pb, Cd]
-ingredients: ["[[ingredients/citrus]]", "[[ingredients/orange]]", "[[ingredients/grapefruit]]", "[[ingredients/lemon]]", "[[ingredients/lime]]"]
+ingredients: ["[[ingredients/fruit]]", "[[ingredients/oranges]]", "[[ingredients/grapefruit]]"]
 products: []
 matrices: [fruit, peel, pulp]
 jurisdictions: [PL, TR, IL]

@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11024290/FM_11024290.md
 metals: [Cd]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/pak-choi]]"]
+ingredients: ["[[ingredients/leafy-greens]]"]
 products: []
 matrices: [leafy-vegetables, vegetable]
 jurisdictions: [CN]

@@ -12,7 +12,7 @@ evidence_tier: B
 license: "subscription"
 raw_path: raw/markdown/FM_8095331/FM_8095331.md
 metals: [Pb, tHg, tAs]
-ingredients: ["[[ingredients/ayurvedic-supplements]]", "[[ingredients/traditional-indian-medicine]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [supplement, blood, urine]
 jurisdictions: [IT, IN]

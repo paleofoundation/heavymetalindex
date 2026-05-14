@@ -13,7 +13,7 @@ evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_12276129/FM_12276129.md
 metals: [Cd]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/spinach]]", "[[ingredients/lettuce]]", "[[ingredients/legumes]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/spinach]]", "[[ingredients/lettuce]]", "[[ingredients/lentils]]"]
 products: []
 matrices: [rice, legumes, root-vegetable, leafy-vegetable]
 jurisdictions: []

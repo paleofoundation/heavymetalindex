@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10824086/FM_10824086.md
 metals: [Pb, tHg, tAs, Cd]
 ingredients: ["[[ingredients/beef]]"]
-products: ["[[products/beef]]"]
+products: []
 matrices: [beef, chilled-meat, frozen-meat]
 jurisdictions: [EG]
 near_duplicates: []

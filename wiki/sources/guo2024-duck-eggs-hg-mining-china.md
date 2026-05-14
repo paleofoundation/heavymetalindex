@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10932963/FM_10932963.md
 metals: [Cr, Pb, Zn, Sr, Ba]
-ingredients: ["[[ingredients/duck-eggs]]", "[[ingredients/poultry-eggs]]"]
+ingredients: ["[[ingredients/eggs]]"]
 products: []
 matrices: [poultry-eggs, duck-eggs]
 jurisdictions: [CN]

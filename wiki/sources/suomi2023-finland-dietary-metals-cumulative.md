@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10244267/FM_10244267.md
 metals: [Cd, Pb, iAs, MeHg, Ni, Al]
-ingredients: ["[[ingredients/bread]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/coffee]]", "[[ingredients/fish]]"]
-products: ["[[products/bread-and-cereals]]"]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/coffee]]", "[[ingredients/fish]]"]
+products: []
 matrices: [dietary-intake, bread, cereals, vegetables, fish, non-alcoholic-beverages]
 jurisdictions: [FI, EU]
 near_duplicates: []

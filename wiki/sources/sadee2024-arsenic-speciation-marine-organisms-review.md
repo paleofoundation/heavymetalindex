@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11228943/FM_11228943.md
 metals: [iAs, tAs]
-ingredients: ["[[ingredients/marine-fish]]", "[[ingredients/shellfish]]", "[[ingredients/seaweed]]"]
+ingredients: ["[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/seaweed]]"]
 products: []
 matrices: [marine-fish, shellfish, seaweed, seafood]
 jurisdictions: []

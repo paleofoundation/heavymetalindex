@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11198741/FM_11198741.md
 metals: [tAs, Cd, Pb, tHg, MeHg, Ni]
-ingredients: ["[[ingredients/polar-bear-meat]]"]
+ingredients: ["[[ingredients/meat-and-poultry]]"]
 products: []
 matrices: [wild-game-muscle, wild-game-liver, wild-game-fat]
 jurisdictions: [CA]

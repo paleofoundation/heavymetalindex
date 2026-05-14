@@ -14,8 +14,8 @@ evidence_tier: A
 license: "Open Access (CC)"
 raw_path: raw/markdown/FM_10403408/FM_10403408.md
 metals: [tAs, Cd, tHg, Pb]
-ingredients: ["[[ingredients/mullet]]", "[[ingredients/marine-fish]]"]
-products: ["[[products/fish]]"]
+ingredients: ["[[ingredients/seafood]]", "[[ingredients/fish]]"]
+products: []
 matrices: [fish-muscle, fish-liver, fish-kidney, fish-gill, fish-intestine]
 jurisdictions: [IR]
 near_duplicates: []

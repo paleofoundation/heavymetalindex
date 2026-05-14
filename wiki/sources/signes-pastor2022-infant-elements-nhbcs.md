@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9971144_Dietary_Exposure_to_Essential_and_Non-essential_Elements_Dur/FM_9971144_Dietary_Exposure_to_Essential_and_Non-essential_Elements_Dur.md
 metals: [tAs, Pb, Cd, tHg, Al, Sb, Sn]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/infant-formula]]"]
-products: ["[[products/infant-cereal]]", "[[products/baby-food]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/infant-formula-powder]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/infant-and-child-foods-master]]"]
 matrices: [urine, biomonitoring, dietary-intake]
 jurisdictions: [US]
 near_duplicates: []

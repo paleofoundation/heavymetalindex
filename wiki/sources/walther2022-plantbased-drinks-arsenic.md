@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9650290/FM_9650290.md
 metals: [tAs]
-ingredients: ["[[ingredients/plant-based-milk]]", "[[ingredients/rice-milk]]", "[[ingredients/oat-milk]]", "[[ingredients/soy-milk]]", "[[ingredients/almond-milk]]"]
-products: ["[[products/plant-based-beverages]]"]
+ingredients: ["[[ingredients/plant-milk]]"]
+products: []
 matrices: [plant-based-drink, dairy-alternative]
 jurisdictions: [CH]
 near_duplicates: []

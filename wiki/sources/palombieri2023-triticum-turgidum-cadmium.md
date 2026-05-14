@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10731273/FM_10731273.md
 metals: [Cd]
-ingredients: ["[[ingredients/wheat]]", "[[ingredients/durum-wheat]]"]
+ingredients: ["[[ingredients/wheat]]"]
 products: []
 matrices: [grain, wheat-grain]
 jurisdictions: [IT, EU]

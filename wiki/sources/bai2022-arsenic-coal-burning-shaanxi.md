@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9251510/FM_9251510.md
 metals: [tAs]
-ingredients: ["[[ingredients/corn]]", "[[ingredients/peppers]]"]
+ingredients: ["[[ingredients/corn]]", "[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [food, coal, soil, water, urine, blood, hair]
 jurisdictions: [CN]

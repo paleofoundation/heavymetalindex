@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11347280/FM_11347280.md
 metals: [Pb, tAs, tHg, Cd]
-ingredients: ["[[ingredients/human-milk]]"]
+ingredients: ["[[ingredients/breastmilk]]"]
 products: []
 matrices: [human-milk]
 jurisdictions: [BR]

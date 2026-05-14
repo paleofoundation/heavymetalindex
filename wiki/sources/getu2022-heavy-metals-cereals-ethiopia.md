@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_9744605/FM_9744605.md
 metals: [Pb, Cd, Cr]
-ingredients: ["[[ingredients/barley]]", "[[ingredients/wheat]]", "[[ingredients/maize]]", "[[ingredients/tef]]"]
+ingredients: ["[[ingredients/non-rice-grains]]", "[[ingredients/wheat]]", "[[ingredients/corn]]"]
 products: []
 matrices: [cereal-grain]
 jurisdictions: [ET]

@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9393542/FM_9393542.md
 metals: [Pb, Cd, Cr, Ni, tAs]
-ingredients: ["[[ingredients/wheat]]", "[[ingredients/wheat-flour]]"]
-products: ["[[products/grain-cereals]]"]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/cereals]]"]
+products: []
 matrices: [grain, wheat-grain]
 jurisdictions: [CN]
 near_duplicates: []

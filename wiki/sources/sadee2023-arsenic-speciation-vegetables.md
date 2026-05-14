@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10591994/FM_10591994.md
 metals: [tAs, iAs]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]"]
+ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/root-vegetables]]"]
 products: []
 matrices: [vegetable]
 jurisdictions: [global]

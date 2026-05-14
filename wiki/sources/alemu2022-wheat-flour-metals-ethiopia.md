@@ -12,7 +12,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_9428666_Levels_of_selected_essential_and_non-essential_metals_in_whe/FM_9428666_Levels_of_selected_essential_and_non-essential_metals_in_whe.md
 metals: [Pb, Cd, Ni]
-ingredients: ["[[ingredients/wheat-flour]]"]
+ingredients: ["[[ingredients/wheat]]"]
 products: []
 matrices: [wheat-flour]
 jurisdictions: [ET]

@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12411130/FM_12411130.md
 metals: [iAs, tAs]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]"]
-products: ["[[products/infant-cereal]]"]
+ingredients: ["[[ingredients/rice]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [rice, grain]
 jurisdictions: [US]
 near_duplicates: []

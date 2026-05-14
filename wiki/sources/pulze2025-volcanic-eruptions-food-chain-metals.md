@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY-NC"
 raw_path: raw/markdown/FM_12679960/FM_12679960.md
 metals: [Ni, Cd, V, Pb, As, Cr]
-ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruits]]", "[[ingredients/wine]]"]
+ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruit]]"]
 products: []
 matrices: [soil, agricultural-produce, vegetables, fruits]
 jurisdictions: [IT, EU]

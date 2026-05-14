@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12847127/FM_12847127.md
 metals: [Pb, tAs, Cd, tHg, Al, Sb, Ni, Cr]
-ingredients: ["[[ingredients/milk]]", "[[ingredients/yogurt]]", "[[ingredients/ice-cream]]"]
-products: ["[[products/dairy]]", "[[products/flavored-milk]]"]
+ingredients: ["[[ingredients/yogurt]]", "[[ingredients/milk-and-dairy]]"]
+products: []
 matrices: [milk, yogurt, ice-cream, milk-powder]
 jurisdictions: [EG]
 near_duplicates: []

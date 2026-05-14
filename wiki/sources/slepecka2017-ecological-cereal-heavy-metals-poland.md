@@ -12,7 +12,7 @@ evidence_tier: B
 license: "CC BY-NC-ND 3.0"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Heavy metals concentration in wheat flour and ecological vs..pdf"
 metals: [Cd, Pb, Zn, Cu]
-ingredients: ["[[ingredients/wheat]]", "[[ingredients/oats]]", "[[ingredients/rye]]", "[[ingredients/barley]]", "[[ingredients/cereals]]"]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/oat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/cereals]]"]
 products: []
 matrices: [wheat-flour, rye-flour, spelt-flour, buckwheat-flour, oat-bran, wheat-bran, rye-bran, oat-flakes, barley-flakes, rye-flakes]
 jurisdictions: [PL]

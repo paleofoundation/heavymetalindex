@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11321977/FM_11321977.md
 metals: [Pb, Cd, tAs]
-ingredients: ["[[ingredients/cocoa]]", "[[ingredients/dark-chocolate]]"]
-products: ["[[products/dark-chocolate]]"]
+ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
+products: []
 matrices: [dark-chocolate, cocoa-powder, cocoa-product]
 jurisdictions: [US]
 near_duplicates: [hands2024-multiyear-dark-chocolate-cocoa-usa]

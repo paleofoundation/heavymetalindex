@@ -14,7 +14,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_10541821/FM_10541821.md
 metals: [tHg]
-ingredients: ["[[ingredients/bivalves]]", "[[ingredients/seafood]]"]
+ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/seafood]]"]
 products: []
 matrices: [seafood, bivalve, surface-water, estuarine-water, biota]
 jurisdictions: [PT, EU]

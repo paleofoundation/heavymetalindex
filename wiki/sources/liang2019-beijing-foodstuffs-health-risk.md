@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Analysis of Heavy Metals in Foodstuffs and an Assessment of .pdf"
 metals: [Pb, Cd, Cr, tAs, tHg]
-ingredients: ["[[ingredients/wheat-flour]]", "[[ingredients/millet]]", "[[ingredients/corn]]", "[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]", "[[ingredients/meat]]", "[[ingredients/fruit]]"]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/corn]]", "[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]", "[[ingredients/meat]]", "[[ingredients/fruit]]"]
 products: []
 matrices: [cereal-grain, wheat-flour, dietary-intake]
 jurisdictions: [CN]

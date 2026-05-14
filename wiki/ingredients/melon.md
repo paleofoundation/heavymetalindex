@@ -7,12 +7,12 @@ aliases: [melon]
 category: fruit
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [0, 4.8]
+    p95_ppb: 20.7
+    confidence: high
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cd:
     status: populated
     typical_ppb: [0, 10]

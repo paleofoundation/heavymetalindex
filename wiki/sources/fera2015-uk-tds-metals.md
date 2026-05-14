@@ -14,7 +14,7 @@ evidence_tier: A
 license: "UK Open Government Licence (Crown Copyright)"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/UK Total Diet Study of metals and other elements in food.pdf"
 metals: [Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, Sb]
-ingredients: ["[[ingredients/bread]]", "[[ingredients/rice]]", "[[ingredients/wheat-flour]]", "[[ingredients/breakfast-cereals]]", "[[ingredients/pasta]]", "[[ingredients/beef]]", "[[ingredients/lamb]]", "[[ingredients/pork]]", "[[ingredients/fish]]", "[[ingredients/milk]]", "[[ingredients/dairy]]", "[[ingredients/eggs]]", "[[ingredients/potatoes]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/nuts]]"]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/cereals]]", "[[ingredients/pasta]]", "[[ingredients/beef]]", "[[ingredients/meat-and-poultry]]", "[[ingredients/fish]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/eggs]]", "[[ingredients/potatoes]]", "[[ingredients/leafy-greens]]", "[[ingredients/almond]]"]
 products: []
 matrices: [total-diet, as-consumed, food-group-composite, food-category-composite]
 jurisdictions: [GB]

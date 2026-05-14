@@ -12,7 +12,7 @@ evidence_tier: A
 license: "ACS AuthorChoice"
 raw_path: raw/markdown/FM_8009509/FM_8009509.md
 metals: [tAs]
-ingredients: ["[[ingredients/krill-oil]]", "[[ingredients/tuna]]", "[[ingredients/seafood]]", "[[ingredients/kelp]]"]
+ingredients: ["[[ingredients/tuna]]", "[[ingredients/seafood]]"]
 products: []
 matrices: [seafood, fish, algae, dietary-supplement]
 jurisdictions: [CA]

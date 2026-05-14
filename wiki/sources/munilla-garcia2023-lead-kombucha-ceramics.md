@@ -14,8 +14,8 @@ evidence_tier: A
 license: null
 raw_path: raw/markdown/FM_10560530/FM_10560530.md
 metals: [Pb]
-ingredients: ["[[ingredients/kombucha]]", "[[ingredients/tea]]"]
-products: ["[[products/kombucha]]", "[[products/fermented-beverages]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
+products: ["[[products/kombucha-tea-based]]", "[[products/fermented-beverages-non-tea-based]]"]
 matrices: [fermented-beverage, food-contact-material-leachate]
 jurisdictions: [ES, EU]
 near_duplicates: []

@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11580069/FM_11580069.md
 metals: [Pb, Cd, tHg]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/maize]]", "[[ingredients/millet]]", "[[ingredients/sorghum]]", "[[ingredients/cowpea]]", "[[ingredients/soybean]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/non-rice-grains]]", "[[ingredients/lentils]]", "[[ingredients/soy]]"]
 products: []
 matrices: [cereal-grain, legume]
 jurisdictions: [NG]

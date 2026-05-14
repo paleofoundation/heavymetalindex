@@ -14,7 +14,7 @@ license: "CC BY-ND"
 raw_path: raw/markdown/FM_10687758/FM_10687758.md
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
-products: ["[[products/chocolate]]"]
+products: []
 matrices: [chocolate, milk-chocolate, dark-chocolate]
 jurisdictions: [PL, EU]
 near_duplicates: []

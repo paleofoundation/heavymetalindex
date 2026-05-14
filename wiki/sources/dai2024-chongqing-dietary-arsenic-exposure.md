@@ -13,7 +13,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11839360/FM_11839360.md
 metals: [tAs]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/vegetables]]", "[[ingredients/eggs]]", "[[ingredients/meat]]", "[[ingredients/fish-seafood]]", "[[ingredients/dairy]]", "[[ingredients/fruits]]", "[[ingredients/nuts-seeds]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/vegetables]]", "[[ingredients/eggs]]", "[[ingredients/meat]]", "[[ingredients/seafood]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/fruit]]", "[[ingredients/almond]]"]
 products: []
 matrices: [rice, grain, meat, vegetables, dairy, eggs, aquatic-products, fruits, nuts-seeds, special-dietary-foods]
 jurisdictions: [CN]

@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY-NC 4.0"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Investigation of heavy metal concentrations and health risk .pdf"
 metals: [Pb, Cd]
-ingredients: ["[[ingredients/infant-formula]]", "[[ingredients/cereals]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/infant-cereal]]"]
+ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/cereals]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/baby-cereals-dry-rice-based]]"]
 matrices: [infant-formula-powder, infant-cereal, wet-weight]
 jurisdictions: [IR]
 sample_n: 25

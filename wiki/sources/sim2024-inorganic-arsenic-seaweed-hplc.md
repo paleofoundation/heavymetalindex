@@ -14,7 +14,7 @@ evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_11045606/FM_11045606.md
 metals: [iAs, tAs, As]
-ingredients: ["[[ingredients/seaweed]]", "[[ingredients/algae]]", "[[ingredients/rice]]", "[[ingredients/insect-protein]]"]
+ingredients: ["[[ingredients/seaweed]]", "[[ingredients/seafood]]", "[[ingredients/rice]]", "[[ingredients/non-soy-protein-source]]"]
 products: []
 matrices: [seaweed, algae, grain, insect-protein, grass-silage]
 jurisdictions: [EU]

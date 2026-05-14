@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10272007/FM_10272007.md
 metals: [Pb]
-ingredients: ["[[ingredients/game-meat]]", "[[ingredients/pheasant]]"]
-products: ["[[products/pet-food]]"]
+ingredients: ["[[ingredients/meat-and-poultry]]", "[[ingredients/poultry]]"]
+products: []
 matrices: [game-meat, pet-food]
 jurisdictions: [GB, EU]
 near_duplicates: []

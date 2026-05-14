@@ -12,7 +12,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_9434655/FM_9434655.md
 metals: [Pb, Cd, tAs, tHg]
-ingredients: ["[[ingredients/garlic]]", "[[ingredients/potato]]", "[[ingredients/vegetables]]", "[[ingredients/fruits]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/potatoes]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]"]
 products: []
 matrices: [vegetables, fruits, soil]
 jurisdictions: [IN]

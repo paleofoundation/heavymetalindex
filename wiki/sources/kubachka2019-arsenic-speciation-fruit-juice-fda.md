@@ -12,7 +12,7 @@ evidence_tier: A
 license: "US Government work"
 raw_path: raw/markdown/FM_9274380/FM_9274380.md
 metals: [iAs, tAs]
-ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/grape-juice]]", "[[ingredients/pear-juice]]", "[[ingredients/pomegranate-juice]]", "[[ingredients/prune-juice]]", "[[ingredients/cherry-juice]]"]
+ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/grape-juice]]", "[[ingredients/fruit-juice]]"]
 products: ["[[products/fruit-juice]]"]
 matrices: [fruit-juice]
 jurisdictions: [US]

@@ -12,8 +12,8 @@ evidence_tier: A
 license: "ISSN 2765-0189"
 raw_path: raw/markdown/FM_9449400/FM_9449400.md
 metals: [Al, tAs, Pb, tHg, Cd]
-ingredients: []
-products: ["[[products/eggs]]"]
+ingredients: ["[[ingredients/eggs]]"]
+products: []
 matrices: [egg, poultry-feed]
 jurisdictions: [KR]
 near_duplicates: []

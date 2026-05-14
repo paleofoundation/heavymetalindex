@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11379750/FM_11379750.md
 metals: [Pb, Cd, tAs]
-ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/brassica]]", "[[ingredients/amaranth]]", "[[ingredients/beet]]"]
+ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/non-rice-grains]]", "[[ingredients/beet]]"]
 products: []
 matrices: [vegetables, leafy-vegetables]
 jurisdictions: [CD]

@@ -13,7 +13,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_10733137/FM_10733137.md
 metals: [iAs, tAs]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/dairy]]", "[[ingredients/meat]]", "[[ingredients/seaweed]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/meat]]", "[[ingredients/seaweed]]"]
 products: []
 matrices: [urine, blood, toenails, hair, placenta, cord-blood, meconium, saliva, maternal-blood, gestational-exposure]
 jurisdictions: [CA, US, global]

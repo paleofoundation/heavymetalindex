@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_9938062/FM_9938062.md
 metals: [tHg, MeHg]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]"]
-products: ["[[products/fish-seafood]]"]
+products: []
 matrices: [human-hair, biomonitoring]
 jurisdictions: [IT, EU]
 near_duplicates: []

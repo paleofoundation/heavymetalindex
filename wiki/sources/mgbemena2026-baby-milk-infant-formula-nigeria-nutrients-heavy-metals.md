@@ -13,7 +13,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby.pdf"
 metals: [Pb, Cd, Ni, Cr]
 ingredients: []
-products: ["[[products/infant-formula-powder-non-soy]]", "[[products/baby-food-grain-based]]"]
+products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-and-child-foods-master]]"]
 matrices: [infant-formula, baby-food, dry-weight]
 jurisdictions: [NG]
 sample_n: 20

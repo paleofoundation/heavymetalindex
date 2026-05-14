@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10067660/FM_10067660.md
 metals: [Pb, Cd, Cr, Ni, Cu, Fe, Mn, Zn, Co]
-ingredients: ["[[ingredients/tomatoes]]"]
+ingredients: ["[[ingredients/tomato]]"]
 products: []
 matrices: [vegetable-tissue, fruit-tissue, soil, irrigation-water]
 jurisdictions: [EG]

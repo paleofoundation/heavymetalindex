@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_8149256/FM_8149256.md
 metals: [Cd, Cr, Pb]
-ingredients: ["[[ingredients/leafy-vegetables]]"]
+ingredients: ["[[ingredients/leafy-greens]]"]
 products: []
 matrices: [leafy-vegetable]
 jurisdictions: [LK]

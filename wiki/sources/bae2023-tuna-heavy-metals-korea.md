@@ -14,8 +14,8 @@ evidence_tier: A
 license: "CC BY-NC"
 raw_path: raw/markdown/FM_10011450/FM_10011450.md
 metals: [MeHg, tHg, Pb, Cd, tAs]
-ingredients: ["[[ingredients/tuna]]", "[[ingredients/fish]]"]
-products: ["[[products/canned-tuna]]", "[[products/seafood]]"]
+ingredients: ["[[ingredients/tuna]]", "[[ingredients/fish]]", "[[ingredients/tinned-fish]]"]
+products: ["[[products/seafood]]"]
 matrices: [fish-tissue, seafood]
 jurisdictions: [KR]
 near_duplicates: []

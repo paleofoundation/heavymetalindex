@@ -12,8 +12,8 @@ evidence_tier: B
 license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Assessing Heavy Metal Contamination in Food (Review - Tin in.pdf"
 metals: [Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Cr, Sn]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]", "[[ingredients/canned-foods]]"]
-products: ["[[products/baby-food]]", "[[products/infant-rice-cereal]]", "[[products/canned-vegetables]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]"]
+products: ["[[products/infant-and-child-foods-master]]", "[[products/baby-cereals-dry-rice-based]]"]
 matrices: [cereal-grain, rice, bread, pasta, canned-food, fish, dairy, dietary-intake, drinking-water]
 jurisdictions: [EU, US, RO]
 sample_n: null

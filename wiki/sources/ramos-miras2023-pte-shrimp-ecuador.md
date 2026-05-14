@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10724093_Potentially_toxic_element_bioaccumulation_in_consumed_indoor/FM_10724093_Potentially_toxic_element_bioaccumulation_in_consumed_indoor.md
 metals: [tAs, Cd, Cr, Ni, Pb, tHg]
-ingredients: ["[[ingredients/shrimp]]"]
+ingredients: ["[[ingredients/shellfish]]"]
 products: ["[[products/seafood]]"]
 matrices: [seafood, crustaceans]
 jurisdictions: [EC, EU]

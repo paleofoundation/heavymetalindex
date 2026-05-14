@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9755593/FM_9755593.md
 metals: [Cd]
-ingredients: ["[[ingredients/cacao]]", "[[ingredients/cocoa]]"]
-products: ["[[products/chocolate]]"]
+ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
+products: []
 matrices: [cacao-nib, cacao-bean, plant-tissue]
 jurisdictions: [BE]
 near_duplicates: []

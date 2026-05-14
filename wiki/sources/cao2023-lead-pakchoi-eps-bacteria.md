@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10034174/FM_10034174.md
 metals: [Pb]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/bok-choy]]"]
+ingredients: ["[[ingredients/leafy-greens]]"]
 products: []
 matrices: [vegetable-tissue, soil]
 jurisdictions: [CN]

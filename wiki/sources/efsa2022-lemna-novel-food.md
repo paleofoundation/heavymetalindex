@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY-ND 4.0"
 raw_path: raw/markdown/FM_9710118/FM_9710118.md
 metals: [tAs, Cd, Pb, tHg]
-ingredients: ["[[ingredients/water-lentils]]", "[[ingredients/duckweed]]"]
+ingredients: ["[[ingredients/seafood]]"]
 products: []
 matrices: [novel-food, plant-based-food]
 jurisdictions: [EU]

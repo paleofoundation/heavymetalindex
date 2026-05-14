@@ -14,7 +14,7 @@ evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_11009773/FM_11009773.md
 metals: [As, tAs]
-ingredients: ["[[ingredients/algae]]", "[[ingredients/seaweed]]"]
+ingredients: ["[[ingredients/seafood]]", "[[ingredients/seaweed]]"]
 products: []
 matrices: [algae, microalgae]
 jurisdictions: []

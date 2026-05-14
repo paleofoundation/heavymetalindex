@@ -1,0 +1,118 @@
+---
+type: source
+raw_handle: manual-fetch-kimi
+cite_key: fechner2022-bfr-meal-hg-cd-pb-ni-germany
+title: "Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods"
+authors: [Fechner C, Hackethal C, Höpfner T, Dietrich J, Bloch D, Lindtner O, Sarvan I]
+year: 2022
+publication: "Food Chemistry: X"
+doi: 10.1016/j.fochx.2022.100326
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY-NC-ND 4.0"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Results of the BfR MEAL Study_ In Germany, mercury is mostly cont.pdf"
+metals: [tHg, MeHg, Cd, Pb, Ni]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/tuna]]", "[[ingredients/cocoa]]", "[[ingredients/dark-chocolate]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/linseeds]]", "[[ingredients/cashew-nuts]]", "[[ingredients/walnuts]]", "[[ingredients/hazelnuts]]", "[[ingredients/porcini-mushroom]]", "[[ingredients/algae]]", "[[ingredients/mussels]]", "[[ingredients/spices]]", "[[ingredients/cocoa-powder]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/meat]]", "[[ingredients/offal]]"]
+products: ["[[products/canned-fish]]", "[[products/chocolate]]", "[[products/snacks-crackers-biscuits]]", "[[products/infant-food]]"]
+matrices: [ready-to-eat-food, dietary-intake, total-diet-study]
+jurisdictions: [DE, EU]
+near_duplicates: []
+sample_n: 869
+sample_population: "869 pooled samples from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II 2005–2006); children 0.5–<6 yr N=804 (VELS 2001–2002); foods purchased 2017–2019 and prepared as consumed"
+updated: 2026-05-14
+---
+
+# Fechner et al. 2022 — BfR MEAL Study: Hg, Cd, Pb, and Ni in 356 German foods
+
+This peer-reviewed paper reports concentration data for total mercury (tHg), cadmium (Cd), lead (Pb), and nickel (Ni) from the first German Total Diet Study, the BfR MEAL Study (Mahlzeiten für die Expositionsschätzung und Analyse von Lebensmitteln — "meals for exposure assessment and analysis of foods"), initiated in 2015. Foods were purchased representatively across Germany in 2017–2019, prepared as consumed in a study kitchen, and pooled (869 pooled samples from 356 MEAL foods) before analysis. The study is one of the most extensive TDSs worldwide by the number of foods and substances analysed. All measured levels were below applicable EU maximum levels. This paper is the primary data-reporting publication for the metals component of the BfR MEAL Study; a companion paper (Sarvan et al. 2021, Food and Chemical Toxicology) reported MeHg speciation in fish; a BfR Communication 033/2022 reported the Ni exposure assessment; a BfR Opinion 023/2024 applied MEAL MeHg data to fish consumption risk assessment.
+
+This paper is distinct from both previously ingested BfR MEAL sources in this corpus: `bfr2022-nickel-dietary-intake-germany-meal.md` (a government communication on Ni intake) and `bfr2024-methylmercury-fish-seafood-germany.md` (a 2024 risk assessment opinion for MeHg in fish).
+
+## Key numbers
+
+All concentrations upper-bound (UB) mean unless noted; mg/kg = ppm; multiply by 1,000 for ppb (µg/kg).
+
+**Mercury (tHg) by main food group — UB mean [mg/kg], n = pooled samples:**
+- Fish, seafood, invertebrates: mean 0.100 mg/kg (100,000 ppb range; median 0.045); range min–max 0.002–0.670
+  - Tuna smoked: 0.670 mg/kg — highest measured in the study
+  - Boletus/porcini mushroom: 0.623 mg/kg — second highest (classified under vegetables and vegetable products), 7-fold higher than GFM fresh wild mushroom mix data (0.088 mg/kg), attributed to water loss during preparation/drying
+  - Vegetarian sausage: 0.018 mg/kg (UB mean)
+  - Sushi: 0.010 mg/kg (UB mean, fish content)
+- All other food groups: predominantly close to or below LOQ (0.002 mg/kg moist foods; 0.005 mg/kg dry foods)
+- Animal and vegetable fats and oils: mean 0.003 mg/kg; 100% of pooled samples < LOD/LOQ
+- 57% of all 869 pooled samples were < LOQ under UB approach for Hg; 90% < LOQ in mLB
+
+**Cadmium (Cd) by main food group — UB mean [mg/kg]:**
+- Legumes, nuts, oilseeds, spices: mean 0.033 mg/kg; max 0.265 mg/kg (sunflower seeds)
+  - Sunflower seeds: 0.265 mg/kg
+  - Linseeds: 0.185 mg/kg
+  - Cocoa powder: 0.270 mg/kg (highest Cd in study)
+  - Dark chocolate: 0.110 mg/kg
+- Vegetables and vegetable products: mean 0.023 mg/kg; max 0.320 mg/kg (boletus/porcini mushroom prepared)
+- Coffee, cocoa, tea, infusions: mean 0.034 mg/kg; max 0.270 mg/kg
+- Animal and vegetable fats and oils: mean 0.002 mg/kg; 100% < LOD/LOQ
+- Grains and grain-based products: mean 0.018 mg/kg; max 0.066 mg/kg
+
+**Lead (Pb) by main food group — UB mean [mg/kg]:**
+- Coffee, cocoa, tea, infusions: mean 0.016 mg/kg; max 0.113 mg/kg (cocoa powder: 0.113 mg/kg)
+- Legumes, nuts, oilseeds, spices: mean 0.013 mg/kg; max 0.155 mg/kg (spices)
+- Vegetables and vegetable products: mean 0.014 mg/kg; max 0.128 mg/kg (boletus/porcini mushroom)
+  - Boletus/porcini mushroom: Cd 0.320 mg/kg, Pb 0.128 mg/kg — consistent high accumulation in both metals
+- Meat and meat products: mean 0.008 mg/kg; sheep liver 0.080 mg/kg, bovine liver 0.022 mg/kg
+- Animal and vegetable fats and oils: mean 0.003 mg/kg
+
+**Nickel (Ni) by main food group — UB mean [mg/kg]:**
+- Coffee, cocoa, tea, infusions: mean 1.488 mg/kg; max 11.050 mg/kg (cocoa powder)
+  - Cocoa powder: 11.050 mg/kg Ni — highest in the study
+  - Dark chocolate: 2.800 mg/kg Ni
+  - Cocoa beverage-preparation (instant powder): 2.150 mg/kg Ni
+  - Nut nougat cream/chocolate cream: 1.450 mg/kg Ni
+- Legumes, nuts, oilseeds, spices: mean 1.562 mg/kg; max 5.350 mg/kg (cashew nuts)
+  - Cashew nuts: 5.350 mg/kg
+  - Linseeds: 1.300 mg/kg
+- Grains and grain-based products: mean 0.361 mg/kg; max 1.975 mg/kg
+
+**Organic vs. conventional and regional variation:**
+- No significant differences across four German regions (east, south, west, north) for overall Hg, Cd, Pb, or Ni (p > 0.05 Kruskal-Wallis).
+- No significant difference between organically and conventionally produced foods overall (p > 0.05 Mann-Whitney U).
+- Minor food-specific differences exist (e.g. organic cereal crackers had higher Ni and Cd than conventional, attributed to different grain composition rather than production method).
+
+## Methods
+
+**Mercury:** Direct mercury analyzer by accredited contract laboratory; LOQ = 0.002 mg/kg (moist foods), 0.005 mg/kg (dry foods), 0.00005–0.0001 mg/kg (drinking water). Details in Sarvan et al. 2021. Reporting as tHg (total Hg); MeHg speciation published separately.
+
+**Cadmium, Lead, Nickel:** ICP-MS by accredited contract laboratory. Cd LOQ = 0.001 mg/kg (moist), 0.005 mg/kg (dry), 0.0002 mg/kg (water). Pb LOQ = 0.002 mg/kg (moist), 0.004 mg/kg (dry). Ni LOQ = 0.02 mg/kg (moist), 0.1 mg/kg (dry), 0.001 mg/kg (water).
+
+**Left-censored data handling:** Upper bound (UB): values < LOD replaced by LOD; values < LOQ and > LOD replaced by LOQ. Modified lower bound (mLB): values < LOD set to zero; values < LOQ set to LOD. mLB and UB did not differ substantially; results presented as UB throughout. mLB results in supplementary tables.
+
+**Pooling and homogenisation:** Knife mill (Retsch GmbH Grinddomix GM300) with polypropylene container and titanium knives (to avoid Ni leaching from stainless steel). Ultrapure water or liquid nitrogen added for homogenisation where required. Storage at −20°C in polypropylene vessels.
+
+**Statistical analysis:** IBM SPSS Statistics 26. Kolmogorov-Smirnov normality test; Kruskal-Wallis test (four regions); Mann-Whitney U (production type). Significance level 0.05.
+
+**Speciation note:** This paper reports total Hg (tHg). MeHg was the predominant form in fish per the companion paper (Sarvan et al. 2021), consistent with MeHg bioaccumulation in marine food chains; terrestrial foods had predominantly inorganic Hg (iHg). Risk assessments for MeHg exposure from fish in Germany appear in the BfR Opinion 023/2024 (`bfr2024-methylmercury-fish-seafood-germany.md`).
+
+## Implications
+
+Certification: The BfR MEAL Study provides the most comprehensive German-market concentration dataset for tHg, Cd, Pb, and Ni across 356 foods as consumed, including the full range of food categories relevant to HMT&C-certified products. The finding that oils and fats are near-zero for all four metals (100% below LOQ for Hg and Cd) reinforces low-risk classification for culinary oil products. The very high Ni in cocoa powder (11.050 mg/kg = 11,050 ppb) and dark chocolate (2.800 mg/kg = 2,800 ppb) is the most policy-relevant number in the study for HMT&C certification of chocolate-containing products.
+
+Courses: Illustrates TDS methodology, pooling design, the UB/LB non-detect handling approach, and the contrast between tHg (measured here) and MeHg speciation (measured in the companion paper). Also illustrates that organic vs. conventional labelling does not systematically affect heavy metal concentrations — an important consumer-expectation calibration point.
+
+App: The 356-food concentration table (supplementary Tables S3–S6) is the most comprehensive prepared-food concentration dataset available for Germany and provides the direct basis for ingredient-level contamination profiles for numerous foods including cocoa, nuts, seeds, mushrooms, and fish species.
+
+Microbiome: Not directly applicable, though the Ni data at very high levels in cocoa and legume/nut foods has potential implications for Ni-sensitive microbiome interactions.
+
+## Wiki pages updated on ingest
+
+- [[metals/mercury]]
+- [[metals/cadmium]]
+- [[metals/lead]]
+- [[metals/nickel]]
+- [[ingredients/cocoa]]
+- [[ingredients/dark-chocolate]]
+- [[ingredients/tuna]]
+- [[ingredients/fish]]
+- [[ingredients/sunflower-seeds]]
+- [[ingredients/porcini-mushroom]]
+- [[ingredients/cashew-nuts]]
+- [[ingredients/spices]]
+- [[ingredients/algae]]

@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10321601/FM_10321601.md
 metals: [Cd]
-ingredients: ["[[ingredients/parsley]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [agricultural-soil, root-vegetable, herb]
 jurisdictions: [PL, EU]

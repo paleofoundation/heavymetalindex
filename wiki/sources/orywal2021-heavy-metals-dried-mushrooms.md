@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_8221490/FM_8221490.md
 metals: [tHg, Pb, Cd, tAs]
-ingredients: ["[[ingredients/mushrooms]]"]
+ingredients: ["[[ingredients/wild-mushrooms]]"]
 products: []
 matrices: [dried-mushroom, wild-mushroom]
 jurisdictions: [PL, EU]

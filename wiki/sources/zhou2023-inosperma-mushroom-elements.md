@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10740167/FM_10740167.md
 metals: [tAs]
-ingredients: ["[[ingredients/mushrooms]]"]
+ingredients: ["[[ingredients/wild-mushrooms]]"]
 products: []
 matrices: [mushroom, fungi]
 jurisdictions: [CN]

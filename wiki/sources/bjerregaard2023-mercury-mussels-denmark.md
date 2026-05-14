@@ -14,8 +14,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10560636/FM_10560636.md
 metals: [tHg]
-ingredients: ["[[ingredients/mussels]]", "[[ingredients/shellfish]]", "[[ingredients/periwinkles]]", "[[ingredients/shrimp]]"]
-products: ["[[products/seafood]]", "[[products/shellfish]]"]
+ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]"]
+products: ["[[products/seafood]]"]
 matrices: [mussel-flesh, marine-invertebrate, sediment]
 jurisdictions: [DK, EU]
 near_duplicates: []

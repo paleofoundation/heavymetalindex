@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10954997/FM_10954997.md
 metals: [Pb, Cd, tAs]
-ingredients: ["[[ingredients/cow-milk]]", "[[ingredients/dairy]]"]
+ingredients: ["[[ingredients/milk-and-dairy]]"]
 products: []
 matrices: [cow-milk, raw-milk]
 jurisdictions: [PE]

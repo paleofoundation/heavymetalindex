@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10927903/FM_10927903.md
 metals: [Cd, tHg, MeHg]
-ingredients: ["[[ingredients/seafood]]", "[[ingredients/marine-fish]]", "[[ingredients/shellfish]]"]
+ingredients: ["[[ingredients/seafood]]", "[[ingredients/shellfish]]"]
 products: []
 matrices: [seafood, marine-fish, marine-invertebrate]
 jurisdictions: [CA]

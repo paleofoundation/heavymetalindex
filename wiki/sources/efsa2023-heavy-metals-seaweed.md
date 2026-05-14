@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY-NC-ND"
 raw_path: raw/markdown/FM_9887633/FM_9887633.md
 metals: [Cd, Pb, tAs, iAs, tHg]
-ingredients: ["[[ingredients/seaweed]]", "[[ingredients/laver]]", "[[ingredients/kombu-kelp]]", "[[ingredients/spirulina]]", "[[ingredients/chlorella]]"]
+ingredients: ["[[ingredients/seaweed]]", "[[ingredients/seafood]]"]
 products: []
 matrices: [food, seaweed, algae]
 jurisdictions: [EU]

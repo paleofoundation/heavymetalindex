@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10443864/FM_10443864.md
 metals: [tHg]
-ingredients: ["[[ingredients/freshwater-fish]]"]
-products: ["[[products/fish]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
+products: []
 matrices: [fish-muscle]
 jurisdictions: [US]
 near_duplicates: []

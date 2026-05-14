@@ -14,7 +14,7 @@ evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_11052787/FM_11052787.md
 metals: [Fe, Zn, Al, Cu, Mn, Se, As, Hg, Cd, Pb]
-ingredients: ["[[ingredients/crayfish]]", "[[ingredients/seafood]]", "[[ingredients/crustaceans]]"]
+ingredients: ["[[ingredients/shellfish]]", "[[ingredients/seafood]]"]
 products: []
 matrices: [crustacean, freshwater-seafood, seafood]
 jurisdictions: [TR]

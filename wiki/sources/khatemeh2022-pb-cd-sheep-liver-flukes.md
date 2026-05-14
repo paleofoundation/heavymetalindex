@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY-NC-SA"
 raw_path: raw/markdown/FM_9840797/FM_9840797.md
 metals: [Pb, Cd, Cr]
-ingredients: ["[[ingredients/sheep-liver]]", "[[ingredients/offal]]"]
+ingredients: ["[[ingredients/organ-meats]]"]
 products: []
 matrices: [liver-tissue, parasite-tissue]
 jurisdictions: [IR]

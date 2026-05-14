@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9623109/FM_9623109.md
 metals: [Pb]
-ingredients: ["[[ingredients/spinach]]", "[[ingredients/cabbage]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/wheat]]"]
+ingredients: ["[[ingredients/spinach]]", "[[ingredients/leafy-greens]]", "[[ingredients/wheat]]"]
 products: []
 matrices: [vegetable, grain, irrigation-water, soil]
 jurisdictions: [IN, PK, CN, IR, EG, ET, KE, IQ, MA, NG, KP, KR, BW]

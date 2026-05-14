@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10811111/FM_10811111.md
 metals: [Cd]
-ingredients: ["[[ingredients/seabream]]", "[[ingredients/marine-fish]]"]
+ingredients: ["[[ingredients/seafood]]"]
 products: []
 matrices: [marine-fish, fish-muscle, fish-liver, fish-gills]
 jurisdictions: [EG]

@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_8017173/FM_8017173.md
 metals: [tAs, iAs]
-ingredients: ["[[ingredients/drinking-water]]"]
+ingredients: ["[[ingredients/water]]"]
 products: []
 matrices: [drinking-water, groundwater]
 jurisdictions: [IT, EU]

@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10859351_Toxicity_Evaluation_Oxidative_and_Immune_Responses_of_Mercur/FM_10859351_Toxicity_Evaluation_Oxidative_and_Immune_Responses_of_Mercur.md
 metals: [tHg]
-ingredients: ["[[ingredients/tilapia]]", "[[ingredients/nile-tilapia]]", "[[ingredients/freshwater-fish]]"]
-products: ["[[products/freshwater-fish]]"]
+ingredients: ["[[ingredients/tilapia]]", "[[ingredients/freshwater-fish]]"]
+products: []
 matrices: [freshwater-fish, fish-muscle, aquaculture-fish]
 jurisdictions: [EG]
 near_duplicates: []

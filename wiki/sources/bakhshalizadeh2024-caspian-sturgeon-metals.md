@@ -14,7 +14,7 @@ evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_10998770/FM_10998770.md
 metals: [As, Cd, Hg, Pb, Ni, V]
-ingredients: ["[[ingredients/sturgeon]]", "[[ingredients/seafood]]"]
+ingredients: ["[[ingredients/seafood]]"]
 products: []
 matrices: [fish-tissue, seafood]
 jurisdictions: [IR]

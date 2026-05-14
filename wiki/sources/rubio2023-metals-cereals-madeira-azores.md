@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10620312/FM_10620312.md
 metals: [Cd, Pb, tHg]
-ingredients: ["[[ingredients/oats]]", "[[ingredients/rye]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/corn]]"]
+ingredients: ["[[ingredients/oat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/corn]]"]
 products: []
 matrices: [cereal-grain, cereal-flour]
 jurisdictions: [PT]

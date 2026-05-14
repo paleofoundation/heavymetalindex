@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11018424/FM_11018424.md
 metals: [Pb, Cd, tAs, tHg, Al, Sn]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: ["[[products/canned-fish]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/tinned-fish]]"]
+products: []
 matrices: [canned-fish, herring, mackerel, salmon, sardine, tuna]
 jurisdictions: [EG]
 near_duplicates: []

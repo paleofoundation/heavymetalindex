@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY-ND 4.0"
 raw_path: raw/markdown/FM_9749430/FM_9749430.md
 metals: [Al, tAs, Cd, Cr, Pb, Ni]
-ingredients: ["[[ingredients/rye]]", "[[ingredients/wheat]]", "[[ingredients/bread]]"]
-products: ["[[products/bread]]"]
+ingredients: ["[[ingredients/non-rice-grains]]", "[[ingredients/wheat]]"]
+products: []
 matrices: [cereal-product, bread]
 jurisdictions: [PL, EU]
 near_duplicates: []

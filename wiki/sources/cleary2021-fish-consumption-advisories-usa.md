@@ -13,8 +13,8 @@ evidence_tier: B
 license: "unknown"
 raw_path: raw/markdown/FM_8208921/FM_8208921.md
 metals: [MeHg]
-ingredients: ["[[ingredients/fish]]"]
-products: ["[[products/freshwater-fish]]", "[[products/seafood]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]"]
+products: ["[[products/seafood]]"]
 matrices: [fish-tissue, freshwater-fish, self-caught-fish]
 jurisdictions: [US]
 near_duplicates: []

@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9271943/FM_9271943.md
 metals: [tAs, iAs, Pb, Cd, tHg]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]", "[[ingredients/apple]]", "[[ingredients/pear]]", "[[ingredients/grape]]"]
-products: ["[[products/infant-rice-cereal]]", "[[products/baby-food-purees]]", "[[products/infant-formula]]", "[[products/baby-snacks]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]", "[[ingredients/apple]]", "[[ingredients/pear]]", "[[ingredients/fruit]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/infant-and-child-foods-master]]", "[[products/infant-formula]]"]
 matrices: [infant-food, baby-food, fruit-juice]
 jurisdictions: [US, EU]
 near_duplicates: []

@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9387095/FM_9387095.md
 metals: [tHg]
-ingredients: ["[[ingredients/herring]]", "[[ingredients/salmon]]", "[[ingredients/perch]]", "[[ingredients/pike]]", "[[ingredients/mussel]]"]
-products: ["[[products/seafood]]", "[[products/freshwater-fish]]"]
+ingredients: ["[[ingredients/seafood]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/freshwater-fish]]"]
+products: ["[[products/seafood]]"]
 matrices: [fish-muscle, bird-muscle, invertebrate-tissue, seafood]
 jurisdictions: [FI, SE, DK]
 near_duplicates: []

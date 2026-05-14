@@ -12,7 +12,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_9482896/FM_9482896.md
 metals: [tHg]
-ingredients: ["[[ingredients/mushrooms]]"]
+ingredients: ["[[ingredients/wild-mushrooms]]"]
 products: []
 matrices: [mushroom, fungi]
 jurisdictions: []

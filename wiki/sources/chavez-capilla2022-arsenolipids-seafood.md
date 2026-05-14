@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_8787705/FM_8787705.md
 metals: [tAs, iAs]
-ingredients: ["[[ingredients/seafood]]", "[[ingredients/fish-oil]]", "[[ingredients/rice]]"]
+ingredients: ["[[ingredients/seafood]]", "[[ingredients/rice]]"]
 products: []
 matrices: [seafood, fish-oil, dietary-intake, breast-milk]
 jurisdictions: [AU, NZ, FR, EU]

@@ -12,8 +12,8 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Health risks of potentially toxic metals in cereal-based bre.pdf"
 metals: [tAs, Cd, Cr, Ni, Pb, Mn]
-ingredients: ["[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/maize]]", "[[ingredients/oats]]", "[[ingredients/cereals]]"]
-products: ["[[products/breakfast-cereals]]", "[[products/biscuits]]", "[[products/bread-and-baked-goods]]"]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/oat]]", "[[ingredients/cereals]]"]
+products: []
 matrices: [breakfast-cereal, biscuit, bread, wheat-based, rice-based, maize-based, oat-based, millet-sorghum-based]
 jurisdictions: [GH]
 sample_n: 54

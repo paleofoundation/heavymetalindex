@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11437587/FM_11437587.md
 metals: [Pb, Cr, Cu]
-ingredients: ["[[ingredients/potato]]", "[[ingredients/tomato]]", "[[ingredients/chili-pepper]]", "[[ingredients/cabbage]]", "[[ingredients/cauliflower]]"]
+ingredients: ["[[ingredients/potatoes]]", "[[ingredients/tomato]]", "[[ingredients/vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/cauliflower]]"]
 products: []
 matrices: [root-vegetables, fruit-vegetables, leafy-vegetables]
 jurisdictions: [BD]

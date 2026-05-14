@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11026667/FM_11026667.md
 metals: [As, iAs, tAs]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/grain]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]"]
 products: []
 matrices: [grain, cereal, plant-tissue]
 jurisdictions: []

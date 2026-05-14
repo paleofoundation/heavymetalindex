@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11534982/FM_11534982.md
 metals: [Pb, Cd, Ni, Fe, Cu, Zn]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/gilthead-seabream]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: []
 matrices: [fish-muscle, fish-liver, fish-intestine, fish-gills]
 jurisdictions: [EG]

@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_9926249/FM_9926249.md
 metals: [tHg, MeHg]
 ingredients: ["[[ingredients/seafood]]"]
-products: ["[[products/fish-seafood]]"]
+products: []
 matrices: [seafood, marine-food-web]
 jurisdictions: []
 near_duplicates: []

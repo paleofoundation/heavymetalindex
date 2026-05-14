@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY-NC"
 raw_path: raw/markdown/FM_10834074/FM_10834074.md
 metals: [Pb, Cd]
-ingredients: ["[[ingredients/drinking-water]]"]
+ingredients: ["[[ingredients/water]]"]
 products: []
 matrices: [drinking-water, bottled-water, tap-water, filtered-water]
 jurisdictions: [TH]

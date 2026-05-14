@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_12909235_In_vitro_evaluation_of_bio-fortification_effects_on_the_nutr/FM_12909235_In_vitro_evaluation_of_bio-fortification_effects_on_the_nutr.md
 metals: [Pb, Cd, tAs, Cr]
-ingredients: ["[[ingredients/cassava]]"]
+ingredients: ["[[ingredients/root-vegetables]]"]
 products: []
 matrices: [cassava-flour]
 jurisdictions: [NG]

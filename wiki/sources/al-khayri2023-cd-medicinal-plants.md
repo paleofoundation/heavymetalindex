@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9887195/FM_9887195.md
 metals: [Cd]
-ingredients: ["[[ingredients/medicinal-herbs]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [food, medicinal-plants]
 jurisdictions: []

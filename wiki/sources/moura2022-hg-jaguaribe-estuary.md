@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9779009/FM_9779009.md
 metals: [tHg]
-ingredients: ["[[ingredients/shrimp]]", "[[ingredients/fish]]"]
+ingredients: ["[[ingredients/shellfish]]", "[[ingredients/fish]]"]
 products: ["[[products/seafood]]"]
 matrices: [seafood-tissue, sediment, surface-water, aquatic-plant]
 jurisdictions: [BR]

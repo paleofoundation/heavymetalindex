@@ -14,8 +14,8 @@ evidence_tier: A
 license: "public-domain"
 raw_path: raw/markdown/FM_12021075/FM_12021075.md
 metals: [Pb, Cr]
-ingredients: ["[[ingredients/cinnamon]]", "[[ingredients/apple-puree]]"]
-products: ["[[products/baby-food]]", "[[products/fruit-puree-pouches]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/applesauce]]"]
+products: ["[[products/infant-and-child-foods-master]]", "[[products/fruit-purees]]"]
 matrices: [baby-food, fruit-puree, spice, blood]
 jurisdictions: [US]
 near_duplicates: []

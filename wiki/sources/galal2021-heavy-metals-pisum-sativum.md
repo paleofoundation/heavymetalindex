@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_8177654/FM_8177654.md
 metals: [Pb, Cd, As, Cr, Ni, Fe, Mn, Zn, Cu, Ag, Co, V]
-ingredients: ["[[ingredients/peas]]"]
+ingredients: ["[[ingredients/lentils]]"]
 products: []
 matrices: [legume-vegetable, soil]
 jurisdictions: [EG]

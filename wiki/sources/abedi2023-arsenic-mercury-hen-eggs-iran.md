@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10334572/FM_10334572.md
 metals: [tAs, tHg]
 ingredients: ["[[ingredients/eggs]]"]
-products: ["[[products/eggs]]"]
+products: []
 matrices: [eggs]
 jurisdictions: [IR]
 near_duplicates: [FM_10334572_Consumer_health_risk_assessment_of_Arsenic_and_Mercury_in_he]

@@ -13,7 +13,7 @@ evidence_tier: B
 license: "CC BY"
 raw_path: raw/markdown/FM_11502587/FM_11502587.md
 metals: [Cd]
-ingredients: ["[[ingredients/honey]]", "[[ingredients/pollen]]"]
+ingredients: ["[[ingredients/honey]]", "[[ingredients/herbal-botanicals]]"]
 products: []
 matrices: [honey, bee-pollen, bee-body-tissue]
 jurisdictions: [EU, global]

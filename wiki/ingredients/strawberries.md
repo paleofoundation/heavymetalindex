@@ -49,12 +49,12 @@ contamination_profile:
     n_studies: 3
     last_reviewed: 2026-05-13
   Al:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
+    status: populated
+    typical_ppb: [236.5, 1665]
+    p95_ppb: 1668
+    confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-01
+    last_reviewed: 2026-05-13
   Cr:
     status: populated
     typical_ppb: [0, 0]

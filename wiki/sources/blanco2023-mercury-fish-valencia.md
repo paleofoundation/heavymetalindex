@@ -14,8 +14,8 @@ evidence_tier: A
 license: null
 raw_path: raw/markdown/FM_10558104/FM_10558104.md
 metals: [tHg, MeHg]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/swordfish]]", "[[ingredients/tuna]]", "[[ingredients/canned-tuna]]", "[[ingredients/crustaceans]]", "[[ingredients/cephalopods]]", "[[ingredients/mollusks]]"]
-products: ["[[products/seafood]]", "[[products/canned-fish]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/tuna]]", "[[ingredients/shellfish]]", "[[ingredients/tinned-fish]]"]
+products: ["[[products/seafood]]"]
 matrices: [fish-flesh, seafood]
 jurisdictions: [ES, EU]
 near_duplicates: []

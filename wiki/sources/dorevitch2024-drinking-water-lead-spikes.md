@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10907284/FM_10907284.md
 metals: [Pb]
-ingredients: ["[[ingredients/drinking-water]]"]
+ingredients: ["[[ingredients/water]]"]
 products: []
 matrices: [drinking-water]
 jurisdictions: [US]

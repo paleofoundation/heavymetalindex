@@ -12,7 +12,7 @@ evidence_tier: A
 license: "US Government work (public domain in US)"
 raw_path: raw/markdown/FM_9709357/FM_9709357.md
 metals: [tHg, MeHg]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/trout]]"]
+ingredients: ["[[ingredients/freshwater-fish]]"]
 products: []
 matrices: [freshwater-fish, invertebrate-tissue]
 jurisdictions: [US]

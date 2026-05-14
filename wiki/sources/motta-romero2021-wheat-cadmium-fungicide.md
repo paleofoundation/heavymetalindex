@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC0 public domain"
 raw_path: raw/markdown/FM_7932086/FM_7932086.md
 metals: [Cd]
-ingredients: ["[[ingredients/wheat]]", "[[ingredients/wheat-grain]]"]
+ingredients: ["[[ingredients/wheat]]"]
 products: []
 matrices: [grain]
 jurisdictions: [US]

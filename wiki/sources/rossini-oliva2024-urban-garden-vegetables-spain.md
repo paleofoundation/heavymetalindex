@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11182867/FM_11182867.md
 metals: [As, Cd, Pb, Ni, Cr, Cu, Co, Ba, B, Mo, Zn]
-ingredients: ["[[ingredients/lettuce]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/tomato]]", "[[ingredients/onion]]", "[[ingredients/pepper]]", "[[ingredients/zucchini]]", "[[ingredients/eggplant]]"]
+ingredients: ["[[ingredients/lettuce]]", "[[ingredients/leafy-greens]]", "[[ingredients/tomato]]", "[[ingredients/onions]]", "[[ingredients/herbal-botanicals]]", "[[ingredients/vegetables]]"]
 products: []
 matrices: [vegetables, soil]
 jurisdictions: [ES]

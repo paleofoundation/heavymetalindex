@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10499695/FM_10499695.md
 metals: [Pb, Ni, Cu]
-ingredients: ["[[ingredients/tilapia]]", "[[ingredients/catfish]]", "[[ingredients/fish]]"]
+ingredients: ["[[ingredients/tilapia]]", "[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
 products: []
 matrices: [fish-muscle]
 jurisdictions: [TZ]

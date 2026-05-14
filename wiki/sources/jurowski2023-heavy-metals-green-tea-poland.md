@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10764562/FM_10764562.md
 metals: [tAs, Pb, Cd]
-ingredients: ["[[ingredients/green-tea]]", "[[ingredients/tea]]"]
+ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: []
 matrices: [tea-infusion, beverage]
 jurisdictions: [PL, EU]

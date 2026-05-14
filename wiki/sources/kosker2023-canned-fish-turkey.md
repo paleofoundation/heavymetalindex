@@ -13,8 +13,8 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10644709/FM_10644709.md
 metals: [Pb, Cd, tAs, Al, Cr, Fe, Cu, Zn, Se]
-ingredients: ["[[ingredients/tuna]]", "[[ingredients/salmon]]", "[[ingredients/canned-fish]]"]
-products: ["[[products/canned-fish]]"]
+ingredients: ["[[ingredients/tuna]]", "[[ingredients/seafood]]", "[[ingredients/tinned-fish]]"]
+products: []
 matrices: [canned-seafood]
 jurisdictions: [TR]
 near_duplicates: []
