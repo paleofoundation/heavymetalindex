@@ -54,6 +54,8 @@ This confidentiality is not a loophole; it is structural. It serves the program'
 
 From a legal defensibility standpoint, the Confidential Remediation Track creates a documented record of proactive, voluntary, third-party-verified improvement that begins before any litigation or regulatory inquiry. This record — comprising timestamped test results, corrective action documentation, and verified declining concentration trends — constitutes contemporaneous evidence of due diligence. **The legal narrative shifts from "the brand knew and did nothing" to "the brand knew, enrolled in an independent certification program, and has documented evidence of continuous improvement." That shift is the difference between exposure and defense.**
 
+These improvements reduce *probability* and *severity* of contamination events; they do not produce safety guarantees. The mark certifies action-level compliance under surveillance, not the absence of risk. Brands evaluating the Confidential Remediation Track should also read Part 2.4 on discovery dynamics — the Track produces a defensible evidence record, but the record itself does not carry attorney-client privilege and may be subject to subpoena.
+
 Because the Confidential Remediation Track is the single most important differentiator of HMTc from the exposé-driven enforcement environment Chapter 1.2 attacked, the track receives its own chapter in Part 2 (Part 2.4) rather than appearing as a subsection of program-entry rules.
 
 ## Design principle 6: Ratcheting standards with capped step size

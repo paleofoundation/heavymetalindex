@@ -28,6 +28,14 @@ A brand enrolled in the Confidential Remediation Track has a different posture a
 
 This shift does not eliminate litigation risk. It changes the brand's posture from passive to active. A plaintiff's expert challenging the brand's controls now faces a documented improvement record that begins before any inquiry was filed; a defense attorney has a contemporaneous, externally validated narrative of due diligence to anchor the defense. Defense counsel familiar with MDL-style litigation will recognize this as the structural difference between a brand that can be discovered into a corner and a brand that has a story to tell.
 
+### Discovery dynamics — honest disclosure
+
+Track data is held by the Program Operator as a service provider to the Licensee under the License Agreement. In a discovery scenario, Track data is **potentially compellable** from the Program Operator under subpoena. The License Agreement specifies that the Program Operator will notify the Licensee of any subpoena and cooperate with the Licensee's defense to the extent legally permissible.
+
+**The Track does not provide attorney-client privilege or work-product protection over the testing data.** What it provides is contemporaneous, third-party-verified evidence of due diligence. That evidence is admissible *for* the brand's defense; it is also discoverable by plaintiffs. The structural value of the Track is that the evidence record exists, is timestamped, and was generated in good faith for quality-improvement purposes before any litigation was foreseeable. Brands and their counsel evaluate whether that evidentiary posture is preferable to the alternative posture (no documented program at all).
+
+Brands evaluating the Track should consult counsel about how the Track interacts with their broader discovery posture. The Program Operator does not offer legal advice, and the Track is not a substitute for counsel-directed quality programs that may carry stronger privilege protections in specific litigation contexts. The Track is one element of a brand's overall legal-defensibility strategy, not a complete substitute for that strategy.
+
 ## Why confidentiality is not a loophole
 
 A regulator or consumer-advocacy reader may ask: doesn't the Confidential Remediation Track let brands hide contamination data from the public?

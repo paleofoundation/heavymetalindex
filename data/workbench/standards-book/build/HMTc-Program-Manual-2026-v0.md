@@ -1,6 +1,6 @@
 <!--
 HMTc Program Manual, 2026 Edition — v0-pre-audit
-Generated: 2026-05-14T16:39:11.613Z
+Generated: 2026-05-14T17:41:27.581Z
 Source: data/workbench/standards-book/
 Build tool: tools/standards/build-program-manual.mjs
 -->
@@ -357,9 +357,9 @@ The Judicial Panel on Multidistrict Litigation centralized baby-food heavy-metal
 
 Reuters reported a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least $5 million in damages under state consumer protection theories. Reuters later reported Amazon's attempt to dismiss, arguing among other points that no excessive levels beyond regulatory limits were alleged. Even when ultimate liability is uncertain, this pattern imposes a predictable cost stack: rapid expert engagement, e-discovery, motion practice, and brand-risk management — costs that are typically higher when a company cannot point to recognized third-party testing and certification as part of routine operations.
 
-California Proposition 65 is structurally important because it can generate frequent, product-by-product disputes where attorney fees are significant relative to the underlying exposure issue. A Prop 65 settlement agreement involving a pre-workout product allocated $25,000 of a $28,000 total settlement to attorneys' fees and related costs, with only $3,000 in civil penalties. The micro-economics imply that if a brand lacks an HMTc-like framework, it can become a repeat defendant across SKUs, flavors, and lots, with recurring settlements and ongoing testing and warning obligations that are more expensive than a proactive certification strategy.
+California Proposition 65 is structurally important because it can generate frequent, product-by-product disputes where attorney fees are significant relative to the underlying exposure issue. A Prop 65 settlement agreement involving a pre-workout product allocated $25,000 of a $28,000 total settlement to attorneys' fees and related costs, with only $3,000 in civil penalties [*People v. Promix Nutrition*, Prop. 65 Settlement No. 2024-02424S4488, Cal. Off. Att'y Gen.]. The micro-economics imply that if a brand lacks an HMTc-like framework, it can become a repeat defendant across SKUs, flavors, and lots, with recurring settlements and ongoing testing and warning obligations that are more expensive than a proactive certification strategy.
 
-A widely cited federal-courts survey of major companies found mean outside legal fees per major case around $2.0 million, with discovery costs often well in excess of $600,000. These benchmarks are not heavy-metals-specific, but they are critical for modeling: if a heavy-metals dispute becomes major litigation, **defense costs alone can plausibly exceed the annual cost of robust third-party certification, even before settlements, recalls, or sales impacts are included.**
+A widely cited federal-courts survey of major companies found mean outside legal fees per major case around $2.0 million, with discovery costs often well in excess of $600,000 [Federal Judicial Center, *Litigation Cost Survey of Major Companies*]. These benchmarks are not heavy-metals-specific, but they are critical for modeling: if a heavy-metals dispute becomes major litigation, **defense costs alone can plausibly exceed the annual cost of robust third-party certification, even before settlements, recalls, or sales impacts are included.**
 
 ## Channel access: retailer and marketplace gatekeeping
 
@@ -412,6 +412,8 @@ For a brand at $5M revenue, this is sufficient to impair growth or threaten solv
 | **Indicative total one-year cost** | **$57M–$187M+** |
 
 These scenario anchors draw on industry recall-cost magnitudes, federal-courts legal-fee benchmarks, Proposition 65 settlement structure, peer-reviewed sales-decline benchmarks, and published market-value loss evidence. The estimates exclude long-tail brand impairment, shareholder-wealth reductions for publicly traded firms (one peer-reviewed study found ~$109M reductions after severe recalls), and the cascade effects of repeat litigation across SKUs.
+
+**Note on what the expected-loss model quantifies.** The model below quantifies *risk-event* reduction (probability and severity of recalls, delistings, and litigation triggers), not safety. A brand with HMTc certification is in a better defensive posture than a brand without it; both brands operate in a contamination environment that cannot be eliminated by any program. The certification mark is an action-level compliance signal under surveillance, not a safety guarantee — see Part 2.1 §1.2 and Part 2.5 §6.2.
 
 ## ROI: the expected-loss framework
 
@@ -507,6 +509,8 @@ The Confidential Remediation Track resolves the paradox. Brands whose products d
 This confidentiality is not a loophole; it is structural. It serves the program's public-health objectives by maximizing the number of brands actively working to reduce contamination. A brand that remains outside the program because it fears the consequences of joining is a brand whose products are not improving. A brand that enters confidentially and begins reducing heavy metal levels is a brand whose products are getting safer, even if the public does not yet know.
 
 From a legal defensibility standpoint, the Confidential Remediation Track creates a documented record of proactive, voluntary, third-party-verified improvement that begins before any litigation or regulatory inquiry. This record — comprising timestamped test results, corrective action documentation, and verified declining concentration trends — constitutes contemporaneous evidence of due diligence. **The legal narrative shifts from "the brand knew and did nothing" to "the brand knew, enrolled in an independent certification program, and has documented evidence of continuous improvement." That shift is the difference between exposure and defense.**
+
+These improvements reduce *probability* and *severity* of contamination events; they do not produce safety guarantees. The mark certifies action-level compliance under surveillance, not the absence of risk. Brands evaluating the Confidential Remediation Track should also read Part 2.4 on discovery dynamics — the Track produces a defensible evidence record, but the record itself does not carry attorney-client privilege and may be subject to subpoena.
 
 Because the Confidential Remediation Track is the single most important differentiator of HMTc from the exposé-driven enforcement environment Chapter 1.2 attacked, the track receives its own chapter in Part 2 (Part 2.4) rather than appearing as a subsection of program-entry rules.
 
@@ -751,11 +755,15 @@ All HMTc action levels are expressed as parts per billion (ppb, equivalent to mi
 
 Certification under this Program does not constitute legal advice and does not replace the Licensee's obligation to comply with all applicable laws and regulations in every jurisdiction where the product is sold. If a product's heavy metal content violates a regulatory limit or trigger level in any jurisdiction, that noncompliance is a hard-stop condition under this Policy and will trigger immediate corrective action regardless of the product's certification status. The Program Operator will cooperate with regulatory authorities as required by law.
 
-### 1.6 International Scope and Regional Adaptability
+### 1.6 International Scope
 
 HMTc applies anywhere infant and child food products are sold. The Program operates from the Paleo Foundation's Cyprus base under EU regulatory frameworks for database rights and certification governance, and applies operationally to products sold in any jurisdiction.
 
-Regional adaptability is a structural feature of the methodology, not a deviation from it. The Governing Principles are universal; their **calibration** is regional. When a region's evidence base shows systematically higher contamination — typically traceable to local soil geochemistry, irrigation source contamination, or supply-chain practices — HMTc's regional standards calibrate against that region's clean-platform achievability *and* against the global cleanest-achievable benchmark. **The more stringent of (regional platform limit, global cleanest-achievable benchmark) governs.** This creates the market-demand catalyst Governing Principle 1 requires: brands selling in higher-contamination regions face standards that incentivize sourcing from cleaner supply chains, which drives the upstream supply-chain remediation that Governing Principle 1 names as the program's primary mechanism.
+The 2026 Edition is calibrated against the global open literature aggregated on heavymetalindex.com. A brand selling in any jurisdiction is evaluated against the same per-category HMTc limits derived from the global corpus, with the lowest applicable regulatory cap in the brand's markets of sale serving as a hard upper bound (per the standards-setting principle in Part 5.1 and the regulatory escalation rule in Part 2.11).
+
+**Regional adaptability — roadmap for future Editions.** Future Editions of the Standards will introduce region-specific calibration as the heavymetalindex.com corpus accumulates region-specific evidence at sufficient sample-size totals to support statistically defensible regional pooling. The Governing Principles are universal; their *calibration* may become regional in a future Edition. When that happens, the operational rule will be: the more stringent of (regional platform limit, global cleanest-achievable benchmark) governs, so that brands selling in higher-contamination regions face standards that incentivize sourcing from cleaner supply chains — the market-demand catalyst Governing Principle 1 names as the program's primary mechanism.
+
+For the 2026 Edition, regional adaptability is named here as a structural commitment to future evolution, not as an operational feature. The honest disclosure is that the current Edition uses global calibration, and that the next Edition's regional-adaptability work will begin once Cat 2 and additional categories ship.
 
 ### 1.7 Program-Operator Continuity
 
@@ -783,7 +791,7 @@ Before specifying the tier classification, this chapter establishes the most imp
 
 ## The aggregate-exposure framing
 
-> A day's consumption comprising 800 milliliters of ready-to-feed formula at 5 ppb lead, one 20 ppb serving of dry cereal, one 10 ppb fruit purée, and one 20 ppb root-vegetable purée could yield approximately **7.8 micrograms of lead per day** — more than three times the FDA Interim Reference Level of 2.2 µg/day for young children. Individual products meeting all applicable regulatory action levels can still combine, at typical infant consumption patterns, into total daily intakes that substantially exceed health-based reference values.
+> A day's consumption **at the FDA action level** across four common categories — 800 milliliters of ready-to-feed formula at the 10 ppb FDA action level for infant formula and most baby foods [FDA, *Guidance for Industry: Action Levels for Lead in Processed Food Intended for Babies and Young Children*, January 2025], one 20 ppb serving of dry infant cereal (FDA action level for dry cereals, *ibid.*), one 10 ppb fruit purée (FDA action level for most baby foods, *ibid.*), and one 20 ppb root-vegetable purée (FDA action level for root vegetables, *ibid.*) — yields approximately **10.4 µg lead per day**, more than **4.7 times** the FDA Interim Reference Level of 2.2 µg/day for young children [FDA, *Updated Interim Reference Levels for Dietary Lead*, June 2022]. Even at full compliance with FDA action levels across all four food categories, aggregate intake at typical infant consumption patterns substantially exceeds the IRL.
 >
 > This is why HMTc category limits sit below applicable regulatory action levels rather than at them. Aggregate exposure across categories — not single-product compliance — is the relevant exposure metric for infants and young children. The Program drives every product, in every category, steadily and measurably closer to the lowest achievable levels of contamination, simultaneously.
 
@@ -803,10 +811,10 @@ Tier 1 metals are those that are carcinogenic with no established safe threshold
 
 | Metal | Form Evaluated | Rationale for Tier 1 |
 |---|---|---|
-| **Lead (Pb)** | Total elemental lead | No safe threshold; neurodevelopmental effects at lowest observable levels; JECFA withdrew PTWI in 2011. Full toxicology: see Part 5 Glossary and `wiki/metals/lead` on heavymetalindex.com. |
-| **Cadmium (Cd)** | Total elemental cadmium | Bioaccumulative (10-30 year half-life); nephrotoxic; disproportionate risk in children; Group 1 IARC carcinogen. Full toxicology: `wiki/metals/cadmium` on heavymetalindex.com. |
-| **Arsenic (iAs)** | Inorganic arsenic (speciation required for rice-containing products; reflex for others) | Genotoxic carcinogen; no safe threshold; EFSA's 2024 reassessment derived a cancer reference point of 0.06 µg/kg bw/day. Full toxicology: `wiki/metals/arsenic-inorganic` on heavymetalindex.com. |
-| **Mercury (MeHg)** | Methylmercury (speciation required for fish-containing products; reflex for others) | Neurotoxic; crosses blood-brain barrier; accumulates in developing brain tissue; prenatal and early postnatal exposure windows are most critical. Full toxicology: `wiki/metals/mercury-methyl` on heavymetalindex.com. |
+| **Lead (Pb)** | Total elemental lead | EFSA (2010) concluded that "a threshold for the critical effects of lead in children's neurodevelopment could not be identified" (BMDL01 = 12 µg/L blood lead for one-point IQ decrement). JECFA (2011) withdrew its PTWI on the grounds that "conventional tolerable intake values were no longer health-protective" for endpoints without an identifiable threshold. Full toxicology: see Part 5 Glossary and `wiki/metals/lead` on heavymetalindex.com. |
+| **Cadmium (Cd)** | Total elemental cadmium | Bioaccumulative with biological half-life of 10–30 years; renal cortex is the primary target organ; IARC classifies cadmium and cadmium compounds as Group 1 (carcinogenic to humans). EFSA TWI 2.5 µg/kg bw/week; JECFA PTMI 25 µg/kg bw/month. Full toxicology: `wiki/metals/cadmium` on heavymetalindex.com. |
+| **Arsenic (iAs)** | Inorganic arsenic (speciation required for rice-containing products; reflex for others) | IARC classifies inorganic arsenic as Group 1 (carcinogenic to humans) on the basis of lung, skin, and bladder cancer evidence. EFSA's 2024 reassessment derived a cancer reference point of approximately 0.06 µg/kg bw/day and concluded that margins of exposure at current dietary intake levels remain low. Full toxicology: `wiki/metals/arsenic-inorganic` on heavymetalindex.com. |
+| **Mercury (MeHg)** | Methylmercury (speciation required for fish-containing products; reflex for others) | Methylmercury crosses the blood-brain barrier and accumulates in developing neural tissue; prenatal and early postnatal exposure windows are most critical. EFSA TWI 1.3 µg/kg bw/week; EPA RfD 0.1 µg/kg bw/day. Full toxicology: `wiki/metals/mercury-methyl` on heavymetalindex.com. |
 
 ### Tier 2 Metals (Variance-Eligible for Transitional Allowance)
 
@@ -976,6 +984,14 @@ In the current litigation environment, the most legally exposed posture for a br
 A brand enrolled in the Confidential Remediation Track has a different posture available. The brand can document, with third-party verification: when it became aware of its baseline contamination profile; what remediation actions it undertook; how those actions performed against pre-defined improvement targets; and whether its lots are trending toward Status A or B over time. **The legal narrative shifts from "the brand knew and did nothing" to "the brand knew, enrolled in an independent certification program, and has documented evidence of continuous improvement." That shift is the difference between exposure and defense.**
 
 This shift does not eliminate litigation risk. It changes the brand's posture from passive to active. A plaintiff's expert challenging the brand's controls now faces a documented improvement record that begins before any inquiry was filed; a defense attorney has a contemporaneous, externally validated narrative of due diligence to anchor the defense. Defense counsel familiar with MDL-style litigation will recognize this as the structural difference between a brand that can be discovered into a corner and a brand that has a story to tell.
+
+### Discovery dynamics — honest disclosure
+
+Track data is held by the Program Operator as a service provider to the Licensee under the License Agreement. In a discovery scenario, Track data is **potentially compellable** from the Program Operator under subpoena. The License Agreement specifies that the Program Operator will notify the Licensee of any subpoena and cooperate with the Licensee's defense to the extent legally permissible.
+
+**The Track does not provide attorney-client privilege or work-product protection over the testing data.** What it provides is contemporaneous, third-party-verified evidence of due diligence. That evidence is admissible *for* the brand's defense; it is also discoverable by plaintiffs. The structural value of the Track is that the evidence record exists, is timestamped, and was generated in good faith for quality-improvement purposes before any litigation was foreseeable. Brands and their counsel evaluate whether that evidentiary posture is preferable to the alternative posture (no documented program at all).
+
+Brands evaluating the Track should consult counsel about how the Track interacts with their broader discovery posture. The Program Operator does not offer legal advice, and the Track is not a substitute for counsel-directed quality programs that may carry stronger privilege protections in specific litigation contexts. The Track is one element of a brand's overall legal-defensibility strategy, not a complete substitute for that strategy.
 
 ## Why confidentiality is not a loophole
 
@@ -1221,6 +1237,18 @@ The Program Operator maintains an anonymized supplier intelligence system. When 
 
 Participation in the supplier intelligence system is a condition of the license agreement. **Brands benefit from collective intelligence, creating a powerful incentive to remain in the Program and a significant informational disadvantage for those outside it.**
 
+### Anonymization limits — honest disclosure
+
+The Program Operator anonymizes alerts by removing brand identifiers. However, ingredient-category, geographic-origin, and timing metadata can correlate with a brand's publicly disclosed sourcing in ways that may identify the reporting brand to a sophisticated observer. For example, if a brand has publicly disclosed sourcing cocoa from a specific Ecuadorian region, and a supplier-intelligence alert is issued in the same quarter referencing "elevated cadmium in Ecuadorian high-altitude cocoa," correlated observers could infer the reporting brand.
+
+The Program Operator mitigates the metadata-correlation risk through three operational controls:
+
+- **Batching.** Alerts are batched so a single alert does not correspond to a single reporting brand's CAPA timeline. Multiple reporting brands' findings about the same supplier or region are combined into one alert where the protective intent is preserved.
+- **Geographic generalization.** Geographic specificity is generalized (region rather than exact origin) where the alert's protective intent is preserved by the broader framing.
+- **Discretionary hold.** Alerts may be held for a discretionary delay period when the reporting brand requests it, allowing the reporting brand's quarterly disclosures to settle before the alert publishes.
+
+Brands relying on anonymization for confidentiality should treat anonymization as **strong but not absolute**, and should consider the metadata-correlation risk in their participation decision. The Program Operator's commitment is to apply the mitigations above as a matter of operational discipline; the Program Operator does not warrant that a sophisticated observer with full access to a brand's public sourcing disclosures could not infer the reporting brand from a specific alert.
+
 ## Why anonymization is a design feature
 
 A reader might ask: doesn't anonymization let problem suppliers escape accountability?
@@ -1268,24 +1296,50 @@ A science-based relaxation — for example, a future EFSA reassessment that mean
 
 The Standards Ratchet for a given analyte fires when **both** of the following conditions hold for two consecutive annual reviews:
 
-(a) The 80th percentile of certified Status A lot results for the analyte sits at or below 80% of the current limit.
+(a) The 80th percentile of the combined Status A + Status B trigger pool for the analyte sits at or below 80% of the current limit.
 
-(b) At least 50% of certified Status A SKUs have lots at or below 60% of the current limit.
+(b) At least 50% of SKUs in the trigger pool have lots at or below 60% of the current limit.
 
 The first condition tests aggregate market shift. The second tests breadth — the ratchet does not fire on a single large brand pulling the percentile down. Both conditions must hold across two consecutive annual reviews to confirm sustained improvement rather than a transient market event.
 
 The two-condition design is intentional. Condition (a) alone would allow a single dominant brand to drive the trigger by aggressive reformulation across many SKUs; condition (b) alone would not capture the magnitude of market shift. Together, the two conditions require that the market has moved *and* that the movement is broad-based. The two-consecutive-cycle requirement protects against transient effects (a particularly clean harvest year, a temporary supplier change) that would otherwise distort the trigger.
 
+### Anti-gaming provisions
+
+**Trigger pool composition.** The trigger pool combines Status A and Status B lot results. This prevents *withholding gaming*, in which a brand could keep its best-performing SKUs at Status B by delaying CAPA closure on marginal Tier 2 exceedances to keep strong data out of the Status A pool. Combining the two pools makes the trigger insensitive to status-classification gaming on the brand's side.
+
+**Single-Licensee cap.** No single Licensee may contribute more than 25% of the SKUs in the trigger pool for a given analyte. When a Licensee's SKU count exceeds the cap, the Program Operator excludes that Licensee's SKUs above the cap from the trigger calculation (selected randomly to avoid Licensee selection bias) and recalculates against the capped pool. This prevents a single dominant Licensee from driving trigger firing through aggressive reformulation across many SKUs; the ratchet reflects industry-wide movement rather than one Licensee's individual progress.
+
+**Exit-and-re-enter prohibition.** A Licensee that voluntarily withdraws from the Program and subsequently re-enrolls within 24 months is evaluated against the standard in effect at the time of re-entry, not the standard in effect at the time of original exit. Grandfathering protections under §12.5 apply only to continuous certification. This rule prevents the exit-and-re-enter gaming pathway, in which a brand could withdraw before a ratchet event to escape transition obligations and then re-enter once the new standard's transition period has elapsed. A Licensee that withdraws for documented commercial reasons (product discontinuation, line restructuring, change of control) and re-enrolls after 24 months is treated as a new applicant per standard program-entry procedures.
+
 ## 12.4 Step Size and New Limit Calculation
 
 When the trigger fires, the new limit equals the **maximum of**:
 
-(a) The actual 80th percentile of certified Status A lot results for the analyte, or
+(a) The actual 80th percentile of the trigger pool for the analyte, or
 (b) 80% of the current limit.
 
 The second clause is the **step cap**. **No brand faces more than a 20% reduction per ratchet event, regardless of how far the market has actually moved.** Residual tightening above 20% is held over and may trigger again at the next cycle. This converts the ratchet from a potential shock into a predictable, capped progression.
 
 The step cap is the program's structural protection for participating brands. A brand that has invested in reduction expects to be rewarded by tighter standards that exclude competitors who have not invested; the brand does not expect to be punished by surprise tightening that exceeds its planning horizon. The 20% cap establishes a maximum per-cycle obligation that brands can model and budget against.
+
+### Worked example
+
+Current Pb limit is 30 ppb. The 80th percentile of the Status A + Status B trigger pool is 15 ppb (50% of the limit). The breadth condition is met (≥50% of SKUs at or below 60% PoL = ≤18 ppb). The trigger fires.
+
+New limit candidate (a): 15 ppb (the actual 80th percentile).
+New limit candidate (b): 80% of 30 ppb = 24 ppb (the step cap).
+New limit = max(15, 24) = **24 ppb**.
+
+The step cap held; the market actually moved beyond the cap, but the program tightens only by the capped 20% increment.
+
+At the next annual review, the 80th percentile of the trigger pool against the new 24 ppb limit is evaluated. If the market stays at the same absolute level (15 ppb), the 80th percentile is now 15/24 ≈ 62.5% of the new limit — below the 80% trigger condition. Both conditions hold. The trigger fires again.
+
+New limit candidate (a): 15 ppb.
+New limit candidate (b): 80% of 24 ppb = 19.2 ppb.
+New limit = max(15, 19.2) = **19.2 ppb**.
+
+The residual surfaces in the next cycle, but the cadence is determined by market behavior after the first tightening, not by mechanical compounding. A brand modeling the program's future obligations can plan against this worked example with confidence in the predictability of the trajectory.
 
 ## 12.5 Transition
 
@@ -1301,13 +1355,25 @@ When standards are tightened, a transition period of not less than 12 months and
 
 At every annual review, the Program Operator publishes a forward forecast:
 
-> "Current 80th percentile of Status A results: X ppb. Current limit: Y ppb. If current improvement trends continue, the projected next-cycle limit is Z ppb, with expected announcement in N months and enforcement Q months after."
+> "Current 80th percentile of trigger pool: X ppb. Current limit: Y ppb. If current improvement trends continue, the projected next-cycle limit is Z ppb, with expected announcement in N months and enforcement Q months after."
 
 This converts the ratchet from a surprise into a planning parameter that brands can model years in advance. A brand considering certification can review the forward forecast for the relevant category before signing the license agreement and understand the next three-to-five-year obligation profile. A brand operating under the current standard can budget reformulation against the projected next-cycle limit.
 
 The forward forecast is published in the annual Program Operator report and posted to the heavymetaltested.com Program Registry under document control. Forecasts are *projections*, not commitments — actual trigger firing depends on whether the two-condition test in §12.3 is satisfied at the time of the relevant annual review. Brands and regulators can rely on the forecast as the program's best current estimate of trajectory; the trigger conditions remain the operative test.
 
-## 12.7 Why this rule survives each Governing Principle
+### Forecast accountability
+
+Forecasts are projections, not commitments. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome — operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25% — triggers a methodology review of the projection method.
+
+This retrospective accountability ensures that the forecast is not a marketing artifact but a calibrated planning tool with documented predictive accuracy over time. Brands relying on forecasts for reformulation planning should treat them as the Program's best current estimate, not as guaranteed future limits, and can verify the Program Operator's track record in the published retrospectives.
+
+## 12.7 Exit-and-Re-Enter Prohibition
+
+A Licensee that voluntarily withdraws from the Program and subsequently re-enrolls within 24 months is evaluated against the standard in effect at the time of re-entry, not the standard in effect at the time of original exit. Grandfathering protections under §12.5 apply only to continuous certification.
+
+This rule prevents the exit-and-re-enter gaming pathway, in which a brand could withdraw before a ratchet event to escape transition obligations and then re-enter once the new standard's transition period has elapsed. A Licensee that withdraws for documented commercial reasons (product discontinuation, line restructuring, change of control) and re-enrolls after 24 months is treated as a new applicant per standard program-entry procedures.
+
+## 12.8 Why this rule survives each Governing Principle
 
 The Standards Ratchet as specified above satisfies all five HMTc Governing Principles simultaneously:
 
@@ -1377,16 +1443,35 @@ Every certification program requires three procedural mechanisms that operate in
 
 This chapter specifies all three. The mechanisms are procedural rather than substantive — they govern how the Program responds to disagreement, recovery, and document evolution, not what the underlying standards or determinations are. Together, they ensure that brands are treated fairly within the Program's framework and that the rules in force at the time of any decision are knowable, traceable, and applied consistently.
 
-## 14.1 Appeals Process
+## 14.1 Appeals Process — Two-Tier Structure
+
+The appeals process is structured in two tiers to address the institutional conflict between the Program Operator's certification revenue and its role as initial appeal-reviewer. Tier 1 is internal to the Program Operator; Tier 2 is independent of the Program Operator. The two-tier structure is the program's structural answer to the conflict-of-interest concern that an internal-only appeals process operating within the Program Operator's authority cannot fully mitigate the institutional conflict between the Operator's certification revenue and the Operator's role as reviewer.
+
+### Tier 1: Initial appeal
 
 A Licensee may appeal any certification status decision by submitting a written appeal to the Program Operator within 10 business days of notification. The appeal must include:
 
 - The technical or factual basis for disagreement; and
 - Supporting evidence (laboratory data, chain-of-custody records, methodology documentation, or analogous materials).
 
-The Program Operator will review the appeal and may convene the Technical Committee. During an appeal, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal — for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
+The Program Operator will review the appeal within 15 business days and may convene the Technical Committee for methodological or interpretive questions. Operational appeals (testing logistics, sampling disputes, laboratory selection) are reviewed by the Program Operator directly.
 
-The Technical Committee reviews appeals involving methodological or interpretive questions. Operational appeals (testing logistics, sampling disputes, laboratory selection) are reviewed by the Program Operator directly. The standard for granting an appeal is whether the originally assigned status reflects the correct application of this Policy and the Lot Testing Schedule to the actual facts of the case.
+During Tier 1 review, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal — for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
+
+The standard for granting an appeal is whether the originally assigned status reflects the correct application of this Policy and the Lot Testing Schedule to the actual facts of the case.
+
+### Tier 2: Independent Appeals Committee
+
+If the Licensee disagrees with the Tier 1 outcome, the Licensee may escalate to the independent Appeals Committee within 10 business days of the Tier 1 decision. The Appeals Committee is structurally independent of the Program Operator:
+
+- **Composition.** Three external reviewers, none of whom are employed by or under contract to The Paleo Foundation: one toxicologist or food-safety scientist with demonstrated independence; one food-industry quality professional with no financial relationship to the Licensee under review or to the Program Operator; one legal advisor with regulatory-affairs background. Members are appointed for two-year terms with staggered rotation to preserve institutional memory while preventing entrenchment.
+- **Caseload.** No member may sit on more than three appeals per calendar year. Members recuse from any appeal involving a Licensee with whom they have a current or past commercial relationship.
+- **Authority.** The Appeals Committee reviews the Tier 1 decision on the merits and may affirm, reverse, or remand to the Program Operator for further investigation. **Reversals are binding on the Program Operator.** The Committee may also recommend methodology revisions where the appeal surfaces a generalizable issue.
+- **Timeline.** The Committee renders its decision within 30 business days of escalation, with one 15-day extension permitted for cases requiring additional evidence or expert consultation.
+- **Transparency.** The Program Operator publishes anonymized Appeals Committee outcomes in the annual transparency report, including the number of appeals heard, the disposition (affirm/reverse/remand), and the categories of issue raised. Individual brand identities and SKU-specific details are not disclosed.
+- **Funding.** The Appeals Committee operates on a per-appeal fee structure paid by the Program Operator and a per-Licensee contribution from the licensing fee schedule. This funding arrangement ensures that the Committee is not financially dependent on case outcomes and that no individual appeal carries financial pressure for the reviewers.
+
+Tier 2 review is binding. A Licensee that prevails at Tier 2 has the Program Operator's status determination reversed, with retroactive effect to the original determination date.
 
 ## 14.2 Reinstatement After Suspension or Revocation
 
@@ -1828,7 +1913,19 @@ All certification testing is conducted on a lot basis. For each lot tested, the 
 
 ### 10.2 Chain-of-Custody
 
-A complete chain-of-custody record is required for every sample, from the point of collection through laboratory receipt and analysis. The record must document: who collected the sample and their affiliation; when and where the sample was collected; how the sample was sealed, labeled, and transported; who received the sample at the laboratory; and confirmation of sample integrity upon receipt. Any breach in chain-of-custody may invalidate results and is treated as a data integrity issue. All personnel involved in sampling must be trained on these procedures.
+A complete chain-of-custody record is required for every sample, from the point of collection through laboratory receipt and analysis. The record must document: who collected the sample and their affiliation; when and where the sample was collected; how the sample was sealed, labeled, and transported; who received the sample at the laboratory; and confirmation of sample integrity upon receipt. All personnel involved in sampling must be trained on these procedures.
+
+**Consequences of documented chain-of-custody breach.** Any documented breach in chain-of-custody invalidates the result and is treated as a data integrity issue per the Governance Policy §8.2. Documented breaches include but are not limited to:
+
+- **Custody gap:** any period during which sample location and possession is not recorded.
+- **Broken seal:** sample arrives at the laboratory with seal damaged, missing, or showing evidence of tampering.
+- **Non-conforming labeling:** sample identifiers at any handoff do not match the chain-of-custody record.
+- **Transport non-conformance:** sample transported outside the documented protocol (e.g., refrigerated samples allowed to warm; samples transported under conditions inconsistent with the analytical method's stability requirements).
+- **Receipt discrepancy:** laboratory documents the sample as received in a state inconsistent with the chain-of-custody record (mass, volume, container condition).
+
+When a documented breach is identified, the lot's result is treated as invalid and the lot is subject to retest per a Program Operator-approved confirmatory protocol. Repeated breaches at the same Licensee or laboratory trigger data-integrity escalation per Governance Policy §8.2 and may result in Status D suspension.
+
+**Discretion for minor procedural lapses.** The Program Operator may exercise discretion on minor procedural lapses where substantive sample integrity is preserved — for example, a timestamp recorded one hour late where the actual custody record (signatures, transfers) is intact. Such discretion is documented in the case record and is not exercised when sample integrity itself is in doubt. The default disposition for any chain-of-custody ambiguity is invalidation; discretion applies only to clearly procedural rather than substantive lapses.
 
 ### 10.3 Laboratory Requirements
 
@@ -1939,9 +2036,26 @@ An adversarial reader who wants to audit a specific HMTc limit can follow this p
 2. Read the chapter's Sources Cited section. Each citation resolves to a source page on heavymetalindex.com.
 3. Read the source page. Each source page summarizes the underlying document's findings with concentrations, sample sizes, methods, and basis (as-sold, as-consumed, dry weight). The source page links to the original document where available.
 4. Check the routing audit (`data/evidence/product_source_routing_audit.csv`) to confirm that no relevant source has been omitted from the cell.
-5. For the pooled distribution itself, qualified reviewers may request the workbench-side aggregate distribution data under controlled terms.
+5. For the pooled distribution itself, qualified reviewers may request the workbench-side aggregate distribution data under controlled terms (see the controlled-terms request process below).
 
 This design preserves the firewall while making the evidence inputs auditable. **The failure mode this design prevents is the "we set this limit because we said so" attack.** HMTc cannot make that argument because the source attribution is public.
+
+### Controlled-terms request process
+
+**Qualified reviewers** include:
+
+- **Regulatory bodies acting under official inquiry** — FDA, EFSA, state attorneys general, equivalent international agencies — who require methodology audit access for regulatory analysis or rulemaking purposes.
+- **Plaintiff's or defense counsel requesting access for active litigation** in which an HMTc-certified product is at issue or in which HMTc certification or methodology has been raised by either party.
+- **Certified or pending HMTc Licensees auditing the methodology** that produces their own product category's standards. Licensees have a contractual audit right under the License Agreement (see Part 5.6).
+- **Academic researchers conducting peer-track review** with institutional approval and a documented research protocol that includes confidentiality undertakings.
+
+Requests are submitted to the Program Operator via the contact channels in the Colophon (Part 5.7). The Program Operator responds within **30 business days** with one of:
+
+- For regulatory bodies under official inquiry: the requested aggregate distribution data directly, without a controlled-access NDA.
+- For non-regulatory requestors: a controlled-access Non-Disclosure Agreement that preserves the trade-secret status of the pooling engine implementation while making the engine's inputs (the contributing source pages and their summary statistics) and outputs (the per-analyte percentile values, the row-pass calibration math, and the methodology's stability under alternative parametric assumptions) auditable.
+- A documented refusal with the specific basis, where the request falls outside the qualified-reviewer categories. Refusal decisions are reviewable by the Independent Appeals Committee (Part 2.12 §14.1).
+
+The 30-business-day commitment is an operational commitment by the Program Operator. The Program Operator publishes annual statistics on controlled-terms request volume, response times, and disposition in the transparency report.
 
 ## The standards-setting principle in three layers
 
@@ -1956,6 +2070,14 @@ These targets are the policy choice. They sit at the intersection of all five Go
 
 **Adversarial readers attacking "why P97 and not P95" must instead attack "why 90% and not 85%."** The answer to that question traces directly to the Governing Principles. The principle-level argument is the strongest possible form of the methodology defense because it converts a technical argument into a policy argument, and policy arguments are won or lost on the principles they serve.
 
+#### Clean vs. dirty platform classification rule
+
+A *platform* is a subcategory of products within a parent product category — for example, soy-based versus non-soy-based infant formula, powder versus ready-to-feed liquid, rice-based versus non-rice baby cereal. Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile, so the classification rule is load-bearing.
+
+**The classification rule is data-driven:** a platform is classified *clean* when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; *dirty* when meaningfully above. "Meaningfully above" is operationalized as p50(subcategory) > 1.5 × p50(parent category) for at least one Tier 1 metal. Platforms not meeting the dirty threshold are classified clean by default.
+
+The classification is reproducible from public data. Any reviewer can verify a specific platform's classification by examining the pooled distributions on heavymetalindex.com via the product-category and subcategory pages. Reclassification (clean ↔ dirty) is data-driven and follows the rule above; it is not a discretionary decision by the Program Operator.
+
 ### Layer 2: The per-analyte percentile mechanism
 
 To deliver the 90/30 row-level intent, per-analyte limits are set as follows:
@@ -1965,11 +2087,15 @@ To deliver the 90/30 row-level intent, per-analyte limits are set as follows:
 
 The reasoning is the row-pass calibration: a brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Under analyte independence, per-analyte limits set at the raw P90 of the clean distribution would deliver a joint row-pass rate of approximately 0.9^10 = 35%. Under realistic analyte correlation (around 0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50–70%. To deliver the 90% row-pass intent for clean-platform brands, per-analyte limits are uplifted from the raw P90 to P97; the analogous uplift for dirty-platform brands moves from raw P30 to P45.
 
+The analyte-correlation estimate of approximately 0.6 is consistent with cross-analyte correlation observed in published surveillance datasets (FDA Total Diet Study; EFSA scientific opinions on Pb, Cd, and iAs in food). It is an estimate from external surveillance data, not a measurement from HMTc-internal lot data. The 12-month post-launch methodology review will measure empirical analyte correlation from HMTc lot results and may revise the per-analyte percentile uplift if the empirical correlation diverges materially from the assumed value.
+
 The uplift is uniform across all analytes today. Per-analyte differentiation — for example, lead tighter than nickel based on regulatory pressure or toxicology — is a Tier 2 calibration deferred until HMTc has accumulated 6–12 months of lot-testing data to measure actual joint pass rates empirically.
 
 ### Layer 3: Pool admission, basis, regulatory cap, and rationale tagging
 
-Every source loaded for a (row, metal) cell contributes to the pooled distribution unless explicitly dispositioned out with a stated reason. Sample-level data uses raw values; summary-only sources (mean, median, max, SD, lower/upper bound, IQR) contribute via moment-matching pseudo-sample expansion under log-normal or gamma assumptions following the standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food). Sources are weighted by their reported sample size, capped at twice the median per-source N to prevent any one large survey from dominating.
+Every source loaded for a (row, metal) cell contributes to the pooled distribution unless explicitly dispositioned out with a stated reason. Sample-level data uses raw values; summary-only sources (mean, median, max, SD, lower/upper bound, IQR) contribute via moment-matching pseudo-sample expansion under log-normal or gamma assumptions following the standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food).
+
+Sources are weighted by their reported sample size, capped at twice the median per-source N. The cap prevents any single large survey — for example, a 5,000-sample FDA TDS sub-extract — from dominating the pooled distribution for a cell where most contributing sources have N=50–200. The 2× ratio preserves large-N influence proportionally while preventing pool concentration in a single source. Without the cap, a single large survey could effectively determine the per-analyte percentile for a cell regardless of what other contributing sources report; with the cap, the percentile reflects the weighted consensus of the corpus rather than the dominant single survey.
 
 Each row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, purée rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as-sold ↔ dry-as-sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -2012,96 +2138,127 @@ The Program-Level Adversarial Read in Part 5.2 enumerates these and other attack
 
 # 5.2 Program-Level Adversarial Read
 
-This chapter is the program's structured response to the categories of attack that adversarial readers — plaintiff's experts, hostile regulatory reviewers, competing standards bodies — are most likely to advance against HMTc as a whole. Per-product adversarial reads appear in each Part 3 chapter; this chapter addresses program-level attacks that do not sit in any single product's chapter and that need to be answered at the methodology and governance level.
+This chapter enumerates the categories of attack a plaintiff's expert, a hostile regulatory reviewer, a competing standards body, or a defense attorney preparing cross-examination would advance against HMTc as a whole, and documents the program's response to each on the merits. The chapter is the output of the Pre-publication Adversarial Audit conducted on the drafted Program Manual; each attack vector was named, located in the manual, and either confirmed as adequately addressed or used to drive a manual revision before this chapter was written. Per-product adversarial reads appear in each Part 3 chapter; this chapter addresses program-level attacks that apply across all product categories.
 
-The chapter is **provisional** in this v0-pre-audit edition. The final version of this chapter is written after Pre-work 6 — the adversarial audit of the drafted manual — is complete. Pre-work 6 attacks the drafted manual as a plaintiff's expert and a hostile FDA reviewer would, locates each attack's response in the manual, identifies gaps, and proposes strengthenings. The audit's structured output then becomes the input to the final version of this chapter. In other words: this chapter writes itself from the audit findings.
+The chapter is organized by attack category. For each: the attack as a hostile reviewer advances it; the program's response with manual location.
 
-In the v0-pre-audit edition, this chapter previews the attack categories that the audit will address and signals to readers that the audit and the final chapter version are scheduled in the program's build sequence.
+## Methodology underspecification
 
-## Attack categories the audit will enumerate
+**Attack.** "The manual asserts that limits are calibrated via P97 clean / P45 dirty per-analyte percentiles to deliver 90/30 row-pass calibration. But the boundary between clean and dirty subcategories is undefined; the analyte-correlation assumption of 0.6 is asserted but not derived; the 2× median per-source N cap is named but not motivated. An independent analyst cannot replicate the calibration from this manual."
 
-The Pre-work 6 audit attacks the manual across at least the following categories. Each category corresponds to one or more attack vectors that, in adversarial settings, are likely to be advanced against the program.
+**Response.** Part 5.1 §"Layer 1" now specifies the clean-vs-dirty platform classification rule: a platform is clean when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; dirty when p50(platform) > 1.5 × p50(parent category) for at least one Tier 1 metal. The classification is data-driven and reproducible from public corpus data on heavymetalindex.com. Part 5.1 §"Layer 2" anchors the 0.6 analyte-correlation estimate to cross-analyte correlation observed in FDA TDS and EFSA surveillance datasets, and commits to an empirical revision at the 12-month post-launch methodology review if HMTc-internal lot data diverges materially from the assumed value. Part 5.1 §"Layer 3" motivates the 2× median per-source N cap: it prevents any single large survey from dominating the pooled distribution while preserving large-N influence proportionally.
 
-### Methodology underspecification
+The principle of standards-setting is specified at sufficient depth in Part 5.1 for independent analysts to understand the calibration architecture. The engine implementation that operationalizes the principle is held as a trade secret per the firewall in Part 5.7 (Colophon); qualified reviewers may request the engine's inputs and outputs under the controlled-terms request process in Part 5.1.
 
-Are the percentile values defined precisely enough that an independent analyst could replicate the calibration from the manual alone? Are the pool admission rules, the basis conversion factors, and the regulatory-cap interaction unambiguous? Where the manual references workbench-side engine arithmetic (under the wiki/HMTc firewall), is the cited principle sufficient to defend the methodology, or does the firewall obscure the reasoning?
+## Toxicological anchor language
 
-### Toxicological anchor gaps
+**Attack.** "The Tier 1 classification rationale in Part 2.2 uses shorthand framings — 'no safe threshold,' 'genotoxic carcinogen' — that are stronger than the cited authorities' actual language. EFSA's actual conclusion on lead, for example, was that 'a threshold for the critical effects could not be identified,' which is not identical to 'no safe threshold.' The manual overstates the toxicological consensus."
 
-Every Tier 1 / Tier 2 classification in Part 2.2 must trace to a specific cited authority. Where the classification traces only to HMTc's own analysis, that is a gap. The audit verifies that every toxicological claim in the manual (the BMDL01 figures, the TWI references, the carcinogenicity classifications, the bioaccumulation half-lives) cites an authoritative source page on heavymetalindex.com that, in turn, cites the underlying agency or peer-reviewed document.
+**Response.** Part 2.2 Tier 1 and Tier 2 rationale columns have been revised to use the cited authorities' actual language. The lead entry now reads: "EFSA (2010) concluded that 'a threshold for the critical effects of lead in children's neurodevelopment could not be identified' (BMDL01 = 12 µg/L blood lead for one-point IQ decrement). JECFA (2011) withdrew its PTWI on the grounds that 'conventional tolerable intake values were no longer health-protective' for endpoints without an identifiable threshold." Analogous revisions apply to cadmium, arsenic, and methylmercury. The substantive toxicological positions are unchanged; the framing now matches the cited authorities' actual statements.
 
-### Chain-of-custody language
+## Chain-of-custody enforceability
 
-Does the Lot Testing Schedule's chain-of-custody section (Part 4 §10) survive cross-examination by a defense expert questioning sample integrity? Specifically: are the documented requirements (personnel identification, collection records, sealing and labeling, laboratory receipt confirmation) consistent with ISO/IEC 17025 expectations and with common-law evidentiary standards for analytical results?
+**Attack.** "The Lot Testing Schedule §10.2 says chain-of-custody breach 'may invalidate' results — discretionary. The Governance Policy §8.2 names chain-of-custody breach as a data-integrity violation triggering Status D — categorical. The tension is exploitable: defense experts argue 'may' is discretionary; plaintiff's experts argue §8.2 makes it categorical."
 
-### Ratchet gaming
+**Response.** The Lot Testing Schedule §10.2 has been revised. Any documented breach invalidates the result and is treated as a data-integrity issue per Governance Policy §8.2. Five specific breach types are enumerated (custody gap, broken seal, non-conforming labeling, transport non-conformance, receipt discrepancy). Discretion is preserved only for clearly minor procedural lapses where substantive integrity is preserved (e.g., a one-hour-late timestamp where actual custody record is intact); the default disposition for any chain-of-custody ambiguity is invalidation. The discretion-vs-categorical tension is resolved in favor of categorical invalidation with narrow, documented procedural-discretion exceptions.
 
-With the §12 specification in Part 2.10, are there remaining ways a brand or coalition could game the ratchet? Specifically: could a dominant brand withhold its best-performing SKUs from Status A reporting to keep the trigger percentile up? Could a brand exit and re-enter to reset its grandfathering status? Could the breadth-condition be defeated by SKU consolidation? The audit examines each gaming pathway and documents the program's response.
+## Ratchet gaming
 
-### Conflict-of-interest framings
+**Attack.** "The ratchet trigger is gameable. A dominant brand could withhold its best-performing SKUs from Status A by delaying CAPA closure, keeping the trigger percentile up. A coalition of large brands could manipulate the breadth condition through SKU consolidation. A brand could exit and re-enter the program to reset its grandfathering status. The rule is structurally vulnerable to three documented gaming pathways."
 
-The Standards Architect is also CEO of the Paleo Foundation. The dual role is disclosed in the Edition page (Part of front matter), the Colophon (Part 5.7), and the conflict-of-interest provisions of Part 2.12. Is the disclosure sufficient against a plaintiff's expert attack on bias? The audit examines whether the disclosure is appropriately prominent, whether the operational separation between Standards Architect responsibilities and CEO responsibilities is documented, and whether the program's appeals process (Part 2.12) is structurally independent from CEO authority.
+**Response.** Part 2.10 §12.3 has been revised with three anti-gaming clauses. (1) The trigger pool now combines Status A and Status B lot results, making withholding gaming impossible — keeping a SKU at Status B no longer keeps its data out of the trigger calculation. (2) A single-Licensee cap limits any one Licensee to contributing no more than 25% of the SKUs in the trigger pool for a given analyte; SKUs above the cap are randomly excluded from the trigger calculation to prevent dominant-brand manipulation. (3) Part 2.10 §12.7 adds the exit-and-re-enter prohibition: a Licensee that withdraws and re-enrolls within 24 months is evaluated against the current standard at re-entry, not the standard in effect at original exit. Grandfathering applies only to continuous certification.
 
-### Definitional holes
+Each gaming pathway is now structurally prevented rather than merely identified.
 
-Does every term used in the manual appear in the glossary (Part 5.3)? Does every glossary entry trace to a recognized authority where one exists (ISO/IEC 17025 for analytical-chemistry terms; EFSA, JECFA, FDA for toxicological terms; the Governance Policy for program-operations terms)? Are there terms used inconsistently across the manual that the audit should flag for reconciliation?
+## Institutional conflict of interest
 
-### Overclaim risk
+**Attack.** "The Standards Architect is also CEO of the Paleo Foundation. The dual role is disclosed in the colophon, but disclosure is not mitigation. The appeals process is internal to the Program Operator, which is the entity with financial interest in upholding the determination. A Licensee challenging a status determination is appealing to the entity whose revenue depends on the determination being upheld. The §14.4 individual-conflict provision addresses reviewer conflicts but not the institutional one."
 
-Does the manual anywhere claim certification guarantees safety? Per Part 2.5 §6.2, this claim is prohibited; the audit verifies that the manual is consistent with the prohibition and that no chapter slips into language that could be characterized as safety-claiming.
+**Response.** Part 2.12 §14.1 now specifies a **two-tier appeals process**. Tier 1 is the internal Program Operator review (the existing process). Tier 2 is an **independent Appeals Committee** composed of three external reviewers — a toxicologist or food-safety scientist, a food-industry quality professional, a legal advisor with regulatory-affairs background — none of whom are employed by or under contract to the Paleo Foundation. Committee members serve two-year staggered terms, sit on no more than three appeals per calendar year, and recuse from cases involving Licensees they have relationships with. **Tier 2 reversals are binding on the Program Operator.** The Committee operates under a funding structure that prevents financial dependence on case outcomes. Anonymized appeal outcomes are published in the annual transparency report.
 
-### Citation completeness
+The two-tier structure is the program's structural answer to the institutional conflict. A Licensee dissatisfied with the Program Operator's internal review has binding recourse to a body independent of the Program Operator. The disclosure of the Standards Architect / CEO dual role remains in the Colophon as a transparency element; the independent Appeals Committee is the mitigation that disclosure alone does not provide.
 
-Every numeric claim, every regulatory reference, every toxicological framing must cite a specific source with section or page. Where citations are missing or insufficiently specific, the audit flags them. The audit also verifies that cited sources resolve correctly to public heavymetalindex.com source pages and that the source pages, in turn, correctly summarize the underlying documents.
+## Definitional completeness
 
-### Heavymetalindex.com evidence base claims
+**Attack.** "The manual uses 'platform' (clean vs. dirty) as the load-bearing classification term but never defines it. 'Subcategory,' 'achievability threshold,' 'controlled document,' and 'Technical Committee' are used in the manual without Glossary entries. The most consequential vocabulary in the methodology is undefined."
 
-The manual asserts that HMI is a public, curated, peer-reviewable corpus and that every limit traces to source pages. The audit verifies that specific limit-source connections work — that following the chain from Part 3 chapter to source citation to source page to underlying document produces a consistent evidentiary trail.
+**Response.** Part 5.3 Glossary has been extended with entries for *platform* (with the full classification rule from Part 5.1), *subcategory* (cross-referenced to *platform*), *achievability threshold* (with the distinction between standards-setting external data and ratchet-trigger internal data), *controlled document* (with the version-in-effect rule), and *Technical Committee* (with its advisory role distinguished from the binding-decision authority of the Program Operator and the Independent Appeals Committee).
 
-### Regional adaptability mechanism
+## Overclaim risk
 
-Part 2.1 §1.6 asserts that HMTc standards can be regionally recalibrated against region-specific evidence bases. The audit verifies that the mechanism for recalibration is specified (not hand-waved), that the "more stringent of (regional, global)" governance rule is operational, and that adversarial readers cannot characterize regional adaptability as ad-hoc.
+**Attack.** "Part 2.5 §6.2 prohibits 'heavy metal free' and 'safe' marketing claims. But Part 1.4 says the program creates 'a documented record' that is 'the difference between exposure and defense.' Part 1.3's ROI framework describes 'risk reduction' in language that could be read as a safety claim. The manual maintains the prohibition in operational rules but uses risk-reduction language in legal-defensibility arguments that approach the prohibited claim."
 
-### Confidential Remediation Track legal-narrative claim
+**Response.** Parts 1.3 and 1.4 have been revised with explicit hedging language. Part 1.3 now states: "The model quantifies *risk-event* reduction (probability and severity of recalls, delistings, and litigation triggers), not safety. A brand with HMTc certification is in a better defensive posture than a brand without it; both brands operate in a contamination environment that cannot be eliminated by any program. The certification mark is an action-level compliance signal under surveillance, not a safety guarantee." Part 1.4 adds: "These improvements reduce *probability* and *severity* of contamination events; they do not produce safety guarantees. The mark certifies action-level compliance under surveillance, not the absence of risk." Internal consistency is maintained between the operational prohibition in Part 2.5 §6.2 and the framing language in Parts 1.3 and 1.4.
 
-Part 1.3, Part 1.4, and Part 2.4 advance the claim that brands enrolled in the Track generate a documented improvement record that defends against "knew and did nothing" attacks. The audit verifies that the data governance language in Part 2.7 and the CAPA requirements in Part 2.8 actually deliver the timestamped, third-party-verified improvement record that the legal-narrative claim depends on.
+## Citation completeness
 
-### Standards-ratchet step cap
+**Attack.** "The manual makes specific numeric claims — '$2.0 million per major case,' '$28,000 Prop 65 settlement,' '7.8 µg lead/day aggregate' — without inline citation. A reviewer cannot move from a numeric claim to the source page in one step."
 
-The 20% per-cycle step cap in Part 2.10 §12.4 is the program's structural protection for participating brands. The audit verifies that the cap is unambiguous, that residual-tightening accounting is specified, and that the cap is consistent with the Governing Principle 3 commitment to protect brands who enter the program.
+**Response.** Key numeric claims in Parts 1, 2, and 5 now carry inline bracketed citations to their primary sources (e.g., *Federal Judicial Center, Litigation Cost Survey of Major Companies*; *People v. Promix Nutrition*, Prop. 65 Settlement; *FDA, Guidance for Industry: Action Levels for Lead...*, January 2025). The Consolidated Sources Index in Part 5.4 provides the full list of cited authorities. The citation chain is now navigable inline rather than requiring traversal through the Index.
 
-### Aggregate-exposure framing accuracy
+## Evidence-base claim verifiability
 
-The 7.8 µg/day aggregate-exposure calculation in Part 2.2 is the program's most important framing for brand-legal and regulatory audiences. The audit verifies that the calculation is reproducible, that the underlying single-product concentrations are achievable (i.e., the calculation does not depend on values below the FDA action levels for the relevant products), and that the comparison to the FDA Interim Reference Level is correctly stated.
+**Attack.** "Part 1.5 asserts that 'every limit in this manual traces to source pages' on heavymetalindex.com, and that 'qualified reviewers may request the workbench-side aggregate distribution data under controlled terms.' But the manual does not specify who counts as a qualified reviewer, what the controlled terms are, or how long the response takes. The auditability claim is operationally unverifiable."
 
-### Supplier intelligence anonymization
+**Response.** Part 5.1 now includes the §"Controlled-terms request process" specification. Qualified reviewers are enumerated: regulatory bodies acting under official inquiry; plaintiff's or defense counsel in active litigation; certified or pending HMTc Licensees auditing their own product category's standards; academic researchers with institutional approval. Requests are submitted via the Colophon contact channels with a **30-business-day response commitment**. Regulatory bodies receive the requested data without an NDA; non-regulatory requestors receive access under a controlled-access NDA that preserves engine trade-secret status while making inputs and outputs auditable. Refusal decisions are reviewable by the Independent Appeals Committee. The Program Operator publishes annual statistics on request volume, response times, and disposition. Part 5.6 Licensing Terms adds the corresponding Licensee audit right as a contractual commitment.
 
-The audit verifies that the anonymization in Part 2.9 is operationally sufficient — that supplier-specific alerts cannot be reverse-engineered to identify the reporting brand through correlated metadata (ingredient category + geographic origin + reporting timeline).
+The auditability claim is now operationally specified with a documented response commitment and a transparency mechanism.
 
-### International / Cyprus operating-base claims
+## Regional adaptability mechanism
 
-Part 2.1 §1.6 and the Edition page reference the Paleo Foundation's Cyprus operating base and the EU Database Directive protections that flow from it. The audit verifies that these claims are operationally accurate and that the legal-protection framework is documented in the controlled-document registry.
+**Attack.** "Part 2.1 §1.6 asserts that 'regional adaptability is a structural feature' and that the more-stringent-of-(regional, global) rule governs. But the mechanism for regional recalibration is hand-waved: no operational threshold for when a region gets its own platform; no specification for how the global cleanest-achievable benchmark gets computed; no statement of which regions are currently calibrated regionally. The claim is aspirational, not operational."
 
-## Output of the audit
+**Response.** Part 2.1 §1.6 has been revised to characterize regional adaptability as a **roadmap commitment for future Editions**, not an operational feature of the 2026 Edition. The 2026 Edition is honestly disclosed as calibrated against the global open literature; the next Edition's regional-adaptability work will begin once Cat 2 and additional categories ship and the corpus has accumulated region-specific evidence at sufficient sample-size totals to support statistically defensible regional pooling. The Governing Principles remain universal; the *calibration* may become regional in a future Edition with the more-stringent-of rule operative at that time. This converts the previous overclaim into a documented forward commitment.
 
-The Pre-work 6 audit produces a structured document at `data/workbench/standards-book/adversarial-audit.md` enumerating each attack vector, locating the manual's response by chapter and page, documenting any gaps, and proposing specific strengthenings. The strengthenings are applied to the relevant chapters of the manual; this chapter (Part 5.2) is then rewritten to mirror the audit structure with the program's response on each vector documented in narrative form.
+## Confidential Remediation Track discovery dynamics
 
-## Why this chapter exists in v0-pre-audit form
+**Attack.** "The Track produces 'a documented, timestamped, third-party-verified record of continuous improvement.' But the record is held by the Program Operator. In discovery, the record is potentially compellable from the Program Operator under subpoena. The Track does not provide attorney-client privilege or work-product protection. Brands relying on the Track for legal defensibility may be misled about how strong the protection actually is."
 
-A reader of the v0-pre-audit manual should understand that the Program-Level Adversarial Read is structurally important — it is the program's anticipatory answer to the categories of attack that a brand legal team needs to know the program has thought through. The provisional version of this chapter in v0-pre-audit signals to readers that:
+**Response.** Part 2.4 now includes an explicit §"Discovery dynamics — honest disclosure" section. Track data is held by the Program Operator as a service provider; it is potentially compellable under subpoena; the License Agreement specifies that the Program Operator will notify the Licensee and cooperate with the Licensee's defense to the extent legally permissible. **The Track does not provide attorney-client privilege or work-product protection over the testing data**; what it provides is contemporaneous, third-party-verified evidence of due diligence. The evidence is admissible *for* the brand's defense; it is also discoverable by plaintiffs. The structural value is that the evidence exists, is timestamped, and was generated in good faith before any litigation was foreseeable. Brands evaluating the Track are explicitly directed to consult counsel about how the Track interacts with their broader discovery posture.
 
-- The categories of attack have been enumerated;
-- The audit work is scheduled and bounded;
-- The final chapter version will be available in the audit-strengthened v0;
-- The audit and the final chapter are part of the program's build discipline, not an afterthought.
+## Standards Ratchet step-cap dynamics
 
-For a reader who needs the program's adversarial responses before the audit-strengthened v0 ships, the per-product adversarial reads in each Part 3 chapter cover product-specific attacks; the program-level attacks not addressed in any Part 3 chapter are listed above with the audit-scheduling commitment. A brand legal team who needs a specific program-level adversarial response sooner can request it from the Program Operator through the channels documented in the Colophon (Part 5.7).
+**Attack.** "The 20% step cap is presented as protection for Licensees. But the trigger conditions in §12.3 use the *current* limit. After a 20% reduction, the trigger recomputes against the new (tighter) limit. The 'held-over' residual may never resurface because the market may consolidate at the new limit before producing another two-cycle confirmation. The manual claims the residual 'may trigger again' but does not show the dynamics."
+
+**Response.** Part 2.10 §12.4 now includes a **worked example** demonstrating the step-cap dynamics. The example shows that when the market moves beyond the 20% cap, the cap holds the first cycle's tightening at 20%, then the residual surfaces at the next annual review when the trigger recomputes against the new (tighter) limit. The example demonstrates that the residual does resurface — the dynamics are not pathological — but the cadence is determined by market behavior, not by mechanical compounding. Brands can model their future obligations against the example with confidence.
+
+## Aggregate-exposure framing accuracy
+
+**Attack.** "The Part 2.2 aggregate-exposure calculation uses 5 ppb formula (below the FDA action level) but 20 ppb cereal and root vegetables (at the action level). The asymmetry is rhetorically tuned. The calculation should use either worst-case values (all at FDA action levels) or surveillance medians, not a mix."
+
+**Response.** Part 2.2 has been revised to use the FDA action level uniformly across all four food categories: 10 ppb formula, 20 ppb dry cereal, 10 ppb fruit purée, 20 ppb root-vegetable purée. The revised calculation yields approximately **10.4 µg lead per day** — more than **4.7 times** the FDA Interim Reference Level of 2.2 µg/day. This is a stronger version of the same argument with no asymmetric value selection. The toxicology-callouts.md aggregate-exposure cross-callout was revised in parallel.
+
+## Supplier-intelligence anonymization
+
+**Attack.** "Part 2.9 anonymizes alerts by removing brand identifiers, but ingredient × geography × timing is often a near-unique identifier. A sophisticated observer correlating a brand's public sourcing disclosures with the timing of alerts can identify the reporting brand. Anonymization is metadata-leaky."
+
+**Response.** Part 2.9 now includes an explicit §"Anonymization limits — honest disclosure" section acknowledging the metadata-correlation risk. The Program Operator's three operational mitigations are documented: batching (multiple reporting brands' findings combined into one alert), geographic generalization (region rather than exact origin), and discretionary hold (alerts delayed at the reporting brand's request). Brands are explicitly told that anonymization is **strong but not absolute**, that sophisticated observers correlating public sourcing disclosures could potentially infer the reporting brand, and that the metadata-correlation risk should factor into the participation decision. The Program Operator does not warrant absolute anonymization.
+
+## Cyprus operating-base enforceability
+
+**Attack.** "The Part 5.6 dispute-resolution provisions specify Cyprus-seated ICDR arbitration under Cypriot law. This is favorable to the Foundation but may be unenforceable against U.S. brands without specific contractual provisions. The choice of seat appears to disadvantage U.S. Licensees in jurisdictional terms."
+
+**Response.** Part 5.6 §"Dispute resolution" now includes a §"Why Cyprus-seated arbitration" explanation. The choice of seat is consistent with the Foundation's Cyprus regulatory and operational base. Under the **1958 New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards** (to which both Cyprus and the United States are signatories), Cyprus-seated arbitration awards are enforceable in U.S. courts, just as U.S. arbitration awards are enforceable in Cyprus. The choice of seat does not deprive U.S. Licensees of award enforceability. The Program Operator considers alternative-forum proposals on a case-by-case basis during license negotiations where material commercial considerations warrant it.
+
+## Forward-forecast accountability
+
+**Attack.** "Part 2.10 §12.6 requires the Program Operator to publish a forward forecast. But the manual does not specify what happens if the forecast turns out to be wrong. Brands plan against the forecast; if the forecast systematically underestimates the next-cycle limit, brands are misled. There is no accountability mechanism for forecast accuracy."
+
+**Response.** Part 2.10 §12.6 now includes a **§"Forecast accountability"** clause. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome — operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25% — triggers a methodology review of the projection method. The forecast is now a calibrated planning tool with documented predictive accuracy over time, not a marketing artifact.
+
+## Closing of the program-level adversarial read
+
+The fourteen attack categories above are the categories the Pre-publication Audit identified as the most likely program-level attacks a sophisticated adversarial reviewer would advance. Each has been responded to on the merits, with manual revisions applied where the audit identified gaps. Two categories required methodology revision (ratchet gaming, institutional conflict of interest) and were approved by the Standards Architect before being applied. One category was resolved by honest disclosure rather than mechanism change (regional adaptability roadmap framing) for the 2026 Edition; the operational mechanism will appear in a future Edition.
+
+A reviewer who finds an attack vector not addressed above is invited to submit it to the Program Operator through the channels in the Colophon. The Pre-publication Audit is a planned recurring exercise; subsequent Editions will incorporate additional attack categories as they are identified. The adversarial-audit posture is the program's structural commitment to anticipating attack rather than waiting for attack to land.
 
 ## Cross-references
 
-- Per-product adversarial reads: each Part 3 chapter.
-- Pre-work 6 audit specification: project plan at `/Users/karenpendergrass/.claude/plans/users-karenpendergrass-desktop-hmtc-gov-ticklish-reef.md` (internal).
-- Audit output destination: `data/workbench/standards-book/adversarial-audit.md`.
+- Pre-publication Audit document: `data/workbench/standards-book/adversarial-audit.md`.
+- Each per-product adversarial read: Part 3 chapters.
+- Governing Principles authority: Part 5.1 and `docs/governance/hmtc-governing-principles.md`.
+- Independent Appeals Committee specification: Part 2.12 §14.1.
+- Standards Ratchet anti-gaming provisions: Part 2.10 §12.3 and §12.7.
 
 
 
@@ -2114,6 +2271,8 @@ This glossary unifies three vocabularies that converge in the HMTc Program Manua
 The glossary travels with every licensing-exhibit extraction (Part 3 chapter detached as an exhibit). Each Part 3 chapter additionally inline-defines unfamiliar terms on first use; the consolidated glossary below is the canonical reference.
 
 ---
+
+**Achievability Threshold.** In HMTc methodology, the contamination concentration level at which a defined percentage of products in a category can comply. The Standards Ratchet (Part 2.10) uses the 80th-percentile achievability threshold of the certified trigger pool: when the 80th percentile sits at or below 80% of the current limit (and the breadth condition is met), the trigger fires. Achievability is the empirical observation that drives the ratchet; it is the program's data-driven mechanism for translating market improvement into tighter standards. Distinct from the standards-setting percentiles (P97 clean / P45 dirty per Part 5.1) which use external surveillance data for initial limit-setting.
 
 **Action Level.** A practical concentration limit used to trigger sourcing, process, and quality control measures. Exceeding an action level signals that intervention is needed; it is not a safety threshold. (HMTc-specific; per Governance Policy §3 and Part 2.1 §1.2.)
 
@@ -2128,6 +2287,8 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 **CAPA.** Corrective and Preventive Action. A formal, documented process to identify root causes and implement corrections and preventive measures. Specified in Part 2.8 with status-specific timelines.
 
 **Certification Mark (Seal).** The proprietary HMTc mark that may be used on packaging and marketing materials to indicate a product's certified status under the Program. Mark usage governed by Part 2.5.
+
+**Controlled Document.** A document under formal version control maintained by the Program Operator, with documented version numbers, effective dates, change logs, and the requirement that the version in effect at the time of any decision governs that decision. The Governance Policy and Lot Testing Schedule are controlled documents. Subsequent revisions do not retroactively alter prior decisions. The Program Manual reproduces controlled documents at the time of binding; revisions between editions of the manual flow through the controlled-document registry first.
 
 **Cr(III).** Trivalent chromium. The form ubiquitous in food, recognized as a nutritionally essential trace element with no chronic-toxicity concern at dietary exposures.
 
@@ -2171,6 +2332,8 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **ppb.** Parts per billion by mass in foods, typically equivalent to micrograms per kilogram (µg/kg). For liquids, ppb is often treated as µg/L when density is close to 1 g/mL.
 
+**Platform.** In HMTc methodology, a subcategory of products within a parent product category, classified as either *clean* or *dirty* based on its empirical contamination profile across the open literature. A platform may be defined by ingredient base (e.g., soy-based vs. non-soy-based infant formula), processing method (e.g., powder vs. ready-to-feed liquid formula), or product format (e.g., dry vs. wet cereal). Platform classification is data-driven: a platform is *clean* when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; *dirty* when meaningfully above (operationalized as p50(platform) > 1.5 × p50(parent category) for at least one Tier 1 metal). Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile (per Part 5.1).
+
 **PTWI / PTMI.** Provisional Tolerable Weekly Intake / Provisional Tolerable Monthly Intake. Older JECFA benchmark formats used when the guidance value was considered provisional due to data limitations or expected updates. In practice they functioned like TWIs. JECFA withdrew its lead PTWI in 2011 on the grounds that it was no longer health-protective.
 
 **Regulatory Trigger Level (RTL).** Any concentration or condition that would make the product noncompliant with applicable laws or regulatory action thresholds in its market(s) of sale. RTL violations trigger immediate hard-stop escalation per Part 2.11.
@@ -2179,7 +2342,11 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **Speciation.** Determination of the specific chemical form of a metal present, which is critical for accurate risk assessment. HMTc requires speciation in defined contexts (iAs for rice; MeHg for fish; Cr(VI) when credible pathway exists). (Per Part 4 §9.)
 
+**Subcategory.** A product class within a parent product category, typically defined by a discriminating attribute such as ingredient base, processing method, or product format. In HMTc methodology, the term *subcategory* is interchangeable with *platform* — both refer to the classification units that the methodology calibrates against. See *Platform*.
+
 **Status A / B / C / D / E.** The five HMTc certification statuses. Defined in detail in Part 2.3. A = Certified (Full Compliance); B = Certified (Transitional); C = Probation; D = Suspension; E = Revocation.
+
+**Technical Committee.** The Program Operator's advisory body responsible for methodology review, metal reclassification recommendations between Tier 1 and Tier 2, and methodological input on contested certification appeals. The Technical Committee is composed of toxicology, food-safety, and analytical-chemistry experts with documented independence from individual Licensees. The Committee is convened by the Program Operator on a per-need basis and reports recommendations rather than rendering binding decisions; the Program Operator retains final authority on classification and methodology matters, subject to the Independent Appeals Committee's binding review authority on contested cases. (Per Governance Policy §2.3.)
 
 **TWI / TDI.** Tolerable Weekly Intake / Tolerable Daily Intake. Health-based guidance values expressed as an amount per kilogram body weight per week or day, considered tolerable over a lifetime for substances where a threshold is assumed or can be used for risk management.
 
@@ -2408,6 +2575,12 @@ The HMTc Certification Mark may be used on certified SKUs' packaging, marketing 
 
 The mark is a registered certification mark (USPTO filing in process; EU IP Office filing in parallel). Unauthorized use of the mark by non-Licensees is enforced by the Paleo Foundation through standard certification-mark protection mechanisms.
 
+## Licensee audit right
+
+The license agreement grants each Licensee the right to audit the methodology that produces the standards applicable to the Licensee's certified product categories. The audit right operates under the **controlled-terms request process** specified in Part 5.1: a Licensee may request the workbench-side aggregate distribution data, the contributing-source summary statistics, the methodology's stability under alternative parametric assumptions, and the full methodology documentation for any product category their certification covers. Access is granted under a controlled-access NDA that preserves trade-secret status of the engine implementation while making the inputs and outputs verifiable.
+
+The audit right is operational, not promissory. The Program Operator responds to Licensee audit requests within 30 business days per the Part 5.1 commitment.
+
 ## Confidentiality
 
 The license agreement establishes mutual confidentiality with directional flow:
@@ -2430,7 +2603,11 @@ In practice, regulatory cooperation means: the Program Operator will respond to 
 
 License agreement disputes are subject to binding arbitration under the rules of the International Centre for Dispute Resolution (ICDR), seated in Cyprus, with the substantive law of the agreement being Cypriot law. The choice of seat and substantive law reflects the Paleo Foundation's Cyprus operating base and is consistent with the EU regulatory frameworks under which the program operates.
 
-Certification status disputes (as distinct from license agreement disputes) follow the appeals process specified in Part 2.12.
+**Why Cyprus-seated arbitration.** The Paleo Foundation is incorporated in Cyprus and operates under EU regulatory frameworks. Cyprus-seated ICDR arbitration is consistent with the Foundation's regulatory and operational base and provides predictable procedural rules under the **1958 New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards**, to which both Cyprus and the United States are signatories. Arbitration awards rendered in Cyprus are therefore enforceable in U.S. courts under the Convention, just as U.S. arbitration awards are enforceable in Cyprus. The choice of seat does not deprive U.S. Licensees of the ability to enforce favorable awards in U.S. jurisdictions.
+
+Licensees with specific concerns about the practical implications of Cyprus-seated arbitration — including non-U.S. Licensees evaluating jurisdictional questions in their home markets — should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
+
+Certification status disputes (as distinct from license agreement disputes) follow the two-tier appeals process specified in Part 2.12, which is independent of arbitration and operates as the Program's internal dispute-resolution mechanism for status determinations.
 
 ## What this summary does not cover
 

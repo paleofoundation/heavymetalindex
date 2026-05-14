@@ -96,7 +96,7 @@ The single most important framing for brand legal and regulatory readers, drawn 
 
 > **Even compliant foods can exceed reference doses when a child eats across categories.**
 >
-> A day's consumption comprising 800 mL of ready-to-feed formula at 5 ppb lead, one 20 ppb serving of dry cereal, one 10 ppb fruit puree, and one 20 ppb root-vegetable puree could yield approximately **7.8 µg lead per day** — more than three times the FDA Interim Reference Level of 2.2 µg/day for young children. Individual products meeting all applicable regulatory action levels can still combine, at typical infant consumption patterns, into total daily intakes that substantially exceed health-based reference values.
+> A day's consumption at the **FDA action level** across four common categories — 800 mL of ready-to-feed formula at the 10 ppb FDA action level, one 20 ppb serving of dry infant cereal (FDA action level for dry cereals), one 10 ppb fruit puree (FDA action level), and one 20 ppb root-vegetable puree (FDA action level for root vegetables) — yields approximately **10.4 µg lead per day**, more than **4.7 times** the FDA Interim Reference Level of 2.2 µg/day for young children. Even at full compliance with FDA action levels across all four food categories, aggregate intake at typical infant consumption patterns substantially exceeds the IRL.
 >
 > This is why HMTc category limits sit below applicable regulatory action levels rather than at them. Aggregate exposure across categories — not single-product compliance — is the relevant exposure metric for infants and young children. The Program drives every product, in every category, steadily and measurably closer to the lowest achievable levels of contamination, simultaneously.
 

@@ -39,6 +39,12 @@ The HMTc Certification Mark may be used on certified SKUs' packaging, marketing 
 
 The mark is a registered certification mark (USPTO filing in process; EU IP Office filing in parallel). Unauthorized use of the mark by non-Licensees is enforced by the Paleo Foundation through standard certification-mark protection mechanisms.
 
+## Licensee audit right
+
+The license agreement grants each Licensee the right to audit the methodology that produces the standards applicable to the Licensee's certified product categories. The audit right operates under the **controlled-terms request process** specified in Part 5.1: a Licensee may request the workbench-side aggregate distribution data, the contributing-source summary statistics, the methodology's stability under alternative parametric assumptions, and the full methodology documentation for any product category their certification covers. Access is granted under a controlled-access NDA that preserves trade-secret status of the engine implementation while making the inputs and outputs verifiable.
+
+The audit right is operational, not promissory. The Program Operator responds to Licensee audit requests within 30 business days per the Part 5.1 commitment.
+
 ## Confidentiality
 
 The license agreement establishes mutual confidentiality with directional flow:
@@ -61,7 +67,11 @@ In practice, regulatory cooperation means: the Program Operator will respond to 
 
 License agreement disputes are subject to binding arbitration under the rules of the International Centre for Dispute Resolution (ICDR), seated in Cyprus, with the substantive law of the agreement being Cypriot law. The choice of seat and substantive law reflects the Paleo Foundation's Cyprus operating base and is consistent with the EU regulatory frameworks under which the program operates.
 
-Certification status disputes (as distinct from license agreement disputes) follow the appeals process specified in Part 2.12.
+**Why Cyprus-seated arbitration.** The Paleo Foundation is incorporated in Cyprus and operates under EU regulatory frameworks. Cyprus-seated ICDR arbitration is consistent with the Foundation's regulatory and operational base and provides predictable procedural rules under the **1958 New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards**, to which both Cyprus and the United States are signatories. Arbitration awards rendered in Cyprus are therefore enforceable in U.S. courts under the Convention, just as U.S. arbitration awards are enforceable in Cyprus. The choice of seat does not deprive U.S. Licensees of the ability to enforce favorable awards in U.S. jurisdictions.
+
+Licensees with specific concerns about the practical implications of Cyprus-seated arbitration — including non-U.S. Licensees evaluating jurisdictional questions in their home markets — should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
+
+Certification status disputes (as distinct from license agreement disputes) follow the two-tier appeals process specified in Part 2.12, which is independent of arbitration and operates as the Program's internal dispute-resolution mechanism for status determinations.
 
 ## What this summary does not cover
 

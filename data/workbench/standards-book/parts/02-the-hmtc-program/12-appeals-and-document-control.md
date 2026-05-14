@@ -6,16 +6,35 @@ Every certification program requires three procedural mechanisms that operate in
 
 This chapter specifies all three. The mechanisms are procedural rather than substantive — they govern how the Program responds to disagreement, recovery, and document evolution, not what the underlying standards or determinations are. Together, they ensure that brands are treated fairly within the Program's framework and that the rules in force at the time of any decision are knowable, traceable, and applied consistently.
 
-## 14.1 Appeals Process
+## 14.1 Appeals Process — Two-Tier Structure
+
+The appeals process is structured in two tiers to address the institutional conflict between the Program Operator's certification revenue and its role as initial appeal-reviewer. Tier 1 is internal to the Program Operator; Tier 2 is independent of the Program Operator. The two-tier structure is the program's structural answer to the conflict-of-interest concern that an internal-only appeals process operating within the Program Operator's authority cannot fully mitigate the institutional conflict between the Operator's certification revenue and the Operator's role as reviewer.
+
+### Tier 1: Initial appeal
 
 A Licensee may appeal any certification status decision by submitting a written appeal to the Program Operator within 10 business days of notification. The appeal must include:
 
 - The technical or factual basis for disagreement; and
 - Supporting evidence (laboratory data, chain-of-custody records, methodology documentation, or analogous materials).
 
-The Program Operator will review the appeal and may convene the Technical Committee. During an appeal, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal — for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
+The Program Operator will review the appeal within 15 business days and may convene the Technical Committee for methodological or interpretive questions. Operational appeals (testing logistics, sampling disputes, laboratory selection) are reviewed by the Program Operator directly.
 
-The Technical Committee reviews appeals involving methodological or interpretive questions. Operational appeals (testing logistics, sampling disputes, laboratory selection) are reviewed by the Program Operator directly. The standard for granting an appeal is whether the originally assigned status reflects the correct application of this Policy and the Lot Testing Schedule to the actual facts of the case.
+During Tier 1 review, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal — for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
+
+The standard for granting an appeal is whether the originally assigned status reflects the correct application of this Policy and the Lot Testing Schedule to the actual facts of the case.
+
+### Tier 2: Independent Appeals Committee
+
+If the Licensee disagrees with the Tier 1 outcome, the Licensee may escalate to the independent Appeals Committee within 10 business days of the Tier 1 decision. The Appeals Committee is structurally independent of the Program Operator:
+
+- **Composition.** Three external reviewers, none of whom are employed by or under contract to The Paleo Foundation: one toxicologist or food-safety scientist with demonstrated independence; one food-industry quality professional with no financial relationship to the Licensee under review or to the Program Operator; one legal advisor with regulatory-affairs background. Members are appointed for two-year terms with staggered rotation to preserve institutional memory while preventing entrenchment.
+- **Caseload.** No member may sit on more than three appeals per calendar year. Members recuse from any appeal involving a Licensee with whom they have a current or past commercial relationship.
+- **Authority.** The Appeals Committee reviews the Tier 1 decision on the merits and may affirm, reverse, or remand to the Program Operator for further investigation. **Reversals are binding on the Program Operator.** The Committee may also recommend methodology revisions where the appeal surfaces a generalizable issue.
+- **Timeline.** The Committee renders its decision within 30 business days of escalation, with one 15-day extension permitted for cases requiring additional evidence or expert consultation.
+- **Transparency.** The Program Operator publishes anonymized Appeals Committee outcomes in the annual transparency report, including the number of appeals heard, the disposition (affirm/reverse/remand), and the categories of issue raised. Individual brand identities and SKU-specific details are not disclosed.
+- **Funding.** The Appeals Committee operates on a per-appeal fee structure paid by the Program Operator and a per-Licensee contribution from the licensing fee schedule. This funding arrangement ensures that the Committee is not financially dependent on case outcomes and that no individual appeal carries financial pressure for the reviewers.
+
+Tier 2 review is binding. A Licensee that prevails at Tier 2 has the Program Operator's status determination reversed, with retroactive effect to the original determination date.
 
 ## 14.2 Reinstatement After Suspension or Revocation
 

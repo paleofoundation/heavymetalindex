@@ -24,24 +24,50 @@ A science-based relaxation — for example, a future EFSA reassessment that mean
 
 The Standards Ratchet for a given analyte fires when **both** of the following conditions hold for two consecutive annual reviews:
 
-(a) The 80th percentile of certified Status A lot results for the analyte sits at or below 80% of the current limit.
+(a) The 80th percentile of the combined Status A + Status B trigger pool for the analyte sits at or below 80% of the current limit.
 
-(b) At least 50% of certified Status A SKUs have lots at or below 60% of the current limit.
+(b) At least 50% of SKUs in the trigger pool have lots at or below 60% of the current limit.
 
 The first condition tests aggregate market shift. The second tests breadth — the ratchet does not fire on a single large brand pulling the percentile down. Both conditions must hold across two consecutive annual reviews to confirm sustained improvement rather than a transient market event.
 
 The two-condition design is intentional. Condition (a) alone would allow a single dominant brand to drive the trigger by aggressive reformulation across many SKUs; condition (b) alone would not capture the magnitude of market shift. Together, the two conditions require that the market has moved *and* that the movement is broad-based. The two-consecutive-cycle requirement protects against transient effects (a particularly clean harvest year, a temporary supplier change) that would otherwise distort the trigger.
 
+### Anti-gaming provisions
+
+**Trigger pool composition.** The trigger pool combines Status A and Status B lot results. This prevents *withholding gaming*, in which a brand could keep its best-performing SKUs at Status B by delaying CAPA closure on marginal Tier 2 exceedances to keep strong data out of the Status A pool. Combining the two pools makes the trigger insensitive to status-classification gaming on the brand's side.
+
+**Single-Licensee cap.** No single Licensee may contribute more than 25% of the SKUs in the trigger pool for a given analyte. When a Licensee's SKU count exceeds the cap, the Program Operator excludes that Licensee's SKUs above the cap from the trigger calculation (selected randomly to avoid Licensee selection bias) and recalculates against the capped pool. This prevents a single dominant Licensee from driving trigger firing through aggressive reformulation across many SKUs; the ratchet reflects industry-wide movement rather than one Licensee's individual progress.
+
+**Exit-and-re-enter prohibition.** A Licensee that voluntarily withdraws from the Program and subsequently re-enrolls within 24 months is evaluated against the standard in effect at the time of re-entry, not the standard in effect at the time of original exit. Grandfathering protections under §12.5 apply only to continuous certification. This rule prevents the exit-and-re-enter gaming pathway, in which a brand could withdraw before a ratchet event to escape transition obligations and then re-enter once the new standard's transition period has elapsed. A Licensee that withdraws for documented commercial reasons (product discontinuation, line restructuring, change of control) and re-enrolls after 24 months is treated as a new applicant per standard program-entry procedures.
+
 ## 12.4 Step Size and New Limit Calculation
 
 When the trigger fires, the new limit equals the **maximum of**:
 
-(a) The actual 80th percentile of certified Status A lot results for the analyte, or
+(a) The actual 80th percentile of the trigger pool for the analyte, or
 (b) 80% of the current limit.
 
 The second clause is the **step cap**. **No brand faces more than a 20% reduction per ratchet event, regardless of how far the market has actually moved.** Residual tightening above 20% is held over and may trigger again at the next cycle. This converts the ratchet from a potential shock into a predictable, capped progression.
 
 The step cap is the program's structural protection for participating brands. A brand that has invested in reduction expects to be rewarded by tighter standards that exclude competitors who have not invested; the brand does not expect to be punished by surprise tightening that exceeds its planning horizon. The 20% cap establishes a maximum per-cycle obligation that brands can model and budget against.
+
+### Worked example
+
+Current Pb limit is 30 ppb. The 80th percentile of the Status A + Status B trigger pool is 15 ppb (50% of the limit). The breadth condition is met (≥50% of SKUs at or below 60% PoL = ≤18 ppb). The trigger fires.
+
+New limit candidate (a): 15 ppb (the actual 80th percentile).
+New limit candidate (b): 80% of 30 ppb = 24 ppb (the step cap).
+New limit = max(15, 24) = **24 ppb**.
+
+The step cap held; the market actually moved beyond the cap, but the program tightens only by the capped 20% increment.
+
+At the next annual review, the 80th percentile of the trigger pool against the new 24 ppb limit is evaluated. If the market stays at the same absolute level (15 ppb), the 80th percentile is now 15/24 ≈ 62.5% of the new limit — below the 80% trigger condition. Both conditions hold. The trigger fires again.
+
+New limit candidate (a): 15 ppb.
+New limit candidate (b): 80% of 24 ppb = 19.2 ppb.
+New limit = max(15, 19.2) = **19.2 ppb**.
+
+The residual surfaces in the next cycle, but the cadence is determined by market behavior after the first tightening, not by mechanical compounding. A brand modeling the program's future obligations can plan against this worked example with confidence in the predictability of the trajectory.
 
 ## 12.5 Transition
 
@@ -57,13 +83,25 @@ When standards are tightened, a transition period of not less than 12 months and
 
 At every annual review, the Program Operator publishes a forward forecast:
 
-> "Current 80th percentile of Status A results: X ppb. Current limit: Y ppb. If current improvement trends continue, the projected next-cycle limit is Z ppb, with expected announcement in N months and enforcement Q months after."
+> "Current 80th percentile of trigger pool: X ppb. Current limit: Y ppb. If current improvement trends continue, the projected next-cycle limit is Z ppb, with expected announcement in N months and enforcement Q months after."
 
 This converts the ratchet from a surprise into a planning parameter that brands can model years in advance. A brand considering certification can review the forward forecast for the relevant category before signing the license agreement and understand the next three-to-five-year obligation profile. A brand operating under the current standard can budget reformulation against the projected next-cycle limit.
 
 The forward forecast is published in the annual Program Operator report and posted to the heavymetaltested.com Program Registry under document control. Forecasts are *projections*, not commitments — actual trigger firing depends on whether the two-condition test in §12.3 is satisfied at the time of the relevant annual review. Brands and regulators can rely on the forecast as the program's best current estimate of trajectory; the trigger conditions remain the operative test.
 
-## 12.7 Why this rule survives each Governing Principle
+### Forecast accountability
+
+Forecasts are projections, not commitments. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome — operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25% — triggers a methodology review of the projection method.
+
+This retrospective accountability ensures that the forecast is not a marketing artifact but a calibrated planning tool with documented predictive accuracy over time. Brands relying on forecasts for reformulation planning should treat them as the Program's best current estimate, not as guaranteed future limits, and can verify the Program Operator's track record in the published retrospectives.
+
+## 12.7 Exit-and-Re-Enter Prohibition
+
+A Licensee that voluntarily withdraws from the Program and subsequently re-enrolls within 24 months is evaluated against the standard in effect at the time of re-entry, not the standard in effect at the time of original exit. Grandfathering protections under §12.5 apply only to continuous certification.
+
+This rule prevents the exit-and-re-enter gaming pathway, in which a brand could withdraw before a ratchet event to escape transition obligations and then re-enter once the new standard's transition period has elapsed. A Licensee that withdraws for documented commercial reasons (product discontinuation, line restructuring, change of control) and re-enrolls after 24 months is treated as a new applicant per standard program-entry procedures.
+
+## 12.8 Why this rule survives each Governing Principle
 
 The Standards Ratchet as specified above satisfies all five HMTc Governing Principles simultaneously:
 

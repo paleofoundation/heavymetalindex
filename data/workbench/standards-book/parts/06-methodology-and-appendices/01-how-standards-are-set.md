@@ -14,9 +14,26 @@ An adversarial reader who wants to audit a specific HMTc limit can follow this p
 2. Read the chapter's Sources Cited section. Each citation resolves to a source page on heavymetalindex.com.
 3. Read the source page. Each source page summarizes the underlying document's findings with concentrations, sample sizes, methods, and basis (as-sold, as-consumed, dry weight). The source page links to the original document where available.
 4. Check the routing audit (`data/evidence/product_source_routing_audit.csv`) to confirm that no relevant source has been omitted from the cell.
-5. For the pooled distribution itself, qualified reviewers may request the workbench-side aggregate distribution data under controlled terms.
+5. For the pooled distribution itself, qualified reviewers may request the workbench-side aggregate distribution data under controlled terms (see the controlled-terms request process below).
 
 This design preserves the firewall while making the evidence inputs auditable. **The failure mode this design prevents is the "we set this limit because we said so" attack.** HMTc cannot make that argument because the source attribution is public.
+
+### Controlled-terms request process
+
+**Qualified reviewers** include:
+
+- **Regulatory bodies acting under official inquiry** — FDA, EFSA, state attorneys general, equivalent international agencies — who require methodology audit access for regulatory analysis or rulemaking purposes.
+- **Plaintiff's or defense counsel requesting access for active litigation** in which an HMTc-certified product is at issue or in which HMTc certification or methodology has been raised by either party.
+- **Certified or pending HMTc Licensees auditing the methodology** that produces their own product category's standards. Licensees have a contractual audit right under the License Agreement (see Part 5.6).
+- **Academic researchers conducting peer-track review** with institutional approval and a documented research protocol that includes confidentiality undertakings.
+
+Requests are submitted to the Program Operator via the contact channels in the Colophon (Part 5.7). The Program Operator responds within **30 business days** with one of:
+
+- For regulatory bodies under official inquiry: the requested aggregate distribution data directly, without a controlled-access NDA.
+- For non-regulatory requestors: a controlled-access Non-Disclosure Agreement that preserves the trade-secret status of the pooling engine implementation while making the engine's inputs (the contributing source pages and their summary statistics) and outputs (the per-analyte percentile values, the row-pass calibration math, and the methodology's stability under alternative parametric assumptions) auditable.
+- A documented refusal with the specific basis, where the request falls outside the qualified-reviewer categories. Refusal decisions are reviewable by the Independent Appeals Committee (Part 2.12 §14.1).
+
+The 30-business-day commitment is an operational commitment by the Program Operator. The Program Operator publishes annual statistics on controlled-terms request volume, response times, and disposition in the transparency report.
 
 ## The standards-setting principle in three layers
 
@@ -31,6 +48,14 @@ These targets are the policy choice. They sit at the intersection of all five Go
 
 **Adversarial readers attacking "why P97 and not P95" must instead attack "why 90% and not 85%."** The answer to that question traces directly to the Governing Principles. The principle-level argument is the strongest possible form of the methodology defense because it converts a technical argument into a policy argument, and policy arguments are won or lost on the principles they serve.
 
+#### Clean vs. dirty platform classification rule
+
+A *platform* is a subcategory of products within a parent product category — for example, soy-based versus non-soy-based infant formula, powder versus ready-to-feed liquid, rice-based versus non-rice baby cereal. Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile, so the classification rule is load-bearing.
+
+**The classification rule is data-driven:** a platform is classified *clean* when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; *dirty* when meaningfully above. "Meaningfully above" is operationalized as p50(subcategory) > 1.5 × p50(parent category) for at least one Tier 1 metal. Platforms not meeting the dirty threshold are classified clean by default.
+
+The classification is reproducible from public data. Any reviewer can verify a specific platform's classification by examining the pooled distributions on heavymetalindex.com via the product-category and subcategory pages. Reclassification (clean ↔ dirty) is data-driven and follows the rule above; it is not a discretionary decision by the Program Operator.
+
 ### Layer 2: The per-analyte percentile mechanism
 
 To deliver the 90/30 row-level intent, per-analyte limits are set as follows:
@@ -40,11 +65,15 @@ To deliver the 90/30 row-level intent, per-analyte limits are set as follows:
 
 The reasoning is the row-pass calibration: a brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Under analyte independence, per-analyte limits set at the raw P90 of the clean distribution would deliver a joint row-pass rate of approximately 0.9^10 = 35%. Under realistic analyte correlation (around 0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50–70%. To deliver the 90% row-pass intent for clean-platform brands, per-analyte limits are uplifted from the raw P90 to P97; the analogous uplift for dirty-platform brands moves from raw P30 to P45.
 
+The analyte-correlation estimate of approximately 0.6 is consistent with cross-analyte correlation observed in published surveillance datasets (FDA Total Diet Study; EFSA scientific opinions on Pb, Cd, and iAs in food). It is an estimate from external surveillance data, not a measurement from HMTc-internal lot data. The 12-month post-launch methodology review will measure empirical analyte correlation from HMTc lot results and may revise the per-analyte percentile uplift if the empirical correlation diverges materially from the assumed value.
+
 The uplift is uniform across all analytes today. Per-analyte differentiation — for example, lead tighter than nickel based on regulatory pressure or toxicology — is a Tier 2 calibration deferred until HMTc has accumulated 6–12 months of lot-testing data to measure actual joint pass rates empirically.
 
 ### Layer 3: Pool admission, basis, regulatory cap, and rationale tagging
 
-Every source loaded for a (row, metal) cell contributes to the pooled distribution unless explicitly dispositioned out with a stated reason. Sample-level data uses raw values; summary-only sources (mean, median, max, SD, lower/upper bound, IQR) contribute via moment-matching pseudo-sample expansion under log-normal or gamma assumptions following the standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food). Sources are weighted by their reported sample size, capped at twice the median per-source N to prevent any one large survey from dominating.
+Every source loaded for a (row, metal) cell contributes to the pooled distribution unless explicitly dispositioned out with a stated reason. Sample-level data uses raw values; summary-only sources (mean, median, max, SD, lower/upper bound, IQR) contribute via moment-matching pseudo-sample expansion under log-normal or gamma assumptions following the standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food).
+
+Sources are weighted by their reported sample size, capped at twice the median per-source N. The cap prevents any single large survey — for example, a 5,000-sample FDA TDS sub-extract — from dominating the pooled distribution for a cell where most contributing sources have N=50–200. The 2× ratio preserves large-N influence proportionally while preventing pool concentration in a single source. Without the cap, a single large survey could effectively determine the per-analyte percentile for a cell regardless of what other contributing sources report; with the cap, the percentile reflects the weighted consensus of the corpus rather than the dominant single survey.
 
 Each row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, purée rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as-sold ↔ dry-as-sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 

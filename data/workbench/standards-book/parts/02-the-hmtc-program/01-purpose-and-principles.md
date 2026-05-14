@@ -24,11 +24,15 @@ All HMTc action levels are expressed as parts per billion (ppb, equivalent to mi
 
 Certification under this Program does not constitute legal advice and does not replace the Licensee's obligation to comply with all applicable laws and regulations in every jurisdiction where the product is sold. If a product's heavy metal content violates a regulatory limit or trigger level in any jurisdiction, that noncompliance is a hard-stop condition under this Policy and will trigger immediate corrective action regardless of the product's certification status. The Program Operator will cooperate with regulatory authorities as required by law.
 
-### 1.6 International Scope and Regional Adaptability
+### 1.6 International Scope
 
 HMTc applies anywhere infant and child food products are sold. The Program operates from the Paleo Foundation's Cyprus base under EU regulatory frameworks for database rights and certification governance, and applies operationally to products sold in any jurisdiction.
 
-Regional adaptability is a structural feature of the methodology, not a deviation from it. The Governing Principles are universal; their **calibration** is regional. When a region's evidence base shows systematically higher contamination — typically traceable to local soil geochemistry, irrigation source contamination, or supply-chain practices — HMTc's regional standards calibrate against that region's clean-platform achievability *and* against the global cleanest-achievable benchmark. **The more stringent of (regional platform limit, global cleanest-achievable benchmark) governs.** This creates the market-demand catalyst Governing Principle 1 requires: brands selling in higher-contamination regions face standards that incentivize sourcing from cleaner supply chains, which drives the upstream supply-chain remediation that Governing Principle 1 names as the program's primary mechanism.
+The 2026 Edition is calibrated against the global open literature aggregated on heavymetalindex.com. A brand selling in any jurisdiction is evaluated against the same per-category HMTc limits derived from the global corpus, with the lowest applicable regulatory cap in the brand's markets of sale serving as a hard upper bound (per the standards-setting principle in Part 5.1 and the regulatory escalation rule in Part 2.11).
+
+**Regional adaptability — roadmap for future Editions.** Future Editions of the Standards will introduce region-specific calibration as the heavymetalindex.com corpus accumulates region-specific evidence at sufficient sample-size totals to support statistically defensible regional pooling. The Governing Principles are universal; their *calibration* may become regional in a future Edition. When that happens, the operational rule will be: the more stringent of (regional platform limit, global cleanest-achievable benchmark) governs, so that brands selling in higher-contamination regions face standards that incentivize sourcing from cleaner supply chains — the market-demand catalyst Governing Principle 1 names as the program's primary mechanism.
+
+For the 2026 Edition, regional adaptability is named here as a structural commitment to future evolution, not as an operational feature. The honest disclosure is that the current Edition uses global calibration, and that the next Edition's regional-adaptability work will begin once Cat 2 and additional categories ship.
 
 ### 1.7 Program-Operator Continuity
 

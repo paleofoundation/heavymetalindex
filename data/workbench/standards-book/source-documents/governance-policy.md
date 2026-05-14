@@ -331,10 +331,14 @@ The Standards Ratchet operates under a directional commitment: action levels may
 
 The Standards Ratchet for a given analyte fires when **both** of the following conditions hold for two consecutive annual reviews:
 
-(a) The 80th percentile of certified Status A lot results for the analyte sits at or below 80% of the current limit.
-(b) At least 50% of certified Status A SKUs have lots at or below 60% of the current limit.
+(a) The 80th percentile of the combined Status A + Status B trigger pool for the analyte sits at or below 80% of the current limit.
+(b) At least 50% of SKUs in the trigger pool have lots at or below 60% of the current limit.
 
 The first condition tests aggregate market shift. The second tests breadth — the ratchet does not fire on a single large brand pulling the percentile down. Both conditions must hold across two consecutive annual reviews to confirm sustained improvement rather than a transient market event.
+
+**Trigger pool composition (anti-gaming).** The trigger pool combines Status A and Status B lot results to prevent withholding gaming, in which a brand could keep its best-performing SKUs at Status B by delaying CAPA closure on marginal Tier 2 exceedances to keep its strongest data out of the Status A pool. Combining the two pools makes the trigger insensitive to status-classification gaming on the brand's side.
+
+**Single-Licensee cap (anti-concentration).** No single Licensee may contribute more than 25% of the SKUs in the trigger pool for a given analyte. When a Licensee's SKU count exceeds the cap, the Program Operator excludes that Licensee's SKUs above the cap from the trigger calculation (selected randomly across the Licensee's SKUs to avoid the Licensee's selection bias) and recalculates the trigger conditions against the capped pool. This prevents a single dominant Licensee from driving trigger firing through aggressive reformulation across many SKUs, ensuring that the ratchet reflects industry-wide movement rather than one Licensee's individual progress.
 
 ### 12.4 Step Size and New Limit Calculation
 
@@ -359,11 +363,19 @@ Status D and Status E products are out regardless.
 
 At every annual review, the Program Operator publishes a forward forecast:
 
-> "Current 80th percentile of Status A results: X ppb. Current limit: Y ppb. If current improvement trends continue, the projected next-cycle limit is Z ppb, with expected announcement in N months and enforcement Q months after."
+> "Current 80th percentile of trigger pool: X ppb. Current limit: Y ppb. If current improvement trends continue, the projected next-cycle limit is Z ppb, with expected announcement in N months and enforcement Q months after."
 
 This converts the ratchet from a surprise into a planning parameter brands can model years in advance.
 
-### 12.7 Why This Ratchet Survives Each Governing Principle
+**Forecast accountability.** Forecasts are projections, not commitments. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome — operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25% — triggers a methodology review of the projection method. Brands relying on forecasts for reformulation planning should treat them as the Program's best current estimate, not as guaranteed future limits.
+
+### 12.7 Exit-and-Re-Enter Prohibition
+
+A Licensee that voluntarily withdraws from the Program and subsequently re-enrolls within 24 months is evaluated against the standard in effect at the time of re-entry, not the standard in effect at the time of original exit. Grandfathering protections under §12.5 apply only to continuous certification. This rule prevents the exit-and-re-enter gaming pathway, in which a brand could withdraw before a ratchet event to escape transition obligations and then re-enter once the new standard's transition period has elapsed.
+
+A Licensee that withdraws for documented commercial reasons (product discontinuation, line restructuring, change of control) and re-enrolls after 24 months is treated as a new applicant and follows standard program-entry procedures (Three-Lot Baseline per §4).
+
+### 12.8 Why This Ratchet Survives Each Governing Principle
 
 The ratchet mechanism as specified above is structured to satisfy all five HMTc Governing Principles simultaneously:
 
@@ -390,9 +402,24 @@ This escalation path is a hard-stop condition. It applies irrespective of whethe
 
 ## 14. Appeals, Reinstatement, and Document Control
 
-### 14.1 Appeals Process
+### 14.1 Appeals Process — Two-Tier Structure
 
-A Licensee may appeal any certification status decision by submitting a written appeal to the Program Operator within 10 business days of notification. The appeal must include the technical or factual basis for disagreement and supporting evidence. The Program Operator will review the appeal and may convene the Technical Committee. During an appeal, the originally assigned status remains in effect unless the Program Operator grants temporary relief.
+The appeals process is structured in two tiers to address the institutional conflict between the Program Operator's certification revenue and its role as initial appeal-reviewer. Tier 1 is internal to the Program Operator; Tier 2 is independent of the Program Operator.
+
+**Tier 1: Initial appeal.** A Licensee may appeal any certification status decision by submitting a written appeal to the Program Operator within 10 business days of notification. The appeal must include the technical or factual basis for disagreement and supporting evidence. The Program Operator will review the appeal within 15 business days and may convene the Technical Committee for methodological or interpretive questions. During Tier 1 review, the originally assigned status remains in effect unless the Program Operator grants temporary relief.
+
+**Tier 2: Independent Appeals Committee.** If the Licensee disagrees with the Tier 1 outcome, the Licensee may escalate to the independent Appeals Committee within 10 business days of the Tier 1 decision. The Appeals Committee is structurally independent of the Program Operator:
+
+- **Composition.** Three external reviewers, none of whom are employed by or under contract to The Paleo Foundation: one toxicologist or food-safety scientist with demonstrated independence; one food-industry quality professional with no financial relationship to the Licensee under review or to the Program Operator; one legal advisor with regulatory-affairs background. Members are appointed for two-year terms with staggered rotation to preserve institutional memory while preventing entrenchment.
+- **Caseload.** No member may sit on more than three appeals per calendar year. Members recuse from any appeal involving a Licensee with whom they have a current or past commercial relationship.
+- **Authority.** The Appeals Committee reviews the Tier 1 decision on the merits and may affirm, reverse, or remand to the Program Operator for further investigation. Reversals are binding on the Program Operator. The Committee may also recommend methodology revisions where the appeal surfaces a generalizable issue.
+- **Timeline.** The Committee renders its decision within 30 business days of escalation, with one 15-day extension permitted for cases requiring additional evidence or expert consultation.
+- **Transparency.** The Program Operator publishes anonymized Appeals Committee outcomes in the annual transparency report, including the number of appeals heard, the disposition (affirm/reverse/remand), and the categories of issue raised. Individual brand identities and SKU-specific details are not disclosed.
+- **Funding.** The Appeals Committee operates on a per-appeal fee structure paid by the Program Operator and a per-Licensee contribution from the licensing fee schedule. This funding arrangement ensures that the Committee is not financially dependent on case outcomes and that no individual appeal carries financial pressure for the reviewers.
+
+Tier 2 review is binding. A Licensee that prevails at Tier 2 has the Program Operator's status determination reversed, with retroactive effect to the original determination date.
+
+The two-tier structure addresses the structural concern that an internal-only appeals process operating within the Program Operator's authority cannot fully mitigate the institutional conflict of interest between the Operator's certification revenue and the Operator's role as reviewer. The Appeals Committee's independence is the structural answer to that concern.
 
 ### 14.2 Reinstatement After Suspension or Revocation
 

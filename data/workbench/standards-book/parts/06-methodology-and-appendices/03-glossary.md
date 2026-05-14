@@ -6,6 +6,8 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 ---
 
+**Achievability Threshold.** In HMTc methodology, the contamination concentration level at which a defined percentage of products in a category can comply. The Standards Ratchet (Part 2.10) uses the 80th-percentile achievability threshold of the certified trigger pool: when the 80th percentile sits at or below 80% of the current limit (and the breadth condition is met), the trigger fires. Achievability is the empirical observation that drives the ratchet; it is the program's data-driven mechanism for translating market improvement into tighter standards. Distinct from the standards-setting percentiles (P97 clean / P45 dirty per Part 5.1) which use external surveillance data for initial limit-setting.
+
 **Action Level.** A practical concentration limit used to trigger sourcing, process, and quality control measures. Exceeding an action level signals that intervention is needed; it is not a safety threshold. (HMTc-specific; per Governance Policy §3 and Part 2.1 §1.2.)
 
 **Aggregate Exposure.** Total intake of a contaminant across all dietary sources, expressed as µg/day or µg/kg bw/day. The relevant exposure metric for infants and young children because compliance with single-product action levels does not guarantee compliance with health-based exposure benchmarks. (See Part 2.2 aggregate-exposure framing.)
@@ -19,6 +21,8 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 **CAPA.** Corrective and Preventive Action. A formal, documented process to identify root causes and implement corrections and preventive measures. Specified in Part 2.8 with status-specific timelines.
 
 **Certification Mark (Seal).** The proprietary HMTc mark that may be used on packaging and marketing materials to indicate a product's certified status under the Program. Mark usage governed by Part 2.5.
+
+**Controlled Document.** A document under formal version control maintained by the Program Operator, with documented version numbers, effective dates, change logs, and the requirement that the version in effect at the time of any decision governs that decision. The Governance Policy and Lot Testing Schedule are controlled documents. Subsequent revisions do not retroactively alter prior decisions. The Program Manual reproduces controlled documents at the time of binding; revisions between editions of the manual flow through the controlled-document registry first.
 
 **Cr(III).** Trivalent chromium. The form ubiquitous in food, recognized as a nutritionally essential trace element with no chronic-toxicity concern at dietary exposures.
 
@@ -62,6 +66,8 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **ppb.** Parts per billion by mass in foods, typically equivalent to micrograms per kilogram (µg/kg). For liquids, ppb is often treated as µg/L when density is close to 1 g/mL.
 
+**Platform.** In HMTc methodology, a subcategory of products within a parent product category, classified as either *clean* or *dirty* based on its empirical contamination profile across the open literature. A platform may be defined by ingredient base (e.g., soy-based vs. non-soy-based infant formula), processing method (e.g., powder vs. ready-to-feed liquid formula), or product format (e.g., dry vs. wet cereal). Platform classification is data-driven: a platform is *clean* when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; *dirty* when meaningfully above (operationalized as p50(platform) > 1.5 × p50(parent category) for at least one Tier 1 metal). Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile (per Part 5.1).
+
 **PTWI / PTMI.** Provisional Tolerable Weekly Intake / Provisional Tolerable Monthly Intake. Older JECFA benchmark formats used when the guidance value was considered provisional due to data limitations or expected updates. In practice they functioned like TWIs. JECFA withdrew its lead PTWI in 2011 on the grounds that it was no longer health-protective.
 
 **Regulatory Trigger Level (RTL).** Any concentration or condition that would make the product noncompliant with applicable laws or regulatory action thresholds in its market(s) of sale. RTL violations trigger immediate hard-stop escalation per Part 2.11.
@@ -70,7 +76,11 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **Speciation.** Determination of the specific chemical form of a metal present, which is critical for accurate risk assessment. HMTc requires speciation in defined contexts (iAs for rice; MeHg for fish; Cr(VI) when credible pathway exists). (Per Part 4 §9.)
 
+**Subcategory.** A product class within a parent product category, typically defined by a discriminating attribute such as ingredient base, processing method, or product format. In HMTc methodology, the term *subcategory* is interchangeable with *platform* — both refer to the classification units that the methodology calibrates against. See *Platform*.
+
 **Status A / B / C / D / E.** The five HMTc certification statuses. Defined in detail in Part 2.3. A = Certified (Full Compliance); B = Certified (Transitional); C = Probation; D = Suspension; E = Revocation.
+
+**Technical Committee.** The Program Operator's advisory body responsible for methodology review, metal reclassification recommendations between Tier 1 and Tier 2, and methodological input on contested certification appeals. The Technical Committee is composed of toxicology, food-safety, and analytical-chemistry experts with documented independence from individual Licensees. The Committee is convened by the Program Operator on a per-need basis and reports recommendations rather than rendering binding decisions; the Program Operator retains final authority on classification and methodology matters, subject to the Independent Appeals Committee's binding review authority on contested cases. (Per Governance Policy §2.3.)
 
 **TWI / TDI.** Tolerable Weekly Intake / Tolerable Daily Intake. Health-based guidance values expressed as an amount per kilogram body weight per week or day, considered tolerable over a lifetime for substances where a threshold is assumed or can be used for risk management.
 

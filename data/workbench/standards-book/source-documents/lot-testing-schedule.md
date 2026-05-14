@@ -221,7 +221,19 @@ All certification testing is conducted on a lot basis. For each lot tested, the 
 
 ### 10.2 Chain-of-Custody
 
-A complete chain-of-custody record is required for every sample, from the point of collection through laboratory receipt and analysis. The record must document: who collected the sample and their affiliation; when and where the sample was collected; how the sample was sealed, labeled, and transported; who received the sample at the laboratory; and confirmation of sample integrity upon receipt. Any breach in chain-of-custody may invalidate results and is treated as a data integrity issue. All personnel involved in sampling must be trained on these procedures.
+A complete chain-of-custody record is required for every sample, from the point of collection through laboratory receipt and analysis. The record must document: who collected the sample and their affiliation; when and where the sample was collected; how the sample was sealed, labeled, and transported; who received the sample at the laboratory; and confirmation of sample integrity upon receipt. All personnel involved in sampling must be trained on these procedures.
+
+**Consequences of documented chain-of-custody breach.** Any documented breach in chain-of-custody invalidates the result and is treated as a data integrity issue per the Governance Policy §8.2. Documented breaches include but are not limited to:
+
+- **Custody gap:** any period during which sample location and possession is not recorded.
+- **Broken seal:** sample arrives at the laboratory with seal damaged, missing, or showing evidence of tampering.
+- **Non-conforming labeling:** sample identifiers at any handoff do not match the chain-of-custody record.
+- **Transport non-conformance:** sample transported outside the documented protocol (e.g., refrigerated samples allowed to warm; samples transported under conditions inconsistent with the analytical method's stability requirements).
+- **Receipt discrepancy:** laboratory documents the sample as received in a state inconsistent with the chain-of-custody record (mass, volume, container condition).
+
+When a documented breach is identified, the lot's result is treated as invalid and the lot is subject to retest per a Program Operator-approved confirmatory protocol. Repeated breaches at the same Licensee or laboratory trigger data-integrity escalation per Governance Policy §8.2 and may result in Status D suspension.
+
+**Discretion for minor procedural lapses.** The Program Operator may exercise discretion on minor procedural lapses where substantive sample integrity is preserved — for example, a timestamp recorded one hour late where the actual custody record (signatures, transfers) is intact. Such discretion is documented in the case record and is not exercised when sample integrity itself is in doubt. The default disposition for any chain-of-custody ambiguity is invalidation; discretion applies only to clearly procedural rather than substantive lapses.
 
 ### 10.3 Laboratory Requirements
 

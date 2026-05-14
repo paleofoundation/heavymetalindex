@@ -17,6 +17,18 @@ The Program Operator maintains an anonymized supplier intelligence system. When 
 
 Participation in the supplier intelligence system is a condition of the license agreement. **Brands benefit from collective intelligence, creating a powerful incentive to remain in the Program and a significant informational disadvantage for those outside it.**
 
+### Anonymization limits — honest disclosure
+
+The Program Operator anonymizes alerts by removing brand identifiers. However, ingredient-category, geographic-origin, and timing metadata can correlate with a brand's publicly disclosed sourcing in ways that may identify the reporting brand to a sophisticated observer. For example, if a brand has publicly disclosed sourcing cocoa from a specific Ecuadorian region, and a supplier-intelligence alert is issued in the same quarter referencing "elevated cadmium in Ecuadorian high-altitude cocoa," correlated observers could infer the reporting brand.
+
+The Program Operator mitigates the metadata-correlation risk through three operational controls:
+
+- **Batching.** Alerts are batched so a single alert does not correspond to a single reporting brand's CAPA timeline. Multiple reporting brands' findings about the same supplier or region are combined into one alert where the protective intent is preserved.
+- **Geographic generalization.** Geographic specificity is generalized (region rather than exact origin) where the alert's protective intent is preserved by the broader framing.
+- **Discretionary hold.** Alerts may be held for a discretionary delay period when the reporting brand requests it, allowing the reporting brand's quarterly disclosures to settle before the alert publishes.
+
+Brands relying on anonymization for confidentiality should treat anonymization as **strong but not absolute**, and should consider the metadata-correlation risk in their participation decision. The Program Operator's commitment is to apply the mitigations above as a matter of operational discipline; the Program Operator does not warrant that a sophisticated observer with full access to a brand's public sourcing disclosures could not infer the reporting brand from a specific alert.
+
 ## Why anonymization is a design feature
 
 A reader might ask: doesn't anonymization let problem suppliers escape accountability?
