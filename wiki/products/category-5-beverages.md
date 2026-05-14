@@ -18,21 +18,21 @@ This page is the wiki hub for the locked Category 5 Step 0 beverage row architec
 | # | Subcategory | Split From | Variant Type |
 | --- | --- | --- | --- |
 | 1 | [[products/fruit-juices-non-apple|Fruit juices, non-apple]] | fruit-juices | clean benchmark |
-| 2 | [[products/fruit-juices-apple-containing|Fruit juices, apple-containing]] | fruit-juices | contamination platform |
+| 2 | [[products/fruit-juices-apple-containing|Fruit juices, apple-containing]] | fruit-juices | higher-contamination row |
 | 3 | [[products/vegetable-juices-non-root|Vegetable juices, non-root]] | vegetable-juices | clean benchmark |
-| 4 | [[products/vegetable-juices-root-vegetable-containing|Vegetable juices, root-vegetable-containing]] | vegetable-juices | contamination platform |
+| 4 | [[products/vegetable-juices-root-vegetable-containing|Vegetable juices, root-vegetable-containing]] | vegetable-juices | higher-contamination row |
 | 5 | [[products/plant-milks-non-soy-non-rice|Plant milks (almond, oat, coconut, other non-soy/non-rice)]] | plant-milks | clean benchmark |
-| 6 | [[products/plant-milks-soy-based|Plant milks, soy-based]] | plant-milks | contamination platform |
+| 6 | [[products/plant-milks-soy-based|Plant milks, soy-based]] | plant-milks | higher-contamination row |
 | 7 | [[products/plant-milks-rice-based\|Plant milks, rice-based — RETIRED]] | plant-milks | retired → Category 3 row 10 (Rice beverages); Amendment 1, 2026-04-28 |
 | 8 | [[products/flavored-waters|Flavored waters]] | flavored-waters | independent no split |
 | 9 | [[products/sports-energy-drinks|Sports/energy drinks]] | sports-energy-drinks | independent no split |
 | 10 | [[products/herbal-botanical-infusions|Herbal/botanical infusions]] | tea-taxonomy | clean benchmark |
-| 11 | [[products/true-tea-camellia-sinensis|True tea (Camellia sinensis)]] | tea-taxonomy | contamination platform |
+| 11 | [[products/true-tea-camellia-sinensis|True tea (Camellia sinensis)]] | tea-taxonomy | higher-contamination row |
 | 12 | [[products/matcha|Matcha (whole-leaf Camellia sinensis)]] | tea-taxonomy | distinct exposure pathway |
 | 13 | [[products/coffee|Coffee (ground, brewed, instant, single-serve)]] | coffee | independent no split |
 | 14 | [[products/soft-drinks-carbonated-beverages|Soft drinks/carbonated beverages]] | soft-drinks-carbonated-beverages | independent no split |
 | 15 | [[products/fermented-beverages-non-tea-based|Fermented beverages, non-tea-based]] | kombucha-and-fermented-beverages | clean benchmark |
-| 16 | [[products/kombucha-tea-based|Kombucha (tea-based fermented beverage)]] | kombucha-and-fermented-beverages | contamination platform |
+| 16 | [[products/kombucha-tea-based|Kombucha (tea-based fermented beverage)]] | kombucha-and-fermented-beverages | higher-contamination row |
 
 ## Platform Links
 

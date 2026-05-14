@@ -12,7 +12,7 @@ review_state: published
 evidence_register: data/evidence/category1_register.csv
 label: "Infant formula, powder (soy-based)"
 base_taxonomy: infant-formula-powder
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [Al, Ni, Cd]
 provenance: split_from_base
 ingredient_targets: [infant-formula-powder, soy-protein-isolate, vitamin-mineral-premix]
@@ -215,7 +215,7 @@ Soy-specific formula evidence is thinner than broad formula evidence, but the UK
 
 ## Row Relationship
 
-This row is the contamination-platform counterpart to [[products/infant-formula-powder-non-soy]] for the row architecture relationship covering [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]].
+This row is the sibling row in the same category to [[products/infant-formula-powder-non-soy]] for the row architecture relationship covering [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]].
 
 ## Why This Category Is High-Risk
 
@@ -340,4 +340,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 30 | [[sources/kazi2009-toxic-elements-in-infant-formulae\|Kazi et al. 2009]]. *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*, Food and Chemical Toxicology | 2009 | Peer-reviewed | Pakistan soy-based infant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) |
 | 31 | [[sources/dabeka1987-canada-infant-formula-lead-cadmium\|Dabeka et al. 1987]]. *Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada*, Journal of Association of Official Analytical Chemists 70(4):754-757 | 1987 | Study | Historical Canadian milk-free or soy-base infant formula Cd distribution (n=15: mean 13.3, median 12.0, range 1.1–35 ppb) |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

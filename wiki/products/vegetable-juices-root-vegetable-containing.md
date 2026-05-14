@@ -5,7 +5,7 @@ hmtc_category: 5
 hmtc_row: 4
 label: "Vegetable juices, root-vegetable-containing"
 base_taxonomy: vegetable-juices
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 provenance: category_5_step_0_locked
 ingredient_targets: [vegetables, carrots, potatoes]
 primary_metals_of_concern: [Pb, Cd]
@@ -13,7 +13,7 @@ vulnerable_population: general_population
 applicable_regulations: [fda2022_draft_pb_other_juice_20]
 evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
-review_state: phase3_part19
+review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 0

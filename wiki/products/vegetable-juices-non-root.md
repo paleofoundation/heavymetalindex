@@ -13,7 +13,7 @@ vulnerable_population: general_population
 applicable_regulations: [fda2022_draft_pb_other_juice_20]
 evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
-review_state: phase3_part19
+review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 0

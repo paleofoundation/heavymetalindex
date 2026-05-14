@@ -5,15 +5,15 @@ hmtc_category: 5
 hmtc_row: 2
 label: "Fruit juices, apple-containing"
 base_taxonomy: fruit-juices
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 provenance: category_5_step_0_locked
 ingredient_targets: [fruit-juice, apple]
 primary_metals_of_concern: [iAs, Pb]
 vulnerable_population: general_population
 applicable_regulations: [fda2023_ias_apple_juice_10, fda2022_draft_pb_apple_juice_10]
 evidence_fitness: EF-3
-public_evidence_label: At readiness bar (iAs); approaching (Pb)
-review_state: phase3_part19
+public_evidence_label: Modeled or limited evidence
+review_state: phase3
 hmtc_threshold_status: at_bar_iAs_dirty_p30
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
@@ -49,7 +49,7 @@ This page is HMTc Category 5 row 2 from the locked beverage architecture. It exi
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, CC eligibility) lives on the staff workbench snapshot at <a href="/workbench/standards/fruit-juices-apple-containing">/workbench/standards/fruit-juices-apple-containing</a>, not on this public page.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, candidate-cell status) lives on the staff workbench snapshot at <a href="/workbench/standards/fruit-juices-apple-containing">/workbench/standards/fruit-juices-apple-containing</a>, not on this public page.</dd>
     </div>
   </dl>
 </div>
@@ -83,7 +83,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 | Category hub | [[products/category-5-beverages]] |
 | Cat 5 master | [[products/category-5-beverages-master]] |
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
-| HMTc use | iAs cell publishable as Path A under Part 19 dirty p30 = 3.0 ppb (n=94 from FDA 2011 single-strength apple juice). Other cells routing or evidence-tracking only. |
+| HMTc use | iAs cell publishable as literature evidence Part 19 dirty p30 = 3.0 ppb (n=94 from FDA 2011 single-strength apple juice). Other cells routing or evidence-tracking only. |
 
 ## Source Evidence Inventory
 

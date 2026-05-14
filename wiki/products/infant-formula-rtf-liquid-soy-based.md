@@ -12,7 +12,7 @@ review_state: published
 evidence_register: data/evidence/category1_register.csv
 label: "Infant formula, RTF liquid (soy-based)"
 base_taxonomy: infant-formula-rtf-liquid
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [Al, Ni, Cd]
 provenance: split_from_base
 ingredient_targets: [infant-formula-rtf-liquid, soy-protein-isolate, vitamin-mineral-premix]
@@ -188,7 +188,7 @@ The Canadian formula paper adds ready-to-use soy-based source-scope summary rows
 
 ## Row Relationship
 
-This row is the contamination-platform counterpart to [[products/infant-formula-rtf-liquid-non-soy]] for the row architecture relationship covering [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]].
+This row is the sibling row in the same category to [[products/infant-formula-rtf-liquid-non-soy]] for the row architecture relationship covering [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]].
 
 ## Why This Category Is High-Risk
 
@@ -293,4 +293,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 17 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Panel opinion establishing the EU Cd TWI of 2.5 µg/kg body weight per week; foundational regulatory basis for Cd limits including those applied to infant formula |
 | 18 | [[sources/dabeka1987-canada-infant-formula-lead-cadmium\|Dabeka et al. 1987]]. *Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada*, Journal of Association of Official Analytical Chemists 70(4):754-757 | 1987 | Study | Historical baseline Pb and Cd survey in Canadian infant formula by format and protein source; Cd evidence across soy-based formula subcategories; reflects lead-soldered-can era concentrations |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

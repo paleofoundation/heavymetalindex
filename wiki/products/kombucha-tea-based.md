@@ -5,7 +5,7 @@ hmtc_category: 5
 hmtc_row: 16
 label: "Kombucha (tea-based)"
 base_taxonomy: kombucha-and-fermented-beverages
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 provenance: category_5_step_0_locked
 ingredient_targets: []
 primary_metals_of_concern: [Al, Pb, Cd]
@@ -13,7 +13,7 @@ vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
-review_state: phase3_part19
+review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 0

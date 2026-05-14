@@ -312,4 +312,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 23 | [[sources/dabeka1987-canada-infant-formula-lead-cadmium\|Dabeka et al. 1987]]. *Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada*, Journal of Association of Official Analytical Chemists 70(4):754-757 | 1987 | Study | Historical baseline Pb and Cd survey in Canadian infant formula by format (ready-to-use, concentrated liquid, powder) and protein source; primarily Cd evidence across formula subcategories; reflects lead-soldered-can era concentrations |
 | 24 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | Historical baseline AAS survey (Cd, Cr, Co, Pb, Mn, Ni) in Canadian prepared and powdered formula (1975 market); documents 50-year Pb-reduction trajectory from lead-soldered-can era; not a modern-percentile source |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

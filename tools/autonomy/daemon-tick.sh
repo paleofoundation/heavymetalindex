@@ -109,6 +109,13 @@ fi
 # Step 4: pooling engine refresh
 run_step "pooling engine" node tools/evidence/build-hmtc-aggregate-distributions.mjs || true
 
+# Step 4b: firewall lint — fails the tick log if any wiki/HMTc firewall
+# violation appears on a public page. Does not block the rest of the tick
+# (we want briefings to regenerate even if a stray violation appears), but
+# the failure surfaces in the daemon log and the per-day report so it gets
+# fixed before it accumulates.
+run_step "firewall lint" node tools/autonomy/firewall-lint.mjs || log "WARN: firewall lint reported ERROR violations; see data/evidence/autonomy/firewall-lint-*.md"
+
 # Step 5: gap-driven wishlist (queries for thin cells)
 run_step "gap-driven wishlist" node tools/autonomy/gap-driven-wishlist.mjs || true
 

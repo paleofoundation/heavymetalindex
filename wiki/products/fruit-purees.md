@@ -308,4 +308,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 15 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK FSA category-level mean concentrations for 16 metals (including Al, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market |
 | 16 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | Historical 1975 Canadian national AAS survey (n=330 samples) of Cd, Cr, Co, Pb, Ni across 11 baby-food categories including strained fruits/desserts; documents the 50-year Pb reduction trajectory as a baseline reference (not a modern-percentile-math source) |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

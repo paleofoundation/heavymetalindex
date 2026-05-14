@@ -133,7 +133,7 @@ _Pending. Upstream cocoa-sourcing decisions are the meaningful mitigation lever 
 | Dark chocolate | 0.27 ± 0.25 | 0.03 ± 0.02 |
 | Milk chocolate | 0.06 ± 0.07 | 0.01 ± 0.01 |
 
-The four-fold higher Cd in dark chocolate versus milk chocolate reflects the higher percent cocoa content in dark chocolate; Cd and Pb were both significantly correlated with percent cocoa across the dataset. These values count as one Path A primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
+The four-fold higher Cd in dark chocolate versus milk chocolate reflects the higher percent cocoa content in dark chocolate; Cd and Pb were both significantly correlated with percent cocoa across the dataset. These values count as one literature evidence primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
 
 ## Lead in chocolate
 
@@ -182,4 +182,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd in chocolate tiered by cocoa-solid percentage (0.3 to 0.9 mg/kg) and for Cd in cocoa powder at 2.0 mg/kg, the international benchmark for finished chocolate regulation |
 | 11 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni concentration data reporting dark (bitter) chocolate at 1.9 µg/g and milk chocolate at 0.7 µg/g, the primary Ni occurrence reference underpinning the chocolate Ni section |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
 

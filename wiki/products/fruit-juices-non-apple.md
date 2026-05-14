@@ -12,8 +12,8 @@ primary_metals_of_concern: [Pb, iAs]
 vulnerable_population: general_population
 applicable_regulations: [fda2022_draft_pb_other_juice_20, fda2004_juice_haccp_pb_50]
 evidence_fitness: EF-3
-public_evidence_label: Path A thin (iAs grape-category bridge); approaching (Pb)
-review_state: phase3_part19
+public_evidence_label: Modeled or limited evidence
+review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 5

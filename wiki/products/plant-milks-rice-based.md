@@ -5,7 +5,7 @@ hmtc_category: 5
 hmtc_row: 7
 label: "Plant milks, rice-based"
 base_taxonomy: plant-milks
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [iAs, Cd, Pb]
 provenance: category_5_step_0_locked
 ingredient_targets: [plant-milk, rice]
@@ -13,7 +13,7 @@ primary_metals_of_concern: [iAs, Cd, Pb]
 vulnerable_population: general_population
 applicable_regulations: [eu2023_ias_rice_drinks_30]
 evidence_fitness: EF-3
-public_evidence_label: Approaching the bar (iAs summary-level)
+public_evidence_label: Modeled or limited evidence
 review_state: retired
 retired: true
 retirement_date: 2026-04-28
@@ -30,7 +30,7 @@ sources: 4
 
 > **This subcategory has been re-routed to Category 3, currently in build. The standards page will be available when Category 3 is finalized.**
 >
-> HMTc Category 5 row 7 was retired under [Category 5 Step 0 Amendment 1](Category5_Step_0_Amendment_1) (April 28, 2026), authority Step Zero Protocol v1.4 §0G operation 2. Rice-based plant milks (rice milk) are certified under Category 3 (Grains, Cereals, and Rice Products), row 10 (Rice beverages), so that the rice contamination platform is handled coherently within one category. This URL is preserved permanently and will resolve to the Category 3 row 10 standards page once Category 3 is locked.
+> HMTc Category 5 row 7 was retired under [Category 5 Step 0 Amendment 1](Category5_Step_0_Amendment_1) (April 28, 2026), authority Step Zero Protocol v1.4 §0G operation 2. Rice-based plant milks (rice milk) are certified under Category 3 (Grains, Cereals, and Rice Products), row 10 (Rice beverages), so that the rice higher-contamination row is handled coherently within one category. This URL is preserved permanently and will resolve to the Category 3 row 10 standards page once Category 3 is locked.
 >
 > The literature evidence below is retained for historical reference and will be re-routed to the Category 3 row 10 page when that page is built. No HMTc standards values are published from this page.
 
@@ -186,7 +186,7 @@ The levers below are ordered by estimated impact magnitude for finished rice-bas
 
 ## How standards math uses this page
 
-HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, CC eligibility verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-rice-based`.
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, candidate-cell verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-rice-based`.
 
 When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
 

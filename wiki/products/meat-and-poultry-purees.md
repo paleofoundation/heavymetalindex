@@ -265,4 +265,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK survey providing category-average tAs (15 ppb), iAs (2-4 ppb), Cd (9 ppb), Pb (4-5 ppb), and Ni (43-72 ppb) for UK meat and fish based infant foods; meat and fish combined, not poultry-specific |
 | 11 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | 1980 Canadian national baseline measuring nine metals in strained and junior meats by AAS (LOD 10 ppb); used as historical context for the decades-long reduction in meat-puree metal concentrations, not as a modern occurrence source |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

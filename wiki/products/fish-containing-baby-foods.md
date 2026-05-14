@@ -12,7 +12,7 @@ review_state: published
 evidence_register: data/evidence/category1_register.csv
 label: "Fish-containing baby foods"
 base_taxonomy: fish-containing-baby-foods
-variant_type: contamination_platform_added_step_0c
+variant_type: higher-contamination-sibling
 platform_metals: [MeHg]
 provenance: added_step_0c_contamination_platform
 ingredient_targets: [fish-containing-baby-foods, fish, seafood]
@@ -46,7 +46,7 @@ cc_relationship:
       - fruit-juice-not-canned
       - teething-and-snacks-non-rice
       - teething-and-snacks-rice-based
-    rationale: "Non-fish baby foods constitute the clean reference distribution for MeHg in Category 1; fish-containing baby foods diverge from this distribution because of bioaccumulation, which is the contamination platform being characterized."
+    rationale: "Non-fish baby foods constitute the lower-end reference distribution for MeHg in Category 1; fish-containing baby foods diverge from this distribution because of bioaccumulation, which is the higher-contamination row characterized by this page."
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 4
@@ -290,4 +290,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | French infant and toddler TDS reporting category-level mean concentrations for Al, Sb, tAs, Cd, Cr, Ni, Sn, and V in meat/fish-based ready-to-eat meals; fish-category context for multi-metal occurrence in complementary feeding |
 | 7 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK FSA survey reporting multi-metal category-level means in meat/fish-containing savoury infant foods; provides UK 2013–2014 multi-metal occurrence context including Al, tAs, iAs, Cd, Pb, Ni, and Sn for fish-based baby-food categories |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

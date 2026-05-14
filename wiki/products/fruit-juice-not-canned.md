@@ -279,4 +279,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 12 | [[sources/fda2004-juice-haccp-lead\|FDA 2004]]. *Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice*, FDA Guidance for Industry | 2004 | Government guidance | FDA Juice HACCP guidance recommending lead controls at 50 ppb for ready-to-drink fruit juices; loaded as legacy regulatory context that the 2022 draft guidance would replace if finalized |
 | 13 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | 1971 animal and human Sn-toxicity study motivated by a Kuwait food poisoning outbreak, establishing vomiting thresholds for dissolved tin in canned juices and documenting the local-irritation mechanism; relevant to the tin-in-canned-juice risk framing but not to not-canned product occurrence |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

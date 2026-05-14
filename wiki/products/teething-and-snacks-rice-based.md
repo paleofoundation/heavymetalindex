@@ -12,7 +12,7 @@ review_state: published
 evidence_register: data/evidence/category1_register.csv
 label: "Teething & snacks (rice-based)"
 base_taxonomy: teething-and-snacks
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [iAs, Cd, Pb]
 provenance: split_from_base
 ingredient_targets: [teething-and-snacks, rice, rice-flour, rice-puffs]
@@ -136,7 +136,7 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 | Current FDA | Not established | No snack-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes snack foods; infant rice cereal lead/iAs values do not automatically apply to snacks |
 | EU 2023/915 | 20 ppb | processed cereal-based food as placed on market | EU maximum level if classified as processed cereal-based infant/young-child food. |
 | Prop 65 MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething/snack dry grain product RACC of 7 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
-| HMTc standards use | ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use rice as a contamination-platform flag, but do not silently attach infant-rice-cereal regulatory values to rice snacks. |
+| HMTc standards use | ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use rice as a higher-contamination row flag, but do not silently attach infant-rice-cereal regulatory values to rice snacks. |
 
 Rice-based snacks remain a priority because rice can drive arsenic and cadmium even where the FDA lead action level is not established.
 
@@ -189,7 +189,7 @@ Rice-based snack evidence combines broad snack data with rice-product arsenic ev
 
 ## Row Relationship
 
-This row is the contamination-platform counterpart to [[products/teething-and-snacks-non-rice]] for the row architecture relationship covering [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
+This row is the sibling row in the same category to [[products/teething-and-snacks-non-rice]] for the row architecture relationship covering [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 
 ## Why This Category Is High-Risk
 
@@ -279,4 +279,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) for sweet and savoury snacks; rice status not isolated within this broad snack category |
 | 11 | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants\|Signes-Pastor et al. 2016]]. *Inorganic arsenic in rice-based products for infants and young children*, Food Chemistry | 2016 | Peer-reviewed | Primary iAs occurrence paper for rice crackers marketed to infants and young children, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18-211 ppb) on a dry-weight basis |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

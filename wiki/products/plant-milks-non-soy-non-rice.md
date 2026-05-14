@@ -12,8 +12,8 @@ primary_metals_of_concern: [Al, Ni, Cd, iAs, Pb]
 vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-3
-public_evidence_label: Path A thin (Pb, tHg, Ni single-source)
-review_state: phase3_part19
+public_evidence_label: Modeled or limited evidence
+review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 1
@@ -163,7 +163,7 @@ The levers below are ordered by estimated impact magnitude for finished non-soy/
 
 ## How standards math uses this page
 
-HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, CC eligibility verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-non-soy-non-rice`.
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, candidate-cell verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-non-soy-non-rice`.
 
 When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
 

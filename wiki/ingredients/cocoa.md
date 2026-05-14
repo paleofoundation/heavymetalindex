@@ -165,7 +165,7 @@ Not applicable to cocoa Cd or Pb at meaningful magnitude. Cocoa is not canned in
 | Cocoa powder | 0.70 ± 0.83 | 0.11 ± 0.10 |
 | Cocoa nibs | 0.62 ± 0.38 | 0.003 ± 0.004 |
 
-Cd range across all 144 cocoa-and-chocolate samples: 0.004 to 3.15 mg/kg. Pb range: <LOD to 0.38 mg/kg. The 26 cocoa-powder samples with 100 percent cocoa content had a mean Cd of 0.99 ± 0.87 mg/kg. Cd was significantly higher in Latin American product than in African product. These values count as one Path A primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
+Cd range across all 144 cocoa-and-chocolate samples: 0.004 to 3.15 mg/kg. Pb range: <LOD to 0.38 mg/kg. The 26 cocoa-powder samples with 100 percent cocoa content had a mean Cd of 0.99 ± 0.87 mg/kg. Cd was significantly higher in Latin American product than in African product. These values count as one literature evidence primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
 
 ## Lead in cocoa
 
@@ -235,4 +235,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 31 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex General Standard — sets matrix-specific Cd MLs cited in the regulatory limits section, including 2.0 mg/kg for 100% cocoa powder and graduated limits by cocoa-solid percentage for chocolate |
 | 32 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni content dataset (2,221 samples) reporting cocoa mean Ni at 9.8 µg/g (range 8.2–12.0 µg/g), the highest of any food matrix — primary source for the Nickel in cocoa section |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
 

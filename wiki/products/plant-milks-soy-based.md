@@ -5,7 +5,7 @@ hmtc_category: 5
 hmtc_row: 6
 label: "Plant milks, soy-based"
 base_taxonomy: plant-milks
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [Al, Ni, Cd]
 provenance: category_5_step_0_locked
 ingredient_targets: [plant-milk, soy]
@@ -13,8 +13,8 @@ primary_metals_of_concern: [Al, Ni, Cd]
 vulnerable_population: general_population
 applicable_regulations: []
 evidence_fitness: EF-3
-public_evidence_label: Approaching the bar (Al, Ni, Pb)
-review_state: phase3_part19
+public_evidence_label: Modeled or limited evidence
+review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 sources: 2
@@ -147,15 +147,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | Analyte | Distribution sources (sample-level) | Summary sources | Total source count |
 | --- | --- | --- | --- |
 | Pb | — | Milani 2023 (group means; mostly <LOQ), Marques 2021 (n=42 plant-drinks) | 2 summary |
-| Cd | — | Milani 2023 (all <LOQ; Path B candidate at 5×LOQ=19 ppb) | 1 summary (Path B) |
-| tAs | — | Milani 2023 (all <LOQ; Path B candidate at 5×LOQ=191 ppb; high ICP-OES LOQ) | 1 summary (Path B) |
+| Cd | — | Milani 2023 (all <LOQ; below-LOQ candidate at 5×LOQ=19 ppb) | 1 summary (below-LOQ) |
+| tAs | — | Milani 2023 (all <LOQ; below-LOQ candidate at 5×LOQ=191 ppb; high ICP-OES LOQ) | 1 summary (below-LOQ) |
 | iAs | — | — | 0 (Milani measured tAs only) |
 | MeHg | — | — | 0 |
 | tHg | — | Marques 2021 (not detected) | 1 summary |
-| **Al** | — | **Milani 2023 (group means 176-758 ppb; range 45-1822 ppb)** | 1 summary (Path A thin; closing requires 2nd Al source) |
+| **Al** | — | **Milani 2023 (group means 176-758 ppb; range 45-1822 ppb)** | 1 summary (single-source coverage; closing requires 2nd Al source) |
 | Ni | — | Milani 2023 (soybean group mean 29 ppb), Marques 2021 | 2 summary |
 | Cr-VI | — | inference-cascade only (Hernandez/Saraiva chemistry; milk-like matrix) | 1 cascade |
-| Sn | — | Milani 2023 (isolate-protein group mean 4.3 ppb at LOD-zero; max 26 ppb; Path B candidate at 5×LOQ=90 ppb) | 1 summary (Path B) |
+| Sn | — | Milani 2023 (isolate-protein group mean 4.3 ppb at LOD-zero; max 26 ppb; below-LOQ candidate at 5×LOQ=90 ppb) | 1 summary (below-LOQ) |
 
 ## Levers to reduce contamination
 
@@ -173,7 +173,7 @@ The levers below are ordered by estimated impact magnitude for finished soy-base
 
 ## How standards math uses this page
 
-HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, CC eligibility verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-soy-based`.
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, candidate-cell verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-soy-based`.
 
 When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
 

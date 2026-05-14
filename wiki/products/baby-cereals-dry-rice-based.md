@@ -12,7 +12,7 @@ review_state: published
 evidence_register: data/evidence/category1_register.csv
 label: "Baby cereals / grain products, dry (rice-based)"
 base_taxonomy: baby-cereals-dry
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [iAs, Cd, Pb]
 provenance: split_from_base
 ingredient_targets: [baby-cereals-dry, rice-flour, rice-cereal, vitamin-mineral-premix]
@@ -208,7 +208,7 @@ Chekri 2019 reports a French cereal-based infant-food category with N=17. The ta
 
 ## Row Relationship
 
-This row is the contamination-platform counterpart to [[products/baby-cereals-dry-non-rice]] for the row architecture relationship covering [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
+This row is the sibling row in the same category to [[products/baby-cereals-dry-non-rice]] for the row architecture relationship covering [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 
 ## Why This Category Is High-Risk
 
@@ -337,4 +337,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 40 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|Jackson et al. 2012]]. *Arsenic concentration and speciation in infant formulas and first foods*, Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 | 2012 | Peer-reviewed | Dartmouth group iAs speciation by HPLC-ICP-MS in US infant formulas and first foods; rice-containing formulas substantially higher iAs than dairy-based; As(V) dominant inorganic species; foundational speciation reference for infant-food As |
 | 41 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | Historical baseline: Cd, Cr, Pb, Ni, Co in 330 Canadian baby-food samples (1975 market) by AAS; LOD 10 ppb precludes modern percentile math; principal value is documenting the ~75× Pb reduction trajectory from 1980 (30 ppb mean prepared formula) to present |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

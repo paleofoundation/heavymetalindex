@@ -12,7 +12,7 @@ review_state: published
 evidence_register: data/evidence/category1_register.csv
 label: "Root-vegetable purees"
 base_taxonomy: vegetable-purees
-variant_type: contamination_platform_cross_row
+variant_type: higher-contamination-sibling
 platform_metals: [Cd, Pb]
 provenance: base_taxonomy
 ingredient_targets: [root-vegetable-purees, carrot, sweet-potato, beet]
@@ -201,7 +201,7 @@ Chekri 2019 reports French soups/purees and vegetable-based ready-to-eat infant 
 
 ## Row Relationship
 
-This row is the contamination-platform counterpart to [[products/non-root-vegetable-purees]] for the cross-row architecture relationship covering [[metals/cadmium|Cd]] and [[metals/lead|Pb]].
+This row is the sibling row in the same category to [[products/non-root-vegetable-purees]] for the cross-row architecture relationship covering [[metals/cadmium|Cd]] and [[metals/lead|Pb]].
 
 ## Why This Category Is High-Risk
 
@@ -296,4 +296,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 12 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK survey providing category-average Cd (21 ppb potatoes) and Pb (0-1 ppb potatoes) for UK infant-diet vegetable ingredients, plus mixed-vegetable group averages, as European occurrence context |
 | 13 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | 1980 Canadian national baseline measuring Cd, Cr, Co, Cu, Fe, Pb, Mn, Ni, and Zn in 330 baby-food samples including strained and junior vegetables by AAS; LOD 10 ppb makes values a historical ceiling rather than a modern distribution source |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 

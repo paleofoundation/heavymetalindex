@@ -12,7 +12,7 @@ review_state: published
 evidence_register: data/evidence/category1_register.csv
 label: "Mixed meals, rice-containing"
 base_taxonomy: mixed-meals
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [iAs, Cd, Pb]
 provenance: split_from_base
 ingredient_targets: [mixed-meals, rice, rice-flour, vegetables, meat]
@@ -198,7 +198,7 @@ Chekri 2019 reports French vegetable-based and meat/fish-based ready-to-eat infa
 
 ## Row Relationship
 
-This row is the contamination-platform counterpart to [[products/mixed-meals-non-rice]] for the row architecture relationship covering [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
+This row is the sibling row in the same category to [[products/mixed-meals-non-rice]] for the row architecture relationship covering [[metals/arsenic-inorganic|iAs]], [[metals/cadmium|Cd]], and [[metals/lead|Pb]].
 
 ## Why This Category Is High-Risk
 
@@ -277,7 +277,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|Collado-Lopez et al. 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Nutrition Reviews | 2025 | Peer-reviewed | Global scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exceeding the Pb maximum; provides broad rice-category monitoring context for rice-containing mixed meals |
 | 2 | [[sources/fda2024-lead-baby-food-fy2023-guidance-basis\|FDA 2024]]. *Analytical Results for Lead in Processed Food Intended for Babies and Young Children (FY2023)*, FDA analytical results table | 2024 | Government dataset | 386-sample FY2023 FDA Pb survey including mixed-ingredient baby food rows, the most recent analytical dataset supporting the 2025 final guidance 10 ppb action level for mixtures |
 | 3 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\|FDA 2024]]. *Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)*, FDA analytical results table | 2024 | Government dataset | FY2009-FY2024 FDA compliance program providing tAs, Cd, Pb, and tHg distributions for the rice-named mixture subset (N=9, source-scope context only) and the broad mixture pool; rice-containing status not fully isolated |
-| 4 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition 9:919913 | 2022 | Peer-reviewed | US narrative review identifying rice as a priority contamination platform and summarizing the policy context for mixed infant foods containing rice, supporting the rationale for this category's arsenic concern |
+| 4 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition 9:919913 | 2022 | Peer-reviewed | US narrative review identifying rice as a priority higher-contamination row and summarizing the policy context for mixed infant foods containing rice, supporting the rationale for this category's arsenic concern |
 | 5 | [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\|Parker et al. 2022]]. *Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods*, Toxicology Reports | 2022 | Peer-reviewed | US baby-food occurrence study covering grain-category baby foods; used as broad product-context for grain-containing mixed meals given that Parker's grain group is not further split by rice-containing status |
 | 6 | [[sources/fda2021-lead-baby-food-fy2020-fy2021\|FDA 2021]]. *Analytical Results for Lead in Food Intended for Babies and Young Children (FY2020-FY2021)*, FDA analytical results table | 2021 | Government dataset | 416-sample FY2020-FY2021 FDA Pb survey including mixed-ingredient baby food rows, contributing to the multi-year evidence base behind the 2025 final guidance for mixed-food categories |
 | 7 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | French TDS reporting multi-element concentrations in vegetable-based and meat/fish-based ready-to-eat infant meals, with several high-arsenic examples noted as rice-containing; rice vs non-rice not split in Table 5, so used as broad mixed-meal context |
@@ -286,4 +286,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) for UK other savoury infant foods and dishes without meat; rice-containing status not isolated, used as European mixed-meal context |
 | 11 | [[sources/sipahi2014-toxic-metals-infant-formulas-turkey\|Sipahi et al. 2014]]. *Safety assessment of essential and toxic metals in infant formulas*, The Turkish Journal of Pediatrics 56(4):385-391 | 2014 | Peer-reviewed | Turkish market Pb, Cd, Al, Mn, Cr, and Co in 63 infant foods including 12 mixed products (cereals + milk + fruit + vegetables) by GFAAS; provides European mixed-meal metals context though rice-containing status is not reported per sample |
 <!-- END: hmi-source-legend -->
+## Historical recalls and enforcement
+
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
 
