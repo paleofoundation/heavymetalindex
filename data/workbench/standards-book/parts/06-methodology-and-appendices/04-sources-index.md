@@ -8,7 +8,7 @@ This index consolidates the citations referenced across the Program Manual. Each
 - **EFSA CONTAM Panel.** Scientific Opinion on Arsenic in Food. *EFSA Journal* 2009;7(10):1351. doi:10.2903/j.efsa.2009.1351.
 - **EFSA CONTAM Panel.** Update of the Risk Assessment of Inorganic Arsenic in Food. *EFSA Journal* 2024;22(1):8488. doi:10.2903/j.efsa.2024.8488.
 - **EFSA.** EFSA Sets Lower Tolerable Intake Level for Cadmium in Food. News Release, March 2009 (TWI 2.5 µg/kg bw/week).
-- **EFSA.** Mercury in Food — EFSA Updates Advice on Risks for Public Health. Press Release, December 2012 (MeHg TWI 1.3 µg/kg bw/week; inorganic Hg TWI 4 µg/kg bw/week).
+- **EFSA.** Mercury in Food, EFSA Updates Advice on Risks for Public Health. Press Release, December 2012 (MeHg TWI 1.3 µg/kg bw/week; inorganic Hg TWI 4 µg/kg bw/week).
 - **JECFA.** Evaluation of Certain Food Additives and Contaminants: Seventy-Third Report. WHO Technical Report Series No. 960, 2011 (Lead PTWI withdrawal).
 - **JECFA.** Methylmercury and Mercury Chemical Evaluation Database Entries.
 - **JECFA.** Cadmium PTMI database entry (25 µg/kg bw/month).
@@ -51,7 +51,7 @@ This index consolidates the citations referenced across the Program Manual. Each
 - **CVS.** "Tested to Be Trusted: Supplement Testing and Contaminant Requirements Statement."
 - **NSF.** NSF/ANSI 173 Product and Ingredient Certification (only American National Standard for dietary supplement testing and certification).
 - **ANAB.** Amazon Dietary Supplements Seller Requirements.
-- **ISO.** ISO/IEC 17025 — Testing and Calibration Laboratories. Overview.
+- **ISO.** ISO/IEC 17025, Testing and Calibration Laboratories. Overview.
 - **EURACHEM/CITAC.** "Use of Uncertainty Information in Compliance Assessment," 2nd ed., 2021.
 - **ILAC.** "Guidelines on Decision Rules and Statements of Conformity," ILAC-G8:09/2019.
 

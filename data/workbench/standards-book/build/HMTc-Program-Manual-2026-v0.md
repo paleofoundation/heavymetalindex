@@ -1,6 +1,6 @@
 <!--
 HMTc Program Manual, 2026 Edition — v0-pre-audit
-Generated: 2026-05-14T18:19:58.927Z
+Generated: 2026-05-14T18:57:15.602Z
 Source: data/workbench/standards-book/
 Build tool: tools/standards/build-program-manual.mjs
 -->
@@ -68,7 +68,7 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 
 **Publication date:** [pending]
 **ISBN:** [pending]
-**DOI:** [pending — to be minted via Zenodo or Crossref]
+**DOI:** [pending, to be minted via Zenodo or Crossref]
 
 **Copyright** © 2026 The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of The Paleo Foundation. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
 
@@ -89,7 +89,7 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 - Table of Contents
 - How to Read This Document
 
-## Part 1 — Why HMTc Exists
+## Part 1, Why HMTc Exists
 
 1.1 Introduction
 1.2 The Structural Problem: Why Public Exposé Testing Fails
@@ -97,7 +97,7 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 1.4 The Structural Alternative: HMTc
 1.5 How HMTc Knows What It Knows: heavymetalindex.com
 
-## Part 2 — The HMTc Program
+## Part 2, The HMTc Program
 
 2.0 Program Flow Diagram
 2.1 Purpose and Core Principles
@@ -113,14 +113,14 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 2.11 Regulatory Escalation
 2.12 Appeals, Reinstatement, and Document Control
 
-## Part 2.5 — Using heavymetalindex.com
+## Part 2.5, Using heavymetalindex.com
 
 2.5.1 The Diagnostic Tool
 2.5.2 The Remediation Playbook
 2.5.3 Percentile Placement (Roadmap)
 2.5.4 The Pre-Certification Baseline
 
-## Part 3 — The Standards
+## Part 3, The Standards
 
 3.1 Infant Formula, Powder (Non-Soy)
 3.2 Infant Formula, Powder (Soy-Based)
@@ -138,11 +138,11 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 3.14 Teething and Snacks (Rice-Based)
 3.15 Teething and Snacks (Non-Rice)
 
-## Part 4 — The Lot Testing Schedule
+## Part 4, The Lot Testing Schedule
 
 Reproduced in full from the operational companion document.
 
-## Part 5 — Methodology and Appendices
+## Part 5, Methodology and Appendices
 
 5.1 How HMTc Standards Are Set
 5.2 Program-Level Adversarial Read
@@ -223,7 +223,7 @@ Front matter is short. Part 1 sets up the reader; Part 5 should leave them with 
 
 <!-- data/workbench/standards-book/parts/01-why-hmtc-exists/01-introduction.md -->
 
-# Part 1 — Why HMTc Exists
+# Part 1, Why HMTc Exists
 
 ## 1.1 Introduction
 
@@ -249,7 +249,7 @@ The reader who finishes Part 1 should understand three things. The current enfor
 
 The detection of heavy metals in consumer food products is not a question of *if* but of *how much, how often, and in what context*. The United States Food and Drug Administration's Total Diet Study reports lead in 15% of food samples, arsenic in 43%, cadmium in 33%, and mercury in 10%. These are not anomalies attributable to negligent manufacturers; they reflect the geochemistry of agricultural soils, the hydrology of irrigation systems, and the industrial legacy of environmental contamination. Heavy metals are, in the strictest analytical sense, ubiquitous in the food supply.
 
-Against this backdrop, a pattern of consumer advocacy has emerged that this manual calls *unstructured public exposé testing*. Independent actors — typically bloggers, consumer watchdog organizations, or self-described whistleblowers — privately commission heavy metal testing of commercially available products, then publicly disclose the results in formats designed to maximize consumer alarm and media attention. The tested brands are identified by name. The results are presented without population-level context, without category benchmarking, without measurement uncertainty disclosure, and without the analytical framework necessary to distinguish a meaningful public health concern from a statistically unremarkable detection.
+Against this backdrop, a pattern of consumer advocacy has emerged that this manual calls *unstructured public exposé testing*. Independent actors, typically bloggers, consumer watchdog organizations, or self-described whistleblowers, privately commission heavy metal testing of commercially available products, then publicly disclose the results in formats designed to maximize consumer alarm and media attention. The tested brands are identified by name. The results are presented without population-level context, without category benchmarking, without measurement uncertainty disclosure, and without the analytical framework necessary to distinguish a meaningful public health concern from a statistically unremarkable detection.
 
 This practice is counterproductive. It does not reduce heavy metal contamination. It does not improve food safety. It does not protect consumers. What it does, systematically and demonstrably, is create perverse incentives that suppress the very transparency, data sharing, and collaborative remediation that are prerequisites for actually driving contamination levels down. It punishes brands that may be the cleanest in their category. It rewards opacity. And it provides litigation scaffolding that plaintiffs' attorneys can operationalize against the exact companies that are trying to do the right thing.
 
@@ -257,37 +257,37 @@ The argument that follows is structured in four parts: the anatomy of an exposé
 
 ## What is present in an exposé, and what is missing
 
-The typical unstructured exposé follows a recognizable pattern. An independent actor purchases a small number of products from retail channels, submits them to a laboratory (often an EPA-certified facility, which lends an aura of governmental authority to the results), and receives a certificate of analysis reporting detected concentrations of one or more heavy metals. The results are then published on a blog, social media platform, or advocacy website, frequently organized into categories such as "safest," "better," and "not our favorite" — language that implies a consumer-protection framework without the methodological rigor to support one.
+The typical unstructured exposé follows a recognizable pattern. An independent actor purchases a small number of products from retail channels, submits them to a laboratory (often an EPA-certified facility, which lends an aura of governmental authority to the results), and receives a certificate of analysis reporting detected concentrations of one or more heavy metals. The results are then published on a blog, social media platform, or advocacy website, frequently organized into categories such as "safest," "better," and "not our favorite", language that implies a consumer-protection framework without the methodological rigor to support one.
 
 What is present in this methodology is a *detection*. What is absent is everything required to make that detection meaningful.
 
-There is no **population-level benchmarking**. A chickpea product reporting 15 ppb lead may be the cleanest product in an entire category where the median is 40 ppb. Without population-level data — the distribution of results across all comparable products in the category — the reported number is analytically orphaned. It cannot be contextualized, and therefore it cannot inform a rational purchasing decision or a meaningful public-health assessment. The FDA's Total Diet Study and its Closer to Zero initiative are explicitly designed around population-level exposure modeling precisely because single-sample results are insufficient for risk characterization. The exposé model inverts this logic: it treats the single sample as the unit of analysis and asks the consumer to draw conclusions that the data cannot support.
+There is no **population-level benchmarking**. A chickpea product reporting 15 ppb lead may be the cleanest product in an entire category where the median is 40 ppb. Without population-level data, the distribution of results across all comparable products in the category, the reported number is analytically orphaned. It cannot be contextualized, and therefore it cannot inform a rational purchasing decision or a meaningful public-health assessment. The FDA's Total Diet Study and its Closer to Zero initiative are explicitly designed around population-level exposure modeling precisely because single-sample results are insufficient for risk characterization. The exposé model inverts this logic: it treats the single sample as the unit of analysis and asks the consumer to draw conclusions that the data cannot support.
 
 There is no **measurement uncertainty disclosure**. Analytical chemistry at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb threshold does not necessarily indicate that the true concentration exceeds the threshold; the measurement may reflect analytical noise. Accredited laboratory practice under ISO/IEC 17025 requires that measurement uncertainty be reported and incorporated into compliance decisions through formal decision rules. The exposé model treats reported values as exact, presenting 11 ppb as a definitive exceedance when it may not be one. This is not a minor methodological quibble; it is a fundamental analytical error that can make or break a brand's public reputation.
 
-There is no **temporal or seasonal context**. Heavy metal concentrations in agricultural products are not static. They vary by growing season, soil conditions, irrigation source, geographic origin, and post-harvest processing. A single lot tested at a single point in time may not represent the product's typical contamination profile. Population-level trend analysis — which requires structured, repeated testing across multiple lots and seasons — is the methodological standard for characterizing a product's heavy metal performance. A single snapshot cannot distinguish a systemic problem from a seasonal outlier, yet the exposé model treats every detection as a stable characteristic of the brand.
+There is no **temporal or seasonal context**. Heavy metal concentrations in agricultural products are not static. They vary by growing season, soil conditions, irrigation source, geographic origin, and post-harvest processing. A single lot tested at a single point in time may not represent the product's typical contamination profile. Population-level trend analysis, which requires structured, repeated testing across multiple lots and seasons, is the methodological standard for characterizing a product's heavy metal performance. A single snapshot cannot distinguish a systemic problem from a seasonal outlier, yet the exposé model treats every detection as a stable characteristic of the brand.
 
-There is no **distinction between detection and risk**. Detection is not synonymous with danger. The toxicological significance of a detected concentration depends on the serving size, consumption frequency, body weight, co-exposure pathways, and the specific metal's dose-response relationship. EFSA, JECFA, and the FDA all employ exposure-based risk-assessment frameworks that integrate these variables. The exposé model collapses this complexity into a binary: detected or not detected, safe or unsafe. This framing is not merely oversimplified — it is actively misleading, because it conflates the presence of a contaminant with the presence of a health risk.
+There is no **distinction between detection and risk**. Detection is not synonymous with danger. The toxicological significance of a detected concentration depends on the serving size, consumption frequency, body weight, co-exposure pathways, and the specific metal's dose-response relationship. EFSA, JECFA, and the FDA all employ exposure-based risk-assessment frameworks that integrate these variables. The exposé model collapses this complexity into a binary: detected or not detected, safe or unsafe. This framing is not merely oversimplified, it is actively misleading, because it conflates the presence of a contaminant with the presence of a health risk.
 
 ## The chilling effect: how public shaming suppresses transparency
 
 The compliance theory literature identifies a well-documented phenomenon: when disclosure is weaponized against the discloser, rational actors respond by reducing disclosure. This is the *chilling effect*, and it operates with particular force in the heavy metals domain because the underlying contamination is largely not within the brand's direct control.
 
-Consider the decision facing a food brand that is actively working to reduce heavy metal contamination in its products. The brand has two strategic options: invest in testing, data collection, and transparency (Option A), or minimize testing and avoid generating discoverable data (Option B). In the absence of public exposé risk, Option A dominates: better data enables better supplier management, better regulatory defense, and better consumer trust. But the introduction of exposé risk changes the payoff matrix. Under Option A, the brand generates data that can be captured, decontextualized, and published by an external actor in a format that maximizes reputational damage. Under Option B, the brand generates no data, cannot be targeted, and faces only the background regulatory risk that all brands share. The rational strategic response to public exposé risk is therefore to reduce testing, reduce data generation, and reduce transparency — precisely the opposite of what the food-safety system requires.
+Consider the decision facing a food brand that is actively working to reduce heavy metal contamination in its products. The brand has two strategic options: invest in testing, data collection, and transparency (Option A), or minimize testing and avoid generating discoverable data (Option B). In the absence of public exposé risk, Option A dominates: better data enables better supplier management, better regulatory defense, and better consumer trust. But the introduction of exposé risk changes the payoff matrix. Under Option A, the brand generates data that can be captured, decontextualized, and published by an external actor in a format that maximizes reputational damage. Under Option B, the brand generates no data, cannot be targeted, and faces only the background regulatory risk that all brands share. The rational strategic response to public exposé risk is therefore to reduce testing, reduce data generation, and reduce transparency, precisely the opposite of what the food-safety system requires.
 
 A substantial body of research across international relations, regulatory theory, and criminology examines the conditions under which naming and shaming improves or degrades compliance. The findings are consistent: shaming is most likely to backfire when the target perceives the shaming agent as an out-group actor lacking legitimate authority, when the shaming lacks proportionality to the offense, and when the target has no clear pathway to redemption. All three conditions are satisfied in the public exposé model. The shaming agent is typically a blogger or advocacy organization with no regulatory authority, no accreditation, and no formal relationship with the brand. The shaming is disproportionate because it treats the presence of a ubiquitous environmental contaminant as if it were evidence of corporate malfeasance. And there is no pathway to redemption: once results are published, the brand has no mechanism to demonstrate improvement, no graduated framework for compliance, and no way to contextualize its performance against category peers.
 
-Snyder (2020) documents that naming and shaming in international contexts frequently produces a "backlash narrative" that locks in the targeted behavior rather than correcting it. Terman's research demonstrates a "politicization paradox" in which enforcement mechanisms designed to punish violations can operate in ways that encourage, reward, and perpetuate them. Van Erp (2011) finds that regulatory disclosure influences compliance only when it connects to firms' existing motivations for maintaining a good reputation — not when it is perceived as arbitrary or punitive. The exposé model satisfies none of these conditions for productive shaming.
+Snyder (2020) documents that naming and shaming in international contexts frequently produces a "backlash narrative" that locks in the targeted behavior rather than correcting it. Terman's research demonstrates a "politicization paradox" in which enforcement mechanisms designed to punish violations can operate in ways that encourage, reward, and perpetuate them. Van Erp (2011) finds that regulatory disclosure influences compliance only when it connects to firms' existing motivations for maintaining a good reputation, not when it is perceived as arbitrary or punitive. The exposé model satisfies none of these conditions for productive shaming.
 
 ## Supply chain misattribution: shaming the wrong node
 
-A fundamental analytical error in the exposé model is the attribution of heavy metal contamination to the brand rather than to the supply chain from which the brand sources. This misattribution is not merely unfair — it is structurally incapable of driving contamination reduction because it targets the wrong node in the causal chain.
+A fundamental analytical error in the exposé model is the attribution of heavy metal contamination to the brand rather than to the supply chain from which the brand sources. This misattribution is not merely unfair, it is structurally incapable of driving contamination reduction because it targets the wrong node in the causal chain.
 
 Heavy metals in food products originate primarily from soil geochemistry, irrigation water, atmospheric deposition, and industrial contamination of agricultural land. These are supply-side factors over which the finished-product brand exercises limited direct control. A brand purchasing chickpeas from a regional commodity market is drawing from a supply pool that reflects the geochemical characteristics of the growing region, the agricultural practices of the growers, and the seasonal variation in environmental conditions. The brand can test incoming ingredients, set specifications, and reject non-conforming lots. But it cannot unilaterally remediate the soil in which the chickpeas were grown or change the hydrology of the irrigation system. **Shaming a brand for the geochemistry of its supply region is like shaming an airline for turbulence.**
 
-Multiple brands frequently source from the same supply pool. When seasonal contamination elevates heavy metal levels in a particular growing region, all brands sourcing from that region will be affected. But the exposé model tests a single brand, publishes the result, and allows consumers to infer that the named brand is uniquely contaminated. The untested brands sourcing from the same supply pool escape scrutiny entirely — not because their products are cleaner, but because they were not selected for testing. This selection bias is not a minor limitation; it is a systematic distortion that rewards the untested and punishes the tested, regardless of actual contamination levels.
+Multiple brands frequently source from the same supply pool. When seasonal contamination elevates heavy metal levels in a particular growing region, all brands sourcing from that region will be affected. But the exposé model tests a single brand, publishes the result, and allows consumers to infer that the named brand is uniquely contaminated. The untested brands sourcing from the same supply pool escape scrutiny entirely, not because their products are cleaner, but because they were not selected for testing. This selection bias is not a minor limitation; it is a systematic distortion that rewards the untested and punishes the tested, regardless of actual contamination levels.
 
-The selection dynamics are particularly damaging for small and mid-sized brands that are disproportionately likely to be investing in quality and transparency and unable to absorb the reputational and legal costs of being publicly named. A small brand with $5 million in annual revenue that has invested in ISO/IEC 17025-accredited testing, supplier qualification, and heavy metal reduction may be the cleanest brand in its category — and yet, if that brand is the one selected for exposé testing, it will bear the full reputational cost while its larger, less transparent competitors escape notice. The financial scenario modeling in Chapter 1.3 estimates one-year losses on this kind of event at $0.5M–$5M for a small brand at $5M revenue, enough to impair growth or threaten solvency.
+The selection dynamics are particularly damaging for small and mid-sized brands that are disproportionately likely to be investing in quality and transparency and unable to absorb the reputational and legal costs of being publicly named. A small brand with $5 million in annual revenue that has invested in ISO/IEC 17025-accredited testing, supplier qualification, and heavy metal reduction may be the cleanest brand in its category, and yet, if that brand is the one selected for exposé testing, it will bear the full reputational cost while its larger, less transparent competitors escape notice. The financial scenario modeling in Chapter 1.3 estimates one-year losses on this kind of event at $0.5M–$5M for a small brand at $5M revenue, enough to impair growth or threaten solvency.
 
 This creates a deeply perverse outcome: the brands most committed to quality improvement are the most vulnerable to reputational destruction by an exposé actor, while the brands least committed to quality improvement are the least vulnerable because they generate no data, participate in no programs, and attract no scrutiny.
 
@@ -297,17 +297,17 @@ Public exposé testing does not operate in a vacuum. It operates in a legal envi
 
 A Reuters report described a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least $5 million in damages and citing a published third-party testing report as the precipitating trigger. This is a prototypical pattern: a published testing report becomes the complaint's factual scaffold, and the brand is named even if it did not manufacture the product. The exposé actor may intend consumer education, but what they produce is plaintiff-ready evidence.
 
-The baby-food heavy-metal litigation consolidated in MDL No. 3101 — with approximately 345 pending claims as of late 2025 alleging neurodevelopmental injury — provides a further demonstration of how testing disclosures become legal instruments. The MDL record reflects plaintiffs' allegations that any detectable amount could cause injury, illustrating how the absence of agreed-upon safe thresholds can be operationalized into litigation narratives. Defense costs in such matters routinely exceed $2 million per major case, with discovery costs alone often exceeding $600,000.
+The baby-food heavy-metal litigation consolidated in MDL No. 3101, with approximately 345 pending claims as of late 2025 alleging neurodevelopmental injury, provides a further demonstration of how testing disclosures become legal instruments. The MDL record reflects plaintiffs' allegations that any detectable amount could cause injury, illustrating how the absence of agreed-upon safe thresholds can be operationalized into litigation narratives. Defense costs in such matters routinely exceed $2 million per major case, with discovery costs alone often exceeding $600,000.
 
-In California, Proposition 65 creates a private-enforcement regime where any private party can initiate litigation alleging exposure to a listed chemical without a government enforcement action. Published exposé results provide the factual predicate for such actions. Settlement economics in Proposition 65 cases are dominated by attorneys' fees: a $28,000 settlement may allocate $25,000 to attorneys' fees and only $3,000 to civil penalties. A brand without a documented third-party testing and certification framework becomes a repeat defendant across SKUs, lots, and flavors — with each exposé publication providing a new cause of action. The irony is acute: the exposé actor generates the evidence that enables the litigation that imposes the costs that discourage the transparency that would enable contamination reduction.
+In California, Proposition 65 creates a private-enforcement regime where any private party can initiate litigation alleging exposure to a listed chemical without a government enforcement action. Published exposé results provide the factual predicate for such actions. Settlement economics in Proposition 65 cases are dominated by attorneys' fees: a $28,000 settlement may allocate $25,000 to attorneys' fees and only $3,000 to civil penalties. A brand without a documented third-party testing and certification framework becomes a repeat defendant across SKUs, lots, and flavors, with each exposé publication providing a new cause of action. The irony is acute: the exposé actor generates the evidence that enables the litigation that imposes the costs that discourage the transparency that would enable contamination reduction.
 
 The cycle is self-reinforcing. Public exposé testing generates data. The data is published without context. The publication triggers consumer alarm and media coverage. The media coverage attracts plaintiffs' attorneys. The litigation imposes costs on the named brand. The brand learns that transparency is punished. The brand reduces transparency. Less data is generated. Less data means less ability to identify and remediate contamination. Contamination levels do not decline. The exposé actor tests again and finds contamination. The cycle repeats.
 
-**At no point in this cycle does contamination actually decrease.** The cycle is optimized for attention, alarm, and litigation — not for the structural changes in supply chain management, ingredient sourcing, and remediation technology that would actually reduce the metals in the food supply.
+**At no point in this cycle does contamination actually decrease.** The cycle is optimized for attention, alarm, and litigation, not for the structural changes in supply chain management, ingredient sourcing, and remediation technology that would actually reduce the metals in the food supply.
 
 ## What this means for the rest of this manual
 
-The structural problem is not that exposé actors are insincere. The intentions of most exposé actors are genuine. The problem is that the *mechanism* is incompatible with the *goal*. If the goal is to reduce heavy metal contamination across the food supply — not to generate clicks, not to trigger litigation, not to perform consumer advocacy in public — then the mechanism must match the goal. Pressure must be applied at the supply chain level, through frameworks that reward transparency rather than punishing it, and through systems that build on collective data rather than isolating individual brands for public shaming.
+The structural problem is not that exposé actors are insincere. The intentions of most exposé actors are genuine. The problem is that the *mechanism* is incompatible with the *goal*. If the goal is to reduce heavy metal contamination across the food supply, not to generate clicks, not to trigger litigation, not to perform consumer advocacy in public, then the mechanism must match the goal. Pressure must be applied at the supply chain level, through frameworks that reward transparency rather than punishing it, and through systems that build on collective data rather than isolating individual brands for public shaming.
 
 That alternative framework is HMTc, and it is specified in detail in Part 2 of this manual. Before that specification can be evaluated, two more chapters of context are required: Chapter 1.3 quantifies the financial cost to a brand of operating in this environment without certification, and Chapter 1.5 introduces the public evidence base that HMTc rests on. Chapter 1.4 bridges to Part 2.
 
@@ -323,17 +323,17 @@ That alternative framework is HMTc, and it is specified in detail in Part 2 of t
 
 A brand legal team or CFO reading the previous chapter understands the structural problem. The next question is operational: what does the absence of credible third-party certification cost the company in dollar terms? This chapter answers that question with scenario modeling at three revenue tiers, conservative assumptions, and an expected-loss framework that brand finance teams can use directly. The argument is drawn from the published preprint *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification*, which provides the full evidence anchors, citations, and references.
 
-The core finding: a single contamination-triggered event — recall, delisting, or major lawsuit cluster — can plausibly impose one-year losses of $1.6M–$6.6M for a small brand at $5M revenue, $8M–$33M for a mid-size brand at $50M revenue, and $57M–$187M+ for a large brand at $500M revenue. Expected-loss modeling suggests that third-party certification can break even on downside-risk avoidance alone at well under $200,000 per year for a typical mid-brand exposure profile — before considering the channel-access benefits that certification provides as a gating mechanism for retailer and marketplace approval.
+The core finding: a single contamination-triggered event, recall, delisting, or major lawsuit cluster, can plausibly impose one-year losses of $1.6M–$6.6M for a small brand at $5M revenue, $8M–$33M for a mid-size brand at $50M revenue, and $57M–$187M+ for a large brand at $500M revenue. Expected-loss modeling suggests that third-party certification can break even on downside-risk avoidance alone at well under $200,000 per year for a typical mid-brand exposure profile, before considering the channel-access benefits that certification provides as a gating mechanism for retailer and marketplace approval.
 
 ## Prevalence: why "we never test positive" is not a stable operating assumption
 
 The relevant business question is not whether heavy metals will be detected in a brand's products, but whether the brand's controls are credible, documented, and independently defensible when regulators, retailers, or plaintiffs' counsel ask. Three independent surveillance datasets establish that detection is common enough that absence-of-data is not a defensible posture.
 
-The FDA modernized Total Diet Study for FY2018–2020 analyzed 3,241 food and beverage samples across 305 foods and beverages for 21 elements. Detection frequencies for the key toxic elements: lead detected in 15% of samples (non-detect to 164 ppb), arsenic detected in 43% (non-detect to 10,900 ppb), cadmium detected in 33% (non-detect to 485 ppb), and mercury detected in 10% (non-detect to 2,890 ppb). For baby foods specifically, FDA's FY2019 sampling of 384 samples found 65% of Pb/As/Cd/Hg results were non-detect, with no significant regional or seasonal differences — detection is *common* even though exceedances are rare.
+The FDA modernized Total Diet Study for FY2018–2020 analyzed 3,241 food and beverage samples across 305 foods and beverages for 21 elements. Detection frequencies for the key toxic elements: lead detected in 15% of samples (non-detect to 164 ppb), arsenic detected in 43% (non-detect to 10,900 ppb), cadmium detected in 33% (non-detect to 485 ppb), and mercury detected in 10% (non-detect to 2,890 ppb). For baby foods specifically, FDA's FY2019 sampling of 384 samples found 65% of Pb/As/Cd/Hg results were non-detect, with no significant regional or seasonal differences, detection is *common* even though exceedances are rare.
 
 The Canadian Food Inspection Agency Children's Food Project Annual Report (2022) tested 108 infant and children's snack and cereal samples. **96% contained detectable levels of arsenic, cadmium, lead, and/or mercury.** For lead specifically, 41% were non-detect; positive samples ranged from 0.0050 to 0.196 ppm. Detection is the normal state of affairs, not the anomaly.
 
-For botanicals — a major input across foods, supplements, and functional products — a peer-reviewed synthesis analyzing 1,773 crude plant extract samples across 86 herbal types found 30.51% had at least one over-limit metal under referenced pharmacopoeial criteria, with over-limit ratios of Pb 5.75%, Cd 4.96%, As 4.17%, and Hg 3.78%. A U.S.-based study of As, Cd, and Pb in spices reported detection of these metals in more than 90% of samples, with 40.5% exceeding a New York State Pb limit.
+For botanicals, a major input across foods, supplements, and functional products, a peer-reviewed synthesis analyzing 1,773 crude plant extract samples across 86 herbal types found 30.51% had at least one over-limit metal under referenced pharmacopoeial criteria, with over-limit ratios of Pb 5.75%, Cd 4.96%, As 4.17%, and Hg 3.78%. A U.S.-based study of As, Cd, and Pb in spices reported detection of these metals in more than 90% of samples, with 40.5% exceeding a New York State Pb limit.
 
 These surveillance findings support a practical inference: detection is common, exceedances depend on product class and thresholds, and systematic control with defensible specifications is the rational posture for brands seeking to minimize adverse-event probability. "We never test positive" is not a stable operating assumption; it is an operating assumption waiting to be falsified.
 
@@ -347,7 +347,7 @@ California Assembly Bill 899 establishes a direct-cost compliance regime: manufa
 
 In the EU, Regulation (EU) 2023/915 explicitly reiterates the ALARA principle and consolidates maximum levels across contaminants. The annex includes detailed maximum levels for lead, arsenic, and mercury across numerous commodities, including infant and young child categories with inorganic arsenic maximum levels at 0.020 mg/kg for baby food and 0.10 mg/kg for infant/young child rice. Globally, the Codex Alimentarius General Standard for Contaminants and Toxins (CXS 193-1995) provides internationally recognized principles and lists maximum levels.
 
-The convergence — FDA action levels hardening, California AB 899 mandating disclosure, EU 2023/915 consolidating maximum levels with ALARA expectations — means that the regulatory floor is rising under brands' feet at the same time that litigation centralization and retailer gatekeeping are tightening from above. A brand operating without a documented, third-party-verified program is increasingly exposed at every layer simultaneously.
+The convergence, FDA action levels hardening, California AB 899 mandating disclosure, EU 2023/915 consolidating maximum levels with ALARA expectations, means that the regulatory floor is rising under brands' feet at the same time that litigation centralization and retailer gatekeeping are tightening from above. A brand operating without a documented, third-party-verified program is increasingly exposed at every layer simultaneously.
 
 ## Litigation vulnerability: economics of being an easy target
 
@@ -355,7 +355,7 @@ In heavy-metals disputes, being targeted is rarely only about the presence of me
 
 The Judicial Panel on Multidistrict Litigation centralized baby-food heavy-metal cases into MDL No. 3101 (*In re: Baby Food Products Liability Litigation*) in the Northern District of California. A subsequent district-court order referenced over 100 subsequently filed actions alleging toxic heavy metals in baby food and asserting neurodevelopmental injury theories including ASD and ADHD allegations. The MDL had grown to approximately 345 pending claims by late 2025. From a cost standpoint, MDL centralization changes the incentive landscape: common discovery, expert battles, and bellwether structures can amplify legal spend and reputational exposure even before merits are adjudicated.
 
-Reuters reported a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least $5 million in damages under state consumer protection theories. Reuters later reported Amazon's attempt to dismiss, arguing among other points that no excessive levels beyond regulatory limits were alleged. Even when ultimate liability is uncertain, this pattern imposes a predictable cost stack: rapid expert engagement, e-discovery, motion practice, and brand-risk management — costs that are typically higher when a company cannot point to recognized third-party testing and certification as part of routine operations.
+Reuters reported a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least $5 million in damages under state consumer protection theories. Reuters later reported Amazon's attempt to dismiss, arguing among other points that no excessive levels beyond regulatory limits were alleged. Even when ultimate liability is uncertain, this pattern imposes a predictable cost stack: rapid expert engagement, e-discovery, motion practice, and brand-risk management, costs that are typically higher when a company cannot point to recognized third-party testing and certification as part of routine operations.
 
 California Proposition 65 is structurally important because it can generate frequent, product-by-product disputes where attorney fees are significant relative to the underlying exposure issue. A Prop 65 settlement agreement involving a pre-workout product allocated $25,000 of a $28,000 total settlement to attorneys' fees and related costs, with only $3,000 in civil penalties [*People v. Promix Nutrition*, Prop. 65 Settlement No. 2024-02424S4488, Cal. Off. Att'y Gen.]. The micro-economics imply that if a brand lacks an HMTc-like framework, it can become a repeat defendant across SKUs, flavors, and lots, with recurring settlements and ongoing testing and warning obligations that are more expensive than a proactive certification strategy.
 
@@ -365,9 +365,9 @@ A widely cited federal-courts survey of major companies found mean outside legal
 
 A brand without credible third-party certification faces not only regulators and plaintiffs but also commercial gatekeepers. Retailers, marketplaces, and procurement teams increasingly outsource trust to recognized standards and accredited testing.
 
-CVS publicly states it requires third-party laboratory testing of all vitamins and supplements and explicitly lists heavy metals — inorganic arsenic, cadmium, chromium VI, mercury, and lead — as contaminants that cannot exceed the current NSF/ANSI 173 Standard, framing this as a consumer-facing trust commitment. For marketplace access, Amazon's dietary supplement seller documentation requirements include submission of a GMP certificate from an accredited third-party body (21 CFR 111/117) and a finished product COA issued by an ISO/IEC 17025 accredited laboratory, or evidence of enrollment in recognized third-party quality certification programs including NSF/ANSI 173 product certification and USP verification.
+CVS publicly states it requires third-party laboratory testing of all vitamins and supplements and explicitly lists heavy metals, inorganic arsenic, cadmium, chromium VI, mercury, and lead, as contaminants that cannot exceed the current NSF/ANSI 173 Standard, framing this as a consumer-facing trust commitment. For marketplace access, Amazon's dietary supplement seller documentation requirements include submission of a GMP certificate from an accredited third-party body (21 CFR 111/117) and a finished product COA issued by an ISO/IEC 17025 accredited laboratory, or evidence of enrollment in recognized third-party quality certification programs including NSF/ANSI 173 product certification and USP verification.
 
-These requirements convert lack of certification into direct commercial risk: listing suppression, delayed launches, forced reformulation, or delisting — each of which has an immediate revenue impact independent of whether a regulator has acted.
+These requirements convert lack of certification into direct commercial risk: listing suppression, delayed launches, forced reformulation, or delisting, each of which has an immediate revenue impact independent of whether a regulator has acted.
 
 ## Scenario modeling: one-year impact at three revenue tiers
 
@@ -413,7 +413,7 @@ For a brand at $5M revenue, this is sufficient to impair growth or threaten solv
 
 These scenario anchors draw on industry recall-cost magnitudes, federal-courts legal-fee benchmarks, Proposition 65 settlement structure, peer-reviewed sales-decline benchmarks, and published market-value loss evidence. The estimates exclude long-tail brand impairment, shareholder-wealth reductions for publicly traded firms (one peer-reviewed study found ~$109M reductions after severe recalls), and the cascade effects of repeat litigation across SKUs.
 
-**Note on what the expected-loss model quantifies.** The model below quantifies *risk-event* reduction (probability and severity of recalls, delistings, and litigation triggers), not safety. A brand with HMTc certification is in a better defensive posture than a brand without it; both brands operate in a contamination environment that cannot be eliminated by any program. The certification mark is an action-level compliance signal under surveillance, not a safety guarantee — see Part 2.1 §1.2 and Part 2.5 §6.2.
+**Note on what the expected-loss model quantifies.** The model below quantifies *risk-event* reduction (probability and severity of recalls, delistings, and litigation triggers), not safety. A brand with HMTc certification is in a better defensive posture than a brand without it; both brands operate in a contamination environment that cannot be eliminated by any program. The certification mark is an action-level compliance signal under surveillance, not a safety guarantee, see Part 2.1 §1.2 and Part 2.5 §6.2.
 
 ## ROI: the expected-loss framework
 
@@ -426,7 +426,7 @@ Break-even condition: *C ≤ p × r × L*.
 
 As a worked illustration for a mid-size brand: if *L = $15M*, *p = 3%*, and *r = 25%*, then *ΔE ≈ $112,500 per year*. Under those conservative assumptions, certification must cost $112,500 per year or less to break even on downside-risk avoidance alone. If the brand's channel access depends on third-party testing (such as marketplace COA plus ISO/IEC 17025 requirements) or if the probability or severity is higher (such as children's category exposure or complex botanicals), the break-even rapidly improves.
 
-**This expected-loss model undervalues certification whenever certification is a prerequisite for market access** — a gating benefit — because avoided delisting is effectively an earned revenue protection rather than avoided loss. Retailer policies like those of CVS explicitly position third-party testing as a standard for supplements sold in their channel, meaning certification can be a revenue-enabling investment, not merely an insurance-like expense.
+**This expected-loss model undervalues certification whenever certification is a prerequisite for market access**, a gating benefit, because avoided delisting is effectively an earned revenue protection rather than avoided loss. Retailer policies like those of CVS explicitly position third-party testing as a standard for supplements sold in their channel, meaning certification can be a revenue-enabling investment, not merely an insurance-like expense.
 
 ## Four mechanisms by which certification reduces expected losses
 
@@ -442,7 +442,7 @@ The fourth is **channel access and procurement de-risking**. Retailers and marke
 
 ## What this means for the rest of this manual
 
-The financial picture is unambiguous. The cost of a contamination event for a brand at any revenue tier is large enough that the expected-loss reduction from certification can exceed certification costs even under conservative probability assumptions. The channel-access value of certification — increasingly required by major retailers and marketplaces — provides additional return that the expected-loss model does not fully capture. The convergence of hardening regulatory frameworks, litigation centralization in MDL 3101, Proposition 65 economics, and retailer gatekeeping means that the cost of inaction is not a static compliance risk but an accelerating commercial liability.
+The financial picture is unambiguous. The cost of a contamination event for a brand at any revenue tier is large enough that the expected-loss reduction from certification can exceed certification costs even under conservative probability assumptions. The channel-access value of certification, increasingly required by major retailers and marketplaces, provides additional return that the expected-loss model does not fully capture. The convergence of hardening regulatory frameworks, litigation centralization in MDL 3101, Proposition 65 economics, and retailer gatekeeping means that the cost of inaction is not a static compliance risk but an accelerating commercial liability.
 
 What remains is to specify the program itself. Chapter 1.4 bridges the structural argument from Chapter 1.2 and the financial argument from this chapter to the operational program in Part 2.
 
@@ -456,13 +456,13 @@ What remains is to specify the program itself. Chapter 1.4 bridges the structura
 
 # 1.4 The Structural Alternative: HMTc
 
-The structural problem in Chapter 1.2 and the financial problem in Chapter 1.3 converge on the same conclusion: the existing enforcement environment does not reduce heavy metal contamination, and the cost of remaining outside a credible certification program is unsustainable for any brand serious about its category position. This chapter names the alternative — the Heavy Metal Tested & Certified (HMTc) program — and previews the design principles that Part 2 specifies in operational detail.
+The structural problem in Chapter 1.2 and the financial problem in Chapter 1.3 converge on the same conclusion: the existing enforcement environment does not reduce heavy metal contamination, and the cost of remaining outside a credible certification program is unsustainable for any brand serious about its category position. This chapter names the alternative, the Heavy Metal Tested & Certified (HMTc) program, and previews the design principles that Part 2 specifies in operational detail.
 
 The HMTc framework is built around six design principles, each of which responds directly to a failure mode identified in the preceding chapters. The principles are summarized here; the operational specification appears in Part 2.
 
 ## Design principle 1: Staged compliance
 
-A program with unachievable standards attracts no participants and protects no consumers. A program with loose standards lacks credibility and provides no meaningful differentiation. The staged-compliance architecture resolves this tension by setting rigorous standards — meaningfully below regulatory action levels, calibrated against the published achievability of the open literature — while giving brands structured pathways to reach full compliance rather than requiring every threshold be met on day one.
+A program with unachievable standards attracts no participants and protects no consumers. A program with loose standards lacks credibility and provides no meaningful differentiation. The staged-compliance architecture resolves this tension by setting rigorous standards, meaningfully below regulatory action levels, calibrated against the published achievability of the open literature, while giving brands structured pathways to reach full compliance rather than requiring every threshold be met on day one.
 
 Each tested product lot receives a certification status based on its analytical results: Status A (full compliance), Status B (transitional compliance with corrective action obligations), Status C (probation with mandatory hold-and-release and independent sampling), Status D (suspension), or Status E (revocation). The framework keeps brands continuously improving without converting normal lot-to-lot analytical variability into a commercial catastrophe. A brand whose typical lead level is 4 ppb against a 5 ppb limit will occasionally produce a lot at 6 or 7 ppb through normal variation, not negligence; the staged system absorbs that variability while maintaining clear escalation triggers for genuine control failures.
 
@@ -476,7 +476,7 @@ Not all heavy metals present the same toxicological profile, and a defensible ce
 
 **Tier 2 metals** have established tolerable daily intakes, shorter biological half-lives, or primarily acute rather than chronic toxicity profiles. Transitional exceedances up to 150% of the action level may qualify for conditional certification if the brand initiates corrective action and demonstrates an improving trend. Nickel, tin, aluminum, and chromium fall into this category.
 
-The tiered approach means that every governance decision — every transitional allowance granted, every probation imposed — has a traceable rationale grounded in the toxicological literature. **If a regulatory body or plaintiff's attorney asks why a 130% nickel result received transitional certification while a 110% lead result triggered immediate probation, the answer traces directly to the comparative toxicological profiles of the two metals. That defensibility is the point.**
+The tiered approach means that every governance decision, every transitional allowance granted, every probation imposed, has a traceable rationale grounded in the toxicological literature. **If a regulatory body or plaintiff's attorney asks why a 130% nickel result received transitional certification while a 110% lead result triggered immediate probation, the answer traces directly to the comparative toxicological profiles of the two metals. That defensibility is the point.**
 
 The full Tier 1 / Tier 2 specification, with toxicological rationale for each metal, appears in Part 2.2.
 
@@ -484,7 +484,7 @@ The full Tier 1 / Tier 2 specification, with toxicological rationale for each me
 
 Testing frequency scales with exposure risk rather than being applied uniformly across all product categories. The relevant variables are consumption volume relative to body weight, frequency of consumption, and the degree to which the product may serve as a sole or dominant food source.
 
-Infant formula — which may be the exclusive nutritional source for a newborn for months — presents the highest exposure risk and warrants monthly surveillance testing with independent sampling. Baby cereals and dry grain products, often introduced as first complementary foods and consumed in substantial quantities relative to body weight, present similarly elevated risk and receive the same frequency. Purees and mixed meals — consumed regularly but as part of a diversified diet — receive quarterly surveillance during full compliance. Juices and snacks — consumed intermittently and at lower volumes — receive the same quarterly cadence.
+Infant formula, which may be the exclusive nutritional source for a newborn for months, presents the highest exposure risk and warrants monthly surveillance testing with independent sampling. Baby cereals and dry grain products, often introduced as first complementary foods and consumed in substantial quantities relative to body weight, present similarly elevated risk and receive the same frequency. Purees and mixed meals, consumed regularly but as part of a diversified diet, receive quarterly surveillance during full compliance. Juices and snacks, consumed intermittently and at lower volumes, receive the same quarterly cadence.
 
 A regulator or attorney asking why formula is tested twelve times per year while a snack is tested four times receives an answer grounded in consumption data and exposure mathematics, not in administrative convenience. Testing intensifies during transitional and probationary status: every-lot testing applies to all products during Status C, with hold-and-release procedures.
 
@@ -494,7 +494,7 @@ The full testing matrix appears in Part 4 of this manual (reproducing the Lot Te
 
 The analytical chemistry of heavy metal testing at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb limit does not necessarily indicate that the true concentration exceeds the limit; the measurement could reflect analytical noise. Certification decision rules must account for this uncertainty to be both scientifically valid and legally defensible.
 
-The HMTc decision rule is two-sided. A lot **passes** if the reported result plus the laboratory's expanded measurement uncertainty is at or below the limit — compliance is confirmed even at the upper bound of uncertainty. A lot **fails** if the reported result minus the measurement uncertainty exceeds the limit — exceedance is confirmed even at the lower bound. Results falling between these conditions are treated as **borderline** and require confirmatory action before a status is assigned. The approach protects brands from being penalized for measurement noise while protecting consumers from borderline results being treated as passes. It follows established metrological principles used in accredited laboratory practice and international standards (ISO/IEC 17025, EURACHEM/CITAC, ILAC-G8).
+The HMTc decision rule is two-sided. A lot **passes** if the reported result plus the laboratory's expanded measurement uncertainty is at or below the limit, compliance is confirmed even at the upper bound of uncertainty. A lot **fails** if the reported result minus the measurement uncertainty exceeds the limit, exceedance is confirmed even at the lower bound. Results falling between these conditions are treated as **borderline** and require confirmatory action before a status is assigned. The approach protects brands from being penalized for measurement noise while protecting consumers from borderline results being treated as passes. It follows established metrological principles used in accredited laboratory practice and international standards (ISO/IEC 17025, EURACHEM/CITAC, ILAC-G8).
 
 Equally important is the prohibition on **testing into compliance**. Brands may not conduct repeated ad hoc retesting, switch laboratories, or selectively report results in an attempt to find a passing number. Any confirmatory testing must follow a predefined, program-approved protocol; undocumented resampling is treated as a data-integrity violation subject to suspension or revocation. This prohibition eliminates the appearance of gaming and ensures that the testing record can withstand discovery in litigation.
 
@@ -502,15 +502,15 @@ The full decision-rule specification appears in Part 2.6.
 
 ## Design principle 5: Confidential remediation as a structural feature
 
-The commercial and legal landscape around heavy metals in infant foods creates a paradox: the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure. Any public acknowledgment that a brand's products contain elevated heavy metals — even in the context of a voluntary improvement program — could be weaponized in litigation or media coverage. Chapter 1.2 documented this dynamic at length.
+The commercial and legal landscape around heavy metals in infant foods creates a paradox: the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure. Any public acknowledgment that a brand's products contain elevated heavy metals, even in the context of a voluntary improvement program, could be weaponized in litigation or media coverage. Chapter 1.2 documented this dynamic at length.
 
-The Confidential Remediation Track resolves the paradox. Brands whose products do not yet qualify for certification may enter the program, access remediation support and technical guidance, and begin building a documented improvement record — without public disclosure of their enrollment or test data. The brand's participation, testing results, corrective action plans, and improvement trajectory are treated as confidential business information under the license agreement.
+The Confidential Remediation Track resolves the paradox. Brands whose products do not yet qualify for certification may enter the program, access remediation support and technical guidance, and begin building a documented improvement record, without public disclosure of their enrollment or test data. The brand's participation, testing results, corrective action plans, and improvement trajectory are treated as confidential business information under the license agreement.
 
 This confidentiality is not a loophole; it is structural. It serves the program's public-health objectives by maximizing the number of brands actively working to reduce contamination. A brand that remains outside the program because it fears the consequences of joining is a brand whose products are not improving. A brand that enters confidentially and begins reducing heavy metal levels is a brand whose products are getting safer, even if the public does not yet know.
 
-From a legal defensibility standpoint, the Confidential Remediation Track creates a documented record of proactive, voluntary, third-party-verified improvement that begins before any litigation or regulatory inquiry. This record — comprising timestamped test results, corrective action documentation, and verified declining concentration trends — constitutes contemporaneous evidence of due diligence. **The legal narrative shifts from "the brand knew and did nothing" to "the brand knew, enrolled in an independent certification program, and has documented evidence of continuous improvement." That shift is the difference between exposure and defense.**
+From a legal defensibility standpoint, the Confidential Remediation Track creates a documented record of proactive, voluntary, third-party-verified improvement that begins before any litigation or regulatory inquiry. This record, comprising timestamped test results, corrective action documentation, and verified declining concentration trends, constitutes contemporaneous evidence of due diligence. **The legal narrative shifts from "the brand knew and did nothing" to "the brand knew, enrolled in an independent certification program, and has documented evidence of continuous improvement." That shift is the difference between exposure and defense.**
 
-These improvements reduce *probability* and *severity* of contamination events; they do not produce safety guarantees. The mark certifies action-level compliance under surveillance, not the absence of risk. Brands evaluating the Confidential Remediation Track should also read Part 2.4 on discovery dynamics — the Track produces a defensible evidence record, but the record itself does not carry attorney-client privilege and may be subject to subpoena.
+These improvements reduce *probability* and *severity* of contamination events; they do not produce safety guarantees. The mark certifies action-level compliance under surveillance, not the absence of risk. Brands evaluating the Confidential Remediation Track should also read Part 2.4 on discovery dynamics, the Track produces a defensible evidence record, but the record itself does not carry attorney-client privilege and may be subject to subpoena.
 
 Because the Confidential Remediation Track is the single most important differentiator of HMTc from the exposé-driven enforcement environment Chapter 1.2 attacked, the track receives its own chapter in Part 2 (Part 2.4) rather than appearing as a subsection of program-entry rules.
 
@@ -518,7 +518,7 @@ Because the Confidential Remediation Track is the single most important differen
 
 A static certification standard is inherently self-defeating. If standards remain unchanged while industry improves, they eventually certify the status quo rather than driving further progress. Conversely, if standards are perceived as arbitrary or subject to surprise changes, brands lose the planning certainty necessary to invest in reformulation and supply-chain improvements. The Standards Ratchet Mechanism resolves this through a formal commitment to tighten standards over time, moving in only one direction, on data-driven trigger conditions, with a capped step size that bounds the per-cycle impact on any brand.
 
-The ratchet for a given analyte fires when both of two conditions hold for two consecutive annual reviews: the 80th percentile of certified Status A lot results sits at or below 80% of the current limit, and at least 50% of certified Status A SKUs have lots at or below 60% of the current limit. The first condition tests aggregate market shift; the second tests breadth. When fired, the new limit equals the maximum of (a) the actual 80th percentile of Status A results or (b) 80% of the current limit. The second clause is the step cap — no brand faces more than a 20% reduction per ratchet event. Transition is 12 to 18 months from announcement to enforcement, with Status A certifications grandfathered during the transition period.
+The ratchet for a given analyte fires when both of two conditions hold for two consecutive annual reviews: the 80th percentile of certified Status A lot results sits at or below 80% of the current limit, and at least 50% of certified Status A SKUs have lots at or below 60% of the current limit. The first condition tests aggregate market shift; the second tests breadth. When fired, the new limit equals the maximum of (a) the actual 80th percentile of Status A results or (b) 80% of the current limit. The second clause is the step cap, no brand faces more than a 20% reduction per ratchet event. Transition is 12 to 18 months from announcement to enforcement, with Status A certifications grandfathered during the transition period.
 
 The forward forecast obligation converts the ratchet from a surprise into a planning parameter. At every annual review, the Program Operator publishes a projection of the next-cycle limit based on current improvement trends, so brands considering certification can model their next three-to-five-year obligation before they sign.
 
@@ -538,7 +538,7 @@ The full supplier-intelligence specification appears in Part 2.9.
 
 Part 1 has now made three arguments. The structural argument (Chapter 1.2) demonstrated that public exposé testing fails as an enforcement mechanism because it punishes transparency, misattributes contamination to brands instead of supply chains, and produces a self-reinforcing cycle that does not reduce contamination. The financial argument (Chapter 1.3) quantified what brands face in the existing environment: $1.6M–$6.6M one-year exposure for small brands, $8M–$33M for mid-size, and $57M–$187M+ for large brands. This chapter (1.4) named the alternative: a confidential, staged, ratcheting, third-party certification framework that responds to each failure mode of the current environment with a specific design feature.
 
-What remains in Part 1 is to introduce the evidence base. The HMTc methodology rests on a public, curated corpus of the heavy-metals-in-food literature — heavymetalindex.com — that is architecturally separate from the certification program. Every standard in this manual traces to specific source pages on that wiki. Chapter 1.5 describes that dependency in detail. With that final piece of context, Part 2 can be read as the operational specification of a program that exists for a reason, against a literature evidence base that any adversarial reader can audit.
+What remains in Part 1 is to introduce the evidence base. The HMTc methodology rests on a public, curated corpus of the heavy-metals-in-food literature, heavymetalindex.com, that is architecturally separate from the certification program. Every standard in this manual traces to specific source pages on that wiki. Chapter 1.5 describes that dependency in detail. With that final piece of context, Part 2 can be read as the operational specification of a program that exists for a reason, against a literature evidence base that any adversarial reader can audit.
 
 ---
 
@@ -550,31 +550,31 @@ What remains in Part 1 is to introduce the evidence base. The HMTc methodology r
 
 # 1.5 How HMTc Knows What It Knows: heavymetalindex.com
 
-Before this manual specifies a single concentration limit, the reader is owed an answer to the question: where do the numbers come from? Not in general terms — *literature, regulatory authorities, peer-reviewed studies* — but specifically. The 10 ppb lead limit for infant formula powder. The 100 ppb inorganic arsenic action level for infant rice cereal. The methylmercury read-across for non-fish matrices. Where, exactly, is the evidence for each of these, and can an adversarial reader audit it without taking the certifier's word?
+Before this manual specifies a single concentration limit, the reader is owed an answer to the question: where do the numbers come from? Not in general terms, *literature, regulatory authorities, peer-reviewed studies*, but specifically. The 10 ppb lead limit for infant formula powder. The 100 ppb inorganic arsenic action level for infant rice cereal. The methylmercury read-across for non-fish matrices. Where, exactly, is the evidence for each of these, and can an adversarial reader audit it without taking the certifier's word?
 
 The answer is heavymetalindex.com.
 
 ## The architectural separation
 
-The Paleo Foundation operates two architecturally separate properties. The certification program — HMTc — lives at heavymetaltested.com. The literature evidence base — Heavy Metal Index, hereafter HMI — lives at heavymetalindex.com. These are separate properties by design, and the separation is structural rather than cosmetic.
+The Paleo Foundation operates two architecturally separate properties. The certification program, HMTc, lives at heavymetaltested.com. The literature evidence base, Heavy Metal Index, hereafter HMI, lives at heavymetalindex.com. These are separate properties by design, and the separation is structural rather than cosmetic.
 
 HMI is the public, curated wiki of the heavy-metals-in-food literature. It contains source pages for peer-reviewed studies, agency reports (FDA, EFSA, JECFA, EPA, Codex, ATSDR), industry surveillance data, and primary regulatory documents. Each source page summarizes a single document's findings, preserves its numeric claims with full provenance, and links to ingredient pages, metal pages, product-category pages, and regulation pages. The corpus is structured so that a reader can begin with any single concentration claim on any product page and follow the references back through the routing layer to the original source documents.
 
-HMTc references HMI for the literature baseline that informs every certification standard. The reference is **one-way**: HMTc cites HMI; HMI does not endorse HMTc, does not contain percentile arithmetic, does not name HMTc-certified brands, and does not advocate for the certification program. The wiki/HMTc firewall is operative policy, documented in the project's foundational CLAUDE.md governance document and enforced by the program's lint infrastructure. The wiki is the public literature evidence layer; the staff Standards Workbench (and the `data/workbench/` directory) carries the threshold math.
+HMTc references HMI for the literature baseline that informs every certification standard. The reference is **one-way**: HMTc cites HMI; HMI does not endorse HMTc, does not contain percentile arithmetic, does not name HMTc-certified brands, and does not advocate for the certification program. The wiki/HMTc firewall is operative policy under the HMTc Governing Principles (specifically Principle 4 on legal defensibility), and is enforced through the program's automated lint infrastructure. The wiki is the public literature evidence layer; the Standards Workbench carries the threshold math, which remains workbench-side and is not published in the wiki.
 
 This separation is what gives the standards their authority.
 
 ## Why the separation matters
 
-A certifying body that operates its own evidence base has a structural conflict of interest: the body that decides what the literature supports is also the body that decides what to certify. An adversarial reader can attack the evidence base on the grounds that it was selected to justify a pre-determined commercial position. Single-source certifiers — programs where the evidence and the certification live in the same property under the same control — cannot fully defend against this attack because the conflict is real.
+A certifying body that operates its own evidence base has a structural conflict of interest: the body that decides what the literature supports is also the body that decides what to certify. An adversarial reader can attack the evidence base on the grounds that it was selected to justify a pre-determined commercial position. Single-source certifiers, programs where the evidence and the certification live in the same property under the same control, cannot fully defend against this attack because the conflict is real.
 
 The HMI/HMTc separation defeats this attack. HMI is a curated literature wiki published as a public resource. It exists whether HMTc does or does not exist. It will continue to exist when the methodology in this manual is replaced by a future revision. It contains studies whose findings make HMTc thresholds look conservative and studies whose findings make HMTc thresholds look aggressive. It does not adjust its evidence to fit the certification program. The Paleo Foundation operates HMI as a public-good resource because curating the complete literature is the only durable foundation for any defensible standards program built on top.
 
-This is the **Cochrane-for-heavy-metals** positioning. Cochrane systematic reviews are the gold standard in medicine for a single reason: they aggregate the complete relevant literature, not selected papers, and they publish their methodology so that any reviewer can verify their conclusions. HMI is structured on the same principle. Aggregating the complete literature, not selected papers, is what produces durable epistemic authority — and durable epistemic authority is what allows the standards program built on top to withstand adversarial scrutiny.
+This is the **Cochrane-for-heavy-metals** positioning. Cochrane systematic reviews are the gold standard in medicine for a single reason: they aggregate the complete relevant literature, not selected papers, and they publish their methodology so that any reviewer can verify their conclusions. HMI is structured on the same principle. Aggregating the complete literature, not selected papers, is what produces durable epistemic authority, and durable epistemic authority is what allows the standards program built on top to withstand adversarial scrutiny.
 
 ## Provenance: how a limit in this manual traces to the corpus
 
-Every concentration limit in Part 3 of this manual was derived from a pooled distribution of source pages on HMI for the relevant product-by-metal cell. The pooling math (the per-analyte percentile calculations, the source-level bootstrap, the sensitivity-band analysis) lives workbench-side, per the firewall. But the **inputs** to the pooling — the source pages contributing to each cell — are public.
+Every concentration limit in Part 3 of this manual was derived from a pooled distribution of source pages on HMI for the relevant product-by-metal cell. The pooling math (the per-analyte percentile calculations, the source-level bootstrap, the sensitivity-band analysis) lives workbench-side, per the firewall. But the **inputs** to the pooling, the source pages contributing to each cell, are public.
 
 A reader who wants to audit a specific HMTc limit follows this path:
 
@@ -582,7 +582,7 @@ A reader who wants to audit a specific HMTc limit follows this path:
 2. **Read the chapter's Sources Cited section.** Each citation resolves to a source page on heavymetalindex.com.
 3. **Read the source page.** Each source page summarizes the underlying document's findings with concentrations, sample sizes, methods, and basis (as-sold, as-consumed, dry weight). The source page links to the original document where available.
 4. **For the routing layer**, the corpus also maintains a structured routing audit at `data/evidence/product_source_routing_audit.csv` that maps every source to every product-category, ingredient, metal, and regulation page it touches. Adversarial readers who suspect a source has been omitted from a cell can check the routing audit directly.
-5. **For the pooled distribution itself**, qualified reviewers — regulators with formal inquiries, plaintiff's experts requesting access through counsel, sampling auditors verifying program operation — may request the workbench-side aggregate distribution data under controlled terms. The pooling engine is proprietary; the pool composition is not.
+5. **For the pooled distribution itself**, qualified reviewers, regulators with formal inquiries, plaintiff's experts requesting access through counsel, sampling auditors verifying program operation, may request the workbench-side aggregate distribution data under controlled terms. The pooling engine is proprietary; the pool composition is not.
 
 This design preserves the wiki/HMTc firewall (the engine arithmetic stays workbench-side, where it cannot be reverse-engineered by competing certifiers) while making the evidence inputs auditable (every limit traces to public source pages on HMI).
 
@@ -633,13 +633,13 @@ This concludes Part 1. The reader who has read all five chapters now understands
 - What the program's design principles are (staged compliance, risk-tiered metal classification, exposure-based testing, measurement-uncertainty decision rules, confidential remediation, ratcheting standards, supplier intelligence);
 - And where the evidence base lives (heavymetalindex.com, a public curated corpus architecturally separate from the certification program).
 
-The next chapter — Part 2.0 Program Flow Diagram — opens Part 2 with a single-page visualization of the certification lifecycle before the operational chapters specify the program in detail.
+The next chapter, Part 2.0 Program Flow Diagram, opens Part 2 with a single-page visualization of the certification lifecycle before the operational chapters specify the program in detail.
 
 
 
 <!-- data/workbench/standards-book/parts/02-the-hmtc-program/00-program-flow-diagram.md -->
 
-# Part 2 — The HMTc Program
+# Part 2, The HMTc Program
 
 ## 2.0 Program Flow Diagram
 
@@ -733,7 +733,7 @@ The diagram is the operational map for the rest of Part 2. Brand legal readers c
 
 ## Narrative
 
-The HMTc Program is designed to achieve three simultaneous objectives: protect participating brands from litigation exposure through documented, defensible testing and improvement protocols; protect consumers by incrementally driving down heavy metal exposure in infant and child food products; and create commercial value through a certification mark that signals verified, ongoing compliance under independent surveillance. These three objectives are not in tension. A program that fails any one of them fails all three — a program that does not reduce brand legal exposure cannot recruit participants; a program that does not drive consumer-exposure reduction has no defensible public-health basis; and a program that does not create commercial value cannot sustain itself across the time horizons required to achieve population-level impact.
+The HMTc Program is designed to achieve three simultaneous objectives: protect participating brands from litigation exposure through documented, defensible testing and improvement protocols; protect consumers by incrementally driving down heavy metal exposure in infant and child food products; and create commercial value through a certification mark that signals verified, ongoing compliance under independent surveillance. These three objectives are not in tension. A program that fails any one of them fails all three, a program that does not reduce brand legal exposure cannot recruit participants; a program that does not drive consumer-exposure reduction has no defensible public-health basis; and a program that does not create commercial value cannot sustain itself across the time horizons required to achieve population-level impact.
 
 The Program's five Governing Principles, published separately and reproduced in the Methodology Appendix of this manual (Part 5.1), are the authority that this Governance specification implements. The principles are: drive contamination reduction through consumer demand; safeguard consumers; safeguard brands that enter the program; ensure legal defensibility; and scale the program to become the de facto standard. No principle is subordinate to any other. Every operational rule in this Part 2 is evaluated against all five; conflicts among principles are surfaced and resolved rather than ignored.
 
@@ -761,7 +761,7 @@ HMTc applies anywhere infant and child food products are sold. The Program opera
 
 The 2026 Edition is calibrated against the global open literature aggregated on heavymetalindex.com. A brand selling in any jurisdiction is evaluated against the same per-category HMTc limits derived from the global corpus, with the lowest applicable regulatory cap in the brand's markets of sale serving as a hard upper bound (per the standards-setting principle in Part 5.1 and the regulatory escalation rule in Part 2.11).
 
-**Regional adaptability — roadmap for future Editions.** Future Editions of the Standards will introduce region-specific calibration as the heavymetalindex.com corpus accumulates region-specific evidence at sufficient sample-size totals to support statistically defensible regional pooling. The Governing Principles are universal; their *calibration* may become regional in a future Edition. When that happens, the operational rule will be: the more stringent of (regional platform limit, global cleanest-achievable benchmark) governs, so that brands selling in higher-contamination regions face standards that incentivize sourcing from cleaner supply chains — the market-demand catalyst Governing Principle 1 names as the program's primary mechanism.
+**Regional adaptability, roadmap for future Editions.** Future Editions of the Standards will introduce region-specific calibration as the heavymetalindex.com corpus accumulates region-specific evidence at sufficient sample-size totals to support statistically defensible regional pooling. The Governing Principles are universal; their *calibration* may become regional in a future Edition. When that happens, the operational rule will be: the more stringent of (regional platform limit, global cleanest-achievable benchmark) governs, so that brands selling in higher-contamination regions face standards that incentivize sourcing from cleaner supply chains, the market-demand catalyst Governing Principle 1 names as the program's primary mechanism.
 
 For the 2026 Edition, regional adaptability is named here as a structural commitment to future evolution, not as an operational feature. The honest disclosure is that the current Edition uses global calibration, and that the next Edition's regional-adaptability work will begin once Cat 2 and additional categories ship.
 
@@ -783,19 +783,19 @@ The HMTc Program is operated by The Paleo Foundation, a regulatory and certifica
 
 ## Narrative
 
-Not all heavy metals present the same toxicological profile, and a defensible certification framework must reflect this. The HMTc Program classifies covered metals into two tiers based on their toxicological characteristics, with governance consequences flowing directly from the classification. Metals that are carcinogenic with no established safe threshold, neurotoxic with no established safe threshold, or bioaccumulative with long biological half-lives warrant zero tolerance for exceedance within the certification framework — these are Tier 1 metals. Metals with established tolerable daily intakes, shorter biological half-lives, or primarily acute rather than chronic toxicity profiles may be eligible for transitional allowances — these are Tier 2 metals.
+Not all heavy metals present the same toxicological profile, and a defensible certification framework must reflect this. The HMTc Program classifies covered metals into two tiers based on their toxicological characteristics, with governance consequences flowing directly from the classification. Metals that are carcinogenic with no established safe threshold, neurotoxic with no established safe threshold, or bioaccumulative with long biological half-lives warrant zero tolerance for exceedance within the certification framework, these are Tier 1 metals. Metals with established tolerable daily intakes, shorter biological half-lives, or primarily acute rather than chronic toxicity profiles may be eligible for transitional allowances, these are Tier 2 metals.
 
-The tiered approach means that every governance decision — every transitional allowance granted, every probation imposed — has a traceable rationale grounded in the toxicological literature. **If a regulatory body or plaintiff's attorney asks why a 130% nickel result received transitional certification while a 110% lead result triggered immediate probation, the answer traces directly to the comparative toxicological profiles of the two metals. That defensibility is the point.**
+The tiered approach means that every governance decision, every transitional allowance granted, every probation imposed, has a traceable rationale grounded in the toxicological literature. **If a regulatory body or plaintiff's attorney asks why a 130% nickel result received transitional certification while a 110% lead result triggered immediate probation, the answer traces directly to the comparative toxicological profiles of the two metals. That defensibility is the point.**
 
 Before specifying the tier classification, this chapter establishes the most important framing the manual carries for brand legal teams and regulators: **even compliant foods can exceed reference doses when a child eats across categories.**
 
 ## The aggregate-exposure framing
 
-> A day's consumption **at the FDA action level** across four common categories — 800 milliliters of ready-to-feed formula at the 10 ppb FDA action level for infant formula and most baby foods [FDA, *Guidance for Industry: Action Levels for Lead in Processed Food Intended for Babies and Young Children*, January 2025], one 20 ppb serving of dry infant cereal (FDA action level for dry cereals, *ibid.*), one 10 ppb fruit purée (FDA action level for most baby foods, *ibid.*), and one 20 ppb root-vegetable purée (FDA action level for root vegetables, *ibid.*) — yields approximately **10.4 µg lead per day**, more than **4.7 times** the FDA Interim Reference Level of 2.2 µg/day for young children [FDA, *Updated Interim Reference Levels for Dietary Lead*, June 2022]. Even at full compliance with FDA action levels across all four food categories, aggregate intake at typical infant consumption patterns substantially exceeds the IRL.
+> A day's consumption **at the FDA action level** across four common categories, 800 milliliters of ready-to-feed formula at the 10 ppb FDA action level for infant formula and most baby foods [FDA, *Guidance for Industry: Action Levels for Lead in Processed Food Intended for Babies and Young Children*, January 2025], one 20 ppb serving of dry infant cereal (FDA action level for dry cereals, *ibid.*), one 10 ppb fruit purée (FDA action level for most baby foods, *ibid.*), and one 20 ppb root-vegetable purée (FDA action level for root vegetables, *ibid.*), yields approximately **10.4 µg lead per day**, more than **4.7 times** the FDA Interim Reference Level of 2.2 µg/day for young children [FDA, *Updated Interim Reference Levels for Dietary Lead*, June 2022]. Even at full compliance with FDA action levels across all four food categories, aggregate intake at typical infant consumption patterns substantially exceeds the IRL.
 >
-> This is why HMTc category limits sit below applicable regulatory action levels rather than at them. Aggregate exposure across categories — not single-product compliance — is the relevant exposure metric for infants and young children. The Program drives every product, in every category, steadily and measurably closer to the lowest achievable levels of contamination, simultaneously.
+> This is why HMTc category limits sit below applicable regulatory action levels rather than at them. Aggregate exposure across categories, not single-product compliance, is the relevant exposure metric for infants and young children. The Program drives every product, in every category, steadily and measurably closer to the lowest achievable levels of contamination, simultaneously.
 
-This calculation is the answer to the question "why don't HMTc limits just align with FDA action levels?" The answer is that compliance with single-product regulatory floors does not deliver compliance with health-based exposure reference values when a child eats across categories. The HMTc Program calibrates limits across categories simultaneously so that aggregate intake at typical infant consumption patterns sits well below health-based exposure benchmarks — not just below single-product regulatory action levels.
+This calculation is the answer to the question "why don't HMTc limits just align with FDA action levels?" The answer is that compliance with single-product regulatory floors does not deliver compliance with health-based exposure reference values when a child eats across categories. The HMTc Program calibrates limits across categories simultaneously so that aggregate intake at typical infant consumption patterns sits well below health-based exposure benchmarks, not just below single-product regulatory action levels.
 
 ## Covered product categories
 
@@ -834,7 +834,7 @@ The Program tests for ten analytes:
 - **Total forms (8):** Pb, Cd, total As, Ni, total Hg, Al, total Cr, Sn.
 - **Speciated forms (3):** iAs (inorganic arsenic, required for rice-containing products and as a reflex trigger when total As approaches or exceeds 50% of limit); MeHg (methylmercury, required for fish-containing products and as a reflex trigger when total Hg approaches or exceeds 50% of limit); Cr(VI) (hexavalent chromium, required only when a credible Cr(VI) formation pathway exists, such as certain water-treatment processes).
 
-The 8-tier enforcement framework operates on the eight priority metals; speciated forms inherit their parent metal's tier. iAs and MeHg inherit Tier 1 (zero tolerance); Cr(VI) inherits effectively Tier 1 treatment when triggered. Total As, total Hg, and total Cr are tested routinely to support reflex speciation decisions but do not themselves carry separate enforcement tiers — the speciated result governs when speciation has been performed.
+The 8-tier enforcement framework operates on the eight priority metals; speciated forms inherit their parent metal's tier. iAs and MeHg inherit Tier 1 (zero tolerance); Cr(VI) inherits effectively Tier 1 treatment when triggered. Total As, total Hg, and total Cr are tested routinely to support reflex speciation decisions but do not themselves carry separate enforcement tiers, the speciated result governs when speciation has been performed.
 
 The speciation logic operationalizes a key toxicological principle: the **form** of a heavy metal determines its toxicological significance, not just its total concentration. Total arsenic measurements alone are not sufficient for rice-containing products because organic arsenic species (predominantly in seafood) are toxicologically distinct from inorganic arsenic (the genotoxic carcinogen). Similarly, total mercury alone is not sufficient for fish-containing products because methylmercury crosses the blood-brain barrier in a way that inorganic mercury does not. Failure to perform required speciation renders the lot ineligible for certification (see Part 4 §9).
 
@@ -857,7 +857,7 @@ The Program Operator reserves the right, upon recommendation of the Technical Co
 
 ## Narrative
 
-The central design challenge for a heavy metal certification program is balancing rigor with accessibility. A program with unachievable standards attracts no participants and protects no consumers. A program with loose standards lacks credibility and provides no meaningful differentiation. The staged-compliance model resolves this tension by setting rigorous standards — calibrated to deliver the 90/30 row-pass intent specified in the Governing Principles — and giving brands structured pathways to reach full compliance rather than requiring every threshold to be met on day one.
+The central design challenge for a heavy metal certification program is balancing rigor with accessibility. A program with unachievable standards attracts no participants and protects no consumers. A program with loose standards lacks credibility and provides no meaningful differentiation. The staged-compliance model resolves this tension by setting rigorous standards, calibrated to deliver the 90/30 row-pass intent specified in the Governing Principles, and giving brands structured pathways to reach full compliance rather than requiring every threshold to be met on day one.
 
 The five-status framework absorbs normal lot-to-lot analytical variability without converting it into a commercial catastrophe, while maintaining clear escalation triggers for genuine control failures. A brand whose typical lead level is 4 ppb against a 5 ppb limit will occasionally produce a lot at 6 or 7 ppb through normal variation, not through negligence; the staged system treats that variability as the engineering reality it is, while preserving zero-tolerance treatment for Tier 1 metals and for systemic control failures regardless of which metal is involved.
 
@@ -890,7 +890,7 @@ Brands whose baseline does not qualify for Status A or B may enter the program u
 
 **CAPA:** Not required for passing lots. Preventive action is expected if trend analysis shows an upward trajectory approaching limits.
 
-**Ongoing Obligations:** Maintain all controls and record-keeping. Continue periodic trend analysis. **Pursue ALARA improvement even while compliant** — Status A is not a plateau, and the Standards Ratchet (Part 2.10) ensures that the bar tightens as the certified market improves.
+**Ongoing Obligations:** Maintain all controls and record-keeping. Continue periodic trend analysis. **Pursue ALARA improvement even while compliant**, Status A is not a plateau, and the Standards Ratchet (Part 2.10) ensures that the bar tightens as the certified market improves.
 
 ### Status B: Certified (Transitional Compliance)
 
@@ -959,9 +959,9 @@ Brands whose baseline does not qualify for Status A or B may enter the program u
 
 ## The structural problem this chapter solves
 
-The commercial and legal landscape around heavy metals in infant foods creates a paradox: **the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure.** Part 1.2 documented this dynamic at length. In a climate where consumer advocacy groups, state attorneys general, and plaintiffs' attorneys are actively scrutinizing the industry, any public acknowledgment that a brand's products contain elevated heavy metals — even in the context of a voluntary improvement program — could be weaponized in litigation or media coverage. The chilling effect is real, documented in the compliance-theory literature, and structurally hostile to public-health objectives.
+The commercial and legal landscape around heavy metals in infant foods creates a paradox: **the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure.** Part 1.2 documented this dynamic at length. In a climate where consumer advocacy groups, state attorneys general, and plaintiffs' attorneys are actively scrutinizing the industry, any public acknowledgment that a brand's products contain elevated heavy metals, even in the context of a voluntary improvement program, could be weaponized in litigation or media coverage. The chilling effect is real, documented in the compliance-theory literature, and structurally hostile to public-health objectives.
 
-The Confidential Remediation Track is the program's structural answer to this paradox. It is the single most important differentiator of HMTc from the exposé-driven enforcement environment that Part 1 attacks. It is the reason this chapter is hoisted to its own section in Part 2 rather than appearing as a subsection of program-entry rules. A brand legal team reading this manual to decide whether to recommend HMTc participation should read this chapter alongside Part 5.2 (the Program-Level Adversarial Read) — together they answer the question "what does HMTc give my client that internal testing alone does not?"
+The Confidential Remediation Track is the program's structural answer to this paradox. It is the single most important differentiator of HMTc from the exposé-driven enforcement environment that Part 1 attacks. It is the reason this chapter is hoisted to its own section in Part 2 rather than appearing as a subsection of program-entry rules. A brand legal team reading this manual to decide whether to recommend HMTc participation should read this chapter alongside Part 5.2 (the Program-Level Adversarial Read), together they answer the question "what does HMTc give my client that internal testing alone does not?"
 
 ## What the Track is
 
@@ -985,7 +985,7 @@ A brand enrolled in the Confidential Remediation Track has a different posture a
 
 This shift does not eliminate litigation risk. It changes the brand's posture from passive to active. A plaintiff's expert challenging the brand's controls now faces a documented improvement record that begins before any inquiry was filed; a defense attorney has a contemporaneous, externally validated narrative of due diligence to anchor the defense. Defense counsel familiar with MDL-style litigation will recognize this as the structural difference between a brand that can be discovered into a corner and a brand that has a story to tell.
 
-### Discovery dynamics — honest disclosure
+### Discovery dynamics, honest disclosure
 
 Track data is held by the Program Operator as a service provider to the Licensee under the License Agreement. In a discovery scenario, Track data is **potentially compellable** from the Program Operator under subpoena. The License Agreement specifies that the Program Operator will notify the Licensee of any subpoena and cooperate with the Licensee's defense to the extent legally permissible.
 
@@ -997,11 +997,11 @@ Brands evaluating the Track should consult counsel about how the Track interacts
 
 A regulator or consumer-advocacy reader may ask: doesn't the Confidential Remediation Track let brands hide contamination data from the public?
 
-The answer is that the Track is the *structural* answer to the chilling-effect failure mode, not a workaround of consumer protection. **A brand that remains outside the program because it fears the consequences of joining is a brand whose products are not improving.** A brand that enters confidentially and begins reducing heavy metal levels is a brand whose products *are* getting safer, even if the public does not yet know. The relevant public-health question is which arrangement produces more contamination reduction in the food supply, and the compliance theory literature — summarized in Part 1.2 — is clear that punitive-disclosure regimes produce less reduction than confidential-improvement regimes.
+The answer is that the Track is the *structural* answer to the chilling-effect failure mode, not a workaround of consumer protection. **A brand that remains outside the program because it fears the consequences of joining is a brand whose products are not improving.** A brand that enters confidentially and begins reducing heavy metal levels is a brand whose products *are* getting safer, even if the public does not yet know. The relevant public-health question is which arrangement produces more contamination reduction in the food supply, and the compliance theory literature, summarized in Part 1.2, is clear that punitive-disclosure regimes produce less reduction than confidential-improvement regimes.
 
 A brand that successfully completes the Track and qualifies for Status A or B then *can* display the mark publicly. Their improvement record becomes a competitive asset rather than a liability. The Track does not let brands hide forever; it lets brands enter from a starting position that would otherwise exclude them, build the improvement record that justifies the mark, and then operate publicly when they have earned the right to do so.
 
-A brand that enrolls in the Track, fails to improve, and exits without ever qualifying for the mark is in approximately the same position they would have occupied without the Track — except that they have a confidential record of attempted improvement that may still factor into a future legal defense. They have not gained the mark, and they have not gained immunity, but they have gained documented good faith. That is the proportionate outcome of the Track's design.
+A brand that enrolls in the Track, fails to improve, and exits without ever qualifying for the mark is in approximately the same position they would have occupied without the Track, except that they have a confidential record of attempted improvement that may still factor into a future legal defense. They have not gained the mark, and they have not gained immunity, but they have gained documented good faith. That is the proportionate outcome of the Track's design.
 
 ## Aggregated data and public reporting
 
@@ -1040,7 +1040,7 @@ A brand exits the Confidential Remediation Track in one of three ways:
 
 ## Narrative
 
-The HMTc Certification Mark is the public signal that a product has been independently tested and meets defined action levels under an ongoing surveillance protocol. Mark usage rules are designed to ensure that the mark means what it says — that consumers, retailers, and regulators can rely on its presence as an indicator of verified compliance, and that brands cannot game the mark through arbitrage, status manipulation, or misleading marketing claims.
+The HMTc Certification Mark is the public signal that a product has been independently tested and meets defined action levels under an ongoing surveillance protocol. Mark usage rules are designed to ensure that the mark means what it says, that consumers, retailers, and regulators can rely on its presence as an indicator of verified compliance, and that brands cannot game the mark through arbitrage, status manipulation, or misleading marketing claims.
 
 ## 6.1 Eligibility
 
@@ -1054,12 +1054,12 @@ The mark certifies that the product has been independently tested and meets defi
 
 ## 6.3 Anti-Arbitrage: Re-Entry After Dropping the Mark
 
-If a brand removes the HMTc Certification Mark from a SKU during a remediation period — whether voluntarily or by enforcement — the brand cannot simply resume mark usage after producing one passing lot. Re-entry to mark usage requires:
+If a brand removes the HMTc Certification Mark from a SKU during a remediation period, whether voluntarily or by enforcement, the brand cannot simply resume mark usage after producing one passing lot. Re-entry to mark usage requires:
 
 - Three (3) consecutive passing lot results at Status A or B levels, and
 - Closure of any open CAPA associated with the SKU.
 
-This prevents status arbitrage, where a brand might drop the mark during bad periods (avoiding the documented exceedance) and re-enter when results improve by chance (claiming a clean certification record without the intervening problem appearing in the registry). The anti-arbitrage rule ensures that the mark's signal — *this product has demonstrated sustained compliance* — is not subvertible by selective mark display.
+This prevents status arbitrage, where a brand might drop the mark during bad periods (avoiding the documented exceedance) and re-enter when results improve by chance (claiming a clean certification record without the intervening problem appearing in the registry). The anti-arbitrage rule ensures that the mark's signal, *this product has demonstrated sustained compliance*, is not subvertible by selective mark display.
 
 ## 6.4 Brand Visibility Controls
 
@@ -1139,7 +1139,7 @@ Data integrity is therefore not a procedural concern but a structural condition 
 
 Brands must permit the Program Operator, in writing, to access the data from their laboratory tests. **Submission of results as PDF documents is not permitted.** All test data must be provided in a structured, machine-readable format that enables trend analysis, statistical evaluation, and population-level aggregation. The specific format requirements are defined by the Program Operator and communicated to all Licensees.
 
-This requirement exists because the Program's ability to demonstrate aggregate improvement over time — which is both the strongest legal defense for individual brands and the strongest proof that the Program achieves its public-health objectives — depends on structured, queryable data. Static PDFs cannot be aggregated, cannot be trend-analyzed, and cannot feed the ratchet trigger. The structured-data requirement is the architectural precondition for the Standards Ratchet to function.
+This requirement exists because the Program's ability to demonstrate aggregate improvement over time, which is both the strongest legal defense for individual brands and the strongest proof that the Program achieves its public-health objectives, depends on structured, queryable data. Static PDFs cannot be aggregated, cannot be trend-analyzed, and cannot feed the ratchet trigger. The structured-data requirement is the architectural precondition for the Standards Ratchet to function.
 
 ## 8.2 Data Integrity as a Hard-Stop Condition
 
@@ -1159,7 +1159,7 @@ The consequence calibration is intentional. Status D suspension is reserved for 
 
 All testing used for certification decisions must be performed by laboratories accredited to ISO/IEC 17025 for the relevant analytical methods and food matrices. Analytical methods must be fit for purpose, meaning they can reliably quantify target heavy metals at concentrations at or below the applicable HMTc category limits. The laboratory's Limit of Quantitation (LOQ) for each analyte must be at or below the HMTc action level. If an LOQ exceeds the Program limit, a non-detect result is not acceptable proof of compliance.
 
-Laboratories that the Program Operator has reason to question — based on proficiency-test performance, audit findings, or pattern analysis of results across participating brands — may be removed from the list of Program-acceptable laboratories. Licensees using removed laboratories must transition to a Program-acceptable laboratory before their next surveillance cycle. The Program Operator maintains the current list of acceptable laboratories under document control.
+Laboratories that the Program Operator has reason to question, based on proficiency-test performance, audit findings, or pattern analysis of results across participating brands, may be removed from the list of Program-acceptable laboratories. Licensees using removed laboratories must transition to a Program-acceptable laboratory before their next surveillance cycle. The Program Operator maintains the current list of acceptable laboratories under document control.
 
 ## Cross-references
 
@@ -1237,7 +1237,7 @@ The Program Operator maintains an anonymized supplier intelligence system. When 
 
 Participation in the supplier intelligence system is a condition of the license agreement. **Brands benefit from collective intelligence, creating a powerful incentive to remain in the Program and a significant informational disadvantage for those outside it.**
 
-### Anonymization limits — honest disclosure
+### Anonymization limits, honest disclosure
 
 The Program Operator anonymizes alerts by removing brand identifiers. However, ingredient-category, geographic-origin, and timing metadata can correlate with a brand's publicly disclosed sourcing in ways that may identify the reporting brand to a sophisticated observer. For example, if a brand has publicly disclosed sourcing cocoa from a specific Ecuadorian region, and a supplier-intelligence alert is issued in the same quarter referencing "elevated cadmium in Ecuadorian high-altitude cocoa," correlated observers could infer the reporting brand.
 
@@ -1290,7 +1290,7 @@ The annual operational review (referenced throughout §12.3 below) is distinct f
 
 The Standards Ratchet operates under a directional commitment: **action levels may be tightened (lowered) but shall not be loosened (raised) unless the underlying science changes in a manner that justifies relaxation.** This commitment ensures that the Program continuously drives exposure reduction and that brands can plan their improvement trajectories with confidence that the goalposts will move in only one direction.
 
-A science-based relaxation — for example, a future EFSA reassessment that meaningfully revises a metal's reference dose upward — would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
+A science-based relaxation, for example, a future EFSA reassessment that meaningfully revises a metal's reference dose upward, would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
 
 ## 12.3 Trigger Conditions
 
@@ -1300,7 +1300,7 @@ The Standards Ratchet for a given analyte fires when **both** of the following c
 
 (b) At least 50% of SKUs in the trigger pool have lots at or below 60% of the current limit.
 
-The first condition tests aggregate market shift. The second tests breadth — the ratchet does not fire on a single large brand pulling the percentile down. Both conditions must hold across two consecutive annual reviews to confirm sustained improvement rather than a transient market event.
+The first condition tests aggregate market shift. The second tests breadth, the ratchet does not fire on a single large brand pulling the percentile down. Both conditions must hold across two consecutive annual reviews to confirm sustained improvement rather than a transient market event.
 
 The two-condition design is intentional. Condition (a) alone would allow a single dominant brand to drive the trigger by aggressive reformulation across many SKUs; condition (b) alone would not capture the magnitude of market shift. Together, the two conditions require that the market has moved *and* that the movement is broad-based. The two-consecutive-cycle requirement protects against transient effects (a particularly clean harvest year, a temporary supplier change) that would otherwise distort the trigger.
 
@@ -1333,7 +1333,7 @@ New limit = max(15, 24) = **24 ppb**.
 
 The step cap held; the market actually moved beyond the cap, but the program tightens only by the capped 20% increment.
 
-At the next annual review, the 80th percentile of the trigger pool against the new 24 ppb limit is evaluated. If the market stays at the same absolute level (15 ppb), the 80th percentile is now 15/24 ≈ 62.5% of the new limit — below the 80% trigger condition. Both conditions hold. The trigger fires again.
+At the next annual review, the 80th percentile of the trigger pool against the new 24 ppb limit is evaluated. If the market stays at the same absolute level (15 ppb), the 80th percentile is now 15/24 ≈ 62.5% of the new limit, below the 80% trigger condition. Both conditions hold. The trigger fires again.
 
 New limit candidate (a): 15 ppb.
 New limit candidate (b): 80% of 24 ppb = 19.2 ppb.
@@ -1347,7 +1347,7 @@ When standards are tightened, a transition period of not less than 12 months and
 
 **Status A certifications grandfather for the entire transition period.** A Status A brand at certification renewal during the transition window keeps Status A even if their typical lots no longer meet the new limit, until their next annual review after enforcement begins. This protects brands who have invested in achieving Status A under the previous standard from being penalized by the standard's tightening before they have had time to respond.
 
-**Status B and Status C SKUs re-evaluate against the new limit at their next CAPA cycle.** Status B and C cannot preferentially evaluate against the old standard during the transition window — they get the more stringent of (old standard, new standard), to prevent gaming of the transition window. This prevents a brand that is already in a remediation status from "freezing" their improvement trajectory at the old standard while the rest of the program tightens.
+**Status B and Status C SKUs re-evaluate against the new limit at their next CAPA cycle.** Status B and C cannot preferentially evaluate against the old standard during the transition window, they get the more stringent of (old standard, new standard), to prevent gaming of the transition window. This prevents a brand that is already in a remediation status from "freezing" their improvement trajectory at the old standard while the rest of the program tightens.
 
 **Status D and Status E products are out regardless.**
 
@@ -1359,11 +1359,11 @@ At every annual review, the Program Operator publishes a forward forecast:
 
 This converts the ratchet from a surprise into a planning parameter that brands can model years in advance. A brand considering certification can review the forward forecast for the relevant category before signing the license agreement and understand the next three-to-five-year obligation profile. A brand operating under the current standard can budget reformulation against the projected next-cycle limit.
 
-The forward forecast is published in the annual Program Operator report and posted to the heavymetaltested.com Program Registry under document control. Forecasts are *projections*, not commitments — actual trigger firing depends on whether the two-condition test in §12.3 is satisfied at the time of the relevant annual review. Brands and regulators can rely on the forecast as the program's best current estimate of trajectory; the trigger conditions remain the operative test.
+The forward forecast is published in the annual Program Operator report and posted to the heavymetaltested.com Program Registry under document control. Forecasts are *projections*, not commitments, actual trigger firing depends on whether the two-condition test in §12.3 is satisfied at the time of the relevant annual review. Brands and regulators can rely on the forecast as the program's best current estimate of trajectory; the trigger conditions remain the operative test.
 
 ### Forecast accountability
 
-Forecasts are projections, not commitments. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome — operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25% — triggers a methodology review of the projection method.
+Forecasts are projections, not commitments. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome, operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25%, triggers a methodology review of the projection method.
 
 This retrospective accountability ensures that the forecast is not a marketing artifact but a calibrated planning tool with documented predictive accuracy over time. Brands relying on forecasts for reformulation planning should treat them as the Program's best current estimate, not as guaranteed future limits, and can verify the Program Operator's track record in the published retrospectives.
 
@@ -1383,7 +1383,7 @@ The Standards Ratchet as specified above satisfies all five HMTc Governing Princ
 - **Principle 4 (legal defensibility):** The rule is data-driven, two-cycle-confirmed, and transparently published with specific thresholds. Adversarial readers cannot attack it as arbitrary because every clause has a specified rationale.
 - **Principle 5 (scale to ubiquity):** Predictable cadence brands can plan around. Brands considering certification can model the next 3–5 years of obligation before they sign.
 
-A plaintiff's expert attacking the ratchet must attack one of the specific clauses — the 80th-percentile threshold, the breadth condition, the step cap, the transition period, the grandfather clause — and must explain why an alternative specification would deliver the same five-principle satisfaction. The Program-Level Adversarial Read in Part 5.2 addresses the categories of attack that the program anticipates.
+A plaintiff's expert attacking the ratchet must attack one of the specific clauses, the 80th-percentile threshold, the breadth condition, the step cap, the transition period, the grandfather clause, and must explain why an alternative specification would deliver the same five-principle satisfaction. The Program-Level Adversarial Read in Part 5.2 addresses the categories of attack that the program anticipates.
 
 ## Cross-references
 
@@ -1401,7 +1401,7 @@ A plaintiff's expert attacking the ratchet must attack one of the specific claus
 
 ## Narrative
 
-HMTc certification is not a substitute for regulatory compliance. The Program's action levels are intentionally set below applicable regulatory limits so that a brand passing HMTc certification is comfortably inside the regulatory envelope. But when a tested lot reveals a regulatory limit violation — distinct from an HMTc action level exceedance — the Program's response is not graduated remediation. It is hard-stop escalation.
+HMTc certification is not a substitute for regulatory compliance. The Program's action levels are intentionally set below applicable regulatory limits so that a brand passing HMTc certification is comfortably inside the regulatory envelope. But when a tested lot reveals a regulatory limit violation, distinct from an HMTc action level exceedance, the Program's response is not graduated remediation. It is hard-stop escalation.
 
 This chapter specifies the regulatory-escalation rule and its consequences. The rule is short because the principle is simple: regulatory compliance takes absolute precedence over Program-internal status determinations.
 
@@ -1441,9 +1441,9 @@ The §2.11 rule is the operational expression of Governing Principle 4 (legal de
 
 Every certification program requires three procedural mechanisms that operate independently of the operational rules: a way for a Licensee to challenge a status determination they believe is incorrect; a defined path back into the Program for a Licensee whose certification has been suspended or revoked; and a document-control regime that ensures the rules governing a decision are unambiguous at the time the decision is made.
 
-This chapter specifies all three. The mechanisms are procedural rather than substantive — they govern how the Program responds to disagreement, recovery, and document evolution, not what the underlying standards or determinations are. Together, they ensure that brands are treated fairly within the Program's framework and that the rules in force at the time of any decision are knowable, traceable, and applied consistently.
+This chapter specifies all three. The mechanisms are procedural rather than substantive, they govern how the Program responds to disagreement, recovery, and document evolution, not what the underlying standards or determinations are. Together, they ensure that brands are treated fairly within the Program's framework and that the rules in force at the time of any decision are knowable, traceable, and applied consistently.
 
-## 14.1 Appeals Process — Two-Tier Structure
+## 14.1 Appeals Process, Two-Tier Structure
 
 The appeals process is structured in two tiers to address the institutional conflict between the Program Operator's certification revenue and its role as initial appeal-reviewer. Tier 1 is internal to the Program Operator; Tier 2 is independent of the Program Operator. The two-tier structure is the program's structural answer to the conflict-of-interest concern that an internal-only appeals process operating within the Program Operator's authority cannot fully mitigate the institutional conflict between the Operator's certification revenue and the Operator's role as reviewer.
 
@@ -1456,7 +1456,7 @@ A Licensee may appeal any certification status decision by submitting a written 
 
 The Program Operator will review the appeal within 15 business days and may convene the Technical Committee for methodological or interpretive questions. Operational appeals (testing logistics, sampling disputes, laboratory selection) are reviewed by the Program Operator directly.
 
-During Tier 1 review, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal — for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
+During Tier 1 review, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal, for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
 
 The standard for granting an appeal is whether the originally assigned status reflects the correct application of this Policy and the Lot Testing Schedule to the actual facts of the case.
 
@@ -1493,7 +1493,7 @@ Until such clarification is issued, the **more conservative interpretation gover
 
 The Program Operator maintains the operative version of each controlled document under document control with version numbers, effective dates, and change logs. The version in effect at the time of a certification decision governs that decision. Subsequent revisions do not retroactively alter prior decisions.
 
-All revisions are managed under document control procedures with transition periods for new requirements. Material changes — those that would alter eligibility, testing frequency, status criteria, or CAPA obligations — receive minimum transition periods consistent with the Standards Ratchet's 12-to-18-month rule in Part 2.10.
+All revisions are managed under document control procedures with transition periods for new requirements. Material changes, those that would alter eligibility, testing frequency, status criteria, or CAPA obligations, receive minimum transition periods consistent with the Standards Ratchet's 12-to-18-month rule in Part 2.10.
 
 ## 14.4 Conflict of Interest
 
@@ -1519,29 +1519,29 @@ Part 2 has now specified the HMTc Program in its operational form. A reader who 
 - Handle regulatory escalation as a hard-stop condition (2.11).
 - Appeal status determinations, recover from suspension, and operate under document control (2.12).
 
-Part 2.5, which follows, demonstrates how brands and QA teams use heavymetalindex.com — the public corpus introduced in Part 1.5 — as an active operational tool. Part 3 publishes the per-product standards.
+Part 2.5, which follows, demonstrates how brands and QA teams use heavymetalindex.com, the public corpus introduced in Part 1.5, as an active operational tool. Part 3 publishes the per-product standards.
 
 
 
 <!-- data/workbench/standards-book/parts/03-using-heavymetalindex-com/01-using-heavymetalindex-com.md -->
 
-# Part 2.5 — Using heavymetalindex.com
+# Part 2.5, Using heavymetalindex.com
 
 Part 1.5 introduced heavymetalindex.com as the public curated corpus of the heavy-metals-in-food literature that HMTc's standards rest on. That chapter established the architectural separation between HMI and the certification program and explained why the separation produces durable epistemic authority. This chapter is the operational complement: it demonstrates how brand QA teams, brand legal teams, and certification auditors **use** the corpus day-to-day in the course of operating under HMTc.
 
-The chapter has four sections. The first three describe how the corpus serves brand operations today; the fourth describes a roadmap capability — the brand-facing percentile-placement dashboard — that is on the program's near-term build path and that brands considering certification should expect to come online during their first license cycle.
+The chapter has four sections. The first three describe how the corpus serves brand operations today; the fourth describes a roadmap capability, the brand-facing percentile-placement dashboard, that is on the program's near-term build path and that brands considering certification should expect to come online during their first license cycle.
 
 This chapter exists for a strategic reason. The certification mark is the program's visible signal; the corpus is the program's value engine. A reader who finishes Part 2.5 should understand that HMTc is not just a certification mark backed by a methodology, but a certification mark backed by a continuously-maintained operational tool that brand QA teams lean on. That distinction is what separates HMTc from any single-point certification.
 
 ## 2.5.1 The diagnostic tool
 
-When a brand's lot tests come back with one or more analytes elevated above their typical range — even when still within the HMTc limit — the brand's first operational question is: *why*? Random analytical noise, a seasonal supplier shift, a new ingredient lot, a process change that wasn't documented as material, an upstream supply-chain event the brand has not yet been alerted to? The diagnostic tool is the relevant ingredient pages on heavymetalindex.com.
+When a brand's lot tests come back with one or more analytes elevated above their typical range, even when still within the HMTc limit, the brand's first operational question is: *why*? Random analytical noise, a seasonal supplier shift, a new ingredient lot, a process change that wasn't documented as material, an upstream supply-chain event the brand has not yet been alerted to? The diagnostic tool is the relevant ingredient pages on heavymetalindex.com.
 
 Each ingredient page on HMI carries a structured `contamination_profile` block summarizing what the literature says about typical and 95th-percentile concentrations for each priority metal in that commodity, with three additional structured layers:
 
-- **Geographic variance** — typical concentration ranges by growing region, with sample sizes from contributing sources. A brand sourcing cocoa from Ecuador can see what the published literature reports for Cd in Ecuadorian cocoa specifically, distinguished from Cd in cocoa from Côte d'Ivoire, Ghana, or Indonesia.
-- **Seasonal variance** — concentration ranges by harvest period and climate condition, where the literature reports them. The El Niño years 2015–2016 and 2023 are documented as drought-stress periods that elevate Cd uptake in Ecuadorian cocoa by roughly 40% above non-El-Niño baselines.
-- **Processing effects** — how polishing, rinsing, parboiling, fermentation, drying, milling, and refining shift concentrations of which metals. Each processing-effect claim is anchored to a cited source.
+- **Geographic variance**, typical concentration ranges by growing region, with sample sizes from contributing sources. A brand sourcing cocoa from Ecuador can see what the published literature reports for Cd in Ecuadorian cocoa specifically, distinguished from Cd in cocoa from Côte d'Ivoire, Ghana, or Indonesia.
+- **Seasonal variance**, concentration ranges by harvest period and climate condition, where the literature reports them. The El Niño years 2015–2016 and 2023 are documented as drought-stress periods that elevate Cd uptake in Ecuadorian cocoa by roughly 40% above non-El-Niño baselines.
+- **Processing effects**, how polishing, rinsing, parboiling, fermentation, drying, milling, and refining shift concentrations of which metals. Each processing-effect claim is anchored to a cited source.
 
 ### Worked example
 
@@ -1575,7 +1575,7 @@ For brands enrolled in the Confidential Remediation Track, this is the daily ope
 
 A future capability on the HMTc roadmap is the brand-facing percentile-placement dashboard. The dashboard will allow a brand with a license to log into the heavymetaltested.com platform and see, in real time:
 
-- Where their lot results sit relative to the pooled distribution of all certified Status A SKUs for the same product category and metal. A brand's lot at 12 ppb Pb in a category with a 30 ppb HMTc limit and a Status A median of 8 ppb sees themselves at "P67 of certified Status A pool" — better than two-thirds of certified competitors, worse than one-third.
+- Where their lot results sit relative to the pooled distribution of all certified Status A SKUs for the same product category and metal. A brand's lot at 12 ppb Pb in a category with a 30 ppb HMTc limit and a Status A median of 8 ppb sees themselves at "P67 of certified Status A pool", better than two-thirds of certified competitors, worse than one-third.
 - Their trend over time, with the pool's distribution overlay. Is the brand improving faster than the certified market, slower, or at the same pace? Is the brand's percentile placement getting better or worse as the certified pool tightens around them?
 - The projected next-cycle limit (per Part 2.10's forward forecast) overlaid on their current lot trajectory. Will the brand's current trajectory clear the projected next-cycle limit before enforcement, or will the brand need to accelerate reduction?
 
@@ -1592,9 +1592,9 @@ The brand identifies the product-category page on HMI that matches their SKU (on
 This pre-certification exercise tells the brand:
 
 - Whether their current production is likely to qualify for Status A immediately (most metals at or below the HMTc limit), Status B (one or more Tier 2 metals between 100% and 150% PoL), or only the Confidential Remediation Track.
-- Which metals are closest to the limit — the analytes most likely to drive a status determination.
-- Which ingredients in their formulation are the likely contributors — sourcing lever candidates.
-- What the rough magnitude of reformulation effort would be — small adjustments versus full sourcing-chain restructuring.
+- Which metals are closest to the limit, the analytes most likely to drive a status determination.
+- Which ingredients in their formulation are the likely contributors, sourcing lever candidates.
+- What the rough magnitude of reformulation effort would be, small adjustments versus full sourcing-chain restructuring.
 
 A brand whose pre-certification baseline suggests Status A or B can sign the license with reasonable confidence about their initial status. A brand whose pre-certification baseline suggests Status C-or-worse can sign the license with the understanding that the Confidential Remediation Track is their entry path, and can begin the technical-guidance conversations with the Program Operator before formal enrollment. Either way, the brand enters the program with their eyes open and their reformulation strategy informed by the same evidence base the Program Operator is using to set their limits.
 
@@ -1630,31 +1630,29 @@ Each Part 3 chapter contains:
 
 ## Chapter list
 
-| # | Chapter | Source | Status |
-|---|---|---|---|
-| 3.1 | Infant Formula, Powder (Non-Soy) | `data/workbench/briefings/infant-formula-powder-non-soy.md` | Pending Part 3 retemplate |
-| 3.2 | Infant Formula, Powder (Soy-Based) | `data/workbench/briefings/infant-formula-powder-soy-based.md` | Pending Part 3 retemplate |
-| 3.3 | Infant Formula, Ready-to-Feed Liquid (Non-Soy) | `data/workbench/briefings/infant-formula-rtf-liquid-non-soy.md` | Pending Part 3 retemplate |
-| 3.4 | Infant Formula, Ready-to-Feed Liquid (Soy-Based) | `data/workbench/briefings/infant-formula-rtf-liquid-soy-based.md` | Pending Part 3 retemplate |
-| 3.5 | Baby Cereals, Dry (Rice-Based) | `data/workbench/briefings/baby-cereals-dry-rice-based.md` | Pending Part 3 retemplate |
-| 3.6 | Baby Cereals, Dry (Non-Rice) | `data/workbench/briefings/baby-cereals-dry-non-rice.md` | Pending Part 3 retemplate |
-| 3.7 | Fruit Purées | `data/workbench/briefings/fruit-purees.md` | Pending Part 3 retemplate |
-| 3.8 | Non-Root Vegetable Purées | `data/workbench/briefings/non-root-vegetable-purees.md` | Pending Part 3 retemplate |
-| 3.9 | Root-Vegetable Purées | `data/workbench/briefings/root-vegetable-purees.md` | Pending Part 3 retemplate |
-| 3.10 | Meat and Poultry Purées | `data/workbench/briefings/meat-and-poultry-purees.md` | Pending Part 3 retemplate |
-| 3.11 | Fish-Containing Baby Foods | `data/workbench/briefings/fish-containing-baby-foods.md` | Pending Part 3 retemplate |
-| 3.12 | Mixed Meals (Rice-Containing) | `data/workbench/briefings/mixed-meals-rice-containing.md` | Pending Part 3 retemplate |
-| 3.13 | Mixed Meals (Non-Rice) | `data/workbench/briefings/mixed-meals-non-rice.md` | Pending Part 3 retemplate |
-| 3.14 | Teething and Snacks (Rice-Based) | `data/workbench/briefings/teething-and-snacks-rice-based.md` | Pending Part 3 retemplate |
-| 3.15 | Teething and Snacks (Non-Rice) | `data/workbench/briefings/teething-and-snacks-non-rice.md` | Pending Part 3 retemplate |
+The fifteen Part 3 chapters appear in document order below. Each chapter follows the structure named above and stands alone as a licensing exhibit when detached from the bound volume.
 
-## Editorial note
+| # | Chapter |
+|---|---|
+| 3.1 | Infant Formula, Powder (Non-Soy) |
+| 3.2 | Infant Formula, Powder (Soy-Based) |
+| 3.3 | Infant Formula, Ready-to-Feed Liquid (Non-Soy) |
+| 3.4 | Infant Formula, Ready-to-Feed Liquid (Soy-Based) |
+| 3.5 | Baby Cereals, Dry (Rice-Based) |
+| 3.6 | Baby Cereals, Dry (Non-Rice) |
+| 3.7 | Fruit Purées |
+| 3.8 | Non-Root Vegetable Purées |
+| 3.9 | Root-Vegetable Purées |
+| 3.10 | Meat and Poultry Purées |
+| 3.11 | Fish-Containing Baby Foods |
+| 3.12 | Mixed Meals (Rice-Containing) |
+| 3.13 | Mixed Meals (Non-Rice) |
+| 3.14 | Teething and Snacks (Rice-Based) |
+| 3.15 | Teething and Snacks (Non-Rice) |
 
-The fifteen chapters above exist today as Standards Briefings in `data/workbench/briefings/`. Each briefing is a complete, regression-tested document covering the Master Limit Table, per-analyte rationale, adversarial read, anti-circumvention argument, 9-gate pre-publication checklist, sources cited, and provenance footer. The briefings carry the substantive content required for Part 3.
+## How the Part 3 chapters were produced
 
-The retemplating work — inserting the toxicology callouts (per Part 2.2 and Part 5.3 Glossary), pruning the workbench-side engine arithmetic (per the wiki/HMTc firewall), aligning section headings to the bound-manual template, and standardizing source citation format — is mechanical work scheduled for the next session in the Program Manual build sequence (see the project plan).
-
-For the v0-pre-audit build of this manual, Part 3 is represented by this introduction and the briefing files referenced above. The v0 build assembles the source material so adversarial-audit work in Pre-work 6 can begin while Part 3 is retemplated in parallel. The audit-strengthened v0 of the bound manual will include the fifteen retemplated chapters in their final form.
+Each chapter is the deterministic output of a Standards Briefing generator (`tools/standards/render-part3-chapter.mjs` in the project repository) that retemplates the underlying Standards Briefing into the bound-manual format. The retemplating applies the Part 2.2 / Part 5.3 toxicology callout references, prunes engine-implementation vocabulary per the wiki/HMTc firewall, and adds chapter-level cross-references to Parts 2, 4, and 5. The substantive content (Master Limit Table values, per-analyte rationale, sources cited, provenance footer) is preserved from the underlying Standards Briefing without modification.
 
 ## Cross-references
 
@@ -1668,11 +1666,11 @@ For the v0-pre-audit build of this manual, Part 3 is represented by this introdu
 <!-- data/workbench/standards-book/parts/04-the-standards/01-infant-formula-powder-non-soy.md -->
 
 ---
-title: "HMTc Standards Briefing — Infant Formula, Powder (Non-Soy)"
+title: "HMTc Standards Briefing, Infant Formula, Powder (Non-Soy)"
 type: hmtc-standards-briefing
 product_slug: infant-formula-powder-non-soy
 native_basis: powder_as_placed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:28.854Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -1697,17 +1695,17 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for infant formula powder non soy.
 
@@ -1715,20 +1713,20 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---|---:|---|---|
 | Pb | **20 ppb** [powder]<br>≈ 3 ppb [prepared] | 62.966 ppb (capped to 20 by reg cap) | regulatory-alignment | 15 | stable | 20 ppb (eu2023_pb_formula_powder_20) |
 | iAs | **10 ppb** [powder]<br>≈ 2 ppb [prepared] | 8.655 ppb | literature-baseline | 7 | provisional | 20 ppb (eu2023_ias_formula_powder_20) |
-| tAs | **25 ppb** [powder]<br>≈ 5 ppb [prepared] | 23.730 ppb | literature-baseline | 17 | stable | — |
-| Sn | **100 ppb** [powder]<br>≈ 15 ppb [prepared] | 76.200 ppb | literature-baseline | 16 | stable | — |
-| Ni | **100 ppb** [powder]<br>≈ 10 ppb [prepared] | 57.635 ppb | literature-baseline | 7 | stable | — |
+| tAs | **25 ppb** [powder]<br>≈ 5 ppb [prepared] | 23.730 ppb | literature-baseline | 17 | stable |, |
+| Sn | **100 ppb** [powder]<br>≈ 15 ppb [prepared] | 76.200 ppb | literature-baseline | 16 | stable |, |
+| Ni | **100 ppb** [powder]<br>≈ 10 ppb [prepared] | 57.635 ppb | literature-baseline | 7 | stable |, |
 | Cd | **10 ppb** [powder]<br>≈ 2 ppb [prepared] | 8.432 ppb | literature-baseline | 21 | stable | 10 ppb (eu2023_cd_formula_cow_powder_10) |
-| Cr-VI | **50 ppb** [powder]<br>≈ 5 ppb [prepared] | 34.705 ppb | literature-baseline | 3 | stable | — |
-| Al | **5000 ppb** [powder]<br>≈ 500 ppb [prepared] | 3130.713 ppb | literature-baseline | 19 | provisional | — |
-| tHg | **2 ppb** [powder]<br>≈ 0.5 ppb [prepared] | 1.575 ppb | literature-baseline | 8 | provisional | — |
+| Cr-VI | **50 ppb** [powder]<br>≈ 5 ppb [prepared] | 34.705 ppb | literature-baseline | 3 | stable |, |
+| Al | **5000 ppb** [powder]<br>≈ 500 ppb [prepared] | 3130.713 ppb | literature-baseline | 19 | provisional |, |
+| tHg | **2 ppb** [powder]<br>≈ 0.5 ppb [prepared] | 1.575 ppb | literature-baseline | 8 | provisional |, |
 | MeHg | **1 ppb** [powder]<br>≈ 0.5 ppb [prepared] | 0.787 ppb (read-across) | feasibility-driven | 0 | feasibility-anchored (analytical LOQ binds) | EFSA TWI 1.3 µg/kg-bw/wk (exposure) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -1736,7 +1734,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -1764,10 +1762,10 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** The published value matches the lowest applicable regulatory ceiling (eu2023_pb_formula_powder_20). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 62.97 ppb sits above the cap, confirming the cap is the protective constraint.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (eu2023_pb_formula_powder_20). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 62.97 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** This threshold matches the binding government cap (eu2023_pb_formula_powder_20). A Daubert challenge on the value reduces to "is eu2023_pb_formula_powder_20 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
+**Brand legal read.** This threshold matches the binding government cap (eu2023_pb_formula_powder_20). A Daubert challenge on the value reduces to "is eu2023_pb_formula_powder_20 a legitimate regulatory anchor?", and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
 **Retailer compliance read.** A certified product tests at or below 20 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
@@ -1810,7 +1808,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** Pooled P97 from 7 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+**Defensibility.** Pooled P97 from 7 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 7 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -2066,7 +2064,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** Pooled P97 from 19 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+**Defensibility.** Pooled P97 from 19 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 19 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -2116,7 +2114,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** Pooled P97 from 8 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+**Defensibility.** Pooled P97 from 8 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 8 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -2176,7 +2174,7 @@ Each anchor is independently citable. The published threshold is the maximum of 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -2184,19 +2182,19 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
 **Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."**
-Response: For Pb, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
+Response: For Pb, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification, a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
 
 **Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
-Response: The sensitivity bands are explicitly reported per analyte. 3 analytes (iAs, Al, tHg) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
+Response: The sensitivity bands are explicitly reported per analyte. 3 analytes (iAs, Al, tHg) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
-**Attack 6: "Methylmercury — you have no data, but you published a value anyway."**
-Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor — the smallest concentration a competent lab can verify. Tagged `feasibility-driven` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.
+**Attack 6: "Methylmercury, you have no data, but you published a value anyway."**
+Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor, the smallest concentration a competent lab can verify. Tagged `feasibility-driven` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -2227,10 +2225,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -2264,7 +2262,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:28.866Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -2284,11 +2282,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/02-infant-formula-powder-soy-based.md -->
 
 ---
-title: "HMTc Standards Briefing — Infant Formula, Powder (Soy-Based)"
+title: "HMTc Standards Briefing, Infant Formula, Powder (Soy-Based)"
 type: hmtc-standards-briefing
 product_slug: infant-formula-powder-soy-based
 native_basis: powder_as_placed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:29.025Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -2313,31 +2311,31 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for infant formula powder soy based.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Ni | **1000 ppb** [powder]<br>≈ 100 ppb [prepared] | 1267 ppb (capped to 695 by reg cap) | literature-baseline | 2 | stable | — |
+| Ni | **1000 ppb** [powder]<br>≈ 100 ppb [prepared] | 1267 ppb (capped to 695 by reg cap) | literature-baseline | 2 | stable |, |
 | Cd | **10 ppb** [powder]<br>≈ 2 ppb [prepared] | 1536.566 ppb (capped to 8.3 by reg cap) | literature-baseline | 8 | stable | 20 ppb (eu2023_cd_formula_soy_powder_20) |
-| Al | **2000 ppb** [powder]<br>≈ 500 ppb [prepared] | 7016.933 ppb (capped to 1934.9 by reg cap) | literature-baseline | 6 | provisional | — |
+| Al | **2000 ppb** [powder]<br>≈ 500 ppb [prepared] | 7016.933 ppb (capped to 1934.9 by reg cap) | literature-baseline | 6 | provisional |, |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -2345,7 +2343,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -2445,7 +2443,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** Pooled P97 from 6 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+**Defensibility.** Pooled P97 from 6 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 6 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -2472,7 +2470,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -2480,13 +2478,13 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
 **Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
-Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Al) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
+Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Al) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -2513,10 +2511,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -2550,7 +2548,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:29.035Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -2570,11 +2568,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/03-infant-formula-rtf-liquid-non-soy.md -->
 
 ---
-title: "HMTc Standards Briefing — Infant Formula, RTF Liquid (Non-Soy)"
+title: "HMTc Standards Briefing, Infant Formula, RTF Liquid (Non-Soy)"
 type: hmtc-standards-briefing
 product_slug: infant-formula-rtf-liquid-non-soy
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:29.188Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -2599,31 +2597,31 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for infant formula rtf liquid non soy.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Ni | **20 ppb** [as-consumed]<br>≈ 200 ppb [powder] | 19.408 ppb | literature-baseline | 3 | stable | — |
+| Ni | **20 ppb** [as-consumed]<br>≈ 200 ppb [powder] | 19.408 ppb | literature-baseline | 3 | stable |, |
 | Cd | **1 ppb** [as-consumed]<br>≈ 10 ppb [powder] | 0.761 ppb | literature-baseline | 6 | stable | 5 ppb (eu2023_cd_formula_cow_liquid_5) |
-| Al | **1000 ppb** [as-consumed]<br>≈ 10000 ppb [powder] | 714.478 ppb | literature-baseline | 6 | stable | — |
+| Al | **1000 ppb** [as-consumed]<br>≈ 10000 ppb [powder] | 714.478 ppb | literature-baseline | 6 | stable |, |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -2631,7 +2629,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -2757,7 +2755,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -2765,7 +2763,7 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
@@ -2793,10 +2791,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -2830,7 +2828,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:29.198Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -2850,11 +2848,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/04-infant-formula-rtf-liquid-soy-based.md -->
 
 ---
-title: "HMTc Standards Briefing — Infant Formula, RTF Liquid (Soy-Based)"
+title: "HMTc Standards Briefing, Infant Formula, RTF Liquid (Soy-Based)"
 type: hmtc-standards-briefing
 product_slug: infant-formula-rtf-liquid-soy-based
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:29.352Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -2879,31 +2877,31 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for infant formula rtf liquid soy based.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Ni | *data gap* | — | no-data | 0 | no_data | — |
+| Ni | *data gap* |, | no-data | 0 | no_data |, |
 | Cd | **2 ppb** [as-consumed]<br>≈ 10 ppb [powder] | 3.616 ppb (capped to 1.1 by reg cap) | literature-baseline | 3 | stable | 10 ppb (eu2023_cd_formula_soy_liquid_10) |
-| Al | *data gap* | 768.747 ppb | no-data | 1 | stable | — |
+| Al | *data gap* | 768.747 ppb | no-data | 1 | stable |, |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -2911,7 +2909,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -3017,7 +3015,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -3025,7 +3023,7 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
@@ -3050,10 +3048,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -3087,7 +3085,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:29.362Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -3107,11 +3105,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/05-baby-cereals-dry-rice-based.md -->
 
 ---
-title: "HMTc Standards Briefing — Baby Cereals / Grain Products, Dry (Rice-Based)"
+title: "HMTc Standards Briefing, Baby Cereals / Grain Products, Dry (Rice-Based)"
 type: hmtc-standards-briefing
 product_slug: baby-cereals-dry-rice-based
 native_basis: dry_as_sold
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:29.517Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -3136,17 +3134,17 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for baby cereals dry rice based.
 
@@ -3156,11 +3154,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | iAs | **100 ppb** [dry]<br>≈ 15 ppb [prepared] | 261.782 ppb (capped to 90.0 by reg cap) | literature-baseline | 8 | stable | 100 ppb (fda2020_ias_infant_rice_cereal_100) |
 | Cd | **20 ppb** [dry]<br>≈ 3 ppb [prepared] | 137.662 ppb (capped to 17.5 by reg cap) | literature-baseline | 4 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -3168,7 +3166,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -3295,7 +3293,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -3303,7 +3301,7 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
@@ -3333,10 +3331,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -3370,7 +3368,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:29.527Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -3390,11 +3388,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/06-baby-cereals-dry-non-rice.md -->
 
 ---
-title: "HMTc Standards Briefing — Baby Cereals / Grain Products, Dry (Non-Rice)"
+title: "HMTc Standards Briefing, Baby Cereals / Grain Products, Dry (Non-Rice)"
 type: hmtc-standards-briefing
 product_slug: baby-cereals-dry-non-rice
 native_basis: dry_as_sold
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:29.681Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -3419,31 +3417,31 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for baby cereals dry non rice.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
 | Pb | **20 ppb** [dry]<br>≈ 3 ppb [prepared] | 172.239 ppb (capped to 20 by reg cap) | regulatory-alignment | 4 | stable | 20 ppb (fda2025_pb_dry_infant_cereal_20) |
-| iAs | **25 ppb** [dry]<br>≈ 5 ppb [prepared] | 24.439 ppb | literature-baseline | 2 | stable | — |
+| iAs | **25 ppb** [dry]<br>≈ 5 ppb [prepared] | 24.439 ppb | literature-baseline | 2 | stable |, |
 | Cd | **50 ppb** [dry]<br>≈ 10 ppb [prepared] | 43.065 ppb (capped to 40 by reg cap) | regulatory-alignment | 4 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -3451,7 +3449,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -3479,10 +3477,10 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** The published value matches the lowest applicable regulatory ceiling (fda2025_pb_dry_infant_cereal_20). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 172.24 ppb sits above the cap, confirming the cap is the protective constraint.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (fda2025_pb_dry_infant_cereal_20). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 172.24 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** This threshold matches the binding government cap (fda2025_pb_dry_infant_cereal_20). A Daubert challenge on the value reduces to "is fda2025_pb_dry_infant_cereal_20 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
+**Brand legal read.** This threshold matches the binding government cap (fda2025_pb_dry_infant_cereal_20). A Daubert challenge on the value reduces to "is fda2025_pb_dry_infant_cereal_20 a legitimate regulatory anchor?", and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
 **Retailer compliance read.** A certified product tests at or below 20 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
@@ -3547,10 +3545,10 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** The published value matches the lowest applicable regulatory ceiling (eu2023_cd_babyfood_cereal_40). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 43.07 ppb sits above the cap, confirming the cap is the protective constraint.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (eu2023_cd_babyfood_cereal_40). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 43.07 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** This threshold matches the binding government cap (eu2023_cd_babyfood_cereal_40). A Daubert challenge on the value reduces to "is eu2023_cd_babyfood_cereal_40 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
+**Brand legal read.** This threshold matches the binding government cap (eu2023_cd_babyfood_cereal_40). A Daubert challenge on the value reduces to "is eu2023_cd_babyfood_cereal_40 a legitimate regulatory anchor?", and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
 **Retailer compliance read.** A certified product tests at or below 50 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
@@ -3572,7 +3570,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -3580,13 +3578,13 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
 **Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."**
-Response: For Pb, Cd, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
+Response: For Pb, Cd, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification, a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -3610,10 +3608,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -3647,7 +3645,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:29.691Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -3667,11 +3665,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/07-fruit-purees.md -->
 
 ---
-title: "HMTc Standards Briefing — Fruit Purees"
+title: "HMTc Standards Briefing, Fruit Purees"
 type: hmtc-standards-briefing
 product_slug: fruit-purees
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:29.864Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -3696,17 +3694,17 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for fruit purees.
 
@@ -3714,14 +3712,14 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---|---:|---|---|
 | Pb | **10 ppb** [as-consumed]<br>≈ 50 ppb [powder] | 6.241 ppb | literature-baseline | 3 | provisional | 10 ppb (fda2025_pb_baby_food_10) |
 | iAs | *data gap* | 0.847 ppb | no-data | 1 | needs_review | 20 ppb (eu2023_ias_babyfood_20) |
-| tAs | **10 ppb** [as-consumed]<br>≈ 50 ppb [powder] | 5.001 ppb | literature-baseline | 4 | stable | — |
+| tAs | **10 ppb** [as-consumed]<br>≈ 50 ppb [powder] | 5.001 ppb | literature-baseline | 4 | stable |, |
 | Cd | *data gap* | 4.624 ppb | no-data | 4 | needs_review | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -3729,7 +3727,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -3757,7 +3755,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 10 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 10 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -3881,7 +3879,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -3889,13 +3887,13 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
 **Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
-Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Pb) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
+Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Pb) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -3918,10 +3916,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -3955,7 +3953,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:29.874Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -3975,11 +3973,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/08-non-root-vegetable-purees.md -->
 
 ---
-title: "HMTc Standards Briefing — Non-Root Vegetable Purees"
+title: "HMTc Standards Briefing, Non-Root Vegetable Purees"
 type: hmtc-standards-briefing
 product_slug: non-root-vegetable-purees
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:30.027Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -4004,17 +4002,17 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for non root vegetable purees.
 
@@ -4023,11 +4021,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Pb | *data gap* | 5.145 ppb | no-data | 2 | needs_review | 10 ppb (fda2025_pb_baby_food_10) |
 | Cd | **2 ppb** [as-consumed]<br>≈ 15 ppb [powder] | 1.538 ppb | literature-baseline | 2 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -4035,7 +4033,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -4118,7 +4116,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -4126,7 +4124,7 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
@@ -4150,10 +4148,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -4187,7 +4185,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:30.037Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -4207,11 +4205,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/09-root-vegetable-purees.md -->
 
 ---
-title: "HMTc Standards Briefing — Root-Vegetable Purees"
+title: "HMTc Standards Briefing, Root-Vegetable Purees"
 type: hmtc-standards-briefing
 product_slug: root-vegetable-purees
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:30.192Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -4236,17 +4234,17 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for root vegetable purees.
 
@@ -4255,11 +4253,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Pb | **2 ppb** [as-consumed]<br>≈ 10 ppb [powder] | 17.304 ppb (capped to 1.3 by reg cap) | literature-baseline | 3 | provisional | 20 ppb (fda2025_pb_root_baby_food_20) |
 | Cd | **5 ppb** [as-consumed]<br>≈ 50 ppb [powder] | 5.003 ppb (capped to 4.1 by reg cap) | literature-baseline | 2 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -4267,7 +4265,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -4295,7 +4293,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -4352,7 +4350,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -4360,13 +4358,13 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
 **Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
-Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Pb) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
+Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Pb) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -4388,10 +4386,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -4425,7 +4423,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:30.202Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -4445,11 +4443,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/10-meat-and-poultry-purees.md -->
 
 ---
-title: "HMTc Standards Briefing — Meat and Poultry Purees"
+title: "HMTc Standards Briefing, Meat and Poultry Purees"
 type: hmtc-standards-briefing
 product_slug: meat-and-poultry-purees
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:30.358Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -4474,32 +4472,32 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for meat and poultry purees.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | *data gap* | — | no-data | 0 | no_data | 10 ppb (fda2025_pb_baby_food_10) |
-| tAs | *data gap* | — | no-data | 0 | no_data | — |
-| Cd | *data gap* | — | no-data | 0 | no_data | 40 ppb (eu2023_cd_babyfood_cereal_40) |
-| tHg | *data gap* | 3.915 ppb | no-data | 1 | stable | — |
+| Pb | *data gap* |, | no-data | 0 | no_data | 10 ppb (fda2025_pb_baby_food_10) |
+| tAs | *data gap* |, | no-data | 0 | no_data |, |
+| Cd | *data gap* |, | no-data | 0 | no_data | 40 ppb (eu2023_cd_babyfood_cereal_40) |
+| tHg | *data gap* | 3.915 ppb | no-data | 1 | stable |, |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -4507,7 +4505,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -4625,7 +4623,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -4633,7 +4631,7 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
@@ -4656,10 +4654,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -4693,7 +4691,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:30.368Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -4713,11 +4711,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/11-fish-containing-baby-foods.md -->
 
 ---
-title: "HMTc Standards Briefing — Fish-Containing Baby Foods"
+title: "HMTc Standards Briefing, Fish-Containing Baby Foods"
 type: hmtc-standards-briefing
 product_slug: fish-containing-baby-foods
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:30.522Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -4742,17 +4740,17 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for fish containing baby foods.
 
@@ -4760,11 +4758,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---|---:|---|---|
 | MeHg | **0.5 ppb** [as-consumed]<br>≈ 5 ppb [powder] | 0.500 ppb (read-across) | feasibility-driven | 0 | feasibility-anchored (analytical LOQ binds) | EFSA TWI 1.3 µg/kg-bw/wk (exposure) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -4772,7 +4770,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -4821,7 +4819,7 @@ Each anchor is independently citable. The published threshold is the maximum of 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -4829,13 +4827,13 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
-**Attack 6: "Methylmercury — you have no data, but you published a value anyway."**
-Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor — the smallest concentration a competent lab can verify. Tagged `feasibility-driven` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.
+**Attack 6: "Methylmercury, you have no data, but you published a value anyway."**
+Response: The four-anchor read-across is documented in the MeHg per-analyte section. The empirical anchor (parent species pool: tHg ≈ 0 ppb in this matrix), the analytical anchor (Path B LOQ × 5), the regulatory anchor (EFSA TWI as exposure context), and the inferential anchor (non-fish matrix chemistry) are independently citable. The published value is the analytical floor, the smallest concentration a competent lab can verify. Tagged `feasibility-driven` with scheduled Tier 2 review when MeHg-specific occurrence data lands. The "no data" framing misrepresents the four-anchor defense.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -4855,10 +4853,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -4892,7 +4890,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:30.533Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -4912,11 +4910,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/12-mixed-meals-rice-containing.md -->
 
 ---
-title: "HMTc Standards Briefing — Mixed Meals, Rice-Containing"
+title: "HMTc Standards Briefing, Mixed Meals, Rice-Containing"
 type: hmtc-standards-briefing
 product_slug: mixed-meals-rice-containing
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:30.685Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -4941,31 +4939,31 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for mixed meals rice containing.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
 | Pb | **2 ppb** [as-consumed]<br>≈ 10 ppb [powder] | 15.052 ppb (capped to 1.1 by reg cap) | literature-baseline | 3 | stable | 10 ppb (fda2025_pb_baby_food_10) |
-| iAs | *data gap* | 12.380 ppb | no-data | 1 | stable | — |
+| iAs | *data gap* | 12.380 ppb | no-data | 1 | stable |, |
 | Cd | **3 ppb** [as-consumed]<br>≈ 20 ppb [powder] | 9.730 ppb (capped to 2.6 by reg cap) | literature-baseline | 3 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -4973,7 +4971,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -5090,7 +5088,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -5098,7 +5096,7 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
@@ -5123,10 +5121,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -5160,7 +5158,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:30.695Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -5180,11 +5178,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/13-mixed-meals-non-rice.md -->
 
 ---
-title: "HMTc Standards Briefing — Mixed Meals, Non-Rice"
+title: "HMTc Standards Briefing, Mixed Meals, Non-Rice"
 type: hmtc-standards-briefing
 product_slug: mixed-meals-non-rice
 native_basis: as_consumed
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:30.848Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -5209,31 +5207,31 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for mixed meals non rice.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
 | Pb | *data gap* | 6.949 ppb | no-data | 2 | needs_review | 10 ppb (fda2025_pb_baby_food_10) |
-| iAs | *data gap* | 7.505 ppb | no-data | 1 | needs_review | — |
+| iAs | *data gap* | 7.505 ppb | no-data | 1 | needs_review |, |
 | Cd | **10 ppb** [as-consumed]<br>≈ 100 ppb [powder] | 9.820 ppb | literature-baseline | 3 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -5241,7 +5239,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -5356,7 +5354,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -5364,7 +5362,7 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
@@ -5389,10 +5387,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -5426,7 +5424,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:30.858Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -5446,11 +5444,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/14-teething-and-snacks-rice-based.md -->
 
 ---
-title: "HMTc Standards Briefing — Teething & Snacks (Rice-Based)"
+title: "HMTc Standards Briefing, Teething & Snacks (Rice-Based)"
 type: hmtc-standards-briefing
 product_slug: teething-and-snacks-rice-based
 native_basis: as_sold
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:31.011Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -5475,31 +5473,31 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for teething and snacks rice based.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | **5 ppb** [as-sold]<br>≈ 1 ppb [prepared] | 7.828 ppb (capped to 4.9 by reg cap) | literature-baseline | 2 | stable | — |
+| Pb | **5 ppb** [as-sold]<br>≈ 1 ppb [prepared] | 7.828 ppb (capped to 4.9 by reg cap) | literature-baseline | 2 | stable |, |
 | iAs | **200 ppb** [as-sold]<br>≈ 25 ppb [prepared] | 231.660 ppb (capped to 148.3 by reg cap) | literature-baseline | 2 | provisional | 300 ppb (eu2023_ias_rice_products_300) |
-| Cd | **5 ppb** [as-sold]<br>≈ 1 ppb [prepared] | 6.809 ppb (capped to 3.5 by reg cap) | literature-baseline | 2 | stable | — |
+| Cd | **5 ppb** [as-sold]<br>≈ 1 ppb [prepared] | 6.809 ppb (capped to 3.5 by reg cap) | literature-baseline | 2 | stable |, |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -5507,7 +5505,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -5568,7 +5566,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-**Defensibility.** Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 300 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+**Defensibility.** Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 300 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
@@ -5624,7 +5622,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -5632,13 +5630,13 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
 **Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
-Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (iAs) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
+Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (iAs) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -5660,10 +5658,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -5697,7 +5695,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:31.021Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -5717,11 +5715,11 @@ Methodology implementation: deterministic open-source pooling engine and documen
 <!-- data/workbench/standards-book/parts/04-the-standards/15-teething-and-snacks-non-rice.md -->
 
 ---
-title: "HMTc Standards Briefing — Teething & Snacks (Non-Rice)"
+title: "HMTc Standards Briefing, Teething & Snacks (Non-Rice)"
 type: hmtc-standards-briefing
 product_slug: teething-and-snacks-non-rice
 native_basis: as_sold
-methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
+methodology_version: HMTc-10 / P97-P45 (per Governing Principles v2.0)
 generated_at: 2026-05-14T09:09:31.181Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
@@ -5746,31 +5744,31 @@ noindex: true
 
 The HMTc certification mark serves multiple audiences with different concerns. This briefing is written so each audience finds what they need in one document. Audience-tagged "read" callouts appear inline next to each per-analyte section.
 
-**Brand legal teams** — Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
+**Brand legal teams**, Read the per-analyte Defensibility narrative and the Adversarial read section. The methodology section is your Daubert-resistance reference. Every numeric claim traces to a source page; the contribution logs document admission criteria.
 
-**Retailer quality and compliance** — Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
+**Retailer quality and compliance**, Read the Master Limit Table and the per-analyte Regulator read callouts. The certification mark on a product means the brand has tested at or below every value in the Master Limit Table, in the product's native basis. The regulatory comparison rows show which government caps apply and how HMTc thresholds compare.
 
-**Regulators (FDA, EFSA, state AGs)** — Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
+**Regulators (FDA, EFSA, state AGs)**, Read the Methodology section, the Sources Cited table, and the Anti-Circumvention argument. The methodology is open, reproducible, and follows the WHO/JECFA, EFSA, ATSDR, and Codex precedents cited. Numeric thresholds are derived from a pooled occurrence distribution of peer-reviewed and agency data, weighted by source N with a 50% relative-share cap.
 
-**Adversarial readers (plaintiff's experts, competing standards bodies)** — Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
+**Adversarial readers (plaintiff's experts, competing standards bodies)**, Read the per-analyte Defensibility narrative, the Adversarial read section, the contribution logs, and the sensitivity analyses. Every value carries: the pool composition, the basis-conversion math, the regulatory cap comparison, the parametric sensitivity, and the rationale for any gap between literature and threshold.
 
 ---
 
-## Master Limit Table — Executive Summary
+## Master Limit Table, Executive Summary
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for teething and snacks non rice.
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | *data gap* | — | no-data | 0 | no_data | — |
-| iAs | *data gap* | — | no-data | 0 | no_data | — |
-| Cd | *data gap* | — | no-data | 0 | no_data | — |
+| Pb | *data gap* |, | no-data | 0 | no_data |, |
+| iAs | *data gap* |, | no-data | 0 | no_data |, |
+| Cd | *data gap* |, | no-data | 0 | no_data |, |
 
-**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
+**How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to the four allowed rationale tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
 ---
 
-## Methodology — one page
+## Methodology, one page
 
 **Per-analyte standards.** For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
 
@@ -5778,7 +5776,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 - **Dirty subcategory:** standard = pooled P45
 - **Independent (no within-pair partner):** standard = pooled P97 by default
 
-**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
+**Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require, approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification, per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
 **Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
@@ -5865,7 +5863,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ---
 
-## Adversarial Read — what a plaintiff's expert will attack, and the response
+## Adversarial Read, what a plaintiff's expert will attack, and the response
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
 
@@ -5873,7 +5871,7 @@ This section explicitly addresses the most likely attack vectors a plaintiff's e
 Response: The pool admits every source that contributes a usable statistic (sample-level data, percentile vector, mean, median, max, lb/ub mean, range). No source is excluded for being "summary-only." The contribution log per analyte lists every admission decision and every basis conversion. Per-source pool share is capped at 50% to prevent dominance by any single survey. The methodology is reproducible from the structured CSVs in `data/evidence/` and the engine in `tools/evidence/build-hmtc-aggregate-distributions.mjs`.
 
 **Attack 2: "Why P97 instead of P90? You're loosening the standard."**
-Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation — well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
+Response: P97 per analyte is calibrated to deliver approximately 90% row-pass for the clean subcategory across the 10-analyte joint. Setting each analyte's limit at P90 of its own marginal would deliver a joint pass rate of 35% under independence and 50-70% under realistic correlation, well short of the Governing Principles' 90/30 row-pass target. P97 is the per-analyte percentile that delivers the row-level outcome the program promises. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening.
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
@@ -5896,10 +5894,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 In addition to occurrence sources, this briefing cites:
 
-- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026) — the five governing principles and the locked P97/P45 methodology
-- `wiki/regulations/efsa-methylmercury-twi.md` — EFSA TWI 1.3 µg/kg-bw/week for MeHg
-- `wiki/regulations/epa-iris-methylmercury-rfd.md` — EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
-- `wiki/regulations/jecfa-methylmercury-ptwi.md` — JECFA PTWI 1.6 µg/kg-bw/week for MeHg
+- `docs/governance/hmtc-governing-principles.md` (v2.0, May 2026), the five governing principles and the locked P97/P45 methodology
+- `wiki/regulations/efsa-methylmercury-twi.md`, EFSA TWI 1.3 µg/kg-bw/week for MeHg
+- `wiki/regulations/epa-iris-methylmercury-rfd.md`, EPA IRIS RfD 0.1 µg/kg-bw/day for MeHg
+- `wiki/regulations/jecfa-methylmercury-ptwi.md`, JECFA PTWI 1.6 µg/kg-bw/week for MeHg
 - WHO/JECFA pooled total-diet-study methodology
 - EFSA Scientific Opinions on Pb (2010, 2024) and Cd (2009, 2024)
 - ATSDR moment-matching guidance for summary-statistic sources
@@ -5933,7 +5931,7 @@ This briefing is reproducible by:
 | Generated at | 2026-05-14T09:09:31.191Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
-| Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
+| Methodology version | HMTc-10 / P97-P45 per / Governing Principles v2.0 |
 | Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
@@ -5977,7 +5975,7 @@ The full content of the Lot Testing Schedule appears below, reproduced from `dat
 <!-- inlined from data/workbench/standards-book/source-documents/lot-testing-schedule.md -->
 
 
-**Heavy Metal Tested & Certified — Infant and Child Foods Standards Program**
+**Heavy Metal Tested & Certified, Infant and Child Foods Standards Program**
 
 *Companion Document to the HMTc Governance Policy*
 
@@ -6210,7 +6208,7 @@ A complete chain-of-custody record is required for every sample, from the point 
 
 When a documented breach is identified, the lot's result is treated as invalid and the lot is subject to retest per a Program Operator-approved confirmatory protocol. Repeated breaches at the same Licensee or laboratory trigger data-integrity escalation per Governance Policy §8.2 and may result in Status D suspension.
 
-**Discretion for minor procedural lapses.** The Program Operator may exercise discretion on minor procedural lapses where substantive sample integrity is preserved — for example, a timestamp recorded one hour late where the actual custody record (signatures, transfers) is intact. Such discretion is documented in the case record and is not exercised when sample integrity itself is in doubt. The default disposition for any chain-of-custody ambiguity is invalidation; discretion applies only to clearly procedural rather than substantive lapses.
+**Discretion for minor procedural lapses.** The Program Operator may exercise discretion on minor procedural lapses where substantive sample integrity is preserved, for example, a timestamp recorded one hour late where the actual custody record (signatures, transfers) is intact. Such discretion is documented in the case record and is not exercised when sample integrity itself is in doubt. The default disposition for any chain-of-custody ambiguity is invalidation; discretion applies only to clearly procedural rather than substantive lapses.
 
 ### 10.3 Laboratory Requirements
 
@@ -6307,13 +6305,13 @@ This Lot Testing Schedule shall be reviewed at least annually or upon any update
 
 # 5.1 How HMTc Standards Are Set
 
-A reader who has worked through Parts 1, 2, 2.5, 3, and 4 has encountered every operational element of the HMTc Program: why it exists, how it is governed, how brands use the evidence base, what the per-product standards are, and how surveillance operates. What remains is the methodology that ties the operational program back to its underlying analytical work. This chapter specifies, in principle and at appropriate detail, how a specific number — say, *10 ppb lead for infant formula powder* — gets produced and what an adversarial reviewer can verify about it.
+A reader who has worked through Parts 1, 2, 2.5, 3, and 4 has encountered every operational element of the HMTc Program: why it exists, how it is governed, how brands use the evidence base, what the per-product standards are, and how surveillance operates. What remains is the methodology that ties the operational program back to its underlying analytical work. This chapter specifies, in principle and at appropriate detail, how a specific number, say, *10 ppb lead for infant formula powder*, gets produced and what an adversarial reviewer can verify about it.
 
 This chapter respects the wiki/HMTc firewall: the engine arithmetic stays workbench-side, where it is protected as a trade secret per the Colophon (Part 5.7) and where exposing it would let competing certifiers shortcut years of methodology development. The **principle** of standards-setting is in this chapter; the **mechanism** is in the Governing Principles; the **inputs** are on heavymetalindex.com and are publicly auditable.
 
 ## The evidence base, and what auditable means
 
-Every concentration limit in Part 3 of this manual was derived from a pooled distribution of source pages on heavymetalindex.com for the relevant product-by-metal cell. The pooling math — the per-analyte percentile calculations, the source-level bootstrap analysis, the sensitivity-band evaluation — lives in `data/workbench/` per the wiki/HMTc firewall documented in CLAUDE.md Part 2 and referenced in Part 1.5 of this manual. But the **inputs** to the pooling — the source pages contributing to each cell — are public.
+Every concentration limit in Part 3 of this manual was derived from a pooled distribution of source pages on heavymetalindex.com for the relevant product-by-metal cell. The pooling math (the per-analyte percentile calculations, the source-level bootstrap analysis, the methodology stability checks across alternative parametric assumptions) lives on the workbench-side infrastructure under the wiki/HMTc firewall established by the HMTc Governing Principles (Principle 4) and described in Part 1.5 of this manual. But the **inputs** to the pooling, the source pages contributing to each cell, are public.
 
 An adversarial reader who wants to audit a specific HMTc limit can follow this path:
 
@@ -6329,7 +6327,7 @@ This design preserves the firewall while making the evidence inputs auditable. *
 
 **Qualified reviewers** include:
 
-- **Regulatory bodies acting under official inquiry** — FDA, EFSA, state attorneys general, equivalent international agencies — who require methodology audit access for regulatory analysis or rulemaking purposes.
+- **Regulatory bodies acting under official inquiry**, FDA, EFSA, state attorneys general, equivalent international agencies, who require methodology audit access for regulatory analysis or rulemaking purposes.
 - **Plaintiff's or defense counsel requesting access for active litigation** in which an HMTc-certified product is at issue or in which HMTc certification or methodology has been raised by either party.
 - **Certified or pending HMTc Licensees auditing the methodology** that produces their own product category's standards. Licensees have a contractual audit right under the License Agreement (see Part 5.6).
 - **Academic researchers conducting peer-track review** with institutional approval and a documented research protocol that includes confidentiality undertakings.
@@ -6357,7 +6355,7 @@ These targets are the policy choice. They sit at the intersection of all five Go
 
 #### Clean vs. dirty platform classification rule
 
-A *platform* is a subcategory of products within a parent product category — for example, soy-based versus non-soy-based infant formula, powder versus ready-to-feed liquid, rice-based versus non-rice baby cereal. Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile, so the classification rule is load-bearing.
+A *platform* is a subcategory of products within a parent product category, for example, soy-based versus non-soy-based infant formula, powder versus ready-to-feed liquid, rice-based versus non-rice baby cereal. Platform classification determines whether per-analyte standards use the P97 (clean) or P45 (dirty) percentile, so the classification rule is load-bearing.
 
 **The classification rule is data-driven:** a platform is classified *clean* when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; *dirty* when meaningfully above. "Meaningfully above" is operationalized as p50(subcategory) > 1.5 × p50(parent category) for at least one Tier 1 metal. Platforms not meeting the dirty threshold are classified clean by default.
 
@@ -6374,22 +6372,22 @@ The reasoning is the row-pass calibration: a brand certifies a product (one row,
 
 The analyte-correlation estimate of approximately 0.6 is consistent with cross-analyte correlation observed in published surveillance datasets (FDA Total Diet Study; EFSA scientific opinions on Pb, Cd, and iAs in food). It is an estimate from external surveillance data, not a measurement from HMTc-internal lot data. The 12-month post-launch methodology review will measure empirical analyte correlation from HMTc lot results and may revise the per-analyte percentile uplift if the empirical correlation diverges materially from the assumed value.
 
-The uplift is uniform across all analytes today. Per-analyte differentiation — for example, lead tighter than nickel based on regulatory pressure or toxicology — is a Tier 2 calibration deferred until HMTc has accumulated 6–12 months of lot-testing data to measure actual joint pass rates empirically.
+The uplift is uniform across all analytes today. Per-analyte differentiation, for example, lead tighter than nickel based on regulatory pressure or toxicology, is a Tier 2 calibration deferred until HMTc has accumulated 6–12 months of lot-testing data to measure actual joint pass rates empirically.
 
 ### Layer 3: Pool admission, basis, regulatory cap, and rationale tagging
 
 Every source loaded for a (row, metal) cell contributes to the pooled distribution unless explicitly dispositioned out with a stated reason. Sample-level data uses raw values; summary-only sources (mean, median, max, SD, lower/upper bound, IQR) contribute via moment-matching pseudo-sample expansion under log-normal or gamma assumptions following the standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food).
 
-Sources are weighted by their reported sample size, capped at twice the median per-source N. The cap prevents any single large survey — for example, a 5,000-sample FDA TDS sub-extract — from dominating the pooled distribution for a cell where most contributing sources have N=50–200. The 2× ratio preserves large-N influence proportionally while preventing pool concentration in a single source. Without the cap, a single large survey could effectively determine the per-analyte percentile for a cell regardless of what other contributing sources report; with the cap, the percentile reflects the weighted consensus of the corpus rather than the dominant single survey.
+Sources are weighted by their reported sample size, capped at twice the median per-source N. The cap prevents any single large survey, for example, a 5,000-sample FDA TDS sub-extract, from dominating the pooled distribution for a cell where most contributing sources have N=50–200. The 2× ratio preserves large-N influence proportionally while preventing pool concentration in a single source. Without the cap, a single large survey could effectively determine the per-analyte percentile for a cell regardless of what other contributing sources report; with the cap, the percentile reflects the weighted consensus of the corpus rather than the dominant single survey.
 
 Each row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, purée rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as-sold ↔ dry-as-sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
 
 The final HMTc value is `min(per-analyte pooled percentile, lowest applicable regulatory ceiling)`, with both expressed in the row's native basis. The cap is converted into native basis if it was published in a different one. The rationale tag is one of:
 
-- **literature-baseline** — the pooled percentile binds. This is the typical case where HMTc's methodology produces a value at or below the regulatory floor.
-- **regulatory-alignment** — the cap binds. The pooled percentile is higher than the regulatory ceiling, and the ceiling governs.
-- **precautionary** — a standard set lower than both the pooled percentile and the cap when staff document a precautionary rationale (vulnerable-population concern, cumulative exposure, scientific uncertainty).
-- **feasibility-driven** — a standard set higher than the pooled percentile only via a documented feasibility-driven rationale paired with a sunset plan to tighten as analytical methods or supply-chain practices improve. **The gap between literature-baseline and the final value, if any, is stated honestly.**
+- **literature-baseline**, the pooled percentile binds. This is the typical case where HMTc's methodology produces a value at or below the regulatory floor.
+- **regulatory-alignment**, the cap binds. The pooled percentile is higher than the regulatory ceiling, and the ceiling governs.
+- **precautionary**, a standard set lower than both the pooled percentile and the cap when staff document a precautionary rationale (vulnerable-population concern, cumulative exposure, scientific uncertainty).
+- **feasibility-driven**, a standard set higher than the pooled percentile only via a documented feasibility-driven rationale paired with a sunset plan to tighten as analytical methods or supply-chain practices improve. **The gap between literature-baseline and the final value, if any, is stated honestly.**
 
 ### Layer 4: Ratchet trigger (post-publication, distinct from initial limit-setting)
 
@@ -6403,7 +6401,7 @@ A plaintiff's expert reading this chapter could advance three categories of atta
 
 The first attack fails because the principle is documented here, the mechanism is documented in the Governing Principles, and qualified reviewers can request the engine outputs under controlled terms. The methodology is opaque in the sense that the engine code is a trade secret; it is not opaque in the sense that the reasoning is unverifiable.
 
-The second attack fails because the 90/30 policy choice traces to the five Governing Principles. An attacker who wants to argue that a different policy choice would better serve the Governing Principles can do so on the merits — and that argument is exactly the kind of public discourse a credible standards program welcomes. The program does not claim that 90/30 is the only defensible calibration; it claims that 90/30 is the calibration that best serves the five principles simultaneously, and welcomes principled counterarguments.
+The second attack fails because the 90/30 policy choice traces to the five Governing Principles. An attacker who wants to argue that a different policy choice would better serve the Governing Principles can do so on the merits, and that argument is exactly the kind of public discourse a credible standards program welcomes. The program does not claim that 90/30 is the only defensible calibration; it claims that 90/30 is the calibration that best serves the five principles simultaneously, and welcomes principled counterarguments.
 
 The third attack fails because the source pages are public. An attacker who believes a relevant source has been omitted can check the routing audit and the source's frontmatter; an attacker who believes an irrelevant source has been included can apply the same check. Selection bias arguments must point to specific source pages whose inclusion or exclusion is in dispute; they cannot be advanced in the abstract because the corpus is open.
 
@@ -6437,13 +6435,13 @@ The principle of standards-setting is specified at sufficient depth in Part 5.1 
 
 ## Toxicological anchor language
 
-**Attack.** "The Tier 1 classification rationale in Part 2.2 uses shorthand framings — 'no safe threshold,' 'genotoxic carcinogen' — that are stronger than the cited authorities' actual language. EFSA's actual conclusion on lead, for example, was that 'a threshold for the critical effects could not be identified,' which is not identical to 'no safe threshold.' The manual overstates the toxicological consensus."
+**Attack.** "The Tier 1 classification rationale in Part 2.2 uses shorthand framings, 'no safe threshold,' 'genotoxic carcinogen', that are stronger than the cited authorities' actual language. EFSA's actual conclusion on lead, for example, was that 'a threshold for the critical effects could not be identified,' which is not identical to 'no safe threshold.' The manual overstates the toxicological consensus."
 
 **Response.** Part 2.2 Tier 1 and Tier 2 rationale columns have been revised to use the cited authorities' actual language. The lead entry now reads: "EFSA (2010) concluded that 'a threshold for the critical effects of lead in children's neurodevelopment could not be identified' (BMDL01 = 12 µg/L blood lead for one-point IQ decrement). JECFA (2011) withdrew its PTWI on the grounds that 'conventional tolerable intake values were no longer health-protective' for endpoints without an identifiable threshold." Analogous revisions apply to cadmium, arsenic, and methylmercury. The substantive toxicological positions are unchanged; the framing now matches the cited authorities' actual statements.
 
 ## Chain-of-custody enforceability
 
-**Attack.** "The Lot Testing Schedule §10.2 says chain-of-custody breach 'may invalidate' results — discretionary. The Governance Policy §8.2 names chain-of-custody breach as a data-integrity violation triggering Status D — categorical. The tension is exploitable: defense experts argue 'may' is discretionary; plaintiff's experts argue §8.2 makes it categorical."
+**Attack.** "The Lot Testing Schedule §10.2 says chain-of-custody breach 'may invalidate' results, discretionary. The Governance Policy §8.2 names chain-of-custody breach as a data-integrity violation triggering Status D, categorical. The tension is exploitable: defense experts argue 'may' is discretionary; plaintiff's experts argue §8.2 makes it categorical."
 
 **Response.** The Lot Testing Schedule §10.2 has been revised. Any documented breach invalidates the result and is treated as a data-integrity issue per Governance Policy §8.2. Five specific breach types are enumerated (custody gap, broken seal, non-conforming labeling, transport non-conformance, receipt discrepancy). Discretion is preserved only for clearly minor procedural lapses where substantive integrity is preserved (e.g., a one-hour-late timestamp where actual custody record is intact); the default disposition for any chain-of-custody ambiguity is invalidation. The discretion-vs-categorical tension is resolved in favor of categorical invalidation with narrow, documented procedural-discretion exceptions.
 
@@ -6451,7 +6449,7 @@ The principle of standards-setting is specified at sufficient depth in Part 5.1 
 
 **Attack.** "The ratchet trigger is gameable. A dominant brand could withhold its best-performing SKUs from Status A by delaying CAPA closure, keeping the trigger percentile up. A coalition of large brands could manipulate the breadth condition through SKU consolidation. A brand could exit and re-enter the program to reset its grandfathering status. The rule is structurally vulnerable to three documented gaming pathways."
 
-**Response.** Part 2.10 §12.3 has been revised with three anti-gaming clauses. (1) The trigger pool now combines Status A and Status B lot results, making withholding gaming impossible — keeping a SKU at Status B no longer keeps its data out of the trigger calculation. (2) A single-Licensee cap limits any one Licensee to contributing no more than 25% of the SKUs in the trigger pool for a given analyte; SKUs above the cap are randomly excluded from the trigger calculation to prevent dominant-brand manipulation. (3) Part 2.10 §12.7 adds the exit-and-re-enter prohibition: a Licensee that withdraws and re-enrolls within 24 months is evaluated against the current standard at re-entry, not the standard in effect at original exit. Grandfathering applies only to continuous certification.
+**Response.** Part 2.10 §12.3 has been revised with three anti-gaming clauses. (1) The trigger pool now combines Status A and Status B lot results, making withholding gaming impossible, keeping a SKU at Status B no longer keeps its data out of the trigger calculation. (2) A single-Licensee cap limits any one Licensee to contributing no more than 25% of the SKUs in the trigger pool for a given analyte; SKUs above the cap are randomly excluded from the trigger calculation to prevent dominant-brand manipulation. (3) Part 2.10 §12.7 adds the exit-and-re-enter prohibition: a Licensee that withdraws and re-enrolls within 24 months is evaluated against the current standard at re-entry, not the standard in effect at original exit. Grandfathering applies only to continuous certification.
 
 Each gaming pathway is now structurally prevented rather than merely identified.
 
@@ -6459,7 +6457,7 @@ Each gaming pathway is now structurally prevented rather than merely identified.
 
 **Attack.** "The Standards Architect is also CEO of the Paleo Foundation. The dual role is disclosed in the colophon, but disclosure is not mitigation. The appeals process is internal to the Program Operator, which is the entity with financial interest in upholding the determination. A Licensee challenging a status determination is appealing to the entity whose revenue depends on the determination being upheld. The §14.4 individual-conflict provision addresses reviewer conflicts but not the institutional one."
 
-**Response.** Part 2.12 §14.1 now specifies a **two-tier appeals process**. Tier 1 is the internal Program Operator review (the existing process). Tier 2 is an **independent Appeals Committee** composed of three external reviewers — a toxicologist or food-safety scientist, a food-industry quality professional, a legal advisor with regulatory-affairs background — none of whom are employed by or under contract to the Paleo Foundation. Committee members serve two-year staggered terms, sit on no more than three appeals per calendar year, and recuse from cases involving Licensees they have relationships with. **Tier 2 reversals are binding on the Program Operator.** The Committee operates under a funding structure that prevents financial dependence on case outcomes. Anonymized appeal outcomes are published in the annual transparency report.
+**Response.** Part 2.12 §14.1 now specifies a **two-tier appeals process**. Tier 1 is the internal Program Operator review (the existing process). Tier 2 is an **independent Appeals Committee** composed of three external reviewers, a toxicologist or food-safety scientist, a food-industry quality professional, a legal advisor with regulatory-affairs background, none of whom are employed by or under contract to the Paleo Foundation. Committee members serve two-year staggered terms, sit on no more than three appeals per calendar year, and recuse from cases involving Licensees they have relationships with. **Tier 2 reversals are binding on the Program Operator.** The Committee operates under a funding structure that prevents financial dependence on case outcomes. Anonymized appeal outcomes are published in the annual transparency report.
 
 The two-tier structure is the program's structural answer to the institutional conflict. A Licensee dissatisfied with the Program Operator's internal review has binding recourse to a body independent of the Program Operator. The disclosure of the Standards Architect / CEO dual role remains in the Colophon as a transparency element; the independent Appeals Committee is the mitigation that disclosure alone does not provide.
 
@@ -6477,7 +6475,7 @@ The two-tier structure is the program's structural answer to the institutional c
 
 ## Citation completeness
 
-**Attack.** "The manual makes specific numeric claims — '$2.0 million per major case,' '$28,000 Prop 65 settlement,' '7.8 µg lead/day aggregate' — without inline citation. A reviewer cannot move from a numeric claim to the source page in one step."
+**Attack.** "The manual makes specific numeric claims, '$2.0 million per major case,' '$28,000 Prop 65 settlement,' '7.8 µg lead/day aggregate', without inline citation. A reviewer cannot move from a numeric claim to the source page in one step."
 
 **Response.** Key numeric claims in Parts 1, 2, and 5 now carry inline bracketed citations to their primary sources (e.g., *Federal Judicial Center, Litigation Cost Survey of Major Companies*; *People v. Promix Nutrition*, Prop. 65 Settlement; *FDA, Guidance for Industry: Action Levels for Lead...*, January 2025). The Consolidated Sources Index in Part 5.4 provides the full list of cited authorities. The citation chain is now navigable inline rather than requiring traversal through the Index.
 
@@ -6499,25 +6497,25 @@ The auditability claim is now operationally specified with a documented response
 
 **Attack.** "The Track produces 'a documented, timestamped, third-party-verified record of continuous improvement.' But the record is held by the Program Operator. In discovery, the record is potentially compellable from the Program Operator under subpoena. The Track does not provide attorney-client privilege or work-product protection. Brands relying on the Track for legal defensibility may be misled about how strong the protection actually is."
 
-**Response.** Part 2.4 now includes an explicit §"Discovery dynamics — honest disclosure" section. Track data is held by the Program Operator as a service provider; it is potentially compellable under subpoena; the License Agreement specifies that the Program Operator will notify the Licensee and cooperate with the Licensee's defense to the extent legally permissible. **The Track does not provide attorney-client privilege or work-product protection over the testing data**; what it provides is contemporaneous, third-party-verified evidence of due diligence. The evidence is admissible *for* the brand's defense; it is also discoverable by plaintiffs. The structural value is that the evidence exists, is timestamped, and was generated in good faith before any litigation was foreseeable. Brands evaluating the Track are explicitly directed to consult counsel about how the Track interacts with their broader discovery posture.
+**Response.** Part 2.4 now includes an explicit §"Discovery dynamics, honest disclosure" section. Track data is held by the Program Operator as a service provider; it is potentially compellable under subpoena; the License Agreement specifies that the Program Operator will notify the Licensee and cooperate with the Licensee's defense to the extent legally permissible. **The Track does not provide attorney-client privilege or work-product protection over the testing data**; what it provides is contemporaneous, third-party-verified evidence of due diligence. The evidence is admissible *for* the brand's defense; it is also discoverable by plaintiffs. The structural value is that the evidence exists, is timestamped, and was generated in good faith before any litigation was foreseeable. Brands evaluating the Track are explicitly directed to consult counsel about how the Track interacts with their broader discovery posture.
 
 ## Standards Ratchet step-cap dynamics
 
 **Attack.** "The 20% step cap is presented as protection for Licensees. But the trigger conditions in §12.3 use the *current* limit. After a 20% reduction, the trigger recomputes against the new (tighter) limit. The 'held-over' residual may never resurface because the market may consolidate at the new limit before producing another two-cycle confirmation. The manual claims the residual 'may trigger again' but does not show the dynamics."
 
-**Response.** Part 2.10 §12.4 now includes a **worked example** demonstrating the step-cap dynamics. The example shows that when the market moves beyond the 20% cap, the cap holds the first cycle's tightening at 20%, then the residual surfaces at the next annual review when the trigger recomputes against the new (tighter) limit. The example demonstrates that the residual does resurface — the dynamics are not pathological — but the cadence is determined by market behavior, not by mechanical compounding. Brands can model their future obligations against the example with confidence.
+**Response.** Part 2.10 §12.4 now includes a **worked example** demonstrating the step-cap dynamics. The example shows that when the market moves beyond the 20% cap, the cap holds the first cycle's tightening at 20%, then the residual surfaces at the next annual review when the trigger recomputes against the new (tighter) limit. The example demonstrates that the residual does resurface, the dynamics are not pathological, but the cadence is determined by market behavior, not by mechanical compounding. Brands can model their future obligations against the example with confidence.
 
 ## Aggregate-exposure framing accuracy
 
 **Attack.** "The Part 2.2 aggregate-exposure calculation uses 5 ppb formula (below the FDA action level) but 20 ppb cereal and root vegetables (at the action level). The asymmetry is rhetorically tuned. The calculation should use either worst-case values (all at FDA action levels) or surveillance medians, not a mix."
 
-**Response.** Part 2.2 has been revised to use the FDA action level uniformly across all four food categories: 10 ppb formula, 20 ppb dry cereal, 10 ppb fruit purée, 20 ppb root-vegetable purée. The revised calculation yields approximately **10.4 µg lead per day** — more than **4.7 times** the FDA Interim Reference Level of 2.2 µg/day. This is a stronger version of the same argument with no asymmetric value selection. The toxicology-callouts.md aggregate-exposure cross-callout was revised in parallel.
+**Response.** Part 2.2 has been revised to use the FDA action level uniformly across all four food categories: 10 ppb formula, 20 ppb dry cereal, 10 ppb fruit purée, 20 ppb root-vegetable purée. The revised calculation yields approximately **10.4 µg lead per day**, more than **4.7 times** the FDA Interim Reference Level of 2.2 µg/day. This is a stronger version of the same argument with no asymmetric value selection. The toxicology-callouts.md aggregate-exposure cross-callout was revised in parallel.
 
 ## Supplier-intelligence anonymization
 
 **Attack.** "Part 2.9 anonymizes alerts by removing brand identifiers, but ingredient × geography × timing is often a near-unique identifier. A sophisticated observer correlating a brand's public sourcing disclosures with the timing of alerts can identify the reporting brand. Anonymization is metadata-leaky."
 
-**Response.** Part 2.9 now includes an explicit §"Anonymization limits — honest disclosure" section acknowledging the metadata-correlation risk. The Program Operator's three operational mitigations are documented: batching (multiple reporting brands' findings combined into one alert), geographic generalization (region rather than exact origin), and discretionary hold (alerts delayed at the reporting brand's request). Brands are explicitly told that anonymization is **strong but not absolute**, that sophisticated observers correlating public sourcing disclosures could potentially infer the reporting brand, and that the metadata-correlation risk should factor into the participation decision. The Program Operator does not warrant absolute anonymization.
+**Response.** Part 2.9 now includes an explicit §"Anonymization limits, honest disclosure" section acknowledging the metadata-correlation risk. The Program Operator's three operational mitigations are documented: batching (multiple reporting brands' findings combined into one alert), geographic generalization (region rather than exact origin), and discretionary hold (alerts delayed at the reporting brand's request). Brands are explicitly told that anonymization is **strong but not absolute**, that sophisticated observers correlating public sourcing disclosures could potentially infer the reporting brand, and that the metadata-correlation risk should factor into the participation decision. The Program Operator does not warrant absolute anonymization.
 
 ## Cyprus operating-base enforceability
 
@@ -6529,7 +6527,7 @@ The auditability claim is now operationally specified with a documented response
 
 **Attack.** "Part 2.10 §12.6 requires the Program Operator to publish a forward forecast. But the manual does not specify what happens if the forecast turns out to be wrong. Brands plan against the forecast; if the forecast systematically underestimates the next-cycle limit, brands are misled. There is no accountability mechanism for forecast accuracy."
 
-**Response.** Part 2.10 §12.6 now includes a **§"Forecast accountability"** clause. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome — operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25% — triggers a methodology review of the projection method. The forecast is now a calibrated planning tool with documented predictive accuracy over time, not a marketing artifact.
+**Response.** Part 2.10 §12.6 now includes a **§"Forecast accountability"** clause. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome, operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25%, triggers a methodology review of the projection method. The forecast is now a calibrated planning tool with documented predictive accuracy over time, not a marketing artifact.
 
 ## Closing of the program-level adversarial read
 
@@ -6627,7 +6625,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **Speciation.** Determination of the specific chemical form of a metal present, which is critical for accurate risk assessment. HMTc requires speciation in defined contexts (iAs for rice; MeHg for fish; Cr(VI) when credible pathway exists). (Per Part 4 §9.)
 
-**Subcategory.** A product class within a parent product category, typically defined by a discriminating attribute such as ingredient base, processing method, or product format. In HMTc methodology, the term *subcategory* is interchangeable with *platform* — both refer to the classification units that the methodology calibrates against. See *Platform*.
+**Subcategory.** A product class within a parent product category, typically defined by a discriminating attribute such as ingredient base, processing method, or product format. In HMTc methodology, the term *subcategory* is interchangeable with *platform*, both refer to the classification units that the methodology calibrates against. See *Platform*.
 
 **Status A / B / C / D / E.** The five HMTc certification statuses. Defined in detail in Part 2.3. A = Certified (Full Compliance); B = Certified (Transitional); C = Probation; D = Suspension; E = Revocation.
 
@@ -6641,7 +6639,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **Tier 2 Metal.** A metal with an established tolerable daily intake, shorter biological half-life, or primarily acute rather than chronic toxicity profile. Ni, Sn, Al, Cr. Variance-eligible up to 150% PoL under HMTc.
 
-**Total Diet Study (TDS).** FDA program that analyzes food and beverage samples for various contaminants including heavy metals. FY2018–2020 TDS detected Pb in 15%, As in 43%, Cd in 33%, and Hg in 10% of samples — the prevalence anchor used in Part 1.3.
+**Total Diet Study (TDS).** FDA program that analyzes food and beverage samples for various contaminants including heavy metals. FY2018–2020 TDS detected Pb in 15%, As in 43%, Cd in 33%, and Hg in 10% of samples, the prevalence anchor used in Part 1.3.
 
 **VOE.** Verification of Effectiveness. The documented demonstration that CAPA actions have achieved their intended result, confirmed through follow-up testing. CAPAs cannot be closed until VOE confirms resolution.
 
@@ -6675,7 +6673,7 @@ This index consolidates the citations referenced across the Program Manual. Each
 - **EFSA CONTAM Panel.** Scientific Opinion on Arsenic in Food. *EFSA Journal* 2009;7(10):1351. doi:10.2903/j.efsa.2009.1351.
 - **EFSA CONTAM Panel.** Update of the Risk Assessment of Inorganic Arsenic in Food. *EFSA Journal* 2024;22(1):8488. doi:10.2903/j.efsa.2024.8488.
 - **EFSA.** EFSA Sets Lower Tolerable Intake Level for Cadmium in Food. News Release, March 2009 (TWI 2.5 µg/kg bw/week).
-- **EFSA.** Mercury in Food — EFSA Updates Advice on Risks for Public Health. Press Release, December 2012 (MeHg TWI 1.3 µg/kg bw/week; inorganic Hg TWI 4 µg/kg bw/week).
+- **EFSA.** Mercury in Food, EFSA Updates Advice on Risks for Public Health. Press Release, December 2012 (MeHg TWI 1.3 µg/kg bw/week; inorganic Hg TWI 4 µg/kg bw/week).
 - **JECFA.** Evaluation of Certain Food Additives and Contaminants: Seventy-Third Report. WHO Technical Report Series No. 960, 2011 (Lead PTWI withdrawal).
 - **JECFA.** Methylmercury and Mercury Chemical Evaluation Database Entries.
 - **JECFA.** Cadmium PTMI database entry (25 µg/kg bw/month).
@@ -6718,7 +6716,7 @@ This index consolidates the citations referenced across the Program Manual. Each
 - **CVS.** "Tested to Be Trusted: Supplement Testing and Contaminant Requirements Statement."
 - **NSF.** NSF/ANSI 173 Product and Ingredient Certification (only American National Standard for dietary supplement testing and certification).
 - **ANAB.** Amazon Dietary Supplements Seller Requirements.
-- **ISO.** ISO/IEC 17025 — Testing and Calibration Laboratories. Overview.
+- **ISO.** ISO/IEC 17025, Testing and Calibration Laboratories. Overview.
 - **EURACHEM/CITAC.** "Use of Uncertainty Information in Compliance Assessment," 2nd ed., 2021.
 - **ILAC.** "Guidelines on Decision Rules and Statements of Conformity," ILAC-G8:09/2019.
 
@@ -6760,7 +6758,7 @@ Per-product Sources Cited sections in each Part 3 chapter reference specific pee
 
 # 5.5 Recognition Framework: How HMTc Compares to Adjacent Programs
 
-A reader evaluating HMTc may already be familiar with adjacent certification programs in the food and supplement space. This chapter situates HMTc relative to those programs so brand legal teams, retailer compliance staff, and adversarial reviewers can place HMTc accurately in the regulatory and certification landscape. The comparison is on the merits — what each program covers, how it operates, and where the meaningful differences lie.
+A reader evaluating HMTc may already be familiar with adjacent certification programs in the food and supplement space. This chapter situates HMTc relative to those programs so brand legal teams, retailer compliance staff, and adversarial reviewers can place HMTc accurately in the regulatory and certification landscape. The comparison is on the merits, what each program covers, how it operates, and where the meaningful differences lie.
 
 The intent is not to denigrate other programs or claim HMTc is uniformly superior. Each program in this comparison has legitimate scope and value. The intent is to clarify what HMTc specifically does that adjacent programs do not, so a brand evaluating multiple certifications can choose appropriately rather than treating all certifications as interchangeable.
 
@@ -6789,7 +6787,7 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
 
 The matrix above is dense; the practical implications are:
 
-**Compared to USDA Organic.** Organic certifies agricultural production methods (no synthetic pesticides, fertilizers, GMOs) and does not address heavy metal contamination at the product level. Organic certification does not preclude elevated heavy metals — organic cocoa, organic rice, and organic root vegetables can all carry significant heavy metal contamination because the metals come from soil, water, and atmospheric sources that organic standards do not regulate. **A brand with Organic certification still needs HMTc to certify heavy metal limits.** The two are complementary rather than substitutable.
+**Compared to USDA Organic.** Organic certifies agricultural production methods (no synthetic pesticides, fertilizers, GMOs) and does not address heavy metal contamination at the product level. Organic certification does not preclude elevated heavy metals, organic cocoa, organic rice, and organic root vegetables can all carry significant heavy metal contamination because the metals come from soil, water, and atmospheric sources that organic standards do not regulate. **A brand with Organic certification still needs HMTc to certify heavy metal limits.** The two are complementary rather than substitutable.
 
 **Compared to Non-GMO Project.** Non-GMO certifies the absence of genetically modified ingredients at defined detection thresholds. It has no scope on heavy metal contamination. Same complementarity logic as Organic.
 
@@ -6819,7 +6817,7 @@ HMTc **does not certify safety.** Per Part 2.5 §6.2 and the action-levels-not-s
 
 <!-- data/workbench/standards-book/parts/06-methodology-and-appendices/06-licensing-terms-summary.md -->
 
-# 5.6 Licensing Terms — Summary
+# 5.6 Licensing Terms, Summary
 
 This chapter summarizes the structural terms of the HMTc license agreement so that a brand legal team can understand the shape of what they would be signing without needing to request the agreement itself for an initial evaluation. **The actual licensing agreement is a separate document**, executed bilaterally between the Licensee and The Paleo Foundation, and contains the full operative terms. The summary below is informational and does not modify or supersede the executed agreement.
 
@@ -6890,7 +6888,7 @@ License agreement disputes are subject to binding arbitration under the rules of
 
 **Why Cyprus-seated arbitration.** The Paleo Foundation is incorporated in Cyprus and operates under EU regulatory frameworks. Cyprus-seated ICDR arbitration is consistent with the Foundation's regulatory and operational base and provides predictable procedural rules under the **1958 New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards**, to which both Cyprus and the United States are signatories. Arbitration awards rendered in Cyprus are therefore enforceable in U.S. courts under the Convention, just as U.S. arbitration awards are enforceable in Cyprus. The choice of seat does not deprive U.S. Licensees of the ability to enforce favorable awards in U.S. jurisdictions.
 
-Licensees with specific concerns about the practical implications of Cyprus-seated arbitration — including non-U.S. Licensees evaluating jurisdictional questions in their home markets — should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
+Licensees with specific concerns about the practical implications of Cyprus-seated arbitration, including non-U.S. Licensees evaluating jurisdictional questions in their home markets, should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
 
 Certification status disputes (as distinct from license agreement disputes) follow the two-tier appeals process specified in Part 2.12, which is independent of arbitration and operates as the Program's internal dispute-resolution mechanism for status determinations.
 
@@ -6932,7 +6930,7 @@ The HMTc methodology is described in principle throughout this manual (particula
 - *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification.* doi: 10.5281/zenodo.18903738.
 - *Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods.* doi: 10.5281/zenodo.18905821.
 
-The engine arithmetic that implements the methodology — the source-pooling algorithm, the percentile calculation, the source-level bootstrap, the sensitivity-band analysis, the basis-conversion factors — is held as a trade secret. The principle of standards-setting is public; the implementation is proprietary. This is the wiki/HMTc firewall documented in CLAUDE.md Part 2 of the program's governance and described in Part 1.5 of this manual.
+The engine arithmetic that implements the methodology (the source-pooling algorithm, the percentile calculation, the source-level bootstrap, the methodology stability checks, the basis-conversion factors) is held as a trade secret. The principle of standards-setting is public; the implementation is proprietary. This is the wiki/HMTc firewall established by the HMTc Governing Principles (Principle 4) and described in Part 1.5 of this manual.
 
 ## Methodology implementation
 
@@ -6968,7 +6966,7 @@ The Program Operator can be reached at:
 - **Twitter / X:** @MicroMetallomics
 - **Program website:** heavymetaltested.com
 - **Evidence-base website:** heavymetalindex.com
-- **Postal:** [Cyprus address — controlled document registry]
+- **Postal:** [Cyprus address, controlled document registry]
 
 Questions about specific certifications, the licensing process, brand enrollment in the Confidential Remediation Track, methodology audit requests, and regulatory cooperation should be directed to the Program Operator through these channels.
 

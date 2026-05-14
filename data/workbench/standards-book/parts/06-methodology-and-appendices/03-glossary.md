@@ -76,7 +76,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **Speciation.** Determination of the specific chemical form of a metal present, which is critical for accurate risk assessment. HMTc requires speciation in defined contexts (iAs for rice; MeHg for fish; Cr(VI) when credible pathway exists). (Per Part 4 §9.)
 
-**Subcategory.** A product class within a parent product category, typically defined by a discriminating attribute such as ingredient base, processing method, or product format. In HMTc methodology, the term *subcategory* is interchangeable with *platform* — both refer to the classification units that the methodology calibrates against. See *Platform*.
+**Subcategory.** A product class within a parent product category, typically defined by a discriminating attribute such as ingredient base, processing method, or product format. In HMTc methodology, the term *subcategory* is interchangeable with *platform*, both refer to the classification units that the methodology calibrates against. See *Platform*.
 
 **Status A / B / C / D / E.** The five HMTc certification statuses. Defined in detail in Part 2.3. A = Certified (Full Compliance); B = Certified (Transitional); C = Probation; D = Suspension; E = Revocation.
 
@@ -90,7 +90,7 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 **Tier 2 Metal.** A metal with an established tolerable daily intake, shorter biological half-life, or primarily acute rather than chronic toxicity profile. Ni, Sn, Al, Cr. Variance-eligible up to 150% PoL under HMTc.
 
-**Total Diet Study (TDS).** FDA program that analyzes food and beverage samples for various contaminants including heavy metals. FY2018–2020 TDS detected Pb in 15%, As in 43%, Cd in 33%, and Hg in 10% of samples — the prevalence anchor used in Part 1.3.
+**Total Diet Study (TDS).** FDA program that analyzes food and beverage samples for various contaminants including heavy metals. FY2018–2020 TDS detected Pb in 15%, As in 43%, Cd in 33%, and Hg in 10% of samples, the prevalence anchor used in Part 1.3.
 
 **VOE.** Verification of Effectiveness. The documented demonstration that CAPA actions have achieved their intended result, confirmed through follow-up testing. CAPAs cannot be closed until VOE confirms resolution.
 

@@ -1,6 +1,6 @@
 # 5.5 Recognition Framework: How HMTc Compares to Adjacent Programs
 
-A reader evaluating HMTc may already be familiar with adjacent certification programs in the food and supplement space. This chapter situates HMTc relative to those programs so brand legal teams, retailer compliance staff, and adversarial reviewers can place HMTc accurately in the regulatory and certification landscape. The comparison is on the merits — what each program covers, how it operates, and where the meaningful differences lie.
+A reader evaluating HMTc may already be familiar with adjacent certification programs in the food and supplement space. This chapter situates HMTc relative to those programs so brand legal teams, retailer compliance staff, and adversarial reviewers can place HMTc accurately in the regulatory and certification landscape. The comparison is on the merits, what each program covers, how it operates, and where the meaningful differences lie.
 
 The intent is not to denigrate other programs or claim HMTc is uniformly superior. Each program in this comparison has legitimate scope and value. The intent is to clarify what HMTc specifically does that adjacent programs do not, so a brand evaluating multiple certifications can choose appropriately rather than treating all certifications as interchangeable.
 
@@ -29,7 +29,7 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
 
 The matrix above is dense; the practical implications are:
 
-**Compared to USDA Organic.** Organic certifies agricultural production methods (no synthetic pesticides, fertilizers, GMOs) and does not address heavy metal contamination at the product level. Organic certification does not preclude elevated heavy metals — organic cocoa, organic rice, and organic root vegetables can all carry significant heavy metal contamination because the metals come from soil, water, and atmospheric sources that organic standards do not regulate. **A brand with Organic certification still needs HMTc to certify heavy metal limits.** The two are complementary rather than substitutable.
+**Compared to USDA Organic.** Organic certifies agricultural production methods (no synthetic pesticides, fertilizers, GMOs) and does not address heavy metal contamination at the product level. Organic certification does not preclude elevated heavy metals, organic cocoa, organic rice, and organic root vegetables can all carry significant heavy metal contamination because the metals come from soil, water, and atmospheric sources that organic standards do not regulate. **A brand with Organic certification still needs HMTc to certify heavy metal limits.** The two are complementary rather than substitutable.
 
 **Compared to Non-GMO Project.** Non-GMO certifies the absence of genetically modified ingredients at defined detection thresholds. It has no scope on heavy metal contamination. Same complementarity logic as Organic.
 

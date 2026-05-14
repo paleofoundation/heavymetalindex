@@ -141,6 +141,44 @@ function renderChapter(briefing, chapter) {
     "the per-source share cap"
   )
 
+  // Step 6: strip references to CLAUDE.md (the project's AI-tooling
+  // configuration file). The bound manual references the public governance
+  // documents, not internal-tooling filenames. CLAUDE.md is a real file in
+  // the repo, but pointing brand legal, regulators, or adversarial reviewers
+  // at a file whose name identifies the AI assistant exposes the tooling
+  // without strengthening the defensibility argument.
+  content = content.replace(
+    /per CLAUDE\.md Part 19,?\s*/g,
+    "per "
+  )
+  content = content.replace(
+    /\(per CLAUDE\.md Part 19[^)]*\)/g,
+    "(per the HMTc Governing Principles)"
+  )
+  content = content.replace(
+    /CLAUDE\.md Part 19's four allowed tags/g,
+    "the four allowed rationale tags"
+  )
+  content = content.replace(
+    /CLAUDE\.md Part 19/g,
+    "the HMTc Governing Principles"
+  )
+  content = content.replace(
+    /CLAUDE\.md Part 2/g,
+    "the HMTc Governing Principles (Principle 4, wiki/HMTc firewall)"
+  )
+  content = content.replace(
+    /CLAUDE\.md/g,
+    "the HMTc Governing Principles"
+  )
+
+  // Step 7: reduce em-dash density. The bound manual's prose voice prefers
+  // commas, semicolons, and parentheticals over em dashes. Replace the
+  // clause-separator pattern (space-mdash-space) with a comma; leave em
+  // dashes that appear inside tables, citations, or non-clause-separator
+  // contexts alone.
+  content = content.replace(/ — /g, ", ")
+
   return content
 }
 

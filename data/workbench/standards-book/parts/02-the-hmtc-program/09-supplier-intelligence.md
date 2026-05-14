@@ -17,7 +17,7 @@ The Program Operator maintains an anonymized supplier intelligence system. When 
 
 Participation in the supplier intelligence system is a condition of the license agreement. **Brands benefit from collective intelligence, creating a powerful incentive to remain in the Program and a significant informational disadvantage for those outside it.**
 
-### Anonymization limits — honest disclosure
+### Anonymization limits, honest disclosure
 
 The Program Operator anonymizes alerts by removing brand identifiers. However, ingredient-category, geographic-origin, and timing metadata can correlate with a brand's publicly disclosed sourcing in ways that may identify the reporting brand to a sophisticated observer. For example, if a brand has publicly disclosed sourcing cocoa from a specific Ecuadorian region, and a supplier-intelligence alert is issued in the same quarter referencing "elevated cadmium in Ecuadorian high-altitude cocoa," correlated observers could infer the reporting brand.
 

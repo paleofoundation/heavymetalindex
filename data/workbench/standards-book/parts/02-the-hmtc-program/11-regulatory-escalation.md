@@ -2,7 +2,7 @@
 
 ## Narrative
 
-HMTc certification is not a substitute for regulatory compliance. The Program's action levels are intentionally set below applicable regulatory limits so that a brand passing HMTc certification is comfortably inside the regulatory envelope. But when a tested lot reveals a regulatory limit violation — distinct from an HMTc action level exceedance — the Program's response is not graduated remediation. It is hard-stop escalation.
+HMTc certification is not a substitute for regulatory compliance. The Program's action levels are intentionally set below applicable regulatory limits so that a brand passing HMTc certification is comfortably inside the regulatory envelope. But when a tested lot reveals a regulatory limit violation, distinct from an HMTc action level exceedance, the Program's response is not graduated remediation. It is hard-stop escalation.
 
 This chapter specifies the regulatory-escalation rule and its consequences. The rule is short because the principle is simple: regulatory compliance takes absolute precedence over Program-internal status determinations.
 

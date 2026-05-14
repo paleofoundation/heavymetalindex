@@ -1,4 +1,4 @@
-# 5.6 Licensing Terms — Summary
+# 5.6 Licensing Terms, Summary
 
 This chapter summarizes the structural terms of the HMTc license agreement so that a brand legal team can understand the shape of what they would be signing without needing to request the agreement itself for an initial evaluation. **The actual licensing agreement is a separate document**, executed bilaterally between the Licensee and The Paleo Foundation, and contains the full operative terms. The summary below is informational and does not modify or supersede the executed agreement.
 
@@ -69,7 +69,7 @@ License agreement disputes are subject to binding arbitration under the rules of
 
 **Why Cyprus-seated arbitration.** The Paleo Foundation is incorporated in Cyprus and operates under EU regulatory frameworks. Cyprus-seated ICDR arbitration is consistent with the Foundation's regulatory and operational base and provides predictable procedural rules under the **1958 New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards**, to which both Cyprus and the United States are signatories. Arbitration awards rendered in Cyprus are therefore enforceable in U.S. courts under the Convention, just as U.S. arbitration awards are enforceable in Cyprus. The choice of seat does not deprive U.S. Licensees of the ability to enforce favorable awards in U.S. jurisdictions.
 
-Licensees with specific concerns about the practical implications of Cyprus-seated arbitration — including non-U.S. Licensees evaluating jurisdictional questions in their home markets — should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
+Licensees with specific concerns about the practical implications of Cyprus-seated arbitration, including non-U.S. Licensees evaluating jurisdictional questions in their home markets, should consult counsel and may discuss alternative dispute-resolution forums with the Program Operator during license negotiations. The Program Operator considers alternative-forum proposals on a case-by-case basis where material commercial considerations warrant it.
 
 Certification status disputes (as distinct from license agreement disputes) follow the two-tier appeals process specified in Part 2.12, which is independent of arbitration and operates as the Program's internal dispute-resolution mechanism for status determinations.
 

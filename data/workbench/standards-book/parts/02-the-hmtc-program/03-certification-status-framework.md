@@ -2,7 +2,7 @@
 
 ## Narrative
 
-The central design challenge for a heavy metal certification program is balancing rigor with accessibility. A program with unachievable standards attracts no participants and protects no consumers. A program with loose standards lacks credibility and provides no meaningful differentiation. The staged-compliance model resolves this tension by setting rigorous standards — calibrated to deliver the 90/30 row-pass intent specified in the Governing Principles — and giving brands structured pathways to reach full compliance rather than requiring every threshold to be met on day one.
+The central design challenge for a heavy metal certification program is balancing rigor with accessibility. A program with unachievable standards attracts no participants and protects no consumers. A program with loose standards lacks credibility and provides no meaningful differentiation. The staged-compliance model resolves this tension by setting rigorous standards, calibrated to deliver the 90/30 row-pass intent specified in the Governing Principles, and giving brands structured pathways to reach full compliance rather than requiring every threshold to be met on day one.
 
 The five-status framework absorbs normal lot-to-lot analytical variability without converting it into a commercial catastrophe, while maintaining clear escalation triggers for genuine control failures. A brand whose typical lead level is 4 ppb against a 5 ppb limit will occasionally produce a lot at 6 or 7 ppb through normal variation, not through negligence; the staged system treats that variability as the engineering reality it is, while preserving zero-tolerance treatment for Tier 1 metals and for systemic control failures regardless of which metal is involved.
 
@@ -35,7 +35,7 @@ Brands whose baseline does not qualify for Status A or B may enter the program u
 
 **CAPA:** Not required for passing lots. Preventive action is expected if trend analysis shows an upward trajectory approaching limits.
 
-**Ongoing Obligations:** Maintain all controls and record-keeping. Continue periodic trend analysis. **Pursue ALARA improvement even while compliant** — Status A is not a plateau, and the Standards Ratchet (Part 2.10) ensures that the bar tightens as the certified market improves.
+**Ongoing Obligations:** Maintain all controls and record-keeping. Continue periodic trend analysis. **Pursue ALARA improvement even while compliant**, Status A is not a plateau, and the Standards Ratchet (Part 2.10) ensures that the bar tightens as the certified market improves.
 
 ### Status B: Certified (Transitional Compliance)
 

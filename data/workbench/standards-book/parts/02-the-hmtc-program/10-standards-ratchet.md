@@ -18,7 +18,7 @@ The annual operational review (referenced throughout §12.3 below) is distinct f
 
 The Standards Ratchet operates under a directional commitment: **action levels may be tightened (lowered) but shall not be loosened (raised) unless the underlying science changes in a manner that justifies relaxation.** This commitment ensures that the Program continuously drives exposure reduction and that brands can plan their improvement trajectories with confidence that the goalposts will move in only one direction.
 
-A science-based relaxation — for example, a future EFSA reassessment that meaningfully revises a metal's reference dose upward — would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
+A science-based relaxation, for example, a future EFSA reassessment that meaningfully revises a metal's reference dose upward, would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
 
 ## 12.3 Trigger Conditions
 
@@ -28,7 +28,7 @@ The Standards Ratchet for a given analyte fires when **both** of the following c
 
 (b) At least 50% of SKUs in the trigger pool have lots at or below 60% of the current limit.
 
-The first condition tests aggregate market shift. The second tests breadth — the ratchet does not fire on a single large brand pulling the percentile down. Both conditions must hold across two consecutive annual reviews to confirm sustained improvement rather than a transient market event.
+The first condition tests aggregate market shift. The second tests breadth, the ratchet does not fire on a single large brand pulling the percentile down. Both conditions must hold across two consecutive annual reviews to confirm sustained improvement rather than a transient market event.
 
 The two-condition design is intentional. Condition (a) alone would allow a single dominant brand to drive the trigger by aggressive reformulation across many SKUs; condition (b) alone would not capture the magnitude of market shift. Together, the two conditions require that the market has moved *and* that the movement is broad-based. The two-consecutive-cycle requirement protects against transient effects (a particularly clean harvest year, a temporary supplier change) that would otherwise distort the trigger.
 
@@ -61,7 +61,7 @@ New limit = max(15, 24) = **24 ppb**.
 
 The step cap held; the market actually moved beyond the cap, but the program tightens only by the capped 20% increment.
 
-At the next annual review, the 80th percentile of the trigger pool against the new 24 ppb limit is evaluated. If the market stays at the same absolute level (15 ppb), the 80th percentile is now 15/24 ≈ 62.5% of the new limit — below the 80% trigger condition. Both conditions hold. The trigger fires again.
+At the next annual review, the 80th percentile of the trigger pool against the new 24 ppb limit is evaluated. If the market stays at the same absolute level (15 ppb), the 80th percentile is now 15/24 ≈ 62.5% of the new limit, below the 80% trigger condition. Both conditions hold. The trigger fires again.
 
 New limit candidate (a): 15 ppb.
 New limit candidate (b): 80% of 24 ppb = 19.2 ppb.
@@ -75,7 +75,7 @@ When standards are tightened, a transition period of not less than 12 months and
 
 **Status A certifications grandfather for the entire transition period.** A Status A brand at certification renewal during the transition window keeps Status A even if their typical lots no longer meet the new limit, until their next annual review after enforcement begins. This protects brands who have invested in achieving Status A under the previous standard from being penalized by the standard's tightening before they have had time to respond.
 
-**Status B and Status C SKUs re-evaluate against the new limit at their next CAPA cycle.** Status B and C cannot preferentially evaluate against the old standard during the transition window — they get the more stringent of (old standard, new standard), to prevent gaming of the transition window. This prevents a brand that is already in a remediation status from "freezing" their improvement trajectory at the old standard while the rest of the program tightens.
+**Status B and Status C SKUs re-evaluate against the new limit at their next CAPA cycle.** Status B and C cannot preferentially evaluate against the old standard during the transition window, they get the more stringent of (old standard, new standard), to prevent gaming of the transition window. This prevents a brand that is already in a remediation status from "freezing" their improvement trajectory at the old standard while the rest of the program tightens.
 
 **Status D and Status E products are out regardless.**
 
@@ -87,11 +87,11 @@ At every annual review, the Program Operator publishes a forward forecast:
 
 This converts the ratchet from a surprise into a planning parameter that brands can model years in advance. A brand considering certification can review the forward forecast for the relevant category before signing the license agreement and understand the next three-to-five-year obligation profile. A brand operating under the current standard can budget reformulation against the projected next-cycle limit.
 
-The forward forecast is published in the annual Program Operator report and posted to the heavymetaltested.com Program Registry under document control. Forecasts are *projections*, not commitments — actual trigger firing depends on whether the two-condition test in §12.3 is satisfied at the time of the relevant annual review. Brands and regulators can rely on the forecast as the program's best current estimate of trajectory; the trigger conditions remain the operative test.
+The forward forecast is published in the annual Program Operator report and posted to the heavymetaltested.com Program Registry under document control. Forecasts are *projections*, not commitments, actual trigger firing depends on whether the two-condition test in §12.3 is satisfied at the time of the relevant annual review. Brands and regulators can rely on the forecast as the program's best current estimate of trajectory; the trigger conditions remain the operative test.
 
 ### Forecast accountability
 
-Forecasts are projections, not commitments. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome — operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25% — triggers a methodology review of the projection method.
+Forecasts are projections, not commitments. The Program Operator publishes an annual retrospective comparison of prior forecasts to actual ratchet outcomes in the transparency report. Material divergence between a forecast and its corresponding outcome, operationally defined as a forecasted limit that differs from the eventual actual limit by more than 25%, triggers a methodology review of the projection method.
 
 This retrospective accountability ensures that the forecast is not a marketing artifact but a calibrated planning tool with documented predictive accuracy over time. Brands relying on forecasts for reformulation planning should treat them as the Program's best current estimate, not as guaranteed future limits, and can verify the Program Operator's track record in the published retrospectives.
 
@@ -111,7 +111,7 @@ The Standards Ratchet as specified above satisfies all five HMTc Governing Princ
 - **Principle 4 (legal defensibility):** The rule is data-driven, two-cycle-confirmed, and transparently published with specific thresholds. Adversarial readers cannot attack it as arbitrary because every clause has a specified rationale.
 - **Principle 5 (scale to ubiquity):** Predictable cadence brands can plan around. Brands considering certification can model the next 3–5 years of obligation before they sign.
 
-A plaintiff's expert attacking the ratchet must attack one of the specific clauses — the 80th-percentile threshold, the breadth condition, the step cap, the transition period, the grandfather clause — and must explain why an alternative specification would deliver the same five-principle satisfaction. The Program-Level Adversarial Read in Part 5.2 addresses the categories of attack that the program anticipates.
+A plaintiff's expert attacking the ratchet must attack one of the specific clauses, the 80th-percentile threshold, the breadth condition, the step cap, the transition period, the grandfather clause, and must explain why an alternative specification would deliver the same five-principle satisfaction. The Program-Level Adversarial Read in Part 5.2 addresses the categories of attack that the program anticipates.
 
 ## Cross-references
 

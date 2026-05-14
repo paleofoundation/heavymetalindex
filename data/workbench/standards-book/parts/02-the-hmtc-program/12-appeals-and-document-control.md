@@ -4,9 +4,9 @@
 
 Every certification program requires three procedural mechanisms that operate independently of the operational rules: a way for a Licensee to challenge a status determination they believe is incorrect; a defined path back into the Program for a Licensee whose certification has been suspended or revoked; and a document-control regime that ensures the rules governing a decision are unambiguous at the time the decision is made.
 
-This chapter specifies all three. The mechanisms are procedural rather than substantive — they govern how the Program responds to disagreement, recovery, and document evolution, not what the underlying standards or determinations are. Together, they ensure that brands are treated fairly within the Program's framework and that the rules in force at the time of any decision are knowable, traceable, and applied consistently.
+This chapter specifies all three. The mechanisms are procedural rather than substantive, they govern how the Program responds to disagreement, recovery, and document evolution, not what the underlying standards or determinations are. Together, they ensure that brands are treated fairly within the Program's framework and that the rules in force at the time of any decision are knowable, traceable, and applied consistently.
 
-## 14.1 Appeals Process — Two-Tier Structure
+## 14.1 Appeals Process, Two-Tier Structure
 
 The appeals process is structured in two tiers to address the institutional conflict between the Program Operator's certification revenue and its role as initial appeal-reviewer. Tier 1 is internal to the Program Operator; Tier 2 is independent of the Program Operator. The two-tier structure is the program's structural answer to the conflict-of-interest concern that an internal-only appeals process operating within the Program Operator's authority cannot fully mitigate the institutional conflict between the Operator's certification revenue and the Operator's role as reviewer.
 
@@ -19,7 +19,7 @@ A Licensee may appeal any certification status decision by submitting a written 
 
 The Program Operator will review the appeal within 15 business days and may convene the Technical Committee for methodological or interpretive questions. Operational appeals (testing logistics, sampling disputes, laboratory selection) are reviewed by the Program Operator directly.
 
-During Tier 1 review, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal — for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
+During Tier 1 review, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal, for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
 
 The standard for granting an appeal is whether the originally assigned status reflects the correct application of this Policy and the Lot Testing Schedule to the actual facts of the case.
 
@@ -56,7 +56,7 @@ Until such clarification is issued, the **more conservative interpretation gover
 
 The Program Operator maintains the operative version of each controlled document under document control with version numbers, effective dates, and change logs. The version in effect at the time of a certification decision governs that decision. Subsequent revisions do not retroactively alter prior decisions.
 
-All revisions are managed under document control procedures with transition periods for new requirements. Material changes — those that would alter eligibility, testing frequency, status criteria, or CAPA obligations — receive minimum transition periods consistent with the Standards Ratchet's 12-to-18-month rule in Part 2.10.
+All revisions are managed under document control procedures with transition periods for new requirements. Material changes, those that would alter eligibility, testing frequency, status criteria, or CAPA obligations, receive minimum transition periods consistent with the Standards Ratchet's 12-to-18-month rule in Part 2.10.
 
 ## 14.4 Conflict of Interest
 
@@ -82,4 +82,4 @@ Part 2 has now specified the HMTc Program in its operational form. A reader who 
 - Handle regulatory escalation as a hard-stop condition (2.11).
 - Appeal status determinations, recover from suspension, and operate under document control (2.12).
 
-Part 2.5, which follows, demonstrates how brands and QA teams use heavymetalindex.com — the public corpus introduced in Part 1.5 — as an active operational tool. Part 3 publishes the per-product standards.
+Part 2.5, which follows, demonstrates how brands and QA teams use heavymetalindex.com, the public corpus introduced in Part 1.5, as an active operational tool. Part 3 publishes the per-product standards.

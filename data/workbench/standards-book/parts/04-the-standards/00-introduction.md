@@ -15,31 +15,29 @@ Each Part 3 chapter contains:
 
 ## Chapter list
 
-| # | Chapter | Source | Status |
-|---|---|---|---|
-| 3.1 | Infant Formula, Powder (Non-Soy) | `data/workbench/briefings/infant-formula-powder-non-soy.md` | Pending Part 3 retemplate |
-| 3.2 | Infant Formula, Powder (Soy-Based) | `data/workbench/briefings/infant-formula-powder-soy-based.md` | Pending Part 3 retemplate |
-| 3.3 | Infant Formula, Ready-to-Feed Liquid (Non-Soy) | `data/workbench/briefings/infant-formula-rtf-liquid-non-soy.md` | Pending Part 3 retemplate |
-| 3.4 | Infant Formula, Ready-to-Feed Liquid (Soy-Based) | `data/workbench/briefings/infant-formula-rtf-liquid-soy-based.md` | Pending Part 3 retemplate |
-| 3.5 | Baby Cereals, Dry (Rice-Based) | `data/workbench/briefings/baby-cereals-dry-rice-based.md` | Pending Part 3 retemplate |
-| 3.6 | Baby Cereals, Dry (Non-Rice) | `data/workbench/briefings/baby-cereals-dry-non-rice.md` | Pending Part 3 retemplate |
-| 3.7 | Fruit Purées | `data/workbench/briefings/fruit-purees.md` | Pending Part 3 retemplate |
-| 3.8 | Non-Root Vegetable Purées | `data/workbench/briefings/non-root-vegetable-purees.md` | Pending Part 3 retemplate |
-| 3.9 | Root-Vegetable Purées | `data/workbench/briefings/root-vegetable-purees.md` | Pending Part 3 retemplate |
-| 3.10 | Meat and Poultry Purées | `data/workbench/briefings/meat-and-poultry-purees.md` | Pending Part 3 retemplate |
-| 3.11 | Fish-Containing Baby Foods | `data/workbench/briefings/fish-containing-baby-foods.md` | Pending Part 3 retemplate |
-| 3.12 | Mixed Meals (Rice-Containing) | `data/workbench/briefings/mixed-meals-rice-containing.md` | Pending Part 3 retemplate |
-| 3.13 | Mixed Meals (Non-Rice) | `data/workbench/briefings/mixed-meals-non-rice.md` | Pending Part 3 retemplate |
-| 3.14 | Teething and Snacks (Rice-Based) | `data/workbench/briefings/teething-and-snacks-rice-based.md` | Pending Part 3 retemplate |
-| 3.15 | Teething and Snacks (Non-Rice) | `data/workbench/briefings/teething-and-snacks-non-rice.md` | Pending Part 3 retemplate |
+The fifteen Part 3 chapters appear in document order below. Each chapter follows the structure named above and stands alone as a licensing exhibit when detached from the bound volume.
 
-## Editorial note
+| # | Chapter |
+|---|---|
+| 3.1 | Infant Formula, Powder (Non-Soy) |
+| 3.2 | Infant Formula, Powder (Soy-Based) |
+| 3.3 | Infant Formula, Ready-to-Feed Liquid (Non-Soy) |
+| 3.4 | Infant Formula, Ready-to-Feed Liquid (Soy-Based) |
+| 3.5 | Baby Cereals, Dry (Rice-Based) |
+| 3.6 | Baby Cereals, Dry (Non-Rice) |
+| 3.7 | Fruit Purées |
+| 3.8 | Non-Root Vegetable Purées |
+| 3.9 | Root-Vegetable Purées |
+| 3.10 | Meat and Poultry Purées |
+| 3.11 | Fish-Containing Baby Foods |
+| 3.12 | Mixed Meals (Rice-Containing) |
+| 3.13 | Mixed Meals (Non-Rice) |
+| 3.14 | Teething and Snacks (Rice-Based) |
+| 3.15 | Teething and Snacks (Non-Rice) |
 
-The fifteen chapters above exist today as Standards Briefings in `data/workbench/briefings/`. Each briefing is a complete, regression-tested document covering the Master Limit Table, per-analyte rationale, adversarial read, anti-circumvention argument, 9-gate pre-publication checklist, sources cited, and provenance footer. The briefings carry the substantive content required for Part 3.
+## How the Part 3 chapters were produced
 
-The retemplating work — inserting the toxicology callouts (per Part 2.2 and Part 5.3 Glossary), pruning the workbench-side engine arithmetic (per the wiki/HMTc firewall), aligning section headings to the bound-manual template, and standardizing source citation format — is mechanical work scheduled for the next session in the Program Manual build sequence (see the project plan).
-
-For the v0-pre-audit build of this manual, Part 3 is represented by this introduction and the briefing files referenced above. The v0 build assembles the source material so adversarial-audit work in Pre-work 6 can begin while Part 3 is retemplated in parallel. The audit-strengthened v0 of the bound manual will include the fifteen retemplated chapters in their final form.
+Each chapter is the deterministic output of a Standards Briefing generator (`tools/standards/render-part3-chapter.mjs` in the project repository) that retemplates the underlying Standards Briefing into the bound-manual format. The retemplating applies the Part 2.2 / Part 5.3 toxicology callout references, prunes engine-implementation vocabulary per the wiki/HMTc firewall, and adds chapter-level cross-references to Parts 2, 4, and 5. The substantive content (Master Limit Table values, per-analyte rationale, sources cited, provenance footer) is preserved from the underlying Standards Briefing without modification.
 
 ## Cross-references
 

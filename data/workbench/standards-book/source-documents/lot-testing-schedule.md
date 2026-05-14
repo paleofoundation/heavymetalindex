@@ -1,6 +1,6 @@
 # HMTc Lot Testing Schedule
 
-**Heavy Metal Tested & Certified — Infant and Child Foods Standards Program**
+**Heavy Metal Tested & Certified, Infant and Child Foods Standards Program**
 
 *Companion Document to the HMTc Governance Policy*
 
@@ -233,7 +233,7 @@ A complete chain-of-custody record is required for every sample, from the point 
 
 When a documented breach is identified, the lot's result is treated as invalid and the lot is subject to retest per a Program Operator-approved confirmatory protocol. Repeated breaches at the same Licensee or laboratory trigger data-integrity escalation per Governance Policy §8.2 and may result in Status D suspension.
 
-**Discretion for minor procedural lapses.** The Program Operator may exercise discretion on minor procedural lapses where substantive sample integrity is preserved — for example, a timestamp recorded one hour late where the actual custody record (signatures, transfers) is intact. Such discretion is documented in the case record and is not exercised when sample integrity itself is in doubt. The default disposition for any chain-of-custody ambiguity is invalidation; discretion applies only to clearly procedural rather than substantive lapses.
+**Discretion for minor procedural lapses.** The Program Operator may exercise discretion on minor procedural lapses where substantive sample integrity is preserved, for example, a timestamp recorded one hour late where the actual custody record (signatures, transfers) is intact. Such discretion is documented in the case record and is not exercised when sample integrity itself is in doubt. The default disposition for any chain-of-custody ambiguity is invalidation; discretion applies only to clearly procedural rather than substantive lapses.
 
 ### 10.3 Laboratory Requirements
 

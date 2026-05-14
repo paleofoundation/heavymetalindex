@@ -10,7 +10,7 @@ Data integrity is therefore not a procedural concern but a structural condition 
 
 Brands must permit the Program Operator, in writing, to access the data from their laboratory tests. **Submission of results as PDF documents is not permitted.** All test data must be provided in a structured, machine-readable format that enables trend analysis, statistical evaluation, and population-level aggregation. The specific format requirements are defined by the Program Operator and communicated to all Licensees.
 
-This requirement exists because the Program's ability to demonstrate aggregate improvement over time — which is both the strongest legal defense for individual brands and the strongest proof that the Program achieves its public-health objectives — depends on structured, queryable data. Static PDFs cannot be aggregated, cannot be trend-analyzed, and cannot feed the ratchet trigger. The structured-data requirement is the architectural precondition for the Standards Ratchet to function.
+This requirement exists because the Program's ability to demonstrate aggregate improvement over time, which is both the strongest legal defense for individual brands and the strongest proof that the Program achieves its public-health objectives, depends on structured, queryable data. Static PDFs cannot be aggregated, cannot be trend-analyzed, and cannot feed the ratchet trigger. The structured-data requirement is the architectural precondition for the Standards Ratchet to function.
 
 ## 8.2 Data Integrity as a Hard-Stop Condition
 
@@ -30,7 +30,7 @@ The consequence calibration is intentional. Status D suspension is reserved for 
 
 All testing used for certification decisions must be performed by laboratories accredited to ISO/IEC 17025 for the relevant analytical methods and food matrices. Analytical methods must be fit for purpose, meaning they can reliably quantify target heavy metals at concentrations at or below the applicable HMTc category limits. The laboratory's Limit of Quantitation (LOQ) for each analyte must be at or below the HMTc action level. If an LOQ exceeds the Program limit, a non-detect result is not acceptable proof of compliance.
 
-Laboratories that the Program Operator has reason to question — based on proficiency-test performance, audit findings, or pattern analysis of results across participating brands — may be removed from the list of Program-acceptable laboratories. Licensees using removed laboratories must transition to a Program-acceptable laboratory before their next surveillance cycle. The Program Operator maintains the current list of acceptable laboratories under document control.
+Laboratories that the Program Operator has reason to question, based on proficiency-test performance, audit findings, or pattern analysis of results across participating brands, may be removed from the list of Program-acceptable laboratories. Licensees using removed laboratories must transition to a Program-acceptable laboratory before their next surveillance cycle. The Program Operator maintains the current list of acceptable laboratories under document control.
 
 ## Cross-references
 

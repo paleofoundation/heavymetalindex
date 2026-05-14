@@ -1,20 +1,20 @@
-# Part 2.5 — Using heavymetalindex.com
+# Part 2.5, Using heavymetalindex.com
 
 Part 1.5 introduced heavymetalindex.com as the public curated corpus of the heavy-metals-in-food literature that HMTc's standards rest on. That chapter established the architectural separation between HMI and the certification program and explained why the separation produces durable epistemic authority. This chapter is the operational complement: it demonstrates how brand QA teams, brand legal teams, and certification auditors **use** the corpus day-to-day in the course of operating under HMTc.
 
-The chapter has four sections. The first three describe how the corpus serves brand operations today; the fourth describes a roadmap capability — the brand-facing percentile-placement dashboard — that is on the program's near-term build path and that brands considering certification should expect to come online during their first license cycle.
+The chapter has four sections. The first three describe how the corpus serves brand operations today; the fourth describes a roadmap capability, the brand-facing percentile-placement dashboard, that is on the program's near-term build path and that brands considering certification should expect to come online during their first license cycle.
 
 This chapter exists for a strategic reason. The certification mark is the program's visible signal; the corpus is the program's value engine. A reader who finishes Part 2.5 should understand that HMTc is not just a certification mark backed by a methodology, but a certification mark backed by a continuously-maintained operational tool that brand QA teams lean on. That distinction is what separates HMTc from any single-point certification.
 
 ## 2.5.1 The diagnostic tool
 
-When a brand's lot tests come back with one or more analytes elevated above their typical range — even when still within the HMTc limit — the brand's first operational question is: *why*? Random analytical noise, a seasonal supplier shift, a new ingredient lot, a process change that wasn't documented as material, an upstream supply-chain event the brand has not yet been alerted to? The diagnostic tool is the relevant ingredient pages on heavymetalindex.com.
+When a brand's lot tests come back with one or more analytes elevated above their typical range, even when still within the HMTc limit, the brand's first operational question is: *why*? Random analytical noise, a seasonal supplier shift, a new ingredient lot, a process change that wasn't documented as material, an upstream supply-chain event the brand has not yet been alerted to? The diagnostic tool is the relevant ingredient pages on heavymetalindex.com.
 
 Each ingredient page on HMI carries a structured `contamination_profile` block summarizing what the literature says about typical and 95th-percentile concentrations for each priority metal in that commodity, with three additional structured layers:
 
-- **Geographic variance** — typical concentration ranges by growing region, with sample sizes from contributing sources. A brand sourcing cocoa from Ecuador can see what the published literature reports for Cd in Ecuadorian cocoa specifically, distinguished from Cd in cocoa from Côte d'Ivoire, Ghana, or Indonesia.
-- **Seasonal variance** — concentration ranges by harvest period and climate condition, where the literature reports them. The El Niño years 2015–2016 and 2023 are documented as drought-stress periods that elevate Cd uptake in Ecuadorian cocoa by roughly 40% above non-El-Niño baselines.
-- **Processing effects** — how polishing, rinsing, parboiling, fermentation, drying, milling, and refining shift concentrations of which metals. Each processing-effect claim is anchored to a cited source.
+- **Geographic variance**, typical concentration ranges by growing region, with sample sizes from contributing sources. A brand sourcing cocoa from Ecuador can see what the published literature reports for Cd in Ecuadorian cocoa specifically, distinguished from Cd in cocoa from Côte d'Ivoire, Ghana, or Indonesia.
+- **Seasonal variance**, concentration ranges by harvest period and climate condition, where the literature reports them. The El Niño years 2015–2016 and 2023 are documented as drought-stress periods that elevate Cd uptake in Ecuadorian cocoa by roughly 40% above non-El-Niño baselines.
+- **Processing effects**, how polishing, rinsing, parboiling, fermentation, drying, milling, and refining shift concentrations of which metals. Each processing-effect claim is anchored to a cited source.
 
 ### Worked example
 
@@ -48,7 +48,7 @@ For brands enrolled in the Confidential Remediation Track, this is the daily ope
 
 A future capability on the HMTc roadmap is the brand-facing percentile-placement dashboard. The dashboard will allow a brand with a license to log into the heavymetaltested.com platform and see, in real time:
 
-- Where their lot results sit relative to the pooled distribution of all certified Status A SKUs for the same product category and metal. A brand's lot at 12 ppb Pb in a category with a 30 ppb HMTc limit and a Status A median of 8 ppb sees themselves at "P67 of certified Status A pool" — better than two-thirds of certified competitors, worse than one-third.
+- Where their lot results sit relative to the pooled distribution of all certified Status A SKUs for the same product category and metal. A brand's lot at 12 ppb Pb in a category with a 30 ppb HMTc limit and a Status A median of 8 ppb sees themselves at "P67 of certified Status A pool", better than two-thirds of certified competitors, worse than one-third.
 - Their trend over time, with the pool's distribution overlay. Is the brand improving faster than the certified market, slower, or at the same pace? Is the brand's percentile placement getting better or worse as the certified pool tightens around them?
 - The projected next-cycle limit (per Part 2.10's forward forecast) overlaid on their current lot trajectory. Will the brand's current trajectory clear the projected next-cycle limit before enforcement, or will the brand need to accelerate reduction?
 
@@ -65,9 +65,9 @@ The brand identifies the product-category page on HMI that matches their SKU (on
 This pre-certification exercise tells the brand:
 
 - Whether their current production is likely to qualify for Status A immediately (most metals at or below the HMTc limit), Status B (one or more Tier 2 metals between 100% and 150% PoL), or only the Confidential Remediation Track.
-- Which metals are closest to the limit — the analytes most likely to drive a status determination.
-- Which ingredients in their formulation are the likely contributors — sourcing lever candidates.
-- What the rough magnitude of reformulation effort would be — small adjustments versus full sourcing-chain restructuring.
+- Which metals are closest to the limit, the analytes most likely to drive a status determination.
+- Which ingredients in their formulation are the likely contributors, sourcing lever candidates.
+- What the rough magnitude of reformulation effort would be, small adjustments versus full sourcing-chain restructuring.
 
 A brand whose pre-certification baseline suggests Status A or B can sign the license with reasonable confidence about their initial status. A brand whose pre-certification baseline suggests Status C-or-worse can sign the license with the understanding that the Confidential Remediation Track is their entry path, and can begin the technical-guidance conversations with the Program Operator before formal enrollment. Either way, the brand enters the program with their eyes open and their reformulation strategy informed by the same evidence base the Program Operator is using to set their limits.
 

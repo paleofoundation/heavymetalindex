@@ -20,7 +20,7 @@ The HMTc methodology is described in principle throughout this manual (particula
 - *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification.* doi: 10.5281/zenodo.18903738.
 - *Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods.* doi: 10.5281/zenodo.18905821.
 
-The engine arithmetic that implements the methodology — the source-pooling algorithm, the percentile calculation, the source-level bootstrap, the sensitivity-band analysis, the basis-conversion factors — is held as a trade secret. The principle of standards-setting is public; the implementation is proprietary. This is the wiki/HMTc firewall documented in CLAUDE.md Part 2 of the program's governance and described in Part 1.5 of this manual.
+The engine arithmetic that implements the methodology (the source-pooling algorithm, the percentile calculation, the source-level bootstrap, the methodology stability checks, the basis-conversion factors) is held as a trade secret. The principle of standards-setting is public; the implementation is proprietary. This is the wiki/HMTc firewall established by the HMTc Governing Principles (Principle 4) and described in Part 1.5 of this manual.
 
 ## Methodology implementation
 
@@ -56,7 +56,7 @@ The Program Operator can be reached at:
 - **Twitter / X:** @MicroMetallomics
 - **Program website:** heavymetaltested.com
 - **Evidence-base website:** heavymetalindex.com
-- **Postal:** [Cyprus address — controlled document registry]
+- **Postal:** [Cyprus address, controlled document registry]
 
 Questions about specific certifications, the licensing process, brand enrollment in the Confidential Remediation Track, methodology audit requests, and regulatory cooperation should be directed to the Program Operator through these channels.
 

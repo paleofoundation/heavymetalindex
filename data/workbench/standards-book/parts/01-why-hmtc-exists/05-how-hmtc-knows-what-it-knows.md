@@ -1,30 +1,30 @@
 # 1.5 How HMTc Knows What It Knows: heavymetalindex.com
 
-Before this manual specifies a single concentration limit, the reader is owed an answer to the question: where do the numbers come from? Not in general terms — *literature, regulatory authorities, peer-reviewed studies* — but specifically. The 10 ppb lead limit for infant formula powder. The 100 ppb inorganic arsenic action level for infant rice cereal. The methylmercury read-across for non-fish matrices. Where, exactly, is the evidence for each of these, and can an adversarial reader audit it without taking the certifier's word?
+Before this manual specifies a single concentration limit, the reader is owed an answer to the question: where do the numbers come from? Not in general terms, *literature, regulatory authorities, peer-reviewed studies*, but specifically. The 10 ppb lead limit for infant formula powder. The 100 ppb inorganic arsenic action level for infant rice cereal. The methylmercury read-across for non-fish matrices. Where, exactly, is the evidence for each of these, and can an adversarial reader audit it without taking the certifier's word?
 
 The answer is heavymetalindex.com.
 
 ## The architectural separation
 
-The Paleo Foundation operates two architecturally separate properties. The certification program — HMTc — lives at heavymetaltested.com. The literature evidence base — Heavy Metal Index, hereafter HMI — lives at heavymetalindex.com. These are separate properties by design, and the separation is structural rather than cosmetic.
+The Paleo Foundation operates two architecturally separate properties. The certification program, HMTc, lives at heavymetaltested.com. The literature evidence base, Heavy Metal Index, hereafter HMI, lives at heavymetalindex.com. These are separate properties by design, and the separation is structural rather than cosmetic.
 
 HMI is the public, curated wiki of the heavy-metals-in-food literature. It contains source pages for peer-reviewed studies, agency reports (FDA, EFSA, JECFA, EPA, Codex, ATSDR), industry surveillance data, and primary regulatory documents. Each source page summarizes a single document's findings, preserves its numeric claims with full provenance, and links to ingredient pages, metal pages, product-category pages, and regulation pages. The corpus is structured so that a reader can begin with any single concentration claim on any product page and follow the references back through the routing layer to the original source documents.
 
-HMTc references HMI for the literature baseline that informs every certification standard. The reference is **one-way**: HMTc cites HMI; HMI does not endorse HMTc, does not contain percentile arithmetic, does not name HMTc-certified brands, and does not advocate for the certification program. The wiki/HMTc firewall is operative policy, documented in the project's foundational CLAUDE.md governance document and enforced by the program's lint infrastructure. The wiki is the public literature evidence layer; the staff Standards Workbench (and the `data/workbench/` directory) carries the threshold math.
+HMTc references HMI for the literature baseline that informs every certification standard. The reference is **one-way**: HMTc cites HMI; HMI does not endorse HMTc, does not contain percentile arithmetic, does not name HMTc-certified brands, and does not advocate for the certification program. The wiki/HMTc firewall is operative policy under the HMTc Governing Principles (specifically Principle 4 on legal defensibility), and is enforced through the program's automated lint infrastructure. The wiki is the public literature evidence layer; the Standards Workbench carries the threshold math, which remains workbench-side and is not published in the wiki.
 
 This separation is what gives the standards their authority.
 
 ## Why the separation matters
 
-A certifying body that operates its own evidence base has a structural conflict of interest: the body that decides what the literature supports is also the body that decides what to certify. An adversarial reader can attack the evidence base on the grounds that it was selected to justify a pre-determined commercial position. Single-source certifiers — programs where the evidence and the certification live in the same property under the same control — cannot fully defend against this attack because the conflict is real.
+A certifying body that operates its own evidence base has a structural conflict of interest: the body that decides what the literature supports is also the body that decides what to certify. An adversarial reader can attack the evidence base on the grounds that it was selected to justify a pre-determined commercial position. Single-source certifiers, programs where the evidence and the certification live in the same property under the same control, cannot fully defend against this attack because the conflict is real.
 
 The HMI/HMTc separation defeats this attack. HMI is a curated literature wiki published as a public resource. It exists whether HMTc does or does not exist. It will continue to exist when the methodology in this manual is replaced by a future revision. It contains studies whose findings make HMTc thresholds look conservative and studies whose findings make HMTc thresholds look aggressive. It does not adjust its evidence to fit the certification program. The Paleo Foundation operates HMI as a public-good resource because curating the complete literature is the only durable foundation for any defensible standards program built on top.
 
-This is the **Cochrane-for-heavy-metals** positioning. Cochrane systematic reviews are the gold standard in medicine for a single reason: they aggregate the complete relevant literature, not selected papers, and they publish their methodology so that any reviewer can verify their conclusions. HMI is structured on the same principle. Aggregating the complete literature, not selected papers, is what produces durable epistemic authority — and durable epistemic authority is what allows the standards program built on top to withstand adversarial scrutiny.
+This is the **Cochrane-for-heavy-metals** positioning. Cochrane systematic reviews are the gold standard in medicine for a single reason: they aggregate the complete relevant literature, not selected papers, and they publish their methodology so that any reviewer can verify their conclusions. HMI is structured on the same principle. Aggregating the complete literature, not selected papers, is what produces durable epistemic authority, and durable epistemic authority is what allows the standards program built on top to withstand adversarial scrutiny.
 
 ## Provenance: how a limit in this manual traces to the corpus
 
-Every concentration limit in Part 3 of this manual was derived from a pooled distribution of source pages on HMI for the relevant product-by-metal cell. The pooling math (the per-analyte percentile calculations, the source-level bootstrap, the sensitivity-band analysis) lives workbench-side, per the firewall. But the **inputs** to the pooling — the source pages contributing to each cell — are public.
+Every concentration limit in Part 3 of this manual was derived from a pooled distribution of source pages on HMI for the relevant product-by-metal cell. The pooling math (the per-analyte percentile calculations, the source-level bootstrap, the sensitivity-band analysis) lives workbench-side, per the firewall. But the **inputs** to the pooling, the source pages contributing to each cell, are public.
 
 A reader who wants to audit a specific HMTc limit follows this path:
 
@@ -32,7 +32,7 @@ A reader who wants to audit a specific HMTc limit follows this path:
 2. **Read the chapter's Sources Cited section.** Each citation resolves to a source page on heavymetalindex.com.
 3. **Read the source page.** Each source page summarizes the underlying document's findings with concentrations, sample sizes, methods, and basis (as-sold, as-consumed, dry weight). The source page links to the original document where available.
 4. **For the routing layer**, the corpus also maintains a structured routing audit at `data/evidence/product_source_routing_audit.csv` that maps every source to every product-category, ingredient, metal, and regulation page it touches. Adversarial readers who suspect a source has been omitted from a cell can check the routing audit directly.
-5. **For the pooled distribution itself**, qualified reviewers — regulators with formal inquiries, plaintiff's experts requesting access through counsel, sampling auditors verifying program operation — may request the workbench-side aggregate distribution data under controlled terms. The pooling engine is proprietary; the pool composition is not.
+5. **For the pooled distribution itself**, qualified reviewers, regulators with formal inquiries, plaintiff's experts requesting access through counsel, sampling auditors verifying program operation, may request the workbench-side aggregate distribution data under controlled terms. The pooling engine is proprietary; the pool composition is not.
 
 This design preserves the wiki/HMTc firewall (the engine arithmetic stays workbench-side, where it cannot be reverse-engineered by competing certifiers) while making the evidence inputs auditable (every limit traces to public source pages on HMI).
 
@@ -83,4 +83,4 @@ This concludes Part 1. The reader who has read all five chapters now understands
 - What the program's design principles are (staged compliance, risk-tiered metal classification, exposure-based testing, measurement-uncertainty decision rules, confidential remediation, ratcheting standards, supplier intelligence);
 - And where the evidence base lives (heavymetalindex.com, a public curated corpus architecturally separate from the certification program).
 
-The next chapter — Part 2.0 Program Flow Diagram — opens Part 2 with a single-page visualization of the certification lifecycle before the operational chapters specify the program in detail.
+The next chapter, Part 2.0 Program Flow Diagram, opens Part 2 with a single-page visualization of the certification lifecycle before the operational chapters specify the program in detail.

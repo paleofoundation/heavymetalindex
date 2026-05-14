@@ -7,7 +7,7 @@
 - Table of Contents
 - How to Read This Document
 
-## Part 1 — Why HMTc Exists
+## Part 1, Why HMTc Exists
 
 1.1 Introduction
 1.2 The Structural Problem: Why Public Exposé Testing Fails
@@ -15,7 +15,7 @@
 1.4 The Structural Alternative: HMTc
 1.5 How HMTc Knows What It Knows: heavymetalindex.com
 
-## Part 2 — The HMTc Program
+## Part 2, The HMTc Program
 
 2.0 Program Flow Diagram
 2.1 Purpose and Core Principles
@@ -31,14 +31,14 @@
 2.11 Regulatory Escalation
 2.12 Appeals, Reinstatement, and Document Control
 
-## Part 2.5 — Using heavymetalindex.com
+## Part 2.5, Using heavymetalindex.com
 
 2.5.1 The Diagnostic Tool
 2.5.2 The Remediation Playbook
 2.5.3 Percentile Placement (Roadmap)
 2.5.4 The Pre-Certification Baseline
 
-## Part 3 — The Standards
+## Part 3, The Standards
 
 3.1 Infant Formula, Powder (Non-Soy)
 3.2 Infant Formula, Powder (Soy-Based)
@@ -56,11 +56,11 @@
 3.14 Teething and Snacks (Rice-Based)
 3.15 Teething and Snacks (Non-Rice)
 
-## Part 4 — The Lot Testing Schedule
+## Part 4, The Lot Testing Schedule
 
 Reproduced in full from the operational companion document.
 
-## Part 5 — Methodology and Appendices
+## Part 5, Methodology and Appendices
 
 5.1 How HMTc Standards Are Set
 5.2 Program-Level Adversarial Read

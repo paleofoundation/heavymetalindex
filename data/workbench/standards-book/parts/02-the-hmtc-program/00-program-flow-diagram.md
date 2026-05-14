@@ -1,4 +1,4 @@
-# Part 2 — The HMTc Program
+# Part 2, The HMTc Program
 
 ## 2.0 Program Flow Diagram
 

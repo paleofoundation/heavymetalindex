@@ -2,7 +2,7 @@
 
 ## Narrative
 
-The HMTc Certification Mark is the public signal that a product has been independently tested and meets defined action levels under an ongoing surveillance protocol. Mark usage rules are designed to ensure that the mark means what it says — that consumers, retailers, and regulators can rely on its presence as an indicator of verified compliance, and that brands cannot game the mark through arbitrage, status manipulation, or misleading marketing claims.
+The HMTc Certification Mark is the public signal that a product has been independently tested and meets defined action levels under an ongoing surveillance protocol. Mark usage rules are designed to ensure that the mark means what it says, that consumers, retailers, and regulators can rely on its presence as an indicator of verified compliance, and that brands cannot game the mark through arbitrage, status manipulation, or misleading marketing claims.
 
 ## 6.1 Eligibility
 
@@ -16,12 +16,12 @@ The mark certifies that the product has been independently tested and meets defi
 
 ## 6.3 Anti-Arbitrage: Re-Entry After Dropping the Mark
 
-If a brand removes the HMTc Certification Mark from a SKU during a remediation period — whether voluntarily or by enforcement — the brand cannot simply resume mark usage after producing one passing lot. Re-entry to mark usage requires:
+If a brand removes the HMTc Certification Mark from a SKU during a remediation period, whether voluntarily or by enforcement, the brand cannot simply resume mark usage after producing one passing lot. Re-entry to mark usage requires:
 
 - Three (3) consecutive passing lot results at Status A or B levels, and
 - Closure of any open CAPA associated with the SKU.
 
-This prevents status arbitrage, where a brand might drop the mark during bad periods (avoiding the documented exceedance) and re-enter when results improve by chance (claiming a clean certification record without the intervening problem appearing in the registry). The anti-arbitrage rule ensures that the mark's signal — *this product has demonstrated sustained compliance* — is not subvertible by selective mark display.
+This prevents status arbitrage, where a brand might drop the mark during bad periods (avoiding the documented exceedance) and re-enter when results improve by chance (claiming a clean certification record without the intervening problem appearing in the registry). The anti-arbitrage rule ensures that the mark's signal, *this product has demonstrated sustained compliance*, is not subvertible by selective mark display.
 
 ## 6.4 Brand Visibility Controls
 

@@ -1,4 +1,4 @@
-# Part 1 — Why HMTc Exists
+# Part 1, Why HMTc Exists
 
 ## 1.1 Introduction
 
