@@ -81,24 +81,6 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/baby-talcum-powder|Baby Talcum Powder]]
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/children-personal-care|Children Personal Care (Cat 2 master)]]
-- [[products/chocolate|Chocolate]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/fresh-fruit|Fresh Fruit]]
-- [[products/honey|Honey]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/seafood|Seafood]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/spices|Spices]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/lipstick|Lipstick]]
+- [[products/toothpaste|Toothpaste (Cat 2)]]
 <!-- END: hmi-auto-linked-stubs -->
