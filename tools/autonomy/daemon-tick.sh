@@ -75,6 +75,17 @@ run_step "git pull --ff-only" git pull --ff-only origin "$(git branch --show-cur
 # Step 1: refresh routing audit (catches new sources, refreshes fan-out)
 run_step "routing audit" node tools/evidence/build-routing-audit.mjs || true
 
+# Step 1b: auto-create missing pages for unresolved targets (per OPERATING.md
+# Part 3: no approval gates; stubs are reversible and the synthesis pass fills
+# them in as sources accumulate). Runs AFTER the routing audit, so it acts on
+# the latest unresolved list; the routing audit re-runs in step 1c to
+# re-evaluate routing now that the new pages exist.
+run_step "create-missing-pages" node tools/autonomy/create-missing-pages.mjs || true
+
+# Step 1c: re-run routing audit after stub creation so any newly-resolvable
+# targets get product_source_routing_audit.csv updates in the same tick.
+run_step "routing audit (refresh)" node tools/evidence/build-routing-audit.mjs || true
+
 # Step 2: heal-gaps — auto-fixes safe gaps (missing primary_metals_of_concern,
 # routing-typo proposals), queues synthesis work
 run_step "heal-gaps" node tools/autonomy/heal-gaps.mjs || true

@@ -57,6 +57,15 @@ const existingIngredients = listSlugs(ingredientDir)
 const existingMetals = listSlugs(metalDir)
 const existingRegulations = listSlugs(regulationDir)
 
+// Alias indexes — alias slug → canonical page slug. Built from `aliases:`
+// frontmatter on existing ingredient and product pages, so declarations like
+// `ingredients: [[[ingredients/milk]]]` route to `milk-and-dairy.md` when
+// `milk` is in that page's aliases array. Without this, the routing audit
+// reports legitimate references as unresolved every time a source uses the
+// common name instead of the canonical slug.
+const ingredientAliases = buildAliasIndex(ingredientDir)
+const productAliases = buildAliasIndex(productDir)
+
 // Broad-scope vocabulary: declarations that intentionally do not name a
 // specific row. The product audit script's `inheritedProductRoutes` map fans
 // these out; we recognize them here so they do not show up as unresolved.
@@ -146,6 +155,7 @@ for (const file of sourceFiles) {
   const declaredProducts = asProductSlugs(parsed.data.products)
   for (const product of declaredProducts) {
     if (existingProducts.has(product) || broadProductScopes.has(product)) continue
+    if (productAliases.has(product)) continue
     unresolved.push({
       source_id: sourceId,
       source_page: sourcePage,
@@ -158,6 +168,7 @@ for (const file of sourceFiles) {
   const declaredIngredients = asWikiLinkSlugs(parsed.data.ingredients, "ingredients")
   for (const ingredient of declaredIngredients) {
     if (existingIngredients.has(ingredient)) continue
+    if (ingredientAliases.has(ingredient)) continue
     unresolved.push({
       source_id: sourceId,
       source_page: sourcePage,
@@ -236,6 +247,42 @@ function listSlugs(dir) {
     slugs.add(path.basename(file, ".md"))
   }
   return slugs
+}
+
+function buildAliasIndex(dir) {
+  const index = new Map()
+  if (!fs.existsSync(dir)) return index
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".md") || file === "index.md") continue
+    const canonical = path.basename(file, ".md")
+    try {
+      const raw = fs.readFileSync(path.join(dir, file), "utf8")
+      const parsed = matter(raw)
+      const aliases = parsed.data?.aliases
+      if (!Array.isArray(aliases)) continue
+      for (const alias of aliases) {
+        const slug = slugifyAlias(alias)
+        if (!slug) continue
+        // First-writer-wins on collision — alias collisions are a real signal
+        // that needs human attention, but we don't block the routing audit.
+        if (!index.has(slug)) index.set(slug, canonical)
+      }
+    } catch {
+      // skip pages we can't parse; the malformed-source check elsewhere catches them
+    }
+  }
+  return index
+}
+
+function slugifyAlias(alias) {
+  if (!alias) return null
+  return String(alias)
+    .toLowerCase()
+    .trim()
+    .replace(/[\s_]+/g, "-")
+    .replace(/[^a-z0-9-]/g, "")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "")
 }
 
 function hasFrontmatterValue(data, field) {
