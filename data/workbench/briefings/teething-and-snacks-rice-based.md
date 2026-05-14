@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: teething-and-snacks-rice-based
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:31.011Z
+generated_at: 2026-05-14T09:49:20.564Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -81,7 +81,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 2 sources contributing · 2 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [2.00, 8] ppb**
+**Bootstrap 95% CI: [0.87, 8] ppb**
 **Sensitivity: log-normal 4.87 · gamma 4.87 · nonparametric 4.87 ppb · spread 0% (stable)**
 
 
@@ -114,7 +114,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 300 ppb (eu2023_ias_rice_products_300)
 **Pool composition:** 2 sources contributing · 20 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [67.11, 169.61] ppb**
+**Bootstrap 95% CI: [15.43, 185.21] ppb**
 **Sensitivity: log-normal 87.51 · gamma 65.47 · nonparametric 109.16 ppb · spread 40% (provisional)**
 
 
@@ -147,7 +147,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 2 sources contributing · 2 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [1.19, 7] ppb**
+**Bootstrap 95% CI: [0.35, 7] ppb**
 **Sensitivity: log-normal 3.51 · gamma 3.50 · nonparametric 3.51 ppb · spread 0% (stable)**
 
 
@@ -266,17 +266,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
+1. Checking out commit `c8d58e55cbe60976abb43bea73c3d24c80944288` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=teething-and-snacks-rice-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T09:09:31.021Z |
+| Generated at | 2026-05-14T09:49:20.592Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
+| Git commit | `c8d58e55cbe60976abb43bea73c3d24c80944288` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

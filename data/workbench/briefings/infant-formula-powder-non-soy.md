@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-powder-non-soy
 native_basis: powder_as_placed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T09:09:28.854Z
+generated_at: 2026-05-14T09:49:16.596Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -88,7 +88,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 20 ppb (eu2023_pb_formula_powder_20)
 **Pool composition:** 15 sources contributing · 236 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [4.06, 82.86] ppb**
+**Bootstrap 95% CI: [4.12, 80.67] ppb**
 **Sensitivity: log-normal 57.48 · gamma 57.87 · nonparametric 59.43 ppb · spread 3% (stable)**
 
 
@@ -134,7 +134,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 20 ppb (eu2023_ias_formula_powder_20)
 **Pool composition:** 7 sources contributing · 52 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [4.71, 21.98] ppb**
+**Bootstrap 95% CI: [4.26, 20.22] ppb**
 **Sensitivity: log-normal 11.45 · gamma 8.54 · nonparametric 14.11 ppb · spread 40% (provisional)**
 
 
@@ -267,7 +267,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 7 sources contributing · 61 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [53.06, 131.62] ppb**
+**Bootstrap 95% CI: [48.23, 119.35] ppb**
 **Sensitivity: log-normal 105.78 · gamma 84.35 · nonparametric 96.16 ppb · spread 20% (stable)**
 
 
@@ -305,7 +305,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 10 ppb (eu2023_cd_formula_cow_powder_10)
 **Pool composition:** 21 sources contributing · 280 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [5.12, 10.27] ppb**
+**Bootstrap 95% CI: [5.70, 10.72] ppb**
 **Sensitivity: log-normal 8.03 · gamma 8.48 · nonparametric 8.28 ppb · spread 5% (stable)**
 
 
@@ -390,7 +390,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 19 sources contributing · 120 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [1461.35, 7465.23] ppb**
+**Bootstrap 95% CI: [1321.66, 8089.02] ppb**
 **Sensitivity: log-normal 3640.37 · gamma 5449.58 · nonparametric 3384.79 ppb · spread 38% (provisional)**
 
 
@@ -611,17 +611,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
+1. Checking out commit `c8d58e55cbe60976abb43bea73c3d24c80944288` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-powder-non-soy` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T09:09:28.866Z |
+| Generated at | 2026-05-14T09:49:16.609Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
+| Git commit | `c8d58e55cbe60976abb43bea73c3d24c80944288` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

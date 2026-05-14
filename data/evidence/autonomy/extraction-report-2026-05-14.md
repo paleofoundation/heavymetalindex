@@ -1,16 +1,16 @@
 # Source-value extraction report — 2026-05-14
 
-Generated: 2026-05-14T09:09:13.570Z
+Generated: 2026-05-14T09:49:15.848Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 472
-- Pages with `## Key numbers` section: 368
-- Pages without Key numbers section (skipped): 104
-- Structured rows extracted: 1560
-- Pages with Key numbers but no parseable values: 38
+- Source pages processed: 841
+- Pages with `## Key numbers` section: 738
+- Pages without Key numbers section (skipped): 103
+- Structured rows extracted: 3706
+- Pages with Key numbers but no parseable values: 52
 
 ## Output
 
@@ -19,52 +19,63 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Cd: 358 rows
-- Pb: 316 rows
-- tAs: 162 rows
-- Cr-total: 132 rows
-- Al: 114 rows
-- Ni: 110 rows
-- iAs: 105 rows
-- tHg: 99 rows
-- MeHg: 30 rows
-- Cu: 29 rows
-- U: 23 rows
-- Sn: 16 rows
-- Fe: 11 rows
-- Co: 10 rows
-- Se: 10 rows
-- Mn: 9 rows
-- Sb: 8 rows
+- Pb: 793 rows
+- Cd: 783 rows
+- Cr-total: 382 rows
+- Ni: 328 rows
+- tAs: 327 rows
+- Al: 251 rows
+- tHg: 227 rows
+- iAs: 157 rows
+- MeHg: 75 rows
+- Cu: 64 rows
+- Sn: 61 rows
+- U: 42 rows
+- Fe: 40 rows
+- Co: 32 rows
+- Mn: 30 rows
+- Se: 29 rows
+- Sb: 20 rows
+- V: 10 rows
+- Ba: 10 rows
+- Mo: 8 rows
 - DMA: 7 rows
-- V: 3 rows
+- K: 5 rows
+- Be: 3 rows
+- Cr-VI: 3 rows
+- B: 3 rows
+- Ca: 2 rows
+- Mg: 2 rows
 - MMA: 2 rows
+- Tl: 2 rows
 - F: 1 rows
-- Ca: 1 rows
-- Mg: 1 rows
 - I: 1 rows
 - Ge: 1 rows
-- Mo: 1 rows
+- Li: 1 rows
+- Sr: 1 rows
+- tl: 1 rows
+- Cs: 1 rows
+- W: 1 rows
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 1188 rows
-- baby-cereals-dry-rice-based: 44 rows
-- infant-formula-powder-non-soy: 39 rows
+- (empty): 2905 rows
+- baby-cereals-dry-rice-based: 97 rows
+- infant-formula-powder-non-soy: 71 rows
+- seafood: 65 rows
+- canned-fish: 59 rows
+- fresh-fruit: 37 rows
 - fruit-purees: 27 rows
-- fish: 26 rows
-- bread-and-cereals: 20 rows
-- fruit-juice-not-canned: 18 rows
+- canned-tomatoes: 24 rows
+- tomato-sauce: 24 rows
+- snacks-crackers-biscuits: 23 rows
+- fruit-juice-not-canned: 21 rows
+- spices: 19 rows
+- infant-formula: 18 rows
 - meat-and-fish-baby-foods: 18 rows
 - fish-containing-baby-foods: 18 rows
-- canned-fish: 17 rows
-- infant-formula: 16 rows
-- meat-and-poultry: 15 rows
-- dark-chocolate: 11 rows
-- dairy: 11 rows
-- pasteurized-milk: 9 rows
-- poultry-meat: 9 rows
-- flavored-milk: 9 rows
-- infant-formula-powder-soy-based: 8 rows
-- plant-milks-soy-based: 8 rows
-- baby-cereals-dry-non-rice: 6 rows
+- canned-mushrooms: 17 rows
+- fresh-fish: 15 rows
+- herbs-and-spices: 14 rows
+- fruit-juice: 13 rows
+- root-vegetables: 13 rows
