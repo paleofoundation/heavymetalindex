@@ -1,16 +1,15 @@
 # Heal-gaps report — 2026-05-14
 
-Generated: 2026-05-14T16:48:58.783Z
+Generated: 2026-05-14T20:49:10.041Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
-- Queued for synthesis: 7
+- Queued for synthesis: 6
 - Routing typo proposals: 0
 - Items requiring Karen review: 0
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 
-- missing_sources_section: 1 item(s)
 - pending_contamination_profile_with_sources: 6 item(s)
