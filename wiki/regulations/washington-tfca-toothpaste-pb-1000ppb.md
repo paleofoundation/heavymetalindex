@@ -1,0 +1,59 @@
+---
+type: regulation
+rule_id: washington-tfca-toothpaste-pb-1000ppb
+jurisdiction: US-WA
+agency: Washington State Department of Ecology
+program: Toxic-Free Cosmetics Act (TFCA)
+metal: Pb
+matrix: toothpaste
+limit_value: 1000
+limit_unit: ppb
+status: enforced
+effective_date: 2025-01-01
+sunset_date: null
+source_refs: []
+audience: [regulator, educator, consumer, brand-legal]
+updated: 2026-05-14
+created_by: autonomy_v0
+---
+
+# Washington State Toxic-Free Cosmetics Act — Toothpaste Pb 1000 ppb statutory limit
+
+The Washington State Toxic-Free Cosmetics Act (TFCA) sets a 1000 µg/kg (1000 ppb, 1 ppm) statutory maximum for lead in toothpaste sold in Washington State, effective 2025-01-01. The TFCA is one of a small set of state-level binding heavy-metal limits in finished cosmetic products and is currently the most stringent toothpaste-specific Pb cap in the US regulatory landscape.
+
+## Scope
+
+The TFCA covers cosmetic products including toothpastes, lipsticks, makeup, hair-care products, and other personal-care items sold in Washington State. The lead cap applies to finished product as sold, total lead by destructive digestion + ICP-MS or equivalent quantification. The 1000 ppb limit is statutory (set by the legislature), not a regulatory action level.
+
+## Exact limit and units
+
+Lead in toothpaste: 1000 µg/kg (1000 ppb, 1 mg/kg). The TFCA does not set toothpaste-specific limits for other heavy metals (Cd, Hg, As) at the same 1000 ppb level; those metals are addressed under separate provisions or default cosmetic regulations.
+
+## How tested
+
+The TFCA does not specify a single official method but anticipates standard cosmetic-industry analytical practice: nitric acid + hydrogen peroxide microwave digestion followed by ICP-MS quantification. LOD/LOQ should be at least an order of magnitude below the 1000 ppb cap (~10-100 ppb) to provide defensible cap exceedance determinations.
+
+## Enforcement posture
+
+The Washington State Department of Ecology has issued interim guidance and is expected to publish formal enforcement procedures. Consumer-advocacy testing (notably Lead Safe Mama's 2024-2025 toothpaste surveys) has been the primary public-facing driver of awareness and compliance pressure. As of 2025, at least one toothpaste tested above the 1000 ppb statutory limit, identified in the Lead Safe Mama dataset reported by Perkins 2025 ([[sources/massarsky2025-heavy-metals-toothpaste-health-risk]]).
+
+## History of changes
+
+- 2023 (Q4): Washington State legislature passes TFCA (HB 1047)
+- 2025-01-01: TFCA effective; 1000 ppb Pb toothpaste limit in force
+- 2025: First public-record consumer-advocacy testing identifying products above the cap
+
+## Comparison with other jurisdictions
+
+- **US federal**: FDA does not set a binding finished-product Pb limit for toothpaste. Toothpaste regulated as cosmetic + OTC drug; no equivalent action level. FDA's Closer-to-Zero Pb action level for fruits/vegetables/mixtures/yogurt/meat is 10 ppb (food, not cosmetic).
+- **EU**: EC Regulation No 1223/2009 sets cosmetic Pb limit 0.5 ppm (500 ppb), stricter than WA TFCA by 2x.
+- **Canada**: Health Canada cosmetic Pb limit 10 ppm (10,000 ppb), 10x more permissive than WA TFCA.
+- **WHO**: Cosmetic Pb guidance 10 ppm (10,000 ppb), 10x more permissive than WA TFCA.
+
+The WA TFCA sits between the strict EU regulation and the more permissive Canadian/WHO guidance. For HMTc Cat 2 toothpaste row, the WA TFCA is the operative US binding cap and any HMTc threshold tighter than 1000 ppb adds value over state regulation; threshold at or above 1000 ppb adds no marginal value.
+
+## Sources
+
+- TFCA statutory text (Washington State HB 1047, 2023): TBD — direct citation pending ingest
+- Massarsky 2025 (this wiki): [[sources/massarsky2025-heavy-metals-toothpaste-health-risk]] cites the WA TFCA as the binding US cap for toothpaste Pb
+- Perkins 2025 news article (Lead Safe Mama): consumer-advocacy testing supporting TFCA enforcement
