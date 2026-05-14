@@ -72,16 +72,44 @@ Daemon heartbeat:     active, last tick 2026-05-14T20:49Z; next at 21:19Z
 Cat 2 status:         OPENED — 3 sources, 3 product rows, 1 reg page; methodology supplement pending
 ```
 
-### Daily session deltas
+### Daily session deltas (final tally at 21:30Z)
 
-- 4 new manually-authored source pages (Han 2024 Zhejiang nickel, Rashmi 2020 baby talcum, Attard 2022 cosmetics review, Massarsky 2025 toothpaste)
-- 3 new Cat 2 product pages (baby-talcum-powder, toothpaste, children-personal-care)
-- 1 new regulation page (Washington TFCA)
-- 66 auto-stub pages (49 ingredient + 17 product) from routing-unresolved with frequency ≥ 2
-- 22 mandatory-section autofills
-- 96 orphans auto-linked to category indexes
-- 33 wiki/ files rewritten by firewall-fix (workbench vocabulary removed)
-- 7 new autonomy tools committed (alias-aware routing, create-missing-pages, ingest-marker-batch, firewall-lint, firewall-fix, mandatory-sections, provenance-audit, link-orphans)
+- **6 manually-authored source pages**:
+  - `han2024-nickel-zhejiang-china` — P1 Manual Resourcing pile; nickel in Chinese food categories
+  - `rashmi2020-baby-talcum-powder-heavy-metals-india` — Cat 2 talcum
+  - `attard2022-heavy-metals-cosmetics-review` — Cat 2 16-category meta-analysis
+  - `massarsky2025-heavy-metals-toothpaste-health-risk` — Cat 2 toothpaste
+  - `smajgl2015-tin-baby-diapers-croatia` — Cat 2 diapers (organotin)
+  - `li2021-lead-lip-cosmetics-china-ecommerce` — Cat 2 lip cosmetics
+  - `arsenic2025-unknown` — P1 Marker corpus (Navaretnam 2025 arsenic speciation in rice)
+  - (dedup pointer: `arsenic2025-unknown-a`)
+- **4 new Cat 2 product pages** (baby-talcum-powder, toothpaste, lipstick, children-personal-care master)
+- **1 new regulation page** (Washington TFCA toothpaste Pb 1000 ppb)
+- **66 auto-stub pages** (49 ingredient + 17 product) from routing-unresolved with frequency ≥ 2
+- **23 mandatory-section autofills**
+- **126 orphans auto-linked** to category indexes (96 in first pass + 30 in second pass after Cat 2 additions)
+- **33 wiki/ files rewritten** by firewall-fix (workbench vocabulary removed)
+- **8 new autonomy tools committed** (alias-aware routing, create-missing-pages, ingest-marker-batch, firewall-lint, firewall-fix, mandatory-sections, provenance-audit, link-orphans)
+- **23 commits** to main (+ 1 daemon tick commit during session)
+
+### Cat 2 (Children Personal Care) opening summary
+
+Before this session: 0 sources, 0 product pages.
+After this session: 5 sources, 4 dedicated product rows + 1 master, 1 regulation anchor.
+
+Row coverage:
+- baby-talcum-powder (Rashmi 2020) — Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm
+- toothpaste (Massarsky 2025) — Pb upper-tail concern; WA TFCA 1000 ppb anchor
+- lipstick (Attard 2022 + Li 2021) — China e-commerce 0-0.5237 mg/kg Pb; older markets higher
+- disposable baby diapers (Šmajgl 2015) — total Sn 0-23.1 mg/kg; speciated organotin concerns
+- children-personal-care (master rollup) — methodology supplement still pending
+
+Rows referenced but not yet pages (freq=1, auto-stub-creator's threshold = 2):
+- lip-gloss, lip-balm, lip-cosmetics (Li 2021 only)
+- disposable-baby-diapers (Šmajgl 2015 only)
+- eye-shadow, face-foundation, skin-lightening-cream, face-paint (Attard 2022 only)
+
+These will get product pages when the next Cat 2 ingest brings second-source coverage. The 62-paper Children Personal Care pile in raw/Manual Fetch Kimi/ remains the Cat 2 ingest backlog.
 
 ## What the daemon now does autonomously, per tick
 

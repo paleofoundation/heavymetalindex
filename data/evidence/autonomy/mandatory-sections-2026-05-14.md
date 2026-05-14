@@ -1,7 +1,7 @@
 # Mandatory-sections audit — 2026-05-14
 
-Generated: 2026-05-14T21:28:57.250Z
-Mode: EXECUTED (audit + autofill)
+Generated: 2026-05-14T21:33:00.425Z
+Mode: DRY-RUN (audit only)
 
 ## Summary
 
