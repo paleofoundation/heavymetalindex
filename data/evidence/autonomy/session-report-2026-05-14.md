@@ -62,14 +62,26 @@ The launchd-scheduled daemon now runs these steps per tick (every 30 min):
 ## Current system state (after this session)
 
 ```
-Routing audit:        123 unresolved (down from 493), 737 advisory-malformed (non-blocking), 0 blocking
+Routing audit:        128 unresolved (down from 493), 739 advisory-malformed (non-blocking), 0 blocking
 Firewall lint:        0 ERROR, 0 WARNING (down from 30 + 17)
 Mandatory sections:   0 ingredient + 0 product failures (down from 5 + 17)
 Provenance audit:     263 unsourced claims across 158 files (backlog)
-Page counts:          865 sources, 238 ingredients, 62 products, 37 metals
+Page counts:          867 sources, 238 ingredients, 63 products, 37 metals, 38 regulations
 Orphan pages:         0 (after link-orphans pass)
-Daemon heartbeat:     active (last tick refused dirty tree, will resume on next)
+Daemon heartbeat:     active, last tick 2026-05-14T20:49Z; next at 21:19Z
+Cat 2 status:         OPENED — 3 sources, 3 product rows, 1 reg page; methodology supplement pending
 ```
+
+### Daily session deltas
+
+- 4 new manually-authored source pages (Han 2024 Zhejiang nickel, Rashmi 2020 baby talcum, Attard 2022 cosmetics review, Massarsky 2025 toothpaste)
+- 3 new Cat 2 product pages (baby-talcum-powder, toothpaste, children-personal-care)
+- 1 new regulation page (Washington TFCA)
+- 66 auto-stub pages (49 ingredient + 17 product) from routing-unresolved with frequency ≥ 2
+- 22 mandatory-section autofills
+- 96 orphans auto-linked to category indexes
+- 33 wiki/ files rewritten by firewall-fix (workbench vocabulary removed)
+- 7 new autonomy tools committed (alias-aware routing, create-missing-pages, ingest-marker-batch, firewall-lint, firewall-fix, mandatory-sections, provenance-audit, link-orphans)
 
 ## What the daemon now does autonomously, per tick
 
@@ -180,7 +192,12 @@ For Karen's review:
 - `data/evidence/autonomy/morning-report-2026-05-14.md` — daemon's per-tick log
 - `wiki/sources/han2024-nickel-zhejiang-china.md` — first manually-authored source from raw piles today
 - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md` — first Cat 2 source
+- `wiki/sources/attard2022-heavy-metals-cosmetics-review.md` — Cat 2 review (16-category meta-analysis)
+- `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk.md` — Cat 2 toothpaste risk assessment
 - `wiki/products/children-personal-care.md` — Cat 2 master
+- `wiki/products/baby-talcum-powder.md` — Cat 2 row 1
+- `wiki/products/toothpaste.md` — Cat 2 row 2
+- `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md` — Cat 2 reg anchor
 
 ## Bottom line
 
