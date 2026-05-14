@@ -38,3 +38,6 @@ replit.nix
 # Keep them local and commit only structured evidence, queues, audits, and gap reports.
 data/evidence/local_reingest_packets/
 data/evidence/local_reingest_prompts/
+
+# Autonomy daemon per-tick logs (local only)
+data/evidence/autonomy/daemon-runs/
