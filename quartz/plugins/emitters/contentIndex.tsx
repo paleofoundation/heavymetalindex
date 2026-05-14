@@ -20,6 +20,16 @@ export type ContentDetails = {
   date?: Date
   description?: string
   noindex?: boolean
+  // Frontmatter fields surfaced to downstream consumers such as the Ask the
+  // Index chatbot (api/ask.js), which uses them to render inline per-claim
+  // provenance ("[2, n=N, tier-A]"). All fields are optional; pages that do
+  // not set them simply omit them from the simplified index.
+  evidence_tier?: string
+  year?: number | string
+  sample_n?: number | string
+  source_type?: string
+  type?: string
+  updated?: string
 }
 
 interface Options {
@@ -107,7 +117,8 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
         const noindex = isNoindex(file.data.frontmatter?.noindex)
         if (opts?.includeEmptyFiles || (file.data.text && file.data.text !== "")) {
-          linkIndex.set(slug, {
+          const fm = file.data.frontmatter as Record<string, unknown> | undefined
+          const entry: ContentDetails = {
             slug,
             filePath: file.data.relativePath!,
             title: file.data.frontmatter?.title!,
@@ -120,7 +131,18 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
             date: date,
             description: file.data.description ?? "",
             noindex,
-          })
+          }
+          // Pass through source-page and synthesis-relevant frontmatter for
+          // the Ask the Index chatbot's per-claim provenance rendering.
+          if (fm) {
+            if (typeof fm.evidence_tier === "string") entry.evidence_tier = fm.evidence_tier
+            if (typeof fm.year === "number" || typeof fm.year === "string") entry.year = fm.year as number | string
+            if (typeof fm.sample_n === "number" || typeof fm.sample_n === "string") entry.sample_n = fm.sample_n as number | string
+            if (typeof fm.source_type === "string") entry.source_type = fm.source_type
+            if (typeof fm.type === "string") entry.type = fm.type
+            if (typeof fm.updated === "string") entry.updated = fm.updated
+          }
+          linkIndex.set(slug, entry)
         }
       }
 

@@ -16,6 +16,11 @@ const QUERY_LOG_CAPACITY = 200
 
 const AUDIENCES = new Set(["legal", "regulatory", "journalist", "educator"])
 const DEFAULT_AUDIENCE = "regulatory"
+const MODES = new Set(["ask", "verify"])
+const DEFAULT_MODE = "ask"
+const EMBEDDING_MODEL = "text-embedding-3-small"
+const HYBRID_RESCORE_CANDIDATES = 30
+const HYBRID_BLEND = 0.35
 
 const STOP_WORDS = new Set([
   "a", "about", "above", "after", "again", "against", "all", "also", "am", "an",
@@ -112,6 +117,8 @@ export default async function handler(req, res) {
     const pageSlug = typeof body.pageSlug === "string" ? body.pageSlug.trim() : ""
     const requestedAudience = typeof body.audience === "string" ? body.audience.trim().toLowerCase() : ""
     const audience = AUDIENCES.has(requestedAudience) ? requestedAudience : DEFAULT_AUDIENCE
+    const requestedMode = typeof body.mode === "string" ? body.mode.trim().toLowerCase() : ""
+    const mode = MODES.has(requestedMode) ? requestedMode : DEFAULT_MODE
 
     if (!question) {
       res.status(400).json({ error: "Question is required." })
@@ -138,8 +145,24 @@ export default async function handler(req, res) {
 
     const corpus = await getCorpus(req)
     const thresholds = await getThresholds()
-    const retrieval = retrieve(question, corpus, pageSlug)
+    let retrieval = retrieve(question, corpus, pageSlug)
     const hmtcMatch = matchThresholds(question, thresholds)
+
+    // Optional second pass: rescore the top TF-IDF candidates by semantic
+    // similarity to the query using the AI Gateway's embeddings endpoint.
+    // Gated by HMI_HYBRID_RETRIEVAL=true plus an API key. Documented in the
+    // gap analysis at workbench/strategy/ask-the-index-current-state-gap §3.2.
+    if (
+      process.env.HMI_HYBRID_RETRIEVAL === "true" &&
+      (process.env.AI_GATEWAY_API_KEY || process.env.OPENAI_API_KEY)
+    ) {
+      try {
+        retrieval = await rescoreWithEmbeddings(question, retrieval, corpus)
+      } catch (err) {
+        // Embeddings rescoring is non-critical; on failure, fall back to TF-IDF.
+        console.warn("Hybrid retrieval failed, falling back to TF-IDF:", err?.message || err)
+      }
+    }
 
     if (retrieval.context.length === 0) {
       const refusal = brandedRefusal({
@@ -168,7 +191,7 @@ export default async function handler(req, res) {
       return
     }
 
-    const modelAnswer = await answerWithModel(question, retrieval, pageSlug, audience, hmtcMatch)
+    const modelAnswer = await answerWithModel(question, retrieval, pageSlug, audience, hmtcMatch, mode)
     const allowedIds = new Set(retrieval.context.map((item) => item.citationId))
     const inTextCitationIds = extractCitationIds(modelAnswer.answer)
     const declaredCitationIds = Array.isArray(modelAnswer.citation_ids)
@@ -651,7 +674,7 @@ function countCorpusMentions(pages, term) {
   }, 0)
 }
 
-async function answerWithModel(question, retrieval, pageSlug, audience, hmtcMatch) {
+async function answerWithModel(question, retrieval, pageSlug, audience, hmtcMatch, mode = "ask") {
   const useGateway = Boolean(process.env.AI_GATEWAY_API_KEY)
   const apiKey = useGateway ? process.env.AI_GATEWAY_API_KEY : process.env.OPENAI_API_KEY
   const endpoint = useGateway
@@ -667,8 +690,8 @@ async function answerWithModel(question, retrieval, pageSlug, audience, hmtcMatc
     body: JSON.stringify({
       model: process.env.HMI_ASSISTANT_MODEL || DEFAULT_MODEL,
       input: [
-        { role: "system", content: buildSystemPrompt(audience) },
-        { role: "user", content: buildUserPrompt(question, retrieval, pageSlug, audience, hmtcMatch) },
+        { role: "system", content: buildSystemPrompt(audience, mode) },
+        { role: "user", content: buildUserPrompt(question, retrieval, pageSlug, audience, hmtcMatch, mode) },
       ],
       max_output_tokens: 1100,
       text: {
@@ -721,8 +744,9 @@ async function answerWithModel(question, retrieval, pageSlug, audience, hmtcMatc
   return JSON.parse(outputText)
 }
 
-function buildSystemPrompt(audience) {
+function buildSystemPrompt(audience, mode = "ask") {
   const audienceBlock = AUDIENCE_PROMPTS[audience] || AUDIENCE_PROMPTS[DEFAULT_AUDIENCE]
+  const modeBlock = mode === "verify" ? VERIFY_MODE_PROMPT : ""
   return `You are Ask the Index, the reference assistant for Heavy Metal Index (heavymetalindex.com), the public reference operated by the Paleo Foundation.
 
 Evidence boundary:
@@ -750,9 +774,22 @@ Brand and identity rules:
 - Do not recommend certification or any commercial action. The wiki does not sell.
 
 ${audienceBlock}
+${modeBlock}
 
 Return JSON conforming to the response schema. Return JSON only.`
 }
+
+const VERIFY_MODE_PROMPT = `
+Verification mode (Cross-Corpus Claim Verification):
+- The user has pasted a marketing claim. Your job is not to repeat or refute the claim from outside knowledge; it is to evaluate whether the Heavy Metal Index corpus contains literature evidence that supports, contradicts, or is silent on the claim.
+- Structure the answer as five labeled sections, each as a paragraph:
+  1. "Claim as stated:" — quote or paraphrase the user's claim in one sentence.
+  2. "Product category scope:" — name the inferred product category and metal(s) at issue.
+  3. "Literature distribution:" — describe what the corpus reports for the relevant product category, with inline provenance and citations. Quote ranges where the corpus provides them.
+  4. "Required substantiation:" — name what testing, sourcing, or formulation evidence the brand would need to substantiate the claim beyond category-level distribution data.
+  5. "Verdict:" — one of "literature-supported", "literature-conflicting", "unsupported-but-not-contradicted", or "out-of-scope". Pick one explicitly and end the paragraph with the chosen label in bold.
+- Do not evaluate the brand. Strip any brand names from the claim before assessing it.
+- Note explicitly that HMT&C-certified products carry verified per-product positions; the wiki does not verify uncertified-brand claims beyond the literature distribution.`
 
 const AUDIENCE_PROMPTS = {
   legal: `Audience: legal counsel (defense or regulatory).
@@ -780,7 +817,40 @@ const AUDIENCE_PROMPTS = {
 - Avoid both fear-mongering and false reassurance; the corpus is the reference, the educator's framing is downstream.`,
 }
 
-function buildUserPrompt(question, retrieval, pageSlug, audience, hmtcMatch) {
+function buildUserPrompt(question, retrieval, pageSlug, audience, hmtcMatch, mode = "ask") {
+  if (mode === "verify") {
+    return buildVerifyUserPrompt(question, retrieval, hmtcMatch)
+  }
+  return buildAskUserPrompt(question, retrieval, pageSlug, audience, hmtcMatch)
+}
+
+function buildVerifyUserPrompt(claim, retrieval, hmtcMatch) {
+  const context = retrieval.context
+    .map((item) => {
+      const meta = []
+      if (item.evidence_tier) meta.push(`tier=${item.evidence_tier}`)
+      if (item.year) meta.push(`year=${item.year}`)
+      if (item.sample_n) meta.push(`n=${item.sample_n}`)
+      const metaTag = meta.length > 0 ? `\nMetadata: ${meta.join(", ")}` : ""
+      return `[${item.citationId}] ${item.title}
+URL: https://heavymetalindex.com${item.url}
+Section: ${item.category}${metaTag}
+Excerpt: ${item.text}`
+    })
+    .join("\n\n")
+  const hmtcSection = hmtcMatch
+    ? `\n\nApplicable HMT&C threshold scope (read from public methodology): ${hmtcMatch.metal_name} in ${hmtcMatch.product_label}, status ${hmtcMatch.hmtc_status || "in-development"}.`
+    : ""
+  return `Marketing claim to verify against the Heavy Metal Index corpus:
+"${claim}"
+
+Numbered Heavy Metal Index excerpts:
+${context}${hmtcSection}
+
+Produce the five-section verification output per the Verification mode rules in the system prompt. End with the verdict label in bold.`
+}
+
+function buildAskUserPrompt(question, retrieval, pageSlug, audience, hmtcMatch) {
   const context = retrieval.context
     .map((item) => {
       const meta = []
@@ -867,4 +937,94 @@ function toClientCitation(item) {
     sample_n: item.sample_n || null,
     last_full_resynthesis: item.last_full_resynthesis || null,
   }
+}
+
+// Hybrid retrieval: rescore the top-K TF-IDF candidates by semantic similarity
+// to the query using the AI Gateway's (or OpenAI's) embeddings endpoint. The
+// final score is a weighted blend of normalized TF-IDF and cosine similarity.
+// Gated by HMI_HYBRID_RETRIEVAL=true and a configured API key. Returns a
+// retrieval object with the same shape as retrieve().
+async function rescoreWithEmbeddings(question, baseRetrieval, corpus) {
+  // Take the top-K candidates (already filtered by entity match and pre-scored
+  // by TF-IDF). For hybrid rescoring we want a larger candidate pool than the
+  // final 10, so we re-run scoring with the larger limit.
+  const queryTokens = expandTokens(tokenize(question))
+  const requiredEntities = findRequiredEntities(question)
+  const expanded = corpus.chunks
+    .filter((chunk) => matchesRequiredEntities(chunk, requiredEntities))
+    .map((chunk) => ({
+      ...chunk,
+      tfidfScore: scoreChunk(chunk, queryTokens, question, ""),
+    }))
+    .filter((chunk) => chunk.tfidfScore > 0)
+    .sort((a, b) => b.tfidfScore - a.tfidfScore)
+    .slice(0, HYBRID_RESCORE_CANDIDATES)
+
+  if (expanded.length === 0) return baseRetrieval
+
+  // Batch-embed the query plus all candidate excerpts in one call.
+  const useGateway = Boolean(process.env.AI_GATEWAY_API_KEY)
+  const apiKey = useGateway ? process.env.AI_GATEWAY_API_KEY : process.env.OPENAI_API_KEY
+  const endpoint = useGateway
+    ? "https://ai-gateway.vercel.sh/v1/embeddings"
+    : "https://api.openai.com/v1/embeddings"
+  const inputs = [question, ...expanded.map((c) => `${c.title}\n${c.text}`)]
+  const response = await fetch(endpoint, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({
+      model: process.env.HMI_EMBEDDING_MODEL || EMBEDDING_MODEL,
+      input: inputs,
+    }),
+  })
+  if (!response.ok) {
+    const err = await response.text().catch(() => "")
+    throw new Error(`Embeddings request failed: ${response.status} ${err.slice(0, 200)}`)
+  }
+  const data = await response.json()
+  if (!Array.isArray(data.data) || data.data.length !== inputs.length) {
+    throw new Error("Embeddings response shape unexpected")
+  }
+  const queryVec = data.data[0].embedding
+  const maxTfidf = Math.max(...expanded.map((c) => c.tfidfScore), 1)
+
+  const rescored = expanded
+    .map((chunk, idx) => {
+      const vec = data.data[idx + 1].embedding
+      const cosine = cosineSimilarity(queryVec, vec)
+      const tfidfNormalized = chunk.tfidfScore / maxTfidf
+      const blended = (1 - HYBRID_BLEND) * tfidfNormalized + HYBRID_BLEND * cosine
+      return { ...chunk, score: blended }
+    })
+    .sort((a, b) => b.score - a.score)
+
+  const pageCounts = new Map()
+  const context = []
+  for (const chunk of rescored) {
+    const count = pageCounts.get(chunk.slug) || 0
+    if (count >= MAX_CHUNKS_PER_PAGE) continue
+    pageCounts.set(chunk.slug, count + 1)
+    context.push({ ...chunk, citationId: context.length + 1 })
+    if (context.length >= MAX_CONTEXT_CHUNKS) break
+  }
+  return {
+    context,
+    stats: baseRetrieval.stats,
+  }
+}
+
+function cosineSimilarity(a, b) {
+  let dot = 0
+  let aMag = 0
+  let bMag = 0
+  for (let i = 0; i < a.length; i++) {
+    dot += a[i] * b[i]
+    aMag += a[i] * a[i]
+    bMag += b[i] * b[i]
+  }
+  if (aMag === 0 || bMag === 0) return 0
+  return dot / (Math.sqrt(aMag) * Math.sqrt(bMag))
 }
