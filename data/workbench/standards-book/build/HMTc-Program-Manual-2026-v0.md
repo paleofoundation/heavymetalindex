@@ -1,0 +1,2522 @@
+<!--
+HMTc Program Manual, 2026 Edition — v0-pre-audit
+Generated: 2026-05-14T16:39:11.613Z
+Source: data/workbench/standards-book/
+Build tool: tools/standards/build-program-manual.mjs
+-->
+
+
+<!-- data/workbench/standards-book/front-matter/01-title-page.md -->
+
+# Heavy Metal Tested & Certified (HMTc)
+
+## Infant and Child Foods Program Manual
+
+### 2026 Edition
+
+---
+
+**Karen Pendergrass**
+Standards Architect, Paleo Foundation
+ORCID: [pending]
+
+The Paleo Foundation
+Larnaca, Cyprus
+
+---
+
+*Pendergrass, K. Heavy Metal Tested & Certified (HMTc) Infant and Child Foods Program Manual. 2026 Edition. The Paleo Foundation, 2026.*
+
+Categories covered: Infant Formula · Baby Cereals · Purées · Mixed Meals · Fruit Juice · Teething & Snacks · Fish-Containing Baby Foods
+
+
+
+<!-- data/workbench/standards-book/front-matter/02-edition-page.md -->
+
+# Edition
+
+**2026 Edition.** First bound publication of the HMTc Infant and Child Foods Program Manual.
+
+The HMTc methodology has evolved through documented revisions since 2024. The current edition reflects refinements to the per-analyte percentile calibration, the addition of the row-pass framework, the operationalization of the Standards Ratchet Mechanism with explicit trigger conditions and step-size caps, and the formalization of the Confidential Remediation Track. Version history is maintained under document control. The 2026 Edition is the first to bind the program's foundational framework, governance, standards, and operational schedule into a single volume.
+
+## Operating documents controlled separately
+
+The Program Manual reproduces the program's foundational documents at the time of binding. Two of those documents are under independent version control and may be revised between editions of the manual:
+
+- **HMTc Program Governance Policy.** The operational constitution. Reproduced in full as Part 2 of this manual. Revised version available at the Paleo Foundation's controlled-document registry.
+- **HMTc Lot Testing Schedule.** The operational testing protocol. Reproduced in full as Part 4 of this manual. Revised version available at the controlled-document registry.
+
+When discrepancies arise between this manual and the controlled documents, the more recent controlled document governs for operational purposes. The Program Operator will issue a formal Technical Clarification to resolve any ambiguity. This manual edition's reproductions are authoritative as of the publication date below.
+
+## Methodology continuity
+
+The 2026 Edition rests on a body of published research describing the HMTc framework's design rationale. Three peer-track preprints are cited throughout this manual and are available on Zenodo:
+
+- *The Counterproductive Consequences of Public Exposé Testing* (doi: 10.5281/zenodo.19470572). The structural argument for why the program exists.
+- *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification* (doi: 10.5281/zenodo.18903738). The financial argument for the cost of inaction.
+- *Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods* (doi: 10.5281/zenodo.18905821). The design rationale for the certification architecture.
+
+The structural design principles in these preprints remain canonical. Where specific calibration values in the preprints have evolved (notably the 80th-percentile achievability framing in *Certification as a Framework* Section 11), the current operational values appear in this manual and in the Governing Principles, which supersede the earlier framing for operational purposes.
+
+## Evidence base
+
+Every numeric claim, regulatory reference, and toxicological framing in this manual traces to specific source pages on heavymetalindex.com, the public curated corpus of the heavy-metals-in-food literature that the Paleo Foundation operates as a separate property. Heavymetalindex.com is architecturally distinct from the HMTc certification program. The one-way reference architecture (HMTc cites HMI; HMI does not endorse HMTc) is what gives the standards their authority. Adversarial readers can audit any limit in this manual by following the references to the underlying source pages. Part 1 chapter "How HMTc Knows What It Knows" describes this dependency in detail.
+
+---
+
+## Publication metadata
+
+**Publication date:** [pending]
+**ISBN:** [pending]
+**DOI:** [pending — to be minted via Zenodo or Crossref]
+
+**Copyright** © 2026 The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of The Paleo Foundation. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
+
+**License for citation and reference.** This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from the Paleo Foundation. The HMTc Certification Mark may not be used by any party not licensed under a current HMTc license agreement.
+
+**Database rights.** The heavymetalindex.com corpus that this manual references is protected under EU Database Directive (96/9/EC), 15-year sui generis term, by virtue of the Paleo Foundation's Cyprus operating base. Substantial extraction or re-utilization of the database without authorization is prohibited.
+
+
+
+<!-- data/workbench/standards-book/front-matter/03-table-of-contents.md -->
+
+# Table of Contents
+
+## Front Matter
+
+- Title Page
+- Edition
+- Table of Contents
+- How to Read This Document
+
+## Part 1 — Why HMTc Exists
+
+1.1 Introduction
+1.2 The Structural Problem: Why Public Exposé Testing Fails
+1.3 The Financial Problem: The Cost of Operating Without Certification
+1.4 The Structural Alternative: HMTc
+1.5 How HMTc Knows What It Knows: heavymetalindex.com
+
+## Part 2 — The HMTc Program
+
+2.0 Program Flow Diagram
+2.1 Purpose and Core Principles
+2.2 Scope and Analyte Tiering
+2.3 Certification Status Framework
+2.4 The Confidential Remediation Track
+2.5 Mark Usage Rules and Restrictions
+2.6 Decision Rules under Measurement Uncertainty
+2.7 Data Governance and Integrity
+2.8 Corrective and Preventive Action (CAPA)
+2.9 Supplier Intelligence Sharing
+2.10 The Standards Ratchet Mechanism
+2.11 Regulatory Escalation
+2.12 Appeals, Reinstatement, and Document Control
+
+## Part 2.5 — Using heavymetalindex.com
+
+2.5.1 The Diagnostic Tool
+2.5.2 The Remediation Playbook
+2.5.3 Percentile Placement (Roadmap)
+2.5.4 The Pre-Certification Baseline
+
+## Part 3 — The Standards
+
+3.1 Infant Formula, Powder (Non-Soy)
+3.2 Infant Formula, Powder (Soy-Based)
+3.3 Infant Formula, Ready-to-Feed Liquid (Non-Soy)
+3.4 Infant Formula, Ready-to-Feed Liquid (Soy-Based)
+3.5 Baby Cereals, Dry (Rice-Based)
+3.6 Baby Cereals, Dry (Non-Rice)
+3.7 Fruit Purées
+3.8 Non-Root Vegetable Purées
+3.9 Root-Vegetable Purées
+3.10 Meat and Poultry Purées
+3.11 Fish-Containing Baby Foods
+3.12 Mixed Meals (Rice-Containing)
+3.13 Mixed Meals (Non-Rice)
+3.14 Teething and Snacks (Rice-Based)
+3.15 Teething and Snacks (Non-Rice)
+
+## Part 4 — The Lot Testing Schedule
+
+Reproduced in full from the operational companion document.
+
+## Part 5 — Methodology and Appendices
+
+5.1 How HMTc Standards Are Set
+5.2 Program-Level Adversarial Read
+5.3 Glossary of Terms and Abbreviations
+5.4 Consolidated Sources Index
+5.5 Recognition Framework: How HMTc Compares to Adjacent Programs
+5.6 Licensing Terms Summary
+5.7 Colophon
+
+
+
+<!-- data/workbench/standards-book/front-matter/04-how-to-read-this-document.md -->
+
+# How to Read This Document
+
+This Program Manual is structured to serve four audiences simultaneously. Each audience has a different reason for opening the book and a different reading path that leads to what they need. Reading the entire volume end-to-end gives the most complete picture; the reading orders below are for readers who want the relevant content first.
+
+## For Brand Legal Teams
+
+You are reading this manual to evaluate whether HMTc is defensible enough to recommend that your client enter the program. You will be asked, by a CEO or general counsel, whether participation creates litigation exposure or reduces it. Your conclusion needs to survive a hostile reviewer at a competitor or a plaintiff's expert in a deposition.
+
+**Recommended reading order:**
+1. **Part 1** in full. The structural argument explains why the program exists; the financial argument quantifies what your client faces without it.
+2. **Part 2.4 (The Confidential Remediation Track)**. The most important single chapter for legal defensibility. The track exists so that brands not yet at certification standards can enter, build a documented improvement record, and shift the legal narrative from "knew and did nothing" to "knew, enrolled, and has third-party-verified evidence of continuous improvement."
+3. **Part 2.6 (Decision Rules under Measurement Uncertainty)** and **Part 2.7 (Data Governance and Integrity)**. These chapters describe the analytical and documentary discipline that makes the program's evidence record admissible.
+4. **Part 5.2 (Program-Level Adversarial Read)**. The structured response to every category of attack you might face against the program. Read this chapter if your client is being asked to defend their participation against a hostile inquiry.
+5. **The product chapter in Part 3** matching your client's category. This is the chapter that will be attached as an exhibit to their licensing agreement.
+
+## For Retailer Compliance and QA Teams
+
+You are reading this manual to decide whether to recognize HMTc as a basis for shelf access or assortment approval. You need to confirm that the program is rigorous enough to substitute for your own ingredient-level surveillance, and that participating brands meet a meaningfully higher bar than non-participating brands.
+
+**Recommended reading order:**
+1. **Part 2.0 (Program Flow Diagram)** through **Part 2.3 (Certification Status Framework)**. The architecture of the program and the meaning of the certification mark at each status level.
+2. **Part 2.6 (Decision Rules)** and **Part 4 (Lot Testing Schedule)**. The analytical and operational rigor that backs the mark.
+3. **Part 2.9 (Supplier Intelligence Sharing)**. The cross-brand collective intelligence system that detects supply-chain problems before they reach finished products.
+4. **Part 2.10 (Standards Ratchet Mechanism)**. The mechanism that tightens limits over time as the certified market improves, which is what makes HMTc a forward-moving signal rather than a static gate.
+5. **Part 5.5 (Recognition Framework)**. How HMTc compares to USDA Organic, Non-GMO Project, NSF/ANSI 173, and other adjacent programs you may already recognize.
+
+## For Regulators and Public Health Officials
+
+You are reading this manual to assess whether HMTc represents legitimate industry self-regulation that complements federal action levels and EU maximum levels, or whether it is a marketing program dressed as a standard. You need to confirm that the methodology is traceable to documented inputs and that the program drives measurable reduction over time.
+
+**Recommended reading order:**
+1. **Part 1.5 (How HMTc Knows What It Knows)**. The evidence base lives at heavymetalindex.com, a public curated corpus of the open literature, architecturally separate from the certification program. Every limit in this manual traces to specific source pages on that wiki.
+2. **Part 2.1 (Purpose and Core Principles)**, particularly the framing of action levels as risk-management tools and not safety thresholds.
+3. **Part 2.2 (Scope and Analyte Tiering)**. The Tier 1 / Tier 2 metal classification with toxicological rationale for each metal. Includes the aggregate-exposure calculation showing why limits below regulatory action levels are necessary even when single products comply with federal guidance.
+4. **Part 2.10 (Standards Ratchet Mechanism)**. The data-driven mechanism that commits the program to tighten limits as industry capability improves. Trigger conditions, step-size cap, transition rules, and forward-forecast obligation are all specified.
+5. **Part 5.1 (How HMTc Standards Are Set)** and **Part 5.4 (Consolidated Sources Index)**. The methodology described in principle, with the full source attribution.
+
+## For Adversarial Readers (Plaintiff's Experts, Competing Standards Bodies, Hostile Reviewers)
+
+You are reading this manual to find the gaps. You are looking for methodology underspecification, missing toxicological anchors, weak chain-of-custody language, ratchet gaming opportunities, conflict-of-interest framings, or claims that overreach what the literature supports. You will brief your conclusions to a court, a state attorney general's office, or a competing program's leadership.
+
+**Recommended reading order:**
+1. **Part 5.2 (Program-Level Adversarial Read)**. Start here. This chapter enumerates the categories of attack the program anticipates, locates each in the manual, and answers them on the merits. Reading this first will save you time identifying which attacks have already been responded to and which (if any) you can advance further.
+2. **Part 1.5 (How HMTc Knows What It Knows)**. The evidence base claim. Verify the heavymetalindex.com corpus, the architectural separation from HMTc, and the source-page traceability for limits.
+3. **Part 2.10 (Standards Ratchet Mechanism)**. Check whether the trigger conditions, step cap, and transition rules can be gamed.
+4. **Each product chapter in Part 3** for the per-product adversarial reads. The product-level attacks are answered chapter by chapter; the program-level attacks live in Part 5.2.
+5. **Part 4 (Lot Testing Schedule)**. Look for chain-of-custody, lab-shopping prohibition, and data-integrity language. The program's discipline is operationalized here.
+
+---
+
+## Reading the entire volume
+
+If you have time to read the manual end-to-end, the structure is:
+
+- **Part 1** makes the case for why the program exists, financially and structurally, and introduces the public evidence base.
+- **Part 2** is the program's operational constitution.
+- **Part 2.5** demonstrates how brands and QA teams use heavymetalindex.com day-to-day.
+- **Part 3** publishes the per-category standards. Each chapter is detachable as a licensing exhibit.
+- **Part 4** specifies the testing schedule and procedures.
+- **Part 5** documents methodology, anticipates adversarial attacks, glosses terms, indexes sources, compares to adjacent programs, summarizes licensing, and closes with the colophon.
+
+Front matter is short. Part 1 sets up the reader; Part 5 should leave them with no open questions. If you find one, the Program Operator's contact is in the colophon.
+
+
+
+<!-- data/workbench/standards-book/parts/01-why-hmtc-exists/01-introduction.md -->
+
+# Part 1 — Why HMTc Exists
+
+## 1.1 Introduction
+
+Before this manual specifies a single concentration limit, a single status threshold, or a single testing protocol, the reader is owed an answer to a prior question: why does this program need to exist? Federal action levels are public. State disclosure laws are operative. Plaintiffs' attorneys are organized. Retailer specifications are in force. Why should brand legal teams, retailer compliance staff, regulators, and adversarial reviewers spend time on a third-party certification program when the regulatory environment is already adversarial?
+
+The answer is direct: the existing enforcement environment does not reduce heavy metal contamination in food. It punishes the brands trying to reduce it, rewards the brands generating no data, and converts every documented improvement effort into discoverable evidence for the next class action. The result is a regulatory and litigation system that produces alarm, settlements, and reputational damage without producing measurable contamination reduction. Part 1 of this manual explains, in detail, why that is true and what a working alternative requires.
+
+This part has five chapters. Chapter 1.2 lays out the **structural problem**: the system of public exposé testing that has emerged as a de facto enforcement mechanism in the food-safety landscape is analytically incoherent, economically backward, and demonstrably ineffective at reducing contamination. The argument is drawn from the published preprint *The Counterproductive Consequences of Public Exposé Testing*. Chapter 1.3 lays out the **financial problem**: the cost of operating without a credible certification framework, modeled scenario by scenario, for brands of three different revenue tiers. Conservative modeling produces one-year exposure ranging from $1.6M for a small brand to $187M+ for a large one. The argument is drawn from the published preprint *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification*.
+
+Chapter 1.4 names the **structural alternative**: a confidential, staged, ratcheting third-party certification framework, the design rationale of which is summarized from the published preprint *Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods*. That framework is the HMTc program. Part 2 of this manual specifies it; Part 1 makes the case that it is needed.
+
+Chapter 1.5 introduces the **evidence base**: heavymetalindex.com, the public curated corpus of the heavy-metals-in-food literature that the Paleo Foundation operates as a separate property. Every concentration limit in this manual traces to specific source pages on that wiki. An adversarial reader can audit any limit by following the references. The architectural separation between heavymetalindex.com and the HMTc certification program is what gives the standards their authority; that authority is described in detail in Chapter 1.5 and tested again in Part 5.2.
+
+The structure of the argument is intentional. Brand legal teams reading only the standards in Part 3 cannot evaluate whether the program is rigorous enough to recommend; they need the structural and financial case in Part 1 first. Regulators reading only the methodology in Part 5 cannot place the program in the context of why it exists; they need the public-health failure analysis in Chapter 1.2 first. Adversarial readers attacking the program need to be told, before they encounter any specific number, what the program claims to know and where the evidence lives, so they can attack the right surface rather than wasting time on positions the program does not hold.
+
+The reader who finishes Part 1 should understand three things. The current enforcement environment is structurally incapable of reducing contamination. The cost of inaction is large enough that even a small brand cannot rationally remain outside a program that reduces probability and severity of contamination events. And the evidence base for the program's standards is publicly auditable. With those three things established, Part 2's operational specification can be read as the working specification of a program that exists for a reason, rather than as a marketing artifact dressed as a standard.
+
+
+
+<!-- data/workbench/standards-book/parts/01-why-hmtc-exists/02-the-structural-problem.md -->
+
+# 1.2 The Structural Problem: Why Public Exposé Testing Fails
+
+The detection of heavy metals in consumer food products is not a question of *if* but of *how much, how often, and in what context*. The United States Food and Drug Administration's Total Diet Study reports lead in 15% of food samples, arsenic in 43%, cadmium in 33%, and mercury in 10%. These are not anomalies attributable to negligent manufacturers; they reflect the geochemistry of agricultural soils, the hydrology of irrigation systems, and the industrial legacy of environmental contamination. Heavy metals are, in the strictest analytical sense, ubiquitous in the food supply.
+
+Against this backdrop, a pattern of consumer advocacy has emerged that this manual calls *unstructured public exposé testing*. Independent actors — typically bloggers, consumer watchdog organizations, or self-described whistleblowers — privately commission heavy metal testing of commercially available products, then publicly disclose the results in formats designed to maximize consumer alarm and media attention. The tested brands are identified by name. The results are presented without population-level context, without category benchmarking, without measurement uncertainty disclosure, and without the analytical framework necessary to distinguish a meaningful public health concern from a statistically unremarkable detection.
+
+This practice is counterproductive. It does not reduce heavy metal contamination. It does not improve food safety. It does not protect consumers. What it does, systematically and demonstrably, is create perverse incentives that suppress the very transparency, data sharing, and collaborative remediation that are prerequisites for actually driving contamination levels down. It punishes brands that may be the cleanest in their category. It rewards opacity. And it provides litigation scaffolding that plaintiffs' attorneys can operationalize against the exact companies that are trying to do the right thing.
+
+The argument that follows is structured in four parts: the anatomy of an exposé and what it omits, the game-theoretic and naming-and-shaming literature that predicts its failure, the supply-chain dynamics that make brand-level attribution analytically incoherent, and the litigation amplification pathway that converts published exposé results into class actions and Proposition 65 settlements. The full peer-track treatment appears in the published preprint cited at the close of this chapter.
+
+## What is present in an exposé, and what is missing
+
+The typical unstructured exposé follows a recognizable pattern. An independent actor purchases a small number of products from retail channels, submits them to a laboratory (often an EPA-certified facility, which lends an aura of governmental authority to the results), and receives a certificate of analysis reporting detected concentrations of one or more heavy metals. The results are then published on a blog, social media platform, or advocacy website, frequently organized into categories such as "safest," "better," and "not our favorite" — language that implies a consumer-protection framework without the methodological rigor to support one.
+
+What is present in this methodology is a *detection*. What is absent is everything required to make that detection meaningful.
+
+There is no **population-level benchmarking**. A chickpea product reporting 15 ppb lead may be the cleanest product in an entire category where the median is 40 ppb. Without population-level data — the distribution of results across all comparable products in the category — the reported number is analytically orphaned. It cannot be contextualized, and therefore it cannot inform a rational purchasing decision or a meaningful public-health assessment. The FDA's Total Diet Study and its Closer to Zero initiative are explicitly designed around population-level exposure modeling precisely because single-sample results are insufficient for risk characterization. The exposé model inverts this logic: it treats the single sample as the unit of analysis and asks the consumer to draw conclusions that the data cannot support.
+
+There is no **measurement uncertainty disclosure**. Analytical chemistry at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb threshold does not necessarily indicate that the true concentration exceeds the threshold; the measurement may reflect analytical noise. Accredited laboratory practice under ISO/IEC 17025 requires that measurement uncertainty be reported and incorporated into compliance decisions through formal decision rules. The exposé model treats reported values as exact, presenting 11 ppb as a definitive exceedance when it may not be one. This is not a minor methodological quibble; it is a fundamental analytical error that can make or break a brand's public reputation.
+
+There is no **temporal or seasonal context**. Heavy metal concentrations in agricultural products are not static. They vary by growing season, soil conditions, irrigation source, geographic origin, and post-harvest processing. A single lot tested at a single point in time may not represent the product's typical contamination profile. Population-level trend analysis — which requires structured, repeated testing across multiple lots and seasons — is the methodological standard for characterizing a product's heavy metal performance. A single snapshot cannot distinguish a systemic problem from a seasonal outlier, yet the exposé model treats every detection as a stable characteristic of the brand.
+
+There is no **distinction between detection and risk**. Detection is not synonymous with danger. The toxicological significance of a detected concentration depends on the serving size, consumption frequency, body weight, co-exposure pathways, and the specific metal's dose-response relationship. EFSA, JECFA, and the FDA all employ exposure-based risk-assessment frameworks that integrate these variables. The exposé model collapses this complexity into a binary: detected or not detected, safe or unsafe. This framing is not merely oversimplified — it is actively misleading, because it conflates the presence of a contaminant with the presence of a health risk.
+
+## The chilling effect: how public shaming suppresses transparency
+
+The compliance theory literature identifies a well-documented phenomenon: when disclosure is weaponized against the discloser, rational actors respond by reducing disclosure. This is the *chilling effect*, and it operates with particular force in the heavy metals domain because the underlying contamination is largely not within the brand's direct control.
+
+Consider the decision facing a food brand that is actively working to reduce heavy metal contamination in its products. The brand has two strategic options: invest in testing, data collection, and transparency (Option A), or minimize testing and avoid generating discoverable data (Option B). In the absence of public exposé risk, Option A dominates: better data enables better supplier management, better regulatory defense, and better consumer trust. But the introduction of exposé risk changes the payoff matrix. Under Option A, the brand generates data that can be captured, decontextualized, and published by an external actor in a format that maximizes reputational damage. Under Option B, the brand generates no data, cannot be targeted, and faces only the background regulatory risk that all brands share. The rational strategic response to public exposé risk is therefore to reduce testing, reduce data generation, and reduce transparency — precisely the opposite of what the food-safety system requires.
+
+A substantial body of research across international relations, regulatory theory, and criminology examines the conditions under which naming and shaming improves or degrades compliance. The findings are consistent: shaming is most likely to backfire when the target perceives the shaming agent as an out-group actor lacking legitimate authority, when the shaming lacks proportionality to the offense, and when the target has no clear pathway to redemption. All three conditions are satisfied in the public exposé model. The shaming agent is typically a blogger or advocacy organization with no regulatory authority, no accreditation, and no formal relationship with the brand. The shaming is disproportionate because it treats the presence of a ubiquitous environmental contaminant as if it were evidence of corporate malfeasance. And there is no pathway to redemption: once results are published, the brand has no mechanism to demonstrate improvement, no graduated framework for compliance, and no way to contextualize its performance against category peers.
+
+Snyder (2020) documents that naming and shaming in international contexts frequently produces a "backlash narrative" that locks in the targeted behavior rather than correcting it. Terman's research demonstrates a "politicization paradox" in which enforcement mechanisms designed to punish violations can operate in ways that encourage, reward, and perpetuate them. Van Erp (2011) finds that regulatory disclosure influences compliance only when it connects to firms' existing motivations for maintaining a good reputation — not when it is perceived as arbitrary or punitive. The exposé model satisfies none of these conditions for productive shaming.
+
+## Supply chain misattribution: shaming the wrong node
+
+A fundamental analytical error in the exposé model is the attribution of heavy metal contamination to the brand rather than to the supply chain from which the brand sources. This misattribution is not merely unfair — it is structurally incapable of driving contamination reduction because it targets the wrong node in the causal chain.
+
+Heavy metals in food products originate primarily from soil geochemistry, irrigation water, atmospheric deposition, and industrial contamination of agricultural land. These are supply-side factors over which the finished-product brand exercises limited direct control. A brand purchasing chickpeas from a regional commodity market is drawing from a supply pool that reflects the geochemical characteristics of the growing region, the agricultural practices of the growers, and the seasonal variation in environmental conditions. The brand can test incoming ingredients, set specifications, and reject non-conforming lots. But it cannot unilaterally remediate the soil in which the chickpeas were grown or change the hydrology of the irrigation system. **Shaming a brand for the geochemistry of its supply region is like shaming an airline for turbulence.**
+
+Multiple brands frequently source from the same supply pool. When seasonal contamination elevates heavy metal levels in a particular growing region, all brands sourcing from that region will be affected. But the exposé model tests a single brand, publishes the result, and allows consumers to infer that the named brand is uniquely contaminated. The untested brands sourcing from the same supply pool escape scrutiny entirely — not because their products are cleaner, but because they were not selected for testing. This selection bias is not a minor limitation; it is a systematic distortion that rewards the untested and punishes the tested, regardless of actual contamination levels.
+
+The selection dynamics are particularly damaging for small and mid-sized brands that are disproportionately likely to be investing in quality and transparency and unable to absorb the reputational and legal costs of being publicly named. A small brand with $5 million in annual revenue that has invested in ISO/IEC 17025-accredited testing, supplier qualification, and heavy metal reduction may be the cleanest brand in its category — and yet, if that brand is the one selected for exposé testing, it will bear the full reputational cost while its larger, less transparent competitors escape notice. The financial scenario modeling in Chapter 1.3 estimates one-year losses on this kind of event at $0.5M–$5M for a small brand at $5M revenue, enough to impair growth or threaten solvency.
+
+This creates a deeply perverse outcome: the brands most committed to quality improvement are the most vulnerable to reputational destruction by an exposé actor, while the brands least committed to quality improvement are the least vulnerable because they generate no data, participate in no programs, and attract no scrutiny.
+
+## Litigation amplification: how published exposé results become class actions
+
+Public exposé testing does not operate in a vacuum. It operates in a legal environment where plaintiffs' attorneys are actively monitoring consumer advocacy disclosures for actionable data. The connection between published testing results and litigation filings is direct and documented.
+
+A Reuters report described a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least $5 million in damages and citing a published third-party testing report as the precipitating trigger. This is a prototypical pattern: a published testing report becomes the complaint's factual scaffold, and the brand is named even if it did not manufacture the product. The exposé actor may intend consumer education, but what they produce is plaintiff-ready evidence.
+
+The baby-food heavy-metal litigation consolidated in MDL No. 3101 — with approximately 345 pending claims as of late 2025 alleging neurodevelopmental injury — provides a further demonstration of how testing disclosures become legal instruments. The MDL record reflects plaintiffs' allegations that any detectable amount could cause injury, illustrating how the absence of agreed-upon safe thresholds can be operationalized into litigation narratives. Defense costs in such matters routinely exceed $2 million per major case, with discovery costs alone often exceeding $600,000.
+
+In California, Proposition 65 creates a private-enforcement regime where any private party can initiate litigation alleging exposure to a listed chemical without a government enforcement action. Published exposé results provide the factual predicate for such actions. Settlement economics in Proposition 65 cases are dominated by attorneys' fees: a $28,000 settlement may allocate $25,000 to attorneys' fees and only $3,000 to civil penalties. A brand without a documented third-party testing and certification framework becomes a repeat defendant across SKUs, lots, and flavors — with each exposé publication providing a new cause of action. The irony is acute: the exposé actor generates the evidence that enables the litigation that imposes the costs that discourage the transparency that would enable contamination reduction.
+
+The cycle is self-reinforcing. Public exposé testing generates data. The data is published without context. The publication triggers consumer alarm and media coverage. The media coverage attracts plaintiffs' attorneys. The litigation imposes costs on the named brand. The brand learns that transparency is punished. The brand reduces transparency. Less data is generated. Less data means less ability to identify and remediate contamination. Contamination levels do not decline. The exposé actor tests again and finds contamination. The cycle repeats.
+
+**At no point in this cycle does contamination actually decrease.** The cycle is optimized for attention, alarm, and litigation — not for the structural changes in supply chain management, ingredient sourcing, and remediation technology that would actually reduce the metals in the food supply.
+
+## What this means for the rest of this manual
+
+The structural problem is not that exposé actors are insincere. The intentions of most exposé actors are genuine. The problem is that the *mechanism* is incompatible with the *goal*. If the goal is to reduce heavy metal contamination across the food supply — not to generate clicks, not to trigger litigation, not to perform consumer advocacy in public — then the mechanism must match the goal. Pressure must be applied at the supply chain level, through frameworks that reward transparency rather than punishing it, and through systems that build on collective data rather than isolating individual brands for public shaming.
+
+That alternative framework is HMTc, and it is specified in detail in Part 2 of this manual. Before that specification can be evaluated, two more chapters of context are required: Chapter 1.3 quantifies the financial cost to a brand of operating in this environment without certification, and Chapter 1.5 introduces the public evidence base that HMTc rests on. Chapter 1.4 bridges to Part 2.
+
+---
+
+**Full peer-track treatment.** The argument summarized in this chapter is presented at peer-track length in *Pendergrass, K. The Counterproductive Consequences of Public Exposé Testing: How Unstructured Disclosure Undermines Heavy Metal Contamination Reduction. Journal of Food Metallomics. 2026. doi: [10.5281/zenodo.19470572](https://doi.org/10.5281/zenodo.19470572).* The preprint includes the full literature review on chilling effects, naming and shaming, supply-chain attribution, and the litigation-amplification pathway. Citations are reproduced in Part 5's Consolidated Sources Index.
+
+
+
+<!-- data/workbench/standards-book/parts/01-why-hmtc-exists/03-the-financial-problem.md -->
+
+# 1.3 The Financial Problem: The Cost of Operating Without Certification
+
+A brand legal team or CFO reading the previous chapter understands the structural problem. The next question is operational: what does the absence of credible third-party certification cost the company in dollar terms? This chapter answers that question with scenario modeling at three revenue tiers, conservative assumptions, and an expected-loss framework that brand finance teams can use directly. The argument is drawn from the published preprint *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification*, which provides the full evidence anchors, citations, and references.
+
+The core finding: a single contamination-triggered event — recall, delisting, or major lawsuit cluster — can plausibly impose one-year losses of $1.6M–$6.6M for a small brand at $5M revenue, $8M–$33M for a mid-size brand at $50M revenue, and $57M–$187M+ for a large brand at $500M revenue. Expected-loss modeling suggests that third-party certification can break even on downside-risk avoidance alone at well under $200,000 per year for a typical mid-brand exposure profile — before considering the channel-access benefits that certification provides as a gating mechanism for retailer and marketplace approval.
+
+## Prevalence: why "we never test positive" is not a stable operating assumption
+
+The relevant business question is not whether heavy metals will be detected in a brand's products, but whether the brand's controls are credible, documented, and independently defensible when regulators, retailers, or plaintiffs' counsel ask. Three independent surveillance datasets establish that detection is common enough that absence-of-data is not a defensible posture.
+
+The FDA modernized Total Diet Study for FY2018–2020 analyzed 3,241 food and beverage samples across 305 foods and beverages for 21 elements. Detection frequencies for the key toxic elements: lead detected in 15% of samples (non-detect to 164 ppb), arsenic detected in 43% (non-detect to 10,900 ppb), cadmium detected in 33% (non-detect to 485 ppb), and mercury detected in 10% (non-detect to 2,890 ppb). For baby foods specifically, FDA's FY2019 sampling of 384 samples found 65% of Pb/As/Cd/Hg results were non-detect, with no significant regional or seasonal differences — detection is *common* even though exceedances are rare.
+
+The Canadian Food Inspection Agency Children's Food Project Annual Report (2022) tested 108 infant and children's snack and cereal samples. **96% contained detectable levels of arsenic, cadmium, lead, and/or mercury.** For lead specifically, 41% were non-detect; positive samples ranged from 0.0050 to 0.196 ppm. Detection is the normal state of affairs, not the anomaly.
+
+For botanicals — a major input across foods, supplements, and functional products — a peer-reviewed synthesis analyzing 1,773 crude plant extract samples across 86 herbal types found 30.51% had at least one over-limit metal under referenced pharmacopoeial criteria, with over-limit ratios of Pb 5.75%, Cd 4.96%, As 4.17%, and Hg 3.78%. A U.S.-based study of As, Cd, and Pb in spices reported detection of these metals in more than 90% of samples, with 40.5% exceeding a New York State Pb limit.
+
+These surveillance findings support a practical inference: detection is common, exceedances depend on product class and thresholds, and systematic control with defensible specifications is the rational posture for brands seeking to minimize adverse-event probability. "We never test positive" is not a stable operating assumption; it is an operating assumption waiting to be falsified.
+
+## Regulatory pressure: from quality concern to direct cost
+
+Regulatory benchmarks have hardened from guidance into enforcement, transforming heavy metals from a quality concern into a board-level liability.
+
+In the United States, FDA's action levels for lead in processed foods intended for babies and young children are explicit and category-specific. The agency notes these are levels at which it may regard a food as adulterated. FDA's compliance program for toxic elements is formalized, with emphasis on foods consumed by children. Enforcement actions extend beyond manufacturers: FDA issued a warning letter to Dollar Tree for failing to adequately remove WanaBana lead-contaminated fruit pouches from sale.
+
+California Assembly Bill 899 establishes a direct-cost compliance regime: manufacturers of baby food must test and disclose levels of arsenic, cadmium, lead, and mercury, with state-code requirements effective January 1, 2024, and public disclosure obligations for baby food products sold on or after January 1, 2025. On March 6, 2026, the California Attorney General issued an enforcement advisory letter reminding companies of AB 899 obligations, signaling an active enforcement posture.
+
+In the EU, Regulation (EU) 2023/915 explicitly reiterates the ALARA principle and consolidates maximum levels across contaminants. The annex includes detailed maximum levels for lead, arsenic, and mercury across numerous commodities, including infant and young child categories with inorganic arsenic maximum levels at 0.020 mg/kg for baby food and 0.10 mg/kg for infant/young child rice. Globally, the Codex Alimentarius General Standard for Contaminants and Toxins (CXS 193-1995) provides internationally recognized principles and lists maximum levels.
+
+The convergence — FDA action levels hardening, California AB 899 mandating disclosure, EU 2023/915 consolidating maximum levels with ALARA expectations — means that the regulatory floor is rising under brands' feet at the same time that litigation centralization and retailer gatekeeping are tightening from above. A brand operating without a documented, third-party-verified program is increasingly exposed at every layer simultaneously.
+
+## Litigation vulnerability: economics of being an easy target
+
+In heavy-metals disputes, being targeted is rarely only about the presence of metals; it is frequently about whether a brand can defend its controls, warnings, and claims using evidence that courts, regulators, retailers, and consumers accept as credible. When that credibility is weak, litigation can become cheaper to file and more expensive to defend.
+
+The Judicial Panel on Multidistrict Litigation centralized baby-food heavy-metal cases into MDL No. 3101 (*In re: Baby Food Products Liability Litigation*) in the Northern District of California. A subsequent district-court order referenced over 100 subsequently filed actions alleging toxic heavy metals in baby food and asserting neurodevelopmental injury theories including ASD and ADHD allegations. The MDL had grown to approximately 345 pending claims by late 2025. From a cost standpoint, MDL centralization changes the incentive landscape: common discovery, expert battles, and bellwether structures can amplify legal spend and reputational exposure even before merits are adjudicated.
+
+Reuters reported a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least $5 million in damages under state consumer protection theories. Reuters later reported Amazon's attempt to dismiss, arguing among other points that no excessive levels beyond regulatory limits were alleged. Even when ultimate liability is uncertain, this pattern imposes a predictable cost stack: rapid expert engagement, e-discovery, motion practice, and brand-risk management — costs that are typically higher when a company cannot point to recognized third-party testing and certification as part of routine operations.
+
+California Proposition 65 is structurally important because it can generate frequent, product-by-product disputes where attorney fees are significant relative to the underlying exposure issue. A Prop 65 settlement agreement involving a pre-workout product allocated $25,000 of a $28,000 total settlement to attorneys' fees and related costs, with only $3,000 in civil penalties. The micro-economics imply that if a brand lacks an HMTc-like framework, it can become a repeat defendant across SKUs, flavors, and lots, with recurring settlements and ongoing testing and warning obligations that are more expensive than a proactive certification strategy.
+
+A widely cited federal-courts survey of major companies found mean outside legal fees per major case around $2.0 million, with discovery costs often well in excess of $600,000. These benchmarks are not heavy-metals-specific, but they are critical for modeling: if a heavy-metals dispute becomes major litigation, **defense costs alone can plausibly exceed the annual cost of robust third-party certification, even before settlements, recalls, or sales impacts are included.**
+
+## Channel access: retailer and marketplace gatekeeping
+
+A brand without credible third-party certification faces not only regulators and plaintiffs but also commercial gatekeepers. Retailers, marketplaces, and procurement teams increasingly outsource trust to recognized standards and accredited testing.
+
+CVS publicly states it requires third-party laboratory testing of all vitamins and supplements and explicitly lists heavy metals — inorganic arsenic, cadmium, chromium VI, mercury, and lead — as contaminants that cannot exceed the current NSF/ANSI 173 Standard, framing this as a consumer-facing trust commitment. For marketplace access, Amazon's dietary supplement seller documentation requirements include submission of a GMP certificate from an accredited third-party body (21 CFR 111/117) and a finished product COA issued by an ISO/IEC 17025 accredited laboratory, or evidence of enrollment in recognized third-party quality certification programs including NSF/ANSI 173 product certification and USP verification.
+
+These requirements convert lack of certification into direct commercial risk: listing suppression, delayed launches, forced reformulation, or delisting — each of which has an immediate revenue impact independent of whether a regulator has acted.
+
+## Scenario modeling: one-year impact at three revenue tiers
+
+Real-world costs vary by category, channel mix, and incident severity. The scenarios below use conservative assumptions and explicit ranges. The public event type is a public contamination event involving recall or advisory, major news coverage, and retailer response. Assumptions: gross margin 40%; sales decline of 22% for 4 months (≈7.3% of annual revenue, based on the recall-sales response benchmark for meat and poultry recalls); delisting and channel disruption equivalent to loss of 15% of annual revenue for 6 months (≈7.5% of annual revenue, a conservative one-major-channel assumption); legal fees scaled relative to the U.S. courts survey mean of approximately $2.0 million per major case; recall direct cost scaled using empirical industry ranges.
+
+### Small brand at $5M annual revenue
+
+| Cost component | Range |
+|---|---|
+| Direct recall and market action | $0.5M–$3M |
+| Legal defense and discovery | $0.25M–$1.5M |
+| Settlement, penalties, plaintiff attorney fees (Prop 65 patterns) | $0.05M–$0.5M |
+| Lost sales | ~$0.37M revenue ($0.15M gross profit) |
+| Delisting and listing suppression | ~$0.38M revenue |
+| Remediation and verification surge | $0.05M–$0.3M |
+| **Indicative total one-year cost** | **$1.6M–$6.6M+** |
+
+For a brand at $5M revenue, this is sufficient to impair growth or threaten solvency. The $1.6M low end is 32% of annual revenue; the $6.6M high end exceeds annual revenue by 30%.
+
+### Mid-size brand at $50M annual revenue
+
+| Cost component | Range |
+|---|---|
+| Direct recall and market action | $3M–$15M |
+| Legal defense and discovery | $1M–$7M |
+| Settlement, penalties | $0.25M–$5M |
+| Lost sales | ~$3.65M revenue ($1.46M gross profit) |
+| Delisting and listing suppression | ~$3.75M revenue |
+| Remediation and verification surge | $0.2M–$1M |
+| **Indicative total one-year cost** | **$8M–$33M+** |
+
+### Large brand at $500M annual revenue
+
+| Cost component | Range |
+|---|---|
+| Direct recall and market action | $15M–$75M |
+| Legal defense and discovery | $3M–$20M |
+| Settlement, penalties | $1M–$50M |
+| Lost sales | ~$36.5M revenue ($14.6M gross profit) |
+| Delisting and listing suppression | ~$37.5M revenue |
+| Remediation and verification surge | $0.5M–$5M |
+| **Indicative total one-year cost** | **$57M–$187M+** |
+
+These scenario anchors draw on industry recall-cost magnitudes, federal-courts legal-fee benchmarks, Proposition 65 settlement structure, peer-reviewed sales-decline benchmarks, and published market-value loss evidence. The estimates exclude long-tail brand impairment, shareholder-wealth reductions for publicly traded firms (one peer-reviewed study found ~$109M reductions after severe recalls), and the cascade effects of repeat litigation across SKUs.
+
+## ROI: the expected-loss framework
+
+The expected-loss framework for evaluating certification ROI proceeds as follows. Let *L* denote the one-year loss if an event occurs (from the scenarios above). Let *p* denote the annual probability of a public metals event for the specific brand (including recall, major delisting, or major litigation trigger). Let *r* denote the proportional loss reduction due to certification (combined probability plus severity effect, conservative range 10–40%). Let *C* denote the annual cost of certification and associated testing and audits.
+
+Expected annual loss without certification: *E₀ = p × L*.
+Expected annual loss with certification: *E₁ = p × (1 − r) × L*.
+Expected annual benefit: *ΔE = E₀ − E₁ = p × r × L*.
+Break-even condition: *C ≤ p × r × L*.
+
+As a worked illustration for a mid-size brand: if *L = $15M*, *p = 3%*, and *r = 25%*, then *ΔE ≈ $112,500 per year*. Under those conservative assumptions, certification must cost $112,500 per year or less to break even on downside-risk avoidance alone. If the brand's channel access depends on third-party testing (such as marketplace COA plus ISO/IEC 17025 requirements) or if the probability or severity is higher (such as children's category exposure or complex botanicals), the break-even rapidly improves.
+
+**This expected-loss model undervalues certification whenever certification is a prerequisite for market access** — a gating benefit — because avoided delisting is effectively an earned revenue protection rather than avoided loss. Retailer policies like those of CVS explicitly position third-party testing as a standard for supplements sold in their channel, meaning certification can be a revenue-enabling investment, not merely an insurance-like expense.
+
+## Four mechanisms by which certification reduces expected losses
+
+A credible HMTc-like framework mitigates losses through four mechanisms, each tied to evidence presented in this chapter.
+
+The first is **reducing probability through preventive controls and supplier qualification**. Surveillance shows frequent detection in foods and botanicals. A certification program that enforces specifications and routine verification reduces the probability of an outlier lot reaching retail undetected.
+
+The second is **severity reduction via faster containment and smaller scope**. EU and FDA frameworks are increasingly commodity- and child-category-specific, implying that a program capable of rapid traceability and documented compliance can reduce recall breadth and delisting duration.
+
+The third is **litigation defensibility, or the due-diligence premium**. MDL centralization and consumer class actions illustrate that heavy-metals claims can become scalable. Third-party certification creates contemporaneous, independently validated evidence that can narrow claims, support motions, and reduce settlement leverage.
+
+The fourth is **channel access and procurement de-risking**. Retailers and marketplaces increasingly require third-party testing, recognized standards such as NSF/ANSI 173, and ISO/IEC 17025 documentation. Certification therefore reduces the probability of delisting even absent a recall.
+
+## What this means for the rest of this manual
+
+The financial picture is unambiguous. The cost of a contamination event for a brand at any revenue tier is large enough that the expected-loss reduction from certification can exceed certification costs even under conservative probability assumptions. The channel-access value of certification — increasingly required by major retailers and marketplaces — provides additional return that the expected-loss model does not fully capture. The convergence of hardening regulatory frameworks, litigation centralization in MDL 3101, Proposition 65 economics, and retailer gatekeeping means that the cost of inaction is not a static compliance risk but an accelerating commercial liability.
+
+What remains is to specify the program itself. Chapter 1.4 bridges the structural argument from Chapter 1.2 and the financial argument from this chapter to the operational program in Part 2.
+
+---
+
+**Full peer-track treatment.** The argument summarized in this chapter is presented at peer-track length in *Pendergrass, K. The Cost of Operating Without Credible Third-Party Heavy-Metal Certification. Journal of Food Metallomics. 2026. doi: [10.5281/zenodo.18903738](https://doi.org/10.5281/zenodo.18903738).* The preprint includes the full surveillance-data tables, regulatory-enforcement examples, retailer-requirement documentation, and recall-economics evidence anchors. Citations are reproduced in Part 5's Consolidated Sources Index.
+
+
+
+<!-- data/workbench/standards-book/parts/01-why-hmtc-exists/04-the-structural-alternative.md -->
+
+# 1.4 The Structural Alternative: HMTc
+
+The structural problem in Chapter 1.2 and the financial problem in Chapter 1.3 converge on the same conclusion: the existing enforcement environment does not reduce heavy metal contamination, and the cost of remaining outside a credible certification program is unsustainable for any brand serious about its category position. This chapter names the alternative — the Heavy Metal Tested & Certified (HMTc) program — and previews the design principles that Part 2 specifies in operational detail.
+
+The HMTc framework is built around six design principles, each of which responds directly to a failure mode identified in the preceding chapters. The principles are summarized here; the operational specification appears in Part 2.
+
+## Design principle 1: Staged compliance
+
+A program with unachievable standards attracts no participants and protects no consumers. A program with loose standards lacks credibility and provides no meaningful differentiation. The staged-compliance architecture resolves this tension by setting rigorous standards — meaningfully below regulatory action levels, calibrated against the published achievability of the open literature — while giving brands structured pathways to reach full compliance rather than requiring every threshold be met on day one.
+
+Each tested product lot receives a certification status based on its analytical results: Status A (full compliance), Status B (transitional compliance with corrective action obligations), Status C (probation with mandatory hold-and-release and independent sampling), Status D (suspension), or Status E (revocation). The framework keeps brands continuously improving without converting normal lot-to-lot analytical variability into a commercial catastrophe. A brand whose typical lead level is 4 ppb against a 5 ppb limit will occasionally produce a lot at 6 or 7 ppb through normal variation, not negligence; the staged system absorbs that variability while maintaining clear escalation triggers for genuine control failures.
+
+The five-status framework, eligibility criteria, mark-usage rules, and escalation paths are specified in Part 2.3.
+
+## Design principle 2: Risk-tiered metal classification
+
+Not all heavy metals present the same toxicological profile, and a defensible certification framework reflects this. The HMTc program classifies covered metals into two tiers based on their toxicological characteristics, with governance consequences flowing directly from the classification.
+
+**Tier 1 metals** are carcinogenic with no established safe threshold, neurotoxic with no established safe threshold, or bioaccumulative with long biological half-lives. No transitional allowance is permitted; any confirmed exceedance triggers immediate escalation to probationary status or higher. Lead, cadmium, inorganic arsenic, and methylmercury fall into this category.
+
+**Tier 2 metals** have established tolerable daily intakes, shorter biological half-lives, or primarily acute rather than chronic toxicity profiles. Transitional exceedances up to 150% of the action level may qualify for conditional certification if the brand initiates corrective action and demonstrates an improving trend. Nickel, tin, aluminum, and chromium fall into this category.
+
+The tiered approach means that every governance decision — every transitional allowance granted, every probation imposed — has a traceable rationale grounded in the toxicological literature. **If a regulatory body or plaintiff's attorney asks why a 130% nickel result received transitional certification while a 110% lead result triggered immediate probation, the answer traces directly to the comparative toxicological profiles of the two metals. That defensibility is the point.**
+
+The full Tier 1 / Tier 2 specification, with toxicological rationale for each metal, appears in Part 2.2.
+
+## Design principle 3: Exposure-based testing frequencies
+
+Testing frequency scales with exposure risk rather than being applied uniformly across all product categories. The relevant variables are consumption volume relative to body weight, frequency of consumption, and the degree to which the product may serve as a sole or dominant food source.
+
+Infant formula — which may be the exclusive nutritional source for a newborn for months — presents the highest exposure risk and warrants monthly surveillance testing with independent sampling. Baby cereals and dry grain products, often introduced as first complementary foods and consumed in substantial quantities relative to body weight, present similarly elevated risk and receive the same frequency. Purees and mixed meals — consumed regularly but as part of a diversified diet — receive quarterly surveillance during full compliance. Juices and snacks — consumed intermittently and at lower volumes — receive the same quarterly cadence.
+
+A regulator or attorney asking why formula is tested twelve times per year while a snack is tested four times receives an answer grounded in consumption data and exposure mathematics, not in administrative convenience. Testing intensifies during transitional and probationary status: every-lot testing applies to all products during Status C, with hold-and-release procedures.
+
+The full testing matrix appears in Part 4 of this manual (reproducing the Lot Testing Schedule).
+
+## Design principle 4: Measurement uncertainty and decision rules
+
+The analytical chemistry of heavy metal testing at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb limit does not necessarily indicate that the true concentration exceeds the limit; the measurement could reflect analytical noise. Certification decision rules must account for this uncertainty to be both scientifically valid and legally defensible.
+
+The HMTc decision rule is two-sided. A lot **passes** if the reported result plus the laboratory's expanded measurement uncertainty is at or below the limit — compliance is confirmed even at the upper bound of uncertainty. A lot **fails** if the reported result minus the measurement uncertainty exceeds the limit — exceedance is confirmed even at the lower bound. Results falling between these conditions are treated as **borderline** and require confirmatory action before a status is assigned. The approach protects brands from being penalized for measurement noise while protecting consumers from borderline results being treated as passes. It follows established metrological principles used in accredited laboratory practice and international standards (ISO/IEC 17025, EURACHEM/CITAC, ILAC-G8).
+
+Equally important is the prohibition on **testing into compliance**. Brands may not conduct repeated ad hoc retesting, switch laboratories, or selectively report results in an attempt to find a passing number. Any confirmatory testing must follow a predefined, program-approved protocol; undocumented resampling is treated as a data-integrity violation subject to suspension or revocation. This prohibition eliminates the appearance of gaming and ensures that the testing record can withstand discovery in litigation.
+
+The full decision-rule specification appears in Part 2.6.
+
+## Design principle 5: Confidential remediation as a structural feature
+
+The commercial and legal landscape around heavy metals in infant foods creates a paradox: the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure. Any public acknowledgment that a brand's products contain elevated heavy metals — even in the context of a voluntary improvement program — could be weaponized in litigation or media coverage. Chapter 1.2 documented this dynamic at length.
+
+The Confidential Remediation Track resolves the paradox. Brands whose products do not yet qualify for certification may enter the program, access remediation support and technical guidance, and begin building a documented improvement record — without public disclosure of their enrollment or test data. The brand's participation, testing results, corrective action plans, and improvement trajectory are treated as confidential business information under the license agreement.
+
+This confidentiality is not a loophole; it is structural. It serves the program's public-health objectives by maximizing the number of brands actively working to reduce contamination. A brand that remains outside the program because it fears the consequences of joining is a brand whose products are not improving. A brand that enters confidentially and begins reducing heavy metal levels is a brand whose products are getting safer, even if the public does not yet know.
+
+From a legal defensibility standpoint, the Confidential Remediation Track creates a documented record of proactive, voluntary, third-party-verified improvement that begins before any litigation or regulatory inquiry. This record — comprising timestamped test results, corrective action documentation, and verified declining concentration trends — constitutes contemporaneous evidence of due diligence. **The legal narrative shifts from "the brand knew and did nothing" to "the brand knew, enrolled in an independent certification program, and has documented evidence of continuous improvement." That shift is the difference between exposure and defense.**
+
+Because the Confidential Remediation Track is the single most important differentiator of HMTc from the exposé-driven enforcement environment Chapter 1.2 attacked, the track receives its own chapter in Part 2 (Part 2.4) rather than appearing as a subsection of program-entry rules.
+
+## Design principle 6: Ratcheting standards with capped step size
+
+A static certification standard is inherently self-defeating. If standards remain unchanged while industry improves, they eventually certify the status quo rather than driving further progress. Conversely, if standards are perceived as arbitrary or subject to surprise changes, brands lose the planning certainty necessary to invest in reformulation and supply-chain improvements. The Standards Ratchet Mechanism resolves this through a formal commitment to tighten standards over time, moving in only one direction, on data-driven trigger conditions, with a capped step size that bounds the per-cycle impact on any brand.
+
+The ratchet for a given analyte fires when both of two conditions hold for two consecutive annual reviews: the 80th percentile of certified Status A lot results sits at or below 80% of the current limit, and at least 50% of certified Status A SKUs have lots at or below 60% of the current limit. The first condition tests aggregate market shift; the second tests breadth. When fired, the new limit equals the maximum of (a) the actual 80th percentile of Status A results or (b) 80% of the current limit. The second clause is the step cap — no brand faces more than a 20% reduction per ratchet event. Transition is 12 to 18 months from announcement to enforcement, with Status A certifications grandfathered during the transition period.
+
+The forward forecast obligation converts the ratchet from a surprise into a planning parameter. At every annual review, the Program Operator publishes a projection of the next-cycle limit based on current improvement trends, so brands considering certification can model their next three-to-five-year obligation before they sign.
+
+The full ratchet specification appears in Part 2.10.
+
+## A seventh principle: supplier intelligence as collective action
+
+Individual brands testing their own finished products can identify contamination after it has already occurred. A certification program operating across multiple brands has the opportunity to detect contamination patterns at the supply chain level and alert affected participants before the contamination reaches finished products.
+
+The HMTc Supplier Intelligence System aggregates findings from corrective-action investigations across all participating brands. When one brand's root-cause analysis identifies a supplier, ingredient source, or geographic origin with elevated heavy metal levels, the program issues anonymized alerts to other brands using the same supply-chain inputs. The alerting brand's identity is never disclosed; only the ingredient category, geographic origin, and nature of the concern are communicated.
+
+This system creates a collective-intelligence network that increases in value as the program grows. Each additional brand contributes data that benefits all other participants, creating a positive network effect that strengthens retention and attracts new entrants. From a public-health perspective, it accelerates the identification and remediation of contamination sources across the entire supply chain rather than within individual brands operating in isolation. From a competitive-strategy perspective, supplier intelligence is the durable moat that distinguishes mature HMTc certification from any single-brand internal-testing program.
+
+The full supplier-intelligence specification appears in Part 2.9.
+
+## What Part 1 has established
+
+Part 1 has now made three arguments. The structural argument (Chapter 1.2) demonstrated that public exposé testing fails as an enforcement mechanism because it punishes transparency, misattributes contamination to brands instead of supply chains, and produces a self-reinforcing cycle that does not reduce contamination. The financial argument (Chapter 1.3) quantified what brands face in the existing environment: $1.6M–$6.6M one-year exposure for small brands, $8M–$33M for mid-size, and $57M–$187M+ for large brands. This chapter (1.4) named the alternative: a confidential, staged, ratcheting, third-party certification framework that responds to each failure mode of the current environment with a specific design feature.
+
+What remains in Part 1 is to introduce the evidence base. The HMTc methodology rests on a public, curated corpus of the heavy-metals-in-food literature — heavymetalindex.com — that is architecturally separate from the certification program. Every standard in this manual traces to specific source pages on that wiki. Chapter 1.5 describes that dependency in detail. With that final piece of context, Part 2 can be read as the operational specification of a program that exists for a reason, against a literature evidence base that any adversarial reader can audit.
+
+---
+
+**Full peer-track treatment.** The design rationale summarized in this chapter is presented at peer-track length in *Pendergrass, K. Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods: Integrating Legal Defensibility, Scientific Rigor, and Commercial Viability. Journal of Food Metallomics. 2026. doi: [10.5281/zenodo.18905821](https://doi.org/10.5281/zenodo.18905821).* The preprint's calibration framing (an 80% achievability threshold) reflects the program's March 2026 state; the current operational calibration is the 90/30 row-pass intent specified in the Governing Principles and Part 2 of this manual. The preprint's structural design principles remain canonical.
+
+
+
+<!-- data/workbench/standards-book/parts/01-why-hmtc-exists/05-how-hmtc-knows-what-it-knows.md -->
+
+# 1.5 How HMTc Knows What It Knows: heavymetalindex.com
+
+Before this manual specifies a single concentration limit, the reader is owed an answer to the question: where do the numbers come from? Not in general terms — *literature, regulatory authorities, peer-reviewed studies* — but specifically. The 10 ppb lead limit for infant formula powder. The 100 ppb inorganic arsenic action level for infant rice cereal. The methylmercury read-across for non-fish matrices. Where, exactly, is the evidence for each of these, and can an adversarial reader audit it without taking the certifier's word?
+
+The answer is heavymetalindex.com.
+
+## The architectural separation
+
+The Paleo Foundation operates two architecturally separate properties. The certification program — HMTc — lives at heavymetaltested.com. The literature evidence base — Heavy Metal Index, hereafter HMI — lives at heavymetalindex.com. These are separate properties by design, and the separation is structural rather than cosmetic.
+
+HMI is the public, curated wiki of the heavy-metals-in-food literature. It contains source pages for peer-reviewed studies, agency reports (FDA, EFSA, JECFA, EPA, Codex, ATSDR), industry surveillance data, and primary regulatory documents. Each source page summarizes a single document's findings, preserves its numeric claims with full provenance, and links to ingredient pages, metal pages, product-category pages, and regulation pages. The corpus is structured so that a reader can begin with any single concentration claim on any product page and follow the references back through the routing layer to the original source documents.
+
+HMTc references HMI for the literature baseline that informs every certification standard. The reference is **one-way**: HMTc cites HMI; HMI does not endorse HMTc, does not contain percentile arithmetic, does not name HMTc-certified brands, and does not advocate for the certification program. The wiki/HMTc firewall is operative policy, documented in the project's foundational CLAUDE.md governance document and enforced by the program's lint infrastructure. The wiki is the public literature evidence layer; the staff Standards Workbench (and the `data/workbench/` directory) carries the threshold math.
+
+This separation is what gives the standards their authority.
+
+## Why the separation matters
+
+A certifying body that operates its own evidence base has a structural conflict of interest: the body that decides what the literature supports is also the body that decides what to certify. An adversarial reader can attack the evidence base on the grounds that it was selected to justify a pre-determined commercial position. Single-source certifiers — programs where the evidence and the certification live in the same property under the same control — cannot fully defend against this attack because the conflict is real.
+
+The HMI/HMTc separation defeats this attack. HMI is a curated literature wiki published as a public resource. It exists whether HMTc does or does not exist. It will continue to exist when the methodology in this manual is replaced by a future revision. It contains studies whose findings make HMTc thresholds look conservative and studies whose findings make HMTc thresholds look aggressive. It does not adjust its evidence to fit the certification program. The Paleo Foundation operates HMI as a public-good resource because curating the complete literature is the only durable foundation for any defensible standards program built on top.
+
+This is the **Cochrane-for-heavy-metals** positioning. Cochrane systematic reviews are the gold standard in medicine for a single reason: they aggregate the complete relevant literature, not selected papers, and they publish their methodology so that any reviewer can verify their conclusions. HMI is structured on the same principle. Aggregating the complete literature, not selected papers, is what produces durable epistemic authority — and durable epistemic authority is what allows the standards program built on top to withstand adversarial scrutiny.
+
+## Provenance: how a limit in this manual traces to the corpus
+
+Every concentration limit in Part 3 of this manual was derived from a pooled distribution of source pages on HMI for the relevant product-by-metal cell. The pooling math (the per-analyte percentile calculations, the source-level bootstrap, the sensitivity-band analysis) lives workbench-side, per the firewall. But the **inputs** to the pooling — the source pages contributing to each cell — are public.
+
+A reader who wants to audit a specific HMTc limit follows this path:
+
+1. **Locate the product chapter** in Part 3 of this manual. The Master Limit Table gives the HMTc limit, the applicable regulatory cap, and the basis note for each of the ten priority analytes.
+2. **Read the chapter's Sources Cited section.** Each citation resolves to a source page on heavymetalindex.com.
+3. **Read the source page.** Each source page summarizes the underlying document's findings with concentrations, sample sizes, methods, and basis (as-sold, as-consumed, dry weight). The source page links to the original document where available.
+4. **For the routing layer**, the corpus also maintains a structured routing audit at `data/evidence/product_source_routing_audit.csv` that maps every source to every product-category, ingredient, metal, and regulation page it touches. Adversarial readers who suspect a source has been omitted from a cell can check the routing audit directly.
+5. **For the pooled distribution itself**, qualified reviewers — regulators with formal inquiries, plaintiff's experts requesting access through counsel, sampling auditors verifying program operation — may request the workbench-side aggregate distribution data under controlled terms. The pooling engine is proprietary; the pool composition is not.
+
+This design preserves the wiki/HMTc firewall (the engine arithmetic stays workbench-side, where it cannot be reverse-engineered by competing certifiers) while making the evidence inputs auditable (every limit traces to public source pages on HMI).
+
+The failure mode this design prevents is the "we set this limit because we said so" attack. HMTc cannot make that argument because the source attribution is public. An adversarial reader who believes a limit is too tight can find the source pages that drove it; an adversarial reader who believes a limit is too loose can find the source pages that justified the floor. The argument moves from *whether the certifier is biased* to *what the literature supports*, which is the right level for the argument to occur.
+
+## What the corpus contains, in scope and structure
+
+HMI's scope is deliberately broad: heavy-metals-in-food literature globally, across all product categories, in all jurisdictions, across regulatory and peer-reviewed sources. The corpus uses three structural layers.
+
+The **source layer** (`wiki/sources/`) is one page per source document, with frontmatter recording the document's identifiers (DOI, raw filesystem handle, cite-key), evidence tier (A for peer-reviewed primary studies and government reports; B for industry white papers and NGO reports; C for news articles and press releases), and routing metadata (which products, ingredients, metals, and jurisdictions the source covers). Every numeric claim in the corpus traces to a source page; the corpus does not contain values not anchored to a source.
+
+The **substrate layer** (`wiki/metals/`, `wiki/ingredients/`, `wiki/products/`, `wiki/regulations/`, `wiki/testing/`, `wiki/health/`, `wiki/microbiome/`) is one page per substantive subject. Metal pages summarize toxicology, exposure routes, regulatory limits, testing methods, and microbiome effects for each of the ten priority analytes and several others. Ingredient pages carry the structured `contamination_profile` block (typical and 95th-percentile concentrations, sample counts, geographic and seasonal variance, regulatory limits) for every commodity in scope. Product-category pages aggregate evidence at the consumer-product level. Regulation pages document each operative rule with exact limit values, units, and effective dates from the original agency source.
+
+The **routing layer** (`data/evidence/product_source_routing_audit.csv`) is the mapping from each source to every page it should appear on. It is regenerated automatically when source pages change. The routing audit's transparency is what guarantees that no source has been silently omitted from a cell.
+
+The corpus also maintains an evidence register (`data/evidence/`) of structured concentration values, regulatory facts, and review events. Bulk ingest of the literature is ongoing; the corpus today is sufficient to support Category 1 (infant and child foods) certification standards, with Category 2 (children's personal care) and additional categories expanding under continuous ingest.
+
+## What this means for adversarial readers
+
+A reader looking to attack an HMTc limit has three structural choices:
+
+1. **Attack the source page.** If the reader believes a specific source has been misread or misrepresented in the corpus, they can compare the source page on HMI to the original document and identify the discrepancy. The Paleo Foundation maintains a public correction process for source-page errors.
+
+2. **Attack a routing decision.** If the reader believes a relevant source has been omitted from a product-by-metal cell (or that an irrelevant source has been included), they can check the routing audit and the source's frontmatter. Routing decisions are deterministic and reproducible from the source pages' metadata.
+
+3. **Attack the methodology.** If the reader believes the per-analyte percentile selection, the pooling math, or the regulatory-cap interaction produces an indefensible result, the methodology in Part 5.1 and the Governing Principles supersede this argument. The methodology is described in this manual; the engine arithmetic is workbench-side but the design is auditable.
+
+What the reader cannot do is argue that HMTc invented its evidence base. The corpus exists publicly. Anyone can verify any source page.
+
+## What this means for brand legal teams
+
+A brand legal team reading this chapter understands that HMTc standards are not opaque. They are calibrated against a public corpus that the brand's own technical experts can review. A brand contemplating certification can ask its toxicology consultant to read the HMI source pages for the relevant product category and confirm that the corpus reflects the state of the literature as the consultant understands it. If the consultant finds gaps, the gaps are flagged through the same public correction process available to any reader.
+
+This is part of what HMTc certification buys for the brand: not just a mark, but **a defensible evidence trail to the certifier's standards-setting methodology**. When a plaintiff's expert in a future deposition asks "why did you trust the HMTc standards?" the brand's answer is "because the evidence base is public, our toxicology team verified it, and the methodology is documented." That answer is much stronger than the answer available to a brand operating against internal standards or marketing-program certifications.
+
+## What this means for regulators
+
+A regulator reading this chapter understands that HMTc operates with public evidence in a way that complements rather than substitutes for federal regulatory action. The HMI corpus is available to FDA, EFSA, state attorneys general, and any other regulatory body that wants to audit how a specific HMTc standard was derived. The structured routing audit allows targeted regulatory inquiries: a reviewer who asks "what does HMI's evidence base say about cadmium in cocoa from Ecuador?" can pull the ingredient page's geographic-variance block and the contributing source pages directly. This is the kind of structured, machine-readable data that the National Academies' 2011 report on targeted transparency identified as the precondition for productive regulatory engagement with industry self-regulation.
+
+## What this means for the rest of this manual
+
+The reader has now encountered the program's foundational claim: every numeric assertion in Part 3 traces to a public corpus that any adversarial reviewer can audit. With that claim established, the operational specification of the program in Part 2, the per-product standards in Part 3, and the testing schedule in Part 4 can be read against the right backdrop. The engine arithmetic that produces each specific limit lives workbench-side; the inputs to that arithmetic are public. The methodology that the engine implements is documented in Part 5.1. The adversarial-read chapter in Part 5.2 enumerates the categories of attack that the program anticipates and answers them on the merits.
+
+This concludes Part 1. The reader who has read all five chapters now understands:
+
+- Why the program exists (the existing enforcement environment fails structurally);
+- What the cost of inaction is (large enough that certification is a rational investment under conservative probability assumptions);
+- What the program's design principles are (staged compliance, risk-tiered metal classification, exposure-based testing, measurement-uncertainty decision rules, confidential remediation, ratcheting standards, supplier intelligence);
+- And where the evidence base lives (heavymetalindex.com, a public curated corpus architecturally separate from the certification program).
+
+The next chapter — Part 2.0 Program Flow Diagram — opens Part 2 with a single-page visualization of the certification lifecycle before the operational chapters specify the program in detail.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/00-program-flow-diagram.md -->
+
+# Part 2 — The HMTc Program
+
+## 2.0 Program Flow Diagram
+
+A brand legal team or QA reader who has finished Part 1 understands why the program exists. Part 2 specifies what the program *is*: the operational constitution of HMTc. Before the operational chapters that follow, this single-page diagram shows how a brand and a SKU move through the program from inquiry to ratchet review. The numbered nodes correspond to chapters in Part 2 where each phase is specified.
+
+---
+
+## Lifecycle
+
+```
+                ┌─────────────────────────────────────────────┐
+                │  Brand inquiry → license agreement signed   │
+                └────────────────┬────────────────────────────┘
+                                 │
+                                 ▼
+        ┌───────────────────────────────────────────────────────────┐
+        │  Three-Lot Baseline Testing (§2.3, Part 4 §4)             │
+        │  • Full 10-analyte panel on 3 distinct production lots    │
+        │  • Composite sampling + chain-of-custody                  │
+        │  • Speciation per Tier 1 rules (iAs for rice, MeHg fish)  │
+        └─────────────────────────────┬─────────────────────────────┘
+                                      │
+                                      ▼
+                ┌──────────────────────────────────────┐
+                │  Initial Status Assignment (§2.3)    │
+                └──┬──────────────┬──────────────┬─────┘
+                   │              │              │
+                   ▼              ▼              ▼
+           ┌─────────────┐  ┌─────────────┐  ┌────────────────────────────┐
+           │  Status A   │  │  Status B   │  │  Status C / Not Eligible   │
+           │  Full       │  │  Transit.   │  │  Probation or Confidential │
+           │  compliance │  │  Tier 2     │  │  Remediation Track (§2.4)  │
+           └──────┬──────┘  └──────┬──────┘  └──────────────┬─────────────┘
+                  │                │                        │
+                  ▼                ▼                        ▼
+        ┌──────────────────────────────────────────────────────────┐
+        │  Routine Surveillance (Part 4 §5–7)                      │
+        │  • Testing frequency by Status × Risk Tier               │
+        │  • Independent sampling per schedule                     │
+        │  • Hold-and-release rules per status                     │
+        │  • Trend monitoring at 80% PoL internal warning          │
+        └──────────────────────┬───────────────────────────────────┘
+                               │
+                ┌──────────────┴──────────────┐
+                │                             │
+                ▼                             ▼
+        ┌───────────────┐         ┌─────────────────────────────────┐
+        │ Reflex events │         │ CAPA triggered (§2.8)           │
+        │ (Part 4 §8)   │         │ • Root-cause analysis           │
+        │ • Ingredient  │         │ • Corrective + preventive       │
+        │ • Water       │         │ • Verification of Effectiveness │
+        │ • Equipment   │         └──────────────┬──────────────────┘
+        │ • Packaging   │                        │
+        │ • Process     │                        ▼
+        │ • Supplier    │              ┌─────────────────────┐
+        │   alert       │              │ CAPA closure        │
+        └───────┬───────┘              │ + supplier intel    │
+                │                      │ shared (§2.9)       │
+                │                      └──────────┬──────────┘
+                └──────────────────────────────────┘
+                               │
+                               ▼
+        ┌──────────────────────────────────────────────────────────┐
+        │  Annual Standards Review (§2.10)                         │
+        │  • 80th-percentile of certified Status A results checked │
+        │  • Breadth threshold (≥50% of SKUs ≤60% PoL) checked     │
+        │  • Forward forecast published                            │
+        └──────────────────────┬───────────────────────────────────┘
+                               │
+                  ┌────────────┴────────────┐
+                  │                         │
+                  ▼                         ▼
+       ┌─────────────────────┐   ┌────────────────────────────────┐
+       │ Trigger NOT fired:  │   │ Trigger fired (2 consec yrs):  │
+       │ Current limits      │   │ • New limit = max(P80, 80% old)│
+       │ remain in force     │   │ • 20% step cap applied         │
+       │ Forecast updated    │   │ • 12-18 mo transition          │
+       └─────────────────────┘   │ • Grandfathering applies       │
+                                 └────────────────────────────────┘
+```
+
+---
+
+The diagram is the operational map for the rest of Part 2. Brand legal readers can return to it as a reference; each chapter that follows specifies one or more of the nodes shown above. The first operational chapter, Part 2.1, establishes the Program's purpose and core principles. The Confidential Remediation Track for brands whose baseline does not yet qualify for Status A or B is specified in Part 2.4.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/01-purpose-and-principles.md -->
+
+# 2.1 Purpose and Core Principles
+
+## Narrative
+
+The HMTc Program is designed to achieve three simultaneous objectives: protect participating brands from litigation exposure through documented, defensible testing and improvement protocols; protect consumers by incrementally driving down heavy metal exposure in infant and child food products; and create commercial value through a certification mark that signals verified, ongoing compliance under independent surveillance. These three objectives are not in tension. A program that fails any one of them fails all three — a program that does not reduce brand legal exposure cannot recruit participants; a program that does not drive consumer-exposure reduction has no defensible public-health basis; and a program that does not create commercial value cannot sustain itself across the time horizons required to achieve population-level impact.
+
+The Program's five Governing Principles, published separately and reproduced in the Methodology Appendix of this manual (Part 5.1), are the authority that this Governance specification implements. The principles are: drive contamination reduction through consumer demand; safeguard consumers; safeguard brands that enter the program; ensure legal defensibility; and scale the program to become the de facto standard. No principle is subordinate to any other. Every operational rule in this Part 2 is evaluated against all five; conflicts among principles are surfaced and resolved rather than ignored.
+
+## Operational specification
+
+### 1.2 Action Levels, Not Safety Thresholds
+
+The HMTc Standards set category-specific concentration limits (action levels) for priority toxic heavy metals in finished infant and child food products. These action levels are risk-management tools anchored to the best available occurrence data and regulatory benchmarks. They are expressly **not** safety thresholds. Exceeding an action level triggers sourcing, process, and quality control interventions under the Program, but does not by itself indicate that a product is unsafe or that a consumer has been harmed. This distinction is fundamental to the legal and scientific integrity of the Program and shall be reflected in all Program documentation, communications, and mark-usage guidelines.
+
+### 1.3 ALARA Paradigm
+
+The Program operates under an As Low As Reasonably Achievable (ALARA) paradigm. For metals where no safe exposure threshold is known in children (including lead and inorganic arsenic), the Program requires continuous, feasible reduction of concentrations over time. ALARA is not aspirational language; it is an enforceable obligation within this Program. Brands that achieve certification and then plateau without pursuing further reduction are not in compliance with the spirit or the requirements of this Policy. The ALARA obligation is operationalized through trend monitoring, CAPA requirements, Verification of Effectiveness protocols, and the Standards Ratchet Mechanism described in Part 2.10.
+
+### 1.4 Concentration-Based Limits
+
+All HMTc action levels are expressed as parts per billion (ppb, equivalent to micrograms per kilogram) on an as-sold basis. The Program does not use per-serving limits. This design prevents circumvention through serving-size manipulation and ensures that compliance is achieved through genuine reduction in contaminant concentrations rather than labeling strategies. Concentration-based limits provide a consistent, testable, and comparable basis for certification across all product categories.
+
+### 1.5 Legal Compliance Disclaimer
+
+Certification under this Program does not constitute legal advice and does not replace the Licensee's obligation to comply with all applicable laws and regulations in every jurisdiction where the product is sold. If a product's heavy metal content violates a regulatory limit or trigger level in any jurisdiction, that noncompliance is a hard-stop condition under this Policy and will trigger immediate corrective action regardless of the product's certification status. The Program Operator will cooperate with regulatory authorities as required by law.
+
+### 1.6 International Scope and Regional Adaptability
+
+HMTc applies anywhere infant and child food products are sold. The Program operates from the Paleo Foundation's Cyprus base under EU regulatory frameworks for database rights and certification governance, and applies operationally to products sold in any jurisdiction.
+
+Regional adaptability is a structural feature of the methodology, not a deviation from it. The Governing Principles are universal; their **calibration** is regional. When a region's evidence base shows systematically higher contamination — typically traceable to local soil geochemistry, irrigation source contamination, or supply-chain practices — HMTc's regional standards calibrate against that region's clean-platform achievability *and* against the global cleanest-achievable benchmark. **The more stringent of (regional platform limit, global cleanest-achievable benchmark) governs.** This creates the market-demand catalyst Governing Principle 1 requires: brands selling in higher-contamination regions face standards that incentivize sourcing from cleaner supply chains, which drives the upstream supply-chain remediation that Governing Principle 1 names as the program's primary mechanism.
+
+### 1.7 Program-Operator Continuity
+
+The HMTc Program is operated by The Paleo Foundation, a regulatory and certification body incorporated in Cyprus with operational governance documented in the controlled-document registry. Brand licensees may rely on Program continuity as follows: the license agreement remains operative across changes in Program leadership; the methodology continues to evolve through the Standards Ratchet and the Governing Principles' revision cycle; and if Program operation transfers to another entity (by sale, merger, or governance reorganization), licensees receive written notice with a minimum 12-month grace period before any operational change affects their certification status. The Program Operator publishes annual operational continuity reporting that includes governance composition, financial sustainability, and any pending transition events.
+
+## Cross-references
+
+- Governing Principles full text: see Part 5.1 or `docs/governance/hmtc-governing-principles.md`.
+- Standards Ratchet operational specification: Part 2.10.
+- Confidential Remediation Track (the structural answer to brands not yet at certification standards): Part 2.4.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/02-scope-and-tiering.md -->
+
+# 2.2 Scope and Analyte Tiering
+
+## Narrative
+
+Not all heavy metals present the same toxicological profile, and a defensible certification framework must reflect this. The HMTc Program classifies covered metals into two tiers based on their toxicological characteristics, with governance consequences flowing directly from the classification. Metals that are carcinogenic with no established safe threshold, neurotoxic with no established safe threshold, or bioaccumulative with long biological half-lives warrant zero tolerance for exceedance within the certification framework — these are Tier 1 metals. Metals with established tolerable daily intakes, shorter biological half-lives, or primarily acute rather than chronic toxicity profiles may be eligible for transitional allowances — these are Tier 2 metals.
+
+The tiered approach means that every governance decision — every transitional allowance granted, every probation imposed — has a traceable rationale grounded in the toxicological literature. **If a regulatory body or plaintiff's attorney asks why a 130% nickel result received transitional certification while a 110% lead result triggered immediate probation, the answer traces directly to the comparative toxicological profiles of the two metals. That defensibility is the point.**
+
+Before specifying the tier classification, this chapter establishes the most important framing the manual carries for brand legal teams and regulators: **even compliant foods can exceed reference doses when a child eats across categories.**
+
+## The aggregate-exposure framing
+
+> A day's consumption comprising 800 milliliters of ready-to-feed formula at 5 ppb lead, one 20 ppb serving of dry cereal, one 10 ppb fruit purée, and one 20 ppb root-vegetable purée could yield approximately **7.8 micrograms of lead per day** — more than three times the FDA Interim Reference Level of 2.2 µg/day for young children. Individual products meeting all applicable regulatory action levels can still combine, at typical infant consumption patterns, into total daily intakes that substantially exceed health-based reference values.
+>
+> This is why HMTc category limits sit below applicable regulatory action levels rather than at them. Aggregate exposure across categories — not single-product compliance — is the relevant exposure metric for infants and young children. The Program drives every product, in every category, steadily and measurably closer to the lowest achievable levels of contamination, simultaneously.
+
+This calculation is the answer to the question "why don't HMTc limits just align with FDA action levels?" The answer is that compliance with single-product regulatory floors does not deliver compliance with health-based exposure reference values when a child eats across categories. The HMTc Program calibrates limits across categories simultaneously so that aggregate intake at typical infant consumption patterns sits well below health-based exposure benchmarks — not just below single-product regulatory action levels.
+
+## Covered product categories
+
+This Policy applies to finished products in the infant and young child food categories defined by the HMTc Infant and Child Foods Standards: infant formula (powder and ready-to-feed); baby cereals and dry grain products; fruit purées; non-root vegetable purées; root-vegetable purées; mixed meals; fruit juices (non-canned); and teething and snack products. Fifteen specific product chapters appear in Part 3, each carrying its master limit table, per-analyte rationale, and product-specific toxicology callouts.
+
+## Covered analytes and metal classification
+
+The Program evaluates products against action levels for **eight priority toxic heavy metals**. Each is classified into Tier 1 or Tier 2 based on its toxicological profile. Note that the **analytical testing panel** uses ten analytes (the eight priority metals plus speciated forms for arsenic, mercury, and chromium when triggered); this is described after the tier tables.
+
+### Tier 1 Metals (Zero Tolerance for Exceedance)
+
+Tier 1 metals are those that are carcinogenic with no established safe threshold, neurotoxic with no established safe threshold, or bioaccumulative with long biological half-lives in children. **No transitional exceedance (Status B variance) is permitted for Tier 1 metals.** Any confirmed result exceeding 100% of the applicable limit for a Tier 1 metal triggers immediate escalation to Status C (Probation) or higher.
+
+| Metal | Form Evaluated | Rationale for Tier 1 |
+|---|---|---|
+| **Lead (Pb)** | Total elemental lead | No safe threshold; neurodevelopmental effects at lowest observable levels; JECFA withdrew PTWI in 2011. Full toxicology: see Part 5 Glossary and `wiki/metals/lead` on heavymetalindex.com. |
+| **Cadmium (Cd)** | Total elemental cadmium | Bioaccumulative (10-30 year half-life); nephrotoxic; disproportionate risk in children; Group 1 IARC carcinogen. Full toxicology: `wiki/metals/cadmium` on heavymetalindex.com. |
+| **Arsenic (iAs)** | Inorganic arsenic (speciation required for rice-containing products; reflex for others) | Genotoxic carcinogen; no safe threshold; EFSA's 2024 reassessment derived a cancer reference point of 0.06 µg/kg bw/day. Full toxicology: `wiki/metals/arsenic-inorganic` on heavymetalindex.com. |
+| **Mercury (MeHg)** | Methylmercury (speciation required for fish-containing products; reflex for others) | Neurotoxic; crosses blood-brain barrier; accumulates in developing brain tissue; prenatal and early postnatal exposure windows are most critical. Full toxicology: `wiki/metals/mercury-methyl` on heavymetalindex.com. |
+
+### Tier 2 Metals (Variance-Eligible for Transitional Allowance)
+
+Tier 2 metals are those with established tolerable daily intakes, shorter biological half-lives, or primarily acute rather than chronic toxicity profiles. Transitional exceedances up to 150% of the applicable limit may qualify for Status B certification under the conditions specified in Part 2.3.
+
+| Metal | Form Evaluated | Rationale for Tier 2 |
+|---|---|---|
+| **Nickel (Ni)** | Total elemental nickel | Chronic TDI established by EFSA (13 µg/kg bw/day); controllable via sourcing and process. Tier 2 reflects established benchmark rather than no-threshold framing. |
+| **Tin (Sn)** | Total elemental tin | Acute GI endpoint only; sentinel for packaging integrity; very large margin to chronic-effect levels. |
+| **Aluminum (Al)** | Total elemental aluminum | JECFA PTWI established (2 mg/kg bw/week); controllable via water treatment and process controls. |
+| **Chromium (Cr)** | Total chromium (Cr(VI) speciation only if credible pathway exists) | Cr(III) is essential nutrient and is assumed in food; Cr(VI) is Group 1 IARC carcinogen by ingestion. Speciation upgrades the analyte to effectively Tier 1 treatment when triggered. |
+
+### Analytical testing panel
+
+The Program tests for ten analytes:
+
+- **Total forms (8):** Pb, Cd, total As, Ni, total Hg, Al, total Cr, Sn.
+- **Speciated forms (3):** iAs (inorganic arsenic, required for rice-containing products and as a reflex trigger when total As approaches or exceeds 50% of limit); MeHg (methylmercury, required for fish-containing products and as a reflex trigger when total Hg approaches or exceeds 50% of limit); Cr(VI) (hexavalent chromium, required only when a credible Cr(VI) formation pathway exists, such as certain water-treatment processes).
+
+The 8-tier enforcement framework operates on the eight priority metals; speciated forms inherit their parent metal's tier. iAs and MeHg inherit Tier 1 (zero tolerance); Cr(VI) inherits effectively Tier 1 treatment when triggered. Total As, total Hg, and total Cr are tested routinely to support reflex speciation decisions but do not themselves carry separate enforcement tiers — the speciated result governs when speciation has been performed.
+
+The speciation logic operationalizes a key toxicological principle: the **form** of a heavy metal determines its toxicological significance, not just its total concentration. Total arsenic measurements alone are not sufficient for rice-containing products because organic arsenic species (predominantly in seafood) are toxicologically distinct from inorganic arsenic (the genotoxic carcinogen). Similarly, total mercury alone is not sufficient for fish-containing products because methylmercury crosses the blood-brain barrier in a way that inorganic mercury does not. Failure to perform required speciation renders the lot ineligible for certification (see Part 4 §9).
+
+## Technical Committee authority over metal classification
+
+The Program Operator reserves the right, upon recommendation of the Technical Committee, to reclassify a metal between Tier 1 and Tier 2 based on new toxicological evidence, regulatory changes, or emerging risk data. Any reclassification will be communicated to all Licensees with a defined transition period before enforcement. The Technical Committee may also designate additional analytes for inclusion in the testing panel.
+
+## Cross-references
+
+- Per-product master limit tables: Part 3 (each of fifteen chapters).
+- Speciation testing protocol: Part 4 §9.
+- Decision rules under measurement uncertainty: Part 2.6.
+- Toxicology callouts for each metal: Part 5 Glossary, with full reviews on heavymetalindex.com via the canonical wikilinks.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/03-certification-status-framework.md -->
+
+# 2.3 Certification Status Framework
+
+## Narrative
+
+The central design challenge for a heavy metal certification program is balancing rigor with accessibility. A program with unachievable standards attracts no participants and protects no consumers. A program with loose standards lacks credibility and provides no meaningful differentiation. The staged-compliance model resolves this tension by setting rigorous standards — calibrated to deliver the 90/30 row-pass intent specified in the Governing Principles — and giving brands structured pathways to reach full compliance rather than requiring every threshold to be met on day one.
+
+The five-status framework absorbs normal lot-to-lot analytical variability without converting it into a commercial catastrophe, while maintaining clear escalation triggers for genuine control failures. A brand whose typical lead level is 4 ppb against a 5 ppb limit will occasionally produce a lot at 6 or 7 ppb through normal variation, not through negligence; the staged system treats that variability as the engineering reality it is, while preserving zero-tolerance treatment for Tier 1 metals and for systemic control failures regardless of which metal is involved.
+
+## Program entry and baseline establishment
+
+### Three-Lot Baseline Requirement
+
+All SKUs entering the HMTc Program must be tested across a minimum of three (3) production lots to establish a baseline profile before any certification status is assigned. These three lots shall be tested for the full heavy metals panel using the Program's required methodology. The three-lot baseline serves to distinguish inherent product variability from anomalous results, providing a statistically meaningful foundation for status assignment. Results from all three lots are evaluated collectively to determine the initial certification status.
+
+### Initial Status Assignment
+
+Following completion of the three-lot baseline, the Program Operator will assign an initial certification status based on the results:
+
+- **Status A:** All three lots have MaxPoL at or below 100% for all analytes.
+- **Status B:** One or more lots have MaxPoL above 100% but at or below 150%, and the exceedance is limited to Tier 2 (variance-eligible) metals only.
+- **Status C:** One or more lots have MaxPoL above 150% (up to 200%), or any Tier 1 metal exceeds 100%, or other probationary triggers are met.
+- **Not Eligible for Certification:** Any lot exceeds 200% MaxPoL, or results indicate a regulatory limit violation, or conditions preclude entry into the staged compliance framework.
+
+Brands whose baseline does not qualify for Status A or B may enter the program under the **Confidential Remediation Track** described in Part 2.4 rather than being excluded from the program entirely. The Track is the structural answer to the chilling-effect dynamics analyzed in Part 1.2: brands not yet at certification standards need a pathway that builds an improvement record without creating public exposure risk.
+
+## The five statuses
+
+### Status A: Certified (Full Compliance)
+
+**Criteria:** All tested analytes at or below 100% of their respective HMTc limits (MaxPoL ≤ 100%). No action levels exceeded; no special allowances needed.
+
+**Mark Usage:** Permitted. Product may bear the HMTc Certification Mark without restriction.
+
+**Testing Frequency:** Routine surveillance per the Lot Testing Schedule (Part 4). Frequency is risk-tiered by product category: high-risk categories (formula, cereals) tested monthly; moderate-risk (purées, mixed meals) and lower-risk (juice, snacks) tested quarterly.
+
+**CAPA:** Not required for passing lots. Preventive action is expected if trend analysis shows an upward trajectory approaching limits.
+
+**Ongoing Obligations:** Maintain all controls and record-keeping. Continue periodic trend analysis. **Pursue ALARA improvement even while compliant** — Status A is not a plateau, and the Standards Ratchet (Part 2.10) ensures that the bar tightens as the certified market improves.
+
+### Status B: Certified (Transitional Compliance)
+
+**Criteria:** MaxPoL above 100% but at or below 150%, and the exceedance is limited to Tier 2 (variance-eligible) metals. No Tier 1 metal exceeds 100%. No other hard-stop conditions triggered.
+
+**Mark Usage:** Permitted with conditions. The product may bear the HMTc Certification Mark, but certification is flagged as transitional in the Program registry.
+
+**Testing Frequency:** Elevated surveillance per the Lot Testing Schedule. Monthly independent sampling at minimum. The Program Operator may require every-lot testing based on risk assessment.
+
+**CAPA:** Mandatory. CAPA must be opened within 10 business days of status determination, with a detailed plan submitted within 30 days.
+
+**VOE (Verification of Effectiveness):** Required. The CAPA must include a VOE plan demonstrating measurable reduction in heavy metal concentrations over subsequent lots.
+
+**Time Limit:** Brands are given a default of 12 months to achieve Status A. The Program Operator may adjust this timeline based on the complexity of the required changes. Failure to demonstrate an improving trend will trigger escalation to Status C.
+
+**Escalation:** If any lot tested during Status B exceeds the 150% cap, involves a Tier 1 metal exceedance, or the brand fails to show improvement, the SKU is immediately escalated to Status C.
+
+### Status C: Probation (Heightened Surveillance)
+
+**Criteria:** Any of the following: MaxPoL between 150% and 200% for any analyte; repeated Status B outcomes without improvement; any Tier 1 metal exceeding 100% of its limit; systemic process control failure as determined by the Program Operator.
+
+**Mark Usage:** Not permitted on new production. Only individual lots that test at Status A or B levels may be released with the Certification Mark, on a lot-by-lot approval basis.
+
+**Testing Frequency:** Every lot, with mandatory hold-and-release. No product may ship until test results are received and evaluated.
+
+**CAPA:** Accelerated. CAPA must be opened within 5 business days, with a full plan submitted within 15 business days. The CAPA must include a Probation Lot Release Plan.
+
+**Graduated probation severity.** To ensure proportionate response, Status C is differentiated by severity:
+
+- **Low Probation (MaxPoL 150–175%):** Every-lot testing with hold-and-release. Brand's own accredited laboratory sampling is permitted, subject to Program Operator audit rights. The Program Operator may conduct unannounced verification sampling.
+- **High Probation (MaxPoL 175–200%):** Every-lot testing with hold-and-release, plus mandatory independent third-party sampling directed by the Program Operator. The third-party sampler collects samples independently of the brand's quality team and submits them directly to a Program-designated laboratory. This dual-track approach ensures data integrity under heightened risk conditions.
+
+**Exit criteria.** To exit probation, the brand must produce a minimum of five (5) consecutive lots that individually test at Status A or Status B levels (the Program Operator may require more depending on severity), and complete all CAPA milestones with verified effectiveness. Both conditions must be satisfied before probation is lifted.
+
+### Status D: Suspension
+
+**Criteria:** MaxPoL exceeds 200% for any analyte; any hard-stop condition (including regulatory limit violation or data integrity failure); failure to execute required testing, CAPA, or enforcement directives during probation.
+
+**Mark Usage:** Prohibited. The Certification Mark must be removed from all product units and marketing materials immediately.
+
+**Required Actions:** Stop-ship of affected product; removal of seal from marketing; market correction as directed; CAPA within 2 business days with containment within 48 hours.
+
+**Reinstatement:** Requires completion of CAPA with VOE, consecutive compliant lots as determined by the Program Operator, restored data integrity, and formal Program Operator approval.
+
+### Status E: Revocation
+
+**Criteria:** Persistent suspension without effective correction; severe or repeated nonconformance; willful misconduct or data fraud.
+
+**Mark Usage:** Permanently prohibited. Certification is fully withdrawn. License agreement is terminated.
+
+**Re-entry:** Only by full re-application to the Program at the Program Operator's discretion. Trust must be rebuilt from the ground up.
+
+## Cross-references
+
+- Confidential Remediation Track (for brands whose baseline does not qualify for A or B): Part 2.4.
+- Lot Testing Schedule (testing frequency by Status × Risk Tier): Part 4.
+- CAPA procedures: Part 2.8.
+- Mark Usage Rules: Part 2.5.
+- Standards Ratchet (how limits evolve over time): Part 2.10.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/04-confidential-remediation-track.md -->
+
+# 2.4 The Confidential Remediation Track
+
+## The structural problem this chapter solves
+
+The commercial and legal landscape around heavy metals in infant foods creates a paradox: **the brands most in need of a structured improvement program are the least likely to join one voluntarily if doing so creates public exposure.** Part 1.2 documented this dynamic at length. In a climate where consumer advocacy groups, state attorneys general, and plaintiffs' attorneys are actively scrutinizing the industry, any public acknowledgment that a brand's products contain elevated heavy metals — even in the context of a voluntary improvement program — could be weaponized in litigation or media coverage. The chilling effect is real, documented in the compliance-theory literature, and structurally hostile to public-health objectives.
+
+The Confidential Remediation Track is the program's structural answer to this paradox. It is the single most important differentiator of HMTc from the exposé-driven enforcement environment that Part 1 attacks. It is the reason this chapter is hoisted to its own section in Part 2 rather than appearing as a subsection of program-entry rules. A brand legal team reading this manual to decide whether to recommend HMTc participation should read this chapter alongside Part 5.2 (the Program-Level Adversarial Read) — together they answer the question "what does HMTc give my client that internal testing alone does not?"
+
+## What the Track is
+
+Brands whose initial baseline results do not qualify for Status A or Status B may enter the Program under the Confidential Remediation Track, provided that all tested lots meet applicable legal obligations for heavy metals in their markets of sale at the time of testing. (Regulatory limit violations remain a hard-stop condition under Part 2.11 regardless of certification status.)
+
+Under the Confidential Remediation Track:
+
+- **Enrollment status is confidential.** The brand's participation in HMTc is treated as confidential business information under the license agreement. The Program Operator will not unilaterally publicize a brand's enrollment, certification efforts, or test data.
+- **Test data is confidential.** All baseline testing results, surveillance results, CAPA documentation, and remediation progress data are confidential business information. The Program Operator may use aggregated, anonymized data from the Track for supplier-intelligence purposes (per Part 2.9) and for ratchet-trigger analysis (per Part 2.10), but individual brand identities and SKU-level results are not disclosed.
+- **Full Program resources are available.** Brands in the Track receive full access to the Program's remediation support, supplier intelligence, testing infrastructure, technical guidance, and the Program Operator's working relationships with accredited laboratories and remediation consultancies.
+- **Mark usage is restricted until qualification.** The brand may not use the HMTc Certification Mark on any product, packaging, or marketing materials until at least one SKU achieves Status A or Status B. Confidentiality is the Track's structural feature; mark usage is the Program's signal of verified compliance. The two are deliberately decoupled until the brand earns the signal.
+- **Quality improvement initiative framing.** The brand's participation in HMTc and all associated testing data constitute a quality improvement initiative undertaken in good faith to reduce contaminant levels. This framing is intended to support the brand's legal defensibility by establishing a documented record of proactive, third-party-verified improvement efforts.
+
+## The legal defensibility argument
+
+A primary value proposition of HMTc enrollment, including the Confidential Remediation Track, is the creation of a **documented, timestamped, third-party-verified record of continuous improvement.**
+
+In the current litigation environment, the most legally exposed posture for a brand is the *absence* of any documented heavy metal reduction program. A brand that has no testing data, no improvement record, and no documented engagement with reduction efforts faces plaintiffs' counsel arguing that the brand "knew or should have known" about contamination and "did nothing." This framing is the basis of the neurodevelopmental-injury theories advanced in MDL 3101 and parallel state actions.
+
+A brand enrolled in the Confidential Remediation Track has a different posture available. The brand can document, with third-party verification: when it became aware of its baseline contamination profile; what remediation actions it undertook; how those actions performed against pre-defined improvement targets; and whether its lots are trending toward Status A or B over time. **The legal narrative shifts from "the brand knew and did nothing" to "the brand knew, enrolled in an independent certification program, and has documented evidence of continuous improvement." That shift is the difference between exposure and defense.**
+
+This shift does not eliminate litigation risk. It changes the brand's posture from passive to active. A plaintiff's expert challenging the brand's controls now faces a documented improvement record that begins before any inquiry was filed; a defense attorney has a contemporaneous, externally validated narrative of due diligence to anchor the defense. Defense counsel familiar with MDL-style litigation will recognize this as the structural difference between a brand that can be discovered into a corner and a brand that has a story to tell.
+
+## Why confidentiality is not a loophole
+
+A regulator or consumer-advocacy reader may ask: doesn't the Confidential Remediation Track let brands hide contamination data from the public?
+
+The answer is that the Track is the *structural* answer to the chilling-effect failure mode, not a workaround of consumer protection. **A brand that remains outside the program because it fears the consequences of joining is a brand whose products are not improving.** A brand that enters confidentially and begins reducing heavy metal levels is a brand whose products *are* getting safer, even if the public does not yet know. The relevant public-health question is which arrangement produces more contamination reduction in the food supply, and the compliance theory literature — summarized in Part 1.2 — is clear that punitive-disclosure regimes produce less reduction than confidential-improvement regimes.
+
+A brand that successfully completes the Track and qualifies for Status A or B then *can* display the mark publicly. Their improvement record becomes a competitive asset rather than a liability. The Track does not let brands hide forever; it lets brands enter from a starting position that would otherwise exclude them, build the improvement record that justifies the mark, and then operate publicly when they have earned the right to do so.
+
+A brand that enrolls in the Track, fails to improve, and exits without ever qualifying for the mark is in approximately the same position they would have occupied without the Track — except that they have a confidential record of attempted improvement that may still factor into a future legal defense. They have not gained the mark, and they have not gained immunity, but they have gained documented good faith. That is the proportionate outcome of the Track's design.
+
+## Aggregated data and public reporting
+
+The Program Operator publishes annual aggregate statistics on Program participation and trend movement, including:
+
+- Total number of SKUs enrolled across all statuses (including the Track, in aggregate).
+- Per-analyte aggregate distribution shifts year-over-year (the data that feeds the Standards Ratchet trigger).
+- Number of Confidential Remediation Track enrollees that transitioned to Status A or B in the reporting period.
+- Number of CAPA-driven supplier intelligence alerts issued (anonymized).
+
+These aggregate statistics are public. **Individual brand identities and SKU-level results are not.** The aggregate data demonstrates that the Program is achieving population-level contamination reduction without exposing individual participants to the litigation amplification cycle analyzed in Part 1.2.
+
+This is the targeted-transparency model described by the National Academies in its 2011 report on FSIS establishment-specific data release: aggregate disclosure that serves a defined public-health purpose, structured so the disclosure is interpretable and proportionate, with confidentiality at the individual-participant level where confidentiality serves the goal of maximizing program participation. The Track is built on this principle.
+
+## Exit from the Track
+
+A brand exits the Confidential Remediation Track in one of three ways:
+
+1. **Successful qualification for Status A or B on at least one SKU.** The brand transitions to the standard certification framework; mark usage becomes available for the qualifying SKU; the brand's confidentiality protections remain for any SKU still in the Track.
+2. **Voluntary withdrawal.** The brand may withdraw from the Program at any time. Their Track participation remains confidential per the license agreement; the Program Operator does not publicize past enrollment.
+3. **Program Operator termination.** The Program Operator may terminate a brand's Track participation for data integrity violations, failure to engage with remediation activities, regulatory limit violations, or material breach of the license agreement. Terminated brands forfeit Track confidentiality protections only to the extent required by enforcement obligations or regulatory cooperation; the Program Operator does not publicize terminations as a punitive measure.
+
+## Cross-references
+
+- Game-theoretic and naming-and-shaming analysis that motivates the Track: Part 1.2.
+- Aggregate data feeds for the ratchet trigger: Part 2.10.
+- Supplier intelligence sharing (uses anonymized Track data): Part 2.9.
+- Program-level adversarial read on Track confidentiality: Part 5.2.
+- License agreement summary (Track confidentiality is contractual): Part 5.6.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/05-mark-usage-rules.md -->
+
+# 2.5 Mark Usage Rules and Restrictions
+
+## Narrative
+
+The HMTc Certification Mark is the public signal that a product has been independently tested and meets defined action levels under an ongoing surveillance protocol. Mark usage rules are designed to ensure that the mark means what it says — that consumers, retailers, and regulators can rely on its presence as an indicator of verified compliance, and that brands cannot game the mark through arbitrage, status manipulation, or misleading marketing claims.
+
+## 6.1 Eligibility
+
+Only SKUs with a current Status A or Status B certification may bear the HMTc Certification Mark. Status C, D, and E products may not display the mark under any circumstances. Products in the Confidential Remediation Track may not display the mark. A brand must have at least one SKU at Status A or B before any use of the mark is permitted.
+
+## 6.2 Prohibited Marketing Claims
+
+Brands using the HMTc Certification Mark shall not make claims that imply absolute safety, absence of heavy metals, or that the certified product poses zero risk. Specifically prohibited claims include but are not limited to: "heavy metal free," "no toxic metals," "100% safe from heavy metals," or any language suggesting that the HMTc mark indicates the absence of heavy metals or the elimination of risk.
+
+The mark certifies that the product has been independently tested and meets defined action levels under an ongoing surveillance protocol. **It does not certify safety.** This distinction is fundamental to the program's legal and scientific integrity and traces directly to the action-levels-not-safety-thresholds framing in Part 2.1.
+
+## 6.3 Anti-Arbitrage: Re-Entry After Dropping the Mark
+
+If a brand removes the HMTc Certification Mark from a SKU during a remediation period — whether voluntarily or by enforcement — the brand cannot simply resume mark usage after producing one passing lot. Re-entry to mark usage requires:
+
+- Three (3) consecutive passing lot results at Status A or B levels, and
+- Closure of any open CAPA associated with the SKU.
+
+This prevents status arbitrage, where a brand might drop the mark during bad periods (avoiding the documented exceedance) and re-enter when results improve by chance (claiming a clean certification record without the intervening problem appearing in the registry). The anti-arbitrage rule ensures that the mark's signal — *this product has demonstrated sustained compliance* — is not subvertible by selective mark display.
+
+## 6.4 Brand Visibility Controls
+
+Brands may opt out of publicly displaying their certified SKUs in any Program registry or consumer-facing platform. The decision to show or not show certified SKUs rests entirely with the brand. This capability is built into the HMTc platform, giving brands full control over the visibility of individual SKUs that have been approved for mark usage.
+
+The Program Operator will not unilaterally publicize a brand's participation or certified SKUs without written consent, except as required by enforcement actions or regulatory obligations. This provision is consistent with the confidentiality principles that govern the Confidential Remediation Track (Part 2.4) and reflects the Program's broader posture: confidentiality is the default; public disclosure is the brand's choice.
+
+## Cross-references
+
+- Status framework that determines mark eligibility: Part 2.3.
+- Confidential Remediation Track (mark prohibition until qualification): Part 2.4.
+- License agreement terms governing mark usage: Part 5.6.
+- Trademark and certification mark IP protections: Part 5.7 (Colophon).
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/06-decision-rules.md -->
+
+# 2.6 Decision Rules under Measurement Uncertainty
+
+## Narrative
+
+The analytical chemistry of heavy metal testing at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb limit does not necessarily indicate that the true concentration exceeds the limit; the measurement could reflect analytical noise. Conversely, a result of 9 ppb does not guarantee the true concentration is below the limit. **Certification decision rules must account for this uncertainty to be both scientifically valid and legally defensible.**
+
+The HMTc decision rule follows established metrological principles documented in international standards (EURACHEM/CITAC, ILAC-G8) and accredited laboratory practice under ISO/IEC 17025. Under cross-examination by a plaintiff's expert or a hostile regulatory reviewer, a decision based on this framework is defensible because it is neither biased toward the brand nor toward the regulator: it is biased toward analytical accuracy.
+
+## 7.1 Primary Decision Rule
+
+Certification pass/fail decisions incorporate the laboratory's reported Measurement Uncertainty (MU) using a two-sided decision rule:
+
+- **Pass:** (Result + MU) ≤ Limit. Even at the upper end of the uncertainty range, the concentration does not exceed the action level.
+- **Fail:** (Result − MU) > Limit. Even at the lower end of the uncertainty range, the concentration clearly exceeds the limit.
+- **Borderline:** Neither condition is met. The true value could be either below or above the limit given the uncertainty. Borderline results require confirmatory action before a status is assigned.
+
+This protects brands from being penalized for measurement noise while protecting consumers from borderline results being treated as passes. The Program does not deliver a pass that the laboratory's uncertainty calls into question; it does not deliver a fail that the laboratory's uncertainty cannot support.
+
+## 7.2 Borderline Result Resolution
+
+No product will be certified on the basis of a borderline result alone. The Program Operator will require at least one of the following before finalizing certification status:
+
+- Confirmatory re-analysis of the same sample extract;
+- Confirmatory testing on a new sample from the same lot under strict chain-of-custody; or
+- Lot hold-and-release pending resolution.
+
+The approach is documented, and the more conservative interpretation governs in cases of ambiguity.
+
+## 7.3 No Testing into Compliance
+
+Repeated, ad hoc retesting to obtain a passing result is **strictly prohibited.** Any retesting must follow a pre-defined pathway approved by the Program Operator and be scientifically justified. Undocumented resampling, lab-shopping, or selective reporting of results is a data integrity violation subject to suspension or revocation (per Part 2.7).
+
+This prohibition is structural rather than punitive. The program's evidence record must withstand discovery in litigation: a defense attorney pointing to a certified SKU's test history needs to be able to say that the record represents the program's actual analytical findings, not a curated subset chosen to support a pre-determined outcome. Anti-retesting language is the discipline that makes the evidence record admissible.
+
+## 7.4 Default Rule When MU Is Not Reported
+
+If a laboratory does not report Measurement Uncertainty, the measured result is evaluated directly against the limit without uncertainty adjustment. A result above the limit is treated as a failure; a result at or below the limit is treated as a pass. Laboratories that cannot report MU are not preferred for Program use, and the Program Operator may require transition to a laboratory that provides MU.
+
+## Cross-references
+
+- Laboratory accreditation requirements (ISO/IEC 17025): Part 2.7 and Part 4 §10.
+- Data integrity violations and their consequences: Part 2.7.
+- CAPA procedures when a fail is confirmed: Part 2.8.
+- Chain-of-custody requirements: Part 4 §10.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/07-data-governance.md -->
+
+# 2.7 Data Governance and Integrity
+
+## Narrative
+
+A certification program's credibility ultimately rests on the integrity of its data. The Standards Ratchet (Part 2.10) operates on aggregated lot-testing results across all participating brands; the supplier-intelligence system (Part 2.9) operates on root-cause findings shared across the program; the legal defensibility argument (Parts 1.3, 2.4) rests on a documented improvement record that withstands discovery. Each of these depends on data being structured, auditable, and resistant to manipulation.
+
+Data integrity is therefore not a procedural concern but a structural condition of the program. Falsification, manipulation, selective omission, or unauthorized alteration of test data is a hard-stop violation. This chapter specifies the data-governance regime that operationalizes the program's integrity requirements.
+
+## 8.1 Structured Data Requirement
+
+Brands must permit the Program Operator, in writing, to access the data from their laboratory tests. **Submission of results as PDF documents is not permitted.** All test data must be provided in a structured, machine-readable format that enables trend analysis, statistical evaluation, and population-level aggregation. The specific format requirements are defined by the Program Operator and communicated to all Licensees.
+
+This requirement exists because the Program's ability to demonstrate aggregate improvement over time — which is both the strongest legal defense for individual brands and the strongest proof that the Program achieves its public-health objectives — depends on structured, queryable data. Static PDFs cannot be aggregated, cannot be trend-analyzed, and cannot feed the ratchet trigger. The structured-data requirement is the architectural precondition for the Standards Ratchet to function.
+
+## 8.2 Data Integrity as a Hard-Stop Condition
+
+Falsification, manipulation, selective omission, or unauthorized alteration of test data is a hard-stop violation that triggers immediate suspension (Status D) and likely revocation (Status E). Data integrity violations include but are not limited to:
+
+- Submitting falsified laboratory results.
+- Failing to report required test results.
+- Using non-accredited laboratories without authorization.
+- Breaking chain-of-custody without documentation.
+- Undisclosed retesting or lab-shopping (per the no-testing-into-compliance rule in Part 2.6).
+
+The Program Operator will audit data integrity as part of routine oversight and may require random verification testing at designated laboratories.
+
+The consequence calibration is intentional. Status D suspension is reserved for cases where remediation may eventually restore certification; Status E revocation terminates the license agreement and bars re-entry except by full re-application at the Program Operator's discretion. Data integrity violations are treated at the Status D-to-E severity level because, unlike contamination events that may reflect supply-chain or process variability, integrity violations reflect a deliberate choice by the brand to subvert the program's evidence record. The program cannot defend a certification mark whose evidence base is corrupted by participant falsification.
+
+## 8.3 Laboratory Requirements
+
+All testing used for certification decisions must be performed by laboratories accredited to ISO/IEC 17025 for the relevant analytical methods and food matrices. Analytical methods must be fit for purpose, meaning they can reliably quantify target heavy metals at concentrations at or below the applicable HMTc category limits. The laboratory's Limit of Quantitation (LOQ) for each analyte must be at or below the HMTc action level. If an LOQ exceeds the Program limit, a non-detect result is not acceptable proof of compliance.
+
+Laboratories that the Program Operator has reason to question — based on proficiency-test performance, audit findings, or pattern analysis of results across participating brands — may be removed from the list of Program-acceptable laboratories. Licensees using removed laboratories must transition to a Program-acceptable laboratory before their next surveillance cycle. The Program Operator maintains the current list of acceptable laboratories under document control.
+
+## Cross-references
+
+- Decision rules under measurement uncertainty (MU reporting requirements): Part 2.6.
+- Chain-of-custody requirements: Part 4 §10.
+- Anti-arbitrage rules (related to data presentation manipulation): Part 2.5.
+- Standards Ratchet (depends on structured data): Part 2.10.
+- Supplier intelligence sharing (depends on structured CAPA root-cause data): Part 2.9.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/08-capa.md -->
+
+# 2.8 Corrective and Preventive Action (CAPA)
+
+## Narrative
+
+Corrective and Preventive Action is the operational mechanism that converts a status assignment into measurable improvement. CAPA is required whenever a SKU enters Status B, C, or D. The required elements, timelines, and verification protocol are specified below. Every CAPA must connect a documented root cause to documented corrective and preventive measures, and must be verified through follow-up testing before closure.
+
+## 9.1 CAPA Initiation Timelines
+
+| Status | CAPA Initiation | Full Plan Due | Containment |
+|---|---|---|---|
+| Status B | 10 business days | 30 calendar days | As needed |
+| Status C | 5 business days | 15 business days | Within 48 hours |
+| Status D | 2 business days | 10 business days | Immediate |
+
+These timelines are maximum allowable periods; faster action is always expected. The Program Operator may require accelerated timelines based on the severity of the underlying exceedance or the risk profile of the affected SKU.
+
+## 9.2 Required CAPA Elements
+
+Every CAPA must include the following documented components:
+
+- **Issue Identification:** Affected SKU, lot(s), analyte(s), numerical results, applicable limits, and calculated PoL/MaxPoL.
+- **Impact Quantification:** Extent of exceedance, historical trend data, and context (outlier vs. systemic).
+- **Immediate Containment:** Actions taken to prevent potentially noncompliant product from reaching consumers.
+- **Root Cause Analysis:** Thorough investigation of ingredients, water, process, equipment, packaging, and formulation. **Structured methodology (5-Why, fishbone, fault tree) is required.** Unstructured root-cause assertions are not acceptable.
+- **Corrective Actions:** Short-term fixes to bring current and upcoming lots into compliance.
+- **Preventive Actions:** Long-term systemic changes to prevent recurrence (supplier qualification, process modification, formulation changes, enhanced specifications).
+- **Verification of Effectiveness (VOE):** A defined plan specifying how many validation lots will be tested and what criteria constitute success. The CAPA cannot be closed until VOE confirms the problem is resolved.
+
+The root-cause analysis is the source of supplier intelligence data shared anonymously across the program per Part 2.9. CAPAs that identify supplier, ingredient-source, or geographic-origin contributors generate anonymized alerts to other Licensees using the same supply-chain inputs.
+
+## 9.3 CAPA Closure
+
+A CAPA is closed only after the VOE demonstrates that the product has returned to controlled status and meets defined success criteria. The Program Operator reviews the evidence and formally approves closure. If criteria are not met, the CAPA is extended or additional actions are required.
+
+## Cross-references
+
+- Status framework (when CAPA is required): Part 2.3.
+- Lot Testing Schedule (testing frequency during open CAPA): Part 4.
+- Supplier intelligence sharing (uses CAPA root-cause data): Part 2.9.
+- Data governance (CAPA documentation requirements): Part 2.7.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/09-supplier-intelligence.md -->
+
+# 2.9 Supplier Intelligence Sharing
+
+## Narrative
+
+Individual brands testing their own finished products can identify contamination after it has already occurred. A certification program operating across multiple brands has the opportunity to detect contamination patterns at the supply chain level and alert affected participants *before* contamination reaches finished products. This is the upstream remediation pathway that Part 1.2 identified as structurally absent from the exposé-driven enforcement environment.
+
+The Supplier Intelligence System is the operational mechanism that converts individual-brand CAPA root-cause analyses into program-wide collective intelligence. It is what makes HMTc more than a sum of its participants: each additional brand contributes data that benefits all other participants, creating a positive network effect that strengthens retention and attracts new entrants. From a public-health perspective, it accelerates the identification and remediation of contamination sources across the entire supply chain rather than within individual brands operating in isolation. From a competitive-strategy perspective, supplier intelligence is the durable moat that distinguishes mature HMTc certification from any single-brand internal-testing program.
+
+## The system
+
+The Program Operator maintains an anonymized supplier intelligence system. When a Licensee's testing identifies a supplier or ingredient source with elevated heavy metal levels, the Program Operator may issue anonymized alerts to other Licensees using the same supplier or ingredient category, without identifying the reporting brand. The system operates as follows:
+
+- **All supplier-related findings submitted through CAPA root cause analyses are evaluated for potential cross-brand relevance.** Findings that name a supplier, ingredient origin, geographic source, or processing pathway with elevated heavy metal levels are candidates for alerting.
+- **Alerts are anonymized.** The identity of the reporting brand is never disclosed to recipients of the alert. The Program Operator preserves brand confidentiality even when issuing alerts that may indirectly benefit competitors.
+- **Alerts identify the ingredient category, geographic origin (if known), and the nature of the concern.** Example: "Elevated arsenic levels observed in rice flour sourced from \[geographic region X\]. Affected brands report typical results 30-50% above category baseline. Suspected mechanism: \[soil irrigation source or processing-water contamination\]. Recommended action: independent verification testing of incoming rice flour lots."
+- **Licensees receiving an alert are expected to evaluate their own supply chain for the flagged risk and take appropriate action.** Failure to respond to a Supplier Intelligence Alert is documented and may inform future status determinations.
+
+Participation in the supplier intelligence system is a condition of the license agreement. **Brands benefit from collective intelligence, creating a powerful incentive to remain in the Program and a significant informational disadvantage for those outside it.**
+
+## Why anonymization is a design feature
+
+A reader might ask: doesn't anonymization let problem suppliers escape accountability?
+
+The answer is that anonymization serves the same structural function that the Confidential Remediation Track does for brands. A program in which CAPA root-cause findings *named* specific suppliers in public alerts would create the same chilling effect Part 1.2 analyzed: brands would underreport supplier issues, supply-chain remediation would slow, and the collective intelligence value would collapse. Anonymization is what makes the system work.
+
+The Program Operator addresses upstream supplier accountability through bilateral channels (working with affected brands on supplier qualification, requalification, or replacement) rather than through public naming. This is the same logic that drives the staged-compliance framework in Part 2.3: structural responses calibrated to outcomes, not punitive responses calibrated to attribution.
+
+A consumer-advocacy reader who believes that named-supplier disclosure would drive faster contamination reduction is invited to read the Part 1.2 analysis of why naming-and-shaming dynamics produce the opposite outcome in practice. The empirical evidence across naming-and-shaming literature, supply-chain economics, and food-safety regulation converges on the conclusion that confidential collective intelligence outperforms public attribution at reducing contamination.
+
+## Cross-references
+
+- Game-theoretic and naming-and-shaming analysis that motivates anonymization: Part 1.2.
+- CAPA root-cause requirements: Part 2.8.
+- Reflex testing triggered by Supplier Intelligence Alerts: Part 4 §8.
+- Standards Ratchet (uses aggregated improvement data): Part 2.10.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/10-standards-ratchet.md -->
+
+# 2.10 The Standards Ratchet Mechanism
+
+## Narrative
+
+A static certification standard is inherently self-defeating. If standards remain unchanged while industry improves, they eventually certify the status quo rather than driving further progress. Conversely, if standards are perceived as arbitrary or subject to surprise changes, brands lose the planning certainty necessary to invest in reformulation and supply-chain improvements. The Standards Ratchet Mechanism resolves this through a formal commitment to tighten standards over time, moving in only one direction, on data-driven trigger conditions, with a **capped step size** that bounds the per-cycle impact on any participating brand.
+
+The mechanism is what makes HMTc a forward-moving signal rather than a static gate. As the certified market improves, the standards tighten; brands that have already invested in reduction find that their leadership is rewarded by tighter limits that exclude less-invested competitors; the population-level contamination reduction that Governing Principle 1 requires is delivered cumulatively, year over year.
+
+This chapter is the operational specification of that mechanism. Each sub-section corresponds to a clause that brand legal teams, regulators, and adversarial reviewers should be able to verify on its own terms. The full §12 specification appears below.
+
+## 12.1 Review Cycle
+
+The HMTc Infant and Child Foods Standards shall be formally reviewed on a cycle of not more than three (3) years, or sooner if significant new toxicological data, regulatory changes, or aggregate Program data warrant revision. The review is conducted by the Program Operator with input from the Technical Committee.
+
+The annual operational review (referenced throughout §12.3 below) is distinct from the formal three-year revision cycle. The annual review checks ratchet-trigger conditions and publishes the forward forecast. The three-year revision cycle reviews the methodology, the Tier 1/Tier 2 classification, the panel composition, and any structural updates to the framework.
+
+## 12.2 Directional Commitment
+
+The Standards Ratchet operates under a directional commitment: **action levels may be tightened (lowered) but shall not be loosened (raised) unless the underlying science changes in a manner that justifies relaxation.** This commitment ensures that the Program continuously drives exposure reduction and that brands can plan their improvement trajectories with confidence that the goalposts will move in only one direction.
+
+A science-based relaxation — for example, a future EFSA reassessment that meaningfully revises a metal's reference dose upward — would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
+
+## 12.3 Trigger Conditions
+
+The Standards Ratchet for a given analyte fires when **both** of the following conditions hold for two consecutive annual reviews:
+
+(a) The 80th percentile of certified Status A lot results for the analyte sits at or below 80% of the current limit.
+
+(b) At least 50% of certified Status A SKUs have lots at or below 60% of the current limit.
+
+The first condition tests aggregate market shift. The second tests breadth — the ratchet does not fire on a single large brand pulling the percentile down. Both conditions must hold across two consecutive annual reviews to confirm sustained improvement rather than a transient market event.
+
+The two-condition design is intentional. Condition (a) alone would allow a single dominant brand to drive the trigger by aggressive reformulation across many SKUs; condition (b) alone would not capture the magnitude of market shift. Together, the two conditions require that the market has moved *and* that the movement is broad-based. The two-consecutive-cycle requirement protects against transient effects (a particularly clean harvest year, a temporary supplier change) that would otherwise distort the trigger.
+
+## 12.4 Step Size and New Limit Calculation
+
+When the trigger fires, the new limit equals the **maximum of**:
+
+(a) The actual 80th percentile of certified Status A lot results for the analyte, or
+(b) 80% of the current limit.
+
+The second clause is the **step cap**. **No brand faces more than a 20% reduction per ratchet event, regardless of how far the market has actually moved.** Residual tightening above 20% is held over and may trigger again at the next cycle. This converts the ratchet from a potential shock into a predictable, capped progression.
+
+The step cap is the program's structural protection for participating brands. A brand that has invested in reduction expects to be rewarded by tighter standards that exclude competitors who have not invested; the brand does not expect to be punished by surprise tightening that exceeds its planning horizon. The 20% cap establishes a maximum per-cycle obligation that brands can model and budget against.
+
+## 12.5 Transition
+
+When standards are tightened, a transition period of not less than 12 months and not more than 18 months will be provided between announcement and enforcement.
+
+**Status A certifications grandfather for the entire transition period.** A Status A brand at certification renewal during the transition window keeps Status A even if their typical lots no longer meet the new limit, until their next annual review after enforcement begins. This protects brands who have invested in achieving Status A under the previous standard from being penalized by the standard's tightening before they have had time to respond.
+
+**Status B and Status C SKUs re-evaluate against the new limit at their next CAPA cycle.** Status B and C cannot preferentially evaluate against the old standard during the transition window — they get the more stringent of (old standard, new standard), to prevent gaming of the transition window. This prevents a brand that is already in a remediation status from "freezing" their improvement trajectory at the old standard while the rest of the program tightens.
+
+**Status D and Status E products are out regardless.**
+
+## 12.6 Forward Forecast
+
+At every annual review, the Program Operator publishes a forward forecast:
+
+> "Current 80th percentile of Status A results: X ppb. Current limit: Y ppb. If current improvement trends continue, the projected next-cycle limit is Z ppb, with expected announcement in N months and enforcement Q months after."
+
+This converts the ratchet from a surprise into a planning parameter that brands can model years in advance. A brand considering certification can review the forward forecast for the relevant category before signing the license agreement and understand the next three-to-five-year obligation profile. A brand operating under the current standard can budget reformulation against the projected next-cycle limit.
+
+The forward forecast is published in the annual Program Operator report and posted to the heavymetaltested.com Program Registry under document control. Forecasts are *projections*, not commitments — actual trigger firing depends on whether the two-condition test in §12.3 is satisfied at the time of the relevant annual review. Brands and regulators can rely on the forecast as the program's best current estimate of trajectory; the trigger conditions remain the operative test.
+
+## 12.7 Why this rule survives each Governing Principle
+
+The Standards Ratchet as specified above satisfies all five HMTc Governing Principles simultaneously:
+
+- **Principle 1 (drive contamination down through consumer demand):** The ratchet moves whenever the market actually moves, up to 20% per cycle. The market cannot stall the ratchet by collectively holding still.
+- **Principle 2 (safeguard and protect consumers):** Limits never loosen. Tightening is data-driven and cumulative.
+- **Principle 3 (safeguard and protect brands who enter the program):** Capped step size, 12–18 month transition, grandfather period during transition, published forward forecast at every cycle. Brands know the direction, the cadence, and the maximum step size in advance.
+- **Principle 4 (legal defensibility):** The rule is data-driven, two-cycle-confirmed, and transparently published with specific thresholds. Adversarial readers cannot attack it as arbitrary because every clause has a specified rationale.
+- **Principle 5 (scale to ubiquity):** Predictable cadence brands can plan around. Brands considering certification can model the next 3–5 years of obligation before they sign.
+
+A plaintiff's expert attacking the ratchet must attack one of the specific clauses — the 80th-percentile threshold, the breadth condition, the step cap, the transition period, the grandfather clause — and must explain why an alternative specification would deliver the same five-principle satisfaction. The Program-Level Adversarial Read in Part 5.2 addresses the categories of attack that the program anticipates.
+
+## Cross-references
+
+- Governing Principles (the source authority): Part 5.1 or `docs/governance/hmtc-governing-principles.md`.
+- Annual data inputs to the trigger: Part 2.7 (structured data requirement).
+- Status framework that grandfathering protects: Part 2.3.
+- Confidential Remediation Track (independent of ratchet for non-certified SKUs): Part 2.4.
+- Methodology Reference (how the initial limits were set, which the ratchet evolves): Part 5.1.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/11-regulatory-escalation.md -->
+
+# 2.11 Regulatory Escalation
+
+## Narrative
+
+HMTc certification is not a substitute for regulatory compliance. The Program's action levels are intentionally set below applicable regulatory limits so that a brand passing HMTc certification is comfortably inside the regulatory envelope. But when a tested lot reveals a regulatory limit violation — distinct from an HMTc action level exceedance — the Program's response is not graduated remediation. It is hard-stop escalation.
+
+This chapter specifies the regulatory-escalation rule and its consequences. The rule is short because the principle is simple: regulatory compliance takes absolute precedence over Program-internal status determinations.
+
+## Operational specification
+
+If any tested lot reveals a result that violates an applicable regulatory limit (as distinguished from an HMTc action level) in any jurisdiction where the product is sold, the following actions are triggered **regardless of the product's HMTc certification status:**
+
+- Immediate notification of the Licensee.
+- Mandatory product hold (if not already shipped) or market correction (if distributed).
+- CAPA initiation within 2 business days.
+- The Program Operator will not shield any Licensee from regulatory obligations and will cooperate with regulatory investigations as required by law.
+
+This escalation path is a hard-stop condition. It applies irrespective of whether the result would otherwise qualify for transitional certification under HMTc. The Program's action levels are set below regulatory limits precisely to prevent this scenario, but when it occurs, **regulatory compliance takes absolute precedence.**
+
+## Why this rule is structural rather than discretionary
+
+A regulator reading this chapter should understand that HMTc is not a shadow regulatory regime. Brands that violate FDA action levels for lead in baby foods, EU maximum levels under Regulation 2023/915, or any other operative regulatory threshold cannot use HMTc enrollment to defer the regulator's response. The Program Operator's enforcement-cooperation obligation is contractually binding under the license agreement.
+
+A brand legal team should understand the corollary: the Program is designed so that brands that pass HMTc certification are confidently inside the regulatory envelope. A brand that triggers a §2.11 escalation has not just exceeded an HMTc limit; they have produced a lot that, on the merits, was already a regulatory violation regardless of HMTc status. The escalation rule does not create a new violation; it acknowledges an existing one and ensures that Program-internal processes do not slow the brand's regulatory response.
+
+The §2.11 rule is the operational expression of Governing Principle 4 (legal defensibility). A program whose internal status determinations conflicted with regulatory action would fail the principle on its first regulatory inquiry.
+
+## Cross-references
+
+- Action levels not safety thresholds (the foundational framing): Part 2.1.
+- Data governance (regulatory-cooperation obligations): Part 2.7.
+- License agreement summary (regulatory-cooperation contractual language): Part 5.6.
+- The Regulatory Trigger Level (RTL) definition: Part 5.3 Glossary.
+
+
+
+<!-- data/workbench/standards-book/parts/02-the-hmtc-program/12-appeals-and-document-control.md -->
+
+# 2.12 Appeals, Reinstatement, and Document Control
+
+## Narrative
+
+Every certification program requires three procedural mechanisms that operate independently of the operational rules: a way for a Licensee to challenge a status determination they believe is incorrect; a defined path back into the Program for a Licensee whose certification has been suspended or revoked; and a document-control regime that ensures the rules governing a decision are unambiguous at the time the decision is made.
+
+This chapter specifies all three. The mechanisms are procedural rather than substantive — they govern how the Program responds to disagreement, recovery, and document evolution, not what the underlying standards or determinations are. Together, they ensure that brands are treated fairly within the Program's framework and that the rules in force at the time of any decision are knowable, traceable, and applied consistently.
+
+## 14.1 Appeals Process
+
+A Licensee may appeal any certification status decision by submitting a written appeal to the Program Operator within 10 business days of notification. The appeal must include:
+
+- The technical or factual basis for disagreement; and
+- Supporting evidence (laboratory data, chain-of-custody records, methodology documentation, or analogous materials).
+
+The Program Operator will review the appeal and may convene the Technical Committee. During an appeal, the originally assigned status remains in effect unless the Program Operator grants temporary relief. Temporary relief is exceptional and is granted only when the originally assigned status would impose disproportionate harm relative to the strength of the appeal — for example, when chain-of-custody documentation suggests sample mishandling and the decision would otherwise impose Status C consequences pending resolution.
+
+The Technical Committee reviews appeals involving methodological or interpretive questions. Operational appeals (testing logistics, sampling disputes, laboratory selection) are reviewed by the Program Operator directly. The standard for granting an appeal is whether the originally assigned status reflects the correct application of this Policy and the Lot Testing Schedule to the actual facts of the case.
+
+## 14.2 Reinstatement After Suspension or Revocation
+
+Reinstatement requires:
+
+- Completion of CAPA with verified effectiveness (per Part 2.8);
+- A defined number of consecutive compliant lots (set case-by-case by the Program Operator); and
+- Restored data integrity (per Part 2.7).
+
+The Program Operator determines specific reinstatement requirements on a case-by-case basis. The specific number of compliant lots, the depth of CAPA review, the extent of independent verification, and the timeline are calibrated to the severity and nature of the original nonconformance.
+
+Revocation (Status E) requires **full re-application to the Program** at the Program Operator's discretion. A brand whose license was revoked for data integrity violations or willful misconduct faces the highest reinstatement bar; the Program Operator's discretion to refuse re-application is broad. This is consistent with Part 2.3's framing: Status E is the program's mechanism for terminating relationships that cannot be repaired through standard remediation.
+
+## 14.3 Document Precedence
+
+In the event of any discrepancy between documents within the HMTc Program (including between this Program Manual, the Governance Policy, and the Lot Testing Schedule), the Program Operator will issue a formal Technical Clarification.
+
+Until such clarification is issued, the **more conservative interpretation governs.** "More conservative" means the interpretation that results in stricter limits, tighter testing requirements, or more rigorous CAPA obligations. This default ensures that ambiguity in the document set does not advantage a Licensee at the consumer's expense.
+
+The Program Operator maintains the operative version of each controlled document under document control with version numbers, effective dates, and change logs. The version in effect at the time of a certification decision governs that decision. Subsequent revisions do not retroactively alter prior decisions.
+
+All revisions are managed under document control procedures with transition periods for new requirements. Material changes — those that would alter eligibility, testing frequency, status criteria, or CAPA obligations — receive minimum transition periods consistent with the Standards Ratchet's 12-to-18-month rule in Part 2.10.
+
+## 14.4 Conflict of Interest
+
+Individuals involved in certification determinations shall be free from conflicts of interest with the Licensee under review. The Program Operator maintains impartiality and objectivity throughout the certification process. Appeal and special committee members shall be independent from the day-to-day business decisions of the affected Licensee.
+
+The conflict-of-interest standard applies at the individual level (no individual reviewer with a financial interest in or personal relationship to the Licensee may participate in their certification or appeal proceedings) and at the institutional level (the Paleo Foundation discloses any institutional relationships that could create the appearance of conflict). The Standards Architect's dual role as Paleo Foundation CEO is disclosed publicly in the Colophon (Part 5.7) and addressed in the Program-Level Adversarial Read (Part 5.2) on the merits.
+
+## Closing of Part 2
+
+Part 2 has now specified the HMTc Program in its operational form. A reader who has worked through chapters 2.0 through 2.12 can:
+
+- Trace a SKU's lifecycle from inquiry to ratchet review via the program-flow diagram (2.0).
+- Understand the program's foundational principles and international scope (2.1).
+- Locate any analyte in the Tier 1/Tier 2 classification and understand its enforcement consequence (2.2).
+- Read the five-status framework with its eligibility criteria, mark-usage permissions, testing frequencies, CAPA requirements, and escalation paths (2.3).
+- Understand the Confidential Remediation Track and its legal-defensibility role (2.4).
+- Apply mark-usage rules and anti-arbitrage provisions (2.5).
+- Operate the two-sided measurement-uncertainty decision rule (2.6).
+- Comply with structured-data and data-integrity requirements (2.7).
+- Initiate and close CAPAs according to status-specific timelines (2.8).
+- Receive and respond to supplier-intelligence alerts (2.9).
+- Plan against the Standards Ratchet trigger conditions, step cap, transition rules, and forward forecast (2.10).
+- Handle regulatory escalation as a hard-stop condition (2.11).
+- Appeal status determinations, recover from suspension, and operate under document control (2.12).
+
+Part 2.5, which follows, demonstrates how brands and QA teams use heavymetalindex.com — the public corpus introduced in Part 1.5 — as an active operational tool. Part 3 publishes the per-product standards.
+
+
+
+<!-- data/workbench/standards-book/parts/03-using-heavymetalindex-com/01-using-heavymetalindex-com.md -->
+
+# Part 2.5 — Using heavymetalindex.com
+
+Part 1.5 introduced heavymetalindex.com as the public curated corpus of the heavy-metals-in-food literature that HMTc's standards rest on. That chapter established the architectural separation between HMI and the certification program and explained why the separation produces durable epistemic authority. This chapter is the operational complement: it demonstrates how brand QA teams, brand legal teams, and certification auditors **use** the corpus day-to-day in the course of operating under HMTc.
+
+The chapter has four sections. The first three describe how the corpus serves brand operations today; the fourth describes a roadmap capability — the brand-facing percentile-placement dashboard — that is on the program's near-term build path and that brands considering certification should expect to come online during their first license cycle.
+
+This chapter exists for a strategic reason. The certification mark is the program's visible signal; the corpus is the program's value engine. A reader who finishes Part 2.5 should understand that HMTc is not just a certification mark backed by a methodology, but a certification mark backed by a continuously-maintained operational tool that brand QA teams lean on. That distinction is what separates HMTc from any single-point certification.
+
+## 2.5.1 The diagnostic tool
+
+When a brand's lot tests come back with one or more analytes elevated above their typical range — even when still within the HMTc limit — the brand's first operational question is: *why*? Random analytical noise, a seasonal supplier shift, a new ingredient lot, a process change that wasn't documented as material, an upstream supply-chain event the brand has not yet been alerted to? The diagnostic tool is the relevant ingredient pages on heavymetalindex.com.
+
+Each ingredient page on HMI carries a structured `contamination_profile` block summarizing what the literature says about typical and 95th-percentile concentrations for each priority metal in that commodity, with three additional structured layers:
+
+- **Geographic variance** — typical concentration ranges by growing region, with sample sizes from contributing sources. A brand sourcing cocoa from Ecuador can see what the published literature reports for Cd in Ecuadorian cocoa specifically, distinguished from Cd in cocoa from Côte d'Ivoire, Ghana, or Indonesia.
+- **Seasonal variance** — concentration ranges by harvest period and climate condition, where the literature reports them. The El Niño years 2015–2016 and 2023 are documented as drought-stress periods that elevate Cd uptake in Ecuadorian cocoa by roughly 40% above non-El-Niño baselines.
+- **Processing effects** — how polishing, rinsing, parboiling, fermentation, drying, milling, and refining shift concentrations of which metals. Each processing-effect claim is anchored to a cited source.
+
+### Worked example
+
+A brand producing chocolate-flavored toddler snack pouches sees their July 2026 lot test return Cd at 240 ppb against an HMTc limit of 350 ppb. The result is within limit, but it is meaningfully higher than the brand's typical 90 ppb baseline. Brand QA opens `heavymetalindex.com/ingredients/cocoa`, navigates to the Cd contamination_profile block, and finds:
+
+- Typical Cd range across all reported cocoa: 80–240 ppb (p95: 410 ppb).
+- Geographic breakdown shows Ecuadorian high-altitude cocoa at 220–540 ppb (n=87 from one peer-reviewed source) versus Ghanaian cocoa at 70–210 ppb (n=92 from a separate source).
+- Seasonal variance shows Ecuadorian cocoa during El Niño years at 180–620 ppb (n=41), running roughly 40% above non-El-Niño baselines.
+
+The brand cross-references their supplier records: their June 2026 cocoa lot was sourced from a new Ecuadorian high-altitude supplier (replacing their typical Ghanaian supplier due to a price shift), and the 2025-2026 El Niño cycle was active during the relevant harvest period. The diagnostic answer is clear, traceable to the literature, and actionable: source verification on the new supplier, possibly a return to the Ghanaian supplier or a regional diversification of cocoa sourcing.
+
+This diagnostic conversation happened in twenty minutes using the corpus. It would have taken brand QA days of supplier outreach and ingredient testing to reach the same conclusion working from scratch.
+
+## 2.5.2 The remediation playbook
+
+Each ingredient page on HMI carries a Mitigation Options section ranked by impact magnitude. The categories are: sourcing levers (origin region, supplier specification, soil-Cd or paddy-iAs pre-screening); agronomic levers (soil amendments, water management, cultivar selection); processing levers (rinsing, polishing, fermentation, drying); formulation levers (substitute or dilute); testing and QC levers (lot-level vs. spot-check, internal vs. third-party); and packaging and storage levers where relevant.
+
+Each lever entry names the magnitude of the effect on the metal in question and cites the source page that establishes the effect. A brand reading the cocoa ingredient page's Mitigation Options finds, for Cd:
+
+- **Sourcing level (highest impact):** regional substitution from Ecuadorian high-altitude to Ghanaian or West African low-altitude supply can reduce typical Cd by 60-70% (anchored to comparative studies cited on the page).
+- **Agronomic level:** soil-Cd pre-screening of farmer plots before harvest contracting can reduce supplier-batch variance by 40-50%.
+- **Processing level:** fermentation duration and pH adjustments during cocoa processing can shift Cd uptake by 15-25%.
+- **Formulation level:** dilution with lower-Cd ingredients reduces final-product Cd proportionally (a 50/50 blend of high-Cd and low-Cd cocoa typically produces ~50% of the high-Cd value, allowing for ingredient interactions documented in the cited sources).
+- **Testing and QC level:** lot-by-lot incoming-cocoa testing with rejection thresholds at the 80% PoL internal warning level can prevent elevated lots from entering production.
+
+Brand QA can read the cited sources for each lever, evaluate which fit their operational reality (sourcing changes have long lead times; processing changes have capital implications; formulation changes have R&D and labeling implications), and assemble a defensible reformulation plan. The remediation pathway becomes a reading exercise, not a research project.
+
+For brands enrolled in the Confidential Remediation Track, this is the daily operational tool the Track's technical guidance points them to. The Track's value is not opacity but accelerated access to the same evidence base that successful Status A brands have already used to reduce their contamination profiles.
+
+## 2.5.3 Percentile placement (roadmap)
+
+A future capability on the HMTc roadmap is the brand-facing percentile-placement dashboard. The dashboard will allow a brand with a license to log into the heavymetaltested.com platform and see, in real time:
+
+- Where their lot results sit relative to the pooled distribution of all certified Status A SKUs for the same product category and metal. A brand's lot at 12 ppb Pb in a category with a 30 ppb HMTc limit and a Status A median of 8 ppb sees themselves at "P67 of certified Status A pool" — better than two-thirds of certified competitors, worse than one-third.
+- Their trend over time, with the pool's distribution overlay. Is the brand improving faster than the certified market, slower, or at the same pace? Is the brand's percentile placement getting better or worse as the certified pool tightens around them?
+- The projected next-cycle limit (per Part 2.10's forward forecast) overlaid on their current lot trajectory. Will the brand's current trajectory clear the projected next-cycle limit before enforcement, or will the brand need to accelerate reduction?
+
+This is the operational expression of the Standards Ratchet's planning-tool framing. A brand that knows where they sit and where they are heading can budget reformulation against actual data rather than abstract limits. A brand that is at the cleaner end of the certified pool sees their leadership reflected in real time; a brand at the dirtier end of the pool sees the urgency of their reformulation runway.
+
+The dashboard is a roadmap capability rather than a current operational feature. Brands considering certification should expect the dashboard to come online during their first license cycle; brands currently certified will receive access as the capability ships. The roadmap is named here so that brands evaluating HMTc understand the operational trajectory they are signing up for, not just the standards they are signing up against.
+
+## 2.5.4 The pre-certification baseline
+
+Before a brand signs an HMTc license agreement, the brand can use heavymetalindex.com to model their pre-certification baseline. The exercise is straightforward and takes one to two hours per product category.
+
+The brand identifies the product-category page on HMI that matches their SKU (one of the fifteen Category 1 pages, or a Category 2+ page when those come online). The product-category page carries a Master Limit Table previewing what the HMTc limit would be for each priority analyte, the applicable regulatory cap, and the basis note. The brand cross-references this against their internal testing data, if any, or against the relevant ingredient pages' contamination_profile blocks if no internal data exists.
+
+This pre-certification exercise tells the brand:
+
+- Whether their current production is likely to qualify for Status A immediately (most metals at or below the HMTc limit), Status B (one or more Tier 2 metals between 100% and 150% PoL), or only the Confidential Remediation Track.
+- Which metals are closest to the limit — the analytes most likely to drive a status determination.
+- Which ingredients in their formulation are the likely contributors — sourcing lever candidates.
+- What the rough magnitude of reformulation effort would be — small adjustments versus full sourcing-chain restructuring.
+
+A brand whose pre-certification baseline suggests Status A or B can sign the license with reasonable confidence about their initial status. A brand whose pre-certification baseline suggests Status C-or-worse can sign the license with the understanding that the Confidential Remediation Track is their entry path, and can begin the technical-guidance conversations with the Program Operator before formal enrollment. Either way, the brand enters the program with their eyes open and their reformulation strategy informed by the same evidence base the Program Operator is using to set their limits.
+
+This is the closing argument for the chapter and for the corpus's role in the Program. The HMTc certification mark is the visible signal. The HMI corpus is the operational tool that brand QA, brand legal, and brand management use to plan, diagnose, remediate, and verify the certification effort. The two work together; neither alone would be sufficient. Part 3 publishes the standards that the corpus supports; Part 4 specifies the testing schedule that operationalizes the surveillance; Part 5 documents the methodology that the corpus feeds. The bound volume in front of the reader is the program's specification; heavymetalindex.com is where the program lives.
+
+## Cross-references
+
+- The corpus's structure and the wiki/HMTc firewall: Part 1.5.
+- The product-category pages corresponding to Part 3's per-product chapters: `wiki/products/*` on heavymetalindex.com.
+- The ingredient pages with contamination profiles, geographic variance, seasonal variance, and Mitigation Options: `wiki/ingredients/*` on heavymetalindex.com.
+- The metal pages with toxicology, exposure routes, and regulatory limits: `wiki/metals/*` on heavymetalindex.com (the toxicology callouts in Part 2.2 reference these directly).
+- The Standards Ratchet forward forecast: Part 2.10.
+- The Confidential Remediation Track: Part 2.4.
+
+
+
+<!-- data/workbench/standards-book/parts/04-the-standards/00-introduction.md -->
+
+# Part 3 — The Standards
+
+This Part publishes the per-category HMTc standards for the fifteen product chapters covered by the 2026 Edition. Each chapter is self-contained enough to function as a licensing exhibit detached from the bound volume; when a brand licenses HMTc certification for a specific product, the relevant chapter is attached as an exhibit to the licensing agreement and stands on its own.
+
+## Structure of each chapter
+
+Each Part 3 chapter contains:
+
+- **Master Limit Table** — the ten priority analytes (eight metals plus speciated iAs and MeHg where applicable), each with the HMTc action level, the applicable regulatory cap (FDA / EU / state, lowest applicable), and a basis note clarifying which value binds (literature-baseline / regulatory-alignment / precautionary / feasibility-driven).
+- **Methodology summary** — the per-analyte percentile mechanism (P97 clean / P45 dirty per the Governing Principles), the row-pass calibration intent (90% clean platform / 30% dirty platform achieving Status A), and the regulatory-cap-as-ceiling rule.
+- **Per-analyte sections** — for the priority metals in this category (those closest to limits or most consequential for the matrix), a focused per-analyte narrative covering: HMTc limit and rationale; cited literature evidence anchoring the limit; toxicology callout (drawn from the canonical metal page on heavymetalindex.com per Part 5.3 Glossary); regulatory cross-reference; and applicable speciation requirement.
+- **Adversarial Read for this product** — the categories of attack a plaintiff's expert or hostile reviewer might advance against this specific product's standards, and the program's response on the merits. (Program-level attacks that apply across all categories are addressed in Part 5.2 rather than duplicated per-chapter.)
+- **Sources Cited** — chapter-scoped citations resolving to source pages on heavymetalindex.com. Numbered aliases for inline use.
+- **Provenance Footer** — chapter-scoped: the pooled-distribution row hash, the briefing-generator commit, and the generation timestamp.
+
+## Chapter list
+
+| # | Chapter | Source | Status |
+|---|---|---|---|
+| 3.1 | Infant Formula, Powder (Non-Soy) | `data/workbench/briefings/infant-formula-powder-non-soy.md` | Pending Part 3 retemplate |
+| 3.2 | Infant Formula, Powder (Soy-Based) | `data/workbench/briefings/infant-formula-powder-soy-based.md` | Pending Part 3 retemplate |
+| 3.3 | Infant Formula, Ready-to-Feed Liquid (Non-Soy) | `data/workbench/briefings/infant-formula-rtf-liquid-non-soy.md` | Pending Part 3 retemplate |
+| 3.4 | Infant Formula, Ready-to-Feed Liquid (Soy-Based) | `data/workbench/briefings/infant-formula-rtf-liquid-soy-based.md` | Pending Part 3 retemplate |
+| 3.5 | Baby Cereals, Dry (Rice-Based) | `data/workbench/briefings/baby-cereals-dry-rice-based.md` | Pending Part 3 retemplate |
+| 3.6 | Baby Cereals, Dry (Non-Rice) | `data/workbench/briefings/baby-cereals-dry-non-rice.md` | Pending Part 3 retemplate |
+| 3.7 | Fruit Purées | `data/workbench/briefings/fruit-purees.md` | Pending Part 3 retemplate |
+| 3.8 | Non-Root Vegetable Purées | `data/workbench/briefings/non-root-vegetable-purees.md` | Pending Part 3 retemplate |
+| 3.9 | Root-Vegetable Purées | `data/workbench/briefings/root-vegetable-purees.md` | Pending Part 3 retemplate |
+| 3.10 | Meat and Poultry Purées | `data/workbench/briefings/meat-and-poultry-purees.md` | Pending Part 3 retemplate |
+| 3.11 | Fish-Containing Baby Foods | `data/workbench/briefings/fish-containing-baby-foods.md` | Pending Part 3 retemplate |
+| 3.12 | Mixed Meals (Rice-Containing) | `data/workbench/briefings/mixed-meals-rice-containing.md` | Pending Part 3 retemplate |
+| 3.13 | Mixed Meals (Non-Rice) | `data/workbench/briefings/mixed-meals-non-rice.md` | Pending Part 3 retemplate |
+| 3.14 | Teething and Snacks (Rice-Based) | `data/workbench/briefings/teething-and-snacks-rice-based.md` | Pending Part 3 retemplate |
+| 3.15 | Teething and Snacks (Non-Rice) | `data/workbench/briefings/teething-and-snacks-non-rice.md` | Pending Part 3 retemplate |
+
+## Editorial note
+
+The fifteen chapters above exist today as Standards Briefings in `data/workbench/briefings/`. Each briefing is a complete, regression-tested document covering the Master Limit Table, per-analyte rationale, adversarial read, anti-circumvention argument, 9-gate pre-publication checklist, sources cited, and provenance footer. The briefings carry the substantive content required for Part 3.
+
+The retemplating work — inserting the toxicology callouts (per Part 2.2 and Part 5.3 Glossary), pruning the workbench-side engine arithmetic (per the wiki/HMTc firewall), aligning section headings to the bound-manual template, and standardizing source citation format — is mechanical work scheduled for the next session in the Program Manual build sequence (see the project plan).
+
+For the v0-pre-audit build of this manual, Part 3 is represented by this introduction and the briefing files referenced above. The v0 build assembles the source material so adversarial-audit work in Pre-work 6 can begin while Part 3 is retemplated in parallel. The audit-strengthened v0 of the bound manual will include the fifteen retemplated chapters in their final form.
+
+## Cross-references
+
+- Master percentile methodology that produced the limit tables: Part 5.1 (How HMTc Standards Are Set) and Governing Principles.
+- Toxicology callouts referenced from each chapter: Part 5.3 (Glossary) with canonical reviews on heavymetalindex.com.
+- Program-level adversarial read (counterpart to per-product reads in each chapter): Part 5.2.
+- Testing schedule that operationalizes surveillance for each product category: Part 4.
+
+
+
+<!-- data/workbench/standards-book/parts/05-the-lot-testing-schedule/00-introduction.md -->
+
+# Part 4 — The Lot Testing Schedule
+
+The Lot Testing Schedule is the operational manual that translates the Governance Policy's status framework (Part 2.3) and certification rules into the specific testing frequency, sampling methodology, speciation requirements, reflex triggers, and decision criteria that govern day-to-day Program operation. It is the companion document to Part 2 of this manual and is reproduced here in full so that Part 4 stands as the operational reference brand QA, certification auditors, and Program operations personnel use without needing to consult a separate document.
+
+The Lot Testing Schedule is under independent version control as a controlled document. The version reproduced here is canonical as of the publication date of this manual edition. When the Schedule is revised between editions, the canonical version remains available at the Paleo Foundation's controlled-document registry; this manual edition's reproduction is authoritative as of binding, and the Program Operator will issue a Technical Clarification to resolve any operational discrepancy between this manual and a more recent Schedule revision.
+
+The full content of the Lot Testing Schedule appears below, reproduced from `data/workbench/standards-book/source-documents/lot-testing-schedule.md`. The Schedule's fourteen sections cover: Purpose and Scope (§1); Product Risk Tiers and adjustments (§2); Testing Frequency by Status × Risk Tier (§3); Baseline Testing for Program Entry (§4); Status A, B, and C Surveillance Protocols (§5–7); Reflex Testing Triggers and Protocol (§8); Speciation Requirements (§9); Sampling Methodology and Chain-of-Custody (§10); Decision Rules and Status Assignment (§11); CAPA Timelines Summary (§12); Enhanced Controls and Best Practices (§13); and Document Review and Revision (§14).
+
+---
+
+*[Reproduction of the Lot Testing Schedule begins on the next page. The full source document is at `data/workbench/standards-book/source-documents/lot-testing-schedule.md` and is concatenated into the bound manual by the build pipeline; in this v0-pre-audit assembly the Schedule is referenced rather than inlined to keep the manual draft readable. The audit-strengthened v0 inlines the full Schedule content under the build's `npm run manual` flow.]*
+
+## Cross-references
+
+- Status framework that drives testing frequency: Part 2.3.
+- Decision rules under measurement uncertainty (applied to all lot results): Part 2.6.
+- Reflex trigger from Supplier Intelligence Alerts: Part 2.9.
+- CAPA initiation timelines correspondence: Part 2.8.
+- Sampling, chain-of-custody, and laboratory requirements operational source: this Part.
+
+
+
+<!-- inlined from data/workbench/standards-book/source-documents/lot-testing-schedule.md -->
+
+
+**Heavy Metal Tested & Certified — Infant and Child Foods Standards Program**
+
+*Companion Document to the HMTc Governance Policy*
+
+**Document Owner:** Program Operator / The Paleo Foundation
+**Effective Date:** May 2026
+**Controlled Document:** Uncontrolled When Printed
+
+---
+
+## 1. Purpose and Scope
+
+This Lot Testing Schedule establishes the defensible, risk-tiered testing strategy for all products certified or enrolled under the HMTc Program. It defines the testing frequency, sampling methodology, speciation requirements, reflex triggers, and decision criteria for each certification status, product risk tier, and lot condition. This document operationalizes the governance framework set forth in the HMTc Governance Policy and is intended for use by quality teams, operations personnel, certification auditors, and the Program Operator.
+
+The testing strategy is designed around three core principles: **legal defensibility** (every test, schedule, and decision rule must withstand scrutiny from regulators, auditors, and plaintiffs' attorneys); **scientific rigor** (testing protocols reflect current analytical best practices and are grounded in exposure science); and **commercial pragmatism** (testing frequency is proportionate to risk, avoiding unnecessary burden on compliant brands while intensifying oversight where needed).
+
+---
+
+## 2. Product Risk Tiers
+
+Testing frequency under this Schedule is determined by both the product's certification status and its risk tier. Risk tiers are assigned based on the product's typical consumption frequency, volume relative to body weight, and the degree to which it may serve as a sole or dominant food source for the target population.
+
+### 2.1 Risk Tier Definitions
+
+**2.1.1 High-Risk Categories.** Products that may serve as a sole-source or dominant food for infants, consumed in high volume relative to body weight, often multiple times daily. A testing gap in these categories creates the highest exposure risk.
+
+- Infant formula (powder and ready-to-feed)
+- Baby cereals and dry grain products
+
+**2.1.2 Moderate-Risk Categories.** Products consumed regularly but typically as part of a diversified diet, at moderate volume relative to body weight.
+
+- Fruit purees
+- Non-root vegetable purees
+- Root-vegetable purees
+- Mixed meals
+
+**2.1.3 Lower-Risk Categories.** Products consumed occasionally or intermittently, at lower volumes relative to body weight, and not typically a dominant dietary component.
+
+- Fruit juice (non-canned)
+- Teething and snack products
+
+### 2.2 Risk Tier Adjustments
+
+The Program Operator may adjust a specific product's risk tier based on factors including but not limited to: production volume, historical testing results, known ingredient risk profiles, and consumption data. For example, a teething product made primarily from rice (a high-risk ingredient for arsenic) may be elevated to Moderate-Risk for testing purposes. Risk tier adjustments are documented and communicated to the Licensee.
+
+---
+
+## 3. Testing Frequency by Status and Risk Tier
+
+The following table defines the minimum testing frequency for routine surveillance. The Program Operator may increase frequency at any time based on risk signals, audit findings, or trend analysis. All testing follows the full heavy metals panel unless otherwise specified.
+
+| Status | High-Risk | Moderate-Risk | Lower-Risk | Hold & Release | Independent Sampling |
+|---|---|---|---|---|---|
+| Status A | Monthly | Quarterly | Quarterly | Not required | Yes (per schedule) |
+| Status B | Every lot or monthly (whichever is more frequent) | Monthly | Monthly | Recommended | Yes, monthly |
+| Status C (Low: 150–175%) | Every lot | Every lot | Every lot | Mandatory | Yes, every lot |
+| Status C (High: 175–200%) | Every lot | Every lot | Every lot | Mandatory | Yes + 3rd-party sampling |
+
+### 3.1 Key Definitions
+
+**Independent Sampling:** Samples are collected and submitted to the laboratory by a party independent of the brand's production team. This may be the Program Operator, a designated third-party auditor, or another party approved by the Program Operator. Independent sampling ensures the integrity of the surveillance protocol and provides evidence that testing was not subject to selection bias.
+
+**Hold-and-Release:** The finished product lot is physically quarantined and may not ship until laboratory results are received and the lot is confirmed to meet at minimum the applicable status criteria. Hold-and-release procedures must include documented quarantine location, responsible personnel, and release authorization records.
+
+**Third-Party Sampling (High Probation):** In addition to the brand's own testing, the Program Operator directs independent sampling by a designated third party at the brand's expense. This provides a second, fully independent data point and is required when MaxPoL has reached 175–200% to ensure data integrity under heightened risk conditions.
+
+---
+
+## 4. Baseline Testing (Program Entry)
+
+All SKUs entering the HMTc Program must undergo baseline testing across three (3) production lots before any certification status is assigned. Baseline testing establishes the product's heavy metal profile, identifies which metals are closest to limits, and provides the data foundation for status assignment and ongoing surveillance design.
+
+### 4.1 Baseline Testing Requirements
+
+- Three lots must be tested, each representing a distinct production run (different dates, shifts, or ingredient lots where possible).
+- Each lot is tested for the full heavy metals panel (all eight priority metals).
+- Speciation testing is performed where required by the Standards methodology (inorganic arsenic for rice-containing products; methylmercury for fish-containing products; hexavalent chromium where a credible pathway exists).
+- Sampling follows the composite method: each analytical sample is a composite drawn from multiple consumer units across the lot.
+- Chain-of-custody documentation is required for all baseline samples.
+
+### 4.2 Baseline Status Assignment
+
+The three-lot baseline results are evaluated collectively. The initial certification status is assigned based on the worst-performing lot among the three, subject to the decision rules and Tier 1/Tier 2 metal classifications defined in the Governance Policy. If one lot is Status A and another is Status B, the initial assignment is Status B with the CAPA and elevated surveillance obligations that entails.
+
+---
+
+## 5. Status A: Routine Surveillance Protocol
+
+Status A products have demonstrated full compliance (MaxPoL at or below 100% for all analytes). The surveillance protocol is designed to confirm continued compliance and detect any upward drift before it reaches actionable levels.
+
+### 5.1 Testing Frequency
+
+- **High-Risk Categories** (formula, cereals): Monthly testing via independent sampling.
+- **Moderate-Risk Categories** (purees, mixed meals): Quarterly testing via independent sampling.
+- **Lower-Risk Categories** (juice, snacks): Quarterly testing via independent sampling.
+
+### 5.2 Trend Monitoring
+
+The Licensee must perform a formal trend analysis of heavy metal results at least quarterly. This analysis should use control charts or equivalent statistical methods to identify any upward trajectory in concentrations, even if all results remain below limits. The Program Operator may request submission of trend data as part of routine oversight.
+
+### 5.3 Internal Warning Trigger
+
+If any analyte result on routine surveillance reaches or exceeds 80% of its HMTc limit (80% PoL), the following actions are triggered even though the result is technically compliant:
+
+- Confirmatory testing of the next available lot for the affected analyte.
+- Enhanced monitoring: the Licensee should investigate whether the elevated result reflects a trend or an isolated event.
+- For Tier 1 metals approaching 80% of limits, the Program Operator should be notified and speciation testing (if applicable) should be performed regardless of whether the standard speciation trigger has been met.
+
+### 5.4 Lot Release
+
+Hold-and-release is not mandatory for Status A products, but it is strongly recommended that the Licensee hold any lot selected for testing until results are received. If a routine surveillance lot unexpectedly fails, the lot must be isolated and the noncompliance procedures activated immediately.
+
+---
+
+## 6. Status B: Elevated Surveillance Protocol
+
+Status B products have a transitional exceedance on one or more Tier 2 metals (MaxPoL above 100% but at or below 150%). The elevated surveillance protocol is designed to monitor the effectiveness of CAPA actions and confirm an improving trend.
+
+### 6.1 Testing Frequency
+
+- **High-Risk Categories:** Every lot or monthly, whichever is more frequent. If a brand produces more than one lot per month in a high-risk category, every lot is tested.
+- **Moderate-Risk Categories:** Monthly independent sampling.
+- **Lower-Risk Categories:** Monthly independent sampling.
+
+### 6.2 Hold-and-Release
+
+Hold-and-release is not mandated for Status B but is strongly recommended, particularly for the first several lots following CAPA implementation. The Licensee should coordinate production and testing so that results are available before product is widely distributed. If a tested lot exceeds the 150% transitional cap or involves a Tier 1 metal exceedance, the lot may not be released as certified.
+
+### 6.3 Progress Monitoring
+
+Every lot tested during Status B provides data to gauge improvement. The quality team must trend consecutive results and submit periodic progress reports to the Program Operator. The CAPA's interim reduction targets (e.g., "next lot will be at or below 120% PoL; within 6 months, at or below 100%") are tracked against actual results. The Program Operator may conduct interim reviews to verify that the CAPA is being executed and that results are trending downward.
+
+### 6.4 Escalation
+
+If any lot tested during Status B meets any of the following conditions, the SKU is immediately escalated to Status C:
+
+- MaxPoL exceeds 150% for any analyte.
+- Any Tier 1 metal exceeds 100% of its limit.
+- Two or more consecutive lots show no improvement or worsening results relative to the baseline.
+- The Licensee fails to initiate or execute CAPA within required timelines.
+
+---
+
+## 7. Status C: Probation Surveillance Protocol
+
+Status C products are on probation due to significant exceedances, repeated non-improvement, or Tier 1 metal violations. The probation protocol is designed to provide maximum oversight and prevent any noncompliant product from reaching consumers while the brand executes corrective actions.
+
+### 7.1 Testing Frequency
+
+All Status C products, regardless of risk tier, are tested every lot. There are no exceptions to this requirement during probation. The Program Operator may additionally require split-sample testing (simultaneous analysis by two independent laboratories) for high-value or high-visibility products.
+
+### 7.2 Hold-and-Release (Mandatory)
+
+Hold-and-release is mandatory for all Status C products. No product may leave the quarantine area until laboratory results are received and the lot is confirmed to meet at least Status A or Status B criteria. The Probation Lot Release Plan (documented in the CAPA) must specify: the physical quarantine location and procedures; the designated personnel authorized to release lots; the laboratory being used and expected turnaround time; the pass criteria for release (Status A or B); and the fail handling procedures (rework, downgrade to non-certified, sticker-over, or withdrawal).
+
+### 7.3 Graduated Probation Controls
+
+As defined in the Governance Policy, Status C is differentiated by severity:
+
+**Low Probation (MaxPoL 150–175%):** Every-lot testing with hold-and-release. The brand's own accredited laboratory sampling is permitted, subject to Program Operator audit rights. The Program Operator may conduct unannounced verification sampling.
+
+**High Probation (MaxPoL 175–200%):** Every-lot testing with hold-and-release, plus mandatory independent third-party sampling directed by the Program Operator. The third-party sampler collects samples independently of the brand's quality team and submits them directly to a Program-designated laboratory. This dual-track approach ensures data integrity under heightened risk conditions.
+
+### 7.4 Exit Criteria
+
+To exit probation, the brand must satisfy both of the following conditions:
+
+- Produce a minimum of five (5) consecutive lots that individually test at Status A or Status B levels, demonstrating that the product can consistently meet standards under real production conditions. The Program Operator may require more than five consecutive lots depending on the severity and nature of the original nonconformance.
+- Complete all CAPA milestones and demonstrate Verification of Effectiveness through documented follow-up testing. The corrective and preventive measures must be shown to have achieved their intended result.
+
+---
+
+## 8. Reflex Testing Triggers and Protocol
+
+Reflex testing is any test conducted outside the routine surveillance schedule in response to a defined trigger event. Reflex tests carry the same weight as routine surveillance results and are subject to the same decision rules and status implications.
+
+### 8.1 Trigger Events
+
+The following events require reflex testing of all affected SKUs:
+
+| Trigger Category | Specific Triggers | Testing Requirement |
+|---|---|---|
+| Ingredient Changes | New ingredient, new supplier, change in ingredient origin or grade | Full panel on next 2 lots after change |
+| Water Source Changes | New municipal source, well change, treatment system modification | Full panel on next 2 lots after change |
+| Equipment Changes | New processing equipment contacting product, equipment repairs involving metal surfaces | Full panel on next lot after change |
+| Packaging Changes | New packaging material, new packaging supplier, change in liner or closure | Full panel on next 2 lots (to assess migration over time) |
+| Formulation Changes | Any change in ingredient ratios, addition or removal of ingredients | Full panel on next 2 lots after change |
+| Process Changes | Changes in contact time, temperature, pH, mechanical stress, or processing sequence | Full panel on next lot after change |
+| Upstream Supplier Notification | Supplier notifies of change in their own sourcing or processing | Full panel on next lot using affected ingredient |
+| Surveillance Warning | Any Tier 1 metal result at or above 80% PoL on routine testing | Confirmatory test on next lot; speciation if applicable |
+| Supplier Intelligence Alert | Program Operator issues anonymized alert regarding a supplier or ingredient category | Full panel on next lot using flagged ingredient or supplier |
+
+### 8.2 Reflex Testing Protocol
+
+Reflex tests must use the full heavy metals panel and follow all standard sampling and chain-of-custody requirements. Results are evaluated under the same decision rules (including measurement uncertainty) as routine surveillance. If a reflex test reveals a nonconformance, the applicable status transition and CAPA requirements are triggered immediately, regardless of where the product currently sits in the routine testing cycle.
+
+---
+
+## 9. Speciation Requirements
+
+Speciation analysis determines the specific chemical form of a metal present, which is critical for accurate risk assessment. The following speciation requirements apply:
+
+| Metal | Form of Concern | Mandatory Speciation | Reflex Speciation Trigger |
+|---|---|---|---|
+| Arsenic | Inorganic arsenic (iAs) | All products containing rice or rice-derived ingredients | Total As approaches or exceeds limit in any product |
+| Mercury | Methylmercury (MeHg) | All products containing fish or marine ingredients | Total Hg approaches or exceeds limit in any product |
+| Chromium | Hexavalent chromium (Cr(VI)) | Only if credible pathway exists (certain water sources, processing) | Total Cr is anomalously high or Program Operator directs |
+| Lead, Cadmium, Nickel, Aluminum, Tin | Total element only | Not required | Not applicable |
+
+When speciation is performed, the speciated result (e.g., inorganic arsenic rather than total arsenic) becomes the compliance result for that metal, superseding the total element concentration. Failure to perform required speciation renders the lot ineligible for certification. The reflex speciation trigger of "approaches the limit" is operationally defined as reaching 50% of the applicable HMTc limit for total metal, consistent with the speciation triggers defined in the HMTc Infant and Child Foods Standards. The Program Operator may lower this threshold further based on risk analysis but may not raise it above 50%.
+
+---
+
+## 10. Sampling Methodology and Chain-of-Custody
+
+### 10.1 Lot-Based Composite Sampling
+
+All certification testing is conducted on a lot basis. For each lot tested, the analytical sample must be a composite prepared from multiple consumer-unit samples drawn from across the lot. The number of sub-samples and method of compositing must be statistically robust, designed to represent the entire lot's average quality with 95% confidence that the lot meets requirements. The sampling plan is subject to approval by the Program Operator. Any alternative approach (stratified sampling, continuous batch sampling) requires prior written approval.
+
+### 10.2 Chain-of-Custody
+
+A complete chain-of-custody record is required for every sample, from the point of collection through laboratory receipt and analysis. The record must document: who collected the sample and their affiliation; when and where the sample was collected; how the sample was sealed, labeled, and transported; who received the sample at the laboratory; and confirmation of sample integrity upon receipt. Any breach in chain-of-custody may invalidate results and is treated as a data integrity issue. All personnel involved in sampling must be trained on these procedures.
+
+### 10.3 Laboratory Requirements
+
+All testing must be performed by laboratories accredited to ISO/IEC 17025 for the relevant analytical methods and food matrices. Methods must be fit for purpose, meaning they can reliably quantify target metals at or below the applicable HMTc limits. The laboratory's LOQ for each analyte must be at or below the HMTc action level. Results reported as non-detect (below LOQ) are treated as zero for compliance purposes, provided the LOQ meets this requirement. If an LOQ exceeds the Program limit, the result is treated as indeterminate and retesting with a more sensitive method is required.
+
+### 10.4 Reporting Requirements
+
+Laboratory reports must express results on a finished-product basis (as sold), clearly identifying each analyte and its form (total vs. speciated). Reports must include the LOQ for each analyte and the associated Measurement Uncertainty (MU). All data must be provided in structured, machine-readable format as required by the Governance Policy. PDF submission is not acceptable.
+
+---
+
+## 11. Decision Rules and Status Assignment
+
+### 11.1 Measurement Uncertainty Application
+
+The decision rules incorporating Measurement Uncertainty are defined in the Governance Policy (Section 7) and apply to all lot test results under this Schedule. In summary: **Pass** if (Result + MU) is at or below the limit; **Fail** if (Result − MU) is above the limit; **Borderline** if neither condition is met. Borderline results require confirmatory action before status assignment.
+
+### 11.2 PoL Calculation and Status Mapping
+
+For each lot, the PoL is calculated for every analyte: PoL = (Result / Applicable Limit) × 100%. The MaxPoL (highest PoL among all analytes) determines the lot's status:
+
+| MaxPoL Range | Metal Tier | Status Assignment | Action Required |
+|---|---|---|---|
+| 0–100% | Any | Status A | Routine surveillance |
+| 101–150% | Tier 2 only | Status B | CAPA (10 days), elevated testing |
+| 101–150% | Any Tier 1 metal | Status C | CAPA (5 days), every-lot hold-and-release |
+| 151–175% | Any | Status C (Low) | CAPA (5 days), every-lot hold-and-release |
+| 176–200% | Any | Status C (High) | CAPA (5 days), every-lot + 3rd-party sampling |
+| > 200% | Any | Status D (Suspension) | Stop-ship, CAPA (2 days), mark removal |
+
+### 11.3 No Testing into Compliance
+
+As stated in the Governance Policy, repeated ad hoc retesting to obtain a passing result is strictly prohibited. Any retesting must be part of a pre-approved confirmatory plan, scientifically justified, and documented. Undocumented resampling or lab-shopping is a data integrity violation subject to suspension or revocation.
+
+---
+
+## 12. CAPA Timelines Summary
+
+The following timelines govern CAPA initiation and execution across certification statuses. These timelines are maximum allowable periods; faster action is always expected.
+
+| Element | Status B | Status C | Status D | Status E |
+|---|---|---|---|---|
+| CAPA initiation | 10 business days | 5 business days | 2 business days | As directed |
+| Full plan submission | 30 calendar days | 15 business days | 10 business days | N/A |
+| Containment | As needed | Immediate | Within 48 hours | Immediate |
+| Target for Status A | 12 months | As defined in CAPA | Full re-qualification | Re-application |
+| VOE required | Yes | Yes | Yes | If re-applying |
+| Exit requirement | Improving trend + meet A criteria | 5+ consecutive passing lots + CAPA closure | Program Operator approval | Full re-application |
+
+---
+
+## 13. Enhanced Controls and Best Practices
+
+The following measures are recommended beyond the minimum requirements. While not all are mandatory, they provide additional assurance and may be expected by regulators as evidence of due diligence.
+
+### 13.1 Risk-Tiering of Ingredients and Suppliers
+
+Identify raw materials and suppliers that are high-risk for heavy metal contamination (rice for arsenic, root vegetables for lead and cadmium, fish for mercury, certain geographic regions). Apply stricter incoming material specifications and testing for high-risk tiers. Require certificates of analysis for each ingredient lot from high-risk suppliers. Conduct periodic audits or verification testing of supplier materials.
+
+### 13.2 In-Process Testing
+
+Where feasible, implement in-process checks at critical control points (e.g., post-filtration water testing, intermediate stream sampling). Rapid screening tools (XRF analyzers, portable test kits) may be used in-house for early warning, with results periodically validated against accredited laboratory data.
+
+### 13.3 Trend Analysis and Internal Warning Levels
+
+Perform formal trend analysis at least quarterly using control charts or equivalent statistical methods. Define internal warning levels below the HMTc limits (e.g., 70% PoL) that trigger management review and proactive investigation when breached, even if the product remains fully compliant. Document all trend analyses and management responses.
+
+### 13.4 Change Management
+
+Maintain a formal change management process that captures all changes to ingredients, suppliers, equipment, packaging, formulation, water sources, and processing conditions. Every change should be evaluated for potential impact on heavy metal levels before implementation, and reflex testing should be planned accordingly.
+
+### 13.5 Documentation and Transparency
+
+Maintain comprehensive records of all testing (internal and external), CAPA actions, trend analyses, supplier evaluations, and communications with the Program Operator. Proactively inform the Program Operator of unusual results or emerging concerns rather than attempting to resolve them quietly. A complete, transparent paper trail is the foundation of legal defensibility and program integrity.
+
+---
+
+## 14. Document Review and Revision
+
+This Lot Testing Schedule shall be reviewed at least annually or upon any update to the HMTc Governance Policy, HMTc Infant and Child Foods Standards, or relevant regulatory requirements. Revisions will incorporate new scientific insights, regulatory changes, improvements in testing technology, and lessons learned from program operations. All revisions are managed under document control procedures consistent with the Governance Policy. The version in effect at the time of a testing decision governs that decision.
+
+---
+
+## Document Control
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0 | March 2026 | Initial issuance (PDF). |
+| 2.0 | May 2026 | Markdown migration. No substantive change to testing protocols; reformatted for repo-based version control and cross-referencing with the Program Manual. |
+
+
+
+<!-- data/workbench/standards-book/parts/06-methodology-and-appendices/01-how-standards-are-set.md -->
+
+# 5.1 How HMTc Standards Are Set
+
+A reader who has worked through Parts 1, 2, 2.5, 3, and 4 has encountered every operational element of the HMTc Program: why it exists, how it is governed, how brands use the evidence base, what the per-product standards are, and how surveillance operates. What remains is the methodology that ties the operational program back to its underlying analytical work. This chapter specifies, in principle and at appropriate detail, how a specific number — say, *10 ppb lead for infant formula powder* — gets produced and what an adversarial reviewer can verify about it.
+
+This chapter respects the wiki/HMTc firewall: the engine arithmetic stays workbench-side, where it is protected as a trade secret per the Colophon (Part 5.7) and where exposing it would let competing certifiers shortcut years of methodology development. The **principle** of standards-setting is in this chapter; the **mechanism** is in the Governing Principles; the **inputs** are on heavymetalindex.com and are publicly auditable.
+
+## The evidence base, and what auditable means
+
+Every concentration limit in Part 3 of this manual was derived from a pooled distribution of source pages on heavymetalindex.com for the relevant product-by-metal cell. The pooling math — the per-analyte percentile calculations, the source-level bootstrap analysis, the sensitivity-band evaluation — lives in `data/workbench/` per the wiki/HMTc firewall documented in CLAUDE.md Part 2 and referenced in Part 1.5 of this manual. But the **inputs** to the pooling — the source pages contributing to each cell — are public.
+
+An adversarial reader who wants to audit a specific HMTc limit can follow this path:
+
+1. Locate the product chapter in Part 3 of this manual. The Master Limit Table gives the HMTc limit, the applicable regulatory cap, and the basis note for each analyte.
+2. Read the chapter's Sources Cited section. Each citation resolves to a source page on heavymetalindex.com.
+3. Read the source page. Each source page summarizes the underlying document's findings with concentrations, sample sizes, methods, and basis (as-sold, as-consumed, dry weight). The source page links to the original document where available.
+4. Check the routing audit (`data/evidence/product_source_routing_audit.csv`) to confirm that no relevant source has been omitted from the cell.
+5. For the pooled distribution itself, qualified reviewers may request the workbench-side aggregate distribution data under controlled terms.
+
+This design preserves the firewall while making the evidence inputs auditable. **The failure mode this design prevents is the "we set this limit because we said so" attack.** HMTc cannot make that argument because the source attribution is public.
+
+## The standards-setting principle in three layers
+
+### Layer 1: The 90/30 row-pass intent
+
+The HMTc Standards are calibrated to deliver the following row-level outcomes at initial publication:
+
+- Approximately **90%** of clean-platform brands pass row-level certification (achieve Status A) on day one.
+- Approximately **30%** of dirty-platform brands pass row-level certification on day one.
+
+These targets are the policy choice. They sit at the intersection of all five Governing Principles. Too tight (e.g., 50/10) violates Principles 3 and 5 because brands cannot recruit and the program cannot scale. Too loose (e.g., 99/80) violates Principles 1 and 3 because the mark loses meaning and clean brands lose differentiation. 90/30 is the policy answer to all five simultaneously.
+
+**Adversarial readers attacking "why P97 and not P95" must instead attack "why 90% and not 85%."** The answer to that question traces directly to the Governing Principles. The principle-level argument is the strongest possible form of the methodology defense because it converts a technical argument into a policy argument, and policy arguments are won or lost on the principles they serve.
+
+### Layer 2: The per-analyte percentile mechanism
+
+To deliver the 90/30 row-level intent, per-analyte limits are set as follows:
+
+- **Per-analyte standard for a clean subcategory** = P97 of that subcategory's marginal occurrence distribution for that analyte.
+- **Per-analyte standard for a dirty subcategory** = P45 of that subcategory's marginal occurrence distribution for that analyte.
+
+The reasoning is the row-pass calibration: a brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Under analyte independence, per-analyte limits set at the raw P90 of the clean distribution would deliver a joint row-pass rate of approximately 0.9^10 = 35%. Under realistic analyte correlation (around 0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50–70%. To deliver the 90% row-pass intent for clean-platform brands, per-analyte limits are uplifted from the raw P90 to P97; the analogous uplift for dirty-platform brands moves from raw P30 to P45.
+
+The uplift is uniform across all analytes today. Per-analyte differentiation — for example, lead tighter than nickel based on regulatory pressure or toxicology — is a Tier 2 calibration deferred until HMTc has accumulated 6–12 months of lot-testing data to measure actual joint pass rates empirically.
+
+### Layer 3: Pool admission, basis, regulatory cap, and rationale tagging
+
+Every source loaded for a (row, metal) cell contributes to the pooled distribution unless explicitly dispositioned out with a stated reason. Sample-level data uses raw values; summary-only sources (mean, median, max, SD, lower/upper bound, IQR) contribute via moment-matching pseudo-sample expansion under log-normal or gamma assumptions following the standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food). Sources are weighted by their reported sample size, capped at twice the median per-source N to prevent any one large survey from dominating.
+
+Each row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, purée rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as-sold ↔ dry-as-sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+
+The final HMTc value is `min(per-analyte pooled percentile, lowest applicable regulatory ceiling)`, with both expressed in the row's native basis. The cap is converted into native basis if it was published in a different one. The rationale tag is one of:
+
+- **literature-baseline** — the pooled percentile binds. This is the typical case where HMTc's methodology produces a value at or below the regulatory floor.
+- **regulatory-alignment** — the cap binds. The pooled percentile is higher than the regulatory ceiling, and the ceiling governs.
+- **precautionary** — a standard set lower than both the pooled percentile and the cap when staff document a precautionary rationale (vulnerable-population concern, cumulative exposure, scientific uncertainty).
+- **feasibility-driven** — a standard set higher than the pooled percentile only via a documented feasibility-driven rationale paired with a sunset plan to tighten as analytical methods or supply-chain practices improve. **The gap between literature-baseline and the final value, if any, is stated honestly.**
+
+### Layer 4: Ratchet trigger (post-publication, distinct from initial limit-setting)
+
+After initial publication, the Standards Ratchet specified in Part 2.10 operates on HMTc-internal lot-testing data. The 80th-percentile-of-Status-A trigger and the breadth-condition are independent of the limit-setting math: limit-setting uses external survey data (FDA TDS, EFSA opinions, peer-reviewed studies, EU basket surveys); the ratchet uses program-internal lot-testing data accumulated under the structured-data requirement in Part 2.7.
+
+The two mechanisms operate at different times, on different data sources, and serve different functions. **The 80% ratchet trigger and the 97% / 45% limit-setting percentiles are not redundant; they are complementary.**
+
+## Why this methodology is defensible
+
+A plaintiff's expert reading this chapter could advance three categories of attack: that the methodology is opaque (we can't reproduce it), that the policy choice is arbitrary (the 90/30 numbers are made up), or that the inputs are biased (the source pages were selected to support a predetermined conclusion).
+
+The first attack fails because the principle is documented here, the mechanism is documented in the Governing Principles, and qualified reviewers can request the engine outputs under controlled terms. The methodology is opaque in the sense that the engine code is a trade secret; it is not opaque in the sense that the reasoning is unverifiable.
+
+The second attack fails because the 90/30 policy choice traces to the five Governing Principles. An attacker who wants to argue that a different policy choice would better serve the Governing Principles can do so on the merits — and that argument is exactly the kind of public discourse a credible standards program welcomes. The program does not claim that 90/30 is the only defensible calibration; it claims that 90/30 is the calibration that best serves the five principles simultaneously, and welcomes principled counterarguments.
+
+The third attack fails because the source pages are public. An attacker who believes a relevant source has been omitted can check the routing audit and the source's frontmatter; an attacker who believes an irrelevant source has been included can apply the same check. Selection bias arguments must point to specific source pages whose inclusion or exclusion is in dispute; they cannot be advanced in the abstract because the corpus is open.
+
+The Program-Level Adversarial Read in Part 5.2 enumerates these and other attack vectors in detail.
+
+## Cross-references
+
+- Governing Principles (the policy source): Part 5.1 source document is `docs/governance/hmtc-governing-principles.md` v2.1.
+- The corpus and the wiki/HMTc firewall: Part 1.5.
+- Standards Ratchet (post-publication tightening): Part 2.10.
+- Per-product master limit tables: Part 3.
+- The published methodology preprint: `Pendergrass, K. Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods. doi: 10.5281/zenodo.18905821`. The preprint's 80%-achievability calibration framing reflects the program's March 2026 state; the current operational framing is the 90/30 row-pass intent specified above.
+
+
+
+<!-- data/workbench/standards-book/parts/06-methodology-and-appendices/02-program-level-adversarial-read.md -->
+
+# 5.2 Program-Level Adversarial Read
+
+This chapter is the program's structured response to the categories of attack that adversarial readers — plaintiff's experts, hostile regulatory reviewers, competing standards bodies — are most likely to advance against HMTc as a whole. Per-product adversarial reads appear in each Part 3 chapter; this chapter addresses program-level attacks that do not sit in any single product's chapter and that need to be answered at the methodology and governance level.
+
+The chapter is **provisional** in this v0-pre-audit edition. The final version of this chapter is written after Pre-work 6 — the adversarial audit of the drafted manual — is complete. Pre-work 6 attacks the drafted manual as a plaintiff's expert and a hostile FDA reviewer would, locates each attack's response in the manual, identifies gaps, and proposes strengthenings. The audit's structured output then becomes the input to the final version of this chapter. In other words: this chapter writes itself from the audit findings.
+
+In the v0-pre-audit edition, this chapter previews the attack categories that the audit will address and signals to readers that the audit and the final chapter version are scheduled in the program's build sequence.
+
+## Attack categories the audit will enumerate
+
+The Pre-work 6 audit attacks the manual across at least the following categories. Each category corresponds to one or more attack vectors that, in adversarial settings, are likely to be advanced against the program.
+
+### Methodology underspecification
+
+Are the percentile values defined precisely enough that an independent analyst could replicate the calibration from the manual alone? Are the pool admission rules, the basis conversion factors, and the regulatory-cap interaction unambiguous? Where the manual references workbench-side engine arithmetic (under the wiki/HMTc firewall), is the cited principle sufficient to defend the methodology, or does the firewall obscure the reasoning?
+
+### Toxicological anchor gaps
+
+Every Tier 1 / Tier 2 classification in Part 2.2 must trace to a specific cited authority. Where the classification traces only to HMTc's own analysis, that is a gap. The audit verifies that every toxicological claim in the manual (the BMDL01 figures, the TWI references, the carcinogenicity classifications, the bioaccumulation half-lives) cites an authoritative source page on heavymetalindex.com that, in turn, cites the underlying agency or peer-reviewed document.
+
+### Chain-of-custody language
+
+Does the Lot Testing Schedule's chain-of-custody section (Part 4 §10) survive cross-examination by a defense expert questioning sample integrity? Specifically: are the documented requirements (personnel identification, collection records, sealing and labeling, laboratory receipt confirmation) consistent with ISO/IEC 17025 expectations and with common-law evidentiary standards for analytical results?
+
+### Ratchet gaming
+
+With the §12 specification in Part 2.10, are there remaining ways a brand or coalition could game the ratchet? Specifically: could a dominant brand withhold its best-performing SKUs from Status A reporting to keep the trigger percentile up? Could a brand exit and re-enter to reset its grandfathering status? Could the breadth-condition be defeated by SKU consolidation? The audit examines each gaming pathway and documents the program's response.
+
+### Conflict-of-interest framings
+
+The Standards Architect is also CEO of the Paleo Foundation. The dual role is disclosed in the Edition page (Part of front matter), the Colophon (Part 5.7), and the conflict-of-interest provisions of Part 2.12. Is the disclosure sufficient against a plaintiff's expert attack on bias? The audit examines whether the disclosure is appropriately prominent, whether the operational separation between Standards Architect responsibilities and CEO responsibilities is documented, and whether the program's appeals process (Part 2.12) is structurally independent from CEO authority.
+
+### Definitional holes
+
+Does every term used in the manual appear in the glossary (Part 5.3)? Does every glossary entry trace to a recognized authority where one exists (ISO/IEC 17025 for analytical-chemistry terms; EFSA, JECFA, FDA for toxicological terms; the Governance Policy for program-operations terms)? Are there terms used inconsistently across the manual that the audit should flag for reconciliation?
+
+### Overclaim risk
+
+Does the manual anywhere claim certification guarantees safety? Per Part 2.5 §6.2, this claim is prohibited; the audit verifies that the manual is consistent with the prohibition and that no chapter slips into language that could be characterized as safety-claiming.
+
+### Citation completeness
+
+Every numeric claim, every regulatory reference, every toxicological framing must cite a specific source with section or page. Where citations are missing or insufficiently specific, the audit flags them. The audit also verifies that cited sources resolve correctly to public heavymetalindex.com source pages and that the source pages, in turn, correctly summarize the underlying documents.
+
+### Heavymetalindex.com evidence base claims
+
+The manual asserts that HMI is a public, curated, peer-reviewable corpus and that every limit traces to source pages. The audit verifies that specific limit-source connections work — that following the chain from Part 3 chapter to source citation to source page to underlying document produces a consistent evidentiary trail.
+
+### Regional adaptability mechanism
+
+Part 2.1 §1.6 asserts that HMTc standards can be regionally recalibrated against region-specific evidence bases. The audit verifies that the mechanism for recalibration is specified (not hand-waved), that the "more stringent of (regional, global)" governance rule is operational, and that adversarial readers cannot characterize regional adaptability as ad-hoc.
+
+### Confidential Remediation Track legal-narrative claim
+
+Part 1.3, Part 1.4, and Part 2.4 advance the claim that brands enrolled in the Track generate a documented improvement record that defends against "knew and did nothing" attacks. The audit verifies that the data governance language in Part 2.7 and the CAPA requirements in Part 2.8 actually deliver the timestamped, third-party-verified improvement record that the legal-narrative claim depends on.
+
+### Standards-ratchet step cap
+
+The 20% per-cycle step cap in Part 2.10 §12.4 is the program's structural protection for participating brands. The audit verifies that the cap is unambiguous, that residual-tightening accounting is specified, and that the cap is consistent with the Governing Principle 3 commitment to protect brands who enter the program.
+
+### Aggregate-exposure framing accuracy
+
+The 7.8 µg/day aggregate-exposure calculation in Part 2.2 is the program's most important framing for brand-legal and regulatory audiences. The audit verifies that the calculation is reproducible, that the underlying single-product concentrations are achievable (i.e., the calculation does not depend on values below the FDA action levels for the relevant products), and that the comparison to the FDA Interim Reference Level is correctly stated.
+
+### Supplier intelligence anonymization
+
+The audit verifies that the anonymization in Part 2.9 is operationally sufficient — that supplier-specific alerts cannot be reverse-engineered to identify the reporting brand through correlated metadata (ingredient category + geographic origin + reporting timeline).
+
+### International / Cyprus operating-base claims
+
+Part 2.1 §1.6 and the Edition page reference the Paleo Foundation's Cyprus operating base and the EU Database Directive protections that flow from it. The audit verifies that these claims are operationally accurate and that the legal-protection framework is documented in the controlled-document registry.
+
+## Output of the audit
+
+The Pre-work 6 audit produces a structured document at `data/workbench/standards-book/adversarial-audit.md` enumerating each attack vector, locating the manual's response by chapter and page, documenting any gaps, and proposing specific strengthenings. The strengthenings are applied to the relevant chapters of the manual; this chapter (Part 5.2) is then rewritten to mirror the audit structure with the program's response on each vector documented in narrative form.
+
+## Why this chapter exists in v0-pre-audit form
+
+A reader of the v0-pre-audit manual should understand that the Program-Level Adversarial Read is structurally important — it is the program's anticipatory answer to the categories of attack that a brand legal team needs to know the program has thought through. The provisional version of this chapter in v0-pre-audit signals to readers that:
+
+- The categories of attack have been enumerated;
+- The audit work is scheduled and bounded;
+- The final chapter version will be available in the audit-strengthened v0;
+- The audit and the final chapter are part of the program's build discipline, not an afterthought.
+
+For a reader who needs the program's adversarial responses before the audit-strengthened v0 ships, the per-product adversarial reads in each Part 3 chapter cover product-specific attacks; the program-level attacks not addressed in any Part 3 chapter are listed above with the audit-scheduling commitment. A brand legal team who needs a specific program-level adversarial response sooner can request it from the Program Operator through the channels documented in the Colophon (Part 5.7).
+
+## Cross-references
+
+- Per-product adversarial reads: each Part 3 chapter.
+- Pre-work 6 audit specification: project plan at `/Users/karenpendergrass/.claude/plans/users-karenpendergrass-desktop-hmtc-gov-ticklish-reef.md` (internal).
+- Audit output destination: `data/workbench/standards-book/adversarial-audit.md`.
+
+
+
+<!-- data/workbench/standards-book/parts/06-methodology-and-appendices/03-glossary.md -->
+
+# 5.3 Glossary of Terms and Abbreviations
+
+This glossary unifies three vocabularies that converge in the HMTc Program Manual: program-operations terms specific to HMTc; regulatory and toxicological terms used by FDA, EFSA, JECFA, and other agencies; and analytical-chemistry terms common to ISO/IEC 17025-accredited laboratory practice. Definitions are drawn from authoritative sources where they exist (Governance Policy §3 for program-operations terms; the metal pages on heavymetalindex.com for toxicological terms; ISO and EURACHEM-CITAC documents for analytical terms) and are reproduced here so that the manual is self-contained.
+
+The glossary travels with every licensing-exhibit extraction (Part 3 chapter detached as an exhibit). Each Part 3 chapter additionally inline-defines unfamiliar terms on first use; the consolidated glossary below is the canonical reference.
+
+---
+
+**Action Level.** A practical concentration limit used to trigger sourcing, process, and quality control measures. Exceeding an action level signals that intervention is needed; it is not a safety threshold. (HMTc-specific; per Governance Policy §3 and Part 2.1 §1.2.)
+
+**Aggregate Exposure.** Total intake of a contaminant across all dietary sources, expressed as µg/day or µg/kg bw/day. The relevant exposure metric for infants and young children because compliance with single-product action levels does not guarantee compliance with health-based exposure benchmarks. (See Part 2.2 aggregate-exposure framing.)
+
+**ALARA.** As Low As Reasonably Achievable. A risk-management principle emphasizing feasible, continuous reduction of contaminant levels over time, especially when no safe threshold is known. Operationalized in HMTc as an enforceable obligation, not aspirational language. (Per Governance Policy §1.3 and Part 2.1.)
+
+**BMD / BMDL / BMDL01.** Benchmark Dose / Benchmark Dose Lower Confidence Limit / BMDL corresponding to a benchmark response of 1 percent. Standard concepts in dose-response modeling. The BMDL is the lower bound of the statistical confidence interval around the BMD and is used as a conservative point of departure in risk assessment. BMDL01 is the BMDL at the 1% response level, commonly used for endpoints such as the EFSA 2010 lead BMDL01 of ~12 µg/L blood lead for one-point IQ decrement.
+
+**bw.** Body weight. Used to normalize intake or dose, typically expressed as µg/kg bw/day or mg/kg bw/week.
+
+**CAPA.** Corrective and Preventive Action. A formal, documented process to identify root causes and implement corrections and preventive measures. Specified in Part 2.8 with status-specific timelines.
+
+**Certification Mark (Seal).** The proprietary HMTc mark that may be used on packaging and marketing materials to indicate a product's certified status under the Program. Mark usage governed by Part 2.5.
+
+**Cr(III).** Trivalent chromium. The form ubiquitous in food, recognized as a nutritionally essential trace element with no chronic-toxicity concern at dietary exposures.
+
+**Cr(VI).** Hexavalent chromium. A Group 1 IARC carcinogen by ingestion (the cancer designation hardened from "inhalation only" in the 2014 reassessment). HMTc tests total chromium routinely and triggers Cr(VI) speciation only when a credible pathway for Cr(VI) formation exists (certain water-treatment processes; specific industrial contamination scenarios). When triggered, Cr(VI) is treated effectively at Tier 1 severity.
+
+**EFSA.** European Food Safety Authority. An EU agency that produces scientific opinions on food and feed risks, including contaminant risk assessments used by regulators.
+
+**Heavymetalindex.com (HMI).** The public curated corpus of the heavy-metals-in-food literature operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program. The evidence layer that every HMTc standard rests on. Sui generis EU database-rights protected (15-year term) under Directive 96/9/EC. (Per Part 1.5 and Part 2.5.)
+
+**Hold-and-Release.** The finished product lot is physically quarantined and may not ship until laboratory results are received and the lot is confirmed to meet at minimum the applicable status criteria. Hold-and-release procedures must include documented quarantine location, responsible personnel, and release authorization records. (Per Part 4 §3.1.)
+
+**HMTc.** Heavy Metal Tested and Certified. The certification program specified in this manual. Operated by The Paleo Foundation at heavymetaltested.com.
+
+**iAs.** Inorganic arsenic. The genotoxic carcinogenic form of arsenic, distinguished from organic arsenic species (predominantly in seafood) which are toxicologically distinct. Mandatory speciation for rice-containing products per Part 4 §9.
+
+**IARC.** International Agency for Research on Cancer. WHO body responsible for the carcinogen classifications (Group 1 = carcinogenic to humans; Group 2A = probably; Group 2B = possibly) referenced throughout the toxicology callouts.
+
+**Infants and Young Children.** In this manual, refers to children from birth up to approximately 5 years of age (typical age range for infant and toddler food and child foods).
+
+**Independent Sampling.** Samples are collected and submitted to the laboratory by a party independent of the brand's production team. This may be the Program Operator, a designated third-party auditor, or another party approved by the Program Operator. (Per Part 4 §3.1.)
+
+**IRL.** Interim Reference Level. In the FDA context, a risk-management intake level used to prioritize and evaluate actions to reduce exposure, not a safety threshold. FDA's current IRL for dietary lead in young children is 2.2 µg/day.
+
+**JECFA.** Joint FAO/WHO Expert Committee on Food Additives. An international expert body convened by the Food and Agriculture Organization of the United Nations and the World Health Organization to evaluate risks from food additives, contaminants, and residues.
+
+**Licensee.** A brand or manufacturer that has signed a license agreement authorizing participation in the HMTc Program and, upon achieving certification, use of the HMTc Certification Mark.
+
+**Lot.** A defined quantity of product manufactured under uniform conditions, identified by common date, line, or shift codes.
+
+**LOQ.** Limit of Quantitation. The lowest concentration at which a laboratory can reliably quantify an analyte with acceptable precision and accuracy. HMTc requires laboratory LOQs at or below applicable action levels per Part 2.7 §8.3.
+
+**MaxPoL.** Maximum Percent-of-Limit. The highest PoL among all compliance analytes for a given lot. MaxPoL drives the status determination per Part 2.3.
+
+**MeHg.** Methylmercury. The neurotoxic form of mercury that crosses the blood-brain barrier and bioaccumulates in developing neural tissue. Mandatory speciation for fish-containing products per Part 4 §9.
+
+**MU.** Measurement Uncertainty. The laboratory's stated expanded uncertainty (typically at 95% confidence, k=2) associated with a reported result. Incorporated into decision rules per Part 2.6.
+
+**Pb / Cd / Ni / Al / Sn / Hg.** Standard chemical symbols for lead, cadmium, nickel, aluminum, tin, and mercury. Each is a priority HMTc analyte; see Part 2.2 for tier classification.
+
+**PoL.** Percent-of-Limit. A result normalized to the HMTc limit: PoL = (Result / Applicable Limit) × 100%. A result equal to the limit is 100% PoL.
+
+**ppb.** Parts per billion by mass in foods, typically equivalent to micrograms per kilogram (µg/kg). For liquids, ppb is often treated as µg/L when density is close to 1 g/mL.
+
+**PTWI / PTMI.** Provisional Tolerable Weekly Intake / Provisional Tolerable Monthly Intake. Older JECFA benchmark formats used when the guidance value was considered provisional due to data limitations or expected updates. In practice they functioned like TWIs. JECFA withdrew its lead PTWI in 2011 on the grounds that it was no longer health-protective.
+
+**Regulatory Trigger Level (RTL).** Any concentration or condition that would make the product noncompliant with applicable laws or regulatory action thresholds in its market(s) of sale. RTL violations trigger immediate hard-stop escalation per Part 2.11.
+
+**Reflex Testing.** Any test conducted outside the routine surveillance schedule in response to a defined trigger event. Reflex tests carry the same weight as routine surveillance results. (Per Part 4 §8.)
+
+**Speciation.** Determination of the specific chemical form of a metal present, which is critical for accurate risk assessment. HMTc requires speciation in defined contexts (iAs for rice; MeHg for fish; Cr(VI) when credible pathway exists). (Per Part 4 §9.)
+
+**Status A / B / C / D / E.** The five HMTc certification statuses. Defined in detail in Part 2.3. A = Certified (Full Compliance); B = Certified (Transitional); C = Probation; D = Suspension; E = Revocation.
+
+**TWI / TDI.** Tolerable Weekly Intake / Tolerable Daily Intake. Health-based guidance values expressed as an amount per kilogram body weight per week or day, considered tolerable over a lifetime for substances where a threshold is assumed or can be used for risk management.
+
+**Three-Lot Baseline.** All SKUs entering the HMTc Program must be tested across a minimum of three production lots to establish a baseline profile before any certification status is assigned. (Per Part 2.3 and Part 4 §4.)
+
+**Tier 1 Metal.** A metal that is carcinogenic with no established safe threshold, neurotoxic with no established safe threshold, or bioaccumulative with long biological half-lives in children. Pb, Cd, iAs, MeHg. Zero tolerance for exceedance under HMTc.
+
+**Tier 2 Metal.** A metal with an established tolerable daily intake, shorter biological half-life, or primarily acute rather than chronic toxicity profile. Ni, Sn, Al, Cr. Variance-eligible up to 150% PoL under HMTc.
+
+**Total Diet Study (TDS).** FDA program that analyzes food and beverage samples for various contaminants including heavy metals. FY2018–2020 TDS detected Pb in 15%, As in 43%, Cd in 33%, and Hg in 10% of samples — the prevalence anchor used in Part 1.3.
+
+**VOE.** Verification of Effectiveness. The documented demonstration that CAPA actions have achieved their intended result, confirmed through follow-up testing. CAPAs cannot be closed until VOE confirms resolution.
+
+**µg/day.** Micrograms per day. An intake unit used to express daily dietary exposure.
+
+**µg/kg bw/day.** Micrograms per kilogram body weight per day. An intake unit normalized to body weight, commonly used in toxicological reference values.
+
+**µg/kg (ppb in food).** Micrograms per kilogram of food product, equivalent to parts per billion by mass.
+
+**µg/L.** Micrograms per liter. A concentration unit commonly used for blood lead values and for dilute liquids.
+
+---
+
+## Cross-references
+
+- HMTc Governance Policy Section 3 (Key Definitions): Part 2 chapters (definitions are reproduced operationally where each term is used).
+- Toxicology callouts and full per-metal reviews: heavymetalindex.com `wiki/metals/*` pages.
+- ISO/IEC 17025 and EURACHEM/CITAC source documents for analytical-chemistry term definitions: Part 5.4 Consolidated Sources Index.
+
+
+
+<!-- data/workbench/standards-book/parts/06-methodology-and-appendices/04-sources-index.md -->
+
+# 5.4 Consolidated Sources Index
+
+This index consolidates the citations referenced across the Program Manual. Each entry is keyed by the document type and includes the chapter cross-references where the source is cited. For per-product literature sources cited in Part 3 chapters, see each chapter's chapter-scoped Sources Cited section; the consolidated index below focuses on cross-cutting sources cited in Parts 1, 2, and 5.
+
+## Toxicological reference documents
+
+- **EFSA Panel on Contaminants in the Food Chain.** Scientific Opinion on Lead in Food. *EFSA Journal* 2010;8(4):1570. doi:10.2903/j.efsa.2010.1570. (Cited Parts 1.3, 2.2, 5.1, 5.3; full review at `wiki/metals/lead` on heavymetalindex.com.)
+- **EFSA CONTAM Panel.** Scientific Opinion on Arsenic in Food. *EFSA Journal* 2009;7(10):1351. doi:10.2903/j.efsa.2009.1351.
+- **EFSA CONTAM Panel.** Update of the Risk Assessment of Inorganic Arsenic in Food. *EFSA Journal* 2024;22(1):8488. doi:10.2903/j.efsa.2024.8488.
+- **EFSA.** EFSA Sets Lower Tolerable Intake Level for Cadmium in Food. News Release, March 2009 (TWI 2.5 µg/kg bw/week).
+- **EFSA.** Mercury in Food — EFSA Updates Advice on Risks for Public Health. Press Release, December 2012 (MeHg TWI 1.3 µg/kg bw/week; inorganic Hg TWI 4 µg/kg bw/week).
+- **JECFA.** Evaluation of Certain Food Additives and Contaminants: Seventy-Third Report. WHO Technical Report Series No. 960, 2011 (Lead PTWI withdrawal).
+- **JECFA.** Methylmercury and Mercury Chemical Evaluation Database Entries.
+- **JECFA.** Cadmium PTMI database entry (25 µg/kg bw/month).
+- **EPA/FDA.** Fish Advice: Technical Information. Reference Dose for Methylmercury (0.1 µg/kg/day RfD).
+- **ATSDR.** Toxicological Profile for Cadmium. U.S. Department of Health and Human Services, 2012.
+- **National Research Council.** Toxicological Effects of Methylmercury. National Academies Press, 2000.
+
+## US regulatory documents
+
+- **FDA.** Total Diet Study (TDS): FY2018–2020 TDS Elements Report. 2022. Available: https://www.fda.gov/media/159745/download
+- **FDA.** Guidance for Industry: Action Levels for Lead in Processed Food Intended for Babies and Young Children. Final Guidance. January 2025.
+- **FDA.** Updated Interim Reference Levels for Dietary Lead to Support FDA's Closer to Zero Action Plan. June 2022.
+- **FDA.** Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry. June 2023.
+- **FDA.** Inorganic Arsenic in Rice Cereals for Infants: Action Level. August 2020.
+- **FDA.** Compliance Program 7304.019: Toxic Elements in Food and Foodware, and Radionuclides in Food. August 2023.
+- **FDA.** Closer to Zero: Reducing Childhood Exposure to Contaminants from Foods. 2021.
+- **OEHHA.** Lead, Arsenic, and Cadmium Proposition 65 listings and safe harbor levels.
+
+## EU and international regulatory documents
+
+- **Commission Regulation (EU) 2023/915** on Maximum Levels for Certain Contaminants in Food. May 2023.
+- **Codex Alimentarius.** General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995).
+
+## State-level regulatory documents
+
+- **California Assembly Bill 899** (Food Safety: Baby Food; Health and Safety Code).
+- **California Department of Public Health.** AB 899 Frequently Asked Questions.
+- **California Attorney General.** Enforcement Advisory Letter on AB 899 (March 6, 2026).
+
+## Litigation references
+
+- **Judicial Panel on Multidistrict Litigation.** *In re: Baby Food Products Liability Litigation* (MDL No. 3101). Transfer Order, April 11, 2024.
+- **N.D. Cal.** District Court Order Referencing Over 100 Subsequently Filed Actions in MDL 3101. April 2025.
+- **Reuters.** "Amazon.com Sued Over Alleged Sale of Contaminated Rice." May 23, 2025.
+- **Reuters.** "Amazon.com Seeks to End Lawsuit Claiming Rice Contaminated by Heavy Metals." July 29, 2025.
+- **Proposition 65 Settlement Agreement** *People v. Promix Nutrition* (lead warning/testing obligations). 2024.
+
+## Industry and retailer documents
+
+- **CVS.** "Tested to Be Trusted: Supplement Testing and Contaminant Requirements Statement."
+- **NSF.** NSF/ANSI 173 Product and Ingredient Certification (only American National Standard for dietary supplement testing and certification).
+- **ANAB.** Amazon Dietary Supplements Seller Requirements.
+- **ISO.** ISO/IEC 17025 — Testing and Calibration Laboratories. Overview.
+- **EURACHEM/CITAC.** "Use of Uncertainty Information in Compliance Assessment," 2nd ed., 2021.
+- **ILAC.** "Guidelines on Decision Rules and Statements of Conformity," ILAC-G8:09/2019.
+
+## Recall economics documents
+
+- **GMA/Covington/EY.** "Capturing Recall Costs: Measuring and Recovering the Losses."
+- **Allianz Global Corporate and Specialty.** Product Recall Reports.
+- **Federal Judicial Center.** "Litigation Cost Survey of Major Companies."
+- **Thomsen, M. R. and McKenzie, A. M.** "Sales Responses to Recalls for Meat and Poultry Products." *Review of Agricultural Economics* 2006;28(4):482–493.
+
+## Compliance and regulatory-theory literature
+
+- **National Research Council.** "The Potential Consequences of Public Release of Food Safety and Inspection Service Establishment-Specific Data." National Academies Press, 2011. doi:10.17226/13304.
+- **Bovay, J.** "Food Safety, Reputation, and Regulation." *Applied Economic Perspectives and Policy* 2023;45(2):1070–1093.
+- **van Erp, J. G.** "Naming Without Shaming: The Publication of Sanctions in the Dutch Financial Market." *Regulation & Governance* 2011;5(3):287–308.
+- **Snyder, J.** "Backlash Against Naming and Shaming." *British Journal of Politics and International Relations* 2020;22(4):644–653.
+- **Carnegie, A. and Carson, A.** "The Spotlight's Harsh Glare: Rethinking Publicity and International Order." *International Organization* 2018;72(3):627–657.
+
+## HMTc-related publications
+
+- **Pendergrass, K.** *The Counterproductive Consequences of Public Exposé Testing: How Unstructured Disclosure Undermines Heavy Metal Contamination Reduction.* Journal of Food Metallomics. 2026. doi: 10.5281/zenodo.19470572. (Cited Part 1.2; repo copy at `data/workbench/standards-book/source-documents/preprints/`.)
+- **Pendergrass, K.** *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification.* Journal of Food Metallomics. 2026. doi: 10.5281/zenodo.18903738. (Cited Part 1.3.)
+- **Pendergrass, K.** *Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods.* Journal of Food Metallomics. 2026. doi: 10.5281/zenodo.18905821. (Cited Part 1.4, Part 2 narrative bridges.)
+
+## HMTc operational documents
+
+- **HMTc Governing Principles**, v2.1. `docs/governance/hmtc-governing-principles.md`.
+- **HMTc Program Governance Policy**, v2.0. `data/workbench/standards-book/source-documents/governance-policy.md` (reproduced as Part 2 of this manual).
+- **HMTc Lot Testing Schedule**, v2.0. `data/workbench/standards-book/source-documents/lot-testing-schedule.md` (reproduced as Part 4 of this manual).
+- **HMTc Toxicology Callouts**, v1.0. `data/workbench/standards-book/source-documents/toxicology-callouts.md`.
+
+## Note on chapter-scoped sources
+
+Per-product Sources Cited sections in each Part 3 chapter reference specific peer-reviewed studies, regulatory guidance documents, and surveillance data anchoring the standards published in that chapter. Those citations are not reproduced here; the chapter-scoped lists are authoritative for the standards they anchor. Adversarial readers auditing a specific limit follow the chapter-scoped citations to source pages on heavymetalindex.com per the methodology in Part 5.1.
+
+
+
+<!-- data/workbench/standards-book/parts/06-methodology-and-appendices/05-recognition-framework.md -->
+
+# 5.5 Recognition Framework: How HMTc Compares to Adjacent Programs
+
+A reader evaluating HMTc may already be familiar with adjacent certification programs in the food and supplement space. This chapter situates HMTc relative to those programs so brand legal teams, retailer compliance staff, and adversarial reviewers can place HMTc accurately in the regulatory and certification landscape. The comparison is on the merits — what each program covers, how it operates, and where the meaningful differences lie.
+
+The intent is not to denigrate other programs or claim HMTc is uniformly superior. Each program in this comparison has legitimate scope and value. The intent is to clarify what HMTc specifically does that adjacent programs do not, so a brand evaluating multiple certifications can choose appropriately rather than treating all certifications as interchangeable.
+
+## Comparison matrix
+
+| Feature | HMTc | USDA Organic | Non-GMO Project | Clean Label Project | EWG Healthy Living | Consumer Reports Testing |
+|---|---|---|---|---|---|---|
+| **Scope: heavy metals specifically** | Yes (primary) | No | No | Yes (heavy metals included in scope) | Yes (in product scoring) | Yes (when tested) |
+| **Risk-tiered metal classification (Tier 1 / Tier 2)** | Yes | N/A | N/A | No | No | No |
+| **Per-analyte action levels with regulatory-cap interaction** | Yes (Part 3) | N/A | N/A | Yes (product specifications) | No (scoring-based) | N/A (testing report) |
+| **Aggregate-exposure framing across categories** | Yes (Part 2.2) | No | No | Partial | No | No |
+| **Staged compliance (Status A/B/C/D/E)** | Yes | Binary | Binary | Binary | Scoring-based | N/A |
+| **Confidential Remediation Track** | Yes (Part 2.4) | No | No | No | N/A | N/A |
+| **Measurement uncertainty in decision rules** | Yes (Part 2.6) | N/A | N/A | Partial | N/A | Reported but not adjudicated |
+| **ISO/IEC 17025 lab requirement** | Yes (mandatory) | No | No | Yes | N/A | Yes (CR labs accredited) |
+| **Speciation requirements (iAs, MeHg, Cr-VI)** | Yes (Part 4 §9) | No | No | Partial | No | Partial |
+| **Standards Ratchet (mandatory tightening over time)** | Yes (Part 2.10) | No | No | Reviewed periodically | N/A | N/A |
+| **Public evidence corpus** | Yes (heavymetalindex.com) | N/A | N/A | No | No | No |
+| **Supplier intelligence sharing across brands** | Yes (Part 2.9) | No | No | No | N/A | N/A |
+| **Anti-arbitrage mark re-entry rules** | Yes (Part 2.5 §6.3) | N/A | N/A | N/A | N/A | N/A |
+| **No-testing-into-compliance prohibition** | Yes (Part 2.6 §7.3) | N/A | N/A | Partial | N/A | N/A |
+| **Lot-level surveillance (every-lot at probation)** | Yes (Part 4) | No | No | No (annual) | N/A | Spot |
+| **Underlying scope** | Infant/child foods (Cat 1); other categories coming | Agricultural production methods | GMO ingredient sourcing | Multi-contaminant, all foods | All consumer products (scoring) | Selected products (advocacy) |
+
+## What HMTc does that adjacent programs do not
+
+The matrix above is dense; the practical implications are:
+
+**Compared to USDA Organic.** Organic certifies agricultural production methods (no synthetic pesticides, fertilizers, GMOs) and does not address heavy metal contamination at the product level. Organic certification does not preclude elevated heavy metals — organic cocoa, organic rice, and organic root vegetables can all carry significant heavy metal contamination because the metals come from soil, water, and atmospheric sources that organic standards do not regulate. **A brand with Organic certification still needs HMTc to certify heavy metal limits.** The two are complementary rather than substitutable.
+
+**Compared to Non-GMO Project.** Non-GMO certifies the absence of genetically modified ingredients at defined detection thresholds. It has no scope on heavy metal contamination. Same complementarity logic as Organic.
+
+**Compared to Clean Label Project.** Clean Label Project does cover heavy metals and uses laboratory testing. HMTc differs in: explicit staged compliance with a Confidential Remediation Track for brands not yet at certification standards; the measurement-uncertainty two-sided decision rule that protects brands from analytical noise; the Standards Ratchet that mandates tightening over time as the certified market improves; the supplier-intelligence-sharing system across all certified brands; and the public evidence corpus (heavymetalindex.com) that makes the methodology auditable. Brands operating under Clean Label may also pursue HMTc; the two programs make different commitments, and a brand may value the HMTc commitments specifically.
+
+**Compared to EWG Healthy Living.** EWG provides scoring-based product evaluation across multiple chemicals of concern, including heavy metals. EWG's methodology is rating-based rather than certification-based, and it does not provide the structured compliance, surveillance, CAPA, or ratchet mechanisms that HMTc does. EWG scoring is a useful consumer-facing tool; HMTc is the corresponding industry-facing certification framework.
+
+**Compared to Consumer Reports testing.** Consumer Reports periodically tests selected products in selected categories and publishes findings. The testing methodology is rigorous (ISO/IEC 17025-accredited labs) but the reporting is in the exposé-publication tradition that Part 1.2 of this manual analyzes. Consumer Reports tests do not produce a structured certification framework, do not offer brands a remediation pathway, and do not generate supplier intelligence shared across brands. The two serve different purposes; HMTc participation is not a substitute for responding appropriately to a Consumer Reports finding, and a Consumer Reports finding does not preclude HMTc certification.
+
+## What this comparison does not mean
+
+HMTc is **not** a replacement for regulatory action. FDA, EFSA, state attorneys general, and other regulatory bodies set the legal floor; HMTc operates above that floor with tighter action levels and structured surveillance. A brand passing HMTc is operating well within the regulatory envelope; a brand violating regulatory limits is in §2.11 escalation regardless of HMTc status.
+
+HMTc is **not** a replacement for internal brand QA. Brands enrolled in HMTc continue to operate their own quality programs; HMTc provides the third-party-verified evidence record, the cross-brand collective intelligence, and the certification mark. Internal QA and HMTc certification are operationally aligned but structurally distinct.
+
+HMTc **does not certify safety.** Per Part 2.5 §6.2 and the action-levels-not-safety-thresholds framing throughout this manual, the certification mark indicates that a product has been independently tested and meets defined action levels under ongoing surveillance. The mark is not a safety guarantee. Brands using the mark may not make safety-implying claims.
+
+## Cross-references
+
+- Action levels not safety thresholds: Part 2.1 §1.2.
+- Mark usage rules and prohibited claims: Part 2.5.
+- Standards Ratchet specification: Part 2.10.
+- Supplier intelligence system: Part 2.9.
+- Public evidence corpus: Part 1.5 and Part 2.5.
+
+
+
+<!-- data/workbench/standards-book/parts/06-methodology-and-appendices/06-licensing-terms-summary.md -->
+
+# 5.6 Licensing Terms — Summary
+
+This chapter summarizes the structural terms of the HMTc license agreement so that a brand legal team can understand the shape of what they would be signing without needing to request the agreement itself for an initial evaluation. **The actual licensing agreement is a separate document**, executed bilaterally between the Licensee and The Paleo Foundation, and contains the full operative terms. The summary below is informational and does not modify or supersede the executed agreement.
+
+The summary covers fee structure, term length, mark-usage scope, anti-arbitrage rules, confidentiality, and termination. Brands at the evaluation stage should expect the actual agreement to mirror this structure with the specific operative language.
+
+## Fee structure
+
+HMTc licensing fees are **annual** and **revenue-based** rather than per-SKU. A brand with twenty certified SKUs at a single revenue tier pays the same annual licensing fee as a brand with two certified SKUs at the same tier. This structure reflects the program's commercial-viability principle (Governing Principle 5): fee structure should not penalize brands for breadth of certification, because the program's public-health objectives are served by maximizing the volume of certified SKUs in the market.
+
+Revenue tiers are tiered to brand size:
+
+- **Small brands** (under $5M annual revenue) pay an entry-tier annual fee designed to make certification accessible without subsidizing larger competitors.
+- **Mid-size brands** ($5M–$50M annual revenue) pay a mid-tier annual fee scaled to the financial benefit of certification at this revenue band.
+- **Large brands** ($50M–$500M annual revenue) pay a higher annual fee reflecting the proportional ROI delivery the program enables.
+- **Enterprise brands** (over $500M annual revenue) negotiate enterprise terms with the Program Operator directly.
+
+Specific fee schedules are published in the License Agreement Schedule and are reviewed annually by the Program Operator. Brands at the evaluation stage can request the current fee schedule from the Program Operator. The schedule is not reproduced in this manual because (a) fee schedules are operational rather than methodological, and (b) reproducing them here would require an addendum to the bound manual every time the schedule is revised.
+
+Testing costs (laboratory fees for the testing required under Part 4) are **separate from licensing fees** and are paid by the Licensee directly to their ISO/IEC 17025-accredited laboratory. The Program Operator does not mark up testing fees; the laboratory market provides the cost discipline.
+
+## Term length and renewal
+
+License agreements run for an **initial term of three (3) years**, with automatic annual renewal thereafter unless either party provides notice of non-renewal at least 90 days before the renewal date. The three-year initial term aligns with the Standards Ratchet's formal three-year revision cycle (Part 2.10 §12.1), giving brands certainty about both the certification framework and the licensing relationship across at least one ratchet cycle.
+
+A brand may terminate the license at any time with 90 days' written notice. Upon termination, the brand surrenders mark usage rights immediately and Track confidentiality protections continue per the agreement's confidentiality provisions.
+
+The Program Operator may terminate the license for cause: data integrity violations (per Part 2.7 §8.2), regulatory limit violations (per Part 2.11), willful misconduct, or material breach of the agreement. For-cause termination triggers Status E revocation per Part 2.3 §5.6.
+
+## Mark usage scope
+
+The HMTc Certification Mark may be used on certified SKUs' packaging, marketing materials, and digital channels, subject to:
+
+- **Eligibility:** Only Status A or Status B SKUs may bear the mark (Part 2.5 §6.1).
+- **Mark style guide:** The Program Operator publishes a Mark Usage Style Guide governing the mark's visual presentation, minimum size, color treatment, and accompanying language. The style guide is reviewed annually.
+- **Prohibited claims:** No safety-implying claims; no "heavy metal free" language (Part 2.5 §6.2).
+- **Anti-arbitrage:** Re-entry after dropping the mark requires three consecutive passing lots and CAPA closure (Part 2.5 §6.3).
+- **Geographic scope:** The license grants mark usage in all jurisdictions where the brand sells the certified SKU.
+
+The mark is a registered certification mark (USPTO filing in process; EU IP Office filing in parallel). Unauthorized use of the mark by non-Licensees is enforced by the Paleo Foundation through standard certification-mark protection mechanisms.
+
+## Confidentiality
+
+The license agreement establishes mutual confidentiality with directional flow:
+
+- **Brand-provided data is confidential.** Lot testing results, CAPA documentation, supplier identifications, and other operational data the brand provides to the Program Operator are treated as confidential business information. The Program Operator may use aggregated, anonymized data for supplier intelligence (Part 2.9), the Standards Ratchet trigger analysis (Part 2.10), and aggregate Program reporting. Individual brand identities and SKU-level results are not disclosed except as required by law or by the Brand Visibility Controls of Part 2.5 §6.4 where the brand has authorized disclosure.
+
+- **Confidential Remediation Track confidentiality is contractually binding.** Brands enrolled in the Track per Part 2.4 have particular confidentiality protections that survive license termination. The Program Operator's enforcement-cooperation obligations (Part 2.11) may require disclosure to regulatory authorities under defined circumstances; Track-specific disclosures to regulators are made under written notice to the affected Licensee where legally permissible.
+
+- **Program-Operator-provided information is confidential.** Supplier intelligence alerts, methodology details, audit findings, and other information the Program Operator shares with the Licensee are confidential and may not be disclosed by the Licensee to third parties without written consent except as required by law or by the brand's own operational use of the information (e.g., applying a supplier intelligence alert in the brand's own supply-chain decision-making).
+
+Confidentiality survives termination of the license agreement for a period of seven (7) years, except for trade secrets (which are protected as long as they retain trade-secret status under applicable law) and except for legally required disclosures.
+
+## Regulatory cooperation
+
+The Licensee acknowledges that the Program Operator will cooperate with regulatory authorities (FDA, EFSA, state attorneys general, equivalent international bodies) as required by law. **The Program Operator will not shield any Licensee from regulatory obligations.** This is consistent with Part 2.11's hard-stop escalation rule and is a structural condition of the program's legal defensibility.
+
+In practice, regulatory cooperation means: the Program Operator will respond to lawful regulatory inquiries about the Program's methodology and aggregate operation, will provide Licensee-specific information when required by lawful process, and will report regulatory limit violations to the appropriate authorities per Part 2.11. The Program Operator gives Licensees written notice of any compelled disclosure where legally permissible.
+
+## Dispute resolution
+
+License agreement disputes are subject to binding arbitration under the rules of the International Centre for Dispute Resolution (ICDR), seated in Cyprus, with the substantive law of the agreement being Cypriot law. The choice of seat and substantive law reflects the Paleo Foundation's Cyprus operating base and is consistent with the EU regulatory frameworks under which the program operates.
+
+Certification status disputes (as distinct from license agreement disputes) follow the appeals process specified in Part 2.12.
+
+## What this summary does not cover
+
+The actual license agreement contains operative terms not summarized here, including: representations and warranties; indemnification provisions; insurance requirements; intellectual property cross-licenses (Licensee's product images, brand assets, etc.); force majeure; assignment restrictions; notice provisions; entire-agreement clauses. Brands at the contracting stage should review the full agreement with their legal counsel.
+
+## Cross-references
+
+- Mark usage rules (operational): Part 2.5.
+- Confidential Remediation Track terms: Part 2.4.
+- Appeals process for status determinations: Part 2.12.
+- Regulatory escalation hard-stop: Part 2.11.
+- Data governance and integrity (which interacts with confidentiality): Part 2.7.
+
+
+
+<!-- data/workbench/standards-book/parts/06-methodology-and-appendices/07-colophon.md -->
+
+# 5.7 Colophon
+
+## Edition
+
+**Heavy Metal Tested & Certified (HMTc) Infant and Child Foods Program Manual, 2026 Edition.** First bound publication. The HMTc methodology has evolved through documented revisions since 2024; the current edition reflects refinements to the per-analyte percentile calibration, the addition of the row-pass framework, the operationalization of the Standards Ratchet Mechanism with explicit trigger conditions and step-size caps, and the formalization of the Confidential Remediation Track.
+
+## Author and disclosure
+
+**Karen Pendergrass**, Standards Architect, The Paleo Foundation. ORCID: [pending registration].
+
+Karen Pendergrass is the Standards Architect for the HMTc Program and CEO of The Paleo Foundation. The dual role is disclosed transparently because it is the structurally honest disclosure: the Foundation operates the certification program; the Standards Architect develops the program's methodology; both roles are held by the same person. The operational separation between the two roles is documented in the Foundation's governance bylaws (controlled-document registry). The conflict-of-interest provisions of Part 2.12 §14.4 ensure that certification determinations are made by individuals free from conflicts with the Licensee under review, and the appeals process is structurally independent from CEO authority.
+
+The Paleo Foundation is a regulatory and certification body incorporated in Cyprus and operating under EU regulatory frameworks. Foundation governance, financial reporting, and operational continuity are documented in the public registry of Cypriot regulatory entities and in the Foundation's controlled-document set.
+
+## Methodology disclosure
+
+The HMTc methodology is described in principle throughout this manual (particularly Part 5.1) and at peer-track depth in three published preprints:
+
+- *The Counterproductive Consequences of Public Exposé Testing.* doi: 10.5281/zenodo.19470572.
+- *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification.* doi: 10.5281/zenodo.18903738.
+- *Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods.* doi: 10.5281/zenodo.18905821.
+
+The engine arithmetic that implements the methodology — the source-pooling algorithm, the percentile calculation, the source-level bootstrap, the sensitivity-band analysis, the basis-conversion factors — is held as a trade secret. The principle of standards-setting is public; the implementation is proprietary. This is the wiki/HMTc firewall documented in CLAUDE.md Part 2 of the program's governance and described in Part 1.5 of this manual.
+
+## Methodology implementation
+
+The deterministic pooling engine and the Standards Briefing generator that produce per-product limit tables and methodology summaries were implemented by Karen Pendergrass with AI assistance from Claude (Anthropic). The engine code is regression-tested for percentile-inversion errors and author-attribution errors per the test suites in `tools/standards/build-standards-briefing.test.mjs`. Pre-publication review of each briefing follows the 9-gate checklist established in the methodology preprint.
+
+This implementation acknowledgment is in the Colophon, not the byline. The byline names the Standards Architect; the implementation methodology is documented here for honest disclosure of tooling used in producing the bound manual.
+
+## Evidence base
+
+Heavymetalindex.com (HMI) is the public curated corpus of the heavy-metals-in-food literature that this Program Manual rests on. HMI is operated by The Paleo Foundation as a property architecturally separate from the HMTc certification program at heavymetaltested.com. Architectural separation, one-way reference (HMTc cites HMI; HMI does not endorse HMTc), and EU database-rights protection (Directive 96/9/EC, 15-year sui generis term, by virtue of the Foundation's Cyprus operating base) together establish the evidentiary foundation that the certification program's standards are built on. See Part 1.5 for the full account.
+
+## Intellectual property
+
+**Trademarks.** "HMTc," "Heavy Metal Tested & Certified," "Heavy Metal Tested and Certified," the HMTc certification seal artwork, and "The Paleo Foundation" are trademarks of The Paleo Foundation. Federal certification mark registration is in process with the United States Patent and Trademark Office under Lanham Act § 1054. Parallel EU trademark filing is in process with the European Union Intellectual Property Office.
+
+**Copyright.** © 2026 The Paleo Foundation. All rights reserved. This manual may be cited in academic, regulatory, and legal contexts using standard citation practice. Direct reproduction of substantial portions requires written permission from The Paleo Foundation. Per-chapter extraction as a licensing exhibit is authorized for executed Licensees per the License Agreement.
+
+**Database rights.** The heavymetalindex.com corpus that this manual references is protected under EU Database Directive (96/9/EC), 15-year sui generis term, by virtue of The Paleo Foundation's Cyprus operating base. Substantial extraction or re-utilization of the database without authorization is prohibited.
+
+**Trade secret.** The HMTc pooling engine and its associated methodology implementations (source-pooling algorithms, calibration analysis, per-source weighting rules, and related components) are protected as trade secrets per applicable Cypriot and EU trade-secret law. Authorized disclosure of engine internals occurs only under controlled-terms request to the Program Operator.
+
+## Production credits
+
+**Typesetting and design.** This v0-pre-audit edition is rendered in markdown for review. The audit-strengthened v0 will be typeset using Typst or Quarto evaluated against the full ~135-page document; the typesetting toolchain is selected after content lock. Typefaces (FreightText Pro for display and serif body; Avenir Next Cyr for sans-serif) are licensed for use under standard commercial typeface licenses.
+
+**Build pipeline.** Content lives in markdown under `data/workbench/standards-book/` and is concatenated by `tools/standards/build-program-manual.mjs` (in development). The Program Manual is regenerated by the autonomy daemon whenever the source documents (Governance Policy, Lot Testing Schedule, Governing Principles, or any of the 15 product briefings) change, ensuring the bound manual stays consistent with the current state of the operational documents.
+
+## Contact
+
+The Program Operator can be reached at:
+
+- **Email:** karen@paleofoundation.com
+- **Twitter / X:** @MicroMetallomics
+- **Program website:** heavymetaltested.com
+- **Evidence-base website:** heavymetalindex.com
+- **Postal:** [Cyprus address — controlled document registry]
+
+Questions about specific certifications, the licensing process, brand enrollment in the Confidential Remediation Track, methodology audit requests, and regulatory cooperation should be directed to the Program Operator through these channels.
+
+Adversarial reviewers, plaintiff's experts, defense attorneys, journalists, and academic researchers who need program documentation beyond what is reproduced in this manual should also direct inquiries through the same channels; the Program Operator responds to such inquiries on a documented timeline consistent with the Foundation's transparency commitments.
+
+## Version
+
+This is **v0-pre-audit** of the 2026 Edition. The audit-strengthened v0 ships after Pre-work 6 (the adversarial audit of the drafted manual) is complete and the Program-Level Adversarial Read in Part 5.2 is rewritten from the audit findings. The audit-strengthened v0 will be the artifact distributed to early Licensees, regulators, and academic reviewers.
+
+---
+
+*End of Heavy Metal Tested & Certified Infant and Child Foods Program Manual, 2026 Edition.*
+
