@@ -91,3 +91,12 @@ That's it. From then on:
 No approval gates for things the model is qualified to decide. The audit
 log lives in `data/evidence/autonomy/` so any decision is retrospectively
 reviewable, but the model does not wait.
+
+## Tick 2026-05-14T09-49-10Z
+
+- Healing: see `data/evidence/autonomy/healing-report-2026-05-14.md`
+- Extraction: see `data/evidence/autonomy/extraction-report-2026-05-14.md`
+- Wishlist: see `data/evidence/autonomy/gap-driven-wishlist-2026-05-14.md`
+- Pooling: `data/evidence/hmtc_aggregate_distributions.csv` regenerated
+- Briefings: `data/workbench/briefings/*.md` regenerated
+- This tick: 1 healing reports, 1 extraction reports

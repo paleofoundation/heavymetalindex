@@ -100,18 +100,8 @@ for slug in infant-formula-powder-non-soy infant-formula-powder-soy-based \
   npm run briefing -- --product="$slug" 2>&1 | grep -E "Wrote|Analytes|Rationales" >> "$LOG_FILE" || true
 done
 
-# Step 7: commit + push if anything changed
-if ! git diff --quiet || ! git diff --cached --quiet; then
-  log "Changes detected; committing"
-  git add -A 2>&1 | tee -a "$LOG_FILE"
-  COMMIT_MSG="autonomy: daemon tick $TIMESTAMP — gap-healing + extraction + pooling + briefings"
-  git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
-  run_step "git push" git push origin "$(git branch --show-current)" || true
-else
-  log "No changes this tick."
-fi
-
-# Step 8: morning report — appended (so each day's ticks accumulate)
+# Step 7: morning report — appended BEFORE commit so the append lands in the
+# same tick's commit and the next tick doesn't see a dirty tree.
 {
   echo ""
   echo "## Tick $TIMESTAMP"
@@ -127,5 +117,16 @@ fi
     echo "- This tick: $fixes healing reports, $rows extraction reports"
   fi
 } >> "$MORNING_REPORT"
+
+# Step 8: commit + push if anything changed (includes the morning-report append)
+if ! git diff --quiet || ! git diff --cached --quiet; then
+  log "Changes detected; committing"
+  git add -A 2>&1 | tee -a "$LOG_FILE"
+  COMMIT_MSG="autonomy: daemon tick $TIMESTAMP — gap-healing + extraction + pooling + briefings"
+  git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
+  run_step "git push" git push origin "$(git branch --show-current)" || true
+else
+  log "No changes this tick."
+fi
 
 log "Daemon tick end."
