@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-powder-non-soy
 native_basis: powder_as_placed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-13T17:48:54.048Z
+generated_at: 2026-05-14T07:06:30.120Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** clean subcategory (within-pair)
 **Native basis for published thresholds:** powder_as_placed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-05-13
+**Date generated:** 2026-05-14
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -606,17 +606,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `4d7952814f5af83a69a1d8707c7931b26774f6e0` in the heavymetalindex.com repository.
+1. Checking out commit `abf342435f33b7c305b17f74568541ea45a52ed6` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-powder-non-soy` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-13T17:48:54.058Z |
+| Generated at | 2026-05-14T07:06:30.130Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `4d7952814f5af83a69a1d8707c7931b26774f6e0` |
+| Git commit | `abf342435f33b7c305b17f74568541ea45a52ed6` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 
