@@ -63,7 +63,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/vegetable-juices-root-vegetable-containing]]
 - [[products/plant-milks-non-soy-non-rice]]
 - [[products/plant-milks-soy-based]]
-- [[products/plant-milks-rice-based]]
+- [[products/plant-milks-rice-based]] — RETIRED, routes to Category 3 row 10 (Rice beverages) when built
 - [[products/flavored-waters]]
 - [[products/sports-energy-drinks]]
 - [[products/herbal-botanical-infusions]]

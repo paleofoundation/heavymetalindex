@@ -14,15 +14,29 @@ vulnerable_population: general_population
 applicable_regulations: [eu2023_ias_rice_drinks_30]
 evidence_fitness: EF-3
 public_evidence_label: Approaching the bar (iAs summary-level)
-review_state: phase3_part19
+review_state: retired
+retired: true
+retirement_date: 2026-04-28
+retirement_amendment: Category5_Step_0_Amendment_1
+retirement_authority: Step Zero Protocol v1.4 §0G operation 2
+redirect_target: products/rice-beverages
+redirect_target_pending: true
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
+updated: 2026-05-14
 sources: 4
 ---
 
-# Plant Milks, Rice-Based
+# Plant Milks, Rice-Based — RETIRED
 
-This page is HMTc Category 5 row 7. It now has a usable regulatory-versus-field-finding comparison for inorganic arsenic in finished rice-based drinks.
+> **This subcategory has been re-routed to Category 3, currently in build. The standards page will be available when Category 3 is finalized.**
+>
+> HMTc Category 5 row 7 was retired under [Category 5 Step 0 Amendment 1](Category5_Step_0_Amendment_1) (April 28, 2026), authority Step Zero Protocol v1.4 §0G operation 2. Rice-based plant milks (rice milk) are certified under Category 3 (Grains, Cereals, and Rice Products), row 10 (Rice beverages), so that the rice contamination platform is handled coherently within one category. This URL is preserved permanently and will resolve to the Category 3 row 10 standards page once Category 3 is locked.
+>
+> The literature evidence below is retained for historical reference and will be re-routed to the Category 3 row 10 page when that page is built. No HMTc standards values are published from this page.
+
+## Historical literature evidence (Category 5 row 7, retired)
+
+The content below was the original Category 5 row 7 literature synthesis. It is preserved verbatim for traceability under the locked-file-immutability principle. Standards inheritance moves to Category 3 row 10.
 
 ## Who this page is for
 

@@ -23,7 +23,7 @@ This page is the wiki hub for the locked Category 5 Step 0 beverage row architec
 | 4 | [[products/vegetable-juices-root-vegetable-containing|Vegetable juices, root-vegetable-containing]] | vegetable-juices | contamination platform |
 | 5 | [[products/plant-milks-non-soy-non-rice|Plant milks (almond, oat, coconut, other non-soy/non-rice)]] | plant-milks | clean benchmark |
 | 6 | [[products/plant-milks-soy-based|Plant milks, soy-based]] | plant-milks | contamination platform |
-| 7 | [[products/plant-milks-rice-based|Plant milks, rice-based]] | plant-milks | contamination platform |
+| 7 | [[products/plant-milks-rice-based\|Plant milks, rice-based — RETIRED]] | plant-milks | retired → Category 3 row 10 (Rice beverages); Amendment 1, 2026-04-28 |
 | 8 | [[products/flavored-waters|Flavored waters]] | flavored-waters | independent no split |
 | 9 | [[products/sports-energy-drinks|Sports/energy drinks]] | sports-energy-drinks | independent no split |
 | 10 | [[products/herbal-botanical-infusions|Herbal/botanical infusions]] | tea-taxonomy | clean benchmark |
