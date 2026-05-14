@@ -175,16 +175,42 @@ done
   echo ""
   echo "## Tick $TIMESTAMP"
   echo ""
-  echo "- Healing: see \`data/evidence/autonomy/healing-report-$(date +%Y-%m-%d).md\`"
-  echo "- Extraction: see \`data/evidence/autonomy/extraction-report-$(date +%Y-%m-%d).md\`"
-  echo "- Wishlist: see \`data/evidence/autonomy/gap-driven-wishlist-$(date +%Y-%m-%d).md\`"
-  echo "- Pooling: \`data/evidence/hmtc_aggregate_distributions.csv\` regenerated"
-  echo "- Briefings: \`data/workbench/briefings/*.md\` regenerated"
   if [[ -f "$LOG_FILE" ]]; then
-    fixes=$(grep -c "Fixes applied:" "$LOG_FILE" 2>/dev/null || echo 0)
-    rows=$(grep -c "Rows extracted:" "$LOG_FILE" 2>/dev/null || echo 0)
-    echo "- This tick: $fixes healing reports, $rows extraction reports"
+    # Pull headline numbers from this tick's log
+    routing_unresolved=$(grep -oE "[0-9]+ unresolved target" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+" | head -1)
+    routing_malformed=$(grep -oE "[0-9]+ malformed source" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+" | head -1)
+    pages_created=$(grep -oE "Created [0-9]+ stub page" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+    fw_errors=$(grep -oE "ERRORS:\s+[0-9]+" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+    fw_warns=$(grep -oE "WARNINGS:\s+[0-9]+" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+    mandatory_failures=$(grep -oE "[0-9]+ ingredient \+ [0-9]+ product failures" "$LOG_FILE" | tail -1)
+    autofilled=$(grep -oE "[0-9]+ files autofilled" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+    provenance_violations=$(grep -oE "Total unsourced claims: [0-9]+" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+    orphans_linked=$(grep -oE "Auto-linked [0-9]+ orphan" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+    ingest_ok=$(grep -oE "Batch complete: [0-9]+ OK" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+    ingest_fail=$(grep -cE "OK, [0-9]+ failed" "$LOG_FILE" || echo 0)
+    ingest_fail_count=$(grep -oE "[0-9]+ failed" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+
+    echo "### State"
+    echo "- Routing: ${routing_unresolved:-?} unresolved, ${routing_malformed:-?} malformed (advisory)"
+    echo "- Firewall: ${fw_errors:-?} ERRORS, ${fw_warns:-?} WARNINGS"
+    echo "- Mandatory sections: ${mandatory_failures:-?}"
+    echo "- Provenance: ${provenance_violations:-?} unsourced claims (backlog)"
+    echo ""
+    echo "### Work this tick"
+    [[ -n "$pages_created" && "$pages_created" -gt 0 ]] && echo "- Auto-created $pages_created stub page(s) from routing_unresolved"
+    [[ -n "$autofilled" && "$autofilled" -gt 0 ]] && echo "- Mandatory-sections autofilled: $autofilled file(s)"
+    [[ -n "$orphans_linked" && "$orphans_linked" -gt 0 ]] && echo "- Orphans linked: $orphans_linked"
+    [[ -n "$ingest_ok" ]] && echo "- Marker ingest: $ingest_ok succeeded, ${ingest_fail_count:-0} failed"
+    echo ""
   fi
+  echo "### Reports"
+  echo "- Healing: \`data/evidence/autonomy/healing-report-$(date +%Y-%m-%d).md\`"
+  echo "- Extraction: \`data/evidence/autonomy/extraction-report-$(date +%Y-%m-%d).md\`"
+  echo "- Firewall lint: \`data/evidence/autonomy/firewall-lint-$(date +%Y-%m-%d).md\`"
+  echo "- Mandatory sections: \`data/evidence/autonomy/mandatory-sections-$(date +%Y-%m-%d).md\`"
+  echo "- Provenance: \`data/evidence/autonomy/provenance-audit-$(date +%Y-%m-%d).md\`"
+  echo "- Wishlist: \`data/evidence/autonomy/gap-driven-wishlist-$(date +%Y-%m-%d).md\`"
+  echo "- Marker ingest: \`data/evidence/autonomy/ingest-batch-$(date +%Y-%m-%d).md\`"
 } >> "$MORNING_REPORT"
 
 # Step 8: commit + push if anything changed (includes the morning-report append)
