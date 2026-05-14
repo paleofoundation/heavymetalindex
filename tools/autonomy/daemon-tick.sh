@@ -93,6 +93,19 @@ run_step "heal-gaps" node tools/autonomy/heal-gaps.mjs || true
 # Step 3: source-page → structured-CSV extractor
 run_step "extract-source-values" node tools/autonomy/extract-source-values.mjs || true
 
+# Step 3b: autonomous Marker-corpus ingest (Phase 1 v0). Bounded to a small
+# batch per tick so a stuck ingest does not block the rest of the loop.
+# Disable by setting HMI_AUTONOMOUS_INGEST=0 in launchd env. Default model is
+# Haiku 4.5 for cost; bump to Sonnet 4.6 by setting HMI_INGEST_MODEL.
+INGEST_ENABLED="${HMI_AUTONOMOUS_INGEST:-1}"
+INGEST_MAX="${HMI_INGEST_MAX_PAPERS:-2}"
+INGEST_MODEL="${HMI_INGEST_MODEL:-claude-haiku-4-5-20251001}"
+INGEST_PRIORITY="${HMI_INGEST_PRIORITY:-P1,P2}"
+if [[ "$INGEST_ENABLED" == "1" ]]; then
+  run_step "ingest-marker-batch" node tools/autonomy/ingest-marker-batch.mjs \
+    "--max-papers=$INGEST_MAX" "--priority=$INGEST_PRIORITY" "--model=$INGEST_MODEL" || true
+fi
+
 # Step 4: pooling engine refresh
 run_step "pooling engine" node tools/evidence/build-hmtc-aggregate-distributions.mjs || true
 
