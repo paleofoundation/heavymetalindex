@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: fish-containing-baby-foods
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T16:49:01.516Z
+generated_at: 2026-05-14T20:54:13.831Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 # HMTc Standards Briefing — Fish-Containing Baby Foods
 
 **Product class:** Fish-Containing Baby Foods
-**Subcategory role:** dirty subcategory (within-pair)
+**Subcategory role:** higher-contamination-sibling
 **Native basis for published thresholds:** as_consumed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
 **Date generated:** 2026-05-14
@@ -192,17 +192,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `c1e01f6be471e2fc7832af37a9eae3dda9583db9` in the heavymetalindex.com repository.
+1. Checking out commit `6b92f2b239aa06eaf33f68338ef8de427f3f21af` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=fish-containing-baby-foods` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T16:49:01.528Z |
+| Generated at | 2026-05-14T20:54:13.842Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `c1e01f6be471e2fc7832af37a9eae3dda9583db9` |
+| Git commit | `6b92f2b239aa06eaf33f68338ef8de427f3f21af` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

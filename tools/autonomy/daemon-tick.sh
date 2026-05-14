@@ -139,6 +139,11 @@ run_step "mandatory sections" node tools/autonomy/mandatory-sections.mjs || true
 # tool surfaces the backlog so synthesis sessions can fix it incrementally.
 run_step "provenance audit" node tools/autonomy/provenance-audit.mjs || true
 
+# Step 4f: link orphans — append any product/ingredient/metal/regulation page
+# not yet listed in its per-category index to a marker-managed "Auto-linked
+# stubs" section at the bottom. Idempotent.
+run_step "link orphans" node tools/autonomy/link-orphans.mjs || true
+
 # Step 5: gap-driven wishlist (queries for thin cells)
 run_step "gap-driven wishlist" node tools/autonomy/gap-driven-wishlist.mjs || true
 

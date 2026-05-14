@@ -25,3 +25,39 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 - [[regulations/fda-ctz-Pb-babyfood-10ppb]] - 10 ppb lead action level for covered processed baby-food fruits, non-root vegetables, mixtures, yogurts, custards/puddings, and single-ingredient meats.
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]] - 20 ppb lead action level for single-ingredient root vegetables.
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] - 20 ppb lead action level for dry infant cereals.
+
+<!-- BEGIN: hmi-auto-linked-stubs -->
+
+## Auto-linked stubs
+
+_Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
+
+- [[regulations/atsdr-aluminum-mrls|ATSDR — Minimal Risk Levels for Aluminum]]
+- [[regulations/atsdr-cadmium-mrls|ATSDR — Minimal Risk Levels for Cadmium]]
+- [[regulations/codex-cadmium-mls|Codex Alimentarius — Maximum Levels for Cadmium in Food]]
+- [[regulations/efsa-aluminium-twi|EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)]]
+- [[regulations/efsa-arsenic-contam-2009|EFSA — Arsenic in Food (2009), No-PTWI Position]]
+- [[regulations/efsa-cadmium-twi|EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week]]
+- [[regulations/efsa-lead-contam-2010|EFSA — Lead in Food (2010), No-Threshold Position]]
+- [[regulations/efsa-mercury-twi|EFSA — Inorganic Mercury Tolerable Weekly Intake (4 µg/kg b.w./week)]]
+- [[regulations/efsa-methylmercury-twi|EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)]]
+- [[regulations/efsa-nickel-tdi|EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)]]
+- [[regulations/epa-arsenic-mcl|EPA — Maximum Contaminant Level for Arsenic in Drinking Water]]
+- [[regulations/epa-iris-cadmium-rfd|EPA IRIS — Cadmium Oral Reference Doses]]
+- [[regulations/epa-iris-inorganic-arsenic-rfd|EPA IRIS — Inorganic Arsenic Toxicological Review (January 2025)]]
+- [[regulations/epa-iris-lead-rfd|EPA IRIS — Lead, Oral RfD and Carcinogenicity Assessment]]
+- [[regulations/epa-iris-mercury-rfd|EPA IRIS — Mercuric Chloride Oral Reference Dose]]
+- [[regulations/epa-iris-methylmercury-rfd|EPA IRIS — Methylmercury Oral Reference Dose]]
+- [[regulations/eu-2023-915-lead-infant-young-child-foods|EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods]]
+- [[regulations/eu-nickel-directive-94-27-ec|EU Nickel Directive 94/27/EC]]
+- [[regulations/fda-iAs-rice-cereal-100ppb|FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal]]
+- [[regulations/fda-juice-haccp-lead-50ppb|FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice]]
+- [[regulations/fda2022-draft-lead-juice|FDA 2022 Draft — Lead Action Levels for Juice]]
+- [[regulations/jecfa-arsenic-bmdl|JECFA inorganic arsenic BMDL₀.₅ (lower-limit benchmark dose)]]
+- [[regulations/jecfa-cadmium-ptmi|JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month]]
+- [[regulations/jecfa-lead-ptwi-withdrawn|JECFA — Lead Provisional Tolerable Weekly Intake (Withdrawn 2010)]]
+- [[regulations/jecfa-methylmercury-ptwi|JECFA — Methylmercury Provisional Tolerable Weekly Intake (1.6 µg/kg b.w./week)]]
+- [[regulations/oehha-arsenic-prop65|California Proposition 65 — Inorganic Arsenic Compounds Listing]]
+- [[regulations/oehha-cadmium-prop65|California Proposition 65 — Cadmium Listing and Maximum Allowable Daily Level]]
+- [[regulations/oehha-lead-prop65|California Proposition 65 — Lead and Lead Compounds Listing]]
+<!-- END: hmi-auto-linked-stubs -->

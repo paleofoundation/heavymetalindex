@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: baby-cereals-dry-rice-based
 native_basis: dry_as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T16:49:00.432Z
+generated_at: 2026-05-14T20:54:12.728Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 # HMTc Standards Briefing — Baby Cereals / Grain Products, Dry (Rice-Based)
 
 **Product class:** Baby Cereals / Grain Products, Dry (Rice-Based)
-**Subcategory role:** dirty subcategory (within-pair)
+**Subcategory role:** higher-contamination-sibling
 **Native basis for published thresholds:** dry_as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
 **Date generated:** 2026-05-14
@@ -42,9 +42,9 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | **5 ppb** [dry]<br>≈ 1 ppb [prepared] | 295.627 ppb (capped to 4.8 by reg cap) | literature-baseline | 4 | stable | 20 ppb (fda2025_pb_dry_infant_cereal_20) |
-| iAs | **100 ppb** [dry]<br>≈ 15 ppb [prepared] | 280.832 ppb (capped to 81.6 by reg cap) | literature-baseline | 9 | stable | 100 ppb (fda2020_ias_infant_rice_cereal_100) |
-| Cd | **20 ppb** [dry]<br>≈ 3 ppb [prepared] | 137.662 ppb (capped to 17.5 by reg cap) | literature-baseline | 4 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
+| Pb | **20 ppb** [dry]<br>≈ 3 ppb [prepared] | 295.627 ppb (capped to 20 by reg cap) | regulatory-alignment | 4 | stable | 20 ppb (fda2025_pb_dry_infant_cereal_20) |
+| iAs | **100 ppb** [dry]<br>≈ 15 ppb [prepared] | 280.832 ppb (capped to 100 by reg cap) | regulatory-alignment | 9 | stable | 100 ppb (fda2020_ias_infant_rice_cereal_100) |
+| Cd | **50 ppb** [dry]<br>≈ 10 ppb [prepared] | 137.662 ppb (capped to 40 by reg cap) | regulatory-alignment | 4 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -76,26 +76,26 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Pb
 
-**Published HMTc threshold:** 5 ppb [dry] · 4.780 ppb (pre-rounding)
-**Cross-basis: ≈ 1 ppb [prepared] (÷7 (1:7 reconstitution))**
-**Rationale tag:** `literature-baseline`
+**Published HMTc threshold:** 20 ppb [dry] · 20 ppb (pre-rounding)
+**Cross-basis: ≈ 3 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 20 ppb (fda2025_pb_dry_infant_cereal_20)
 **Pool composition:** 4 sources contributing · 50 pseudo-samples in pool · 2 sample-level contributors
-**Bootstrap 95% CI: [0.26, 164.61] ppb**
-**Sensitivity: log-normal 4.77 · gamma 4.78 · nonparametric 4.78 ppb · spread 0% (stable)**
+**Bootstrap 95% CI: [1.83, 385.67] ppb**
+**Sensitivity: log-normal 319.62 · gamma 304.22 · nonparametric 298.67 ppb · spread 7% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (fda2025_pb_dry_infant_cereal_20). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 295.63 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** This threshold matches the binding government cap (fda2025_pb_dry_infant_cereal_20). A Daubert challenge on the value reduces to "is fda2025_pb_dry_infant_cereal_20 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 5 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 20 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** HMTc threshold = fda2025_pb_dry_infant_cereal_20 cap. The pooled occurrence distribution from 4 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 <details>
 <summary>Per-source contribution log (4 admitted)</summary>
@@ -111,26 +111,26 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### iAs
 
-**Published HMTc threshold:** 100 ppb [dry] · 81.570 ppb (pre-rounding)
+**Published HMTc threshold:** 100 ppb [dry] · 100 ppb (pre-rounding)
 **Cross-basis: ≈ 15 ppb [prepared] (÷7 (1:7 reconstitution))**
-**Rationale tag:** `literature-baseline`
+**Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 100 ppb (fda2020_ias_infant_rice_cereal_100)
 **Pool composition:** 9 sources contributing · 296 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [2.19, 99.01] ppb**
-**Sensitivity: log-normal 83.18 · gamma 86.41 · nonparametric 85.14 ppb · spread 4% (stable)**
+**Bootstrap 95% CI: [161.38, 386.35] ppb**
+**Sensitivity: log-normal 297.55 · gamma 285.42 · nonparametric 311.11 ppb · spread 8% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 9 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 100 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (fda2020_ias_infant_rice_cereal_100). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 280.83 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 9 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** This threshold matches the binding government cap (fda2020_ias_infant_rice_cereal_100). A Daubert challenge on the value reduces to "is fda2020_ias_infant_rice_cereal_100 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
 **Retailer compliance read.** A certified product tests at or below 100 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 9 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** HMTc threshold = fda2020_ias_infant_rice_cereal_100 cap. The pooled occurrence distribution from 9 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 <details>
 <summary>Per-source contribution log (9 admitted)</summary>
@@ -151,26 +151,26 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** 20 ppb [dry] · 17.541 ppb (pre-rounding)
-**Cross-basis: ≈ 3 ppb [prepared] (÷7 (1:7 reconstitution))**
-**Rationale tag:** `literature-baseline`
+**Published HMTc threshold:** 50 ppb [dry] · 40 ppb (pre-rounding)
+**Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 40 ppb (eu2023_cd_babyfood_cereal_40)
 **Pool composition:** 4 sources contributing · 32 pseudo-samples in pool · 2 sample-level contributors
-**Bootstrap 95% CI: [3, 78.53] ppb**
-**Sensitivity: log-normal 17.53 · gamma 17.53 · nonparametric 17.51 ppb · spread 0% (stable)**
+**Bootstrap 95% CI: [3, 146.72] ppb**
+**Sensitivity: log-normal 134.34 · gamma 131.72 · nonparametric 133.70 ppb · spread 2% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 40 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (eu2023_cd_babyfood_cereal_40). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 137.66 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** This threshold matches the binding government cap (eu2023_cd_babyfood_cereal_40). A Daubert challenge on the value reduces to "is eu2023_cd_babyfood_cereal_40 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 20 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 50 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** HMTc threshold = eu2023_cd_babyfood_cereal_40 cap. The pooled occurrence distribution from 4 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 <details>
 <summary>Per-source contribution log (4 admitted)</summary>
@@ -198,6 +198,9 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
+
+**Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."**
+Response: For Pb, iAs, Cd, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
 Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
@@ -234,7 +237,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 | 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (3 of 10) |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
 | 3 | Every published value is on the primary increment ladder | ✓ PASS |
-| 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
+| 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✗ FAIL |
 | 5 | Every basis-tagged value carries the cross-basis equivalent | ✓ PASS |
 | 6 | The six-move anti-circumvention argument is present | ✓ PASS |
 | 7 | Every contributing source has a source page in `wiki/sources/` | (verified at generation time) |
@@ -278,17 +281,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `c1e01f6be471e2fc7832af37a9eae3dda9583db9` in the heavymetalindex.com repository.
+1. Checking out commit `6b92f2b239aa06eaf33f68338ef8de427f3f21af` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=baby-cereals-dry-rice-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T16:49:00.445Z |
+| Generated at | 2026-05-14T20:54:12.739Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `c1e01f6be471e2fc7832af37a9eae3dda9583db9` |
+| Git commit | `6b92f2b239aa06eaf33f68338ef8de427f3f21af` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

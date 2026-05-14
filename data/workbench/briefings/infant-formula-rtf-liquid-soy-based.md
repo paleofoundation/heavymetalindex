@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-rtf-liquid-soy-based
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T16:49:00.251Z
+generated_at: 2026-05-14T20:54:12.562Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -13,7 +13,7 @@ noindex: true
 # HMTc Standards Briefing — Infant Formula, RTF Liquid (Soy-Based)
 
 **Product class:** Infant Formula, RTF Liquid (Soy-Based)
-**Subcategory role:** dirty subcategory (within-pair)
+**Subcategory role:** higher-contamination-sibling
 **Native basis for published thresholds:** as_consumed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
 **Date generated:** 2026-05-14
@@ -43,7 +43,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
 | Ni | *data gap* | — | no-data | 0 | no_data | — |
-| Cd | **2 ppb** [as-consumed]<br>≈ 10 ppb [powder] | 3.616 ppb (capped to 1.1 by reg cap) | literature-baseline | 3 | stable | 10 ppb (eu2023_cd_formula_soy_liquid_10) |
+| Cd | **5 ppb** [as-consumed]<br>≈ 50 ppb [powder] | 3.616 ppb | literature-baseline | 3 | stable | 10 ppb (eu2023_cd_formula_soy_liquid_10) |
 | Al | *data gap* | 768.747 ppb | no-data | 1 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
@@ -99,13 +99,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** 2 ppb [as-consumed] · 1.079 ppb (pre-rounding)
-**Cross-basis: ≈ 10 ppb [powder] (×7 (1:7 reconstitution))**
+**Published HMTc threshold:** 5 ppb [as-consumed] · 3.616 ppb (pre-rounding)
+**Cross-basis: ≈ 50 ppb [powder] (×7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 10 ppb (eu2023_cd_formula_soy_liquid_10)
 **Pool composition:** 3 sources contributing · 33 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [0.87, 1.97] ppb**
-**Sensitivity: log-normal 1.15 · gamma 1.16 · nonparametric 1.19 ppb · spread 4% (stable)**
+**Bootstrap 95% CI: [1.36, 8.17] ppb**
+**Sensitivity: log-normal 5.18 · gamma 4.68 · nonparametric 5.48 ppb · spread 14% (stable)**
 
 
 
@@ -115,7 +115,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 2 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 5 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
 **Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -137,7 +137,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `no-data`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [767.51, 770.35] ppb**
+**Bootstrap 95% CI: [767.51, 770.69] ppb**
 **Sensitivity: log-normal 768.89 · gamma 769.16 · nonparametric 768.94 ppb · spread 0% (stable)**
 
 
@@ -250,17 +250,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `c1e01f6be471e2fc7832af37a9eae3dda9583db9` in the heavymetalindex.com repository.
+1. Checking out commit `6b92f2b239aa06eaf33f68338ef8de427f3f21af` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-rtf-liquid-soy-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T16:49:00.263Z |
+| Generated at | 2026-05-14T20:54:12.573Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `c1e01f6be471e2fc7832af37a9eae3dda9583db9` |
+| Git commit | `6b92f2b239aa06eaf33f68338ef8de427f3f21af` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

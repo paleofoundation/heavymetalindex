@@ -2,36 +2,36 @@
 
 ## Summary
 
-- Cells flagged as thin: 60.5
-- Total OpenAlex queries emitted: 242
+- Cells flagged as thin: 102
+- Total OpenAlex queries emitted: 408
 - By verdict:
-  - BLOCKED: 81 cells
-  - PROVISIONAL: 10 cells
+  - BLOCKED: 172 cells
+  - PROVISIONAL: 7 cells
 
 ## Top 20 priority queries
 
 | Priority | Product × Metal | Query |
 |---|---|---|
-| P1 | coffee × tAs | coffee total arsenic occurrence |
-| P1 | coffee × tAs | coffee arsenic occurrence |
-| P1 | fermented-beverages-non-tea-based × Pb | fermented beverages non tea based lead occurrence |
-| P1 | fermented-beverages-non-tea-based × Pb | fermented beverages non tea based Pb occurrence |
-| P1 | fermented-beverages-non-tea-based × Cd | fermented beverages non tea based cadmium occurrence |
-| P1 | fermented-beverages-non-tea-based × Cd | fermented beverages non tea based Cd occurrence |
-| P1 | fish-containing-baby-foods × MeHg | fish baby food methylmercury occurrence |
-| P1 | fish-containing-baby-foods × MeHg | fish baby food methyl mercury occurrence |
-| P1 | fish-containing-baby-foods × MeHg | salmon baby food methylmercury occurrence |
-| P1 | fish-containing-baby-foods × MeHg | salmon baby food methyl mercury occurrence |
-| P1 | fish-containing-baby-foods × MeHg | tuna infant food methylmercury occurrence |
-| P1 | fish-containing-baby-foods × MeHg | tuna infant food methyl mercury occurrence |
-| P1 | flavored-waters × Pb | flavored waters lead occurrence |
-| P1 | flavored-waters × Pb | flavored waters Pb occurrence |
-| P1 | glucose-solutions × Al | glucose solutions aluminum occurrence |
-| P1 | glucose-solutions × Al | glucose solutions aluminium occurrence |
-| P1 | glucose-solutions × Cd | glucose solutions cadmium occurrence |
-| P1 | glucose-solutions × Cd | glucose solutions Cd occurrence |
-| P1 | glucose-solutions × Pb | glucose solutions lead occurrence |
-| P1 | glucose-solutions × Pb | glucose solutions Pb occurrence |
+| P1 | baby-talcum-powder × Pb | baby talcum powder lead occurrence |
+| P1 | baby-talcum-powder × Pb | baby talcum powder Pb occurrence |
+| P1 | baby-talcum-powder × Cd | baby talcum powder cadmium occurrence |
+| P1 | baby-talcum-powder × Cd | baby talcum powder Cd occurrence |
+| P1 | baby-talcum-powder × tHg | baby talcum powder total mercury occurrence |
+| P1 | baby-talcum-powder × tHg | baby talcum powder mercury occurrence |
+| P1 | baby-talcum-powder × tAs | baby talcum powder total arsenic occurrence |
+| P1 | baby-talcum-powder × tAs | baby talcum powder arsenic occurrence |
+| P1 | baby-talcum-powder × Ni | baby talcum powder nickel occurrence |
+| P1 | baby-talcum-powder × Cr | baby talcum powder Cr occurrence |
+| P1 | canned-fish × tAs | canned fish total arsenic occurrence |
+| P1 | canned-fish × tAs | canned fish arsenic occurrence |
+| P1 | canned-fish × MeHg | canned fish methylmercury occurrence |
+| P1 | canned-fish × MeHg | canned fish methyl mercury occurrence |
+| P1 | canned-fruit × Pb | canned fruit lead occurrence |
+| P1 | canned-fruit × Pb | canned fruit Pb occurrence |
+| P1 | canned-fruit × Cd | canned fruit cadmium occurrence |
+| P1 | canned-fruit × Cd | canned fruit Cd occurrence |
+| P1 | canned-fruit × tAs | canned fruit total arsenic occurrence |
+| P1 | canned-fruit × tAs | canned fruit arsenic occurrence |
 
 ## How this feeds the corpus
 
