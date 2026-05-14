@@ -90,7 +90,8 @@ Cat 2 status:         OPENED — 3 sources, 3 product rows, 1 reg page; methodol
 - **126 orphans auto-linked** to category indexes (96 in first pass + 30 in second pass after Cat 2 additions)
 - **33 wiki/ files rewritten** by firewall-fix (workbench vocabulary removed)
 - **8 new autonomy tools committed** (alias-aware routing, create-missing-pages, ingest-marker-batch, firewall-lint, firewall-fix, mandatory-sections, provenance-audit, link-orphans)
-- **23 commits** to main (+ 1 daemon tick commit during session)
+- **Cat 2 toxicology supplement v1** (`wiki/health/cat-2-non-ingestion-exposure-pathways.md`) — per OPERATING.md Part 7 initiative 3.1, the missing prerequisite for defensible Cat 2 thresholds. Documents the four exposure pathways (dermal, inhalation, product-mediated ingestion, trans-placental) with per-pathway absorption fractions and vulnerable-population factors. Open questions section flags where additional toxicokinetic data is needed.
+- **25 commits** to main (+ 1 daemon tick commit during session)
 
 ### Cat 2 (Children Personal Care) opening summary
 
