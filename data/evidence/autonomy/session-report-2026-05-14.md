@@ -75,7 +75,7 @@ Cat 1 status:         EXPANDED — 5 new sources covering rice, fish, seafood, m
 
 ### Daily session deltas (final tally at 21:30Z)
 
-- **15 manually-authored source pages** (+ 1 dedup pointer):
+- **16 manually-authored source pages** (+ 1 dedup pointer):
   **Cat 1 — Food**:
   - `han2024-nickel-zhejiang-china` — P1 Manual Resourcing pile; nickel in 2628 Chinese food samples
   - `arsenic2025-unknown` — Navaretnam 2025 arsenic speciation in 30 Malaysian rice samples (manifest cite-key locked to "unknown" due to text-mining artifact)
@@ -86,6 +86,7 @@ Cat 1 status:         EXPANDED — 5 new sources covering rice, fish, seafood, m
   - `abebe2017-popcorn-cornflake-metals-ethiopia` — Ethiopian popcorn Pb 0.94 mg/kg (5-9x EU ceiling)
   - `chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi` — mRPI cumulative-risk framework, 969 Chongqing participants, Pb dominates neuro, Cd+Pb dominate nephro; reusable speciation conversion factors
   - `price2023-biokinetic-lead-baby-food-blls` — Stantec ChemRisk IEUBK/ICRP/AALM Pb model comparison; food contributes <15% of BLL variance, soil/dust dominate (first P1 paper from Marker corpus)
+  - `napier2024-wanabana-apple-cinnamon-puree-lead-NC` — 2023-2024 WanaBana apple cinnamon outbreak; 500 nationwide childhood Pb cases; product Pb 1.9-3.0 ppm (200-300x FDA action level); intentional lead chromate adulteration in Ecuador-sourced cinnamon
 
   **Cat 2 — Children Personal Care**:
   - `rashmi2020-baby-talcum-powder-heavy-metals-india` — Cat 2 baby talcum powder, three Indian brands
