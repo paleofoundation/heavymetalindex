@@ -75,7 +75,7 @@ Cat 1 status:         EXPANDED — 5 new sources covering rice, fish, seafood, m
 
 ### Daily session deltas (final tally at 21:30Z)
 
-- **13 manually-authored source pages** (+ 1 dedup pointer):
+- **15 manually-authored source pages** (+ 1 dedup pointer):
   **Cat 1 — Food**:
   - `han2024-nickel-zhejiang-china` — P1 Manual Resourcing pile; nickel in 2628 Chinese food samples
   - `arsenic2025-unknown` — Navaretnam 2025 arsenic speciation in 30 Malaysian rice samples (manifest cite-key locked to "unknown" due to text-mining artifact)
@@ -84,6 +84,8 @@ Cat 1 status:         EXPANDED — 5 new sources covering rice, fish, seafood, m
   - `garofalo2025-seafood-cd-pb-hg-italy-10yr` — IZSLT 10-year monitoring of 5,854 Italian seafood samples; swordfish 11.3% Hg-non-compliance
   - `rabeey2025-bovine-meat-organs-hg-pb-cd-egypt` — 315 imported frozen bovine samples (Brazil/India/USA→Egypt); 54-63% Pb non-compliance
   - `abebe2017-popcorn-cornflake-metals-ethiopia` — Ethiopian popcorn Pb 0.94 mg/kg (5-9x EU ceiling)
+  - `chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi` — mRPI cumulative-risk framework, 969 Chongqing participants, Pb dominates neuro, Cd+Pb dominate nephro; reusable speciation conversion factors
+  - `price2023-biokinetic-lead-baby-food-blls` — Stantec ChemRisk IEUBK/ICRP/AALM Pb model comparison; food contributes <15% of BLL variance, soil/dust dominate (first P1 paper from Marker corpus)
 
   **Cat 2 — Children Personal Care**:
   - `rashmi2020-baby-talcum-powder-heavy-metals-india` — Cat 2 baby talcum powder, three Indian brands
@@ -104,7 +106,7 @@ Cat 1 status:         EXPANDED — 5 new sources covering rice, fish, seafood, m
 - **33 wiki/ files rewritten** by firewall-fix (workbench vocabulary removed)
 - **8 new autonomy tools committed** (alias-aware routing, create-missing-pages, ingest-marker-batch, firewall-lint, firewall-fix, mandatory-sections, provenance-audit, link-orphans)
 - **Cat 2 toxicology supplement v1** (`wiki/health/cat-2-non-ingestion-exposure-pathways.md`) — per OPERATING.md Part 7 initiative 3.1, the missing prerequisite for defensible Cat 2 thresholds. Documents the four exposure pathways (dermal, inhalation, product-mediated ingestion, trans-placental) with per-pathway absorption fractions and vulnerable-population factors. Open questions section flags where additional toxicokinetic data is needed.
-- **37 commits** to main (+ 1 daemon tick commit during session)
+- **41+ commits** to main (+ 1 daemon tick commit during session)
 
 ### Cat 2 (Children Personal Care) opening summary
 
