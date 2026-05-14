@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-14
 
-Generated: 2026-05-14T11:20:56.822Z
+Generated: 2026-05-14T11:51:06.094Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 841
-- Pages with `## Key numbers` section: 738
+- Source pages processed: 863
+- Pages with `## Key numbers` section: 760
 - Pages without Key numbers section (skipped): 103
-- Structured rows extracted: 3706
+- Structured rows extracted: 3884
 - Pages with Key numbers but no parseable values: 52
 
 ## Output
@@ -19,13 +19,13 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 793 rows
-- Cd: 783 rows
-- Cr-total: 382 rows
-- Ni: 328 rows
-- tAs: 327 rows
-- Al: 251 rows
-- tHg: 227 rows
+- Pb: 837 rows
+- Cd: 819 rows
+- Cr-total: 405 rows
+- Ni: 350 rows
+- tAs: 335 rows
+- Al: 278 rows
+- tHg: 239 rows
 - iAs: 157 rows
 - MeHg: 75 rows
 - Cu: 64 rows
@@ -35,14 +35,14 @@ Elapsed: 0s
 - Co: 32 rows
 - Mn: 30 rows
 - Se: 29 rows
-- Sb: 20 rows
+- Sb: 22 rows
 - V: 10 rows
 - Ba: 10 rows
 - Mo: 8 rows
 - DMA: 7 rows
+- Cr-VI: 7 rows
 - K: 5 rows
 - Be: 3 rows
-- Cr-VI: 3 rows
 - B: 3 rows
 - Ca: 2 rows
 - Mg: 2 rows
@@ -59,7 +59,7 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2905 rows
+- (empty): 3072 rows
 - baby-cereals-dry-rice-based: 97 rows
 - infant-formula-powder-non-soy: 71 rows
 - seafood: 65 rows
