@@ -12,11 +12,11 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9271943/FM_9271943.md
 metals: [tAs, iAs, Pb, Cd, tHg]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]", "[[ingredients/apple]]", "[[ingredients/pear]]", "[[ingredients/fruit]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/infant-and-child-foods-master]]", "[[products/infant-formula]]"]
-matrices: [infant-food, baby-food, fruit-juice]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]", "[[ingredients/carrots]]", "[[ingredients/apple]]", "[[ingredients/pear]]", "[[ingredients/fruit]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/infant-and-child-foods-master]]", "[[products/infant-formula]]", "[[products/fruit-purees]]", "[[products/root-vegetable-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/teething-and-snacks-rice-based]]", "[[products/fruit-juice-not-canned]]", "[[products/mixed-meals-rice-containing]]"]
+matrices: [infant-food, baby-food, fruit-juice, toddler-food, infant-cereal, baby-puree, baby-snack, infant-juice]
 jurisdictions: [US, EU]
-near_duplicates: []
+near_duplicates: ["bair2022-toxic-heavy-metals-infant-toddler-foods"]
 sample_n: null
 sample_population: "Narrative review synthesizing Congressional Subcommittee findings, FDA testing, and peer-reviewed literature on infant and toddler food"
 updated: 2026-05-13
