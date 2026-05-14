@@ -1107,6 +1107,14 @@ Store extracted images in `raw/assets/<cite-key>/` if the source does not alread
 
 ## Part 24 — Things to proactively do
 
+**Read the prompt catalog at `docs/prompt-catalog.md` at the start of any session that involves running build pipelines, autonomous ingest, manual regeneration, or wiki synthesis work.** The catalog is the canonical index of every prompt and command pipeline in the project, organized by autonomous (daemon-driven), semi-autonomous (operator-triggered), tactical (one-shot), and maintenance categories. It is graded by efficiency for the goal each prompt serves. Future Claude sessions should not rediscover commands by grepping the codebase; the catalog exists so the right command is one read away.
+
+Companion documents the catalog points to:
+- `data/evidence/autonomy/8hr-build/00-plan.md` (8-hour autonomous build plan)
+- `data/evidence/autonomy/8hr-build/04-warp-execution-guide.md` (run-from-Warp instructions)
+- `data/workbench/standards-book/adversarial-audit.md` (Pre-work 6 audit output)
+- `data/workbench/standards-book/coherence-audit.md` (source-document consistency check)
+
 Flag regulatory changes. If during a web-augmented query Claude discovers an FDA, EU, or Codex update not yet in the wiki, tell Karen and suggest an ingest.
 
 Suggest new sources. At the end of any substantial ingest or query, propose two to five papers or reports to read next and why.
