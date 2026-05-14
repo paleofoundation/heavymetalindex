@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: root-vegetable-purees
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T07:06:31.400Z
+generated_at: 2026-05-14T09:09:30.192Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -80,7 +80,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 20 ppb (fda2025_pb_root_baby_food_20)
 **Pool composition:** 3 sources contributing · 20 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [0.65, 7.77] ppb**
+**Bootstrap 95% CI: [0.14, 10.92] ppb**
 **Sensitivity: log-normal 1.79 · gamma 1.18 · nonparametric 2.14 ppb · spread 45% (provisional)**
 
 
@@ -233,17 +233,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `abf342435f33b7c305b17f74568541ea45a52ed6` in the heavymetalindex.com repository.
+1. Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=root-vegetable-purees` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T07:06:31.411Z |
+| Generated at | 2026-05-14T09:09:30.202Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `abf342435f33b7c305b17f74568541ea45a52ed6` |
+| Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

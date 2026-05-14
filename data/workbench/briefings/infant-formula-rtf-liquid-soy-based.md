@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-rtf-liquid-soy-based
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T07:06:30.603Z
+generated_at: 2026-05-14T09:09:29.352Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -137,7 +137,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `no-data`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [767.35, 770.39] ppb**
+**Bootstrap 95% CI: [767.51, 770.35] ppb**
 **Sensitivity: log-normal 768.89 · gamma 769.16 · nonparametric 768.94 ppb · spread 0% (stable)**
 
 
@@ -250,17 +250,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `abf342435f33b7c305b17f74568541ea45a52ed6` in the heavymetalindex.com repository.
+1. Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-rtf-liquid-soy-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T07:06:30.613Z |
+| Generated at | 2026-05-14T09:09:29.362Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `abf342435f33b7c305b17f74568541ea45a52ed6` |
+| Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

@@ -2,9 +2,9 @@
 title: "HMTc Standards Briefing — Meat and Poultry Purees"
 type: hmtc-standards-briefing
 product_slug: meat-and-poultry-purees
-native_basis: powder_as_placed
+native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T07:06:31.561Z
+generated_at: 2026-05-14T09:09:30.358Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -14,7 +14,7 @@ noindex: true
 
 **Product class:** Meat and Poultry Purees
 **Subcategory role:** independent_added_step_0c
-**Native basis for published thresholds:** powder_as_placed
+**Native basis for published thresholds:** as_consumed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
 **Date generated:** 2026-05-14
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
@@ -42,7 +42,10 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-
+| Pb | *data gap* | — | no-data | 0 | no_data | 10 ppb (fda2025_pb_baby_food_10) |
+| tAs | *data gap* | — | no-data | 0 | no_data | — |
+| Cd | *data gap* | — | no-data | 0 | no_data | 40 ppb (eu2023_cd_babyfood_cereal_40) |
+| tHg | *data gap* | 3.915 ppb | no-data | 1 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -72,7 +75,105 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ## Per-Analyte Sections
 
+### Pb
 
+**Published HMTc threshold:** *data gap*
+**Rationale tag:** `no-data`
+**Regulatory ceiling reference:** 10 ppb (fda2025_pb_baby_food_10)
+**Pool composition:** 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
+**no_data**
+
+
+
+**Defensibility.** This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 0 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below no published value (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 0 contributing sources across multiple jurisdictions. Sensitivity band no_data.
+
+
+
+### tAs
+
+**Published HMTc threshold:** *data gap*
+**Rationale tag:** `no-data`
+**Regulatory ceiling reference:** no applicable cap loaded
+**Pool composition:** 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
+**no_data**
+
+
+
+**Defensibility.** This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 0 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below no published value (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 0 contributing sources across multiple jurisdictions. Sensitivity band no_data.
+
+
+
+### Cd
+
+**Published HMTc threshold:** *data gap*
+**Rationale tag:** `no-data`
+**Regulatory ceiling reference:** 40 ppb (eu2023_cd_babyfood_cereal_40)
+**Pool composition:** 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
+**no_data**
+
+
+
+**Defensibility.** This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 0 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below no published value (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 0 contributing sources across multiple jurisdictions. Sensitivity band no_data.
+
+
+
+### tHg
+
+**Published HMTc threshold:** *data gap*
+**Rationale tag:** `no-data`
+**Regulatory ceiling reference:** no applicable cap loaded
+**Pool composition:** 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [0.63, 15.79] ppb**
+**Sensitivity: log-normal 1.42 · gamma 1.45 · nonparametric 1.36 ppb · spread 6% (stable)**
+
+
+
+**Defensibility.** This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 1 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below no published value (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 1 contributing sources across multiple jurisdictions. Sensitivity band stable.
+
+<details>
+<summary>Per-source contribution log (1 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| meli2024-chemical-characterization-baby-food-italy (2024) · EU, Italy | Chemical characterization of baby food consumed in Italy | wet_weight | 4 | lognormal_mean_only | 100.0% |
+
+</details>
 
 ---
 
@@ -121,7 +222,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 
 | Gate | Description | Status |
 |---|---|---|
-| 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (0 of 10) |
+| 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (4 of 10) |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
 | 3 | Every published value is on the primary increment ladder | ✓ PASS |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
@@ -131,7 +232,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 | 8 | Human sign-off by Karen + co-authors | ⚠ PENDING (this is the draft) |
 | 9 | Provenance footer carries the git commit and engine version | ✓ PASS (see footer) |
 
-
+**Gate 1 caveat — uncovered analytes:** 4 analytes (Pb, tAs, Cd, tHg) have no defensible threshold and the certification mark for this product explicitly does NOT cover them. This is honest gap reporting, not a gate failure — but the Master Limit Table flags the gap clearly so retailers, regulators, and adversarial readers can see what is and is not covered.
 
 ---
 
@@ -141,7 +242,7 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 | Source ID | Title | Citation |
 |---|---|---|
-
+| `meli2024-chemical-characterization-baby-food-italy` (A) | Chemical characterization of baby food consumed in Italy | Meli MA; Desideri D; Sisti D; Fagiolino I; Roselli C · 2024 · PLOS ONE · doi:10.1371/journal.pone.0297158 |
 
 In addition to occurrence sources, this briefing cites:
 
@@ -160,17 +261,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `abf342435f33b7c305b17f74568541ea45a52ed6` in the heavymetalindex.com repository.
+1. Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=meat-and-poultry-purees` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T07:06:31.571Z |
+| Generated at | 2026-05-14T09:09:30.368Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `abf342435f33b7c305b17f74568541ea45a52ed6` |
+| Git commit | `0aa1131496274a31616fd4424e62b997014ad909` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

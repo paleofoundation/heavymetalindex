@@ -15,7 +15,7 @@ base_taxonomy: fruit-purees
 variant_type: independent_no_split
 provenance: base_taxonomy
 ingredient_targets: [fruit-purees, apple, pear, peach, banana]
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 vulnerable_population: infants-0-24mo
 applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
 cc_relationship:

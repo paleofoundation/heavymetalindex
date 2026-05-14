@@ -15,7 +15,7 @@ base_taxonomy: meat-and-poultry-purees
 variant_type: independent_added_step_0c
 provenance: added_step_0c_no_existing_home
 ingredient_targets: [meat-and-poultry-purees, poultry, beef, turkey]
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, tAs, tHg]
 vulnerable_population: infants-0-24mo
 applicable_regulations: [fda-ctz-Pb-babyfood-10ppb]
 cc_relationship:
