@@ -145,3 +145,12 @@ reviewable, but the model does not wait.
 - Pooling: `data/evidence/hmtc_aggregate_distributions.csv` regenerated
 - Briefings: `data/workbench/briefings/*.md` regenerated
 - This tick: 1 healing reports, 1 extraction reports
+
+## Tick 2026-05-14T13-51-40Z
+
+- Healing: see `data/evidence/autonomy/healing-report-2026-05-14.md`
+- Extraction: see `data/evidence/autonomy/extraction-report-2026-05-14.md`
+- Wishlist: see `data/evidence/autonomy/gap-driven-wishlist-2026-05-14.md`
+- Pooling: `data/evidence/hmtc_aggregate_distributions.csv` regenerated
+- Briefings: `data/workbench/briefings/*.md` regenerated
+- This tick: 1 healing reports, 1 extraction reports
