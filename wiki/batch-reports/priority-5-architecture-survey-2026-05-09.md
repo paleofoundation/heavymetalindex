@@ -9,7 +9,8 @@ covers:
   - "Discovery: Cat 2/3/4/6/7+ have no product pages; Step 0 lock not done"
   - "Recommendation: Priority 5 requires Karen's architectural scoping input before autonomous build-out can proceed"
 covers_cycles: "23"
-related: "[[batch-reports/category-5-beverages-overnight-2026-05-09]]"noindex: true
+related: "[[batch-reports/category-5-beverages-overnight-2026-05-09]]"
+noindex: true
 ---
 
 # Priority 5 — HMTc Product Category Architecture Survey (cycle 23)

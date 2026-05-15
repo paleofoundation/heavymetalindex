@@ -8,7 +8,8 @@ covers:
   - "Infant and Child Foods Tier A + Tier B CC candidate work"
   - "Schema supersession and TL;DR mechanical sweep"
   - "FDA 2016 inorganic arsenic re-ingest"
-  - "Phase 5 master summary build"noindex: true
+  - "Phase 5 master summary build"
+noindex: true
 ---
 
 # Infant and Child Foods Overnight Final Report — 2026-05-08

@@ -9,7 +9,8 @@ covers:
   - "External acquisition pass via PubMed E-utilities"
   - "Master summary expansion to 160 cells (16 × 10)"
   - "TL;DR schema sweep"
-supersedes: "[[batch-reports/infant-and-child-overnight-2026-05-08]]"noindex: true
+supersedes: "[[batch-reports/infant-and-child-overnight-2026-05-08]]"
+noindex: true
 ---
 
 # Infant and Child Foods Overnight Final Report — 2026-05-09

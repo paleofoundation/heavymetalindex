@@ -12,7 +12,8 @@ covers:
   - "Cowork coordination payload refreshed on both IandC + Cat 5 masters"
   - "Tier 2 external-acquisition wishlist refreshed for Karen"
 covers_cycles: "27-35"
-related: ["[[batch-reports/cycles-21-26-final-summary-2026-05-09]]", "[[batch-reports/category-5-beverages-overnight-2026-05-09]]"]noindex: true
+related: ["[[batch-reports/cycles-21-26-final-summary-2026-05-09]]", "[[batch-reports/category-5-beverages-overnight-2026-05-09]]"]
+noindex: true
 ---
 
 # Tier-1→3→4 Sweep Final Summary (cycles 27-35)

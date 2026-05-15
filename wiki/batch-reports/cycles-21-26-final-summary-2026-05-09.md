@@ -10,7 +10,8 @@ covers:
   - "Priority 5 (other HMTc categories) blocked on Karen's Step 0 lock input"
   - "Cell-closing returns on in-corpus pool exhausted"
 covers_cycles: "21-26"
-related: ["[[batch-reports/category-5-beverages-overnight-2026-05-09]]", "[[batch-reports/infant-and-child-overnight-2026-05-09]]", "[[batch-reports/priority-5-architecture-survey-2026-05-09]]"]noindex: true
+related: ["[[batch-reports/category-5-beverages-overnight-2026-05-09]]", "[[batch-reports/infant-and-child-overnight-2026-05-09]]", "[[batch-reports/priority-5-architecture-survey-2026-05-09]]"]
+noindex: true
 ---
 
 # Heavy Metal Index — Cycles 21-26 Extension Final Summary
