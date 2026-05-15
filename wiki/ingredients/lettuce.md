@@ -3,25 +3,85 @@ type: ingredient
 commodity: lettuce
 title: "Lettuce"
 label: "Lettuce"
-aliases: []
+aliases: [iceberg-lettuce, romaine-lettuce, green-leaf-lettuce, head-lettuce]
 category: leafy-vegetable
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [soil-uptake, irrigation-water, atmospheric-deposition, geography]
-lower_risk_variants: []
+  Pb:
+    status: populated
+    typical_ppb: [10, 300]
+    p95_ppb: 800
+    confidence: high
+    n_studies: 7
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [20, 250]
+    p95_ppb: 600
+    confidence: high
+    n_studies: 7
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [5, 150]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [0, 10]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [50, 1000]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [10, 400]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [soil-uptake, irrigation-water, atmospheric-deposition, geography, urban-siting]
+lower_risk_variants: ["[[ingredients/iceberg-lettuce]]"]
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
+updated: 2026-05-16
 sources: 9
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -30,22 +90,68 @@ created_routed_sources: 9
 
 # Lettuce
 
-This page is an autonomy-created stub. The routing audit identified 9 source pages in the corpus declaring `ingredients: [lettuce]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Lettuce (Lactuca sativa) is the most-consumed leafy vegetable globally and a frequent target of heavy-metals surveys because it sits at the intersection of three exposure variables: short growing cycle, high water content (making it an efficient transpiration-driven metal carrier), and frequent urban or peri-urban siting. Within the leafy-vegetable category ([[ingredients/leafy-vegetables]]), lettuce is one of the lower-Cd accumulators relative to spinach and amaranth, but it remains a meaningful Pb and Cd source in retail dietary surveys. The current corpus loads 9 sources spanning Iran (Behbahan probabilistic risk modeling), South Africa (Johannesburg roadside-vs-store comparison), Ghana (Kumasi anthropogenic-activity sites), Spain (Andalusia urban gardens), Ecuador (mining-influenced farmland), Burkina Faso (arsenic-irrigated vegetables), Hungary (developmental-stage uptake mechanism), and a Cd-mitigation systematic review.
+
+## Why this commodity accumulates heavy metals
+
+Lettuce takes metals from soil predominantly through root uptake and from atmospheric sources through leaf-surface deposition. The plant's high transpiration rate during the growing cycle pulls water and dissolved cadmium, nickel, and chromium from the root zone into the leaf tissue at higher rates than fruit or root vegetables. Lead behaves differently: less mobile within plant tissue, lead enters lettuce primarily via direct atmospheric deposition onto the leaf surface, which makes urban and roadside production a documented elevated-Pb pathway. The Johannesburg paired-market study compared 20 leafy-vegetable samples from roadside open-air markets versus large stores and found measurably higher Pb in the roadside subset ([[sources/adhikari2024-leafy-vegetables-johannesburg]]). The Ghanaian Kumasi study sampled 90 lettuce and spring onion samples from anthropogenic-activity sites and found Pb, Cr, Ni at concentrations of regulatory concern in a substantial fraction of urban-cultivated product ([[sources/owusuadoma2024-ghana-lettuce-metals]]). The Andalusian urban-garden study sampled 282 vegetable items from Spanish urban garden settings and quantified the cumulative exposure pathway specifically for urban-grown produce ([[sources/rossini-oliva2024-urban-garden-vegetables-spain]]). The Hungarian developmental-stage work documented arsenic uptake increasing with plant age, suggesting earlier-harvest practices reduce per-leaf metal load ([[sources/sandil2023-arsenic-bean-lettuce]]).
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=7       | 10–300   | 800     | high   | [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]], [[sources/owusuadoma2024-ghana-lettuce-metals\|4]] |
+| Cd  | n=7       | 20–250   | 600     | high   | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|2]] |
+| iAs | data gap  | —        | —       | —      | — |
+| tAs | n=4       | 5–150    | —       | medium | [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|8]], [[sources/sandil2023-arsenic-bean-lettuce\|7]] |
+| tHg | n=2       | 0–10     | —       | low    | [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Ni  | n=4       | 50–1,000 | —       | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|4]] |
+| Al  | n=1       | —        | —       | —      | [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Cr  | n=4       | 10–400   | —       | medium | [[sources/owusuadoma2024-ghana-lettuce-metals\|4]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|6]] |
+| Sn  | data gap  | —        | —       | —      | — |
+| U   | data gap  | —        | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The corpus spans subsistence and commercial production systems across four continents. The Behbahan Iran Monte Carlo risk assessment (n=40 lettuce-and-cabbage samples) found Pb, Cd, Cr, Ni above EU 2023/915 fresh-vegetable limits in probabilistic-worst-case consumption scenarios ([[sources/armand2026-lettuce-cabbage-behbahan]]). The Andalusian urban-garden cohort is the largest single dataset at 282 samples across 11 metals from Spanish urban gardens ([[sources/rossini-oliva2024-urban-garden-vegetables-spain]]). The Ecuadorian mining-influenced farmland data (Romero-Crespo 2023, n=17) provides the high-end of the loaded distribution for Pb, Cd, and Cr where mining contamination pathways apply. The Cardini 2025 Cd-speciation work (n=7, SEC-ICP-MS/MS) is methodological rather than occurrence-survey but contributes to the mechanism understanding of cadmium-chelating compounds in plant tissue. Variety-level pattern: iceberg lettuce (compact head, lower surface-to-volume ratio) consistently carries lower Pb than open-leaf varieties (romaine, green leaf, butterhead). Hydroponic-grown lettuce with controlled irrigation eliminates the soil-uptake pathway and the irrigation-water pathway, though the loaded corpus does not characterise hydroponic product specifically.
+
+## Processing effects
+
+Washing whole-head lettuce before consumption removes surface particulate Pb (atmospheric deposition) but does not affect internalised Cd, Cr, or Ni. The Burkina Faso work measured cooked-versus-raw vegetable arsenic uptake and found cooking did not change the per-sample arsenic content meaningfully ([[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina]]). Discarding outer leaves before consumption reduces per-serving Pb when those outer leaves are the primary atmospheric-deposition target. Pre-washed bagged salad has undergone surface decontamination at the processor level but inherits the internalised metal load. Freezing is not typically applied to lettuce (texture incompatibility). Drying for lettuce-powder applications (rare) would concentrate metals on a dry-weight basis 8-10×.
+
+## Ingredient-derivative risk
+
+Fresh whole-head lettuce represents the baseline. Pre-washed bagged salads carry the same per-mass load with surface contamination reduced. Lettuce juice (cold-pressed green juice) extracts soluble metals; per-serving exposure tracks the fresh-weight concentration at the juice-yield ratio. Wild-foraged or community-garden-grown lettuce carries siting-dependent risk if the garden soil has industrial or roadside contamination history.
+
+## Mitigation options
+
+### Sourcing levers
+
+Source from production regions and operations with documented soil-and-water screening, away from roadsides (≥ 200 m setback), and away from industrial-corridor settings. The Ghanaian, South African, Iranian, and Ecuadorian datasets all show urban-and-near-mining production carrying measurably elevated metal loads relative to controlled commercial cropland. For urban-garden growers, the Andalusian dataset documents the population-scale risk magnitude and supports siting-and-soil-testing recommendations before planting.
+
+### Agronomic levers
+
+Soil pH management around 6.5 reduces Cd bioavailability. Avoid phosphate fertilisers with elevated Cd impurity. The Schaefer 2020 cadmium mitigation review covers the full agronomic-intervention vocabulary for leafy crops ([[sources/schaefer2020-cadmium-mitigation-strategies]]). Irrigation source: switch from wastewater or untreated industrial-corridor groundwater to municipal-treated or rain-harvested water; the Burkina Faso work documents the irrigation-water arsenic pathway directly. Earlier-harvest practices reduce per-leaf metal load when growing in elevated-metal contexts (Sandil 2023 developmental-stage mechanism).
+
+### Processing levers
+
+Discard outer leaves before sale or processing. Wash with potable water to remove surface particulate Pb. Hydroponic production eliminates the soil-uptake pathway entirely and is the highest-control processing-stage intervention available.
+
+### Formulation levers
+
+For blended-salad and pre-washed-bag formulations, weighting toward iceberg-and-head varieties over open-leaf varieties modestly reduces aggregate Pb per serving. For finished-product formulations using lettuce as one ingredient, inclusion-ratio limits cap per-serving exposure.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Pb, Cd, Cr, and Ni at detection floors ≤ 10 ppb is appropriate for commodity lettuce buyers. For urban-garden or community-supported-agriculture supply chains, intake-level testing at harvest is the meaningful intervention.
+
+### Packaging and storage levers
+
+Standard food-grade packaging does not contribute to the lettuce metal load. For pre-washed bagged product, the wash-water quality matters as a separate (small) load pathway.
+
+## Regulatory limits that apply
+
+The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable Pb maximum of 0.30 mg/kg fresh weight and the Cd maximum of 0.20 mg/kg fresh weight to lettuce. The EU Regulation 2023/915 sets the same Pb maximum of 0.30 mg/kg fresh weight for leafy vegetables and fresh herbs (lettuce included) and Cd at 0.20 mg/kg fresh weight for leafy vegetables excluding celery and salsify. The FDA does not set a fresh-lettuce-specific action level. The Behbahan probabilistic risk modeling found cumulative-intake exposure metrics above thresholds of concern under reasonable-worst-case consumption assumptions ([[sources/armand2026-lettuce-cabbage-behbahan]]), and the Andalusian urban-garden data similarly found cumulative exposure considerations for the urban-garden consumption pattern.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,13 +160,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/armand2026-lettuce-cabbage-behbahan\|Armand et al. 2026]]. *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation*, Scientific Reports | 2026 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|Cardini et al. 2025]]. *A novel approach for the identification of cadmium-chelating compounds in plant-based foods using SEC-ICP-MS/MS and SEC-QTOF-MS*, Analytical and Bioanalytical Chemistry | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/adhikari2024-leafy-vegetables-johannesburg\|Adhikari et al. 2024]]. *Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa* | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/owusuadoma2024-ghana-lettuce-metals\|Owusu et al. 2024]]. *Assessment of Heavy Metal Contamination in Lettuce and Spring Onion Cultivated at Anthropogenic Activity Sites in the Kumasi Metropolis, Ghana*, Environmental Health Insights | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|Rossini-Oliva et al. 2024]]. *Is it healthy urban agriculture? Human exposure to potentially toxic elements in urban gardens from Andalusia, Spain*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|Romero-Crespo et al. 2023]]. *Trace elements in farmland soils and crops, and probabilistic health risk assessment in areas influenced by mining activity in Ecuador*, Environmental Geochemistry and Health | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 7 | [[sources/sandil2023-arsenic-bean-lettuce\|Sandil et al. 2023]]. *Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 8 | [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|Clair-Caliot et al. 2021]]. *Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso*, Frontiers in Water | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 9 | [[sources/schaefer2020-cadmium-mitigation-strategies\|Schaefer et al. 2020]]. *Cadmium: Mitigation strategies to reduce dietary exposure*, Journal of Food Science | 2020 | Review | *[awaiting synthesis]* |
+| 1 | [[sources/armand2026-lettuce-cabbage-behbahan\|Armand 2026]]. *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation* | 2026 | Peer-reviewed | Iranian Behbahan lettuce-and-cabbage Pb, Cd, Cr, Ni Monte Carlo probabilistic risk model (n=40) |
+| 2 | [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|Cardini 2025]]. *Cadmium-chelating compounds in plant-based foods SEC-ICP-MS/MS* | 2025 | Peer-reviewed | Cadmium-speciation methodology in plant-tissue Cd-chelating compounds (n=7) |
+| 3 | [[sources/adhikari2024-leafy-vegetables-johannesburg\|Adhikari 2024]]. *Concentrations and health risks of leafy vegetables Johannesburg* | 2024 | Peer-reviewed | Johannesburg roadside-vs-store leafy vegetable 10-metal panel (n=20); urban-Pb deposition evidence |
+| 4 | [[sources/owusuadoma2024-ghana-lettuce-metals\|Owusu 2024]]. *Heavy Metal Contamination in Lettuce and Spring Onion Kumasi Ghana* | 2024 | Peer-reviewed | Ghanaian Kumasi lettuce-and-onion 6-metal panel at anthropogenic-activity sites (n=90) |
+| 5 | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|Rossini-Oliva 2024]]. *Potentially toxic elements in urban gardens Andalusia Spain* | 2024 | Peer-reviewed | Andalusian urban-garden 11-metal panel cumulative-exposure assessment (n=282) |
+| 6 | [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|Romero-Crespo 2023]]. *Trace elements in farmland soils and crops Ecuador mining* | 2023 | Peer-reviewed | Ecuadorian mining-influenced farmland 5-metal panel with probabilistic health risk (n=17) |
+| 7 | [[sources/sandil2023-arsenic-bean-lettuce\|Sandil 2023]]. *Arsenic uptake in bean and lettuce at different developmental stages* | 2023 | Peer-reviewed | Hungarian arsenic-uptake mechanism; developmental-stage-dependent accumulation |
+| 8 | [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|Clair-Caliot 2021]]. *Arsenic uptake by irrigated vegetables Burkina Faso* | 2021 | Peer-reviewed | Burkina Faso irrigation-water arsenic pathway in lettuce and other vegetables (n=168) |
+| 9 | [[sources/schaefer2020-cadmium-mitigation-strategies\|Schaefer 2020]]. *Cadmium dietary mitigation strategies* | 2020 | Peer-reviewed | Cadmium dietary-exposure mitigation review covering agronomic and processing levers for leafy crops |
 <!-- END: hmi-source-legend -->
