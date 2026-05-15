@@ -6,7 +6,8 @@ phase: 3b-external
 audience: [curator]
 covers:
   - "External candidate papers identified via PubMed E-utilities for HMTc Category 1 data gaps"
-  - "Acquisition status: open-access fetched, paywalled, or wishlist-only"noindex: true
+  - "Acquisition status: open-access fetched, paywalled, or wishlist-only"
+noindex: true
 ---
 
 # Data-Gap Wishlist — 2026-05-09
