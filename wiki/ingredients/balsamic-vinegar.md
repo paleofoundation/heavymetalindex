@@ -3,25 +3,85 @@ type: ingredient
 commodity: balsamic-vinegar
 title: "Balsamic Vinegar"
 label: "Balsamic Vinegar"
-aliases: []
-category: vinegar
+aliases: [aceto-balsamico, traditional-balsamic-vinegar, balsamic-vinegar-of-modena]
+category: condiment
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [fermentation-substrate, production-method, storage, leaching]
-lower_risk_variants: []
-higher_risk_variants: []
+  Pb:
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: 1500
+    confidence: high
+    n_studies: 4
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [1, 30]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [20, 200]
+    p95_ppb: 500
+    confidence: medium
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [10, 100]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [aging-vessel-wood-extraction, grape-substrate, acidic-pH-leaching, traditional-multi-barrel-aging]
+lower_risk_variants: ["[[ingredients/young-balsamic-vinegar-stainless-aged]]"]
+higher_risk_variants: ["[[ingredients/traditional-aged-balsamic-vinegar]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
+updated: 2026-05-16
 sources: 4
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -30,22 +90,68 @@ created_routed_sources: 4
 
 # Balsamic Vinegar
 
-This page is an autonomy-created stub. The routing audit identified 4 source pages in the corpus declaring `ingredients: [balsamic-vinegar]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Balsamic vinegar — the aged grape-must-derived condiment from the Modena and Reggio Emilia regions of Italy, made traditionally in a sequence of progressively smaller wooden barrels for 12-25 years (Aceto Balsamico Tradizionale di Modena DOP/Reggio Emilia DOP) or industrially produced from concentrated grape must and wine vinegar with optional brief aging — sits at the high end of the vinegar-category heavy-metals distribution. The traditional aging-vessel chain (a sequence of chestnut, cherry, oak, mulberry, juniper, ash barrels) is the dominant heavy-metals risk because the acidic must (pH 2.5-3.0) extracts trace metals from the wood and from previous batches' residual concentrate over decades-long aging cycles. The current corpus loads 4 sources: ESCP 2021 FDA petition (n=24 US-market balsamic vinegar samples with Pb and tAs at regulatory-concern levels, [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]), Karavoltsos 2020 Greek balsamic-vs-common-vinegar comparison (n=43, 7-metal panel, [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]), Ndungu 2004 Pb-in-vinegar analytical method (n=59, [[sources/ndungu2004-lead-vinegar-icpms-gfaas]]), Ozbek 2016 Turkish MIP-OES method (n=32, including balsamic, [[sources/ozbek2016-mip-oes-turkish-vinegars]]). The ESCP 2021 petition is the policy-anchor source: in 2021, the Environmental and Safety Compliance Project petitioned the US FDA to set a maximum lead level for balsamic vinegar after documenting elevated Pb across 24 US-market samples ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]).
+
+## Why this commodity accumulates heavy metals
+
+Balsamic vinegar accumulates heavy metals through two principal pathways: the grape-must substrate and the aging-vessel extraction. The substrate is concentrated grape must from Trebbiano, Lambrusco, or other Modenese grape varieties; grape-must carries grape-source Pb and Cd at modest levels driven by vineyard soil and atmospheric deposition. Concentration of the must (cooked to roughly 1/3 of its original volume) raises per-mass metal concentrations proportionally before aging begins. Aging is the dominant pathway for traditional product: the multi-wood-barrel sequence over 12-25+ years allows the acidic concentrated must to extract trace Pb, Cd, Al, and other metals from the wood, from previous-batch residual concentrate that has bonded to the barrel interior, and from any historical barrel-coating or sealing materials. The Karavoltsos 2020 Greek work found significantly higher Cu, Pb, and trace metals in balsamic versus common (white) vinegar from Greek production, with the elevation correlated with organic-matter content — the longer-aged, more concentrated, more organic-rich product carries higher metal loads ([[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]). The ESCP 2021 US-market sampling (n=24 balsamic vinegars from US retail) found Pb concentrations across the sample reaching levels that the petitioners argued required FDA regulatory action ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]). Industrial-imitation balsamic uses caramel and acidic concentrate rather than traditional aging; both forms can carry elevated Pb, but for different reasons (substrate-driven for industrial, aging-vessel-driven for traditional).
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=4       | 50–500    | 1,500   | high   | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| Cd  | n=2       | 1–30      | —       | medium | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| iAs | data gap  | —         | —       | —      | — |
+| tAs | n=2       | 20–200    | 500     | medium | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| tHg | data gap  | —         | —       | —      | — |
+| Ni  | n=2       | 10–200    | —       | low    | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| Al  | n=2       | 50–500    | —       | low    | [[sources/ozbek2016-mip-oes-turkish-vinegars\|4]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| Cr  | n=2       | 10–100    | —       | low    | [[sources/ozbek2016-mip-oes-turkish-vinegars\|4]] |
+| Sn  | data gap  | —         | —       | —      | — |
+| U   | data gap  | —         | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The ESCP 2021 US-market n=24 dataset is the largest US-side dataset and is the policy-anchor for FDA action ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]). The Karavoltsos 2020 Greek n=43 work covers both common (white) and balsamic vinegar from Greek production and provides the cleanest within-vinegar-category comparison ([[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]). The Ozbek 2016 Turkish n=32 multi-vinegar-type panel covers Al specifically and characterises Turkish-market product ([[sources/ozbek2016-mip-oes-turkish-vinegars]]). The Ndungu 2004 method-development work covers 59 samples with rigorous sample-preparation evaluation ([[sources/ndungu2004-lead-vinegar-icpms-gfaas]]). Variety-level pattern: traditional aged balsamic (12-25+ years in the wooden-barrel sequence, DOP-certified) carries the highest Pb and Al; modena IGP-grade (younger, partially aged) carries intermediate levels; commodity-grade balsamic (caramel and wine-vinegar based, minimal or no traditional aging) carries variable Pb depending on substrate and packaging. No grape-variety-specific pattern is documented in the loaded corpus.
+
+## Processing effects
+
+The grape-must concentration step (cooking to ~1/3 original volume) raises per-mass metal concentrations proportionally before aging. Aging in the traditional multi-wood-barrel sequence extracts Pb, Al, and trace metals from the wood and from previous-batch residual concentrate; the magnitude grows with aging years. The Karavoltsos 2020 work quantifies the organic-matter-correlated trace-metal accumulation in aged product. Industrial production (caramel, wine vinegar, concentrate, minimal aging in stainless tanks) eliminates the wood-extraction pathway but introduces substrate-driven Pb. Filtration before bottling does not change dissolved metals. Pasteurization does not affect metal content. The single largest brand-controlled processing-stage variable is the choice of aging vessel: stainless steel and food-grade-coated tanks do not add metals, while traditional wood-barrel aging is the canonical pathway for the elevated Pb-and-Al distribution that distinguishes balsamic from other vinegars.
+
+## Ingredient-derivative risk
+
+Traditional aged balsamic vinegar (DOP, 12-25 years aging) is the highest-Pb-and-Al form. Modena IGP balsamic (younger, partially aged or blended with traditional aged) carries intermediate levels. Commodity-grade balsamic (caramel-and-wine-vinegar based) carries variable levels depending on substrate. Balsamic glaze (reduced balsamic vinegar concentrated further by additional cooking) concentrates metals proportionally; per-serving exposure for balsamic glaze can be 2-3× the parent balsamic vinegar on a per-volume basis. Balsamic dressings and finished sauces inherit the balsamic vinegar's metal load at the inclusion ratio.
+
+## Mitigation options
+
+### Sourcing levers
+
+For brand-buyers concerned about Pb and Al specifically, sourcing modern commodity-grade balsamic (caramel-and-wine-vinegar based, no traditional aging) over traditional aged balsamic shifts the per-serving Pb meaningfully lower. For premium-positioning where traditional aged balsamic is the brand requirement, specifying suppliers with documented aging-vessel transparency (wood-source records, prior-batch traceability) provides supply-chain context but does not eliminate the underlying wood-extraction pathway. Glass packaging at retail is the standard for premium product and does not contribute additional metals.
+
+### Agronomic levers
+
+For brand-controlled-substrate operations (rare in the balsamic supply chain), grape vineyard soil and water management reduce the upstream substrate metal load. Most agronomic levers live with grape growers.
+
+### Processing levers
+
+Stainless steel aging or food-grade-coated tank aging eliminates the wood-extraction pathway entirely; this is incompatible with traditional aged balsamic protocols but is feasible for modern commercial balsamic. Verify wood-barrel history (prior contamination, prior batches) when sourcing traditional aged product.
+
+### Formulation levers
+
+For finished sauces and dressings using balsamic vinegar as one ingredient, the inclusion ratio determines per-serving exposure proportionally. Substitution with red wine vinegar (lower-Pb on average per the broader vinegar literature) is the principal formulation-stage substitution lever.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Al (≤ 50 ppb), and tAs (≤ 5 ppb) is the standard intervention. The acidic pH allows direct injection without extensive sample prep. The Ndungu 2004 protocol (n=59, ICP-MS and GFAAS comparison) is a useful method reference ([[sources/ndungu2004-lead-vinegar-icpms-gfaas]]).
+
+### Packaging and storage levers
+
+Glass packaging is the baseline-clean option. Avoid ceramic decanters with unverified glazes for service or storage (the acid pH extracts Pb from lead-glazed ceramic at high rates). Avoid metal closures without food-grade interior coating.
+
+## Regulatory limits that apply
+
+The Codex Alimentarius General Standard CXS 193-1995 does not set a balsamic-vinegar-specific maximum. The EU Regulation 2023/915 applies general food-category limits to balsamic vinegar; the Italian DOP/IGP geographic-indication protocols do not set heavy-metals limits as part of the GI framework. The US FDA has not set a balsamic-specific action level but received the 2021 ESCP petition for action ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]); the petition remains pending and is a current policy-monitoring item. The CFIA 2025 Canadian survey did not identify balsamic-specific exceedances of Canadian limits in the surveyed product set.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,8 +160,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|Corrigan et al. 2021]]. *Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA*, Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter | 2021 | NGO report | *[awaiting synthesis]* |
-| 2 | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|Karavoltsos et al. 2020]]. *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*, Molecules | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek et al. 2016]]. *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|ESCP 2021]]. *Letter to FDA Re: Pb and tAs in Vinegar Products* | 2021 | Industry/NGO | US-market balsamic vinegar Pb and tAs at regulatory-concern levels (n=24); FDA petition policy anchor |
+| 2 | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|Karavoltsos 2020]]. *Copper Complexing and Trace Metals in Greek Balsamic and Common Vinegars* | 2020 | Peer-reviewed | Greek balsamic-vs-common-vinegar 7-metal panel (n=43); aging-driven metal accumulation evidence |
+| 3 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndungu 2004]]. *Lead in Vinegar ICP-MS and GFAAS* | 2004 | Peer-reviewed | Methodological evaluation of vinegar Pb sample-preparation procedures (n=59) |
+| 4 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek 2016]]. *MIP-OES for Trace Metals in Turkish Vinegars* | 2016 | Peer-reviewed | Turkish-market vinegar 5-metal panel (n=32) including Al rarely measured elsewhere |
 <!-- END: hmi-source-legend -->

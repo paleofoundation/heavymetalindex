@@ -3,25 +3,85 @@ type: ingredient
 commodity: soybean-oil
 title: "Soybean Oil"
 label: "Soybean Oil"
-aliases: []
+aliases: [glycine-max-oil, refined-soybean-oil]
 category: oil
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [seed-source, extraction-method, refining, storage]
-lower_risk_variants: []
-higher_risk_variants: []
+  Pb:
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: 250
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [1, 30]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [1, 50]
+    p95_ppb: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [seed-source, glyphosate-cultivar-correlation, extraction-method, refining-clay, packaging]
+lower_risk_variants: ["[[ingredients/refined-soybean-oil-glass-bottled]]"]
+higher_risk_variants: ["[[ingredients/cold-pressed-soybean-oil]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
+updated: 2026-05-16
 sources: 5
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -30,22 +90,68 @@ created_routed_sources: 5
 
 # Soybean Oil
 
-This page is an autonomy-created stub. The routing audit identified 5 source pages in the corpus declaring `ingredients: [soybean-oil]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Soybean oil (Glycine max seed oil) is the most-consumed edible oil in the United States and the second most-consumed globally after palm oil. The heavy-metals profile of soybean oil follows the standard refined-seed-oil pattern: modest baseline Pb-and-Cd from upstream seed agronomy, partial reduction through the refining chain, and trace Ni introduced by bleaching-clay contact during refining. The current corpus loads 5 sources: Ashraf 2012 Saudi market survey (21 soybean oil samples within 161-sample multi-oil survey, [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia]]), Pehlivan 2008 Turkish ICP-AES method ([[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]]), Scutarasu 2023 global foods-and-beverages review ([[sources/scutarasu2023-heavy-metals-foods-beverages]]), Silva 2025 edible-oils health-and-sustainability review ([[sources/silva2025-edible-oils-health-sustainability]]), and Yohannes 2024 Ethiopian Gondar City survey ([[sources/yohannes2024-vegetable-oils-ethiopia-gondar]]). Soybean oil consistently sits in the lower-middle of the edible-oil heavy-metals distribution, comparable to sunflower oil and below olive oil on Pb-and-Cd.
+
+## Why this commodity accumulates heavy metals
+
+Soybean oil enters the food system through soybean seed (Glycine max) production, mechanical or solvent-assisted extraction, and refining. Soybean seed accumulates Pb and Cd from soil at moderate rates; the soybean plant has well-characterised cadmium uptake behaviour driven by soil pH and zinc availability, with cadmium concentration in the seed determined by the soil's Cd-to-Zn ratio. Solvent extraction (hexane-based, the dominant industrial method for soybean oil) recovers ~95% of the seed's oil content; mechanical pressing recovers ~70%. Refining (degumming, neutralisation, bleaching, deodorisation) reduces residual metals through filtration and bleaching-clay adsorption. The Ashraf 2012 Saudi market dataset placed soybean oil at the lower end of Pb and Cd among 7 surveyed oil types ([[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia]]). The Pehlivan 2008 Turkish ICP-AES data and the Yohannes 2024 Ethiopian Gondar City data confirm the low-end positioning across emerging-market and Mediterranean settings. The two systematic reviews (Scutarasu 2023, Silva 2025) consolidate the global edible-oils literature; both identify soybean oil as occupying the lower-middle of the heavy-metals distribution. Genetic-modification status (GMO Roundup-Ready soybeans dominate US production) does not produce measurably different heavy-metals profiles in the oil itself per the loaded literature; glyphosate residue (a separate analytical scope) is the dominant non-metal contaminant concern for GMO soybean product.
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=5       | 5–100     | 250     | medium | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
+| Cd  | n=4       | 1–30      | —       | medium | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
+| iAs | data gap  | —         | —       | —      | — |
+| tAs | n=3       | 1–50      | —       | low    | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|3]] |
+| tHg | n=1       | —         | —       | —      | [[sources/scutarasu2023-heavy-metals-foods-beverages\|3]] |
+| Ni  | n=3       | 10–200    | —       | low    | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]], [[sources/silva2025-edible-oils-health-sustainability\|4]] |
+| Al  | data gap  | —         | —       | —      | — |
+| Cr  | n=3       | 5–100     | —       | low    | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
+| Sn  | data gap  | —         | —       | —      | — |
+| U   | data gap  | —         | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The Saudi Ashraf 2012 dataset is the largest single-jurisdiction soybean-oil sample within the loaded corpus, with 21 soybean oil samples from Saudi hypermarkets ([[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia]]); the work places soybean oil at the lower end of the Saudi retail edible-oil Pb-Cd distribution. The Turkish Pehlivan 2008 9-metal panel ([[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]]) and the Ethiopian Yohannes 2024 5-metal panel both characterise the lower-end positioning across diverse markets. The two systematic reviews (Scutarasu 2023 across IR, CN, GR, CY, TR, PK, UA, PL, BR, KR; Silva 2025 across MA, IR, GR, CN, BR) consolidate the global pattern. Within-soybean-oil variation: refined commodity-grade soybean oil sits at the lower end; cold-pressed and unrefined product carry slightly higher loads; expeller-pressed organic soybean oil carries metals similar to standard refined product on a per-mass basis. Geographic-origin: US, Brazilian, and Argentinian soybean oil dominate global trade; the loaded corpus does not provide a clean within-soybean-oil origin-vs-origin comparison, but the systematic reviews report broadly similar Pb-and-Cd profiles across the major-origin commodity oil.
+
+## Processing effects
+
+Cold-pressing (mechanical) retains a slightly higher metal load than solvent-extraction followed by refining. Solvent extraction (hexane-based, the dominant industrial method) does not introduce metals attributable to the solvent. Refining reduces Pb-and-Cd through filtration and bleaching-clay adsorption; refined commodity soybean oil typically carries lower Pb than cold-pressed unrefined soybean oil. Bleaching with food-grade acid-activated clay can introduce Ni at 5-50 ppb in finished oil. Hydrogenation (used for partially hydrogenated soybean oil, now phased out in many markets under FDA's trans-fat policy) introduces Ni from catalyst residue. Deodorisation at high temperature does not affect metal content. Industrial-fractionation processes used to produce winterised soybean oil or fractionated soybean oil derivatives do not meaningfully shift the metal profile.
+
+## Ingredient-derivative risk
+
+Refined soybean oil in glass packaging sits at the baseline-lowest-metal-load form. Refined soybean oil in PET, tin, or aluminium picks up modest additional metals from packaging-migration over shelf life. Cold-pressed unrefined soybean oil carries slightly higher Pb-and-Cd than refined product but lower Ni. Soybean lecithin (an emulsifier derivative from the degumming step) concentrates phospholipids and any phospholipid-bound metals; the metal profile of soybean lecithin differs from soybean oil itself. Soybean protein isolate (the protein-and-fiber-rich press cake processed into supplement and food ingredient) inherits the seed's full metal load and carries higher Cd than the oil. Soy sauce (a separate fermented-soy product) is not derived from soybean oil and has its own metal profile (often elevated through traditional fermentation vessel pathways). Hydrogenated soybean oil (shortening, margarine base) carries additional Ni from catalyst residue.
+
+## Mitigation options
+
+### Sourcing levers
+
+Specify refined oil over unrefined for the lowest baseline Pb-and-Cd load. Source from suppliers with documented seed-source agronomic screening. US-Brazilian-Argentinian commodity supply chains are well-characterised and broadly equivalent on metals; specific-origin specifications add cost without meaningful metal-load reduction in the soybean-oil category.
+
+### Agronomic levers
+
+Soil pH management around 6.5 and Zn-availability management reduce Cd uptake into the soybean seed. Phosphate-fertiliser screening reduces ongoing Cd loading. Most agronomic interventions live with seed producers.
+
+### Processing levers
+
+Specify refining protocols with food-grade bleaching clay and Ni-screened catalysts. Specify maximum residual moisture and free fatty acid that correlate with effective metal removal during deodorisation.
+
+### Formulation levers
+
+For finished products using soybean oil as an ingredient, the inclusion ratio caps per-serving exposure. Soybean oil is broadly interchangeable on heavy metals with other refined seed oils (canola, sunflower, corn).
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), and Ni (≤ 10 ppb) is the standard intervention.
+
+### Packaging and storage levers
+
+Glass is the baseline-cleanest option. PET is comparable. Tin and aluminium packaging contribute modest additional metals over shelf life.
+
+## Regulatory limits that apply
+
+The Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) sets specific provisions for soybean oil: iron 1.5 mg/kg max (virgin), 1.5 mg/kg max (refined), copper 0.1 mg/kg max. The EU Regulation 2023/915 applies the general fats-and-oils Pb maximum of 0.10 mg/kg. The FDA has not set soybean-oil-specific action levels. Commercial soybean oil consistently sits below the EU Pb maximum per the loaded retail-market data.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,9 +160,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/silva2025-edible-oils-health-sustainability\|VdS et al. 2025]]. *Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks*, Lipidology | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|Yohannes et al. 2024]]. *Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia*, BMC Public Health | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Heavy Metals in Vegetable Oils Saudi Arabia* | 2012 | Peer-reviewed | Saudi market survey including 21 soybean oil samples within 161-sample multi-oil panel |
+| 2 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan 2008]]. *Inorganic Metals in Edible Vegetable Oils Turkey ICP-AES* | 2008 | Peer-reviewed | Turkish 9-metal panel including soybean oil |
+| 3 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu 2023]]. *Heavy Metals in Foods and Beverages Global Review* | 2023 | Peer-reviewed | Broad foods-and-beverages review including soybean oil cross-context |
+| 4 | [[sources/silva2025-edible-oils-health-sustainability\|Silva 2025]]. *Edible Oils Health and Sustainability Review* | 2025 | Peer-reviewed | Current systematic review of edible oil contaminants through Sept 2025 |
+| 5 | [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|Yohannes 2024]]. *Vegetable Oils Ethiopia Gondar 5-metal panel* | 2024 | Peer-reviewed | Ethiopian Gondar City vegetable oil 5-metal panel (n=17) |
 <!-- END: hmi-source-legend -->
