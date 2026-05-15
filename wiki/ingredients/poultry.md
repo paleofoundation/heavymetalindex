@@ -105,7 +105,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/kamouh2024-heavy-metals-chicken-meat-egypt\|Kamouh et al. 2024]]. *Heavy metals load in chicken meat and its reduction by probiotic strains*, Open Veterinary Journal | 2024 | Peer-reviewed | Pb and Cd in 100 chicken samples (breast, thigh, gizzard, liver) from Egyptian slaughterhouses by AAS; liver highest Pb and Cd; probiotic-strain reduction experiment |
-| 2 | [[sources/apdraim2023-vermiculite-quail-meat\|Apdraim et al. 2023]]. *Effect of vermiculite feed additive on the chemical, mineral, and amino acid compositions of quail meat* | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/apdraim2023-vermiculite-quail-meat\|Apdraim et al. 2023]]. *Effect of vermiculite feed additive on the chemical, mineral, and amino acid compositions of quail meat* | 2023 | Peer-reviewed | KZ Pb, Cd occurrence in Texas Quail meat breed birds (n=35 per group) fed control diet or 3% or 5% vermiculite feed additive... (n=105) |
 | 3 | [[sources/lasky2013-arsenic-chicken-correspondence\|Lasky et al. 2013]]. *Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)*, Environmental Health Perspectives | 2013 | Peer-reviewed | Commentary on tAs/iAs residues in US broiler chicken after roxarsone withdrawal; arsenic-in-poultry regulatory context post-2011 FDA drug withdrawal |
 <!-- END: hmi-source-legend -->
 
