@@ -15,13 +15,15 @@ evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
-sources: 0
+updated: 2026-05-15
+sources: 1
 ---
 
 # Fermented Beverages, Non-Tea-Based
 
 This page is HMTc Category 5 row 15 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
+
+## Who this page is for
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
@@ -30,7 +32,7 @@ This page is HMTc Category 5 row 15 from the locked beverage architecture. It ex
   <dl>
     <div>
       <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on non-tea fermented beverages typically center on metal leaching from fermentation vessels and on metals in the underlying fruit or grain substrate. Source-of-substrate and vessel-material disclosure are the defensive core. Compare with <a href="/products/kombucha-tea-based">Kombucha Tea Based</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+      <dd>Cherry-pick attack vectors on non-tea fermented beverages typically center on metal leaching from fermentation and storage vessels and on metals in the underlying fruit, grain, or vegetable substrate. Container material provenance and food-contact certification are the defensive core. Compare with <a href="/products/kombucha-tea-based">Kombucha Tea Based</a> for the within-pair higher-contamination sibling (tea substrate adds Al accumulation from <em>Camellia sinensis</em>). The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
     </div>
     <div>
       <dt>Retailer quality and compliance</dt>
@@ -38,7 +40,7 @@ This page is HMTc Category 5 row 15 from the locked beverage architecture. It ex
     </div>
     <div>
       <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=fermented-beverages-non-tea-based">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for non-tea-based fermented beverages.</dd>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=fermented-beverages-non-tea-based">Lab Result Comparator</a> to position a single lab value inside the cited literature for non-tea-based fermented beverages.</dd>
     </div>
     <div>
       <dt>Regulators, journalists, and adversarial readers</dt>
@@ -51,6 +53,19 @@ This page is HMTc Category 5 row 15 from the locked beverage architecture. It ex
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in non-tea-based fermented beverages. This category covers water kefir, fruit kvass, jun (when made without *Camellia sinensis*), fermented fruit and vegetable juices, and similar acidic fermented drinks whose substrate is not tea. The clean_benchmark designation relative to kombucha-tea-based reflects the absence of the tea-plant aluminum accumulation pathway; however, the food-contact-material (FCM) leaching pathway under acidic conditions is identical between the two rows.
+
+**Food-contact-material events vs. ingredient-level occurrence.** The current contributing source documents lead leaching from improperly glazed ceramic containers; this source routes to both this row and the kombucha-tea-based row because the FCM pathway is identical regardless of whether the substrate is tea-based or not. The FCM-event data cannot substitute for ingredient-level occurrence data in standards-setting.
+
+**Speciation is treated as non-substitutable.** tAs and iAs are never conflated. Total Cr is not treated as Cr-VI.
+
+**Basis is preserved and labeled.** Concentrations in the finished beverage are reported as wet weight, as consumed, unless otherwise stated.
+
+**Evidence tiers and confidence.** A-tier source. Confidence: very low — n=5 samples, single FCM outbreak event, single geography.
+
 ## Decision Snapshot
 
 | Field | Status |
@@ -59,7 +74,6 @@ This page is HMTc Category 5 row 15 from the locked beverage architecture. It ex
 | Category hub | [[products/category-5-beverages]] |
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
 | HMTc use | Routing and evidence-gap tracking only; not a certification threshold |
-
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -76,7 +90,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 ## Evidence Handling
 
-Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
+Finished-product findings belong on this product page. The current contributing source documents a food-contact-material contamination pathway, not an ingredient-level occurrence survey. Findings from this source are included to document the FCM risk vector for this product row; they do not characterize the baseline Pb distribution in this category when produced in compliant containers.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
@@ -93,6 +107,57 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/cadmium\|Cd]] | Fermented beverages, non-tea-based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+## Source Evidence Inventory
+
+The table below records what the contributing source actually measures. The source is a food-contact-material (FCM) contamination event report involving kombucha (tea-based substrate); it routes to this row because the FCM pathway documented applies equally to non-tea acidic fermented beverages. This source establishes the FCM risk vector for the category; it is not an ingredient-level occurrence study for non-tea fermented beverages.
+
+| Metal | Subcategory | n | Statistic | Value | Units | Notes | Row-fit | Basis | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Pb | Fermented beverage (tea-based kombucha), ceramic vessel, 14-day | 1 | Point | 0.95 | mg/kg | FCM pathway; acidic fermentation dissolves lead from ceramic glaze; routes to this row because FCM pathway is substrate-independent | partial — FCM event (tea-based substrate); FCM pathway applies to non-tea substrates equally | wet weight, as consumed | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|1]] |
+| Pb | Fermented beverage (tea-based kombucha), ceramic vessel, 19-day | 1 | Point | 7.1 | mg/kg | Same vessel, extended time | partial — FCM event | wet weight, as consumed | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|1]] |
+| Pb | Packaged ready-to-sell product | 1 | Point | 47 | mg/kg | Packaged in ceramic commercial container at point of sale | partial — FCM event | wet weight, as consumed | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|1]] |
+
+**Evidence note:** The FCM pathway documented by munilla-garcia2023 (ceramic container leaching under acidic conditions) is substrate-independent: any acidic fermented beverage — water kefir, fruit kvass, lacto-fermented beverages — would experience the same leaching dynamic from improperly glazed ceramics. The source routes to this row on that basis. Ingredient-level Pb and Cd occurrence data for non-tea fermented beverages is absent from the current evidence base; the row's EF-5 designation reflects this gap. See [[products/kombucha-tea-based]] for the parallel discussion.
+
+<!-- BEGIN: hmi-broad-context-sources -->
+## Broad Product Context: Author-Scope Index
+
+<!-- audience: regulator, educator, app -->
+
+The sources below are catalogued as context candidates for this row. The source scope column states what the authors reported; matrix-axis and format-axis row-fit classify how cleanly the scope maps to this row.
+
+| Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/munilla-garcia2023-lead-kombucha-ceramics\|1]] | Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers | kombucha (tea-based, ceramic containers, Spain); routes to both kombucha-tea-based and this row | Pb | Matrix axis: partial (tea-based substrate; FCM pathway applies to this row's non-tea substrates equally). Format axis: finished beverage as consumed. Row-fit: partial — FCM event, not ingredient-level occurrence. | Direct evidence (Source Evidence Inventory above) |
+
+<!-- END: hmi-broad-context-sources -->
+
+## Levers to reduce contamination
+
+Non-tea fermented beverages share the food-contact-material leaching pathway with tea-based kombucha; without the tea substrate, aluminum accumulation from *Camellia sinensis* is eliminated, leaving Pb and Cd from the fruit, grain, or vegetable substrate plus FCM leaching as the primary metal pathways.
+
+| # | Category | Specific lever | Magnitude | Source |
+| --- | --- | --- | --- | --- |
+| 1 | Container/vessel materials | Do not use ceramic, lead-containing solder, or non-food-grade metal containers for fermentation or storage. Use food-grade stainless steel (304 or 316), food-grade HDPE, or borosilicate glass vessels with certified lead-free closures. | The Ibiza kombucha outbreak (munilla-garcia2023) demonstrates Pb escalation to 47 mg/kg in ceramic vessels over 14–19 days under acidic conditions; the same chemistry applies to any acidic fermented beverage. Compliant containers eliminate this pathway. | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|1]] |
+| 2 | Base substrate sourcing | Pb and Cd in the finished beverage reflect concentrations in the fruit, grain, or vegetable substrate. Source from documented low-Pb, low-Cd growing regions; apple and grape substrates carry additional iAs concern from legacy arsenical pesticide use in orchards. | Magnitude not quantified for non-tea fermented beverages specifically in the current evidence base. See ingredient pages for the contributing substrate (e.g., [[ingredients/apple]], [[ingredients/grape]]) for source-level concentration data. | — |
+| 3 | pH and fermentation management | Lower final pH increases the driving force for metal leaching from any contacted surface. This lever is residual after compliant container selection. | Demonstrated for the FCM pathway: for compliant containers, pH management has minimal impact; for artisanal or non-certified vessels, shorter fermentation times and higher pH reduce leaching. | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|1]] |
+| 4 | Testing and QC | Lot-level ICP-MS on finished beverage; Pb and Cd are the priority analytes for this row. Test the beverage in its final packaging at an appropriate post-fermentation point. | Testing identifies out-of-specification lots before consumer delivery; magnitude depends on specification tightness. | — |
+| 5 | Supplier verification | For brands sourcing from artisanal or co-manufacturing producers, require food-contact-material certification for all fermentation and packaging vessels. | Regulatory requirement under EU and national FCM rules; non-compliance was the root cause in the only documented Pb event for this product-category family. | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|1]] |
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The current contributing source is a food-contact-material contamination event report; it establishes the FCM pathway risk vector but does not characterize the ingredient-level Pb or Cd distribution for compliant non-tea fermented beverages. This source is not appropriate for use in setting a population-distribution percentile standard.
+
+The clean_benchmark designation of this row relative to kombucha-tea-based reflects the absence of the tea-plant Al accumulation pathway; it does not imply that Pb and Cd are low — ingredient-level occurrence data are simply absent. The row's EF-5 designation is accurate. Percentile selection and final HMT&C threshold decisions are tracked in the staff Standards Workbench when sufficient evidence is available.
+
+## Historical recalls and enforcement
+
+<!-- audience: regulator, educator -->
+
+No formal product recalls for non-tea fermented beverages on heavy-metal grounds are documented in the current evidence base. The 2023 Ibiza family outbreak (munilla-garcia2023) involved tea-based kombucha from ceramic containers and is documented on the [[products/kombucha-tea-based]] page; the FCM mechanism it describes applies to this category equally. No EU or Spanish maximum level for Pb in fermented beverages existed at the time of that outbreak; the regulatory gap identified by the authors covers this category as well as kombucha. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
+
 ## Sources
 
-- Source promotion pending.
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla García et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública 97 | 2023 | Peer-reviewed (A-tier) | FCM pathway: Pb leaching from ceramic containers under acidic fermentation conditions; documented for tea-based substrate but mechanism applies equally to non-tea acidic fermented beverages; regulatory gap (no EU ML for Pb in fermented beverages) |
