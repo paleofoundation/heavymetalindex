@@ -36,7 +36,12 @@ import { spawnSync } from "node:child_process"
 
 const args = process.argv.slice(2)
 const dryRun = args.includes("--dry-run")
-const includeSynthesis = args.includes("--include-synthesis")
+// Synthesis is on by default per Karen's 2026-05-15 directive: the wiki is
+// stalling because hundreds of ingested PDFs route to ingredient pages whose
+// contamination_profile cells never advance past `pending`. The gate that
+// previously held synthesis OFF until cost calibration was the rule blocking
+// ingest from being useful. Pass --no-synthesis to disable.
+const includeSynthesis = !args.includes("--no-synthesis")
 const maxActions = parseIntArg(args, "--max-actions", 30)
 const maxHours = parseFloatArg(args, "--max-hours", 8)
 const maxSpendUsd = parseFloatArg(args, "--max-spend", 50)
@@ -274,7 +279,6 @@ function renderMorningReport({ startedAt, endedAt, completed, totalSpend, dryRun
   lines.push(`## What this loop could not do`)
   lines.push(``)
   lines.push(`- Anything requiring Karen's approval per CLAUDE.md Part 10 (new ingredient or product page creation above the 5-paper threshold). Those queue for Karen's morning review in \`wiki/lint/<date>-routing-triage.md\` or in batch reports.`)
-  lines.push(`- Synthesis passes on ingredient \`contamination_profile\` cells (disabled in v1 until cost calibration confirms safe budget). Re-run with \`--include-synthesis\` once calibrated.`)
   lines.push(`- Edits to CLAUDE.md, OPERATING.md, or AGENTS.md. Policy documents are Karen's authority per OPERATING.md Part 4.`)
   return lines.join("\n")
 }
