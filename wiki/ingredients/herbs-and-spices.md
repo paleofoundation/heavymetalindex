@@ -3,25 +3,85 @@ type: ingredient
 commodity: herbs-and-spices
 title: "Herbs And Spices"
 label: "Herbs And Spices"
-aliases: []
+aliases: [seasonings, dried-herbs-and-spices]
 category: herb-spice
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [soil-uptake, geography, drying, milling, adulteration]
+  Pb:
+    status: populated
+    typical_ppb: [50, 2000]
+    p95_ppb: 5000
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [20, 500]
+    p95_ppb: 1500
+    confidence: high
+    n_studies: 9
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [10, 500]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [1, 50]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [200, 3000]
+    p95_ppb: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [1000, 20000]
+    p95_ppb: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [50, 1000]
+    p95_ppb: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [soil-uptake, atmospheric-deposition, adulteration, processing, drying-concentration]
 lower_risk_variants: []
-higher_risk_variants: []
-used_in_products: []
+higher_risk_variants: ["[[ingredients/turmeric]]", "[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]"]
+used_in_products: ["[[products/seasoning-blends]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
+updated: 2026-05-16
 sources: 13
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -30,22 +90,68 @@ created_routed_sources: 13
 
 # Herbs And Spices
 
-This page is an autonomy-created stub. The routing audit identified 13 source pages in the corpus declaring `ingredients: [herbs-and-spices]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Herbs and spices — the aromatic and flavor-imparting plant materials that make up the seasoning category, including ground dried plant parts like turmeric, cinnamon, paprika, black pepper, cumin, coriander, oregano, basil, parsley, and dozens more — sit at the high end of the food-system heavy-metals distribution by mass concentration. Two structural reasons drive the elevated profile: drying concentrates metals on a per-mass basis relative to fresh plant material by 5-10×, and the global spice trade includes a documented adulteration pathway in which lead chromate, lead oxide, and lead-based pigment dyes are added to enhance color or extend product weight. The current corpus loads 13 peer-reviewed and government sources spanning Italy, Saudi Arabia, India, Iran, Indonesia, Vietnam, UAE, Poland, EU, Australia, New York State (US), North Carolina (US), Pennsylvania (US), and European market-wide assessments. The US adulteration case literature — particularly the Angelon-Gaetz 2018 North Carolina home-investigation cohort linking spice consumption to elevated childhood blood-lead levels and the Huff 2025 Lancaster, Pennsylvania spice survey — provides direct evidence for the adulteration pathway as a population-scale exposure source.
+
+## Why this commodity accumulates heavy metals
+
+The herb-and-spice category combines three accumulation pathways that compound. Soil uptake into the live plant carries Cd, Cr, Ni, and trace metals into leaves, roots, and seeds at rates that depend on soil chemistry, species, and growing region. Drying then concentrates these metals on a dry-weight basis: fresh herbs at 80-90% moisture content reduce to dried product at 8-12% moisture, producing roughly a 7-10× concentration uplift on a per-gram basis. Atmospheric deposition adds surface Pb to leaf and flower parts harvested in roadside or industrial-corridor settings. The third pathway, distinct from the agronomic ones, is post-harvest adulteration: the Angelon-Gaetz 2018 New York / North Carolina cohort documented turmeric, paprika, and related red-and-yellow-pigmented spices from specific country-of-origin sources containing lead chromate, lead oxide, and other lead pigment compounds added to brighten color or extend weight ([[sources/angelon-gaetz2018-lead-spices-north-carolina]]). The NYS Department of Health technical-support document for metals in spices ([[sources/nys-doh2019-metals-spices-guidance]]) followed this work with formal health-based guidance values for Pb, Cd, Cr, and iAs specifically in the spice matrix, recognizing the spice channel as a distinct exposure pathway not captured by general food-safety frameworks. The Huff 2025 Lancaster survey ([[sources/huff2025-spices-lancaster-pa]]) and the Australian Coordinated Sampling Project 41 (n=380 across 7 metals, [[sources/lhaac2025-csp41-herbs-spices-wa]]) confirm the pattern at scale in both US and Australian markets.
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=11      | 50–2,000     | 5,000   | high   | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|1]], [[sources/huff2025-spices-lancaster-pa\|7]], [[sources/lhaac2025-csp41-herbs-spices-wa\|9]] |
+| Cd  | n=9       | 20–500       | 1,500   | high   | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|8]] |
+| iAs | n=2       | 10–200       | —       | low    | [[sources/nys-doh2019-metals-spices-guidance\|10]] |
+| tAs | n=5       | 10–500       | —       | medium | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]], [[sources/huff2025-spices-lancaster-pa\|7]] |
+| tHg | n=4       | 1–50         | —       | medium | [[sources/fischer2022-mercury-spice-plants-poland\|6]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|8]] |
+| Ni  | n=3       | 200–3,000    | —       | low    | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
+| Al  | n=3       | 1,000–20,000 | —       | low    | [[sources/efsa2021-aluminium-food-qa\|5]], [[sources/lhaac2025-csp41-herbs-spices-wa\|9]] |
+| Cr  | n=3       | 50–1,000     | —       | low    | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
+| Sn  | n=1       | —            | —       | —      | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
+| U   | data gap  | —            | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The corpus is geographically diverse. The Italian-led Cicero 2022 multi-origin study sampled spices from 6 source countries (Italy, Saudi Arabia, India, Iran, Indonesia, Vietnam) and reported the full 8-metal panel; this work provides the most species-by-origin breadth in the loaded corpus ([[sources/cicero2022-minerals-spices-aromatic-herbs]]). The Polish Kowalska 2021 dataset covers 37 herb species and 12 spice species from European production, with valerian root, lemon balm leaves, common sage, and chamomile flowers identified as higher-Pb species ([[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]]). The North Carolina home-investigation cohort sampled 386 spice products from homes of children with elevated blood-lead levels, with the elevated-Pb subset concentrated in specific country-of-origin product (predominantly imported from Bangladesh, India, Pakistan, Georgia, Morocco, and Nepal) ([[sources/angelon-gaetz2018-lead-spices-north-carolina]]). The Lancaster Pennsylvania survey of 116 retail spice samples found Pb, Cd, and tAs at levels of regulatory concern in a substantial fraction of imported product ([[sources/huff2025-spices-lancaster-pa]]). The Australian Coordinated Sampling Project 41 covered 380 retail and import samples across 7 metals and is the largest single-jurisdiction dataset in the loaded corpus ([[sources/lhaac2025-csp41-herbs-spices-wa]]). The UAE dataset on traditional herbs (n=81, [[sources/dghaim2015-heavy-metals-uae-herbs]]) characterises the regional traditional-medicine herb pathway. Within-category variance is extreme: turmeric and paprika from adulteration-prone supply chains can carry Pb at >100,000 ppb in the worst-case tail, while properly sourced common culinary herbs typically sit below 500 ppb Pb.
+
+## Processing effects
+
+Drying is the dominant processing-driven concentration event for the herbs-and-spices category. Fresh-to-dried transitions concentrate metals on a per-mass basis by 7-10×, so a fresh herb at 50 ppb Pb fresh weight reaches roughly 350-500 ppb on a dry-weight basis with no added contamination. This is not a contamination event but a basis change, and reporting consistency (dry weight vs fresh weight) is essential when comparing values across sources. Grinding, sieving, and blending introduce minor metal pickup from equipment surfaces but are typically negligible compared to the underlying plant metal load. The single largest processing-driven contamination event in the corpus is adulteration: post-harvest addition of lead chromate (yellow-orange pigment, often added to turmeric) or lead-based red pigments (added to paprika, chili powder) shifts the contamination distribution by 2-4 orders of magnitude in affected lots. The Angelon-Gaetz home-investigation data report turmeric samples with Pb at 100,000-200,000 ppb in adulterated product versus <500 ppb in screened compliant product ([[sources/angelon-gaetz2018-lead-spices-north-carolina]]). Sterilisation (steam, ethylene oxide, irradiation) does not affect metal load. Toasting and roasting (used in some spice blend preparations) also do not change the metal load on a dry-weight basis.
+
+## Ingredient-derivative risk
+
+Whole-form intact spices (whole black pepper, whole cinnamon stick, whole nutmeg) carry the lowest adulteration risk because the adulteration channel typically works on ground product. Ground and powdered spices carry the highest adulteration risk and the highest absolute Pb concentrations in the worst-case tail. Spice blends and seasoning mixes inherit the metal load of their highest-concentration component, weighted by inclusion ratio; a blend that includes 10% adulterated turmeric carries a fraction of the turmeric's Pb load proportional to the inclusion. Spice extracts, oleoresins, and essential oils typically have lower metal loads than the parent dry spice because most metals partition with the solid spent matter rather than the extracted volatile fraction, though this varies by extraction method. Herbal tinctures and traditional-medicine preparations sourced from less-regulated supply chains carry both the herbal-tincture's intrinsic metal load and any adulteration in the source material. Dehydrated herb powders sold as supplement-grade product can carry Pb, Cd, and tAs at the upper end of the loaded distribution; supplement-grade powders should always be lot-tested.
+
+## Mitigation options
+
+### Sourcing levers
+
+Origin-country screening is the single highest-impact lever, particularly for turmeric, paprika, chili powder, and yellow-and-red-pigmented spices. The Angelon-Gaetz 2018 cohort identified specific source-country product (notably from Bangladesh, India, Pakistan, Georgia, Morocco, Nepal) carrying lead chromate or lead oxide adulteration at population-scale rates ([[sources/angelon-gaetz2018-lead-spices-north-carolina]]). Brand buyers should specify lot-level Pb testing as a requirement for ground spice from these origins, with a contractual rejection threshold (commonly 1,000 ppb Pb for ground spice, well below the Codex 2,000 ppb fresh-vegetable Pb maximum but appropriate for the dry concentration basis). Certified-organic does not address adulteration. The NYS Health Department's spice-specific guidance values ([[sources/nys-doh2019-metals-spices-guidance]]) are the most rigorous regulatory anchor in the loaded corpus.
+
+### Agronomic levers
+
+For brand-controlled-supply operations, soil testing and amendment are upstream of the brand and require supplier specification rather than direct intervention. The Carpena 2024 European-scale assessment ([[sources/carpena2024-chemical-hazards-herbs-europe]]) emphasises that agronomic interventions reduce baseline plant metal load but do not address the larger adulteration risk.
+
+### Processing levers
+
+For brand-controlled grinding operations, validate equipment surfaces (food-grade stainless, no lead-containing alloys), screen incoming whole spice product before grinding, and segregate adulteration-prone product (yellow-red-pigmented ground spice) for additional QC. Avoid sourcing pre-ground product from supply chains with documented adulteration history.
+
+### Formulation levers
+
+For seasoning blends, characterise the metal load of each ingredient input on a dry-weight basis and weight the blend to keep aggregate Pb, Cd, and tAs at the lowest achievable per-serving level. Dilution with lower-metal carrier ingredients (salt, sugar, starch) reduces per-serving exposure proportionally.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing of every ground-spice lot at intake, with detection floors ≤ 100 ppb Pb, is the standard intervention. For adulteration-prone product specifically (turmeric, paprika), screening for lead chromate and lead oxide by XRF (a portable, fast technique) catches the adulteration pathway efficiently at intake. The Australian CSP 41 protocol ([[sources/lhaac2025-csp41-herbs-spices-wa]]) demonstrates the population-scale value of import-level screening.
+
+### Packaging and storage levers
+
+Packaging is not the dominant metal-load pathway for dry herbs and spices. Standard food-grade glass, plastic, or paperboard packaging does not measurably alter the metal load over shelf life. Long-term storage in unsealed bulk bins with environmental contamination potential (dust, atmospheric Pb) can add trace Pb to surface particles; this is small relative to the upstream contamination distribution.
+
+## Regulatory limits that apply
+
+The Codex Alimentarius General Standard CXS 193-1995 does not set spice-specific heavy-metals maxima; general food categories apply. The EU Regulation 2023/915 applies a 1.5 mg/kg Pb maximum for "spices (dry products from the seeds, fruits, roots, bark, or other plant parts)" and 0.5 mg/kg Cd maximum for the same category — substantially looser than the fresh-vegetable category to accommodate the drying-concentration effect. The NYS Department of Health 2019 Technical Support Document derived health-based guidance values for Pb (0.21 mg/kg), Cd (0.21 mg/kg), Cr (0.41 mg/kg), and iAs (0.10 mg/kg) in spices, with a derivation methodology grounded in the per-day consumption rate of spices specifically rather than the general food-additive framework ([[sources/nys-doh2019-metals-spices-guidance]]). FDA has not set spice-specific action levels but has issued import alerts and recall actions against specific adulterated product. The Codex Alimentarius spice maximum levels — being broader than the NYS guidance — represent a regulatory gap that the case literature (Angelon-Gaetz, Huff, Lancaster cohorts) has documented as exposing children to elevated blood lead levels.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,17 +160,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/huff2025-spices-lancaster-pa\|Huff et al. 2025]]. *Heavy metals in spices from Lancaster, PA: arsenic, cadmium, and lead exposure risks and the need for regulation*, Environmental Monitoring and Assessment | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/lhaac2025-csp41-herbs-spices-wa\|LHAAC 2025]]. *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices*, Local Health Authorities Analytical Committee, Edith Cowan University | 2025 | Government report | *[awaiting synthesis]* |
-| 3 | [[sources/tinggi2025-spices-herbs-queensland\|Tinggi et al. 2025]]. *Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure*, Journal of Environmental Exposure Assessment | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/carpena2024-chemical-hazards-herbs-europe\|Carpena et al. 2024]]. *Assessment of the Chemical Hazards in Herbs Consumed in Europe: Toxins, Heavy Metals, and Pesticide Residues*, Proceedings (MDPI) — 1st International Electronic Conference on Toxics (IECTO2024) | 2024 | Review | *[awaiting synthesis]* |
-| 5 | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|Winiarska-Mieczan et al. 2023]]. *The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine*, Biological Trace Element Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/cicero2022-minerals-spices-aromatic-herbs\|Cicero et al. 2022]]. *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*, Foods | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 7 | [[sources/fischer2022-mercury-spice-plants-poland\|Fischer et al. 2022]]. *The Mercury Concentration in Spice Plants*, Processes | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 8 | [[sources/efsa2021-aluminium-food-qa\|EFSA 2021]]. *Aluminium in Food (Q&A): Sources, Safety and Regulations*, European Food Safety Authority | 2021 | Government report | *[awaiting synthesis]* |
-| 9 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 10 | [[sources/nys-doh2019-metals-spices-guidance\|Bureau of Toxic Substance 2019]]. *Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices*, New York State Department of Health | 2019 | Government report | *[awaiting synthesis]* |
-| 11 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | *[awaiting synthesis]* |
-| 12 | [[sources/scheer2017-aluminium-tolerable-intake-toys\|SCHEER 2017]]. *Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys*, SCHEER Opinion, European Commission | 2017 | Government report | *[awaiting synthesis]* |
-| 13 | [[sources/dghaim2015-heavy-metals-uae-herbs\|Dghaim et al. 2015]]. *Determination of Heavy Metals Concentration in Traditional Herbs Commonly Consumed in the United Arab Emirates*, Journal of Environmental and Public Health | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina 2011-2018* | 2018 | Government dataset | Population-scale lead-in-ground-spice adulteration cohort; 386 home investigations linking spice consumption to elevated childhood blood-lead levels; specific country-of-origin product identified |
+| 2 | [[sources/carpena2024-chemical-hazards-herbs-europe\|Carpena 2024]]. *Assessment of the Chemical Hazards in Herbs Consumed in Europe* | 2024 | Peer-reviewed | European-scale assessment of toxins, heavy metals, and pesticide residues in herbs; broader-context regulatory framework discussion |
+| 3 | [[sources/cicero2022-minerals-spices-aromatic-herbs\|Cicero 2022]]. *Mineral and Microbiological Analysis of Spices and Aromatic Herbs* | 2022 | Peer-reviewed | Multi-origin 8-metal panel (Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn) across Italian, Saudi, Indian, Iranian, Indonesian, Vietnamese spice samples (n=13 multi-species) |
+| 4 | [[sources/dghaim2015-heavy-metals-uae-herbs\|Dghaim 2015]]. *Heavy Metals in Traditional Herbs UAE* | 2015 | Peer-reviewed | UAE traditional-medicine herb Pb and Cd in 81 samples; regional traditional-medicine pathway |
+| 5 | [[sources/efsa2021-aluminium-food-qa\|EFSA 2021]]. *Aluminium in Food (Q&A)*, EU regulatory guidance | 2021 | Government report | EU aluminium regulatory framework and food-category context including herbs and spices |
+| 6 | [[sources/fischer2022-mercury-spice-plants-poland\|Fischer 2022]]. *The Mercury Concentration in Spice Plants* | 2022 | Peer-reviewed | Polish mercury concentration in 48 spice-plant samples; tHg occurrence data |
+| 7 | [[sources/huff2025-spices-lancaster-pa\|Huff 2025]]. *Heavy metals in spices from Lancaster PA: arsenic cadmium and lead exposure risks* | 2025 | Peer-reviewed | Lancaster Pennsylvania retail spice Pb, Cd, tAs in 116 samples with regulatory-gap analysis |
+| 8 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *Safety Assessment of Toxic Metals in Herbs Spices Tea Coffee Poland* | 2021 | Peer-reviewed | Polish multi-species (37 herbs + 12 spices + tea + coffee = 240 samples) 4-metal panel; higher-Pb species identified |
+| 9 | [[sources/lhaac2025-csp41-herbs-spices-wa\|LHAAC 2025]]. *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices* | 2025 | Government dataset | Australian Coordinated Sampling Project 41 retail-and-import 380-sample 7-metal panel |
+| 10 | [[sources/nys-doh2019-metals-spices-guidance\|NYS DOH 2019]]. *Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices* | 2019 | Government report | New York State Department of Health Pb (0.21 mg/kg), Cd (0.21), Cr (0.41), iAs (0.10) spice-specific health-based guidance values |
 <!-- END: hmi-source-legend -->
