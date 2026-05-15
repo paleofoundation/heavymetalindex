@@ -1,6 +1,6 @@
 # Session prompt: draft missing mandatory sections on product-category pages
 
-CLAUDE.md Part 6 mandates 10 H2 sections on every non-stub product-category page, including a new "Levers to reduce contamination" section. 26 pages currently fail this lint; 26 are missing the load-bearing Levers section specifically.
+CLAUDE.md Part 6 mandates 10 H2 sections on every non-stub product-category page, including a new "Levers to reduce contamination" section. 4 pages currently fail this lint; 4 are missing the load-bearing Levers section specifically.
 
 Brand-legal reads these pages. The Levers section is the brand-legal-actionable surface. Drafting it well is the load-bearing element of this action.
 
@@ -61,14 +61,12 @@ For each page in scope:
 - Don't restructure existing Methodology, Source Evidence Inventory, or other already-present sections.
 - Don't reorder existing sections; insert missing sections in the canonical Part 6 order alongside what's there.
 
-## Pages in scope (26)
+## Pages in scope (4)
 
-  - baby-cereals-dry-non-rice (missing 6, levers: true): who_for;methodology;source_evidence_inventory;regulatory_vs_field;levers;standards_math
-  - baby-cereals-dry-rice-based (missing 6, levers: true): who_for;methodology;source_evidence_inventory;regulatory_vs_field;levers;standards_math
-  - fish-containing-baby-foods (missing 6, levers: true): who_for;methodology;source_evidence_inventory;regulatory_vs_field;levers;standards_math
-  - fruit-juice-not-canned (missing 6, levers: true): who_for;methodology;source_evidence_inventory;regulatory_vs_field;levers;standards_math
-  - fruit-juices-apple-containing (missing 8, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
-... and 21 more (see data/evidence/product-mandatory-sections-audit.csv for full list)
+  - coffee (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
+  - fermented-beverages-non-tea-based (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
+  - herbal-botanical-infusions (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
+  - kombucha-tea-based (missing 7, levers: true): who_for;methodology;source_evidence_inventory;broad_context_index;levers;standards_math;recalls_enforcement
 
 ## Reference
 

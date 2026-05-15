@@ -1,6 +1,6 @@
 # Session prompt: complete autonomy-created stub pages
 
-46 ingredient/product pages were created by `tools/autonomy/create-missing-pages.mjs` from `routing_unresolved.csv` entries, but their bodies were never drafted. Each has between 2 and 14 routed source pages declaring `ingredients: [<slug>]` or `products: [<slug>]` in their frontmatter — the routing audit picked them up — but the contamination_profile remains all-pending and the body is just the stub template.
+45 ingredient/product pages were created by `tools/autonomy/create-missing-pages.mjs` from `routing_unresolved.csv` entries, but their bodies were never drafted. Each has between 2 and 13 routed source pages declaring `ingredients: [<slug>]` or `products: [<slug>]` in their frontmatter — the routing audit picked them up — but the contamination_profile remains all-pending and the body is just the stub template.
 
 This is the load-bearing fix for Karen's 2026-05-15 "we're wasting time with our ingests" diagnostic. Sources are being ingested and routed; the failure mode is that no synthesis pass converts them into ingredient-page content.
 
@@ -37,18 +37,18 @@ This is the load-bearing fix for Karen's 2026-05-15 "we're wasting time with our
 
 ## Top 10 pages by routed-source count (process first)
 
-  1. ingredient/leafy-vegetables (14 routed sources, body=1327 chars)
-  2. ingredient/herbs-and-spices (13 routed sources, body=1327 chars)
-  3. ingredient/seaweed (10 routed sources, body=1309 chars)
-  4. ingredient/tea (10 routed sources, body=1301 chars)
-  5. ingredient/vinegar (10 routed sources, body=1309 chars)
-  6. ingredient/lettuce (9 routed sources, body=1308 chars)
-  7. ingredient/turmeric (9 routed sources, body=1310 chars)
-  8. ingredient/sunflower-oil (7 routed sources, body=1320 chars)
-  9. ingredient/vegetable-oils (6 routed sources, body=1322 chars)
-  10. ingredient/cinnamon (5 routed sources, body=1310 chars)
+  1. ingredient/herbs-and-spices (13 routed sources, body=1327 chars)
+  2. ingredient/seaweed (10 routed sources, body=1309 chars)
+  3. ingredient/tea (10 routed sources, body=1301 chars)
+  4. ingredient/vinegar (10 routed sources, body=1309 chars)
+  5. ingredient/lettuce (9 routed sources, body=1308 chars)
+  6. ingredient/turmeric (9 routed sources, body=1310 chars)
+  7. ingredient/sunflower-oil (7 routed sources, body=1320 chars)
+  8. ingredient/vegetable-oils (6 routed sources, body=1322 chars)
+  9. ingredient/cinnamon (5 routed sources, body=1310 chars)
+  10. ingredient/soybean-oil (5 routed sources, body=1316 chars)
 
-Full list of 46 pages: see `data/evidence/autonomy-stubs-pending.csv` (regenerated each `npm run plan`).
+Full list of 45 pages: see `data/evidence/autonomy-stubs-pending.csv` (regenerated each `npm run plan`).
 
 ## Reference
 

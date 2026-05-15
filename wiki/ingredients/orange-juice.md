@@ -160,6 +160,15 @@ Modern aseptic packaging, glass bottles, and multilayer cartons do not contribut
 
 In the United States, FDA's juice HACCP regulation (21 CFR Part 120) and the associated 2004 Pb action guidance establish a 50 ppb Pb limit for juice products intended for infants and young children, and this level has been used operationally for all juice HACCP programs [[regulations/fda-juice-haccp-lead-50ppb]]. In the European Union, Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.050 mg/kg (50 ppb) for Pb in fruit juices (including orange juice), which is more stringent than the 0.10 mg/kg level for fresh fruit. No specific EU Cd, iAs, or tHg limit applies to orange juice. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) provides Pb reference levels for fruit juices. See [[regulations/fda-juice-haccp-lead-50ppb]] and [[regulations/eu2023-contaminants-maximum-levels]] for applicable regulatory reference pages.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/paudel2024-packaged-fruit-juices-nepal\|Paudel et al. 2024]]. *Analysis and Detection of Heavy Metals Content in Some Selected Packaged Fruit Juices of Kathmandu City by Flame Atomic Absorption Spectroscopy*, International Journal of Applied Sciences and Biotechnology | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\|Sobhanardakani et al. 2017]]. *Assessment of Contents and Health Risk of Aluminum and Copper through Consumption of Commercial Fruit Juices*, Annals of Military and Health Sciences Research | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|Farid et al. 2010]]. *Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah, Saudi Arabia*, Medical Journal of Islamic World Academy of Sciences | 2010 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

@@ -162,6 +162,13 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets maximum levels of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in most fresh vegetables on a wet weight basis, covering the non-root vegetable category. Specific limits apply to some sub-categories: stem vegetables such as celery carry a lower Cd limit (0.10 mg/kg) under the regulation's more stringent provisions for certain higher-accumulating vegetables. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) provides international reference limits for Pb and Cd in vegetables. No specific iAs or tHg limits apply to fresh or processed non-root vegetables under major regulatory frameworks. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

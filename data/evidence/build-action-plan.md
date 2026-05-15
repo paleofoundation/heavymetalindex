@@ -32,22 +32,22 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 2. Run synthesis pass on 294 (ingredient, metal) cells that have 2+ contributing sources
+## 2. Run synthesis pass on 291 (ingredient, metal) cells that have 2+ contributing sources
 
 **Action ID:** `SYNTHESIS-INGREDIENT-PENDING`
 **Strategy:** synthesis
-**Priority score:** 55.1 (impact 588 × confidence 0.75 ÷ cost factor)
+**Priority score:** 54.6 (impact 582 × confidence 0.75 ÷ cost factor)
 **Cost:** expensive
 **Best dispatched to:** Claude Code Opus (analytical: cross-source synthesis)
 **Inline action:** `list_ready_synthesis_cells` (the orchestrator can execute this directly; not yet wired in v0)
 
 **What this closes:** ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules
 
-**Details:** 1176 ingredient × metal cells are currently pending. Of those, 294 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 882 cells have 0-1 contributing sources and need more corpus before synthesis runs.
+**Details:** 1166 ingredient × metal cells are currently pending. Of those, 291 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 875 cells have 0-1 contributing sources and need more corpus before synthesis runs.
 
 ---
 
-## 3. Complete 46 autonomy-created stub ingredient pages with routed sources (top: leafy-vegetables=14, herbs-and-spices=13, seaweed=10, tea=10, vinegar=10)
+## 3. Complete 45 autonomy-created stub ingredient pages with routed sources (top: herbs-and-spices=13, seaweed=10, tea=10, vinegar=10, lettuce=9)
 
 **Action ID:** `COMPLETE-AUTONOMY-STUBS`
 **Strategy:** synthesis
@@ -58,7 +58,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 **What this closes:** ingredient pages auto-created from routing_unresolved that have inbound source-page declarations but empty bodies and all-pending contamination_profile. Filling these pages converts ingested sources into actual wiki content — the load-bearing fix for Karen's 2026-05-15 'wasting time with our ingests' diagnostic. Each page graduates to non-stub status, which means future routing-audit and mandatory-sections lint passes can detect it as a real page rather than an exempt placeholder.
 
-**Details:** 46 stubs identified by created_by: autonomy_v0 frontmatter; total routed sources across all stubs: 196. The orchestrator prioritizes by routed-source count (highest first). Each page needs: contamination_profile advanced from pending to populated for the metals the routed sources report; body table updated; the 8 mandatory CLAUDE.md Part 6 sections drafted; source legend filled with 1-sentence "Used on this page for" descriptions.
+**Details:** 45 stubs identified by created_by: autonomy_v0 frontmatter; total routed sources across all stubs: 182. The orchestrator prioritizes by routed-source count (highest first). Each page needs: contamination_profile advanced from pending to populated for the metals the routed sources report; body table updated; the 8 mandatory CLAUDE.md Part 6 sections drafted; source legend filled with 1-sentence "Used on this page for" descriptions.
 
 ---
 
@@ -77,18 +77,18 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 5. Populate 1098 *[awaiting synthesis]* cells in source-legend tables across 253 pages
+## 5. Populate 254 *[awaiting synthesis]* cells in source-legend tables across 253 pages
 
 **Action ID:** `POPULATE-SOURCE-LEGEND`
 **Strategy:** schema
-**Priority score:** 42.5 (impact 400 × confidence 0.85 ÷ cost factor)
-**Cost:** expensive
+**Priority score:** 36.0 (impact 127 × confidence 0.85 ÷ cost factor)
+**Cost:** medium
 **Best dispatched to:** Claude Code Opus (per-source contextual synthesis at scale)
 **Session prompt:** [`data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md`](../../data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md)
 
 **What this closes:** the "Used on this page for" column in the hmi-source-legend table on every product, ingredient, and metal page — the brand-legal-facing scannable provenance surface Karen prioritized as standard format on 2026-05-13
 
-**Details:** 1098 cells across 253 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.
+**Details:** 254 cells across 253 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.
 
 ---
 
