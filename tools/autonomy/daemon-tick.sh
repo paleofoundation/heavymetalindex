@@ -133,6 +133,15 @@ run_step "firewall fix" node tools/autonomy/firewall-fix.mjs || true
 # placeholder. Future synthesis ticks replace the placeholder with content.
 run_step "mandatory sections" node tools/autonomy/mandatory-sections.mjs || true
 
+# Step 4d.1: source-legend programmatic baseline fill — populates the
+# "Used on this page for" column on every product/ingredient/metal page's
+# hmi-source-legend table from each source's frontmatter. Idempotent;
+# only touches literal `*[awaiting synthesis]*` placeholders. Brings new
+# pages to a passing-baseline state immediately so the live site doesn't
+# show placeholder text. Per-cell Opus-grade deepening remains a separate
+# orchestrator action (POPULATE-SOURCE-LEGEND).
+run_step "source-legend baseline" node tools/autonomy/populate-source-legends.mjs || true
+
 # Step 4e: provenance audit — informational. Flags numerical claims on public
 # pages that don't trace to a [[sources/...]] link in the same paragraph.
 # Per CLAUDE.md Part 18, claims without provenance are a lint failure; this
