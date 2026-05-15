@@ -180,6 +180,42 @@ if (productSectionFails.length > 0) {
   })
 }
 
+// ---------- Signal 2c: autonomy-created stubs with routed sources but empty bodies ----------
+// Pages created by tools/autonomy/create-missing-pages.mjs from routing_unresolved
+// graduate to non-stub status only when their contamination_profile advances out
+// of all-pending AND the body has prose content. Until that happens, the
+// mandatory-sections audit exempts them as stubs and the routing audit keeps
+// pointing fresh ingest at empty pages. This action surfaces them as a
+// distinct fix target so the night-loop can dispatch synthesis-and-section
+// drafting against them in priority order (most-routed-sources first).
+const autonomyStubs = findAutonomyStubs()
+// Persist the inventory for downstream consumers and Karen's morning review.
+const autonomyStubsCsvPath = path.join(dataDir, "autonomy-stubs-pending.csv")
+const csvLines = ["slug,kind,file,routed_sources,body_len,all_pending"]
+for (const s of autonomyStubs) csvLines.push(`${s.slug},${s.kind},${s.file},${s.routed_sources},${s.body_len},${s.all_pending}`)
+fs.writeFileSync(autonomyStubsCsvPath, csvLines.join("\n") + "\n", "utf8")
+if (autonomyStubs.length > 0) {
+  const id = "COMPLETE-AUTONOMY-STUBS"
+  const promptPath = path.join(promptsDir, `${id}.md`)
+  writePrompt(promptPath, buildCompleteAutonomyStubsPrompt(autonomyStubs))
+  // Per-page impact scales with the routed-source count; clip at 50 to avoid
+  // a single high-source page dominating the priority calculation.
+  const totalRouted = autonomyStubs.reduce((s, p) => s + Math.min(p.routed_sources, 50), 0)
+  actions.push({
+    id,
+    strategy: "synthesis",
+    title: `Complete ${autonomyStubs.length} autonomy-created stub ingredient pages with routed sources (top: ${autonomyStubs.slice(0, 5).map((p) => `${p.slug}=${p.routed_sources}`).join(", ")})`,
+    impact_score: Math.min(totalRouted * 3, 500),
+    cost: autonomyStubs.length > 30 ? "expensive" : autonomyStubs.length > 10 ? "medium" : "cheap",
+    confidence: 0.85,
+    closes_count: autonomyStubs.length,
+    closes_what: "ingredient pages auto-created from routing_unresolved that have inbound source-page declarations but empty bodies and all-pending contamination_profile. Filling these pages converts ingested sources into actual wiki content — the load-bearing fix for Karen's 2026-05-15 'wasting time with our ingests' diagnostic. Each page graduates to non-stub status, which means future routing-audit and mandatory-sections lint passes can detect it as a real page rather than an exempt placeholder.",
+    best_dispatched_to: "Claude Code Opus (per-page deep-read of routed sources + multi-section drafting)",
+    prompt_path: path.relative(repoRoot, promptPath),
+    details: `${autonomyStubs.length} stubs identified by created_by: autonomy_v0 frontmatter; total routed sources across all stubs: ${autonomyStubs.reduce((s, p) => s + p.routed_sources, 0)}. The orchestrator prioritizes by routed-source count (highest first). Each page needs: contamination_profile advanced from pending to populated for the metals the routed sources report; body table updated; the 8 mandatory CLAUDE.md Part 6 sections drafted; source legend filled with 1-sentence "Used on this page for" descriptions.`,
+  })
+}
+
 // ---------- Signal 3a: source-legend tables with awaiting-synthesis cells ----------
 const awaitingCells = countAwaitingSynthesisCells()
 if (awaitingCells.total > 0) {
@@ -383,6 +419,104 @@ function countPendingIngredientCells() {
   // Rough heuristic: cellsReady ~= 25% of pending (those with structured-evidence backing).
   cellsReady = Math.floor(total * 0.25)
   return { total, cellsReady }
+}
+
+function findAutonomyStubs() {
+  // Identify pages with created_by: autonomy_v0 in frontmatter that have not
+  // graduated to non-stub status. Two criteria define "not graduated":
+  //   1. All contamination_profile sub-blocks remain status: pending, OR
+  //   2. The body length below the frontmatter is under ~600 chars (template-only).
+  //
+  // Sort by routed-source count descending so the highest-impact pages dispatch first.
+  const out = []
+  const dirs = [ingredientsDir, path.join(repoRoot, "wiki/products")]
+  for (const dir of dirs) {
+    if (!fs.existsSync(dir)) continue
+    for (const file of fs.readdirSync(dir)) {
+      if (!file.endsWith(".md")) continue
+      if (file === "index.md") continue
+      const fullPath = path.join(dir, file)
+      const raw = fs.readFileSync(fullPath, "utf8")
+      if (!/^created_by:\s*autonomy_v0/m.test(raw)) continue
+      // Body-length check: count content after the closing --- of frontmatter
+      const fmEnd = raw.indexOf("---", 4)
+      const bodyLen = fmEnd > 0 ? raw.length - fmEnd - 3 : 0
+      // Routed-source count: read created_routed_sources if present, else 0
+      const routedMatch = raw.match(/^created_routed_sources:\s*(\d+)/m)
+      const routedSources = routedMatch ? parseInt(routedMatch[1], 10) : 0
+      // All-pending check: every contamination_profile sub-block has status: pending
+      const profileMatch = raw.match(/contamination_profile:([\s\S]*?)\n(?:[a-z_]+:|---)/)
+      let allPending = false
+      if (profileMatch) {
+        const profileBlock = profileMatch[1]
+        const statusMatches = profileBlock.match(/status:\s*\w+/g) || []
+        allPending = statusMatches.length > 0 && statusMatches.every((s) => /status:\s*pending/.test(s))
+      }
+      // Graduate criterion: contamination_profile has at least one non-pending
+      // AND body is substantial (> 1200 chars)
+      const graduated = !allPending && bodyLen > 1200
+      if (graduated) continue
+      const slug = file.replace(/\.md$/, "")
+      const kind = dir === ingredientsDir ? "ingredient" : "product"
+      out.push({ slug, kind, file: path.relative(repoRoot, fullPath), routed_sources: routedSources, body_len: bodyLen, all_pending: allPending })
+    }
+  }
+  out.sort((a, b) => b.routed_sources - a.routed_sources)
+  return out
+}
+
+function buildCompleteAutonomyStubsPrompt(stubs) {
+  const top10 = stubs.slice(0, 10).map((s, i) => `  ${i + 1}. ${s.kind}/${s.slug} (${s.routed_sources} routed sources, body=${s.body_len} chars)`).join("\n")
+  return `# Session prompt: complete autonomy-created stub pages
+
+${stubs.length} ingredient/product pages were created by \`tools/autonomy/create-missing-pages.mjs\` from \`routing_unresolved.csv\` entries, but their bodies were never drafted. Each has between ${stubs[stubs.length - 1]?.routed_sources ?? 0} and ${stubs[0]?.routed_sources ?? 0} routed source pages declaring \`ingredients: [<slug>]\` or \`products: [<slug>]\` in their frontmatter — the routing audit picked them up — but the contamination_profile remains all-pending and the body is just the stub template.
+
+This is the load-bearing fix for Karen's 2026-05-15 "we're wasting time with our ingests" diagnostic. Sources are being ingested and routed; the failure mode is that no synthesis pass converts them into ingredient-page content.
+
+## Workflow per page (process top 5-10 per dispatch; sort by routed-source count desc)
+
+1. Read the page at \`wiki/<kind>/<slug>.md\`.
+
+2. Find the routed source pages: grep \`wiki/sources/\` for source pages whose frontmatter declares this ingredient or product slug. Specifically:
+   - \`grep -l "ingredients:.*\\[\\[ingredients/<slug>\\]\\]\\|matrices:.*<slug>" wiki/sources/*.md\` for ingredients
+   - \`grep -l "products:.*\\[\\[products/<slug>\\]\\]\\|products:.*<slug>" wiki/sources/*.md\` for products
+   - Cross-reference with \`data/evidence/product_source_routing_audit.csv\` for product pages.
+
+3. Read the routed source pages (top 5-10 by sample size / evidence tier). Skim title, key numbers, sample population, methods.
+
+4. **For ingredient pages**: advance the contamination_profile in frontmatter. For each metal in the schema (Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U):
+   - If the routed sources collectively report concentrations for that metal: set \`status: populated\`, fill \`typical_ppb\` as the cited range, \`p95_ppb\` if available, \`confidence\` (low / medium / high per CLAUDE.md Part 6), \`n_studies\` as the source count, \`last_reviewed\` as today.
+   - If no source addresses the metal: set \`status: populated, typical_ppb: [null, null], confidence: null, n_studies: 0, last_reviewed: <today>\` — this is the Part 6 coverage-rule "declared data gap."
+   - Per Part 6 coverage rule, ALL ten sub-blocks must advance out of pending in the same pass.
+
+5. **For both ingredient and product pages**: draft the body with all 8 (ingredient) or 10 (product) CLAUDE.md Part 6 mandatory sections. Use prose paragraphs (no bullets in narrative sections per Part 15). Every numeric claim cites a routed source via \`[[sources/<cite-key>|N]]\`.
+
+6. Update the in-body contamination_profile table to reflect the new frontmatter values. Use \`n=<count>\` for populated cells, \`data gap\` for cells where status is populated but n_studies=0.
+
+7. Update the source-legend table at the bottom: fill in the "Used on this page for" column with a 1-sentence description of what each routed source contributes.
+
+8. Commit after each batch of 5 pages with a descriptive message naming the slugs.
+
+## What NOT to do
+
+- Don't fabricate concentration values. Every numeric claim must trace to a routed source.
+- Don't skip the Mitigation options section on ingredient pages or the Levers to reduce contamination section on product pages. These are the brand-legal-actionable surfaces and are the load-bearing additions.
+- Don't add new source pages or rewrite the routing audit. Routing is the system's responsibility; the page-completion task only reads it.
+- Don't graduate a page to non-stub status if it has zero routed sources. Pages with zero routed sources stay as stubs until corpus accumulates.
+
+## Top 10 pages by routed-source count (process first)
+
+${top10}
+
+Full list of ${stubs.length} pages: see \`data/evidence/autonomy-stubs-pending.csv\` (regenerated each \`npm run plan\`).
+
+## Reference
+
+- CLAUDE.md Part 6 (template, mandatory sections, coverage rule)
+- CLAUDE.md Part 9 (synthesis trigger conditions, incremental update rules)
+- CLAUDE.md Part 15 (prose-first writing style)
+- OPERATING.md Part 3 (act without asking on routine content drafting)
+`
 }
 
 function countAwaitingSynthesisCells() {
