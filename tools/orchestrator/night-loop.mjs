@@ -42,7 +42,12 @@ const includeSynthesis = !args.includes("--no-synthesis")
 const maxActions = parseIntArg(args, "--max-actions", 30)
 const maxHours = parseFloatArg(args, "--max-hours", 8)
 const maxSpendUsd = parseFloatArg(args, "--max-spend", 50)
-const dispatchModel = parseStringArg(args, "--model", "sonnet")
+// Default model is Opus 4.7 (claude-opus-4-7). Synthesis and section-drafting
+// work is analytical and benefits from Opus's stronger reasoning; the price
+// premium over Sonnet is the cost of better calls on cross-source synthesis,
+// row-fit, and basis-conversion edge cases. Pass --model sonnet to downshift
+// for cheaper bulk work where quality is less load-bearing.
+const dispatchModel = parseStringArg(args, "--model", "claude-opus-4-7")
 
 const repoRoot = process.cwd()
 const planJsonPath = path.join(repoRoot, "data/evidence/build-action-plan.json")

@@ -2,7 +2,11 @@
 // Dispatches an action from the orchestrator's plan to a Claude subprocess.
 //
 // Usage:
-//   node tools/orchestrator/dispatch.mjs <action-id> [--dry-run] [--model sonnet|opus] [--max-turns N]
+//   node tools/orchestrator/dispatch.mjs <action-id> [--dry-run] [--model claude-opus-4-7|sonnet|haiku] [--max-turns N]
+//
+// Default model is Opus 4.7 (claude-opus-4-7) per Karen's 2026-05-16 directive.
+// Downshift to sonnet or haiku for cheaper bulk work where quality is less
+// load-bearing.
 //
 // Reads the per-action prompt from data/evidence/build-action-prompts/,
 // invokes `claude --print` with appropriate permission and tool flags,
@@ -31,13 +35,13 @@ import { spawn } from "node:child_process"
 const args = process.argv.slice(2)
 const dryRun = args.includes("--dry-run")
 const modelIdx = args.indexOf("--model")
-const model = modelIdx >= 0 ? args[modelIdx + 1] : "sonnet"
+const model = modelIdx >= 0 ? args[modelIdx + 1] : "claude-opus-4-7"
 const maxTurnsIdx = args.indexOf("--max-turns")
 const maxTurns = maxTurnsIdx >= 0 ? args[maxTurnsIdx + 1] : "40"
 const actionId = args.find((a) => !a.startsWith("--") && a !== model && a !== maxTurns)
 
 if (!actionId) {
-  console.error("Usage: dispatch.mjs <action-id> [--dry-run] [--model sonnet|opus] [--max-turns N]")
+  console.error("Usage: dispatch.mjs <action-id> [--dry-run] [--model claude-opus-4-7|sonnet|haiku] [--max-turns N]")
   process.exit(1)
 }
 
