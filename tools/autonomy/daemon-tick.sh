@@ -142,6 +142,14 @@ run_step "mandatory sections" node tools/autonomy/mandatory-sections.mjs || true
 # orchestrator action (POPULATE-SOURCE-LEGEND).
 run_step "source-legend baseline" node tools/autonomy/populate-source-legends.mjs || true
 
+# Step 4d.2: sync the `sources: N` frontmatter field on every ingredient,
+# product, and metal page to the live count of source pages referencing
+# it (via frontmatter array or body wikilink). Also rewrites the
+# "(N sources)" counts in each category index.md. Per Karen's 2026-05-16
+# directive: the count is the at-a-glance gap-visibility signal —
+# stale counts mislead brand-legal and HMTc staff scanning for thin areas.
+run_step "sync source counts" node tools/sync-source-counts.mjs || true
+
 # Step 4e: provenance audit — informational. Flags numerical claims on public
 # pages that don't trace to a [[sources/...]] link in the same paragraph.
 # Per CLAUDE.md Part 18, claims without provenance are a lint failure; this

@@ -3,7 +3,7 @@ title: "Strawberries"
 type: ingredient
 commodity: strawberries
 label: "Strawberries"
-aliases: [strawberry]
+aliases: [strawberry, strawberry-pomace]
 category: fruit
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 2
+sources: 5
 ---
 
 # Strawberries

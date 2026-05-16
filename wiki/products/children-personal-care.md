@@ -8,6 +8,7 @@ vulnerable_population: infants-and-children-0-5
 age_range: "0-5"
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
+
 hmtc_category: 2
 category_label: "Children Personal Care"
 evidence_fitness: EF-5

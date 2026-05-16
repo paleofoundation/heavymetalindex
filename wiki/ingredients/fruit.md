@@ -2,7 +2,7 @@
 title: Fruit
 type: ingredient
 commodity: fruit
-aliases: [apple, pear, peach, banana, berries, fruit puree, compote, dried-fruit, dried fruits]
+aliases: [apple, pear, peach, banana, berries, "fruit puree", compote, dried-fruit, "dried fruits", cherries, kiwi, pineapple, persimmon, papaya, jackfruit, lemon, muskmelon, melons, pineapple-peel]
 category: fruit
 contamination_profile:
   Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
@@ -20,6 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
+sources: 28
 updated: 2026-04-29
 ---
 

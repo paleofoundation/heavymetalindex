@@ -3,7 +3,7 @@ title: "Cereals"
 type: ingredient
 commodity: cereals
 label: "Cereals"
-aliases: [cereal grains, grain foods, grain-based foods]
+aliases: ["cereal grains", "grain foods", "grain-based foods", grains, barley, breakfast-cereals]
 category: grain
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/rice]]", "[[ingredients/oat]]", "[[ingredi
 used_in_products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 8
+sources: 33
 ---
 
 # Cereals

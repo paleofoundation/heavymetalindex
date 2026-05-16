@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: snacks-crackers-biscuits
+aliases: [popcorn]
 title: "Snacks Crackers Biscuits"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]

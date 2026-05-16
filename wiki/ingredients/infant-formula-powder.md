@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-01
-sources: 0
+sources: 5
 ---
 
 # Infant Formula Powder

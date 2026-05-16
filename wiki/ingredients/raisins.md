@@ -3,7 +3,7 @@ title: "Raisins"
 type: ingredient
 commodity: raisins
 label: "Raisins"
-aliases: ["Raisins", "raisin"]
+aliases: [Raisins, raisin, currants]
 category: dried-fruit
 tds_food:
   number: 95

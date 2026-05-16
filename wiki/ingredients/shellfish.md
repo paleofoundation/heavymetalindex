@@ -3,7 +3,7 @@ title: "Shellfish"
 type: ingredient
 commodity: shellfish
 label: "Shellfish"
-aliases: [crustaceans and molluscs, seafood-shellfish]
+aliases: ["crustaceans and molluscs", seafood-shellfish, shrimp, crustaceans]
 category: aquatic-protein
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/bivalve-molluscs]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 7
+sources: 28
 ---
 
 # Shellfish

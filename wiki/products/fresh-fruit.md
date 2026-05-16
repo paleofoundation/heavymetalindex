@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: fresh-fruit
+aliases: [dried-fruit, frozen-fruit, fruit-preserves]
 title: "Fresh Fruit"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]

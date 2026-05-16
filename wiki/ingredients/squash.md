@@ -3,7 +3,7 @@ title: "Squash"
 type: ingredient
 commodity: squash
 label: "Squash"
-aliases: []
+aliases: [zucchini]
 category: taxonomy-placeholder
 contamination_profile:
   Pb:

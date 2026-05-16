@@ -16,7 +16,7 @@ public_evidence_label: Modeled or limited evidence
 review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 5
+sources: 6
 ---
 
 # Fruit Juices, Non-Apple

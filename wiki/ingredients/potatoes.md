@@ -80,6 +80,7 @@ lower_risk_variants: ["[[ingredients/peeled-potato]]", "[[ingredients/potato-sta
 higher_risk_variants: ["[[ingredients/unpeeled-potato]]", "[[ingredients/potato-skin]]", "[[ingredients/potato-peel-heavy-products]]"]
 used_in_products: ["[[products/baby-food-vegetables]]", "[[products/french-fries]]", "[[products/potato-chips]]", "[[products/mashed-potato-products]]", "[[products/potato-starch-containing-baked-goods]]"]
 audience: [regulator, educator, consumer, app]
+sources: 22
 updated: 2026-05-13
 ---
 

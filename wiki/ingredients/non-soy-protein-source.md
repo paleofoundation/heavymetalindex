@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [infant-formula-concentrated-liquid-non-soy, infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-01
-sources: 0
+sources: 2
 ---
 
 # Non Soy Protein Source

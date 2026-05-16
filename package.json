@@ -13,7 +13,8 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs && node tools/build-corpus-counter.mjs && node tools/evidence/build-source-legend.mjs",
+    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs && node tools/build-corpus-counter.mjs && node tools/evidence/build-source-legend.mjs && node tools/sync-source-counts.mjs",
+    "sync:source-counts": "node tools/sync-source-counts.mjs",
     "evidence:source-legend": "node tools/evidence/build-source-legend.mjs",
     "build": "./quartz/bootstrap-cli.mjs build -d wiki -o public",
     "serve": "./quartz/bootstrap-cli.mjs build --serve -d wiki -o public",

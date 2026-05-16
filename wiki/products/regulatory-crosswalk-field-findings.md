@@ -3,7 +3,7 @@ type: product-crosswalk
 title: "Regulatory Crosswalk vs Field Findings"
 audience: [standards-development, regulator, retailer, brand, legal]
 updated: 2026-05-02
-sources: 13
+sources: 5
 ---
 
 # Regulatory Crosswalk vs Field Findings

@@ -3,7 +3,7 @@ title: "Seafood"
 type: ingredient
 commodity: seafood
 label: "Seafood"
-aliases: []
+aliases: [aquatic-foods, aquatic-vegetables]
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [fish-containing-baby-foods]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-01
-sources: 0
+sources: 77
 ---
 
 # Seafood

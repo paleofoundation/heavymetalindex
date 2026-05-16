@@ -2,7 +2,7 @@
 title: Fish
 type: ingredient
 commodity: fish
-aliases: [seafood, finfish, tuna, salmon, swordfish, mackerel, cod, tilapia, trout, sardines, herring, anchovies, fish-oil]
+aliases: [seafood, finfish, tuna, salmon, swordfish, mackerel, cod, tilapia, trout, sardines, herring, anchovies, fish-oil, anchovy, cod-liver-oil, shark-liver-oil]
 category: aquatic-animal
 contamination_profile:
   Pb:
@@ -80,6 +80,7 @@ lower_risk_variants: ["[[ingredients/salmon]]", "[[ingredients/sardines]]", "[[i
 higher_risk_variants: ["[[ingredients/swordfish]]", "[[ingredients/shark]]", "[[ingredients/king-mackerel]]", "[[ingredients/tilefish]]", "[[ingredients/bigeye-tuna]]", "[[ingredients/marlin]]", "[[ingredients/orange-roughy]]"]
 used_in_products: ["[[products/fresh-fish]]", "[[products/frozen-fish]]", "[[products/canned-tuna]]", "[[products/canned-salmon]]", "[[products/canned-sardines]]", "[[products/fish-oil-supplements]]", "[[products/prepared-seafood]]", "[[products/surimi]]", "[[products/fish-sauce]]"]
 audience: [regulator, educator, consumer, app]
+sources: 100
 updated: 2026-04-26
 ---
 

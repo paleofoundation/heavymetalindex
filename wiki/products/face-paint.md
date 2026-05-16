@@ -8,6 +8,7 @@ variant_type: whole_row_platform
 platform_metals: [Pb, Ni, Cr]
 cat2_step0_alignment: 2026-05-16
 category: face-paint
+aliases: [costume-cosmetics, eye-shadow, foundation, face-foundation, lotion, hair-dye, sunblock]
 title: "Face Paint"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]

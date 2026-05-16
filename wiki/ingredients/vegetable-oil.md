@@ -3,7 +3,7 @@ type: ingredient
 commodity: vegetable-oil
 title: "Vegetable Oil"
 label: "Vegetable Oil"
-aliases: []
+aliases: [palm-oil, oilseeds]
 category: oil
 contamination_profile:
   Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }

@@ -3,7 +3,7 @@ type: ingredient
 commodity: seaweed
 title: "Seaweed"
 label: "Seaweed"
-aliases: [sea-vegetables, edible-algae, macroalgae, kelp]
+aliases: [sea-vegetables, edible-algae, macroalgae, kelp, algae]
 category: sea-vegetable
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/hijiki]]", "[[ingredients/kombu]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 10
+sources: 12
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10

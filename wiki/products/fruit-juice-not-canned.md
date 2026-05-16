@@ -25,7 +25,7 @@ cc_relationship:
   partners: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 9
+sources: 16
 ---
 
 # Fruit Juice (Not Canned)

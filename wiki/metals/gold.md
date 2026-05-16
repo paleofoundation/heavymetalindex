@@ -6,6 +6,7 @@ name: Gold
 species: [Au, gold-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
+sources: 1
 updated: 2026-04-30
 status: stub
 n_sources: 1

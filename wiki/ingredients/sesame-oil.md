@@ -3,7 +3,7 @@ type: ingredient
 commodity: sesame-oil
 title: "Sesame Oil"
 label: "Sesame Oil"
-aliases: []
+aliases: [sesame, sesame-seeds, tahini]
 category: oil
 contamination_profile:
   Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }

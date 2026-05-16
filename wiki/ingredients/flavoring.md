@@ -3,7 +3,7 @@ title: "Flavoring"
 type: ingredient
 commodity: flavoring
 label: "Flavoring"
-aliases: [natural flavor, fruit flavoring]
+aliases: ["natural flavor", "fruit flavoring", bouillon, seasoning-powder, condiments-sauces, vanilla, fish-sauce, baking-powder]
 category: additive
 contamination_profile:
   Pb:

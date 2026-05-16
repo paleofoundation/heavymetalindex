@@ -3,7 +3,7 @@ type: ingredient
 commodity: vinegar
 title: "Vinegar"
 label: "Vinegar"
-aliases: [white-vinegar, distilled-vinegar]
+aliases: [white-vinegar, distilled-vinegar, date-vinegar]
 category: condiment
 contamination_profile:
   Pb:

@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [baby-cereals-dry-non-rice, mixed-meals-non-rice, teething-and-snacks-non-rice]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-01
-sources: 0
+sources: 14
 ---
 
 # Non Rice Grains

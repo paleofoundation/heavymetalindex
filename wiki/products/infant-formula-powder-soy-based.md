@@ -29,7 +29,7 @@ cc_relationship:
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 13
+sources: 25
 ---
 
 # Infant Formula, Powder (Soy-Based)

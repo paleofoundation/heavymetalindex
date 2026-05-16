@@ -20,6 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/rice]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 used_in_products: ["[[products/baby-cereals-dry-non-rice]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/teething-and-snacks-non-rice]]", "[[products/teething-and-snacks-rice-based]]"]
 audience: [regulator, educator, consumer, app]
+sources: 3
 updated: 2026-04-29
 ---
 

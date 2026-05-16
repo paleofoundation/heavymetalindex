@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [matcha]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-01
-sources: 0
+sources: 1
 ---
 
 # Matcha powder

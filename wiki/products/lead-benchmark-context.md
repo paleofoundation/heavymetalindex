@@ -5,6 +5,7 @@ category_label: Infant and Child Foods
 metal: Pb
 audience: [regulator, educator, consumer, app]
 evidence_register: data/evidence/category1_lead_benchmark_context.csv
+sources: 4
 updated: 2026-05-03
 ---
 

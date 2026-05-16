@@ -9,6 +9,7 @@ primary_metals_of_concern: [Al, Cd, Pb]
 vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
+sources: 1
 updated: 2026-04-29
 ---
 
