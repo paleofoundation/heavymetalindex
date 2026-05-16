@@ -19,17 +19,17 @@ created_from: cat2_seed
 parent_category: children-personal-care
 ---
 
-# Toothpaste (Cat 2)
+# Toothpaste (the children's personal care category)
 
-This is a Cat 2 (Children Personal Care) product-category page covering toothpaste. The exposure pathway is partial ingestion during brushing (more pronounced in young children who haven't mastered the rinse-and-spit motor skill) plus oral mucosa contact. The Belknap 2014 systematic review documented toothpaste ingestion at 27.6% to 35.5% of the dispensed amount in children, and crossover studies in age groups 2-4, 5-7, 8-12 report decreasing ingestion with age (Sjögren 1995). The principal heavy-metal concern is lead in the upper tail of finished-product concentrations; cadmium, mercury, and arsenic are present at lower frequencies and lower per-product concentrations.
+This is a the children's personal care category (Children Personal Care) product-category page covering toothpaste. The exposure pathway is partial ingestion during brushing (more pronounced in young children who haven't mastered the rinse-and-spit motor skill) plus oral mucosa contact. The Belknap 2014 systematic review documented toothpaste ingestion at 27.6% to 35.5% of the dispensed amount in children, and crossover studies in age groups 2-4, 5-7, 8-12 report decreasing ingestion with age (Sjögren 1995). The principal heavy-metal concern is lead in the upper tail of finished-product concentrations; cadmium, mercury, and arsenic are present at lower frequencies and lower per-product concentrations.
 
 ## Who this page is for
 
-Brand legal teams evaluating Cat 2 certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and how the cited literature distributes around that cap. Retailer compliance teams stocking children's oral care need to confirm certified-brand assortment eligibility. Per OPERATING.md Part 7 initiative 3.1, the Cat 2 toxicology methodology supplement (which must incorporate the toothpaste ingestion-during-brushing pathway as a discrete exposure route) is a prerequisite for defensible HMTc thresholds on this row.
+Brand legal teams evaluating the children's personal care category certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and how the cited literature distributes around that cap. Retailer compliance teams stocking children's oral care need to confirm certified-brand assortment eligibility. Per OPERATING.md Part 7 initiative 3.1, the the children's personal care category toxicology methodology supplement (which must incorporate the toothpaste ingestion-during-brushing pathway as a discrete exposure route) is a prerequisite for defensible HMTc thresholds on this row.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — Cat 2 methodology supplement (in development per OPERATING.md Part 7 initiative 3.1) covers the modelling. The percentile-selection arithmetic that informs HMTc thresholds for toothpaste lives on the staff Standards Workbench; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — the children's personal care category methodology supplement (in development per OPERATING.md Part 7 initiative 3.1) covers the modelling. The percentile-selection arithmetic that informs HMTc thresholds for toothpaste lives on the staff Standards Workbench; this public page reports literature evidence only.
 
 ## Literature Evidence Summary
 
@@ -83,7 +83,7 @@ _Pending synthesis. Practical interventions for reducing heavy-metal load in too
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc toothpaste thresholds lives on the staff Standards Workbench (`data/workbench/standards/toothpaste.md`, to be generated). This public page reports literature evidence; the workbench applies the Cat 2 methodology (including the ingestion-during-brushing exposure supplement per OPERATING.md Part 7 initiative 3.1) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+The percentile arithmetic that informs HMTc toothpaste thresholds lives on the staff Standards Workbench (the staff Standards Workbench). This public page reports literature evidence; the workbench applies the the children's personal care category methodology (including the ingestion-during-brushing exposure supplement per OPERATING.md Part 7 initiative 3.1) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
 
 ## Historical recalls and enforcement
 

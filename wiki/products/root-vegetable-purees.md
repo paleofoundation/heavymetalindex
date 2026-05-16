@@ -35,7 +35,7 @@ sources: 9
 
 # Root-Vegetable Purees
 
-This page is a structural scaffold for HMTc Category 1 row 9. Quantitative evidence now includes FDA compliance root-vegetable samples, a small root-vegetable baby-food distribution, FDA TDS named baby food sweet potato lead data, and broader UK vegetable/potato category values.
+This page is a structural scaffold for this product row. Quantitative evidence now includes FDA compliance root-vegetable samples, a small root-vegetable baby-food distribution, FDA TDS named baby food sweet potato lead data, and broader UK vegetable/potato category values.
 
 ## Who this page is for
 
@@ -107,7 +107,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 Public evidence label: **Modeled or limited evidence**.
 
-This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level tracking is maintained in the staff Standards Workbench.
+It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level tracking is maintained in the staff Standards Workbench.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
@@ -157,7 +157,7 @@ Full crosswalk: [[products/lead-benchmark-context]].
 
 <!-- audience: regulator, educator, app -->
 
-Parker 2022 provides a small root-vegetable baby-food distribution with N=9. It supports min/mean/median/max summaries for total arsenic, cadmium, mercury, and lead, but it does not provide p10 or p90 and does not resolve individual root vegetables such as sweet potato versus carrot. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+Parker 2022 provides a small root-vegetable baby-food distribution with N=9. It supports min/mean/median/max summaries for total arsenic, cadmium, mercury, and lead, but it does not provide full percentile coverage and does not resolve individual root vegetables such as sweet potato versus carrot. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
 
 | Evidence type | Analyte | Product or row fit | N | Statistic available | Values | Distribution use | Caveat |
 | --- | --- | --- | ---: | --- | --- | --- | --- |

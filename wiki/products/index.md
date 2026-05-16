@@ -45,9 +45,9 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 
 ## Children Personal Care (HMTc Category 2, Ages 0-5)
 
-These pages report what the evidence says about children's personal-care product rows, source coverage, and data gaps. Cat 2 is a 16-row architecture locked under Step Zero Protocol v1.4 §0G on 2026-05-16, with four clean-versus-contaminated sibling pairs (rows 3/4, 7/8, 9/10, 15/16) and four whole-row contamination platforms (rows 11-14). The master rollup is [[products/children-personal-care|Children Personal Care (Cat 2 master)]], which also documents cross-row contamination platforms (talc, ZnO, TiO2, mineral pigments) and the out-of-scope advisory at [[advisory/skin-lightening-products]].
+These pages report what the evidence says about children's personal-care product rows, source coverage, and data gaps. the children's personal care category is a 16-row architecture locked under Step Zero Protocol v1.4 §0G on 2026-05-16, with four clean-versus-contaminated sibling pairs (rows 3/4, 7/8, 9/10, 15/16) and four whole-row contamination platforms (rows 11-14). The master rollup is [[products/children-personal-care|Children Personal Care (the children's personal care category master)]], which also documents cross-row contamination platforms (talc, ZnO, TiO2, mineral pigments) and the out-of-scope advisory at [[advisory/skin-lightening-products]].
 
-Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration during application, hand-to-mouth transfer, and per-application volume per kg body weight are the relevant exposure routes. The methodology supplement is at [[health/cat-2-non-ingestion-exposure-pathways]].
+the children's personal care category dose pathway differs from Cat 1: dermal absorption, accidental aspiration during application, hand-to-mouth transfer, and per-application volume per kg body weight are the relevant exposure routes. The methodology supplement is at [[health/cat-2-non-ingestion-exposure-pathways]].
 
 1. [[products/baby-lotion-cream|Baby lotion and cream]]
 2. [[products/baby-oil|Baby oil]]
@@ -87,7 +87,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/vegetable-juices-root-vegetable-containing]]
 - [[products/plant-milks-non-soy-non-rice]]
 - [[products/plant-milks-soy-based]]
-- [[products/plant-milks-rice-based]] — RETIRED, routes to Category 3 row 10 (Rice beverages) when built
+- [[products/plant-milks-rice-based]] — RETIRED, routes to this product row (Rice beverages) when built
 - [[products/flavored-waters]]
 - [[products/sports-energy-drinks]]
 - [[products/herbal-botanical-infusions]]

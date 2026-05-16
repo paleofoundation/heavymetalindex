@@ -21,7 +21,7 @@ sources: 0
 
 # Sports/Energy Drinks
 
-This page is HMTc Category 5 row 9 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
+This page is part of the locked beverage product taxonomy. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">

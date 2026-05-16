@@ -22,7 +22,7 @@ sources: 5
 
 # Fruit Juices, Apple-Containing
 
-This page is HMTc Category 5 row 2 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
+This page is part of the locked beverage product taxonomy. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
 
 ## Who this page is for
 
@@ -79,11 +79,11 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 | Field | Status |
 | --- | --- |
-| Row state | At readiness bar for iAs (n=94 sample-level + regulatory cap); approaching for Pb (3-source corpus, sample-level extraction pending). |
+| Row state | Sample-level iAs evidence (n=94) plus a loaded regulatory cap support a literature-anchored picture; lead synthesis still in progress with a 3-source corpus pending sample-level extraction. |
 | Category hub | [[products/category-5-beverages]] |
-| Cat 5 master | [[products/category-5-beverages-master]] |
+| Category master | [[products/category-5-beverages-master]] |
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
-| HMTc use | iAs cell publishable as literature evidence Part 19 dirty p30 = 3.0 ppb (n=94 from FDA 2011 single-strength apple juice). Other cells routing or evidence-tracking only. |
+| Internal use note | iAs cell carries sample-level evidence (n=94 from FDA 2011 single-strength apple juice) usable on the staff Standards Workbench. Other cells remain routing or evidence-tracking only. Workbench-side threshold arithmetic does not appear on this page per the literature/certification firewall. |
 
 ## Source Evidence Inventory
 

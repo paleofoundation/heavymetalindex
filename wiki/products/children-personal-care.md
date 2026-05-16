@@ -19,21 +19,21 @@ created_by: cat2_step0_alignment_2026_05_16
 
 # Children Personal Care (HMT&C Category 2 master)
 
-This is the master rollup page for HMT&C Category 2 — Children's Personal Care, covering products marketed for and applied to infants and children ages 0 through 5. The category is split into sixteen rows by product form and contamination platform, with four clean-versus-contaminated sibling pairs that share exposure pathways but differ in heavy-metal load by virtue of base material or pigment choice. The dose pathway differs from Category 1 (Infant and Child Foods): dermal absorption, accidental aspiration during application, hand-to-mouth transfer of smeared product, and per-application weight load per kg body weight are the relevant routes. The Cat 2 toxicology supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those exposure factors and is the prerequisite reference for every Cat 2 row.
+This is the master rollup page for HMT&C Category 2 — Children's Personal Care, covering products marketed for and applied to infants and children ages 0 through 5. The category is split into sixteen rows by product form and contamination platform, with four clean-versus-contaminated sibling pairs that share exposure pathways but differ in heavy-metal load by virtue of base material or pigment choice. The dose pathway differs from Category 1 (Infant and Child Foods): dermal absorption, accidental aspiration during application, hand-to-mouth transfer of smeared product, and per-application weight load per kg body weight are the relevant routes. The the children's personal care category toxicology supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those exposure factors and is the prerequisite reference for every the children's personal care category row.
 
 ## Who this page is for
 
-Brand legal teams evaluating Cat 2 certification for children's personal-care lines need the row-by-row matrix below, the per-row literature pages it links to, and the cross-row platform attribution showing which contamination signals share root causes across multiple rows. Retailer compliance teams stocking infant-care aisles use the 16-row inventory as the assortment-eligibility view. HMT&C internal staff use this page as the routing hub between Cat 2 rows and source evidence. Regulators and journalists use it as the canonical reference for which children's personal-care categories the literature has characterized and what the platform-level contamination story looks like.
+Brand legal teams evaluating the children's personal care category certification for children's personal-care lines need the row-by-row matrix below, the per-row literature pages it links to, and the cross-row platform attribution showing which contamination signals share root causes across multiple rows. Retailer compliance teams stocking infant-care aisles use the 16-row inventory as the assortment-eligibility view. HMT&C internal staff use this page as the routing hub between the children's personal care category rows and source evidence. Regulators and journalists use it as the canonical reference for which children's personal-care categories the literature has characterized and what the platform-level contamination story looks like.
 
 ## Methodology
 
-Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions from CLAUDE.md Part 6 (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
+the children's personal care category reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions from CLAUDE.md Part 6 (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The the children's personal care category supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
 
-The percentile-selection arithmetic that informs HMT&C Cat 2 thresholds (P97 clean, P45 contaminated per CLAUDE.md Part 19) lives on the staff Standards Workbench. This public page reports literature evidence only. The gap between literature baseline and final HMT&C threshold is named on the workbench, not hidden.
+The percentile-selection arithmetic that informs HMT&C the children's personal care category thresholds (P97 clean, P45 contaminated per CLAUDE.md Part 19) lives on the staff Standards Workbench. This public page reports literature evidence only. The gap between literature baseline and final HMT&C threshold is named on the workbench, not hidden.
 
-## The 16-row Cat 2 inventory
+## The 16-row the children's personal care category inventory
 
-Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 2026-05-16. Adding, removing, splitting, or merging rows requires re-opening the architectural lock. The row numbers are permanent identifiers used by the standards workbench, the certification documents, and the source-routing layer.
+the children's personal care category has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 2026-05-16. Adding, removing, splitting, or merging rows requires re-opening the architectural lock. The row numbers are permanent identifiers used by the standards workbench, the certification documents, and the source-routing layer.
 
 | Row | Slug | Variant type | Primary metals | Pair | Notes |
 |----:|---|---|---|---:|---|
@@ -54,35 +54,35 @@ Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 202
 | 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
 | 16 | [[products/childrens-lip-balm-mineral-bearing]] | contamination platform | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
-Four clean/contaminated sibling pairs structure the Cat 2 standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards (CLAUDE.md Part 19) and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the Cat 2 inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
+Four clean/contaminated sibling pairs structure the the children's personal care category standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards (CLAUDE.md Part 19) and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the the children's personal care category inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
 
 ## Cross-row contamination platforms
 
-Four contamination platforms span multiple Cat 2 rows. Brand legal teams reading this page to understand certification-failure root causes need the platform view as much as the row-by-row view: a single raw-material specification problem (talc mine, ZnO feedstock, TiO2 supplier, mineral pigment lot) propagates simultaneously across every row that uses the platform. The certification response is the same across the affected rows; the testing strategy and supplier control plan unifies them.
+Four contamination platforms span multiple the children's personal care category rows. Brand legal teams reading this page to understand certification-failure root causes need the platform view as much as the row-by-row view: a single raw-material specification problem (talc mine, ZnO feedstock, TiO2 supplier, mineral pigment lot) propagates simultaneously across every row that uses the platform. The certification response is the same across the affected rows; the testing strategy and supplier control plan unifies them.
 
 ### Talc platform (Row 4)
 
-Cosmetic-grade talc from mine sources varies in Ni, Cr, Pb load by an order of magnitude between supplier tiers. The asbestiform-amphibole question is governed separately by FDA cosmetic-talc testing; heavy-metal load is a parallel concern with its own supplier-control plan. Row 4 (baby talcum powder) is the only Cat 2 row using talc as a primary ingredient; cornstarch alternatives (Row 3) avoid the platform entirely.
+Cosmetic-grade talc from mine sources varies in Ni, Cr, Pb load by an order of magnitude between supplier tiers. The asbestiform-amphibole question is governed separately by FDA cosmetic-talc testing; heavy-metal load is a parallel concern with its own supplier-control plan. Row 4 (baby talcum powder) is the only the children's personal care category row using talc as a primary ingredient; cornstarch alternatives (Row 3) avoid the platform entirely.
 
 ### Zinc oxide platform (Rows 8 and 10)
 
-ZnO feedstock for diaper cream (Row 8, as 10-40% w/w occlusive) and mineral sunscreen (Row 10, as 5-25% w/w UV filter) carries Pb and Cd from mineral-zinc refining residues. Cosmetic-grade ZnO is available at <5 ppm Pb specification but routinely tests higher in non-spec supply. The platform spans two Cat 2 rows; lab-grade pharmacopeial ZnO (USP <232> compliant) is the brand-side mitigation.
+ZnO feedstock for diaper cream (Row 8, as 10-40% w/w occlusive) and mineral sunscreen (Row 10, as 5-25% w/w UV filter) carries Pb and Cd from mineral-zinc refining residues. Cosmetic-grade ZnO is available at <5 ppm Pb specification but routinely tests higher in non-spec supply. The platform spans two the children's personal care category rows; lab-grade pharmacopeial ZnO (USP <232> compliant) is the brand-side mitigation.
 
 ### Titanium dioxide platform (Rows 10, 13, and 16)
 
-TiO2 (mineral UV filter in row 10, white-pigment base in cosmetic rows 13 and 16) carries Pb, iAs, and Cd from rutile/anatase refining feedstocks. Cosmetic-grade TiO2 specifications cap Pb at 10 ppm and iAs at 1 ppm; non-spec supply runs 2-10x higher. The platform spans three Cat 2 rows.
+TiO2 (mineral UV filter in row 10, white-pigment base in cosmetic rows 13 and 16) carries Pb, iAs, and Cd from rutile/anatase refining feedstocks. Cosmetic-grade TiO2 specifications cap Pb at 10 ppm and iAs at 1 ppm; non-spec supply runs 2-10x higher. The platform spans three the children's personal care category rows.
 
 ### Mineral pigment platform (Rows 12, 13, 14, and 16)
 
-Iron-oxide, ultramarine, manganese-violet, and chromium-oxide pigments — the colorants in face paints (Row 12), children's color cosmetics (Row 13), nail polishes (Row 14), and pigmented lip balms (Row 16) — carry Pb, Ni, Cr, and Cd from mineral-pigment refining. The FDA-CFR-listed color additives for cosmetic use specify upper limits, but supplier compliance is variable. The platform spans four Cat 2 rows and is the broadest cross-row contamination story in Cat 2.
+Iron-oxide, ultramarine, manganese-violet, and chromium-oxide pigments — the colorants in face paints (Row 12), children's color cosmetics (Row 13), nail polishes (Row 14), and pigmented lip balms (Row 16) — carry Pb, Ni, Cr, and Cd from mineral-pigment refining. The FDA-CFR-listed color additives for cosmetic use specify upper limits, but supplier compliance is variable. The platform spans four the children's personal care category rows and is the broadest cross-row contamination story in the children's personal care category.
 
-## Out of scope for Cat 2
+## Out of scope for the children's personal care category
 
-Three product classes that consumers and journalists sometimes expect under Cat 2 are deliberately excluded:
+Three product classes that consumers and journalists sometimes expect under the children's personal care category are deliberately excluded:
 
 1. **Adult skin-lightening products.** Mercury-containing skin-lightening creams and soaps are an adult-cosmetic enforcement issue, not a children's certification question. See [[advisory/skin-lightening-products]] for the advisory page and the literature record.
-2. **Adult color cosmetics.** Adult lipstick, foundation, mascara, eyeshadow are a planned separate HMT&C category. Cat 2 covers only products specifically marketed to ages 0-5.
-3. **Children's toys with cosmetic elements.** Cosmetic-bearing toys (toy makeup kits where the makeup is intended as play rather than for skin application) fall under CPSIA toy regulation, not Cat 2. The HMT&C boundary is "marketed for application to skin/lips/teeth/nails."
+2. **Adult color cosmetics.** Adult lipstick, foundation, mascara, eyeshadow are a planned separate HMT&C category. the children's personal care category covers only products specifically marketed to ages 0-5.
+3. **Children's toys with cosmetic elements.** Cosmetic-bearing toys (toy makeup kits where the makeup is intended as play rather than for skin application) fall under CPSIA toy regulation, not the children's personal care category. The HMT&C boundary is "marketed for application to skin/lips/teeth/nails."
 
 ## Literature Evidence Summary
 
@@ -92,7 +92,7 @@ _Pending. Once the 16 row pages each have direct-evidence sources and the poolin
 
 ## Source Evidence Inventory
 
-| Source | Cat 2 row(s) | Year | Methods | Notes |
+| Source | the children's personal care category row(s) | Year | Methods | Notes |
 |---|---|---:|---|---|
 | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi 2020]] | Row 4 | 2020 | AAS, CVAAS | n=3 Indian brands; finished-product Pb/Cd/Hg |
 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard 2022]] | Rows 4, 11-16 (broad context) | 2022 | Review | Heavy metals in cosmetics; broad cross-row context |
@@ -125,11 +125,11 @@ _Full crosswalk regenerated by `tools/apply-product-crosswalk-sections.mjs` once
 
 ## Levers to reduce contamination
 
-Cat 2 levers ranked by magnitude across the 16 rows. Per-row Levers sections drill in further; this is the cross-row view.
+the children's personal care category levers ranked by magnitude across the 16 rows. Per-row Levers sections drill in further; this is the cross-row view.
 
 1. **Raw-material sourcing (highest impact across nearly every row).** Cosmetic-grade ZnO, TiO2, talc, and mineral pigments at the strictest available pharmacopeial specification (USP <232>, EP, JP) typically run 5-10x lower in Pb/Cd/Ni/Cr than commodity-grade equivalents. Mine-source selection (talc, mineral pigments), refining depth (ZnO, TiO2), and audited-supplier specification programs are the primary brand-side controls.
-2. **Formulation substitution.** Replacing mineral UV filters with chemical UV filters (Row 10 → Row 9), replacing ZnO occlusives with non-ZnO occlusives (Row 8 → Row 7), replacing talc with cornstarch (Row 4 → Row 3), and replacing mineral-pigment lip balm with plain lip balm (Row 16 → Row 15) avoids the contamination platforms entirely. The four sibling pairs are the four substitution levers Cat 2 makes visible.
-3. **Per-application dose reduction.** Cat 2 toxicology supplement quantifies per-row exposure as application volume × application frequency × dermal/oral/pulmonary absorption fraction × body-surface-fraction. Reformulating to lower per-application volume (concentrated lotions, lower-pigment-load face paints) reduces exposure even at constant raw-material quality.
+2. **Formulation substitution.** Replacing mineral UV filters with chemical UV filters (Row 10 → Row 9), replacing ZnO occlusives with non-ZnO occlusives (Row 8 → Row 7), replacing talc with cornstarch (Row 4 → Row 3), and replacing mineral-pigment lip balm with plain lip balm (Row 16 → Row 15) avoids the contamination platforms entirely. The four sibling pairs are the four substitution levers the children's personal care category makes visible.
+3. **Per-application dose reduction.** the children's personal care category toxicology supplement quantifies per-row exposure as application volume × application frequency × dermal/oral/pulmonary absorption fraction × body-surface-fraction. Reformulating to lower per-application volume (concentrated lotions, lower-pigment-load face paints) reduces exposure even at constant raw-material quality.
 4. **Lot-level finished-product testing.** ICP-MS at the µg/kg level on raw materials and finished product. Cosmetic supply chains routinely COA at this resolution when specified; the lever is procurement specification, not analytical capability.
 5. **Regulatory engagement.** Supporting California Prop 65 NSRLs, New York TCCP chemical-list expansions, Washington TFCA-style state laws, and EU Cosmetic Regulation 1223/2009 Annex II enforcement drives industry-wide tightening regardless of HMT&C participation.
 

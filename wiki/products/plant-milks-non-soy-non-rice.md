@@ -21,7 +21,7 @@ sources: 1
 
 # Plant Milks (Almond, Oat, Coconut, Other Non-Soy/Non-Rice)
 
-This page is HMTc Category 5 row 5. It remains a clean-benchmark candidate, but the current evidence is not strong enough to use it as a clean comparator without more occurrence extraction.
+This page is this product row. It remains a clean-benchmark candidate, but the current evidence is not strong enough to use it as a clean comparator without more occurrence extraction.
 
 ## Who this page is for
 

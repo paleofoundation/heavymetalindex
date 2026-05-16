@@ -23,7 +23,7 @@ Regulatory values are not HMTc standards values. They are external legal or guid
 
 ## Crosswalk Surface
 
-The detailed comparison surface is generated on each product page from `data/evidence/product_regulatory_crosswalk.csv`. That CSV is now the source of truth for the row-level crosswalk; the product pages carry the readable table close to the top of the page.
+The detailed comparison surface is generated on each product page from the structured evidence layer. That CSV is now the source of truth for the row-level crosswalk; the product pages carry the readable table close to the top of the page.
 
 High-signal rows after the EU 2023/915 ingest:
 
@@ -105,13 +105,11 @@ _Pending synthesis. Practical interventions to reduce heavy-metal load — order
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMT&C certification thresholds lives on the staff Standards Workbench. This public page reports literature evidence; the workbench applies the certification-program methodology. The gap between literature evidence and HMT&C thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 
 _Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
-
-## Sources
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -29,7 +29,7 @@ sources: 8
 
 # Fruit Purees
 
-This page is a structural scaffold for HMTc Category 1 row 7. Value-level structured evidence now includes FDA compliance fruit samples, Chekri fruit-puree TDS rows, FSA/Fera fruit-based infant-food category means, Meli homogenized fruit-product rows, and Parker fruit baby-food summaries; fruit-by-fruit puree p10/p90/p100 distributions remain incomplete.
+This page is a structural scaffold for this product row. Value-level structured evidence now includes FDA compliance fruit samples, Chekri fruit-puree TDS rows, FSA/Fera fruit-based infant-food category means, Meli homogenized fruit-product rows, and Parker fruit baby-food summaries; fruit-by-fruit puree distributions remain incomplete.
 
 ## Who this page is for
 
@@ -102,7 +102,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 Public evidence label: **Modeled or limited evidence**.
 
-This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level tracking is maintained in the staff Standards Workbench.
+It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level tracking is maintained in the staff Standards Workbench.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
@@ -168,7 +168,7 @@ Full crosswalk: [[products/lead-benchmark-context]].
 
 <!-- audience: regulator, educator, app -->
 
-Parker 2022 provides a small fruit baby-food distribution with N=9. It supports min/mean/median/max summaries for total arsenic, cadmium, mercury, and lead, but it does not provide p10 or p90 and does not separate apple, pear, peach, banana, or other fruit types. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+Parker 2022 provides a small fruit baby-food distribution with N=9. It supports min/mean/median/max summaries for total arsenic, cadmium, mercury, and lead, but it does not provide full percentile coverage and does not separate apple, pear, peach, banana, or other fruit types. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
 
 The structured backfill also loads Chekri 2019 fruit-puree mean/range rows, FSA/Fera 2016 fruit-based infant-food lower-bound/upper-bound means, and Meli 2024 homogenized fruit-product means or censored values. These rows improve occurrence context but do not publish an HMTc row-standard aggregate.
 

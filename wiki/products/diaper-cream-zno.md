@@ -24,21 +24,21 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 Diaper rash treatments using zinc oxide as active ingredient (Desitin, Boudreaux's Butt Paste, Triple Paste, most '10-40% ZnO' products). Contaminated row of the Row 7 / Row 8 pair: ZnO is sourced from sphalerite (ZnS) ore co-occurring with Pb-containing minerals; pyrometallurgical and electrolytic ZnO production routes reduce but do not eliminate Pb and Cd carry-through. Documented Pb up to 3,300 ppb in surveyed products.
 
-This page is a Step 0 lock scaffold for Cat 2 Row 8. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in CLAUDE.md Part 9. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a structural scaffold for this product row. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in CLAUDE.md Part 9. The scope lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
 ## Who this page is for
 
-Brand legal teams evaluating HMTc Cat 2 certification for the Diaper Cream, ZnO-Based row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the children's personal care aisle need the row-level assortment-eligibility view. HMTc internal staff use this page as the routing hub between this row's source evidence and the staff Standards Workbench's threshold-selection arithmetic (which lives in `data/workbench/standards/`, never on this public page).
+Brand legal teams evaluating the HMT&C certification program certification for the Diaper Cream, ZnO-Based row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the children's personal care aisle need the row-level assortment-eligibility view. HMTc internal staff use this page as the routing hub between this row's source evidence and the staff Standards Workbench's threshold-selection arithmetic (which lives in the staff Standards Workbench, never on this public page).
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Diaper Cream, ZnO-Based row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. The percentile-selection arithmetic that informs HMTc Cat 2 thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Diaper Cream, ZnO-Based row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. The percentile-selection arithmetic that informs the HMT&C certification program thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only.
 
-Cat 2 dose-pathway methodology supplement (per OPERATING.md Part 7 initiative 3.1) is documented at [[health/cat-2-non-ingestion-exposure-pathways]]. That supplement governs how dermal, inhalation, accidental-ingestion, and trans-placental exposure factors apply to this row.
+the children's personal care category dose-pathway methodology supplement (per OPERATING.md Part 7 initiative 3.1) is documented at [[health/cat-2-non-ingestion-exposure-pathways]]. That supplement governs how dermal, inhalation, accidental-ingestion, and trans-placental exposure factors apply to this row.
 
 ## Pair relationship + platform attribution
 
-This is the contaminated row of a Cat 2 clean-contaminated pair. The clean counterpart is Row 7 ([[products/diaper-cream-non-zno]]). The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **Pb, Cd**. Cross-row platform coordination per the Cat 2 Step 0 lock: thresholds for this row are set such that the Standards Workbench's CC anchor for each platform is the same across all rows that share it, but per-row final limits diverge based on exposure-factor differences (leave-on vs rinse-off, dermal vs oral-mucosal, fraction-of-formulation).
+This is the contaminated row of a clean-contaminated pair. The clean counterpart is Row 7 ([[products/diaper-cream-non-zno]]). The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **Pb, Cd**. Cross-row platform coordination per the the children's personal care category scope lock: thresholds for this row are set such that the Standards Workbench's CC anchor for each platform is the same across all rows that share it, but per-row final limits diverge based on exposure-factor differences (leave-on vs rinse-off, dermal vs oral-mucosal, fraction-of-formulation).
 
 ## Literature Evidence Summary
 
@@ -48,7 +48,7 @@ _Pending: regenerated by `tools/evidence/apply-product-hmtc-evidence-summaries.m
 
 ## Source Evidence Inventory
 
-_Hand-curated section. Populated by the synthesis pass as Cat 2 sources are ingested and route to this row. Initial scaffold state: zero contributing sources._
+_Hand-curated section. Populated by the synthesis pass as the children's personal care category sources are ingested and route to this row. Initial scaffold state: zero contributing sources._
 
 ## Broad Product Context: Author-Scope Index
 
@@ -64,7 +64,7 @@ _Pending. Cat 2 regulatory landscape is fragmented: cosmetics under FDA FD&C Act
 
 ## Levers to reduce contamination
 
-_Pending synthesis. Cat 2 levers per the Step 0 lock framework, ordered by impact magnitude:_
+_Pending synthesis. Levers for this product category, ordered by impact magnitude:_
 
 1. **Sourcing levers** (highest impact): platform-ingredient supplier selection. Pre-screened low-impurity grades of Pb/Cd -carrying ingredients are commercially available at premium price; the gap between cosmetic-grade and pharmaceutical-grade specifications is material.
 2. **Refining levers** for the platform ingredient class.
@@ -74,11 +74,11 @@ _Pending synthesis. Cat 2 levers per the Step 0 lock framework, ordered by impac
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc Cat 2 thresholds for this row lives on the staff Standards Workbench (`data/workbench/standards/diaper-cream-zno.md`, to be generated). This public page reports literature evidence; the workbench applies the Cat 2 methodology (which includes the OPERATING.md Part 7 initiative 3.1 non-ingestion-exposure supplement at [[health/cat-2-non-ingestion-exposure-pathways]]) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+The percentile arithmetic that informs the HMT&C certification program thresholds for this row lives on the staff Standards Workbench (the staff Standards Workbench). This public page reports literature evidence; the workbench applies the the children's personal care category methodology (which includes the OPERATING.md Part 7 initiative 3.1 non-ingestion-exposure supplement at [[health/cat-2-non-ingestion-exposure-pathways]]) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. Cat 2-relevant public-record regulatory events are summarized at [[products/children-personal-care]] (Cat 2 master). Row-specific events will be filed here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+_Pending synthesis. the children's personal care category-relevant public-record regulatory events are summarized at [[products/children-personal-care]] (the children's personal care category master). Row-specific events will be filed here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

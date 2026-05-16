@@ -22,7 +22,7 @@ sources: 2
 
 # Plant Milks, Soy-Based
 
-This page is HMTc Category 5 row 6. It is no longer a pure scaffold: the row has early finished-product occurrence evidence, but the evidence is still insufficient for HMTc threshold-setting.
+This page is this product row. It is no longer a pure scaffold: the row has early finished-product occurrence evidence, but the evidence is still insufficient for HMTc threshold-setting.
 
 ## Who this page is for
 

@@ -28,15 +28,15 @@ sources: 4
 
 # Plant Milks, Rice-Based — RETIRED
 
-> **This subcategory has been re-routed to Category 3, currently in build. The standards page will be available when Category 3 is finalized.**
+> **This subcategory has been re-routed to the Grains, Cereals, and Rice Products taxonomy, currently in build. The standards page will be available when that taxonomy is finalized.**
 >
-> HMTc Category 5 row 7 was retired under [Category 5 Step 0 Amendment 1](Category5_Step_0_Amendment_1) (April 28, 2026), authority Step Zero Protocol v1.4 §0G operation 2. Rice-based plant milks (rice milk) are certified under Category 3 (Grains, Cereals, and Rice Products), row 10 (Rice beverages), so that the rice higher-contamination row is handled coherently within one category. This URL is preserved permanently and will resolve to the Category 3 row 10 standards page once Category 3 is locked.
+> The rice-based plant milks row was retired by program-level policy lock on April 28, 2026. Rice-based plant milks (rice milk) are certified under the Grains, Cereals, and Rice Products taxonomy as the Rice beverages row, so that the higher-contamination rice signal is handled coherently within one product family. This URL is preserved permanently and will resolve to the Rice beverages standards page once the destination taxonomy is locked.
 >
-> The literature evidence below is retained for historical reference and will be re-routed to the Category 3 row 10 page when that page is built. No HMTc standards values are published from this page.
+> The literature evidence below is retained for historical reference and will be re-routed to the Rice beverages page when that page is built. No HMT&C standards values are published from this page.
 
-## Historical literature evidence (Category 5 row 7, retired)
+## Historical literature evidence (rice-based plant milks, retired)
 
-The content below was the original Category 5 row 7 literature synthesis. It is preserved verbatim for traceability under the locked-file-immutability principle. Standards inheritance moves to Category 3 row 10.
+The content below was the original rice-based plant milks literature synthesis. It is preserved verbatim for traceability under the locked-file-immutability principle. Standards inheritance moves to the Rice beverages row.
 
 ## Who this page is for
 

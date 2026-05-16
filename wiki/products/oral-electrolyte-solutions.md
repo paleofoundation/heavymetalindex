@@ -95,7 +95,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 ## Row Mapping
 
-Keep these values separate from infant formula and food rows. They may matter for infant exposure context, especially during illness or dehydration, but they should not be pooled into formula p90 or p100 calculations.
+Keep these values separate from infant formula and food rows. They may matter for infant exposure context, especially during illness or dehydration, but they should not be pooled into formula distribution aggregates.
 
 ## Levers to reduce contamination
 

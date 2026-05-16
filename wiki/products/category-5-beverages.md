@@ -11,7 +11,7 @@ sources: 0
 
 # Category 5: Beverages
 
-This page is the wiki hub for the locked Category 5 Step 0 beverage row architecture. It preserves the sixteen locked rows and links each row to its product page, ingredient nodes, and affected metal pages. Downstream ingest may append future amendment rows, but these row numbers and names should not be renumbered or silently collapsed.
+This page is the wiki hub for the locked beverages product taxonomy. It preserves the sixteen locked rows and links each row to its product page, ingredient nodes, and affected metal pages. Downstream ingest may append future amendment rows, but these row numbers and names should not be renumbered or silently collapsed.
 
 ## Locked Rows
 
@@ -23,7 +23,7 @@ This page is the wiki hub for the locked Category 5 Step 0 beverage row architec
 | 4 | [[products/vegetable-juices-root-vegetable-containing|Vegetable juices, root-vegetable-containing]] | vegetable-juices | higher-contamination row |
 | 5 | [[products/plant-milks-non-soy-non-rice|Plant milks (almond, oat, coconut, other non-soy/non-rice)]] | plant-milks | clean benchmark |
 | 6 | [[products/plant-milks-soy-based|Plant milks, soy-based]] | plant-milks | higher-contamination row |
-| 7 | [[products/plant-milks-rice-based\|Plant milks, rice-based — RETIRED]] | plant-milks | retired → Category 3 row 10 (Rice beverages); Amendment 1, 2026-04-28 |
+| 7 | [[products/plant-milks-rice-based\|Plant milks, rice-based — RETIRED]] | plant-milks | retired → this product row (Rice beverages); Amendment 1, 2026-04-28 |
 | 8 | [[products/flavored-waters|Flavored waters]] | flavored-waters | independent no split |
 | 9 | [[products/sports-energy-drinks|Sports/energy drinks]] | sports-energy-drinks | independent no split |
 | 10 | [[products/herbal-botanical-infusions|Herbal/botanical infusions]] | tea-taxonomy | clean benchmark |

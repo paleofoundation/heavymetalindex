@@ -1,0 +1,93 @@
+slug,file,stub,placeholder_count,rule,severity,line,snippet,context
+baby-cereals-dry-non-rice,wiki/products/baby-cereals-dry-non-rice.md,false,1,,,,,
+baby-cereals-dry-rice-based,wiki/products/baby-cereals-dry-rice-based.md,false,1,,,,,
+baby-lotion-cream,wiki/products/baby-lotion-cream.md,true,1,,,,,
+baby-oil,wiki/products/baby-oil.md,true,1,,,,,
+baby-powder-cornstarch,wiki/products/baby-powder-cornstarch.md,true,1,,,,,
+baby-shampoo-body-wash,wiki/products/baby-shampoo-body-wash.md,true,1,,,,,
+baby-sunscreen-chemical,wiki/products/baby-sunscreen-chemical.md,true,1,,,,,
+baby-sunscreen-mineral,wiki/products/baby-sunscreen-mineral.md,true,1,,,,,
+baby-talcum-powder,wiki/products/baby-talcum-powder.md,false,1,,,,,
+baby-wipes,wiki/products/baby-wipes.md,true,1,,,,,
+breakfast-cereals,wiki/products/breakfast-cereals.md,false,1,,,,,
+canned-fish,wiki/products/canned-fish.md,false,1,,,,,
+canned-fruit,wiki/products/canned-fruit.md,false,1,,,,,
+canned-tomatoes,wiki/products/canned-tomatoes.md,false,1,,,,,
+canned-vegetables,wiki/products/canned-vegetables.md,false,1,,,,,
+category-5-beverages,wiki/products/category-5-beverages.md,true,0,,,,,
+children-personal-care,wiki/products/children-personal-care.md,false,0,,,,,
+childrens-lip-balm-mineral-bearing,wiki/products/childrens-lip-balm-mineral-bearing.md,true,1,,,,,
+childrens-lip-balm-plain,wiki/products/childrens-lip-balm-plain.md,true,1,,,,,
+childrens-makeup,wiki/products/childrens-makeup.md,true,1,,,,,
+childrens-nail-polish,wiki/products/childrens-nail-polish.md,true,1,,,,,
+chocolate,wiki/products/chocolate.md,false,1,,,,,
+coffee,wiki/products/coffee.md,false,1,,,,,
+diaper-cream-non-zno,wiki/products/diaper-cream-non-zno.md,true,1,,,,,
+diaper-cream-zno,wiki/products/diaper-cream-zno.md,true,1,,,,,
+dietary-supplements,wiki/products/dietary-supplements.md,false,1,,,,,
+face-paint,wiki/products/face-paint.md,false,1,,,,,
+fermented-beverages-non-tea-based,wiki/products/fermented-beverages-non-tea-based.md,false,1,,,,,
+fish-containing-baby-foods,wiki/products/fish-containing-baby-foods.md,false,1,,,,,
+flavored-waters,wiki/products/flavored-waters.md,true,0,,,,,
+fresh-fish,wiki/products/fresh-fish.md,false,1,,,,,
+fresh-fruit,wiki/products/fresh-fruit.md,false,1,,,,,
+fruit-juice-not-canned,wiki/products/fruit-juice-not-canned.md,false,1,,,,,
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,75,"p50","| [[metals/arsenic-inorganic|Inorganic arsenic]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8."
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,75,"p90","| [[metals/arsenic-inorganic|Inorganic arsenic]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8."
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,75,"p95","| [[metals/arsenic-inorganic|Inorganic arsenic]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8."
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,76,"p50","| [[metals/lead|Lead]] | TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | Small-N single-food route"
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,76,"p90","| [[metals/lead|Lead]] | TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | Small-N single-food route"
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,76,"p95","| [[metals/lead|Lead]] | TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | Small-N single-food route"
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,77,"p50","| [[metals/arsenic-total|Total arsenic]] | TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | Total arsen"
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,77,"p90","| [[metals/arsenic-total|Total arsenic]] | TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | Total arsen"
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,false,1,wiki_computed_percentile,soft,77,"p95","| [[metals/arsenic-total|Total arsenic]] | TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | Total arsen"
+fruit-juices-non-apple,wiki/products/fruit-juices-non-apple.md,false,1,wiki_computed_percentile,soft,76,"p50","| [[metals/arsenic-inorganic|Inorganic arsenic]] | FDA 2016 grape and grape-containing juice category | 58 quantified iAs cells from 61 sour"
+fruit-juices-non-apple,wiki/products/fruit-juices-non-apple.md,false,1,wiki_computed_percentile,soft,76,"p90","| [[metals/arsenic-inorganic|Inorganic arsenic]] | FDA 2016 grape and grape-containing juice category | 58 quantified iAs cells from 61 sour"
+fruit-juices-non-apple,wiki/products/fruit-juices-non-apple.md,false,1,wiki_computed_percentile,soft,76,"p95","| [[metals/arsenic-inorganic|Inorganic arsenic]] | FDA 2016 grape and grape-containing juice category | 58 quantified iAs cells from 61 sour"
+fruit-purees,wiki/products/fruit-purees.md,false,1,wiki_computed_percentile,soft,182,"p90","Chekri 2019 reports a direct French fruit-puree infant-food category with N=30. The paper gives category mean and min-max values, not p90. ["
+glucose-solutions,wiki/products/glucose-solutions.md,true,1,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
+herbal-botanical-infusions,wiki/products/herbal-botanical-infusions.md,false,1,,,,,
+honey,wiki/products/honey.md,false,1,,,,,
+infant-and-child-foods-master,wiki/products/infant-and-child-foods-master.md,false,1,,,,,
+infant-cereal,wiki/products/infant-cereal.md,false,1,,,,,
+infant-formula-concentrated-liquid-non-soy,wiki/products/infant-formula-concentrated-liquid-non-soy.md,false,1,,,,,
+infant-formula-concentrated-liquid-soy-based,wiki/products/infant-formula-concentrated-liquid-soy-based.md,false,1,,,,,
+infant-formula-powder-non-soy,wiki/products/infant-formula-powder-non-soy.md,false,1,,,,,
+infant-formula-powder-soy-based,wiki/products/infant-formula-powder-soy-based.md,false,1,,,,,
+infant-formula-powder,wiki/products/infant-formula-powder.md,true,1,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
+infant-formula-rtf-liquid-non-soy,wiki/products/infant-formula-rtf-liquid-non-soy.md,false,1,,,,,
+infant-formula-rtf-liquid-soy-based,wiki/products/infant-formula-rtf-liquid-soy-based.md,false,1,,,,,
+kombucha-tea-based,wiki/products/kombucha-tea-based.md,false,1,,,,,
+lead-benchmark-context,wiki/products/lead-benchmark-context.md,true,0,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
+lipstick,wiki/products/lipstick.md,true,0,internal_codename,hard,8,"Step 0","> Adult lipstick will be filed under Cat 13 (Leave-on Cosmetics, adult) when that category is built. Until then, this page is a redirect tar"
+lipstick,wiki/products/lipstick.md,true,0,internal_codename,hard,12,"Step 0","The Li 2021 and Attard 2022 `products: [lipstick]` frontmatter declarations were valid at the time of the auto-stub-creator run (a single-ro"
+lipstick,wiki/products/lipstick.md,true,0,internal_codename,hard,17,"Step 0","- Authority: Cat 2 Step 0 lock 2026-04-28 (`Category2_Clean_vs_Contaminated_Splits.md`)"
+matcha,wiki/products/matcha.md,true,0,,,,,
+meat-and-poultry-purees,wiki/products/meat-and-poultry-purees.md,false,1,,,,,
+mixed-meals-non-rice,wiki/products/mixed-meals-non-rice.md,false,1,,,,,
+mixed-meals-rice-containing,wiki/products/mixed-meals-rice-containing.md,false,1,,,,,
+non-root-vegetable-purees,wiki/products/non-root-vegetable-purees.md,false,1,,,,,
+oral-electrolyte-solutions,wiki/products/oral-electrolyte-solutions.md,true,1,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
+piercing-post-assemblies,wiki/products/piercing-post-assemblies.md,true,1,frontmatter_missing,hard,0,"audience","Required frontmatter field absent"
+piercing-post-assemblies,wiki/products/piercing-post-assemblies.md,true,1,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
+plant-milks-non-soy-non-rice,wiki/products/plant-milks-non-soy-non-rice.md,false,1,,,,,
+plant-milks-rice-based,wiki/products/plant-milks-rice-based.md,false,1,,,,,
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,false,1,,,,,
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,false,1,,,,,
+root-vegetable-purees,wiki/products/root-vegetable-purees.md,false,1,,,,,
+seafood,wiki/products/seafood.md,false,1,,,,,
+skin-lightening-cream,wiki/products/skin-lightening-cream.md,false,0,,,,,
+snacks-crackers-biscuits,wiki/products/snacks-crackers-biscuits.md,false,1,,,,,
+soft-drinks-carbonated-beverages,wiki/products/soft-drinks-carbonated-beverages.md,true,0,,,,,
+spices,wiki/products/spices.md,false,1,,,,,
+sports-energy-drinks,wiki/products/sports-energy-drinks.md,true,0,,,,,
+tea-infusions,wiki/products/tea-infusions.md,false,1,,,,,
+tea,wiki/products/tea.md,false,1,,,,,
+teething-and-snacks-non-rice,wiki/products/teething-and-snacks-non-rice.md,false,1,,,,,
+teething-and-snacks-rice-based,wiki/products/teething-and-snacks-rice-based.md,false,1,,,,,
+tomato-paste,wiki/products/tomato-paste.md,false,1,,,,,
+tomato-sauce,wiki/products/tomato-sauce.md,false,1,,,,,
+toothpaste,wiki/products/toothpaste.md,false,1,,,,,
+true-tea-camellia-sinensis,wiki/products/true-tea-camellia-sinensis.md,true,0,,,,,
+vegetable-juices-non-root,wiki/products/vegetable-juices-non-root.md,true,0,,,,,
+vegetable-juices-root-vegetable-containing,wiki/products/vegetable-juices-root-vegetable-containing.md,true,0,,,,,
