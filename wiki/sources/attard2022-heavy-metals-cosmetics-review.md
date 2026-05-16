@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Heavy_Metals_in_Cosmetics.pdf"
 metals: [Pb, Cd, Ni, tHg, tAs]
 ingredients: []
-products: ["[[products/children-personal-care]]", "[[products/lipstick]]", "[[products/eye-shadow]]", "[[products/face-foundation]]", "[[products/skin-lightening-cream]]", "[[products/face-paint]]"]
+products: ["[[products/children-personal-care]]", "[[products/childrens-makeup]]", "[[products/childrens-lip-balm-mineral-bearing]]", "[[products/face-paint]]", "[[advisory/skin-lightening-products]]"]
 matrices: [cosmetic-personal-care]
 jurisdictions: [US, EU, WHO, CA]
 near_duplicates: []

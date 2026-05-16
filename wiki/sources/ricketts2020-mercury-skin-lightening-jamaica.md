@@ -15,7 +15,7 @@ license: "CC BY-NC"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Mercury_Exposure_Associated_with_Use_of_Skin_Lightening_Products_in_Jamaica.pdf"
 metals: [tHg, MeHg]
 ingredients: []
-products: ["[[products/skin-lightening-cream]]", "[[products/skin-lightening-lotion]]", "[[products/skin-lightening-soap]]", "[[products/children-personal-care]]"]
+products: ["[[advisory/skin-lightening-products]]"]
 matrices: [cosmetic-personal-care]
 jurisdictions: [JM, US]
 near_duplicates: []
