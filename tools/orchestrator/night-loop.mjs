@@ -18,8 +18,7 @@
 //   - Has a prompt file (excludes inline_action stubs)
 //   - best_dispatched_to is not "Karen"
 //   - confidence >= 0.7
-//   - Excludes synthesis until cost-calibration milestone passes
-//     (controlled by --include-synthesis flag; default off)
+//   - Synthesis included by default (pass --no-synthesis to exclude)
 //
 // Outputs:
 //   - data/evidence/night-runs/<run-id>.log              per-dispatch logs
@@ -36,11 +35,9 @@ import { spawnSync } from "node:child_process"
 
 const args = process.argv.slice(2)
 const dryRun = args.includes("--dry-run")
-// Synthesis is on by default per Karen's 2026-05-15 directive: the wiki is
-// stalling because hundreds of ingested PDFs route to ingredient pages whose
-// contamination_profile cells never advance past `pending`. The gate that
-// previously held synthesis OFF until cost calibration was the rule blocking
-// ingest from being useful. Pass --no-synthesis to disable.
+// Synthesis runs by default. Pass --no-synthesis to exclude SYNTHESIS-*
+// actions for a given run (e.g., when the routing audit is the only thing
+// you want refreshed).
 const includeSynthesis = !args.includes("--no-synthesis")
 const maxActions = parseIntArg(args, "--max-actions", 30)
 const maxHours = parseFloatArg(args, "--max-hours", 8)
