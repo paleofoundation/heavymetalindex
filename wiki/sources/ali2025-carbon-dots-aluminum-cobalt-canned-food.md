@@ -14,7 +14,7 @@ evidence_tier: A
 license: null
 raw_path: raw/markdown/FM_11877424/FM_11877424.md
 metals: [Al]
-products: []
+products: ["[[products/tomato-sauce]]", "[[products/canned-fish]]"]
 ingredients: []
 matrices: [analytical-method, canned-food, tomato-sauce, canned-tuna]
 jurisdictions: []

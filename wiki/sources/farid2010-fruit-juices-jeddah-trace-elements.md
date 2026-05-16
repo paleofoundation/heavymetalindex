@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Levels of Trace Elements in Commercial Fruit Juices Consumed in J.pdf"
 metals: [Cr, Ni]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/orange-juice]]", "[[ingredients/mango-juice]]"]
-products: ["[[products/fruit-juice]]"]
+products: ["[[products/fruit-juice]]", "[[products/fruit-juice-not-canned]]"]
 matrices: [fruit-juice]
 jurisdictions: [SA]
 near_duplicates: []

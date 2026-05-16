@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Determination and risk analysis of heavy metals in different frui.pdf"
 metals: [Pb, Cd, Cr, Ni]
 ingredients: ["[[ingredients/grapes]]", "[[ingredients/apples]]", "[[ingredients/oranges]]", "[[ingredients/bananas]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit]
 jurisdictions: [BD]
 near_duplicates: []

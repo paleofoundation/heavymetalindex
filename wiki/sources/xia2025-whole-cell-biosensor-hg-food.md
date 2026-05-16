@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12609072/FM_12609072.md
 metals: [tHg]
-products: []
+products: ["[[products/seafood]]"]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/rice]]", "[[ingredients/shellfish]]"]
 matrices: [analytical-method, fish, rice, shellfish]
 jurisdictions: []

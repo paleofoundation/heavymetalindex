@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12455183/FM_12455183.md
 metals: [tAs, Cd, Cr, tHg, Pb]
 ingredients: ["[[ingredients/corn]]"]
-products: []
+products: ["[[products/breakfast-cereals]]"]
 matrices: [breakfast-cereal, dry-food]
 jurisdictions: [LB]
 near_duplicates: []

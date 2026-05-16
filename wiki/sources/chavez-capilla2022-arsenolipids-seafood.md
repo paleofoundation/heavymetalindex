@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_8787705/FM_8787705.md
 metals: [tAs, iAs]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/rice]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [seafood, fish-oil, dietary-intake, breast-milk]
 jurisdictions: [AU, NZ, FR, EU]
 near_duplicates: []

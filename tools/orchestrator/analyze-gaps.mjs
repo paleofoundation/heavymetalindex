@@ -113,6 +113,45 @@ if (unresolved.length > 0) {
   })
 }
 
+// ---------- Signal 2c: routing-discipline lint (Phase 1 / Phase 5 gates) ----------
+// docs/order-of-operations.md Phase 1 says products: [] on food/personal-care
+// papers with product-shaped matrices is a defect. Phase 5 says hmtc_category
+// pages with zero routed sources are broken state. The audit script emits both.
+const routingDisciplineAudit = readCsv(path.join(dataDir, "routing-discipline-audit.csv"))
+const check1Fails = routingDisciplineAudit.filter((r) => r.check === "1_source_missing_products")
+const check2Fails = routingDisciplineAudit.filter((r) => r.check === "2_locked_product_zero_sources")
+if (check1Fails.length > 0) {
+  actions.push({
+    id: "FIX-EMPTY-PRODUCTS-ON-FOOD-PAPERS",
+    strategy: "schema",
+    title: `Fix ${check1Fails.length} food/personal-care source pages with products: [] (Phase 1 gate)`,
+    impact_score: check1Fails.length * 3,
+    cost: check1Fails.length > 50 ? "medium" : "cheap",
+    confidence: 0.85,
+    closes_count: check1Fails.length,
+    closes_what: "routing-discipline failures per docs/order-of-operations.md Phase 1. Each source has matrices declaring product-shaped slugs but products: [] and no pending_category_lock flag. Either declare products: with matching slug(s) from the existing taxonomy, or set pending_category_lock: <name> if the target category is not yet locked.",
+    best_dispatched_to: "Claude Code (small structured edits; may need --include-medium reverse-route)",
+    prompt_path: null,
+    details: `Most of today's 13 fails are medium-confidence map entries (fish → fresh-fish, dried-herbs → spices, vegetable-juice → vegetable-juices-non-root). Quick fix: run \`npm run reverse-route:apply -- --include-medium\` to apply medium-confidence proposals after Karen reviews them. Alternative fix: hand-edit each source to declare the correct product slug.`,
+    inline_action: "run_reverse_route_include_medium",
+  })
+}
+if (check2Fails.length > 0) {
+  actions.push({
+    id: "FIX-LOCKED-PRODUCTS-WITH-ZERO-SOURCES",
+    strategy: "synthesis",
+    title: `Investigate ${check2Fails.length} HMTc-locked product pages with zero routed sources (Phase 5 gate)`,
+    impact_score: check2Fails.length * 5,
+    cost: "medium",
+    confidence: 0.6,
+    closes_count: check2Fails.length,
+    closes_what: "scaffolded HMTc rows that never received their Phase 1 ingest. Each row is a brand-legal-facing page where the literature evidence is currently empty, which means the page reads as unsupported on the live site. Some may legitimately have thin literature (matcha, sports-energy-drinks); others may be misroutes.",
+    best_dispatched_to: "Karen (decide per-row: thin literature vs misroute) + Claude follow-through",
+    prompt_path: null,
+    details: `Today's failures: ${check2Fails.map((r) => r.target.replace(/^wiki\/products\//, "").replace(/\.md$/, "")).join(", ")}. For each row, check whether (a) the corpus has sources that should route but their frontmatter is wrong, (b) the matrix vocabulary needs an entry in data/evidence/matrix-to-product-map.json, or (c) the literature is genuinely thin and the page should carry a "literature is thin for this row" caveat.`,
+  })
+}
+
 // ---------- Signal 3: routing audit malformed entries (strict + advisory) ----------
 const malformed = readCsv(path.join(dataDir, "routing_malformed.csv"))
 const strictMalformed = malformed.filter((r) => r.severity === "strict")

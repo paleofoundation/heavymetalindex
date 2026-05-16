@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Papers Cube Manual Fetch/afns-aid1056.pdf"
 metals: [Pb, Cd, tAs, Al, Zn, Mn, Fe, Cu]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]", "[[ingredients/banana]]"]
-products: ["[[products/infant-cereal]]", "[[products/baby-food-purees]]"]
+products: ["[[products/infant-cereal]]", "[[products/baby-food-purees]]", "baby-cereals", "[[products/infant-and-child-foods-master]]"]
 matrices: [infant-cereal, baby-food, infant-toddler-food]
 jurisdictions: [US]
 near_duplicates: []

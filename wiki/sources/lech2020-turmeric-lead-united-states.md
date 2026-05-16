@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/manual-fetch/spice-adulteration-lead/Ground Turmeric as a Source ofLead Exposure in the United States.pdf"
 metals: [Pb]
 ingredients: ["[[ingredients/turmeric]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [turmeric-powder, spice]
 jurisdictions: [US]
 sample_n: 127

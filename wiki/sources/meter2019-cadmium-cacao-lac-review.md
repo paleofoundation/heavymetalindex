@@ -16,7 +16,7 @@ sha256: 50b3214db40121d1cb4814509394c55909e13fcef90c0942428363671047492e
 access_date: 2026-05-12
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
-products: []
+products: ["[[products/chocolate]]"]
 matrices: [cacao-bean, cacao-nibs, cacao-husk, cacao-leaf, cocoa-powder, chocolate]
 jurisdictions: [EC, CO, PE, TT, HN, BO, CR, DO, GH, NG, CM, ID, MY]
 sample_n: null

@@ -14,7 +14,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11532634/FM_11532634.md
 metals: [tHg]
-products: []
+products: ["[[products/seafood]]"]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 matrices: [seafood, fish]
 jurisdictions: [JP]

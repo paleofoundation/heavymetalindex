@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: raw/markdown/FM_10649747/FM_10649747.md
 metals: [tAs, Cd, tHg, Pb]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [fish-muscle, freshwater-fish, marine-fish]
 jurisdictions: [TH]
 near_duplicates: []

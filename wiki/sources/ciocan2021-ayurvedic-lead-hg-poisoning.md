@@ -13,7 +13,7 @@ license: "subscription"
 raw_path: raw/markdown/FM_8095331/FM_8095331.md
 metals: [Pb, tHg, tAs]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
-products: []
+products: ["[[products/dietary-supplements]]"]
 matrices: [supplement, blood, urine]
 jurisdictions: [IT, IN]
 near_duplicates: []

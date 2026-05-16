@@ -15,7 +15,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_11052787/FM_11052787.md
 metals: [Fe, Zn, Al, Cu, Mn, Se, As, Hg, Cd, Pb]
 ingredients: ["[[ingredients/shellfish]]", "[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [crustacean, freshwater-seafood, seafood]
 jurisdictions: [TR]
 near_duplicates: []

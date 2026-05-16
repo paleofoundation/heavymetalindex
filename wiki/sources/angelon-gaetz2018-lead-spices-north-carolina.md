@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled f.pdf"
 metals: [Pb]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/turmeric]]", "[[ingredients/cinnamon]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs, ceremonial-powders, herbal-remedies]
 jurisdictions: [US]
 near_duplicates: []

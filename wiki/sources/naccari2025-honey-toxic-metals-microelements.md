@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: raw/markdown/FM_12155239/FM_12155239.md
 metals: [Pb, Cd, tAs, Al, Ni, Cr]
 ingredients: ["[[ingredients/honey]]"]
-products: []
+products: ["[[products/honey]]"]
 matrices: [honey]
 jurisdictions: [IT]
 near_duplicates: []

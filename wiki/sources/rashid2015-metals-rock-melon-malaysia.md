@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Determination of Metals Contamination in Rock Melon (Cucumis melo.pdf"
 metals: [Al, Cr, Pb, Ni]
 ingredients: ["[[ingredients/melons]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit]
 jurisdictions: [MY]
 near_duplicates: []

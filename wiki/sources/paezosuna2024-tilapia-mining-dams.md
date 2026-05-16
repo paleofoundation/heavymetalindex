@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11422272/FM_11422272.md
 metals: [Cd, Pb, Cu, Zn]
 ingredients: ["[[ingredients/tilapia]]", "[[ingredients/freshwater-fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish, fish-muscle, fish-liver, fish-gills]
 jurisdictions: [MX]
 near_duplicates: []

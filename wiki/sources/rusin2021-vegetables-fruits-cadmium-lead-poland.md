@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1038/s41598-021-91554-z"
 metals: [Cd, Pb]
 ingredients: ["[[ingredients/leafy-greens]]", "[[ingredients/carrot]]", "[[ingredients/apple]]", "[[ingredients/fruit]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-vegetable, frozen-vegetable, dried-vegetable, fresh-fruit, frozen-fruit, dried-fruit, processed-fruit, processed-vegetable]
 jurisdictions: [PL]
 sample_n: 370

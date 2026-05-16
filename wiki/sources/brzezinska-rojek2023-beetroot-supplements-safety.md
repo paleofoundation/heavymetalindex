@@ -14,7 +14,7 @@ license: unknown
 raw_path: raw/markdown/FM_11074222/FM_11074222.md
 metals: [Cd, Pb, Al]
 ingredients: ["[[ingredients/beet]]"]
-products: []
+products: ["[[products/dietary-supplements]]"]
 matrices: [dietary-supplement, powder, capsule, tablet]
 jurisdictions: [PL]
 near_duplicates: []

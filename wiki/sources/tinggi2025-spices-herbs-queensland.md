@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Heavy metal analysis in commercial spices and herbs by ICP-MS and.pdf"
 metals: [Pb, Cd, tAs, tHg, Ni, Al, Cr]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/turmeric]]", "[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs]
 jurisdictions: [AU, IN, CN, LK, VN, BD, MY]
 near_duplicates: []

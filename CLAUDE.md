@@ -189,6 +189,16 @@ jurisdictions: <from manifest text-mining>
 
 These are pre-populated as draft values. Claude verifies each field against the actual paper content during ingest and corrects any that the manifest got wrong. A silent correction is fine; a large disagreement (for example, manifest says `[Pb]` but paper is clearly about arsenic only) is flagged to Karen for review.
 
+### Existing-pages-aware ingest
+
+Source-page frontmatter is the routing layer's input. The model is responsible for declaring `products:` and `ingredients:` against the *existing* wiki taxonomy, not inventing slugs from the paper's text. Before writing any source page, the session checks `wiki/products/` and `wiki/ingredients/` (a quick `ls`, or read the per-category index) to know what slugs exist. The declared slugs are selected from that vocabulary; new slugs are not invented mid-ingest.
+
+Empty `products: []` on a food or personal-care paper is a defect. A paper that measures heavy metals in any food product, personal-care product, dietary supplement, cosmetic, or any matrix that maps to a consumer-product category must declare at least one slug in `products:`. The one exception: if the natural match is a category Karen has not yet locked (no Step 0 Lock, no scaffolded row pages), the source declares `products: []` AND sets `pending_category_lock: <category-name>` in frontmatter. The routing audit picks the source up after the lock lands. Without the flag, the routing-discipline lint (`tools/audit-routing-discipline.mjs`) flags the source as a Phase 1 defect.
+
+Broad-scope tokens are preferred over invented row-level slugs when the paper does not resolve the row split. If a paper measures "infant formula" generally without specifying powdered vs RTF vs soy vs non-soy, declare `products: [infant-formula]`, not `products: [infant-formula-powder-non-soy]` (the model guessing). The routing audit's `broadProductScopes` vocabulary fans broad scopes out to sibling pages via `route_kind: broad_formula_context`. Overspecifying frontmatter is worse than under-specifying it.
+
+When the model writes the source page, it does not auto-create destination pages. Sources referencing an ingredient slug that doesn't exist surface as a `routing_unresolved.csv` entry; the autonomy loop's `tools/autonomy/create-missing-pages.mjs` creates ingredient stubs at frequency >= 2 (commodities are not governance items). Sources referencing a product slug that doesn't exist also surface in `routing_unresolved.csv` but the autonomy loop does NOT create the product stub — product pages are HMTc governance units requiring Karen's Step 0 Lock plus a scaffold-script commit. See Part 10 for the full rule and `docs/order-of-operations.md` for the workflow.
+
 ## Part 5b — Routing layer (system rule, not a per-session task)
 
 The wiki has a routing layer that is the system's responsibility, not the model's. No session, ingest or otherwise, is expected to maintain routing by hand. No prompt should ask the model to write routing rows directly. If a session finds itself maintaining routing by hand, that is a session-architecture failure to surface to Karen, not work to complete.
@@ -679,6 +689,10 @@ Consumer translation is dose-and-population-specific. This is the highest-risk i
 
 Three distinct workflows with different constraints.
 
+### Phase 0 prerequisite (before any ingest into a new HMTc category)
+
+Before ingest into a new HMTc category begins, the session verifies four things: the category's Step 0 Lock document exists, the scaffold script has created the row pages in `wiki/products/`, `wiki/products/index.md` includes a section for the category, and the master rollup page exists. If any of these are missing, the ingest defers all sources touching the category by setting `pending_category_lock: <category-name>` in source frontmatter and leaving `products: []`. The routing layer picks the source up after the lock lands. The model does not invent row-level slugs for not-yet-locked categories; doing so produces governance drift (the 2026-05-14 auto-created `face-paint.md`, `skin-lightening-cream.md`, `lipstick.md` had to be retired by the Cat 2 scaffold on 2026-05-15). See `docs/order-of-operations.md` Phase 0 for the full procedure.
+
 ### Compiled-wiki rule
 
 For this build, ingest means compiling a source into the persistent wiki system. It does not mean "the file is searchable now." The work is split across actors: the **model** writes prose content (source pages, narrative wiki content where appropriate); **system** scripts handle routing and structured-evidence emission; **generators** rebuild product-page tables and other compiled views; **Karen** decides scope, names new pages, and approves limit-setting work. Each step below is tagged with the responsible actor so any session can see, on first read, what is and is not the model's job.
@@ -813,7 +827,7 @@ Example: if 3 papers mention "rice bran" alongside papers about rice generally, 
 
 When the threshold is crossed, Claude proposes the new page to Karen rather than silently creating it. The proposal happens in the batch report, not per-paper.
 
-For products: create a new product-category page when 3 or more papers address the product category specifically. Product categories are a smaller universe than ingredients, so the threshold is lower.
+For products: product pages are HMTc governance units. They are not auto-created by the autonomy loop or by individual ingest sessions. A new product page requires Karen to author a Step 0 Lock document for the relevant HMTc category and run the corresponding scaffold script (`tools/autonomy/cat<N>-step0-scaffold.mjs`). The Cat 2 scaffold (`tools/autonomy/cat2-step0-scaffold.mjs`) is the reference exemplar. Sources referencing a product slug that doesn't exist as a page surface in `routing_unresolved.csv` and the orchestrator's morning report; they do not trigger auto-stub creation. The `tools/autonomy/create-missing-pages.mjs` script enforces this — its product-stub path is disabled by default and writes the unresolved entries to `data/evidence/autonomy/product-stub-proposals-pending.csv` for Karen's review. See `docs/order-of-operations.md` Phase 0 for the full procedure.
 
 For regulations: create a new regulation page on first encounter. Regulations have hard identifiers (rule numbers, official names) and benefit from being captured immediately rather than accumulating in a parent page.
 
@@ -996,6 +1010,14 @@ Routing audit malformed: `data/evidence/routing_malformed.csv` is non-empty. A s
 Routing audit stale: `data/evidence/product_source_routing_audit.csv` last-modified timestamp is older than any file in `wiki/sources/`. The routing layer (Part 5b) has not run since the source layer changed, so product pages may not reflect the current source corpus. Re-run `tools/evidence/build-routing-audit.mjs` (the watcher and prebuild hooks should make this automatic; a stale audit in lint means automation has broken).
 
 Orphaned routing reference: a product-category page references a source whose row in the routing audit has been removed. Either the source was deleted (in which case the page reference should be removed too) or the audit was regenerated incorrectly.
+
+Source missing products field on food/personal-care paper: source page has populated `matrices:` containing product-shaped slugs (per the curated map at `data/evidence/matrix-to-product-map.json`) but `products: []` and no `pending_category_lock` flag. Run via `node tools/audit-routing-discipline.mjs`. Currently `--warn-only`; flip to fail-on-error after the historical reverse-routing sweep settles and ingest pipeline adoption stabilizes Phase 1 frontmatter discipline. See `docs/order-of-operations.md` Phase 1.
+
+HMTc-locked product page has zero routed sources: product page has both `hmtc_category` and `hmtc_row` in frontmatter but no source in the routing audit declares it. Either the scaffold has not yet received its Phase 1 ingest, or sources that should route declare incorrect slugs. Run via `node tools/audit-routing-discipline.mjs`. Currently `--warn-only`. See `docs/order-of-operations.md` Phase 5.
+
+Source declares product page that requires Step 0 Lock: `routing_unresolved.csv` row whose `target_kind` is `product` and whose `declared_target` corresponds to an HMTc category Karen has not yet locked. Surfaces to the orchestrator's morning report; does not fail the commit. The fix is Karen-side: author the Step 0 Lock for the category, run the scaffold script, and the routing audit picks up the previously-unresolved sources on the next tick.
+
+Auto-stub creation attempted in `wiki/products/`: `tools/autonomy/create-missing-pages.mjs` encountered an unresolved product slug above the frequency-2 threshold. The script writes the entry to `data/evidence/autonomy/product-stub-proposals-pending.csv` for Karen's morning review instead of creating the product stub. Product auto-stub creation is OFF by default per Part 10; override only with `--allow-products` on Karen's explicit OK.
 
 Lint results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`. Lint entries in `log.md` use `op: lint`. Routing lint failures should block builds, not just produce reports, because routing drift propagates silently and is much cheaper to catch at the audit layer than to fix downstream.
 

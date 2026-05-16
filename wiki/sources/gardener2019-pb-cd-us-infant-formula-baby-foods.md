@@ -14,7 +14,7 @@ license: "© 2018 Elsevier B.V. All rights reserved"
 raw_path: "raw/Papers Cube Manual Fetch/gardener2019.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]"]
-products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-powder]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/infant-and-child-foods-master]]"]
+products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-powder]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/infant-and-child-foods-master]]", "[[products/oral-electrolyte-solutions]]"]
 matrices: [infant-formula, baby-food, cereal, toddler-formula, baby-food-pouch, baby-food-jar, baby-snack, juice-drink, electrolyte-solution]
 jurisdictions: [US]
 near_duplicates: []

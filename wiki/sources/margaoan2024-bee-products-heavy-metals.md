@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11996992_Environmental_pollution_effect_on_honey_bees_and_their_deriv/FM_11996992_Environmental_pollution_effect_on_honey_bees_and_their_deriv.md
 metals: [Pb, Cd, Hg, As, Cr, Ni]
 ingredients: ["[[ingredients/honey]]"]
-products: []
+products: ["[[products/honey]]"]
 matrices: [honey, pollen, beeswax, bee-products]
 jurisdictions: []
 near_duplicates: []

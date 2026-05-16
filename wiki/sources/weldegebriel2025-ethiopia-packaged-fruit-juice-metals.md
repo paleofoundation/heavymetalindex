@@ -13,7 +13,7 @@ raw_path: "raw/markdown/FM_12546707/FM_12546707.md"
 access_url: https://doi.org/10.1038/s41598-025-20789-x
 raw_sha256: "607a8da30c2bcc1f2901732c326a0d49d2cdda4294d8982ceab7e904f4e48254"
 metals: [Cd, Pb, Cr, Ni]
-products: [fruit-juice-not-canned, packaged-fruit-juice]
+products: [fruit-juice-not-canned, packaged-fruit-juice, "[[products/fruit-juices-non-apple]]"]
 matrices: [packaged-fruit-juice, mango-juice, pineapple-juice, strawberry-juice, cocktail-juice]
 jurisdictions: [ET]
 sample_n: 80

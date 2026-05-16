@@ -15,7 +15,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_11227049/FM_11227049.md
 metals: [Pb]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
-products: []
+products: ["[[products/dietary-supplements]]"]
 matrices: [dietary-supplement, biomonitoring-blood, biomonitoring-urine]
 jurisdictions: [IN]
 near_duplicates: []

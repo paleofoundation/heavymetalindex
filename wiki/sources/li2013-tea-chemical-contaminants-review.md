@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1016/j.foodres.2012.12.048"
 metals: [Pb, Cd, tAs, Cr, Cu]
 ingredients: ["[[ingredients/camellia-sinensis]]"]
-products: []
+products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]]"]
 matrices: [green-tea, black-tea, oolong-tea, tea-infusion, tea-leaves]
 jurisdictions: [CN, IN, TR]
 sample_n: null

@@ -15,7 +15,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_11018964/FM_11018964.md
 metals: [tHg, MeHg, Cd, Pb, As]
 ingredients: ["[[ingredients/tuna]]", "[[ingredients/seafood]]", "[[ingredients/tinned-fish]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [fish-tissue, seafood]
 jurisdictions: [EU]
 near_duplicates: []

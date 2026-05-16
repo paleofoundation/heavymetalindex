@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11343411/FM_11343411.md
 metals: [Pb, Cd, tAs, tHg]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs]
 jurisdictions: [LB]
 near_duplicates: []

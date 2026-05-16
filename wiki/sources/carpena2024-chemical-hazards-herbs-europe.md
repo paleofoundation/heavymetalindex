@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices/Assessment of the Chemical Hazards in Herbs Consumed in Europe_ T.pdf"
 metals: [Pb, Cd, tHg]
 ingredients: ["[[ingredients/herbs-and-spices]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [herbs, spices]
 jurisdictions: [EU]
 near_duplicates: []

@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10884084/FM_10884084.md
 metals: [tAs, Cd, Cr, Co, Pb, Mn, tHg, Ni]
 ingredients: ["[[ingredients/freshwater-fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish]
 jurisdictions: [OM]
 near_duplicates: []

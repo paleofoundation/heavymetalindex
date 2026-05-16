@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1177/0003702816652374"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/seafood]]", "[[products/fruit-juices-apple-containing]]", "[[products/infant-and-child-foods-master]]"]
 matrices: [rice, rice-products, seaweed, fish, seafood, apple-juice, infant-food]
 jurisdictions: [EU, US, CN, AU, CA]
 sample_n: null

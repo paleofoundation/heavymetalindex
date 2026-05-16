@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10894169/FM_10894169.md
 metals: [tHg, Zn, Mo, Rb, Sr]
 ingredients: ["[[ingredients/freshwater-fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish]
 jurisdictions: [SK]
 near_duplicates: []

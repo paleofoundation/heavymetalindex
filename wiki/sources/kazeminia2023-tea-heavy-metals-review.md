@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.34302/crpjfst/2023.15.4.3"
 metals: [As, Cd, Cr, Pb, Hg, Al, Fe, Ba, Ni, Co]
 ingredients: ["[[ingredients/camellia-sinensis]]"]
-products: []
+products: ["[[products/tea-infusions]]", "[[products/true-tea-camellia-sinensis]]"]
 matrices: [tea-herb, tea-infusion, black-tea, green-tea]
 jurisdictions: []
 sample_n: 157

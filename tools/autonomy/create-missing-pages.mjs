@@ -25,6 +25,16 @@
 //     this is an autonomy-created stub, and a marker-managed Sources block.
 //     The synthesis pass (per CLAUDE.md Part 9) fills in contamination_profile
 //     when sources accumulate.
+//   - **Product auto-stub creation is OFF by default** (2026-05-16). Per
+//     docs/order-of-operations.md Phase 0, product pages are HMTc governance
+//     items requiring Karen's Step 0 Lock plus a category-scaffold script
+//     (the Cat 2 scaffold is the reference exemplar). Auto-created product
+//     stubs cause governance drift: the 2026-05-14 autonomy run created
+//     face-paint.md, skin-lightening-cream.md, lipstick.md which had to be
+//     retired/rewritten by the Cat 2 scaffold the following day. Ingredient
+//     stubs continue to be auto-created — commodities are not governance
+//     units, and CLAUDE.md Part 10's 5-paper rule self-corrects via the
+//     synthesis pass. Override with --allow-products (Karen's call only).
 //
 // Output:
 //   - wiki/ingredients/<slug>.md or wiki/products/<slug>.md (new stubs)
@@ -46,6 +56,7 @@ const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
 const dryRun = args.has("dry-run")
 const minFreq = Number(args.get("min-freq") ?? 2)
+const allowProducts = args.has("allow-products")
 const today = new Date().toISOString().slice(0, 10)
 
 const unresolvedPath = path.join(repoRoot, "data/evidence/routing_unresolved.csv")
@@ -87,10 +98,30 @@ const eligible = candidates.filter((c) => {
   return true
 })
 
-console.log(`create-missing-pages: ${eligible.length} candidates (freq >= ${minFreq})`)
+// Split product candidates off as Phase 0 proposals (Karen's Step 0 Lock).
+// Per docs/order-of-operations.md, product pages are governance items and
+// auto-stubbing them causes downstream rewrite churn (Cat 2 scaffold had to
+// retire 3 auto-stubs on 2026-05-15). With --allow-products, the legacy
+// behavior is preserved for one-off Karen-authorized cases.
+const productProposals = eligible.filter((c) => c.kind === "product")
+const ingredientCandidates = eligible.filter((c) => c.kind === "ingredient")
+let pageEligible
+if (allowProducts) {
+  pageEligible = eligible
+  if (productProposals.length > 0) {
+    console.log(`create-missing-pages: WARNING — creating ${productProposals.length} product stub(s) under --allow-products. Per docs/order-of-operations.md this requires Karen's Step 0 Lock approval.`)
+  }
+} else {
+  pageEligible = ingredientCandidates
+  if (productProposals.length > 0) {
+    console.log(`create-missing-pages: ${productProposals.length} product proposal(s) deferred to morning report (Phase 0 Step 0 Lock pending). Re-run with --allow-products only with Karen's explicit approval.`)
+  }
+}
+
+console.log(`create-missing-pages: ${pageEligible.length} candidates eligible (freq >= ${minFreq}; product auto-stub ${allowProducts ? "ALLOWED" : "DEFERRED"})`)
 
 const created = []
-for (const c of eligible) {
+for (const c of pageEligible) {
   const dir = c.kind === "ingredient" ? ingredientsDir : productsDir
   const filepath = path.join(dir, `${c.target}.md`)
   if (fs.existsSync(filepath)) continue
@@ -110,8 +141,25 @@ for (const c of created) {
 }
 fs.writeFileSync(auditPath, auditLines.join("\n") + "\n", "utf8")
 
+// Write product-proposal log (the deferred Phase-0 candidates).
+const proposalsPath = path.join(autonomyDir, "product-stub-proposals-pending.csv")
+const proposalLines = ["slug,routed_source_count,first_three_sources,recommended_action"]
+for (const c of productProposals) {
+  const firstSources = c.sources.slice(0, 3).join(";")
+  proposalLines.push(
+    `${c.target},${c.count},${csvField(firstSources)},${csvField(
+      "Add to the appropriate HMTc category Step 0 Lock. Until Karen authors the lock + scaffold script, sources declaring this slug remain in routing_unresolved.csv. Re-run create-missing-pages with --allow-products only on Karen's explicit OK.",
+    )}`,
+  )
+}
+fs.writeFileSync(proposalsPath, proposalLines.join("\n") + "\n", "utf8")
+
 console.log(`Created ${created.length} stub page(s)${dryRun ? " (DRY-RUN)" : ""}`)
 console.log(`Audit log: ${path.relative(repoRoot, auditPath)}`)
+if (productProposals.length > 0) {
+  console.log(`Product proposals deferred to Phase 0: ${productProposals.length}`)
+  console.log(`Deferral log: ${path.relative(repoRoot, proposalsPath)}`)
+}
 
 // =========================================================================
 // Stub templates
@@ -332,6 +380,14 @@ function parseArgs(argv) {
     if (match) m.set(match[1], match[2] ?? "true")
   }
   return m
+}
+
+function csvField(value) {
+  const str = String(value ?? "")
+  if (str.includes(",") || str.includes('"') || str.includes("\n")) {
+    return `"${str.replace(/"/g, '""')}"`
+  }
+  return str
 }
 
 function listSlugs(dir) {

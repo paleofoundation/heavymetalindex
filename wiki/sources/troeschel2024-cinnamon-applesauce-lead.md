@@ -15,7 +15,7 @@ license: "public-domain"
 raw_path: raw/markdown/FM_12021075/FM_12021075.md
 metals: [Pb, Cr]
 ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/applesauce]]"]
-products: ["[[products/infant-and-child-foods-master]]", "[[products/fruit-purees]]"]
+products: ["[[products/infant-and-child-foods-master]]", "[[products/fruit-purees]]", "[[products/spices]]"]
 matrices: [baby-food, fruit-puree, spice, blood]
 jurisdictions: [US]
 near_duplicates: []

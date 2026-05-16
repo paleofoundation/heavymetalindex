@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Isotopic and Elemental Determination in Some Romanian Apple Fruit.pdf"
 metals: [Pb, Cd, tAs, Ni, Cr, U]
 ingredients: ["[[ingredients/apple-juice]]"]
-products: ["[[products/fruit-juice]]"]
+products: ["[[products/fruit-juice]]", "[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-apple-containing]]"]
 matrices: [fruit-juice, apple-juice]
 jurisdictions: [RO]
 near_duplicates: []

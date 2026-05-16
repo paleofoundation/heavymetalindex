@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste.pdf"
 metals: [Pb, Cd, Sn, Al, Cr, Fe, Zn, tAs]
 ingredients: ["[[ingredients/tomato-paste]]", "[[ingredients/tomatoes]]"]
-products: ["[[products/canned-tomatoes]]", "[[products/tomato-paste]]"]
+products: ["[[products/canned-tomatoes]]", "[[products/tomato-paste]]", "[[products/tomato-sauce]]"]
 matrices: [canned-tomato-paste, tomato-sauce, canned-tomato]
 jurisdictions: [RO, IT]
 near_duplicates: []

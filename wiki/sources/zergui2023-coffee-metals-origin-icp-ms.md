@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1007/s12011-023-03582-7"
 metals: [Ni, Cr, Pb, Cd, tAs, Al, Mn]
 ingredients: ["[[ingredients/coffee]]"]
-products: []
+products: ["[[products/coffee]]"]
 matrices: [instant-coffee, ground-coffee, coffee-beans, coffee-capsules]
 jurisdictions: [DZ]
 sample_n: 44

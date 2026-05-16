@@ -15,7 +15,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_12178998/FM_12178998.md
 metals: [tHg]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/tilapia]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish]
 jurisdictions: [ZM]
 near_duplicates: []

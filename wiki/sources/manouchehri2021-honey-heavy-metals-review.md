@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/10.31467-uluaricilik.973053-1886804.pdf"
 metals: [Pb, Cd, tHg, Cr, Ni, Al]
 ingredients: ["[[ingredients/honey]]"]
-products: []
+products: ["[[products/honey]]"]
 matrices: [honey]
 jurisdictions: [IR, TR, NG, AR, PK, HR, XK]
 near_duplicates: []

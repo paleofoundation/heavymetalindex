@@ -14,7 +14,7 @@ license: "CC BY-NC"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Assessment of Contents and Health Risk of Aluminum and Copper thr.pdf"
 metals: [Al]
 ingredients: ["[[ingredients/cherry-juice]]", "[[ingredients/mango-juice]]", "[[ingredients/orange-juice]]", "[[ingredients/pineapple-juice]]"]
-products: ["[[products/fruit-juice-not-canned]]"]
+products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-non-apple]]"]
 matrices: [packaged-fruit-juice, cherry-juice, mango-juice, orange-juice, pineapple-juice]
 jurisdictions: [IR]
 near_duplicates: []
