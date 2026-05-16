@@ -32,22 +32,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 2. Run synthesis pass on 281 (ingredient, metal) cells that have 2+ contributing sources
-
-**Action ID:** `SYNTHESIS-INGREDIENT-PENDING`
-**Strategy:** synthesis
-**Priority score:** 52.7 (impact 562 × confidence 0.75 ÷ cost factor)
-**Cost:** expensive
-**Best dispatched to:** Claude Code Opus (analytical: cross-source synthesis)
-**Inline action:** `list_ready_synthesis_cells` (the orchestrator can execute this directly; not yet wired in v0)
-
-**What this closes:** ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules
-
-**Details:** 1126 ingredient × metal cells are currently pending. Of those, 281 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 845 cells have 0-1 contributing sources and need more corpus before synthesis runs.
-
----
-
-## 3. Recover real DOIs for 92 source pages currently marked no_doi_assigned with Scholar fallback
+## 2. Recover real DOIs for 92 source pages currently marked no_doi_assigned with Scholar fallback
 
 **Action ID:** `FIX-MISSING-DOIS`
 **Strategy:** schema
@@ -62,22 +47,22 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 4. Complete 41 autonomy-created stub ingredient pages with routed sources (top: lettuce=9, turmeric=9, sunflower-oil=7, vegetable-oils=6, cinnamon=5)
+## 3. Run synthesis pass on 271 (ingredient, metal) cells that have 2+ contributing sources
 
-**Action ID:** `COMPLETE-AUTONOMY-STUBS`
+**Action ID:** `SYNTHESIS-INGREDIENT-PENDING`
 **Strategy:** synthesis
-**Priority score:** 44.3 (impact 417 × confidence 0.85 ÷ cost factor)
+**Priority score:** 50.8 (impact 542 × confidence 0.75 ÷ cost factor)
 **Cost:** expensive
-**Best dispatched to:** Claude Code Opus (per-page deep-read of routed sources + multi-section drafting)
-**Session prompt:** [`data/evidence/build-action-prompts/COMPLETE-AUTONOMY-STUBS.md`](../../data/evidence/build-action-prompts/COMPLETE-AUTONOMY-STUBS.md)
+**Best dispatched to:** Claude Code Opus (analytical: cross-source synthesis)
+**Inline action:** `list_ready_synthesis_cells` (the orchestrator can execute this directly; not yet wired in v0)
 
-**What this closes:** ingredient pages auto-created from routing_unresolved that have inbound source-page declarations but empty bodies and all-pending contamination_profile. Filling these pages converts ingested sources into actual wiki content — the load-bearing fix for Karen's 2026-05-15 'wasting time with our ingests' diagnostic. Each page graduates to non-stub status, which means future routing-audit and mandatory-sections lint passes can detect it as a real page rather than an exempt placeholder.
+**What this closes:** ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules
 
-**Details:** 41 stubs identified by created_by: autonomy_v0 frontmatter; total routed sources across all stubs: 139. The orchestrator prioritizes by routed-source count (highest first). Each page needs: contamination_profile advanced from pending to populated for the metals the routed sources report; body table updated; the 8 mandatory CLAUDE.md Part 6 sections drafted; source legend filled with 1-sentence "Used on this page for" descriptions.
+**Details:** 1086 ingredient × metal cells are currently pending. Of those, 271 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 815 cells have 0-1 contributing sources and need more corpus before synthesis runs.
 
 ---
 
-## 5. Populate 2021 *[awaiting synthesis]* cells in source-legend tables across 267 pages
+## 4. Populate 1990 *[awaiting synthesis]* cells in source-legend tables across 267 pages
 
 **Action ID:** `POPULATE-SOURCE-LEGEND`
 **Strategy:** schema
@@ -88,7 +73,22 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 **What this closes:** the "Used on this page for" column in the hmi-source-legend table on every product, ingredient, and metal page — the brand-legal-facing scannable provenance surface Karen prioritized as standard format on 2026-05-13
 
-**Details:** 2021 cells across 267 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.
+**Details:** 1990 cells across 267 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.
+
+---
+
+## 5. Complete 37 autonomy-created stub ingredient pages with routed sources (top: vegetable-oils=6, soybean-oil=5, spices=5, apple-cider-vinegar=4, balsamic-vinegar=4)
+
+**Action ID:** `COMPLETE-AUTONOMY-STUBS`
+**Strategy:** synthesis
+**Priority score:** 34.7 (impact 327 × confidence 0.85 ÷ cost factor)
+**Cost:** expensive
+**Best dispatched to:** Claude Code Opus (per-page deep-read of routed sources + multi-section drafting)
+**Session prompt:** [`data/evidence/build-action-prompts/COMPLETE-AUTONOMY-STUBS.md`](../../data/evidence/build-action-prompts/COMPLETE-AUTONOMY-STUBS.md)
+
+**What this closes:** ingredient pages auto-created from routing_unresolved that have inbound source-page declarations but empty bodies and all-pending contamination_profile. Filling these pages converts ingested sources into actual wiki content — the load-bearing fix for Karen's 2026-05-15 'wasting time with our ingests' diagnostic. Each page graduates to non-stub status, which means future routing-audit and mandatory-sections lint passes can detect it as a real page rather than an exempt placeholder.
+
+**Details:** 37 stubs identified by created_by: autonomy_v0 frontmatter; total routed sources across all stubs: 109. The orchestrator prioritizes by routed-source count (highest first). Each page needs: contamination_profile advanced from pending to populated for the metals the routed sources report; body table updated; the 8 mandatory CLAUDE.md Part 6 sections drafted; source legend filled with 1-sentence "Used on this page for" descriptions.
 
 ---
 

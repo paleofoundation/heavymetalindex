@@ -1,9 +1,5 @@
 slug,kind,file,routed_sources,body_len,all_pending
-lettuce,ingredient,wiki/ingredients/lettuce.md,9,3875,true
-turmeric,ingredient,wiki/ingredients/turmeric.md,9,3719,true
-sunflower-oil,ingredient,wiki/ingredients/sunflower-oil.md,7,3238,true
 vegetable-oils,ingredient,wiki/ingredients/vegetable-oils.md,6,2986,true
-cinnamon,ingredient,wiki/ingredients/cinnamon.md,5,3026,true
 soybean-oil,ingredient,wiki/ingredients/soybean-oil.md,5,2714,true
 spices,ingredient,wiki/ingredients/spices.md,5,2960,true
 apple-cider-vinegar,ingredient,wiki/ingredients/apple-cider-vinegar.md,4,2432,true
