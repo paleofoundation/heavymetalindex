@@ -24,7 +24,7 @@ updated: 2026-05-09
 
 # Ouyang et al. 2022 — Early life microbiota: delivery mode and infant feeding (background context for HMTc vulnerable-population framing)
 
-This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome development from birth to 2 years, organized around two driver axes: **delivery mode** (vaginal vs C-section, intrapartum antibiotics) and **infant feeding** (breast milk, formula, weaning, complementary food introduction). The chapter does **not** address heavy-metal exposure as a microbiome driver — its primary mechanistic focus is on dietary substrates (HMOs, formula composition, weaning foods) and birth-mode-mediated maternal microbe transmission. Per CLAUDE.md microbiome-page scoping ("subset of microbiome biology for which heavy-metal exposure is the primary mechanistic link"), this paper does **not** route to a wiki/microbiome/ primary-mechanism page. Instead, it is filed here as a **background reference** for the HMTc Cat 1 vulnerable-population framing: it documents the specific microbiome state into which heavy-metal exposure (via formula or complementary foods) enters during the 4-12-month window when complementary feeding begins. The HMTc-relevant findings are summarized below.
+This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome development from birth to 2 years, organized around two driver axes: **delivery mode** (vaginal vs C-section, intrapartum antibiotics) and **infant feeding** (breast milk, formula, weaning, complementary food introduction). The chapter does **not** address heavy-metal exposure as a microbiome driver — its primary mechanistic focus is on dietary substrates (HMOs, formula composition, weaning foods) and birth-mode-mediated maternal microbe transmission. Per the microbiome-page convention scoping ("subset of microbiome biology for which heavy-metal exposure is the primary mechanistic link"), this paper does **not** route to a wiki/microbiome/ primary-mechanism page. Instead, it is filed here as a **background reference** for the HMT&C certification program vulnerable-population framing: it documents the specific microbiome state into which heavy-metal exposure (via formula or complementary foods) enters during the 4-12-month window when complementary feeding begins. The HMTc-relevant findings are summarized below.
 
 ## HMTc-relevant findings
 
@@ -34,7 +34,7 @@ This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Vo
 
 > "With age, the nutrients in breast milk or infant formula cannot fully meet the nutritional needs of the growing infant. Therefore, complementary foods are necessary. This is the period when infants' diet switches from a more milk dominant regime to a solid food diet. The introduction of solid food leads to a large compositional and functional shift in the gut microbiota." (p. 32)
 
-**HMTc framing**: HMTc Category 1 covers infant cereals, purees, mixed meals, snacks — the foods consumed during this 4-12-month complementary-feeding window. Heavy-metal exposure during this window enters a microbiome that is undergoing dramatic compositional reorganization (bifidobacteria → Lachnospiraceae/Ruminococcaceae shift). This biological context is one component of why HMTc applies stricter standards to infant-and-child foods than to adult foods.
+**HMTc framing**: the relevant HMT&C product taxonomy covers infant cereals, purees, mixed meals, snacks — the foods consumed during this 4-12-month complementary-feeding window. Heavy-metal exposure during this window enters a microbiome that is undergoing dramatic compositional reorganization (bifidobacteria → Lachnospiraceae/Ruminococcaceae shift). This biological context is one component of why HMTc applies stricter standards to infant-and-child foods than to adult foods.
 
 ### 2. Formula-fed vs breast-fed infants have different microbiome composition
 
@@ -56,9 +56,9 @@ This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Vo
 
 ## Routing to HMTc subcategories
 
-| Subcategory | Route | n_a_tier impact |
+| Subcategory | Route | evidence-pool impact |
 | --- | --- | --- |
-| (none — no per-subcategory primary occurrence data) | This paper does not measure heavy-metal concentrations in any food matrix. | **No n_a_tier change to any cell.** This is a background reference for vulnerable-population framing, not a percentile contributor. |
+| (none — no per-subcategory primary occurrence data) | This paper does not measure heavy-metal concentrations in any food matrix. | **No evidence pool change to any cell.** This is a background reference for vulnerable-population framing, not a percentile contributor. |
 
 ## Cross-references
 
@@ -97,7 +97,7 @@ Microbiome: This is a **secondary background reference**, not a primary-mechanis
 
 ## Provenance Notes
 
-Karen externally fetched this chapter on 2026-05-09 and dropped it at `raw/external-fetch/Early-Life-Microbiota-Impact-of-Delivery-Mode-and-Infant-Feeding.pdf`. Elsevier book chapter; the wiki cites the chapter record (DOI 10.1016/B978-0-12-819265-8.00064-4). Decision rationale: paper was queued in the Karen-drop queue, but on review the heavy-metal-exposure mechanism is not the chapter's focus — so a thin, cross-referencing source page is the appropriate ingest output rather than a wiki/microbiome/ primary-mechanism page.
+Karen externally fetched this chapter on 2026-05-09 and dropped it at the source archive. Elsevier book chapter; the wiki cites the chapter record (DOI 10.1016/B978-0-12-819265-8.00064-4). Decision rationale: paper was queued in the Karen-drop queue, but on review the heavy-metal-exposure mechanism is not the chapter's focus — so a thin, cross-referencing source page is the appropriate ingest output rather than a wiki/microbiome/ primary-mechanism page.
 
 ## Wiki Pages Updated On Ingest
 

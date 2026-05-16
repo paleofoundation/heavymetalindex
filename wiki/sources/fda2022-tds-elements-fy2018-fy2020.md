@@ -6,6 +6,7 @@ authors: [U.S. Food and Drug Administration]
 year: 2022
 publication: "FDA Total Diet Study"
 source_type: gov-data
+no_doi_assigned: true
 evidence_tier: A
 raw_path: raw/reports/fda-tds-elements-fy2018-fy2020-results.csv
 pdf_path: raw/reports/fda-tds-elements-analytical-results-key-fy2018-fy2020.pdf
@@ -116,7 +117,7 @@ updated: 2026-05-03
 # FDA 2022 - TDS Elements Analytical Results FY2018-FY2020
 
 
-FDA's FY2018-FY2020 Total Diet Study elements dataset reports 29,148 analytical-result rows across 90 prepared TDS foods, 24 analytes, fiscal years 2018-2020, and calendar years 2017-2020. The accompanying FDA key defines the twelve columns in the CSV, including fiscal year, calendar year, collection, TDS food number and description, season, food-list type, region, analyte, units, concentration, and reporting limit. The raw CSV and key PDF are retained as audit artifacts, and the normalized rows are written to `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`.
+FDA's FY2018-FY2020 Total Diet Study elements dataset reports 29,148 analytical-result rows across 90 prepared TDS foods, 24 analytes, fiscal years 2018-2020, and calendar years 2017-2020. The accompanying FDA key defines the twelve columns in the CSV, including fiscal year, calendar year, collection, TDS food number and description, season, food-list type, region, analyte, units, concentration, and reporting limit. The raw CSV and key PDF are retained as audit artifacts, and the normalized rows are written to the structured evidence layer.
 
 ## Why this is critical
 
@@ -146,13 +147,13 @@ FDA's FY2018-FY2020 Total Diet Study elements dataset reports 29,148 analytical-
 
 ## Structured Data Extract
 
-- `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`: normalized row-level extract with source ID, TDS food identifiers, ingredient slug, analyte slug, metal/species where applicable, original units, original concentrations, reporting limits, and ppb-equivalent values.
-- `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`: per-food/per-analyte summary statistics using FDA-reported concentrations, including N, reported-zero count, P10/P50/P90/P95, min/max, and reporting-limit range.
-- `data/evidence/fda_tds_fy2018_2020_ingredient_routes.csv`: deterministic mapping from TDS food number and description to the ingredient page used by this ingest.
+- the structured evidence layer: normalized row-level extract with source ID, TDS food identifiers, ingredient slug, analyte slug, metal/species where applicable, original units, original concentrations, reporting limits, and ppb-equivalent values.
+- the structured evidence layer: per-food/per-analyte summary statistics using FDA-reported concentrations, including N, reported-zero count, P10/P50/P90/P95, min/max, and reporting-limit range.
+- the structured evidence layer: deterministic mapping from TDS food number and description to the ingredient page used by this ingest.
 
 ## Row routing
 
-The dataset is routed primarily to [[ingredients/index]] because the TDS foods are prepared foods and composites rather than HMTc product rows. Apple juice and grapefruit juice also update the Category 5 and Category 1 juice routing surfaces because those rows already distinguish apple-containing and non-apple juice. Reviewed juice route rows are tracked in `data/evidence/category5_tds_finished_food_occurrence_summary.csv`; they remain small-N single-food occurrence context, not HMTc aggregate threshold values. The source should not be used for brand rankings, current brand claims, or HMTc thresholds.
+The dataset is routed primarily to [[ingredients/index]] because the TDS foods are prepared foods and composites rather than HMTc product rows. Apple juice and grapefruit juice also update the Category 5 and Category 1 juice routing surfaces because those rows already distinguish apple-containing and non-apple juice. Reviewed juice route rows are tracked in the structured evidence layer; they remain small-N single-food occurrence context, not HMTc aggregate threshold values. The source should not be used for brand rankings, current brand claims, or HMTc thresholds.
 
 ## Methods (brief)
 

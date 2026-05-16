@@ -81,19 +81,19 @@ Speciation: THg in fish muscle is ≥95% MeHg per established literature (Bloom 
 
 ## Implications
 
-Certification: For HMTc Cat 1 fish-containing baby foods row + the broader fish-and-seafood row family:
+Certification: For the HMT&C certification program fish-containing baby foods row + the broader fish-and-seafood row family:
 
 1. **The Western US/Canada freshwater-fish dataset is the largest single Hg-in-fish-tissue evidence base ingested into the wiki to date**. The 30% / 17% / 3.9% exceedance fractions are key reference points for HMTc threshold-setting on the fish row, with the explicit caveat that the FDA 1.0 µg/g action level is for COMMERCIAL seafood and the EPA 0.30 µg/g criterion is the relevant standard for individual-consumption health protection.
 
-2. **MeHg ≈ THg in fish muscle** is the working assumption for HMTc threshold-derivation, consistent with EPA practice. Sources that report whole-body or visceral THg cannot be used as MeHg proxies at the same conversion factor; the methodology supplement (per CLAUDE.md Part 14 speciation rule) should flag this.
+2. **MeHg ≈ THg in fish muscle** is the working assumption for HMTc threshold-derivation, consistent with EPA practice. Sources that report whole-body or visceral THg cannot be used as MeHg proxies at the same conversion factor; the methodology supplement (speciation rule) should flag this.
 
 3. **The lack of correlation between sediment Hg and fish Hg** at the watershed scale is methodologically important: HMTc certification cannot use sediment-Hg measurements as a supplier-screening proxy for fish-product Hg. Supplier audits must measure fish-tissue directly.
 
-4. **Ecoregion effect dominates**: HMTc Cat 1 fish thresholds for products sourced from semi-arid/arid Western regions (Great Basin, Desert SW) should anticipate higher tail-of-distribution Hg than products from temperate Pacific Northwest sources. The synthesis paper explicitly demonstrates this ecoregion-level heterogeneity.
+4. **Ecoregion effect dominates**: the HMT&C certification program fish thresholds for products sourced from semi-arid/arid Western regions (Great Basin, Desert SW) should anticipate higher tail-of-distribution Hg than products from temperate Pacific Northwest sources. The synthesis paper explicitly demonstrates this ecoregion-level heterogeneity.
 
-5. **Piscivore species (e.g., largemouth bass, walleye, lake trout) carry the highest fish-Hg burdens via biomagnification**; the lower trophic-level species (e.g., bottom feeders, planktivores) carry lower burdens. HMTc Cat 1 fish-containing baby food should preferentially source from lower-trophic-level fish to control MeHg exposure.
+5. **Piscivore species (e.g., largemouth bass, walleye, lake trout) carry the highest fish-Hg burdens via biomagnification**; the lower trophic-level species (e.g., bottom feeders, planktivores) carry lower burdens. the HMT&C certification program fish-containing baby food should preferentially source from lower-trophic-level fish to control MeHg exposure.
 
-6. **Children's exposure context**: while the dataset is freshwater (sport-caught, subsistence), commercial fish baby food often uses marine species. The Western US ecoregion findings extrapolate cautiously: marine fish food chains have higher overall MeHg loads because of methylation in deep-ocean waters and species-specific bioaccumulation. The Cat 2 master page (children-personal-care isn't the right place — fish-containing baby foods Cat 1 row is) should cross-reference this dataset.
+6. **Children's exposure context**: while the dataset is freshwater (sport-caught, subsistence), commercial fish baby food often uses marine species. The Western US ecoregion findings extrapolate cautiously: marine fish food chains have higher overall MeHg loads because of methylation in deep-ocean waters and species-specific bioaccumulation. The the children's personal care category master page (children-personal-care isn't the right place — fish-containing baby foods Cat 1 row is) should cross-reference this dataset.
 
 Courses: Excellent case study for spatial epidemiology + mixed-effects modeling. The 96,310-record database + 10-ecoregion stratification is the canonical worked example.
 

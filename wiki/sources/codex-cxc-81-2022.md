@@ -36,7 +36,7 @@ Required citation per the document: "FAO and WHO. 2023. Code of practice for the
 
 License: CC BY-NC-SA 3.0 IGO. ISBN 978-92-5-137812-0 (FAO). Adopted 2022; published Rome 2023.
 
-Retrieved as PDF from FAO's Codex Standards web service via WebFetch on 2026-05-03; SHA-256 of the canonical FAO PDF is pending future ingestion when the document is added to `raw/standards/`. The agency-website reference and the document's CC license are sufficient primary-source citations for the values recorded here.
+Retrieved as PDF from FAO's Codex Standards web service via WebFetch on 2026-05-03; SHA-256 of the canonical FAO PDF is pending future ingestion when the document is added to the source archive. The agency-website reference and the document's CC license are sufficient primary-source citations for the values recorded here.
 
 ## Scope (Section 2)
 

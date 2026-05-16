@@ -11,6 +11,7 @@ evidence_tier: A
 license: public-law
 raw_path: "raw/reports/Commission Regulation (EU) 2023-915 on maximum levels for certain contaminants in food.pdf"
 access_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+no_doi_assigned: true
 related_urls:
   - "https://eur-lex.europa.eu/eli/reg/2023/915"
   - "https://food.ec.europa.eu/food-safety/chemical-safety/contaminants/legislation_en"
@@ -64,8 +65,8 @@ The full Annex I covers many contaminants. HMI extracts the rows most relevant t
 
 ## Data Files Created Or Updated
 
-- `data/evidence/regulatory_limits.csv` now carries selected EU 2023/915 maximum-level rows normalized to `ug/kg`.
-- `data/evidence/product_regulatory_crosswalk.csv` routes selected EU rows into formula, baby-food, cereal, juice, and rice-beverage product pages.
+- the structured evidence layer now carries selected EU 2023/915 maximum-level rows normalized to `ug/kg`.
+- the structured evidence layer routes selected EU rows into formula, baby-food, cereal, juice, and rice-beverage product pages.
 - [[regulations/eu2023-contaminants-maximum-levels]] is the canonical regulation hub for the extracted metal rows.
 - [[regulations/eu-2023-915-cadmium]] is the cadmium-specific ingredient/matrix page.
 
@@ -79,7 +80,7 @@ The local raw PDF is the original Official Journal version supplied for ingest. 
 - [[regulations/eu-2023-915-cadmium]]
 - [[regulations/eu2023-arsenic-rice-based-drinks]]
 - [[products/regulatory-crosswalk-field-findings]]
-- Formula product rows, baby-food product rows, cereal rows, fruit-juice rows, and rice-based plant milk rows through `data/evidence/product_regulatory_crosswalk.csv`
+- Formula product rows, baby-food product rows, cereal rows, fruit-juice rows, and rice-based plant milk rows through the structured evidence layer
 - Ingredient pages for rice, wheat, potatoes, spinach, sunflower seeds, cocoa, chocolate, fish, bivalve molluscs, wild mushrooms, and organ meats where EU 2023/915 provides matrix-specific context.
 
 ## Sources

@@ -26,7 +26,7 @@ created_by: autonomy_v0
 
 # Attard & Attard 2022 — Heavy metals in cosmetics (review)
 
-This is a comprehensive review chapter compiling published studies on lead, cadmium, nickel, mercury, and arsenic in cosmetics, with a multivariate meta-analysis across 16 cosmetic formulation categories. The headline finding: lipsticks, eye shadows, face paints, makeup foundation, and skin-lightening creams carry heavy-metal loads substantially above other facial and body products. The review documents the regulatory fragmentation across US FDA, WHO, EU, and Canadian authorities, which differ on permissible limits by an order of magnitude for several analytes. Useful as broad-scope context for any Cat 2 (Children Personal Care) row that draws on adult-cosmetic literature pending dedicated pediatric-cosmetic occurrence studies.
+This is a comprehensive review chapter compiling published studies on lead, cadmium, nickel, mercury, and arsenic in cosmetics, with a multivariate meta-analysis across 16 cosmetic formulation categories. The headline finding: lipsticks, eye shadows, face paints, makeup foundation, and skin-lightening creams carry heavy-metal loads substantially above other facial and body products. The review documents the regulatory fragmentation across US FDA, WHO, EU, and Canadian authorities, which differ on permissible limits by an order of magnitude for several analytes. Useful as broad-scope context for any the children's personal care category (Children Personal Care) row that draws on adult-cosmetic literature pending dedicated pediatric-cosmetic occurrence studies.
 
 ## Key numbers
 
@@ -57,14 +57,14 @@ Literature review and multivariate meta-analysis of studies measuring Pb, Cd, Ni
 
 ## Implications
 
-Certification: For Cat 2 (Children Personal Care), this source provides:
-- The regulatory-limit comparison across US/EU/WHO/CA that any HMTc Cat 2 threshold must reconcile against.
+Certification: For the children's personal care category (Children Personal Care), this source provides:
+- The regulatory-limit comparison across US/EU/WHO/CA that any the HMT&C certification program threshold must reconcile against.
 - Documentation that **skin-lightening creams and face paints carry the highest heavy-metal load among cosmetic categories**, which is directly relevant to certifying products intended for children where dermal absorption and accidental ingestion (face paint near mouth, lipsticks) are exposure pathways.
 - The mode-of-entry summary: dermal absorption is the primary route for Pb/Cd/Hg in topical cosmetics; the stratum corneum acts as both a barrier and a reservoir, with accumulation over repeated application. Nickel's allergic contact dermatitis risk is documented as the dominant clinical concern.
 
-Courses: Excellent overview chapter for a Cat 2 course module on cosmetic heavy-metal exposure. The metallokinetics section (absorption, distribution, metabolism, excretion via dermal route) is well-explained and citable.
+Courses: Excellent overview chapter for the children's personal care category course module on cosmetic heavy-metal exposure. The metallokinetics section (absorption, distribution, metabolism, excretion via dermal route) is well-explained and citable.
 
-App: The 16-category framework in the meta-analysis maps roughly to consumer-app product categories. Skin-lightening creams and face paints should be weighted higher than soaps/shampoos in any Cat 2 per-application risk model.
+App: The 16-category framework in the meta-analysis maps roughly to consumer-app product categories. Skin-lightening creams and face paints should be weighted higher than soaps/shampoos in any the children's personal care category per-application risk model.
 
 Microbiome: Not addressed. Cosmetic-skin-microbiome interactions are out of scope for this chapter.
 

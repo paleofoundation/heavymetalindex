@@ -24,7 +24,7 @@ updated: 2026-05-09
 
 # Sipahi et al. 2014 — Toxic and essential metals in Turkish infant formulas
 
-This A-tier peer-reviewed analytical study determines six metals (Pb, Cd, Al, Mn, Cr, Co) in 63 infant foods and formulas from 21 manufacturers acquired in Ankara, Turkey in 2006. The samples span three groups: cereal-based (n=23, single or combination of wheat/rice/corn/oats), milk-based (n=28, single or combination of milk forms — not split by soy vs non-soy in the paper), and mixed (n=12, cereals + milk + fruit + vegetables). Author scope is partial on matrix axis (groups distinguished but soy/non-soy split absent for milk-based; rice/non-rice composition not enumerated per sample for cereal-based) and partial on format axis (powder vs liquid vs reconstituted not consistently labeled). Per CLAUDE.md Part 6, this routes to multiple HMTc Category 1 subcategories at summary-level with explicit row-fit caveats. The paper concludes that metal levels in infant formulas are higher than in breast milk, supporting the recommendation that breast milk be preferred when feasible and that infant foods be regularly monitored.
+This A-tier peer-reviewed analytical study determines six metals (Pb, Cd, Al, Mn, Cr, Co) in 63 infant foods and formulas from 21 manufacturers acquired in Ankara, Turkey in 2006. The samples span three groups: cereal-based (n=23, single or combination of wheat/rice/corn/oats), milk-based (n=28, single or combination of milk forms — not split by soy vs non-soy in the paper), and mixed (n=12, cereals + milk + fruit + vegetables). Author scope is partial on matrix axis (groups distinguished but soy/non-soy split absent for milk-based; rice/non-rice composition not enumerated per sample for cereal-based) and partial on format axis (powder vs liquid vs reconstituted not consistently labeled). this routes to multiple the relevant HMT&C product taxonomy subcategories at summary-level with explicit row-fit caveats. The paper concludes that metal levels in infant formulas are higher than in breast milk, supporting the recommendation that breast milk be preferred when feasible and that infant foods be regularly monitored.
 
 ## Key Numbers (Table II — group means ± SD)
 
@@ -45,14 +45,14 @@ This A-tier peer-reviewed analytical study determines six metals (Pb, Cd, Al, Mn
 
 ## Routing to HMTc subcategories
 
-| Subcategory | Route | n_a_tier impact |
+| Subcategory | Route | evidence-pool impact |
 | --- | --- | --- |
-| [[products/infant-formula-powder-non-soy]] | Indirect: milk-based n=28 not split by soy/non-soy or by powder/RTF format. Per Part 6, the milk-based group routes to non-soy by default (soy is the comparator and would have been called out separately if measured). Format axis unresolved. | Adds n_a_tier=1 (already at n_a_tier=5+ for Pb/Cd/Al cells; Sipahi brings to n_a_tier=6+). Confidence stays medium. |
-| [[products/infant-formula-rtf-liquid-non-soy]] | Same as above; Sipahi did not distinguish powder vs liquid formula format. | Adds n_a_tier=1 to existing n_a_tier=2 (Hernandez 2019 + Saraiva 2021); brings to n_a_tier=3 (medium confidence per Part 6). **Approaches the readiness bar for Pb/Cd cells.** |
-| [[products/baby-cereals-dry-rice-based]] | Indirect: cereal-based n=23 includes rice in single or combination compositions; specific rice-containing subset count not enumerated. Per FDA 2016 multigrain-with-rice convention, the n=23 cereal-based group is broad-cereal context for both rice and non-rice cereal cells. | Adds n_a_tier=1 to existing Pb/Cd/Al cells. |
-| [[products/baby-cereals-dry-non-rice]] | Same as above; n=23 cereal-based covers non-rice grains too. | Adds n_a_tier=1. |
-| [[products/mixed-meals-rice-containing]] | Indirect: mixed n=12 (cereals + milk + fruit + vegetables); rice-containing status not enumerated. Broad mixed-meal context. | Adds n_a_tier=1 to existing Pb/Cd/tAs (was Path A thin n_a_tier=1; now n_a_tier=2). |
-| [[products/mixed-meals-non-rice]] | Same as above. | Adds n_a_tier=1. |
+| [[products/infant-formula-powder-non-soy]] | Indirect: milk-based n=28 not split by soy/non-soy or by powder/RTF format. Per Part 6, the milk-based group routes to non-soy by default (soy is the comparator and would have been called out separately if measured). Format axis unresolved. | Adds evidence pool=1 (already at evidence pool=5+ for Pb/Cd/Al cells; Sipahi brings to evidence pool=6+). Confidence stays medium. |
+| [[products/infant-formula-rtf-liquid-non-soy]] | Same as above; Sipahi did not distinguish powder vs liquid formula format. | Adds evidence pool=1 to existing evidence pool=2 (Hernandez 2019 + Saraiva 2021); brings to evidence pool=3 (medium confidence per Part 6). **Approaches the readiness bar for Pb/Cd cells.** |
+| [[products/baby-cereals-dry-rice-based]] | Indirect: cereal-based n=23 includes rice in single or combination compositions; specific rice-containing subset count not enumerated. Per FDA 2016 multigrain-with-rice convention, the n=23 cereal-based group is broad-cereal context for both rice and non-rice cereal cells. | Adds evidence pool=1 to existing Pb/Cd/Al cells. |
+| [[products/baby-cereals-dry-non-rice]] | Same as above; n=23 cereal-based covers non-rice grains too. | Adds evidence pool=1. |
+| [[products/mixed-meals-rice-containing]] | Indirect: mixed n=12 (cereals + milk + fruit + vegetables); rice-containing status not enumerated. Broad mixed-meal context. | Adds evidence pool=1 to existing Pb/Cd/tAs (was Path A thin evidence pool=1; now evidence pool=2). |
+| [[products/mixed-meals-non-rice]] | Same as above. | Adds evidence pool=1. |
 
 ## Geographic-context flag
 
@@ -79,7 +79,7 @@ EF-3 limited evidence — group means ± SD with min/max range, but no per-sampl
 
 ## Implications
 
-Certification: Adds n_a_tier breadth to multiple Pb, Cd, Al cells across milk-based formula, cereal-based, and mixed-meal subcategories. Particularly impactful for the milk-based RTF formula cells (was n_a_tier=2 with Hernandez + Saraiva for Cr-VI specifically; Sipahi adds Pb/Cd/Al at n_a_tier=3, satisfying medium-confidence readiness for those cells). Geographic context (Turkish 2006 market) provides triangulation against the dominant U.S./EU/Brazilian sources but should not be silently merged without jurisdiction labeling.
+Certification: Adds evidence pool breadth to multiple Pb, Cd, Al cells across milk-based formula, cereal-based, and mixed-meal subcategories. Particularly impactful for the milk-based RTF formula cells (was evidence pool=2 with Hernandez + Saraiva for Cr-VI specifically; Sipahi adds Pb/Cd/Al at evidence pool=3, satisfying medium-confidence readiness for those cells). Geographic context (Turkish 2006 market) provides triangulation against the dominant U.S./EU/Brazilian sources but should not be silently merged without jurisdiction labeling.
 
 Courses: Useful for teaching the geographic-variation-in-infant-formula story (Turkish > U.S. on Pb by 10× at this sample year) and the importance of metal speciation (Cr total reported here, but Cr(VI) speciation needs Hernandez 2019 / Saraiva 2021 to interpret).
 
@@ -89,7 +89,7 @@ Microbiome: No direct microbiome endpoint.
 
 ## Provenance Notes
 
-Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/external-fetch/2014_Sipahi_TurkishJPediatric.pdf`. Published in *The Turkish Journal of Pediatrics* (open online journal but article-level access varies).
+Karen externally fetched this paper on 2026-05-09 and dropped it at the source archive. Published in *The Turkish Journal of Pediatrics* (open online journal but article-level access varies).
 
 ## Wiki Pages Updated On Ingest
 

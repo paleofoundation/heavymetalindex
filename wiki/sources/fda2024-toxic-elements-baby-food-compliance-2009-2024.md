@@ -11,6 +11,7 @@ evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/TEP-AsPbCdHg-TEP-FY2009-FY2024-12162024.pdf"
 access_url: "https://www.fda.gov/media/164564/download?attachment="
+no_doi_assigned: true
 raw_sha256: "2a295ce054da90d9be2a93a81830840f599c91bfb076b5f04a0a85dba5c055fb"
 metals: [tAs, Pb, Cd, tHg]
 products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, fruit-purees, non-root-vegetable-purees, root-vegetable-purees, mixed-meals-non-rice, mixed-meals-rice-containing, teething-and-snacks-rice-based]
@@ -33,10 +34,10 @@ This source does not cover infant formula, fruit juice, fish-containing baby foo
 
 ## Extracted Files
 
-- `data/evidence/category1_fda_baby_food_compliance_samples.csv`: 1,944 parsed sample/analyte rows.
-- `data/evidence/category1_fda_baby_food_compliance_summary.csv`: 39 row/product/analyte summary records.
-- `data/evidence/values.jsonl`: 39 machine-extracted value records with prefix `category1-fda-baby-food-compliance-`.
-- `data/evidence/sources.jsonl`: source metadata record for this PDF.
+- the structured evidence layer: 1,944 parsed sample/analyte rows.
+- the structured evidence layer: 39 row/product/analyte summary records.
+- the structured evidence layer: 39 machine-extracted value records with prefix `category1-fda-baby-food-compliance-`.
+- the structured evidence layer: source metadata record for this PDF.
 
 ## Source Tables
 

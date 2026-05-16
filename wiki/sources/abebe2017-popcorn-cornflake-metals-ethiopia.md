@@ -75,13 +75,13 @@ Speciation: Total metals only.
 
 ## Implications
 
-Certification: For HMTc Cat 1 / Cat 3 grain product rows + the Ethiopian regional context:
+Certification: For the HMT&C certification program / Cat 3 grain product rows + the Ethiopian regional context:
 
-1. **Ethiopian popcorn carries notably elevated Pb** (~1 mg/kg, 5-9x EU ceiling). This is a regional sourcing concern but maize is a global ingredient; HMTc Cat 1 corn-flake-based and popcorn-based baby snacks should require origin-country audits and supplier COA testing.
+1. **Ethiopian popcorn carries notably elevated Pb** (~1 mg/kg, 5-9x EU ceiling). This is a regional sourcing concern but maize is a global ingredient; the HMT&C certification program corn-flake-based and popcorn-based baby snacks should require origin-country audits and supplier COA testing.
 
 2. **Cd and Ni were below detection** in both products. This is a cleaner Cd-and-Ni baseline than other commodity surveys have shown. May reflect East African geology (not naturally Cd-rich), Ethiopian agricultural practices (low phosphate-fertilizer Cd input vs other regions), or sampling fortune.
 
-3. **Cornflakes processing reduces most metal contents but elevates Na/Ca/Cu** via salt addition, hard water, and metallic-contact contamination. HMTc Cat 1 cornflake-based baby cereal certification should track this processing-induced metal-load shift.
+3. **Cornflakes processing reduces most metal contents but elevates Na/Ca/Cu** via salt addition, hard water, and metallic-contact contamination. the HMT&C certification program cornflake-based baby cereal certification should track this processing-induced metal-load shift.
 
 4. **B-tier evidence**: regional journal, no DOI, small sample size (n=8). Useful as a corroborative source but not a load-bearing primary reference for HMTc threshold-setting. Higher-tier corn / cornflake / popcorn references should be sought.
 

@@ -26,7 +26,7 @@ created_by: claude_opus_47_session
 
 # Garofalo et al. 2025 — 10-year Italian seafood Cd/Pb/Hg compliance monitoring
 
-This study reports 10 years (2014-2023) of regulatory compliance monitoring on seafood by the Italian Istituto Zooprofilattico Sperimentale del Lazio e della Toscana (IZSLT), analyzing 5,854 samples / 9,809 chemical analyses for cadmium, lead, and total mercury against EU 2023/915 maximum levels. **142 samples (2.43%) were non-compliant.** Cadmium exceedances concentrate in cephalopods (n=17, mainly squids). Mercury exceedances concentrate in marine fish (n=118), with the highest non-compliance rates in **swordfish (11.30%)**, **sharks (6.48%)**, and **tuna species (3.11%)** — the top predators where biomagnification is highest. Lead exceedances are rare (one bivalve sample). The 10-year trend data and the per-species predator-level exceedance fractions are the most useful contributions for HMTc Cat 1 seafood threshold-setting; the regulatory framework is EU 2023/915 (which superseded EC 1881/2006).
+This study reports 10 years (2014-2023) of regulatory compliance monitoring on seafood by the Italian Istituto Zooprofilattico Sperimentale del Lazio e della Toscana (IZSLT), analyzing 5,854 samples / 9,809 chemical analyses for cadmium, lead, and total mercury against EU 2023/915 maximum levels. **142 samples (2.43%) were non-compliant.** Cadmium exceedances concentrate in cephalopods (n=17, mainly squids). Mercury exceedances concentrate in marine fish (n=118), with the highest non-compliance rates in **swordfish (11.30%)**, **sharks (6.48%)**, and **tuna species (3.11%)** — the top predators where biomagnification is highest. Lead exceedances are rare (one bivalve sample). The 10-year trend data and the per-species predator-level exceedance fractions are the most useful contributions for the HMT&C certification program seafood threshold-setting; the regulatory framework is EU 2023/915 (which superseded EC 1881/2006).
 
 ## Key numbers
 
@@ -77,17 +77,17 @@ Speciation: Total Hg by ICP-MS (note: not CVAAS). For seafood muscle, THg ≈ Me
 
 ## Implications
 
-Certification: For HMTc Cat 1 seafood + fish-containing baby foods row:
+Certification: For the HMT&C certification program seafood + fish-containing baby foods row:
 
-1. **Marine top predators (swordfish, sharks, tuna) are the binding Hg-non-compliance risk** at the 1.0 mg/kg EU ceiling. HMTc Cat 1 fish-containing baby food certification can either (a) preclude these species from baby-food formulations (most defensible) or (b) require species-specific testing at every lot. The 11.3% non-compliance rate in swordfish alone makes single-lot certification insufficient.
+1. **Marine top predators (swordfish, sharks, tuna) are the binding Hg-non-compliance risk** at the 1.0 mg/kg EU ceiling. the HMT&C certification program fish-containing baby food certification can either (a) preclude these species from baby-food formulations (most defensible) or (b) require species-specific testing at every lot. The 11.3% non-compliance rate in swordfish alone makes single-lot certification insufficient.
 
 2. **Cephalopod Cd contamination** is a Cat 1 concern for any product using squid, octopus, or cuttlefish (rare in baby food but present in some toddler meal formulations and ethnic baby foods). The 17 of 1,536 cephalopod sample exceedances (~1.1%) is a real signal.
 
-3. **The "frequent intake of marine top predators raises concerns for vulnerable populations" finding** aligns with EPA/FDA advice for pregnant women and children to limit swordfish/shark/tilefish/king mackerel consumption. HMTc Cat 1 framing should reference this explicitly when comparing fish-containing baby food vs the non-fish baby food contamination platform.
+3. **The "frequent intake of marine top predators raises concerns for vulnerable populations" finding** aligns with EPA/FDA advice for pregnant women and children to limit swordfish/shark/tilefish/king mackerel consumption. the HMT&C certification program framing should reference this explicitly when comparing fish-containing baby food vs the non-fish baby food contamination platform.
 
 4. **10-year trend data**: the paper's Figure 2 shows analyses-per-year and per-sampling-plan-type over 2014-2023. Aggregate non-compliance trend (not detailed in the pages read) would inform whether EU seafood contamination is improving or stable over the decade. The wiki's Cat 1 fish-row trend assessment should pull this.
 
-5. **The EU 2023/915 replaces EC 1881/2006**: regulation pages need updating to the new framework. HMTc Cat 1 thresholds should reference EU 2023/915.
+5. **The EU 2023/915 replaces EC 1881/2006**: regulation pages need updating to the new framework. the HMT&C certification program thresholds should reference EU 2023/915.
 
 Courses: Excellent case study for 10-year regulatory compliance monitoring. The IZSLT methodology (HACCP + import + processing + production sampling plans aggregated) is a model for multi-stakeholder food-safety surveillance.
 

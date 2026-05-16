@@ -11,6 +11,7 @@ evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/toxic_element_infant_formula_prepared_for_posting_20260324.pdf"
 access_url: "https://www.fda.gov/media/192124/download?attachment="
+no_doi_assigned: true
 raw_sha256: "928429d5c42e7d71ab08f1c2608ee8eac9e0d34df13b4111b3c20f167ed330d0"
 metals: [tAs, Pb, Cd, tHg]
 products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
@@ -35,10 +36,10 @@ The structured ingest now keeps all 1,248 sample/analyte rows. Four FDA labels m
 
 ## Extracted Files
 
-- `data/evidence/category1_formula_special_survey_samples.csv` — 1,248 sample/analyte rows with product-label mapping and `row_fit` notes.
-- `data/evidence/category1_formula_concentration_summary.csv` — 45 formula summary rows: 28 FDA lower-bound p-value rows plus 17 Digest paper summary/range rows.
-- `data/evidence/values.jsonl` — machine-extracted value records under prefix `category1-formula-digest-`.
-- `data/evidence/sources.jsonl` — source metadata record for this FDA PDF.
+- the structured evidence layer — 1,248 sample/analyte rows with product-label mapping and `row_fit` notes.
+- the structured evidence layer — 45 formula summary rows: 28 FDA lower-bound p-value rows plus 17 Digest paper summary/range rows.
+- the structured evidence layer — machine-extracted value records under prefix `category1-formula-digest-`.
+- the structured evidence layer — source metadata record for this FDA PDF.
 
 ## FDA Source Tables Ingested
 
@@ -164,4 +165,4 @@ Microbiome: No direct microbiome endpoint.
 - [[products/infant-formula-rtf-liquid-soy-based]]
 - [[products/infant-formula-concentrated-liquid-non-soy]]
 - [[products/infant-formula-concentrated-liquid-soy-based]]
-- `raw/Digest/INGESTED.md`
+- the source archive

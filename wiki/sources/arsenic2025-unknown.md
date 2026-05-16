@@ -81,7 +81,7 @@ Sample digestion: 1.0 g rice + 10 mL 0.2 % (v/v) HNO₃, two 5 mL aliquots, vort
 
 Certification: For HMTc rice-containing baby-food rows (baby-cereals-dry-rice-based, mixed-meals-rice-containing, infant-cereal), this paper supports the literature evidence that iAs in commercial rice routinely exceeds the EU 2023 infant-food limit (0.010 mg/kg) by 10-30x in regions without dedicated low-iAs sourcing. The four EU-exceeding samples in this dataset are evidence that even the (more permissive) general-rice EU limits (0.150 / 0.250 mg/kg) catch some commercial rice. HMTc thresholds for rice-based infant cereal should anchor on the FDA 100 ppb infant-rice-cereal action level (FDA Closer-to-Zero), not on the higher general-rice EU limits.
 
-The risk assessment using USEPA 2025 revised toxicology values (RfD 6×10⁻⁵; CSF 32) is particularly important: it shows that earlier risk assessments using the older RfD (3×10⁻⁴) and CSF (1.5) underestimate child iAs risk by approximately 5-20x. HMTc Cat 1 standards briefings should reference the revised values, not the legacy ones.
+The risk assessment using USEPA 2025 revised toxicology values (RfD 6×10⁻⁵; CSF 32) is particularly important: it shows that earlier risk assessments using the older RfD (3×10⁻⁴) and CSF (1.5) underestimate child iAs risk by approximately 5-20x. the HMT&C certification program standards briefings should reference the revised values, not the legacy ones.
 
 Courses: Excellent case study for an HPLC-ICP-MS speciation methods module. The MMA-recovery anomaly is a teachable troubleshooting example.
 

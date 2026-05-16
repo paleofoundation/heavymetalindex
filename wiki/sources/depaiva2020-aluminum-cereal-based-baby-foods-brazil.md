@@ -23,7 +23,7 @@ updated: 2026-05-09
 
 # de Paiva et al. 2020 — Aluminum in cereal-based baby foods (Brazil)
 
-This A-tier peer-reviewed analytical study determines total aluminum and its in vitro bioaccessibility in 35 cereal-based infant cereal samples from the Brazilian market across six product compositions and three brands. Total Al varied from 0.92 mg/kg (corn-flour cereal, brand A) to 8.82 mg/kg (multicereal, brand-aggregated), with multicereals and fruit-plum cereals presenting the highest concentrations and corn-flour and rice-flour cereals the lowest. Bioaccessibility ranged 1.5–10.4% across compositions. Author scope is exact on matrix axis (six compositions explicitly labeled by ingredient mix) and exact on format axis (dry infant cereal as sold; bioaccessibility separately reported with whole-milk reconstitution per manufacturer instructions). Per the corrected row-fit rule (CLAUDE.md Part 6), de Paiva 2020 routes to both [[products/baby-cereals-dry-rice-based]] (the five rice-containing compositions: multicereals, fruit-banana-apple, fruit-plum, rice-and-oat, rice-flour) and [[products/baby-cereals-dry-non-rice]] (corn-flour-only composition).
+This A-tier peer-reviewed analytical study determines total aluminum and its in vitro bioaccessibility in 35 cereal-based infant cereal samples from the Brazilian market across six product compositions and three brands. Total Al varied from 0.92 mg/kg (corn-flour cereal, brand A) to 8.82 mg/kg (multicereal, brand-aggregated), with multicereals and fruit-plum cereals presenting the highest concentrations and corn-flour and rice-flour cereals the lowest. Bioaccessibility ranged 1.5–10.4% across compositions. Author scope is exact on matrix axis (six compositions explicitly labeled by ingredient mix) and exact on format axis (dry infant cereal as sold; bioaccessibility separately reported with whole-milk reconstitution per manufacturer instructions). Per the corrected row-fit rule, de Paiva 2020 routes to both [[products/baby-cereals-dry-rice-based]] (the five rice-containing compositions: multicereals, fruit-banana-apple, fruit-plum, rice-and-oat, rice-flour) and [[products/baby-cereals-dry-non-rice]] (corn-flour-only composition).
 
 ## Key Numbers
 
@@ -62,10 +62,10 @@ In vitro bioaccessible Al fractions (post gastrointestinal digestion model with 
 
 ## Routing to HMTc subcategories
 
-| Subcategory | Route | n_a_tier impact |
+| Subcategory | Route | evidence-pool impact |
 | --- | --- | --- |
-| [[products/baby-cereals-dry-rice-based]] | Direct: 5 of 6 product compositions contain rice flour (multicereals, fruit-banana-apple, fruit-plum, rice-flour-oat, rice-flour). 11 brand×composition group means aggregate to n=29 samples. | Closes Al-in-rice-cereal cell from data gap to Path A; combined with [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]] broad cereal Al (n=17 mean 630 max 3810 ppb) gives n_a_tier=2 summary-level evidence. |
-| [[products/baby-cereals-dry-non-rice]] | Direct: corn-flour composition (n=6, 2 brand group means). | Closes Al-in-non-rice-cereal cell from data gap to Path A thin (n_a_tier=1 with Chekri 2019; n=6 below defensibility floor for absolute readiness). |
+| [[products/baby-cereals-dry-rice-based]] | Direct: 5 of 6 product compositions contain rice flour (multicereals, fruit-banana-apple, fruit-plum, rice-flour-oat, rice-flour). 11 brand×composition group means aggregate to n=29 samples. | Closes Al-in-rice-cereal cell from data gap to Path A; combined with [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]] broad cereal Al (n=17 mean 630 max 3810 ppb) gives evidence pool=2 summary-level evidence. |
+| [[products/baby-cereals-dry-non-rice]] | Direct: corn-flour composition (n=6, 2 brand group means). | Closes Al-in-non-rice-cereal cell from data gap to Path A thin (evidence pool=1 with Chekri 2019; n=6 below defensibility floor for absolute readiness). |
 
 ## Geographic-context flag
 
@@ -85,13 +85,13 @@ EF-2 reconstructable A-tier evidence at the brand × composition group-mean leve
 
 - Only total Al reported; no per-sample distribution. Sample-level percentile pooling for rice-based and non-rice subcategories not feasible from this paper alone.
 - 35-sample total reflects 3 brands × 6 compositions × 2-3 batches per cell; brand-bias possible if one brand dominates a composition.
-- "Multicereals" composition includes wheat, rice, corn, oatmeal, barley flours — routing to rice-based subcategory uses the rice-presence rule per HMTc Category 1 architecture; some readers may prefer routing to a "mixed-grain" subcategory if HMTc later adds one.
+- "Multicereals" composition includes wheat, rice, corn, oatmeal, barley flours — routing to rice-based subcategory uses the rice-presence rule per the relevant HMT&C product taxonomy architecture; some readers may prefer routing to a "mixed-grain" subcategory if HMTc later adds one.
 - Bioaccessibility 1.5-10.4% is much lower than the unbioaccessible-corrected total; if HMTc adopts bioaccessibility as a normalization, the actual ingested Al dose is 10-100× lower than the total-Al value.
 - Brazilian-market focus; geographic applicability to U.S./EU markets requires explicit jurisdiction labeling.
 
 ## Implications
 
-Certification: Direct A-tier summary-level evidence for Al in rice-based cereal (n=29 across 11 brand × composition group means; weighted mean ~3920 ppb) and non-rice cereal (n=6 across 2 group means, range 1170-4650 ppb). Combined with Chekri 2019 (French TDS broad cereal Al), the Al-rice-cereal cell now has n_a_tier=2 summary-level evidence; Al-non-rice-cereal cell n_a_tier=2 summary. Rice-based aggregate Al p90 estimate (informal) ~6500-7000 ppb based on the upper group means; cleaner percentile pooling awaits per-batch sample-level data. Bioaccessibility 1.5-10.4% is a critical risk-modifier for HMTc threshold-setting — total-Al-only thresholds may overstate health risk by 10-50×.
+Certification: Direct A-tier summary-level evidence for Al in rice-based cereal (n=29 across 11 brand × composition group means; weighted mean ~3920 ppb) and non-rice cereal (n=6 across 2 group means, range 1170-4650 ppb). Combined with Chekri 2019 (French TDS broad cereal Al), the Al-rice-cereal cell now has evidence pool=2 summary-level evidence; Al-non-rice-cereal cell evidence pool=2 summary. Rice-based aggregate Al p90 estimate (informal) ~6500-7000 ppb based on the upper group means; cleaner percentile pooling awaits per-batch sample-level data. Bioaccessibility 1.5-10.4% is a critical risk-modifier for HMTc threshold-setting — total-Al-only thresholds may overstate health risk by 10-50×.
 
 Courses: Useful illustration of bioaccessibility's modulating effect on heavy-metal exposure assessment, and of geographic variation in baby-cereal Al (Brazilian multicereals 7-8 mg/kg vs French TDS broad cereal mean 0.63 mg/kg).
 
@@ -101,7 +101,7 @@ Microbiome: No direct microbiome endpoint, though the authors discuss antinutrit
 
 ## Provenance Notes
 
-Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/external-fetch/depaiva2020.pdf`. The paper was substituted from the wishlist's Al-baby-cereal slot (originally Filippini 2020 PMID 32247442 was queued; de Paiva 2020 covers the same gap with Brazilian instead of European data). Published in *Food Research International* under standard Elsevier paywall; author-shared copy used internally only. Wiki cites the article record (DOI 10.1016/j.foodres.2019.108965).
+Karen externally fetched this paper on 2026-05-09 and dropped it at the source archive. The paper was substituted from the wishlist's Al-baby-cereal slot (originally Filippini 2020 PMID 32247442 was queued; de Paiva 2020 covers the same gap with Brazilian instead of European data). Published in *Food Research International* under standard Elsevier paywall; author-shared copy used internally only. Wiki cites the article record (DOI 10.1016/j.foodres.2019.108965).
 
 ## Wiki Pages Updated On Ingest
 

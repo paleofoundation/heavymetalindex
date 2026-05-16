@@ -6,6 +6,7 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2024
 publication: "FDA analytical results table"
 source_type: government_dataset
+no_doi_assigned: true
 evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/leadinfood-babiesyoungchildren-fy2023-12302024.pdf"
@@ -35,7 +36,7 @@ Samples were collected by FDA in fiscal year 2023 under surveys of processed foo
 
 ## Limitations
 
-The published table covers only the samples used in guidance development; the broader FY2023 survey is not fully published in this particular document. Per-product-row aggregation and benchmark-pool admission decisions depend on a per-sample mapping from the FDA category labels to HMTc Category 1 rows; this mapping has not yet been encoded as structured evidence and remains a near-term ingest task.
+The published table covers only the samples used in guidance development; the broader FY2023 survey is not fully published in this particular document. Per-product-row aggregation and benchmark-pool admission decisions depend on a per-sample mapping from the FDA category labels to the relevant HMT&C product taxonomy rows; this mapping has not yet been encoded as structured evidence and remains a near-term ingest task.
 
 ## Implications
 

@@ -53,7 +53,7 @@ Analytical method, speciation status, sample preparation, LOD/LOQ. Flag limitati
 
 ## Provenance notes
 
-Anything unusual about retrieval, hash verification, license, or document versioning. If this is a licensed-private document, note the private-hold posture and the auditor access process (see `raw/README.md`). If this source has been superseded or is likely to be, note that here.
+Anything unusual about retrieval, hash verification, license, or document versioning. If this is a licensed-private document, note the private-hold posture and the auditor access process (see the source archive). If this source has been superseded or is likely to be, note that here.
 
 ## Wiki pages updated on ingest
 

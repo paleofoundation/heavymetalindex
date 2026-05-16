@@ -32,7 +32,7 @@ updated: 2026-04-30
 | Book | Casarett & Doull's Essentials of Toxicology, Fourth Edition |
 | Authors | Alexander C. Ufelle and Aaron Barchowsky |
 | Publisher / year | McGraw Hill Education, 2021 |
-| Raw file | `raw/textbooks/Casarett & Doull's Essentials of Toxicology.pdf` |
+| Raw file | the source archive |
 | Raw SHA-256 | `9bafeb78d24f52441e7611135abd5abc0a7fe310fe56fc3eade5ff560d02368b` |
 | License treatment | `copyright-licensed-private`; this page paraphrases facts and preserves short headings only. |
 | Re-ingest reason | Earlier source page over-weighted cadmium. This re-ingest restores the chapter-level metal map, connects the source to existing metal/species nodes, and creates source-map stubs where the chapter names metals without existing pages. |
@@ -184,7 +184,7 @@ The chapter lists [[metals/antimony]], [[metals/barium]], [[metals/cesium]], [[m
 
 ## Provenance Notes
 
-License class `copyright-licensed-private`. Casarett & Doull's Essentials of Toxicology is a copyrighted McGraw Hill publication; the raw PDF is held privately under `raw/textbooks/` and is not redistributed. This source page uses paraphrase, short headings, and citation-level facts only.
+License class `copyright-licensed-private`. Casarett & Doull's Essentials of Toxicology is a copyrighted McGraw Hill publication; the raw PDF is held privately under the source archive and is not redistributed. This source page uses paraphrase, short headings, and citation-level facts only.
 
 ## Wiki Pages Updated On Re-Ingest
 

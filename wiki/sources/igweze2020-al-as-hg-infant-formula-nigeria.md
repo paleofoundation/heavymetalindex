@@ -25,7 +25,7 @@ updated: 2026-05-09
 
 # Igweze et al. 2020 — Al, As, and Hg in Infant Formulas Marketed in Nigeria
 
-This A-tier peer-reviewed paper measures aluminium, total arsenic, and total mercury in 26 infant formula samples acquired in Nigeria in March 2017. The samples span three formula types: milk-based (M, n=9), cereal-based (C, n=7), and corn-meal (CM, n=10) per the paper's groupings. Author scope is exact on matrix axis for the milk-based subset (M1–M9, milk-based formulas) but the paper does not explicitly distinguish soy-based formulas within the M-group; the cereal-based and corn-meal groups are not standard HMTc Category 1 product rows and require curator review for routing. Atomic absorption spectrophotometry was used; samples were acid-digested.
+This A-tier peer-reviewed paper measures aluminium, total arsenic, and total mercury in 26 infant formula samples acquired in Nigeria in March 2017. The samples span three formula types: milk-based (M, n=9), cereal-based (C, n=7), and corn-meal (CM, n=10) per the paper's groupings. Author scope is exact on matrix axis for the milk-based subset (M1–M9, milk-based formulas) but the paper does not explicitly distinguish soy-based formulas within the M-group; the cereal-based and corn-meal groups are not standard the relevant HMT&C product taxonomy product rows and require curator review for routing. Atomic absorption spectrophotometry was used; samples were acid-digested.
 
 ## Key Numbers
 
@@ -37,11 +37,11 @@ Table 2 group means (mg/kg = ppm; convert to ppb by ×1000):
 | Cereal-based (C1–C7) | 7 | 1520 ± 600 ppb (410-2350) | 680 ± 670 ppb (80-1560) | 10 ± 0 ppb (0-10) |
 | Corn-meal (CM1–CM10) | 10 | 1170 ± 560 ppb (450-2070) | 460 ± 520 ppb (20-1320) | 10 ± 10 ppb (0-30) |
 
-Per-sample Table 1 data is in the JATS XML at `raw/external-fetch/2026-05-09/igweze2020-al-as-hg-infant-formula-paediatric-risk.jats.xml`; sample-level CSV extraction is a follow-up task.
+Per-sample Table 1 data is in the JATS XML at the source archive; sample-level CSV extraction is a follow-up task.
 
 ## Geographic-context flag
 
-The Nigerian-market tAs values (milk-based mean 330 ppb, cereal-based 680 ppb) are substantially higher than U.S. FDA 2026 prepared-for-feeding milk-based powder tAs (p90 1.3 ppb). This is consistent with regional water-quality and sourcing differences in Nigerian markets and should not be silently merged with U.S. or EU formula tAs distributions without explicit jurisdiction labeling per CLAUDE.md Part 6. The Al values (1170-1700 ppb) are within the same order of magnitude as European cow-milk powder ranges (Almeida 2022 432-1241 ppb; Burrell 2010 446.8 mean) and provide useful triangulation.
+The Nigerian-market tAs values (milk-based mean 330 ppb, cereal-based 680 ppb) are substantially higher than U.S. FDA 2026 prepared-for-feeding milk-based powder tAs (p90 1.3 ppb). This is consistent with regional water-quality and sourcing differences in Nigerian markets and should not be silently merged with U.S. or EU formula tAs distributions without explicit jurisdiction labeling per the program governance framework. The Al values (1170-1700 ppb) are within the same order of magnitude as European cow-milk powder ranges (Almeida 2022 432-1241 ppb; Burrell 2010 446.8 mean) and provide useful triangulation.
 
 ## Evidence Fitness
 
@@ -51,13 +51,13 @@ EF-3 limited/reconstructable A-tier evidence. The data table reports group means
 
 - Sample size is moderate (n=26) but distributed across three groups (n=7-10 each).
 - The "milk-based" subset (M-group) is not split by soy vs non-soy; per the paper's product description, M-group is dairy/cow-milk milk powder formulas, so for HMTc routing the M-group rows should be treated as non-soy by default.
-- "Corn-meal" group (CM) is not a standard HMTc Category 1 product row; closest fit is non-rice baby cereal but corn-meal is a distinct format. Curator review needed before routing to a specific product page.
+- "Corn-meal" group (CM) is not a standard the relevant HMT&C product taxonomy product row; closest fit is non-rice baby cereal but corn-meal is a distinct format. Curator review needed before routing to a specific product page.
 - AAS detection limit not extracted in this initial ingest; impact on lower-bound percentile treatment requires checking the paper's Materials and Methods section.
 - Imported vs locally-manufactured products are mixed within each group; a brand-by-brand split is not pursued in this ingest (HMTc avoids brand-level data per Part 12).
 
 ## Implications
 
-Certification: Direct A-tier sample-level evidence for Al in milk-based powdered infant formula (Nigerian market, n=9) and provides Nigerian-market tAs and tHg context. Combined with the existing 5+ A-tier sources for Al in milk-based powder (Dabeka 2011, Kazi 2009, Almeida 2022, Burrell 2010, Chuchu 2013), Igweze 2020 brings the Al cell n_a_tier to 6 — clearly at the readiness bar with medium confidence per Part 6 if jurisdiction-mixed aggregation is permitted (Part 6 explicitly allows global aggregation with jurisdiction labeling).
+Certification: Direct A-tier sample-level evidence for Al in milk-based powdered infant formula (Nigerian market, n=9) and provides Nigerian-market tAs and tHg context. Combined with the existing 5+ A-tier sources for Al in milk-based powder (Dabeka 2011, Kazi 2009, Almeida 2022, Burrell 2010, Chuchu 2013), Igweze 2020 brings the Al cell evidence pool to 6 — clearly at the readiness bar with medium confidence per Part 6 if jurisdiction-mixed aggregation is permitted (Part 6 explicitly allows global aggregation with jurisdiction labeling).
 
 Courses: Useful illustration of geographic variation (Nigerian Pb/As/Hg vs U.S. data) and a reminder that locally-procured formulas in Africa, Asia, and Latin America may have different contamination profiles than the FDA-monitored U.S. supply.
 
@@ -67,7 +67,7 @@ Microbiome: No direct microbiome endpoint.
 
 ## Provenance Notes
 
-This source was acquired during the 2026-05-09 autonomous run via NCBI EFetch JATS XML for PMC7065688 (CC BY-ND license per PMC OA bulk API). The JATS XML is preserved at `raw/external-fetch/2026-05-09/igweze2020-al-as-hg-infant-formula-paediatric-risk.jats.xml`. PDF was not directly fetched (PMC HTML interstitial blocks direct download). Initial wishlist entry incorrectly labeled this as "Al-Saleh 2020"; the actual first author is Igweze ZN (Nigerian-market study, not Saudi). Wishlist updated.
+This source was acquired during the 2026-05-09 autonomous run via NCBI EFetch JATS XML for PMC7065688 (CC BY-ND license per PMC OA bulk API). The JATS XML is preserved at the source archive. PDF was not directly fetched (PMC HTML interstitial blocks direct download). Initial wishlist entry incorrectly labeled this as "Al-Saleh 2020"; the actual first author is Igweze ZN (Nigerian-market study, not Saudi). Wishlist updated.
 
 ## Wiki Pages Updated On Ingest
 

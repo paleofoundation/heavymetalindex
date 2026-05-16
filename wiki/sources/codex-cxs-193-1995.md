@@ -115,7 +115,7 @@ Related codes of practice: CXC 56-2004 (Prevention and reduction of lead contami
 
 ## Provenance notes
 
-License `public-redistribute`. Codex Alimentarius standards are released by FAO/WHO under terms permitting reproduction with attribution; the standard is freely accessible on FAO's website at the canonical URL. The PDF was retrieved from the FAO Codex web service via WebFetch on 2026-04-25; SHA-256 of the canonical FAO PDF is pending future ingestion when the document is added to `raw/standards/`. The agency-website reference and the JECFA-referenced values within the standard are sufficient primary-source citations for the values recorded here.
+License `public-redistribute`. Codex Alimentarius standards are released by FAO/WHO under terms permitting reproduction with attribution; the standard is freely accessible on FAO's website at the canonical URL. The PDF was retrieved from the FAO Codex web service via WebFetch on 2026-04-25; SHA-256 of the canonical FAO PDF is pending future ingestion when the document is added to the source archive. The agency-website reference and the JECFA-referenced values within the standard are sufficient primary-source citations for the values recorded here.
 
 The standard is periodically amended. The values in this source page reflect the standard inclusive of CCCF17 2024 amendments (notably the new quinoa Cd ML of 0.15 mg/kg and the new quinoa Pb ML of 0.2 mg/kg, both reflected in the current standard).
 

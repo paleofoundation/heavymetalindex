@@ -81,7 +81,7 @@ The full 24-product distribution as prepared per manufacturer instructions range
 
 ## Implications
 
-- Certification: HMTc Al-threshold development for infant formula must account for the 40x range documented here. The product-page CC candidate framework should distinguish ready-to-drink from powdered formats (format-axis row-fit per CLAUDE.md Part 6). SMA Alfamino at 41.4 µg/L and Neocate LCP at 44.4 µg/L represent achievable clean-platform values; PediaSure Plus Juice Apple at 1956 µg/L is a dirty-platform outlier.
+- Certification: HMTc Al-threshold development for infant formula must account for the 40x range documented here. The product-page CC candidate framework should distinguish ready-to-drink from powdered formats (format-axis row-fit per the program governance framework). SMA Alfamino at 41.4 µg/L and Neocate LCP at 44.4 µg/L represent achievable clean-platform values; PediaSure Plus Juice Apple at 1956 µg/L is a dirty-platform outlier.
 - Microbiome / clinical: Vulnerable population (preterm and IUGR infants, infants with allergies, infants requiring amino-acid-based or peptide-based formulas) is exposed via a single feeding modality and cannot diversify exposure. No safety margin via dietary variation.
 - App: Powder vs ready-to-drink Al differential should be a query input. Fruit-flavored RTDs (PediaSure Plus Juice Apple) are an outlier category warranting separate flag.
 - Courses: Foundational primary occurrence-data reference for infant formula Al; supersedes regulatory-only synthesis.

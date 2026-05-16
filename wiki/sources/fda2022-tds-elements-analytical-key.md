@@ -6,6 +6,7 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2022
 publication: "FDA Total Diet Study supporting documentation"
 source_type: government_documentation
+no_doi_assigned: true
 evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/TDS-ElementsAnalyticalResultsKey-TDS-Report-FY2018toFY2020-07082022_0.pdf"
@@ -21,7 +22,7 @@ updated: 2026-05-08
 
 ## Summary
 
-This FDA documentation file is the field-definition key for the FY2018-FY2020 Total Diet Study elements analytical results dataset that powers the wiki's structured evidence layer for ~90 ingredient pages (`data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv` and the supporting sample-level CSV). The key defines each column in the published TDS analytical results: FiscalYear, CalendarYear, Collection (regional vs national vs special), TDSFoodNumber, TDSFoodDescription, Season, TDSFoodListType, Region, Analyte, Units, Concentration, ReportingLimit. The document is essential methodology context for any wiki claim that draws on FDA TDS values; it is the operational definition of the basis ("FDA TDS prepared food/composite") that the structured-evidence layer carries on every TDS-derived value record.
+This FDA documentation file is the field-definition key for the FY2018-FY2020 Total Diet Study elements analytical results dataset that powers the wiki's structured evidence layer for ~90 ingredient pages (the structured evidence layer and the supporting sample-level CSV). The key defines each column in the published TDS analytical results: FiscalYear, CalendarYear, Collection (regional vs national vs special), TDSFoodNumber, TDSFoodDescription, Season, TDSFoodListType, Region, Analyte, Units, Concentration, ReportingLimit. The document is essential methodology context for any wiki claim that draws on FDA TDS values; it is the operational definition of the basis ("FDA TDS prepared food/composite") that the structured-evidence layer carries on every TDS-derived value record.
 
 ## Companion source
 

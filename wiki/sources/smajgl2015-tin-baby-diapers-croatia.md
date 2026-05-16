@@ -70,13 +70,13 @@ EDXRF measures total Sn. It does NOT speciate organotin compounds (TBT, DBT, MBT
 
 ## Implications
 
-Certification: For HMTc Cat 2 disposable baby diapers row, this paper documents that:
+Certification: For the HMT&C certification program disposable baby diapers row, this paper documents that:
 1. **Diaper tin contamination is real and intermittent** (4/6 brands in top sheet; 2/6 in adhesive tape system). Routine surveillance is justified.
 2. **The EU REACH 0.1% prohibition limit (1000 mg/kg) is far above measured values**; it doesn't constrain real-world diaper contamination. The voluntary <2 mg/kg TBT / <10 mg/kg organotin limits are operative.
-3. **Speciation matters**: total Sn by EDXRF is fast and cheap (3-day throughput per ~$X capex) but doesn't separate inorganic Sn (low toxicity) from organotins (TBT, DBT, MBT, DOT — neurotoxic, reproductive, endocrine-disrupting). HMTc Cat 2 diaper thresholds should require organotin speciation in addition to total Sn.
+3. **Speciation matters**: total Sn by EDXRF is fast and cheap (3-day throughput per ~$X capex) but doesn't separate inorganic Sn (low toxicity) from organotins (TBT, DBT, MBT, DOT — neurotoxic, reproductive, endocrine-disrupting). the HMT&C certification program diaper thresholds should require organotin speciation in addition to total Sn.
 4. **Worst-case dermal exposure** for an 8 kg infant on 5 diapers/day reaches 20-100 % of TDI. This is the highest single-product Sn exposure for the youngest age group and warrants a precautionary threshold below 2 mg/kg total Sn in any diaper layer with skin contact.
 
-Courses: Useful for a Cat 2 module on dermal exposure modelling. The 20-100 % TDI estimate is a teachable example of how an exposure surface (diaper) × frequency × duration × dermal absorption fraction × body weight calculates to a real dose.
+Courses: Useful for the children's personal care category module on dermal exposure modelling. The 20-100 % TDI estimate is a teachable example of how an exposure surface (diaper) × frequency × duration × dermal absorption fraction × body weight calculates to a real dose.
 
 App: For diapers, the consumer app should flag high-Sn brands (any layer >10 mg/kg total Sn) as concerning. Speciated organotin data is rarely on labels; the surrogate "total Sn" from supplier COAs is the practical proxy.
 
@@ -86,6 +86,6 @@ Microbiome: Not addressed in this paper. Organotin effects on the developing gut
 
 - [[metals/tin]]
 - [[metals/organotins]] (if exists; otherwise propose new metal page for speciated Sn)
-- [[products/disposable-baby-diapers]] (Cat 2 row — to be created)
+- [[products/disposable-baby-diapers]] (the children's personal care category row — to be created)
 - [[products/children-personal-care]]
 - [[regulations/eu-reach-annex-xvii-no-20-organotins]] (to be created)

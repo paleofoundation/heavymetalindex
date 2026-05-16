@@ -67,15 +67,15 @@ Evidence tier: B-tier. The publisher (Lupine Publishers / Concepts of Dairy & Ve
 
 ## Implications
 
-Certification: For HMTc Cat 1 processed meat row family:
+Certification: For the HMT&C certification program processed meat row family:
 
-1. **Luncheon meat is the highest-contamination subcategory** across Pb, Cd, and nitrite. This is consistent with processing-induced contamination (cooking, salt + cure addition, metal-equipment contact). HMTc Cat 1 processed-meat thresholds should be stricter for highly-processed cuts (luncheon, sausage) than for minimally-processed (minced meat).
+1. **Luncheon meat is the highest-contamination subcategory** across Pb, Cd, and nitrite. This is consistent with processing-induced contamination (cooking, salt + cure addition, metal-equipment contact). the HMT&C certification program processed-meat thresholds should be stricter for highly-processed cuts (luncheon, sausage) than for minimally-processed (minced meat).
 
 2. **8.3% Pb non-compliance and 6.7% Cd non-compliance** against Egyptian Standards limits is a real signal — comparable to the Rabeey 2025 imported bovine meat finding (62.9% Pb, 22.9% Cd non-compliance) but at a lower magnitude.
 
-3. **Luncheon meat carries 100+ ppm nitrite** with a near-cap occurrence rate. While nitrite is not a heavy metal, the nitrite-secondary-amine reaction → nitrosamines (Group 1/2A IARC carcinogens) is a parallel chemical-hazard pathway for HMTc Cat 1 processed-meat certification consideration.
+3. **Luncheon meat carries 100+ ppm nitrite** with a near-cap occurrence rate. While nitrite is not a heavy metal, the nitrite-secondary-amine reaction → nitrosamines (Group 1/2A IARC carcinogens) is a parallel chemical-hazard pathway for the HMT&C certification program processed-meat certification consideration.
 
-4. **B-tier evidence rating**: This source is a corroborative not load-bearing reference. HMTc Cat 1 processed-meat threshold-setting should pull higher-tier processed-meat surveys (FDA TDS, EFSA monitoring) as primary, with this study as supplementary regional context.
+4. **B-tier evidence rating**: This source is a corroborative not load-bearing reference. the HMT&C certification program processed-meat threshold-setting should pull higher-tier processed-meat surveys (FDA TDS, EFSA monitoring) as primary, with this study as supplementary regional context.
 
 Courses: Useful as a regional-meat-survey case study. The four-product comparison (minced meat → beef burger → sausage → luncheon) illustrates the processing-contamination gradient.
 

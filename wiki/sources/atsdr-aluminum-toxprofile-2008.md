@@ -67,7 +67,7 @@ Reference daily intake context (relative to MRL of 1 mg Al/kg/day = 70 mg Al/day
 
 ## Provenance notes
 
-License `us-government-work`. The PDF was retrieved from ATSDR's canonical web URL (`atsdr.cdc.gov/toxprofiles/tp22.pdf`) via WebFetch on 2026-04-25; SHA-256 of the raw PDF is pending future ingestion when the document is added to `raw/reports/`. The agency-website reference is a sufficient primary-source citation for the values recorded above because the ATSDR website is the official publication channel for Toxicological Profiles.
+License `us-government-work`. The PDF was retrieved from ATSDR's canonical web URL (`atsdr.cdc.gov/toxprofiles/tp22.pdf`) via WebFetch on 2026-04-25; SHA-256 of the raw PDF is pending future ingestion when the document is added to the source archive. The agency-website reference is a sufficient primary-source citation for the values recorded above because the ATSDR website is the official publication channel for Toxicological Profiles.
 
 The 2008 profile is the operative ATSDR aluminum reference; ATSDR has not published a finalized post-2008 update, so the September 2008 values remain in force.
 

@@ -24,6 +24,10 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import {
+  INTERNAL_CODENAMES,
+  REPO_PATH_PATTERNS,
+} from "./audits/shared/patterns.mjs"
 
 const repoRoot = process.cwd()
 const productsDir = path.join(repoRoot, "wiki/products")
@@ -33,66 +37,11 @@ fs.mkdirSync(dataDir, { recursive: true })
 const args = process.argv.slice(2)
 const wantJson = args.includes("--json")
 
-// ----- Rule definitions -----
-// Each rule has: id, label, severity (hard | soft), test function that returns
-// a list of {line, snippet} hits. Hard rules block the prebuild gate; soft
-// rules surface for review.
-
-const INTERNAL_CODENAMES = [
-  // HMTc taxonomy codenames that are workbench-internal
-  /HMTc\s+Category\s+[12345]\s+row\s+\d+/g,
-  /HMTc\s+Cat\s*[12345]\s+row\s+\d+/g,
-  /HMTc\s+Cat\s*[12345]\b/g,
-  /HMTc\s+row\s+\d+/g,
-  /\bCategory\s+[12345]\s+row\s+\d+/g,
-  /\bCategory\s+[12345]\s+Evidence\s+Fitness\s+pilot/g,
-  /\bEvidence\s+Fitness\s+pilot/g,
-  // Workbench-only pooling vocabulary
-  /\bclean[-_ ]p?97[-_ ]pooled/gi,
-  /\bdirty[-_ ]p?45[-_ ]pooled/gi,
-  /\bn_a_tier\b/g,
-  /\bPath\s+A\b\s+(?:candidates?|process|sources?)/g,
-  /\bPath\s+B\b\s+(?:candidates?|process|sources?)/g,
-  // Internal status flags
-  /^\s*BLOCKED\s*:/m,
-  /\bcc[-_ ]?eligibility\b/gi,
-  /\bcc\s+eligibility\b/gi,
-  // Pipeline-stage tags
-  /\bStep\s+0\b/g,
-  /\bTier\s+[12345]\s+(?:source|paper|extraction|stub|completed)/g,
-  // Internal governance-doc references in body prose. CLAUDE.md /
-  // OPERATING.md / AGENTS.md are the build's internal operating manuals;
-  // citing them in a brand-legal-facing page reads as "this is internal
-  // build documentation" rather than "this is authoritative reference."
-  // Rule: governance-doc names do not appear in body prose; the
-  // governance principle itself should be stated in its own words.
-  /\bCLAUDE\.md\s+Part\s+\d+/g,
-  /\bOPERATING\.md\s+Part\s+\d+/g,
-  /\bAGENTS\.md\s+Part\s+\d+/g,
-  /\bper\s+CLAUDE\.md\b/gi,
-  /\bper\s+OPERATING\.md\b/gi,
-  // Autonomy/orchestrator vocabulary
-  /\bautonomy[_ ]v\d+/gi,
-  /\bthe autonomy loop\b/gi,
-  /\bauto-stub creator\b/gi,
-]
-
-const REPO_PATH_PATTERNS = [
-  // Bare or backticked paths to data/evidence or data/workbench. Wikilinks
-  // [[products/...]] / [[sources/...]] are fine; backticked CSV paths in
-  // prose are the leak we're after.
-  /`data\/(evidence|workbench)\/[^`]+`/g,
-  /\bdata\/(evidence|workbench)\/[a-z0-9_-]+\.(csv|jsonl|md|json)\b/g,
-  // Backticked source-tree paths (tools/, raw/, wiki/) in body prose.
-  // These are implementation details — the rendered page does not need to
-  // name the script that regenerates a section or the directory where
-  // unsorted source PDFs live.
-  /`tools\/[^`]+\.(mjs|ts|js|sh|py)`/g,
-  /`raw\/[^`]+`/g,
-  // Internal policy-doc filenames in body prose. CamelCase or snake_case
-  // .md files outside the wiki/ tree that are governance documents.
-  /`(Category[12345]_[A-Za-z0-9_-]+\.md|Cat[12345]_[A-Za-z0-9_-]+\.md|Step[0-9_A-Za-z]+\.md|StepZero[A-Za-z0-9_-]*\.md)`/g,
-]
+// ----- Product-specific rule definitions -----
+// Internal codenames and repo paths are imported from the shared module
+// (tools/audits/shared/patterns.mjs) so this audit and the ingredient,
+// metal, and source audits all use the same definitions. When you change
+// a pattern, change it there once.
 
 const PLACEHOLDER_PATTERNS = [
   /\*\[awaiting synthesis\]\*/g,

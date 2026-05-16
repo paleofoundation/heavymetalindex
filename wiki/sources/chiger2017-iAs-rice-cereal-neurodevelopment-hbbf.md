@@ -78,15 +78,15 @@ Speciation: iAs only. Total arsenic and DMA discussed in appendices for complete
 
 ## Implications
 
-Certification: For HMTc Cat 1 infant rice cereal row, this report is the canonical advocacy/policy reference that establishes:
+Certification: For the HMT&C certification program infant rice cereal row, this report is the canonical advocacy/policy reference that establishes:
 
 1. **The $1.2-1.8B-per-year-in-avoidable-IQ-loss claim** that HBBF uses in advocacy. HMTc certification of low-iAs infant rice cereal is a partial market intervention against this loss; brand-legal positioning around HMTc should explicitly cite Chiger 2017 as the cost-of-not-acting reference.
 
-2. **The Tsuji 2015 neurodevelopmental RfD vs USEPA IRIS 1991 chronic-oral RfD distinction**. The Tsuji RfD is more relevant for infant exposure modelling because it's derived from the same cohorts (Hamadani 2011, Wasserman 2007) that document neurodevelopmental effects, not from the dermal/skin-lesion endpoint that IRIS 1991 uses. HMTc Cat 1 infant rice cereal thresholds should anchor on the Tsuji RfD for the toxicology basis, with the FDA 100 ppb action level cited as the regulatory-alignment ceiling.
+2. **The Tsuji 2015 neurodevelopmental RfD vs USEPA IRIS 1991 chronic-oral RfD distinction**. The Tsuji RfD is more relevant for infant exposure modelling because it's derived from the same cohorts (Hamadani 2011, Wasserman 2007) that document neurodevelopmental effects, not from the dermal/skin-lesion endpoint that IRIS 1991 uses. the HMT&C certification program infant rice cereal thresholds should anchor on the Tsuji RfD for the toxicology basis, with the FDA 100 ppb action level cited as the regulatory-alignment ceiling.
 
 3. **The CRF selection rationale (Section 6.1)**. Future Cat 1 standards work — and HMTc threshold derivation for other rice-containing Cat 1 rows — should pull the same CRFs cited here. This report is the convergence point for the policy-relevant scientific consensus.
 
-4. **The "replace all rice products" scenario (9M IQ points/year, $12-18B)** is the upper bound — informative for setting Cat 1 threshold ambition. HMTc's market-ratcheting logic (CLAUDE.md Part 2: tighter than literature floor, by design) is justified by this analysis: even at full FDA-compliant rice (≤100 ppb), the U.S. is foregoing >9M IQ points/year because the avoidable iAs intake is non-zero.
+4. **The "replace all rice products" scenario (9M IQ points/year, $12-18B)** is the upper bound — informative for setting Cat 1 threshold ambition. HMTc's market-ratcheting logic (the program governance framework: tighter than literature floor, by design) is justified by this analysis: even at full FDA-compliant rice (≤100 ppb), the U.S. is foregoing >9M IQ points/year because the avoidable iAs intake is non-zero.
 
 Courses: Excellent reference for an HMTc course module on benefit-cost analysis of food-safety standards. The Tsuji RfD vs IRIS 1991 RfD comparison is a teachable example of how neurodevelopmental endpoints can be more stringent than chronic-oral endpoints.
 

@@ -70,15 +70,15 @@ Risk methodology: USEPA-based EDI / THQ / HI / MoE per standard practice.
 
 ## Implications
 
-Certification: For HMTc Cat 1 infant formula + baby cereal + biscuit row family:
+Certification: For the HMT&C certification program infant formula + baby cereal + biscuit row family:
 
 1. **Saudi-market baby food shows Cat-1-relevant Pb levels** (35.2-53.8 µg/kg in cereal-based meals and biscuits). These are 3-5x the FDA proposed action level of 10 ppb for fruit/vegetable purees and within the same range as the 20 ppb action level for root vegetables and dry infant cereals. Saudi-sourced or Saudi-distributed baby food certification should anchor against these distributional data.
 
-2. **Cereal-based meals and biscuits are the high-exposure subcategory**, consistent with global findings that rice-containing and grain-based infant foods drive As/Cd/Pb exposure more than dairy-based formulas. HMTc Cat 1 should preferentially focus regulatory attention on this subcategory.
+2. **Cereal-based meals and biscuits are the high-exposure subcategory**, consistent with global findings that rice-containing and grain-based infant foods drive As/Cd/Pb exposure more than dairy-based formulas. the HMT&C certification program should preferentially focus regulatory attention on this subcategory.
 
-3. **Infants 0-6 months are the highest Cd and Pb exposed group** despite typically consuming formula (not cereals/biscuits). This implies that the formula Pb/Cd values in this dataset, while not the highest per-mass, drive the highest per-kg-body-weight dose due to the higher consumption rate. HMTc Cat 1 formula thresholds should be stricter than cereal thresholds on a per-mass basis to account for this.
+3. **Infants 0-6 months are the highest Cd and Pb exposed group** despite typically consuming formula (not cereals/biscuits). This implies that the formula Pb/Cd values in this dataset, while not the highest per-mass, drive the highest per-kg-body-weight dose due to the higher consumption rate. the HMT&C certification program formula thresholds should be stricter than cereal thresholds on a per-mass basis to account for this.
 
-4. **The "low risk" finding contrasts with Chen 2025 mRPI cumulative-risk finding**. Both papers are technically sound; the difference is single-metal HQ vs cumulative mRPI methodology. HMTc Cat 1 standards-setting should adopt the more conservative mRPI framework for cumulative-risk evaluation.
+4. **The "low risk" finding contrasts with Chen 2025 mRPI cumulative-risk finding**. Both papers are technically sound; the difference is single-metal HQ vs cumulative mRPI methodology. the HMT&C certification program standards-setting should adopt the more conservative mRPI framework for cumulative-risk evaluation.
 
 5. **Cite-key cleanup needed**: manifest text-mined `original2020-original-a` from "ORIGINAL ARTICLE" header. Future cleanup should rename to `alharbi2023-baby-foods-heavy-metals-saudi-arabia`.
 

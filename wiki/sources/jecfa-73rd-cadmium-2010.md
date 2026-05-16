@@ -117,7 +117,7 @@ Translation from urinary cadmium to dietary intake used a one-compartment toxico
 
 ## Provenance notes
 
-License `CC-BY-NC-SA-3.0-IGO` per WHO standard publication terms. The PDF (`9789241660648_eng.pdf`, ISBN 978 924 166064 8) is the official WHO publication and is now in `raw/reports/` with SHA-256 verification. The companion document is WHO Technical Report Series 960 (the 73rd meeting Report), which contains the high-level summary of the same conclusions; FAS 64 is the detailed safety evaluation monograph carrying the cadmium addendum.
+License `CC-BY-NC-SA-3.0-IGO` per WHO standard publication terms. The PDF (`9789241660648_eng.pdf`, ISBN 978 924 166064 8) is the official WHO publication and is now in the source archive with SHA-256 verification. The companion document is WHO Technical Report Series 960 (the 73rd meeting Report), which contains the high-level summary of the same conclusions; FAS 64 is the detailed safety evaluation monograph carrying the cadmium addendum.
 
 This source page supersedes an earlier secondary-citation-only version of the same cite key. The values previously recorded from [[sources/jecfa-91st-cadmium-2022|JECFA 91st]] secondary citations are confirmed against the primary document.
 

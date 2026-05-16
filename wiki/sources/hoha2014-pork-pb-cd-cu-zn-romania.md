@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: manual-fetch-kimi
-cite_key: hoha2014-pork-pb-cd-cu-zn-romania.md
+cite_key: hoha2014-pork-pb-cd-cu-zn-romania
 title: "Heavy metals contamination levels in processed meat marketed in Romania"
 authors: [Hoha GV, Costăchescu E, Leahu A, Păsărin B]
 year: 2014

@@ -6,6 +6,7 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2021
 publication: "FDA analytical results table"
 source_type: government_dataset
+no_doi_assigned: true
 evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/Analytical-Results-for-Lead-in-Food-Intended-for-Babies-Young-Children-FY2020-FY2021.pdf"
@@ -40,7 +41,7 @@ The 416-sample table is FY2021-only and is one slice of a longer FDA baby-food s
 ## Implications
 
 - Certification: Direct primary-evidence basis for HMTc baby-food lead occurrence rows. The 416 FY2021 samples augment the broader FY2009-FY2024 TEP compliance dataset and improve the temporal coverage of the baby-food Pb evidence pool. Mapping to HMTc product rows requires per-sample ingredient-list parsing for mixed-ingredient products.
-- Courses: Useful for teaching how multi-ingredient products complicate the standards-row architecture and why HMTc Category 1 row taxonomy distinguishes single-ingredient (root-vegetable, fruit, non-root-vegetable) from mixed-ingredient (mixed meal, mixed cereal) categories.
+- Courses: Useful for teaching how multi-ingredient products complicate the standards-row architecture and why the relevant HMT&C product taxonomy row taxonomy distinguishes single-ingredient (root-vegetable, fruit, non-root-vegetable) from mixed-ingredient (mixed meal, mixed cereal) categories.
 
 ## Wiki pages updated on ingest
 

@@ -1,0 +1,89 @@
+slug,file,rule,severity,line,snippet,context
+baby-cereals-dry-non-rice,wiki/products/baby-cereals-dry-non-rice.md,,,,,
+baby-cereals-dry-rice-based,wiki/products/baby-cereals-dry-rice-based.md,,,,,
+baby-talcum-powder,wiki/products/baby-talcum-powder.md,,,,,
+breakfast-cereals,wiki/products/breakfast-cereals.md,,,,,
+canned-fish,wiki/products/canned-fish.md,,,,,
+canned-fruit,wiki/products/canned-fruit.md,,,,,
+canned-tomatoes,wiki/products/canned-tomatoes.md,,,,,
+canned-vegetables,wiki/products/canned-vegetables.md,,,,,
+children-personal-care,wiki/products/children-personal-care.md,concentration_without_citation,soft,51,"5 ppm","ZnO feedstock for diaper cream (Row 8, as 10-40% w/w occlusive) and mineral sunscreen (Row 10, as 5-25% w/w UV filter) carries Pb and Cd fro"
+children-personal-care,wiki/products/children-personal-care.md,concentration_without_citation,soft,55,"10 ppm","TiO2 (mineral UV filter in row 10, white-pigment base in cosmetic rows 13 and 16) carries Pb, iAs, and Cd from rutile/anatase refining feeds"
+children-personal-care,wiki/products/children-personal-care.md,concentration_without_citation,soft,55,"1 ppm","TiO2 (mineral UV filter in row 10, white-pigment base in cosmetic rows 13 and 16) carries Pb, iAs, and Cd from rutile/anatase refining feeds"
+children-personal-care,wiki/products/children-personal-care.md,concentration_without_citation,soft,127,"1000ppb","- Washington State Toxic-Free Cosmetics Act 2023 (Row 11 toothpaste, Rows 11-16 cosmetics generally); [[regulations/washington-tfca-toothpas"
+chocolate,wiki/products/chocolate.md,,,,,
+coffee,wiki/products/coffee.md,,,,,
+dietary-supplements,wiki/products/dietary-supplements.md,,,,,
+face-paint,wiki/products/face-paint.md,,,,,
+fermented-beverages-non-tea-based,wiki/products/fermented-beverages-non-tea-based.md,,,,,
+fish-containing-baby-foods,wiki/products/fish-containing-baby-foods.md,,,,,
+fresh-fish,wiki/products/fresh-fish.md,,,,,
+fresh-fruit,wiki/products/fresh-fruit.md,,,,,
+fruit-juice-not-canned,wiki/products/fruit-juice-not-canned.md,,,,,
+fruit-juices-apple-containing,wiki/products/fruit-juices-apple-containing.md,,,,,
+fruit-juices-non-apple,wiki/products/fruit-juices-non-apple.md,,,,,
+fruit-purees,wiki/products/fruit-purees.md,,,,,
+herbal-botanical-infusions,wiki/products/herbal-botanical-infusions.md,,,,,
+honey,wiki/products/honey.md,,,,,
+infant-and-child-foods-master,wiki/products/infant-and-child-foods-master.md,,,,,
+infant-cereal,wiki/products/infant-cereal.md,,,,,
+infant-formula-concentrated-liquid-non-soy,wiki/products/infant-formula-concentrated-liquid-non-soy.md,concentration_without_citation,soft,76,"0.4 ug/kg","| [[metals/arsenic-total|tAs]] | 8 | 8 | prepared for feeding | 0.4 ug/kg | Total arsenic. |"
+infant-formula-concentrated-liquid-non-soy,wiki/products/infant-formula-concentrated-liquid-non-soy.md,concentration_without_citation,soft,77,"0.4 ug/kg","| [[metals/lead|Pb]] | 8 | 8 | prepared for feeding | 0.4 ug/kg | Bridge-context evidence only. |"
+infant-formula-concentrated-liquid-non-soy,wiki/products/infant-formula-concentrated-liquid-non-soy.md,concentration_without_citation,soft,78,"0.5 ug/kg","| [[metals/cadmium|Cd]] | 8 | 4 | prepared for feeding | 0.5 ug/kg | Bridge-context evidence only. |"
+infant-formula-concentrated-liquid-non-soy,wiki/products/infant-formula-concentrated-liquid-non-soy.md,concentration_without_citation,soft,79,"0 ug/kg","| [[metals/mercury-total|tHg]] | 8 | 0 | prepared for feeding | 0 ug/kg | Total mercury; not MeHg. |"
+infant-formula-concentrated-liquid-soy-based,wiki/products/infant-formula-concentrated-liquid-soy-based.md,concentration_without_citation,soft,76,"0.7 ug/kg","| [[metals/arsenic-total|tAs]] | 3 | 3 | prepared for feeding | 0.7 ug/kg | Total arsenic. |"
+infant-formula-concentrated-liquid-soy-based,wiki/products/infant-formula-concentrated-liquid-soy-based.md,concentration_without_citation,soft,77,"0.4 ug/kg","| [[metals/lead|Pb]] | 3 | 3 | prepared for feeding | 0.4 ug/kg | Bridge-context evidence only. |"
+infant-formula-concentrated-liquid-soy-based,wiki/products/infant-formula-concentrated-liquid-soy-based.md,concentration_without_citation,soft,78,"1.5 ug/kg","| [[metals/cadmium|Cd]] | 3 | 3 | prepared for feeding | 1.5 ug/kg | Bridge-context evidence only. |"
+infant-formula-concentrated-liquid-soy-based,wiki/products/infant-formula-concentrated-liquid-soy-based.md,concentration_without_citation,soft,79,"0.05 ug/kg","| [[metals/mercury-total|tHg]] | 3 | 1 | prepared for feeding | 0.05 ug/kg | Total mercury; not MeHg. |"
+infant-formula-powder-non-soy,wiki/products/infant-formula-powder-non-soy.md,,,,,
+infant-formula-powder-soy-based,wiki/products/infant-formula-powder-soy-based.md,,,,,
+infant-formula-rtf-liquid-non-soy,wiki/products/infant-formula-rtf-liquid-non-soy.md,,,,,
+infant-formula-rtf-liquid-soy-based,wiki/products/infant-formula-rtf-liquid-soy-based.md,,,,,
+kombucha-tea-based,wiki/products/kombucha-tea-based.md,,,,,
+meat-and-poultry-purees,wiki/products/meat-and-poultry-purees.md,,,,,
+mixed-meals-non-rice,wiki/products/mixed-meals-non-rice.md,,,,,
+mixed-meals-rice-containing,wiki/products/mixed-meals-rice-containing.md,,,,,
+non-root-vegetable-purees,wiki/products/non-root-vegetable-purees.md,,,,,
+plant-milks-non-soy-non-rice,wiki/products/plant-milks-non-soy-non-rice.md,,,,,
+plant-milks-rice-based,wiki/products/plant-milks-rice-based.md,concentration_without_citation,soft,148,"30 µg/kg","The levers below are ordered by estimated impact magnitude for finished rice-based plant milks as a product category. Inorganic arsenic (iAs"
+plant-milks-rice-based,wiki/products/plant-milks-rice-based.md,concentration_without_citation,soft,168,"30 µg/kg","No public recalls or enforcement actions specifically targeting heavy metals in rice-based plant milks are documented in the wiki's source c"
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,concentration_without_citation,soft,129,"19 ppb","| Cd | — | Milani 2023 (all <LOQ; below-LOQ candidate at 5×LOQ=19 ppb) | 1 summary (below-LOQ) |"
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,concentration_without_citation,soft,130,"191 ppb","| tAs | — | Milani 2023 (all <LOQ; below-LOQ candidate at 5×LOQ=191 ppb; high ICP-OES LOQ) | 1 summary (below-LOQ) |"
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,concentration_without_citation,soft,134,"176-758 ppb","| **Al** | — | **Milani 2023 (group means 176-758 ppb; range 45-1822 ppb)** | 1 summary (single-source coverage; closing requires 2nd Al sou"
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,concentration_without_citation,soft,134,"45-1822 ppb","| **Al** | — | **Milani 2023 (group means 176-758 ppb; range 45-1822 ppb)** | 1 summary (single-source coverage; closing requires 2nd Al sou"
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,concentration_without_citation,soft,135,"29 ppb","| Ni | — | Milani 2023 (soybean group mean 29 ppb), Marques 2021 | 2 summary |"
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,concentration_without_citation,soft,137,"4.3 ppb","| Sn | — | Milani 2023 (isolate-protein group mean 4.3 ppb at LOD-zero; max 26 ppb; below-LOQ candidate at 5×LOQ=90 ppb) | 1 summary (below-"
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,concentration_without_citation,soft,137,"26 ppb","| Sn | — | Milani 2023 (isolate-protein group mean 4.3 ppb at LOD-zero; max 26 ppb; below-LOQ candidate at 5×LOQ=90 ppb) | 1 summary (below-"
+plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,concentration_without_citation,soft,137,"90 ppb","| Sn | — | Milani 2023 (isolate-protein group mean 4.3 ppb at LOD-zero; max 26 ppb; below-LOQ candidate at 5×LOQ=90 ppb) | 1 summary (below-"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,25,"20 ug/kg","| [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]] | EU Pb 20 ug/kg; EU Cd 10 or 20 ug/kg by prot"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,25,"20 ug/kg","| [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]] | EU Pb 20 ug/kg; EU Cd 10 or 20 ug/kg by prot"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,25,"20 ug/kg","| [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]] | EU Pb 20 ug/kg; EU Cd 10 or 20 ug/kg by prot"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,26,"10 ug/kg","| [[products/infant-formula-rtf-liquid-non-soy]] and [[products/infant-formula-rtf-liquid-soy-based]] | EU Pb 10 ug/kg; EU Cd 5 or 10 ug/kg "
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,26,"10 ug/kg","| [[products/infant-formula-rtf-liquid-non-soy]] and [[products/infant-formula-rtf-liquid-soy-based]] | EU Pb 10 ug/kg; EU Cd 5 or 10 ug/kg "
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,26,"10 ug/kg","| [[products/infant-formula-rtf-liquid-non-soy]] and [[products/infant-formula-rtf-liquid-soy-based]] | EU Pb 10 ug/kg; EU Cd 5 or 10 ug/kg "
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,27,"20 ug/kg","| [[products/baby-cereals-dry-non-rice]] and [[products/baby-cereals-dry-rice-based]] | FDA Pb 20 ug/kg; FDA iAs 100 ug/kg for rice cereal; "
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,27,"100 ug/kg","| [[products/baby-cereals-dry-non-rice]] and [[products/baby-cereals-dry-rice-based]] | FDA Pb 20 ug/kg; FDA iAs 100 ug/kg for rice cereal; "
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,27,"20 ug/kg","| [[products/baby-cereals-dry-non-rice]] and [[products/baby-cereals-dry-rice-based]] | FDA Pb 20 ug/kg; FDA iAs 100 ug/kg for rice cereal; "
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,27,"40 ug/kg","| [[products/baby-cereals-dry-non-rice]] and [[products/baby-cereals-dry-rice-based]] | FDA Pb 20 ug/kg; FDA iAs 100 ug/kg for rice cereal; "
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,28,"20 ug/kg","| Purees and mixed meals | FDA Pb values plus EU Pb 20 ug/kg and EU Cd 40 ug/kg; selected baby-food iAs context | Field-finding comparison r"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,28,"40 ug/kg","| Purees and mixed meals | FDA Pb values plus EU Pb 20 ug/kg and EU Cd 40 ug/kg; selected baby-food iAs context | Field-finding comparison r"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,29,"10 ug/kg","| Fruit juices | FDA apple-juice iAs 10 ug/kg, FDA lead guidance/draft rows, EU fruit-juice iAs 20 ug/kg, EU fruit-juice Pb 30 or 50 ug/kg b"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,29,"20 ug/kg","| Fruit juices | FDA apple-juice iAs 10 ug/kg, FDA lead guidance/draft rows, EU fruit-juice iAs 20 ug/kg, EU fruit-juice Pb 30 or 50 ug/kg b"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,29,"50 ug/kg","| Fruit juices | FDA apple-juice iAs 10 ug/kg, FDA lead guidance/draft rows, EU fruit-juice iAs 20 ug/kg, EU fruit-juice Pb 30 or 50 ug/kg b"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,30,"300 ug/kg","| [[products/teething-and-snacks-rice-based]] | EU iAs 300 ug/kg for named rice cakes/crackers/wafers/flakes/popped rice products | Useful l"
+regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-findings.md,concentration_without_citation,soft,31,"30 ug/kg","| [[products/plant-milks-rice-based]] | EU iAs 30 ug/kg for non-alcoholic rice-based drinks | Direct comparison is available for D'Amato 202"
+root-vegetable-purees,wiki/products/root-vegetable-purees.md,,,,,
+seafood,wiki/products/seafood.md,,,,,
+skin-lightening-cream,wiki/products/skin-lightening-cream.md,,,,,
+snacks-crackers-biscuits,wiki/products/snacks-crackers-biscuits.md,,,,,
+spices,wiki/products/spices.md,,,,,
+tea-infusions,wiki/products/tea-infusions.md,,,,,
+tea,wiki/products/tea.md,,,,,
+teething-and-snacks-non-rice,wiki/products/teething-and-snacks-non-rice.md,,,,,
+teething-and-snacks-rice-based,wiki/products/teething-and-snacks-rice-based.md,,,,,
+tomato-paste,wiki/products/tomato-paste.md,,,,,
+tomato-sauce,wiki/products/tomato-sauce.md,,,,,
+toothpaste,wiki/products/toothpaste.md,concentration_without_citation,soft,8,"1000 ppb","Brand legal teams evaluating the children's personal care category certification for toothpaste lines need to know the binding regulatory ca"
+toothpaste,wiki/products/toothpaste.md,concentration_without_citation,soft,59,"100 ppb","1. **Sourcing levers** (highest impact): mineral abrasive (silica, calcium carbonate, baking soda) supplier selection. Cosmetic-grade silica"
+toothpaste,wiki/products/toothpaste.md,concentration_without_citation,soft,71,"1000 ppb","- Lead Safe Mama 2024-2025 toothpaste testing publications (consumer-advocacy reports identifying toothpastes above the recently-effective T"
+toothpaste,wiki/products/toothpaste.md,concentration_without_citation,soft,72,"1000 ppb","- Washington State Toxic-Free Cosmetics Act (TFCA, effective 2025) implementing the 1000 ppb Pb limit on toothpaste"

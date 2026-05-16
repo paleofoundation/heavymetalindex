@@ -198,7 +198,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 
 ## Auto-linked stubs
 
-_Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
+_Auto-managed by the page generators. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
 - [[ingredients/apple-cider-vinegar|Apple Cider Vinegar]]
 - [[ingredients/balsamic-vinegar|Balsamic Vinegar]]

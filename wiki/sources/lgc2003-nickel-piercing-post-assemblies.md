@@ -7,6 +7,7 @@ authors: ["LGC Limited"]
 year: 2003
 publication: "Final Report submitted under EC Contract ETD/FIF.2001592"
 source_type: gov-report
+no_doi_assigned: true
 evidence_tier: A
 tier_rationale: "Per CLAUDE.md Part 13: government-contract research report (LGC Limited / UK National Measurement Laboratory under EC Contract ETD/FIF.2001592). Government-commissioned scientific report."
 method_quality_caveat: "2003 dossier preceding EU nickel restrictions; specific to piercing-post contact-product subcategory, not food matrices."
@@ -29,7 +30,7 @@ updated: 2026-04-29
 | Field | Value |
 | --- | --- |
 | Exact paper title | Risk of sensitisation of humans to nickel by piercing post assemblies |
-| Raw file | `raw/Digest/nickel_en.pdf` |
+| Raw file | the source archive |
 | Raw SHA-256 | `47baa4d890c906a884a301a1395fdbfcfb42587b3faf812cf962ffd794cbd87b` |
 | Contract / reference | EC Contract ETD/FIF.2001592; Ref. Ares(2015)4242175 - 12/10/2015 |
 | Submitted by | LGC Limited |
@@ -37,7 +38,7 @@ updated: 2026-04-29
 | Primary analyte | Nickel (`Ni`) |
 | Product categories | Stainless steel plates, stainless steel wires, finished stainless steel piercing post assemblies, ear studs, butterflies, skin-contact products under the Nickel Directive |
 | Category 1 treatment | Context only for Category 1 food/infant-product evidence. This is dermal/contact-material evidence, not food occurrence evidence. |
-| Wiki nodes connected | [[metals/nickel]], [[products/piercing-post-assemblies]], [[regulations/eu-nickel-directive-94-27-ec]], [[testing/en-1811-nickel-release]], `data/evidence/sources.jsonl`, `data/evidence/values.jsonl` |
+| Wiki nodes connected | [[metals/nickel]], [[products/piercing-post-assemblies]], [[regulations/eu-nickel-directive-94-27-ec]], [[testing/en-1811-nickel-release]], the structured evidence layer, the structured evidence layer |
 
 ## Exact Source Headings Preserved
 
@@ -176,4 +177,4 @@ For the Category 1 build, this source strengthens the nickel page by preserving 
 - [[products/piercing-post-assemblies]]
 - [[regulations/eu-nickel-directive-94-27-ec]]
 - [[testing/en-1811-nickel-release]]
-- `raw/Digest/INGESTED.md`
+- the source archive

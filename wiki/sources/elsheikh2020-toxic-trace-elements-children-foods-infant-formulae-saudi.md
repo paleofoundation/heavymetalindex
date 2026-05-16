@@ -27,7 +27,7 @@ updated: 2026-05-09
 
 # Elsheikh et al. 2020 — Toxic and essential trace elements in Saudi children's foods and infant formulae
 
-This B-tier peer-reviewed analytical study (Asian Journal of Chemistry; not Q1-tier journal) measures nine elements in 57 samples covering 19 brands of children's foods and infant formulae purchased in Turabah province, Saudi Arabia. The paper's scope is broader than HMTc Category 1 — most of the 16 children's-food brands are general snack products (potato chips, popcorn, biscuits, cocoa sweets, indomie noodles) that fall outside the IandC subcategory architecture. Three brands are infant formulae (including baby powder milk, brand 19) and one brand is Cerelac (infant cereal). The principal findings: Cd and As were mostly not detected (ND) across all sample types; Pb detected in some samples but generally low (highest in biscuit brand 6 at 0.230 ppm = 230 ppb); **Al was detected in many samples, with two notable outliers — biscuit brand 6 at 291.90 ppm = 291,900 ppb total Al concentration, and baby powder milk brand 19 yielding a daily Al intake of 391.12 µg/kg bw/day, both exceeding the FAO/WHO PTDI guidance of 285.7 µg/kg bw/day**. Author scope is partial on matrix axis (formula vs cereal vs general snacks distinguished but soy/non-soy formula not split, rice/non-rice cereal not enumerated for Cerelac) and partial on format axis. Per the corrected row-fit rule (CLAUDE.md Part 6), this routes to HMTc Cat 1 only for the infant-formula and Cerelac subsets; the snack-food data is out-of-scope context.
+This B-tier peer-reviewed analytical study (Asian Journal of Chemistry; not Q1-tier journal) measures nine elements in 57 samples covering 19 brands of children's foods and infant formulae purchased in Turabah province, Saudi Arabia. The paper's scope is broader than the relevant HMT&C product taxonomy — most of the 16 children's-food brands are general snack products (potato chips, popcorn, biscuits, cocoa sweets, indomie noodles) that fall outside the IandC subcategory architecture. Three brands are infant formulae (including baby powder milk, brand 19) and one brand is Cerelac (infant cereal). The principal findings: Cd and As were mostly not detected (ND) across all sample types; Pb detected in some samples but generally low (highest in biscuit brand 6 at 0.230 ppm = 230 ppb); **Al was detected in many samples, with two notable outliers — biscuit brand 6 at 291.90 ppm = 291,900 ppb total Al concentration, and baby powder milk brand 19 yielding a daily Al intake of 391.12 µg/kg bw/day, both exceeding the FAO/WHO PTDI guidance of 285.7 µg/kg bw/day**. Author scope is partial on matrix axis (formula vs cereal vs general snacks distinguished but soy/non-soy formula not split, rice/non-rice cereal not enumerated for Cerelac) and partial on format axis. Per the corrected row-fit rule, this routes to the HMT&C certification program only for the infant-formula and Cerelac subsets; the snack-food data is out-of-scope context.
 
 ## Key Numbers
 
@@ -59,17 +59,17 @@ These outliers should be flagged in the rice-cereal Al cell discussion as eviden
 
 ## Routing to HMTc subcategories
 
-| Subcategory | Route | n_a_tier impact |
+| Subcategory | Route | evidence-pool impact |
 | --- | --- | --- |
-| [[products/infant-formula-powder-non-soy]] | Indirect: 3 infant formula brands; soy/non-soy not split. Per Part 6 default, milk-based powder routes to non-soy. | Adds n_a_tier=1 with low-Pb/Cd/As confirmation context; high-Al outlier (brand 19, 391 µg/kg/day intake) is a flagged anomaly rather than a representative value. |
-| [[products/baby-cereals-dry-rice-based]] | Indirect: Cerelac brand routes here if rice-based per the typical Cerelac formulation; needs paper-level verification. | Adds n_a_tier=1 with caveat; sample-level Cerelac data not separated in the visible table excerpts. |
-| [[products/baby-cereals-dry-non-rice]] | Same caveat. | Adds n_a_tier=1. |
+| [[products/infant-formula-powder-non-soy]] | Indirect: 3 infant formula brands; soy/non-soy not split. Per Part 6 default, milk-based powder routes to non-soy. | Adds evidence pool=1 with low-Pb/Cd/As confirmation context; high-Al outlier (brand 19, 391 µg/kg/day intake) is a flagged anomaly rather than a representative value. |
+| [[products/baby-cereals-dry-rice-based]] | Indirect: Cerelac brand routes here if rice-based per the typical Cerelac formulation; needs paper-level verification. | Adds evidence pool=1 with caveat; sample-level Cerelac data not separated in the visible table excerpts. |
+| [[products/baby-cereals-dry-non-rice]] | Same caveat. | Adds evidence pool=1. |
 
-**Out-of-scope routing**: the 16 children's-snack-food brands (potato chips, popcorn, biscuits, sweets, cocoa products, indomie) do not map to HMTc Category 1 subcategories. They could inform broader regulatory context for general children's foods but are not HMTc IandC-relevant.
+**Out-of-scope routing**: the 16 children's-snack-food brands (potato chips, popcorn, biscuits, sweets, cocoa products, indomie) do not map to the relevant HMT&C product taxonomy subcategories. They could inform broader regulatory context for general children's foods but are not HMTc IandC-relevant.
 
 ## Geographic-context flag
 
-Saudi Arabian (Turabah province) market, 2019 sample collection. The high-Al outliers (brand 6 biscuit, brand 19 baby powder milk) suggest possible regional processing-input or sourcing differences. Per CLAUDE.md Part 6, jurisdiction-mix labeling required when this source contributes to a global aggregate.
+Saudi Arabian (Turabah province) market, 2019 sample collection. The high-Al outliers (brand 6 biscuit, brand 19 baby powder milk) suggest possible regional processing-input or sourcing differences. jurisdiction-mix labeling required when this source contributes to a global aggregate.
 
 ## Methods (brief)
 
@@ -83,14 +83,14 @@ EF-3 limited evidence with B-tier journal rating. The paper is published in *Asi
 
 - B-tier journal rating; methods reasonable but not the premier food-safety venues that drive regulatory decisions.
 - Sample size for formula (n=3 brands) and Cerelac (n=1 brand) is below the 10-sample defensibility floor.
-- The 16 children's-snack-food brands are out-of-scope for HMTc Category 1.
+- The 16 children's-snack-food brands are out-of-scope for the relevant HMT&C product taxonomy.
 - Al unit reporting is in ppm (mg/kg) consistently; no internal unit ambiguity (unlike Sipahi 2014).
 - High-Al outliers (brand 19 baby powder milk, brand 6 biscuit) are flagged anomalies; their consistency with other regional studies (e.g., Igweze 2020 Nigerian formula Al up to 1700 ppb) needs cross-validation. Brand 19's 391 µg/kg/day daily intake far exceeds typical formula Al PTDI usage and may indicate brand-specific quality issues or method sensitivity to a particular Al-rich ingredient.
-- Cerelac brand-specific concentrations not enumerated in the visible Tables 3-7 extract; full paper read needed for HMTc rice-cereal n_a_tier addition.
+- Cerelac brand-specific concentrations not enumerated in the visible Tables 3-7 extract; full paper read needed for HMTc rice-cereal evidence pool addition.
 
 ## Implications
 
-Certification: Adds n_a_tier=1 to multiple Pb/Cd/As cells in milk-based formula and infant cereal subcategories with Saudi-market context. The Pb/Cd/As mostly-ND finding is consistent with the broader pattern (FDA 2026 mean Pb 0.4 ppb in milk formula; FDA 2024 baby food Cd p90 22 in rice cereal). The high-Al outlier in baby powder milk (brand 19) is an anomalous data point worth flagging in HMTc review but should not drive standards math without independent confirmation.
+Certification: Adds evidence pool=1 to multiple Pb/Cd/As cells in milk-based formula and infant cereal subcategories with Saudi-market context. The Pb/Cd/As mostly-ND finding is consistent with the broader pattern (FDA 2026 mean Pb 0.4 ppb in milk formula; FDA 2024 baby food Cd p90 22 in rice cereal). The high-Al outlier in baby powder milk (brand 19) is an anomalous data point worth flagging in HMTc review but should not drive standards math without independent confirmation.
 
 Courses: Useful for teaching brand-to-brand variation in baby formula Al content, and the importance of method sensitivity for very-high-Al products (where total-Al values can vary by orders of magnitude based on ingredient sourcing).
 
@@ -100,7 +100,7 @@ Microbiome: No direct microbiome endpoint.
 
 ## Provenance Notes
 
-Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/external-fetch/elsheikh2020.pdf`. CC BY 4.0 license per the publisher (Asian Publication Corporation); the wiki cites the article record (DOI 10.14233/ajchem.2020.22499).
+Karen externally fetched this paper on 2026-05-09 and dropped it at the source archive. CC BY 4.0 license per the publisher (Asian Publication Corporation); the wiki cites the article record (DOI 10.14233/ajchem.2020.22499).
 
 ## Wiki Pages Updated On Ingest
 

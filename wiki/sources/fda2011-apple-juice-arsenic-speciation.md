@@ -8,6 +8,7 @@ publication: "U.S. Food and Drug Administration"
 source_type: gov-data
 evidence_tier: A
 access_url: https://www.fda.gov/food/environmental-contaminants-food/results-arsenic-analysis-single-strength-apple-juice-2011-ora-sampling-assignment-2011102701
+no_doi_assigned: true
 data_path: data/evidence/category5_apple_juice_arsenic_speciation_samples.csv
 summary_path: data/evidence/category5_apple_juice_arsenic_speciation_summary.csv
 license: public-domain-us-government
@@ -29,8 +30,8 @@ FDA's 2011 ORA apple-juice sampling assignment reports 94 single-strength apple-
 
 ## Structured Extract
 
-- `data/evidence/category5_apple_juice_arsenic_speciation_samples.csv`: sample-level extract with FDA sample IDs, total arsenic, inorganic arsenic, DMA, MMA, original reported values, lower-bound ppb values, and censoring notes.
-- `data/evidence/category5_apple_juice_arsenic_speciation_summary.csv`: deterministic lower-bound iAs summary rows for apple-containing juice and broader not-canned juice context.
+- the structured evidence layer: sample-level extract with FDA sample IDs, total arsenic, inorganic arsenic, DMA, MMA, original reported values, lower-bound ppb values, and censoring notes.
+- the structured evidence layer: deterministic lower-bound iAs summary rows for apple-containing juice and broader not-canned juice context.
 
 ## Key Numbers
 

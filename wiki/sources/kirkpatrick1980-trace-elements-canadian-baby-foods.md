@@ -54,7 +54,7 @@ This **B-tier 1980 historical reference paper** from Health Protection Branch, H
 - **1980 mean Pb prepared formula 30 ppb** (LOD-floored) vs **FDA 2026 mean Pb milk-based formula 0.4 ppb** (clean ICP-MS): demonstrates ~75× reduction over 50 years.
 - **1980 mean Pb juice category 220 ppb** (LOD-floored) vs **FDA 2024 mean Pb juices 1.5 ppb** (modern): ~150× reduction reflecting lead-soldered can phaseout.
 - **1980 mean Cd cereals 70 ppb** (LOD-floored) vs **FDA 2024 mean Cd rice cereals 11.4 ppb** (modern): ~6× reduction.
-- **1980 mean Cr cereals 0.31 ppm = 310 ppb total** — likely overestimate due to AAS detection-limit floor + matrix interferences; modern LC-ICP-MS finds total Cr in baby cereals around 50-150 ppb (Hernandez 2019, Sadiq 2021). Kirkpatrick reports total Cr only — no speciation; per CLAUDE.md Part 14 + Hernandez 2019 + Saraiva 2021 chemistry, food-matrix Cr is essentially Cr(III), so total ≠ Cr-VI.
+- **1980 mean Cr cereals 0.31 ppm = 310 ppb total** — likely overestimate due to AAS detection-limit floor + matrix interferences; modern LC-ICP-MS finds total Cr in baby cereals around 50-150 ppb (Hernandez 2019, Sadiq 2021). Kirkpatrick reports total Cr only — no speciation; + Hernandez 2019 + Saraiva 2021 chemistry, food-matrix Cr is essentially Cr(III), so total ≠ Cr-VI.
 
 ### Estimated daily intake (μg/kg body weight/day, as consumed)
 
@@ -69,23 +69,23 @@ The 1980 Pb intake estimates (4.4-8.1 μg/kg bw/day) **exceeded the FAO/WHO PTWI
 
 ## Routing to HMTc subcategories
 
-| Subcategory | Route | n_a_tier impact |
+| Subcategory | Route | evidence-pool impact |
 | --- | --- | --- |
-| [[products/infant-formula-powder-non-soy]] | Direct: 4 brands powdered formula. | Adds n_a_tier=1 with **historical-baseline caveat**; LOD-floor overstates 1980 means. Pb mean 30 ppb is 75× modern means; useful for trajectory documentation, not modern percentile math. |
-| [[products/ready-to-feed-formula]] | Direct: 13 prepared (liquid) formula brands. | Adds n_a_tier=1 with same caveat. |
-| [[products/meat-poultry-purees]] | Direct: 41 strained + 35 junior meat samples (n=76). | Adds n_a_tier=1. Pb max 0.15 ppm in junior meats is high but LOD-influenced. |
-| [[products/vegetable-purees-non-root]] | Indirect: vegetable categories don't split root vs non-root in 1980 paper. | Adds n_a_tier=1 with caveat. |
-| [[products/root-vegetable-purees]] | Same caveat. | Adds n_a_tier=1. |
-| [[products/fruit-purees]] | Direct: portion of categories 7+8 covering single-fruit purees. | Adds n_a_tier=1. Apple-sauce, peach, apple-pie samples flagged for Pb 0.11-0.24 ppm (= 110-240 ppb, lead-soldered-can era; modern equivalents are <5 ppb). |
-| [[products/mixed-purees-with-fruit]] | Direct: dessert subset of categories 7+8. | Adds n_a_tier=1. |
-| [[products/baby-cereals-dry-rice-based]] | Indirect: categories 10 cereals, rice/non-rice not split; teething biscuits flagged separately. | Adds n_a_tier=1 with caveat; cereals had highest Cr (0.31 ppm), Cd (0.07 ppm), Mn (20 ppm), Ni (1.12 ppm) likely from solids density + 1980-era ingredient sourcing. |
-| [[products/baby-cereals-dry-non-rice]] | Same caveat. | Adds n_a_tier=1. |
+| [[products/infant-formula-powder-non-soy]] | Direct: 4 brands powdered formula. | Adds evidence pool=1 with **historical-baseline caveat**; LOD-floor overstates 1980 means. Pb mean 30 ppb is 75× modern means; useful for trajectory documentation, not modern percentile math. |
+| [[products/ready-to-feed-formula]] | Direct: 13 prepared (liquid) formula brands. | Adds evidence pool=1 with same caveat. |
+| [[products/meat-poultry-purees]] | Direct: 41 strained + 35 junior meat samples (n=76). | Adds evidence pool=1. Pb max 0.15 ppm in junior meats is high but LOD-influenced. |
+| [[products/vegetable-purees-non-root]] | Indirect: vegetable categories don't split root vs non-root in 1980 paper. | Adds evidence pool=1 with caveat. |
+| [[products/root-vegetable-purees]] | Same caveat. | Adds evidence pool=1. |
+| [[products/fruit-purees]] | Direct: portion of categories 7+8 covering single-fruit purees. | Adds evidence pool=1. Apple-sauce, peach, apple-pie samples flagged for Pb 0.11-0.24 ppm (= 110-240 ppb, lead-soldered-can era; modern equivalents are <5 ppb). |
+| [[products/mixed-purees-with-fruit]] | Direct: dessert subset of categories 7+8. | Adds evidence pool=1. |
+| [[products/baby-cereals-dry-rice-based]] | Indirect: categories 10 cereals, rice/non-rice not split; teething biscuits flagged separately. | Adds evidence pool=1 with caveat; cereals had highest Cr (0.31 ppm), Cd (0.07 ppm), Mn (20 ppm), Ni (1.12 ppm) likely from solids density + 1980-era ingredient sourcing. |
+| [[products/baby-cereals-dry-non-rice]] | Same caveat. | Adds evidence pool=1. |
 
-**Out-of-scope for HMTc Cat 1**: Category 9 juices/drinks (routes to Cat 5 beverages); Category 11 evaporated/condensed milks (not infant-specific; routes to dairy if HMTc covers it).
+**Out-of-scope for the HMT&C certification program**: Category 9 juices/drinks (routes to Cat 5 beverages); Category 11 evaporated/condensed milks (not infant-specific; routes to dairy if HMTc covers it).
 
 ## Geographic-context flag
 
-Canadian-market 1975 sample collection, published 1980. Pre-PMTDI tightening, pre-lead-soldered-can phaseout (Canadian regulation came in early 1980s following USDA/FDA action). The high-Pb juice readings (max 0.84 ppm = 840 ppb) are explicitly attributed by the authors to lead-soldered cans, eliminated from the supply chain by ~1990. Per CLAUDE.md Part 6, this jurisdiction-context is required when contributing to a global aggregate; for HMTc threshold-setting, modern post-2010 data should drive percentile math while Kirkpatrick 1980 anchors the historical floor.
+Canadian-market 1975 sample collection, published 1980. Pre-PMTDI tightening, pre-lead-soldered-can phaseout (Canadian regulation came in early 1980s following USDA/FDA action). The high-Pb juice readings (max 0.84 ppm = 840 ppb) are explicitly attributed by the authors to lead-soldered cans, eliminated from the supply chain by ~1990. this jurisdiction-context is required when contributing to a global aggregate; for HMTc threshold-setting, modern post-2010 data should drive percentile math while Kirkpatrick 1980 anchors the historical floor.
 
 ## Methods (brief)
 
@@ -99,7 +99,7 @@ EF-3 limited evidence with B-tier rating. The methodology is appropriate for 198
 
 - **AAS LOD floor 0.01 ppm = 10 ppb** for all elements — vastly higher than modern ICP-MS LOD ~0.05 ppb for Pb. LOD-substitution for <LOD samples inflates means.
 - **Cd recovery 80.4% (low)** explicitly attributed to sugar interference in fruit/dessert categories (category 7-8); other-category recovery 85%.
-- **Cr is total, not speciated** — per CLAUDE.md Part 14, total Cr cannot be assigned as Cr-VI without speciation. Hernandez 2019 + Saraiva 2021 SS-ID-HPLC-ICP-MS confirm food-matrix Cr is essentially Cr(III); 1980 total Cr in cereals (0.31 ppm) is consistent with that finding.
+- **Cr is total, not speciated** — total Cr cannot be assigned as Cr-VI without speciation. Hernandez 2019 + Saraiva 2021 SS-ID-HPLC-ICP-MS confirm food-matrix Cr is essentially Cr(III); 1980 total Cr in cereals (0.31 ppm) is consistent with that finding.
 - **Mn LOD effects** in formula (0.94 ppm in powdered, 0.38 ppm in liquid) reflect Canadian fortification at 1980 levels; modern infant formula Mn is comparable.
 - **Pb max 0.84 ppm in juices** is lead-soldered-can era and not representative of modern juice supply.
 - **No Al, As (total or inorganic), or Hg measured** — paper covers a narrower analyte set than modern HMTc 10-analyte panel.
@@ -108,7 +108,7 @@ EF-3 limited evidence with B-tier rating. The methodology is appropriate for 198
 
 ## Implications
 
-Certification: Adds n_a_tier=1 to multiple subcategories with **historical-baseline caveat**. The principal use is documenting the 50-year reduction in heavy-metal exposure across infant foods (Pb ~75×, Cd ~6×, Cr levels stable at total but speciation-confirmed Cr-III) — important context for regulatory framing but not a primary percentile contributor for modern HMTc thresholds.
+Certification: Adds evidence pool=1 to multiple subcategories with **historical-baseline caveat**. The principal use is documenting the 50-year reduction in heavy-metal exposure across infant foods (Pb ~75×, Cd ~6×, Cr levels stable at total but speciation-confirmed Cr-III) — important context for regulatory framing but not a primary percentile contributor for modern HMTc thresholds.
 
 Courses: Useful teaching example for (1) the importance of method sensitivity in long-run trend analysis (1980 LOD floor 10 ppb makes pre-vs-post comparisons appear smaller than they really are), (2) the lead-soldered-can phaseout as a regulatory success story, and (3) the persistence of relatively elevated Cd in cereals due to wheat/oat soil-uptake characteristics.
 
@@ -118,7 +118,7 @@ Microbiome: No direct microbiome endpoint; pre-microbiome era.
 
 ## Provenance Notes
 
-Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/external-fetch/kirkpatrick1980 (1).pdf`. Pergamon Press 1980 (pre-Elsevier acquisition); the wiki cites the article record (DOI placeholder for the Pergamon-era article). License: publisher-licensed; full-text fetch available via Karen's institutional access.
+Karen externally fetched this paper on 2026-05-09 and dropped it at the source archive. Pergamon Press 1980 (pre-Elsevier acquisition); the wiki cites the article record (DOI placeholder for the Pergamon-era article). License: publisher-licensed; full-text fetch available via Karen's institutional access.
 
 ## Wiki Pages Updated On Ingest
 

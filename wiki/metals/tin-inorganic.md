@@ -13,7 +13,7 @@ n_sources: 4
 
 # Tin, Inorganic
 
-Inorganic tin denotes tin in the +2 (stannous, Sn2+) and +4 (stannic, Sn4+) oxidation states bound to non-carbon ligands such as chloride, sulfate, or oxide. It is the form of tin overwhelmingly present in food packaged in tinplated metal cans, the dominant dietary tin pathway in modern food systems. Inorganic tin is the form HMTc certifies against under the analyte symbol Sn (per CLAUDE.md Part 14); when occurrence surveys report total tin without speciating, the wiki treats those values as inorganic tin in food matrices unless the matrix is one with documented organotin loading (seafood, drinking water from PVC pipes, food contact with PVC plastics). For the parent element page see [[metals/tin]]; for the toxicologically distinct organotin compounds see [[metals/organotins]].
+Inorganic tin denotes tin in the +2 (stannous, Sn2+) and +4 (stannic, Sn4+) oxidation states bound to non-carbon ligands such as chloride, sulfate, or oxide. It is the form of tin overwhelmingly present in food packaged in tinplated metal cans, the dominant dietary tin pathway in modern food systems. Inorganic tin is the form HMTc certifies against under the analyte symbol Sn (per the program governance framework); when occurrence surveys report total tin without speciating, the wiki treats those values as inorganic tin in food matrices unless the matrix is one with documented organotin loading (seafood, drinking water from PVC pipes, food contact with PVC plastics). For the parent element page see [[metals/tin]]; for the toxicologically distinct organotin compounds see [[metals/organotins]].
 
 ## Toxicology
 

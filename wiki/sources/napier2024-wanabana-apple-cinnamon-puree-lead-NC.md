@@ -77,15 +77,15 @@ Speciation: Total Pb only. No speciation between Pb(II) and Pb(IV) or organic Pb
 
 ## Implications
 
-Certification: For HMTc Cat 1 fruit purees + apple-containing baby food + cinnamon/spice rows:
+Certification: For the HMT&C certification program fruit purees + apple-containing baby food + cinnamon/spice rows:
 
-1. **This is the defining recent US baby food Pb-poisoning outbreak**. The 1.9-3.0 ppm Pb levels are 100-300x the FDA action level, demonstrating that **intentional adulteration is a real and recent supply-chain risk** — not just legacy contamination from environmental Pb sources. HMTc Cat 1 fruit purees and spice-ingredient certification must specifically address adulteration-detection (Cr-VI screening as a marker for lead chromate adulteration is one approach).
+1. **This is the defining recent US baby food Pb-poisoning outbreak**. The 1.9-3.0 ppm Pb levels are 100-300x the FDA action level, demonstrating that **intentional adulteration is a real and recent supply-chain risk** — not just legacy contamination from environmental Pb sources. the HMT&C certification program fruit purees and spice-ingredient certification must specifically address adulteration-detection (Cr-VI screening as a marker for lead chromate adulteration is one approach).
 
-2. **The downstream regulatory effect**: FDA's January 2023 proposed action levels (10 ppb for fruit purees, 20 ppb for root vegetables) became more politically defensible after the WanaBana outbreak made the consequences of weak action concrete. HMTc Cat 1 positioning should reference both the FDA action level AND the WanaBana case as motivation.
+2. **The downstream regulatory effect**: FDA's January 2023 proposed action levels (10 ppb for fruit purees, 20 ppb for root vegetables) became more politically defensible after the WanaBana outbreak made the consequences of weak action concrete. the HMT&C certification program positioning should reference both the FDA action level AND the WanaBana case as motivation.
 
-3. **Hand-to-mouth transfer + ingestion combined** is the binding child Pb-exposure pathway in this outbreak. Affected children consumed 1-90+ pouches each (Household C purchased >90 pouches across multiple retail locations). Cumulative dose drove the BLL elevation. HMTc Cat 1 standards should consider the maximum-plausible weekly consumption × concentration × bioavailability for risk modeling.
+3. **Hand-to-mouth transfer + ingestion combined** is the binding child Pb-exposure pathway in this outbreak. Affected children consumed 1-90+ pouches each (Household C purchased >90 pouches across multiple retail locations). Cumulative dose drove the BLL elevation. the HMT&C certification program standards should consider the maximum-plausible weekly consumption × concentration × bioavailability for risk modeling.
 
-4. **NC's spice and home remedy survey** is the operational tool that detected the source. HMTc Cat 1 certification can defensibly require supplier surveys of "intentional additives" (colorant, flavor enhancer, anti-caking) in addition to occurrence-level testing.
+4. **NC's spice and home remedy survey** is the operational tool that detected the source. the HMT&C certification program certification can defensibly require supplier surveys of "intentional additives" (colorant, flavor enhancer, anti-caking) in addition to occurrence-level testing.
 
 5. **Adversarial cross-examination preparation**: a plaintiff's expert citing the WanaBana case to argue "even FDA-compliant baby food is unsafe" can be answered by noting that this outbreak was intentional adulteration of cinnamon (an unusual upstream ingredient), not a representative sample of FDA-compliant fruit purees. HMTc-certified products that include cinnamon need supplier-level adulteration screening.
 

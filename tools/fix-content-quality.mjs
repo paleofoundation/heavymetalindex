@@ -26,14 +26,16 @@ import fs from "node:fs"
 import path from "node:path"
 
 const repoRoot = process.cwd()
-const productsDir = path.join(repoRoot, "wiki/products")
+const args = process.argv.slice(2)
+const dirArg = args.indexOf("--dir") >= 0 ? args[args.indexOf("--dir") + 1] : "wiki/products"
+const targetDir = path.join(repoRoot, dirArg)
 
 let filesChanged = 0
 let totalReplacements = 0
 
-for (const file of fs.readdirSync(productsDir).sort()) {
+for (const file of fs.readdirSync(targetDir).sort()) {
   if (!file.endsWith(".md")) continue
-  const fullpath = path.join(productsDir, file)
+  const fullpath = path.join(targetDir, file)
   const original = fs.readFileSync(fullpath, "utf8")
   const fixed = fixOne(original)
   if (fixed !== original) {
@@ -42,7 +44,7 @@ for (const file of fs.readdirSync(productsDir).sort()) {
   }
 }
 
-console.log(`Content-quality fixer: ${filesChanged} file(s) updated, ${totalReplacements} total replacements.`)
+console.log(`Content-quality fixer (${dirArg}): ${filesChanged} file(s) updated, ${totalReplacements} total replacements.`)
 
 function fixOne(text) {
   // Preserve frontmatter; only operate on body.
@@ -97,6 +99,17 @@ function applyRules(line) {
   out = out.replace(/\bHMTc row \d+\b/g, "this product row")
   out = out.replace(/\bCategory [12345] row \d+\b/g, "this product row")
   out = out.replace(/\bHMTc Cat ?[12345]\b/g, "the HMT&C certification program")
+  // Bare "HMTc Category N" (without "row N") — covers source-page text
+  // like "routes directly to multiple HMTc Category 1 and Category 5
+  // rice-based subcategory pages"
+  out = out.replace(/\bHMTc Category [12345] and Category [12345] ([a-z][a-z-]+) subcategory pages\b/gi,
+    "this product taxonomy's $1 subcategory pages")
+  out = out.replace(/\bHMTc Category [12345]\b/g, "the relevant HMT&C product taxonomy")
+  // "Path A source" / "Path B source" — routing classifications that
+  // should be rephrased to literature-evidence terms on source pages
+  out = out.replace(/\bPrimary Path A source for\b/g, "Direct-evidence source for")
+  out = out.replace(/\bPath A source\b/g, "direct-evidence source")
+  out = out.replace(/\bPath B source\b/g, "supporting-context source")
 
   // ----- Rule A2: Cat N Row N / Cat N codename patterns (Category 2 scaffolds) -----
   out = out.replace(/\bThis page is a Step 0 lock scaffold for Cat ?[12345] Row \d+\b\.?/gi,
@@ -112,6 +125,11 @@ function applyRules(line) {
   out = out.replace(/\bStep 0 lock\b/gi, "scope lock")
   out = out.replace(/\bCat ?2 clean-contaminated pair\b/gi, "clean-contaminated pair")
   out = out.replace(/\bCat ?2\b/g, "the children's personal care category")
+  // Workbench-internal pooling vocabulary that surfaces on source-page
+  // routing tables. n_a_tier is the loaded A-tier source count; the
+  // public-facing equivalent is "evidence pool" / "evidence-pool impact".
+  out = out.replace(/\bn_a_tier impact\b/g, "evidence-pool impact")
+  out = out.replace(/\bn_a_tier\b/g, "evidence pool")
 
   // ----- Rule B: Category N Evidence Fitness pilot → neutral framing -----
   out = out.replace(/\bThis page is part of the Category [12345] Evidence Fitness pilot\.?\s*/gi,
@@ -149,6 +167,16 @@ function applyRules(line) {
   // "per CLAUDE.md Part 12, X" → "X" (lowercase x preserved; cap fixed by post-cleanup)
   out = out.replace(/\bPer CLAUDE\.md Part \d+,\s+/gi, "")
   out = out.replace(/\bper CLAUDE\.md Part \d+,?\s+/gi, "")
+  // "Per CLAUDE.md microbiome-page scoping" / "per CLAUDE.md X" without Part N
+  // Topic can be either lowercase ("microbiome-page") or capitalized
+  // ("Microbiome-page"). Match both.
+  out = out.replace(/\bPer CLAUDE\.md\s+([A-Za-z][\w-]*[\w-])\b/g, "Per the $1 convention")
+  out = out.replace(/\bper CLAUDE\.md\s+([A-Za-z][\w-]*[\w-])\b/g, "per the $1 convention")
+  out = out.replace(/\bPer OPERATING\.md\s+([A-Za-z][\w-]*[\w-])\b/g, "Per the $1 convention")
+  out = out.replace(/\bper OPERATING\.md\s+([A-Za-z][\w-]*[\w-])\b/g, "per the $1 convention")
+  // "per CLAUDE.md:" (colon-terminated) — common in mid-sentence citations
+  out = out.replace(/\bper CLAUDE\.md:/g, "per the program governance framework:")
+  out = out.replace(/\bPer CLAUDE\.md:/g, "Per the program governance framework:")
   out = out.replace(/\bPer OPERATING\.md Part \d+,\s+/gi, "")
   out = out.replace(/\bper OPERATING\.md Part \d+,?\s+/gi, "")
   out = out.replace(/\bPer AGENTS\.md Part \d+,\s+/gi, "")

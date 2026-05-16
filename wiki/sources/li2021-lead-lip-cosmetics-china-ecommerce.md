@@ -80,15 +80,15 @@ Health risk: USEPA standard ADD/HQ/CR equations × Monte Carlo simulation for ad
 
 ## Implications
 
-Certification: For HMTc Cat 2 lip-cosmetics row (lipstick, lip gloss, lip balm — three distinct sub-rows by product format):
+Certification: For the HMT&C certification program lip-cosmetics row (lipstick, lip gloss, lip balm — three distinct sub-rows by product format):
 
 1. **The Chinese e-commerce upper tail (0.5237 mg/kg) is substantially cleaner than older / other-market studies (up to 15 mg/kg)**. This is either (a) e-commerce platform-driven quality screening, (b) selection bias (best-selling vs. random products), or (c) genuine market improvement over the 2015-2021 period.
 
 2. **At these concentrations, lip-cosmetic Pb is NOT a meaningful contributor to children's blood Pb** — background environmental Pb dominates. HMTc threshold-setting for lip cosmetics should be calibrated against this finding: a Pb threshold for lip products that's tight enough to exclude the top 1% of upper-tail products (e.g., 0.5 mg/kg) protects the population without overstating individual product risk.
 
-3. **The three lip-product formats (lipstick, gloss, balm) likely have different ingestion-fraction profiles** (lipsticks have higher ingestion via lip-licking; balms are spread thinner; glosses have intermediate). This study aggregates across formats; future Cat 2 work should split format-specific exposure modelling.
+3. **The three lip-product formats (lipstick, gloss, balm) likely have different ingestion-fraction profiles** (lipsticks have higher ingestion via lip-licking; balms are spread thinner; glosses have intermediate). This study aggregates across formats; future the children's personal care category work should split format-specific exposure modelling.
 
-4. **Children's lip balm specifically** (a Cat 2 row distinct from adult lip cosmetics) needs dedicated occurrence data. Children frequently apply balm and have higher ingestion fractions than adults; the IEUBK model output here is for hypothetical children using adult products.
+4. **Children's lip balm specifically** (the children's personal care category row distinct from adult lip cosmetics) needs dedicated occurrence data. Children frequently apply balm and have higher ingestion fractions than adults; the IEUBK model output here is for hypothetical children using adult products.
 
 Courses: Good case study for ICP-MS quantification of cosmetic Pb at sub-mg/kg levels and for USEPA + Monte Carlo risk-assessment methodology applied to a cosmetic exposure surface.
 
@@ -99,10 +99,10 @@ Microbiome: Not addressed.
 ## Wiki pages updated on ingest
 
 - [[metals/lead]]
-- [[products/lip-cosmetics]] (Cat 2 row family — to be created)
-- [[products/lipstick]] (Cat 2 row — to be created)
-- [[products/lip-gloss]] (Cat 2 row — to be created)
-- [[products/lip-balm]] (Cat 2 row — to be created)
+- [[products/lip-cosmetics]] (the children's personal care category row family — to be created)
+- [[products/lipstick]] (the children's personal care category row — to be created)
+- [[products/lip-gloss]] (the children's personal care category row — to be created)
+- [[products/lip-balm]] (the children's personal care category row — to be created)
 - [[products/children-personal-care]]
 - [[regulations/china-cosmetic-impurity-limits]] (to be created)
 - [[regulations/fda-cir-cosmetic-impurities]] (related)

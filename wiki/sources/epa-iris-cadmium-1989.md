@@ -45,7 +45,7 @@ This is the operative US Environmental Protection Agency Integrated Risk Informa
 
 License `us-government-work`. The primary source is the EPA IRIS database web page, which is the canonical agency reference for the assessment summary; values cited here are extracted directly from the EPA IRIS web resource at `iris.epa.gov`. The companion PDF "IRIS Summary" referenced on the EPA IRIS page is a 13-page document not currently held in `raw/`; SHA-256 verification of the raw PDF is pending future ingestion. The agency-website reference is a sufficient primary-source citation for the values recorded above because the IRIS database itself is the EPA's authoritative publication channel for chemical assessment summaries.
 
-The 1989 assessment is the operative EPA IRIS RfD; a 1999 external review draft (separately retained in `raw/reports/EPA_IRIS_Cadmium_ToxicologicalReview.pdf`, ingested as a "deferred historical" document at [[sources/]] but without a finalized source page) proposed a reassessment that was never adopted. The 1989 values therefore remain the operative US federal cadmium oral reference doses.
+The 1989 assessment is the operative EPA IRIS RfD; a 1999 external review draft (separately retained in the source archive, ingested as a "deferred historical" document at [[sources/]] but without a finalized source page) proposed a reassessment that was never adopted. The 1989 values therefore remain the operative US federal cadmium oral reference doses.
 
 ## Implications
 

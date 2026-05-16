@@ -26,7 +26,7 @@ created_by: claude_opus_47_session
 
 # Arshad et al. 2020 — Cd, Cr, Fe, Ni, Pb in 63 cosmetic products, Pakistan
 
-This study quantifies cadmium, chromium, iron, nickel, and lead in 63 brand-level cosmetic products (in triplicate, 189 measurements total) from three Pakistani markets across six product categories: lotions, foundations, whitening creams, lipsticks, hair dyes, and sunblock creams. **Sunblock creams carry the highest Ni, Pb, and Cr concentrations** (7.99±0.36, 6.37±0.05, 0.43±0.01 mg/kg respectively); lipsticks carry the highest Fe (12.0±1.8 mg/kg); lotions carry the highest Cd (0.26±0.02 mg/kg). Health-risk assessment uses USEPA Margin of Safety (MoS), Hazard Quotient (HQ), Hazard Index (HI), and Lifetime Cancer Risk (LCR). **MoS, HQ, and HI stay within permissible limits for lotions and sunblocks across all five metals; LCR exceeds the permissible limit in every cosmetic product category EXCEPT lipsticks**, signalling potential carcinogenic risk from regular long-term use. This is the most comprehensive Cat 2 cosmetic-occurrence source ingested to date and the only one covering sunblock as a primary measurement.
+This study quantifies cadmium, chromium, iron, nickel, and lead in 63 brand-level cosmetic products (in triplicate, 189 measurements total) from three Pakistani markets across six product categories: lotions, foundations, whitening creams, lipsticks, hair dyes, and sunblock creams. **Sunblock creams carry the highest Ni, Pb, and Cr concentrations** (7.99±0.36, 6.37±0.05, 0.43±0.01 mg/kg respectively); lipsticks carry the highest Fe (12.0±1.8 mg/kg); lotions carry the highest Cd (0.26±0.02 mg/kg). Health-risk assessment uses USEPA Margin of Safety (MoS), Hazard Quotient (HQ), Hazard Index (HI), and Lifetime Cancer Risk (LCR). **MoS, HQ, and HI stay within permissible limits for lotions and sunblocks across all five metals; LCR exceeds the permissible limit in every cosmetic product category EXCEPT lipsticks**, signalling potential carcinogenic risk from regular long-term use. This is the most comprehensive the children's personal care category cosmetic-occurrence source ingested to date and the only one covering sunblock as a primary measurement.
 
 ## Key numbers
 
@@ -119,21 +119,21 @@ Risk assessment formulas (paper Eqs 1-6):
 
 ## Implications
 
-Certification: For HMTc Cat 2 covering cosmetic categories beyond just children's products:
+Certification: For the HMT&C certification program covering cosmetic categories beyond just children's products:
 
-1. **Sunblock is the highest-Pb cosmetic category** (~6.4 mg/kg mean) — relevant for children's-sunscreen Cat 2 rows. The HMTc Cat 2 children-sunscreen threshold should anchor on this finding plus the daily-reapplication frequency and high body-surface coverage of pediatric sunscreen use.
+1. **Sunblock is the highest-Pb cosmetic category** (~6.4 mg/kg mean) — relevant for children's-sunscreen the children's personal care category rows. The the HMT&C certification program children-sunscreen threshold should anchor on this finding plus the daily-reapplication frequency and high body-surface coverage of pediatric sunscreen use.
 
-2. **Whitening creams concentrate Pb because of intentional pigment formulation history**. While whitening creams are not typically a children's product, the cross-contamination of whitening-cream raw materials into other cosmetic supply chains is a real risk that HMTc Cat 2 should address via supplier audits.
+2. **Whitening creams concentrate Pb because of intentional pigment formulation history**. While whitening creams are not typically a children's product, the cross-contamination of whitening-cream raw materials into other cosmetic supply chains is a real risk that the HMT&C certification program should address via supplier audits.
 
-3. **The LCR exceedance across all categories except lipsticks** is the most defensibility-relevant finding. Brand legal teams reading this page should note that the Arshad 2020 dataset specifically supports the claim that "regular use of cosmetics over a lifetime exceeds acceptable cancer-risk thresholds at observed Pakistani-market concentrations." Pakistan-market is one geography; HMTc Cat 2 thresholds must adjudicate whether US/EU/global supply chains show similar LCR exceedance.
+3. **The LCR exceedance across all categories except lipsticks** is the most defensibility-relevant finding. Brand legal teams reading this page should note that the Arshad 2020 dataset specifically supports the claim that "regular use of cosmetics over a lifetime exceeds acceptable cancer-risk thresholds at observed Pakistani-market concentrations." Pakistan-market is one geography; the HMT&C certification program thresholds must adjudicate whether US/EU/global supply chains show similar LCR exceedance.
 
-4. **Lotions L1 (Nivea) and L19 (Johnson's baby lotion)** are baby-applicable products with concerningly high Pb (4.57 and 7.94 mg/kg respectively). These are name-brand products available globally; this is not a "regional / disreputable supplier" issue. Per CLAUDE.md Part 12, brand-level values are not reproduced into product-category pages from this source; this source-page citation stands.
+4. **Lotions L1 (Nivea) and L19 (Johnson's baby lotion)** are baby-applicable products with concerningly high Pb (4.57 and 7.94 mg/kg respectively). These are name-brand products available globally; this is not a "regional / disreputable supplier" issue. brand-level values are not reproduced into product-category pages from this source; this source-page citation stands.
 
-5. **Iron concentrations** in foundations are very high (mean 9.6, max 45.4 mg/kg) but Fe is not a HMTc-10 panel metal. Captured here for completeness but doesn't change Cat 2 thresholds.
+5. **Iron concentrations** in foundations are very high (mean 9.6, max 45.4 mg/kg) but Fe is not a HMTc-10 panel metal. Captured here for completeness but doesn't change the children's personal care category thresholds.
 
 Courses: Strong case study for cosmetic risk assessment. The full MoS/HQ/HI/LCR machinery is documented in the paper; the 200+ data points across 5 metals × 6 categories × 6-30 brands provide excellent teaching examples.
 
-App: For the consumer app, sunblock + whitening cream + foundation are the highest-concern Cat 2 categories for Pb. The lipstick LCR-low finding is counterintuitive (lipstick has high ingestion-fraction) and warrants further investigation — possibly the smaller per-application volume drives the lower LCR in this paper's modelling.
+App: For the consumer app, sunblock + whitening cream + foundation are the highest-concern the children's personal care category categories for Pb. The lipstick LCR-low finding is counterintuitive (lipstick has high ingestion-fraction) and warrants further investigation — possibly the smaller per-application volume drives the lower LCR in this paper's modelling.
 
 Microbiome: Not addressed.
 
@@ -143,12 +143,12 @@ Microbiome: Not addressed.
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/lead]]
-- [[products/lotion]] (Cat 2 row — to be created)
-- [[products/foundation]] (Cat 2 row — to be created)
-- [[products/whitening-cream]] (Cat 2 row — to be created)
+- [[products/lotion]] (the children's personal care category row — to be created)
+- [[products/foundation]] (the children's personal care category row — to be created)
+- [[products/whitening-cream]] (the children's personal care category row — to be created)
 - [[products/lipstick]]
-- [[products/hair-dye]] (Cat 2 row — to be created)
-- [[products/sunblock]] (Cat 2 row — to be created)
+- [[products/hair-dye]] (the children's personal care category row — to be created)
+- [[products/sunblock]] (the children's personal care category row — to be created)
 - [[products/children-personal-care]]
 - [[regulations/sccs-cosmetic-impurities]] (to be created)
 - [[regulations/canada-hcsc-cosmetic-impurities]] (to be created)

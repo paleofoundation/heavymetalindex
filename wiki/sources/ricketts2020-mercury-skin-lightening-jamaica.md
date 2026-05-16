@@ -74,13 +74,13 @@ Speciation: Total mercury only by both methods. No speciation between elemental,
 
 ## Implications
 
-Certification: For HMTc Cat 2 skin-lightening products row:
+Certification: For the HMT&C certification program skin-lightening products row:
 
-1. **The upper tail (3 products >400 ppm) is the dominant public-health story**. HMTc Cat 2 skin-lightening thresholds at the FDA 1 ppm level (or tighter) catch 10% of Jamaican-market products. A precautionary threshold below 0.5 ppm catches the same plus the next concerning tier.
+1. **The upper tail (3 products >400 ppm) is the dominant public-health story**. the HMT&C certification program skin-lightening thresholds at the FDA 1 ppm level (or tighter) catch 10% of Jamaican-market products. A precautionary threshold below 0.5 ppm catches the same plus the next concerning tier.
 
-2. **Skin-lightening products are a high-stakes Cat 2 row** even though the user-base skews adult — 51% of female users apply more than once per day, and pregnant/lactating users transmit Hg to fetus/infant. This makes skin-lightening creams in households with infants a meaningful child-exposure pathway even when the product is not directly applied to the child.
+2. **Skin-lightening products are a high-stakes the children's personal care category row** even though the user-base skews adult — 51% of female users apply more than once per day, and pregnant/lactating users transmit Hg to fetus/infant. This makes skin-lightening creams in households with infants a meaningful child-exposure pathway even when the product is not directly applied to the child.
 
-3. **CLAUDE.md Part 14 speciation rule applies**: total Hg here is not equivalent to MeHg. Inorganic mercury (the typical skin-lightening additive) is the dominant species; MeHg formation in skin-lightening creams is documented in some products per the paper's introduction but not measured here. HMTc Cat 2 should require speciated mercury measurement for any product where mercury is intentionally added vs. an impurity.
+3. **the program governance framework speciation rule applies**: total Hg here is not equivalent to MeHg. Inorganic mercury (the typical skin-lightening additive) is the dominant species; MeHg formation in skin-lightening creams is documented in some products per the paper's introduction but not measured here. the HMT&C certification program should require speciated mercury measurement for any product where mercury is intentionally added vs. an impurity.
 
 4. **The 17,547 ppm upper tail** illustrates that vendor self-regulation is insufficient for this product class. State-level (Washington TFCA-style) bans on Hg in skin-lightening cosmetics are operative in EU and many African nations; the US is fragmented.
 
@@ -94,8 +94,8 @@ Microbiome: Not addressed.
 
 - [[metals/mercury-total]]
 - [[metals/mercury]]
-- [[products/skin-lightening-cream]] (Cat 2 row — to be created)
-- [[products/skin-lightening-lotion]] (Cat 2 row — to be created)
-- [[products/skin-lightening-soap]] (Cat 2 row — to be created)
+- [[products/skin-lightening-cream]] (the children's personal care category row — to be created)
+- [[products/skin-lightening-lotion]] (the children's personal care category row — to be created)
+- [[products/skin-lightening-soap]] (the children's personal care category row — to be created)
 - [[products/children-personal-care]]
 - [[regulations/fda-cosmetic-mercury-1ppm]] (to be created)

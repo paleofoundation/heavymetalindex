@@ -54,11 +54,11 @@ Sample preparation: 1 g of finely-ground baby powder digested with ~5 mL concent
 
 ## Implications
 
-Certification: This source is one of very few peer-reviewed data points for heavy metals in baby talcum powders specifically (most cosmetics-heavy-metals literature pools all cosmetics or focuses on adult products). For an HMTc Cat 2 (Children Personal Care) row covering talcum powders, this paper supports a literature baseline for Pb, Cd, and tHg in finished product, but the n=3 sample size and B-tier evidence rating (regional journal, no QC/recovery reporting) mean it cannot anchor a threshold on its own. The brand-specific values are not reproduced into the wiki's talcum-powder product page per CLAUDE.md Part 12; the paper is referenced as a citation.
+Certification: This source is one of very few peer-reviewed data points for heavy metals in baby talcum powders specifically (most cosmetics-heavy-metals literature pools all cosmetics or focuses on adult products). For the HMT&C certification program (Children Personal Care) row covering talcum powders, this paper supports a literature baseline for Pb, Cd, and tHg in finished product, but the n=3 sample size and B-tier evidence rating (regional journal, no QC/recovery reporting) mean it cannot anchor a threshold on its own. The brand-specific values are not reproduced into the wiki's talcum-powder product page per the program governance framework; the paper is referenced as a citation.
 
-Note on cosmetic vs ingestion exposure: Talcum powder is not a food, so the dose pathway differs from CLAUDE.md Cat 1 reasoning. Per OPERATING.md Part 7 initiative 3.1, the methodology for Cat 2 (personal care) needs a non-ingestion-exposure supplement before HMTc thresholds can be defended. This source documents that pica behaviour and aspiration are relevant exposure routes in infants, which means the toxicology basis for Cat 2 thresholds will need to combine dermal/inhalation default factors with the same total-metal occurrence data the ingestion-pathway analysis uses.
+Note on cosmetic vs ingestion exposure: Talcum powder is not a food, so the dose pathway differs from CLAUDE.md Cat 1 reasoning. initiative 3.1, the methodology for the children's personal care category (personal care) needs a non-ingestion-exposure supplement before HMTc thresholds can be defended. This source documents that pica behaviour and aspiration are relevant exposure routes in infants, which means the toxicology basis for the children's personal care category thresholds will need to combine dermal/inhalation default factors with the same total-metal occurrence data the ingestion-pathway analysis uses.
 
-Courses: Useful as an introductory example of AAS quantification of trace metals in cosmetic matrices. The methodological gaps (no QC, no LOD reporting) are also teachable as what NOT to do in a Cat 2 occurrence study.
+Courses: Useful as an introductory example of AAS quantification of trace metals in cosmetic matrices. The methodological gaps (no QC, no LOD reporting) are also teachable as what NOT to do in the children's personal care category occurrence study.
 
 App: For the consumer-facing app, baby talcum powder is a non-food category but the same risk-scoring logic applies. The per-brand values are illustrative but the broader signal is that mid-tier Indian-market baby talcum powders all carry detectable Pb in the 0.2–0.5 ppm range, well below FDA cosmetic limits but well above the 0–0.1 ppm range typical of well-controlled western brands.
 
@@ -69,5 +69,5 @@ Microbiome: Not applicable — paper does not address microbiome.
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
-- [[products/baby-talcum-powder]] (Cat 2 stub — to be created)
-- [[products/children-personal-care]] (Cat 2 master — to be created)
+- [[products/baby-talcum-powder]] (the children's personal care category stub — to be created)
+- [[products/children-personal-care]] (the children's personal care category master — to be created)

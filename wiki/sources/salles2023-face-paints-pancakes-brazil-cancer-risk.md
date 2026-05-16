@@ -70,17 +70,17 @@ Speciation: Total Cr by ICP-MS, with Cr-VI fraction estimated using ABS_gi (gast
 
 ## Implications
 
-Certification: For HMTc Cat 2 face-paint / costume-cosmetic row:
+Certification: For the HMT&C certification program face-paint / costume-cosmetic row:
 
-1. **Cancer risk from chronic dermal exposure is the dominant concern**, not incidental ingestion. HMTc Cat 2 thresholds for face paints should anchor on dermal-absorbed-dose × lifetime-application-frequency for both children and adult-occupational users.
+1. **Cancer risk from chronic dermal exposure is the dominant concern**, not incidental ingestion. the HMT&C certification program thresholds for face paints should anchor on dermal-absorbed-dose × lifetime-application-frequency for both children and adult-occupational users.
 
-2. **Adult occupational exposure (theater, makeup artists, costumed entertainers) is the highest-risk scenario** — cancer risk 10⁻³ to 10⁻⁵, well above the 10⁻⁴ acceptable threshold. HMTc Cat 2 face-paint certification should include the occupational-use scenario, not just the once-yearly Halloween / Carnival use scenario.
+2. **Adult occupational exposure (theater, makeup artists, costumed entertainers) is the highest-risk scenario** — cancer risk 10⁻³ to 10⁻⁵, well above the 10⁻⁴ acceptable threshold. the HMT&C certification program face-paint certification should include the occupational-use scenario, not just the once-yearly Halloween / Carnival use scenario.
 
 3. **As, Pb, and Cr-VI are the binding carcinogenic-risk analytes** because they have the dermal slope factors and dermal absorption fractions in the model. Cd, Ni, Sb contribute to non-carcinogenic hazard quotient but not the cancer risk.
 
 4. **Color matters**: face paints in different colors carry different pigment loads (red and yellow tend toward Cd-pigments; black toward Mn/Fe; white toward TiO2 with Pb impurities; brown toward iron oxides). The paper's per-color data should inform per-color HMTc thresholds rather than a single matrix threshold.
 
-5. **Brazilian Carnival + US Halloween + children's parties** are the realistic user scenarios. HMTc Cat 2 face-paint certification needs to default to "regular use" assumptions (multiple events per year × multi-hour applications) rather than a single-application worst case.
+5. **Brazilian Carnival + US Halloween + children's parties** are the realistic user scenarios. the HMT&C certification program face-paint certification needs to default to "regular use" assumptions (multiple events per year × multi-hour applications) rather than a single-application worst case.
 
 6. **The Campaign for Safe Cosmetics 2009 finding (100% face paints had Pb, 60% had allergen-level Ni/Co/Cr)** is consistent with this paper's results — face paints have systematically higher heavy-metal load than regular makeup because they use cheaper / less-refined pigments.
 
@@ -101,7 +101,7 @@ Microbiome: Not addressed.
 - [[metals/lead]]
 - [[metals/antimony]]
 - [[metals/tin]]
-- [[products/face-paint]] (Cat 2 row — to be created)
-- [[products/costume-cosmetics]] (Cat 2 row — to be created)
+- [[products/face-paint]] (the children's personal care category row — to be created)
+- [[products/costume-cosmetics]] (the children's personal care category row — to be created)
 - [[products/children-personal-care]]
-- [[health/cat-2-non-ingestion-exposure-pathways]] — this paper's methodology is the canonical reference for the Cat 2 dermal-exposure modelling described in the supplement
+- [[health/cat-2-non-ingestion-exposure-pathways]] — this paper's methodology is the canonical reference for the children's personal care category dermal-exposure modelling described in the supplement

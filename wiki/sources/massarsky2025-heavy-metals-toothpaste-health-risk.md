@@ -70,13 +70,13 @@ Limitations: B-tier evidence chain at the data-source level (consumer-advocacy t
 
 ## Implications
 
-Certification: For HMTc Cat 2 toothpaste row, this paper is the most relevant single source. Key findings:
+Certification: For the HMT&C certification program toothpaste row, this paper is the most relevant single source. Key findings:
 1. **Lead is the binding-concern analyte**, not Cd/Hg/As. Cd, Hg, As ADDs stay below HGVs in all toothpastes; Pb ADDs exceed HGV in 10 toothpastes for children under upper-bound use.
 2. **Toothpaste ingestion in young children (2-4 yr)** is the worst-case exposure scenario. Older children and adults face lower per-mass exposure.
-3. **The Washington State Toxic-Free Cosmetics Act 1000 ppb Pb limit** is the operative US state-level binding limit for toothpaste. HMTc Cat 2 thresholds should reconcile against this — if HMTc certifies below 1000 ppb (e.g., literature-anchored 90th percentile of clean toothpastes), the certification is meaningful; if HMTc matches 1000 ppb, the certification adds nothing over state regulation.
-4. **The Cat 2 toxicology supplement** (per OPERATING.md Part 7 initiative 3.1) for non-ingestion exposure should incorporate the toothpaste ingestion-during-brushing pathway as a discrete exposure route, separate from dermal absorption (lotions, sunscreen).
+3. **The Washington State Toxic-Free Cosmetics Act 1000 ppb Pb limit** is the operative US state-level binding limit for toothpaste. the HMT&C certification program thresholds should reconcile against this — if HMTc certifies below 1000 ppb (e.g., literature-anchored 90th percentile of clean toothpastes), the certification is meaningful; if HMTc matches 1000 ppb, the certification adds nothing over state regulation.
+4. **The the children's personal care category toxicology supplement** (initiative 3.1) for non-ingestion exposure should incorporate the toothpaste ingestion-during-brushing pathway as a discrete exposure route, separate from dermal absorption (lotions, sunscreen).
 
-Courses: Excellent case study for a Cat 2 module on screening-level risk assessment methodology. The Stantec authors' framing (ADD/HQ/HGV machinery) is the standard EPA approach and translates directly to other personal-care categories.
+Courses: Excellent case study for the children's personal care category module on screening-level risk assessment methodology. The Stantec authors' framing (ADD/HQ/HGV machinery) is the standard EPA approach and translates directly to other personal-care categories.
 
 App: For toothpaste products, the binding consumer-app concern is Pb in the upper tail. A per-product Pb concentration above ~200 ppb (corresponding to >~0.1 µg/day Pb ingestion in children) is the threshold at which screening-level risk assessment starts flagging concern.
 
@@ -88,7 +88,7 @@ Microbiome: Not applicable.
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
-- [[products/toothpaste]] (Cat 2 row — to be created)
+- [[products/toothpaste]] (the children's personal care category row — to be created)
 - [[products/children-personal-care]]
-- [[regulations/washington-tfca-toothpaste-pb-1000ppb]] (Cat 2 reg — to be created)
+- [[regulations/washington-tfca-toothpaste-pb-1000ppb]] (the children's personal care category reg — to be created)
 - [[regulations/fda-ctz-pb-irl-2-2ug-day]] (related reg)

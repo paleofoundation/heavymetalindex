@@ -12,6 +12,7 @@ standards_use: context_only_until_exact_row_aggregate_review
 raw_status: tracked_manifest_only_raw_exports_gitignored
 license: public-reference-only
 access_url: https://extranet.who.int/gemsfood/?DisplayFormat=1
+no_doi_assigned: true
 program_url: https://www.who.int/teams/nutrition-and-food-safety/databases/global-environment-monitoring-system-food-contamination
 raw_path: raw/reports/gemsfood-contaminants
 data_path: raw/reports/gemsfood-contaminants/normalized/who_gemsfood_heavy_metals_samples.csv
@@ -26,9 +27,9 @@ updated: 2026-05-08
 
 ## Summary
 
-The WHO GEMS/Food Contaminants database is an official OPAL-web system for accessing contaminant levels in foods. This recovered evidence layer preserves the manifest for 193 CSV export files from GEMS/Food and 14,027 grouped food/contaminant summaries in `data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`.
+The WHO GEMS/Food Contaminants database is an official OPAL-web system for accessing contaminant levels in foods. This recovered evidence layer preserves the manifest for 193 CSV export files from GEMS/Food and 14,027 grouped food/contaminant summaries in the structured evidence layer.
 
-The raw export files and normalized sample table are source-data artifacts expected under `raw/reports/gemsfood-contaminants/`, which is intentionally gitignored. Restore or re-download those raw exports before promoting any GEMS/Food row into standards calculations.
+The raw export files and normalized sample table are source-data artifacts expected under the source archive, which is intentionally gitignored. Restore or re-download those raw exports before promoting any GEMS/Food row into standards calculations.
 
 ## Key Numbers
 
@@ -61,18 +62,18 @@ The raw export files and normalized sample table are source-data artifacts expec
 
 ## Structured Data Extract
 
-- `raw/reports/gemsfood-contaminants/normalized/who_gemsfood_heavy_metals_samples.csv`: normalized row-level extract expected after a full local re-run. Original result text, unit, LOD, LOQ, WHO region, food identifiers, food state, basis, QA field, and serial number are retained in that local raw layer.
-- `data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`: per-contaminant/per-food/per-region lower-bound summaries. Exact numeric rows are used as reported unless flagged for extreme-value review; GEMS `ND` and left-censored rows are carried as zero for lower-bound summary statistics while their LOD/LOQ/censoring fields remain separate.
-- `data/evidence/who_gemsfood_heavy_metals_raw_exports.csv`: raw export manifest with row counts, access date, source query, raw path, and SHA-256 hash for each CSV export.
-- `data/evidence/who_gemsfood_arsenic_page_routes.csv`: arsenic page-route audit for high-value food rows. These routes are context and gap-analysis inputs unless later exact-row review admits them into a product or ingredient evidence pool.
+- the source archive: normalized row-level extract expected after a full local re-run. Original result text, unit, LOD, LOQ, WHO region, food identifiers, food state, basis, QA field, and serial number are retained in that local raw layer.
+- the structured evidence layer: per-contaminant/per-food/per-region lower-bound summaries. Exact numeric rows are used as reported unless flagged for extreme-value review; GEMS `ND` and left-censored rows are carried as zero for lower-bound summary statistics while their LOD/LOQ/censoring fields remain separate.
+- the structured evidence layer: raw export manifest with row counts, access date, source query, raw path, and SHA-256 hash for each CSV export.
+- the structured evidence layer: arsenic page-route audit for high-value food rows. These routes are context and gap-analysis inputs unless later exact-row review admits them into a product or ingredient evidence pool.
 
 ## Methods
 
-The downloader recreates the public GEMS/Food search URL for each contaminant and posts the site's built-in "Export to file (csv)" action. The cleaner keeps the raw CSV files under `raw/reports/gemsfood-contaminants`, deduplicates overlapping symbol/name exports by serial and row content, maps contaminants to HMI metal/species codes, and converts supported mass-per-mass units to ug/kg. It does not infer country, brand, lot, or regulatory compliance from these rows.
+The downloader recreates the public GEMS/Food search URL for each contaminant and posts the site's built-in "Export to file (csv)" action. The cleaner keeps the raw CSV files under the source archive, deduplicates overlapping symbol/name exports by serial and row content, maps contaminants to HMI metal/species codes, and converts supported mass-per-mass units to ug/kg. It does not infer country, brand, lot, or regulatory compliance from these rows.
 
 ## Limitations
 
-GEMS/Food is a contributed global monitoring database, not a harmonized retail audit. Public exports expose WHO region rather than full country in this search view, and the rows can mix years, food states, origins, representativeness classes, and analytical QA status. Generic mercury rows remain flagged for speciation review; chromium rows are total chromium, not chromium VI. Organic arsenic, dimethylarsinic acid, monomethylarsonic acid, inorganic mercury, uranium, and other broader elements are preserved as occurrence evidence but are not all part of the active HMTc Category 1 analyte panel.
+GEMS/Food is a contributed global monitoring database, not a harmonized retail audit. Public exports expose WHO region rather than full country in this search view, and the rows can mix years, food states, origins, representativeness classes, and analytical QA status. Generic mercury rows remain flagged for speciation review; chromium rows are total chromium, not chromium VI. Organic arsenic, dimethylarsinic acid, monomethylarsonic acid, inorganic mercury, uranium, and other broader elements are preserved as occurrence evidence but are not all part of the active the relevant HMT&C product taxonomy analyte panel.
 
 ## Use Boundaries
 

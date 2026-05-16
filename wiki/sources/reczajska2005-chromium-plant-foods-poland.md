@@ -50,7 +50,7 @@ Electrothermal AAS with Zeeman background correction (ZETAAS) at 357.9 nm. Solid
 
 ## Implications
 
-**Certification:** Total Cr values in Polish fruits and vegetables are generally low (mean <40 µg/kg). However, this is total Cr, not Cr-VI. Per CLAUDE.md Part 14, total Cr must never be treated as Cr-VI unless the source speciates hexavalent chromium; this source does not.
+**Certification:** Total Cr values in Polish fruits and vegetables are generally low (mean <40 µg/kg). However, this is total Cr, not Cr-VI. total Cr must never be treated as Cr-VI unless the source speciates hexavalent chromium; this source does not.
 
 **Courses:** Useful for illustrating geographic variation in Cr content within a single country and the importance of analytical method quality (older contamination-prone AAS methods produced spuriously high values).
 

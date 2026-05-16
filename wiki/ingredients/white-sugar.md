@@ -116,7 +116,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 ## FDA TDS FY2018-FY2020 Evidence
 
-The normalized row-level data for this TDS food is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with the reporting-limit column preserved separately; reported zeroes are not rewritten as `<LOD` unless a source explicitly says to do so. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+The normalized row-level data for this TDS food is stored in the structured evidence layer, with per-food/per-analyte summaries in the structured evidence layer. Concentrations are retained as FDA reported them, with the reporting-limit column preserved separately; reported zeroes are not rewritten as `<LOD` unless a source explicitly says to do so. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Routing
 
@@ -131,7 +131,7 @@ The machine-readable contamination profile is `in_progress` for analytes measure
 
 <!-- audience: regulator, educator, app -->
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Sugar, white, granulated" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
+FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Sugar, white, granulated" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in the structured evidence layer; per-analyte distributions in the structured evidence layer. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
 
 | Metal | n | min | p10 | p50 | p90 | p95 | max | Schema |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |

@@ -24,7 +24,7 @@ updated: 2026-05-09
 
 # Hernandez et al. 2019 — Cr(VI) and Cr(III) in milk, dairy and cereal products (France)
 
-This A-tier peer-reviewed analytical study determines total chromium and hexavalent chromium in 68 French food samples representing milk, dairy, and cereal products — the categories that contribute 32% of total Cr dietary exposure for French adults and 42% for French children. The headline finding is that **Cr(VI) was not detected in any of the 68 samples** despite high method sensitivity (Cr-VI LOD 0.3-0.4 µg/kg), confirming the EFSA 2014 assessment that food matrices reduce hexavalent chromium to the trivalent form (Cr(III)). Total Cr was quantified in 58% of dairy and 76% of cereal samples; the highest mean total Cr was in breakfast cereals (269 µg/kg fresh weight) and cheese (25 µg/kg fw). The authors explicitly address older studies that reported detected Cr(VI) in food (Figueiredo et al. 2007, Ambushe et al. 2009, Soares et al. 2010, Mandiwana et al. 2011 reporting Cr(VI) at 1.3-20% of total Cr) and conclude those were "probably due to analytical artefacts or lack of specificity" given that newer LC-ICP-MS speciation finds Cr(VI) absent. Per the corrected row-fit rule (CLAUDE.md Part 6), this paper's findings extend by chemistry mechanism to infant cereal and milk-based formula matrices even though the samples are general-population French foods.
+This A-tier peer-reviewed analytical study determines total chromium and hexavalent chromium in 68 French food samples representing milk, dairy, and cereal products — the categories that contribute 32% of total Cr dietary exposure for French adults and 42% for French children. The headline finding is that **Cr(VI) was not detected in any of the 68 samples** despite high method sensitivity (Cr-VI LOD 0.3-0.4 µg/kg), confirming the EFSA 2014 assessment that food matrices reduce hexavalent chromium to the trivalent form (Cr(III)). Total Cr was quantified in 58% of dairy and 76% of cereal samples; the highest mean total Cr was in breakfast cereals (269 µg/kg fresh weight) and cheese (25 µg/kg fw). The authors explicitly address older studies that reported detected Cr(VI) in food (Figueiredo et al. 2007, Ambushe et al. 2009, Soares et al. 2010, Mandiwana et al. 2011 reporting Cr(VI) at 1.3-20% of total Cr) and conclude those were "probably due to analytical artefacts or lack of specificity" given that newer LC-ICP-MS speciation finds Cr(VI) absent. Per the corrected row-fit rule, this paper's findings extend by chemistry mechanism to infant cereal and milk-based formula matrices even though the samples are general-population French foods.
 
 ## Key Numbers
 
@@ -61,16 +61,16 @@ Mean French adult Cr(VI) exposure (UB scenario, treating <LOD as LOD): 0.0012 µ
 
 ## Routing to HMTc subcategories
 
-| Subcategory | Route | n_a_tier impact for Cr-VI |
+| Subcategory | Route | evidence-pool impact for Cr-VI |
 | --- | --- | --- |
-| [[products/baby-cereals-dry-rice-based]] | Indirect via matrix-chemistry: 9 breakfast cereals including puffed rice (Cr(VI) <LOD, total Cr in puffed-rice subset specifically is in the 35-483 ppb range across the breakfast cereal category); food-matrix Cr(VI) reduction mechanism applies to infant rice cereal. | Closes Cr-VI cell from data gap to **Path A — Cr-VI <LOD; food matrix reduces Cr(VI) to Cr(III)** (Hernandez 2019 + EFSA 2014a chemistry); n_a_tier=1 with high-quality method sensitivity. Soares 2000 detected-Cr(VI) values in milk-formula are reinterpreted as likely method artefacts per Hernandez authors' direct discussion. |
-| [[products/baby-cereals-dry-non-rice]] | Indirect via matrix-chemistry: 9 breakfast cereals + 8 bread + 1 pasta + 5 rice/wheat + 7 biscuits cover non-rice cereal matrix. | Same: Cr-VI <LOD; n_a_tier=1. |
-| [[products/infant-formula-powder-non-soy]] | Indirect via matrix-chemistry: 3 fluid milk samples cover the dairy matrix; chemistry mechanism extends to milk-based powdered formula. | Closes Cr-VI cell: Hernandez 2019 finds Cr-VI <LOD in fluid milk; supersedes Soares 2000's detected Cr(VI) in milk-formula (the older paper used ETAAS after ion exchange, a method Hernandez authors indicate is prone to artefacts). n_a_tier=1 (Hernandez 2019 primary). Soares 2000 retained as historical context only. |
-| [[products/infant-formula-rtf-liquid-non-soy]] | Indirect via matrix-chemistry. | Cr-VI <LOD; n_a_tier=1. |
-| [[products/mixed-meals-rice-containing]] | Indirect via matrix-chemistry. | Cr-VI <LOD; n_a_tier=1. |
-| [[products/mixed-meals-non-rice]] | Indirect via matrix-chemistry. | Cr-VI <LOD; n_a_tier=1. |
-| [[products/teething-and-snacks-rice-based]] | Indirect via matrix-chemistry: biscuits and rice/wheat products cover the matrix. | Cr-VI <LOD; n_a_tier=1. |
-| [[products/teething-and-snacks-non-rice]] | Indirect via matrix-chemistry. | Cr-VI <LOD; n_a_tier=1. |
+| [[products/baby-cereals-dry-rice-based]] | Indirect via matrix-chemistry: 9 breakfast cereals including puffed rice (Cr(VI) <LOD, total Cr in puffed-rice subset specifically is in the 35-483 ppb range across the breakfast cereal category); food-matrix Cr(VI) reduction mechanism applies to infant rice cereal. | Closes Cr-VI cell from data gap to **Path A — Cr-VI <LOD; food matrix reduces Cr(VI) to Cr(III)** (Hernandez 2019 + EFSA 2014a chemistry); evidence pool=1 with high-quality method sensitivity. Soares 2000 detected-Cr(VI) values in milk-formula are reinterpreted as likely method artefacts per Hernandez authors' direct discussion. |
+| [[products/baby-cereals-dry-non-rice]] | Indirect via matrix-chemistry: 9 breakfast cereals + 8 bread + 1 pasta + 5 rice/wheat + 7 biscuits cover non-rice cereal matrix. | Same: Cr-VI <LOD; evidence pool=1. |
+| [[products/infant-formula-powder-non-soy]] | Indirect via matrix-chemistry: 3 fluid milk samples cover the dairy matrix; chemistry mechanism extends to milk-based powdered formula. | Closes Cr-VI cell: Hernandez 2019 finds Cr-VI <LOD in fluid milk; supersedes Soares 2000's detected Cr(VI) in milk-formula (the older paper used ETAAS after ion exchange, a method Hernandez authors indicate is prone to artefacts). evidence pool=1 (Hernandez 2019 primary). Soares 2000 retained as historical context only. |
+| [[products/infant-formula-rtf-liquid-non-soy]] | Indirect via matrix-chemistry. | Cr-VI <LOD; evidence pool=1. |
+| [[products/mixed-meals-rice-containing]] | Indirect via matrix-chemistry. | Cr-VI <LOD; evidence pool=1. |
+| [[products/mixed-meals-non-rice]] | Indirect via matrix-chemistry. | Cr-VI <LOD; evidence pool=1. |
+| [[products/teething-and-snacks-rice-based]] | Indirect via matrix-chemistry: biscuits and rice/wheat products cover the matrix. | Cr-VI <LOD; evidence pool=1. |
+| [[products/teething-and-snacks-non-rice]] | Indirect via matrix-chemistry. | Cr-VI <LOD; evidence pool=1. |
 
 ## Resolution of the Soares 2000 Cr(VI)-detected discrepancy
 
@@ -78,7 +78,7 @@ Soares et al. 2000 reported detected Cr(VI) in 20 powdered milk infant formulas 
 
 > "Our results confirm the assumptions previously made, indicating that the detected Cr(VI) in previous studies was probably due to analytical artefacts or lack of specificity (Novotnik et al. 2013, 2015; Vacchina et al. 2015). The absence of Cr(VI) in the investigated samples may also be due to its instability in food, which is by and large a reducing medium (EFSA 2014a; Novotnik et al. 2015; Vacchina et al. 2015)."
 
-This is a methodologically-grounded resolution per CLAUDE.md Part 6 / Part 14: the modern LC-ICP-MS speciation with anion+cation exchange separation supersedes older ETAAS-based methods because LC-ICP-MS is matrix-validated for food samples and avoids the on-column reduction artefacts that ETAAS+ion exchange is prone to. Per Part 14, Cr-VI must not be treated as a separate species unless the source speciates hexavalent chromium with a method validated for the food matrix; Hernandez 2019 meets this bar, Soares 2000's older ETAAS approach does not.
+This is a methodologically-grounded resolution / Part 14: the modern LC-ICP-MS speciation with anion+cation exchange separation supersedes older ETAAS-based methods because LC-ICP-MS is matrix-validated for food samples and avoids the on-column reduction artefacts that ETAAS+ion exchange is prone to. Per Part 14, Cr-VI must not be treated as a separate species unless the source speciates hexavalent chromium with a method validated for the food matrix; Hernandez 2019 meets this bar, Soares 2000's older ETAAS approach does not.
 
 The Soares 2000 source page is retained as historical context. Its Cr(VI) values are documented as **superseded** by Hernandez 2019's finding plus the EFSA 2014a + Novotnik 2013/2015 + Vacchina 2015 confirmation that food-matrix Cr(VI) reduces to Cr(III) and earlier-detected-Cr(VI) was method artefact.
 
@@ -104,7 +104,7 @@ EF-2 reconstructable A-tier evidence at the food-category × matrix level. Per-s
 
 ## Implications
 
-Certification: This paper resolves the long-standing Cr-VI question for HMTc Category 1 food matrices. **The HMTc Cr-VI threshold target across food matrices is "below LOD with sensitive speciation"** — detection of Cr(VI) at modern method LOD (~0.3-0.4 µg/kg) signals matrix-anomaly or sample-prep contamination, not actual Cr(VI) presence. For all 14 IandC subcategory pages with Cr-VI cells, the cell can move from data gap to Path A primary occurrence with Hernandez 2019 as the n_a_tier=1 source plus EFSA 2014a chemistry mechanism as supporting evidence. Soares 2000's detected Cr(VI) in milk-formula is reinterpreted as method artefact and retained as historical-context only.
+Certification: This paper resolves the long-standing Cr-VI question for the relevant HMT&C product taxonomy food matrices. **The HMTc Cr-VI threshold target across food matrices is "below LOD with sensitive speciation"** — detection of Cr(VI) at modern method LOD (~0.3-0.4 µg/kg) signals matrix-anomaly or sample-prep contamination, not actual Cr(VI) presence. For all 14 IandC subcategory pages with Cr-VI cells, the cell can move from data gap to Path A primary occurrence with Hernandez 2019 as the evidence pool=1 source plus EFSA 2014a chemistry mechanism as supporting evidence. Soares 2000's detected Cr(VI) in milk-formula is reinterpreted as method artefact and retained as historical-context only.
 
 Courses: Strong teaching example for the difference between speciation and total measurement, and for how analytical method generation affects historical interpretation. The Hernandez "previous studies' Cr(VI) was probably analytical artefact" framing is the canonical resolution.
 
@@ -114,7 +114,7 @@ Microbiome: No direct microbiome endpoint, though the food-matrix Cr(VI) reducti
 
 ## Provenance Notes
 
-Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/external-fetch/hernandez2019.pdf`. Originally identified on the data-gap wishlist as the highest-leverage Cr-VI gap-filler under the misattributed name "Mathebula 2019" (the wishlist's PMID 30931809 was correct; the first-author label was wrong). Actual first author is Fanny Hernandez (Université Paris-Est, ANSES). Published in *Food Additives & Contaminants Part B: Surveillance* under standard Taylor & Francis paywall; author-shared copy used internally only. Wiki cites the article record (DOI 10.1080/19393210.2019.1598506).
+Karen externally fetched this paper on 2026-05-09 and dropped it at the source archive. Originally identified on the data-gap wishlist as the highest-leverage Cr-VI gap-filler under the misattributed name "Mathebula 2019" (the wishlist's PMID 30931809 was correct; the first-author label was wrong). Actual first author is Fanny Hernandez (Université Paris-Est, ANSES). Published in *Food Additives & Contaminants Part B: Surveillance* under standard Taylor & Francis paywall; author-shared copy used internally only. Wiki cites the article record (DOI 10.1080/19393210.2019.1598506).
 
 ## Wiki Pages Updated On Ingest
 

@@ -27,11 +27,11 @@ updated: 2026-05-09
 
 # Toledo et al. 2024 — Essential and Toxic Elements in Infant Cereal in Brazil
 
-This A-tier peer-reviewed paper reports total concentrations of 14 essential and non-essential elements (Ag, Al, As, B, Ba, Co, Cr, Cu, Mn, Se, Sr, Zn, Ni, Cd, Pb) in 18 samples of Brazilian infant cereal across three matrix subcategories: rice cereal (n=9), multi-grain cereal containing rice (n=5), and non-rice-based cereal (n=4 — corn, oatmeal, multi-grain). Concentrations were measured by ICP-MS with HPLC-ICP-MS speciation for arsenic; the paper integrates the concentration data (drawn from Pedron et al. as ref [10]) with EPA/Codex toxicity values to compute incremental lifetime cancer risks and hazard quotients for infant exposure. Author scope is exact on matrix axis (rice vs multi-grain-with-rice vs non-rice infant cereal per Section 2.2 sample collection) and exact on format axis (dry infant cereal as sold). Per the corrected row-fit rule (CLAUDE.md Part 6), this routes directly to the rice-based and non-rice cereal HMTc subcategory pages.
+This A-tier peer-reviewed paper reports total concentrations of 14 essential and non-essential elements (Ag, Al, As, B, Ba, Co, Cr, Cu, Mn, Se, Sr, Zn, Ni, Cd, Pb) in 18 samples of Brazilian infant cereal across three matrix subcategories: rice cereal (n=9), multi-grain cereal containing rice (n=5), and non-rice-based cereal (n=4 — corn, oatmeal, multi-grain). Concentrations were measured by ICP-MS with HPLC-ICP-MS speciation for arsenic; the paper integrates the concentration data (drawn from Pedron et al. as ref [10]) with EPA/Codex toxicity values to compute incremental lifetime cancer risks and hazard quotients for infant exposure. Author scope is exact on matrix axis (rice vs multi-grain-with-rice vs non-rice infant cereal per Section 2.2 sample collection) and exact on format axis (dry infant cereal as sold). Per the corrected row-fit rule, this routes directly to the rice-based and non-rice cereal HMTc subcategory pages.
 
 ## Key Numbers
 
-Table 3 of the paper reports per-sample mean ± SD concentrations in ng/g (= ppb) for each of the 18 samples (labeled A through R). Sample-level extract written to `data/evidence/category1_toledo2024_infant_cereal_brazil_samples.csv`. Computed percentiles by HMTc subcategory under the lower-bound treatment (samples reported as `5×10⁻⁵ ± <0` treated as below LOD = 0):
+Table 3 of the paper reports per-sample mean ± SD concentrations in ng/g (= ppb) for each of the 18 samples (labeled A through R). Sample-level extract written to the structured evidence layer. Computed percentiles by HMTc subcategory under the lower-bound treatment (samples reported as `5×10⁻⁵ ± <0` treated as below LOD = 0):
 
 ### Rice-based subcategory pool (rice + multigrain-with-rice; n=14)
 
@@ -66,7 +66,7 @@ The non-rice pool n=4 is below the 10-sample defensibility floor; values are rep
 | Cd | 19.00 ppb | 22.00 ppb | — |
 | Pb | 44.94 ppb | 19.10 ppb | — |
 
-Toledo 2024 shows substantially higher Pb in Brazilian rice-based infant cereal (p90 44.94 vs FDA 19.10) — geographic variation that should not be silently merged into a single global aggregate without jurisdiction labeling per CLAUDE.md Part 6. tAs is consistent across U.S. and Brazil (~140 ppb p90). Al and Ni were not in the FDA datasets, so Toledo 2024 supplies the first sample-level Al and Ni distributions for rice-based infant cereal.
+Toledo 2024 shows substantially higher Pb in Brazilian rice-based infant cereal (p90 44.94 vs FDA 19.10) — geographic variation that should not be silently merged into a single global aggregate without jurisdiction labeling per the program governance framework. tAs is consistent across U.S. and Brazil (~140 ppb p90). Al and Ni were not in the FDA datasets, so Toledo 2024 supplies the first sample-level Al and Ni distributions for rice-based infant cereal.
 
 ## Methods (brief)
 
@@ -81,12 +81,12 @@ EF-2 reconstructable A-tier sample-level evidence for the rice-based and non-ric
 - Sample size is small (n=18) and concentrated in Brazilian-market products acquired 2014-2015. Geographic and temporal applicability to U.S. or EU contexts requires explicit jurisdiction metadata.
 - The non-rice subset is n=4, below the 10-sample defensibility floor. Use only for triangulation against U.S. FDA 2024 non-rice (n=25) and FDA 2016 non-rice (n=30).
 - iAs at sample level is not directly reported (speciation only on one sample where total As was below LOD); routing to iAs cells uses total-As as a conservative upper bound only with explicit caveat.
-- Toledo 2024 is the citing/risk-assessment paper. The original concentration source is Pedron et al. (ref [10] in Toledo 2024). When Pedron et al. is independently ingested as a source page, this Toledo 2024 entry should be reviewed for whether it adds risk-assessment context only (not double-counted as a separate concentration source) per the Part 6 row-fit n_a_tier counting.
-- Cr is total Cr only (not speciated); do not interpret as Cr-VI per CLAUDE.md Part 14.
+- Toledo 2024 is the citing/risk-assessment paper. The original concentration source is Pedron et al. (ref [10] in Toledo 2024). When Pedron et al. is independently ingested as a source page, this Toledo 2024 entry should be reviewed for whether it adds risk-assessment context only (not double-counted as a separate concentration source) per the Part 6 row-fit evidence pool counting.
+- Cr is total Cr only (not speciated); do not interpret as Cr-VI per the program governance framework.
 
 ## Implications
 
-Certification: Direct A-tier sample-level evidence for the rice-based infant cereal Pb, Cd, tAs, Ni, and Al cells under HMTc Category 1, plus first sample-level Al and Ni distributions for that subcategory. Combined with FDA 2024 (n=252-256, U.S. compliance) and FDA 2016 (n=82, U.S. iAs), Toledo 2024 brings n_a_tier to 2-3 for several rice-based cereal cells. Geographic-context note required: Toledo's Brazilian-market Pb p90 (44.94 ppb) is more than 2× the U.S. FDA 2024 p90 (19.10 ppb), so any aggregate must label jurisdiction composition per Part 6.
+Certification: Direct A-tier sample-level evidence for the rice-based infant cereal Pb, Cd, tAs, Ni, and Al cells under the relevant HMT&C product taxonomy, plus first sample-level Al and Ni distributions for that subcategory. Combined with FDA 2024 (n=252-256, U.S. compliance) and FDA 2016 (n=82, U.S. iAs), Toledo 2024 brings evidence pool to 2-3 for several rice-based cereal cells. Geographic-context note required: Toledo's Brazilian-market Pb p90 (44.94 ppb) is more than 2× the U.S. FDA 2024 p90 (19.10 ppb), so any aggregate must label jurisdiction composition per Part 6.
 
 Courses: Useful illustration of geographic variation in rice cereal contamination, and of the value of sample-level data tables for downstream risk assessment.
 
@@ -96,7 +96,7 @@ Microbiome: No direct microbiome endpoint.
 
 ## Provenance Notes
 
-This source was acquired during the 2026-05-09 autonomous run via NCBI EFetch JATS XML for PMC11050093 (CC BY license per PMC OA bulk API). The JATS XML is preserved at `raw/external-fetch/2026-05-09/toledo2024-essential-toxic-elements-infant-cereal-brazil.jats.xml`. The PDF was not directly fetched (PMC's HTML interstitial blocked direct PDF download); the JATS XML is the canonical full-text artifact.
+This source was acquired during the 2026-05-09 autonomous run via NCBI EFetch JATS XML for PMC11050093 (CC BY license per PMC OA bulk API). The JATS XML is preserved at the source archive. The PDF was not directly fetched (PMC's HTML interstitial blocked direct PDF download); the JATS XML is the canonical full-text artifact.
 
 The PMC ID PMC11050093 was originally surfaced via PubMed E-utilities elink as a candidate when searching for hexavalent chromium in baby food (where it was a citing paper rather than the original Mathebula 2019 target). On reverse-verification via PMC esummary, PMC11050093 was identified as Toledo 2024 — itself a high-value paper directly relevant to infant cereal subcategories. See `wiki/batch-reports/data-gap-wishlist-2026-05-09.md` for the full PMC ID correction note.
 

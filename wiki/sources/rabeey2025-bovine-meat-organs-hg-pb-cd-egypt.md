@@ -65,15 +65,15 @@ Health risk assessment: Estimated Daily Intake (EDI), Target Hazard Quotient (TH
 
 ## Implications
 
-Certification: For HMTc Cat 1 meat-and-poultry-purees baby-food row + the general meat-row family:
+Certification: For the HMT&C certification program meat-and-poultry-purees baby-food row + the general meat-row family:
 
-1. **Cross-border beef supply chains carry high Pb non-compliance rates** in the Egyptian-import setting. While the source countries (Brazil, India, USA) are global suppliers, the 54-63% Pb exceedance fractions imply that some animals are grazing or being fed in heavily Pb-contaminated environments. HMTc Cat 1 beef-baby-food certification should require supplier-level beef-and-organ Pb COA testing, not aggregate herd or country-of-origin certification.
+1. **Cross-border beef supply chains carry high Pb non-compliance rates** in the Egyptian-import setting. While the source countries (Brazil, India, USA) are global suppliers, the 54-63% Pb exceedance fractions imply that some animals are grazing or being fed in heavily Pb-contaminated environments. the HMT&C certification program beef-baby-food certification should require supplier-level beef-and-organ Pb COA testing, not aggregate herd or country-of-origin certification.
 
-2. **The tissue-specific pattern (beef→Hg, liver→Pb, kidney→Cd)** is important for HMTc Cat 1 baby-food formulations. Beef baby food using muscle only avoids the Pb-liver and Cd-kidney issues, but the Hg issue (54.3% muscle non-compliance for Hg here) remains. Liver-based baby food (a Cat 1 row that exists at wiki/products/ as a stray earlier) would carry compound Pb risk.
+2. **The tissue-specific pattern (beef→Hg, liver→Pb, kidney→Cd)** is important for the HMT&C certification program baby-food formulations. Beef baby food using muscle only avoids the Pb-liver and Cd-kidney issues, but the Hg issue (54.3% muscle non-compliance for Hg here) remains. Liver-based baby food (a Cat 1 row that exists at wiki/products/ as a stray earlier) would carry compound Pb risk.
 
-3. **The MeHg vs total Hg speciation question** is relevant: muscle Hg in beef is partly MeHg (from methylated Hg in feed/water) and partly inorganic. CLAUDE.md Part 14 requires speciation; HMTc Cat 1 beef thresholds should specify MeHg ceilings separately from total Hg ceilings.
+3. **The MeHg vs total Hg speciation question** is relevant: muscle Hg in beef is partly MeHg (from methylated Hg in feed/water) and partly inorganic. The program governance framework requires speciation; the HMT&C certification program beef thresholds should specify MeHg ceilings separately from total Hg ceilings.
 
-4. **Country-of-origin matters for HMTc supplier audits**: Brazil, India, USA are the three import countries. India in particular has documented high-Pb supply chains for many food categories ([[sources/he2013-shanghai-cadmium]] is China-specific; similar surveys exist for India). HMTc Cat 1 beef baby food sourced from these markets needs lot-level testing, not country-blanket trust.
+4. **Country-of-origin matters for HMTc supplier audits**: Brazil, India, USA are the three import countries. India in particular has documented high-Pb supply chains for many food categories ([[sources/he2013-shanghai-cadmium]] is China-specific; similar surveys exist for India). the HMT&C certification program beef baby food sourced from these markets needs lot-level testing, not country-blanket trust.
 
 5. **Egyptian per-capita beef consumption is relatively low** vs EU/US — yet the THQ values were still concerning enough for the authors to recommend continuous monitoring. HMTc-certified beef baby foods marketed in US contexts where per-capita beef consumption is higher need correspondingly tighter Pb thresholds to control the same cumulative exposure.
 

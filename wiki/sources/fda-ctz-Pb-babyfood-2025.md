@@ -40,8 +40,8 @@ Two local PDFs were reviewed for this ingest. They are not treated as two indepe
 
 | Local artifact | Role in index | Pages | SHA-256 |
 | --- | --- | ---: | --- |
-| `raw/reports/FDA-Guidance-Jan2025-LeadProcessedFoodBabyChildren-12312024.pdf` | Copy of record: full final guidance document used for action levels, tables, definitions, and legal status | 19 | `8d52935f682a50daf68f6fb7f051c8ddec2cb7b22093ab910fcf1b5f8a32b110` |
-| `raw/reports/FDA_CloserToZero_Lead_ActionLevels_2025.pdf` | FDA guidance webpage snapshot/landing-page artifact used to verify docket, final status, download relationship, and related links | 3 | `d349ed5cc116261df02ba4c0b6f90e77cb6b9a5ac83aec71120234c588ebd40c` |
+| the source archive | Copy of record: full final guidance document used for action levels, tables, definitions, and legal status | 19 | `8d52935f682a50daf68f6fb7f051c8ddec2cb7b22093ab910fcf1b5f8a32b110` |
+| the source archive | FDA guidance webpage snapshot/landing-page artifact used to verify docket, final status, download relationship, and related links | 3 | `d349ed5cc116261df02ba4c0b6f90e77cb6b9a5ac83aec71120234c588ebd40c` |
 
 The canonical public link is the FDA guidance page in `access_url`; the full document download is preserved in `download_url`. The source page therefore remains one citable source node, avoiding duplicate citation weight while preserving both local provenance artifacts.
 

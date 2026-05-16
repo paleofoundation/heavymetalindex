@@ -31,7 +31,7 @@ Nitrogen-doped graphene quantum dots (N-GQDs) were developed as a fluorescent se
 - Matrix validation details to confirm from full paper.
 
 ## Methods (brief)
-N-GQD fluorescence sensing selective for Cr(VI). Speciation-specific: detects Cr(VI) and not total Cr. This distinction is critical per CLAUDE.md: total Cr must never be substituted for Cr(VI).
+N-GQD fluorescence sensing selective for Cr(VI). Speciation-specific: detects Cr(VI) and not total Cr. This distinction is critical for the speciation-non-substitutability convention: total Cr must never be substituted for Cr(VI).
 
 ## Implications
 Certification: Cr(VI) is in the HMT&C analyte vocabulary. Method development for Cr(VI)-specific detection is directly relevant.

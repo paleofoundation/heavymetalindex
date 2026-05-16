@@ -81,15 +81,15 @@ Speciation: Total Hg and total As measured. iAs and MeHg estimated via conversio
 
 ## Implications
 
-Certification: For HMTc Cat 1 cumulative-risk framework + Chinese-market food sourcing:
+Certification: For the HMT&C certification program cumulative-risk framework + Chinese-market food sourcing:
 
-1. **The mRPI framework is the EFSA-recommended approach** for cumulative risk assessment from multiple heavy metals with shared/compatible MOA/AOP. HMTc Cat 1 standards-setting can use mRPI alongside per-analyte HQ to evaluate combined Pb+Cd+iAs+MeHg exposure in product formulations.
+1. **The mRPI framework is the EFSA-recommended approach** for cumulative risk assessment from multiple heavy metals with shared/compatible MOA/AOP. the HMT&C certification program standards-setting can use mRPI alongside per-analyte HQ to evaluate combined Pb+Cd+iAs+MeHg exposure in product formulations.
 
 2. **The Chongqing finding (mRPI >1 for both neurotoxicity and nephrotoxicity)** establishes that even in a Chinese provincial population with relatively typical exposure, combined heavy-metal exposure exceeds acceptable cumulative risk thresholds. HMTc certification of Chinese-sourced food ingredients (rice, vegetables, meat, fish) needs both per-analyte certification AND cumulative-risk consideration.
 
-3. **Speciation conversion factors documented in this paper** (iAs/tAs and MeHg/tHg ratios for fish vs non-fish) are useful for the wiki's CLAUDE.md Part 14 speciation methodology when source studies report only total metals. The 2% iAs/tAs in fish vs 70% in non-fish is particularly important for converting total-As surveys into iAs estimates.
+3. **Speciation conversion factors documented in this paper** (iAs/tAs and MeHg/tHg ratios for fish vs non-fish) are useful for the wiki's the program governance framework speciation methodology when source studies report only total metals. The 2% iAs/tAs in fish vs 70% in non-fish is particularly important for converting total-As surveys into iAs estimates.
 
-4. **Pb dominates neurotoxicity; Cd+Pb dominate nephrotoxicity**. HMTc Cat 1 standards-prioritization should reflect this — Pb thresholds for child-targeted products are the highest leverage; Cd thresholds matter most for kidney-burden control in adult products.
+4. **Pb dominates neurotoxicity; Cd+Pb dominate nephrotoxicity**. the HMT&C certification program standards-prioritization should reflect this — Pb thresholds for child-targeted products are the highest leverage; Cd thresholds matter most for kidney-burden control in adult products.
 
 Courses: Excellent reference for an HMTc course module on cumulative risk assessment methodology. The EFSA mRPI + Monte Carlo framework is the current standard practice for combined-chemical-mixture risk.
 
@@ -112,4 +112,4 @@ Microbiome: Not addressed.
 - [[ingredients/fruits]]
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/eggs]]
-- [[health/cat-2-non-ingestion-exposure-pathways]] — Chen 2025's mRPI/RPQ framework is also applicable to Cat 2 cumulative dermal exposure modeling once the supplement extends to non-ingestion pathways.
+- [[health/cat-2-non-ingestion-exposure-pathways]] — Chen 2025's mRPI/RPQ framework is also applicable to the children's personal care category cumulative dermal exposure modeling once the supplement extends to non-ingestion pathways.

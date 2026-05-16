@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: FM_11009773
-cite_key: raab2024-arsenolipids-chlamydomonas.md
+cite_key: raab2024-arsenolipids-chlamydomonas
 title: "Arsenolipids in the green microalga Chlamydomonas reinhardtii: first report of arsenosugar phospholipid (AsSugPhytol)"
 authors: [Raab A, Zhang X, Ge H, Feldmann J]
 year: 2024
