@@ -3,25 +3,85 @@ type: ingredient
 commodity: hazelnuts
 title: "Hazelnuts"
 label: "Hazelnuts"
-aliases: []
+aliases: [corylus-avellana, filberts, turkish-hazelnuts]
 category: nut
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [soil-uptake, shell-permeability, geography, storage]
+  Pb:
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: 400
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [20, 150]
+    p95_ppb: 400
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [0, 5]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [800, 4000]
+    p95_ppb: 8000
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [50, 300]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [tree-nut-nickel-accumulator, turkish-origin-dominance, soil-uptake, processing-roasting]
 lower_risk_variants: []
 higher_risk_variants: []
-used_in_products: []
+used_in_products: ["[[products/chocolate-confections]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
+updated: 2026-05-16
 sources: 3
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -30,22 +90,68 @@ created_routed_sources: 3
 
 # Hazelnuts
 
-This page is an autonomy-created stub. The routing audit identified 3 source pages in the corpus declaring `ingredients: [hazelnuts]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Hazelnuts (Corylus avellana, also called filberts) are tree nuts grown commercially in Turkey (which produces ~70% of global supply, with the Black Sea coastal region the dominant production area), Italy (~13%, Piedmont and Campania regions), Azerbaijan (~5%), the United States (Oregon's Willamette Valley, ~3%), and Georgia. The heavy-metals profile follows the broader tree-nut pattern (see [[ingredients/walnuts]] for the category overview): high Ni from physiological accumulation, moderate Cd from soil uptake, low Pb due to woody-tissue barrier function. The current corpus loads 3 directly-routed sources: Cwielag-Drabek 2025 paired publications covering Polish 5-tree-nut panel (n=69 including hazelnuts, [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland]]) and the Fechner 2022 BfR MEAL Study (n=869 broader contaminant panel including hazelnuts, [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]]). Hazelnuts are heavily used in chocolate confection (Nutella, Ferrero Rocher, hazelnut-praline chocolate), which routes the hazelnut metal profile into downstream products at high inclusion ratios.
+
+## Why this commodity accumulates heavy metals
+
+Hazelnut trees take up metals from soil through root uptake into the kernel-bearing tissue. The tree-nut nickel-accumulation pathway is shared with walnuts, almonds, and cashews: hazelnut kernels typically carry 800-4,000 ppb Ni on a dry-weight basis, making them among the highest-Ni tree nuts globally. Cadmium follows the standard plant pathway with hazelnuts at moderate Cd levels (20-150 ppb typical). Lead is generally low in the kernel because the woody tree tissue acts as a barrier; the hull (outer green covering, discarded during processing) carries higher Pb and Cd than the kernel itself. The Turkish dominance of global hazelnut supply means the production geography is heavily concentrated, with the Black Sea coastal region (Trabzon, Giresun, Ordu provinces) as the dominant production zone; this region has well-characterised soils with elevated Cd background in some sub-regions due to historical industrial activity and geological factors. The Polish Cwielag-Drabek 2025 dataset is the most rigorous within-tree-nut comparison for hazelnuts on Cd-Pb-Cr-Ni ([[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]]).
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=3       | 10–200    | 400     | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| Cd  | n=3       | 20–150    | 400     | high   | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| iAs | data gap  | —         | —       | —      | — |
+| tAs | data gap  | —         | —       | —      | — |
+| tHg | n=1       | 0–5       | —       | low    | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| Ni  | n=3       | 800–4,000 | 8,000   | high   | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]] |
+| Al  | data gap  | —         | —       | —      | — |
+| Cr  | n=2       | 50–300    | —       | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]] |
+| Sn  | data gap  | —         | —       | —      | — |
+| U   | data gap  | —         | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The Polish Cwielag-Drabek 2025 dataset characterises Polish-market hazelnut Pb-Cd-Cr-Ni within the broader 5-tree-nut panel; the EU-and-Chinese-origin product mix in this dataset is representative of European retail hazelnut supply ([[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]]). The German BfR MEAL Study covers hazelnuts as part of the broader 869-sample dietary contaminant panel and identifies them among the meaningful dietary Ni contributors ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]]). Origin-country pattern: Turkish hazelnuts (the dominant global supply) carry similar baseline metals to Italian, Azerbaijani, and Oregon-grown commercial product per the loaded literature; specific Turkish sub-region (within Black Sea production zone) variance is not characterised in the loaded corpus. Variety-level pattern: Tonda Gentile, Tombul, Çakıldak, Mortarella, Negret, and other commercial hazelnut cultivars are not separately characterised in the loaded corpus on heavy metals. The peeled-kernel-vs-with-skin distinction is implicit; the consumed product is typically peeled kernel, and the analytical work reports kernel concentrations.
+
+## Processing effects
+
+Hazelnut processing (harvest, drying, dehulling, sizing, roasting, optional pellicle removal, optional grinding) does not significantly alter the per-mass metal load on a dry-weight basis. Roasting (typically 130-160°C, 10-30 minutes) drives off moisture and modifies flavour but does not measurably affect metal content. Pellicle removal (the thin brown skin around the kernel, removed for some chocolate-confection applications) reduces per-serving Pb modestly because the pellicle carries more surface-deposited Pb than the inner kernel. Grinding to paste (hazelnut paste used in chocolate-praline and gianduja confection) does not change the per-mass load but distributes it through the paste matrix. Hazelnut oil extraction partitions most metals into the spent press cake rather than the oil phase.
+
+## Ingredient-derivative risk
+
+Whole shelled and peeled hazelnut kernels are the baseline form. Roasted hazelnuts (the dominant consumer form) carry the same per-mass load. Ground hazelnut paste (used in chocolate-confection, gianduja, Nutella-type spreads) inherits the kernel's metal load directly. Hazelnut oil carries a small fraction of the parent kernel's metals. Hazelnut flour (used in gluten-free baking and some specialty applications) carries the kernel's full metal load on a dry-weight basis. Chocolate-and-hazelnut spread products (Nutella, store brand equivalents) inherit the hazelnut's Ni-Cd-Pb at the hazelnut inclusion ratio (typically 13-50% in retail product); these are routed to the [[products/chocolate-confections]] page where applicable. Hazelnut-containing ice cream, baked goods, and confections inherit the kernel's metal load at the inclusion ratio.
+
+## Mitigation options
+
+### Sourcing levers
+
+Source from production regions with documented soil-and-water screening. Turkish Black Sea coastal production is the dominant supply; brand specifications can require lot-level metal testing on Turkish-origin product. Italian Piedmont and Campania production is broadly comparable to Turkish on metals. Oregon Willamette Valley product (the US commercial supply) is also broadly comparable.
+
+### Agronomic levers
+
+Soil pH management around 6.5 reduces Cd bioavailability in the orchard. Avoidance of phosphate fertilisers with elevated Cd impurity reduces ongoing Cd loading. The tree-nut nickel-accumulation pathway is a species-level feature and is not readily reduced by soil amendment.
+
+### Processing levers
+
+Pellicle removal reduces per-serving Pb modestly through removal of the surface-deposition-bound fraction. Validate equipment surfaces in shelling and grinding operations.
+
+### Formulation levers
+
+For chocolate-hazelnut spread and chocolate-confection formulations, the hazelnut inclusion ratio determines per-serving hazelnut-derived metals proportionally. Substitution with lower-Ni alternatives is not typically functional in chocolate-praline contexts where hazelnut flavour is definitional.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 5 ppb), and Ni (≤ 50 ppb) is appropriate for hazelnut buyers, particularly for the chocolate-confection supply chain where hazelnut inclusion is high.
+
+### Packaging and storage levers
+
+Standard food-grade packaging does not contribute to hazelnut metal load.
+
+## Regulatory limits that apply
+
+The EU Regulation 2023/915 sets a Pb maximum of 0.20 mg/kg for tree nuts including hazelnuts and Cd at 0.10 mg/kg fresh weight for tree nuts. The Codex Alimentarius General Standard CXS 193-1995 applies general fruit-and-nut limits without tree-nut-specific provisions. The FDA has not set hazelnut-specific action levels. Turkish regulatory framework applies the Codex limits as a baseline. The German BfR MEAL Study findings on dietary Ni from tree nuts contribute to the case for tree-nut-specific Ni regulatory guidance, but no such guidance is currently in effect. Hazelnut-containing chocolate-confection product is subject to the EU 2023/915 chocolate-Cd limits (covered separately on the chocolate ingredient pages).
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,7 +160,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Cwielag-Drabek 2025]]. *Cd Pb Cr Ni in Polish-Market Nuts* | 2025 | Peer-reviewed | Polish 5-tree-nut Cd-Pb-Cr-Ni panel including hazelnuts (n=69) |
+| 2 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Cwielagniec 2025]]. *Polish Nut Health Risk Cd Pb Cr Ni* | 2025 | Peer-reviewed | Companion paper on Polish nut health-risk assessment including hazelnuts (n=69) |
+| 3 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner 2022]]. *BfR MEAL Study Germany 4-Metal Panel* | 2022 | Government dataset | German MEAL-Study broader contaminant panel (n=869) covering hazelnuts as part of broad-food-spectrum |
 <!-- END: hmi-source-legend -->

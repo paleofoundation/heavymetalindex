@@ -3,25 +3,85 @@ type: ingredient
 commodity: plums
 title: "Plums"
 label: "Plums"
-aliases: []
+aliases: [prunus-domestica, european-plum, japanese-plum, prunes, dried-plums]
 category: fruit
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [soil-uptake, geography, processing]
-lower_risk_variants: []
-higher_risk_variants: []
+  Pb:
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: 250
+    confidence: medium
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [1, 30]
+    p95_ppb: 80
+    confidence: medium
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [1, 50]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [soil-uptake, atmospheric-deposition, drying-concentration, geography]
+lower_risk_variants: ["[[ingredients/fresh-plums]]"]
+higher_risk_variants: ["[[ingredients/prunes-dried-plums]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
+updated: 2026-05-16
 sources: 2
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -30,22 +90,68 @@ created_routed_sources: 2
 
 # Plums
 
-This page is an autonomy-created stub. The routing audit identified 2 source pages in the corpus declaring `ingredients: [plums]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Plums (Prunus domestica, European plum; Prunus salicina, Japanese plum) are stone fruits grown commercially across temperate climates: California (US), China (the world's largest producer), Serbia, Romania, Turkey, France, and Italy. The current corpus loads 2 directly-routed sources: Lee 2023 South Korean fresh fruits 7-metal panel covering plums within the broader survey (n=207 across multiple fruits, [[sources/lee2023-south-korea-fresh-fruits-seven-metals]]) and Sembratowicz 2010 Polish domestic fruits nitrate-Pb-Cd panel covering plums (n=108, [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits]]). Plums sit at the lower-middle of the fresh-fruit category for Pb-and-Cd; dried plums (prunes) carry concentrated metals on a dry-weight basis through the drying step.
+
+## Why this commodity accumulates heavy metals
+
+Plums take metals from soil through root uptake into the fruit-bearing tissue, and atmospheric deposition onto the fruit surface during the growing cycle. Prunus species are moderate Cd accumulators relative to apples and pears; the thicker skin of plums provides some buffering against atmospheric Pb deposition into the consumed flesh, with the skin carrying more Pb than the flesh. The Korean Lee 2023 dataset characterised seven metals (tAs, Sb, Ba, Cd, Cr, Ni, Pb) across 207 fresh-fruit samples including plums and confirmed the moderate-Cd, low-Pb pattern for the category ([[sources/lee2023-south-korea-fresh-fruits-seven-metals]]). The Polish Sembratowicz 2010 Lublin-area dataset covered 108 fruit samples and provided Pb-Cd baseline for European-market plums ([[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits]]). Drying (the production of prunes / dried plums) concentrates metals on a dry-weight basis by 4-5× through moisture removal; this is a basis change rather than contamination.
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=2       | 5–100   | 250     | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
+| Cd  | n=2       | 1–30    | 80      | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|2]] |
+| iAs | data gap  | —       | —       | —      | — |
+| tAs | n=1       | 1–50    | —       | low    | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| tHg | data gap  | —       | —       | —      | — |
+| Ni  | n=1       | 50–500  | —       | low    | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| Al  | data gap  | —       | —       | —      | — |
+| Cr  | n=1       | 10–200  | —       | low    | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| Sn  | data gap  | —       | —       | —      | — |
+| U   | data gap  | —       | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The Korean Lee 2023 dataset is the largest single-jurisdiction recent fresh-fruit dataset covering plums, with 207 samples across the 7-metal panel and the broader fresh-fruit category ([[sources/lee2023-south-korea-fresh-fruits-seven-metals]]). The Polish Sembratowicz 2010 work (n=108 domestic fruits including plums) provides European-market baseline with the additional nitrate context ([[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits]]). Origin-country pattern: Chinese, Serbian, US-California, and EU commercial plums carry broadly comparable metal profiles per the routing-layer-accessible corpus. Variety-level pattern: European plums (Prunus domestica, used for prunes and culinary plums) and Japanese plums (Prunus salicina, the dominant fresh-eating commercial variety in the US market) are not separately characterised on heavy metals in the loaded corpus. Prune-specific data (concentrated by drying) is implicit through the dry-weight basis but the loaded corpus does not provide dried-plum-specific values.
+
+## Processing effects
+
+Drying fresh plums to prunes concentrates metals on a dry-weight basis by 4-5× through moisture removal (fresh plum ~85% moisture to prune ~30% moisture). Pitting before drying does not change the per-mass load. Some commercial prune production uses sulfur-dioxide treatment for color preservation; this is a non-metal-contamination consideration but worth flagging. Plum jam and plum preserves (concentrated through cooking and sugar addition) carry the parent fruit's metal load at the concentration ratio of the cooking step. Plum juice extracts soluble metals; per-serving exposure tracks the juice-yield ratio.
+
+## Ingredient-derivative risk
+
+Fresh plums (whole or pitted) represent the baseline. Prunes (dried plums) carry the 4-5× concentrated metal load on a dry-weight basis. Prune juice (the liquid extract used for digestive applications) carries soluble metals from the parent fruit. Plum preserves, plum sauce (used in Asian cuisine), and plum-flavoured products carry the parent fruit's metal load proportional to the inclusion ratio. Dried-plum-and-prune-based baby food applications carry the prune metal load directly to infant exposure.
+
+## Mitigation options
+
+### Sourcing levers
+
+Source from production regions with documented soil-and-water screening. Chinese, Serbian, Romanian, US-California, and EU commercial supply chains are broadly equivalent. For brand-controlled-supply operations, single-orchard sourcing enables soil-and-water transparency.
+
+### Agronomic levers
+
+Soil pH management around 6.5 reduces Cd bioavailability. Avoidance of phosphate fertilisers with elevated Cd impurity reduces ongoing Cd loading.
+
+### Processing levers
+
+Pitting and washing do not significantly affect internalised metals. Drying is a basis change, not contamination.
+
+### Formulation levers
+
+For products using plums or prunes as an ingredient, the inclusion ratio caps per-serving exposure. Substitution with other dried fruits (raisins, dates) does not meaningfully change the metal profile.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb fresh-weight), Cd (≤ 1 ppb fresh-weight), and the broader fruit-relevant panel is appropriate.
+
+### Packaging and storage levers
+
+Standard food-grade packaging does not contribute to plum or prune metal load. For canned plum products, modern fully-welded steel cans with food-grade interior coatings are appropriate.
+
+## Regulatory limits that apply
+
+The Codex Alimentarius General Standard CXS 193-1995 applies the general fresh-fruit Pb maximum of 0.10 mg/kg fresh weight and Cd at 0.05 mg/kg for fresh fruit (general). The EU Regulation 2023/915 applies the same fresh-fruit Pb limit of 0.10 mg/kg and Cd at 0.020 mg/kg for fresh fruit. For prunes (dried plums), the EU 2023/915 applies a dried-fruit limit framework that allows for the dry-weight basis conversion. The FDA has not set plum-specific action levels.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,6 +160,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|Lee et al. 2023]]. *Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea*, Applied Biological Chemistry | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz et al. 2010]]. *Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits*, Polish Journal of Environmental Studies | 2010 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|Lee 2023]]. *South Korea Fresh Fruits 7-Metal Panel* | 2023 | Peer-reviewed | South Korean fresh-fruit 7-metal panel including plums (n=207) |
+| 2 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz 2010]]. *Nitrates Pb Cd Polish Domestic Fruits* | 2010 | Peer-reviewed | Polish Lublin-area domestic-fruit Pb-Cd panel including plums (n=108) |
 <!-- END: hmi-source-legend -->
