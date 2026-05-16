@@ -1,21 +1,22 @@
 ---
 title: Product categories
-description: Heavy-metal risk profiles for consumer food-product categories.
+description: Heavy-metal risk profiles for consumer food and personal-care product categories.
 audience: [regulator, educator, consumer, researcher]
-updated: 2026-05-03
+updated: 2026-05-16
 ---
 
-Product-category pages describe heavy-metal evidence for consumer-facing food categories. Start here when the reader's question begins with a product type rather than a metal.
+Product-category pages describe heavy-metal evidence for consumer-facing product categories. Start here when the reader's question begins with a product type rather than a metal.
 
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
-  <p>The most developed product layer is infant and child foods. Pages summarize source-backed occurrence evidence, data gaps, and applicable regulation links; they do not rank brands or publish certification limits.</p>
+  <p>The most developed product layers are infant and child foods (HMTc Category 1) and children's personal care (HMTc Category 2). Pages summarize source-backed occurrence evidence, data gaps, and applicable regulation links; they do not rank brands or publish certification limits.</p>
   <div class="hmi-pill-row">
     <span class="hmi-pill">Infant formula</span>
     <span class="hmi-pill">Baby cereal</span>
     <span class="hmi-pill">Purees</span>
-    <span class="hmi-pill">Juice</span>
-    <span class="hmi-pill">Snacks</span>
+    <span class="hmi-pill">Diaper cream</span>
+    <span class="hmi-pill">Sunscreen</span>
+    <span class="hmi-pill">Toothpaste</span>
   </div>
 </div>
 
@@ -41,6 +42,29 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 14. [[products/fruit-juice-not-canned|Fruit juice (not canned)]]
 15. [[products/teething-and-snacks-non-rice|Teething & snacks (non-rice)]]
 16. [[products/teething-and-snacks-rice-based|Teething & snacks (rice-based)]]
+
+## Children Personal Care (HMTc Category 2, Ages 0-5)
+
+These pages report what the evidence says about children's personal-care product rows, source coverage, and data gaps. Cat 2 is a 16-row architecture locked under Step Zero Protocol v1.4 §0G on 2026-05-16, with four clean-versus-contaminated sibling pairs (rows 3/4, 7/8, 9/10, 15/16) and four whole-row contamination platforms (rows 11-14). The master rollup is [[products/children-personal-care|Children Personal Care (Cat 2 master)]], which also documents cross-row contamination platforms (talc, ZnO, TiO2, mineral pigments) and the out-of-scope advisory at [[advisory/skin-lightening-products]].
+
+Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration during application, hand-to-mouth transfer, and per-application volume per kg body weight are the relevant exposure routes. The methodology supplement is at [[health/cat-2-non-ingestion-exposure-pathways]].
+
+1. [[products/baby-lotion-cream|Baby lotion and cream]]
+2. [[products/baby-oil|Baby oil]]
+3. [[products/baby-powder-cornstarch|Baby powder, cornstarch base]] *(clean benchmark of pair 3/4)*
+4. [[products/baby-talcum-powder|Baby talcum powder]] *(contamination platform of pair 3/4 — talc)*
+5. [[products/baby-shampoo-body-wash|Baby shampoo and body wash]]
+6. [[products/baby-wipes|Baby wipes]]
+7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] *(clean benchmark of pair 7/8)*
+8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] *(contamination platform of pair 7/8 — ZnO)*
+9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] *(clean benchmark of pair 9/10)*
+10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] *(contamination platform of pair 9/10 — ZnO + TiO2)*
+11. [[products/toothpaste|Children's toothpaste]] *(whole-row contamination platform)*
+12. [[products/face-paint|Children's face paint]] *(whole-row contamination platform — mineral pigments)*
+13. [[products/childrens-makeup|Children's makeup]] *(whole-row contamination platform — mineral pigments)*
+14. [[products/childrens-nail-polish|Children's nail polish]] *(whole-row contamination platform — Pb/Sb/Ti-bound)*
+15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] *(clean benchmark of pair 15/16)*
+16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] *(contamination platform of pair 15/16 — mineral pigments)*
 
 ## Base and Bridge Product Nodes
 
@@ -82,7 +106,6 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
 - [[products/breakfast-cereals|Breakfast Cereals]]
-- [[products/toothpaste|Toothpaste (Cat 2 — Row 11)]]
 
 _Retired (kept for redirect, not in HMT&C Cat 2 scope):_
 - ~~[[products/lipstick]]~~ — adult lipstick; redirected to [[products/childrens-lip-balm-mineral-bearing]] (Cat 2 Row 16) and future Cat 13 (adult color cosmetics)
