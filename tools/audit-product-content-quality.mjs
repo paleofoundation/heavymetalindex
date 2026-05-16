@@ -68,6 +68,15 @@ const REPO_PATH_PATTERNS = [
   // prose are the leak we're after.
   /`data\/(evidence|workbench)\/[^`]+`/g,
   /\bdata\/(evidence|workbench)\/[a-z0-9_-]+\.(csv|jsonl|md|json)\b/g,
+  // Backticked source-tree paths (tools/, raw/, wiki/) in body prose.
+  // These are implementation details — the rendered page does not need to
+  // name the script that regenerates a section or the directory where
+  // unsorted source PDFs live.
+  /`tools\/[^`]+\.(mjs|ts|js|sh|py)`/g,
+  /`raw\/[^`]+`/g,
+  // Internal policy-doc filenames in body prose. CamelCase or snake_case
+  // .md files outside the wiki/ tree that are governance documents.
+  /`(Category[12345]_[A-Za-z0-9_-]+\.md|Cat[12345]_[A-Za-z0-9_-]+\.md|Step[0-9_A-Za-z]+\.md|StepZero[A-Za-z0-9_-]*\.md)`/g,
 ]
 
 const PLACEHOLDER_PATTERNS = [
@@ -117,8 +126,10 @@ function isStub(fm) {
 
 function isMarkerBlock(line, state) {
   // Tracks whether the current line is inside one of the generator-managed
-  // marker blocks. We don't strip violations from inside markers because the
-  // generator owns those regions; the generator is the right fix point.
+  // marker blocks. We scan inside marker blocks because the rendered page
+  // shows that content to readers — whether the leak came from a scaffolder
+  // placeholder, a generator template, or hand editing, it is public-facing.
+  // The right fix is to clean the source (scaffolder + generator + manual).
   if (/<!--\s*BEGIN:\s*hmi-/.test(line)) state.inMarker = true
   if (/<!--\s*END:\s*hmi-/.test(line)) state.inMarker = false
   return state.inMarker
@@ -169,8 +180,10 @@ function auditFile(filepath) {
     const placeholderMatches = line.match(/\*\[awaiting synthesis\]\*/g)
     if (placeholderMatches) placeholderCount += placeholderMatches.length
 
-    // Skip inside generator-managed marker blocks for hard rules
-    if (inMarker) continue
+    // Note: marker-block contents are scanned the same as plain body.
+    // The rendered page shows them; whether the leak came from a scaffolder
+    // placeholder, a generator template, or hand editing, it is public-facing.
+    void inMarker
 
     // Hard rule 1: internal codenames
     for (const pat of INTERNAL_CODENAMES) {
@@ -258,14 +271,18 @@ function auditFile(filepath) {
     }
   }
 
-  // Soft rule: excessive awaiting-synthesis placeholders (per page budget of 3)
-  if (placeholderCount > 3) {
+  // Soft rule: excessive awaiting-synthesis placeholders. Budget scales
+  // with source count: a 5-source page tolerates 1-2 placeholders; a
+  // 60-source page tolerates ~10. The budget is max(3, 20% of source count).
+  const sourceCount = Number(frontmatterValue(frontmatter, "sources") || 0)
+  const placeholderBudget = Math.max(3, Math.floor(sourceCount * 0.2))
+  if (placeholderCount > placeholderBudget) {
     violations.push({
       rule: "placeholder_budget_exceeded",
       severity: "soft",
       line: 0,
       snippet: String(placeholderCount),
-      context: `Page carries ${placeholderCount} awaiting-synthesis placeholders (budget: 3)`,
+      context: `Page carries ${placeholderCount} awaiting-synthesis placeholders (budget for ${sourceCount} sources: ${placeholderBudget})`,
     })
   }
 

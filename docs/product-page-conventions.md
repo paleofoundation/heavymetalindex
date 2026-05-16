@@ -141,7 +141,18 @@ When a new HMT&C product category is being built (e.g., Category 3 Grains/Cereal
 ## 10. Where this rule set lives
 
 - This document: `docs/product-page-conventions.md`. Read at session start when working on any product page.
-- Hard-rule audit: `tools/audit-product-content-quality.mjs`. Runs in `npm run prebuild`. Exits non-zero on any non-stub hard violation.
-- One-shot fixer: `tools/fix-product-content-quality.mjs`. Mechanical replacements for internal codenames, repo paths, and dangling percentile tokens. Idempotent.
-- Scaffold: `tools/scaffold-product-page.mjs`. The only correct way to create a new product page.
+- Hard-rule audit: `tools/audit-product-content-quality.mjs`. Runs in `npm run prebuild` (which Vercel triggers via `npm run build`'s pre-script). Exits non-zero on any non-stub hard violation.
+- One-shot fixer: `tools/fix-product-content-quality.mjs`. Mechanical replacements for internal codenames, repo paths, tool/script paths, raw/manual-fetch paths, and dangling percentile tokens. Idempotent. Skips retired pages (`retired: true` in frontmatter) because retirement-page language references policy-doc codenames that need hand editing.
+- Scaffold: `tools/scaffold-product-page.mjs`. The only correct way to create a new product page. Produces lint-clean output.
 - Audit reports: `data/evidence/product-content-quality-audit.csv` and `.md`. Generated on every prebuild run. Read before touching a page.
+
+## 11. Known limitations and false-positive notes
+
+These are documented so future sessions don't waste cycles re-discovering them:
+
+- **Source-cited evidence rows the per-line percentile detector misses.** When a row reports source-quantified percentiles (FDA, TDS, etc.) but the `[[sources/...]]` wikilink is in a different column or the row wraps across lines, the per-line `isInsideEvidenceRow` heuristic flags the row as a wiki-computed percentile. Currently 3 known false positives, all in `fruit-juices-apple-containing.md`, `fruit-juices-non-apple.md`, and `fruit-purees.md`. Acceptable as soft warnings; do not move source-reported percentile data off these pages to silence the audit.
+- **Section-name-coupled exemption.** The detector exempts percentile mentions under `## Methodology` and `## How standards math uses this page`. Renaming or moving those sections would re-trigger flags on the disclaimer text inside them. If you rename the section, update the exemption in `tools/audit-product-content-quality.mjs` (`isStandardsMathDisclaimer` / `isMethodologyParagraph`).
+- **Marker-block contents are now scanned.** Earlier versions of the audit skipped marker blocks on the rationale that "the generator owns this region." That assumption was wrong: scaffolders write the placeholder text that lives there until the generator regenerates, and the rendered page shows that placeholder to readers. The audit and the fixer now both scan marker-block contents. **If you update a generator template, make sure its emitted output passes the audit too** — otherwise the next generator run will reintroduce the leak.
+- **The fixer's `Cat N` → public-name replacements can leave grammar artifacts.** Common cases (double-"the", "from X from Y") are handled by the post-replacement cleanup rules. Rare cases may need hand-edits — search for `the the`, `a the`, or sentence fragments after the fixer runs.
+- **Retired pages** (frontmatter `retired: true`) are not auto-fixed. They legitimately reference policy-doc codenames in retirement-banner language. Hand-edit them when you change retirement framing.
+- **`category_label` is not currently audit-required.** The audit checks `category:` but not `category_label:`. The scaffolder emits both; future hand-built pages might omit `category_label` and pass lint. Add it to the required-fields list if this becomes a problem.

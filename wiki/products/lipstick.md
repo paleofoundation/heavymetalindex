@@ -28,5 +28,5 @@ The Li 2021 and Attard 2022 `products: [lipstick]` frontmatter declarations were
 ## Status
 
 - Retired: 2026-05-16
-- Authority: Cat 2 Step 0 lock 2026-04-28 (`Category2_Clean_vs_Contaminated_Splits.md`)
-- Redirect: [[products/childrens-lip-balm-mineral-bearing]] for child-lipstick overlap; awaiting Cat 13 build for adult lipstick.
+- Authority: 2026-04-28 program scope lock (children's personal care category)
+- Redirect: [[products/childrens-lip-balm-mineral-bearing]] for child-lipstick overlap; awaiting the adult-cosmetics category build for adult lipstick.

@@ -103,11 +103,11 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 
 ## Auto-linked stubs
 
-_Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
+_Auto-managed by the page generators. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
 - [[products/breakfast-cereals|Breakfast Cereals]]
 
-_Retired (kept for redirect, not in HMT&C Cat 2 scope):_
-- ~~[[products/lipstick]]~~ — adult lipstick; redirected to [[products/childrens-lip-balm-mineral-bearing]] (Cat 2 Row 16) and future Cat 13 (adult color cosmetics)
+_Retired (kept for redirect, not in HMT&C the children's personal care category scope):_
+- ~~[[products/lipstick]]~~ — adult lipstick; redirected to [[products/childrens-lip-balm-mineral-bearing]] (this product row) and future Cat 13 (adult color cosmetics)
 - ~~[[products/skin-lightening-cream]]~~ — adult enforcement issue, see [[advisory/skin-lightening-products]]
 <!-- END: hmi-auto-linked-stubs -->

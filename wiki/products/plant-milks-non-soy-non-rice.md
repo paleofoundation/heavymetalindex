@@ -32,7 +32,7 @@ This page is this product row. It remains a clean-benchmark candidate, but the c
   <dl>
     <div>
       <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on non-soy non-rice plant milks (almond, oat, coconut, cashew, etc.) typically center on cadmium and lead with high inter-variety variance. Source provenance and varietal disclosure are the defensive core. The within-pair rice-based sibling (Category 5 row 7) was retired by <a href="/products/plant-milks-rice-based">Amendment 1</a> on 2026-04-28 and re-routed to Category 3 row 10 (Rice beverages); a cross-category CC pairing with that row may apply once Category 3 is locked. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+      <dd>Cherry-pick attack vectors on non-soy non-rice plant milks (almond, oat, coconut, cashew, etc.) typically center on cadmium and lead with high inter-variety variance. Source provenance and varietal disclosure are the defensive core. The within-pair rice-based sibling (this product row) was retired by <a href="/products/plant-milks-rice-based">Amendment 1</a> on 2026-04-28 and re-routed to this product row (Rice beverages); a cross-category CC pairing with that row may apply once Category 3 is locked. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
     </div>
     <div>
       <dt>Retailer quality and compliance</dt>
