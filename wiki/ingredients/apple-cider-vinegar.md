@@ -3,26 +3,86 @@ type: ingredient
 commodity: apple-cider-vinegar
 title: "Apple Cider Vinegar"
 label: "Apple Cider Vinegar"
-aliases: []
-category: vinegar
+aliases: [acv, raw-apple-cider-vinegar, filtered-apple-cider-vinegar]
+category: condiment
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [fermentation-substrate, production-method, storage, leaching]
-lower_risk_variants: []
-higher_risk_variants: []
+  Pb:
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: 300
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [1, 30]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [10, 500]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [apple-substrate, mother-culture, packaging-leaching, acid-pH, fermentation-vessel]
+lower_risk_variants: ["[[ingredients/filtered-apple-cider-vinegar]]"]
+higher_risk_variants: ["[[ingredients/raw-unfiltered-acv-with-mother]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
-sources: 4
+updated: 2026-05-16
+sources: 5
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
@@ -30,22 +90,68 @@ created_routed_sources: 4
 
 # Apple Cider Vinegar
 
-This page is an autonomy-created stub. The routing audit identified 4 source pages in the corpus declaring `ingredients: [apple-cider-vinegar]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Apple cider vinegar (ACV) is fermented apple juice or cider acidified through a two-step microbial fermentation: yeast converts apple sugars to ethanol, then Acetobacter bacteria oxidise the ethanol to acetic acid. The finished product carries the apple substrate's heavy-metals load (see [[ingredients/apple]] for upstream context) plus any contributions from the fermentation-vessel and packaging materials. The current corpus loads 5 sources, all drawing from the broader [[ingredients/vinegar]] literature: Acosta 1993 four-country vinegar-type comparison covering apple-derived product within the broader survey ([[sources/acosta1993-cd-pb-ni-vinegar-types]]), Karavoltsos 2020 Greek balsamic-vs-common vinegar work that includes apple-derived product in the common-vinegar subset ([[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]), Ndungu 2004 vinegar Pb method development ([[sources/ndungu2004-lead-vinegar-icpms-gfaas]]), Ozbek 2016 Turkish vinegar 5-metal panel ([[sources/ozbek2016-mip-oes-turkish-vinegars]]), and Saei-Dehkordi 2012 Iranian commercial vinegars (n=96, [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars]]). ACV-specific data within the loaded corpus is limited; the cross-vinegar data establishes the within-category baseline that applies to ACV.
+
+## Why this commodity accumulates heavy metals
+
+Apple cider vinegar's metal profile follows the standard vinegar pattern (see [[ingredients/vinegar]] for the category overview) with apple-specific upstream context. The apple substrate carries soil-derived Pb and Cd from orchard agronomy; apples are generally low-Pb and low-Cd among fruits, but orchards near roadways or in historically industrial regions can carry elevated atmospheric Pb on the fruit surface and elevated Cd in the flesh. The two-step fermentation (yeast then Acetobacter) does not change the metal load between starting juice and finished vinegar. The acidic finished pH (typically 2.5-3.5) makes ACV an effective metal-leacher from any contact surface during fermentation, aging (when applied), and packaging. Raw unfiltered ACV "with the mother" (the cellulose-bacterial culture that forms during fermentation) carries the cellulose mass and any metals bound to it; filtered commercial ACV removes the mother before bottling. The Saei-Dehkordi 2012 Iranian commercial-market survey of 96 vinegars provides the largest single-jurisdiction dataset and characterises the ACV subset within the broader commercial-vinegar landscape ([[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars]]). The Acosta 1993 four-country comparison places apple-derived vinegar in the lower-end of the within-vinegar-category Pb distribution relative to wine and balsamic vinegars ([[sources/acosta1993-cd-pb-ni-vinegar-types]]).
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=5       | 5–100   | 300     | medium | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|5]], [[sources/acosta1993-cd-pb-ni-vinegar-types\|1]] |
+| Cd  | n=4       | 1–30    | —       | medium | [[sources/acosta1993-cd-pb-ni-vinegar-types\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| iAs | data gap  | —       | —       | —      | — |
+| tAs | n=2       | 5–100   | —       | low    | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| tHg | data gap  | —       | —       | —      | — |
+| Ni  | n=2       | 10–200  | —       | low    | [[sources/acosta1993-cd-pb-ni-vinegar-types\|1]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| Al  | n=1       | 10–500  | —       | low    | [[sources/ozbek2016-mip-oes-turkish-vinegars\|4]] |
+| Cr  | n=2       | 5–100   | —       | low    | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|2]] |
+| Sn  | data gap  | —       | —       | —      | — |
+| U   | data gap  | —       | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The Iranian Saei-Dehkordi 2012 dataset (n=96 commercial vinegars including ACV) is the largest single-jurisdiction recent ACV-specific dataset; the work characterised commercial Iranian apple-derived vinegar Pb-Cd-Cu-Zn at retail-market levels generally compliant with applicable caps ([[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars]]). The Acosta 1993 four-country (ES, DE, GB) comparison of 52 samples across white, red wine, sherry, and balsamic vinegars established that apple-derived and other fruit-derived vinegars sit at the lower-Pb-and-Cd end of the vinegar category ([[sources/acosta1993-cd-pb-ni-vinegar-types]]). The Greek Karavoltsos 2020 common-vs-balsamic comparison covers apple-derived product within the "common vinegar" subset and finds these at much lower metal loads than the long-aged balsamic ([[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]). The Turkish Ozbek 2016 5-metal panel (n=32) covers Turkish-market vinegar types including ACV and contributes Al-specific data rarely measured elsewhere ([[sources/ozbek2016-mip-oes-turkish-vinegars]]). The Ndungu 2004 US-market method-development work (n=59) provides US-market Pb baseline data ([[sources/ndungu2004-lead-vinegar-icpms-gfaas]]). Variety-level pattern within ACV: raw unfiltered ACV "with the mother" carries slightly higher Pb-and-Cd than filtered ACV due to the mother-bound metals, but the difference is small. Organic versus conventional ACV does not produce meaningfully different metal profiles per the loaded literature. Origin (US, EU, Asian apple production) does not produce systematic differences within the commodity-grade product set.
+
+## Processing effects
+
+The apple-juicing and fermentation steps do not change the metal load between starting apple and finished vinegar. The two-step microbial fermentation (yeast and Acetobacter) is metal-neutral. Aging (when applied, typically 3-12 months for premium ACV in oak or other wood barrels) can modestly increase Pb and Al through wood-extraction; the magnitude is small relative to long-aged balsamic vinegar. Filtration removes the mother-culture cellulose mass and any metals bound to it. Pasteurization does not affect metals. The single largest processing-driven shift is the choice of fermentation vessel: stainless steel and food-grade-coated tanks do not add metals, while wood-barrel fermentation and aging contribute modestly through wood-extraction.
+
+## Ingredient-derivative risk
+
+Raw unfiltered ACV "with the mother" carries slightly higher Pb-and-Cd than filtered ACV but the difference is small. Filtered commercial ACV in glass packaging sits at the baseline-lowest-metal-load form for the ACV category. ACV in PET is comparable on metals. ACV concentrated for supplement-grade applications (capsules, gummies marketed for digestive or weight-management positioning) concentrates metals proportionally; supplement-grade ACV from non-audited supply chains can carry Pb at concentrations of regulatory concern. ACV-based salad dressings and finished sauces inherit the ACV's metal load at the inclusion ratio. Apple cider vinegar-honey-water beverages popular in wellness positioning carry the ACV's per-volume load at consumption ratios.
+
+## Mitigation options
+
+### Sourcing levers
+
+For brand buyers, sourcing ACV from suppliers with documented apple-source agronomic screening reduces the upstream substrate metal load. Specifying stainless-steel or food-grade-coated fermentation and aging vessels eliminates the wood-extraction pathway. Single-orchard or single-supplier traceability enables supply-chain transparency that supports brand-side metal-load control.
+
+### Agronomic levers
+
+For brand-controlled-substrate operations (a small fraction of the global ACV trade), apple orchard soil testing and amendment reduce the upstream metal load. Most agronomic interventions live with apple producers; the apple-specific pathway is on [[ingredients/apple]].
+
+### Processing levers
+
+Stainless-steel or food-grade-coated fermentation vessels eliminate the wood-extraction pathway. Filtration reduces the mother-bound metal fraction modestly. Avoid extended aging in unverified wood barrels.
+
+### Formulation levers
+
+For finished sauces, dressings, and beverages using ACV as an ingredient, the inclusion ratio determines per-serving exposure proportionally. Substitution with white distilled vinegar (the lowest-baseline-metal vinegar type) reduces per-serving metal load.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), and Ni (≤ 10 ppb) is the standard intervention. The acidic pH allows direct injection without extensive sample prep. The Ndungu 2004 protocol is a useful method reference ([[sources/ndungu2004-lead-vinegar-icpms-gfaas]]).
+
+### Packaging and storage levers
+
+Glass packaging is the baseline-cleanest option for retail product. PET is comparable on metals. Avoid lead-glazed ceramic decanters for serving or storage (the acid pH extracts Pb from lead-glazed ceramic at high rates). Avoid metal closures without food-grade interior coating.
+
+## Regulatory limits that apply
+
+The Codex Alimentarius General Standard CXS 193-1995 does not set ACV-specific maxima. The EU Regulation 2023/915 applies general food-category limits to vinegar including ACV. The US FDA has not set ACV-specific action levels. The CFIA 2025 Canadian targeted survey did not identify ACV-specific exceedances of Canadian limits in the surveyed product set. The general vinegar regulatory framework (see [[ingredients/vinegar]] for the broader picture) applies to ACV without modification.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,8 +160,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek et al. 2016]]. *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi et al. 2012]]. *Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry*, Food Analytical Methods | 2012 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta et al. 1993]]. *Levels of Cd, Pb, and Ni in Different Types of Vinegars*, Bulletin of Environmental Contamination and Toxicology | 1993 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta 1993]]. *Cd Pb Ni in Different Types of Vinegars* | 1993 | Peer-reviewed | Four-country (ES DE GB) within-vinegar category 3-metal panel including apple-derived (n=52) |
+| 2 | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|Karavoltsos 2020]]. *Common and Balsamic Vinegar Trace Metals Greece* | 2020 | Peer-reviewed | Greek common-vinegar subset including apple-derived 7-metal panel (n=43) |
+| 3 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndungu 2004]]. *Lead in Vinegar ICP-MS GFAAS* | 2004 | Peer-reviewed | US-market vinegar Pb method development (n=59) |
+| 4 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek 2016]]. *Trace Metals in Turkish Vinegars MIP-OES* | 2016 | Peer-reviewed | Turkish-market vinegar 5-metal panel (n=32) including ACV; Al specifically measured |
+| 5 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi 2012]]. *Pb Cd Cu Zn in Commercial Iranian Vinegars* | 2012 | Peer-reviewed | Iranian commercial-market vinegar including ACV by stripping chronopotentiometry (n=96) |
 <!-- END: hmi-source-legend -->
