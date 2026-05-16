@@ -13,7 +13,7 @@ raw_path: "raw/Digest/abt2020.pdf"
 access_url: "https://doi.org/10.1021/acs.jafc.9b08295"
 metals: [Cd, Pb]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
-products: []
+products: ["[[products/chocolate]]"]
 matrices: [cocoa, dark-chocolate, milk-chocolate, cocoa-nibs]
 jurisdictions: [US, international]
 updated: 2026-05-08

@@ -14,7 +14,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Exposure assessment of heavy metal residues in some selected frui.pdf"
 metals: [Pb, Cd, Cr, Cu, Ni]
 ingredients: ["[[ingredients/apples]]", "[[ingredients/grapes]]", "[[ingredients/oranges]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit]
 jurisdictions: [EG]
 near_duplicates: []

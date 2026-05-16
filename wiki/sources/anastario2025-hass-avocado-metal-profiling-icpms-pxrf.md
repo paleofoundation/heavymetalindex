@@ -13,7 +13,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0309.pdf"
 metals: [Pb, Cd, tAs, tHg, Ni, Al]
 ingredients: ["[[ingredients/avocado]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [avocado-mesocarp, avocado-exocarp, fresh-fruit]
 jurisdictions: [US, MX]
 near_duplicates: []

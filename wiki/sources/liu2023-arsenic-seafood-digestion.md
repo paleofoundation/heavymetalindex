@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10602890/FM_10602890.md
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/fish]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [seafood, in-vitro-digestion]
 jurisdictions: [CN]
 near_duplicates: []

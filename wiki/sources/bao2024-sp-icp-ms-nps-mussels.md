@@ -14,7 +14,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11223760/FM_11223760.md
 metals: [tAs, Pb, Cd]
-products: []
+products: ["[[products/seafood]]"]
 ingredients: ["[[ingredients/bivalve-molluscs]]"]
 matrices: [seafood, shellfish]
 jurisdictions: []

@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11502587/FM_11502587.md
 metals: [Cd]
 ingredients: ["[[ingredients/honey]]", "[[ingredients/herbal-botanicals]]"]
-products: []
+products: ["[[products/honey]]"]
 matrices: [honey, bee-pollen, bee-body-tissue]
 jurisdictions: [EU, global]
 near_duplicates: []

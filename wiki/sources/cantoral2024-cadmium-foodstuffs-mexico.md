@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.3390/foods13223649"
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/rice]]", "[[ingredients/wheat]]"]
-products: []
+products: ["[[products/infant-and-child-foods-master]]"]
 matrices: [mixed-foodstuffs, vegetables, cereals, baby-food, snacks]
 jurisdictions: [MX]
 sample_n: 143

@@ -15,7 +15,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_10998770/FM_10998770.md
 metals: [As, Cd, Hg, Pb, Ni, V]
 ingredients: ["[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [fish-tissue, seafood]
 jurisdictions: [IR]
 near_duplicates: []

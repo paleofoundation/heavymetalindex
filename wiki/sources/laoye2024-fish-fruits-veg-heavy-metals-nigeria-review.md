@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12375182/FM_12375182.md
 metals: [Pb, Cd, tHg, iAs, tAs, Al]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/tilapia]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish, vegetables, fruit]
 jurisdictions: [NG]
 near_duplicates: []

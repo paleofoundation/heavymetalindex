@@ -13,7 +13,7 @@ license: "public-domain"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/EFSA Opinion on tolerable intake of aluminium with regards to foo.pdf"
 metals: [Al]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/infant-formula-soy]]", "[[ingredients/tea]]", "[[ingredients/cocoa]]"]
-products: []
+products: ["infant-formula"]
 matrices: [dietary-intake, infant-formula]
 jurisdictions: [EU]
 near_duplicates: []

@@ -13,7 +13,7 @@ raw_path: "raw/Digest/1-s2.0-S0889157518301868-am.pdf"
 access_url: https://doi.org/10.1016/j.jfca.2019.02.002
 raw_sha256: "73f7f1c97d2462a96056d8081f52fee0f21d03dfab073b3f33141290cbad1200"
 metals: [Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V]
-products: [infant-formula, baby-cereals, fruit-purees, fruit-juice-not-canned, vegetable-purees, meat-and-fish-baby-foods, mixed-meals]
+products: [infant-formula, baby-cereals, fruit-purees, fruit-juice-not-canned, vegetable-purees, meat-and-fish-baby-foods, mixed-meals, "[[products/infant-and-child-foods-master]]"]
 ingredients: [infant-cereal-ingredients, rice, wheat, cocoa, chocolate, fruit, fruit-juice, vegetables, spinach, carrots, potatoes, meat-and-poultry, fish, milk-and-dairy]
 matrices: [infant-food, toddler-food, formula, total-diet-study]
 jurisdictions: [FR]

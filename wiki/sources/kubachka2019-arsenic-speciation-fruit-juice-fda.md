@@ -13,7 +13,7 @@ license: "US Government work"
 raw_path: raw/markdown/FM_9274380/FM_9274380.md
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/grape-juice]]", "[[ingredients/fruit-juice]]"]
-products: ["[[products/fruit-juice]]"]
+products: ["[[products/fruit-juice]]", "[[products/fruit-juice-not-canned]]"]
 matrices: [fruit-juice]
 jurisdictions: [US]
 near_duplicates: []

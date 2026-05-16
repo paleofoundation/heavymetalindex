@@ -16,7 +16,7 @@ sha256: 0c92d0eb07e37fe4eecd73904bfcd6a4ceedadd9a90494012820d27b49811454
 access_date: 2026-05-12
 metals: [iAs]
 ingredients: ["[[ingredients/apple-juice]]"]
-products: []
+products: ["[[products/fruit-juices-apple-containing]]"]
 matrices: [apple-juice, apple-cider]
 jurisdictions: [US]
 sample_n: null

@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Analysis of Toxic Heavy Metal Content of the Most Widely Used Fru.pdf"
 metals: [Cr, Ni, Cd, Pb]
 ingredients: ["[[ingredients/apple]]", "[[ingredients/banana]]", "[[ingredients/mango]]", "[[ingredients/grapes]]", "[[ingredients/orange]]", "[[ingredients/peach]]", "[[ingredients/lemon]]", "[[ingredients/guava]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit, fruit-flesh, dry-weight]
 jurisdictions: [PK]
 near_duplicates: []

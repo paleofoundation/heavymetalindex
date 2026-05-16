@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1371/journal.pone.0217990"
 metals: [Al, Cd]
 ingredients: ["[[ingredients/cocoa]]"]
-products: []
+products: ["[[products/chocolate]]"]
 matrices: [cocoa-powder, cocoa-mass]
 jurisdictions: [DE, EU]
 sample_n: 12482

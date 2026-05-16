@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Mineral and Microbiological Analysis of Spices and Aromatic Herbs.pdf"
 metals: [Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs]
 jurisdictions: [IT, SA, IN, IR, ID, VN]
 near_duplicates: []

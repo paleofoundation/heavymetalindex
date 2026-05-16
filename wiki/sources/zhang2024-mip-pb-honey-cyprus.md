@@ -14,7 +14,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11244471/FM_11244471.md
 metals: [Pb]
-products: []
+products: ["[[products/honey]]"]
 ingredients: ["[[ingredients/honey]]"]
 matrices: [analytical-method, honey]
 jurisdictions: [CY]

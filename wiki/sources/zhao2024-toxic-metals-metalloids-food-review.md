@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11588791/FM_11588791.md
 metals: [tAs, iAs, Cd, Pb]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/seafood]]", "[[ingredients/cocoa]]", "[[ingredients/vegetables]]", "[[ingredients/cereals]]", "[[ingredients/shellfish]]", "[[ingredients/organ-meats]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/wheat]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [rice-grain, seafood, cocoa-bean, vegetable, cereal-grain, shellfish, organ-meat, mushroom, wheat-grain]
 jurisdictions: [AU, BR, FR, JP, NZ, SG, CN, US, EU]
 near_duplicates: [FM_11588791_Toxic_Metals_and_Metalloids_in_Food_Current_Status_Health_Risk]

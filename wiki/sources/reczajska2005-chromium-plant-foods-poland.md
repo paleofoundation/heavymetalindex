@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Chromium content of selected food and beverages of plant origin.pdf"
 metals: [Cr]
 ingredients: ["[[ingredients/strawberries]]", "[[ingredients/apples]]", "[[ingredients/cucumbers]]", "[[ingredients/cabbage]]", "[[ingredients/carrots]]", "[[ingredients/potatoes]]", "[[ingredients/wheat]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit, fresh-vegetable, grain, beverages]
 jurisdictions: [PL]
 near_duplicates: []

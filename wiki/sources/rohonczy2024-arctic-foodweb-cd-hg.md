@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10927903/FM_10927903.md
 metals: [Cd, tHg, MeHg]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/shellfish]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [seafood, marine-fish, marine-invertebrate]
 jurisdictions: [CA]
 near_duplicates: []

@@ -15,7 +15,7 @@ license: unknown
 raw_path: raw/markdown/FM_4856720/FM_4856720.md
 metals: [MeHg, tHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [fish-tissue, seafood]
 jurisdictions: [US, WHO]
 near_duplicates: []

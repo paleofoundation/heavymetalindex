@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10764562/FM_10764562.md
 metals: [tAs, Pb, Cd]
 ingredients: ["[[ingredients/camellia-sinensis]]"]
-products: []
+products: ["[[products/tea-infusions]]"]
 matrices: [tea-infusion, beverage]
 jurisdictions: [PL, EU]
 near_duplicates: []

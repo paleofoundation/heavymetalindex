@@ -14,7 +14,7 @@ license: "CC BY-NC"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/A Systematic Review on Heavy Metals Contamination in Bangladeshi .pdf"
 metals: [As, Cd, Pb, Cr, Ni, tHg]
 ingredients: ["[[ingredients/banana]]", "[[ingredients/mango]]", "[[ingredients/guava]]", "[[ingredients/papaya]]", "[[ingredients/jackfruit]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit, edible-fruit-flesh]
 jurisdictions: [BD]
 near_duplicates: []

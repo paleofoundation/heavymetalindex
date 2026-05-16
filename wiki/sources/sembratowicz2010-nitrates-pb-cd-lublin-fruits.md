@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Contents of Nitrates (III) and (V), Lead and Cadmium in the Selec.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/apples]]", "[[ingredients/plums]]", "[[ingredients/strawberries]]", "[[ingredients/raspberries]]", "[[ingredients/grapes]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit]
 jurisdictions: [PL]
 near_duplicates: []

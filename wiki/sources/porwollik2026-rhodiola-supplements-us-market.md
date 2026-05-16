@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12810810/FM_12810810.md
 metals: [Pb, Cd, tAs, tHg]
-products: []
+products: ["[[products/dietary-supplements]]"]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
 matrices: [dietary-supplement, botanical-supplement]
 jurisdictions: [US]

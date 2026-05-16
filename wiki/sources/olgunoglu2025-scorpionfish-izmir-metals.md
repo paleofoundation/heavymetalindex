@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11943609/FM_11943609.md
 metals: [Cd, Cr, Cu, Fe, Hg, Mn, Ni, Pb, Se, Zn]
 ingredients: ["[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [fish-muscle, seafood]
 jurisdictions: [TR]
 near_duplicates: []

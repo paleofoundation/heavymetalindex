@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Papers Cube Manual Fetch/article (1) copy 4.pdf"
 metals: [Pb, Cd, tAs, tHg, Ni, Cr]
 ingredients: []
-products: []
+products: ["[[products/tea]]"]
 matrices: [food, water, vegetable, tea, peanut, cereal]
 jurisdictions: []
 near_duplicates: []

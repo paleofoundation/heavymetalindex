@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_12162874/FM_12162874.md
 metals: [tHg, MeHg]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish, marine-fish, marine-mammal]
 jurisdictions: [GL]
 near_duplicates: []

@@ -16,7 +16,7 @@ sha256: 6f051a13ba6955ce661a417437616badfad1c64fe4298745190de1573cb60bf5
 access_date: 2026-05-12
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [rice-grain, infant-rice-cereal, rice-products, dietary-intake]
 jurisdictions: [US]
 sample_n: null

@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhe.pdf"
 metals: [Sn]
 ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/aquatic-vegetables]]", "[[ingredients/tea]]"]
-products: ["[[products/canned-vegetables]]", "[[products/canned-fruits]]", "[[products/canned-meat]]", "[[products/canned-fish]]"]
+products: ["[[products/canned-vegetables]]", "[[products/canned-fruits]]", "[[products/canned-meat]]", "[[products/canned-fish]]", "[[products/canned-fruit]]", "[[products/tea]]", "[[products/fresh-fruit]]"]
 matrices: [leafy-vegetable, root-vegetable, aquatic-vegetable, fruit-vegetable, canned-vegetable, canned-fruit, canned-meat, canned-fish, tea, fresh-fruit, fresh-aquatic-product]
 jurisdictions: [CN]
 near_duplicates: []

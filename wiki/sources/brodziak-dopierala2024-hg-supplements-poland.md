@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11872768/FM_11872768.md
 metals: [tHg]
 ingredients: []
-products: []
+products: ["[[products/dietary-supplements]]"]
 matrices: [dietary-supplement, medicine]
 jurisdictions: [PL]
 near_duplicates: []

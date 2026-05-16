@@ -16,7 +16,7 @@ license: "CC BY 4.0"
 access_url: "https://doi.org/10.14233/ajchem.2020.22499"
 raw_path: "raw/external-fetch/elsheikh2020.pdf"
 metals: [Al, Pb, Cd, tAs, Mn, Ni, V, Si, Ba]
-products: [infant-formula-powder-non-soy, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice]
+products: [infant-formula-powder-non-soy, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, "[[products/snacks-crackers-biscuits]]"]
 matrices: [infant-formula-powder, baby-powder-milk, infant-cereal-cerelac, biscuits, potato-chips, popcorn, cocoa-sweets, cream-cheese, indomie-noodles]
 jurisdictions: [SA]
 sample_n: 57

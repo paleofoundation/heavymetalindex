@@ -13,7 +13,7 @@ license: unknown
 raw_path: "raw/Papers Cube Manual Fetch/shue2012.pdf"
 metals: [Pb, Cd, Cu, Zn, Ni, Cr]
 ingredients: ["[[ingredients/shellfish]]", "[[ingredients/bivalve]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [bivalve, shellfish]
 jurisdictions: [TW]
 near_duplicates: []
