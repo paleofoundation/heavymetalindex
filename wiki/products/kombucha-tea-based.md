@@ -158,8 +158,13 @@ Additional sources reporting Pb, Al, and Cd in kombucha produced in compliant co
 
 The 2023 Ibiza family outbreak (munilla-garcia2023) is the primary documented regulatory event for this product category: Balearic Islands food safety authorities (Servicio de Seguridad Alimentaria) identified and investigated the source, confirmed ceramic container leaching, and reported the case in the national public health journal. The event was a public health investigation rather than a formal product recall; the artisanal producer was identified and the contaminated product removed. No EU or Spanish maximum level for Pb in kombucha existed at the time, which the authors flag as a regulatory gap requiring harmonized limits for novel fermented beverages. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
+
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla García et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública 97 | 2023 | Peer-reviewed (A-tier) | Pb contamination in kombucha via ceramic food-contact-material leaching; time-dependent concentration increase (0.95 → 7.1 → 47 mg/kg over 14–19 days); blood Pb in affected family; regulatory gap for ML in kombucha; FCM lever magnitude |
+| 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública | 2023 | Peer-reviewed | Pb contamination in kombucha via ceramic food-contact-material leaching; time-dependent concentration increase (0.95 → 7.1 → 47 mg/kg over 14–19 days); blood Pb in affected family; regulatory gap for ML in kombucha; FCM lever magnitude |
+<!-- END: hmi-source-legend -->
+

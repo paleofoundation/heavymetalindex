@@ -160,9 +160,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta 1993]]. *Cd Pb Ni in Different Types of Vinegars* | 1993 | Peer-reviewed | Four-country (ES DE GB) within-vinegar category 3-metal panel including apple-derived (n=52) |
-| 2 | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|Karavoltsos 2020]]. *Common and Balsamic Vinegar Trace Metals Greece* | 2020 | Peer-reviewed | Greek common-vinegar subset including apple-derived 7-metal panel (n=43) |
-| 3 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndungu 2004]]. *Lead in Vinegar ICP-MS GFAAS* | 2004 | Peer-reviewed | US-market vinegar Pb method development (n=59) |
-| 4 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek 2016]]. *Trace Metals in Turkish Vinegars MIP-OES* | 2016 | Peer-reviewed | Turkish-market vinegar 5-metal panel (n=32) including ACV; Al specifically measured |
-| 5 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi 2012]]. *Pb Cd Cu Zn in Commercial Iranian Vinegars* | 2012 | Peer-reviewed | Iranian commercial-market vinegar including ACV by stripping chronopotentiometry (n=96) |
+| 1 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek et al. 2016]]. *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2016 | Peer-reviewed | Turkish-market vinegar 5-metal panel (n=32) including ACV; Al specifically measured |
+| 2 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi et al. 2012]]. *Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry*, Food Analytical Methods | 2012 | Peer-reviewed | Iranian commercial-market vinegar including ACV by stripping chronopotentiometry (n=96) |
+| 3 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | US-market vinegar Pb method development (n=59) |
+| 4 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta et al. 1993]]. *Levels of Cd, Pb, and Ni in Different Types of Vinegars*, Bulletin of Environmental Contamination and Toxicology | 1993 | Peer-reviewed | Four-country (ES DE GB) within-vinegar category 3-metal panel including apple-derived (n=52) |
 <!-- END: hmi-source-legend -->

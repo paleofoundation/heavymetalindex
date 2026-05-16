@@ -160,12 +160,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz 2018]]. *Lead in Spices NC Home Investigations* | 2018 | Government dataset | NC home-investigation cohort dried-herb Pb identification (n=386 cross-spice-herb) |
-| 2 | [[sources/chime2025-nigerian-spices-as-cd-pb\|Chime 2025]]. *Nigerian Spice Trace Metals* | 2025 | Peer-reviewed | Nigerian market spice-and-herb Pb-Cd-tAs (n=7) |
-| 3 | [[sources/cicero2022-minerals-spices-aromatic-herbs\|Cicero 2022]]. *Spices and Aromatic Herbs 8-Metal Panel* | 2022 | Peer-reviewed | Multi-origin (IT SA IN IR ID VN) dried-herb 8-metal baseline (n=13 multi-species) |
-| 4 | [[sources/fischer2022-mercury-spice-plants-poland\|Fischer 2022]]. *Mercury in Spice Plants Poland* | 2022 | Peer-reviewed | Polish mercury in 48 spice-and-herb plant samples; strongest tHg data |
-| 5 | [[sources/huff2025-spices-lancaster-pa\|Huff 2025]]. *Heavy Metals in Spices Lancaster PA* | 2025 | Peer-reviewed | Lancaster Pennsylvania retail dried-herb-and-spice Pb-Cd-tAs (n=116) |
-| 6 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *Safety Assessment Polish Herbs Spices Tea Coffee* | 2021 | Peer-reviewed | Polish 37-herb-12-spice (n=240) 4-metal panel; species-variance evidence |
-| 7 | [[sources/lhaac2025-csp41-herbs-spices-wa\|LHAAC 2025]]. *Coordinated Sampling Project 41 Herbs and Spices Australia* | 2025 | Government dataset | Australian retail-and-import 7-metal panel (n=380); largest recent single-jurisdiction dataset |
-| 8 | [[sources/nys-doh2019-metals-spices-guidance\|NYS DOH 2019]]. *Health-Based Guidance Values for Metals in Spices* | 2019 | Government report | NYS Department of Health spice-and-herb-specific Pb-Cd-Cr-iAs guidance values |
+| 1 | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|Winiarska-Mieczan et al. 2023]]. *The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine*, Biological Trace Element Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/fischer2022-mercury-spice-plants-poland\|Fischer et al. 2022]]. *The Mercury Concentration in Spice Plants*, Processes | 2022 | Peer-reviewed | Polish mercury in 48 spice-and-herb plant samples; strongest tHg data |
+| 3 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Polish 37-herb-12-spice (n=240) 4-metal panel; species-variance evidence |
 <!-- END: hmi-source-legend -->

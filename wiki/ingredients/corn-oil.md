@@ -160,9 +160,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Heavy Metals in Vegetable Oils Saudi Arabia* | 2012 | Peer-reviewed | Saudi market survey including 32 corn oil samples within 161-sample multi-oil panel |
-| 2 | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|González-Torres 2023]]. *Heavy Metals in Edible Vegetable Oils Review* | 2023 | Peer-reviewed | Global systematic review of 35 vegetable oil types from 24 countries including corn oil |
-| 3 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan 2008]]. *Inorganic Metals in Vegetable Oils Turkey ICP-AES* | 2008 | Peer-reviewed | Turkish 9-metal panel including corn oil (n=17) |
-| 4 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu 2023]]. *Heavy Metals in Foods and Beverages Global Review* | 2023 | Peer-reviewed | Broad foods-and-beverages review including corn oil cross-context |
-| 5 | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|Tayeb 2025]]. *Olive and Corn Oil Iran Pb Cd* | 2025 | Peer-reviewed | Iranian Gonbad-Kavus commercial-vs-traditional corn oil Pb-Cd risk analysis (n=30 corn within n=60 paired) |
+| 1 | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|Tayeb et al. 2025]]. *Assessment of lead and cadmium exposure through olive and corn oil consumption in Gonbad-Kavus, north of Iran: A public health risk analysis*, Toxicology Reports | 2025 | Peer-reviewed | Iranian Gonbad-Kavus commercial-vs-traditional corn oil Pb-Cd risk analysis (n=30 corn within n=60 paired) |
+| 2 | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|González-Torres et al. 2023]]. *Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils*, Applied Sciences | 2023 | Peer-reviewed | Global systematic review of 35 vegetable oil types from 24 countries including corn oil |
+| 3 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | Saudi market survey including 32 corn oil samples within 161-sample multi-oil panel |
+| 4 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | Turkish 9-metal panel including corn oil (n=17) |
 <!-- END: hmi-source-legend -->

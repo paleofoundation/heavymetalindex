@@ -160,9 +160,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/armand2026-lettuce-cabbage-behbahan\|Armand 2026]]. *Probabilistic Lettuce and Cabbage Behbahan Iran* | 2026 | Peer-reviewed | Iranian Behbahan cabbage Pb-Cd-Cr-Ni Monte Carlo probabilistic risk model (n=40) |
-| 2 | [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|Islam 2007]]. *Dietary Toxicity of Heavy Metals in Vegetables* | 2007 | Peer-reviewed | Cross-jurisdiction (CN, UK, US) dietary toxicity assessment including cabbage 5-metal panel |
-| 3 | [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|Okonofua 2024]]. *Mining Pits Cabbage Fish Nigeria Bioaccumulation* | 2024 | Peer-reviewed | Nigerian unreclaimed mining-pit water-cabbage-tilapia bioaccumulation Pb-Cd-tHg-Ni (n=48) |
-| 4 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska 2005]]. *Chromium in Plant Foods Poland* | 2005 | Peer-reviewed | Polish chromium in 272 plant-food samples including cabbage |
-| 5 | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|See 2025]]. *Heavy Metals in Leafy Vegetables Selangor Malaysia* | 2025 | Peer-reviewed | Malaysian Selangor 5-metal leafy-vegetable panel including cabbage (n=12) |
+| 1 | [[sources/armand2026-lettuce-cabbage-behbahan\|Armand et al. 2026]]. *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation*, Scientific Reports | 2026 | Peer-reviewed | Iranian Behbahan cabbage Pb-Cd-Cr-Ni Monte Carlo probabilistic risk model (n=40) |
+| 2 | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|See et al. 2025]]. *Heavy Metals Assessment in Selected Leafy Vegetables from Selangor, Malaysia*, Pertanika Journal of Tropical Agricultural Science | 2025 | Peer-reviewed | Malaysian Selangor 5-metal leafy-vegetable panel including cabbage (n=12) |
+| 3 | [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria\|Okonofua et al. 2024]]. *Analysis of Bioaccumulation of Heavy Metals in Water, Cabbage (Brassica oleracea var. capitata) and Tilapia Fish (Oreochromis niloticus) from Unreclaimed Mining Pits*, Earth Sciences Pakistan | 2024 | Peer-reviewed | Nigerian unreclaimed mining-pit water-cabbage-tilapia bioaccumulation Pb-Cd-tHg-Ni (n=48) |
+| 4 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | Polish chromium in 272 plant-food samples including cabbage |
 <!-- END: hmi-source-legend -->

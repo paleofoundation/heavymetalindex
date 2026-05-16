@@ -160,12 +160,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|Farid 2010]]. *Trace Elements in Commercial Fruit Juices Jeddah Saudi Arabia* | 2010 | Peer-reviewed | Saudi commercial fruit-juice Cr-Ni panel including mango juice (n=129) |
-| 2 | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|Islam 2024]]. *Heavy Metals Contamination in Bangladeshi Fruits Review* | 2024 | Peer-reviewed | Bangladeshi systematic review of 10 fruits including mango Pb-Cd-Cr-Ni-As-tHg |
-| 3 | [[sources/mekonnen2024-ethiopia-fruit-metals\|Mekonnen 2024]]. *Ethiopia Bahir Dar Fruit Heavy Metals* | 2024 | Peer-reviewed | Ethiopian Bahir Dar 120-sample fruit-and-vegetable panel including mango Pb-Cd-Cr |
-| 4 | [[sources/paudel2024-packaged-fruit-juices-nepal\|Paudel 2024]]. *Packaged Fruit Juices Nepal* | 2024 | Peer-reviewed | Nepalese packaged fruit-juice Pb (n=16) including mango juice |
-| 5 | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|Rahim 2020]]. *Toxic Heavy Metals in Most Consumed Fruits Pakistan* | 2020 | Peer-reviewed | Pakistani most-consumed-fruits 4-metal panel (n=308); largest single-jurisdiction dataset |
-| 6 | [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review\|Tsegay 2025]]. *Fruit By-Product Toxicology Review* | 2025 | Peer-reviewed | Global fruit by-product 6-metal toxicology and detoxification review |
-| 7 | [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\|Sobhanardakani 2017]]. *Al and Cu in Iranian Fruit Juices* | 2017 | Peer-reviewed | Iranian fruit-juice Al-and-Cu (n=48) including mango juice |
-| 8 | [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\|Weldegebriel 2025]]. *Packaged Fruit Juices Children Gondar Ethiopia* | 2025 | Peer-reviewed | Ethiopian packaged fruit-juice 4-metal panel for children (n=80) including mango |
+| 1 | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|Islam et al. 2024]]. *A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks*, Environmental Health Insights | 2024 | Review | Bangladeshi systematic review of 10 fruits including mango Pb-Cd-Cr-Ni-As-tHg |
+| 2 | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|Rahim et al. 2020]]. *Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits*, Journal of Physical Science | 2020 | Peer-reviewed | Pakistani most-consumed-fruits 4-metal panel (n=308); largest single-jurisdiction dataset |
 <!-- END: hmi-source-legend -->

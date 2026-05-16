@@ -160,7 +160,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Cwielag-Drabek 2025]]. *Cd Pb Cr Ni in Polish-Market Nuts* | 2025 | Peer-reviewed | Polish 5-tree-nut Cd-Pb-Cr-Ni panel including hazelnuts (n=69) |
-| 2 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Cwielagniec 2025]]. *Polish Nut Health Risk Cd Pb Cr Ni* | 2025 | Peer-reviewed | Companion paper on Polish nut health-risk assessment including hazelnuts (n=69) |
-| 3 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner 2022]]. *BfR MEAL Study Germany 4-Metal Panel* | 2022 | Government dataset | German MEAL-Study broader contaminant panel (n=869) covering hazelnuts as part of broad-food-spectrum |
+| 1 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | Polish 5-tree-nut Cd-Pb-Cr-Ni panel including hazelnuts (n=69) |
+| 2 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | Companion paper on Polish nut health-risk assessment including hazelnuts (n=69) |
+| 3 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | German MEAL-Study broader contaminant panel (n=869) covering hazelnuts as part of broad-food-spectrum |
 <!-- END: hmi-source-legend -->

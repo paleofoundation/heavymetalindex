@@ -160,9 +160,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Heavy Metals in Vegetable Oils Saudi Arabia* | 2012 | Peer-reviewed | Saudi market survey including 21 soybean oil samples within 161-sample multi-oil panel |
-| 2 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan 2008]]. *Inorganic Metals in Edible Vegetable Oils Turkey ICP-AES* | 2008 | Peer-reviewed | Turkish 9-metal panel including soybean oil |
-| 3 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu 2023]]. *Heavy Metals in Foods and Beverages Global Review* | 2023 | Peer-reviewed | Broad foods-and-beverages review including soybean oil cross-context |
-| 4 | [[sources/silva2025-edible-oils-health-sustainability\|Silva 2025]]. *Edible Oils Health and Sustainability Review* | 2025 | Peer-reviewed | Current systematic review of edible oil contaminants through Sept 2025 |
-| 5 | [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|Yohannes 2024]]. *Vegetable Oils Ethiopia Gondar 5-metal panel* | 2024 | Peer-reviewed | Ethiopian Gondar City vegetable oil 5-metal panel (n=17) |
+| 1 | [[sources/silva2025-edible-oils-health-sustainability\|VdS et al. 2025]]. *Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks*, Lipidology | 2025 | Peer-reviewed | Current systematic review of edible oil contaminants through Sept 2025 |
+| 2 | [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|Yohannes et al. 2024]]. *Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia*, BMC Public Health | 2024 | Peer-reviewed | Ethiopian Gondar City vegetable oil 5-metal panel (n=17) |
+| 3 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | Broad foods-and-beverages review including soybean oil cross-context |
+| 4 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | Saudi market survey including 21 soybean oil samples within 161-sample multi-oil panel |
+| 5 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | Turkish 9-metal panel including soybean oil |
 <!-- END: hmi-source-legend -->

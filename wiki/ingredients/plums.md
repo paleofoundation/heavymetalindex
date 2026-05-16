@@ -160,6 +160,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|Lee 2023]]. *South Korea Fresh Fruits 7-Metal Panel* | 2023 | Peer-reviewed | South Korean fresh-fruit 7-metal panel including plums (n=207) |
-| 2 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz 2010]]. *Nitrates Pb Cd Polish Domestic Fruits* | 2010 | Peer-reviewed | Polish Lublin-area domestic-fruit Pb-Cd panel including plums (n=108) |
+| 1 | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|Lee et al. 2023]]. *Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea*, Applied Biological Chemistry | 2023 | Peer-reviewed | South Korean fresh-fruit 7-metal panel including plums (n=207) |
+| 2 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz et al. 2010]]. *Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits*, Polish Journal of Environmental Studies | 2010 | Peer-reviewed | Polish Lublin-area domestic-fruit Pb-Cd panel including plums (n=108) |
 <!-- END: hmi-source-legend -->

@@ -160,13 +160,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|Abdolahpour 2023]]. *Heavy Metals in Vegetables Babol Iran* | 2023 | Peer-reviewed | Iranian Babol-city Pb-Cd vegetable panel including beans (n=32) |
-| 2 | [[sources/albals2021-coffee-jordan-icpms\|Albals 2021]]. *Multi-element Coffee Beans Jordan ICP-MS* | 2021 | Peer-reviewed | Multi-element panel including Ni in legume (coffee bean) tissue (n=56) |
-| 3 | [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|Alzabadi 2018]]. *Canned Foods Palestine Cd Pb Cu Zn* | 2018 | Peer-reviewed | Palestinian canned-bean Cd-Pb at retail levels of concern (n=16) |
-| 4 | [[sources/atsdr2005-tin-toxicological-profile\|ATSDR 2005]]. *Toxicological Profile for Tin and Tin Compounds* | 2005 | Government report | Tin canned-product toxicology and exposure regulatory framework |
-| 5 | [[sources/barraza2019-ecuador-cacao-cadmium-isotope\|Barraza 2019]]. *Cd Isotope Fractionation Soil-Cacao Ecuador* | 2019 | Peer-reviewed | Cadmium isotope mechanism evidence in legume-related tropical agronomy |
-| 6 | [[sources/arevalo-gardini2017-peru-cacao-regional-metals\|Arevalo-Gardini 2017]]. *Peru Cacao Heavy Metals* | 2017 | Peer-reviewed | Peruvian cacao multi-region 8-metal panel; reference for related legume tissue (n=70) |
-| 7 | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|Bora 2022]]. *Romania Fruits Vegetables Vinegar Washing* | 2022 | Peer-reviewed | Romanian fruit-vegetable Pb-Cd-tAs-Zn baseline including beans (n=80) |
-| 8 | [[sources/sandil2023-arsenic-bean-lettuce\|Sandil 2023]]. *Arsenic Uptake Bean and Lettuce Developmental Stages* | 2023 | Peer-reviewed | Hungarian arsenic uptake mechanism in bean tissue across plant developmental stages |
-| 9 | [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|Clair-Caliot 2021]]. *Arsenic Irrigated Vegetables Burkina Faso* | 2021 | Peer-reviewed | Burkina Faso irrigation-water arsenic pathway in vegetables including bean crops (n=168) |
+| 1 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|Abdolahpour et al. 2023]]. *The health risk assessment of heavy metals in vegetables grown in Babol city, Iran*, International Archives of Health Sciences | 2023 | Peer-reviewed | Iranian Babol-city Pb-Cd vegetable panel including beans (n=32) |
+| 3 | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|Bora et al. 2022]]. *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galati County, Romania*, Horticulturae | 2022 | Peer-reviewed | Romanian fruit-vegetable Pb-Cd-tAs-Zn baseline including beans (n=80) |
+| 4 | [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|Clair-Caliot et al. 2021]]. *Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso*, Frontiers in Water | 2021 | Peer-reviewed | Burkina Faso irrigation-water arsenic pathway in vegetables including bean crops (n=168) |
+| 5 | [[sources/trandafir2012-tin-canned-foods-icp-ms\|Trandafir et al. 2012]]. *Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry*, Polish Journal of Environmental Studies | 2012 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

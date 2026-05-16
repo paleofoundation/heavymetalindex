@@ -156,8 +156,13 @@ The clean_benchmark designation of this row relative to kombucha-tea-based refle
 
 No formal product recalls for non-tea fermented beverages on heavy-metal grounds are documented in the current evidence base. The 2023 Ibiza family outbreak (munilla-garcia2023) involved tea-based kombucha from ceramic containers and is documented on the [[products/kombucha-tea-based]] page; the FCM mechanism it describes applies to this category equally. No EU or Spanish maximum level for Pb in fermented beverages existed at the time of that outbreak; the regulatory gap identified by the authors covers this category as well as kombucha. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
+
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla García et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública 97 | 2023 | Peer-reviewed (A-tier) | FCM pathway: Pb leaching from ceramic containers under acidic fermentation conditions; documented for tea-based substrate but mechanism applies equally to non-tea acidic fermented beverages; regulatory gap (no EU ML for Pb in fermented beverages) |
+| 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública | 2023 | Peer-reviewed | FCM pathway: Pb leaching from ceramic containers under acidic fermentation conditions; documented for tea-based substrate but mechanism applies equally to non-tea acidic fermented beverages; regulatory gap (no EU ML for Pb in fermented beverages) |
+<!-- END: hmi-source-legend -->
+

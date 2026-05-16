@@ -156,8 +156,13 @@ The row is designated EF-5 (data gap with documented rationale). Percentile sele
 
 FDA has issued multiple import alerts covering herbal products with elevated metal concentrations, most commonly for lead in Ayurvedic herbs, traditional Chinese medicine preparations, and herbal dietary supplements. These actions are not specific to the infusion category covered by this page (they typically apply to capsules, powders, and concentrated extracts rather than brewed beverages) but reflect the regulatory framework's existing concern about metals in botanical supply chains. Proposition 65 actions in California have named specific herbal products for lead content. Public-record actions specific to brewed herbal infusions will be documented here as the synthesis pass identifies them. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
+
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed (A-tier) | Cd and Cr in dried botanical plants (baobab, guava, papaya) from Northern Nigeria; health risk assessment (HQ and ILCR); anchors the page as the first contributing source but represents a narrow and geographically specific slice of the global herbal infusion supply chain |
+| 1 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | Cd and Cr in dried botanical plants (baobab, guava, papaya) from Northern Nigeria; health risk assessment (HQ and ILCR); anchors the page as the first contributing source but represents a narrow and geographically specific slice of the global herbal infusion supply chain |
+<!-- END: hmi-source-legend -->
+
