@@ -2,7 +2,7 @@
 title: Wild Mushrooms
 type: ingredient
 commodity: wild-mushrooms
-aliases: [fungi, wild-harvested mushrooms, porcini, chanterelle, morel, boletus, foraged mushrooms, mushroom powder]
+aliases: [fungi, "wild-harvested mushrooms", porcini, chanterelle, morel, boletus, "foraged mushrooms", "mushroom powder", porcini-mushroom]
 category: fungi
 contamination_profile:
   Pb:
@@ -80,6 +80,7 @@ lower_risk_variants: ["[[ingredients/cultivated-button-mushrooms]]", "[[ingredie
 higher_risk_variants: ["[[ingredients/wild-porcini]]", "[[ingredients/wild-chanterelle]]", "[[ingredients/boletus-species]]", "[[ingredients/dried-wild-mushroom]]", "[[ingredients/mushroom-extract-supplements]]"]
 used_in_products: ["[[products/dried-mushroom]]", "[[products/mushroom-powder]]", "[[products/mushroom-supplements]]", "[[products/mushroom-sauces]]", "[[products/pates]]", "[[products/foraged-mushroom-products]]"]
 audience: [regulator, educator, consumer, app]
+sources: 9
 updated: 2026-04-24
 ---
 

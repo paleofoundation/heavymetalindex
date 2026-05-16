@@ -2,7 +2,7 @@
 title: Fruit Juice
 type: ingredient
 commodity: fruit-juice
-aliases: [apple juice, grape juice, pear juice, fruit juice concentrate, baby juice]
+aliases: ["apple juice", "grape juice", "pear juice", "fruit juice concentrate", "baby juice", lychee-juice, cherry-juice, pineapple-juice]
 category: beverage-ingredient
 contamination_profile:
   Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
@@ -20,6 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
+sources: 4
 updated: 2026-04-29
 ---
 

@@ -3,7 +3,7 @@ title: "Banana"
 type: ingredient
 commodity: banana
 label: "Banana"
-aliases: [bananas]
+aliases: [bananas, banana-peel]
 category: fruit
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [fruit-purees]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 2
+sources: 5
 ---
 
 # Banana

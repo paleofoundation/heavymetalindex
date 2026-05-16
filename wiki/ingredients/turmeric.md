@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/ground-turmeric-imported]]"]
 used_in_products: ["[[products/spice-blends]]", "[[products/curry-powder]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 10
+sources: 9
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 9

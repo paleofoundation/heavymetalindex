@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: skin-lightening-cream
+aliases: [skin-lightening-lotion, skin-lightening-soap, whitening-cream]
 title: "Skin Lightening Cream"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]

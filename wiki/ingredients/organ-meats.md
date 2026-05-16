@@ -2,7 +2,7 @@
 title: Organ Meats (Kidney and Liver)
 type: ingredient
 commodity: organ-meats
-aliases: [kidney, liver, offal, variety meats, pate, liverwurst, kidney pie, liver pate, calves-liver, beef-liver, pork-kidney, sweetbreads]
+aliases: [kidney, liver, offal, "variety meats", pate, liverwurst, "kidney pie", "liver pate", calves-liver, beef-liver, pork-kidney, sweetbreads, beef-kidney]
 category: organ-meat
 contamination_profile:
   Pb:
@@ -80,6 +80,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/older-animal-organ-meat]]", "[[ingredients/horsemeat-offal]]"]
 used_in_products: ["[[products/pate]]", "[[products/sausages]]", "[[products/organ-meat-pies]]", "[[products/liver-based-baby-food]]", "[[products/nutritional-supplements]]", "[[products/pet-food]]"]
 audience: [regulator, educator, consumer, app]
+sources: 13
 updated: 2026-04-24
 ---
 

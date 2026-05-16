@@ -6,6 +6,7 @@ name: Organotin compounds
 species: [monobutyltin, dibutyltin, tributyltin, triphenyltin, monomethyltin, dimethyltin, trimethyltin, triethyltin]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
+sources: 3
 updated: 2026-05-08
 status: scaffold
 n_sources: 2

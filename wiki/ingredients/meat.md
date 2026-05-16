@@ -3,7 +3,7 @@ title: "Meat and poultry"
 type: ingredient
 commodity: meat
 label: "Meat and poultry"
-aliases: [chicken, pork sausage]
+aliases: [chicken, "pork sausage", processed-meat, sausage]
 category: animal-food
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [mixed-meals-non-rice, mixed-meals-rice-containing]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 1
+sources: 23
 ---
 
 # Meat and poultry

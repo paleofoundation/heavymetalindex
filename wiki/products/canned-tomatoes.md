@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: canned-tomatoes
+aliases: [canned-tomato]
 title: "Canned Tomatoes"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, Sn, tAs]
@@ -8,7 +9,7 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 2
+sources: 3
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2

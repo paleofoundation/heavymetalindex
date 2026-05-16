@@ -2,6 +2,7 @@
 title: Mixed Meals, Non-Rice
 type: product-category
 category: mixed-meals-non-rice
+aliases: [mixed-dishes]
 hmtc_row: 12
 hmtc_category: 1
 category_label: Infant and Child Foods
@@ -28,7 +29,7 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 4
+sources: 13
 ---
 
 # Mixed Meals, Non-Rice

@@ -84,6 +84,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/cocoa-powder]]", "[[ingredients/high-cocoa-solid-dark-chocolate]]"]
 used_in_products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[products/cocoa-baked-goods]]", "[[products/confectionery]]", "[[products/baby-food-flavor]]", "[[products/nutritional-supplements]]"]
 audience: [regulator, educator, consumer, app]
+sources: 40
 updated: 2026-05-12
 ---
 

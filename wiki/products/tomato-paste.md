@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: tomato-paste
+aliases: [canned-tomato-paste]
 title: "Tomato Paste"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]

@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: matcha
+aliases: [matcha-beverages]
 hmtc_category: 5
 hmtc_row: 12
 label: "Matcha"

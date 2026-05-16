@@ -3,7 +3,7 @@ type: ingredient
 commodity: cabbage
 title: "Cabbage"
 label: "Cabbage"
-aliases: [brassica-oleracea-capitata, green-cabbage, red-cabbage, savoy-cabbage]
+aliases: [brassica-oleracea-capitata, green-cabbage, red-cabbage, savoy-cabbage, pak-choi, pakchoi, chinese-cabbage, brassica-vegetables]
 category: vegetable
 contamination_profile:
   Pb:

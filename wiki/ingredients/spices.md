@@ -3,7 +3,7 @@ type: ingredient
 commodity: spices
 title: "Spices"
 label: "Spices"
-aliases: [ground-spices, whole-spices, seasoning-spices]
+aliases: [ground-spices, whole-spices, seasoning-spices, chili-pepper]
 category: herb-spice
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/turmeric]]", "[[ingredients/cinnamon]]", "
 used_in_products: ["[[products/spice-blends]]", "[[products/curry-powder]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 8
+sources: 10
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 8

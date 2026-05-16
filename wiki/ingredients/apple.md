@@ -3,7 +3,7 @@ title: "Apple"
 type: ingredient
 commodity: apple
 label: "Apple"
-aliases: [apples]
+aliases: [apples, apple-pomace]
 category: fruit
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [fruit-juices-apple-containing, fruit-purees]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 2
+sources: 11
 ---
 
 # Apple

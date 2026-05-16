@@ -3,7 +3,7 @@ title: "Root vegetables"
 type: ingredient
 commodity: root-vegetables
 label: "Root vegetables"
-aliases: [carrot, parsnip, potato, sweet potato, yam, beet]
+aliases: [carrot, parsnip, potato, "sweet potato", yam, beet, lotus-root, taro, cassava]
 category: vegetable
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [vegetable-juices-root-vegetable-containing]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 1
+sources: 19
 ---
 
 # Root vegetables

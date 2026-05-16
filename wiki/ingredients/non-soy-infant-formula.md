@@ -79,7 +79,7 @@ contamination_profile:
 used_in_products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-01
-sources: 0
+sources: 8
 ---
 
 # Non-soy Infant Formula

@@ -3,7 +3,7 @@ type: ingredient
 commodity: fresh-herbs
 title: "Fresh Herbs"
 label: "Fresh Herbs"
-aliases: [fresh-culinary-herbs, raw-herbs]
+aliases: [fresh-culinary-herbs, raw-herbs, basil, mint, perilla]
 category: herb-spice
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/dried-herbs]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 3
+sources: 2
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3

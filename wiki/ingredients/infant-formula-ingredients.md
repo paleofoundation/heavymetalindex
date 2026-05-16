@@ -20,6 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/soy]]"]
 used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 audience: [regulator, educator, consumer, app]
+sources: 12
 updated: 2026-04-29
 ---
 

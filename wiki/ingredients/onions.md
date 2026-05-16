@@ -3,7 +3,7 @@ title: "Onions"
 type: ingredient
 commodity: onions
 label: "Onions"
-aliases: [onion]
+aliases: [onion, garlic, allium-vegetables]
 category: vegetable
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 2
+sources: 9
 ---
 
 # Onions

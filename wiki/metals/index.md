@@ -9,39 +9,39 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 
 ## Metal Pages
 
-- [[metals/aluminum]]
-- [[metals/antimony]]
-- [[metals/arsenic]]
-- [[metals/arsenic-inorganic]]
-- [[metals/arsenic-total]]
-- [[metals/barium]]
-- [[metals/beryllium]]
-- [[metals/cadmium]]
-- [[metals/cesium]]
-- [[metals/chromium]]
-- [[metals/chromium-hexavalent]]
-- [[metals/cobalt]]
-- [[metals/copper]]
-- [[metals/gold]]
-- [[metals/iron]]
-- [[metals/lead]]
-- [[metals/lithium]]
-- [[metals/magnesium]]
-- [[metals/manganese]]
-- [[metals/mercury]]
-- [[metals/mercury-methyl]]
-- [[metals/mercury-total]]
-- [[metals/molybdenum]]
-- [[metals/nickel]]
-- [[metals/organotins]]
-- [[metals/palladium]]
-- [[metals/platinum]]
-- [[metals/silver]]
-- [[metals/tellurium]]
-- [[metals/thallium]]
-- [[metals/tin]]
-- [[metals/tin-inorganic]]
-- [[metals/titanium]]
-- [[metals/uranium]]
-- [[metals/vanadium]]
-- [[metals/zinc]]
+- [[metals/aluminum]] (30 sources)
+- [[metals/antimony]] (3 sources)
+- [[metals/arsenic]] (267 sources)
+- [[metals/arsenic-inorganic]] (19 sources)
+- [[metals/arsenic-total]] (16 sources)
+- [[metals/barium]] (1 sources)
+- [[metals/beryllium]] (1 sources)
+- [[metals/cadmium]] (395 sources)
+- [[metals/cesium]] (1 sources)
+- [[metals/chromium]] (94 sources)
+- [[metals/chromium-hexavalent]] (19 sources)
+- [[metals/cobalt]] (1 sources)
+- [[metals/copper]] (1 sources)
+- [[metals/gold]] (1 sources)
+- [[metals/iron]] (1 sources)
+- [[metals/lead]] (405 sources)
+- [[metals/lithium]] (1 sources)
+- [[metals/magnesium]] (1 sources)
+- [[metals/manganese]] (7 sources)
+- [[metals/mercury]] (190 sources)
+- [[metals/mercury-methyl]] (9 sources)
+- [[metals/mercury-total]] (17 sources)
+- [[metals/molybdenum]] (1 sources)
+- [[metals/nickel]] (110 sources)
+- [[metals/organotins]] (3 sources)
+- [[metals/palladium]] (1 sources)
+- [[metals/platinum]] (1 sources)
+- [[metals/silver]] (1 sources)
+- [[metals/tellurium]] (1 sources)
+- [[metals/thallium]] (1 sources)
+- [[metals/tin]] (15 sources)
+- [[metals/tin-inorganic]] (5 sources)
+- [[metals/titanium]] (1 sources)
+- [[metals/uranium]] (9 sources)
+- [[metals/vanadium]] (1 sources)
+- [[metals/zinc]] (3 sources)

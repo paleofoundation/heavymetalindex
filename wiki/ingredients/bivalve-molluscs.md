@@ -2,7 +2,7 @@
 title: Bivalve Molluscs (Excluding Oysters)
 type: ingredient
 commodity: bivalve-molluscs
-aliases: [clams, mussels, scallops, cockles, razor-clams, oysters-separate-page, quahog, geoduck]
+aliases: [clams, mussels, scallops, cockles, razor-clams, oysters-separate-page, quahog, geoduck, oyster]
 category: shellfish-mollusc
 contamination_profile:
   Pb:
@@ -80,6 +80,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/wild-harvested-near-estuaries]]", "[[ingredients/older-specimens]]"]
 used_in_products: ["[[products/clam-chowder]]", "[[products/frozen-shellfish-mixes]]", "[[products/prepared-seafood]]", "[[products/shellfish-sauces]]", "[[products/seafood-supplements]]"]
 audience: [regulator, educator, consumer, app]
+sources: 18
 updated: 2026-04-24
 ---
 

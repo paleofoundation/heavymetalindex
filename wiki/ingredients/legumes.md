@@ -3,7 +3,7 @@ type: ingredient
 commodity: legumes
 title: "Legumes"
 label: "Legumes"
-aliases: []
+aliases: [chickpeas]
 category: legume
 contamination_profile:
   Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
@@ -22,7 +22,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 4
+sources: 9
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4

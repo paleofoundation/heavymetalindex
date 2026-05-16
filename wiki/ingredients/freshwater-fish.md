@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/sport-fish-predatory]]"]
 used_in_products: ["[[products/fish-containing-baby-foods]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 9
+sources: 48
 ---
 
 # Freshwater Fish

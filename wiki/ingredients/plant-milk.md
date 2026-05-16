@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [plant-milks-non-soy-non-rice, plant-milks-rice-based, plant-milks-soy-based]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-01
-sources: 3
+sources: 4
 ---
 
 # Plant milk base

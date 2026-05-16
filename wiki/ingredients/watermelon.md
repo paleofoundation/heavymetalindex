@@ -3,7 +3,7 @@ title: "Watermelon"
 type: ingredient
 commodity: watermelon
 label: "Watermelon"
-aliases: ["Watermelon, raw/frozen", "watermelon"]
+aliases: [Watermelon, "raw/frozen", watermelon, watermelon-rind]
 category: fruit
 tds_food:
   number: 81
@@ -86,7 +86,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 1
+sources: 2
 ---
 
 # Watermelon

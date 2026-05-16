@@ -8,7 +8,7 @@ vulnerable_population: infants-and-children-0-12yr
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 1
+sources: 8
 created_by: autonomy_v0
 created_from: cat2_master_seed
 hmtc_category: 2

@@ -3,7 +3,7 @@ type: ingredient
 commodity: dried-herbs
 title: "Dried Herbs"
 label: "Dried Herbs"
-aliases: [dried-aromatic-herbs, culinary-dried-herbs]
+aliases: [dried-aromatic-herbs, culinary-dried-herbs, oregano, thyme]
 category: herb-spice
 contamination_profile:
   Pb:
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: ["[[products/spice-blends]]", "[[products/herbal-botanical-infusions]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 8
+sources: 3
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3

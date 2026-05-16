@@ -6,6 +6,7 @@ name: Zinc
 species: [Zn2+, total-zinc]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
+sources: 3
 updated: 2026-04-30
 status: stub
 n_sources: 3

@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: face-paint
+aliases: [costume-cosmetics, eye-shadow, foundation, face-foundation, lotion, hair-dye, sunblock]
 title: "Face Paint"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]

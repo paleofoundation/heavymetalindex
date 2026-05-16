@@ -2,7 +2,7 @@
 title: Vegetables
 type: ingredient
 commodity: vegetables
-aliases: [vegetable puree, vegetable-based meal, green vegetables, mixed vegetables]
+aliases: ["vegetable puree", "vegetable-based meal", "green vegetables", "mixed vegetables", canned-vegetables]
 category: vegetable
 contamination_profile:
   Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
@@ -20,6 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/spinach]]", "[[ingredients/carrots]]", "[[ingredients/potatoes]]"]
 used_in_products: ["[[products/non-root-vegetable-purees]]", "[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
+sources: 53
 updated: 2026-04-29
 ---
 
