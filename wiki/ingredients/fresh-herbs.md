@@ -3,49 +3,155 @@ type: ingredient
 commodity: fresh-herbs
 title: "Fresh Herbs"
 label: "Fresh Herbs"
-aliases: []
+aliases: [fresh-culinary-herbs, raw-herbs]
 category: herb-spice
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [soil-uptake, geography, drying, milling, adulteration]
+  Pb:
+    status: populated
+    typical_ppb: [10, 300]
+    p95_ppb: 800
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [5, 80]
+    p95_ppb: 200
+    confidence: high
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [5, 50]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [0, 10]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [soil-uptake, atmospheric-deposition, surface-area-to-volume, fresh-vs-dried-basis]
 lower_risk_variants: []
-higher_risk_variants: []
+higher_risk_variants: ["[[ingredients/dried-herbs]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
-sources: 2
+updated: 2026-05-16
+sources: 3
 created_by: autonomy_v0
 created_from: routing_unresolved
-created_routed_sources: 2
+created_routed_sources: 3
 ---
 
 # Fresh Herbs
 
-This page is an autonomy-created stub. The routing audit identified 2 source pages in the corpus declaring `ingredients: [fresh-herbs]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Fresh herbs — the live or freshly-cut leaves, flowers, and aerial plant parts of culinary aromatic plants (basil, parsley, cilantro, dill, mint, thyme, oregano, sage, rosemary, chives, tarragon, marjoram) — sit at the lower end of the herbs-and-spices category by per-mass concentration because the fresh form has not undergone the 7-10× concentration uplift that drying produces. Fresh herbs are commonly grown in home gardens, community gardens, urban allotments, and small-scale commercial production, which means siting variability (roadside, industrial-corridor) drives much of the within-category variance on Pb specifically. The current corpus loads 3 directly-routed sources: Fischer 2022 Polish mercury in spice plants (n=48 including fresh-leaf samples, [[sources/fischer2022-mercury-spice-plants-poland]]), LHAAC 2025 Australian Coordinated Sampling Project 41 covering both fresh and dried product (n=380, [[sources/lhaac2025-csp41-herbs-spices-wa]]), and Winiarska-Mieczan 2023 Polish Cd-Pb in 432 herb-and-single-component-spice samples covering fresh herbs as a subset ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]). The paired-product comparison with [[ingredients/dried-herbs]] establishes the fresh-vs-dried-basis factor; the same plant species at the same source carries roughly 1/8 to 1/10 the per-mass Pb-and-Cd of the dried form purely from the moisture-removal accounting.
+
+## Why this commodity accumulates heavy metals
+
+Fresh herbs take metals through the same plant-physiology pathways as the broader leafy-vegetable category (see [[ingredients/leafy-vegetables]]): root uptake of soluble soil metals (Cd, Cr, Ni) via the transpiration stream, and direct atmospheric deposition of particulate Pb onto the leaf surface during the growing cycle. The surface-area-to-volume ratio of fresh-herb leaves (typically thin, large surface area per gram) makes them efficient collectors of atmospheric Pb relative to root vegetables or compact-head leafy vegetables. The siting of fresh-herb production is highly variable: commercial Mediterranean herb production (Italy, Greece, Spain, Turkey) is dominantly in cropland settings with managed soil and water; home-garden and urban-garden production often sits in settings with elevated soil or atmospheric Pb backgrounds (former industrial sites, roadside plots). The Polish Winiarska-Mieczan 2023 dataset (n=432 herbs and single-component spices) is the largest single-jurisdiction recent dataset for the Cd-and-Pb profile across fresh and dried product on a comparable methodological basis ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]). The Fischer 2022 Polish mercury-in-spice-plants work characterises the mercury profile across 48 fresh-leaf samples, finding generally low mercury but with detectable concentrations in some species ([[sources/fischer2022-mercury-spice-plants-poland]]). The Australian LHAAC 2025 CSP 41 covers both fresh and dried product at scale (n=380) with the 7-metal panel ([[sources/lhaac2025-csp41-herbs-spices-wa]]).
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=3       | 10–300   | 800     | high   | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|3]], [[sources/lhaac2025-csp41-herbs-spices-wa\|2]] |
+| Cd  | n=3       | 5–80     | 200     | high   | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|3]], [[sources/lhaac2025-csp41-herbs-spices-wa\|2]] |
+| iAs | data gap  | —        | —       | —      | — |
+| tAs | n=1       | 5–50     | —       | low    | [[sources/lhaac2025-csp41-herbs-spices-wa\|2]] |
+| tHg | n=2       | 0–10     | —       | medium | [[sources/fischer2022-mercury-spice-plants-poland\|1]], [[sources/lhaac2025-csp41-herbs-spices-wa\|2]] |
+| Ni  | n=1       | —        | —       | —      | [[sources/lhaac2025-csp41-herbs-spices-wa\|2]] |
+| Al  | n=1       | —        | —       | —      | [[sources/lhaac2025-csp41-herbs-spices-wa\|2]] |
+| Cr  | n=1       | —        | —       | —      | [[sources/lhaac2025-csp41-herbs-spices-wa\|2]] |
+| Sn  | data gap  | —        | —       | —      | — |
+| U   | data gap  | —        | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The Polish Winiarska-Mieczan 2023 dataset (n=432) is the most species-diverse fresh-herbs dataset in the loaded corpus, covering common Polish-cuisine herbs and single-component spices in their fresh and dried forms; the work confirms the fresh-vs-dried-basis factor of ~7-10× concentration on a per-mass basis ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]). The Australian LHAAC 2025 CSP 41 covers both fresh and dried product across n=380 retail-and-import samples with the 7-metal panel ([[sources/lhaac2025-csp41-herbs-spices-wa]]). The Fischer 2022 Polish mercury-in-spice-plants work (n=48 fresh-leaf samples) is the most species-specific tHg data for fresh herbs ([[sources/fischer2022-mercury-spice-plants-poland]]). Species-level variance is substantial: parsley, dill, chives, and basil sit at the lower end of the fresh-herb Pb-and-Cd distribution; sage, lemon balm, and chamomile sit at the higher end (mirroring the dried-herb pattern); thyme, oregano, mint sit at the middle. Siting matters more than species for the Pb pathway specifically: roadside-grown parsley can carry more Pb than commercially-grown lemon balm grown on Mediterranean cropland away from atmospheric sources.
+
+## Processing effects
+
+Drying is the major processing transition for fresh herbs, with fresh-to-dried producing the 7-10× per-mass concentration uplift documented above. The transition is well-characterised and is a basis change rather than contamination. Washing fresh herbs before consumption removes surface particulate Pb (the atmospheric-deposition fraction) but does not affect internalised Cd, Cr, or Ni. Blanching and freezing (used for some processed fresh-herb products) loses small fractions of soluble Cd and Cr to the blanch water. Chopping and mincing do not affect the per-mass metal load. Herb purees and pestos concentrate the per-mass metal load proportional to the moisture-removal during processing.
+
+## Ingredient-derivative risk
+
+Fresh whole-leaf herbs represent the baseline. Bagged or packaged fresh-herb product carries the same per-mass load with surface contamination reduced. Frozen herbs lose a small fraction of soluble metals to the freezing-and-blanching step. Herb pestos (basil pesto, parsley pesto, cilantro chutney) concentrate metals on a per-mass basis through moisture removal. Herb-infused oils carry a much smaller fraction of the parent herb's metal load because most metals partition with the solid residue rather than the oil phase. Herb-infused vinegars and herb teas extract a fraction of the parent herb's soluble metals into the liquid; per-serving exposure tracks the herb mass and the extraction efficiency.
+
+## Mitigation options
+
+### Sourcing levers
+
+Source from production regions and operations with documented soil-and-water screening, away from roadsides and industrial corridors. For home-gardeners and urban-gardeners, soil testing before planting is the upstream intervention. Specify commercially-grown Mediterranean-origin product for the lower-end of the distribution.
+
+### Agronomic levers
+
+Soil pH management around 6.5 reduces Cd bioavailability. Avoidance of phosphate fertilisers with elevated Cd impurity reduces Cd loading. For brand-controlled-supply operations, raised-bed and container-growing with imported clean substrate eliminates the inherited-soil Pb pathway.
+
+### Processing levers
+
+Washing reduces surface Pb but not internalised metals. Drying concentrates metals on a per-mass basis (basis change, not contamination). Avoid extended storage in unsealed bulk where atmospheric Pb dust deposition can accumulate.
+
+### Formulation levers
+
+For finished-product applications using fresh herbs as one ingredient, the inclusion ratio caps per-serving exposure. Substitution between fresh-herb species shifts the per-mass profile modestly.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Pb (detection floor ≤ 10 ppb fresh-weight) and Cd (≤ 5 ppb fresh-weight) is appropriate for commercial fresh-herb buyers, with conversion to dry-weight equivalent reporting where the downstream product is dried.
+
+### Packaging and storage levers
+
+Packaging is not the dominant pathway for fresh herbs. Standard food-grade clamshell and bag packaging do not affect the metal load.
+
+## Regulatory limits that apply
+
+The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable Pb maximum of 0.30 mg/kg fresh weight to fresh herbs, and Cd at 0.20 mg/kg fresh weight (general vegetables; some fresh herbs fall under specific tighter categories). The EU Regulation 2023/915 applies tighter limits: 0.30 mg/kg Pb for "leafy vegetables and fresh herbs," and 0.20 mg/kg Cd for leafy vegetables and stems excluding celery and salsify. The Australian LHAAC 2025 CSP 41 found commercial fresh-herb product generally compliant with applicable Australian caps on a fresh-weight basis ([[sources/lhaac2025-csp41-herbs-spices-wa]]). The Polish Winiarska-Mieczan 2023 work confirmed similar compliance for the Polish-market fresh-herb category ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]).
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,6 +160,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|Winiarska-Mieczan et al. 2023]]. *The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine*, Biological Trace Element Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/fischer2022-mercury-spice-plants-poland\|Fischer et al. 2022]]. *The Mercury Concentration in Spice Plants*, Processes | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/fischer2022-mercury-spice-plants-poland\|Fischer 2022]]. *Mercury in Spice Plants Poland* | 2022 | Peer-reviewed | Polish mercury in 48 fresh-leaf spice-plant samples; strongest tHg data |
+| 2 | [[sources/lhaac2025-csp41-herbs-spices-wa\|LHAAC 2025]]. *Coordinated Sampling Project 41 Herbs and Spices Australia* | 2025 | Government dataset | Australian retail-and-import fresh-and-dried 7-metal panel (n=380); largest cross-form dataset |
+| 3 | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|Winiarska-Mieczan 2023]]. *Cd and Pb in Polish Herbs and Single-Component Spices* | 2023 | Peer-reviewed | Polish fresh-and-dried herb Cd-Pb panel (n=432); largest single-jurisdiction dataset establishing fresh-vs-dried-basis factor |
 <!-- END: hmi-source-legend -->

@@ -3,49 +3,155 @@ type: ingredient
 commodity: mango
 title: "Mango"
 label: "Mango"
-aliases: []
+aliases: [mangifera-indica, fresh-mango, mango-pulp, mango-puree]
 category: fruit
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-drivers: [soil-uptake, geography, processing]
-lower_risk_variants: []
-higher_risk_variants: []
-used_in_products: []
+  Pb:
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: 300
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [1, 30]
+    p95_ppb: 100
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
+  iAs:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [1, 50]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  U:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+drivers: [soil-uptake, growing-region, peel-vs-flesh, processing-juice-concentration]
+lower_risk_variants: ["[[ingredients/peeled-mango-flesh]]"]
+higher_risk_variants: ["[[ingredients/mango-juice]]"]
+used_in_products: ["[[products/fruit-juice]]", "[[products/fruit-purees]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
-sources: 2
+updated: 2026-05-16
+sources: 5
 created_by: autonomy_v0
 created_from: routing_unresolved
-created_routed_sources: 2
+created_routed_sources: 3
 ---
 
 # Mango
 
-This page is an autonomy-created stub. The routing audit identified 2 source pages in the corpus declaring `ingredients: [mango]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+Mango (Mangifera indica) is a tropical fruit consumed fresh and processed into juice, puree, dried slices, and frozen pulp. The heavy-metals profile of mango sits at the lower end of the fruit-category distribution: as a thick-skinned tropical fruit, the peeled flesh has limited atmospheric-deposition exposure and the relatively low soil-uptake transfer factor for Cd-and-Pb keeps fresh-flesh concentrations modest. The current corpus loads 3 directly-routed sources covering mango specifically plus 4 broader fruit-and-juice studies reachable via the routing layer: Islam 2024 Bangladeshi fruits systematic review (n=10 fruits including mango, [[sources/islam2024-heavy-metals-bangladeshi-fruits-review]]), Mekonnen 2024 Ethiopian Bahir Dar fruit metals (n=120, [[sources/mekonnen2024-ethiopia-fruit-metals]]), Rahim 2020 Pakistani 308-sample most-widely-consumed fruits ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan]]), Farid 2010 Saudi fruit-juice trace elements (n=129, [[sources/farid2010-fruit-juices-jeddah-trace-elements]]), Paudel 2024 Nepal packaged fruit juices ([[sources/paudel2024-packaged-fruit-juices-nepal]]), Sobhanardakani 2017 Iranian fruit-juice Al-and-Cu ([[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran]]), Tsegay 2025 fruit by-product toxicology review ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review]]), Weldegebriel 2025 Ethiopian Gondar packaged fruit juices (n=80, [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]).
+
+## Why this commodity accumulates heavy metals
+
+Mango takes metals from soil through root uptake into the trunk-and-leaf tissue, and atmospheric deposition onto the leaves and developing fruit during the growing cycle. Mangifera indica is a deep-rooted perennial that draws water and dissolved solutes from a broader soil profile than annual crops, which provides some buffering against surface-soil contamination but also exposes the tree to subsoil Cd-and-Pb that might be elevated in mining-influenced or industrial-corridor settings. The peel-vs-flesh distribution is significant: the peel accumulates surface-deposited Pb and some soluble Cd, while the flesh sits at lower concentrations because the metals do not transfer efficiently across the peel into the edible tissue. Peeled mango flesh is therefore the lowest-metal-load consumption form. The Bangladeshi Islam 2024 systematic review identified mango as one of the more-consumed tropical fruits and characterised the Pb-Cd-Cr-Ni profile across the Bangladeshi market ([[sources/islam2024-heavy-metals-bangladeshi-fruits-review]]). The Ethiopian Mekonnen 2024 Bahir Dar work (n=120 fruit samples) provides the largest single-jurisdiction recent dataset for mango within the broader fruit-and-vegetable panel ([[sources/mekonnen2024-ethiopia-fruit-metals]]). The Pakistani Rahim 2020 dataset (n=308 most-widely-consumed fruits) contributes the largest single-jurisdiction fruit-Pb-Cd-Cr-Ni dataset with a substantial mango subset ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan]]). Mango juice and packaged-juice product is covered in the Farid 2010 Saudi work, the Paudel 2024 Nepal work, and the Ethiopian Weldegebriel 2025 work; the packaging-leaching pathway adds metals beyond the fresh-fruit baseline in some commercial juice product.
 
 ## Heavy metal contamination profile
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Pb  | n=5       | 5–100    | 300     | medium | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|5]], [[sources/mekonnen2024-ethiopia-fruit-metals\|3]] |
+| Cd  | n=5       | 1–30     | 100     | medium | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|5]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]] |
+| iAs | data gap  | —        | —       | —      | — |
+| tAs | n=3       | 1–50     | —       | medium | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]] |
+| tHg | n=1       | —        | —       | —      | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]] |
+| Ni  | n=3       | 10–200   | —       | low    | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|5]] |
+| Al  | n=1       | —        | —       | —      | [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\|7]] |
+| Cr  | n=3       | 5–100    | —       | low    | [[sources/mekonnen2024-ethiopia-fruit-metals\|3]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|5]] |
+| Sn  | data gap  | —        | —       | —      | — |
+| U   | data gap  | —        | —       | —      | — |
+
+## Ranges by source, region, and variety
+
+The Pakistani Rahim 2020 dataset (n=308 fruit samples including mango) is the largest single-jurisdiction fruit-heavy-metals dataset in the loaded corpus and provides the strongest mango distributional anchor ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan]]). The Ethiopian Mekonnen 2024 Bahir Dar work (n=120 fruits) covers a sub-Saharan African market context with strong methodological rigor ([[sources/mekonnen2024-ethiopia-fruit-metals]]). The Bangladeshi Islam 2024 systematic review consolidates the South Asian mango literature ([[sources/islam2024-heavy-metals-bangladeshi-fruits-review]]). Origin pattern: mangoes from Indian, Pakistani, Bangladeshi, and Mexican production carry similar baseline metal profiles within commodity-grade product; Ecuadorian and Peruvian mangoes (often grown in or near former mining regions) can carry slightly higher Cd. Variety-level pattern (Alphonso, Kesar, Tommy Atkins, Keitt, Haden, Ataulfo): no strong cultivar-specific metal-accumulation differences are documented in the loaded corpus. The peel-vs-flesh distinction is the most consistent within-mango pattern, with peel carrying 3-10× the per-mass Pb of the flesh.
+
+## Processing effects
+
+Peeling mango before consumption removes the peel-bound metal load and is the largest single processing-stage reduction. Cutting and slicing do not affect metal load. Cooking (rare for mango, but used in chutneys and preserves) leaches a small fraction of soluble metals into the cooking liquid. Drying for dehydrated-mango applications concentrates metals on a dry-weight basis by 5-8×. Juicing extracts the soluble fraction of fresh-flesh metals; the juice-yield ratio determines the per-mass concentration in the finished juice relative to the parent fruit. Concentrate-and-reconstitute juice processing (the dominant industrial form for commercial mango juice) further concentrates metals on a per-mass basis during the concentration step and then dilutes back during reconstitution.
+
+## Ingredient-derivative risk
+
+Peeled fresh-mango flesh is the lowest-metal-load consumption form. Fresh mango with peel-on (consumed in some traditional preparations, particularly green mango) carries the peel-bound metal contribution. Dehydrated mango slices concentrate metals on a dry-weight basis. Mango juice (fresh-pressed, not-from-concentrate) inherits the fresh-flesh metal load at the juice-yield ratio. Concentrate-and-reconstitute mango juice (the dominant commercial form) carries variable metals depending on the concentration protocol and the packaging-leaching pathway. Mango puree and mango pulp (used in baby foods, smoothies, and processed-food applications) inherits the fresh-flesh load with minor processing-driven shifts. Frozen mango chunks carry the fresh-flesh baseline. Mango-and-cinnamon-flavored baby food products (including the WanaBana apple-cinnamon line that was implicated in the 2023-2024 lead-poisoning outbreak; see [[ingredients/cinnamon]]) inherit any adulterated-cinnamon contribution at the cinnamon inclusion ratio.
+
+## Mitigation options
+
+### Sourcing levers
+
+Source from production regions with documented soil-and-water screening. Avoid sourcing from mining-influenced or industrial-corridor production where soil Cd-and-Pb are elevated. For mango juice specifically, specify supplier transparency on the concentrate-versus-not-from-concentrate processing and on the packaging material.
+
+### Agronomic levers
+
+For mango orchard operations, soil pH management and water-source screening reduce the upstream metal load. Mango trees are deep-rooted; subsoil contamination matters more than surface contamination for this perennial fruit.
+
+### Processing levers
+
+Peeling mango before processing eliminates the peel-bound metal load. For juicing operations, validate equipment surfaces and avoid extended contact with metal vessels at acidic juice pH. Concentration-and-reconstitution does not introduce metals beyond the parent fruit but can concentrate any packaging-leaching that occurs during storage.
+
+### Formulation levers
+
+For finished products using mango as one ingredient, the inclusion ratio caps per-serving exposure. Substitution with other low-metal tropical fruits (pineapple, papaya) does not meaningfully change the metal profile.
+
+### Testing and QC levers
+
+Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb fresh-weight), Cd (≤ 1 ppb fresh-weight), and Cr-Ni at appropriate floors is the standard intervention. For mango juice and concentrate, test in the as-consumed dilution rather than the concentrate.
+
+### Packaging and storage levers
+
+Glass packaging is the baseline-cleanest option for juice and puree. PET is acceptable. Avoid lead-soldered cans (historical risk, largely phased out) and tinplate cans with damaged coatings for acidic mango products. Modern fully-welded steel cans with food-grade interior coatings are acceptable.
+
+## Regulatory limits that apply
+
+The Codex Alimentarius General Standard CXS 193-1995 applies the general fresh-fruit Pb maximum of 0.10 mg/kg fresh weight to mango. The EU Regulation 2023/915 applies the same 0.10 mg/kg Pb maximum for fruits and the 0.020 mg/kg Cd maximum for the general fruit category. The FDA has not set a mango-specific action level but the broader fruit framework applies. The Ethiopian Mekonnen 2024 work found commercial mango compliant with the EU 0.10 mg/kg Pb cap on a fresh-weight basis in the Bahir Dar market ([[sources/mekonnen2024-ethiopia-fruit-metals]]). The Pakistani Rahim 2020 work characterised the regulatory-margin compliance for Pakistani-market mango at scale ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan]]).
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -54,6 +160,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|Islam et al. 2024]]. *A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks*, Environmental Health Insights | 2024 | Review | *[awaiting synthesis]* |
-| 2 | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|Rahim et al. 2020]]. *Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits*, Journal of Physical Science | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|Farid 2010]]. *Trace Elements in Commercial Fruit Juices Jeddah Saudi Arabia* | 2010 | Peer-reviewed | Saudi commercial fruit-juice Cr-Ni panel including mango juice (n=129) |
+| 2 | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|Islam 2024]]. *Heavy Metals Contamination in Bangladeshi Fruits Review* | 2024 | Peer-reviewed | Bangladeshi systematic review of 10 fruits including mango Pb-Cd-Cr-Ni-As-tHg |
+| 3 | [[sources/mekonnen2024-ethiopia-fruit-metals\|Mekonnen 2024]]. *Ethiopia Bahir Dar Fruit Heavy Metals* | 2024 | Peer-reviewed | Ethiopian Bahir Dar 120-sample fruit-and-vegetable panel including mango Pb-Cd-Cr |
+| 4 | [[sources/paudel2024-packaged-fruit-juices-nepal\|Paudel 2024]]. *Packaged Fruit Juices Nepal* | 2024 | Peer-reviewed | Nepalese packaged fruit-juice Pb (n=16) including mango juice |
+| 5 | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|Rahim 2020]]. *Toxic Heavy Metals in Most Consumed Fruits Pakistan* | 2020 | Peer-reviewed | Pakistani most-consumed-fruits 4-metal panel (n=308); largest single-jurisdiction dataset |
+| 6 | [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review\|Tsegay 2025]]. *Fruit By-Product Toxicology Review* | 2025 | Peer-reviewed | Global fruit by-product 6-metal toxicology and detoxification review |
+| 7 | [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\|Sobhanardakani 2017]]. *Al and Cu in Iranian Fruit Juices* | 2017 | Peer-reviewed | Iranian fruit-juice Al-and-Cu (n=48) including mango juice |
+| 8 | [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\|Weldegebriel 2025]]. *Packaged Fruit Juices Children Gondar Ethiopia* | 2025 | Peer-reviewed | Ethiopian packaged fruit-juice 4-metal panel for children (n=80) including mango |
 <!-- END: hmi-source-legend -->
