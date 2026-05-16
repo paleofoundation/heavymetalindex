@@ -5,23 +5,23 @@ commodity: fruit
 aliases: [apple, pear, peach, banana, berries, "fruit puree", compote, dried-fruit, "dried fruits", cherries, kiwi, pineapple, persimmon, papaya, jackfruit, lemon, muskmelon, melons, pineapple-peel]
 category: fruit
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [5, 50], p95_ppb: 150, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [5, 50], p95_ppb: 130, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [1, 10], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [1, 10], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [30, 200], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [100, 600], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [5, 30], p95_ppb: null, confidence: low, n_studies: 5, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [20, 100], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [10, 100], p95_ppb: 500, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, variety, processing, packaging]
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
 sources: 28
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Fruit

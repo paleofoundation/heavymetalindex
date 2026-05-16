@@ -29,49 +29,49 @@ contamination_profile:
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-16
   tHg:
+    status: populated
+    typical_ppb: [10, 35]
+    p95_ppb: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [8200, 12000]
+    p95_ppb: null
+    confidence: medium
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [5000, 10000]
+    p95_ppb: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
+  Cr:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
-  Ni:
-    status: in_progress
-    typical_ppb: [8200, 12000]
-    p95_ppb: null
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-11
-  Al:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-11
-  Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-11
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [50, 100]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
@@ -85,7 +85,7 @@ higher_risk_variants: ["[[ingredients/cocoa-powder]]", "[[ingredients/high-cocoa
 used_in_products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[products/cocoa-baked-goods]]", "[[products/confectionery]]", "[[products/baby-food-flavor]]", "[[products/nutritional-supplements]]"]
 audience: [regulator, educator, consumer, app]
 sources: 40
-updated: 2026-05-12
+updated: 2026-05-16
 ---
 
 # Cocoa
