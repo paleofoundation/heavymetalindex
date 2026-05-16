@@ -195,6 +195,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Ham, cured (not canned), baked (n=27); detectable concentrations for Cd, Cr, Ni, Pb, U, tAs |
-| 2 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania.md\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania.md\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | Pb and Cd in Romanian pork ham, with all Cd values across processed-pork categories exceeding the FAO/EC 0.1 mg/kg limit |
 <!-- END: hmi-source-legend -->
 
