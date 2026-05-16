@@ -226,7 +226,7 @@ Potential variance drivers for non-root vegetable purees should be documented on
 
 The app model placeholder for this row should treat [[ingredients/non-root-vegetable-purees]], [[ingredients/leafy-greens]], and [[ingredients/squash]] as unresolved ingredient targets until source-backed contamination profiles exist. <!-- UNCITED: Need source-backed ingredient mapping and concentration distributions before app risk inference is populated. -->
 
-## Historical Recalls/Enforcement
+## Historical recalls and enforcement
 
 <!-- audience: regulator, educator -->
 
@@ -290,8 +290,3 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 11 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK survey providing category-average Cd (5 ppb), Pb (2 ppb), and Ni (210 ppb) for UK green vegetables used in infant-diet modeling, as European non-root vegetable ingredient context |
 | 12 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | 1980 Canadian national baseline measuring nine metals in strained and junior vegetables by AAS (LOD 10 ppb); used as historical ceiling for the 50-year contamination reduction trajectory, not as a modern distribution source |
 <!-- END: hmi-source-legend -->
-## Historical recalls and enforcement
-
-_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
-
-

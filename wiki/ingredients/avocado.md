@@ -192,8 +192,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|Yoplac-Navarro et al. 2026]]. *Ecological and Human Health Risk Assessment of Metals in Peruvian Avocados Using a Probabilistic Approach*, Foods | 2026 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|Anastario et al. 2025]]. *Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF*, BMC Research Notes | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|Yoplac-Navarro et al. 2026]]. *Ecological and Human Health Risk Assessment of Metals in Peruvian Avocados Using a Probabilistic Approach*, Foods | 2026 | Peer-reviewed | PE/EU tAs, Cd, Cr, tHg, Ni, Pb occurrence in Soil and avocado fruit samples from 8 major Peruvian producing regions (Amazonas, Áncash, Ayacucho, Cusco, Huancavelica, Ica, La... (n=190) |
+| 2 | [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|Anastario et al. 2025]]. *Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF*, BMC Research Notes | 2025 | Peer-reviewed | US/MX Pb, Cd, tAs, tHg, Ni, Al occurrence in Commercial Hass avocados stratified by country of origin (California USA, Michoacán Mexico) and agricultural practice (organic, conventional); purchased... (n=24) |
 | 3 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Avocado, raw (n=27); detectable concentrations for Cd, Ni, Pb, tAs, tHg |
 <!-- END: hmi-source-legend -->
 

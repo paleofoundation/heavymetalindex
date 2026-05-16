@@ -242,7 +242,7 @@ This page documents what the cited sources report. The row-standard percentile i
 
 Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
 
-## Historical Recalls/Enforcement
+## Historical recalls and enforcement
 
 <!-- audience: regulator, educator -->
 
@@ -282,8 +282,3 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 9 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK FSA survey reporting multi-metal category-level means in savoury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg); relevant to non-rice mixed-meal category |
 | 10 | [[sources/sipahi2014-toxic-metals-infant-formulas-turkey\|Sipahi et al. 2014]]. *Safety assessment of essential and toxic metals in infant formulas*, The Turkish Journal of Pediatrics 56(4):385-391 | 2014 | Peer-reviewed | GFAAS measurement of Pb, Cd, Al, Mn, Cr, and Co in 12 mixed infant foods (cereals + milk + fruit + vegetables) from Ankara markets; provides mixed-food category means for an Eastern European/West Asian market context |
 <!-- END: hmi-source-legend -->
-## Historical recalls and enforcement
-
-_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
-
-

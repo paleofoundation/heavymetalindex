@@ -203,6 +203,9 @@ function sectionPresent(body, sectionTitle) {
   if (target === "heavy metal contamination profile") {
     return headings.some((h) => /^contamination profile\b/.test(h)) || headings.some((h) => /heavy metal.*profile/.test(h))
   }
+  if (target === "historical recalls and enforcement") {
+    return headings.some((h) => /^historical recalls\b/.test(h))
+  }
   return false
 }
 

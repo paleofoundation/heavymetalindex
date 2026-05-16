@@ -203,7 +203,7 @@ Potential variance drivers for meat and poultry purees should be documented only
 
 The app model placeholder for this row should treat [[ingredients/meat-and-poultry-purees]], [[ingredients/poultry]], and [[ingredients/beef]] as unresolved ingredient targets until source-backed contamination profiles exist. <!-- UNCITED: Need source-backed ingredient mapping and concentration distributions before app risk inference is populated. -->
 
-## Historical Recalls/Enforcement
+## Historical recalls and enforcement
 
 <!-- audience: regulator, educator -->
 
@@ -255,7 +255,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|Collado-Lopez et al. 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Nutrition Reviews | 2025 | Peer-reviewed | Global scoping review reporting Pb detected in 83% and Cd in 84% of meat and meat-mix baby-food determinations worldwide; does not isolate poultry purees or finished puree format, so used as broad meat-category monitoring context |
 | 2 | [[sources/fda-ctz-Pb-babyfood-2025\|FDA 2025]]. *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*, U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program | 2025 | Government guidance | FDA Closer to Zero final guidance establishing the 10 ppb Pb action level for single-ingredient meats for children under two, the regulatory benchmark loaded in the crosswalk section |
-| 3 | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|Rabeey et al. 2025]]. *Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt*, Scientific Reports (in press 2025) | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|Rabeey et al. 2025]]. *Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt*, Scientific Reports (in press 2025) | 2025 | Peer-reviewed | EG/BR/IN Pb, Cd, tHg occurrence in 315 imported frozen bovine samples (105 muscle + 105 liver + 105 kidney) from local markets in Sohag... (n=315) |
 | 4 | [[sources/fda2024-lead-baby-food-fy2023-guidance-basis\|FDA 2024]]. *Analytical Results for Lead in Processed Food Intended for Babies and Young Children (FY2023)*, FDA analytical results table | 2024 | Government dataset | 386-sample FY2023 FDA Pb survey including meat-bearing baby food rows, the most recent analytical dataset directly supporting the 2025 final guidance 10 ppb action level for single-ingredient meats |
 | 5 | [[sources/meli2024-chemical-characterization-baby-food-italy\|Meli et al. 2024]]. *Chemical characterization of baby food consumed in Italy*, PLOS ONE | 2024 | Peer-reviewed | Italian market multi-element characterization of four homogenized meat baby food products by ICP-OES/ICP-MS, reporting Al 753 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <100 ppb (wet weight); Pb reporting limit blocks comparison against the 10-20 ppb action levels |
 | 6 | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|Henríquez-Hernández et al. 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients 15(14):3251 | 2023 | Peer-reviewed | 159 Spanish ready-to-eat baby purees across four food types (fruit, chicken N=39, fish N=40, beef N=40) analyzed by ICP-MS for 38 elements including tAs, tHg, Pb, Cd, Ni, Al, Cr, and U; provides the most matrix-specific meat/poultry puree multi-metal occurrence data on this page |
@@ -266,8 +266,3 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 11 | [[sources/fsa2016-infant-food-formula-metals-survey\|FSA 2016]]. *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*, UK Food Standards Agency report FS102048 | 2016 | Government report | UK survey providing category-average tAs (15 ppb), iAs (2-4 ppb), Cd (9 ppb), Pb (4-5 ppb), and Ni (43-72 ppb) for UK meat and fish based infant foods; meat and fish combined, not poultry-specific |
 | 12 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | 1980 Canadian national baseline measuring nine metals in strained and junior meats by AAS (LOD 10 ppb); used as historical context for the decades-long reduction in meat-puree metal concentrations, not as a modern occurrence source |
 <!-- END: hmi-source-legend -->
-## Historical recalls and enforcement
-
-_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
-
-
