@@ -167,7 +167,7 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 <!-- audience: regulator, educator -->
 
-_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule (CLAUDE.md Part 12). Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule. Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

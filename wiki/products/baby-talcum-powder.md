@@ -28,7 +28,7 @@ This is the children's personal care category (Children Personal Care) product-c
 
 ## Who this page is for
 
-Brand legal teams evaluating the children's personal care category certification for baby personal care lines need to know what the cited literature reports for Pb, Cd, and Hg in finished talcum products and what the regulatory caps are for cosmetic talc. Retailer compliance teams stocking infant care aisles need to confirm certified-brand assortment-list eligibility. Per OPERATING.md Part 7 initiative 3.1, the children's personal care category toxicology methodology supplement (non-ingestion exposure routes) is a prerequisite for defensible HMTc thresholds on this row; the page captures literature occurrence data while that supplement is in development.
+Brand legal teams evaluating the children's personal care category certification for baby personal care lines need to know what the cited literature reports for Pb, Cd, and Hg in finished talcum products and what the regulatory caps are for cosmetic talc. Retailer compliance teams stocking infant care aisles need to confirm certified-brand assortment-list eligibility. initiative 3.1, the children's personal care category toxicology methodology supplement (non-ingestion exposure routes) is a prerequisite for defensible HMTc thresholds on this row; the page captures literature occurrence data while that supplement is in development.
 
 ## Methodology
 
@@ -82,7 +82,7 @@ Magnitude evidence pending additional source ingest.
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc thresholds for baby talcum powder lives on the staff Standards Workbench (the staff Standards Workbench). This public page reports literature evidence; the workbench applies the children's personal care category methodology (which includes the non-ingestion-exposure supplement per OPERATING.md Part 7 initiative 3.1 once that lands) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+The percentile arithmetic that informs HMTc thresholds for baby talcum powder lives on the staff Standards Workbench (the staff Standards Workbench). This public page reports literature evidence; the workbench applies the children's personal care category methodology (which includes the non-ingestion-exposure supplement initiative 3.1 once that lands) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
 
 ## Historical recalls and enforcement
 

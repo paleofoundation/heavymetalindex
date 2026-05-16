@@ -48,7 +48,7 @@ This page is part of the locked beverage product taxonomy. It exists as a wiki n
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See the program governance framework.</dd>
     </div>
   </dl>
 </div>
@@ -156,7 +156,7 @@ Additional sources reporting Pb, Al, and Cd in kombucha produced in compliant co
 
 <!-- audience: regulator, educator -->
 
-The 2023 Ibiza family outbreak (munilla-garcia2023) is the primary documented regulatory event for this product category: Balearic Islands food safety authorities (Servicio de Seguridad Alimentaria) identified and investigated the source, confirmed ceramic container leaching, and reported the case in the national public health journal. The event was a public health investigation rather than a formal product recall; the artisanal producer was identified and the contaminated product removed. No EU or Spanish maximum level for Pb in kombucha existed at the time, which the authors flag as a regulatory gap requiring harmonized limits for novel fermented beverages. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
+The 2023 Ibiza family outbreak (munilla-garcia2023) is the primary documented regulatory event for this product category: Balearic Islands food safety authorities (Servicio de Seguridad Alimentaria) identified and investigated the source, confirmed ceramic container leaching, and reported the case in the national public health journal. The event was a public health investigation rather than a formal product recall; the artisanal producer was identified and the contaminated product removed. No EU or Spanish maximum level for Pb in kombucha existed at the time, which the authors flag as a regulatory gap requiring harmonized limits for novel fermented beverages. events are framed as regulatory events, not brand rankings.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

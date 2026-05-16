@@ -48,7 +48,7 @@ This page is part of the locked beverage product taxonomy. It exists as a wiki n
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See the program governance framework.</dd>
     </div>
   </dl>
 </div>
@@ -154,7 +154,7 @@ The row is designated EF-5 (data gap with documented rationale). Percentile sele
 
 <!-- audience: regulator, educator -->
 
-FDA has issued multiple import alerts covering herbal products with elevated metal concentrations, most commonly for lead in Ayurvedic herbs, traditional Chinese medicine preparations, and herbal dietary supplements. These actions are not specific to the infusion category covered by this page (they typically apply to capsules, powders, and concentrated extracts rather than brewed beverages) but reflect the regulatory framework's existing concern about metals in botanical supply chains. Proposition 65 actions in California have named specific herbal products for lead content. Public-record actions specific to brewed herbal infusions will be documented here as the synthesis pass identifies them. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
+FDA has issued multiple import alerts covering herbal products with elevated metal concentrations, most commonly for lead in Ayurvedic herbs, traditional Chinese medicine preparations, and herbal dietary supplements. These actions are not specific to the infusion category covered by this page (they typically apply to capsules, powders, and concentrated extracts rather than brewed beverages) but reflect the regulatory framework's existing concern about metals in botanical supply chains. Proposition 65 actions in California have named specific herbal products for lead content. Public-record actions specific to brewed herbal infusions will be documented here as the synthesis pass identifies them. events are framed as regulatory events, not brand rankings.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -60,6 +60,21 @@ const INTERNAL_CODENAMES = [
   // Pipeline-stage tags
   /\bStep\s+0\b/g,
   /\bTier\s+[12345]\s+(?:source|paper|extraction|stub|completed)/g,
+  // Internal governance-doc references in body prose. CLAUDE.md /
+  // OPERATING.md / AGENTS.md are the build's internal operating manuals;
+  // citing them in a brand-legal-facing page reads as "this is internal
+  // build documentation" rather than "this is authoritative reference."
+  // Rule: governance-doc names do not appear in body prose; the
+  // governance principle itself should be stated in its own words.
+  /\bCLAUDE\.md\s+Part\s+\d+/g,
+  /\bOPERATING\.md\s+Part\s+\d+/g,
+  /\bAGENTS\.md\s+Part\s+\d+/g,
+  /\bper\s+CLAUDE\.md\b/gi,
+  /\bper\s+OPERATING\.md\b/gi,
+  // Autonomy/orchestrator vocabulary
+  /\bautonomy[_ ]v\d+/gi,
+  /\bthe autonomy loop\b/gi,
+  /\bauto-stub creator\b/gi,
 ]
 
 const REPO_PATH_PATTERNS = [
@@ -228,6 +243,56 @@ function auditFile(filepath) {
         if (isAbsenceContext) continue
         violations.push({
           rule: "wiki_computed_percentile",
+          severity: "soft",
+          line: i + 1,
+          snippet: m[0],
+          context: line.trim().slice(0, 140),
+        })
+      }
+    }
+  }
+
+  // Soft rule: fixer-introduced grammar artifacts (the the, a the, doubled
+  // words, empty parens, "an [consonant]"). These come from regex-driven
+  // replacements that combine awkwardly with surrounding prose. Surfacing
+  // as soft warnings prevents quiet accumulation.
+  state.inMarker = false
+  let prevH2 = null
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]
+    if (/<!--\s*BEGIN:\s*hmi-/.test(line)) state.inMarker = true
+    if (/<!--\s*END:\s*hmi-/.test(line)) state.inMarker = false
+    void prevH2
+
+    const artifactPatterns = [
+      { re: /\bthe the\b/g, name: "doubled_article_the_the" },
+      { re: /\ba the\b/g, name: "doubled_article_a_the" },
+      { re: /\bof the the\b/g, name: "doubled_article_of_the_the" },
+      // "an structural" / "an stub" — "an" + consonant
+      { re: /\ban [bcdfghjklmnpqrstvwxyz][a-z]+/g, name: "an_consonant" },
+      // Empty parens that the fixer may leave
+      { re: /\(\s*\)/g, name: "empty_parens" },
+      // Doubled identical adjacent words (excluding allowlist)
+      { re: /\b(\w{3,}) \1\b/g, name: "doubled_word" },
+    ]
+    const doubledWordAllowlist = new Set(["had", "that", "the", "is", "in", "of", "out"])
+    for (const { re, name } of artifactPatterns) {
+      re.lastIndex = 0
+      let m
+      while ((m = re.exec(line)) !== null) {
+        // "an_consonant" check: many false positives ("an example", "an outcome").
+        // Only flag the specific consonant-starting nouns the fixer commonly produces.
+        if (name === "an_consonant") {
+          const noun = m[0].slice(3)
+          if (!/^(structural|the|page|product|stub|certification|new|few|valid|broad|recent|reported|relevant|cited|locked|retired|brand|consumer|regulatory|public|staff|future|sample|source|measured|tested|small|specific|wider|wide|narrow|category|category-level|class|partner|series|generator|generic)\b/.test(noun)) continue
+        }
+        // doubled_word: skip allowlist
+        if (name === "doubled_word") {
+          const word = m[1].toLowerCase()
+          if (doubledWordAllowlist.has(word)) continue
+        }
+        violations.push({
+          rule: `fixer_artifact:${name}`,
           severity: "soft",
           line: i + 1,
           snippet: m[0],

@@ -48,7 +48,7 @@ This page is part of the locked beverage product taxonomy. It exists as a wiki n
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See the program governance framework.</dd>
     </div>
   </dl>
 </div>
@@ -165,7 +165,7 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 <!-- audience: regulator, educator -->
 
-_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule (CLAUDE.md Part 12). Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule. Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

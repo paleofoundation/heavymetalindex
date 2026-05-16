@@ -1,16 +1,16 @@
 ---
-title: "Category 1 Lead Benchmark Context"
+title: "Lead Benchmark Context — Infant and Child Foods"
 type: product-synthesis
 category_label: Infant and Child Foods
 metal: Pb
 audience: [regulator, educator, consumer, app]
-evidence_register: data/evidence/category1_lead_benchmark_context.csv
 updated: 2026-05-03
+sources: 0
 ---
 
-# Category 1 Lead Benchmark Context
+# Lead Benchmark Context — Infant and Child Foods
 
-HMI normalizes Category 1 lead benchmarks into **ppb** so FDA action levels, EU maximum levels, Prop 65 exposure screens, and observed occurrence data can be compared on one concentration scale. The conversion makes the numbers comparable; it does not make them the same kind of value.
+HMI normalizes infant-and-child-foods lead benchmarks into ppb so FDA action levels, EU maximum levels, Prop 65 exposure screens, and observed occurrence data can be compared on one concentration scale. The conversion makes the numbers comparable; it does not make them the same kind of value.
 
 | Value class | ppb view | What it means |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ The public takeaway is simple: **legal is not the same as low**. A product can b
 
 This page therefore shows all lead reference points in ppb, while preserving what each number actually does.
 
-## Category 1 lead crosswalk
+## Infant-and-child-foods lead crosswalk
 
 | Product row | Current FDA lead ppb view | EU lead ppb view | Prop 65 ppb-equivalent screen | Standards interpretation |
 | --- | --- | --- | --- | --- |

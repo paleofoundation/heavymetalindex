@@ -60,7 +60,7 @@ This page is a structural scaffold for this product row. One broad infant-formul
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>Threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>Threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See the program governance framework.</dd>
     </div>
   </dl>
 </div>

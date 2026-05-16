@@ -48,7 +48,7 @@ This page is part of the locked beverage product taxonomy. It exists as a wiki n
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See the program governance framework.</dd>
     </div>
   </dl>
 </div>
@@ -154,7 +154,7 @@ The clean_benchmark designation of this row relative to kombucha-tea-based refle
 
 <!-- audience: regulator, educator -->
 
-No formal product recalls for non-tea fermented beverages on heavy-metal grounds are documented in the current evidence base. The 2023 Ibiza family outbreak (munilla-garcia2023) involved tea-based kombucha from ceramic containers and is documented on the [[products/kombucha-tea-based]] page; the FCM mechanism it describes applies to this category equally. No EU or Spanish maximum level for Pb in fermented beverages existed at the time of that outbreak; the regulatory gap identified by the authors covers this category as well as kombucha. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
+No formal product recalls for non-tea fermented beverages on heavy-metal grounds are documented in the current evidence base. The 2023 Ibiza family outbreak (munilla-garcia2023) involved tea-based kombucha from ceramic containers and is documented on the [[products/kombucha-tea-based]] page; the FCM mechanism it describes applies to this category equally. No EU or Spanish maximum level for Pb in fermented beverages existed at the time of that outbreak; the regulatory gap identified by the authors covers this category as well as kombucha. events are framed as regulatory events, not brand rankings.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

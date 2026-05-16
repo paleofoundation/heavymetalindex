@@ -27,9 +27,9 @@ Brand legal teams evaluating the children's personal care category certification
 
 ## Methodology
 
-the children's personal care category reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions from CLAUDE.md Part 6 (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The the children's personal care category supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
+the children's personal care category reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions from the program governance framework (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The the children's personal care category supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
 
-The percentile-selection arithmetic that informs HMT&C the children's personal care category thresholds (P97 clean, P45 contaminated per CLAUDE.md Part 19) lives on the staff Standards Workbench. This public page reports literature evidence only. The gap between literature baseline and final HMT&C threshold is named on the workbench, not hidden.
+The percentile-selection arithmetic that informs HMT&C the children's personal care category thresholds (P97 clean, P45 contaminated per the program governance framework) lives on the staff Standards Workbench. This public page reports literature evidence only. The gap between literature baseline and final HMT&C threshold is named on the workbench, not hidden.
 
 ## The 16-row the children's personal care category inventory
 
@@ -54,7 +54,7 @@ the children's personal care category has exactly sixteen rows, locked under Ste
 | 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
 | 16 | [[products/childrens-lip-balm-mineral-bearing]] | contamination platform | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
-Four clean/contaminated sibling pairs structure the children's personal care category standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards (CLAUDE.md Part 19) and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the children's personal care category inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
+Four clean/contaminated sibling pairs structure the children's personal care category standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the children's personal care category inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
 
 ## Cross-row contamination platforms
 
@@ -135,7 +135,7 @@ the children's personal care category levers ranked by magnitude across the 16 r
 
 ## How standards math uses this page
 
-The percentile arithmetic (P97 clean, P45 contaminated per CLAUDE.md Part 19) is applied per row by the staff Standards Workbench. The four sibling pairs and the four independent rows receive P97 standards as clean-by-default; the four whole-row contamination platforms (Rows 11-14) receive P45 standards. The pair-aware math compares the clean and contaminated siblings within each pair on a like-for-like basis, in the native finished-product basis of each row. Sensitivity bands (log-normal, gamma, nonparametric) per CLAUDE.md Part 19 are reported on each row's workbench snapshot.
+The percentile arithmetic (P97 clean, P45 contaminated per the program governance framework) is applied per row by the staff Standards Workbench. The four sibling pairs and the four independent rows receive P97 standards as clean-by-default; the four whole-row contamination platforms (Rows 11-14) receive P45 standards. The pair-aware math compares the clean and contaminated siblings within each pair on a like-for-like basis, in the native finished-product basis of each row. Sensitivity bands (log-normal, gamma, nonparametric) are reported on each row's workbench snapshot.
 
 ## Historical recalls and enforcement
 

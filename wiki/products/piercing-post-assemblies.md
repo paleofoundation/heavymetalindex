@@ -6,6 +6,8 @@ category1_food_status: not-a-food-product
 metals: [Ni]
 source_refs: [lgc2003-nickel-piercing-post-assemblies]
 updated: 2026-04-29
+audience: [regulator, educator, consumer, app]
+sources: 0
 ---
 
 # Piercing Post Assemblies

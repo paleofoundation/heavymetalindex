@@ -71,11 +71,11 @@ The product pages should be decision-first. Narrative remains useful, but standa
 Regional pooling belongs below this row-level surface, not above it. Pool only after product matrix, analyte species, basis, method, and region fields are comparable.
 ## Who this page is for
 
-_Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator audiences are listed in OPERATING.md Part 2; this section will frame what each is looking for on this page._
+_Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator audiences are listed in the program governance framework; this section will frame what each is looking for on this page._
 
 ## Methodology
 
-_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules from CLAUDE.md Part 6 that govern downstream sections of this page._
+_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules from the program governance framework that govern downstream sections of this page._
 
 ## Literature Evidence Summary
 
@@ -109,7 +109,7 @@ _The percentile arithmetic that informs HMT&C certification thresholds lives on 
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. recalls are framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

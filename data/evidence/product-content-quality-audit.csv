@@ -1,6 +1,6 @@
 slug,file,stub,placeholder_count,rule,severity,line,snippet,context
 baby-cereals-dry-non-rice,wiki/products/baby-cereals-dry-non-rice.md,false,1,,,,,
-baby-cereals-dry-rice-based,wiki/products/baby-cereals-dry-rice-based.md,false,1,,,,,
+baby-cereals-dry-rice-based,wiki/products/baby-cereals-dry-rice-based.md,false,1,fixer_artifact:doubled_word,soft,289,"sample sample","| 25 | [[sources/fda2021-lead-baby-food-fy2020-fy2021\|FDA 2021]]. *Analytical Results for Lead in Food Intended for Babies and Young Childr"
 baby-lotion-cream,wiki/products/baby-lotion-cream.md,true,1,,,,,
 baby-oil,wiki/products/baby-oil.md,true,1,,,,,
 baby-powder-cornstarch,wiki/products/baby-powder-cornstarch.md,true,1,,,,,
@@ -45,7 +45,7 @@ fruit-juices-non-apple,wiki/products/fruit-juices-non-apple.md,false,1,wiki_comp
 fruit-juices-non-apple,wiki/products/fruit-juices-non-apple.md,false,1,wiki_computed_percentile,soft,76,"p90","| [[metals/arsenic-inorganic|Inorganic arsenic]] | FDA 2016 grape and grape-containing juice category | 58 quantified iAs cells from 61 sour"
 fruit-juices-non-apple,wiki/products/fruit-juices-non-apple.md,false,1,wiki_computed_percentile,soft,76,"p95","| [[metals/arsenic-inorganic|Inorganic arsenic]] | FDA 2016 grape and grape-containing juice category | 58 quantified iAs cells from 61 sour"
 fruit-purees,wiki/products/fruit-purees.md,false,1,wiki_computed_percentile,soft,182,"p90","Chekri 2019 reports a direct French fruit-puree infant-food category with N=30. The paper gives category mean and min-max values, not p90. ["
-glucose-solutions,wiki/products/glucose-solutions.md,true,1,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
+glucose-solutions,wiki/products/glucose-solutions.md,true,1,,,,,
 herbal-botanical-infusions,wiki/products/herbal-botanical-infusions.md,false,1,,,,,
 honey,wiki/products/honey.md,false,1,,,,,
 infant-and-child-foods-master,wiki/products/infant-and-child-foods-master.md,false,1,,,,,
@@ -54,21 +54,19 @@ infant-formula-concentrated-liquid-non-soy,wiki/products/infant-formula-concentr
 infant-formula-concentrated-liquid-soy-based,wiki/products/infant-formula-concentrated-liquid-soy-based.md,false,1,,,,,
 infant-formula-powder-non-soy,wiki/products/infant-formula-powder-non-soy.md,false,1,,,,,
 infant-formula-powder-soy-based,wiki/products/infant-formula-powder-soy-based.md,false,1,,,,,
-infant-formula-powder,wiki/products/infant-formula-powder.md,true,1,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
+infant-formula-powder,wiki/products/infant-formula-powder.md,true,1,,,,,
 infant-formula-rtf-liquid-non-soy,wiki/products/infant-formula-rtf-liquid-non-soy.md,false,1,,,,,
 infant-formula-rtf-liquid-soy-based,wiki/products/infant-formula-rtf-liquid-soy-based.md,false,1,,,,,
 kombucha-tea-based,wiki/products/kombucha-tea-based.md,false,1,,,,,
-lead-benchmark-context,wiki/products/lead-benchmark-context.md,true,0,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
-lipstick,wiki/products/lipstick.md,true,0,internal_codename,hard,8,"Step 0","> Adult lipstick will be filed under Cat 13 (Leave-on Cosmetics, adult) when that category is built. Until then, this page is a redirect tar"
-lipstick,wiki/products/lipstick.md,true,0,internal_codename,hard,12,"Step 0","The Li 2021 and Attard 2022 `products: [lipstick]` frontmatter declarations were valid at the time of the auto-stub-creator run (a single-ro"
+lead-benchmark-context,wiki/products/lead-benchmark-context.md,true,0,,,,,
+lipstick,wiki/products/lipstick.md,true,0,,,,,
 matcha,wiki/products/matcha.md,true,0,,,,,
 meat-and-poultry-purees,wiki/products/meat-and-poultry-purees.md,false,1,,,,,
 mixed-meals-non-rice,wiki/products/mixed-meals-non-rice.md,false,1,,,,,
 mixed-meals-rice-containing,wiki/products/mixed-meals-rice-containing.md,false,1,,,,,
 non-root-vegetable-purees,wiki/products/non-root-vegetable-purees.md,false,1,,,,,
-oral-electrolyte-solutions,wiki/products/oral-electrolyte-solutions.md,true,1,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
-piercing-post-assemblies,wiki/products/piercing-post-assemblies.md,true,1,frontmatter_missing,hard,0,"audience","Required frontmatter field absent"
-piercing-post-assemblies,wiki/products/piercing-post-assemblies.md,true,1,frontmatter_missing,hard,0,"sources","Required frontmatter field absent"
+oral-electrolyte-solutions,wiki/products/oral-electrolyte-solutions.md,true,1,,,,,
+piercing-post-assemblies,wiki/products/piercing-post-assemblies.md,true,1,,,,,
 plant-milks-non-soy-non-rice,wiki/products/plant-milks-non-soy-non-rice.md,false,1,,,,,
 plant-milks-rice-based,wiki/products/plant-milks-rice-based.md,false,1,,,,,
 plant-milks-soy-based,wiki/products/plant-milks-soy-based.md,false,1,,,,,
@@ -88,5 +86,5 @@ tomato-paste,wiki/products/tomato-paste.md,false,1,,,,,
 tomato-sauce,wiki/products/tomato-sauce.md,false,1,,,,,
 toothpaste,wiki/products/toothpaste.md,false,1,,,,,
 true-tea-camellia-sinensis,wiki/products/true-tea-camellia-sinensis.md,true,0,,,,,
-vegetable-juices-non-root,wiki/products/vegetable-juices-non-root.md,true,0,,,,,
+vegetable-juices-non-root,wiki/products/vegetable-juices-non-root.md,true,0,fixer_artifact:doubled_word,soft,66,"vegetable vegetable","The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non"
 vegetable-juices-root-vegetable-containing,wiki/products/vegetable-juices-root-vegetable-containing.md,true,0,,,,,

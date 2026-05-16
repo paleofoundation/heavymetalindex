@@ -63,7 +63,7 @@ The content below was the original rice-based plant milks literature synthesis. 
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the staff Standards Workbench tool, never on this public page.</dd>
     </div>
   </dl>
 </div>

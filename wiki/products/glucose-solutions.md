@@ -10,6 +10,7 @@ vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
 updated: 2026-04-29
+sources: 0
 ---
 
 # Glucose Solutions
@@ -41,7 +42,7 @@ _Stub page. This bridge node exists because Dabeka et al. 2011 measured 5% gluco
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See the program governance framework.</dd>
     </div>
   </dl>
 </div>

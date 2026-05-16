@@ -25,11 +25,11 @@ This is the children's personal care category (Children Personal Care) product-c
 
 ## Who this page is for
 
-Brand legal teams evaluating the children's personal care category certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and how the cited literature distributes around that cap. Retailer compliance teams stocking children's oral care need to confirm certified-brand assortment eligibility. Per OPERATING.md Part 7 initiative 3.1, the children's personal care category toxicology methodology supplement (which must incorporate the toothpaste ingestion-during-brushing pathway as a discrete exposure route) is a prerequisite for defensible HMTc thresholds on this row.
+Brand legal teams evaluating the children's personal care category certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and how the cited literature distributes around that cap. Retailer compliance teams stocking children's oral care need to confirm certified-brand assortment eligibility. initiative 3.1, the children's personal care category toxicology methodology supplement (which must incorporate the toothpaste ingestion-during-brushing pathway as a discrete exposure route) is a prerequisite for defensible HMTc thresholds on this row.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — the children's personal care category methodology supplement (in development per OPERATING.md Part 7 initiative 3.1) covers the modelling. The percentile-selection arithmetic that informs HMTc thresholds for toothpaste lives on the staff Standards Workbench; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — the children's personal care category methodology supplement (in development initiative 3.1) covers the modelling. The percentile-selection arithmetic that informs HMTc thresholds for toothpaste lives on the staff Standards Workbench; this public page reports literature evidence only.
 
 ## Literature Evidence Summary
 
@@ -83,7 +83,7 @@ _Pending synthesis. Practical interventions for reducing heavy-metal load in too
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc toothpaste thresholds lives on the staff Standards Workbench (the staff Standards Workbench). This public page reports literature evidence; the workbench applies the children's personal care category methodology (including the ingestion-during-brushing exposure supplement per OPERATING.md Part 7 initiative 3.1) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+The percentile arithmetic that informs HMTc toothpaste thresholds lives on the staff Standards Workbench (the staff Standards Workbench). This public page reports literature evidence; the workbench applies the children's personal care category methodology (including the ingestion-during-brushing exposure supplement initiative 3.1) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
 
 ## Historical recalls and enforcement
 

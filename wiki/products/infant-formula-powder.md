@@ -11,6 +11,7 @@ vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
 updated: 2026-05-08
+sources: 0
 ---
 
 # Infant Formula Powder
@@ -42,7 +43,7 @@ _Stub page. This base product node exists for sources that report powdered infan
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See the program governance framework.</dd>
     </div>
   </dl>
 </div>
@@ -157,7 +158,7 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 <!-- audience: regulator, educator -->
 
-_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not brand rankings (CLAUDE.md Part 12)._
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

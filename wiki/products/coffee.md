@@ -48,7 +48,7 @@ This page is part of the locked beverage product taxonomy. It exists as a wiki n
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See the program governance framework.</dd>
     </div>
   </dl>
 </div>
@@ -162,7 +162,7 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 <!-- audience: regulator, educator -->
 
-No confirmed metal-driven recalls or regulatory enforcement actions for coffee are documented in the current source set. California Proposition 65 has been used to challenge several coffee brands on lead content; the Proposition 65 Coffee and Lead Safe Harbor exemption established in 2019 reflects the determination that cancer risk from acrylamide in coffee (the primary Prop 65 concern) is outweighed by health benefits — this determination does not resolve lead-specific claims, which remain active. Public-record actions will be documented here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings.
+No confirmed metal-driven recalls or regulatory enforcement actions for coffee are documented in the current source set. California Proposition 65 has been used to challenge several coffee brands on lead content; the Proposition 65 Coffee and Lead Safe Harbor exemption established in 2019 reflects the determination that cancer risk from acrylamide in coffee (the primary Prop 65 concern) is outweighed by health benefits — this determination does not resolve lead-specific claims, which remain active. Public-record actions will be documented here as the synthesis pass identifies them. recalls are framed as regulatory events, not brand rankings.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

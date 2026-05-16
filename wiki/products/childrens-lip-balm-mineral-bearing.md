@@ -24,7 +24,7 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 Tinted and/or SPF children's lip balms marketed for ages 0-5 (Petite n Pretty tinted, Sun Bum Kids SPF, Babyganics SPF, various kids' colored lip balms). Contaminated row of the Row 15 / Row 16 pair: tinted variants add mineral cosmetic pigments (Pb/Ni/Cr platforms); SPF variants add ZnO and/or TiO2 (Pb/iAs/Cd platforms). Tinted and SPF collapsed into a single contaminated variant per the children's personal care category lock because the dominant affected metal is Pb in both and the commercial overlap is significant.
 
-This page is a structural scaffold for this product row. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in CLAUDE.md Part 9. 
+This page is a structural scaffold for this product row. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in the program governance framework. 
 
 ## Who this page is for
 
@@ -32,9 +32,9 @@ Brand legal teams evaluating HMT&C certification for the Children's Lip Balm, Mi
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Children's Lip Balm, Mineral-Bearing (tinted or SPF) row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. The percentile-selection arithmetic that informs the HMT&C certification program thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Children's Lip Balm, Mineral-Bearing (tinted or SPF) row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. The percentile-selection arithmetic that informs the HMT&C certification program thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only.
 
-the children's personal care category dose-pathway methodology supplement (per OPERATING.md Part 7 initiative 3.1) is documented at [[health/cat-2-non-ingestion-exposure-pathways]]. That supplement governs how dermal, inhalation, accidental-ingestion, and trans-placental exposure factors apply to this row.
+the children's personal care category dose-pathway methodology supplement (initiative 3.1) is documented at [[health/cat-2-non-ingestion-exposure-pathways]]. That supplement governs how dermal, inhalation, accidental-ingestion, and trans-placental exposure factors apply to this row.
 
 ## Pair relationship + platform attribution
 
@@ -74,11 +74,11 @@ _Pending synthesis. Levers for this product category, ordered by impact magnitud
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs the HMT&C certification program thresholds for this row lives on the staff Standards Workbench (the staff Standards Workbench). This public page reports literature evidence; the workbench applies the children's personal care category methodology (which includes the OPERATING.md Part 7 initiative 3.1 non-ingestion-exposure supplement at [[health/cat-2-non-ingestion-exposure-pathways]]) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+The percentile arithmetic that informs the HMT&C certification program thresholds for this row lives on the staff Standards Workbench (the staff Standards Workbench). This public page reports literature evidence; the workbench applies the children's personal care category methodology (which includes the program governance framework initiative 3.1 non-ingestion-exposure supplement at [[health/cat-2-non-ingestion-exposure-pathways]]) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. the children's personal care category-relevant public-record regulatory events are summarized at [[products/children-personal-care]] (the children's personal care category master). Row-specific events will be filed here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+_Pending synthesis. the children's personal care category-relevant public-record regulatory events are summarized at [[products/children-personal-care]] (the children's personal care category master). Row-specific events will be filed here as the synthesis pass identifies them. recalls are framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

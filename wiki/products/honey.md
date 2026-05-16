@@ -16,15 +16,15 @@ created_routed_sources: 3
 
 # Honey
 
-This page is an autonomy-created stub product-category page. The routing audit identified 3 source pages in the corpus declaring `products: [honey]` in their frontmatter without a dedicated product page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 populates the evidence-summary table as sources accumulate.
+This page is a structural scaffold product-category page. The routing audit identified 3 source pages in the corpus declaring `products: [honey]` in their frontmatter without a dedicated product page existing. The build automation created this stub so those sources route to a defined target. The synthesis pass populates the evidence-summary table as sources accumulate.
 
 ## Who this page is for
 
-This stub will be developed for the brand-legal, retailer-compliance, HMTc-internal, and regulator audiences per OPERATING.md Part 2. Until evidence is synthesized, the page exists primarily as a routing target so the corpus's references to this product category resolve to a defined location.
+This stub will be developed for the brand-legal, retailer-compliance, HMTc-internal, and regulator audiences per the program governance framework. Until evidence is synthesized, the page exists primarily as a routing target so the corpus's references to this product category resolve to a defined location.
 
 ## Methodology
 
-This page will report literature evidence per CLAUDE.md Part 6's product-category-page template. Speciation is non-substitutable (iAs vs tAs, Cr-VI vs total Cr, MeHg vs tHg); basis is preserved and labeled; non-detect handling follows the source's own convention; pooling avoided across LOQ, period, geography, and analytical-basis differences. Percentile-selection arithmetic does not appear on this public page (CLAUDE.md Part 2 firewall); it lives on the staff Standards Workbench.
+This page will report literature evidence per the product-category-page template. Speciation is non-substitutable (iAs vs tAs, Cr-VI vs total Cr, MeHg vs tHg); basis is preserved and labeled; non-detect handling follows the source's own convention; pooling avoided across LOQ, period, geography, and analytical-basis differences. Percentile-selection arithmetic does not appear on this public page; it lives on the staff Standards Workbench.
 
 ## Literature Evidence Summary
 
@@ -54,11 +54,11 @@ _Pending: populated by the synthesis pass when ingredient-level mitigation evide
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc thresholds lives in the staff Standards Workbench (the staff snapshot). This public page reports literature evidence; the staff workbench applies the methodology in CLAUDE.md Part 19 to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
+The percentile arithmetic that informs HMTc thresholds lives in the staff Standards Workbench (the staff snapshot). This public page reports literature evidence; the staff workbench applies the certification-program methodology to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
 
 ## Historical recalls and enforcement
 
-_Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+_Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. recalls are framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
