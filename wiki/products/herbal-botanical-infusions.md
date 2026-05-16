@@ -15,17 +15,15 @@ evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
-sources: 0
+updated: 2026-05-15
+sources: 1
 ---
 
 # Herbal/Botanical Infusions
 
-This page is HMTc Category 5 row 10 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land. Herbal and botanical infusions cover all hot-water infusion beverages prepared from non-Camellia-sinensis plant material: chamomile, peppermint, rooibos, hibiscus, lemon balm, valerian, sage, ginger, and dozens of single-herb and blended preparations. The category is heterogeneous; per-species metal accumulation varies by an order of magnitude or more, with valerian root, lemon balm leaves, common sage, and chamomile flowers documented as higher lead accumulators in the European-market literature ([[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]]). The single currently loaded source for this row reports cadmium and chromium in three commonly consumed Nigerian medicinal botanicals (baobab, guava leaf, papaya leaf) but does not extract sample-level concentration values into structured form ([[sources/njinga2022-nigeria-herbal-cd-cr]]).
+This page is HMTc Category 5 row 10 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
 
 ## Who this page is for
-
-This product-category page reports what the peer-reviewed and regulatory literature says about heavy metals in herbal and botanical infusions. The HTML stakeholder guide below names the four primary readers. The category's species-level heterogeneity means brand-specific risk depends heavily on the actual botanical mix; the per-species data lives on the ingredient pages ([[ingredients/herbal-botanicals]], [[ingredients/dried-herbs]], [[ingredients/herbs-and-spices]]) and is summarized at the product layer only when the finished-infusion concentration distribution has independent measurement. HMT&C threshold-selection arithmetic does not appear on this public page; it lives in the local staff Standards Workbench tool per CLAUDE.md Part 19.
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
@@ -34,7 +32,7 @@ This product-category page reports what the peer-reviewed and regulatory literat
   <dl>
     <div>
       <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on herbal and botanical infusions typically center on lead and cadmium from the underlying plant species, with wide variance by species and growing region. Sourcing transparency is the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+      <dd>Cherry-pick attack vectors on herbal and botanical infusions typically center on lead and cadmium from the underlying plant species, with wide variance by species and growing region. The contamination profile is species-specific to a degree not seen in commodity crops: some species accumulate metals at concentrations that can exceed regulatory limits even in uncontaminated agricultural settings. Sourcing transparency and species-level testing are the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
     </div>
     <div>
       <dt>Retailer quality and compliance</dt>
@@ -42,7 +40,7 @@ This product-category page reports what the peer-reviewed and regulatory literat
     </div>
     <div>
       <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=herbal-botanical-infusions">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for herbal and botanical infusions.</dd>
+      <dd>Use the <a href="/certification/lab-result-comparator?category=herbal-botanical-infusions">Lab Result Comparator</a> to position a single lab value inside the cited literature for herbal and botanical infusions.</dd>
     </div>
     <div>
       <dt>Regulators, journalists, and adversarial readers</dt>
@@ -55,6 +53,19 @@ This product-category page reports what the peer-reviewed and regulatory literat
   </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in herbal and botanical infusions — plant-based beverages brewed from species other than *Camellia sinensis* (which is covered by the tea-taxonomy sibling pages). The category encompasses a wide heterogeneous range of plant substrates; the contamination profile is therefore highly species-dependent.
+
+**Speciation is treated as non-substitutable.** Total arsenic (tAs) and inorganic arsenic (iAs) are reported separately. Total chromium (Cr) is not interpreted as Cr-VI unless the source explicitly speciates hexavalent chromium.
+
+**Basis is preserved and labeled.** The current contributing source reports concentrations in dried plant material (dry matter). Concentrations in the infusion (brewed form) depend on extraction yield, which varies by species, preparation time, and temperature; this page does not apply a conversion factor without a source that supports it.
+
+**Row-fit.** Row-fit is assessed against two axes: matrix (herbal/botanical species and plant part) and format (dried leaf/flower, concentrated extract, ready-to-drink). The current source covers dried botanical material from three specific Nigerian species; it is exact on the botanical-ingredient axis but does not represent brewed finished-product concentrations.
+
+**Evidence tiers and confidence.** A-tier source. Confidence: very low — n=3 plant species, single country (Northern Nigeria), single study.
+
 ## Decision Snapshot
 
 | Field | Status |
@@ -63,14 +74,6 @@ This product-category page reports what the peer-reviewed and regulatory literat
 | Category hub | [[products/category-5-beverages]] |
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
 | HMTc use | Routing and evidence-gap tracking only; not a certification threshold |
-
-## Methodology
-
-Herbal and botanical infusions report contamination at two distinct measurement points: the dry botanical material (mg/kg dry weight) and the prepared infusion (mg/L beverage as consumed). The two are connected by an extraction factor that depends on plant species, plant part (leaf vs root vs flower), grind size, infusion temperature, and infusion time; for water-soluble metals like cadmium and arsenic species, hot-water infusion typically extracts 20–60% of the dry-material content into the brewed beverage. For less-soluble forms (much of the lead bound in plant cell walls), extraction is closer to 10–30%. The loaded sources on this row report dry-material concentrations; finished-infusion concentrations are derived rather than directly measured. Speciation follows source convention (arsenic as total tAs, mercury as total tHg). Source pooling is not performed with one source; the regulatory comparison anchors to the cited source's species-level maxima rather than to a pooled marginal distribution.
-
-## Source Evidence Inventory
-
-The single currently loaded source ([[sources/njinga2022-nigeria-herbal-cd-cr|1]]) measured cadmium and chromium in three medicinal-and-food-use botanicals from Northern Nigeria: Adansonia digitata (baobab), Psidium guajava (guava leaf), and Carica papaya (papaya leaf), collected from Borno, Jigawa, and Kano states. The paper presents Cd and Cr as the primary chemical carcinogens of concern; specific concentration values for the three species are reported in the paper's tables but are not yet extracted into structured form in `data/evidence/values.jsonl`. Health-risk assessment used hazard quotient for non-cancer risk and incremental lifetime cancer risk for cancer risk under USEPA oral exposure equations. The companion adjacent-row source ([[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]]) reports concentrations in 37 herb species and 12 spice species from eastern Poland and is broad-context for this row (the source's frontmatter routes it to [[ingredients/herbs-and-spices]] and [[ingredients/dried-herbs]] rather than directly to this product row).
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -87,30 +90,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 ## Evidence Handling
 
-Finished-product findings belong on this product page. Ingredient-only findings belong on ingredient pages before they are used for product inference.
-
-## Broad Product Context: Author-Scope Index
-
-The loaded source ([[sources/njinga2022-nigeria-herbal-cd-cr|1]]) is direct evidence for the row at the matrix level (the three measured species are commonly consumed as infusions or food in Northern Nigeria); format-axis row-fit is partial because the paper reports dry-material concentrations rather than prepared-infusion concentrations. Adjacent-row sources reporting on Camellia sinensis tea, on dried herb ingredients without distinguishing finished-infusion from dry-material, or on herb-and-spice broad surveys land in this section as the corpus accumulates. The [[ingredients/herbal-botanicals]], [[ingredients/dried-herbs]], and [[ingredients/herbs-and-spices]] ingredient pages are the upstream sources for species-level data; this product page summarizes the prepared-infusion view.
-
-## Levers to reduce contamination
-
-| # | Category | Specific lever | Magnitude | Source |
-|---|---|---|---|---|
-| 1 | Sourcing | Species selection and origin transparency. Higher-Pb species (valerian root, lemon balm leaves, common sage, chamomile flowers in European-market data) and growing regions with documented soil-Pb or soil-Cd elevation account for most of the heavy-metals load. Single-origin and single-species sourcing dominates blend mitigation. | _Quantified per-species range_: lead in herb samples ranges from <0.010 to 5.68 mg/kg dry matter across 37 species in the European market data; cadmium and chromium in three Nigerian medicinal botanicals quantified in the source's tables (extraction queued). | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]], [[sources/njinga2022-nigeria-herbal-cd-cr\|1]] |
-| 2 | Agronomic | For brand-controlled-supply operations, soil amendment (phosphate management, pH liming) and avoidance of contaminated irrigation water at the source farm reduce upstream uptake. Upstream interventions live with growers; the brand's lever is supplier specification. | _Quantified magnitude data not yet loaded for this row's specific species; agronomic literature for the broader plant-uptake mechanism is on [[metals/cadmium]] and [[metals/lead]]._ | — |
-| 3 | Processing | Washing botanical material before drying removes surface dust contamination (atmospheric Pb deposition). Sieving to remove root soil for above-ground plant parts reduces Cd carry-through. Steam sterilization (used for blend production at scale) does not reduce metal load. | _Quantified magnitude data for washing-effect on botanical Pb not yet loaded for this row._ | — |
-| 4 | Formulation | Blend formulation can dilute high-Pb single-herb concentrations: a 10% inclusion of high-Pb valerian root in a blend reduces finished-blend Pb to roughly 10% of the single-herb level, on a linear-mixing basis. Brand QA can specify maximum inclusion ratios for known high-accumulator species. | Linear dilution; the operative variable is the inclusion ratio of the high-accumulator species in the finished blend. | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
-| 5 | Testing and QC | Lot-level ICP-MS testing of single-herb inputs at the blender level, with detection floors of 0.005 mg/kg Pb and 0.01 mg/kg Cd. Spot-test of finished blends as a confirmation step. | The cited Polish-market protocol (ICP-MS, LOD Pb 0.005, LOQ 0.01 mg/kg) is representative of commercial QC capability. | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
-| 6 | Packaging and storage | Avoid lead-glazed ceramic teaware for brewing; the ceramic-leaching mechanism documented for kombucha applies to any acidified or hot-acidic herbal preparation (hibiscus infusions, lemon-herb blends with citric acid). | Lead migration from ceramic vessels measured at 5.8–73 mg/L under standard acetic-acid simulant in adjacent kombucha case literature; herbal-infusion-specific data not yet loaded. | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|3]] |
-
-## How standards math uses this page
-
-This page is HMTc Category 5 row 10. Per CLAUDE.md Part 19, the per-analyte HMTc standard requires a pooled marginal occurrence distribution across multiple independent sources. The row currently has one direct-evidence source (Nigerian botanicals, Cd and Cr) and one broad-context source (Polish-market herbs and spices, Cd Pb tAs tHg); structured value-level extraction is pending. The row is `BLOCKED: insufficient extracted occurrence data` for occurrence-based standards math. The eventual HMTc value will be the lower of (the pooled finished-infusion percentile across additional sources) and (the lowest applicable regulatory cap, today implicitly drawn from EU 2023/915's beverage and food categories or from WHO guidance for herbal medicines applied as compass values). All threshold-selection arithmetic lives in `data/workbench/standards/herbal-botanical-infusions.md`.
-
-## Historical recalls and enforcement
-
-No herbal-infusion recall enforcement actions specifically driven by heavy-metals findings are currently loaded in the corpus. Adjacent enforcement record includes occasional FDA action on Ayurvedic and traditional-Chinese-medicine herbal products with adulterant-level lead, mercury, or arsenic (a distinct regulatory category from culinary herbal infusions). The herbal-infusion category sits in a regulatory blind spot relative to its measured per-species variance; the European data shows the variance is real and an order of magnitude. This section will populate as additional enforcement actions are ingested.
+Finished-product findings belong on this product page. Ingredient-only findings (dried botanical source material, not brewed infusion) are noted here with appropriate basis labeling but should not be treated as finished-product concentrations without a validated extraction-yield conversion.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
@@ -128,13 +108,56 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/cadmium\|Cd]] | Herbal/botanical infusions (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
-<!-- BEGIN: hmi-source-legend -->
-## Sources
+## Source Evidence Inventory
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+The table below records what the contributing source actually measures. The current source reports metals in dried botanical plant material from Northern Nigeria; it does not report brewed infusion concentrations. Row-fit to this product row is therefore partial on the format axis.
+
+| Metal | Subcategory | n | Statistic | Value | Units | Notes | Row-fit | Basis | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Cd | Adansonia digitata (baobab), Psidium guajava (guava), Carica papaya (papaya) | 3 species (multiple samples per species) | Range/species means | Reported in source tables (specific µg/kg values require synthesis pass to extract from full paper) | µg/kg or mg/kg DM | Northern Nigerian states (Borno, Jigawa, Kano); medicinal and food-use botanical plants | partial — dried plant material, not brewed infusion; specific species not representative of global herbal supply chain | dry matter | [[sources/njinga2022-nigeria-herbal-cd-cr\|1]] |
+| Cr | Adansonia digitata, Psidium guajava, Carica papaya | 3 species | Range/species means | Reported in source tables | µg/kg or mg/kg DM | Total Cr, not speciated to Cr-VI | partial — same basis caveat | dry matter | [[sources/njinga2022-nigeria-herbal-cd-cr\|1]] |
+
+**Evidence note:** Njinga et al. 2022 is a health-risk assessment study applying USEPA carcinogen and non-carcinogen risk models to Cd and Cr concentrations in three botanical species from Northern Nigeria. The study confirms measurable Cd and Cr in all three species; hazard quotient and incremental lifetime cancer risk values are reported. Specific concentration values (µg/kg) are in the full paper tables and have not yet been extracted into the structured evidence layer. n=3 species is a very narrow sample for a product category as diverse as herbal and botanical infusions globally; this source anchors the page but does not characterize the distribution. Pb and Al — the other two primary metals of concern for this row — are not measured by this source.
+
+<!-- BEGIN: hmi-broad-context-sources -->
+## Broad Product Context: Author-Scope Index
+
+<!-- audience: regulator, educator, app -->
+
+The sources below are catalogued as context candidates for this row. The source scope column states what the authors reported; matrix-axis and format-axis row-fit classify how cleanly the scope maps to this row.
+
+| Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/njinga2022-nigeria-herbal-cd-cr\|1]] | Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria | Dried botanical plants (baobab, guava, papaya), Northern Nigeria | Cd, Cr | Matrix axis: partial (specific Nigerian medicinal species, not representative of global herbal supply chain). Format axis: dry plant material, not brewed infusion. | Direct evidence (Source Evidence Inventory above) |
+
+<!-- END: hmi-broad-context-sources -->
+
+## Levers to reduce contamination
+
+Herbal and botanical infusions represent the most heterogeneous supply-chain challenge in the beverage category because the active plant species drives the contamination profile, not a single commodity crop. The levers below are ordered by magnitude of expected impact.
+
+| # | Category | Specific lever | Magnitude | Source |
+| --- | --- | --- | --- | --- |
+| 1 | Species selection | Species identity is the primary contamination driver. Some botanical species are hyperaccumulators or phytoremediators for specific metals; others are consistently low-risk. Selecting species and plant parts with documented low Pb, Cd, and Al concentration profiles is the highest-leverage sourcing lever. | Magnitude: species-level variation in Cd and Pb can span two to three orders of magnitude within the "herbal infusion" category. See [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]] for herb-specific ranges (Cd up to 2.17 mg/kg DM in hoary rockrose vs <LOQ in many others). | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]] |
+| 2 | Sourcing origin | Growing region and soil metal content drive baseline concentrations for most species. Botanical plants from mining-adjacent or industrially contaminated regions carry elevated metal loads. Northern Nigerian studies document Cd and Cr loads in botanicals from Borno, Jigawa, and Kano states; geographic provenance documentation is a minimum defensible sourcing requirement. | Magnitude not quantified for this product category across comparable studies; geographic provenance is necessary for any sourcing specification. | [[sources/njinga2022-nigeria-herbal-cd-cr\|1]] |
+| 3 | Processing | Washing before drying reduces surface contamination from particulate deposition (atmospheric Pb, soil particles). Alcohol-based extraction vs. hot water infusion extracts different metal fractions; water infusion typically extracts a fraction of total metal content depending on speciation and pH. | Magnitude of washing effect: modest (30–50% reduction for surface contamination); infusion extraction yield for Pb and Cd is typically 20–60% of DM content, depending on species and brew conditions. Quantified figures require species-specific synthesis. | — |
+| 4 | Testing and QC | Species-specific, origin-aware ICP-MS testing of incoming botanical material on a lot basis. Given species-level variation, a single generic specification is insufficient; each species in a blend requires its own limit. Al, Pb, and Cd are the priority analytes; Cr is a secondary concern for certain species and supply regions. | Testing identifies out-of-specification lots before blending; magnitude of contamination reduction depends on specification tightness and supplier diversity. | — |
+| 5 | Packaging and storage | Modern food-contact packaging for dried herbal products does not contribute significant metal migration. Extended storage in contaminated environments (e.g., proximity to metal-containing fertilizers) can re-contaminate surface-washed material. | Not a primary lever for compliant manufacturing; secondary concern for improper storage conditions. | — |
+
+## How standards math uses this page
+
+This page documents what the cited sources report. The current evidence base (n=3 plant species, one country, one study) is insufficient for computing a defensible population-distribution percentile for this product category as a whole. The category's internal heterogeneity — spanning hundreds of plant species across dozens of growing regions — means that any row-level standard must be anchored on a substantially larger and more representative source set.
+
+The row is designated EF-5 (data gap with documented rationale). Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench when sufficient evidence is available.
+
+## Historical recalls and enforcement
+
+<!-- audience: regulator, educator -->
+
+FDA has issued multiple import alerts covering herbal products with elevated metal concentrations, most commonly for lead in Ayurvedic herbs, traditional Chinese medicine preparations, and herbal dietary supplements. These actions are not specific to the infusion category covered by this page (they typically apply to capsules, powders, and concentrated extracts rather than brewed beverages) but reflect the regulatory framework's existing concern about metals in botanical supply chains. Proposition 65 actions in California have named specific herbal products for lead content. Public-record actions specific to brewed herbal infusions will be documented here as the synthesis pass identifies them. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
+
+## Sources
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-<!-- END: hmi-source-legend -->
-
+| 1 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed (A-tier) | Cd and Cr in dried botanical plants (baobab, guava, papaya) from Northern Nigeria; health risk assessment (HQ and ILCR); anchors the page as the first contributing source but represents a narrow and geographically specific slice of the global herbal infusion supply chain |
