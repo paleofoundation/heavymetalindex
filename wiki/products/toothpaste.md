@@ -1,5 +1,10 @@
 ---
 type: product-category
+hmtc_row: 11
+hmtc_category: 2
+category_label: "Infant and Child Personal Care"
+age_range: "0-5"
+cat2_step0_alignment: 2026-05-16
 category: toothpaste
 title: "Toothpaste (Cat 2)"
 typical_ingredients: [fluoride, abrasive, humectant, surfactant, flavoring]
@@ -91,8 +96,9 @@ _Pending synthesis. Key public-record events:_
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky A et al. 2025]]. *Health risk implications of heavy metals in toothpaste*, Public Health and Toxicology 5(2):9 | 2025 | Peer-reviewed | Pb/Cd/Hg ADD and As LADD per-product exposure values for children 2-4yr and adults 20-35yr; HQ comparison against HGVs |
-
+| 1 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky et al. 2025]]. *Health risk implications of heavy metals in toothpaste*, Public Health and Toxicology 5(2):9 | 2025 | Peer-reviewed | Pb/Cd/Hg ADD and As LADD per-product exposure values for children 2-4yr and adults 20-35yr; HQ comparison against HGVs |
 <!-- END: hmi-source-legend -->

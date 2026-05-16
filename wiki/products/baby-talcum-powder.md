@@ -1,5 +1,13 @@
 ---
 type: product-category
+hmtc_row: 4
+hmtc_category: 2
+category_label: "Infant and Child Personal Care"
+age_range: "0-5"
+variant_type: contamination_platform
+platform_metals: [Ni, Cr, Pb]
+pair_row: 3
+cat2_step0_alignment: 2026-05-16
 category: baby-talcum-powder
 title: "Baby Talcum Powder"
 typical_ingredients: [talc]
@@ -83,8 +91,9 @@ _Pending synthesis. The major public-record talc enforcement events (Johnson & J
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi V et al. 2020]]. *Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder*, IRIS — Journal for Young Scientists Vol. X, pp.25-29 | 2020 | Peer-reviewed (regional) | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby talcum powder brands; AAS/CVAAS quantification; n=3 |
-
+| 1 | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi et al. 2020]]. *Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder*, IRIS — Journal for Young Scientists, Vol. X | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby talcum powder brands; AAS/CVAAS quantification; n=3 |
 <!-- END: hmi-source-legend -->

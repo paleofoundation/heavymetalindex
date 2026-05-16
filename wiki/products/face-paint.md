@@ -1,5 +1,12 @@
 ---
 type: product-category
+hmtc_row: 12
+hmtc_category: 2
+category_label: "Infant and Child Personal Care"
+age_range: "0-5"
+variant_type: whole_row_platform
+platform_metals: [Pb, Ni, Cr]
+cat2_step0_alignment: 2026-05-16
 category: face-paint
 title: "Face Paint"
 typical_ingredients: []
@@ -67,5 +74,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles et al. 2023]]. *Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk*, International Journal of Environmental Research and Public Health 20:531 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
