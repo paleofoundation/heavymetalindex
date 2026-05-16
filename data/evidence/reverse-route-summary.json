@@ -1,0 +1,15 @@
+{
+  "mode": "apply (high only)",
+  "generated_at": "2026-05-16T15:24:57.971Z",
+  "sources_scanned": 894,
+  "sources_with_matrices": 816,
+  "sources_with_empty_products": 566,
+  "sources_proposed_for_change": 49,
+  "sources_applied": 17,
+  "total_proposals": 59,
+  "high_confidence_proposals": 25,
+  "medium_confidence_proposals": 34,
+  "skipped_already_routed": 336,
+  "unmapped_matrix_slugs": 724,
+  "unknown_product_targets": 0
+}

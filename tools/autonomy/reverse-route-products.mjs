@@ -159,9 +159,13 @@ for (const file of filteredSources) {
   for (const matrixRaw of matrices) {
     const matrix = matrixRaw.toLowerCase().trim()
     if (!matrix) continue
-    if (noRouteList.has(matrix)) continue
+    // Mappings win over no_route: when a slug appears in both (because a
+    // previously ingredient-only term now has a Cat 4 product page), the
+    // mapping takes precedence. This lets the no_route list stay broad
+    // without blocking new product mappings as they land.
     const entry = matrixMap[matrix]
     if (!entry) {
+      if (noRouteList.has(matrix)) continue
       unmappedCounter.set(matrix, (unmappedCounter.get(matrix) ?? 0) + 1)
       continue
     }

@@ -12,6 +12,11 @@ sources: 2
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hmtc_row: 1
+hmtc_category: 4
+category_label: "Fruits, Vegetables, and Produce"
+review_state: scaffolded
+cat4_step0_scaffolded: 2026-05-16
 ---
 
 # Fresh Fruit
