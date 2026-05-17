@@ -10,7 +10,7 @@ Periodic audits identify contradictions across pages, stale claims citing only o
 
 ## 2026-05-17
 
-- [[lint/audit-quarantines]] — Active audit quarantines requiring Karen review before downstream use.
+- [[lint/audit-quarantines]] - Active audit quarantines requiring Karen review before downstream use.
 
 ## 2026-05-11
 
