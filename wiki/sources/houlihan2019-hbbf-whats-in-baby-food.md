@@ -14,12 +14,12 @@ evidence_tier: B
 raw_path: "raw/Manual Fetch Kimi/06_Infant_Foods_Formula/06_Infant_Foods_Formula/BabyFoodReport_ENGLISH_R6_0.pdf"
 metals: [tAs, iAs, Pb, Cd, tHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/carrots]]", "[[ingredients/sweet-potato]]", "[[ingredients/apple]]", "[[ingredients/fruit]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/root-vegetable-purees]]", "[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]", "[[products/teething-and-snacks-rice-based]]", "[[products/infant-formula]]", "[[products/infant-and-child-foods-master]]"]
-matrices: [baby-food, infant-cereal, baby-puree, baby-snack, fruit-juice, infant-formula]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/root-vegetable-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]", "[[products/teething-and-snacks-rice-based]]", "[[products/teething-and-snacks-non-rice]]", "[[products/infant-formula-powder]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-and-child-foods-master]]", "[[products/snacks-crackers-biscuits]]"]
+matrices: [baby-food-puree, fruit-puree, vegetable-puree, baby-snack, fruit-juice, infant-formula]
 jurisdictions: [US]
 sample_n: 168
 sample_population: "168 commercial baby food containers, 61 brands, 13 food types; purchased from 14 US metropolitan areas and 15 retail chains in 2019"
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Houlihan and Brody 2019 — HBBF: What's in My Baby's Food?
@@ -88,17 +88,29 @@ App: Contamination averages by food type (rice puff snacks 98 ppb, infant rice c
 
 Microbiome: Not addressed in this source.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
-- [[products/infant-rice-cereal]]
+- [[products/baby-cereals-dry-rice-based]]
 - [[products/baby-cereals-dry-non-rice]]
 - [[products/root-vegetable-purees]]
+- [[products/non-root-vegetable-purees]]
+- [[products/fruit-purees]]
 - [[products/teething-and-snacks-rice-based]]
-- [[products/infant-formula]]
+- [[products/teething-and-snacks-non-rice]]
+- [[products/snacks-crackers-biscuits]]
+- [[products/infant-formula-powder]]
+- [[products/infant-formula-rtf-liquid-non-soy]]
 - [[products/fruit-juice-not-canned]]
 - [[ingredients/rice]]
 - [[ingredients/carrots]]
 - [[ingredients/sweet-potato]]
+- [[ingredients/apple]]
 - [[metals/lead]]
-- [[metals/arsenic]]
+- [[metals/arsenic-inorganic]]
+- [[metals/arsenic-total]]
 - [[metals/cadmium]]
+- [[metals/mercury-total]]
+
+## Verification notes
+
+- This page was enhanced 2026-05-17 against the prior 2026-05-13 revision. Slug-vocabulary fixes only — the prior page's substantive content (Key numbers, Methods, Implications) was already strong and was preserved as-is. Defects corrected: (a) invalid product slugs `infant-formula` and `infant-rice-cereal` replaced with taxonomy-valid `infant-formula-powder`, `infant-formula-rtf-liquid-non-soy`, `baby-cereals-dry-rice-based`, `teething-and-snacks-rice-based`; (b) added missing valid slugs (`non-root-vegetable-purees`, `teething-and-snacks-non-rice`, `snacks-crackers-biscuits`, fruit ingredient `apple`); (c) matrices vocabulary replaced with system-prompt valid terms; (d) legacy `## Wiki pages updated on ingest` heading modernized; (e) metals page references expanded to include `arsenic-inorganic`, `arsenic-total`, `mercury-total` rather than the generic `arsenic` / `mercury` umbrella slugs (the report measures and reports speciated iAs separately for the 25 highest-arsenic foods).
