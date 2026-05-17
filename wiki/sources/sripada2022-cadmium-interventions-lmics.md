@@ -7,7 +7,7 @@ authors: [Sripada K, Madsen Lager A]
 year: 2022
 publication: "Journal of Global Health"
 doi: 10.7189/jogh.12.04089
-source_type: peer-reviewed
+source_type: review
 evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_9653536/FM_9653536.md
@@ -19,14 +19,14 @@ jurisdictions: [LMICs]
 near_duplicates: []
 sample_n: 26
 sample_population: "26 studies from 21 LMICs covering interventions in pregnant women, infants, and children"
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
-This systematic review (PROSPERO CRD42021235435) searched five databases and identified 26 intervention studies from 21 low- and middle-income countries that aimed to reduce cadmium exposure during pregnancy and childhood. Interventions ranged from nutritional supplements, probiotic yogurt, dietary education (rice cooking methods), chelation therapy, and indoor air filtration to agricultural soil remediation (biochar, organic amendments). The review found that several interventions showed measurable reductions in cadmium body burden or food-chain concentrations, but none offered a realistic scalable solution. Rice-specific interventions (rice cooking method education, rice paddy soil biochar amendment) were notably represented. The finding that no existing intervention robustly addresses Cd pollution at scale underscores the ongoing need for upstream source control and supply-chain screening.
+This systematic review (PROSPERO CRD42021235435) searched five databases, returned 4098 records, and included 26 intervention studies from 21 low- and middle-income countries that aimed to reduce cadmium exposure during pregnancy and childhood. Interventions ranged from nutritional supplements, probiotic yogurt, dietary education (rice cooking methods), chelation therapy, and indoor air filtration to agricultural soil remediation (biochar, organic amendments). The review found that several interventions showed measurable reductions in cadmium body burden or food-chain concentrations, but none offered a realistic scalable solution. Rice-specific interventions (rice cooking method education, rice paddy soil biochar amendment) were notably represented. The finding that no existing intervention robustly addresses Cd pollution at scale underscores the ongoing need for upstream source control and supply-chain screening.
 
 ## Key numbers
 
-Studies included: 26 from 21 LMICs. Human intervention types: nutritional supplements (n=7 studies), medicine/clinical care (n=2), rice cooking education (n=1). Environmental intervention types: agricultural soil remediation, indoor air filtration, policy-level changes (n=4). Key effect sizes from highest-quality studies: urinary Cd in children decreased from mean 12.8 to 9.4 µg/L after dietary intervention (El-Soud et al., Egypt; n=65); biochar application at 10% rate reduced Cd in rice and hazard quotient to acceptable levels (Khan et al., China; n not specified). Indoor air cleaners reduced indoor Cd concentrations during pregnancy.
+Studies included: 26 from 21 LMICs. Human intervention types: nutritional supplements (n=7 studies), medicine/clinical care (n=2), rice cooking education (n=1). Environmental intervention types: agricultural soil remediation (n=6), environmental regulations (n=4), indoor air filtration (n=3), rice cooking method (n=3), and cookware/microwaving (n=2). Selected effect examples: urinary Cd in children decreased from mean 12.8 to 9.4 µg/L after a two-month dietary intervention, though the study had no comparison group and a quality score of 6 (El-Soud et al., Egypt; n=65); sewage-sludge biochar at a 10% application rate reduced Cd bioaccumulation in rice and brought the Cd hazard quotient below acceptable limits in a controlled greenhouse study (Khan et al., China; quality score 13). Indoor air cleaners showed evidence of reducing indoor Cd exposure during pregnancy.
 
 ## Methods (brief)
 
@@ -34,13 +34,24 @@ Systematic review of five databases (Scopus, Web of Science, PubMed, Global Heal
 
 ## Implications
 
-Certification: Reinforces that dietary Cd exposure in vulnerable populations (pregnancy, childhood) is a persistent global problem with limited mitigation options; supports HMT&C rationale for strict Cd limits in foods consumed by these populations.
-Courses: Provides evidence base for mitigation module content, particularly rice cooking method effects and biochar soil amendment; useful for brand QA training on supply-chain Cd reduction.
+Certification: Reinforces that dietary Cd exposure in vulnerable populations (pregnancy, childhood) is a persistent global problem with limited mitigation options; supports HMT&C rationale for upstream Cd source control, ingredient screening, and conservative Cd limits in foods consumed by these populations.
+Courses: Provides evidence base for mitigation module content, particularly rice cooking method effects and biochar soil amendment; useful for manufacturer QA training on supply-chain Cd reduction.
 App: Informs the mitigation-options framework for rice and vegetable ingredients; rice cooking method is a documented lever for reducing dietary Cd exposure.
-Mitigation: Directly relevant to [[mitigation/cadmium-dietary-reduction]] if that page is created.
+Mitigation: Directly relevant to [[mitigation/agronomic]], [[mitigation/processing]], [[mitigation/formulation]], and [[mitigation/supply-chain-screening]] as existing mitigation routes.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/rice]]
 - [[metals/cadmium]]
-- [[health/cadmium-vulnerable-populations]]
+- [[mitigation/agronomic]]
+- [[mitigation/processing]]
+- [[mitigation/formulation]]
+- [[mitigation/supply-chain-screening]]
+
+## Verification notes
+
+- Corrected the source type to review and added the 4098-record search count from the abstract/results.
+- Replaced the ambiguous environmental-intervention count with the source's category counts.
+- Reframed selected effect examples so the El-Soud dietary study is not described as highest-quality evidence.
+- Strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content.
+- Removed missing/future wikilinks and routed mitigation relevance to existing mitigation pages.
