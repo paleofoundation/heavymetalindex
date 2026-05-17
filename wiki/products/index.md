@@ -59,7 +59,7 @@ These pages report what the evidence says about children's personal-care product
 
 Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration during application, hand-to-mouth transfer, and per-application volume per kg body weight are the relevant exposure routes. The methodology supplement is at [[health/cat-2-non-ingestion-exposure-pathways]].
 
-1. [[products/baby-lotion-cream|Baby lotion and cream]] (8 sources)
+1. [[products/baby-lotion-cream|Baby lotion and cream]] (9 sources)
 2. [[products/baby-oil|Baby oil]] (1 source)
 3. [[products/baby-powder-cornstarch|Baby powder, cornstarch base]] (0 sources)
 4. [[products/baby-talcum-powder|Baby talcum powder]] (3 sources)
@@ -67,9 +67,9 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 6. [[products/baby-wipes|Baby wipes]] (3 sources)
 7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (3 sources)
 8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] (3 sources)
-9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (3 sources)
-10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (3 sources)
-11. [[products/toothpaste|Children's toothpaste]] (9 sources)
+9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (4 sources)
+10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (4 sources)
+11. [[products/toothpaste|Children's toothpaste]] (10 sources)
 12. [[products/face-paint|Children's face paint]] (5 sources)
 13. [[products/childrens-makeup|Children's makeup]] (6 sources)
 14. [[products/childrens-nail-polish|Children's nail polish]] (3 sources)
@@ -510,17 +510,9 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/infant-food-general|Infant Food General]]
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->

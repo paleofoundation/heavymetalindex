@@ -1,15 +1,28 @@
 # Heal-gaps report — 2026-05-17
 
-Generated: 2026-05-17T21:55:12.103Z
+Generated: 2026-05-17T22:36:18.983Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
 - Queued for synthesis: 0
-- Routing typo proposals: 1
-- Provisional scaffolds created: 0
+- Routing typo proposals: 0
+- Provisional scaffolds created: 8
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 219
+
+## Provisional scaffolds created
+
+- product/`infant-food-general` (triggered by source research2024-research-b)
+- product/`infant-porridges-dairy-free` (triggered by source trace2025-trace-element-intake-dairy-free)
+- product/`infant-formula-dairy-free` (triggered by source trace2025-trace-element-intake-dairy-free)
+- ingredient/`rice-milk` (triggered by source trace2025-trace-element-intake-dairy-free)
+- ingredient/`soy-milk` (triggered by source trace2025-trace-element-intake-dairy-free)
+- ingredient/`infant-rice-cereal` (triggered by source trace2025-trace-element-intake-dairy-free)
+- ingredient/`infant-oat-cereal` (triggered by source trace2025-trace-element-intake-dairy-free)
+- ingredient/`infant-mixed-grain-cereal` (triggered by source trace2025-trace-element-intake-dairy-free)
+
+See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
 ## Items needing surfacing
 

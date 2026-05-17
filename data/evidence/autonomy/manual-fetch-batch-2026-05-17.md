@@ -230,3 +230,30 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already fully processed (page updated 2026-05-17, audit-queue audited-codex-revised on commit b237644, prior subagent PROMOTE all 5 checks, absent from routing_malformed/unresolved) — v2.0 skip-window rule applies.
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals already audited-revised today (commit c75d66e); v2 skill skip rule applied, no re-processing.
+
+## Tick 2026-05-17T21:50:51.048Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `chengappa2025-toothpaste-india-aas` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Analysis_of_copper_zinc_arsenic_and_lead_content_of_over-the-counter_toothpas.pdf)
+- `massarsky2025-heavy-metals-toothpaste-health-risk` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Health_risk_implications_of_heavy_metals_in_toothpaste.pdf)
+- `attard2022-heavy-metals-cosmetics-review` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Heavy_Metals_in_Cosmetics.pdf)
+- `rashmi2020-baby-talcum-powder-heavy-metals-india` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Heavy_metal_contamination_in_commonly_used_baby_talcum_powders_in_India.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Health_risks_from_heavy_metals_in_cosmetic_products_available_in_the_online_cons.pdf`: kicinska2025-cosmetics-online-market-heavy-metals — babycare_04 PDF is the third cross-folder copy of an already-merge-enhanced + audited paper (DOI 10.1038/s41598-024-83477-2). Existing page `wiki/sources/kicinska2025-cosmetics-online-market-heavy-metals.md` is post-2026-05-14 clean and not in malformed. Tracker updated, stop note appended to `data/evidence/autonomy/manual-fetch-stops-2026-05-17.md`. No commit needed.
+
+## Tick 2026-05-17T22:38:59.605Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already processed and audited on 2026-05-17 (post-skill-window-cutoff, not in malformed)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals already merge-enhanced + audited + audit-applied 2026-05-17 (commit c75d66e); page is post-cutoff clean and not in routing_malformed/unresolved

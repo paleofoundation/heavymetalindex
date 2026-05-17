@@ -258,3 +258,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis modes and triggers); Part 18 (lint rules); Part 19 (standards feed); the 286 pool_blocked_cells metric signals the bottleneck. Feeds source acquisition strategy and synthesis arbitration workflow.
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Run batch deterministic extraction on pool-blocked cell sources
+
+**What:** Identify the 285 sources routed to pool-blocked (ingredient, metal) cells, execute deterministic value extraction on them to populate `typical_ppb`, `p95_ppb`, basis, and uncertainty fields, then regenerate the routing audit.
+
+**Why this lever now:** Pool-blocked cells represent sources already ingested and routed but not yet yielding structured values for synthesis. Extraction is the deterministic step (CLAUDE.md Part 4) that unblocks 285 cells simultaneously—a 2× multiplier on the synthesis pipeline, since 557 values have been extracted from 942 sources, implying the 285 blocked sources are the remaining low-hanging fruit.
+
+**Where:**
+- Blocked sources: identifiable from routing audit (routed sources with `extraction_status: pending` or missing `typical_ppb` fields)
+- Extraction script: `tools/autonomy/extract-structured-values.mjs` or batch codex pass
+- Output records: update source pages + `data/evidence/extracted_values.jsonl`
+- Regenerate: `tools/evidence/build-routing-audit.mjs` to recompute pool-ready cell count
+
+**How:**
+1. Query the routing audit for (source_cite_key, ingredient, metal) rows where the source lacks populated `typical_ppb` or `p95_ppb` in its page
+2. Run deterministic extraction on that batch using a fresh-context subagent (Codex) to decide basis, value type, analyte species, and censoring
+3. Write extracted values to source pages and the structured value register
+4. Rebuild the routing audit and regenerate lint; pool-blocked count should drop to ~50
+5. Synthesis pipeline then triggers for the newly unblocked cells
+
+**Anchors:** CLAUDE.md Part 4 (deterministic extraction as default); Part 9 (synthesis trigger); Part 18 (lint pool-blocked flagging)
+
+---

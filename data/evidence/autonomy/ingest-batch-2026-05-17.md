@@ -114,4 +114,16 @@
 - P1 `research2024-research-b` (FM_11111292)
 
 ### Failed
-- P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264): exit 1: 
+- P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264): exit 1:
+
+## Batch 2026-05-17T22:38:59.510Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `research2024-research-open-access-y` (FM_11415992)
+
+### Failed
+- P1 `research2024-research-c` (FM_11111292_Dietary_intake_of_methylmercury_by_0-5_years_children_using): stdout did not contain '---' frontmatter

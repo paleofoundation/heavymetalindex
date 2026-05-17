@@ -383,3 +383,57 @@ Until Karen triages this PDF, the wrapper will continue re-serving it on every f
 **Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
 
 **Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## kopru-soylak-2024-icp-ms-children-cosmetics-turkey (MFK_inductively-coupled-plasma-mass-spectrometry-icp-m) — RETRACTED
+
+**PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Inductively_coupled_plasma-mass_spectrometry_ICP-MS_detection_of_trace_metal_c.pdf`
+
+**Paper:** Kopru S. & Soylak M. (2024) "Inductively coupled plasma-mass spectrometry (ICP-MS) detection of trace metal contents of children cosmetics." *Optical and Quantum Electronics* 56:399. DOI: 10.1007/s11082-023-06166-w. Received 2023-11-24, accepted 2023-12-19, published online 2024-01-22.
+
+**Stop reason:** Paper is RETRACTED. The Springer "RETRACTED ARTICLE" watermark is stamped across every page of the PDF (pages 1–12 confirmed by Read). The retraction is the canonical paper-internal data-integrity issue called out in the skill's stop conditions, and it is one of the items `docs/ingest-workflows.md:156` defers to "individual review" rather than autonomous ingest. Ingesting a retracted paper as a normal source page would inject formally-invalidated evidence into a Cochrane-bar corpus and weaken the defensibility argument the wiki is built on.
+
+**Identity checks:**
+- DOI grep (`10.1007/s11082-023-06166-w`) → no hit. No existing page.
+- Raw-handle grep (`MFK_inductively-coupled-plasma-mass-spectrometry-icp-m`) → no hit.
+- Cite-key grep (`kopru` / `soylak`) → no hit.
+- Tracker row exists at `manual-fetch-tracker.csv:56` with `status=unprocessed` (no prior cycle).
+
+**Subject matter (for Karen's reference, not ingested):** ICP-MS measurement of Al, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Hg, Cd, Pb in 22 eye-shadow + 4 lipstick + 4 nail-polish samples sold in Turkey, marketed as children's cosmetics across 3 brands. Microwave digestion (Milestone ETHOS Easy), Agilent 7900 ICP-MS, NCS ZC 81002b human-hair CRM, calibration 0–50 µg/L. Authors report most As/Cd/Hg/Pb values are below FDA and Health Canada PSL limits; Al is highest in eye shadow; Se lowest in lipstick. If Karen wants this evidence in the corpus despite the retraction, she should also pull the published retraction notice for context.
+
+**Skill v2.0 rule applied:** "Paper-internal contradiction or data-integrity issue that's not the obvious mirroring pattern." → STOP cleanly, do not ingest. Also flagged for "individual review" per `docs/ingest-workflows.md:156` retraction-handling clause.
+
+**Action taken:** appended a `stopped-retracted` row to `data/evidence/autonomy/manual-fetch-tracker.csv` so the wrapper script will not re-attempt this PDF without Karen's explicit policy decision. No wiki source page written. No commit. No audit subagent spawned. No audit-queue entry. Karen needs to decide the wiki's policy on retracted papers (skip entirely vs ingest with `retracted: true` frontmatter flag and a `## Retraction status` section) before this paper — or any future retracted paper — can be processed autonomously.
+
+## kicinska2025-cosmetics-online-market-heavy-metals (babycare_04 cross-folder duplicate)
+
+**PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Health_risks_from_heavy_metals_in_cosmetic_products_available_in_the_online_cons.pdf`
+
+**Stop reason:** Third cross-folder copy of the same Kicińska & Kowalczyk 2025 paper. The babycare_01_Exposure_Pathways copy was merge-enhanced + audited on 2026-05-17; the babycare_03_Powder_Lotion_Oil_Diaper copy was already stopped as a cross-folder duplicate (see `MFK_health-risks-heavy-metals-online-market` tracker row); this babycare_04 copy is the same paper again.
+
+**Identity checks:**
+- Filename grep against `wiki/sources/` (`Health_risks_from_heavy_metals_in_cosmetic_products_available_in_the_online_cons`) → hit at `wiki/sources/kicinska2025-cosmetics-online-market-heavy-metals.md`.
+- PDF p. 1 title, authors (Alicja Kicińska & Magdalena Kowalczyk, AGH Krakow), journal (Scientific Reports 15:316), DOI (10.1038/s41598-024-83477-2) — identical to existing page frontmatter.
+- Existing page `updated: 2026-05-17` (post-skill-window cutoff), full audit notes already recorded in `## Verification notes`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv` or `data/evidence/routing_malformed.csv` for products; the `ingredients: []` advisory is the documented-intentional cosmetics-finished-product pattern.
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** appended a `stopped` row to `data/evidence/autonomy/manual-fetch-tracker.csv` recording this third cross-folder copy. No commit, no audit subagent spawned, no edits to the wiki source page or audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## rahati2026-infant-formula-baby-food-iran-health-risk (MFK_monte-carlo-simulation-approach-for-health-risk-an)
+
+**PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`
+
+**Stop reason:** PDF already processed and audited within v2 skill skip window.
+
+**Identity checks:**
+- DOI grep (`10.1186/s41043-025-01166-w`) → hit at `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk.md`.
+- Raw-handle grep (`monte-carlo-simulation-approach-for-health-risk-an`) → same single hit.
+- Existing page `updated: 2026-05-17` (today).
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-codex-revised` for this cite-key, applied 2026-05-17 (commit `b237644`): v2.0 manual-fetch merge-enhance subagent PROMOTE on all 5 checks plus Codex 5 findings / 5 applied / 0 rejected (Table 2 SD transcription corrections and explicit source-side CR / Cd contradiction notes).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.

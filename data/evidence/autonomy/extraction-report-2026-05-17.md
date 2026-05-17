@@ -1,16 +1,16 @@
 # Source-value extraction report — 2026-05-17
 
-Generated: 2026-05-17T21:55:12.314Z
+Generated: 2026-05-17T22:36:19.595Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 939
-- Pages with `## Key numbers` section: 827
-- Pages without Key numbers section (skipped): 111
-- Structured rows extracted: 4377
-- Pages with Key numbers but no parseable values: 64
+- Source pages processed: 942
+- Pages with `## Key numbers` section: 829
+- Pages without Key numbers section (skipped): 112
+- Structured rows extracted: 4419
+- Pages with Key numbers but no parseable values: 65
 
 ## Output
 
@@ -19,16 +19,16 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 934 rows
-- Cd: 897 rows
+- Pb: 945 rows
+- Cd: 907 rows
 - Cr-total: 444 rows
-- Ni: 402 rows
-- tAs: 350 rows
+- Ni: 407 rows
+- tAs: 357 rows
+- tHg: 288 rows
 - Al: 282 rows
-- tHg: 280 rows
 - iAs: 167 rows
 - MeHg: 93 rows
-- Cu: 88 rows
+- Cu: 89 rows
 - Sn: 75 rows
 - Fe: 60 rows
 - Co: 53 rows
@@ -70,14 +70,14 @@ Elapsed: 0s
 - canned-fish: 106 rows
 - infant-formula-powder-non-soy: 81 rows
 - non-root-vegetables: 70 rows
-- children-personal-care: 61 rows
+- children-personal-care: 58 rows
 - poultry-product: 56 rows
 - honey: 55 rows
 - root-tuber-vegetables: 52 rows
 - vinegar: 50 rows
 - tea-infusions: 49 rows
+- baby-lotion-cream: 46 rows
 - true-tea-camellia-sinensis: 46 rows
 - breakfast-cereals: 42 rows
 - chocolate: 41 rows
-- baby-lotion-cream: 41 rows
 - olive-oil: 38 rows
