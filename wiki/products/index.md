@@ -70,8 +70,8 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (2 sources)
 10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (2 sources)
 11. [[products/toothpaste|Children's toothpaste]] (4 sources)
-12. [[products/face-paint|Children's face paint]] (5 sources)
-13. [[products/childrens-makeup|Children's makeup]] (6 sources)
+12. [[products/face-paint|Children's face paint]] (4 sources)
+13. [[products/childrens-makeup|Children's makeup]] (4 sources)
 14. [[products/childrens-nail-polish|Children's nail polish]] (1 source)
 15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (2 sources)
 16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (4 sources)
@@ -273,11 +273,11 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 1. [[products/fragrance-preparations|Fragrance preparations (perfumes, colognes, body sprays)]] (0 sources)
 2. [[products/dusting-talc-powders-adult|Dusting/talc powders (adult)]] (0 sources)
-3. [[products/face-neck-leave-on-skin-care|Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)]] (0 sources)
+3. [[products/face-neck-leave-on-skin-care|Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)]] (1 source)
 4. [[products/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] (0 sources)
-5. [[products/makeup-foundation-powders-blush|Makeup — foundation, powders, blush/rouge]] (0 sources)
+5. [[products/makeup-foundation-powders-blush|Makeup — foundation, powders, blush/rouge]] (1 source)
 6. [[products/makeup-body-paints-bases-fixatives|Makeup — body/leg paints, bases, fixatives (including airbrush)]] (0 sources)
-7. [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]] (0 sources)
+7. [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]] (1 source)
 8. [[products/lip-products|Lip products (lipstick, gloss, lip balm)]] (0 sources)
 9. [[products/deodorants|Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)]] (0 sources)
 10. [[products/sun-suntan-products|Sun/suntan products (including spray, self-tan, airbrush)]] (0 sources)
@@ -510,17 +510,6 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->

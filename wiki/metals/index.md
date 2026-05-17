@@ -39,7 +39,7 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 - [[metals/silver]] (2 sources)
 - [[metals/tellurium]] (1 source)
 - [[metals/thallium]] (3 sources)
-- [[metals/tin]] (18 sources)
+- [[metals/tin]] (19 sources)
 - [[metals/tin-inorganic]] (6 sources)
 - [[metals/titanium]] (1 source)
 - [[metals/uranium]] (10 sources)

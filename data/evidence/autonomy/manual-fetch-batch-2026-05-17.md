@@ -70,3 +70,28 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already fully ingested + subagent-audited (PROMOTE) + Codex-audited (REVISE, applied) at 2026-05-17; audit-queue status audited-codex-revised; no work remains for this PDF.
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: already-audited-today (mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals page updated 2026-05-17, audit-queue status `audited-revised`, not in malformed/unresolved — per v2.0 skill skip rule).
+
+## Tick 2026-05-17T17:39:38.122Z
+
+- Candidates this tick: 5
+- Succeeded: 5
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `yun2022-in-silico-pediatric-dermal-model` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Development_and_Evaluation_of_an_In_Silico_Dermal_Absorption_Model_for_Pediatric_Exposures.pdf)
+- `stefaniak2014-ni-be-cr-artificial-sweat` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Dissolution_of_the_metal_sensitizers_Ni_Be_Cr_in_artificial_sweat_to_improve_estimates_of_dermal_bioaccessibility.pdf)
+- `anselm2022-artificial-sweat-ewaste-soil-bioaccess` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Effects_of_Artificial_Sweat_Formulation_and_Extraction_Temperature_on_Estimation_of_the_Dermal_Bioac.pdf)
+- `aurisano2022-mouthing-exposure-childrens-products` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Estimating_mouthing_exposure_to_chemicals_in_children_s_products.pdf)
+- `arshad2020-heavy-metals-cosmetic-products-pakistan` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Evaluation_of_heavy_metals_in_cosmetic_products_and_their_health_risk_assessment.pdf)
+
+## Tick 2026-05-17T18:38:11.243Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: PDF already processed and audited within v2 skill skip window (rahati2026-infant-formula-baby-food-iran-health-risk, updated 2026-05-17, audit-queue status audited-codex-revised).
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: already-audited-post-2026-05-14 mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals

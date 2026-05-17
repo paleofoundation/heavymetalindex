@@ -120,3 +120,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 10 (Step 0 Lock governance trigger), Part 9 (synthesis blocked by provisionally-scaffolded rows), project_order_of_operations.md (lock timing), project_ask_the_index.md (user demand surface feeding wishlist)
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Audit pool-blocked cells to unblock synthesis workflow
+
+**What:** Build `tools/autonomy/audit-pool-blocked-cells.mjs` to enumerate the 286 pool_blocked_cells by (ingredient, metal) pair, count contributing sources per cell, identify data-extraction vs source-gap blockers, and emit a ranked actionable queue.
+
+**Why this lever now:** The 286 pool_blocked_cells metric is the dominant constraint on synthesis workflow throughput. Most are probably 0–1 sources away from moving from `pending` to `populated` status (Part 9 trigger). The 634 gap_driven_wishlist_queries are exactly the cells that are blocked and waiting for evidence. Transparent blockers feed ingest prioritization directly: "these 40 cells need one more paper; these 20 cells have data that isn't yet extracted."
+
+**Where:** 
+- New audit: `tools/autonomy/audit-pool-blocked-cells.mjs`
+- Output: `data/evidence/pool-blocked-analysis.jsonl` with one record per blocked cell
+- Lint rule: add check to `tools/audit-ingredient-mandatory-sections.mjs` for cells pending >6 months despite routed sources (data-extraction debt)
+
+**How:**
+1. Read `wiki/ingredients/*.md` frontmatter; identify all (ingredient, metal) cells currently `status: pending`
+2. Cross-check routing audit `product_source_routing_audit.csv` to count sources per cell; classify as `no-sources`, `one-source-only`, or `multi-source-no-data`
+3. For multi-source-no-data cells, scan source pages for extraction-blocker tags (censored, qualitative-only, different-basis, methodology-mismatch)
+4. Emit `pool-blocked-analysis.jsonl` with (ingredient, metal, blocker-type, source-slugs, next-action) and sort by source-proximity (cells with 1 closely-related source ranked above cells with 0)
+
+**Anchors:** CLAUDE.md Part 5b (routing audit signals synthesis, not model intent), Part 9 (synthesis trigger is second source), Part 18 (lint extends to pool quality), [[project_order_of_operations.md]] Phase 1 (ingest prioritization feeds from gap analysis).
+
+---

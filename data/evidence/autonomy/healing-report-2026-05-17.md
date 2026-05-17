@@ -1,6 +1,6 @@
 # Heal-gaps report — 2026-05-17
 
-Generated: 2026-05-17T17:57:42.945Z
+Generated: 2026-05-17T18:36:34.804Z
 Mode: EXECUTED
 
 ## Summary
@@ -8,14 +8,8 @@ Mode: EXECUTED
 - Fixes applied: 0
 - Queued for synthesis: 0
 - Routing typo proposals: 1
-- Provisional scaffolds created: 1
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 218
-
-## Provisional scaffolds created
-
-- product/`baby-food` (triggered by source introduction2025-concentrations-heavy-metals-processed)
-
-See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
+- Provisional scaffolds created: 0
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 219
 
 ## Items needing surfacing
 
@@ -29,6 +23,7 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/art-craft-materials.md` — no canonical analyte default for slug art-craft-materials
 - missing_primary_metals_of_concern: `wiki/products/automatic-dishwasher-detergents.md` — no canonical analyte default for slug automatic-dishwasher-detergents
 - missing_primary_metals_of_concern: `wiki/products/automatic-puff-releasers.md` — no canonical analyte default for slug automatic-puff-releasers
+- missing_primary_metals_of_concern: `wiki/products/baby-food.md` — no canonical analyte default for slug baby-food
 - missing_primary_metals_of_concern: `wiki/products/bakeware.md` — no canonical analyte default for slug bakeware
 - missing_primary_metals_of_concern: `wiki/products/bathroom-tub-tile-cleaners.md` — no canonical analyte default for slug bathroom-tub-tile-cleaners
 - missing_primary_metals_of_concern: `wiki/products/beef-product.md` — no canonical analyte default for slug beef-product
@@ -40,5 +35,4 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
 - missing_primary_metals_of_concern: `wiki/products/butter-and-ghee.md` — no canonical analyte default for slug butter-and-ghee
-- missing_primary_metals_of_concern: `wiki/products/capillary-reed-wood-diffusers.md` — no canonical analyte default for slug capillary-reed-wood-diffusers
-- ... and 198 more (see queue file)
+- ... and 199 more (see queue file)

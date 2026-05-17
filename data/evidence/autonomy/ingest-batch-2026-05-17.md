@@ -52,4 +52,14 @@
 
 ### Failed
 - P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264): stdout did not contain '---' frontmatter
+- P1 `research2024-research-b` (FM_11111292): exit 1:
+
+## Batch 2026-05-17T18:38:11.142Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264): stdout did not contain '---' frontmatter
 - P1 `research2024-research-b` (FM_11111292): exit 1: 

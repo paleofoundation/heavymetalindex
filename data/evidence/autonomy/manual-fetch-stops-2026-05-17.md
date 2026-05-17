@@ -79,3 +79,39 @@ updated: 2026-05-17
 **Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
 
 **Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## rahati2026-infant-formula-baby-food-iran-health-risk (MFK_monte-carlo-simulation-approach-for-health-risk-an)
+
+**PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`
+
+**Stop reason:** PDF already processed and audited within v2 skill skip window.
+
+**Identity checks:**
+- DOI grep (`10.1186/s41043-025-01166-w`) → hit at `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk.md`.
+- raw_handle grep (`MFK_monte-carlo-simulation-approach-for-health-risk-an`) → hit at same page (matches suggested handle exactly).
+- Existing page `updated: 2026-05-17` (today).
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-codex-revised` for this cite-key, applied 2026-05-17: v2.0 manual-fetch merge-enhance commit `bddf6cf`, subagent PROMOTE verdict (all 5 checks clean) commit `b237644`, Codex cross-vendor REVISE 5 findings / 5 applied / 0 rejected commit `2c5dcf6` (Table 2 SD transcriptions for IF Cu/Mn/Se and BF Ba/Co/Cr/Se; abstract-vs-Table-3 Cr CR contradiction (9.55e-5 / 3.57e-4 / 3.75e-4) made explicit; p.5 Cd-exceedance vs Table 2 nd inconsistency made explicit).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals (MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia)
+
+**PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`
+
+**Stop reason:** PDF already processed and audited within v2 skill skip window.
+
+**Identity checks:**
+- Title/Umuahia grep → hit at `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals.md`.
+- raw_handle on existing page is `MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia` (semantically equivalent to wrapper-supplied `MFK_nutrient-exploration-and-heavy-metal-risk-assessme`); DOI `10.1038/s41598-026-44198-w` confirmed against PDF page 1.
+- Existing page `updated: 2026-05-17` (today).
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-revised` for this cite-key, applied 2026-05-17 (commit `c75d66e`): v2.0 manual-fetch merge-enhance + subagent REVISE verdict, 5 findings (1 ❌ + 4 ⚠️) / 5 applied / 0 rejected. Followed by Codex cross-vendor pass also on 2026-05-17 (already noted in page Verification notes: BM Cr-limit statement corrected to below-limit, opening summary tightened on missing Table 3 Cr THQ column and Table 2/abstract Ni inconsistency, nickel wiki-touch note set to 5 of 8 BM samples).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
