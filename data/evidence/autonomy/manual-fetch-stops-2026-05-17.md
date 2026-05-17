@@ -491,3 +491,21 @@ Until Karen triages this PDF, the wrapper will continue re-serving it on every f
 **Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
 
 **Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## poulsen2007-cosmetic-products-children-denmark (MFK_survey-of-chemical-substances-in-consumer-products) — bit-identical duplicate filed in second folder
+
+**PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Survey_of_Chemical_Substances_in_Consumer_Products_No_88_-_A_survey_and_health.pdf`
+
+**Stop reason:** true duplicate already ingested. The wrapper guessed handle `MFK_survey-of-chemical-substances-in-consumer-products` from the babycare_04 filename, but SHA-256 of this PDF (`fcb5d3c9da4558bda2af3cd1daf847ecfc3a86de27bb6e1e64161717e7311c0f`) matches `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Survey_Health_Assessment_Cosmetic_Children_Denmark.pdf` exactly — same Danish EPA Survey No. 88 (2007) Poulsen & Schmidt FORCE Technology report. The babycare_03 copy was ingested earlier today (2026-05-18) under cite-key `poulsen2007-cosmetic-products-children-denmark`, auto-audited (REVISE verdict, 2 findings applied), and is currently `audited-revised` in the queue.
+
+**Identity checks:**
+- SHA-256 byte-for-byte match between the two raw_paths confirmed via `shasum -a 256`.
+- Title grep `Survey of Chemical Substances in Consumer Products` → hit at `wiki/sources/poulsen2007-cosmetic-products-children-denmark.md`.
+- Existing page `updated: 2026-05-18` (today).
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Page is in `data/evidence/routing_malformed.csv` only with a non-blocking `advisory` row for `ingredients: []` (intentional — packaging-only paper, not an ingredient-level occurrence study). No `error` or `blocking` row exists.
+- Audit queue already records `audited-revised` for this cite-key (commit `4553766`, 2026-05-18).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." Plus the "True duplicate conflict" stop condition (in the variant where the wrapper's filename-based handle suggests a new page but SHA-256 confirms the PDF is already ingested under a different folder location).
+
+**Action taken:** added the babycare_04 raw_path to the existing page's `near_duplicates` array (with `relation: bit_identical_duplicate` and the matching SHA-256) so subsequent ingest passes recognise the second location. Updated the manual-fetch tracker entry for the babycare_04 path to `status=stopped`, `cite_key=poulsen2007-cosmetic-products-children-denmark`, with a note explaining the SHA-256 match. Re-ran routing audit: 0 unresolved, 0 blocking malformed. No new audit-subagent spawn; the canonical page is already audited.
