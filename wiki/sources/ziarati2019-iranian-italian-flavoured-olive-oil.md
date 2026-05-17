@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_determination-of-toxic-metals-content-in-iranian-a
 cite_key: ziarati2019-iranian-italian-flavoured-olive-oil
 title: "Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil"
 authors: [Ziarati P, Mirmohammad Makki F, Vambol S, Vambol V]
@@ -10,35 +10,35 @@ doi: 10.2478/ata-2019-0012
 source_type: peer-reviewed
 evidence_tier: A
 license: "not confirmed"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Determination of toxic metals content in Iranian and Italian oliv.pdf"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Determination of toxic metals content in Iranian and Italian olive oils.pdf"
 metals: [Pb, Cd, Ni, tAs]
 ingredients: ["[[ingredients/olive-oil]]"]
-products: ["[[products/cooking-oils-other]]"]
+products: ["[[products/olive-oil]]"]
 matrices: [edible-oil, olive-oil, flavoured-olive-oil]
 jurisdictions: [IR, IT]
 near_duplicates: []
 sample_n: 480
 sample_population: "Commercial olive oil samples (non-flavoured and flavoured: fungi, aroma vegetables, pepper) purchased from Lombardy, Italy and Tehran, Iran across three seasons (autumn 2016, winter and spring 2017)"
-updated: 2026-05-14
+updated: 2026-05-17
 ---
 
 # Ziarati et al. 2019 — Toxic metals in Iranian and Italian flavoured olive oil
 
-This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purchased across three consecutive seasons from markets in Lombardy (Italy) and Tehran (Iran), comparing non-flavoured (virgin, extra-virgin) and flavoured (fungi, aroma vegetable, pepper) varieties by ICP-AES. Iranian brands consistently showed higher contamination than Italian brands, and fungi-flavoured olive oil exhibited the highest Pb and Cd concentrations, with values exceeding FAO/WHO permissible limits, while pepper-flavoured olive oil showed the lowest heavy metal levels across all analytes.
+This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purchased across three consecutive seasons from markets in Lombardy (Italy) and Tehran (Iran), comparing non-flavoured (virgin, extra-virgin) and flavoured (fungi, aroma vegetable, pepper) varieties. Iranian samples had higher Pb, Cd, and As combined means than Italian samples, while Italian non-flavoured samples had the higher combined mean Ni value. Fungi-flavoured olive oil exhibited the highest Italian Pb and Cd concentrations, while pepper-flavoured olive oil showed the lowest heavy metal levels across the Italian flavour categories.
 
 ## Key numbers
 
 **Italian olive oil (mean ± SE, µg/g):**
-- Non-flavoured: Pb 8.546 ± 0.043, Cd 0.0967 ± 0.0054, Ni 14.180 ± 0.011, As 0.00020 ± 0.00001
-- Fungi-flavoured: Pb 12.3301 ± 0.112, Cd 1.004 ± 0.0123, Ni 12.349 ± 0.128
-- Vegetable-flavoured: Pb 10.762 ± 0.088, Cd 0.0876 ± 0.004, Ni 10.231 ± 0.0143
-- Pepper-flavoured: Pb 0.984 ± 0.091, Cd not detectable, Ni not detectable
+- Pepper-flavoured: Pb 0.984 ± 0.091, Cd not detectable, Ni not detectable, As 0.00020 ± 0.00001
+- Fungi-flavoured: Pb 12.3301 ± 0.112, Cd 1.004 ± 0.0123, Ni 10.231 ± 0.0143, As 0.00040 ± 0.00001
+- Vegetable-flavoured: Pb 10.762 ± 0.088, Cd 0.0876 ± 0.004, Ni 12.349 ± 0.128, As 0.00030 ± 0.00001
+- Non-flavoured: Pb 10.111 ± 0.034, Cd 0.0967 ± 0.0054, Ni 14.180 ± 0.011, As 0.00040 ± 0.00001
 
-**Iranian olive oil (mean ± SE, µg/g by brand):**
-- Brand 1: Pb 15.893 ± 0.098, Cd 3.234 ± 0.044, Ni 12.354 ± 0.036
-- Brand 2: Pb 13.892 ± 0.067, Cd 4.181 ± 0.042, Ni 10.542 ± 0.072
-- Brand 3: Pb 11.209 ± 0.054, Cd 2.001 ± 0.0022, Ni 9.786 ± 0.0102
-- Brand 4 (highest): Pb 18.783 ± 0.016, Cd 4.032 ± 0.014, Ni 14.444 ± 0.283, As 0.0050 ± 0.0002
+**Iranian olive oil series (mean ± SE ranges across four anonymized series, µg/g):**
+- Pb: 11.209 ± 0.054 to 18.783 ± 0.016
+- Cd: 2.001 ± 0.0022 to 4.181 ± 0.042
+- Ni: 9.786 ± 0.0102 to 14.444 ± 0.283
+- As: 0.0030 ± 0.0001 to 0.0050 ± 0.0002
 
 **Combined means (µg/g):**
 - Italian: Pb 8.546, Cd 0.396, Ni 12.253, As 0.00020
@@ -46,27 +46,35 @@ This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purch
 - Cd in Iranian samples was approximately ten times higher than in Italian samples (p < 0.005)
 
 **Storage effect (combined samples, µg/g):**
-- Pb at 1 month: 14.221; at 12 months: 27.111
-- Cd at 1 month: 2.989; at 12 months: 4.989
+- Pb: 14.221 ± 0.028 at 1 month, 15.128 ± 0.033 at 3 months, 15.867 ± 0.081 at 6 months, and 27.111 ± 0.102 at 12 months
+- Cd: 2.989 ± 0.032 at 1 month, 3.156 ± 0.022 at 3 months, 4.001 ± 0.005 at 6 months, and 4.989 ± 0.011 at 12 months
 
-Note: The reported Pb and Cd concentrations in Italian fungi-flavoured oil (e.g., Pb 12.3 µg/g = 12,300 ppb) substantially exceed typical literature ranges for olive oil and the Codex/USDA limit of 0.1 mg/kg (100 ppb). The paper does not comment on this discrepancy. These values should be treated with caution; results may reflect contamination during sample preparation or analytical error, or the fungi flavouring additive itself may be a concentrated source.
+Note: µg/g is equivalent to mg/kg. The reported Pb and Cd concentrations in several rows are orders of magnitude above the Codex/USDA 0.1 mg/kg limits cited by the authors. The paper does not reconcile those high concentrations with the limit comparison, so the source should be treated as high-caution occurrence evidence until cross-audited.
 
-## Methods
+## Methods (brief)
 
-ICP-AES (Varian Vista) for Cd, Pb, and Ni; ICP-MS (Agilent 7500c) for total As with LC-ICP-MS speciation of iAs vs organic forms. Wet digestion with HNO3/H2O2 microwave. Samples were purchased across autumn 2016, winter and spring 2017 from recognized markets in Lombardy (Italy) and Tehran (Iran). Three replicates per sample; certified reference material used for QC (recoveries >95%). As speciation identified iAs(III) and As(V) fractions, enabling separation from DMA and MMA. Reported values are dry weight. LOD established as 3× standard deviation of procedural blanks.
+ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0 g oil + 1 mL 10% HNO3 + 0.5 mL 30% H2O2, shaken, held at 60 °C for 1.5 h, centrifuged, diluted to 25 mL). Arsenic work used ICP-MS (Agilent 7500c) and chromatographic separation of As species against As(III), As(V), DMA, and MMA standards; total-As digestion used HNO3/H2O2 microwave digestion (CEM Mars5). Samples were purchased across autumn 2016, winter 2017, and spring 2017 from recognized markets in Lombardy (Italy) and Tehran (Iran). Three replicates per sample; certified reference material used for QC (recoveries >95%). Reported values are dry weight. LOD established as 3× standard deviation of procedural blanks.
 
 ## Implications
 
-**Certification:** The finding that fungi-flavoured olive oil dramatically elevates Pb and Cd concentrations (if confirmed) would be directly relevant to HMT&C ingredient-level controls on flavoured oil products. The flavouring source (mushroom) may be the contamination vehicle rather than the base oil. Geographic origin (Iran vs Italy) creates meaningful variance in the contamination profile for olive oil and its derivatives.
+- Certification (HMTc): Provides source-specific occurrence evidence for Pb, Cd, Ni, and As in flavoured and non-flavoured olive oils from two market geographies. Because the reported Pb and Cd values are extremely high relative to the limits cited in the paper, use as high-caution occurrence evidence pending cross-audit rather than as a direct calibration input.
 
-**Courses:** Storage time as a driver of Pb and Cd accumulation (12-month values roughly double 1-month values in this dataset) is a practical supply-chain point for brand QA training.
+- Courses: Storage time as a driver of Pb and Cd accumulation (12-month values roughly double 1-month values in this dataset) is a practical supply-chain case study for QA training.
 
-**App:** Flavoured olive oils should be treated as higher-risk than plain olive oil for Pb and Cd; mushroom/fungi-flavoured variants specifically should be flagged if this finding replicates.
+- App: Adds contextual evidence that flavoured oils may not share the same occurrence profile as plain olive oil; do not use the extreme values as contamination-profile calibration inputs until independently replicated or cross-audited.
 
-**Caution:** The quantitative values in this study are substantially higher than published literature for olive oil. They should be used to indicate direction-of-effect (fungi-flavoured > plain > pepper-flavoured; Iranian > Italian) rather than as calibration inputs for contamination profiles until independently replicated.
+**Caution:** The source's quantitative values are unusually high relative to the paper's own cited limits. They should be used to indicate source-reported direction-of-effect (fungi-flavoured > pepper-flavoured in the Italian subset; Iranian combined Pb/Cd/As > Italian combined Pb/Cd/As) rather than as calibration inputs until independently replicated.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 - [[ingredients/olive-oil]]
+- [[products/olive-oil]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
+- [[metals/arsenic-total]]
+
+## Verification notes
+
+- 2026-05-17 Codex merge-enhance: identity checked against DOI 10.2478/ata-2019-0012 and the manual-fetch PDF; corrected legacy `raw_handle`/truncated path, rerouted from `products/cooking-oils-other` to `products/olive-oil`, corrected Italian Table 1 transcriptions (non-flavoured Pb/As and fungi vs vegetable Ni), aggregated the four Iranian anonymized series into ranges to avoid brand/series-level ranking, and changed legacy headings to current source-page headings.
+- Strict Part 12 cleanup: source reports four anonymized Iranian series; the wiki page now reports the range across the series rather than listing series-by-series values with a highest-series callout.
+- Arsenic methods include speciation standards and separation, but the result tables report a single `As` concentration; frontmatter therefore retains `tAs` pending cross-audit.
