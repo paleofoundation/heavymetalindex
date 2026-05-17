@@ -185,3 +185,77 @@ This is the third re-feed of this same PDF in this folder during 2026-05-17 sust
 **Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
 
 **Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## kicinska2025-cosmetics-online-market-heavy-metals (MFK_health-risks-heavy-metals-cosmetics-online) — cross-folder file-system duplicate
+
+**PDF (this cycle):** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Health_Risks_Heavy_Metals_Online_Market.pdf`
+
+**Canonical raw_path on existing page:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Health_risks_from_heavy_metals_in_cosmetic_products_available_in_the_online_consumer_market.pdf`
+
+**Stop reason:** PDF already processed and audited within v2 skill skip window. This is a true file-system duplicate — Karen has the same paper (Kicińska & Kowalczyk, *Scientific Reports* 15:316 (2025), DOI 10.1038/s41598-024-83477-2) filed in two subfolders of the Children Personal Care Papers tree (`babycare_01_Exposure_Pathways/01_Exposure_Pathways/` AND `babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/`). The babycare_01 copy is what the existing wiki source page is built on; the babycare_03 copy is what the wrapper served this cycle.
+
+**Identity checks:**
+- DOI grep (`10.1038/s41598-024-83477-2`) → hit at `wiki/sources/kicinska2025-cosmetics-online-market-heavy-metals.md`.
+- Cite-key grep (`kicinska2025`) → same file.
+- raw_handle wrapper-supplied (`MFK_health-risks-heavy-metals-online-market`) does NOT match canonical raw_handle on the existing page (`MFK_health-risks-heavy-metals-cosmetics-online`); this is the same wrapper handle-derivation issue documented above for mgbemena2026 / tatsuta2024.
+- Existing page `updated: 2026-05-17` (today). Comprehensive Key numbers covering Tables 2–12 + Fig. 1 maxima; Methods section with full ICP-MS + microwave-digestion + QA/QC detail; Implications without HMTc threshold proposals; Verification notes already document license correction, product-slug remap to the Cat 2 Step 0 Lock vocabulary, Cr-total vs Cr-VI caveat, and an audit-subagent-found source-internal contradiction in the paper's QRA narrative (paper p. 10 asserts AEL > CEL "for all" samples but Table 12 shows AEL/CEL = 0.07 for lipsticks and 0.12 for eyeshadows, i.e., AEL < CEL).
+- Page IS present in `data/evidence/routing_malformed.csv` BUT only at `severity: advisory` for the missing `ingredients` field, which the page's Verification notes explicitly document as intentional ("paper measures finished cosmetics, not raw ingredients (mineral pigments etc.). The routing layer's malformed-advisory for missing `ingredients` is expected for cosmetic-finished-product papers"). Advisory-only-with-documented-rationale is not a real malformed in the sense the v2 skill rule means; it is a known-and-accepted state for this entire class of cosmetic-finished-product sources.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-revised` for this cite-key, applied 2026-05-17 (commit `08b2149`): v2.0 manual-fetch merge-enhance; subagent REVISE; 3 findings applied (Iwegbue comparison typo; AEL/CEL source-internal inconsistency flagged in Verification notes; author-attribution tightening); 2 findings rejected as snapshot-staleness false positives (CHECK2 product slugs `makeup-foundation-powders-blush` + `face-neck-leave-on-skin-care` verified present in `wiki/products/`).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Karen note (separate fix item):** The babycare_03_Powder_Lotion_Oil_Diaper folder appears to contain a misfile — this paper studied adult cosmetics (foundations, blushes, lipsticks, face creams, face masks, eye shadows; BW 60 kg adult; no infant/child scenario) and does not measure baby powders, lotions, oils, or diapers. The duplicate filing is most likely a folder-organization artifact rather than a content reason to re-ingest. Once Karen has triaged the babycare_03 folder, either (a) delete the duplicate babycare_03 PDF and keep only the babycare_01 canonical, or (b) leave both in place and add a wrapper-level rule that skips PDFs whose filename (case-insensitive, normalized) maps to an existing source page's `raw_path` basename. Until then, expect this PDF to keep being re-served on every full-folder sweep of the babycare_03 folder.
+
+**Action taken this cycle:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. Logging this entry so the cross-folder duplicate pattern is visible in the autonomy report.
+
+## Lead_Cadmium_Mercury_Baby_Talcum_India.pdf (suggested handle: MFK_lead-cadmium-mercury-baby-talcum-india)
+
+**PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Lead_Cadmium_Mercury_Baby_Talcum_India.pdf`
+
+**Stop reason:** PDF file is structurally corrupted / truncated. Cannot be read by any available tool.
+
+**Diagnostics:**
+- `file` reports: `PDF document, version 1.7` (header parses; `%PDF-1.7` magic confirmed in first 8 bytes).
+- File size: 1,195,286 bytes.
+- `pdftotext`, `pdfinfo`, `pdftoppm`: all fail with `Invalid XRef entry 0`, `Missing 'endstream' or incorrect stream length`, `Couldn't find trailer dictionary`, `Couldn't read xref table`.
+- `pypdf` (strict=False): `EOF marker not found`, `PdfStreamError: Stream has ended unexpectedly`.
+- The Read tool reports the PDF as corrupted/invalid.
+- The last 256 bytes of the file are random binary content with NO `%%EOF` trailer marker — direct evidence of truncation mid-stream, not just a parser bug.
+- `sips` (macOS) attempted as repair fallback: `Cannot extract image from file. Error 13: an unknown error occurred`.
+- No `mutool` / `qpdf` / `gs` (ghostscript) available on this machine to attempt deeper structural repair.
+
+**Likely cause:** the file is truncated — the PDF header parses correctly but there is no xref table and no `%%EOF` trailer at the tail of the file. This is consistent with a partial download or transfer-cut-off of the original PDF, not a parser bug.
+
+**Identity checks (informational, not used to gate the stop):**
+- Filename and folder context (`Lead_Cadmium_Mercury_Baby_Talcum_India.pdf` in `babycare_03_Powder_Lotion_Oil_Diaper/`) strongly suggest the same paper as the already-ingested `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md`, whose `raw_path` points at a separate physical PDF at `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Heavy_metal_contamination_in_commonly_used_baby_talcum_powders_in_India.pdf` (the babycare_04 PDF is readable, 1,496,223 bytes; MD5 `07a9266988fadf6368427a5e11f4c5e1`). The babycare_03 corrupted PDF has a different MD5 (`3e4cb016dcc83013c21c73447cf343ff`) and different size, so it is a different file even if it is the same paper.
+- Cannot complete the three identity checks (DOI / raw_handle / cite-key) because the PDF cannot be opened to read its DOI, title, or authors. The filename-and-folder pattern is suggestive but not authoritative.
+
+**Action taken this cycle:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The corrupted PDF is left in place under `raw/` (immutable append-only per Part 4).
+
+**Karen note (Karen-input item):** the babycare_03 copy of this PDF needs to be re-fetched (or deleted as a duplicate of the babycare_04 copy, if Karen confirms they are the same paper). The babycare_04 PDF of the same title is already ingested as `rashmi2020-baby-talcum-powder-heavy-metals-india` and is readable; if the babycare_03 file is indeed a duplicate fetch of that same Rashmi 2020 paper, deleting the corrupted babycare_03 copy is the simplest fix and will let the wrapper move on. If it is a *different* Indian baby-talcum-powder paper (the title pattern is generic enough that this is possible), the babycare_03 copy needs to be re-downloaded from source before this entry can be retried. This is a one-time source-acquisition fix, not a wrapper or skill bug.
+
+## jitareanu2025-heavy-metals-cosmetics-overview (MFK_overview-heavy-metals-cosmetics-toxicological) — 2026-05-18
+
+**PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Overview_Heavy_Metals_Cosmetics_Toxicological.pdf`
+
+**Stop reason:** PDF is a byte-identical duplicate of an already-ingested PDF; existing page is post-2026-05-14 clean.
+
+**Identity checks:**
+- Filename grep on `wiki/sources/` → hit at `wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md` (same title, same DOI `10.3390/app152412883`, same authors Jităreanu et al. 2025 Applied Sciences).
+- SHA-256 of babycare_03 PDF = SHA-256 of babycare_01 PDF = `6962413139daeb23e7732542a75c8fcbb470f4fc8eaaddd35f07ef0ee093d6e6`. Byte-identical files.
+- Existing page `updated: 2026-05-17` (yesterday, with extensive cross-vendor Codex audit).
+- Page NOT in `data/evidence/routing_unresolved.csv`.
+- Page is in `data/evidence/routing_malformed.csv` only as `advisory` severity (optional `ingredients`/`matrices` fields empty by design for a cosmetics review — not a structural defect; the routing audit reports 576 advisory rows, 0 blocking).
+- Audit queue already records `audited-promote` for this cite-key from the 2026-05-17 pass.
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." Advisory-severity routing rows do not satisfy the "malformed" trigger.
+
+**Action taken:**
+- Added the babycare_03 path to the existing page's `near_duplicates` array (it was `[]`; the 2026-05-17 verification note had anticipated this but not yet added the path).
+- Appended a verification note recording the SHA-256-confirmed duplicate and this skip decision.
+- Bumped `updated:` to 2026-05-18.
+- One commit. No audit subagent spawn (the existing page's 2026-05-17 audit already covers the content).
+- Audit queue NOT touched (no re-ingest, no re-audit warranted).
+
+**Why the small commit instead of a pure no-op:** future skill runs encountering this PDF would re-discover the duplicate from scratch unless `near_duplicates` records the path. The skill's intent is that this PDF, once seen, is never re-investigated.

@@ -16,10 +16,11 @@ ingredients: []
 products: ["[[products/lipstick]]", "[[products/face-paint]]", "[[products/childrens-makeup]]", "[[products/baby-sunscreen-mineral]]", "[[products/baby-sunscreen-chemical]]", "[[products/skin-lightening-cream]]", "[[products/baby-lotion-cream]]", "[[products/toothpaste]]", "[[products/childrens-lip-balm-mineral-bearing]]"]
 matrices: []
 jurisdictions: [EU, US, CA, CN]
-near_duplicates: []
+near_duplicates:
+  - "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Overview_Heavy_Metals_Cosmetics_Toxicological.pdf"
 sample_n: null
 sample_population: "Narrative review of heavy-metal contamination in cosmetics; literature 1990 - November 2025 retrieved via PubMed, Web of Science, Scopus, Google Scholar"
-updated: 2026-05-17
+updated: 2026-05-18
 ---
 
 # Jităreanu et al. 2025 — Review of heavy metals in cosmetic products and toxicological impact
@@ -84,7 +85,8 @@ Narrative literature review (not systematic). Database searches across PubMed, W
 
 ## Verification notes
 
-- This is one of two PDFs in the batch with title "An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact" - one in babycare_01 (read here), one in babycare_04 (a near-duplicate or identical file). Will mark the babycare_04 version as a near_duplicate when it is processed. The babycare_03 has a similarly-named "Overview_Heavy_Metals_Cosmetics_Toxicological.pdf" that may also be the same paper.
+- This is one of two PDFs in the batch with title "An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact" - one in babycare_01 (read here), one in babycare_04 (a near-duplicate or identical file). Will mark the babycare_04 version as a near_duplicate when it is processed.
+- 2026-05-18: confirmed babycare_03 `Overview_Heavy_Metals_Cosmetics_Toxicological.pdf` is byte-identical to the babycare_01 source (SHA-256 6962413139daeb23e7732542a75c8fcbb470f4fc8eaaddd35f07ef0ee093d6e6); added to `near_duplicates`. Skill stopped without re-ingest per the post-2026-05-14 clean rule.
 - Review article - B-tier per Part 13 (reviews are not treated as A-tier primary evidence).
 - Brand firewall (Part 12): the review's cited studies (Hamann, Piccinini, Iwegbue, etc.) include some brand-named samples; this source page summarizes at category level only.
 - Kohl Pb values up to 800,000 ppm cited from Mokashi et al. - that is a citation to a separate primary study which would be the appropriate page for those specific numbers; including the figure here to flag the magnitude (kohl is the outlier product class for Pb in cosmetics).
