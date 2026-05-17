@@ -283,3 +283,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 4 (deterministic extraction as default); Part 9 (synthesis trigger); Part 18 (lint pool-blocked flagging)
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Create source-seeking workflow for zero-source pending-lock categories
+
+**What:** Build a deterministic script that reads `gap-driven-wishlist.csv`, filters for queries targeting the four zero-source pending-lock categories (infant-formula-dairy, infant-formula-dairy-free, infant-porridges-dairy, infant-porridges-dairy-free), and emits a prioritized research queue ranked by HMT&C category criticality.
+
+**Why this lever now:** Four Tier-1 HMT&C categories (infants are the highest-sensitivity population) exist as provisional scaffolds with zero sources. The 653 gap-driven-wishlist queries have been identified but are not systematically routed to fill the most-critical gaps. Completing these four categories would unblock synthesis on the most-defensible-under-challenge product segment and eliminate the largest single gap in the corpus.
+
+**Where:**
+- Input: `data/evidence/autonomy/gap-driven-wishlist.csv`
+- Script: `tools/autonomy/prioritize-source-seeking-by-category-impact.mjs` (new)
+- Output: `data/evidence/autonomy/source-seeking-priority.csv`
+
+**How:**
+1. Read gap-driven-wishlist.csv; filter for rows mentioning infant-formula or infant-porridge (case-insensitive match on target_category or query_text).
+2. Assign impact_score: 1.0 for zero-source categories, 0.5 for pool_too_thin categories, 0.1 for others.
+3. Sort by [impact_score DESC, target_category ASC, query_text ASC].
+4. Emit to source-seeking-priority.csv with columns: [wishlist_query, target_category, impact_score, analyte, research_type, priority_rank].
+5. Log creation to log.md with `op: source-seeking-prioritization-workflow`.
+
+**Anchors:** CLAUDE.md Part 10 (unfunded provisional scaffolds must accumulate evidence before promotion), Part 5b (routing audit identifies unfunded cells), Part 2 (infant defensibility is highest-stakes). Governance: "Tier-1 population gaps block synthesis and certification defensibility."
+
+---

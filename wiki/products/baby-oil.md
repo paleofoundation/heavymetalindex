@@ -15,7 +15,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
 literature_scope: thin
-sources: 1
+sources: 2
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Oil

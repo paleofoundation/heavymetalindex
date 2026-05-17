@@ -127,3 +127,13 @@
 
 ### Failed
 - P1 `research2024-research-c` (FM_11111292_Dietary_intake_of_methylmercury_by_0-5_years_children_using): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-17T23:19:02.814Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `research2024-research-c` (FM_11111292_Dietary_intake_of_methylmercury_by_0-5_years_children_using): cite_key mismatch: tatsuta2024-dietary-intake-methylmercury-japan
+- P1 `citation2023-comparison-toxic-heavy-metals` (FM_10081761): stdout did not contain '---' frontmatter

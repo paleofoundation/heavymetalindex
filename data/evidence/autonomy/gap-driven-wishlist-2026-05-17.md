@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Cells flagged as thin: 158.5
-- Total OpenAlex queries emitted: 634
+- Cells flagged as thin: 163.25
+- Total OpenAlex queries emitted: 653
 - By verdict:
-  - BLOCKED: 285 cells
+  - BLOCKED: 295 cells
   - PROVISIONAL: 14 cells
 
 ## Top 20 priority queries

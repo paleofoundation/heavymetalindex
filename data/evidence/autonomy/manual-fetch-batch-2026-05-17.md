@@ -257,3 +257,32 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already processed and audited on 2026-05-17 (post-skill-window-cutoff, not in malformed)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals already merge-enhanced + audited + audit-applied 2026-05-17 (commit c75d66e); page is post-cutoff clean and not in routing_malformed/unresolved
+
+## Tick 2026-05-17T22:31:57.152Z
+
+- Candidates this tick: 5
+- Succeeded: 2
+- Stopped (need Karen): 2
+- Failed: 1
+
+### Succeeded
+- `almukainzi2022-saudi-topical-cosmetics-icpms` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Quality_and_safety_investigation_of_commonly_used_topical_cosmetic_preparations.pdf)
+- `barabash2025-sunscreen-tio2-zno-release-spicp-tofms` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Release_of_TiO2_and_ZnO_nanoparticles_from_sunscreens_into_natural_waters_detec.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Inductively_coupled_plasma-mass_spectrometry_ICP-MS_detection_of_trace_metal_c.pdf`: paper retracted (Springer RETRACTED ARTICLE watermark on every page) — needs Karen's policy decision before autonomous ingest can proceed
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Quality_control_of_selected_cosmetics_marketed_in_Libya_for_traces_of_toxic_heav.pdf`: rbeida2023-heavy-metals-cosmetics-libya already ingested+audited today via byte-identical PDF copy under babycare_03_Powder_Lotion_Oil_Diaper (SHA d6928cf0…); post-2026-05-14 clean skip rule applies.
+
+### Failed
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Neurotoxic_effect_of_active_ingredients_in_sunscreen_products_a_contemporary_re.pdf`: exit 1:
+
+## Tick 2026-05-17T23:19:02.937Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already clean post-2026-05-14 (updated 2026-05-17, audit-queue audited-codex-revised, not in malformed/unresolved); skill v2.0 skip rule applies
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals already post-2026-05-14 clean (updated 2026-05-17, audited-revised in queue, not in malformed/unresolved)

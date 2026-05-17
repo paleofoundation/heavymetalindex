@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 2
 updated: 2026-05-17
 ---
 # Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)

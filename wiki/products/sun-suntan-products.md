@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 4
 updated: 2026-05-17
 ---
 # Sun/suntan products (including spray, self-tan, airbrush)

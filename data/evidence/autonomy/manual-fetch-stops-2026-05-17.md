@@ -437,3 +437,57 @@ Until Karen triages this PDF, the wrapper will continue re-serving it on every f
 **Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
 
 **Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## rbeida2023-heavy-metals-cosmetics-libya (MFK_quality-control-cosmetics-libya) — duplicate-PDF, second folder location
+
+**PDF requested:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Quality_control_of_selected_cosmetics_marketed_in_Libya_for_traces_of_toxic_heav.pdf`
+
+**Stop reason:** Same PDF already processed and audited under a different folder path on the same day.
+
+**Identity checks:**
+- DOI grep (`10.5281/zenodo.8136836`) → hit at `wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md`.
+- Existing page `updated: 2026-05-18` (today).
+- Existing page `raw_path` points to `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Quality_Control_Cosmetics_Libya.pdf` — a different folder location for the same paper.
+- SHA-256 of both candidate PDFs matches: `d6928cf09c76b4f130fc2535eeaf4aea37175b9fdc22261e28117f03119981c3` (byte-identical copies of the same Rbeida et al. 2023 PDF, mirrored across `babycare_03_Powder_Lotion_Oil_Diaper` and `babycare_04_Shampoo_Wipes_Sunscreen`).
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-revised` for this cite-key, applied 2026-05-18: v2.0 subagent REVISE, 5 findings, 4 applied (WHO Pb exceedance count, WHO Cd at-or-below count, inline bold removal, cross-source kohl/surma sentence removal) and 1 rejected as false positive (matrices `cosmetic-personal-care` vocabulary confirmed by ≥7 sibling source pages).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." Same-paper duplicate filesystem copies fall under the same skip rule once any one of them has produced a clean post-2026-05-14 source page.
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The babycare_03/babycare_04 folder duplication is an artefact of Karen's manual-fetch staging (the same PDF was filed into both the powder-lotion-oil-diaper and shampoo-wipes-sunscreen subfolders); deduplicating those filesystem locations is out of scope for this skill. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## rahati2026-infant-formula-baby-food-iran-health-risk (MFK_monte-carlo-simulation-approach-for-health-risk-an) — wrapper re-fed already-clean PDF
+
+**PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`
+
+**Stop reason:** PDF already processed and audited within v2 skill skip window.
+
+**Identity checks:**
+- raw_handle grep (`MFK_monte-carlo-simulation-approach-for-health-risk-an`) → hit at `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk.md`.
+- Existing page `updated: 2026-05-17`.
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-codex-revised` for this cite-key, applied 2026-05-17 (commit `b237644`): v2.0 subagent PROMOTE verdict on all 5 checks, 1 optional enhancement applied (p. 5 / Table 2 Cd-exceedance inconsistency note), 0 findings rejected; predecessor ingest fixed Co transposition, baby-food Cr/Cu/Mn/Se column-shift, Se SD, `6.86 × 10⁻⁶` → `6.84 × 10⁻⁶` typo, invalid `baby-food-grain-based` slug, `aluminium` → `aluminum`; Codex cross-vendor pass added 5 more findings (5 applied, 0 rejected) covering Table 2 SD transcriptions and explicit source-side CR (3.57 × 10⁻⁴ abstract vs 3.75 × 10⁻⁴ Table 3) and Cd contradictions.
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals (MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia) — wrapper re-fed already-clean PDF
+
+**PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`
+
+**Stop reason:** PDF already processed and audited within v2 skill skip window.
+
+**Identity checks:**
+- DOI grep (`10.1038/s41598-026-44198-w`) → hit at `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals.md`.
+- Cite-key grep on `mgbemena` → same file, confirmed.
+- Existing page `updated: 2026-05-17` (today).
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-revised` for this cite-key, applied 2026-05-17 (commit `c75d66e`): v2.0 manual-fetch merge-enhance from MFK 06_Infant_Foods_Formula; subagent REVISE verdict; 5 findings (1 ❌ + 4 ⚠️) 5 applied 0 rejected (Cr THQ misattribution to 4.2 corrected — Table 3 has no Cr column; BM Ni exceedance count 6→5; Cr highest-sample body-vs-Table-2 contradiction noted; Fe/Mn/Zn dropped from metals as nutritional not contamination; baby-food matrix dropped as non-vocab).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.

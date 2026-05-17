@@ -1,26 +1,24 @@
 # Heal-gaps report — 2026-05-17
 
-Generated: 2026-05-17T22:36:18.983Z
+Generated: 2026-05-17T23:17:25.213Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 0
+- Fixes applied: 1
 - Queued for synthesis: 0
 - Routing typo proposals: 0
-- Provisional scaffolds created: 8
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 219
+- Provisional scaffolds created: 2
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 221
+
+## Fixes applied
+
+- wiki/products/infant-formula-dairy-free.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
 
 ## Provisional scaffolds created
 
-- product/`infant-food-general` (triggered by source research2024-research-b)
-- product/`infant-porridges-dairy-free` (triggered by source trace2025-trace-element-intake-dairy-free)
-- product/`infant-formula-dairy-free` (triggered by source trace2025-trace-element-intake-dairy-free)
-- ingredient/`rice-milk` (triggered by source trace2025-trace-element-intake-dairy-free)
-- ingredient/`soy-milk` (triggered by source trace2025-trace-element-intake-dairy-free)
-- ingredient/`infant-rice-cereal` (triggered by source trace2025-trace-element-intake-dairy-free)
-- ingredient/`infant-oat-cereal` (triggered by source trace2025-trace-element-intake-dairy-free)
-- ingredient/`infant-mixed-grain-cereal` (triggered by source trace2025-trace-element-intake-dairy-free)
+- product/`infant-formula-dairy` (triggered by source research2024-research-open-access-y)
+- product/`infant-porridges-dairy` (triggered by source research2024-research-open-access-y)
 
 See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
@@ -48,4 +46,4 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
 - missing_primary_metals_of_concern: `wiki/products/butter-and-ghee.md` — no canonical analyte default for slug butter-and-ghee
-- ... and 199 more (see queue file)
+- ... and 201 more (see queue file)

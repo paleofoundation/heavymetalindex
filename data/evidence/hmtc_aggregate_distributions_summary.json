@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-17T22:44:49.743Z",
+  "generated_at": "2026-05-17T23:22:42.716Z",
   "product_filter": null,
   "metal_filter": null,
-  "cells_total": 347,
+  "cells_total": 357,
   "cells_by_verdict": {
     "READY FOR REVIEW": 34,
     "READY FOR REVIEW (regulatory cap applies)": 14,
-    "BLOCKED: no usable evidence": 232,
+    "BLOCKED: no usable evidence": 242,
     "BLOCKED: pool too thin (≥2 admitted sources required)": 41,
     "BLOCKED: sensitivity unstable across parametric assumptions": 12,
     "PROVISIONAL: review sensitivity disagreement": 14
@@ -14,15 +14,15 @@
   "cells_by_rationale": {
     "literature-baseline": 104,
     "regulatory-alignment": 11,
-    "no-data": 232
+    "no-data": 242
   },
   "cells_by_role": {
     "clean_subcategory": 59,
-    "independent_clean_by_default": 288
+    "independent_clean_by_default": 298
   },
   "sensitivity_band_distribution": {
     "stable": 72,
-    "no_data": 232,
+    "no_data": 242,
     "provisional": 21,
     "needs_review": 22
   },
