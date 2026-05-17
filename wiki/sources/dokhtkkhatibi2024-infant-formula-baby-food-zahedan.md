@@ -1,70 +1,89 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_investigation-heavy-metals-infant-formula-zahedan
 cite_key: dokhtkkhatibi2024-infant-formula-baby-food-zahedan
 title: "Investigation of heavy metal concentrations and determination of estimated daily intake and health risk index infant formula and baby foods in Zahedan in 2020"
 authors: [Aram Dokht Khatibi, Maryam Bazzi, Davoud Balarak]
 year: 2024
-publication: "Sigma Journal of Engineering and Natural Sciences"
+publication: "Sigma Journal of Engineering and Natural Sciences 42(2): 614-620"
 doi: 10.14744/sigma.2024.00047
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC 4.0"
-raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Investigation of heavy metal concentrations and health risk .pdf"
+raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Investigation of heavy metal concentrations and health risk assessment in infant formula and infant cereals in Zahedan, Iran.pdf"
 metals: [Pb, Cd]
-ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/cereals]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/baby-cereals-dry-rice-based]]"]
-matrices: [infant-formula-powder, infant-cereal, wet-weight]
+ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/infant-cereal-ingredients]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/infant-cereal]]"]
+matrices: [infant-formula-powder, infant-cereal]
 jurisdictions: [IR]
+near_duplicates: []
 sample_n: 25
-sample_population: "18 brands of powdered infant milk formula and 7 brands of baby cereals available in Zahedan, Sistan and Baluchestan Province, Iran; collected March–April 2019; Pb and Cd measured by graphite-furnace AAS"
-updated: 2026-05-13
+sample_population: "18 brands of powdered infant milk formula and 7 brands of infant cereals/baby foods collected by census from Zahedan (Sistan and Baluchestan Province, Iran) supermarkets, March-April 2019; products intended for infants 6-12 months; Pb and Cd measured by graphite-furnace AAS"
+updated: 2026-05-17
 ---
 
-# Dokht Khatibi et al. 2024 — Lead and Cadmium in Infant Formula and Baby Food, Zahedan, Iran
+# Dokht Khatibi et al. 2024 — Lead and cadmium in infant formula and infant cereals, Zahedan, Iran
 
-This 2024 paper from Zahedan University of Medical Sciences measured Pb and Cd in 18 brands of powdered infant milk formula and 7 brands of baby cereals collected in 2020 from the Zahedan market in southeastern Iran. Analytical method was graphite-furnace atomic absorption spectroscopy (AAS). Estimated daily intake (EDI) and health risk index (HRI) were computed for two age groups (0–6 months and 6–12 months).
+This Sigma Journal of Engineering and Natural Sciences paper from Zahedan University of Medical Sciences measured Pb and Cd in 18 brands of powdered infant milk formula and 7 brands of infant cereals / baby foods collected from the Zahedan market (Sistan and Baluchestan Province, southeastern Iran) in March-April 2019. Pb and Cd were quantified by graphite-furnace atomic absorption spectroscopy on dry-ashed samples. Estimated Daily Intake (EDI) and Health Risk Index (HRI) were computed for two infant age strata (0-6 months and 6-12 months) using daily-consumption assumptions of 200 g/day at 6.5 kg body weight and 100 g/day at 10 kg body weight, respectively, drawn from manufacturer feeding tables. Although the article carries a 2024 publication date, the field sampling and laboratory work were conducted in 2019-2020; the authors describe the work as a 2020 Zahedan-market survey.
 
 ## Key numbers
 
-All concentrations are wet-weight (as-sampled dry powder, µg/kg):
+Concentrations are reported on the as-sampled basis of each product (dry powder for infant formula; dry cereal for infant cereals). All values µg/kg unless otherwise noted; the paper variously reports ng/g (equivalent to µg/kg) and mg/kg; converted to µg/kg below.
 
-**Lead (Pb):**
-- Infant milk formula: mean 14.7 ± 0.98 µg/kg; detected in 100% of samples (n = 18)
-- Infant cereals: mean 13.77 ± 1.51 µg/kg; detected in 100% of samples (n = 7)
-- Individual outliers in infant formula: sample no. 2 = 49.73 ± 0.85 µg/kg; sample no. 9 = 45.27 ± 3.27 µg/kg (both significantly above mean, p < 0.05)
-- All other formula samples ranged 5.92–16.78 µg/kg; cereal samples ranged 8.51–18.16 µg/kg
+**Lead (Pb) — Table 1, p. 616:**
+- Infant milk formula (n = 18): mean 14.7 ± 0.98 µg/kg; detection frequency 100%
+- Infant cereals (n = 7): mean 13.77 ± 1.51 µg/kg; detection frequency 100%
+- Outlier infant-formula samples flagged as exceeding the Iranian/Codex 10 µg/kg permissible level with statistical significance (p < 0.05): sample no. 2 = 49.73 ± 0.85 µg/kg and sample no. 9 = 45.27 ± 3.27 µg/kg
+- Range across remaining infant-formula samples: 5.92 to 16.78 µg/kg
+- Range across infant-cereal samples: 8.51 to 18.16 µg/kg
 
-**Cadmium (Cd):**
-- Infant milk formula: mean 0.097 ± 0.016 µg/kg; detected in 22% of samples (4/18 brands); range in positive samples: 0.11–1.19 µg/kg (sample no. 4 highest at 1.19 µg/kg)
-- Infant cereals: mean 0.705 ± 0.12 µg/kg; detected in 57% of samples (4/7 brands); highest 1.80 µg/kg (sample no. 5)
+**Cadmium (Cd) — Table 1, p. 616:**
+- Infant milk formula (n = 18): mean 0.097 ± 0.016 µg/kg; detected in 22% of samples (4/18 brands); positive-sample values 0.11, 0.22, 0.24, 1.19 µg/kg (highest in sample no. 4)
+- Infant cereals (n = 7): mean 0.705 ± 0.12 µg/kg; detected in 57% of samples (4/7 brands); positive-sample values 0.26, 1.32, 1.74, 1.80 µg/kg (highest in sample no. 5)
 
-**Exposure and risk:**
-- Highest EDI for Pb: 0.226 µg/kg·day·bw for infant formula (age 0–6 months) — below Codex TDI of 1.8 µg/kg·day·bw
-- HRI for Pb and Cd in all samples and both age groups was below 1.0, indicating low non-carcinogenic risk at mean exposure
-- EDI for Cd in infant formula (0–6 months): 0.001 µg/kg·day·bw; in infant cereals: 0.010 µg/kg·day·bw — both well below Codex TDI
+**Comparison with literature (Table 2, p. 616):** Authors place their Zahedan results within the lower-to-mid range of reported Pb and Cd in infant formula across Ethiopia (Pb ND-0.103 mg/kg, Cd ND), Nigeria (Pb 0.08-0.23 mg/kg, Cd 0.05-0.4 mg/kg), Pakistan (Pb 0.0287-0.097 mg/kg, Cd 0.0042-0.0123 mg/kg), Kenya (Pb 0.018-0.059 mg/kg, Cd ND), EU market (Pb 0.0082-0.043 mg/kg, Cd 0.00033-0.00045 mg/kg), and Turkey (Pb 0.00375-0.0249 mg/kg, Cd ND-0.00749 mg/kg).
 
-**Regulatory standards applied:**
-- Codex and Iranian standard for Pb in infant formula: 10 µg/kg; in baby food: 20 µg/kg
-- Codex standard for Cd: 0 (zero tolerance cited by authors); American Public Health Association standard: 10 µg/g (note: this appears to be a mis-cited or non-standard reference; the Codex limit for Cd in infant formula as of CXS 193-2009 is 0.010 mg/kg)
-- LOD: Pb = 0.008 mg/kg; Cd = 0.0096 mg/kg
+**Exposure and risk — Table 3, p. 618:**
+- Highest EDI for Pb in infant formula at 0-6 months: 0.226 µg/kg·day·bw (below the cited TDI of 1.8 µg/kg·day·bw); at 6-12 months: 0.147 µg/kg·day·bw
+- EDI for Pb in infant cereals at 0-6 months: 0.211; at 6-12 months: 0.137 µg/kg·day·bw
+- EDI for Cd in infant formula at 0-6 months: 0.001 µg/kg·day·bw; in infant cereals at 0-6 months: 0.01 µg/kg·day·bw
+- HRI computed against safe-limit denominators reported in the paper: all sample-mean HRIs < 1 across both age strata for both Pb and Cd (Pb HRI range 0.038-0.12; Cd HRI range 0.09-0.7 as printed, with the Cd-cereals-6-12mo value of 0.7 in Table 3 appearing inconsistent with the rest of the row and likely a print-error — the authors' conclusion that all HRI < 1 at mean exposure is consistent with the EDI values shown)
+
+**Regulatory standards cited by the authors:**
+- Codex CXS 193-2009 / Iranian standard for Pb in infant formula: 10 µg/kg
+- Codex / Iranian standard for Pb in baby food: 20 µg/kg
+- Authors state Codex Cd limit for infant formula is "zero" (as quoted on p. 615); they also cite a "Codex standard" for Cd in conventional liquid milk of 10 µg/L (p. 616)
+- LOD: Pb = 8 µg/kg (0.008 mg/kg); Cd = 9.6 µg/kg (0.0096 mg/kg)
+- Matrix-spike recovery: 95.5-104.6%; five-point calibration r² = 0.998-0.9996
 
 ## Methods (brief)
 
-Ashing at 500 °C for 8 hours (dry-ashing in kiln), dissolution in 6 M HCl then 0.1 M HNO3, measurement by graphite-furnace AAS (Perkin Elmer Analyst 700). LOD = 3 × SD of six blank runs. Matrix-spike recovery: 95.5–104.6%. Calibration: five-point, r² = 0.998–0.9996. Only Pb and Cd measured; no speciation, no As, Hg, or other metals.
+Sampling: census of 18 best-selling powdered infant milk-formula brands and 7 baby-food / infant-cereal brands from Zahedan supermarkets between March and April 2019; products intended for infants 6 months to 1 year; metal sample containers preserved.
+
+Digestion: ~5 g of each product weighed into acid-washed crucibles; dry-ashed in an electric kiln (Nabertherm, Germany) by ramping to 500 °C and holding 8 h; ash dissolved in 10 mL of 6 M HCl on a 100 °C heater for 1 h to dryness; reconstituted in 10 mL of 0.1 M HNO3.
+
+Quantification: graphite-furnace atomic absorption spectroscopy on a PerkinElmer A Analyst 700; analytical-grade reagents (Merck, Germany); 1000 mg/L Pb and Cd standards; five-point calibration curve (r² 0.998-0.9996); matrix-spike recovery 95.5-104.6%; LOD computed as 3 × pooled SD of six blank runs.
+
+Only total Pb and total Cd were quantified; no speciation, no As, Hg, Al, Ni, or other metals.
+
+Exposure assessment: EDI = (concentration × daily consumption) / body weight, with manufacturer-suggested daily consumption of 200 g/day at 6 months (body weight 6.5 kg) and 100 g/day at 7-12 months (body weight 10 kg). HRI computed as mean daily intake divided by the safe-limit value for each metal. Statistical analysis: one-way ANOVA + Tukey post-hoc at 95% confidence (SPSS v20).
 
 ## Implications
 
-Certification: Mean Pb in Iranian infant formula (14.7 µg/kg) and cereals (13.77 µg/kg) exceeds the Codex/Iranian permissible level for infant formula (10 µg/kg) on a mean basis, driven by two outlier formula brands at ~45–50 µg/kg. No regulatory exceedance was reported by the authors, who compared mean EDI to TDI rather than comparing measured concentrations to the 10 µg/kg product limit directly; this discrepancy between the product-level standard and the mean concentration merits attention. HMT&C comparison should note that even excluding outliers, most formula brands fall 5.9–16.8 µg/kg for Pb, straddling or exceeding the 10 µg/kg product limit. Cd values are low and consistent with other infant formula literature.
+This paper contributes Pb and Cd occurrence data for two product categories — powdered infant milk formula and infant cereals — in the Iranian market (Sistan and Baluchestan Province), useful for the [[products/infant-formula-powder]] and [[products/infant-cereal]] product-page synthesis passes. The 100% detection frequency for Pb across both product categories and the two outlier infant-formula brands at ~45-50 µg/kg are the most notable findings. The narrow Pb-Cd analyte scope (no As, Hg, Al, Ni speciation) limits the paper's contribution to single-metal occurrence rows.
 
-Courses: Illustrates regional variation in infant formula Pb contamination. Iranian market context suggests raw milk contamination (local traffic/industrial Pb loading) and possible equipment contamination as drivers. The desiccation-concentration effect noted in the discussion is relevant to understanding dry-powder concentration vs. liquid-equivalent.
+The authors' regulatory framing compares the sample-mean EDI against Codex TDI/PTWI rather than comparing per-sample Pb concentrations against the Codex 10 µg/kg product-level maximum for infant formula; this is the authors' analytical choice, not a wiki-side claim.
 
-App: Pb signal in Iranian infant formula is notably higher than EU/US benchmarks. Cd is low. Geographic origin matters; sourcing from Sistan and Baluchestan should be flagged as a higher-Pb region.
+## Verification notes
 
-## Wiki pages updated on ingest
-
-- [[products/infant-formula-powder]]
-- [[products/infant-cereal]]
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[ingredients/infant-formula]]
+- 2026-05-17 merge-enhance pass (Claude Code, manual-fetch ingest cycle): predecessor page (updated 2026-05-13) had the following defects, all fixed in this revision:
+  - `raw_handle: manual-fetch-kimi` (legacy placeholder) → `MFK_investigation-heavy-metals-infant-formula-zahedan`
+  - `raw_path` truncated to `Investigation of heavy metal concentrations and health risk .pdf` → full filename `Investigation of heavy metal concentrations and health risk assessment in infant formula and infant cereals in Zahedan, Iran.pdf`
+  - `matrices` contained the non-vocabulary slug `wet-weight` (basis is not a matrix); removed. Native basis (as-sampled dry powder / dry cereal) clarified in body.
+  - `products: [[products/baby-cereals-dry-rice-based]]` was an invented/overspecified slug — the paper does not characterize the cereal samples as rice-based vs non-rice and reports them generically as "baby food" / "infant cereals". Routed to the umbrella `[[products/infant-cereal]]` instead, per Part 5b broad-scope rule.
+  - `ingredients: cereals` (generic) → `[[ingredients/infant-cereal-ingredients]]` for precision.
+  - `## Implications` previously contained Part 2 wiki/HMTc-firewall violations ("HMT&C comparison should note that...") and consumer-audience translations ("Geographic origin matters; sourcing from Sistan and Baluchestan should be flagged as a higher-Pb region"). Both removed; replaced with neutral occurrence-data framing.
+  - `## Wiki pages updated on ingest` legacy heading removed (superseded by routing audit).
+- The paper publication year (2024) reflects the journal volume; underlying field/lab work was 2019-2020. Both dates are stated up front in the page intro.
+- The Cd-cereals HRI value of 0.7 at 6-12 months in Table 3 (p. 618) is internally inconsistent with the other HRI cells (all 0.04-0.12) and with the corresponding EDI of 0.007 µg/kg·day·bw shown in the same column; treated here as a probable print-error and flagged in Key numbers rather than propagated as a contamination signal.
+- Authors' citation of the "Codex standard" for cadmium as "zero" (p. 615) does not correspond to any active Codex CXS 193-2009 maximum level for cadmium in infant formula. The wiki page reports the authors' framing without endorsing the underlying claim; downstream regulation-page synthesis should use the regulation pages, not this paper, as the source of record for Codex Cd limits.
