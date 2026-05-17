@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: non-root-vegetable-purees
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-17T18:44:36.034Z
+generated_at: 2026-05-17T19:24:38.998Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -225,17 +225,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `12b6523e76084a7665ce246874ef37b535e9ca72` in the heavymetalindex.com repository.
+1. Checking out commit `5ed8239c5515cae56c21563872a3fb36a6b3390f` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=non-root-vegetable-purees` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-17T18:44:36.043Z |
+| Generated at | 2026-05-17T19:24:39.007Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `12b6523e76084a7665ce246874ef37b535e9ca72` |
+| Git commit | `5ed8239c5515cae56c21563872a3fb36a6b3390f` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

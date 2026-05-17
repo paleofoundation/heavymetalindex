@@ -143,3 +143,25 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 5b (routing audit signals synthesis, not model intent), Part 9 (synthesis trigger is second source), Part 18 (lint extends to pool quality), [[project_order_of_operations.md]] Phase 1 (ingest prioritization feeds from gap analysis).
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### **Automate synthesis triggers for cells with routed evidence**
+
+**What:** Build a synthesis-queue audit and batch orchestrator that identifies (ingredient/product, metal) cells with 2+ routed sources but no synthesis entry, then run initial-population synthesis on those cells to move them from blocked → populated state.
+
+**Why this lever now:** The snapshot shows 286 blocked cells against 926 ingested sources. The routing audit is working (sources are being connected to pages), but synthesis—which turns routed evidence into `contamination_profile` entries—is not being triggered automatically. This creates a widening gap between what we've collected and what the wiki surface can express. Unblocking these 286 cells via deterministic synthesis orchestration scales the workflow from ad-hoc (Karen or Claude manually runs synthesis) to threshold-driven per Part 9's own trigger rules. This cascades: synthesis completion unblocks ingredient-page coverage audits (Part 18), enables downstream lint checks, and exposes which cells need source-hunting to stabilize pooling (the 12 sensitivity-unstable cells).
+
+**Where:**
+- New audit: `tools/autonomy/audit-synthesis-queue.mjs` — reads `data/evidence/product_source_routing_audit.csv`, cross-references `contamination_profile` entries on each ingredient/product page, emits `data/evidence/autonomy/synthesis-queue-eligible.csv` with [page_slug, page_type, metal, routed_source_count, current_status].
+- New orchestrator: `tools/autonomy/run-bulk-synthesis.mjs` — processes eligible rows (2+ sources, no `populated` entry), reads source pages from routing audit, computes initial `typical_ppb`/`p95_ppb`/`confidence: low`, updates page frontmatter, writes event to `data/evidence/review_events.jsonl`, commits batch.
+
+**How:**
+1. Run `audit-synthesis-queue.mjs` to enumerate eligible cells.
+2. Filter for `current_status: pending` AND `routed_source_count >= 2`.
+3. For each row, look up the routed sources via the routing audit, read their `contamination_profile` metal sub-blocks, compute initial-population metrics per Part 9 step 1.
+4. Write synthesis entries to the target page's `contamination_profile`, update `last_reviewed` timestamp, commit batch with row counts and any flagged contradictions.
+
+**Anchors:** Part 9 (synthesis trigger rules: "cell has accumulated a second contributing source") / Part 18 (ingredient coverage asymmetry lint will pass once cells cross `pending` → `populated`) / [[feedback_no_approval_gates]] (synthesis runs without approval; contradictions are flagged, not held for review)
+
+---

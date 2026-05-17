@@ -95,3 +95,30 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: PDF already processed and audited within v2 skill skip window (rahati2026-infant-formula-baby-food-iran-health-risk, updated 2026-05-17, audit-queue status audited-codex-revised).
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: already-audited-post-2026-05-14 mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals
+
+## Tick 2026-05-17T18:18:33.357Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Succeeded
+- `scher2010-toy-migration-limits-opinion` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Evaluation_of_the_migration_limits_for_chemical_elements_in_toys_SCHER_Opinion.pdf)
+- `xiong2025-heavy-metals-infant-clothing` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Heavy_Metals_in_Infant_Clothing_Assessing_Dermal_Exposure_Risks_and_Pathways_for_Sustainable_Textil.pdf)
+- `bashir2025-heavy-metals-cosmetics-kashmir` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Heavy_metal_in_cosmetics_and_its_risk_to_future_generation_in_remote_area_of_Azad_Jammu_and_Kashmir.pdf)
+- `nencioni2026-zeolite-cream-metal-adsorption` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/In_Vitro_Analysis_of_Heavy_Metal_Adsorption_by_Zeolite_Skin_Care_Formulations_Using_a_Quality_by_Des.pdf)
+
+### Failed
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Health_risks_from_heavy_metals_in_cosmetic_products_available_in_the_online_consumer_market.pdf`: unrecognized final line: "Existing page at `wiki/sources/kicinska2025-cosmetics-online-market-heavy-metals.md` was merge-enhanced (license corrected `CC BY 4.0` → `CC BY-NC-ND 4.0`; products list corrected from `[face-paint, lipstick, childrens-makeup]` — a pre-Cat-2-Step-0-Lock artifact — to what the paper actually measured: `[makeup-foundation-powders-blush, face-neck-leave-on-skin-care, lipstick, eye-makeup]`; Key numbers expanded with SED/MoS/HQ/HI/LCR/QRA/EDI tables). Fresh-context audit returned REVISE; 3 findings applied (Iwegbue comparison typo fix; source-internal AEL/CEL inconsistency flagged in Verification notes so synthesis doesn't propagate the unsupported "no-risk" claim for lipstick/eyeshadow; author-attribution tightened in Implications), 2 rejected as taxonomy-snapshot-staleness false positives. Routing clean (1 advisory-only entry — expected for cosmetic-finished-product papers with empty ingredients). Three commits: 08b2149 (ingest), eb714c6 (audit application), 12b6523 (audit-queue update)."
+
+## Tick 2026-05-17T19:19:33.042Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already ingested, Codex-audited, and subagent-audited (PROMOTE) on 2026-05-17; page is post-2026-05-14 clean and absent from routing_malformed/unresolved — no work to do this cycle.
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: already-ingested-and-audited-today (mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals, commit c75d66e, audited-revised); v2 skip-window rule applies; stops file already documents this PDF twice today (suggested-handle/canonical-raw_handle mismatch is causing wrapper re-discovery).
