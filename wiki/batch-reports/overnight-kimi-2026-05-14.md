@@ -5,6 +5,7 @@ scope: kimi-manual-fetch (remaining categories) + Papers Cube Manual Fetch
 source_pages_created: 126
 source_pages_skipped: ~55
 commits: overnight catch-up 472d023, merge 91da616, autonomy commits 1acdb27/0aa1131/7425e1a
+noindex: true
 ---
 
 # Overnight Ingest Report — 2026-05-14

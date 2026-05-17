@@ -109,6 +109,8 @@ function buildPage(cat, sub) {
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category ${cat.n} (${cat.name}), Row ${sub.row}: **${sub.name}**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of \`products: [${sub.slug}]\`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
+## Who this page is for
+
 ${STAKEHOLDER_BLOCK_TEMPLATE.replace(/<ROWNAME>/g, sub.name)}
 
 ## Methodology

@@ -20,6 +20,8 @@ updated: 2026-05-17
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 10 (Infant and Child Durable Goods and Textiles (Ages 0-5)), Row 5: **Swings and bouncers**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [swings-and-bouncers]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
+## Who this page is for
+
 <dl class="hmi-stakeholder-guide">
   <div>
     <dt>Brand legal teams</dt>

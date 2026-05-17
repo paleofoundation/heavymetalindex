@@ -20,6 +20,8 @@ updated: 2026-05-17
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 17 (Pet Foods), Row 9: **Milk replacers and specialty pet liquids**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [pet-milk-replacers-specialty-liquids]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
+## Who this page is for
+
 <dl class="hmi-stakeholder-guide">
   <div>
     <dt>Brand legal teams</dt>

@@ -2,6 +2,7 @@
 type: lint-audit
 title: "Critical comparison layer ingest audit"
 updated: 2026-05-01
+noindex: true
 ---
 
 # Critical Comparison Layer Ingest Audit

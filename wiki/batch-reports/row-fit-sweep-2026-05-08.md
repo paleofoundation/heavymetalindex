@@ -7,6 +7,7 @@ status: read-only-sweep
 scope: wiki/products/*.md
 rule_source: CLAUDE.md Part 6 (line 390 — row-fit determination rule)
 audience: [curator]
+noindex: true
 ---
 
 # Row-Fit Re-Sweep — 2026-05-08

@@ -4,6 +4,7 @@ title: "Broad lint pass — 2026-05-04"
 audience: [researcher, regulator, app, editorial]
 updated: 2026-05-04
 sources: 0
+noindex: true
 ---
 
 # Broad lint pass — 2026-05-04

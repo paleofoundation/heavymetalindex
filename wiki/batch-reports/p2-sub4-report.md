@@ -1,3 +1,7 @@
+---
+noindex: true
+---
+
 # P2 Sub-batch 4 Ingest Report
 **Date:** 2026-05-12  
 **Batch:** 50 papers from P2 tier  

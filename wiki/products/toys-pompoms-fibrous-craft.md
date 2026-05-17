@@ -20,6 +20,8 @@ updated: 2026-05-17
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 21 (Children's Toys, Arts, and Crafts), Row 16: **Pompoms and similar small fibrous craft items**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [toys-pompoms-fibrous-craft]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
+## Who this page is for
+
 <dl class="hmi-stakeholder-guide">
   <div>
     <dt>Brand legal teams</dt>

@@ -4,6 +4,7 @@ title: "Category 5 plant-milk corpus pilot audit"
 audience: [researcher, regulator, standards-development]
 updated: 2026-05-01
 sources: 3
+noindex: true
 ---
 
 # Category 5 Plant-Milk Corpus Pilot Audit

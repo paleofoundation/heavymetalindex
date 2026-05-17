@@ -5,6 +5,7 @@ audience: [researcher]
 updated: 2026-04-28
 op: source-discovery
 handle: category-1-source-candidate-queue
+noindex: true
 ---
 
 # Category 1 Source Candidate Queue

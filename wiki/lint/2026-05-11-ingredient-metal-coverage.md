@@ -8,6 +8,7 @@ fully_addressed: 17
 mixed_state_lint_failures: 110
 schema_issues: 10
 missing_body_table: 127
+noindex: true
 ---
 
 # Ingredient metal-coverage audit
