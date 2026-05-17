@@ -12,7 +12,7 @@ evidence_tier: B
 license: "CC BY"
 raw_path: raw/markdown/FM_11502587/FM_11502587.md
 metals: [Cd]
-ingredients: ["[[ingredients/honey]]", "[[ingredients/herbal-botanicals]]"]
+ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
 matrices: [honey, bee-pollen, bee-body-tissue]
 jurisdictions: [EU, global]
@@ -24,16 +24,16 @@ updated: 2026-05-13
 
 # Knoll and Cappai 2024 — Honey bee foraging and cadmium exposure: review
 
-This comprehensive review synthesizes the literature on the pathway by which environmental cadmium enters honey bee (Apis mellifera) colonies through foraging activity and ultimately appears in honey and bee products consumed by humans. The paper traces the chain from soil Cd pollution sources through plant uptake into pollen and nectar, to bee foraging behavior, Cd accumulation in bee body tissues, and carryover into honey. Bees are presented both as sensitive environmental Cd bioindicators and as vectors by which Cd reaches the human food chain through honey consumption.
+This comprehensive review synthesizes the literature on the pathway by which environmental cadmium enters honey bee (Apis mellifera) colonies through foraging activity and can appear in honey and other bee products consumed by humans. The paper traces the chain from soil Cd pollution sources through plant uptake into pollen and nectar, to bee foraging behavior, Cd accumulation in bee tissues, and potential carryover into honey. Bees are presented both as sensitive environmental Cd bioindicators and as a possible route by which Cd reaches the human food chain through honey consumption.
 
 ## Key numbers
 
-- LD50 for oral Cd exposure in adult honey bees: 3.51 µg/bee (cadmium chloride, 48-hour acute toxicity test).
-- LC50 for Cd in honey bee larvae: 0.275 mg/L — larvae are substantially more sensitive than adults.
-- Cd concentrations in honey from Cd-contaminated agricultural areas exceed background levels in honey from unpolluted zones, with the review documenting a statistically significant spatial correlation between soil Cd levels and honey Cd content in multiple European and Asian studies.
-- Forager bees accumulate Cd primarily in body fat and cuticle; workers near smelters or heavily fertilized cropland show body Cd burdens 5–10× background.
-- Pollen collected near Cd-contaminated soils can contain Cd at concentrations that approach or exceed EU maximum levels for food (0.050 mg/kg fresh weight for honey under EU Regulation 2023/915 framework context); specific values vary by study and region cited in the review.
-- Seasonal patterns documented: spring and early summer pollen loads carry higher Cd in some regions, attributed to early-season soil Cd mobility.
+- Environmental baseline context: global soil Cd concentration in natural ecosystems is estimated at 0.07-1.1 mg/kg; annual natural Cd emission is reported at 1,300-41,000 tons; Cd half-life in plants and animals is approximately 25-30 years.
+- Adult honey bee oral LD50 values reported from Cronn: CdCl2 3.51 µg Cd/bee at 48 h and 2.80 µg Cd/bee at 96 h; CdSO4 2.34 µg Cd/bee at 48 h and 1.44 µg Cd/bee at 96 h.
+- Forager honey bee LC50 reported by Di et al.: 78 mg/L Cd in 50% sucrose solution.
+- Honey bee larvae: reduced growth starting at 1.05 mg/L Cd, significantly lower pupal weight at 3.16 mg/L Cd, 100% mortality at 9.47-28.41 mg/L Cd, and LC50 0.275 mg/L.
+- Some adult-bee studies reported no lethal effects at 0.001-0.1 mg/L over 2-10 days, while environmentally realistic Cd-contaminated sucrose at 0.01-0.1 mg/L upregulated antioxidant-response genes (Cat, Sod1, Sod2).
+- Spatial/seasonal pattern: the review cites higher Cd burdens in bees from industrial, urban, mining, agricultural, and some rural contexts; deposited airborne particles were higher in winter in one cited monitoring study, while non-essential element concentrations in bees have also been shown higher during spring and summer when foraging activity is greatest.
 
 ## Methods (brief)
 
@@ -41,13 +41,18 @@ Narrative review methodology. No primary data collection. Synthesizes published 
 
 ## Implications
 
-Certification: Provides mechanistic and empirical basis for treating honey and bee pollen as food matrices of concern for Cd; the review supports including honey in HMT&C product scope where bee pollen or honey ingredients appear in product formulations.
+Certification: Provides mechanistic and empirical basis for treating honey and bee pollen as food matrices relevant to Cd exposure review. The review supports Cd as the primary analyte to track when honey or bee-derived ingredients appear in food formulations.
 Courses: Useful for supply-chain modules illustrating how soil Cd enters the food chain via non-crop vectors (bees/pollination products); also illustrates spatial biomonitoring using bee products as passive samplers.
-App: Honey ingredient page should flag Cd as the primary metal of concern given this review's explicit food-chain linkage; bee pollen and propolis products share the same exposure pathway.
-Microbiome: Not applicable directly, but Cd disrupts gut microbiota; relevant if a honey-gut-microbiome interaction page is developed.
+App: Can inform qualitative Cd concern for honey and bee-derived ingredients where ingredient-level risk context is needed; the review does not provide a pooled honey concentration distribution.
+Microbiome: Not directly applicable.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/cadmium]]
 - [[ingredients/honey]]
-- [[supply-chain/soil-contamination]]
+- [[products/honey]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) removed unsupported numeric/regulatory claims about EU honey limits, 5-10x body burdens, and pollen concentrations approaching food maximum levels; replaced them with source-supported LD50/LC50, environmental baseline, larval-effect, and seasonal/spatial pattern values from the review. Removed the unrelated `herbal-botanicals` ingredient route and invalid `supply-chain/soil-contamination` wikilink, modernized the source-touch heading, and tightened HMTc/app language.
+- `bee-pollen` and `bee-body-tissue` are retained as source-specific matrix terms because the common matrix list does not yet include bee-product or bee-tissue matrices. Potential future slugs for Karen if this evidence cluster grows: bee pollen/propolis/beeswax product or ingredient routes.
