@@ -29,7 +29,7 @@ This JESEE paper develops a high-throughput model for predicting chemical migrat
 ## Key numbers
 
 - Dataset: n=437 experimental migration rates from 18 published studies; 66 chemical-material combinations (60 chemicals × 5 materials: PVC, polypropylene PP, ethylene-vinyl acetate EVA, silicone, wood).
-- Migration rate range (Fig. 1): 1.7 × 10⁻⁶ µg/10 cm²/min for brominated flame retardant BDE-183 to 32.7 µg/10 cm²/min for plasticizer dibutyl phthalate (DBP) in PVC; over 7 orders of magnitude.
+- Migration rate range (Fig. 1): 1.7 × 10⁻⁶ µg/10 cm²/min for brominated flame retardant BDE-183 in PP to 32.7 µg/10 cm²/min for plasticizer dibutyl phthalate (DBP) in PVC; over 7 orders of magnitude.
 - Two age-group exposure scenarios (Table 2): 3-<6 months body weight 7.4 kg; 2-<3 years body weight 13.8 kg. Pacifier average mouthing duration 3.4 min/h (infants), 1.8 min/h (toddlers); 99th-percentile 37.3 / 46.3 min/h. Doll mouthing average 0.5 / 0.4 min/h; 99th-percentile 2.5 / 2.9 min/h.
 - Predicted mouthing exposure doses (E_mouthing, µg/kg_bw/d): range 4 × 10⁻⁸ to 252 µg/kg_bw/d. DBP in PVC dolls 21.7-253 µg/kg_bw/d; propylparaben in EVA pacifiers 5.8-224 µg/kg_bw/d.
 - Hazard quotients (HQ = E_mouthing / RfD): average scenario 3 of 437 data points exceeded HQ=1 (2,2,4-Trimethyl-1,3-pentanediol diisobutyrate HQ=1.25; diisononyl cyclohexane-1,2-dicarboxylate HQ=1.06 both in PVC dolls; propylparaben HQ=1.39 in EVA pacifiers). Upper-bound mouthing scenario 70 combinations exceeded HQ=1 for 3-<6 mo, 58 for 2-<3 yr.
@@ -54,3 +54,5 @@ Systematic literature review of chemical migration rates from children's product
 
 - No heavy-metal occurrence data. `metals: []` is correct.
 - Mouthing-duration values (3.4, 1.8 min/h pacifier average; 37.3, 46.3 min/h 99th percentile) are reusable for any metal-mouthing exposure calculation.
+- Audit subagent (2026-05-17) added "in PP" matrix attribution to the BDE-183 lower-bound migration rate per p. 96 col 2 of the source ("for the brominated flame retardant 2,2',3,4,4',5',6-heptabromodiphenyl ether (BDE-183...) in PP to 32.7 µg/10 cm²/min..."). Applied.
+- Audit subagent (2026-05-17) flagged the E_mouthing,pred lower bound "4 × 10⁻⁸" as wrong, claiming the source says "8 × 10⁻⁸"; verified against PDF p. 99 col 2 — the source clearly reads "E_mouthing,pred = 4 × 10⁻⁸ to 252 µg/kgBW/d." Finding was a false positive (OCR misread of "4" as "8"). Wiki value retained.
