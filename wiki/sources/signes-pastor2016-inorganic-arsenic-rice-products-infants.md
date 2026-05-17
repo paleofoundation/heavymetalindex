@@ -50,15 +50,15 @@ Rice cereals (n=53, 6 manufacturer codes M006–M011):
 - ΣAs range: 0.042 – 0.396 mg/kg
 - Asi percentage: 14.2 – 89.6 %
 - Asi range: 0.008 – 0.323 mg/kg
-- ~2% of rice cereal samples above the JECFA Asi maximum
+- 2% of rice cereal samples above the JECFA Asi maximum
 - One manufacturer (code M009) had a higher Asi median (0.234 mg/kg, p<0.001) — up to 1.6× the JECFA maximum
 - DMA range: 0.005 – 0.082 mg/kg; MMA range: 0.001 – 0.003 mg/kg
 
-Rice crackers (n=97, 15 manufacturer codes spanning M001, M005–M021):
+Rice crackers (n=97, 15 manufacturer codes — M001, M005, M006, M009, M011, M012, M013, M014, M015, M016, M017, M018, M019, M020, M021):
 - ΣAs range: 0.019 – 0.246 mg/kg
 - Asi percentage: 71.1 – 100 % (rice crackers showed the highest Asi proportion of the three product types)
 - Asi range: 0.019 – 0.212 mg/kg
-- ~1% of rice cracker samples above the JECFA Asi maximum
+- 1% of rice cracker samples above the JECFA Asi maximum
 - Highest-Asi brand (single manufacturer) median 0.205 mg/kg (p<0.001)
 - DMA range: 0.001 – 0.172 mg/kg
 
@@ -81,14 +81,14 @@ Within-category Asi differences for organic vs non-organic were significant for 
 
 | Product category | Market | n | Asi median (range) | DMA median (range) | MMA median (range) | ΣAs median (range) | Total As median (range) | Asi % (range) |
 |---|---|---:|---|---|---|---|---|---|
-| Baby rice | US FDA 2014 | 85 | 0.114 (0.039 – 0.254) | 0.071 (0.015 – 0.204) | 0.003 (0.001 – 0.012) | 0.215 (0.111 – 0.262) | 0.200 (0.060 – 0.373) | 65.5 (22.0 – 82.9) |
+| Baby rice | US FDA 2014 | 85 | 0.114 (0.039 – 0.254) | 0.071 (0.015 – 0.204) | 0.003 (0.001 – 0.012) | 0.215 (0.550 – 0.341) [sic — source typo; total-As bounds 0.060–0.373 indicate likely intended ΣAs range upper bound is ~0.341] | 0.200 (0.060 – 0.373) | 65.5 (22.0 – 82.9) |
 | Baby rice | UK present study | 29 | 0.121 (0.056 – 0.268) | 0.041 (0.003 – 0.123) | 0.001 (0.001 – 0.004) | 0.175 (0.084 – 0.334) | — | 69.8 (51.4 – 84.6) |
 | | p-value |  | 0.235 | 0.001 | 0.002 | 0.028 | — | 0.676 |
 | Rice cereals | US FDA 2014 | 105 | 0.091 (0.023 – 0.283) | 0.042 (0.007 – 0.493) | 0.001 (0.001 – 0.014) | 0.135 (0.041 – 0.625) | 0.132 (0.050 – 0.723) | 63.0 (18.8 – 87.7) |
 | Rice cereals | UK present study | 53 | 0.075 (0.008 – 0.323) | 0.037 (0.005 – 0.081) | 0.001 (0.001 – 0.004) | 0.119 (0.042 – 0.396) | — | 70.6 (14.2 – 89.6) |
 | | p-value |  | 0.096 | 0.004 | 0.590 | 0.005 | — | 0.077 |
 | Rice crackers | US FDA 2014 | 199 | 0.079 (0.008 – 0.273) | 0.034 (0.001 – 0.477) | 0.001 (0.001 – 0.021) | 0.116 (0.012 – 0.657) | 0.121 (0.009 – 1.931) | 65.1 (18.4 – 97.6) |
-| Rice crackers | UK present study | 97 | 0.111 (0.018 – 0.211) | 0.025 (0.001 – 0.172) | 0.001 (0.001 – 0.006) | 0.141 (0.019 – 0.328) | — | 80.9 (44.8 – 100.0) |
+| Rice crackers | UK present study | 97 | 0.111 (0.018 – 0.201) | 0.025 (0.001 – 0.172) | 0.001 (0.001 – 0.006) | 0.141 (0.019 – 0.328) | — | 80.9 (44.8 – 100.0) |
 | | p-value |  | 0.011 | <0.001 | 0.224 | 0.153 | — | <0.001 |
 
 UK rice crackers had significantly higher Asi than US rice crackers (median 111 vs 79 µg/kg, p=0.011); UK and US baby rice and rice cereals did not differ significantly in Asi. UK samples consistently had a higher Asi proportion of total speciated As, attributed by the authors to lower DMA in UK rice (geographic/cultivar effects on As speciation).
@@ -124,7 +124,7 @@ All three scenarios fall within the EFSA (2009) BMDL01 range of 0.3 – 8 µg As
 
 UK-market sampling: 179 rice-based products purchased Feb 2014 – Mar 2016 from 36 UK food retailers (15 local shops + 21 supermarkets) — duplicate samples of the same product and brand were always purchased from different retailers. Manufacturers were assigned anonymous codes M001 – M021. Three product categories: baby rice (n=29), rice cereals (n=53), rice crackers (n=97).
 
-Sample preparation: freeze-dried, then powdered to nominal homogeneity using a Retsch PM100 rotary ball-mill with zirconium-oxide-lined vessel and zirconium-oxide grinding balls. 0.1 g aliquots digested in 10 mL 1 % Aristar nitric acid (overnight rest, then microwave digestion on a CEM MARS 6 in batches of 30 samples — three-stage slow heating: 55 °C/5 min hold/5 min, 75 °C/5 min/10 min, 95 °C/5 min/30 min). 1 mL aliquot transferred to 2 mL polypropylene vial; 10 µL analytical-grade H₂O₂ added to convert arsenite to arsenate prior to chromatography.
+Sample preparation: freeze-dried, then powdered to nominal homogeneity using a Retsch PM100 rotary ball-mill with zirconium-oxide-lined vessel and zirconium-oxide grinding balls. 0.1 g aliquots digested in 10 mL 1 % Aristar nitric acid (overnight rest, then microwave digestion on a CEM MARS 6 in batches of approximately 30 samples — three-stage slow heating program: ramp to 55 °C in 5 min and hold 10 min; ramp to 75 °C in 5 min and hold 10 min; ramp to 95 °C in 5 min and hold 30 min). 1 mL aliquot transferred to 2 mL polypropylene vial; 10 µL analytical-grade H₂O₂ added to convert arsenite to arsenate prior to chromatography.
 
 Speciation analytical chain: Thermo Scientific IC5000 ion chromatography system with a Thermo AS7 2 × 250 mm column and Thermo AG7 2 × 50 mm guard column, ammonium-carbonate gradient mobile phase (A: 20 mM NH₄CO₃; B: 200 mM NH₄CO₃; gradient program detailed in §2.2), interfaced to a Thermo iCAP Q ICP-MS monitoring m/z 75 with He collision-cell gas to suppress argon-chloride interference. Authentic standards run for DMA, Asi (arsenate form), MMA, tetramethylarsonium (TETRA), and arsenobetaine (AB); presence under each chromatographic peak calibrated using a DMA concentration series.
 
@@ -189,3 +189,22 @@ Enhanced 2026-05-17 from the prior 2026-05-07 revision under the v2.0 manual-fet
 12. **Speciation flagging clarified.** The paper directly speciates Asi, DMA, MMA via HPLC–ICP-MS. `metals:` correctly includes both `iAs` and `tAs`. Methods section explicitly notes that the UK rows report ΣAs (speciation sum) while the US FDA rows additionally have an acid-digested total-As column.
 
 Preserved from prior revision: `cite_key`, `doi`, `evidence_tier`, `license`, `access_url`, `pdf_url`, `raw_sha256`.
+
+### Audit application (2026-05-17)
+
+Fresh-context audit subagent verdict: REVISE. Each ❌/⚠️ finding independently verified by re-reading Table 1, Table 2, Table 3, and the relevant prose against the source PDF. Applied:
+
+- **Manufacturer-code listing for rice crackers corrected.** Previously written as "spanning M001, M005–M021" which implied a contiguous range. Source Table 1 rice-cracker section lists 15 codes: M001, M005, M006, M009, M011, M012, M013, M014, M015, M016, M017, M018, M019, M020, M021 — non-contiguous. Replaced with the full list.
+- **"~2%" / "~1%" hedges removed.** Source §3.2 and §3.3 state "2% of the rice cereal samples" and "1% of the rice crackers samples" without hedging. Wiki now matches exact source wording.
+- **Table 3 baby-rice US ΣAs range corrected.** Wiki previously wrote "(0.111–0.262)" — this value does not appear in Table 3; it was a transposition from Table 2's baby-rice organic-milled ΣAs cell. Source Table 3 prints "0.215 (0.550–0.341)" — itself an apparent source typo where the range upper bound (0.341) is less than the lower (0.550). Page now matches the source typo and flags it inline with `[sic]` and a likely-intended-value note keyed to the total-As column bounds.
+- **Table 3 rice crackers UK Asi range corrected.** Source Table 3 prints "(0.018–0.201)"; wiki previously transcribed "(0.018–0.211)" — a one-digit transposition in the upper bound. Fixed.
+- **Methods microwave-heating program clarified.** Source §2.1 describes three ramp/hold pairs: 55 °C ramp 5 min + 10 min hold; 75 °C ramp 5 min + 10 min hold; 95 °C ramp 5 min + 30 min hold. Wiki's prior compressed notation incorrectly implied a 5-min hold at 55 °C. Rewritten as full ramp-and-hold sentence.
+
+Audit findings reviewed and not applied (false positives — disproved by direct source re-read):
+
+- **Table 2 baby-rice organic-milled n=9 Asi range.** Audit claimed the wiki's "(0.024–0.120)" should be "(0.087–0.141)" and that (0.024–0.120) was the DMA range for that row. Source verification: the Table 2 DMA column for organic-milled baby rice (n=9) shows a dash "—" (DMA not reported), and the Asi column directly reads "0.107 (0.024–0.120)". The audit's (0.087–0.141) value does not appear anywhere in Table 2; the audit appears to have hallucinated it. Wiki value is correct per the source table.
+- **Table 2 rice-crackers non-organic whole-grain n=2 Asi range.** Audit claimed "(0.018–0.211)" should be "(0.018–0.245)". Source Table 2 row for non-organic whole-grain rice crackers (n=2): Asi 0.081 (0.018–0.211), ΣAs 0.098 (0.018–0.245). The audit conflated the Asi and ΣAs column values. Wiki value matches the Asi column correctly.
+- **Table 2 rice-crackers organic whole-grain n=52 Asi median.** Audit claimed wiki's "0.121 (0.048–0.195)" should be "0.150 (0.06–0.328)" — same false-positive pattern. Source Table 2 row: Asi 0.121 (0.048–0.195), ΣAs 0.150 (0.06–0.328). Wiki value matches the Asi column correctly. (This is also the value the paper's §3.3 prose cites for the organic-vs-non-organic Asi comparison in rice crackers, providing internal corroboration.)
+- **Baby rice "highest-Asi manufacturer (single brand) median 0.190 mg/kg" framing.** Audit flagged this as an attribution concern but then confirmed both the 0.190 value and the source attribution. The wiki framing correctly distinguishes Asi-concentration ranking (where M005 alone is highest) from Asi-percentage ranking (where M001/M003/M005 are jointly elevated). Not a correction; kept as written.
+
+Audit Checks 2, 3, 4, 5 returned ✅ or only minor ⚠️ already addressed above. Page is post-audit consistent with the source for all transcribed numerical values; the one remaining `[sic]` annotation surfaces a source-internal typo that Karen / downstream reviewers should be aware of.
