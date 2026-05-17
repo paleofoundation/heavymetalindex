@@ -70,10 +70,10 @@ _Public-record regulatory events for this product category will be summarized he
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles et al. 2023]]. *Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk*, International Journal of Environmental Research and Public Health 20:531 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles et al. 2023]]. *Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk*, International Journal of Environmental Research and Public Health 20:531 | 2023 | Peer-reviewed | BR/US Al, tAs, Cd, Cr, Cr-VI, Ni, Pb, Sb, Sn occurrence in 95 samples of face paints (n=90) and pancakes (n=5) purchased at the largest high-street commercial center in São... (n=95) |
+| 2 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
 <!-- END: hmi-source-legend -->
