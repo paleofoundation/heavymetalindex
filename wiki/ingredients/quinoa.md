@@ -7,81 +7,81 @@ aliases: [Chenopodium quinoa, Andean grain, pseudocereal]
 category: pseudocereal
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [40, 1070]
+    p95_ppb: 1540
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [20, 300]
+    p95_ppb: 750
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [60, 60]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [andean-soil-geochemistry, mining-impacted-watersheds, irrigation-water, cultivar, altitude]
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 6
 ---
 
@@ -90,6 +90,23 @@ sources: 6
 Quinoa is a pseudocereal indigenous to the Andean highlands of Peru, Bolivia, and Ecuador. It is botanically distinct from true cereals (Poaceae) but functions as a grain in human diets and is regulated alongside cereals in most jurisdictions. The heavy-metal contamination signal for quinoa is dominated by **cadmium**, which it accumulates from Andean soils whose geochemistry is shaped by the same mining-belt minerology that drives Cd in regional cacao (see [[ingredients/cocoa]] for the parallel pattern). Lead and arsenic are secondary concerns, primarily in samples sourced from mining-impacted watersheds (Moquegua, Huancavelica, certain altiplano basins).
 
 The growing global popularity of quinoa as a gluten-free pseudocereal in infant and child foods, energy bars, and breakfast products makes its contamination profile increasingly relevant to certification: a product that substitutes quinoa for rice to lower iAs may simultaneously elevate Cd if the quinoa is sourced from a Cd-rich region. The Peru/Bolivia regional variance is large enough that origin-specific sourcing matters for HMTc literature evidence threshold setting.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 40–1070 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/gul2024-quinoa-cadmium-lead-stress\|2]], [[sources/bedoya-perales2023-moquegua-peru-mining-dataset\|3]] |
+| Cd | n=5 | 20–300 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/gul2024-quinoa-cadmium-lead-stress\|2]], [[sources/bedoya-perales2023-moquegua-peru-mining-dataset\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 60 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/bedoya-perales2023-moquegua-peru-mining-dataset\|2]], [[sources/rosales-huamani2023-quinoa-peru-ptes\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

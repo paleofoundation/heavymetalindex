@@ -5,28 +5,45 @@ commodity: infant-cereal-ingredients
 aliases: [baby cereal, cereal flour, infant biscuit, cereal-based foods, cereal-based infant foods]
 category: cereal-ingredient
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [23, 54], p95_ppb: 125, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [3, 13], p95_ppb: 17, confidence: low, n_studies: 3, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [3, 16], p95_ppb: 48, confidence: low, n_studies: 3, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [grain-source, rice-status, cocoa-addition, fortification, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/rice]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 used_in_products: ["[[products/baby-cereals-dry-non-rice]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/teething-and-snacks-non-rice]]", "[[products/teething-and-snacks-rice-based]]"]
 audience: [regulator, educator, consumer, app]
 sources: 3
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Infant Cereal Ingredients
 
 _Stub page. Chekri et al. 2019 reports a cereal-based infant-food category and notes high aluminum values in infant biscuits and baby cereal with biscuit and cocoa. Collado-Lopez et al. 2025 reports cereals as the baby-food group with the highest median Cd concentration in the review, but the source does not split rice-based from non-rice cereal products in a way that maps directly to the HMTc rows. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]_
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 23–54 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/original2020-original-a\|2]] |
+| Cd | n=3 | 3–13 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/original2020-original-a\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 3–16 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/original2020-original-a\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

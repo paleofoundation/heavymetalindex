@@ -9,18 +9,18 @@ contamination_profile:
     status: populated
     typical_ppb: [30, 110]
     p95_ppb: 380
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
     basis: "as-sold; cocoa powder and finished chocolate; Abt 2018 (n=144 across cocoa powder, nibs, dark chocolate, milk chocolate); Hands 2024 (n=72 dark chocolate and cocoa products, 2014-2022 multi-year)"
     notes: "Cocoa powder mean 110 ppb (Abt 2018); dark chocolate mean ~30 ppb; cocoa nibs ~3 ppb. Pb primarily processing-side (post-harvest, transport, manufacturing) per Abt 2020 mechanism review. Range 0 to 380 ppb across the 144-sample dataset."
   Cd:
     status: populated
     typical_ppb: [200, 990]
     p95_ppb: 3150
-    confidence: medium
-    n_studies: 5
-    last_reviewed: 2026-05-13
+    confidence: high
+    n_studies: 32
+    last_reviewed: 2026-05-16
     basis: "as-sold; cocoa powder and cocoa nibs; Abt 2018 (n=144 US-market); Meter 2019 (LAC review); Thomas 2023 (Peru n=2,194 farms); Hands 2024 (US multi-year); Romero-Estevez 2019 (Ecuador n=9 provinces)"
     notes: "Cocoa powder mean 700 ppb (Abt 2018); 100% cocoa powder mean 990 ppb. LAC-origin product significantly higher than African-origin. Driven by soil geochemistry (Andean volcanic) per Scaccabarozzi 2020 and Barraza 2019 isotope work; not processing-driven. Range 4 to 3150 ppb across primary datasets."
   iAs:
@@ -34,22 +34,22 @@ contamination_profile:
     status: populated
     typical_ppb: [10, 35]
     p95_ppb: null
-    confidence: low
-    n_studies: 1
+    confidence: medium
+    n_studies: 4
     last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [8200, 12000]
     p95_ppb: null
     confidence: medium
-    n_studies: 2
+    n_studies: 8
     last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [5000, 10000]
     p95_ppb: null
-    confidence: low
-    n_studies: 2
+    confidence: medium
+    n_studies: 5
     last_reviewed: 2026-05-16
   Cr:
     status: populated
@@ -69,8 +69,8 @@ contamination_profile:
     status: populated
     typical_ppb: [50, 100]
     p95_ppb: null
-    confidence: low
-    n_studies: 1
+    confidence: medium
+    n_studies: 6
     last_reviewed: 2026-05-16
   U:
     status: populated
@@ -94,22 +94,20 @@ _Stub page. Contamination profile populates on the next ingest wave. Cocoa is id
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 | 30 – 110 | 380 | low | [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market\|Abt 2018]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|Hands 2024]] |
-| Cd | n=5 | 200 – 990 | 3,150 | medium | [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market\|Abt 2018]], [[sources/thomas2023-peru-cacao-cd-distribution\|Thomas 2023]], [[sources/meter2019-cadmium-cacao-lac-review\|Meter 2019]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|Hands 2024]], [[sources/romero-estevez2019-ecuador-cocoa-cd-ni-pb\|Romero-Estevez 2019]] |
-| iAs | data gap | — | — | — | _Cocoa is not a primary As matrix; rice and seafood dominate the dietary As pathway._ |
-| tAs | data gap | — | — | — | _See iAs note._ |
-| tHg | data gap | — | — | — | _Cocoa does not carry meaningful Hg at population level._ |
-| Ni | n=2 | 8,200 – 12,000 | — | low | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm 1984]], [[sources/efsa-nickel-contam-2020\|EFSA Ni 2020]] |
-| Al | n=1 | — | — | low | [[sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\|Elsheikh 2020]] _quantified magnitude pending_ |
-| Cr | n=1 | 200 – 500 | — | low | [[sources/hernandez2019-cr-vi-cr-iII-milk-dairy-cereal-france\|Hernandez 2019]] _total Cr; Cr-VI speciation pending_ |
-| Sn | data gap | — | — | — | _Cocoa not canned in tin; Sn not a cocoa-specific exposure route._ |
-| U | data gap | — | — | — | _No cocoa-specific U evidence in current corpus._ |
-
-**Basis note:** all values are on the as-sold basis (cocoa powder or cocoa nibs) on a dry-weight equivalent. Finished chocolate values (which apply cocoa-solid-percentage dilution to cocoa powder concentrations) are tracked on [[ingredients/chocolate]] separately. Cocoa powder is the higher-Cd derivative of the cocoa supply chain because Cd concentrates in defatted solids during cocoa butter extraction; values for cocoa butter itself are typically an order of magnitude lower. The 990 ppb typical Cd upper bound is the 100% cocoa powder subset mean from Abt 2018 (n=26); 3,150 ppb is the highest observed value in the same 144-sample dataset.
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 30–110 | high | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
+| Cd | n=32 | 200–990 | high | [[sources/jaramillo-mazo2026-cacao-cd-bacteria\|1]], [[sources/vega-jara2025-cocoa-cd-mitigation-amf-biochar\|2]], [[sources/garciaporras2025-cadmium-cacao-farmland\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=6 | 50–100 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/codex-cccf17-2024\|3]] |
+| tHg | n=4 | 10–35 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/mancuso2024-food-contamination-cvd\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| Ni | n=8 | 8200–12000 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/bfr2022-nickel-dietary-intake-germany-meal\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
+| Al | n=5 | 5000–10000 | medium | [[sources/efsa2021-aluminium-food-qa\|1]], [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|2]], [[sources/fechner2019-cocoa-origin-al-cd-exposure\|3]] |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

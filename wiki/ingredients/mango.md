@@ -98,18 +98,20 @@ Mango takes metals from soil through root uptake into the trunk-and-leaf tissue,
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=5       | 5–100    | 300     | medium | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|5]], [[sources/mekonnen2024-ethiopia-fruit-metals\|3]] |
-| Cd  | n=5       | 1–30     | 100     | medium | [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|5]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]] |
-| iAs | data gap  | —        | —       | —      | — |
-| tAs | n=3       | 1–50     | —       | medium | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]] |
-| tHg | n=1       | —        | —       | —      | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]] |
-| Ni  | n=3       | 10–200   | —       | low    | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|5]] |
-| Al  | n=1       | —        | —       | —      | [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\|7]] |
-| Cr  | n=3       | 5–100    | —       | low    | [[sources/mekonnen2024-ethiopia-fruit-metals\|3]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|5]] |
-| Sn  | data gap  | —        | —       | —      | — |
-| U   | data gap  | —        | —       | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 5–100 | medium | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Cd | n=5 | 1–30 | medium | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 1–50 | medium | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]] |
+| tHg | n=1 | — | — | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]] |
+| Ni | n=3 | 10–200 | low | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Al | n=1 | — | — | — |
+| Cr | n=3 | 5–100 | low | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

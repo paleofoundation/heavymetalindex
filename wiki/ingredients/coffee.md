@@ -7,87 +7,104 @@ aliases: [ground coffee, instant coffee, brewed coffee]
 category: botanical
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: 800
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 50]
+    p95_ppb: 200
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 20]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 30]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [400, 2000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [200, 10000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [80, 500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [5, 300]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   U:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 10]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [coffee]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 6
 ---
 
 # Coffee
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 10–200 | medium | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/zergui2023-coffee-metals-origin-icp-ms\|2]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|3]] |
+| Cd | n=5 | 5–50 | medium | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/zergui2023-coffee-metals-origin-icp-ms\|2]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|3]] |
+| iAs | n=2 | 1–20 | low | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| tAs | n=3 | 5–300 | low | [[sources/zergui2023-coffee-metals-origin-icp-ms\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| tHg | n=2 | 1–30 | low | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Ni | n=4 | 400–2000 | low | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/zergui2023-coffee-metals-origin-icp-ms\|2]], [[sources/bfr2022-nickel-dietary-intake-germany-meal\|3]] |
+| Al | n=4 | 200–10000 | low | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/zergui2023-coffee-metals-origin-icp-ms\|2]], [[sources/albals2021-coffee-jordan-icpms\|3]] |
+| Cr | n=3 | 80–500 | low | [[sources/zergui2023-coffee-metals-origin-icp-ms\|1]], [[sources/albals2021-coffee-jordan-icpms\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=1 | 1–10 | low | [[sources/albals2021-coffee-jordan-icpms\|1]] |
 
 ## Routing
 

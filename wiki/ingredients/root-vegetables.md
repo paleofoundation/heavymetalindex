@@ -11,36 +11,36 @@ contamination_profile:
     typical_ppb: [9.5, 27.5]
     p95_ppb: 28.4
     confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    n_studies: 10
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 41]
     p95_ppb: 57
-    confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [3.3, 239.4]
     p95_ppb: 384.2
     confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0.9]
     p95_ppb: 1.3
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    status: populated
+    typical_ppb: [400, 1600]
+    p95_ppb: 24700
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [0, 1340]
@@ -49,26 +49,26 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    status: populated
+    typical_ppb: [50, 1500]
+    p95_ppb: 13500
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [0, 67.7]
     p95_ppb: 73.7
-    confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [5, 50]
+    p95_ppb: 150
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
@@ -81,8 +81,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [vegetable-juices-root-vegetable-containing]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
-sources: 19
+updated: 2026-05-16
+sources: 20
 ---
 
 # Root vegetables
@@ -95,20 +95,20 @@ Root vegetables are a broad category of edible plant storage organs that develop
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=10 | 9.5–27.5 | medium | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-nd-vegetables-hra\|3]] |
+| Cd | n=13 | 0–41 | high | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-nd-vegetables-hra\|3]] |
+| iAs | n=2 | 3.3–239.4 | low | [[sources/sadee2023-arsenic-speciation-vegetables\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tAs | n=8 | 5–50 | medium | [[sources/albishi2026-cassava-flour-biofortification\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-nd-vegetables-hra\|3]] |
+| tHg | n=5 | 0–0.9 | medium | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|3]] |
+| Ni | n=6 | 400–1600 | medium | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-nd-vegetables-hra\|3]] |
+| Al | n=1 | 0–1340 | medium | [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|1]] |
+| Cr | n=7 | 50–1500 | medium | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/albishi2026-cassava-flour-biofortification\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| Sn | n=2 | 0–67.7 | low | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -183,8 +183,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 14 | [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|Li et al. 2017]]. *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*, Scientific Reports | 2017 | Peer-reviewed | *[awaiting synthesis]* |
 | 15 | [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|Khan et al. 2015]]. *The uptake and bioaccumulation of heavy metals by food plants, their effects on plants nutrients, and associated health risk: a review*, Environmental Science and Pollution Research | 2015 | Review | *[awaiting synthesis]* |
 | 16 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical Cd toxicology chapter covering vegetable and root crop Cd accumulation pathways |
-| 17 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Cd opinion; root vegetables among the food groups contributing to European dietary Cd exposure, with occurrence data from the EU monitoring dataset |
-| 18 | [[sources/oehha-cadmium-prop65-evidence-1996\|California Office of Environmental 1996]]. *Evidence on the Developmental and Reproductive Toxicity of Cadmium*, California Environmental Protection Agency, Office of Environmental Health Hazard Assessment | 1996 | Government report | OEHHA Cd hazard identification supporting Prop 65 reproductive-toxicity listing; includes dietary exposure context mentioning root vegetables and potatoes |
-| 19 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex Cd and Pb international maximum levels applicable to root vegetable matrices |
+| 17 | [[sources/stasinos2014-heavy-metals-tubers-review\|Stasinos et al. 2014]]. *The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review*, Journal of Food Science | 2014 | Review | *[awaiting synthesis]* |
+| 18 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Cd opinion; root vegetables among the food groups contributing to European dietary Cd exposure, with occurrence data from the EU monitoring dataset |
+| 19 | [[sources/oehha-cadmium-prop65-evidence-1996\|California Office of Environmental 1996]]. *Evidence on the Developmental and Reproductive Toxicity of Cadmium*, California Environmental Protection Agency, Office of Environmental Health Hazard Assessment | 1996 | Government report | OEHHA Cd hazard identification supporting Prop 65 reproductive-toxicity listing; includes dietary exposure context mentioning root vegetables and potatoes |
+| 20 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex Cd and Pb international maximum levels applicable to root vegetable matrices |
 <!-- END: hmi-source-legend -->
 

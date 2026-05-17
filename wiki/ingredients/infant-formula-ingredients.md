@@ -5,28 +5,45 @@ commodity: infant-formula-ingredients
 aliases: [formula ingredients, formula powder ingredients, infant formula constituents, mineral premix, vitamin premix]
 category: formulated-food-system
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [1, 5], p95_ppb: 100, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [0, 5], p95_ppb: 15, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [0, 5], p95_ppb: 20, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [0, 3], p95_ppb: 5, confidence: low, n_studies: 5, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [10, 80], p95_ppb: 200, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [150, 1000], p95_ppb: 2700, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [1, 5], p95_ppb: 10, confidence: low, n_studies: 3, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [5, 35], p95_ppb: 100, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [0, 50], p95_ppb: 100, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [ingredient-inputs, mineral-premix, processing-equipment, storage, packaging, powder-homogeneity]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/soy]]"]
 used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 audience: [regulator, educator, consumer, app]
 sources: 12
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Infant Formula Ingredients
 
 _Stub page. Burrell and Exley 2010 argues that aluminum in infant formula is likely contamination from formula constituents, processing equipment, storage, and packaging rather than an intentionally added ingredient. Chuchu et al. 2013 repeats the ingredient and processing concern and highlights aluminum-based packaging as a plausible contamination route. Dabeka et al. 2011 adds Canada-market format, formula-type, and packaging context for Al, Cd, and Pb in formula and infant-support liquids. Astolfi et al. 2021 adds an Italian powder-only multi-element survey in which nickel, cadmium, lead, tin, zinc, and manganese support powdered-formula evidence, while aluminum, arsenic, and chromium are retained only as detection-limit context because more than 30% of results were below LOD. Kazi et al. 2009 adds milk-based versus soy-based formula variance for Al, Cd, and Pb in imported formulae purchased in Pakistan. This page is a graph anchor for formula-input and processing-driver evidence, not a claim that a single ingredient explains all formula metal findings. [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/astolfi2021-italy-powdered-infant-formula-elements]] [[sources/kazi2009-toxic-elements-in-infant-formulae]]_
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 1–5 | medium | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|3]] |
+| Cd | n=7 | 0–5 | medium | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|3]] |
+| iAs | n=2 | 0–5 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tAs | n=3 | 1–5 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|3]] |
+| tHg | n=5 | 0–3 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\|3]] |
+| Ni | n=2 | 10–80 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]] |
+| Al | n=7 | 150–1000 | medium | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|1]], [[sources/chuchu2013-aluminium-in-infant-formulas\|2]], [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|3]] |
+| Cr | n=2 | 5–35 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]] |
+| Sn | n=2 | 0–50 | low | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

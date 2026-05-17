@@ -10,30 +10,30 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   iAs:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [0, 7.0]
     p95_ppb: 8.1
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
@@ -45,9 +45,9 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 44.1
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [0, 1966]
@@ -59,9 +59,9 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [0, 15.3]
@@ -95,20 +95,20 @@ Grapes (Vitis vinifera and related species) are a vine fruit whose metal burden 
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | — | — |
-| Cd | n=2 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=2 (in progress) | — | — | — | — |
-| Ni | n=2 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=2 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=8 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cd | n=8 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0–7 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | 0 | high | [[sources/chen2024-trimodal-hg-food-sensor\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| Ni | n=5 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Al | n=1 | 0–1966 | medium | — |
+| Cr | n=5 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Sn | n=1 | 0–15.3 | medium | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
+| U | n=2 | 0 | high | — |
 
 ## Routing
 

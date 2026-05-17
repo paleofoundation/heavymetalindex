@@ -12,8 +12,8 @@ evidence_tier: A
 license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/article (2).pdf"
 metals: [Pb, Cd, tAs, Cr, Ni, Al]
-ingredients: ["[[ingredients/carrots]]", "[[ingredients/onions]]", "[[ingredients/potatoes]]"]
-products: ["[[products/root-vegetables]]"]
+ingredients: ["[[ingredients/carrots]]", "[[ingredients/onions]]", "[[ingredients/potatoes]]", "[[ingredients/root-vegetables]]"]
+products: []
 matrices: [carrot, onion, potato, irrigation-water, soil]
 jurisdictions: [GR, LV, US, ES, MA, PL]
 near_duplicates: []

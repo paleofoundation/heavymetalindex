@@ -10,37 +10,37 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [0, 5.4]
     p95_ppb: 8.0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [0, 0]
@@ -97,20 +97,20 @@ Despite these exposure routes, apples are generally a low-risk commodity for hea
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | — | — |
-| Cd | n=2 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=2 (in progress) | — | — | — | — |
-| Ni | n=2 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=2 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 0 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/napier2024-wanabana-lead-apple-cinnamon\|2]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|3]] |
+| Cd | n=7 | 0 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| iAs | n=4 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
+| tAs | n=6 | 0–5.4 | medium | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
+| tHg | n=4 | 0 | medium | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/tan2022-carbon-dots-cd-hg-food\|3]] |
+| Ni | n=3 | 0 | high | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Al | n=1 | 0–1410 | medium | — |
+| Cr | n=3 | 0 | high | [[sources/nasirpour2026-apple-wastewater-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Sn | n=1 | 0–16.4 | medium | — |
+| U | n=2 | 0 | high | — |
 
 ## Routing
 

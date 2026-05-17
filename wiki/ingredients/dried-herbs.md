@@ -98,18 +98,20 @@ Dried herbs accumulate metals through two combined pathways: the live plant's so
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=7       | 100–2,000     | 5,000     | high   | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|1]], [[sources/lhaac2025-csp41-herbs-spices-wa\|7]], [[sources/huff2025-spices-lancaster-pa\|5]] |
-| Cd  | n=6       | 50–500        | 1,200     | high   | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|6]] |
-| iAs | n=1       | 10–200        | —         | low    | [[sources/nys-doh2019-metals-spices-guidance\|8]] |
-| tAs | n=4       | 20–300        | —         | medium | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]], [[sources/huff2025-spices-lancaster-pa\|5]] |
-| tHg | n=3       | 1–50          | —         | medium | [[sources/fischer2022-mercury-spice-plants-poland\|4]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|6]] |
-| Ni  | n=2       | 200–3,000     | —         | low    | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
-| Al  | n=2       | 1,000–20,000  | —         | low    | [[sources/lhaac2025-csp41-herbs-spices-wa\|7]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
-| Cr  | n=2       | 50–1,000      | —         | low    | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
-| Sn  | n=1       | —             | —         | —      | [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
-| U   | data gap  | —             | —         | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 100–2000 | high | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
+| Cd | n=6 | 50–500 | high | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
+| iAs | n=1 | 10–200 | low | — |
+| tAs | n=4 | 20–300 | medium | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]] |
+| tHg | n=3 | 1–50 | medium | [[sources/fischer2022-mercury-spice-plants-poland\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
+| Ni | n=2 | 200–3000 | low | — |
+| Al | n=2 | 1000–20000 | low | — |
+| Cr | n=2 | 50–1000 | low | — |
+| Sn | n=1 | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

@@ -7,81 +7,81 @@ aliases: [river fish, lake fish, inland fish, sport fish]
 category: aquatic-protein
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [20, 300]
+    p95_ppb: 1000
+    confidence: high
+    n_studies: 22
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: 300
+    confidence: high
+    n_studies: 19
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [1, 20]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 6
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: 1500
+    confidence: high
+    n_studies: 33
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 400]
+    p95_ppb: 800
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [500, 3000]
+    p95_ppb: 6000
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 400]
+    p95_ppb: 1000
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: 2000
+    confidence: medium
+    n_studies: 16
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [biomagnification, trophic-level, watershed-mining-history, age-and-size, ASGM-proximity, climate-driven-methylation]
 lower_risk_variants: ["[[ingredients/farmed-tilapia]]"]
 higher_risk_variants: ["[[ingredients/sport-fish-predatory]]"]
 used_in_products: ["[[products/fish-containing-baby-foods]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 48
 ---
 
@@ -90,6 +90,23 @@ sources: 48
 Freshwater fish are inland-water aquatic protein sources whose heavy-metal contamination profile differs materially from saltwater and marine fish. The defining difference is methylmercury biomagnification: freshwater systems with reducing sediments and microbial methylation activity (most notably in artisanal small-scale gold mining (ASGM) watersheds, mercury-impacted lakes, and historic industrial river basins) concentrate MeHg in piscivorous fish at levels that often exceed marine-fish equivalents. Sport-fishery advisories from US states, Canadian provinces, and the EFSA opinion on chronic methylmercury exposure target freshwater piscivores specifically.
 
 This page is the structural anchor for freshwater-specific fish evidence. The broader [[ingredients/fish]] page covers cross-cutting fish-as-food properties; [[ingredients/saltwater-fish]] (when promoted) carries marine-specific evidence. Trophic level and fish age are the dominant within-species variance drivers, not species identity alone — a small, young pike from a low-Hg lake can carry less MeHg than a large, old walleye from the same lake.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=22 | 20–300 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/venant2025-lake-victoria-sardine-cd-pb\|3]] |
+| Cd | n=19 | 5–100 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/venant2025-lake-victoria-sardine-cd-pb\|3]] |
+| iAs | n=6 | 1–20 | low | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|3]] |
+| tAs | n=16 | 50–500 | medium | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/paul2025-meghna-fish-arsenic\|2]], [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|3]] |
+| tHg | n=33 | 50–500 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/auzier-guimaraes2025-mercury-tapajos-fish\|2]], [[sources/wu2025-climate-meghan-freshwater-fish-china\|3]] |
+| Ni | n=10 | 50–400 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/naz2025-trace-elements-punjnad-fish\|2]], [[sources/han2024-nickel-zhejiang-china\|3]] |
+| Al | n=5 | 500–3000 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/kovacik2024-grass-carp-muscle-microelements\|3]] |
+| Cr | n=8 | 50–400 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/aljufaili2024-garra-shamal-oman\|2]], [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Climate-driven methylmercury trajectory
 

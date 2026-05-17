@@ -73,7 +73,7 @@ These pages are graph anchors for sources that report a broader product category
 - [[products/infant-formula-powder|Infant formula powder]] (10 sources)
 - [[products/infant-formula-concentrated-liquid-non-soy|Infant formula, concentrated liquid (non-soy)]] (2 sources)
 - [[products/infant-formula-concentrated-liquid-soy-based|Infant formula, concentrated liquid (soy-based)]] (2 sources)
-- [[products/oral-electrolyte-solutions|Oral electrolyte solutions]] (1 sources)
+- [[products/oral-electrolyte-solutions|Oral electrolyte solutions]] (2 sources)
 - [[products/glucose-solutions|Glucose solutions]] (1 sources)
 
 ## Category 5: Beverages
@@ -81,9 +81,9 @@ These pages are graph anchors for sources that report a broader product category
 These pages carry the first Category 5 beverage comparison layer. The locked row nodes separate finished-product evidence from ingredient-only values and place regulatory context next to actual field findings where the matrix, species, and unit basis match.
 
 - [[products/category-5-beverages]] (0 sources)
-- [[products/fruit-juices-non-apple]] (6 sources)
-- [[products/fruit-juices-apple-containing]] (6 sources)
-- [[products/vegetable-juices-non-root]] (0 sources)
+- [[products/fruit-juices-non-apple]] (9 sources)
+- [[products/fruit-juices-apple-containing]] (12 sources)
+- [[products/vegetable-juices-non-root]] (1 sources)
 - [[products/vegetable-juices-root-vegetable-containing]] (0 sources)
 - [[products/plant-milks-non-soy-non-rice]] (1 sources)
 - [[products/plant-milks-soy-based]] (2 sources)
@@ -91,9 +91,9 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/flavored-waters]] (0 sources)
 - [[products/sports-energy-drinks]] (0 sources)
 - [[products/herbal-botanical-infusions]] (1 sources)
-- [[products/true-tea-camellia-sinensis]] (0 sources)
+- [[products/true-tea-camellia-sinensis]] (4 sources)
 - [[products/matcha]] (0 sources)
-- [[products/coffee]] (1 sources)
+- [[products/coffee]] (2 sources)
 - [[products/soft-drinks-carbonated-beverages]] (0 sources)
 - [[products/fermented-beverages-non-tea-based]] (1 sources)
 - [[products/kombucha-tea-based]] (1 sources)
@@ -105,8 +105,8 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/breakfast-cereals|Breakfast Cereals]] (3 sources)
-- [[products/toothpaste|Toothpaste (Cat 2)]] (1 sources)
+- [[products/breakfast-cereals|Breakfast Cereals]] (5 sources)
+- [[products/toothpaste|Toothpaste (Cat 2)]] (2 sources)
 
 _Retired (kept for redirect, not in HMT&C Cat 2 scope):_
 - ~~[[products/lipstick]]~~ — adult lipstick; redirected to [[products/childrens-lip-balm-mineral-bearing]] (Cat 2 Row 16) and future Cat 13 (adult color cosmetics)

@@ -14,16 +14,16 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -35,37 +35,37 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [50, 500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -85,7 +85,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 10
 ---
 
@@ -99,20 +99,20 @@ Honey is unusual among food commodities in that its metal content reflects the s
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
+| Cd | n=9 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
+| tHg | n=4 | 0 | medium | [[sources/wise2025-elevated-metals-us-honeys\|1]], [[sources/margaoan2024-bee-products-heavy-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=8 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
+| Al | n=3 | 50–500 | low | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
+| Cr | n=6 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/abeslami2025-moroccan-honey-minerals\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 

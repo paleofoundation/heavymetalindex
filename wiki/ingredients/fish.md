@@ -6,87 +6,104 @@ aliases: [seafood, finfish, tuna, salmon, swordfish, mackerel, cod, tilapia, tro
 category: aquatic-animal
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 50]
+    p95_ppb: 300
+    confidence: high
+    n_studies: 49
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: 2000
+    confidence: high
+    n_studies: 48
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0, 15]
+    p95_ppb: 74
+    confidence: high
+    n_studies: 18
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [30, 300]
+    p95_ppb: 1000
+    confidence: high
+    n_studies: 70
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [50, 200]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: high
+    n_studies: 15
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [200, 1500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [5, 50]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: high
+    n_studies: 15
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0, 50]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [500, 2500]
+    p95_ppb: 5000
+    confidence: high
+    n_studies: 37
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [trophic-level, methylmercury-biomagnification, species, harvest-region, fish-age-and-size]
 lower_risk_variants: ["[[ingredients/salmon]]", "[[ingredients/sardines]]", "[[ingredients/anchovies]]", "[[ingredients/herring]]", "[[ingredients/tilapia]]", "[[ingredients/trout]]", "[[ingredients/light-canned-tuna]]"]
 higher_risk_variants: ["[[ingredients/swordfish]]", "[[ingredients/shark]]", "[[ingredients/king-mackerel]]", "[[ingredients/tilefish]]", "[[ingredients/bigeye-tuna]]", "[[ingredients/marlin]]", "[[ingredients/orange-roughy]]"]
 used_in_products: ["[[products/fresh-fish]]", "[[products/frozen-fish]]", "[[products/canned-tuna]]", "[[products/canned-salmon]]", "[[products/canned-sardines]]", "[[products/fish-oil-supplements]]", "[[products/prepared-seafood]]", "[[products/surimi]]", "[[products/fish-sauce]]"]
 audience: [regulator, educator, consumer, app]
-sources: 100
-updated: 2026-04-26
+sources: 101
+updated: 2026-05-16
 ---
 
 # Fish
 
 _Stub page. Contamination profile populates on dedicated mercury and arsenic ingest waves. Fish is the dominant dietary source of methylmercury exposure for most populations ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]])._
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=49 | 5–50 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/balzani2026-fish-metals-dalyan-lake\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
+| Cd | n=48 | 10–200 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
+| iAs | n=18 | 0–15 | high | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| tAs | n=37 | 500–2500 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/balzani2026-fish-metals-dalyan-lake\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
+| tHg | n=70 | 30–300 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/lepak2026-mehg-depuration-fish-consumption\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
+| Ni | n=15 | 50–200 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
+| Al | n=11 | 200–1500 | high | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/suomi2023-finland-dietary-metals-cumulative\|3]] |
+| Cr | n=15 | 5–50 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/ray2025-fish-chennai-metals\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| Sn | n=10 | 0–50 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hussein2024-toxic-metals-canned-fish-egypt\|3]] |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates heavy metals
 
@@ -167,51 +184,52 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 51 | [[sources/ulusoy2023-canned-tuna-toxic-metals\|Ulusoy 2023]]. *Determination of toxic metals in canned tuna sold in developed and developing countries: Health risk assessment associated with human consumption*, Marine Pollution Bulletin | 2023 | Peer-reviewed | US/DE/FI Cd, Pb, tHg, tAs, iAs concentrations (n=222) |
 | 52 | [[sources/willacker2023-mercury-fish-snake-river\|Willacker et al. 2023]]. *Reservoir Stratification Modulates the Influence of Impoundments on Fish Mercury Concentrations along an Arid Land River System*, Environmental Science & Technology | 2023 | Peer-reviewed | US tHg, MeHg occurrence in Smallmouth Bass (Micropterus dolomieu) collected from reservoir, tailrace, and free-flowing reaches along 853 km of the Snake River... |
 | 53 | [[sources/cegolon2022-hg-hair-trieste\|Cegolon et al. 2022]]. *Concentration of mercury in human hair and associated factors in residents of the Gulf of Trieste (North-Eastern Italy)*, Environmental Science and Pollution Research | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 54 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Cd, Pb, Hg, MeHg, iAs, tAs, Ni, Al, Cu, Fe, Zn, Mn, Mo, Cr concentrations |
-| 55 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 56 | [[sources/li2022-mercury-isotope-biota-review\|Li et al. 2022]]. *Internal Dynamics and Metabolism of Mercury in Biota: A Review of Insights from Mercury Stable Isotopes*, Environmental Science & Technology | 2022 | Peer-reviewed | tHg, MeHg occurrence in Synthesis of mercury isotope fractionation data across multiple biota studies (review) |
-| 57 | [[sources/motta2022-marine-hg-isotopes\|Motta et al. 2022]]. *Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms*, Proceedings of the National Academy of Sciences | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 58 | [[sources/moura2022-hg-jaguaribe-estuary\|Moura et al. 2022]]. *Mercury in the Jaguaribe River Estuary, Northeast Brazil: Sources, Distribution, and Bioavailability*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 59 | [[sources/oliveira2022-mercury-fish-pregnant-women-tapajos\|Oliveira et al. 2022]]. *Fish consumption habits of pregnant women in Itaituba, Tapajós River basin, Brazil: risks of mercury contamination as assessed by measuring total mercury in highly consumed piscivore fish species and in hair of pregnant women*, Archives of Industrial Hygiene and Toxicology | 2022 | Peer-reviewed | BR tHg, MeHg occurrence in 110 pregnant women in Itaituba, Brazil; 120 fish samples (30 Cichla spp. and 30 Plagioscion squamosissimus per season) (n=170) |
-| 60 | [[sources/sarker2022-bangladesh-food-webs-review\|Sarker et al. 2022]]. *Heavy metals contamination and associated health risks in food webs — a review focuses on food safety and environmental sustainability in Bangladesh*, Environmental Science and Pollution Research | 2022 | Review | *[awaiting synthesis]* |
-| 61 | [[sources/vejrup2022-prenatal-mehg-fish-behavior\|Vejrup et al. 2022]]. *Prenatal methylmercury exposure from fish intake and child emotional and behavioural problems: results from the Norwegian Mother, Father and Child Cohort Study*, BMJ Nutrition, Prevention and Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 62 | [[sources/zmudzinska2022-rte-baby-foods-poland\|Zmudzinska et al. 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, Nutrients 14(11):2325 | 2022 | Peer-reviewed | PL tAs, Cd, tHg, Pb occurrence in 397 commercial ready-to-eat baby food products from the Polish market for children aged 0.5–3 years: dinners, porridges, mousses,... (n=397) |
-| 63 | [[sources/cleary2021-fish-consumption-advisories-usa\|Cleary et al. 2021]]. *Comparison of Recreational Fish Consumption Advisories Across the USA*, Current Environmental Health Reports | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 64 | [[sources/mahjoub2021-morocco-fish-metals\|Mahjoub et al. 2021]]. *Mercury, Lead, and Cadmium in the Muscles of Five Fish Species from the Mechraa-Hammadi Dam in Morocco and Health Risks for Their Consumers*, Journal of Toxicology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 65 | [[sources/reksten2021-bay-bengal-fish-metals\|Reksten et al. 2021]]. *Heavy Metal Contamination in 24 Fish Species from the Bay of Bengal: Risk Assessment for Human Health*, Foods | 2021 | Peer-reviewed | BD/LK/EU tAs, Cd, tHg, Pb occurrence in 1,111 individual fish across 24 species from Bay of Bengal (Sri Lanka and Bangladesh) (n=1111) |
-| 66 | [[sources/uzomah2021-nigeria-fish-contaminants\|Uzomah et al. 2021]]. *Chemical Contaminants in Nigerian Fresh and Marine Fish: A Review*, Foods | 2021 | Peer-reviewed | NG/EU Pb, Cd, tHg, tAs, Ni, Cr occurrence in Systematic review of literature on chemical contaminants in Nigerian freshwater and marine fish; covers 104+ commercial species |
-| 67 | [[sources/wickliffe2021-suriname-mercury-pregnancy\|Wickliffe et al. 2021]]. *Exposure to total and methylmercury among pregnant women in Suriname: sources and public health implications*, Journal of Exposure Science and Environmental Epidemiology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 68 | [[sources/mcsorley2020-seychelles-mehg-immunity\|McSorley et al. 2020]]. *Methylmercury and long chain polyunsaturated fatty acids are associated with immune dysregulation in young adults from the Seychelles child development study*, Environmental Research | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 69 | [[sources/reksten2020-angola-fish-metals\|Reksten et al. 2020]]. *Nutrient and Contaminant Analyses of Five Commercially Important Fish Species from the Angolan Coast*, Foods | 2020 | Peer-reviewed | AO/EU tAs, Cd, tHg, Pb occurrence in 5 composite samples per species (5 fish per composite) across 5 marine fish species from the Angolan coast (n=25) |
-| 70 | [[sources/cfs2019-organotin-aquatic-hongkong\|Centre for Food Safety 2019]]. *Organotin Compounds in Aquatic Products Available at Local Markets*, Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD | 2019 | Government report | *[awaiting synthesis]* |
-| 71 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | FR Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V occurrence in French infant and toddler foods (n=291) |
-| 72 | [[sources/fsanz2019-25th-australian-total-diet-study\|Zealand 2019]]. *25th Australian Total Diet Study*, Food Standards Australia New Zealand | 2019 | Government report | AU tAs, iAs, Cd, Pb, tHg, MeHg concentrations |
-| 73 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 74 | [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|Rodriguez-Mendivil et al. 2019]]. *Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico*, Health Scope | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 75 | [[sources/zolfaghari2018-iran-wetlands-fish-mercury-lead\|Zolfaghari 2018]]. *Risk assessment of mercury and lead in fish species from Iranian international wetlands*, MethodsX | 2018 | Peer-reviewed | IR/WHO/EU tHg, Pb occurrence in Multiple fish species from Anzali Wetland (Caspian Sea), Caspian Sea, and Hamun Wetlands, Iran; 20 fish per species |
-| 76 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | US MeHg, tHg, iAs concentrations |
-| 77 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | *[awaiting synthesis]* |
-| 78 | [[sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\|Eagles-Smith et al. 2016]]. *Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada*, Science of The Total Environment (2016, in press 2015) | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 79 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | *[awaiting synthesis]* |
-| 80 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016 (Conference Proceedings) | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 81 | [[sources/chang2015-mercury-korean-infants-weaning\|Chang et al. 2015]]. *Mercury Exposure in Healthy Korean Weaning-Age Infants: Association with Growth, Feeding and Fish Intake*, International Journal of Environmental Research and Public Health | 2015 | Peer-reviewed | KR tHg occurrence in 252 healthy Korean infants (median age 11.1 months, range 6–22 months), 50% male; 2 cohorts: 2009/2010 (n=111) and... (n=252) |
-| 82 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | *[awaiting synthesis]* |
-| 83 | [[sources/lim2015-korea-kriefs-dietary-exposure-pb-cd-hg\|Lim et al. 2015]]. *Korean research project on the integrated exposure assessment of hazardous substances for food safety*, Environmental Health and Toxicology | 2015 | Peer-reviewed | KR Pb, Cd, tHg occurrence in Nationwide Korean population, all ages, 15 metropolitan areas and provinces, 102 sampling sites, 2010-2011 (n=4867) |
-| 84 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | international/EU/US Cd concentrations |
-| 85 | [[sources/kazimov2014-dietary-heavy-metals-azerbaijan\|Kazimov et al. 2014]]. *Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods*, Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal) | 2014 | Peer-reviewed | *[awaiting synthesis]* |
-| 86 | [[sources/ralston2014-selenium-hbv-methylmercury-seafood\|Ralston et al. 2014]]. *Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments*, Archives of Environmental Contamination and Toxicology | 2014 | Peer-reviewed | US/WHO MeHg, tHg occurrence in Theoretical/comparative analysis using reported Se and CH3Hg concentrations in ocean fish and other seafoods |
-| 87 | [[sources/minamata-convention-2013\|Programme 2013]]. *Minamata Convention on Mercury — Text and Annexes (2024 Edition)*, United Nations Environment Programme, Secretariat of the Minamata Convention on Mercury | 2013 | Government report | international Hg, MeHg concentrations |
-| 88 | [[sources/efsa-mercury-methylmercury-2012\|EFSA 2012]]. *Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food*, EFSA Journal 2012;10(12):2985 | 2012 | Government report | EU Hg, MeHg, iHg concentrations |
-| 89 | [[sources/awata2011-nhanes-asian-dietary-metals-biomarker\|Awata et al. 2011]]. *Association of Dietary Intake and Biomarker Levels of Arsenic, Cadmium, Lead, and Mercury among Asian Populations in the United States: NHANES 2011–2012*, Environmental Health Perspectives | 2011 | Peer-reviewed | US tAs, iAs, Cd, Pb, tHg occurrence in US Asians and other racial/ethnic groups from NHANES 2011-2012 nationally representative sample; first NHANES cycle to oversample Asians |
-| 90 | [[sources/farina-rocha-aschner-2011-mehg-mechanism\|Farina et al. 2011]]. *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*, Life Sciences 89(15-16):555-563 | 2011 | Peer-reviewed | international MeHg concentrations |
-| 91 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | international Cd, Pb concentrations |
-| 92 | [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|JMRS et al. 2010]]. *Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution*, Toxicology Letters 198(1):33–39 | 2010 | Peer-reviewed | LK Cd, Pb, Fe occurrence in Samples from Sri Lanka North Central Province (Anuradhapura, Polonnaruwa, Madawachchiya): rice (n≈40), pulses, fish (Tilapia, Channa), lotus rhizomes,... (n=140) |
-| 93 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb concentrations |
-| 94 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | EU iAs, tAs concentrations |
-| 95 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EU Cd concentrations |
-| 96 | [[sources/atsdr-arsenic-toxprofile-2007\|ATSDR 2007]]. *Toxicological Profile for Arsenic*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2007 | Government report | US iAs, tAs concentrations |
-| 97 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, ATSDR | 2005 | Government report | US Sn concentrations |
-| 98 | [[sources/jecfa-61st-methylmercury\|JECFA 2004]]. *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*, WHO Technical Report Series 922 | 2004 | Government report | international MeHg concentrations |
-| 99 | [[sources/epa-iris-methylmercury\|EPA 2001]]. *Methylmercury (MeHg) — IRIS Chemical Assessment Summary*, U.S. Environmental Protection Agency, Integrated Risk Information System | 2001 | Government report | US MeHg concentrations |
-| 100 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | international Cd, Pb, Hg, MeHg, iAs, Sn concentrations |
+| 54 | [[sources/ec-reg-2022-617-mercury-fishery\|EC 2022]]. *Commission Regulation (EU) 2022/617 of 12 April 2022 amending Regulation (EC) No 1881/2006 as regards maximum levels of mercury in fish and salt*, Official Journal of the European Union, OJ L 115, 13.4.2022, pp. 60–63 | 2022 | Regulation | *[awaiting synthesis]* |
+| 55 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Cd, Pb, Hg, MeHg, iAs, tAs, Ni, Al, Cu, Fe, Zn, Mn, Mo, Cr concentrations |
+| 56 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 57 | [[sources/li2022-mercury-isotope-biota-review\|Li et al. 2022]]. *Internal Dynamics and Metabolism of Mercury in Biota: A Review of Insights from Mercury Stable Isotopes*, Environmental Science & Technology | 2022 | Peer-reviewed | tHg, MeHg occurrence in Synthesis of mercury isotope fractionation data across multiple biota studies (review) |
+| 58 | [[sources/motta2022-marine-hg-isotopes\|Motta et al. 2022]]. *Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms*, Proceedings of the National Academy of Sciences | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 59 | [[sources/moura2022-hg-jaguaribe-estuary\|Moura et al. 2022]]. *Mercury in the Jaguaribe River Estuary, Northeast Brazil: Sources, Distribution, and Bioavailability*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 60 | [[sources/oliveira2022-mercury-fish-pregnant-women-tapajos\|Oliveira et al. 2022]]. *Fish consumption habits of pregnant women in Itaituba, Tapajós River basin, Brazil: risks of mercury contamination as assessed by measuring total mercury in highly consumed piscivore fish species and in hair of pregnant women*, Archives of Industrial Hygiene and Toxicology | 2022 | Peer-reviewed | BR tHg, MeHg occurrence in 110 pregnant women in Itaituba, Brazil; 120 fish samples (30 Cichla spp. and 30 Plagioscion squamosissimus per season) (n=170) |
+| 61 | [[sources/sarker2022-bangladesh-food-webs-review\|Sarker et al. 2022]]. *Heavy metals contamination and associated health risks in food webs — a review focuses on food safety and environmental sustainability in Bangladesh*, Environmental Science and Pollution Research | 2022 | Review | *[awaiting synthesis]* |
+| 62 | [[sources/vejrup2022-prenatal-mehg-fish-behavior\|Vejrup et al. 2022]]. *Prenatal methylmercury exposure from fish intake and child emotional and behavioural problems: results from the Norwegian Mother, Father and Child Cohort Study*, BMJ Nutrition, Prevention and Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 63 | [[sources/zmudzinska2022-rte-baby-foods-poland\|Zmudzinska et al. 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, Nutrients 14(11):2325 | 2022 | Peer-reviewed | PL tAs, Cd, tHg, Pb occurrence in 397 commercial ready-to-eat baby food products from the Polish market for children aged 0.5–3 years: dinners, porridges, mousses,... (n=397) |
+| 64 | [[sources/cleary2021-fish-consumption-advisories-usa\|Cleary et al. 2021]]. *Comparison of Recreational Fish Consumption Advisories Across the USA*, Current Environmental Health Reports | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 65 | [[sources/mahjoub2021-morocco-fish-metals\|Mahjoub et al. 2021]]. *Mercury, Lead, and Cadmium in the Muscles of Five Fish Species from the Mechraa-Hammadi Dam in Morocco and Health Risks for Their Consumers*, Journal of Toxicology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 66 | [[sources/reksten2021-bay-bengal-fish-metals\|Reksten et al. 2021]]. *Heavy Metal Contamination in 24 Fish Species from the Bay of Bengal: Risk Assessment for Human Health*, Foods | 2021 | Peer-reviewed | BD/LK/EU tAs, Cd, tHg, Pb occurrence in 1,111 individual fish across 24 species from Bay of Bengal (Sri Lanka and Bangladesh) (n=1111) |
+| 67 | [[sources/uzomah2021-nigeria-fish-contaminants\|Uzomah et al. 2021]]. *Chemical Contaminants in Nigerian Fresh and Marine Fish: A Review*, Foods | 2021 | Peer-reviewed | NG/EU Pb, Cd, tHg, tAs, Ni, Cr occurrence in Systematic review of literature on chemical contaminants in Nigerian freshwater and marine fish; covers 104+ commercial species |
+| 68 | [[sources/wickliffe2021-suriname-mercury-pregnancy\|Wickliffe et al. 2021]]. *Exposure to total and methylmercury among pregnant women in Suriname: sources and public health implications*, Journal of Exposure Science and Environmental Epidemiology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 69 | [[sources/mcsorley2020-seychelles-mehg-immunity\|McSorley et al. 2020]]. *Methylmercury and long chain polyunsaturated fatty acids are associated with immune dysregulation in young adults from the Seychelles child development study*, Environmental Research | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 70 | [[sources/reksten2020-angola-fish-metals\|Reksten et al. 2020]]. *Nutrient and Contaminant Analyses of Five Commercially Important Fish Species from the Angolan Coast*, Foods | 2020 | Peer-reviewed | AO/EU tAs, Cd, tHg, Pb occurrence in 5 composite samples per species (5 fish per composite) across 5 marine fish species from the Angolan coast (n=25) |
+| 71 | [[sources/cfs2019-organotin-aquatic-hongkong\|Centre for Food Safety 2019]]. *Organotin Compounds in Aquatic Products Available at Local Markets*, Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD | 2019 | Government report | *[awaiting synthesis]* |
+| 72 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | FR Al, Sb, tAs, Cd, Cr, Co, Ni, Sn, V occurrence in French infant and toddler foods (n=291) |
+| 73 | [[sources/fsanz2019-25th-australian-total-diet-study\|Zealand 2019]]. *25th Australian Total Diet Study*, Food Standards Australia New Zealand | 2019 | Government report | AU tAs, iAs, Cd, Pb, tHg, MeHg concentrations |
+| 74 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 75 | [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|Rodriguez-Mendivil et al. 2019]]. *Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico*, Health Scope | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 76 | [[sources/zolfaghari2018-iran-wetlands-fish-mercury-lead\|Zolfaghari 2018]]. *Risk assessment of mercury and lead in fish species from Iranian international wetlands*, MethodsX | 2018 | Peer-reviewed | IR/WHO/EU tHg, Pb occurrence in Multiple fish species from Anzali Wetland (Caspian Sea), Caspian Sea, and Hamun Wetlands, Iran; 20 fish per species |
+| 77 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | US MeHg, tHg, iAs concentrations |
+| 78 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | *[awaiting synthesis]* |
+| 79 | [[sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\|Eagles-Smith et al. 2016]]. *Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada*, Science of The Total Environment (2016, in press 2015) | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 80 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | *[awaiting synthesis]* |
+| 81 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016 (Conference Proceedings) | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 82 | [[sources/chang2015-mercury-korean-infants-weaning\|Chang et al. 2015]]. *Mercury Exposure in Healthy Korean Weaning-Age Infants: Association with Growth, Feeding and Fish Intake*, International Journal of Environmental Research and Public Health | 2015 | Peer-reviewed | KR tHg occurrence in 252 healthy Korean infants (median age 11.1 months, range 6–22 months), 50% male; 2 cohorts: 2009/2010 (n=111) and... (n=252) |
+| 83 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | *[awaiting synthesis]* |
+| 84 | [[sources/lim2015-korea-kriefs-dietary-exposure-pb-cd-hg\|Lim et al. 2015]]. *Korean research project on the integrated exposure assessment of hazardous substances for food safety*, Environmental Health and Toxicology | 2015 | Peer-reviewed | KR Pb, Cd, tHg occurrence in Nationwide Korean population, all ages, 15 metropolitan areas and provinces, 102 sampling sites, 2010-2011 (n=4867) |
+| 85 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | international/EU/US Cd concentrations |
+| 86 | [[sources/kazimov2014-dietary-heavy-metals-azerbaijan\|Kazimov et al. 2014]]. *Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods*, Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal) | 2014 | Peer-reviewed | *[awaiting synthesis]* |
+| 87 | [[sources/ralston2014-selenium-hbv-methylmercury-seafood\|Ralston et al. 2014]]. *Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments*, Archives of Environmental Contamination and Toxicology | 2014 | Peer-reviewed | US/WHO MeHg, tHg occurrence in Theoretical/comparative analysis using reported Se and CH3Hg concentrations in ocean fish and other seafoods |
+| 88 | [[sources/minamata-convention-2013\|Programme 2013]]. *Minamata Convention on Mercury — Text and Annexes (2024 Edition)*, United Nations Environment Programme, Secretariat of the Minamata Convention on Mercury | 2013 | Government report | international Hg, MeHg concentrations |
+| 89 | [[sources/efsa-mercury-methylmercury-2012\|EFSA 2012]]. *Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food*, EFSA Journal 2012;10(12):2985 | 2012 | Government report | EU Hg, MeHg, iHg concentrations |
+| 90 | [[sources/awata2011-nhanes-asian-dietary-metals-biomarker\|Awata et al. 2011]]. *Association of Dietary Intake and Biomarker Levels of Arsenic, Cadmium, Lead, and Mercury among Asian Populations in the United States: NHANES 2011–2012*, Environmental Health Perspectives | 2011 | Peer-reviewed | US tAs, iAs, Cd, Pb, tHg occurrence in US Asians and other racial/ethnic groups from NHANES 2011-2012 nationally representative sample; first NHANES cycle to oversample Asians |
+| 91 | [[sources/farina-rocha-aschner-2011-mehg-mechanism\|Farina et al. 2011]]. *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*, Life Sciences 89(15-16):555-563 | 2011 | Peer-reviewed | international MeHg concentrations |
+| 92 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | international Cd, Pb concentrations |
+| 93 | [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|JMRS et al. 2010]]. *Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution*, Toxicology Letters 198(1):33–39 | 2010 | Peer-reviewed | LK Cd, Pb, Fe occurrence in Samples from Sri Lanka North Central Province (Anuradhapura, Polonnaruwa, Madawachchiya): rice (n≈40), pulses, fish (Tilapia, Channa), lotus rhizomes,... (n=140) |
+| 94 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb concentrations |
+| 95 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | EU iAs, tAs concentrations |
+| 96 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EU Cd concentrations |
+| 97 | [[sources/atsdr-arsenic-toxprofile-2007\|ATSDR 2007]]. *Toxicological Profile for Arsenic*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2007 | Government report | US iAs, tAs concentrations |
+| 98 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, ATSDR | 2005 | Government report | US Sn concentrations |
+| 99 | [[sources/jecfa-61st-methylmercury\|JECFA 2004]]. *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*, WHO Technical Report Series 922 | 2004 | Government report | international MeHg concentrations |
+| 100 | [[sources/epa-iris-methylmercury\|EPA 2001]]. *Methylmercury (MeHg) — IRIS Chemical Assessment Summary*, U.S. Environmental Protection Agency, Integrated Risk Information System | 2001 | Government report | US MeHg concentrations |
+| 101 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | international Cd, Pb, Hg, MeHg, iAs, Sn concentrations |
 <!-- END: hmi-source-legend -->

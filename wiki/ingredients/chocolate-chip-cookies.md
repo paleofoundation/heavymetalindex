@@ -99,20 +99,20 @@ Chocolate chip cookies are a composite baked product whose heavy metal profile i
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | data gap | — | — | — | — |
-| Cd | data gap | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | data gap | — | — | — | — |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | data gap | — | — | — |
+| Cd | data gap | — | — | — |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | data gap | — | — | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 300 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 

@@ -7,87 +7,104 @@ aliases: [plant-based milk, plant beverage]
 category: beverage-ingredient
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0, 13]
+    p95_ppb: 13
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [7, 24]
+    p95_ppb: 24
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 29]
+    p95_ppb: 46
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [176, 758]
+    p95_ppb: 1822
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [9, 58]
+    p95_ppb: 58
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [plant-milks-non-soy-non-rice, plant-milks-rice-based, plant-milks-soy-based]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 4
 ---
 
 # Plant milk base
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0–13 | low | [[sources/milani2023-trace-elements-soy-based-beverages\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
+| Cd | data gap | — | — | — |
+| iAs | n=1 | 7–24 | low | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|1]] |
+| tAs | n=3 | 9–58 | medium | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|1]], [[sources/milani2023-trace-elements-soy-based-beverages\|2]], [[sources/walther2022-plantbased-drinks-arsenic\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | n=2 | 5–29 | low | [[sources/milani2023-trace-elements-soy-based-beverages\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
+| Al | n=1 | 176–758 | low | [[sources/milani2023-trace-elements-soy-based-beverages\|1]] |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

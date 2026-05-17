@@ -5,28 +5,45 @@ commodity: soy
 aliases: [soya, soybean, soy protein, soy protein isolate, soy-based formula, soya-based formula]
 category: legume
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [2, 35], p95_ppb: 109, confidence: medium, n_studies: 9, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [1, 12], p95_ppb: 15, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [4700, 5900], p95_ppb: 7800, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [700, 2300], p95_ppb: 2720, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [5, 50], p95_ppb: 100, confidence: medium, n_studies: 4, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [5, 2000], p95_ppb: 2280, confidence: medium, n_studies: 3, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, acid-soils, cultivar, protein-isolation, fortification, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[products/infant-formula-powder-soy-based]]"]
 used_in_products: ["[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/plant-milks-soy-based]]"]
 audience: [regulator, educator, consumer, app]
 sources: 14
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Soy
 
 _Stub page. Kazi et al. 2009 reports higher average Al, Cd, and Pb in soy-based infant formula than milk-based formula in its Pakistan-market sample set, with soy-based formula means of Al 2270 ppb, Cd 11.7 ppb, and Pb 109.4 ppb on a dried-powder basis. Dabeka et al. 2011 reports Canada-market soy-based formula summaries across powder, concentrated liquid, and ready-to-use formats, including powdered soy formula Al mean 733 ng/g and Cd mean 1.56 ng/g as consumed. Burrell and Exley 2010 reports a soy-based infant formula powder with aluminum of 4.3 ug/g powder, equivalent to 629 ug/L when prepared according to manufacturer instructions. Chuchu et al. 2013 reports two soy-based infant formula powders with prepared estimates of 656 and 756 ug/L. Burrell and Exley suggest the elevated soy-formula value may reflect prior aluminum accumulation in soybean plants and aluminum tolerance of some soybean cultivars grown on acid soils, but none of these sources provides a soybean-only occurrence distribution. [[sources/kazi2009-toxic-elements-in-infant-formulae]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]]_
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 2–35 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
+| Cd | n=7 | 1–12 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 5–50 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | n=6 | 4700–5900 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/milani2023-trace-elements-soy-based-beverages\|3]] |
+| Al | n=7 | 700–2300 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/milani2023-trace-elements-soy-based-beverages\|2]], [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|3]] |
+| Cr | n=3 | 5–2000 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/milani2023-trace-elements-soy-based-beverages\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

@@ -13,7 +13,7 @@ vulnerable_population: children-2-12yr-and-adults
 applicable_regulations: [washington-tfca-toothpaste-pb-1000ppb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 1
+sources: 2
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care

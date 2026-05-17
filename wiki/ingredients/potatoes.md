@@ -10,64 +10,64 @@ contamination_profile:
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 11
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [15, 34]
     p95_ppb: 37.7
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 17
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [2, 15]
+    p95_ppb: 25
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [0, 48]
     p95_ppb: 79.4
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [200, 1000]
+    p95_ppb: 2500
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [0, 20]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 2.7
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [0, 0]
@@ -81,7 +81,7 @@ higher_risk_variants: ["[[ingredients/unpeeled-potato]]", "[[ingredients/potato-
 used_in_products: ["[[products/baby-food-vegetables]]", "[[products/french-fries]]", "[[products/potato-chips]]", "[[products/mashed-potato-products]]", "[[products/potato-starch-containing-baked-goods]]"]
 audience: [regulator, educator, consumer, app]
 sources: 22
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Potatoes
@@ -90,20 +90,20 @@ _Stub page. Contamination profile populates on the next ingest wave. Potatoes ar
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 0 | high | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
+| Cd | n=17 | 15–34 | high | [[sources/mohammadian-hafshejani2024-cadmium-prostate-cancer-meta\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
+| iAs | n=4 | 2–15 | low | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| tAs | n=9 | 0 | medium | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|3]] |
+| tHg | n=5 | 0 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=8 | 0–48 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
+| Al | n=5 | 200–1000 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| Cr | n=9 | 0 | medium | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|3]] |
+| Sn | n=3 | 0–20 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| U | n=2 | 0 | high | — |
 
 ## Why this commodity accumulates cadmium
 

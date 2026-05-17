@@ -7,87 +7,104 @@ aliases: []
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0.5, 15]
+    p95_ppb: 50
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0.1, 2]
+    p95_ppb: 3.5
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0.5, 3]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [2, 12]
+    p95_ppb: 13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 5
 ---
 
 # Infant Formula Powder
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0.5–15 | medium | [[sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\|1]], [[sources/original2020-original-a\|2]], [[sources/signes-pastor2022-infant-elements-nhbcs\|3]] |
+| Cd | n=3 | 0.1–2 | medium | [[sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\|1]], [[sources/original2020-original-a\|2]], [[sources/signes-pastor2022-infant-elements-nhbcs\|3]] |
+| iAs | n=3 | 0.5–3 | medium | [[sources/original2020-original-a\|1]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|2]], [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|3]] |
+| tAs | n=4 | 2–12 | medium | [[sources/original2020-original-a\|1]], [[sources/signes-pastor2022-infant-elements-nhbcs\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

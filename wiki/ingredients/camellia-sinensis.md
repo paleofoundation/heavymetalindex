@@ -7,87 +7,104 @@ aliases: [tea leaves, black tea, green tea, white tea, oolong tea]
 category: botanical
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [400, 1500]
+    p95_ppb: 5000
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [40, 200]
+    p95_ppb: 350
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [3, 40]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5000, 15000]
+    p95_ppb: 30000
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [200000, 500000]
+    p95_ppb: 975000
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [500, 3000]
+    p95_ppb: 5060
+    confidence: high
+    n_studies: 12
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0, 200]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: 1830
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [kombucha-tea-based, matcha, true-tea-camellia-sinensis]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 15
 ---
 
 # Camellia sinensis
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=13 | 400–1500 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Cd | n=13 | 40–200 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=10 | 50–500 | medium | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| tHg | n=6 | 3–40 | medium | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Ni | n=8 | 5000–15000 | medium | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/kazeminia2023-tea-heavy-metals-review\|3]] |
+| Al | n=6 | 200000–500000 | medium | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/kazeminia2023-tea-heavy-metals-review\|3]] |
+| Cr | n=12 | 500–3000 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Sn | n=2 | 0–200 | low | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 

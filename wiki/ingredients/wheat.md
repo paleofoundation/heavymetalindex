@@ -7,67 +7,67 @@ category: grain
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [10, 100]
+    p95_ppb: 650
+    confidence: high
+    n_studies: 28
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [10, 50]
+    p95_ppb: 216
+    confidence: high
+    n_studies: 39
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 12]
+    p95_ppb: 12
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 5]
+    p95_ppb: 30
+    confidence: high
+    n_studies: 14
+    last_reviewed: 2026-05-16
   Ni:
-    status: in_progress
+    status: populated
     typical_ppb: [100, 800]
     p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-11
+    confidence: high
+    n_studies: 16
+    last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [2700, 6000]
+    p95_ppb: 6000
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [100, 1000]
+    p95_ppb: 1000
+    confidence: high
+    n_studies: 18
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 20]
+    p95_ppb: 20
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [3, 20]
+    p95_ppb: 50
+    confidence: high
+    n_studies: 19
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ higher_risk_variants: ["[[ingredients/wheat-bran]]", "[[ingredients/wheat-germ]]
 used_in_products: ["[[products/bread]]", "[[products/pasta]]", "[[products/cereals]]", "[[products/baked-goods]]", "[[products/baby-cereal]]", "[[products/wheat-based-snacks]]", "[[products/crackers]]", "[[products/couscous]]", "[[products/bulgur]]"]
 audience: [regulator, educator, consumer, app]
 sources: 49
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Wheat
@@ -90,20 +90,20 @@ _Stub page. Contamination profile populates on the next ingest wave. Wheat is id
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found. The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | pending | — | — | — | — |
-| Cd | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni | n=1 (in progress) | 100 – 800 | — | low | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm 1984]] |
-| Al | pending | — | — | — | — |
-| Cr | pending | — | — | — | — |
-| Sn | pending | — | — | — | — |
-| U | pending | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=28 | 10–100 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Cd | n=39 | 10–50 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/ozkutlu2026-wheat-cd-zinc-mitigation\|2]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|3]] |
+| iAs | n=8 | 0–12 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
+| tAs | n=19 | 3–20 | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|3]] |
+| tHg | n=14 | 0–5 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Ni | n=16 | 100–800 | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| Al | n=8 | 2700–6000 | medium | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Cr | n=18 | 100–1000 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Sn | n=5 | 0–20 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

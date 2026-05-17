@@ -95,20 +95,20 @@ Fruit juice ready drinks are diluted, ready-to-consume juice beverages that comb
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–29.9 | medium | — |
+| Cd | n=1 | 0–0.2 | high | — |
+| iAs | n=1 | 0–3.6 | medium | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.2 | high | — |
+| Ni | n=1 | 63 | low | — |
+| Al | n=1 | 0–2560 | low | — |
+| Cr | n=1 | 48.6–65.4 | low | — |
+| Sn | n=1 | 0–8.9 | low | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

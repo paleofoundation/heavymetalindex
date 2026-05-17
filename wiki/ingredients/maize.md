@@ -6,22 +6,22 @@ label: "Maize"
 aliases: []
 category: grain
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [1260, 2092], p95_ppb: 2673, confidence: medium, n_studies: 4, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [null, 179], p95_ppb: null, confidence: medium, n_studies: 3, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [180, 620], p95_ppb: 620, confidence: medium, n_studies: 3, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [300, 680], p95_ppb: 680, confidence: medium, n_studies: 4, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, geography, processing]
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
+updated: 2026-05-16
 sources: 9
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -34,18 +34,20 @@ This page is an autonomy-created stub. The routing audit identified 3 source pag
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 1260–2092 | medium | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/afonne2020-heavy-metals-plant-foods\|3]] |
+| Cd | n=3 | up to 179 | medium | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/afonne2020-heavy-metals-plant-foods\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | data gap | — | — | — |
+| Ni | n=3 | 180–620 | medium | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/afonne2020-heavy-metals-plant-foods\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=4 | 300–680 | medium | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/afonne2020-heavy-metals-plant-foods\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -59,3 +61,4 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | *[awaiting synthesis]* |
 | 4 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
+

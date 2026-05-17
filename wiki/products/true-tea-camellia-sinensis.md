@@ -16,7 +16,7 @@ public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 0
+sources: 4
 ---
 
 # True Tea (Camellia Sinensis)
@@ -94,6 +94,16 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/cadmium\|Cd]] | True tea (Camellia sinensis) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- Source promotion pending.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/hu2023-china-tea-heavy-metals\|Hu et al. 2023]]. *Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China*, Toxics | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/kazeminia2023-tea-heavy-metals-review\|Kazeminia et al. 2023]]. *Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review*, Carpathian Journal of Food Science and Technology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/salmani2023-herbal-teas-metals-review\|Salmani et al. 2023]]. *Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review*, Biological Trace Element Research | 2023 | Review | *[awaiting synthesis]* |
+| 4 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

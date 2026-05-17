@@ -10,7 +10,7 @@ redirect_target: advisory/skin-lightening-products
 redirect_target_pending: false
 audience: [regulator, educator, consumer]
 updated: 2026-05-16
-sources: 1
+sources: 2
 ---
 
 # Skin Lightening Cream — RETIRED (out of HMTc scope)

@@ -99,20 +99,20 @@ Ham, as a cured pork product derived from the hind leg of swine, accumulates hea
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0–6.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|2]] |
+| Cd | n=2 | 0–2.2 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–3.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0–2.6 | high | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 
@@ -195,6 +195,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Ham, cured (not canned), baked (n=27); detectable concentrations for Cd, Cr, Ni, Pb, U, tAs |
-| 2 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania.md\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 

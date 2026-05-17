@@ -7,87 +7,104 @@ aliases: []
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [3, 100]
+    p95_ppb: 700
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [1, 30]
+    p95_ppb: 100
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0, 50]
+    p95_ppb: 312
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 200]
+    p95_ppb: 15000
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [200, 500]
+    p95_ppb: 500
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 50]
+    p95_ppb: 83
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [2, 10]
+    p95_ppb: 50
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [meat-and-poultry-purees]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 7
 ---
 
 # Beef
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 3–100 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
+| Cd | n=7 | 1–30 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/altalib2025-frozen-meat-libya\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 2–10 | medium | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/mohamed2023-heavy-metals-beef-egypt\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| tHg | n=5 | 0–50 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|3]] |
+| Ni | n=3 | 50–200 | medium | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/kasozi2021-uganda-beef-metals\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Al | n=2 | 200–500 | low | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Cr | n=4 | 10–50 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|2]], [[sources/kasozi2021-uganda-beef-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

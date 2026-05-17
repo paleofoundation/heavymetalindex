@@ -5,15 +5,15 @@ commodity: fruit
 aliases: [apple, pear, peach, banana, berries, "fruit puree", compote, dried-fruit, "dried fruits", cherries, kiwi, pineapple, persimmon, papaya, jackfruit, lemon, muskmelon, melons, pineapple-peel]
 category: fruit
 contamination_profile:
-  Pb: { status: populated, typical_ppb: [5, 50], p95_ppb: 150, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
-  Cd: { status: populated, typical_ppb: [5, 50], p95_ppb: 130, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
-  iAs: { status: populated, typical_ppb: [1, 10], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
-  tHg: { status: populated, typical_ppb: [1, 10], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
-  Ni: { status: populated, typical_ppb: [30, 200], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
-  Al: { status: populated, typical_ppb: [100, 600], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
-  tAs: { status: populated, typical_ppb: [5, 30], p95_ppb: null, confidence: low, n_studies: 5, last_reviewed: 2026-05-16 }
-  Cr: { status: populated, typical_ppb: [20, 100], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
-  Sn: { status: populated, typical_ppb: [10, 100], p95_ppb: 500, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  Pb: { status: populated, typical_ppb: [5, 50], p95_ppb: 150, confidence: high, n_studies: 21, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [5, 50], p95_ppb: 130, confidence: high, n_studies: 21, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [1, 10], p95_ppb: 15, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [1, 10], p95_ppb: 42, confidence: high, n_studies: 12, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [30, 200], p95_ppb: 500, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [100, 4000], p95_ppb: 9100, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [5, 30], p95_ppb: 50, confidence: high, n_studies: 18, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [20, 100], p95_ppb: 200, confidence: medium, n_studies: 9, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [10, 100], p95_ppb: 500, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
   U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, variety, processing, packaging]
 lower_risk_variants: []
@@ -27,6 +27,23 @@ updated: 2026-05-16
 # Fruit
 
 _Stub page. Chekri et al. 2019 reports a French infant fruit-puree category and identifies fruit purees as the highest-tin infant-food category in that study. The source gives category-level values, not fruit-by-fruit distributions. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=21 | 5–50 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|2]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|3]] |
+| Cd | n=21 | 5–50 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|2]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|3]] |
+| iAs | n=8 | 1–10 | medium | [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|1]], [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
+| tAs | n=18 | 5–30 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|3]] |
+| tHg | n=12 | 1–10 | high | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
+| Ni | n=6 | 30–200 | medium | [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| Al | n=8 | 100–4000 | medium | [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| Cr | n=9 | 20–100 | medium | [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|1]], [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|2]], [[sources/mekonnen2024-ethiopia-fruit-metals\|3]] |
+| Sn | n=5 | 10–100 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

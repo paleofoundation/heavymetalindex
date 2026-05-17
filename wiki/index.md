@@ -80,7 +80,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">97</a></dd>
+      <dd><a href="sources/">99</a></dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
@@ -88,7 +88,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">782</a></dd>
+      <dd><a href="sources/">784</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
@@ -96,7 +96,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">141</a></dd>
+      <dd><a href="regulations/">142</a></dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
@@ -112,10 +112,10 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Regulation pages</dt>
-      <dd><a href="regulations/">37</a></dd>
+      <dd><a href="regulations/">38</a></dd>
     </div>
   </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-05-16. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-05-17. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
 </section>
 <!-- END: hmi-corpus-counter -->
 

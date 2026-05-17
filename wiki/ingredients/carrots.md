@@ -5,28 +5,45 @@ commodity: carrots
 aliases: [carrot, carrot puree, carrot-based baby food]
 category: root-vegetable
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [5, 30], p95_ppb: 50, confidence: medium, n_studies: 10, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [3, 10], p95_ppb: 50, confidence: medium, n_studies: 10, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [0, 1], p95_ppb: 1, confidence: medium, n_studies: 3, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [40, 200], p95_ppb: 234, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [500, 2000], p95_ppb: 2140, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [10, 30], p95_ppb: 50, confidence: medium, n_studies: 9, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [10, 100], p95_ppb: 125, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, root-tissue, geography, processing]
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
 sources: 13
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Carrots
 
 _Stub page. Chekri et al. 2019 identifies carrots as a high-barium example within vegetable categories consumed by French infants and toddlers, including a carrot value of 1450 ug/kg in the vegetable-based ready-to-eat-meal category. This source does not yet provide a carrot-specific p90 or a complete carrot-only distribution. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=10 | 5–30 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/fda-ctz-Pb-babyfood-2025\|2]], [[sources/malone2024-community-garden-soils-us\|3]] |
+| Cd | n=10 | 3–10 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/malone2024-community-garden-soils-us\|2]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=9 | 10–30 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/malone2024-community-garden-soils-us\|2]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|3]] |
+| tHg | n=3 | 0–1 | medium | [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
+| Ni | n=6 | 40–200 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
+| Al | n=2 | 500–2000 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/stasinos2014-heavy-metals-tubers-review\|2]] |
+| Cr | n=7 | 10–100 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

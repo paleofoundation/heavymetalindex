@@ -36,24 +36,24 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
+    typical_ppb: [1, 10]
+    p95_ppb: 59
+    confidence: medium
+    n_studies: 3
     last_reviewed: 2026-05-16
   Ni:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
+    typical_ppb: [500, 3000]
+    p95_ppb: 5000
+    confidence: low
+    n_studies: 3
     last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
+    typical_ppb: [11000, 920000]
+    p95_ppb: 920000
+    confidence: medium
+    n_studies: 3
     last_reviewed: 2026-05-16
   Cr:
     status: populated
@@ -98,18 +98,20 @@ Cinnamon, like turmeric, has a bimodal heavy-metals distribution driven by adult
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=7       | 50–5,000      | 50,000    | high   | [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|6]], [[sources/angelon-gaetz2018-lead-spices-north-carolina\|1]], [[sources/huff2025-spices-lancaster-pa\|4]] |
-| Cd  | n=5       | 20–500        | —         | medium | [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]], [[sources/tinggi2025-spices-herbs-queensland\|7]] |
-| iAs | data gap  | —             | —         | —      | — |
-| tAs | n=4       | 10–500        | —         | medium | [[sources/huff2025-spices-lancaster-pa\|4]], [[sources/lhaac2025-csp41-herbs-spices-wa\|5]] |
-| tHg | n=1       | —             | —         | —      | [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| Ni  | n=1       | —             | —         | —      | [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| Al  | n=1       | —             | —         | —      | [[sources/lhaac2025-csp41-herbs-spices-wa\|5]] |
-| Cr  | n=3       | 50–5,000      | —         | medium | [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|6]] |
-| Sn  | data gap  | —             | —         | —      | — |
-| U   | data gap  | —             | —         | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 50–5000 | high | [[sources/lhaac2025-csp41-herbs-spices-wa\|1]], [[sources/huff2025-spices-lancaster-pa\|2]], [[sources/tinggi2025-spices-herbs-queensland\|3]] |
+| Cd | n=5 | 20–500 | medium | [[sources/lhaac2025-csp41-herbs-spices-wa\|1]], [[sources/huff2025-spices-lancaster-pa\|2]], [[sources/tinggi2025-spices-herbs-queensland\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 10–500 | medium | [[sources/lhaac2025-csp41-herbs-spices-wa\|1]], [[sources/huff2025-spices-lancaster-pa\|2]], [[sources/tinggi2025-spices-herbs-queensland\|3]] |
+| tHg | n=3 | 1–10 | medium | [[sources/lhaac2025-csp41-herbs-spices-wa\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
+| Ni | n=3 | 500–3000 | low | [[sources/lhaac2025-csp41-herbs-spices-wa\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
+| Al | n=3 | 11000–920000 | medium | [[sources/lhaac2025-csp41-herbs-spices-wa\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
+| Cr | n=3 | 50–5000 | medium | [[sources/lhaac2025-csp41-herbs-spices-wa\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

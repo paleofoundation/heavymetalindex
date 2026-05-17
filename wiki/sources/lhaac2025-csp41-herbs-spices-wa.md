@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices/Coordinated Sampling Project 41_ Microbial and Heavy Metal Detect.pdf"
 metals: [Pb, Cd, tAs, tHg, Al, Cr, Ni]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/cinnamon]]"]
-products: ["[[products/herbs-and-spices]]", "[[products/spices]]"]
+products: ["[[products/spices]]", "[[products/spices]]"]
 matrices: [herbs, spices, spice-powder, fresh-herbs, dried-herbs]
 jurisdictions: [AU]
 near_duplicates: []

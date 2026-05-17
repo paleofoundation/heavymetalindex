@@ -14,7 +14,7 @@ primary_metals_of_concern: [Pb, Cd]
 applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 0
+sources: 1
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Shampoo / Baby Body Wash

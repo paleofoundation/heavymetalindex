@@ -9,7 +9,7 @@ primary_metals_of_concern: [Al, Cd, Pb]
 vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
-sources: 1
+sources: 2
 updated: 2026-04-29
 ---
 
@@ -131,5 +131,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | Canadian survey reporting Pb, Cd, and Al in oral electrolyte solutions (Cd at or below 0.01 ng/g; Pb mean 0.16 ng/g); primary occurrence source for this product row |
+| 1 | [[sources/gardener2019-pb-cd-us-infant-formula-baby-foods\|Gardener et al. 2019]]. *Lead and cadmium contamination in a large sample of United States infant formulas and baby foods*, Science of the Total Environment | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | Canadian survey reporting Pb, Cd, and Al in oral electrolyte solutions (Cd at or below 0.01 ng/g; Pb mean 0.16 ng/g); primary occurrence source for this product row |
 <!-- END: hmi-source-legend -->

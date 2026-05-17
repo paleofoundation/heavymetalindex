@@ -6,87 +6,104 @@ aliases: [fungi, "wild-harvested mushrooms", porcini, chanterelle, morel, boletu
 category: fungi
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [200, 1200]
+    p95_ppb: 2600
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [400, 2000]
+    p95_ppb: 4000
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 200]
+    p95_ppb: 400
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [100, 3000]
+    p95_ppb: 5000
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [280, 900]
+    p95_ppb: 1500
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [soil-substrate-cadmium, species-efficient-accumulator, wild-harvest-vs-cultivated, mycelium-surface-area]
 lower_risk_variants: ["[[ingredients/cultivated-button-mushrooms]]", "[[ingredients/cultivated-portobello]]"]
 higher_risk_variants: ["[[ingredients/wild-porcini]]", "[[ingredients/wild-chanterelle]]", "[[ingredients/boletus-species]]", "[[ingredients/dried-wild-mushroom]]", "[[ingredients/mushroom-extract-supplements]]"]
 used_in_products: ["[[products/dried-mushroom]]", "[[products/mushroom-powder]]", "[[products/mushroom-supplements]]", "[[products/mushroom-sauces]]", "[[products/pates]]", "[[products/foraged-mushroom-products]]"]
 audience: [regulator, educator, consumer, app]
 sources: 9
-updated: 2026-04-24
+updated: 2026-05-16
 ---
 
 # Wild Mushrooms
 
 _Stub page. Contamination profile populates on the next ingest wave. Wild mushrooms, as distinct from cultivated mushrooms, are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] within the "fungi" category as among the highest-cadmium food commodities; regular consumers show mean dietary cadmium exposure of 4.3 µg/kg b.w./week, above the EFSA tolerable weekly intake of 2.5._
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 200–1200 | medium | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
+| Cd | n=5 | 400–2000 | medium | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
+| iAs | n=2 | 50–200 | low | [[sources/walenta2024-arsenic-speciation-mushrooms\|1]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|2]] |
+| tAs | n=5 | 280–900 | low | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/walenta2024-arsenic-speciation-mushrooms\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| tHg | n=3 | 100–3000 | low | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|1]], [[sources/braeuer2022-mercury-selenium-mushrooms-la-icpms\|2]], [[sources/orywal2021-heavy-metals-dried-mushrooms\|3]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

@@ -7,87 +7,104 @@ aliases: [mustard-greens, watercress, water-spinach]
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 200]
+    p95_ppb: 610
+    confidence: high
+    n_studies: 19
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 150]
+    p95_ppb: 400
+    confidence: high
+    n_studies: 22
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [1, 15]
+    p95_ppb: 50
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [35, 560]
+    p95_ppb: 3465
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [1000, 50000]
+    p95_ppb: 150000
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 560]
+    p95_ppb: 1551
+    confidence: high
+    n_studies: 15
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0, 10]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 250]
+    p95_ppb: 410
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 29
 ---
 
 # Leafy Greens
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=19 | 5–200 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/chiutula2025-wastewater-vegetables-malawi\|3]] |
+| Cd | n=22 | 5–150 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/chiutula2025-wastewater-vegetables-malawi\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=11 | 5–250 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| tHg | n=6 | 1–15 | medium | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Ni | n=13 | 35–560 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-nd-vegetables-hra\|3]] |
+| Al | n=3 | 1000–50000 | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cr | n=15 | 10–560 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-nd-vegetables-hra\|3]] |
+| Sn | n=2 | 0–10 | low | [[sources/fera2015-uk-tds-metals\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 

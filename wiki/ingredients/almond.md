@@ -8,80 +8,80 @@ category: tree-nut
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [10, 220]
+    p95_ppb: 400
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [10, 30]
+    p95_ppb: 60
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [1, 10]
+    p95_ppb: 20
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Ni:
-    status: in_progress
+    status: populated
     typical_ppb: [1000, 1500]
     p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-11
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [100, 253]
+    p95_ppb: 500
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-13
+    typical_ppb: [1, 10]
+    p95_ppb: 30
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [plant-milks-non-soy-non-rice]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 7
 ---
 
@@ -91,20 +91,20 @@ This is a structural ingredient node created so product pages can link to a real
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | data gap | — | — | — | — |
-| Cd | data gap | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | data gap | — | — | — | — |
-| Ni | n=1 (in progress) | 1000–1500 | — | low | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 10–220 | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cd | n=2 | 10–30 | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 1–10 | low | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| tHg | n=2 | 1–10 | low | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Ni | n=4 | 1000–1500 | medium | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 100–253 | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates heavy metals
 
@@ -173,11 +173,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|Xinghui et al. 2024]]. *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*, Chinese Journal of Public Health | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/henriksen2023-chromium-nordic-nnr\|Henriksen et al. 2023]]. *Chromium – a scoping review for Nordic Nutrition Recommendations 2023*, Food & Nutrition Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | Pb and Ni in retail almond milk from Spain by ICP-MS; Pb BDL, Ni trace; finished-beverage context for processed almond-derived product metals |
-| 5 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | *[awaiting synthesis]* |
-| 6 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Ni content baseline for almonds from 1969–1982 Danish literature survey; almonds high-Ni food (load factor F >> 1); foundational reference for dietary Ni burden |
+| 1 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|Xinghui et al. 2024]]. *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*, Chinese Journal of Public Health | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/henriksen2023-chromium-nordic-nnr\|Henriksen et al. 2023]]. *Chromium – a scoping review for Nordic Nutrition Recommendations 2023*, Food & Nutrition Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | Pb and Ni in retail almond milk from Spain by ICP-MS; Pb BDL, Ni trace; finished-beverage context for processed almond-derived product metals |
+| 6 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | *[awaiting synthesis]* |
+| 7 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Ni content baseline for almonds from 1969–1982 Danish literature survey; almonds high-Ni food (load factor F >> 1); foundational reference for dietary Ni burden |
 <!-- END: hmi-source-legend -->
 

@@ -7,87 +7,104 @@ aliases: []
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 80]
+    p95_ppb: 200
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [20, 150]
+    p95_ppb: 400
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [5, 30]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 10]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [100, 800]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [500, 5000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [30, 200]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [10, 80]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [baby-cereals-dry-non-rice, mixed-meals-non-rice, teething-and-snacks-non-rice]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 14
 ---
 
 # Non Rice Grains
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 10–80 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
+| Cd | n=11 | 20–150 | high | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/katebe2024-vegetables-lubumbashi\|3]] |
+| iAs | n=4 | 5–30 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|2]], [[sources/efsa-arsenic-contam-2009\|3]] |
+| tAs | n=6 | 10–80 | medium | [[sources/katebe2024-vegetables-lubumbashi\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/balbo2022-bread-contaminants-poland\|3]] |
+| tHg | n=5 | 1–10 | medium | [[sources/ibrahim2024-food-heavy-metals-nigeria\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| Ni | n=2 | 100–800 | low | [[sources/balbo2022-bread-contaminants-poland\|1]], [[sources/mania2020-nickel-cereal-grains-poland\|2]] |
+| Al | n=3 | 500–5000 | low | [[sources/balbo2022-bread-contaminants-poland\|1]] |
+| Cr | n=4 | 30–200 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/balbo2022-bread-contaminants-poland\|2]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

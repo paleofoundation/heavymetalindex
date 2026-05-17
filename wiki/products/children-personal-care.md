@@ -14,7 +14,7 @@ category_label: "Children Personal Care"
 evidence_fitness: EF-5
 hmtc_row_count: 16
 updated: 2026-05-16
-sources: 1
+sources: 8
 created_by: cat2_step0_alignment_2026_05_16
 ---
 

@@ -10,9 +10,9 @@ contamination_profile:
     status: populated
     typical_ppb: [0.3, 2.5]
     p95_ppb: 2.6
-    confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 0]
@@ -25,15 +25,15 @@ contamination_profile:
     typical_ppb: [0, 3.6]
     p95_ppb: 5.5
     confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [1.4, 4]
     p95_ppb: 4.2
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
@@ -66,9 +66,9 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 8.9]
     p95_ppb: 9.0
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [0, 0]
@@ -97,20 +97,20 @@ Tin (Sn) is a secondary contamination concern specific to canned apple juice, wh
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | — | — |
-| Cd | n=2 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=2 (in progress) | — | — | — | — |
-| Ni | n=2 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=2 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0.3–2.5 | medium | [[sources/paudel2024-packaged-fruit-juices-nepal\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fda2018-lead-in-juice-fy2005-fy2018\|3]] |
+| Cd | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]] |
+| iAs | n=4 | 0–3.6 | medium | [[sources/fda2023-ias-apple-juice-guidance\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|3]] |
+| tAs | n=5 | 1.4–4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|2]], [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|3]] |
+| tHg | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=3 | 0–16 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
+| Al | n=1 | 0–2560 | low | — |
+| Cr | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
+| Sn | n=4 | 0–8.9 | medium | [[sources/tarigan2016-factors-tin-released-canned-beverages\|1]], [[sources/atsdr2005-tin-toxicological-profile\|2]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|3]] |
+| U | n=2 | 0 | low | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|1]] |
 
 ## Routing
 

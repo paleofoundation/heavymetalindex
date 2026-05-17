@@ -32,7 +32,7 @@ contamination_profile:
     typical_ppb: [5, 150]
     p95_ppb: null
     confidence: medium
-    n_studies: 4
+    n_studies: 5
     last_reviewed: 2026-05-16
   tHg:
     status: populated
@@ -46,7 +46,7 @@ contamination_profile:
     typical_ppb: [50, 1000]
     p95_ppb: null
     confidence: medium
-    n_studies: 4
+    n_studies: 5
     last_reviewed: 2026-05-16
   Al:
     status: populated
@@ -60,7 +60,7 @@ contamination_profile:
     typical_ppb: [10, 400]
     p95_ppb: null
     confidence: medium
-    n_studies: 4
+    n_studies: 5
     last_reviewed: 2026-05-16
   Sn:
     status: populated
@@ -98,18 +98,20 @@ Lettuce takes metals from soil predominantly through root uptake and from atmosp
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=7       | 10–300   | 800     | high   | [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]], [[sources/owusuadoma2024-ghana-lettuce-metals\|4]] |
-| Cd  | n=7       | 20–250   | 600     | high   | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|2]] |
-| iAs | data gap  | —        | —       | —      | — |
-| tAs | n=4       | 5–150    | —       | medium | [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|8]], [[sources/sandil2023-arsenic-bean-lettuce\|7]] |
-| tHg | n=2       | 0–10     | —       | low    | [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
-| Ni  | n=4       | 50–1,000 | —       | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|4]] |
-| Al  | n=1       | —        | —       | —      | [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
-| Cr  | n=4       | 10–400   | —       | medium | [[sources/owusuadoma2024-ghana-lettuce-metals\|4]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|6]] |
-| Sn  | data gap  | —        | —       | —      | — |
-| U   | data gap  | —        | —       | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 10–300 | high | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/owusuadoma2024-ghana-lettuce-metals\|3]] |
+| Cd | n=7 | 20–250 | high | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 5–150 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|3]] |
+| tHg | n=2 | 0–10 | low | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]] |
+| Ni | n=5 | 50–1000 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/owusuadoma2024-ghana-lettuce-metals\|3]] |
+| Al | n=1 | — | — | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]] |
+| Cr | n=5 | 10–400 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/owusuadoma2024-ghana-lettuce-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

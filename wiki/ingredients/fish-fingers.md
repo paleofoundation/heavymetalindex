@@ -95,20 +95,20 @@ Fish fingers are a composite food whose heavy metal burden derives primarily fro
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | — | — |
-| Cd | n=2 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=2 (in progress) | — | — | — | — |
-| Ni | n=2 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=2 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0–3.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=3 | 11.2–12.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | n=1 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 682–810 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=3 | 5.7–9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=3 | 93.2–134 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | n=1 | 0–1752 | medium | — |
+| Cr | n=3 | 200–360 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | n=1 | 0–30.8 | medium | — |
+| U | n=2 | 0.2–1.5 | low | — |
 
 ## Routing
 

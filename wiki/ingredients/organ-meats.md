@@ -6,87 +6,104 @@ aliases: [kidney, liver, offal, "variety meats", pate, liverwurst, "kidney pie",
 category: organ-meat
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [100, 800]
+    p95_ppb: 4600
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 230]
+    p95_ppb: 1500
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 280]
+    p95_ppb: 500
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [100, 220]
+    p95_ppb: 300
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [290, 14000]
+    p95_ppb: 18000
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [110, 600]
+    p95_ppb: 1422
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [bioaccumulation-in-target-organ, animal-age, species, feed-cadmium]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/older-animal-organ-meat]]", "[[ingredients/horsemeat-offal]]"]
 used_in_products: ["[[products/pate]]", "[[products/sausages]]", "[[products/organ-meat-pies]]", "[[products/liver-based-baby-food]]", "[[products/nutritional-supplements]]", "[[products/pet-food]]"]
 audience: [regulator, educator, consumer, app]
 sources: 13
-updated: 2026-04-24
+updated: 2026-05-16
 ---
 
 # Organ Meats (Kidney and Liver)
 
 _Stub page. Contamination profile populates on the next ingest wave. Organ meats, particularly kidney and liver, are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] as among the highest-cadmium food commodities because these are the organs in food animals where cadmium preferentially accumulates, mirroring the accumulation pattern in humans._
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 100–800 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| Cd | n=11 | 50–230 | high | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | n=2 | 10–280 | low | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| Ni | n=2 | 100–220 | low | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]] |
+| Al | n=1 | 290–14000 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]] |
+| Cr | n=5 | 110–600 | medium | [[sources/marcelino2026-liver-trace-metals-netherlands-herbivores\|1]], [[sources/meligy2024-camel-meat-toxic-elements\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

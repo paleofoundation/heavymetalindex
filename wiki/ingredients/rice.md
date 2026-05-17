@@ -10,78 +10,78 @@ contamination_profile:
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 61
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [3.5, 9.7]
     p95_ppb: 19
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 86
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [41.6, 41.6]
     p95_ppb: 41.6
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: high
+    n_studies: 74
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 45
+    last_reviewed: 2026-05-16
   Ni:
-    status: in_progress
+    status: populated
     typical_ppb: [80, 450]
     p95_ppb: null
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-11
+    confidence: high
+    n_studies: 23
+    last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [200, 1500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 30
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [0, 20]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [30.2, 62]
     p95_ppb: 66.9
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 95
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
 drivers: [soil-uptake, flooded-paddy, irrigation-water-management, geography, cultivar, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
 sources: 157
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Rice
@@ -90,20 +90,20 @@ _Stub page. Contamination profile populates on the next ingest wave. Rice is ide
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=61 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
+| Cd | n=86 | 3.5–9.7 | high | [[sources/qin2026-rice-cadmium-liver-cancer-guangxi\|1]], [[sources/ji2026-agricultural-soil-metals-zhejiang\|2]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|3]] |
+| iAs | n=74 | 41.6 | high | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|1]], [[sources/yan2025-rice-heavy-metals-henan-china\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
+| tAs | n=95 | 30.2–62 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|2]], [[sources/xie2026-selenium-enriched-rice-china\|3]] |
+| tHg | n=45 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|3]] |
+| Ni | n=23 | 80–450 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Al | n=11 | 200–1500 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
+| Cr | n=30 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
+| Sn | n=11 | 0–20 | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| U | n=4 | 0 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/gama2025-bvl-rice-trace-elements\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
 
 ## Why this commodity accumulates cadmium
 

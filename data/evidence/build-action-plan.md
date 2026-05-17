@@ -2,7 +2,7 @@
 title: Build Action Plan
 type: orchestrator-plan
 generated_at: 2026-05-16
-action_count: 9
+action_count: 7
 audience: [internal]
 noindex: true
 ---
@@ -17,22 +17,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 1. Triage 134 routing-unresolved entries
-
-**Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
-**Strategy:** triage
-**Priority score:** 60.3 (impact 201 × confidence 0.9 ÷ cost factor)
-**Cost:** medium
-**Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
-**Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
-
-**What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
-
-**Details:** 134 entries broken down as: 51 product, 83 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
-
----
-
-## 2. Recover real DOIs for 92 source pages currently marked no_doi_assigned with Scholar fallback
+## 1. Recover real DOIs for 92 source pages currently marked no_doi_assigned with Scholar fallback
 
 **Action ID:** `FIX-MISSING-DOIS`
 **Strategy:** schema
@@ -47,37 +32,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 3. Complete 21 autonomy-created stub ingredient pages with routed sources (top: fruits=4, legumes=4, cucumbers=3, maize=3, mango-juice=3)
-
-**Action ID:** `COMPLETE-AUTONOMY-STUBS`
-**Strategy:** synthesis
-**Priority score:** 43.3 (impact 153 × confidence 0.85 ÷ cost factor)
-**Cost:** medium
-**Best dispatched to:** Claude Code Opus (per-page deep-read of routed sources + multi-section drafting)
-**Session prompt:** [`data/evidence/build-action-prompts/COMPLETE-AUTONOMY-STUBS.md`](../../data/evidence/build-action-prompts/COMPLETE-AUTONOMY-STUBS.md)
-
-**What this closes:** ingredient pages auto-created from routing_unresolved that have inbound source-page declarations but empty bodies and all-pending contamination_profile. Filling these pages converts ingested sources into actual wiki content — the load-bearing fix for Karen's 2026-05-15 'wasting time with our ingests' diagnostic. Each page graduates to non-stub status, which means future routing-audit and mandatory-sections lint passes can detect it as a real page rather than an exempt placeholder.
-
-**Details:** 21 stubs identified by created_by: autonomy_v0 frontmatter; total routed sources across all stubs: 51. The orchestrator prioritizes by routed-source count (highest first). Each page needs: contamination_profile advanced from pending to populated for the metals the routed sources report; body table updated; the 8 mandatory CLAUDE.md Part 6 sections drafted; source legend filled with 1-sentence "Used on this page for" descriptions.
-
----
-
-## 4. Run synthesis pass on 231 (ingredient, metal) cells that have 2+ contributing sources
-
-**Action ID:** `SYNTHESIS-INGREDIENT-PENDING`
-**Strategy:** synthesis
-**Priority score:** 43.3 (impact 462 × confidence 0.75 ÷ cost factor)
-**Cost:** expensive
-**Best dispatched to:** Claude Code Opus (analytical: cross-source synthesis)
-**Inline action:** `list_ready_synthesis_cells` (the orchestrator can execute this directly; not yet wired in v0)
-
-**What this closes:** ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules
-
-**Details:** 926 ingredient × metal cells are currently pending. Of those, 231 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 695 cells have 0-1 contributing sources and need more corpus before synthesis runs.
-
----
-
-## 5. Populate 1965 *[awaiting synthesis]* cells in source-legend tables across 280 pages
+## 2. Populate 1965 *[awaiting synthesis]* cells in source-legend tables across 280 pages
 
 **Action ID:** `POPULATE-SOURCE-LEGEND`
 **Strategy:** schema
@@ -92,7 +47,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 6. Fix 13 food/personal-care source pages with products: [] (Phase 1 gate)
+## 3. Fix 13 food/personal-care source pages with products: [] (Phase 1 gate)
 
 **Action ID:** `FIX-EMPTY-PRODUCTS-ON-FOOD-PAPERS`
 **Strategy:** schema
@@ -107,7 +62,7 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 7. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
+## 4. Expand wishlist for 33 (product, metal) cells with no structured evidence loaded
 
 **Action ID:** `WISHLIST-EXPAND-FOR-BLOCKED-CELLS`
 **Strategy:** wishlist-update
@@ -122,7 +77,37 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 
 ---
 
-## 8. Investigate 15 HMTc-locked product pages with zero routed sources (Phase 5 gate)
+## 5. Ingest 97 staged PDFs and produce source pages
+
+**Action ID:** `INGEST-STAGED`
+**Strategy:** ingest
+**Priority score:** 23.0 (impact 194 × confidence 0.95 ÷ cost factor)
+**Cost:** expensive
+**Best dispatched to:** Obsidian Sonnet (cheaper per-token for bulk work)
+**Session prompt:** [`data/evidence/build-action-prompts/INGEST-STAGED.md`](../../data/evidence/build-action-prompts/INGEST-STAGED.md)
+
+**What this closes:** wishlist gaps (each PDF likely closes one or more) + brings ingredient/product pages closer to populated
+
+**Details:** 97 files in raw/manual-fetch/seasonal-geographic-variance/ (manual drops + auto-fetched). Each produces a source page per CLAUDE.md Part 8; routing audit fans them out automatically via the watcher.
+
+---
+
+## 6. Triage 38 routing-unresolved entries
+
+**Action ID:** `TRIAGE-ROUTING-UNRESOLVED`
+**Strategy:** triage
+**Priority score:** 17.1 (impact 57 × confidence 0.9 ÷ cost factor)
+**Cost:** medium
+**Best dispatched to:** Claude Code Opus (analytical: typo fix vs new page vs detector bug)
+**Session prompt:** [`data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md`](../../data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md)
+
+**What this closes:** downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10
+
+**Details:** 38 entries broken down as: 30 product, 8 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.
+
+---
+
+## 7. Investigate 15 HMTc-locked product pages with zero routed sources (Phase 5 gate)
 
 **Action ID:** `FIX-LOCKED-PRODUCTS-WITH-ZERO-SOURCES`
 **Strategy:** synthesis
@@ -133,21 +118,6 @@ Per OPERATING.md Part 2, action impact is weighted toward stakeholder priority (
 **What this closes:** scaffolded HMTc rows that never received their Phase 1 ingest. Each row is a brand-legal-facing page where the literature evidence is currently empty, which means the page reads as unsupported on the live site. Some may legitimately have thin literature (matcha, sports-energy-drinks); others may be misroutes.
 
 **Details:** Today's failures: baby-lotion-cream, baby-oil, baby-powder-cornstarch, baby-shampoo-body-wash, baby-sunscreen-chemical, baby-sunscreen-mineral, baby-wipes, childrens-nail-polish, diaper-cream-non-zno, diaper-cream-zno, flavored-waters, matcha, soft-drinks-carbonated-beverages, sports-energy-drinks, vegetable-juices-root-vegetable-containing. For each row, check whether (a) the corpus has sources that should route but their frontmatter is wrong, (b) the matrix vocabulary needs an entry in data/evidence/matrix-to-product-map.json, or (c) the literature is genuinely thin and the page should carry a "literature is thin for this row" caveat.
-
----
-
-## 9. Draft missing mandatory sections on 2 non-stub product pages (2 missing the load-bearing Levers section)
-
-**Action ID:** `COMPLETE-PRODUCT-SECTIONS`
-**Strategy:** schema
-**Priority score:** 6.8 (impact 8 × confidence 0.85 ÷ cost factor)
-**Cost:** cheap
-**Best dispatched to:** Claude Code Opus (per-page levers + section drafting)
-**Session prompt:** [`data/evidence/build-action-prompts/COMPLETE-PRODUCT-SECTIONS.md`](../../data/evidence/build-action-prompts/COMPLETE-PRODUCT-SECTIONS.md)
-
-**What this closes:** product-category pages missing one or more of the ten mandatory sections per CLAUDE.md Part 6. The Levers to reduce contamination section is the brand-legal-actionable surface; most pages are missing it specifically.
-
-**Details:** Product pages are higher per-page impact than ingredient pages because brand legal reads them. The Levers section requires ordering interventions by impact magnitude across five categories (sourcing, agronomic, processing, formulation, QC, packaging where relevant) with cited magnitude estimates. Autonomous; no Karen review required.
 
 ---
 

@@ -11,35 +11,35 @@ contamination_profile:
     typical_ppb: [50, 300]
     p95_ppb: 800
     confidence: medium
-    n_studies: 5
+    n_studies: 10
     last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [200, 1500]
     p95_ppb: 4000
-    confidence: medium
-    n_studies: 5
+    confidence: high
+    n_studies: 13
     last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [10, 80]
     p95_ppb: null
-    confidence: low
-    n_studies: 4
+    confidence: medium
+    n_studies: 6
     last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [20, 200]
     p95_ppb: 500
-    confidence: medium
-    n_studies: 5
+    confidence: high
+    n_studies: 14
     last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [100, 1000]
     p95_ppb: null
-    confidence: low
-    n_studies: 4
+    confidence: medium
+    n_studies: 5
     last_reviewed: 2026-05-16
   Al:
     status: populated
@@ -52,8 +52,8 @@ contamination_profile:
     status: populated
     typical_ppb: [100, 500]
     p95_ppb: null
-    confidence: low
-    n_studies: 3
+    confidence: medium
+    n_studies: 4
     last_reviewed: 2026-05-16
   Sn:
     status: populated
@@ -67,7 +67,7 @@ contamination_profile:
     typical_ppb: [1000, 10000]
     p95_ppb: 20000
     confidence: medium
-    n_studies: 5
+    n_studies: 10
     last_reviewed: 2026-05-16
   U:
     status: populated
@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/bivalve-molluscs]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 28
+sources: 29
 ---
 
 # Shellfish
@@ -92,6 +92,23 @@ Shellfish is the regulatory umbrella covering crustaceans (shrimp, crab, lobster
 The cadmium-shellfish relationship is the strongest single-metal signal in the dietary-exposure literature: EFSA, JECFA, and the FDA all treat bivalve molluscs as a leading dietary Cd source for shellfish-consuming populations, comparable to organ meats and cereals. The total-vs-inorganic arsenic distinction (per CLAUDE.md Part 14) is non-negotiable for shellfish; tAs values appear alarmingly high but most of that signal is arsenobetaine, which is excreted intact and lacks the toxicity of iAs.
 
 This page is the structural umbrella; [[ingredients/bivalve-molluscs]] carries bivalve-specific evidence and is the higher-risk subcategory for Cd. Crustacean-specific detail will land on dedicated pages as the corpus grows.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=10 | 50–300 | medium | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/taylor2025-seafood-benefits-contaminants\|3]] |
+| Cd | n=13 | 200–1500 | high | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/taylor2025-seafood-benefits-contaminants\|3]] |
+| iAs | n=6 | 10–80 | medium | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| tAs | n=10 | 1000–10000 | medium | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/taylor2025-seafood-benefits-contaminants\|2]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|3]] |
+| tHg | n=14 | 20–200 | high | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/taylor2025-seafood-benefits-contaminants\|3]] |
+| Ni | n=5 | 100–1000 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|3]] |
+| Al | n=2 | 500–5000 | low | [[sources/li2025-ratiometric-fluorescent-sensor-al-cu-food\|1]], [[sources/berber2024-crayfish-metal-content-turkey\|2]] |
+| Cr | n=4 | 100–500 | medium | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|2]], [[sources/ramos-miras2023-pte-shrimp-ecuador\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -127,12 +144,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 17 | [[sources/ramos-miras2023-pte-shrimp-ecuador\|Ramos-Miras et al. 2023]]. *Potentially toxic element bioaccumulation in consumed indoor shrimp farming associated with diet, water and sediment levels*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 18 | [[sources/cegolon2022-hg-hair-trieste\|Cegolon et al. 2022]]. *Concentration of mercury in human hair and associated factors in residents of the Gulf of Trieste (North-Eastern Italy)*, Environmental Science and Pollution Research | 2022 | Peer-reviewed | *[awaiting synthesis]* |
 | 19 | [[sources/moura2022-hg-jaguaribe-estuary\|Moura et al. 2022]]. *Mercury in the Jaguaribe River Estuary, Northeast Brazil: Sources, Distribution, and Bioavailability*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 20 | [[sources/cfs2019-organotin-aquatic-hongkong\|Centre for Food Safety 2019]]. *Organotin Compounds in Aquatic Products Available at Local Markets*, Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD | 2019 | Government report | *[awaiting synthesis]* |
-| 21 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | Joint FDA/EPA consumer-facing fish and shellfish consumption guidance anchored to MeHg exposure, classifying species by mercury tier for pregnant women and children |
-| 22 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical toxicological chapter on Cd covering dietary exposure sources including shellfish and bivalve molluscs as high-Cd contributors |
-| 23 | [[sources/shue2012-bivalves-tapeng-taiwan\|Shue et al. 2012]]. *Seasonal variations of heavy metals in the bivalve's mollusks from Ta-Peng Bay lagoon in southwestern Taiwan*, Advanced Materials Research | 2012 | Peer-reviewed | *[awaiting synthesis]* |
-| 24 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | JECFA dietary exposure assessment for Cd identifying shellfish (particularly molluscs) as a significant contributor to the PTMI of 25 µg/kg b.w./month |
-| 25 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM opinion establishing the EU Cd TWI at 2.5 µg/kg b.w./week, with shellfish and bivalve molluscs identified among the highest-Cd food groups in European diets |
-| 26 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | *[awaiting synthesis]* |
+| 20 | [[sources/raju2021-bivalves-cagayan-philippines\|Raju et al. 2021]]. *Heavy Metal Determination of Bivalves in Cagayan Valley, Philippines*, Scholars Academic Journal of Biosciences | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 21 | [[sources/cfs2019-organotin-aquatic-hongkong\|Centre for Food Safety 2019]]. *Organotin Compounds in Aquatic Products Available at Local Markets*, Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD | 2019 | Government report | *[awaiting synthesis]* |
+| 22 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | Joint FDA/EPA consumer-facing fish and shellfish consumption guidance anchored to MeHg exposure, classifying species by mercury tier for pregnant women and children |
+| 23 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical toxicological chapter on Cd covering dietary exposure sources including shellfish and bivalve molluscs as high-Cd contributors |
+| 24 | [[sources/shue2012-bivalves-tapeng-taiwan\|Shue et al. 2012]]. *Seasonal variations of heavy metals in the bivalve's mollusks from Ta-Peng Bay lagoon in southwestern Taiwan*, Advanced Materials Research | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 25 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | JECFA dietary exposure assessment for Cd identifying shellfish (particularly molluscs) as a significant contributor to the PTMI of 25 µg/kg b.w./month |
+| 26 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM opinion establishing the EU Cd TWI at 2.5 µg/kg b.w./week, with shellfish and bivalve molluscs identified among the highest-Cd food groups in European diets |
+| 27 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 

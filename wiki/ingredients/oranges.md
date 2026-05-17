@@ -10,16 +10,16 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [0, 0]
@@ -45,9 +45,9 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 60.2]
     p95_ppb: 74.1
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [95.7, 861.3]
@@ -59,9 +59,9 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [3.7, 6.8]
@@ -95,20 +95,20 @@ Oranges are one of the lowest-risk food categories for heavy metal accumulation.
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | — | — |
-| Cd | n=2 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=2 (in progress) | — | — | — | — |
-| Ni | n=2 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=2 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cd | n=6 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 0 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=3 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=4 | 0–60.2 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/afrin2020-heavy-metals-fruits-dhaka\|3]] |
+| Al | n=1 | 95.7–861.3 | low | — |
+| Cr | n=5 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Sn | n=1 | 3.7–6.8 | low | — |
+| U | n=2 | 0 | high | — |
 
 ## Routing
 

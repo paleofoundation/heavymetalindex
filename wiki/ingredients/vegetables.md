@@ -5,28 +5,45 @@ commodity: vegetables
 aliases: ["vegetable puree", "vegetable-based meal", "green vegetables", "mixed vegetables", canned-vegetables]
 category: vegetable
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [5, 50], p95_ppb: 200, confidence: high, n_studies: 38, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [5, 50], p95_ppb: 300, confidence: high, n_studies: 41, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [1, 10], p95_ppb: 20, confidence: high, n_studies: 14, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [0, 5], p95_ppb: 20, confidence: high, n_studies: 22, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [30, 200], p95_ppb: 340, confidence: high, n_studies: 21, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [100, 1000], p95_ppb: 2140, confidence: medium, n_studies: 10, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [5, 30], p95_ppb: 100, confidence: high, n_studies: 30, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [50, 200], p95_ppb: 500, confidence: high, n_studies: 21, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [5, 30], p95_ppb: 500, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, root-vs-leaf-tissue, geography, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/spinach]]", "[[ingredients/carrots]]", "[[ingredients/potatoes]]"]
 used_in_products: ["[[products/non-root-vegetable-purees]]", "[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
 sources: 53
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Vegetables
 
 _Stub page. Chekri et al. 2019 reports soups/purees and vegetable-based ready-to-eat meals for French infants and toddlers, but does not split root from non-root vegetables in the main trace-element table. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=38 | 5–50 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
+| Cd | n=41 | 5–50 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
+| iAs | n=14 | 1–10 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| tAs | n=30 | 5–30 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
+| tHg | n=22 | 0–5 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| Ni | n=21 | 30–200 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| Al | n=10 | 100–1000 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/suomi2023-finland-dietary-metals-cumulative\|3]] |
+| Cr | n=21 | 50–200 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/imongben2026-kaduna-vegetables-hra\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| Sn | n=8 | 5–30 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

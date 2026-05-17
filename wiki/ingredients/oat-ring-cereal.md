@@ -101,20 +101,20 @@ The FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] fo
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0.9–6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 16.6–23.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 24.8–33.6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 2080–3040 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 10–250 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 7.2–8.8 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 

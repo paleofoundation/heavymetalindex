@@ -5,28 +5,45 @@ commodity: meat-and-poultry
 aliases: [meat, poultry, chicken, turkey, beef, pork, game]
 category: terrestrial-animal
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [1, 50], p95_ppb: 700, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [1, 30], p95_ppb: 230, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [0, 20], p95_ppb: 310, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [50, 250], p95_ppb: null, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [300, 600], p95_ppb: null, confidence: low, n_studies: 3, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [1, 30], p95_ppb: null, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [10, 70], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [0, 50], p95_ppb: null, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [animal-feed, organ-content, processing, mixed-meal-formulation]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/organ-meats]]"]
 used_in_products: ["[[products/meat-and-poultry-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
 sources: 11
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Meat And Poultry
 
 _Stub page. Chekri et al. 2019 reports meat/fish-based ready-to-eat infant meals as a combined category, so this source cannot isolate meat and poultry from fish-containing baby foods. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=8 | 1–50 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
+| Cd | n=6 | 1–30 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 1–30 | medium | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/meligy2024-camel-meat-toxic-elements\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
+| tHg | n=5 | 0–20 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
+| Ni | n=5 | 50–250 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/eccles2024-polar-bear-metals-traditional-food\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
+| Al | n=3 | 300–600 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cr | n=4 | 10–70 | low | [[sources/meligy2024-camel-meat-toxic-elements\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| Sn | n=2 | 0–50 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

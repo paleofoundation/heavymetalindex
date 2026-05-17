@@ -15,15 +15,15 @@ contamination_profile:
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 11
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0.6, 6.7]
     p95_ppb: 7.2
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -35,23 +35,23 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -63,16 +63,16 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [50, 400]
+    p95_ppb: 600
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [0, 0]
@@ -85,7 +85,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 12
 ---
 
@@ -99,20 +99,20 @@ Tomato is a botanical fruit grown close to the soil surface, and its metal burde
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 0 | high | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| Cd | n=9 | 0.6–6.7 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | 0 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|3]] |
+| Ni | n=7 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/salem2024-tomato-remediated-soil-egypt\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=7 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/samma2024-bangladesh-vegetable-metals\|3]] |
+| Sn | n=3 | 50–400 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/kangre2024-canned-tomato-pb-sn-ghana\|2]], [[sources/muniz2018-tomato-sauce-packaging-metals\|3]] |
+| U | n=2 | 0 | high | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 

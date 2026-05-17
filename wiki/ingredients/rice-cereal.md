@@ -7,87 +7,104 @@ aliases: []
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 20]
+    p95_ppb: 170
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 60]
+    p95_ppb: 190
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [80, 200]
+    p95_ppb: 323
+    confidence: high
+    n_studies: 6
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0, 2]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0, 50]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [100, 300]
+    p95_ppb: 400
+    confidence: high
+    n_studies: 5
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [baby-cereals-dry-rice-based]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 10
 ---
 
 # Rice Cereal
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 5–20 | medium | [[sources/fda-ctz-Pb-babyfood-2025\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/price2023-biokinetic-lead-baby-food-blls\|3]] |
+| Cd | n=4 | 10–60 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
+| iAs | n=6 | 80–200 | high | [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|1]], [[sources/fda-iAs-rice-cereal-2020\|2]], [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|3]] |
+| tAs | n=5 | 100–300 | high | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation\|3]] |
+| tHg | n=3 | 0–2 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | n=2 | 0–50 | low | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 

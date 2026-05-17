@@ -10,9 +10,9 @@ contamination_profile:
     status: populated
     typical_ppb: [10, 600]
     p95_ppb: 1500
-    confidence: medium
-    n_studies: 12
-    last_reviewed: 2026-05-15
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [20, 400]
@@ -31,9 +31,9 @@ contamination_profile:
     status: populated
     typical_ppb: [5, 200]
     p95_ppb: null
-    confidence: low
-    n_studies: 5
-    last_reviewed: 2026-05-15
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 20]
@@ -45,16 +45,16 @@ contamination_profile:
     status: populated
     typical_ppb: [50, 1500]
     p95_ppb: null
-    confidence: low
-    n_studies: 5
-    last_reviewed: 2026-05-15
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-15
+    typical_ppb: [4000, 35000]
+    p95_ppb: 45000
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
     typical_ppb: [10, 500]
@@ -64,11 +64,11 @@ contamination_profile:
     last_reviewed: 2026-05-15
   Sn:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-15
+    typical_ppb: [0, 40]
+    p95_ppb: 210
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
@@ -98,18 +98,20 @@ The leafy vegetable contamination problem combines plant biology with siting and
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=12      | 10–600  | 1,500   | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/kim2024-metals-kale-urban-rural-maryland\|14]] |
-| Cd  | n=12      | 20–400  | 900     | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|5]], [[sources/guo2024-cadmium-bioaccessibility-pak-choi\|12]] |
-| iAs | n=3       | 1–50    | —       | low    | [[sources/cfs2012-hktds-inorganic-arsenic\|7]] |
-| tAs | n=5       | 5–200   | —       | low    | [[sources/cfs2013-hktds-metallic-contaminants\|8]] |
-| tHg | n=2       | 0–20    | —       | low    | [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]] |
-| Ni  | n=5       | 50–1500 | —       | low    | [[sources/ali2024-leek-microbial-metals-iraq\|4]], [[sources/han2024-nickel-zhejiang-china\|13]] |
-| Al  | n=1       | —       | —       | —      | [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]] |
-| Cr  | n=6       | 10–500  | —       | low    | [[sources/ahmed2019-irrigation-water-bangladesh-seasonal\|3]] |
-| Sn  | data gap  | —       | —       | —      | — |
-| U   | data gap  | —       | —       | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=13 | 10–600 | high | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|3]] |
+| Cd | n=12 | 20–400 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|3]] |
+| iAs | n=3 | 1–50 | low | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/cfs2012-hktds-inorganic-arsenic\|2]] |
+| tAs | n=7 | 5–200 | medium | [[sources/malone2024-community-garden-soils-us\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|3]] |
+| tHg | n=2 | 0–20 | low | [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|1]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|2]] |
+| Ni | n=6 | 50–1500 | medium | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/han2024-nickel-zhejiang-china\|2]], [[sources/ali2024-leek-microbial-metals-iraq\|3]] |
+| Al | n=4 | 4000–35000 | medium | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|1]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
+| Cr | n=6 | 10–500 | low | [[sources/armand2026-lettuce-cabbage-behbahan\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
+| Sn | n=2 | 0–40 | low | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|1]], [[sources/cfs2013-hktds-metallic-contaminants\|2]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
