@@ -1,3 +1,2 @@
 source_id,source_page,target_kind,declared_target,note
-introduction2025-concentrations-heavy-metals-processed,wiki/sources/introduction2025-concentrations-heavy-metals-processed.md,product,baby-food,Source declares a product page that does not exist and is not a known broad-scope token. Either fix the frontmatter slug or propose a new product page per Part 10.
 introduction2025-concentrations-heavy-metals-processed,wiki/sources/introduction2025-concentrations-heavy-metals-processed.md,ingredient,baby-food,"Source declares an ingredient page that does not exist. Either fix the frontmatter slug or propose a new ingredient page per Part 10 (5-paper threshold; below that, add as alias on parent ingredient)."
