@@ -22,12 +22,24 @@ For each `raw/gpt-drafts/<handle>.md` (where `<handle>` is FM_XXXXXXX, MFK_..., 
 - **SKIP line at top?** If the file starts with `SKIP: <reason>`, move the file to `raw/gpt-drafts/_skipped/` and log the skip in `log.md` with the reason. Do not promote.
 - **Handle matches filename?** The `<!-- gpt-draft for <handle> -->` comment on line 1 must match the filename. Mismatch → move to `_quarantine/` and flag to Karen.
 - **Raw source exists?** Confirm the file at `raw_path` is real before promoting. For FM_ handles this is `raw/markdown/FM_XXXXXXX/FM_XXXXXXX.md`. For MFK_/MR_/PCMF_ handles this is the original PDF under `raw/Manual Fetch Kimi /`, `raw/Manual Resourcing/`, or `raw/Papers Cube Manual Fetch/` respectively.
-- **Not already ingested?** Run three duplicate checks before promoting:
+- **Existing-page check (not "duplicate detection" — duplicates are expected and welcome).** Run three identity checks before promoting:
   1. `grep -rl "doi: .*<doi>" wiki/sources/` — DOI is the most robust content-identity check, since the same paper can enter the wiki via Marker, manual fetch, or direct PDF, each producing a different raw_handle.
   2. `grep -l "raw_handle: <handle>" wiki/sources/` — catches the case where the same raw_handle was processed twice.
   3. `ls wiki/sources/ | grep <firstauthor-lowercase><year>` — catches cite-key collisions even if DOI is null/wrong.
 
-  Any hit means the paper is a duplicate. Move the draft to `_quarantine/` with the existing page's cite_key in the filename (`_quarantine/<handle>_DUPLICATE_OF_<existing-cite-key>.md`) and surface to Karen. Do not silently overwrite the existing page; do not silently promote a second page with a different cite_key for the same paper. If the GPT draft contains substantively better content than the existing page (richer Key numbers, corrected values, better methods detail, valid slugs where prior page had invented ones), the correct action is still to flag — Karen decides whether to merge GPT improvements into the existing page or not. Per Part 5 of CLAUDE.md, one source page per paper is the invariant.
+  The action depends on the input mode:
+
+  **Mode B (MFK_/MR_/PCMF_ handles): a hit means MERGE-ENHANCE, not quarantine.** Karen hand-curated these PDFs specifically because the wiki needs better coverage of them. The default action is:
+  - Read the existing page in full.
+  - Compare against the GPT draft. Identify every defect in the existing page: invented slugs, transposed values, missing tables, thin Key numbers, legacy headings (`## Summary`, `## Wiki pages updated on ingest`), missing exposure/EDI calculations, missing replicate-sample structure, brand-by-brand listings (Part 12 violation), invented method detail, missing speciation flags.
+  - Read the source PDF or Marker markdown to verify which version is correct on every numerical disagreement.
+  - Write a merged version that takes the better content from both, applies all current schema/firewall rules, and keeps the existing cite_key/filename to avoid breaking inbound links. Preserve metadata the existing page had (access_url, raw_sha256) and add what was missing.
+  - Add a verification note at the bottom documenting what was enhanced from the prior revision and why.
+  - This is the Cochrane standard: every hand-curated paper gets a properly-ingested page, even if a defective one already exists.
+
+  **Mode A (FM_ handles): a hit means quarantine.** The Marker corpus is the high-volume firehose; if a paper is already there from a prior ingest, the GPT draft is redundant by default. Quarantine and surface to Karen so she can compare and decide. (She may still ask for a merge-enhance pass if the existing page is bad; this just isn't the default.)
+
+  **True conflicts (either mode):** if the DOI grep returns a hit but the cite_key or author surname suggests a different paper (e.g., same DOI assigned to two different titles, two different DOIs for what GPT claims is the same paper), quarantine and flag. These are data-integrity issues that need Karen's eyes.
 
 ### 2. Cross-check against the source
 
