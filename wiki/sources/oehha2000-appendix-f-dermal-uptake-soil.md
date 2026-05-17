@@ -12,54 +12,57 @@ source_type: gov-report
 evidence_tier: A
 license: "Public domain (California state government work)"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Appendix_F_-_Dermal_Uptake_of_Chemicals_from_Soil_OEHHA.pdf"
-metals: [As, Cd, Pb, tHg, Ni, Cr-VI, Be]
+metals: [tAs, Cd, Pb, tHg, Ni, Cr-VI, Be]
 ingredients: []
 products: []
 matrices: [soil]
 jurisdictions: [US]
 near_duplicates: []
 sample_n: null
-sample_population: "Regulatory guidance; per-metal dermal absorption fraction (ABS) recommendations derived from review of in-vivo and in-vitro percutaneous-absorption studies"
+sample_population: "Regulatory guidance; per-chemical dermal absorption fraction (ABS) point estimates derived from review of in-vivo and in-vitro percutaneous-absorption studies (no primary measurement)"
 updated: 2026-05-17
 ---
 
 # OEHHA 2000 — Appendix F: Dermal absorption fractions for soil-bound chemicals (Cal/EPA Hot Spots TSD)
 
-This September 2000 OEHHA Technical Support Document Appendix F provides California's recommended dermal absorption fractions (ABS) for soil-bound chemicals used in the Air Toxics Hot Spots program. The chemicals reviewed include arsenic, beryllium, cadmium, mercury, lead, nickel, hexavalent chromium, and several organic compounds (TCDD, PAHs, PCBs, pentachlorophenol). Per-metal ABS recommendations are point estimates derived from review of in-vivo human, in-vivo animal, and in-vitro percutaneous-absorption studies; OEHHA values diverge from the prior 1% default for inorganics (Clement Associates 1988) when chemical-specific evidence warrants it.
+This September 2000 OEHHA Technical Support Document Appendix F provides California's recommended dermal absorption fractions (ABS) for soil-bound chemicals used in the Air Toxics Hot Spots program. The chemicals reviewed include the inorganic salts of arsenic, beryllium, cadmium, mercury, lead, nickel, and hexavalent chromium, plus several organic compounds (TCDD/PCDD/PCDF, PCBs, BaP/PAHs, hexachlorocyclohexanes, DEHP, pentachlorophenol). Per-chemical ABS recommendations are point estimates derived from review of in-vivo human, in-vivo animal, and in-vitro percutaneous-absorption studies. OEHHA values diverge from the prior 1% Clement Associates (1988) default for inorganics when chemical-specific evidence supports a different value.
 
 ## Key numbers
 
-- Recommended dermal ABS point estimates from soil (per metal):
-  - Arsenic: 3-5% (water vs soil similar binding; Wester et al. 1992a, 1993b in vivo monkey study) — final recommendation 6% appears in some OEHHA companion documents but Appendix F states 3-5% range based on the Wester studies (Section F.1.3.6 discussion, p. 18).
-  - Cadmium: 0.1% from soil (vs 9-13% from water); much lower binding to soil than to powdered stratum corneum (Wester et al. 1992a, 1993b).
-  - Lead: 1% (OEHHA recommendation, p. 16). USEPA does not currently recommend a number; Cal/EPA DTSC default is 1%; CAPCOA 1993 default is 0.1%. OEHHA selects 1% based on inorganic default and available human studies (Moore et al. 1980 lead acetate from cosmetic vehicles 0.058 ± 0.081% mean, range 0-0.3%; Stauber et al. 1994 disappearance technique 29% absorbed but disappearance method overestimates).
-  - Mercury: 10% (OEHHA recommendation, p. 19). Based on Baranowska-Dutkiewicz 1982 (5-60 min HgCl2 occluded exposure: 20%, 29%, 37%, 60%, 64% at 5, 10, 15, 30, 60 min) and Wester et al. 1995 in vitro 203HgCl2 in soil at 24 h: skin content 6.1-10.4% of dose. Replaces prior 1% default.
-  - Nickel: 4% (OEHHA recommendation, p. 19). Based on Fullerton et al. 1986 occluded human in vitro Ni chloride 3.6% / Ni sulfate 0.3%; under occlusion 9-16%. OEHHA picks 4% from chloride solution as protective default.
-- Organic compounds (for cross-reference):
-  - PCBs (Aroclor 1242/1254): 14% (Wester et al. 1993a)
-  - PCDD/PCDF (as TCDD): 2% (Shu et al. 1988)
-  - PAHs (as benzo[a]pyrene): not stated in pages read; referenced 13% in EPA RAGS Part E
-  - Pentachlorophenol: not stated in pages read
-- Methodological notes:
-  - Soil loading typical for human exposure: USEPA 1992 recommends 0.2-1.0 mg/cm² (Section F.1.2.4, p. 3). Many studies use 20-40 mg/cm², overestimating fractional absorption.
-  - In vivo > in vitro absorption for most chemicals; in vivo data preferable for exposure assessment.
-  - Species rank: rabbit > rat > pig ≈ monkey ≈ humans (Wester and Maibach 1975, 1983) — caution when extrapolating rat/rabbit ABS to humans.
-- Specific human-data examples for Pb (Section F.1.3.5):
-  - Moore et al. 1980 (n=8, lead-203 in cream/lotion to forehead, 12 h): mean uptake 0.058 ± 0.081% applied dose (range 0-0.3%); when dried and skin slightly abraded, 0.18 ± 0.339%.
-  - Lilly et al. 1988 (lead nitrate 0.5 M, 6.2 mg Pb applied, 24 h occluded to forearm): lead in sweat sampled from unexposed arm increased from 25 µg/L baseline to 261 µg/L at 21 h to 370 µg/L 1 day after exposure; saliva from 15 µg/L baseline to 115 µg/L at 3 h.
-  - Stauber et al. 1994 (4.4 mg Pb(NO3)2 24 h occluded; 3.1 mg recovered from filter+wash): estimated 29% absorbed by disappearance — flagged as overestimate.
-- Specific human-data example for Hg (Section F.1.3.6):
-  - Baranowska-Dutkiewicz 1982: 8 male volunteers; aqueous HgCl2 0.01, 0.1, 0.2 M applied to 22 cm² forearm; rate decreased from 9.3 µg/cm²/min at 5 min exposure to 2.5 µg/cm²/min at 60 min; percutaneous absorption 20%, 29%, 37%, 60%, 64% at 5, 10, 15, 30, 60 min respectively.
+OEHHA recommended dermal ABS point estimates from soil (per metal; section references are to Appendix F):
+
+- Arsenic: 4% (F.1.3.1, p. F-8). Based on Wester et al. 1993b in vivo Rhesus monkey study (n=4 per dose group): 4.5 ± 3.2% absorption at low dose (0.0004 µg/cm²) and 3.2 ± 1.9% at high dose (0.6 µg/cm²), nonsignificant difference; arithmetic mean = 4%. Soil load 0.04 g/cm², 24 h exposure. In-vitro human cadaver-skin replicate of same study gave 0.8%. DTSC and EPA Region IX use 3%.
+- Beryllium: 1% (F.1.3.2, p. F-9). No quantitative dermal-absorption data located; OEHHA adopts the Clement Associates 1988 default for inorganics (consistent with Cal/EPA DTSC, EPA Region IX, CAPCOA 1993).
+- Cadmium: 0.1% (F.1.3.3, p. F-11). Based on Wester et al. 1992a in vitro human cadaver skin: ¹⁰⁹Cd-labeled CdCl₂ adsorbed to soil at 13 ppb, soil loads 0.02 and 0.04 g/cm², 16 h exposure; mean of 12 samples (2 soil concentrations × 2 skin sources × 3 replicates) was 0.1%; individual values ranged 0.08-0.2% (Table 6.12). USEPA 1992 recommends 0.1-1.0%.
+- Chromium (VI): 1% (F.1.3.4, p. F-14). No chemical-specific number derivable from available studies; OEHHA adopts the Clement Associates 1988 default. Available studies (Baranowska-Dutkiewicz 1981 in humans 3.4-23% from aqueous, with disappearance technique caveats; Wahlberg and Skog 1965; Czernielewski et al. 1965 1.3% in guinea pig) suggest 1% may be too low but data are insufficient to derive a chemical-specific value.
+- Lead: 1% (F.1.3.5, p. F-16). OEHHA adopts the Clement Associates 1988 default consistent with Cal/EPA DTSC. USEPA does not currently recommend a number for dermal Pb absorption. Quantitative human data are limited: Moore et al. 1980 (n=8, lead-203 acetate from cream/lotion to forehead, 12 h) reported mean whole-body uptake of 0.058 ± 0.081% (range 0-0.3%), rising to 0.18 ± 0.339% when preparation was dried and skin slightly abraded; Lilly et al. 1988 and Stauber et al. 1994 estimated 29% absorbed by disappearance technique (24 h occluded lead nitrate to forearm), flagged as overestimate.
+- Mercury: 10% (F.1.3.6, p. F-19). Order-of-magnitude default based on Baranowska-Dutkiewicz 1982 (n=8 male volunteers, aqueous HgCl₂ to forearm, 0.01-0.2 M, 22 cm² occluded; absorption 20%, 29%, 37%, 60%, 64% at 5, 10, 15, 30, 60 min) and Wester et al. 1995 abstract (in vitro ²⁰³HgCl₂ in soil at 24 h: skin content 10.4 ± 6.8%, 6.1 ± 2.0%, 7.2 ± 10.8% of dose at 5, 10, 40 mg soil loads). Replaces prior 1% Clement default.
+- Nickel: 4% (F.1.3.7, p. F-20). Based on Fullerton et al. 1986 in vitro human skin, nickel chloride hexahydrate under occlusion (3.6% in experiment 1; 9-16% in experiment 2, attributed to donor-skin variability); nickel sulfate gave 0.3% under occlusion. OEHHA selects 4% from the chloride data as a protective default. Prior Cal/EPA DTSC and CAPCOA 1993 default was 1%.
+
+OEHHA recommended dermal ABS point estimates from soil for organics (Appendix F also covers these; included for cross-reference):
+
+- PCBs (Aroclor 1242/1254): 14% (F.1.4.1, p. F-23). Wester et al. 1993a in vivo Rhesus monkey.
+- PCDD/PCDF (as TCDD): 2% (F.1.4.2, p. F-27). Shu et al. 1988 in vivo rat.
+- BaP/PAHs: 13% (F.1.4.3, p. F-31). Wester et al. 1990 in vivo Rhesus monkey, 24 h dermal absorption factor 13.2 ± 3.4% (n=4).
+- Hexachlorocyclohexanes (lindane): 10% (F.1.4.5, p. F-32). Clement Associates 1988 default for organics; only one soil study located (Duff and Kissel 1995, in vitro, 0.45-2.35%).
+- DEHP: 10% (F.1.4.6, p. F-33). No soil studies located; default for organics.
+
+Methodological notes:
+
+- Soil loading: USEPA 1992 recommends 0.2-1.0 mg/cm² as typical human exposure (F.1.2.4, p. F-3). Many cited studies use 20-40 mg/cm², which can overestimate fractional absorption relative to typical exposure.
+- In vivo > in vitro absorption for most chemicals; OEHHA prefers in vivo data for exposure assessment.
+- Species rank for in-vivo uptake: rabbit > rat > pig ≈ monkey ≈ humans (Wester and Maibach 1975, 1983), based on chemicals not including the inorganics or BaP; species-extrapolation caution noted.
+- Occlusion can substantially increase absorption (5-10×) for some chemicals.
 
 ## Methods (brief)
 
-OEHHA-issued regulatory guidance document; no primary measurement. Per-chemical ABS values derived from systematic review of percutaneous-absorption literature: in-vivo human, in-vivo animal (rabbit, rat, monkey), and in-vitro (human cadaver skin, isolated skin flaps, diffusion cells). Selection criteria: prefer in-vivo human; prefer non-occluded over occluded; prefer soil-matrix experiments over solvent-only; prefer endpoints from urinary/fecal excretion over disappearance from skin surface. Each chemical section has "Studies Considered" (Key Study + Other Studies) followed by "Selection of Absorption Value" with Discussion / Other Agencies' Default Values / Recommendation. Limitations stated: data on lead and mercury absorption are quite limited; in-vitro studies tend to underestimate vs in-vivo; disappearance technique overestimates; occlusion can increase absorption 5-10x; particle size, soil organic content, and soil loading all modify chemical-specific ABS.
+OEHHA-issued regulatory technical support document; no primary measurement. Per-chemical ABS values derived from systematic review of percutaneous-absorption literature: in-vivo human, in-vivo animal (rabbit, rat, monkey), and in-vitro (human cadaver skin, isolated skin flaps, diffusion cells). Selection criteria favor in-vivo human data over animal; non-occluded over occluded; soil-matrix experiments over solvent-only; urinary/fecal excretion endpoints over disappearance from skin surface. Each chemical section has "Studies Considered" (Key Study + Other Studies) followed by "Selection of Absorption Value" with Discussion / Other Agencies' Default Values / Recommendation. Where chemical-specific data are insufficient, OEHHA defaults to Clement Associates (1988) 1% for inorganics or 10% for organics. Limitations stated: dermal Pb and Hg data are quite limited; in-vitro studies tend to underestimate vs. in-vivo; disappearance technique overestimates; occlusion, particle size, soil organic content, and soil loading all modify ABS.
 
 ## Implications
 
-- Certification (HMTc): Foundational regulatory anchor for any soil-pathway dermal exposure modeling underlying HMT&C threshold work. The OEHHA defaults (Pb 1%, Cd 0.1%, As 3-5%, Hg 10%, Ni 4%) are stricter than the ATSDR 2023 / EPA RAGS defaults for some metals (Hg in particular: OEHHA 10% vs ATSDR's lack of dermal Hg default; Cd similarly 0.1% from soil per OEHHA, vs ATSDR/EPA's 0.1%) and looser for some (Cd 0.1% soil vs 0.001% in the ATSDR Table 8). Useful for jurisdictional crosswalk between California and federal frameworks.
-- Courses: Foundational reading for any exposure-science course module on dermal absorption of metals from environmental media. Demonstrates how regulatory ABS values are constructed from limited primary evidence, and how species, occlusion, soil loading, and matrix interact.
-- App: Not relevant to ingredient contamination_profile. The ABS values feed any future dermal-route exposure annex.
+- Certification (HMTc): Foundational regulatory anchor for any soil-pathway dermal exposure modeling underlying HMT&C threshold work. OEHHA defaults (As 4%, Be 1%, Cd 0.1%, Cr-VI 1%, Pb 1%, Hg 10%, Ni 4%) provide a per-metal anchor that the wiki's environmental-exposure modeling can cite when comparing soil-borne dermal contribution to oral and inhalation contributions. The Hg value (10%) in particular is much higher than the Clement 1988 default of 1% and is relevant to any HMTc modeling that needs to bound dermal Hg contribution. Cross-jurisdictionally, the OEHHA Cd 0.1% matches ATSDR 2023 Table 8 (which expresses the same fraction as 0.001 unitless); OEHHA gives explicit numbers for Pb and Hg that ATSDR 2023 does not.
+- Courses: Foundational reading for any exposure-science course module on dermal absorption of metals from environmental media. Demonstrates how regulatory ABS values are constructed from limited primary evidence, and how species, occlusion, soil loading, and matrix interact to modify the underlying fraction.
+- App: Not relevant to ingredient `contamination_profile`. The ABS values feed any future dermal-route exposure annex but do not affect ingredient-level food contamination data.
 
 ## Wiki pages this source may touch
 
@@ -73,6 +76,11 @@ OEHHA-issued regulatory guidance document; no primary measurement. Per-chemical 
 
 ## Verification notes
 
-- ATSDR 2023 Table 8 (in the sibling source) lists Cd ABSd = 0.001 (i.e., 0.1%) — consistent with OEHHA's 0.1% recommendation here. Pb is not in ATSDR Table 8 because EPA defers to lead-specific IEUBK; OEHHA recommends 1%. Hg is not in ATSDR Table 8; OEHHA recommends 10%. Cross-source consistency is partial; documenting both for downstream methodological review.
-- Sample-level numerical findings (Baranowska-Dutkiewicz, Moore, Lilly, Stauber, Fullerton, Wester) belong on those primary-source pages; this OEHHA document is the aggregator/recommender.
-- Arsenic ABS in Appendix F text reads "absorption of arsenic from water and from soil (2-6% and 3-5%, respectively)" — value range stated, not single point estimate; downstream synthesis should preserve the 3-5% soil range.
+- 2026-05-17 merge-enhance: Corrected Arsenic ABS recommendation from "3-5%" to **4%** (the actual OEHHA recommendation in F.1.3.1 is 4%, calculated as the arithmetic mean of the 4.5% and 3.2% in-vivo Rhesus monkey absorption values from Wester et al. 1993b; 3-5% is the underlying in-vivo range, not the OEHHA point estimate). Corrected section reference from "F.1.3.6" (which is mercury) to F.1.3.1 (arsenic). Removed unsupported "6% in companion documents" claim — Appendix F itself states 4%. Removed misattribution to Wester 1992a — the arsenic key study is Wester 1993b alone (1992a was the cadmium key study).
+- 2026-05-17 merge-enhance: Added explicit OEHHA recommendations for Beryllium (1%, Clement Associates 1988 default) and Chromium VI (1%, same default) that were previously omitted from Key numbers despite both metals appearing in `metals:` frontmatter.
+- 2026-05-17 merge-enhance: Replaced "BaP not stated in pages read; referenced 13% in EPA RAGS Part E" with the actual OEHHA Appendix F F.1.4.3 recommendation of 13% based on Wester et al. 1990 in-vivo Rhesus monkey (24 h ABS 13.2 ± 3.4%, n=4). The 13% number is OEHHA's own recommendation, not an EPA RAGS Part E reference.
+- 2026-05-17 merge-enhance: Added DEHP (10%) and hexachlorocyclohexanes (10%) to organic-compounds cross-reference for completeness.
+- 2026-05-17 merge-enhance: Changed `metals:` frontmatter from `As` to `tAs` per CLAUDE.md Part 14 speciation rule — OEHHA Appendix F discusses arsenic salts generically without separating inorganic from total arsenic species, so `tAs` is the correct unspeciated form.
+- 2026-05-17 merge-enhance: Cleaned up Implications cross-jurisdictional comparison — the previous version mis-stated the OEHHA-vs-ATSDR Cd relationship (ATSDR Table 8's 0.001 is the same fraction as OEHHA's 0.1%, not a stricter value).
+- Sample-level numerical findings from cited primary studies (Baranowska-Dutkiewicz, Moore, Lilly, Stauber, Fullerton, Wester) belong on those primary-source pages when those papers are themselves ingested; this OEHHA document is the aggregator/recommender.
+- Arsenic ABS in the F.1.3.4 chromium-comparison text reads "absorption of arsenic from water and from soil (2-6% and 3-5%, respectively)" — this range is the comparison context, not the OEHHA point estimate; the OEHHA point estimate for arsenic from soil is 4% per F.1.3.1.
