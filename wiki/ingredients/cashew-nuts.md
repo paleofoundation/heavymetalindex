@@ -60,26 +60,28 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+This page is the alias node for [[ingredients/cashews]]; the two slugs refer to the same Anacardium occidentale kernel. See the canonical [[ingredients/cashews]] page for the full synthesis covering the nickel-accumulator pathway, geographic and varietal variance, processing effects, ingredient-derivative risk, mitigation options, and applicable regulatory limits.
+
+Cashew kernel carries Ni at 4,000-9,000 µg/kg — an order of magnitude higher than other tree nuts grown on comparable soil — because the cashew plant species itself is a documented Ni accumulator. The HMTc panel concerns are dominantly Ni, with secondary Cd and trace Pb.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+See [[ingredients/cashews]] for the canonical synthesis. West African, Vietnamese, Indian, and Brazilian production regions show modest per-origin variance dominated by species-level Ni-accumulation behavior.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+See [[ingredients/cashews]]. Cashew processing does not change kernel Ni meaningfully; soaking does not reduce Ni.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+See [[ingredients/cashews]] for the cashew butter, cashew milk, cashew flour, and cashew cream derivative analysis.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+See [[ingredients/cashews]]. Sourcing levers are limited because species-level Ni accumulation dominates; formulation substitution (almond, walnut, hazelnut) is the primary brand-side intervention for products that don't require cashew specifically.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+See [[ingredients/cashews]]. [[regulations/eu-2023-915]] Pb and Cd MLs for tree nuts apply; no binding Ni ML currently set internationally.
 
 

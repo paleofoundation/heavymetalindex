@@ -60,26 +60,41 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+This is the aggregate node for non-water beverages (beverages other than drinking water, which is at [[ingredients/water]]). The category spans Cat 5 beverages and several Cat 1 infant beverage rows. See per-beverage ingredient pages for synthesis: [[ingredients/coffee]], [[ingredients/tea]] / [[ingredients/camellia-sinensis]], [[ingredients/fruit-juice]], [[ingredients/grape-juice]], [[ingredients/mango-juice]], [[ingredients/orange-juice]], [[ingredients/apple-juice]], [[ingredients/vegetable-juice]], [[ingredients/plant-milk]], [[ingredients/sports-drink-bases]], [[ingredients/fermented-beverage-bases]], [[ingredients/soft-drink-bases]].
+
+Beverages inherit heavy metals through three pathways: source ingredient (fruit, vegetable, grain, plant-base, tea/coffee leaf), processing water (the dominant pathway in low-source-ingredient beverages like sports drinks and flavored waters), and packaging contact (can-lining Sn migration, aluminum-foil-carton Al migration, plastic-bottle migration for some specific contaminants).
+
+The HMTc panel concerns vary by beverage class. Apple juice has documented Pb concerns; rice-based beverages have iAs concerns; soy plant milk has Al/Ni concerns; tea has Al concerns; canned beverages have Sn concerns.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within "beverages" is enormous because the category spans completely different ingredient-input profiles. See per-beverage pages for sub-category synthesis. The Cat 5 Step 0 lock splits beverages into 9 product rows ([[products/fruit-juices-general]], [[products/vegetable-juices]], [[products/plant-milks-general]] split further into 3 row variants, [[products/flavored-waters]], [[products/sports-energy-drinks]], [[products/tea-conventional]], [[products/coffee]], [[products/soft-drinks-carbonated-beverages]], [[products/kombucha-and-fermented-beverages]]) to manage this variance.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Beverage processing covers: extraction (juicing, brewing, steeping), formulation (mixing with water, sweeteners, flavors), heat treatment (pasteurization, UHT, retort), carbonation, packaging. Each step has different metal-affecting potential. See per-beverage pages.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Beverage concentrates and powders carry per-mass metal at multiples of the as-consumed beverage because water has been removed. Beverage powders (drink mixes, instant coffee, dried tea) carry concentrated source-ingredient metals.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) operate at the per-source-ingredient level: low-iAs rice for rice-based beverages, low-Pb apple for apple juice, low-Al tea origin for tea-based beverages, etc.
+
+**Processing levers** ([[mitigation/processing]]) include processing-water specification (the dominant lever for water-dominant beverages like sports drinks, flavored waters, and sodas), extraction-method specification, and packaging-material specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include source-ingredient substitution within the beverage class (oat-based vs rice-based plant milk for low-iAs; non-tea-based vs tea-based for low-Al).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level finished-beverage testing against the applicable regulatory cap. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification (Sn migration), aluminum-foil-carton specification (Al migration), and plastic-bottle specification.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets beverage-specific MLs (juice, plant-milk, infant-and-young-child-beverage variants).
+- [[regulations/codex-cadmium-mls]] — Codex Cd ML framework.
+- FDA action level for Pb in juices (including apple juice).
+- California Prop 65 ([[regulations/california-prop65]]) MADLs apply to beverages sold in California.
 
 
