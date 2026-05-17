@@ -24,7 +24,7 @@ updated: 2026-05-17
 
 # Yohannes et al. 2024 — Heavy metals in edible vegetable oils, Gondar, Ethiopia
 
-This study measured five metals (Fe, Cu, Zn, Pb, Cd) in 17 edible vegetable oil samples from Gondar City, Northwest Ethiopia, using flame atomic absorption spectroscopy (FAAS) after microwave digestion. The study found that 25% of samples exceeded the WHO/FAO Codex limit for cadmium (0.05 mg/kg) and 17% exceeded the limit for lead (0.1 mg/kg), specifically in locally produced mixed oils. This is the first comprehensive heavy metals investigation of vegetable oils from this region.
+This study measured five metals (Fe, Cu, Zn, Pb, Cd) in 17 edible vegetable oil samples from Gondar City, Northwest Ethiopia, using flame atomic absorption spectroscopy (FAAS) after microwave digestion. The study found that 25% of samples exceeded the WHO/FAO Codex limit for cadmium (0.05 mg/L as reported) and 17% exceeded the limit for lead (0.1 mg/L as reported), with exceedances described by the authors in some locally produced vegetable oils. This is the first comprehensive heavy metals investigation of vegetable oils from this region.
 
 Note on evidence tier: downgraded from A to B. The license is CC BY-NC-ND 4.0 (restricts adaptation), the sample size is small (n=17 across oil types, with sparse type-level replication), no health risk assessment was performed, and the LOQ values (0.94–4.95 mg/L) are relatively high for cadmium.
 
@@ -45,21 +45,21 @@ Regulatory exceedances:
 
 Kruskal-Wallis test showed significant differences among oil types for Cu (p=0.0244) and Zn (p=0.0084), but not for Cd (p=0.087), Fe (p=0.1225), or Pb (p=0.6595).
 
-LOD (method): Pb 0.4 mg/L, Fe 1.485 mg/L, Zn 0.16 mg/L, Cu 0.47 mg/L, Cd 0.3 mg/L. LOQ: Pb 1.33 mg/L, Fe 4.95 mg/L, Zn 0.523 mg/L, Cu 1.56 mg/L, Cd 0.94 mg/L. Recovery: 81–115%. RSD: below 15%.
+LOD (method): Pb 0.4 mg/L, Fe 1.485 mg/L, Zn 0.16 mg/L, Cu 0.47 mg/L, Cd 0.3 mg/L. LOQ: Pb 1.33 mg/L, Fe 4.95 mg/L, Zn 0.523 mg/L, Cu 1.56 mg/L, Cd 0.94 mg/L. Recovery: 81.6–120% in Table 5, although the abstract/results narrative summarizes recovery as 81–115%. RSD: below 15%.
 
 ## Methods
 
 FAAS (210VGP model, flame atomic absorption spectroscopy) with air-acetylene flame. Microwave digestion: 0.5 g sample + 5 mL HNO3 (69–72%) + 2 mL HCl (37%) plus H2O2 (optimized digestion condition totals 8 mL reagent volume) at 180°C for 55 min. Triplicate analysis. Results reported in mg/L of extract solution; the paper does not clearly state the dilution factor or provide a conversion to mg/kg wet weight of oil, which limits comparability with other studies. Study period: May–July 2021. n=17 samples across oil types.
 
-Limitation: LOQ for Pb (1.33 mg/L) appears very high relative to expected levels, and many Pb results below this LOQ would be non-quantifiable. The reported range (0.003–0.27 mg/L) includes values below LOQ. This undermines the reliability of the Pb data.
+Limitation: Method LOD/LOQ values are high relative to several reported unspiked ranges. Pb results (0.003–0.27 mg/L) are below the Pb LOQ (1.33 mg/L), and the Cd range (0.08–0.18 mg/L) is below both the Cd LOD (0.3 mg/L) and Cd LOQ (0.94 mg/L), even though the paper reports Cd exceedances against a 0.05 mg/L reference level. Treat this source as contextual regional evidence rather than standards-calculation data.
 
 ## Implications
 
-Certification: The regional data (Ethiopia, locally produced oils from small-scale operations) is contextually important for understanding supply-chain risk in Sub-Saharan African sourcing. Exceedances in Cd and Pb for locally produced mixed oils are consistent with limited refining capacity noted by the authors.
+Certification: The regional data (Gondar, Ethiopia; locally produced oils from small-scale operations) is contextually important for understanding production-setting risk. Reported Cd and Pb exceedances in some locally produced oils should be interpreted alongside the method LOD/LOQ limitations above.
 
-Courses: Case study on the metal contamination risk posed by outdated extraction equipment, absence of refining/bleaching, and inadequate quality control in small-scale oil production in developing markets.
+Courses: Case study on how outdated extraction equipment, absence of refining/bleaching, and inadequate quality control are discussed as potential contributors in small-scale edible-oil production.
 
-App: Limited utility for ingredient-level contamination profiling due to unit reporting ambiguity and small sample size. Flag as contextual regional data only.
+App: Limited utility for ingredient-level contamination profiling due to unit reporting ambiguity, source-internal QC inconsistencies, and small sample size. Use as contextual regional data only.
 
 ## Wiki pages this source may touch
 
@@ -79,3 +79,6 @@ App: Limited utility for ingredient-level contamination profiling due to unit re
 - Source reports total Pb, Cd, Cu, Fe, and Zn by FAAS; no speciation issue is present.
 - `niger-seed-oil` and `mixed-vegetable-oil` are source-specific matrix descriptors; no ingredient pages for those exact oil categories exist in the current taxonomy snapshot.
 - Table 7 contains internal inconsistencies (especially Cd median vs range), so this page preserves the source's values and explicitly marks the inconsistency rather than normalizing the data.
+- Cross-vendor audit (Codex, 2026-05-17) corrected one unit statement from mg/kg to mg/L because the source reports Table 6/7 and exceedance thresholds in mg/L; no mg/kg conversion is provided.
+- Method validation caveat: the source's LOD/LOQ table conflicts with several reported unspiked concentration ranges, especially Cd, so this page should not feed standards calculations without independent re-analysis.
+- `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
