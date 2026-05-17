@@ -20,6 +20,13 @@ raw/manual-fetch/**/*
 !raw/manual-fetch/**/README.md
 !raw/manual-fetch/**/wishlist.md
 
+# raw/gpt-drafts/ is the dropoff for GPT-5.5 fast-mode source-page first
+# drafts. Drafts themselves are unverified and gitignored; only the README
+# is committed. See docs/gpt-collaboration/README.md.
+!raw/gpt-drafts/
+raw/gpt-drafts/**/*
+!raw/gpt-drafts/README.md
+
 # Quartz / Node build artifacts
 node_modules/
 public/

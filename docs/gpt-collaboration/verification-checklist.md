@@ -1,0 +1,111 @@
+---
+type: doc
+purpose: Verification checklist for promoting GPT-5.5 drafts to wiki source pages
+audience: [claude-code, cowork]
+updated: 2026-05-17
+---
+
+# Verification checklist — GPT draft → wiki source page
+
+When a Claude Code (or Cowork) session promotes drafts from `raw/gpt-drafts/` into `wiki/sources/`, it runs this checklist per draft. The session is the responsible actor for everything below; GPT-5.5's output is a first draft, not a finished page.
+
+## When to run this
+
+Trigger: any non-empty file in `raw/gpt-drafts/` that does not have a corresponding `wiki/sources/<cite-key>.md` yet. Process drafts in batches of 50 to keep commits clean (one commit per batch, per Part 5b bulk-ingest convention).
+
+## Per-draft checklist
+
+For each `raw/gpt-drafts/<handle>.md` (where `<handle>` is FM_XXXXXXX, MFK_..., MR_..., or PCMF_...):
+
+### 1. Sanity check the draft itself
+
+- **SKIP line at top?** If the file starts with `SKIP: <reason>`, move the file to `raw/gpt-drafts/_skipped/` and log the skip in `log.md` with the reason. Do not promote.
+- **Handle matches filename?** The `<!-- gpt-draft for <handle> -->` comment on line 1 must match the filename. Mismatch → move to `_quarantine/` and flag to Karen.
+- **Raw source exists?** Confirm the file at `raw_path` is real before promoting. For FM_ handles this is `raw/markdown/FM_XXXXXXX/FM_XXXXXXX.md`. For MFK_/MR_/PCMF_ handles this is the original PDF under `raw/Manual Fetch Kimi /`, `raw/Manual Resourcing/`, or `raw/Papers Cube Manual Fetch/` respectively.
+- **Not already ingested?** Run three duplicate checks before promoting:
+  1. `grep -rl "doi: .*<doi>" wiki/sources/` — DOI is the most robust content-identity check, since the same paper can enter the wiki via Marker, manual fetch, or direct PDF, each producing a different raw_handle.
+  2. `grep -l "raw_handle: <handle>" wiki/sources/` — catches the case where the same raw_handle was processed twice.
+  3. `ls wiki/sources/ | grep <firstauthor-lowercase><year>` — catches cite-key collisions even if DOI is null/wrong.
+
+  Any hit means the paper is a duplicate. Move the draft to `_quarantine/` with the existing page's cite_key in the filename (`_quarantine/<handle>_DUPLICATE_OF_<existing-cite-key>.md`) and surface to Karen. Do not silently overwrite the existing page; do not silently promote a second page with a different cite_key for the same paper. If the GPT draft contains substantively better content than the existing page (richer Key numbers, corrected values, better methods detail, valid slugs where prior page had invented ones), the correct action is still to flag — Karen decides whether to merge GPT improvements into the existing page or not. Per Part 5 of CLAUDE.md, one source page per paper is the invariant.
+
+### 2. Cross-check against the source
+
+For FM_ handles: open `raw/markdown/<handle>/<handle>.md` and verify against the Marker markdown.
+
+For MFK_/MR_/PCMF_ handles: open the PDF at `raw_path` (Preview, Acrobat, or via `pdftotext` if you want a textual diff target).
+
+Verify, in order:
+
+- **Title, authors, year, journal, DOI** match the source. Fix any GPT errors. If the triage manifest pre-populated a `cite_key`, replace whatever GPT wrote with the manifest's version.
+- **Sample size and population** match what the paper actually states. GPT will sometimes invent `sample_n` when not given; null it out if not directly stated.
+- **Numerical values in `## Key numbers`** match the source. Spot-check at least three reported numbers per draft against the source (markdown or PDF). If any number is wrong, that draft goes to `_quarantine/` and Karen sees a flag. PDF-mode drafts warrant a deeper spot-check (5 numbers minimum) because GPT's table-reading from PDFs is less reliable than from already-extracted markdown.
+- **Methods section** matches actual analytical method, speciation, sample prep. If GPT said "ICP-MS" and the source says "ICP-OES," fix it.
+- **Speciation conventions** preserved: iAs vs tAs, MeHg vs tHg, Cr-VI vs Cr. If GPT substituted, fix it.
+- **Units preserved**, no silent conversion.
+
+### 3. Taxonomy validation
+
+- **All slugs in `metals:`, `ingredients:`, `products:`, `matrices:`, `jurisdictions:`** exist in the current taxonomy. Cross-reference against `wiki/ingredients/`, `wiki/products/`, `wiki/metals/`, and the matrices vocabulary in `docs/gpt-collaboration/system-prompt.md`. Invented slugs → either correct to the right existing slug or set the field to `[]` and add to the verification notes for Karen.
+- **Wikilink form correct** in frontmatter: page-reference arrays use the quoted-wikilink form (`["[[ingredients/rice]]"]`, not `[rice]` or `[[ingredients/rice]]` bare). See Part 14 of CLAUDE.md.
+- **Scope is broad, not narrow.** If the paper says "230 infant formulas" without splitting soy vs non-soy, frontmatter should say `products: ["[[products/infant-formula-powder]]"]` (the umbrella slug), not `infant-formula-powder-non-soy`. Downgrade overspecified frontmatter to the broadest accurate scope.
+
+### 4. Firewall checks
+
+The verification pass deletes any content that crosses the wiki/HMTc firewall (Part 2) or the brand firewall (Part 12). GPT was instructed not to produce these but may slip:
+
+**Wiki/HMTc firewall (Part 2):**
+
+- Any synthesis claims like "this confirms the literature consensus that..." or "this is consistent with..." — **delete the sentence**. The source page reports what this one paper found, not how it relates to other papers.
+- Any HMTc threshold proposals, justifications, or comparisons — **delete the sentence**.
+- Any consumer-audience translations or risk advisories — **delete the section**.
+- Any suggestion that "this paper warrants a new ingredient/product page for X" — **move the suggestion to the verification notes for Karen's review**, then delete from the page body.
+
+**Brand firewall (Part 12):**
+
+- Any brand-by-brand value listings in `## Key numbers` or elsewhere — **aggregate to format/category level**. Replace `"Sma First Infant Milk 267.9 µg/L; Cow & Gate Nutriprem 1 700.4 µg/L; ..."` with `"Ready-made formulas (n=8) ranged from 175.5 to 700.4 µg/L; Cow & Gate Nutriprem 1 (preterm) at the high end."` Brand can be named when it identifies a special-purpose product (preterm, soy-based, hypoallergenic) that drives the high or low value and is relevant to format/ingredient interpretation; brand cannot be named in routine ranking. Per Part 12, brand-by-brand ranking belongs in the private brand-intelligence build (Part 26), never in the public wiki.
+- Recalls and enforcement actions are fine to name as regulatory events; brand product rankings are not.
+
+### 5. Promote to wiki
+
+When the draft passes 1-4:
+
+1. Save the corrected file to `wiki/sources/<cite-key>.md`.
+2. Set `updated:` to today's date.
+3. Delete the original `raw/gpt-drafts/FM_XXXXXXX.md`.
+4. Trigger the routing audit refresh (`npm run evidence:source-routes` or let the watcher pick it up). Do not hand-edit `data/evidence/product_source_routing_audit.csv`.
+5. If routing reports `routing_unresolved` entries for this source, surface them in the batch report for Karen (do not silently create stubs; product pages especially require Step 0 Lock per Part 10).
+6. If the routing audit reports that an (ingredient, metal) cell has crossed the second-source threshold or another Part 9 synthesis trigger, queue the synthesis pass — do not run it as part of this verification pass.
+
+### 6. Batch commit
+
+After every 50 drafts:
+
+```
+ingest batch (gpt-drafts -> sources): N drafts promoted, M quarantined, K skipped
+```
+
+Then write a batch report to `wiki/batch-reports/gpt-batch-NN.md` covering:
+
+- Cite-keys promoted
+- Quarantined drafts with specific reasons (Karen will manually resolve)
+- Skipped drafts with GPT's stated reasons
+- New ingredient/product slug proposals collected from `## Verification notes` across the batch
+- Routing audit deltas (new routes added, unresolved entries surfaced, malformed rows)
+- Any synthesis triggers fired downstream
+
+## Quarantine policy
+
+`raw/gpt-drafts/_quarantine/` holds drafts that failed verification for reasons Karen needs to look at:
+
+- Numerical errors in `## Key numbers` (suggests the paper has unusual structure that GPT misread)
+- FM_id mismatch
+- Multiple firewall violations (suggests the paper is the kind that tempts synthesis and may need full Claude Code handling instead of GPT)
+
+`raw/gpt-drafts/_skipped/` holds drafts where GPT replied `SKIP: <reason>` (paper unreadable, off-topic, duplicate, language barrier). Karen reviews periodically and decides whether to assign these to Claude Code for manual ingest or leave them dropped.
+
+## What this checklist deliberately does not do
+
+- **No synthesis.** If the source contributes to an ingredient `contamination_profile`, that update is queued for the Part 9 synthesis pass; the verification pass advances `status` and writes values only if a single-source initial-population trigger fires (rare; usually the second source is what kicks off synthesis).
+- **No mandatory-section completion.** If the source's promotion thins out a product or ingredient page, that's a Part 6 / Part 18 lint concern handled by the section-completion subprocess, not by this checklist.
+- **No new-page creation.** Per Part 10: ingredients above frequency-2 threshold can be auto-stubbed by `tools/autonomy/create-missing-pages.mjs`; products require Karen's Step 0 Lock. The verification pass surfaces proposals, never creates pages directly.
