@@ -8,18 +8,18 @@ category: herb-spice
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [100, 3000]
-    p95_ppb: 10000
+    typical_ppb: [0.003, 23.7]
+    p95_ppb: 2411
     confidence: high
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 15
+    last_reviewed: 2026-05-17
   Cd:
     status: populated
-    typical_ppb: [30, 500]
-    p95_ppb: 1500
-    confidence: high
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [0.001, 80.8]
+    p95_ppb: 1023
+    confidence: low
+    n_studies: 7
+    last_reviewed: 2026-05-17
   iAs:
     status: populated
     typical_ppb: [null, null]

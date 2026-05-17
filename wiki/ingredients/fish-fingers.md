@@ -190,7 +190,7 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/bfr2024-mehg-fish-seafood-meal-germany\|BfR 2024]]. *Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study*, BfR Opinion No. 023/2024 | 2024 | Agency report | *[awaiting synthesis]* |
+| 1 | [[sources/bfr2024-mehg-fish-seafood-meal-germany\|BfR 2024]]. *Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study*, BfR Opinion No. 023/2024 | 2024 | Agency report | DE/EU MeHg, tHg occurrence in Pool samples (15-20 individual samples each) of national and regional fish and seafood from German retail, prepared as... |
 | 2 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 Cd, Cr, Ni, Pb, U, tAs, tHg occurrence distributions for Fish sticks or patty, frozen, oven-cooked (n=3) |
 <!-- END: hmi-source-legend -->
 

@@ -50,7 +50,7 @@ Soybean (Glycine max) is a documented aluminum and nickel accumulator. The plant
 
 Nickel in soy is similarly elevated relative to non-leguminous crops, documented in [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm 1984]] and reflected in the broader Ni-elevation pattern across legumes. Cadmium in soy is moderate and tracks regional soil-Cd loading (Chinese, Brazilian, and Argentine production regions show variance).
 
-The Cat 4 Step 0 lock designates soy products as a contamination-platform pair to legumes-pulses-other ([[products/soy-products]] vs [[products/legumes-pulses-other]]) on the Al/Ni/Cd-accumulator basis. The Cat 1 Step 0 lock similarly splits soy-based infant formula from non-soy ([[products/infant-formula-powder-soy-based]] vs [[products/infant-formula-powder-non-soy]]).
+The Cat 4 Step 0 lock designates soy products as a higher-contamination row pair to legumes-pulses-other ([[products/soy-products]] vs [[products/legumes-pulses-other]]) on the Al/Ni/Cd-accumulator basis. The Cat 1 Step 0 lock similarly splits soy-based infant formula from non-soy ([[products/infant-formula-powder-soy-based]] vs [[products/infant-formula-powder-non-soy]]).
 
 The HMTc panel concerns for soy are dominantly Al and Ni, with secondary Cd. Pb is generally low except where contaminated soil is involved.
 

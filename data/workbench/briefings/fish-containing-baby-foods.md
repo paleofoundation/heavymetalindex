@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: fish-containing-baby-foods
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T20:54:13.831Z
+generated_at: 2026-05-17T13:14:39.470Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** higher-contamination-sibling
 **Native basis for published thresholds:** as_consumed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-05-14
+**Date generated:** 2026-05-17
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -42,7 +42,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| MeHg | **0.5 ppb** [as-consumed]<br>≈ 5 ppb [powder] | 0.500 ppb (read-across) | feasibility-driven | 0 | feasibility-anchored (analytical LOQ binds) | EFSA TWI 1.3 µg/kg-bw/wk (exposure) |
+| MeHg | **0.5 ppb** [as-consumed]<br>≈ 5 ppb [powder] | 0.500 ppb (read-across) | feasibility-driven | 1 | feasibility-anchored (analytical LOQ binds) | EFSA TWI 1.3 µg/kg-bw/wk (exposure) |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -78,8 +78,9 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Cross-basis: ≈ 5 ppb [powder] (×7 (1:7 reconstitution))**
 **Rationale tag:** `feasibility-driven`
 **Regulatory ceiling reference:** EFSA TWI 1.3 µg/kg-bw/week (exposure context, not concentration cap)
-**Pool composition:** 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
-**feasibility-anchored (analytical LOQ binds)**
+**Pool composition:** 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [2.60, 2.60] ppb**
+**Sensitivity: log-normal 2.60 · gamma 2.60 · nonparametric 2.60 ppb · spread 0% (feasibility-anchored (analytical LOQ binds))**
 
 **Four-anchor read-across (this row has no direct MeHg occurrence data):**
 
@@ -99,9 +100,16 @@ Each anchor is independently citable. The published threshold is the maximum of 
 **Retailer compliance read.** A certified product tests at or below 0.5 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** No direct MeHg occurrence data for this matrix in the structured corpus. Threshold is derived via four-anchor read-across documented above: empirical (total Hg pool for this row, see tHg row); analytical (ICP-MS-HG LOQ × 5); regulatory (EFSA TWI 1.3 µg/kg-bw/week + EPA RfD 0.1 µg/kg-bw/day + JECFA PTWI 1.6 µg/kg-bw/week as exposure ceiling); inferential (non-fish matrix chemistry). Methodology follows WHO/JECFA read-across precedent for analytes where direct occurrence data is absent but the parent species, the regulatory exposure framework, and the matrix biology are all citable.
+**Regulator read.** No direct MeHg occurrence data for this matrix in the structured corpus. Threshold is derived via four-anchor read-across documented above: empirical (total Hg pool for this row, ); analytical (ICP-MS-HG LOQ × 5); regulatory (EFSA TWI 1.3 µg/kg-bw/week + EPA RfD 0.1 µg/kg-bw/day + JECFA PTWI 1.6 µg/kg-bw/week as exposure ceiling); inferential (non-fish matrix chemistry). Methodology follows WHO/JECFA read-across precedent for analytes where direct occurrence data is absent but the parent species, the regulatory exposure framework, and the matrix biology are all citable.
 
+<details>
+<summary>Per-source contribution log (1 admitted)</summary>
 
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| tatsuta2024-mehg-duplicate-diet-children-japan (2024) · JP | Dietary intake of methylmercury by 0–5 years children using … | unknown | 63 | single_point | 100.0% |
+
+</details>
 
 ---
 
@@ -173,7 +181,7 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 
 | Source ID | Title | Citation |
 |---|---|---|
-
+| `tatsuta2024-mehg-duplicate-diet-children-japan` (A) | Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan | Tatsuta N; Asato K; Iwai-Shimada M; Iwai K; Nakayama SF; Yamazaki S; Nakai K · 2024 · Environmental Health and Preventive Medicine · doi:10.1265/ehpm.24-00048 |
 
 In addition to occurrence sources, this briefing cites:
 
@@ -192,17 +200,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `6b92f2b239aa06eaf33f68338ef8de427f3f21af` in the heavymetalindex.com repository.
+1. Checking out commit `2d9a300361a13a02edd6b9dd09574130b98eb3f0` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=fish-containing-baby-foods` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T20:54:13.842Z |
+| Generated at | 2026-05-17T13:14:39.481Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `6b92f2b239aa06eaf33f68338ef8de427f3f21af` |
+| Git commit | `2d9a300361a13a02edd6b9dd09574130b98eb3f0` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

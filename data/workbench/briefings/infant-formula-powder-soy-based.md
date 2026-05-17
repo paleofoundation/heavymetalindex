@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-powder-soy-based
 native_basis: powder_as_placed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T20:54:12.238Z
+generated_at: 2026-05-17T13:14:37.386Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** higher-contamination-sibling
 **Native basis for published thresholds:** powder_as_placed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-05-14
+**Date generated:** 2026-05-17
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -44,7 +44,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---|---:|---|---|
 | Ni | **1300 ppb** [powder]<br>≈ 200 ppb [prepared] | 1267 ppb | literature-baseline | 2 | stable | — |
 | Cd | *data gap* | 1536.566 ppb | no-data | 8 | needs_review | 20 ppb (eu2023_cd_formula_soy_powder_20) |
-| Al | **10000 ppb** [powder]<br>≈ 1300 ppb [prepared] | 7016.933 ppb | literature-baseline | 6 | stable | — |
+| Al | **10000 ppb** [powder]<br>≈ 1000 ppb [prepared] | 5262.172 ppb | literature-baseline | 7 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -147,38 +147,39 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Al
 
-**Published HMTc threshold:** 10000 ppb [powder] · 7016.933 ppb (pre-rounding)
-**Cross-basis: ≈ 1300 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** 10000 ppb [powder] · 5262.172 ppb (pre-rounding)
+**Cross-basis: ≈ 1000 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 6 sources contributing · 40 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [2383.43, 8342.64] ppb**
-**Sensitivity: log-normal 6906.19 · gamma 6552.19 · nonparametric 7308.75 ppb · spread 10% (stable)**
+**Pool composition:** 7 sources contributing · 48 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [2394.39, 8342.64] ppb**
+**Sensitivity: log-normal 6567.64 · gamma 6602.91 · nonparametric 7403.05 ppb · spread 11% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 6 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** Pooled P97 from 7 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 6 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** The value is pooled P97 from 7 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
 **Retailer compliance read.** A certified product tests at or below 10000 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 6 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 7 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 <details>
-<summary>Per-source contribution log (6 admitted)</summary>
+<summary>Per-source contribution log (7 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| kazi2009-toxic-elements-in-infant-formulae (2009) · PK | Determination of toxic elements in infant formulae by using … | unknown | 17 | lognormal_mean_only | 42.5% |
-| dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA | Lead, cadmium and aluminum in Canadian infant formulae, oral… | as_consumed | 15 | lognormal_mean_median | 37.5% |
-| kazi2009-toxic-elements-in-infant-formulae (2009) · PK | Determination of toxic elements in infant formulae by using … | as_sold_or_source_reported | 4 | lognormal_mean_max | 10.0% |
-| burrell2010-aluminium-in-infant-formulas (2010) · UK | There is (still) too much aluminium in infant formulas | as_sold_or_source_reported | 1 | uniform_max_only | 2.5% |
-| chuchu2013-aluminium-in-infant-formulas (2013) · UK | The aluminium content of infant formulas remains too high | as_sold_or_source_reported | 2 | uniform_max_only | 5.0% |
-| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_sold | 1 | single_point | 2.5% |
+| burrell2010-aluminium-in-infant-formulas (2010) · UK | There is (still) too much aluminium in infant formulas | powder_as_placed | 8 | uniform_max_only | 16.7% |
+| kazi2009-toxic-elements-in-infant-formulae (2009) · PK | Determination of toxic elements in infant formulae by using … | unknown | 17 | lognormal_mean_only | 35.4% |
+| dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA | Lead, cadmium and aluminum in Canadian infant formulae, oral… | as_consumed | 15 | lognormal_mean_median | 31.3% |
+| kazi2009-toxic-elements-in-infant-formulae (2009) · PK | Determination of toxic elements in infant formulae by using … | as_sold_or_source_reported | 4 | lognormal_mean_max | 8.3% |
+| burrell2010-aluminium-in-infant-formulas (2010) · UK | There is (still) too much aluminium in infant formulas | as_sold_or_source_reported | 1 | uniform_max_only | 2.1% |
+| chuchu2013-aluminium-in-infant-formulas (2013) · UK | The aluminium content of infant formulas remains too high | as_sold_or_source_reported | 2 | uniform_max_only | 4.2% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_sold | 1 | single_point | 2.1% |
 
 </details>
 
@@ -275,17 +276,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `6b92f2b239aa06eaf33f68338ef8de427f3f21af` in the heavymetalindex.com repository.
+1. Checking out commit `2d9a300361a13a02edd6b9dd09574130b98eb3f0` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-powder-soy-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T20:54:12.250Z |
+| Generated at | 2026-05-17T13:14:37.400Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `6b92f2b239aa06eaf33f68338ef8de427f3f21af` |
+| Git commit | `2d9a300361a13a02edd6b9dd09574130b98eb3f0` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

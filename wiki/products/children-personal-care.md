@@ -20,7 +20,7 @@ created_by: cat2_step0_alignment_2026_05_16
 
 # Children Personal Care (HMT&C Category 2 master)
 
-This is the master rollup page for HMT&C Category 2 — Children's Personal Care, covering products marketed for and applied to infants and children ages 0 through 5. The category is split into sixteen rows by product form and contamination platform, with four clean-versus-contaminated sibling pairs that share exposure pathways but differ in heavy-metal load by virtue of base material or pigment choice. The dose pathway differs from Category 1 (Infant and Child Foods): dermal absorption, accidental aspiration during application, hand-to-mouth transfer of smeared product, and per-application weight load per kg body weight are the relevant routes. The Cat 2 toxicology supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those exposure factors and is the prerequisite reference for every Cat 2 row.
+This is the master rollup page for HMT&C Category 2 — Children's Personal Care, covering products marketed for and applied to infants and children ages 0 through 5. The category is split into sixteen rows by product form and higher-contamination row, with four clean-versus-contaminated sibling pairs that share exposure pathways but differ in heavy-metal load by virtue of base material or pigment choice. The dose pathway differs from Category 1 (Infant and Child Foods): dermal absorption, accidental aspiration during application, hand-to-mouth transfer of smeared product, and per-application weight load per kg body weight are the relevant routes. The Cat 2 toxicology supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those exposure factors and is the prerequisite reference for every Cat 2 row.
 
 ## Who this page is for
 
@@ -41,19 +41,19 @@ Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 202
 | 1 | [[products/baby-lotion-cream]] | — | Pb, Ni | — | Daily emollient, full-body application |
 | 2 | [[products/baby-oil]] | — | Pb, Ni | — | Mineral or plant oil base, large per-application volume |
 | 3 | [[products/baby-powder-cornstarch]] | clean benchmark | Pb (low) | 4 | Cornstarch base; the clean alternative to row 4 |
-| 4 | [[products/baby-talcum-powder]] | contamination platform | Pb, Cd, Ni, Cr | 3 | Talc base; mine-source variability + asbestiform risk |
+| 4 | [[products/baby-talcum-powder]] | higher-contamination row | Pb, Cd, Ni, Cr | 3 | Talc base; mine-source variability + asbestiform risk |
 | 5 | [[products/baby-shampoo-body-wash]] | — | Pb, Ni | — | Rinse-off but daily, eye-area exposure |
 | 6 | [[products/baby-wipes]] | — | Sb, Pb | — | Sb panel-scope note: PET-derived antimony in wet matrix |
 | 7 | [[products/diaper-cream-non-zno]] | clean benchmark | Pb (low) | 8 | Non-ZnO occlusive; the clean alternative to row 8 |
-| 8 | [[products/diaper-cream-zno]] | contamination platform | Pb, Cd | 7 | ZnO base; Pb/Cd track ZnO mineral feedstock purity |
+| 8 | [[products/diaper-cream-zno]] | higher-contamination row | Pb, Cd | 7 | ZnO base; Pb/Cd track ZnO mineral feedstock purity |
 | 9 | [[products/baby-sunscreen-chemical]] | clean benchmark | Pb (low) | 10 | Chemical UV filters; the clean alternative to row 10 |
-| 10 | [[products/baby-sunscreen-mineral]] | contamination platform | Pb, iAs, Cd, Ti-bound | 9 | Mineral UV filters (ZnO + TiO2); platform shared with row 8 (ZnO) and row 16 (TiO2) |
+| 10 | [[products/baby-sunscreen-mineral]] | higher-contamination row | Pb, iAs, Cd, Ti-bound | 9 | Mineral UV filters (ZnO + TiO2); platform shared with row 8 (ZnO) and row 16 (TiO2) |
 | 11 | [[products/toothpaste]] | whole-row contamination | Pb, iAs, F-co-contaminants | — | Daily ingestion via swallowing reflex in <6yr; Washington TFCA Pb cap |
 | 12 | [[products/face-paint]] | whole-row contamination | Pb, Ni, Cr, Cd | — | Pigment platform; intermittent but heavy-load application |
 | 13 | [[products/childrens-makeup]] | whole-row contamination | Pb, Ni, Cr, Sb | — | Pigment platform shared with rows 12, 14, 16 |
 | 14 | [[products/childrens-nail-polish]] | whole-row contamination | Pb, Sb, Ti-bound | — | Pigment platform; lower dermal but high pigment fraction |
 | 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
-| 16 | [[products/childrens-lip-balm-mineral-bearing]] | contamination platform | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
+| 16 | [[products/childrens-lip-balm-mineral-bearing]] | higher-contamination row | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
 Four clean/contaminated sibling pairs structure the Cat 2 standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards (CLAUDE.md Part 19) and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the Cat 2 inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
 

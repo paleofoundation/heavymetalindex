@@ -99,5 +99,5 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|Li et al. 2026]]. *Heavy metal concentrations in Chinese chicken eggs: insights from comparative study of urban and mining areas*, PeerJ | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|Li et al. 2026]]. *Heavy metal concentrations in Chinese chicken eggs: insights from comparative study of urban and mining areas*, PeerJ | 2026 | Peer-reviewed | CN Cr, tAs, Cd, Pb, Ni occurrence in 70 free-range eggs from 4 non-mining cities and 3 mining areas (Wuchuan mercury mine, Danzhai mercury mine, Emin... (n=90) |
 <!-- END: hmi-source-legend -->

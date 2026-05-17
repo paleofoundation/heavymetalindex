@@ -1,28 +1,15 @@
 # Heal-gaps report — 2026-05-17
 
-Generated: 2026-05-17T12:42:59.701Z
+Generated: 2026-05-17T13:07:31.535Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 10
+- Fixes applied: 0
 - Queued for synthesis: 0
 - Routing typo proposals: 0
 - Provisional scaffolds created: 0
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 218
-
-## Fixes applied
-
-- wiki/products/bottled-drinking-water.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `water`)
-- wiki/products/fish-freshwater.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `water`)
-- wiki/products/mineral-water.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `water`)
-- wiki/products/oral-irrigators-water-flossers.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `water`)
-- wiki/products/pacifiers-and-sucking-teething-aids.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `baby-teething`)
-- wiki/products/pet-treats-snacks.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `baby-teething`)
-- wiki/products/rice-snacks-crackers.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `baby-teething`)
-- wiki/products/sparkling-carbonated-water.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, tAs] (inferred from class `soft-drink`)
-- wiki/products/supplements-teas-labeled.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, Al, tAs] (inferred from class `tea`)
-- wiki/products/water-filters.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `water`)
 
 ## Items needing surfacing
 

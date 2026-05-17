@@ -123,7 +123,7 @@ Vegetable purees inherit heavy metals from the source vegetables. The Cat 1 Step
 
 **[[products/root-vegetable-purees]]** — carrot, sweet potato, potato, beet, parsnip, turnip puree. Root vegetables accumulate Cd and Pb from soil at moderate efficiency (see [[ingredients/carrots]], [[ingredients/sweet-potato]], [[ingredients/root-vegetables]]). This row carries the higher Cd loading.
 
-**[[products/non-root-vegetable-purees]]** — spinach, kale, broccoli, peas, green-bean, squash, zucchini, tomato puree. Non-root vegetables include leafy greens (high-Cd-accumulator) and non-leafy non-root vegetables (lower-Cd-accumulator). Spinach specifically is at the upper end and is split as a Cat 4 contamination platform (see [[ingredients/spinach]]).
+**[[products/non-root-vegetable-purees]]** — spinach, kale, broccoli, peas, green-bean, squash, zucchini, tomato puree. Non-root vegetables include leafy greens (high-Cd-accumulator) and non-leafy non-root vegetables (lower-Cd-accumulator). Spinach specifically is at the upper end and is split as a Cat 4 higher-contamination row (see [[ingredients/spinach]]).
 
 The HMTc panel concerns for vegetable purees are dominantly Cd and Pb, with subcategory variance driven by source-vegetable choice. The infant exposure pathway concentrates per-body-weight intake.
 

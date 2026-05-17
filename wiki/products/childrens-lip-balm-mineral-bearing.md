@@ -12,7 +12,7 @@ review_state: scaffolded
 vulnerable_population: infants-and-children-0-5
 primary_metals_of_concern: [Pb, Ni, Cr, iAs, Cd]
 applicable_regulations: []
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [Pb, Ni, Cr, iAs, Cd]
 pair_row: 15
 audience: [regulator, educator, consumer, brand-legal]

@@ -29,11 +29,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
+    typical_ppb: [112, 990.2]
+    p95_ppb: 1045
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-17
   Ni:
     status: populated
     typical_ppb: [null, null]
@@ -122,7 +122,7 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\|Khatibi et al. 2024]]. *Investigation of heavy metal concentrations and determination of estimated daily intake and health risk index infant formula and baby foods in Zahedan in 2020*, Sigma Journal of Engineering and Natural Sciences | 2024 | Peer-reviewed | Pb and Cd in 18 brands of powdered infant formula on the Zahedan, Iran market by graphite-furnace AAS |
-| 2 | [[sources/tatsuta2024-mehg-duplicate-diet-children-japan\|Tatsuta et al. 2024]]. *Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan*, Environmental Health and Preventive Medicine | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/tatsuta2024-mehg-duplicate-diet-children-japan\|Tatsuta et al. 2024]]. *Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan*, Environmental Health and Preventive Medicine | 2024 | Peer-reviewed | JP tHg, MeHg occurrence in 260 children aged 0–5 years from the Pacific side of Tohoku, Japan, providing 276 24-hour dietary duplicate samples... (n=276) |
 | 3 | [[sources/original2020-original-a\|Alharbi et al. 2023]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition (Wiley) | 2023 | Peer-reviewed | iAs, tAs, Cd, and Pb occurrence and dietary exposure for Saudi-market stage 1 and stage 2 infant formula powders |
 | 4 | [[sources/signes-pastor2022-infant-elements-nhbcs\|Signes-Pastor et al. 2022]]. *Dietary Exposure to Essential and Non-essential Elements During Infants' First Year of Life in the New Hampshire Birth Cohort Study*, Exposure and Health | 2022 | Peer-reviewed | Longitudinal urinary biomarker data for tAs, Pb, Cd, tHg, Al, Sb, and Sn in US infants on formula at 6 weeks and 1 year |
 | 5 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Peer-reviewed | Urinary iAs biomarker evidence linking infant formula feeding to lower arsenic exposure vs rice cereal at weaning; formula baseline context for arsenic exposure during transition to solid foods |

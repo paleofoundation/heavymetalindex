@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 3
+sources: 5
 updated: 2026-05-17
 ---
 # Other cooking oils (canola, sunflower, coconut, avocado, sesame)
@@ -99,7 +99,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|Yohannes et al. 2024]]. *Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia*, BMC Public Health | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Products on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology | 2023 | Review | *[awaiting synthesis]* |
-| 3 | [[sources/ziarati2019-iranian-italian-flavoured-olive-oil\|Ziarati et al. 2019]]. *Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil*, Acta Technologica Agriculturae | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|Yohannes et al. 2024]]. *Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia*, BMC Public Health | 2024 | Peer-reviewed | ET Pb, Cd, Cu, Fe, Zn occurrence in Edible vegetable oils (Niger seed, mixed oil, soybean, sunflower) from Gondar City markets, Northwest Ethiopia; May–July 2021; locally... (n=17) |
+| 2 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Products on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology | 2023 | Review | global/IR tAs, Pb, Cd, tHg, Ni, Cr occurrence in Review of published literature on heavy metals in oilseeds and vegetable/seed oils globally; no primary data collection |
+| 3 | [[sources/ziarati2019-iranian-italian-flavoured-olive-oil\|Ziarati et al. 2019]]. *Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil*, Acta Technologica Agriculturae | 2019 | Peer-reviewed | IR/IT Pb, Cd, Ni, tAs occurrence in Commercial olive oil samples (non-flavoured and flavoured: fungi, aroma vegetables, pepper) purchased from Lombardy, Italy and Tehran, Iran... (n=480) |
 <!-- END: hmi-source-legend -->

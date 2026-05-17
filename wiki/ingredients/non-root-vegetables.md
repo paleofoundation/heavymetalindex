@@ -15,11 +15,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cd:
     status: populated
-    typical_ppb: [0, 91]
-    p95_ppb: 181
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    typical_ppb: [0.007, 62]
+    p95_ppb: 224.3
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-17
   iAs:
     status: populated
     typical_ppb: [9.4, 125.3]

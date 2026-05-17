@@ -4,7 +4,7 @@ hmtc_row: 4
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"
 age_range: "0-5"
-variant_type: contamination_platform
+variant_type: higher-contamination-sibling
 platform_metals: [Ni, Cr, Pb]
 pair_row: 3
 cat2_step0_alignment: 2026-05-16

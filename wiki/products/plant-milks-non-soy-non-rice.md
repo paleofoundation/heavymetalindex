@@ -134,7 +134,7 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics | 2024 | Peer-reviewed | CN Cr occurrence in Seven commercially purchased food samples from a Nanjing supermarket: milk powder, whole wheat bread, yoghurt, orange juice, green... (n=7) |
 | 2 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | ICP-MS survey of Pb, tHg, Ni, and U in retail cow milk, goat milk, and plant-based drinks (soy, almond, rice, oat) from Spain; Pb detected in one non-organic oat drink; primary occurrence source for the non-soy/non-rice plant-milk row |
 <!-- END: hmi-source-legend -->
 

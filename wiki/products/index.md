@@ -27,7 +27,7 @@ These pages report what the evidence says about the product row, source coverage
 Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in [[products/lead-benchmark-context|Category 1 lead benchmark context]]. The ppb view keeps FDA, EU, Prop 65, and occurrence values comparable while preserving each value's legal or evidentiary role.
 
 1. [[products/infant-formula-powder-non-soy|Infant formula, powder (non-soy)]] (49 sources)
-2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]] (25 sources)
+2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]] (24 sources)
 3. [[products/infant-formula-rtf-liquid-non-soy|Infant formula, RTF liquid (non-soy)]] (21 sources)
 4. [[products/infant-formula-rtf-liquid-soy-based|Infant formula, RTF liquid (soy-based)]] (13 sources)
 5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]] (32 sources)
@@ -164,7 +164,7 @@ Contamination platform notes: Cacao → Cd, Pb (from soil); spices → Pb, Cr (f
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
 1. [[products/olive-oil|Olive oil]] (0 sources)
-2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (3 sources)
+2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (5 sources)
 3. [[products/butter-and-ghee|Butter and ghee]] (3 sources)
 4. [[products/honey-and-syrups|Honey and syrups (maple, agave, molasses)]] (0 sources)
 5. [[products/vinegar|Vinegar]] (9 sources)
@@ -510,10 +510,17 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/breakfast-cereals|Breakfast Cereals]] (5 sources)
-- [[products/toothpaste|Toothpaste (Cat 2)]] (4 sources)
-
-_Retired (kept for redirect, not in HMT&C Cat 2 scope):_
-- ~~[[products/lipstick]]~~ — adult lipstick; redirected to [[products/childrens-lip-balm-mineral-bearing]] (Cat 2 Row 16) and future Cat 13 (adult color cosmetics)
-- ~~[[products/skin-lightening-cream]]~~ — adult enforcement issue, see [[advisory/skin-lightening-products]]
+- [[products/canned-fish|Canned Fish]]
+- [[products/canned-fruit|Canned Fruit]]
+- [[products/canned-tomatoes|Canned Tomatoes]]
+- [[products/canned-vegetables|Canned Vegetables]]
+- [[products/dietary-supplements|Dietary Supplements]]
+- [[products/fresh-fish|Fresh Fish]]
+- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
+- [[products/infant-cereal|Infant Cereal]]
+- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
+- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
+- [[products/tea-infusions|Tea Infusions]]
+- [[products/tomato-paste|Tomato Paste]]
+- [[products/tomato-sauce|Tomato Sauce]]
 <!-- END: hmi-auto-linked-stubs -->

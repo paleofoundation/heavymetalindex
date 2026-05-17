@@ -67,13 +67,13 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 
 Legumes (Fabaceae: beans, lentils, chickpeas, peas, soybeans, peanuts) are members of a plant family that fixes atmospheric nitrogen through symbiotic root-nodule bacteria. The high root-system activity that supports nitrogen fixation also brings the legume into more aggressive interaction with soil cations than non-legumes, leading to elevated uptake of cadmium and aluminum from acidic soils relative to non-leguminous crops. Soybean is the canonical legume aluminum-accumulator (cultivated on acid agricultural soils that mobilize Al into bioavailable form); peanut is the canonical legume nickel-accumulator. Other common legumes (beans, lentils, chickpeas, peas) carry lower per-mass loads of these metals but follow the same family-level pattern.
 
-Per-species variance within legumes is large. The Cat 4 Step 0 lock recognizes this by splitting legumes-pulses into a baseline row plus contamination-platform rows for soy and peanut specifically (see [[products/soy-products]], [[products/peanuts]], [[products/legumes-pulses-other]]).
+Per-species variance within legumes is large. The Cat 4 Step 0 lock recognizes this by splitting legumes-pulses into a baseline row plus higher-contamination row rows for soy and peanut specifically (see [[products/soy-products]], [[products/peanuts]], [[products/legumes-pulses-other]]).
 
 The HMTc panel concerns for legumes are Al (soy-elevated), Ni (peanut-elevated), Cd (broadly elevated relative to most non-leguminous crops), and Pb (generally low except in contaminated soils).
 
 ## Ranges by source, region, and variety
 
-Per-species: Soybean carries the highest Al; peanut carries the highest Ni. Common beans (kidney, pinto, black, navy, cannellini), lentils, and chickpeas carry moderate Cd and lower Al/Ni. Peas (yellow, green, split) carry the lowest panel-metal loads in the legume category. [[ingredients/soy]], [[ingredients/peanuts]], [[ingredients/peanut-butter]] address the contamination-platform variants in detail.
+Per-species: Soybean carries the highest Al; peanut carries the highest Ni. Common beans (kidney, pinto, black, navy, cannellini), lentils, and chickpeas carry moderate Cd and lower Al/Ni. Peas (yellow, green, split) carry the lowest panel-metal loads in the legume category. [[ingredients/soy]], [[ingredients/peanuts]], [[ingredients/peanut-butter]] address the higher-contamination row variants in detail.
 
 Geographic and production-system variance: Legumes grown on acidic agricultural soils with phosphate-fertilizer history (parts of US Midwest, Brazil, Argentina, parts of EU) carry higher Cd than legumes from cleaner soils. Conventional vs organic agronomic systems show some variance driven by fertilizer source rather than organic certification per se.
 

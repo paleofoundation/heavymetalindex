@@ -100,6 +100,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|Olowoyo et al. 2026]]. *Heavy Metals Burden in Drinking Water: Global Patterns, Sources, and Public Health Implications*, Water | 2026 | Review | *[awaiting synthesis]* |
-| 2 | [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|Decharat et al. 2023]]. *Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand* | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|Olowoyo et al. 2026]]. *Heavy Metals Burden in Drinking Water: Global Patterns, Sources, and Public Health Implications*, Water | 2026 | Review | global Pb, Cd, tAs, tHg, Ni, Cr, Al occurrence in Systematic review of peer-reviewed studies published 2015–2024 on heavy metals in four water source types globally |
+| 2 | [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|Decharat et al. 2023]]. *Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand* | 2023 | Peer-reviewed | TH Pb, Cd occurrence in Drinking water samples (bottled, tap, filtered, raw) from child development centres, Phatthalung province, southern Thailand (n=210) |
 <!-- END: hmi-source-legend -->

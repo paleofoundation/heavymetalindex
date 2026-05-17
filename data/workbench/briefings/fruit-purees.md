@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: fruit-purees
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-14T20:54:13.108Z
+generated_at: 2026-05-17T13:14:38.605Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** independent_no_split
 **Native basis for published thresholds:** as_consumed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-05-14
+**Date generated:** 2026-05-17
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -82,7 +82,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 10 ppb (fda2025_pb_baby_food_10)
 **Pool composition:** 3 sources contributing · 38 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [0, 17.22] ppb**
+**Bootstrap 95% CI: [0.49, 12.46] ppb**
 **Sensitivity: log-normal 3.01 · gamma 4.29 · nonparametric 3.40 ppb · spread 30% (provisional)**
 
 
@@ -282,7 +282,7 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 | Source ID | Title | Citation |
 |---|---|---|
 | `chekri2019-french-infant-toddler-tds-trace-elements` (A) | Trace element contents in foods from the first French Total Diet Study on infants and toddlers | Rachida Chekri; Emilie Le Calvez; Julie Zinck; Jean-Charles Leblanc; Veronique Sirot; Marion Hulin; Laurent Noel; Thierry Guerin · 2019 · Journal of Food Composition and Analysis · doi:10.1016/j.jfca.2019.02.002 |
-| `fda2024-toxic-elements-baby-food-compliance-2009-2024` (A) | Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024) | U.S. Food and Drug Administration · 2024 · FDA analytical results table |
+| `fda2024-toxic-elements-baby-food-compliance-2009-2024` (A) | Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024) | U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null |
 | `fsa2016-infant-food-formula-metals-survey` (A) | Survey of metals in commercial infant foods, infant formula and non-infant specific foods | Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048 |
 | `parker2022-baby-food-arsenic-cadmium-lead-mercury-risk` (A) | Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods | Parker GH; Gillie CE; Miller JV; Badger DE; Kreider ML · 2022 · Toxicology Reports · doi:10.1016/j.toxrep.2022.02.001 |
 
@@ -303,17 +303,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `6b92f2b239aa06eaf33f68338ef8de427f3f21af` in the heavymetalindex.com repository.
+1. Checking out commit `2d9a300361a13a02edd6b9dd09574130b98eb3f0` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=fruit-purees` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-14T20:54:13.120Z |
+| Generated at | 2026-05-17T13:14:38.620Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `6b92f2b239aa06eaf33f68338ef8de427f3f21af` |
+| Git commit | `2d9a300361a13a02edd6b9dd09574130b98eb3f0` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 
