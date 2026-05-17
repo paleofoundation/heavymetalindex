@@ -7,6 +7,7 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2026
 publication: "FDA analytical results table"
 source_type: government_dataset
+no_doi_assigned: true
 evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/toxic_element_infant_formula_prepared_for_posting_20260324.pdf"

@@ -6,6 +6,7 @@ authors: [World Health Organization]
 year: 2026
 publication: "GEMS/Food Contamination Monitoring and Assessment Programme"
 source_type: dataset
+no_doi_assigned: true
 evidence_tier: A
 review_state: recovered_summary_context
 standards_use: context_only_until_exact_row_aggregate_review

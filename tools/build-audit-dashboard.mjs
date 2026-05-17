@@ -132,7 +132,7 @@ function loadAudits() {
 
   // Source pages by evidence tier
   const sourcesDir = path.join(repoRoot, "wiki/sources")
-  const sources = fs.readdirSync(sourcesDir).filter(f => f.endsWith(".md") && !f.startsWith("_"))
+  const sources = fs.readdirSync(sourcesDir).filter(f => f.endsWith(".md") && !f.startsWith("_") && f !== "index.md")
   const by_tier = {}, by_type = {}
   let doi_missing = 0
   let doi_with_marker = 0

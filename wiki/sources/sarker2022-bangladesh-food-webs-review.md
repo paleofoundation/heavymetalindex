@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/sarker2021.pdf"
 metals: [Pb, Cd, tAs, Cr, Ni]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [rice, vegetables, fish, meat, dairy, drinking-water, soil, dietary-intake]
 jurisdictions: [BD]
 near_duplicates: []

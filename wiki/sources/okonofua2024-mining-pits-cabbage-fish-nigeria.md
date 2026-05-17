@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Papers Cube Manual Fetch/article (2) copy 4.pdf"
 metals: [Pb, Cd, tHg, Ni]
 ingredients: ["[[ingredients/cabbage]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [cabbage, fish, surface-water, irrigation-water]
 jurisdictions: [NG]
 near_duplicates: []

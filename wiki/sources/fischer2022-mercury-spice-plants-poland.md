@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/The Mercury Concentration in Spice Plants.pdf"
 metals: [tHg]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]", "[[ingredients/fresh-herbs]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [dried-herbs, fresh-herbs, spices]
 jurisdictions: [PL, EU]
 near_duplicates: []

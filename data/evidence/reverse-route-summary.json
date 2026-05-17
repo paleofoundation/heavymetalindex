@@ -1,15 +1,15 @@
 {
-  "mode": "apply (high only)",
-  "generated_at": "2026-05-17T07:17:51.290Z",
+  "mode": "apply (high+medium)",
+  "generated_at": "2026-05-17T07:57:23.626Z",
   "sources_scanned": 896,
   "sources_with_matrices": 818,
-  "sources_with_empty_products": 571,
-  "sources_proposed_for_change": 51,
-  "sources_applied": 19,
-  "total_proposals": 61,
-  "high_confidence_proposals": 27,
+  "sources_with_empty_products": 557,
+  "sources_proposed_for_change": 34,
+  "sources_applied": 33,
+  "total_proposals": 38,
+  "high_confidence_proposals": 4,
   "medium_confidence_proposals": 34,
-  "skipped_already_routed": 334,
+  "skipped_already_routed": 360,
   "unmapped_matrix_slugs": 731,
   "unknown_product_targets": 0
 }

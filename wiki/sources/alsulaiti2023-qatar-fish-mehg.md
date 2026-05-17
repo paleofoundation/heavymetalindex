@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10140118/FM_10140118.md
 metals: [tHg, MeHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/tinned-fish]]", "[[ingredients/seafood]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: [fish, seafood]
 jurisdictions: [QA]
 near_duplicates: []

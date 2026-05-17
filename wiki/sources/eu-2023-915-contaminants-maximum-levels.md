@@ -7,6 +7,7 @@ authors: ["European Commission"]
 year: 2023
 publication: "Official Journal of the European Union"
 source_type: gov-regulation
+no_doi_assigned: true
 evidence_tier: A
 license: public-law
 raw_path: "raw/reports/Commission Regulation (EU) 2023-915 on maximum levels for certain contaminants in food.pdf"
@@ -17,6 +18,7 @@ related_urls:
 raw_sha256: "cc9d1cb7cf43c2a195659d7073c625ed271e97dfc5c587d117a57cf5e1c20292"
 metals: [Pb, Cd, tHg, iAs, tAs, Sn]
 matrices: [infant-formula, baby-food, processed-cereal-based-food, rice, fruit-juice, fish, bivalve-molluscs, cocoa, cereals, vegetables, canned-food]
+products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-rtf-liquid]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/fruit-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/root-vegetable-purees]]", "[[products/mixed-meals]]", "[[products/fruit-juice-not-canned]]", "[[products/teething-and-snacks-rice-based]]", "[[products/teething-and-snacks-non-rice]]", "[[products/fresh-fish]]", "[[products/seafood]]", "[[products/canned-fish]]", "[[products/chocolate]]"]
 jurisdictions: [EU]
 claim_classes: [regulatory_limit, public_wiki_claim, hmtc_context]
 review_state: approved_for_public

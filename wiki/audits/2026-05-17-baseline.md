@@ -17,12 +17,12 @@ Generated: **2026-05-17**.  Baseline snapshot: [[audits/2026-05-17-baseline|2026
 |---|---:|:---:|
 | Taxonomy v2.0 coverage (destination pages exist for HMTc rows) | 277 / 277 (100%) | PASS |
 | Routing audit (unresolved source routings) | 0 unresolved | PASS |
-| Routing rows generated | 485 | — |
+| Routing rows generated | 490 | — |
 | Ingredient mandatory sections (non-stub pages) | 237 / 237 (100%) | PASS |
-| Product mandatory sections (non-stub pages) | 48 / 48 (100%) | PASS |
-| Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 13 failures | WARN |
-| Routing discipline check 2 (HMTc-locked products with zero routed sources) | 247 of 290 | INFO |
-| Source page DOI completeness | 11 missing | FAIL |
+| Product mandatory sections (non-stub pages) | 49 / 49 (100%) | PASS |
+| Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 0 failures | PASS |
+| Routing discipline check 2 (HMTc-locked products with zero routed sources) | 246 of 290 | INFO |
+| Source page DOI completeness | 1 missing | WARN |
 | Claim provenance — body-prose numerical claims with traceable citation | 2391/3528 (67.8%) | FAIL |
 
 ## Taxonomy v2.0 coverage
@@ -37,10 +37,10 @@ Detail report: [[data/evidence/taxonomy-coverage-audit|data/evidence/taxonomy-co
 
 ## Routing audit
 
-Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 485 routing rows in current audit.
+Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 490 routing rows in current audit.
 
 - Unresolved targets (source frontmatter declares a slug that doesn't exist): **0**
-- Malformed sources (missing required frontmatter fields): **635** (non-blocking)
+- Malformed sources (missing required frontmatter fields): **624** (non-blocking)
 
 Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_source_routing_audit.csv]], [[data/evidence/routing_unresolved|data/evidence/routing_unresolved.csv]], [[data/evidence/routing_malformed|data/evidence/routing_malformed.csv]].
 
@@ -50,12 +50,12 @@ Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_sourc
 
 - Sources scanned: 896
 - Sources with product-shaped matrices: 253
-- **Failures: 13**
+- **Failures: 0**
 
 **Check 2** — HMTc-locked product pages (carrying hmtc_category + hmtc_row) with zero routed sources.  These are scaffolded destinations that haven't received their Phase 1 ingest yet.
 
 - HMTc-locked products: 290
-- Products with no routed sources: 247
+- Products with no routed sources: 246
 
 Check 2 is informational, not a failure: the scaffolded universe (277 taxonomy rows) is larger than the current ingested universe (897 source pages); rows without sources are the priority queue for the next ingest pass, not defects.
 
@@ -74,21 +74,20 @@ Detail: [[data/evidence/ingredient-mandatory-sections-audit|data/evidence/ingred
 
 Non-stub product-category pages must carry 10 H2 sections per CLAUDE.md Part 6 (Who this page is for / Methodology / Literature Evidence Summary / Source Evidence Inventory / Broad Product Context / Federal/Regulatory Limits / Levers to reduce contamination / How standards math uses this page / Historical recalls and enforcement / Sources). Stubs (scaffolded pages with no routed sources) are exempt.
 
-- Non-stub passing: **48** of 48 (100%)
+- Non-stub passing: **49** of 49 (100%)
 - Non-stub failing: **0**
-- Stubs (exempt): 272
+- Stubs (exempt): 271
 
 Detail: [[data/evidence/product-mandatory-sections-audit|data/evidence/product-mandatory-sections-audit.csv]].
 
 ## Source page corpus
 
-Total source pages in wiki/sources/: **897**.
+Total source pages in wiki/sources/: **896**.
 
 By evidence tier:
 - A: 784
 - B: 108
 - C: 4
-- unknown: 1
 
 By source type:
 - agency-report: 2
@@ -121,9 +120,8 @@ By source type:
 - systematic-review: 1
 - textbook-chapter: 3
 - thesis: 1
-- unknown: 1
 
-DOI completeness: 886 of 897 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **11**.
+DOI completeness: 895 of 896 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **1**.
 
 ## Claim provenance (trace-every-claim audit v1)
 

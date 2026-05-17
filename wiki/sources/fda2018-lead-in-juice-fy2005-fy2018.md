@@ -6,6 +6,7 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2018
 publication: "FDA analytical results table"
 source_type: government_dataset
+no_doi_assigned: true
 evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/Analytical Results for Lead in Juice-Toxic Elements Food and Foodware Program (FY2005-FY2018).pdf"

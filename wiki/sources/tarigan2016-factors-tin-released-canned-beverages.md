@@ -15,7 +15,7 @@ access_url: "https://sphinxsai.com/2016/ph_vol9_no5/3/(330-333)V9N5PT.pdf"
 metals: [Sn]
 species: [Sn2+, Sn4+]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/canned-fruit-cocktail]]"]
-products: ["[[products/fruit-juices-non-apple]]", "[[products/fruit-juices-apple-containing]]"]
+products: ["[[products/fruit-juices-non-apple]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juice-not-canned]]"]
 matrices: [canned-carbonated-beverages, canned-beer, canned-juice]
 jurisdictions: [ID]
 sample_n: 27

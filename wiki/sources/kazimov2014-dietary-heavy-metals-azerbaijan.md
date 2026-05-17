@@ -15,7 +15,7 @@ license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/Examination and hygienic assessment of health risk depending on heavy metals content in foods.pdf"
 metals: [Pb, Cd, Cr, Ni]
 ingredients: ["[[ingredients/bread]]", "[[ingredients/grains]]", "[[ingredients/meat]]", "[[ingredients/fish]]", "[[ingredients/milk]]", "[[ingredients/potato]]", "[[ingredients/carrots]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [bread, cereal, meat, fish, eggs, dairy, vegetable, dietary-intake]
 jurisdictions: [AZ]
 near_duplicates: []

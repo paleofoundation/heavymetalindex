@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10244267/FM_10244267.md
 metals: [Cd, Pb, iAs, MeHg, Ni, Al]
 ingredients: ["[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/coffee]]", "[[ingredients/fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [dietary-intake, bread, cereals, vegetables, fish, non-alcoholic-beverages]
 jurisdictions: [FI, EU]
 near_duplicates: []

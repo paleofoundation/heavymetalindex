@@ -6,6 +6,7 @@ authors: ["Food Standards Agency / Fera Science Ltd"]
 year: 2016
 publication: "UK Food Standards Agency report FS102048"
 source_type: government_report
+no_doi_assigned: true
 evidence_tier: A
 raw_path: "raw/studies/FS102048 Infants metal survey FSIS pdf version.pdf"
 access_url: "https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey"

@@ -14,7 +14,7 @@ evidence_tier: A
 license: null
 raw_path: raw/markdown/FM_11904692/FM_11904692.md
 metals: [tHg]
-products: []
+products: ["[[products/vegetable-juices-non-root]]"]
 ingredients: []
 matrices: [analytical-method, vegetable-juice]
 jurisdictions: []

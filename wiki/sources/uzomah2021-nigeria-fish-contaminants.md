@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_8465269/FM_8465269.md
 metals: [Pb, Cd, tHg, tAs, Ni, Cr]
 ingredients: ["[[ingredients/fish]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: [fish, seafood]
 jurisdictions: [NG, EU]
 near_duplicates: []
