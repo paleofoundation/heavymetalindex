@@ -26,7 +26,7 @@ created_by: claude_opus_47_session
 
 # Arshad et al. 2020 — Cd, Cr, Fe, Ni, Pb in 63 cosmetic products, Pakistan
 
-This study quantifies cadmium, chromium, iron, nickel, and lead in 63 brand-level cosmetic products (in triplicate, 189 measurements total) from three Pakistani markets across six product categories: lotions, foundations, whitening creams, lipsticks, hair dyes, and sunblock creams. **Sunblock creams carry the highest Ni, Pb, and Cr concentrations** (7.99±0.36, 6.37±0.05, 0.43±0.01 mg/kg respectively); lipsticks carry the highest Fe (12.0±1.8 mg/kg); lotions carry the highest Cd (0.26±0.02 mg/kg). Health-risk assessment uses USEPA Margin of Safety (MoS), Hazard Quotient (HQ), Hazard Index (HI), and Lifetime Cancer Risk (LCR). **MoS, HQ, and HI stay within permissible limits for lotions and sunblocks across all five metals; LCR exceeds the permissible limit in every cosmetic product category EXCEPT lipsticks**, signalling potential carcinogenic risk from regular long-term use. This is the most comprehensive Cat 2 cosmetic-occurrence source ingested to date and the only one covering sunblock as a primary measurement.
+This study quantifies cadmium, chromium, iron, nickel, and lead in 63 brand-level cosmetic products (in triplicate, 189 measurements total) from three Pakistani markets across six product categories: lotions, foundations, whitening creams, lipsticks, hair dyes, and sunblock creams. **Sunblock creams carry the highest Ni, Pb, and Cr concentrations** (7.99±0.36, 6.37±0.05, 0.43±0.01 mg/kg respectively); lipsticks carry the highest Fe (12.0±1.8 mg/kg); lotions carry the highest Cd (0.26±0.02 mg/kg). Health-risk assessment uses USEPA Margin of Safety (MoS), Hazard Quotient (HQ), Hazard Index (HI), and Lifetime Cancer Risk (LCR). **MoS, HQ, and HI exceed permissible limits in lotions and sunblock creams for Cd, Cr, and Pb (MoS <100; HQ and HI >1); the remaining four categories (hair dye, foundation, whitening cream, lipstick) stay within limits. LCR exceeds the permissible limit in every cosmetic product category EXCEPT lipsticks**, signalling potential carcinogenic risk from regular long-term use.
 
 ## Key numbers
 
@@ -59,7 +59,7 @@ Hair-dye Pb ranged 0.402–5.835 mg/kg across brand-coded samples; category mean
 | Min | 0.059 | 0.186 | 2.294 | 4.788 | 1.944 |
 | Mean | 0.109 | 0.238 | 9.638 | 5.684 | 3.047 |
 
-Highest Fe in a foundation sample was 45.42 mg/kg, a substantial outlier from the rest of the category.
+Highest Fe in a foundation sample was 45.4 mg/kg (±12.0 SD), a substantial outlier from the rest of the category.
 
 **Whitening creams (6 brands, n=18 measurements; mg/kg)**:
 
@@ -69,7 +69,7 @@ Highest Fe in a foundation sample was 45.42 mg/kg, a substantial outlier from th
 | Min | 0.100 | 0.274 | 1.799 | 5.941 | 2.499 |
 | Mean | 0.123 | 0.297 | 2.154 | 6.237 | 3.250 |
 
-Whitening creams concentrate Pb because Pb-based pigments (Pb(II) salts) inhibit melanin formation and are historically added intentionally. The 2.5-4.0 mg/kg Pb across all six brands is consistent with that.
+Pb across all six whitening cream samples ranged 2.5–4.0 mg/kg. The paper attributes intentional addition of colour pigments (e.g., cadmium sulphide for yellow, Cr(III) oxide for green, intentional pigment-based formulation) as the principal source of HM contamination in cosmetic products generally, without making a Pb-specific mechanistic claim for whitening creams.
 
 **Lipsticks (6 brands, n=18 measurements; mg/kg)**:
 
@@ -80,11 +80,11 @@ Category mean ± SD values: Cd 0.15±0.01, Cr 0.34±0.02, Fe 12.0±1.8, Ni 6.64�
 - Pb: 6.37±0.05 mg/kg
 - Cr: 0.43±0.01 mg/kg
 
-**Health-risk assessment (Pakistan adult exposure scenarios)**:
-- MoS > 100 (safe per WHO/SCCS): met for lotions and sunblocks across all five metals
-- HQ < 1 (non-carcinogenic safe): met for lotions and sunblocks across all five metals
-- HI (sum of HQs across five metals): within limits except for lipsticks
-- **LCR (lifetime cancer risk)**: exceeds 1×10⁻⁴ acceptable threshold in ALL cosmetic products EXCEPT lipsticks
+**Health-risk assessment (Pakistan adult exposure scenarios; §3.9.1–3.9.2)**:
+- MoS > 100 (safe per WHO/SCCS): met for hair dye, foundation, whitening cream, lipstick across all five metals. **Lotions and sunblock creams: MoS <100 for Cd, Cr, Pb — flagged as not safe for use** at the modelled bioaccessibility scenarios.
+- HQ < 1 (non-carcinogenic safe): met for hair dye, foundation, whitening cream, lipstick. **Lotions and sunblock: HQ >1 for Cd, Cr, Pb at both 50% and 100% bioaccessibility.**
+- HI (sum of HQs across five metals): **>1 in lotion and sunblock samples**; <1 in hair dye, foundation, whitening cream, lipstick.
+- **LCR (lifetime cancer risk)**: exceeds 1×10⁻⁴ acceptable threshold in ALL cosmetic product categories EXCEPT lipsticks (paper notes lipstick is applied to a small area in small amount).
 
 The LCR exceedance across most cosmetic categories is the headline finding. Pb and Cd are Group 2A/2B IARC carcinogens; chronic dermal exposure from regular cosmetic use accumulates over the user's lifetime.
 
@@ -102,7 +102,7 @@ Sample collection: 189 samples (63 brand-level products × 3 triplicates) from l
 
 Digestion: 1.0 g sample + 5 mL HNO3, overnight room temp; heat to 90 °C; add 5 mL H2SO4, heat 30-60 min; add 5 mL HClO4, digest to clear; filter through Whatman 41 + dilute to 50 mL. Blanks at 5 per batch.
 
-Quantification: Atomic absorption spectrophotometry. Internal standard + certified apple-leaf reference material for QC; recovery 97-102%. All measurements in triplicate.
+Quantification: Atomic absorption spectrophotometry (PerkinElmer AAnalyst 700). Standard stock solutions at 1000 mg/L prepared fresh daily; internal standard + NIST SRM 1515 (Apple Leaves) reference material for QC; recovery 97–102%. All measurements in triplicate.
 
 Statistics: correlation, ANOVA, and multivariate analysis. Strong correlations among Cr, Ni, and Pb (suggesting shared sources or co-formulation); Cd and Fe showed disparity (distinct sources).
 
@@ -143,3 +143,9 @@ Microbiome: Not addressed.
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 removed sampled-product brand names and brand-coded value callouts from the source page, replacing them with category-level descriptors and statistics. Also corrected closed-vocabulary product links, added Fe to measured metals, removed non-taxonomy regulation/new-page suggestions, and tightened HMT&C/app language.
 - Subagent re-audit 2026-05-17 (autonomous v2.0 ingest pass on duplicate-PDF copy at `babycare_01_Exposure_Pathways/01_Exposure_Pathways/`): re-read full PDF including Tables 1 (per-brand max/min/mean/SE), 2 (per-category averages ± SE), 4 (SED), 5 (MoS); all Key numbers values verified against source. The same PDF is filed in two manual-fetch folders (`babycare_01_Exposure_Pathways/` and `babycare_05_Other_Categories/`); both tracker entries route to this cite-key.
+- Subagent re-audit verdict REVISE; applied four ❌ findings against §3.9.1–3.9.2 and Table 1:
+  - **Critical MoS/HQ/HI inversion corrected.** Prior version stated lotions+sunblocks were SAFE per MoS/HQ/HI; paper §3.9.1 says the opposite — lotion and sunblock have MoS <100, HQ >1, HI >1 for Cd/Cr/Pb (flagged as not-safe), and the other four categories are within limits. The abstract phrasing "MoS, HQ and HI values were within the permissible limit apart from lotions and sunblock creams" had been mis-parsed as "MoS/HQ/HI met for lotions and sunblocks." LCR statement (lipstick is the only safe category) was already correct.
+  - Removed mechanistic claim "Pb(II) salts inhibit melanin formation" — not in source; paper §3.8 attributes whitening-cream pigmentation to general intentional pigment use (Cd sulphide yellow, Cr(III) oxide green), not a Pb-specific melanin mechanism.
+  - Removed cross-source synthesis claim "most comprehensive Cat 2 cosmetic-occurrence source ingested to date" — per Part 9, source pages do not compare this paper to other sources.
+  - Corrected "45.42 mg/kg" foundation Fe Max to "45.4 mg/kg (±12.0 SD)" matching Table 1 F1 row precision exactly.
+- Added PerkinElmer AAnalyst 700 instrument vendor and NIST SRM 1515 reference material to Methods (Part 12 Exception 2 — scientific reproducibility).
