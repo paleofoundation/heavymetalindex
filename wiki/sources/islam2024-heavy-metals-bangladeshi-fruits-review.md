@@ -11,11 +11,11 @@ no_doi_assigned: false
 source_type: review
 evidence_tier: B
 license: "CC BY-NC"
-raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/A Systematic Review on Heavy Metals Contamination in Bangladeshi .pdf"
-metals: [As, Cd, Pb, Cr, Ni, tHg]
-ingredients: ["[[ingredients/banana]]", "[[ingredients/mango]]", "[[ingredients/guava]]", "[[ingredients/papaya]]", "[[ingredients/jackfruit]]"]
+raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks.pdf"
+metals: [tAs, Cd, Pb, Cr, Ni, tHg, Mn, Cu, Zn]
+ingredients: ["[[ingredients/fruits]]", "[[ingredients/banana]]", "[[ingredients/mango]]", "[[ingredients/guava]]"]
 products: ["[[products/fresh-fruit]]"]
-matrices: [fresh-fruit, edible-fruit-flesh]
+matrices: [fresh-fruit]
 jurisdictions: [BD]
 near_duplicates: []
 sample_n: 10
@@ -33,7 +33,7 @@ This systematic review synthesized findings from 10 primary studies (2012–2022
 |-------|--------|-------------------|---------------------|--------------|
 | As    | fresh fruit | ND–1.3 | 0.1 | Mango, guava |
 | Cd    | fresh fruit | ND–0.64 | 0.05 | Stone apple |
-| Pb    | fresh fruit | ND–2.4 | 0.1 | Mango (0.75 max) |
+| Pb    | fresh fruit | ND–2.4 | 0.1 | Source narrative names mango (0.75 max); abstract/table range extends to 2.4 |
 | Cr    | fresh fruit | ND–2.5 | 1.0 | Lemon |
 | Ni    | fresh fruit | ND–9.0 | 0.8 | Guava |
 | Hg    | fresh fruit | ND–0.006 | — | Elephant apple |
@@ -56,7 +56,20 @@ Systematic review following PRISMA guidelines. Databases: PubMed, Google Scholar
 
 **App:** Supports elevated contamination flags for tropical fruits (mango, guava, banana) when declared country-of-origin is Bangladesh. As, Cd, Pb, Cr all exceeded MACs in multiple fruits.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
+- [[ingredients/fruits]]
 - [[ingredients/banana]]
 - [[ingredients/mango]]
 - [[ingredients/guava]]
+- [[products/fresh-fruit]]
+- [[metals/arsenic-total]]
+- [[metals/cadmium]]
+- [[metals/lead]]
+- [[metals/chromium]]
+- [[metals/nickel]]
+- [[metals/mercury-total]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, changed unspeciated arsenic from `As` to `tAs`, added Mn/Cu/Zn to frontmatter because the review reports those metals, removed non-taxonomy ingredient slugs (`papaya`, `jackfruit`) in favor of `fruits`, removed invented matrix `edible-fruit-flesh`, and modernized the wiki-link section. The source itself reports Pb as ND-2.4 mg/kg in the abstract/table while the narrative names mango at 0.75 mg/kg as the highest Pb level; the Key numbers row now flags that internal source tension rather than assigning 2.4 to mango.
+- Potential future ingredient slugs surfaced for Karen if the fruit corpus accumulates enough independent papers: `papaya`, `jackfruit`, `litchi`, `blackberry`, `pineapple`, `pomegranate`, and `tamarind`.
