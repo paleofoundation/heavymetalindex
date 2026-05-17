@@ -10,11 +10,11 @@ doi: 10.20517/jeea.2024.45
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
-raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/The contribution of infant formula to the food survey-based .pdf"
+raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/The contribution of infant formula to the food survey-based dietary exposure of nine selected elements.pdf"
 metals: [iAs, Cd, Pb, Cr, Ni, tHg]
 ingredients: ["[[ingredients/infant-formula-ingredients]]", "[[ingredients/milk-and-dairy]]"]
 products: ["[[products/infant-formula-powder-non-soy]]"]
-matrices: [infant-formula, powdered-formula, dietary-intake]
+matrices: [infant-formula, infant-formula-powder, dietary-intake]
 jurisdictions: [DE, EU]
 sample_n: 114
 sample_population: "German infants (0.5 to <1 year, n=51) and toddlers (1 to <3 years, n=63) consuming infant formula, from the KiESEL cross-sectional nutrition survey 2014-2017; occurrence data from the BfR MEAL Study (first German total diet study, 2017-2019)"
@@ -57,13 +57,13 @@ Ni: Infants median total Ni 2.96 µg/kg bw/day; well below EFSA TDI of 13 µg/kg
 
 Inorganic Hg (derived from total Hg assuming 100% inorganic for non-fish/seafood): infants median 0.11 µg/kg bw/day; well below EFSA TWI of 4 µg/kg bw/week; formula contributed 18% for infants.
 
-Zn: Infants formula contribution 64% (median); median total Zn 4,087 µg/day in infants (approaching 95% of infant UL of approximately 4,310 µg/day at the 95th percentile).
+Zn: Infant formula contributed 64% of median Zn exposure in infants and 43% in toddlers. Median total Zn exposure was 4.09 mg/day in infants and 4.70 mg/day in toddlers. The source states that no UL has been established for infants under one year; toddler Zn exposure was over 60% of the 7 mg/day UL at the median and 93% at the 95th percentile, with 2 toddlers exceeding the UL.
 
 Consumption of infant formula (dry weight): infants mean 8.01 g/kg bw/day (median 6.61; P95 15.8 g/kg bw/day); toddlers mean 4.46 g/kg bw/day (median 3.86; P95 8.38 g/kg bw/day).
 
 ## Methods (brief)
 
-The BfR MEAL Study (Germany's first TDS, 2017–2019) provided occurrence data. A single pooled "infant formula" sample combined 15 subsamples: 8 infant formula (pre and stage 1), 4 follow-on formula (stages 2–3), 2 hypoallergenic, and 1 special medical needs formula, all cow-milk-based, analyzed in powder form. Elemental determination by ICP-MS (microwave digestion DIN EN 13805:2014); iAs measured directly by HPLC-ICP-MS/MS for 52 foods with known high iAs; conversion factor of 70% total As as iAs was applied to infant formula because direct measurement was below LOQ. Total Hg by direct Hg analyzer (DMA-80). LOD/LOQ for infant formula (dry matrix): iAs LOD 0.001 mg/kg, LOQ 0.003 mg/kg; Cd LOD 0.002 mg/kg, LOQ 0.005 mg/kg; Pb LOD 0.001 mg/kg, LOQ 0.004 mg/kg; Cr LOD 0.02 mg/kg, LOQ 0.05 mg/kg; Ni LOD 0.03 mg/kg, LOQ 0.1 mg/kg; Hg LOD 0.003 mg/kg, LOQ 0.005 mg/kg.
+The BfR MEAL Study (Germany's first TDS, 2017–2019) provided occurrence data. A single pooled "infant formula" sample combined 15 subsamples: 8 infant formula (pre and stage 1), 4 follow-on formula (stages 2–3), 2 hypoallergenic, and 1 special medical needs formula, all cow-milk-based, analyzed in powder form. Elemental determination by ICP-MS (microwave digestion DIN EN 13805:2014); iAs was measured directly by HPLC-ICP-MS/MS for 52 foods where iAs could be expected, while infant formula used the EFSA conversion factor assuming 70% of total As as iAs. Total Hg by direct Hg analyzer (DMA-80). LOD/LOQ for infant formula (dry matrix): iAs LOD 0.001 mg/kg, LOQ 0.003 mg/kg; Cd LOD 0.002 mg/kg, LOQ 0.005 mg/kg; Pb LOD 0.001 mg/kg, LOQ 0.004 mg/kg; Cr LOD 0.02 mg/kg, LOQ 0.05 mg/kg; Ni LOD 0.03 mg/kg, LOQ 0.1 mg/kg; Hg LOD 0.003 mg/kg, LOQ 0.005 mg/kg.
 
 Dietary exposure calculated deterministically: mean concentration multiplied by individual reported consumption from KiESEL (n=114 formula-consuming, non-breastfed children aged 0.5–<3 years), divided by individual body weight, summed across 356 MEAL foods. Upper bound approach: values below LOD set to LOD; values below LOQ and above LOD set to LOQ. Breastfed children (n=13) excluded due to absence of breast milk consumption data.
 
@@ -71,13 +71,13 @@ Limitation note: TDS pooled samples preclude characterizing upper-tail distribut
 
 ## Implications
 
-Certification: This TDS-based study confirms that Cd and iAs are the priority analytes for regulatory concern in German infant formula. Cd exceeded the EFSA TWI for approximately 30% of infants and toddlers even at upper-bound estimates. iAs MoEs were below 1 for all formula-consuming children, indicating a non-trivial concern. These data support HMT&C's use of Cd and iAs as primary certification analytes for infant formula. The low Pb MoEs (approximately 2 at median) also indicate Pb warrants ongoing monitoring. The study does not provide per-product concentration distributions usable as a Path A dataset; its value is as a TDS-based population exposure profile.
+Certification: This TDS-based study contributes infant-formula exposure evidence for Cd and iAs prioritization in literature reviews. Cd exceeded the EFSA TWI for approximately 30% of infants and toddlers even at upper-bound estimates. iAs MoEs were below 1 for all formula-consuming children. The low Pb MoEs (approximately 2 at median) also indicate Pb warrants ongoing monitoring. The study does not provide per-product concentration distributions usable as a Path A dataset; its value is as a TDS-based population exposure profile.
 
 Courses: Illustrates how TDS pooling differs from individual product monitoring: BfR MEAL values are generally lower than national food monitoring ranges because TDS uses lower LOQs and pooled samples reduce variance. Demonstrates the MoE approach for analytes without established HBGVs (Pb, iAs).
 
 App: TDS mean occurrence values for powdered infant formula (iAs 4.55, Cd 4.00, Pb 4.00, Cr 32.8, Ni 78.8 µg/kg dry weight) can inform default concentration assumptions for the infant formula ingredient node when product-specific data are absent, with the caveat that these are pooled-sample upper bound means, not product-distribution midpoints.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[products/infant-formula-powder-non-soy]]
 - [[ingredients/infant-formula-ingredients]]
@@ -86,4 +86,8 @@ App: TDS mean occurrence values for powdered infant formula (iAs 4.55, Cd 4.00, 
 - [[metals/cadmium]]
 - [[metals/arsenic-inorganic]]
 - [[metals/nickel]]
-- [[regulations/eu-2023-915]]
+- [[regulations/eu-2023-915-cadmium]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, replaced invalid matrix `powdered-formula` with `infant-formula-powder`, corrected the Zn/UL statement to reflect that no UL is established for infants under one year and that the 93% UL comparison applies to toddlers, clarified the iAs conversion-factor method for infant formula, replaced the invalid EU regulation link with `eu-2023-915-cadmium`, and tightened HMTc implication language away from certification-analyte justification.
