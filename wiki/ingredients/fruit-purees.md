@@ -8,11 +8,11 @@ category: taxonomy-placeholder
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
+    typical_ppb: [0.036, 4.02]
+    p95_ppb: 5.24
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-17
   Cd:
     status: populated
     typical_ppb: [null, null]
@@ -64,11 +64,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
+    typical_ppb: [0.056, 5]
+    p95_ppb: 5
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-17
   U:
     status: populated
     typical_ppb: [null, null]

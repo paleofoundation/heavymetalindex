@@ -1,6 +1,7 @@
 ---
 title: "Processed meats (sausage, deli meat, bacon, hot dogs)"
 type: product-category
+aliases: [processed-meat]
 hmtc_category: 11
 hmtc_category_name: "Meat, Poultry, and Eggs"
 hmtc_row: 7

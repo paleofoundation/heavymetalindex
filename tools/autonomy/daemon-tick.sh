@@ -132,6 +132,16 @@ fi
 # Step 4: pooling engine refresh
 run_step "pooling engine" node tools/evidence/build-hmtc-aggregate-distributions.mjs || true
 
+# Step 4a: synthesis writer — copy pooled literature percentiles
+# (pooled_p10/p90/p95) from the aggregate CSV back into ingredient-page
+# contamination_profile blocks. Per CLAUDE.md Part 9 + the firewall in
+# Part 2, this publishes literature-native values only; HMTc percentile
+# selection (target_value, candidate_value_ppb) stays staff-side.
+# No-downgrade guard: pages with prior synthesis n_studies > pooled
+# sources_contributing are left alone (incomplete structured extraction
+# means values.jsonl is a narrower view than the wider read).
+run_step "synthesis writer" node tools/autonomy/populate-contamination-profile.mjs || true
+
 # Step 4b: firewall lint — fails the tick log if any wiki/HMTc firewall
 # violation appears on a public page. Does not block the rest of the tick
 # (we want briefings to regenerate even if a stray violation appears), but
@@ -181,14 +191,33 @@ run_step "link orphans" node tools/autonomy/link-orphans.mjs || true
 # Step 5: gap-driven wishlist (queries for thin cells)
 run_step "gap-driven wishlist" node tools/autonomy/gap-driven-wishlist.mjs || true
 
-# Step 5b: actually fetch the wishlist's top OA-licensed candidates.
-# Off by default to keep OpenAlex bandwidth and raw/ disk usage under
-# control. Set HMI_AUTONOMOUS_FETCH=1 to enable per-tick fetch. Default-on
-# would be once per day, not per 30 min — wire that via a separate cron
-# or `if (( $(date +%M) < 30 && $(date +%H) == 9 ))` guard.
-FETCH_ENABLED="${HMI_AUTONOMOUS_FETCH:-0}"
-if [[ "$FETCH_ENABLED" == "1" ]]; then
-  run_step "wishlist fetch" npm run wishlist:fetch || true
+# Step 5b: actually fetch the wishlist's top OA-licensed candidates from
+# OpenAlex. Default-on as of 2026-05-17 per Karen's directive that data
+# acquisition should not gate on her — the OA papers are free, polite-rate-
+# limited, and self-deduping against wiki/sources/.
+#
+# Cadence guard: only fire during the single tick that crosses 09:xx UTC
+# each day, so OpenAlex sees one fetch sweep per 24h rather than 48 sweeps.
+# The 30-min tick interval means there are exactly two ticks landing in
+# the 09:xx hour (09:00-09:29 and 09:30-09:59). We pick the first by
+# requiring minute < 30.
+#
+# HMI_AUTONOMOUS_FETCH=0 disables; HMI_AUTONOMOUS_FETCH=always fires every
+# tick (debugging/backfill only).
+FETCH_ENABLED="${HMI_AUTONOMOUS_FETCH:-1}"
+CURRENT_HOUR_UTC=$(date -u +%H)
+CURRENT_MINUTE_UTC=$(date -u +%M)
+DAILY_FETCH_WINDOW=0
+if [[ "$CURRENT_HOUR_UTC" == "09" ]] && (( 10#$CURRENT_MINUTE_UTC < 30 )); then
+  DAILY_FETCH_WINDOW=1
+fi
+if [[ "$FETCH_ENABLED" == "always" ]] || { [[ "$FETCH_ENABLED" == "1" ]] && [[ "$DAILY_FETCH_WINDOW" == "1" ]]; }; then
+  # Manual wishlist (Karen-curated targets) then gap-driven (autonomy-discovered
+  # thin cells). Both write to raw/manual-fetch/seasonal-geographic-variance/
+  # auto-fetched/*.pdf, where the next tick's ingest-manual-fetch-batch
+  # picks them up.
+  run_step "wishlist fetch (manual)"     npm run wishlist:fetch       || true
+  run_step "wishlist fetch (gap-driven)" npm run wishlist:gap-driven  || true
 fi
 
 # Step 6: regenerate briefings for Category 1
@@ -224,18 +253,46 @@ done
     ingest_fail=$(grep -cE "OK, [0-9]+ failed" "$LOG_FILE" || echo 0)
     ingest_fail_count=$(grep -oE "[0-9]+ failed" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
 
+    # Synthesis writer numbers (per tick — populate-contamination-profile.mjs)
+    synthesis_pages=$(grep -oE "Pages updated: [0-9]+" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+    synthesis_cells=$(grep -oE "Cells updated: [0-9]+" "$LOG_FILE" | tail -1 | grep -oE "[0-9]+")
+
+    # Product-stub proposals waiting on a Step 0 Lock. These are sources
+    # declaring a product slug that has no page because the HMTc category
+    # has not yet been scaffolded. Surfacing them in the morning report so
+    # Karen can author Step 0 Locks for the categories with the most pull.
+    PRODUCT_STUB_CSV="$REPO_ROOT/data/evidence/autonomy/product-stub-proposals-pending.csv"
+    product_stub_count=0
+    if [[ -f "$PRODUCT_STUB_CSV" ]]; then
+      product_stub_count=$(( $(wc -l < "$PRODUCT_STUB_CSV") - 1 ))
+      [[ "$product_stub_count" -lt 0 ]] && product_stub_count=0
+    fi
+
     echo "### State"
     echo "- Routing: ${routing_unresolved:-?} unresolved, ${routing_malformed:-?} malformed (advisory)"
     echo "- Firewall: ${fw_errors:-?} ERRORS, ${fw_warns:-?} WARNINGS"
     echo "- Mandatory sections: ${mandatory_failures:-?}"
     echo "- Provenance: ${provenance_violations:-?} unsourced claims (backlog)"
+    echo "- Product stub proposals waiting on Step 0 Lock: ${product_stub_count}"
     echo ""
     echo "### Work this tick"
     [[ -n "$pages_created" && "$pages_created" -gt 0 ]] && echo "- Auto-created $pages_created stub page(s) from routing_unresolved"
     [[ -n "$autofilled" && "$autofilled" -gt 0 ]] && echo "- Mandatory-sections autofilled: $autofilled file(s)"
     [[ -n "$orphans_linked" && "$orphans_linked" -gt 0 ]] && echo "- Orphans linked: $orphans_linked"
+    [[ -n "$synthesis_cells" && "$synthesis_cells" -gt 0 ]] && echo "- Synthesis writer: $synthesis_cells contamination_profile cell(s) populated across ${synthesis_pages:-?} page(s)"
     [[ -n "$ingest_ok" ]] && echo "- Marker ingest: $ingest_ok succeeded, ${ingest_fail_count:-0} failed"
     echo ""
+
+    # Inline preview of the top stub proposals so Karen sees what she
+    # would unblock by authoring a Step 0 Lock — without having to open
+    # the CSV.
+    if [[ "$product_stub_count" -gt 0 ]]; then
+      echo "### Product stubs waiting on Karen (Step 0 Lock)"
+      echo ""
+      head -11 "$PRODUCT_STUB_CSV" | tail -n +2 | awk -F',' '{ printf "- `%s` (declared by %s source(s))\n", $1, $2 }'
+      [[ "$product_stub_count" -gt 10 ]] && echo "- … and $((product_stub_count - 10)) more in \`data/evidence/autonomy/product-stub-proposals-pending.csv\`"
+      echo ""
+    fi
   fi
   echo "### Reports"
   echo "- Healing: \`data/evidence/autonomy/healing-report-$(date +%Y-%m-%d).md\`"
@@ -245,6 +302,7 @@ done
   echo "- Provenance: \`data/evidence/autonomy/provenance-audit-$(date +%Y-%m-%d).md\`"
   echo "- Wishlist: \`data/evidence/autonomy/gap-driven-wishlist-$(date +%Y-%m-%d).md\`"
   echo "- Marker ingest: \`data/evidence/autonomy/ingest-batch-$(date +%Y-%m-%d).md\`"
+  echo "- Synthesis: \`data/evidence/autonomy/synthesis-report-$(date +%Y-%m-%d).md\`"
 } >> "$MORNING_REPORT"
 
 # Step 8: commit + push if anything changed (includes the morning-report append)
