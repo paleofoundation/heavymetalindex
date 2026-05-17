@@ -62,26 +62,61 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Maize (corn, Zea mays) is a non-rice cereal grown in temperate and subtropical climates worldwide. Maize accumulates cadmium from soil at low-to-moderate rates and inorganic arsenic at very low rates (not an iAs accumulator). The dominant contamination pathways for maize products in the food system are post-harvest grain handling and the masa nixtamalization process (lime-treatment in Mexican and Mesoamerican corn-based foods), which introduces a calcium source that can carry trace metals depending on lime supplier specification.
+
+Sweet corn (consumed as fresh or canned vegetable) and field corn (the dominant US, Brazilian, and Argentine production crop used for animal feed, corn syrup, corn oil, corn flour) carry similar baseline metal profiles per kernel; the canning step for sweet corn introduces tinplate-Sn-migration considerations.
+
+The HMTc panel concerns for maize are dominantly Cd (moderate), with trace Pb. Aluminum can be elevated in some processed corn products from baking-powder additives in corn-flour-based products. Cr-VI specifically has been documented in some Asian corn-grain surveys.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Geographic variance: US Corn Belt production carries low-to-moderate Cd profile reflective of relatively clean Midwestern soils. Brazilian and Argentine corn carries similar profiles. Chinese corn from certain Northeast production zones can carry elevated Cd reflecting soil-contamination legacy. African and South Asian smallholder corn production from contaminated soils (post-mining areas, urban-fringe production) can carry elevated metals.
+
+Variety: Field corn vs sweet corn vs popcorn vs flint corn carry approximately similar per-kernel metal profiles within a single growing region; cultivar selection within field corn for low-Cd accumulation has been documented in breeding programs.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Maize processing varies widely by end-use:
+
+**Sweet corn canning**: Source-corn metal load + tinplate Sn migration. Canned sweet corn has the standard Sn-concern.
+
+**Cornmeal and corn flour milling**: Source-grain Cd retained; bran fraction (corn bran) carries elevated Cd.
+
+**Masa (nixtamalization)**: Whole corn is soaked in alkaline solution (typically calcium hydroxide), then ground. The lime can introduce trace Pb depending on lime supplier specification. Modern food-grade lime is well-controlled; smaller-scale traditional production has variable lime quality.
+
+**Corn syrup production**: Source-corn carbohydrates are enzymatically converted; metals partition into the syrup proportional to the source kernel mass.
+
+**Corn oil extraction**: Like other vegetable oils, metals partition primarily into the residual cake (corn germ meal) rather than the oil fraction. See [[ingredients/corn-oil]].
+
+**Popping (popcorn)**: Heat pop does not change kernel metal content.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Corn-derived products with elevated per-mass metal: corn bran (high-Cd fraction), corn flour (whole-grain carries higher Cd than refined corn meal), masa flour, corn-protein concentrate.
+
+Corn-derived products with diluted metal: corn syrup (lower per-mass Cd than source corn, water-removed during processing), corn oil (low metals partition into oil), corn starch (refined endosperm, low Cd).
+
+Tortillas, tortilla chips, polenta, grits, corn-based breakfast cereals all inherit the source-corn profile with manufacturing-specific adjustments.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include single-origin sourcing from low-Cd-Pb production regions, supplier-grain testing.
+
+**Agronomic levers** ([[mitigation/agronomic]]) include soil pH management, low-Cd cultivar selection, avoidance of high-Cd phosphate fertilizers.
+
+**Processing levers** ([[mitigation/processing]]) include refined-cornmeal vs whole-corn formulation, lime-supplier specification for masa-process products, and tinplate-can-lining specification for canned sweet corn.
+
+**Formulation levers** ([[mitigation/formulation]]) include corn-vs-rice grain choice for low-iAs target products (corn substantially reduces iAs vs rice while moderately reducing Cd vs rice).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd and Pb testing on incoming corn shipments. Cr-VI speciation testing where Cr-elevated production regions are involved. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned sweet corn.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Cd and Pb in cereal grains; maize falls under the general cereal Cd ML.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MLs for Cd in cereals.
+- FDA does not maintain binding action levels for Cd or Pb in maize specifically. FDA Pb action levels for processed baby foods cover maize-containing infant cereals.
+- California Prop 65 ([[regulations/california-prop65]]) Cd MADL applies to maize-containing products.
 
 

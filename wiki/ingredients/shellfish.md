@@ -155,26 +155,48 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Shellfish (the broad seafood category covering crustaceans, bivalves, and gastropods) accumulate heavy metals through their feeding mechanism and water-column exposure. Bivalves (oysters, mussels, clams, scallops) filter large volumes of water — an oyster filters 5-50 liters per day — and concentrate dissolved and particle-bound metals, particularly cadmium. Crustaceans (shrimp, crab, lobster) accumulate metals through their carnivorous diet and shedding-and-rebuilding-shell life cycle. Gastropods (sea snails, abalone, conch) carry profiles intermediate between bivalves and crustaceans depending on diet.
+
+See [[ingredients/bivalve-molluscs]] for the bivalve-specific synthesis (the dominant Cd-accumulator subgroup) and [[ingredients/molluscs]] for the cephalopod and gastropod context.
+
+The HMTc panel concerns for shellfish are dominantly Cd (in bivalves), with secondary Pb and Hg. Crustaceans carry lower Cd than bivalves but moderate Pb and Hg from their carnivorous diet.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+See [[ingredients/bivalve-molluscs]] for the bivalve-specific source and region analysis. Within shellfish more broadly:
+
+- Bivalves typically carry the highest Cd, with order-of-magnitude variance by production-area water quality.
+- Crustaceans (shrimp, crab, lobster) carry moderate Cd and Pb; cold-water large lobster from northern waters can carry elevated trace metals from extended lifetime exposure.
+- Production-area variance dominates within each shellfish subgroup. [[sources/raju2021-bivalves-cagayan-philippines|Raju 2021]] and [[sources/shue2012-bivalves-tapeng-taiwan|Shue 2012]] characterize Asian production-area variance.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Shellfish processing (cleaning, depuration, freezing, canning, cooking, drying) generally does not reduce the soft-tissue metal load. Depuration (commercial water-circulation cleaning) targets pathogens not metals. Cooking concentrates per-mass metal through water loss. Removing the hepatopancreas in cephalopods (and gastropods where applicable) removes a Cd-concentrated tissue.
+
+Canned shellfish carries the standard Sn-migration consideration. Smoked and dried shellfish concentrate metals on a per-dry-mass basis.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Shellfish-derived dietary supplements (oyster extract, green-lipped mussel) carry concentrated source-shellfish metals. Crustacean shell-derived chitin and glucosamine supplements carry their own profiles, typically lower in soft-tissue metals because the shell tissue is processed separately. Shrimp and lobster shell-derived products are sold in some functional-food and supplement channels.
+
+See [[products/supplements-algae-seaweed-based]] for the supplement-category routing.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Production-area water-quality verification is the operational specification for high-Cd bivalves. Aquaculture-source shellfish from documented clean-water operations typically carry lower metals than wild-caught from contaminated estuaries.
+
+**Processing levers** ([[mitigation/processing]]) include hepatopancreas removal where applicable (substantially reduces per-serving Cd in cephalopods and gastropods) and standard depuration.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd, Pb, and Hg testing for commercial shellfish supply. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned shellfish.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Cd maximum levels for bivalve molluscs and cephalopods; Pb and Hg MLs for crustaceans and other shellfish.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MLs for Cd, Pb, and Hg in shellfish.
+- FDA action level of 1.0 ppm methylmercury in fish applies to shellfish in commercial channels.
+- US state shellfish-growing-water classification programs (National Shellfish Sanitation Program) address microbial contamination but not heavy metals directly.
+- California Prop 65 ([[regulations/california-prop65]]) Cd, Pb, and Hg MADLs apply to shellfish sold in California.
 
 

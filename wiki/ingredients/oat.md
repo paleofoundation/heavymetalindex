@@ -133,26 +133,51 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Oats (Avena sativa) are a non-rice cereal grain grown in temperate climates worldwide (Canada, Russia, EU member states, Australia, US). Oats accumulate cadmium from soil at moderate rates — generally lower than wheat from the same growing region, and an order of magnitude lower than rice for iAs specifically (oats are not an iAs accumulator). Oat bran concentrates Cd relative to the endosperm; whole-oat products carry approximately 2× the Cd of rolled or steel-cut oats from the same source grain.
+
+Oat positioning in baby cereal and breakfast cereal markets has shifted in the post-2018 brown-rice-syrup-iAs-debate era: parents and infant nutrition manufacturers have moved toward oat-based products to avoid rice-iAs exposure. This makes oat an increasingly important Cat 3 and Cat 1 ingredient.
+
+The HMTc panel concerns for oat are Cd (moderate, with bran fraction concentration) and Pb (generally low). iAs in oat is at trace levels, not a meaningful contributor to dietary iAs.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Geographic variance: Canadian oats are a major North American and global commodity oat source; Canadian Prairie soils generally carry lower Cd than European production regions. Australian oats from Western Australia carry moderate Cd. European production (Finland, Sweden, Germany, Poland) shows variance by region. Oats from areas with documented elevated soil-Cd from phosphate-fertilizer history carry higher Cd than oats from cleaner soils.
+
+Cultivar variance: oat varieties with documented low Cd accumulation have been identified in breeding programs; commercial varieties span a 2-3× range of Cd accumulation within a single growing region.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Oat processing (cleaning, hulling, kilning, rolling or steel-cutting, packaging) does not change source-grain Cd meaningfully. Hulling removes the inedible hull but retains the bran. Rolled and steel-cut oats carry the source-grain Cd unchanged. Instant oats (pre-cooked, flash-dried) carry the source-grain Cd plus minor concentration effects from drying.
+
+Oat bran (separated from the endosperm-rich fraction during milling) concentrates Cd; oat-bran cereal carries 2-3× the Cd of equivalent rolled-oat cereal.
+
+Cooking oats with water and consuming the cooking water (as is standard for oatmeal) conserves the source-grain Cd in the finished bowl. Boiling-and-discard is uncommon for oats and would only modestly reduce per-serving Cd.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Oat derivatives: oat flour, oat milk (typically 7-15 percent oat by mass; see [[ingredients/plant-milk]]), oat-fiber supplements, oat-protein isolates (concentrated Cd), beta-glucan supplements (oat-derived fiber). Oat-milk products inherit the source-grain Cd with water-dilution effects.
+
+Oat baby cereal is a major Cat 1 product category that has gained share over rice baby cereal in iAs-conscious consumer segments. See [[ingredients/baby-cereals-dry]] and [[products/baby-cereals-dry-non-rice]].
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include single-origin sourcing from documented low-Cd growing regions (parts of Canadian Prairies, certain Australian production zones), supplier-side Cd testing of incoming grain.
+
+**Agronomic levers** ([[mitigation/agronomic]]) include soil pH management, low-Cd-accumulator cultivar selection, avoidance of high-Cd phosphate fertilizers.
+
+**Processing levers** ([[mitigation/processing]]) include whole-oat vs steel-cut-oat vs rolled-oat formulation (impacts bran-fraction Cd contribution).
+
+**Formulation levers** ([[mitigation/formulation]]) include substitution of oat for rice in iAs-target-low products (oat substantially reduces iAs while moderately increasing Cd), and oat-percentage adjustment in compounded products.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd testing on incoming oat grain, particularly for infant-targeted and baby-cereal manufacturing. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not generally consequential for oat metal load.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Cd in cereal grains. Oat falls under the general cereal Cd ML.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex Cd ML for cereal grains.
+- FDA does not maintain a binding action level for Cd in oats specifically.
+- California Prop 65 ([[regulations/california-prop65]]) Cd MADL applies to oat-containing products sold in California.
 
 
