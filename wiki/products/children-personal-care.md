@@ -136,7 +136,7 @@ Cat 2 levers ranked by magnitude across the 16 rows. Per-row Levers sections dri
 
 ## How standards math uses this page
 
-The percentile arithmetic (P97 clean, P45 contaminated per CLAUDE.md Part 19) is applied per row by the staff Standards Workbench. The four sibling pairs and the four independent rows receive P97 standards as clean-by-default; the four whole-row contamination platforms (Rows 11-14) receive P45 standards. The pair-aware math compares the clean and contaminated siblings within each pair on a like-for-like basis, in the native finished-product basis of each row. Sensitivity bands (log-normal, gamma, nonparametric) per CLAUDE.md Part 19 are reported on each row's workbench snapshot.
+HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. The row-standard for each Cat 2 row is an aggregate computed from the contributing source pool in the row's native finished-product basis; it is not a per-source decoration of any single value cited on this page. Where a row has a clean/contaminated sibling pair, the row-standards are calibrated on a like-for-like basis across the pair. This public page reports literature evidence only.
 
 ## Historical recalls and enforcement
 

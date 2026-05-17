@@ -75,7 +75,7 @@ EF-2 reconstructable A-tier sample-level evidence for the cereal subsets (rice +
 
 ## Implications
 
-Certification: Direct A-tier sample-level iAs evidence for the rice-based and non-rice infant cereal subcategories under HMTc Category 1, sufficient to support per-analyte clean/dirty classification per Part 19. Combined with [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] (CC-BY peer-reviewed iAs in baby rice and rice cereals; n=29 baby rice + 53 rice cereals), FDA 2016 brings n_a_tier to 2 for iAs in rice-based cereal under the Part 19 readiness bar. Final HMT&C value remains capped by the FDA action level of 100 ppb iAs for infant rice cereal ([[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]]).
+Certification: Direct A-tier sample-level iAs evidence for the rice-based and non-rice infant cereal subcategories, with adequate sample size and method credibility for HMTc Category 1 standards-setting use. Combined with [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] (CC-BY peer-reviewed iAs in baby rice and rice cereals; n=29 baby rice + 53 rice cereals), this brings the iAs-in-rice-based-cereal evidence pool to two A-tier sources. The FDA action level of 100 ppb iAs for infant rice cereal ([[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]]) is the applicable regulatory cap.
 
 Courses: Strong example for teaching rice-vs-non-rice contamination differentials in infant foods and for the trace-value handling convention in regulatory data tables.
 
