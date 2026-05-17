@@ -119,25 +119,43 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Fermented beverage bases is the aggregate ingredient label for the substrate ingredients used in kombucha, water kefir, fermented juice products, jun, and other commercial fermented non-alcoholic beverages. The substrate is typically sweet tea (for kombucha and jun), juice (for water-kefir-on-fruit-juice), sweetened water (for water kefir), or a culture-medium blend. Heavy-metal load in fermented beverage bases comes from three pathways: the source tea or juice ingredient (with [[ingredients/tea|tea]] in particular carrying [[metals/lead|Pb]], [[metals/cadmium|Cd]], [[metals/aluminum|Al]], and Mn at notable levels per the [[ingredients/camellia-sinensis|camellia-sinensis]] page evidence base), the source sugar (refined sugar carries low trace metals; non-refined or organic-cane sugars carry more), and the fermentation-culture inputs (SCOBY, kefir grains, or other cultures can adsorb and release metals during fermentation).
+
+The most-studied fermented beverage base is kombucha (tea-based). The HMTc panel concerns for kombucha bases include Pb (from source tea and from container migration — the documented case of Pb poisoning from kombucha fermented in ceramic containers per [[ingredients/cocoa|the Munilla-García 2023 case]] established the ceramic-container Pb-migration pathway as a serious concern), Al (from source tea and aluminum-foil-lined storage), and Mn (a co-occurring metal in tea). Other fermented beverage bases sit at lower concern levels reflecting their non-tea substrates.
+
+The data gap status across analytes in the body table reflects sparse fermented-beverage-base-specific quantitative data in the routing audit. The synthesis is grounded in the [[ingredients/tea|tea]], [[ingredients/camellia-sinensis|camellia-sinensis]], [[ingredients/beverages|beverages]], and [[ingredients/fruit-juice|fruit-juice]] corpus.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within fermented beverage bases tracks substrate composition (tea-based kombucha vs juice-based fermentation vs water-kefir on sweetened water), source-tea quality (Camellia sinensis tea from documented low-soil-Pb regions vs high-soil-Pb regions; per the [[ingredients/camellia-sinensis|camellia-sinensis]] page), source-juice profile (per [[ingredients/fruit-juice|fruit-juice]] for the per-juice metal baseline), fermentation-vessel material (glass vs stainless-steel vs ceramic — ceramic carries the documented Pb-migration risk), and fermentation duration (longer fermentation potentially extracts more metals from substrate and vessel).
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Fermentation processing affects metals in two directions. First, microbial biomass (SCOBY for kombucha, kefir grains for water kefir) can adsorb metals from the substrate via cell-surface binding (a documented phenomenon in microbial-bioremediation literature), modestly reducing per-volume metal content in finished beverage relative to substrate. Second, metabolic acid production lowers pH (kombucha finished pH ≈2.5-3.5) which mobilizes metals from any metal-contact storage vessel; this is the dominant Pb-migration driver in ceramic-container kombucha. Pasteurization of finished fermented beverages does not affect metals.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Fermented beverage bases route into [[products/kombucha-tea-based|kombucha-tea-based]] (Cat 5 row covering commercial kombucha products) and [[products/fermented-beverages-non-tea-based|fermented-beverages-non-tea-based]] (Cat 5 row covering water kefir, jun, fermented juice products). Derivatives include bottled kombucha (the most common commercial format), draft kombucha (kegged for restaurant-and-cafe service), shelf-stable kombucha (pasteurized for extended shelf life), and home-fermented kombucha (the highest-risk consumer-side application because of variable home-fermentation-vessel material).
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include source-tea specification favoring documented low-Pb tea suppliers; source-juice specification per [[ingredients/fruit-juice|fruit-juice]] sourcing; and refined-sugar specification (the operative source for the sugar substrate).
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-tea and source-juice cultivation stages; see [[ingredients/tea|tea]] and [[ingredients/camellia-sinensis|camellia-sinensis]] for upstream interventions.
+
+**Processing levers** ([[mitigation/processing]]) include fermentation-vessel material specification — this is the dominant operative lever. Glass and stainless-steel fermentation vessels are required; ceramic, especially imported or hobbyist ceramic that may contain Pb-glazed surfaces, must be avoided. Commercial kombucha operations operate to stainless-steel and food-grade-plastic vessel specifications.
+
+**Formulation levers** ([[mitigation/formulation]]) include sweet-tea vs water-kefir substrate selection; non-tea-based fermented beverage bases avoid the tea-pathway Pb/Al inheritance entirely.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Al, Cd testing on finished fermented beverages. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include glass-bottle packaging (standard for commercial kombucha); avoidance of aluminum cans which may interact with low-pH beverage and introduce Al migration; and avoidance of ceramic storage for finished product.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 does not set fermented-beverage-specific maximum levels; general EU food-safety law applies plus the lead-in-beverages context.
+- FDA does not currently set quantitative action levels specific to fermented beverages; general FDA enforcement on toxic-element contamination and on improper home-fermentation practices applies.
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets general beverage contaminant provisions.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to fermented beverage products sold in California.
+- The 2024 Munilla-García case report of Pb poisoning from kombucha fermented in ceramic containers ([[sources/munilla-garcia2023-lead-kombucha-ceramics|Munilla-García 2023]]) established a precedent for FDA and state-AG enforcement against improper ceramic-fermentation containers.
 

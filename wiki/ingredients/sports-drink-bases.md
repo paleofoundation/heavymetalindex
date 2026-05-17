@@ -119,25 +119,38 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Sports drink bases is the aggregate ingredient label for the formulation ingredients in commercial sports drinks (Gatorade, Powerade, electrolyte-replenishment drinks). The formulation includes sweetener (sucrose, dextrose, or HFCS), electrolytes (sodium chloride, potassium chloride, calcium-and-magnesium salts), flavoring, color, and water. Heavy-metal load comes from four pathways: source-sweetener inheritance (per [[ingredients/white-sugar|white sugar]] or HFCS); electrolyte-salt impurities (the sodium, potassium, calcium, and magnesium salt precursors can carry trace [[metals/lead|Pb]] and [[metals/cadmium|Cd]] from upstream mineral-extraction); flavoring and color concentrate impurities; and formulation-water quality. The HMTc panel concerns for sports drink bases are trace Pb and Cd at low levels, with the electrolyte-salt-supplier specification as the dominant variance driver.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within sports drink bases tracks sweetener choice, electrolyte-salt supplier specifications, and formulation-water quality. Major brand commercial sports drinks operate to tight impurity specifications; emerging-market and craft sports drinks may carry higher metals.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Sports drink manufacturing involves preparing a base syrup (sweetener + electrolytes + flavoring + color), diluting with treated water to finished-product strength, and packaging. Pasteurization (for non-aseptic packaging) or aseptic processing finishes the product. None of these steps appreciably introduce or remove metals beyond the input-ingredient profile.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Sports drink bases route into the broader sports-drink product family (commercial bottled sports drinks, powder mixes that consumers reconstitute, ready-to-drink pouches). Each derivative carries the per-base profile.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include sweetener and electrolyte-salt supplier specifications at food-grade impurity tier; flavoring and color concentrate supplier specifications.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-sweetener cultivation stage (sugar cane, sugar beet, corn for HFCS).
+
+**Processing levers** ([[mitigation/processing]]) include processing-equipment material specification; formulation-water quality (RO purification).
+
+**Formulation levers** ([[mitigation/formulation]]) include electrolyte-salt-source choice; sweetener choice.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd testing on incoming electrolyte salts and finished product.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include bottle/can-lining specification; PET and glass packaging eliminate metal-migration pathways.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 does not set sports-drink-specific maximum levels; general EU food-safety law applies plus the lead-in-beverages context.
+- FDA does not currently set quantitative action levels specific to sports drinks; general FDA enforcement applies.
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets general beverage contaminant provisions.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to sports drink products sold in California.
 
