@@ -139,7 +139,18 @@ CRITICAL RULES
    - RIGHT: "Ready-made formulas (n=8) ranged from 175.5 to 700.4 µg/L; the preterm formula was the highest. Powders (n=8, one soya-based, seven cow-milk-based) gave prepared-milk equivalents 333.3 to 629.0 µg/L; the soya-based powder was the highest."
    Product-form descriptors (preterm, soya-based, ready-made, powdered, follow-on, growing-up) carry the same identifying information without naming the brand. The wiki defaults to no brand attribution, period. Naming brands as format identifiers was permitted in an earlier draft of this rule but Karen locked the stricter reading on 2026-05-17 to protect HMT&C from any appearance of brand ranking. Routine brand-name listings violate Part 12 of CLAUDE.md and will be deleted in the verification pass.
 
-   ONE EXPLICIT EXCEPTION carved out by Part 12 itself: brands MAY be named when documenting a public-record regulatory event (Congressional investigation, FDA recall, agency enforcement action) where the brand is the subject of the action. Frame as a regulatory event, not a brand ranking. Example: "The 2021 House Subcommittee on Economic and Consumer Policy investigated seven baby food manufacturers (list the seven) following internal-document subpoenas; aggregated findings showed exceedances across all seven on at least one analyte." Naming the seven companies investigated is documenting a regulatory event; reporting per-manufacturer percentile rankings would still violate Part 12.
+   TWO EXPLICIT EXCEPTIONS — neither violates Part 12:
+
+   **Exception 1 — Regulatory-event subject (per Part 12 itself):** brands MAY be named when documenting a public-record regulatory event (Congressional investigation, FDA recall, agency enforcement action) where the brand is the subject of the action. Frame as a regulatory event, not a brand ranking. Example: "The 2021 House Subcommittee on Economic and Consumer Policy investigated seven baby food manufacturers (list the seven) following internal-document subpoenas; aggregated findings showed exceedances across all seven on at least one analyte." Naming the seven companies investigated is documenting a regulatory event; reporting per-manufacturer percentile rankings would still violate Part 12.
+
+   **Exception 2 — Scientific-method vendor/material names (locked 2026-05-17):** Part 12's intent is to prevent the wiki from becoming a brand-ranking-by-contamination-level surface. It does NOT mean stripping all corporate names from the wiki. Scientific reproducibility requires naming the instrument vendor and model, the reference material vendor, the statistical software, the digestion equipment, etc. Methods sections SHOULD name these. Examples that are PERMITTED:
+   - "Pb, Cd, and Al were measured by graphite furnace AAS (PerkinElmer PinAAcle 900T)."
+   - "Quality control used NRCC DORM-3 Fish Protein reference material."
+   - "Statistical analysis used ANOVA, post-hoc Turkey–Kramer HSD via JMP (SAS Institute, Cary, NC)."
+   - "Microwave digestion on a CEM MARS 6."
+   - "Sample homogenization in a Waring blender."
+
+   The distinction is: a brand name attached to a CONTAMINATION VALUE (the sampled product being measured) is the Part 12 violation. A brand name attached to a METHOD (the instrument doing the measuring, the reference material, the software) is scientific reporting. Strip the former; keep the latter.
 
 11. WHEN UNCERTAIN, LEAVE BLANK. Empty fields are safe; guessed fields create downstream errors that are expensive to find later. If you do not know the DOI, write null. If you do not know the license, write "unknown." If sample_n is not stated, write null. If you cannot tell whether the matrix is breast milk or infant formula from the extracted text, leave matrices empty and flag it in verification notes.
 
