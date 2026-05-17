@@ -34,3 +34,14 @@
 ### Succeeded
 - `signes-pastor2016-inorganic-arsenic-rice-products-infants` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Inorganic arsenic in rice-based products for infants and young children.pdf)
 - `dokhtkkhatibi2024-infant-formula-baby-food-zahedan` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Investigation of heavy metal concentrations and health risk assessment in infant formula and infant cereals in Zahedan, Iran.pdf)
+
+## Tick 2026-05-17T17:01:19.771Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `rahati2026-infant-formula-baby-food-iran-health-risk` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf)
+- `mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf)

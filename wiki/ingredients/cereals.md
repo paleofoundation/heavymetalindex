@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/rice]]", "[[ingredients/oat]]", "[[ingredi
 used_in_products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 33
+sources: 34
 ---
 
 # Cereals

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T14:01:45.239Z",
+  "generated_at": "2026-05-17T17:25:27.084Z",
   "product_filter": null,
   "metal_filter": null,
   "cells_total": 347,
@@ -23,8 +23,8 @@
   "sensitivity_band_distribution": {
     "stable": 72,
     "no_data": 236,
-    "provisional": 18,
-    "needs_review": 21
+    "provisional": 19,
+    "needs_review": 20
   },
   "methodology": {
     "clean_target": "P97 of pooled clean-subcategory distribution",

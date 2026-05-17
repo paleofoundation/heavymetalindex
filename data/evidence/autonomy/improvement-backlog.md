@@ -73,3 +73,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (synthesis cell-population triggers), Part 11 (priority ordering for bulk ingest), deterministic-generator pattern. Gap-driven testing is already capturing signal; this proposal routes that signal into the ingest loop to unblock the 286 cells systematically.
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Build synthesis-trigger audit to unblock 286 pooling-blocked cells
+
+**What:** Create `tools/audit-synthesis-readiness.mjs` that reads the routing audit and ingredient frontmatter, identifies every (ingredient, metal) cell with sources but stale or missing synthesis, classifies it by readiness state (pending first population, due for resynthesis, blocked), prioritizes by product-tier and evidence count, and writes a deterministic synthesis queue to `data/evidence/synthesis-queue.csv`.
+
+**Why this lever now:** 286 pool_blocked cells is the snapshot's largest weakness. Most blocks are likely synthesis-execution stalls (cells crossed the resynthesis threshold but no pass ran), not unfixable data issues. Making the synthesis backlog explicit unblocks the contamination_profile compilation and operationalizes CLAUDE.md Part 9's trigger-based architecture, which currently exists as a rule but has no instrumentation.
+
+**Where:**
+- Create: `tools/audit-synthesis-readiness.mjs`
+- Output: `data/evidence/synthesis-queue.csv` (one row per (ingredient, metal, trigger_reason, priority_rank))
+- Read from: routing audit, ingredient pages' `contamination_profile.*.last_reviewed` and `n_studies` fields, `review_events.jsonl`
+
+**How:**
+1. For each (ingredient, metal) pair in the routing audit with `route_count >= 1`, check the page's frontmatter state: `status`, `n_studies`, `last_reviewed`, `last_full_resynthesis`.
+2. Classify: first-synthesis-pending (status: pending, sources >= 2), resynthesis-due (n_studies has doubled since last_full_resynthesis), blocked (contradictions or missing extraction per routing-malformed records), or current (synthesized within 30 days).
+3. Rank by product-tier (infant-and-child-foods first), metal-tier (A-metals first), then source count descending.
+4. Write queue; mark blocked entries with their specific blocker (malformed frontmatter, contradicting sources, thin-pool threshold).
+5. Wire into lint: fail build if queue has unresolved blockers.
+
+**Anchors:** CLAUDE.md Part 9 (synthesis trigger conditions: second source, n_studies doubling, contradictions), Part 18 (lint: ingredient coverage asymmetry), Part 19 (HMT&C thresholds depend on populated ingredient cells).
+
+---

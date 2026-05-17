@@ -6,7 +6,7 @@ name: Beryllium
 species: [Be, beryllium-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 3
+sources: 4
 updated: 2026-04-30
 status: stub
 n_sources: 1
