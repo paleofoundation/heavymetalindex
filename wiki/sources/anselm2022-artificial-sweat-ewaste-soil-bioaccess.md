@@ -11,7 +11,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Effects_of_Artificial_Sweat_Formulation_and_Extraction_Temperature_on_Estimation_of_the_Dermal_Bioac.pdf"
-metals: [As, Cd, Cr, Cu, Fe, Mn, Ni, Pb, Zn]
+metals: [tAs, Cd, Cr, Cu, Fe, Mn, Ni, Pb, Zn]
 ingredients: []
 products: []
 matrices: [soil]
@@ -157,6 +157,7 @@ Limitations stated/implied: static 8 h batch extraction (no sequential or kineti
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/copper]]
+- [[metals/iron]]
 - [[metals/lead]]
 - [[metals/manganese]]
 - [[metals/nickel]]
@@ -168,6 +169,7 @@ Limitations stated/implied: static 8 h batch extraction (no sequential or kineti
 - `products: []` and `ingredients: []` are correct for this paper: it is a soil bioaccessibility methodology study, not a food or personal-care product study. The matrix is soil from an e-waste site; the artificial sweats are extractants, not sampled matrices. The advisory routing-malformed entry on this source reflects empty products/ingredients lists; not a frontmatter defect for a methodology paper.
 - Prior page revision (2026-05-17 earlier) included `artificial-sweat` as a matrix; corrected to `[soil]` because matrices are sampled matrices (the soil), not extractants (the sweat solutions).
 - Prior page revision included only abstract-level claims in Key numbers; expanded to include Table 3 pseudototal concentrations, Table 4 bioaccessible concentrations and %BA values across all five formulations at 37 °C, Table 5 pH values, the Section 3.4 statistical analysis results, and the spike-recovery QC. This is required for downstream HMTc threshold work and for the Cochrane bar (exact figures, not paraphrases).
-- Speciation: paper measured total As (⁷⁵As by ICP-MS), no inorganic/total split; total Cr (⁵³Cr), no Cr-VI split. Metals tagged `As` and `Cr` accordingly.
+- Speciation: paper measured total As (⁷⁵As by ICP-MS), no inorganic/total split; total Cr (⁵³Cr), no Cr-VI split. Metals tagged `tAs` (per CLAUDE.md Part 14 speciation discipline: when paper does not separate iAs/tAs, use `tAs`) and bare `Cr` (no separate `tCr` convention).
+- Audit subagent (2026-05-17) flagged bare `As` vs `tAs` and missing `[[metals/iron]]` wikilink; both verified against source — `As` corrected to `tAs` in frontmatter; `[[metals/iron]]` added to "Wiki pages this source may touch" (Fe is reported in Tables 3 and 4 alongside the other eight analytes).
 - Brand-firewall compliance: method-section vendor names (Agilent ICP-MS, CEM MARS Xpress digester, Sigma Aldrich Acrodisc filters, Stuart SI500 incubator, Qmx Laboratories calibrants, Minitab software) retained per Part 12 Exception 2 (scientific reproducibility). No sampled-product brand names present.
 - Provisional ingredient/product scaffolds not applicable (no product/ingredient declarations).
