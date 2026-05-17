@@ -19,13 +19,13 @@ matrices: [infant-formula-powder, infant-cereal]
 jurisdictions: [NG]
 near_duplicates: []
 sample_n: 20
-sample_population: "8 Baby Milk (milk-based powder) and 12 Infant Formulae (cereal-based) products purchased from Shopright supermarket and groceries within Umuahia metropolis, Abia State, Nigeria; all locally produced; sampled at monthly intervals over 3 months, two years before shelf-life expiration"
+sample_population: "8 Baby Milk (milk-based powder) and 12 Infant Formulae (cereal-based) products purchased from supermarket and grocery retailers within Umuahia metropolis, Abia State, Nigeria; all locally produced; sampled at monthly intervals over 3 months, two years before shelf-life expiration"
 updated: 2026-05-17
 ---
 
 # Mgbemena et al. 2026 — Nutrients and heavy metals in baby milk and infant formula, Umuahia, Nigeria
 
-This Scientific Reports study from Michael Okpara University of Agriculture (Umudike, Abia State) analyses proximate composition, macro/micro minerals, and five heavy metals (Pb, Ni, Cu, Cd, Cr) by atomic absorption spectrometry in 8 baby milk (milk-based powder) and 12 infant formula (cereal-based) products sold in Umuahia metropolis, Nigeria. All eight baby milk samples exceeded the WHO (2023) lead limit of 0.03 mg/kg (range 0.07–0.14 mg/kg), and three baby milk samples (A, C, D) had individual cadmium Target Hazard Quotients above 1.0; sample C also had a chromium THQ above 1.0. Aggregate Cd Hazard Index across all 20 samples reached 15.55, which authors flag as indicating non-carcinogenic chronic-risk concern. Cereal-based infant formulae were lower than baby milk on every heavy metal except copper.
+This Scientific Reports study from Michael Okpara University of Agriculture (Umudike, Abia State) analyses proximate composition, macro/micro minerals, and five heavy metals (Pb, Ni, Cu, Cd, Cr) by atomic absorption spectrometry in 8 baby milk (milk-based powder) and 12 infant formula (cereal-based) products sold in Umuahia metropolis, Nigeria. All eight baby milk samples exceeded the WHO (2023) lead limit of 0.03 mg/kg (range 0.07–0.14 mg/kg), and three baby milk samples (A, C, D) had individual cadmium Target Hazard Quotients above 1.0; the source text also states that sample C had chromium THQ above 1.0, although Table 3 does not print a Cr THQ column. Aggregate Cd Hazard Index across all 20 samples reached 15.55, which authors flag as indicating non-carcinogenic chronic-risk concern. Compared with baby milk, cereal-based formulae were lower for Pb, Cd, and Cr and higher for Cu; Ni is source-internally inconsistent because Table 2 sample I lists 0.26 mg/kg while the abstract reports 0.003–0.040 mg/kg.
 
 ## Key numbers
 
@@ -38,7 +38,7 @@ Baby Milk (n=8) heavy metal ranges and per-sample values (Table 2, mg/kg):
 - Ni: 0.030–0.260 (sample D lowest 0.030; sample H highest 0.260). 5 of 8 samples (B, E, F, G, H) exceeded WHO limit (0.07 mg/kg).
 - Cu: 0.060–0.310 (sample G lowest 0.060; sample B highest 0.310). All samples below WHO limit (0.7 mg/kg).
 - Cd: 0.010–0.210 (samples A, E lowest 0.010; sample C highest 0.210). One sample (C) exceeded WHO limit (0.2 mg/kg).
-- Cr: 0.000–0.210 (samples E, F, G, H = 0.000; sample C highest 0.210). One sample (C) at WHO limit (0.3 mg/kg); none exceeded.
+- Cr: 0.000–0.210 (samples E, F, G, H = 0.000; sample C highest 0.210). All samples were below the WHO limit (0.3 mg/kg).
 - Heavy metal ranking in Baby Milk: Pb > Cu > Ni > Cd > Cr (per paper text; reflects mean concentrations).
 
 Infant Formula (n=12) heavy metal ranges and per-sample values (Table 2, mg/kg):
@@ -95,7 +95,7 @@ App: Not suitable as primary input for `contamination_profile` synthesis on infa
 - [[products/infant-and-child-foods-master]] — broad context (HMTc master row).
 - [[metals/lead]] — developing-country-market Pb concentration data in infant nutrition products; all 8 milk-based samples exceeded WHO 0.03 mg/kg limit.
 - [[metals/cadmium]] — sample-level Cd THQ > 1 in three baby milk samples; aggregate Cd HI = 15.55 across all 20 samples.
-- [[metals/nickel]] — 6 of 8 baby milk samples exceeded WHO 0.07 mg/kg Ni limit.
+- [[metals/nickel]] — 5 of 8 baby milk samples exceeded WHO 0.07 mg/kg Ni limit.
 - [[metals/chromium]] — sample C of baby milk reached 0.21 mg/kg; one Cr THQ > 1.
 - [[metals/copper]] — Cu in cereal-based products ranged up to 0.83 mg/kg (sample M exceeded WHO 0.7 mg/kg).
 - [[ingredients/milk-and-dairy]] — cow-milk-derived powdered baby milk as primary substrate for BM samples.
@@ -127,6 +127,8 @@ Audit-pass 2026-05-17 by fresh-context subagent (REVISE verdict): 1 ❌ + 4 ⚠�
 - ⚠️ Metals frontmatter Fe/Mn/Zn: removed from metals array (these are nutritional, not contamination; were polluting routing). Documented above.
 - ⚠️ Matrix `baby-food`: removed (not in system-prompt matrix vocab); precise tokens `infant-formula-powder` + `infant-cereal` cover both product types.
 
-- **Brand-firewall compliance (Part 12).** The paper uses coded sample identifiers (A–H for BM, I–T for IF) and does not name brands; no brand redaction was required. Product-form descriptors ("milk-based powdered baby milk," "cereal-based infant formula / functionally infant cereal") are used throughout.
+- **Brand-firewall compliance (Part 12).** The paper uses coded sample identifiers (A–H for BM, I–T for IF) and does not name sampled product brands. Cross-vendor audit (Codex, 2026-05-17) generalized the named retailer in `sample_population` to "supermarket and grocery retailers" under the strict 2026-05-17 brand-firewall reading. Product-form descriptors ("milk-based powdered baby milk," "cereal-based infant formula / functionally infant cereal") are used throughout.
+
+- **Cross-vendor audit (Codex, 2026-05-17).** Corrected the baby-milk Cr limit statement from "at WHO limit" to below the 0.3 mg/kg limit; tightened the opening summary around the missing Table 3 Cr THQ column and Table 2/abstract Ni inconsistency; updated the nickel wiki-touch note to 5 of 8 baby milk samples; retained the existing matrix correction to `[infant-formula-powder, infant-cereal]`.
 
 - **Wiki/HMTc-firewall compliance (Part 2).** The Implications section reports what this single paper found and the limits of its data; no synthesis claim about the broader literature is made, and no HMTc-threshold comparison is included.
