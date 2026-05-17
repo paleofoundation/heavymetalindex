@@ -64,12 +64,28 @@ log "Daemon tick start. Repo: $REPO_ROOT. Branch: $(git branch --show-current)"
 HEARTBEAT_FILE="$REPO_ROOT/data/evidence/autonomy/heartbeat.txt"
 echo "$TIMESTAMP" > "$HEARTBEAT_FILE"
 
-# Refuse to run if the working tree is dirty with uncommitted edits we didn't
-# make. Safer than committing surprises.
-if ! git diff --quiet || ! git diff --cached --quiet; then
-  log "Working tree has uncommitted changes. Daemon refuses to run on a dirty tree."
-  log "Run \`git status\` to inspect, then commit/stash/discard before next tick."
+# Refuse to run if the working tree has REAL content edits we didn't make.
+# Transient autonomy artifacts (the routing audit, the queue/tracker CSVs,
+# autonomy/ working files) are expected to be dirty mid-multi-agent-operation
+# and don't justify halting the daemon. Content edits to wiki/, docs/, tools/,
+# CLAUDE.md, OPERATING.md, AGENTS.md, package.json, or .gitignore DO justify
+# halting because those are Karen's or another agent's in-flight content work
+# that the daemon must not sweep up into its own commits.
+#
+# This relaxed check landed 2026-05-17 after Karen discovered the daemon had
+# silently halted at 12:50 because its own heartbeat write left the tree
+# dirty. Heartbeat is now gitignored; this check is the second layer of
+# defense for the multi-agent (daemon + Codex + Claude Code) operation
+# Karen runs in parallel during sprints.
+TRANSIENT_PATHS='data/evidence/product_source_routing_audit.csv|data/evidence/audit-queue.csv|data/evidence/autonomy/|data/evidence/cells-needing-synthesis.csv|data/evidence/routing_unresolved.csv|data/evidence/routing_malformed.csv|data/evidence/data-gap-with-sources.csv|data/evidence/build-action-plan\.(json|md)|data/evidence/build-action-prompts/'
+REAL_DIRTY=$(git status --porcelain | grep -vE "^.. ($TRANSIENT_PATHS)" || true)
+if [[ -n "$REAL_DIRTY" ]]; then
+  log "Working tree has real content edits (wiki/, docs/, tools/, etc.). Daemon refuses to run; another agent may be mid-work."
+  log "$REAL_DIRTY"
   exit 0
+fi
+if [[ -n "$(git status --porcelain)" ]]; then
+  log "Transient autonomy artifacts dirty; daemon proceeding (these regenerate as part of the tick)."
 fi
 
 # Pull latest origin so we don't push stale work
