@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/pu-erh-tea]]"]
 used_in_products: ["[[products/tea]]", "[[products/kombucha-tea-based]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 23
+sources: 22
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10

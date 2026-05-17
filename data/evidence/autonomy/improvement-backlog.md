@@ -26,3 +26,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (Synthesis triggers and modes), Part 5b (Routing audit feeds synthesis), Part 4 (compiled wiki model requires synthesis flow), order-of-operations Phase 3–4
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Rank gap-driven wishlist sources by pool-impact
+
+**What:** Create a script that consumes the 631 gap-driven wishlist entries and ranks each source by how many currently-blocked (pool_blocked_cells) ingredient/metal cells it would unblock, surfacing the highest-impact next batch for autonomy ingest.
+
+**Why this lever now:** 286 blocked cells is the binding constraint on synthesis progression (Part 9). The wishlist identifies 631 sources that could unblock them, but without prioritization, autonomy ingest operates on ad-hoc or manual triage. Deterministic ranking by pool-impact converts waste into a self-steering feed. Unblocking even the top-10 sources by impact likely moves 50–120 cells from blocked → thin → ready-to-synthesize.
+
+**Where:** 
+- Input: `data/evidence/gap_driven_wishlist_queries.csv` (extract source cite-keys, matched product/ingredient/metal tuples)
+- Script: `tools/autonomy/rank-wishlist-by-pool-impact.mjs` (new)
+- Output: `data/evidence/wishlist_ranked_by_pool_impact.csv` (columns: cite_key, target_cells_count, p_tier, impact_rank, rationale)
+- Integration: post-routing-audit trigger; autonomy ingest consumes the top N by rank
+
+**How:**
+1. Parse the routing audit to identify every (ingredient, metal) cell currently at `status: pending` (blocked).
+2. For each wishlist entry, cross-reference its declared `products/ingredients/metals` frontmatter against the routing map to compute how many blocked cells the source would populate.
+3. Rank by cells-unblocked descending; secondary sort by evidence-tier (A > B > C).
+4. Emit the ranked list with explicit impact counts; autonomy ingest clips the top 10–20 by impact for next batch.
+
+**Anchors:** [[Part 5b routing layer]], [[Part 9 synthesis]], [[Part 11 priority ordering]]. No wiki/HMT&C firewall violation. Aligns with no-hand-curation principle: deterministic, repeatable, emitted to audit log.
+
+---

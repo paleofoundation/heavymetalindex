@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
 literature_scope: thin
-sources: 0
+sources: 1
 ---
 
 # Flavored Waters

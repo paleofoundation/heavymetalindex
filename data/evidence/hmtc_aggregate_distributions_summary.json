@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T13:12:35.832Z",
+  "generated_at": "2026-05-17T14:01:45.239Z",
   "product_filter": null,
   "metal_filter": null,
   "cells_total": 347,
@@ -18,8 +18,7 @@
   },
   "cells_by_role": {
     "clean_subcategory": 59,
-    "independent_clean_by_default": 251,
-    "dirty_subcategory": 37
+    "independent_clean_by_default": 288
   },
   "sensitivity_band_distribution": {
     "stable": 72,

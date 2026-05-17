@@ -30,18 +30,18 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]] (24 sources)
 3. [[products/infant-formula-rtf-liquid-non-soy|Infant formula, RTF liquid (non-soy)]] (21 sources)
 4. [[products/infant-formula-rtf-liquid-soy-based|Infant formula, RTF liquid (soy-based)]] (13 sources)
-5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]] (32 sources)
+5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]] (31 sources)
 6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (61 sources)
 7. [[products/fruit-purees|Fruit purees]] (25 sources)
-8. [[products/non-root-vegetable-purees|Non-root vegetable purees]] (16 sources)
+8. [[products/non-root-vegetable-purees|Non-root vegetable purees]] (17 sources)
 9. [[products/root-vegetable-purees|Root-vegetable purees]] (19 sources)
 10. [[products/meat-and-poultry-purees|Meat and poultry purees]] (13 sources)
 11. [[products/fish-containing-baby-foods|Fish-containing baby foods]] (12 sources)
-12. [[products/mixed-meals-non-rice|Mixed meals, non-rice]] (17 sources)
-13. [[products/mixed-meals-rice-containing|Mixed meals, rice-containing]] (16 sources)
+12. [[products/mixed-meals-non-rice|Mixed meals, non-rice]] (18 sources)
+13. [[products/mixed-meals-rice-containing|Mixed meals, rice-containing]] (17 sources)
 14. [[products/fruit-juice-not-canned|Fruit juice (not canned)]] (22 sources)
-15. [[products/teething-and-snacks-non-rice|Teething & snacks (non-rice)]] (11 sources)
-16. [[products/teething-and-snacks-rice-based|Teething & snacks (rice-based)]] (16 sources)
+15. [[products/teething-and-snacks-non-rice|Teething & snacks (non-rice)]] (12 sources)
+16. [[products/teething-and-snacks-rice-based|Teething & snacks (rice-based)]] (17 sources)
 
 ## Base and Bridge Product Nodes
 
@@ -122,14 +122,14 @@ These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/co
 These pages carry the first Category 5 beverage comparison layer. The locked row nodes separate finished-product evidence from ingredient-only values and place regulatory context next to actual field findings where the matrix, species, and unit basis match.
 
 - [[products/category-5-beverages]] (0 sources)
-- [[products/fruit-juices-non-apple]] (12 sources)
-- [[products/fruit-juices-apple-containing]] (12 sources)
+- [[products/fruit-juices-non-apple]] (13 sources)
+- [[products/fruit-juices-apple-containing]] (13 sources)
 - [[products/vegetable-juices-non-root]] (2 sources)
 - [[products/vegetable-juices-root-vegetable-containing]] (0 sources)
 - [[products/plant-milks-non-soy-non-rice]] (2 sources)
 - [[products/plant-milks-soy-based]] (2 sources)
 - [[products/plant-milks-rice-based]] (4 sources) — RETIRED, routes to Category 3 row 10 (Rice beverages) when built
-- [[products/flavored-waters]] (0 sources)
+- [[products/flavored-waters]] (1 source)
 - [[products/sports-energy-drinks]] (0 sources)
 - [[products/herbal-botanical-infusions]] (1 source)
 - [[products/true-tea-camellia-sinensis]] (4 sources)
@@ -510,17 +510,6 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->
