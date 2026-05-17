@@ -64,7 +64,7 @@ _Pending. Cat 4 regulatory landscape: Codex GSCTFF and EU Regulation 2023/915 se
 
 ## Levers to reduce contamination
 
-_Pending synthesis. Cat 4 levers per the Step 0 lock framework, ordered by impact magnitude:_
+The Cat 4 Step 0 lock framework distinguishes clean-platform produce/seed rows from contaminated-platform commodity rows (where species or production system carries elevated metal load by characteristic). For this row, the levers below are ordered by impact magnitude per the literature evidence base; sourcing-and-agronomic levers dominate the per-product metal load, with processing-and-formulation levers offering additional reduction.
 
 1. **Maintain the clean-baseline commodity choice.** The Row 8 clean baseline exists precisely because alternative commodities (without the platform load) are commercially available within the same product class. Brands certifying this row commit to NOT using the contaminated variant's ingredient class as a substitute.
 2. **Sourcing-level controls**: origin region, soil-Cd or paddy-iAs pre-screening, supplier specification.
@@ -78,7 +78,7 @@ The percentile arithmetic that informs HMTc Cat 4 thresholds for this row lives 
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. Cat 4-relevant public-record regulatory events include FDA recall notices for fresh-produce E. coli/Listeria contamination (separate concern from heavy metals), and FDA TDS/PDP surveillance reporting on produce metal occurrence. Row-specific events will be filed here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heavy-metal contamination (the focus of this row) and microbial contamination (FDA recall notices for E. coli/Salmonella/Listeria in fresh produce, a separate concern). FDA Total Diet Study and Pesticide Data Program surveillance reports establish the heavy-metal occurrence baseline ([[sources/fda-tds-elements-2018-2020|FDA 2022]]). State-level Cd-in-leafy-greens enforcement has been active in California under Prop 65; the related Mateel Environmental settlement framework has shaped compliance practice. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
