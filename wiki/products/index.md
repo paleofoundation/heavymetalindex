@@ -99,6 +99,28 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/kombucha-tea-based]] (1 sources)
 - [[products/regulatory-crosswalk-field-findings]] (5 sources)
 
+
+## Category 4: Fruits, Vegetables, and Produce
+
+These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/contaminated splits document categorical metal-load differences: spinach (Cd) split from leafy vegetables; soy and peanut (each carrying their own platform load) split from legumes/pulses; cashew (Ni) and sunflower seed (Cd) each split from nuts and seeds; peanut butter and sunflower seed butter inherit from their whole-kernel parents within the nut and seed butters family.
+
+- [[products/fresh-fruit|Fresh and Frozen Fruits]]
+- [[products/dried-fruit|Dried Fruit]]
+- [[products/fruit-snacks|Fruit Snacks]]
+- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] — clean baseline
+- [[products/spinach|Spinach]] — contaminated (Cd, Pb)
+- [[products/non-root-vegetables|Non-Root Vegetables]]
+- [[products/root-tuber-vegetables|Root and Tuber Vegetables]]
+- [[products/legumes-pulses-other|Legumes and Pulses, Other]] — clean baseline
+- [[products/soy-products|Soy Products]] — contaminated (Al, Ni, Cd)
+- [[products/peanuts|Peanuts]] — contaminated (Al, Ni)
+- [[products/nuts-seeds-other|Nuts and Seeds, Other]] — clean baseline
+- [[products/cashews|Cashews]] — contaminated (Ni)
+- [[products/sunflower-seeds|Sunflower Seeds]] — contaminated (Cd)
+- [[products/nut-seed-butters-other|Nut and Seed Butters, Other]] — clean baseline
+- [[products/peanut-butter|Peanut Butter]] — contaminated (Al, Ni)
+- [[products/sunflower-seed-butter|Sunflower Seed Butter]] — contaminated (Cd)
+
 <!-- BEGIN: hmi-auto-linked-stubs -->
 
 ## Auto-linked stubs
