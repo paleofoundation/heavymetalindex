@@ -24,11 +24,11 @@ updated: 2026-05-17
 
 # Mehri et al. 2024 — Potentially toxic elements in edible vegetable oils, Hamadan, Iran
 
-This study measured five potentially toxic elements (tAs, Cd, Pb, Fe, Zn) in 40 samples of traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, collected in 2022 using ICP-OES after microwave-assisted acid digestion. Industrial oils had significantly higher total tAs, Fe, and Zn than traditional oils in the pooled type comparison; Pb and Cd did not differ significantly by production type. Pb and Cd means were below the Codex/Iranian benchmarks cited by the authors, while industrial olive oil mean tAs (0.113 mg/kg) exceeded the 0.1 mg/kg benchmark despite the paper's narrative statement that the sampled oils were lower than legal limits. Non-carcinogenic TTHQ values were below 1 for both adults and children, but the paper's cancer-risk calculation for inorganic arsenic exceeded 1×10⁻⁶ for both traditional and industrial oils.
+This study measured five potentially toxic elements (tAs, Cd, Pb, Fe, Zn) in 40 samples of traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, collected in 2022 using ICP-OES after nitric acid/hydrogen peroxide digestion. Industrial oils had significantly higher total tAs, Fe, and Zn than traditional oils in the pooled type comparison; Pb and Cd did not differ significantly by production type. Pb and Cd means were below the Codex/Iranian benchmarks cited by the authors, while industrial olive oil mean tAs (0.113 mg/kg) exceeded the 0.1 mg/kg benchmark despite the paper's narrative statement that the sampled oils were lower than legal limits. Non-carcinogenic TTHQ values were below 1 for both adults and children, but the paper's cancer-risk calculation for inorganic arsenic exceeded 1×10⁻⁶ for both traditional and industrial oils.
 
 ## Key numbers
 
-Method: ICP-OES with microwave acid digestion (HNO3 65% + H2O2 30%). LOD: As 0.16 µg/L, Cd 0.02 µg/L, Pb 0.12 µg/L. LOQ: As 0.50 µg/L, Cd 0.09 µg/L, Pb 0.41 µg/L. Recovery: 95–100%.
+Method: ICP-OES after acid digestion (HNO3 65% + H2O2 30%), with 11 h room-temperature stirring followed by heated stages at 80°C and 150°C. LOD: As 0.16 µg/L, Cd 0.02 µg/L, Pb 0.12 µg/L. LOQ: As 0.50 µg/L, Cd 0.09 µg/L, Pb 0.41 µg/L. Recovery: 95–100%.
 
 Traditional oils (n=20, mean ± SD, mg/kg wet weight):
 - Olive: tAs 0.060 ± 0.022; Cd 0.005 ± 0.002; Pb 0.014 ± 0.004; Fe 8.928 ± 0.913; Zn 3.756 ± 0.538
@@ -52,7 +52,7 @@ Codex/ISIRI limits cited by authors: Pb 0.1 mg/kg, Cd 0.05 mg/kg, tAs 0.1 mg/kg.
 
 ## Methods
 
-ICP-OES (Inductively Coupled Plasma Optical Emission Spectrometry). Microwave-assisted acid digestion: 1 mL sample + 6 mL HNO3 (65%) + 2 mL H2O2 (30%); stage 1 at 80°C (1 h), stage 2 at 150°C (3 h). Arsenic reported as total arsenic (tAs) — ICP-OES does not speciate; iAs fraction not determined. Non-carcinogenic risk assessed via THQ/TTHQ; carcinogenic risk via cancer slope factor for inorganic As (CSF = 1.5 [mg/kg-d]⁻¹). Monte Carlo simulation (log-normal distributions, 50,000 iterations). Ingestion rates: adults 100 g/day oil, children 20 g/day. Study period: 2022. n=5 per oil type per category.
+ICP-OES (Inductively Coupled Plasma Optical Emission Spectrometry). Acid digestion: 1 mL sample + 6 mL HNO3 (65%) + 2 mL H2O2 (30%), stirred at room temperature for 11 h; stage 1 at 80°C (1 h), stage 2 at 150°C (3 h). Arsenic reported as total arsenic (tAs) — ICP-OES does not speciate; iAs fraction not determined. Non-carcinogenic risk assessed via THQ/TTHQ; carcinogenic risk via cancer slope factor for inorganic As (CSF = 1.5 [mg/kg-d]⁻¹). Monte Carlo simulation (log-normal distributions, 50,000 iterations). Ingestion rates: adults 100 g/day oil, children 20 g/day. Study period: 2022. n=5 per oil type per category.
 
 Note: the cancer risk calculation applies the inorganic arsenic CSF to total arsenic concentrations; if tAs includes significant organic fractions (less toxic), the carcinogenic risk may be overstated. This is a methodological limitation acknowledged implicitly by the study.
 
@@ -60,9 +60,9 @@ Note: the cancer risk calculation applies the inorganic arsenic CSF to total ars
 
 Certification: Pb and Cd values in all samples were below Codex/ISIRI limits. The elevated Fe in sesame oils (15–24 mg/kg) and arsenic carcinogenic risk signal areas for supplier specification attention, particularly for industrial-sourced oils.
 
-Courses: Illustrates that industrial processing (bleaching, refining, deodorization) can concentrate certain metals (tAs, Fe) relative to traditionally pressed oils, contrary to consumer expectation.
+Courses: Illustrates how industrial processing variables (bleaching, hardening, refining, deodorization) are discussed by the authors as possible contributors to higher PTE concentrations in some industrial oil samples.
 
-App: Supports flagging industrial vegetable oils — especially olive and peanut — for elevated tAs relative to traditionally pressed equivalents. Pb and Cd remain low across all oil types in this Iranian study.
+App: Supports source-specific context for production type and origin when edible vegetable oils are declared; Pb and Cd remained low across all sampled oil types in this Iranian study, while tAs differed by oil type and production category.
 
 ## Wiki pages this source may touch
 
@@ -75,6 +75,8 @@ App: Supports flagging industrial vegetable oils — especially olive and peanut
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
+- [[metals/iron]]
+- [[metals/zinc]]
 
 ## Verification notes
 
@@ -82,3 +84,5 @@ App: Supports flagging industrial vegetable oils — especially olive and peanut
 - ICP-OES reports total arsenic; the cancer-risk calculation applies an inorganic-arsenic slope factor to total-As concentrations without speciation.
 - `edible-oil`, `olive-oil`, `sunflower-oil`, `sesame-oil`, and `peanut-oil` are sample-matrix descriptors used here for routing/context; only existing ingredient/product/metals slugs are linked.
 - The paper cites Codex/ISIRI limits for vegetable oils, but no dedicated `regulations/codex-cxs-210-named-vegetable-oils` page exists in the current taxonomy snapshot; this is a candidate future regulation page if Karen approves it.
+- Cross-vendor audit (Codex, 2026-05-17) removed unsupported microwave-assisted wording; the source methods describe HNO3/H2O2 digestion after 11 h room-temperature stirring and two heated stages, while "microwave-assisted acid digestion" appears only in a cited reference title.
+- `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
