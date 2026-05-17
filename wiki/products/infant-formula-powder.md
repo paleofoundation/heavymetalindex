@@ -16,8 +16,7 @@ updated: 2026-05-08
 
 # Infant Formula Powder
 
-_Stub page. This base product node exists for sources that report powdered infant formula without separating non-soy from soy-based formulas. The HMTc Category 1 row pages remain [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]]._
-
+This base product node exists for sources that report powdered infant formula without separating non-soy from soy-based formulas. The HMTc Category 1 row pages remain [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]].
 ## Who this page is for
 
 <!-- BEGIN: hmi-stakeholder-guide -->

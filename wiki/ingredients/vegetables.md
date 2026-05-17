@@ -26,8 +26,7 @@ updated: 2026-05-16
 
 # Vegetables
 
-_Stub page. Chekri et al. 2019 reports soups/purees and vegetable-based ready-to-eat meals for French infants and toddlers, but does not split root from non-root vegetables in the main trace-element table. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
-
+Chekri et al. 2019 reports soups/purees and vegetable-based ready-to-eat meals for French infants and toddlers, but does not split root from non-root vegetables in the main trace-element table. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

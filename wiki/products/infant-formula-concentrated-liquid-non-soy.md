@@ -15,8 +15,7 @@ sources: 2
 
 # Infant Formula, Concentrated Liquid (Non-Soy)
 
-_Stub page. This bridge node exists for sources that report concentrated liquid milk-based formula, which is not one of the locked HMTc Category 1 rows but is part of the formula evidence graph._
-
+This bridge node exists for sources that report concentrated liquid milk-based formula, which is not one of the locked HMTc Category 1 rows but is part of the formula evidence graph.
 ## Who this page is for
 
 This page is written for brand legal and regulatory affairs teams, retailer quality and compliance readers, regulators, and adversarial readers who encounter concentrated liquid non-soy infant formula in evidence graphs or source citations. Concentrated liquid formula occupies a narrow market segment between powdered and ready-to-feed formats. Evidence for this format is thin; the sections below document what the cited sources actually report, the basis caveats, and the format relationship to the locked powdered and RTF rows. Every numeric claim traces to a source page in the Sources block.

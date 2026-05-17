@@ -16,13 +16,33 @@ Total arsenic (tAs) denotes the sum of inorganic and organic arsenic species in 
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] is attached to this analytical-quantity page only as arsenic-species context. The chapter reinforces why the wiki cannot treat total arsenic as a health-equivalent substitute for inorganic arsenic.
 
-## Status
+## Why total arsenic is reported separately from inorganic arsenic
 
-This page is a stub. Substantive content awaits corpus ingest. See [methodology](/methodology) for the current state of the project.
+Total arsenic and inorganic arsenic are different analytes with different toxicological interpretation, and the Heavy Metal Index treats them as non-substitutable per [[/conventions|CLAUDE.md Part 14]]. A total arsenic measurement does not close an inorganic arsenic evidence gap. A regulation written against inorganic arsenic is not satisfied by a total arsenic measurement.
 
-## Planned sections
+The mechanistic reason is speciation. Arsenic occurs in food as a mixture of inorganic species (arsenite, arsenate) and organic species (methylated forms: monomethylarsonic acid MMA and dimethylarsinic acid DMA; complex organics: arsenobetaine, arsenosugars, arsenolipids). Inorganic arsenic is classified by IARC as a Group 1 carcinogen and is the species of regulatory concern in food. The principal organic forms — arsenobetaine in fin-fish and shellfish, arsenosugars in seaweed and bivalve molluscs — are substantially less toxic and in many cases not reliably bioavailable as inorganic arsenic. A seafood sample with high total arsenic dominated by arsenobetaine carries a fundamentally different risk profile than a rice sample with comparable total arsenic dominated by inorganic species.
 
-Analytical definition, typical distributions of species across matrices (linked to [ingredients](/ingredients) and [products](/products)), regulatory context where total arsenic is the measurement instrument of record (linked to [regulations](/regulations)), testing methods (linked to [testing](/testing)), and sources.
+The ratio of inorganic to total arsenic varies systematically by matrix. In white rice, inorganic arsenic typically represents the larger share of total arsenic, with brown rice and rice bran carrying higher absolute inorganic concentrations because the bran layer concentrates the metal. In fin-fish and shellfish, the inorganic share of total arsenic is small — typically a low single-digit percentage — and arsenobetaine dominates. In seaweed, arsenosugars dominate, but inorganic arsenic can also be elevated; [[regulations/eu-2023-915|EU Reg. 2023/915]] sets a specific inorganic-arsenic maximum level for seaweed because of this. Without speciation, the matrix-specific ratio is the only reasoning tool, and the wiki does not generalize a ratio across matrices.
+
+## When total arsenic is the analyte of record
+
+Total arsenic is the analyte of record in a substantial subset of the occurrence literature, especially older surveys and resource-constrained sampling programs, because total arsenic by ICP-MS is faster and cheaper than HPLC-ICP-MS speciation. The Heavy Metal Index ingests these sources as total arsenic evidence and does not interpolate inorganic arsenic from them. Where a paper reports both total and speciated arsenic, the speciated values are recorded on [[metals/arsenic-inorganic|the inorganic arsenic page]] and the total values are recorded here.
+
+For regulatory comparison purposes, total arsenic appears in two contexts. [[regulations/eu-2023-915|EU Reg. 2023/915]] sets a total arsenic maximum level for salt. California Prop 65 anchors arsenic at the speciated inorganic level rather than a total benchmark. FDA and Codex frameworks for food anchor inorganic arsenic, not total. Where source occurrence values are total-only and the applicable regulation is inorganic, the Index records the comparison as not directly possible and flags the speciation gap on the relevant product or ingredient page.
+
+## Where total arsenic occurs in food
+
+The matrices with elevated total arsenic, regardless of speciation, are rice and rice products, seaweed and kelp products, seafood (especially fin-fish and bivalve molluscs), and to a lesser degree poultry and game meats. Drinking water can also carry elevated total arsenic in regions with arsenic-rich aquifers, with the species predominantly inorganic.
+
+For per-commodity occurrence detail see [[ingredients/rice|rice]], [[ingredients/seaweed|seaweed]], [[ingredients/fish|fish]], [[ingredients/seafood|seafood]], and [[ingredients/shellfish|shellfish]]. For regulatory limits applying to inorganic arsenic in rice, seaweed, and rice-based beverages see [[regulations/eu-2023-915|EU Reg. 2023/915]]. For the FDA action level for inorganic arsenic in infant rice cereal see [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal|FDA Closer to Zero — iAs in infant rice cereal]].
+
+## How HMTc handles total vs inorganic arsenic
+
+HMTc certification distinguishes the two analytes throughout the protocol. The HMTc panel lists tAs and iAs separately. Source pages declaring `metals: [tAs]` route to this page; source pages declaring `metals: [iAs]` route to [[metals/arsenic-inorganic|the inorganic arsenic page]]. Source pages declaring both route to both. The ingredient `contamination_profile` schema carries a separate tAs sub-block, allowing the wiki to record the total-arsenic literature for a commodity even where the iAs literature is thin. A pooled HMTc threshold cannot be set against inorganic arsenic using total arsenic measurements; the certification protocol either uses iAs-speciated lots or applies a documented matrix-specific iAs share when the regulatory limit is iAs-anchored.
+
+## Testing
+
+Total arsenic by ICP-MS is the dominant occurrence-survey method. Arsenic speciation is performed by HPLC-ICP-MS with anion-exchange chromatography for inorganic arsenic, MMA, and DMA, or by cation-exchange for arsenobetaine and arsenocholine. See [[testing/icp-ms]] and [[testing/arsenic-speciation]] for analytical detail.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

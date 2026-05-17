@@ -86,7 +86,7 @@ updated: 2026-05-16
 
 # Rice
 
-_Stub page. Contamination profile populates on the next ingest wave. Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors worldwide, with variation driven by soil cadmium, cultivar differences, flooded-paddy redox chemistry, and processing (bran contains higher cadmium than endosperm)._
+Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors worldwide, with variation driven by soil cadmium, cultivar differences, flooded-paddy redox chemistry, and processing (bran contains higher cadmium than endosperm).
 
 ## Heavy metal contamination profile
 

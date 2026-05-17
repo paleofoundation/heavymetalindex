@@ -86,7 +86,7 @@ updated: 2026-05-16
 
 # Spinach
 
-_Stub page. Contamination profile populates on the next ingest wave. Spinach is a representative leafy vegetable for which the EFSA 2009 occurrence data place cadmium concentrations in the range characteristic of leafy greens generally, reflecting the plant family's efficient leaf-accumulation of cadmium from soil._
+Spinach is a representative leafy vegetable for which the EFSA 2009 occurrence data place cadmium concentrations in the range characteristic of leafy greens generally, reflecting the plant family's efficient leaf-accumulation of cadmium from soil.
 
 ## Heavy metal contamination profile
 

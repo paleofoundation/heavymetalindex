@@ -86,7 +86,7 @@ updated: 2026-05-16
 
 # Wheat
 
-_Stub page. Contamination profile populates on the next ingest wave. Wheat is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors, with the bran and germ fractions carrying higher cadmium than refined endosperm._
+Wheat is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors, with the bran and germ fractions carrying higher cadmium than refined endosperm.
 
 ## Heavy metal contamination profile
 

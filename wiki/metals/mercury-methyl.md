@@ -16,9 +16,31 @@ Methylmercury (MeHg) is the biomagnified organometallic form of mercury that dom
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] supports this species page with textbook-level context on aquatic methylation, biomagnification, gastrointestinal absorption, blood-brain-barrier and placental transfer, fecal elimination, neurotoxicity, and treatment strategies that interrupt enterohepatic cycling. It is a toxicology source, not a food occurrence dataset.
 
-## Status
+## Toxicology
 
-This page is a stub. Substantive content awaits corpus ingest. See [methodology](/methodology) for the current state of the project.
+Methylmercury crosses the blood-brain barrier and the placenta. Fetal exposure during gestation produces developmental neurotoxicity at levels well below those that produce overt symptoms in adults; the historical reference cohorts in the Faroe Islands and Seychelles establish the developmental-exposure dose-response that anchors most regulatory advisories. Adult toxicity manifests as paresthesia, ataxia, visual-field constriction, and dysarthria; the threshold for chronic adult symptoms is substantially higher than the threshold for prenatal effects. Hair-mercury serves as a long-term biomarker of methylmercury exposure because methylmercury binds preferentially to cysteine residues in keratin.
+
+Cardiovascular effects of methylmercury exposure are an active area of research; some cohort studies report associations between methylmercury exposure and cardiovascular endpoints, while others do not. The wiki does not yet take a synthesis position on cardiovascular MeHg endpoints pending dedicated ingest of the cardiovascular evidence base. See [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] for the textbook-level toxicology context.
+
+## Dietary exposure routes
+
+Methylmercury exposure in non-occupational populations is dominated by fish consumption. The hierarchy of MeHg concentration follows trophic level: large long-lived predatory fish (shark, swordfish, king mackerel, tilefish from the Gulf of Mexico, bigeye tuna) carry the highest MeHg loads because they bioaccumulate the metal over their lifespan from prey already carrying methylmercury. Smaller short-lived fin-fish (sardines, anchovies, herring, salmon, trout, tilapia) carry substantially less. Shellfish carry less methylmercury than fin-fish of similar size because of lower trophic position and shorter lifespan. Marine mammals (whales, seals) are exposed populations where they are part of the diet (subsistence fishing communities, indigenous diets), and the MeHg loads in these matrices are among the highest documented in any human-consumed food.
+
+For per-species detail and the trophic-level rationale, see [[ingredients/fish|fish]], [[ingredients/freshwater-fish|freshwater fish]], [[ingredients/shark|shark]], and [[ingredients/canned-tuna|canned tuna]]. For the regulatory side, see the FDA methylmercury action level (1.0 ppm in fish, [[regulations/fda-methylmercury-fish-1-ppm]] when added) and the [[regulations/eu-2023-915|EU Reg. 2023/915]] Hg maximum levels for fishery products.
+
+## Regulatory and advisory framework
+
+Regulatory instruments for methylmercury split into three classes. **Maximum levels in food** (binding) include the EU Reg. 2023/915 species-specific Hg maximum levels for fishery products (which the EU applies as total Hg with species-specific thresholds, on the assumption that the vast majority of mercury in fishery matrices is methylmercury) and Codex methylmercury maximum levels for fish. **Action levels** (nonbinding but enforcement-relevant) include the FDA action level of 1.0 ppm methylmercury in fish, established before methylmercury speciation testing was routine and applied as a total-mercury proxy in many contexts. **Consumption advisories** (nonbinding consumer guidance) include the FDA/EPA joint advice on fish consumption for pregnant women, women of childbearing age, and young children, which categorizes fish into best-choice, good-choice, and avoid tiers.
+
+The Heavy Metal Index records methylmercury limits and total-mercury limits as separate values per [[/conventions|CLAUDE.md Part 14]] even when a regulatory instrument permits the total-Hg proxy. Where a source reports tHg in a matrix where MeHg dominates (most fin-fish, most shellfish), the value is admitted as MeHg-context evidence; where the source reports tHg in a matrix where inorganic Hg dominates (rice, some grains, some animal organs), the value is admitted as tHg evidence only and is not used as MeHg evidence.
+
+## Vulnerable populations
+
+The dose-response between methylmercury exposure and developmental neurotoxicity makes the fetus, the breastfed infant, and the young child the principal at-risk populations. The FDA/EPA fish-consumption advisory targets pregnant women and women of childbearing age specifically because in-utero exposure is the most consequential exposure window. Frequent fish consumers — subsistence-fishing communities, sport-fishing populations targeting predatory fish, populations whose cultural diet includes marine mammals — are the populations whose chronic intake can approach or exceed the JECFA Provisional Tolerable Weekly Intake even when consuming "safe-tier" fish in normal serving sizes.
+
+## Microbiome
+
+Gut microbiota influence methylmercury bioavailability through both methylation and demethylation activity in the intestinal lumen. The microbiome-MeHg interaction is an active research area; mechanism-level evidence is being routed to [[microbiome/methylmercury-microbiome]] (pending) and the WikiBiome crosswalk is targeted for this material once the ingest reaches density.
 
 ## Climate-driven enhancement of MeHg production
 

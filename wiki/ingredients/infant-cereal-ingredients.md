@@ -26,8 +26,7 @@ updated: 2026-05-16
 
 # Infant Cereal Ingredients
 
-_Stub page. Chekri et al. 2019 reports a cereal-based infant-food category and notes high aluminum values in infant biscuits and baby cereal with biscuit and cocoa. Collado-Lopez et al. 2025 reports cereals as the baby-food group with the highest median Cd concentration in the review, but the source does not split rice-based from non-rice cereal products in a way that maps directly to the HMTc rows. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]_
-
+Chekri et al. 2019 reports a cereal-based infant-food category and notes high aluminum values in infant biscuits and baby cereal with biscuit and cocoa. Collado-Lopez et al. 2025 reports cereals as the baby-food group with the highest median Cd concentration in the review, but the source does not split rice-based from non-rice cereal products in a way that maps directly to the HMTc rows. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

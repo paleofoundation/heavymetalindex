@@ -15,8 +15,7 @@ updated: 2026-04-29
 
 # Glucose Solutions
 
-_Stub page. This bridge node exists because Dabeka et al. 2011 measured 5% glucose solutions alongside infant formulae and oral electrolytes. These products are not one of the locked HMTc Category 1 infant-food rows, but they are relevant to infant exposure context._
-
+This bridge node exists because Dabeka et al. 2011 measured 5% glucose solutions alongside infant formulae and oral electrolytes. These products are not one of the locked HMTc Category 1 infant-food rows, but they are relevant to infant exposure context.
 ## Who this page is for
 
 <!-- BEGIN: hmi-stakeholder-guide -->

@@ -86,7 +86,7 @@ updated: 2026-05-16
 
 # Organ Meats (Kidney and Liver)
 
-_Stub page. Contamination profile populates on the next ingest wave. Organ meats, particularly kidney and liver, are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] as among the highest-cadmium food commodities because these are the organs in food animals where cadmium preferentially accumulates, mirroring the accumulation pattern in humans._
+Organ meats, particularly kidney and liver, are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] as among the highest-cadmium food commodities because these are the organs in food animals where cadmium preferentially accumulates, mirroring the accumulation pattern in humans.
 
 ## Heavy metal contamination profile
 

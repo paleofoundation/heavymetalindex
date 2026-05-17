@@ -86,7 +86,7 @@ updated: 2026-05-16
 
 # Fish
 
-_Stub page. Contamination profile populates on dedicated mercury and arsenic ingest waves. Fish is the dominant dietary source of methylmercury exposure for most populations ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]])._
+Fish is the dominant dietary source of methylmercury exposure for most populations ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]).
 
 ## Heavy metal contamination profile
 
