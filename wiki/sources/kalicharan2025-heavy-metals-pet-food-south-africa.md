@@ -13,7 +13,7 @@ license: "CC BY-NC-ND"
 raw_path: "raw/Papers Cube Manual Fetch/article (1) copy 6.pdf"
 metals: [Pb, Cd, tAs, tHg, Ni, Zn, Cu]
 ingredients: []
-products: ["[[products/pet-food-dry-kibble]]"]
+products: ["[[products/pet-food-dry-kibble]]", "[[products/poultry-product]]"]
 matrices: [pet-food, meat-based, poultry-based, fish-based]
 jurisdictions: [ZA]
 near_duplicates: []

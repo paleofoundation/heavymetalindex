@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1016/j.jafr.2025.102575"
 metals: [Cd, Pb, tAs, Cr, Ni]
 ingredients: ["[[ingredients/quinoa]]", "[[ingredients/carrots]]"]
-products: ["[[products/root-tuber-vegetables]]"]
+products: ["[[products/root-tuber-vegetables]]", "[[products/legumes-pulses-other]]"]
 matrices: [potato, broad-bean, maize, quinoa, barley, carrot, alfalfa, soil, irrigation-water]
 jurisdictions: [PE]
 sample_n: 218

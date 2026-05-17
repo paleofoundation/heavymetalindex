@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: "raw/Papers Cube Manual Fetch/86538.pdf"
 metals: [Pb, Cd, tHg, Cr, Ni, Al, tAs]
 ingredients: []
-products: []
+products: ["[[products/spices]]"]
 matrices: [food, beverages, herbal-drinks, alcoholic-beverages]
 jurisdictions: []
 near_duplicates: []

@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10238321/FM_10238321.md
 metals: [Al, Cd, Pb, Ni, Cr]
 ingredients: ["[[ingredients/chicken]]", "[[ingredients/organ-meats]]", "[[ingredients/meat-and-poultry]]"]
-products: []
+products: ["[[products/poultry-product]]"]
 matrices: [chicken-meat, poultry-liver]
 jurisdictions: [EG]
 near_duplicates: []

@@ -13,7 +13,7 @@ license: "paywalled — author-shared accepted-manuscript copy on file"
 access_url: "https://doi.org/10.1016/j.foodchem.2016.07.064"
 raw_path: "raw/external-fetch/brombach2017.pdf"
 metals: [tHg, MeHg]
-products: [baby-cereals-dry-rice-based, teething-and-snacks-rice-based, plant-milks-rice-based, mixed-meals-rice-containing]
+products: [baby-cereals-dry-rice-based, teething-and-snacks-rice-based, plant-milks-rice-based, mixed-meals-rice-containing, "[[products/rice-snacks-crackers]]"]
 ingredients: [rice]
 matrices: [pre-cooked-milled-baby-food-rice, rice-cakes-for-toddlers, rice-grains, rice-noodles, rice-flour]
 jurisdictions: [EU, UK]

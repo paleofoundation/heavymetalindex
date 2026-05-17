@@ -13,7 +13,7 @@ access_url: "https://doi.org/10.1016/0015-6264(71)90152-0"
 metals: [Sn]
 species: [Sn2+, Sn4+]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/canned-fruit-cocktail]]"]
-products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-non-apple]]", "[[products/fruit-juices-apple-containing]]"]
+products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-non-apple]]", "[[products/fruit-juices-apple-containing]]", "[[products/fresh-fruit]]"]
 matrices: [canned-fruit-juice, canned-orange-juice, canned-apple-juice, canned-solid-food]
 jurisdictions: [UK, KW]
 sample_n: 11

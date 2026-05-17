@@ -14,7 +14,7 @@ license: unknown
 raw_path: raw/markdown/FM_10400675/FM_10400675.md
 metals: [Pb, Cd, Hg, As]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
-products: ["[[products/supplements-botanicals-herbs]]"]
+products: ["[[products/supplements-botanicals-herbs]]", "[[products/spices]]"]
 matrices: [herbal-medicine, botanical-supplement]
 jurisdictions: [JP, EU, US, CN, KR, TW, IN, UK, WHO]
 near_duplicates: []

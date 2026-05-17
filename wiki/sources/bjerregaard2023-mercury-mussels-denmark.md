@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10560636/FM_10560636.md
 metals: [tHg]
 ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/shellfish]]"]
 matrices: [mussel-flesh, marine-invertebrate, sediment]
 jurisdictions: [DK, EU]
 near_duplicates: []

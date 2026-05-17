@@ -16,7 +16,7 @@ sha256: 1acf9b643bc7bfc34fe1853315f35f1f1cd0bf883996dd7aae0b73b6c4d16329
 access_date: 2026-05-12
 metals: [iAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/fruit-purees]]", "[[products/fruit-snacks]]"]
 matrices: [infant-rice-cereal, infant-multigrain-cereal, infant-non-rice-cereal, toddler-foods, juices, fruit-snacks]
 jurisdictions: [US]
 sample_n: 547

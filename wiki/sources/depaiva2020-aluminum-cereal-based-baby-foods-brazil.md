@@ -12,7 +12,7 @@ license: "paywalled — author-shared / Karen-fetched copy on file"
 access_url: "https://doi.org/10.1016/j.foodres.2019.108965"
 raw_path: "raw/external-fetch/depaiva2020.pdf"
 metals: [Al]
-products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice]
+products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, "[[products/fresh-fruit]]"]
 matrices: [multicereal-infant-cereal, fruit-based-banana-apple-cereal, fruit-based-plum-cereal, rice-flour-and-oat-cereal, corn-flour-cereal, rice-flour-cereal]
 jurisdictions: [BR]
 sample_n: 35

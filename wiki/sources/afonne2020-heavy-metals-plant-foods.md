@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/afonne2020.pdf"
 metals: [Pb, Cd, tAs, tHg, Cr, Ni]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/maize]]", "[[ingredients/vegetables]]", "[[ingredients/cassava]]", "[[ingredients/potato]]", "[[ingredients/fruits]]"]
-products: []
+products: ["[[products/root-tuber-vegetables]]"]
 matrices: [cereals, root-tubers, vegetables, fruits, plant-food]
 jurisdictions: [NG, CN, TZ, SK, KS]
 near_duplicates: []

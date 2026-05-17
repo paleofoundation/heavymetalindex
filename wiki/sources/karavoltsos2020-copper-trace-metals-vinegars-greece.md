@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi/condiment_papers/02_Vinegars/Copper Complexing Capacity and Trace Metal Content in Common and .pdf"
 metals: [As, Pb, Cd, Al, Cr, Ni, Cu]
 ingredients: ["[[ingredients/vinegar]]", "[[ingredients/balsamic-vinegar]]"]
-products: []
+products: ["[[products/vinegar]]"]
 matrices: [balsamic-red-vinegar, balsamic-white-vinegar, wine-red-vinegar, wine-white-vinegar, apple-cider-vinegar, fruit-vinegar]
 jurisdictions: [GR]
 near_duplicates: []

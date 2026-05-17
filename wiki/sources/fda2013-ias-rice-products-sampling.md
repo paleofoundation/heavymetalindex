@@ -16,7 +16,7 @@ sha256: a505b8708ba5177d8fd21b0703120c829f9f4a60758c378ff1114f30c8c9cafd
 access_date: 2026-05-12
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]", "[[products/rice-snacks-crackers]]", "[[products/rice-beverages-rice-milk]]"]
 matrices: [white-rice, brown-rice, basmati-rice, parboiled-rice, rice-products, infant-rice-cereal, rice-protein-powder, rice-cakes, rice-beverages]
 jurisdictions: [US]
 sample_n: 1300

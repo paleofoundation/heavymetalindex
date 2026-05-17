@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Survey of total arsenic and inorganic arsenic in apple and pear j.pdf"
 metals: [tAs, iAs]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/pear-juice]]"]
-products: ["[[products/fruit-juice]]", "[[products/fruit-juices-apple-containing]]"]
+products: ["[[products/fruit-juice]]", "[[products/fruit-juices-apple-containing]]", "[[products/fresh-fruit]]"]
 matrices: [apple-juice, pear-juice]
 jurisdictions: [AU, NZ]
 near_duplicates: []

@@ -13,7 +13,7 @@ license: "Not specified (all rights reserved, The Professional Medical Journal)"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Heavy Metals Toxicity_ Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan.pdf"
 metals: [Pb, Cd, Cr]
 ingredients: ["[[ingredients/potato]]", "[[ingredients/corn]]"]
-products: ["[[products/snacks-crackers-biscuits]]"]
+products: ["[[products/snacks-crackers-biscuits]]", "[[products/root-tuber-vegetables]]"]
 matrices: [snack, potato-chip, corn-chip]
 jurisdictions: [PK]
 sample_n: 96

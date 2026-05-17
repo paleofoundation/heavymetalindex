@@ -14,7 +14,7 @@ license: "Public record — FDA submission"
 raw_path: "raw/Manual Fetch Kimi/condiment_papers/02_Vinegars/Alarming Lead, Arsenic Levels Found in Popular Vinegar Brands - E.pdf"
 metals: [Pb, tAs]
 ingredients: ["[[ingredients/vinegar]]", "[[ingredients/balsamic-vinegar]]"]
-products: []
+products: ["[[products/vinegar]]"]
 matrices: [balsamic-vinegar, wine-vinegar, balsamic-reduction, balsamic-glaze]
 jurisdictions: [US]
 near_duplicates: []

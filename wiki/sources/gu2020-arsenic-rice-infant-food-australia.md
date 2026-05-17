@@ -14,7 +14,7 @@ license: "CC BY"
 access_url: "https://doi.org/10.3390/ijerph17020415"
 raw_path: "raw/external-fetch/2026-05-09/lai2020-arsenic-rice-infant-food-australia.jats.xml"
 metals: [tAs, iAs]
-products: [baby-cereals-dry-rice-based, teething-and-snacks-rice-based, plant-milks-rice-based]
+products: [baby-cereals-dry-rice-based, teething-and-snacks-rice-based, plant-milks-rice-based, "[[products/rice-beverages-rice-milk]]", "[[products/pasta-wheat-based]]", "[[products/rice-snacks-crackers]]"]
 matrices: [rice-milk-powder, rice-pasta, rice-cereal, rice-crackers]
 jurisdictions: [AU]
 sample_n: 39

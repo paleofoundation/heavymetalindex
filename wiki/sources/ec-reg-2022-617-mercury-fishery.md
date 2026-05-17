@@ -17,7 +17,7 @@ access_date: 2026-05-16
 access_url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R0617
 metals: [tHg, MeHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/canned-tuna]]"]
-products: ["[[products/canned-fish]]", "[[products/fresh-fish]]", "[[products/seafood]]", "[[products/shellfish]]"]
+products: ["[[products/canned-fish]]", "[[products/fresh-fish]]", "[[products/seafood]]", "[[products/shellfish]]", "[[products/spices]]"]
 matrices: [fish-muscle-meat, cephalopods, marine-gastropods, food-supplements, salt]
 jurisdictions: [EU]
 near_duplicates: []

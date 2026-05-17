@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Determination of Mercury in Fish Sauces by Thermal Decomposition .pdf"
 metals: [tHg]
 ingredients: ["[[ingredients/fish-sauce]]", "[[ingredients/anchovy]]"]
-products: ["[[products/fish-sauce]]"]
+products: ["[[products/fish-sauce]]", "[[products/condiments-general]]"]
 matrices: [fish-sauce, fermented-fish-condiment]
 jurisdictions: [VN, TH, CZ, BE]
 near_duplicates: []

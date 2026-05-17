@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11018418/FM_11018418.md
 metals: [Pb, Cd, Cu]
 ingredients: ["[[ingredients/poultry]]"]
-products: []
+products: ["[[products/poultry-product]]"]
 matrices: [chicken-breast, chicken-thigh, chicken-gizzard, chicken-liver, poultry-meat]
 jurisdictions: [EG]
 near_duplicates: []

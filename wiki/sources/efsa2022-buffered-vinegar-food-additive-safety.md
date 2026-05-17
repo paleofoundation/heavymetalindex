@@ -13,7 +13,7 @@ license: "CC BY-ND"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Safety Evaluation of Buffered Vinegar as a Food Additive - EFSA A.pdf"
 metals: [Pb, tAs, Cd, tHg]
 ingredients: ["[[ingredients/vinegar]]"]
-products: []
+products: ["[[products/vinegar]]"]
 matrices: [buffered-vinegar, vinegar]
 jurisdictions: [EU]
 near_duplicates: []

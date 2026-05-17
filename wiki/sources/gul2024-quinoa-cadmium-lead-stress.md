@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.46810/tdfd.1371897"
 metals: [Cd, Pb]
 ingredients: ["[[ingredients/quinoa]]"]
-products: []
+products: ["[[products/flour-non-rice]]"]
 matrices: [quinoa-plant, quinoa-grain, greenhouse-soil]
 jurisdictions: [TR]
 sample_n: null

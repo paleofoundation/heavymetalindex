@@ -16,7 +16,7 @@ sha256: bc5a4ff1d2cd2b3438bb6fbb035b5999684c7ad36023208e3f4b921e8bfe077a
 access_date: 2026-05-12
 metals: [tAs]
 ingredients: ["[[ingredients/apple-juice]]"]
-products: ["[[products/fruit-juices-apple-containing]]"]
+products: ["[[products/fruit-juices-apple-containing]]", "[[products/fresh-fruit]]"]
 matrices: [apple-juice, apple-juice-concentrate]
 jurisdictions: [US]
 sample_n: 160

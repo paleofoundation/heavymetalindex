@@ -13,7 +13,7 @@ license: "paywalled — Karen-fetched copy on file"
 access_url: "https://doi.org/10.1080/19393210.2019.1598506"
 raw_path: "raw/external-fetch/hernandez2019.pdf"
 metals: [Cr-VI, Cr-III, Cr-total]
-products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, mixed-meals-rice-containing, mixed-meals-non-rice, teething-and-snacks-rice-based, teething-and-snacks-non-rice, "[[products/breakfast-cereals]]"]
+products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, mixed-meals-rice-containing, mixed-meals-non-rice, teething-and-snacks-rice-based, teething-and-snacks-non-rice, "[[products/breakfast-cereals]]", "[[products/bread-and-baked-goods]]"]
 matrices: [bread-and-dried-bread, breakfast-cereals, pasta, rice-and-wheat-products, sweet-and-savoury-biscuits, fluid-milk, ultra-fresh-dairy, cheese]
 jurisdictions: [FR, EU]
 sample_n: 68

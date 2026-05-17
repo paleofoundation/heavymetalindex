@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10340091/FM_10340091.md
 metals: [Pb, Cd, tAs, tHg]
 ingredients: ["[[ingredients/poultry]]", "[[ingredients/eggs]]"]
-products: []
+products: ["[[products/poultry-product]]"]
 matrices: [poultry-liver, poultry-kidney, poultry-meat, poultry-egg, poultry-blood]
 jurisdictions: [TR, MY, IQ, NG, PK, SA, CN, IN, BD, TN, TH, IR]
 near_duplicates: []

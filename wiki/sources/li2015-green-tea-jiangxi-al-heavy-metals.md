@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1007/s10661-015-4445-2"
 metals: [Al, Cd, Cr, Ni, Pb]
 ingredients: ["[[ingredients/camellia-sinensis]]"]
-products: ["[[products/tea-infusions]]"]
+products: ["[[products/tea-infusions]]", "[[products/tea]]"]
 matrices: [green-tea-leaves, tea-infusion]
 jurisdictions: [CN]
 sample_n: 26
