@@ -1,12 +1,14 @@
 ---
 name: ingest-next-manual-fetch-pdf
-description: Process the next un-ingested or possibly-defective manual-fetch PDF from raw/Manual Fetch Kimi /, raw/Manual Resourcing/, or raw/Papers Cube Manual Fetch/ into a properly-ingested wiki source page following the Mode B merge-enhance workflow in docs/gpt-collaboration/verification-checklist.md. Bounded, stops on conditions that require Karen's input. Use when Karen runs `/ingest-next-manual-fetch-pdf folder=<folder-name>` or via `/loop /ingest-next-manual-fetch-pdf folder=<folder-name>`.
-version: 1.0.0
+description: Autonomously ingest the next un-ingested or possibly-defective manual-fetch PDF from raw/Manual Fetch Kimi /, raw/Manual Resourcing/, or raw/Papers Cube Manual Fetch/ into a properly-ingested wiki source page, then auto-audit via a fresh-context subagent and apply audit findings. Bounded, stops on conditions that require Karen's input. Use when Karen runs `/ingest-next-manual-fetch-pdf folder=<folder-name>` or via `/loop /ingest-next-manual-fetch-pdf folder=<folder-name>`. Karen is out of the loop — ingest, audit, and audit-application all happen autonomously in one skill execution per PDF.
+version: 2.0.0
 ---
 
 # ingest-next-manual-fetch-pdf
 
-Processes manual-fetch PDFs into wiki source pages with Cochrane-quality discipline. Designed to be invoked directly or wrapped in `/loop` for autonomous progress through a folder. Always commits per PDF. Stops cleanly on conditions that require Karen's review.
+Autonomous Cochrane-quality ingest pipeline. Each per-PDF cycle does ingest + audit + audit-application + commit, all without Karen in the loop. Designed to be invoked directly or wrapped in `/loop` for sustained autonomous progress through a folder.
+
+The fresh-context audit step uses the Agent tool with `subagent_type: general-purpose`. The subagent has no shared context with the main session, satisfying the "second pair of eyes" requirement that surfaced the failure modes documented in `docs/gpt-collaboration/audit-prompt.md` (transposed values, invented slugs, brand-firewall violations, invented method detail).
 
 ## Arguments
 
@@ -16,39 +18,31 @@ Processes manual-fetch PDFs into wiki source pages with Cochrane-quality discipl
   - `condiment_papers` (under `raw/Manual Fetch Kimi /`)
   - `Papers Cube Manual Fetch` (the parent folder itself; only valid for PCMF)
   - `Manual Resourcing` (the parent folder itself; only one PDF)
-- `n=<integer>` (optional, default 3): maximum number of PDFs to process in this invocation. The skill stops after N successful ingests OR when a stop condition fires, whichever comes first.
+- `n=<integer>` (optional, default 3): maximum number of PDFs to process in this invocation.
+- `skip_audit=true` (optional, default false): skip the auto-audit step. Use only when bypassing audit for explicit reasons (Karen testing the ingest logic, batch-recovering from an audit-system failure, etc.).
 
-## What this skill does, per PDF
+## Per-PDF cycle
 
-1. **Find the next candidate PDF.** List PDFs in the target folder. For each, check whether a wiki source page already exists by running the three identity checks from `docs/gpt-collaboration/verification-checklist.md` step 1 (DOI grep primary, raw_handle grep secondary, cite-key grep tertiary). A PDF is "next" if:
-   - It has no existing wiki source page (NEW), OR
-   - It has an existing page that was last `updated:` before 2026-05-14 (likely pre-current-schema and a candidate for merge-enhance), OR
-   - It has an existing page that the most recent routing audit reports as malformed (in `data/evidence/routing_malformed.csv`).
+For each PDF up to N:
 
-   Skip PDFs whose existing pages were updated on or after 2026-05-14 and are not in malformed. Those are presumed clean from a recent pass.
+### Phase 1: Ingest
 
-2. **Read the PDF.** Use the Read tool with the PDF path. For PDFs over 10 pages, use the `pages` parameter to read in 5-10 page chunks. Always read the abstract page, the methods page, every results/tables page, the discussion, and the references — not just the first page. The Key numbers section needs exact figures from data tables, so tables MUST be read.
+1. **Find the next candidate PDF.** List PDFs in the target folder. For each, check whether a wiki source page already exists via three identity checks (DOI primary, raw_handle secondary, cite-key tertiary; see `docs/gpt-collaboration/verification-checklist.md`). A PDF is "next" if:
+   - It has no existing wiki source page (NEW path), OR
+   - It has an existing page that was last `updated:` before 2026-05-14 (likely pre-current-schema; merge-enhance path), OR
+   - It has an existing page that the most recent routing audit reports as malformed.
 
-3. **NEW path: write a fresh source page.**
-   - Derive cite_key per CLAUDE.md Part 5 conventions.
-   - Write to `wiki/sources/<cite-key>.md` using the Part 6 source-page template.
-   - Frontmatter must use only slugs from the current wiki taxonomy (cross-reference `wiki/ingredients/`, `wiki/products/`, `wiki/metals/`, `wiki/regulations/`).
-   - Body must follow Part 6 sections (un-headed opening prose; Key numbers; Methods (brief); Implications; Wiki pages this source may touch; Verification notes if needed).
-   - Apply all firewall rules from `docs/gpt-collaboration/verification-checklist.md` step 4 (wiki/HMTc firewall + brand firewall).
+   Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed.
 
-4. **EXISTING path: merge-enhance.**
-   - Read the existing wiki/sources page in full.
-   - Identify every defect: invented slugs, transposed values, brand-by-brand listings (Part 12), invented method detail, missing tables, thin Key numbers, legacy headings (`## Summary`, `## Wiki pages updated on ingest`), missing exposure/EDI numbers, missing speciation flags, invalid matrices vocabulary.
-   - Verify which version is correct on every numerical disagreement by re-reading the source PDF.
-   - Write the merged version. Preserve cite_key, raw_handle, raw_path, license, access_url, raw_sha256, near_duplicates from the existing page. Set `updated` to today.
-   - Add a `## Verification notes` section documenting what was enhanced and why.
+2. **Read the PDF.** Use the Read tool. For PDFs over 10 pages, read in 5-10 page chunks via the `pages` parameter. Always read: abstract, methods, all results/tables pages, discussion, references. Tables are mandatory — Key numbers needs exact figures.
 
-5. **Run the routing audit.** Execute `npm run evidence:source-routes`. Confirm three things:
-   - Exit code 0
-   - This source is NOT in `data/evidence/routing_unresolved.csv`
-   - This source is NOT in `data/evidence/routing_malformed.csv` (or, if it was malformed before, it's no longer)
+3. **NEW path: write a fresh source page** at `wiki/sources/<cite-key>.md` using the Part 6 template. Frontmatter slugs only from current taxonomy. Body follows Part 6 sections. Apply all firewall rules from `docs/gpt-collaboration/verification-checklist.md`.
 
-6. **Commit per PDF.** Use a descriptive commit message in this form:
+4. **EXISTING path: merge-enhance.** Read the existing page in full. Identify defects (invented slugs, transposed values, brand-by-brand listings, invented method detail, missing tables, thin Key numbers, legacy headings, missing exposure numbers, missing speciation flags, invalid matrices). Verify which version is correct by re-reading the source. Write the merged version preserving cite_key, raw_handle, raw_path, license, access_url, raw_sha256, near_duplicates. Set `updated` to today. Add `## Verification notes` documenting enhancement.
+
+5. **Run the routing audit:** `npm run evidence:source-routes`. Confirm exit 0, source not in `routing_unresolved.csv`, source not in `routing_malformed.csv`.
+
+6. **Commit ingest with descriptive message** in the form:
 
    ```
    ingest: <cite-key> [enhanced|fresh] from <folder-prefix>/<folder>
@@ -60,45 +54,97 @@ Processes manual-fetch PDFs into wiki source pages with Cochrane-quality discipl
    Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
    ```
 
-   Use `enhanced` for merge-enhance ingests, `fresh` for new source pages.
+7. **Append to audit queue** at `data/evidence/audit-queue.csv`: `cite_key,source_folder,handle,commit_hash,timestamp,status=pending,audit_verdict=,audit_applied_at=,notes`. Create the file with header if it does not exist.
 
-7. **Append to audit queue.** After the commit lands, append a row to `data/evidence/audit-queue.csv` with `cite_key,source_folder,handle,commit_hash,timestamp,status`. Status starts as `pending`. The audit queue is consumed by GPT-5.5 fast mode running the audit prompt in `docs/gpt-collaboration/audit-prompt.md`; Karen feeds queue entries to GPT, GPT returns audits, Karen pastes audits back to Claude for application. After an audit is applied (or PROMOTE'd as-is), the queue row's status flips to `audited-promote`, `audited-revised`, or `audited-quarantine`. If the audit-queue.csv file does not exist, create it with the header row.
+### Phase 2: Auto-audit (unless skip_audit=true)
 
-## Stop conditions (stop immediately, write a stop-report, do not advance to next PDF)
+8. **Spawn a fresh-context audit subagent** via the Agent tool. Use `subagent_type: general-purpose`. The prompt should be self-contained (the subagent has no shared context with this session). Pass it:
+   - The path to the just-committed `wiki/sources/<cite-key>.md`
+   - The path to the source evidence (`raw/markdown/<FM>/<FM>.md` for FM_ handles, the PDF path for MFK_/MR_/PCMF_)
+   - The path to `docs/gpt-collaboration/audit-prompt.md` (so it can read the full audit instructions)
+   - The path to `docs/gpt-collaboration/taxonomy-snapshot.md`
+   - Explicit instructions: "Read these four files. Run the five audit checks defined in audit-prompt.md against the wiki source page, using the source evidence and taxonomy snapshot as references. Return ONLY the structured audit report per the OUTPUT FORMAT in audit-prompt.md (Markdown with ✅/⚠️/❌ findings per check and a PROMOTE/REVISE/QUARANTINE verdict). Do not edit any files. Do not run any commands. Read-only audit."
 
-Stop and write a `wiki/batch-reports/manual-fetch-<folder>-stop-<YYYY-MM-DD-HHMM>.md` report when ANY of these fire:
+9. **Receive the audit report** as the subagent's return value.
 
-- **Processed N PDFs successfully.** Normal stop. Report lists what was done.
-- **New ingredient/product/regulation slug needed.** A PDF requires a slug not in the current taxonomy. Per Part 10: ingredient slugs at frequency ≥2 can auto-stub but products always require Karen's Step 0 Lock. Default to surfacing rather than creating. Report names the proposed slug(s), the PDF that needs it, and the suggested category.
-- **Paper-internal contradiction or data-integrity issue.** A PDF contains values that contradict each other (e.g., Results paragraph vs Table disagreement that's not the obvious mirroring pattern) and the right answer is unclear. Report names the contradiction and the PDFs.
-- **True duplicate conflict.** DOI grep returns a hit but the existing page has a different DOI or different paper. Report names both pages and the conflict.
-- **Routing audit fails.** Audit exits non-zero, or introduces new unresolved/malformed entries for this source. Report names the failure.
-- **No candidates left in folder.** Folder is exhausted (all PDFs have post-2026-05-14 clean pages). Normal completion stop. Report names how many PDFs were skipped as already-clean and which (for Karen to spot-check).
-- **Out of context budget signal.** If approaching the practical context window for read-heavy work (rough heuristic: 60%+ context used and a large PDF is next), stop cleanly rather than rushing. Report names this as the reason.
+### Phase 3: Apply audit findings
+
+10. **For each ❌ definite-error finding in the audit:**
+    - Independently verify the finding by re-reading the source location the audit cites. Quote the source-citation evidence.
+    - If verified correct: apply the correction to the wiki page. Add a one-line note to verification notes: "Audit subagent (date) flagged X; verified against source — corrected to Y."
+    - If verified wrong (false positive): do NOT change the wiki page on this finding. Add a one-line note: "Audit subagent (date) flagged X; verified against source — finding was a false positive because Y."
+
+11. **For each ⚠️ concern finding:**
+    - Verify against the source. Apply if real; document false positives.
+    - Use judgment about whether to escalate concerns to fixes vs leave-as-noted.
+
+12. **Run routing audit again** if any changes were applied. Confirm clean.
+
+13. **Commit audit application** with message:
+
+    ```
+    audit: <cite-key> [promoted|revised|quarantined]
+
+    Subagent verdict: <PROMOTE|REVISE|QUARANTINE>
+
+    Findings applied:
+    - <list with source citations>
+
+    Findings rejected (false positives):
+    - <list with disproving citations>
+
+    Routing: <unchanged|N added|N removed>.
+
+    Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+    ```
+
+    Skip this commit entirely if the audit was PROMOTE with no false-positive notes to record (no content changes to commit).
+
+14. **Update audit queue:** edit `data/evidence/audit-queue.csv` for this cite-key:
+    - `status` → `audited-promote`, `audited-revised`, or `audited-quarantine`
+    - `audit_verdict` → the subagent's verdict
+    - `audit_applied_at` → today's ISO date
+    - `notes` → append `; <N> findings; <X> applied; <Y> rejected` summary
+
+### Phase 4: Move to next PDF
+
+15. Loop back to step 1 until N is reached or a stop condition fires.
+
+## Stop conditions
+
+Stop immediately and write a stop-report at `wiki/batch-reports/manual-fetch-<folder>-stop-<YYYY-MM-DD-HHMM>.md` when ANY of these fire:
+
+- **Processed N PDFs successfully.** Normal stop.
+- **Audit verdict QUARANTINE on three or more consecutive PDFs.** Indicates either (a) the ingest logic is producing systematic errors, or (b) the audit subagent is producing systematic false positives. Either way needs Karen's attention before continuing.
+- **New ingredient/product/regulation slug needed.** Per Part 10: ingredients ≥freq-2 can auto-stub; products always require Karen's Step 0 Lock. Surface in stop-report, do not create.
+- **Paper-internal contradiction or data-integrity issue** that's not the obvious mirroring pattern.
+- **True duplicate conflict.** DOI grep hit but existing page has a different DOI or different paper.
+- **Routing audit fails.** Audit exits non-zero or introduces new unresolved/malformed for this source.
+- **No candidates left in folder.** Folder is exhausted (all PDFs have post-2026-05-14 clean pages OR all remaining PDFs are post-audit). Normal completion. Write folder-close batch report at `wiki/batch-reports/manual-fetch-<folder>-complete.md`.
+- **Out of context budget signal.** If approaching the practical context window (rough heuristic: 60%+ context used), stop cleanly.
+- **Agent tool unavailable.** If the audit subagent spawn fails for any reason, stop and surface — the autonomous audit is load-bearing for Cochrane bar.
 
 ## What this skill does NOT do
 
-- Does NOT create new ingredient pages (auto-stub script handles ingredients ≥ freq 2; everything else is Karen's call per Part 10).
+- Does NOT create new ingredient pages (auto-stub script handles ingredients ≥freq-2 separately; everything else is Karen's call).
 - Does NOT create new product pages (always Karen's Step 0 Lock).
-- Does NOT run synthesis (Part 9 is a separate workflow; this skill only writes source pages, then the routing audit picks them up and synthesis triggers fire downstream).
-- Does NOT touch `wiki/products/*.md`, `wiki/ingredients/*.md`, or any other downstream page directly.
-- Does NOT edit inside `<!-- BEGIN: ... -->` / `<!-- END: ... -->` marker blocks anywhere (those are generator-owned).
-- Does NOT modify `data/evidence/product_source_routing_audit.csv` by hand (only via `npm run evidence:source-routes`).
+- Does NOT run Part 9 synthesis (separate workflow).
+- Does NOT touch `wiki/products/*.md`, `wiki/ingredients/*.md`, or any downstream page directly.
+- Does NOT edit inside `<!-- BEGIN: ... -->` / `<!-- END: ... -->` marker blocks (generator-owned).
+- Does NOT modify `data/evidence/product_source_routing_audit.csv` by hand.
 - Does NOT push to remote.
 
-## At folder-close
+## What changed in v2.0 vs v1.0
 
-When stop condition "No candidates left in folder" fires, write a folder-close batch report at `wiki/batch-reports/manual-fetch-<folder>-complete.md` covering:
+v1.0 of this skill ingested only; audit was a separate Karen-in-loop workflow using ChatGPT 5.5 via `tools/gpt/build-audit-packet.sh` + the `apply-gpt-audit` skill.
 
-- Cite-keys ingested fresh
-- Cite-keys merge-enhanced (with brief summary of defects fixed per page)
-- Cite-keys skipped as already-clean (with their last `updated:` date)
-- New-page proposals surfaced for Karen's review
-- Synthesis triggers fired (per Part 9)
-- Folder-aggregate routing changes (e.g., "+47 routing rows generated across folder")
+v2.0 folds the audit into the same skill execution via a fresh-context Agent subagent. Karen is fully out of the loop. The ChatGPT-based audit path still exists for manual use (when Karen wants to use her ChatGPT subscription specifically, or when she wants to escalate a particularly high-stakes page to a cross-vendor review) but is no longer the default.
 
-## Operator notes
+## Per-cycle wall time estimate
 
-This skill is invoked manually as `/ingest-next-manual-fetch-pdf folder=<name>` or autonomously as `/loop /ingest-next-manual-fetch-pdf folder=<name>`. In the `/loop` case, default `n=3` per cycle keeps work bounded; the loop fires the skill repeatedly until a stop condition that isn't "processed N" fires, at which point the loop should be paused for Karen's review.
+- Phase 1 (ingest): 3-10 minutes per PDF depending on size and merge complexity
+- Phase 2 (audit): 1-3 minutes (subagent runs in parallel context)
+- Phase 3 (apply): 1-5 minutes depending on findings
+- Phase 4: ~0
 
-Quality bar: this skill exists to support Karen's Cochrane-quality standard for the hand-curated manual-fetch corpus. Speed is not the metric; defensibility is. If in doubt about whether to apply a change, stop and report rather than guessing.
+Total: 5-18 minutes per PDF. For a 62-PDF folder (Children Personal Care Papers), the full sweep is 5-18 hours of sustained autonomous loop — achievable in 1-2 days of wall time with `/loop` running in the background.
