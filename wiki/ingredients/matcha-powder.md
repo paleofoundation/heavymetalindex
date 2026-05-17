@@ -121,7 +121,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/szymczykowska2026-matcha-elemental-composition\|Szymczykowska et al. 2026]]. *Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health*, Beverages | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/szymczykowska2026-matcha-elemental-composition\|Szymczykowska et al. 2026]]. *Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health*, Beverages | 2026 | Peer-reviewed | JP/PL Pb, Cr, Ni occurrence in Two Japanese organic matcha types (daily matcha and traditional matcha) from Uji region, Kyoto, Japan; two batches each,... (n=2) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

@@ -101,10 +101,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hu2023-china-tea-heavy-metals\|Hu et al. 2023]]. *Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China*, Toxics | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/kazeminia2023-tea-heavy-metals-review\|Kazeminia et al. 2023]]. *Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review*, Carpathian Journal of Food Science and Technology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/salmani2023-herbal-teas-metals-review\|Salmani et al. 2023]]. *Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review*, Biological Trace Element Research | 2023 | Review | *[awaiting synthesis]* |
-| 4 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | *[awaiting synthesis]* |
+| 1 | [[sources/hu2023-china-tea-heavy-metals\|Hu et al. 2023]]. *Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China*, Toxics | 2023 | Peer-reviewed | CN tAs, Cd, Cr, Cu, tHg, Pb concentrations (n=4803) |
+| 2 | [[sources/kazeminia2023-tea-heavy-metals-review\|Kazeminia et al. 2023]]. *Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review*, Carpathian Journal of Food Science and Technology | 2023 | Peer-reviewed | As, Cd, Cr, Pb, Hg, Al, Fe, Ba, Ni, Co concentrations from the cited dataset (n=157) |
+| 3 | [[sources/salmani2023-herbal-teas-metals-review\|Salmani et al. 2023]]. *Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review*, Biological Trace Element Research | 2023 | Review | IR/TR/CN Pb, Cd, tAs, Al, Cr, Ni concentrations (n=49) |
+| 4 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | CN/IN/TR Pb, Cd, tAs, Cr, Cu concentrations |
 <!-- END: hmi-source-legend -->
 ## Who this page is for
 
