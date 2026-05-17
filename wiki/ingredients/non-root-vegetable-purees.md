@@ -108,25 +108,40 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Non-root vegetable purees is the aggregate ingredient label for infant-and-toddler purees made from non-root-vegetable bases including [[ingredients/squash|squash and pumpkin]], green beans, [[ingredients/leafy-greens|leafy greens]] (spinach, peas), cauliflower, broccoli, [[ingredients/cucumbers|cucumber]], zucchini, and similar fruit-vegetables and aerial vegetables. Non-root vegetables sit at lower per-mass [[metals/lead|Pb]] than root vegetables because they do not grow in direct soil-contact, but leafy non-root vegetables (spinach, kale, peas) can carry elevated [[metals/cadmium|Cd]] via the leafy-vegetable accumulation pathway documented on [[ingredients/leafy-greens|leafy-greens]].
+
+The FDA Closer to Zero baby-food Pb action level differentiates non-root vegetable purees (10 ppb Pb) from root vegetable purees (20 ppb Pb) — the tighter limit on non-root reflects the lower baseline plus consumer expectation of lower contamination. The HMTc panel concerns for non-root vegetable purees are Cd (notably in leafy-green-containing formulations like spinach puree, green-pea puree), trace Pb, and trace iAs. Routes into [[products/non-root-vegetable-purees|non-root-vegetable-purees]] (Cat 1 row for infant non-root-vegetable products).
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within non-root vegetable purees tracks the source-vegetable mix (squash-only vs spinach-only vs mixed-vegetable formulations), source-region soil profile, and processing tier. Squash and butternut purees sit at the lower end of the non-root vegetable Pb/Cd range. Leafy-green purees (spinach, kale, pea) sit at the higher end, particularly for Cd.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Non-root-vegetable puree manufacturing involves washing, cooking, pureeing, and packaging. Washing reduces surface-deposited Pb. Cooking does not reduce internalized metals (Cd in leafy tissue). Pureeing concentrates per-mass metals slightly via water-content reduction. Sterilization (retort processing for jarred and pouched products) does not affect metals.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Non-root vegetable purees route into the Cat 1 row [[products/non-root-vegetable-purees|non-root-vegetable-purees]] product family. Derivatives include single-vegetable purees (squash puree, spinach puree, green-bean puree) and mixed-vegetable purees. Mixed-meals products containing non-root vegetables alongside grains, proteins, or other ingredients dilute the per-product metal load.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include source-vegetable origin specification; supplier-soil verification programs (particularly for leafy-vegetable suppliers); greenhouse-and-hydroponic production specification where the matrix permits; and contractual Pb/Cd ceiling on incoming non-root vegetables.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the non-root-vegetable cultivation stage. Soil pH management; soil amendments; cultivar selection (low-Cd-accumulating spinach and pea cultivars are documented).
+
+**Processing levers** ([[mitigation/processing]]) include washing optimization for surface-Pb removal; processing-equipment material specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include partial substitution of higher-Cd leafy-vegetable bases (spinach) with lower-Cd alternatives (squash, green beans) where the matrix permits; reducing the leafy-vegetable fraction in mixed-non-root-vegetable formulations.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd testing on finished non-root-vegetable purees against FDA Closer to Zero 10 ppb Pb action level for non-root vegetable purees ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]).
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include modern glass-jar, pouch, or aseptic-carton packaging.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for Pb and Cd in infant-and-young-child foods.
+- FDA Closer to Zero baby-food Pb action level: 10 ppb for non-root vegetable purees ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]).
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets infant-food category limits.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to non-root-vegetable-puree products sold in California.
 
