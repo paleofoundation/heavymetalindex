@@ -93,3 +93,13 @@
 ### Failed
 - P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264): raw_handle mismatch: absent
 - P1 `research2024-research-b` (FM_11111292): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-17T21:17:52.942Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264): stdout did not contain '---' frontmatter
+- P1 `research2024-research-b` (FM_11111292): cite_key mismatch: tatsuta2024-methylmercury-children-japan

@@ -62,7 +62,7 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 1. [[products/baby-lotion-cream|Baby lotion and cream]] (7 sources)
 2. [[products/baby-oil|Baby oil]] (1 source)
 3. [[products/baby-powder-cornstarch|Baby powder, cornstarch base]] (0 sources)
-4. [[products/baby-talcum-powder|Baby talcum powder]] (2 sources)
+4. [[products/baby-talcum-powder|Baby talcum powder]] (3 sources)
 5. [[products/baby-shampoo-body-wash|Baby shampoo and body wash]] (5 sources)
 6. [[products/baby-wipes|Baby wipes]] (3 sources)
 7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (3 sources)
@@ -274,14 +274,14 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 1. [[products/fragrance-preparations|Fragrance preparations (perfumes, colognes, body sprays)]] (0 sources)
 2. [[products/dusting-talc-powders-adult|Dusting/talc powders (adult)]] (0 sources)
 3. [[products/face-neck-leave-on-skin-care|Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)]] (2 sources)
-4. [[products/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] (0 sources)
+4. [[products/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] (2 sources)
 5. [[products/makeup-foundation-powders-blush|Makeup — foundation, powders, blush/rouge]] (2 sources)
 6. [[products/makeup-body-paints-bases-fixatives|Makeup — body/leg paints, bases, fixatives (including airbrush)]] (0 sources)
-7. [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]] (2 sources)
+7. [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]] (3 sources)
 8. [[products/lip-products|Lip products (lipstick, gloss, lip balm)]] (0 sources)
 9. [[products/deodorants|Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)]] (0 sources)
 10. [[products/sun-suntan-products|Sun/suntan products (including spray, self-tan, airbrush)]] (2 sources)
-11. [[products/leave-on-hair-preparations|Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)]] (0 sources)
+11. [[products/leave-on-hair-preparations|Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)]] (1 source)
 12. [[products/permanent-hair-dyes-tints|Permanent hair dyes/tints (remain in hair after application)]] (0 sources)
 13. [[products/manicuring-preparations-leave-on|Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)]] (1 source)
 14. [[products/tattoo-inks|Tattoo inks (permanent and temporary)]] (0 sources)
@@ -510,17 +510,6 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->

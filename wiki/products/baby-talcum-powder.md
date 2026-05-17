@@ -16,7 +16,7 @@ vulnerable_population: infants-0-24mo
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 2
+sources: 3
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care

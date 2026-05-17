@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-17
 
-Generated: 2026-05-17T20:32:40.675Z
+Generated: 2026-05-17T21:13:01.561Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 934
-- Pages with `## Key numbers` section: 822
+- Source pages processed: 936
+- Pages with `## Key numbers` section: 824
 - Pages without Key numbers section (skipped): 111
-- Structured rows extracted: 4275
+- Structured rows extracted: 4305
 - Pages with Key numbers but no parseable values: 64
 
 ## Output
@@ -19,23 +19,23 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 919 rows
-- Cd: 880 rows
-- Cr-total: 434 rows
-- Ni: 388 rows
-- tAs: 344 rows
+- Pb: 926 rows
+- Cd: 887 rows
+- Cr-total: 436 rows
+- Ni: 389 rows
+- tAs: 345 rows
 - Al: 281 rows
-- tHg: 278 rows
+- tHg: 280 rows
 - iAs: 167 rows
 - MeHg: 93 rows
 - Cu: 88 rows
 - Sn: 71 rows
 - Fe: 59 rows
-- Co: 49 rows
+- Co: 52 rows
 - U: 42 rows
-- Mn: 38 rows
+- Mn: 39 rows
 - Se: 35 rows
-- Sb: 24 rows
+- Sb: 29 rows
 - V: 13 rows
 - Ba: 12 rows
 - Cr-VI: 11 rows
@@ -44,8 +44,8 @@ Elapsed: 0s
 - Be: 6 rows
 - K: 5 rows
 - Tl: 3 rows
+- Ag: 3 rows
 - B: 3 rows
-- Ag: 2 rows
 - Ca: 2 rows
 - Mg: 2 rows
 - MMA: 2 rows

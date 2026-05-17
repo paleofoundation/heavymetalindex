@@ -212,3 +212,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 11 (priority ordering P1–P5), Part 9 (synthesis thresholds trigger on evidence), Part 18 (lint discipline), Part 5b (routing audit feeds synthesis). Feedback: algorithmic prioritization requires no approval — data-driven sourcing replaces estimation-driven sourcing.
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Audit pool-blocked cells to expose unblocking strategy
+
+**What:** Run a diagnostic across the 286 pool-blocked (ingredient, metal) cells to identify which pooling rule is preventing synthesis for each, ranked by unblocking difficulty.
+
+**Why this lever now:** The snapshot shows 286 blocked cells—roughly 30% of the synthesis matrix is invisible. These are not missing sources; they're routed sources that cannot be synthesized due to rule violations (basis mismatch, unit-conversion gaps, population stratification needed, censoring conflicts). Classifying which violation type blocks each cell reveals which are fixable in frontmatter vs which require synthesis architecture changes (e.g., stratified pooling). Unblocking even 40% of these cells would dramatically expand synthesis coverage and expose the next bottleneck.
+
+**Where:** 
+- Create `tools/evidence/audit-pool-blocked-cells.mjs`
+- Emit to `data/evidence/pool-blocked-audit-<date>.csv`: columns `ingredient`, `metal`, `source_count`, `blocking_rule` (basis_mismatch | unit_unresolvable | population_stratification_required | censoring_conflict | a_tier_contradiction | other), `sources_csv`
+- Rank by blocking-rule frequency to surface which rule prevents the most syntheses
+
+**How:**
+1. For each cell with contributing sources that failed pooling, test each source-pair against pooling rules
+2. Classify the blocking violation type
+3. Emit ranked audit: which blocking rule affects most cells? Which are easiest to fix (frontmatter)? Which need synthesis redesign?
+4. Surface top unblocking targets to synthesis pass or Karen
+
+**Anchors:** CLAUDE.md Part 9 (synthesis modes and triggers), Part 19 (locked pooling methodology), `docs/standards-methodology.md` (pool admission rules). This audit sits between ingest and synthesis, exposing what frontmatter corrections or architecture changes would unblock the next 100+ cells.
+
+---

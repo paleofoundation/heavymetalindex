@@ -160,3 +160,46 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already processed (audited-codex-revised, 2026-05-17, commit b237644); page updated today, not in routing_malformed or routing_unresolved — v2 skip-window rule applies, no action taken.
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals already audited 2026-05-17 (commit c75d66e); skill v2.0 skip rule applies
+
+## Tick 2026-05-17T20:06:19.986Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `oranges2015-skin-physiology-neonate-infant-clinical` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Skin_Physiology_of_the_Neonate_and_Infant_Clinical_Implications.pdf)
+- `cfa2012-cpsia-lead-fact-sheet` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_02_Regulatory_Reports/02_Regulatory_Reports/CPSIA_and_Lead_Fact_Sheet.pdf)
+- `medley2023-childrens-makeup-body-products-us-usage` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Children_Makeup_Body_Products_US.pdf)
+- `opss2023-feasibility-action-limits-cosmetics-uk` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Feasibility_Study_Action_Limits_Cosmetics_UK.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_02_Regulatory_Reports/02_Regulatory_Reports/TCCP_Chemical_Lists_NY.pdf`: TCCP_Chemical_Lists_NY.pdf is structurally corrupted (truncated stream — every PDF tool fails with XRef/endstream/EOF errors; pypdf reports "Stream has ended unexpectedly"). Source PDF needs to be re-fetched from NY DOH before this entry can be retried.
+
+## Tick 2026-05-17T20:50:32.316Z
+
+- Candidates this tick: 5
+- Succeeded: 1
+- Stopped (need Karen): 4
+- Failed: 0
+
+### Succeeded
+- `balogun2024-body-creams-delta-nigeria` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Heavy_Metals_Body_Creams_Delta_Nigeria.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Health_Risks_Heavy_Metals_Online_Market.pdf`: kicinska2025-cosmetics-online-market-heavy-metals already merge-enhanced + audited today via babycare_01 copy of same paper (DOI 10.1038/s41598-024-83477-2); babycare_03 PDF is a cross-folder file-system duplicate.
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Lead_Cadmium_Mercury_Baby_Talcum_India.pdf`: PDF truncated/corrupted — no `%%EOF` trailer, broken XRef table; unreadable by pdftotext/pdfinfo/pypdf/sips/Read; no repair tools available.
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Overview_Heavy_Metals_Cosmetics_Toxicological.pdf`: byte-identical duplicate of already-ingested babycare_01 PDF; existing page post-2026-05-14 clean
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Petroleum_Jelly_Vaseline_Specification.pdf`: vendor product spec sheet, not corpus-grade literature
+
+## Tick 2026-05-17T21:17:53.045Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: PDF already processed and audited (rahati2026-infant-formula-baby-food-iran-health-risk, updated 2026-05-17, audited-codex-revised on commit b237644, prior subagent PROMOTE on all 5 checks, not in malformed/unresolved) — skill v2.0 skip-window rule applies.
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: PDF already processed and audited within v2 skill skip window (page updated 2026-05-17, audit-queue status audited-revised, not in malformed/unresolved).
