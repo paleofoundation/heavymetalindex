@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_determination-of-some-inorganic-metals-in-edible-v
 cite_key: pehlivan2008-vegetable-oils-turkey-icp-aes
 title: "Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)"
 authors: [Pehlivan E, Arslan G, Gode F, Altun T, Özcan MM]
@@ -11,16 +11,16 @@ no_doi_assigned: true
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Determination of some inorganic metals in edible vegetable oils b.pdf"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Determination of some inorganic metals in edible vegetable oils by ICP-AES.pdf"
 metals: [Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn]
 ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/corn-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/vegetable-oils]]"]
-products: ["[[products/nuts-seeds-other]]"]
+products: ["[[products/olive-oil]]", "[[products/cooking-oils-other]]"]
 matrices: [olive-oil, sunflower-oil, corn-oil, soybean-oil, hazelnut-oil, almond-oil, edible-oil]
 jurisdictions: [TR]
 near_duplicates: []
 sample_n: 17
 sample_population: "17 edible vegetable oil samples from Turkish food markets: soybean, hazelnut, almond, natural olive, riviera olive (3 types), virgin olive, olive frying, sunflower (5 types), corn (3 types)"
-updated: 2026-05-14
+updated: 2026-05-17
 ---
 
 # Pehlivan et al. 2008 — Inorganic metals in Turkish edible vegetable oils by ICP-AES
@@ -56,30 +56,44 @@ Soybean oil:
 
 EU regulatory limit (Regulation EC 466/2001, as noted by authors): Pb 0.10 mg/kg for vegetable oils. All values well below this limit. No regulatory limit for Cd, Cu, Ni, Zn in vegetable oils at time of publication.
 
-Recovery: all metals > 95% at low concentrations. Precision: RSD below 10–20% depending on metal.
+Recovery: the authors state that average standard-addition recoveries were higher than 95% for all metal ions, although Table 1's added/found central values are lower for some low-level spikes. Precision: RSD below 10% for Cu, 5% for Fe, 15% for Mn, 8% for Co, 10% for Cr, 20% for Pb, 5% for Cd, 16% for Ni, and 11% for Zn.
 
-## Methods
+## Methods (brief)
 
 ICP-AES (Varian Vista). Acid extraction: 2–3 g oil + 1 mL 10% HNO3; shaken at 50 Hz for 60 s; incubated in shaking water bath at 50°C for 2 h; centrifuged at 2800 rpm for 10 min; aqueous layer diluted to 25 mL. No microwave digestion — direct extraction method. Wavelengths: Al 396.152, Cd 228.802, Cu 324.754, Fe 259.940, Mn 257.610, Co 238.892, Cr 257.716, Pb 220.353, Ni 231.604, Zn 213.857 nm. Working range 0.001–0.1 ppm for all metals. No speciation performed: total Pb, total Cd, total Cr. Data collected from Turkish food markets, specific city/date not stated. Study published in Grasas y Aceites (Spain), received 2/2/06, accepted 7/2/08.
 
-Limitation: This is a 2008 study with no speciation. The extraction method (dilute acid, room-temperature shaking rather than microwave digestion) may underestimate metals that are tightly matrix-bound. Per-oil n=1–3 samples per brand across 17 total.
+Limitation: This is a 2008 study with no speciation. The method is dilute-acid extraction rather than total microwave digestion or dry ashing, so comparisons with digestion-based studies should preserve the sample-preparation difference. Per-oil n=1–5 across 17 total samples, with several oil subtypes represented by one sample.
 
 ## Implications
 
-Certification: Provides historical Turkish market baseline for Pb and Cd in vegetable oils. Values are low (Pb maximum 7.4 µg/kg in virgin olive oil, Cd maximum 4.5 µg/kg in sunflower oil-e), consistent with later EU regulatory experience that vegetable oils generally present low Pb and Cd compared to solid food matrices.
+- Certification (HMTc): Provides historical Turkish market baseline values for Pb and Cd in edible vegetable oils. Values are low in this 17-sample set (Pb maximum 0.0074 mg/kg in virgin olive oil, Cd maximum 0.0045 mg/kg in sunflower oil-e) and sit well below the EC 466/2001 Pb limit cited by the authors.
 
-Courses: Useful as an older reference illustrating the acid-extraction methodology for ICP-AES and the range of metals determinable in a single run. Also illustrates that total Cr data (not Cr-VI) does not enable toxicological assessment for the hexavalent form.
+- Courses: Useful as an older reference illustrating the acid-extraction methodology for ICP-AES and the range of metals determinable in a single run. Also illustrates that total Cr data (not Cr-VI) does not enable toxicological assessment for the hexavalent form.
 
-App: Values are low and relatively dated (2008, Turkish market). Use only for broad order-of-magnitude framing; prefer more recent and larger-n studies for ingredient profiling.
+- App: Values are low and relatively dated (2008, Turkish market). Use only for broad order-of-magnitude framing; prefer more recent and larger-n studies for ingredient profiling.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/olive-oil]]
 - [[ingredients/sunflower-oil]]
 - [[ingredients/corn-oil]]
 - [[ingredients/soybean-oil]]
 - [[ingredients/vegetable-oils]]
+- [[products/olive-oil]]
+- [[products/cooking-oils-other]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
-- [[testing/icp-oes]]
+- [[metals/copper]]
+- [[metals/iron]]
+- [[metals/manganese]]
+- [[metals/cobalt]]
+- [[metals/chromium]]
+- [[metals/zinc]]
+
+## Verification notes
+
+- 2026-05-17 Codex merge-enhance: identity checked against the manual-fetch PDF; corrected legacy `raw_handle`/truncated path, replaced the erroneous `products/nuts-seeds-other` route with `products/olive-oil` and `products/cooking-oils-other`, changed legacy headings to current source-page headings, and removed the non-taxonomy `testing/icp-oes` wikilink.
+- Source reports total Cr by ICP-AES, not Cr-VI; the page therefore uses `Cr` and links `[[metals/chromium]]`.
+- `olive-oil`, `sunflower-oil`, `corn-oil`, `soybean-oil`, `hazelnut-oil`, `almond-oil`, and `edible-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
+- The paper cites EC 466/2001 Pb limit for vegetable oils (0.10 mg/kg), but no exact regulation page exists in the current wiki taxonomy. Surface as a regulation-page candidate rather than inventing a slug.
