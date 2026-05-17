@@ -57,7 +57,7 @@ This Toxics paper quantifies six phthalates (DEP, DiBP, DnBP, DEHP, and two non-
   - Σ mPAEs: DF 100; mean 313 ± 309; median 238; range 14.8-1860; r(ΣmPAEs, 8-OHdG) = 0.318 (p = 0.009)
   - 8-OHdG: DF 100; mean 1.58 ± 0.84; median 1.38; range 0.016-5.066. No significant sex difference.
   - mBzP and mMP non-detectable in all samples.
-- mEP composition share by sub-group: mEHP = 41.5 % of ΣmPAEs; mnBP 29.8 %; mEP 20.2 %; miBP 8.5 %.
+- ΣmPAEs composition by metabolite (Section 3.2, p. 5): mEHP 41.5 %; mnBP 29.8 %; mEP 20.2 %; miBP 8.5 %.
 - Breastfeeding sub-analysis (Section 3.2, p. 6): mEP median 48.1 ng/mL in breastfed infants < 1 y old (n = 29) vs 27.7 ng/mL in non-breastfed infants > 1 y (n = 37); Mann-Whitney U, p < 0.05. Authors attribute to mEHP near-exclusive presence in breast-milk samples per refs 33-34.
 - Estimated daily intake from dermal diaper contact (Table 4, p. 8; ng/kg-bw/day; medians):
   - Total (n = 66): DEP 19.6 (range 2.1-561; 95th p 95.4); DiBP 23 (0.18-764; 95th p 178); DnBP 61.7 (4.5-523; 95th p 231); DEHP 46.3 (6.1-349; 95th p 161); ΣPAEs 159 (21.2-1220; 95th p 690)
@@ -96,6 +96,8 @@ Cross-sectional paired-sample study, Guangzhou Women and Children's Medical Cent
 - **Author author-list and affiliations.** Lai X and Zhu J are listed as co-first authors (dagger note on p. 1 of the published article); Li W and Zhao T are co-corresponding (asterisks). All authors affiliated with Guangzhou Women and Children's Medical Center / Guangdong Medical University or with Guangdong University of Technology (Institute of Environmental Health and Pollution Control).
 - **Funding.** National Natural Science Foundation of China grants 82103814, 82202011; Guangdong Basic and Applied Basic Research Foundation 2022A1515012576; Guangzhou Municipal Science and Technology Project 202201011840, 202201011221, 2024A04J3929, 2024A04J3925, 2025A04J5228; and the Research Fund for Clinical Doctor of Guangzhou Women and Children's Medical Center. Public-funded; no industry conflicts declared.
 - **License.** MDPI Toxics is open access under Creative Commons Attribution (CC BY 4.0) license per the front-page copyright notice: "This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/)."
+- Audit subagent (2026-05-17) flagged the bullet sub-heading "mEP composition share by sub-group" as a mislabel — the figures are ΣmPAEs composition shares per PDF p. 5 §3.2. Verified against PDF: the values (mEHP 41.5%, mnBP 29.8%, mEP 20.2%, miBP 8.5%) describe ΣmPAEs composition, not mEP. Applied: bullet sub-heading rewritten to "ΣmPAEs composition by metabolite".
+- Audit subagent (2026-05-17) flagged `products/diapers-and-components` as not present in the taxonomy snapshot. Verified against live wiki: `wiki/products/diapers-and-components.md` exists as an HMTc Cat 9 Row 7 scaffold (`literature_scope: thin`, `splits_locked: false`, frontmatter dated 2026-05-17). Snapshot-staleness false positive — taxonomy snapshot used by the audit subagent has not yet been refreshed to include the diaper scaffold. Wiki page retains the routing destination.
 
 ## Ingest log
 
