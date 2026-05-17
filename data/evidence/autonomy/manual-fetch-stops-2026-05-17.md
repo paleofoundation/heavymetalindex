@@ -259,3 +259,34 @@ This is the third re-feed of this same PDF in this folder during 2026-05-17 sust
 - Audit queue NOT touched (no re-ingest, no re-audit warranted).
 
 **Why the small commit instead of a pure no-op:** future skill runs encountering this PDF would re-discover the duplicate from scratch unless `near_duplicates` records the path. The skill's intent is that this PDF, once seen, is never re-investigated.
+
+## Petroleum_Jelly_Vaseline_Specification.pdf (suggested handle: MFK_petroleum-jelly-vaseline-specification) — 2026-05-18
+
+**PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Petroleum_Jelly_Vaseline_Specification.pdf`
+
+**SHA-256:** `a79af1761a1ea16f3a7ef0522a02f749f3d9382d776858524eec495d2ec481c1` (4 pages, 512,427 bytes, readable).
+
+**Stop reason:** PDF is a single-vendor product specification sheet, not Cochrane-quality literature. The file is a 4-page anonymous vendor catalog listing physico-chemical and pass/fail specifications for four grades of petroleum jelly (Ultra Snow White Cosmetic Grade, Snow White Pharmaceutical Grade, Snow White Cosmetic Grade, Industrial White) against BP 2013/2012/2007 and ASTM methods. There is no author, no institution, no DOI, no journal, no publication date, no methodology section, and — critically — no actual heavy-metals concentration data. Arsenic and lead (Pb) lines for all three petroleum-jelly grades report only "Passed" against ISIRI-3949 (Iranian Institute of Standards and Industrial Research method); the Industrial White grade does not list any heavy-metals testing at all. Treating a pass/fail vendor spec with no measured values, no LOD/LOQ, no sample-population information, and no traceable provenance as a wiki source would inject non-evidence into the corpus.
+
+**Identity checks:**
+- DOI grep: PDF has no DOI to grep.
+- raw_handle grep (`MFK_petroleum-jelly-vaseline-specification`) → no match in `wiki/sources/`.
+- Filename grep (`petroleum`, `vaseline`) → only incidental matches in `wiki/sources/balogun2024-body-creams-delta-nigeria.md` (Balogun 2024 lists petroleum-jelly products as a product-type within an aggregate body-cream sample frame; not this vendor spec).
+- No existing wiki source page for this PDF.
+
+**Skill v2.0 rule applied:** none of the standard "skip post-2026-05-14 clean" or "merge-enhance pre-schema" rules apply. The applicable rule is the upstream corpus-admission criterion: only peer-reviewed papers, regulatory reports, agency datasets, and government public-record documents are wiki sources (see CLAUDE.md Part 4 "compiled wiki, not a query-time RAG surface" and Part 5 source-file-handling). Vendor product specification sheets with no measured values do not satisfy this bar regardless of where they are filed under `raw/`.
+
+**Why this matters for Cochrane-quality posture:** the wiki's defensibility argument (Part 1) rests on operating a curated corpus of the *complete heavy metals literature*. Admitting a single-vendor pass/fail product spec as a corpus source would:
+- Create a precedent that vendor catalogs are wiki-grade evidence, opening the door to thousands of supplier spec sheets that report only "Passed" against any number of regional/national standards.
+- Contradict Part 2's wiki-says-what-literature-supports rule — a single vendor's pass/fail claim against ISIRI-3949 is neither literature nor an independent test result.
+- Risk Part 12 brand-firewall concerns even though "Ultra Snow White / Snow White" are generic trade names — the page would essentially be a vendor marketing artifact reproduced inside the wiki.
+
+**Action taken:** none. No commit, no audit subagent spawned, no wiki source page created, no audit-queue row appended. The PDF is left in place under `raw/` (immutable append-only per Part 4).
+
+**Karen note (Karen-input item):** Karen should decide what to do with this file. Options:
+1. **Delete from `raw/`** as an out-of-scope source mis-filed into `babycare_03_Powder_Lotion_Oil_Diaper/` during the Kimi-driven fetch (this is the most likely outcome — Kimi appears to have collected this as a "petroleum jelly" hit alongside actual baby-product literature).
+2. **Re-classify as a methodology/specification reference** in a separate `raw/specifications/` or `raw/vendor-specs/` directory, with a note that these never become wiki sources but can be cited as background for product-form definitions if useful (e.g., what range of melting points / kinematic viscosities characterise "petroleum jelly" as a product form). This is a low-priority secondary use and probably not worth the directory.
+3. **Search for the actual underlying study or regulatory document** that the spec references (BP 2013 petroleum jelly monograph, ISIRI-3949 standard for heavy metals in cosmetics) and fetch those as proper regulatory sources instead. This is potentially valuable — ISIRI-3949 is the standard Rahati 2026 referenced for the Iranian infant-formula market, and a regulatory page for it could anchor the Iran jurisdiction's heavy-metals limits across multiple cosmetic and food product categories.
+
+Until Karen triages this PDF, the wrapper will continue re-serving it on every full-folder sweep and the skill will continue to log this stop. The simplest unblocking action is option (1).
+
