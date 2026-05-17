@@ -345,7 +345,7 @@ function buildDashboard(audits) {
   out.push("- **PDF-side verification.** Trace-every-claim audit v2 should follow each `[[sources/...]]` link to the cited source page, then to the raw PDF in `raw/markdown/<FM_id>/` or `raw/manual-fetch/...`, and verify the claimed value appears in the source. Today's v1 audit only verifies a citation exists; not that the citation is correct.")
   out.push("- **Synthesis reproducibility audit.** Pick 5 populated `contamination_profile` cells. Re-derive the values from contributing sources from scratch (without consulting the existing page). Compare. Target: 100% reconstructible. Not yet automated; requires deep reading of contributing sources.")
   out.push("- **Inter-rater reliability.** Re-ingest 20 source pages with a second extractor blind to the existing pages. Compare values + metadata. Compute κ. Target: κ > 0.7 extraction, > 0.8 inclusion. Not yet operationalized.")
-  out.push("- **External peer review.** Three independent reviewers (toxicology academic, brand RA veteran, plaintiff's-side class-action attorney) read the wiki and report defects. Not commissioned yet.")
+  out.push("- **External peer review.** Three independent reviewers (toxicology academic, brand RA veteran, plaintiff's-side class-action attorney) read the wiki and report defects. The commissioning brief is drafted at [[docs/external-review-brief|docs/external-review-brief]] and is ready for Karen to send; reviewers not yet engaged.")
   out.push("")
   out.push("These four audits are the Cochrane-level qualifying audits. They are documented here as gaps in the harness so the audit dashboard does not present a falsely complete picture.")
   out.push("")

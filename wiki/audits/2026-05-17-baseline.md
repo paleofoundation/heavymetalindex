@@ -23,7 +23,7 @@ Generated: **2026-05-17**.  Baseline snapshot: [[audits/2026-05-17-baseline|2026
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 0 failures | PASS |
 | Routing discipline check 2 (HMTc-locked products with zero routed sources) | 246 of 290 | INFO |
 | Source page DOI completeness | 0 missing | PASS |
-| Claim provenance — body-prose numerical claims with traceable citation | 3079/3528 (87.3%) | WARN |
+| Claim provenance — body-prose numerical claims with traceable citation | 3170/3459 (91.6%) | WARN |
 
 ## Taxonomy v2.0 coverage
 
@@ -127,13 +127,13 @@ DOI completeness: 896 of 896 sources have a DOI or a `no_doi_assigned: true` mar
 
 Every numerical claim in body prose on ingredient and product pages — matches the regex `<number> <unit>` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation in the same H2 section (before or after the claim is acceptable; sections are treated as logical units of provenance). Valid citations: `[[sources/...]]`, `[[regulations/...]]` (for regulatory limits), `[[testing/...]]` (for analytical-method floors).
 
-- Total claims scanned: **3528**
-- Supported: **3079** (87.3%)
-- Unsupported: **449**
+- Total claims scanned: **3459**
+- Supported: **3170** (91.6%)
+- Unsupported: **289**
 
 By page type:
-- ingredient: 1470/1635 (90%)
-- product: 1609/1893 (85%)
+- ingredient: 1474/1635 (90%)
+- product: 1696/1824 (93%)
 
 Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.
 
@@ -146,7 +146,7 @@ The audits above are the mechanical, automatable dimensions of defensibility. Th
 - **PDF-side verification.** Trace-every-claim audit v2 should follow each `[[sources/...]]` link to the cited source page, then to the raw PDF in `raw/markdown/<FM_id>/` or `raw/manual-fetch/...`, and verify the claimed value appears in the source. Today's v1 audit only verifies a citation exists; not that the citation is correct.
 - **Synthesis reproducibility audit.** Pick 5 populated `contamination_profile` cells. Re-derive the values from contributing sources from scratch (without consulting the existing page). Compare. Target: 100% reconstructible. Not yet automated; requires deep reading of contributing sources.
 - **Inter-rater reliability.** Re-ingest 20 source pages with a second extractor blind to the existing pages. Compare values + metadata. Compute κ. Target: κ > 0.7 extraction, > 0.8 inclusion. Not yet operationalized.
-- **External peer review.** Three independent reviewers (toxicology academic, brand RA veteran, plaintiff's-side class-action attorney) read the wiki and report defects. Not commissioned yet.
+- **External peer review.** Three independent reviewers (toxicology academic, brand RA veteran, plaintiff's-side class-action attorney) read the wiki and report defects. The commissioning brief is drafted at [[docs/external-review-brief|docs/external-review-brief]] and is ready for Karen to send; reviewers not yet engaged.
 
 These four audits are the Cochrane-level qualifying audits. They are documented here as gaps in the harness so the audit dashboard does not present a falsely complete picture.
 
