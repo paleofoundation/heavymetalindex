@@ -34,7 +34,7 @@ This Pharmaceutics paper constructs an age-dependent pediatric dermal absorption
   - Dermis thickness: child remains ~40% of adult thickness until ~2 years (730 days); reaches adult at ~9883 days (≈27 yr). Scalp dermis 1125 µm at 2 weeks to 1500 µm at 21 yr (max); 850 µm at 2 weeks to 2200 µm at 21 yr (min) (de Viragh).
   - Skin hydration: peaks around 100-1000 days postnatal age (ratio ~1.25 vs adult), declining to 1.0 at 1182 days (≈3.2 yr).
 - Validation drugs (Table 1, p. 5): buprenorphine (MW 467.6, Log P 4); diamorphine (MW 369.4, Log P 1.5); phenobarbital (MW 232.2, Log P 1.47).
-- Predictive performance (Abstract): ratios of predicted:observed flux in neonates - diamorphine 0.55 to 1.40; phenobarbital 0.93 to 1.26; buprenorphine "acceptable" (specific range not given in abstract).
+- Predictive performance (fold error = predicted/observed flux; Table 7, p. 16): diamorphine in full-term neonates 0.55 to 1.4 (abstract and body agree); phenobarbital in neonates 0.93 to 1.26 (abstract value; body text reports 0.96 to 1.26 but Table 7 entries are 0.93, 0.96, 1.22, 1.26); buprenorphine in early-term neonate (37 wk) 1.0 to 1.37, but the model failed to capture a 30-fold flux discrepancy between two full-term samples (40 w-7 h vs 38 w-1 d) attributed by the authors to experimental error (Discussion, p. 17). Preterm-neonate predictions (GA 35-36 wk) had fold errors 0.93 to 1.2 for diamorphine and phenobarbital.
 - Maturation equations from Table 4 (p. 10): SC thickness uses polynomial of postnatal age in days (a=2.401e-7, b=2, c=-99.43, d=2.071e-3, e=101.4 for Model 1); epidermis thickness uses sigmoid (b=18.702, c=0.634 base ratio, normalization 5.363); dermis thickness uses sigmoid (b=8.974e3, c=0.407 base ratio); SC hydration uses polynomial peaking at intermediate ages.
 
 ## Methods (brief)
@@ -56,3 +56,7 @@ Model construction: extension of the Dancik et al. 2013 three-compartment (SC, v
 - No heavy-metal occurrence data in this paper. `metals: []` is correct.
 - Validation against pharmaceutical drugs only (buprenorphine, diamorphine, phenobarbital); the model's predictive accuracy for inorganic metal cations has not been evaluated and is likely lower because metals partition very differently from neutral lipophilic drugs.
 - The Dancik et al. 2013 base model is open-source on GitHub (Open-Systems-Pharmacology/Skin-permeation-model) - reusable for future HMI work.
+- Paper-internal numeric note: the abstract reports phenobarbital fold errors 0.93 to 1.26, but the body text (p. 15) reports 0.96 to 1.26; Table 7 entries (0.93, 0.96, 1.22, 1.26) make the 0.93 to 1.26 range correct. The abstract values are used here.
+- Author name in the paper's Tables 2-3 is rendered "Barret et al." but the reference list (entries 29, 30, 87) shows "Barrett, D.A." The reference-list spelling is canonical.
+- Funding: NSERC grants 2016-01382 and 2020-547790. No declared conflicts of interest. No HMTc, brand, or industry funding.
+- 2026-05-17 enhancement: tightened the buprenorphine predictive-performance summary using Table 7 and the Discussion (the original "acceptable" wording was a faithful abstract restatement but elided the 30-fold sample-pair discrepancy that the authors themselves attribute to experimental error). All other fields preserved (cite_key, raw_handle, raw_path, license, jurisdictions, near_duplicates).
