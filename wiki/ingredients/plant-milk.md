@@ -138,26 +138,63 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Plant milks (oat, almond, soy, coconut, rice, pea, hemp, cashew, and other plant-protein-based beverages) inherit their heavy-metal load from the source plant. The dominant driver is therefore the source-plant species and the soil-region where it was grown. Soy-based plant milk carries elevated Al, Ni, and Cd because soybean is an Al/Ni/Cd-accumulator plant; rice-based plant milk carries elevated iAs and Cd because rice is the canonical iAs accumulator (see [[ingredients/rice]]); oat-based plant milk typically carries the lowest baseline of the major plant-milk categories; almond-based plant milk inherits the almond Cd and Ni profile (see [[ingredients/almond]]); coconut-based plant milk carries the low coconut baseline (see [[ingredients/coconut]]).
+
+The processing step (grinding, soaking, mixing with water, optional cooking, straining) does not change total plant-source metal load; it dilutes the per-mass metal concentration relative to the dry source plant by the water-mass ratio. Plant milks therefore typically carry 5-20× lower per-mass metal than the dry source plant, with the exact ratio depending on the manufacturer's water-to-solids ratio.
+
+Additional metal contributors: fortifying mineral additives (the vitamin-mineral premix used to make plant milks nutritionally comparable to cow milk), packaging (Tetra Pak aluminum-foil-lined cartons can contribute trace Al), and processing-water hardness (water-Pb varies by source municipality).
+
+The HMTc panel concerns for plant milks vary by source: soy-based is Al/Ni-elevated; rice-based is iAs/Cd-elevated; almond-based is Ni/Cd-elevated; oat-based is generally low across the panel; coconut-based is low across the panel.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+The category "plant milk" spans substantially different metal profiles by source plant. The Cat 5 Step 0 lock therefore splits plant milk into three row categories: [[products/plant-milks-rice-based|rice-based]] (highest iAs concern; per [[sources/damato2026-inorganic-arsenic-rice-based-beverages|D'Amato 2026]]), [[products/plant-milks-soy-based|soy-based]] (Al/Ni concern; per [[sources/milani2023-trace-elements-soy-based-beverages|Milani 2023]]), and [[products/plant-milks-non-soy-non-rice|non-soy non-rice]] (oat, almond, coconut, pea, hemp; lower-baseline category). [[sources/marques2021-trace-elements-milks-plant-based-drinks|Marques 2021]] characterized multiple plant-milk types in the same survey and supports the within-category split.
+
+Within rice-based plant milk, the iAs range tracks the source rice's iAs distribution (see [[ingredients/rice]]). Within soy-based plant milk, the Al range is more variable than expected from source-soy alone, suggesting processing-water and packaging-contribution effects.
+
+[[sources/walther2022-plantbased-drinks-arsenic|Walther 2022]] specifically addresses arsenic in plant-based drinks and documents the iAs vs tAs partitioning across the major plant-milk categories.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Plant milk manufacturing follows a standard sequence: grinding the source plant, soaking in water, blending to extract solubles, optional cooking or pasteurization, straining (for filtered plant milks like oat and almond) or homogenization (for non-strained plant milks), fortification, packaging.
+
+The dominant metal-affecting step is **water dilution** during blending: a 1-part-plant-to-10-parts-water ratio yields a finished plant milk with 10× lower per-mass metal than the source plant. Different manufacturers use different ratios (commercial almond milk is typically 2-5 percent almonds by mass, oat milk 7-15 percent oats), and the per-serving metal load reflects this ratio plus the per-source plant metal content.
+
+**Straining** removes some particulate-bound metal in the spent grain; the filtered plant milk carries the soluble-fraction metals plus any colloidal-suspended metal. Non-strained plant milks (homogenized whole-plant blends) carry the total plant-source metal.
+
+**Fortification** adds vitamin and mineral compounds. The mineral premix can contribute trace Pb and Cd at parts-per-billion levels; supplier specifications control this.
+
+**Heat treatment** (UHT pasteurization, retort sterilization for canned/cartoned products) does not change metal content.
+
+**Packaging migration** can contribute Al from foil-lined cartons (Tetra Pak, brick-pack formats) over multi-month shelf life. Plastic and HDPE bottles are generally lower for migration considerations.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Plant milk concentrates and powders carry per-mass metal at multiples of the as-fed liquid because water has been removed. Almond-milk powder, oat-milk concentrate, and similar concentrated forms inherit the plant-source metal load with concentration adjustments.
+
+Plant-based yogurt, plant-based ice cream, and plant-based cheese inherit the source plant-milk profile with additional ingredient contributions. Plant-milk-based infant formulas (soy formula specifically per [[ingredients/infant-formula-powder]] and [[products/infant-formula-powder-soy-based]]) are separately regulated under infant-formula compositional requirements and route to Cat 1.
+
+Plant-protein isolates (soy protein isolate, pea protein isolate) sold as standalone ingredients or in protein powders carry concentrated per-mass metal content and route to [[products/supplements-protein-collagen-powders|Cat 16 row 20]] when sold as dietary supplements.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. The single largest brand-side decision is the source-plant species (a brand can substantially reduce Al by formulating oat-based rather than soy-based; can reduce iAs by formulating non-rice-based rather than rice-based; can reduce Cd by sourcing low-Cd-origin almonds or low-Cd soy). Within a single source-plant species, geographic-segmented sourcing tracks the species-specific recommendations (low-Cd cocoa origins for cocoa milk; low-iAs rice for rice milk).
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-plant production stage and are addressed at the relevant ingredient pages ([[ingredients/rice]], [[ingredients/almond]], [[ingredients/soy]], [[ingredients/oat]], [[ingredients/coconut]]).
+
+**Processing levers** ([[mitigation/processing]]) include water-source specification (testing of plant-milk plant feed water for Pb and Cd), equipment-contact specification (food-grade processing equipment, food-contact-substance compliance), and water-to-plant ratio formulation (higher water dilution reduces per-serving metal).
+
+**Formulation levers** ([[mitigation/formulation]]) include species substitution (the largest single mitigation), water-to-plant ratio (commercial recipes vary 2-15 percent plant content), and fortification-source specification (mineral-premix supplier QC).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level testing on finished plant milk against the applicable regulatory cap. Speciation testing (iAs/tAs split) is operationally required for rice-based plant milk targeting EU markets. See [[testing/icp-ms]] and [[testing/arsenic-speciation]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include carton-foil specification (low-Al-migration foil grades) and shelf-life storage condition controls.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets specific iAs maximum levels for rice-based plant milk (30 ppb iAs); general beverage MLs apply for Pb and Cd.
+- Codex Alimentarius does not maintain plant-milk-specific MLs; the general beverage and source-ingredient MLs apply.
+- FDA does not maintain a binding action level for Pb, Cd, or iAs in plant milks specifically. FDA juice action levels for Pb apply to plant-milk products labeled or marketed as juices.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to plant milks sold in California; serving-based screen governs.
 
 

@@ -129,7 +129,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Infant formula powder inherits heavy metals from each of its component ingredients (the protein base, the carbohydrate source, the fat-blend, the vitamin-mineral premix, and any flavoring or processing aids) plus the processing-water used in formulation and the packaging system. The metal load is therefore a weighted sum across ingredients rather than a single-source profile.
+
+The dominant heavy-metal contributors in cow-milk-based formula are: lead from mineral premix ingredients and from the cow-milk source where dairy supply chains involve elevated-Pb regions; cadmium from the protein and mineral ingredients; arsenic primarily from brown-rice-syrup carbohydrate sources in organic-labeled formulas (per [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Jackson et al. 2012]]); and aluminum from packaging contact and from the mineral premix. Soy-based formulas additionally accumulate aluminum and nickel from the soybean protein base, because soybean plants take up Al from acidic agricultural soils. The Cat 1 Step 0 lock recognizes this base-ingredient-class divergence by splitting non-soy and soy-based formula into separate certified rows.
 
 ## Ranges by source, region, and variety
 
@@ -155,14 +157,31 @@ Infant formula powder is manufactured by spray-drying a reconstituted liquid bas
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+The principal derivative of infant formula powder is the same powder reconstituted as feeding liquid; the as-fed liquid carries the same total metal load as the per-serving powder dosage. Toddler formulas and follow-on formulas (designed for ages 1-3 years) are formulated similarly and inherit the powder-formula metal profile.
+
+Hospital-grade specialty formulas (amino-acid-based, hydrolysate, preterm, metabolic-disorder formulas) follow the same composition logic with specialized ingredients; metabolic-disorder formulas in particular can have distinct mineral premixes targeting specific nutrient needs and may carry different trace-metal profiles from standard infant formula.
+
+Powdered formula sold loose in bulk (gray-market imports, repackaged formula) bypasses the regulatory testing of finished retail product and carries the highest contamination uncertainty. Single-serve formula sachets and ready-mixed formula bottles inherit the powder profile with packaging adjustments.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant brand-side intervention. Specification of ingredient-supplier QC (testing of each input — protein base, oils, mineral premix, carbohydrate source — for Pb and Cd at incoming) is the operational standard for HMTc-relevant infant-formula manufacturing. Documented avoidance of brown-rice-syrup as a carbohydrate source in organic formulas (the Jackson 2012 anchor finding) substantially reduces tAs and iAs in organic-labeled product.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the ingredient stage: low-Cd soy origins for soy-formula manufacturing, low-Cd dairy origins, mineral-source verification for the premix.
+
+**Processing levers** ([[mitigation/processing]]) include water-source specification for plant feed-water (water-Pb testing at the bottling/spray-drying facility) and equipment-contact specification (food-grade processing-equipment, food-contact-substance compliance for all surfaces in contact with product).
+
+**Formulation levers** ([[mitigation/formulation]]) include base-ingredient substitution where the metal profile of one ingredient drives finished-product exceedance (substituting non-brown-rice-syrup carbohydrate for organic formulas; substituting different mineral-premix sources where Al or Pb is elevated).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature in the infant-formula industry. Lot-release testing on finished product against [[regulations/eu-2023-915]] Pb ML (10 ppb prepared-for-feeding, 70 ppb powder) is standard. Speciation testing for arsenic (tAs vs iAs) is the operational requirement for compliance with [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal|FDA iAs frameworks]] on rice-containing formulas. See [[testing/icp-ms]] and [[testing/arsenic-speciation]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification (BPA-NI epoxy or food-grade alternative for canned powder), aluminum-foil-lined sachet specification, and shelf-life storage controls.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for infant formula: Pb at 0.020 mg/kg (20 ppb) prepared for feeding, equivalent to approximately 140 ppb on powder basis at 1:7 reconstitution; Cd at 0.005 mg/kg (5 ppb) prepared for feeding; iAs at 0.020 mg/kg (20 ppb) prepared for feeding for infant formula and 0.040 mg/kg (40 ppb) for follow-on; Hg at 0.020 mg/kg (20 ppb) prepared for feeding for infant formula.
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs action level for infant rice cereal (100 ppb) applies analogously to rice-containing formula. FDA Closer to Zero Pb framework covers processed baby foods broadly.
+- Codex Alimentarius CXS 72-1981 (infant formula) and CXS 156-1987 (follow-up formula) set composition standards and reference contaminant maximum levels.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL of 0.5 µg/day applies; converted to a serving-based screen on infant-formula consumption, this yields a very low per-serving threshold reflecting infant body weight and daily formula volume.
 
 

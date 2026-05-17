@@ -88,22 +88,57 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Milk and dairy products carry heavy metals through the lactating animal's dietary and environmental exposure pathway. Cows, goats, sheep, and other dairy animals consume feed that includes pasture forage, hay, silage, concentrates, and mineral supplements; metals from those inputs partition between the animal's tissues, the milk, and excretion. Dairy is generally a low-metal-load food commodity compared to muscle, organ, or grain commodities — the mammary gland excretes only a small fraction of the animal's dietary metal intake into milk. Lead in milk is typically very low except where dairy animals are grazed on Pb-contaminated pastures. Cadmium in milk is also typically very low because Cd preferentially accumulates in the animal's organs (kidney, liver) rather than partitioning to milk.
+
+The dominant HMTc panel concern in milk and dairy is aluminum (from ingredient and packaging sources, plus trace from animal feed) and trace Pb in regions with documented animal-Pb exposure. Mercury in dairy is low because dairy animals don't bioaccumulate methylmercury through their plant-and-grain diet. Iodine and other essential minerals are present at compositionally relevant concentrations but are not HMTc-panel analytes.
+
+## Ranges by source, region, and variety
+
+Geographic and production-system variance: Dairy from pasture-grazed cows in pastoral regions (New Zealand, Ireland, parts of Latin America) carries similar baseline metals to dairy from feedlot cows in concentrated-feedlot systems (US, EU intensive dairy regions), with both showing low baseline Pb and Cd. Dairy from regions with documented animal-Pb exposure (lead-arsenate-pesticide-contaminated pastures, urban or post-mining grazing areas, lead-paint deposition on farms) can carry elevated Pb. [[sources/abdelnaby2022-lead-cadmium-milk|Abdelnaby 2022]] documents the Egyptian dairy Pb/Cd profile; [[sources/adelusi2024-dairy-feed-south-africa|Adelusi 2024]] documents feed-to-milk Pb transfer in South African dairy.
+
+Cow-milk vs goat-milk vs sheep-milk vs buffalo-milk and other dairy-animal milks carry approximately similar baseline metal profiles per liter; species-level variance is smaller than within-species production-region variance.
+
+Fluid milk vs cultured dairy (yogurt, kefir, buttermilk) vs cheese vs butter: cheese and butter (concentrated dairy fractions) carry concentrated per-mass metal relative to source milk because water has been removed during processing. Whey (the liquid byproduct of cheesemaking) carries some of the source milk's water-soluble metals.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Pasteurization, homogenization, and standard fluid-milk processing do not change milk metal content meaningfully.
+
+**Concentration steps** (evaporation, drying, cheese-making) concentrate metals on a per-mass dry-basis: evaporated milk carries 2-3× the per-mass metal of fluid milk; condensed milk and dried milk powder concentrate further; hard cheese carries 5-10× per-mass concentration relative to source milk, with the actual ratio dependent on the cheesemaking yield (cow-cheese typically yields 10 percent cheese from source milk).
+
+**Fermentation** (yogurt, kefir, cultured milks) does not appreciably alter total metal load relative to source milk.
+
+**Butter and butterfat extraction**: butter is approximately the lipid fraction of milk plus some residual milk solids. Metals do not partition strongly into butterfat; butter typically carries lower per-mass metal than source milk on a dry-basis comparison.
+
+**Packaging migration** can contribute trace metals from packaging contact: aluminum-foil-lined cartons (Tetra Pak format) carry an Al-migration consideration for shelf-stable fluid milk; can-lined evaporated milk has the standard tinplate-Sn-migration consideration; plastic-bottle and glass-bottle milk have very low packaging-migration profiles.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Dairy concentrates carry per-mass metal at multiples of source milk: dried whole milk powder, dried skim milk powder, milk protein concentrate, milk protein isolate, lactose, whey protein concentrate, whey protein isolate, casein, and caseinate. These derivatives are inputs to infant formula manufacturing (see [[ingredients/infant-formula-powder]]); the per-formula metal contribution from milk-derived ingredients depends on the supplier-side metal content of these derivatives.
+
+Cheese, butter, and yogurt as standalone consumer products inherit the source-milk metal profile with concentration adjustments per derivative type.
+
+Dairy-based dietary supplements (whey protein powders, collagen-from-bovine-source supplements) carry per-serving metal content reflecting the source-dairy-derivative profile plus any supplement-additive contributions; these route to [[products/supplements-protein-collagen-powders|Cat 16 row 20]].
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include dairy-region selection (avoiding regions with documented pasture Pb contamination or feed-source contamination), supplier-feed-source verification, and water-source specification for milking and processing operations. For brands targeting low-Al markets (infant-formula manufacturers, organic dairy brands), single-origin sourcing with documented per-lot Pb/Cd testing is the operational specification.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the dairy-farm and feed-production level: pasture soil testing, feed-grain supplier verification, animal water-source testing, mineral-supplement supplier QC. These are farm-level interventions; brand-side access is via supplier specifications.
+
+**Processing levers** ([[mitigation/processing]]) include processing-water specification (water-Pb testing at the dairy plant), equipment-contact specification (food-grade equipment with documented metal-leach compliance), and packaging-material specification for finished retail products.
+
+**Formulation levers** ([[mitigation/formulation]]) are minor for fluid milk (single-ingredient product) but become significant for compounded dairy products: substituting low-Al-source dairy ingredients in infant formula, adjusting fortifying-mineral-source specifications in fortified dairy.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb and Cd testing on incoming raw milk, particularly for dairy targeting infant-formula manufacturing. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include carton-foil specification (Al-migration), can-lining specification (Sn-migration for evaporated milk), and shelf-life storage condition controls.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb in milk and dairy products. Pb ML for raw cow milk is 0.020 mg/kg (20 ppb).
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — General Standard for Contaminants and Toxins in Food and Feed; sets Cd, Pb, MeHg, iAs maximum levels applicable to milk, dairy, and infant formula.
+- US Pasteurized Milk Ordinance (PMO) covers milk safety but does not maintain binding heavy-metal action levels for cow milk; FDA defers to general food contamination policy.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to milk and dairy sold in California; the serving-based screen governs.
 
 
