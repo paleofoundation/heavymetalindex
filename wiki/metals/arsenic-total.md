@@ -8,7 +8,7 @@ audience: [regulator, educator, researcher]
 microbiome_relevance: medium
 sources: 19
 updated: 2026-04-30
-status: stub
+
 n_sources: 1
 ---
 
