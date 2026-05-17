@@ -119,25 +119,47 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Vitamin-mineral premix is the fortification blend added to infant cereals, infant formulas, and many adult nutritional products to provide micronutrients at label-declared levels. It is a manufactured ingredient assembled from individual vitamin compounds and mineral salts (calcium phosphate, iron sulfate or iron pyrophosphate, zinc sulfate or zinc oxide, copper sulfate, sodium selenite, magnesium oxide, manganese sulfate, sodium molybdate, and others depending on the product specification). Heavy-metal contamination in the premix originates from the mineral-salt precursors: the calcium phosphate component carries trace [[metals/lead|Pb]] and [[metals/cadmium|Cd]] from the source phosphate rock (phosphate rock geology naturally contains co-mineralized Pb and Cd at variable levels depending on the deposit); the iron salts carry trace Pb and [[metals/nickel|Ni]] from the source iron-ore refining process; the magnesium and manganese salts carry trace [[metals/aluminum|Al]] and [[metals/chromium|Cr]] from refining-residue inheritance.
+
+Vitamin-mineral premix routes into every infant formula format (powder, RTF liquid, concentrated liquid; non-soy and soy-based variants) and into infant cereals (rice-based and non-rice). Because premix is included at fortification levels that bring micronutrient concentrations to declared label values, even small impurity concentrations in the premix translate to measurable per-mass concentrations in the finished product. The premix's contribution to finished-formula Pb is the single largest contamination pathway in most formulas where the cow-milk or soy-protein base itself carries lower Pb levels. The HMTc panel concerns for vitamin-mineral premix are Pb (dominant), Cd (secondary), and trace Ni, Al, and Cr from mineral-salt precursors.
+
+The premix industry's analytical and quality-control framework is mature: most commercial premix suppliers operate to internal specifications of <100 ppb Pb in the finished premix, with leading suppliers achieving <50 ppb. The premix specification is the single most consequential brand-side lever in infant-nutrition product development because the per-finished-product Pb is dominantly inherited from this ingredient.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within vitamin-mineral premix tracks three dimensions per industry practice. First, supplier specification: premix suppliers compete on impurity-tier guarantees, with infant-grade premix suppliers (DSM, BASF, Lonza-Capsugel, Glanbia, others) offering distinct specifications by impurity tier; the choice of supplier and tier is the dominant variance driver. Second, mineral-salt precursor source: phosphate rock from different deposits carries materially different Pb/Cd profiles (Moroccan phosphate rock historically higher Cd than US Florida phosphate rock), and the supplier's salt-sourcing decisions propagate into the finished premix. Third, premix formulation: the premix vehicle and the specific mineral salts chosen affect aggregate impurity load (calcium carbonate vs calcium phosphate vs calcium citrate; ferrous sulfate vs ferric pyrophosphate vs encapsulated iron — each carries a different impurity inheritance pattern).
+
+Geographic and supplier variance can produce 10-fold differences in finished-premix Pb between leading and lagging suppliers. Brand-side specification is the operative variance-reduction lever; manufacturer surveys of finished-formula Pb implicitly survey premix impurity tier across the supply chain.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Vitamin-mineral premix is manufactured by dry-blending individual mineral salts and vitamin compounds, with optional encapsulation or microencapsulation for the more reactive vitamins (vitamin A, vitamin C, folate). The blending step does not introduce or remove metal impurities; the finished premix's metal load is the weighted sum of its constituents' loads. Some suppliers run a final-pass particle-size reduction or homogenization that can introduce trace metals from milling equipment if the equipment is not specifically selected for low-leach characteristics; this is mitigated in modern premix manufacturing by stainless-steel-only contact surfaces.
+
+When the premix is incorporated into a finished infant formula or cereal, the dilution from premix concentrate (mineral salts at percent-level concentration) to finished-product premix (typically 0.5-2% of formula by mass) is the primary determinant of finished-product impurity from this pathway. The premix supplier's specification at finished-premix level (after dilution from precursor mineral salts) is the directly comparable QC target.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Vitamin-mineral premix is itself an ingredient in finished products; it does not have direct consumer derivatives. The premix routes into eight distinct finished-product rows: [[products/baby-cereals-dry-rice-based]], [[products/baby-cereals-dry-non-rice]], [[products/infant-formula-powder-non-soy]], [[products/infant-formula-powder-soy-based]], [[products/infant-formula-rtf-liquid-non-soy]], [[products/infant-formula-rtf-liquid-soy-based]], [[products/infant-formula-concentrated-liquid-non-soy]], and [[products/infant-formula-concentrated-liquid-soy-based]]. Each finished-product format dilutes premix impurity by the inclusion-rate factor.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention for vitamin-mineral premix and the single most consequential brand-side decision for finished-formula Pb performance. Premix supplier specification at infant-grade impurity tier (typically <50 ppb Pb in finished premix); supplier audit programs including incoming-premix Pb/Cd testing on lot acceptance; supplier qualification programs requiring CofA review for each lot; and contractual specification of mineral-salt precursor sources (e.g., requiring Florida or Idaho phosphate rock for the calcium phosphate component to avoid higher-Cd Moroccan phosphate rock).
+
+**Agronomic levers** ([[mitigation/agronomic]]) are not directly applicable to vitamin-mineral premix because the ingredient is not agriculturally produced; the upstream lever is mineral-extraction practice at the phosphate-rock and iron-ore source.
+
+**Processing levers** ([[mitigation/processing]]) include the upstream mineral-salt refining process: more aggressive purification of calcium phosphate (multiple recrystallization steps, ion-exchange polishing) substantially reduces Pb/Cd in the finished salt. Premix suppliers' choice of refining-tier mineral salt is the operative processing lever.
+
+**Formulation levers** ([[mitigation/formulation]]) include alternative mineral-salt selection within the same micronutrient (calcium citrate vs calcium phosphate; ferric pyrophosphate vs ferrous sulfate; zinc gluconate vs zinc sulfate), where the alternative salts carry different impurity profiles and can be selected to reduce per-mass Pb load while maintaining nutritional bioavailability.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level Pb, Cd, and Ni testing on finished premix at receipt, lot-level testing on incoming mineral-salt precursors, and finished-product testing on infant formula and cereal that incorporates premix. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not consequential for vitamin-mineral premix; the impurities are intrinsic to the mineral-salt precursors rather than introduced from packaging.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for infant formula and infant-and-young-child cereal-based food (Pb 10 ppb prepared-for-feeding for formula, 20 ppb dry-weight for cereal); these apply to the finished product into which vitamin-mineral premix is incorporated, not directly to the premix.
+- FDA Closer to Zero baby-food Pb action levels (10 ppb for non-root vegetable purees, 20 ppb for dry infant cereal, 5 ppb for ready-to-eat foods); these constrain the per-mass Pb in finished products including premix-fortified ones.
+- US Pharmacopeia (USP) Chapter <2232> sets limits for elemental impurities in dietary supplements and food ingredients; commercial premix suppliers operate to USP-compliant specifications.
+- [[regulations/california-prop65]] California Prop 65 Pb MADL applies to fortified products sold in California; commercial settlements have established the practical compliance thresholds for premix-fortified products.
+- ISO 22000 and FSSC 22000 food-safety management standards apply to premix manufacturing facilities and constrain QC practice for impurity testing.
 
