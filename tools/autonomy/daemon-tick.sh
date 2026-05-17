@@ -112,6 +112,23 @@ if [[ "$INGEST_ENABLED" == "1" ]]; then
     "--max-papers=$INGEST_MAX" "--priority=$INGEST_PRIORITY" "--model=$INGEST_MODEL" || true
 fi
 
+# Step 3c: autonomous manual-fetch (MFK/MR/PCMF) ingest — Cochrane-quality
+# pass over the 335 hand-curated PDFs Karen dropped into the three manual-
+# fetch folders. Per-PDF workflow: read, identity-check against existing
+# wiki/sources/ via DOI/handle/cite-key, write fresh OR merge-enhance,
+# spawn fresh-context audit subagent via Agent tool, apply audit findings,
+# commit. Bounded to small batch per tick to keep tick wall-time stable.
+# Disable by setting HMI_MFETCH_INGEST=0. Default model is Opus 4.7 because
+# this work is judgment-heavy (Cochrane bar); the merge-enhance and audit-
+# application steps need stronger model than the Marker bulk draft.
+MFETCH_ENABLED="${HMI_MFETCH_INGEST:-1}"
+MFETCH_MAX="${HMI_MFETCH_MAX_PDFS:-2}"
+MFETCH_MODEL="${HMI_MFETCH_MODEL:-claude-opus-4-7}"
+if [[ "$MFETCH_ENABLED" == "1" ]]; then
+  run_step "ingest-manual-fetch-batch" node tools/autonomy/ingest-manual-fetch-batch.mjs \
+    "--max-pdfs=$MFETCH_MAX" "--model=$MFETCH_MODEL" || true
+fi
+
 # Step 4: pooling engine refresh
 run_step "pooling engine" node tools/evidence/build-hmtc-aggregate-distributions.mjs || true
 
