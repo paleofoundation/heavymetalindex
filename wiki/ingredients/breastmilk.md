@@ -140,4 +140,28 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 13 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 | 2015 | Peer-reviewed | U.S. infant cohort study using urinary As biomarkers to compare arsenic exposure in breastfed vs formula-fed infants; formula-fed infants had higher urinary As levels, establishing feeding mode as a key determinant |
 | 14 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR Al toxicological profile covering dietary exposure routes including human milk and infant formula; includes Al MRL derivation and infant-exposure context |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
+## Ranges by source, region, and variety
+
+_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+
+## Processing effects
+
+_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+
+## Ingredient-derivative risk
+
+_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+
+## Mitigation options
+
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+
+## Regulatory limits that apply
+
+_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+
 

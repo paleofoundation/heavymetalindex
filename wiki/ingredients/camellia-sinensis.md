@@ -137,4 +137,28 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 14 | [[sources/li2015-green-tea-jiangxi-al-heavy-metals\|Li et al. 2015]]. *A comparison of the potential health risk of aluminum and heavy metals in tea leaves and tea infusion of commercially available green tea in Jiangxi, China*, Environmental Monitoring and Assessment | 2015 | Peer-reviewed | Al and heavy metal concentrations in Jiangxi green tea leaves and infusions; compares dry-leaf vs brewed-infusion risk and highlights Al as the dominant health concern |
 | 15 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | Analytical review of determination methods for major chemical contaminants in tea matrices; covers metals, pesticides, and other contaminants across dry leaf, infusion, and extract |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
+## Ranges by source, region, and variety
+
+_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+
+## Processing effects
+
+_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+
+## Ingredient-derivative risk
+
+_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+
+## Mitigation options
+
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+
+## Regulatory limits that apply
+
+_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+
 

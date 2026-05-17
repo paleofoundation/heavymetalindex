@@ -130,4 +130,28 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 5 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | Measured tAs, Cd, Sn, Pb, and tHg in quinoa and rice grains plus processed grain products from Arequipa, Peru (n=53); Pb dramatically elevated in processed vs raw grain |
 | 6 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | 697-sample iAs/tAs dataset covering rice types and alternative grains; quinoa showed significantly lower inorganic arsenic than rice of any type tested |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
+## Ranges by source, region, and variety
+
+_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+
+## Processing effects
+
+_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+
+## Ingredient-derivative risk
+
+_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+
+## Mitigation options
+
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+
+## Regulatory limits that apply
+
+_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+
 
