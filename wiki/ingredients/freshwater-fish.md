@@ -182,26 +182,54 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Freshwater fish (tilapia, catfish, trout, perch, walleye, bass, carp, pike, salmon-when-stocked-in-freshwater, and other freshwater species) accumulate methylmercury through aquatic-food-web biomagnification. The mechanism is identical to marine fish (see [[metals/mercury-methyl|MeHg]] and [[ingredients/fish]]): sulfate-reducing bacteria in sediment methylate inorganic mercury that arrives from atmospheric deposition or watershed runoff; plankton take up MeHg from water; small fish eat plankton; larger fish eat small fish; MeHg biomagnifies multiplicatively at each trophic step. The defining feature of freshwater fish is that the watershed-Hg loading is locally elevated in many freshwater systems because of historic chlor-alkali industry, coal-fired power generation, mining legacy, or agricultural Hg fungicide use. Freshwater fish from contaminated watersheds can carry MeHg comparable to marine apex predators despite lower trophic position.
+
+[[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] projects climate-driven enhancement of MeHg production in freshwater systems — approximately 60 percent rise in mean freshwater wild-fish MeHg by 2031-2060 under both SSP2-4.5 and SSP5-8.5 pathways, dominated by enhanced photochemical methylation from increased solar radiation.
+
+The HMTc panel concerns for freshwater fish are dominantly tHg/MeHg, with secondary Cd in some watersheds.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+The dominant axes of variance are watershed-Hg loading and trophic position.
+
+**Species:** Predatory freshwater species (pike, walleye, large bass, larger catfish) carry higher MeHg than primary-consumer species (carp, tilapia, smaller catfish). Wu et al. 2025's Chinese dataset documents wild freshwater fish MeHg 2.9-6.2× higher than farmed freshwater fish across trophic classes, and 1.7× higher than marine wild fish in the same trophic class.
+
+**Watershed:** Fish from the Great Lakes (especially those subject to PCB+Hg advisories) carry higher MeHg. Fish from Adirondack lakes (acid-deposition-amplified Hg methylation) similarly. Fish from watersheds adjacent to historic mining carry elevated Hg, sometimes co-occurring with Pb and other mine-associated metals.
+
+**Wild-caught vs farmed:** Farmed freshwater fish (commercial tilapia, catfish farming, rainbow trout aquaculture) typically carries lower MeHg because feed-mediated exposure is lower than wild prey-mediated exposure and farm lifespan is shorter than wild.
+
+**Size and age:** Larger and older individuals of the same species carry more MeHg because lifetime exposure accumulates.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Methylmercury in freshwater fish is bound to cysteine residues in muscle protein, identical to marine fin-fish. Processing (cleaning, filleting, freezing, smoking, drying) does not reduce MeHg. Cooking concentrates per-serving MeHg slightly through water loss. Removing skin and dark muscle reduces lipophilic contaminants but does not reduce MeHg meaningfully.
+
+Smoking introduces no significant additional metal load relative to source-fish MeHg. Pickling and curing preserve the source-fish metal profile.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Freshwater fish oil and fish-oil supplements carry low MeHg relative to source fish because the metal does not partition strongly into the lipid fraction. Cod liver oil specifically (though typically marine cod, not freshwater) carries elevated Cd and Pb from the liver organ.
+
+Freshwater fish flour and freshwater-fish protein concentrate (less common in human-food markets than marine equivalents) carry per-mass-concentrated MeHg.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Species selection (lower-trophic freshwater species: tilapia, catfish, herring-family) and origin-watershed selection (avoiding watersheds with active consumption advisories) are the two largest single levers. Farmed-freshwater-fish sourcing typically reduces Hg below comparable wild-caught species.
+
+**Consumption-pattern levers** apply at the consumer level: state-level fish consumption advisories (issued by US state health departments based on watershed-specific data) provide the operational consumer guidance for freshwater fish. The FDA/EPA federal advisory addresses freshwater fish less specifically than marine fish.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level methylmercury testing for commercial freshwater-fish supply, particularly for products targeting infant, young-child, and pregnancy markets. See [[testing/icp-ms]].
+
+**Processing levers** ([[mitigation/processing]]) are limited; MeHg is muscle-bound and not reducible by processing.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not generally consequential for freshwater fish.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets species-specific Hg maximum levels for fishery products; freshwater species fall under the general 0.5 mg/kg Hg ML (some species carry separate 1.0 mg/kg ML where bioaccumulation justifies it).
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MeHg MLs for fish.
+- FDA action level of 1.0 ppm methylmercury in fish applies to freshwater fish in commercial channels.
+- US state-level fish consumption advisories: most states maintain freshwater fish advisories specific to watersheds and species; subsistence-fishing populations in some Great Lakes and Adirondack regions are at elevated risk.
+- California Prop 65 ([[regulations/california-prop65]]) Hg MADL applies to freshwater fish sold in California.
 
 

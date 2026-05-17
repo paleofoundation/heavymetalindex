@@ -62,26 +62,50 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+This is the aggregate node for molluscs; see [[ingredients/bivalve-molluscs]] for the bivalve-specific synthesis (oysters, mussels, clams, scallops, cockles) and [[ingredients/shellfish]] for the broader shellfish discussion. Molluscs as a phylum include bivalves (filter-feeding), gastropods (snails, abalone, conch, whelk), and cephalopods (squid, octopus, cuttlefish), each with distinct feeding mechanisms and consequently distinct metal-accumulation profiles.
+
+**Bivalve molluscs** are the canonical Cd-accumulator subgroup in seafood. As suspension feeders, bivalves filter large volumes of water — an oyster filters 5-50 liters of water per day — and concentrate dissolved and particle-bound metals from the water column. Cadmium accumulates particularly efficiently in bivalve soft tissue because the metallothionein-binding pathway is highly developed in these organisms. Mercury, lead, and other panel metals also concentrate but less efficiently than cadmium. The [[sources/efsa-cadmium-contam-2009|EFSA 2009]] dietary cadmium exposure assessment places bivalve molluscs as a population-significant Cd contributor.
+
+**Cephalopods** (squid, octopus, cuttlefish) accumulate metals through their carnivorous diet (similar to small predatory fish) and concentrate Cd particularly in the hepatopancreas (digestive gland), which is sometimes consumed as part of whole-mollusc preparations.
+
+**Gastropods** (sea snails, abalone, conch) carry profiles intermediate between bivalves and cephalopods depending on diet (herbivorous grazers vs predatory).
+
+The HMTc panel concerns for molluscs are dominantly Cd (bivalves), with secondary Pb and Hg.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+The dominant axis of variance is the bivalve-vs-cephalopod-vs-gastropod feeding-mechanism split. Within bivalves, the production-area water-quality variance is large: bivalves from coastal waters near industrial outfalls, agricultural runoff, or historic mining carry substantially higher Cd than bivalves from oligotrophic clean offshore production.
+
+See [[ingredients/bivalve-molluscs]] for the bivalve-specific source and region analysis. For cephalopods, geographic variance tracks the prey species and the local water-Cd loading. [[sources/raju2021-bivalves-cagayan-philippines|Raju 2021]] documents Philippine bivalve profiles; [[sources/shue2012-bivalves-tapeng-taiwan|Shue 2012]] documents Taiwanese bivalves.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Mollusc processing (cleaning, depuration, freezing, canning, cooking) generally does not reduce the soft-tissue metal load. Depuration (the commercial water-circulation cleaning step that removes pathogens and sand) does not reduce Cd at meaningful levels because the metal is tissue-bound.
+
+Removing the hepatopancreas (the digestive gland) in cephalopods removes a Cd-concentrated tissue and can substantially reduce per-serving Cd; this is sometimes a culinary preference (squid ink and digestive gland removed) and sometimes left intact in traditional whole-mollusc preparations.
+
+Canning concentrates per-mass metal through water loss and introduces standard tinplate-Sn-migration considerations for canned mollusc products.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Mollusc-derived dietary supplements (oyster extract supplements, oyster-derived zinc/copper supplements, green-lipped mussel supplements) carry the source-mollusc Cd at concentrated per-mass dry-basis levels. These route to [[products/supplements-algae-seaweed-based|Cat 16 row 19]] (algae/seaweed framing — though molluscs are animal not algae) or [[products/supplements-botanicals-herbs|Cat 16 row 15]] depending on labeling; the regulatory framework is the relevant supplement-product category.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Production-area water-quality verification (testing of bivalve growing waters for dissolved Cd, Pb, and Hg) and supplier-side QC are the operational specifications. EU and US shellfish-growing-water classification systems address pathogen concerns; metal-loading classification is a separate program.
+
+**Processing levers** ([[mitigation/processing]]) include hepatopancreas removal for cephalopods (substantially reduces per-serving Cd in squid, octopus) and the commercial depuration step (pathogen-focused but reduces some surface-particulate-bound metals).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd, Pb, and Hg testing for commercial mollusc supply. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned mollusc products.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Cd maximum levels for bivalve molluscs and cephalopods. Bivalve Cd ML is 1.0 mg/kg (1000 ppb) wet weight; cephalopod Cd ML is similar. Pb and Hg MLs also apply.
+- Codex Alimentarius CXS 193-1995 covers Cd and Pb MLs for molluscs.
+- FDA does not maintain a binding action level for Cd in molluscs; the FDA action level of 1.0 ppm methylmercury in fish applies to molluscs in commercial channels.
+- US state shellfish-growing-water classification programs (National Shellfish Sanitation Program) address microbial contamination but not heavy metals directly.
+- California Prop 65 ([[regulations/california-prop65]]) Cd, Pb, and Hg MADLs apply to mollusc products sold in California.
 
 
