@@ -133,3 +133,30 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already merge-enhanced and audited 2026-05-17 (commit b237644, audit-queue status audited-codex-revised, subagent PROMOTE)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: already-processed (mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals, audited-revised 2026-05-17, clean routing — third wrapper re-feed; root cause is handle-derivation mismatch documented in the stop log)
+
+## Tick 2026-05-17T19:17:51.628Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Succeeded
+- `lai2025-infant-diaper-phthalate-dna-oxidation` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Infants_Dermal_Exposure_to_Phthalates_from_Disposable_Baby_Diapers_and_Its_Association_with_DNA_Oxi.pdf)
+- `moon2011-baby-powder-inhalation-risk-assessment` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Risk_Assessment_of_Baby_Powder_Exposure_through_Inhalation.pdf)
+- `sccs2023-notes-of-guidance-cosmetic-ingredients-v12` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/SCCS_Notes_of_Guidance_for_the_Testing_of_Cosmetic_Ingredients_12th_Revision.pdf)
+- `sccs2025-methyl-salicylate-children-exposure-1676-25` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/SCCS_Scientific_Advice_on_Children_Exposure_to_Methyl_Salicylate_SCCS_1654_23.pdf)
+
+### Failed
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Skin_Barrier_Function_in_Infants_Update_and_Outlook.pdf`: unrecognized final line: "Ingest (commit 87977a6), audit (subagent PROMOTE, all 5 checks clean, 0 findings), and audit-queue update (commit 693bb66) completed for the one PDF. No content changes needed beyond the original ingest — the page passes Cochrane-quality audit cleanly."
+
+## Tick 2026-05-17T20:36:59.012Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already processed (audited-codex-revised, 2026-05-17, commit b237644); page updated today, not in routing_malformed or routing_unresolved — v2 skip-window rule applies, no action taken.
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals already audited 2026-05-17 (commit c75d66e); skill v2.0 skip rule applies

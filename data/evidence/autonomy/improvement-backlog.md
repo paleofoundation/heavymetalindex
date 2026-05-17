@@ -188,3 +188,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis trigger: blocked cells need evidence), Part 11 (priority ordering), Part 24 (proactive maintenance — surface weak spots), `docs/order-of-operations.md` Phase 2 (source discovery targeting).
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Drive sourcing by user-query demand signals
+
+**What:** Materialize the 634 gap-driven wishlist queries into a prioritized sourcing manifest that identifies which (ingredient, metal) cells have recorded user demand, then create a lint rule to flag the top 100 demand-signal cells still in pool-blocked state.
+
+**Why this lever now:** The corpus has 286 pool-blocked cells (insufficient evidence for synthesis) and 634 recorded queries for information the wiki cannot fully answer. These two signals together reveal *which* blocked cells matter to downstream users (Ask the Index, courses, HMT&C audits). Sourcing to user demand is more efficient than sourcing to corpus gaps; it directly unblocks real questions and converts diffuse "thinness" into concrete priority signals.
+
+**Where:**
+- New file: `data/evidence/query-demand-priorities.csv` (ingredient_slug | metal | query_count_30d | last_query_date | pool_status | sourcing_tier)
+- Source: extract from Ask the Index query logs or audit trail of recorded queries that triggered "insufficient evidence" responses
+- New lint rule: `tools/audit-demand-pool-alignment.mjs` to flag top-100 high-demand cells still pending/thin
+
+**How:**
+1. Access the query-log source for the 634 gap-driven queries and parse to extract (ingredient, metal) pairs
+2. Aggregate by pair; compute 30-day query volume and most-recent query timestamp
+3. Join against the routing audit to tag each pair's current pool_status
+4. Sort by query_count DESC; emit CSV with top-100 marked for `sourcing_nominated`
+5. Add lint rule: fail if any top-100 demand cell remains blocked without a sourcing ticket logged after 14 days
+
+**Anchors:** Part 11 (priority ordering P1–P5), Part 9 (synthesis thresholds trigger on evidence), Part 18 (lint discipline), Part 5b (routing audit feeds synthesis). Feedback: algorithmic prioritization requires no approval — data-driven sourcing replaces estimation-driven sourcing.
+
+---

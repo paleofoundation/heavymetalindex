@@ -1,16 +1,16 @@
 # Source-value extraction report — 2026-05-17
 
-Generated: 2026-05-17T19:54:47.006Z
+Generated: 2026-05-17T20:32:40.675Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 930
-- Pages with `## Key numbers` section: 818
+- Source pages processed: 934
+- Pages with `## Key numbers` section: 822
 - Pages without Key numbers section (skipped): 111
-- Structured rows extracted: 4274
-- Pages with Key numbers but no parseable values: 61
+- Structured rows extracted: 4275
+- Pages with Key numbers but no parseable values: 64
 
 ## Output
 
@@ -19,7 +19,7 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 918 rows
+- Pb: 919 rows
 - Cd: 880 rows
 - Cr-total: 434 rows
 - Ni: 388 rows
@@ -75,7 +75,7 @@ Elapsed: 0s
 - vinegar: 50 rows
 - tea-infusions: 49 rows
 - true-tea-camellia-sinensis: 46 rows
-- children-personal-care: 42 rows
+- children-personal-care: 43 rows
 - breakfast-cereals: 42 rows
 - chocolate: 41 rows
 - olive-oil: 38 rows

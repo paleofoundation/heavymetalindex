@@ -6,7 +6,7 @@ name: Antimony
 species: [Sb, antimony-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 6
+sources: 7
 updated: 2026-04-30
 status: stub
 n_sources: 1

@@ -17,7 +17,7 @@ platform_metals: [Pb, Cd]
 pair_row: 7
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 2
+sources: 3
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Diaper Cream, ZnO-Based
