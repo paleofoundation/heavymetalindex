@@ -77,6 +77,7 @@ Narrative literature review, no primary samples. Structured around the four-step
 - **License.** MDPI Sustainability publishes under Creative Commons Attribution (CC BY 4.0) license per MDPI's standard open-access policy applicable at 2018 publication date. DOI 10.3390/su10114146 resolves to the open-access article at https://doi.org/10.3390/su10114146.
 - **Evidence tier.** Tier B — peer-reviewed methodology review with no primary measurements. Per [[docs/conventions]] evidence grading, narrative reviews without independent data extraction sit below primary peer-reviewed studies (Tier A) but above grey literature.
 - **Sample-size.** `sample_n: null` is correct for a methodology review; the review surveys 112 references but does not constitute a defined sample frame.
+- Audit subagent (2026-05-18) flagged Check 2 ⚠️ on `products/diapers-and-components` and `products/menstrual-pads` as not present in the taxonomy snapshot. Verified against live wiki: both `wiki/products/diapers-and-components.md` (HMTc Cat 9 Row 7 scaffold, `literature_scope: thin`, frontmatter dated 2026-05-17) and `wiki/products/menstrual-pads.md` (HMTc Cat 15 Row 2 scaffold, `literature_scope: thin`, frontmatter dated 2026-05-17) exist as provisional scaffolds. Snapshot-staleness false positive — taxonomy snapshot used by the audit subagent has not yet been refreshed to include these recently-added scaffolds. Same pattern as the lai2025 and barabash2025 audits. Wiki page retains both routing destinations.
 
 ## Ingest log
 
