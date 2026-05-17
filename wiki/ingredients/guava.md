@@ -60,26 +60,41 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Guava (Psidium guajava) is a tropical fruit cultivated dominantly in India, Pakistan, Mexico, Brazil, Egypt, Thailand, and across Latin America and Southeast Asia. Guava plants accumulate moderate heavy-metal load via soil-uptake and atmospheric deposition; warmer growing climates with documented industrial and agrochemical-contamination histories drive higher baselines than temperate fruit production. Guava is consumed fresh, as juice, in purees, and in dried/dehydrated products including guava paste (an important confectionery ingredient in Latin American cuisine). The HMTc panel concerns for guava are Pb and Cd at moderate levels reflecting tropical-region production baselines.
+
+The data gap status across analytes in the body table reflects sparse guava-specific quantitative data in the current routing audit. The synthesis is grounded in the broader tropical-fruit and tropical-vegetable literature in [[sources/hernandez-montoya2026-heavy-metals-foods-review|Hernández-Montoya 2026]] and the [[ingredients/fruits|fruits]] aggregate page.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within guava tracks source-region (Indian, Pakistani, Mexican, Brazilian, Egyptian guava production sit at different baselines reflecting regional soil-and-irrigation profiles), cultivar (white-flesh and pink-flesh guava cultivars, with limited documented per-cultivar metal differences), and farming system (commercial orchard vs smallholder production, with smallholder production in industrial-region peripheries often carrying elevated Pb).
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Guava processing for fresh-market consumption involves harvest and minimal handling. Industrial processing for guava juice involves pressing or pulping, screening, optional pasteurization, and packaging. Pressing partitions metals between juice and solid fractions. Guava puree production for [[ingredients/fruit-purees|fruit-purees]] and baby food retains the full source-fruit metal load. Guava paste (cooked-concentrated guava with sugar) concentrates per-mass metals via water removal. Dried/dehydrated guava concentrates per-mass metals proportionally.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Guava derivatives include fresh guava, guava juice, guava nectar, guava puree (for infant feeding and bakery applications), guava paste (confectionery), and dried/dehydrated guava. Concentrated and dried products carry per-mass metals at higher levels than fresh fruit. Guava is also incorporated into mixed tropical-fruit products (smoothies, fruit cocktails, tropical-blend juices) where it contributes a fraction of the total per-product metal load.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are dominant for guava given tropical-region upstream supply variability. Origin-region specification favoring documented low-soil-Pb production areas; supplier audit programs verifying agrochemical-use history and irrigation-water quality; and contractual specification of Pb/Cd ceiling on incoming guava.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the guava-cultivation stage. Soil pH management; avoidance of high-Pb agrochemical inputs; and irrigation-water specification.
+
+**Processing levers** ([[mitigation/processing]]) include processing-equipment material specification; washing optimization for surface-Pb removal; pulp-removal optimization to partition metals to solids in juice production.
+
+**Formulation levers** ([[mitigation/formulation]]) include substituting guava with lower-Pb tropical fruits where the matrix permits; reducing the guava fraction in tropical-fruit blends; juice-to-water dilution in guava-flavored beverage formulations.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd testing on incoming guava. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification for canned guava products; aseptic carton, glass, or PET packaging for guava juice eliminates Sn migration.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb at 100 ppb (general fruit); Cd at 50 ppb (general fruit). These apply to guava.
+- FDA Closer to Zero baby-food Pb action levels: 10 ppb for fruit purees including guava-containing infant fruit products ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]).
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets fruit-category limits aligned broadly with EU.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to guava products sold in California.
 
 
