@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10628404_Potential_Toxic_elements_in_shellfish_from_three_rivers_in_N/FM_10628404_Potential_Toxic_elements_in_shellfish_from_three_rivers_in_N.md
 metals: [tAs, Cd, Cr, Pb, Ni]
 ingredients: ["[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/shellfish]]"]
 matrices: [shellfish, shrimp, oyster]
 jurisdictions: [NG]
 near_duplicates: []

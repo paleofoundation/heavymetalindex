@@ -16,7 +16,7 @@ sha256: 4d855098910e776b191bd9d36e97f09a79a207476e9ab8d9a2ffc7393e3642d8
 access_date: 2026-05-12
 metals: [tAs, Cd, Pb, tHg]
 ingredients: ["[[ingredients/wild-mushrooms]]", "[[ingredients/herbal-botanicals]]"]
-products: ["[[products/spices]]"]
+products: ["[[products/spices]]", "[[products/non-root-vegetables]]"]
 matrices: [dried-mushroom, spices, juices-and-nectars, sugar-and-syrups, sweets, vinegar, duck-eggs]
 jurisdictions: [CA]
 sample_n: 470

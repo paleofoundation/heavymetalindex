@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1038/s41588-019-0381-3"
 metals: [Cd]
 ingredients: ["[[ingredients/wheat]]", "[[ingredients/pasta]]"]
-products: []
+products: ["[[products/flour-non-rice]]"]
 matrices: [durum-wheat-grain]
 jurisdictions: []
 sample_n: null

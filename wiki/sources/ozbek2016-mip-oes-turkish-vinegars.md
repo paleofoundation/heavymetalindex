@@ -13,7 +13,7 @@ license: "© Springer Science+Business Media New York 2016"
 raw_path: "raw/Manual Fetch Kimi/condiment_papers/02_Vinegars/A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe.pdf"
 metals: [Al, Pb, Cr, Cu, Zn]
 ingredients: ["[[ingredients/vinegar]]", "[[ingredients/apple-cider-vinegar]]", "[[ingredients/balsamic-vinegar]]"]
-products: []
+products: ["[[products/vinegar]]"]
 matrices: [grape-vinegar, apple-vinegar, balsamic-vinegar, pomegranate-vinegar, fig-vinegar, homemade-vinegar]
 jurisdictions: [TR]
 near_duplicates: []

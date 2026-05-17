@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Investigation on the Concentration of Heavy Metals found in Olive.pdf"
 metals: [Cd, Ni, Fe, Cu, Co, Zn]
 ingredients: ["[[ingredients/olives]]"]
-products: []
+products: ["[[products/non-root-vegetables]]"]
 matrices: [table-olives, olive-flesh, olive-pit, olive-mill-waste]
 jurisdictions: [MT]
 near_duplicates: []

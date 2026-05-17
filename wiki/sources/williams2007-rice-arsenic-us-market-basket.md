@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1021/es061489k"
 metals: [tAs, iAs]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/rice-bulk-grain]]"]
 matrices: [white-rice, polished-rice, unpolished-rice]
 jurisdictions: [US]
 sample_n: 134

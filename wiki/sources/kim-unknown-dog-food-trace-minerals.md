@@ -14,7 +14,7 @@ license: unknown
 raw_path: raw/markdown/FM_6042527/FM_6042527.md
 metals: [Cr, Ni, Al]
 ingredients: []
-products: []
+products: ["[[products/pet-food-dry-kibble]]"]
 matrices: [pet-food, dry-dog-food]
 jurisdictions: [US, WHO]
 near_duplicates: []

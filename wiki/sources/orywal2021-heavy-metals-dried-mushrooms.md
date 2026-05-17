@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_8221490/FM_8221490.md
 metals: [tHg, Pb, Cd, tAs]
 ingredients: ["[[ingredients/wild-mushrooms]]"]
-products: []
+products: ["[[products/non-root-vegetables]]"]
 matrices: [dried-mushroom, wild-mushroom]
 jurisdictions: [PL, EU]
 near_duplicates: [FM_8221490_Health_risk_assessment_of_exposure_to_toxic_elements_resulti]

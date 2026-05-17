@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nutritional Quality and Safety Characteristics of Imported Biscuits Marketed in Basrah, Iraq.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/wheat-flour]]"]
-products: ["[[products/snacks-crackers-biscuits]]"]
+products: ["[[products/snacks-crackers-biscuits]]", "[[products/bread-and-baked-goods]]"]
 matrices: [biscuit, cookie, cracker, digestive-biscuit]
 jurisdictions: [IQ, ES, IR, TR, AE, EU]
 sample_n: 36

@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/IJSHR12.pdf"
 metals: [Pb, Cd, Ni]
 ingredients: ["[[ingredients/seasoning-powder]]", "[[ingredients/bouillon]]"]
-products: []
+products: ["[[products/condiments-general]]"]
 matrices: [seasoning-powder, condiment]
 jurisdictions: [NG]
 near_duplicates: []

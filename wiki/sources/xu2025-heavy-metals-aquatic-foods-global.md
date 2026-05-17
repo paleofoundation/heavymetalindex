@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Papers Cube Manual Fetch/article (1) copy 3.pdf"
 metals: [tHg, MeHg, Cd, Pb, tAs, iAs]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]", "[[ingredients/shrimp]]"]
-products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/shellfish]]"]
 matrices: [fish, molluscs, crustaceans, cephalopods, aquatic-food, seafood]
 jurisdictions: []
 near_duplicates: []

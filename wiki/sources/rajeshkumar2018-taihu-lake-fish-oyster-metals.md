@@ -13,7 +13,7 @@ license: unknown
 raw_path: "raw/Papers Cube Manual Fetch/rajeshkumar2018.pdf"
 metals: [Pb, Cd, Cr, Cu]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/oyster]]"]
-products: ["[[products/fresh-fish]]"]
+products: ["[[products/fresh-fish]]", "[[products/shellfish]]"]
 matrices: [freshwater-fish, oyster, water, sediment]
 jurisdictions: [CN]
 near_duplicates: []

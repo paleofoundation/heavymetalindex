@@ -13,7 +13,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11011736/FM_11011736.md
 metals: [Cd]
-products: []
+products: ["[[products/supplements-botanicals-herbs]]"]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
 matrices: [analytical-method, botanical]
 jurisdictions: [CN]

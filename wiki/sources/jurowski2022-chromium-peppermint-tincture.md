@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10073164/FM_10073164.md
 metals: [Cr]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
-products: []
+products: ["[[products/supplements-botanicals-herbs]]"]
 matrices: [tincture, herbal-product]
 jurisdictions: [PL]
 near_duplicates: []

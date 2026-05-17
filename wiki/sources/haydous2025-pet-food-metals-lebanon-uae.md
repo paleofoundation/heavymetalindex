@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12219634/FM_12219634.md
 metals: [Pb, Cd, As, tHg, Cr]
 ingredients: []
-products: []
+products: ["[[products/pet-food-dry-kibble]]"]
 matrices: [pet-food, animal-feed]
 jurisdictions: [LB, AE]
 near_duplicates: []

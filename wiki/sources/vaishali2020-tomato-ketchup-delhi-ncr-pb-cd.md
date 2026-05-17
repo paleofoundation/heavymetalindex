@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/A Comparative Study on Presence of Heavy Metals Lead and Cadmium .pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/tomato]]", "[[ingredients/ketchup]]"]
-products: []
+products: ["[[products/condiments-general]]"]
 matrices: [ketchup]
 jurisdictions: [IN]
 near_duplicates: []

@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_11018421/FM_11018421.md
 metals: [Co, Cr, Mn, Se, As]
 ingredients: ["[[ingredients/meat-and-poultry]]", "[[ingredients/organ-meats]]"]
-products: []
+products: ["[[products/beef-product]]"]
 matrices: [meat, organ-meat, hair, blood]
 jurisdictions: [SA]
 near_duplicates: []

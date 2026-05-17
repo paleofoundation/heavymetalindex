@@ -13,7 +13,7 @@ license: "CC BY-NC"
 raw_path: raw/markdown/FM_10834074/FM_10834074.md
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/water]]"]
-products: []
+products: ["[[products/bottled-drinking-water]]"]
 matrices: [drinking-water, bottled-water, tap-water, filtered-water]
 jurisdictions: [TH]
 near_duplicates: []

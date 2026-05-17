@@ -13,7 +13,7 @@ license: "CC BY-NC"
 raw_path: raw/markdown/FM_10454753/FM_10454753.md
 metals: [Pb, Cd, Al, Cr, Ni, U]
 ingredients: ["[[ingredients/coffee]]"]
-products: []
+products: ["[[products/coffee]]"]
 matrices: [coffee-beans]
 jurisdictions: [JO]
 near_duplicates: []
