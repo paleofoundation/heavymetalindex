@@ -40,7 +40,12 @@ replit.nix
 .obsidian/
 .vercel
 .env*.local
-.claude/
+# Project-local Claude Code config — gitignored except for skills, which
+# ship with the project so all sessions (Claude Code, Cowork, future
+# instances on any machine) can use them.
+.claude/*
+!.claude/skills/
+!.claude/skills/**
 # Local PDF extraction packets/prompts may contain copyrighted source text.
 # Keep them local and commit only structured evidence, queues, audits, and gap reports.
 data/evidence/local_reingest_packets/
