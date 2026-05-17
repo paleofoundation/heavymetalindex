@@ -22,7 +22,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 2
+sources: 3
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -57,6 +57,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/tinggi2025-spices-herbs-queensland\|Tinggi et al. 2025]]. *Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure*, Journal of Environmental Exposure Assessment | 2025 | Peer-reviewed | *[awaiting synthesis]* |
 | 2 | [[sources/cicero2022-minerals-spices-aromatic-herbs\|Cicero et al. 2022]]. *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*, Foods | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/gill2021-consumer-reports-spices\|Gill 2021]]. *Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

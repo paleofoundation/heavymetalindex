@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 0
+sources: 1
 ---
 
 # Butternut squash
@@ -162,6 +162,13 @@ Packaging and storage conditions are not a material driver of heavy metal load i
 
 The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Pb in vegetables of 0.10 mg/kg (100 ppb) wet weight and for Cd in vegetables (other than leafy vegetables and root vegetables) of 0.050 mg/kg (50 ppb) wet weight. Butternut squash, as a cucurbit fruit-vegetable, falls under these general vegetable limits. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets analogous international Cd limits for vegetables. The FDA does not currently specify action levels for Pb or Cd in squash for general consumers. Under FDA Closer to Zero [[regulations/fda-closer-to-zero]], action levels for Pb in foods for young children are under development and would apply to butternut squash purees marketed as infant food.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables\|Dearing et al. 2025]]. *Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis*, F1000Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

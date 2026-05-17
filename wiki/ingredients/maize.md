@@ -22,7 +22,7 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 9
+sources: 11
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
@@ -55,10 +55,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|Abdullahi et al. 2024]]. *Seasonal Variation and Uptake Pattern of Heavy Metals in Maize*, Dutse Journal of Pure and Applied Sciences (DUJOPAS) | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/vasilachi2023-heavy-metals-cereal-crops\|Vasilachi et al. 2023]]. *Analysis of Heavy Metal Impacts on Cereal Crop Growth and Development in Contaminated Soils*, Agriculture | 2023 | Review | *[awaiting synthesis]* |
-| 3 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | *[awaiting synthesis]* |
-| 4 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/dragicevic2025-popcorn-essential-minerals\|Dragičević et al. 2025]]. *Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes*, Chilean Journal of Agricultural Research 85(2): 277-285 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|Abdullahi et al. 2024]]. *Seasonal Variation and Uptake Pattern of Heavy Metals in Maize*, Dutse Journal of Pure and Applied Sciences (DUJOPAS) | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/vasilachi2023-heavy-metals-cereal-crops\|Vasilachi et al. 2023]]. *Analysis of Heavy Metal Impacts on Cereal Crop Growth and Development in Contaminated Soils*, Agriculture | 2023 | Review | *[awaiting synthesis]* |
+| 4 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | *[awaiting synthesis]* |
+| 5 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|Li et al. 2017]]. *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*, Scientific Reports | 2017 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

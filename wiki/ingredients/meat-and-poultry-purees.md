@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [meat-and-poultry-purees]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Meat And Poultry Purees
@@ -114,9 +114,16 @@ This node is linked from [[products/meat-and-poultry-purees]].
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/tatsuta2024-mehg-duplicate-diet-children-japan\|Tatsuta et al. 2024]]. *Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan*, Environmental Health and Preventive Medicine | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Meat-and-poultry purees (Cat 1 baby food) inherit their heavy-metal load from the source meat or poultry (see [[ingredients/beef]], [[ingredients/poultry]], [[ingredients/ham]], [[ingredients/turkey]], [[ingredients/chicken]]). The pureeing process combines muscle (and sometimes a small fraction of organ meat) with water, vegetables, or grain into a smooth texture for infant feeding. Commercial baby-food meat purees typically use muscle-only (avoiding organ-Cd), with chicken and turkey as the dominant species and beef and lamb less common.

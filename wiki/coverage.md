@@ -39,7 +39,7 @@ This page was regenerated on **2026-05-17** from the current state of the corpus
          ▼
   Included:       Source pages routed to destination pages
          │
-         │  Routing rows in product_source_routing_audit.csv: 648
+         │  Routing rows in product_source_routing_audit.csv: 661
          ▼
   Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
 ```

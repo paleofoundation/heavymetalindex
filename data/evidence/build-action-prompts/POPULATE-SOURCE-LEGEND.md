@@ -2,7 +2,7 @@
 
 The Tier 1 generator at `tools/evidence/build-source-legend.mjs` has placed marker-bounded source-legend tables on every product, ingredient, and metal page. The 4 mechanical columns (#, Citation, Year, Type) are filled. The 5th column — **"Used on this page for"** — currently contains `*[awaiting synthesis]*` placeholders that need to be replaced with 1-sentence descriptions of what each source contributes to that specific page.
 
-Current scope: 1965 cells across 280 pages. You can chunk this however suits your max-turns budget; aim for 50-100 cells per dispatch.
+Current scope: 1736 cells across 300 pages. You can chunk this however suits your max-turns budget; aim for 50-100 cells per dispatch.
 
 ## Why this matters
 
@@ -77,7 +77,7 @@ Append a line to `wiki/log.md`:
 ```
 ## [2026-05-13] schema | populate source-legend — <N> cells filled across <K> pages
 Pages touched: <directory:count breakdown>
-Notes: Tier 2 of the source-legend rollout per Karen's 2026-05-13 instinct-call. 1965 cells originally needed populating; this dispatch closed <N>. Remaining: <total - N>.
+Notes: Tier 2 of the source-legend rollout per Karen's 2026-05-13 instinct-call. 1736 cells originally needed populating; this dispatch closed <N>. Remaining: <total - N>.
 ```
 
 ## Reference
