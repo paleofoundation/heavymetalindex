@@ -105,19 +105,21 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Non-soy infant formula is the default formula format in most markets, using cow-milk protein (intact, partially hydrolyzed, or fully hydrolyzed) or amino acids as the protein base. Heavy-metal load in non-soy formula comes from four primary pathways: the cow-milk ingredient (Pb, Cd at low background levels reflecting forage and water inheritance); the carbohydrate source (lactose, maltodextrin, corn syrup solids — generally low metal loads but trace iAs from corn-derived ingredients); the vitamin-mineral premix (Pb, Cd, Al contamination via mineral salt impurities, particularly calcium phosphate and iron salts); and the manufacturing water and processing infrastructure (Pb from leaded brass fittings in older infrastructure, contributing trace background). When the formula contains a rice-derived ingredient (rice starch, brown rice syrup), iAs from the rice pathway dominates the arsenic profile per [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson 2012]].
+
+Non-soy formula carries a substantially different heavy-metal profile from [[ingredients/soy-based-infant-formula|soy-based formula]] because the cow-milk protein base does not concentrate Al, Ni, and Cd the way soy protein isolate does. The HMTc Cat 1 Step 0 lock splits non-soy from soy formula into separate product rows ([[products/infant-formula-powder-non-soy]] and [[products/infant-formula-rtf-liquid-non-soy]]) on this basis. The HMTc-panel concerns for non-soy formula are dominantly [[metals/lead|Pb]] (vitamin-mineral premix inheritance), iAs when rice-derived ingredients are present, and [[metals/cadmium|Cd]] from background mineral salts. Mercury and aluminum sit at trace levels under most reasonable formulations; the [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Thoerig 2025]] U.S. systematic review documents this consistently.
 
 ## Heavy metal contamination profile
 
-_Pending synthesis. The per-analyte concentration table for this commodity will be populated as contributing sources accumulate per CLAUDE.md Part 9. Stub state until then._
+The body-level analyte snapshot for non-soy formula follows the per-format pages: see [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-rtf-liquid-non-soy]] for the format-specific concentration tables. The non-soy profile is dominated by trace Pb (≈1-10 ppb) and trace iAs (≈3-8 ppb), with Cd and Hg at near-LOQ background.
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
-| iAs | pending | — | — | — | — |
-| tAs | pending | — | — | — | — |
-| tHg | pending | — | — | — | — |
+| Pb  | n=4 | 1–10 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
+| Cd  | n=4 | 0.5–5 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
+| iAs | n=5 | 3–8 | — | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]], [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|5]] |
+| tAs | n=7 | 3–9 | — | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|8]], [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|7]] |
+| tHg | n=3 | 0.1–2 | — | medium | [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|6]] |
 | Ni  | pending | — | — | — | — |
 | Al  | pending | — | — | — | — |
 | Cr  | pending | — | — | — | — |
@@ -126,22 +128,40 @@ _Pending synthesis. The per-analyte concentration table for this commodity will 
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within non-soy infant formula tracks regional supply infrastructure (U.S./EU/emerging markets reflecting different mineral-premix supplier baselines), the manufacturer's specification on incoming raw ingredients (testing of vitamin-mineral premix for Pb/Cd ceiling, rice-ingredient screening for iAs), the manufacturing water source quality, and the historical generation of the product line (post-2018 manufacturer responses to FDA's Closer to Zero infant-rice-cereal action level have tightened iAs in rice-containing formulas). U.S.-market non-soy formula sits at the low end of the global range; the [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia|Eticha 2018]] Ethiopian market sample documents higher per-analyte concentrations in emerging-market supply, consistent with weaker upstream raw-ingredient quality control.
+
+Per-formulation variance: hydrolyzed cow-milk formula carries similar trace-metal load to intact cow-milk formula because the hydrolysis step does not introduce metals; amino-acid-based formula (elemental nutrition) carries a different mineral-premix profile reflecting the synthetic amino-acid feedstock. Rice-containing formulas (some "gentle" formulations include rice starch or brown rice syrup) carry elevated iAs from the rice pathway per [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson 2012]]; these formulations should be flagged distinctly.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Non-soy infant formula manufacturing involves wet-mix preparation of cow-milk protein with carbohydrate, fat, and vitamin-mineral premix, followed by spray-drying for powder formats or sterile fill for RTF/concentrated liquid formats. Each step is a potential metal-introduction point: water-based pre-blending introduces background water-source Pb/Cd; spray-drying concentrates per-mass solids without removing metals; can-lining (for RTF liquid) introduces a Sn migration pathway in lower-quality can stock. The ICP-MS method validated in [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation|Pacquette 2016]] is the operative analytical platform for routine in-process and finished-product testing.
+
+Format-driven concentration: powder formula on a per-gram basis carries roughly 7× the analyte concentration of RTF liquid formula on a per-mL prepared-for-feeding basis (the 1:7 reconstitution factor). Comparisons across studies must respect this conversion; the EU 2023/915 prepared-for-feeding 10 ppb Pb maximum level translates to roughly 70 ppb on the powder basis.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Non-soy formula derivatives span the three format families: powder (most common), ready-to-feed (RTF) liquid, and concentrated liquid. Each Cat 1 Step 0 row variant ([[products/infant-formula-powder-non-soy]], [[products/infant-formula-rtf-liquid-non-soy]]) carries similar per-mass-protein metal load on a like-for-like basis; reconstitution shifts the per-volume concentration. Specialty derivatives (lactose-free, anti-reflux, "gentle" formulas with rice-derived ingredients) carry product-specific profile shifts. Rice-containing variants specifically warrant separate iAs screening per [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson 2012]].
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention for non-soy formula and operationally tractable. Brand-side decisions include: vitamin-mineral premix supplier specification (testing of incoming premix for Pb, Cd, and trace Al against per-mass-in-finished-formula compliance targets); rice-ingredient avoidance for non-rice formulations (eliminates the iAs pathway entirely); upstream cow-milk supplier specification (forage-monitoring programs and water-source verification); and manufacturing-water quality specification (RO or equivalent for finished-formula water).
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the cow-milk dairy-feed and dairy-water stage and at the rice-cultivation stage when rice ingredients are used. See [[ingredients/milk-and-dairy]] and [[ingredients/rice]] for upstream interventions.
+
+**Processing levers** ([[mitigation/processing]]) are limited at the formula-manufacturing stage; the metal load is in the raw ingredients. Water-treatment improvements and processing-equipment metal-leaching audits are the operative interventions.
+
+**Formulation levers** ([[mitigation/formulation]]) include the non-rice-ingredient substitution for "gentle" formulations (lactose-free with corn-syrup-solid carbohydrate base rather than rice-derived) and the vitamin-mineral premix supplier choice as a primary lever.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level Pb, Cd, iAs testing on finished non-soy formula against the EU 10 ppb Pb prepared-for-feeding ML, the 5 ppb Cd ML, and the 20 ppb iAs ML for infant-and-young-child food. The [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation|Pacquette 2016]] ICP-MS method is the analytical-platform foundation.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification (BPA-NI epoxy or food-grade alternative) to minimize Sn migration in RTF liquid formats, and avoidance of aluminum-foil-lined packaging for prepared-formula storage.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for infant formula: Pb 10 ppb prepared-for-feeding (≈70 ppb powder basis), Cd 5 ppb prepared-for-feeding, iAs 20 ppb prepared-for-feeding, Hg 20 ppb prepared-for-feeding. These apply to non-soy formula directly.
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs framework covers rice-containing formula at the 100 ppb iAs action level.
+- Codex Alimentarius CXS 72-1981 (infant formula) and CXS 156-1987 (follow-up formula) establish composition standards.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
+- FDA Closer to Zero broader infant-food framework also covers non-rice infant foods; ongoing rulemaking will set quantitative action levels.
 
 
