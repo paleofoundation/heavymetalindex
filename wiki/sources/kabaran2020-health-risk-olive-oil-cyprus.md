@@ -10,11 +10,11 @@ doi: 10.23751/pn.v22i3.8098
 source_type: peer-reviewed
 evidence_tier: A
 license: "not confirmed"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Is there any potential health risk of heavy metals through dietar.pdf"
-metals: [Pb, Cd, tAs, Ni, Cr]
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Is there any potential health risk of heavy metals through dietary intake of olive oil produced in M.pdf"
+metals: [Pb, Cd, tAs, Ni, Cr, Co, Fe, Cu, Zn]
 ingredients: ["[[ingredients/olive-oil]]"]
 products: []
-matrices: [edible-oil, olive-oil]
+matrices: [olive-oil, dietary-intake]
 jurisdictions: [CY]
 near_duplicates: []
 sample_n: 27
@@ -24,7 +24,7 @@ updated: 2026-05-14
 
 # Kabaran et al. 2020 — Heavy metals in Northern Cyprus olive oil and health risk assessment
 
-This study determined concentrations of Cr, Co, Ni, As, Cd, Pb, Fe, Cu, and Zn in 27 natural olive oil samples from Morphou and Lefka (Northern Cyprus) by ICP-MS, and paired them with a dietary intake survey of 500 adults to calculate Daily Intake of Metal (DIM) and Health Risk Index (HRI). All HRI values were below 1 for all metals, indicating no significant non-carcinogenic health risk to the local adult population from olive oil consumption at observed concentrations and dietary intake levels. The study is noteworthy for using individually measured body weights and dietary intakes rather than assumed population averages, and for its Cyprus-specific geographic relevance to the Paleo Foundation (which operates from Cyprus).
+This study determined concentrations of Cr, Co, Ni, As, Cd, Pb, Fe, Cu, and Zn in 27 natural olive oil samples from Morphou and Lefka (Northern Cyprus) by ICP-MS, and paired them with a dietary intake survey of 500 adults to calculate Daily Intake of Metal (DIM) and Health Risk Index (HRI). All HRI values were below 1 for all metals, indicating no significant non-carcinogenic health risk to the local adult population from olive oil consumption at observed concentrations and dietary intake levels. The study is noteworthy for using individually measured body weights and dietary intakes rather than assumed population averages, and for its Cyprus-specific geographic relevance.
 
 ## Key numbers
 
@@ -36,7 +36,7 @@ This study determined concentrations of Cr, Co, Ni, As, Cd, Pb, Fe, Cu, and Zn i
 - Cd: 1.53 ± 2.02 (range: nd–6.98)
 - Pb: 27.72 ± 28.77 (range: nd–126.32)
 - Fe: 875.06 ± 806.85 (range: 74.90–4,248.76) [wide variance; attributed to iron/pyrite mineralization of Troodos Mountain deposits in Northern Cyprus]
-- Cu: 7.85 ± 13.54 (range: nd–49.14) [below IOC limit of 0.1 mg/kg = 100,000 ng/mL]
+- Cu: 7.85 ± 13.54 (range: nd–49.14) [below IOC limit of 0.1 mg/kg = 100 µg/kg, approximately 100 ng/mL for near-unit-density oils]
 - Zn: 469.36 ± 312.86 (range: nd–1,131.89)
 
 All values in ng/mL, which equals µg/kg (ppb) for oils at approximately unit density.
@@ -52,7 +52,7 @@ All values in ng/mL, which equals µg/kg (ppb) for oils at approximately unit de
 
 **Contextual comparisons cited by authors:**
 - Cd in Sicilian olive oils: <1.2 ng/g
-- Pb in various studies: considerably below MRL of 0.01 µg/g = 10,000 ppb [note: this is the IOC standard stated in the paper; EU/Codex limit is 0.1 mg/kg = 100,000 ppb]
+- Pb in various studies: considerably below the MRL stated in the paper as 0.01 µg/g (= 10 µg/kg, 10 ppb). The broader EU/Codex comparator for lead in fats and oils is 0.1 mg/kg (= 100 µg/kg, 100 ppb).
 - The elevated Fe (mean 875 ng/mL) is attributed to the iron, pyrite, and copper sulfide mineralization of the Troodos Mountain deposits; still within the 3.0 mg/kg regulatory limit
 
 ## Methods
@@ -63,15 +63,25 @@ ICP-MS (Thermo Scientific X Series II) with CEM Mars 5 closed microwave digestio
 
 **Certification:** Cyprus-produced natural olive oil shows Cd and Pb concentrations well within permissible limits at the observed dietary intake levels. The extremely high Fe variability (range 74.9–4,248.8 ppb) deserves attention as a processing quality indicator independent of toxicity; Fe accelerates oxidative degradation. The geographic note that Cyprus's mineral geology elevates Fe and Cu in local oils is an important supply-chain context for Cypriot-origin olive oil specifications.
 
-**Courses:** This paper is the first health risk assessment for olive oil in Northern Cyprus, making it geographically specific to the Paleo Foundation's jurisdiction. The methodology (paired dietary survey + analytical measurement + DIM/HRI calculation) is a good teaching case for how product-level and dietary-level assessments are integrated.
+**Courses:** This paper is the first health risk assessment for olive oil in Northern Cyprus, making it geographically specific to Cyprus. The methodology (paired dietary survey + analytical measurement + DIM/HRI calculation) is a good teaching case for how product-level and dietary-level assessments are integrated.
 
-**App:** Pb (mean 27.72 ppb, max 126.32 ppb) and Cd (mean 1.53 ppb, max 6.98 ppb) in Northern Cyprus natural olive oil are both low and well within safe ranges. These values are appropriate as geographic priors for Cypriot olive oil in the app's ingredient contamination model.
+**App:** Pb (mean 27.72 ppb, max 126.32 ppb) and Cd (mean 1.53 ppb, max 6.98 ppb) in Northern Cyprus natural olive oil are below the paper's non-cancer HRI concern threshold at the observed intake levels. These values are appropriate as geographic priors for Cypriot olive oil in the app's ingredient contamination model.
 
 **Speciation caution:** As is reported as total arsenic (75As isotope). No speciation into iAs vs. organic forms was performed.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 - [[ingredients/olive-oil]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
-- [[health/health-risk-index-methodology]]
+- [[metals/arsenic-total]]
+- [[metals/chromium]]
+- [[metals/cobalt]]
+- [[metals/iron]]
+- [[metals/copper]]
+- [[metals/zinc]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, added Co/Fe/Cu/Zn to frontmatter because the source reports all nine metals, replaced invented matrix `edible-oil` with `dietary-intake` while retaining the source-specific `olive-oil` matrix, corrected unit conversions for 0.1 mg/kg and 0.01 µg/g comparator limits, removed the non-taxonomy health wikilink, modernized the source-touch section, and removed internal/Paleo-specific and "safe range" wording from implications.
+- `olive-oil` is retained as a source-specific matrix term because the current common matrix list does not include an edible-oil term; the page also routes through `[[ingredients/olive-oil]]`.
