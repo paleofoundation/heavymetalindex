@@ -330,3 +330,39 @@ Until Karen triages this PDF, the wrapper will continue re-serving it on every f
 
 **Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
 
+## opss2023-feasibility-action-limits-cosmetics-uk (MFK_a-feasibility-study-investigating-action-limits-fo) — 2026-05-18
+
+**PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/A_Feasibility_Study_Investigating_Action_Limits_for_Certain_Heavy_Metal_Impuriti.pdf`
+
+**Stop reason:** PDF is a byte-identical duplicate (same SHA-256 `2e0d0250e6a9ad04b4526ceea1114c23019683f5e83f75fada1ac20731aa9585`) of the copy already ingested and audited yesterday from the sibling folder `babycare_03_Powder_Lotion_Oil_Diaper`. The current source page is post-2026-05-14 clean; the only `routing_malformed.csv` entry is a benign advisory about an empty `ingredients:` array, which is correct for a cosmetics paper (no food ingredients).
+
+**Identity checks:**
+- Title grep (`FM21190`) → hit at `wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md`.
+- cite-key grep (`opss2023-`, `axford`) → same file.
+- SHA-256 of this folder's PDF matches the existing page's `raw_sha256: 2e0d0250...`.
+- Existing page `updated: 2026-05-17` (yesterday).
+- Page IS present in `data/evidence/routing_malformed.csv` but only as an `advisory` row: "Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible." This is the benign empty-ingredients advisory triggered by every cosmetics paper, not a defect.
+- Audit queue already records `audited-revised` for this cite-key, applied 2026-05-17: subagent verdict REVISE, 5 findings applied (Table 16e Hg LOQ floor corrected from <0.005 to <0.002; Foundation Hg row flagged as source-side copy-paste error; semi-quantitative element list completed to match Appendix 3; "policy-actionable" softened to "strongest direct-evidence signal"; unsupported method-vendor examples removed) and 1 finding rejected as false positive (stale taxonomy snapshot, not stale wiki).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." The malformed entry is an advisory-only row that re-ingestion cannot fix and that has the same shape on every cosmetics-only source; treating the file as "in malformed" here would trigger an infinite re-ingest loop with no productive change. Skip.
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The duplicate-folder placement (the same PDF lives under both `babycare_03_Powder_Lotion_Oil_Diaper` and `babycare_04_Shampoo_Wipes_Sunscreen` raw/ trees) is a filing artefact, not a content issue. Wrapper script can move on.
+
+
+## jitareanu2025-heavy-metals-cosmetics-overview (MFK_an-overview-of-heavy-metals-in-cosmetic-products-a) — babycare_04 copy
+
+**PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/An_Overview_of_Heavy_Metals_in_Cosmetic_Products_and_Their_Toxicological_Impact.pdf`
+
+**Stop reason:** byte-identical duplicate of already-ingested babycare_01 canonical PDF; existing page post-2026-05-14 clean.
+
+**Identity checks:**
+- SHA-256 of babycare_04 PDF = SHA-256 of babycare_01 canonical PDF = `6962413139daeb23e7732542a75c8fcbb470f4fc8eaaddd35f07ef0ee093d6e6` (byte-identical).
+- Title grep → hit at `wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md` (raw_handle `MFK_overview-heavy-metals-cosmetics-toxicological-impact`).
+- Existing page `updated: 2026-05-18` (today).
+- Page is in `data/evidence/routing_malformed.csv` at severity `advisory` only (empty `ingredients`/`matrices` — intentional for a cosmetics-only review, already documented in the verification notes). Not blocking.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Babycare_03 copy was already registered as a `near_duplicate` on 2026-05-18; babycare_04 is the third filing of the same PDF in three sibling folders.
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." The malformed advisory is the documented-intentional cosmetics-review pattern; re-ingest cannot fix it.
+
+**Action taken:** appended babycare_04 path to `near_duplicates` on the source page and added a one-line verification note recording the byte-identicality. Updated `data/evidence/autonomy/manual-fetch-tracker.csv` row from `unprocessed` to `stopped`. Ran routing audit (1 unresolved unchanged from prior state, 0 blocking malformed). No audit subagent spawned — the source page content is unchanged; this is dedup registration only. Wrapper can move on.
