@@ -19,10 +19,11 @@ Generated: **2026-05-17**.  Baseline snapshot: [[audits/2026-05-17-baseline|2026
 | Routing audit (unresolved source routings) | 0 unresolved | PASS |
 | Routing rows generated | 485 | — |
 | Ingredient mandatory sections (non-stub pages) | 237 / 237 (100%) | PASS |
-| Product mandatory sections (non-stub pages) | 47 / 48 (98%) | WARN |
+| Product mandatory sections (non-stub pages) | 48 / 48 (100%) | PASS |
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 13 failures | WARN |
 | Routing discipline check 2 (HMTc-locked products with zero routed sources) | 247 of 290 | INFO |
 | Source page DOI completeness | 11 missing | FAIL |
+| Claim provenance — body-prose numerical claims with traceable citation | 2391/3528 (67.8%) | FAIL |
 
 ## Taxonomy v2.0 coverage
 
@@ -73,8 +74,8 @@ Detail: [[data/evidence/ingredient-mandatory-sections-audit|data/evidence/ingred
 
 Non-stub product-category pages must carry 10 H2 sections per CLAUDE.md Part 6 (Who this page is for / Methodology / Literature Evidence Summary / Source Evidence Inventory / Broad Product Context / Federal/Regulatory Limits / Levers to reduce contamination / How standards math uses this page / Historical recalls and enforcement / Sources). Stubs (scaffolded pages with no routed sources) are exempt.
 
-- Non-stub passing: **47** of 48 (98%)
-- Non-stub failing: **1**
+- Non-stub passing: **48** of 48 (100%)
+- Non-stub failing: **0**
 - Stubs (exempt): 272
 
 Detail: [[data/evidence/product-mandatory-sections-audit|data/evidence/product-mandatory-sections-audit.csv]].
@@ -124,11 +125,27 @@ By source type:
 
 DOI completeness: 886 of 897 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **11**.
 
+## Claim provenance (trace-every-claim audit v1)
+
+Every numerical claim in body prose on ingredient and product pages — matches the regex `<number> <unit>` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation within the same section and a ~2,000-char lookback window. Valid citations: `[[sources/...]]`, `[[regulations/...]]` (for regulatory limits), `[[testing/...]]` (for analytical-method floors).
+
+- Total claims scanned: **3528**
+- Supported: **2391** (67.8%)
+- Unsupported: **1137**
+
+By page type:
+- ingredient: 971/1635 (59%)
+- product: 1420/1893 (75%)
+
+Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.
+
+Detail: [[data/evidence/claim-provenance-audit|data/evidence/claim-provenance-audit.csv]] (per-claim records with section context).
+
 ## What this dashboard does not yet measure
 
 The audits above are the mechanical, automatable dimensions of defensibility. The wiki's Cochrane-level target also requires audits that this dashboard does not yet produce:
 
-- **Trace-every-claim audit.** Sample 10 random ingredient pages. For every numerical claim, follow the source link → source page → raw PDF. Verify match. Record % pass. Target: > 95%. Not yet automated; requires PDF read and value comparison per page.
+- **PDF-side verification.** Trace-every-claim audit v2 should follow each `[[sources/...]]` link to the cited source page, then to the raw PDF in `raw/markdown/<FM_id>/` or `raw/manual-fetch/...`, and verify the claimed value appears in the source. Today's v1 audit only verifies a citation exists; not that the citation is correct.
 - **Synthesis reproducibility audit.** Pick 5 populated `contamination_profile` cells. Re-derive the values from contributing sources from scratch (without consulting the existing page). Compare. Target: 100% reconstructible. Not yet automated; requires deep reading of contributing sources.
 - **Inter-rater reliability.** Re-ingest 20 source pages with a second extractor blind to the existing pages. Compare values + metadata. Compute κ. Target: κ > 0.7 extraction, > 0.8 inclusion. Not yet operationalized.
 - **External peer review.** Three independent reviewers (toxicology academic, brand RA veteran, plaintiff's-side class-action attorney) read the wiki and report defects. Not commissioned yet.

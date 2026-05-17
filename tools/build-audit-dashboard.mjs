@@ -124,6 +124,12 @@ function loadAudits() {
   const prodStubMatch = prodSec.stdout.match(/stubs \(exempt\):\s*(\d+)/)
   if (prodStubMatch) audits.product_sections.stubs = Number(prodStubMatch[1])
 
+  // Claim provenance (trace-every-claim audit v1)
+  const claimSummary = readJson(path.join(repoRoot, "data/evidence/claim-provenance-summary.json"))
+  if (claimSummary) {
+    audits.claim_provenance = claimSummary
+  }
+
   // Source pages by evidence tier
   const sourcesDir = path.join(repoRoot, "wiki/sources")
   const sources = fs.readdirSync(sourcesDir).filter(f => f.endsWith(".md") && !f.startsWith("_"))
@@ -204,6 +210,11 @@ function buildDashboard(audits) {
   if (audits.sources) {
     const doiClean = audits.sources.doi_missing === 0
     out.push(`| Source page DOI completeness | ${audits.sources.doi_missing} missing | ${doiClean ? "PASS" : audits.sources.doi_missing < 10 ? "WARN" : "FAIL"} |`)
+  }
+  if (audits.claim_provenance) {
+    const cp = audits.claim_provenance
+    const status = cp.supported_pct >= 95 ? "PASS" : cp.supported_pct >= 80 ? "WARN" : "FAIL"
+    out.push(`| Claim provenance — body-prose numerical claims with traceable citation | ${cp.supported_claims}/${cp.total_claims} (${cp.supported_pct}%) | ${status} |`)
   }
   out.push("")
 
@@ -303,11 +314,35 @@ function buildDashboard(audits) {
     out.push("")
   }
 
+  // Claim provenance detail section
+  if (audits.claim_provenance) {
+    const cp = audits.claim_provenance
+    out.push("## Claim provenance (trace-every-claim audit v1)")
+    out.push("")
+    out.push(`Every numerical claim in body prose on ingredient and product pages — matches the regex \`<number> <unit>\` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation within the same section and a ~2,000-char lookback window. Valid citations: \`[[sources/...]]\`, \`[[regulations/...]]\` (for regulatory limits), \`[[testing/...]]\` (for analytical-method floors).`)
+    out.push("")
+    out.push(`- Total claims scanned: **${cp.total_claims}**`)
+    out.push(`- Supported: **${cp.supported_claims}** (${cp.supported_pct}%)`)
+    out.push(`- Unsupported: **${cp.unsupported_claims}**`)
+    out.push("")
+    out.push("By page type:")
+    for (const t of Object.keys(cp.by_type)) {
+      const b = cp.by_type[t]
+      const pct = Math.round(b.supported / b.total * 100)
+      out.push(`- ${t}: ${b.supported}/${b.total} (${pct}%)`)
+    }
+    out.push("")
+    out.push(`Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.`)
+    out.push("")
+    out.push("Detail: [[data/evidence/claim-provenance-audit|data/evidence/claim-provenance-audit.csv]] (per-claim records with section context).")
+    out.push("")
+  }
+
   out.push("## What this dashboard does not yet measure")
   out.push("")
   out.push("The audits above are the mechanical, automatable dimensions of defensibility. The wiki's Cochrane-level target also requires audits that this dashboard does not yet produce:")
   out.push("")
-  out.push("- **Trace-every-claim audit.** Sample 10 random ingredient pages. For every numerical claim, follow the source link → source page → raw PDF. Verify match. Record % pass. Target: > 95%. Not yet automated; requires PDF read and value comparison per page.")
+  out.push("- **PDF-side verification.** Trace-every-claim audit v2 should follow each `[[sources/...]]` link to the cited source page, then to the raw PDF in `raw/markdown/<FM_id>/` or `raw/manual-fetch/...`, and verify the claimed value appears in the source. Today's v1 audit only verifies a citation exists; not that the citation is correct.")
   out.push("- **Synthesis reproducibility audit.** Pick 5 populated `contamination_profile` cells. Re-derive the values from contributing sources from scratch (without consulting the existing page). Compare. Target: 100% reconstructible. Not yet automated; requires deep reading of contributing sources.")
   out.push("- **Inter-rater reliability.** Re-ingest 20 source pages with a second extractor blind to the existing pages. Compare values + metadata. Compute κ. Target: κ > 0.7 extraction, > 0.8 inclusion. Not yet operationalized.")
   out.push("- **External peer review.** Three independent reviewers (toxicology academic, brand RA veteran, plaintiff's-side class-action attorney) read the wiki and report defects. Not commissioned yet.")
