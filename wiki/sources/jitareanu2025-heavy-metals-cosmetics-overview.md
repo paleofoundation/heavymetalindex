@@ -40,7 +40,7 @@ This open-access Applied Sciences review synthesizes current literature on heavy
   - Hamann et al. analyzed 549 skin-lightening products using portable XRF; 6.0% above 1000 ppm Hg.
   - Al-Ashban et al. examined 107 kohl samples in Saudi Arabia; high lead correlated with high lead blood concentrations.
   - Mokashi et al. reported kohl Pb concentrations up to 800,000 ppm in some samples.
-  - Iwegbue et al. 160 facial cosmetics from Nigeria (lip products, eye shadow, mascara, blush, face powder); products from Asian countries showed higher heavy metals than those from Europe and USA but MoS indicated low consumer risk in most cases.
+  - Iwegbue et al. 160 facial cosmetics from Nigeria (lip products, eye shadows and pencils, mascaras, blushes, and face powders); products from Asian countries showed higher heavy metals than those from Europe and USA but MoS indicated low consumer risk in most cases.
   - Corazza et al. examined toy makeup products: Cr exceeded the 5 ppm maximum limit in 53.8% of samples; higher levels in powdery products; Co and Ni also present.
   - Wang et al. face paints: >25% of samples associated with carcinogenic risk above maximum acceptable; Cr was primary contributor.
 - Per-metal hazard summary (Table 1, pp. 5-6): mapping of Al, As (iAs more toxic; As3+ more toxic than As5+), Cd, Cr (Cr6+ more toxic than Cr3+), Cu, Fe, Pb, Hg [inorganic salts], Ni, Zn to specific product categories and reported health effects. No new numerical occurrence data in this table; product categorization only.
@@ -61,7 +61,7 @@ Narrative literature review (not systematic). Database searches across PubMed, W
 
 ## Implications
 
-- Certification (HMTc): Useful regulatory-frame reference for children's cosmetic product threshold development. The compiled EU / US / CA / CN limits anchor cross-jurisdictional crosswalk work for [[products/lipstick]], [[products/face-paint]], [[products/childrens-makeup]], [[products/skin-lightening-cream]] threshold pages. Specific values: EU Germany lowest-in-EU values Pb 2 mg/kg, Cd 0.1 mg/kg, Hg 0.1 mg/kg, As 0.5 mg/kg, Sb 0.5 mg/kg; US FDA lip-product/externally-applied Pb 10 ppm; Canada Pb 10 / Cd 3 / Hg 1 / Sb 5 / As 3 ppm; China Pb 10 / Cd 5 / Hg 1 / As 2 mg/kg.
+- Certification (HMTc): Useful regulatory-frame reference for children's cosmetic product threshold development. The compiled EU / US / CA / CN limits (see Key numbers) anchor cross-jurisdictional crosswalk work for [[products/lipstick]], [[products/face-paint]], [[products/childrens-makeup]], [[products/skin-lightening-cream]] threshold pages.
 - Courses: Foundational survey for a children's-cosmetics regulatory-affairs course module. Per-metal hazard summary (Table 1) maps each analyte to the cosmetic product types where it most commonly appears; useful as a course-overview reading.
 - App: Not relevant to ingredient contamination_profile (cosmetics are not in the ingredient taxonomy).
 
@@ -90,3 +90,5 @@ Narrative literature review (not systematic). Database searches across PubMed, W
 - Kohl Pb values up to 800,000 ppm cited from Mokashi et al. - that is a citation to a separate primary study which would be the appropriate page for those specific numbers; including the figure here to flag the magnitude (kohl is the outlier product class for Pb in cosmetics).
 - 2026-05-17 enhancement: Added Table 2 highlights to Key numbers (talcum baby powder, toothpastes, kohl, face paints, lip products from cited primary studies). The review's Table 2 compendium is its main value-add and was thin in the prior revision. Numbers are presented as the review reports them with reference numbers traceable to the underlying primary studies; specific values belong on those primary-study source pages, not synthesized here.
 - Empty `ingredients:` and `matrices:` are intentional: the review covers metals as contaminants/intentional additives in finished cosmetic products; it does not focus on specific ingredients (the products themselves are the unit of analysis) and `matrices:` is a food-vocabulary field that does not apply to cosmetics. Routing audit flags this as an "advisory" (optional fields empty), not a malformed error.
+- Audit subagent (2026-05-17) flagged Iwegbue product list dropped "pencils" from Section 3 p. 3 — verified against source; corrected to "lip products, eye shadows and pencils, mascaras, blushes, and face powders" to match exact source wording.
+- Audit subagent (2026-05-17) flagged Implications Certification line restated EU/Germany/US/CA/CN regulatory values already in Key numbers — verified the duplication was stylistically redundant; tightened to a single sentence referencing Key numbers (Part 2 firewall not violated either way, but cleaner without the duplicate).
