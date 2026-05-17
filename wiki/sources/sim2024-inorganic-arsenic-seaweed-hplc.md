@@ -6,9 +6,8 @@ title: "Determination of inorganic arsenic in seaweed, grain, grass silage, and 
 authors: [Sim M, Weyer C, Pétursdóttir ÁH]
 year: 2024
 publication: "Food Chemistry"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Determination%20of%20inorganic%20arsenic%20in%20seaweed%2C%20grain%2C%20grass%20silage%2C%20and%20insect%20protein%20by%20HPLC-ICP-MS%20using%20a%20design%20of%20experiments%20optimization%20approach"
+doi: "10.1007/s00216-024-05250-8"
+access_url: "https://doi.org/10.1007/s00216-024-05250-8"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

@@ -6,9 +6,8 @@ title: "Arsenic contamination in cemetery soils and remediation approaches"
 authors: [Wang]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Arsenic%20contamination%20in%20cemetery%20soils%20and%20remediation%20approaches
+doi: "10.3390/ijerph21030267"
+access_url: "https://doi.org/10.3390/ijerph21030267"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

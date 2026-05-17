@@ -6,9 +6,8 @@ title: "Mercury in aquatic ecosystems of two indigenous communities in the Piedm
 authors: [Escobar-Camacho D, Escobar-Camacho B, Rodas-Trejo J, Tafur-Ramos J, Escobar-Ortiz A, Miserendino G, Stacchiotti M]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Mercury%20in%20aquatic%20ecosystems%20of%20two%20indigenous%20communities%20in%20the%20Piedmont%20Ecuadorian%20Amazon%3A%20evidence%20from%20fish%2C%20water%2C%20and%20sediments
+doi: "10.1007/s10646-024-02764-w"
+access_url: "https://doi.org/10.1007/s10646-024-02764-w"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

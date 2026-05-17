@@ -7,7 +7,7 @@ year: 2011
 publication: "US Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Arsenic%20in%20Apple%20Juice%3A%20Analytical%20Results%20from%20the%202005%E2%80%932011%20Toxic%20Elements%20Food%20and%20Foodware%20Program
+access_url: "https://www.fda.gov/food/environmental-contaminants-food/arsenic-apple-juice-analytical-results-2005-2011-toxic-elements-food-and-foodware-program"
 source_type: gov-data
 evidence_tier: A
 license: "public-domain-us-government"

@@ -7,7 +7,7 @@ year: 2025
 publication: "Canadian Food Inspection Agency"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Toxic%20metals%20in%20selected%20foods%20%E2%80%93%20April%201%2C%202022%20to%20March%2031%2C%202023%3A%20Food%20chemistry%20%E2%80%93%20Targeted%20surveys%20%E2%80%93%20Final%20report
+access_url: "https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/testing-reports-and-journal-articles/2022-2022-toxic-metals"
 source_type: gov-report
 evidence_tier: A
 license: "copyright-crown-canada"

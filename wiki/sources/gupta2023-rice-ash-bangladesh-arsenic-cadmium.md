@@ -6,9 +6,8 @@ title: "Recycled household ash in rice paddies of Bangladesh for sustainable pro
 authors: [Gupta Y, Hossain M, Islam MR, Talukder MMH, Khokon MAR, Uddin MM, Kabir H, Carey M, Ralphs K, Valadares de Moraes N, Meharg AA, Meharg C]
 year: 2023
 publication: "Environmental Pollution"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Recycled%20household%20ash%20in%20rice%20paddies%20of%20Bangladesh%20for%20sustainable%20production%20of%20rice%20without%20altering%20grain%20arsenic%20and%20cadmium"
+doi: "10.1007/s12403-023-00539-y"
+access_url: "https://doi.org/10.1007/s12403-023-00539-y"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

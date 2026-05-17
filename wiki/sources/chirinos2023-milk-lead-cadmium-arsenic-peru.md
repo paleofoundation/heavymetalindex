@@ -6,9 +6,8 @@ title: "Lead, Cadmium, and Arsenic in Raw Milk Produced in the Vicinity of a Min
 authors: [Chirinos-Peinado D, Castro-Bedriñana J, Ríos-Ríos E, Castro-Chirinos G, Quispe-Poma Y]
 year: 2023
 publication: "Biological Trace Element Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Lead%2C%20Cadmium%2C%20and%20Arsenic%20in%20Raw%20Milk%20Produced%20in%20the%20Vicinity%20of%20a%20Mini%20Mineral%20Concentrator%20in%20the%20Central%20Andes%20and%20Health%20Risk"
+doi: "10.1007/s12011-023-03838-2"
+access_url: "https://doi.org/10.1007/s12011-023-03838-2"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

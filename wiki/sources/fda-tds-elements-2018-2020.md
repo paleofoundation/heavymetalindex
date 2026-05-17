@@ -7,7 +7,7 @@ year: 2022
 publication: "U.S. Food and Drug Administration, Total Diet Study Program"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Total%20Diet%20Study%20Report%3A%20Fiscal%20Years%202018-2020%20Elements%20Data
+access_url: "https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/2022_07_14_TDSElementsReport_1436.pdf

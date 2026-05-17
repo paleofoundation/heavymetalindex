@@ -6,9 +6,8 @@ title: "Global change effects on biogeochemical mercury cycling"
 authors: [Sonke JE, Angot H, Zhang Y, Poulain A, Björn E, Schartup A]
 year: 2023
 publication: "Ambio"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Global%20change%20effects%20on%20biogeochemical%20mercury%20cycling"
+doi: "10.1007/s13280-023-01855-y"
+access_url: "https://doi.org/10.1007/s13280-023-01855-y"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

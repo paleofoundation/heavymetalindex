@@ -7,7 +7,7 @@ year: 2024
 publication: "Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Report%20of%20the%2017th%20Session%20of%20the%20Codex%20Committee%20on%20Contaminants%20in%20Foods%20(REP24%2FCF17)
+access_url: "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/Codex_CCCF17_SessionReport_REP24_CF17.pdf

@@ -7,7 +7,7 @@ year: 2018
 publication: "U.S. Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Fiscal%20Year%202018%20Arsenic%20in%20Infant%20Rice%20Cereals%20Assignment%20Data
+access_url: https://www.fda.gov/media/135552/download
 source_type: government-report
 evidence_tier: A
 license: "us-government-work"

@@ -7,7 +7,7 @@ year: 1995
 publication: "Codex Alimentarius (Joint FAO/WHO Food Standards Programme)"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=General%20Standard%20for%20Contaminants%20and%20Toxins%20in%20Food%20and%20Feed%20(CXS%20193-1995)
+access_url: "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf"
 source_type: gov-report
 evidence_tier: A
 raw_path: null

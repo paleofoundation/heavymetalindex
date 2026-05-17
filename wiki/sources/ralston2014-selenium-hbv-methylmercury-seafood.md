@@ -6,9 +6,8 @@ title: "Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assess
 authors: [Ralston NVC, Ralston CR, Raymond LJ]
 year: 2014
 publication: "Archives of Environmental Contamination and Toxicology"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Selenium%20Health%20Benefit%20Values%3A%20Updated%20Criteria%20for%20Mercury%20Risk%20Assessments
+doi: "10.1007/s12011-015-0516-z"
+access_url: "https://doi.org/10.1007/s12011-015-0516-z"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

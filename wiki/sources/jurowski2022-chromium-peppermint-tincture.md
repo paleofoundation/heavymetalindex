@@ -6,9 +6,8 @@ title: "Chromium impurities in peppermint tinctures from Polish pharmacies: spec
 authors: [Jurowski K, Krosniak M]
 year: 2022
 publication: "unknown"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Chromium%20impurities%20in%20peppermint%20tinctures%20from%20Polish%20pharmacies%3A%20speciation%20and%20health%20implications"
+doi: "10.1007/s12011-022-03367-4"
+access_url: "https://doi.org/10.1007/s12011-022-03367-4"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

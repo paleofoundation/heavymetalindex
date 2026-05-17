@@ -7,7 +7,7 @@ year: null
 publication: "Electronic Code of Federal Regulations"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=21%20CFR%20101.12%20%E2%80%94%20Reference%20Amounts%20Customarily%20Consumed%20Per%20Eating%20Occasion
+access_url: "https://www.ecfr.gov/current/title-21/chapter-I/part-101/subpart-A/section-101.12"
 source_type: regulation
 evidence_tier: A
 raw_path: null

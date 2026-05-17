@@ -6,9 +6,8 @@ title: "Cadmium and mercury trophic transfer in the Arctic marine food web of Hu
 authors: [Rohonczy J, Chételat J, Pienkowski L, Goodwin M, Lerash R, Houde M, Kidd KA]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Cadmium%20and%20mercury%20trophic%20transfer%20in%20the%20Arctic%20marine%20food%20web%20of%20Hudson%20Bay"
+doi: "10.1007/s11356-024-32268-3"
+access_url: "https://doi.org/10.1007/s11356-024-32268-3"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

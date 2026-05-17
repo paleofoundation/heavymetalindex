@@ -7,7 +7,7 @@ year: 2011
 publication: "WHO Technical Report Series 959"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Evaluation%20of%20Certain%20Contaminants%20in%20Food%3A%20Seventy-second%20Report%20of%20the%20Joint%20FAO%2FWHO%20Expert%20Committee%20on%20Food%20Additives%20(Lead%2C%20among%20others)
+access_url: https://www.who.int/publications/i/item/9789241209595
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/JECFA_Lead_Monograph.pdf

@@ -6,9 +6,8 @@ title: "Risk assessment of heavy metals in north of Iran (Sari) rice and implica
 authors: [Zafarzadeh A, Shahryari A]
 year: 2025
 publication: "Scientific Reports"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Risk%20assessment%20of%20heavy%20metals%20in%20north%20of%20Iran%20(Sari)%20rice%20and%20implications%20for%20human%20health"
+doi: "10.1038/s41598-025-22000-7"
+access_url: "https://doi.org/10.1038/s41598-025-22000-7"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

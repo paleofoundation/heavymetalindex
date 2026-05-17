@@ -7,7 +7,7 @@ year: 1995
 publication: "U.S. Environmental Protection Agency, Integrated Risk Information System"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Mercuric%20Chloride%20(HgCl2)%20%E2%80%94%20IRIS%20Chemical%20Assessment%20Summary
+access_url: "https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_IRIS_ElementalMercury_ToxReview.pdf

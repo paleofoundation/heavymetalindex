@@ -6,9 +6,8 @@ title: "High spatial and temporal variation in biomass composition of the novel 
 authors: [Nepper-Davidsen J, Glasson CRK, Lawton RJ, Magnusson M]
 year: 2023
 publication: "Journal of Applied Phycology"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=High%20spatial%20and%20temporal%20variation%20in%20biomass%20composition%20of%20the%20novel%20aquaculture%20target%20Ecklonia%20radiata"
+doi: "10.1007/s10811-023-02969-2"
+access_url: "https://doi.org/10.1007/s10811-023-02969-2"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

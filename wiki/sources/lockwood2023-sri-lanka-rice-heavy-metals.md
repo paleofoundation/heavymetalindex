@@ -6,9 +6,8 @@ title: "Toxic and essential element content of traditional Sri Lankan rice varie
 authors: [Lockwood TE, Banati R, Nikagolla C, Violi JP, Bishop DP]
 year: 2023
 publication: "Food Chemistry Advances"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Toxic%20and%20essential%20element%20content%20of%20traditional%20Sri%20Lankan%20rice%20varieties%20from%20Anuradhapura%20district"
+doi: "10.1007/s12011-023-03847-1"
+access_url: "https://doi.org/10.1007/s12011-023-03847-1"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

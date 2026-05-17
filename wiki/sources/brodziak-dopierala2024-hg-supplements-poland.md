@@ -6,9 +6,8 @@ title: "Mercury Levels in Selected Medicines and Dietary Supplements in Poland"
 authors: [Brodziak-Dopierała B, Fischer A, Ahnert B]
 year: 2024
 publication: "Biological Trace Element Research"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Mercury%20Levels%20in%20Selected%20Medicines%20and%20Dietary%20Supplements%20in%20Poland
+doi: "10.1007/s12011-024-04269-3"
+access_url: "https://doi.org/10.1007/s12011-024-04269-3"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

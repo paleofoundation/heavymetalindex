@@ -6,9 +6,8 @@ title: "Environmental pollution effect on honey bees and their derived products:
 authors: [Margaoan R, Papa G, Nicolescu A, Cornea-Cipcigan M, Kosoglu M, Topal E, Negri I]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Environmental%20pollution%20effect%20on%20honey%20bees%20and%20their%20derived%20products%3A%20a%20comprehensive%20analysis"
+doi: "10.1007/s11356-024-33754-4"
+access_url: "https://doi.org/10.1007/s11356-024-33754-4"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

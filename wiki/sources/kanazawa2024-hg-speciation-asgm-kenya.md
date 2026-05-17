@@ -6,9 +6,8 @@ title: "Mercury speciation in artisanal small-scale gold mining (ASGM) environme
 authors: [Kanazawa]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Mercury%20speciation%20in%20artisanal%20small-scale%20gold%20mining%20(ASGM)%20environments%20in%20Kenya
+doi: "10.1007/s10653-024-02187-w"
+access_url: "https://doi.org/10.1007/s10653-024-02187-w"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

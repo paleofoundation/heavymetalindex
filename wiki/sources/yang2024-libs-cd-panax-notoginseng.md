@@ -6,9 +6,8 @@ title: "LIBS detection of cadmium in Panax notoginseng"
 authors: [Yang]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=LIBS%20detection%20of%20cadmium%20in%20Panax%20notoginseng
+doi: "10.3390/foods13071083"
+access_url: "https://doi.org/10.3390/foods13071083"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

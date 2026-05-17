@@ -8,7 +8,7 @@ year: 2020
 publication: "IRIS — Journal for Young Scientists, Vol. X"
 doi: null
 no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Determination+of+Toxic+Heavy+Metals+in+Commercially+available+brands+of+Baby+Talcum+Powder+Rashmi+IRIS"
+access_url: "https://patnawomenscollege.in/iris-vol-x2020/"
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown

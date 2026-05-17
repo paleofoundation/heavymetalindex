@@ -6,9 +6,8 @@ title: "Case of lead poisoning secondary to intake of herbal medicine for diabet
 authors: [Thomas J, Sebastian R, Anil Kumar CR, Rafi AM]
 year: 2024
 publication: "Endocrinology, Diabetes & Metabolism Case Reports"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Case%20of%20lead%20poisoning%20secondary%20to%20intake%20of%20herbal%20medicine%20for%20diabetes%20mellitus%20in%20a%20tertiary%20care%20hospital%20in%20Kerala"
+doi: "10.1530/edm-23-0066"
+access_url: "https://doi.org/10.1530/edm-23-0066"
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"

@@ -6,9 +6,8 @@ title: "Comparison of heavy metal regulations for herbal medicines across pharma
 authors: [Inada A]
 year: 2023
 publication: "Journal of Natural Medicines"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Comparison%20of%20heavy%20metal%20regulations%20for%20herbal%20medicines%20across%20pharmacopoeias"
+doi: "10.1007/s43441-023-00532-2"
+access_url: "https://doi.org/10.1007/s43441-023-00532-2"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

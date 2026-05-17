@@ -6,9 +6,8 @@ title: "Evaluating the effects of geochemical and anthropogenic factors on the c
 authors: [Abebe Y, Whitehead P, Alamirew T, Jin L, Alemayehu E]
 year: 2023
 publication: "Environmental Monitoring and Assessment"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Evaluating%20the%20effects%20of%20geochemical%20and%20anthropogenic%20factors%20on%20the%20concentration%20and%20treatability%20of%20heavy%20metals%20in%20Awash%20River%20and%20Lake%20Beseka%2C%20Ethiopia%3A%20arsenic%20and%20molybdenum%20issues"
+doi: "10.1007/s10661-023-11674-z"
+access_url: "https://doi.org/10.1007/s10661-023-11674-z"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

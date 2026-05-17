@@ -6,9 +6,8 @@ title: "Arsenic Exposure in Infancy"
 authors: [Schmidt CW]
 year: 2015
 publication: "Environmental Health Perspectives 123(7):A168–A173"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Arsenic%20Exposure%20in%20Infancy
+doi: "10.1289/ehp.123-A137"
+access_url: "https://doi.org/10.1289/ehp.123-A137"
 source_type: news-commentary
 evidence_tier: C
 license: "open access (NIEHS)"

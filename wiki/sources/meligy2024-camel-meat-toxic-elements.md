@@ -6,9 +6,8 @@ title: "Concentrations of toxic and essential elements in camel (Camelus dromeda
 authors: [Meligy AME, El-Ghareeb WR, Al-Gabri NA, Alwasiti EA, Farghali HA]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Concentrations%20of%20toxic%20and%20essential%20elements%20in%20camel%20(Camelus%20dromedarius)%20tissues%3A%20muscle%2C%20offal%2C%20hair%2C%20and%20blood%20from%20Saudi%20Arabia"
+doi: "10.5455/ovj.2024.v14.i1.14"
+access_url: "https://doi.org/10.5455/ovj.2024.v14.i1.14"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

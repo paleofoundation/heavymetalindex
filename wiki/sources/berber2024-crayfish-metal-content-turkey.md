@@ -6,9 +6,8 @@ title: "Metal content and fatty acid profiles in narrow-clawed crayfish (Pontast
 authors: [Berber S, Acarlı S, Bayraklı B, Kale S, Vural P, Sönmez AY]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Metal%20content%20and%20fatty%20acid%20profiles%20in%20narrow-clawed%20crayfish%20(Pontastacus%20leptodactylus)%20from%20Atikhisar%20Dam%20Lake%2C%20Turkey%3A%20seasonal%20variation%20and%20health%20risk%20assessment"
+doi: "10.1007/s11356-024-32858-1"
+access_url: "https://doi.org/10.1007/s11356-024-32858-1"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

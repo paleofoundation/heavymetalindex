@@ -7,7 +7,7 @@ year: 2021
 publication: "Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Toxic%20Effects%20of%20Metals%20(Chapter%2023)%2C%20in%20Casarett%20%26%20Doull's%20Essentials%20of%20Toxicology%2C%20Fourth%20Edition
+access_url: "https://www.mhprofessional.com/9781264264827"
 source_type: textbook-chapter
 evidence_tier: A
 raw_path: raw/textbooks/Casarett & Doull's Essentials of Toxicology.pdf

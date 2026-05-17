@@ -6,9 +6,8 @@ title: "Hazardous effects of heavy metal pollution on Nile tilapia in the aquati
 authors: [Shaalan WM]
 year: 2024
 publication: "BMC Veterinary Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Hazardous%20effects%20of%20heavy%20metal%20pollution%20on%20Nile%20tilapia%20in%20the%20aquatic%20ecosystem%20of%20the%20Eastern%20Delta%20in%20Egypt"
+doi: "10.1186/s12917-024-04367-3"
+access_url: "https://doi.org/10.1186/s12917-024-04367-3"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"

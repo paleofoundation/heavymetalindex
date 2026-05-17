@@ -7,7 +7,7 @@ year: 2021
 publication: "U.S. Centers for Disease Control and Prevention, National Center for Environmental Health"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Blood%20Lead%20Reference%20Value%20(3.5%20%C2%B5g%2FdL)
+access_url: "https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/CDC_BloodLeadReferenceValue.pdf

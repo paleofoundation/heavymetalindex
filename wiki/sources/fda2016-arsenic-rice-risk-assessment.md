@@ -7,7 +7,7 @@ year: 2016
 publication: "US Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Arsenic%20in%20Rice%20and%20Rice%20Products%20Risk%20Assessment%20Report
+access_url: https://www.fda.gov/food/risk-and-safety-assessments-food/arsenic-rice-and-rice-products-risk-assessment
 source_type: gov-report
 evidence_tier: A
 license: "public-domain-us-government"

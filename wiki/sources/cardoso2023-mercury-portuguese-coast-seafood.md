@@ -6,9 +6,8 @@ title: "Seasonal characterization of mercury contamination along the Portuguese 
 authors: [Cardoso PG, Morais H, Crespo D, Tavares D, Pereira E, Pardal MA]
 year: 2023
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Seasonal%20characterization%20of%20mercury%20contamination%20along%20the%20Portuguese%20coast%3A%20human%20health%20and%20environmental%20risk%20assessment"
+doi: "10.1007/s11356-023-29495-5"
+access_url: "https://doi.org/10.1007/s11356-023-29495-5"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

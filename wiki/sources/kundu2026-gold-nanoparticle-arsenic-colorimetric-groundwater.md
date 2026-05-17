@@ -6,9 +6,8 @@ title: "Gold Nanoparticle-Based Colorimetric Sensing of Arsenic(III) and Arsenic
 authors: [Kundu A, Kar P]
 year: 2026
 publication: null
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Gold%20Nanoparticle-Based%20Colorimetric%20Sensing%20of%20Arsenic(III)%20and%20Arsenic(V)%20in%20Groundwater
+doi: "10.1039/d5ra08863a"
+access_url: "https://doi.org/10.1039/d5ra08863a"
 source_type: peer-reviewed
 evidence_tier: A
 license: null

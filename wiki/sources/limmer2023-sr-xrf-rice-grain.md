@@ -6,9 +6,8 @@ title: "Synchrotron X-ray fluorescence mapping of arsenic, zinc, copper, and man
 authors: [Limmer MA, Webb SM, Seyfferth AL]
 year: 2023
 publication: "Journal of Synchrotron Radiation"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Synchrotron%20X-ray%20fluorescence%20mapping%20of%20arsenic%2C%20zinc%2C%20copper%2C%20and%20manganese%20in%20rice%20grain%20cross-sections"
+doi: "10.1107/s1600577523000747"
+access_url: "https://doi.org/10.1107/s1600577523000747"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"

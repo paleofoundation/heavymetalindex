@@ -7,7 +7,7 @@ year: 2001
 publication: "U.S. Environmental Protection Agency, Integrated Risk Information System"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Methylmercury%20(MeHg)%20%E2%80%94%20IRIS%20Chemical%20Assessment%20Summary
+access_url: "https://iris.epa.gov/ChemicalLanding/&substance_nmbr=73"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_IRIS_Methylmercury_ToxReview.pdf

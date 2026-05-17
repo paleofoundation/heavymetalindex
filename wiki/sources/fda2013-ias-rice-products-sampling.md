@@ -7,7 +7,7 @@ year: 2013
 publication: "U.S. Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Analytical%20Results%20from%20Inorganic%20Arsenic%20in%20Rice%20and%20Rice%20Products%20Sampling%2C%20September%202013
+access_url: "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements"
 source_type: government-regulatory
 evidence_tier: A
 license: "public-domain-us-government"

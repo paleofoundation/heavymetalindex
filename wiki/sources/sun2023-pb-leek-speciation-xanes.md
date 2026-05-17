@@ -6,9 +6,8 @@ title: "Pb speciation and elemental distribution in leeks by micro X-ray fluores
 authors: [Sun J, Yang Y, Luo L]
 year: 2023
 publication: "Journal of Synchrotron Radiation"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Pb%20speciation%20and%20elemental%20distribution%20in%20leeks%20by%20micro%20X-ray%20fluorescence%20and%20X-ray%20absorption%20near-edge%20structure"
+doi: "10.1107/s1600577523006616"
+access_url: "https://doi.org/10.1107/s1600577523006616"
 source_type: peer-reviewed
 evidence_tier: A
 license: null

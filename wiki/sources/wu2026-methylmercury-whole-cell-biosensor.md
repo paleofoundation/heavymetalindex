@@ -6,9 +6,8 @@ title: "Whole-Cell Biosensor for Sensitive Detection of Methylmercury in Environ
 authors: [Wu J, Zhang L, Chen X, Li Y]
 year: 2026
 publication: "Biosensors and Bioelectronics"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Whole-Cell%20Biosensor%20for%20Sensitive%20Detection%20of%20Methylmercury%20in%20Environmental%20Water
+doi: "10.1039/d5ra09313a"
+access_url: "https://doi.org/10.1039/d5ra09313a"
 source_type: peer-reviewed
 evidence_tier: A
 license: null

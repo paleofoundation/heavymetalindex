@@ -6,9 +6,8 @@ title: "Investigation of Lead and Chromium Exposure After Consumption of Contami
 authors: [Troeschel AN, Buser MC, Winquist A, Ruckart P, Yeh M, Kuai D, Chang A, Pennington AF, Rumph JT, Smith MR, Valenzuela Lara M, Cataldo N, Lewis K, Arnold K, Harris S, Nicholas DC, Hughes M, Wortmann T, Norman E, Napier MD, Dillard J, Daniel J]
 year: 2024
 publication: "Morbidity and Mortality Weekly Report (MMWR)"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Investigation%20of%20Lead%20and%20Chromium%20Exposure%20After%20Consumption%20of%20Contaminated%20Cinnamon-Containing%20Applesauce%20%E2%80%94%20United%20States%2C%20November%202023%E2%80%93April%202024"
+doi: "10.15585/mmwr.mm7414a2"
+access_url: "https://doi.org/10.15585/mmwr.mm7414a2"
 source_type: government-report
 evidence_tier: A
 license: "public-domain"

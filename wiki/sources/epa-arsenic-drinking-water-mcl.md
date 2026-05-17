@@ -7,7 +7,7 @@ year: 2001
 publication: "U.S. Environmental Protection Agency"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=EPA%20Drinking%20Water%20Arsenic%20MCL%20Rule%20(10%20ppb)
+access_url: "https://www.epa.gov/dwreginfo/drinking-water-arsenic-rule-history"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_Arsenic_DrinkingWater_MCL.pdf

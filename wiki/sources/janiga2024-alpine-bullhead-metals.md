@@ -6,9 +6,8 @@ title: "Heavy metals in alpine bullhead fish (Cottus gobio) after flash flood in
 authors: [Janiga M, Kocian L, Baláž M]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Heavy%20metals%20in%20alpine%20bullhead%20fish%20(Cottus%20gobio)%20after%20flash%20flood%20in%20the%20Tatra%20mountains"
+doi: "10.1007/s11356-024-32288-z"
+access_url: "https://doi.org/10.1007/s11356-024-32288-z"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

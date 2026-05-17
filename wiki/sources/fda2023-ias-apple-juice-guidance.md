@@ -7,7 +7,7 @@ year: 2023
 publication: "U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Action%20Level%20for%20Inorganic%20Arsenic%20in%20Apple%20Juice%3A%20Guidance%20for%20Industry
+access_url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice
 source_type: government-guidance
 evidence_tier: A
 license: "public-domain"

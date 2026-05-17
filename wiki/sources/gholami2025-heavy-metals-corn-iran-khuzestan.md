@@ -6,9 +6,8 @@ title: "Health risk assessment Pb, As and Cr in corn (Zea mays) of Behbahan and 
 authors: [Gholami Z, Mohammadi Rouzbahani M, Payandeh K, Sabzalipour S]
 year: 2025
 publication: "Scientific Reports"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Health%20risk%20assessment%20Pb%2C%20As%20and%20Cr%20in%20corn%20(Zea%20mays)%20of%20Behbahan%20and%20Dezful%20from%20Khuzestan%20Province%2C%20Iran"
+doi: "10.1038/s41598-025-89281-w"
+access_url: "https://doi.org/10.1038/s41598-025-89281-w"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

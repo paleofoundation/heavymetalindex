@@ -7,7 +7,7 @@ year: 2016
 publication: "US Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Analytical%20Results%3A%20Inorganic%20Arsenic%20in%20Infant%2FToddler%20Foods%20(2016)
+access_url: "https://www.fda.gov/food/risk-and-safety-assessments-food/arsenic-rice-and-rice-products-risk-assessment"
 source_type: gov-data
 evidence_tier: A
 license: "public-domain-us-government"

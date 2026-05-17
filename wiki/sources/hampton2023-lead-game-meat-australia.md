@@ -6,9 +6,8 @@ title: "Lead contamination in Australian game meat"
 authors: [Hampton JO, Pain DJ, Buenz E, Firestone SM, Arnemo JM]
 year: 2023
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Lead%20contamination%20in%20Australian%20game%20meat"
+doi: "10.1007/s11356-023-25949-y"
+access_url: "https://doi.org/10.1007/s11356-023-25949-y"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

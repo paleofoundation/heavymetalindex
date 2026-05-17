@@ -7,7 +7,7 @@ year: 2017
 publication: "U.S. FDA and U.S. EPA"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Advice%20About%20Eating%20Fish%20%E2%80%94%20For%20Those%20Who%20Might%20Become%20or%20Are%20Pregnant%20or%20Breastfeeding%20and%20Children%20Ages%201%20to%2011%20Years
+access_url: "https://www.fda.gov/food/consumers/advice-about-eating-fish"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/FDA_EPA_FishConsumption_Advice.pdf

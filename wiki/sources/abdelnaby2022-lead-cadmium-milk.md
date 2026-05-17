@@ -6,9 +6,8 @@ title: "Lead and cadmium residues in raw and pasteurized milk and their reductio
 authors: [Abdelnaby A, El-Ghazaly K, Eltayesh A, Mahmoud A]
 year: 2022
 publication: "unknown"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Lead%20and%20cadmium%20residues%20in%20raw%20and%20pasteurized%20milk%20and%20their%20reduction%20using%20natural%20adsorbents"
+doi: "10.1007/s12011-022-03353-w"
+access_url: "https://doi.org/10.1007/s12011-022-03353-w"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

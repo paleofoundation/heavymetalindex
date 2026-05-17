@@ -6,9 +6,8 @@ title: "OFF-ON fluorescence sensor for cadmium detection validated in milk and s
 authors: [Fei]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=OFF-ON%20fluorescence%20sensor%20for%20cadmium%20detection%20validated%20in%20milk%20and%20seawater
+doi: "10.1016/j.heliyon.2024.e26980"
+access_url: https://doi.org/10.1016/j.heliyon.2024.e26980
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

@@ -7,7 +7,7 @@ year: 2008
 publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Toxicological%20Profile%20for%20Aluminum
+access_url: "https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf"
 source_type: gov-report
 evidence_tier: A
 raw_path: null

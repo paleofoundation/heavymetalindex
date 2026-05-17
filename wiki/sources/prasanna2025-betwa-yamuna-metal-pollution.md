@@ -6,9 +6,8 @@ title: "Metal pollution and human health risk assessment in the Betwa-Yamuna riv
 authors: [Prasanna MV, Chidambaram S, Singaraja C, Johnsonbabu G, Bhatt SC, Raijalakshmi R]
 year: 2025
 publication: "Scientific Reports"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Metal%20pollution%20and%20human%20health%20risk%20assessment%20in%20the%20Betwa-Yamuna%20river%20system%2C%20India"
+doi: "10.1038/s41598-025-34780-z"
+access_url: "https://doi.org/10.1038/s41598-025-34780-z"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

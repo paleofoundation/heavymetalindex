@@ -6,9 +6,8 @@ title: "Spatiotemporal variations in the levels of toxic elements in drinking wa
 authors: [Taş Divrik M]
 year: 2025
 publication: "Scientific Reports"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Spatiotemporal%20variations%20in%20the%20levels%20of%20toxic%20elements%20in%20drinking%20water%20of%20Sivas%2C%20T%C3%BCrkiye%2C%20and%20an%20ecotoxicological%20risk%20assessment"
+doi: "10.1038/s41598-025-94950-x"
+access_url: "https://doi.org/10.1038/s41598-025-94950-x"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

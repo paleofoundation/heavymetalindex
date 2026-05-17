@@ -6,9 +6,8 @@ title: "Comparison of Atomic Fluorescence Spectrometry and Cold Atomic Absorptio
 authors: [Qin Z, Liu X, Wang Y, Chen H]
 year: 2025
 publication: null
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Comparison%20of%20Atomic%20Fluorescence%20Spectrometry%20and%20Cold%20Atomic%20Absorption%20Spectrometry%20for%20Total%20Mercury%20Determination%20in%20Soil
+doi: "10.1098/rsos.240757"
+access_url: "https://doi.org/10.1098/rsos.240757"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

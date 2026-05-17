@@ -6,9 +6,8 @@ title: "Bacillus megaterium CMOS Biosensor for Arsenic Detection Below EPA 10 pp
 authors: [Hu Y, Zhang X, Wang J, Chen L]
 year: 2025
 publication: null
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Bacillus%20megaterium%20CMOS%20Biosensor%20for%20Arsenic%20Detection%20Below%20EPA%2010%20ppb%20in%20Soil%20and%20Food
+doi: "10.1021/acssynbio.4c00895"
+access_url: https://doi.org/10.1021/acssynbio.4c00895
 source_type: peer-reviewed
 evidence_tier: A
 license: null

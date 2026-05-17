@@ -6,9 +6,8 @@ title: "Assessment of heavy metal pollution and water quality index of Bahr Mous
 authors: [Ramadan EM, Nour AAM, Abdelhafez AA, Hashem MA]
 year: 2024
 publication: "Environmental Monitoring and Assessment"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Assessment%20of%20heavy%20metal%20pollution%20and%20water%20quality%20index%20of%20Bahr%20Mouse%20stream%20in%20Dakahlia%20Governorate%2C%20Egypt"
+doi: "10.1007/s10661-024-12541-1"
+access_url: "https://doi.org/10.1007/s10661-024-12541-1"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"
