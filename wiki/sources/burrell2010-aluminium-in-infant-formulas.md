@@ -10,7 +10,7 @@ doi: "10.1186/1471-2431-10-63"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
-raw_path: "raw/Digest/1471-2431-10-63.pdf"
+raw_path: "raw/studies/1471-2431-10-63.pdf"
 access_url: https://doi.org/10.1186/1471-2431-10-63
 raw_sha256: "3f79353a3f8c325ab6ae57a1b12ccaa3504176286228428bffbba261e3630279"
 metals: [Al]
@@ -25,17 +25,17 @@ updated: 2026-05-17
 
 # Burrell and Exley 2010 — Aluminium in infant formulas
 
-Burrell and Exley measured aluminium in 15 branded infant formula products from the UK market, covering both ready-made liquid formulas and powders, cow-milk-based and a soya-based product, and first-infant, follow-on, growing-up, preterm, and good-night formulations. Ready-made formulas (n=8) ranged from 175.5 to 700.4 µg/L; the highest was the preterm formula. Powders (n=7), evaluated as prepared-milk equivalents per manufacturer instructions, ranged from 333.3 to 629.0 µg/L; the highest was the soya-based powder. The authors compared these values to typical breast-milk aluminium concentrations (~15-30 µg/L) and characterized formula aluminium content as 10 to 40 times higher.
+Burrell and Exley measured aluminium in infant formula products from the UK market, covering both ready-made liquid formulas and powders, cow-milk-based and a soya-based product, and first-infant, follow-on, growing-up, preterm, and good-night formulations. Ready-made formulas (n=8) ranged from 175.5 to 700.4 µg/L; the highest was the preterm formula. Powder-format entries in Table 2 (n=8), evaluated as prepared-milk equivalents per manufacturer instructions, ranged from 333.3 to 629.0 µg/L; the highest was the soya-based powder. The authors compared these values to typical breast-milk aluminium concentrations (~15-30 µg/L) and characterized formula aluminium content as 10 to 40 times higher.
 
 ## Key numbers
 
-- 15 branded products: 8 ready-made liquid formulas and 7 powders (one soya-based, six cow-milk-based). Five replicate samples per product, each measured three times; replicate accepted if % RSD < 10%.
-- Ready-made formula Al, mean concentrations (n=8): range 175.5 to 700.4 µg/L. Replicate maximum 863.0 µg/L (Cow & Gate Growing-Up Milk). Preterm formula (Cow & Gate Nutriprem 1) was the highest mean at 700.4 µg/L (Table 1).
-- Powder Al, raw powder basis (n=7): range 2.4 to 4.3 µg/g. Replicate maximum 10.8 µg/g (Cow & Gate Follow-On Milk) (Table 2).
-- Powder Al, prepared-milk equivalent (per manufacturer reconstitution instructions): range 333.3 to 629.0 µg/L. The soya-based powder (SMA Wysoy) was the highest at 629.0 µg/L (Table 2).
-- Estimated aluminium ingestion at 6 months, using manufacturer recommended feeding volumes: range 206 to 592 µg Al/24 h across ready-made and prepared powder products. The soya-based powder gave the highest at 592 µg Al/24 h (Table 3).
-- Estimated aluminium ingestion at 12 months (growing-up milks): 88 µg Al/24 h (Hipp Organic) and 107 µg Al/24 h (Cow & Gate).
-- Estimated aluminium ingestion for a preterm infant (Nutriprem 1) from very-low-birth-weight (<1 kg) up to term (~2.5 kg): 112 to 263 µg Al/24 h.
+- Methods state 15 branded infant formula products; Tables 1-3 enumerate 8 ready-made liquid rows and 8 powder-format rows (one soya-based, seven cow-milk-based). Five replicate samples per product, each measured three times; replicate accepted if % RSD < 10%.
+- Ready-made formula Al, mean concentrations (n=8): range 175.5 to 700.4 µg/L. Replicate maximum 863.0 µg/L in the preterm ready-made product. The preterm formula was the highest mean at 700.4 µg/L (Table 1).
+- Powder Al, raw powder basis (n=8): range 2.4 to 4.3 µg/g. Replicate maximum 10.8 µg/g in one follow-on powder (Table 2).
+- Powder Al, prepared-milk equivalent (per manufacturer reconstitution instructions): range 333.3 to 629.0 µg/L. The soya-based powder was the highest at 629.0 µg/L (Table 2).
+- Estimated aluminium ingestion at 6 months, using manufacturer recommended feeding volumes: range 206 to 592 µg Al/24 h across ready-made and prepared powder products. The maximum 592 µg Al/24 h appears for the soya-based powder and one follow-on powder (Table 3).
+- Estimated aluminium ingestion at 12 months (growing-up milks): 88 and 107 µg Al/24 h across the two growing-up milk rows.
+- Estimated aluminium ingestion for a preterm infant from very-low-birth-weight (<1 kg) up to term (~2.5 kg): 112 to 263 µg Al/24 h.
 - Authors' comparison anchor: typical breast-milk aluminium reported as ~15-30 µg/L; formula values are 10 to 40 times higher.
 
 ## Methods (brief)
@@ -52,7 +52,7 @@ Certification (HMTc): Contributes aluminium occurrence data across three distinc
 
 Courses: Teachable case study for brand QA, supply-chain, and regulatory-affairs audiences on format-specific contamination (powder vs ready-made differ on raw-material aluminium, water reconstitution, packaging migration), ingredient-platform effects (soya cultivar selection and acid-soil agronomy on aluminium uptake), and the gap between feeding-direction-based intake estimates and lab-measured product concentrations.
 
-App: Contributes to the `contamination_profile` Al sub-block for the infant-formula ingredient family, with format-specific differentiation: cow-milk-based powder (n=6), cow-milk-based RTF (n=8), soya-based powder (n=1).
+App: Contributes to the `contamination_profile` Al sub-block for the infant-formula ingredient family, with format-specific differentiation: cow-milk-based powder (n=7), cow-milk-based RTF (n=8), soya-based powder (n=1).
 
 ## Wiki pages this source may touch
 
@@ -68,5 +68,6 @@ App: Contributes to the `contamination_profile` Al sub-block for the infant-form
 
 ## Verification notes
 
-- The current product taxonomy has no preterm-formula slug; the Cow & Gate Nutriprem 1 evidence is captured under `infant-formula-rtf-liquid-non-soy` for routing purposes but is a distinct subcategory in the literature. Flag for Karen per Part 10: consider `infant-formula-preterm-rtf` as a future product page if more preterm-formula evidence accumulates.
+- Cross-vendor audit (Codex, 2026-05-17) corrected Table 2 powder row count from n=7 to n=8 and cow-milk-based powder count from n=6 to n=7; reassigned the 863.0 µg/L ready-made replicate maximum to the preterm product per Table 1; removed avoidable brand-attributed values from Key numbers; and corrected `raw_path` to the matching SHA-256 PDF at `raw/studies/1471-2431-10-63.pdf`.
+- The current product taxonomy has no preterm-formula slug; the preterm-formula evidence is captured under `infant-formula-rtf-liquid-non-soy` for routing purposes but is a distinct subcategory in the literature. Flag for Karen per Part 10: consider `infant-formula-preterm-rtf` as a future product page if more preterm-formula evidence accumulates.
 - This page was enhanced 2026-05-17 from a Mode B (direct PDF) GPT-5.5 fast-mode draft via the verification pipeline. Prior version (2026-04-29) had a legacy `## Summary` heading and thin Key numbers (4 rounded bullets); enhanced revision adds replicate-sample structure, EDI estimates, breast-milk comparison anchor, and per-table source citation. GPT draft initially listed brand-by-brand values in Key numbers (Part 12 violation); aggregated to format/category level in this revision, with brand named only where it identifies a special-purpose product form (Nutriprem preterm, SMA Wysoy soya). Modernized `## Wiki pages updated on ingest` heading to `## Wiki pages this source may touch`.
