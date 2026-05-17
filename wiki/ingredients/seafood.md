@@ -202,26 +202,60 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+This is the aggregate node for seafood; see [[ingredients/fish]] for fin-fish synthesis, [[ingredients/freshwater-fish]] for freshwater species, [[ingredients/shellfish]] and [[ingredients/bivalve-molluscs]] for crustacean and bivalve detail, [[ingredients/seaweed]] for marine plants, [[ingredients/shark]] for high-trophic predator detail, and [[ingredients/canned-tuna]] for canned tuna specifically. Across the seafood category, the dominant pathway varies by sub-commodity:
+
+**Methylmercury** is the dominant concern in fin-fish and reflects aquatic-food-web biomagnification (see [[ingredients/fish]] and [[metals/mercury-methyl]]). Apex marine predators (shark, swordfish, king mackerel, tilefish, bigeye tuna) carry the highest MeHg loads.
+
+**Cadmium** is the dominant concern in bivalve molluscs (oysters, mussels, clams, scallops). Bivalves filter large volumes of water and concentrate cadmium and other metals from the water column. [[ingredients/bivalve-molluscs]] is the canonical page for this.
+
+**Inorganic arsenic** is elevated in seaweed and kelp (see [[ingredients/seaweed]]); marine algae bioaccumulate arsenic from seawater and partition some of it as inorganic species.
+
+**Total arsenic** in fin-fish is dominated by arsenobetaine, a non-toxic organic form; total arsenic in shellfish carries a mix of arsenobetaine and arsenosugars. See [[metals/arsenic-total]] for the speciation-rule discussion.
+
+The category-wide HMTc panel concerns vary by sub-commodity. The Cat 6 Step 0 lock recognizes this by splitting seafood into rows: freshwater fish, marine non-predatory fish, marine predatory fish, shellfish, seaweed/kelp foods, and canned seafood (with tin flag).
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within the seafood category is the largest of any food category because the metal-load drivers operate on completely different mechanisms across sub-commodities: trophic-level biomagnification (MeHg in fin-fish), water-column filtration (Cd in bivalves), bio-uptake from seawater (iAs in seaweed). Cross-sub-commodity comparison requires per-sub-commodity context.
+
+See per-sub-commodity ingredient pages for specific range and variance synthesis.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Seafood processing (cleaning, filleting, freezing, canning, smoking, drying, fermentation) generally does not remove the source-seafood metal load. Methylmercury in fin-fish is bound to muscle protein and is not reduced by cooking, smoking, or canning. Cadmium in bivalves is bound in soft tissue and is not removed by depuration (the water-circulation cleaning step in commercial bivalve operations) at meaningful levels.
+
+Canning concentrates per-mass metal through water loss and introduces standard tinplate-Sn-migration consideration for canned seafood (with-tin-flag designation per Cat 6 Step 0 lock).
+
+Smoking can add trace metals from smoke-source contamination but the contribution is small relative to source-fish methylmercury or source-bivalve cadmium.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Seafood-derived derivatives concentrate metals: fish flour and fish protein concentrate carry source-fish metals at concentrated per-mass dry-basis levels; fish oil supplements partition methylmercury out but retain lipophilic contaminants (PCBs, dioxins); cod liver oil specifically carries elevated Cd and Pb relative to refined fish oil because liver is the Cd-storage organ.
+
+Bivalve-derived products (oyster supplements, shellfish powders) carry the source bivalve Cd.
+
+Seaweed-derived products (kelp tablets, dulse flakes, kelp granules as salt substitute) carry source-seaweed iAs at concentrated dry-mass levels and route to [[products/supplements-algae-seaweed-based|Cat 16 row 19]] when sold as dietary supplements.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention across seafood sub-commodities. For methylmercury in fin-fish: species selection (low-trophic short-lived species over apex predators) is the largest single intervention. For cadmium in bivalves: production-area selection (bivalve growing areas with documented low-Cd water-column data) reduces source-Cd. For iAs in seaweed: species selection (some seaweed species accumulate iAs less than others) and product-format selection (rinsed vs unrinsed seaweed has different iAs).
+
+**Consumption-pattern levers** apply at the consumer level for fin-fish methylmercury (FDA/EPA tiered consumption advisory) and for bivalves (commercial-Cd-monitored bivalve sources only).
+
+**Processing levers** ([[mitigation/processing]]) are limited for the source-seafood metal load. Cooking and processing don't reduce methylmercury, Cd, or iAs at meaningful levels.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level methylmercury testing for fin-fish (especially predatory species) and lot-level Cd testing for bivalves. Seaweed should be speciation-tested for iAs/tAs split. See [[testing/icp-ms]] and [[testing/arsenic-speciation]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned seafood.
+
+**Agronomic and formulation levers** are not consequential for wild-caught seafood; aquaculture seafood has feed-source levers that operate analogously to terrestrial-animal feed sourcing.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets species-specific Hg maximum levels for fishery products. Pb and Cd MLs for fish and bivalve molluscs are also set.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex Alimentarius General Standard for Contaminants and Toxins covers fish and shellfish.
+- FDA action level of 1.0 ppm methylmercury in fish ([[regulations/fda-methylmercury-fish-1-ppm]] when added) is the US enforcement reference.
+- FDA/EPA joint fish-consumption advisory categorizes fish into best-choice, good-choice, and avoid tiers for pregnant women and young children.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL and Hg MADL apply to seafood sold in California; serving-based screens govern.
 
 

@@ -69,22 +69,46 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+This is the aggregate node for meat and poultry commodities; see [[ingredients/beef]], [[ingredients/poultry]], [[ingredients/pork-bacon]], [[ingredients/ham]], [[ingredients/turkey]], [[ingredients/organ-meats]], [[ingredients/chicken]], [[ingredients/ground-beef]], [[ingredients/lamb-chop]], [[ingredients/pork-chop]], and related per-species pages for commodity-specific synthesis. Across the meat-and-poultry category, the dominant pathway is dietary exposure of the live animal: feed, water, and mineral supplements deliver trace metals that deposit in muscle, organs, bone, and fat. Lifetime exposure accumulates particularly in liver and kidney (the dominant Cd-storage organs) and in bone (the dominant Pb-storage tissue).
+
+The category-wide HMTc panel concerns are Pb and Cd, with organ meats (a subcategory across species) carrying substantially higher Cd than muscle. Methylmercury is not a meat-and-poultry concern because terrestrial herbivores do not bioaccumulate methylmercury through their plant-and-grain diet.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Meat-and-poultry processing (slaughter, dressing, aging, cutting, packaging) does not change muscle and organ metal content meaningfully. Cooking concentrates metals per unit cooked mass through water loss but does not reduce total per-serving load. Removing skin and trimming fat have small effects on Pb (modest reduction when skin is the deposition surface) and negligible effects on Cd (which is bound in muscle and organ tissue).
+
+Curing, smoking, and drying (processed meats: jerky, biltong, deli meats, sausage, bacon) concentrate metals per unit dry mass through water loss; added curing salts can contribute trace Pb depending on salt source. Canning introduces standard tinplate-Sn-migration considerations.
+
+See per-species ingredient pages for commodity-specific processing detail.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Meat-derived derivatives that concentrate metals: bone broth (Pb from bone tissue), meat-organ supplements (Cd-rich organ-derivative supplements sold in health-food channels), meat-protein powders and isolates (per-mass-concentrated relative to source meat), gelatin and collagen products (rendered from connective tissue and bone; trace Pb depending on source-animal exposure).
+
+Processed meats (deli meat, sausage, hot dogs, bacon, jerky, canned meat products) inherit the source-meat metal load plus contributions from cure salts, binders, and packaging.
+
+Pet-food and animal-feed derivatives of meat and poultry have their own regulatory framework (FDA CVM, AAFCO) and are addressed under [[products/pet-food-dry-kibble|Cat 17 Pet Foods]].
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention category-wide. Single-source-region sourcing from documented low-Pb production areas, supplier-feed verification, and avoidance of high-Cd organ-sourcing reduce per-product Pb and Cd. Feed-source specification (testing of cattle/poultry/swine feed for Pb and Cd) is the operational supplier-side intervention.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the feed-grain and forage stage: feed-grain sourcing from low-Cd growing regions, water-source Pb testing for production water, avoidance of contaminated pasture for grazing animals (post-mining-area restoration, urban-adjacent grazing on Pb-deposition soils).
+
+**Processing levers** ([[mitigation/processing]]) are limited for fresh meat. Visible-fat trimming has small Pb effect where fat is the deposition site. Skin removal reduces poultry per-serving Pb where skin is the deposition surface. Cooking-method choice does not reduce total exposure.
+
+**Formulation levers** ([[mitigation/formulation]]) include muscle-only vs muscle-plus-organ formulation in processed meats and ingredient-percentage adjustment in compounded products. Organ-meat reduction in mixed-meat products substantially reduces per-serving Cd.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb and Cd testing on incoming carcasses, particularly for processed products and infant-marketed meat purees. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the standard Sn-migration consideration for canned meat products and food-contact-substance specifications for plastic and aluminum-foil packaging of fresh meat.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in muscle meat (bovine, swine, ovine, equine, poultry) and in offal (liver, kidney). Offal MLs are higher than muscle MLs reflecting the organ-accumulation pattern.
+- Codex Alimentarius CXS 193-1995 — sets Cd and Pb MLs for meat and offal, distinguishing muscle from organ; species-specific values apply where they exist.
+- USDA/FSIS National Residue Program monitors meat and poultry for chemical residues including heavy metals; no binding action levels for Pb or Cd specifically but ongoing surveillance.
+- FDA does not maintain a binding action level for Pb or Cd in meat or poultry.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to meat and poultry sold in California; serving-based screen governs.
 
 

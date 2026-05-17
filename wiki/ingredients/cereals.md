@@ -158,26 +158,54 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+This is the aggregate node for cereals; see [[ingredients/rice]], [[ingredients/wheat]], [[ingredients/oat]], [[ingredients/maize]], [[ingredients/quinoa]], [[ingredients/non-rice-grains]], and related per-grain pages for commodity-specific synthesis. Across the cereals category, the dominant pathway is soil-uptake at the grain-production stage: each cereal species takes up Cd, Pb, and other panel metals at species-specific rates that depend on plant root biology, soil pH, soil Cd and Pb concentrations, and water-management regime.
+
+Rice is the canonical iAs accumulator and a moderate Cd accumulator (water-management trade-off discussed at [[ingredients/rice]]). Wheat, oat, and non-rice grains accumulate Cd at lower rates than rice and do not accumulate iAs efficiently. All cereal grains concentrate Cd in the bran layer relative to the endosperm.
+
+The HMTc panel concerns for cereals are dominantly iAs (rice and rice-products) and Cd (all cereals, with bran-fraction concentration). Lead is generally low except in grains grown on Pb-contaminated soils.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within "cereals" is dominated by the rice-vs-non-rice axis (rice carries 5-10× the iAs of non-rice grains from the same region) and by the whole-grain-vs-refined axis (whole-grain carries 1.5-3× the Cd of refined-flour from the same source grain). Within rice, see [[ingredients/rice]] for region/water-management/variety detail. Within non-rice cereals, geographic variance tracks regional soil-Cd: cereals from Cd-elevated regions (parts of EU, Australia, some Chinese growing zones) carry higher Cd than cereals from cleaner regions.
+
+The Cat 3 Step 0 lock recognizes the rice-vs-non-rice split at the breakfast-cereal level ([[products/breakfast-cereal-rice-based]] vs [[products/breakfast-cereal-non-rice]]) and at the pasta level ([[products/pasta-rice-based]] vs [[products/pasta-wheat-based]]).
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Cereal milling separates the bran (high-Cd) from the endosperm (low-Cd); refined-flour cereal products carry 40-60 percent less Cd than whole-grain products from the same source grain. For rice, polishing similarly reduces iAs and Cd.
+
+Cooking with water (boiling pasta, cooking rice or oats) extracts some metals into the cooking water; discarding the cooking water reduces per-serving iAs in rice substantially (35-50 percent per [[ingredients/rice]] discussion). For wheat-based pasta and other non-rice cereals, the cooking-water-discard effect is smaller because Cd is more tightly bound in the endosperm.
+
+Toasting, baking, and other heat treatments at typical cooking temperatures do not change cereal metal content.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Cereal-derived derivatives that concentrate metals: rice bran, wheat bran, oat bran (the bran-only fractions carry the source-grain bran concentration without endosperm dilution), rice protein concentrate (concentrates Cd from source rice), brown-rice syrup (concentrates iAs from source rice, per the [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Jackson 2012]] organic-formula finding).
+
+Cereal-flour-based finished products (bread, pasta, baked goods, breakfast cereal) inherit the source-grain metal load proportional to the cereal fraction in the recipe.
+
+Cereal-based dietary supplements (rice-protein powder, wheat-germ supplements, oat-fiber supplements) carry per-serving metal at concentrated levels and route to [[products/supplements-protein-collagen-powders|Cat 16 row 20]] or [[products/supplements-botanicals-herbs|Cat 16 row 15]] depending on labeling.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention category-wide. Single-origin sourcing from documented low-Cd / low-iAs growing regions and supplier-grain QC verification reduce per-product metal load. For rice specifically, [[ingredients/rice]] discusses the substantial geographic-segmented sourcing variance.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the grain-production stage: soil pH management, water-management regime for rice, cultivar selection (low-Cd-accumulator cultivars identified in wheat, rice, oat, and other species), avoidance of high-Cd phosphate fertilizers.
+
+**Processing levers** ([[mitigation/processing]]) include polishing decisions for rice (white-flour reduction vs nutrient retention), refined-flour vs whole-grain formulation, rinsing protocols (multi-rinse protocols for rice), and cooking-water-discard for rice products.
+
+**Formulation levers** ([[mitigation/formulation]]) include substitution of low-iAs grain for rice in target-low-iAs products (oat-based or wheat-based vs rice-based formulations).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd and iAs testing on incoming grain shipments. iAs/tAs speciation is operationally required for rice products targeting EU markets. See [[testing/icp-ms]] and [[testing/arsenic-speciation]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not generally consequential for cereal metal load on typical shelf-life timescales.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in cereals and cereal products. iAs has specific MLs for rice and rice products differentiated by processing form (parboiled vs non-parboiled milled, infant rice cereal).
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — sets Cd MLs for cereal grains; cereal-product-specific limits derive from national authorities and EU implementation.
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs action level of 100 ppb for infant rice cereal.
+- FDA Closer to Zero Pb framework covers processed baby foods including cereal-based baby foods.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to cereal-containing products sold in California.
 
 
