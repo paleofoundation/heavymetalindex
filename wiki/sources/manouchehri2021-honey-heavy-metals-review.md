@@ -11,20 +11,20 @@ source_type: review
 evidence_tier: B
 license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/10.31467-uluaricilik.973053-1886804.pdf"
-metals: [Pb, Cd, tHg, Cr, Ni, Al]
+metals: [Pb, Cd, tHg, Cr, Ni, Al, Fe, Zn, Cu, tAs, Mn, Co, Sn]
 ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
 matrices: [honey]
-jurisdictions: [IR, TR, NG, AR, PK, HR, XK]
+jurisdictions: [IR, TR, NG, AR, PK, HR, XK, BD, IQ, GH, IT, UA, PL, ET, RO, BR, IN, SA, MA, HU]
 near_duplicates: []
 sample_n: null
-sample_population: "Systematic review of published literature on heavy metals in honey, drawing from studies in Iran, Turkey, Nigeria, Argentina, Pakistan, Croatia, Kosovo, and other countries"
-updated: 2026-05-14
+sample_population: "Systematic review of published literature on heavy metals in honey, drawing from studies in Iran, Turkey, Nigeria, Argentina, Pakistan, Croatia, Kosovo, Bangladesh, Iraq, Ghana, Italy, Ukraine, Poland, Ethiopia, Romania, Brazil, India, Saudi Arabia, Morocco, Hungary, and other countries"
+updated: 2026-05-17
 ---
 
 # Manouchehri et al. 2021 — Heavy metals in honey: systematic review (Uludag Bee Journal)
 
-This systematic review from Iranian and Turkish authors, published in the Turkish Uludag Bee Journal, evaluates the presence of toxic and carcinogenic heavy metals in honey, covering bee uptake pathways (contaminated water, pollen, nectar, inhalation during flight, adhesion to hairy body surfaces), the health effects of consuming contaminated honey, and findings from studies across multiple countries. Bees act as biomonitors for environmental heavy metal pollution, and honey from industrial areas consistently shows higher metal levels than honey from rural regions. Key geographic findings reviewed include: in Iran, most honey samples showed low contamination but Cd and Hg exceeded permitted limits in some regions tied to industrial proximity; in Croatia and Kosovo, Pb content was higher than reported in other European countries; in Nigeria, Fe, Cu, Mn, and Zn exceeded WHO/FAO permitted levels; studies in Turkey showed a direct correlation between honey metal contamination rates and proximity to industrial centres.
+This systematic review from Iranian and Turkish authors, published in the Turkish Uludag Bee Journal, evaluates the presence of toxic and carcinogenic heavy metals in honey, covering bee uptake pathways (contaminated water, pollen, nectar, inhalation during flight, adhesion to hairy body surfaces), the health effects of consuming contaminated honey, and findings from studies across multiple countries. Bees act as biomonitors for environmental heavy metal pollution, and honey from industrial areas consistently shows higher metal levels than honey from rural regions. Key geographic findings reviewed include: in Iran, most honey samples showed low contamination but Cd and Hg exceeded permitted limits in some regions tied to industrial proximity; in Croatia and Kosovo, Pb content was higher than reported in other European countries; in Nigeria, Fe, Cu, Mn, and Zn exceeded WHO/FAO permitted levels; studies in Turkey showed a direct correlation between honey metal contamination rates and proximity to industrial centres. The review also describes Pb and Sn migration as a storage-container pathway for acidic honey.
 
 ## Key numbers
 
@@ -35,7 +35,7 @@ The review does not generate primary concentration data. Selected findings from 
 - One Iranian study (Saveh City, Markazi Province): Cd and As contamination measured in honey; values "similar to Turkey, Argentina, Nigeria, Pakistan"
 - Several studies reported Cr, Zn, Fe, Ni, Mn, Pb, Cu, Cd, Co concentrations in honey below FAO/WHO limits, posing no risk (e.g., one multi-country study cited by Altekin et al. and Piven et al.)
 
-Metals covered in the review: Fe, Zn, Cu, As, Pb, Cd, Ni, Cr, Al, Mn. Methods referenced in cited studies: ICP-OES, AAS.
+Metals covered in the review: Fe, Zn, Cu, As, Pb, Cd, Ni, Cr, Al, Mn, Co, Hg, and Sn as a storage-container pathway. Methods referenced in cited studies include ICP-OES, ICP-MS, ICP-AES, AAS, FAAS, GFAAS, HGAAS, FES, HPLC, and TXRF.
 
 Bee body accumulation is reported to be higher than honey accumulation for most metals, suggesting bees filter out some contamination in the honey production process.
 
@@ -45,13 +45,32 @@ Systematic review using keywords "heavy metals" and "honey" in databases: Google
 
 ## Implications
 
-**Certification:** Honey is not a current HMT&C product category, but this review documents the contamination pathway through bee forage and establishes that honey quality is geographically variable, with industrial proximity a dominant driver. If honey certification is added, this review provides a literature orientation.
+**Certification:** This review documents contamination pathways through bee forage and storage containers and establishes that honey metal burden is geographically variable, with industrial proximity a dominant driver. It is review-level orientation evidence rather than a primary ppb occurrence dataset.
 
 **Courses:** Useful for supply-chain modules demonstrating that biomonitors like bees reflect environmental contamination. Also illustrates the metal-in-packaging pathway: the review notes that acidic honey (pH ~3.9) can corrode metal containers, and soldered cans increase Pb and Sn in honey; unsealed or improperly coated storage containers are a contamination source.
 
 **App:** Not a source of usable ppb values for contamination_profile. Storage container material is a relevant contamination lever for honey.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/honey]]
-- [[supply-chain/packaging]]
+- [[products/honey]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/mercury-total]]
+- [[metals/chromium]]
+- [[metals/nickel]]
+- [[metals/aluminum]]
+- [[metals/iron]]
+- [[metals/zinc]]
+- [[metals/copper]]
+- [[metals/arsenic-total]]
+- [[metals/manganese]]
+- [[metals/cobalt]]
+- [[metals/tin-inorganic]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) expanded the metal and country scope to match the review table and discussion, removed the invalid `supply-chain/packaging` link, and replaced HMT&C category speculation with source-level language.
+- The review does not provide arsenic or mercury speciation; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
+- Sn is included only for the storage-container leaching pathway discussed by the review, not as a pooled honey occurrence estimate.
