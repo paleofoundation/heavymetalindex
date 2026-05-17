@@ -12,10 +12,10 @@ evidence_tier: A
 license: "CC BY-NC-ND 4.0"
 access_url: "https://doi.org/10.1038/s41598-026-44198-w"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf"
-metals: [Pb, Cd, Ni, Cr, Cu, Fe, Mn, Zn]
+metals: [Pb, Cd, Ni, Cr, Cu]
 ingredients: ["[[ingredients/milk-and-dairy]]", "[[ingredients/cereals]]"]
 products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-cereal]]", "[[products/infant-and-child-foods-master]]"]
-matrices: [infant-formula-powder, infant-cereal, baby-food]
+matrices: [infant-formula-powder, infant-cereal]
 jurisdictions: [NG]
 near_duplicates: []
 sample_n: 20
@@ -35,7 +35,7 @@ WHO (2023) limits cited by authors for comparison: Pb 0.03 mg/kg, Ni 0.07 mg/kg,
 
 Baby Milk (n=8) heavy metal ranges and per-sample values (Table 2, mg/kg):
 - Pb: 0.07–0.140 (sample G lowest 0.07; sample H highest 0.140). All 8 samples exceeded the WHO limit (0.03 mg/kg).
-- Ni: 0.030–0.260 (sample D lowest 0.030; sample H highest 0.260). 6 of 8 samples exceeded WHO limit (0.07 mg/kg).
+- Ni: 0.030–0.260 (sample D lowest 0.030; sample H highest 0.260). 5 of 8 samples (B, E, F, G, H) exceeded WHO limit (0.07 mg/kg).
 - Cu: 0.060–0.310 (sample G lowest 0.060; sample B highest 0.310). All samples below WHO limit (0.7 mg/kg).
 - Cd: 0.010–0.210 (samples A, E lowest 0.010; sample C highest 0.210). One sample (C) exceeded WHO limit (0.2 mg/kg).
 - Cr: 0.000–0.210 (samples E, F, G, H = 0.000; sample C highest 0.210). One sample (C) at WHO limit (0.3 mg/kg); none exceeded.
@@ -51,7 +51,7 @@ Infant Formula (n=12) heavy metal ranges and per-sample values (Table 2, mg/kg):
 
 Risk assessment (Target Hazard Quotient and Hazard Index; assumed infant body weight 5 kg, daily intake DIV = 0.1 kg/day; USEPA IRIS RfD values cited: Cd 0.001, Cr 0.003, Pb 0.0035 mg/kg/day; THQ = DIV × Cm / (RfD × B)):
 - THQ > 1 in Baby Milk for Cd: samples A (THQ 2.2), C (4.2), D (1.6) per Table 3 — these are the samples the authors flag as risk-bearing for cadmium.
-- THQ > 1 in Baby Milk for Cr: sample C only (THQ 4.2 per Table 3; reading the paper text rather than the raw Table 3 number).
+- THQ > 1 in Baby Milk for Cr: sample C only, per paper text page 11 ("that of chromium was only in sample C"). Table 3 does not include a Cr THQ column (columns shown: Pb, Ni, Cu, Cd, HI), so no per-sample Cr THQ numeric is tabulated. Computed from Table 2: Cr THQ for sample C = 0.1 × 0.210 / (0.003 × 5) = 1.4.
 - THQ > 1 in Baby Milk for Pb: Table 3 lists per-sample Pb THQ values of 457, 514, 57, 629, 514, 457, 4, 8 for samples A–H, but these are inconsistent with both the paper text ("only cadmium and chromium...posed health risk in some Baby Milk samples") and with the Pb Hazard Index of 4.277 reported in Table 4. The values are most plausibly the result of decimal-point typesetting errors (true values ~0.07–0.629); see verification notes.
 - All THQ values <1 across all metals in Infant Formula.
 
@@ -105,7 +105,7 @@ App: Not suitable as primary input for `contamination_profile` synthesis on infa
 
 Merge-enhance pass 2026-05-17 from prior 2026-05-13 page to current schema:
 
-- **Frontmatter fixes:** `raw_handle` changed from `manual-fetch-kimi` (a folder name, not a handle) to `MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia`. `raw_path` corrected from truncated `"...assessment of baby.pdf"` to the actual full filename. `metals` array expanded from `[Pb, Cd, Ni, Cr]` to `[Pb, Cd, Ni, Cr, Cu, Fe, Mn, Zn]` (paper measures Cu as a heavy metal, and Fe/Mn/Zn as micro-minerals). `matrices` corrected: removed invalid `dry-weight` token; replaced with `[infant-formula-powder, infant-cereal, baby-food]`. `ingredients` populated with `milk-and-dairy` and `cereals` (broad slugs for the milk-substrate BM products and cereal-substrate IF products). `products` expanded to include `infant-cereal` (the "Infant Formula" samples in this paper are functionally cereal-based complementary foods, not powdered cow-milk infant formula). Added `access_url`. `publication` updated to include volume/article number. Body H1 retitled to current convention.
+- **Frontmatter fixes:** `raw_handle` changed from `manual-fetch-kimi` (a folder name, not a handle) to `MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia`. `raw_path` corrected from truncated `"...assessment of baby.pdf"` to the actual full filename. `metals` array updated from `[Pb, Cd, Ni, Cr]` to `[Pb, Cd, Ni, Cr, Cu]` — added Cu (paper treats Cu as a heavy-metal contaminant in Table 2 and the HI framework). Fe, Mn, and Zn were measured but as nutritional micro-minerals at typical food levels, not as contamination signals, so they are not included in the metals routing-input array; the wiki-pages section references them via the discussion text rather than as contamination-page links. `matrices` corrected: removed invalid `dry-weight` token; replaced with `[infant-formula-powder, infant-cereal]` (precise system-prompt tokens for the milk-based powdered BM and cereal-based IF products respectively). `ingredients` populated with `milk-and-dairy` and `cereals` (broad slugs for the milk-substrate BM products and cereal-substrate IF products). `products` expanded to include `infant-cereal` (the "Infant Formula" samples in this paper are functionally cereal-based complementary foods, not powdered cow-milk infant formula). Added `access_url`. `publication` updated to include volume/article number. Body H1 retitled to current convention.
 
 - **Section-heading update:** legacy `## Wiki pages updated on ingest` → current `## Wiki pages this source may touch`. Added `## Verification notes` section.
 
@@ -116,8 +116,16 @@ Merge-enhance pass 2026-05-17 from prior 2026-05-13 page to current schema:
   - **Macro-mineral ranking.** Abstract reports BM ranking P > Ca > Mg > K > Na, but per-sample Figure 2 / table values support Ca > Mg > P > K > Na for the majority of samples (Ca ranged 1391–1562 mg/kg vs P 890–1988 mg/kg; sample A alone has P > Ca).
   - **Cu range in IF.** Abstract reports IF Cu range 0.23–0.83 mg/kg, but Table 2 IF sample I = 0.010 mg/kg, outside the abstract range. Table 2 numerical minimum used here.
   - **Cr range in IF.** Abstract reports IF Cr range 0.000–0.006 mg/kg, but Table 2 IF sample T = 0.010 mg/kg. Table 2 numerical maximum used here.
+  - **Cr highest-sample (BM).** PDF body text page 11 reads "sample A had the highest value (0.11 mg/kg)" for Cr in baby milk, but Table 2 lists sample C at 0.210 mg/kg (almost double sample A's 0.110). Table 2 numerical value used here.
 
 These inconsistencies are documented for downstream synthesis use; this page reports what the paper reports rather than imputing corrections.
+
+Audit-pass 2026-05-17 by fresh-context subagent (REVISE verdict): 1 ❌ + 4 ⚠️ findings; 3 applied, 2 informational/no-change:
+- ❌ Cr THQ for sample C: original draft said "THQ 4.2 per Table 3" — verified against Table 3 (PDF p. 13) which has no Cr column; 4.2 is the Cd value for sample C. Corrected to "Table 3 does not include a Cr THQ column; computed from Table 2 gives 1.4."
+- ⚠️ BM Ni exceedance count: original said "6 of 8 exceeded WHO 0.07 mg/kg." Recounted from Table 2: only B, E, F, G, H exceed (5 of 8). Corrected.
+- ⚠️ Body-text-vs-Table 2 Cr highest-sample contradiction (A vs C): added to inconsistencies list above.
+- ⚠️ Metals frontmatter Fe/Mn/Zn: removed from metals array (these are nutritional, not contamination; were polluting routing). Documented above.
+- ⚠️ Matrix `baby-food`: removed (not in system-prompt matrix vocab); precise tokens `infant-formula-powder` + `infant-cereal` cover both product types.
 
 - **Brand-firewall compliance (Part 12).** The paper uses coded sample identifiers (A–H for BM, I–T for IF) and does not name brands; no brand redaction was required. Product-form descriptors ("milk-based powdered baby milk," "cereal-based infant formula / functionally infant cereal") are used throughout.
 
