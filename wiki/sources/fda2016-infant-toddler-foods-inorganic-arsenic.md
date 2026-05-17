@@ -7,6 +7,8 @@ year: 2016
 publication: "U.S. Food and Drug Administration"
 source_type: gov-data
 evidence_tier: A
+doi: null
+no_doi_assigned: true
 access_url: https://www.fda.gov/media/157605/download
 data_paths:
   - data/evidence/category1_fda2016_infant_cereal_ias_samples.csv
@@ -35,7 +37,7 @@ FDA's 2016 inorganic-arsenic dataset reports sample-level iAs (with paired total
 ## Structured Extracts
 
 - `data/evidence/category1_fda2016_infant_cereal_ias_samples.csv`: sample-level iAs for FDA's `Cereal - Infant/Toddler (rice)` (n=76, all rice as only grain), `Cereal - Infant/Toddler (multigrain)` (n=6, contains rice and other grains), and `Cereal - Infant/Toddler (non-rice)` (n=30, oats/corn/wheat/multigrain with no rice). Trace `TR (x.x)` values preserved as reported.
-- `data/evidence/category1_fda2016_infant_cereal_ias_summary.csv`: per-row p30, p50, p90, p100 for the rice-based and non-rice cereal subcategories under the Part 19 clean/dirty subcategory framework.
+- `data/evidence/category1_fda2016_infant_cereal_ias_summary.csv`: per-row distributional statistics derived from the sample-level extract above, for rice-based and non-rice cereal subcategories.
 - `data/evidence/category5_grape_juice_inorganic_arsenic_samples.csv`: sample-level extract for the FDA `Juice - Grape` rows.
 - `data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv`: deterministic quantified-cell iAs summary rows for non-apple juice and broader not-canned fruit-juice context.
 

@@ -27,11 +27,11 @@ This page is a Step 0 lock scaffold for Cat 2 Row 7. Literature evidence will be
 
 ## Who this page is for
 
-Brand legal teams evaluating HMTc Cat 2 certification for the Diaper Cream, Non-ZnO row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the children's personal care aisle need the row-level assortment-eligibility view. HMTc internal staff use this page as the routing hub between this row's source evidence and the staff Standards Workbench's threshold-selection arithmetic (which lives in `data/workbench/standards/`, never on this public page).
+Brand legal teams evaluating HMTc Cat 2 certification for the Diaper Cream, Non-ZnO row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the children's personal care aisle need the row-level assortment-eligibility view. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Diaper Cream, Non-ZnO row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. The percentile-selection arithmetic that informs HMTc Cat 2 thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Diaper Cream, Non-ZnO row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 Cat 2 dose-pathway methodology supplement (per OPERATING.md Part 7 initiative 3.1) is documented at [[health/cat-2-non-ingestion-exposure-pathways]]. That supplement governs how dermal, inhalation, accidental-ingestion, and trans-placental exposure factors apply to this row.
 

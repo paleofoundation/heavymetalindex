@@ -32,7 +32,7 @@ Brand legal teams evaluating Cat 2 certification for baby personal care lines ne
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in baby talcum powders. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs where the source distinguishes; most cosmetic-occurrence studies report total metal only). Basis is preserved (finished-product as sold; no reconstitution adjustment needed). Non-detect handling follows the source's convention. Pooling avoided across LOD/LOQ, period, geography, and method differences. Row-fit: "baby talcum powder" / "infant powder" matches direct row-fit; "cosmetic talcum powder (adult)" or "general talc-based cosmetic" matches partial row-fit. The percentile-selection arithmetic that informs HMTc thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in baby talcum powders. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs where the source distinguishes; most cosmetic-occurrence studies report total metal only). Basis is preserved (finished-product as sold; no reconstitution adjustment needed). Non-detect handling follows the source's convention. Pooling avoided across LOD/LOQ, period, geography, and method differences. Row-fit: "baby talcum powder" / "infant powder" matches direct row-fit; "cosmetic talcum powder (adult)" or "general talc-based cosmetic" matches partial row-fit. HMT&C certification thresholds for this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 ## Literature Evidence Summary
 

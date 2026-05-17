@@ -48,7 +48,7 @@ This page is HMTc Category 5 row 10 from the locked beverage architecture. It ex
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
     </div>
   </dl>
 </div>
@@ -97,7 +97,7 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Herbal/botanical infusions. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Herbal/botanical infusions. Values are pulled directly from cited sources without re-aggregation. Aggregation, comparability review, and HMT&C certification threshold decisions are handled separately under the certification program; see the [methodology](/methodology) for the wiki/HMT&C separation.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -148,7 +148,7 @@ Herbal and botanical infusions represent the most heterogeneous supply-chain cha
 
 This page documents what the cited sources report. The current evidence base (n=3 plant species, one country, one study) is insufficient for computing a defensible population-distribution percentile for this product category as a whole. The category's internal heterogeneity — spanning hundreds of plant species across dozens of growing regions — means that any row-level standard must be anchored on a substantially larger and more representative source set.
 
-The row is designated EF-5 (data gap with documented rationale). Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench when sufficient evidence is available.
+The row is designated EF-5 (data gap with documented rationale). HMT&C certification threshold decisions are made separately under the certification program and are not published on this public page.
 
 ## Historical recalls and enforcement
 

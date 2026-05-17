@@ -30,7 +30,7 @@ Brand legal teams evaluating Cat 2 certification for children's personal-care li
 
 Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions from CLAUDE.md Part 6 (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
 
-The percentile-selection arithmetic that informs HMT&C Cat 2 thresholds (P97 clean, P45 contaminated per CLAUDE.md Part 19) lives on the staff Standards Workbench. This public page reports literature evidence only. The gap between literature baseline and final HMT&C threshold is named on the workbench, not hidden.
+HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden.
 
 ## The 16-row Cat 2 inventory
 
