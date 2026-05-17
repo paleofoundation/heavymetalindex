@@ -60,26 +60,41 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Parsley (Petroselinum crispum) is an Apiaceae leafy herb cultivated globally. As a leafy plant, parsley accumulates [[metals/cadmium|Cd]] and [[metals/lead|Pb]] via the leafy-vegetable pathway documented for [[ingredients/leafy-greens|leafy greens]]: aerial deposition plus rapid xylem-to-leaf metal transport. The Iranian Babol vegetable survey by [[sources/abdolahpour2023-heavy-metals-babol-vegetables|Abdolahpour 2023]] and the UAE traditional-herb survey by [[sources/dghaim2015-heavy-metals-uae-herbs|Dghaim 2015]] document parsley as an Apiaceae herb sitting at the moderate-to-elevated Pb/Cd end of regional herb-vegetable surveys. Parsley is consumed in much smaller per-serving quantities than spinach or lettuce (typically as garnish, in tabbouleh, in pesto-and-sauce applications), but the per-mass metal load on parsley leaves can be substantial because of the leafy-tissue accumulation pathway. Dried parsley (a common pantry-staple form used in seasoning) concentrates per-mass metals via moisture removal at the typical 8-10× factor for dehydrated herbs.
+
+The HMTc panel concerns for parsley are Pb and Cd at concentrated per-mass levels. Parsley is in [[products/spices|Cat 7 spices]] when dried and incorporated as a culinary seasoning. The data gap in this body table reflects sparse parsley-specific quantitative data; the synthesis is anchored in the [[sources/abdolahpour2023-heavy-metals-babol-vegetables|Abdolahpour 2023]] and [[sources/dghaim2015-heavy-metals-uae-herbs|Dghaim 2015]] regional surveys and the broader [[ingredients/leafy-greens|leafy-greens]] and [[ingredients/spices|spices]] corpus.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within parsley tracks source-region soil profile (industrial-region or urban-garden production carries substantially elevated Pb; commercial herb-farm production sits at moderate baseline), cultivar (curly-leaf parsley, flat-leaf/Italian parsley, Hamburg parsley — Hamburg parsley grown for the root accumulates root-vegetable Pb in the root and leafy-vegetable Pb in the leaves), and growing-system (greenhouse and hydroponic parsley carries lower metals; field-grown sits at baseline). Imported herbs from documented industrial-region production per [[sources/dghaim2015-heavy-metals-uae-herbs|Dghaim 2015]] carry higher per-mass loads than developed-market commercial supply.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Parsley processing for fresh-market consumption involves harvest, washing, and packaging. Industrial dehydration for dried parsley involves washing, drying (typically forced-air drying at 50-65°C), milling, and packaging; dehydration concentrates per-mass metals at the moisture-removal factor. Parsley powder and parsley-flake seasoning products concentrate per-mass metals at the dried-herb baseline. Frozen parsley retains the fresh per-mass profile. Parsley-containing prepared products (tabbouleh, chimichurri, pesto, parsley-pesto, parsley-sauce) dilute the parsley fraction with other ingredients.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Parsley derivatives include fresh parsley, dried parsley (and parsley flakes), parsley powder, frozen parsley, parsley pesto, and parsley-containing prepared sauces and salads. Dried and powdered parsley carry per-mass metals at concentrated levels and should be considered in spice-and-herb compliance contexts. Parsley root (Hamburg parsley) and parsley seed (an Apiaceae spice) carry separate per-derivative profiles. Parsley essential oil partitions metals to non-lipid fractions.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are dominant for parsley as a leafy-herb spice. Source-region soil verification; supplier audit programs for herb farms; greenhouse-and-hydroponic production specification; and contractual Pb/Cd ceiling on incoming parsley supply.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the parsley-cultivation stage. Soil pH management; soil amendments; cultivar selection; and greenhouse-and-hydroponic production to limit direct soil uptake.
+
+**Processing levers** ([[mitigation/processing]]) include washing optimization (limited effect because Cd is internalized in leaf tissue); processing-equipment material specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include substituting parsley with lower-Pb herbs (cilantro, basil) where the matrix permits; reducing the parsley fraction in herb-based seasoning blends.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd testing on incoming parsley and parsley products. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; standard storage-condition specifications apply to dried parsley to prevent moisture re-uptake.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb in leafy vegetables at 100 ppb (general leafy vegetables); Cd at 200 ppb (general leafy vegetables); these apply to fresh parsley. Dried parsley and parsley powder are covered under the spices category with separate maximum levels.
+- FDA Closer to Zero infant-food framework applies to parsley-containing infant products.
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets leafy-vegetable and spice category limits.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to parsley products sold in California; the broader spice and herb Prop 65 enforcement context applies to dried-parsley products.
 
 

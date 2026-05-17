@@ -60,26 +60,41 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Raspberries (Rubus idaeus and related Rubus species) are aerial-fruiting bramble berries. Like other small fruits ([[ingredients/blueberries|blueberries]], blackberries, strawberries), raspberries accumulate heavy metals primarily via soil uptake at moderate efficiency, with some contribution from atmospheric deposition (more relevant to fields near roads or industrial facilities) and from irrigation water. The aerial fruiting habit makes raspberries less soil-contact than root vegetables, which limits direct soil-particle adhesion to the fruit; the wash-and-rinse step at processing further reduces surface-deposited metals. Compared to leafy vegetables, raspberries carry lower per-mass [[metals/cadmium|Cd]] and [[metals/lead|Pb]]; compared to most temperate tree fruits ([[ingredients/apple|apple]], pear), raspberries sit at moderate per-mass levels.
+
+The HMTc panel concerns for raspberries are generally low; Pb and Cd at moderate levels with limited literature attention because raspberries are not a high-volume infant-feeding commodity (most exposure is in adult diet, where per-serving doses are modest). Raspberry-based products marketed to infants and toddlers (raspberry purees, raspberry-flavored snacks, raspberry-containing baby food) do warrant attention because of the high-frequency feeding context.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within raspberries tracks source-region soil profile (industrial-region or urban production carries elevated Pb; commercial-orchard production in agricultural regions sits at moderate baseline), cultivar (red raspberry, black raspberry, gold raspberry — limited documented per-cultivar differences), and growing-system (greenhouse-grown raspberry carries lower metals than field-grown because of controlled inputs; organic-certified raspberry does not appreciably differ from conventional on heavy-metal content because organic certification does not address soil metals). The broader [[ingredients/fruits|fruits]] aggregate corpus covers the regional spread; raspberry-specific literature is limited.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Raspberry processing for fresh-market consumption is minimal: harvest, wash, pack. Industrial processing for frozen raspberry, raspberry juice, raspberry puree, raspberry concentrate, and freeze-dried raspberry involves washing, freezing or thermal processing, and packaging. Washing reduces surface-deposited Pb. Concentration via evaporation (for raspberry concentrate and raspberry-flavored syrups) concentrates per-mass metals. Freeze-drying retains the source-raspberry metal load at concentrated per-mass levels. Raspberry-jam and raspberry-jelly manufacturing combines raspberry with sugar and pectin; per-mass metals are diluted by the added ingredients.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Raspberry derivatives include fresh raspberry, frozen raspberry, raspberry juice, raspberry concentrate, raspberry puree (for [[ingredients/fruit-purees|fruit purees]] for infant feeding), raspberry powder (freeze-dried and ground), raspberry jam, raspberry jelly, raspberry syrup (flavoring application), and raspberry-flavored beverages. Concentrated and powdered raspberry products carry per-mass metals at higher levels than fresh raspberry. Raspberry seed oil (a cosmetic and nutritional product) partitions metals to non-lipid fractions.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include source-region soil verification for raspberry farms; supplier audit programs for documented low-soil-Pb production regions; and contractual specification of Pb/Cd ceiling on incoming raspberry supply for infant-and-young-child product manufacturers.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the raspberry-cultivation stage. Soil pH management; avoidance of high-Pb agrochemical inputs; and irrigation-water specification.
+
+**Processing levers** ([[mitigation/processing]]) include washing optimization for surface-Pb removal; processing-equipment material specification; and freezing as a metal-neutral preservation method.
+
+**Formulation levers** ([[mitigation/formulation]]) include substituting raspberry with lower-risk fruits where the matrix permits; reducing the raspberry fraction in mixed-fruit purees for infant feeding.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd testing on incoming raspberry supply. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; raspberry products are typically packaged in glass, plastic, or aseptic carton (canned raspberry is uncommon).
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb in berry fruits at 100 ppb; Cd at 50 ppb (general fruit), 100 ppb (specific fruit categories).
+- FDA Closer to Zero baby-food Pb action levels: 10 ppb for fruit purees including raspberry-containing infant fruit products ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]).
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets fruit-category limits aligned broadly with EU.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to raspberry products sold in California.
 
 

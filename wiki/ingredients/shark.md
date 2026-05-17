@@ -60,44 +60,43 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-Shark is at the apex of marine food webs and carries the highest methylmercury bioaccumulation among commonly consumed seafood. Shark species are long-lived (decades for some species), large-bodied predators that eat smaller predatory fish, multiplying the methylmercury concentration at each trophic step. The FDA/EPA fish-consumption advisory categorizes shark in the AVOID tier for pregnant women, women of childbearing age, breastfeeding mothers, and young children specifically because of this.
+Shark sits at the apex of marine food webs and carries the highest methylmercury bioaccumulation among commonly consumed seafood. Shark species are long-lived (decades for the largest species), large-bodied predators that consume smaller predatory fish, which multiplies the methylmercury concentration at every trophic step. The biomagnification factor from primary producer to apex predator across marine food webs spans three to four orders of magnitude for [[metals/mercury-methyl|methylmercury]]; shark muscle commonly carries 500 to 2,000 ppb tHg with documented outliers above 4,000 ppb in the larger species ([[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana|Rodriguez-Mendivil 2019]], [[sources/smolikova2016-heavy-metals-fish-czech|Smolikova 2016]]).
 
-The HMTc panel concerns for shark are dominantly tHg/MeHg. Other panel metals (Cd, Pb, iAs in inorganic form) are at trace levels in shark muscle relative to MeHg.
+Other HMTc-panel analytes ([[metals/cadmium|Cd]], [[metals/lead|Pb]], inorganic [[metals/arsenic-inorganic|iAs]]) sit at trace levels in shark muscle relative to MeHg because shark physiology partitions cadmium into liver and kidney rather than muscle, lead does not biomagnify through marine food chains the way mercury does, and arsenic in marine fish is dominantly organic arsenobetaine (low toxicity) rather than inorganic. The dominant heavy-metal concern for shark is methylmercury, and that concern is consequential enough that the FDA/EPA fish-consumption advisory categorizes shark in the AVOID tier for pregnant women, women of childbearing age, breastfeeding mothers, and young children.
 
 ## Ranges by source, region, and variety
 
-Per-species: All consumed shark species carry elevated MeHg. Larger species (great white, tiger shark, hammerhead, mako, bull shark) carry the highest concentrations because of larger body size and longer lifespan. Smaller shark species (dogfish, smooth-hound, blacktip) carry lower MeHg but still elevated relative to non-shark fish.
+Per-species variance is the dominant driver: all consumed shark species carry elevated MeHg, but larger and longer-lived species (great white shark, tiger shark, hammerhead, mako, bull shark) carry the highest concentrations because of body size and lifespan. Smaller shark species (dogfish, smooth-hound, blacktip) carry lower MeHg but still elevated relative to non-shark fish.
 
-Geographic variance is dominated by the global methylmercury background plus regional fishery and watershed loading. Shark from the Mediterranean, Caribbean, and certain Pacific fisheries carry the highest documented MeHg in some surveys.
+Geographic variance is dominated by the global methylmercury background plus regional fishery and watershed loading. Shark from the Mediterranean, Caribbean, and certain Pacific fisheries carry the highest documented MeHg in some surveys ([[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana|Rodriguez-Mendivil 2019]]). The Czech market survey of imported shark muscle ([[sources/smolikova2016-heavy-metals-fish-czech|Smolikova 2016]]) documents tHg ranges in line with the Mediterranean and Atlantic baseline. Region-specific point-source mercury pollution (mining, coal combustion, gold-amalgam-extraction watersheds) elevates local fishery values, though the open-ocean global background sets the floor.
 
 ## Processing effects
 
-Shark processing (cleaning, filleting, freezing, smoking, drying for shark fin and similar products) does not reduce methylmercury. Cooking concentrates per-mass MeHg slightly through water loss. Removing dark muscle and skin reduces lipophilic contaminants but not MeHg meaningfully.
+Shark processing (cleaning, filleting, freezing, smoking, drying for shark-fin and similar products) does not reduce methylmercury, because MeHg binds tightly to muscle protein and is not removed by any culinary or industrial process commonly applied to fish. Cooking concentrates per-mass MeHg slightly through water loss. Removing dark muscle and skin reduces lipophilic contaminants (PCBs, dioxins) but does not meaningfully reduce MeHg, which is distributed throughout muscle tissue.
 
-Shark fin (consumed in some Asian culinary traditions) carries MeHg at similar concentrations to source-shark muscle. Shark cartilage supplements (sold in some health-food channels) carry per-mass MeHg with concentration adjustments.
+Shark fin (consumed in some Asian culinary traditions) carries MeHg at similar concentrations to source-shark muscle. Shark cartilage supplements (sold in some health-food channels) carry per-mass MeHg with concentration adjustments depending on extraction process.
 
 ## Ingredient-derivative risk
 
-Shark-derived dietary supplements (shark liver oil, shark cartilage, squalene from shark liver) carry source-shark metals at varying levels depending on extraction process. Shark liver specifically can carry elevated Cd from the organ-storage pathway.
-
-These supplements route to [[products/supplements-oil-based|Cat 16 row 21]] or [[products/supplements-botanicals-herbs|Cat 16 row 15]] depending on labeling.
+Shark-derived dietary supplements carry source-shark heavy-metal loads at varying concentrations depending on extraction. Shark liver oil and squalene from shark liver concentrate Cd via the organ-storage pathway (Cd partitions to liver and kidney during the organism's lifetime). Shark cartilage supplements carry MeHg at adjusted concentrations relative to source-shark muscle. These supplements route to [[products/supplements-oil-based|supplements-oil-based]] or [[products/supplements-botanicals-herbs|supplements-botanicals-herbs]] depending on labeling and product format.
 
 ## Mitigation options
 
-**Sourcing levers** ([[mitigation/supply-chain-screening]]) are limited because all shark species carry elevated MeHg by trophic-level definition. The dominant brand-side decision is whether to use shark at all; for products targeting pregnancy and young-child populations, shark sourcing is operationally avoided.
+**Sourcing levers** ([[mitigation/supply-chain-screening|supply-chain-screening]]) are the dominant intervention but are operationally limited because all shark species carry elevated MeHg by trophic-level definition. The dominant brand-side decision is whether to use shark at all; for products targeting pregnancy, infant, and young-child populations, shark sourcing is operationally avoided as a category exclusion.
 
-**Consumption-pattern levers** are the principal consumer-side intervention. FDA/EPA fish-consumption advisory categorizes shark in the AVOID tier for pregnant women, breastfeeding mothers, and young children. Adults outside vulnerable populations can consume shark with moderation but should not consume it weekly.
+**Consumption-pattern levers** are the principal consumer-side intervention. The FDA/EPA fish-consumption advisory categorizes shark in the AVOID tier for pregnant women, breastfeeding mothers, and young children. Adults outside vulnerable populations can consume shark with moderation but should not consume it weekly.
 
-**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level methylmercury testing on commercial shark supply.
+**Testing and QC levers** ([[mitigation/testing-and-qc|testing-and-qc]]) include lot-level methylmercury testing on commercial shark supply. Cold-vapor atomic absorption spectroscopy (CV-AAS) and ICP-MS coupled with methylmercury-specific speciation (CV-AFS) are the standard analytical platforms. Lot acceptance against the FDA 1.0 ppm action level or EU 1.0 mg/kg ML is the operative QC gate.
 
-**Processing, Formulation, Agronomic, Packaging** levers are not consequential for shark methylmercury.
+**Processing, formulation, agronomic, and packaging levers** ([[mitigation/processing|processing]], [[mitigation/formulation|formulation]], [[mitigation/agronomic|agronomic]], [[mitigation/packaging-and-storage|packaging-and-storage]]) are not consequential for shark methylmercury — the contamination is bioaccumulated into the organism's muscle and is not affected by harvest-to-shelf processing or storage.
 
 ## Regulatory limits that apply
 
-- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets the species-specific 1.0 mg/kg Hg ML for shark and similar large predatory species (versus 0.5 mg/kg for most other fish).
-- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MeHg MLs for fish.
-- FDA action level of 1.0 ppm methylmercury in fish applies to shark in commercial channels.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets the species-specific 1.0 mg/kg Hg maximum level for shark and similar large predatory species (versus 0.5 mg/kg for most other fish).
+- [[regulations/eu-reg-2022-617-mercury-fish]] — EU Reg. 2022/617 amendments to Hg MLs for fish.
+- FDA action level of 1.0 ppm methylmercury in fish applies to shark in commercial channels; FDA enforcement on commercial shark is documented.
 - FDA/EPA joint fish-consumption advisory specifically categorizes shark in the AVOID tier for pregnant women and young children.
-- California Prop 65 ([[regulations/california-prop65]]) Hg MADL applies to shark sold in California.
+- Codex Alimentarius CXS 193-1995 establishes MeHg MLs for fish ([[sources/codex-cxs-193-1995|Codex CXS 193-1995]]).
+- California Prop 65 ([[regulations/california-prop65]]) Hg MADL applies to shark sold in California; documented Prop 65 enforcement actions on tuna and similar large predatory species establish the precedent for shark.
 
 

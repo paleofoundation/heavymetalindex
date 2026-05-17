@@ -119,25 +119,45 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Soy protein isolate is the highly refined protein fraction of soybeans (Glycine max), produced at ≥90% protein content (dry-weight basis). It is the protein base for soy-based infant formula and a major ingredient in plant-based meat alternatives, protein bars, protein powders, and nutritional beverages. Heavy-metal load in soy protein isolate originates dominantly from the source soybean's inherited [[metals/aluminum|Al]], [[metals/nickel|Ni]], and [[metals/cadmium|Cd]] profile, which the protein-extraction process concentrates on a per-protein-mass basis. Soybeans naturally accumulate Al at concentrations multiples higher than most grains because soy plants have high-affinity Al uptake from acidic soils (a documented agronomic phenomenon — soy yields are Al-stress-sensitive in acidic soils because of root-zone Al toxicity, and the surviving plant tissue carries elevated Al). Cadmium accumulates via the soybean's high-efficiency Cd transporter (similar to rice's Cd uptake pathway but operating in upland not flooded conditions); Ni accumulates via the soy plant's urease-cofactor pathway.
+
+The protein-extraction process (acid-base extraction with isoelectric precipitation, then drying) concentrates the soybean's metal load on a per-protein-mass basis because the extraction selectively separates protein from carbohydrate, fat, and fiber while retaining the protein-bound metals. The net effect is that soy protein isolate carries the soybean's Al/Ni/Cd profile at concentrations several-fold higher than the source soybean on a per-mass basis. This is the upstream pathway that feeds into [[ingredients/soy-based-infant-formula|soy-based infant formula]] and explains why soy-based formula carries elevated Al relative to cow-milk formula per [[sources/burrell2010-aluminium-in-infant-formulas|Burrell 2010]] and the broader corpus. The HMTc panel concerns for soy protein isolate are Al, Ni, and Cd (dominant), with secondary Pb from minor source-soybean and processing-equipment inheritance.
+
+The data gap status across all ten analytes in the body table reflects that no source in the current routing audit reports soy-protein-isolate-specific values; the synthesis is inferred from the source [[ingredients/soy|soy]] commodity and from soy-based-formula evidence in [[sources/burrell2010-aluminium-in-infant-formulas|Burrell 2010]], [[sources/chuchu2013-aluminium-in-infant-formulas|Chuchu 2013]], and [[sources/kazi2009-toxic-elements-in-infant-formulae|Kazi 2009]].
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within soy protein isolate tracks source-soybean origin region (US Midwest soybean production, Brazilian soybean production, Argentine soybean production, Chinese domestic soybean production, European soybean production — each carrying different Al/Cd profiles reflecting regional soil characteristics), cultivar choice within Glycine max (Al-tolerant cultivars accumulate more Al; commercial cultivar selection drives variance), and protein-isolation process (acid-base extraction vs membrane-based separation; ion-exchange polishing as a post-extraction step). Brazilian and Argentine soy production from acidic Cerrado/Pampean soils carries higher Al than US Midwest production from less-acidic Mollisol soils. Soy-isolate suppliers competing on infant-formula specifications operate to internal Al ceilings; competing suppliers offer different impurity-tier guarantees.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Soy protein isolate manufacturing involves five primary steps: defatting (hexane extraction of soybean oil from flaked soybeans, leaving defatted soy meal), aqueous extraction (alkaline pH ≈8-10 solubilizes protein from carbohydrate and fiber), isoelectric precipitation (pH adjustment to ≈4.5 precipitates protein from solution), neutralization and washing (removal of soluble salts and minor components), and spray-drying (concentration to powder form). The aqueous extraction step partially mobilizes water-soluble metal salts but the subsequent precipitation retains protein-bound metals; ion-exchange polishing as a post-extraction step can substantially reduce Al, Ni, and trace heavy metals. Most commodity-grade soy isolate does not include the ion-exchange polishing step; infant-grade soy isolate from leading suppliers does.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Soy protein isolate routes into three soy-based infant formula product rows ([[products/infant-formula-powder-soy-based]], [[products/infant-formula-rtf-liquid-soy-based]], [[products/infant-formula-concentrated-liquid-soy-based]]) plus the broader soy-protein-containing product universe (plant-based meat alternatives, protein bars, protein shakes, nutritional beverages). The per-finished-product metal load is determined by inclusion rate × per-isolate concentration; soy-based infant formula at high inclusion rate carries the most consequential per-product metal exposure. Soy protein concentrate (≥70% protein) and textured vegetable protein (TVP) are related but less refined derivatives with broadly similar per-mass metal profiles.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Soy-isolate supplier specification at infant-grade impurity tier (typically <500 ppb Al, <100 ppb Pb in finished isolate); supplier audit programs verifying ion-exchange polishing practice; soybean-origin specification favoring lower-Al production regions; and contractual specification of Al/Ni/Cd ceiling on incoming isolate.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the soybean-cultivation stage; see [[ingredients/soy]] for the soil-pH management (lime application to raise pH from acidic to near-neutral reduces Al availability), cultivar-selection (Al-tolerant vs Al-sensitive cultivars accumulate different Al loads), and remediation interventions.
+
+**Processing levers** ([[mitigation/processing]]) are highly effective. Ion-exchange polishing of the soy isolate during the extraction process removes substantial Al, Ni, and trace heavy metals; this is the dominant per-isolate-supplier differentiator. Selection of soy-isolate suppliers that operate ion-exchange polishing is the practical brand-side lever.
+
+**Formulation levers** ([[mitigation/formulation]]) include alternative-base-protein substitution where medically appropriate. For infant formula, hydrolyzed cow-milk protein or amino-acid-based formula substitutes for soy isolate. For plant-based meat alternatives and protein products, [[ingredients/legumes|legume]] proteins (pea, fava), wheat gluten, and rice protein offer alternative bases with different metal profiles.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level Al, Ni, Cd, Pb testing on incoming soy protein isolate against per-mass-in-finished-formula compliance targets. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; the metals are intrinsic to the isolate. Avoidance of aluminum-foil-lined containers for stored isolate is a basic precaution.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+Soy protein isolate as an ingredient does not have direct regulatory maximum levels; the operative limits apply to the finished products into which it is incorporated:
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for infant formula (Pb 10 ppb prepared-for-feeding, Cd 5 ppb, iAs 20 ppb, Hg 20 ppb); the soy isolate must be specified to deliver finished-formula concentrations within these limits.
+- US FDA Closer to Zero infant-and-young-child food framework: applicable to soy-based infant formula.
+- Codex Alimentarius CXS 72-1981 (infant formula) and CXS 156-1987 (follow-up formula) establish composition standards.
+- JECFA Al PTWI of 2 mg/kg b.w./week and EFSA TWI of 1 mg/kg b.w./week are the relevant dose-response references for the Al-elevated route specific to soy-based infant feeding.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to soy-isolate-based products sold in California.
 

@@ -46,9 +46,44 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 ## Ranges by source, region, and variety
 
-Vegetables as a category span three subgroups with substantially different metal-accumulation profiles. **Leafy greens** (spinach, kale, lettuce, chard, arugula) are systematically the highest-Cd subgroup because of transpiration-driven leaf accumulation — see [[ingredients/leafy-greens]] and [[ingredients/spinach]]. **Root vegetables** (carrots, sweet potato, beet, potato, parsnip, turnip) are the next-highest-Cd subgroup because of soil-tissue contact during the entire growing period — see [[ingredients/carrots]], [[ingredients/sweet-potato]], [[ingredients/root-vegetables]], [[ingredients/beet]]. **Non-root fruiting vegetables** (tomatoes, peppers, squash, eggplant, cucumber, zucchini) carry the lowest baseline metals because the fruit organ is metabolically distant from the soil — see [[ingredients/squash]], [[ingredients/cucumbers]], [[ingredients/tomato]].
+Vegetable heavy-metal load tracks four dimensions that the corpus documents consistently. First, plant-tissue type drives the dominant analyte: leafy vegetables ([[ingredients/leafy-greens|leafy greens]], spinach, lettuce, parsley) accumulate Cd and Pb via aerial deposition and rapid xylem-to-leaf transport at concentrations multiples higher than root or fruit vegetables; root vegetables (carrots, beets, potatoes, sweet potatoes) accumulate Pb at the soil-root interface and Cd via cortical uptake; fruit vegetables (tomatoes, peppers, cucumbers, squash) carry the lowest baseline because the fruit-loading pathway concentrates metals less efficiently than leaf or root tissues. Second, soil-source geography drives absolute levels: industrialized-region production (East Kolkata wetlands per [[sources/agarwal2022-heavy-metals-vegetables-east-kolkata|Agarwal 2022]], Bangladeshi vegetable plots per [[sources/samma2024-bangladesh-vegetable-metals|Samma 2024]], Nigerian Kaduna metropolis fields per [[sources/imongben2026-kaduna-vegetables-hra|Imongben 2026]]) carries multiple-fold elevated Pb, Cd, and Ni relative to background. Third, irrigation-water quality and atmospheric-deposition load explain a substantial fraction of cross-regional variance ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing 2025]] documents cyclone-driven sediment deposition elevating post-event vegetable metal load in New Zealand; [[sources/pulze2025-volcanic-eruptions-food-chain-metals|Pulze 2025]] documents Mount Etna volcanic-ash deposition elevating vegetable metal load in surrounding agricultural land). Fourth, market-channel and post-harvest handling (urban-garden production per [[sources/rossini-oliva2024-urban-garden-vegetables-spain|Rossini-Oliva 2024]] documents elevated levels relative to commercial supply, reflecting urban-soil legacy contamination).
 
-Geographic variance within each subgroup is substantial: vegetables from production regions with elevated soil-Cd (phosphate-fertilizer-history regions, post-mining areas, urban-fringe production, wastewater-irrigation regions) carry higher metals than vegetables from clean-soil regions. The 25+ contributing sources in this page's Source legend collectively establish the global variance map.
+National total-diet-study comparisons document the spread: French TDS ([[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]]), Finnish FinDiet ([[sources/suomi2023-finland-dietary-metals-cumulative|Suomi 2023]]), Portuguese TDS ([[sources/ventura2025-portuguese-total-diet-study-trace-elements|Ventura 2025]]), Irish TDS ([[sources/fsai2016-total-diet-study-ireland-2012-2014|FSAI 2016]]), Hong Kong TDS ([[sources/cfs2013-hktds-metallic-contaminants|CFS 2013]], [[sources/cfs2012-hktds-inorganic-arsenic|CFS 2012]]), German BfR MEAL ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Fechner 2022]]), Chinese 6th TDS ([[sources/zhao2022-china-sixth-tds-pb-cd|Zhao 2022]]), and US FDA TDS ([[sources/fda-tds-elements-2018-2020|FDA 2022]]) all report vegetables as a dominant dietary contributor for Cd at the population level. Ingredient-level sub-pages should continue to split root vegetables, leafy vegetables, and fruit vegetables as the evidence accumulates per matrix.
+
+## Processing effects
+
+Industrial vegetable processing (washing, peeling, cooking, canning, freezing, drying, juicing) generally reduces per-mass concentrations of soil-adherent contaminants (Pb, surface dust) but does not affect bioaccumulated metals (Cd, As, Ni). Washing and peeling reduce Pb and surface Cr in root vegetables by 30-60% depending on the depth of cortical accumulation; for leafy vegetables, washing has minimal effect because internalized Cd dominates. Cooking concentrates per-mass metal content via water loss (a 200-gram raw spinach portion that loses 75% of its water on steaming concentrates per-mass Cd roughly 4-fold). Canning introduces a Sn migration pathway from tinplate cans (relevant to canned tomatoes, canned vegetables, mixed vegetables); per [[sources/ventura2025-portuguese-total-diet-study-trace-elements|Ventura 2025]], canned vegetables in EU markets carry Sn at the 5-30 ppb range with measurable upward outliers in older or damaged cans. Juicing concentrates per-mass solute content; vegetable juices and tomato concentrate ([[ingredients/tomato-paste]]) carry per-mass metal levels at multiples of source-vegetable wet-weight.
+
+Drying (vegetable powders, dried herbs, vegetable flakes) concentrates per-mass metal content by the moisture-removal factor (typically 8-12× for vegetables drying from ≈90% to ≈10% moisture). This is why dried vegetable products, vegetable-extract powders, and dehydrated culinary additions can carry per-mass concentrations multiples higher than the fresh source even when the as-consumed dose is comparable.
+
+## Ingredient-derivative risk
+
+Vegetable derivatives span a spectrum of concentration shifts. Fresh vegetables sit at the as-grown baseline. Frozen vegetables match fresh on a per-mass-as-consumed basis. Canned vegetables introduce Sn from can-lining migration (and historically Pb from lead-soldered cans, now phased out under current can-stock specifications). Vegetable juices and concentrates concentrate per-mass metals via water removal. Vegetable purees ([[products/non-root-vegetable-purees]], [[products/root-vegetable-purees]]) for infant feeding sit close to source-vegetable per-mass concentration adjusted for any added rice or other ingredient. Vegetable powders and dried vegetable products concentrate per-mass metals at the moisture-removal multiple. Pickled vegetables (fermented or vinegar-preserved) carry source-vegetable metal load with minor adjustments depending on brine composition.
+
+Mixed-meals products ([[products/mixed-meals-non-rice]], [[products/mixed-meals-rice-containing]]) carry a weighted average reflecting their vegetable-fraction and ingredient mix; rice-containing mixed meals also carry the iAs inheritance from the [[ingredients/rice|rice]] base.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention for vegetables. Geographic-segmented sourcing from documented low-soil-Cd and low-soil-Pb production regions; hydroponic or greenhouse production (limits direct soil uptake and atmospheric-deposition load); supplier-soil verification programs (soil sampling at supplier farms for legacy contamination, particularly Pb in previously industrial or urban soils); irrigation-water specification (testing source water for As, Cd, Pb); and post-cyclone or post-volcanic-event sourcing pauses where regional events have elevated soil and atmospheric deposition per [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing 2025]] and [[sources/pulze2025-volcanic-eruptions-food-chain-metals|Pulze 2025]].
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the vegetable-production stage and are highly effective. Soil pH management (raising pH from 5.5 to 6.5-7.0 reduces Cd plant availability substantially); soil amendments (biochar, lime, organic amendments compete with Cd at root uptake); cultivar selection within species (Cd-low cultivars of lettuce and spinach are documented in agronomic trials); rotation away from Cd-accumulating crops in known-contaminated soils; and remediation of irrigation-water sources. The systematic intervention review by [[sources/sripada2022-cadmium-interventions-lmics|Sripada 2022]] documents the magnitude of these effects in LMIC pregnancy/childhood exposure-reduction trials.
+
+**Processing levers** ([[mitigation/processing]]) include washing (modest Pb and Cr reduction on surface), peeling (substantial Pb reduction on root vegetables), and trimming damaged or older leaves (modest Cd reduction in leafy greens). Industrial canning operations have largely eliminated leaded-solder seams (Pb-soldered cans were phased out by 1995 in most markets). Modern can-stock specification (BPA-NI epoxy lining, tin-free steel, electrolytic chrome) addresses Sn migration.
+
+**Formulation levers** ([[mitigation/formulation]]) include substituting lower-risk vegetable types for higher-risk ones in formulated products (using non-leafy vegetables instead of spinach in baby-food formulations where the matrix allows), reducing the leafy-green fraction in mixed-vegetable products, and avoiding root-vegetable inclusion from documented high-soil-Pb regions.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, iAs, and Ni testing on incoming vegetable supply. The FDA Closer to Zero baby-food Pb action levels ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]) of 10 ppb for non-root vegetable purees and 20 ppb for root vegetable purees set the operative US screening targets for infant-and-young-child product formulators.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification for canned vegetable products, glass-jar substitution for high-acid canned tomato products to eliminate Sn migration, and storage-condition specification for dried and frozen vegetable inventory.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Cd and Pb in vegetables differentiated by subgroup (leafy vegetables, root vegetables, non-root vegetables, spinach specifically): Pb at 100 ppb (leafy), 50 ppb (root and non-root), 300 ppb (spinach); Cd at 200 ppb (leafy), 100 ppb (root and tuber), 50 ppb (non-root).
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex general standard sets MLs for Pb and Cd in vegetable categories aligned broadly with EU but with category-specific tolerances.
+- FDA Closer to Zero infant-food Pb action levels ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]): 10 ppb for non-root vegetable purees, 20 ppb for root vegetable purees, applicable to baby-food products intended for infants and young children.
+- [[regulations/california-prop65]] — California Prop 65 Pb MADL applies to vegetable products sold in California; commercial settlements have established the practical compliance thresholds for vegetable retail.
+- EFSA Scientific Opinion on Ni in food and drinking water ([[sources/efsa2015-nickel-food-water|EFSA 2015]]) sets the operative Ni TDI of 2.8 µg/kg BW/day; vegetables are a dominant Ni dietary contributor.
+- JECFA Cd PTMI of 25 µg/kg BW/month ([[sources/jecfa-73rd-cadmium-2010|JECFA 2010]]) is the operative international Cd reference; vegetables typically account for 30-50% of total dietary Cd intake.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -112,49 +147,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 53 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb risk assessment identifying cereals and vegetables as dominant dietary Pb contributors; establishes no-threshold position and BMDLs for neurodevelopmental and cardiovascular endpoints |
 | 54 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Operative Codex standard setting international maximum levels for Cd, Pb, and other contaminants in leafy vegetables, root vegetables, and specific commodity groups |
 <!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
-See the Ranges section above and the per-subgroup pages ([[ingredients/leafy-greens]], [[ingredients/root-vegetables]], [[ingredients/non-root-vegetables]]) for the subgroup-specific mechanisms. The three pathways across the category are: (a) leaf-transpiration accumulation in leafy species, (b) soil-uptake into root tissue in root vegetables, and (c) low-baseline soil-uptake into fruiting-organ tissue in non-root vegetables.
+Vegetables sit on the soil-uptake side of the food system and inherit their heavy-metal load from three primary pathways: root uptake of soil-resident metals during plant growth (the dominant pathway for [[metals/cadmium|Cd]], [[metals/nickel|Ni]], and [[metals/chromium|Cr]]); foliar deposition from atmospheric particulates and irrigation-water spray (dominant for [[metals/lead|Pb]] in industrialized or roadside production); and irrigation-water inheritance from impacted source waters (dominant for [[metals/arsenic-inorganic|iAs]] in As-affected regions of South Asia, China, and the Mediterranean basin). The soil-source pathway is the primary driver across the corpus per [[sources/ji2026-agricultural-soil-metals-zhejiang|Ji 2026]] (Zhejiang agricultural soils, 877 sites) and [[sources/imongben2026-kaduna-vegetables-hra|Imongben 2026]] (Kaduna vegetable plots, Nigeria); irrigation-water and atmospheric loading dominate when industrial point sources, mining areas, or volcanic-activity zones intersect with vegetable production per [[sources/pulze2025-volcanic-eruptions-food-chain-metals|Pulze 2025]] (Mount Etna) and [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing 2025]] (post-cyclone New Zealand).
 
-## Processing effects
-
-Vegetable processing effects vary by subgroup and product type:
-
-**Fresh vegetables**: Washing removes surface-deposited Pb. Peeling reduces both surface and skin-bound metals. Cooking with water-discard removes a small fraction of water-soluble metals.
-
-**Canned vegetables**: Tinplate-Sn migration is the standard concern (see [[mitigation/packaging-and-storage]]). Cooking-process water-loss concentrates per-mass metal slightly.
-
-**Dried vegetables**: Concentration on dry-mass basis 5-10× the fresh-weight value.
-
-**Frozen vegetables**: Source-vegetable metal load conserved; minor effects from blanching pre-freeze.
-
-**Pureed and juiced vegetables**: See [[ingredients/vegetable-purees]] and [[ingredients/vegetable-juice]].
-
-## Ingredient-derivative risk
-
-Vegetable derivatives that concentrate metals: dried vegetable powders, vegetable concentrates (used as flavor or color), vegetable-based dietary supplements (greens powders), vegetable juice concentrates. Each route to its applicable Cat 4 or Cat 5 row.
-
-Vegetable derivatives that dilute or stabilize metal content: fresh vegetables consumed whole, vegetable broth (water-discard reduces some water-soluble metals), pickled vegetables (fermentation does not appreciably change metal content).
-
-## Mitigation options
-
-**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Geographic-segmented sourcing from documented low-soil-Cd/Pb production regions, hydroponic or greenhouse production for leafy-green-containing products, and supplier-soil verification.
-
-**Agronomic levers** ([[mitigation/agronomic]]) operate at the farm level: soil pH management, cultivar selection (low-Cd-accumulator varieties), zinc supplementation, avoidance of high-Cd phosphate fertilizers, water-source verification.
-
-**Processing levers** ([[mitigation/processing]]) include washing and peeling for root vegetables (effective for surface Pb), cooking-water-discard for some applications.
-
-**Formulation levers** ([[mitigation/formulation]]) include subgroup substitution (substituting non-root for leafy-green in mixed-vegetable products substantially reduces per-product Cd) and ingredient-percentage adjustment.
-
-**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd and Pb testing on incoming vegetables, particularly for infant-and-young-child-marketed vegetable products. See [[testing/icp-ms]].
-
-**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned vegetables and food-contact-substance compliance for plastic and pouch packaging.
-
-## Regulatory limits that apply
-
-- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Cd and Pb in vegetables, differentiated by subgroup (leafy vegetables, root vegetables, non-root vegetables, spinach specifically). Stricter limits apply to infant-and-young-child vegetable foods.
-- [[regulations/codex-cadmium-mls]] — Codex Cd MLs for vegetables.
-- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action levels for processed baby foods including vegetable-puree categories (10 ppb non-root, 20 ppb single-ingredient root).
-- California Prop 65 ([[regulations/california-prop65]]) Pb and Cd MADLs apply to vegetable products sold in California.
+Plant biology drives per-tissue concentration: leafy vegetables ([[ingredients/leafy-greens|leafy greens]], spinach, parsley, lettuce) accumulate [[metals/cadmium|Cd]] and [[metals/lead|Pb]] in leaf tissue via xylem-transport plus surface deposition at concentrations multiples higher than root or fruit tissues; root vegetables (carrots, beets, potatoes) accumulate Pb at the soil-root interface and Cd via cortical uptake; fruit vegetables (tomatoes, peppers, cucumbers, squash) carry the lowest baseline because the fruit-loading pathway concentrates metals less efficiently. The HMTc-panel concerns for the vegetable category are dominantly Pb, Cd, and Ni, with iAs, tAs, Al, and Cr at moderate concern depending on regional and varietal characteristics.
 
 

@@ -142,26 +142,46 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Breastmilk is a dietary-exposure-route page rather than a manufactured ingredient; the heavy-metal content of breastmilk reflects maternal cumulative body burden and ongoing maternal exposure transferred to the infant via the lactation pathway. [[metals/lead|Lead]] in breastmilk originates from maternal bone Pb (mobilized during lactation as bone mineral turnover increases to support milk production) plus ongoing maternal dietary, environmental, and occupational Pb exposure; the [[sources/naspolini2024-human-milk-sao-paulo|Naspolini 2024]] São Paulo cohort documents Pb-in-milk effects on infant language trajectory. [[metals/cadmium|Cadmium]] in breastmilk originates from maternal renal/hepatic Cd stores plus ongoing dietary Cd exposure (cumulative-burden tracking), though Cd transfer to milk is relatively inefficient compared to blood; the [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea|Moon 2025]] Korean maternal-diet cohort documents the maternal-dietary-intake → breastmilk Cd association. [[metals/mercury-methyl|Methylmercury]] transfers efficiently from maternal blood into milk. [[metals/aluminum|Aluminum]] in breastmilk reflects maternal dietary Al plus environmental exposure; ATSDR's toxicological profile ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]) covers the milk-route exposure.
+
+Three systematic reviews establish the human-milk evidence base: [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review|Aisyiah 2025]] (heavy-metal content and contributing factors), [[sources/sushila2024-heavy-metals-human-milk-review|Sushila 2024]] (literature review and health-risk assessment), and [[sources/serreau2024-pollutants-breast-milk-scoping-review|Serreau 2024]] (pollutants in breast milk scoping review). The U.S. systematic review by [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Thoerig 2025]] is the most comprehensive recent U.S. evidence synthesis and documents that human milk generally carries lower per-mass concentrations of As, Cd, Pb, and Hg than reconstituted infant formula. Breastmilk Pb at typical 0.1-13 ppb, Cd at 0.01-1.4 ppb, Hg at 0.04-14 ppb, and Al at 9-80 ppb are the corpus-wide ranges. The HMTc-panel concerns for breastmilk are dominantly Pb (highest typical concentration relative to infant safety thresholds), Hg (notably from maternal fish consumption pattern), and Al (notably from maternal exposure to Al-containing personal-care products and food packaging).
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within breastmilk tracks maternal body burden plus ongoing exposure. First, maternal historical Pb exposure: women with documented historical occupational Pb exposure (battery manufacturing, mining, painting, ammunition), childhood Pb exposure (legacy environmental Pb), or pre-pregnancy elevated BLLs carry higher bone-Pb stores that mobilize during lactation. The [[sources/chen2023-breast-milk-ewaste-china|Chen 2023]] e-waste-region China cohort documents the prenatal-exposure → adverse-birth-outcome pathway in a high-exposure region. Second, geographic and dietary context: the [[sources/fatima2024-breast-milk-heavy-metals-lahore-neutrosophic|Fatima 2024]] Lahore Pakistan cohort and the broader [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review|Aisyiah 2025]] systematic review document elevated breastmilk metal concentrations in regions with high industrial or e-waste-related environmental contamination. Third, maternal dietary pattern: the [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea|Moon 2025]] Korean cohort documents the association between maternal seafood intake and breastmilk Hg, and between maternal cereal/legume intake and breastmilk Cd. Fourth, maternal smoking status: smoking elevates breastmilk Cd substantially.
+
+The systematic review by [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review|Katrynska 2026]] synthesizes the human-milk-as-biomonitor literature and documents the transfer mechanisms, region-specific contributions, and implications for infant health.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Breastmilk is not a processed commodity; the relevant "processing" considerations for the dietary-exposure-route framing are: maternal pumping and storage (refrigerated breastmilk stored for short periods does not appreciably change per-mass metal content; long-term frozen storage similarly does not), maternal supplementation with calcium during lactation (calcium supplementation reduces bone-Pb mobilization into milk, an evidence-based intervention), and infant feeding pattern (exclusively breastfed infants accumulate the entire transferred metal load; mixed-fed infants accumulate the weighted average of breastmilk and formula contributions). The [[sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk|Pikounis 2024]] U.S. cohort and the [[sources/soto-ocana2024-metal-availability-early-life-microbiome|Soto-Ocaña 2024]] CHOP/Penn/Vanderbilt cohort document the urinary-biomarker and gut-microbiome consequences of breastfed vs formula-fed feeding-pattern decisions.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Breastmilk does not have manufactured derivatives in the conventional sense; the relevant derivative consideration is mixed-fed and formula-supplemented feeding patterns where breastmilk is part of the infant feeding mix. The [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort|Carignan 2016]] U.S. prospective cohort and [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Carignan 2015]] cohort document feeding-mode contributions to first-year-of-life As exposure: breastfed infants accumulate substantially less arsenic than formula-fed infants, with the gap widening once rice cereal and rice-containing solids are introduced.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) — not applicable in the conventional supply-chain sense because breastmilk is not a manufactured ingredient. The analogous lever is maternal-side intervention: maternal-dietary-pattern guidance during lactation (avoid high-Hg fish, manage seafood intake, avoid contaminated water sources), maternal occupational and environmental exposure reduction, and maternal pre-pregnancy and pregnancy Pb screening to identify and remediate elevated body burdens before lactation begins.
+
+**Agronomic levers** ([[mitigation/agronomic]]) — not directly applicable. The upstream analog is the maternal-dietary-source-food agronomic intervention (which operates on the source foods the mother eats, not on breastmilk itself).
+
+**Processing levers** ([[mitigation/processing]]) — not applicable to fresh breastmilk. For donor-breastmilk programs (milk banks), the operative consideration is donor screening for occupational and environmental exposure, plus standard milk-bank pooling and pasteurization protocols.
+
+**Formulation levers** ([[mitigation/formulation]]) — not applicable to breastmilk itself. For mixed-fed infants, the operative lever is formula-selection and complementary-food-selection to manage the non-breastmilk fraction of the infant feeding mix.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include maternal blood lead screening during pregnancy and lactation (CDC recommends BLL testing for mothers with documented historical Pb exposure), maternal urine As screening in As-affected regions, and biomarker-based exposure assessment per [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review|Aisyiah 2025]] and [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review|Katrynska 2026]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) — for pumped/stored milk, glass or food-grade plastic storage containers are standard; aluminum-foil-lined containers should be avoided to prevent migration into stored milk.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+Breastmilk does not have direct regulatory maximum levels comparable to infant formula because it is not a commercially produced food product. The relevant regulatory framework operates at the maternal-exposure level:
+
+- CDC and WHO maternal blood lead level guidance: action thresholds for elevated maternal BLL during pregnancy and lactation.
+- WHO breastmilk biomonitoring program: provides population-level surveillance of pollutants in human milk including some heavy metals.
+- ATSDR toxicological profiles for individual metals ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]] for Al; parallel profiles for Pb, Cd, Hg) establish the reference dose framework that applies to infant exposure via breastmilk.
+- EFSA and JECFA tolerable intake values (Pb BMDL for neurodevelopment, Cd PTMI, Hg PTWI, Al TWI) are the operative dose-response anchors for evaluating breastmilk exposure on a per-day or per-week basis.
+- Donor-breastmilk programs operate under Human Milk Banking Association of North America (HMBANA) or equivalent regional guidance, which includes donor screening for exposure but not a direct regulatory maximum level for metals.
 
 

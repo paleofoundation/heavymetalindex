@@ -61,26 +61,41 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Sesame oil is extracted from sesame seeds (Sesamum indicum), an aerial-fruiting oilseed cultivated dominantly in India, Sudan, Ethiopia, Myanmar, China, Tanzania, and Nigeria. Sesame plants are documented Cd accumulators — sesame seeds carry Cd at concentrations multiples higher than most other oilseeds when grown in moderately Cd-contaminated soils, and this profile partially partitions into the oil fraction during extraction. The Iranian Hamadan PTE survey ([[sources/mehri2024-vegetable-oils-iran-hamadan-ptes|Mehri 2024]]), Korean food-processing migration study ([[sources/lee2019-food-processing-heavy-metals-migration|Lee 2019]]), and Saudi Arabia vegetable oils survey ([[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia|Ashraf 2012]]) collectively document sesame oil at Pb 9-17 ppb, Cd 5-9 ppb, and tAs 18-91 ppb across multiple regional markets.
+
+The HMTc panel concerns for sesame oil are Cd (the sesame-plant accumulation signature), Pb (elevated relative to less-contaminated-region oils), and trace tAs in some emerging-market supply. The wide tAs range (18-91 ppb) reflects the contributing studies' coverage of multiple regional markets with different upstream supply quality.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within sesame oil tracks source-sesame origin region (Ethiopian and Sudanese sesame production from regions with documented industrial-deposition or As-affected groundwater carries higher tAs; Indian and Chinese sesame production carries moderate baseline; Mediterranean and Mexican sesame production sits at lower baseline), cultivar choice (some Sesamum indicum cultivars are higher Cd accumulators than others), extraction method (cold-pressed toasted-sesame oil for culinary use vs solvent-extracted refined sesame oil for industrial use), and refining tier. Cold-pressed unrefined toasted sesame oil (the dark amber Asian-cuisine staple) retains more of the source-seed metal load; refined light sesame oil sits at lower levels.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Sesame oil manufacturing varies by product type. Toasted (dark) sesame oil is made by roasting sesame seeds before cold-pressing; this preserves the source-seed flavor compounds and metal load with minimal refining. Refined (light) sesame oil undergoes standard refining (degumming, neutralization, bleaching, deodorization) that reduces trace metals. The food-processing migration study by [[sources/lee2019-food-processing-heavy-metals-migration|Lee 2019]] documents how processing-method choice affects metal migration in oils including sesame oil; cooking with sesame oil at high temperatures can mobilize trace metals from oil-contact cookware into the oil-and-food matrix.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Sesame oil routes into culinary applications (Asian cuisine, salad dressings, marinades). Derivatives include tahini ([[ingredients/sesame-oil|sesame paste]]) which is made from whole-ground roasted sesame seeds and carries the full source-seed metal load (not partitioned to lipid fraction); halvah and other sesame-based confectionery; and gomashio and similar sesame-seasoning products. Whole sesame seeds carry the full Cd and tAs load and are nutritionally desirable but heavy-metal-rich; sesame oil is the partitioned-lipid-fraction with lower per-mass metals.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are dominant. Source-sesame origin specification favoring documented low-soil-Cd production regions; refinery-tier specification (refined for lower metals; cold-pressed for flavor at the cost of higher metals); and contractual specification of Cd ceiling on incoming oil.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the sesame-cultivation stage. Soil pH management (raising pH reduces Cd plant availability); cultivar selection (low-Cd sesame cultivars under agronomic research); and avoidance of high-Cd organic amendments.
+
+**Processing levers** ([[mitigation/processing]]) include refining-stage interventions (bleaching, deodorization, multi-pass refining) that substantially reduce per-mass trace metals; choice of refined vs unrefined product is the practical brand-side lever.
+
+**Formulation levers** ([[mitigation/formulation]]) include alternative-oil substitution where the matrix permits ([[ingredients/peanut-oil|peanut oil]], olive oil for non-Asian applications; toasted [[ingredients/rice-bran-oil|rice bran oil]] as an alternative high-flavor Asian-cuisine oil).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, tAs testing on incoming oil against EU 2023/915 maximum levels. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include lined-container specification; glass or food-grade-lined containers maintain finished-oil quality.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 does not set sesame-oil-specific maximum levels for Pb or Cd; general EU food-safety law applies; oilseed-related contaminant provisions reference [[sources/codex-cxs-193-1995|CXS 193-1995]].
+- Codex Alimentarius CXS 210-1999 (Named Vegetable Oils) provides composition standards for sesame oil.
+- FDA does not set a quantitative action level specific to sesame oil; general FDA enforcement on toxic-element contamination applies.
+- California Prop 65 ([[regulations/california-prop65]]) Pb and Cd MADLs apply to sesame-oil products sold in California; Cd in sesame products has been a subject of California Prop 65 settlements in some cases.
 
 

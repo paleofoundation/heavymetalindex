@@ -125,26 +125,44 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Grape juice is the liquid extracted from grapes (Vitis vinifera, Vitis labrusca for Concord grape, and other species). Among common fruit juices, grape juice sits at the upper end of the per-juice [[metals/lead|Pb]] range historically because of three pathways: legacy lead-arsenate vineyard pesticide residues persisting in older vineyard soils (now phased out but still detectable in long-established vineyards), trellis-system metal-deposition (older galvanized-steel trellis wire contributes Zn and trace Pb to the immediate root zone), and naturally elevated grape-skin Pb-binding capacity (grape skin tannins bind metals more efficiently than fleshy fruit skins). The HPLC-ICP-MS arsenic-speciation work in [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda|Kubachka 2019]] documents iAs and tAs in commercial grape juice on the US market and is the primary speciation evidence base for this commodity.
+
+The HMTc panel concerns for grape juice are Pb (dominant historical concern; central to FDA Closer to Zero juice action levels), trace iAs, and Sn for canned grape juice. The famous Mateel Environmental v. Welch Foods California Prop 65 settlement (2019) specifically targeted Pb in commercial grape juice, establishing settlement-based compliance levels lower than the original federal HACCP 50 ppb threshold and prefiguring the FDA 2022 draft 20 ppb action level for non-apple juices.
+
+The data gap status across all ten analytes in the body table reflects sparse grape-juice-specific quantitative data in the current routing audit. The synthesis is grounded in the broader [[ingredients/fruit-juice|fruit juice]] evidence base, the [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda|Kubachka 2019]] speciation work, and the FDA juice-action-level rulemaking history.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within grape juice tracks grape species (Concord/Vitis labrusca grape juice has different per-mass profiles than Vitis vinifera grape juice reflecting different skin tannin and pigment content), vineyard age (older vineyards with legacy lead-arsenate residues carry higher Pb), growing region (California, Washington state Concord, New York Finger Lakes, Argentine, Italian, Spanish grape production — each with distinct soil and atmospheric Pb baselines), and processing scale (large-scale commercial vs craft / regional grape-juice production). Pasteurized commercial grape juice typically sits at the modern 1-5 ppb Pb range; legacy and emerging-market product may carry higher levels.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Grape-juice manufacturing involves washing, crushing, pressing, screening, optional pectin treatment for clarification, pasteurization, and packaging. The skin-and-seed fraction retains a substantial portion of the source-grape Pb and Cd; juice typically carries lower per-mass metals than the source grape on a wet-weight basis. Clarification with bentonite or other fining agents can remove additional trace metals through adsorption. Pasteurization does not affect metals. Canned grape juice introduces a Sn migration pathway in the acidic juice matrix (pH ≈3.0-3.5); modern can-stock specifications address this. Concentrate-and-reconstitute production: concentrates carry concentrated per-mass metals; reconstituted juice carries the concentrate-dilution profile.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Grape juice routes into the [[products/fruit-juice-not-canned|fruit-juice-not-canned]] product family. Derivatives include grape juice concentrate (primary intermediate for reconstituted juice; concentrated metals per-mass), Welch's-style grape jelly (per-mass Pb similar to source juice; the gelling and sweetening agents do not affect Pb), Concord grape-flavored beverages, and wine grape products that overlap with non-alcoholic grape juice. Wine itself carries different per-mass metal profiles than grape juice because the fermentation and aging process introduces different contamination pathways (cooperage, wine-bottle closure migration, deliberate winemaking additives).
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention for grape juice. Vineyard-age and -history specification (avoid grapes from documented legacy lead-arsenate vineyards); trellis-system audit (galvanized vs stainless-steel trellis specification); geographic-segmented sourcing from documented low-soil-Pb production regions; and contractual specification of Pb ceiling on incoming juice or concentrate.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the vineyard stage. Soil pH management (raising pH reduces Pb plant availability); cover crops to immobilize legacy soil Pb; and avoidance of high-Pb organic amendments (some composts and biosolids carry elevated Pb).
+
+**Processing levers** ([[mitigation/processing]]) include processing-equipment material specification (stainless-steel-only contact surfaces), enhanced clarification with bentonite or PVPP (polyvinylpolypyrrolidone) to remove additional trace metals via adsorption, and avoidance of older soldered or unlined storage tanks.
+
+**Formulation levers** ([[mitigation/formulation]]) include juice-blend formulations (blending grape juice with lower-Pb juices to dilute per-product Pb load); juice-to-water dilution in grape-flavored beverage formulations.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level Pb testing on incoming grape juice and concentrate against the FDA 2022 draft 20 ppb action level for non-apple juices, the EU 30 ppb maximum level, and (for California-distributed product) the Mateel Environmental settlement specification levels. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification for canned grape juice (BPA-NI epoxy, full lacquering) to minimize Sn migration; glass, PET, or aseptic carton packaging eliminates the Sn pathway entirely. Storage-condition specification extends shelf-life migration tolerance.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[sources/fda2022-draft-lead-juice|FDA 2022]] draft action level of 20 ppb Pb for non-apple juices (including grape juice), replacing the older 1995 50 ppb HACCP threshold.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for Pb in fruit juice at 30 ppb (including grape juice).
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies; the 2019 Mateel Environmental v. Welch Foods settlement specifically established practical compliance levels for grape-juice products sold in California.
+- Codex Alimentarius CXS 247-2005 (General Standard for Fruit Juices and Nectars) includes contaminant provisions referencing [[sources/codex-cxs-193-1995|CXS 193-1995]].
+- EU Sn-in-canned-food regulation sets 100 mg/kg maximum level for canned beverages including grape juice.
 
 

@@ -129,26 +129,42 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Rice flour is the milled-and-ground form of rice (Oryza sativa) used as a primary ingredient in gluten-free baking, infant rice cereal ([[ingredients/rice-cereal]]), rice-containing infant mixed meals, teething-and-snacks products, and Asian noodle and pastry formulations. Rice flour inherits the source [[ingredients/rice|rice]] heavy-metal profile and concentrates per-mass metal load slightly via moisture removal during milling (raw rice at ≈14% moisture is milled and dried to ≈10-12% moisture). The dominant analyte concern for rice flour is [[metals/arsenic-inorganic|inorganic arsenic]] at 60-180 ppb typical, inherited from the flooded-paddy cultivation pathway documented in detail on the [[ingredients/rice|rice]] and [[ingredients/rice-cereal|rice cereal]] pages. The HPLC-ICP-MS speciation work by [[sources/arsenic2025-unknown|Navaretnam 2025]] documents the white-rice vs brown-rice iAs split that propagates into the corresponding rice-flour fractions.
+
+[[metals/lead|Lead]] in rice flour at 5-30 ppb typical comes from source-rice inheritance plus modest contribution from milling-equipment contact in older infrastructure. The FDA Closer to Zero baby-food Pb action level ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]) at 20 ppb for dry infant cereals made with rice flour is the operative US regulatory anchor. The [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland|Gacal 2023]] Polish gluten-free bread survey documents Pb in rice-flour-based bread products. The HMTc panel concerns for rice flour are iAs (dominant), Pb (secondary), and Cd (likely present but not yet quantified in this evidence base).
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within rice flour tracks source-rice origin (US southern long-grain, California medium-grain, Indian Basmati, Pakistani Basmati, Thai jasmine — each carrying different iAs baselines per [[sources/arsenic2025-unknown|Navaretnam 2025]] and the broader rice corpus), milling fraction (white-rice flour vs brown-rice flour: brown-rice flour carries the bran fraction and substantially higher iAs), and downstream sourcing (organic vs conventional rice flour does not appreciably differ on iAs because organic certification does not address soil arsenic). The [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Chiger 2017]] HBBF rice-cereal report quantifies the iAs neurodevelopmental risk in the infant-feeding context, which extends to rice-flour-based products generally.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Rice flour manufacturing is a relatively simple milling-and-grinding operation that does not introduce or remove metals appreciably. White-rice flour production removes the bran fraction (where iAs concentrates), substantially reducing per-mass iAs relative to brown-rice flour. Per [[sources/song2024-crvi-hplc-icpms-food-reduction|Song 2024]], cooking and processing can reduce Cr(VI) in food matrices through reduction to Cr(III); this applies to downstream cooked products containing rice flour. Rice flour incorporated into bread, baked goods, and infant cereal carries the per-mass profile of the milled rice flour adjusted for the inclusion rate in the finished product.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Rice flour routes into three primary product-row families: [[products/baby-cereals-dry-rice-based|baby-cereals-dry-rice-based]] (the primary high-stakes route given infant-feeding frequency); [[products/mixed-meals-rice-containing|mixed-meals-rice-containing]] (rice-flour incorporated into wet-pouch infant foods); and [[products/teething-and-snacks-rice-based|teething-and-snacks-rice-based]] (rice puffs, rice-flour-based teething wafers, rice-based crackers). Each downstream product format inherits the rice-flour iAs at a dilution determined by inclusion rate. Rice flour is also the primary base for many gluten-free bread products per [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland|Gacal 2023]], where it dominates the per-product Pb/Cd profile in the gluten-free formulation.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Rice-origin specification favoring lower-iAs growing regions (California, India Basmati, Pakistan Basmati relative to US southern long-grain); milling-fraction specification (white-rice flour for lower iAs; brown-rice flour where the bran is nutritionally desired but iAs trade-off is accepted); supplier-soil verification at the rice-cultivation source; and contractual iAs ceiling specification for incoming rice-flour lots.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the rice-cultivation stage; see [[ingredients/rice]] for soil-management, water-regime modification (alternate wetting and drying), and cultivar-selection interventions that reduce grain iAs by 30-50%.
+
+**Processing levers** ([[mitigation/processing]]) include polishing during the rice-to-flour milling stage (white-rice-flour production removes the iAs-concentrating bran fraction). Stainless-steel-only milling equipment minimizes any equipment-contact metal pickup.
+
+**Formulation levers** ([[mitigation/formulation]]) include partial substitution of rice flour with non-rice gluten-free flours ([[ingredients/maize|corn]] flour, [[ingredients/quinoa|quinoa]] flour, sorghum flour, millet flour, almond flour, coconut flour) in gluten-free baking and infant-cereal formulations to proportionally dilute iAs load.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level iAs testing on incoming rice-flour supply against the FDA CTZ infant-rice-cereal 100 ppb action level (or against tighter brand internal specifications). HPLC-ICP-MS speciation is the operative analytical platform per [[sources/arsenic2025-unknown|Navaretnam 2025]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are limited; the iAs and Pb loads are in the flour itself. Standard storage-condition specifications apply to maintain flour quality.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero action level of 100 ppb iAs for infant rice cereal (dry weight basis) applies to rice-flour-based infant cereal formulations.
+- FDA Closer to Zero baby-food Pb action level per [[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]: 20 ppb for dry infant cereal applies to rice-flour-based infant cereals.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for infant-and-young-child cereal-based food: iAs 50 ppb (dry weight) for rice-based cereal products.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex maximum level for iAs in polished rice (200 ppb) provides the upstream regulatory anchor; per-flour limits operate one step downstream and align with the per-cereal-product limits above.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to rice-flour-based products sold in California.
 
 

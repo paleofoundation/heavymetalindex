@@ -60,26 +60,42 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Rice bran oil is extracted from rice bran (the outer layer of the rice kernel removed during white-rice milling). The bran fraction itself concentrates iAs at 2-4× the whole-grain rice level because arsenic preferentially partitions to the outer layers of the rice kernel during grain development. However, the oil-extraction process selectively partitions lipid-soluble components (triglycerides, vitamin E, oryzanol) into the oil phase while leaving most water-soluble and protein-bound metals in the bran-meal residue. The net effect is that rice bran oil carries substantially lower per-mass heavy-metal load than the source bran (typical Pb 1-5 ppb, Cd 0-0.1 ppb, tAs 1-5 ppb, Ni 0-1 ppb per [[sources/silva2025-edible-oils-health-sustainability|Silva 2025]] and [[sources/scutarasu2023-heavy-metals-foods-beverages|Scutarasu 2023]]). The dominant residual contamination pathway is trace lipid-soluble metal complexes (Ni from natural plant content, trace Pb from environmental sources) and refining-equipment contact.
+
+The HMTc panel concerns for rice bran oil are low across the board (Pb, Cd, Ni at trace levels per the corpus). Rice bran oil is a relatively low-risk oil from a heavy-metal standpoint, particularly compared to the source rice bran ingredient. Refined rice bran oil sold for culinary use typically carries lower levels than crude rice bran oil because the refining steps (degumming, neutralization, bleaching, deodorization) further reduce trace metals.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within rice bran oil tracks source-bran origin (US, India, Pakistan, Thailand are major producers), extraction method (solvent-extracted vs cold-pressed: solvent-extracted oils typically carry slightly different trace-metal profiles than mechanically pressed oils because the solvent extraction is more selective for lipids), and refining tier (crude vs refined: refined oils carry lower metals than crude). The 1-5 ppb Pb and tAs ranges in [[sources/silva2025-edible-oils-health-sustainability|Silva 2025]] and [[sources/scutarasu2023-heavy-metals-foods-beverages|Scutarasu 2023]] are commercial-baseline ranges for refined rice bran oil; crude or unrefined product may carry higher values.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Rice bran oil manufacturing is a refining-intensive operation: rice bran (≈18-22% oil by mass) is extracted via solvent (hexane is standard) or mechanical pressing, then the crude oil undergoes degumming (phospholipid removal), neutralization (free fatty acid removal with caustic), bleaching (clay treatment to remove pigments and trace metals), and deodorization (high-temperature, low-pressure removal of volatiles and odors). Each refining step removes additional trace metals; bleaching with activated bleaching earth is particularly effective at removing trace Ni, Cu, and Fe. The net effect is that refined rice bran oil carries low per-mass metal load relative to the source bran.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Rice bran oil is itself a refined ingredient. Derivatives include hydrogenated rice bran oil (used in some confectionery and baked-goods applications), winterized rice bran oil (fractionated for higher-melting point and lower-melting point fractions), and rice bran oil with added antioxidants. None of these derivative operations appreciably change the per-mass heavy-metal profile. Rice bran oil is also used as a frying oil and as a salad oil; cooking with rice bran oil does not introduce additional metals from the oil itself.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include refinery-tier specification (refined rice bran oil from major commercial refiners typically meets food-grade trace-metal specifications); supplier audit programs verifying bleaching and deodorization practice; and contractual specification of Pb/Cd ceiling on incoming oil.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-rice cultivation stage; see [[ingredients/rice]] and [[ingredients/rice-bran-oil|this page's source-rice page]] for the upstream interventions that reduce bran iAs and total metals.
+
+**Processing levers** ([[mitigation/processing]]) are the dominant operative lever. Bleaching with activated bleaching earth removes trace Ni, Cu, and Fe; deodorization removes residual volatile metal compounds; multi-stage refining produces lower-trace-metal oil than single-pass refining. Specification of the refining-tier on incoming oil is the practical brand-side intervention.
+
+**Formulation levers** ([[mitigation/formulation]]) include alternative oil substitution where the matrix permits ([[ingredients/vegetable-oil|generic vegetable oil]], [[ingredients/sesame-oil|sesame oil]], olive oil) for specific applications, though rice bran oil's neutral flavor and high smoke point are functional features that limit substitution.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, Ni testing on incoming refined oil. ICP-MS is the standard analytical platform. Crude vs refined oil distinction at lot acceptance is the operative QC gate.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include lined-container specification (avoid uncoated metal containers that could introduce migration); oxidation control (oil oxidation does not introduce metals but degrades quality and may concentrate trace metals via volume reduction over long storage).
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 does not set vegetable-oil-specific maximum levels for Pb or Cd; general EU food-safety law applies.
+- Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) provides composition and quality standards but does not set heavy-metal-specific limits beyond general contaminant-prevention provisions.
+- IOOC and ISO standards for vegetable oil quality include trace-metal specifications (Fe, Cu, Pb) as quality indicators rather than safety thresholds.
+- FDA does not set a quantitative action level specific to rice bran oil; general FDA enforcement on toxic-element contamination applies.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to rice bran oil products sold in California.
 
 

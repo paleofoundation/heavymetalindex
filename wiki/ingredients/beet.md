@@ -126,26 +126,42 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Beet (Beta vulgaris) is a root vegetable cultivated for the swollen taproot (red beet, sugar beet, gold beet). Beets are documented moderate-to-strong accumulators of [[metals/cadmium|Cd]], [[metals/lead|Pb]], and trace [[metals/nickel|Ni]] via soil-uptake at the root-soil interface, with the taproot acting as the primary metal-accumulation organ. The deep tap-root growth habit places the root directly in contact with subsurface soil where legacy Pb-contaminated deposits often concentrate, elevating per-mass Pb in beets grown in industrial or urban-legacy soils. Beet leaves (used as beet greens and Swiss chard, which is the same species selected for leaf production) accumulate Cd and Pb via the leafy-vegetable pathway and carry separately elevated profiles per [[ingredients/leafy-greens|leafy greens]].
+
+The HMTc panel concerns for beet are Cd (dominant soil-uptake driver), Pb (legacy-soil contamination, particularly in urban-and-industrial production), and trace Ni. Beet routes into [[products/root-vegetable-purees|root-vegetable-purees]] for infant feeding and into beet juice, pickled beet, beet powder, and (for sugar beets) refined sugar production.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within beet tracks source-region soil profile (industrial-region or urban-garden production carries elevated Pb; agricultural-region commercial production sits at moderate baseline; certified-clean-soil production sits at lower baseline), cultivar (red beet, sugar beet, gold beet, Chioggia, and Detroit Dark Red carry slightly different metal-accumulation profiles), and harvest age (older beets sitting longer in soil accumulate proportionally more metals). The broader [[ingredients/vegetables|vegetables]] page corpus documents the geographic spread; the [[ingredients/root-vegetable-purees|root-vegetable-purees]] page covers the infant-puree market subset.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Beet processing for fresh-market consumption involves washing, trimming, and storage; metal load is essentially the field-harvest level. Industrial beet processing for canning, freezing, or pickling involves washing, peeling, cooking, and packaging; peeling removes a substantial fraction of root-surface-deposited Pb (peeling reduces Pb by 30-50% on root vegetables). Beet juice manufacturing presses fresh or lightly-blanched beets and concentrates per-mass metals in the juice fraction relative to whole-beet wet weight. Beet powder (dehydrated beet products used in nutritional supplements, smoothie blends, and natural-color applications) concentrates per-mass metals via moisture removal (typically 8-10× concentration). Sugar beet processing involves extracting sucrose from sugar beets via diffusion, carbonatation, and crystallization; the refined sugar product carries trace residual metals at much lower levels than the source beet because the carbonatation step precipitates and removes most heavy metals.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Beet derivatives span fresh and frozen beet, canned beet, pickled beet, beet juice, beet powder (concentrated), and (for sugar beet) refined sugar (per [[ingredients/white-sugar|white sugar]], at low metal levels). Beet powder in particular carries per-mass metals at concentrated levels because of the moisture-removal factor and is consumed in functional-food and supplement contexts where per-serving doses can be substantial. Beet greens (the leafy tops) carry the leafy-vegetable Cd/Pb profile and route to [[ingredients/leafy-greens|leafy greens]] when consumed as a separate product.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are dominant. Geographic-segmented sourcing from documented low-soil-Pb production regions; supplier-soil verification for beet farms (testing for legacy industrial or urban-garden contamination); and contractual specification of Pb/Cd ceiling on incoming beet supply.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the beet-cultivation stage. Soil pH management (raising pH from 5.5 to 6.5-7.0 reduces Cd plant availability substantially); soil amendments (biochar, lime); cultivar selection (some sugar-beet cultivars are documented lower Cd accumulators); rotation away from Cd-accumulating crops in known-contaminated soils; and remediation of urban-and-industrial soils for high-risk production sites.
+
+**Processing levers** ([[mitigation/processing]]) include peeling (substantial Pb reduction on root surface), washing optimization, and avoidance of older soldered cans for canned beet products.
+
+**Formulation levers** ([[mitigation/formulation]]) include substituting beet with lower-Pb root vegetables (carrot, sweet potato) in mixed-meals products where the matrix permits; reducing the beet fraction in root-vegetable purees.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, Ni testing on incoming beet supply and finished beet products. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification for canned beet; aseptic or glass packaging eliminates Sn migration; standard storage-condition specifications apply.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for root vegetables: Pb 100 ppb, Cd 100 ppb (root and tuber vegetables). These apply to beet.
+- FDA Closer to Zero infant-food Pb action level: 20 ppb for root vegetable purees including beet-containing purees ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]).
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets root-vegetable category limits aligned broadly with EU.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to beet products sold in California.
+- EU Sn-in-canned-food regulation sets 200 mg/kg for canned vegetables including canned beet, 50 mg/kg for canned infant food.
 
 

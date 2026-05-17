@@ -61,26 +61,42 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Cucumbers (Cucumis sativus) are a Cucurbitaceae fruit vegetable cultivated globally, consumed fresh, pickled, or in salads. As a fruit vegetable (the consumed portion is the fleshy fruit, not leaves or roots), cucumbers sit at the lower end of the vegetable heavy-metal range relative to leafy greens or root vegetables, but they accumulate trace [[metals/cadmium|Cd]] and [[metals/chromium|Cr]] via soil-uptake at moderate efficiency. The Iranian Babol vegetable survey by [[sources/abdolahpour2023-heavy-metals-babol-vegetables|Abdolahpour 2023]] documents cucumbers within the broader Iranian vegetable corpus, and the Iranian canned tomato/olive/pickled-cucumber survey by [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran|Shavali-Gilani 2025]] specifically documents heavy-metal levels in pickled cucumber. The Polish plant-food Cr survey by [[sources/reczajska2005-chromium-plant-foods-poland|Reczajska 2005]] documents Cr in cucumber as part of the broader plant-food Cr distribution.
+
+The HMTc panel concerns for cucumbers are low to moderate: trace Cd and Pb at typical soil-uptake levels, with potentially elevated levels in pickled cucumber products if brine or pickling-acid carries metals. Cucumbers are particularly relevant in baby-food and toddler-food formulations as an ingredient in mixed-vegetable purees and in pickled-product applications in adult diet.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within cucumbers tracks source-region soil profile (industrial-region or urban production carries elevated metals; commercial agricultural production sits at moderate baseline; greenhouse and hydroponic production sits at lower baseline because of controlled inputs), cultivar (slicing cucumber, pickling cucumber, English/seedless cucumber, Asian cucumber — limited documented per-cultivar metal differences), and growing-system (field-grown vs greenhouse vs hydroponic). The Iranian Babol survey ([[sources/abdolahpour2023-heavy-metals-babol-vegetables|Abdolahpour 2023]]) documents elevated levels in some industrial-region production reflecting regional soil contamination.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Cucumber processing for fresh-market consumption involves washing, sorting, and packing; metal load reflects field-harvest baseline. Pickled cucumber manufacturing involves washing, brining or pickling with vinegar (often with added salt, sugar, and spices), and packaging. Per [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran|Shavali-Gilani 2025]], pickled cucumbers can carry elevated metals from the pickling-brine ingredients (acetic acid, vinegar, salt — each carrying trace metals from upstream production). Canned pickled cucumber introduces Sn migration in tinplate cans. Cucumber juice (a less common product) extracts source-cucumber juice content. Cucumber powder (dehydrated cucumber for seasoning or smoothie applications) concentrates per-mass metals via moisture removal.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Cucumber derivatives include fresh cucumber, pickled cucumber (gherkins, dill pickles, bread-and-butter pickles, cornichons), cucumber juice, cucumber-flavored beverages (cucumber-water, cucumber-cocktails), and dried/powdered cucumber. Pickled cucumber routes into the broader pickled-vegetable product family and inherits any brine-introduced metals. Cucumber-containing mixed-vegetable products (including baby-food formulations and salad-cup mixes) inherit cucumber metals diluted by other ingredients.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include source-region soil verification; supplier-audit programs for documented low-soil-Pb/Cd production regions; greenhouse-and-hydroponic production specification where the matrix permits; and contractual Pb/Cd ceiling on incoming cucumber supply.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the cucumber-cultivation stage. Soil pH management; soil amendments (biochar, lime); cultivar selection; greenhouse and hydroponic production systems (limits direct soil uptake and atmospheric deposition).
+
+**Processing levers** ([[mitigation/processing]]) include washing optimization for surface-Pb removal; processing-equipment material specification; brine-and-vinegar quality specification for pickled-cucumber production (the brine ingredients themselves can carry metals that propagate into the finished pickled product).
+
+**Formulation levers** ([[mitigation/formulation]]) include substituting cucumber with other fruit-vegetables where the matrix permits in mixed-vegetable formulations; minimizing the brine fraction in pickled-cucumber products.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, Cr testing on incoming cucumber supply and finished cucumber products including pickles. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification for canned pickled cucumber; glass-jar packaging for pickles eliminates Sn migration.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Cd and Pb in non-root vegetables: Pb 50 ppb, Cd 50 ppb. These apply to cucumbers.
+- FDA does not currently set quantitative action levels specific to cucumber; FDA Closer to Zero baby-food framework applies to cucumber-containing infant products.
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets non-root-vegetable category limits aligned broadly with EU.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to cucumber products sold in California.
+- EU Sn-in-canned-food regulation sets 200 mg/kg for canned vegetables including canned pickled cucumber.
 
 

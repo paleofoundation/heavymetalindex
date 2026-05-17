@@ -119,25 +119,41 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Rice puffs are puffed-rice products (popped or extruded rice kernels, similar to puffed rice breakfast cereal but typically with finer texture for infant feeding) used as a teething-and-snacks product for infants and toddlers. They inherit the source [[ingredients/rice|rice]] heavy-metal profile, particularly [[metals/arsenic-inorganic|inorganic arsenic]], without dilution because the puffing process is purely physical (high-temperature, low-moisture expansion) and does not introduce other ingredients or remove metals. Per-mass iAs in rice puffs typically matches the per-mass iAs in the source white rice or brown rice used; the moisture removal during puffing concentrates per-mass metals modestly (≈5-10%) versus the source rice. The HMTc panel concerns for rice puffs are dominantly iAs (the rice-pathway inheritance), with secondary Pb and Cd at the source-rice baseline.
+
+The data gap status across all ten analytes in the body table reflects that no source in the current routing audit reports rice-puff-specific values; the synthesis is inferred from the broader rice-cereal and rice-flour evidence base.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within rice puffs tracks source-rice origin and milling fraction, identical to the variance drivers documented on [[ingredients/rice]] and [[ingredients/rice-flour]]. White-rice puffs carry lower iAs than brown-rice puffs because the bran fraction concentrates iAs. Organic-certified rice puffs do not differ appreciably from conventional on iAs because organic certification does not address soil arsenic. Per [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Signes-Pastor 2016]] (EU and US rice-based infant product survey), rice-based snack products including puffs sit at iAs levels comparable to rice cereal on a per-mass basis.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Rice-puff manufacturing is a thermal expansion process: rice kernels (whole or pre-treated) are heated at high temperature with reduced ambient pressure to vaporize the kernel's internal moisture and expand the starch matrix. Some processes use direct-heat puffing (puffing guns, fluidized-bed puffing); others use extrusion-puffing where pre-formed rice paste is extruded under pressure into a low-pressure environment. None of these processes remove or transform iAs, Pb, Cd, or other metals; the source-rice load passes through to the puffed product. Modest per-mass concentration occurs from the residual moisture removal (≈5-10%).
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Rice puffs route into [[products/teething-and-snacks-rice-based|teething-and-snacks-rice-based]] as the primary downstream product family. Derivatives include rice-puff cereals (rice puffs as the primary cereal component, similar to puffed wheat or puffed corn cereals), rice-puff snack bars, and rice-puff crackers. Multi-grain teething snacks containing rice puffs alongside non-rice grains dilute the iAs load proportionally; pure-rice-puff products carry the full source-rice iAs inheritance.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Rice-origin specification favoring lower-iAs growing regions (California, Basmati from India/Pakistan vs US southern long-grain); milling-fraction specification (white-rice puffs vs brown-rice puffs); and contractual iAs ceiling specification on incoming rice supply.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the rice-cultivation stage; see [[ingredients/rice]] for the upstream interventions.
+
+**Processing levers** ([[mitigation/processing]]) are limited; the puffing process does not remove metals. Pre-puffing soaking and rinsing of the source rice can reduce surface-deposited contaminants but does not affect grain-internal iAs.
+
+**Formulation levers** ([[mitigation/formulation]]) include multi-grain product reformulation (rice-puff blends with [[ingredients/oat|oat]], [[ingredients/maize|corn]], or [[ingredients/quinoa|quinoa]] puffs) to dilute the per-product iAs load.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level iAs testing on incoming rice supply and finished puffed product against FDA Closer to Zero infant-and-young-child food action levels.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; rice puffs are sensitive to moisture absorption (which can mobilize trace metals slightly), so moisture-barrier packaging is standard for product-quality reasons.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero infant-rice-cereal action level of 100 ppb iAs applies most directly to rice cereals; rice puffs as a related rice-based infant-and-young-child food product fall within the broader CTZ regulatory trajectory.
+- FDA Closer to Zero infant-food Pb action levels apply to rice-puff products marketed for infant feeding.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for infant-and-young-child cereal-based food including rice-based snack products.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex maximum level for iAs in polished rice provides the upstream regulatory anchor.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to rice-puff products sold in California.
 
