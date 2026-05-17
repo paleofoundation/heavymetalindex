@@ -116,7 +116,9 @@ Stop immediately and write a stop-report at `wiki/batch-reports/manual-fetch-<fo
 
 - **Processed N PDFs successfully.** Normal stop.
 - **Audit verdict QUARANTINE on three or more consecutive PDFs.** Indicates either (a) the ingest logic is producing systematic errors, or (b) the audit subagent is producing systematic false positives. Either way needs Karen's attention before continuing.
-- **New ingredient/product/regulation slug needed.** Per Part 10: ingredients ≥freq-2 can auto-stub; products always require Karen's Step 0 Lock. Surface in stop-report, do not create.
+- **New regulation slug needed.** Regulations have hard agency identifiers; surface in stop-report so the regulation page can be created with the correct rule ID/citation, do not guess.
+  - Ingredients ≥freq-2 are auto-stubbed by the existing script; freq-1 ingredients are noted in the stop-report.
+  - Products that the source declares but that do not yet exist as wiki pages are created as provisional scaffolds via `tools/autonomy/create-provisional-product-scaffold.mjs` and ingest continues. The scaffold carries `hmtc_category: pending_taxonomy_review` and a "Provisional scaffold" caveat; the audit log records what was created and why. This is not a stop condition.
 - **Paper-internal contradiction or data-integrity issue** that's not the obvious mirroring pattern.
 - **True duplicate conflict.** DOI grep hit but existing page has a different DOI or different paper.
 - **Routing audit fails.** Audit exits non-zero or introduces new unresolved/malformed for this source.
@@ -127,7 +129,7 @@ Stop immediately and write a stop-report at `wiki/batch-reports/manual-fetch-<fo
 ## What this skill does NOT do
 
 - Does NOT create new ingredient pages (auto-stub script handles ingredients ≥freq-2 separately; everything else is Karen's call).
-- Does NOT create new product pages (always Karen's Step 0 Lock).
+- Does NOT create non-provisional product pages with locked HMTc taxonomy rows (Step 0 Lock is a separate workflow). Provisional product scaffolds with `hmtc_category: pending_taxonomy_review` ARE created automatically when a source declares a product slug that does not yet exist; the audit log captures what was created.
 - Does NOT run Part 9 synthesis (separate workflow).
 - Does NOT touch `wiki/products/*.md`, `wiki/ingredients/*.md`, or any downstream page directly.
 - Does NOT edit inside `<!-- BEGIN: ... -->` / `<!-- END: ... -->` marker blocks (generator-owned).

@@ -129,6 +129,16 @@ for (const file of productFiles) {
     continue
   }
 
+  // Exemption: provisional scaffolds created by
+  // tools/autonomy/create-provisional-product-scaffold.mjs are pending
+  // taxonomy review. They carry a visible "Provisional scaffold" caveat
+  // and route into data/evidence/provisional-product-scaffolds.jsonl as
+  // an audit log. Tracked informationally; not a failure.
+  if (parsed.data.provisional_scaffold === true || parsed.data.hmtc_category === "pending_taxonomy_review") {
+    summary.check_2_provisional_pending_review = (summary.check_2_provisional_pending_review ?? 0) + 1
+    continue
+  }
+
   const sourceCount = routingAudit.get(slug) ?? 0
   if (sourceCount === 0) {
     summary.check_2_failures += 1
