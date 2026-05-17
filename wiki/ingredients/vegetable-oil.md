@@ -51,12 +51,12 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland\|Brodziak-Dopierała et al. 2023]]. *Mercury Exposure from the Consumption of Dietary Supplements Containing Vegetable, Cod Liver, and Shark Liver Oils*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland\|Brodziak-Dopierała et al. 2023]]. *Mercury Exposure from the Consumption of Dietary Supplements Containing Vegetable, Cod Liver, and Shark Liver Oils*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | PL/EU tHg occurrence in 36 dietary supplement preparations purchased in Poland (pharmacies, drugstores, herbal shops): 18 vegetable oils, 12 cod liver oils,... (n=36) |
+| 2 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | IE/EU Al, tAs, iAs, Cd, Cr, Pb, tHg, Sn occurrence in 141 food samples (1,043 sub-samples) representing the Irish diet; adults n=1,500 (NANS, age 18+, 2008–2010) and children n=594... (n=141) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

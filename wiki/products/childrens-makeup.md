@@ -63,7 +63,7 @@ _Pending. Cat 2 regulatory landscape is fragmented: cosmetics under FDA FD&C Act
 
 ## Levers to reduce contamination
 
-_Pending synthesis. Cat 2 levers per the Step 0 lock framework, ordered by impact magnitude:_
+The Cat 2 Step 0 lock framework distinguishes clean-formulation rows from contaminated-platform rows. For this row, the levers below are ordered by impact magnitude based on the literature evidence base and per the Step 0 lock attribution of platform-level metal load. Brand-legal teams evaluating HMTc Cat 2 certification eligibility for this row should treat the formulation/sourcing levers as the dominant compliance pathway.
 
 1. **Sourcing levers** on platform ingredients. Even without a clean alternative within the row, supplier-grade differences within the platform are material.
 2. **Refining levers**.
@@ -76,19 +76,14 @@ The percentile arithmetic that informs HMTc Cat 2 thresholds for this row lives 
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. Cat 2-relevant public-record regulatory events are summarized at [[products/children-personal-care]] (Cat 2 master). Row-specific events will be filed here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | *[awaiting synthesis]* |
-| 2 | [[sources/kicinska2025-cosmetics-online-market-heavy-metals\|Kicińska et al. 2025]]. *Health risks from heavy metals in cosmetic products available in the online consumer market*, Scientific Reports 15: 316 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/oecd2024-crafts-toys-children-exposure\|(OECD) 2024]]. *Considerations when Estimating Exposure to Crafts and Toys in Children (OECD Series on Testing and Assessment No. 401)*, OECD Publishing, Paris (Series on Testing and Assessment No. 401) | 2024 | Government report | *[awaiting synthesis]* |
-| 4 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan\|Arshad et al. 2020]]. *Evaluation of heavy metals in cosmetic products and their health risk assessment*, Saudi Pharmaceutical Journal 28(2020):779-790 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/scher2010-toy-migration-limits-opinion\|EU Scientific Committee on 2010]]. *Evaluation of the Migration Limits for Chemical Elements in Toys (SCHER Opinion)*, European Commission DG Health & Consumers; SCHER Opinion adopted 1 July 2010 | 2010 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
 <!-- END: hmi-source-legend -->

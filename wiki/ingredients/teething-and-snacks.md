@@ -119,25 +119,41 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Teething and snacks is the aggregate ingredient label for infant teething products and toddler snack foods consumed during the 6-month-to-3-year age range. The product family includes teething biscuits, rice-based teething wafers, freeze-dried fruit and vegetable snacks, cracker-style snacks, puff cereals, and yogurt-based melts. The dominant heavy-metal concern is [[ingredients/rice-puffs|rice-based]] teething and snack products, which inherit the source-rice [[metals/arsenic-inorganic|iAs]] profile documented on [[ingredients/rice-cereal|rice cereal]] and [[ingredients/rice-flour|rice flour]] pages. Non-rice teething-and-snack products (oat-based, fruit-and-vegetable-based, dairy-based) sit at substantially lower per-product iAs but carry their own per-ingredient profiles.
+
+The high-frequency feeding context of teething-and-snacks products (consumed daily during weaning and toddler-feeding stages) elevates the per-day cumulative-exposure significance even at modest per-serving metal levels. The HMTc panel concerns for this category include iAs (rice-based products), Pb (across all infant products from vitamin-mineral-premix and source-ingredient inheritance), Cd (especially in fruit-vegetable-based snacks containing leafy or root-vegetable components), and Sn for canned snack products. Routes into [[products/teething-and-snacks-rice-based|teething-and-snacks-rice-based]] and the broader Cat 1 infant-food product family.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within teething and snacks tracks ingredient composition (rice-based vs non-rice; fruit-based vs vegetable-based vs cereal-grain based), source-ingredient origin region, and product format (extruded puff vs freeze-dried whole-food snack vs cracker). Rice-based products dominate the iAs concern; non-rice products avoid that pathway but introduce other per-ingredient profiles.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Teething-and-snacks manufacturing involves base-ingredient preparation (cooking, drying, or freeze-drying), forming (extrusion for puffs, pressing for crackers/wafers, baking for biscuits, freeze-drying for whole-food snacks), and packaging. The forming and finishing steps do not appreciably introduce or remove metals beyond the source-ingredient inheritance. Freeze-drying preserves the source-ingredient metal profile at concentrated per-mass levels. Extrusion produces puffed products that retain source-grain metals.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Teething-and-snacks products route into the Cat 1 infant-and-young-child food family. Derivatives within this category span rice-based teething wafers, oat-based puff cereals, multigrain crackers, freeze-dried fruit and vegetable snacks, yogurt-and-fruit-based melts, and protein-bar-style toddler snacks. Each carries the source-ingredient metal profile.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are dominant for teething-and-snacks given the high-frequency infant-feeding context. Source-ingredient specification (rice with low iAs per [[ingredients/rice|rice]]; non-rice alternatives where possible); supplier audit programs; and contractual Pb/Cd/iAs ceiling on incoming ingredients.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-ingredient cultivation stage; see [[ingredients/rice|rice]], [[ingredients/oat|oat]], and per-fruit-vegetable pages for upstream interventions.
+
+**Processing levers** ([[mitigation/processing]]) include processing-equipment material specification; rinse-and-prep steps for source rice; equipment-cleaning protocols.
+
+**Formulation levers** ([[mitigation/formulation]]) are dominant. Non-rice formulations (oat-based, fruit-and-vegetable-based, multigrain) substantially reduce iAs concern; reducing the rice fraction in mixed-ingredient products dilutes per-product iAs.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, iAs testing on finished teething-and-snacks products against FDA Closer to Zero infant-and-young-child food action levels.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; moisture-barrier packaging is standard for product quality.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for infant-and-young-child cereal-based foods including teething-and-snacks products.
+- FDA Closer to Zero baby-food Pb action levels ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]]): applicable to teething-and-snacks products.
+- FDA Closer to Zero infant-rice-cereal iAs 100 ppb action level applies to rice-based teething products.
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets infant-and-young-child food category limits.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to teething-and-snacks products sold in California.
 

@@ -119,25 +119,41 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Soft drink bases is the aggregate ingredient label for the syrup-and-concentrate ingredients used in carbonated soft drinks (cola, lemon-lime, root beer, fruit-flavored sodas), including flavoring concentrates, sweetener syrups (high-fructose corn syrup, refined sugar syrup, or non-nutritive sweetener solutions), acidulants (phosphoric acid in cola, citric acid in citrus sodas), and color compounds (caramel coloring in cola). Heavy-metal load in soft drink bases comes from four pathways: source-sweetener inheritance ([[ingredients/white-sugar|sugar]] at low metal baseline; HFCS at slightly different baseline reflecting corn-source metals); flavoring-and-color concentrate impurities (some natural colorings, particularly older caramel coloring formulations, carry trace metals); acidulant impurities (phosphoric acid produced from phosphate rock can carry trace Pb and Cd from the source phosphate rock); and packaging migration (canned soft drinks introduce Sn from tinplate; bottled soft drinks in glass or PET avoid that pathway).
+
+Soft drink concentrates and syrups can also carry trace metals from processing-equipment contact and from the formulation water. The HMTc panel concerns for soft drink bases are trace Pb (dominantly from phosphoric-acid acidulant and some colorings), trace Cd, and Sn from canned-product migration. Sugar-sweetened soft drinks have been a subject of FDA and Consumer Reports surveillance for As contamination in older formulations using As-derived raw materials, though current formulations have largely eliminated those pathways.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within soft drink bases tracks sweetener choice (HFCS vs cane sugar vs non-nutritive sweetener — different baseline impurity profiles), acidulant choice (phosphoric acid carries more impurities than citric acid), color and flavoring source (natural vs artificial; certain natural-color concentrates from plant sources carry source-plant metals), and formulation-water quality (RO water is standard for major brand soft-drink production). Major brand commercial soft drinks operate to tight impurity specifications; emerging-market and craft soft drinks may carry higher metals.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Soft drink manufacturing involves preparing the syrup concentrate (combining sweetener, flavoring, acidulant, color), diluting with carbonated water to finished-product strength, and packaging. The dilution step proportionally reduces per-mass metals from the concentrate. Carbonation does not affect metals. Packaging is the final processing step; aluminum-can packaging (with epoxy lining) is standard for canned soft drinks and minimizes Al-migration risk under modern can-stock specifications.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Soft drink bases route into [[products/soft-drinks-carbonated-beverages|soft-drinks-carbonated-beverages]] product family. Derivatives include cola, lemon-lime soda, ginger ale, root beer, fruit-flavored carbonated beverages, and diet/zero-sugar variants. Each carries the per-base profile diluted by carbonated water and adjusted for any per-format additions.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include sweetener supplier specification ([[ingredients/white-sugar|refined sugar]] or HFCS at food-grade impurity tier); acidulant supplier specification (food-grade phosphoric acid with documented impurity limits, or citric acid as a lower-impurity alternative); flavoring and color concentrate supplier specification.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-ingredient cultivation stage (sugar cane, sugar beet for refined sugar; corn for HFCS); see [[ingredients/maize|corn]] and per-sweetener pages for upstream interventions.
+
+**Processing levers** ([[mitigation/processing]]) include processing-equipment material specification; formulation-water quality (RO or equivalent purification standard).
+
+**Formulation levers** ([[mitigation/formulation]]) include acidulant choice (citric vs phosphoric) and color/flavor concentrate substitution where impurity tier differs by supplier.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd testing on incoming sweetener, acidulant, and color concentrate, and on finished product. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification (modern epoxy lining minimizes Al and Sn migration); glass and PET packaging eliminate metal-migration pathways entirely.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 does not set soft-drink-specific maximum levels; general EU food-safety law applies plus the lead-in-beverages context.
+- FDA does not currently set quantitative action levels specific to soft drinks; general FDA enforcement on toxic-element contamination applies.
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets general beverage contaminant provisions.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to soft drink products sold in California.
+- EU Sn-in-canned-food regulation sets 100 mg/kg maximum level for canned beverages including canned soft drinks.
 

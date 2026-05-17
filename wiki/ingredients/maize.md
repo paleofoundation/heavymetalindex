@@ -51,16 +51,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/dragicevic2025-popcorn-essential-minerals\|Dragičević et al. 2025]]. *Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes*, Chilean Journal of Agricultural Research 85(2): 277-285 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|Abdullahi et al. 2024]]. *Seasonal Variation and Uptake Pattern of Heavy Metals in Maize*, Dutse Journal of Pure and Applied Sciences (DUJOPAS) | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/vasilachi2023-heavy-metals-cereal-crops\|Vasilachi et al. 2023]]. *Analysis of Heavy Metal Impacts on Cereal Crop Growth and Development in Contaminated Soils*, Agriculture | 2023 | Review | *[awaiting synthesis]* |
-| 4 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | *[awaiting synthesis]* |
-| 5 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|Li et al. 2017]]. *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*, Scientific Reports | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|Abdullahi et al. 2024]]. *Seasonal Variation and Uptake Pattern of Heavy Metals in Maize*, Dutse Journal of Pure and Applied Sciences (DUJOPAS) | 2024 | Peer-reviewed | NG Pb, Cd, Cr, Ni occurrence in Maize grain and root samples from 10 locations in the Kano River Irrigation Project, Nigeria; wet season (Sept–Oct... (n=20) |
+| 2 | [[sources/vasilachi2023-heavy-metals-cereal-crops\|Vasilachi et al. 2023]]. *Analysis of Heavy Metal Impacts on Cereal Crop Growth and Development in Contaminated Soils*, Agriculture | 2023 | Review | Pb, Cd, tAs, Cr, Ni, Al, Sn, tHg occurrence in Review of global literature on cereal crops (wheat, rice, maize, barley) in contaminated soils |
+| 3 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | NG/CN/TZ Pb, Cd, tAs, tHg, Cr, Ni occurrence in Narrative review in Current Opinion in Toxicology covering plant food heavy metal contamination globally, with emphasis on Asia,... |
+| 4 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | ET Pb, Cr, Mn, Fe, Co, Cu, Zn occurrence in Popcorn from 5 shops in Addis Ababa, Ethiopia (~200g each, pooled to 1 kg) and cornflakes from 3... (n=8) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 

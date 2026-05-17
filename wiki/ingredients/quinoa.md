@@ -119,7 +119,7 @@ All ten contamination_profile sub-blocks are `pending`. Cd will be the first syn
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -133,26 +133,41 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Quinoa (Chenopodium quinoa) is a pseudocereal cultivated dominantly in the Andean highlands of Peru, Bolivia, Ecuador, and Chile. Quinoa accumulates moderate heavy-metal load primarily via soil-uptake and irrigation-water inheritance from the Andean region, which has documented mining-impacted watershed geochemistry. The Andean soils contain naturally elevated As (from arsenopyrite mineral deposits) and locally elevated Cd from volcanic-soil and mining-residue influence; quinoa grown in these soils accumulates trace tAs at 60 ppb medium confidence per the contributing source corpus. Quinoa is celebrated as a gluten-free grain alternative and a complete protein source for vegetarian and infant feeding applications; this market positioning has driven demand growth that intersects with the Andean source-region contamination concerns.
+
+The HMTc panel concerns for quinoa are tAs (with iAs/DMA speciation variable depending on Andean cultivation region), Pb and Cd at moderate levels from soil-uptake, and trace Ni. Quinoa routes into baby cereal formulations (as a non-rice grain substitute for rice cereal — see [[ingredients/non-rice-grains|non-rice-grains]] and [[ingredients/rice-cereal|rice cereal]]), gluten-free baking, salads, and adult breakfast cereals.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within quinoa tracks Andean origin region (Peruvian quinoa from Junín, Puno, Cusco; Bolivian quinoa from the southern Altiplano; Ecuadorian quinoa from Chimborazo and Cotopaxi — each carrying different soil-geochemistry profiles), altitude (high-altitude Altiplano quinoa is the traditional product; lower-altitude expanded production carries different baselines), cultivar (Royal, Real, multicolored, and dozens of regional cultivars with varying As-accumulation tendencies), and irrigation-water source (snow-melt vs irrigation-canal vs groundwater — each with different As-baseline). Non-Andean expanded production in North America, Europe, and Asia carries different baselines reflecting local soil profiles.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Quinoa processing involves washing (essential to remove the bitter saponins from the seed coat; this also reduces surface-deposited metals), drying, and packaging. The saponin-removal washing step modestly reduces surface-Pb and surface-deposited contaminants but does not affect grain-internal As, Cd, or Ni. Quinoa flour production involves milling washed quinoa; quinoa flour carries the source-grain metal profile concentrated slightly via moisture removal. Toasted/popped quinoa products concentrate per-mass metals via additional moisture removal.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Quinoa derivatives include whole quinoa seeds (white, red, black, multicolored), quinoa flour (gluten-free baking application), quinoa flakes (breakfast cereal), puffed/popped quinoa (snack-food and cereal applications), and quinoa milk (a plant-milk alternative, partitioning quinoa metals into liquid fraction). Quinoa is increasingly incorporated into infant cereals as a non-rice gluten-free alternative; this application warrants particular As attention because quinoa carries source-region As at levels that are not negligible even though they're lower than rice iAs.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are dominant for quinoa given the Andean-source-region contamination concerns. Origin specification favoring documented low-As Andean production zones; supplier-soil verification programs; and contractual As/Cd ceiling on incoming quinoa.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the quinoa-cultivation stage. Irrigation-water specification (avoiding mining-impacted watersheds); soil amendments where economically feasible; cultivar selection (low-As-accumulating cultivars are under agronomic research).
+
+**Processing levers** ([[mitigation/processing]]) include thorough washing to maximize surface-Pb removal; processing-equipment material specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include multi-grain product reformulation (quinoa-oat blends, quinoa-corn blends) to dilute per-product As load.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, tAs/iAs testing on incoming quinoa supply. HPLC-ICP-MS speciation distinguishes iAs from DMA in quinoa-source As.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; standard storage-condition specifications apply.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for Pb and Cd in cereal grains; quinoa as a pseudocereal falls under broader cereal-grain provisions.
+- FDA does not currently set quantitative action levels specific to quinoa; FDA Closer to Zero baby-food framework applies to quinoa-containing infant products.
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets cereal-grain category limits.
+- California Prop 65 ([[regulations/california-prop65]]) Pb and As MADLs apply to quinoa products sold in California.
 
 

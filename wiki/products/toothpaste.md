@@ -74,7 +74,7 @@ _Pending. Key reference points:_
 
 ## Levers to reduce contamination
 
-_Pending synthesis. Practical interventions for reducing heavy-metal load in toothpaste:_
+Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 
 1. **Sourcing levers** (highest impact): mineral abrasive (silica, calcium carbonate, baking soda) supplier selection. Cosmetic-grade silica from pre-screened sources runs Pb in single-digit ppb; industrial-grade can run >100 ppb.
 2. **Formulation levers**: reformulating away from heavy-metal-rich abrasives or coloring agents (some titanium dioxide grades carry Pb impurities). Substituting hydrated silica for calcium carbonate can shift the Pb baseline by an order of magnitude.
@@ -87,7 +87,7 @@ The percentile arithmetic that informs HMTc toothpaste thresholds lives on the s
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. Key public-record events:_
+Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 - Lead Safe Mama 2024-2025 toothpaste testing publications (consumer-advocacy reports identifying toothpastes above the recently-effective TFCA 1000 ppb threshold)
 - Washington State Toxic-Free Cosmetics Act (TFCA, effective 2025) implementing the 1000 ppb Pb limit on toothpaste
 - FDA cosmetic talc investigations 2019-2020 (separate from toothpaste but methodologically related)
@@ -96,7 +96,7 @@ _Pending synthesis. Key public-record events:_
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

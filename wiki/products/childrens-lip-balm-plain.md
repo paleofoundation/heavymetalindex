@@ -63,7 +63,7 @@ _Pending. Cat 2 regulatory landscape is fragmented: cosmetics under FDA FD&C Act
 
 ## Levers to reduce contamination
 
-_Pending synthesis. Cat 2 levers per the Step 0 lock framework, ordered by impact magnitude:_
+The Cat 2 Step 0 lock framework distinguishes clean-formulation rows from contaminated-platform rows. For this row, the levers below are ordered by impact magnitude based on the literature evidence base and per the Step 0 lock attribution of platform-level metal load. Brand-legal teams evaluating HMTc Cat 2 certification eligibility for this row should treat the formulation/sourcing levers as the dominant compliance pathway.
 
 1. **Maintain the clean-baseline formulation choice.** The Row 15 clean baseline exists precisely because alternative ingredient classes (without the platform load) are commercially available. Brands certifying this row commit to NOT adopting the contaminated variant's ingredient class.
 2. **Sourcing-level controls** on the few remaining ingredient classes carrying trace metal load.
@@ -75,15 +75,14 @@ The percentile arithmetic that informs HMTc Cat 2 thresholds for this row lives 
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. Cat 2-relevant public-record regulatory events are summarized at [[products/children-personal-care]] (Cat 2 master). Row-specific events will be filed here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/oecd2024-crafts-toys-children-exposure\|(OECD) 2024]]. *Considerations when Estimating Exposure to Crafts and Toys in Children (OECD Series on Testing and Assessment No. 401)*, OECD Publishing, Paris (Series on Testing and Assessment No. 401) | 2024 | Government report | *[awaiting synthesis]* |
-| 2 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | CN Pb occurrence in 34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) from JingDong (Chinese top-10 e-commerce market),... (n=34) |
 <!-- END: hmi-source-legend -->

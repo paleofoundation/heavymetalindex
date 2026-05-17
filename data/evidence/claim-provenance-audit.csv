@@ -649,18 +649,18 @@ ingredient,corn,Regulatory limits that apply,200 ppb,true,"10 mg/kg (100 ppb) we
 ingredient,corn,Regulatory limits that apply,0.10 mg/kg,true,0 ppb). Codex Alimentarius (CXS 193-1995 and revisions) sets a maximum level of 0.10 mg/kg for cadmium in grain crops in
 ingredient,corn,Regulatory limits that apply,0.20 mg/kg,true,ts a maximum level of 0.10 mg/kg for cadmium in grain crops including maize and 0.20 mg/kg for lead. The US TDS market-b
 ingredient,corn,Regulatory limits that apply,4.8 ppb,true,including maize and 0.20 mg/kg for lead. The US TDS market-basket Cd maximum of 4.8 ppb and Pb at zero are well below th
-ingredient,corn,Sources,0.02 mg/kg,true,"Nigeria), with 97.8% of households above the authors' Hg reference threshold of 0.02 mg/kg | | 8 | [[sources/abatemi-usm"
+ingredient,corn,Sources,0.02 mg/kg,true,"Nigeria), with 97.8% of households above the authors' Hg reference threshold of 0.02 mg/kg | | 5 | [[sources/abatemi-usm"
 ingredient,corn,Sources,0.021 mg/kg,true,"ing breads on the Polish market (n=50), with gluten-free at the lowest Cd mean (0.021 mg/kg) and Pb above LOQ in only on"
 ingredient,corn,Sources,307 µg/kg,true,"n 119 corn grain samples from karst regions of Guizhou (China), with Cd range 0–307 µg/kg and 13.5% of corn samples exce"
-ingredient,corn,Sources,0.1 mg/kg,true,range 0–307 µg/kg and 13.5% of corn samples exceeding the GB 2762-2017 limit of 0.1 mg/kg | | 20 | [[sources/liu2022-hea
+ingredient,corn,Sources,0.1 mg/kg,true,range 0–307 µg/kg and 13.5% of corn samples exceeding the GB 2762-2017 limit of 0.1 mg/kg | | 17 | [[sources/liu2022-hea
 ingredient,corn,Sources,0.26 mg/kg,true,"n samples from an industrialized Chengdu Plain (China) zone, with maize Cd mean 0.26 mg/kg and Pb mean 0.29 mg/kg both e"
 ingredient,corn,Sources,0.29 mg/kg,true,"trialized Chengdu Plain (China) zone, with maize Cd mean 0.26 mg/kg and Pb mean 0.29 mg/kg both exceeding national limit"
 ingredient,corn,Sources,128 ppb,true,"As, and tHg in 25 Beijing foodstuffs including corn within the cereal group (Cr 128 ppb, Cd 20 ppb DW), with cereals and"
 ingredient,corn,Sources,20 ppb,true,"in 25 Beijing foodstuffs including corn within the cereal group (Cr 128 ppb, Cd 20 ppb DW), with cereals and vegetables "
 ingredient,corn,Sources,0.94 mg/kg,true, 2017 | Peer-reviewed | Pb and Cr by F-AAS and GF-AAS in oil-popped popcorn (Pb 0.94 mg/kg) and imported cornflakes (Pb 
 ingredient,corn,Sources,0.36 mg/kg,true,"AS and GF-AAS in oil-popped popcorn (Pb 0.94 mg/kg) and imported cornflakes (Pb 0.36 mg/kg) from Addis Ababa, both subst"
-ingredient,corn,Sources,0.020 mg/kg,true,"ddis Ababa, both substantially above the EU 2023/915 cereals-as-placed limit of 0.020 mg/kg | | 24 | [[sources/khalil201"
-ingredient,corn,Sources,2.21 mg/kg,true,tal Cr exceeding permissible limits in all samples and branded products at mean 2.21 mg/kg | | 25 | [[sources/dufault201
+ingredient,corn,Sources,0.020 mg/kg,true,"ddis Ababa, both substantially above the EU 2023/915 cereals-as-placed limit of 0.020 mg/kg | | 21 | [[sources/khalil201"
+ingredient,corn,Sources,2.21 mg/kg,true,tal Cr exceeding permissible limits in all samples and branded products at mean 2.21 mg/kg | | 22 | [[sources/dufault201
 ingredient,corn,Sources,73.68 mg/kg,true,"3 canned-food types from Romania, with all just-opened samples between 0.09 and 73.68 mg/kg (below the EU 200 mg/kg limi"
 ingredient,corn,Sources,200 mg/kg,true,"omania, with all just-opened samples between 0.09 and 73.68 mg/kg (below the EU 200 mg/kg limit) but post-opening Sn in "
 ingredient,corn,Sources,200 mg/kg,true,below the EU 200 mg/kg limit) but post-opening Sn in liquid fractions exceeding 200 mg/kg within 48 hours in unlacquered
@@ -998,6 +998,9 @@ ingredient,hazelnuts,Mitigation options,50 ppb,true,"-level ICP-MS testing for P
 ingredient,hazelnuts,Regulatory limits that apply,0.20 mg/kg,true,# Regulatory limits that apply  The EU Regulation 2023/915 sets a Pb maximum of 0.20 mg/kg for tree nuts including hazel
 ingredient,hazelnuts,Regulatory limits that apply,0.10 mg/kg,true,915 sets a Pb maximum of 0.20 mg/kg for tree nuts including hazelnuts and Cd at 0.10 mg/kg fresh weight for tree nuts. T
 ingredient,herbal-botanicals,Sources,23 µg/g,true,", thyme, rosemary, black tea, green tea); chamomile Cd notably elevated at mean 23 µg/g across included studies | | 20 |"
+ingredient,herbal-botanicals,Why this commodity accumulates heavy metals,23 µg/g,true,"almani2023-herbal-teas-metals-review|Salmani 2023]] documenting chamomile Cd at 23 µg/g mean), Cr (per [[sources/jurowsk"
+ingredient,herbal-botanicals,Regulatory limits that apply,1000 ppb,true,"]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in herbs and spices: Pb 1000 ppb general spices, with stricter l"
+ingredient,herbal-botanicals,Regulatory limits that apply,1500 ppb,true," ppb general spices, with stricter limits for specific commodity categories; Cd 1500 ppb general spices. - FDA Import Al"
 ingredient,herbs-and-spices,"Ranges by source, region, and variety",000 ppb,true,"turmeric and paprika from adulteration-prone supply chains can carry Pb at >100,000 ppb in the worst-case tail, while pr"
 ingredient,herbs-and-spices,"Ranges by source, region, and variety",500 ppb,true,"rst-case tail, while properly sourced common culinary herbs typically sit below 500 ppb Pb.  ## Processing effects  Dryi"
 ingredient,herbs-and-spices,Processing effects,50 ppb,true,"transitions concentrate metals on a per-mass basis by 7-10×, so a fresh herb at 50 ppb Pb fresh weight reaches roughly 3"
@@ -1203,13 +1206,27 @@ ingredient,molluscs,Regulatory limits that apply,1000 ppb,true,aximum levels for
 ingredient,molluscs,Regulatory limits that apply,1.0 ppm,true,not maintain a binding action level for Cd in molluscs; the FDA action level of 1.0 ppm methylmercury in fish applies to
 ingredient,non-apple-fruit,Regulatory limits that apply,0.10 mg/kg,true,/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd
 ingredient,non-apple-fruit,Regulatory limits that apply,0.050 mg/kg,true,023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in fresh fruit on a w
-ingredient,non-rice-grains,Sources,0.02 mg/kg,true,"holds in 4 LGAs of Jigawa State, Nigeria; 97.8% of households had food Hg above 0.02 mg/kg reference | | 5 | [[sources/k"
+ingredient,non-rice-grains,Sources,0.02 mg/kg,true,"holds in 4 LGAs of Jigawa State, Nigeria; 97.8% of households had food Hg above 0.02 mg/kg reference | | 4 | [[sources/k"
 ingredient,non-rice-grains,Sources,0.072 mg/kg,true,"ket breads (wheat-rye, wheat, rye, gluten-free); wheat-rye had highest mean Cd (0.072 mg/kg) and gluten-free lowest (0.0"
 ingredient,non-rice-grains,Sources,0.307 mg/kg,true,"eat, and corn (and rice) marketed in Madeira and the Azores; oats highest Cd at 0.307 mg/kg and rye highest Pb at 0.347 "
-ingredient,non-rice-grains,Sources,0.347 mg/kg,true,"in Madeira and the Azores; oats highest Cd at 0.307 mg/kg and rye highest Pb at 0.347 mg/kg, both exceeding EU MLs | | 8"
+ingredient,non-rice-grains,Sources,0.347 mg/kg,true,"in Madeira and the Azores; oats highest Cd at 0.307 mg/kg and rye highest Pb at 0.347 mg/kg, both exceeding EU MLs | | 7"
 ingredient,non-rice-grains,Sources,0.49 mg/kg,true,"barley, tef, wheat, maize) from Debre Markos market, Ethiopia; Pb (e.g., barley 0.49 mg/kg) and Cd above FAO/WHO limits "
 ingredient,non-rice-grains,Sources,1.16 mg/kg,true,"et, rye, wheat, barley, pasta, flours, groats, flakes, bran); whole grains mean 1.16 mg/kg vs processed 0.61, 95th perce"
 ingredient,non-rice-grains,Sources,1.93 mg/kg,true," flakes, bran); whole grains mean 1.16 mg/kg vs processed 0.61, 95th percentile 1.93 mg/kg, individual values up to 4.80"
+ingredient,non-rice-grains,Why this commodity accumulates heavy metals,0.307 mg/kg,true,"ources/rubio2023-metals-cereals-madeira-azores|Rubio 2023]] documenting oats at 0.307 mg/kg Cd, exceeding EU MLs); corn "
+ingredient,non-rice-grains,Why this commodity accumulates heavy metals,0.072 mg/kg,true,m-lead-bread-gluten-free-poland|Gacal 2023]] documents Cd in wheat-rye bread at 0.072 mg/kg with non-trivial cancer-risk
+ingredient,non-rice-grains,Why this commodity accumulates heavy metals,0.347 mg/kg,true,en under 11); barley and rye at moderate baselines (Rubio 2023 documents rye at 0.347 mg/kg Pb exceeding EU MLs); millet
+ingredient,non-rice-grains,Why this commodity accumulates heavy metals,4.8 mg/kg,true,vated Ni per [[sources/mania2020-nickel-cereal-grains-poland|Mania 2020]] up to 4.8 mg/kg; quinoa as documented tAs accu
+ingredient,non-rice-grains,Processing effects,1.16 mg/kg,true,land|Mania 2020]]'s Polish whole-vs-processed cereal grain Ni comparison (whole 1.16 mg/kg vs processed 0.61 mg/kg). Mul
+ingredient,non-rice-grains,Processing effects,0.61 mg/kg,true,sh whole-vs-processed cereal grain Ni comparison (whole 1.16 mg/kg vs processed 0.61 mg/kg). Multigrain baby cereal form
+ingredient,non-rice-grains,Regulatory limits that apply,50 ppb,true,"mum levels for Pb, Cd, and iAs in infant-and-young-child cereal-based food: iAs 50 ppb (rice and rice-product), Pb 20 pp"
+ingredient,non-rice-grains,Regulatory limits that apply,20 ppb,true,"nfant-and-young-child cereal-based food: iAs 50 ppb (rice and rice-product), Pb 20 ppb, Cd 40 ppb (dry weight). Non-rice"
+ingredient,non-rice-grains,Regulatory limits that apply,40 ppb,true,"oung-child cereal-based food: iAs 50 ppb (rice and rice-product), Pb 20 ppb, Cd 40 ppb (dry weight). Non-rice cereals fa"
+ingredient,non-rice-grains,Regulatory limits that apply,20 ppb,true,h different per-analyte limits. - FDA Closer to Zero baby-food Pb action level: 20 ppb for dry infant cereal applies to 
+ingredient,non-root-vegetable-purees,Why this commodity accumulates heavy metals,10 ppb,true,ser to Zero baby-food Pb action level differentiates non-root vegetable purees (10 ppb Pb) from root vegetable purees (2
+ingredient,non-root-vegetable-purees,Why this commodity accumulates heavy metals,20 ppb,true,ifferentiates non-root vegetable purees (10 ppb Pb) from root vegetable purees (20 ppb Pb) — the tighter limit on non-ro
+ingredient,non-root-vegetable-purees,Mitigation options,10 ppb,true,"Pb, Cd testing on finished non-root-vegetable purees against FDA Closer to Zero 10 ppb Pb action level for non-root vege"
+ingredient,non-root-vegetable-purees,Regulatory limits that apply,10 ppb,true,n infant-and-young-child foods. - FDA Closer to Zero baby-food Pb action level: 10 ppb for non-root vegetable purees ([[
 ingredient,non-root-vegetables,Regulatory limits that apply,0.10 mg/kg,true,3/915 [[regulations/eu2023-contaminants-maximum-levels]] sets maximum levels of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd
 ingredient,non-root-vegetables,Regulatory limits that apply,0.050 mg/kg,true,2023-contaminants-maximum-levels]] sets maximum levels of 0.10 mg/kg for Pb and 0.050 mg/kg for Cd in most fresh vegetab
 ingredient,non-root-vegetables,Regulatory limits that apply,0.10 mg/kg,true, to some sub-categories: stem vegetables such as celery carry a lower Cd limit (0.10 mg/kg) under the regulation's more 
@@ -1226,6 +1243,7 @@ ingredient,non-soy-infant-formula,Regulatory limits that apply,5 ppb,true,"s for
 ingredient,non-soy-infant-formula,Regulatory limits that apply,20 ppb,true,"prepared-for-feeding (≈70 ppb powder basis), Cd 5 ppb prepared-for-feeding, iAs 20 ppb prepared-for-feeding, Hg 20 ppb p"
 ingredient,non-soy-infant-formula,Regulatory limits that apply,20 ppb,true,"wder basis), Cd 5 ppb prepared-for-feeding, iAs 20 ppb prepared-for-feeding, Hg 20 ppb prepared-for-feeding. These apply"
 ingredient,non-soy-infant-formula,Regulatory limits that apply,100 ppb,true,real]] — FDA Closer to Zero iAs framework covers rice-containing formula at the 100 ppb iAs action level. - Codex Alimen
+ingredient,non-soy-protein-source,Why this commodity accumulates heavy metals,500 ppb,true,"r non-soy protein sources depend heavily on the specific protein matrix. The 22,500 ppb tAs cited in the body table is a"
 ingredient,noodles,Regulatory limits that apply,0.10 mg/kg,true,lation EU 2023/915 amending Regulation (EC) No 1881/2006 set a maximum level of 0.10 mg/kg Cd for cereal products and pa
 ingredient,noodles,Regulatory limits that apply,0.20 mg/kg,true,"81/2006 set a maximum level of 0.10 mg/kg Cd for cereal products and pasta, and 0.20 mg/kg Pb for the same category [[re"
 ingredient,oat-ring-cereal,Why this commodity accumulates heavy metals,400 ppb,true,"ng cereal (TDS Food 77, n=3) confirm detectable concentrations for Ni (median 2,400 ppb, max 3,200 ppb), Cd (median 19 p"
@@ -1392,7 +1410,7 @@ ingredient,potatoes,Regulatory limits that apply,0.10 mg/kg,true,imum levels for
 ingredient,potatoes,Regulatory limits that apply,100 ug/kg,true,"for root and tuber vegetables are 0.10 mg/kg (100 ug/kg) for Cd and 0.10 mg/kg (100 ug/kg) for Pb; for potatoes, the max"
 ingredient,potatoes,Regulatory limits that apply,20 ppb,true,es after washing and edible-part separation. - [[regulations/fda-ctz-Pb-rootveg-20ppb]] — FDA CTZ 20 ppb lead action lev
 ingredient,potatoes,Regulatory limits that apply,20 ppb,true,nd edible-part separation. - [[regulations/fda-ctz-Pb-rootveg-20ppb]] — FDA CTZ 20 ppb lead action level for single-ingr
-ingredient,potatoes,Sources,190 ppb,true, foods (FY2018–2020); potato chips ranked highest for Cd among TDS foods at P95 190 ppb | | 10 | [[sources/fechner2022-b
+ingredient,potatoes,Sources,190 ppb,true, foods (FY2018–2020); potato chips ranked highest for Cd among TDS foods at P95 190 ppb | | 8 | [[sources/fechner2022-bf
 ingredient,potatoes,Sources,93 µg/kg,true,Science | 2020 | Review | FDA/CFSAN Cd mitigation review citing potato chips at 93 µg/kg (FDA TDS 2014–2016) as the thir
 ingredient,potatoes,Sources,2.5 µg/kg,true, | 2009 | Government report | EFSA CONTAM Cd opinion establishing the EU TWI of 2.5 µg/kg bw/week; identifies potatoes a
 ingredient,processed-american-cheese,Why this commodity accumulates heavy metals,300 ppb,true,"ts monitoring. The Cr values observed in the FDA TDS FY2018-FY2020 data (median 300 ppb, n=3) are notable for a dairy pr"
@@ -1400,6 +1418,7 @@ ingredient,processed-american-cheese,Regulatory limits that apply,0.020 mg/kg,tr
 ingredient,processed-american-cheese,Regulatory limits that apply,20 ppb,true,"levels]]), the applicable Pb maximum level for processed cheese is 0.020 mg/kg (20 ppb) wet weight, the same limit that "
 ingredient,processed-american-cheese,Regulatory limits that apply,0.020 mg/kg,true, that applies to raw fluid milk and other dairy products. A Cd maximum level of 0.020 mg/kg (20 ppb) wet weight applies 
 ingredient,processed-american-cheese,Regulatory limits that apply,20 ppb,true, to raw fluid milk and other dairy products. A Cd maximum level of 0.020 mg/kg (20 ppb) wet weight applies to milk-based
+ingredient,quinoa,Why this commodity accumulates heavy metals,60 ppb,true, mining-residue influence; quinoa grown in these soils accumulates trace tAs at 60 ppb medium confidence per the contrib
 ingredient,raisins,Why this commodity accumulates heavy metals,5 ppb,true,"oughly three to four on a wet-weight basis. A Pb concentration of, for example, 5 ppb in the fresh grape becomes approxi"
 ingredient,raisins,Why this commodity accumulates heavy metals,20 ppb,true,"entration of, for example, 5 ppb in the fresh grape becomes approximately 18 to 20 ppb in the dried raisin without any c"
 ingredient,raisins,"Ranges by source, region, and variety",7.8 ppb,true,does not resolve geographic or variety-level structure. The Pb p50 observed was 7.8 ppb and max was 16 ppb; Cd p50 was b
@@ -1492,28 +1511,6 @@ ingredient,rice,Nickel in rice,0.27 µg/g,true," soy, oats, hazelnuts, and almon
 ingredient,rice,Sources,0.102 µg/g,true,reviewed | US commercial rice-cereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb i
 ingredient,rice,Sources,100 ppb,true,"ereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb iAs action level, no speciation "
 ingredient,rice,Sources,90 µg/kg,true,"rsenic-cadmium irrigation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polis"
-ingredient,rice,Sources,150 µg/kg,true,"gation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polished grain | | 42 | "
-ingredient,rice,Sources,0.10 mg/kg,true,"iew and meta-analysis*, PLoS ONE | 2022 | Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (poole"
-ingredient,rice,Sources,0.16 mg/kg,true,"Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (pooled 0.16 mg/kg DW, 29 studies) meta-analysis"
-ingredient,rice,Sources,463 µg/kg,true,n Nutrition | 2022 | Peer-reviewed | Guizhou karst rice (n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of Chi
-ingredient,rice,Sources,0.2 mg/kg,true,(n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of China GB 2762-2017 0.2 mg/kg standard | | 82 | [[sources/li
-ingredient,rice,Sources,0.2 mg/kg,true,ty | 2022 | Review | Narrative review citing Codex CXS 193-1995 cereal grain Pb 0.2 mg/kg and rice Cd 0.4 mg/kg MLs; cov
-ingredient,rice,Sources,0.4 mg/kg,true,arrative review citing Codex CXS 193-1995 cereal grain Pb 0.2 mg/kg and rice Cd 0.4 mg/kg MLs; covers Cr/Cd/Pb/Hg/As tox
-ingredient,rice,Sources,120 µg/kg,true,"(Cardno ChemRisk, FDA EAM 4.7 ICP-MS, n=36): rice-based grain products mean As ~120 µg/kg drive all elevated non-cancer "
-ingredient,rice,Sources,11.9 µg/kg,true, CDC Weekly | 2022 | Government report | China 6th TDS cereal-category Pb (mean 11.9 µg/kg) and Cd (mean 14.5 µg/kg) det
-ingredient,rice,Sources,14.5 µg/kg,true,rnment report | China 6th TDS cereal-category Pb (mean 11.9 µg/kg) and Cd (mean 14.5 µg/kg) detection rates 100%; Hunan 
-ingredient,rice,Sources,1500 µg/kg,true,Colombia La Mojana (gold-mining-impacted) tHg in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and 
-ingredient,rice,Sources,10 µg/kg,true,ning-impacted) tHg in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits
-ingredient,rice,Sources,20 µg/kg,true,in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits | | 98 | [[sources
-ingredient,rice,Sources,0.15 mg/kg,true,"s*, AIP Conference Proceedings | 2021 | Peer-reviewed | Jakarta market rice tHg 0.15 mg/kg (Cr also measured) by NAA; ri"
-ingredient,rice,Sources,100 ppb,true,mmercial baby rice cereals: HPLC-ICP-MS bio-accessible iAs fractions exceed FDA 100 ppb infant rice-cereal action level 
-ingredient,rice,Sources,0.2 mg/kg,true,in Toxicology | 2020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; cen
-ingredient,rice,Sources,0.4 mg/kg,true,020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; central-China mining
-ingredient,rice,Sources,100 ppb,true,Government report | FDA Closer to Zero iAs action level for infant rice cereal (100 ppb) | | 111 | [[sources/liu2020-ric
-ingredient,rice,Sources,20 µg/kg,true,"ed | Beijing cereal-group means including rice: Cr 128, Pb 62, As 28, Cd 20, Hg 20 µg/kg DW; cereals and vegetables driv"
-ingredient,rice,Sources,0.102 µg/g,true,reviewed | US commercial rice-cereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb i
-ingredient,rice,Sources,100 ppb,true,"ereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb iAs action level, no speciation "
-ingredient,rice,Sources,90 µg/kg,true,"rsenic-cadmium irrigation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polis"
 ingredient,rice,Sources,150 µg/kg,true,"gation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polished grain | | 41 | "
 ingredient,rice,Sources,0.10 mg/kg,true,"iew and meta-analysis*, PLoS ONE | 2022 | Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (poole"
 ingredient,rice,Sources,0.16 mg/kg,true,"Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (pooled 0.16 mg/kg DW, 29 studies) meta-analysis"
@@ -1536,9 +1533,10 @@ ingredient,rice,Sources,20 µg/kg,true,"ed | Beijing cereal-group means includin
 ingredient,rice,Sources,20 µg/kg,true,ant proximity gradient: 67% of grain samples (rice + maize) exceed GB 2762-2012 20 µg/kg Hg limit via atmospheric partic
 ingredient,rice,Sources,0.090 mg/kg,true,"r-reviewed | Shanghai adults >40 (n=207): rice Cd mean 0.023, median 0.009, P90 0.090 mg/kg wet weight; rice + vegetable"
 ingredient,rice,Sources,0.21 µg/g,true,"9(6):427-431 | 1984 | Peer-reviewed | Foundational Ni-in-food review; rice mean 0.21 µg/g (range 0.08-0.45, n=16); load "
-ingredient,rice,Sources,20 µg/kg,true,ant proximity gradient: 67% of grain samples (rice + maize) exceed GB 2762-2012 20 µg/kg Hg limit via atmospheric partic
-ingredient,rice,Sources,0.090 mg/kg,true,"r-reviewed | Shanghai adults >40 (n=207): rice Cd mean 0.023, median 0.009, P90 0.090 mg/kg wet weight; rice + vegetable"
-ingredient,rice,Sources,0.21 µg/g,true,"9(6):427-431 | 1984 | Peer-reviewed | Foundational Ni-in-food review; rice mean 0.21 µg/g (range 0.08-0.45, n=16); load "
+ingredient,root-vegetable-purees,Why this commodity accumulates heavy metals,20 ppb,true, Closer to Zero baby-food Pb action level differentiates root vegetable purees (20 ppb Pb) from non-root vegetable puree
+ingredient,root-vegetable-purees,Why this commodity accumulates heavy metals,10 ppb,true,ifferentiates root vegetable purees (20 ppb Pb) from non-root vegetable purees (10 ppb Pb) specifically because root veg
+ingredient,root-vegetable-purees,Mitigation options,20 ppb,true,"vel Pb, Cd testing on finished root-vegetable purees against FDA Closer to Zero 20 ppb Pb action level for root vegetabl"
+ingredient,root-vegetable-purees,Regulatory limits that apply,20 ppb,true,n infant-and-young-child foods. - FDA Closer to Zero baby-food Pb action level: 20 ppb for root vegetable purees ([[sour
 ingredient,root-vegetables,Regulatory limits that apply,0.020 mg/kg,true," two. For root vegetable purees in baby food, the applicable Pb action level is 0.020 mg/kg (20 ppb) as served, as final"
 ingredient,root-vegetables,Regulatory limits that apply,20 ppb,true,"t vegetable purees in baby food, the applicable Pb action level is 0.020 mg/kg (20 ppb) as served, as finalized in the F"
 ingredient,root-vegetables,Regulatory limits that apply,20 ppb,true,alized in the FDA Closer to Zero guidance (see [[regulations/fda-ctz-Pb-rootveg-20ppb]] and [[regulations/fda-closer-to-
@@ -1592,13 +1590,14 @@ ingredient,shark,Mitigation options,1.0 mg/kg,true,analytical platforms. Lot acc
 ingredient,shark,Regulatory limits that apply,1.0 mg/kg,true,ply  - [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets the species-specific 1.0 mg/kg Hg maximum level for shark and
 ingredient,shark,Regulatory limits that apply,0.5 mg/kg,true,.0 mg/kg Hg maximum level for shark and similar large predatory species (versus 0.5 mg/kg for most other fish). - [[regu
 ingredient,shark,Regulatory limits that apply,1.0 ppm,true,-fish]] — EU Reg. 2022/617 amendments to Hg MLs for fish. - FDA action level of 1.0 ppm methylmercury in fish applies to
-ingredient,shellfish,Sources,25 µg/kg,true,g shellfish (particularly molluscs) as a significant contributor to the PTMI of 25 µg/kg b.w./month | | 27 | [[sources/e
+ingredient,shellfish,Sources,25 µg/kg,true,g shellfish (particularly molluscs) as a significant contributor to the PTMI of 25 µg/kg b.w./month | | 26 | [[sources/e
 ingredient,shellfish,Sources,2.5 µg/kg,true," | 2009 | Government report | EFSA CONTAM opinion establishing the EU Cd TWI at 2.5 µg/kg b.w./week, with shellfish and "
 ingredient,shellfish,Regulatory limits that apply,1.0 ppm,true,"S 193-1995]] — Codex MLs for Cd, Pb, and Hg in shellfish. - FDA action level of 1.0 ppm methylmercury in fish applies to"
 ingredient,skim-milk,Regulatory limits that apply,0.020 mg/kg,true,"he maximum Pb level for raw milk, heat-treated milk, and milk-based products is 0.020 mg/kg (20 ppb) wet weight. The cor"
 ingredient,skim-milk,Regulatory limits that apply,20 ppb,true," level for raw milk, heat-treated milk, and milk-based products is 0.020 mg/kg (20 ppb) wet weight. The corresponding Cd"
 ingredient,skim-milk,Regulatory limits that apply,0.020 mg/kg,true,b) wet weight. The corresponding Cd maximum level for milk and milk products is 0.020 mg/kg (20 ppb) wet weight. These a
 ingredient,skim-milk,Regulatory limits that apply,20 ppb,true,. The corresponding Cd maximum level for milk and milk products is 0.020 mg/kg (20 ppb) wet weight. These are among the 
+ingredient,soft-drink-bases,Regulatory limits that apply,100 mg/kg,true, soft drink products sold in California. - EU Sn-in-canned-food regulation sets 100 mg/kg maximum level for canned bever
 ingredient,soy-based-infant-formula,Why this commodity accumulates heavy metals,4.3 µg/g,true,"urrell2010-aluminium-in-infant-formulas|Burrell 2010]] UK soy powder formula at 4.3 µg/g aluminum, which translates to r"
 ingredient,soy-based-infant-formula,Why this commodity accumulates heavy metals,629 µg/L,true," 2010]] UK soy powder formula at 4.3 µg/g aluminum, which translates to roughly 629 µg/L prepared-for-feeding under stan"
 ingredient,soy-based-infant-formula,Why this commodity accumulates heavy metals,12 ppb,true,ommon to all infant formulas. Arsenic occurrence in soy-based formula sits at 7-12 ppb tAs/iAs medium-confidence based o
@@ -1659,7 +1658,7 @@ ingredient,spinach,Regulatory limits that apply,0.30 mg/kg,true,els]] — EU max
 ingredient,spinach,Regulatory limits that apply,300 ug/kg,true,aximum levels for leaf vegetables are 0.10 mg/kg (100 ug/kg) Cd and 0.30 mg/kg (300 ug/kg) Pb; spinaches and similar lea
 ingredient,spinach,Regulatory limits that apply,0.20 mg/kg,true," leaves, mustard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).  <!-- BEGIN: hmi"
 ingredient,spinach,Regulatory limits that apply,200 ug/kg,true,"tard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).  <!-- BEGIN: hmi-source-lege"
-ingredient,spinach,Sources,41.37 mg/kg,true,"d, Cr, and Pb all below detection limits while Al and Fe highest in spinach (Al 41.37 mg/kg) within FAO/WHO limits | | 5"
+ingredient,spinach,Sources,41.37 mg/kg,true,"d, Cr, and Pb all below detection limits while Al and Fe highest in spinach (Al 41.37 mg/kg) within FAO/WHO limits | | 4"
 ingredient,spinach,Sources,000 µg/L,true,"ptake in spinach across four irrigation-water As concentrations (0, 100, 500, 1,000 µg/L) in Burkina Faso; spinach had t"
 ingredient,spinach,Sources,6.6 µg/g,true,"00, 500, 1,000 µg/L) in Burkina Faso; spinach had the highest edible-part As at 6.6 µg/g dw at 500 µg/L, with steaming r"
 ingredient,spinach,Sources,500 µg/L,true,"µg/L) in Burkina Faso; spinach had the highest edible-part As at 6.6 µg/g dw at 500 µg/L, with steaming reducing cooked-"
@@ -1712,6 +1711,7 @@ ingredient,tea,Regulatory limits that apply,2.0 mg/kg,true,. The EU Regulation 2
 ingredient,tea,Regulatory limits that apply,0.5 mg/kg,true, the typical-range distribution and routinely passed by commercial product) and 0.5 mg/kg Cd maximum. China's GB 2762-20
 ingredient,tea,Regulatory limits that apply,5.0 mg/kg,true,"mum. China's GB 2762-2017 national food-safety standard sets tea-specific Pb at 5.0 mg/kg and Cd at 1.0 mg/kg, looser th"
 ingredient,tea,Regulatory limits that apply,1.0 mg/kg,true,"-2017 national food-safety standard sets tea-specific Pb at 5.0 mg/kg and Cd at 1.0 mg/kg, looser than EU but applicable"
+ingredient,teething-and-snacks,Regulatory limits that apply,100 ppb,true,le to teething-and-snacks products. - FDA Closer to Zero infant-rice-cereal iAs 100 ppb action level applies to rice-bas
 ingredient,tinned-fish,Why this commodity accumulates heavy metals,200 mg/kg,true,der elevated storage temperatures. The EU has established a maximum Sn limit of 200 mg/kg for canned foods to address th
 ingredient,tinned-fish,Regulatory limits that apply,0.30 mg/kg,true,"ts-maximum-levels]]), the applicable Pb maximum level for fish (muscle meat) is 0.30 mg/kg (300 ppb) wet weight. The Cd "
 ingredient,tinned-fish,Regulatory limits that apply,300 ppb,true,"evels]]), the applicable Pb maximum level for fish (muscle meat) is 0.30 mg/kg (300 ppb) wet weight. The Cd maximum leve"
@@ -1972,6 +1972,10 @@ ingredient,wild-mushrooms,Regulatory limits that apply,150 ug/kg,true,ke are 0.0
 ingredient,wild-mushrooms,Regulatory limits that apply,0.30 mg/kg,true,0 ug/kg) Cd; common/oyster/shiitake cultivated fungi have a Pb maximum level of 0.30 mg/kg (300 ug/kg).  <!-- BEGIN: hmi
 ingredient,wild-mushrooms,Regulatory limits that apply,300 ug/kg,true, common/oyster/shiitake cultivated fungi have a Pb maximum level of 0.30 mg/kg (300 ug/kg).  <!-- BEGIN: hmi-source-lege
 ingredient,wild-mushrooms,Sources,2 mg/kg,true,sessment identifying wild mushrooms as highest-Cd food in European diets (up to 2 mg/kg FW); foundational regulatory-sci
+ingredient,wine-vinegar,Why this commodity accumulates heavy metals,700 ppb,true,negar-icpms-gfaas|Ndung'u 2004]] collectively document Pb in wine vinegar at 50-700 ppb across regional surveys.  The HM
+ingredient,wine-vinegar,"Ranges by source, region, and variety",700 ppb,true,negar stored in metal-contact vessels carries elevated migration).  The wide 50-700 ppb Pb range across the three contri
+ingredient,wine-vinegar,Mitigation options,30 ppb,true,ting-and-qc]]) include lot-level Pb testing on incoming wine vinegar against EU 30 ppb juice/wine maximum levels and FDA
+ingredient,wine-vinegar,Regulatory limits that apply,100 ppb,true,/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for Pb in wine at 100 ppb (the wine-vinegar precursor); wi
 ingredient,winter-squash,"Ranges by source, region, and variety",4.4 ppb,true,"DA FY2018-FY2020 Total Diet Study, Cd in winter squash samples ranged from 0 to 4.4 ppb (p50 approximately 1.6 ppb, n=27"
 ingredient,winter-squash,"Ranges by source, region, and variety",1.6 ppb,true," Study, Cd in winter squash samples ranged from 0 to 4.4 ppb (p50 approximately 1.6 ppb, n=27), and total arsenic ranged"
 ingredient,winter-squash,"Ranges by source, region, and variety",17 ppb,true,"o 4.4 ppb (p50 approximately 1.6 ppb, n=27), and total arsenic ranged from 0 to 17 ppb (p50 approximately 0 ppb, with th"
@@ -3840,7 +3844,11 @@ product,toothpaste,Federal/Regulatory Limits vs Field Findings,1000 ppb,true,it.
 product,toothpaste,Levers to reduce contamination,100 ppb,true,rom pre-screened sources runs Pb in single-digit ppb; industrial-grade can run >100 ppb. 2. **Formulation levers**: refo
 product,toothpaste,Historical recalls and enforcement,1000 ppb,true,umer-advocacy reports identifying toothpastes above the recently-effective TFCA 1000 ppb threshold) - Washington State T
 product,toothpaste,Historical recalls and enforcement,1000 ppb,true,"shington State Toxic-Free Cosmetics Act (TFCA, effective 2025) implementing the 1000 ppb Pb limit on toothpaste - FDA co"
+product,true-tea-camellia-sinensis,Levers to reduce contamination,30 ppb,true,") for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v."
+product,true-tea-camellia-sinensis,Historical recalls and enforcement,30 ppb,true,") for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v."
 product,vegetable-juices-non-root,Federal / Regulatory Limits vs Field Findings,20 ug/kg,true,"| [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 20 ug/kg Pb. Scope: other single-strengt"
 product,vegetable-juices-non-root,Literature Evidence Summary,20 ppb,true,e-level detection rate not reported | [[regulations/fda2022-draft-lead-juice]]: 20 ppb (single-strength ready-to-drink j
+product,vegetable-juices-non-root,Levers to reduce contamination,30 ppb,true,") for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v."
+product,vegetable-juices-non-root,Historical recalls and enforcement,30 ppb,true,") for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v."
 product,vegetable-juices-root-vegetable-containing,Federal / Regulatory Limits vs Field Findings,20 ug/kg,true,"| [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 20 ug/kg Pb. Scope: other single-strengt"
 product,vegetable-juices-root-vegetable-containing,Literature Evidence Summary,20 ppb,true,e-level detection rate not reported | [[regulations/fda2022-draft-lead-juice]]: 20 ppb (single-strength ready-to-drink j
