@@ -11,44 +11,58 @@ source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_11405437_Food_contamination_and_cardiovascular_disease_a_narrative_re/FM_11405437_Food_contamination_and_cardiovascular_disease_a_narrative_re.md
-metals: [Pb, Cd, iAs, tAs, tHg]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/cocoa]]", "[[ingredients/bivalve-molluscs]]"]
+metals: [Pb, Cd, tAs, tHg, Cr, W]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/cocoa]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/rice]]", "[[ingredients/bread]]", "[[ingredients/fruit]]"]
 products: []
 matrices: [dietary-intake]
 jurisdictions: [EU, global]
 near_duplicates: []
 sample_n: null
 sample_population: null
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Mancuso et al. 2024 — Food contamination and cardiovascular disease: narrative review
 
-This narrative review synthesizes evidence linking food-borne contaminants to cardiovascular disease (CVD), covering heavy metals (arsenic, lead, cadmium, mercury, tungsten) alongside ultra-processed foods, artificial sweeteners, nitrates, dioxins and PCBs, and acrolein. The review contextualizes each contaminant within dietary exposure pathways, discusses proposed mechanisms of cardiovascular toxicity, and draws on both experimental and epidemiological literature. No primary concentration data are reported; the paper functions as a synthesis of existing literature rather than a new measurement study.
+This narrative review synthesizes evidence linking food-borne contaminants to cardiovascular disease (CVD), covering heavy metals (arsenic, lead, mercury, cadmium, chromium, and tungsten) alongside ultra-processed foods, artificial sweeteners, nitrates, dioxins and PCBs, and acrolein. The review contextualizes each contaminant within dietary exposure pathways, discusses proposed mechanisms of cardiovascular toxicity, and draws on both experimental and epidemiological literature. No primary concentration data are reported; the paper functions as a synthesis of existing literature rather than a new measurement study.
 
 ## Key numbers
 
-- Arsenic: epidemiological studies associate chronic dietary As exposure with hypertension, coronary artery disease, and peripheral arterial disease; fish and seafood are the dominant dietary As sources in most populations, though rice is the predominant source for populations with high grain consumption.
-- Lead: narrative cites associations between blood Pb levels and hypertension, atherosclerosis, and increased cardiovascular mortality; fresh meat, bivalves, and vegetables are named as food sources.
-- Cadmium: Cd is linked to arterial stiffness, hypertension, and endothelial dysfunction; cocoa, vegetables, and cereals are cited as dietary sources; the review notes EU regulatory limits for Cd in food.
-- Mercury: the review discusses tHg in fish and seafood; focuses on atherosclerosis and arrhythmia associations; references the dose-dependent risk in frequent fish consumers.
+- Arsenic: epidemiological studies associate chronic arsenic exposure with cardiovascular disease endpoints; the review specifically cites rice, bread, and vegetables as high-consumption foods in one cohort and reports arsenic in vegetables and rice above the study's standard limitation value.
+- Lead: narrative cites associations between blood Pb levels and CVD burden and describes dietary lead intake as a major contributor in one cited Chinese adolescent/adult burden analysis.
+- Cadmium: Cd is linked to atherosclerotic cardiovascular disease, arterial-wall accumulation, LDL oxidation, reduced NO bioavailability, endothelial dysfunction, oxidative stress, and inflammation; the review describes Cd entering soil and food-production cycles.
+- Mercury: the review discusses mercury in fish and seafood, including a cited seafood exposure study and child tolerable-weekly-intake concern for products with the highest mercury levels; it does not provide new mercury concentration data.
 - Tungsten: cited as an emerging contaminant associated with cardiovascular risk in NHANES analyses; less dietary-source specificity provided.
 - The review does not report original concentration measurements; all values are drawn from cited epidemiological and toxicological literature.
 
 ## Methods (brief)
 
-Narrative review methodology; no systematic search protocol or PRISMA flow described. Literature synthesis drawing on PubMed-indexed primary studies, epidemiological cohorts, and regulatory agency documents (EU, WHO, FDA). No analytical methods, LODs, or sample collections involved.
+Narrative review methodology; no systematic search protocol or PRISMA flow described. The authors state that the review was not a systematic review with rigorous data extraction and that the search strategy may not have identified all relevant studies. Literature synthesis draws on contaminant/CVD studies and public-health or regulatory documents (WHO, European Commission, ATSDR, US EPA). No original analytical methods, LODs, or sample collections involved.
 
 ## Implications
 
-Certification: Useful background framing that heavy metals in food are a recognized CVD risk factor in peer-reviewed literature, strengthening the regulatory and health rationale for HMT&C certification targets for Pb, Cd, iAs, and tHg. B-tier; not a primary data source for concentration limits.
+Certification: Useful background framing that heavy metals in food are a recognized CVD risk factor in peer-reviewed literature. B-tier; not a primary data source for occurrence distributions or concentration limits.
 Courses: Good entry-level citation for modules on health consequences of heavy metal dietary exposure; covers multiple metals in a single readable source.
 App: Not directly usable for contamination_profile updates; no primary concentration data.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/arsenic]]
-- [[metals/mercury]]
-- [[health/cardiovascular-effects]]
+- [[metals/arsenic-total]]
+- [[metals/mercury-total]]
+- [[metals/chromium]]
+- [[ingredients/fish]]
+- [[ingredients/seafood]]
+- [[ingredients/vegetables]]
+- [[ingredients/cocoa]]
+- [[ingredients/bivalve-molluscs]]
+- [[ingredients/rice]]
+- [[ingredients/bread]]
+- [[ingredients/fruit]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) removed unsupported arsenic-source and mercury-CVD phrasing, replaced `iAs` with `tAs`, added Cr and W to frontmatter metal scope, removed the invalid health-page link, and replaced HMT&C target language with source-level framing.
+- The review does not separate inorganic from total arsenic or methylmercury from total mercury; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
+- The current metal-page snapshot has no tungsten page, so W is retained in frontmatter to reflect source scope but is not linked in the page-touch list.
