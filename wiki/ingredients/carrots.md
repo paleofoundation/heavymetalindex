@@ -71,22 +71,51 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Carrots (Daucus carota) are a root vegetable that accumulates cadmium and lead from soil into the root tissue at moderate efficiency. Root vegetables are systematically more efficient Pb and Cd accumulators than fruits or leaves because the root organ is in direct extended contact with soil throughout the plant's growing period. Carrots specifically take up Cd at rates that depend on soil pH (acid soils mobilize more Cd into bioavailable form), zinc and phosphorus status, and the underlying soil Cd loading.
+
+Lead in carrots can come from two pathways: soil-uptake into the root tissue and surface deposition on the root exterior. Surface-deposited Pb is partially removable by washing and peeling; root-uptake Pb is bound in the tissue. The [[sources/tonska2020-carrots-lead-cadmium-organic|Tonska 2020]] Polish-market carrot survey documents the conventional-vs-organic variance and the geographic-region effect; [[sources/stasinos2014-heavy-metals-tubers-review|Stasinos 2014]] places carrots in the broader tuber and root-vegetable framework.
+
+The HMTc panel concerns for carrots are Pb and Cd. Both fall under the Cat 4 root/tuber-vegetable row ([[products/root-tuber-vegetables]]) and the Cat 1 root-vegetable-puree row for baby food applications.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Carrot processing has documented metal-removal effects:
+
+**Washing** removes surface-deposited Pb effectively. Multi-rinse and gentle-brushing protocols can reduce surface Pb by 60-80 percent where surface deposition is the dominant Pb source.
+
+**Peeling** removes the skin where surface Pb concentrates; peeled carrots typically carry less Pb than unpeeled from the same source. Cadmium, bound in tissue, is not meaningfully reduced by peeling.
+
+**Cooking** does not change total per-mass metal load. Boiling-and-discard removes a small water-soluble fraction; absorption-method cooking conserves the metal.
+
+**Drying** for powder applications concentrates metals on a dry-mass basis 5-10× the fresh-weight value.
+
+**Pureeing for baby food** does not change source-carrot metal content; the per-jar metal load reflects the source carrot.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Carrot derivatives that concentrate metals: dried carrot powder, carrot juice (concentrated by water removal during commercial juicing), carrot-extract supplements (high beta-carotene supplements derived from carrots), and carrot-flake snack products. Carrot baby-food purees inherit the source-carrot Pb/Cd directly; for the regulatory and certification context see [[products/root-vegetable-purees]].
+
+Carrot-juice concentrate is widely used as a food coloring (natural orange color) in compounded products; the per-serving metal contribution depends on the dilution ratio in finished product.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include sourcing from documented low-Pb-Cd soil regions, avoidance of historic Pb-arsenate-pesticide-treated orchard or vineyard land (now converted to vegetable production), supplier soil-Cd verification.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the carrot-farm level: soil pH management (liming to reduce Cd bioavailability), zinc supplementation (Zn competes with Cd uptake), cultivar selection (low-Cd-accumulator carrot varieties documented in breeding programs), and avoidance of high-Cd phosphate fertilizers.
+
+**Processing levers** ([[mitigation/processing]]) include washing and peeling (especially for Pb where surface deposition is the source), and boiling-and-discard cooking for water-soluble fraction.
+
+**Formulation levers** ([[mitigation/formulation]]) include carrot-percentage adjustment in mixed-vegetable products and species substitution where lower-Cd-accumulator vegetables can replace carrots.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd and Pb testing, particularly for infant-and-young-child carrot products. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the standard Sn-migration consideration for canned carrot products.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in root vegetables; carrot falls under the root/tuber-vegetable category MLs.
+- [[regulations/codex-cadmium-mls]] — Codex Cd ML for root and tuber vegetables.
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action level for processed baby foods covers carrot-puree baby foods at 20 ppb Pb for single-ingredient root vegetable purees.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to carrot products sold in California; serving-based screen governs.
 
 

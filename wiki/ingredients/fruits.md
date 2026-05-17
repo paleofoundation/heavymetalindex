@@ -64,26 +64,51 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+This is the aggregate node for fruits (the broader category); see [[ingredients/apple]], [[ingredients/banana]], [[ingredients/grapes]], [[ingredients/strawberries]], [[ingredients/blueberries]], [[ingredients/peach]], [[ingredients/pear]], [[ingredients/mango]], [[ingredients/orange]], [[ingredients/watermelon]], and per-fruit ingredient pages for commodity-specific synthesis. Fruits as a category carry generally low heavy-metal loads compared to leafy greens, root vegetables, or grains. The fruit itself (the seed-bearing structure of flowering plants) is the reproductive organ, and most plants sequester less Cd in fruits than in leaves or roots because the metal would interfere with seed germination.
+
+Lead in fruits is generally low except where fruit was grown in Pb-contaminated soil (historic lead-arsenate-pesticide-treated orchards, urban-adjacent orchards with atmospheric Pb deposition) or where surface deposition contaminates fruit skin (roadside production). Cadmium in fruits is generally low except in some accumulator species. Arsenic in fruits is generally very low except in apple-juice products historically associated with arsenic-pesticide-treated orchards (see [[ingredients/apple-juice]] and [[ingredients/apple]]).
+
+The HMTc panel concerns for the fruits category are dominantly Pb (orchard-soil and atmospheric deposition pathways) and historical iAs in apple juice; Cd, Hg, Ni, Al, Cr, and Sn are generally at trace levels.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Per-species: Most table fruits (apples, pears, peaches, pineapple, grapes, melons, citrus) carry low panel-metal loads. Berries (strawberries, raspberries, blueberries) carry slightly higher Cd than tree fruits because berry plants take up more Cd from soil. Apple specifically carries the iAs legacy concern from lead-arsenate-pesticide era orchards; apple juice has specific Pb attention from juicing concentration effects.
+
+Geographic variance tracks regional soil-Pb and orchard-history loading. Apples and pears from regions with historic lead-arsenate pesticide use (parts of the US Pacific Northwest, Northeast, parts of the EU) can carry elevated Pb from soil-persistence of the legacy pesticide. Tropical fruits (banana, mango, pineapple, papaya) from clean-soil tropical regions carry low panel-metal loads.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Whole-fruit processing for canning, freezing, or pureeing does not change total per-mass metal load meaningfully. Washing fruit removes surface-deposited Pb (relevant for tree fruits grown in atmospheric-Pb regions). Peeling removes the skin where surface contamination concentrates.
+
+Juicing concentrates per-mass solids and metals relative to whole fruit because water is removed; commercial juices typically carry 1.5-3× the per-mass metal of source whole fruit, with the actual ratio dependent on juice yield. Apple juice has specific Pb attention from this concentration effect (see [[ingredients/apple-juice]]).
+
+Drying (raisins, dried apricots, dried mango) concentrates metals per dry mass through water removal; per-serving exposure depends on serving size, which is typically smaller for dried fruit than fresh.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Fruit derivatives that concentrate metals: dried fruit (per-mass metal concentrated 5-10× the source fresh fruit), fruit juice concentrate (water removed for transport, reconstituted before consumption — final concentration depends on reconstitution ratio), fruit puree concentrates, fruit-pectin extracts, and fruit-derived food coloring (anthocyanin extracts).
+
+Fruit-based dietary supplements (acai, goji, mangosteen, açai-derived antioxidant supplements) carry per-serving metal loads at varying levels depending on source-fruit and processing; they route to [[products/supplements-botanicals-herbs|Cat 16 row 15]].
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include single-origin sourcing from documented low-Pb production regions, avoidance of orchards with documented lead-arsenate-pesticide history, and supplier-soil-Pb verification for high-volume buyers.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the orchard level: soil amendment to immobilize Pb in legacy orchards (limited efficacy; some orchards have been retired from production due to soil-Pb levels), avoidance of contaminated irrigation water.
+
+**Processing levers** ([[mitigation/processing]]) include washing and peeling (removes surface-deposited metals), juice yield management (lower juice-yield processing concentrates metals less), and drying-temperature specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include fruit-species substitution in compounded products and apple-juice vs other-juice formulation decisions for baby-food juice products.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb testing on incoming fruit, particularly for apple-juice and baby-food fruit-puree manufacturing. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned fruit products and aluminum-foil-lined-carton specification for shelf-stable juice products.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in fruits and fruit products. Specific MLs for fruit juice, including infant-and-young-child fruit juice.
+- [[regulations/codex-cadmium-mls]] — Codex MLs for Pb and Cd in fruits.
+- FDA action level for Pb in fruit juices (including apple juice) and the FDA Closer to Zero program for processed baby foods covering fruit purees.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to fruit-containing products sold in California; the serving-based screen governs.
 
 

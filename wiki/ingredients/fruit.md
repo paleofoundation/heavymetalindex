@@ -86,22 +86,43 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Singular "fruit" is the bridge node for infant-and-toddler-context fruit references; for the broader fruit category in adult diet, see [[ingredients/fruits]]. Both inherit the same plant-biological pathway: most plants sequester less Cd and Pb in their reproductive tissue (the fruit) than in leaves or roots, because metals would interfere with seed germination and offspring viability. Fruit metal loads are therefore generally low across the panel, with exceptions for apple-pesticide-history products and for surface-deposition contamination.
+
+In the infant-and-toddler context, "fruit" usually means fruit purees, fruit juices, and fruit-containing baby foods. The infant exposure pathway concentrates per-body-weight intake even when source-fruit concentrations are low, making fruit a relevant Cat 1 ingredient at infant scale despite being a low-priority commodity in adult-diet exposure calculations.
+
+The HMTc panel concerns for fruit in infant context are Pb (orchard-soil and atmospheric deposition pathways) and historical iAs in apple juice; in adult context the per-serving exposure is low across the panel.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Fruit processing for puree, juice, dried, and frozen formats has the same effects as discussed at [[ingredients/fruits]]: peeling and washing remove surface contamination; juicing concentrates per-mass solids; drying concentrates per-mass dry-basis. For infant-and-toddler-specific products, [[products/fruit-purees]] addresses the regulatory and certification context.
+
+Cooking and pureeing for baby food do not change total per-mass metal load. Heat-treatment for shelf-stability does not affect the panel metals.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Fruit derivatives in the infant-and-toddler context: fruit purees ([[products/fruit-purees]]), fruit-juice baby drinks ([[products/fruit-juice-not-canned]]), teething biscuits and fruit-puree pouches. Each inherits the source-fruit metal profile with processing-step adjustments.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+Mitigation options for fruit in the infant context follow the broader fruits framework (see [[ingredients/fruits]]):
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) — single-origin sourcing, avoidance of legacy-pesticide-orchard areas.
+
+**Agronomic levers** ([[mitigation/agronomic]]) — orchard-level soil management.
+
+**Processing levers** ([[mitigation/processing]]) — washing, peeling, juice-yield management for the infant-targeted product line.
+
+**Formulation levers** ([[mitigation/formulation]]) — species choice and fruit-percentage adjustment in compounded infant fruit products.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) — particularly important for infant-targeted fruit products given the lower regulatory tolerance and the higher per-body-weight infant intake. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) — pouch and jar material specifications for infant fruit purees.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets specific Pb maximum levels for infant and young-child fruit-based foods, with the infant-fruit ML lower than the general adult-fruit ML.
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action levels for processed baby foods include fruit-puree categories at 10 ppb Pb.
+- [[regulations/codex-cadmium-mls]] — Codex Cd ML framework.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant-targeted fruit products yields a more stringent per-serving screen than for adult-targeted equivalents.
 
 

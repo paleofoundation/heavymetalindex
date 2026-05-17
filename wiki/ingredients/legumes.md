@@ -65,26 +65,59 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Legumes (Fabaceae: beans, lentils, chickpeas, peas, soybeans, peanuts) are members of a plant family that fixes atmospheric nitrogen through symbiotic root-nodule bacteria. The high root-system activity that supports nitrogen fixation also brings the legume into more aggressive interaction with soil cations than non-legumes, leading to elevated uptake of cadmium and aluminum from acidic soils relative to non-leguminous crops. Soybean is the canonical legume aluminum-accumulator (cultivated on acid agricultural soils that mobilize Al into bioavailable form); peanut is the canonical legume nickel-accumulator. Other common legumes (beans, lentils, chickpeas, peas) carry lower per-mass loads of these metals but follow the same family-level pattern.
+
+Per-species variance within legumes is large. The Cat 4 Step 0 lock recognizes this by splitting legumes-pulses into a baseline row plus contamination-platform rows for soy and peanut specifically (see [[products/soy-products]], [[products/peanuts]], [[products/legumes-pulses-other]]).
+
+The HMTc panel concerns for legumes are Al (soy-elevated), Ni (peanut-elevated), Cd (broadly elevated relative to most non-leguminous crops), and Pb (generally low except in contaminated soils).
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Per-species: Soybean carries the highest Al; peanut carries the highest Ni. Common beans (kidney, pinto, black, navy, cannellini), lentils, and chickpeas carry moderate Cd and lower Al/Ni. Peas (yellow, green, split) carry the lowest panel-metal loads in the legume category. [[ingredients/soy]], [[ingredients/peanuts]], [[ingredients/peanut-butter]] address the contamination-platform variants in detail.
+
+Geographic and production-system variance: Legumes grown on acidic agricultural soils with phosphate-fertilizer history (parts of US Midwest, Brazil, Argentina, parts of EU) carry higher Cd than legumes from cleaner soils. Conventional vs organic agronomic systems show some variance driven by fertilizer source rather than organic certification per se.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Legume processing (cleaning, soaking, cooking, fermenting, milling, extracting) affects metals through several pathways:
+
+**Soaking and discarding soak water** removes a small fraction of surface-bound metals and some water-soluble fraction. Multi-soak protocols reduce Cd modestly.
+
+**Cooking** does not change total per-mass metal load. Pressure cooking, boiling, and stewing all yield similar finished metal content. Cooking-water-discard removes a fraction; for dried legumes prepared with absorption-method cooking (no discard), the metal load is conserved.
+
+**Fermentation** (tempeh from soybeans, miso, natto, fermented bean pastes) does not appreciably change total Cd or Al but may shift bioavailability through phytate reduction.
+
+**Milling and dehulling** redistribute metals between the seed coat (high-Cd) and the cotyledon (lower-Cd) similar to grain bran-vs-endosperm. Dehulled lentils and split peas carry slightly less Cd than whole equivalents.
+
+**Protein extraction** (soy protein isolate, pea protein isolate) yields concentrated per-mass metals because protein and metals partition together; soy protein isolate carries elevated Al relative to whole soybean.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Legume-derived derivatives that concentrate metals: soy protein isolate (Al-concentrated), pea protein isolate, lentil protein concentrate, chickpea flour, bean flour. These derivatives route to [[products/supplements-protein-collagen-powders|Cat 16 row 20]] when sold as supplements.
+
+Legume-based finished products: hummus (chickpea-based, inherits chickpea metal load), bean dips, tempeh and natto (soy-based, inherit soy metal load), refried beans (cooked bean-based), and processed legume-based meat alternatives.
+
+Soy lecithin (a soy-derived emulsifier) carries some Al from source soy and is used widely in chocolate, baked goods, and other processed products.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include single-origin sourcing from low-Cd-Al-Ni production regions, supplier-soil-pH verification, and avoidance of Cd-elevated production zones.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the legume-production stage: soil pH management (liming acidic soils reduces Cd and Al bioavailability), cultivar selection (low-Cd-accumulator cultivars identified in soy, common bean, and lentil), and avoidance of high-Cd phosphate fertilizers.
+
+**Processing levers** ([[mitigation/processing]]) include soak-and-discard protocols, cooking-water-discard, dehulling (removes some seed-coat Cd), and protein-extraction-method specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include species substitution (substituting peas or chickpeas for soy in target-low-Al products), legume-percentage adjustment in compounded products, and isolate vs whole-legume formulation choice.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd, Al, and Ni testing on incoming legume shipments. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned legume products (canned beans, baked beans).
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Cd and Pb in legumes and pulses. Soy and certain oilseeds carry separate Cd MLs reflecting their accumulator behavior.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — sets Cd and Pb MLs for pulses; specific commodity values where established.
+- FDA does not maintain binding action levels for legumes specifically.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to legume-containing products sold in California.
 
 
