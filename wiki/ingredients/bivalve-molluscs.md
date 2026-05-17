@@ -138,7 +138,7 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
