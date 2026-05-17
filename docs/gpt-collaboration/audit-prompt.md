@@ -82,16 +82,20 @@ Speciation discipline is non-negotiable (CLAUDE.md Part 14). Check:
 
 Report each finding with the exact source-evidence support or absence thereof.
 
-## CHECK 4 — Part 12 brand firewall
+## CHECK 4 — Part 12 brand firewall (strict reading, locked 2026-05-17)
 
-CLAUDE.md Part 12: brand-by-brand values do not belong in the wiki. Permitted: aggregated format/category ranges. Permitted: naming a brand when that brand identifies a special-purpose product (preterm formula, soya-based powder, hypoallergenic) that drives a high or low value and is meaningful for format/ingredient interpretation. NOT permitted: brand-attributed rankings, brand-named tables, lists of brand-by-brand exceedance percentages.
+CLAUDE.md Part 12: brand names do not belong in the wiki. The strict reading: ZERO brand naming in source-page content. Product-form descriptors (preterm, soya-based, ready-made, powdered, follow-on, growing-up, hypoallergenic) carry the same identifying information without naming the brand. The wiki defaults to no brand attribution.
+
+ONE EXPLICIT EXCEPTION carved out by Part 12 itself: brands MAY be named when documenting a public-record regulatory event (Congressional investigation, FDA recall, agency enforcement action) where the brand is the subject of the action. Frame as a regulatory event, not a brand ranking. Naming the manufacturers investigated by a Congressional subcommittee is documenting a regulatory event; reporting per-manufacturer percentile rankings would still violate Part 12 even inside that exception.
 
 Scan the wiki page for:
-- Tables or bulleted lists naming three or more branded products with values attached
-- Statements like "Brand X had 65% of products above the limit; Brand Y had 80%" or "Internal documents from Brand Z showed values up to N"
+- ANY brand names in the body text, Key numbers, or tables (other than the regulatory-event exception above)
+- Tables or bulleted lists naming branded products with values attached
+- Statements like "Brand X had 65% of products above the limit; Brand Y had 80%"
+- Brand names used as format identifiers (e.g., "the soya-based powder (Wysoy)" or "the preterm formula (Nutriprem 1)") — these are NOT permitted under the strict reading; the product-form descriptor alone ("the soya-based powder") is sufficient
 - Any wording that converts the source's brand-level data into a wiki-side brand ranking
 
-Report each finding with the quoted text from the wiki page. Suggest the aggregation it should become (e.g., "Seven manufacturers; range of exceedance proportions across the group was X to Y").
+Report each finding with the quoted text from the wiki page. Suggest the aggregation it should become (e.g., "Seven manufacturers investigated by the Subcommittee; range of exceedance proportions across the group was X to Y" with the seven names ONLY if the source documents the investigation; otherwise simply "the preterm formula was the highest at N µg/L" without naming the brand).
 
 ## CHECK 5 — Part 2 wiki/HMTc firewall
 

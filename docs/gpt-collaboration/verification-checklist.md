@@ -73,10 +73,12 @@ The verification pass deletes any content that crosses the wiki/HMTc firewall (P
 - Any consumer-audience translations or risk advisories — **delete the section**.
 - Any suggestion that "this paper warrants a new ingredient/product page for X" — **move the suggestion to the verification notes for Karen's review**, then delete from the page body.
 
-**Brand firewall (Part 12):**
+**Brand firewall (Part 12, strict reading locked 2026-05-17):**
 
-- Any brand-by-brand value listings in `## Key numbers` or elsewhere — **aggregate to format/category level**. Replace `"Sma First Infant Milk 267.9 µg/L; Cow & Gate Nutriprem 1 700.4 µg/L; ..."` with `"Ready-made formulas (n=8) ranged from 175.5 to 700.4 µg/L; Cow & Gate Nutriprem 1 (preterm) at the high end."` Brand can be named when it identifies a special-purpose product (preterm, soy-based, hypoallergenic) that drives the high or low value and is relevant to format/ingredient interpretation; brand cannot be named in routine ranking. Per Part 12, brand-by-brand ranking belongs in the private brand-intelligence build (Part 26), never in the public wiki.
-- Recalls and enforcement actions are fine to name as regulatory events; brand product rankings are not.
+- ANY brand name in source-page content — **delete and replace with the product-form descriptor**. Replace `"Sma First Infant Milk 267.9 µg/L; Cow & Gate Nutriprem 1 700.4 µg/L; ..."` with `"Ready-made formulas (n=8) ranged from 175.5 to 700.4 µg/L; the preterm formula was the highest."` Product-form descriptors (preterm, soya-based, ready-made, powdered, follow-on, growing-up, hypoallergenic) carry the same identifying information without naming the brand. The wiki defaults to no brand attribution.
+- The earlier draft of this rule permitted naming brands as format identifiers (e.g., "the preterm formula (Nutriprem 1)"). That carve-out is removed as of 2026-05-17 per Karen's directive: the stricter reading protects HMT&C from any appearance of brand ranking, which would violate one of the governing principles. The product-form descriptor alone is sufficient.
+- ONE EXPLICIT EXCEPTION per Part 12 itself: brands MAY be named when documenting a public-record regulatory event (Congressional investigation, FDA recall, agency enforcement action) where the brand is the subject of the action. Frame as a regulatory event, not a brand ranking. Per-manufacturer percentile rankings inside the regulatory-event context still violate Part 12.
+- Brand-by-brand ranking belongs in the private brand-intelligence build (Part 26), never in the public wiki.
 
 ### 5. Promote to wiki
 
