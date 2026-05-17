@@ -266,6 +266,17 @@
   font-size: 0.78rem;
 }
 
+.ask-index-more {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 0.25rem;
+}
+
+.ask-index-more:hover {
+  text-decoration: underline;
+}
+
 .ask-index-actions button {
   background: var(--secondary);
   border: 1px solid var(--secondary);

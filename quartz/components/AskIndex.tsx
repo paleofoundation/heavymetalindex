@@ -34,7 +34,9 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
               <div id="ask-index-title" class="ask-index-title">
                 Ask the Index
               </div>
-              <div class="ask-index-subtitle">Site-only answers with citations.</div>
+              <div class="ask-index-subtitle">
+                Answers are grounded in cited Heavy Metal Index pages — no outside knowledge, no hallucination.
+              </div>
             </div>
             <button type="button" class="ask-index-close" aria-label="Close Ask the Index">
               x
@@ -42,9 +44,9 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
           </div>
           <div class="ask-index-messages" aria-live="polite"></div>
           <div class="ask-index-suggestions" aria-label="Suggested questions">
-            <button type="button">Which foods are the most contaminated?</button>
-            <button type="button">What metals are covered the most?</button>
-            <button type="button">What countries currently regulate nickel?</button>
+            <button type="button">What is the lowest applicable regulatory cap for lead in turmeric?</button>
+            <button type="button">How does the EU mercury limit for tuna compare to the US FDA action level?</button>
+            <button type="button">Is brown rice or white rice higher in inorganic arsenic, and why?</button>
           </div>
           <form class="ask-index-form">
             <textarea
@@ -56,7 +58,10 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
               aria-label="Ask a question of the Heavy Metal Index"
             ></textarea>
             <div class="ask-index-actions">
-              <span class="ask-index-note">Answers are limited to Heavy Metal Index pages.</span>
+              <span class="ask-index-note">
+                Answers are limited to Heavy Metal Index pages.{" "}
+                <a href="/ask" class="ask-index-more">More questions →</a>
+              </span>
               <button type="submit">Ask</button>
             </div>
           </form>
