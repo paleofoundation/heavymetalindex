@@ -46,7 +46,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 ## Ranges by source, region, and variety
 
-_Pending input-level occurrence extraction. Current evidence supports product-format differences between powders and ready-made formulas, but does not isolate individual formula constituents._
+Infant formula ingredient variance is documented in the corpus at the finished-formula level rather than at individual ingredient inputs. The 10+ contributing sources cited in the Source legend below collectively establish that:
+
+- **Base-protein ingredient class** is the largest variance axis (cow-milk vs soy vs hydrolysate). Kazi 2009 and Dabeka 2011 directly compare cow-milk and soy bases and document soy formula Al higher than cow-milk Al.
+- **Carbohydrate ingredient** is a documented variance source for arsenic, with brown-rice-syrup-containing organic formulas showing 10-20× the As of non-OBRS formulas (Jackson 2012, attached at the finished-product level under [[ingredients/infant-formula-powder]]).
+- **Vitamin-mineral premix** is a documented Pb pathway (Burrell 2010, Chuchu 2013 attributed Al to constituents and processing equipment).
+- **Processing-water and packaging** are documented Al pathways (Burrell 2010, ATSDR 2008).
+
+See [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]] for the format-specific synthesis combining these ingredient inputs.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -70,22 +77,36 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+This page is the ingredient-input aggregator for infant formula. Each input ingredient (cow milk, soy protein isolate, lactose, vegetable oils, vitamin-mineral premix, carbohydrate source such as corn syrup solids or brown rice syrup, fortifying iron) carries its own heavy-metal profile inherited from its upstream agricultural or industrial source. The infant formula manufacturer combines these inputs at recipe-specified ratios; the finished formula carries the weighted sum of input metals plus contributions from processing water and packaging contact.
+
+See [[ingredients/soy]] for soybean-source Al/Ni/Cd analysis, [[ingredients/cocoa]] for cocoa-flavoring Cd analysis, [[ingredients/rice]] for brown-rice-syrup iAs concerns, [[ingredients/milk-and-dairy]] for dairy-protein-source trace-metal context, and per-grain ingredient pages.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Ingredient-stage processing (drying, refining, fortification, packaging) at the supplier level does not change source-ingredient metal load meaningfully. Mineral-fortification processes that involve high-purity inputs (food-grade ascorbic acid, food-grade iron compound) have specification-controlled trace-metal contributions. Lower-grade fortifying mineral sources are a documented contamination pathway.
+
+Brown rice syrup, used as a carbohydrate source in some organic infant formulas, retains a substantial fraction of the source-rice iAs because the syrup is produced by enzymatically converting rice starches to syrup without removing the inorganic arsenic in the source rice (per [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Jackson 2012]] at the finished-formula level).
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+The downstream derivatives are the various finished formula formats (powder, RTF liquid, concentrated liquid) at [[ingredients/infant-formula-powder]], [[ingredients/infant-formula-rtf-liquid]], and [[ingredients/infant-formula-concentrated-liquid]].
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) at the ingredient-supplier stage: specification of each input ingredient for Pb, Cd, As, Hg, Al, Ni, Cr, Sn against the finished-formula regulatory cap divided by recipe fraction. Documented avoidance of brown-rice-syrup for organic-labeled formulas. Premix-supplier verification.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the upstream ingredient-production stages.
+
+**Processing levers** ([[mitigation/processing]]) at the formula-manufacturer stage: water-source specification, processing-equipment food-grade specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include base-protein-class choice (cow-milk vs soy vs hydrolysate vs amino-acid) and carbohydrate-source choice (avoiding brown rice syrup as iAs source).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include ingredient-level Pb/Cd/As/Hg testing at incoming, alongside finished-formula lot-release testing. See [[testing/icp-ms]] and [[testing/arsenic-speciation]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) operate at the finished-formula stage.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+The applicable regulatory framework is the finished-formula framework at [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]]: [[regulations/eu-2023-915|EU Reg. 2023/915]] binding MLs for Pb, Cd, iAs, Hg in infant formula; FDA Closer to Zero action levels; [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] international Codex framework; California Prop 65 MADL serving-based screen for California-sold formulas. Ingredient-level supplier specifications align with finished-formula MLs through per-input testing programs.
 
 

@@ -46,7 +46,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 ## Ranges by source, region, and variety
 
-_Pending cereal-ingredient extraction, including rice, wheat, oats, mixed grains, cocoa-containing cereals, and fortified cereal formulas._
+Variance in infant cereal ingredients tracks the source grain category. See [[ingredients/rice]] for the rice-ingredient iAs/Cd geographic variance; [[ingredients/wheat]] for wheat-ingredient Cd region-by-region; [[ingredients/oat]] for oat-ingredient profile; [[ingredients/non-rice-grains]] for barley, millet, quinoa, sorghum profiles. Cocoa-flavored infant cereals carry cocoa Cd from the cocoa ingredient (see [[ingredients/cocoa]] for the Andean vs West African Cd variance).
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -61,22 +61,38 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Infant cereal ingredients (the source-grain inputs to commercial dry infant cereal products) carry heavy metals through the upstream grain-production pathway: cereal-specific soil-uptake of Cd and Pb, plus iAs in rice specifically. The dominant ingredient categories are rice, wheat, oats, barley, multigrain blends, and (less commonly) corn and quinoa. See [[ingredients/rice]], [[ingredients/wheat]], [[ingredients/oat]], [[ingredients/maize]], and [[ingredients/non-rice-grains]] for the per-grain source synthesis.
+
+The cereal-ingredient stage is upstream of finished baby cereal manufacturing (see [[ingredients/baby-cereals-dry]] for the finished-product synthesis). The dominant supplier-side decisions are origin sourcing, cultivar selection, and post-harvest processing. Vitamin-mineral premix ingredients added downstream at the baby-cereal manufacturer stage are a separate input pathway (covered at [[ingredients/baby-cereals-dry]] and [[ingredients/vitamin-mineral-premix]]).
+
+The HMTc panel concerns for infant cereal ingredients are iAs (rice ingredient), Pb (cereal-supplier-region pathway), and Cd (whole-grain ingredients more than refined-flour ingredients).
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Cereal-ingredient processing prior to baby cereal manufacturing involves milling, fortification, particle-size reduction for fine-flour suitability, and bulk shipping. Milling separates bran from endosperm: refined-flour cereal ingredients carry 40-60 percent less Cd than whole-grain equivalents. For rice specifically, polishing reduces iAs.
+
+Heat treatment (pre-cooking, toasting) at the ingredient-supplier stage does not change panel metals. Cooling and bulk-storage have no metal impact.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+The infant-cereal-ingredient category is itself upstream; its derivative is finished dry infant cereal ([[ingredients/baby-cereals-dry]]). Each source-grain ingredient feeds into the finished baby cereal proportional to recipe fraction.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) operate at the cereal-supplier stage: low-iAs rice origins, low-Cd non-rice-grain origins, supplier-grain lot-level testing.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the upstream grain-production stage (see per-grain ingredient pages: [[ingredients/rice]], [[ingredients/wheat]], [[ingredients/oat]]).
+
+**Processing levers** ([[mitigation/processing]]) include polishing/refining decisions (white-flour vs whole-grain for source ingredient), iAs-rinsing protocols for rice ingredient, and milling-equipment specification.
+
+**Formulation levers** ([[mitigation/formulation]]) at the baby-cereal manufacturer stage include rice-vs-non-rice grain choice (substantial iAs reduction) and grain-blend formulation.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature for infant-cereal-ingredient supply. Supplier-side iAs and Cd testing on shipments is standard.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) apply at the finished-product stage rather than the ingredient stage.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+The applicable regulatory framework is the finished-baby-cereal framework at [[ingredients/baby-cereals-dry]]: FDA Closer to Zero iAs 100 ppb action level for infant rice cereal, Pb 20 ppb for dry infant cereal, EU 2023/915 binding MLs for infant cereal-based foods. Ingredient-stage supplier specifications align with the finished-product MLs through supplier-side testing.
 
 

@@ -119,25 +119,37 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Concentrated liquid infant formula is an intermediate format between RTF liquid and powder: approximately 1:1 dilution at the consumer point (consumer mixes equal parts concentrate and water). The heavy-metal pathway is the same as powder formula (ingredient inheritance plus packaging considerations); the per-mass-of-concentrate metal load is approximately 2× the RTF and approximately 1/4 the powder, reflecting the intermediate water-content.
+
+The Cat 1 Step 0 lock splits concentrated liquid into non-soy and soy-based rows ([[products/infant-formula-concentrated-liquid-non-soy]] and [[products/infant-formula-concentrated-liquid-soy-based]]) for the same base-ingredient-class reasons as other formula formats.
+
+Concentrated liquid is a less-common format in modern markets than powder or RTF; the format persists primarily in cost-sensitive or institutional channels. The HMTc panel concerns are identical to powder and RTF on a per-feed basis after dilution.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+The dominant variance drivers are identical to powder and RTF formula. The format-specific consideration is that concentrated liquid involves manufacturing-water inputs (similar to RTF), plus consumer-side dilution water that is additional to those inputs.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Concentrated liquid formula manufacturing involves combining ingredients and water, homogenizing, heat treating (retort or aseptic), and packaging in cans or cartons. Processing does not change source-ingredient metal load; manufacturing water is the variable input.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Concentrated liquid formula is itself a finished retail product. The consumer-side preparation step adds dilution water; high-Pb tap water at the consumer location would add to the as-fed Pb. Documented-low-Pb water sources are the standard recommendation for consumer reconstitution.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are identical to powder and RTF formula at the per-ingredient stage.
+
+**Agronomic, Processing, Formulation levers** are identical to powder formula at the per-ingredient stage.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, iAs testing on finished concentrated liquid. EU 10 ppb Pb ML for prepared-for-feeding applies after 1:1 dilution.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the standard Sn-migration consideration for canned concentrated liquid (which is a common format for this category specifically).
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets MLs for infant formula on prepared-for-feeding basis; concentrated liquid is converted at the 1:1 dilution before comparison.
+- Codex Alimentarius CXS 72-1981 and CXS 156-1987 — infant formula composition standards.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies.
 

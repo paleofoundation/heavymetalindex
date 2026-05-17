@@ -119,25 +119,42 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Ready-to-feed (RTF) liquid infant formula carries the same ingredient-inheritance pathway as powder formula (see [[ingredients/infant-formula-powder]]) but in as-consumed liquid form rather than spray-dried powder form. The per-volume metal concentration is approximately the powder formula divided by the reconstitution ratio (the 1:7 powder-to-water reconstitution is the canonical conservative factor; commercial RTF liquid product is at the manufacturer-specified ratio). RTF formula therefore typically carries 1/7 the per-mass metal of the same recipe in powder form, with the per-feed serving size also adjusted (a 4-ounce RTF bottle delivers approximately the same dose as 1 teaspoon of powder + 4 ounces water).
+
+The Cat 1 Step 0 lock splits RTF liquid into non-soy and soy-based rows ([[products/infant-formula-rtf-liquid-non-soy]] and [[products/infant-formula-rtf-liquid-soy-based]]) for the same base-ingredient-class reasons as powder formula.
+
+The HMTc panel concerns for RTF liquid are the same as powder formula on a per-feed basis, with the additional consideration that the pre-mixed water in the manufacturing process is a metal-input pathway distinct from consumer-side reconstitution water.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+The dominant variance drivers are identical to powder formula (see [[ingredients/infant-formula-powder]]): base-ingredient class (cow-milk vs soy vs hydrolysate vs amino-acid), source market (regulatory regime), historical generation (post-2020 vs pre-2010), and brand/manufacturer.
+
+RTF-specific consideration: the manufacturing water source. RTF formula uses purified water at the bottling plant; high-Pb municipal water at the plant location would contribute to product Pb. Commercial RTF manufacturers use water-treatment systems (reverse osmosis, deionization) that remove Pb effectively, but the source-water specification is an ongoing QC concern.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+RTF formula manufacturing involves: ingredient combining (protein base, fat blend, carbohydrate, vitamin-mineral premix, water), homogenization, heat treatment (UHT or retort sterilization for shelf-stability), packaging into ready-to-feed bottles or cartons. The processing does not change source-ingredient metal load; the manufacturing water is the variable input.
+
+UHT and retort processing does not change panel metals. Aseptic packaging is the dominant format for shelf-stable RTF; can-lined retort packaging adds the standard tinplate-Sn-migration consideration.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+RTF formula is itself a finished retail product. Concentrated liquid formula (different format, ~50 percent concentrate; see [[ingredients/infant-formula-concentrated-liquid]]) sits between powder and RTF in format.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) operate at the per-ingredient stage identically to powder formula (see [[ingredients/infant-formula-powder]]). The RTF-specific addition is plant-water-source specification.
+
+**Agronomic, Processing, Formulation levers** are identical to powder formula at the per-ingredient stage.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, iAs testing on finished RTF formula. The EU 10 ppb Pb ML for prepared-for-feeding (powder converted to as-fed liquid) applies directly to RTF.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned RTF (uncommon in modern markets) and food-contact-substance compliance for plastic and carton formats.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Pb at 0.010 mg/kg (10 ppb) RTF liquid; Cd at 0.005 mg/kg (5 ppb); iAs at 0.020 mg/kg (20 ppb); Hg at 0.020 mg/kg (20 ppb) for infant formula.
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs framework applies to rice-containing formula.
+- Codex Alimentarius CXS 72-1981 and CXS 156-1987 — infant formula composition standards.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
 

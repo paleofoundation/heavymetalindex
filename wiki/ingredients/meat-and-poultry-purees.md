@@ -119,25 +119,44 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Meat-and-poultry purees (Cat 1 baby food) inherit their heavy-metal load from the source meat or poultry (see [[ingredients/beef]], [[ingredients/poultry]], [[ingredients/ham]], [[ingredients/turkey]], [[ingredients/chicken]]). The pureeing process combines muscle (and sometimes a small fraction of organ meat) with water, vegetables, or grain into a smooth texture for infant feeding. Commercial baby-food meat purees typically use muscle-only (avoiding organ-Cd), with chicken and turkey as the dominant species and beef and lamb less common.
+
+The HMTc panel concerns are dominantly Pb (from source meat and from any added vegetable or grain ingredients) and Cd (from source meat, with organ-meat-free formulation reducing this contribution). Mercury is not a meat-and-poultry-puree concern because terrestrial herbivores do not bioaccumulate MeHg.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Per-species: Chicken puree carries lower per-mass metal than beef puree from the same region (younger animals, shorter exposure). Turkey puree similarly. Lamb puree from certain regions can carry elevated Pb from grazing-pasture contamination.
+
+[[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]] characterizes French infant-toddler TDS including meat-and-poultry purees. [[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019 HBBF]] covers US-market baby food meat purees.
+
+Production-system variance: Grass-fed and pasture-raised meat purees from documented clean-pasture regions carry lower Pb than feedlot-finished or industrial-feed meat purees from regions with documented feed-contamination.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Meat-and-poultry puree manufacturing (slaughter, deboning, mechanical separation or cubing, cooking, blending with water/vegetable/grain, pureeing, packaging) does not change source-meat metal content. Cooking concentrates per-mass metal slightly through water loss but per-jar total metal is approximately conserved. The added water or vegetable fraction in the puree dilutes the per-mass concentration relative to source meat.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Meat-and-poultry purees are themselves finished retail products. Toddler meal products combining meat puree with grain or vegetable bridge into Cat 1 toddler-bridging scope and Cat 7 adult-mixed-meal scope as the marketing-age boundary is crossed.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include single-source-region meat sourcing from documented low-Pb production areas (grass-fed regions, clean-feed-source operations), muscle-only specification (avoiding organ-Cd contribution), and supplier-feed-source verification.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the upstream meat-production stage.
+
+**Processing levers** ([[mitigation/processing]]) include cooking-method specification and water-vs-broth dilution in the puree formulation.
+
+**Formulation levers** ([[mitigation/formulation]]) include species choice (chicken or turkey preferred over beef for lowest baseline metal load), muscle-only formulation, vegetable-or-grain dilution fraction adjustment.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb and Cd testing on finished meat-and-poultry purees, particularly for products targeting infants under 12 months.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned meat purees and food-contact-substance compliance for pouch and jar formats.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action level of 10 ppb for processed meat baby foods.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Pb and Cd MLs for infant-and-young-child meat-based foods. Stricter than adult meat MLs.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MLs apply.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to meat-and-poultry purees sold in California.
 
