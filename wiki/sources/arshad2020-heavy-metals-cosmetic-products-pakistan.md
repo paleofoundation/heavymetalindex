@@ -19,7 +19,7 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: 189
 sample_population: "189 cosmetic samples (63 unique brands × 3 triplicates) from local community markets in Abbottabad, Haripur, and Mansehra, Pakistan. Six product categories: lotions (30 brands), foundations (9), whitening creams (6), lipsticks (6), hair dyes (6), sunblock creams (6)"
-updated: 2026-05-14
+updated: 2026-05-17
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
 ---
@@ -142,3 +142,4 @@ Microbiome: Not addressed.
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 removed sampled-product brand names and brand-coded value callouts from the source page, replacing them with category-level descriptors and statistics. Also corrected closed-vocabulary product links, added Fe to measured metals, removed non-taxonomy regulation/new-page suggestions, and tightened HMT&C/app language.
+- Subagent re-audit 2026-05-17 (autonomous v2.0 ingest pass on duplicate-PDF copy at `babycare_01_Exposure_Pathways/01_Exposure_Pathways/`): re-read full PDF including Tables 1 (per-brand max/min/mean/SE), 2 (per-category averages ± SE), 4 (SED), 5 (MoS); all Key numbers values verified against source. The same PDF is filed in two manual-fetch folders (`babycare_01_Exposure_Pathways/` and `babycare_05_Other_Categories/`); both tracker entries route to this cite-key.
