@@ -138,26 +138,43 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Non-rice grains is the aggregate ingredient label for cereal grains other than rice, used as the grain base in non-rice baby cereal formulations and gluten-containing/gluten-free baby cereals. The category includes [[ingredients/oat|oat]], [[ingredients/maize|corn/maize]], wheat, barley, rye, millet, sorghum, and [[ingredients/quinoa|quinoa]] (pseudocereal). Each grain carries its own heavy-metal profile inherited from its cultivation pathway: oat as moderate-Cd accumulator (per the Madeira/Azores cereal survey by [[sources/rubio2023-metals-cereals-madeira-azores|Rubio 2023]] documenting oats at 0.307 mg/kg Cd, exceeding EU MLs); corn as moderate-Pb with low iAs (substantially lower than rice); wheat as moderate-Cd from soil-uptake plus trace Pb from milling-equipment contact (the Polish bread survey by [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland|Gacal 2023]] documents Cd in wheat-rye bread at 0.072 mg/kg with non-trivial cancer-risk implication for children under 11); barley and rye at moderate baselines (Rubio 2023 documents rye at 0.347 mg/kg Pb exceeding EU MLs); millet at elevated Ni per [[sources/mania2020-nickel-cereal-grains-poland|Mania 2020]] up to 4.8 mg/kg; quinoa as documented tAs accumulator from Andean source-region geochemistry.
+
+The non-rice-grains category is the key alternative to rice in infant cereal formulations because rice-cereal iAs is the dominant concern in the rice-cereal commodity. Non-rice baby cereals (oat, multigrain, ancient-grain blends) substantially reduce per-product iAs but carry their own per-grain analyte concerns. The Nigerian household-staple survey by [[sources/ibrahim2024-food-heavy-metals-nigeria|Ibrahim 2024]] (361 samples across maize, millet, sorghum) documents Pb, Cd, and Hg above WHO reference in many emerging-market non-rice grain samples; the Ethiopian Debre Markos market survey by [[sources/getu2022-heavy-metals-cereals-ethiopia|Getu 2022]] documents Pb and Cd above FAO/WHO limits in all four cereals tested, linked to DAP/urea fertilizer use.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within non-rice grains tracks the grain-mix composition, source-grain origin region, and processing tier. The [[sources/rubio2023-metals-cereals-madeira-azores|Rubio 2023]] Atlantic-archipelago cereal survey, [[sources/balbo2022-bread-contaminants-poland|Balbo 2022]] EFSA Polish bread survey, and [[sources/slepecka2017-ecological-cereal-heavy-metals-poland|Slepecka 2017]] Polish ecological vs conventional cereal comparison (which found ecological flours carrying 100× higher Cd, contradicting the organic-certification-as-Cd-reducer assumption) collectively establish the European-market baseline. Emerging-market non-rice grains (Nigerian, Ethiopian, broader sub-Saharan African production per [[sources/ibrahim2024-food-heavy-metals-nigeria|Ibrahim 2024]] and [[sources/getu2022-heavy-metals-cereals-ethiopia|Getu 2022]]) carry substantially elevated levels. Beijing dietary-cereal exposure per [[sources/liang2019-beijing-foodstuffs-health-risk|Liang 2019]] documents non-rice grain contribution to Cd intake.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Non-rice grain processing for cereal applications involves cleaning, hulling, milling, and optional flake/puff/extrusion processing. Milling fractionation (bran vs germ vs endosperm) affects per-fraction metal load; bran-and-germ fractions concentrate Cd and Pb per [[sources/mania2020-nickel-cereal-grains-poland|Mania 2020]]'s Polish whole-vs-processed cereal grain Ni comparison (whole 1.16 mg/kg vs processed 0.61 mg/kg). Multigrain baby cereal formulations combine multiple non-rice grains, dilution-balancing per-grain analyte concentrations. The [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food|Signes-Pastor 2018]] U.S. infant biomarker work documents the As-exposure profile during weaning with oat- and barley-based non-rice infant foods.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Non-rice grains route into [[products/baby-cereals-dry-non-rice|baby-cereals-dry-non-rice]] (Cat 1 row for non-rice infant cereals) and into mixed-meals products. Derivatives include single-grain baby cereals (oat-only, barley-only), multigrain baby cereals (oat-quinoa-barley blends, ancient-grain blends), gluten-containing cereals (wheat, barley, rye), and gluten-free cereals (oat, corn, quinoa, millet, sorghum). Bran-rich derivatives concentrate Cd and Pb; refined flour fractions carry lower per-mass loads.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include grain-specific origin specifications (per [[ingredients/oat|oat]], [[ingredients/maize|maize]], [[ingredients/quinoa|quinoa]] sourcing guidance); multi-source diversification to reduce concentration in any single grain; supplier-soil verification for emerging-market grain supply.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the per-grain cultivation stage. The Lubumbashi pot-trial work by [[sources/katebe2024-vegetables-lubumbashi|Katebe 2024]] documents organocalcareous soil amendments as a Cd-and-Pb transfer-reduction lever in contaminated soils. Fertilizer-input audit (DAP/urea use is a documented Pb/Cd source per [[sources/getu2022-heavy-metals-cereals-ethiopia|Getu 2022]]).
+
+**Processing levers** ([[mitigation/processing]]) include milling-fraction specifications (white-flour vs whole-grain choices for the Cd-concentrating-bran trade-off); equipment material specification.
+
+**Formulation levers** ([[mitigation/formulation]]) are dominant: multigrain formulations dilute per-grain analyte concentrations; non-rice substitution avoids the rice-iAs pathway entirely.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, As, Ni testing on incoming grain supply and finished cereal product. ICP-MS is the standard analytical platform; HPLC-ICP-MS speciation for iAs/tAs distinction.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; standard cereal-product packaging specifications apply.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for Pb, Cd, and iAs in infant-and-young-child cereal-based food: iAs 50 ppb (rice and rice-product), Pb 20 ppb, Cd 40 ppb (dry weight). Non-rice cereals fall under broader cereal-grain provisions with different per-analyte limits.
+- FDA Closer to Zero baby-food Pb action level: 20 ppb for dry infant cereal applies to non-rice infant cereals.
+- Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets cereal-grain category limits.
+- EFSA Scientific Opinion on iAs in food ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]) establishes the non-rice-cereal iAs exposure-pathway context.
+- Codex CCCF17 ([[sources/codex-cccf17-2024|Codex 2024]]) initiates new work on Cd in foods including cereal grains.
+- California Prop 65 ([[regulations/california-prop65]]) Pb and Cd MADLs apply to non-rice cereal products sold in California.
 
 

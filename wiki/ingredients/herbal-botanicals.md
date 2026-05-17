@@ -152,26 +152,43 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Herbal botanicals is the aggregate ingredient label for medicinal and culinary plant-based ingredients including herbs, spices, traditional medicine plants (Ayurvedic, Traditional Chinese Medicine, traditional African medicine), and herbal-supplement raw materials (rhodiola, ginseng, turmeric, ashwagandha, chamomile, peppermint, lycium, glycyrrhiza, panax notoginseng, and dozens more). Heavy-metal accumulation in herbal botanicals operates via three pathways: source-plant soil-uptake (leafy and root botanicals are documented [[metals/cadmium|Cd]] and [[metals/lead|Pb]] accumulators per [[sources/al-khayri2023-cd-medicinal-plants|Al-Khayri 2023]] review of Cd-stress mechanisms in medicinal plants), traditional-medicine adulteration (Ayurvedic and TCM products have documented histories of intentional metal additions — [[metals/lead|Pb]] and [[metals/mercury-total|Hg]] in some traditional preparations per [[sources/ciocan2021-ayurvedic-lead-hg-poisoning|Ciocan 2021]] and [[sources/thomas2024-lead-poisoning-ayurvedic-herbal|Thomas 2024]] Kerala diabetes-herbal case report), and contamination from processing infrastructure (dried herbal products from industrial-region processing facilities can carry elevated Pb from equipment-contact).
+
+The most consequential recent contamination event was the WanaBana cinnamon-applesauce Pb poisoning outbreak documented by [[sources/napier2024-wanabana-lead-apple-cinnamon|Napier 2024]] and [[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]], where cinnamon adulterated with lead chromate from Ecuador caused pediatric Pb poisoning across the US, leading to the FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]) for spice Pb-contamination detention. The HMTc panel concerns for herbal botanicals are dominantly Pb (with documented adulteration risk and naturally elevated leafy-botanical levels), Cd (per the systematic herbal-tea review by [[sources/salmani2023-herbal-teas-metals-review|Salmani 2023]] documenting chamomile Cd at 23 µg/g mean), Cr (per [[sources/jurowski2022-chromium-peppermint-tincture|Jurowski 2022]] Polish peppermint tincture survey), and total As. The Rhodiola supplement survey by [[sources/porwollik2026-rhodiola-supplements-us-market|Porwollik 2026]] documents detectable Pb, As, and Co across all capsular US-market Rhodiola products.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within herbal botanicals tracks botanical type (root vs leaf vs stem vs flower vs seed — each with different per-tissue accumulation patterns), source-region (Indian and Chinese TCM/Ayurvedic source regions with documented industrial-deposition contamination; African source regions per [[sources/njinga2022-nigeria-herbal-cd-cr|Njinga 2022]] Nigerian therapeutic herb survey; European source regions; US source regions), processing tier (commercial-supplement-grade vs commodity-spice-grade vs traditional-medicine-grade with variable QC), and adulteration risk (intentional Pb addition in some traditional Ayurvedic preparations, Pb chromate adulteration in spices). The Mexican market survey by [[sources/cantoral2024-lead-levels-mexican-foods|Cantoral 2024]] identified spices (black pepper, turmeric) as the highest-Pb-detected items across 103 Mexican market foods. The Ghana market survey by [[sources/oseisafo2024-ghana-spices-metals|Osei-Safo 2024]] and Lebanese spice survey by [[sources/moussa2024-spices-herbs-lebanon|Moussa 2024]] document elevated levels in some imported spice supply.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Herbal botanical processing involves drying (the dominant processing step that concentrates per-mass metals via moisture removal at the typical 8-10× factor for dried herbs and spices), milling/powdering (additional per-mass concentration), extraction for supplement and tincture production (solvent-based extraction with ethanol, water, or glycerin partitions metals between solid residue and extract), and packaging. Each step can concentrate metals or introduce contamination from processing-equipment contact.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Herbal botanical derivatives span dried whole botanicals (loose herbs, whole spices), powdered botanicals (ground spices, powdered supplements), liquid extracts (tinctures, fluid extracts, glycerites), capsular supplements (encapsulated dried-and-powdered botanical material), and processed-spice blends. Concentrated extracts and powdered products carry per-mass metals at the dried-herb baseline; capsular supplements deliver per-serving doses that can be substantial for daily-use consumer products. Honey from bees foraging in Cd-contaminated landscapes per [[sources/knoll2024-honeybee-cadmium-review|Knoll 2024]] can carry plant-Cd inheritance.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention given the documented adulteration risk. Supplier audit programs with chain-of-custody verification (especially for Pb-adulteration high-risk botanicals like cinnamon and turmeric); source-region specification favoring documented low-contamination production zones; and contractual specification of Pb/Cd/Cr ceiling on incoming botanical supply with per-lot certificate of analysis. The CFIA Canadian targeted-survey approach ([[sources/cfia2025-toxic-metals-selected-foods-2022-23|CFIA 2025]]) provides a regulatory monitoring model.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the botanical-cultivation stage. Soil pH management; microbial-induced carbonate precipitation per [[sources/zakrzewska2023-cadmium-soil-micp-parsley|Zakrzewska 2023]] as an emerging biotechnology lever; cultivar selection.
+
+**Processing levers** ([[mitigation/processing]]) include processing-equipment material specification; drying-and-milling-equipment audit; and avoidance of legacy-contaminated processing facilities.
+
+**Formulation levers** ([[mitigation/formulation]]) include herb-blend formulations that dilute single-source metal load; substitution of high-Pb-risk botanicals with lower-Pb alternatives in functional formulations.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are critical given adulteration risk. Lot-level Pb, Cd, Cr, As testing on incoming botanical supply (per [[sources/inada2023-herbal-medicine-heavy-metal-regulations|Inada 2023]] pharmacopoeia framework); ICP-MS as the standard analytical platform; emerging methods like LIBS for rapid Cd screening per [[sources/yang2024-libs-cd-panax-notoginseng|Yang 2024]] and ECL aptamer-sensor methods for Pb per [[sources/hu2024-ecl-pb-lycium-glycyrrhiza|Hu 2024]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include opaque-container specification (protects botanical phytochemistry); moisture-barrier packaging.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in herbs and spices: Pb 1000 ppb general spices, with stricter limits for specific commodity categories; Cd 1500 ppb general spices.
+- FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]) authorizes detention without physical examination of spices flagged for lead contamination.
+- USP Chapter <2232> elemental impurity limits for dietary supplements.
+- Codex CCCF17 ([[sources/codex-cccf17-2024|Codex 2024]]) initiates new work on Cd in foods including herbal-botanical matrices.
+- Country-specific pharmacopoeia regulations vary widely per [[sources/inada2023-herbal-medicine-heavy-metal-regulations|Inada 2023]]; Chinese Pharmacopoeia, US Pharmacopeia, Japanese Pharmacopoeia, and European Pharmacopoeia each set heavy-metal limits for herbal medicines.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to herbal-botanical products sold in California; the broader spice-and-herb Prop 65 enforcement context applies to dried-botanical products.
 
 

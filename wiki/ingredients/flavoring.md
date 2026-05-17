@@ -119,25 +119,41 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Flavoring is the aggregate ingredient label for natural and artificial flavoring agents used in food and beverage manufacturing. The category spans natural extracts (vanilla, citrus oils, spice extracts, fruit extracts), nature-identical compounds (synthesized molecules identical to natural flavor compounds), and artificial flavorings (synthetic compounds without natural counterparts). Heavy-metal load in flavoring ingredients comes from three pathways: source-plant inheritance for natural extracts (which carry source-spice or source-fruit metals); synthesis-route impurities for nature-identical and artificial compounds (the synthesis precursors and catalysts can carry trace metal impurities); and solvent and carrier inheritance (flavor compounds are typically delivered in solvents — ethanol, propylene glycol, vegetable oil — that carry their own trace metals).
+
+Natural flavorings from spice and herb extracts carry the elevated metals documented on [[ingredients/spices|spices]] and [[ingredients/herbal-botanicals|herbal-botanicals]] pages; concentrated extracts can amplify per-mass metals via solvent removal and concentration. The HMTc panel concerns for flavoring are case-by-case depending on the specific flavor chemistry; natural-extract-based flavorings carry source-plant Pb and Cd; synthetic flavorings carry potential synthesis-pathway trace metals.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within flavoring tracks flavor-source category (natural extract vs nature-identical vs artificial), source-plant origin region for natural extracts, synthesis-pathway and supplier specifications for synthetic compounds, and carrier-solvent quality. Major commercial flavor-house suppliers operate to tight impurity specifications; smaller specialty suppliers and craft producers vary widely.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Flavor manufacturing varies by category: natural extracts are produced by distillation, extraction, or expression of source plant material; nature-identical and artificial compounds are synthesized in chemical-manufacturing facilities. Extraction and distillation generally do not introduce additional metals beyond the source material; chemical synthesis can introduce trace catalyst metals (Pd, Pt, Ni — depending on the synthesis route) that must be removed by purification steps to achieve food-grade specifications.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Flavoring routes into virtually all processed food products at low inclusion rates (typically 0.01-1%). The per-finished-product impact of flavoring impurities is small because of the dilution factor, but consistent across countless products. Concentrated flavor essences for home baking and consumer use carry per-mass metals at higher concentrations than the formulated flavorings used in commercial production.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Flavor-house supplier specification at food-grade impurity tier; supplier audit programs verifying source-material and synthesis-pathway quality; and contractual specification of Pb/Cd/Ni ceiling on incoming flavoring.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-plant cultivation stage for natural-extract flavorings; see [[ingredients/spices|spices]] for upstream interventions.
+
+**Processing levers** ([[mitigation/processing]]) include post-synthesis purification specifications for synthetic flavorings; distillation and extraction quality control for natural extracts.
+
+**Formulation levers** ([[mitigation/formulation]]) include alternative-flavor substitution where impurity profiles differ between competing flavor systems; reformulation to reduce reliance on high-impurity flavor sources.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, Ni testing on incoming flavoring concentrates. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; standard flavor-storage specifications (lined containers, opaque bottles, refrigeration as required) apply.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- US FDA regulates flavoring ingredients under 21 CFR 101.22 and 21 CFR 172/182 (GRAS framework); heavy-metal impurity limits are addressed via general food-additive purity specifications.
+- US Pharmacopeia (USP) Chapter <2232> sets elemental impurity limits for food ingredients including flavorings.
+- EU Regulation 1334/2008 (Food Flavourings) sets specifications for flavoring substances.
+- FEMA (Flavor and Extract Manufacturers Association) GRAS list provides industry-aligned safety assessments for flavor compounds.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to flavoring-containing products sold in California.
 

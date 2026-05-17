@@ -126,26 +126,47 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Non-soy protein source is the aggregate ingredient label for protein bases in non-soy infant formula and alternative-protein finished products, covering cow-milk protein (intact, partially hydrolyzed, fully hydrolyzed), amino-acid-based protein, pea protein, rice protein, hemp protein, and emerging alternative proteins including insect protein. Each protein source carries its own heavy-metal profile inherited from its production pathway. Cow-milk protein from dairy farming carries forage-and-water inheritance plus background environmental Pb/Cd. Pea protein and rice protein concentrate the source-grain or source-legume metals during extraction. Insect protein (an emerging alternative-protein matrix) accumulates heavy metals from the substrate the insects feed on per [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim 2024]]'s HPLC-ICP-MS method validation on insect-protein matrices and [[sources/masite2022-mopane-trace-metals|Masite 2022]]'s mopane worm trace-metals work (which documents tAs, Cd, Cr, Ni, Pb in roasted mopane worms as an edible-insect alternative protein from the South African market at notably elevated levels).
+
+The HMTc panel concerns for non-soy protein sources depend heavily on the specific protein matrix. The 22,500 ppb tAs cited in the body table is an outlier reading specifically from the mopane-worm and insect-protein evidence and reflects emerging-alternative-protein concerns that do not apply to commercial cow-milk-protein-based infant formula, which sits at the trace-Pb baseline documented on [[ingredients/non-soy-infant-formula|non-soy-infant-formula]].
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within non-soy protein sources tracks the specific protein matrix:
+
+- Cow-milk protein: trace-Pb baseline, region-dependent on dairy-farming practices
+- Pea protein: moderate Cd from source-pea soil-uptake
+- Rice protein: source-rice iAs inheritance
+- Hemp protein: source-hemp soil-uptake (hemp is a documented bioaccumulator and is used in phytoremediation contexts)
+- Insect protein: highly substrate-dependent per [[sources/masite2022-mopane-trace-metals|Masite 2022]]; can carry elevated levels reflecting feed-substrate quality
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Protein-extraction processes vary by matrix. Cow-milk protein isolation involves casein precipitation (curd separation) or whey-protein concentration via ultrafiltration; standard pasteurization and drying preserve the source-milk profile. Pea and rice protein extraction involves aqueous extraction at controlled pH followed by isoelectric precipitation similar to soy isolate. Insect protein production involves drying and grinding the source insect; metal load reflects feed-substrate inheritance.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Non-soy protein sources route into [[products/infant-formula-powder-non-soy|non-soy infant formulas]] (cow-milk-protein based primarily) and into broader protein-bar, protein-shake, plant-based meat, and nutritional-supplement applications. Each downstream product carries the source-protein metal profile diluted by other ingredients.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are dominant. Protein-source-supplier specification at infant-grade impurity tier; supplier audit programs verifying upstream raw-material and processing-equipment quality.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-protein cultivation or production stage (dairy farming for cow-milk protein; pea, rice, hemp cultivation for plant proteins; insect-feed-substrate quality for insect protein).
+
+**Processing levers** ([[mitigation/processing]]) include ion-exchange polishing and ultrafiltration enhancements that reduce trace metals.
+
+**Formulation levers** ([[mitigation/formulation]]) include matrix-substitution options (hydrolyzed cow-milk-protein vs amino-acid-based; pea-protein vs hemp-protein for plant-based products).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, As testing on incoming protein source. HPLC-ICP-MS speciation per [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim 2024]] is the operative method for iAs/tAs distinction in protein matrices.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are minor; standard protein-product storage specifications apply.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for infant formula products into which non-soy protein sources are incorporated.
+- US FDA Closer to Zero infant-and-young-child food framework: applicable to non-soy-protein-source-based finished products.
+- Codex Alimentarius CXS 72-1981 (infant formula) and CXS 156-1987 (follow-up formula) establish composition standards.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to non-soy-protein-source-based products sold in California.
 
 
