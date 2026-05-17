@@ -10,21 +10,21 @@ doi: 10.1186/s12889-023-17624-1
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/A probabilistic health risk assessment of potentially toxic eleme.pdf"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consum.pdf"
 metals: [Pb, Cd, tAs, Fe, Zn]
 ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/sesame-oil]]", "[[ingredients/peanut-oil]]", "[[ingredients/vegetable-oils]]"]
-products: []
+products: ["[[products/cooking-oils-other]]"]
 matrices: [edible-oil, olive-oil, sunflower-oil, sesame-oil, peanut-oil]
 jurisdictions: [IR]
 near_duplicates: []
 sample_n: 40
 sample_population: "Traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, 2022; n=20 traditional + 20 industrial"
-updated: 2026-05-14
+updated: 2026-05-17
 ---
 
 # Mehri et al. 2024 — Potentially toxic elements in edible vegetable oils, Hamadan, Iran
 
-This study measured five potentially toxic elements (tAs, Cd, Pb, Fe, Zn) in 40 samples of traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, collected in 2022 using ICP-OES after microwave-assisted acid digestion. Industrial oils had significantly higher concentrations of tAs, Fe, and Zn than traditional oils (p < 0.001), though all samples fell below Codex and Iranian national limits for Pb (0.1 mg/kg), Cd (0.05 mg/kg), and tAs (0.1 mg/kg). While non-carcinogenic risk (TTHQ) was within safe ranges for both adults and children, carcinogenic risk from inorganic arsenic in industrial oils exceeded the safe threshold (CR > 1×10⁻⁶), driven by the high tAs concentrations in industrial olive and peanut oils.
+This study measured five potentially toxic elements (tAs, Cd, Pb, Fe, Zn) in 40 samples of traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, collected in 2022 using ICP-OES after microwave-assisted acid digestion. Industrial oils had significantly higher total tAs, Fe, and Zn than traditional oils in the pooled type comparison; Pb and Cd did not differ significantly by production type. Pb and Cd means were below the Codex/Iranian benchmarks cited by the authors, while industrial olive oil mean tAs (0.113 mg/kg) exceeded the 0.1 mg/kg benchmark despite the paper's narrative statement that the sampled oils were lower than legal limits. Non-carcinogenic TTHQ values were below 1 for both adults and children, but the paper's cancer-risk calculation for inorganic arsenic exceeded 1×10⁻⁶ for both traditional and industrial oils.
 
 ## Key numbers
 
@@ -43,12 +43,12 @@ Industrial oils (n=20, mean ± SD, mg/kg wet weight):
 - Peanut: tAs 0.089 ± 0.038; Cd 0.009 ± 0.002; Pb 0.027 ± 0.045; Fe 11.323 ± 1.726; Zn 8.835 ± 1.346
 
 Health risk (probabilistic Monte Carlo, 50,000 iterations):
-- TTHQ adults/children traditional: 0.201 / 0.133 (both < 1, safe)
-- TTHQ adults/children industrial: 0.408 / 0.285 (both < 1, safe)
+- TTHQ adults/children traditional: 0.201 / 0.133 (both < 1 by the authors' non-cancer benchmark)
+- TTHQ adults/children industrial: 0.408 / 0.285 (both < 1 by the authors' non-cancer benchmark)
 - Carcinogenic risk (CR) for inorganic As, traditional: adults 7.54×10⁻⁵, children 5.28×10⁻⁵ (both > 1×10⁻⁶, unacceptable)
 - CR industrial: adults 1.61×10⁻⁴, children 1.15×10⁻⁴ (both > 1×10⁻⁶, unacceptable)
 
-Codex/ISIRI limits: Pb 0.1 mg/kg, Cd 0.05 mg/kg, tAs 0.1 mg/kg. Fe limit (ISIRI) 1.5 mg/kg — all Fe values from traditional oils (except industrial sunflower) exceeded this quality threshold.
+Codex/ISIRI limits cited by authors: Pb 0.1 mg/kg, Cd 0.05 mg/kg, tAs 0.1 mg/kg. Industrial olive oil mean tAs was 0.113 mg/kg, above the cited tAs benchmark; Pb and Cd means were below their cited benchmarks. Fe limit (ISIRI) 1.5 mg/kg — all Fe values from traditional oils and all industrial oils except industrial sunflower exceeded this quality threshold.
 
 ## Methods
 
@@ -64,14 +64,21 @@ Courses: Illustrates that industrial processing (bleaching, refining, deodorizat
 
 App: Supports flagging industrial vegetable oils — especially olive and peanut — for elevated tAs relative to traditionally pressed equivalents. Pb and Cd remain low across all oil types in this Iranian study.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/olive-oil]]
 - [[ingredients/sunflower-oil]]
 - [[ingredients/sesame-oil]]
 - [[ingredients/peanut-oil]]
 - [[ingredients/vegetable-oils]]
+- [[products/cooking-oils-other]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/arsenic]]
-- [[regulations/codex-cxs-210-named-vegetable-oils]]
+- [[metals/arsenic-total]]
+
+## Verification notes
+
+- Source identity checked against DOI 10.1186/s12889-023-17624-1 and the Marker extraction at `raw/markdown/FM_10797719/FM_10797719.md`.
+- ICP-OES reports total arsenic; the cancer-risk calculation applies an inorganic-arsenic slope factor to total-As concentrations without speciation.
+- `edible-oil`, `olive-oil`, `sunflower-oil`, `sesame-oil`, and `peanut-oil` are sample-matrix descriptors used here for routing/context; only existing ingredient/product/metals slugs are linked.
+- The paper cites Codex/ISIRI limits for vegetable oils, but no dedicated `regulations/codex-cxs-210-named-vegetable-oils` page exists in the current taxonomy snapshot; this is a candidate future regulation page if Karen approves it.
