@@ -22,6 +22,8 @@ sample_population: "Structured narrative review with systematic search; 112 stud
 updated: 2026-05-14
 ---
 
+# Katrynska et al. 2026 — Human milk as a biomonitor of toxic metal exposure
+
 This structured narrative review with systematic search elements synthesized 112 studies (2010–2025) on heavy metal contamination in human milk, with particular emphasis on maternal-infant transfer pathways, environmental and dietary determinants, and geographical variability. The review focused on Pb, Cd, tHg, tAs, Cr, and Al. Under typical exposure conditions, the authors report concentration ranges of approximately 2–5 µg/L for Pb, 1.4–1.7 µg/L for tHg, and below 1 µg/L for Cd. Substantially higher values occur in industrialized and mining regions, with extreme isolated reports exceeding 1000 µg/L for Pb and 100 µg/L for tHg. The review identifies bone mobilization of Pb during lactation, fat tissue mobilization for lipophilic organometals, and current dietary intake as the primary transfer mechanisms. Infants are particularly vulnerable due to immature detoxification, high gastrointestinal absorption efficiency, and ongoing neurodevelopment.
 
 ## Key numbers
@@ -61,20 +63,24 @@ Structured narrative review with systematic search elements. Databases: PubMed, 
 
 ## Implications
 
-Certification: This is the most comprehensive recent narrative review of heavy metals in human milk, synthesizing global data through early 2026. The 2–5 µg/L typical Pb range and <1 µg/L typical Cd range provide authoritative baseline reference ranges for synthesizing [[ingredients/breastmilk]] contamination profiles.
+Certification: This recent structured narrative review synthesizes global human-milk heavy-metal data through 2025. The 2–5 µg/L typical Pb range and <1 µg/L typical Cd range provide source-level baseline reference ranges for [[ingredients/breastmilk]] contamination-profile review.
 
 Courses: Provides the integrative framework for teaching maternal-infant heavy metal transfer via breastfeeding: environmental sources → maternal accumulation (bone for Pb, fat for lipophilic metals) → mobilization during lactation → infant exposure. The bone-mobilization mechanism for Pb is particularly important for teaching, as it means women with historic occupational or environmental Pb exposure can transfer Pb to infants even when current dietary exposure is low.
 
 App: Breast milk is not in the app's product ingredient-list model but this review anchors the health sections on infant exposure.
 
-Microbiome: Exposure of the infant gut to Pb, Cd, and Al during the colonization window (0–6 months) via breast milk is directly relevant to metal-microbiome interactions; cross-link when relevant microbiome pages are created.
+Microbiome: Exposure of the infant gut to Pb, Cd, and Al during the colonization window (0–6 months) via breast milk is relevant background for metal-microbiome interaction reviews.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/breastmilk]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/mercury]]
-- [[metals/arsenic]]
-- [[metals/aluminium]]
+- [[metals/mercury-total]]
+- [[metals/arsenic-total]]
+- [[metals/aluminum]]
 - [[metals/chromium]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) added the missing H1, replaced invalid metal wikilinks (`mercury`, `arsenic`, `aluminium`) with taxonomy-valid total-metal/aluminum slugs, modernized the source-touch heading, softened "authoritative/most comprehensive" implication wording to source-level evidence language, and removed a new-page/cross-link instruction from the Microbiome implication.
