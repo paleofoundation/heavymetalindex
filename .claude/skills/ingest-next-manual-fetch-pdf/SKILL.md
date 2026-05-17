@@ -62,6 +62,8 @@ Processes manual-fetch PDFs into wiki source pages with Cochrane-quality discipl
 
    Use `enhanced` for merge-enhance ingests, `fresh` for new source pages.
 
+7. **Append to audit queue.** After the commit lands, append a row to `data/evidence/audit-queue.csv` with `cite_key,source_folder,handle,commit_hash,timestamp,status`. Status starts as `pending`. The audit queue is consumed by GPT-5.5 fast mode running the audit prompt in `docs/gpt-collaboration/audit-prompt.md`; Karen feeds queue entries to GPT, GPT returns audits, Karen pastes audits back to Claude for application. After an audit is applied (or PROMOTE'd as-is), the queue row's status flips to `audited-promote`, `audited-revised`, or `audited-quarantine`. If the audit-queue.csv file does not exist, create it with the header row.
+
 ## Stop conditions (stop immediately, write a stop-report, do not advance to next PDF)
 
 Stop and write a `wiki/batch-reports/manual-fetch-<folder>-stop-<YYYY-MM-DD-HHMM>.md` report when ANY of these fire:

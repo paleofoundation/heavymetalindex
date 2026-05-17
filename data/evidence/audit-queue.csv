@@ -1,0 +1,5 @@
+cite_key,source_folder,handle,commit_hash,timestamp,status,audit_verdict,audit_applied_at,notes
+hussein2023-freshwater-marine-fish-egypt,wiki/sources,FM_10407656,recent,2026-05-17T08:00:00Z,pending,,,Mode A test; enhanced this session; brand-firewall compliant
+burrell2010-aluminium-in-infant-formulas,wiki/sources,Digest,2026-05-17T09:00:00Z,2026-05-17T09:00:00Z,pending,,,Mode B test; enhanced this session; brand listings aggregated
+bair2022-infant-toddler-food-heavy-metals-policy,wiki/sources,FM_9271943,40908aa,2026-05-17T10:30:00Z,pending,,,Manual-fetch ingest; major enhancement; first audit candidate
+houlihan2019-hbbf-whats-in-baby-food,wiki/sources,manual-fetch-kimi,40908aa,2026-05-17T10:30:00Z,pending,,,Manual-fetch ingest; minor enhancement; second audit candidate
