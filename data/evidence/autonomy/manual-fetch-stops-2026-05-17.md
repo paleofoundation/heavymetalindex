@@ -115,3 +115,13 @@ updated: 2026-05-17
 **Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
 
 **Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals — re-feed #3 (wrapper discovery loop)
+
+**PDF:** same Umuahia/Nigeria baby-milk and infant-formula paper as the two preceding entries.
+
+This is the third re-feed of this same PDF in this folder during 2026-05-17 sustained loop runs. Root cause is consistent with re-feed #2: the wrapper-supplied handle (`MFK_nutrient-exploration-and-heavy-metal-risk-assessme`) is the first-50-chars-of-filename slug, while the canonical `raw_handle` on the existing page is the semantic slug (`MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia`). The discovery layer's identity check on `raw_handle` therefore misses, and the PDF is re-served on every full-folder sweep. The three independent identity checks defined in the skill (DOI → raw_handle → cite-key) still resolve to the existing page on every cycle — DOI `10.1038/s41598-026-44198-w` hits — so the skill correctly stops here.
+
+**Karen note (separate fix item):** the wrapper's identity check should be widened to compare `raw_path` directly (the full PDF path on the existing page is the most stable identity anchor) or to do a filename-suffix check, rather than re-deriving a handle from the filename and matching only on `raw_handle`. This is a wrapper-script bug, not a skill bug. Until that is fixed, expect this PDF to keep being re-served on every full-folder sweep and to keep hitting this stop branch with no work done.
+
+**Action taken this cycle:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. Logging this entry so the re-feed pattern is visible in the autonomy report and so the wrapper-bug item has an artifact to point at.

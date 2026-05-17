@@ -17,7 +17,7 @@ platform_metals: [Pb, iAs, Cd]
 pair_row: 9
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 2
+sources: 3
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Sunscreen, Mineral (ZnO + TiO2)

@@ -165,3 +165,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (synthesis trigger rules: "cell has accumulated a second contributing source") / Part 18 (ingredient coverage asymmetry lint will pass once cells cross `pending` → `populated`) / [[feedback_no_approval_gates]] (synthesis runs without approval; contradictions are flagged, not held for review)
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Convert synthesis-gap queries into a ranked source-finding priority list
+
+**What:** Create `tools/autonomy/prioritize-synthesis-gaps.mjs` that reads the 634 gap_driven_wishlist_queries from autonomy logs, ranks each (ingredient, metal, product) cell by impact (frequency + downstream product-page dependencies + HMT&C row lock status), and outputs `data/evidence/priority-synthesis-gaps.csv` to feed the next ingest triage.
+
+**Why this lever now:** 286 pool_blocked_cells are the single largest structural blocker on synthesis workflow. They cannot advance past `pending` without evidence. The 634 gap_driven_wishlist_queries are a direct signal of which sources, if found, would unlock synthesis. Currently gaps are logged but not prioritized; systematizing them would focus source discovery on cells with maximum downstream impact (ingredient pages, product pages, HMT&C-locked rows).
+
+**Where:** 
+- `tools/autonomy/prioritize-synthesis-gaps.mjs` (new script)
+- `data/evidence/priority-synthesis-gaps.csv` (output: slug, metal, product_slug, frequency, impact_score)
+- Source log location: verify whether gap queries are in autonomy reports (e.g., `data/evidence/autonomy/healing-report-*.md`) or a structured record like `data/evidence/autonomy/synthesis-gaps.jsonl`
+
+**How:**
+1. Audit the current gap-query logging format in autonomy reports (grep for "gap" / "blocked" / "thin" markers in 2026-05-17 autonomy files).
+2. Build the prioritization script: read gaps → group by (ingredient_slug, metal, product_slug) → count frequency → multiply by (number of pages in wiki that reference this cell) × (1.5× if cell blocks a `hmtc_row` locked entry) → rank descending.
+3. Output CSV with ranked cells; include a "source_type_hint" column (e.g., "infant formula studies," "rice processing studies") inferred from the cell's context.
+4. Wire the output into the kickoff triage-manifest generator (Part 11) so the next ingest batch auto-prioritizes P1 sources against this list.
+
+**Anchors:** CLAUDE.md Part 9 (synthesis trigger: blocked cells need evidence), Part 11 (priority ordering), Part 24 (proactive maintenance — surface weak spots), `docs/order-of-operations.md` Phase 2 (source discovery targeting).
+
+---

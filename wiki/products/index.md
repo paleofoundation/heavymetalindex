@@ -59,21 +59,21 @@ These pages report what the evidence says about children's personal-care product
 
 Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration during application, hand-to-mouth transfer, and per-application volume per kg body weight are the relevant exposure routes. The methodology supplement is at [[health/cat-2-non-ingestion-exposure-pathways]].
 
-1. [[products/baby-lotion-cream|Baby lotion and cream]] (4 sources)
+1. [[products/baby-lotion-cream|Baby lotion and cream]] (6 sources)
 2. [[products/baby-oil|Baby oil]] (0 sources)
 3. [[products/baby-powder-cornstarch|Baby powder, cornstarch base]] (0 sources)
-4. [[products/baby-talcum-powder|Baby talcum powder]] (1 source)
-5. [[products/baby-shampoo-body-wash|Baby shampoo and body wash]] (2 sources)
-6. [[products/baby-wipes|Baby wipes]] (1 source)
-7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (1 source)
-8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] (1 source)
-9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (2 sources)
-10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (2 sources)
-11. [[products/toothpaste|Children's toothpaste]] (4 sources)
+4. [[products/baby-talcum-powder|Baby talcum powder]] (2 sources)
+5. [[products/baby-shampoo-body-wash|Baby shampoo and body wash]] (4 sources)
+6. [[products/baby-wipes|Baby wipes]] (2 sources)
+7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (2 sources)
+8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] (2 sources)
+9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (3 sources)
+10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (3 sources)
+11. [[products/toothpaste|Children's toothpaste]] (6 sources)
 12. [[products/face-paint|Children's face paint]] (4 sources)
 13. [[products/childrens-makeup|Children's makeup]] (4 sources)
 14. [[products/childrens-nail-polish|Children's nail polish]] (1 source)
-15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (2 sources)
+15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (3 sources)
 16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (4 sources)
 
 ## HMTc Category 3: Grains, Cereals, and Rice Products
@@ -199,7 +199,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 4. [[products/pacifiers-and-sucking-teething-aids|Pacifiers and sucking/teething aids]] (0 sources)
 5. [[products/teething-toys-teethers|Teething toys/teethers]] (0 sources)
 6. [[products/infant-food-storage-items|Infant food-storage items (milk storage bags/containers)]] (0 sources)
-7. [[products/diapers-and-components|Diapers and diaper components]] (0 sources)
+7. [[products/diapers-and-components|Diapers and diaper components]] (1 source)
 8. [[products/feeding-accessories-child-sized|Feeding accessories (spoons, plates, bowls — child-sized)]] (0 sources)
 
 ## HMTc Category 10: Infant and Child Durable Goods and Textiles (Ages 0-5)
@@ -510,17 +510,6 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->

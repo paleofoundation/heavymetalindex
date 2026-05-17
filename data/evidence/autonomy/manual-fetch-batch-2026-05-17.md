@@ -122,3 +122,14 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already ingested, Codex-audited, and subagent-audited (PROMOTE) on 2026-05-17; page is post-2026-05-14 clean and absent from routing_malformed/unresolved — no work to do this cycle.
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: already-ingested-and-audited-today (mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals, commit c75d66e, audited-revised); v2 skip-window rule applies; stops file already documents this PDF twice today (suggested-handle/canonical-raw_handle mismatch is causing wrapper re-discovery).
+
+## Tick 2026-05-17T19:57:30.655Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already merge-enhanced and audited 2026-05-17 (commit b237644, audit-queue status audited-codex-revised, subagent PROMOTE)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: already-processed (mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals, audited-revised 2026-05-17, clean routing — third wrapper re-feed; root cause is handle-derivation mismatch documented in the stop log)
