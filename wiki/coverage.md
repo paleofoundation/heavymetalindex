@@ -30,21 +30,21 @@ This page was regenerated on **2026-05-17** from the current state of the corpus
          │
          │  Papers from year ≥ 2020: 14,343
          ▼
-  Eligibility:    897 source pages currently in wiki/sources/
+  Eligibility:    921 source pages currently in wiki/sources/
          │
-         │    evidence_tier A: 784
-         │    evidence_tier B: 108
+         │    evidence_tier A: 804
+         │    evidence_tier B: 112
          │    evidence_tier C: 4
          │    evidence_tier unknown: 1
          ▼
   Included:       Source pages routed to destination pages
          │
-         │  Routing rows in product_source_routing_audit.csv: 485
+         │  Routing rows in product_source_routing_audit.csv: 648
          ▼
   Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 897 have been promoted to source pages — 3.9% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
+**Of the 23,260 papers identified in the literature search, 921 have been promoted to source pages — 4.0% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -52,7 +52,7 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 897 |
+| Source pages | 921 |
 | Ingredient profiles | 237 |
 | Product-category rows (total) | 320 |
 | Product-category rows (non-stub, has scaffold or content) | 94 |

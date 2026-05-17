@@ -11,7 +11,7 @@ source_type: review
 evidence_tier: B
 license: unknown
 raw_path: "raw/Papers Cube Manual Fetch/fu2019.pdf"
-metals: [Pb, Cd, tAs, iAs, tHg, Ni]
+metals: [Pb, Cd, tAs, iAs, tHg, MeHg, Ni]
 ingredients: []
 products: []
 matrices: [drinking-water, blood, urine, dietary-intake]
@@ -44,16 +44,26 @@ This is a narrative review, not a systematic review or meta-analysis. The author
 
 ## Limitations
 
-The abstract and opening framing emphasize drinking water as the "main source of human exposure" to heavy metals, which is accurate for arsenic in specific high-exposure geographies (South and Southeast Asia) but is not accurate for the broader population where dietary exposure — particularly food — dominates for Pb, Cd, and MeHg. This framing should be held against the source when using specific claims; the mechanistic content is solid but the exposure-route emphasis reflects the authors' research focus (occupational and water-pollution toxicology at China Medical University) rather than the balanced dietary-exposure picture.
+The abstract and opening framing emphasize drinking water as the "main source of human exposure" to heavy metals. Because the review is mechanism-oriented and emphasizes water/occupational routes, use cautiously for food-occurrence claims.
 
 ## Implications
 
-Health and toxicology: provides a useful peer-reviewed mechanism narrative for [[health/index]] and the per-metal toxicology sections of [[metals/lead]], [[metals/cadmium]], [[metals/arsenic]], [[metals/mercury]], and [[metals/nickel]].
+Health and toxicology: provides a useful peer-reviewed mechanism narrative for the per-metal toxicology sections of [[metals/lead]], [[metals/cadmium]], [[metals/arsenic-total]], [[metals/arsenic-inorganic]], [[metals/mercury-total]], [[metals/mercury-methyl]], and [[metals/nickel]].
 
-Courses: can be cited for mechanism-of-action teaching content; instructors should note the water-focus caveat and supplement with dietary-exposure data.
+Courses: can be cited for mechanism-of-action teaching content; instructors should note the water/occupational exposure emphasis.
 
 Certification: not directly applicable to threshold-setting; the review does not report occurrence data or dose-response floors at food-relevant concentrations.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
-- [[health/index]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic-total]]
+- [[metals/arsenic-inorganic]]
+- [[metals/mercury-total]]
+- [[metals/mercury-methyl]]
+- [[metals/nickel]]
+
+## Verification notes
+
+- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Added MeHg to the metal scope, removed a non-taxonomy health wikilink, converted generic arsenic/mercury wikilinks to speciated metal pages, and tightened the limitations/courses language to avoid cross-source synthesis.
