@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Chemical Composition and Nutritional Quality of Commercial Tahini.pdf"
 metals: [Pb, Cd, tAs, tHg, Ni]
 ingredients: ["[[ingredients/sesame]]", "[[ingredients/tahini]]"]
-products: []
+products: ["[[products/nut-seed-butters-other]]"]
 matrices: [tahini, sesame-paste]
 jurisdictions: [IT, TR, IL, DE, LB, GR]
 near_duplicates: []

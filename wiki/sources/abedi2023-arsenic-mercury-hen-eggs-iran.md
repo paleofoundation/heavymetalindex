@@ -6,9 +6,8 @@ title: "Consumer health risk assessment of Arsenic and Mercury in hen eggs throu
 authors: [Abedi A, Hoseini H, Mohammadi-Nasrabadi F, Rostami N, Esfarjani F]
 year: 2023
 publication: "BMC Public Health"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Consumer%20health%20risk%20assessment%20of%20Arsenic%20and%20Mercury%20in%20hen%20eggs%20through%20Monte%20Carlo%20simulations"
+doi: "10.1186/s12889-023-16223-4"
+access_url: "https://doi.org/10.1186/s12889-023-16223-4"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

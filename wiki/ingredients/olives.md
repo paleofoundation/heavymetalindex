@@ -15,11 +15,11 @@ contamination_profile:
     last_reviewed: 2026-05-15
   Cd:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [10, 100]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-15
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/canned-olives]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-15
+updated: 2026-05-16
 sources: 3
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -98,20 +98,20 @@ Olive trees take metals from soil into the fruit through root uptake, with the r
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder).
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=3       | 10–250 | 350    | low    | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|3]] |
-| Cd  | data gap  | —      | —      | —      | — |
-| iAs | data gap  | —      | —      | —      | — |
-| tAs | data gap  | —      | —      | —      | — |
-| tHg | n=1       | 0      | 0      | low    | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|3]] |
-| Ni  | n=2       | 20–200 | —      | low    | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|1]], [[sources/vella2024-malta-olive-cultivars-aas\|2]] |
-| Al  | data gap  | —      | —      | —      | — |
-| Cr  | n=2       | 10–100 | —      | low    | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|1]] |
-| Sn  | n=1       | 0–100  | —      | low    | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|3]] |
-| U   | data gap  | —      | —      | —      | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 10–250 | low | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|2]] |
+| Cd | n=2 | 10–100 | low | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/vella2024-malta-olive-cultivars-aas\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0 | low | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]] |
+| Ni | n=2 | 20–200 | low | [[sources/vella2024-malta-olive-cultivars-aas\|1]], [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|2]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 10–100 | low | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|1]] |
+| Sn | n=1 | 0–100 | low | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

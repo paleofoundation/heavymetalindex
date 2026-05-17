@@ -16,7 +16,7 @@ public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-15
-sources: 1
+sources: 3
 ---
 
 # Coffee
@@ -48,7 +48,7 @@ This page is HMTc Category 5 row 13 from the locked beverage architecture. It ex
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
     </div>
   </dl>
 </div>
@@ -103,7 +103,7 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Coffee. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Coffee. Values are pulled directly from cited sources without re-aggregation. Aggregation, comparability review, and HMT&C certification threshold decisions are handled separately under the certification program; see the [methodology](/methodology) for the wiki/HMT&C separation.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -156,7 +156,7 @@ Heavy-metal concentrations in roasted coffee are driven by soil-to-plant uptake 
 
 This page documents what the cited sources report. The row-standard percentile in the HMT&C staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review; it is not a decoration on any individual source row and is not published on this public page.
 
-Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture. The current evidence base for this row is a single study with n=8 samples; any percentile estimate from this sample would carry very wide confidence intervals and should not be used for standards-setting without additional sources. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench.
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture. The current evidence base for this row is a single study with n=8 samples; a single-sample range cannot stand in for a representative distribution across the full source pool. HMT&C certification threshold decisions are made separately under the certification program and are not published on this public page.
 
 ## Historical recalls and enforcement
 
@@ -171,6 +171,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Cd, Pb, tAs, tHg in roasted Arabica coffee beans (n=8, Poland); the only current contributing source for this row; establishes baseline DM concentrations with all values within applicable limits at the time of publication |
+| 1 | [[sources/zergui2023-coffee-metals-origin-icp-ms\|Zergui et al. 2023]]. *Evaluation of trace metallic element levels in coffee by ICP-MS: a comparative study among different origins, forms, and packaging types and consumer risk assessment*, Biological Trace Element Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Cd, Pb, tAs, tHg in roasted Arabica coffee beans (n=8, Poland); the only current contributing source for this row; establishes baseline DM concentrations with all values within applicable limits at the time of publication |
 <!-- END: hmi-source-legend -->
 

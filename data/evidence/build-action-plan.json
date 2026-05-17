@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-05-15",
-  "action_count": 6,
+  "generated_at": "2026-05-16",
+  "action_count": 7,
   "actions": [
-    {
-      "id": "TRIAGE-ROUTING-UNRESOLVED",
-      "strategy": "triage",
-      "title": "Triage 140 routing-unresolved entries",
-      "impact_score": 210,
-      "cost": "medium",
-      "confidence": 0.9,
-      "closes_count": 140,
-      "closes_what": "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
-      "best_dispatched_to": "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
-      "prompt_path": "data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md",
-      "details": "140 entries broken down as: 56 product, 84 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
-      "priority": 63
-    },
     {
       "id": "FIX-MISSING-DOIS",
       "strategy": "schema",
@@ -31,47 +17,33 @@
       "priority": 52.13333333333333
     },
     {
-      "id": "SYNTHESIS-INGREDIENT-PENDING",
-      "strategy": "synthesis",
-      "title": "Run synthesis pass on 271 (ingredient, metal) cells that have 2+ contributing sources",
-      "impact_score": 542,
-      "cost": "expensive",
-      "confidence": 0.75,
-      "closes_count": 271,
-      "closes_what": "ingredient contamination_profile cells move from pending to populated per CLAUDE.md Part 9 incremental-update rules",
-      "best_dispatched_to": "Claude Code Opus (analytical: cross-source synthesis)",
-      "prompt_path": null,
-      "details": "1086 ingredient × metal cells are currently pending. Of those, 271 have 2+ A-tier sources contributing values per the routing audit and are eligible for initial-population synthesis. The remaining 815 cells have 0-1 contributing sources and need more corpus before synthesis runs.",
-      "inline_action": "list_ready_synthesis_cells",
-      "priority": 50.8125
-    },
-    {
       "id": "POPULATE-SOURCE-LEGEND",
       "strategy": "schema",
-      "title": "Populate 1990 *[awaiting synthesis]* cells in source-legend tables across 267 pages",
+      "title": "Populate 1965 *[awaiting synthesis]* cells in source-legend tables across 280 pages",
       "impact_score": 400,
       "cost": "expensive",
       "confidence": 0.85,
-      "closes_count": 1990,
+      "closes_count": 1965,
       "closes_what": "the \"Used on this page for\" column in the hmi-source-legend table on every product, ingredient, and metal page — the brand-legal-facing scannable provenance surface Karen prioritized as standard format on 2026-05-13",
       "best_dispatched_to": "Claude Code Opus (per-source contextual synthesis at scale)",
       "prompt_path": "data/evidence/build-action-prompts/POPULATE-SOURCE-LEGEND.md",
-      "details": "1990 cells across 267 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.",
+      "details": "1965 cells across 280 pages. Each cell needs a 1-sentence description of what the source contributes to this specific page. Read the source page TL;DR + the consumer page body, then patch the cell. Idempotent: re-running on already-filled cells is a no-op.",
       "priority": 42.5
     },
     {
-      "id": "COMPLETE-AUTONOMY-STUBS",
-      "strategy": "synthesis",
-      "title": "Complete 37 autonomy-created stub ingredient pages with routed sources (top: vegetable-oils=6, soybean-oil=5, spices=5, apple-cider-vinegar=4, balsamic-vinegar=4)",
-      "impact_score": 327,
-      "cost": "expensive",
+      "id": "FIX-EMPTY-PRODUCTS-ON-FOOD-PAPERS",
+      "strategy": "schema",
+      "title": "Fix 13 food/personal-care source pages with products: [] (Phase 1 gate)",
+      "impact_score": 39,
+      "cost": "cheap",
       "confidence": 0.85,
-      "closes_count": 37,
-      "closes_what": "ingredient pages auto-created from routing_unresolved that have inbound source-page declarations but empty bodies and all-pending contamination_profile. Filling these pages converts ingested sources into actual wiki content — the load-bearing fix for Karen's 2026-05-15 'wasting time with our ingests' diagnostic. Each page graduates to non-stub status, which means future routing-audit and mandatory-sections lint passes can detect it as a real page rather than an exempt placeholder.",
-      "best_dispatched_to": "Claude Code Opus (per-page deep-read of routed sources + multi-section drafting)",
-      "prompt_path": "data/evidence/build-action-prompts/COMPLETE-AUTONOMY-STUBS.md",
-      "details": "37 stubs identified by created_by: autonomy_v0 frontmatter; total routed sources across all stubs: 109. The orchestrator prioritizes by routed-source count (highest first). Each page needs: contamination_profile advanced from pending to populated for the metals the routed sources report; body table updated; the 8 mandatory CLAUDE.md Part 6 sections drafted; source legend filled with 1-sentence \"Used on this page for\" descriptions.",
-      "priority": 34.74375
+      "closes_count": 13,
+      "closes_what": "routing-discipline failures per docs/order-of-operations.md Phase 1. Each source has matrices declaring product-shaped slugs but products: [] and no pending_category_lock flag. Either declare products: with matching slug(s) from the existing taxonomy, or set pending_category_lock: <name> if the target category is not yet locked.",
+      "best_dispatched_to": "Claude Code (small structured edits; may need --include-medium reverse-route)",
+      "prompt_path": null,
+      "details": "Most of today's 13 fails are medium-confidence map entries (fish → fresh-fish, dried-herbs → spices, vegetable-juice → vegetable-juices-non-root). Quick fix: run `npm run reverse-route:apply -- --include-medium` to apply medium-confidence proposals after Karen reviews them. Alternative fix: hand-edit each source to declare the correct product slug.",
+      "inline_action": "run_reverse_route_include_medium",
+      "priority": 33.15
     },
     {
       "id": "WISHLIST-EXPAND-FOR-BLOCKED-CELLS",
@@ -87,6 +59,48 @@
       "details": "33 cells blocked because no source provides concentration data for the (product, metal) combination. The wishlist generator can target these specifically by injecting product+metal queries; auto-fetch then runs against the expanded queries.",
       "inline_action": "expand_wishlist_from_blocked_cells",
       "priority": 27.72
+    },
+    {
+      "id": "INGEST-STAGED",
+      "strategy": "ingest",
+      "title": "Ingest 97 staged PDFs and produce source pages",
+      "impact_score": 194,
+      "cost": "expensive",
+      "confidence": 0.95,
+      "closes_count": 97,
+      "closes_what": "wishlist gaps (each PDF likely closes one or more) + brings ingredient/product pages closer to populated",
+      "best_dispatched_to": "Obsidian Sonnet (cheaper per-token for bulk work)",
+      "prompt_path": "data/evidence/build-action-prompts/INGEST-STAGED.md",
+      "details": "97 files in raw/manual-fetch/seasonal-geographic-variance/ (manual drops + auto-fetched). Each produces a source page per CLAUDE.md Part 8; routing audit fans them out automatically via the watcher.",
+      "priority": 23.037499999999998
+    },
+    {
+      "id": "TRIAGE-ROUTING-UNRESOLVED",
+      "strategy": "triage",
+      "title": "Triage 38 routing-unresolved entries",
+      "impact_score": 57,
+      "cost": "medium",
+      "confidence": 0.9,
+      "closes_count": 38,
+      "closes_what": "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
+      "best_dispatched_to": "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
+      "prompt_path": "data/evidence/build-action-prompts/TRIAGE-ROUTING-UNRESOLVED.md",
+      "details": "38 entries broken down as: 30 product, 8 ingredient. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.",
+      "priority": 17.1
+    },
+    {
+      "id": "FIX-LOCKED-PRODUCTS-WITH-ZERO-SOURCES",
+      "strategy": "synthesis",
+      "title": "Investigate 15 HMTc-locked product pages with zero routed sources (Phase 5 gate)",
+      "impact_score": 75,
+      "cost": "medium",
+      "confidence": 0.6,
+      "closes_count": 15,
+      "closes_what": "scaffolded HMTc rows that never received their Phase 1 ingest. Each row is a brand-legal-facing page where the literature evidence is currently empty, which means the page reads as unsupported on the live site. Some may legitimately have thin literature (matcha, sports-energy-drinks); others may be misroutes.",
+      "best_dispatched_to": "Karen (decide per-row: thin literature vs misroute) + Claude follow-through",
+      "prompt_path": null,
+      "details": "Today's failures: baby-lotion-cream, baby-oil, baby-powder-cornstarch, baby-shampoo-body-wash, baby-sunscreen-chemical, baby-sunscreen-mineral, baby-wipes, childrens-nail-polish, diaper-cream-non-zno, diaper-cream-zno, flavored-waters, matcha, soft-drinks-carbonated-beverages, sports-energy-drinks, vegetable-juices-root-vegetable-containing. For each row, check whether (a) the corpus has sources that should route but their frontmatter is wrong, (b) the matrix vocabulary needs an entry in data/evidence/matrix-to-product-map.json, or (c) the literature is genuinely thin and the page should carry a \"literature is thin for this row\" caveat.",
+      "priority": 15
     }
   ]
 }

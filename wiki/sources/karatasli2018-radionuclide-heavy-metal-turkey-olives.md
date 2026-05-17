@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Radionuclide and heavy metal content in the table olive (Olea eur.pdf"
 metals: [Pb, Ni, Cr, Fe, Cu, Zn, Co, Mn]
 ingredients: ["[[ingredients/olives]]"]
-products: []
+products: ["[[products/non-root-vegetables]]"]
 matrices: [table-olives]
 jurisdictions: [TR]
 near_duplicates: []

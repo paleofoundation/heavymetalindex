@@ -7,7 +7,7 @@ year: 2016
 publication: "US Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Analytical%20Results%3A%20Inorganic%20Arsenic%20in%20Infant%2FToddler%20Foods%20(2016)
+access_url: "https://www.fda.gov/food/risk-and-safety-assessments-food/arsenic-rice-and-rice-products-risk-assessment"
 source_type: gov-data
 evidence_tier: A
 license: "public-domain-us-government"
@@ -16,7 +16,7 @@ sha256: 1acf9b643bc7bfc34fe1853315f35f1f1cd0bf883996dd7aae0b73b6c4d16329
 access_date: 2026-05-12
 metals: [iAs]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/fruit-purees]]", "[[products/fruit-snacks]]"]
 matrices: [infant-rice-cereal, infant-multigrain-cereal, infant-non-rice-cereal, toddler-foods, juices, fruit-snacks]
 jurisdictions: [US]
 sample_n: 547

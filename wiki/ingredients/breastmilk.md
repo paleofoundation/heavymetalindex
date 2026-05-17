@@ -7,81 +7,81 @@ aliases: [breast milk, human milk, mother's milk, breastfeeding]
 category: dietary-exposure-route
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0.1, 13]
+    p95_ppb: 41
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0.01, 1.4]
+    p95_ppb: 3.5
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0.04, 14]
+    p95_ppb: 54
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [9, 80]
+    p95_ppb: 100
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0.6, 1.5]
+    p95_ppb: 7.5
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0.1, 2.8]
+    p95_ppb: 35
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [maternal-exposure, lactational-transfer, geography, occupational-history]
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 14
 ---
 
@@ -92,6 +92,23 @@ Breastmilk is the infant exposure route this wiki tracks alongside infant formul
 Breastmilk concentrations of heavy metals are driven primarily by maternal exposure history (diet, drinking water, occupational, geographic) and by the partitioning behavior of each metal across the mammary epithelial barrier. Lead and arsenic partition relatively poorly into breastmilk; mercury (especially MeHg) partitions more readily but is also bound by breast tissue and shed via hair. The literature is unanimous that breastmilk concentrations are typically lower than formula concentrations for Pb and Cd when reconstituted formula is compared in matched-population studies; the comparison for iAs depends heavily on the formula's water source and base ingredient.
 
 This page is the structural anchor for breastmilk-as-exposure-route claims; the vulnerable-population framing in [[health/vulnerable-populations]] and the infant-feeding guidance comparison on [[products/infant-formula-powder-non-soy]] cite this page.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=10 | 0.1–13 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
+| Cd | n=9 | 0.01–1.4 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=10 | 0.1–2.8 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
+| tHg | n=8 | 0.04–14 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea\|2]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|3]] |
+| Ni | data gap | — | — | — |
+| Al | n=3 | 9–80 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|2]], [[sources/atsdr-aluminum-toxprofile-2008\|3]] |
+| Cr | n=4 | 0.6–1.5 | medium | [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review\|1]], [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review\|2]], [[sources/sushila2024-heavy-metals-human-milk-review\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -123,4 +140,28 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 13 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 | 2015 | Peer-reviewed | U.S. infant cohort study using urinary As biomarkers to compare arsenic exposure in breastfed vs formula-fed infants; formula-fed infants had higher urinary As levels, establishing feeding mode as a key determinant |
 | 14 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR Al toxicological profile covering dietary exposure routes including human milk and infant formula; includes Al MRL derivation and infant-exposure context |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
+## Ranges by source, region, and variety
+
+_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+
+## Processing effects
+
+_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+
+## Ingredient-derivative risk
+
+_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+
+## Mitigation options
+
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+
+## Regulatory limits that apply
+
+_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+
 

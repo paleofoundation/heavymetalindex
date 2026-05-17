@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Papers Cube Manual Fetch/article (1) copy.pdf"
 metals: [Pb, Cd, tAs, Al]
 ingredients: ["[[ingredients/sesame-oil]]", "[[ingredients/flaxseed]]", "[[ingredients/perilla]]", "[[ingredients/noodles]]", "[[ingredients/tea]]"]
-products: ["[[products/cooking-oils]]", "[[products/noodles]]", "[[products/tea]]"]
+products: ["[[products/cooking-oils]]", "[[products/tea]]", "[[products/tea-infusions]]"]
 matrices: [oilseed, edible-oil, noodle, tea-leaf, tea-infusion]
 jurisdictions: [KR, LK]
 near_duplicates: []

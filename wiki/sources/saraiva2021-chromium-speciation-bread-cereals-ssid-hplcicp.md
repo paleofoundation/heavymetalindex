@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0320.pdf"
 metals: [Cr, Cr-VI]
 ingredients: ["[[ingredients/bread]]", "[[ingredients/breakfast-cereals]]"]
-products: ["[[products/bread]]", "[[products/breakfast-cereals]]"]
+products: ["[[products/breakfast-cereals]]"]
 matrices: [bread, breakfast-cereal, grain-product]
 jurisdictions: [FR, DK, EU]
 near_duplicates: []

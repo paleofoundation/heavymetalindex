@@ -7,7 +7,7 @@ year: 2013
 publication: "United Nations Environment Programme, Secretariat of the Minamata Convention on Mercury"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Minamata%20Convention%20on%20Mercury%20%E2%80%94%20Text%20and%20Annexes%20(2024%20Edition)
+access_url: "https://minamataconvention.org/en/resources/minamata-convention-mercury-text-annexes"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/MinamataConvention_Text.pdf

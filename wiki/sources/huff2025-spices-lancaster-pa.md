@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Heavy metals in spices from Lancaster, PA_ arsenic, cadmium, and .pdf"
 metals: [Pb, Cd, tAs]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/turmeric]]", "[[ingredients/cinnamon]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs, curry-powder, masala]
 jurisdictions: [US]
 near_duplicates: []

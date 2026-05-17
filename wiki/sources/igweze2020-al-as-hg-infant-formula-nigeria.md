@@ -14,7 +14,7 @@ license: "CC BY-ND"
 access_url: "https://doi.org/10.18295/squmj.2020.20.01.009"
 raw_path: "raw/external-fetch/2026-05-09/igweze2020-al-as-hg-infant-formula-paediatric-risk.jats.xml"
 metals: [Al, tAs, tHg]
-products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, baby-cereals-dry-non-rice]
+products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, baby-cereals-dry-non-rice, "[[products/infant-formula-rtf-liquid-non-soy]]"]
 matrices: [milk-based-infant-formula, cereal-based-infant-formula, corn-meal-formula]
 jurisdictions: [NG]
 sample_n: 26

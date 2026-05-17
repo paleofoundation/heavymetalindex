@@ -13,7 +13,7 @@ license: "ACS AuthorChoice"
 raw_path: raw/markdown/FM_8009509/FM_8009509.md
 metals: [tAs]
 ingredients: ["[[ingredients/tuna]]", "[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seafood]]", "[[products/dietary-supplements]]", "[[products/fresh-fish]]"]
 matrices: [seafood, fish, algae, dietary-supplement]
 jurisdictions: [CA]
 near_duplicates: []

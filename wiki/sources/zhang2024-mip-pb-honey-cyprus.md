@@ -6,15 +6,14 @@ title: "Molecularly imprinted polymer electrochemical sensor for lead detection 
 authors: [Zhang]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Molecularly%20imprinted%20polymer%20electrochemical%20sensor%20for%20lead%20detection%20in%20honey
+doi: "10.3390/polym16131782"
+access_url: "https://doi.org/10.3390/polym16131782"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11244471/FM_11244471.md
 metals: [Pb]
-products: []
+products: ["[[products/honey]]"]
 ingredients: ["[[ingredients/honey]]"]
 matrices: [analytical-method, honey]
 jurisdictions: [CY]

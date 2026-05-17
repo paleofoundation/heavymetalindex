@@ -98,18 +98,20 @@ Rapeseed (Brassica napus) is a brassica oilseed grown predominantly in Canada (t
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=3       | 5–100  | 250     | medium | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]], [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|2]] |
-| Cd  | n=3       | 1–30   | —       | medium | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]], [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|2]] |
-| iAs | data gap  | —      | —       | —      | — |
-| tAs | n=2       | 1–50   | —       | low    | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]] |
-| tHg | n=1       | —      | —       | —      | [[sources/scutarasu2023-heavy-metals-foods-beverages\|3]] |
-| Ni  | n=2       | 10–200 | —       | low    | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|2]] |
-| Al  | data gap  | —      | —       | —      | — |
-| Cr  | n=2       | 5–100  | —       | low    | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|2]] |
-| Sn  | data gap  | —      | —       | —      | — |
-| U   | data gap  | —      | —       | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 5–100 | medium | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]], [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|2]] |
+| Cd | n=3 | 1–30 | medium | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]], [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 1–50 | low | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]] |
+| tHg | n=1 | — | — | — |
+| Ni | n=2 | 10–200 | low | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 5–100 | low | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

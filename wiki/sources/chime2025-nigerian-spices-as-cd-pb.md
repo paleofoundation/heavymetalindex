@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Assessment of toxic trace metal contamination in food spices sold.pdf"
 metals: [tAs, Cd, Pb]
 ingredients: ["[[ingredients/spices]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs]
 jurisdictions: [NG]
 near_duplicates: []

@@ -8,6 +8,7 @@ fixes_applied: 11
 new_page_proposals: 5
 detector_bugs_fixed: 0
 passes_completed: 7
+noindex: true
 ---
 
 # Routing-unresolved triage — 2026-05-12

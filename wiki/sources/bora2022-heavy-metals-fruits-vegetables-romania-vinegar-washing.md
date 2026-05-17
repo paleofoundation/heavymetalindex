@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Quantification and Reduction in Heavy Metal Residues in Some Frui.pdf"
 metals: [tAs, Cd, Pb, Zn]
 ingredients: ["[[ingredients/tomatoes]]", "[[ingredients/cucumber]]", "[[ingredients/beans]]", "[[ingredients/zucchini]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/garlic]]", "[[ingredients/onion]]", "[[ingredients/potato]]", "[[ingredients/carrot]]", "[[ingredients/apple]]", "[[ingredients/strawberry]]", "[[ingredients/grapes]]", "[[ingredients/vinegar]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-vegetables, fresh-fruit, fruiting-vegetables, leafy-vegetables, bulb-vegetables, root-vegetables]
 jurisdictions: [RO, EU]
 near_duplicates: []

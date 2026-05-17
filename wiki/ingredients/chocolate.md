@@ -6,19 +6,19 @@ aliases: [dark chocolate, milk chocolate, chocolate liquor, chocolate bar, choco
 category: processed-confectionery
 contamination_profile:
   Pb:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-11
-  Cd:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
+    status: populated
+    typical_ppb: [10, 100]
+    p95_ppb: 380
     confidence: medium
-    n_studies: 5
-    last_reviewed: 2026-05-11
+    n_studies: 6
+    last_reviewed: 2026-05-16
+  Cd:
+    status: populated
+    typical_ppb: [60, 500]
+    p95_ppb: 2200
+    confidence: high
+    n_studies: 15
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -34,26 +34,26 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   Ni:
-    status: in_progress
+    status: populated
     typical_ppb: [700, 1900]
     p95_ppb: null
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-11
+    last_reviewed: 2026-05-16
   Al:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-11
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
   Cr:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-11
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -63,11 +63,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [30, 150]
+    p95_ppb: 200
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
@@ -81,29 +81,29 @@ higher_risk_variants: ["[[ingredients/high-cocoa-dark-chocolate]]", "[[ingredien
 used_in_products: ["[[products/chocolate-bars]]", "[[products/chocolate-confections]]", "[[products/baked-goods]]", "[[products/ice-cream]]", "[[products/chocolate-beverages]]", "[[products/nutritional-supplements]]", "[[products/chocolate-coated-snacks]]"]
 audience: [regulator, educator, consumer, app]
 sources: 17
-updated: 2026-05-12
+updated: 2026-05-16
 ---
 
 # Chocolate
 
-_Stub page. Contamination profile populates on the next ingest wave. Chocolate is a processed derivative of [[ingredients/cocoa]] and inherits cadmium from its cocoa-solid fraction; cadmium content scales approximately with cocoa-solid percentage and with cocoa origin._
+Chocolate is a processed derivative of [[ingredients/cocoa]] and inherits cadmium from its cocoa-solid fraction; cadmium content scales approximately with cocoa-solid percentage and with cocoa origin.
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | low | — |
-| Cd | n=5 (in progress) | — | — | medium | — |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | data gap | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | low | — |
-| Al | n=1 (in progress) | — | — | low | — |
-| Cr | n=1 (in progress) | — | — | low | — |
-| Sn | data gap | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 10–100 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate\|3]] |
+| Cd | n=15 | 60–500 | high | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/bravo2024-cadmium-cacao-arauca\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 30–150 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | n=2 | 700–1900 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/flyvholm1984-nickel-content-food-dietary-intake\|2]] |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

@@ -9,6 +9,7 @@ source_pages_created: 26
 source_pages_fixed: 2
 values_records_added: 47
 manifest_reclassifications: 12
+noindex: true
 ---
 
 # Batch Report — P1 Priority Tier Ingest

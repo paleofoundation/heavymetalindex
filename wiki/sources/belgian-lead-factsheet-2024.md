@@ -7,7 +7,7 @@ year: 2024
 publication: "Steunpunt Milieu en Gezondheid (Flemish Centre of Expertise on Environment and Health)"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Factsheet%20Metaal%20%E2%80%94%20Lood%20(Lead%20Factsheet)
+access_url: "https://www.omgeving-en-gezondheid.be/"
 source_type: gov-report
 evidence_tier: B
 tier_rationale_b_retained: "Government-issued factsheet is a synthesis communication, not primary research or meta-analysis. Per CLAUDE.md Part 13, the A-tier 'government reports' category is meant for primary regulatory decisions, scientific opinions, and primary research reports; educational factsheets sit closer to NGO-synthesis (B-tier)."

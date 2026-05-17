@@ -5,28 +5,44 @@ commodity: fruit
 aliases: [apple, pear, peach, banana, berries, "fruit puree", compote, dried-fruit, "dried fruits", cherries, kiwi, pineapple, persimmon, papaya, jackfruit, lemon, muskmelon, melons, pineapple-peel]
 category: fruit
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [5, 50], p95_ppb: 150, confidence: high, n_studies: 21, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [5, 50], p95_ppb: 130, confidence: high, n_studies: 21, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [1, 10], p95_ppb: 15, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [1, 10], p95_ppb: 42, confidence: high, n_studies: 12, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [30, 200], p95_ppb: 500, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [100, 4000], p95_ppb: 9100, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [5, 30], p95_ppb: 50, confidence: high, n_studies: 18, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [20, 100], p95_ppb: 200, confidence: medium, n_studies: 9, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [10, 100], p95_ppb: 500, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, variety, processing, packaging]
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
 sources: 28
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Fruit
 
-_Stub page. Chekri et al. 2019 reports a French infant fruit-puree category and identifies fruit purees as the highest-tin infant-food category in that study. The source gives category-level values, not fruit-by-fruit distributions. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+Chekri et al. 2019 reports a French infant fruit-puree category and identifies fruit purees as the highest-tin infant-food category in that study. The source gives category-level values, not fruit-by-fruit distributions. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=21 | 5–50 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|2]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|3]] |
+| Cd | n=21 | 5–50 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|2]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|3]] |
+| iAs | n=8 | 1–10 | medium | [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|1]], [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
+| tAs | n=18 | 5–30 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|3]] |
+| tHg | n=12 | 1–10 | high | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
+| Ni | n=6 | 30–200 | medium | [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| Al | n=8 | 100–4000 | medium | [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| Cr | n=9 | 20–100 | medium | [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|1]], [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|2]], [[sources/mekonnen2024-ethiopia-fruit-metals\|3]] |
+| Sn | n=5 | 10–100 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -68,4 +84,45 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 27 | [[sources/oehha-cadmium-prop65-evidence-1996\|California Office of Environmental 1996]]. *Evidence on the Developmental and Reproductive Toxicity of Cadmium*, California Environmental Protection Agency, Office of Environmental Health Hazard Assessment | 1996 | Government report | California Prop 65 hazard identification for Cd reproductive/developmental toxicity; lists fruit among dietary Cd exposure pathways |
 | 28 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Operative Codex standard setting international maximum levels for Cd, Pb, and other contaminants in fruit and fruit products |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Singular "fruit" is the bridge node for infant-and-toddler-context fruit references; for the broader fruit category in adult diet, see [[ingredients/fruits]]. Both inherit the same plant-biological pathway: most plants sequester less Cd and Pb in their reproductive tissue (the fruit) than in leaves or roots, because metals would interfere with seed germination and offspring viability. Fruit metal loads are therefore generally low across the panel, with exceptions for apple-pesticide-history products and for surface-deposition contamination.
+
+In the infant-and-toddler context, "fruit" usually means fruit purees, fruit juices, and fruit-containing baby foods. The infant exposure pathway concentrates per-body-weight intake even when source-fruit concentrations are low, making fruit a relevant Cat 1 ingredient at infant scale despite being a low-priority commodity in adult-diet exposure calculations.
+
+The HMTc panel concerns for fruit in infant context are Pb (orchard-soil and atmospheric deposition pathways) and historical iAs in apple juice; in adult context the per-serving exposure is low across the panel.
+
+## Processing effects
+
+Fruit processing for puree, juice, dried, and frozen formats has the same effects as discussed at [[ingredients/fruits]]: peeling and washing remove surface contamination; juicing concentrates per-mass solids; drying concentrates per-mass dry-basis. For infant-and-toddler-specific products, [[products/fruit-purees]] addresses the regulatory and certification context.
+
+Cooking and pureeing for baby food do not change total per-mass metal load. Heat-treatment for shelf-stability does not affect the panel metals.
+
+## Ingredient-derivative risk
+
+Fruit derivatives in the infant-and-toddler context: fruit purees ([[products/fruit-purees]]), fruit-juice baby drinks ([[products/fruit-juice-not-canned]]), teething biscuits and fruit-puree pouches. Each inherits the source-fruit metal profile with processing-step adjustments.
+
+## Mitigation options
+
+Mitigation options for fruit in the infant context follow the broader fruits framework (see [[ingredients/fruits]]):
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) — single-origin sourcing, avoidance of legacy-pesticide-orchard areas.
+
+**Agronomic levers** ([[mitigation/agronomic]]) — orchard-level soil management.
+
+**Processing levers** ([[mitigation/processing]]) — washing, peeling, juice-yield management for the infant-targeted product line.
+
+**Formulation levers** ([[mitigation/formulation]]) — species choice and fruit-percentage adjustment in compounded infant fruit products.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) — particularly important for infant-targeted fruit products given the lower regulatory tolerance and the higher per-body-weight infant intake. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) — pouch and jar material specifications for infant fruit purees.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets specific Pb maximum levels for infant and young-child fruit-based foods, with the infant-fruit ML lower than the general adult-fruit ML.
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action levels for processed baby foods include fruit-puree categories at 10 ppb Pb.
+- [[regulations/codex-cadmium-mls]] — Codex Cd ML framework.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant-targeted fruit products yields a more stringent per-serving screen than for adult-targeted equivalents.
+
 

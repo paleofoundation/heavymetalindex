@@ -7,7 +7,7 @@ year: 2013
 publication: "U.S. Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Analytical%20Results%20from%20Inorganic%20Arsenic%20in%20Rice%20and%20Rice%20Products%20Sampling%2C%20September%202013
+access_url: "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements"
 source_type: government-regulatory
 evidence_tier: A
 license: "public-domain-us-government"
@@ -16,7 +16,7 @@ sha256: a505b8708ba5177d8fd21b0703120c829f9f4a60758c378ff1114f30c8c9cafd
 access_date: 2026-05-12
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]", "[[products/rice-snacks-crackers]]", "[[products/rice-beverages-rice-milk]]"]
 matrices: [white-rice, brown-rice, basmati-rice, parboiled-rice, rice-products, infant-rice-cereal, rice-protein-powder, rice-cakes, rice-beverages]
 jurisdictions: [US]
 sample_n: 1300

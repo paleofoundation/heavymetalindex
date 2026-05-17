@@ -6,16 +6,15 @@ title: "Metals and Metalloids Accumulation and Biomagnification in Three Commerc
 authors: [Balzani P, Kurtul I, Köse E, Aksu S, Emiroğlu Ö, Aksun Tümerkan ET, Başkurt S, Mol O, Çınar E, Tarkan AS]
 year: 2026
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Metals%20and%20Metalloids%20Accumulation%20and%20Biomagnification%20in%20Three%20Commercially%20Important%20Fishes%20from%20a%20Turkish%20Brackish%20Lake
+doi: "10.1007/s00128-026-04187-1"
+access_url: "https://doi.org/10.1007/s00128-026-04187-1"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_12904875/FM_12904875.md
 metals: [tAs, Pb, Cr, Ni]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [fish-muscle, seafood]
 jurisdictions: [TR]
 near_duplicates: []

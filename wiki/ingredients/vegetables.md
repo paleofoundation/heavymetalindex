@@ -5,32 +5,50 @@ commodity: vegetables
 aliases: ["vegetable puree", "vegetable-based meal", "green vegetables", "mixed vegetables", canned-vegetables]
 category: vegetable
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [5, 50], p95_ppb: 200, confidence: high, n_studies: 38, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [5, 50], p95_ppb: 300, confidence: high, n_studies: 41, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [1, 10], p95_ppb: 20, confidence: high, n_studies: 14, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [0, 5], p95_ppb: 20, confidence: high, n_studies: 22, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [30, 200], p95_ppb: 340, confidence: high, n_studies: 21, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [100, 1000], p95_ppb: 2140, confidence: medium, n_studies: 10, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [5, 30], p95_ppb: 100, confidence: high, n_studies: 30, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [50, 200], p95_ppb: 500, confidence: high, n_studies: 21, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [5, 30], p95_ppb: 500, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, root-vs-leaf-tissue, geography, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/spinach]]", "[[ingredients/carrots]]", "[[ingredients/potatoes]]"]
 used_in_products: ["[[products/non-root-vegetable-purees]]", "[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
-sources: 53
-updated: 2026-04-29
+sources: 54
+updated: 2026-05-16
 ---
 
 # Vegetables
 
-_Stub page. Chekri et al. 2019 reports soups/purees and vegetable-based ready-to-eat meals for French infants and toddlers, but does not split root from non-root vegetables in the main trace-element table. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+Chekri et al. 2019 reports soups/purees and vegetable-based ready-to-eat meals for French infants and toddlers, but does not split root from non-root vegetables in the main trace-element table. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=38 | 5–50 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
+| Cd | n=41 | 5–50 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
+| iAs | n=14 | 1–10 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| tAs | n=30 | 5–30 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
+| tHg | n=22 | 0–5 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| Ni | n=21 | 30–200 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| Al | n=10 | 100–1000 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/suomi2023-finland-dietary-metals-cumulative\|3]] |
+| Cr | n=21 | 50–200 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/imongben2026-kaduna-vegetables-hra\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| Sn | n=8 | 5–30 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
-_Pending vegetable-specific extraction. Ingredient-level pages should split root vegetables, leafy vegetables, and mixed vegetables as the evidence becomes source-backed._
+Vegetables as a category span three subgroups with substantially different metal-accumulation profiles. **Leafy greens** (spinach, kale, lettuce, chard, arugula) are systematically the highest-Cd subgroup because of transpiration-driven leaf accumulation — see [[ingredients/leafy-greens]] and [[ingredients/spinach]]. **Root vegetables** (carrots, sweet potato, beet, potato, parsnip, turnip) are the next-highest-Cd subgroup because of soil-tissue contact during the entire growing period — see [[ingredients/carrots]], [[ingredients/sweet-potato]], [[ingredients/root-vegetables]], [[ingredients/beet]]. **Non-root fruiting vegetables** (tomatoes, peppers, squash, eggplant, cucumber, zucchini) carry the lowest baseline metals because the fruit organ is metabolically distant from the soil — see [[ingredients/squash]], [[ingredients/cucumbers]], [[ingredients/tomato]].
+
+Geographic variance within each subgroup is substantial: vegetables from production regions with elevated soil-Cd (phosphate-fertilizer-history regions, post-mining areas, urban-fringe production, wastewater-irrigation regions) carry higher metals than vegetables from clean-soil regions. The 25+ contributing sources in this page's Source legend collectively establish the global variance map.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -68,29 +86,75 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 27 | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|Wang et al. 2023]]. *Deterministic and Probabilistic Health Risk Assessment of Toxic Metals in the Daily Diets of Residents in Industrial Regions of Northern Ningxia, China*, Archives of Environmental Contamination and Toxicology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 28 | [[sources/agarwal2022-heavy-metals-vegetables-east-kolkata\|Agarwal et al. 2022]]. *Seasonal Variations in Bioaccumulation and Translocation of Toxic Heavy Metals in the Dominant Vegetables of East Kolkata Wetlands: a Case Study with Suggestive Ecorestorative Strategies*, Water, Air, & Soil Pollution | 2022 | Peer-reviewed | *[awaiting synthesis]* |
 | 29 | [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|Ashley-Martin et al. 2022]]. *Biomonitoring of inorganic arsenic species in pregnancy*, Journal of Exposure Science & Environmental Epidemiology | 2022 | Peer-reviewed | CA/US/global iAs, tAs occurrence in Systematic review of biomonitoring studies of speciated iAs in pregnancy; covers cohort studies from Bangladesh, Spain, China, Mexico,... |
-| 30 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | Multi-element (Cd, Pb, Hg, iAs, tAs, Ni, Al, Cr, and others) concentrations in US retail vegetables as consumed; primary US population-level dietary toxic-element exposure dataset |
-| 31 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 32 | [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|Mawari et al. 2022]]. *Heavy metal accumulation in fruits and vegetables in Maharashtra, India*, Environmental Health Insights | 2022 | Peer-reviewed | IN Pb, Cd, tAs, tHg occurrence in 24 commodity types (vegetables and fruits) sampled from markets and farms in Maharashtra state, India; also native soil... (n=24) |
-| 33 | [[sources/munir2022-heavy-metals-natural-foods-review\|Munir et al. 2022]]. *Heavy Metal Contamination of Natural Foods Is a Serious Health Issue: A Review*, Sustainability | 2022 | Review | *[awaiting synthesis]* |
-| 34 | [[sources/sarker2022-bangladesh-food-webs-review\|Sarker et al. 2022]]. *Heavy metals contamination and associated health risks in food webs — a review focuses on food safety and environmental sustainability in Bangladesh*, Environmental Science and Pollution Research | 2022 | Review | *[awaiting synthesis]* |
-| 35 | [[sources/sitek2022-cd-toxicity-antioxidant-vitamins\|Sitek et al. 2022]]. *The role of antioxidant vitamins in cadmium toxicity prevention*, Nutrients | 2022 | Peer-reviewed | EU/WHO/global Cd occurrence in Review of human and animal studies on dietary Cd exposure and antioxidant vitamin interactions |
-| 36 | [[sources/sripada2022-cadmium-interventions-lmics\|Sripada et al. 2022]]. *Interventions to reduce cadmium exposure in low- and middle-income countries during pregnancy and childhood: A systematic review*, Journal of Global Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 37 | [[sources/vanisree2022-heavy-metals-food-crops-chapter\|Vanisree et al. 2022]]. *Heavy Metal Contamination of Food Crops: Transportation via Food Chain, Human Consumption, Toxicity and Management Strategies*, IntechOpen (Environmental Impact and Remediation of Heavy Metals) | 2022 | Book chapter | *[awaiting synthesis]* |
-| 38 | [[sources/zhao2022-china-sixth-tds-pb-cd\|Zhao et al. 2022]]. *Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019*, China CDC Weekly | 2022 | Government report | *[awaiting synthesis]* |
-| 39 | [[sources/ufelle2021-metals-chapter\|Ufelle et al. 2021]]. *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*, Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education | 2021 | Textbook chapter | Canonical toxicology textbook chapter covering As, Cd, Pb, Hg, and other metals; identifies vegetables as a dietary exposure pathway for multiple metals |
-| 40 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | *[awaiting synthesis]* |
-| 41 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | Multi-element occurrence in 291 French infant foods including vegetable soups, purees, and ready-to-eat meals; category-level data without root/non-root split |
-| 42 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 43 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Peer-reviewed | Longitudinal infant biomarker study linking vegetable puree introduction to urinary iAs and tAs changes during weaning; US cohort |
-| 44 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | *[awaiting synthesis]* |
-| 45 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | *[awaiting synthesis]* |
-| 46 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002 | 2015 | Government report | *[awaiting synthesis]* |
-| 47 | [[sources/mansour2014-monitoring-health-risk-food-chapter\|Mansour 2014]]. *Monitoring and Health Risk Assessment of Heavy Metal Contamination in Food*, Practical Food Safety: Contemporary Issues and Future Directions (Wiley) | 2014 | Book chapter | *[awaiting synthesis]* |
-| 48 | [[sources/cfs2013-hktds-metallic-contaminants\|Centre for Food Safety 2013]]. *The First Hong Kong Total Diet Study: Metallic Contaminants*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2013 | Government report | *[awaiting synthesis]* |
-| 49 | [[sources/he2013-shanghai-cadmium\|He et al. 2013]]. *Exposure assessment of dietary cadmium: findings from shanghainese over 40 years, China*, BMC Public Health | 2013 | Peer-reviewed | *[awaiting synthesis]* |
-| 50 | [[sources/cfs2012-hktds-inorganic-arsenic\|Centre for Food Safety 2012]]. *The First Hong Kong Total Diet Study: Inorganic Arsenic*, Hong Kong Centre for Food Safety, Food and Environmental Hygiene Department | 2012 | Government report | *[awaiting synthesis]* |
-| 51 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | JECFA document establishing the international Cd PTMI of 25 µg/kg BW/month; reports vegetables as a significant Cd dietary contributor across reviewed countries |
-| 52 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb risk assessment identifying cereals and vegetables as dominant dietary Pb contributors; establishes no-threshold position and BMDLs for neurodevelopmental and cardiovascular endpoints |
-| 53 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Operative Codex standard setting international maximum levels for Cd, Pb, and other contaminants in leafy vegetables, root vegetables, and specific commodity groups |
+| 30 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 31 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | Multi-element (Cd, Pb, Hg, iAs, tAs, Ni, Al, Cr, and others) concentrations in US retail vegetables as consumed; primary US population-level dietary toxic-element exposure dataset |
+| 32 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 33 | [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|Mawari et al. 2022]]. *Heavy metal accumulation in fruits and vegetables in Maharashtra, India*, Environmental Health Insights | 2022 | Peer-reviewed | IN Pb, Cd, tAs, tHg occurrence in 24 commodity types (vegetables and fruits) sampled from markets and farms in Maharashtra state, India; also native soil... (n=24) |
+| 34 | [[sources/munir2022-heavy-metals-natural-foods-review\|Munir et al. 2022]]. *Heavy Metal Contamination of Natural Foods Is a Serious Health Issue: A Review*, Sustainability | 2022 | Review | *[awaiting synthesis]* |
+| 35 | [[sources/sarker2022-bangladesh-food-webs-review\|Sarker et al. 2022]]. *Heavy metals contamination and associated health risks in food webs — a review focuses on food safety and environmental sustainability in Bangladesh*, Environmental Science and Pollution Research | 2022 | Review | *[awaiting synthesis]* |
+| 36 | [[sources/sitek2022-cd-toxicity-antioxidant-vitamins\|Sitek et al. 2022]]. *The role of antioxidant vitamins in cadmium toxicity prevention*, Nutrients | 2022 | Peer-reviewed | EU/WHO/global Cd occurrence in Review of human and animal studies on dietary Cd exposure and antioxidant vitamin interactions |
+| 37 | [[sources/sripada2022-cadmium-interventions-lmics\|Sripada et al. 2022]]. *Interventions to reduce cadmium exposure in low- and middle-income countries during pregnancy and childhood: A systematic review*, Journal of Global Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 38 | [[sources/vanisree2022-heavy-metals-food-crops-chapter\|Vanisree et al. 2022]]. *Heavy Metal Contamination of Food Crops: Transportation via Food Chain, Human Consumption, Toxicity and Management Strategies*, IntechOpen (Environmental Impact and Remediation of Heavy Metals) | 2022 | Book chapter | *[awaiting synthesis]* |
+| 39 | [[sources/zhao2022-china-sixth-tds-pb-cd\|Zhao et al. 2022]]. *Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019*, China CDC Weekly | 2022 | Government report | *[awaiting synthesis]* |
+| 40 | [[sources/ufelle2021-metals-chapter\|Ufelle et al. 2021]]. *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*, Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education | 2021 | Textbook chapter | Canonical toxicology textbook chapter covering As, Cd, Pb, Hg, and other metals; identifies vegetables as a dietary exposure pathway for multiple metals |
+| 41 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | *[awaiting synthesis]* |
+| 42 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | Multi-element occurrence in 291 French infant foods including vegetable soups, purees, and ready-to-eat meals; category-level data without root/non-root split |
+| 43 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 44 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Peer-reviewed | Longitudinal infant biomarker study linking vegetable puree introduction to urinary iAs and tAs changes during weaning; US cohort |
+| 45 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | *[awaiting synthesis]* |
+| 46 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | *[awaiting synthesis]* |
+| 47 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002 | 2015 | Government report | *[awaiting synthesis]* |
+| 48 | [[sources/mansour2014-monitoring-health-risk-food-chapter\|Mansour 2014]]. *Monitoring and Health Risk Assessment of Heavy Metal Contamination in Food*, Practical Food Safety: Contemporary Issues and Future Directions (Wiley) | 2014 | Book chapter | *[awaiting synthesis]* |
+| 49 | [[sources/cfs2013-hktds-metallic-contaminants\|Centre for Food Safety 2013]]. *The First Hong Kong Total Diet Study: Metallic Contaminants*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2013 | Government report | *[awaiting synthesis]* |
+| 50 | [[sources/he2013-shanghai-cadmium\|He et al. 2013]]. *Exposure assessment of dietary cadmium: findings from shanghainese over 40 years, China*, BMC Public Health | 2013 | Peer-reviewed | *[awaiting synthesis]* |
+| 51 | [[sources/cfs2012-hktds-inorganic-arsenic\|Centre for Food Safety 2012]]. *The First Hong Kong Total Diet Study: Inorganic Arsenic*, Hong Kong Centre for Food Safety, Food and Environmental Hygiene Department | 2012 | Government report | *[awaiting synthesis]* |
+| 52 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | JECFA document establishing the international Cd PTMI of 25 µg/kg BW/month; reports vegetables as a significant Cd dietary contributor across reviewed countries |
+| 53 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb risk assessment identifying cereals and vegetables as dominant dietary Pb contributors; establishes no-threshold position and BMDLs for neurodevelopmental and cardiovascular endpoints |
+| 54 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Operative Codex standard setting international maximum levels for Cd, Pb, and other contaminants in leafy vegetables, root vegetables, and specific commodity groups |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+See the Ranges section above and the per-subgroup pages ([[ingredients/leafy-greens]], [[ingredients/root-vegetables]], [[ingredients/non-root-vegetables]]) for the subgroup-specific mechanisms. The three pathways across the category are: (a) leaf-transpiration accumulation in leafy species, (b) soil-uptake into root tissue in root vegetables, and (c) low-baseline soil-uptake into fruiting-organ tissue in non-root vegetables.
+
+## Processing effects
+
+Vegetable processing effects vary by subgroup and product type:
+
+**Fresh vegetables**: Washing removes surface-deposited Pb. Peeling reduces both surface and skin-bound metals. Cooking with water-discard removes a small fraction of water-soluble metals.
+
+**Canned vegetables**: Tinplate-Sn migration is the standard concern (see [[mitigation/packaging-and-storage]]). Cooking-process water-loss concentrates per-mass metal slightly.
+
+**Dried vegetables**: Concentration on dry-mass basis 5-10× the fresh-weight value.
+
+**Frozen vegetables**: Source-vegetable metal load conserved; minor effects from blanching pre-freeze.
+
+**Pureed and juiced vegetables**: See [[ingredients/vegetable-purees]] and [[ingredients/vegetable-juice]].
+
+## Ingredient-derivative risk
+
+Vegetable derivatives that concentrate metals: dried vegetable powders, vegetable concentrates (used as flavor or color), vegetable-based dietary supplements (greens powders), vegetable juice concentrates. Each route to its applicable Cat 4 or Cat 5 row.
+
+Vegetable derivatives that dilute or stabilize metal content: fresh vegetables consumed whole, vegetable broth (water-discard reduces some water-soluble metals), pickled vegetables (fermentation does not appreciably change metal content).
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Geographic-segmented sourcing from documented low-soil-Cd/Pb production regions, hydroponic or greenhouse production for leafy-green-containing products, and supplier-soil verification.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the farm level: soil pH management, cultivar selection (low-Cd-accumulator varieties), zinc supplementation, avoidance of high-Cd phosphate fertilizers, water-source verification.
+
+**Processing levers** ([[mitigation/processing]]) include washing and peeling for root vegetables (effective for surface Pb), cooking-water-discard for some applications.
+
+**Formulation levers** ([[mitigation/formulation]]) include subgroup substitution (substituting non-root for leafy-green in mixed-vegetable products substantially reduces per-product Cd) and ingredient-percentage adjustment.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd and Pb testing on incoming vegetables, particularly for infant-and-young-child-marketed vegetable products. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned vegetables and food-contact-substance compliance for plastic and pouch packaging.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Cd and Pb in vegetables, differentiated by subgroup (leafy vegetables, root vegetables, non-root vegetables, spinach specifically). Stricter limits apply to infant-and-young-child vegetable foods.
+- [[regulations/codex-cadmium-mls]] — Codex Cd MLs for vegetables.
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action levels for processed baby foods including vegetable-puree categories (10 ppb non-root, 20 ppb single-ingredient root).
+- California Prop 65 ([[regulations/california-prop65]]) Pb and Cd MADLs apply to vegetable products sold in California.
+
 

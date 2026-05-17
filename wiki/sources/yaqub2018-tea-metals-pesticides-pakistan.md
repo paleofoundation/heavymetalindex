@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1590/fst.07417"
 metals: [Zn, Cr, Cu, Mn, Co]
 ingredients: ["[[ingredients/camellia-sinensis]]"]
-products: []
+products: ["[[products/tea]]"]
 matrices: [tea-leaves, tea-dry]
 jurisdictions: [PK]
 sample_n: 77

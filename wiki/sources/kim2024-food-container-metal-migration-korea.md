@@ -6,9 +6,8 @@ title: "Potential migration of heavy metals from food containers and health risk
 authors: [Kim]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Potential%20migration%20of%20heavy%20metals%20from%20food%20containers%20and%20health%20risk%20assessment
+doi: "10.3390/ijerph21020139"
+access_url: "https://doi.org/10.3390/ijerph21020139"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

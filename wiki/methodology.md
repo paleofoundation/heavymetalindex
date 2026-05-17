@@ -12,6 +12,8 @@ This page describes how the Heavy Metal Index is built. It is the first page sop
 
 The Heavy Metal Index is in pre-launch development. The methodology described below reflects the intended final state. Sections that remain under construction are marked as such. A publicly verifiable quality-assurance audit with error-rate statistics will precede the move from pre-launch to general availability.
 
+The wiki's PRISMA-equivalent — corpus universe, source-page promotion counts, taxonomy coverage by HMTc category, and the explicit naming of what remains to be ingested — is published at [[coverage]] and auto-regenerated on every build from on-disk data. The page is the transparency surface for reading "what fraction of the literature has been promoted to the Index" and "which HMTc subcategories have a scaffolded destination page." Brand legal, regulatory affairs, and external reviewers landing on the wiki should consult that page before treating any per-page claim as a statement about the field as a whole.
+
 ## Scope
 
 Coverage is scoped to lead, cadmium, inorganic and total arsenic, methylmercury and total mercury, nickel, aluminum, chromium, and tin, as these metals occur in food, food ingredients, supply-chain inputs (soil, water, fertilizers, equipment, packaging), remediation approaches, and governing regulatory instruments. Clinical metallomics in medicine, occupational exposure in industrial settings, and environmental exposure outside the food system are out of scope; a substantial portion of that material lives at [WikiBiome](https://wikibiome.com).

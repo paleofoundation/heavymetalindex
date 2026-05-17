@@ -6,15 +6,14 @@ title: "LAEP-OES validation for total mercury in tuna and fish from Japanese mar
 authors: [Yamashita]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=LAEP-OES%20validation%20for%20total%20mercury%20in%20tuna%20and%20fish%20from%20Japanese%20markets
+doi: "10.1093/jaoacint/qsae053"
+access_url: "https://doi.org/10.1093/jaoacint/qsae053"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11532634/FM_11532634.md
 metals: [tHg]
-products: []
+products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 matrices: [seafood, fish]
 jurisdictions: [JP]

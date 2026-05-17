@@ -15,8 +15,7 @@ updated: 2026-04-29
 
 # Glucose Solutions
 
-_Stub page. This bridge node exists because Dabeka et al. 2011 measured 5% glucose solutions alongside infant formulae and oral electrolytes. These products are not one of the locked HMTc Category 1 infant-food rows, but they are relevant to infant exposure context._
-
+This bridge node exists because Dabeka et al. 2011 measured 5% glucose solutions alongside infant formulae and oral electrolytes. These products are not one of the locked HMTc Category 1 infant-food rows, but they are relevant to infant exposure context.
 ## Who this page is for
 
 <!-- BEGIN: hmi-stakeholder-guide -->
@@ -42,7 +41,7 @@ _Stub page. This bridge node exists because Dabeka et al. 2011 measured 5% gluco
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
     </div>
   </dl>
 </div>
@@ -50,7 +49,7 @@ _Stub page. This bridge node exists because Dabeka et al. 2011 measured 5% gluco
 
 ## Methodology
 
-This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in pediatric glucose solutions. It does not report HMT&C certification thresholds, percentile-selection arithmetic, or clean/dirty subcategory designations; those appear on the staff Standards Workbench at `/workbench/standards/glucose-solutions`.
+This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in pediatric glucose solutions. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
 
 **Speciation is non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes. Total mercury (tHg) and methylmercury (MeHg) are separate analytes. Total chromium (Cr) and hexavalent chromium (Cr-VI) are separate analytes. Values are never interchanged across speciation boundaries.
 
@@ -114,7 +113,7 @@ The levers below apply to pediatric glucose solutions. The product matrix is pre
 
 ## How standards math uses this page
 
-HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, candidate-cell verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/glucose-solutions`.
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Certification threshold decisions are made separately under the certification program and are not published on this public page.
 
 When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
 

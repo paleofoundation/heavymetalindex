@@ -13,7 +13,7 @@ license: "publisher-licensed (Elsevier; book chapter, not OA)"
 access_url: "https://doi.org/10.1016/B978-0-12-819265-8.00064-4"
 raw_path: "raw/external-fetch/Early-Life-Microbiota-Impact-of-Delivery-Mode-and-Infant-Feeding.pdf"
 metals: []
-products: []
+products: ["infant-formula"]
 matrices: [breast-milk, infant-formula, complementary-foods]
 jurisdictions: []
 sample_n: 0

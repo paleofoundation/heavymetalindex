@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.3389/fnut.2024.1366231"
 metals: [Pb, Cd, tAs]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
-products: []
+products: ["[[products/chocolate]]"]
 matrices: [dark-chocolate, cocoa-powder, cocoa-products]
 jurisdictions: [US]
 sample_n: 72

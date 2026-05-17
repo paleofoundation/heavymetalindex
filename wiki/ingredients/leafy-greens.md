@@ -7,87 +7,104 @@ aliases: [mustard-greens, watercress, water-spinach]
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 200]
+    p95_ppb: 610
+    confidence: high
+    n_studies: 19
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 150]
+    p95_ppb: 400
+    confidence: high
+    n_studies: 22
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [1, 15]
+    p95_ppb: 50
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [35, 560]
+    p95_ppb: 3465
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [1000, 50000]
+    p95_ppb: 150000
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 560]
+    p95_ppb: 1551
+    confidence: high
+    n_studies: 15
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0, 10]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 250]
+    p95_ppb: 410
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 29
 ---
 
 # Leafy Greens
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=19 | 5–200 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/chiutula2025-wastewater-vegetables-malawi\|3]] |
+| Cd | n=22 | 5–150 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/chiutula2025-wastewater-vegetables-malawi\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=11 | 5–250 | high | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| tHg | n=6 | 1–15 | medium | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|1]], [[sources/saleem2025-nd-vegetables-hra\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Ni | n=13 | 35–560 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-nd-vegetables-hra\|3]] |
+| Al | n=3 | 1000–50000 | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cr | n=15 | 10–560 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/saleem2025-nd-vegetables-hra\|3]] |
+| Sn | n=2 | 0–10 | low | [[sources/fera2015-uk-tds-metals\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -134,4 +151,51 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 28 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd and Pb in vegetables including leafy greens, the international reference limit applicable to this commodity category |
 | 29 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni concentration data across 2,221 food samples including leafy vegetables from the Danish dietary Ni survey, used as the Ni occurrence anchor for this page |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Leafy greens (spinach, lettuce, kale, chard, arugula, collard greens, amaranth, mustard greens, cabbage, watercress) concentrate cadmium and lead in their leaves through transpiration-driven translocation. Roots take up soil-Cd and soil-Pb into the xylem; transpiration pulls the xylem fluid up to the leaves, where evaporative water loss leaves the metals deposited in leaf tissue. Leafy species with high transpiration rates, short harvest cycles, and large leaf surface area (the morphology that defines a "leafy" vegetable) are systematically more efficient leaf-metal accumulators than fruiting vegetables or root vegetables of the same plant family. [[sources/efsa-cadmium-contam-2009|EFSA 2009]] places leafy vegetables broadly in the upper range of the produce-Cd category, and spinach specifically at the upper end of leafy greens; see [[ingredients/spinach]] for the contamination-platform-pair analysis.
+
+The dominant variance drivers within "leafy greens" as a category are soil Cd and Pb content, soil pH (acid soils mobilize more Cd into bioavailable forms), zinc and phosphorus status (zinc competes with Cd for plant uptake; phosphate fertilizers historically carried Cd as an impurity), and atmospheric deposition load (urban and roadside production sites can carry several-fold higher Pb than rural production). [[sources/adhikari2024-leafy-vegetables-johannesburg|Adhikari 2024]] documents the urban-vs-rural and roadside-vs-store Pb gap directly in 20 paired Johannesburg samples; [[sources/chiutula2025-wastewater-vegetables-malawi|Chiutula 2025]] documents the wastewater-irrigated vs clean-water gap in Malawi production.
+
+## Ranges by source, region, and variety
+
+The loaded corpus spans urban-vs-rural comparisons, roadside-vs-store comparisons, wastewater-irrigated-vs-clean-water comparisons, and seasonal (wet-vs-dry season) comparisons. The urban-and-roadside studies consistently show 2-3× Pb elevation relative to rural or large-store baseline ([[sources/adhikari2024-leafy-vegetables-johannesburg|Adhikari 2024]]). [[sources/armand2026-lettuce-cabbage-behbahan|Armand 2026]] reported lettuce and cabbage Pb and Cd above the EU 2023/915 fresh-vegetable maximum levels in a probabilistic Monte Carlo risk model for the Iranian Behbahan production area. Hong Kong's Total Diet Studies ([[sources/cfs2012-hktds-inorganic-arsenic|CFS 2012 iAs]] and [[sources/cfs2013-hktds-metallic-contaminants|CFS 2013 metals]]) provide the largest n (n=600 samples for the iAs study) and the most representative-distribution view; Hong Kong consistently shows leafy vegetables carrying detectable Pb, Cd, and tAs but generally at levels compliant with applicable caps. [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing 2025]] documents the post-cyclone organic vs non-organic comparison in New Zealand, with cyclone-disturbance affecting the contamination pattern. [[sources/saleem2025-nd-vegetables-hra|Saleem 2025]] documents the North-Dakota composite-vegetable Pb/Cd distribution from a human-health-risk-assessment perspective.
+
+Variety-level breakdowns by individual leafy species (spinach vs lettuce vs kale vs amaranth) are present in the corpus but are best read at the species pages. Spinach sits at the upper end of leafy-green Cd accumulation ([[ingredients/spinach]]); amaranth and certain mustard greens also accumulate Cd efficiently. Lettuce varieties show within-species variation driven by cultivar (loose-leaf vs head varieties differ in leaf surface area and transpiration rate).
+
+## Processing effects
+
+Washing leafy vegetables before consumption removes surface particulate Pb (the atmospheric-deposition pathway) but does not affect internalised Cd, Cr, or Ni. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora 2022]] demonstrated that vinegar rinses are not meaningfully more effective than water at removing internalised metals — they do remove surface contamination at roughly the same rate as plain water. Discarding outer leaves before consumption reduces per-serving Pb meaningfully when those outer leaves are the primary atmospheric-deposition target.
+
+Cooking by boiling leaches a fraction of internalised Cd and Cr into the cooking water; discarding the boiling water reduces per-serving exposure modestly. Drying for powder applications concentrates metals on a dry-weight basis (the dry-spinach-powder problem); supplement-grade leafy-vegetable powders carry metals at concentrations roughly 5-10× the fresh-weight value because water makes up 85-95 percent of fresh leafy mass. Fermentation (sauerkraut, kimchi) does not appreciably alter the metal load relative to the fresh starting material.
+
+## Ingredient-derivative risk
+
+Leafy-green-derived products that concentrate the metals include dried leaf powders (spinach powder, kale powder, moringa, wheatgrass), juice concentrates (cold-pressed greens juice concentrates that have water removed), and supplement-grade greens powders that are sold as dietary supplements per [[products/supplements-algae-seaweed-based|Cat 16 row 19]] or per [[products/supplements-botanicals-herbs|Cat 16 row 15]] depending on labeling. The metal load on these derivatives can be 5-10× the fresh-weight value; supplement-grade greens powders are a documented exposure pathway for chronic users.
+
+Frozen and canned leafy greens carry approximately the same metal load as fresh on an as-consumed basis after accounting for the water added in cooking/preparation. Baby-food spinach purees inherit the source spinach Cd directly; see [[ingredients/spinach]] for the Cat 1 baby-food infant-exposure analysis.
+
+## Mitigation options
+
+Leafy-green metal mitigation is dominated by sourcing and agronomic interventions; downstream processing has limited effect.
+
+**Sourcing levers** are the dominant brand-side intervention. Geographic-region selection (avoiding production areas with elevated soil Cd, areas with leaded-gasoline-era roadside contamination, areas with historic Pb-arsenate orchard or vineyard use, and areas with wastewater-irrigation history) is the largest single lever. Hydroponic and greenhouse production substantially reduces Cd because the nutrient solution is the controllable input; for HMTc-relevant supply chains targeting low-Cd leafy greens, hydroponic sourcing is a documented intervention. See [[mitigation/supply-chain-screening]] for the sourcing-screening framework.
+
+**Agronomic levers** ([[mitigation/agronomic]]) include soil pH management (liming to raise pH above 6 reduces Cd bioavailability), zinc supplementation under deficient soils (Zn competes with Cd for plant uptake), cultivar selection (low-Cd-accumulator varieties identified by breeding programs in several leafy species), avoidance of high-Cd phosphate fertilizers, and crop rotation away from historically contaminated fields. Quantified intervention magnitudes vary by site; the Cd-uptake reductions in the 30-60 percent range documented across multiple primary studies are achievable with liming alone at appropriate soil-pH starting points.
+
+**Processing levers** ([[mitigation/processing]]) are limited for leafy greens. Washing removes surface-deposited Pb (the atmospheric and dust pathway); boiling with cooking-water discard removes a small Cd fraction. The internalised leaf metal is not meaningfully reducible by processing.
+
+**Formulation levers** ([[mitigation/formulation]]) include species substitution (lower-Cd-accumulator species in mixed-greens products) and ingredient-percentage adjustment (lower leafy-green fraction in mixed-vegetable purees and baby-food pouches).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd and Pb screening at receiving, particularly on production-area lots flagged as elevated-risk. See [[testing/icp-ms]] for the analytical method.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not consequential for leafy-green Cd/Pb because the metals are bound in leaf tissue and do not migrate to packaging.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in vegetables differentiated by category. Leafy vegetables have a distinct Cd ML (higher than non-leafy vegetables because leafy species accumulate Cd more efficiently); spinach has a further specific Cd ML.
+- [[regulations/codex-cadmium-mls]] — Codex Alimentarius maximum levels for Cd in leafy vegetables (CXS 193-1995 amendments).
+- FDA action levels for processed baby foods covering Pb in vegetable purees (relevant for leafy-green-containing baby-food products); see [[regulations/fda2025-lead-processed-baby-foods]].
+- California Prop 65 ([[regulations/california-prop65]]) applies to Pb and Cd cumulative-exposure calculations for leafy-green-containing consumer products sold in California; the MADL/NSRL serving-based screen is the operational tool.
+
 

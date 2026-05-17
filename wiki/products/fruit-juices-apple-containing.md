@@ -17,7 +17,7 @@ review_state: phase3
 hmtc_threshold_status: at_bar_iAs_dirty_p30
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 6
+sources: 12
 ---
 
 # Fruit Juices, Apple-Containing
@@ -49,7 +49,7 @@ This page is HMTc Category 5 row 2 from the locked beverage architecture. It exi
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, candidate-cell status) lives on the staff workbench snapshot at <a href="/workbench/standards/fruit-juices-apple-containing">/workbench/standards/fruit-juices-apple-containing</a>, not on this public page.</dd>
+      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
     </div>
   </dl>
 </div>
@@ -73,7 +73,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Low: 1–2 sources. Medium: 3–10 sources. High: more than 10 sources.
 
-**Standards-program math sits elsewhere.** Percentile selection and final certification threshold decisions are tracked in the HMT&C staff workbench and are not published on this page.
+**HMT&C threshold-setting is separate.** HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
 
 ## Decision Snapshot
 
@@ -123,7 +123,7 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in apple-containing fruit juice. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in apple-containing fruit juice. Values are pulled directly from cited sources without re-aggregation. Aggregation, comparability review, and HMT&C certification threshold decisions are handled separately under the certification program; see the [methodology](/methodology) for the wiki/HMT&C separation.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -161,7 +161,7 @@ Cross-links: [[ingredients/apple-juice]] if it exists; relevant mitigation pages
 
 This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
 
-Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as the p90 or p95 of the fitted distribution across the full source pool. Percentile selection, clean/dirty subcategory designation, and final HMT&C certification threshold decisions are tracked in the staff Standards Workbench, rebuilt from the routing audit when new sources are added.
+Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as a representative value across the full source pool. HMT&C certification threshold decisions are made separately under the certification program and are not published on this public page.
 
 ## Historical recalls and enforcement
 
@@ -176,12 +176,18 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS multi-element dataset (FY2018–FY2020) covering apple juice composites; provides Pb, Cd, tAs, iAs, and Ni occurrence data for apple-containing juice in the US diet |
-| 2 | [[sources/fda2018-lead-in-juice-fy2005-fy2018\|FDA 2018]]. *Analytical Results for Lead in Juice Sampled Under the FDA's Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic Compliance Program (FY2005-FY2018)*, FDA analytical results table | 2018 | Government dataset | FDA compliance-program Pb dataset for 1,643 juice samples (FY2005–FY2018) including apple and apple-mixed juices; primary Pb occurrence source for this row across a 13-year US sampling window |
-| 3 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | B-tier Indonesian study examining factors affecting Sn release in canned beverages including canned apple juice; provides mechanistic context for Sn leaching into canned apple-containing juice formats |
-| 4 | [[sources/fda2011-apple-juice-arsenic-speciation\|FDA 2011]]. *Results of Arsenic Analysis in Single-Strength Apple Juice 2011 (ORA Sampling Assignment 2011102701)*, U.S. Food and Drug Administration | 2011 | Government dataset | FDA 2011 ORA apple-juice sampling assignment reporting iAs, DMA, MMA, and tAs in 94 single-strength apple juice samples; primary iAs speciation source for the apple-containing juice row |
-| 5 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, ATSDR | 2005 | Government report | ATSDR toxicological profile for Sn documenting occurrence data in canned apple juice and other canned fruit products; provides regulatory and hazard-characterisation context for Sn in apple-containing canned juice |
-| 6 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | Historical UK study documenting Sn toxicity in canned fruit juices; provides early evidence of Sn leaching as a food-contact hazard mechanism relevant to canned apple-containing juice formats |
+| 1 | [[sources/paudel2024-packaged-fruit-juices-nepal\|Paudel et al. 2024]]. *Analysis and Detection of Heavy Metals Content in Some Selected Packaged Fruit Juices of Kathmandu City by Flame Atomic Absorption Spectroscopy*, International Journal of Applied Sciences and Biotechnology | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/fda2023-ias-apple-juice-guidance\|FDA 2023]]. *Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry*, U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition | 2023 | Government guidance | *[awaiting synthesis]* |
+| 3 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS multi-element dataset (FY2018–FY2020) covering apple juice composites; provides Pb, Cd, tAs, iAs, and Ni occurrence data for apple-containing juice in the US diet |
+| 4 | [[sources/fda2018-lead-in-juice-fy2005-fy2018\|FDA 2018]]. *Analytical Results for Lead in Juice Sampled Under the FDA's Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic Compliance Program (FY2005-FY2018)*, FDA analytical results table | 2018 | Government dataset | FDA compliance-program Pb dataset for 1,643 juice samples (FY2005–FY2018) including apple and apple-mixed juices; primary Pb occurrence source for this row across a 13-year US sampling window |
+| 5 | [[sources/llorente-mirandes2016-ias-food-analytical-review\|Llorente-Mirandes et al. 2016]]. *Inorganic Arsenic Determination in Food: A Review of Analytical Proposals and Quality Assessment Over the Last Six Years*, Applied Spectroscopy | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | B-tier Indonesian study examining factors affecting Sn release in canned beverages including canned apple juice; provides mechanistic context for Sn leaching into canned apple-containing juice formats |
+| 7 | [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|Zealand 2012]]. *Survey of total arsenic and inorganic arsenic in apple and pear juice*, Food Standards Australia New Zealand (government survey report) | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|Magdas et al. 2012]]. *Isotopic and Elemental Determination in Some Romanian Apple Fruit Juices*, The Scientific World Journal | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/fda2011-apple-juice-arsenic-speciation\|FDA 2011]]. *Results of Arsenic Analysis in Single-Strength Apple Juice 2011 (ORA Sampling Assignment 2011102701)*, U.S. Food and Drug Administration | 2011 | Government dataset | FDA 2011 ORA apple-juice sampling assignment reporting iAs, DMA, MMA, and tAs in 94 single-strength apple juice samples; primary iAs speciation source for the apple-containing juice row |
+| 10 | [[sources/fda2011-arsenic-apple-juice-2005-2011\|FDA 2011]]. *Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program*, US Food and Drug Administration | 2011 | Government dataset | *[awaiting synthesis]* |
+| 11 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, ATSDR | 2005 | Government report | ATSDR toxicological profile for Sn documenting occurrence data in canned apple juice and other canned fruit products; provides regulatory and hazard-characterisation context for Sn in apple-containing canned juice |
+| 12 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | Historical UK study documenting Sn toxicity in canned fruit juices; provides early evidence of Sn leaching as a food-contact hazard mechanism relevant to canned apple-containing juice formats |
 <!-- END: hmi-source-legend -->
 
 ## CC candidate evidence map

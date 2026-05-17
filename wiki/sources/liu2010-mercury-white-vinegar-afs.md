@@ -13,7 +13,7 @@ license: "All rights reserved"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Direct determination of mercury in white vinegar by matrix assist.pdf"
 metals: [tHg]
 ingredients: ["[[ingredients/vinegar]]"]
-products: []
+products: ["[[products/vinegar]]"]
 matrices: [white-vinegar, vinegar]
 jurisdictions: [CN]
 near_duplicates: []

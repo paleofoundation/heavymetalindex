@@ -15,7 +15,7 @@ license: "Government publication"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0135_Organotin compounds in aquatic products available at l.pdf"
 metals: [Sn]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/crustaceans]]", "[[ingredients/molluscs]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: [fish, crustaceans, molluscs, seafood]
 jurisdictions: [HK]
 sample_n: 341

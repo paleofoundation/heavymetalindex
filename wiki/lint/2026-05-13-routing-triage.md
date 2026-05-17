@@ -4,6 +4,7 @@ date: 2026-05-13
 op: routing-triage
 scope: data/evidence/routing_unresolved.csv
 status: complete
+noindex: true
 ---
 
 # Routing Triage — 2026-05-13

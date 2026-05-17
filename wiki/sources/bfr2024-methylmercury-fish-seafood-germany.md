@@ -13,7 +13,7 @@ license: "BfR open publication"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0145_Methylmercury in fish and seafood - health risk assess.pdf"
 metals: [MeHg, tHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/tuna]]", "[[ingredients/salmon]]", "[[ingredients/herring]]", "[[ingredients/seafood]]"]
-products: ["[[products/canned-fish]]"]
+products: ["[[products/canned-fish]]", "[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: [fish, seafood, ready-to-eat-fish, canned-fish]
 jurisdictions: [DE, EU]
 sample_n: null

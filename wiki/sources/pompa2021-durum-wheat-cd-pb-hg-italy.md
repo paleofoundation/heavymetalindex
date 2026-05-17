@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.3390/foods10040775"
 metals: [Cd, Pb, tHg]
 ingredients: ["[[ingredients/wheat]]"]
-products: []
+products: ["[[products/flour-non-rice]]"]
 matrices: [durum-wheat-grain]
 jurisdictions: [IT, AU, CA, KZ, RU, TR, US, EU]
 sample_n: 346

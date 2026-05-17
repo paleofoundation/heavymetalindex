@@ -5,17 +5,16 @@ cite_key: zhang2017-red-raspberry-nutrient-profile
 title: "Characterization of the nutrient profile of processed red raspberries for use in nutrition labeling and promoting healthy food choices"
 authors: [Zhang X, Ahuja JKC, Burton-Freeman BM]
 year: 2017
-publication: "Journal of Food Composition and Analysis"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Characterization%20of%20the%20nutrient%20profile%20of%20processed%20red%20raspberries%20for%20use%20in%20nutrition%20labeling%20and%20promoting%20healthy%20food%20choices
+publication: "Nutrition and Healthy Aging"
+doi: "10.3233/nha-190072"
+access_url: "https://doi.org/10.3233/nha-190072"
 source_type: peer-reviewed
 evidence_tier: B
 license: unknown
 raw_path: raw/markdown/FM_6974958/FM_6974958.md
 metals: []
 ingredients: ["[[ingredients/fruit]]"]
-products: []
+products: ["[[products/mixed-meals-non-rice]]"]
 matrices: [food, processed-food]
 jurisdictions: [US]
 near_duplicates: []

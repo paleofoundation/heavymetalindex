@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11213769/FM_11213769.md
 metals: [tHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [fish-tissue, seafood, biota]
 jurisdictions: [AG, BZ, GT, GY, HN, KN, LC, SR, TT, VC, Caribbean]
 near_duplicates: []

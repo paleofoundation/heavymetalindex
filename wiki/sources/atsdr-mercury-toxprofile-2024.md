@@ -7,7 +7,7 @@ year: 2024
 publication: "U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Toxicological%20Profile%20for%20Mercury
+access_url: "https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/ATSDR_Mercury_ToxProfile.pdf

@@ -16,7 +16,7 @@ public_evidence_label: Modeled or limited evidence
 review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 1
+sources: 2
 ---
 
 # Plant Milks (Almond, Oat, Coconut, Other Non-Soy/Non-Rice)
@@ -48,7 +48,7 @@ This page is HMTc Category 5 row 5. It remains a clean-benchmark candidate, but 
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
     </div>
   </dl>
 </div>
@@ -56,7 +56,7 @@ This page is HMTc Category 5 row 5. It remains a clean-benchmark candidate, but 
 
 ## Methodology
 
-This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in non-soy/non-rice plant milks (almond, oat, coconut, and other varieties). It does not report HMT&C certification thresholds, percentile-selection arithmetic, or clean/dirty subcategory designations; those appear on the staff Standards Workbench at `/workbench/standards/plant-milks-non-soy-non-rice`.
+This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in non-soy/non-rice plant milks (almond, oat, coconut, and other varieties). HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
 
 **Speciation is non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes. Total mercury (tHg) and methylmercury (MeHg) are separate analytes. Total chromium (Cr) and hexavalent chromium (Cr-VI) are separate analytes. Values are never interchanged across speciation boundaries.
 
@@ -114,7 +114,7 @@ Finished oat or almond beverage values belong on this product row. Ingredient-on
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-soy (cow milk-based) product. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-soy (cow milk-based) product. Values are pulled directly from cited sources without re-aggregation. Aggregation, comparability review, and HMT&C certification threshold decisions are handled separately under the certification program; see the [methodology](/methodology) for the wiki/HMT&C separation.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -163,7 +163,7 @@ The levers below are ordered by estimated impact magnitude for finished non-soy/
 
 ## How standards math uses this page
 
-HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, candidate-cell verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/plant-milks-non-soy-non-rice`.
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Certification threshold decisions are made separately under the certification program and are not published on this public page.
 
 When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
 

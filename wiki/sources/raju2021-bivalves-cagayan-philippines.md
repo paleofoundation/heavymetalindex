@@ -12,7 +12,7 @@ evidence_tier: B
 license: "CC BY-NC 4.0"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0171_Heavy metal determination of bivalves in Cagayan Valle.pdf"
 metals: [Pb, Cd]
-ingredients: ["[[ingredients/clams]]", "[[ingredients/mussels]]", "[[ingredients/bivalves]]"]
+ingredients: ["[[ingredients/clams]]", "[[ingredients/mussels]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]"]
 products: ["[[products/shellfish]]"]
 matrices: [bivalve-soft-tissue, freshwater-clam, marine-mussel]
 jurisdictions: [PH]

@@ -1,5 +1,10 @@
 ---
 type: product-category
+hmtc_row: 11
+hmtc_category: 2
+category_label: "Infant and Child Personal Care"
+age_range: "0-5"
+cat2_step0_alignment: 2026-05-16
 category: toothpaste
 title: "Toothpaste (Cat 2)"
 typical_ingredients: [fluoride, abrasive, humectant, surfactant, flavoring]
@@ -8,7 +13,7 @@ vulnerable_population: children-2-12yr-and-adults
 applicable_regulations: [washington-tfca-toothpaste-pb-1000ppb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 1
+sources: 2
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care
@@ -24,7 +29,7 @@ Brand legal teams evaluating Cat 2 certification for toothpaste lines need to kn
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — Cat 2 methodology supplement (in development per OPERATING.md Part 7 initiative 3.1) covers the modelling. The percentile-selection arithmetic that informs HMTc thresholds for toothpaste lives on the staff Standards Workbench; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — Cat 2 methodology supplement (in development per OPERATING.md Part 7 initiative 3.1) covers the modelling. HMT&C certification thresholds for toothpaste are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 ## Literature Evidence Summary
 
@@ -91,8 +96,9 @@ _Pending synthesis. Key public-record events:_
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky A et al. 2025]]. *Health risk implications of heavy metals in toothpaste*, Public Health and Toxicology 5(2):9 | 2025 | Peer-reviewed | Pb/Cd/Hg ADD and As LADD per-product exposure values for children 2-4yr and adults 20-35yr; HQ comparison against HGVs |
-
+| 1 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky et al. 2025]]. *Health risk implications of heavy metals in toothpaste*, Public Health and Toxicology 5(2):9 | 2025 | Peer-reviewed | Pb/Cd/Hg ADD and As LADD per-product exposure values for children 2-4yr and adults 20-35yr; HQ comparison against HGVs |
 <!-- END: hmi-source-legend -->

@@ -4,6 +4,7 @@ description: Routing audit for the locked HMTc Category 5 beverage Step 0 output
 audience: [researcher, regulator]
 updated: 2026-05-01
 sources: 0
+noindex: true
 ---
 
 # Category 5 Step 0 Beverage Taxonomy Ingest Audit

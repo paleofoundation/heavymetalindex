@@ -6,9 +6,8 @@ title: "Thermal Decomposition Amalgamation AAS and SALLE for Methylmercury and T
 authors: [Carter DO, Holsen TM, Bhavsar SP, Evans DW]
 year: 2025
 publication: null
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Thermal%20Decomposition%20Amalgamation%20AAS%20and%20SALLE%20for%20Methylmercury%20and%20Total%20Mercury%20in%20Finfish%3A%20FDA%20Method%20Validation
+doi: "10.1007/s00216-025-05989-8"
+access_url: "https://doi.org/10.1007/s00216-025-05989-8"
 source_type: peer-reviewed
 evidence_tier: A
 license: "US Government Work"

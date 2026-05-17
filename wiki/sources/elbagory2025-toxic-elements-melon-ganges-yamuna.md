@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Assessment of Potentially Toxic Elements in Four Melon Fruit Vari.pdf"
 metals: [Cd, Cr, Pb, tAs, Al]
 ingredients: ["[[ingredients/watermelon]]", "[[ingredients/muskmelon]]", "[[ingredients/cantaloupe]]"]
-products: []
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit, melon-pulp, watermelon, muskmelon, dry-weight]
 jurisdictions: [IN]
 near_duplicates: []

@@ -13,7 +13,7 @@ license: "paywalled — Karen-fetched copy on file"
 access_url: "https://doi.org/10.1080/19440049.2020.1859144"
 raw_path: "raw/external-fetch/saraiva2021.pdf"
 metals: [Cr-VI, Cr-III, Cr-total]
-products: [infant-formula-rtf-liquid-non-soy, infant-formula-powder-non-soy, meat-and-poultry-purees]
+products: [infant-formula-rtf-liquid-non-soy, infant-formula-powder-non-soy, meat-and-poultry-purees, "[[products/beef-product]]", "[[products/processed-meats]]"]
 matrices: [infant-formula-milk, semi-skimmed-milk, bovine-meat, chorizo-sausage]
 jurisdictions: [FR, DK]
 sample_n: 30

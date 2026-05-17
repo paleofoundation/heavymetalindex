@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_8035015/FM_8035015.md
 metals: [tHg, tAs, iAs]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
-products: []
+products: ["[[products/dietary-supplements]]"]
 matrices: [supplement, biological-tissue]
 jurisdictions: [CN]
 near_duplicates: []

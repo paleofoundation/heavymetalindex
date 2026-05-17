@@ -14,7 +14,7 @@ license: "CC BY-NC"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Analysis and Detection of Heavy Metals Content in Some Selected P.pdf"
 metals: [Pb]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/mango-juice]]", "[[ingredients/orange-juice]]", "[[ingredients/lychee-juice]]"]
-products: ["[[products/fruit-juice-not-canned]]"]
+products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]"]
 matrices: [packaged-fruit-juice, apple-juice, mango-juice, orange-juice, lychee-juice]
 jurisdictions: [NP]
 near_duplicates: []

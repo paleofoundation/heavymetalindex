@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy metal concentrations in Chinese chicken eggs_ insights from.pdf"
 metals: [Cr, tAs, Cd, Pb, Ni]
 ingredients: ["[[ingredients/eggs]]"]
-products: []
+products: ["[[products/eggs-product]]"]
 matrices: [egg-whole-homogenate]
 jurisdictions: [CN]
 near_duplicates: []

@@ -10,30 +10,30 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [2.9, 13.8]
     p95_ppb: 20.6
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   iAs:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [0, 8.6]
     p95_ppb: 10.3
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
@@ -45,30 +45,30 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 58.6]
     p95_ppb: 85
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Al:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Sn:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [0, 0]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 9
 ---
 
@@ -95,20 +95,20 @@ Onions (Allium cepa) are bulb vegetables grown underground, but their metal accu
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | — | — |
-| Cd | n=2 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=2 (in progress) | — | — | — | — |
-| Ni | n=2 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=2 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 0 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Cd | n=7 | 2.9–13.8 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 0–8.6 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | 0 | high | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Ni | n=6 | 0–58.6 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=6 | 0 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | high | — |
 
 ## Routing
 

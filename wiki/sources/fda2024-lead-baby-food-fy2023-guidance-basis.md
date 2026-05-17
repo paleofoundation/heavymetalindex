@@ -9,9 +9,12 @@ source_type: government_dataset
 evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/leadinfood-babiesyoungchildren-fy2023-12302024.pdf"
+access_url: "https://www.fda.gov/food/metals-and-your-food/closer-zero-reducing-childhood-exposure-toxic-elements-foods-babies-and-young-children"
+doi: null
+no_doi_assigned: true
 metals: [Pb]
 ingredients: []
-products: ["[[products/fruit-purees]]", "[[products/root-vegetable-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]", "[[products/meat-and-poultry-purees]]"]
+products: ["[[products/fruit-purees]]", "[[products/root-vegetable-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]", "[[products/meat-and-poultry-purees]]", "[[products/infant-and-child-foods-master]]"]
 matrices: [baby-food, processed-baby-food, fruit-puree, root-vegetable-puree, infant-cereal, mixed-meal, meat-and-poultry-puree]
 jurisdictions: [US]
 sample_n_total: 386

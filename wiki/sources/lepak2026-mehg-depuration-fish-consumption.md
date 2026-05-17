@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12930318/FM_12930318.md
 metals: [MeHg, tHg]
 ingredients: ["[[ingredients/fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [fish, hair-biomonitoring, blood-biomonitoring]
 jurisdictions: [GA, US]
 near_duplicates: []

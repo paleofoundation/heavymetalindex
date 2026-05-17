@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1371/journal.pone.0194700"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/rice-snacks-crackers]]"]
 matrices: [infant-rice-porridge, infant-rice-cake, infant-multigrain-cereal, infant-muesli, puffed-rice, rice-cake-general]
 jurisdictions: [GB, EU]
 sample_n: 106

@@ -7,81 +7,81 @@ aliases: [river fish, lake fish, inland fish, sport fish]
 category: aquatic-protein
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [20, 300]
+    p95_ppb: 1000
+    confidence: high
+    n_studies: 22
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 100]
+    p95_ppb: 300
+    confidence: high
+    n_studies: 19
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [1, 20]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 6
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: 1500
+    confidence: high
+    n_studies: 33
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 400]
+    p95_ppb: 800
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [500, 3000]
+    p95_ppb: 6000
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 400]
+    p95_ppb: 1000
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: 2000
+    confidence: medium
+    n_studies: 16
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [biomagnification, trophic-level, watershed-mining-history, age-and-size, ASGM-proximity, climate-driven-methylation]
 lower_risk_variants: ["[[ingredients/farmed-tilapia]]"]
 higher_risk_variants: ["[[ingredients/sport-fish-predatory]]"]
 used_in_products: ["[[products/fish-containing-baby-foods]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 48
 ---
 
@@ -90,6 +90,23 @@ sources: 48
 Freshwater fish are inland-water aquatic protein sources whose heavy-metal contamination profile differs materially from saltwater and marine fish. The defining difference is methylmercury biomagnification: freshwater systems with reducing sediments and microbial methylation activity (most notably in artisanal small-scale gold mining (ASGM) watersheds, mercury-impacted lakes, and historic industrial river basins) concentrate MeHg in piscivorous fish at levels that often exceed marine-fish equivalents. Sport-fishery advisories from US states, Canadian provinces, and the EFSA opinion on chronic methylmercury exposure target freshwater piscivores specifically.
 
 This page is the structural anchor for freshwater-specific fish evidence. The broader [[ingredients/fish]] page covers cross-cutting fish-as-food properties; [[ingredients/saltwater-fish]] (when promoted) carries marine-specific evidence. Trophic level and fish age are the dominant within-species variance drivers, not species identity alone — a small, young pike from a low-Hg lake can carry less MeHg than a large, old walleye from the same lake.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=22 | 20–300 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/venant2025-lake-victoria-sardine-cd-pb\|3]] |
+| Cd | n=19 | 5–100 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/venant2025-lake-victoria-sardine-cd-pb\|3]] |
+| iAs | n=6 | 1–20 | low | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|3]] |
+| tAs | n=16 | 50–500 | medium | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/paul2025-meghna-fish-arsenic\|2]], [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|3]] |
+| tHg | n=33 | 50–500 | high | [[sources/rusko2026-mercury-fish-latvia-risk-benefit\|1]], [[sources/auzier-guimaraes2025-mercury-tapajos-fish\|2]], [[sources/wu2025-climate-meghan-freshwater-fish-china\|3]] |
+| Ni | n=10 | 50–400 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/naz2025-trace-elements-punjnad-fish\|2]], [[sources/han2024-nickel-zhejiang-china\|3]] |
+| Al | n=5 | 500–3000 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/kovacik2024-grass-carp-muscle-microelements\|3]] |
+| Cr | n=8 | 50–400 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/aljufaili2024-garra-shamal-oman\|2]], [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Climate-driven methylmercury trajectory
 
@@ -163,4 +180,56 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 47 | [[sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\|Eagles-Smith et al. 2016]]. *Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada*, Science of The Total Environment (2016, in press 2015) | 2016 | Peer-reviewed | USGS-led synthesis of THg in 96,310 individual freshwater fish from 4,262 locations across the Western US and Canada (206 species, 1969–2014), with 30% of fish samples and 17% of site means exceeding the EPA 0.30 µg/g ww MeHg Fish Tissue Residue Criterion |
 | 48 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | EPA-822-R-97-003 baseline anchoring the speciation point that over 95% of marine fish and shellfish arsenic is organoarsenic (primarily arsenobetaine), with freshwater fish carrying a higher iAs fraction relative to tAs and corresponding dietary exposure scenarios |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Freshwater fish (tilapia, catfish, trout, perch, walleye, bass, carp, pike, salmon-when-stocked-in-freshwater, and other freshwater species) accumulate methylmercury through aquatic-food-web biomagnification. The mechanism is identical to marine fish (see [[metals/mercury-methyl|MeHg]] and [[ingredients/fish]]): sulfate-reducing bacteria in sediment methylate inorganic mercury that arrives from atmospheric deposition or watershed runoff; plankton take up MeHg from water; small fish eat plankton; larger fish eat small fish; MeHg biomagnifies multiplicatively at each trophic step. The defining feature of freshwater fish is that the watershed-Hg loading is locally elevated in many freshwater systems because of historic chlor-alkali industry, coal-fired power generation, mining legacy, or agricultural Hg fungicide use. Freshwater fish from contaminated watersheds can carry MeHg comparable to marine apex predators despite lower trophic position.
+
+[[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] projects climate-driven enhancement of MeHg production in freshwater systems — approximately 60 percent rise in mean freshwater wild-fish MeHg by 2031-2060 under both SSP2-4.5 and SSP5-8.5 pathways, dominated by enhanced photochemical methylation from increased solar radiation.
+
+The HMTc panel concerns for freshwater fish are dominantly tHg/MeHg, with secondary Cd in some watersheds.
+
+## Ranges by source, region, and variety
+
+The dominant axes of variance are watershed-Hg loading and trophic position.
+
+**Species:** Predatory freshwater species (pike, walleye, large bass, larger catfish) carry higher MeHg than primary-consumer species (carp, tilapia, smaller catfish). Wu et al. 2025's Chinese dataset documents wild freshwater fish MeHg 2.9-6.2× higher than farmed freshwater fish across trophic classes, and 1.7× higher than marine wild fish in the same trophic class.
+
+**Watershed:** Fish from the Great Lakes (especially those subject to PCB+Hg advisories) carry higher MeHg. Fish from Adirondack lakes (acid-deposition-amplified Hg methylation) similarly. Fish from watersheds adjacent to historic mining carry elevated Hg, sometimes co-occurring with Pb and other mine-associated metals.
+
+**Wild-caught vs farmed:** Farmed freshwater fish (commercial tilapia, catfish farming, rainbow trout aquaculture) typically carries lower MeHg because feed-mediated exposure is lower than wild prey-mediated exposure and farm lifespan is shorter than wild.
+
+**Size and age:** Larger and older individuals of the same species carry more MeHg because lifetime exposure accumulates.
+
+## Processing effects
+
+Methylmercury in freshwater fish is bound to cysteine residues in muscle protein, identical to marine fin-fish. Processing (cleaning, filleting, freezing, smoking, drying) does not reduce MeHg. Cooking concentrates per-serving MeHg slightly through water loss. Removing skin and dark muscle reduces lipophilic contaminants but does not reduce MeHg meaningfully.
+
+Smoking introduces no significant additional metal load relative to source-fish MeHg. Pickling and curing preserve the source-fish metal profile.
+
+## Ingredient-derivative risk
+
+Freshwater fish oil and fish-oil supplements carry low MeHg relative to source fish because the metal does not partition strongly into the lipid fraction. Cod liver oil specifically (though typically marine cod, not freshwater) carries elevated Cd and Pb from the liver organ.
+
+Freshwater fish flour and freshwater-fish protein concentrate (less common in human-food markets than marine equivalents) carry per-mass-concentrated MeHg.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Species selection (lower-trophic freshwater species: tilapia, catfish, herring-family) and origin-watershed selection (avoiding watersheds with active consumption advisories) are the two largest single levers. Farmed-freshwater-fish sourcing typically reduces Hg below comparable wild-caught species.
+
+**Consumption-pattern levers** apply at the consumer level: state-level fish consumption advisories (issued by US state health departments based on watershed-specific data) provide the operational consumer guidance for freshwater fish. The FDA/EPA federal advisory addresses freshwater fish less specifically than marine fish.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level methylmercury testing for commercial freshwater-fish supply, particularly for products targeting infant, young-child, and pregnancy markets. See [[testing/icp-ms]].
+
+**Processing levers** ([[mitigation/processing]]) are limited; MeHg is muscle-bound and not reducible by processing.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not generally consequential for freshwater fish.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets species-specific Hg maximum levels for fishery products; freshwater species fall under the general 0.5 mg/kg Hg ML (some species carry separate 1.0 mg/kg ML where bioaccumulation justifies it).
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MeHg MLs for fish.
+- FDA action level of 1.0 ppm methylmercury in fish applies to freshwater fish in commercial channels.
+- US state-level fish consumption advisories: most states maintain freshwater fish advisories specific to watersheds and species; subsistence-fishing populations in some Great Lakes and Adirondack regions are at elevated risk.
+- California Prop 65 ([[regulations/california-prop65]]) Hg MADL applies to freshwater fish sold in California.
+
 

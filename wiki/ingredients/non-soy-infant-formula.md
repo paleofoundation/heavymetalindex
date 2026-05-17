@@ -7,79 +7,79 @@ aliases: [cow milk formula, amino acid formula]
 category: formula-input-profile
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 10]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0.5, 5]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [3, 8]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [3, 9]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0.1, 2]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 used_in_products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
-sources: 8
+updated: 2026-05-16
+sources: 9
 ---
 
 # Non-soy Infant Formula
@@ -101,5 +101,69 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|Pacquette et al. 2016]]. *Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation*, Journal of AOAC International, Vol. 99, No. 3, pp. 766-779 | 2016 | Peer-reviewed | Single-laboratory ICP-MS method validation for simultaneous determination of As, Cd, Hg, and Pb in raw ingredients (acid casein, maltodextrin, skim milk powder), nutritional products, and infant formula; validated against NIST SRM 1548a, 1577c, and 1568b; analytical method basis for infant formula occurrence surveillance |
 | 7 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 | 2015 | Peer-reviewed | iAs and tAs exposure estimated by urinary biomarker and dietary intake in breastfed versus formula-fed US infants (Dartmouth New Hampshire Birth Cohort); formula-fed infants had higher urinary arsenic biomarkers than breastfed infants, establishing the US cohort evidence base for formula-associated infant As exposure |
 | 8 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|Jackson et al. 2012]]. *Arsenic concentration and speciation in infant formulas and first foods*, Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 | 2012 | Peer-reviewed | tAs and iAs with full speciation (arsenite, arsenate, MMA, DMA) in US infant formulas and first foods by HPLC-ICP-MS; rice-component formulas carry substantially higher iAs than non-rice formulas; primary US speciation dataset for infant formula iAs assessment |
+| 9 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Non-soy infant formula uses cow-milk protein, hydrolyzed cow-milk protein, or amino-acid-based protein source. Unlike soy-based formula, non-soy formula does not carry the soy-derived Al/Ni accumulation pathway; baseline metal load is therefore substantially lower across the Al/Ni axis. The HMTc panel concerns for non-soy formula are dominantly Pb (from mineral premix and from dairy source), Cd (from mineral premix and dairy source), and trace iAs (from carbohydrate source if brown rice syrup is used — though uncommon in non-soy formulas).
+
+The Cat 1 Step 0 lock recognizes non-soy as the clean-baseline of the formula contamination platform pair (see [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-rtf-liquid-non-soy]]).
+
+See [[ingredients/infant-formula-powder]] for the powder-format synthesis covering the broader ingredient-inheritance pathway, ingredient-class variance, and regulatory framework. The non-soy variant follows that synthesis except for the soy-specific Al/Ni elevations.
+
+## Heavy metal contamination profile
+
+The body-level analyte snapshot for non-soy formula follows the per-format pages: see [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-rtf-liquid-non-soy]] for format-specific concentration tables.
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb  | pending | — | — | — | — |
+| Cd  | pending | — | — | — | — |
+| iAs | pending | — | — | — | — |
+| tAs | pending | — | — | — | — |
+| tHg | pending | — | — | — | — |
+| Ni  | pending | — | — | — | — |
+| Al  | pending | — | — | — | — |
+| Cr  | pending | — | — | — | — |
+| Sn  | pending | — | — | — | — |
+| U   | pending | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+See [[ingredients/infant-formula-powder]] for the format-specific variance discussion. Within non-soy formula, the dominant variance drivers are:
+
+- Protein base sub-variant: standard cow-milk, lactose-free, partial hydrolysate, extensive hydrolysate, amino-acid-based. Each carries similar but distinguishable metal profiles.
+- Source market (EU vs US vs other regulatory regimes).
+- Brand and manufacturer.
+- Historical generation (post-2020 vs pre-2010 manufacturer changes).
+
+## Processing effects
+
+Non-soy formula manufacturing follows the standard infant-formula processing chain (see [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]]) with cow-milk protein, hydrolysate, or amino-acid blends substituted for soy protein. Spray-drying does not change metal content but concentrates per-mass; reconstitution recovers as-fed concentration. Vitamin-mineral premix contributes trace Pb at supplier-controlled levels.
+
+## Ingredient-derivative risk
+
+Non-soy formula derivatives are the same format set as other infant formulas: powder, RTF liquid, concentrated liquid (Cat 1 Step 0 lock variants). Toddler-formula and follow-up-formula variants extend the non-soy formula formulation framework into toddler-and-older age ranges.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include single-source-region dairy sourcing, premix-supplier QC (testing of mineral premix ingredients for Pb), and water-source verification at manufacturing.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the dairy-farm and feed-grain stage (see [[ingredients/milk-and-dairy]]).
+
+**Processing levers** ([[mitigation/processing]]) include manufacturing-water specification and equipment-contact specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include carbohydrate-source choice (avoiding brown-rice-syrup in organic non-soy formulas) and premix-source specification.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level Pb, Cd, iAs testing on finished non-soy formula against EU 10 ppb Pb prepared-for-feeding ML.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining and foil-lined packaging specifications.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding MLs for infant formula: Pb 10 ppb prepared-for-feeding, Cd 5 ppb, iAs 20 ppb, Hg 20 ppb. Apply identically to non-soy and soy-based formulas.
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs framework covers rice-containing formula.
+- Codex Alimentarius CXS 72-1981 (infant formula) and CXS 156-1987 (follow-up formula) — composition standards.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
+
 

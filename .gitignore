@@ -20,6 +20,13 @@ raw/manual-fetch/**/*
 !raw/manual-fetch/**/README.md
 !raw/manual-fetch/**/wishlist.md
 
+# raw/gpt-drafts/ is the dropoff for GPT-5.5 fast-mode source-page first
+# drafts. Drafts themselves are unverified and gitignored; only the README
+# is committed. See docs/gpt-collaboration/README.md.
+!raw/gpt-drafts/
+raw/gpt-drafts/**/*
+!raw/gpt-drafts/README.md
+
 # Quartz / Node build artifacts
 node_modules/
 public/
@@ -33,7 +40,12 @@ replit.nix
 .obsidian/
 .vercel
 .env*.local
-.claude/
+# Project-local Claude Code config — gitignored except for skills, which
+# ship with the project so all sessions (Claude Code, Cowork, future
+# instances on any machine) can use them.
+.claude/*
+!.claude/skills/
+!.claude/skills/**
 # Local PDF extraction packets/prompts may contain copyrighted source text.
 # Keep them local and commit only structured evidence, queues, audits, and gap reports.
 data/evidence/local_reingest_packets/

@@ -13,7 +13,7 @@ access_url: "https://doi.org/10.1016/0273-2300(84)90006-0"
 metals: [Sn]
 species: [Sn2+, Sn4+, organotins]
 ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/canned-fruit-cocktail]]", "[[ingredients/canned-tomatoes]]"]
-products: []
+products: ["[[products/canned-fish]]"]
 matrices: [canned-food, drinking-water, occupational]
 jurisdictions: [DE]
 updated: 2026-05-08

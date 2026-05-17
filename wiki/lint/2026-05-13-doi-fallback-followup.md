@@ -5,6 +5,7 @@ date: 2026-05-13
 scope: source-doi-coverage
 status: deferred
 priority: medium
+noindex: true
 ---
 
 # DOI fallback follow-up — 2026-05-13

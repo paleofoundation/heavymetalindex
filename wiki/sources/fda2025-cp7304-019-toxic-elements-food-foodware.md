@@ -7,7 +7,7 @@ year: 2025
 publication: "US Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Compliance%20Program%20Guidance%20Manual%3A%20Toxic%20Elements%20in%20Food%20and%20Foodware%2C%20and%20Radionuclides%20in%20Food%20%E2%80%93%20Import%20and%20Domestic%20(Program%207304.019)
+access_url: https://www.fda.gov/food/chemical-contaminants-pesticides/toxic-elements-foods-and-foodware
 source_type: gov-report
 evidence_tier: A
 license: "public-domain-us-government"

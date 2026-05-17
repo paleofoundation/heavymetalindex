@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_12289754_Quality_and_sources_of_food_and_water_consumed_by_people_wit/FM_12289754_Quality_and_sources_of_food_and_water_consumed_by_people_wit.md
 metals: [Cd, Pb, iAs, tAs, Al, Cr, Ni, Sn, tHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/freshwater-fish]]", "[[ingredients/camellia-sinensis]]", "[[ingredients/vegetables]]", "[[ingredients/lentils]]"]
-products: []
+products: ["[[products/fresh-fish]]", "[[products/tea]]"]
 matrices: [rice, freshwater-fish, tea, vegetables, legumes, bread, drinking-water]
 jurisdictions: [LK]
 near_duplicates: []

@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/The Content of Cd and Pb in Herbs and Single-Component Spices Use.pdf"
 metals: [Cd, Pb]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]", "[[ingredients/fresh-herbs]]", "[[ingredients/spices]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [dried-herbs, fresh-herbs, spices]
 jurisdictions: [PL, EU]
 near_duplicates: []

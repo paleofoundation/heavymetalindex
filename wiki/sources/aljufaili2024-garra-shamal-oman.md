@@ -6,16 +6,15 @@ title: "Heavy metals in Garra shamal freshwater fish from Oman: accumulation and
 authors: [Al Jufaili S, Al Khamisi S, Al Busaidi M, Al Habsi S]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Heavy%20metals%20in%20Garra%20shamal%20freshwater%20fish%20from%20Oman%3A%20accumulation%20and%20health%20risk"
+doi: "10.1007/s11356-024-32229-w"
+access_url: "https://doi.org/10.1007/s11356-024-32229-w"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10884084/FM_10884084.md
 metals: [tAs, Cd, Cr, Co, Pb, Mn, tHg, Ni]
 ingredients: ["[[ingredients/freshwater-fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish]
 jurisdictions: [OM]
 near_duplicates: []

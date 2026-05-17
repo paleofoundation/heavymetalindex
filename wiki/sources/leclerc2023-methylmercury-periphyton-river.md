@@ -15,7 +15,7 @@ license: "CC BY-NC-ND"
 raw_path: raw/markdown/FM_10720379/FM_10720379.md
 metals: [MeHg, tHg]
 ingredients: ["[[ingredients/fish]]"]
-products: []
+products: ["[[products/fresh-fish]]", "[[products/shellfish]]"]
 matrices: [fish, invertebrates, water, sediment]
 jurisdictions: [CA]
 near_duplicates: []

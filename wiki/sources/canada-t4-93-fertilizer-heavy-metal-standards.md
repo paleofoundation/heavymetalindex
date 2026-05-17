@@ -7,7 +7,7 @@ year: 2024
 publication: "Canadian Food Inspection Agency (CFIA)"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=T-4-93%20%E2%80%93%20Safety%20standards%20for%20fertilizers%20and%20supplements
+access_url: "https://inspection.canada.ca/plant-health/fertilizers/trade-memoranda/t-4-93/eng/1305611387327/1305611547479"
 source_type: government-regulatory
 evidence_tier: A
 license: "crown-copyright-open-government"

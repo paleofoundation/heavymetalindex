@@ -6,16 +6,15 @@ title: "Assessment of total mercury (Hg) in soil, sediment, and tilapia fish (Or
 authors: [Shumba T, Kayumba AV, Kalinda C, Mukosha M, Mbewe M, Mwila C, Handema R, Mwenye OJ, Mbewe M]
 year: 2025
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Assessment+of+total+mercury+Hg+soil+sediment+tilapia+Oreochromis+niloticus+Kitwe+mining+Zambia+Shumba+2025"
+doi: "10.1007/s11356-025-36506-0"
+access_url: "https://doi.org/10.1007/s11356-025-36506-0"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_12178998/FM_12178998.md
 metals: [tHg]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/tilapia]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish]
 jurisdictions: [ZM]
 near_duplicates: []

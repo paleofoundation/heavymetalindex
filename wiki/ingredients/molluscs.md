@@ -3,82 +3,22 @@ type: ingredient
 commodity: molluscs
 title: "Molluscs"
 label: "Molluscs"
-aliases: [mollusks, cephalopods, gastropods, squid, octopus, cuttlefish]
+aliases: []
 category: shellfish
 contamination_profile:
-  Pb:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  Cd:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  iAs:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  tAs:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  tHg:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  Ni:
-    status: populated
-    typical_ppb: [50, 194]
-    p95_ppb: 350
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-16
-  Al:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  Cr:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  Sn:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  U:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-drivers: [bioaccumulation, trophic-level, harvest-region, species, organotin-tributyltin]
+  Pb: { status: populated, typical_ppb: [100, 500], p95_ppb: 1500, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [300, 2000], p95_ppb: 5000, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [20, 200], p95_ppb: 500, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+drivers: [bioaccumulation, trophic-level, harvest-region, species]
 lower_risk_variants: []
-higher_risk_variants: ["[[ingredients/bivalve-molluscs]]"]
+higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
@@ -90,68 +30,23 @@ created_routed_sources: 2
 
 # Molluscs
 
-Molluscs are a major aquatic-food category covering cephalopods (squid, octopus, cuttlefish), gastropods (snails, abalone, periwinkles), bivalves (covered separately on [[ingredients/bivalve-molluscs]]), and a few minor groups. The metal profile differs substantially from finfish because molluscs accumulate metals through filter-feeding (bivalves) or detritus and small-prey consumption (cephalopods and gastropods) rather than through bioaccumulation up the marine food chain that drives mercury concentration in predatory finfish. The Italian Istituto Zooprofilattico ten-year compliance survey of 5,854 seafood samples identifies cephalopod molluscs (n=1,536) as the principal Cd-non-compliance category for European market seafood, with 17 of 1,536 cephalopod samples exceeding the EU maximum level for Cd ([[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr|Garofalo et al. 2025]]). The Chinese Zhejiang Province nickel survey reports mollusc-specific Ni at low concentrations relative to crustaceans and freshwater fish.
-
-## Why this commodity accumulates heavy metals
-
-Molluscs accumulate heavy metals through three pathways. The first is filter-feeding for bivalves and detritus-feeding for cephalopods and gastropods, both of which expose the organism to sediment-associated metals as well as water-column metals. The bioaccumulation factor for Cd in cephalopods (particularly squid) is documented as among the highest for any seafood category, which is why squid drives the cephalopod-Cd non-compliance pattern in the Italian dataset.
-
-The second pathway is harvest-region contamination. Coastal waters near industrial discharge, urban estuaries, and historically polluted bays produce molluscs with higher metal loads than open-ocean or aquaculture sources. The CFS 2019 Hong Kong organotin study documented that tributyltin (TBT), a historic antifouling-paint contaminant, persists in coastal mollusc populations long after its phase-out, reflecting the long environmental half-life of organotin compounds.
-
-The third pathway is species-specific accumulation biology. Cephalopods (squid, octopus, cuttlefish) accumulate Cd preferentially relative to gastropods or bivalves; the gut digestive gland of cephalopods is particularly Cd-rich and is sometimes consumed in traditional cuisines. The Zhejiang dataset for marine gastropods reports Ni at mean 194 µg/kg across 3 samples ([[sources/han2024-nickel-zhejiang-china|Han et al. 2024]]), substantially lower than the cephalopod and bivalve Cd findings from the Italian dataset.
-
+Source-grounded narrative on this page is populated incrementally from the routed source pages per CLAUDE.md Part 9; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | data gap | — | — | — | — |
-| Cd  | data gap | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | data gap | — | — | — | — |
-| Ni  | n=1 | 50–194 | 350 | low | [[sources/han2024-nickel-zhejiang-china\|3]] |
-| Al  | data gap | — | — | — | — |
-| Cr  | data gap | — | — | — | — |
-| Sn  | data gap | — | — | — | — |
-| U   | data gap | — | — | — | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-The Cd values for cephalopods specifically are documented as the dominant non-compliance category in the Italian 10-year survey but the per-cephalopod numerical concentrations are not in the accessible data slice. The Garofalo 2025 paper reports exceedance counts (17 cephalopod samples non-compliant for Cd out of 1,536 sampled) rather than per-sample concentration distributions for the molluscs category. The sister page [[ingredients/bivalve-molluscs]] carries the bivalve-specific evidence; this molluscs page is the broader category, including cephalopods and gastropods.
-
-## Ranges by source, region, and variety
-
-The Italian Istituto Zooprofilattico 10-year survey provides the regulatory-compliance picture for the European market ([[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr|Garofalo et al. 2025]]). Of 5,854 seafood samples analyzed for Cd, Pb, and Hg over 2014 to 2023, 142 samples (2.43 percent) were non-compliant with EU 2023/915 maximum levels. Cadmium exceedances concentrated in cephalopods (17 samples, mainly squids). Mercury exceedances concentrated in marine fish, particularly swordfish (11.30 percent of samples), sharks (6.48 percent), and tuna (3.11 percent); molluscs did not appear in the Hg exceedance pattern. Lead exceedances were rare across all categories (one bivalve sample). The 10-year trend is documented in the source but per-year breakdowns are not in the accessible data slice.
-
-The Chinese Zhejiang Province nickel survey reports mollusc-related categories ([[sources/han2024-nickel-zhejiang-china|Han et al. 2024]]). Gastropods (n=3) showed Ni at mean 194 µg/kg, range 50 to 350 µg/kg, with 100 percent detection and zero exceedance of the Chinese GB 2762-2022 1 mg/kg standard. Shellfish (n=50) reported Ni at mean 484 µg/kg, range 56 to 1,530 µg/kg, P95 1,279 µg/kg, with 12 percent of samples exceeding the standard. The shellfish category includes molluscs and crustaceans together in the source classification; molluscs-specific values are constrained to the gastropod subset.
-
-The Hong Kong Centre for Food Safety 2019 organotin study (Report No. 60) covers tributyltin (TBT) and related organotin compounds in aquatic products from Hong Kong markets, with molluscs (particularly cephalopods and bivalves) as one of the principal sampled categories ([[sources/cfs2019-organotin-aquatic-hongkong|CFS 2019]]). The specific organotin concentrations and the comparison against the EFSA TWI for the sum of organotin compounds are documented in the source; the data are speciated organotin rather than total Sn and inform a separate organotin-specific risk picture from the general Sn analyte in the HMTc vocabulary.
-
-The Xu 2025 global review of heavy metal risks in aquatic foods provides systematic-review-level synthesis across many species and regions but does not contribute single-source occurrence values for molluscs at the species level ([[sources/xu2025-heavy-metals-aquatic-foods-global|Xu et al. 2025]]); the review confirms the cephalopod-Cd accumulation pattern documented in the Italian primary data.
-
-## Processing effects
-
-Processing-state effects on mollusc metal load vary by species and preparation. Cephalopod cleaning removes the digestive gland (where Cd preferentially concentrates), reducing the Cd load of the consumed muscle relative to the whole organism; this is the standard commercial preparation for squid and octopus. Whole-cephalopod consumption (some traditional dishes retain the digestive gland) carries the full Cd load. Cooking does not remove metals from the mollusc tissue. Canned mollusc products (canned squid, canned octopus) may pick up additional Sn from can-lining migration depending on can construction. Smoked and dried mollusc products concentrate metals proportionally with water loss.
-
-## Ingredient-derivative risk
-
-Molluscs produce a range of food-ingredient derivatives. Fresh and frozen cephalopod products (squid rings, octopus, cuttlefish) carry the source-tissue metal load. Canned and jarred mollusc products carry additional packaging-related metals depending on can construction. Dried mollusc products (dried squid, dried abalone in East Asian markets) concentrate metals proportionally with mass loss. Mollusc-based sauces and condiments (oyster sauce derived from bivalves and the related squid ink and cephalopod-derived ingredients) carry source-organism metals. Fish meal and mollusc meal used as feed ingredients are out of scope for the food-chain wiki but follow the same accumulation principles.
-
-## Mitigation options
-
-Sourcing levers operate at the brand and importer level. Harvest-region specification (excluding industrially polluted coastal areas, requiring certified clean-water aquaculture) is the upstream lever. The Italian dataset's documented Cd-non-compliance rate in cephalopods (1.1 percent of 1,536 samples) is the load-bearing reference for sourcing-specification stringency in European-market cephalopods.
-
-Agronomic levers do not apply to wild-caught molluscs but apply to aquaculture-sourced product, particularly bivalves. Water-quality monitoring of aquaculture sites, exclusion of sites with documented Cd or organotin contamination, and certification programs targeting clean-water sources are the available controls.
-
-Processing levers are partial. Removing the cephalopod digestive gland during preparation eliminates the Cd-rich tissue from the consumed product. Switching from tinplate cans to alternative packaging eliminates Sn migration. Cooking water disposal (where mollusc cooking water is discarded rather than consumed) eliminates a small portion of metal load.
-
-Formulation levers operate on the brand for products using molluscs as an ingredient. Substituting lower-Cd seafood (finfish other than top predators) for cephalopods is the standard response where the product permits.
-
-Testing and QC levers are the brand-level backstop. Lot-level ICP-MS testing of incoming mollusc raw material against species-specific specifications catches the cephalopod-Cd variability. The [[testing/icp-ms]] page covers the analytical method.
-
-Packaging and storage levers are most relevant for canned mollusc products, where can-lining choice (lacquered vs unlacquered tinplate) determines Sn migration. Frozen and fresh mollusc products are not subject to packaging migration in the same way.
-
-## Regulatory limits that apply
-
-The European Union Regulation (EU) 2023/915 establishes matrix-specific maximum levels for Cd, Pb, and Hg in seafood: Cd in cephalopods at 1.0 mg/kg (1,000 ppb), Cd in bivalve molluscs at 1.0 mg/kg, with finfish at lower category-specific values. Pb in cephalopods at 0.30 mg/kg (300 ppb) and bivalves at 1.5 mg/kg. Total mercury at 0.5 mg/kg for most seafood and 1.0 mg/kg for certain predatory finfish (swordfish, sharks, tuna), with molluscs covered under the 0.5 mg/kg baseline. The Italian 10-year compliance dataset used these EU 2023/915 values as the reference for the non-compliance analysis ([[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr|Garofalo et al. 2025]]). The Chinese national standard GB 2762-2022 establishes Ni in aquatic foods at 1 mg/kg (1,000 ppb), used as the reference for the Zhejiang exceedance analysis ([[sources/han2024-nickel-zhejiang-china|Han et al. 2024]]). The EFSA Tolerable Weekly Intake for the sum of organotin compounds is 250 ng/kg bw/week, the reference for the Hong Kong organotin study ([[sources/cfs2019-organotin-aquatic-hongkong|CFS 2019]]). The United States FDA does not specify commodity-specific action levels for Pb, Cd, or Ni in molluscs under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]).
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 100–500 | low | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]] |
+| Cd | n=2 | 300–2000 | low | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | n=2 | 20–200 | low | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -160,8 +55,57 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | Italian 10-year regulatory compliance monitoring; cephalopods are principal Cd-non-compliance category (17 of 1,536 samples), bivalves principal Pb exceedance (1 of 1,019); molluscs not in Hg exceedance pattern |
-| 2 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | Global systematic review of heavy metal risks across aquatic foods; confirms cephalopod-Cd accumulation pattern but does not contribute single-source occurrence values for molluscs |
-| 3 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | Primary Ni occurrence data for gastropods (n=3, mean 194 ppb, range 50–350) and shellfish category including molluscs (n=50, mean 484 ppb, p95 1,279, 12 percent over GB 2762-2022 1 mg/kg standard) |
-| 4 | [[sources/cfs2019-organotin-aquatic-hongkong\|Centre for Food Safety 2019]]. *Organotin Compounds in Aquatic Products Available at Local Markets*, Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD | 2019 | Government report | Tributyltin and related organotin compounds in Hong Kong-market aquatic products including molluscs; speciated organotin rather than total Sn; informs separate organotin-specific risk picture |
+| 1 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/cfs2019-organotin-aquatic-hongkong\|Centre for Food Safety 2019]]. *Organotin Compounds in Aquatic Products Available at Local Markets*, Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD | 2019 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+This is the aggregate node for molluscs; see [[ingredients/bivalve-molluscs]] for the bivalve-specific synthesis (oysters, mussels, clams, scallops, cockles) and [[ingredients/shellfish]] for the broader shellfish discussion. Molluscs as a phylum include bivalves (filter-feeding), gastropods (snails, abalone, conch, whelk), and cephalopods (squid, octopus, cuttlefish), each with distinct feeding mechanisms and consequently distinct metal-accumulation profiles.
+
+**Bivalve molluscs** are the canonical Cd-accumulator subgroup in seafood. As suspension feeders, bivalves filter large volumes of water — an oyster filters 5-50 liters of water per day — and concentrate dissolved and particle-bound metals from the water column. Cadmium accumulates particularly efficiently in bivalve soft tissue because the metallothionein-binding pathway is highly developed in these organisms. Mercury, lead, and other panel metals also concentrate but less efficiently than cadmium. The [[sources/efsa-cadmium-contam-2009|EFSA 2009]] dietary cadmium exposure assessment places bivalve molluscs as a population-significant Cd contributor.
+
+**Cephalopods** (squid, octopus, cuttlefish) accumulate metals through their carnivorous diet (similar to small predatory fish) and concentrate Cd particularly in the hepatopancreas (digestive gland), which is sometimes consumed as part of whole-mollusc preparations.
+
+**Gastropods** (sea snails, abalone, conch) carry profiles intermediate between bivalves and cephalopods depending on diet (herbivorous grazers vs predatory).
+
+The HMTc panel concerns for molluscs are dominantly Cd (bivalves), with secondary Pb and Hg.
+
+## Ranges by source, region, and variety
+
+The dominant axis of variance is the bivalve-vs-cephalopod-vs-gastropod feeding-mechanism split. Within bivalves, the production-area water-quality variance is large: bivalves from coastal waters near industrial outfalls, agricultural runoff, or historic mining carry substantially higher Cd than bivalves from oligotrophic clean offshore production.
+
+See [[ingredients/bivalve-molluscs]] for the bivalve-specific source and region analysis. For cephalopods, geographic variance tracks the prey species and the local water-Cd loading. [[sources/raju2021-bivalves-cagayan-philippines|Raju 2021]] documents Philippine bivalve profiles; [[sources/shue2012-bivalves-tapeng-taiwan|Shue 2012]] documents Taiwanese bivalves.
+
+## Processing effects
+
+Mollusc processing (cleaning, depuration, freezing, canning, cooking) generally does not reduce the soft-tissue metal load. Depuration (the commercial water-circulation cleaning step that removes pathogens and sand) does not reduce Cd at meaningful levels because the metal is tissue-bound.
+
+Removing the hepatopancreas (the digestive gland) in cephalopods removes a Cd-concentrated tissue and can substantially reduce per-serving Cd; this is sometimes a culinary preference (squid ink and digestive gland removed) and sometimes left intact in traditional whole-mollusc preparations.
+
+Canning concentrates per-mass metal through water loss and introduces standard tinplate-Sn-migration considerations for canned mollusc products.
+
+## Ingredient-derivative risk
+
+Mollusc-derived dietary supplements (oyster extract supplements, oyster-derived zinc/copper supplements, green-lipped mussel supplements) carry the source-mollusc Cd at concentrated per-mass dry-basis levels. These route to [[products/supplements-algae-seaweed-based|Cat 16 row 19]] (algae/seaweed framing — though molluscs are animal not algae) or [[products/supplements-botanicals-herbs|Cat 16 row 15]] depending on labeling; the regulatory framework is the relevant supplement-product category.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Production-area water-quality verification (testing of bivalve growing waters for dissolved Cd, Pb, and Hg) and supplier-side QC are the operational specifications. EU and US shellfish-growing-water classification systems address pathogen concerns; metal-loading classification is a separate program.
+
+**Processing levers** ([[mitigation/processing]]) include hepatopancreas removal for cephalopods (substantially reduces per-serving Cd in squid, octopus) and the commercial depuration step (pathogen-focused but reduces some surface-particulate-bound metals).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd, Pb, and Hg testing for commercial mollusc supply. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned mollusc products.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Cd maximum levels for bivalve molluscs and cephalopods. Bivalve Cd ML is 1.0 mg/kg (1000 ppb) wet weight; cephalopod Cd ML is similar. Pb and Hg MLs also apply.
+- Codex Alimentarius CXS 193-1995 covers Cd and Pb MLs for molluscs.
+- FDA does not maintain a binding action level for Cd in molluscs; the FDA action level of 1.0 ppm methylmercury in fish applies to molluscs in commercial channels.
+- US state shellfish-growing-water classification programs (National Shellfish Sanitation Program) address microbial contamination but not heavy metals directly.
+- California Prop 65 ([[regulations/california-prop65]]) Cd, Pb, and Hg MADLs apply to mollusc products sold in California.
+
+

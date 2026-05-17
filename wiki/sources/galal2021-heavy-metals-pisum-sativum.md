@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_8177654/FM_8177654.md
 metals: [Pb, Cd, As, Cr, Ni, Fe, Mn, Zn, Cu, Ag, Co, V]
 ingredients: ["[[ingredients/lentils]]"]
-products: []
+products: ["[[products/legumes-pulses-other]]"]
 matrices: [legume-vegetable, soil]
 jurisdictions: [EG]
 near_duplicates: []

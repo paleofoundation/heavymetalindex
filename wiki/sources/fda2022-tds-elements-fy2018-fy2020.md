@@ -6,6 +6,7 @@ authors: [U.S. Food and Drug Administration]
 year: 2022
 publication: "FDA Total Diet Study"
 source_type: gov-data
+no_doi_assigned: true
 evidence_tier: A
 raw_path: raw/reports/fda-tds-elements-fy2018-fy2020-results.csv
 pdf_path: raw/reports/fda-tds-elements-analytical-results-key-fy2018-fy2020.pdf

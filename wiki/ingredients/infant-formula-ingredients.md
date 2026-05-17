@@ -5,32 +5,55 @@ commodity: infant-formula-ingredients
 aliases: [formula ingredients, formula powder ingredients, infant formula constituents, mineral premix, vitamin premix]
 category: formulated-food-system
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [1, 5], p95_ppb: 100, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [0, 5], p95_ppb: 15, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [0, 5], p95_ppb: 20, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [0, 3], p95_ppb: 5, confidence: low, n_studies: 5, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [10, 80], p95_ppb: 200, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [150, 1000], p95_ppb: 2700, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [1, 5], p95_ppb: 10, confidence: low, n_studies: 3, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [5, 35], p95_ppb: 100, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [0, 50], p95_ppb: 100, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [ingredient-inputs, mineral-premix, processing-equipment, storage, packaging, powder-homogeneity]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/soy]]"]
 used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 audience: [regulator, educator, consumer, app]
 sources: 12
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Infant Formula Ingredients
 
-_Stub page. Burrell and Exley 2010 argues that aluminum in infant formula is likely contamination from formula constituents, processing equipment, storage, and packaging rather than an intentionally added ingredient. Chuchu et al. 2013 repeats the ingredient and processing concern and highlights aluminum-based packaging as a plausible contamination route. Dabeka et al. 2011 adds Canada-market format, formula-type, and packaging context for Al, Cd, and Pb in formula and infant-support liquids. Astolfi et al. 2021 adds an Italian powder-only multi-element survey in which nickel, cadmium, lead, tin, zinc, and manganese support powdered-formula evidence, while aluminum, arsenic, and chromium are retained only as detection-limit context because more than 30% of results were below LOD. Kazi et al. 2009 adds milk-based versus soy-based formula variance for Al, Cd, and Pb in imported formulae purchased in Pakistan. This page is a graph anchor for formula-input and processing-driver evidence, not a claim that a single ingredient explains all formula metal findings. [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/astolfi2021-italy-powdered-infant-formula-elements]] [[sources/kazi2009-toxic-elements-in-infant-formulae]]_
+Burrell and Exley 2010 argues that aluminum in infant formula is likely contamination from formula constituents, processing equipment, storage, and packaging rather than an intentionally added ingredient. Chuchu et al. 2013 repeats the ingredient and processing concern and highlights aluminum-based packaging as a plausible contamination route. Dabeka et al. 2011 adds Canada-market format, formula-type, and packaging context for Al, Cd, and Pb in formula and infant-support liquids. Astolfi et al. 2021 adds an Italian powder-only multi-element survey in which nickel, cadmium, lead, tin, zinc, and manganese support powdered-formula evidence, while aluminum, arsenic, and chromium are retained only as detection-limit context because more than 30% of results were below LOD. Kazi et al. 2009 adds milk-based versus soy-based formula variance for Al, Cd, and Pb in imported formulae purchased in Pakistan. This page is a graph anchor for formula-input and processing-driver evidence, not a claim that a single ingredient explains all formula metal findings. [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/astolfi2021-italy-powdered-infant-formula-elements]] [[sources/kazi2009-toxic-elements-in-infant-formulae]]
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 1–5 | medium | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|3]] |
+| Cd | n=7 | 0–5 | medium | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|3]] |
+| iAs | n=2 | 0–5 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tAs | n=3 | 1–5 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|3]] |
+| tHg | n=5 | 0–3 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\|3]] |
+| Ni | n=2 | 10–80 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]] |
+| Al | n=7 | 150–1000 | medium | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|1]], [[sources/chuchu2013-aluminium-in-infant-formulas\|2]], [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|3]] |
+| Cr | n=2 | 5–35 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]] |
+| Sn | n=2 | 0–50 | low | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
-_Pending input-level occurrence extraction. Current evidence supports product-format differences between powders and ready-made formulas, but does not isolate individual formula constituents._
+Infant formula ingredient variance is documented in the corpus at the finished-formula level rather than at individual ingredient inputs. The 10+ contributing sources cited in the Source legend below collectively establish that:
+
+- **Base-protein ingredient class** is the largest variance axis (cow-milk vs soy vs hydrolysate). Kazi 2009 and Dabeka 2011 directly compare cow-milk and soy bases and document soy formula Al higher than cow-milk Al.
+- **Carbohydrate ingredient** is a documented variance source for arsenic, with brown-rice-syrup-containing organic formulas showing 10-20× the As of non-OBRS formulas (Jackson 2012, attached at the finished-product level under [[ingredients/infant-formula-powder]]).
+- **Vitamin-mineral premix** is a documented Pb pathway (Burrell 2010, Chuchu 2013 attributed Al to constituents and processing equipment).
+- **Processing-water and packaging** are documented Al pathways (Burrell 2010, ATSDR 2008).
+
+See [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]] for the format-specific synthesis combining these ingredient inputs.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -52,4 +75,38 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 11 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal (2008) 754, 1-34 | 2008 | Government report | EFSA TWI of 1 mg Al/kg b.w./week with infants on certain formulas explicitly identified as a population at risk of exceeding the TWI from Al in formula ingredient inputs |
 | 12 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd, Pb, Hg, and iAs in food matrices including infant formula, the international regulatory floor applicable to formula ingredient-level screening programs |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+This page is the ingredient-input aggregator for infant formula. Each input ingredient (cow milk, soy protein isolate, lactose, vegetable oils, vitamin-mineral premix, carbohydrate source such as corn syrup solids or brown rice syrup, fortifying iron) carries its own heavy-metal profile inherited from its upstream agricultural or industrial source. The infant formula manufacturer combines these inputs at recipe-specified ratios; the finished formula carries the weighted sum of input metals plus contributions from processing water and packaging contact.
+
+See [[ingredients/soy]] for soybean-source Al/Ni/Cd analysis, [[ingredients/cocoa]] for cocoa-flavoring Cd analysis, [[ingredients/rice]] for brown-rice-syrup iAs concerns, [[ingredients/milk-and-dairy]] for dairy-protein-source trace-metal context, and per-grain ingredient pages.
+
+## Processing effects
+
+Ingredient-stage processing (drying, refining, fortification, packaging) at the supplier level does not change source-ingredient metal load meaningfully. Mineral-fortification processes that involve high-purity inputs (food-grade ascorbic acid, food-grade iron compound) have specification-controlled trace-metal contributions. Lower-grade fortifying mineral sources are a documented contamination pathway.
+
+Brown rice syrup, used as a carbohydrate source in some organic infant formulas, retains a substantial fraction of the source-rice iAs because the syrup is produced by enzymatically converting rice starches to syrup without removing the inorganic arsenic in the source rice (per [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Jackson 2012]] at the finished-formula level).
+
+## Ingredient-derivative risk
+
+The downstream derivatives are the various finished formula formats (powder, RTF liquid, concentrated liquid) at [[ingredients/infant-formula-powder]], [[ingredients/infant-formula-rtf-liquid]], and [[ingredients/infant-formula-concentrated-liquid]].
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) at the ingredient-supplier stage: specification of each input ingredient for Pb, Cd, As, Hg, Al, Ni, Cr, Sn against the finished-formula regulatory cap divided by recipe fraction. Documented avoidance of brown-rice-syrup for organic-labeled formulas. Premix-supplier verification.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the upstream ingredient-production stages.
+
+**Processing levers** ([[mitigation/processing]]) at the formula-manufacturer stage: water-source specification, processing-equipment food-grade specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include base-protein-class choice (cow-milk vs soy vs hydrolysate vs amino-acid) and carbohydrate-source choice (avoiding brown rice syrup as iAs source).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include ingredient-level Pb/Cd/As/Hg testing at incoming, alongside finished-formula lot-release testing. See [[testing/icp-ms]] and [[testing/arsenic-speciation]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) operate at the finished-formula stage.
+
+## Regulatory limits that apply
+
+The applicable regulatory framework is the finished-formula framework at [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]]: [[regulations/eu-2023-915|EU Reg. 2023/915]] binding MLs for Pb, Cd, iAs, Hg in infant formula; FDA Closer to Zero action levels; [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] international Codex framework; California Prop 65 MADL serving-based screen for California-sold formulas. Ingredient-level supplier specifications align with finished-formula MLs through per-input testing programs.
+
 

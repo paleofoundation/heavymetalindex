@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: raw/markdown/FM_10140980/FM_10140980.md
 metals: [iAs]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/rice-bulk-grain]]"]
 matrices: [rice, brown-rice, white-rice, long-grain-rice, short-grain-rice]
 jurisdictions: [PT]
 near_duplicates: []

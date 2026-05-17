@@ -7,7 +7,7 @@ year: 2021
 publication: "National Toxicology Program, 15th Report on Carcinogens"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Nickel%20Compounds%20and%20Metallic%20Nickel%20%E2%80%94%2015th%20Report%20on%20Carcinogens
+access_url: "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/nickel.pdf"
 source_type: gov-report
 evidence_tier: A
 raw_path: "raw/reports/Nickel Compounds and Metallic Nickel - 15th Report on Carcinogens - NCBI Bookshelf.pdf"

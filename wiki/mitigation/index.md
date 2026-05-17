@@ -15,7 +15,7 @@ The wiki distinguishes between contamination characterization (what concentratio
 
 ## Taxonomy
 
-The four primary mitigation classes correspond to four supply-chain intervention points.
+The six primary mitigation classes correspond to six supply-chain intervention points.
 
 [[mitigation/agronomic|Agronomic interventions]] are pre-harvest, in-field. They include cultivar selection (low-accumulator varieties), water management (irrigation regime, paddy-flooding decisions for rice), soil amendment (liming for cadmium pH-control, silicon and zinc for competitive uptake antagonism, biochar), phytoremediation companion crops, and crop rotation. The intervention point is the field; the responsible party is typically the grower.
 
@@ -25,7 +25,11 @@ The four primary mitigation classes correspond to four supply-chain intervention
 
 [[mitigation/formulation|Formulation interventions]] are manufacturer-level recipe and product-design choices. They include co-formulating with binders that reduce gastrointestinal absorption (calcium, zinc, silicon), substituting lower-contamination ingredients for higher-contamination ones (basmati for brown rice in low-arsenic-target products, low-cadmium cocoa origins for high-cadmium origins), and bioaccessibility-aware formulation. The intervention point is the recipe; the responsible party is the brand and its R&D team.
 
-A fifth category, consumer behavior (cooking method, variety selection, diet diversification), is addressed in the audience-tagged "What this means for food choice" sections of [[ingredients/index|ingredient]] and [[metals/index|metal]] pages rather than as a standalone strategy page, because consumer behavior is downstream of all four producer-side strategy classes and is most useful to the consumer when contextualized to the specific food.
+[[mitigation/testing-and-qc|Testing-and-QC interventions]] do not lower heavy-metal load — they provide the visibility that lets every other mitigation strategy fire on time. They include incoming-raw-material testing, in-process testing, finished-product lot-release testing, sampling-plan adequacy, analytical-method selection (ICP-MS for ppb-level Pb/Cd/iAs/Hg/Ni/Cr/Sn/Al, HPLC-ICP-MS for arsenic speciation, species-specific methods for methylmercury and Cr-VI), and the internal-vs-third-party-lab cost-vs-defensibility tradeoff. The intervention point is QA; the responsible party is the brand's QA team and the contracted certification or compliance lab.
+
+[[mitigation/packaging-and-storage|Packaging-and-storage interventions]] control heavy-metal migration from food-contact materials into finished product across the supply chain. They include can-lining selection, internal coating integrity, storage temperature and time control, closure and seal-material chemistry, and food-contact consumer-goods selection (ceramicware glaze, cookware coatings). The dominant pathways are tin migration from tinplate cans, legacy lead from soldered seams, cadmium and chromium from pigments in printed packaging, and aluminum from foil and rigid containers. The intervention point is packaging selection and distribution; the responsible party is the brand for packaging selection and the retailer/distributor for storage conditions.
+
+A seventh category, consumer behavior (cooking method, variety selection, diet diversification), is addressed in the audience-tagged "What this means for food choice" sections of [[ingredients/index|ingredient]] and [[metals/index|metal]] pages rather than as a standalone strategy page, because consumer behavior is downstream of all four producer-side strategy classes and is most useful to the consumer when contextualized to the specific food.
 
 ## Why mitigation pages matter for the wiki's audiences
 

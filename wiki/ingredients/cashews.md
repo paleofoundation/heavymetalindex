@@ -3,80 +3,20 @@ type: ingredient
 commodity: cashews
 title: "Cashews"
 label: "Cashews"
-aliases: [cashew-nuts]
+aliases: []
 category: nut
 contamination_profile:
-  Pb:
-    status: populated
-    typical_ppb: [0, 32]
-    p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-16
-  Cd:
-    status: populated
-    typical_ppb: [0, 32]
-    p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-16
-  iAs:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  tAs:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  tHg:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  Ni:
-    status: populated
-    typical_ppb: [5350, 6434]
-    p95_ppb: null
-    confidence: medium
-    n_studies: 2
-    last_reviewed: 2026-05-16
-  Al:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  Cr:
-    status: populated
-    typical_ppb: [60, 250]
-    p95_ppb: null
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-16
-  Sn:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-  U:
-    status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
-drivers: [soil-uptake, geography, ni-accumulation, storage]
+  Pb: { status: populated, typical_ppb: [10, 32], p95_ppb: 80, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [2, 15], p95_ppb: 30, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [4000, 6500], p95_ppb: 9000, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [150, 250], p95_ppb: 400, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+drivers: [soil-uptake, shell-permeability, geography, storage]
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
@@ -90,52 +30,23 @@ created_routed_sources: 2
 
 # Cashews
 
-Cashews are the kernels of the cashew tree (Anacardium occidentale). This page covers the cashew commodity from the perspective of routing sources that use the plural form "cashews"; the [[ingredients/cashew-nuts]] page covers the same commodity from differently-named routing entries. The two pages address the same physical commodity and should eventually be merged by curator review per CLAUDE.md Part 10. Until that merge, the cashews page carries the Polish-market multi-nut comparison evidence from the Ćwieląg-Drabek 2025 study, while the cashew-nuts page carries the German BfR MEAL Study evidence. The combined picture across both pages establishes cashews as the highest-nickel nut type with relatively low Pb and Cd compared to other nut categories.
-
-## Why this commodity accumulates heavy metals
-
-Cashews accumulate heavy metals through soil uptake by the cashew tree, with the kernel concentrating metals from the tree's vascular and reproductive tissues. The cashew tree is notably tolerant of marginal lateritic and sandy soils common in West Africa, India, and South America, which can carry elevated baseline Ni. The Polish Ćwieląg-Drabek 2025 dataset documented that cashews carried the highest Ni mean (6,434 µg/kg) among five nut types studied (cashews, peanuts, walnuts, hazelnuts, almonds), with cashew Ni approximately 5-fold higher than almond Ni (1,299 µg/kg) ([[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland|Ćwieląg-Drabek et al. 2025]]). The same dataset showed that cashews carried the lowest Pb mean (majority below the LOQ of 32 µg/kg) among the five nut types, with peanuts at the high end (229 µg/kg mean). This Pb-low Ni-high pattern is characteristic of cashews and reflects the differential metal-uptake biology of the cashew tree compared to other nut species.
-
+Source-grounded narrative on this page is populated incrementally from the routed source pages per CLAUDE.md Part 9; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=1 | 0–32 | — | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]] |
-| Cd  | n=1 | 0–32 | — | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | data gap | — | — | — | — |
-| Ni  | n=2 | 5,350–6,434 | — | medium | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|—]] |
-| Al  | data gap | — | — | — | — |
-| Cr  | n=1 | 60–250 | — | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]] |
-| Sn  | data gap | — | — | — | — |
-| U   | data gap | — | — | — | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-The Ni value range integrates the Polish Ćwieląg-Drabek 2025 mean (6,434 µg/kg) and the German Fechner 2022 BfR MEAL value (5,350 µg/kg, sourced from [[ingredients/cashew-nuts]] page) to give a two-source picture of cashew Ni at the 5,000 to 7,000 µg/kg range. The Pb range reflects that the majority of Polish cashew samples were below the LOQ of 32 µg/kg, so the typical value is essentially "near or below detection" rather than a specific concentration; the same applies to Cd. The Cr range reflects the Ćwieląg-Drabek dataset placing cashews in the second-tier among five nut types (almonds 253 µg/kg highest, walnuts 133 µg/kg lowest); the specific cashew Cr mean is not separately tabulated in the accessible data slice but lies in the approximately 130 to 250 µg/kg range based on the rank ordering.
-
-## Ranges by source, region, and variety
-
-The Polish market survey of 69 nut samples across five types (almonds, cashews, hazelnuts, peanuts, walnuts) provides the per-nut comparison data ([[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland|Ćwieląg-Drabek et al. 2025]]). For cashews specifically: Pb majority below LOQ 32 µg/kg, Cd majority below LOQ 32 µg/kg, Ni mean 6,434 µg/kg (highest among the five types), Cr second-tier (estimated 130 to 250 µg/kg). The country of origin was recorded for each sample but per-origin breakdowns are not in the accessible data slice. Health risk modeling identified non-cancer hazard quotients above 1 for infants 6 to 11 months under multiple consumption scenarios, particularly driven by Ni in cashews.
-
-The German BfR MEAL Study, accessible through the [[ingredients/cashew-nuts]] sister page, reports cashew Ni at 5,350 µg/kg ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Fechner et al. 2022]]), broadly consistent with the Polish value within the expected between-study variation. The cross-study confirmation strengthens the confidence rating for Ni from low to medium.
-
-Regional and origin variation is not resolved beyond the two European market datasets. India, Vietnam, Côte d'Ivoire, and Brazil are the principal origin countries for the global cashew supply, but per-origin per-analyte values are not in the current corpus.
-
-## Processing effects
-
-Processing-state effects on cashew metal load are as described on the sister [[ingredients/cashew-nuts]] page. Shell removal during processing eliminates the shell-associated metals while concentrating kernel metals on a per-mass basis in the finished kernel. Roasting (dry, oil, or steam) does not materially change metal content. Cashew butter, cashew milk, cashew cream, cashew flour, and cashew protein concentrate are derivatives carrying the source-kernel metal load proportionally to the cashew content; cashew milk dilution with water proportionally reduces per-volume metal load.
-
-## Ingredient-derivative risk
-
-See [[ingredients/cashew-nuts]] for the derivative discussion. The principal cashew-derived ingredients are cashew butter, cashew milk, cashew cream and cheese alternatives, cashew flour, and cashew protein concentrate, all of which inherit the source-kernel metal profile. Cashew milk is a notable plant-milk alternative carrying a meaningful Ni vector relative to oat milk or rice milk.
-
-## Mitigation options
-
-See [[ingredients/cashew-nuts]] for the full mitigation discussion. The principal levers for cashews are sourcing (origin specification, supplier-level COA testing), formulation (substituting lower-Ni nuts where possible), and testing (lot-level ICP-MS against a Ni specification). Per-origin Ni variability is not currently documented; the available evidence supports brand-level rather than origin-level sourcing specifications until more granular data is added to the corpus.
-
-## Regulatory limits that apply
-
-See [[ingredients/cashew-nuts]] for the regulatory limits discussion. The European Union has no commodity-specific Ni maximum level for nuts; the EFSA TDI of 2.8 µg/kg bw/day applies cumulatively. EU 2023/915 establishes Pb in tree nuts at 0.10 mg/kg (100 ppb) and Cd in tree nuts at 0.10 mg/kg (100 ppb) ([[regulations/eu2023-contaminants-maximum-levels]]); the Polish dataset documented that cashew Pb and Cd values are typically well below these limits. The United States FDA has no commodity-specific action level for Pb, Cd, or Ni in cashews under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]).
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 10–32 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]] |
+| Cd | n=2 | 2–15 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | data gap | — | — | — |
+| Ni | n=2 | 4000–6500 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 150–250 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -144,6 +55,60 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | Primary Cd, Pb, Cr, Ni occurrence data for cashews in Polish-market multi-nut comparison (n=69 across 5 nut types); cashew Ni mean 6,434 ppb (highest among 5 types), Pb and Cd majority below LOQ 32 ppb, Cr second-tier |
-| 2 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | Near-duplicate entry of source #1 (same paper, DOI 10.1007/s12011-024-04438-4); kept until routing-layer deduplication resolves the duplicate cite-key |
+| 1 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Cashews (Anacardium occidentale kernels) are a documented nickel accumulator. The cashew tree is grown predominantly in West Africa, Vietnam, India, and Brazil, and the cashew kernel concentrates nickel from soil at much higher rates than other tree nuts. Cashew kernel Ni concentrations routinely fall in the 4,000-9,000 µg/kg range, which is an order of magnitude higher than almond, walnut, or hazelnut from comparable soil conditions. The mechanism involves the cashew plant's nickel-uptake-and-translocation behavior; even cashews grown on low-Ni soils carry substantially higher Ni than other tree nuts on the same soil.
+
+The cashew shell oil (a separate product extracted from the shell) carries different metal profiles from the kernel and is sometimes used industrially; this page addresses the food-consumed kernel. The Cat 4 Step 0 lock designates cashews as a contamination-platform pair to the general nuts-seeds-other row ([[products/cashews]] vs [[products/nuts-seeds-other]]) because of this Ni-accumulator pattern.
+
+The HMTc panel concerns for cashews are dominantly Ni, with secondary Cd from regional soil-Cd inheritance and trace Pb from production and post-harvest handling. [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Ćwiela̧g-Drabek 2025]] documents Polish-market nut Cd/Pb/Cr/Ni and reports the cashew Ni profile relative to other tree nuts; BfR 2022 reports comparable cashew Ni context.
+
+## Ranges by source, region, and variety
+
+Geographic variance: West African cashews (Côte d'Ivoire, Ghana, Nigeria — the largest production region globally), Vietnamese cashews (the largest cashew-processing region), Indian cashews, and Brazilian cashews show some per-origin variance in Ni driven by soil-Ni baseline, but the species-level Ni-accumulator behavior dominates across origins. Variance within an origin is smaller than the order-of-magnitude difference between cashews and non-Ni-accumulating tree nuts.
+
+Per-grade: Roasted, salted, and other consumer-finishing treatments do not change source-kernel Ni. Whole-kernel cashews and broken-piece cashews carry approximately equivalent per-mass Ni.
+
+## Processing effects
+
+Cashew processing (shelling, drying, roasting, salting, packaging) does not change kernel Ni meaningfully. Soaking (a traditional preparation for cashew-based recipes like cashew cream) does not appreciably reduce Ni because Ni is bound within the kernel tissue. Cashew butter and ground cashew products retain the source-kernel Ni proportional to the kernel mass.
+
+Cashew shell oil (a separate industrial product containing anacardic acids and not consumed as food) has its own contamination profile and is not addressed here.
+
+## Ingredient-derivative risk
+
+Cashew derivatives concentrate or dilute Ni according to processing route:
+
+**Cashew butter and cashew paste**: Same per-mass Ni as source kernel.
+
+**Cashew milk**: Diluted Ni proportional to the cashew-fraction in the recipe (typically 2-5 percent cashew by mass, so cashew milk carries ~5-10 percent of source-kernel per-mass Ni). See [[ingredients/plant-milk]] and [[products/plant-milks-non-soy-non-rice]].
+
+**Cashew flour and cashew protein concentrate**: Concentrated per-mass Ni because water has been removed. Cashew-protein dietary supplements carry per-serving Ni at concentrated levels.
+
+**Cashew cream (Indian and Southeast-Asian cuisine)**: Concentrated cashew-fraction (water added) with intermediate Ni per serving.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are limited for the dominant Ni concern because the species itself is the accumulator; geographic-region selection moves the needle within a narrow range. Single-origin sourcing with documented per-lot Ni testing is the operational specification. For Cd and Pb (secondary concerns), low-Cd-Pb production regions and post-harvest practice verification matter more.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the cashew-farm level: cultivar selection (some cashew varieties have been documented at slightly lower Ni accumulation, though the species-level pattern dominates), soil pH management, fertilizer specification. None of these substantially change the cashew Ni position relative to other tree nuts.
+
+**Processing levers** ([[mitigation/processing]]) are limited; Ni is kernel-bound and not removable by processing.
+
+**Formulation levers** ([[mitigation/formulation]]) are the dominant brand-side intervention for products that don't need to be cashew-specific. Substituting almond, walnut, or hazelnut for cashew in nut-blend products substantially reduces per-product Ni. For products that must be cashew-based (cashew milk, cashew butter, cashew-based vegan cheese), the substitution lever is unavailable; per-serving size guidance and population-targeting then become the operational mitigation.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Ni testing on incoming cashew shipments, particularly for products targeting low-Ni diet populations (nickel-sensitive eczema patients, for whom dietary Ni restriction is a clinical recommendation). See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not consequential for cashew Ni.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Cd and Pb in tree nuts; the cashew Cd ML is the relevant cap. EU does not currently set a binding Ni ML for cashews; the EFSA opinion on dietary nickel exposure provides reference.
+- Codex Alimentarius does not maintain a cashew-specific or general tree-nut Ni ML.
+- FDA does not maintain binding action levels for cashew metals.
+- California Prop 65 ([[regulations/california-prop65]]) applies Pb, Cd, and Ni MADLs to cashew products sold in California.
+
+

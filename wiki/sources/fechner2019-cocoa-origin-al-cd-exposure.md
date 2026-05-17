@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1371/journal.pone.0217990"
 metals: [Al, Cd]
 ingredients: ["[[ingredients/cocoa]]"]
-products: []
+products: ["[[products/chocolate]]"]
 matrices: [cocoa-powder, cocoa-mass]
 jurisdictions: [DE, EU]
 sample_n: 12482
@@ -41,7 +41,7 @@ This German Federal Institute for Risk Assessment (BfR) study integrated German 
 
 ## Methods (brief)
 
-Occurrence data: GFM monitoring (2005–2015) for Al and Cd in cocoa powder. Consumption data: German NVS II dietary history interview (November 2005–2006, 15,371 participants aged 14–80 years, 4 seasonal waves). Exposure scenarios: 8 scenarios combining mean/P95 concentrations (all samples, origin A, origin B) × mean/P95 consumption. Origin grouping: two methods — Grouping 1 (equal thirds by ranked concentration) and Grouping 2 (P25 as upper limit of segment 1, P75 as lower limit of segment 3). SPSS version 21; Kolmogorov-Smirnov normality test; Kruskal-Wallis with Dunn-Bonferroni post-hoc. Al concentrations were normally distributed; Cd were not.
+Occurrence data: GFM monitoring (2005–2015) for Al and Cd in cocoa powder. Consumption data: German NVS II dietary history interview (November 2005–2006, 15,371 participants aged 14–80 years, 4 seasonal waves). Exposure scenarios: 8 scenarios combining mean/P95 concentrations (all samples, origin A, origin B) × mean/P95 consumption. Origin grouping: two methods — Grouping 1 (equal thirds by ranked concentration) and Grouping 2 (P25 as upper limit of segment 1, P75 as lower limit of segment 3). Statistical analysis used Kolmogorov-Smirnov normality testing and Kruskal-Wallis with Dunn-Bonferroni post-hoc testing. Al concentrations were normally distributed; Cd were not.
 
 ## Limitations
 
@@ -49,13 +49,17 @@ Origin information on GFM cocoa powder samples was rare — origin grouping was 
 
 ## Implications
 
-- Certification: Demonstrates that even P95-concentration × P95-consumption scenarios keep Al and Cd from cocoa below 15% of respective TWIs for German adults — meaning cocoa is a moderate but not dominant contributor. Origin-related refinement is possible but modest in impact for population-level exposure.
-- Courses: Excellent illustration of how origin information could theoretically refine dietary exposure assessment but in practice rarely changes headline conclusions for aggregate populations. The geographic variance sub-field in the ingredient page should note the high-vs-low concentration origin grouping approach used here.
+- Certification: Demonstrates that even P95-concentration × P95-consumption scenarios keep Al and Cd from cocoa below 15% of respective TWIs for German adults in this exposure model. Origin-related refinement is possible but modest in impact for population-level exposure; use as context rather than threshold-setting support.
+- Courses: Excellent illustration of how origin information could theoretically refine dietary exposure assessment but in practice rarely changes headline conclusions for aggregate populations. The high-vs-low concentration origin grouping approach is useful as a teaching example.
 - App: Cocoa powder Al at P95 concentration was the primary driver; Cd at P95 was substantially lower as a fraction of TWI than Al. Useful for weighting Al vs. Cd risk in cocoa-based products.
 - Microbiome: Not primary topic.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/cadmium]]
-- [[metals/aluminium]]
+- [[metals/aluminum]]
 - [[ingredients/cocoa]]
+
+## Verification notes
+
+- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected the aluminum metal wikilink, removed a software brand name from Methods, and tightened implication language to avoid threshold-setting or downstream-page directives.

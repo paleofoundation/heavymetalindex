@@ -14,7 +14,7 @@ license: "Crown 2023"
 raw_path: raw/markdown/FM_10403404/FM_10403404.md
 metals: [tAs, Cd, Cr, Pb, Al, Ni]
 ingredients: ["[[ingredients/tilapia]]", "[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
-products: []
+products: ["[[products/fresh-fish]]", "[[products/fish-freshwater]]"]
 matrices: [fish-muscle, fish-tissue, freshwater-fish, aquaculture-fish]
 jurisdictions: [KE]
 near_duplicates: []

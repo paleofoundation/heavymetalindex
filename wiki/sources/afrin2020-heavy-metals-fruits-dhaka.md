@@ -11,10 +11,10 @@ no_doi_assigned: true
 source_type: peer-reviewed
 evidence_tier: B
 license: "unknown"
-raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Determination and risk analysis of heavy metals in different frui.pdf"
-metals: [Pb, Cd, Cr, Ni]
-ingredients: ["[[ingredients/grapes]]", "[[ingredients/apples]]", "[[ingredients/oranges]]", "[[ingredients/bananas]]"]
-products: []
+raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Determination and risk analysis of heavy metals in different fruits collected from different shops of Dhaka city.pdf"
+metals: [Pb, Cd, Cr, Ni, Co]
+ingredients: ["[[ingredients/grapes]]", "[[ingredients/apple]]", "[[ingredients/oranges]]", "[[ingredients/banana]]"]
+products: ["[[products/fresh-fruit]]"]
 matrices: [fresh-fruit]
 jurisdictions: [BD]
 near_duplicates: []
@@ -25,7 +25,7 @@ updated: 2026-05-14
 
 # Afrin 2020 — Heavy metals in retail fruits from Dhaka city, Bangladesh
 
-Five fruit types (grape, apple, orange, banana, pomegranate) were collected from five retail outlets in Dhaka and analyzed for Pb, Cd, Cr, Ni, and Co by AAS. All measured concentrations were below FAO/WHO maximum allowable concentrations: Pb <1.50 mg/kg, Cd <0.20 mg/kg, Cr <2.30 mg/kg, Ni <0.80 mg/kg, Co <50 mg/kg. Concentration ranges were very low across all five locations, with little inter-site variation. Risk indices (single-factor pollution index, sum of pollution index, metal pollution index) all indicated the fruits posed no contamination risk under FAO/WHO reference values at the time of sampling.
+Five fruit types (grape, apple, orange, banana, pomegranate) were collected from five retail outlets in Dhaka and analyzed for Pb, Cd, Cr, Ni, and Co by AAS. All measured concentrations were below FAO/WHO maximum allowable concentrations: Pb <1.50 mg/kg, Cd <0.20 mg/kg, Cr <2.30 mg/kg, Ni <0.80 mg/kg, Co <50 mg/kg. Pb varied most strongly by outlet/fruit combination, with banana samples from two markets approaching but not exceeding the FAO/WHO Pb limit. Risk indices (single-factor pollution index, sum of pollution index, metal pollution index) all indicated the fruits posed no contamination risk under FAO/WHO reference values at the time of sampling.
 
 ## Key numbers
 
@@ -33,13 +33,13 @@ Concentrations in mg/kg (all sites combined, typical ranges observed):
 
 | Metal | Range across all fruits/sites | FAO/WHO MAC |
 |-------|-------------------------------|------------|
-| Pb | 0.02–0.21 mg/kg | 1.50 mg/kg |
-| Cd | 0.001–0.004 mg/kg | 0.20 mg/kg |
+| Pb | 0.02–1.31 mg/kg | 1.50 mg/kg |
+| Cd | 0.001–0.011 mg/kg | 0.20 mg/kg |
 | Cr | 0.001–0.006 mg/kg | 2.30 mg/kg |
-| Ni | 0.001–0.004 mg/kg | 0.80 mg/kg |
-| Co | 0.001–0.003 mg/kg | 50.00 mg/kg |
+| Ni | 0.001–0.016 mg/kg | 0.80 mg/kg |
+| Co | 0.001–0.004 mg/kg | 50.00 mg/kg |
 
-Highest Pb at Kawran Bazar (banana, 0.21 mg/kg); highest single-factor pollution index for Pb was 0.14 (banana, Kawran Bazar). All pollution index values less than 1.0 indicate no contamination by FAO/WHO reference.
+Highest Pb at Kawran Bazar (banana, 1.31 mg/kg); highest single-factor pollution index was 0.9001 (banana, Kawran Bazar). All pollution index values less than 1.0 indicate no contamination by FAO/WHO reference.
 
 Note: Cr is measured as total chromium; speciation into Cr-VI vs. Cr-III was not performed.
 
@@ -55,12 +55,18 @@ AAS (method not fully specified beyond "atomic absorption spectroscopy"). Sample
 
 **App:** Low-level contamination profile for common retail fruits in Bangladesh. Confidence: low (M.S. thesis, single season, limited n per fruit per site).
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
+- [[metals/cobalt]]
 - [[ingredients/grapes]]
-- [[ingredients/apples]]
-- [[ingredients/bananas]]
+- [[ingredients/apple]]
+- [[ingredients/oranges]]
+- [[ingredients/banana]]
+
+## Verification notes
+
+- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, added measured Co, corrected fruit ingredient slugs, and fixed Key-number ranges/highest Pb/SPI against the thesis abstract and Chapter 4 result tables.

@@ -25,6 +25,16 @@
 //     this is an autonomy-created stub, and a marker-managed Sources block.
 //     The synthesis pass (per CLAUDE.md Part 9) fills in contamination_profile
 //     when sources accumulate.
+//   - **Product auto-stub creation is OFF by default** (2026-05-16). Per
+//     docs/order-of-operations.md Phase 0, product pages are HMTc governance
+//     items requiring Karen's Step 0 Lock plus a category-scaffold script
+//     (the Cat 2 scaffold is the reference exemplar). Auto-created product
+//     stubs cause governance drift: the 2026-05-14 autonomy run created
+//     face-paint.md, skin-lightening-cream.md, lipstick.md which had to be
+//     retired/rewritten by the Cat 2 scaffold the following day. Ingredient
+//     stubs continue to be auto-created — commodities are not governance
+//     units, and CLAUDE.md Part 10's 5-paper rule self-corrects via the
+//     synthesis pass. Override with --allow-products (Karen's call only).
 //
 // Output:
 //   - wiki/ingredients/<slug>.md or wiki/products/<slug>.md (new stubs)
@@ -46,6 +56,7 @@ const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
 const dryRun = args.has("dry-run")
 const minFreq = Number(args.get("min-freq") ?? 2)
+const allowProducts = args.has("allow-products")
 const today = new Date().toISOString().slice(0, 10)
 
 const unresolvedPath = path.join(repoRoot, "data/evidence/routing_unresolved.csv")
@@ -87,10 +98,26 @@ const eligible = candidates.filter((c) => {
   return true
 })
 
-console.log(`create-missing-pages: ${eligible.length} candidates (freq >= ${minFreq})`)
+// Per Karen 2026-05-17 (Path A): product stubs are now auto-created with
+// `pending_category_lock: true` in frontmatter. The flag is the governance
+// signal — the page exists as a routing destination, but is explicitly
+// marked as not-yet-locked-by-Step-0. The 2026-05-14 incident (face-paint /
+// lipstick / skin-lightening-cream stubs created, retired the next day) was
+// caused by stubs being created WITHOUT this flag — they looked like full
+// product pages. With the flag, governance is preserved: lint can fail-or-
+// warn on locked-vs-unlocked, routing resolves, the page sits visibly
+// incomplete until Karen authors the Step 0 Lock.
+//
+// `--no-products` opts back into the old defer-via-CSV behavior for one-off
+// cases where Karen wants a stub proposal without a real page yet.
+const noProducts = args.has("no-products")
+const productProposals = noProducts ? eligible.filter((c) => c.kind === "product") : []
+const pageEligible = noProducts ? eligible.filter((c) => c.kind === "ingredient") : eligible
+
+console.log(`create-missing-pages: ${pageEligible.length} candidates eligible (freq >= ${minFreq}; product auto-stub ${noProducts ? "DEFERRED" : "ENABLED via pending_category_lock"})`)
 
 const created = []
-for (const c of eligible) {
+for (const c of pageEligible) {
   const dir = c.kind === "ingredient" ? ingredientsDir : productsDir
   const filepath = path.join(dir, `${c.target}.md`)
   if (fs.existsSync(filepath)) continue
@@ -110,8 +137,25 @@ for (const c of created) {
 }
 fs.writeFileSync(auditPath, auditLines.join("\n") + "\n", "utf8")
 
+// Write product-proposal log (the deferred Phase-0 candidates).
+const proposalsPath = path.join(autonomyDir, "product-stub-proposals-pending.csv")
+const proposalLines = ["slug,routed_source_count,first_three_sources,recommended_action"]
+for (const c of productProposals) {
+  const firstSources = c.sources.slice(0, 3).join(";")
+  proposalLines.push(
+    `${c.target},${c.count},${csvField(firstSources)},${csvField(
+      "Add to the appropriate HMTc category Step 0 Lock. Until Karen authors the lock + scaffold script, sources declaring this slug remain in routing_unresolved.csv. Re-run create-missing-pages with --allow-products only on Karen's explicit OK.",
+    )}`,
+  )
+}
+fs.writeFileSync(proposalsPath, proposalLines.join("\n") + "\n", "utf8")
+
 console.log(`Created ${created.length} stub page(s)${dryRun ? " (DRY-RUN)" : ""}`)
 console.log(`Audit log: ${path.relative(repoRoot, auditPath)}`)
+if (productProposals.length > 0) {
+  console.log(`Product proposals deferred to Phase 0: ${productProposals.length}`)
+  console.log(`Deferral log: ${path.relative(repoRoot, proposalsPath)}`)
+}
 
 // =========================================================================
 // Stub templates
@@ -205,11 +249,15 @@ sources: ${entry.count}
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: ${entry.count}
+pending_category_lock: true
+hmtc_category: null
+hmtc_row: null
+governance_status: "Auto-created routing destination. Not yet locked under a Step 0 protocol — HMTc category, within-row clean/dirty splits, and contamination-platform classification are pending Karen's Step 0 Lock. Sources route here; thresholds and certification scope do not derive from this page until the lock is authored."
 ---
 
 # ${title}
 
-This page is an autonomy-created stub product-category page. The routing audit identified ${entry.count} source pages in the corpus declaring \`products: [${slug}]\` in their frontmatter without a dedicated product page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 populates the evidence-summary table as sources accumulate.
+This page is an autonomy-created stub product-category page, **pending HMTc Step 0 Lock**. The routing audit identified ${entry.count} source pages in the corpus declaring \`products: [${slug}]\` in their frontmatter without a dedicated product page existing. The autonomy loop created this stub so those sources route to a defined target; the page is explicitly flagged \`pending_category_lock: true\` to signal that its HMTc category, within-row clean/dirty splits, and contamination-platform classification are not yet defined. The synthesis pass per CLAUDE.md Part 9 populates the evidence-summary table as sources accumulate; HMTc threshold work waits on the Step 0 Lock.
 
 ## Who this page is for
 
@@ -332,6 +380,14 @@ function parseArgs(argv) {
     if (match) m.set(match[1], match[2] ?? "true")
   }
   return m
+}
+
+function csvField(value) {
+  const str = String(value ?? "")
+  if (str.includes(",") || str.includes('"') || str.includes("\n")) {
+    return `"${str.replace(/"/g, '""')}"`
+  }
+  return str
 }
 
 function listSlugs(dir) {

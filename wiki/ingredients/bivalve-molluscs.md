@@ -6,87 +6,104 @@ aliases: [clams, mussels, scallops, cockles, razor-clams, oysters-separate-page,
 category: shellfish-mollusc
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [100, 500]
+    p95_ppb: 1500
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [300, 2000]
+    p95_ppb: 5000
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [20, 100]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 80]
+    p95_ppb: 150
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [200, 1500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [100, 600]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1000, 8000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [filter-feeding, marine-water-cadmium, bioaccumulation, species, harvest-region]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/wild-harvested-near-estuaries]]", "[[ingredients/older-specimens]]"]
 used_in_products: ["[[products/clam-chowder]]", "[[products/frozen-shellfish-mixes]]", "[[products/prepared-seafood]]", "[[products/shellfish-sauces]]", "[[products/seafood-supplements]]"]
 audience: [regulator, educator, consumer, app]
 sources: 18
-updated: 2026-04-24
+updated: 2026-05-16
 ---
 
 # Bivalve Molluscs (excluding Oysters)
 
-_Stub page. Contamination profile populates on the next ingest wave. Bivalve molluscs other than oysters are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] as the food category with the highest mean cadmium concentration in the European occurrence dataset, and regular consumers of this commodity show mean dietary cadmium exposure at approximately twice the EFSA tolerable weekly intake. Oysters are held in a separate analytic category because their cadmium concentrations and biological behavior diverge sufficiently to warrant distinct treatment; that split will be reflected in the wiki when a dedicated oysters page is created._
+Bivalve molluscs other than oysters are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] as the food category with the highest mean cadmium concentration in the European occurrence dataset, and regular consumers of this commodity show mean dietary cadmium exposure at approximately twice the EFSA tolerable weekly intake. Oysters are held in a separate analytic category because their cadmium concentrations and biological behavior diverge sufficiently to warrant distinct treatment; that split will be reflected in the wiki when a dedicated oysters page is created.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 100–500 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
+| Cd | n=10 | 300–2000 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
+| iAs | n=2 | 20–100 | low | [[sources/mancuso2024-food-contamination-cvd\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tAs | n=4 | 1000–8000 | medium | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/bao2024-sp-icp-ms-nps-mussels\|2]], [[sources/mancuso2024-food-contamination-cvd\|3]] |
+| tHg | n=9 | 10–80 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
+| Ni | n=2 | 200–1500 | low | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|2]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 100–600 | low | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|2]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 
@@ -125,20 +142,22 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | Italian 10-year regulatory monitoring of Cd, Pb, and tHg across 5,854 seafood samples including 17.41% bivalves; one bivalve Pb exceedance among 142 total non-compliant against EU 2023/915 |
+| 1 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
 | 2 | [[sources/li2025-ratiometric-fluorescent-sensor-al-cu-food\|Li et al. 2025]]. *A ratiometric fluorescent sensor for Al3+ and Cu2+ detection in food samples*, Frontiers in Nutrition | 2025 | Peer-reviewed | Methods paper validating an Al3+/Cu2+ fluorescent sensor with spiked-recovery experiments in scallops and razor clams; no ambient Al concentrations reported |
 | 3 | [[sources/bao2024-sp-icp-ms-nps-mussels\|Bao 2024]]. *Single-particle ICP-MS characterisation of metal nanoparticles in mussels*, unknown | 2024 | Peer-reviewed | SP-ICP-MS characterisation of nano-particulate vs dissolved fractions of Pb, Cd, and tAs in mussel tissue; speciation and bioavailability context rather than total occurrence concentrations |
-| 4 | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|Bruno et al. 2024]]. *Mineral composition in mussel Mytilus galloprovincialis and clam Tapes decussatus from Faro Lake of Messina: risk assessment for human health*, Frontiers in Toxicology | 2024 | Peer-reviewed | tAs, Cd, Pb, tHg, Ni, and Cr in 80 M. galloprovincialis mussels and 80 T. decussatus clams from Faro Lake, Sicily by ICP-MS and DMA-80; all below EU MLs but Cr RDA contribution at 191% (mussels) and 405% (clams) |
+| 4 | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|Bruno et al. 2024]]. *Mineral composition in mussel Mytilus galloprovincialis and clam Tapes decussatus from Faro Lake of Messina: risk assessment for human health*, Frontiers in Toxicology | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 | 5 | [[sources/dogruyol2024-mediterranean-mussels-health-risk\|Dogruyol et al. 2024]]. *Evaluation of Health Risks Attributed to Toxic Trace Elements and Selenium in Farmed Mediterranean Mussels from Türkiye and Bulgaria*, Environmental Science and Pollution Research (published online 1 February 2024) | 2024 | Peer-reviewed | Measured Cd, tHg, and Pb in farmed *Mytilus galloprovincialis* from four farms in Türkiye and Bulgaria (n=48); all means below EU/Codex MLs; seasonal and site-level concentration data |
-| 6 | [[sources/mancuso2024-food-contamination-cvd\|Mancuso et al. 2024]]. *Food contamination and cardiovascular disease: a narrative review* | 2024 | Peer-reviewed | Narrative review linking dietary Pb, Cd, iAs, tAs, and tHg to cardiovascular outcomes; names bivalves as a dietary Pb source channel and contextualizes mechanistic CVD associations |
-| 7 | [[sources/bjerregaard2023-mercury-mussels-denmark\|Bjerregaard et al. 2023]]. *In Search of Mercury Lost from Sediments in a Previously Contaminated Coastal Area, Harboøre Tange, Denmark*, Bulletin of Environmental Contamination and Toxicology | 2023 | Peer-reviewed | tHg in 137 blue mussels (Mytilus edulis), periwinkles, brown shrimps, and amphipods from Nissum Broad coastal stations, Denmark; mussel Hg 169–260 ng/g dw across four stations, all exceeding the 100 ng/g EQS |
-| 8 | [[sources/cardoso2023-mercury-portuguese-coast-seafood\|Cardoso et al. 2023]]. *Seasonal characterization of mercury contamination along the Portuguese coast: human health and environmental risk assessment*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | Seasonal tHg in edible bivalves and surface water at three Portuguese estuaries (Ria de Aveiro, Tagus, Ria Formosa) by CV-AFS and DMA; bivalve tHg <0.5 µg/g ww across systems with HQ <1 but Ria de Aveiro autumn shows ecological risk |
-| 9 | [[sources/hall2023-methylmercury-tidal-marsh\|Hall et al. 2023]]. *Linking Mesoscale Spatial Variation in Methylmercury Production to Bioaccumulation in Tidal Marsh Food Webs*, Environmental Science & Technology | 2023 | Peer-reviewed | MeHg and tHg in 116 primary and secondary consumers including bivalves (Geukensia, Macoma) from four tidal marsh features along the Petaluma River, San Francisco Bay; marsh-interior and edge bivalves had significantly higher MeHg than channel consumers |
-| 10 | [[sources/onyegeme-okerenta2023-shellfish-nigeria\|Onyegeme-Okerenta et al. 2023]]. *Potential Toxic elements in shellfish from three rivers in Niger Delta, Nigeria: bioaccumulation, dietary intake, and human health risk assessment*, Environmental Analysis, Health and Toxicology | 2023 | Peer-reviewed | tAs, Cd, Cr, Pb, and Ni in oyster (Crassostrea rhizophorae), shrimp, and periwinkle from three Niger Delta rivers; Buguma River bivalves exceeded FAO/WHO and EU Cd limits, with all-species HI >1 driven by Cr and TCR >1×10⁻⁴ |
+| 6 | [[sources/mancuso2024-food-contamination-cvd\|Mancuso et al. 2024]]. *Food contamination and cardiovascular disease: a narrative review* | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/bjerregaard2023-mercury-mussels-denmark\|Bjerregaard et al. 2023]]. *In Search of Mercury Lost from Sediments in a Previously Contaminated Coastal Area, Harboøre Tange, Denmark*, Bulletin of Environmental Contamination and Toxicology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/cardoso2023-mercury-portuguese-coast-seafood\|Cardoso et al. 2023]]. *Seasonal characterization of mercury contamination along the Portuguese coast: human health and environmental risk assessment*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/hall2023-methylmercury-tidal-marsh\|Hall et al. 2023]]. *Linking Mesoscale Spatial Variation in Methylmercury Production to Bioaccumulation in Tidal Marsh Food Webs*, Environmental Science & Technology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/onyegeme-okerenta2023-shellfish-nigeria\|Onyegeme-Okerenta et al. 2023]]. *Potential Toxic elements in shellfish from three rivers in Niger Delta, Nigeria: bioaccumulation, dietary intake, and human health risk assessment*, Environmental Analysis, Health and Toxicology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 11 | [[sources/jecfa-91st-cadmium-2022\|JECFA 2022]]. *Cadmium: dietary exposure assessment*, WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) | 2022 | Government report | JECFA dietary Cd exposure assessment confirming the PTMI of 25 µg/kg b.w./month; bivalve molluscs among the highest-concentration categories in the global occurrence dataset |
-| 12 | [[sources/vainio2022-baltic-mercury-food-web\|Vainio et al. 2022]]. *Trophic Dynamics of Mercury in the Baltic Archipelago Sea Food Web: The Impact of Ecological and Ecophysiological Traits*, Environmental Science & Technology | 2022 | Peer-reviewed | tHg by DMA-80 across 30 Baltic Archipelago Sea species including 13 invertebrates and bivalves; trophic magnification factors 2.11–2.34 (benthic) vs 3.58–4.02 (pelagic) — context for bivalve position low in the Hg-magnification cascade |
-| 13 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical Cd toxicology chapter identifying bivalve molluscs as a leading dietary Cd source, with mechanistic explanation of filter-feeding bioaccumulation |
-| 14 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM opinion establishing the EU Cd TWI; bivalves (excluding oysters) reported as the highest-mean-Cd food category (0.380 mg/kg), with regular consumers reaching approximately twice the TWI |
-| 15 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex maximum levels for Cd, Pb, and Hg in bivalve molluscs and other shellfish matrices |
+| 12 | [[sources/vainio2022-baltic-mercury-food-web\|Vainio et al. 2022]]. *Trophic Dynamics of Mercury in the Baltic Archipelago Sea Food Web: The Impact of Ecological and Ecophysiological Traits*, Environmental Science & Technology | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 13 | [[sources/raju2021-bivalves-cagayan-philippines\|Raju et al. 2021]]. *Heavy Metal Determination of Bivalves in Cagayan Valley, Philippines*, Scholars Academic Journal of Biosciences | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 14 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical Cd toxicology chapter identifying bivalve molluscs as a leading dietary Cd source, with mechanistic explanation of filter-feeding bioaccumulation |
+| 15 | [[sources/shue2012-bivalves-tapeng-taiwan\|Shue et al. 2012]]. *Seasonal variations of heavy metals in the bivalve's mollusks from Ta-Peng Bay lagoon in southwestern Taiwan*, Advanced Materials Research | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 16 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM opinion establishing the EU Cd TWI; bivalves (excluding oysters) reported as the highest-mean-Cd food category (0.380 mg/kg), with regular consumers reaching approximately twice the TWI |
+| 17 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex maximum levels for Cd, Pb, and Hg in bivalve molluscs and other shellfish matrices |
 <!-- END: hmi-source-legend -->
 

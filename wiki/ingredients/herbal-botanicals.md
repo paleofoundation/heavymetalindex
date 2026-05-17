@@ -7,87 +7,104 @@ aliases: [rooibos, chamomile, peppermint, hibiscus, ginger]
 category: botanical
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 2000]
+    p95_ppb: 3583
+    confidence: high
+    n_studies: 19
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [20, 450]
+    p95_ppb: 985
+    confidence: high
+    n_studies: 17
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [3, 33]
+    p95_ppb: 107
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [8000, 200000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [245, 500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [337, 1686]
+    p95_ppb: 7886
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 1000]
+    p95_ppb: 14012
+    confidence: high
+    n_studies: 14
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [herbal-botanical-infusions]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 28
 ---
 
 # Herbal botanicals
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=19 | 50–2000 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/rylander2025-georgia-children-blood-lead\|2]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|3]] |
+| Cd | n=17 | 20–450 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=14 | 50–1000 | high | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| tHg | n=10 | 3–33 | medium | [[sources/porwollik2026-rhodiola-supplements-us-market\|1]], [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|2]], [[sources/moussa2024-spices-herbs-lebanon\|3]] |
+| Ni | n=4 | 8000–200000 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/salmani2023-herbal-teas-metals-review\|3]] |
+| Al | n=3 | 245–500 | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/salmani2023-herbal-teas-metals-review\|2]], [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|3]] |
+| Cr | n=7 | 337–1686 | medium | [[sources/troeschel2024-cinnamon-applesauce-lead\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -133,4 +150,28 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 27 | [[sources/wang2021-agnh-cinnabar-realgar-hg-as\|Wang et al. 2021]]. *AGNH Protects Against Cinnabar and Realgar-Induced Hepatorenal Toxicity in Mice via Attenuation of Oxidative Stress, Inflammation, and Apoptosis*, Frontiers in Pharmacology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 | 28 | [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|Zafeiraki et al. 2021]]. *Macro and Trace Elements in Hemp (Cannabis sativa L.) Cultivated in Greece: Risk Assessment of Toxic Elements*, Frontiers in Chemistry | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
+## Ranges by source, region, and variety
+
+_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+
+## Processing effects
+
+_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+
+## Ingredient-derivative risk
+
+_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+
+## Mitigation options
+
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+
+## Regulatory limits that apply
+
+_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+
 

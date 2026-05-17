@@ -6,9 +6,8 @@ title: "Heavy Metal Contamination of Dairy Cattle Feed in the Free State and Lim
 authors: [Adelusi OA, Oladeji OM, Gbashi S, Njobeh PB]
 year: 2024
 publication: "Food Science & Nutrition"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Heavy%20Metal%20Contamination%20of%20Dairy%20Cattle%20Feed%20in%20the%20Free%20State%20and%20Limpopo%20Provinces%20of%20South%20Africa
+doi: "10.1002/fsn3.4082"
+access_url: "https://doi.org/10.1002/fsn3.4082"
 source_type: peer-reviewed
 evidence_tier: A
 license: null

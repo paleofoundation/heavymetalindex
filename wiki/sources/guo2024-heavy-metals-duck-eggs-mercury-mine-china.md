@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy metal contamination in duck eggs from a mercury mining area.pdf"
 metals: [Pb, Cr]
 ingredients: ["[[ingredients/eggs]]"]
-products: []
+products: ["[[products/poultry-product]]"]
 matrices: [duck-egg-yolk, duck-egg-white]
 jurisdictions: [CN]
 near_duplicates: []

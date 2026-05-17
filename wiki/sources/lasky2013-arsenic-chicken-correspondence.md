@@ -14,7 +14,7 @@ license: unknown
 raw_path: raw/markdown/FM_3764092/FM_3764092.md
 metals: [tAs, iAs]
 ingredients: ["[[ingredients/chicken]]", "[[ingredients/poultry]]"]
-products: []
+products: ["[[products/poultry-product]]"]
 matrices: [poultry, meat]
 jurisdictions: [US]
 near_duplicates: [FM_3764093]

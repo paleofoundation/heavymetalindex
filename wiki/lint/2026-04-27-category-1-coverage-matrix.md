@@ -5,6 +5,7 @@ audience: [researcher]
 updated: 2026-04-28
 op: coverage-matrix
 handle: category-1-products-scaffold
+noindex: true
 ---
 
 # Category 1 Source Coverage Matrix — Infant and Child Foods, Ages 0-5

@@ -6,87 +6,104 @@ aliases: [baby spinach, mature spinach, frozen spinach, spinach puree]
 category: leafy-vegetable
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [30, 300]
+    p95_ppb: 800
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [100, 500]
+    p95_ppb: 1100
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 20]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [200, 1500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [2000, 10000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [100, 800]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [10, 100]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [soil-uptake, leaf-accumulation, geography, growing-season]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/mature-leaf-spinach]]"]
 used_in_products: ["[[products/baby-food-vegetables]]", "[[products/salad-mixes]]", "[[products/smoothies]]", "[[products/frozen-vegetable-mixes]]", "[[products/baby-leafy-purees]]"]
 audience: [regulator, educator, consumer, app]
 sources: 15
-updated: 2026-04-24
+updated: 2026-05-16
 ---
 
 # Spinach
 
-_Stub page. Contamination profile populates on the next ingest wave. Spinach is a representative leafy vegetable for which the EFSA 2009 occurrence data place cadmium concentrations in the range characteristic of leafy greens generally, reflecting the plant family's efficient leaf-accumulation of cadmium from soil._
+Spinach is a representative leafy vegetable for which the EFSA 2009 occurrence data place cadmium concentrations in the range characteristic of leafy greens generally, reflecting the plant family's efficient leaf-accumulation of cadmium from soil.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 30–300 | medium | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/seyfferth2024-spinach-cd-pb-review\|3]] |
+| Cd | n=10 | 100–500 | medium | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 10–100 | low | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|3]] |
+| tHg | n=2 | 1–20 | low | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/kurniawati2021-jakarta-staple-foods-naa\|2]] |
+| Ni | n=4 | 200–1500 | low | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
+| Al | n=4 | 2000–10000 | low | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/efsa2021-aluminium-food-qa\|3]] |
+| Cr | n=6 | 100–800 | medium | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Why this commodity accumulates cadmium
 
@@ -94,11 +111,19 @@ Leafy vegetables as a category concentrate cadmium in their leaves through trans
 
 ## Ranges by source, region, and variety
 
-_Pending ingest of commodity-level occurrence data. EFSA 2009 Table 1 reports a mean cadmium concentration in spinach of 0.062 mg/kg across European samples, which places spinach in the upper range of the leafy-vegetable category and above the broad leafy-vegetables mean of 0.023 mg/kg in the same EFSA dataset._
+The dominant axis of variance in spinach cadmium is soil-Cd loading at the growing site, mediated by soil pH and zinc status. Spinach is among the most efficient cadmium accumulators in the leafy-vegetable category — [[sources/efsa-cadmium-contam-2009|EFSA 2009]] places spinach mean Cd at the upper end of leafy-greens, with the broad leafy-vegetables category mean substantially lower in the same survey. Within spinach specifically, cultivar effects are documented: some commercial varieties accumulate cadmium more efficiently than others, and breeding programs have identified low-Cd-accumulator lines.
+
+Growing-region effects in spinach track regional soil-Cd inheritance: regions with historic phosphate-fertilizer use, mining legacy, or naturally Cd-rich sedimentary rocks produce higher-Cd spinach than regions with cleaner agricultural-soil baselines. Hydroponic and greenhouse spinach can be substantially lower in Cd than soil-grown spinach because the nutrient solution is the controllable input rather than the soil; for HMTc-relevant supply chains targeting low-Cd spinach, hydroponic sourcing is a documented intervention.
+
+Lead in spinach is a secondary concern. Surface Pb (from atmospheric deposition near roadways or industrial sources) is partially removable by washing; root-uptake Pb is bound in the leaf tissue. Spinach grown near historic Pb sources (lead-arsenate-pesticide-treated orchards, leaded-gasoline-era roadside contamination, industrial-zone proximity) can carry elevated Pb. The intervention is geographic provenance more than processing.
 
 ## Processing effects
 
-_Pending. Washing and peeling are not meaningful interventions for spinach cadmium; the metal is incorporated into the leaf tissue, not deposited on the surface._
+Spinach cadmium is incorporated into the leaf tissue during growth and is not removed by ordinary processing. Washing does not reduce leaf-Cd (surface dust contributes negligibly to total Cd). Drying or wilting concentrates the metals per unit dry mass without changing total mass-balance. Freezing does not change Cd content. Canning slightly concentrates per-serving Cd because of water loss during the canning process.
+
+Cooking does not reduce spinach cadmium. Some water-soluble metals leach into the cooking water, but the leach fraction for Cd is small and the cooking-water-discard practice is not standard for spinach. For populations consuming large quantities of spinach (high-greens dietary patterns, infants on pureed greens, some traditional diets), the geographic-provenance lever upstream is the dominant intervention rather than processing.
+
+For Pb specifically, washing removes the surface-deposited fraction and can reduce total leaf-Pb modestly where atmospheric or dust deposition is the dominant Pb source. Multi-rinse protocols reduce Pb more than single-rinse protocols. For Cd, the same washing operations have negligible effect.
 
 ## Ingredient-derivative risk
 

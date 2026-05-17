@@ -6,6 +6,7 @@ authors: ["U.S. Food and Drug Administration"]
 year: 2022
 publication: "FDA Total Diet Study supporting documentation"
 source_type: government_documentation
+no_doi_assigned: true
 evidence_tier: A
 license: us-government-work
 raw_path: "raw/Digest/TDS-ElementsAnalyticalResultsKey-TDS-Report-FY2018toFY2020-07082022_0.pdf"

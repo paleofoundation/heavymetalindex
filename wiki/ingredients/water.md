@@ -11,77 +11,77 @@ contamination_profile:
     typical_ppb: [0, 9]
     p95_ppb: 21.6
     confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 0.3]
     p95_ppb: 0.5
     confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    n_studies: 6
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [0, 5]
     p95_ppb: 6
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    status: populated
+    typical_ppb: [0, 20]
+    p95_ppb: 70
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 176.3
     confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    status: populated
+    typical_ppb: [0, 50]
+    p95_ppb: 100
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 3.1
-    confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [0, 10]
+    p95_ppb: 50
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   U:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [0, 5]
+    p95_ppb: 30
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [flavored-waters]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 18
 ---
 
@@ -95,20 +95,20 @@ Drinking water does not accumulate heavy metals through the biological mechanism
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 0–9 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/dorevitch2024-drinking-water-lead-spikes\|2]], [[sources/levin2024-us-drinking-water-contaminants\|3]] |
+| Cd | n=6 | 0–0.3 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|3]] |
+| iAs | n=7 | 0–5 | medium | [[sources/epa-iris-inorganic-arsenic-2025\|1]], [[sources/zecchin2021-arsenic-groundwater-italy\|2]], [[sources/jecfa-82nd-arsenic\|3]] |
+| tAs | n=8 | 0–10 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/zecchin2021-arsenic-groundwater-italy\|3]] |
+| tHg | n=4 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
+| Ni | n=4 | 0–20 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
+| Al | n=4 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/atsdr-aluminum-toxprofile-2008\|3]] |
+| Cr | n=3 | 0–50 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
+| Sn | n=2 | 0 | low | [[sources/ufelle2021-metals-chapter\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | n=2 | 0–5 | low | [[sources/levin2024-us-drinking-water-contaminants\|1]], [[sources/ufelle2021-metals-chapter\|2]] |
 
 ## Routing
 
@@ -175,14 +175,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/ufelle2021-metals-chapter\|Ufelle et al. 2021]]. *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*, Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education | 2021 | Textbook chapter | Comprehensive multi-metal toxicology reference covering routes of exposure including water for As, Cd, Pb, Hg, Al, Ni, and other HMI-tracked metals |
 | 7 | [[sources/zecchin2021-arsenic-groundwater-italy\|Zecchin et al. 2021]]. *Arsenic-Oxidizing Bacteria in Arsenic-Contaminated Groundwaters of Po Plain (Northern Italy): Community Diversity and Potential Role in As Mobilization*, Frontiers in Microbiology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 | 8 | [[sources/efsa-nickel-contam-2020\|EFSA 2020]]. *Update of the Risk Assessment of Nickel in Food and Drinking Water*, EFSA Journal 2020;18(11):6268 | 2020 | Government report | Ni TDI of 13 µg/kg b.w./day and European Ni occurrence data across food and drinking water, with drinking water identified as a contributing Ni exposure pathway |
-| 9 | [[sources/jecfa-82nd-arsenic\|JECFA 2017]]. *Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA*, WHO Food Additives Series 73 | 2017 | Government report | JECFA arsenic monograph confirming the BMDL01 framework for iAs risk characterization, with drinking water the canonical human exposure route for dose-response anchoring |
-| 10 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002 | 2015 | Government report | *[awaiting synthesis]* |
-| 11 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | European iAs occurrence across 100,000+ data points with water as a significant exposure pathway; European dietary iAs ranges 0.13–0.56 µg/kg b.w./day with children exposed at 2–3× adult per-kg rates |
-| 12 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR MRL of 1 mg Al/kg/day for chronic oral Al exposure, with water identified as a background Al exposure route alongside infant formula and food |
-| 13 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal (2008) 754, 1-34 | 2008 | Government report | EFSA TWI of 1 mg Al/kg b.w./week, noting water as a contributing Al exposure pathway in addition to food additives and infant formula |
-| 14 | [[sources/atsdr-arsenic-toxprofile-2007\|ATSDR 2007]]. *Toxicological Profile for Arsenic*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2007 | Government report | Comprehensive iAs toxicology synthesis with MRL derivation, using drinking water as the primary human exposure route for dose-response anchoring |
-| 15 | [[sources/epa-arsenic-drinking-water-mcl\|EPA 2001]]. *EPA Drinking Water Arsenic MCL Rule (10 ppb)*, U.S. Environmental Protection Agency | 2001 | Government report | The US EPA MCL of 10 ppb for iAs in drinking water, the operational regulatory limit directly applicable to municipal and bottled water |
-| 16 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd, Pb, Hg, and iAs across food and feed matrices, including limits applicable to natural mineral waters |
-| 17 | [[sources/epa-iris-cadmium-1989\|EPA 1989]]. *Cadmium (CASRN 7440-43-9) — IRIS Chemical Assessment Summary*, U.S. Environmental Protection Agency, Integrated Risk Information System | 1989 | Government report | EPA IRIS RfD for Cd from drinking water (5×10⁻⁴ mg/kg/day), a route-specific value reflecting higher Cd absorption from water than from food |
+| 9 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | *[awaiting synthesis]* |
+| 10 | [[sources/jecfa-82nd-arsenic\|JECFA 2017]]. *Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA*, WHO Food Additives Series 73 | 2017 | Government report | JECFA arsenic monograph confirming the BMDL01 framework for iAs risk characterization, with drinking water the canonical human exposure route for dose-response anchoring |
+| 11 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002 | 2015 | Government report | *[awaiting synthesis]* |
+| 12 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | European iAs occurrence across 100,000+ data points with water as a significant exposure pathway; European dietary iAs ranges 0.13–0.56 µg/kg b.w./day with children exposed at 2–3× adult per-kg rates |
+| 13 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR MRL of 1 mg Al/kg/day for chronic oral Al exposure, with water identified as a background Al exposure route alongside infant formula and food |
+| 14 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal (2008) 754, 1-34 | 2008 | Government report | EFSA TWI of 1 mg Al/kg b.w./week, noting water as a contributing Al exposure pathway in addition to food additives and infant formula |
+| 15 | [[sources/atsdr-arsenic-toxprofile-2007\|ATSDR 2007]]. *Toxicological Profile for Arsenic*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2007 | Government report | Comprehensive iAs toxicology synthesis with MRL derivation, using drinking water as the primary human exposure route for dose-response anchoring |
+| 16 | [[sources/epa-arsenic-drinking-water-mcl\|EPA 2001]]. *EPA Drinking Water Arsenic MCL Rule (10 ppb)*, U.S. Environmental Protection Agency | 2001 | Government report | The US EPA MCL of 10 ppb for iAs in drinking water, the operational regulatory limit directly applicable to municipal and bottled water |
+| 17 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd, Pb, Hg, and iAs across food and feed matrices, including limits applicable to natural mineral waters |
+| 18 | [[sources/epa-iris-cadmium-1989\|EPA 1989]]. *Cadmium (CASRN 7440-43-9) — IRIS Chemical Assessment Summary*, U.S. Environmental Protection Agency, Integrated Risk Information System | 1989 | Government report | EPA IRIS RfD for Cd from drinking water (5×10⁻⁴ mg/kg/day), a route-specific value reflecting higher Cd absorption from water than from food |
 <!-- END: hmi-source-legend -->
 

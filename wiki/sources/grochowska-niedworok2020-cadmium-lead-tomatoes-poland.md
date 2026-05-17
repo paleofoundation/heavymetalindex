@@ -13,7 +13,7 @@ license: "CC BY-NC 3.0 Poland"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Assessment of cadmium and lead content in tomatoes and tomato products.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/tomatoes]]", "[[ingredients/tomato-paste]]", "[[ingredients/tomato-products]]"]
-products: ["[[products/canned-tomatoes]]", "[[products/tomato-paste]]", "[[products/tomato-sauce]]", "[[products/tomato-juice]]"]
+products: ["[[products/canned-tomatoes]]", "[[products/tomato-paste]]", "[[products/tomato-sauce]]", "[[products/tomato-juice]]", "[[products/vegetable-juices-non-root]]", "[[products/non-root-vegetables]]", "[[products/condiments-general]]"]
 matrices: [fresh-tomato, dry-mass-tomato, canned-tomato-concentrate, tomato-puree, tomato-juice, tomato-sauce, ketchup, dried-tomato]
 jurisdictions: [PL, EU]
 near_duplicates: []

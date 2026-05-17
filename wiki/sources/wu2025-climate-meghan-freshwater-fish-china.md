@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: raw/markdown/FM_12002180/FM_12002180.md
 metals: [MeHg, tHg]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish, marine-fish, farmed-fish]
 jurisdictions: [CN]
 near_duplicates: []

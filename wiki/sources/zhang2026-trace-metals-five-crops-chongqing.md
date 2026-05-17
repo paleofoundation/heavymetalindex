@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: raw/markdown/FM_12913949_Trace_metal_pollution_and_ecological_effects_on_five_crops_a/FM_12913949_Trace_metal_pollution_and_ecological_effects_on_five_crops_a.md
 metals: [tAs, Pb, Cd, Cr, Ni]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/peanuts]]", "[[ingredients/soy]]", "[[ingredients/sweet-potato]]"]
-products: []
+products: ["[[products/peanuts]]", "[[products/soy-products]]"]
 matrices: [rice-grain, maize-grain, peanut-kernel, soybean-grain, sweet-potato-root]
 jurisdictions: [CN]
 near_duplicates: []

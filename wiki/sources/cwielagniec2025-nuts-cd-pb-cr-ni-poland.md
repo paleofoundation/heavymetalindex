@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0297.pdf"
 metals: [Cd, Pb, Cr, Ni]
 ingredients: ["[[ingredients/peanuts]]", "[[ingredients/almond]]", "[[ingredients/hazelnuts]]", "[[ingredients/walnuts]]", "[[ingredients/cashews]]"]
-products: []
+products: ["[[products/peanuts]]", "[[products/nuts-seeds-other]]"]
 matrices: [nut, tree-nut, peanut]
 jurisdictions: [PL, EU]
 near_duplicates: []

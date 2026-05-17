@@ -14,44 +14,44 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [36.4, 44.4]
     p95_ppb: 44.7
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [1, 2]
+    p95_ppb: 2
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [1.0, 5.0]
     p95_ppb: 5.0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [408, 528]
     p95_ppb: 539
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -63,9 +63,9 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -85,7 +85,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 14
 ---
 
@@ -101,20 +101,20 @@ Cadmium accumulation in peanuts is further documented in authoritative toxicolog
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=8 | 0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Cd | n=11 | 36.4–44.4 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| iAs | n=3 | 1–2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
+| tAs | n=7 | 1–5 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|3]] |
+| tHg | n=3 | 0 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=9 | 408–528 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=7 | 0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | low | — |
 
 ## Ranges by source, region, and variety
 

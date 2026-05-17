@@ -13,7 +13,7 @@ raw_path: "raw/Digest/abt2018.pdf"
 access_url: "https://doi.org/10.1080/19393210.2017.1420700"
 metals: [Cd, Pb]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
-products: []
+products: ["[[products/chocolate]]"]
 matrices: [cocoa-powder, dark-chocolate, milk-chocolate, cocoa-nibs]
 jurisdictions: [US]
 sample_n_total: 144

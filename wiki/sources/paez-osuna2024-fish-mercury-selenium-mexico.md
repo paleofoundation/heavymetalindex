@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10799130/FM_10799130.md
 metals: [tHg, Se]
 ingredients: ["[[ingredients/tilapia]]", "[[ingredients/freshwater-fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish, fish-muscle, fish-liver, fish-gills]
 jurisdictions: [MX]
 near_duplicates: []

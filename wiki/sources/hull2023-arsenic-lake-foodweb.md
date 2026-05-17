@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10586660/FM_10586660.md
 metals: [tAs, iAs]
 ingredients: ["[[ingredients/freshwater-fish]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish, aquatic-invertebrate, sediment, water]
 jurisdictions: [US]
 near_duplicates: []

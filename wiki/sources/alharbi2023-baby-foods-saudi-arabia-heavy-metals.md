@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: raw/markdown/FM_10494610/FM_10494610.md
 metals: [tAs, Cd, Pb]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]"]
-products: ["[[products/infant-formula-powder-non-soy]]", "[[products/baby-cereals-dry-non-rice]]"]
+products: ["[[products/infant-formula-powder-non-soy]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/snacks-crackers-biscuits]]"]
 matrices: [infant-formula-stage-1, infant-formula-stage-2, cereal-based-meals, biscuits, dry-weight]
 jurisdictions: [SA]
 sample_n: 111

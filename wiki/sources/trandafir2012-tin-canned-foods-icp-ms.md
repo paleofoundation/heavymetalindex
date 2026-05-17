@@ -14,8 +14,8 @@ evidence_tier: B
 license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Determination of Tin in Canned Foods by Inductively Coupled Plasm.pdf"
 metals: [Sn]
-ingredients: ["[[ingredients/canned-vegetables]]", "[[ingredients/canned-fruit]]", "[[ingredients/tomatoes]]", "[[ingredients/mushrooms]]", "[[ingredients/peas]]", "[[ingredients/beans]]", "[[ingredients/corn]]"]
-products: ["[[products/canned-vegetables]]", "[[products/canned-fruit]]"]
+ingredients: ["[[ingredients/canned-vegetables]]", "[[ingredients/canned-fruit-cocktail]]", "[[ingredients/tomatoes]]", "[[ingredients/mushrooms]]", "[[ingredients/peas]]", "[[ingredients/beans]]", "[[ingredients/corn]]"]
+products: ["[[products/canned-vegetables]]", "[[products/canned-fruit]]", "[[products/canned-fish]]"]
 matrices: [canned-food]
 jurisdictions: [RO, EU]
 sample_n: 13

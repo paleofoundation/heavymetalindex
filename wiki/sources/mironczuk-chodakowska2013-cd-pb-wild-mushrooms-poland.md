@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/wild-mushrooms]]"]
-products: []
+products: ["[[products/non-root-vegetables]]"]
 matrices: [wild-mushroom, cultivated-mushroom, dried-mushroom]
 jurisdictions: [PL, EU]
 near_duplicates: []

@@ -6,16 +6,15 @@ title: "Deterministic and Probabilistic Health Risk Assessment of Toxic Metals i
 authors: [Wang Y, Cao D, Qin J, Zhao S, Lin J, Zhang X, Wang J, Zhu M]
 year: 2023
 publication: "Archives of Environmental Contamination and Toxicology"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Deterministic%20and%20Probabilistic%20Health%20Risk%20Assessment%20of%20Toxic%20Metals%20in%20the%20Daily%20Diets%20of%20Residents%20in%20Industrial%20Regions%20of%20Northern%20Ningxia%2C%20China"
+doi: "10.1007/s12011-022-03538-3"
+access_url: "https://doi.org/10.1007/s12011-022-03538-3"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_10350440/FM_10350440.md
 metals: [Al, tAs, Cr, Cd, Ni, Pb]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/spinach]]", "[[ingredients/leafy-greens]]", "[[ingredients/potatoes]]", "[[ingredients/soy]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/meat]]", "[[ingredients/fruit]]"]
-products: []
+products: ["[[products/non-root-vegetables]]"]
 matrices: [drinking-water, cereals, meat, vegetables, fruits, legumes, potatoes, solanaceous-vegetables]
 jurisdictions: [CN]
 near_duplicates: [FM_10350440_Deterministic_and_Probabilistic_Health_Risk_Assessment_of_To]

@@ -6,9 +6,8 @@ title: "BODIPY sporopollenin fluorescence sensor for mercury in tap water"
 authors: [Chen]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=BODIPY%20sporopollenin%20fluorescence%20sensor%20for%20mercury%20in%20tap%20water
+doi: "10.1039/d4ra06386d"
+access_url: "https://doi.org/10.1039/d4ra06386d"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

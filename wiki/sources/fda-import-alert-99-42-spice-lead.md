@@ -14,7 +14,7 @@ license: "US Government Work"
 raw_path: "raw/manual-fetch/spice-adulteration-lead/https-:www.accessdata.fda.gov:cms_ia:importalert_1167.html Import Alert 99-42.pdf"
 metals: [Pb]
 ingredients: ["[[ingredients/turmeric]]", "[[ingredients/herbal-botanicals]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [spice, turmeric, cinnamon]
 jurisdictions: [US]
 sample_n: null

@@ -6,6 +6,7 @@ authors: ["European Commission Scientific Committee on Food"]
 year: 2002
 publication: "European Commission Health and Consumer Protection Directorate-General, SCF/CS/CNTM/OTH/18 Final"
 source_type: government_report
+no_doi_assigned: true
 evidence_tier: A
 license: eu-government-work
 raw_path: "raw/Digest/out110_en.pdf"
@@ -13,7 +14,7 @@ access_url: "https://ec.europa.eu/food/fs/sc/scf/out110_en.pdf"
 metals: [Sn]
 species: [Sn2+, Sn4+]
 ingredients: []
-products: []
+products: ["[[products/canned-fish]]"]
 matrices: [canned-food, canned-beverage]
 jurisdictions: [EU]
 adopted_date: 2001-12-12

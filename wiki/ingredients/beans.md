@@ -98,18 +98,20 @@ Beans accumulate metals through root uptake into the seed-pod and seed tissues, 
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=6       | 10–200    | 500     | medium | [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|3]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|1]] |
-| Cd  | n=5       | 10–150    | 300     | medium | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|1]], [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|3]] |
-| iAs | data gap  | —         | —       | —      | — |
-| tAs | n=3       | 10–100    | —       | medium | [[sources/sandil2023-arsenic-bean-lettuce\|8]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|7]] |
-| tHg | data gap  | —         | —       | —      | — |
-| Ni  | n=3       | 100–1,500 | —       | high   | [[sources/albals2021-coffee-jordan-icpms\|2]] |
-| Al  | data gap  | —         | —       | —      | — |
-| Cr  | n=2       | 10–200    | —       | low    | [[sources/arevalo-gardini2017-peru-cacao-regional-metals\|6]] |
-| Sn  | n=2       | 0–1,000   | —       | low    | [[sources/atsdr2005-tin-toxicological-profile\|4]], [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|3]] |
-| U   | data gap  | —         | —       | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 10–200 | medium | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]] |
+| Cd | n=5 | 10–150 | medium | [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=3 | 10–100 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|2]] |
+| tHg | data gap | — | — | — |
+| Ni | n=3 | 100–1500 | high | [[sources/han2024-nickel-zhejiang-china\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 10–200 | low | — |
+| Sn | n=2 | 0–1000 | low | [[sources/trandafir2012-tin-canned-foods-icp-ms\|1]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -143,7 +145,7 @@ For finished products using beans as an ingredient (chili, soups, dips, ready-me
 
 ### Testing and QC levers
 
-Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) is the standard intervention.
+Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) [[testing/icp-ms]] is the standard intervention.
 
 ### Packaging and storage levers
 

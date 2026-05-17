@@ -7,7 +7,7 @@ year: 2007
 publication: "OSWER Directive 9285.7-76, U.S. Environmental Protection Agency"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Ecological%20Soil%20Screening%20Levels%20for%20Nickel%20%E2%80%94%20Interim%20Final
+access_url: "https://www.epa.gov/chemical-research/ecological-soil-screening-level-metal-contaminants"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/eco-ssl_nickel.pdf

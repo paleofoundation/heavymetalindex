@@ -5,28 +5,44 @@ commodity: meat-and-poultry
 aliases: [meat, poultry, chicken, turkey, beef, pork, game]
 category: terrestrial-animal
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [1, 50], p95_ppb: 700, confidence: medium, n_studies: 8, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [1, 30], p95_ppb: 230, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [0, 20], p95_ppb: 310, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [50, 250], p95_ppb: null, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [300, 600], p95_ppb: null, confidence: low, n_studies: 3, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [1, 30], p95_ppb: null, confidence: medium, n_studies: 5, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [10, 70], p95_ppb: null, confidence: low, n_studies: 4, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [0, 50], p95_ppb: null, confidence: low, n_studies: 2, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [animal-feed, organ-content, processing, mixed-meal-formulation]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/organ-meats]]"]
 used_in_products: ["[[products/meat-and-poultry-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
 sources: 11
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Meat And Poultry
 
-_Stub page. Chekri et al. 2019 reports meat/fish-based ready-to-eat infant meals as a combined category, so this source cannot isolate meat and poultry from fish-containing baby foods. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]_
+Chekri et al. 2019 reports meat/fish-based ready-to-eat infant meals as a combined category, so this source cannot isolate meat and poultry from fish-containing baby foods. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=8 | 1–50 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
+| Cd | n=6 | 1–30 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 1–30 | medium | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/meligy2024-camel-meat-toxic-elements\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
+| tHg | n=5 | 0–20 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
+| Ni | n=5 | 50–250 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/eccles2024-polar-bear-metals-traditional-food\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
+| Al | n=3 | 300–600 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cr | n=4 | 10–70 | low | [[sources/meligy2024-camel-meat-toxic-elements\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| Sn | n=2 | 0–50 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -51,4 +67,48 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|Chekri et al. 2019]]. *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*, Journal of Food Composition and Analysis | 2019 | Peer-reviewed | French TDS Al, Sb, tAs, Cd, Cr, Ni, Sn means for meat and fish infant foods (as-consumed); provides Sn and Sb data not in FDA TDS; French regulatory diet context |
 | 11 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency (FERA) Report for UK Food Standards Agency | 2015 | Government report | UK FERA/FSA TDS occurrence of Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, and Sb in beef and meat-and-poultry food groups composited from 3,312 retail samples across 24 UK locations on an as-consumed basis |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+This is the aggregate node for meat and poultry commodities; see [[ingredients/beef]], [[ingredients/poultry]], [[ingredients/pork-bacon]], [[ingredients/ham]], [[ingredients/turkey]], [[ingredients/organ-meats]], [[ingredients/chicken]], [[ingredients/ground-beef]], [[ingredients/lamb-chop]], [[ingredients/pork-chop]], and related per-species pages for commodity-specific synthesis. Across the meat-and-poultry category, the dominant pathway is dietary exposure of the live animal: feed, water, and mineral supplements deliver trace metals that deposit in muscle, organs, bone, and fat. Lifetime exposure accumulates particularly in liver and kidney (the dominant Cd-storage organs) and in bone (the dominant Pb-storage tissue).
+
+The category-wide HMTc panel concerns are Pb and Cd, with organ meats (a subcategory across species) carrying substantially higher Cd than muscle. Methylmercury is not a meat-and-poultry concern because terrestrial herbivores do not bioaccumulate methylmercury through their plant-and-grain diet.
+
+## Processing effects
+
+Meat-and-poultry processing (slaughter, dressing, aging, cutting, packaging) does not change muscle and organ metal content meaningfully. Cooking concentrates metals per unit cooked mass through water loss but does not reduce total per-serving load. Removing skin and trimming fat have small effects on Pb (modest reduction when skin is the deposition surface) and negligible effects on Cd (which is bound in muscle and organ tissue).
+
+Curing, smoking, and drying (processed meats: jerky, biltong, deli meats, sausage, bacon) concentrate metals per unit dry mass through water loss; added curing salts can contribute trace Pb depending on salt source. Canning introduces standard tinplate-Sn-migration considerations.
+
+See per-species ingredient pages for commodity-specific processing detail.
+
+## Ingredient-derivative risk
+
+Meat-derived derivatives that concentrate metals: bone broth (Pb from bone tissue), meat-organ supplements (Cd-rich organ-derivative supplements sold in health-food channels), meat-protein powders and isolates (per-mass-concentrated relative to source meat), gelatin and collagen products (rendered from connective tissue and bone; trace Pb depending on source-animal exposure).
+
+Processed meats (deli meat, sausage, hot dogs, bacon, jerky, canned meat products) inherit the source-meat metal load plus contributions from cure salts, binders, and packaging.
+
+Pet-food and animal-feed derivatives of meat and poultry have their own regulatory framework (FDA CVM, AAFCO) and are addressed under [[products/pet-food-dry-kibble|Cat 17 Pet Foods]].
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention category-wide. Single-source-region sourcing from documented low-Pb production areas, supplier-feed verification, and avoidance of high-Cd organ-sourcing reduce per-product Pb and Cd. Feed-source specification (testing of cattle/poultry/swine feed for Pb and Cd) is the operational supplier-side intervention.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the feed-grain and forage stage: feed-grain sourcing from low-Cd growing regions, water-source Pb testing for production water, avoidance of contaminated pasture for grazing animals (post-mining-area restoration, urban-adjacent grazing on Pb-deposition soils).
+
+**Processing levers** ([[mitigation/processing]]) are limited for fresh meat. Visible-fat trimming has small Pb effect where fat is the deposition site. Skin removal reduces poultry per-serving Pb where skin is the deposition surface. Cooking-method choice does not reduce total exposure.
+
+**Formulation levers** ([[mitigation/formulation]]) include muscle-only vs muscle-plus-organ formulation in processed meats and ingredient-percentage adjustment in compounded products. Organ-meat reduction in mixed-meat products substantially reduces per-serving Cd.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb and Cd testing on incoming carcasses, particularly for processed products and infant-marketed meat purees. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the standard Sn-migration consideration for canned meat products and food-contact-substance specifications for plastic and aluminum-foil packaging of fresh meat.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in muscle meat (bovine, swine, ovine, equine, poultry) and in offal (liver, kidney). Offal MLs are higher than muscle MLs reflecting the organ-accumulation pattern.
+- Codex Alimentarius CXS 193-1995 — sets Cd and Pb MLs for meat and offal, distinguishing muscle from organ; species-specific values apply where they exist.
+- USDA/FSIS National Residue Program monitors meat and poultry for chemical residues including heavy metals; no binding action levels for Pb or Cd specifically but ongoing surveillance.
+- FDA does not maintain a binding action level for Pb or Cd in meat or poultry.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to meat and poultry sold in California; serving-based screen governs.
+
 

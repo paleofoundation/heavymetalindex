@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/canned-albacore-tuna-white]]", "[[ingredie
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 5
+sources: 6
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
@@ -98,18 +98,20 @@ Mercury in canned tuna originates from the marine biogeochemical cycle: atmosphe
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=4       | 5–100      | 300       | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|3]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|4]] |
-| Cd  | n=4       | 5–50       | 150       | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|3]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|4]] |
-| iAs | n=1       | 1–20       | —         | low    | [[sources/ulusoy2023-canned-tuna-toxic-metals\|6]] |
-| tAs | n=3       | 500–5,000  | 10,000    | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|3]], [[sources/ulusoy2023-canned-tuna-toxic-metals\|6]] |
-| tHg | n=5       | 100–500    | 1,500     | high   | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|5]], [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador\|1]], [[sources/ulusoy2023-canned-tuna-toxic-metals\|6]] |
-| Ni  | n=2       | 50–500     | —         | low    | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|3]] |
-| Al  | n=2       | 100–2,000  | —         | low    | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|3]], [[sources/ali2025-carbon-dots-aluminum-cobalt-canned-food\|2]] |
-| Cr  | n=3       | 10–200     | —         | low    | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|3]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|4]] |
-| Sn  | n=1       | 0–500      | —         | low    | [[sources/ali2025-carbon-dots-aluminum-cobalt-canned-food\|2]] |
-| U   | data gap  | —          | —         | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 5–100 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| Cd | n=4 | 5–50 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| iAs | n=1 | 1–20 | low | — |
+| tAs | n=3 | 500–5000 | medium | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| tHg | n=5 | 100–500 | high | [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador\|1]], [[sources/ec-reg-2022-617-mercury-fishery\|2]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|3]] |
+| Ni | n=2 | 50–500 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| Al | n=2 | 100–2000 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]] |
+| Cr | n=3 | 10–200 | low | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|1]], [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|2]] |
+| Sn | n=1 | 0–500 | low | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -161,7 +163,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador\|Aguilar-Miranda et al. 2024]]. *Total mercury exposure through canned tuna in water sold in Quito, Ecuador*, Scientific Reports | 2024 | Peer-reviewed | Ecuadorian Quito retail canned-tuna-in-water mercury distribution (n=60) |
-| 2 | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|de et al. 2021]]. *Data on metals, nonmetal, and metalloid in the samples of the canned tuna and canned sardines sold in Brazil*, Data in Brief | 2021 | Peer-reviewed | Brazilian canned-tuna-and-sardines 6-metal panel including rarely-measured Al (n=20) |
-| 3 | [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|Rodriguez-Mendivil et al. 2019]]. *Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico*, Health Scope | 2019 | Peer-reviewed | Mexican Tijuana retail canned-tuna 4-metal panel with health-risk assessment (n=68) |
-| 4 | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|Shim et al. 2004]]. *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*, Journal of Food Science | 2004 | Peer-reviewed | US-market canned-tuna-salmon-mackerel mercury distribution (n=272); largest US-jurisdiction tuna-mercury dataset |
+| 2 | [[sources/ec-reg-2022-617-mercury-fishery\|EC 2022]]. *Commission Regulation (EU) 2022/617 of 12 April 2022 amending Regulation (EC) No 1881/2006 as regards maximum levels of mercury in fish and salt*, Official Journal of the European Union, OJ L 115, 13.4.2022, pp. 60–63 | 2022 | Regulation | *[awaiting synthesis]* |
+| 3 | [[sources/delima2021-metals-canned-tuna-sardines-brazil\|de et al. 2021]]. *Data on metals, nonmetal, and metalloid in the samples of the canned tuna and canned sardines sold in Brazil*, Data in Brief | 2021 | Peer-reviewed | Brazilian canned-tuna-and-sardines 6-metal panel including rarely-measured Al (n=20) |
+| 4 | [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana\|Rodriguez-Mendivil et al. 2019]]. *Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico*, Health Scope | 2019 | Peer-reviewed | Mexican Tijuana retail canned-tuna 4-metal panel with health-risk assessment (n=68) |
+| 5 | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|Shim et al. 2004]]. *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*, Journal of Food Science | 2004 | Peer-reviewed | US-market canned-tuna-salmon-mackerel mercury distribution (n=272); largest US-jurisdiction tuna-mercury dataset |
 <!-- END: hmi-source-legend -->

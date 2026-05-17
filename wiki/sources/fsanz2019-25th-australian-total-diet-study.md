@@ -7,7 +7,7 @@ year: 2019
 publication: "Food Standards Australia New Zealand"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=25th%20Australian%20Total%20Diet%20Study
+access_url: https://www.foodstandards.gov.au/science-data/monitoring-safety/australian-total-diet-study
 source_type: gov-report
 evidence_tier: A
 license: "copyright-australian-government"

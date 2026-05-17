@@ -11,36 +11,36 @@ contamination_profile:
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 11
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [0, 0]
@@ -52,16 +52,16 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1773]
     p95_ppb: 2689
-    confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [0, 35.5]
@@ -99,20 +99,20 @@ The exception to this low-risk characterization is environmental contamination a
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | — | — |
-| Cd | n=2 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=2 (in progress) | — | — | — | — |
-| Ni | n=2 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=2 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 0 | high | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
+| Cd | n=9 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
+| iAs | n=4 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| tAs | n=9 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
+| tHg | n=9 | 0 | medium | [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|1]], [[sources/aendo2024-thailand-egg-metals-goldmine\|2]], [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|3]] |
+| Ni | n=3 | 0 | high | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Al | n=2 | 0–1773 | low | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Cr | n=7 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/guo2024-duck-eggs-hg-mining-china\|2]], [[sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china\|3]] |
+| Sn | n=1 | 0–35.5 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
+| U | n=2 | 0 | high | — |
 
 ## Routing
 

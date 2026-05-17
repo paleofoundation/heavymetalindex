@@ -6,9 +6,8 @@ title: "G-triplex DNA biosensor for mercury detection validated in milk"
 authors: [Chen]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=G-triplex%20DNA%20biosensor%20for%20mercury%20detection%20validated%20in%20milk
+doi: "10.3390/ijms25158159"
+access_url: "https://doi.org/10.3390/ijms25158159"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

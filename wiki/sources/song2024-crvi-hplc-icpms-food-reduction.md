@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Development of a Fast Method Using HPLC-ICP-MS and Exploration of.pdf"
 metals: [Cr]
 ingredients: ["[[ingredients/rice-flour]]", "[[ingredients/wheat]]", "[[ingredients/tea]]", "[[ingredients/milk]]"]
-products: ["[[products/milk-powder]]", "[[products/yoghurt]]", "[[products/fruit-juice]]", "[[products/vinegar]]"]
+products: ["[[products/milk-powder]]", "[[products/yoghurt]]", "[[products/fruit-juice]]", "[[products/vinegar]]", "[[products/fruit-juice-not-canned]]", "[[products/plant-milks-non-soy-non-rice]]"]
 matrices: [milk-powder, yoghurt, fruit-juice, grain, beverages]
 jurisdictions: [CN]
 near_duplicates: []

@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_12847127/FM_12847127.md
 metals: [Pb, tAs, Cd, tHg, Al, Sb, Ni, Cr]
 ingredients: ["[[ingredients/yogurt]]", "[[ingredients/milk-and-dairy]]"]
-products: []
+products: ["[[products/mixed-meals-non-rice]]"]
 matrices: [milk, yogurt, ice-cream, milk-powder]
 jurisdictions: [EG]
 near_duplicates: []

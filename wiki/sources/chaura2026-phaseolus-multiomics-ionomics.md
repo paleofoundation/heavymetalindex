@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC-BY-NC-ND 4.0"
 raw_path: raw/markdown/FM_13019807/FM_13019807.md
 metals: [Pb, Cd, tAs, tHg, Cr]
-products: []
+products: ["[[products/legumes-pulses-other]]"]
 ingredients: ["[[ingredients/lentils]]"]
 matrices: [legume-grain, dry-bean]
 jurisdictions: [CO, MX, PE]

@@ -6,9 +6,8 @@ title: "FeMg-BDC MOF/Reduced Graphene Oxide Electrochemical Sensor for Lead(II) 
 authors: [Doan VD, Nguyen TL, Tran TK]
 year: 2025
 publication: null
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=FeMg-BDC%20MOF%2FReduced%20Graphene%20Oxide%20Electrochemical%20Sensor%20for%20Lead(II)%20Detection%20in%20Water
+doi: "10.1039/d4ra08952a"
+access_url: "https://doi.org/10.1039/d4ra08952a"
 source_type: peer-reviewed
 evidence_tier: A
 license: null

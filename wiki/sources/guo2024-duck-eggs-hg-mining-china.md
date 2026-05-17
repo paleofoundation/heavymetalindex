@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10932963/FM_10932963.md
 metals: [Cr, Pb, Zn, Sr, Ba]
 ingredients: ["[[ingredients/eggs]]"]
-products: []
+products: ["[[products/poultry-product]]"]
 matrices: [poultry-eggs, duck-eggs]
 jurisdictions: [CN]
 near_duplicates: []

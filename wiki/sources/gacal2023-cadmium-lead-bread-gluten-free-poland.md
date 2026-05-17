@@ -13,7 +13,7 @@ license: "CC BY-SA 4.0"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Cadmium and lead content in gluten and gluten-free bread.pdf"
 metals: [Cd, Pb]
 ingredients: ["[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/rice-flour]]", "[[ingredients/corn]]"]
-products: []
+products: ["[[products/bread-and-baked-goods]]"]
 matrices: [bread, wheat-bread, rye-bread, wheat-rye-bread, gluten-free-bread]
 jurisdictions: [PL, EU]
 sample_n: 50

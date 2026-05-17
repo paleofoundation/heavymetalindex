@@ -31,9 +31,9 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 25.6]
     p95_ppb: 36.8
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0.4]
@@ -49,12 +49,12 @@ contamination_profile:
     n_studies: 3
     last_reviewed: 2026-05-13
   Al:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
     typical_ppb: [0, 0]
@@ -63,12 +63,12 @@ contamination_profile:
     n_studies: 3
     last_reviewed: 2026-05-13
   Sn:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [0, 0]
@@ -97,20 +97,20 @@ The FDA FY2018-FY2020 TDS dataset for raw avocado (TDS Food 97, n=27) shows that
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=2 (in progress) | — | — | — | — |
-| Cd | n=2 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=2 (in progress) | — | — | — | — |
-| Ni | n=2 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=2 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=3 | 0 | high | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cd | n=3 | 2.9–18 | high | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=3 | 0–25.6 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | 0–0.4 | high | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=3 | 105.2–374 | high | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 0 | high | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | high | — |
 
 ## Routing
 

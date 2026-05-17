@@ -1,6 +1,6 @@
 # Session prompt: complete autonomy-created stub pages
 
-37 ingredient/product pages were created by `tools/autonomy/create-missing-pages.mjs` from `routing_unresolved.csv` entries, but their bodies were never drafted. Each has between 2 and 6 routed source pages declaring `ingredients: [<slug>]` or `products: [<slug>]` in their frontmatter — the routing audit picked them up — but the contamination_profile remains all-pending and the body is just the stub template.
+2 ingredient/product pages were created by `tools/autonomy/create-missing-pages.mjs` from `routing_unresolved.csv` entries, but their bodies were never drafted. Each has between 2 and 3 routed source pages declaring `ingredients: [<slug>]` or `products: [<slug>]` in their frontmatter — the routing audit picked them up — but the contamination_profile remains all-pending and the body is just the stub template.
 
 This is the load-bearing fix for Karen's 2026-05-15 "we're wasting time with our ingests" diagnostic. Sources are being ingested and routed; the failure mode is that no synthesis pass converts them into ingredient-page content.
 
@@ -37,18 +37,10 @@ This is the load-bearing fix for Karen's 2026-05-15 "we're wasting time with our
 
 ## Top 10 pages by routed-source count (process first)
 
-  1. ingredient/vegetable-oils (6 routed sources, body=2986 chars)
-  2. ingredient/soybean-oil (5 routed sources, body=2714 chars)
-  3. ingredient/spices (5 routed sources, body=2960 chars)
-  4. ingredient/apple-cider-vinegar (4 routed sources, body=2432 chars)
-  5. ingredient/balsamic-vinegar (4 routed sources, body=2494 chars)
-  6. ingredient/beans (4 routed sources, body=2570 chars)
-  7. ingredient/cabbage (4 routed sources, body=2441 chars)
-  8. ingredient/canned-tuna (4 routed sources, body=2305 chars)
-  9. ingredient/corn-oil (4 routed sources, body=2461 chars)
-  10. ingredient/fruits (4 routed sources, body=2853 chars)
+  1. ingredient/mango-juice (3 routed sources, body=2234 chars)
+  2. ingredient/beverages (2 routed sources, body=1906 chars)
 
-Full list of 37 pages: see `data/evidence/autonomy-stubs-pending.csv` (regenerated each `npm run plan`).
+Full list of 2 pages: see `data/evidence/autonomy-stubs-pending.csv` (regenerated each `npm run plan`).
 
 ## Reference
 

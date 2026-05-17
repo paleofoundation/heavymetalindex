@@ -8,6 +8,7 @@ source_pages_created: 78
 source_pages_skipped: 7
 source_pages_deduplicated: 3
 cumulative_source_pages: 384
+noindex: true
 ---
 
 # Batch report: seasonal and geographic variance ingest — 2026-05-12

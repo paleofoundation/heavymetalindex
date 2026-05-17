@@ -7,7 +7,7 @@ year: 2005
 publication: "FAO JECFA Monographs 1, ISSN 1817-7077"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Combined%20Compendium%20of%20Food%20Additive%20Specifications%3A%20All%20Specifications%20Monographs%20from%20the%201st%20to%20the%2065th%20Meeting%20(1956-2005)
+access_url: "https://openknowledge.fao.org/handle/20.500.14283/a0691e"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/a0691e.pdf

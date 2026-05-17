@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0316.pdf"
 metals: [Pb, Cd, tAs, tHg, Ni, Cr, Al]
 ingredients: ["[[ingredients/water]]"]
-products: []
+products: ["[[products/bottled-drinking-water]]"]
 matrices: [tap-water, groundwater, surface-water, bottled-water]
 jurisdictions: [global]
 near_duplicates: []

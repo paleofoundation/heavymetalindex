@@ -7,87 +7,104 @@ aliases: [aquatic-foods, aquatic-vegetables]
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [20, 150]
+    p95_ppb: 300
+    confidence: high
+    n_studies: 28
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: 1500
+    confidence: high
+    n_studies: 31
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 50]
+    p95_ppb: 100
+    confidence: high
+    n_studies: 18
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 300]
+    p95_ppb: 700
+    confidence: high
+    n_studies: 44
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [50, 500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [100, 1000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [50, 300]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [100, 500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [500, 5000]
+    p95_ppb: 10000
+    confidence: high
+    n_studies: 35
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [fish-containing-baby-foods]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
-sources: 77
+updated: 2026-05-16
+sources: 78
 ---
 
 # Seafood
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=28 | 20–150 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
+| Cd | n=31 | 50–500 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
+| iAs | n=18 | 5–50 | high | [[sources/codex-cccf17-2024\|1]], [[sources/mancuso2024-food-contamination-cvd\|2]], [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|3]] |
+| tAs | n=35 | 500–5000 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
+| tHg | n=44 | 50–300 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/wu2025-climate-meghan-freshwater-fish-china\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
+| Ni | n=10 | 50–500 | medium | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/olgunoglu2025-scorpionfish-izmir-metals\|3]] |
+| Al | n=7 | 100–1000 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/berber2024-crayfish-metal-content-turkey\|2]], [[sources/hussein2023-freshwater-marine-fish-egypt\|3]] |
+| Cr | n=6 | 50–300 | medium | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/olgunoglu2025-scorpionfish-izmir-metals\|2]], [[sources/nour2025-djiboutian-seaweeds-metals\|3]] |
+| Sn | n=7 | 100–500 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hussein2024-toxic-metals-canned-fish-egypt\|2]], [[sources/benjamin2023-canned-fish-ghana\|3]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -105,81 +122,140 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/balzani2026-fish-metals-dalyan-lake\|Balzani et al. 2026]]. *Metals and Metalloids Accumulation and Biomagnification in Three Commercially Important Fishes from a Turkish Brackish Lake*, Environmental Science and Pollution Research | 2026 | Peer-reviewed | tAs, Pb, Cr, and Ni in dorsal muscle of three commercially fished species from Dalyan Lake, Türkiye (n=27); Cr the only metal showing biomagnification, As and Pb showing trophic dilution |
-| 2 | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|Hernández-Montoya et al. 2026]]. *Heavy Metal Contamination in Foods: Advances in Detection Technologies, Regulatory Challenges, Health Risks, and Implications for Sustainable Food Safety*, Sustainability | 2026 | Peer-reviewed | PRISMA-ScR scoping review (n=121 studies) synthesizing seafood As/Cd/Pb/Hg/Ni occurrence and consolidated Codex/EU regulatory limits |
-| 3 | [[sources/dietz2025-arctic-mercury-isotopes-greenland\|Dietz et al. 2025]]. *Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs*, Nature Communications | 2025 | Peer-reviewed | Greenland Arctic char/sculpin/seal/gull muscle tHg medians 0.09–0.66 µg/g ww (1983–2024); Hg stable-isotope evidence that ocean currents carry legacy Hg into Arctic seafood |
-| 4 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | 10-year Italian regulatory monitoring of 5,854 seafood samples (9,809 analyses) against EU 2023/915: Cd exceedances concentrate in cephalopods, Hg in swordfish (11.3%), sharks (6.5%), tuna (3.1%) |
+| 2 | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|Hernández-Montoya et al. 2026]]. *Heavy Metal Contamination in Foods: Advances in Detection Technologies, Regulatory Challenges, Health Risks, and Implications for Sustainable Food Safety*, Sustainability | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/dietz2025-arctic-mercury-isotopes-greenland\|Dietz et al. 2025]]. *Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs*, Nature Communications | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
 | 5 | [[sources/nour2025-djiboutian-seaweeds-metals\|Nour et al. 2025]]. *Nutritional and heavy metal composition of seaweeds from the coast of Djibouti*, Food Science and Nutrition | 2025 | Peer-reviewed | Cr, Ni, As, Cd, and Pb in six seaweed species from the Djiboutian coastline; As notably elevated in Turbinaria decurrens (70.2 µg/g DW), one of the first datasets for edible marine algae from the Horn of Africa |
 | 6 | [[sources/olgunoglu2025-scorpionfish-izmir-metals\|Olgunoglu et al. 2025]]. *Seasonal Variability and Sex-Specific Accumulation of Trace Metals in Black Scorpionfish (Scorpaena porcus Linnaeus, 1758) from Izmir Bay (Aegean Sea), Türkiye: Implications for Human Health Risk Assessment*, Life | 2025 | Peer-reviewed | TR Cd, Cr, Cu, Fe, Hg, Mn, Ni, Pb, Se, Zn occurrence in Black scorpionfish (Scorpaena porcus) collected seasonally from Izmir Bay, Aegean Sea, Türkiye, 2023–2024; 28 males and 24 females (n=52) |
 | 7 | [[sources/scovronick2025-glynn-county-exposure\|Scovronick et al. 2025]]. *Assessment of human exposure to uncommon industrial toxicants in Glynn County, Georgia*, Environmental Pollution | 2025 | Peer-reviewed | Biomonitoring of Pb, Cd, and tHg in 96 adults near Superfund sites in coastal Georgia; seafood consumption a significant predictor of PCB exposure, blood Hg comparable to US general population |
 | 8 | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|Ventura et al. 2025]]. *Dietary Exposure to Essential and Toxic Trace Elements in the Portuguese Population: A Total Diet Study Approach*, Foods | 2025 | Peer-reviewed | Portuguese TDS — tAs, Cd, Pb, and Sn in 163 pooled samples across 17 food groups including fish and seafood; all levels below applicable legal limits for the Portuguese population |
-| 9 | [[sources/wu2025-climate-meghan-freshwater-fish-china\|Wu et al. 2025]]. *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*, Proceedings of the National Academy of Sciences | 2025 | Peer-reviewed | China-wide fish Hg dataset (n≈13,000 samples, 164 sites, 2005–2020): freshwater wild fish 1.7× higher MeHg than marine wild fish; projected ~60% MeHg increase under climate SSP scenarios by 2031–2060 |
+| 9 | [[sources/wu2025-climate-meghan-freshwater-fish-china\|Wu et al. 2025]]. *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*, Proceedings of the National Academy of Sciences | 2025 | Peer-reviewed | *[awaiting synthesis]* |
 | 10 | [[sources/atsdr-mercury-toxprofile-2024\|ATSDR 2024]]. *Toxicological Profile for Mercury*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2024 | Government report | ATSDR comprehensive mercury toxicology profile — identifies methylmercury in fish and seafood as the dominant dietary exposure route and derives species-specific MRLs for elemental Hg, inorganic Hg, and MeHg |
 | 11 | [[sources/bakhshalizadeh2024-caspian-sturgeon-metals\|Bakhshalizadeh et al. 2024]]. *Trace and heavy metal concentrations in pectoral fin of Acipenser stellatus (stellate sturgeon) from the Caspian Sea*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | IR As, Cd, Hg, Pb, Ni, V occurrence in Stellate sturgeon (Acipenser stellatus) pectoral fin tissue, Caspian Sea, Iran (n=40) |
 | 12 | [[sources/berber2024-crayfish-metal-content-turkey\|Berber et al. 2024]]. *Metal content and fatty acid profiles in narrow-clawed crayfish (Pontastacus leptodactylus) from Atikhisar Dam Lake, Turkey: seasonal variation and health risk assessment*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | TR Fe, Zn, Al, Cu, Mn, Se, As, Hg, Cd, Pb occurrence in Pontastacus leptodactylus (narrow-clawed crayfish) from Atikhisar Dam Lake, Çanakkale, Turkey; monthly sampling over 12 months; male and female... |
-| 13 | [[sources/bfr2024-methylmercury-fish-seafood-germany\|BfR 2024]]. *Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study*, BfR Opinion 023/2024 | 2024 | Government report | German MEAL study direct MeHg-by-ICP-MS in ready-to-eat fish: tuna 0.38 mg/kg leads species ranking; adolescent P95 MeHg exposure exceeds EFSA TWI |
+| 13 | [[sources/bfr2024-methylmercury-fish-seafood-germany\|BfR 2024]]. *Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study*, BfR Opinion 023/2024 | 2024 | Government report | *[awaiting synthesis]* |
 | 14 | [[sources/chamorro2024-bluefin-tuna-mercury-review\|Chamorro et al. 2024]]. *Atlantic bluefin tuna (Thunnus thynnus): health benefits, contaminants and risk-benefit analysis for human consumption*, Food Reviews International | 2024 | Peer-reviewed | EU tHg, MeHg, Cd, Pb, As occurrence in Review of Atlantic bluefin tuna (Thunnus thynnus) literature on contaminants and nutritional composition |
 | 15 | [[sources/christian2024-caribbean-fish-mercury\|Christian et al. 2024]]. *An evaluation of fish and invertebrate mercury concentrations in the Caribbean Region*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | tHg in >1,600 samples of 108 species from 11 Caribbean countries (2005–2023); 26% exceeded the 0.46 µg/g FDA/EPA guideline, with tHg positively correlated with trophic level and fish length |
 | 16 | [[sources/codex-cccf17-2024\|Codex 2024]]. *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*, Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission | 2024 | Government report | CCCF17 session report — initiated new work on a Cd Code of Practice with an annex for fish and seafood, extending the cocoa CoP model to additional food matrices |
-| 17 | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|Xinghui et al. 2024]]. *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*, Chinese Journal of Public Health | 2024 | Peer-reviewed | Chongqing 2018–2023 dietary tAs surveillance includes aquatic-products category by ICP-MS/HG-AFS in 4,900 food samples across 10 categories |
-| 18 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | Zhejiang Province seafood/freshwater-fish/shellfish/mollusc Ni occurrence (n=2,628 samples across six food categories, 2018–2019); GB 2762-2022 reference |
+| 17 | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|Xinghui et al. 2024]]. *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*, Chinese Journal of Public Health | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 18 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 | 19 | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|Hussein et al. 2024]]. *Risk assessment of some toxic metals in canned fish products retailed in Mansoura, Egypt*, Open Veterinary Journal | 2024 | Peer-reviewed | Pb, Cd, tAs, tHg, Al, and Sn in 100 canned fish (herring, mackerel, salmon, sardine, tuna) from Egypt; sardine and tuna showed highest EU limit exceedance rates, Hg hazard index >1 for all species |
 | 20 | [[sources/li2024-global-fisheries-mehg\|Li et al. 2024]]. *Global fishing patterns amplify human exposures to methylmercury*, Proceedings of the National Academy of Sciences | 2024 | Peer-reviewed | global MeHg occurrence in Global fisheries modeling dataset: catch-weighted MeHg concentrations estimated for 1,774 marine species across global exclusive economic zones using... (n=1482) |
 | 21 | [[sources/mancuso2024-food-contamination-cvd\|Mancuso et al. 2024]]. *Food contamination and cardiovascular disease: a narrative review* | 2024 | Peer-reviewed | EU/global Pb, Cd, iAs, tAs, tHg occurrence in null |
-| 22 | [[sources/raab2024-arsenolipids-chlamydomonas.md\|Raab et al. 2024]]. *Arsenolipids in the green microalga Chlamydomonas reinhardtii: first report of arsenosugar phospholipid (AsSugPhytol)*, Metallomics | 2024 | Peer-reviewed | First report of arsenosugar phospholipid (AsSugPhytol) in Chlamydomonas reinhardtii; arsenolipids = 57% of tAs in microalgae vs lower fraction in macroalgae |
+| 22 | [[sources/raab2024-arsenolipids-chlamydomonas.md\|Raab et al. 2024]]. *Arsenolipids in the green microalga Chlamydomonas reinhardtii: first report of arsenosugar phospholipid (AsSugPhytol)*, Metallomics | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 | 23 | [[sources/rohonczy2024-arctic-foodweb-cd-hg\|Rohonczy et al. 2024]]. *Cadmium and mercury trophic transfer in the Arctic marine food web of Hudson Bay*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | CA Cd, tHg, MeHg occurrence in Multiple Arctic marine species from Hudson Bay, Canada: blue mussel, common eider, sculpin, Arctic cod, ringed seal (n=781) |
-| 24 | [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|Sadee et al. 2024]]. *Recent developments in speciation and determination of arsenic in marine organisms using different analytical techniques. A review*, RSC Advances | 2024 | Peer-reviewed | Review of arsenic speciation in marine organisms — tAs typically 100–2,500 µg/kg ww in fish but iAs only 1–5% of tAs; HPLC-ICP-MS methods compared |
-| 25 | [[sources/sim2024-inorganic-arsenic-seaweed-hplc\|Sim et al. 2024]]. *Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach*, Food Chemistry | 2024 | Peer-reviewed | Validated DoE-optimized HPLC-ICP-MS iAs method (99±9% hijiki CRM recovery); Laminaria digitata iAs >50% of tAs in some seaweed samples |
+| 24 | [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|Sadee et al. 2024]]. *Recent developments in speciation and determination of arsenic in marine organisms using different analytical techniques. A review*, RSC Advances | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 25 | [[sources/sim2024-inorganic-arsenic-seaweed-hplc\|Sim et al. 2024]]. *Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach*, Food Chemistry | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 | 26 | [[sources/yamashita2024-laep-oes-hg-tuna-japan\|Yamashita 2024]]. *LAEP-OES validation for total mercury in tuna and fish from Japanese markets*, unknown | 2024 | Peer-reviewed | LAEP-OES method validation for tHg in 102 fish specimens from Japanese markets including tuna; provides both method validation and real tHg occurrence concentrations from commercially available fish |
 | 27 | [[sources/zhao2024-toxic-metals-metalloids-food-review\|Zhao et al. 2024]]. *Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies*, Current Opinion in Environmental Science & Health | 2024 | Peer-reviewed | AU/BR/FR tAs, iAs, Cd, Pb occurrence in Global occurrence synthesis: Table 1 aggregates national mean occurrence data from Total Diet Studies across Australia, Brazil, France,... |
-| 28 | [[sources/abbas2023-sparus-aurata-egypt-metals\|Abbas 2023]]. *Heavy Metal Levels and Cancer Risk Assessments of the Commercial Denis, Sparus aurata Collected from Bardawil Lake and Private Fish Farm Waters as a Cultured Source, Egypt* | 2023 | Peer-reviewed | Wild vs farmed Egyptian gilthead seabream Pb/Cd/Ni/Fe/Cu/Zn by ICP-OES (n=80); muscle Pb 0.84 and Cd 0.35 µg/g DW in wild fish |
-| 29 | [[sources/abdel-tawwab2023-cadmium-seabream-yeast\|Abdel-Tawwab et al. 2023]]. *Saccharomyces cerevisiae supplemented diets mitigate the effects of waterborne cadmium toxicity on gilthead seabream (Sparus aurata L.): growth performance, haemato-biochemical, stress biomarkers, and histopathological investigations* | 2023 | Peer-reviewed | Controlled gilthead-seabream feeding trial: dietary yeast (1% S. cerevisiae) reduces tissue Cd residues vs Cd-only exposure; liver > gill > muscle Cd distribution |
-| 30 | [[sources/alsulaiti2023-qatar-fish-mehg\|Al-Sulaiti et al. 2023]]. *Health risk assessment of methyl mercury from fish consumption in a sample of adult Qatari residents*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | Qatar 7-species fish T-Hg by ICP-MS (n=65 composites; n=600 dietary survey): mean 0.077 µg/g ww; imported grouper highest (0.422 µg/g); high-consumer MeHg exceeds EFSA TWI |
-| 31 | [[sources/bakhshalizadeh2023-mullet-ree-trace-caspian\|Bakhshalizadeh et al. 2023]]. *Bioaccumulation of rare earth elements and trace elements in different tissues of the golden grey mullet (Chelon auratus) in the southern Caspian Sea*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | Iran southern Caspian Sea golden grey mullet (n=20) muscle and four other tissues by ICP-MS: muscle Cd/Pb of human-health concern; anomalously high Tb suggests oil-extraction contamination |
-| 32 | [[sources/benjamin2023-canned-fish-ghana\|Benjamin et al. 2023]]. *Levels of Heavy Metals in Selected Canned Fish on Cape Coast Market, Central Region, Ghana*, International Journal of Environment, Agriculture and Biotechnology | 2023 | Peer-reviewed | Ghana Cape Coast canned mackerel/sardine/tuna Pb/Sn/tHg by AAS (n=10 brands); all values below EU 1881/2006 limits |
-| 33 | [[sources/blanco2023-mercury-fish-valencia\|Blanco et al. 2023]]. *Mercury levels in fish in the Valencian Community: temporal evolution (2011-2017) and associated factors*, Revista Española de Salud Pública | 2023 | Peer-reviewed | Spain Valencia regulatory monitoring of 635 fish/seafood samples 2011–2017: median tHg 0.20, MeHg 0.14 mg/kg ww; 31.8% of swordfish exceed EU 1 mg/kg limit |
+| 28 | [[sources/abbas2023-sparus-aurata-egypt-metals\|Abbas 2023]]. *Heavy Metal Levels and Cancer Risk Assessments of the Commercial Denis, Sparus aurata Collected from Bardawil Lake and Private Fish Farm Waters as a Cultured Source, Egypt* | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 29 | [[sources/abdel-tawwab2023-cadmium-seabream-yeast\|Abdel-Tawwab et al. 2023]]. *Saccharomyces cerevisiae supplemented diets mitigate the effects of waterborne cadmium toxicity on gilthead seabream (Sparus aurata L.): growth performance, haemato-biochemical, stress biomarkers, and histopathological investigations* | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 30 | [[sources/alsulaiti2023-qatar-fish-mehg\|Al-Sulaiti et al. 2023]]. *Health risk assessment of methyl mercury from fish consumption in a sample of adult Qatari residents*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 31 | [[sources/bakhshalizadeh2023-mullet-ree-trace-caspian\|Bakhshalizadeh et al. 2023]]. *Bioaccumulation of rare earth elements and trace elements in different tissues of the golden grey mullet (Chelon auratus) in the southern Caspian Sea*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 32 | [[sources/benjamin2023-canned-fish-ghana\|Benjamin et al. 2023]]. *Levels of Heavy Metals in Selected Canned Fish on Cape Coast Market, Central Region, Ghana*, International Journal of Environment, Agriculture and Biotechnology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 33 | [[sources/blanco2023-mercury-fish-valencia\|Blanco et al. 2023]]. *Mercury levels in fish in the Valencian Community: temporal evolution (2011-2017) and associated factors*, Revista Española de Salud Pública | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 34 | [[sources/cardoso2023-mercury-portuguese-coast-seafood\|Cardoso et al. 2023]]. *Seasonal characterization of mercury contamination along the Portuguese coast: human health and environmental risk assessment*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | PT/EU tHg occurrence in Seasonal sampling over 1 year at three Portuguese estuaries (Ria de Aveiro, Tagus, Ria Formosa); water, macroalgae, and... |
 | 35 | [[sources/coe2023-gut-microbiome-methylmercury-demethylation\|Coe et al. 2023]]. *Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice*, Archives of Toxicology, Vol. 97, pp. 2399-2418 | 2023 | Peer-reviewed | Human cohort and gnotobiotic mouse evidence that gut microbiome composition determines MeHg demethylation efficiency — explains inter-individual variability in body burden at equivalent seafood MeHg intake |
 | 36 | [[sources/davydiuk2023-arsenosugars-methylation\|Davydiuk et al. 2023]]. *Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans*, Environmental Health | 2023 | Peer-reviewed | global iAs, tAs occurrence in Critical review of published epidemiological and clinical studies using DMA in urine as arsenic methylation marker; no new... |
-| 37 | [[sources/efsa2023-heavy-metals-seaweed\|EFSA 2023]]. *Dietary exposure assessment to heavy metals and iodine from seaweeds and halophytes for the European population*, EFSA Journal | 2023 | Peer-reviewed | EFSA CONTAM panel seaweed exposure assessment: laver Cd 1,675–1,676 µg/kg ww (highest); kombu/kelp iAs among highest in seaweed species (n=2,093 Cd, 920 iAs) |
-| 38 | [[sources/egbe2023-heavy-metals-tilapia-cameroon\|Egbe et al. 2023]]. *Heavy metal exposure risk associated with ingestion of Oreochromis niloticus and Coptodon kottae harvested from a lacustrine ecosystem*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | Cameroon Lake Barombi Kotto Nile tilapia and endemic Coptodon kottae As/Cd/Cr/Ni/Pb in muscle/gut/bone (n=20); bones>gut>muscle distribution; Pb may exceed PTDI at high consumption |
-| 39 | [[sources/hussein2023-freshwater-marine-fish-egypt\|Hussein et al. 2023]]. *Risk assessment of toxic residues among some freshwater and marine water fish species*, Frontiers in Veterinary Science | 2023 | Peer-reviewed | Egypt El-Obour market six fish species (3 freshwater + 3 marine, n=120) Pb/Cd/tHg/tAs/Al; samples exceed EU MPL for Pb/Cd; 30% Lates niloticus exceed Hg MPL |
-| 40 | [[sources/kosker2023-canned-fish-turkey\|Kosker et al. 2023]]. *Metal levels of canned fish sold in Türkiye: health risk assessment*, Frontiers in Nutrition | 2023 | Peer-reviewed | Turkey canned tuna/salmon/mackerel/anchovy Pb/Cd/tAs/Al/Cr by ICP-MS (n=34, 13 brands); 18 products show elevated child carcinogenic As risk under heavy consumption |
+| 37 | [[sources/efsa2023-heavy-metals-seaweed\|EFSA 2023]]. *Dietary exposure assessment to heavy metals and iodine from seaweeds and halophytes for the European population*, EFSA Journal | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 38 | [[sources/egbe2023-heavy-metals-tilapia-cameroon\|Egbe et al. 2023]]. *Heavy metal exposure risk associated with ingestion of Oreochromis niloticus and Coptodon kottae harvested from a lacustrine ecosystem*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 39 | [[sources/hussein2023-freshwater-marine-fish-egypt\|Hussein et al. 2023]]. *Risk assessment of toxic residues among some freshwater and marine water fish species*, Frontiers in Veterinary Science | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 40 | [[sources/kosker2023-canned-fish-turkey\|Kosker et al. 2023]]. *Metal levels of canned fish sold in Türkiye: health risk assessment*, Frontiers in Nutrition | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 41 | [[sources/liu2023-arsenic-seafood-digestion\|Liu et al. 2023]]. *Transformation of arsenic species from seafood consumption during in vitro digestion*, Frontiers in Nutrition | 2023 | Peer-reviewed | CN iAs, tAs occurrence in Laboratory study using crab, scallop, turbot, and flounder seafood samples subjected to in vitro digestion (BARGE UBM method) |
 | 42 | [[sources/molina2023-mercury-buenaventura-bay\|Molina et al. 2023]]. *Effect of environmental variables on mercury accumulation in sediments of an anthropogenically impacted tropical estuary (Buenaventura Bay, Colombian Pacific)*, Environmental Monitoring and Assessment | 2023 | Peer-reviewed | CO tHg occurrence in Sediment samples from four areas of Buenaventura Bay, Colombia, collected in dry and rainy seasons of 2015; cores... |
-| 43 | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|AEMA et al. 2023]]. *Heavy metal contents in salted fish retailed in Egypt: Dietary intakes and health risk assessment* | 2023 | Peer-reviewed | Egypt Zagazig salted-fish (salted sardine/feseikh/sahlia/herring, n=80) Pb/Cd/tAs/tHg by AAS; herrings highest in Pb/Cd, feseikh highest in As; multiple samples exceed MPLs |
-| 44 | [[sources/nepper-davidsen2023-kelp-biomass-composition-nz\|Nepper-Davidsen et al. 2023]]. *High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata*, Journal of Applied Phycology | 2023 | Peer-reviewed | New Zealand Ecklonia radiata kelp tAs (mean 49 ppm DW), Cd, Pb, tHg by ICP-MS across 12 North Island sites (n=24); spatial and 12-month temporal variation |
+| 43 | [[sources/morshdy2023-heavy-metals-salted-fish-egypt\|AEMA et al. 2023]]. *Heavy metal contents in salted fish retailed in Egypt: Dietary intakes and health risk assessment* | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 44 | [[sources/nepper-davidsen2023-kelp-biomass-composition-nz\|Nepper-Davidsen et al. 2023]]. *High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata*, Journal of Applied Phycology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 45 | [[sources/sonke2023-mercury-global-change\|Sonke et al. 2023]]. *Global change effects on biogeochemical mercury cycling*, Ambio | 2023 | Peer-reviewed | tHg, MeHg occurrence in Global synthesis — multiple study populations and monitoring networks |
-| 46 | [[sources/wang2023-climate-marine-mercury\|Wang et al. 2023]]. *Climate-driven changes of global marine mercury cycles in 2100*, Proceedings of the National Academy of Sciences | 2023 | Peer-reviewed | Global climate-biogeochemistry model: projected 5–20% MeHg increase in upper-trophic marine fish under RCP8.5 by 2100, concentrated at polar latitudes |
+| 46 | [[sources/wang2023-climate-marine-mercury\|Wang et al. 2023]]. *Climate-driven changes of global marine mercury cycles in 2100*, Proceedings of the National Academy of Sciences | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 47 | [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|Ashley-Martin et al. 2022]]. *Biomonitoring of inorganic arsenic species in pregnancy*, Journal of Exposure Science & Environmental Epidemiology | 2022 | Peer-reviewed | CA/US/global iAs, tAs occurrence in Systematic review of biomonitoring studies of speciated iAs in pregnancy; covers cohort studies from Bangladesh, Spain, China, Mexico,... |
-| 48 | [[sources/cegolon2022-hg-hair-trieste\|Cegolon et al. 2022]]. *Concentration of mercury in human hair and associated factors in residents of the Gulf of Trieste (North-Eastern Italy)*, Environmental Science and Pollution Research | 2022 | Peer-reviewed | Hair-Hg biomonitoring of 301 coastal Italian residents: shellfish/crayfish/mollusk preference strongest positive predictor of elevated hair Hg; 55.6% exceed 1 mg/kg WHO threshold |
+| 48 | [[sources/cegolon2022-hg-hair-trieste\|Cegolon et al. 2022]]. *Concentration of mercury in human hair and associated factors in residents of the Gulf of Trieste (North-Eastern Italy)*, Environmental Science and Pollution Research | 2022 | Peer-reviewed | *[awaiting synthesis]* |
 | 49 | [[sources/chavez-capilla2022-arsenolipids-seafood\|Chávez-Capilla 2022]]. *The Need to Unravel Arsenolipid Transformations in Humans*, DNA and Cell Biology | 2022 | Peer-reviewed | AU/NZ/FR tAs, iAs occurrence in Review article synthesizing arsenic speciation data across multiple studies |
-| 50 | [[sources/efsa2022-lemna-novel-food\|EFSA 2022]]. *Safety of Lemna minor and Lemna gibba whole plant material as a novel food pursuant to Regulation (EU) 2015/2283*, EFSA Journal | 2022 | Government report | EFSA novel-food safety review: As/Cd/Hg below LOQ in 10 production batches of Lemna minor and L. gibba; Pb trace levels only |
-| 51 | [[sources/jecfa-91st-cadmium-2022\|JECFA 2022]]. *Cadmium: dietary exposure assessment*, WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) | 2022 | Government report | JECFA 91st meeting Cd dietary exposure assessment — identifies seafood (bivalve molluscs, crustaceans, cephalopods) as a significant Cd exposure pathway alongside cereals and vegetables |
-| 52 | [[sources/li2022-mercury-isotope-biota-review\|Li et al. 2022]]. *Internal Dynamics and Metabolism of Mercury in Biota: A Review of Insights from Mercury Stable Isotopes*, Environmental Science & Technology | 2022 | Peer-reviewed | tHg, MeHg occurrence in Synthesis of mercury isotope fractionation data across multiple biota studies (review) |
-| 53 | [[sources/motta2022-marine-hg-isotopes\|Motta et al. 2022]]. *Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms*, Proceedings of the National Academy of Sciences | 2022 | Peer-reviewed | North Pacific Hg-isotope evidence that pelagic MeHg in fish originates from small particles (<53 µm) in upper 400 m of water column, not dissolved Hg or deep methylation |
-| 54 | [[sources/vainio2022-baltic-mercury-food-web\|Vainio et al. 2022]]. *Trophic Dynamics of Mercury in the Baltic Archipelago Sea Food Web: The Impact of Ecological and Ecophysiological Traits*, Environmental Science & Technology | 2022 | Peer-reviewed | Baltic Archipelago Sea food-web tHg in 30 species (n=136); pelagic trophic magnification factors (3.58–4.02) markedly higher than benthic (2.11–2.34) |
-| 55 | [[sources/farzan2021-hispanic-urinary-arsenic\|Farzan et al. 2021]]. *Demographic Predictors of Urinary Arsenic in a Low-Income Predominantly Hispanic Pregnancy Cohort in Los Angeles*, Journal of Exposure Science and Environmental Epidemiology | 2021 | Peer-reviewed | MADRES LA Hispanic pregnancy cohort (n=241): seafood consumption a significant predictor of higher urinary As species (HPLC-ICP-MS speciation) |
-| 56 | [[sources/liu2021-arsenolipids-seafood\|Liu et al. 2021]]. *Discovery and Identification of Arsenolipids Using a Precursor-Finder Strategy and Data-Independent Mass Spectrometry*, Environmental Science and Technology | 2021 | Peer-reviewed | HPLC-SWATH-MS identification of 23 arsenolipids across krill oil, tuna, hairtail, and kelp; arsenolipids = cytotoxic comparable to iAs and increasingly relevant for seafood speciation |
-| 57 | [[sources/melnyk2021-mercury-anadromous-fish-penobscot\|Melnyk et al. 2021]]. *Risks from mercury in anadromous fish collected from Penobscot River, Maine*, Science of the Total Environment | 2021 | Peer-reviewed | EPA/ATSDR Penobscot River anadromous-fish tHg in 6 species (n=75 composites): alewife 90.8, American shad 72, blueback herring 51.5 µg/kg ww; sea lamprey HQ>1 |
-| 58 | [[sources/ufelle2021-metals-chapter\|Ufelle et al. 2021]]. *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*, Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education | 2021 | Textbook chapter | Canonical toxicology reference for 29 metals including As, Cd, Hg, Pb, Ni; identifies seafood and rice as primary dietary exposure matrices for multiple metals |
-| 59 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | Joint FDA/EPA consumer guidance classifying fish by MeHg level into Best Choices, Good Choices, and Choices to Avoid — the operative US consumption advice for pregnant and breastfeeding women and children |
-| 60 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | Dietary Al review: fish and seafood mean 11.9 mg/kg (second-highest food category after vegetables); intake quantified against EFSA TWI |
-| 61 | [[sources/jecfa-82nd-arsenic\|JECFA 2017]]. *Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA*, WHO Food Additives Series 73 | 2017 | Government report | JECFA 82nd meeting arsenic monograph — addresses the iAs/tAs distinction, noting that seafood-derived organoarsenic (arsenobetaine, arsenosugars) is not the toxic species and must not be conflated with iAs |
-| 62 | [[sources/lim2015-korea-kriefs-dietary-exposure-pb-cd-hg\|Lim et al. 2015]]. *Korean research project on the integrated exposure assessment of hazardous substances for food safety*, Environmental Health and Toxicology | 2015 | Peer-reviewed | Korean KRIEFS nationwide dietary exposure to Pb, Cd, and tHg (n=4,867); highest Hg found in fish (46.4 µg/kg median), with Korean fish intake driving higher blood Hg than EU reference populations |
-| 63 | [[sources/ralston2014-selenium-hbv-methylmercury-seafood\|Ralston et al. 2014]]. *Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments*, Archives of Environmental Contamination and Toxicology | 2014 | Peer-reviewed | Selenium health benefit value (HBVSe) methodology for concurrent MeHg and Se risk assessment in seafood — a positive HBVSe indicates net Se surplus protective against MeHg neurotoxicity |
-| 64 | [[sources/cfs2013-hktds-metallic-contaminants\|Centre for Food Safety 2013]]. *The First Hong Kong Total Diet Study: Metallic Contaminants*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2013 | Government report | First Hong Kong TDS Al/Sb/Cd/Pb/MeHg/Ni/Sn by HR-ICP-MS including seafood category; ~11% of women of childbearing age exceed MeHg PTWI |
-| 65 | [[sources/he2013-shanghai-cadmium\|He et al. 2013]]. *Exposure assessment of dietary cadmium: findings from shanghainese over 40 years, China*, BMC Public Health | 2013 | Peer-reviewed | Shanghai adults >40 (n=207): seafood among top three food contributors to dietary Cd alongside vegetables and rice (combined 86.3% of intake) |
-| 66 | [[sources/minamata-convention-2013\|Programme 2013]]. *Minamata Convention on Mercury — Text and Annexes (2024 Edition)*, United Nations Environment Programme, Secretariat of the Minamata Convention on Mercury | 2013 | Government report | International Minamata Convention on Mercury — treaty framework regulating anthropogenic Hg releases that affect MeHg bioaccumulation in marine food chains and therefore seafood contamination globally |
-| 67 | [[sources/cfs2012-hktds-inorganic-arsenic\|Centre for Food Safety 2012]]. *The First Hong Kong Total Diet Study: Inorganic Arsenic*, Hong Kong Centre for Food Safety, Food and Environmental Hygiene Department | 2012 | Government report | First Hong Kong TDS direct iAs speciation by HG-ICP-MS across food including seafood category (n=600 composites); LOD 3 µg/kg |
-| 68 | [[sources/efsa-mercury-methylmercury-2012\|EFSA 2012]]. *Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food*, EFSA Journal 2012;10(12):2985 | 2012 | Government report | EFSA 2012 Hg/MeHg risk assessment — lowered MeHg TWI to 1.3 µg/kg bw/week anchored on Faroe and Seychelles cohort data; confirms high fish consumers substantially exceed TWI |
-| 69 | [[sources/farina-rocha-aschner-2011-mehg-mechanism\|Farina et al. 2011]]. *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*, Life Sciences 89(15-16):555-563 | 2011 | Peer-reviewed | Mechanistic review of MeHg neurotoxicity — blood-brain barrier crossing, glutathione thiol binding, oxidative stress, and calcium disruption; provides molecular basis for the developmental neurotoxicity endpoint |
-| 70 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | EFSA 2009 arsenic risk assessment — distinguishes iAs (carcinogenic) from seafood-origin organoarsenic (arsenobetaine, not of health concern); sets the regulatory and exposure context for seafood As |
-| 71 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA 2009 Cd risk assessment establishing EU TWI of 2.5 µg/kg bw/week; identifies bivalve molluscs, crustaceans, and cephalopods as high-Cd seafood subcategories contributing to population Cd exposure |
-| 72 | [[sources/atsdr-arsenic-toxprofile-2007\|ATSDR 2007]]. *Toxicological Profile for Arsenic*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2007 | Government report | ATSDR 2007 comprehensive arsenic toxicology profile — notes that seafood-derived organoarsenic (arsenobetaine) does not contribute to iAs exposure and must be excluded from dietary iAs calculations |
-| 73 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, ATSDR | 2005 | Government report | ATSDR Sn toxicology profile — identifies organotins (tributyltin, triphenyltin) from coastal-water seafood as a distinct and far more toxic Sn exposure pathway than inorganic tin from tinplate cans |
-| 74 | [[sources/jecfa-61st-methylmercury\|JECFA 2004]]. *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*, WHO Technical Report Series 922 | 2004 | Government report | JECFA 61st meeting — established the international MeHg PTMI of 1.6 µg/kg bw/week anchored on Faroe and Seychelles cohort data; foundational reference for all regulatory MeHg limits in seafood |
-| 75 | [[sources/epa-iris-methylmercury\|EPA 2001]]. *Methylmercury (MeHg) — IRIS Chemical Assessment Summary*, U.S. Environmental Protection Agency, Integrated Risk Information System | 2001 | Government report | EPA IRIS MeHg assessment establishing US oral RfD of 0.1 µg/kg bw/day for developmental neurotoxicity; the basis for FDA/EPA fish consumption advice for pregnant women and children |
-| 76 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | EPA-822-R-97-003: >95% of arsenic in marine fish and shellfish is organic (arsenobetaine, metabolically inert), so seafood-derived iAs exposure is low relative to drinking water |
-| 77 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex General Standard — sets international MeHg, Pb, Cd, and iAs maximum levels applicable to fish, bivalve molluscs, cephalopods, and other seafood categories |
+| 50 | [[sources/ec-reg-2022-617-mercury-fishery\|EC 2022]]. *Commission Regulation (EU) 2022/617 of 12 April 2022 amending Regulation (EC) No 1881/2006 as regards maximum levels of mercury in fish and salt*, Official Journal of the European Union, OJ L 115, 13.4.2022, pp. 60–63 | 2022 | Regulation | *[awaiting synthesis]* |
+| 51 | [[sources/efsa2022-lemna-novel-food\|EFSA 2022]]. *Safety of Lemna minor and Lemna gibba whole plant material as a novel food pursuant to Regulation (EU) 2015/2283*, EFSA Journal | 2022 | Government report | *[awaiting synthesis]* |
+| 52 | [[sources/jecfa-91st-cadmium-2022\|JECFA 2022]]. *Cadmium: dietary exposure assessment*, WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) | 2022 | Government report | JECFA 91st meeting Cd dietary exposure assessment — identifies seafood (bivalve molluscs, crustaceans, cephalopods) as a significant Cd exposure pathway alongside cereals and vegetables |
+| 53 | [[sources/li2022-mercury-isotope-biota-review\|Li et al. 2022]]. *Internal Dynamics and Metabolism of Mercury in Biota: A Review of Insights from Mercury Stable Isotopes*, Environmental Science & Technology | 2022 | Peer-reviewed | tHg, MeHg occurrence in Synthesis of mercury isotope fractionation data across multiple biota studies (review) |
+| 54 | [[sources/motta2022-marine-hg-isotopes\|Motta et al. 2022]]. *Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms*, Proceedings of the National Academy of Sciences | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 55 | [[sources/vainio2022-baltic-mercury-food-web\|Vainio et al. 2022]]. *Trophic Dynamics of Mercury in the Baltic Archipelago Sea Food Web: The Impact of Ecological and Ecophysiological Traits*, Environmental Science & Technology | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 56 | [[sources/farzan2021-hispanic-urinary-arsenic\|Farzan et al. 2021]]. *Demographic Predictors of Urinary Arsenic in a Low-Income Predominantly Hispanic Pregnancy Cohort in Los Angeles*, Journal of Exposure Science and Environmental Epidemiology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 57 | [[sources/liu2021-arsenolipids-seafood\|Liu et al. 2021]]. *Discovery and Identification of Arsenolipids Using a Precursor-Finder Strategy and Data-Independent Mass Spectrometry*, Environmental Science and Technology | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 58 | [[sources/melnyk2021-mercury-anadromous-fish-penobscot\|Melnyk et al. 2021]]. *Risks from mercury in anadromous fish collected from Penobscot River, Maine*, Science of the Total Environment | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 59 | [[sources/ufelle2021-metals-chapter\|Ufelle et al. 2021]]. *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*, Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education | 2021 | Textbook chapter | Canonical toxicology reference for 29 metals including As, Cd, Hg, Pb, Ni; identifies seafood and rice as primary dietary exposure matrices for multiple metals |
+| 60 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | Joint FDA/EPA consumer guidance classifying fish by MeHg level into Best Choices, Good Choices, and Choices to Avoid — the operative US consumption advice for pregnant and breastfeeding women and children |
+| 61 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | *[awaiting synthesis]* |
+| 62 | [[sources/jecfa-82nd-arsenic\|JECFA 2017]]. *Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA*, WHO Food Additives Series 73 | 2017 | Government report | JECFA 82nd meeting arsenic monograph — addresses the iAs/tAs distinction, noting that seafood-derived organoarsenic (arsenobetaine, arsenosugars) is not the toxic species and must not be conflated with iAs |
+| 63 | [[sources/lim2015-korea-kriefs-dietary-exposure-pb-cd-hg\|Lim et al. 2015]]. *Korean research project on the integrated exposure assessment of hazardous substances for food safety*, Environmental Health and Toxicology | 2015 | Peer-reviewed | Korean KRIEFS nationwide dietary exposure to Pb, Cd, and tHg (n=4,867); highest Hg found in fish (46.4 µg/kg median), with Korean fish intake driving higher blood Hg than EU reference populations |
+| 64 | [[sources/ralston2014-selenium-hbv-methylmercury-seafood\|Ralston et al. 2014]]. *Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments*, Archives of Environmental Contamination and Toxicology | 2014 | Peer-reviewed | Selenium health benefit value (HBVSe) methodology for concurrent MeHg and Se risk assessment in seafood — a positive HBVSe indicates net Se surplus protective against MeHg neurotoxicity |
+| 65 | [[sources/cfs2013-hktds-metallic-contaminants\|Centre for Food Safety 2013]]. *The First Hong Kong Total Diet Study: Metallic Contaminants*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2013 | Government report | *[awaiting synthesis]* |
+| 66 | [[sources/he2013-shanghai-cadmium\|He et al. 2013]]. *Exposure assessment of dietary cadmium: findings from shanghainese over 40 years, China*, BMC Public Health | 2013 | Peer-reviewed | *[awaiting synthesis]* |
+| 67 | [[sources/minamata-convention-2013\|Programme 2013]]. *Minamata Convention on Mercury — Text and Annexes (2024 Edition)*, United Nations Environment Programme, Secretariat of the Minamata Convention on Mercury | 2013 | Government report | International Minamata Convention on Mercury — treaty framework regulating anthropogenic Hg releases that affect MeHg bioaccumulation in marine food chains and therefore seafood contamination globally |
+| 68 | [[sources/cfs2012-hktds-inorganic-arsenic\|Centre for Food Safety 2012]]. *The First Hong Kong Total Diet Study: Inorganic Arsenic*, Hong Kong Centre for Food Safety, Food and Environmental Hygiene Department | 2012 | Government report | *[awaiting synthesis]* |
+| 69 | [[sources/efsa-mercury-methylmercury-2012\|EFSA 2012]]. *Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food*, EFSA Journal 2012;10(12):2985 | 2012 | Government report | EFSA 2012 Hg/MeHg risk assessment — lowered MeHg TWI to 1.3 µg/kg bw/week anchored on Faroe and Seychelles cohort data; confirms high fish consumers substantially exceed TWI |
+| 70 | [[sources/farina-rocha-aschner-2011-mehg-mechanism\|Farina et al. 2011]]. *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*, Life Sciences 89(15-16):555-563 | 2011 | Peer-reviewed | Mechanistic review of MeHg neurotoxicity — blood-brain barrier crossing, glutathione thiol binding, oxidative stress, and calcium disruption; provides molecular basis for the developmental neurotoxicity endpoint |
+| 71 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | EFSA 2009 arsenic risk assessment — distinguishes iAs (carcinogenic) from seafood-origin organoarsenic (arsenobetaine, not of health concern); sets the regulatory and exposure context for seafood As |
+| 72 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA 2009 Cd risk assessment establishing EU TWI of 2.5 µg/kg bw/week; identifies bivalve molluscs, crustaceans, and cephalopods as high-Cd seafood subcategories contributing to population Cd exposure |
+| 73 | [[sources/atsdr-arsenic-toxprofile-2007\|ATSDR 2007]]. *Toxicological Profile for Arsenic*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2007 | Government report | ATSDR 2007 comprehensive arsenic toxicology profile — notes that seafood-derived organoarsenic (arsenobetaine) does not contribute to iAs exposure and must be excluded from dietary iAs calculations |
+| 74 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, ATSDR | 2005 | Government report | ATSDR Sn toxicology profile — identifies organotins (tributyltin, triphenyltin) from coastal-water seafood as a distinct and far more toxic Sn exposure pathway than inorganic tin from tinplate cans |
+| 75 | [[sources/jecfa-61st-methylmercury\|JECFA 2004]]. *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*, WHO Technical Report Series 922 | 2004 | Government report | JECFA 61st meeting — established the international MeHg PTMI of 1.6 µg/kg bw/week anchored on Faroe and Seychelles cohort data; foundational reference for all regulatory MeHg limits in seafood |
+| 76 | [[sources/epa-iris-methylmercury\|EPA 2001]]. *Methylmercury (MeHg) — IRIS Chemical Assessment Summary*, U.S. Environmental Protection Agency, Integrated Risk Information System | 2001 | Government report | EPA IRIS MeHg assessment establishing US oral RfD of 0.1 µg/kg bw/day for developmental neurotoxicity; the basis for FDA/EPA fish consumption advice for pregnant women and children |
+| 77 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | *[awaiting synthesis]* |
+| 78 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex General Standard — sets international MeHg, Pb, Cd, and iAs maximum levels applicable to fish, bivalve molluscs, cephalopods, and other seafood categories |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+This is the aggregate node for seafood; see [[ingredients/fish]] for fin-fish synthesis, [[ingredients/freshwater-fish]] for freshwater species, [[ingredients/shellfish]] and [[ingredients/bivalve-molluscs]] for crustacean and bivalve detail, [[ingredients/seaweed]] for marine plants, [[ingredients/shark]] for high-trophic predator detail, and [[ingredients/canned-tuna]] for canned tuna specifically. Across the seafood category, the dominant pathway varies by sub-commodity:
+
+**Methylmercury** is the dominant concern in fin-fish and reflects aquatic-food-web biomagnification (see [[ingredients/fish]] and [[metals/mercury-methyl]]). Apex marine predators (shark, swordfish, king mackerel, tilefish, bigeye tuna) carry the highest MeHg loads.
+
+**Cadmium** is the dominant concern in bivalve molluscs (oysters, mussels, clams, scallops). Bivalves filter large volumes of water and concentrate cadmium and other metals from the water column. [[ingredients/bivalve-molluscs]] is the canonical page for this.
+
+**Inorganic arsenic** is elevated in seaweed and kelp (see [[ingredients/seaweed]]); marine algae bioaccumulate arsenic from seawater and partition some of it as inorganic species.
+
+**Total arsenic** in fin-fish is dominated by arsenobetaine, a non-toxic organic form; total arsenic in shellfish carries a mix of arsenobetaine and arsenosugars. See [[metals/arsenic-total]] for the speciation-rule discussion.
+
+The category-wide HMTc panel concerns vary by sub-commodity. The Cat 6 Step 0 lock recognizes this by splitting seafood into rows: freshwater fish, marine non-predatory fish, marine predatory fish, shellfish, seaweed/kelp foods, and canned seafood (with tin flag).
+
+## Ranges by source, region, and variety
+
+Variance within the seafood category is the largest of any food category because the metal-load drivers operate on completely different mechanisms across sub-commodities: trophic-level biomagnification (MeHg in fin-fish), water-column filtration (Cd in bivalves), bio-uptake from seawater (iAs in seaweed). Cross-sub-commodity comparison requires per-sub-commodity context.
+
+See per-sub-commodity ingredient pages for specific range and variance synthesis.
+
+## Processing effects
+
+Seafood processing (cleaning, filleting, freezing, canning, smoking, drying, fermentation) generally does not remove the source-seafood metal load. Methylmercury in fin-fish is bound to muscle protein and is not reduced by cooking, smoking, or canning. Cadmium in bivalves is bound in soft tissue and is not removed by depuration (the water-circulation cleaning step in commercial bivalve operations) at meaningful levels.
+
+Canning concentrates per-mass metal through water loss and introduces standard tinplate-Sn-migration consideration for canned seafood (with-tin-flag designation per Cat 6 Step 0 lock).
+
+Smoking can add trace metals from smoke-source contamination but the contribution is small relative to source-fish methylmercury or source-bivalve cadmium.
+
+## Ingredient-derivative risk
+
+Seafood-derived derivatives concentrate metals: fish flour and fish protein concentrate carry source-fish metals at concentrated per-mass dry-basis levels; fish oil supplements partition methylmercury out but retain lipophilic contaminants (PCBs, dioxins); cod liver oil specifically carries elevated Cd and Pb relative to refined fish oil because liver is the Cd-storage organ.
+
+Bivalve-derived products (oyster supplements, shellfish powders) carry the source bivalve Cd.
+
+Seaweed-derived products (kelp tablets, dulse flakes, kelp granules as salt substitute) carry source-seaweed iAs at concentrated dry-mass levels and route to [[products/supplements-algae-seaweed-based|Cat 16 row 19]] when sold as dietary supplements.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention across seafood sub-commodities. For methylmercury in fin-fish: species selection (low-trophic short-lived species over apex predators) is the largest single intervention. For cadmium in bivalves: production-area selection (bivalve growing areas with documented low-Cd water-column data) reduces source-Cd. For iAs in seaweed: species selection (some seaweed species accumulate iAs less than others) and product-format selection (rinsed vs unrinsed seaweed has different iAs).
+
+**Consumption-pattern levers** apply at the consumer level for fin-fish methylmercury (FDA/EPA tiered consumption advisory) and for bivalves (commercial-Cd-monitored bivalve sources only).
+
+**Processing levers** ([[mitigation/processing]]) are limited for the source-seafood metal load. Cooking and processing don't reduce methylmercury, Cd, or iAs at meaningful levels.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level methylmercury testing for fin-fish (especially predatory species) and lot-level Cd testing for bivalves. Seaweed should be speciation-tested for iAs/tAs split. See [[testing/icp-ms]] and [[testing/arsenic-speciation]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned seafood.
+
+**Agronomic and formulation levers** are not consequential for wild-caught seafood; aquaculture seafood has feed-source levers that operate analogously to terrestrial-animal feed sourcing.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets species-specific Hg maximum levels for fishery products. Pb and Cd MLs for fish and bivalve molluscs are also set.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex Alimentarius General Standard for Contaminants and Toxins covers fish and shellfish.
+- FDA action level of 1.0 ppm methylmercury in fish ([[regulations/fda-methylmercury-fish-1-ppm]] when added) is the US enforcement reference.
+- FDA/EPA joint fish-consumption advisory categorizes fish into best-choice, good-choice, and avoid tiers for pregnant women and young children.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL and Hg MADL apply to seafood sold in California; serving-based screens govern.
+
 

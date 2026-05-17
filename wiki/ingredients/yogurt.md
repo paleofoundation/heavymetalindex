@@ -10,16 +10,16 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 14.8]
     p95_ppb: 51.1
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 4.3]
     p95_ppb: 5.2
     confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    n_studies: 3
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [0, 11.2]
@@ -31,16 +31,16 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 1]
     p95_ppb: 2.4
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Ni:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [0, 1734]
@@ -49,12 +49,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [0, 200.6]
@@ -64,11 +64,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [3, 37]
+    p95_ppb: 68
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 5
 ---
 
@@ -95,20 +95,20 @@ Yogurt is a fermented dairy product produced from whole or reduced-fat cow's mil
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=4 | 0–14.8 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|2]], [[sources/fda-ctz-Pb-babyfood-2025\|3]] |
+| Cd | n=3 | 0–4.3 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| iAs | n=1 | 0–11.2 | low | — |
+| tAs | n=2 | 3–37 | low | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]] |
+| tHg | n=3 | 0–1 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/pankiewicz2012-mercury-dairy-products-poland\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–1734 | high | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]] |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–200.6 | high | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Elemental Composition of Japanese Matcha Powder and Infusions—Pot.pdf"
 metals: [Pb, Cr, Ni]
-ingredients: ["[[ingredients/matcha]]", "[[ingredients/green-tea]]"]
+ingredients: ["[[ingredients/matcha-powder]]", "[[ingredients/green-tea]]"]
 products: ["[[products/tea-infusions]]", "[[products/matcha-beverages]]"]
 matrices: [matcha-powder, matcha-infusion]
 jurisdictions: [JP, PL]

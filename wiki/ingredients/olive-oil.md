@@ -10,16 +10,16 @@ contamination_profile:
     status: populated
     typical_ppb: [5, 100]
     p95_ppb: 200
-    confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-15
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [1, 30]
     p95_ppb: 50
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-15
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -31,23 +31,23 @@ contamination_profile:
     status: populated
     typical_ppb: [1, 50]
     p95_ppb: null
-    confidence: low
-    n_studies: 5
-    last_reviewed: 2026-05-15
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [0, 0.5]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-15
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Ni:
     status: populated
     typical_ppb: [10, 200]
     p95_ppb: null
-    confidence: low
-    n_studies: 5
-    last_reviewed: 2026-05-15
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [100, 1500]
@@ -59,9 +59,9 @@ contamination_profile:
     status: populated
     typical_ppb: [5, 100]
     p95_ppb: null
-    confidence: low
-    n_studies: 4
-    last_reviewed: 2026-05-15
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -98,20 +98,20 @@ Olive oil receives metals through four routes: (1) carryover from the fruit duri
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=8       | 5–100  | 200    | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/kabaran2020-health-risk-olive-oil-cyprus\|2]], [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|3]] |
-| Cd  | n=6       | 1–30   | 50     | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/kabaran2020-health-risk-olive-oil-cyprus\|2]] |
-| iAs | data gap  | —      | —      | —      | — |
-| tAs | n=5       | 1–50   | —      | low    | [[sources/kabaran2020-health-risk-olive-oil-cyprus\|2]] |
-| tHg | data gap  | —      | —      | —      | — |
-| Ni  | n=5       | 10–200 | —      | low    | [[sources/kabaran2020-health-risk-olive-oil-cyprus\|2]], [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|3]] |
-| Al  | n=2       | 100–1500 | —    | low    | [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|3]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|7]] |
-| Cr  | n=4       | 5–100  | —      | low    | [[sources/kabaran2020-health-risk-olive-oil-cyprus\|2]], [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|3]] |
-| Sn  | data gap  | —      | —      | —      | — |
-| U   | data gap  | —      | —      | —      | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=11 | 5–100 | high | [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|1]], [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|2]], [[sources/silva2025-edible-oils-health-sustainability\|3]] |
+| Cd | n=11 | 1–30 | high | [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|1]], [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|2]], [[sources/silva2025-edible-oils-health-sustainability\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=8 | 1–50 | medium | [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|1]], [[sources/silva2025-edible-oils-health-sustainability\|2]], [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|3]] |
+| tHg | n=2 | 0–0.5 | low | [[sources/scutarasu2023-heavy-metals-foods-beverages\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Ni | n=7 | 10–200 | medium | [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|1]], [[sources/silva2025-edible-oils-health-sustainability\|2]], [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|3]] |
+| Al | n=2 | 100–1500 | low | [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Cr | n=6 | 5–100 | medium | [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates\|1]], [[sources/silva2025-edible-oils-health-sustainability\|2]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

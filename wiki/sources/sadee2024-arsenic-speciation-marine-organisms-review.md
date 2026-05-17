@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11228943/FM_11228943.md
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/seaweed]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [marine-fish, shellfish, seaweed, seafood]
 jurisdictions: []
 near_duplicates: []

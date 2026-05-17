@@ -7,7 +7,7 @@ year: 2004
 publication: "U.S. Environmental Protection Agency, Integrated Risk Information System"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Lead%20and%20Compounds%20(Inorganic)%20%E2%80%94%20IRIS%20Chemical%20Assessment%20Summary
+access_url: "https://iris.epa.gov/ChemicalLanding/&substance_nmbr=277"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_IRIS_Lead_ToxicologicalReview.pdf

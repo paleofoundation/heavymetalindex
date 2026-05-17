@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1016/j.marpolbul.2022.114518"
 metals: [Cd, Pb, tHg, tAs, iAs]
 ingredients: ["[[ingredients/fish]]"]
-products: []
+products: ["[[products/canned-fish]]"]
 matrices: [canned-tuna]
 jurisdictions: [US, DE, FI, MT, RO, GB, NL, BG, BE, GR, HR, LV, DK, PT, SE, PL, CA, AU, JP, SA, IR, JO, HK, KH, AE, TN, DZ, EG, MA, AR, CL, PE, BR, TR, RU, GE]
 sample_n: 222

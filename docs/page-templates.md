@@ -1,0 +1,376 @@
+# Page templates — Heavy Metal Index Wiki
+
+This document is the operational reference for page templates. The rule-grade summary lives in CLAUDE.md; this file is the detailed YAML and section-level specification.
+
+Every wiki page starts with YAML frontmatter. Fields vary by page type but always include `type`, `updated`, `sources`, and `audience`.
+
+## Source page (`wiki/sources/<cite-key>.md`)
+
+```yaml
+---
+type: source
+raw_handle: FM_3750310
+cite_key: he2013-shanghai-cadmium
+title: "Exposure assessment of dietary cadmium: findings from shanghainese over 40 years, China"
+authors: [He P, Lu Y, Liang Y, Chen B, Wu M, Li S, He G, Jin T]
+year: 2013
+publication: "BMC Public Health"
+doi: 10.1186/1471-2458-13-590
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY"
+raw_path: raw/markdown/FM_3750310/FM_3750310.md
+metals: [Cd]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/seafood]]", "[[ingredients/tobacco]]"]
+products: []
+matrices: [dietary-intake, urine, blood]
+jurisdictions: [CN]
+near_duplicates: []
+sample_n: 207
+sample_population: "Shanghai adults over 40"
+updated: 2026-04-23
+---
+```
+
+```markdown
+# He et al. 2013 — Dietary cadmium exposure in Shanghai adults
+
+Two to four sentences of un-headed opening prose summarizing what the authors measured, what they found, and why it matters. The prose sits directly under the `# H1` title with no `## TL;DR` heading; the wiki reads as authoritative reference, not as a list of casual TL;DRs. Source pages created before 2026-05-08 may still carry the legacy heading; remove it on touch.
+
+## Key numbers
+Pull exact figures: sample sizes, means, 95th percentiles, LODs, geographic breakdown. Include page and table references from the source markdown. Preserve units and do not round.
+
+## Methods (brief)
+Analytical method, speciation or total, sample prep, LOD/LOQ. Flag any limitations.
+
+## Implications
+Certification: ...
+Courses: ...
+App: ...
+Microbiome (if applicable): ...
+
+## Wiki pages updated on ingest
+- [[metals/cadmium]]
+- [[ingredients/rice]]
+- [[ingredients/leafy-vegetables]]
+- [[regulations/china-gb-2762-2005]]
+```
+
+## Metal page (`wiki/metals/<metal>.md`)
+
+```yaml
+---
+type: metal
+symbol: Pb
+name: Lead
+species: [Pb2+, tetraethyl-lead]
+audience: [regulator, educator, consumer]
+microbiome_relevance: high
+wikibiome_crosswalk: ["[[microbiome/gut-lead-axis]]", "[[microbiome/lead-dysbiosis]]"]
+updated: 2026-04-22
+sources: 0
+---
+```
+
+Sections: Overview, Toxicology, Typical exposure routes, Food sources (linked to `ingredients/`), Regulatory limits (linked to `regulations/`), Testing (linked to `testing/`), Microbiome effects (linked to `microbiome/`), Vulnerable populations, Open questions, Sources.
+
+## Ingredient page (`wiki/ingredients/<commodity>.md`)
+
+Backbone of the future app. Keep it structured.
+
+```yaml
+---
+type: ingredient
+commodity: rice
+aliases: [rice flour, rice syrup, brown rice syrup, rice protein, rice starch]
+category: grain
+contamination_profile:
+  Pb:
+    status: pending                # pending | in_progress | populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null               # low | medium | high (only meaningful when status: populated)
+    n_studies: 0
+    last_reviewed: null
+  Cd: { ... same shape ... }
+  iAs: { ... }
+  tAs: { ... }
+  tHg: { ... }
+  Ni: { ... }
+  Al: { ... }
+  Cr: { ... }
+  Sn: { ... }
+  U: { ... }
+drivers: [soil-uptake, flooded-paddy, geography, cultivar, processing]
+lower_risk_variants: ["[[ingredients/basmati-india]]", "[[ingredients/california-rice]]"]
+higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
+used_in_products: ["[[products/infant-cereal]]", "[[products/rice-milk]]", "[[products/protein-powder]]", "[[products/crackers]]"]
+audience: [regulator, educator, consumer, app]
+updated: 2026-04-22
+---
+```
+
+The metal set is the ten metals: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U. See [[docs/schema-history]] for migration history. Cr carries total chromium; Cr-VI lives on `metals/chromium-hexavalent`. MeHg is matrix-driven and not in the ingredient profile.
+
+### Mandatory ingredient-page sections (enforced)
+
+Every non-stub ingredient page must carry these `## H2` headings in order. Stubs (all-pending `contamination_profile`, no contributing sources) are exempt. The lint check in CLAUDE.md Part 18 enforces these; failed pages surface via the `COMPLETE-INGREDIENT-SECTIONS` action.
+
+1. `## Why this commodity accumulates heavy metals` — soil, plant biology, processing, or sourcing reason. One to three paragraphs of prose.
+2. `## Heavy metal contamination profile` — body-level synthesis table (see Body table section below). Generator-managed; never hand-edited inside its marker bounds.
+3. `## Ranges by source, region, and variety` — geographic and varietal variation, anchored on sources.
+4. `## Processing effects` — polishing, rinsing, parboiling, fermentation, drying, milling, refining. Cite the source for each claim.
+5. `## Ingredient-derivative risk` — derivatives that concentrate or dilute which metals. Bran-vs-whole-vs-white is the canonical case.
+6. `## Mitigation options` — practical interventions ordered by impact magnitude. Subsection order: sourcing → agronomic → processing → formulation → testing/QC → packaging/storage. Each lever is a one-paragraph entry naming the magnitude with a cited source. Cross-link to dedicated `mitigation/<topic>.md` pages.
+7. `## Regulatory limits that apply` — Codex, EU, FDA, and other operative limits. Limit value, matrix scope, basis (product as placed, as consumed, dry weight). Cross-link to `regulations/<rule-id>`.
+8. `## Sources` — source legend table auto-generated by `tools/evidence/build-source-legend.mjs`.
+
+Stub pages carry only sections 2 (body table, all rows marked data gap) and 8 (source legend with empty-corpus message). When a stub crosses two-plus contributing A-tier sources, the section-completion subprocess action drafts sections 1, 3, 4, 5, 6, and 7 from the routing audit and contributing source pages.
+
+The `contamination_profile` block is deliberately machine-readable. The app consumes it directly.
+
+### Geographic and seasonal variance sub-fields
+
+Each metal sub-block carries two optional variance arrays — `geographic_breakdown` and `seasonal_variance` — that hold regional and harvest-period range data brand legal teams need to defend against a cherry-picked-maximum attack. See OPERATING.md Part 7 initiative 7.
+
+```yaml
+  Cd:
+    status: populated
+    typical_ppb: [80, 240]
+    p95_ppb: 410
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-12
+    geographic_breakdown:
+      - region: "Côte d'Ivoire"
+        range_ppb: [60, 180]
+        n: 124
+        sources: ["[[sources/example-cocoa-cdv-2024]]"]
+      - region: "Ecuador, high altitude"
+        range_ppb: [220, 540]
+        n: 87
+        sources: ["[[sources/example-ecuador-cocoa-2023]]"]
+    seasonal_variance:
+      - period: "El Niño years (Ecuador 2015-2016, 2023)"
+        range_ppb: [180, 620]
+        n: 41
+        sources: ["[[sources/example-elnino-cocoa-2024]]"]
+        note: "Drought-stress concentrates Cd uptake; values run roughly 40 percent higher than non-El-Niño-year baselines."
+```
+
+Schema rules:
+
+- Both arrays are optional and default to empty.
+- Each entry: `region` (or `period`), `range_ppb`, `n`, `sources` list, optional `note`.
+- Regional entries non-overlapping enough to read sensibly (state/country/production-region).
+- Seasonal entries name an explicit period or condition (harvest year, drought, monsoon, El Niño phase). Avoid vague periods.
+- Variance entries are populated by the synthesis pass per CLAUDE.md Part 9 or lazily added when materials drop into `raw/manual-fetch/seasonal-geographic-variance/`.
+
+### The three-field state system
+
+Each metal sub-block has two orthogonal concepts:
+
+`status` is the data-state field. Have we researched this combination yet?
+- `pending` — template placeholder, no research done. Values are `null`. Initial state.
+- `in_progress` — research started, some values populated, review incomplete.
+- `populated` — research complete. Values reflect current best understanding as of `last_reviewed`.
+
+`confidence` is the evidence-state field. Given the research, how much and how consistent?
+- Only meaningful when `status: populated`. Otherwise `null`.
+- `low` — 1 to 2 studies, or wide disagreement.
+- `medium` — 3 to 10 studies, moderate agreement.
+- `high` — more than 10 studies, strong agreement.
+
+`n_studies` is the count of A-tier or B-tier sources contributing values. `n_studies: 0` with `status: populated` is a legitimate finding: the literature is silent on this combination; the app should treat as data gap rather than "probably clean." `n_studies: 0` with `status: pending` is the template default.
+
+`last_reviewed` is the date Claude last integrated new evidence into this sub-block. Full-resynthesis tracking lives in `data/evidence/review_events.jsonl`, not on the page.
+
+### Coverage rule: all ten analytes addressed per ingest
+
+When any ingest touches an ingredient page (advances at least one sub-block to `in_progress` or `populated`), all ten sub-blocks must move out of `pending` in the same pass. Sub-blocks the source does not cover advance to `status: populated, n_studies: 0, confidence: null, last_reviewed: <today>` — the declared-data-gap state. Mixed-state pages (some `populated`, some `pending`) are a lint failure. All-`pending` stubs (no ingest yet) are not lint failures; they are the legitimate stub state.
+
+Declaring an analyte a data gap is a finding, not a placeholder: it tells the app, the certifier, and downstream readers that the wiki has reviewed and found nothing usable for this commodity-analyte combination.
+
+### Body table: "Heavy metal contamination profile"
+
+The `contamination_profile` YAML is for the app. Human readers (regulators, brand QA, journalists, plaintiff and defense experts) read the page body. Every touched ingredient page must carry a body-level table:
+
+```markdown
+## Heavy metal contamination profile
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb  | n=2       | 50–200 | low    | [[sources/foo2024-bar\|1]], [[sources/baz2023-qux\|2]] |
+| Cd  | n=5       | 100–600 | medium | [[sources/...\|3]], [[sources/...\|4]] |
+| iAs | data gap  | —      | —      | — |
+| tAs | n=3       | ...    | low    | ... |
+| tHg | data gap  | —      | —      | — |
+| Ni  | n=1       | 800    | low    | [[sources/...\|5]] |
+| Al  | n=1       | 20,000 | low    | ... |
+| Cr  | n=1       | 200    | low    | ... |
+| Sn  | data gap  | —      | —      | — |
+| U   | data gap  | —      | —      | — |
+
+### Source legend
+1. [[sources/foo2024-bar]] — short description of what this source contributes
+2. [[sources/baz2023-qux]] — ...
+```
+
+Coverage cells use `n=<count>` when `n_studies > 0` and `data gap` when `n_studies = 0` with `status: populated`. Numerical cells use `—` for data gaps. Key-sources cells cite the top two or three contributing sources using numbered-alias convention. Per-page tail percentile (formerly `p95 (ppb)` column) stays staff-side per CLAUDE.md Part 19; the `p95_ppb` field remains in machine-readable frontmatter but does not surface on the public page. This 5-column table is a sanctioned exception to the multi-column-tables-discouraged guidance in [[docs/writing-style]].
+
+## Product-category page (`wiki/products/<category>.md`)
+
+```yaml
+---
+type: product-category
+category: infant-rice-cereal
+typical_ingredients: [rice-flour, rice-cereal, vitamin-mineral-premix]
+primary_metals_of_concern: [iAs, Cd]
+vulnerable_population: infants-0-24mo
+applicable_regulations: [fda-ctz-iAs-cereal-100ppb, eu-2023-915]
+updated: 2026-04-22
+---
+```
+
+**This is the public, literature-native view of the product category.** The wiki/HMT&C firewall in CLAUDE.md Part 2 applies: percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), CC eligibility verdicts, n_a_tier counts, clean/dirty subcategory designations, and Path A/Path B status do not appear on this page. They appear on the staff workbench snapshot at `wiki/workbench/standards/<product-slug>.md`. The staff workbench is the home for threshold-selection content; this public page is the home for literature evidence.
+
+The `Methodology` section, near the top, states the rules that govern the rest of the page: speciation is non-substitutable; basis is preserved and labeled, never silently converted; non-detect handling preserves the source's own reporting convention; source pooling is avoided across LOQ, period, geography, and analytical-basis differences; row-fit is determined by author scope, not by re-derivation; evidence tiers and confidence ratings follow CLAUDE.md.
+
+The `Literature Evidence Summary` is generator-managed inside `hmi-hmtc-evidence-summary` markers. Columns are literature-native: analyte, subcategory designation in plain language, reported concentration range across cited sources (means and medians plus highest reported value), detection rate where supported, applicable regulatory cap with jurisdiction and basis, source count, confidence rating, basis note. No internal codenames, no percentile arithmetic, no CSV paths.
+
+The `Source Evidence Inventory` separates measured product concentrations from intake or exposure estimates. Shows what each source actually reports: metal, evidence scope, n, statistic type, reported values, units, max or p100 if directly reported, row-fit, brief evidence note. Do not add p10/p50/p90/p95 columns unless the source itself reports those.
+
+Row-fit is determined by what authors state their scope to be, not what the ingest can re-derive from data tables. If title/abstract/methods/table-defining footnotes specify the matrix (milk-based powdered infant formula, soy-based, brown rice cereal, fluid cow milk), row-fit is exact. Mark `partial` only when authors use a vague umbrella term and tables do not narrow. Mark `unknown` only when authors are silent and tables genuinely do not resolve. Tables that visibly contradict the stated scope are flagged for curator review, not silently downgraded. Default posture: trust author scope statements.
+
+Row-fit is a compound classification with two axes: **matrix axis** (milk-based vs soy-based vs hydrolyzed; rice-based vs non-rice; root vegetable vs leafy green) and **format axis** (powdered vs ready-to-feed vs concentrated liquid; dry vs as-consumed; jar vs pouch). Each axis is exact, partial, or unknown independently. Source-page TL;DR and frontmatter `matrices` / `products` should record both axes explicitly when known.
+
+The `Broad Product Context: Author-Scope Index` is generator-managed inside `hmi-broad-context-sources` markers. Catalogues sources whose author-stated scope is broader than this row.
+
+The `Federal/Regulatory Limits vs Field Findings` is generator-managed inside `hmi-product-crosswalk` markers. Compares applicable regulatory cap to cited field-evidence on a like-for-like basis when conversion is well-defined (powder-as-placed at 1:7 reconstitution), or anchors to the speciation rule when conversion is not possible (total arsenic vs inorganic arsenic, total mercury vs methylmercury, total chromium vs Cr-VI).
+
+Do not combine geography, period, and product-fit scopes without labeling the consequence. Product fit, analytical basis, sample size, detection handling, period, and jurisdiction are recorded as metadata. Pooling across jurisdictions is a staff-side decision recorded in the workbench snapshot, not a public-page claim.
+
+Inline and table citations on product-category pages use numbered aliases `[[sources/<cite-key>|1]]`. A `Sources` block at the end maps each number to the full source page.
+
+### Mandatory product-category-page sections (enforced)
+
+Every non-stub product-category page must carry these `## H2` headings. Stubs (no contributing sources in routing audit) are exempt.
+
+1. `## Who this page is for` — stakeholder framing per OPERATING.md Part 2 brand-legal-priority hierarchy.
+2. `## Methodology` — speciation, basis-preservation, row-fit, and pooling rules.
+3. `## Literature Evidence Summary` — generator-managed inside `hmi-hmtc-evidence-summary` markers.
+4. `## Source Evidence Inventory` — what each source reports at the sample level; hand-curated.
+5. `## Broad Product Context: Author-Scope Index` — generator-managed inside `hmi-broad-context-sources` markers.
+6. `## Federal/Regulatory Limits vs Field Findings` — generator-managed inside `hmi-product-crosswalk` markers.
+7. `## Levers to reduce contamination` — practical interventions ordered by impact magnitude. Sourcing → agronomic → processing → formulation → testing-and-QC → packaging-and-storage. Each lever names magnitude with a cited source.
+8. `## How standards math uses this page` — explanation that the row-standard percentile is an aggregate, not a per-source decoration.
+9. `## Historical recalls and enforcement` — public-record regulatory events, framed as events not brand rankings (per CLAUDE.md Part 12).
+10. `## Sources` — source legend table auto-generated by `tools/evidence/build-source-legend.mjs`.
+
+The Levers section is the brand-legal-actionable surface of the product page. Pages missing it specifically are escalated rather than just flagged.
+
+## Regulation page (`wiki/regulations/<rule-id>.md`)
+
+```yaml
+---
+type: regulation
+rule_id: fda-ctz-iAs-cereal-100ppb
+jurisdiction: US
+agency: FDA
+program: Closer to Zero
+metal: iAs
+matrix: infant-rice-cereal
+limit_value: 100
+limit_unit: ppb
+status: finalized                         # proposed | draft-guidance | finalized | enforced
+effective_date: 2023-08-01
+sunset_date: null
+source_refs: ["[[sources/fda2023-ctz-guidance]]"]
+updated: 2026-04-22
+---
+```
+
+Sections: Scope, Exact limit and units, How tested (official method), Enforcement posture, History of changes, How it compares to EU/Codex/state law, Sources.
+
+Cross-link to parallel rules in other jurisdictions. Never silently substitute or round regulatory values. Preserve exact agency-source values. If a value is ambiguous in the source, note the ambiguity rather than resolving unilaterally.
+
+## Testing method page (`wiki/testing/<method>.md`)
+
+Sections: Principle, What it measures (and what it does not — total vs speciated arsenic), Typical LOD/LOQ per metal, Sample prep pitfalls, Cost and throughput, When to choose this method, Sources.
+
+Speciation deserves its own page (`testing/arsenic-speciation.md`) because the regulatory and health distinction between inorganic and organic arsenic is central to the whole domain.
+
+## Microbiome page (`wiki/microbiome/<topic>.md`)
+
+```yaml
+---
+type: microbiome
+wikibiome_crosswalk: <slug>
+metals: [Pb, Cd]
+mechanism: [barrier-disruption, taxa-shift, SCFA-reduction]
+disease_links: [IBD, metabolic-syndrome]
+updated: 2026-04-22
+---
+```
+
+Sections: Mechanism of action, Taxa-level effects (genus and species), Functional and metabolic consequences, Human vs animal evidence, Disease-process implications, Sources.
+
+Write so they can be lifted to WikiBiome with minimal edits. Use WikiBiome's taxon naming when confirmed. Microbiome content belongs here only when the primary link is metal exposure; general microbiome mechanisms without a metals angle belong on WikiBiome.
+
+WikiBiome federation: use `wikibiome_crosswalk` slugs in frontmatter as stable anchors. Prefer mechanistic framing: exposure → microbiome change → functional consequence → disease process. Name taxa at genus or species level where the source supports; do not aggregate up to phylum unless the source did. Keep self-contained enough to lift without the rest of this wiki as context.
+
+## Certification page (`wiki/certification/*.md`)
+
+For the Paleo Foundation HMT&C program. Include proposed limits, tier definitions (standard, infant-grade, ultra), sampling plans, auditor checklists, decision trees, and gap analyses against FDA/EU/Codex.
+
+These pages reference wiki evidence; they do not define wiki evidence. When an HMT&C page specifies a threshold, it cites the wiki for the literature baseline and explicitly states the rationale for any deviation:
+
+- **Precautionary** — tighter than literature floor because vulnerable populations, cumulative exposure, or uncertainty warrant a safety margin beyond minimum-effect-level data.
+- **Market-ratcheting** — tighter than literature floor because the program drives market toward cleaner product; a policy choice, not an assertion about where effects begin.
+- **Feasibility-driven** — looser than literature floor because current methods, supply chain realities, or achievable agricultural practice do not yet support the tighter value. Paired with a sunset plan to tighten as feasibility improves.
+- **Regulatory-alignment** — matches an external regulatory framework (FDA, EU, Codex) for commercial or legal reasons.
+
+The deviation itself is fine and often intentional. Silently softening the wiki to hide the deviation, or strengthening the wiki to make the deviation look evidence-based, is the failure mode. State the rationale; do not paper over the gap.
+
+## Course page (`wiki/courses/*.md`)
+
+Each course has an outline page and module pages. Module pages include Learning objectives, Core content (drawn from wiki pages via links), Case studies (linked to `sources/` and `products/`), Quiz items, Further reading. Keep DRY: link to canonical wiki pages rather than duplicating.
+
+Course-drafting workflow:
+- Start from learning objectives, not from existing wiki content.
+- Link into canonical wiki pages rather than duplicating. If a wiki page is not educator-friendly enough, improve the wiki page (`audience: educator` section) rather than forking content into the course.
+- Every technical claim in a course must trace through the wiki to an A-tier or B-tier source.
+
+## App-model page (`wiki/app/*.md`)
+
+This is where the logic for the ingredient-list → contamination-risk estimator is codified.
+
+- `app/ingredient-mapping.md` — how raw ingredient-list strings map to `ingredients/` pages (synonyms, parenthetical modifiers, "organic", country of origin).
+- `app/recipe-inference.md` — how ingredient-order and nutrition-facts back-solve approximate proportions.
+- `app/risk-scoring.md` — how per-ingredient contamination profiles combine into a per-serving estimate, with uncertainty.
+- `app/vulnerable-population-flags.md` — when to flag for infants, pregnancy, or frequent consumers.
+- `app/disclaimer-language.md` — consumer-facing wording that educates without overclaiming.
+
+App-layer workflow:
+- Keep ingredient frontmatter machine-readable and consistent. The app parses these directly.
+- When `contamination_profile` values change, advance or update `status`, bump `last_reviewed`, bump the page `updated` field, log why, and commit. The change happens during the synthesis pass per CLAUDE.md Part 9, not during ingest.
+- Document uncertainty explicitly: ranges, confidence levels, number of underlying studies. Never report a point estimate the app cannot defend.
+- Handle `status: pending` gracefully: exclude from estimate, communicate "not yet characterized" to the user, or fall back to category-level defaults. Never silently substitute a null for a zero.
+
+## Audience layering
+
+Every substantive page carries `audience: [regulator, educator, consumer, app]` in frontmatter. Within long pages, section tagging is allowed:
+
+```markdown
+## Mechanism
+<!-- audience: educator, regulator -->
+[technical content]
+
+## What this means for families
+<!-- audience: consumer -->
+[plain-language content]
+```
+
+This lets the same wiki render three ways without maintaining three wikis.
+
+Consumer translation is dose-and-population-specific. This is the highest-risk interpretive work in the wiki. "Rice contains small amounts of inorganic arsenic" is true for an adult with a varied diet and false for an infant on rice cereal. Consumer-audience sections must specify dose, population, and consumption frequency. Never use undefined qualifiers ("small," "trace," "safe," "dangerous") without a quantitative anchor. When a consumer-audience section makes a claim, the same claim should be traceable upward to the technical sections and downward to the source. If a plaintiff's expert or defense expert reads the consumer language, they should find it specific, defensible, and free of both fear-mongering and false reassurance.

@@ -6,9 +6,8 @@ title: "ADA/VBB colorimetric method for cadmium detection in rice, milk, and veg
 authors: [Luo]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=ADA%2FVBB%20colorimetric%20method%20for%20cadmium%20detection%20in%20rice%2C%20milk%2C%20and%20vegetables%20with%20real%20sample%20measurements
+doi: "10.3390/foods13172684"
+access_url: "https://doi.org/10.3390/foods13172684"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown

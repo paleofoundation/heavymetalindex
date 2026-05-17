@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Trace_Metal_Lead_Exposure_in_Typical_Lip_Cosmetics_From_Electronic_Commercial_Pl.pdf"
 metals: [Pb]
 ingredients: []
-products: ["[[products/lip-cosmetics]]", "[[products/lipstick]]", "[[products/lip-gloss]]", "[[products/lip-balm]]", "[[products/children-personal-care]]"]
+products: ["[[products/childrens-lip-balm-mineral-bearing]]", "[[products/childrens-lip-balm-plain]]", "[[products/children-personal-care]]"]
 matrices: [cosmetic-personal-care, exposure-modeling]
 jurisdictions: [CN]
 near_duplicates: []

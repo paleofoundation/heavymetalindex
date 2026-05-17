@@ -13,7 +13,7 @@ license: "All rights reserved"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Determination of lead in vinegar by ICP-MS and GFAAS_ evaluation .pdf"
 metals: [Pb]
 ingredients: ["[[ingredients/vinegar]]", "[[ingredients/balsamic-vinegar]]", "[[ingredients/wine-vinegar]]", "[[ingredients/apple-cider-vinegar]]"]
-products: []
+products: ["[[products/vinegar]]"]
 matrices: [vinegar, balsamic-vinegar, wine-vinegar, apple-cider-vinegar, rice-vinegar]
 jurisdictions: [US]
 near_duplicates: []

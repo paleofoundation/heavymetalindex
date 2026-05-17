@@ -7,82 +7,82 @@ aliases: ["cereal grains", "grain foods", "grain-based foods", grains, barley, b
 category: grain
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 70]
+    p95_ppb: 250
+    confidence: high
+    n_studies: 20
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [20, 70]
+    p95_ppb: 200
+    confidence: high
+    n_studies: 23
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 30]
+    p95_ppb: 100
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0, 5]
+    p95_ppb: 20
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [170, 1160]
+    p95_ppb: 3900
+    confidence: high
+    n_studies: 14
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [2400, 5000]
+    p95_ppb: 7000
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [30, 200]
+    p95_ppb: 600
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [0, 20]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 50]
+    p95_ppb: 200
+    confidence: medium
+    n_studies: 12
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [soil-uptake, geography, processing, fortification]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/rice]]", "[[ingredients/oat]]", "[[ingredients/wheat]]"]
 used_in_products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]"]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
-sources: 33
+updated: 2026-05-16
+sources: 32
 ---
 
 # Cereals
@@ -90,6 +90,23 @@ sources: 33
 Cereals is the regulatory umbrella term used by EFSA, JECFA, and Codex Alimentarius for grain-based human foods. It encompasses rice, wheat, oat, maize, barley, rye, and the products derived from them. Per-commodity contamination profiles live on the individual grain pages ([[ingredients/rice]], [[ingredients/oat]], [[ingredients/wheat]], etc.); this page is the structural parent that lets regulatory documents addressing "cereals" as a category route correctly.
 
 The cereals category is the dominant cadmium dietary-exposure pathway in EFSA and JECFA assessments and a primary source of inorganic arsenic exposure where rice-based products are prevalent. Cereal-based infant foods (referenced in EU Commission Regulation 2023/915 and FDA Closer-to-Zero guidance) carry tighter regulatory limits than adult cereal products because of the higher per-kg-body-weight intake in early life.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=20 | 10–70 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| Cd | n=23 | 20–70 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| iAs | n=10 | 5–30 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
+| tAs | n=12 | 5–50 | medium | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
+| tHg | n=8 | 0–5 | medium | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/codex-cccf17-2024\|3]] |
+| Ni | n=14 | 170–1160 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/han2024-nickel-zhejiang-china\|3]] |
+| Al | n=6 | 2400–5000 | medium | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| Cr | n=9 | 30–200 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|3]] |
+| Sn | n=5 | 0–20 | low | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -139,4 +156,56 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 31 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Panel Cd opinion establishing the EU TWI of 2.5 µg/kg bw/week; cereals identified as the largest single dietary Cd exposure pathway for European adults and the anchor for EU cereal Cd maximum levels |
 | 32 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Operative international Codex standard setting MLs for Cd, Pb, Hg, iAs, and Sn across food commodities; cereals and rice are the primary Cd ML categories and the international regulatory reference against which domestic limits are compared |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+This is the aggregate node for cereals; see [[ingredients/rice]], [[ingredients/wheat]], [[ingredients/oat]], [[ingredients/maize]], [[ingredients/quinoa]], [[ingredients/non-rice-grains]], and related per-grain pages for commodity-specific synthesis. Across the cereals category, the dominant pathway is soil-uptake at the grain-production stage: each cereal species takes up Cd, Pb, and other panel metals at species-specific rates that depend on plant root biology, soil pH, soil Cd and Pb concentrations, and water-management regime.
+
+Rice is the canonical iAs accumulator and a moderate Cd accumulator (water-management trade-off discussed at [[ingredients/rice]]). Wheat, oat, and non-rice grains accumulate Cd at lower rates than rice and do not accumulate iAs efficiently. All cereal grains concentrate Cd in the bran layer relative to the endosperm.
+
+The HMTc panel concerns for cereals are dominantly iAs (rice and rice-products) and Cd (all cereals, with bran-fraction concentration). Lead is generally low except in grains grown on Pb-contaminated soils.
+
+## Ranges by source, region, and variety
+
+Variance within "cereals" is dominated by the rice-vs-non-rice axis (rice carries 5-10× the iAs of non-rice grains from the same region) and by the whole-grain-vs-refined axis (whole-grain carries 1.5-3× the Cd of refined-flour from the same source grain). Within rice, see [[ingredients/rice]] for region/water-management/variety detail. Within non-rice cereals, geographic variance tracks regional soil-Cd: cereals from Cd-elevated regions (parts of EU, Australia, some Chinese growing zones) carry higher Cd than cereals from cleaner regions.
+
+The Cat 3 Step 0 lock recognizes the rice-vs-non-rice split at the breakfast-cereal level ([[products/breakfast-cereal-rice-based]] vs [[products/breakfast-cereal-non-rice]]) and at the pasta level ([[products/pasta-rice-based]] vs [[products/pasta-wheat-based]]).
+
+## Processing effects
+
+Cereal milling separates the bran (high-Cd) from the endosperm (low-Cd); refined-flour cereal products carry 40-60 percent less Cd than whole-grain products from the same source grain. For rice, polishing similarly reduces iAs and Cd.
+
+Cooking with water (boiling pasta, cooking rice or oats) extracts some metals into the cooking water; discarding the cooking water reduces per-serving iAs in rice substantially (35-50 percent per [[ingredients/rice]] discussion). For wheat-based pasta and other non-rice cereals, the cooking-water-discard effect is smaller because Cd is more tightly bound in the endosperm.
+
+Toasting, baking, and other heat treatments at typical cooking temperatures do not change cereal metal content.
+
+## Ingredient-derivative risk
+
+Cereal-derived derivatives that concentrate metals: rice bran, wheat bran, oat bran (the bran-only fractions carry the source-grain bran concentration without endosperm dilution), rice protein concentrate (concentrates Cd from source rice), brown-rice syrup (concentrates iAs from source rice, per the [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Jackson 2012]] organic-formula finding).
+
+Cereal-flour-based finished products (bread, pasta, baked goods, breakfast cereal) inherit the source-grain metal load proportional to the cereal fraction in the recipe.
+
+Cereal-based dietary supplements (rice-protein powder, wheat-germ supplements, oat-fiber supplements) carry per-serving metal at concentrated levels and route to [[products/supplements-protein-collagen-powders|Cat 16 row 20]] or [[products/supplements-botanicals-herbs|Cat 16 row 15]] depending on labeling.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention category-wide. Single-origin sourcing from documented low-Cd / low-iAs growing regions and supplier-grain QC verification reduce per-product metal load. For rice specifically, [[ingredients/rice]] discusses the substantial geographic-segmented sourcing variance.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the grain-production stage: soil pH management, water-management regime for rice, cultivar selection (low-Cd-accumulator cultivars identified in wheat, rice, oat, and other species), avoidance of high-Cd phosphate fertilizers.
+
+**Processing levers** ([[mitigation/processing]]) include polishing decisions for rice (white-flour reduction vs nutrient retention), refined-flour vs whole-grain formulation, rinsing protocols (multi-rinse protocols for rice), and cooking-water-discard for rice products.
+
+**Formulation levers** ([[mitigation/formulation]]) include substitution of low-iAs grain for rice in target-low-iAs products (oat-based or wheat-based vs rice-based formulations).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd and iAs testing on incoming grain shipments. iAs/tAs speciation is operationally required for rice products targeting EU markets. See [[testing/icp-ms]] and [[testing/arsenic-speciation]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not generally consequential for cereal metal load on typical shelf-life timescales.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in cereals and cereal products. iAs has specific MLs for rice and rice products differentiated by processing form (parboiled vs non-parboiled milled, infant rice cereal).
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — sets Cd MLs for cereal grains; cereal-product-specific limits derive from national authorities and EU implementation.
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs action level of 100 ppb for infant rice cereal.
+- FDA Closer to Zero Pb framework covers processed baby foods including cereal-based baby foods.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to cereal-containing products sold in California.
+
 

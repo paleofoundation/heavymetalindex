@@ -9,14 +9,13 @@ primary_metals_of_concern: [Al, Cd, Pb]
 vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
-sources: 1
+sources: 2
 updated: 2026-04-29
 ---
 
 # Oral Electrolyte Solutions
 
-_Stub page. This bridge node exists because Dabeka et al. 2011 measured oral electrolyte solutions alongside infant formulae. These products are not one of the locked HMTc Category 1 infant-food rows, but they are relevant to infant exposure context._
-
+This bridge node exists because Dabeka et al. 2011 measured oral electrolyte solutions alongside infant formulae. These products are not one of the locked HMTc Category 1 infant-food rows, but they are relevant to infant exposure context.
 ## Who this page is for
 
 <!-- BEGIN: hmi-stakeholder-guide -->
@@ -42,7 +41,7 @@ _Stub page. This bridge node exists because Dabeka et al. 2011 measured oral ele
     </div>
     <div>
       <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
+      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
     </div>
   </dl>
 </div>
@@ -50,7 +49,7 @@ _Stub page. This bridge node exists because Dabeka et al. 2011 measured oral ele
 
 ## Methodology
 
-This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in pediatric oral electrolyte solutions. It does not report HMT&C certification thresholds, percentile-selection arithmetic, or clean/dirty subcategory designations; those appear on the staff Standards Workbench at `/workbench/standards/oral-electrolyte-solutions`.
+This page reports what the peer-reviewed and regulatory literature states about heavy-metal concentrations in pediatric oral electrolyte solutions. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
 
 **Speciation is non-substitutable.** Inorganic arsenic (iAs) and total arsenic (tAs) are separate analytes. Total mercury (tHg) and methylmercury (MeHg) are separate analytes. Total chromium (Cr) and hexavalent chromium (Cr-VI) are separate analytes. Values are never interchanged across speciation boundaries.
 
@@ -114,7 +113,7 @@ The levers below apply to pediatric oral electrolyte solutions. The product matr
 
 ## How standards math uses this page
 
-HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Percentile-selection arithmetic (p10, p30, p50, p90, p95, p100), clean/dirty subcategory designations, candidate-cell verdicts, and n_A-tier source counts do not appear on this public page. They appear on the staff Standards Workbench snapshot at `/workbench/standards/oral-electrolyte-solutions`.
+HMT&C threshold-setting reads this page's Source Evidence Inventory and Literature Evidence Summary as its literature baseline. Certification threshold decisions are made separately under the certification program and are not published on this public page.
 
 When this page's source evidence changes — a new source is added to the Source Evidence Inventory, or an existing source's row-fit is revised — the Standards Workbench snapshot should be regenerated to reflect the updated literature baseline. The workbench snapshot is the threshold-setting surface; this public page is the literature-evidence surface. The two are maintained in parallel by design.
 
@@ -131,5 +130,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | Canadian survey reporting Pb, Cd, and Al in oral electrolyte solutions (Cd at or below 0.01 ng/g; Pb mean 0.16 ng/g); primary occurrence source for this product row |
+| 1 | [[sources/gardener2019-pb-cd-us-infant-formula-baby-foods\|Gardener et al. 2019]]. *Lead and cadmium contamination in a large sample of United States infant formulas and baby foods*, Science of the Total Environment | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | Canadian survey reporting Pb, Cd, and Al in oral electrolyte solutions (Cd at or below 0.01 ng/g; Pb mean 0.16 ng/g); primary occurrence source for this product row |
 <!-- END: hmi-source-legend -->

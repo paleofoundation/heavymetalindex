@@ -7,87 +7,104 @@ aliases: []
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 1
 ---
 
 # Baby Cereals Dry
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | data gap | — | — | — |
+| Cd | data gap | — | — | — |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | data gap | — | — | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -106,4 +123,52 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/original2020-original-a\|Alharbi et al. 2023]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition (Wiley) | 2023 | Peer-reviewed | iAs, tAs, Cd, and Pb in Saudi-market dry cereal-based baby meals and biscuits with dietary exposure modeling for infants and toddlers |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Dry baby cereals inherit their heavy-metal load from the source grain plus added ingredients (vitamin-mineral premix, fortifying iron compound, processing aids). The dominant variance driver is the rice-vs-non-rice grain choice: rice-based infant cereals carry the rice iAs load (see [[ingredients/rice]]); non-rice infant cereals (oat, wheat, barley, multigrain) carry lower iAs but inherit the source-grain Cd. Both rice and non-rice baby cereals are routed to dedicated Cat 1 Step 0 product rows ([[products/baby-cereals-dry-rice-based]] and [[products/baby-cereals-dry-non-rice]]).
+
+The vitamin-mineral premix added during baby cereal manufacturing is a documented contamination pathway: the iron compound (most commonly electrolytic iron or ferric pyrophosphate) is added for nutritional fortification but can carry trace Pb depending on supplier specification. The premix's per-product mass is small but the per-serving Pb contribution from premix can be the dominant Pb source in some otherwise low-grain-Pb baby cereals.
+
+The HMTc panel concerns for dry baby cereal are iAs (rice-based products dominant; FDA Closer to Zero anchor at 100 ppb), Pb (all baby cereal varieties), and Cd (cereal-bran-fraction concentration). Aluminum can be elevated in some products from premix mineral sources.
+
+## Ranges by source, region, and variety
+
+The dominant axes of variance are the rice-vs-non-rice split and the whole-grain-vs-refined split. Rice-based infant cereals from regions with high-iAs rice (South Asian, US Gulf Coast) carry the highest iAs; rice-based infant cereals from low-iAs origins (California, basmati-India) carry less. Non-rice infant cereals show wider variation in metal load by source-grain (wheat vs oat vs barley vs multigrain) and by region.
+
+[[sources/fda2016-infant-toddler-foods-inorganic-arsenic|FDA 2016]] documents the rice-cereal iAs distribution at n=76 samples for rice-based and n=30 for non-rice subcategories. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Signes-Pastor 2016]] documents European-market rice cereal at n=29 baby rice + 53 rice cereals. These two are the foundational sources for the rice-cereal iAs synthesis.
+
+## Processing effects
+
+Baby cereal processing involves grain milling (to a fine flour suitable for infant feeding), heat treatment for shelf-stability, fortification with vitamin-mineral premix, packaging. Milling to a fine flour does not change total per-mass metal content; the bran-vs-endosperm distinction is at the upstream grain-flour stage rather than the baby-cereal-manufacturing stage. Heat treatment does not change panel metals.
+
+Reconstitution at the consumer point (mixing dry baby cereal with breast milk, formula, or water) yields as-fed concentration approximately the dry-cereal concentration divided by the reconstitution ratio. The water source matters: if reconstituted with high-Pb tap water, the as-fed Pb exceeds the source-cereal-only Pb. Reconstitution with breast milk or with documented-low-Pb formula reduces this concern.
+
+## Ingredient-derivative risk
+
+Baby cereal is itself a finished retail product; its derivatives are cooked-baby-cereal preparations rather than further ingredient-level derivatives. Mixed baby-food preparations that include rice cereal as an ingredient inherit the rice-cereal iAs.
+
+Toddler cereal products (marketed for ages 1+) bridge into the Cat 1 toddler-bridging scope; the regulatory framework softens at the toddler-vs-infant boundary, with FDA action levels less stringent than EU MLs for some matrices.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. For rice-based baby cereal: low-iAs rice origin sourcing (California, basmati-India, certain low-iAs Vietnamese origins). For non-rice baby cereal: source-grain sourcing from documented low-Cd regions. Premix-supplier specification (Pb-tested, food-grade iron compound) is the operational lever for premix-introduced Pb.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the upstream grain stage; see [[ingredients/rice]], [[ingredients/oat]], and per-grain pages.
+
+**Processing levers** ([[mitigation/processing]]) include grain rinsing or pre-treatment for rice-based products (where commercial-scale rice rinsing can reduce iAs) and dry-process specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include the rice-vs-non-rice choice (substituting oat or multigrain for rice substantially reduces iAs) and ingredient-percentage adjustment.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature in the infant-cereal industry. Lot-level iAs testing on rice-based cereal against the FDA 100 ppb action level is standard. EU markets require iAs speciation; see [[testing/arsenic-speciation]] and [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include foil-lined-pouch and box-with-bag specifications for dry baby cereal.
+
+## Regulatory limits that apply
+
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs action level of 100 ppb for infant rice cereal. This is the foundational US regulatory anchor.
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action level of 20 ppb for dry infant cereals for children under 2.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for iAs in infant rice cereal and rice products for infants and young children. Cd ML for cereal-based baby foods.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex iAs ML for rice and Cd ML for infant cereals.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant cereal products yields a stringent serving-based screen.
+
 

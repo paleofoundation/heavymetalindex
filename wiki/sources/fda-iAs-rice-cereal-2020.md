@@ -7,7 +7,7 @@ year: 2020
 publication: "U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099)"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Inorganic%20Arsenic%20in%20Rice%20Cereals%20for%20Infants%3A%20Action%20Level%3B%20Guidance%20for%20Industry
+access_url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/FDA_InorganicArsenic_RiceCereal_ActionLevel_2020.pdf

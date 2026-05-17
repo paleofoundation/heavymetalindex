@@ -1,3 +1,7 @@
+---
+noindex: true
+---
+
 # P2 Sub-Batch 3 Ingest Report
 **Date:** 2026-05-12
 **Batch:** 50 papers listed in P2 sub-batch 3 task

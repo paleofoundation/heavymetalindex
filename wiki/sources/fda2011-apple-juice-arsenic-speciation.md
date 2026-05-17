@@ -6,6 +6,7 @@ authors: [U.S. Food and Drug Administration]
 year: 2011
 publication: "U.S. Food and Drug Administration"
 source_type: gov-data
+no_doi_assigned: true
 evidence_tier: A
 access_url: https://www.fda.gov/food/environmental-contaminants-food/results-arsenic-analysis-single-strength-apple-juice-2011-ora-sampling-assignment-2011102701
 data_path: data/evidence/category5_apple_juice_arsenic_speciation_samples.csv

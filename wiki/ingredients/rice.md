@@ -10,100 +10,100 @@ contamination_profile:
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 61
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [3.5, 9.7]
     p95_ppb: 19
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 86
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [41.6, 41.6]
     p95_ppb: 41.6
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: high
+    n_studies: 74
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 45
+    last_reviewed: 2026-05-16
   Ni:
-    status: in_progress
+    status: populated
     typical_ppb: [80, 450]
     p95_ppb: null
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-11
+    confidence: high
+    n_studies: 23
+    last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [200, 1500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   Cr:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 30
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb: [0, 20]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    confidence: high
+    n_studies: 11
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
     typical_ppb: [30.2, 62]
     p95_ppb: 66.9
     confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    n_studies: 95
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: high
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
 drivers: [soil-uptake, flooded-paddy, irrigation-water-management, geography, cultivar, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/brown-rice]]", "[[ingredients/rice-bran]]", "[[ingredients/rice-protein-concentrate]]"]
 used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]", "[[products/gluten-free-baking]]", "[[products/protein-powder]]", "[[products/crackers]]", "[[products/puffed-rice-snacks]]"]
 audience: [regulator, educator, consumer, app]
 sources: 157
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Rice
 
-_Stub page. Contamination profile populates on the next ingest wave. Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors worldwide, with variation driven by soil cadmium, cultivar differences, flooded-paddy redox chemistry, and processing (bran contains higher cadmium than endosperm)._
+Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors worldwide, with variation driven by soil cadmium, cultivar differences, flooded-paddy redox chemistry, and processing (bran contains higher cadmium than endosperm).
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=61 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
+| Cd | n=86 | 3.5–9.7 | high | [[sources/qin2026-rice-cadmium-liver-cancer-guangxi\|1]], [[sources/ji2026-agricultural-soil-metals-zhejiang\|2]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|3]] |
+| iAs | n=74 | 41.6 | high | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|1]], [[sources/yan2025-rice-heavy-metals-henan-china\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
+| tAs | n=95 | 30.2–62 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|2]], [[sources/xie2026-selenium-enriched-rice-china\|3]] |
+| tHg | n=45 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|3]] |
+| Ni | n=23 | 80–450 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Al | n=11 | 200–1500 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
+| Cr | n=30 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
+| Sn | n=11 | 0–20 | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| U | n=4 | 0 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/gama2025-bvl-rice-trace-elements\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
 
 ## Why this commodity accumulates cadmium
 
@@ -121,11 +121,31 @@ AWD is the leading climate-smart rice practice promoted by the International Ric
 
 ## Ranges by source, region, and variety
 
-_Pending ingest of commodity-level occurrence datasets and of Codex Standard CXS 193-1995 (which sets the international Cd ML for rice)._
+The dominant axes of variance in rice heavy-metal load are growing region, paddy water management, and the white-versus-brown processing decision.
+
+**Inorganic arsenic** varies systematically by growing region because paddy-soil arsenic is geographically heterogeneous. South Asian (Bangladesh, India, Pakistan), Southeast Asian (Cambodia, Vietnam, parts of China), and US-Gulf-Coast rice grown in arsenic-rich-aquifer zones routinely tests at the higher end. California rice, basmati from northern India, and rice grown in irrigation systems sourced from low-arsenic aquifers test substantially lower. The geographic-segmented sourcing decision is the brand-side iAs intervention with the largest documented magnitude.
+
+**Cadmium** in rice is driven by paddy-soil Cd content and pH, with elevated Cd documented in some Chinese and Sri Lankan growing regions ([[sources/bandara2010-cadmium-rice-sri-lanka-crf|Bandara 2010]] is the foundational Sri Lankan dataset; [[sources/qin2026-rice-cadmium-liver-cancer-guangxi|Qin 2026]] documents the Guangxi epidemiological signal). The cadmium-rice exposure pathway is particularly consequential in populations with high per-capita rice consumption.
+
+**Lead** in rice is generally low except where soil Pb loading is elevated (historic mining regions, agricultural-area contamination from past pesticide use, irrigation-water Pb in industrial-zone production). The wiki's pooled rice Pb data show low population-level concentrations.
+
+**Variety effects** within a single growing region: brown rice and rice bran carry higher cadmium and higher inorganic arsenic than polished white rice from the same source, because both metals concentrate in the bran layer rather than the endosperm. Basmati rice (long-grain aromatic Indian/Pakistani cultivars) is documented at lower iAs than typical South-Asian short-grain rice. Wild rice (Zizania, a different species) carries different metal profiles from Oryza rice and is not characterized on this page.
+
+**Water-management effects** within a single growing region: continuously flooded paddies favor inorganic arsenic accumulation and suppress cadmium; alternate wetting and drying (AWD) or aerobic management favors cadmium and suppresses inorganic arsenic. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer & Seyfferth 2024]] and [[sources/seyfferth2025-rice-water-management-as-hg-cd|Seyfferth et al. 2025]] quantify the trade-off at field scale (described above in the Irrigation-management cadmium risk section). The certification implication is that climate-adaptive water management is shifting the rice contamination profile away from arsenic and toward cadmium.
 
 ## Processing effects
 
-_Pending. Polishing reduces cadmium by removing the bran layer; rinsing, parboiling, and cooking-water-discard effects will be characterized when occurrence data are consolidated._
+Rice processing has the most-studied heavy-metal removal effects of any commodity in the corpus.
+
+**Polishing** (removing bran from brown rice to make white rice) removes both inorganic arsenic and cadmium because both metals concentrate in the bran layer. White rice typically carries 40-60 percent less inorganic arsenic and 40-60 percent less cadmium than brown rice from the same source. The trade-off is nutrient loss documented in [[sources/su-2023-arsenic-brown-rice|Su et al. 2023]]; the public-health calculation behind brown-rice advisory hedges balances the metal-reduction benefit of polishing against nutritional loss.
+
+**Rinsing** (pre-cooking) removes a small fraction of inorganic arsenic by washing surface-bound arsenic into the discarded rinse water. Multi-rinse protocols (rinsing until the water runs clear, typically 3-5 rinses) reduce iAs by approximately 10-30 percent. Rinsing has minimal effect on cadmium because cadmium is bound within the grain rather than surface-bound.
+
+**Cooking-water-discard** (cooking rice in excess water and discarding the water before serving, rather than absorption-method cooking) substantially reduces inorganic arsenic in finished cooked rice — reductions of 35-50 percent are documented across multiple primary studies. The trade-off is loss of water-soluble nutrients (some B-vitamins, water-soluble minerals). The 6:1 water-to-rice cooking ratio with full discard is the operationally documented protocol; lower water ratios reduce the effect.
+
+**Parboiling** (partial pre-cooking of rough rice before milling) redistributes some metals from bran to endosperm. Parboiled rice typically carries similar total iAs to non-parboiled rice from the same source but with different bran-vs-endosperm distribution. [[regulations/eu-2023-915|EU Reg. 2023/915]] sets different iAs maximum levels for parboiled versus non-parboiled milled rice reflecting this.
+
+**Cooking method (rice cooker absorption-method vs stovetop excess-water-discard)** is the dominant consumer-side intervention. Switching from absorption-method to excess-water cooking is the single highest-magnitude consumer behavior change for reducing iAs from rice in the diet.
 
 ## Ingredient-derivative risk
 

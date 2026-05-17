@@ -14,7 +14,7 @@ raw_path: raw/markdown/FM_9623109/FM_9623109.md
 metals: [Pb]
 ingredients: ["[[ingredients/spinach]]", "[[ingredients/leafy-greens]]", "[[ingredients/wheat]]"]
 products: []
-matrices: [vegetable, grain, irrigation-water, soil]
+matrices: [leafy-vegetable, cereal-grain, irrigation-water, soil]
 jurisdictions: [IN, PK, CN, IR, EG, ET, KE, IQ, MA, NG, KP, KR, BW]
 near_duplicates: []
 sample_n: 24
@@ -30,7 +30,7 @@ This systematic review and meta-analysis synthesises 24 studies across 13 countr
 
 - Pb in irrigation wastewater: mean concentration ranged from 0.0196 ± 0.01 mg/L to 52.4 ± 0.02 mg/L in untreated wastewater; 0.001–0.88 ± 0.13 mg/L in treated wastewater.
 - 50% of wastewater values exceeded the WHO/FAO standard for irrigation water (0.5 mg/L Pb).
-- Pb in irrigated soil: 0.04 ± 2.3 mg/kg (Ethiopia) to 441 ± 19.8 mg/kg (Iran).
+- Pb in irrigated soil: 0.04 ± 2.3 mg/L (Ethiopia) to 441 ± 19.8 mg/L (Iran), preserving the source text's reported unit.
 - 44 crops studied across 24 studies; most frequently studied: spinach, cabbage, lettuce, wheat, corn, broad beans.
 - In all crops produced with untreated wastewater, Pb levels in edible parts exceeded WHO edibility limits.
 - HRI > 1 for adult consumption of vegetables in India, Iraq, Morocco, and Egypt.
@@ -40,19 +40,22 @@ This systematic review and meta-analysis synthesises 24 studies across 13 countr
 
 ## Methods (brief)
 
-Systematic review following PRISMA 2009. Search databases: PubMed, ScienceDirect, Google Scholar. Inclusion criteria: original research reporting Pb concentrations (mean ± SD) in irrigation wastewater, irrigated soil, and edible plant parts, with a control group and clearly stated wastewater type. 5,268 articles identified; 24 met final inclusion criteria. Meta-analysis conducted in Stata v16.0 and Cochrane RevMan 5. Health risk assessment using health risk index (HRI = DIM/RfD), bioconcentration factor (BCF), pollution load index (PLI), and soil accumulation factor (SAF). RfD for Pb (adults): 0.001 mg/kg/day.
+Systematic review following PRISMA 2009. Search databases: PubMed, ScienceDirect, Google Scholar. Inclusion criteria: original research reporting Pb concentrations (mean ± SD) in irrigation wastewater, irrigated soil, and edible plant parts, with a control group and clearly stated wastewater type. 5,268 articles identified; 24 met final inclusion criteria. Meta-analysis conducted with statistical and review-management software. Health risk assessment used health risk index (HRI = DIM/RfD), bioconcentration factor (BCF), pollution load index (PLI), and soil accumulation factor (SAF). RfD for Pb (adults): 0.001 mg/kg/day.
 
 ## Implications
 
-Certification: Directly relevant to ingredient sourcing geography; supply chains using produce from South Asian or Middle Eastern regions irrigated with untreated municipal wastewater face documented Pb risk exceeding WHO edibility limits. HMT&C sourcing specifications for high-risk vegetables (spinach, leafy greens) should flag irrigation water source as a risk factor.
+Certification: Directly relevant to ingredient sourcing geography; the review reports documented Pb accumulation in wastewater-irrigated crops, including spinach and other leafy vegetables. Use as source-level evidence that irrigation-water history is a risk factor for Pb occurrence, not as a standalone HMT&C sourcing specification.
 Courses: Core evidence for wastewater irrigation as a Pb transfer pathway; illustrates HRI methodology and BCF concept for QA and supply-chain training.
-App: Leafy vegetables (spinach, cabbage, lettuce) from wastewater-irrigated origins carry elevated Pb; HRI exceedance documented across multiple countries; supply-chain origin flag warranted.
+App: Leafy vegetables (spinach, cabbage, lettuce) from wastewater-irrigated origins carry elevated Pb in the reviewed studies; HRI exceedance is documented across multiple countries and can inform qualitative origin-risk context.
 Microbiome: Not directly applicable.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/spinach]]
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/wheat]]
 - [[metals/lead]]
-- [[supply-chain/irrigation-water-lead]]
+
+## Verification notes
+
+- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Preserved the source text's reported soil unit in Key numbers, tightened HMT&C/app language away from wiki-side sourcing directives, corrected matrix vocabulary, removed a non-taxonomy supply-chain wikilink, and removed named analysis-software vendors from Methods while preserving the meta-analysis workflow.

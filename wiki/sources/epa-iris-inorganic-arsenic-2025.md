@@ -7,7 +7,7 @@ year: 2025
 publication: "EPA/635/R-25/005Fa, U.S. Environmental Protection Agency, Integrated Risk Information System"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=IRIS%20Toxicological%20Review%20of%20Inorganic%20Arsenic
+access_url: "https://iris.epa.gov/ChemicalLanding/&substance_nmbr=278"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EPA_IRIS_InorganicArsenic_ToxicologicalReview.pdf

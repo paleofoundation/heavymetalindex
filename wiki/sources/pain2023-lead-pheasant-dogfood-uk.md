@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10272007/FM_10272007.md
 metals: [Pb]
 ingredients: ["[[ingredients/meat-and-poultry]]", "[[ingredients/poultry]]"]
-products: []
+products: ["[[products/pet-food-dry-kibble]]", "[[products/game-meats]]"]
 matrices: [game-meat, pet-food]
 jurisdictions: [GB, EU]
 near_duplicates: []

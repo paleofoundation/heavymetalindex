@@ -35,12 +35,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-13
   Ni:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [0, 3215]
@@ -49,12 +49,12 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-13
   Cr:
-    status: in_progress
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    n_studies: 0
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [0, 10.5]
@@ -95,20 +95,20 @@ Butternut squash is a cucurbit (Cucurbitaceae family) whose edible flesh is phys
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=1 | 0–6.5 | medium | — |
+| Cd | n=1 | 0.9–2.2 | medium | — |
+| iAs | n=1 | 5.2–43.2 | low | — |
+| tAs | data gap | — | — | — |
+| tHg | n=1 | 0–0.2 | high | — |
+| Ni | data gap | — | — | — |
+| Al | n=1 | 0–3215 | medium | — |
+| Cr | data gap | — | — | — |
+| Sn | n=1 | 0–10.5 | medium | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

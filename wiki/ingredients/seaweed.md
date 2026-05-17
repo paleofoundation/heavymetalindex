@@ -31,8 +31,8 @@ contamination_profile:
     status: populated
     typical_ppb: [5000, 80000]
     p95_ppb: 150000
-    confidence: high
-    n_studies: 7
+    confidence: medium
+    n_studies: 9
     last_reviewed: 2026-05-16
   tHg:
     status: populated
@@ -98,18 +98,20 @@ Marine macroalgae take metals from seawater through passive diffusion across cel
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=6       | 50–1,000        | —         | medium | [[sources/efsa2023-heavy-metals-seaweed\|4]], [[sources/asni2020-pb-seaweed-bantaeng\|1]] |
-| Cd  | n=7       | 200–3,000       | 8,000     | high   | [[sources/efsa2023-heavy-metals-seaweed\|4]], [[sources/hahn2022-salish-seaweed-contaminants\|6]] |
-| iAs | n=6       | 100–5,000       | 20,000    | high   | [[sources/efsa2023-heavy-metals-seaweed\|4]], [[sources/davydiuk2023-arsenosugars-methylation\|3]] |
-| tAs | n=7       | 5,000–80,000    | 150,000   | high   | [[sources/efsa2023-heavy-metals-seaweed\|4]], [[sources/hahn2022-salish-seaweed-contaminants\|6]] |
-| tHg | n=5       | 10–100          | —         | medium | [[sources/efsa2023-heavy-metals-seaweed\|4]], [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|5]] |
-| Ni  | n=3       | 200–2,000       | —         | low    | [[sources/hahn2022-salish-seaweed-contaminants\|6]] |
-| Al  | data gap  | —               | —         | —      | — |
-| Cr  | n=3       | 100–2,000       | —         | low    | [[sources/nour2025-djiboutian-seaweeds-metals\|9]] |
-| Sn  | data gap  | —               | —         | —      | — |
-| U   | data gap  | —               | —         | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=6 | 50–1000 | medium | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/efsa2023-heavy-metals-seaweed\|2]], [[sources/nepper-davidsen2023-kelp-biomass-composition-nz\|3]] |
+| Cd | n=7 | 200–3000 | high | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/efsa2023-heavy-metals-seaweed\|2]], [[sources/nepper-davidsen2023-kelp-biomass-composition-nz\|3]] |
+| iAs | n=6 | 100–5000 | high | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|2]], [[sources/sim2024-inorganic-arsenic-seaweed-hplc\|3]] |
+| tAs | n=9 | 5000–80000 | medium | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/raab2024-arsenolipids-chlamydomonas\|2]], [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|3]] |
+| tHg | n=5 | 10–100 | medium | [[sources/groleau2025-inuit-fish-broth-metals-pregnancy\|1]], [[sources/efsa2023-heavy-metals-seaweed\|2]], [[sources/nepper-davidsen2023-kelp-biomass-composition-nz\|3]] |
+| Ni | n=3 | 200–2000 | low | [[sources/hahn2022-salish-seaweed-contaminants\|1]] |
+| Al | data gap | — | — | — |
+| Cr | n=3 | 100–2000 | low | [[sources/hahn2022-salish-seaweed-contaminants\|1]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 

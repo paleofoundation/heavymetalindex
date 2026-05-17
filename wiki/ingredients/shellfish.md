@@ -7,82 +7,82 @@ aliases: ["crustaceans and molluscs", seafood-shellfish, shrimp, crustaceans]
 category: aquatic-protein
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 300]
+    p95_ppb: 800
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [200, 1500]
+    p95_ppb: 4000
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [10, 80]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [20, 200]
+    p95_ppb: 500
+    confidence: high
+    n_studies: 14
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [100, 1000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [500, 5000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [100, 500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [1000, 10000]
+    p95_ppb: 20000
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: [filter-feeding, bioaccumulation, sediment-burden, harvest-water-quality, depuration-status]
 lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/bivalve-molluscs]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
-sources: 28
+updated: 2026-05-16
+sources: 29
 ---
 
 # Shellfish
@@ -92,6 +92,23 @@ Shellfish is the regulatory umbrella covering crustaceans (shrimp, crab, lobster
 The cadmium-shellfish relationship is the strongest single-metal signal in the dietary-exposure literature: EFSA, JECFA, and the FDA all treat bivalve molluscs as a leading dietary Cd source for shellfish-consuming populations, comparable to organ meats and cereals. The total-vs-inorganic arsenic distinction (per CLAUDE.md Part 14) is non-negotiable for shellfish; tAs values appear alarmingly high but most of that signal is arsenobetaine, which is excreted intact and lacks the toxicity of iAs.
 
 This page is the structural umbrella; [[ingredients/bivalve-molluscs]] carries bivalve-specific evidence and is the higher-risk subcategory for Cd. Crustacean-specific detail will land on dedicated pages as the corpus grows.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=10 | 50–300 | medium | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/taylor2025-seafood-benefits-contaminants\|3]] |
+| Cd | n=13 | 200–1500 | high | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/taylor2025-seafood-benefits-contaminants\|3]] |
+| iAs | n=6 | 10–80 | medium | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|2]], [[sources/zhao2024-toxic-metals-metalloids-food-review\|3]] |
+| tAs | n=10 | 1000–10000 | medium | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/taylor2025-seafood-benefits-contaminants\|2]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|3]] |
+| tHg | n=14 | 20–200 | high | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|2]], [[sources/taylor2025-seafood-benefits-contaminants\|3]] |
+| Ni | n=5 | 100–1000 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|3]] |
+| Al | n=2 | 500–5000 | low | [[sources/li2025-ratiometric-fluorescent-sensor-al-cu-food\|1]], [[sources/berber2024-crayfish-metal-content-turkey\|2]] |
+| Cr | n=4 | 100–500 | medium | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|2]], [[sources/ramos-miras2023-pte-shrimp-ecuador\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -108,31 +125,78 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | 10-year Italian regulatory monitoring of Cd, Pb, and tHg across 5,854 seafood samples including bivalves (17.41%) and crustaceans (7.69%), with cephalopod Cd exceedances (n=17) concentrated in squids against EU 2023/915 |
+| 1 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
 | 2 | [[sources/li2025-ratiometric-fluorescent-sensor-al-cu-food\|Li et al. 2025]]. *A ratiometric fluorescent sensor for Al3+ and Cu2+ detection in food samples*, Frontiers in Nutrition | 2025 | Peer-reviewed | Methods paper validating an Al3+/Cu2+ fluorescent sensor via spiked-recovery in scallops and razor clams; no ambient shellfish Al concentrations reported |
 | 3 | [[sources/taylor2025-seafood-benefits-contaminants\|Taylor et al. 2025]]. *Seafood Benefits and Contaminants: A Comprehensive Review of Health Impacts, Safety Concerns, and Risk Mitigation Strategies*, Foods | 2025 | Peer-reviewed | Broad secondary review of Hg, Pb, Cd, and tAs concentrations across fish and shellfish matrices, summarizing US FDA/EPA advisory frameworks and vulnerable-population guidance |
 | 4 | [[sources/xia2025-whole-cell-biosensor-hg-food\|Xia et al. 2025]]. *Replacing Manual Operation with Bio-Automation II: Construction of a Biological Digestion Gene Circuit to Eliminate the Interference of Food Matrices in the Rapid Detection of Heavy Metals*, Foods | 2025 | Peer-reviewed | Methods paper validating a whole-cell biosensor for Hg2+ detection in spiked shellfish and fish matrices; no occurrence measurements reported |
-| 5 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | Global WHO FOSCOLLAB analysis of 138,281 records for tHg, MeHg, Cd, Pb, tAs, and iAs across fish, molluscs, crustaceans, and cephalopods, with benthic and filter-feeding shellfish biodiluting Hg but accumulating Cd, Pb, and As |
-| 6 | [[sources/berber2024-crayfish-metal-content-turkey\|Berber et al. 2024]]. *Metal content and fatty acid profiles in narrow-clawed crayfish (Pontastacus leptodactylus) from Atikhisar Dam Lake, Turkey: seasonal variation and health risk assessment*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | Fe, Zn, Al, Cu, Mn, Se, As, Hg, Cd, and Pb in narrow-clawed crayfish (Pontastacus leptodactylus) from Atikhisar Dam Lake (Turkey) across 12 months, with seasonal and sex-based variation reported alongside EDI/THQ consumer risk |
+| 5 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/berber2024-crayfish-metal-content-turkey\|Berber et al. 2024]]. *Metal content and fatty acid profiles in narrow-clawed crayfish (Pontastacus leptodactylus) from Atikhisar Dam Lake, Turkey: seasonal variation and health risk assessment*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 | 7 | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|Bruno et al. 2024]]. *Mineral composition in mussel Mytilus galloprovincialis and clam Tapes decussatus from Faro Lake of Messina: risk assessment for human health*, Frontiers in Toxicology | 2024 | Peer-reviewed | IT/EU tAs, Cd, Pb, tHg, Ni, Cr occurrence in 80 specimens of Mytilus galloprovincialis (mussel) and 80 specimens of Tapes decussatus (clam) collected from Faro Lake, Messina,... (n=160) |
-| 8 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | Nickel occurrence in shellfish and molluscs within a Zhejiang Province six-category dietary survey (2628 samples), with children 0–6 the only segment showing unacceptable cumulative Ni exposure (THQ 1.078) |
+| 8 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 | 9 | [[sources/rohonczy2024-arctic-foodweb-cd-hg\|Rohonczy et al. 2024]]. *Cadmium and mercury trophic transfer in the Arctic marine food web of Hudson Bay*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | CA Cd, tHg, MeHg occurrence in Multiple Arctic marine species from Hudson Bay, Canada: blue mussel, common eider, sculpin, Arctic cod, ringed seal (n=781) |
 | 10 | [[sources/sadee2024-arsenic-speciation-marine-organisms-review\|Sadee et al. 2024]]. *Recent developments in speciation and determination of arsenic in marine organisms using different analytical techniques. A review*, RSC Advances | 2024 | Peer-reviewed | iAs, tAs occurrence in Systematic review of published arsenic occurrence and speciation studies in marine organisms; no single primary cohort |
 | 11 | [[sources/zhao2024-toxic-metals-metalloids-food-review\|Zhao et al. 2024]]. *Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies*, Current Opinion in Environmental Science & Health | 2024 | Peer-reviewed | AU/BR/FR tAs, iAs, Cd, Pb occurrence in Global occurrence synthesis: Table 1 aggregates national mean occurrence data from Total Diet Studies across Australia, Brazil, France,... |
 | 12 | [[sources/bjerregaard2023-mercury-mussels-denmark\|Bjerregaard et al. 2023]]. *In Search of Mercury Lost from Sediments in a Previously Contaminated Coastal Area, Harboøre Tange, Denmark*, Bulletin of Environmental Contamination and Toxicology | 2023 | Peer-reviewed | DK/EU tHg occurrence in Blue mussels (Mytilus edulis), periwinkles (Littorina littorea), brown shrimps, and amphipods from Nissum Broad coastal stations, Denmark; also... (n=137) |
-| 13 | [[sources/blanco2023-mercury-fish-valencia\|Blanco et al. 2023]]. *Mercury levels in fish in the Valencian Community: temporal evolution (2011-2017) and associated factors*, Revista Española de Salud Pública | 2023 | Peer-reviewed | Total and methylmercury in 635 Valencian (Spain) seafood-surveillance samples including shellfish, with median tHg 0.20 mg/kg ww and a downward Hg trend (~7% per year for swordfish) over 2011–2017 |
+| 13 | [[sources/blanco2023-mercury-fish-valencia\|Blanco et al. 2023]]. *Mercury levels in fish in the Valencian Community: temporal evolution (2011-2017) and associated factors*, Revista Española de Salud Pública | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 14 | [[sources/hall2023-methylmercury-tidal-marsh\|Hall et al. 2023]]. *Linking Mesoscale Spatial Variation in Methylmercury Production to Bioaccumulation in Tidal Marsh Food Webs*, Environmental Science & Technology | 2023 | Peer-reviewed | US MeHg, tHg occurrence in Primary and secondary consumers (gastropods, bivalves, amphipods, beetles, spiders, shrimp, crabs, fish) from four marsh features at three... (n=116) |
-| 15 | [[sources/liu2023-arsenic-seafood-digestion\|Liu et al. 2023]]. *Transformation of arsenic species from seafood consumption during in vitro digestion*, Frontiers in Nutrition | 2023 | Peer-reviewed | In vitro BARGE UBM digestion of crab and scallop demonstrating that organoarsenic species (AsB, AsC, DMA, MMA) convert to As(V) during digestion, raising bioavailable iAs 2–3-fold above pre-digestion speciation |
+| 15 | [[sources/liu2023-arsenic-seafood-digestion\|Liu et al. 2023]]. *Transformation of arsenic species from seafood consumption during in vitro digestion*, Frontiers in Nutrition | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 16 | [[sources/onyegeme-okerenta2023-shellfish-nigeria\|Onyegeme-Okerenta et al. 2023]]. *Potential Toxic elements in shellfish from three rivers in Niger Delta, Nigeria: bioaccumulation, dietary intake, and human health risk assessment*, Environmental Analysis, Health and Toxicology | 2023 | Peer-reviewed | NG tAs, Cd, Cr, Pb, Ni occurrence in Three shellfish species (Penaeus monodon, Crassostrea rhizophorae, Tympanostomus fuscatus) from three rivers in Niger Delta, Nigeria (Buguma, Krakrama,... (n=27) |
-| 17 | [[sources/ramos-miras2023-pte-shrimp-ecuador\|Ramos-Miras et al. 2023]]. *Potentially toxic element bioaccumulation in consumed indoor shrimp farming associated with diet, water and sediment levels*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | tAs, Cd, Cr, Ni, Pb, and tHg in indoor-farmed Pacific White shrimp (Litopenaeus vannamei) head and tail tissues from El Oro Province (Ecuador), with head As (3.52–6.11 mg/kg DW) exceeding the EU 4 mg/kg cephalothorax limit |
-| 18 | [[sources/cegolon2022-hg-hair-trieste\|Cegolon et al. 2022]]. *Concentration of mercury in human hair and associated factors in residents of the Gulf of Trieste (North-Eastern Italy)*, Environmental Science and Pollution Research | 2022 | Peer-reviewed | Hair-tHg biomonitoring in 301 Gulf of Trieste (Italy) residents identifying shellfish/crayfish/mollusk preference as the strongest positive predictor of elevated hair Hg (adjusted RC = 0.35) |
-| 19 | [[sources/moura2022-hg-jaguaribe-estuary\|Moura et al. 2022]]. *Mercury in the Jaguaribe River Estuary, Northeast Brazil: Sources, Distribution, and Bioavailability*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | Total Hg in shrimp (Littopenaeus vannamei) tissues alongside sediments and water from the Jaguaribe River Estuary (NE Brazil), with annual Hg load to the estuary estimated at 243 kg/year |
-| 20 | [[sources/cfs2019-organotin-aquatic-hongkong\|Centre for Food Safety 2019]]. *Organotin Compounds in Aquatic Products Available at Local Markets*, Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD | 2019 | Government report | Organotin compounds (TBT, DBT, DOT, TPT) in 341 Hong Kong market shellfish, crustacean, and molluscan samples, with TPT dominant and dietary exposures at 20–57% of the EFSA group TDI; distinct from inorganic Sn toxicology |
-| 21 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | Joint FDA/EPA consumer-facing fish and shellfish consumption guidance anchored to MeHg exposure, classifying species by mercury tier for pregnant women and children |
-| 22 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical toxicological chapter on Cd covering dietary exposure sources including shellfish and bivalve molluscs as high-Cd contributors |
-| 23 | [[sources/shue2012-bivalves-tapeng-taiwan\|Shue et al. 2012]]. *Seasonal variations of heavy metals in the bivalve's mollusks from Ta-Peng Bay lagoon in southwestern Taiwan*, Advanced Materials Research | 2012 | Peer-reviewed | Cu, Zn, Pb, Cd, Ni, and Cr across six bivalve species from Ta-Peng Bay (Taiwan) over four seasons (n=72), with Pb/Ni/Cr higher in winter and Cd accumulation significantly species-dependent (ANOVA p<0.001) |
-| 24 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | JECFA dietary exposure assessment for Cd identifying shellfish (particularly molluscs) as a significant contributor to the PTMI of 25 µg/kg b.w./month |
-| 25 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM opinion establishing the EU Cd TWI at 2.5 µg/kg b.w./week, with shellfish and bivalve molluscs identified among the highest-Cd food groups in European diets |
-| 26 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | EPA-822-R-97-003 baseline establishing that over 95% of arsenic in marine fish and shellfish is organoarsenic (primarily arsenobetaine), with associated dietary iAs exposure scenarios derived from USDA intake data |
+| 17 | [[sources/ramos-miras2023-pte-shrimp-ecuador\|Ramos-Miras et al. 2023]]. *Potentially toxic element bioaccumulation in consumed indoor shrimp farming associated with diet, water and sediment levels*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 18 | [[sources/cegolon2022-hg-hair-trieste\|Cegolon et al. 2022]]. *Concentration of mercury in human hair and associated factors in residents of the Gulf of Trieste (North-Eastern Italy)*, Environmental Science and Pollution Research | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 19 | [[sources/moura2022-hg-jaguaribe-estuary\|Moura et al. 2022]]. *Mercury in the Jaguaribe River Estuary, Northeast Brazil: Sources, Distribution, and Bioavailability*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 20 | [[sources/raju2021-bivalves-cagayan-philippines\|Raju et al. 2021]]. *Heavy Metal Determination of Bivalves in Cagayan Valley, Philippines*, Scholars Academic Journal of Biosciences | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 21 | [[sources/cfs2019-organotin-aquatic-hongkong\|Centre for Food Safety 2019]]. *Organotin Compounds in Aquatic Products Available at Local Markets*, Risk Assessment Studies Report No. 60, Centre for Food Safety, Hong Kong FEHD | 2019 | Government report | *[awaiting synthesis]* |
+| 22 | [[sources/fda-epa-fish-consumption-advice\|FDA 2017]]. *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*, U.S. FDA and U.S. EPA | 2017 | Government report | Joint FDA/EPA consumer-facing fish and shellfish consumption guidance anchored to MeHg exposure, classifying species by mercury tier for pregnant women and children |
+| 23 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical toxicological chapter on Cd covering dietary exposure sources including shellfish and bivalve molluscs as high-Cd contributors |
+| 24 | [[sources/shue2012-bivalves-tapeng-taiwan\|Shue et al. 2012]]. *Seasonal variations of heavy metals in the bivalve's mollusks from Ta-Peng Bay lagoon in southwestern Taiwan*, Advanced Materials Research | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 25 | [[sources/jecfa-73rd-cadmium-2010\|JECFA 2011]]. *Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants*, WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) | 2011 | Government report | JECFA dietary exposure assessment for Cd identifying shellfish (particularly molluscs) as a significant contributor to the PTMI of 25 µg/kg b.w./month |
+| 26 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM opinion establishing the EU Cd TWI at 2.5 µg/kg b.w./week, with shellfish and bivalve molluscs identified among the highest-Cd food groups in European diets |
+| 27 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Shellfish (the broad seafood category covering crustaceans, bivalves, and gastropods) accumulate heavy metals through their feeding mechanism and water-column exposure. Bivalves (oysters, mussels, clams, scallops) filter large volumes of water — an oyster filters 5-50 liters per day — and concentrate dissolved and particle-bound metals, particularly cadmium. Crustaceans (shrimp, crab, lobster) accumulate metals through their carnivorous diet and shedding-and-rebuilding-shell life cycle. Gastropods (sea snails, abalone, conch) carry profiles intermediate between bivalves and crustaceans depending on diet.
+
+See [[ingredients/bivalve-molluscs]] for the bivalve-specific synthesis (the dominant Cd-accumulator subgroup) and [[ingredients/molluscs]] for the cephalopod and gastropod context.
+
+The HMTc panel concerns for shellfish are dominantly Cd (in bivalves), with secondary Pb and Hg. Crustaceans carry lower Cd than bivalves but moderate Pb and Hg from their carnivorous diet.
+
+## Ranges by source, region, and variety
+
+See [[ingredients/bivalve-molluscs]] for the bivalve-specific source and region analysis. Within shellfish more broadly:
+
+- Bivalves typically carry the highest Cd, with order-of-magnitude variance by production-area water quality.
+- Crustaceans (shrimp, crab, lobster) carry moderate Cd and Pb; cold-water large lobster from northern waters can carry elevated trace metals from extended lifetime exposure.
+- Production-area variance dominates within each shellfish subgroup. [[sources/raju2021-bivalves-cagayan-philippines|Raju 2021]] and [[sources/shue2012-bivalves-tapeng-taiwan|Shue 2012]] characterize Asian production-area variance.
+
+## Processing effects
+
+Shellfish processing (cleaning, depuration, freezing, canning, cooking, drying) generally does not reduce the soft-tissue metal load. Depuration (commercial water-circulation cleaning) targets pathogens not metals. Cooking concentrates per-mass metal through water loss. Removing the hepatopancreas in cephalopods (and gastropods where applicable) removes a Cd-concentrated tissue.
+
+Canned shellfish carries the standard Sn-migration consideration. Smoked and dried shellfish concentrate metals on a per-dry-mass basis.
+
+## Ingredient-derivative risk
+
+Shellfish-derived dietary supplements (oyster extract, green-lipped mussel) carry concentrated source-shellfish metals. Crustacean shell-derived chitin and glucosamine supplements carry their own profiles, typically lower in soft-tissue metals because the shell tissue is processed separately. Shrimp and lobster shell-derived products are sold in some functional-food and supplement channels.
+
+See [[products/supplements-algae-seaweed-based]] for the supplement-category routing.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Production-area water-quality verification is the operational specification for high-Cd bivalves. Aquaculture-source shellfish from documented clean-water operations typically carry lower metals than wild-caught from contaminated estuaries.
+
+**Processing levers** ([[mitigation/processing]]) include hepatopancreas removal where applicable (substantially reduces per-serving Cd in cephalopods and gastropods) and standard depuration.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd, Pb, and Hg testing for commercial shellfish supply. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned shellfish.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Cd maximum levels for bivalve molluscs and cephalopods; Pb and Hg MLs for crustaceans and other shellfish.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MLs for Cd, Pb, and Hg in shellfish.
+- FDA action level of 1.0 ppm methylmercury in fish applies to shellfish in commercial channels.
+- US state shellfish-growing-water classification programs (National Shellfish Sanitation Program) address microbial contamination but not heavy metals directly.
+- California Prop 65 ([[regulations/california-prop65]]) Cd, Pb, and Hg MADLs apply to shellfish sold in California.
+
 

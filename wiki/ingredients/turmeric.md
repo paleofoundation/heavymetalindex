@@ -10,8 +10,8 @@ contamination_profile:
     status: populated
     typical_ppb: [50, 5000]
     p95_ppb: 100000
-    confidence: high
-    n_studies: 8
+    confidence: medium
+    n_studies: 9
     last_reviewed: 2026-05-16
   Cd:
     status: populated
@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/ground-turmeric-imported]]"]
 used_in_products: ["[[products/spice-blends]]", "[[products/curry-powder]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 9
+sources: 10
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 9
@@ -98,18 +98,20 @@ Turmeric is one of the most consequential ingredients in the heavy-metals litera
 
 ## Heavy metal contamination profile
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb  | n=8       | 50–5,000        | 100,000   | high   | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh\|3]], [[sources/lech2020-turmeric-lead-united-states\|7]], [[sources/angelon-gaetz2018-lead-spices-north-carolina\|1]] |
-| Cd  | n=4       | 20–300          | 800       | medium | [[sources/huff2025-spices-lancaster-pa\|6]], [[sources/tinggi2025-spices-herbs-queensland\|9]] |
-| iAs | data gap  | —               | —         | —      | — |
-| tAs | n=4       | 10–500          | —         | medium | [[sources/huff2025-spices-lancaster-pa\|6]], [[sources/oseisafo2024-ghana-spices-metals\|8]] |
-| tHg | n=1       | —               | —         | —      | [[sources/tinggi2025-spices-herbs-queensland\|9]] |
-| Ni  | n=1       | —               | —         | —      | [[sources/tinggi2025-spices-herbs-queensland\|9]] |
-| Al  | n=1       | —               | —         | —      | [[sources/tinggi2025-spices-herbs-queensland\|9]] |
-| Cr  | n=4       | 10–5,000        | 50,000    | high   | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh\|3]], [[sources/forsyth2024-turmeric-lead-chromate-south-asia\|4]] |
-| Sn  | data gap  | —               | —         | —      | — |
-| U   | data gap  | —               | —         | —      | — |
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 50–5000 | medium | [[sources/gafner2026-turmeric-adulteration-six-continents\|1]], [[sources/huff2025-spices-lancaster-pa\|2]], [[sources/tinggi2025-spices-herbs-queensland\|3]] |
+| Cd | n=4 | 20–300 | medium | [[sources/huff2025-spices-lancaster-pa\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/oseisafo2024-ghana-spices-metals\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 10–500 | medium | [[sources/huff2025-spices-lancaster-pa\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/oseisafo2024-ghana-spices-metals\|3]] |
+| tHg | n=1 | — | — | [[sources/tinggi2025-spices-herbs-queensland\|1]] |
+| Ni | n=1 | — | — | [[sources/tinggi2025-spices-herbs-queensland\|1]] |
+| Al | n=1 | — | — | [[sources/tinggi2025-spices-herbs-queensland\|1]] |
+| Cr | n=4 | 10–5000 | high | [[sources/gafner2026-turmeric-adulteration-six-continents\|1]], [[sources/tinggi2025-spices-herbs-queensland\|2]], [[sources/forsyth2024-turmeric-lead-chromate-south-asia\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
@@ -166,7 +168,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 4 | [[sources/fda-import-alert-99-42-spice-lead\|FDA 2024]]. *FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination*, FDA Import Alerts | 2024 | Regulatory | US FDA regulatory enforcement mechanism for adulteration-risk spice imports including turmeric |
 | 5 | [[sources/forsyth2024-turmeric-lead-chromate-south-asia\|Forsyth et al. 2024]]. *Evidence of turmeric adulteration with lead chromate across South Asia*, Science of the Total Environment | 2024 | Peer-reviewed | South Asian (India, Pakistan, Sri Lanka, Nepal) lead chromate adulteration follow-up (n=356) |
 | 6 | [[sources/oseisafo2024-ghana-spices-metals\|Osei-Safo et al. 2024]]. *Trace and Heavy Metals in Locally and Imported Spices Sold on Markets in Accra Metropolis, Ghana*, The Scientific World Journal | 2024 | Peer-reviewed | Ghana market spice trace-metal survey including imported-and-local turmeric (n=90) |
-| 7 | [[sources/lech2020-turmeric-lead-united-states\|Lech et al. 2020]]. *Ground Turmeric as a Source of Lead Exposure in the United States*, Environmental Health Perspectives | 2020 | Peer-reviewed | US ground turmeric survey identifying Pb distribution worst-case tail (n=127) |
-| 8 | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh\|Forsyth et al. 2019]]. *Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh*, Environmental Research | 2019 | Peer-reviewed | Bangladesh mill-traced lead chromate adulteration documentation (n=524); foundational adulteration evidence |
-| 9 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | Population-scale US home-investigation cohort linking turmeric to elevated childhood blood-lead (n=386) |
+| 7 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/lech2020-turmeric-lead-united-states\|Lech et al. 2020]]. *Ground Turmeric as a Source of Lead Exposure in the United States*, Environmental Health Perspectives | 2020 | Peer-reviewed | US ground turmeric survey identifying Pb distribution worst-case tail (n=127) |
+| 9 | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh\|Forsyth et al. 2019]]. *Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh*, Environmental Research | 2019 | Peer-reviewed | Bangladesh mill-traced lead chromate adulteration documentation (n=524); foundational adulteration evidence |
+| 10 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | Population-scale US home-investigation cohort linking turmeric to elevated childhood blood-lead (n=386) |
 <!-- END: hmi-source-legend -->

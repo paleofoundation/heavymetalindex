@@ -7,87 +7,104 @@ aliases: [ground coffee, instant coffee, brewed coffee]
 category: botanical
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [10, 200]
+    p95_ppb: 800
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5, 50]
+    p95_ppb: 200
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 20]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 30]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [400, 2000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [200, 10000]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [80, 500]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [5, 300]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-16
   U:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [1, 10]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [coffee]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 6
 ---
 
 # Coffee
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=5 | 10–200 | medium | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/zergui2023-coffee-metals-origin-icp-ms\|2]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|3]] |
+| Cd | n=5 | 5–50 | medium | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/zergui2023-coffee-metals-origin-icp-ms\|2]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|3]] |
+| iAs | n=2 | 1–20 | low | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| tAs | n=3 | 5–300 | low | [[sources/zergui2023-coffee-metals-origin-icp-ms\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| tHg | n=2 | 1–30 | low | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Ni | n=4 | 400–2000 | low | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/zergui2023-coffee-metals-origin-icp-ms\|2]], [[sources/bfr2022-nickel-dietary-intake-germany-meal\|3]] |
+| Al | n=4 | 200–10000 | low | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/zergui2023-coffee-metals-origin-icp-ms\|2]], [[sources/albals2021-coffee-jordan-icpms\|3]] |
+| Cr | n=3 | 80–500 | low | [[sources/zergui2023-coffee-metals-origin-icp-ms\|1]], [[sources/albals2021-coffee-jordan-icpms\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| Sn | data gap | — | — | — |
+| U | n=1 | 1–10 | low | [[sources/albals2021-coffee-jordan-icpms\|1]] |
 
 ## Routing
 
@@ -111,4 +128,62 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 5 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Cd, Pb, tAs, and tHg in Arabica roasted coffee beans from the Polish market |
 | 6 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish TDS coffee concentrations and exposure contribution for Al, tAs, iAs, Cd, Cr, Pb, tHg, and Sn |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Coffee (Coffea arabica and Coffea canephora/robusta) accumulates trace metals from soil through normal plant uptake; cadmium, lead, nickel, and aluminum are all documented in green coffee bean. Coffee plants are grown predominantly in volcanic and high-altitude tropical soils (the "coffee belt" between approximately 25°N and 25°S), and many production regions have elevated soil-Al because volcanic substrate is naturally aluminum-rich. Soil-Cd in coffee follows the same Andean-volcanic high-Cd pattern documented for cocoa (see [[ingredients/cocoa]]); some Latin American coffee origins carry elevated Cd from this geological inheritance.
+
+Post-harvest processing (wet vs dry method, hulling, drying, roasting, grinding) redistributes but does not remove the source-bean metal load. The brewing step (passing hot water through ground coffee) extracts a fraction of the metals into the brew, with the leach fraction depending on metal speciation, brew method, and grind size.
+
+The HMTc panel concerns for coffee are Al, Cd, Pb, and Ni. The brewed-coffee-as-consumed exposure pathway differs from the green-bean or roasted-bean concentration: the metals partition between the brew and the spent grounds, and not all metals partition equally.
+
+## Ranges by source, region, and variety
+
+Latin American coffee origins (Colombia, Brazil, Peru, Costa Rica, Honduras) show the broadest within-region variance, with high-altitude Andean production regions documented at higher Cd than lower-altitude Brazilian production. African coffee origins (Ethiopia, Kenya, Uganda) typically carry lower Cd. Robusta coffee, grown predominantly in Vietnam, Indonesia, and parts of Africa, has a different Cd profile from arabica, partly because of soil-region differences and partly because the species itself differs in metal-uptake efficiency.
+
+Aluminum content in green coffee bean is consistently elevated relative to most other food commodities, reflecting the natural high-Al volcanic soil base of the coffee belt. The aluminum partitions partially into brewed coffee.
+
+## Processing effects
+
+Coffee processing has several steps that affect the final concentration:
+
+**Wet vs dry processing** (the post-harvest fermentation and drying approach) does not substantially shift total metal load but does affect minor metals partitioning between bean fractions.
+
+**Hulling** removes the parchment and silver skin; trace metals partially partition with the husk fraction.
+
+**Roasting** at 180-240°C does not chemically remove heavy metals (they are not volatile at coffee-roasting temperatures); the per-bean mass decreases slightly through water and CO2 loss, so per-mass metal concentration increases marginally.
+
+**Grinding** can introduce trace Pb and Cr from steel grinding-equipment contact; commercial coffee grinders are food-grade specified to minimize this.
+
+**Brewing** is the most consequential step for as-consumed exposure. Espresso and French press brews retain more particulate-bound metals than drip brews where paper filters partially remove ground-coffee particles. Cold-brew methods extract metals at lower rates than hot brews. The brew-method-vs-extraction-rate analysis varies by metal.
+
+## Ingredient-derivative risk
+
+Instant coffee (freeze-dried or spray-dried from brewed concentrate) carries the brewed-coffee metal profile in concentrated form; reconstituted instant coffee approximately matches drip-brew metal content. Decaffeinated coffee carries broadly similar metal profiles to caffeinated coffee from the same source.
+
+Coffee bags and pods (Keurig, Nespresso, Tassimo) deliver consistent serving-size metal content but introduce packaging-contact contamination considerations: aluminum-pod systems (Nespresso) have been studied for Al leaching, with manufacturer specifications and food-contact-substance compliance addressing the migration question.
+
+Mushroom coffee, adaptogen coffee, and similar functional-coffee products sold with Supplement Facts labels route to [[products/supplements-botanicals-herbs|Cat 16 dietary supplements]] rather than Cat 5 beverage coffee.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Origin-region segmentation (low-Al / low-Cd origins favored over high-Al volcanic origins for Al-conscious products) is the largest single brand-side lever. Single-origin sourcing with supplier-provided Cd and Al data per lot is the operational specification for high-quality coffee brands; commodity-blend coffee carries the weighted-average profile of its source-region mix.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the coffee-farm level. Soil pH management can reduce Cd uptake; some farms in high-Cd regions practice liming to manage the regulatory exposure. Cultivar selection between Coffea arabica and Coffea canephora and within arabica varietals (Bourbon, Typica, Caturra, Catuai, Geisha) can shift Cd accumulation. Avoidance of high-Cd phosphate fertilizers is standard.
+
+**Processing levers** ([[mitigation/processing]]) for finished coffee products are limited. Roast level does not change metal content. Grinder specification affects equipment-contact contamination at the trace level.
+
+**Formulation levers** ([[mitigation/formulation]]) include blend composition (substituting low-Cd-origin coffee for high-Cd-origin coffee in a blend can shift the product-mean Cd substantially) and decaffeination process specification (some solvent-decaffeination processes can introduce trace contaminants).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Cd and Al testing on green-bean shipments, particularly for brands serving infant/young-child markets or California Prop 65 markets where serving-based exposure calculations apply. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include pod-system aluminum-leaching considerations (manufacturer-side, not brand-side) and ground-coffee long-shelf-life packaging integrity.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 does not set a coffee-specific maximum level for Cd or Pb; the general beverage and produce-derived MLs apply where they govern.
+- Codex Alimentarius does not maintain a coffee-specific Cd or Pb ML; some national authorities have set national MLs.
+- FDA does not maintain a binding action level for Pb or Cd in coffee.
+- California Prop 65 ([[regulations/california-prop65]]) applies to coffee sold in California; acrylamide (a separate chemical contaminant formed during roasting, not in the HMTc panel) has been the focus of Prop 65 coffee litigation. Cd MADL applies to coffee as a food product; the serving-based exposure screen governs.
+- Aluminum dietary intake reference: the JECFA provisional tolerable weekly intake for aluminum (2 mg/kg b.w./week) and the EFSA tolerable weekly intake (1 mg/kg b.w./week) anchor the dose-response framing for coffee Al intake at population-level consumption.
+
 

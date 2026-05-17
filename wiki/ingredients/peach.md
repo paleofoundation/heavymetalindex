@@ -99,20 +99,20 @@ The regulatory relevance of peach in the United States context is driven primari
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | data gap | — | — | — | — |
-| tAs | n=1 (in progress) | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | data gap | — | — | — | — |
-| U | n=1 (in progress) | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Cd | n=2 | 0–1.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| iAs | data gap | — | — | — |
+| tAs | n=2 | 0–8.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 0–100 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Al | data gap | — | — | — |
+| Cr | n=2 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|2]] |
+| Sn | data gap | — | — | — |
+| U | n=2 | 0 | high | — |
 
 ## Routing
 

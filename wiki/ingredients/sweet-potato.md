@@ -10,65 +10,65 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 39]
     p95_ppb: 56.9
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [1, 32]
     p95_ppb: 42
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   iAs:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
-  tHg:
-    status: populated
-    typical_ppb: [0, 1]
-    p95_ppb: 1
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
-  Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
-  Al:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
-  Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
-  Sn:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
-  tAs:
     status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-16
+  tHg:
+    status: populated
+    typical_ppb: [0, 1]
+    p95_ppb: 1
+    confidence: medium
+    n_studies: 3
+    last_reviewed: 2026-05-16
+  Ni:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Al:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Cr:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  Sn:
+    status: populated
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-16
+  tAs:
+    status: populated
+    typical_ppb: [10, 22]
+    p95_ppb: 22
+    confidence: medium
+    n_studies: 5
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [root-vegetable-purees]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 7
 ---
 
@@ -95,20 +95,20 @@ Sweet potato (Ipomoea batatas) is a true root tuber that develops entirely withi
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=7 | 0–39 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/fda-ctz-Pb-babyfood-2025\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
+| Cd | n=6 | 1–32 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=5 | 10–22 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|3]] |
+| tHg | n=3 | 0–1 | medium | [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 

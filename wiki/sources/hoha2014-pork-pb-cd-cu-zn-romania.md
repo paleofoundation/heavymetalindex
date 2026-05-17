@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: manual-fetch-kimi
-cite_key: hoha2014-pork-pb-cd-cu-zn-romania.md
+cite_key: hoha2014-pork-pb-cd-cu-zn-romania
 title: "Heavy metals contamination levels in processed meat marketed in Romania"
 authors: [Hoha GV, Costăchescu E, Leahu A, Păsărin B]
 year: 2014
@@ -15,7 +15,7 @@ license: "Subscription journal; no open-access license confirmed"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0139_Heavy metals contamination levels in pork products (ba.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/pork]]", "[[ingredients/bacon]]", "[[ingredients/ham]]", "[[ingredients/sausage]]"]
-products: ["[[products/processed-meat]]", "[[products/pork-products]]"]
+products: ["[[products/processed-meat]]", "[[products/pork-products]]", "[[products/pork-product]]"]
 matrices: [pork-bacon, pork-ham, pork-sausage, pork-salami, processed-pork]
 jurisdictions: [RO]
 sample_n: 36

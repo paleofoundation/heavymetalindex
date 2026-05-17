@@ -15,7 +15,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi/04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0156_Estimation of heavy metal concentrations in imported f.pdf"
 metals: [Pb, Cd, Cr]
 ingredients: ["[[ingredients/beef]]", "[[ingredients/chicken]]", "[[ingredients/lamb]]"]
-products: []
+products: ["[[products/processed-meats]]"]
 matrices: [beef-muscle, chicken-muscle, lamb-muscle, processed-meat]
 jurisdictions: [LY]
 sample_n: 30

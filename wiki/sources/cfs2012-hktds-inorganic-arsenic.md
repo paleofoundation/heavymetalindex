@@ -15,7 +15,7 @@ license: "Hong Kong SAR government; reproduction requires written permission fro
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Inorganic Arsenic.pdf"
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/cereals]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/vegetables]]", "[[ingredients/seafood]]", "[[ingredients/eggs]]", "[[ingredients/meat]]", "[[ingredients/fruits]]", "[[ingredients/legumes]]", "[[ingredients/beverages]]", "[[ingredients/condiments-sauces]]"]
-products: []
+products: ["[[products/seafood]]", "[[products/condiments-general]]", "[[products/fruit-juices-non-apple]]"]
 matrices: [dietary-intake, cereal, rice, vegetable, seafood, egg, meat, beverage, condiment]
 jurisdictions: [HK]
 near_duplicates: ["[[sources/cfs2013-hktds-metallic-contaminants]]"]

@@ -13,7 +13,7 @@ license: "CC BY-NC"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Assessment of exposure to nickel intake with selected cereal.pdf"
 metals: [Ni]
 ingredients: ["[[ingredients/wheat]]", "[[ingredients/oat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/pasta]]", "[[ingredients/cereals]]"]
-products: []
+products: ["[[products/other-grain-products]]"]
 matrices: [cereal-grain, wheat-flour, oat-flakes, buckwheat-groats, pasta, bran, groats, flakes]
 jurisdictions: [PL, EU]
 sample_n: 56

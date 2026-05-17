@@ -6,15 +6,14 @@ title: "Single-particle ICP-MS characterisation of metal nanoparticles in mussel
 authors: [Bao]
 year: 2024
 publication: unknown
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Single-particle%20ICP-MS%20characterisation%20of%20metal%20nanoparticles%20in%20mussels
+doi: "10.1093/jaoacint/qsae024"
+access_url: "https://doi.org/10.1093/jaoacint/qsae024"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_11223760/FM_11223760.md
 metals: [tAs, Pb, Cd]
-products: []
+products: ["[[products/seafood]]"]
 ingredients: ["[[ingredients/bivalve-molluscs]]"]
 matrices: [seafood, shellfish]
 jurisdictions: []

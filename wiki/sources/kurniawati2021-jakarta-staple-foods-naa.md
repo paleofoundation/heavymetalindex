@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/Determination of several heavy metals in staple foods from traditional markets in Jakarta using neutron activation analysis.pdf"
 metals: [Cr, tHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/soybean]]", "[[ingredients/spinach]]", "[[ingredients/carrot]]", "[[ingredients/eggs]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [staple-food, rice, vegetables, legumes, meat, fish, egg]
 jurisdictions: [ID]
 near_duplicates: []

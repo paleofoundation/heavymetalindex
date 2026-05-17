@@ -10,65 +10,65 @@ contamination_profile:
     status: populated
     typical_ppb: [0, 13.1]
     p95_ppb: 28.4
-    confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: high
+    n_studies: 15
+    last_reviewed: 2026-05-16
   Cd:
     status: populated
     typical_ppb: [0, 3]
     p95_ppb: 7
-    confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: high
+    n_studies: 15
+    last_reviewed: 2026-05-16
   iAs:
     status: populated
     typical_ppb: [0, 0]
     p95_ppb: 0
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   tHg:
     status: populated
     typical_ppb: [0, 1]
     p95_ppb: 2
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Ni:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    status: populated
+    typical_ppb: [27, 258]
+    p95_ppb: 1006
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-05-16
   Al:
     status: populated
     typical_ppb: [0, 1391]
     p95_ppb: 1503
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Cr:
-    status: in_progress
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 1
-    last_reviewed: 2026-05-01
+    status: populated
+    typical_ppb: [40, 472]
+    p95_ppb: 1014
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Sn:
     status: populated
     typical_ppb: [4.6, 21.0]
     p95_ppb: 32.2
-    confidence: high
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-12
+    typical_ppb: [5, 40]
+    p95_ppb: 80
+    confidence: medium
+    n_studies: 9
+    last_reviewed: 2026-05-16
   U:
     status: populated
     typical_ppb: [null, null]
@@ -81,7 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [mixed-meals-non-rice, mixed-meals-rice-containing]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-13
+updated: 2026-05-16
 sources: 23
 ---
 
@@ -97,20 +97,20 @@ The category includes muscle cuts from beef, pork, lamb, and poultry, as well as
 
 ## Heavy metal contamination profile
 
-Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
-|---------|----------|---------------|-----------|------------|-------------|
-| Pb | n=1 (in progress) | — | — | — | — |
-| Cd | n=1 (in progress) | — | — | — | — |
-| iAs | n=1 (in progress) | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| tHg | n=1 (in progress) | — | — | — | — |
-| Ni | n=1 (in progress) | — | — | — | — |
-| Al | n=1 (in progress) | — | — | — | — |
-| Cr | n=1 (in progress) | — | — | — | — |
-| Sn | n=1 (in progress) | — | — | — | — |
-| U | data gap | — | — | — | — |
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=15 | 0–13.1 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
+| Cd | n=15 | 0–3 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
+| iAs | n=6 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
+| tAs | n=9 | 5–40 | medium | [[sources/wysok2025-heavy-metals-sheep-casings\|1]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
+| tHg | n=8 | 0–1 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/wysok2025-heavy-metals-sheep-casings\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
+| Ni | n=7 | 27–258 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| Al | n=6 | 0–1391 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
+| Cr | n=6 | 40–472 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
+| Sn | n=4 | 4.6–21 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
+| U | data gap | — | — | — |
 
 ## Routing
 

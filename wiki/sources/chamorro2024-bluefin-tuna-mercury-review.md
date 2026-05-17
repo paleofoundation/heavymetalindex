@@ -6,16 +6,15 @@ title: "Atlantic bluefin tuna (Thunnus thynnus): health benefits, contaminants a
 authors: [Chamorro S, Cassani L, Barros-Velázquez J, Gallardo JM, Aubourg SP]
 year: 2024
 publication: "Food Reviews International"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Atlantic%20bluefin%20tuna%20(Thunnus%20thynnus)%3A%20health%20benefits%2C%20contaminants%20and%20risk-benefit%20analysis%20for%20human%20consumption"
+doi: "10.3389/fnut.2024.1340121"
+access_url: "https://doi.org/10.3389/fnut.2024.1340121"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_11018964/FM_11018964.md
 metals: [tHg, MeHg, Cd, Pb, As]
 ingredients: ["[[ingredients/tuna]]", "[[ingredients/seafood]]", "[[ingredients/tinned-fish]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [fish-tissue, seafood]
 jurisdictions: [EU]
 near_duplicates: []

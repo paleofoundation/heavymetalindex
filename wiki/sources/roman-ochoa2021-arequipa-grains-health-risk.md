@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1016/j.chemosphere.2021.129792"
 metals: [tAs, Cd, Sn, Pb, tHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/quinoa]]"]
-products: []
+products: ["[[products/legumes-pulses-other]]"]
 matrices: [polished-rice, paddy-rice, quinoa, maize, bean, extruded-snack, grain-flour]
 jurisdictions: [PE]
 sample_n: 53

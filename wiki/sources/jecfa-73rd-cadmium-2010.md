@@ -7,7 +7,7 @@ year: 2011
 publication: "WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380)"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Cadmium%20(Addendum)%2C%2073rd%20Meeting%20of%20the%20Joint%20FAO%2FWHO%20Expert%20Committee%20on%20Food%20Additives%20%E2%80%94%20Safety%20Evaluation%20of%20Certain%20Food%20Additives%20and%20Contaminants
+access_url: https://www.who.int/publications/i/item/9789241660648
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/9789241660648_eng.pdf

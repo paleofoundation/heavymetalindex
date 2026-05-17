@@ -13,7 +13,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Analysis of heavy metals and minerals in edible vegetable oils pr.pdf"
 metals: [Pb, Cd, Cu, Fe, Zn]
 ingredients: ["[[ingredients/vegetable-oils]]", "[[ingredients/sunflower-oil]]", "[[ingredients/soybean-oil]]"]
-products: []
+products: ["[[products/cooking-oils-other]]"]
 matrices: [edible-oil, niger-seed-oil, mixed-vegetable-oil, soybean-oil, sunflower-oil]
 jurisdictions: [ET]
 near_duplicates: []

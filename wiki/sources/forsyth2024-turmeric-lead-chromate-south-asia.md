@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/manual-fetch/spice-adulteration-lead/Evidence of turmeric adulteration with lead chromate across South Asia.pdf"
 metals: [Pb, Cr]
 ingredients: ["[[ingredients/turmeric]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [turmeric-root, turmeric-powder, spice]
 jurisdictions: [IN, PK, LK, NP]
 sample_n: 356

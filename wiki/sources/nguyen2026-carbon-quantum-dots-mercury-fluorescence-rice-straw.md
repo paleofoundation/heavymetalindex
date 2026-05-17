@@ -6,9 +6,8 @@ title: "N,S-Doped Carbon Quantum Dots from Rice Straw for Fluorescence Detection
 authors: [Nguyen TH, Le ND, Pham MT]
 year: 2026
 publication: null
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=N%2CS-Doped%20Carbon%20Quantum%20Dots%20from%20Rice%20Straw%20for%20Fluorescence%20Detection%20of%20Mercury(II)
+doi: "10.1039/d5ra09779g"
+access_url: "https://doi.org/10.1039/d5ra09779g"
 source_type: peer-reviewed
 evidence_tier: A
 license: null

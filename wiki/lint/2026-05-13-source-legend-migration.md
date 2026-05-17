@@ -5,6 +5,7 @@ date: 2026-05-13
 scope: source-legend-migration
 status: deferred
 priority: low
+noindex: true
 ---
 
 # Source legend migration follow-up — 2026-05-13

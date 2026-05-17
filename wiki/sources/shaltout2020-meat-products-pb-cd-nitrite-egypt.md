@@ -13,7 +13,7 @@ license: "open access"
 raw_path: "raw/Manual Fetch Kimi /Prevalence of Some Chemical Hazards in Some Meat Product.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/meat]]", "[[ingredients/ground-beef]]", "[[ingredients/bologna-luncheon-meat]]", "[[ingredients/frankfurter]]", "[[ingredients/processed-meat]]"]
-products: ["[[products/processed-meat]]"]
+products: ["[[products/processed-meat]]", "[[products/mixed-meals-non-rice]]"]
 matrices: [whole-food, processed-food]
 jurisdictions: [EG]
 near_duplicates: []

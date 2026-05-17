@@ -7,7 +7,7 @@ year: 2016
 publication: "US Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Arsenic%20in%20Rice%20and%20Rice%20Products%20Risk%20Assessment%20Report
+access_url: https://www.fda.gov/food/risk-and-safety-assessments-food/arsenic-rice-and-rice-products-risk-assessment
 source_type: gov-report
 evidence_tier: A
 license: "public-domain-us-government"
@@ -16,7 +16,7 @@ sha256: 6f051a13ba6955ce661a417437616badfad1c64fe4298745190de1573cb60bf5
 access_date: 2026-05-12
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]"]
 matrices: [rice-grain, infant-rice-cereal, rice-products, dietary-intake]
 jurisdictions: [US]
 sample_n: null

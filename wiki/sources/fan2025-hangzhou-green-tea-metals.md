@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1038/s41598-024-84287-2"
 metals: [tAs, Cd, Cr, Pb, tHg, Al, Ni, Cu, Mn, Sn, Sb, Zn]
 ingredients: ["[[ingredients/camellia-sinensis]]"]
-products: []
+products: ["[[products/tea]]"]
 matrices: [tea-leaves, tea-dry]
 jurisdictions: [CN]
 sample_n: 120

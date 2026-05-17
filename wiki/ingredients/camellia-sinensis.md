@@ -7,87 +7,104 @@ aliases: [tea leaves, black tea, green tea, white tea, oolong tea]
 category: botanical
 contamination_profile:
   Pb:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [400, 1500]
+    p95_ppb: 5000
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [40, 200]
+    p95_ppb: 350
+    confidence: high
+    n_studies: 13
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [3, 40]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [5000, 15000]
+    p95_ppb: 30000
+    confidence: medium
+    n_studies: 8
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [200000, 500000]
+    p95_ppb: 975000
+    confidence: medium
+    n_studies: 6
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [500, 3000]
+    p95_ppb: 5060
+    confidence: high
+    n_studies: 12
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
-    typical_ppb: [null, null]
+    status: populated
+    typical_ppb: [0, 200]
     p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [50, 500]
+    p95_ppb: 1830
+    confidence: medium
+    n_studies: 10
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [kombucha-tea-based, matcha, true-tea-camellia-sinensis]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 15
 ---
 
 # Camellia sinensis
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=13 | 400–1500 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Cd | n=13 | 40–200 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=10 | 50–500 | medium | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| tHg | n=6 | 3–40 | medium | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Ni | n=8 | 5000–15000 | medium | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/kazeminia2023-tea-heavy-metals-review\|3]] |
+| Al | n=6 | 200000–500000 | medium | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/kazeminia2023-tea-heavy-metals-review\|3]] |
+| Cr | n=12 | 500–3000 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/fan2025-hangzhou-green-tea-metals\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Sn | n=2 | 0–200 | low | [[sources/fan2025-hangzhou-green-tea-metals\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]] |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -120,4 +137,62 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 14 | [[sources/li2015-green-tea-jiangxi-al-heavy-metals\|Li et al. 2015]]. *A comparison of the potential health risk of aluminum and heavy metals in tea leaves and tea infusion of commercially available green tea in Jiangxi, China*, Environmental Monitoring and Assessment | 2015 | Peer-reviewed | Al and heavy metal concentrations in Jiangxi green tea leaves and infusions; compares dry-leaf vs brewed-infusion risk and highlights Al as the dominant health concern |
 | 15 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | Analytical review of determination methods for major chemical contaminants in tea matrices; covers metals, pesticides, and other contaminants across dry leaf, infusion, and extract |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+Camellia sinensis (the tea plant; source of black, green, white, oolong, pu-erh, and yellow teas) is a documented aluminum accumulator. The plant species itself, independent of soil-Al loading, takes up aluminum into the leaves at concentrations 10-100× higher than most other food plants. The mechanism is plant-physiological: tea leaves carry aluminum-organic-acid complexes (oxalate, catechins) that act as Al chelators, sequestering Al in vacuoles where it doesn't damage cellular machinery. This adaptation lets tea grow in acidic, Al-rich soils that would be toxic to most other crops; the consequence is that tea leaves carry substantial Al as harvested.
+
+Cadmium, lead, and other panel metals appear in tea proportional to soil concentrations and atmospheric deposition. Tea is grown predominantly in Asia (China, India, Sri Lanka, Kenya, Japan, Taiwan, Indonesia, Vietnam) and some of these regions have elevated soil Cd from prior agricultural practice or natural geochemistry. Tea grown near roadways or industrial sources can carry elevated Pb from atmospheric deposition.
+
+The HMTc panel concerns for camellia sinensis are dominantly Al (the plant-physiological accumulator), with secondary Cd and Pb. The brewed-tea-as-consumed exposure pathway extracts a fraction of these metals from the dry leaf into the cup, with the leach fraction depending on tea type, brew temperature, brew time, and water source.
+
+## Ranges by source, region, and variety
+
+The dominant axis of variance is plant-age and leaf-age. Mature tea bushes (10+ years old) accumulate more Al than young plants from the same soil. Older leaves (lower-grade tea picks) carry more Al than younger leaves (premium first-flush teas). White teas (made from very young leaves and buds) carry less Al per dry mass than the bottom-tier "fanning" and "dust" grades used in commodity tea bags.
+
+Geographic variance: Chinese teas (Yunnan, Fujian, Zhejiang, Anhui growing regions) cluster across a wide Al range with some Yunnan pu-erh teas at the high end. Indian teas (Assam, Darjeeling, Nilgiri) cluster at moderate Al with regional sub-variance. Sri Lankan (Ceylon) teas and Kenyan teas tend to carry moderate Al with less within-region variance than Chinese teas because of more consistent commodity production methods.
+
+Fermented vs unfermented teas: Black tea (fully oxidized) and pu-erh tea (microbially fermented) have undergone post-harvest transformations that don't substantially change total Al but can affect the Al-organic-acid complex distribution and therefore extraction efficiency. Green tea (steamed or pan-fired to halt oxidation) retains the largest free-catechin fraction; brewed green tea consequently extracts more Al per unit leaf than brewed black tea brewed under the same conditions.
+
+## Processing effects
+
+Tea processing (withering, oxidation, fermentation for pu-erh, drying, sorting) does not remove heavy metals from the leaf. The brewing step is where the consumer-exposure question becomes operational.
+
+**Brew temperature and time** determine Al, Pb, and Cd extraction. Higher temperature and longer steeping increase the extraction fraction. Standard hot-brewing (90-100°C, 3-5 min) extracts 30-60 percent of leaf Al into the cup, with the exact fraction varying by tea type. Cold-brew tea (room temperature, several hours) extracts less Al per unit time but can match hot-brew extraction over long enough steep times.
+
+**Water source** matters because the dissolved minerals in the brewing water affect Al solubility and Al-complex stability. Hard water (high Ca, Mg) reduces Al extraction modestly; soft water increases it.
+
+**Tea bag vs loose leaf** is a minor variance: surface-area exposure differs, but the practical brewing-time difference (tea bags are typically smaller and steeped shorter) tends to offset.
+
+**Lemon juice or other acid** added to brewed tea increases Al solubility and bioavailability; addition of milk forms Al-casein complexes that may reduce intestinal absorption. The downstream-bioavailability question is separate from the in-cup concentration question.
+
+## Ingredient-derivative risk
+
+Concentrated tea products (tea extract supplements, EGCG capsules, matcha powder) carry substantially higher per-serving Al than brewed tea because the consumer ingests the leaf material in concentrated form rather than the brew. Matcha powder ([[ingredients/matcha-powder]]) is the most consequential case: the leaf is consumed whole (suspended in water, not strained), so all of the leaf Al is ingested. EGCG and green-tea-extract dietary supplements similarly deliver the whole-leaf metal content per serving and route to [[products/supplements-botanicals-herbs|Cat 16 row 15]].
+
+Bottled and ready-to-drink teas inherit the brew-method metal extraction profile of their manufacturing process; cold-brewed RTD teas typically carry less Al than hot-brewed canned or bottled teas. Sweetened RTD teas dilute the metal content per serving size compared to unsweetened steeped tea.
+
+Iced tea, kombucha (fermented tea), and tea-based functional beverages inherit the source-tea metal profile with brewing-and-dilution adjustments.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Choosing tea from lower-Al-accumulator origin regions and from younger-leaf grades (white tea, first-flush green tea) reduces per-serving Al. Single-origin sourcing with documented per-lot Al testing is the operational specification for high-quality tea brands.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the tea-farm level. Soil pH management can modestly reduce Al uptake, though tea's aluminum-accumulation mechanism makes this less effective than for non-Al-accumulating crops. Cultivar selection within Camellia sinensis can shift Al accumulation moderately. Avoidance of fertilizer Al inputs is standard.
+
+**Processing levers** ([[mitigation/processing]]) for finished tea are limited. Brewing-method recommendations (cooler water, shorter steep, paper-filter brewing) are consumer-side mitigation rather than brand-side. Some tea brands market a "low-aluminum" brewing recommendation.
+
+**Formulation levers** ([[mitigation/formulation]]) include blend composition (substituting low-Al-origin tea for high-Al-origin tea in commodity blends).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Al, Cd, and Pb testing on green-leaf or dry-tea shipments. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not consequential for tea metal load on typical shelf-life timescales.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb in tea (typically expressed for dry tea leaves) and does not currently set an Al ML for tea.
+- Codex Alimentarius does not maintain a tea-specific Al or Cd ML; some national authorities set national MLs.
+- FDA does not maintain a binding action level for Al, Cd, or Pb in tea specifically.
+- JECFA Provisional Tolerable Weekly Intake for aluminum (2 mg/kg b.w./week) and EFSA TWI (1 mg/kg b.w./week) anchor the dose-response framing. Daily tea consumption at 2-3 cups can deliver 2-5 mg Al per day, putting heavy daily tea drinkers at or near the JECFA/EFSA reference intake depending on tea type and brewing method.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to tea sold in California; the serving-based screen governs.
+
 

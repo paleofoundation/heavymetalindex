@@ -20,7 +20,7 @@ Candidates can be added by any session that reads the corpus. Ingest sessions su
 
 ## Pending candidates
 
-### Mining-impacted freshwater fish as a global Hg contamination driver
+### ~~Mining-impacted freshwater fish as a global Hg contamination driver~~ → PROMOTED 2026-05-16 (see Promoted section)
 
 Anchor sources (7+ A-tier studies, growing):
 
@@ -80,7 +80,7 @@ Thesis (nascent): Dietary supplements and traditional herbal preparations are a 
 
 Promotion readiness: 1 of 4 criteria met. Criterion 3 (non-obvious) is met — a 40,657 ppm finding in a consumer product is not derivable from conventional food-chain surveillance. Promote when two or more independent A/B-tier studies document high Pb in supplements or herbal preparations, or when a regulatory body takes an enforcement action against supplement Pb that enters the corpus as a regulation page.
 
-### Seaweed and kelp as systematic Cd and As exposure pathways (promoted candidate — 4 of 4 criteria met)
+### ~~Seaweed and kelp as systematic Cd and As exposure pathways~~ → PROMOTED 2026-05-16 (see Promoted section)
 
 Anchor sources (3 A-tier studies):
 
@@ -98,7 +98,7 @@ Promotion criteria met:
 
 Suggested synthesis page slug: `seaweed-cd-as-contamination`.
 
-### Climate change will increase MeHg in marine fish — new seeding (2 of 4 criteria met)
+### ~~Climate change will increase MeHg in marine fish~~ → PROMOTED 2026-05-16 (see Promoted section)
 
 Anchor sources (2 A-tier projection studies + 1 mechanistic anchor):
 
@@ -169,6 +169,22 @@ Promoted 2026-05-13. Anchor sources: Davydiuk 2023 (biomonitoring confound), Liu
 ### Spice adulteration with lead chromate as a non-agricultural Pb pathway reaching infants
 
 Promoted 2026-05-13. Anchor sources: Forsyth 2024 (n=356, South Asia, max 2,935 µg/g Pb, Pb:Cr ratio confirming PbCrO4), Forsyth 2019 (n=524, Bangladesh supply chain, 152 interviews, practice documented for 30+ years), Lech 2020 (n=127, US retail, max 7,590 ppb), Troeschel 2024 (CDC MMWR, WanaBana recall, n=566 childhood Pb poisoning cases from cinnamon applesauce), Rylander 2025 (Georgian children, spice use OR 1.47), FDA Import Alert 99-42 (DWPE enforcement since 1990s), Gafner 2026 (PRISMA-ScR scoping review, 48 publications, n=2,235 commercial turmeric samples across 22 countries on 6 continents, 20.0% overall adulteration rate, Bangladesh enforcement success story 47%→0%). Seven sources across six continents, two spice types, supply-chain, epidemiological, and systematic-review evidence. Synthesis page: [[../../wiki/synthesis/spice-adulteration-lead-infants|spice-adulteration-lead-infants]].
+
+### Organic certification is not protective against heavy-metal contamination
+
+Promoted 2026-05-16. Anchor sources: Hands 2024 (US cocoa multi-year n=72, Welch T-test organic Cd statistically significantly higher), Brum 2025 (European flaxseed n=52 ICP-OES, organic Pb mean 652 µg/kg vs conventional 249 µg/kg, p<0.05), Potortì 2026 (Italian-market tahini n=7, sole EU-exceedance outlier T-1 was Turkey-origin organic, Cd 0.35 mg/kg = 3.5× limit and Pb 0.50 mg/kg = 5× fats/oils limit), Słepecka 2017 (Polish cereal products, ecological bran Cd 26.3 mg/kg vs undetectable conventional; ecological flour Cd 12.28 mg/kg), Gardener 2019 (US baby foods Clean Label Project n=564, Wilcoxon p=0.65 Cd / p=0.28 Pb — organic null), Grochowska-Niedworok 2020 (Polish tomatoes, organic higher dry-mass Cd than conventional), Dearing 2025 (NZ vegetables n=153 composites post-Cyclone-Gabrielle, counterexample: organic LOWER Cd p=0.003 and Ni p<0.001). Seven datasets across four continents, six matrices (cocoa, flaxseed, sesame paste, cereal/bran, infant formula and baby food, tomatoes; NZ mixed vegetables as the bounded counterexample). Mechanism rests on input-vs-occurrence orthogonality of USDA NOP and EU 2018/848, single-origin organic sourcing selecting for high-contamination soil regions, manure and natural-phosphate input streams higher in Cd than EU-Cd-limited synthetic NPK, and lower-pH organic farm soils increasing Cd bioavailability. Load-bearing for brand-legal defense, consumer communication, and articulating the complementary-versus-substitutable relationship between organic certification and HMTc. Synthesis page: [[../../wiki/synthesis/organic-certification-not-protective|organic-certification-not-protective]].
+
+### Seaweed and kelp as systematic Cd and As exposure pathways
+
+Promoted 2026-05-16. Anchor sources: Nepper-Davidsen 2023 (Journal of Applied Phycology, NZ Ecklonia radiata 12-site spatial-temporal survey, mean tAs 49 ppm DW, mean Cd 1.2 ppm DW), Hahn 2022 (PLOS ONE, Salish Sea 43-site n=58 three-species survey, bull kelp Cd 5.69 mg/kg DW exceeding international limits at every site, Pb spike 13.2 mg/kg at industrial-adjacent site), EFSA CONTAM 2023 (definitive EU scientific opinion, n=2,093 Cd / 1,988 Pb / 1,934 tAs / 920 iAs / 1,499 tHg occurrence data points, laver Cd 1,675–1,676 µg/kg wet weight, kombu/kelp among highest iAs of any food matrix). Three independent A-tier sources across three geographic regions (Pacific Northwest, New Zealand, EU regulatory dataset) and across brown and red algae species. Mechanism: brown algae bioaccumulate Cd through cell-wall alginate binding and As through arsenosugar metabolism; the contamination is a biological feature of the product class with accumulation factors of 10⁵–10⁶ from typical coastal seawater. Distinct from the organoarsenical-inertness synthesis (which addresses speciation) — this synthesis addresses contamination magnitude and the regulatory surveillance blind spot. Load-bearing for seaweed-snack and kelp-supplement HMTc priority-category selection. Synthesis page: [[../../wiki/synthesis/seaweed-cd-as-contamination|seaweed-cd-as-contamination]].
+
+### Mining-impacted freshwater fish as a globally distributed multi-metal contamination pathway
+
+Promoted 2026-05-16. Anchor sources: Fuentes-López 2025 (Colombia San Jorge River n=326 carnivorous freshwater fish, mean tHg 0.31 µg/g ww, HQ>1 for vulnerable groups), Lucchini 2025 (Amazon Basin review, fish tHg 0.10–4.73 µg/g, hair Hg 3.07–24.6 µg/g in exposed populations), Shumba 2025 (Zambia Kafue River tilapia n=79, mining-area 0.015 mg/kg vs non-mining 0.007 mg/kg, statistically significant), Shaalan 2024 (Egypt Eastern Delta industrial canal Nile tilapia n=120, Pb 33.4 / Cd 2.3 / Hg 10.4 mg/kg — multi-metal co-elevation closing criterion 2), Barquero 2024 (Almadén Spain bass tHg 7.61 mg/kg, legacy mining), Willacker 2023 (US Snake River smallmouth bass, reservoir-reach tHg 76% higher than free-flowing, 52–80% vs 6–17% exceeding consumption benchmark — dam impoundment driver), Leclerc 2023 (Québec run-of-river St. Maurice, periphyton-mediated MeHg/tHg ratio 2.9× higher in impounded reaches), Stahl 2023 (US EPA NRSA probability-based n=353+290, 23.5–26.0% of US river-kilometers contain fish above health-protective Hg), Lepak 2023 (Colorado sport fish 26% exceed FDA advisory), Zhou 2025 (paddy microbial-methylation mechanistic anchor, sulfate-reducing and iron-reducing bacterial methylator clades). Ten A-tier sources across six continents and three contamination drivers (ASGM, industrial pollution, dam impoundment). Multi-metal claim established by Shaalan 2024; mercury-only documentation across the other 9 sources. Complements the established subsistence-fishing-mehg-disparity synthesis: this synthesis is the supply-side dimension (contamination driver), that synthesis is the consumer-side dimension (vulnerable population). Synthesis page: [[../../wiki/synthesis/mining-impacted-freshwater-fish|mining-impacted-freshwater-fish]].
+
+### Climate change is projected to increase methylmercury in marine fish
+
+Promoted 2026-05-16. Anchor sources: Sonke 2023 (Ambio CC BY global biogeochemical-cycle review, $117 billion annual economic-cost framing, 10–30% fish MeHg increase projection under climate warming), Wang 2023 (PNAS coupled climate-biogeochemistry model, RCP8.5 upper-trophic fish MeHg +5–20% by 2100, OMZ-expansion mechanism with methylation rate enhancement up to 2× in high-latitudes), Motta 2022 (PNAS Hg-isotope stable-isotope analysis on North Pacific marine organisms, methylation located in upper-400m marine particles less than 53 µm, mechanistic chain connecting climate forcing to pelagic-fish endpoint). Three independent PNAS-level sources (review + projection + mechanism). FDA action level (1.0 ppm tHg, 1979), EFSA TWI (1.3 µg/kg bw/week, 2012), EPA RfD (0.1 µg/kg/day, 2001), JECFA PTWI (1.6 µg/kg bw/week, 2003) all calibrated against pre-climate-projection baselines. Promotion was borderline on criterion 1 (three independent projections preferred over review+projection+mechanism); the synthesis is the most provisional of the 2026-05-16 batch and is explicitly flagged for resynthesis when a second independent quantitative projection enters the corpus or when IPCC AR7 incorporates ocean-mercury cycling. Synthesis page: [[../../wiki/synthesis/climate-fish-mehg-projections|climate-fish-mehg-projections]].
 
 ## Workflow notes
 

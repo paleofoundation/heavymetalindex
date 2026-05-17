@@ -7,7 +7,7 @@ year: 2022
 publication: "WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA)"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Cadmium%3A%20dietary%20exposure%20assessment
+access_url: "https://www.who.int/publications/i/item/9789240060760"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/JECFA_Cadmium_Monograph.pdf

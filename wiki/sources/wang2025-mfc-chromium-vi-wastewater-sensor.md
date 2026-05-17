@@ -6,9 +6,8 @@ title: "Single-Chamber Microbial Fuel Cell for Cr(VI) Detection in Wastewater"
 authors: [Wang X, Li Y, Zhang H, Liu S]
 year: 2025
 publication: null
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Single-Chamber%20Microbial%20Fuel%20Cell%20for%20Cr(VI)%20Detection%20in%20Wastewater
+doi: "10.3390/bios15030158"
+access_url: "https://doi.org/10.3390/bios15030158"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

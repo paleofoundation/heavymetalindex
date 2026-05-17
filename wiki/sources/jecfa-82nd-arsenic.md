@@ -7,7 +7,7 @@ year: 2017
 publication: "WHO Food Additives Series 73"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Safety%20Evaluation%20of%20Certain%20Food%20Additives%20(Arsenic)%2C%2082nd%20Meeting%20of%20JECFA
+access_url: "https://www.who.int/publications/i/item/9789241660730"
 source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/JECFA_Arsenic_Monograph.pdf

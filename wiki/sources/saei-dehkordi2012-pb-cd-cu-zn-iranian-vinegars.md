@@ -13,7 +13,7 @@ license: "© Springer Science+Business Media, LLC 2011"
 raw_path: "raw/Manual Fetch Kimi/condiment_papers/02_Vinegars/Determination of Lead, Cadmium, Copper, and Zinc Content in Comme.pdf"
 metals: [Pb, Cd, Cu, Zn]
 ingredients: ["[[ingredients/vinegar]]", "[[ingredients/apple-cider-vinegar]]", "[[ingredients/date-vinegar]]"]
-products: []
+products: ["[[products/vinegar]]", "[[products/dried-fruit]]", "[[products/fresh-fruit]]"]
 matrices: [date-vinegar, apple-vinegar, white-grape-vinegar, red-grape-vinegar]
 jurisdictions: [IR]
 near_duplicates: []

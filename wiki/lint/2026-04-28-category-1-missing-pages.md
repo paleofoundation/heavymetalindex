@@ -5,6 +5,7 @@ audience: [researcher]
 updated: 2026-04-28
 op: lint
 handle: category-1-products-scaffold
+noindex: true
 ---
 
 # Category 1 Missing Page Backlog

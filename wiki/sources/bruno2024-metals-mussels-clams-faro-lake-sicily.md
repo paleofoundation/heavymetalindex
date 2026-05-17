@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11671395/FM_11671395.md
 metals: [tAs, Cd, Pb, tHg, Ni, Cr]
 ingredients: ["[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]"]
-products: []
+products: ["[[products/seafood]]", "[[products/shellfish]]"]
 matrices: [shellfish, mussel, clam]
 jurisdictions: [IT, EU]
 near_duplicates: []

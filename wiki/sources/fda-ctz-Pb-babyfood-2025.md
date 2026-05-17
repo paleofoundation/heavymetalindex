@@ -7,7 +7,7 @@ year: 2025
 publication: "U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Action%20Levels%20for%20Lead%20in%20Processed%20Food%20Intended%20for%20Babies%20and%20Young%20Children%3A%20Guidance%20for%20Industry
+access_url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children"
 source_type: gov-guidance
 evidence_tier: A
 raw_path: raw/reports/FDA-Guidance-Jan2025-LeadProcessedFoodBabyChildren-12312024.pdf

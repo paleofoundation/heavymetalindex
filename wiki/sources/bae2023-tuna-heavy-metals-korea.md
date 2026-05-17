@@ -6,9 +6,8 @@ title: "Heavy metal concentrations in commercial tuna products in Korea and asse
 authors: [Bae S, Kim Y, Oh S, Kim C, Lee Y, Park Y]
 year: 2023
 publication: "unknown"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Heavy%20metal%20concentrations%20in%20commercial%20tuna%20products%20in%20Korea%20and%20assessment%20of%20health%20risks"
+doi: "10.35371/aoem.2023.35.e3"
+access_url: "https://doi.org/10.35371/aoem.2023.35.e3"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC"

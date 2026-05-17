@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10824094/FM_10824094.md
 metals: [Pb, Cd, tAs, tHg]
 ingredients: ["[[ingredients/seafood]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [salted-fish, processed-fish, fermented-fish]
 jurisdictions: [EG]
 near_duplicates: []

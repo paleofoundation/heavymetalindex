@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/manual-fetch/spice-adulteration-lead/A scoping review of turmeric adulteration basedon data from six continents.pdf"
 metals: [Pb, Cr]
 ingredients: ["[[ingredients/turmeric]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [turmeric-spice, turmeric-dietary-supplement, turmeric-herbal-medicine]
 jurisdictions: [global]
 sample_n: 2235

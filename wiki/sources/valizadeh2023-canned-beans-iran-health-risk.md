@@ -6,16 +6,15 @@ title: "Health Risk Assessment of Potentially Toxic Elements in Canned Pinto Bea
 authors: [Valizadeh Moghadam Jirandehi H, Nourieh N, Yazdanfar N, Kashi G]
 year: 2023
 publication: "Scientific Reports (published 2023; open access)"
-doi: null
-no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Health%20Risk%20Assessment%20of%20Potentially%20Toxic%20Elements%20in%20Canned%20Pinto%20Beans%20and%20Fava%20Beans%20Distributed%20in%20Gilan%20Province%20of%20Iran
+doi: "10.1038/s41598-025-34271-1"
+access_url: "https://doi.org/10.1038/s41598-025-34271-1"
 source_type: peer-reviewed
 evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_12858930/FM_12858930.md
 metals: [tAs, Cd, Pb, Sn, tHg]
 ingredients: ["[[ingredients/lentils]]"]
-products: []
+products: ["[[products/canned-fish]]"]
 matrices: [canned-food, legume, cooked-legume]
 jurisdictions: [IR]
 near_duplicates: []

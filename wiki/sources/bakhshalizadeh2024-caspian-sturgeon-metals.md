@@ -6,16 +6,15 @@ title: "Trace and heavy metal concentrations in pectoral fin of Acipenser stella
 authors: [Bakhshalizadeh S, Bani A, Abdolmalaki S, Hedayati A]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Trace%20and%20heavy%20metal%20concentrations%20in%20pectoral%20fin%20of%20Acipenser%20stellatus%20(stellate%20sturgeon)%20from%20the%20Caspian%20Sea"
+doi: "10.1007/s11356-024-32653-y"
+access_url: "https://doi.org/10.1007/s11356-024-32653-y"
 source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_10998770/FM_10998770.md
 metals: [As, Cd, Hg, Pb, Ni, V]
 ingredients: ["[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seafood]]"]
 matrices: [fish-tissue, seafood]
 jurisdictions: [IR]
 near_duplicates: []

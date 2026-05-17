@@ -1,0 +1,660 @@
+{
+  "$comment": "HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Source: /Users/karenpendergrass/Desktop/document_pdf.pdf. This file is the single source of truth for the 23-category structure that drives wiki/products/ scaffolding. Authored by K. Pendergrass, K. Eyer, D. Aleru.",
+  "version": "2.0",
+  "version_date": "2026-03-30",
+  "panel_metals": ["Pb", "iAs", "Hg", "Cd", "Cr", "Ni", "Sn", "Al"],
+  "organizing_principle": "exposure pathway × regulatory jurisdiction, with user population (ages 0-5 vs general) as a secondary routing variable only where regulation explicitly distinguishes it",
+  "categories": [
+    {
+      "n": 1,
+      "name": "Infant and Child Foods (Ages 0-5)",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA (Closer to Zero), EU (Reg. 2023/915), Codex Alimentarius",
+      "subcategories": [
+        { "row": 1, "name": "Infant formula (powder)", "slug": "infant-formula-powder" },
+        { "row": 2, "name": "Infant formula (ready-to-feed, liquid)", "slug": "infant-formula-rtf-liquid" },
+        { "row": 3, "name": "Baby cereals / grain products (dry)", "slug": "baby-cereals-dry" },
+        { "row": 4, "name": "Fruit purées (general)", "slug": "fruit-purees" },
+        { "row": 5, "name": "Non-root vegetable purées", "slug": "non-root-vegetable-purees" },
+        { "row": 6, "name": "Root-vegetable purées", "slug": "root-vegetable-purees" },
+        { "row": 7, "name": "Mixed meals (meat & grain combos)", "slug": "mixed-meals" },
+        { "row": 8, "name": "Fruit juice (not canned)", "slug": "fruit-juice-not-canned" },
+        { "row": 9, "name": "Teething & snacks (rice-based and non-rice)", "slug": "teething-and-snacks" }
+      ],
+      "boundary_rules": [
+        "Product must be explicitly marketed/positioned for ages 0-5 or otherwise intended for infant/toddler feeding.",
+        "Categorization follows food matrix/type regardless of packaging format (pouch, jar, tub).",
+        "A snack marketed for toddlers routes here; the same base formulation marketed for general consumption routes to Categories 3-7."
+      ],
+      "regulatory_anchors": "FDA Closer to Zero action levels (Pb, iAs); EU Reg. 2023/915 (and amendments) MLs for Pb, Cd, iAs, Hg in infant/young child foods; Codex Alimentarius MLs for infant foods."
+    },
+    {
+      "n": 2,
+      "name": "Infant and Child Personal Care (Ages 0-5)",
+      "slug_prefix": "",
+      "exposure_pathway": "Dermal (with incidental oral/mucosal for young children)",
+      "regulatory_jurisdiction": "FDA cosmetics, CPSIA, state consumer product laws",
+      "subcategories": [
+        { "row": 1, "name": "Baby lotion/cream", "slug": "baby-lotion-cream" },
+        { "row": 2, "name": "Baby oil", "slug": "baby-oil" },
+        { "row": 3, "name": "Baby powder", "slug": "baby-powder" },
+        { "row": 4, "name": "Baby shampoo/body wash", "slug": "baby-shampoo-body-wash" },
+        { "row": 5, "name": "Baby wipes", "slug": "baby-wipes" },
+        { "row": 6, "name": "Diaper cream/ointment", "slug": "diaper-cream" },
+        { "row": 7, "name": "Baby sunscreen", "slug": "baby-sunscreen" }
+      ],
+      "boundary_rules": [
+        "Product must be marketed for ages 0-5.",
+        "Baby shampoo routes here, not to Category 14 (Rinse-off Cosmetics), because infant dermal exposure assumptions (thin skin barrier, hand-to-mouth transfer) differ from adult.",
+        "Leave-on baby products (lotion, oil, powder) marketed for ages 0-5 route here, not to Category 13 (Leave-on Cosmetics)."
+      ],
+      "regulatory_anchors": "FDA cosmetics product-category codes; CPSIA total lead limits; California Prop 65 (Pb, Cd in children's products); EU Cosmetics Regulation 1223/2009."
+    },
+    {
+      "n": 3,
+      "name": "Grains, Cereals, and Rice Products",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Flour (wheat, corn, other)", "slug": "flour-non-rice" },
+        { "row": 2, "name": "Bread and baked goods", "slug": "bread-and-baked-goods" },
+        { "row": 3, "name": "Pasta (wheat-based)", "slug": "pasta-wheat-based" },
+        { "row": 4, "name": "Pasta (rice-based)", "slug": "pasta-rice-based" },
+        { "row": 5, "name": "Breakfast cereal (non-rice)", "slug": "breakfast-cereal-non-rice" },
+        { "row": 6, "name": "Breakfast cereal (rice-based)", "slug": "breakfast-cereal-rice-based" },
+        { "row": 7, "name": "Rice (white, brown, wild — bulk grain)", "slug": "rice-bulk-grain" },
+        { "row": 8, "name": "Rice snacks/crackers", "slug": "rice-snacks-crackers" },
+        { "row": 9, "name": "Rice noodles", "slug": "rice-noodles" },
+        { "row": 10, "name": "Rice beverages (rice milk)", "slug": "rice-beverages-rice-milk" },
+        { "row": 11, "name": "Other grain products (oat, millet, quinoa, barley)", "slug": "other-grain-products" }
+      ],
+      "boundary_rules": [
+        "Rice and non-rice subcategories are maintained as explicit pairs to support the Clean Counterpart Cap in the tightening formula.",
+        "Products marketed for ages 0-5 route to Category 1 regardless of grain type.",
+        "A product that is primarily a grain product routes here. A mixed product (frozen lasagna) routes to Category 7."
+      ],
+      "contamination_platform_notes": "Rice is a known contamination platform for iAs, Cd, and Pb. Non-rice grains are the clean counterpart.",
+      "regulatory_anchors": "FDA iAs action level for infant rice cereal (as reference benchmark for general rice); FDA Pb action level for foods; EU Reg. 2023/915 MLs for iAs in rice and rice products, Cd in cereals, Pb in cereals; Codex iAs ML for rice."
+    },
+    {
+      "n": 4,
+      "name": "Fruits, Vegetables, and Produce",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Fresh/frozen fruits", "slug": "fresh-fruit" },
+        { "row": 2, "name": "Dried fruit", "slug": "dried-fruit" },
+        { "row": 3, "name": "Fruit snacks (fruit leather, gummies not positioned as supplements)", "slug": "fruit-snacks" },
+        { "row": 4, "name": "Leafy/green vegetables", "slug": "leafy-vegetables-other" },
+        { "row": 5, "name": "Non-root vegetables (tomatoes, peppers, squash)", "slug": "non-root-vegetables" },
+        { "row": 6, "name": "Root/tuber vegetables (carrots, potatoes, beets, sweet potatoes)", "slug": "root-tuber-vegetables" },
+        { "row": 7, "name": "Legumes/pulses (beans, lentils, chickpeas) and derived foods", "slug": "legumes-pulses-other" },
+        { "row": 8, "name": "Nuts and seeds (whole, raw, roasted)", "slug": "nuts-seeds-other" },
+        { "row": 9, "name": "Nut and seed butters (peanut butter, almond butter, tahini)", "slug": "nut-seed-butters-other" }
+      ],
+      "boundary_rules": [
+        "Products marketed for ages 0-5 route to Category 1.",
+        "Root vegetables are a distinct subcategory because of cadmium accumulation from soil uptake.",
+        "Leafy greens are a distinct subcategory because of lead and cadmium accumulation.",
+        "A vegetable chip made primarily from root vegetables routes here. A mixed snack chip routes to Category 7."
+      ],
+      "contamination_platform_notes": "Root vegetables and leafy greens are elevated for Cd and Pb via soil uptake pathways. Clean counterpart pairing: leafy greens (higher Cd) vs. non-root vegetables (lower Cd).",
+      "regulatory_anchors": "EU Reg. 2023/915 MLs for Cd in vegetables (root vs. leafy vs. other), Pb in vegetables and fruits; Codex MLs for Pb in leafy vegetables; FDA Pb action levels for foods."
+    },
+    {
+      "n": 5,
+      "name": "Beverages",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral, liquid matrix)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Fruit juices (apple, orange, grape)", "slug": "fruit-juices-general" },
+        { "row": 2, "name": "Vegetable juices", "slug": "vegetable-juices" },
+        { "row": 3, "name": "Plant milks (oat, almond, soy, coconut)", "slug": "plant-milks-general" },
+        { "row": 4, "name": "Flavored waters", "slug": "flavored-waters" },
+        { "row": 5, "name": "Sports/energy drinks", "slug": "sports-energy-drinks" },
+        { "row": 6, "name": "Tea (when sold as conventional food with Nutrition Facts panel)", "slug": "tea-conventional" },
+        { "row": 7, "name": "Coffee (ground, instant, brewed)", "slug": "coffee" },
+        { "row": 8, "name": "Soft drinks/carbonated beverages", "slug": "soft-drinks-carbonated-beverages" },
+        { "row": 9, "name": "Kombucha and fermented beverages", "slug": "kombucha-and-fermented-beverages" }
+      ],
+      "boundary_rules": [
+        "Drinking water and mineral water route to Category 8 (Water), not here.",
+        "A tea with a Supplement Facts panel routes to Category 16 (Dietary Supplements).",
+        "Plant milks route here; infant formula (plant-based) routes to Category 1.",
+        "Coffee routes here; a mushroom coffee sold as a supplement routes to Category 16."
+      ],
+      "contamination_platform_notes": "Soy-based plant milks may carry elevated Al and Ni. Apple juice has specific Pb concerns. Tea leaves can accumulate Al.",
+      "regulatory_anchors": "FDA Pb action level in juice (including apple juice); EU Reg. 2023/915 for Pb and Cd in beverages, iAs in rice beverages; Codex MLs for beverages."
+    },
+    {
+      "n": 6,
+      "name": "Seafood",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Fish — freshwater (tilapia, catfish, trout)", "slug": "fish-freshwater" },
+        { "row": 2, "name": "Fish — marine, non-predatory (sardines, anchovies, salmon, cod)", "slug": "fish-marine-non-predatory" },
+        { "row": 3, "name": "Fish — marine, predatory (tuna, swordfish, shark, king mackerel)", "slug": "fish-marine-predatory" },
+        { "row": 4, "name": "Shellfish (shrimp, crab, lobster, clams, oysters, mussels)", "slug": "shellfish" },
+        { "row": 5, "name": "Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)", "slug": "seaweed-kelp-foods" },
+        { "row": 6, "name": "Canned seafood (with tin flag)", "slug": "canned-seafood" }
+      ],
+      "boundary_rules": [
+        "Predatory fish are a distinct subcategory because methylmercury bioaccumulation increases with trophic level.",
+        "Seaweed is a distinct subcategory because of iAs and Cd accumulation.",
+        "A fish oil supplement for human consumption routes to Category 16 (Dietary Supplements).",
+        "A fish oil supplement for pet consumption routes to Category 18 (Pet Supplements).",
+        "Canned seafood carries the canned flag for tin monitoring in addition to Hg testing."
+      ],
+      "contamination_platform_notes": "Predatory fish are a contamination platform for MeHg. Seaweed is a contamination platform for iAs and Cd. Non-predatory fish and shellfish are the clean counterparts for Hg.",
+      "regulatory_anchors": "EU Reg. 2023/915 Hg MLs for fish (species-specific); FDA methylmercury action level (1.0 ppm in fish); Codex MeHg MLs for fish; EU iAs limits for seaweed; FDA Pb action levels for foods."
+    },
+    {
+      "n": 7,
+      "name": "Oils, Condiments, and Specialty Foods",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral, typically small serving sizes)",
+      "regulatory_jurisdiction": "FDA, EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Olive oil", "slug": "olive-oil" },
+        { "row": 2, "name": "Other cooking oils (canola, sunflower, coconut, avocado, sesame)", "slug": "cooking-oils-other" },
+        { "row": 3, "name": "Butter and ghee", "slug": "butter-and-ghee" },
+        { "row": 4, "name": "Honey and syrups (maple, agave, molasses)", "slug": "honey-and-syrups" },
+        { "row": 5, "name": "Vinegar", "slug": "vinegar" },
+        { "row": 6, "name": "Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)", "slug": "condiments-general" },
+        { "row": 7, "name": "Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)", "slug": "cocoa-chocolate-products" },
+        { "row": 8, "name": "Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)", "slug": "herbs-spices-dried-seasonings" },
+        { "row": 9, "name": "Salt (table, sea, Himalayan)", "slug": "salt" },
+        { "row": 10, "name": "Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)", "slug": "snacks-general" },
+        { "row": 11, "name": "Canned foods, general (canned tomatoes, beans, soups — with tin flag)", "slug": "canned-foods-general" },
+        { "row": 12, "name": "Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)", "slug": "mixed-meals-prepared-foods" }
+      ],
+      "boundary_rules": [
+        "Cocoa/chocolate is a distinct subcategory because cacao is a contamination platform for Cd and Pb.",
+        "Herbs/spices are a distinct subcategory because of known lead and chromium adulteration/contamination (especially turmeric, chili powder).",
+        "Canned foods carry the canned flag for tin monitoring regardless of the food matrix inside.",
+        "A product that is primarily a grain product (e.g., plain pasta) routes to Category 3. A mixed product (frozen lasagna) routes here.",
+        "Products marketed for ages 0-5 route to Category 1."
+      ],
+      "contamination_platform_notes": "Cacao → Cd, Pb (from soil); spices → Pb, Cr (from adulteration, processing); canned goods → Sn (from tinplate migration).",
+      "regulatory_anchors": "EU Reg. 2023/915 for Cd in cacao/chocolate, Pb in spices and herbs, Sn in canned foods; FDA guidance on Pb in spices; Codex MLs for Pb in salt; FDA Pb action levels for foods."
+    },
+    {
+      "n": 8,
+      "name": "Water and Water-Based Products",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral, high-volume daily consumption)",
+      "regulatory_jurisdiction": "EPA (MCLs), FDA (bottled water), EU (Drinking Water Directive)",
+      "subcategories": [
+        { "row": 1, "name": "Bottled drinking water (purified, spring, artesian)", "slug": "bottled-drinking-water" },
+        { "row": 2, "name": "Mineral water", "slug": "mineral-water" },
+        { "row": 3, "name": "Sparkling/carbonated water (unflavored)", "slug": "sparkling-carbonated-water" },
+        { "row": 4, "name": "Infant water / nursery water (if not routed to Category 1 by age-marketing)", "slug": "infant-nursery-water" }
+      ],
+      "boundary_rules": [
+        "Flavored water routes to Category 5 (Beverages), not here — flavoring changes the matrix and regulatory treatment.",
+        "Sparkling water with no flavoring or sweetener routes here.",
+        "This category has binding numeric limits for all 8 HMTc metals from multiple authorities — it is the most comprehensively regulated category in the taxonomy."
+      ],
+      "regulatory_anchors": "EPA Maximum Contaminant Levels (MCLs) for Pb, As, Hg, Cd, Cr, Ni (secondary standard); FDA 21 CFR 165.110 bottled water quality standards; EU Drinking Water Directive 2020/2184 (parametric values for Pb, As, Hg, Cd, Cr, Ni, Al)."
+    },
+    {
+      "n": 9,
+      "name": "Infant and Child Contact Products (Ages 0-5)",
+      "slug_prefix": "",
+      "exposure_pathway": "Oral (mouthing) + dermal (contact with mucous membranes, saliva)",
+      "regulatory_jurisdiction": "CPSIA, CPSC, FDA (food-contact for bottles/nipples), EU",
+      "subcategories": [
+        { "row": 1, "name": "Bottles (plastic, glass, stainless steel)", "slug": "infant-bottles" },
+        { "row": 2, "name": "Bottle nipples and spouts", "slug": "infant-bottle-nipples" },
+        { "row": 3, "name": "Sippy cups and toddler drinkware components", "slug": "sippy-cups-toddler-drinkware" },
+        { "row": 4, "name": "Pacifiers and sucking/teething aids", "slug": "pacifiers-and-sucking-teething-aids" },
+        { "row": 5, "name": "Teething toys/teethers", "slug": "teething-toys-teethers" },
+        { "row": 6, "name": "Infant food-storage items (milk storage bags/containers)", "slug": "infant-food-storage-items" },
+        { "row": 7, "name": "Diapers and diaper components", "slug": "diapers-and-components" },
+        { "row": 8, "name": "Feeding accessories (spoons, plates, bowls — child-sized)", "slug": "feeding-accessories-child-sized" }
+      ],
+      "boundary_rules": [
+        "Products in this category are defined by mouthing and contact exposure — the child puts the product in or near their mouth, or it contacts food/milk that the child ingests.",
+        "Bottles and nipples must meet FDA food-contact substance standards in addition to CPSIA.",
+        "A general-market reusable straw not marketed for children routes to Category 23 (Food-Contact Consumer Goods).",
+        "A teething toy routes here, not to Category 21 (Children's Toys) — the mouthing-specific exposure pathway governs."
+      ],
+      "regulatory_anchors": "CPSIA total lead limits; CPSC child care article definition; FDA food-contact substance regulations; EU food-contact material regulations; EU Toy Safety Directive 2009/48/EC migration limits."
+    },
+    {
+      "n": 10,
+      "name": "Infant and Child Durable Goods and Textiles (Ages 0-5)",
+      "slug_prefix": "",
+      "exposure_pathway": "Dermal (prolonged skin contact) + incidental oral (mouthing of fabric, clasps)",
+      "regulatory_jurisdiction": "CPSIA, ASTM F963, OEKO-TEX, EU REACH",
+      "subcategories": [
+        { "row": 1, "name": "Cribs and bassinets", "slug": "cribs-and-bassinets" },
+        { "row": 2, "name": "Play yards and gates/enclosures", "slug": "play-yards-and-gates" },
+        { "row": 3, "name": "Strollers", "slug": "strollers" },
+        { "row": 4, "name": "Walkers", "slug": "walkers" },
+        { "row": 5, "name": "Swings and bouncers", "slug": "swings-and-bouncers" },
+        { "row": 6, "name": "Infant carriers (wraps, structured carriers)", "slug": "infant-carriers" },
+        { "row": 7, "name": "High chairs and booster seats", "slug": "high-chairs-and-booster-seats" },
+        { "row": 8, "name": "Car seats (if retained in HMTc scope)", "slug": "car-seats" },
+        { "row": 9, "name": "Clothing (onesies, pajamas, outerwear)", "slug": "infant-clothing" },
+        { "row": 10, "name": "Bibs", "slug": "bibs" },
+        { "row": 11, "name": "Blankets and sleep sacks", "slug": "blankets-and-sleep-sacks" },
+        { "row": 12, "name": "Clasps/fasteners (snaps, zippers, buttons) used in infant products", "slug": "clasps-fasteners-infant-products" }
+      ],
+      "boundary_rules": [
+        "Products in this category are defined by surface contact exposure — the child's skin contacts coatings, textiles, or structural materials for extended periods.",
+        "Analytical approach is surface wipe/extraction for coatings and substrate analysis for structural components.",
+        "Textiles are tested for extractable metals under conditions simulating sweat and saliva contact."
+      ],
+      "regulatory_anchors": "CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and substrate limits; CPSC durable infant/toddler product category list; OEKO-TEX Standard 100 (extractable metals in textiles); EU REACH Annex XVII restrictions; EU Toy Safety Directive 2009/48/EC."
+    },
+    {
+      "n": 11,
+      "name": "Meat, Poultry, and Eggs",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA, USDA (meat/poultry inspection), EU, Codex",
+      "subcategories": [
+        { "row": 1, "name": "Beef", "slug": "beef-product" },
+        { "row": 2, "name": "Pork", "slug": "pork-product" },
+        { "row": 3, "name": "Lamb/mutton", "slug": "lamb-mutton" },
+        { "row": 4, "name": "Poultry (chicken, turkey, duck)", "slug": "poultry-product" },
+        { "row": 5, "name": "Game meats (venison, bison, rabbit)", "slug": "game-meats" },
+        { "row": 6, "name": "Eggs", "slug": "eggs-product" },
+        { "row": 7, "name": "Processed meats (sausage, deli meat, bacon, hot dogs)", "slug": "processed-meats" },
+        { "row": 8, "name": "Canned meats (with tin flag)", "slug": "canned-meats" }
+      ],
+      "boundary_rules": [
+        "Products marketed for ages 0-5 route to Category 1 (mixed meals subcategory).",
+        "Organ meats/offal are tested as a subcategory of their respective animal type — organs may accumulate higher Cd and Pb than muscle meat.",
+        "Pet food containing meat/poultry routes to Category 17 (Pet Foods), not here."
+      ],
+      "contamination_platform_notes": "Organ meats (especially liver, kidney) accumulate Cd and Pb at higher levels than muscle tissue. Game meats may contain Pb from lead ammunition.",
+      "regulatory_anchors": "EU Reg. 2023/915 for Pb and Cd in meat, offal, and eggs; Codex MLs for Pb and Cd in meat; USDA/FSIS monitoring data as reference."
+    },
+    {
+      "n": 12,
+      "name": "Household Cleaning and Dishwashing",
+      "slug_prefix": "",
+      "exposure_pathway": "Dermal (incidental skin contact) + ingestion (residue on dishes/surfaces)",
+      "regulatory_jurisdiction": "EPA (Safer Choice), Green Seal, state disclosure laws",
+      "subcategories": [
+        { "row": 1, "name": "All-purpose cleaners", "slug": "all-purpose-cleaners" },
+        { "row": 2, "name": "Kitchen/countertop cleaners", "slug": "kitchen-countertop-cleaners" },
+        { "row": 3, "name": "Bathroom/tub/tile cleaners", "slug": "bathroom-tub-tile-cleaners" },
+        { "row": 4, "name": "Toilet bowl cleaners", "slug": "toilet-bowl-cleaners" },
+        { "row": 5, "name": "Window/glass/mirror cleaners", "slug": "window-glass-mirror-cleaners" },
+        { "row": 6, "name": "Floor cleaners (hard surface)", "slug": "floor-cleaners-hard-surface" },
+        { "row": 7, "name": "Floor finishes & strippers (if included in HMTc scope)", "slug": "floor-finishes-strippers" },
+        { "row": 8, "name": "Carpet cleaners", "slug": "carpet-cleaners" },
+        { "row": 9, "name": "Carpet spot removers", "slug": "carpet-spot-removers" },
+        { "row": 10, "name": "Degreasers", "slug": "degreasers" },
+        { "row": 11, "name": "Oven/grill/BBQ cleaners", "slug": "oven-grill-bbq-cleaners" },
+        { "row": 12, "name": "Appliance cleaners (including stainless steel cleaners)", "slug": "appliance-cleaners" },
+        { "row": 13, "name": "Descalers", "slug": "descalers" },
+        { "row": 14, "name": "Dish soaps (manual dishwashing)", "slug": "dish-soaps-manual" },
+        { "row": 15, "name": "Automatic dishwasher detergents", "slug": "automatic-dishwasher-detergents" },
+        { "row": 16, "name": "Rinse aids", "slug": "rinse-aids" },
+        { "row": 17, "name": "Cleaning wipes (household surface wipes)", "slug": "cleaning-wipes-household" },
+        { "row": 18, "name": "Drain maintainers/cleaners (including biological-based)", "slug": "drain-maintainers-cleaners" },
+        { "row": 19, "name": "Odor removers for hard surfaces", "slug": "odor-removers-hard-surfaces" },
+        { "row": 20, "name": "Other household specialty cleaners (by functional use-case)", "slug": "household-specialty-cleaners-other" }
+      ],
+      "boundary_rules": [
+        "Fabric-intended products route to Category 19 (Laundry and Fabric-Contact).",
+        "Disinfectants/sanitizers are a distinct sub-scope (EPA-registered pesticide products) — if included, treat as a separate testing bucket within this category.",
+        "Dish soaps route here (they contact dishes, not fabric)."
+      ],
+      "regulatory_anchors": "EPA Safer Choice product-type list; Green Seal GS-8 household cleaner scoping; CA SB 258 (Cleaning Product Right to Know Act); NY Household Cleaner Disclosure Act."
+    },
+    {
+      "n": 13,
+      "name": "Cosmetics and Personal Care — Leave-on",
+      "slug_prefix": "",
+      "exposure_pathway": "Dermal (prolonged skin/hair/nail contact)",
+      "regulatory_jurisdiction": "FDA cosmetics, EU Cosmetics Regulation 1223/2009",
+      "subcategories": [
+        { "row": 1, "name": "Fragrance preparations (perfumes, colognes, body sprays)", "slug": "fragrance-preparations" },
+        { "row": 2, "name": "Dusting/talc powders (adult)", "slug": "dusting-talc-powders-adult" },
+        { "row": 3, "name": "Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)", "slug": "face-neck-leave-on-skin-care" },
+        { "row": 4, "name": "Body/hand leave-on skin care", "slug": "body-hand-leave-on-skin-care" },
+        { "row": 5, "name": "Makeup — foundation, powders, blush/rouge", "slug": "makeup-foundation-powders-blush" },
+        { "row": 6, "name": "Makeup — body/leg paints, bases, fixatives (including airbrush)", "slug": "makeup-body-paints-bases-fixatives" },
+        { "row": 7, "name": "Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)", "slug": "eye-makeup" },
+        { "row": 8, "name": "Lip products (lipstick, gloss, lip balm)", "slug": "lip-products" },
+        { "row": 9, "name": "Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)", "slug": "deodorants" },
+        { "row": 10, "name": "Sun/suntan products (including spray, self-tan, airbrush)", "slug": "sun-suntan-products" },
+        { "row": 11, "name": "Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)", "slug": "leave-on-hair-preparations" },
+        { "row": 12, "name": "Permanent hair dyes/tints (remain in hair after application)", "slug": "permanent-hair-dyes-tints" },
+        { "row": 13, "name": "Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)", "slug": "manicuring-preparations-leave-on" },
+        { "row": 14, "name": "Tattoo inks (permanent and temporary)", "slug": "tattoo-inks" },
+        { "row": 15, "name": "Other leave-on preparations (case-by-case)", "slug": "leave-on-preparations-other" }
+      ],
+      "boundary_rules": [
+        "Product must remain on skin/hair/nails after application. If rinsed off, routes to Category 14.",
+        "Leave-on baby products marketed for ages 0-5 route to Category 2, not here.",
+        "A leave-in conditioner routes here. A rinse-out conditioner routes to Category 14.",
+        "A hair dye that remains in hair permanently routes here. A dye rinsed out after processing routes to Category 14.",
+        "Essential oil sold as topical leave-on skin treatment routes here."
+      ],
+      "regulatory_anchors": "FDA cosmetics product-category codes (leave-on tertiary categories); EU Cosmetics Regulation 1223/2009 Annex II (prohibited substances), Annex IV (colorants), Annex V (preservatives); California Prop 65 (Pb, Cd in cosmetics)."
+    },
+    {
+      "n": 14,
+      "name": "Cosmetics and Personal Care — Rinse-off",
+      "slug_prefix": "",
+      "exposure_pathway": "Dermal (brief skin contact, then rinsed)",
+      "regulatory_jurisdiction": "FDA cosmetics, EU Cosmetics Regulation 1223/2009",
+      "subcategories": [
+        { "row": 1, "name": "Shampoo (general adult)", "slug": "shampoo-adult" },
+        { "row": 2, "name": "Conditioner (general adult, rinse-out)", "slug": "conditioner-adult-rinse-out" },
+        { "row": 3, "name": "Body wash/shower gel", "slug": "body-wash-shower-gel" },
+        { "row": 4, "name": "Facial cleansers (foaming, cream, gel, oil, micellar)", "slug": "facial-cleansers" },
+        { "row": 5, "name": "Hand soap (liquid and bar)", "slug": "hand-soap" },
+        { "row": 6, "name": "Exfoliants/scrubs (body, facial)", "slug": "exfoliants-scrubs" },
+        { "row": 7, "name": "Shaving cream/gel/foam", "slug": "shaving-cream-gel-foam" },
+        { "row": 8, "name": "Hair removal products (depilatory creams)", "slug": "hair-removal-products" },
+        { "row": 9, "name": "Hair dye/color rinses (rinse-off after processing)", "slug": "hair-dye-rinse-off" },
+        { "row": 10, "name": "Deep conditioning treatments/hair masks (rinse-off)", "slug": "deep-conditioning-treatments-rinse-off" },
+        { "row": 11, "name": "Other rinse-off preparations (case-by-case)", "slug": "rinse-off-preparations-other" }
+      ],
+      "boundary_rules": [
+        "Product must be applied to skin/hair and intentionally rinsed off after use.",
+        "Baby shampoo/body wash routes to Category 2 (Infant Personal Care), not here.",
+        "A leave-in conditioner routes to Category 13 (Leave-on), not here.",
+        "Intimate washes route to Category 15 (Feminine Care), not here — mucosal contact pathway overrides rinse-off classification."
+      ],
+      "regulatory_anchors": "FDA cosmetics product-category codes (rinse-off tertiary categories); EU Cosmetics Regulation 1223/2009; Health Canada Cosmetic Ingredient Hotlist."
+    },
+    {
+      "n": 15,
+      "name": "Feminine Care",
+      "slug_prefix": "",
+      "exposure_pathway": "Mucosal (vaginal/vulvar mucosa) + dermal",
+      "regulatory_jurisdiction": "FDA (medical devices for tampons/pads/cups), EU MDR, FDA cosmetics",
+      "subcategories": [
+        { "row": 1, "name": "Menstrual tampons (scented/unscented; applicator tested as distinct component)", "slug": "menstrual-tampons" },
+        { "row": 2, "name": "Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)", "slug": "menstrual-pads" },
+        { "row": 3, "name": "Menstrual cups (silicone/latex/other polymers)", "slug": "menstrual-cups" },
+        { "row": 4, "name": "Menstrual discs", "slug": "menstrual-discs" },
+        { "row": 5, "name": "Period underwear and reusable menstrual garments", "slug": "period-underwear-reusable-garments" },
+        { "row": 6, "name": "Feminine wipes/towelettes", "slug": "feminine-wipes" },
+        { "row": 7, "name": "Feminine deodorants (leave-on and rinse-off)", "slug": "feminine-deodorants" },
+        { "row": 8, "name": "Douches and vaginal irrigation solutions/apparatus components", "slug": "douches-vaginal-irrigation" },
+        { "row": 9, "name": "Intimate washes/cleansers", "slug": "intimate-washes-cleansers" },
+        { "row": 10, "name": "Other menstrual/intimate products (case-by-case)", "slug": "menstrual-intimate-products-other" }
+      ],
+      "boundary_rules": [
+        "Routing is governed by mucosal/intimate contact exposure pathway — not by product function or gender of user.",
+        "Intimate washes route here, not to Category 14, because vaginal mucosal exposure is a distinct and more permeable pathway than general skin contact.",
+        "A general body wash used incidentally in the intimate area does not route here — marketing and intended-use positioning determine routing."
+      ],
+      "regulatory_anchors": "21 CFR Part 884 (tampons as Class II medical devices, pads including intralabial and reusable); FDA menstrual cup device classification; EU Medical Devices Regulation 2017/745; FDA cosmetics categories for douches/feminine deodorants."
+    },
+    {
+      "n": 16,
+      "name": "Dietary Supplements (Human)",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral)",
+      "regulatory_jurisdiction": "FDA (DSHEA), USP, California Prop 65",
+      "subcategories": [
+        { "row": 1, "name": "Oral solids: tablets/caplets", "slug": "supplements-oral-solids-tablets" },
+        { "row": 2, "name": "Oral solids: capsules", "slug": "supplements-oral-solids-capsules" },
+        { "row": 3, "name": "Oral solids: softgels/gelcaps", "slug": "supplements-oral-solids-softgels" },
+        { "row": 4, "name": "Oral solids: gummies/chewables", "slug": "supplements-oral-solids-gummies" },
+        { "row": 5, "name": "Oral solids: lozenges", "slug": "supplements-oral-solids-lozenges" },
+        { "row": 6, "name": "Oral solids: powders (bulk tubs, sachets, stick packs)", "slug": "supplements-oral-solids-powders" },
+        { "row": 7, "name": "Oral solids: effervescent tablets", "slug": "supplements-oral-solids-effervescent" },
+        { "row": 8, "name": "Oral liquids: tinctures/drops", "slug": "supplements-oral-liquids-tinctures" },
+        { "row": 9, "name": "Oral liquids: syrups", "slug": "supplements-oral-liquids-syrups" },
+        { "row": 10, "name": "Oral liquids: liquid shots", "slug": "supplements-oral-liquids-shots" },
+        { "row": 11, "name": "Oral liquids: droppers", "slug": "supplements-oral-liquids-droppers" },
+        { "row": 12, "name": "Food-like forms: teas (when labeled as supplement)", "slug": "supplements-teas-labeled" },
+        { "row": 13, "name": "Food-like forms: bars (when labeled as supplement)", "slug": "supplements-bars-labeled" },
+        { "row": 14, "name": "Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)", "slug": "supplements-vitamin-mineral" },
+        { "row": 15, "name": "Ingredient class — botanicals/herbs/traditional formulas", "slug": "supplements-botanicals-herbs" },
+        { "row": 16, "name": "Ingredient class — amino acids & isolates", "slug": "supplements-amino-acids-isolates" },
+        { "row": 17, "name": "Ingredient class — enzymes", "slug": "supplements-enzymes" },
+        { "row": 18, "name": "Ingredient class — live microbials/probiotics", "slug": "supplements-probiotics" },
+        { "row": 19, "name": "Ingredient class — algae/seaweed-based", "slug": "supplements-algae-seaweed-based" },
+        { "row": 20, "name": "Ingredient class — protein/collagen powders", "slug": "supplements-protein-collagen-powders" },
+        { "row": 21, "name": "Ingredient class — oil-based supplements (fish oil/omega-3 and similar)", "slug": "supplements-oil-based" }
+      ],
+      "boundary_rules": [
+        "Product must bear a Supplement Facts panel or be marketed/labeled as a dietary supplement under DSHEA.",
+        "FDA's definition requires supplements be ingested/swallowed — topical or inhaled products are excluded.",
+        "A product with a Nutrition Facts panel is a conventional food and routes to Categories 3-8.",
+        "A tea sold as conventional food routes to Category 5. The same tea with a Supplement Facts panel routes here.",
+        "Manuka honey with a Supplement Facts panel routes here. Regular honey routes to Category 7."
+      ],
+      "regulatory_anchors": "FDA DSHEA framework; USP <2232> elemental impurities limits; California Prop 65 MADLs (Pb MADL 0.5 µg/day as serving-based reference); NY AG consent decrees (precedent for Pb in supplements)."
+    },
+    {
+      "n": 17,
+      "name": "Pet Foods",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral, animal)",
+      "regulatory_jurisdiction": "FDA CVM, AAFCO, EU Directive 2002/32",
+      "subcategories": [
+        { "row": 1, "name": "Complete & balanced dry (kibble)", "slug": "pet-food-dry-kibble" },
+        { "row": 2, "name": "Complete & balanced canned/wet", "slug": "pet-food-canned-wet" },
+        { "row": 3, "name": "Semi-moist pet foods", "slug": "pet-food-semi-moist" },
+        { "row": 4, "name": "Raw pet foods (frozen/chilled raw diets)", "slug": "pet-food-raw" },
+        { "row": 5, "name": "Freeze-dried/dehydrated pet foods (including freeze-dried raw)", "slug": "pet-food-freeze-dried" },
+        { "row": 6, "name": "Pet treats/snacks", "slug": "pet-treats-snacks" },
+        { "row": 7, "name": "Pet chews (including dental chews)", "slug": "pet-chews-dental" },
+        { "row": 8, "name": "Toppers/mixers/broths", "slug": "pet-toppers-mixers-broths" },
+        { "row": 9, "name": "Milk replacers and specialty pet liquids", "slug": "pet-milk-replacers-specialty-liquids" }
+      ],
+      "boundary_rules": [
+        "Product must be intended for animal consumption as food, not as a supplement.",
+        "AAFCO nutritional adequacy statement or treat/snack positioning determines routing here.",
+        "Fish oil capsules for dogs route to Category 18 (Pet Supplements), not here."
+      ],
+      "regulatory_anchors": "AAFCO model regulations; FDA CVM guidance on pet food contaminants; EU Directive 2002/32 on undesirable substances in animal feed (Pb, As, Hg, Cd limits)."
+    },
+    {
+      "n": 18,
+      "name": "Pet Supplements",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (oral, animal)",
+      "regulatory_jurisdiction": "FDA CVM, NASC (voluntary), EU feed additive regulations",
+      "subcategories": [
+        { "row": 1, "name": "Vitamin/mineral supplements", "slug": "pet-supplements-vitamin-mineral" },
+        { "row": 2, "name": "Oils (omega-3, fish oil, coconut oil)", "slug": "pet-supplements-oils" },
+        { "row": 3, "name": "Probiotics/digestive aids", "slug": "pet-supplements-probiotics-digestive" },
+        { "row": 4, "name": "Botanical/herbal blends", "slug": "pet-supplements-botanical-herbal" },
+        { "row": 5, "name": "Joint/skin/coat functional blends", "slug": "pet-supplements-functional-blends" },
+        { "row": 6, "name": "Calming/behavioral supplements", "slug": "pet-supplements-calming-behavioral" },
+        { "row": 7, "name": "Other pet ingestibles (case-by-case)", "slug": "pet-supplements-other" }
+      ],
+      "boundary_rules": [
+        "Product is intended for animal consumption as a supplement — not as the sole or primary diet.",
+        "If a product bears an AAFCO nutritional adequacy statement, it routes to Category 17 (Pet Foods).",
+        "A dental chew routes to Category 17 (pet chews subcategory) — primary function is food/treat, not supplementation."
+      ],
+      "regulatory_anchors": "FDA CVM compliance policies; NASC quality guidelines (voluntary, non-binding); EU feed additive regulations (Regulation 1831/2003)."
+    },
+    {
+      "n": 19,
+      "name": "Laundry and Fabric-Contact Home Products",
+      "slug_prefix": "",
+      "exposure_pathway": "Dermal (residue on fabric in prolonged skin contact)",
+      "regulatory_jurisdiction": "Green Seal GS-48, EPA Safer Choice",
+      "subcategories": [
+        { "row": 1, "name": "Laundry detergents (liquid, powder, pods/sheets, delicates)", "slug": "laundry-detergents" },
+        { "row": 2, "name": "Laundry detergent boosters/additives", "slug": "laundry-detergent-boosters-additives" },
+        { "row": 3, "name": "Pre-treaters (spray/gel/stick) and stand-alone stain/spot removers", "slug": "pre-treaters-stain-removers" },
+        { "row": 4, "name": "Bleaching/whitening additives", "slug": "bleaching-whitening-additives" },
+        { "row": 5, "name": "Fabric softeners (liquids and sheets)", "slug": "fabric-softeners" },
+        { "row": 6, "name": "Anti-static products (liquid and sheets)", "slug": "anti-static-products" },
+        { "row": 7, "name": "Fabric refresher products", "slug": "fabric-refresher-products" },
+        { "row": 8, "name": "Anti-wrinkle/wrinkle-release products", "slug": "anti-wrinkle-wrinkle-release-products" },
+        { "row": 9, "name": "Laundry prewash products", "slug": "laundry-prewash-products" },
+        { "row": 10, "name": "Laundry starch/sizing/fabric finish products", "slug": "laundry-starch-sizing-fabric-finish" },
+        { "row": 11, "name": "Fabric protectants (excluding waterproofing/flame-retardant per GS-48 boundaries)", "slug": "fabric-protectants" },
+        { "row": 12, "name": "Combination products serving multiple functions", "slug": "fabric-contact-combination-products" },
+        { "row": 13, "name": "Other fabric-contact home products (case-by-case)", "slug": "fabric-contact-products-other" }
+      ],
+      "boundary_rules": [
+        "Product must be intended to contact fabrics during washing, drying, or treatment.",
+        "A carpet cleaner is Category 12 (Household Cleaning), not here — unless it is specifically a fabric-care product for upholstery.",
+        "Dryer sheets route here (fabric softener subcategory)."
+      ],
+      "regulatory_anchors": "Green Seal GS-48 scope; EPA Safer Choice product types for laundry."
+    },
+    {
+      "n": 20,
+      "name": "Oral Care",
+      "slug_prefix": "",
+      "exposure_pathway": "Oral mucosal (direct contact with mouth/teeth/gums)",
+      "regulatory_jurisdiction": "FDA (OTC drug monograph, cosmetics), ADA, EU Cosmetics Regulation 1223/2009",
+      "subcategories": [
+        { "row": 1, "name": "Dentifrices (toothpaste, gel, powder, tablets)", "slug": "dentifrices" },
+        { "row": 2, "name": "Mouthwash/oral rinse", "slug": "mouthwash-oral-rinse" },
+        { "row": 3, "name": "Breath fresheners (sprays/strips/lozenges)", "slug": "breath-fresheners" },
+        { "row": 4, "name": "Toothbrushes (manual, electric heads)", "slug": "toothbrushes" },
+        { "row": 5, "name": "Floss and interdental cleaners (floss, picks, interdental brushes, woodsticks)", "slug": "floss-interdental-cleaners" },
+        { "row": 6, "name": "Oral irrigators/water flossers and tips (if included)", "slug": "oral-irrigators-water-flossers" },
+        { "row": 7, "name": "Whitening products (strips/gels/powders/pens)", "slug": "whitening-products" },
+        { "row": 8, "name": "Tongue cleaners/scrapers", "slug": "tongue-cleaners-scrapers" },
+        { "row": 9, "name": "Denture and orthodontic-appliance care (adhesives, cleaning tablets/solutions)", "slug": "denture-orthodontic-care" },
+        { "row": 10, "name": "Other oral products (case-by-case)", "slug": "oral-products-other" }
+      ],
+      "boundary_rules": [
+        "Primary site of exposure is the oral cavity → routes here, regardless of whether the product is regulated as a cosmetic, OTC drug, or device. Exposure pathway governs, not regulatory classification.",
+        "A whitening mouthwash with no drug claim is still Oral Care (oral cavity exposure), not Rinse-off Cosmetics.",
+        "A fluoride mouthwash is Oral Care, not Dietary Supplements."
+      ],
+      "regulatory_anchors": "FDA OTC drug monograph (for fluoride products); ADA acceptance program criteria; EU Cosmetics Regulation 1223/2009 (toothpaste classified as cosmetic in EU); FDA cosmetics product-category codes (oral product types)."
+    },
+    {
+      "n": 21,
+      "name": "Children's Toys, Arts, and Crafts",
+      "slug_prefix": "",
+      "exposure_pathway": "Oral (mouthing) + dermal (handling) + incidental ingestion (art materials)",
+      "regulatory_jurisdiction": "CPSC (ASTM F963, CPSIA, LHAMA), EU Toy Safety Directive",
+      "subcategories": [
+        { "row": 1, "name": "General toys with paint/surface coatings", "slug": "toys-painted" },
+        { "row": 2, "name": "Toy substrate materials (accessible plastics/metals/woods/rubbers)", "slug": "toys-substrate-materials" },
+        { "row": 3, "name": "Stuffed toys and bean bag-type toys", "slug": "toys-stuffed-bean-bag" },
+        { "row": 4, "name": "Stuffing materials", "slug": "toys-stuffing-materials" },
+        { "row": 5, "name": "Rattles", "slug": "toys-rattles" },
+        { "row": 6, "name": "Squeeze toys", "slug": "toys-squeeze" },
+        { "row": 7, "name": "Toy pacifiers (toy-designated)", "slug": "toy-pacifiers" },
+        { "row": 8, "name": "Battery-operated/electronic toys", "slug": "toys-battery-electronic" },
+        { "row": 9, "name": "Sound-producing toys", "slug": "toys-sound-producing" },
+        { "row": 10, "name": "Toys with magnets", "slug": "toys-with-magnets" },
+        { "row": 11, "name": "Projectile toys and toy guns", "slug": "toys-projectile-guns" },
+        { "row": 12, "name": "Balloons", "slug": "toys-balloons" },
+        { "row": 13, "name": "Balls", "slug": "toys-balls" },
+        { "row": 14, "name": "Marbles", "slug": "toys-marbles" },
+        { "row": 15, "name": "Yo-yo elastic tether toys", "slug": "toys-yo-yo-elastic-tether" },
+        { "row": 16, "name": "Pompoms and similar small fibrous craft items", "slug": "toys-pompoms-fibrous-craft" },
+        { "row": 17, "name": "Toys attached to cribs/playpens", "slug": "toys-attached-cribs-playpens" },
+        { "row": 18, "name": "Stroller/carriage toys", "slug": "toys-stroller-carriage" },
+        { "row": 19, "name": "Toy chests", "slug": "toy-chests" },
+        { "row": 20, "name": "Art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits)", "slug": "art-craft-materials" },
+        { "row": 21, "name": "Other toys/crafts (case-by-case)", "slug": "toys-crafts-other" }
+      ],
+      "boundary_rules": [
+        "Product must be intended for children's play or creative activity.",
+        "Cross-reference: Teething toys/teethers are covered under Category 9 (Infant Contact Products), not this category.",
+        "Adult art supplies (professional-grade oil paint) are currently out of HMTc scope."
+      ],
+      "regulatory_anchors": "CPSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art materials; EU Toy Safety Directive 2009/48/EC (migration limits for metals)."
+    },
+    {
+      "n": 22,
+      "name": "Home Air and Inhalation-Adjacent Products",
+      "slug_prefix": "",
+      "exposure_pathway": "Inhalation (ambient air emission, respiratory)",
+      "regulatory_jurisdiction": "RIVM, CPSC (candles), EU CLP",
+      "subcategories": [
+        { "row": 1, "name": "Instant air refreshment sprays (aerosol cans, trigger sprays)", "slug": "instant-air-refreshment-sprays" },
+        { "row": 2, "name": "Electric plug-in evaporators", "slug": "electric-plug-in-evaporators" },
+        { "row": 3, "name": "Automatic puff releasers", "slug": "automatic-puff-releasers" },
+        { "row": 4, "name": "Sensor puff releasers", "slug": "sensor-puff-releasers" },
+        { "row": 5, "name": "Scented candles", "slug": "scented-candles" },
+        { "row": 6, "name": "Scented wax blocks/wax melts", "slug": "scented-wax-blocks-melts" },
+        { "row": 7, "name": "Heated oil diffusers", "slug": "heated-oil-diffusers" },
+        { "row": 8, "name": "Nebula diffusers", "slug": "nebula-diffusers" },
+        { "row": 9, "name": "Gel diffusers", "slug": "gel-diffusers" },
+        { "row": 10, "name": "Capillary reed/wood diffusers", "slug": "capillary-reed-wood-diffusers" },
+        { "row": 11, "name": "Incense sticks/cones", "slug": "incense-sticks-cones" },
+        { "row": 12, "name": "Potpourri/sachets", "slug": "potpourri-sachets" },
+        { "row": 13, "name": "Vacuum cleaner fragrance additives", "slug": "vacuum-cleaner-fragrance-additives" },
+        { "row": 14, "name": "Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills)", "slug": "air-product-refill-materials" },
+        { "row": 15, "name": "Other home-air emission products (case-by-case, inhalation prioritized)", "slug": "home-air-emission-products-other" }
+      ],
+      "boundary_rules": [
+        "Primary exposure pathway must be inhalation or ambient air emission.",
+        "An essential oil sold as aromatherapy (inhaled via diffuser) routes here.",
+        "An essential oil sold as a topical skin serum (leave-on) routes to Category 13.",
+        "An essential oil sold as a dietary supplement (ingested) routes to Category 16.",
+        "Marketing/positioning determines routing when the same product could serve multiple functions."
+      ],
+      "regulatory_anchors": "RIVM air-freshener product-type list (exposure-factor framework); CPSC candle guidance on lead in metal-cored wicks; EU CLP Regulation (volatile chemical hazard classification)."
+    },
+    {
+      "n": 23,
+      "name": "Food-Contact Consumer Goods and Kitchenware",
+      "slug_prefix": "",
+      "exposure_pathway": "Ingestion (indirect — metals migrate/leach from product into food/beverage)",
+      "regulatory_jurisdiction": "FDA (food-contact substances), EU (food-contact material regulations), California Prop 65",
+      "subcategories": [
+        { "row": 1, "name": "Cans/lids", "slug": "food-packaging-cans-lids" },
+        { "row": 2, "name": "Glass jars", "slug": "food-packaging-glass-jars" },
+        { "row": 3, "name": "Plastic tubs", "slug": "food-packaging-plastic-tubs" },
+        { "row": 4, "name": "Paperboard cartons", "slug": "food-packaging-paperboard-cartons" },
+        { "row": 5, "name": "Flexible pouches/films", "slug": "food-packaging-flexible-pouches-films" },
+        { "row": 6, "name": "Foils/wraps", "slug": "food-packaging-foils-wraps" },
+        { "row": 7, "name": "Caps/closures", "slug": "food-packaging-caps-closures" },
+        { "row": 8, "name": "Plastic food storage containers", "slug": "food-storage-plastic-containers" },
+        { "row": 9, "name": "Glass food storage containers", "slug": "food-storage-glass-containers" },
+        { "row": 10, "name": "Silicone food storage", "slug": "food-storage-silicone" },
+        { "row": 11, "name": "Lids/gaskets", "slug": "food-storage-lids-gaskets" },
+        { "row": 12, "name": "Ceramicware", "slug": "tableware-ceramicware" },
+        { "row": 13, "name": "Glassware", "slug": "tableware-glassware" },
+        { "row": 14, "name": "Metal bottles/tumblers", "slug": "tableware-metal-bottles-tumblers" },
+        { "row": 15, "name": "Plastic drinkware", "slug": "tableware-plastic-drinkware" },
+        { "row": 16, "name": "Decorative decals/coatings on tableware", "slug": "tableware-decorative-decals-coatings" },
+        { "row": 17, "name": "Metal and alloy cookware (cast iron, stainless steel, aluminum)", "slug": "cookware-metal-alloy" },
+        { "row": 18, "name": "Nonstick-coated cookware", "slug": "cookware-nonstick-coated" },
+        { "row": 19, "name": "Ceramic-coated cookware", "slug": "cookware-ceramic-coated" },
+        { "row": 20, "name": "Bakeware", "slug": "bakeware" },
+        { "row": 21, "name": "Specialty alloy cookware (copper, carbon steel)", "slug": "cookware-specialty-alloy" },
+        { "row": 22, "name": "Metal utensils", "slug": "utensils-metal" },
+        { "row": 23, "name": "Plastic/silicone tools", "slug": "utensils-plastic-silicone-tools" },
+        { "row": 24, "name": "Cutting boards (wood, plastic)", "slug": "cutting-boards" },
+        { "row": 25, "name": "Blender jars", "slug": "food-prep-blender-jars" },
+        { "row": 26, "name": "Food processor bowls", "slug": "food-prep-processor-bowls" },
+        { "row": 27, "name": "Coffee-maker pathways", "slug": "food-prep-coffee-maker-pathways" },
+        { "row": 28, "name": "Kettle interiors", "slug": "food-prep-kettle-interiors" },
+        { "row": 29, "name": "Water filters", "slug": "water-filters" },
+        { "row": 30, "name": "Filter media and housings", "slug": "filter-media-and-housings" }
+      ],
+      "boundary_rules": [
+        "Product must contact food during storage, preparation, cooking, or serving.",
+        "A cast iron pan routes here (metal and alloy cookware). A ceramic mug routes here (ceramicware).",
+        "A stainless steel water bottle routes here (metal bottles/tumblers). A water filter routes here.",
+        "Infant bottles/nipples route to Category 9 when marketed for ages 0-5 — even though they are food-contact items, the infant exposure pathway and regulatory treatment take priority."
+      ],
+      "regulatory_anchors": "FDA food-contact substance definitions (21 CFR Parts 170-199); EU food-contact material framework regulation (Regulation 1935/2004) and implementing measures; EU Annex I material-family list (Regulation 10/2011 for plastics, Directive 84/500/EEC for ceramics); FDA ceramics/lead leaching compliance policy guide; California Prop 65 (Pb/Cd in ceramicware, cookware)."
+    }
+  ],
+  "novel_product_routing_protocol": [
+    "Flag the product as 'unassigned — pending category review.'",
+    "Identify the primary exposure pathway (ingestion, dermal, inhalation, mucosal, indirect/migration).",
+    "Identify the applicable regulatory jurisdiction (FDA, EU, CPSC, EPA, etc.).",
+    "Determine whether the product fits an existing category with a boundary-rule clarification — if yes, update the boundary rules for that category and assign the product.",
+    "If no existing category can accommodate the product without distorting its scope — propose a new category with exposure pathway, regulatory anchors, and subcategories. The new category must be approved before any standards build begins.",
+    "No product is certified until its category assignment is resolved. An unassigned product does not default to a general or other bucket — it waits."
+  ]
+}

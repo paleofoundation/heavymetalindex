@@ -13,7 +13,7 @@ license: "CC BY-NC 4.0"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0149_Health risk assessment of some heavy metals from canne.pdf"
 metals: [tHg, Pb, Cd, Cr]
 ingredients: ["[[ingredients/tuna]]", "[[ingredients/canned-tuna]]", "[[ingredients/fish]]", "[[ingredients/shark]]", "[[ingredients/swordfish]]"]
-products: ["[[products/canned-fish]]"]
+products: ["[[products/canned-fish]]", "[[products/fresh-fish]]"]
 matrices: [canned-tuna, fresh-fish]
 jurisdictions: [MX]
 sample_n: 68

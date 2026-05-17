@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.4236/fns.2016.71005"
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]"]
-products: []
+products: ["[[products/chocolate]]"]
 matrices: [cacao-beans, cacao-nibs, cacao-leaves, cacao-pod-husk, cacao-soil]
 jurisdictions: [TT]
 sample_n: 45

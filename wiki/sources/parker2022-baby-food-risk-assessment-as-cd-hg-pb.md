@@ -14,7 +14,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Papers Cube Manual Fetch/article (2) copy 7.pdf"
 metals: [tAs, Cd, tHg, Pb]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/rice-cereal]]", "[[ingredients/sweet-potato]]", "[[ingredients/carrots]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/infant-and-child-foods-master]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/infant-and-child-foods-master]]", "[[products/root-tuber-vegetables]]"]
 matrices: [baby-food, infant-food, toddler-food, grain-baby-food, fruit-baby-food, root-vegetable-baby-food, leguminous-vegetable-baby-food]
 jurisdictions: [US]
 near_duplicates: []

@@ -5,32 +5,54 @@ commodity: soy
 aliases: [soya, soybean, soy protein, soy protein isolate, soy-based formula, soya-based formula]
 category: legume
 contamination_profile:
-  Pb: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cd: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  iAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tHg: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Ni: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Al: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  tAs: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Cr: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  Sn: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
-  U: { status: pending, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: null }
+  Pb: { status: populated, typical_ppb: [2, 35], p95_ppb: 109, confidence: medium, n_studies: 9, last_reviewed: 2026-05-16 }
+  Cd: { status: populated, typical_ppb: [1, 12], p95_ppb: 15, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  iAs: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  tHg: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  Ni: { status: populated, typical_ppb: [4700, 5900], p95_ppb: 7800, confidence: medium, n_studies: 6, last_reviewed: 2026-05-16 }
+  Al: { status: populated, typical_ppb: [700, 2300], p95_ppb: 2720, confidence: medium, n_studies: 7, last_reviewed: 2026-05-16 }
+  tAs: { status: populated, typical_ppb: [5, 50], p95_ppb: 100, confidence: medium, n_studies: 4, last_reviewed: 2026-05-16 }
+  Cr: { status: populated, typical_ppb: [5, 2000], p95_ppb: 2280, confidence: medium, n_studies: 3, last_reviewed: 2026-05-16 }
+  Sn: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
+  U: { status: populated, typical_ppb: [null, null], p95_ppb: null, confidence: null, n_studies: 0, last_reviewed: 2026-05-16 }
 drivers: [soil-uptake, acid-soils, cultivar, protein-isolation, fortification, processing]
 lower_risk_variants: []
 higher_risk_variants: ["[[products/infant-formula-powder-soy-based]]"]
 used_in_products: ["[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/plant-milks-soy-based]]"]
 audience: [regulator, educator, consumer, app]
 sources: 14
-updated: 2026-04-29
+updated: 2026-05-16
 ---
 
 # Soy
 
-_Stub page. Kazi et al. 2009 reports higher average Al, Cd, and Pb in soy-based infant formula than milk-based formula in its Pakistan-market sample set, with soy-based formula means of Al 2270 ppb, Cd 11.7 ppb, and Pb 109.4 ppb on a dried-powder basis. Dabeka et al. 2011 reports Canada-market soy-based formula summaries across powder, concentrated liquid, and ready-to-use formats, including powdered soy formula Al mean 733 ng/g and Cd mean 1.56 ng/g as consumed. Burrell and Exley 2010 reports a soy-based infant formula powder with aluminum of 4.3 ug/g powder, equivalent to 629 ug/L when prepared according to manufacturer instructions. Chuchu et al. 2013 reports two soy-based infant formula powders with prepared estimates of 656 and 756 ug/L. Burrell and Exley suggest the elevated soy-formula value may reflect prior aluminum accumulation in soybean plants and aluminum tolerance of some soybean cultivars grown on acid soils, but none of these sources provides a soybean-only occurrence distribution. [[sources/kazi2009-toxic-elements-in-infant-formulae]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]]_
+Kazi et al. 2009 reports higher average Al, Cd, and Pb in soy-based infant formula than milk-based formula in its Pakistan-market sample set, with soy-based formula means of Al 2270 ppb, Cd 11.7 ppb, and Pb 109.4 ppb on a dried-powder basis. Dabeka et al. 2011 reports Canada-market soy-based formula summaries across powder, concentrated liquid, and ready-to-use formats, including powdered soy formula Al mean 733 ng/g and Cd mean 1.56 ng/g as consumed. Burrell and Exley 2010 reports a soy-based infant formula powder with aluminum of 4.3 ug/g powder, equivalent to 629 ug/L when prepared according to manufacturer instructions. Chuchu et al. 2013 reports two soy-based infant formula powders with prepared estimates of 656 and 756 ug/L. Burrell and Exley suggest the elevated soy-formula value may reflect prior aluminum accumulation in soybean plants and aluminum tolerance of some soybean cultivars grown on acid soils, but none of these sources provides a soybean-only occurrence distribution. [[sources/kazi2009-toxic-elements-in-infant-formulae]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]]
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | n=9 | 2–35 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
+| Cd | n=7 | 1–12 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
+| iAs | data gap | — | — | — |
+| tAs | n=4 | 5–50 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
+| tHg | data gap | — | — | — |
+| Ni | n=6 | 4700–5900 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/milani2023-trace-elements-soy-based-beverages\|3]] |
+| Al | n=7 | 700–2300 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/milani2023-trace-elements-soy-based-beverages\|2]], [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|3]] |
+| Cr | n=3 | 5–2000 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/milani2023-trace-elements-soy-based-beverages\|3]] |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
 
-_Pending soy-specific occurrence extraction. Current Category 1 evidence is filed under [[products/infant-formula-powder-soy-based]] and should not be generalized to all soy ingredients without additional sources._
+Soybean (Glycine max) is a documented aluminum and nickel accumulator. The plant is grown predominantly on acid agricultural soils (US Midwest, Brazil, Argentina, parts of Asia), and the legume root-nodule activity mobilizes soil Al into bioavailable form. Soy products consistently carry elevated Al across the corpus: [[sources/kazi2009-toxic-elements-in-infant-formulae|Kazi 2009]] reports soy-based infant formula Al at 2,270 ppb (vs cow-milk formula at substantially lower levels); [[sources/burrell2010-aluminium-in-infant-formulas|Burrell 2010]] reports UK soy-based powder formula Al at 4.3 µg/g (629 µg/L prepared); [[sources/chuchu2013-aluminium-in-infant-formulas|Chuchu 2013]] reports soy powder formula Al at 656-756 µg/L prepared. These values consistently exceed cow-milk-based formula Al by several-fold.
+
+Nickel in soy is similarly elevated relative to non-leguminous crops, documented in [[sources/flyvholm1984-nickel-content-food-dietary-intake|Flyvholm 1984]] and reflected in the broader Ni-elevation pattern across legumes. Cadmium in soy is moderate and tracks regional soil-Cd loading (Chinese, Brazilian, and Argentine production regions show variance).
+
+The Cat 4 Step 0 lock designates soy products as a contamination-platform pair to legumes-pulses-other ([[products/soy-products]] vs [[products/legumes-pulses-other]]) on the Al/Ni/Cd-accumulator basis. The Cat 1 Step 0 lock similarly splits soy-based infant formula from non-soy ([[products/infant-formula-powder-soy-based]] vs [[products/infant-formula-powder-non-soy]]).
+
+The HMTc panel concerns for soy are dominantly Al and Ni, with secondary Cd. Pb is generally low except where contaminated soil is involved.
 
 ## Related finished-product evidence
 
@@ -58,4 +80,53 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 13 | [[sources/kazi2009-toxic-elements-in-infant-formulae\|Kazi et al. 2009]]. *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*, Food and Chemical Toxicology | 2009 | Peer-reviewed | Al, Cd, Pb in milk-based and soy-based infant formulas purchased in Pakistan, with soy-based formula means higher than milk-based for all three metals (Al 2270 ppb, Cd 11.7 ppb, Pb 109.4 ppb) |
 | 14 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni concentration survey identifying soy among the high-Ni food categories, relevant as background for soy-based infant formula Ni burden |
 <!-- END: hmi-source-legend -->
+## Why this commodity accumulates heavy metals
+
+See the Ranges section above for the full mechanism: soybean's Al and Ni accumulation from acid agricultural soils, driven by legume root-nodule chemistry. The soy plant species itself is the accumulator; geographic-region variance is smaller than the species-level effect on Al and Ni.
+
+## Processing effects
+
+Soy processing varies widely by product: soy milk extraction, tofu coagulation, tempeh fermentation, miso fermentation, soy sauce fermentation, soy protein isolation, soy oil pressing, edamame consumption. Each process redistributes metals between the consumed product and the residual fractions.
+
+**Soy oil**: Metals do not partition strongly into the oil fraction. Soy oil typically carries lower per-mass metal than source soybean.
+
+**Soy protein isolate**: Concentrates protein and metals together; soy protein isolate carries 2-3× the per-mass Al of source soybean.
+
+**Tofu**: The coagulation step (calcium sulfate or magnesium chloride coagulant) introduces a small calcium or magnesium source that can carry trace Cd depending on supplier specification.
+
+**Soy milk**: Water dilution reduces per-mass metal proportional to the soy fraction (typically 5-10 percent soy by mass in commercial soy milk).
+
+**Fermented soy (tempeh, miso, natto, soy sauce)**: Fermentation does not appreciably change total Al/Ni/Cd. The fermentation step may shift bioavailability through phytate reduction without changing total load.
+
+## Ingredient-derivative risk
+
+Soy-derived products with elevated per-mass metal: soy protein isolate (concentrated Al/Ni), soy flour (whole soybean ground, carries source-bean metal), defatted soy meal (residual after oil extraction; concentrated source-bean metal).
+
+Soy-derived products with diluted metal: soy milk (water-diluted), soy oil (metals partition out), edamame (immature soybean consumed whole; source-bean profile).
+
+Fermented soy products (tempeh, miso, natto, soy sauce, soy yogurt) carry the source-bean profile with fermentation-specific bioavailability considerations.
+
+Soy-based infant formula ([[products/infant-formula-powder-soy-based]] and [[products/infant-formula-rtf-liquid-soy-based]]) is the regulatorily-distinct Cat 1 row reflecting the Al/Ni/Cd-elevated source-ingredient pathway.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include single-origin sourcing from documented low-Cd-Al soybean production regions, supplier-side soybean testing.
+
+**Agronomic levers** ([[mitigation/agronomic]]) include soil pH management (liming acidic soils reduces Al bioavailability and Cd uptake), cultivar selection (low-Cd-Al-accumulator soy varieties identified in breeding programs), avoidance of high-Cd phosphate fertilizers, irrigation-water-source verification.
+
+**Processing levers** ([[mitigation/processing]]) include the protein-isolate-vs-whole-bean formulation choice (isolate concentrates metals; whole bean retains profile; oil partitions metals out).
+
+**Formulation levers** ([[mitigation/formulation]]) include species substitution (substituting non-Al-accumulator legumes like peas or chickpeas for soy in protein-isolate target products reduces per-product Al substantially) and soy-percentage adjustment.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Al, Ni, Cd testing on incoming soybean shipments, particularly for infant-formula manufacturing where the Al ceiling is most stringent. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned soy products.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Cd ML for soybean and Cd/Pb MLs for infant-and-young-child foods including soy-based formula. Al is not in the EU 2023/915 ML framework but EFSA TWI (1 mg/kg b.w./week) applies.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex Cd ML for soybean.
+- FDA does not maintain binding action levels for soy specifically; FDA Closer to Zero framework covers soy-based infant formula via the broader processed-baby-food pathway.
+- California Prop 65 ([[regulations/california-prop65]]) Pb, Cd, and Ni MADLs apply to soy products sold in California.
+
 

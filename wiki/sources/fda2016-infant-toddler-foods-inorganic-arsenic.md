@@ -7,6 +7,8 @@ year: 2016
 publication: "U.S. Food and Drug Administration"
 source_type: gov-data
 evidence_tier: A
+doi: null
+no_doi_assigned: true
 access_url: https://www.fda.gov/media/157605/download
 data_paths:
   - data/evidence/category1_fda2016_infant_cereal_ias_samples.csv
@@ -16,7 +18,7 @@ data_paths:
 license: public-domain-us-government
 metals: [iAs, tAs]
 other_arsenic_species: [DMA, MMA]
-products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, fruit-juices-non-apple, fruit-juice-not-canned]
+products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice, fruit-juices-non-apple, fruit-juice-not-canned, "[[products/peanut-butter]]", "[[products/dried-fruit]]", "[[products/teething-and-snacks-non-rice]]", "[[products/fresh-fruit]]", "[[products/fruit-purees]]"]
 matrices: [infant-rice-cereal, multigrain-cereal-with-rice, non-rice-infant-cereal, oat-ring-cereal, juice-grape, juice-apricot, juice-peach, juice-pear, juice-boxes-and-pouches, peanut-butter, quinoa, raisins, stage-2-toddler-foods, teething-biscuits, toddler-puffs, apples]
 product_metal_scope:
   baby-cereals-dry-rice-based: [iAs]
@@ -35,7 +37,7 @@ FDA's 2016 inorganic-arsenic dataset reports sample-level iAs (with paired total
 ## Structured Extracts
 
 - `data/evidence/category1_fda2016_infant_cereal_ias_samples.csv`: sample-level iAs for FDA's `Cereal - Infant/Toddler (rice)` (n=76, all rice as only grain), `Cereal - Infant/Toddler (multigrain)` (n=6, contains rice and other grains), and `Cereal - Infant/Toddler (non-rice)` (n=30, oats/corn/wheat/multigrain with no rice). Trace `TR (x.x)` values preserved as reported.
-- `data/evidence/category1_fda2016_infant_cereal_ias_summary.csv`: per-row p30, p50, p90, p100 for the rice-based and non-rice cereal subcategories under the Part 19 clean/dirty subcategory framework.
+- `data/evidence/category1_fda2016_infant_cereal_ias_summary.csv`: per-row distributional statistics derived from the sample-level extract above, for rice-based and non-rice cereal subcategories.
 - `data/evidence/category5_grape_juice_inorganic_arsenic_samples.csv`: sample-level extract for the FDA `Juice - Grape` rows.
 - `data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv`: deterministic quantified-cell iAs summary rows for non-apple juice and broader not-canned fruit-juice context.
 
@@ -73,7 +75,7 @@ EF-2 reconstructable A-tier sample-level evidence for the cereal subsets (rice +
 
 ## Implications
 
-Certification: Direct A-tier sample-level iAs evidence for the rice-based and non-rice infant cereal subcategories under HMTc Category 1, sufficient to support per-analyte clean/dirty classification per Part 19. Combined with [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] (CC-BY peer-reviewed iAs in baby rice and rice cereals; n=29 baby rice + 53 rice cereals), FDA 2016 brings n_a_tier to 2 for iAs in rice-based cereal under the Part 19 readiness bar. Final HMT&C value remains capped by the FDA action level of 100 ppb iAs for infant rice cereal ([[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]]).
+Certification: Direct A-tier sample-level iAs evidence for the rice-based and non-rice infant cereal subcategories, with adequate sample size and method credibility for HMTc Category 1 standards-setting use. Combined with [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] (CC-BY peer-reviewed iAs in baby rice and rice cereals; n=29 baby rice + 53 rice cereals), this brings the iAs-in-rice-based-cereal evidence pool to two A-tier sources. The FDA action level of 100 ppb iAs for infant rice cereal ([[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]]) is the applicable regulatory cap.
 
 Courses: Strong example for teaching rice-vs-non-rice contamination differentials in infant foods and for the trace-value handling convention in regulatory data tables.
 

@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Vari.pdf"
 metals: [Cd, Pb, Cr, Ni]
-ingredients: ["[[ingredients/peanuts]]", "[[ingredients/almonds]]", "[[ingredients/hazelnuts]]", "[[ingredients/walnuts]]", "[[ingredients/cashews]]"]
+ingredients: ["[[ingredients/peanuts]]", "[[ingredients/almond]]", "[[ingredients/hazelnuts]]", "[[ingredients/walnuts]]", "[[ingredients/cashews]]"]
 products: []
 matrices: [nut-kernel]
 jurisdictions: [EU, PL, CN]

@@ -12,8 +12,8 @@ evidence_tier: A
 license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/10.30931-jetas.1395566-3557768.pdf"
 metals: [Pb, tAs, Cd, Ni, Al]
-ingredients: ["[[ingredients/milk]]"]
-products: ["[[products/milk]]"]
+ingredients: ["[[ingredients/milk-and-dairy]]"]
+products: []
 matrices: [milk, food-packaging, packaging-material]
 jurisdictions: [TR]
 near_duplicates: []

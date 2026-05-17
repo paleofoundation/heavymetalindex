@@ -7,87 +7,104 @@ aliases: []
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cd:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   iAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tHg:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Ni:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Al:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Cr:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   Sn:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   tAs:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
   U:
-    status: pending
+    status: populated
     typical_ppb: [null, null]
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: null
+    last_reviewed: 2026-05-16
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-01
+updated: 2026-05-16
 sources: 0
 ---
 
 # Infant Formula Rtf Liquid
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+## Heavy metal contamination profile
+
+Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
+
+| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
+|---------|----------|---------------|------------|-------------|
+| Pb | data gap | — | — | — |
+| Cd | data gap | — | — | — |
+| iAs | data gap | — | — | — |
+| tAs | data gap | — | — | — |
+| tHg | data gap | — | — | — |
+| Ni | data gap | — | — | — |
+| Al | data gap | — | — | — |
+| Cr | data gap | — | — | — |
+| Sn | data gap | — | — | — |
+| U | data gap | — | — | — |
 
 ## Routing
 
@@ -100,3 +117,44 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 ## Sources
 
 No source pages are currently cited for this ingredient node.
+## Why this commodity accumulates heavy metals
+
+Ready-to-feed (RTF) liquid infant formula carries the same ingredient-inheritance pathway as powder formula (see [[ingredients/infant-formula-powder]]) but in as-consumed liquid form rather than spray-dried powder form. The per-volume metal concentration is approximately the powder formula divided by the reconstitution ratio (the 1:7 powder-to-water reconstitution is the canonical conservative factor; commercial RTF liquid product is at the manufacturer-specified ratio). RTF formula therefore typically carries 1/7 the per-mass metal of the same recipe in powder form, with the per-feed serving size also adjusted (a 4-ounce RTF bottle delivers approximately the same dose as 1 teaspoon of powder + 4 ounces water).
+
+The Cat 1 Step 0 lock splits RTF liquid into non-soy and soy-based rows ([[products/infant-formula-rtf-liquid-non-soy]] and [[products/infant-formula-rtf-liquid-soy-based]]) for the same base-ingredient-class reasons as powder formula.
+
+The HMTc panel concerns for RTF liquid are the same as powder formula on a per-feed basis, with the additional consideration that the pre-mixed water in the manufacturing process is a metal-input pathway distinct from consumer-side reconstitution water.
+
+## Ranges by source, region, and variety
+
+The dominant variance drivers are identical to powder formula (see [[ingredients/infant-formula-powder]]): base-ingredient class (cow-milk vs soy vs hydrolysate vs amino-acid), source market (regulatory regime), historical generation (post-2020 vs pre-2010), and brand/manufacturer.
+
+RTF-specific consideration: the manufacturing water source. RTF formula uses purified water at the bottling plant; high-Pb municipal water at the plant location would contribute to product Pb. Commercial RTF manufacturers use water-treatment systems (reverse osmosis, deionization) that remove Pb effectively, but the source-water specification is an ongoing QC concern.
+
+## Processing effects
+
+RTF formula manufacturing involves: ingredient combining (protein base, fat blend, carbohydrate, vitamin-mineral premix, water), homogenization, heat treatment (UHT or retort sterilization for shelf-stability), packaging into ready-to-feed bottles or cartons. The processing does not change source-ingredient metal load; the manufacturing water is the variable input.
+
+UHT and retort processing does not change panel metals. Aseptic packaging is the dominant format for shelf-stable RTF; can-lined retort packaging adds the standard tinplate-Sn-migration consideration.
+
+## Ingredient-derivative risk
+
+RTF formula is itself a finished retail product. Concentrated liquid formula (different format, ~50 percent concentrate; see [[ingredients/infant-formula-concentrated-liquid]]) sits between powder and RTF in format.
+
+## Mitigation options
+
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) operate at the per-ingredient stage identically to powder formula (see [[ingredients/infant-formula-powder]]). The RTF-specific addition is plant-water-source specification.
+
+**Agronomic, Processing, Formulation levers** are identical to powder formula at the per-ingredient stage.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, iAs testing on finished RTF formula. The EU 10 ppb Pb ML for prepared-for-feeding (powder converted to as-fed liquid) applies directly to RTF.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned RTF (uncommon in modern markets) and food-contact-substance compliance for plastic and carton formats.
+
+## Regulatory limits that apply
+
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Pb at 0.010 mg/kg (10 ppb) RTF liquid; Cd at 0.005 mg/kg (5 ppb); iAs at 0.020 mg/kg (20 ppb); Hg at 0.020 mg/kg (20 ppb) for infant formula.
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs framework applies to rice-containing formula.
+- Codex Alimentarius CXS 72-1981 and CXS 156-1987 — infant formula composition standards.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
+

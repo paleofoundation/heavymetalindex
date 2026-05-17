@@ -7,7 +7,7 @@ year: 2022
 publication: "FDA Draft Guidance for Industry"
 doi: null
 no_doi_assigned: true
-access_url: https://scholar.google.com/scholar?q=Draft%20Guidance%20for%20Industry%3A%20Action%20Levels%20for%20Lead%20in%20Juice
+access_url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice
 source_type: gov-guidance
 evidence_tier: A
 raw_path: null

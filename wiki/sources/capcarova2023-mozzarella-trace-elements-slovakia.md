@@ -6,9 +6,8 @@ title: "Levels of Essential and Trace Elements in Mozzarella Available on the Sl
 authors: [Capcarova M, Frigenti M, Arvay J, Janco I, Harangozo L, Bandlerova A, Sartoni M, Guidi A, Stawarz R, Formicki G, Argente MJ, Massanyi P]
 year: 2023
 publication: "Biological Trace Element Research"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=Levels%20of%20Essential%20and%20Trace%20Elements%20in%20Mozzarella%20Available%20on%20the%20Slovak%20Market%20with%20the%20Estimation%20of%20Consumer%20Exposure"
+doi: "10.1007/s12011-023-03813-x"
+access_url: "https://doi.org/10.1007/s12011-023-03813-x"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

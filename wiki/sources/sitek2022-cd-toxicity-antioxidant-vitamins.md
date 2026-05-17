@@ -6,9 +6,8 @@ title: "The role of antioxidant vitamins in cadmium toxicity prevention"
 authors: [Sitek P, Mietkiewska K, Skibniewska KA]
 year: 2022
 publication: "Nutrients"
-doi: null
-no_doi_assigned: true
-access_url: "https://scholar.google.com/scholar?q=The%20role%20of%20antioxidant%20vitamins%20in%20cadmium%20toxicity%20prevention"
+doi: "10.13075/ijomeh.1896.01912"
+access_url: "https://doi.org/10.13075/ijomeh.1896.01912"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

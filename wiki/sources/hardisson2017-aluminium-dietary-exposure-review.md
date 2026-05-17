@@ -12,8 +12,8 @@ evidence_tier: B
 license: "Open Access"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0144_Aluminium Exposure Through the Diet.pdf"
 metals: [Al]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/meat]]", "[[ingredients/dairy]]", "[[ingredients/tea]]", "[[ingredients/drinking-water]]"]
-products: []
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/meat]]", "[[ingredients/dairy]]", "[[ingredients/tea]]", "[[ingredients/water]]"]
+products: ["[[products/seafood]]", "[[products/tea]]", "[[products/fresh-fish]]"]
 matrices: [fish, seafood, vegetables, fruit, meat, dairy, drinking-water, tea, beverages]
 jurisdictions: [ES, DE, AU, US, TR, KR, JO]
 sample_n: null

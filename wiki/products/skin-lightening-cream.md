@@ -1,31 +1,46 @@
 ---
 type: product-category
 category: skin-lightening-cream
-aliases: [skin-lightening-lotion, skin-lightening-soap, whitening-cream]
-title: "Skin Lightening Cream"
-typical_ingredients: []
-primary_metals_of_concern: [Pb, Cd, tAs]
-vulnerable_population: general_population
-applicable_regulations: []
-audience: [regulator, educator, consumer, app]
-updated: 2026-05-14
+title: "Skin Lightening Cream — RETIRED (out of HMTc scope)"
+retired: true
+retirement_date: 2026-05-16
+retirement_authority: "Cat 2 Step 0 lock 2026-04-28"
+retirement_reason: "Skin lightening products are explicitly out of HMTc certification scope per the Cat 2 Step 0 lock. The product class is dominated by bad actors operating outside or in violation of existing regulation (FDA regulates as drugs; EU prohibits hydroquinone in cosmetic skin lighteners under Regulation 1223/2009; mercury in cosmetics is broadly illegal). Creating a certification row would manufacture a false impression that this is a normal product category requiring better limits. Replaced by the public advisory page at /advisory/skin-lightening-products."
+redirect_target: advisory/skin-lightening-products
+redirect_target_pending: false
+audience: [regulator, educator, consumer]
+updated: 2026-05-16
 sources: 2
-created_by: autonomy_v0
-created_from: routing_unresolved
-created_routed_sources: 2
 ---
 
-# Skin Lightening Cream
+# Skin Lightening Cream — RETIRED (out of HMTc scope)
 
-This page is an autonomy-created stub product-category page. The routing audit identified 2 source pages in the corpus declaring `products: [skin-lightening-cream]` in their frontmatter without a dedicated product page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 populates the evidence-summary table as sources accumulate.
+> **This page has been retired.** Skin lightening products are explicitly out of HMTc certification scope per the Category 2 Step 0 lock (2026-04-28). See the public-facing advisory at [[advisory/skin-lightening-products]] for the program's position on documented mercury contamination in this product class (up to 210,000 ppm in the literature) and the recommendation that consumers, regulators, and journalists treat this as a regulatory-enforcement issue rather than a certification-gap issue.
+>
+> The Ricketts 2020 source page ([[sources/ricketts2020-mercury-skin-lightening-jamaica]]) remains a valid literature reference. Its product reference now routes to the advisory page rather than a certification row.
 
+## Why no certification path
+
+Certification works by giving brands a path to demonstrate compliance with a standard. The skin lightening product class is dominated by bad actors operating outside or in violation of existing regulation:
+
+- FDA regulates these as drugs (not cosmetics), so the FD&C Act's cosmetic adulteration framework does not apply.
+- EU prohibits hydroquinone in cosmetic skin lighteners under Regulation 1223/2009.
+- Mercury in cosmetics is broadly illegal in most jurisdictions; documented 21%-mercury skin lighteners are illegal at the ingredient level, not just at the contaminant level.
+
+Brands using mercury at 21% concentrations will not seek HMTc certification regardless of what limit is set. Creating a Cat 2 row for skin lightening would manufacture a false impression that this is a normal product category requiring better limits.
+
+## Status
+
+- Retired: 2026-05-16
+- Authority: Cat 2 Step 0 lock 2026-04-28 (`Category2_Clean_vs_Contaminated_Splits.md` — "Out of Scope: Skin Lightening Products" section)
+- Replaced by: [[advisory/skin-lightening-products]] (public advisory page)
 ## Who this page is for
 
-This stub will be developed for the brand-legal, retailer-compliance, HMTc-internal, and regulator audiences per OPERATING.md Part 2. Until evidence is synthesized, the page exists primarily as a routing target so the corpus's references to this product category resolve to a defined location.
+_Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator audiences are listed in OPERATING.md Part 2; this section will frame what each is looking for on this page._
 
 ## Methodology
 
-This page will report literature evidence per CLAUDE.md Part 6's product-category-page template. Speciation is non-substitutable (iAs vs tAs, Cr-VI vs total Cr, MeHg vs tHg); basis is preserved and labeled; non-detect handling follows the source's own convention; pooling avoided across LOQ, period, geography, and analytical-basis differences. Percentile-selection arithmetic does not appear on this public page (CLAUDE.md Part 2 firewall); it lives on the staff Standards Workbench.
+_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules from CLAUDE.md Part 6 that govern downstream sections of this page._
 
 ## Literature Evidence Summary
 
@@ -51,15 +66,17 @@ _Pending: regenerated by `tools/apply-product-crosswalk-sections.mjs` once `appl
 
 ## Levers to reduce contamination
 
-_Pending: populated by the synthesis pass when ingredient-level mitigation evidence is sufficient. Cross-links to relevant `mitigation/` pages and the contributing ingredients' Mitigation options sections._
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing ingredient pages' Mitigation options sections and the relevant `mitigation/` pages. The Levers section is the brand-legal-actionable surface of this page._
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc thresholds lives in `data/workbench/standards/skin-lightening-cream.md` (the staff snapshot). This public page reports literature evidence; the staff workbench applies the methodology in CLAUDE.md Part 19 to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 
-_Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+
+## Sources
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -70,3 +87,4 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 
 <!-- END: hmi-source-legend -->
+

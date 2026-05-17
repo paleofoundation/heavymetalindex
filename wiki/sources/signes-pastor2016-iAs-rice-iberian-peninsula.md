@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1016/j.foodchem.2016.01.117"
 metals: [iAs, tAs, Cd]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/rice-bulk-grain]]"]
 matrices: [polished-rice, brown-rice, parboiled-rice, paddy-field-soil, rice-shoots]
 jurisdictions: [ES, PT, EU]
 sample_n: 164
