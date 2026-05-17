@@ -214,6 +214,13 @@
   padding: 0.75rem 1.1rem 0;
 }
 
+.ask-index-suggestions-label {
+  color: var(--gray);
+  flex-basis: 100%;
+  font-size: 0.78rem;
+  margin-bottom: 0.1rem;
+}
+
 .ask-index-suggestions button {
   background: var(--light);
   border: 1px solid var(--lightgray);

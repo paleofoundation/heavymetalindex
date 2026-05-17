@@ -35,7 +35,7 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
                 Ask the Index
               </div>
               <div class="ask-index-subtitle">
-                Answers are grounded in cited Heavy Metal Index pages — no outside knowledge, no hallucination.
+                Ask a question about heavy metals in food. Every answer is grounded in cited Heavy Metal Index pages — no outside knowledge, no hallucination. If the corpus doesn't carry evidence on your question, you'll see a "no evidence loaded" reply rather than a guess.
               </div>
             </div>
             <button type="button" class="ask-index-close" aria-label="Close Ask the Index">
@@ -44,9 +44,13 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
           </div>
           <div class="ask-index-messages" aria-live="polite"></div>
           <div class="ask-index-suggestions" aria-label="Suggested questions">
-            <button type="button">What is the lowest applicable regulatory cap for lead in turmeric?</button>
+            <div class="ask-index-suggestions-label">Try one of these:</div>
+            <button type="button">What is the lowest applicable regulatory cap for lead in turmeric, and does the Index show field findings above it?</button>
+            <button type="button">Which baby-food categories does FDA Closer to Zero set lead action levels for, and at what ppb?</button>
+            <button type="button">What does the literature say about cadmium in cocoa, and which regions report the highest concentrations?</button>
             <button type="button">How does the EU mercury limit for tuna compare to the US FDA action level?</button>
             <button type="button">Is brown rice or white rice higher in inorganic arsenic, and why?</button>
+            <button type="button">What testing method should a QA lab use to distinguish total chromium from hexavalent chromium in spices?</button>
           </div>
           <form class="ask-index-form">
             <textarea
