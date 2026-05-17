@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1007/s12011-023-03698-w"
 metals: [Pb, Cd, tAs, Al, Cr, Ni]
 ingredients: ["[[ingredients/camellia-sinensis]]", "[[ingredients/herbal-botanicals]]"]
-products: ["[[products/true-tea-camellia-sinensis]]"]
+products: ["[[products/true-tea-camellia-sinensis]]", "[[products/spices]]"]
 matrices: [herbal-tea-dried, black-tea, green-tea, chamomile, thyme, rosemary]
 jurisdictions: [IR, TR, CN, SA, IN, IT, RS, US, BR]
 sample_n: 49

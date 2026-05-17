@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_13030466/FM_13030466.md
 metals: [tAs, Cd, Pb, Ni, Cr]
-products: []
+products: ["[[products/non-root-vegetables]]"]
 ingredients: ["[[ingredients/tomato]]"]
 matrices: [tomato-fruit, vegetable]
 jurisdictions: [ES]

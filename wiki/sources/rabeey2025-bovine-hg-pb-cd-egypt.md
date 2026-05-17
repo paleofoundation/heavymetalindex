@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0132_Health risk assessment of heavy metals in imported fro.pdf"
 metals: [tHg, Pb, Cd]
 ingredients: ["[[ingredients/beef]]", "[[ingredients/beef-liver]]", "[[ingredients/beef-kidney]]"]
-products: []
+products: ["[[products/beef-product]]"]
 matrices: [beef-muscle, beef-liver, beef-kidney]
 jurisdictions: [EG, BR, IN, US]
 sample_n: 315

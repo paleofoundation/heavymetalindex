@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Heavy Metal Contamination of Hot Sauce and Chili Powder.pdf"
 metals: [Pb, Cd, tAs, Cr]
 ingredients: ["[[ingredients/chili-pepper]]", "[[ingredients/spices]]"]
-products: ["[[products/hot-sauce]]", "[[products/spices]]"]
+products: ["[[products/hot-sauce]]", "[[products/spices]]", "[[products/condiments-general]]"]
 matrices: [chili-powder, hot-sauce]
 jurisdictions: [US]
 near_duplicates: []

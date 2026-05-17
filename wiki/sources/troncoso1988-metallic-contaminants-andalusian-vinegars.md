@@ -14,7 +14,7 @@ license: "All rights reserved"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Metallic Contaminants in Andalusian Vinegars.pdf"
 metals: [Pb, tAs, Zn, Cu, Fe]
 ingredients: ["[[ingredients/vinegar]]", "[[ingredients/wine-vinegar]]"]
-products: []
+products: ["[[products/vinegar]]"]
 matrices: [wine-vinegar, sherry-vinegar, vinegar]
 jurisdictions: [ES]
 near_duplicates: []

@@ -13,7 +13,7 @@ evidence_tier: A
 license: unknown
 raw_path: raw/markdown/FM_12573227/FM_12573227.md
 metals: [tHg, Pb, Cd]
-products: []
+products: ["[[products/spices]]"]
 ingredients: []
 matrices: [analytical-method, water, herbal-plants]
 jurisdictions: []

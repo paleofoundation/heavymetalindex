@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0329.pdf"
 metals: [tAs, Pb, Cd, tHg, Ni, Cr]
 ingredients: ["[[ingredients/vegetable-oils]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/peanuts]]", "[[ingredients/oilseeds]]"]
-products: []
+products: ["[[products/cooking-oils-other]]"]
 matrices: [oilseed, vegetable-oil, seed-oil]
 jurisdictions: [global, IR]
 near_duplicates: []

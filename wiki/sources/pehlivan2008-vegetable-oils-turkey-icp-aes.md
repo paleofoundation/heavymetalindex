@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Determination of some inorganic metals in edible vegetable oils b.pdf"
 metals: [Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn]
 ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/corn-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/vegetable-oils]]"]
-products: []
+products: ["[[products/nuts-seeds-other]]"]
 matrices: [olive-oil, sunflower-oil, corn-oil, soybean-oil, hazelnut-oil, almond-oil, edible-oil]
 jurisdictions: [TR]
 near_duplicates: []

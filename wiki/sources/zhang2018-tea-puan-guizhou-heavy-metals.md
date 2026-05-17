@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.3390/ijerph15010133"
 metals: [Al, Pb, Cd, tHg, tAs, Cr, Ni]
 ingredients: ["[[ingredients/camellia-sinensis]]"]
-products: []
+products: ["[[products/tea]]"]
 matrices: [tea-leaves-young, tea-leaves-mature, soil]
 jurisdictions: [CN]
 sample_n: 26

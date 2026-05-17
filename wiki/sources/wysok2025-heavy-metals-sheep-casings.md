@@ -13,7 +13,7 @@ evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_12071571/FM_12071571.md
 metals: [Pb, tAs, Cd, tHg]
-products: []
+products: ["[[products/processed-meats]]"]
 ingredients: ["[[ingredients/meat]]"]
 matrices: [sheep-casings, sausage-casing, animal-byproduct]
 jurisdictions: [PL, EU]

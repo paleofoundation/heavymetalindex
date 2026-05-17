@@ -14,7 +14,7 @@ license: "CC BY-NC-ND"
 raw_path: raw/markdown/FM_11181011/FM_11181011.md
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/spinach]]"]
-products: ["[[products/infant-and-child-foods-master]]"]
+products: ["[[products/infant-and-child-foods-master]]", "[[products/spinach]]"]
 matrices: [spinach-fresh, spinach-frozen-boiled]
 jurisdictions: [US]
 near_duplicates: []

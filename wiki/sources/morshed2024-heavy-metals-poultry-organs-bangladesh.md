@@ -15,7 +15,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi/04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0161_Heavy Metals Accumulation in Different Organs of Poult.pdf"
 metals: [Pb, Cd, Cr]
 ingredients: ["[[ingredients/chicken]]"]
-products: []
+products: ["[[products/poultry-product]]"]
 matrices: [chicken-muscle, chicken-bone, chicken-liver, chicken-kidney, chicken-lung]
 jurisdictions: [BD]
 sample_n: 24

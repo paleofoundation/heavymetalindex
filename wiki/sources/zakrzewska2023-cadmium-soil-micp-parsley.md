@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10321601/FM_10321601.md
 metals: [Cd]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [agricultural-soil, root-vegetable, herb]
 jurisdictions: [PL, EU]
 near_duplicates: [FM_10321601_Reduction_of_bioavailability_and_phytotoxicity_effect_of_cad]

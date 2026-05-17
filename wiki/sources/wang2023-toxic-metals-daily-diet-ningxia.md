@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10350440/FM_10350440.md
 metals: [Al, tAs, Cr, Cd, Ni, Pb]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/spinach]]", "[[ingredients/leafy-greens]]", "[[ingredients/potatoes]]", "[[ingredients/soy]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/meat]]", "[[ingredients/fruit]]"]
-products: []
+products: ["[[products/non-root-vegetables]]"]
 matrices: [drinking-water, cereals, meat, vegetables, fruits, legumes, potatoes, solanaceous-vegetables]
 jurisdictions: [CN]
 near_duplicates: [FM_10350440_Deterministic_and_Probabilistic_Health_Risk_Assessment_of_To]

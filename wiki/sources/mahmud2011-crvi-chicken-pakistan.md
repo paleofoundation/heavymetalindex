@@ -15,7 +15,7 @@ license: "Subscription journal; no open-access license confirmed"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0137_Chromium (VI) Levels in Chicken Parts.pdf"
 metals: [Cr-VI]
 ingredients: ["[[ingredients/chicken]]"]
-products: []
+products: ["[[products/poultry-product]]"]
 matrices: [chicken-muscle, chicken-bone, chicken-liver, chicken-offal]
 jurisdictions: [PK]
 sample_n: null
