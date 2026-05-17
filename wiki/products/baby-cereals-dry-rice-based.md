@@ -29,7 +29,7 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 59
+sources: 60
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)

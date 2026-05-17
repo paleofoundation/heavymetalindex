@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 0
+sources: 6
 updated: 2026-05-17
 ---
 # Ingredient class — botanicals/herbs/traditional formulas

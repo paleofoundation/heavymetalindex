@@ -16,7 +16,7 @@ platform_metals: [Cd, Pb]
 pair_row: 4
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 0
+sources: 2
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 

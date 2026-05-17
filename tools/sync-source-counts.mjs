@@ -139,19 +139,21 @@ for (const cat of CATEGORIES) {
   let raw = fs.readFileSync(indexPath, "utf8")
   let changed = false
 
-  // Match list entries: "- [[<category>/<slug>(|Name)?]]" with optional
-  // existing "(N sources)" trailer. Always emit the trailer with the
-  // current count so lines that were added without a count (e.g. by
-  // link-orphans.mjs) get one. Trailing punctuation after the link is
-  // preserved by replacing only the link + its optional source count.
+  // Match list entries: "- [[<category>/<slug>(|Name)?]]" or
+  // "N. [[<category>/<slug>(|Name)?]]" with optional existing "(N sources)"
+  // trailer. Both bullet and numbered lists are accepted so e.g.
+  // wiki/products/index.md (numbered per HMTc category row) stays in sync.
+  // Always emit the trailer with the current count so lines that were
+  // added without a count (e.g. by link-orphans.mjs) get one.
   const lineRe = new RegExp(
-    `(- \\[\\[${cat.frontmatterKey}\\/([a-z0-9][a-z0-9_-]*)(?:\\|[^\\]]+)?\\]\\])(?:\\s*\\(\\d+\\s*sources?\\))?`,
+    `((?:^|\\n)(?:- |\\d+\\. )\\[\\[${cat.frontmatterKey}\\/([a-z0-9][a-z0-9_-]*)(?:\\|[^\\]]+)?\\]\\])(?:\\s*\\(\\d+\\s*sources?\\))?`,
     "g",
   )
   raw = raw.replace(lineRe, (match, linkPart, slug) => {
     const key = `${cat.frontmatterKey}:${slug}`
     const newN = counts.get(key) ?? 0
-    const newLine = `${linkPart} (${newN} sources)`
+    const noun = newN === 1 ? "source" : "sources"
+    const newLine = `${linkPart} (${newN} ${noun})`
     if (newLine !== match) {
       indexLinesUpdated += 1
       changed = true

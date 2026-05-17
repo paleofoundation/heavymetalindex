@@ -16,7 +16,7 @@ pair_row: 15
 pair_rows: [15, 16]
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 0
+sources: 1
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 

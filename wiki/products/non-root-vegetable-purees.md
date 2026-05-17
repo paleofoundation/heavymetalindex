@@ -29,7 +29,7 @@ cc_relationship:
       notes: "Non-root vegetable purees serve as the clean cross-row CC source for root-vegetable purees on Cd and Pb. Within row 8 itself, no within-row contamination split exists."
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 15
+sources: 16
 ---
 
 # Non-Root Vegetable Purees
