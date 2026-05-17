@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/ground-turmeric-imported]]"]
 used_in_products: ["[[products/spice-blends]]", "[[products/curry-powder]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 9
+sources: 10
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 9
@@ -168,7 +168,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 4 | [[sources/fda-import-alert-99-42-spice-lead\|FDA 2024]]. *FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination*, FDA Import Alerts | 2024 | Regulatory | US FDA regulatory enforcement mechanism for adulteration-risk spice imports including turmeric |
 | 5 | [[sources/forsyth2024-turmeric-lead-chromate-south-asia\|Forsyth et al. 2024]]. *Evidence of turmeric adulteration with lead chromate across South Asia*, Science of the Total Environment | 2024 | Peer-reviewed | South Asian (India, Pakistan, Sri Lanka, Nepal) lead chromate adulteration follow-up (n=356) |
 | 6 | [[sources/oseisafo2024-ghana-spices-metals\|Osei-Safo et al. 2024]]. *Trace and Heavy Metals in Locally and Imported Spices Sold on Markets in Accra Metropolis, Ghana*, The Scientific World Journal | 2024 | Peer-reviewed | Ghana market spice trace-metal survey including imported-and-local turmeric (n=90) |
-| 7 | [[sources/lech2020-turmeric-lead-united-states\|Lech et al. 2020]]. *Ground Turmeric as a Source of Lead Exposure in the United States*, Environmental Health Perspectives | 2020 | Peer-reviewed | US ground turmeric survey identifying Pb distribution worst-case tail (n=127) |
-| 8 | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh\|Forsyth et al. 2019]]. *Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh*, Environmental Research | 2019 | Peer-reviewed | Bangladesh mill-traced lead chromate adulteration documentation (n=524); foundational adulteration evidence |
-| 9 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | Population-scale US home-investigation cohort linking turmeric to elevated childhood blood-lead (n=386) |
+| 7 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/lech2020-turmeric-lead-united-states\|Lech et al. 2020]]. *Ground Turmeric as a Source of Lead Exposure in the United States*, Environmental Health Perspectives | 2020 | Peer-reviewed | US ground turmeric survey identifying Pb distribution worst-case tail (n=127) |
+| 9 | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh\|Forsyth et al. 2019]]. *Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh*, Environmental Research | 2019 | Peer-reviewed | Bangladesh mill-traced lead chromate adulteration documentation (n=524); foundational adulteration evidence |
+| 10 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | Population-scale US home-investigation cohort linking turmeric to elevated childhood blood-lead (n=386) |
 <!-- END: hmi-source-legend -->

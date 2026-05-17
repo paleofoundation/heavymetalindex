@@ -284,27 +284,69 @@ function dedupeCitations(citations: AskPageCitation[]): AskPageCitation[] {
   return out
 }
 
-function getAssistantTemplate() {
-  return document.getElementById("hmi-ask-template-message-assistant") as HTMLTemplateElement | null
-}
-function getUserTemplate() {
-  return document.getElementById("hmi-ask-template-message-user") as HTMLTemplateElement | null
-}
+// Construct message nodes directly rather than cloning `<template>` content,
+// because Quartz's markdown HTML pass strips children from inline `<template>`
+// tags in `wiki/ask.md`. Building via createElement keeps the structure intact
+// and avoids depending on raw-HTML template support in markdown.
 
 function appendUserMessage(conv: HTMLElement, text: string) {
-  const tpl = getUserTemplate()
-  if (!tpl) return
-  const node = tpl.content.firstElementChild!.cloneNode(true) as HTMLElement
-  const body = node.querySelector(".hmi-ask-message-body") as HTMLElement
+  const node = document.createElement("article")
+  node.className = "hmi-ask-message hmi-ask-message-user"
+  const role = document.createElement("div")
+  role.className = "hmi-ask-message-role"
+  role.textContent = "You"
+  node.appendChild(role)
+  const body = document.createElement("div")
+  body.className = "hmi-ask-message-body"
   body.innerHTML = paragraphize(escapePageHTML(text))
+  node.appendChild(body)
   conv.appendChild(node)
   node.scrollIntoView({ behavior: "smooth", block: "end" })
 }
 
 function appendAssistantMessage(conv: HTMLElement) {
-  const tpl = getAssistantTemplate()
-  if (!tpl) throw new Error("Ask page assistant template missing")
-  const node = tpl.content.firstElementChild!.cloneNode(true) as HTMLElement
+  const node = document.createElement("article")
+  node.className = "hmi-ask-message hmi-ask-message-assistant"
+
+  const role = document.createElement("div")
+  role.className = "hmi-ask-message-role"
+  role.textContent = "Index"
+  node.appendChild(role)
+
+  const body = document.createElement("div")
+  body.className = "hmi-ask-message-body"
+  node.appendChild(body)
+
+  const citations = document.createElement("div")
+  citations.className = "hmi-ask-message-citations"
+  citations.hidden = true
+  const citationsTitle = document.createElement("div")
+  citationsTitle.className = "hmi-ask-message-citations-title"
+  citationsTitle.textContent = "Sources cited"
+  citations.appendChild(citationsTitle)
+  const citationsList = document.createElement("ol")
+  citationsList.className = "hmi-ask-message-citations-list"
+  citations.appendChild(citationsList)
+  node.appendChild(citations)
+
+  const limits = document.createElement("div")
+  limits.className = "hmi-ask-message-limits"
+  limits.hidden = true
+  node.appendChild(limits)
+
+  const errorBox = document.createElement("div")
+  errorBox.className = "hmi-ask-message-error"
+  errorBox.hidden = true
+  const errorText = document.createElement("span")
+  errorText.className = "hmi-ask-message-error-text"
+  errorBox.appendChild(errorText)
+  const retry = document.createElement("button")
+  retry.type = "button"
+  retry.className = "hmi-ask-retry"
+  retry.textContent = "Retry"
+  errorBox.appendChild(retry)
+  node.appendChild(errorBox)
+
   conv.appendChild(node)
   return node
 }

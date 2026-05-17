@@ -104,7 +104,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Product categories</dt>
-      <dd><a href="products/">79</a></dd>
+      <dd><a href="products/">94</a></dd>
     </div>
     <div>
       <dt>Metal profiles</dt>

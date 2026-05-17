@@ -31,27 +31,4 @@ updated: 2026-05-17
   </form>
 
   <div class="hmi-ask-conversation" aria-live="polite"></div>
-
-  <template id="hmi-ask-template-message-user">
-    <article class="hmi-ask-message hmi-ask-message-user">
-      <div class="hmi-ask-message-role">You</div>
-      <div class="hmi-ask-message-body"></div>
-    </article>
-  </template>
-
-  <template id="hmi-ask-template-message-assistant">
-    <article class="hmi-ask-message hmi-ask-message-assistant">
-      <div class="hmi-ask-message-role">Index</div>
-      <div class="hmi-ask-message-body"></div>
-      <div class="hmi-ask-message-citations" hidden>
-        <div class="hmi-ask-message-citations-title">Sources cited</div>
-        <ol class="hmi-ask-message-citations-list"></ol>
-      </div>
-      <div class="hmi-ask-message-limits" hidden></div>
-      <div class="hmi-ask-message-error" hidden>
-        <span class="hmi-ask-message-error-text"></span>
-        <button type="button" class="hmi-ask-retry">Retry</button>
-      </div>
-    </article>
-  </template>
 </section>

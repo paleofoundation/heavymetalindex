@@ -13,7 +13,7 @@ primary_metals_of_concern: [Pb, Cd, tAs]
 applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 0
+sources: 1
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 
@@ -81,5 +81,5 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|Mania et al. 2021]]. *The content of lead, cadmium, arsenic, mercury and tin in fruit and their products based on monitoring studies – exposure assessment*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
