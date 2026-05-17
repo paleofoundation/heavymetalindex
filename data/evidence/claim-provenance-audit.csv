@@ -498,6 +498,8 @@ ingredient,clementines-tangerines,"Ranges by source, region, and variety",0.10 m
 ingredient,clementines-tangerines,Regulatory limits that apply,0.050 mg/kg,true,k ([[regulations/eu2023-contaminants-maximum-levels]]) set a cadmium maximum of 0.050 mg/kg and a lead maximum of 0.10 m
 ingredient,clementines-tangerines,Regulatory limits that apply,0.10 mg/kg,true,"ts-maximum-levels]]) set a cadmium maximum of 0.050 mg/kg and a lead maximum of 0.10 mg/kg for fresh citrus fruit, appli"
 ingredient,clementines-tangerines,Regulatory limits that apply,0.050 mg/kg,true, ([[regulations/codex-cadmium-mls]]) provides cadmium limits for fresh fruit at 0.050 mg/kg. No specific US FDA action l
+ingredient,cocoa,"Ranges by source, region, and variety",300 ppb,true,"d'Ivoire, Nigeria) cluster at the lower end: typical cocoa-solids Cd in the 100-300 ppb range, documented across multipl"
+ingredient,cocoa,"Ranges by source, region, and variety",500 ppb,true,"n (LAC) origins cluster at the higher end: typical cocoa-solids Cd in the 600-1,500 ppb range, with sub-regional variati"
 ingredient,cocoa,Ingredient-derivative risk,12 µg/kg,false, finding that cocoa powder alone drives a 97.5th-percentile cadmium exposure of 12 µg/kg body weight per month in Europe
 ingredient,cocoa,Mitigation options,300 ppb,true,um than parts of Latin America: African-origin product means cluster in the 100-300 ppb range while LAC-origin means clu
 ingredient,cocoa,Mitigation options,500 ppb,true,"ns cluster in the 100-300 ppb range while LAC-origin means cluster in the 600-1,500 ppb range per [[sources/abt2018-cadm"

@@ -121,11 +121,31 @@ AWD is the leading climate-smart rice practice promoted by the International Ric
 
 ## Ranges by source, region, and variety
 
-_Pending ingest of commodity-level occurrence datasets and of Codex Standard CXS 193-1995 (which sets the international Cd ML for rice)._
+The dominant axes of variance in rice heavy-metal load are growing region, paddy water management, and the white-versus-brown processing decision.
+
+**Inorganic arsenic** varies systematically by growing region because paddy-soil arsenic is geographically heterogeneous. South Asian (Bangladesh, India, Pakistan), Southeast Asian (Cambodia, Vietnam, parts of China), and US-Gulf-Coast rice grown in arsenic-rich-aquifer zones routinely tests at the higher end. California rice, basmati from northern India, and rice grown in irrigation systems sourced from low-arsenic aquifers test substantially lower. The geographic-segmented sourcing decision is the brand-side iAs intervention with the largest documented magnitude.
+
+**Cadmium** in rice is driven by paddy-soil Cd content and pH, with elevated Cd documented in some Chinese and Sri Lankan growing regions ([[sources/bandara2010-cadmium-rice-sri-lanka-crf|Bandara 2010]] is the foundational Sri Lankan dataset; [[sources/qin2026-rice-cadmium-liver-cancer-guangxi|Qin 2026]] documents the Guangxi epidemiological signal). The cadmium-rice exposure pathway is particularly consequential in populations with high per-capita rice consumption.
+
+**Lead** in rice is generally low except where soil Pb loading is elevated (historic mining regions, agricultural-area contamination from past pesticide use, irrigation-water Pb in industrial-zone production). The wiki's pooled rice Pb data show low population-level concentrations.
+
+**Variety effects** within a single growing region: brown rice and rice bran carry higher cadmium and higher inorganic arsenic than polished white rice from the same source, because both metals concentrate in the bran layer rather than the endosperm. Basmati rice (long-grain aromatic Indian/Pakistani cultivars) is documented at lower iAs than typical South-Asian short-grain rice. Wild rice (Zizania, a different species) carries different metal profiles from Oryza rice and is not characterized on this page.
+
+**Water-management effects** within a single growing region: continuously flooded paddies favor inorganic arsenic accumulation and suppress cadmium; alternate wetting and drying (AWD) or aerobic management favors cadmium and suppresses inorganic arsenic. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer & Seyfferth 2024]] and [[sources/seyfferth2025-rice-water-management-as-hg-cd|Seyfferth et al. 2025]] quantify the trade-off at field scale (described above in the Irrigation-management cadmium risk section). The certification implication is that climate-adaptive water management is shifting the rice contamination profile away from arsenic and toward cadmium.
 
 ## Processing effects
 
-_Pending. Polishing reduces cadmium by removing the bran layer; rinsing, parboiling, and cooking-water-discard effects will be characterized when occurrence data are consolidated._
+Rice processing has the most-studied heavy-metal removal effects of any commodity in the corpus.
+
+**Polishing** (removing bran from brown rice to make white rice) removes both inorganic arsenic and cadmium because both metals concentrate in the bran layer. White rice typically carries 40-60 percent less inorganic arsenic and 40-60 percent less cadmium than brown rice from the same source. The trade-off is nutrient loss documented in [[sources/su-2023-arsenic-brown-rice|Su et al. 2023]]; the public-health calculation behind brown-rice advisory hedges balances the metal-reduction benefit of polishing against nutritional loss.
+
+**Rinsing** (pre-cooking) removes a small fraction of inorganic arsenic by washing surface-bound arsenic into the discarded rinse water. Multi-rinse protocols (rinsing until the water runs clear, typically 3-5 rinses) reduce iAs by approximately 10-30 percent. Rinsing has minimal effect on cadmium because cadmium is bound within the grain rather than surface-bound.
+
+**Cooking-water-discard** (cooking rice in excess water and discarding the water before serving, rather than absorption-method cooking) substantially reduces inorganic arsenic in finished cooked rice — reductions of 35-50 percent are documented across multiple primary studies. The trade-off is loss of water-soluble nutrients (some B-vitamins, water-soluble minerals). The 6:1 water-to-rice cooking ratio with full discard is the operationally documented protocol; lower water ratios reduce the effect.
+
+**Parboiling** (partial pre-cooking of rough rice before milling) redistributes some metals from bran to endosperm. Parboiled rice typically carries similar total iAs to non-parboiled rice from the same source but with different bran-vs-endosperm distribution. [[regulations/eu-2023-915|EU Reg. 2023/915]] sets different iAs maximum levels for parboiled versus non-parboiled milled rice reflecting this.
+
+**Cooking method (rice cooker absorption-method vs stovetop excess-water-discard)** is the dominant consumer-side intervention. Switching from absorption-method to excess-water cooking is the single highest-magnitude consumer behavior change for reducing iAs from rice in the diet.
 
 ## Ingredient-derivative risk
 

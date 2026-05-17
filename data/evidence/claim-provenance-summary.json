@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-17T08:16:20.569Z",
+  "generated_at": "2026-05-17T08:24:41.350Z",
   "sample_size": null,
-  "total_claims": 3459,
-  "supported_claims": 3170,
+  "total_claims": 3461,
+  "supported_claims": 3172,
   "unsupported_claims": 289,
   "supported_pct": 91.6,
   "by_type": {
     "ingredient": {
-      "total": 1635,
-      "supported": 1474
+      "total": 1637,
+      "supported": 1476
     },
     "product": {
       "total": 1824,

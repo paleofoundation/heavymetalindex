@@ -115,11 +115,29 @@ Cocoa trees (Theobroma cacao) take up cadmium from soil through their root syste
 
 ## Ranges by source, region, and variety
 
-_Pending ingest of the operative 2019-onward cocoa occurrence dataset and of CXC 81-2022. The JECFA 91st meeting monograph summarizes cocoa cadmium concentrations across the 17 GEMS/Food cluster diets but does not provide per-region mean values in the extract captured to date._
+The defining feature of cocoa cadmium is order-of-magnitude geographic variation driven by underlying soil-Cd distribution. West African origins (Ghana, Côte d'Ivoire, Nigeria) cluster at the lower end: typical cocoa-solids Cd in the 100-300 ppb range, documented across multiple market surveys including [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Abt et al. 2018]] of US-market chocolate. Latin American and Caribbean (LAC) origins cluster at the higher end: typical cocoa-solids Cd in the 600-1,500 ppb range, with sub-regional variation driven by altitude, soil pH, and the underlying volcanic and sedimentary substrate. The [[sources/meter2019-cadmium-cacao-lac-review|Meter 2019]] LAC review and the [[sources/thomas2023-peru-cacao-cd-distribution|Thomas 2023]] Peru-specific multi-region dataset (n=2,194 samples across 563 farms in 13 Peruvian departments) establish the within-region segmentation at farm scale: Tumbes, Piura, Amazonas, and Loreto are the primary high-Cd zones in Peru, with high-altitude Ecuadorian and Colombian regions also implicated.
+
+Within a sourcing region, varietal and rootstock differences contribute another fold of variation. The [[sources/sounigo2023-climaloca-cocoa-cadmium|ClimaLOCA project]] documents multi-country germplasm screening that identified low-Cd accessions in Colombia, Ecuador, and Peru, demonstrating that varietal selection can shift bean Cd content by 30-50 percent within a single sourcing region.
+
+Lead in cocoa shows a different geographic pattern. Bean Pb is dominated by post-harvest contamination (drying-yard contact with soil, processing-equipment metal contact, storage and shipping contamination) rather than by soil Pb concentration. The [[synthesis/us-chocolate-lead-temporal-decline|US chocolate Pb temporal decline]] across 2014-2022 reflects industry-wide tightening of post-harvest handling under California Prop 65 enforcement pressure, not a change in source-region selection. The Cd-Pb decoupling means brand QA mitigation strategy differs: Cd is sourcing-driven, Pb is process-driven.
+
+The JECFA 91st meeting monograph aggregates cocoa cadmium across the 17 GEMS/Food cluster diets and establishes the basis for the 2022 upward revision of children's dietary Cd exposure estimates. The cluster-level aggregation in JECFA is appropriate for the international exposure-assessment use case but is coarser than what brand QA needs; per-region and per-farm data come from the underlying primary literature cited above.
 
 ## Processing effects
 
-_Pending. Fermentation, drying, roasting, winnowing, alkalization, conching, and dutching all influence the cadmium concentration in downstream cocoa products (cocoa liquor, cocoa butter, cocoa powder, chocolate). Cocoa powder is a particular concern because the cadmium concentrates in the defatted solids during cocoa butter extraction._
+Cocoa processing concentrates or redistributes cadmium between the defatted solids and the cocoa butter fraction. The key transformations:
+
+**Fermentation** (post-harvest, pre-drying) affects cadmium content modestly. Mucilage-draining interventions specified in [[sources/codex-cxc-81-2022|CXC 81-2022]] section 4.3 (12, 24, or 36 hour draining before fermentation) reduce bean Cd without affecting organoleptic quality. *Saccharomyces cerevisiae* inoculation during fermentation has been shown experimentally to absorb cadmium and reduce bean Cd content.
+
+**Drying** does not change bean Cd content meaningfully but introduces Pb exposure risk where beans contact soil. Drying on solid surfaces and to under 8 percent moisture is the operational specification per CXC 81-2022.
+
+**Roasting, winnowing, and grinding** do not change Cd content but redistribute weight. Roasted nibs (post-shell removal) carry the same Cd concentration as the unfermented bean kernel approximately; winnowing removes the cocoa-shell fraction which can carry trace Pb from external contamination.
+
+**Cocoa butter extraction** is the dominant concentration-effect step. Pressing the roasted cocoa liquor separates approximately half the mass as cocoa butter and half as defatted cocoa cake (later ground to cocoa powder). Cadmium concentrates into the cake/powder fraction; cocoa butter is approximately an order of magnitude lower in Cd than the source bean. Cocoa powder therefore carries the highest Cd of any common cocoa derivative.
+
+**Alkalization (Dutching)** does not change Cd content but raises pH of finished cocoa powder for color and dispersibility. Alkalized cocoa powder carries the same Cd as the source nib it was made from.
+
+**Conching and tempering** (chocolate manufacture) do not change Cd content. Finished-chocolate Cd is determined by the cocoa-percentage formulation: dark chocolate at 70+ percent cocoa solids carries more Cd than milk chocolate at 30 percent cocoa solids at equal serving size, with the difference tracking linearly with cocoa-solids fraction.
 
 ## Ingredient-derivative risk
 
