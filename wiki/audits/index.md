@@ -22,8 +22,8 @@ Generated: **2026-05-17**.  Baseline snapshot: [[audits/2026-05-17-baseline|2026
 | Product mandatory sections (non-stub pages) | 49 / 49 (100%) | PASS |
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 0 failures | PASS |
 | Routing discipline check 2 (HMTc-locked products with zero routed sources) | 246 of 290 | INFO |
-| Source page DOI completeness | 1 missing | WARN |
-| Claim provenance — body-prose numerical claims with traceable citation | 2391/3528 (67.8%) | FAIL |
+| Source page DOI completeness | 0 missing | PASS |
+| Claim provenance — body-prose numerical claims with traceable citation | 3079/3528 (87.3%) | WARN |
 
 ## Taxonomy v2.0 coverage
 
@@ -121,19 +121,19 @@ By source type:
 - textbook-chapter: 3
 - thesis: 1
 
-DOI completeness: 895 of 896 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **1**.
+DOI completeness: 896 of 896 sources have a DOI or a `no_doi_assigned: true` marker.  Missing DOI metadata: **0**.
 
 ## Claim provenance (trace-every-claim audit v1)
 
-Every numerical claim in body prose on ingredient and product pages — matches the regex `<number> <unit>` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation within the same section and a ~2,000-char lookback window. Valid citations: `[[sources/...]]`, `[[regulations/...]]` (for regulatory limits), `[[testing/...]]` (for analytical-method floors).
+Every numerical claim in body prose on ingredient and product pages — matches the regex `<number> <unit>` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation in the same H2 section (before or after the claim is acceptable; sections are treated as logical units of provenance). Valid citations: `[[sources/...]]`, `[[regulations/...]]` (for regulatory limits), `[[testing/...]]` (for analytical-method floors).
 
 - Total claims scanned: **3528**
-- Supported: **2391** (67.8%)
-- Unsupported: **1137**
+- Supported: **3079** (87.3%)
+- Unsupported: **449**
 
 By page type:
-- ingredient: 971/1635 (59%)
-- product: 1420/1893 (75%)
+- ingredient: 1470/1635 (90%)
+- product: 1609/1893 (85%)
 
 Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.
 

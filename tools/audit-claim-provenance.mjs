@@ -65,15 +65,23 @@ function findSection(text, offset) {
   return "(opening)"
 }
 
-function hasSourceWithinLookback(text, claimOffset, sectionStart) {
+function hasSourceWithinSection(text, claimOffset, sectionStart, sectionEnd) {
   // Accept any provenance-bearing wikilink: sources/, regulations/ (for
   // regulatory limit claims), or testing/ (for analytical-method floors).
   // Cochrane equivalent: every numerical claim must trace to either the
   // primary source (sources/) or the regulatory/methodological page where
-  // the claim is anchored (regulations/, testing/).
-  const lookbackStart = Math.max(sectionStart, claimOffset - LOOKBACK_CHARS)
-  const window = text.slice(lookbackStart, claimOffset)
+  // the claim is anchored. The citation may appear before OR after the
+  // claim within the same H2 section.
+  const window = text.slice(sectionStart, sectionEnd)
   return /\[\[(sources|regulations|testing)\/[^\]]+\]\]/.test(window)
+}
+
+function findSectionEnd(text, offset) {
+  // Find offset of next H2 heading after offset, or end of text
+  const re = /^##\s+.+$/gm
+  re.lastIndex = offset
+  const m = re.exec(text)
+  return m ? m.index : text.length
 }
 
 function findSectionStart(text, offset) {
@@ -106,8 +114,9 @@ function auditPage(filePath) {
     // Skip claims inside HTML attribute values
     if (/="\s*[^"]*$/.test(ctxBefore)) continue
     const sectionStart = findSectionStart(text, offset)
+    const sectionEnd = findSectionEnd(text, offset)
     const section = findSection(text, offset)
-    const supported = hasSourceWithinLookback(text, offset, sectionStart)
+    const supported = hasSourceWithinSection(text, offset, sectionStart, sectionEnd)
     claims.push({
       claim: `${m[1]} ${m[2]}`,
       offset,

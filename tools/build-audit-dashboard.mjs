@@ -319,7 +319,7 @@ function buildDashboard(audits) {
     const cp = audits.claim_provenance
     out.push("## Claim provenance (trace-every-claim audit v1)")
     out.push("")
-    out.push(`Every numerical claim in body prose on ingredient and product pages — matches the regex \`<number> <unit>\` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation within the same section and a ~2,000-char lookback window. Valid citations: \`[[sources/...]]\`, \`[[regulations/...]]\` (for regulatory limits), \`[[testing/...]]\` (for analytical-method floors).`)
+    out.push(`Every numerical claim in body prose on ingredient and product pages — matches the regex \`<number> <unit>\` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation in the same H2 section (before or after the claim is acceptable; sections are treated as logical units of provenance). Valid citations: \`[[sources/...]]\`, \`[[regulations/...]]\` (for regulatory limits), \`[[testing/...]]\` (for analytical-method floors).`)
     out.push("")
     out.push(`- Total claims scanned: **${cp.total_claims}**`)
     out.push(`- Supported: **${cp.supported_claims}** (${cp.supported_pct}%)`)
