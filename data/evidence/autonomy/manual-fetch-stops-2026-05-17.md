@@ -366,3 +366,20 @@ Until Karen triages this PDF, the wrapper will continue re-serving it on every f
 **Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." The malformed advisory is the documented-intentional cosmetics-review pattern; re-ingest cannot fix it.
 
 **Action taken:** appended babycare_04 path to `near_duplicates` on the source page and added a one-line verification note recording the byte-identicality. Updated `data/evidence/autonomy/manual-fetch-tracker.csv` row from `unprocessed` to `stopped`. Ran routing audit (1 unresolved unchanged from prior state, 0 blocking malformed). No audit subagent spawned — the source page content is unchanged; this is dedup registration only. Wrapper can move on.
+
+## mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals (MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia)
+
+**PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`
+
+**Stop reason:** PDF already processed and audited within v2 skill skip window.
+
+**Identity checks:**
+- DOI grep (`10.1038/s41598-026-44198-w`) → hit at `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals.md`.
+- Existing page `updated: 2026-05-17` (today).
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-revised` for this cite-key, applied 2026-05-17 (commit `c75d66e`): subagent REVISE verdict, 5 findings (1 ❌ + 4 ⚠️), all 5 applied (Cr THQ misattribution to 4.2 corrected — Table 3 has no Cr column; BM Ni exceedance count 6→5; Cr highest-sample body-vs-Table-2 contradiction noted; Fe/Mn/Zn dropped from metals as nutritional not contamination; baby-food matrix dropped as non-vocab).
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.

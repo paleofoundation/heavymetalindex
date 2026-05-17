@@ -17,7 +17,7 @@ platform_metals: [Pb, Ni, Cr]
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
 literature_scope: thin
-sources: 2
+sources: 3
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Nail Polish (ages 0-5)

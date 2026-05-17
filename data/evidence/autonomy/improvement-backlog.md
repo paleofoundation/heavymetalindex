@@ -235,3 +235,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis modes and triggers), Part 19 (locked pooling methodology), `docs/standards-methodology.md` (pool admission rules). This audit sits between ingest and synthesis, exposing what frontmatter corrections or architecture changes would unblock the next 100+ cells.
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Synthesize blockers audit to unblock 286 contamination cells
+
+**What:** Create a deterministic audit that categorizes each of the 286 pool_blocked_cells by its specific synthesis blocker (1-source gap, contradiction, basis-mismatch, unit-incompatibility), then generate a prioritized queue for source acquisition and arbitration.
+
+**Why this lever now:** 286 blocked cells represent evidence that's been ingested but synthesis has stalled. Each one is potential knowledge — standards fuel, course content, public answers — waiting on a specific blocker that can be named and resolved. The audit feeds source acquisition: cells needing just 1 more source can be routed to targeted wishlist queries. This directly unblocks the synthesis pipeline that drives HMT&C standards (Part 19) and product-category page rendering.
+
+**Where:** 
+- New tool: `tools/evidence/audit-synthesis-blockers.mjs`
+- Output: `data/evidence/autonomy/synthesis-blockers-<date>.csv` with columns: ingredient, metal, n_sources, blocker_type (1-source-gap|contradiction|basis-mismatch|unit-incompatible), contributing_sources, blocker_detail
+- Integrated into: `npm run lint` output and morning CI report
+
+**How:** 
+1. Iterate every contamination_profile cell with sources but status ≠ "final"; for each, classify: n_sources == 1 → blocker_type = "1-source-gap"; n_sources ≥ 2 and p95/typical spread > 2× → "contradiction"; source matrices conflict → "basis-mismatch"; units conflict → "unit-incompatible"
+2. For 1-source cells, cross-reference the 634 gap-driven_wishlist_queries to auto-populate "suggested_2nd_source_query: [ingredient]+[metal]"
+3. Sort by blocker_type (1-source first), then by citation frequency in corpus
+4. Output as: "Synthesis queue: X cells at 1-source gap (Y recommend wishlist pull), Z contradiction (needs arbitration), W basis-mismatch (needs basis-conversion.mjs)"
+
+**Anchors:** CLAUDE.md Part 9 (synthesis modes and triggers); Part 18 (lint rules); Part 19 (standards feed); the 286 pool_blocked_cells metric signals the bottleneck. Feeds source acquisition strategy and synthesis arbitration workflow.
+
+---

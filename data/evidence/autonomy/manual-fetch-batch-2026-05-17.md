@@ -203,3 +203,30 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: PDF already processed and audited (rahati2026-infant-formula-baby-food-iran-health-risk, updated 2026-05-17, audited-codex-revised on commit b237644, prior subagent PROMOTE on all 5 checks, not in malformed/unresolved) — skill v2.0 skip-window rule applies.
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: PDF already processed and audited within v2 skill skip window (page updated 2026-05-17, audit-queue status audited-revised, not in malformed/unresolved).
+
+## Tick 2026-05-17T21:10:18.180Z
+
+- Candidates this tick: 5
+- Succeeded: 3
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Succeeded
+- `rbeida2023-heavy-metals-cosmetics-libya` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Quality_Control_Cosmetics_Libya.pdf)
+- `poulsen2007-cosmetic-products-children-denmark` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Survey_Health_Assessment_Cosmetic_Children_Denmark.pdf)
+- `moriceau2025-cosmetics-icpms-iso21392` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Thermo_Fisher_Heavy_Metals_Cosmetics.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/A_Feasibility_Study_Investigating_Action_Limits_for_Certain_Heavy_Metal_Impuriti.pdf`: duplicate-PDF-already-ingested-and-audited (opss2023-feasibility-action-limits-cosmetics-uk)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/An_Overview_of_Heavy_Metals_in_Cosmetic_Products_and_Their_Toxicological_Impact.pdf`: babycare_04 PDF is a byte-identical duplicate of the already-ingested babycare_01 canonical (jitareanu2025-heavy-metals-cosmetics-overview, post-2026-05-14 clean); registered as near_duplicate, no re-ingest
+
+## Tick 2026-05-17T21:58:57.435Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already fully processed (page updated 2026-05-17, audit-queue audited-codex-revised on commit b237644, prior subagent PROMOTE all 5 checks, absent from routing_malformed/unresolved) — v2.0 skip-window rule applies.
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals already audited-revised today (commit c75d66e); v2 skill skip rule applied, no re-processing.
