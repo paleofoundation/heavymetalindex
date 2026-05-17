@@ -10,8 +10,8 @@ doi: 10.3390/healthcare12060680
 source_type: review
 evidence_tier: B
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Pollutants in Breast Milk_ A Scoping Review of the Most Recent Da.pdf"
-metals: [Pb, Cd]
+raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Pollutants in Breast Milk_ A Scoping Review of the Most Recent Data in 2024.pdf"
+metals: [Pb, Cd, tAs, MeHg]
 ingredients: ["[[ingredients/breastmilk]]"]
 products: []
 matrices: [breast-milk]
@@ -19,18 +19,18 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Scoping review of 54 articles (1995–2023) on persistent organic pollutants and heavy metals in breast milk; globally distributed populations"
-updated: 2026-05-14
+updated: 2026-05-17
 ---
 
-This scoping review examined the persistent presence of POPs (PCBs, PFAs, pesticides, flame retardants) and heavy metals (primarily Pb and Cd) in breast milk, searching MEDLINE and Google Scholar for articles published 1995–2023. Of 341 primary studies identified, 54 were selected for synthesis. The review is primarily focused on organic pollutants, with heavy metals as a secondary concern. Key metal findings: EU regulatory limits for Pb in breast milk are 0.015 mg/L (15 µg/L) and for Cd are 0.005 mg/L (5 µg/L). The review notes that heavy metal exposure occurs via the diet (over 90% for Cd in non-smokers, 100% for MeHg), that place of residence (urban vs. rural) correlates with heavy metal exposure, and that smoking increases Pb in breast milk. The review situates breast milk contamination within the 'One Health' concept, noting that breast milk quality serves as an indicator of overall environmental health.
+This scoping review examined the persistent presence of POPs (PCBs, PFAs, pesticides, flame retardants) and heavy metals in breast milk, searching MEDLINE and Google Scholar for articles published from 1995 to June 2023. Of 341 primary studies identified, 54 were selected for synthesis. The review is primarily focused on organic pollutants, with heavy metals as a secondary concern. Table 1 cites mixed food and water reference values for Pb and Cd, but it does not establish breast-milk-specific regulatory limits. The review notes that heavy metal exposure occurs via the diet (over 90% for Cd in non-smokers, 100% for MeHg), that place of residence (urban vs. rural) correlates with some heavy metal exposure patterns, and that smoking increases Pb in breast milk. The review situates breast milk contamination within the 'One Health' concept, noting that breast milk quality serves as an indicator of overall environmental health.
 
 ## Key numbers
 
 Specific heavy metal concentration data from the 54 included articles are not fully quantified in the extracted body text (the review is primarily descriptive/qualitative for metals). Reference values cited:
 
-**Regulatory/reference limits cited in review:**
-- Pb in breast milk: EU reference = 0.015 mg/L (15 µg/L)
-- Cd in breast milk: EU reference = 0.005 mg/L (5 µg/L)
+**Reference values cited in Table 1 (not breast-milk-specific regulatory limits):**
+- Pb: 0.020 mg/kg for milk (EU) and 0.015 mg/L (15 µg/L) for water
+- Cd: 0.010 mg/kg for infant food (EU) and 0.005 mg/L (5 µg/L) for water
 
 **Exposure determinants identified:**
 - Pb: positive association with urban residence (p < 0.05), smoking (p = 0.024), and well water consumption (p = 0.046)
@@ -47,16 +47,26 @@ Scoping review per PRISMA checklist. Databases: MEDLINE, Google Scholar. Date ra
 
 ## Implications
 
-Certification: The EU reference limits cited (Pb 15 µg/L, Cd 5 µg/L) in breast milk are useful regulatory anchors for the biomonitoring literature. The review confirms that breastfeeding remains WHO-recommended even with pollutant presence, but that reducing maternal environmental exposure is a public health priority.
+Certification: This source is a biomonitoring and public-health context paper rather than an HMTc threshold source. The cited Pb and Cd values can provide regulatory context only when clearly labeled as food/water reference values, not as breast-milk limits. The review confirms that breastfeeding remains WHO-recommended even with pollutant presence, but that reducing maternal environmental exposure is a public health priority.
 
-Courses: The 'One Health' framing — breast milk contamination as indicator of environmental health — is a useful teaching concept. The smoking-Pb correlation and diet-Cd correlation are practical dietary guidance entry points.
+Courses: The 'One Health' framing — breast milk contamination as indicator of environmental health — is a useful teaching concept. The smoking-Pb, well-water-Pb, residence-As, diet-Cd, and diet-MeHg observations are exposure-determinant examples.
 
-App: Breast milk is not in the app's ingredient-list model. This review primarily supports the health sections.
+App: Breast milk is a biomonitoring and health-context matrix rather than a certification product benchmark. This review primarily supports health-context sections and cross-links from relevant metal pages.
 
-Microbiome: Heavy metal exposure to infants via breast milk affects gut microbiome colonization; cross-link when relevant microbiome pages are created.
+Microbiome: No microbiome-specific findings were extracted from this review.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/breastmilk]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+- [[metals/arsenic-total]]
+- [[metals/mercury-methyl]]
+
+## Verification notes
+
+- Corrected the raw PDF path to the full manual-fetch filename.
+- Corrected the Pb/Cd reference-value attribution: Table 1 gives mixed EU food and water values, not EU breast-milk regulatory limits.
+- Added arsenic-total and methylmercury routing because the source page summarizes As residence and MeHg diet-exposure findings.
+- Strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content.
+- Removed unsupported microbiome expansion and reframed HMTc/app implications as biomonitoring context.
