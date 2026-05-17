@@ -99,7 +99,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 **Confidence rating.** Source-count confidence is reported as low (1 to 2 contributing sources), medium (3 to 10), or high (more than 10), per the wiki's standing convention. Confidence reflects volume and agreement of evidence, not regulatory pass-fail status.
 
-**Standards-program math sits elsewhere.** Percentile selection, clean and dirty subcategory comparator selection, regulatory-ceiling adjudication, and final certification threshold decisions are tracked in the Heavy Metal Tested and Certified (HMT&C) staff workbench and are not published on this page. The values on this page are literature evidence, not certification thresholds.
+**HMT&C threshold-setting is separate.** HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page. The values on this page are literature evidence, not certification thresholds.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
