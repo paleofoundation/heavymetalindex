@@ -10,7 +10,7 @@ doi: 10.1186/s12889-024-19695-0
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY-NC-ND 4.0"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Analysis of heavy metals and minerals in edible vegetable oils pr.pdf"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City,.pdf"
 metals: [Pb, Cd, Cu, Fe, Zn]
 ingredients: ["[[ingredients/vegetable-oils]]", "[[ingredients/sunflower-oil]]", "[[ingredients/soybean-oil]]"]
 products: ["[[products/cooking-oils-other]]"]
@@ -18,26 +18,26 @@ matrices: [edible-oil, niger-seed-oil, mixed-vegetable-oil, soybean-oil, sunflow
 jurisdictions: [ET]
 near_duplicates: []
 sample_n: 17
-sample_population: "Edible vegetable oils (Niger seed, mixed oil, soybean, sunflower) from Gondar City markets, Northwest Ethiopia; May–July 2021; locally produced and commercially imported brands"
-updated: 2026-05-14
+sample_population: "Edible vegetable oils (Niger seed, mixed oil, soybean, sunflower) from Gondar City markets, Northwest Ethiopia; May–July 2021; locally produced and non-locally produced/commercially available samples"
+updated: 2026-05-17
 ---
 
 # Yohannes et al. 2024 — Heavy metals in edible vegetable oils, Gondar, Ethiopia
 
 This study measured five metals (Fe, Cu, Zn, Pb, Cd) in 17 edible vegetable oil samples from Gondar City, Northwest Ethiopia, using flame atomic absorption spectroscopy (FAAS) after microwave digestion. The study found that 25% of samples exceeded the WHO/FAO Codex limit for cadmium (0.05 mg/kg) and 17% exceeded the limit for lead (0.1 mg/kg), specifically in locally produced mixed oils. This is the first comprehensive heavy metals investigation of vegetable oils from this region.
 
-Note on evidence tier: downgraded from A to B. The license is CC BY-NC-ND 4.0 (restricts adaptation), the sample size is small (n=17 across 17 brands, many with n=1 per brand), no health risk assessment was performed, and the LOQ values (0.94–4.95 mg/l) are relatively high for cadmium.
+Note on evidence tier: downgraded from A to B. The license is CC BY-NC-ND 4.0 (restricts adaptation), the sample size is small (n=17 across oil types, with sparse type-level replication), no health risk assessment was performed, and the LOQ values (0.94–4.95 mg/L) are relatively high for cadmium.
 
 ## Key numbers
 
-Median concentrations in unspiked samples (mg/L as reported; note: concentrations appear to reflect the digested extract solution, not necessarily mg/kg wet weight of the oil — unit conversion was not provided in the paper):
+Median concentrations in unspiked samples (mg/L as reported; Table 7 labels these as p50 ± interquartile range; concentrations appear to reflect the digested extract solution, not necessarily mg/kg wet weight of the oil — unit conversion was not provided in the paper):
 - Fe: median 0.15 ± 0.12 mg/L; range 0.01–0.80 mg/L
 - Pb: median 0.07 ± 0.07 mg/L; range 0.003–0.27 mg/L
 - Cu: median 0.015 ± 0.9 mg/L; range 0.002–0.06 mg/L
 - Zn: median 0.25 ± 0.9 mg/L; range 0.07–0.80 mg/L
 - Cd: median 0.96 ± 0.04 mg/L; range 0.08–0.18 mg/L
 
-Note: Cd median of 0.96 appears inconsistent with the range of 0.08–0.18; this may be a reporting error in the paper. The range values (0.08–0.18 mg/L) are used here as more reliable.
+Note: Cd median of 0.96 appears inconsistent with the range of 0.08–0.18; Cu and Zn interquartile-range values also appear inconsistent with their maxima. These are likely reporting/table errors in the paper. The range values are retained as the more interpretable values for screening.
 
 Regulatory exceedances:
 - Cd: 25% of samples exceeded 0.05 mg/L (FAO/WHO Codex limit)
@@ -49,7 +49,7 @@ LOD (method): Pb 0.4 mg/L, Fe 1.485 mg/L, Zn 0.16 mg/L, Cu 0.47 mg/L, Cd 0.3 mg/
 
 ## Methods
 
-FAAS (210VGP model, flame atomic absorption spectroscopy) with air-acetylene flame. Microwave digestion: 0.5 g sample + 5 mL HNO3 (69–72%) + 2 mL HCl (37%) + H2O2 (30%) at 180°C for 55 min. Triplicate analysis. Results reported in mg/L of extract solution; the paper does not clearly state the dilution factor or provide a conversion to mg/kg wet weight of oil, which limits comparability with other studies. Study period: May–July 2021. n=17 samples across multiple brands and oil types.
+FAAS (210VGP model, flame atomic absorption spectroscopy) with air-acetylene flame. Microwave digestion: 0.5 g sample + 5 mL HNO3 (69–72%) + 2 mL HCl (37%) plus H2O2 (optimized digestion condition totals 8 mL reagent volume) at 180°C for 55 min. Triplicate analysis. Results reported in mg/L of extract solution; the paper does not clearly state the dilution factor or provide a conversion to mg/kg wet weight of oil, which limits comparability with other studies. Study period: May–July 2021. n=17 samples across oil types.
 
 Limitation: LOQ for Pb (1.33 mg/L) appears very high relative to expected levels, and many Pb results below this LOQ would be non-quantifiable. The reported range (0.003–0.27 mg/L) includes values below LOQ. This undermines the reliability of the Pb data.
 
@@ -61,8 +61,21 @@ Courses: Case study on the metal contamination risk posed by outdated extraction
 
 App: Limited utility for ingredient-level contamination profiling due to unit reporting ambiguity and small sample size. Flag as contextual regional data only.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/vegetable-oils]]
+- [[ingredients/sunflower-oil]]
+- [[ingredients/soybean-oil]]
+- [[products/cooking-oils-other]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+- [[metals/copper]]
+- [[metals/iron]]
+- [[metals/zinc]]
+
+## Verification notes
+
+- Source identity checked against DOI 10.1186/s12889-024-19695-0 and the Marker extraction at `raw/markdown/FM_11323368/FM_11323368.md`.
+- Source reports total Pb, Cd, Cu, Fe, and Zn by FAAS; no speciation issue is present.
+- `niger-seed-oil` and `mixed-vegetable-oil` are source-specific matrix descriptors; no ingredient pages for those exact oil categories exist in the current taxonomy snapshot.
+- Table 7 contains internal inconsistencies (especially Cd median vs range), so this page preserves the source's values and explicitly marks the inconsistency rather than normalizing the data.
