@@ -14,7 +14,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: raw/markdown/FM_11415992/FM_11415992.md
 metals: [tAs, iAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/potatoes]]"]
-products: []
+products: ["[[products/root-tuber-vegetables]]"]
 matrices: [breast-milk, child-urine-biomarker, drinking-water, rice-grain, wheat-grain, potato]
 jurisdictions: [IN]
 sample_n: 513

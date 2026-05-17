@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1038/s41597-023-02363-0"
 metals: [tAs, Cd, Pb, Cu, Zn]
 ingredients: ["[[ingredients/quinoa]]"]
-products: []
+products: ["[[products/root-tuber-vegetables]]", "[[products/spinach]]", "[[products/fresh-fruit]]", "[[products/non-root-vegetables]]"]
 matrices: [food-crop, agricultural-soil, potato, corn, spinach, avocado, tomato, carrot, olive]
 jurisdictions: [PE]
 sample_n: 341

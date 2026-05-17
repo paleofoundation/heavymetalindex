@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.1017/s0029665120002724"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/carrot]]"]
-products: []
+products: ["[[products/root-tuber-vegetables]]"]
 matrices: [carrot, carrot-organic, carrot-conventional]
 jurisdictions: [PL]
 sample_n: 36

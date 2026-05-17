@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Determination of macro, micro and toxic element content in peanut.pdf"
 metals: [Pb, Cd, tAs, Cr, Ni, Al]
 ingredients: ["[[ingredients/peanuts]]"]
-products: []
+products: ["[[products/peanuts]]"]
 matrices: [peanut-kernel]
 jurisdictions: [CN]
 near_duplicates: []

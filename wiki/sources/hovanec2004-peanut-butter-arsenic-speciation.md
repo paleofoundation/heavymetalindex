@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices/Arsenic speciation in commercially available peanut butter spread.pdf"
 metals: [tAs, iAs]
 ingredients: ["[[ingredients/peanut-butter]]", "[[ingredients/peanuts]]"]
-products: []
+products: ["[[products/peanut-butter]]"]
 matrices: [peanut-butter]
 jurisdictions: [US]
 near_duplicates: []

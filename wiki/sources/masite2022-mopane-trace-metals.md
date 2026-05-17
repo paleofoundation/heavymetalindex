@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_9626220/FM_9626220.md
 metals: [tAs, Cd, Cr, Ni, Pb]
 ingredients: ["[[ingredients/non-soy-protein-source]]", "[[ingredients/peanuts]]", "[[ingredients/corn]]"]
-products: []
+products: ["[[products/peanuts]]"]
 matrices: [edible-insect, peanut, corn]
 jurisdictions: [ZA]
 near_duplicates: []
