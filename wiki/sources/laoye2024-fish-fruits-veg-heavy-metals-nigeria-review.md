@@ -12,18 +12,20 @@ source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
 raw_path: raw/markdown/FM_12375182/FM_12375182.md
-metals: [Pb, Cd, tHg, iAs, tAs, Al]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/tilapia]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]"]
+metals: [Pb, Cd, tHg, tAs, Al, Cr, Ni, Zn, Fe, Cu, Co, Mn]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]"]
 products: ["[[products/fresh-fish]]"]
 matrices: [freshwater-fish, vegetables, fruit]
 jurisdictions: [NG]
 near_duplicates: []
 sample_n: 64
 sample_population: "64 studies (screened from 10,212) reporting heavy metal contamination in fish, fruits, and vegetables in Southwest Nigeria (Lagos, Ondo, Ogun, Oyo, Ekiti, Osun states), 2014–2024"
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
-Laoye et al. (2024) present a PRISMA systematic review of 64 studies (from 10,212 initially identified) reporting heavy metal contamination in fish, fruits, and vegetables in Southwest Nigeria published between 2014 and 2024. The majority of research focused on fish (40 studies), followed by vegetables (20 studies) and fruits (4 studies). The most commonly studied fish species were Tilapia zilli, Chrysichthys nigrodigitatus (bagrid catfish), Clarias gariepinus (African catfish), and Oreochromis niloticus, with heavy metal concentrations in fish frequently exceeding WHO limits. Studies were predominantly from Lagos (30 studies), Ondo (8 studies), and Ogun (7 states).
+# Laoye et al. 2024 — Heavy metal contamination in fish, fruits, and vegetables in Southwest Nigeria
+
+Laoye et al. (2024) present a PRISMA systematic review of 64 studies (from 10,212 initially identified) reporting heavy metal contamination in fish, fruits, and vegetables in Southwest Nigeria published between 2014 and 2024. The majority of research focused on fish (40 studies), followed by vegetables (20 studies) and fruits (4 studies). The most commonly studied fish species were Tilapia zilli, Chrysichthys nigrodigitatus (bagrid catfish), Clarias gariepinus (African catfish), and Oreochromis niloticus, with heavy metal concentrations in fish frequently exceeding WHO limits. Studies were predominantly from Lagos (30 studies), Ondo (8 studies), Ogun (7 studies), Osun (7 studies), Ekiti (6 studies), and Oyo (3 studies).
 
 ## Key numbers
 
@@ -31,34 +33,49 @@ Studies: 64 included (of 10,212 screened), PRISMA methodology, databases: Resear
 
 Distribution: fish 40 studies, vegetables 20 studies, fruits 4 studies.
 
-Dominant study locations: Lagos (30), Ondo (8), Ogun (7), Oyo, Ekiti, Osun (smaller).
+Dominant study locations: Lagos (30), Ondo (8), Ogun (7), Osun (7), Ekiti (6), Oyo (3).
 
 Key fish species studied: Tilapia zilli, Chrysichthys nigrodigitatus, Clarias gariepinus, Oreochromis niloticus.
 
 Key finding: Heavy metal concentrations in fish frequently exceeded WHO limits, driven by contamination from aquatic systems near industrial zones, agricultural runoff, and mining activities.
 
-Metals discussed: Pb, Cd, Hg, As, Al across food matrices. Fish in rivers near industrial zones in Lagos found to contain high Pb and Cd concentrations (Olayinka and Adedeji, 2018, per review). Vegetables irrigated with contaminated water sources had high levels of arsenic (Ogundele et al., 2015, per review).
+Metals discussed: Pb, Cd, Cr, Ni, Zn, Fe, Cu, tHg, tAs, Al, Co, and Mn across food matrices. Fish in rivers near industrial zones in Lagos found to contain high Pb and Cd concentrations (Olayinka and Adedeji, 2018, per review). Vegetables irrigated with contaminated water sources had high levels of arsenic (Ogundele et al., 2015, per review). The review states that Hg and As were less frequently detected or tested in fish.
 
 Note: This is a B-tier systematic review (not all primary studies included are themselves A-tier; the review covers a broad range of study quality). Specific pooled concentration values are not provided in the review; qualitative summary of study findings is the primary output. Peer review status: 1 approved with reservations (F1000Research open peer review).
 
 ## Methods (brief)
 
-PRISMA systematic review. Databases searched: ResearchGate, Scopus, Google Scholar, ScienceDirect, PubMed. Search terms included keywords for heavy metals, food products, and Southwest Nigeria. Inclusion: studies reporting heavy metal contamination in fish, fruits, or vegetables in Southwest Nigeria, 2014–2024. Exclusion: studies outside the 10-year window or outside Southwest Nigeria. 10,212 → 64 studies after screening.
+PRISMA systematic review. Databases searched: ResearchGate, Scopus, Google Scholar, ScienceDirect, PubMed. Search terms included keywords for heavy metals, food products, and Southwest Nigeria. Inclusion: studies reporting heavy metal contamination in fish, fruits, or vegetables in Southwest Nigeria, 2014–2024. Exclusion: studies outside the 10-year window or outside Southwest Nigeria. 10,212 -> 64 studies after screening.
 
 ## Implications
 
-Certification: Nigerian freshwater fish (tilapia, catfish species) carry documented Pb and Cd exceedances above WHO limits from aquatic systems near industrial zones. Sourcing documentation for Nigerian freshwater fish is warranted.
+Certification: Contributes regional occurrence evidence for Nigerian freshwater fish, with tilapia and catfish species described as carrying documented Pb and Cd exceedances above WHO limits in aquatic systems near industrial zones.
 
 Courses: Illustrates how industrialization and inadequate environmental regulation drive heavy metal contamination in staple protein sources in West African food systems.
 
-App: Nigerian-sourced freshwater fish: elevated Pb and Cd flag. Nigerian vegetables from irrigated sources: As flag. Fruit contamination less well characterized.
+App: Contextual regional signal for Nigerian-sourced freshwater fish (Pb/Cd), vegetables from irrigated sources (tAs), and less-characterized fruit contamination.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/arsenic]]
+- [[metals/arsenic-total]]
+- [[metals/mercury-total]]
+- [[metals/aluminum]]
+- [[metals/chromium]]
+- [[metals/nickel]]
+- [[metals/zinc]]
+- [[metals/iron]]
+- [[metals/copper]]
+- [[metals/cobalt]]
+- [[metals/manganese]]
 - [[ingredients/freshwater-fish]]
-- [[ingredients/tilapia]]
-- [[ingredients/catfish]]
 - [[ingredients/vegetables]]
+- [[ingredients/fruit]]
+- [[products/fresh-fish]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) corrected the Ogun location typo to 7 studies, removed unsupported `iAs`, removed invalid `tilapia` and `catfish` slugs, and expanded the metal scope to match the review's results sections.
+- `tilapia` and `catfish` are source-level species descriptors in the review, but they are not current ingredient slugs; this page routes them through `[[ingredients/freshwater-fish]]`.
+- The review discusses arsenic and mercury without occurrence speciation; this page uses `tAs` and `tHg` rather than `iAs` or `MeHg`.
