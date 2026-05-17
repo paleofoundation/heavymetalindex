@@ -119,25 +119,48 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Mixed meals (infant and toddler meal-combinations including meat-and-grain, vegetable-and-grain, fruit-and-vegetable, or similar combinations) inherit their heavy-metal load from the weighted sum of source ingredients. The metal profile is therefore driven by whichever ingredient in the mix is highest-loaded for each panel analyte: rice-containing meals carry rice iAs (see [[ingredients/rice]]); meat-containing meals carry the source-meat profile (see [[ingredients/beef]], [[ingredients/poultry]]); vegetable-containing meals carry the vegetable profile.
+
+The Cat 1 Step 0 lock splits mixed meals into rice-containing and non-rice rows ([[products/mixed-meals-rice-containing]] vs [[products/mixed-meals-non-rice]]) because the rice-iAs question dominates the certification framing.
+
+The HMTc panel concerns for mixed meals are dominantly Pb (cumulative from each ingredient) and iAs (rice-containing meals); Cd is generally moderate from vegetable and meat sources. The infant exposure pathway concentrates per-body-weight intake even when individual ingredient concentrations are moderate.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Rice-containing mixed meals carry the rice-iAs distribution proportional to the rice fraction in the recipe (typically 5-30 percent rice by mass in a mixed meal). Non-rice mixed meals carry combined-source profiles dominated by the dominant grain or vegetable.
+
+Meat-and-grain combinations: lamb-and-rice, beef-and-noodle, chicken-and-rice products carry combined Pb (from meat) and iAs (from rice if present). [[ingredients/beef]], [[ingredients/poultry]], [[ingredients/rice]] address the source-ingredient profiles.
+
+Vegetable-and-grain combinations: vegetable-and-rice, mixed-vegetable-and-quinoa carry combined Pb/Cd (from vegetables) and source-grain Cd.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Mixed-meal manufacturing (combining ingredients, cooking, pureeing or chunking, packaging) does not change source-ingredient metal content. The cooking step (with or without water-discard) follows the same metal-removal profile as the dominant source ingredient.
+
+For shelf-stable mixed-meal products (canned, jarred, pouched), the processing and packaging considerations follow the individual ingredient profiles plus packaging-specific metal-migration considerations (Sn for canned, food-contact-substance compliance for plastic and pouch).
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Mixed meals are themselves finished retail products; their derivatives are warmed-and-served preparations rather than further ingredient transformations. Mixed-meal-style ready-meals targeting older children and adults inherit the source-ingredient profiles with regulatory framework shifting from Cat 1 (infant) to Cat 7 (mixed meals / prepared foods).
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) operate at the per-ingredient level: low-iAs rice, low-Pb meat, low-Cd vegetables. Composite-recipe sourcing decisions can substantially shift the mixed-meal metal load by adjusting which ingredient contributes the most-loaded fraction.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the upstream per-ingredient stage; not at the mixed-meal-manufacturing stage directly.
+
+**Processing levers** ([[mitigation/processing]]) include cooking-method specifications and recipe formulation choices.
+
+**Formulation levers** ([[mitigation/formulation]]) are the dominant mixed-meal-side intervention: rice substitution (oat or wheat instead of rice in toddler meals), vegetable-percentage adjustment, meat-vs-poultry choice.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb and iAs testing on finished mixed meals, particularly for products targeting children under 2.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned mixed meals and food-contact-substance compliance for plastic and pouch formats.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action level for processed baby foods covers mixed meals at 10-20 ppb depending on subcategory.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for Pb and Cd in infant-and-young-child mixed foods. iAs MLs for rice-containing baby foods apply.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MLs apply to mixed-ingredient foods through the source-ingredient framework.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant mixed meals yields stringent serving-based screen.
 

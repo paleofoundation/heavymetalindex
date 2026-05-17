@@ -125,26 +125,50 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Dry baby cereals inherit their heavy-metal load from the source grain plus added ingredients (vitamin-mineral premix, fortifying iron compound, processing aids). The dominant variance driver is the rice-vs-non-rice grain choice: rice-based infant cereals carry the rice iAs load (see [[ingredients/rice]]); non-rice infant cereals (oat, wheat, barley, multigrain) carry lower iAs but inherit the source-grain Cd. Both rice and non-rice baby cereals are routed to dedicated Cat 1 Step 0 product rows ([[products/baby-cereals-dry-rice-based]] and [[products/baby-cereals-dry-non-rice]]).
+
+The vitamin-mineral premix added during baby cereal manufacturing is a documented contamination pathway: the iron compound (most commonly electrolytic iron or ferric pyrophosphate) is added for nutritional fortification but can carry trace Pb depending on supplier specification. The premix's per-product mass is small but the per-serving Pb contribution from premix can be the dominant Pb source in some otherwise low-grain-Pb baby cereals.
+
+The HMTc panel concerns for dry baby cereal are iAs (rice-based products dominant; FDA Closer to Zero anchor at 100 ppb), Pb (all baby cereal varieties), and Cd (cereal-bran-fraction concentration). Aluminum can be elevated in some products from premix mineral sources.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+The dominant axes of variance are the rice-vs-non-rice split and the whole-grain-vs-refined split. Rice-based infant cereals from regions with high-iAs rice (South Asian, US Gulf Coast) carry the highest iAs; rice-based infant cereals from low-iAs origins (California, basmati-India) carry less. Non-rice infant cereals show wider variation in metal load by source-grain (wheat vs oat vs barley vs multigrain) and by region.
+
+[[sources/fda2016-infant-toddler-foods-inorganic-arsenic|FDA 2016]] documents the rice-cereal iAs distribution at n=76 samples for rice-based and n=30 for non-rice subcategories. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Signes-Pastor 2016]] documents European-market rice cereal at n=29 baby rice + 53 rice cereals. These two are the foundational sources for the rice-cereal iAs synthesis.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Baby cereal processing involves grain milling (to a fine flour suitable for infant feeding), heat treatment for shelf-stability, fortification with vitamin-mineral premix, packaging. Milling to a fine flour does not change total per-mass metal content; the bran-vs-endosperm distinction is at the upstream grain-flour stage rather than the baby-cereal-manufacturing stage. Heat treatment does not change panel metals.
+
+Reconstitution at the consumer point (mixing dry baby cereal with breast milk, formula, or water) yields as-fed concentration approximately the dry-cereal concentration divided by the reconstitution ratio. The water source matters: if reconstituted with high-Pb tap water, the as-fed Pb exceeds the source-cereal-only Pb. Reconstitution with breast milk or with documented-low-Pb formula reduces this concern.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Baby cereal is itself a finished retail product; its derivatives are cooked-baby-cereal preparations rather than further ingredient-level derivatives. Mixed baby-food preparations that include rice cereal as an ingredient inherit the rice-cereal iAs.
+
+Toddler cereal products (marketed for ages 1+) bridge into the Cat 1 toddler-bridging scope; the regulatory framework softens at the toddler-vs-infant boundary, with FDA action levels less stringent than EU MLs for some matrices.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. For rice-based baby cereal: low-iAs rice origin sourcing (California, basmati-India, certain low-iAs Vietnamese origins). For non-rice baby cereal: source-grain sourcing from documented low-Cd regions. Premix-supplier specification (Pb-tested, food-grade iron compound) is the operational lever for premix-introduced Pb.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the upstream grain stage; see [[ingredients/rice]], [[ingredients/oat]], and per-grain pages.
+
+**Processing levers** ([[mitigation/processing]]) include grain rinsing or pre-treatment for rice-based products (where commercial-scale rice rinsing can reduce iAs) and dry-process specification.
+
+**Formulation levers** ([[mitigation/formulation]]) include the rice-vs-non-rice choice (substituting oat or multigrain for rice substantially reduces iAs) and ingredient-percentage adjustment.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature in the infant-cereal industry. Lot-level iAs testing on rice-based cereal against the FDA 100 ppb action level is standard. EU markets require iAs speciation; see [[testing/arsenic-speciation]] and [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include foil-lined-pouch and box-with-bag specifications for dry baby cereal.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs action level of 100 ppb for infant rice cereal. This is the foundational US regulatory anchor.
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action level of 20 ppb for dry infant cereals for children under 2.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for iAs in infant rice cereal and rice products for infants and young children. Cd ML for cereal-based baby foods.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex iAs ML for rice and Cd ML for infant cereals.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant cereal products yields a stringent serving-based screen.
 
 

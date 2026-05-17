@@ -125,26 +125,49 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Fruit purees inherit heavy metals from the source fruit (see [[ingredients/fruits]] and per-fruit pages like [[ingredients/apple]], [[ingredients/banana]], [[ingredients/peach]], [[ingredients/pear]], [[ingredients/mango]]). The pureeing process does not change total source-fruit metal load; it homogenizes the source fruit into a smooth texture suitable for infant feeding. Apple, pear, and banana are the most common infant-fruit-puree ingredients in commercial Cat 1 product lines; berry purees and mango/peach purees are common premium variants.
+
+The dominant metal-load contributor in fruit purees is Pb from soil-uptake and atmospheric-deposition pathways at the source orchard. Apple specifically carries a legacy iAs concern from historic lead-arsenate-pesticide orchards (though the iAs in apple is generally lower than in apple juice because juicing concentrates the metal); see [[ingredients/apple]]. Cd in fruit purees is generally low.
+
+The HMTc panel concerns for fruit purees are dominantly Pb, with iAs as a secondary concern for apple-containing products and Cd as a minor concern.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Fruit puree metal load tracks the source fruit. Apple purees carry the highest Pb among common fruit-puree species, particularly apples from regions with historic lead-arsenate pesticide use. Pear purees from cleaner orchards carry lower Pb. Banana purees (from tropical-soil-grown bananas in Central and South America) carry low Pb across the board. Peach and apricot purees can carry trace Cd from stone-fruit-specific pathways.
+
+[[sources/collado-lopez2025-heavy-metals-baby-food-formula|Collado-Lopez 2025]] is the broad baby-food + fruit puree synthesis source documenting Spanish-market fruit baby food. [[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019]] (HBBF) characterized US-market baby food including fruit purees.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Fruit puree processing (washing, peeling, coring, pureeing, heat treatment for shelf-stability, pH adjustment, packaging) does not change total source-fruit metal content meaningfully. Washing and peeling at the manufacturer stage remove surface-deposited Pb (relevant for tree fruits grown in atmospheric-Pb regions). Heat treatment for retort sterilization or aseptic packaging does not change panel metals.
+
+Fortification additives (vitamin C, citric acid, mineral additives) can contribute trace metals at parts-per-billion levels depending on supplier specification.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Fruit purees are themselves finished retail products targeting infant and toddler markets. Concentrated fruit puree (used as flavor or color in compounded products) carries elevated per-mass metal because water has been removed.
+
+Fruit-puree-based finished products (fruit pouches, fruit-and-veggie pouches, fruit-and-yogurt combinations) inherit the source-fruit-puree profile proportional to recipe fraction.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Single-origin sourcing from documented low-Pb production regions, fruit-supplier soil-Pb verification (especially for apples and pears from legacy-orchard regions), and avoidance of lead-arsenate-history orchards.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the orchard level (see [[ingredients/fruits]]).
+
+**Processing levers** ([[mitigation/processing]]) include washing and peeling at the manufacturer stage, which removes surface-deposited Pb effectively.
+
+**Formulation levers** ([[mitigation/formulation]]) include fruit-species substitution (substituting banana or pear puree for apple puree reduces Pb), single-fruit vs mixed-fruit formulation, and added-ingredient minimization.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb testing on finished fruit purees, particularly for apple-containing products targeted at infants. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include jar-and-foil-cap specification, pouch-material specification, and food-contact-substance compliance.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action level for processed baby foods covers fruit purees at 10 ppb Pb.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for Pb and Cd in infant-and-young-child fruit-based foods.
+- [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MLs apply.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to fruit purees sold in California; the serving-based screen is stringent for infant-targeted products.
 
 

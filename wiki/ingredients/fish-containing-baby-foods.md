@@ -119,25 +119,45 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Fish-containing baby foods inherit the source-fish metal load — primarily methylmercury — from the fish species used in the recipe. Commercial fish-containing baby food typically uses low-trophic, lower-mercury species (whitefish, cod, pollock, salmon, occasionally sardine) rather than high-trophic apex predators (tuna, swordfish). The Cat 1 Step 0 lock identifies a separate fish-containing-baby-foods row at [[products/fish-containing-baby-foods]] specifically because the methylmercury exposure question places fish-containing baby foods in a distinct regulatory and clinical framework.
+
+The infant exposure pathway is critical: methylmercury is a developmental neurotoxicant, and infant body weight makes per-serving exposure-per-kg substantially higher than for adults consuming the same fish portion. FDA/EPA fish-consumption advisories for pregnant women and young children specifically address this risk, and infant baby-food formulations targeting fish content should use the lowest-trophic species available.
+
+The HMTc panel concerns for fish-containing baby foods are dominantly tHg/MeHg, with secondary Pb from non-fish ingredients in the recipe (rice, vegetables, grains commonly co-formulated).
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Source-fish choice is the dominant variance driver. Salmon-based baby foods carry low MeHg (salmon is low-trophic and short-lived). Whitefish (cod, pollock, haddock, hake) similarly carries low MeHg. Tuna-containing baby foods carry higher MeHg, particularly if albacore or yellowfin tuna is used rather than skipjack (canned-light tuna).
+
+[[sources/chekri2019-french-infant-toddler-tds-trace-elements|Chekri 2019]] documents French infant TDS including fish-containing baby-food categories. Commercial fish-containing baby foods in major markets (US, EU) typically use documented-low-MeHg fish species.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Fish processing for baby food (cleaning, deboning, cooking, pureeing or chunking, combining with grain or vegetable, packaging) does not change source-fish methylmercury. Pureeing distributes the fish through the baby-food matrix. Heat treatment for shelf-stability does not affect MeHg.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Fish-containing baby foods are themselves finished retail products. Toddler-targeted fish products (fish sticks, fish nuggets, fish-and-rice prepared meals) bridge into the Cat 1 toddler-bridging scope and the Cat 7 adult-mixed-meal scope as the marketing-age boundary is crossed.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Species selection: low-trophic short-lived fish (sardine, salmon, cod, pollock) substantially reduces per-serving MeHg compared to tuna-based or shark-based products. Origin sourcing for low-Hg-loading watersheds.
+
+**Consumption-pattern levers** apply at the consumer level: FDA/EPA fish-consumption advisory categorizes fish into best/good/avoid tiers; baby-food manufacturers should formulate with best-tier species.
+
+**Processing levers** ([[mitigation/processing]]) are not consequential for methylmercury (muscle-bound, not removable by processing).
+
+**Formulation levers** ([[mitigation/formulation]]) include fish-percentage adjustment (lower fish fraction in mixed fish-and-vegetable meals reduces per-serving MeHg) and species substitution (substituting cod for tuna in fish-containing baby food).
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level methylmercury testing on finished baby food, particularly important for infant-targeted products. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the standard Sn-migration consideration for canned fish-containing baby food.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/fda2025-lead-processed-baby-foods]] — FDA Closer to Zero Pb action level for processed baby foods covers fish-containing baby foods at 10 ppb Pb when covered as a mixture.
+- FDA action level of 1.0 ppm methylmercury in fish applies to fish-containing baby foods.
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets Hg maximum levels for infant-and-young-child fish-based foods, with stricter limits than adult fish products.
+- FDA/EPA joint fish-consumption advisory — categorizes fish species into tiers for pregnant women and young children; baby-food formulation should align with best-choice species.
+- California Prop 65 ([[regulations/california-prop65]]) Hg MADL applies to fish-containing baby foods sold in California.
 
