@@ -9,7 +9,7 @@ publication: "Journal of Exposure Science and Environmental Epidemiology 24: 208
 doi: 10.1038/jes.2013.33
 source_type: peer-reviewed
 evidence_tier: A
-license: "All rights reserved (Nature Publishing Group); open-access publication noted on PDF"
+license: "CC BY-NC-ND 3.0 Unported (open access; Creative Commons Attribution-NonCommercial-NoDerivs)"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Aggregate_exposure_approaches_for_parabens_in_personal_care_products_a_case_assessment_for_children.pdf"
 metals: []
 ingredients: []
@@ -28,13 +28,13 @@ This Journal of Exposure Science and Environmental Epidemiology paper compares d
 
 ## Key numbers
 
-- Modeled product set: 12 personal-care product types - toothpaste, shampoo, hair lotion, bath soap, body lotion, bath oil, baby wipes, baby salve, sunscreen, aftersun, liquid soap, plus a generic leave-on (Table 1, p. 209).
+- Modeled product set: 12 personal-care product types — toothpaste, shampoo, two-in-one shampoo, hair lotion, shower/bath soap, body lotion, bath oil, baby wipes, baby salve, sunscreen, aftersun, liquid soap (SI1 Table 1; categories named in Methods, p. 209).
 - Body-weight default used in modeling: 11.1 kg (representative 1.5-year-old child) (p. 209).
 - Tier 1 deterministic exposure outputs (Table 1, p. 209, mg/kg bw/day external; internal calculated by oral or dermal absorption fraction): methylparaben external 2.32, dermal absorption fraction 36%, internal 1.01 mg/kg bw/day, NOAEL 1000, MoE 991; ethylparaben external 0.36, dermal 55%, internal 0.20, NOAEL 1000, MoE 4966; propylparaben external 1.05, dermal 37%, internal 0.41, NOAEL 3.3, MoE 8; butylparaben external 0.47, dermal 42%, internal 0.20, NOAEL 2, MoE 10.
 - Tier 2 probabilistic outputs: percentage of modeled population with exposure probability above the assumed "safe" MoE of 100 was 13% for propylparaben and 7% for butylparaben (Abstract, Results).
 - Drivers of butylparaben aggregate exposure (Figure 3, p. 212): baby wipes ~60-70% of total population exposure; body lotion ~15-25%; baby salve and sunscreen also significant contributors.
 - Retention factors used: 0.01 for rinse-off products (shampoo, two-in-one shampoo, liquid soap, shower/bathsoap, bath oil); 1.0 for leave-on products (sunscreen, aftersun, lotion, salve); 0.1 for hair lotion (assumed 1/10 stays on); 0.1 for baby wipes (Engelen et al. assumption that 0.5 ml deposits on skin per event; 2.5 g/day baby-wipe-derived substance on skin) (p. 209).
-- ConsExpo default product-application amounts and frequencies sourced from Cosmetics Fact Sheet (Bremmer et al. 2006); adult body-surface-area-to-product-amount scaling factor of 0.27 (4800 cm² for adult vs 17,500 cm² for 1.5-year-old child = 0.27); 0.66 scaling for hair lotion and shampoo (768 cm² for head SA of 1.5-yr-old vs 1155 cm² adult head); 0.29 for liquid soap (247.2 cm² children's hands at 1.5 yr vs 857.5 cm² adult hands) (p. 209).
+- ConsExpo default product-application amounts and frequencies sourced from Cosmetics Fact Sheet (Bremmer et al. 2006). Child-vs-adult body-surface scaling factors used to extrapolate adult application amounts to a 1.5-year-old: 0.27 for sunscreen/aftersun/body lotion/shower-bath soap (4800 cm² child body application area / 17,500 cm² adult); 0.66 for hair lotion, shampoo, and two-in-one shampoo (768 cm² child head SA / 1155 cm² adult head); 0.29 for liquid soap (247.2 cm² child hands at 1.5 yr / 857.5 cm² adult hands) (p. 209).
 
 ## Methods (brief)
 
@@ -61,3 +61,4 @@ The paper applies two tiered exposure-assessment frameworks. Tier 1 (determinist
 - This is a parabens (preservative) paper, not a heavy-metals paper. No metals analyte data are reported. Frontmatter `metals: []` reflects this. Included in the batch as a methodological reference for aggregate dermal-exposure modeling of personal-care products.
 - The 0.27 body-surface scaling factor (1.5-yr child vs adult) and the per-product retention factors are reusable for heavy-metal exposure modeling on identical product categories.
 - "baby-salve" is not in the current product taxonomy; closest existing slug is [[products/baby-lotion-cream]] or [[products/diaper-cream-zno]] / [[products/diaper-cream-non-zno]] depending on intended use. Flagging for Part 10 review.
+- 2026-05-17 merge-enhance: corrected license to CC BY-NC-ND 3.0 (paper is open-access per the back-cover Creative Commons notice, not "All rights reserved"); fixed transposed body-surface-area attribution in the scaling-factor bullet (4800 cm² is the child application area, 17,500 cm² is the adult — the prior wording reversed them); replaced "plus a generic leave-on" placeholder with "two-in-one shampoo" (the actual 12th product type per the Methods description on p. 209).
