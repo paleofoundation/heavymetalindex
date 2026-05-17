@@ -19,7 +19,7 @@ created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Wipes
 
-Disposable wipes for infant skin (polyester, polypropylene, cotton, bamboo). No within-row split per Step 0 lock. **Panel-scope note**: the dominant heavy-metal finding for baby wipes is antimony (Sb, up to 19,558 µg/L from polyester catalyst residues), which is NOT in the HMTc 8-metal panel; HMTc Cat 2 standards recommend panel expansion to include Sb based on this finding.
+Disposable wipes for infant skin (polyester, polypropylene, cotton, bamboo). No within-row split per Step 0 lock. **Panel-scope note**: the dominant heavy-metal finding for baby wipes documented in the Cat 2 Step 0 lock review is antimony (Sb) from polyester catalyst residues, a metal that is NOT in the HMTc 8-metal panel. HMTc Cat 2 standards recommend panel expansion to include Sb based on this finding. The specific antimony levels documented in the lock review require source ingest before being cited on this page; <!-- UNCITED: Sb baby wipes specific values pending source-page ingest of the underlying consumer testing data referenced in the Cat 2 Step 0 lock document. -->
 
 This page is a Step 0 lock scaffold for Cat 2 Row 6. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in CLAUDE.md Part 9. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 

@@ -65,15 +65,39 @@ function findSection(text, offset) {
   return "(opening)"
 }
 
-function hasSourceWithinSection(text, claimOffset, sectionStart, sectionEnd) {
+function hasSourceWithinSection(text, claimOffset, sectionStart, sectionEnd, pageSourcesSection) {
   // Accept any provenance-bearing wikilink: sources/, regulations/ (for
   // regulatory limit claims), or testing/ (for analytical-method floors).
   // Cochrane equivalent: every numerical claim must trace to either the
   // primary source (sources/) or the regulatory/methodological page where
   // the claim is anchored. The citation may appear before OR after the
-  // claim within the same H2 section.
+  // claim within the same H2 section, OR in the page's Sources block.
   const window = text.slice(sectionStart, sectionEnd)
-  return /\[\[(sources|regulations|testing)\/[^\]]+\]\]/.test(window)
+  const provRegex = /\[\[(sources|regulations|testing)\/[^\]]+\]\]/
+  if (provRegex.test(window)) return true
+  if (pageSourcesSection && provRegex.test(pageSourcesSection)) return true
+  return false
+}
+
+function findPageSourcesSection(text) {
+  // Aggregate any section whose heading suggests references/citations.
+  // Catches: "## Sources", "## Source legend", "## References",
+  // "## Source And Regulation Nodes", "## Source Evidence Inventory", etc.
+  const headingRe = /^##\s+(.+)$/gm
+  let acc = ""
+  let m
+  while ((m = headingRe.exec(text)) !== null) {
+    const heading = m[1].toLowerCase()
+    if (/source|reference|citation|legend|regulat/i.test(heading)) {
+      const start = m.index
+      const next = headingRe.exec(text)
+      const end = next ? next.index : text.length
+      acc += "\n" + text.slice(start, end)
+      // Reset so we don't skip the next section
+      headingRe.lastIndex = next ? next.index : text.length
+    }
+  }
+  return acc
 }
 
 function findSectionEnd(text, offset) {
@@ -101,22 +125,20 @@ function auditPage(filePath) {
   const body = stripCodeBlocks(stripFrontmatter(raw))
   // Skip if the file is mostly a scaffolded placeholder
   if (body.length < 500) return { claims: [], skipped: "too-short" }
-  // Strip table delimiter rows (these often contain numbers like "---" but no claims)
   const text = body
+  const pageSourcesSection = findPageSourcesSection(text)
   const claims = []
   let m
   CLAIM_REGEX.lastIndex = 0
   while ((m = CLAIM_REGEX.exec(text)) !== null) {
     const offset = m.index
-    // Skip claims inside YAML-like inline blocks: { ... }
     const ctxBefore = text.slice(Math.max(0, offset - 60), offset)
     if (/\{[^}]*$/.test(ctxBefore)) continue
-    // Skip claims inside HTML attribute values
     if (/="\s*[^"]*$/.test(ctxBefore)) continue
     const sectionStart = findSectionStart(text, offset)
     const sectionEnd = findSectionEnd(text, offset)
     const section = findSection(text, offset)
-    const supported = hasSourceWithinSection(text, offset, sectionStart, sectionEnd)
+    const supported = hasSourceWithinSection(text, offset, sectionStart, sectionEnd, pageSourcesSection)
     claims.push({
       claim: `${m[1]} ${m[2]}`,
       offset,

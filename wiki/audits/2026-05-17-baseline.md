@@ -17,13 +17,13 @@ Generated: **2026-05-17**.  Baseline snapshot: [[audits/2026-05-17-baseline|2026
 |---|---:|:---:|
 | Taxonomy v2.0 coverage (destination pages exist for HMTc rows) | 277 / 277 (100%) | PASS |
 | Routing audit (unresolved source routings) | 0 unresolved | PASS |
-| Routing rows generated | 490 | — |
+| Routing rows generated | 627 | — |
 | Ingredient mandatory sections (non-stub pages) | 237 / 237 (100%) | PASS |
-| Product mandatory sections (non-stub pages) | 49 / 49 (100%) | PASS |
+| Product mandatory sections (non-stub pages) | 73 / 74 (99%) | WARN |
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 0 failures | PASS |
 | Routing discipline check 2 (HMTc-locked products with zero routed sources) | 246 of 290 | INFO |
 | Source page DOI completeness | 0 missing | PASS |
-| Claim provenance — body-prose numerical claims with traceable citation | 3172/3461 (91.6%) | WARN |
+| Claim provenance — body-prose numerical claims with traceable citation | 3457/3457 (100%) | PASS |
 
 ## Taxonomy v2.0 coverage
 
@@ -37,10 +37,10 @@ Detail report: [[data/evidence/taxonomy-coverage-audit|data/evidence/taxonomy-co
 
 ## Routing audit
 
-Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 490 routing rows in current audit.
+Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 627 routing rows in current audit.
 
 - Unresolved targets (source frontmatter declares a slug that doesn't exist): **0**
-- Malformed sources (missing required frontmatter fields): **624** (non-blocking)
+- Malformed sources (missing required frontmatter fields): **553** (non-blocking)
 
 Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_source_routing_audit.csv]], [[data/evidence/routing_unresolved|data/evidence/routing_unresolved.csv]], [[data/evidence/routing_malformed|data/evidence/routing_malformed.csv]].
 
@@ -74,9 +74,9 @@ Detail: [[data/evidence/ingredient-mandatory-sections-audit|data/evidence/ingred
 
 Non-stub product-category pages must carry 10 H2 sections per CLAUDE.md Part 6 (Who this page is for / Methodology / Literature Evidence Summary / Source Evidence Inventory / Broad Product Context / Federal/Regulatory Limits / Levers to reduce contamination / How standards math uses this page / Historical recalls and enforcement / Sources). Stubs (scaffolded pages with no routed sources) are exempt.
 
-- Non-stub passing: **49** of 49 (100%)
-- Non-stub failing: **0**
-- Stubs (exempt): 271
+- Non-stub passing: **73** of 74 (99%)
+- Non-stub failing: **1**
+- Stubs (exempt): 246
 
 Detail: [[data/evidence/product-mandatory-sections-audit|data/evidence/product-mandatory-sections-audit.csv]].
 
@@ -127,13 +127,13 @@ DOI completeness: 896 of 896 sources have a DOI or a `no_doi_assigned: true` mar
 
 Every numerical claim in body prose on ingredient and product pages — matches the regex `<number> <unit>` where unit is one of ppb, ppm, mg/kg, µg/kg, µg/g, mg/L, µg/L, % — must trace to a citation in the same H2 section (before or after the claim is acceptable; sections are treated as logical units of provenance). Valid citations: `[[sources/...]]`, `[[regulations/...]]` (for regulatory limits), `[[testing/...]]` (for analytical-method floors).
 
-- Total claims scanned: **3461**
-- Supported: **3172** (91.6%)
-- Unsupported: **289**
+- Total claims scanned: **3457**
+- Supported: **3457** (100%)
+- Unsupported: **0**
 
 By page type:
-- ingredient: 1476/1637 (90%)
-- product: 1696/1824 (93%)
+- ingredient: 1635/1635 (100%)
+- product: 1822/1822 (100%)
 
 Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.
 

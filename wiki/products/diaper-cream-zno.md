@@ -22,7 +22,7 @@ created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Diaper Cream, ZnO-Based
 
-Diaper rash treatments using zinc oxide as active ingredient (Desitin, Boudreaux's Butt Paste, Triple Paste, most '10-40% ZnO' products). Contaminated row of the Row 7 / Row 8 pair: ZnO is sourced from sphalerite (ZnS) ore co-occurring with Pb-containing minerals; pyrometallurgical and electrolytic ZnO production routes reduce but do not eliminate Pb and Cd carry-through. Documented Pb up to 3,300 ppb in surveyed products.
+Diaper rash treatments using zinc oxide as active ingredient (Desitin, Boudreaux's Butt Paste, Triple Paste, most '10-40% ZnO' products). Contaminated row of the Row 7 / Row 8 pair: ZnO is sourced from sphalerite (ZnS) ore co-occurring with Pb-containing minerals; pyrometallurgical and electrolytic ZnO production routes reduce but do not eliminate Pb and Cd carry-through. Pb has been documented at elevated levels in surveyed diaper-cream products in the Cat 2 Step 0 lock review; <!-- UNCITED: ZnO diaper-cream Pb specific values pending source-page ingest of the underlying consumer testing data referenced in the Cat 2 Step 0 lock document. -->
 
 This page is a Step 0 lock scaffold for Cat 2 Row 8. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in CLAUDE.md Part 9. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
