@@ -168,7 +168,7 @@ if (fs.existsSync(productsDir)) {
   for (const f of fs.readdirSync(productsDir)) {
     if (!f.endsWith(".md") || f === "index.md") continue
     const raw = fs.readFileSync(path.join(productsDir, f), "utf8")
-    if (/^pending_category_lock:\s*true/m.test(raw)) pendingLockCount += 1
+    if (/^provisional_scaffold:\s*true/m.test(raw) || /^pending_category_lock:\s*true/m.test(raw)) pendingLockCount += 1
   }
 }
 
@@ -312,7 +312,7 @@ function renderBriefing(m, cochrane, commits, events, newSrc, newProd, newIng) {
   lines.push(``)
   lines.push(`## What I created`)
   lines.push(``)
-  lines.push(`- ${m.ingest.new_product_pages} new product pages this week. Currently **${m.governance.products_pending_step0_lock}** products carry \`pending_category_lock: true\`, awaiting Karen's Step 0 Lock to graduate from auto-stub to locked HMTc row.`)
+  lines.push(`- ${m.ingest.new_product_pages} new product pages this week. Currently **${m.governance.products_pending_step0_lock}** products carry \`provisional_scaffold: true\` (or the legacy \`pending_category_lock: true\`); these are routing destinations whose HMTc taxonomy row + thresholds will derive once a Step 0 Lock is authored.`)
   lines.push(`- ${m.ingest.new_ingredient_pages} new ingredient pages this week (corpus total: ${m.totals.ingredients.toLocaleString()}).`)
   if (newProd.length > 0) {
     lines.push(``)
@@ -365,7 +365,7 @@ function renderHeadline(m) {
 function renderOpenGaps(m) {
   const lines = []
   lines.push(`- **${m.governance.routing_unresolved}** sources declare a slug with no matching page. Path A auto-stub creation should converge this to 0 within a week.`)
-  lines.push(`- **${m.governance.products_pending_step0_lock}** product pages carry \`pending_category_lock: true\`. These are routing destinations only; HMTc certification cannot derive from them until Karen authors the Step 0 Lock.`)
+  lines.push(`- **${m.governance.products_pending_step0_lock}** product pages carry \`provisional_scaffold: true\` (or the legacy \`pending_category_lock: true\`). These are routing destinations only; HMTc certification cannot derive from them until a Step 0 Lock is authored.`)
   lines.push(`- **${m.pool_state.BLOCKED}** pooling cells are BLOCKED (pool too thin or sensitivity unstable). The gap-driven wishlist is generating OpenAlex queries to fill these; the daily auto-fetch pulls OA candidates into the ingest queue.`)
   return lines.join("\n")
 }

@@ -21,24 +21,33 @@
  *   3. Empty contamination_profile when ≥2 sources route to the cell
  *      Auto-fix: defer to synthesis pass (writes a queue entry, doesn't
  *      modify the page autonomously — synthesis judgment is per Part 9)
- *   4. Routing-unresolved entries that look like frontmatter typos
- *      Auto-fix: dry-mode by default — writes proposals to a triage file
- *      that the daemon can promote on Karen's review
+ *   4. Routing-unresolved entries:
+ *      - Look like frontmatter typos (Levenshtein ≤ 2 from a known slug):
+ *        write a proposal to data/evidence/autonomy/routing-triage-proposals.csv
+ *        for daemon promotion.
+ *      - No close match and target_kind ∈ {ingredient, product}: call the
+ *        provisional-scaffold tool directly to create the page so the
+ *        source can route. Log to provisional-{ingredient,product}-scaffolds.jsonl.
+ *      - No close match and target_kind == regulation: surface in the
+ *        report (regulations need agency rule IDs we won't guess).
  *
  * Output:
  *   - data/evidence/autonomy/healing-report-<date>.md  (the changelog)
  *   - data/evidence/autonomy/healing-queue.csv        (queued synthesis jobs)
  *   - data/evidence/autonomy/routing-triage-proposals.csv (typo-fix proposals)
  *
- * Per CLAUDE.md Part 10: new ingredient/product page creation requires
- * Karen's approval. This tool NEVER creates new pages. It only fills in
- * frontmatter on existing pages and queues downstream work for the
- * synthesis pass.
+ * Per CLAUDE.md Part 10 (2026-05-17 update): provisional ingredient and
+ * product scaffolds are created automatically by the scaffold tools
+ * when an unresolved routing entry has no close-slug match. Regulation
+ * pages still need Karen's input (agency rule IDs). All scaffold
+ * creations are logged to data/evidence/provisional-{ingredient,product}-scaffolds.jsonl
+ * for after-the-fact second-guessing.
  */
 
 import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
+import { execFileSync } from "node:child_process"
 
 const repoRoot = process.cwd()
 const productsDir = path.join(repoRoot, "wiki/products")
@@ -288,27 +297,87 @@ function triageRoutingUnresolved(report) {
 
   const unresolvedRows = parseCsv(fs.readFileSync(routingUnresolvedPath, "utf8"))
   for (const row of unresolvedRows) {
-    const target = row.target_slug || row.unresolved_target || ""
+    const target = row.declared_target || row.target_slug || row.unresolved_target || ""
+    const targetKind = row.target_kind || ""
+    const sourceId = row.source_id || ""
     if (!target) continue
     const closest = closestSlug(target, knownSlugs)
     if (closest && levenshtein(target, closest) <= 2) {
-      // Likely typo
+      // Likely typo — propose a frontmatter fix; daemon promotes idempotently.
       report.routing_typo_proposals.push({
-        source_id: row.source_id || "",
+        source_id: sourceId,
         unresolved_target: target,
         closest_known_slug: closest,
         edit_distance: levenshtein(target, closest),
         proposed_action: "frontmatter typo fix",
-        review_status: "pending Karen review",
+      })
+      continue
+    }
+
+    // No close slug match. Either scaffold or surface (regulations only).
+    if (targetKind === "ingredient" || targetKind === "product") {
+      if (dryRun) {
+        report.scaffold_proposals = report.scaffold_proposals || []
+        report.scaffold_proposals.push({
+          source_id: sourceId,
+          target_kind: targetKind,
+          slug: target,
+          action: "would call create-provisional-" + targetKind + "-scaffold.mjs",
+        })
+      } else {
+        const created = invokeScaffold({ targetKind, slug: target, sourceId })
+        if (created) {
+          report.scaffolds_created = report.scaffolds_created || []
+          report.scaffolds_created.push({ source_id: sourceId, target_kind: targetKind, slug: target })
+          knownSlugs.add(target)
+        }
+      }
+    } else if (targetKind === "regulation") {
+      report.review_required.push({
+        gap: "routing_unresolved_new_regulation",
+        source_id: sourceId,
+        unresolved_target: target,
+        reason: "regulation pages need agency rule ID / official citation; cannot scaffold without it",
       })
     } else {
       report.review_required.push({
-        gap: "routing_unresolved_new_target",
-        source_id: row.source_id || "",
+        gap: "routing_unresolved_unknown_kind",
+        source_id: sourceId,
         unresolved_target: target,
-        reason: "no close match in known slug vocabulary; likely new-page proposal per Part 10",
+        reason: `target_kind="${targetKind}" not handled by autoscaffold; needs investigation`,
       })
     }
+  }
+}
+
+function invokeScaffold({ targetKind, slug, sourceId }) {
+  const tool =
+    targetKind === "ingredient"
+      ? "tools/autonomy/create-provisional-ingredient-scaffold.mjs"
+      : "tools/autonomy/create-provisional-product-scaffold.mjs"
+  const title = slug
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ")
+  const reason = `heal-gaps: routing_unresolved entry from source ${sourceId} declared ${targetKind}/${slug}, no close-slug match`
+  const args = [
+    tool,
+    "--slug",
+    slug,
+    "--title",
+    title,
+    "--reason",
+    reason,
+  ]
+  if (sourceId) {
+    args.push("--source-cite-key", sourceId)
+  }
+  try {
+    execFileSync("node", args, { cwd: repoRoot, stdio: "inherit" })
+    return true
+  } catch (err) {
+    console.error(`Scaffold failed for ${targetKind}/${slug}: ${err.message}`)
+    return false
   }
 }
 
@@ -360,7 +429,8 @@ function writeReport(report) {
   lines.push(`- Fixes applied: ${report.fixes_applied.length}`)
   lines.push(`- Queued for synthesis: ${report.queued_for_synthesis.length}`)
   lines.push(`- Routing typo proposals: ${report.routing_typo_proposals.length}`)
-  lines.push(`- Items requiring Karen review: ${report.review_required.length}`)
+  lines.push(`- Provisional scaffolds created: ${(report.scaffolds_created || []).length}`)
+  lines.push(`- Items needing surfacing (regulation rule IDs, unknown target_kind): ${report.review_required.length}`)
   lines.push("")
   if (report.fixes_applied.length) {
     lines.push(`## Fixes applied`)
@@ -382,8 +452,20 @@ function writeReport(report) {
     }
     lines.push("")
   }
+  if ((report.scaffolds_created || []).length) {
+    lines.push(`## Provisional scaffolds created`)
+    lines.push("")
+    for (const s of report.scaffolds_created) {
+      lines.push(`- ${s.target_kind}/\`${s.slug}\` (triggered by source ${s.source_id || "unknown"})`)
+    }
+    lines.push("")
+    lines.push(`See \`data/evidence/provisional-${"{ingredient,product}"}-scaffolds.jsonl\` for the durable audit log.`)
+    lines.push("")
+  }
   if (report.review_required.length) {
-    lines.push(`## Items requiring Karen review`)
+    lines.push(`## Items needing surfacing`)
+    lines.push("")
+    lines.push(`These are not "pending Karen approval" — they are routing failures the autoscaffold tool cannot resolve on its own (regulation rule IDs, unknown target kinds). Each entry is a request for one specific piece of information, not a yes/no approval.`)
     lines.push("")
     for (const r of report.review_required.slice(0, 20)) {
       lines.push(`- ${r.gap}: \`${r.page || r.source_id || "?"}\` — ${r.reason}`)

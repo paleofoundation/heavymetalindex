@@ -136,10 +136,10 @@ Frontmatter accuracy on source pages is load-bearing because it feeds the routin
 1. Read `index.md` first to locate relevant pages.
 2. Read those pages. If needed, drill into `sources/` for primary evidence.
 3. Answer with citations to wiki pages (which link onward to sources).
-4. Ask Karen: "Should I file this as a page?" For anything substantive, the answer is usually yes. File under `wiki/queries/<YYYY-MM-DD>-<slug>.md` with frontmatter linking to drawn-from pages.
+4. File the answer as a page by default under `wiki/queries/<YYYY-MM-DD>-<slug>.md` with frontmatter linking to drawn-from pages. The exception: throwaway lookups that are obviously one-shot (e.g., "what's the cite key for the Abt 2018 paper?") — don't file those.
 5. Append a short query entry to `log.md` and commit.
 
-Output format can vary by question: markdown page, comparison table, chart (matplotlib), slide deck (Marp), decision tree. Use judgment; ask if unclear.
+Output format can vary by question: markdown page, comparison table, chart (matplotlib), slide deck (Marp), decision tree. Pick whichever format best serves the question.
 
 ## Priority ordering for bulk ingest
 

@@ -98,15 +98,17 @@ const eligible = candidates.filter((c) => {
   return true
 })
 
-// Per Karen 2026-05-17 (Path A): product stubs are now auto-created with
-// `pending_category_lock: true` in frontmatter. The flag is the governance
-// signal — the page exists as a routing destination, but is explicitly
-// marked as not-yet-locked-by-Step-0. The 2026-05-14 incident (face-paint /
-// lipstick / skin-lightening-cream stubs created, retired the next day) was
-// caused by stubs being created WITHOUT this flag — they looked like full
-// product pages. With the flag, governance is preserved: lint can fail-or-
-// warn on locked-vs-unlocked, routing resolves, the page sits visibly
-// incomplete until Karen authors the Step 0 Lock.
+// Per Karen 2026-05-17 (Path A) and the no-approval-gates rule: product
+// stubs are now auto-created as provisional scaffolds with
+// `provisional_scaffold: true` and `hmtc_category: pending_taxonomy_review`.
+// This is the canonical governance flag (it replaces the earlier
+// `pending_category_lock: true` field; the rename consolidated the flag
+// vocabulary with tools/autonomy/create-provisional-product-scaffold.mjs).
+// The flag exists as a routing destination + audit signal — the page is
+// marked as not-yet-locked-by-Step-0 so HMTc threshold work waits.
+// The 2026-05-14 incident (face-paint / lipstick / skin-lightening-cream
+// stubs created, retired the next day) was caused by stubs being created
+// WITHOUT this flag — they looked like full product pages.
 //
 // `--no-products` opts back into the old defer-via-CSV behavior for one-off
 // cases where Karen wants a stub proposal without a real page yet.
@@ -114,7 +116,7 @@ const noProducts = args.has("no-products")
 const productProposals = noProducts ? eligible.filter((c) => c.kind === "product") : []
 const pageEligible = noProducts ? eligible.filter((c) => c.kind === "ingredient") : eligible
 
-console.log(`create-missing-pages: ${pageEligible.length} candidates eligible (freq >= ${minFreq}; product auto-stub ${noProducts ? "DEFERRED" : "ENABLED via pending_category_lock"})`)
+console.log(`create-missing-pages: ${pageEligible.length} candidates eligible (freq >= ${minFreq}; product auto-stub ${noProducts ? "DEFERRED" : "ENABLED via provisional_scaffold"})`)
 
 const created = []
 for (const c of pageEligible) {
@@ -249,15 +251,17 @@ sources: ${entry.count}
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: ${entry.count}
-pending_category_lock: true
-hmtc_category: null
-hmtc_row: null
-governance_status: "Auto-created routing destination. Not yet locked under a Step 0 protocol — HMTc category, within-row clean/dirty splits, and contamination-platform classification are pending Karen's Step 0 Lock. Sources route here; thresholds and certification scope do not derive from this page until the lock is authored."
+provisional_scaffold: true
+provisional_created: ${today}
+provisional_reason: "autonomy loop: ${entry.count} source(s) declared products:[${slug}] with no existing page"
+hmtc_category: pending_taxonomy_review
+hmtc_row: pending_taxonomy_review
+governance_status: "Provisional scaffold. Sources route here; HMTc category, within-row clean/dirty splits, contamination-platform classification, and certification thresholds do not derive from this page until a Step 0 Lock is authored."
 ---
 
 # ${title}
 
-This page is an autonomy-created stub product-category page, **pending HMTc Step 0 Lock**. The routing audit identified ${entry.count} source pages in the corpus declaring \`products: [${slug}]\` in their frontmatter without a dedicated product page existing. The autonomy loop created this stub so those sources route to a defined target; the page is explicitly flagged \`pending_category_lock: true\` to signal that its HMTc category, within-row clean/dirty splits, and contamination-platform classification are not yet defined. The synthesis pass per CLAUDE.md Part 9 populates the evidence-summary table as sources accumulate; HMTc threshold work waits on the Step 0 Lock.
+> **Provisional scaffold.** This page was created by the autonomy loop on ${today} so that ${entry.count} source page(s) declaring \`products: [${slug}]\` had a routing destination. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below grows as the synthesis pass consolidates the literature.
 
 ## Who this page is for
 

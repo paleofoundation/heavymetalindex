@@ -128,7 +128,7 @@ Stop immediately and write a stop-report at `wiki/batch-reports/manual-fetch-<fo
 
 ## What this skill does NOT do
 
-- Does NOT create new ingredient pages (auto-stub script handles ingredients ≥freq-2 separately; everything else is Karen's call).
+- Does NOT bypass the existing auto-stub script for ingredients ≥freq-2 (that script handles those). Freq-1 ingredients that a source declares but that do not yet exist are created as provisional scaffolds via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` so ingest continues; the audit log captures what was created.
 - Does NOT create non-provisional product pages with locked HMTc taxonomy rows (Step 0 Lock is a separate workflow). Provisional product scaffolds with `hmtc_category: pending_taxonomy_review` ARE created automatically when a source declares a product slug that does not yet exist; the audit log captures what was created.
 - Does NOT run Part 9 synthesis (separate workflow).
 - Does NOT touch `wiki/products/*.md`, `wiki/ingredients/*.md`, or any downstream page directly.

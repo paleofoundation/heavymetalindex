@@ -59,7 +59,8 @@ GPT-5.5 fast mode never produces:
 - Consumer-audience translations (Part 7 — highest-risk interpretive work)
 - HMT&C threshold rationale or workbench math (Part 19)
 - Mitigation/Levers sections on ingredient or product pages (brand-legal-actionable surface)
-- New ingredient, product, or regulation pages (Part 10 — Karen approves)
+- New regulation pages (these need an agency rule ID / official citation; do not guess)
+- Any edit that creates or promotes a non-provisional ingredient or product page (provisional scaffolds are created by the verification pass via `tools/autonomy/create-provisional-{ingredient,product}-scaffold.mjs`, not by the GPT drafter)
 - Any edit inside `wiki/`
 
 If a GPT draft contains any of these, the verification pass deletes that content before promoting; it is not corrected in place.

@@ -79,7 +79,9 @@ for (const file of sourceFiles) {
 
   const matrices = asStringArray(parsed.data.matrices).map((m) => m.toLowerCase().trim())
   const products = asStringArray(parsed.data.products)
-  const pendingLock = parsed.data.pending_category_lock
+  // Back-compat: pending_category_lock is the predecessor of provisional_scaffold.
+  // Either flag exempts a source from the missing-products check.
+  const pendingLock = parsed.data.pending_category_lock || parsed.data.provisional_scaffold
 
   // Does the source have any matrix slug that's a known product-routing input?
   const productMatrices = matrices.filter((m) => productRoutingMatrices.has(m))
@@ -94,7 +96,7 @@ for (const file of sourceFiles) {
       target: `wiki/sources/${file}`,
       detail: citeKey,
       severity: "fail",
-      note: `Source has matrices [${productMatrices.join(", ")}] (product-shaped) but products: [] and no pending_category_lock flag. Either declare products: with matching slug(s), or add pending_category_lock: <category-name> if Karen hasn't locked that category yet. See docs/order-of-operations.md Phase 1.`,
+      note: `Source has matrices [${productMatrices.join(", ")}] (product-shaped) but products: []. Declare products: with matching slug(s); if a slug has no matching page, run tools/autonomy/create-provisional-product-scaffold.mjs to create the routing destination. See docs/order-of-operations.md Phase 1.`,
     })
   }
 }

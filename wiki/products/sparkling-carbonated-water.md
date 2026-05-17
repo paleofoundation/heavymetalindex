@@ -16,6 +16,7 @@ splits_locked: false
 literature_scope: thin
 sources: 0
 updated: 2026-05-17
+primary_metals_of_concern: [Pb, Cd, tAs]
 ---
 # Sparkling/carbonated water (unflavored)
 

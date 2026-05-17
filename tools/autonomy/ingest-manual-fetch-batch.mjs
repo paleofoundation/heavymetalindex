@@ -317,7 +317,7 @@ function writeReport(batch, succeeded, stopped, failed) {
     lines.push("")
   }
   if (stopped.length) {
-    lines.push("### Stopped — Karen review needed")
+    lines.push("### Stopped — needs specific information (not blanket approval)")
     for (const s of stopped) lines.push(`- \`${s.pdfPath}\`: ${s.reason}`)
     lines.push("")
   }

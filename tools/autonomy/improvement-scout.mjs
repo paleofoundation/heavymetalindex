@@ -153,7 +153,7 @@ function computeSnapshot() {
     for (const f of fs.readdirSync(productsDir)) {
       if (!f.endsWith(".md") || f === "index.md") continue
       const raw = fs.readFileSync(path.join(productsDir, f), "utf8")
-      if (!/^pending_category_lock:\s*true/m.test(raw)) continue
+      if (!/^provisional_scaffold:\s*true/m.test(raw) && !/^pending_category_lock:\s*true/m.test(raw)) continue
       const m = raw.match(/^sources:\s*(\d+)/m)
       const n = m ? Number(m[1]) : 0
       pendingLocks.push({ slug: f.replace(/\.md$/, ""), sources: n })

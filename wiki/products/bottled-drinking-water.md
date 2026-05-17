@@ -15,6 +15,7 @@ products_status: scaffold
 splits_locked: false
 sources: 2
 updated: 2026-05-17
+primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 ---
 # Bottled drinking water (purified, spring, artesian)
 

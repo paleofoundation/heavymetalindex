@@ -92,8 +92,8 @@ This ordering prevents the audit queue from growing unbounded while still making
 
 - Do NOT ingest manual-fetch PDFs from folders assigned to Claude's daemon (06_Infant_Foods_Formula, Children Personal Care Papers, 04_Meat_Poultry_Seafood, 03_Grains_and_Grain_Products, 05_Dairy_Eggs_and_Alternatives). The daemon owns these. Codex's ingest assignment is the bottom-up priority list (condiments, nuts/seeds, processed, vegetables, fruits, Papers Cube, Manual Resourcing). Before ingesting any PDF, check `data/evidence/autonomy/manual-fetch-tracker.csv` — if the PDF is already tracked, skip it (the daemon claimed it).
 - Do NOT run Part 9 synthesis. The routing audit triggers Claude's synthesis pass on threshold crossings; Codex doesn't touch ingredient `contamination_profile` blocks.
-- Do NOT create new ingredient pages (auto-stub script handles ≥freq-2 separately).
-- Do NOT create new product pages (Karen's Step 0 Lock per Part 10).
+- DO create provisional ingredient and product scaffolds when an ingest declares a slug that does not yet exist. Use `tools/autonomy/create-provisional-ingredient-scaffold.mjs` and `tools/autonomy/create-provisional-product-scaffold.mjs`. These tools mark the page `provisional_scaffold: true` and log the creation to `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl`. Ingest continues. (The pre-2026-05-17 rule that products always required Karen's Step 0 Lock has been retired; Step 0 Lock is still required to assign HMTc taxonomy rows and certification thresholds, but it is no longer a gate on creating the routing destination.)
+- Do NOT create new regulation pages without surfacing the agency rule ID / official citation to Karen first. Regulations have hard identifiers that should not be guessed.
 - Do NOT edit inside `<!-- BEGIN: ... -->` / `<!-- END: ... -->` marker blocks (generator-owned).
 - Do NOT modify `data/evidence/product_source_routing_audit.csv` by hand.
 - Do NOT push to remote (the daemon tick pushes; Codex commits, daemon pushes on its next tick).
@@ -126,9 +126,9 @@ You have three roles this session, in priority order:
 
 Do NOT ingest any PDF from Claude's assigned folders: 06_Infant_Foods_Formula/, Children Personal Care Papers/, 04_Meat_Poultry_Seafood/, 03_Grains_and_Grain_Products/, 05_Dairy_Eggs_and_Alternatives/. Those belong to the daemon.
 
-Do NOT run Part 9 synthesis. Do NOT create new ingredient/product/regulation pages without Karen. Do NOT push to remote. All other prohibitions in docs/codex-collaboration/README.md apply.
+Do NOT run Part 9 synthesis. Do NOT create new regulation pages without surfacing the agency rule ID. For ingredient/product pages declared by an ingest that do not yet exist, run the provisional-scaffold tools (see docs/codex-collaboration/README.md prohibitions section). Do NOT push to remote. All other prohibitions in docs/codex-collaboration/README.md apply.
 
-When done, write a session summary to data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md describing: audits run + verdicts, manual-fetch PDFs ingested + cite-keys, any new-page proposals surfaced for Karen.
+When done, write a session summary to data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md describing: audits run + verdicts, manual-fetch PDFs ingested + cite-keys, provisional scaffolds created (read from data/evidence/provisional-{ingredient,product}-scaffolds.jsonl entries for this session window), and any regulation-page surfacing that needs Karen's agency-rule-ID input.
 
 Start now. No further confirmation needed from me.
 ```

@@ -280,8 +280,9 @@ function renderMorningReport({ startedAt, endedAt, completed, totalSpend, dryRun
   lines.push(``)
   lines.push(`## What this loop could not do`)
   lines.push(``)
-  lines.push(`- Anything requiring Karen's approval per CLAUDE.md Part 10 (new ingredient or product page creation above the 5-paper threshold). Those queue for Karen's morning review in \`wiki/lint/<date>-routing-triage.md\` or in batch reports.`)
+  lines.push(`- Regulation pages whose agency rule ID is unknown. Provisional ingredient and product scaffolds are created automatically via \`tools/autonomy/create-provisional-{ingredient,product}-scaffold.mjs\` and logged to \`data/evidence/provisional-{ingredient,product}-scaffolds.jsonl\`. Regulation pages need the official citation, which is the one piece of information the loop does not synthesize.`)
   lines.push(`- Edits to CLAUDE.md, OPERATING.md, or AGENTS.md. Policy documents are Karen's authority per OPERATING.md Part 4.`)
+  lines.push(`- HMTc category Step 0 Locks (assigning hmtc_category + hmtc_row + clean/contaminated splits + certification thresholds). The provisional scaffold is the routing destination; Step 0 Lock is the governance overlay that promotes it to a locked HMTc row.`)
   return lines.join("\n")
 }
 

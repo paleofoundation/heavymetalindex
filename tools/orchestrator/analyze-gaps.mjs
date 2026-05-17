@@ -106,10 +106,10 @@ if (unresolved.length > 0) {
     cost: unresolved.length > 150 ? "expensive" : "medium",
     confidence: 0.9,
     closes_count: unresolved.length,
-    closes_what: "downstream routing audit noise; surfaces new-page proposals per CLAUDE.md Part 10",
-    best_dispatched_to: "Claude Code Opus (analytical: typo fix vs new page vs detector bug)",
+    closes_what: "downstream routing audit noise; ingredient/product unresolveds with no close-slug match are scaffolded via tools/autonomy/create-provisional-{ingredient,product}-scaffold.mjs and logged",
+    best_dispatched_to: "Claude Code Opus (analytical: typo fix vs scaffold vs detector bug)",
     prompt_path: path.relative(repoRoot, promptPath),
-    details: `${unresolved.length} entries broken down as: ${summary}. Most are auto-fixable frontmatter typos; ~5% need Karen's approval for new-page creation above the Part 10 5-paper threshold.`,
+    details: `${unresolved.length} entries broken down as: ${summary}. Most are auto-fixable frontmatter typos. Ingredient/product unresolveds with no close-slug match get provisional scaffolds via heal-gaps.mjs; only regulation pages still need surfacing (agency rule IDs).`,
   })
 }
 
@@ -129,10 +129,10 @@ if (check1Fails.length > 0) {
     cost: check1Fails.length > 50 ? "medium" : "cheap",
     confidence: 0.85,
     closes_count: check1Fails.length,
-    closes_what: "routing-discipline failures per docs/order-of-operations.md Phase 1. Each source has matrices declaring product-shaped slugs but products: [] and no pending_category_lock flag. Either declare products: with matching slug(s) from the existing taxonomy, or set pending_category_lock: <name> if the target category is not yet locked.",
+    closes_what: "routing-discipline failures per docs/order-of-operations.md Phase 1. Each source has matrices declaring product-shaped slugs but products: [] and no provisional_scaffold pointer. Either declare products: with matching slug(s) from the existing taxonomy, or let the provisional-product-scaffold tool create the missing destination.",
     best_dispatched_to: "Claude Code (small structured edits; may need --include-medium reverse-route)",
     prompt_path: null,
-    details: `Most of today's 13 fails are medium-confidence map entries (fish → fresh-fish, dried-herbs → spices, vegetable-juice → vegetable-juices-non-root). Quick fix: run \`npm run reverse-route:apply -- --include-medium\` to apply medium-confidence proposals after Karen reviews them. Alternative fix: hand-edit each source to declare the correct product slug.`,
+    details: `Most of today's fails are medium-confidence map entries (fish → fresh-fish, dried-herbs → spices, vegetable-juice → vegetable-juices-non-root). Quick fix: run \`npm run reverse-route:apply -- --include-medium\` to apply medium-confidence proposals. Alternative fix: hand-edit each source to declare the correct product slug, scaffolding the destination if needed.`,
     inline_action: "run_reverse_route_include_medium",
   })
 }
@@ -637,7 +637,7 @@ Synthesis (contamination_profile updates on ingredient pages) is a SEPARATE work
 - Do not update ingredient \`contamination_profile\` blocks during ingest.
 - Do not edit \`data/evidence/product_source_routing_audit.csv\` by hand.
 - Do not edit inside \`<!-- BEGIN: ... -->\` / \`<!-- END: ... -->\` markers on product pages.
-- Do not invent new product or ingredient pages mid-ingest. If a source declares an unresolved target, surface it in your batch report; Karen approves new pages per Part 10.
+- For sources that declare an ingredient or product slug that does not yet exist, call \`tools/autonomy/create-provisional-{ingredient,product}-scaffold.mjs\` to create the routing destination; ingest continues. The scaffold tool logs the creation. Regulations still need surfacing in the batch report (agency rule IDs cannot be guessed).
 
 ## At the end
 
@@ -825,7 +825,7 @@ Current scope: ${stats.total} cells across ${stats.pages} pages. You can chunk t
 
 ## Why this matters
 
-Per Karen's standing rule (the infant-formula-powder-non-soy page is the exemplar), this column is the brand-legal-facing scannable provenance surface. A defense counsel reading the page should be able to see at a glance what each source contributes, not just that the source exists in the corpus. Wrong text in this column misrepresents the corpus and undermines defensibility, so accuracy matters more than coverage. If a source's contribution is genuinely ambiguous, write \`*[ambiguous — needs Karen review]*\` rather than guessing.
+Per Karen's standing rule (the infant-formula-powder-non-soy page is the exemplar), this column is the brand-legal-facing scannable provenance surface. A defense counsel reading the page should be able to see at a glance what each source contributes, not just that the source exists in the corpus. Wrong text in this column misrepresents the corpus and undermines defensibility, so accuracy matters more than coverage. If a source's contribution is genuinely ambiguous, write \`*[contribution unclear: <one-line reason>]*\` rather than guessing.
 
 ## Per-cell workflow
 
@@ -849,7 +849,7 @@ For each cell to fill:
 
 5. Replace the \`*[awaiting synthesis]*\` token in the cell with your description. Use the Edit tool with old_string=\`*[awaiting synthesis]*\` scoped to just that line (include enough surrounding context to make the match unique — usually the row number and cite-key).
 
-6. If a source's relationship to the page is genuinely ambiguous (e.g., the source's frontmatter routes it here but the page body doesn't actually use it), write \`*[ambiguous — needs Karen review]*\` instead.
+6. If a source's relationship to the page is genuinely ambiguous (e.g., the source's frontmatter routes it here but the page body doesn't actually use it), write \`*[contribution unclear: <one-line reason>]*\` instead.
 
 ## Tone and style
 
@@ -974,9 +974,11 @@ For each unresolved row, classify it as one of:
 
 2. **Below-threshold variant** — the declared slug is a sub-variant of an existing page. Per CLAUDE.md Part 10, sub-variants below the 5-paper threshold go as \`aliases\` on the parent ingredient page, not as new pages. **Decide and act without asking; update the source frontmatter to point at the parent.**
 
-3. **Above-threshold new-page proposal** — the declared slug is a legitimate new ingredient/product/regulation page above the 5-paper threshold. **Surface this to Karen for approval per Part 10.** Compile the list at the end of the triage.
+3. **New ingredient or product slug** — call \`tools/autonomy/create-provisional-{ingredient,product}-scaffold.mjs --slug <slug> --title "<Title>" --source-cite-key <source-id>\` to create the routing destination. The scaffold tool marks the page \`provisional_scaffold: true\` and appends to the audit log at \`data/evidence/provisional-{ingredient,product}-scaffolds.jsonl\`. **Decide and act without asking.**
 
-4. **Detector bug** — the routing audit is too strict; the slug actually matches a page but my classifier missed it. Fix \`tools/evidence/build-routing-audit.mjs\` or its sub-script.
+4. **New regulation slug** — surface in the triage report with the source's citation context so Karen can look up the agency rule ID. Do not guess agency identifiers.
+
+5. **Detector bug** — the routing audit is too strict; the slug actually matches a page but my classifier missed it. Fix \`tools/evidence/build-routing-audit.mjs\` or its sub-script.
 
 Sample first 5 rows:
 
@@ -987,7 +989,8 @@ ${sample}
 Append a triage report at \`wiki/lint/${today}-routing-triage.md\` listing:
 - Frontmatter fixes made (count + sample)
 - Below-threshold redirects made (count + sample)
-- New-page proposals for Karen's approval (full list — these need her decision per Part 10)
+- Provisional scaffolds created (ingredient/product, with source-cite-key triggering each)
+- New regulation slugs surfaced (these need Karen's agency rule ID input)
 - Detector bugs fixed in the audit script
 
 Then run \`npm run evidence:source-routes\` to verify the unresolved count dropped.

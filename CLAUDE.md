@@ -53,7 +53,7 @@ The second direction: strengthening wiki claims to make HMT&C thresholds look mo
 
 The wiki says what the literature supports, honestly. HMT&C certification pages reference the wiki for the literature baseline and explain the rationale for any deviation. Deviations are labeled as precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment. The gap is stated, not hidden. The gap is the point; it is how ratcheting works.
 
-When in doubt about whether a proposed edit softens or strengthens a wiki claim in a direction that serves HMT&C rather than the literature, stop and ask Karen. This is the single most important form of drift to catch. Claude sessions drift in this direction naturally because it feels helpful. It is not helpful. It is the failure mode that, if it happens unchecked, makes the whole strategic architecture collapse.
+The check Claude runs before every substantive wiki edit: name the direction the edit moves in (toward the literature, or away from it toward HMT&C convenience), and record that direction in the commit message or synthesis audit log. If the edit moves toward the literature — making the wiki more accurately reflect what sources say, even if that exposes a wider gap with HMT&C thresholds — proceed. If the edit moves toward HMT&C — softening a claim to hide a gap, or strengthening a claim to make a threshold look more evidence-based than the literature supports — stop and ask Karen, because that is the failure mode Part 2 exists to prevent. The ask is not "is this edit OK?"; the ask is "I notice this edit moves toward HMT&C in the following specific way — proceed?" If Claude cannot articulate the direction at all, that is a signal to read the source more carefully before editing, not a signal to ask Karen.
 
 ## Part 3 — Products this wiki serves
 
@@ -187,11 +187,18 @@ New-page proposals (ingredient, product, regulation) surface from two places: th
 
 **Ingredients:** create a new page when 5 or more papers treat the sub-variant as a distinct commodity with its own risk profile. Below that threshold, add the variant as an `aliases` entry on the parent page with a short note in the page body. Example: 3 papers mention "rice bran" alongside rice papers → rice bran goes in `ingredients/rice.md` aliases. 10 papers focus specifically on rice bran contamination distinct from whole rice → create `ingredients/rice-bran.md`. When the threshold is crossed, propose the new page in the batch report.
 
-**Products:** product pages are auto-created as routing destinations when a source declares a slug with no matching page (frequency >= 2). Per Karen's Path A directive (2026-05-17), the autonomy loop creates these stubs with `pending_category_lock: true` plus `hmtc_category: null` and `hmtc_row: null` in frontmatter. **The lock flag is the governance signal:** the page exists so sources route somewhere defined, but HMTc category assignment, within-row clean/dirty splits, contamination-platform classification, and certification thresholds do not derive from the page until Karen authors a Step 0 Lock and runs the corresponding scaffold script (`tools/autonomy/cat<N>-step0-scaffold.mjs`). The Cat 2 scaffold (`tools/autonomy/cat2-step0-scaffold.mjs`) is the reference exemplar; scaffolding promotes the stub to a locked row, clearing the `pending_category_lock` flag.
+**Products:** product pages are auto-created as routing destinations whenever a source declares a slug with no matching page. Two entry points produce these:
 
-The pre-2026-05-17 policy of writing unresolved product slugs to `data/evidence/autonomy/product-stub-proposals-pending.csv` instead of creating pages is preserved as the `--no-products` flag for one-off cases. The default is to create the routing destination immediately.
+- `tools/autonomy/create-missing-pages.mjs` (frequency-driven, batch) handles slugs that have accumulated freq >= 2 across the corpus.
+- `tools/autonomy/create-provisional-product-scaffold.mjs` (single-slug, on-demand) handles slugs the active ingest session encounters mid-run, including freq-1.
 
-The 2026-05-14 incident (face-paint, lipstick, skin-lightening-cream auto-stubs retired the next day by the Cat 2 scaffold) was caused by stubs being created *without* the lock flag — they looked like full product pages with HMTc bindings. The lock flag prevents that failure mode.
+Both tools mark the page `provisional_scaffold: true` plus `hmtc_category: pending_taxonomy_review` and `hmtc_row: pending_taxonomy_review` in frontmatter, and log creation to `data/evidence/provisional-product-scaffolds.jsonl`. **The flag is the governance signal:** the page exists so sources route somewhere defined, but HMTc category assignment, within-row clean/dirty splits, contamination-platform classification, and certification thresholds do not derive from the page until a Step 0 Lock is authored (see `tools/autonomy/cat<N>-step0-scaffold.mjs`; the Cat 2 scaffold is the reference exemplar). Scaffolding promotes the stub to a locked row, clearing the `provisional_scaffold` flag.
+
+The pre-2026-05-17 flag name `pending_category_lock: true` is the predecessor of `provisional_scaffold: true`. Both are recognized by audit-routing-discipline and the orchestrator for back-compat; new pages use `provisional_scaffold`. The pre-2026-05-17 policy of writing unresolved product slugs to `data/evidence/autonomy/product-stub-proposals-pending.csv` instead of creating pages is preserved as the `--no-products` flag for one-off cases. The default is to create the routing destination immediately.
+
+The 2026-05-14 incident (face-paint, lipstick, skin-lightening-cream auto-stubs retired the next day by the Cat 2 scaffold) was caused by stubs being created *without* a provisional flag — they looked like full product pages with HMTc bindings. The flag prevents that failure mode.
+
+**Ingredients (2026-05-17 update):** ingredient pages get the same treatment. Slugs at freq >= 2 are auto-stubbed by `create-missing-pages.mjs`; freq-1 slugs an active ingest declares are created via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` with `provisional_scaffold: true` and `literature_scope: thin`. The 5-paper-threshold rule still applies to *promotion*: a provisional scaffold is the routing destination; it becomes a full ingredient page (with populated `contamination_profile`) once the literature crosses the threshold and the synthesis pass runs.
 
 **Regulations:** create a new regulation page on first encounter. Regulations have hard identifiers (rule numbers, official names) and benefit from being captured immediately.
 
@@ -219,7 +226,7 @@ COAs and internal lab data belong in the private brand-intelligence build descri
 
 HMT&C certified brands are never mentioned in the wiki. Not in page bodies, not in examples, not in case studies. The wiki is evidentially separate from the certification program; treating it as promotional infrastructure for HMT&C would destroy the defensibility argument this whole project rests on.
 
-If ever unsure whether something crosses the line, ask before writing.
+Brand-firewall calls are usually unambiguous from the source's framing: if the source names a brand and the wiki page is a product-category or ingredient page, summarize the category-level signal and drop the brand name. The ask-Karen case is narrow: a source whose findings *only* make sense with brand attribution (e.g., a single-brand recall whose entire scope is one product line, where a category-level summary would misrepresent the source). In that case, ask Karen before writing. In all other cases, decide and proceed.
 
 ## Part 13 — Evidence grading
 
@@ -275,13 +282,13 @@ When Karen (or Karen's Lab) runs lint across the wiki, the lint pass checks for:
 
 **Orphaned routing reference:** product-category page references a source whose routing row was removed.
 
-**Source missing products field on food/personal-care paper:** source has populated `matrices:` with product-shaped slugs but `products: []` and no `pending_category_lock` flag. Run via `node tools/audit-routing-discipline.mjs`. Currently `--warn-only`; flip to fail-on-error after Phase 1 frontmatter discipline stabilizes. See `docs/order-of-operations.md` Phase 1.
+**Source missing products field on food/personal-care paper:** source has populated `matrices:` with product-shaped slugs but `products: []` and no `provisional_scaffold`/`pending_category_lock` flag. Run via `node tools/audit-routing-discipline.mjs`. Currently `--warn-only`; flip to fail-on-error after Phase 1 frontmatter discipline stabilizes. See `docs/order-of-operations.md` Phase 1.
 
 **HMTc-locked product page has zero routed sources:** product page has both `hmtc_category` and `hmtc_row` but no source declares it. Either the scaffold has not yet received its Phase 1 ingest, or sources declare incorrect slugs. `--warn-only`. See `docs/order-of-operations.md` Phase 5.
 
-**Source declares product page requiring Step 0 Lock:** `routing_unresolved.csv` row whose `target_kind` is `product` and `declared_target` corresponds to a not-yet-locked HMTc category. Surfaces to the orchestrator's morning report. Fix is Karen-side: author the Step 0 Lock, run the scaffold.
+**Source declares product page requiring Step 0 Lock:** `routing_unresolved.csv` row whose `target_kind` is `product` and `declared_target` corresponds to a not-yet-locked HMTc category. The provisional-product-scaffold tool creates the routing destination immediately so ingest continues. Step 0 Lock then promotes the provisional scaffold to a locked HMTc row in a separate governance pass.
 
-**Product page exists but lacks Step 0 Lock:** `pending_category_lock: true` is in the frontmatter (Path A auto-stub). Surfaced in the morning report so Karen can prioritize Step 0 Locks for the categories with the most pulled-through evidence. Not a build-blocking lint failure — the lock-pending state is intentional and reversible. The audit `tools/autonomy/audit-pending-locks.mjs` counts these and ranks by routed-source count.
+**Product page exists but lacks Step 0 Lock:** `provisional_scaffold: true` (or legacy `pending_category_lock: true`) is in the frontmatter. Surfaced in the morning report so Step 0 Locks can be prioritized for the categories with the most pulled-through evidence. Not a build-blocking lint failure — the provisional state is intentional and reversible. The audit `tools/autonomy/audit-pending-locks.mjs` counts these and ranks by routed-source count.
 
 Lint results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`. Lint entries in `log.md` use `op: lint`. Routing lint failures should block builds, not just produce reports, because routing drift propagates silently.
 

@@ -161,7 +161,7 @@ Use ISO 3166-1 alpha-2 country codes (US, CN, IN, FR, DE, JP, etc.) or region co
 
 [PASTE TAXONOMY SNAPSHOT HERE]
 
-The taxonomy snapshot is in a sibling file (docs/gpt-collaboration/taxonomy-snapshot.md). Karen will paste its current contents below this line whenever it has been refreshed. If the snapshot section is empty, stop and ask Karen to refresh it before continuing.
+The taxonomy snapshot is in a sibling file (docs/gpt-collaboration/taxonomy-snapshot.md). Karen will paste its current contents below this line whenever it has been refreshed. If the snapshot section is empty, proceed using the slugs the source itself names; the verification pass either matches them to existing pages or creates provisional scaffolds via `tools/autonomy/create-provisional-{ingredient,product}-scaffold.mjs`. Do not stop ingest because the taxonomy snapshot is stale.
 
 OUTPUT FORMAT
 
