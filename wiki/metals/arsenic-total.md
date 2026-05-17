@@ -18,7 +18,7 @@ Total arsenic (tAs) denotes the sum of inorganic and organic arsenic species in 
 
 ## Why total arsenic is reported separately from inorganic arsenic
 
-Total arsenic and inorganic arsenic are different analytes with different toxicological interpretation, and the Heavy Metal Index treats them as non-substitutable per [[/conventions|CLAUDE.md Part 14]]. A total arsenic measurement does not close an inorganic arsenic evidence gap. A regulation written against inorganic arsenic is not satisfied by a total arsenic measurement.
+Total arsenic and inorganic arsenic are different analytes with different toxicological interpretation, and the Heavy Metal Index treats them as non-substitutable per the [methodology speciation rule](/methodology). A total arsenic measurement does not close an inorganic arsenic evidence gap. A regulation written against inorganic arsenic is not satisfied by a total arsenic measurement.
 
 The mechanistic reason is speciation. Arsenic occurs in food as a mixture of inorganic species (arsenite, arsenate) and organic species (methylated forms: monomethylarsonic acid MMA and dimethylarsinic acid DMA; complex organics: arsenobetaine, arsenosugars, arsenolipids). Inorganic arsenic is classified by IARC as a Group 1 carcinogen and is the species of regulatory concern in food. The principal organic forms — arsenobetaine in fin-fish and shellfish, arsenosugars in seaweed and bivalve molluscs — are substantially less toxic and in many cases not reliably bioavailable as inorganic arsenic. A seafood sample with high total arsenic dominated by arsenobetaine carries a fundamentally different risk profile than a rice sample with comparable total arsenic dominated by inorganic species.
 

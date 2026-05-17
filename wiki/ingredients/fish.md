@@ -235,17 +235,39 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+The dominant axis of variance in fish heavy-metal load is trophic position. Methylmercury biomagnification is multiplicative through each trophic step: small filter-feeders and herbivorous fish carry low Hg; mid-level predators carry moderate Hg; apex predators carry the highest Hg. Within a given species, individual variance is large and is driven by body size (older, larger individuals carry higher Hg because exposure accumulates over a lifetime), trophic specialization (an individual that feeds higher in the food web than average for its species will carry higher Hg), and waterbody history.
+
+Marine versus freshwater origin is the secondary axis. Marine apex predators (shark, swordfish, king mackerel from the Gulf of Mexico, bigeye tuna, marlin, tilefish from the Gulf) routinely test in the high-Hg range; the FDA "Avoid" tier in the FDA/EPA fish-consumption advisory is built around these species. Freshwater wild fish from waterbodies near historic mining, chlor-alkali industry, or coal-fired power generation can carry Hg comparable to marine apex predators despite lower trophic position, because watershed Hg loading is locally elevated. Farmed freshwater fish (catfish, tilapia, farmed salmon) typically carry the lowest Hg because feed-mediated exposure is lower and lifespan is shorter than wild equivalents. See [[ingredients/freshwater-fish]] for the freshwater-specific synthesis.
+
+Geographic variance is documented at the waterbody level. The Great Lakes carry an active fish-consumption advisory program because of legacy Hg + PCB loading. The Gulf of Mexico carries tilefish-specific advisories. Subsistence-fishing populations in the Arctic and in parts of the Amazon basin carry the highest documented chronic MeHg exposures globally because of cultural reliance on apex predators and marine mammals.
+
+Cadmium in fin-fish is generally low because cadmium is not significantly biomagnified through the aquatic food web in the way mercury is; the dominant marine-food Cd source is bivalve molluscs ([[ingredients/bivalve-molluscs]], [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]]). Lead in fish is similarly low except where waterbody loading is elevated. Total arsenic in fin-fish is dominated by arsenobetaine and is not health-equivalent to inorganic arsenic; see [[metals/arsenic-total]] for the speciation interpretation rule.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Methylmercury is bound to cysteine residues in fish muscle protein and is not reduced by ordinary cooking, smoking, or canning. Cooking can slightly concentrate Hg per gram of finished product through water loss, but the total methylmercury per serving is approximately conserved. Removing the skin reduces lipophilic contaminants (PCBs, dioxins) but does not reduce methylmercury, because methylmercury is in the muscle tissue itself. Removing the dark muscle (where present) can slightly reduce per-serving methylmercury in some species, but is not a routine consumer practice.
+
+Canning concentrates fish solids relative to fresh form (water loss, sometimes oil or sauce added). The methylmercury load per can of tuna or sardines reflects the source-fish methylmercury level adjusted for canning yield. Smoking does not reduce methylmercury; some smoking processes can add trace metals from smoke or curing salts, but this is small relative to the underlying matrix load. Surimi (paste from low-trophic fish, used in imitation crab and similar products) carries lower Hg than the species mix would suggest because surimi is made from short-lived species deliberately.
+
+For cadmium and lead in fish, where the matrix carries low baseline loads, processing effects are similarly small relative to source variability. The dominant determinant of finished-product metal load is still the species and sourcing decision, not the processing decision.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Fish oil supplements (omega-3, EPA/DHA, cod liver oil) are a separate exposure pathway with distinct contamination patterns. Methylmercury is concentrated in muscle protein and is largely partitioned out of the oil fraction during pressing and refining; commercial fish oil typically carries lower MeHg than the source fish on a mass basis. However, the lipophilic contaminants (PCBs, dioxins) that the oil fraction does carry are concentrated in fish oil, and reputable manufacturers run molecular distillation to reduce these to acceptable levels. Cod liver oil specifically can carry higher cadmium and lead than refined fish oil because the liver is the storage organ for some metals. See [[products/dietary-supplements]] (Cat 16 supplement oil-based) for the supplement-specific routing.
+
+Fish flour and fish protein concentrate, used as feed additives and in some fortification applications, can concentrate metals where they were present in the source fish. Fish sauce, where fish are fermented in salt for extended periods, carries metal concentrations broadly proportional to the source fish but with variability driven by fermentation length and salt source. Imitation surimi-based products carry the surimi base's lower Hg.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+For fish, mitigation operates almost entirely at the sourcing and consumption-pattern levels. Unlike rice or cocoa, where agronomic and processing levers can substantially shift the finished-product metal load, fish methylmercury is determined by the species and waterbody at the point of catch and cannot be reduced through downstream processing.
+
+**Sourcing levers** are the dominant intervention. Choosing low-trophic, short-lived species (sardines, anchovies, herring, salmon, tilapia, catfish) over apex predators (shark, swordfish, king mackerel, tilefish, bigeye tuna) reduces methylmercury exposure by one to two orders of magnitude. Farmed-fish sourcing typically reduces Hg below comparable wild-caught species. Geographic provenance matters: avoiding waterbodies with active fish-consumption advisories is the operational rule. See [[mitigation/supply-chain-screening]] for the sourcing-screening framework.
+
+**Consumption-pattern levers** apply at the consumer level. The FDA/EPA joint fish-consumption advisory categorizes fish into three tiers (best choice, good choice, avoid) and recommends weekly serving counts calibrated by tier. Pregnant women, women of childbearing age, breastfeeding mothers, and young children are the priority audiences. Substituting two best-choice servings per week for one avoid-tier serving reduces methylmercury exposure substantially without losing the cardiovascular and neurodevelopmental benefits of fish in the diet.
+
+**Testing and QC levers** are routine in brand QA. Lot-level methylmercury testing on incoming fish, particularly for high-Hg species and value-added products targeting infants and pregnancy populations, is standard practice in regulated supply chains. See [[mitigation/testing-and-qc]] for sampling-plan and method considerations; [[testing/icp-ms]] for the analytical method.
+
+**Processing levers** are limited for methylmercury. Removing dark muscle and skin marginally reduces methylmercury in some species but does not change the order-of-magnitude exposure picture. For commercial preparation of low-Hg-target fish products, the dominant intervention is source-species selection upstream.
+
+**Packaging and storage levers** are not consequential for methylmercury in fish; the metal is bound to muscle protein and does not migrate to packaging materials in a way that affects finished-product Hg load. Canned fish carries the standard tinplate-migration Sn consideration ([[mitigation/packaging-and-storage]]).
 
