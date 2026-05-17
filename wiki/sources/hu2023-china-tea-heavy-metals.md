@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.3390/toxics11080662"
 metals: [tAs, Cd, Cr, Cu, tHg, Pb]
 ingredients: ["[[ingredients/camellia-sinensis]]"]
-products: ["[[products/true-tea-camellia-sinensis]]"]
+products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea]]"]
 matrices: [green-tea, white-tea, dark-tea, black-tea, oolong-tea, scented-tea, yellow-tea, tea-plantation-soil]
 jurisdictions: [CN]
 sample_n: 4803

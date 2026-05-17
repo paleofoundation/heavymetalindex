@@ -15,7 +15,7 @@ no_doi_assigned: true
 metals: [Sn]
 species: [Sn2+, Sn4+, organotins, monobutyltin, dibutyltin, tributyltin, triphenyltin]
 ingredients: ["[[ingredients/canned-corn]]", "[[ingredients/canned-fruit-cocktail]]", "[[ingredients/canned-green-beans]]", "[[ingredients/canned-mushrooms]]", "[[ingredients/canned-tomatoes]]", "[[ingredients/apple-juice]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]", "[[products/seafood]]"]
+products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]", "[[products/seafood]]", "[[products/canned-fish]]"]
 matrices: [canned-food, canned-juice, seafood, drinking-water, blood, urine, tissue]
 jurisdictions: [US]
 updated: 2026-05-08

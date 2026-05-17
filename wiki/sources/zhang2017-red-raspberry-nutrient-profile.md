@@ -14,7 +14,7 @@ license: unknown
 raw_path: raw/markdown/FM_6974958/FM_6974958.md
 metals: []
 ingredients: ["[[ingredients/fruit]]"]
-products: []
+products: ["[[products/mixed-meals-non-rice]]"]
 matrices: [food, processed-food]
 jurisdictions: [US]
 near_duplicates: []

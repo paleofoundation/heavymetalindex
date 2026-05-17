@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/manual-fetch/spice-adulteration-lead/Turmeric means\"yellow\" in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh.pdf"
 metals: [Pb, Cr]
 ingredients: ["[[ingredients/turmeric]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [turmeric-root, turmeric-powder, yellow-pigment, polishing-dust, soil]
 jurisdictions: [BD]
 sample_n: 524

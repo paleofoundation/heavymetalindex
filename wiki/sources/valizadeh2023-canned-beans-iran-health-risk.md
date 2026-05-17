@@ -14,7 +14,7 @@ license: unknown
 raw_path: raw/markdown/FM_12858930/FM_12858930.md
 metals: [tAs, Cd, Pb, Sn, tHg]
 ingredients: ["[[ingredients/lentils]]"]
-products: []
+products: ["[[products/canned-fish]]"]
 matrices: [canned-food, legume, cooked-legume]
 jurisdictions: [IR]
 near_duplicates: []

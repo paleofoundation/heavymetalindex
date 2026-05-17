@@ -14,7 +14,7 @@ access_url: "https://ec.europa.eu/food/fs/sc/scf/out110_en.pdf"
 metals: [Sn]
 species: [Sn2+, Sn4+]
 ingredients: []
-products: []
+products: ["[[products/canned-fish]]"]
 matrices: [canned-food, canned-beverage]
 jurisdictions: [EU]
 adopted_date: 2001-12-12
