@@ -50,3 +50,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** [[Part 5b routing layer]], [[Part 9 synthesis]], [[Part 11 priority ordering]]. No wiki/HMT&C firewall violation. Aligns with no-hand-curation principle: deterministic, repeatable, emitted to audit log.
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Rank gap_driven_wishlist_queries to guide targeted source-finding
+
+**What:** Analyze the 631 gap_driven_wishlist_queries to identify the top 50 highest-impact (ingredient, metal) cell combinations, then generate a ranked source-finding priority list for the autonomy ingest orchestrator to consume.
+
+**Why this lever now:** The corpus has 286 blocked cells and 631 gap-driven queries—concrete questions the literature should answer but the corpus doesn't yet contain. The queries represent the direct signal of where to search next. Ranking them by how many blocked cells each unblocks converts the wishlist from a reporting artifact into deterministic input for ingest prioritization, so future sessions know which papers matter most.
+
+**Where:**
+- Input: `data/evidence/autonomy/gap-driven-wishlist-queries.jsonl` (the 631 queries)
+- Output: `data/evidence/autonomy/priority-source-finding-list.csv` with columns: `priority_rank | ingredient_slug | metal | n_blocked_cells_affected | search_terms | gap_description`
+
+**How:**
+1. Parse the 631 queries and map each to the (ingredient, metal) cells it would populate if answered.
+2. Count blocked cells per query; rank by cell-unblock impact.
+3. For each top-50 query, generate natural-language search terms suitable for literature databases (PubMed, Web of Science, Google Scholar).
+4. Emit as CSV; feed to the autonomy orchestrator so the next ingest batch is guided by signal, not guessing.
+5. Log the analysis to `data/evidence/autonomy/gap-driven-source-priorities-<date>.md` with summary metrics.
+
+**Anchors:** Part 9 (synthesis cell-population triggers), Part 11 (priority ordering for bulk ingest), deterministic-generator pattern. Gap-driven testing is already capturing signal; this proposal routes that signal into the ingest loop to unblock the 286 cells systematically.
+
+---

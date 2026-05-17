@@ -77,7 +77,7 @@ echo "$TIMESTAMP" > "$HEARTBEAT_FILE"
 # dirty. Heartbeat is now gitignored; this check is the second layer of
 # defense for the multi-agent (daemon + Codex + Claude Code) operation
 # Karen runs in parallel during sprints.
-TRANSIENT_PATHS='data/evidence/product_source_routing_audit.csv|data/evidence/audit-queue.csv|data/evidence/autonomy/|data/evidence/cells-needing-synthesis.csv|data/evidence/routing_unresolved.csv|data/evidence/routing_malformed.csv|data/evidence/data-gap-with-sources.csv|data/evidence/build-action-plan\.(json|md)|data/evidence/build-action-prompts/'
+TRANSIENT_PATHS='data/evidence/|data/workbench/|wiki/briefings/weekly-'
 REAL_DIRTY=$(git status --porcelain | grep -vE "^.. ($TRANSIENT_PATHS)" || true)
 if [[ -n "$REAL_DIRTY" ]]; then
   log "Working tree has real content edits (wiki/, docs/, tools/, etc.). Daemon refuses to run; another agent may be mid-work."

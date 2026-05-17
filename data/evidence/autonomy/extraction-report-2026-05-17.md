@@ -1,6 +1,6 @@
 # Source-value extraction report — 2026-05-17
 
-Generated: 2026-05-17T13:44:47.739Z
+Generated: 2026-05-17T14:33:43.894Z
 Mode: EXECUTED
 Elapsed: 0s
 
@@ -9,7 +9,7 @@ Elapsed: 0s
 - Source pages processed: 922
 - Pages with `## Key numbers` section: 810
 - Pages without Key numbers section (skipped): 112
-- Structured rows extracted: 4215
+- Structured rows extracted: 4227
 - Pages with Key numbers but no parseable values: 57
 
 ## Output
@@ -19,13 +19,13 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 913 rows
-- Cd: 873 rows
+- Pb: 917 rows
+- Cd: 875 rows
 - Cr-total: 431 rows
 - Ni: 379 rows
-- tAs: 341 rows
+- tAs: 344 rows
 - Al: 280 rows
-- tHg: 274 rows
+- tHg: 277 rows
 - iAs: 167 rows
 - MeHg: 92 rows
 - Cu: 79 rows

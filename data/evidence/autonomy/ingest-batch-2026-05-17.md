@@ -18,4 +18,16 @@
 
 ### Failed
 - P1 `introduction2025-concentrations-heavy-metals-processed` (FM_12793581): exit 1: 
-- P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264): exit 1: 
+- P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264): exit 1:
+
+## Batch 2026-05-17T14:39:11.750Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `trace2025-trace-element-intake-dairy-free` (FM_12845264)
+
+### Failed
+- P1 `introduction2025-concentrations-heavy-metals-processed` (FM_12793581): exit 1: 

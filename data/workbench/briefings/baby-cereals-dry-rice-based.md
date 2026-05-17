@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: baby-cereals-dry-rice-based
 native_basis: dry_as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-17T14:03:35.288Z
+generated_at: 2026-05-17T15:02:55.045Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -142,10 +142,10 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | carey2018-rice-dilution-infant-food-eu-arsenic (2018) · GB, EU | Dilution of rice with other gluten free grains to lower inor… | unknown | 6 | single_point | 0.3% |
 | efsa2021-chronic-exposure-iAs (2021) · EU | Chronic dietary exposure to inorganic arsenic | unknown | 15 | lognormal_mean_max | 4.6% |
 | fda2020-iAs-rice-cereal-supporting-doc (2020) · US | Supporting Document for Action Level for Inorganic Arsenic i… | unknown | 306 | lognormal_mean_only | 50.0% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 85 | uniform_max_only | 3.1% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 29 | uniform_max_only | 3.1% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 105 | uniform_max_only | 3.1% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 53 | uniform_max_only | 3.1% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 85 | uniform_max_only | 3.1% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 29 | uniform_max_only | 3.1% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 105 | uniform_max_only | 3.1% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 53 | uniform_max_only | 3.1% |
 | fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_sold_or_source_reported | 10 | lognormal_lod_censored_midpoint | 3.1% |
 | fda2016-infant-toddler-foods-inorganic-arsenic (2016) · US-FDA | Analytical Results from Inorganic Arsenic in Rice Cereals fo… | as_sold_dry_cereal | 82 | percentile_interpolation | 25.1% |
 
@@ -266,7 +266,7 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 | `fda2024-toxic-elements-baby-food-compliance-2009-2024` (A) | Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024) | U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null |
 | `fsa2016-infant-food-formula-metals-survey` (A) | Survey of metals in commercial infant foods, infant formula and non-infant specific foods | Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048 |
 | `gardener2019-pb-cd-us-infant-formula-baby-foods` (A) | Lead and cadmium contamination in a large sample of United States infant formulas and baby foods | Gardener H; Bowen J; Callan SP · 2019 · Science of the Total Environment · doi:10.1016/j.scitotenv.2018.09.026 |
-| `signes-pastor2016-inorganic-arsenic-rice-products-infants` (A) | Inorganic arsenic in rice-based products for infants and young children | 2016 · Food Chemistry · doi:10.1016/j.foodchem.2014.11.078 |
+| `signes-pastor2016-inorganic-arsenic-rice-products-infants` (A) | Inorganic arsenic in rice-based products for infants and young children | 2016 · Food Chemistry 191:128-134 · doi:10.1016/j.foodchem.2014.11.078 |
 | `toledo2024-essential-toxic-elements-infant-cereal-brazil` (A) | Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment | Toledo MC; Lee JS; Batista BL; Olympio KPK; Nardocci AC · 2024 · International Journal of Environmental Research and Public Health 21(4):381 · doi:10.3390/ijerph21040381 |
 
 In addition to occurrence sources, this briefing cites:
@@ -286,17 +286,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `6c8b0591f3c01584256979adb07a636276c4c955` in the heavymetalindex.com repository.
+1. Checking out commit `17b6b384e6671c90d53005bd4e4b0d8bb95a85e7` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=baby-cereals-dry-rice-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-17T14:03:35.298Z |
+| Generated at | 2026-05-17T15:02:55.055Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `6c8b0591f3c01584256979adb07a636276c4c955` |
+| Git commit | `17b6b384e6671c90d53005bd4e4b0d8bb95a85e7` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

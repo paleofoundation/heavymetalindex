@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: teething-and-snacks-rice-based
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-17T14:03:36.753Z
+generated_at: 2026-05-17T15:02:56.484Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -135,8 +135,8 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 199 | uniform_max_only | 50.0% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 97 | uniform_max_only | 50.0% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 199 | uniform_max_only | 50.0% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 97 | uniform_max_only | 50.0% |
 
 </details>
 
@@ -242,7 +242,7 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 |---|---|---|
 | `collado-lopez2025-heavy-metals-baby-food-formula` (A) | Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review | Sonia Collado-Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-Moreno; Martha Maria Tellez-Rojo; Larissa Betanzos-Robledo; Moises Reyes Luna; Alejandra Cantoral-Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138 |
 | `fda2024-toxic-elements-baby-food-compliance-2009-2024` (A) | Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024) | U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null |
-| `signes-pastor2016-inorganic-arsenic-rice-products-infants` (A) | Inorganic arsenic in rice-based products for infants and young children | 2016 · Food Chemistry · doi:10.1016/j.foodchem.2014.11.078 |
+| `signes-pastor2016-inorganic-arsenic-rice-products-infants` (A) | Inorganic arsenic in rice-based products for infants and young children | 2016 · Food Chemistry 191:128-134 · doi:10.1016/j.foodchem.2014.11.078 |
 
 In addition to occurrence sources, this briefing cites:
 
@@ -261,17 +261,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `6c8b0591f3c01584256979adb07a636276c4c955` in the heavymetalindex.com repository.
+1. Checking out commit `17b6b384e6671c90d53005bd4e4b0d8bb95a85e7` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=teething-and-snacks-rice-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-17T14:03:36.763Z |
+| Generated at | 2026-05-17T15:02:56.493Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `6c8b0591f3c01584256979adb07a636276c4c955` |
+| Git commit | `17b6b384e6671c90d53005bd4e4b0d8bb95a85e7` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

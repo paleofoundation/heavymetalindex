@@ -8,7 +8,7 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/lead-gut-axis]]", "[[microbiome/lead-dysbiosis]]"]
 updated: 2026-05-03
-sources: 423
+sources: 422
 ---
 
 # Lead

@@ -23,3 +23,14 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Dietary intake of methylmercury by 0–5 years childrenusing the duplicate diet method in Japan.pdf`: PDF already has clean post-2026-05-14 canonical page (tatsuta2024-mehg-duplicate-diet-children-japan, ingested in commit 0d0d0b0 earlier today); separate legacy duplicate page tatsuta2024-methylmercury-intake-children-duplicate-diet flagged for dedup.
+
+## Tick 2026-05-17T14:39:11.842Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `signes-pastor2016-inorganic-arsenic-rice-products-infants` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Inorganic arsenic in rice-based products for infants and young children.pdf)
+- `dokhtkkhatibi2024-infant-formula-baby-food-zahedan` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Investigation of heavy metal concentrations and health risk assessment in infant formula and infant cereals in Zahedan, Iran.pdf)
