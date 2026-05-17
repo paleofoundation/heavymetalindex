@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Survey of Aluminium Content of Processed Food Using Baking Powder.pdf"
 metals: [Al]
 ingredients: ["[[ingredients/baking-powder]]", "[[ingredients/wheat-flour]]"]
-products: ["[[products/confectionery]]", "[[products/bakery]]"]
+products: ["[[products/confectionery]]", "[[products/bakery]]", "[[products/snacks-crackers-biscuits]]"]
 matrices: [confectionery, bakery-products, flour-processed-foods, powder-mix]
 jurisdictions: [JP]
 near_duplicates: []

@@ -14,7 +14,7 @@ license: "open access (NIEHS/NIH)"
 raw_path: raw/markdown/FM_3346791/FM_3346791.md
 metals: [iAs, tAs, DMA, MMA]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/honey]]"]
 matrices: [organic-brown-rice-syrup, infant-formula-toddler-with-rice-syrup, cereal-bars, dry-weight]
 jurisdictions: [US]
 sample_n: 29
