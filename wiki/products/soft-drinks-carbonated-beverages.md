@@ -93,6 +93,43 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/cadmium\|Cd]] | Soft drinks/carbonated beverages (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+## Who this page is for
+
+Brand legal teams evaluating HMTc Cat 5 certification for the Soft drinks / carbonated beverages row, retailer compliance teams stocking the beverage aisle, and HMT&C staff routing source evidence to this row. This page reports what the cited literature says about heavy-metal occurrence in soft drinks and carbonated beverages; HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+
+## Methodology
+
+This page reports what the cited sources say about heavy-metal concentrations in soft drinks and carbonated beverages. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-consumed liquid concentration). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+
+## Source Evidence Inventory
+
+*Pending ingest. The routing layer populates this section from the source-page set declaring `products: [soft-drinks-carbonated-beverages]`.*
+
+## Broad Product Context: Author-Scope Index
+
+<!-- BEGIN: hmi-broad-context-sources -->
+*Pending ingest. The routing layer surfaces sources whose author-stated scope is broader than this row as they are added.*
+<!-- END: hmi-broad-context-sources -->
+
+## Levers to reduce contamination
+
+Practical interventions to reduce heavy-metal load in soft drinks and carbonated beverages, ordered by impact magnitude.
+
+- **Sourcing levers** — Water source quality (heavy-metal screening of plant feed water), CO2 purity specification, sugar/sweetener supplier QC.
+- **Agronomic levers** — Not applicable for finished carbonated beverages directly; upstream applies to flavoring ingredients (citrus, herbs, etc.).
+- **Processing levers** — Water filtration at the bottling plant, food-contact-material specification for plant equipment.
+- **Formulation levers** — Choice of acidulant, sweetener, flavor system.
+- **Testing and QC levers** — Lot-level finished-product testing; see [[mitigation/testing-and-qc]] and [[testing/icp-ms]].
+- **Packaging and storage levers** — Can-lining integrity (tinplate vs aluminum vs polymer-lined); see [[mitigation/packaging-and-storage]]. Sn migration from tinplate cans is the dominant packaging concern for canned soft drinks.
+
+## How standards math uses this page
+
+HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page. The row-standard for this row is an aggregate computed from the contributing source pool in the row's native finished-product basis; it is not a per-source decoration of any single value cited on this page. This public page reports literature evidence only.
+
+## Historical recalls and enforcement
+
+*Pending ingest. Regulatory events relevant to soft drinks and carbonated beverages will be added as agency records are routed to this row.*
+
 ## Sources
 
-- Source promotion pending.
+- Source promotion pending. The Cat 5 Step 0 lock identifies [[sources/tarigan2016-factors-tin-released-canned-beverages]] as the canned-beverage Sn-migration anchor for this row.
