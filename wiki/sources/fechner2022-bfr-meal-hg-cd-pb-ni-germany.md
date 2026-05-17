@@ -10,11 +10,11 @@ doi: 10.1016/j.fochx.2022.100326
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Results of the BfR MEAL Study_ In Germany, mercury is mostly cont.pdf"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Results of the BfR MEAL Study_ In Germany, mercury is mostly contained in fish and seafood while cad.pdf"
 metals: [tHg, MeHg, Cd, Pb, Ni]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/tuna]]", "[[ingredients/cocoa]]", "[[ingredients/dark-chocolate]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/linseeds]]", "[[ingredients/cashew-nuts]]", "[[ingredients/walnuts]]", "[[ingredients/hazelnuts]]", "[[ingredients/porcini-mushroom]]", "[[ingredients/algae]]", "[[ingredients/mussels]]", "[[ingredients/spices]]", "[[ingredients/cocoa-powder]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/meat]]", "[[ingredients/offal]]"]
-products: ["[[products/canned-fish]]", "[[products/chocolate]]", "[[products/snacks-crackers-biscuits]]", "[[products/infant-food]]"]
-matrices: [ready-to-eat-food, dietary-intake, total-diet-study]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/cashew-nuts]]", "[[ingredients/walnuts]]", "[[ingredients/hazelnuts]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/seaweed]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/spices]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]"]
+products: ["[[products/canned-fish]]", "[[products/chocolate]]", "[[products/snacks-crackers-biscuits]]"]
+matrices: [dietary-intake]
 jurisdictions: [DE, EU]
 near_duplicates: []
 sample_n: 869
@@ -33,7 +33,7 @@ This paper is distinct from both previously ingested BfR MEAL sources in this co
 All concentrations upper-bound (UB) mean unless noted; mg/kg = ppm; multiply by 1,000 for ppb (µg/kg).
 
 **Mercury (tHg) by main food group — UB mean [mg/kg], n = pooled samples:**
-- Fish, seafood, invertebrates: mean 0.100 mg/kg (100,000 ppb range; median 0.045); range min–max 0.002–0.670
+- Fish, seafood, invertebrates: mean 0.100 mg/kg (100 ppb; median 0.045); range min–max 0.002–0.670
   - Tuna smoked: 0.670 mg/kg — highest measured in the study
   - Boletus/porcini mushroom: 0.623 mg/kg — second highest (classified under vegetables and vegetable products), 7-fold higher than GFM fresh wild mushroom mix data (0.088 mg/kg), attributed to water loss during preparation/drying
   - Vegetarian sausage: 0.018 mg/kg (UB mean)
@@ -85,34 +85,44 @@ All concentrations upper-bound (UB) mean unless noted; mg/kg = ppm; multiply by 
 
 **Left-censored data handling:** Upper bound (UB): values < LOD replaced by LOD; values < LOQ and > LOD replaced by LOQ. Modified lower bound (mLB): values < LOD set to zero; values < LOQ set to LOD. mLB and UB did not differ substantially; results presented as UB throughout. mLB results in supplementary tables.
 
-**Pooling and homogenisation:** Knife mill (Retsch GmbH Grinddomix GM300) with polypropylene container and titanium knives (to avoid Ni leaching from stainless steel). Ultrapure water or liquid nitrogen added for homogenisation where required. Storage at −20°C in polypropylene vessels.
+**Pooling and homogenisation:** Knife mill with polypropylene container and titanium knives (to avoid Ni leaching from stainless steel). Ultrapure water or liquid nitrogen added for homogenisation where required. Storage at −20°C in polypropylene vessels.
 
-**Statistical analysis:** IBM SPSS Statistics 26. Kolmogorov-Smirnov normality test; Kruskal-Wallis test (four regions); Mann-Whitney U (production type). Significance level 0.05.
+**Statistical analysis:** statistical software; Kolmogorov-Smirnov normality test; Kruskal-Wallis test (four regions); Mann-Whitney U (production type). Significance level 0.05.
 
 **Speciation note:** This paper reports total Hg (tHg). MeHg was the predominant form in fish per the companion paper (Sarvan et al. 2021), consistent with MeHg bioaccumulation in marine food chains; terrestrial foods had predominantly inorganic Hg (iHg). Risk assessments for MeHg exposure from fish in Germany appear in the BfR Opinion 023/2024 (`bfr2024-methylmercury-fish-seafood-germany.md`).
 
 ## Implications
 
-Certification: The BfR MEAL Study provides the most comprehensive German-market concentration dataset for tHg, Cd, Pb, and Ni across 356 foods as consumed, including the full range of food categories relevant to HMT&C-certified products. The finding that oils and fats are near-zero for all four metals (100% below LOQ for Hg and Cd) reinforces low-risk classification for culinary oil products. The very high Ni in cocoa powder (11.050 mg/kg = 11,050 ppb) and dark chocolate (2.800 mg/kg = 2,800 ppb) is the most policy-relevant number in the study for HMT&C certification of chocolate-containing products.
+Certification: The BfR MEAL Study provides German-market concentration data for tHg, Cd, Pb, and Ni across 356 foods as consumed, including food categories relevant to HMT&C-certified products. The finding that oils and fats are near-zero for Hg and Cd (100% below LOQ) contributes low-occurrence context for culinary oil products. The high Ni in cocoa powder (11.050 mg/kg = 11,050 ppb) and dark chocolate (2.800 mg/kg = 2,800 ppb) contributes occurrence context for chocolate-containing products without setting a certification threshold.
 
 Courses: Illustrates TDS methodology, pooling design, the UB/LB non-detect handling approach, and the contrast between tHg (measured here) and MeHg speciation (measured in the companion paper). Also illustrates that organic vs. conventional labelling does not systematically affect heavy metal concentrations — an important consumer-expectation calibration point.
 
-App: The 356-food concentration table (supplementary Tables S3–S6) is the most comprehensive prepared-food concentration dataset available for Germany and provides the direct basis for ingredient-level contamination profiles for numerous foods including cocoa, nuts, seeds, mushrooms, and fish species.
+App: The 356-food concentration table (supplementary Tables S3–S6) can inform ingredient-level contamination context for Germany, including cocoa, nuts, seeds, mushrooms, and fish species.
 
-Microbiome: Not directly applicable, though the Ni data at very high levels in cocoa and legume/nut foods has potential implications for Ni-sensitive microbiome interactions.
+Microbiome: Not directly addressed.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
-- [[metals/mercury]]
+- [[metals/mercury-total]]
+- [[metals/mercury-methyl]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[ingredients/cocoa]]
-- [[ingredients/dark-chocolate]]
-- [[ingredients/tuna]]
+- [[ingredients/chocolate]]
 - [[ingredients/fish]]
+- [[ingredients/seafood]]
 - [[ingredients/sunflower-seeds]]
-- [[ingredients/porcini-mushroom]]
+- [[ingredients/wild-mushrooms]]
 - [[ingredients/cashew-nuts]]
 - [[ingredients/spices]]
-- [[ingredients/algae]]
+- [[ingredients/seaweed]]
+- [[ingredients/bivalve-molluscs]]
+- [[ingredients/organ-meats]]
+- [[products/canned-fish]]
+- [[products/chocolate]]
+- [[products/snacks-crackers-biscuits]]
+
+## Verification notes
+
+- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, fixed the Hg mg/kg-to-ppb conversion, removed instrument/software brand names from Methods, corrected closed-vocabulary ingredient/product/matrix links, and tightened HMT&C/app/microbiome implication language.

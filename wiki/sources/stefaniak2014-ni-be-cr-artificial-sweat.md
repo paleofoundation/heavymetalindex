@@ -1,0 +1,63 @@
+---
+type: source
+raw_handle: MFK_dissolution-ni-be-cr-artificial-sweat-bioaccess
+cite_key: stefaniak2014-ni-be-cr-artificial-sweat
+title: "Dissolution of the metal sensitizers Ni, Be, Cr in artificial sweat to improve estimates of dermal bioaccessibility"
+authors: [Stefaniak AB, Duling MG, Geer L, Virji MA]
+year: 2014
+publication: "Environmental Science: Processes & Impacts 16: 341-351"
+doi: 10.1039/c3em00570d
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY-NC 3.0"
+raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Dissolution_of_the_metal_sensitizers_Ni_Be_Cr_in_artificial_sweat_to_improve_estimates_of_dermal_bioaccessibility.pdf"
+metals: [Ni, Be, Cr, Cr-VI]
+ingredients: []
+products: []
+matrices: [artificial-sweat]
+jurisdictions: [US]
+near_duplicates: []
+sample_n: 9
+sample_population: "Triplicate samples of three metal-sensitizer powders (beryllium metal, nickel metal, chromium carbide Cr3C2) extracted in artificial sweat (pH 5.3) at 33, 36, 45 °C; reactant-assisted digestion compared as reference"
+updated: 2026-05-17
+---
+
+# Stefaniak et al. 2014 — Dissolution of Ni, Be, Cr in artificial sweat for dermal bioaccessibility
+
+This Environmental Science: Processes & Impacts paper compares reactant-assisted digestion ("total" or "soluble" mass) vs artificial-sweat extraction (bioaccessible mass) for three metal sensitizers - beryllium metal, nickel metal, and chromium carbide (Cr3C2) - and uses speciated isotope dilution mass spectrometry (SIDMS) to determine Cr-VI vs Cr-III speciation in artificial sweat over time. The work establishes that reactant-assisted digestion overstates bioaccessible (dermal) exposure to all three metals, and that Cr-VI added to artificial sweat decays into Cr-III over hours.
+
+## Key numbers
+
+- Bioaccessibility ratios (Table 2, fraction dissolved in sweat / fraction in chemical digestion):
+  - Be: sweat 0.15 ± 0.01% vs digestion 0.29 ± 0.02% → 1/2 ratio
+  - Ni: sweat 0.0013 ± 0.0003% vs digestion 0.14 ± 0.01% → 1/108 ratio
+  - Cr-total: sweat 0.0024 ± 0.0008% vs digestion 6.08 ± 0.31% → 1/2500 ratio
+- Artificial sweat composition (Harvey et al. recipe): 61 constituents; major ions Na+ 30.7 mM, Cl- 23.2 mM, lactic acid 14.0 mM, urea 10.0 mM, ammonium 5.3 mM; pH adjusted to 5.3 with NaOH. Skin pH range generally 4.2-6.1 (median 5.3).
+- Sweat extraction conditions: 0.050 L artificial sweat (calculated from 1.08 L/h/m² whole-body sweat × 5% body area × 1 hour); 0.05 g powder; powders sealed between two filters; static dissolution at 33, 36, 45 °C across 7 time points spanning 12 hours.
+- Dissolution kinetics (Fig. 3): Be and Cr biphasic - rapid initial phase 4-6 h half-time followed by long-term phase hundreds of days; Ni linear over time, several hundred days half-time.
+- On total-mass basis (per Results section): Be <0.35%, Ni <0.003%, Cr <0.004% of total powder dissolved in artificial sweat over the test duration.
+- Cr speciation in sweat (Fig. 4 / Results): Cr-VI added as potassium dichromate at 2 or 10 µg/mL decayed over 420 minutes; decay accompanied by Cr-III formation in the sweat model (speciated isotope dilution MS using 53Cr-VI / 50Cr-III).
+- Powder characterization (Fig. 2): Be metal particle size 3.2 µm (geometric mean, GSD 1.8); BET surface area 5.6 ± 0.02 m²/g; density 1.86 ± 0.02 g/cm³. Cr3C2 cluster size 2.6 µm (GSD 1.6); surface area 1.04 ± 0.02 m²/g; density 6.97 ± 0.19 g/cm³. Ni metal cluster size 4.0 µm (GSD 1.5); surface area 7.04 ± 0.18 m²/g; density 9.46 ± 0.29 g/cm³.
+
+## Methods (brief)
+
+Three high-purity metal sensitizer powders characterized by Auger spectroscopy (surface composition 50-75 Å outer layer), XRD (crystalline composition), TEM/SEM (morphology, particle size), helium pycnometry (density), N2 BET (specific surface area). Reactant-assisted digestion protocols: Be 0.01 M HCl (Profumo et al. 2008); Ni 0.1 M ammonium citrate/citric acid pH 4.4 sequential digestion (Zatka et al.); Cr-total NIOSH 7303 concentrated HNO3/HCl at 95 °C. Sweat extraction: artificial sweat (Harvey et al. recipe) at 33, 36, 45 °C, triplicate samples at 7 time points across 12 h. Metals quantified by ICP-OES. Cr speciation by SIDMS using 53Cr-VI/50Cr-III isotope dilution with IC-ICP-DRC-MS. Limitations stated: static (not flow-through) extraction may underestimate sweat-removal kinetics; chosen powder masses (0.05 g) exceed realistic dermal loadings to ensure analytical detection limits; static contact time of 12 h represents long workshift exposure.
+
+## Implications
+
+- Certification (HMTc): Direct methodological evidence that "total Cr" measurements digested by acids massively overstate dermally bioaccessible Cr (1/2500 ratio); for Ni and Be the overstatement is also large (1/108 and 1/2 respectively). Important for any HMI threshold work on children's products where total-Cr measurements are the primary occurrence data: dermal-route risk modeling needs to apply a bioaccessibility correction or accept conservative overestimation. The Cr-VI → Cr-III decay in sweat is relevant to Part 14's discipline around Cr-VI vs Cr discipline: skin-surface Cr-VI does not remain Cr-VI for long.
+- Courses: Teaching reference for the distinction between "total," "soluble," and "bioaccessible" metal in occupational/consumer dermal exposure assessment. Pairs with the OEHHA and ATSDR dermal-absorption guidance.
+- App: Not relevant to ingredient contamination_profile (no food-matrix data).
+
+## Wiki pages this source may touch
+
+- [[metals/nickel]]
+- [[metals/beryllium]]
+- [[metals/chromium]]
+- [[metals/chromium-hexavalent]]
+
+## Verification notes
+
+- "artificial-sweat" matrix is not in the standard matrices vocabulary; flagging for Part 10 review. Used as bare string.
+- This paper is methodology + materials-science occurrence, not finished-product surveillance. The 1/2500 Cr bioaccessibility ratio is for chromium carbide powder; ratios for Cr-VI in cosmetic pigments may differ and would need source-specific measurement.
+- Cr-VI half-life in artificial sweat ("hours, decayed over 420 min" per Results) is a non-trivial finding for the Cr-VI vs total-Cr discipline in dermal exposure assessment.

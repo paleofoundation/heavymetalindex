@@ -10,7 +10,7 @@ doi: 10.33860/jbc.v7i2.4042
 source_type: review
 evidence_tier: B
 license: "CC BY SA 4.0"
-raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metal Content in Breast Milk and Contributing Environmental.pdf"
+raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metal Content in Breast Milk and Contributing Environmental and Maternal Factors_ A Systematic Review.pdf"
 metals: [Pb, Cd, tHg, tAs, Al, Cr]
 ingredients: ["[[ingredients/breastmilk]]"]
 products: []
@@ -55,20 +55,24 @@ Systematic review following PRISMA 2020. Databases: PubMed, Scopus, Science Dire
 
 ## Implications
 
-Certification: Synthesizes cross-national data on heavy metals in breast milk, confirming that Pb, Cd, tHg, tAs, Al, and Cr are consistently detected worldwide. The Taiwan colostrum Pb values (13 ng/mL) are among the highest in the recent literature and reflect urbanization and dental amalgam exposure as contributors.
+Certification: Synthesizes cross-national data on heavy metals in breast milk and reports Pb, Cd, tHg, tAs, Al, and Cr detections across the included studies. The Taiwan colostrum Pb values (13 ng/mL) and source-reported maternal/environmental factors are useful biomonitoring context, not product-occurrence data for threshold setting.
 
-Courses: Useful for teaching the contribution of diet, water, smoking, and regional environment to breast milk heavy metal concentrations. The identified associated factors (seafood for As, smoking for Pb) translate to practical dietary guidance for lactating mothers.
+Courses: Useful for teaching how review authors connect diet, water, smoking, and regional environment to breast milk heavy metal concentrations. Keep the associated factors as source-reported exposure context rather than wiki-side dietary guidance.
 
 App: Breast milk is not in the app's ingredient-list model but the biomonitoring data from this review supports health-effects sections.
 
-Microbiome: Al, Pb, and Cd exposure via breast milk during infant gut colonization is directly relevant to metal-microbiome interaction; cross-link when those pages are built.
+Microbiome: Al, Pb, and Cd exposure via breast milk during infant gut colonization may be relevant to metal-microbiome teaching context, but this review does not directly study microbiome outcomes.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/breastmilk]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/mercury]]
-- [[metals/arsenic]]
-- [[metals/aluminium]]
+- [[metals/mercury-total]]
+- [[metals/arsenic-total]]
+- [[metals/aluminum]]
 - [[metals/chromium]]
+
+## Verification notes
+
+- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected the local PDF path, replaced generic/invalid metal page links with taxonomy-valid total-metal/aluminum links, and tightened implication language to avoid consumer-guidance or threshold-setting drift.

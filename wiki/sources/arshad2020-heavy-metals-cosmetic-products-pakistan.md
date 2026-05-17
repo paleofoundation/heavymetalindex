@@ -11,9 +11,9 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Evaluation_of_heavy_metals_in_cosmetic_products_and_their_health_risk_assessment.pdf"
-metals: [Cd, Cr, Ni, Pb]
+metals: [Cd, Cr, Fe, Ni, Pb]
 ingredients: []
-products: ["[[products/lotion]]", "[[products/foundation]]", "[[products/whitening-cream]]", "[[products/lipstick]]", "[[products/hair-dye]]", "[[products/sunblock]]", "[[products/children-personal-care]]"]
+products: ["[[products/children-personal-care]]", "[[products/baby-lotion-cream]]", "[[products/childrens-makeup]]", "[[products/skin-lightening-cream]]", "[[products/lipstick]]"]
 matrices: [cosmetic-personal-care]
 jurisdictions: [PK]
 near_duplicates: []
@@ -39,7 +39,7 @@ This study quantifies cadmium, chromium, iron, nickel, and lead in 63 brand-leve
 | Mean | 0.257 | 0.283 | 2.140 | 2.592 | 2.809 |
 | SE | 0.015 | 0.009 | 0.070 | 0.076 | 0.091 |
 
-Highest Cd in L1 Nivea (Dubai, 2.1±0.2 mg/kg). Highest Pb in L19 Johnson's baby lotion (Italy, 7.94±0.10 mg/kg) — concerning given baby-target marketing. Highest Ni in L1 Nivea (3.24±0.41 mg/kg) followed by Vaseline (Indonesia, 4.32 ± ?). Pb range 0.068-8.29 mg/kg across brands.
+Highest category values in lotions: Cd 2.13 mg/kg, Cr 1.00 mg/kg, Fe 7.01 mg/kg, Ni 6.29 mg/kg, Pb 8.29 mg/kg. Pb ranged 0.068–8.29 mg/kg across brand-coded lotion samples.
 
 **Hair dyes (6 brands, n=18 measurements; mg/kg)**:
 
@@ -49,7 +49,7 @@ Highest Cd in L1 Nivea (Dubai, 2.1±0.2 mg/kg). Highest Pb in L19 Johnson's baby
 | Min | 0.001 | 0.048 | 0.263 | 0.081 | 0.402 |
 | Mean | 0.057 | 0.086 | 0.310 | 2.900 | 4.496 |
 
-Highest Pb in D3 Garnier Black (London, 5.33±0.18 mg/kg) and D2 Revlon (Italy, 5.02±0.15 mg/kg).
+Hair-dye Pb ranged 0.402–5.835 mg/kg across brand-coded samples; category mean Pb was 4.496 mg/kg.
 
 **Foundations (9 brands, n=27 measurements; mg/kg)**:
 
@@ -59,7 +59,7 @@ Highest Pb in D3 Garnier Black (London, 5.33±0.18 mg/kg) and D2 Revlon (Italy, 
 | Min | 0.059 | 0.186 | 2.294 | 4.788 | 1.944 |
 | Mean | 0.109 | 0.238 | 9.638 | 5.684 | 3.047 |
 
-Highest Fe: F1 Dermacol (Europe, 45.45±12.0 mg/kg) — substantial outlier from iron-oxide pigments.
+Highest Fe in a foundation sample was 45.42 mg/kg, a substantial outlier from the rest of the category.
 
 **Whitening creams (6 brands, n=18 measurements; mg/kg)**:
 
@@ -71,10 +71,9 @@ Highest Fe: F1 Dermacol (Europe, 45.45±12.0 mg/kg) — substantial outlier from
 
 Whitening creams concentrate Pb because Pb-based pigments (Pb(II) salts) inhibit melanin formation and are historically added intentionally. The 2.5-4.0 mg/kg Pb across all six brands is consistent with that.
 
-**Lipsticks (6 brands, n=18 measurements; mg/kg, partial table from PDF)**:
+**Lipsticks (6 brands, n=18 measurements; mg/kg)**:
 
-LS1 Christine Princess (Pakistan): Cd 0.15±0.03, Cr 0.32±0.01, Fe 3.0±2.0, Ni 6.49±0.14, Pb 4.72±0.17.
-LS2 Be cute Velvet Sensation (Pakistan): Cd 0.19±0.01, Cr 0.33±0.01, Fe 11.0±5.00, Ni 6.48±0.06, Pb 5.02±0.19.
+Category mean ± SD values: Cd 0.15±0.01, Cr 0.34±0.02, Fe 12.0±1.8, Ni 6.64±0.03, Pb 4.49±0.34.
 
 **Sunblock creams (6 brands; cited highest concentrations in abstract)**:
 - Ni: 7.99±0.36 mg/kg — highest across all six product categories
@@ -103,9 +102,9 @@ Sample collection: 189 samples (63 brand-level products × 3 triplicates) from l
 
 Digestion: 1.0 g sample + 5 mL HNO3, overnight room temp; heat to 90 °C; add 5 mL H2SO4, heat 30-60 min; add 5 mL HClO4, digest to clear; filter through Whatman 41 + dilute to 50 mL. Blanks at 5 per batch.
 
-Quantification: Atomic absorption spectrophotometry (Perkin Elmer AAnalyst 700). Internal standard + NIST SRM 1515 (apple leaves) for QC; recovery 97-102%. All measurements in triplicate.
+Quantification: Atomic absorption spectrophotometry. Internal standard + certified apple-leaf reference material for QC; recovery 97-102%. All measurements in triplicate.
 
-Statistics: STATISTICA v13.0 + SPSS V13.0; correlation, ANOVA, multivariate analysis. Strong correlations among Cr, Ni, and Pb (suggesting shared sources or co-formulation); Cd and Fe showed disparity (distinct sources).
+Statistics: correlation, ANOVA, and multivariate analysis. Strong correlations among Cr, Ni, and Pb (suggesting shared sources or co-formulation); Cd and Fe showed disparity (distinct sources).
 
 Speciation: Total metals only (AAS). No speciation of Cr (Cr-VI vs Cr-III) or organotin.
 
@@ -119,37 +118,27 @@ Risk assessment formulas (paper Eqs 1-6):
 
 ## Implications
 
-Certification: For HMTc Cat 2 covering cosmetic categories beyond just children's products:
-
-1. **Sunblock is the highest-Pb cosmetic category** (~6.4 mg/kg mean) — relevant for children's-sunscreen Cat 2 rows. The HMTc Cat 2 children-sunscreen threshold should anchor on this finding plus the daily-reapplication frequency and high body-surface coverage of pediatric sunscreen use.
-
-2. **Whitening creams concentrate Pb because of intentional pigment formulation history**. While whitening creams are not typically a children's product, the cross-contamination of whitening-cream raw materials into other cosmetic supply chains is a real risk that HMTc Cat 2 should address via supplier audits.
-
-3. **The LCR exceedance across all categories except lipsticks** is the most defensibility-relevant finding. Brand legal teams reading this page should note that the Arshad 2020 dataset specifically supports the claim that "regular use of cosmetics over a lifetime exceeds acceptable cancer-risk thresholds at observed Pakistani-market concentrations." Pakistan-market is one geography; HMTc Cat 2 thresholds must adjudicate whether US/EU/global supply chains show similar LCR exceedance.
-
-4. **Lotions L1 (Nivea) and L19 (Johnson's baby lotion)** are baby-applicable products with concerningly high Pb (4.57 and 7.94 mg/kg respectively). These are name-brand products available globally; this is not a "regional / disreputable supplier" issue. Per CLAUDE.md Part 12, brand-level values are not reproduced into product-category pages from this source; this source-page citation stands.
-
-5. **Iron concentrations** in foundations are very high (mean 9.6, max 45.4 mg/kg) but Fe is not a HMTc-10 panel metal. Captured here for completeness but doesn't change Cat 2 thresholds.
+Certification: The study contributes category-level occurrence and risk-assessment data for cosmetic and personal-care matrices, including lotions, skin-lightening creams, lipsticks, hair dyes, foundations, and sunblock creams. The highest category means were in sunblock creams for Ni, Pb, and Cr; lipsticks for Fe; and lotions for Cd. Use this as Pakistani-market category context, not as a standalone HMT&C threshold-setting source.
 
 Courses: Strong case study for cosmetic risk assessment. The full MoS/HQ/HI/LCR machinery is documented in the paper; the 200+ data points across 5 metals × 6 categories × 6-30 brands provide excellent teaching examples.
 
-App: For the consumer app, sunblock + whitening cream + foundation are the highest-concern Cat 2 categories for Pb. The lipstick LCR-low finding is counterintuitive (lipstick has high ingestion-fraction) and warrants further investigation — possibly the smaller per-application volume drives the lower LCR in this paper's modelling.
+App: Category-level results can inform qualitative prioritization for cosmetic/personal-care matrices: sunblock creams, skin-lightening creams, foundations, and lotions were higher-concern categories for one or more metals in this dataset. Do not expose brand-coded sample identities in app logic or wiki outputs.
 
 Microbiome: Not addressed.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/cadmium]]
 - [[metals/chromium]]
+- [[metals/iron]]
 - [[metals/nickel]]
 - [[metals/lead]]
-- [[products/lotion]] (Cat 2 row — to be created)
-- [[products/foundation]] (Cat 2 row — to be created)
-- [[products/whitening-cream]] (Cat 2 row — to be created)
+- [[products/baby-lotion-cream]]
+- [[products/childrens-makeup]]
+- [[products/skin-lightening-cream]]
 - [[products/lipstick]]
-- [[products/hair-dye]] (Cat 2 row — to be created)
-- [[products/sunblock]] (Cat 2 row — to be created)
 - [[products/children-personal-care]]
-- [[regulations/sccs-cosmetic-impurities]] (to be created)
-- [[regulations/canada-hcsc-cosmetic-impurities]] (to be created)
-- [[regulations/fda-cir-cosmetic-impurities]]
+
+## Verification notes
+
+- Cross-vendor strict Part 12 recheck 2026-05-17 removed sampled-product brand names and brand-coded value callouts from the source page, replacing them with category-level descriptors and statistics. Also corrected closed-vocabulary product links, added Fe to measured metals, removed non-taxonomy regulation/new-page suggestions, and tightened HMT&C/app language.

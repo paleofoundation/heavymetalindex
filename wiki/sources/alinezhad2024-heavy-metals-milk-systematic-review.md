@@ -2,8 +2,8 @@
 type: source
 raw_handle: FM_10843077
 cite_key: alinezhad2024-heavy-metals-milk-systematic-review
-title: "Heavy metals contamination in pasteurized and sterilized cow's milk: a systematic review"
-authors: [Alinezhad S, Mousavi Khaneghah A, Hosseinzadeh Samani B, Fakhri Y, Alizadeh Sani M]
+title: "Concentration of heavy metals in pasteurized and sterilized milk and health risk assessment across the globe: A systematic review"
+authors: [Zahra Alinezhad, Mohammad Hashemi, Seyedeh Belin Tavakoly Sany]
 year: 2024
 publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0296649
@@ -15,7 +15,7 @@ raw_path: raw/markdown/FM_10843077/FM_10843077.md
 metals: [Pb, Cd, Al, tAs, tHg, Ni, Cr, Cu, Zn, Co, Fe]
 ingredients: ["[[ingredients/milk-and-dairy]]"]
 products: []
-matrices: [milk, cow-milk]
+matrices: [cow-milk]
 jurisdictions: [Global, IR, CN, CN, TR, EG, BR, PK, IN]
 near_duplicates: []
 sample_n: 981
@@ -25,32 +25,46 @@ updated: 2026-05-13
 
 # Alinezhad et al. 2024 — Heavy metals in pasteurized and sterilized milk: systematic review
 
-This PRISMA-compliant systematic review pooled data from 48 peer-reviewed studies (n=981 milk samples) published between 2000 and 2023 across multiple countries to characterize heavy metal contamination in commercially pasteurized and sterilized cow's milk. The review found that Cu, Cd, Zn, and Pb were the metals most commonly exceeding regulatory maximum permissible limits (MPLs) set by the EU, Codex Alimentarius, and national standards. Exceedances were geographically uneven, with samples from Iran, China, Turkey, Egypt, Brazil, Pakistan, and India collectively accounting for the bulk of reported values.
+This PRISMA-compliant systematic review included 48 studies with data on 981 pasteurized and sterilized milk samples from 17 countries. The review found that Cu, Cd, Zn, and Pb were the metals most commonly exceeding regulatory maximum permissible limits (MPLs), with exceedance proportions of 94%, 67%, 62%, and 46% of milk samples, respectively. Risk calculations in the review identified moderate-to-high carcinogenic risk in 33 studies (68.75%) and moderate-to-high non-carcinogenic risk in 7 studies (14.5%).
 
 ## Key numbers
 
-Lead (Pb): reported concentrations ranged widely across studies; mean values in individual studies ranged from below 0.001 to as high as 0.52 mg/kg. Pb was among the four most frequently reported metals exceeding MPLs. Cadmium (Cd): mean values in individual studies ranged from below detection to approximately 0.05 mg/kg; Cd was the second most frequently cited metal exceeding limits. Aluminum (Al): present in multiple studies but not consistently the most-exceeded metal; mean values in individual studies ranged from below 0.1 to over 1 mg/kg in some regions. Copper (Cu): the most frequently reported metal exceeding MPLs across the pooled studies, with mean values in individual studies up to approximately 1.5 mg/kg. Arsenic (As): present in a subset of studies; mean values generally below 0.05 mg/kg but with elevated values reported from regions with known groundwater arsenic problems. Mercury (Hg), Nickel (Ni), Chromium (Cr), Cobalt (Co), Zinc (Zn), and Iron (Fe): all reported across subsets of the 48 studies; Zn and Fe at nutritional-range concentrations in most samples.
-
-Analytical methods across included studies: AAS (most common), ICP-MS, ICP-OES. Detection limits varied substantially across the included primary studies; the review notes this as a limitation affecting pooled estimates.
+- Literature base: 48 studies, 981 pasteurized/sterilized milk samples, 17 countries; sample sizes in individual studies ranged from 5 to 90.
+- Exceedance proportions reported in the abstract/conclusion: Cu 94%, Cd 67%, Zn 62%, Pb 46%, Al 30%, Fe 16%, Ni 12.5%; As, Co, and Hg had the lowest reported contamination levels relative to local/international MPLs.
+- Health-risk results: 33 studies (68.75%) reported moderate-to-high carcinogenic risk; 7 studies (14.5%) reported moderate-to-high non-carcinogenic risk.
+- Non-carcinogenic risk: THQ/HI values >1 were reported for Pb, Cd, Co, and Hg in studies from Slovakia, Brazil, Turkey, and Egypt.
+- Carcinogenic risk: the highest Pb cancer-risk values were 1.66E-04 and 1.69E-04 in studies from Brazil and Turkey; the highest Cd cancer-risk value was 7.00E-04 in a study from Slovakia.
+- Analytical methods across included studies: AAS 15/48 (31.3%), ICP-MS 7/48 (15%), ICP-OES 4/48 (8.5%), FAAS 3/48 (6.3%), GFAAS 2/48 (4.15%), ICP-AES 2/48 (4.15%), and several other single-study methods; 5 studies (10.5%) did not report the apparatus.
 
 ## Methods (brief)
 
-Systematic review following PRISMA guidelines. Literature searches in PubMed, Scopus, and Web of Science through 2023. Inclusion criteria: peer-reviewed studies measuring heavy metal concentrations in commercial pasteurized or sterilized cow's milk. Studies reporting only raw or unpasteurized milk, or milk from non-bovine species, were excluded from the main analysis but noted. Quality assessment of primary studies performed using a modified scoring system; results stratified by study quality. Quantitative pooling limited by heterogeneity in analytical methods, LOD/LOQ reporting, and unit conventions across studies.
+Systematic review following PRISMA guidelines. Literature searches covered Web of Knowledge, Scopus, Scientific Information Database, Google Scholar, and PubMed from inception until January 2023. Inclusion criteria focused on studies reporting heavy metal concentrations and health-risk assessment in pasteurized or sterilized milk worldwide; review studies and duplicates were excluded. Quality assessment used an adapted Newcastle-Ottawa Scale. The authors did not pool a meta-analysis because of high heterogeneity, potential bias, and inconsistent source/LOD/LOQ reporting across primary studies.
 
 ## Implications
 
-Certification: The systematic evidence that Cu, Cd, Zn, and Pb most commonly exceed MPLs in commercially processed cow's milk across global markets supports HMT&C's inclusion of Pb and Cd as priority analytes for dairy-containing products. The review's finding that exceedance rates are highest in studies from lower-income markets with weaker enforcement does not relieve the need for monitoring in certified supply chains drawing on global ingredients.
+Certification: The review contributes global pasteurized/sterilized milk occurrence and risk-assessment context for dairy-containing products, especially for Pb and Cd. Use as broad evidence of analyte priority and geographic heterogeneity, not as a standalone HMT&C threshold-setting source.
 
 Courses: Useful as an introductory evidence anchor for modules on dairy contamination pathways and the regulatory patchwork for Pb and Cd in milk across EU, Codex, and national standards.
 
-App: The global range of mean concentrations reported across studies (spanning roughly an order of magnitude for Pb and Cd) is too wide for a single point estimate; the app should represent cow's milk contamination as a range with geography-conditional weighting.
+App: The global range and risk-study counts can inform qualitative cow-milk contamination context with geography-conditional weighting. Do not use this review alone as a single quantitative point estimate.
 
 Microbiome: Not applicable.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/aluminium]]
-- [[ingredients/dairy]]
-- [[products/pasteurized-milk]]
+- [[metals/aluminum]]
+- [[metals/arsenic-total]]
+- [[metals/mercury-total]]
+- [[metals/nickel]]
+- [[metals/chromium]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/cobalt]]
+- [[metals/iron]]
+- [[ingredients/milk-and-dairy]]
+
+## Verification notes
+
+- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected title/authors to the PLOS citation, removed an unsupported concentration-range summary, replaced it with source-reported exceedance/risk/method counts, corrected matrix and wiki-link vocabulary, and tightened HMT&C/app language.
