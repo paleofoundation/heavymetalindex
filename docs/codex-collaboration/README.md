@@ -80,13 +80,28 @@ Don't draft a paper that already has a wiki source page or a draft. The triage m
 
 ### Role priority within a Codex session
 
-Sessions should split time across the three roles in this order, until session budget exhausted:
+Sessions should split time across the three roles in this order, working until natural exhaustion or a ~2-hour wall-clock budget (whichever first). No per-role page-count cap.
 
-1. **Audit queue** (highest priority — gates the Cochrane bar for pages already in the wiki). Drain up to 5 pending rows.
-2. **Manual-fetch ingest** on assigned folders. Process 3-5 PDFs.
-3. **Marker drafts** if both above are caught up. Otherwise skip.
+1. **Audit queue** (highest priority — gates the Cochrane bar for pages already in the wiki). Drain pending rows until the queue is empty of `pending` and `pending-brand-firewall-recheck-locked-strict` rows. After each commit, re-read the queue to pick up any new rows the daemon may have added in the meantime.
+2. **Manual-fetch ingest** on assigned folders. Process PDFs from the assigned folder list (condiment_papers first, then 08_Nuts, 07_Processed, 02_Vegetables, 01_Fruits, Papers Cube Manual Fetch, Manual Resourcing) until either the assigned folders are exhausted OR you've used roughly half the session budget on ingest. Switch back to audits if new pending rows have accumulated (you just added some yourself via your ingest commits; Claude's daemon may have added more in parallel).
+3. **Marker drafts** if both above are caught up. Drain raw/markdown/FM_XXXXXXX/FM_XXXXXXX.md → raw/gpt-drafts/FM_XXXXXXX.md for P4-tier papers without existing wiki/sources/ pages.
 
-This ordering prevents the audit queue from growing unbounded while still making progress on the ingest backlog.
+This ordering prevents the audit queue from growing unbounded while still making progress on the ingest backlog. A single Codex session at the ~2-hour budget should land roughly 15-30 audits + 8-15 ingests = 25-45 pages of work, depending on per-page complexity. The previous 5-audit / 3-ingest cap is removed as of 2026-05-17 per Karen's directive ("It should be doing far more pages than it is currently").
+
+### When to stop a session
+
+Stop the session and write the summary when ANY of these fires:
+
+- **Audit queue is empty** AND **assigned manual-fetch folders are exhausted** AND **no Marker drafts available**. Genuine completion.
+- **~2 hours of wall-clock work**. Soft budget to leave room for the user to intervene if needed. Resume on next session.
+- **Agent tool / sub-task spawn failed**. Audit step requires fresh-context spawn capability; without it, ingest quality drops.
+- **Three consecutive QUARANTINE verdicts on audits**. Indicates either systematic ingest errors or systematic audit false positives. Surface to Karen.
+- **Paper-internal contradiction** that can't be cleanly resolved during ingest. Stop on that PDF, log it, surface to Karen.
+- **True duplicate conflict** (DOI hit returns a page with a different DOI or paper). Data-integrity issue, needs Karen.
+- **New ingredient/product/regulation slug needed** that Part 10 requires Karen to bless. Surface in summary, do not create.
+- **Routing audit fails** with new unresolved/malformed entries you can't fix. Surface in summary.
+
+The full backlog (335 manual-fetch PDFs + however many strict-recheck rows + 23K Marker corpus) is NOT a single-session goal. Multiple sessions are expected. The goal of each session is to make sustained, bounded progress without artificial caps.
 
 ### What Codex does NOT do (hard prohibitions)
 
@@ -116,13 +131,13 @@ When Karen starts a Codex session for this repo, she pastes this:
 ```
 You are Codex (GPT-5.5) operating as a peer autonomous agent on the Heavy Metal Index build. Read docs/codex-collaboration/README.md in full before any work; that is your operating manual. Then read CLAUDE.md and OPERATING.md for the project-wide constitution.
 
-You have three roles this session, in priority order:
+You have three roles this session, in priority order, with NO per-role page cap. Work until the natural exhaustion condition or ~2-hour wall-clock budget, whichever first. The 5-audit / 3-ingest caps from earlier prompts are removed.
 
-1. Audit queue (drain up to 5 pending rows). Pull data/evidence/audit-queue.csv, pick the oldest row with status=pending or status=pending-brand-firewall-recheck-locked-strict. Audit the page per docs/gpt-collaboration/audit-prompt.md (note Check 4 enforces the strict brand-firewall reading locked 2026-05-17). Apply real findings, commit, update queue row, move to next.
+1. Audit queue. Pull data/evidence/audit-queue.csv. Pick oldest row with status=pending or status=pending-brand-firewall-recheck-locked-strict. Audit per docs/gpt-collaboration/audit-prompt.md (Check 4 enforces strict brand-firewall reading locked 2026-05-17; Exception 2 explicitly permits instrument/reference-material/software vendor names in Methods sections). Apply real findings, commit, update queue row, move to next. Work until the queue has no pending or strict-recheck rows. After each commit, re-read the queue — Claude's daemon may have added new pending rows in parallel.
 
-2. Manual-fetch ingest on your assigned folders (process 3-5 PDFs). Your assigned folders are the bottom-up priority list: condiment_papers/, 08_Nuts_Seeds_Legumes_and_Misc/, 07_Processed_Foods_Snacks_Beverages/, 02_Vegetables_and_Vegetable_Products/, 01_Fruits_and_Fruit_Products/, Papers Cube Manual Fetch/, Manual Resourcing/. Use tools/autonomy/ingest-manual-fetch-batch.mjs as a reference workflow (read PDF, identity-check against wiki/sources/, write fresh OR merge-enhance, run npm run evidence:source-routes, spawn your own fresh-context audit sub-task, apply audit findings, commit, append cite-key to audit-queue.csv as status=pending so Claude can cross-audit later). Before picking any PDF, check data/evidence/autonomy/manual-fetch-tracker.csv — if a PDF is already tracked (claimed by Claude's daemon), skip it.
+2. Manual-fetch ingest on your assigned folders. Your assigned folders, in priority order: condiment_papers/, 08_Nuts_Seeds_Legumes_and_Misc/, 07_Processed_Foods_Snacks_Beverages/, 02_Vegetables_and_Vegetable_Products/, 01_Fruits_and_Fruit_Products/, Papers Cube Manual Fetch/, Manual Resourcing/. Use tools/autonomy/ingest-manual-fetch-batch.mjs as a reference workflow (read PDF, identity-check against wiki/sources/, write fresh OR merge-enhance, run npm run evidence:source-routes, spawn your own fresh-context audit sub-task, apply audit findings, commit, append cite-key to audit-queue.csv as status=pending so Claude can cross-audit later). Before picking any PDF, check data/evidence/autonomy/manual-fetch-tracker.csv — skip any PDF already tracked there (Claude's daemon claimed it). Work until either your assigned folders are exhausted OR you've used roughly half the session budget on ingest, whichever first. If you switch off ingest because of the half-budget rule, return to step 1 (your own ingest commits added pending rows; the daemon may have added more in parallel).
 
-3. Marker-corpus drafts to raw/gpt-drafts/ if both above are caught up. Read docs/gpt-collaboration/system-prompt.md for the drafter format. Pick P4-tier papers without existing wiki/sources/ pages.
+3. Marker-corpus P4 drafts to raw/gpt-drafts/ — only if both above are caught up. Read docs/gpt-collaboration/system-prompt.md for the drafter format. Pick P4-tier papers without existing wiki/sources/ pages from raw/manifest/triage-manifest.csv.
 
 Do NOT ingest any PDF from Claude's assigned folders: 06_Infant_Foods_Formula/, Children Personal Care Papers/, 04_Meat_Poultry_Seafood/, 03_Grains_and_Grain_Products/, 05_Dairy_Eggs_and_Alternatives/. Those belong to the daemon.
 
