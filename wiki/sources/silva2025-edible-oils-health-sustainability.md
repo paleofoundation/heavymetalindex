@@ -10,16 +10,16 @@ doi: 10.3390/lipidology2040021
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Edible Oils from Health to Sustainability_ Influence of the Produ.pdf"
-metals: [Pb, Cd, tAs, Ni, Cr]
-ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/palm-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/rice-bran-oil]]"]
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Edible Oils from Health to Sustainability_ Influence of the Production Processes in the Quality, Con.pdf"
+metals: [Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Mn, V, Co, tHg]
+ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/rice-bran-oil]]", "[[ingredients/peanut-oil]]", "[[ingredients/sesame-oil]]", "[[ingredients/rapeseed-oil]]", "[[ingredients/corn-oil]]", "[[ingredients/vegetable-oils]]"]
 products: []
-matrices: [edible-oil, olive-oil, vegetable-oil]
+matrices: [edible-oil, vegetable-oil]
 jurisdictions: [MA, IR, GR, CN, BR]
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic review of 35 studies meeting eligibility criteria, including 7 studies on contaminants (PAHs and heavy metals) in edible vegetable oils; databases searched through September 2025"
-updated: 2026-05-14
+updated: 2026-05-17
 ---
 
 # Silva et al. 2025 — Edible oils: health benefits and contamination risks (systematic review)
@@ -49,7 +49,7 @@ This systematic review (35 included studies from MEDLINE/PubMed, ScienceDirect, 
 - Olives from contaminated soils in Greece (Antoniadis et al.): Cd exceeded EU limit of 0.05 mg/kg; risks from tAs and Pb confirmed
 - Traditional olive oil from Iran (Tayeb & Movassaghghazani, n=60): Pb and Cd below national limits; traditional olive oil showed MOE for Pb under 10,000; HI for both metals below 1
 
-**PAH concentrations (EU limit for sum of 4 PAHs: 2 µg/kg for oils):**
+**PAH concentrations (EU maximum cited by the review: 2 µg/kg for oils):**
 - Camellia oil: 7.15 µg/kg; flaxseed: 8.62; peanut: 6.44; sesame: 6.31; corn: 6.08–182.79; canola: 129.28; palm: 22.6; sunflower: 5.63; olive: 5.39; soybean: 5.34
 
 ## Methods
@@ -58,19 +58,39 @@ Systematic review following adapted PRISMA principles. Databases: MEDLINE/PubMed
 
 ## Implications
 
-**Certification:** Table A1 provides a useful multi-oil comparison benchmark for the HMT&C edible-oil workbench. The olive oil range (Pb 3.14–17.48 µg/kg; Cd 3.14–5.06 µg/kg) is consistent with well-controlled European production and provides a reasonably clean baseline. Flaxseed and sesame oils show substantially higher Pb and Cd concentrations in the tabulated data, a meaningful product-level risk contrast.
+**Certification:** Table A1 provides source-level context for comparing heavy-metal and PAH values across edible oil types. The olive oil range (Pb 3.14–17.48 µg/kg; Cd 3.14–5.06 µg/kg) is one compiled review range, while flaxseed and sesame oils show higher Pb and Cd concentrations in the tabulated data. Primary-study extraction is needed before using these values as calibrated oil-type estimates.
 
 **Courses:** The review's Table 3 and Table A1 provide a pedagogically useful cross-oil contamination comparison that can anchor module content on edible oil safety.
 
-**App:** The tabulated ranges in Table A1 can be used as rough prior values for oil-type contamination profiles; however, the composite nature of the table (multiple underlying studies, unclear weighting) means these should be treated as indicative ranges rather than calibrated estimates.
+**App:** The tabulated ranges in Table A1 are useful qualitative priors for oil-type context; however, the composite nature of the table (multiple underlying studies, unclear weighting) means they should not be promoted to structured contamination_profile values without primary-study extraction.
 
 **Speciation caution:** The review does not distinguish iAs from tAs in its heavy metals discussion. All arsenic figures from this source must be treated as total arsenic.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 - [[ingredients/olive-oil]]
 - [[ingredients/soybean-oil]]
-- [[ingredients/palm-oil]]
 - [[ingredients/sunflower-oil]]
 - [[ingredients/rice-bran-oil]]
+- [[ingredients/peanut-oil]]
+- [[ingredients/sesame-oil]]
+- [[ingredients/rapeseed-oil]]
+- [[ingredients/corn-oil]]
+- [[ingredients/vegetable-oils]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+- [[metals/arsenic-total]]
+- [[metals/nickel]]
+- [[metals/chromium]]
+- [[metals/aluminum]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/iron]]
+- [[metals/manganese]]
+- [[metals/vanadium]]
+- [[metals/cobalt]]
+- [[metals/mercury-total]]
+
+## Verification notes
+
+- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated raw PDF path, removed the invalid `palm-oil` ingredient link, expanded metal and oil-ingredient scope to match Table A1 where current slugs exist, and reframed HMT&C/workbench language as source-level context.
+- The review does not distinguish inorganic from total arsenic or methylmercury from total mercury; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
